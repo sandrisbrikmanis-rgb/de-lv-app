@@ -157,10 +157,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: Väike suuruse või mahu poolest.",
         "klein tähendab peamiselt: väike suurus.",
-        "Sageli kirjeldab: asja/isiku suurust.",
-        "klein tähendab peamiselt: väike/noor.",
-        "Sageli kirjeldab: last.",
-        "klein kirjeldab väikest suurust."
+        "Sageli kirjeldab: asja/isiku suurust."
       ],
       "examples": [
         {
@@ -190,8 +187,7 @@ const A1_WORDS = [
       ],
       "important": [
         "klein = mõõtmetelt väike.",
-        "klein = väike.",
-        "Väike suuruse või mahu poolest."
+        "klein = väike."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1217,7 +1213,8 @@ const A1_WORDS = [
       ],
       "important": [
         "Ich auch wünsche Ihnen ei ole õige sõnajärg.",
-        "auch = ka."
+        "auch = ka.",
+        "Valesti: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3126,7 +3123,8 @@ const A1_WORDS = [
       },
       "important": [
         "bis = piirini või ajahetkeni.",
-        "bis jetzt = seni; bis dass = kuni ajani, mil."
+        "bis jetzt = seni; bis dass = kuni ajani, mil.",
+        "bis jetzt tähendab kuni siiani."
       ]
     }
   },
@@ -3146,12 +3144,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: Viisakussõna väikese algustähega. Kasutatakse viisakuse väljendamiseks — palun.",
         "bitte tähendab peamiselt: viisakus.",
-        "Sageli kirjeldab: viisakussõna.",
-        "bitte tähendab peamiselt: palve/nõudmine.",
-        "Sageli kirjeldab: nimisõna (die).",
-        "bitte väikese algustähega on viisakussõna — see tähendab palun (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte suure algustähega ja artikliga die on nimisõna — see tähendab palvet või soovi (Ich habe eine Bitte = mul on üks palve).",
-        "Mitmuses: die Bitten."
+        "Sageli kirjeldab: viisakussõna."
       ],
       "examples": [
         {
@@ -3185,8 +3178,7 @@ const A1_WORDS = [
       "important": [
         "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
         "die Bitte suure algustähega ja artikliga die on nimisõna.",
-        "Mitmus: die Bitten (palved).",
-        "Vale: Die Bitte schön! → Õige: Bitte schön!"
+        "Mitmus: die Bitten (palved)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3291,11 +3283,7 @@ const A1_WORDS = [
         "Põhiidee: Nimisõna artikliga die ja suure algustähega. Konkreetne palve või taotlus.",
         "die Bitte tähendab peamiselt: viisakus.",
         "Sageli kirjeldab: viisakussõna.",
-        "die Bitte tähendab peamiselt: palve/soov.",
-        "Sageli kirjeldab: nimisõna (die).",
-        "bitte väikese algustähega on viisakussõna — see tähendab palun (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte suure algustähega ja artikliga die on nimisõna — see tähendab palvet või soovi (Ich habe eine Bitte = mul on üks palve).",
-        "Mitmuses: die Bitten."
+        "die Bitte tähendab peamiselt: palve/soov."
       ],
       "examples": [
         {
@@ -3329,8 +3317,7 @@ const A1_WORDS = [
       "important": [
         "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
         "die Bitte suure algustähega ja artikliga die on nimisõna.",
-        "Mitmus: die Bitten (palved).",
-        "Vale: Die Bitte schön! → Õige: Bitte schön!"
+        "Mitmus: die Bitten (palved)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3765,7 +3752,8 @@ const A1_WORDS = [
         "Põhiidee: bringen tähendab midagi kellelegi tooma, viima või toimetama.",
         "bringen kasutatakse, kui midagi viiakse teise kohta või teise inimese juurde.",
         "See ei ole sama mis nehmen, sest nehmen tähendab endale võtma.",
-        "holen tähendab järele minema ja tooma või võtma."
+        "holen tähendab järele minema ja tooma või võtma.",
+        "Tõlkimist määrab kontekst."
       ],
       "examples": [
         {
@@ -3817,7 +3805,8 @@ const A1_WORDS = [
       },
       "important": [
         "bringen näitab suunda kellegi juurde või mingisse kohta.",
-        "nehmen tähendab võtma, aga mitte tingimata kellelegi teisele kohale toimetama."
+        "nehmen tähendab võtma, aga mitte tingimata kellelegi teisele kohale toimetama.",
+        "Eesti keeles sõltub tõlge kontekstist."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5182,7 +5171,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "üks",
-      "explanation": "Kasutatakse koos meessoost nimisõnaga. Osutab ühele kindlale asjale või inimesele mitme võimaluse hulgast.",
+      "explanation": [
+        "Peamine idee: ein on määramata artikkel.",
+        "ein on määramata artikkel meessoo ja kesksoo nimisõnadele nominatiivis.",
+        "ein kasutatakse meessoos: ein Mann.",
+        "ein kasutatakse kesksoos: ein Buch.",
+        "Naissoos kasutatakse: eine.",
+        "Akusatiivis meessoos: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -5306,7 +5302,9 @@ const A1_WORDS = [
       },
       "important": [
         "ein ei ole määrav artikkel.",
-        "Kui asi on juba konkreetselt teada, on sageli vaja der, die või das."
+        "Kui asi on juba konkreetselt teada, on sageli vaja der, die või das.",
+        "eine — naissoo.",
+        "einen — akusatiiv."
       ],
       "comparison": [
         {
@@ -5389,7 +5387,7 @@ const A1_WORDS = [
         {
           "word": "der Schnee",
           "meaning": "lumi",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = Lumi on valge."
         },
         {
           "word": "kalt",
@@ -5661,7 +5659,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "kõigepealt",
-      "explanation": "“erst” kasutatakse järjekorra näitamiseks (kõigepealt) või selle rõhutamiseks, et midagi toimub hiljem kui oodatud või väiksemas mahus (alles).",
+      "explanation": [
+        "Peamine idee: erst tavaliselt tähendab ainult. Kuid kindlas kontekstis võib see tähendada ka kõigepealt.",
+        "erst näitab sageli, et miski juhtub hiljem, kui oodati.",
+        "Ich bin erst 18. — Mul on ainult 18 aastat.",
+        "Es ist erst Montag. — On alles pommipäev.",
+        "Erst lernen, dann spielen. — Kõigepealt õppida, siis mängida."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -5849,7 +5853,8 @@ const A1_WORDS = [
       },
       "important": [
         "erst ja nur võivad mõlemad kõlada nagu “ainult”, aga need ei ole üks ja sama.",
-        "erst räägib sageli ajast, järjekorrast või alles saavutatud punktist; nur piirab hulka."
+        "erst räägib sageli ajast, järjekorrast või alles saavutatud punktist; nur piirab hulka.",
+        "zuerst tavaliselt tähendab: kõigepealt."
       ]
     }
   },
@@ -5866,7 +5871,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "see",
-      "explanation": "Saksa keeles ei kasutata “es” enda kohta rääkimiseks. Seda kasutatakse, et tähistada: see, ta või umbisikulist vormi (ilm, aeg, mitmesugused umbisikulised laused).",
+      "explanation": [
+        "Peamine idee: es on asesõna.",
+        "Seda kasutatakse: see, isikute mitteotstarbelist ehitistes."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -6012,7 +6020,8 @@ const A1_WORDS = [
       },
       "important": [
         "Saksa es ei ole eesti keele “mina”.",
-        "Eesti “mina” on saksa keeles ich; saksa es tähendab sageli see/ta või jääb tõlkimata."
+        "Eesti “mina” on saksa keeles ich; saksa es tähendab sageli see/ta või jääb tõlkimata.",
+        "Eesti keeles \"es\" on ma; saksa es tavaliselt tähendab see või ei tõlgita."
       ],
       "comparison": [
         {
@@ -6046,9 +6055,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: etwas tähendab olenevalt kontekstist midagi või natuke.",
         "Kui etwas asendab tundmatut asja, öeldakse eesti keeles tavaliselt midagi.",
-        "Kui etwas seisab omadussõna või hulga juures, tähendab see sageli natuke.",
-        "Vestlustes on etwas väga sage ja neutraalne A1 sõna.",
-        "Kõige tähtsam on eristada: etwas kaufen = midagi ostma, etwas müde = veidi väsinud."
+        "Kui etwas seisab omadussõna või hulga juures, tähendab see sageli natuke."
       ],
       "examples": [
         {
@@ -6081,7 +6088,7 @@ const A1_WORDS = [
         {
           "word": "was",
           "meaning": "midagi (kõnekeeles)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Kas sa tahad midagi juua?"
         },
         {
           "word": "ein bisschen",
@@ -6091,7 +6098,7 @@ const A1_WORDS = [
         {
           "word": "nichts",
           "meaning": "mitte midagi",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Mul pole midagi vaja."
         }
       ],
       "tip": {
@@ -6099,7 +6106,8 @@ const A1_WORDS = [
       },
       "important": [
         "etwas ei ole sama mis nichts: etwas tähendab, et midagi on, aga nichts tähendab mitte midagi.",
-        "Eesti keeles kõlab mõnikord paremini midagi, mitte miski, näiteks: etwas trinken = midagi jooma."
+        "Eesti keeles kõlab mõnikord paremini midagi, mitte miski, näiteks: etwas trinken = midagi jooma.",
+        "Eesti keeles kõlab mõnikord paremini midagi, mitte miski, näiteks: etwas trinken = midagi juua."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8115,7 +8123,10 @@ const A1_WORDS = [
           "example": "Ich mag das. – See meeldib mulle."
         }
       ],
-      "tip": "Pea meeles konstruktsiooni: Das gefällt mir. Ära tõlgi saksa sõnajärge eesti keelde sõna-sõnalt.",
+      "tip": [
+        "Pea meeles konstruktsiooni: Das gefällt mir.",
+        "Ära tee sõnasõnalist eesti keele sõnajärjekorda."
+      ],
       "important": [
         "gefallen kasutatakse daativiga: mir, dir, ihm, ihr.",
         "Das gefällt mir = see meeldib mulle."
@@ -8199,7 +8210,10 @@ const A1_WORDS = [
           "example": "Geschichte lernen – ajalugu õppima"
         }
       ],
-      "tip": "Artikliga eine ja mitmuses tähendab Geschichte tavaliselt lugu. Õppeainena tähendab Geschichte ajalugu.",
+      "tip": [
+        "Millise eine ja mitmusel tavaliselt räägitakse loost.",
+        "Kui õppeaine Geschichte tähendab ajalugu."
+      ],
       "important": [
         "die Geschichten = lood.",
         "Geschichte ajaloo tähenduses on tavaliselt ainsuses."
@@ -8247,7 +8261,10 @@ const A1_WORDS = [
           "example": "meine Schwester – minu õde"
         }
       ],
-      "tip": "Geschwister kasutatakse tavaliselt mitmuses. Ühe inimese puhul vali Bruder või Schwester.",
+      "tip": [
+        "Geschwister kasutatakse tavaliselt mitmusesse.",
+        "Ühe isiku puhul vali Bruder või Schwester."
+      ],
       "important": [
         "Ära kasuta A1-tasemel ein Geschwister tavalise ainsusevormina."
       ]
@@ -8314,8 +8331,7 @@ const A1_WORDS = [
         "Põhiidee: gleich tähendab aja mõttes kohe, võrdluses tähendab ühesugune.",
         "Kui jutt on ajast, gleich = kohe/varsti (Ich komme gleich. = Ma tulen kohe.).",
         "Kui jutt on võrdlusest, gleich = ühesugune/sama (die gleiche Farbe = ühesugune värv).",
-        "sõna gleich võib kasutada ka eessõnana koos Dativiga, see tähendab nagu (gleich mir = nagu mina).",
-        "Kontekst (ajamäärus või võrdlus) näitab õiget tähendust."
+        "sõna gleich võib kasutada ka eessõnana koos Dativiga, see tähendab nagu (gleich mir = nagu mina)."
       ],
       "examples": [
         {
@@ -8511,10 +8527,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: Suur mõõtmete poolest või inimese puhul - pikk kasvult.",
         "groß tähendab peamiselt: suur mõõt.",
-        "Sageli kirjeldab: üldist suurust.",
-        "groß tähendab peamiselt: inimese pikkus.",
-        "Sageli kirjeldab: isikut.",
-        "groß kirjeldab üldist suurust või inimese pikkust."
+        "Sageli kirjeldab: üldist suurust."
       ],
       "examples": [
         {
@@ -8540,8 +8553,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Inimese puhul tähendab Er ist groß pikka kasvu.",
-        "groß = suur.",
-        "Suur suuruse poolest või inimese kohta - pikk kasvult."
+        "groß = suur."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8663,7 +8675,10 @@ const A1_WORDS = [
           "example": "mein Großvater – minu vanaisa"
         }
       ],
-      "tip": "Großeltern tähendab vanavanemaid koos. Ühe inimese puhul kasuta Großmutter või Großvater.",
+      "tip": [
+        "Großeltern on mitmuse vorm.",
+        "Ühe isiku kohta kasutatakse Großmutter või Großvater."
+      ],
       "important": [
         "Großeltern on mitmusevorm; tavaliselt ei kasutata seda ühe vanavanema kohta."
       ]
@@ -8943,7 +8958,7 @@ const A1_WORDS = [
         {
           "word": "machen",
           "meaning": "tegema / valmistama",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Ma teen seda."
         }
       ],
       "tip": {
@@ -9181,7 +9196,7 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "hoidma / peatuma",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = Buss peatub."
         },
         {
           "word": "nehmen",
@@ -9204,7 +9219,8 @@ const A1_WORDS = [
       },
       "important": [
         "halten ei tähenda ainult “hoidma”. Sõiduki puhul tähendab see sageli peatuma.",
-        "Ich halte das für... on arvamuse fraas: “ma pean seda ...-ks”."
+        "Ich halte das für... on arvamuse fraas: “ma pean seda ...-ks”.",
+        "Palun halten Sie an kasutab eraldatavat verbi anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9433,7 +9449,10 @@ const A1_WORDS = [
           "example": "Mein Arm tut weh. – Mu käsivars valutab."
         }
       ],
-      "tip": "Pea meeles: Hand on käsi randmest sõrmedeni, Arm on käsivars.",
+      "tip": [
+        "Hand = käsi.",
+        "Arm = käsi küünarnukist käeni."
+      ],
       "important": [
         "Mitmus: die Hände."
       ]
@@ -9527,7 +9546,7 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "nimi olema / tähendama",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Mind kutsutakse Anna."
         },
         {
           "word": "nennen",
@@ -9542,12 +9561,12 @@ const A1_WORDS = [
         {
           "word": "rufen",
           "meaning": "hüüdma / helistama",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Ma kutsun sind."
         },
         {
           "word": "anrufen",
           "meaning": "helistama",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "example": "Ich rufe dich an. = Ma helistun sulle."
         }
       ],
       "tip": {
@@ -9793,10 +9812,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: Kõrge vertikaalselt, taseme või kõrguse poolest.",
         "hoch tähendab peamiselt: kõrguselt suur.",
-        "Sageli kirjeldab: vertikaalset kõrgust.",
-        "hoch tähendab peamiselt: kõrge tase.",
-        "Sageli kirjeldab: hindu/arve.",
-        "hoch kirjeldab kõrgust, vertikaalset suunda või taset."
+        "Sageli kirjeldab: vertikaalset kõrgust."
       ],
       "examples": [
         {
@@ -10996,7 +11012,7 @@ const A1_WORDS = [
         {
           "word": "im",
           "meaning": "sees, kus? (Dativ)",
-          "example": "im Kino – kino"
+          "example": "im Kino – kinno"
         },
         {
           "word": "in",
@@ -12067,7 +12083,7 @@ const A1_WORDS = [
         {
           "word": "wissen",
           "meaning": "teadma",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Ma tean seda."
         }
       ],
       "tip": {
@@ -18921,8 +18937,7 @@ const A1_WORDS = [
         "Põhiidee: probieren tähendab proovima või maitsma.",
         "Kui jutt on toidust või joogist, tähendab probieren sageli maitsma.",
         "Kui jutt on tegevusest, meetodist või asjast, tähendab probieren proovima.",
-        "testen tähendab süstemaatilist testimist või kontrollimist, mitte lihtsalt proovimist.",
-        "See ei ole sama mis prüfen, mis tähendab põhjalikumalt kontrollima."
+        "testen tähendab süstemaatilist testimist või kontrollimist, mitte lihtsalt proovimist."
       ],
       "examples": [
         {
@@ -18978,8 +18993,7 @@ const A1_WORDS = [
       },
       "important": [
         "probieren ei ole peamine sõna ametliku kontrollimise jaoks.",
-        "testen on süstemaatilisem kui probieren.",
-        "Dokumenti või arvet kontrollida on tavaliselt prüfen."
+        "testen on süstemaatilisem kui probieren."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21186,8 +21200,7 @@ const A1_WORDS = [
         "Lause alguses on sie alati suure algustähega — Sie —, olenemata tähendusest. Seetõttu tuleb tähendus (tema, nemad või viisakas Teie) määrata konteksti ja tegusõna vormi järgi, mitte suurtähe järgi.",
         "Viisakas pöördumine on alati suure S-iga: Sie, mitte sie.",
         "Tema: sie kocht (ainsus). Nemad: sie kochen (mitmus, tuttavlik). Teie: Sie kochen (mitmus, viisakas).",
-        "Vale: sie kocht → Õige: Sie kocht (lausealguses)",
-        "Vale: Sie kocht (nemad tähenduses) → Õige: Sie kochen"
+        "Vale: sie kocht → Õige: Sie kocht (lausealguses)"
       ],
       "sectionAccents": {
         "explanation": {

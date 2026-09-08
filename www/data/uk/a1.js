@@ -149,10 +149,7 @@ const A1_WORDS = [
       "explanation": [
         "Головна думка: невеликий за розміром або обсягом.",
         "klein в основному означає: малий розмір.",
-        "Часто описує: розмір речі/людини.",
-        "klein в основному означає: малий/молодий.",
-        "Часто описує: дитина.",
-        "klein описує малий розмір."
+        "Часто описує: розмір речі/людини."
       ],
       "examples": [
         {
@@ -182,8 +179,7 @@ const A1_WORDS = [
       ],
       "important": [
         "klein = малий розмір.",
-        "klein = малий.",
-        "Невеликі за розміром або обсягом."
+        "klein = малий."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1120,7 +1116,8 @@ const A1_WORDS = [
       ],
       "important": [
         "Ich auch wünsche Ihnen не правильний порядок слів.",
-        "auch = також."
+        "auch = також.",
+        "Неправильно: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1870,7 +1867,7 @@ const A1_WORDS = [
     "de": "Sauna",
     "de_article": "die",
     "de_plural": "die Saunen",
-    "lv": "sauna",
+    "lv": "сауна",
     "level": "A1"
   },
   {
@@ -2113,7 +2110,7 @@ const A1_WORDS = [
     "de": "Balkon",
     "de_article": "der",
     "de_plural": "die Balkons",
-    "lv": "balkons",
+    "lv": "балкони",
     "level": "A1"
   },
   {
@@ -2366,8 +2363,192 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "візит",
-    "level": "A1"
+    "lv": "відвідування",
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "відвідування",
+      "explanation": [
+        "Головна ідея: der Besuch означає відвідування, візит або оціномин.",
+        "Якщо мова йде про місце або подію, українською мовою доречно відвідування.",
+        "Якщо мова йде про відвідування людини, українською мовою можна сказати оціномин або візит.",
+        "Множина — die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "Візит до музею був цікавий."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Дякую за твій візит."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "Лікар робить хід."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "відвідування • оціномин • візит",
+          "example": "Danke für deinen Besuch. – Дякую за твій візит."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "відвідувач",
+          "example": "Der Besucher wartet draußen. – Відвідувач чекає надворі."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "відвідувати • оціновувати",
+          "example": "Ich besuche meine Großeltern. – Я відвідую своїх бабусю та дідуся."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch не тільки оціномин; це може бути також відвідування або візит.",
+        "Множина: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2378,8 +2559,217 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "відвідувати • відвідувати",
-    "level": "A1"
+    "lv": "відвідувати",
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "відвідувати",
+      "explanation": [
+        "Головна ідея: besuchen використовується при відвідуванні місця, події або особи.",
+        "Місце, подію або курс українською мовою зазвичай відвідують.",
+        "Якщо besuchen стосується людини, українською мовою часто природніше оціновувати.",
+        "У німецькій мові besuchen використовується без прийменника і з акузативом."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Я відвідую музей."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Ми відвідуємо курс німецької мови."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Я оціновую своїх бабусю та дідуся."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "відвідувати місце або подію • оціновувати особу",
+          "example": "Ich besuche meine Großeltern. – Я відвідую своїх бабусю та дідуся."
+        },
+        {
+          "word": "treffen",
+          "meaning": "зустрічати",
+          "example": "Ich treffe meinen Freund. – Я зустрічаю свого друга."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "йти до когось",
+          "example": "Ich gehe zu meinem Freund. – Я йду до свого друга."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen використовується без прийменника: Ich besuche meine Freundin.",
+        "Український переклад залежить від об'єкта: відвідувати місце, оціновувати особу."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -2518,7 +2908,8 @@ const A1_WORDS = [
       },
       "important": [
         "bis = до обмеження або моменту часу.",
-        "bis jetzt = поки що; bis dass = поки."
+        "bis jetzt = поки що; bis dass = поки.",
+        "bis jetzt означає до цього часу."
       ]
     }
   },
@@ -2538,12 +2929,7 @@ const A1_WORDS = [
       "explanation": [
         "Головна думка: ввічливість у нижньому регістрі. Був ввічливим - будь ласка.",
         "bitte в основному означає: ввічливість.",
-        "Часто описує: ввічливе слово.",
-        "bitte в основному означає: запит/прохання.",
-        "Часто характеризується: іменник (die).",
-        "bitte з маленької початкової літери — ввічливе слово — воно означає будь ласка (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte з великої літери та артикль die є іменник - означає прохання або прохання (Ich habe eine Bitte = у мене є прохання).",
-        "В множині: die Bitten."
+        "Часто описує: ввічливе слово."
       ],
       "examples": [
         {
@@ -2578,8 +2964,7 @@ const A1_WORDS = [
       "important": [
         "bitte пишеться з малої літери — це ввічливе слово, а не іменник.",
         "die Bitte з великої літери та артикль die є іменник.",
-        "Множина: die Bitten (запити).",
-        "Неправильно: Die Bitte schön! → Правильно: Bitte schön!"
+        "Множина: die Bitten (запити)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2656,13 +3041,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "будь ласка",
+          "example": "Komm bitte herein. – Будь ласка, входь."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "запит",
+          "example": "Ich habe eine Bitte. – У мене є прохання."
         }
       ]
     }
@@ -2681,11 +3066,7 @@ const A1_WORDS = [
         "Головна думка: Іменник з артиклем die і великою літерою. Конкретне прохання чи запит.",
         "die Bitte в основному означає: ввічливість.",
         "Часто описує: ввічливе слово.",
-        "die Bitte в основному означає: запит/прохання.",
-        "Часто характеризується: іменник (die).",
-        "bitte з маленької початкової літери — ввічливе слово — воно означає будь ласка (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte з великої літери та артикль die є іменник - означає прохання або прохання (Ich habe eine Bitte = у мене є прохання).",
-        "В множині: die Bitten."
+        "die Bitte в основному означає: запит/прохання."
       ],
       "examples": [
         {
@@ -2720,8 +3101,7 @@ const A1_WORDS = [
       "important": [
         "bitte пишеться з малої літери — це ввічливе слово, а не іменник.",
         "die Bitte з великої літери та артикль die є іменник.",
-        "Множина: die Bitten (запити).",
-        "Неправильно: Die Bitte schön! → Правильно: Bitte schön!"
+        "Множина: die Bitten (запити)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2792,13 +3172,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "запит",
+          "example": "Ich habe eine Bitte. – У мене є прохання."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "будь ласка",
+          "example": "Komm bitte herein. – Будь ласка, входь."
         }
       ]
     }
@@ -3120,7 +3500,8 @@ const A1_WORDS = [
         "Головна думка: bringen означає принести, перенести або доставити щось комусь.",
         "bringen використовується, коли щось переміщується в інше місце або до іншої особи.",
         "Це не те саме, що nehmen, тому що nehmen означає взяти собі.",
-        "holen означає йти за і приносити або брати."
+        "holen означає йти за і приносити або брати.",
+        "Переклад визначається контекстом."
       ],
       "examples": [
         {
@@ -3163,8 +3544,8 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "брати",
+          "example": "Ich nehme das Buch. – Я беру книгу."
         }
       ],
       "tip": {
@@ -3172,7 +3553,8 @@ const A1_WORDS = [
       },
       "important": [
         "bringen показує напрямок до когось або місця.",
-        "nehmen означає взяти, але не обов'язково доставити іншому."
+        "nehmen означає взяти, але не обов'язково доставити іншому.",
+        "Український переклад залежить від контексту."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4446,7 +4828,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "неозначений артикль • один • хтось",
-      "explanation": "Вживається з іменником чоловічого роду. Вказівка ​​на одну річ або людину з кількох можливостей.",
+      "explanation": [
+        "Головна ідея: ein є невизначеним артиклем.",
+        "ein — невизначений артикль для іменників чоловічого та середнього роду в називному відмінку.",
+        "ein використовується в чоловічому роді: ein Mann.",
+        "ein використовується в середньому роді: ein Buch.",
+        "У жіночому роді використовується: eine.",
+        "В акузативі чоловічого роду: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -4462,7 +4851,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "Дитина грається."
         }
       ],
       "tip": {
@@ -4552,27 +4941,29 @@ const A1_WORDS = [
       },
       "important": [
         "ein не є прописаним артикль.",
-        "Якщо справа вже конкретно відома, часто потрібні der, die або das."
+        "Якщо справа вже конкретно відома, часто потрібні der, die або das.",
+        "eine — жіночий рід.",
+        "einen — акузатив."
       ],
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
+          "meaning": "чоловічий рід",
           "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
+          "meaning": "жіночий рід",
           "example": "eine Frau"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
+          "meaning": "середній рід",
           "example": "Ich habe ein Buch."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
+          "meaning": "акузатив",
           "example": "einen Mann"
         }
       ]
@@ -4630,22 +5021,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "лід / морозиво",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Я їм морозиво."
         },
         {
           "word": "der Schnee",
           "meaning": "буде сніг",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = Сніг білий."
         },
         {
           "word": "kalt",
           "meaning": "холодний",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = Вода холодна."
         },
         {
           "word": "das Dessert",
           "meaning": "десерт",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Морозиво — це десерт."
         }
       ],
       "tip": {
@@ -4901,7 +5292,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "перший • тільки",
-      "explanation": "\"erst\" використовується, щоб вказати порядок (спочатку) або підкреслити, що щось відбувається пізніше, ніж очікувалося, або меншою мірою (лише).",
+      "explanation": [
+        "Головна ідея: erst найчастіше означає тільки. Проте в певному контексті це може означати й спочатку.",
+        "erst часто вказує на те, що щось відбувається пізніше, ніж очікується.",
+        "Ich bin erst 18. — Мені тільки 18.",
+        "Es ist erst Montag. — Це тільки понеділок.",
+        "Erst lernen, dann spielen. — Спочатку вчись, потім граймося."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -4929,17 +5326,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "перший • на початку",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Спочатку ми снідаємо."
         },
         {
           "word": "nur",
           "meaning": "тільки",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = У мене тільки 5 євро."
         },
         {
           "word": "dann",
           "meaning": "потім",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Потім ми йдемо додому."
         }
       ],
       "tip": {
@@ -5088,7 +5485,8 @@ const A1_WORDS = [
       },
       "important": [
         "erst і nur можуть звучати як «тільки», але це не одне й те саме.",
-        "erst часто говорить про час, послідовність або точку, яку ще потрібно досягти; nur обмежує кількість."
+        "erst часто говорить про час, послідовність або точку, яку ще потрібно досягти; nur обмежує кількість.",
+        "zuerst частіше означає: спочатку."
       ]
     }
   },
@@ -5105,7 +5503,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "it • it • безособова форма",
-      "explanation": "Німецьке «Я» не використовується, щоб говорити про себе. Уживається на позначення: того, що або безособової форми (погода, час, різні безособові речення).",
+      "explanation": [
+        "Головна ідея: es — це займенник.",
+        "Його використовують: це, в безособових конструкціях."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -5216,18 +5617,19 @@ const A1_WORDS = [
       },
       "important": [
         "Німецьке я – це не латиське я.",
-        "латиське «I» німецькою — ich; Німецький es часто означає це/це або не перекладається."
+        "латиське «I» німецькою — ich; Німецький es часто означає це/це або не перекладається.",
+        "Лативський \"es\" німецькою — ich; німецька es часто означає це або не перекладається."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "це • безособова форма",
+          "example": "Es regnet. – Йде дощ."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "es (особа)",
+          "example": "Ich lerne Deutsch. – Я вивчаю німецьку мову."
         }
       ]
     }
@@ -5250,9 +5652,7 @@ const A1_WORDS = [
       "explanation": [
         "Головна думка: etwas означає дещо або трохи залежно від контексту.",
         "Якщо etwas замінює невідоме, це зазвичай говорить щось латиською мовою.",
-        "Коли etwas стоїть перед прикметником або кількістю, це часто означає небагато.",
-        "etwas є дуже поширеним і нейтральним словом A1 у розмові.",
-        "Найважливіше розрізняти: etwas kaufen = щось купити, etwas müde = трохи втомився."
+        "Коли etwas стоїть перед прикметником або кількістю, це часто означає небагато."
       ],
       "examples": [
         {
@@ -5280,22 +5680,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "щось / трохи",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Мені щось потрібно."
         },
         {
           "word": "was",
           "meaning": "щось (розмовне)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Ти хочеш щось пити?"
         },
         {
           "word": "ein bisschen",
           "meaning": "трохи",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Я трохи втомлений."
         },
         {
           "word": "nichts",
           "meaning": "нічого",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Мені нічого не потрібно."
         }
       ],
       "tip": {
@@ -5303,7 +5703,8 @@ const A1_WORDS = [
       },
       "important": [
         "etwas не те саме, що nichts: etwas означає, що щось є, а nichts нічого не означає.",
-        "Латиською щось звучить краще, ніж щось, наприклад: etwas trinken = щось випити."
+        "Латиською щось звучить краще, ніж щось, наприклад: etwas trinken = щось випити.",
+        "Українською мовою іноді краще звучить щось, а не щось, наприклад: etwas trinken = щось пити."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5538,17 +5939,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "ви",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Ви дружні."
         },
         {
           "word": "euch",
           "meaning": "тобі / тобі",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Я вам допомагаю."
         },
         {
           "word": "euer",
           "meaning": "твоя",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Це ваш дім."
         }
       ],
       "info": [
@@ -6010,7 +6411,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "знайти / розглянути",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Мене це влаштовує."
         },
         {
           "word": "suchen",
@@ -6701,12 +7102,104 @@ const A1_WORDS = [
     "de_article": "der",
     "de_plural": "die Fußbälle",
     "lv": "футбол",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "футбол",
+      "explanation": [
+        "Головна ідея: Fußball найчастіше означає футбол як вид спорту.",
+        "З артиклем і як лічильне іменник der Fußball може також означати футбольний м'яч.",
+        "Множина die Fußbälle означає футбольні м'ячі, а не кілька видів спорту."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "я граю у футбол."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "футбольний м'яч знаходиться в саду."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "ми купуємо два футбольних м'яча."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "футбол як вид спорту",
+          "example": "Ich spiele Fußball. – Я граю у футбол."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "футбольний м'яч",
+          "example": "Der Fußball ist neu. – М'яч футбольний новий."
+        }
+      ],
+      "tip": [
+        "Без артикля spielen Fußball зазвичай означає грати у футбол.",
+        "Як лічильне ein Fußball та die Fußbälle — це футбольний м'яч та футбольні м'ячі."
+      ],
+      "important": [
+        "die Fußbälle означають футбольні м'ячі.",
+        "Вид спорту Fußball зазвичай використовується в однині."
+      ]
+    }
   },
   {
     "de": "ganz",
-    "lv": "все",
-    "level": "A1"
+    "lv": "здоровий",
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "здоровий",
+      "explanation": [
+        "Головна ідея: ganz поряд з іменником означає цілий або все разом.",
+        "Перед прикметником або прислівником ganz може означати абсолютно, зовсім або досить.",
+        "ganz не те ж саме, що займенник alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "я працюю весь день."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "весь дім чистий."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "це абсолютно безпечно."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "їжа досить хороша."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "цілий • все разом • абсолютно",
+          "example": "der ganze Tag – весь день"
+        },
+        {
+          "word": "alles",
+          "meaning": "все",
+          "example": "Alles ist gut. – Все гаразд."
+        }
+      ],
+      "tip": [
+        "Перед іменником ganz часто означає все або цілий.",
+        "Перед прикметником ganz часто означає абсолютно або досить."
+      ],
+      "important": [
+        "der ganze Tag = весь день.",
+        "alles = все як займенник."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -6985,7 +7478,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "подобатися",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "подобатися",
+      "explanation": [
+        "Головна ідея: gefallen означає подобатися, але структура німецького речення відрізняється від української.",
+        "Річ, яка подобається, німецькою є підметом речення.",
+        "Особа, якій щось подобається, є в дативі: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "мені це подобається."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "чи тобі подобається сукня?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "нам подобається фільм."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "подобатися • особа в дативі",
+          "example": "Das gefällt mir. – Мені це подобається."
+        },
+        {
+          "word": "mögen",
+          "meaning": "подобатися • з радістю вибирати",
+          "example": "Ich mag das. – Мені це подобається."
+        }
+      ],
+      "tip": [
+        "Запам'ятай конструкцію: Das gefällt mir.",
+        "Не створюй буквальний український порядок слів."
+      ],
+      "important": [
+        "gefallen використовується з дативом: mir, dir, ihm, ihr.",
+        "Das gefällt mir = мені це подобається."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7027,14 +7564,102 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "повість • історія",
-    "level": "A1"
+    "lv": "розповідь",
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "розповідь",
+      "explanation": [
+        "Головна ідея: Geschichte може означати розповідь або історію.",
+        "Множина die Geschichten зазвичай означає розповіді.",
+        "Коли мова йде про історію, слово Geschichte зазвичай використовується в однині."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "він розповідає розповідь."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "я вивчаю історію."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "це історія Німеччини."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "розповідь",
+          "example": "eine interessante Geschichte – цікава розповідь"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "історія",
+          "example": "Geschichte lernen – вивчати історію"
+        }
+      ],
+      "tip": [
+        "З eine та в множині зазвичай мова йде про розповідь.",
+        "Як навчальний предмет Geschichte означає історію."
+      ],
+      "important": [
+        "die Geschichten = розповіді.",
+        "Geschichte як історія зазвичай в однині."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "брати і сестри",
-    "level": "A1"
+    "lv": "брати та сестри",
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "брати та сестри",
+      "explanation": [
+        "Головна ідея: Geschwister означає братів та сестер разом.",
+        "Це слово зазвичай використовується тільки в множині.",
+        "Для однієї особи використовуй Bruder чи Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "у мене два брати чи сестри."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "мої брати та сестри живуть у Берліні."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "брати та сестри",
+          "example": "Meine Geschwister – мої брати та сестри"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "брат",
+          "example": "mein Bruder – мій брат"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "сестра",
+          "example": "meine Schwester – моя сестра"
+        }
+      ],
+      "tip": [
+        "Geschwister зазвичай використовується в множині.",
+        "Для однієї особи обери Bruder чи Schwester."
+      ],
+      "important": [
+        "Не використовуй ein Geschwister як звичайну однину форму А1."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7097,8 +7722,7 @@ const A1_WORDS = [
         "Головна думка: gleich тимчасово означає негайно, порівняльно означає рівно.",
         "Коли справа доходить до часу, gleich = негайно/за мить (Ich komme gleich. = Я прийду негайно.).",
         "Коли справа доходить до порівняння, gleich = однаковий/однаковий (die gleiche Farbe = однаковий колір).",
-        "gleich також може використовуватися як прийменник з давальним, що означає як (gleich mir = як я).",
-        "Контекст (час примітка або порівняння) показує правильне значення."
+        "gleich також може використовуватися як прийменник з давальним, що означає як (gleich mir = як я)."
       ],
       "examples": [
         {
@@ -7261,10 +7885,7 @@ const A1_WORDS = [
       "explanation": [
         "Головна думка: Великий розміром або для людини - високий на зріст.",
         "groß в основному означає: великий розмір.",
-        "Часто характеризується: загальним розміром.",
-        "groß в основному означає: людський зріст.",
-        "Часто описує: людину.",
-        "groß описує загальний розмір або зріст людини."
+        "Часто характеризується: загальним розміром."
       ],
       "examples": [
         {
@@ -7290,8 +7911,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Для людини Er ist groß означає високий зріст.",
-        "groß = великий.",
-        "Великий за розміром або для людини – високий на зріст."
+        "groß = великий."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7371,8 +7991,52 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "дідусь і бабуся",
-    "level": "A1"
+    "lv": "бабуся та дідусь",
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "бабуся та дідусь",
+      "explanation": [
+        "Головна ідея: Großeltern означає бабусю та дідуся разом.",
+        "Це слово використовується в множині.",
+        "В однині використовуй Großmutter чи Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "мої бабуся та дідусь живуть на селі."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "я відвідую своїх бабусю та дідуся."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "бабуся та дідусь",
+          "example": "meine Großeltern – мої бабуся та дідусь"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "бабуся",
+          "example": "meine Großmutter – моя бабуся"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "дідусь",
+          "example": "mein Großvater – мій дідусь"
+        }
+      ],
+      "tip": [
+        "Großeltern — множина.",
+        "Для однієї особи використовуй Großmutter чи Großvater."
+      ],
+      "important": [
+        "die Großeltern = бабуся та дідусь."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -7621,22 +8285,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "я маю",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = У мене є час."
         },
         {
           "word": "sein",
           "meaning": "бути",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Я тут."
         },
         {
           "word": "bekommen",
           "meaning": "отримати",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Я отримую подарунок."
         },
         {
           "word": "machen",
           "meaning": "робити / робити",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Я це роблю."
         }
       ],
       "tip": {
@@ -7858,22 +8522,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "утримання / зупинка",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = Автобус зупиняється."
         },
         {
           "word": "nehmen",
           "meaning": "брати",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Я беру сумку."
         },
         {
           "word": "anhalten",
           "meaning": "щоб зупинитися",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Будь ласка, зупиніться."
         },
         {
           "word": "denken",
           "meaning": "думати",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Я думаю, що це правильно."
         }
       ],
       "tip": {
@@ -7881,7 +8545,8 @@ const A1_WORDS = [
       },
       "important": [
         "halten — це не просто «тримати». Для транспорту це часто означає зупинку.",
-        "Ich halte das für... є фразою думки: «Я вважаю це...»."
+        "Ich halte das für... є фразою думки: «Я вважаю це...».",
+        "Bitte halten Sie an використовує відокремлювальне дієслово anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8041,8 +8706,51 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "рука (долоня)",
-    "level": "A1"
+    "lv": "долоня",
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "долоня",
+      "explanation": [
+        "Головна ідея: die Hand означає долоню.",
+        "У німецькій мові Arm та Hand — це два окремі слова.",
+        "У латвійській повсякденній мові слово roka часто може означати як Arm, так і Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "я миюся руки."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "вона тримає склянку в долоні."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "мені болить рука."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "долоня",
+          "example": "in der Hand – у долоні"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "руку",
+          "example": "Mein Arm tut weh. – Мені болить рука."
+        }
+      ],
+      "tip": [
+        "Hand = долоня.",
+        "Arm = рука від плеча до долоні."
+      ],
+      "important": [
+        "У німецькій мові Hand та Arm — це не одне й те ж слово."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -8132,27 +8840,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "називатися / мати на увазі",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Мене звуть Анна."
         },
         {
           "word": "nennen",
           "meaning": "називати / називати",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Він називає мене Томом."
         },
         {
           "word": "bedeuten",
           "meaning": "означає",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Що це означає?"
         },
         {
           "word": "rufen",
           "meaning": "дзвонити / дзвонити",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Я тебе кличу."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "дзвонити",
+          "example": "Ich rufe dich an. = Я тобі дзвоню."
         }
       ],
       "tip": {
@@ -8375,10 +9083,7 @@ const A1_WORDS = [
       "explanation": [
         "Головна думка: Висота по вертикалі, рівень або висота.",
         "hoch в основному означає: великий на зріст.",
-        "Часто характеризується: вертикальною висотою.",
-        "hoch в основному означає: високий рівень.",
-        "Часто характеризується: ціни/цифри.",
-        "hoch описує висоту, вертикальний напрямок або рівень."
+        "Часто характеризується: вертикальною висотою."
       ],
       "examples": [
         {
@@ -8607,8 +9312,203 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "охайний • приємний",
-    "level": "A1"
+    "lv": "гарна",
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "гарна",
+      "explanation": [
+        "Головна ідея: hübsch означає гарна, привабливої зовнішності або симпатична.",
+        "hübsch часто характеризує зовнішність людини, одягу, кімнати або предмета.",
+        "Українське люб'язна в деяких контекстах можливе, але воно занадто широке як основний переклад.",
+        "Характер або люб'язну поведінку у німецькій мові частіше характеризує nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "У неї гарна сукня."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "Кімната гарна."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "Це гарна картина."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "гарна • привабливої зовнішності",
+          "example": "Das ist ein hübsches Kleid. – Це гарна сукня."
+        },
+        {
+          "word": "schön",
+          "meaning": "гарна • приємна",
+          "example": "Der Garten ist schön. – Сад гарний."
+        },
+        {
+          "word": "nett",
+          "meaning": "люб'язна • дружелюбна",
+          "example": "Sie ist sehr nett. – Вона дуже люб'язна."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch не є універсальним перекладом для люб'язна.",
+        "Для характеру людини або люб'язної поведінки зазвичай більш підходить nett."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",
@@ -9330,7 +10230,7 @@ const A1_WORDS = [
         {
           "word": "im",
           "meaning": "в, де? (кому?)",
-          "example": "im Kino – kino"
+          "example": "im Kino – у кіно"
         },
         {
           "word": "in",
@@ -10295,22 +11195,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "вміти / знати",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Я вмію плавати."
         },
         {
           "word": "dürfen",
           "meaning": "бути дозволеним",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Чи можу я йти?"
         },
         {
           "word": "müssen",
           "meaning": "потрібно / бути так-",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Я повинен вчитися."
         },
         {
           "word": "wissen",
           "meaning": "знати",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Я це знаю."
         }
       ],
       "tip": {
@@ -10520,22 +11420,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "заплатити (ціна) • скільки",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Це коштує 5 євро."
         },
         {
           "word": "bezahlen",
           "meaning": "платити • платити (грошима)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Я оплачую рахунок."
         },
         {
           "word": "zahlen",
           "meaning": "платити • платити",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Чи можу я оплатити готівкою?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "скільки це коштує...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Скільки коштує книга?"
         }
       ],
       "tip": [
@@ -10823,7 +11723,7 @@ const A1_WORDS = [
     "de": "Kamera",
     "de_article": "die",
     "de_plural": "die Kameras",
-    "lv": "kamera",
+    "lv": "камера",
     "level": "A1"
   },
   {
@@ -16197,7 +17097,7 @@ const A1_WORDS = [
     "de": "Park",
     "de_article": "der",
     "de_plural": "die Parks",
-    "lv": "parks",
+    "lv": "парки",
     "level": "A1"
   },
   {
@@ -18210,7 +19110,7 @@ const A1_WORDS = [
     "de": "Sekunde",
     "de_article": "die",
     "de_plural": "die Sekunden",
-    "lv": "sekunde",
+    "lv": "секунда",
     "level": "A1"
   },
   {
@@ -19723,7 +20623,7 @@ const A1_WORDS = [
     "de": "Tante",
     "de_article": "die",
     "de_plural": "die Tanten",
-    "lv": "tante",
+    "lv": "тітка",
     "level": "A1"
   },
   {
@@ -19892,22 +20792,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "понад / над / поперек",
-          "example": "Wir sprechen über das Wetter."
+          "example": "Ми говоримо про погоду."
         },
         {
           "word": "auf",
           "meaning": "на поверхні",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Книга лежить на столі."
         },
         {
           "word": "unter",
           "meaning": "під",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Сумка знаходиться під столом."
         },
         {
           "word": "von",
           "meaning": "з/про з якогось джерела",
-          "example": "Ich höre von dir."
+          "example": "Я чую від тебе."
         }
       ],
       "tip": {
@@ -20119,22 +21019,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "біля / навколо / до",
-          "example": "Ich komme um acht."
+          "example": "Я приходжу о восьмій."
         },
         {
           "word": "am",
           "meaning": "на добу / у",
-          "example": "Am Montag komme ich."
+          "example": "У понеділок я приходжу."
         },
         {
           "word": "gegen",
           "meaning": "близько часу / проти",
-          "example": "Ich komme gegen acht."
+          "example": "Я приходжу близько восьмої."
         },
         {
           "word": "für",
           "meaning": "за / на користь",
-          "example": "Das ist für dich."
+          "example": "Це для тебе."
         }
       ],
       "tip": {
@@ -20341,22 +21241,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "під / між",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Сумка знаходиться під столом."
         },
         {
           "word": "über",
           "meaning": "понад / за",
-          "example": "Die Lampe hängt über dem Tisch."
+          "example": "Лампа висить над столом."
         },
         {
           "word": "zwischen",
           "meaning": "між двома речами",
-          "example": "Zwischen den Häusern."
+          "example": "Між будинками."
         },
         {
           "word": "auf",
           "meaning": "на поверхні",
-          "example": "Auf dem Tisch."
+          "example": "На столі."
         }
       ],
       "tip": {
@@ -20594,22 +21494,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "щоб зрозуміти",
-          "example": "Ich verstehe dich."
+          "example": "Я розумію тебе."
         },
         {
           "word": "können",
           "meaning": "вміти / знати",
-          "example": "Ich kann schwimmen."
+          "example": "Я можу плавати."
         },
         {
           "word": "wissen",
           "meaning": "знати факт",
-          "example": "Ich weiß das."
+          "example": "Я це знаю."
         },
         {
           "word": "kennen",
           "meaning": "знати",
-          "example": "Ich kenne ihn."
+          "example": "Я його знаю."
         }
       ],
       "tip": {
@@ -21179,22 +22079,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "перед / попереду",
-          "example": "Vor dem Essen..."
+          "example": "Перед їжею..."
         },
         {
           "word": "nach",
           "meaning": "після / до",
-          "example": "Nach dem Essen..."
+          "example": "Після їжі..."
         },
         {
           "word": "neben",
           "meaning": "поруч",
-          "example": "Neben dem Haus."
+          "example": "Поруч з будинком."
         },
         {
           "word": "hinter",
           "meaning": "ззаду",
-          "example": "Hinter dem Haus."
+          "example": "За будинком."
         }
       ],
       "tip": {
@@ -21688,22 +22588,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "якщо / коли",
-          "example": "Wenn du Zeit hast..."
+          "example": "Якщо у тебе є час..."
         },
         {
           "word": "ob",
           "meaning": "або в непрямому питанні",
-          "example": "Ich weiß nicht, ob..."
+          "example": "Я не знаю, чи..."
         },
         {
           "word": "wann",
           "meaning": "коли під питанням",
-          "example": "Wann kommst du?"
+          "example": "Коли ти приходиш?"
         },
         {
           "word": "weil",
           "meaning": "тому що",
-          "example": "Ich bleibe, weil ich krank bin."
+          "example": "Я залишаюся, тому що я хворий."
         }
       ],
       "tip": {
@@ -22094,22 +22994,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "стати",
-          "example": "Ich werde müde."
+          "example": "Я стаю втомленим."
         },
         {
           "word": "sein",
           "meaning": "бути",
-          "example": "Ich bin müde."
+          "example": "Я втомлений."
         },
         {
           "word": "bleiben",
           "meaning": "залишитися",
-          "example": "Ich bleibe hier."
+          "example": "Я залишаюся тут."
         },
         {
           "word": "machen",
           "meaning": "робити / робити",
-          "example": "Ich mache das."
+          "example": "Я це роблю."
         }
       ],
       "tip": {
@@ -22326,22 +23226,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "погодні умови",
-          "example": "Das Wetter ist schön."
+          "example": "Погода гарна."
         },
         {
           "word": "Zeit",
           "meaning": "час (момент)",
-          "example": "Ich habe keine Zeit."
+          "example": "У мене немає часу."
         },
         {
           "word": "Regen",
           "meaning": "дощ",
-          "example": "Es gibt viel Regen."
+          "example": "Йде багато дощу."
         },
         {
           "word": "Sonne",
           "meaning": "сонце",
-          "example": "Die Sonne scheint."
+          "example": "Сонце світить."
         }
       ],
       "tip": [
@@ -22787,22 +23687,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "до / на / теж / інфінітив",
-          "example": "Ich gehe zum Arzt."
+          "example": "Я йду до лікаря."
         },
         {
           "word": "nach",
           "meaning": "з містами/країнами",
-          "example": "Ich fahre nach Berlin."
+          "example": "Я їду в Берлін."
         },
         {
           "word": "in",
           "meaning": "в / до місця",
-          "example": "Ich gehe in die Schule."
+          "example": "Я йду до школи."
         },
         {
           "word": "bei",
           "meaning": "у когось / на роботі",
-          "example": "Ich bin bei Anna."
+          "example": "Я у Ганни."
         }
       ],
       "tip": {
@@ -23018,22 +23918,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "поїзд",
-          "example": "Der Zug kommt."
+          "example": "Поїзд приходить."
         },
         {
           "word": "die Bahn",
           "meaning": "залізниця / подорож потягом",
-          "example": "Ich fahre mit der Bahn."
+          "example": "Я їду залізницею."
         },
         {
           "word": "der Bus",
           "meaning": "автобус",
-          "example": "Der Bus kommt."
+          "example": "Автобус приходить."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "трамвай",
-          "example": "Die Straßenbahn ist hier."
+          "example": "Трамвай тут."
         }
       ],
       "tip": {
@@ -23621,17 +24521,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "дивитися телевізор",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Я дивлюся телевізор."
         },
         {
           "word": "das Fernsehen",
           "meaning": "телебачення (ЗМІ)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = На телебаченні показують фільм."
         },
         {
           "word": "sehen",
           "meaning": "побачити",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Я дивлюся фільм."
         }
       ],
       "tip": {
@@ -24709,7 +25609,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Неправильно: die Ferie, der Urlaube (на рівні A1).",
-        "Urlaub: im Urlaub sein / Urlaub machen.",
+        "Відпустка: бути у відпустці / брати відпустку.",
         "Неправильно: die Urlaube → Правильно: der Urlaub",
         "Робота: der Urlaub (лише в однині)."
       ],

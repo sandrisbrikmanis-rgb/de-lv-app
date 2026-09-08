@@ -147,10 +147,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: Pequeño en tamaño o alcance.",
         "Klein significa principalmente: tamaño pequeño.",
-        "A menudo describe: el tamaño de una cosa/persona.",
-        "Klein básicamente significa: pequeño/nuevo.",
-        "A menudo describe: un niño.",
-        "Klein describe un tamaño pequeño."
+        "A menudo describe: el tamaño de una cosa/persona."
       ],
       "examples": [
         {
@@ -175,13 +172,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "klein = mazs",
+        "klein = pequeño",
         "Utiliza klein cuando el contexto se adapta a este significado."
       ],
       "important": [
         "klein = tamaño pequeño.",
-        "klein = mazs.",
-        "Pequeño en tamaño o alcance."
+        "klein = mazs."
       ],
       "sectionAccents": {
         "explanation": {
@@ -297,12 +293,12 @@ const A1_WORDS = [
         {
           "word": "an",
           "meaning": "junto a una superficie o un borde",
-          "example": "an der Wand – pie sienas"
+          "example": "an der Wand – en la pared"
         },
         {
           "word": "auf",
           "meaning": "sobre una superficie horizontal",
-          "example": "auf dem Tisch – uz galda"
+          "example": "auf dem Tisch – en la mesa"
         },
         {
           "word": "bei",
@@ -484,12 +480,12 @@ const A1_WORDS = [
         {
           "word": "ab",
           "meaning": "comenzando desde el punto/tiempo",
-          "example": "ab Montag – no pirmdienas"
+          "example": "ab Montag – desde el lunes"
         },
         {
           "word": "von",
           "meaning": "desde un lugar o una fecha • punto de partida",
-          "example": "von mir – no manis"
+          "example": "von mir – de mí"
         },
         {
           "word": "aus",
@@ -1146,7 +1142,8 @@ const A1_WORDS = [
       ],
       "important": [
         "Ich auch wünsche Ihnen no es el orden correcto de las palabras.",
-        "auch = también."
+        "auch = también.",
+        "Incorrecto: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1434,12 +1431,12 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "desde el interior de un lugar; no se usa normalmente para superficies",
-          "example": "von meinem Freund – no mana drauga"
+          "example": "von meinem Freund – de mi amigo"
         },
         {
           "word": "ab",
           "meaning": "desde el interior o la procedencia de un lugar",
-          "example": "ab Montag – no pirmdienas"
+          "example": "ab Montag – desde el lunes"
         }
       ],
       "tip": {
@@ -1619,17 +1616,17 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "a un caso específico (Akk.)",
-          "example": "aufs Dach – uz jumta"
+          "example": "aufs Dach – hacia el tejado"
         },
         {
           "word": "auf",
           "meaning": "hacia la superficie o hacia arriba",
-          "example": "auf den Tisch – uz galda"
+          "example": "auf den Tisch – en la mesa"
         },
         {
           "word": "an",
           "meaning": "sobre una superficie horizontal",
-          "example": "an die Wand – pie sienas"
+          "example": "an die Wand – hacia la pared"
         },
         {
           "word": "ins",
@@ -2223,7 +2220,7 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "a (dirección)",
-          "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
+          "example": "Ich gehe zu meinem Freund. – Voy a casa de mi amigo."
         }
       ],
       "tip": {
@@ -2914,7 +2911,8 @@ const A1_WORDS = [
       },
       "important": [
         "bis = a un límite o punto en el tiempo.",
-        "bis jetzt = hasta ahora; bis dass = hasta."
+        "bis jetzt = hasta ahora; bis dass = hasta.",
+        "bis jetzt significa hasta ahora."
       ]
     }
   },
@@ -2934,12 +2932,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: Palabra cortés en minúscula. Solía ​​​​ser educado, por favor.",
         "bitte significa principalmente: cortesía.",
-        "A menudo describe: una palabra cortés.",
-        "bitte significa principalmente: solicitud/solicitud.",
-        "A menudo caracterizado por: sustantivo (morir).",
-        "bitte con letra minúscula es una palabra educada: significa por favor (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte con letra mayúscula y el artículo die es un sustantivo: significa solicitud o solicitud (Ich habe eine Bitte = tengo una solicitud).",
-        "Plural: morir mordido."
+        "A menudo describe: una palabra cortés."
       ],
       "examples": [
         {
@@ -2974,8 +2967,7 @@ const A1_WORDS = [
       "important": [
         "bitte está en minúscula: es una palabra educada, no un sustantivo.",
         "die Bitte con mayúscula y el artículo die es un sustantivo.",
-        "Plural: die Bitten (solicitudes).",
-        "Incorrecto: Die Bitte schön! → Correcto: Bitte schön!"
+        "Plural: die Bitten (solicitudes)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3074,11 +3066,7 @@ const A1_WORDS = [
         "Idea principal: Sustantivo con artículo die y mayúscula. Una petición o petición específica.",
         "die Bitte significa principalmente: cortesía.",
         "A menudo describe: una palabra cortés.",
-        "die Bitte significa básicamente: petición/solicitud.",
-        "A menudo caracterizado por: sustantivo (morir).",
-        "bitte con letra minúscula es una palabra educada: significa por favor (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "die Bitte con letra mayúscula y el artículo die es un sustantivo: significa solicitud o solicitud (Ich habe eine Bitte = tengo una solicitud).",
-        "Plural: morir mordido."
+        "die Bitte significa básicamente: petición/solicitud."
       ],
       "examples": [
         {
@@ -3113,8 +3101,7 @@ const A1_WORDS = [
       "important": [
         "bitte está en minúscula: es una palabra educada, no un sustantivo.",
         "die Bitte con mayúscula y el artículo die es un sustantivo.",
-        "Plural: die Bitten (solicitudes).",
-        "Incorrecto: Die Bitte schön! → Correcto: Bitte schön!"
+        "Plural: die Bitten (solicitudes)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3503,7 +3490,8 @@ const A1_WORDS = [
         "Idea principal: traer significa traer, llevar o entregar algo a alguien.",
         "Bringen se usa cuando algo se traslada a otro lugar o a otra persona.",
         "No es lo mismo que nehmen, porque nehmen significa tomar para uno mismo.",
-        "Holen significa ir tras y buscar o tomar."
+        "Holen significa ir tras y buscar o tomar.",
+        "La traducción depende del contexto."
       ],
       "examples": [
         {
@@ -3555,7 +3543,8 @@ const A1_WORDS = [
       },
       "important": [
         "Bringen muestra dirección a alguien o a un lugar.",
-        "nehmen significa tomar, pero no necesariamente entregar a otro."
+        "nehmen significa tomar, pero no necesariamente entregar a otro.",
+        "La traducción al letón depende del contexto."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4096,7 +4085,7 @@ const A1_WORDS = [
         {
           "word": "das",
           "meaning": "eso (pronombre)",
-          "example": "Das ist mein Auto. – Tas ir mans auto."
+          "example": "Das ist mein Auto. – Ese es mi auto."
         },
         {
           "word": "dies",
@@ -4796,7 +4785,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "artículo indefinido • uno • alguien",
-      "explanation": "Usado con un sustantivo masculino. Señalar una cosa o persona entre varias opciones.",
+      "explanation": [
+        "Idea principal: ein es el artículo indefinido.",
+        "ein es el artículo indefinido para sustantivos masculinos y neutros en nominativo.",
+        "ein se usa en masculino: ein Mann.",
+        "ein se usa en neutro: ein Buch.",
+        "En femenino se usa: eine.",
+        "En acusativo masculino: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -4920,7 +4916,9 @@ const A1_WORDS = [
       },
       "important": [
         "ein nav noteiktais artículo.",
-        "Si el asunto ya se conoce concretamente, a menudo se necesita der, die o das."
+        "Si el asunto ya se conoce concretamente, a menudo se necesita der, die o das.",
+        "eine — femenino.",
+        "einen — acusativo."
       ],
       "comparison": [
         {
@@ -5003,7 +5001,7 @@ const A1_WORDS = [
         {
           "word": "der Schnee",
           "meaning": "nevará",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = La nieve es blanca."
         },
         {
           "word": "kalt",
@@ -5245,7 +5243,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "primero • sólo",
-      "explanation": "\"erst\" se utiliza para indicar secuencia (primero) o para enfatizar que algo sucede más tarde de lo esperado o en menor medida (solamente).",
+      "explanation": [
+        "Idea principal: erst frecuentemente significa solamente. Sin embargo, en cierto contexto también puede significar primero.",
+        "erst frecuentemente indica que algo ocurre más tarde de lo esperado.",
+        "Ich bin erst 18. — Tengo solamente 18 años.",
+        "Es ist erst Montag. — Es solamente lunes.",
+        "Erst lernen, dann spielen. — Primero aprende, luego juega."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -5412,7 +5416,8 @@ const A1_WORDS = [
       },
       "important": [
         "erst y nur pueden sonar como \"solo\" pero no son lo mismo.",
-        "erst suele hablar de tiempo, secuencia o aún por llegar a un punto; nur limita la cantidad."
+        "erst suele hablar de tiempo, secuencia o aún por llegar a un punto; nur limita la cantidad.",
+        "zuerst frecuentemente significa: primero."
       ]
     }
   },
@@ -5429,7 +5434,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "eso • ello • forma impersonal",
-      "explanation": "El \"yo\" alemán no se utiliza para hablar de uno mismo. Se utiliza para denotar: eso, aquello o una forma impersonal (clima, tiempo, varias oraciones impersonales).",
+      "explanation": [
+        "Idea principal: es es un pronombre.",
+        "Se usa: eso, en construcciones impersonales."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -5557,7 +5565,8 @@ const A1_WORDS = [
       },
       "important": [
         "El yo alemán no es el yo letón.",
-        "La \"yo\" letona es ich en alemán; El alemán es a menudo significa eso o no está traducido."
+        "La \"yo\" letona es ich en alemán; El alemán es a menudo significa eso o no está traducido.",
+        "El \"es\" letón se traduce al alemán como ich; el es alemán frecuentemente significa eso o no se traduce."
       ],
       "comparison": [
         {
@@ -5567,7 +5576,7 @@ const A1_WORDS = [
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
+          "meaning": "él (persona)",
           "example": "Ich lerne Deutsch. – Estudio alemán."
         }
       ]
@@ -5591,9 +5600,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: etwas significa algo o un poco según el contexto.",
         "Si etwas reemplaza algo desconocido, el español suele decir algo.",
-        "Cuando etwas está delante de un adjetivo o cantidad, a menudo significa un poco.",
-        "Etwas es una palabra A1 muy común y neutral en la conversación.",
-        "Lo más importante es distinguir: etwas kaufen = comprar algo, etwas müde = un poco cansado."
+        "Cuando etwas está delante de un adjetivo o cantidad, a menudo significa un poco."
       ],
       "examples": [
         {
@@ -5626,7 +5633,7 @@ const A1_WORDS = [
         {
           "word": "was",
           "meaning": "algo (coloquial)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = ¿Quieres beber algo?"
         },
         {
           "word": "ein bisschen",
@@ -5636,7 +5643,7 @@ const A1_WORDS = [
         {
           "word": "nichts",
           "meaning": "nada",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = No necesito nada."
         }
       ],
       "tip": {
@@ -5644,7 +5651,8 @@ const A1_WORDS = [
       },
       "important": [
         "etwas no es lo mismo que nichts: etwas significa algo, pero nichts no significa nada.",
-        "En español, algo suena mejor que algo, por ejemplo: etwas trinken = beber algo."
+        "En español, algo suena mejor que algo, por ejemplo: etwas trinken = beber algo.",
+        "En letón a veces suena mejor algo, en lugar de algo, por ejemplo: etwas trinken = beber algo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6349,7 +6357,7 @@ const A1_WORDS = [
         "text": "Recuerda: cosa perdida → encontrada; opinión → ich finde..."
       },
       "important": [
-        "finden nav tikai “atrast”.",
+        "finden no es solo \"encontrar\".",
         "Ich finde das gut significa \"lo encuentro bueno\", no \"lo encuentro bueno\"."
       ],
       "sectionAccents": {
@@ -6626,7 +6634,7 @@ const A1_WORDS = [
       ],
       "important": [
         "die Frau = mujer O esposa, según el contexto.",
-        "meine Frau = mana sieva (ne 'mana sieviete').",
+        "meine Frau = mi esposa (no 'mi mujer').",
         "Plural: die Frauen."
       ],
       "sectionAccents": {
@@ -7586,8 +7594,7 @@ const A1_WORDS = [
         "Idea principal: gleich temporalmente significa inmediatamente, comparativamente significa igual.",
         "Cuando se trata de tiempo, gleich = inmediatamente/en un momento (Ich komme gleich. = ya voy enseguida).",
         "En comparación, gleich = igual/igual (die gleiche Farbe = el mismo color).",
-        "gleich también se puede usar como preposición con el dativo, que significa como (gleich mir = como yo).",
-        "El contexto (tiempo o comparación) muestra el significado correcto."
+        "gleich también se puede usar como preposición con el dativo, que significa como (gleich mir = como yo)."
       ],
       "examples": [
         {
@@ -7775,10 +7782,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: Grande en tamaño o para una persona, alta en altura.",
         "groß significa principalmente: tamaño grande.",
-        "A menudo se caracteriza por: tamaño total.",
-        "groß significa principalmente: altura humana.",
-        "A menudo describe: una persona.",
-        "groß describe el tamaño en general o la altura de una persona."
+        "A menudo se caracteriza por: tamaño total."
       ],
       "examples": [
         {
@@ -7804,8 +7808,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Para una persona, Er ist groß significa alto.",
-        "groß = liels.",
-        "De tamaño grande o para una persona, de estatura alta."
+        "groß = liels."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8193,7 +8196,7 @@ const A1_WORDS = [
         {
           "word": "machen",
           "meaning": "hacer",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Yo lo hago."
         }
       ],
       "tip": {
@@ -8411,7 +8414,7 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "mantener / detener",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = El autobús se detiene."
         },
         {
           "word": "nehmen",
@@ -8434,7 +8437,8 @@ const A1_WORDS = [
       },
       "important": [
         "detener no es sólo \"mantener\". En el caso del transporte, esto a menudo significa detenerse.",
-        "Ich halte das für... es una frase de opinión: \"Lo considero como...\"."
+        "Ich halte das für... es una frase de opinión: \"Lo considero como...\".",
+        "Bitte halten Sie an utiliza el verbo separable anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8742,7 +8746,7 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "ser llamado / significar",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Me llamo Anna."
         },
         {
           "word": "nennen",
@@ -8757,12 +8761,12 @@ const A1_WORDS = [
         {
           "word": "rufen",
           "meaning": "llamar / llamar",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Te llamo."
         },
         {
           "word": "anrufen",
           "meaning": "llamar",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "example": "Ich rufe dich an. = Te llamo."
         }
       ],
       "tip": {
@@ -8991,10 +8995,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: Alto verticalmente, nivel o altura.",
         "hoch significa principalmente: grande en altura.",
-        "A menudo se caracteriza por: altura vertical.",
-        "hoch básicamente significa: alto nivel.",
-        "A menudo se caracteriza por: precios/cifras.",
-        "hoch describe la altura, la dirección vertical o el nivel."
+        "A menudo se caracteriza por: altura vertical."
       ],
       "examples": [
         {
@@ -9594,7 +9595,7 @@ const A1_WORDS = [
         "im es la abreviatura de la preposición in y el artículo dem.",
         "Forma completa: en dem (¿a quién?).",
         "Se usa con sustantivos masculinos y sustantivos de cualquier género al responder la pregunta ¿dónde? - ubicación.",
-        "Ar laiku un gadalaikiem: im Januar, im Sommer, im Winter.",
+        "Con tiempo y estaciones: im Januar, im Sommer, im Winter.",
         "En la práctica, casi siempre se utiliza im en lugar del full in dem."
       ],
       "examples": [
@@ -9640,7 +9641,7 @@ const A1_WORDS = [
         {
           "word": "ins",
           "meaning": "hacia dentro, ¿adónde? (según el contexto)",
-          "example": "ins Kino – uz kino"
+          "example": "ins Kino – al cine"
         },
         {
           "word": "in",
@@ -9650,12 +9651,12 @@ const A1_WORDS = [
         {
           "word": "am",
           "meaning": "¿En dónde? (¿En quién?)",
-          "example": "am Fenster – pie loga"
+          "example": "am Fenster – en la ventana"
         },
         {
           "word": "auf",
           "meaning": "sobre una superficie",
-          "example": "auf dem Tisch – uz galda"
+          "example": "auf dem Tisch – en la mesa"
         }
       ],
       "tip": [
@@ -10076,12 +10077,12 @@ const A1_WORDS = [
         {
           "word": "ins",
           "meaning": "hacia dentro, ¿adónde? (según el contexto)",
-          "example": "ins Kino – uz kino"
+          "example": "ins Kino – al cine"
         },
         {
           "word": "im",
           "meaning": "¿Dentro de dónde? (¿A quién?)",
-          "example": "im Kino – kino"
+          "example": "im Kino – en el cine"
         },
         {
           "word": "in",
@@ -10091,7 +10092,7 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "hacia una superficie (acusativo)",
-          "example": "aufs Dach – uz jumta"
+          "example": "aufs Dach – hacia el tejado"
         },
         {
           "word": "zum",
@@ -10411,12 +10412,12 @@ const A1_WORDS = [
       ],
       "tip": [
         "jung se refiere a la edad (personas, animales); cuando se habla de cosas que se han creado recientemente, use neu.",
-        "Pretstats: jung ↔ alt (jauns ↔ vecs)."
+        "Contraste: jung ↔ alt (joven ↔ viejo)."
       ],
       "important": [
         "jung describe vecumu, ne lietas jaunumu.",
         "Para cosas nuevas (teléfono, automóvil, casa), use neu en lugar de jung.",
-        "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
+        "Incorrecto: Mein Handy ist jung. → Correcto: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10607,7 +10608,7 @@ const A1_WORDS = [
       ],
       "important": [
         "kein + sustantivo = 'no hay/no hay X', no 'nicht ein X'.",
-        "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
+        "Incorrecto: Ich habe nicht ein Geld. → Correcto: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11059,7 +11060,7 @@ const A1_WORDS = [
         {
           "word": "wissen",
           "meaning": "saber",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Yo lo sé."
         }
       ],
       "tip": {
@@ -11898,7 +11899,7 @@ const A1_WORDS = [
       },
       "important": [
         "aufs Land significa \"al campo\", no \"al campo\".",
-        "das Land nav tas pats, kas die Stadt."
+        "das Land no es lo mismo que die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12067,7 +12068,7 @@ const A1_WORDS = [
       "explanation": [
         "Idea principal: lang espacialmente significa largo, temporalmente largo.",
         "Cuando se trata de tamaño o distancia, lang = largo (ein langer Tisch = mesa larga).",
-        "Ja runa ir par laika ilgumu, lang = ilgs (ein langer Tag = ilga diena).",
+        "Si se habla de duración, lang = largo (ein langer Tag = un día largo).",
         "En la frase den ganzen Tag lang significa todo el día (en longitud).",
         "El español 'garš' e 'ilgs' son dos palabras diferentes, pero el idioma alemán cubre ambos significados."
       ],
@@ -12700,7 +12701,7 @@ const A1_WORDS = [
         "laut está en minúscula y no tiene artículo: es un adjetivo.",
         "der Laut con mayúscula y el artículo der es un sustantivo.",
         "Plural: die Laute (sonidos del lenguaje, pitidos).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "Incorrecto: Der Laut ist sehr. → Correcto: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12859,7 +12860,7 @@ const A1_WORDS = [
         "laut está en minúscula y no tiene artículo: es un adjetivo.",
         "der Laut con mayúscula y el artículo der es un sustantivo.",
         "Plural: die Laute (sonidos del lenguaje, pitidos).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "Incorrecto: Der Laut ist sehr. → Correcto: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13029,7 +13030,7 @@ const A1_WORDS = [
         "text": "Recuerda: tú colocas algo → legen; algo ya está en un lugar → liegen."
       },
       "important": [
-        "legen un liegen nav viens un tas pats.",
+        "legen y liegen no son lo mismo.",
         "Ich lege das Buch = Dejé el libro. Das Buch liegt = el libro miente."
       ],
       "sectionAccents": {
@@ -13263,7 +13264,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "leise = kluss",
+        "leise = silencioso",
         "Utilice leise cuando el contexto se ajuste a este significado."
       ],
       "important": [
@@ -13894,8 +13895,8 @@ const A1_WORDS = [
       },
       "important": [
         "das Mal / die Male - sustantivo con artículo.",
-        "ein Mal, zwei Mal — skaita reizes.",
-        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
+        "ein Mal, zwei Mal — contar veces.",
+        "mal sin artículo (Komm mal her!) no es lo mismo que das Mal."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14748,7 +14749,7 @@ const A1_WORDS = [
         "morgen está en minúscula: es un adverbio de tiempo (mañana).",
         "der Morgen con mayúscula y el artículo der es un sustantivo (mañana).",
         "¡Buen día! — siempre con M mayúscula (mañana, no mañana).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "Incorrecto: Guten morgen! → Correcto: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -14906,7 +14907,7 @@ const A1_WORDS = [
         "morgen está en minúscula: es un adverbio de tiempo (mañana).",
         "der Morgen con mayúscula y el artículo der es un sustantivo (mañana).",
         "¡Buen día! — siempre con M mayúscula (mañana, no mañana).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "Incorrecto: Guten morgen! → Correcto: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15068,7 +15069,7 @@ const A1_WORDS = [
         {
           "word": "dürfen",
           "meaning": "ser permitido",
-          "example": "Darf ich gehen?"
+          "example": "¿Darf ich gehen?"
         }
       ],
       "tip": {
@@ -15304,7 +15305,7 @@ const A1_WORDS = [
       },
       "important": [
         "nach no se usa en todos los lugares.",
-        "Uz skolu parasti ir in die Schule, nevis nach Schule."
+        "A la escuela generalmente es in die Schule, no nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15704,7 +15705,7 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "tomar / tomar",
-          "example": "Nimm das Buch!"
+          "example": "¡Nimm das Buch!"
         },
         {
           "word": "bringen",
@@ -15727,7 +15728,7 @@ const A1_WORDS = [
       },
       "important": [
         "Ich nehme den Bus significa \"yo conduzco el autobús\" en letón.",
-        "nehmen nav tas pats, kas bringen."
+        "nehmen no es lo mismo que bringen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15966,12 +15967,12 @@ const A1_WORDS = [
       ],
       "tip": [
         "neu trata sobre cosas, dispositivos y noticias; cuando hables de la edad de una persona, usa jung.",
-        "Pretstats: neu ↔ alt (jauns ↔ vecs)."
+        "Contraste: neu ↔ alt (nuevo ↔ viejo)."
       ],
       "important": [
         "neu describe cosas y noticias, ni la edad de una persona o un animal.",
         "Para la edad de una persona o de un animal, utilice jung en lugar de neu.",
-        "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
+        "Incorrecto: Meine Schwester ist neu. → Correcto: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16461,7 +16462,7 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "o para elegir entre opciones",
-          "example": "Kaffee oder Tee?"
+          "example": "¿Café o té?"
         },
         {
           "word": "wenn",
@@ -16479,7 +16480,7 @@ const A1_WORDS = [
       },
       "important": [
         "ob no es la forma habitual de elección \"o\" entre dos cosas.",
-        "Kaffee oder Tee? lieto oder, nevis ob."
+        "¿Café o té? utiliza oder, no ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16685,7 +16686,7 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "o elegir",
-          "example": "Kaffee oder Tee?"
+          "example": "¿Café o té?"
         },
         {
           "word": "ob",
@@ -17260,7 +17261,7 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "probar / saborear",
-          "example": "Probier mal die Suppe!"
+          "example": "¡Prueba la sopa!"
         },
         {
           "word": "versuchen",
@@ -17677,7 +17678,7 @@ const A1_WORDS = [
         {
           "word": "sagen",
           "meaning": "decir (un texto específico)",
-          "example": "Was hast du gesagt? – Ko tu pateici?"
+          "example": "Was hast du gesagt? – ¿Qué dijiste?"
         },
         {
           "word": "sprechen",
@@ -17686,11 +17687,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sagen = teikt",
+        "sagen = decir",
         "Utilice sagen cuando el contexto se ajuste a este significado."
       ],
       "important": [
-        "sagen = pateikt.",
+        "sagen = decir.",
         "Para transmitir un pensamiento, palabra u oración específica."
       ],
       "sectionAccents": {
@@ -17780,7 +17781,7 @@ const A1_WORDS = [
         {
           "word": "schauen",
           "meaning": "mirar (activamente)",
-          "example": "Ich schaue aus dem Fenster. – Es skatos pa logu."
+          "example": "Ich schaue aus dem Fenster. – Estoy mirando por la ventana."
         },
         {
           "word": "sehen",
@@ -17929,7 +17930,7 @@ const A1_WORDS = [
         "Utilice schon cuando el contexto se ajuste a este significado."
       ],
       "important": [
-        "schon = jau.",
+        "schon = ya.",
         "Algo ya ha sucedido o ya está en vigor."
       ],
       "sectionAccents": {
@@ -18085,7 +18086,7 @@ const A1_WORDS = [
         "text": "Recuerde: movimiento de natación → schwimmen; descansar en agua → baden."
       },
       "important": [
-        "schwimmen un baden nav viens un tas pats.",
+        "schwimmen y baden no son lo mismo.",
         "En español se suele decir \"nadar\", pero en alemán hay que comprobar si se trata de movimiento o de baño."
       ],
       "sectionAccents": {
@@ -18289,7 +18290,7 @@ const A1_WORDS = [
       "translation": "ver",
       "explanation": [
         "Idea principal: sehen significa ver con los ojos.",
-        "Ja runa ir par to, ko acis uztver, lieto sehen.",
+        "Si se trata de lo que los ojos perciben, usa sehen.",
         "Mirar deliberadamente es a menudo schauen o ansehen.",
         "Una frase muy común es Ich sehe dich. = Te veo."
       ],
@@ -18337,7 +18338,7 @@ const A1_WORDS = [
         "text": "Recuerda: los ojos perciben → sehen; mirar conscientemente → schauen/ansehen."
       },
       "important": [
-        "sehen nav tas pats, kas anschauen.",
+        "sehen no es lo mismo que anschauen.",
         "Te veo = veo; veo la película = miro la película."
       ],
       "sectionAccents": {
@@ -19311,7 +19312,7 @@ const A1_WORDS = [
       "important": [
         "Cortesía siempre con S mayúscula: Sie, no sie.",
         "Ella: Sie kocht. Ellos: sie kochen. Tú: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Incorrecto: sie kocht → Correcto: Sie kocht",
         "Incorrecto: Sie kocht (ellos) → Correcto: Sie kochen"
       ],
       "sectionAccents": {
@@ -19464,7 +19465,7 @@ const A1_WORDS = [
       "important": [
         "Cortesía siempre con S mayúscula: Sie, no sie.",
         "Ella: Sie kocht. Ellos: sie kochen. Tú: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
+        "Incorrecto: sie kocht → Correcto: Sie kocht",
         "Incorrecto: Sie kocht (ellos) → Correcto: Sie kochen"
       ],
       "sectionAccents": {
@@ -19873,7 +19874,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "debería / debería hacer lo que se le indica",
-          "example": "Was soll ich machen?"
+          "example": "¿Qué debo hacer?"
         },
         {
           "word": "müssen",
@@ -20588,22 +20589,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "sobre / sobre / a través",
-          "example": "Wir sprechen über das Wetter."
+          "example": "Hablamos sobre el clima."
         },
         {
           "word": "auf",
           "meaning": "sobre una superficie",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "El libro está sobre la mesa."
         },
         {
           "word": "unter",
           "meaning": "bajo",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "La bolsa está bajo la mesa."
         },
         {
           "word": "von",
           "meaning": "de / acerca de alguna fuente",
-          "example": "Ich höre von dir."
+          "example": "Me entero de ti."
         }
       ],
       "tip": {
@@ -20820,29 +20821,29 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "a las / alrededor de / para",
-          "example": "Ich komme um acht."
+          "example": "Vengo a las ocho."
         },
         {
           "word": "am",
           "meaning": "por día / a las",
-          "example": "Am Montag komme ich."
+          "example": "El lunes vengo."
         },
         {
           "word": "gegen",
           "meaning": "a tiempo / contra",
-          "example": "Ich komme gegen acht."
+          "example": "Vengo alrededor de las ocho."
         },
         {
           "word": "für",
           "meaning": "por / a favor de",
-          "example": "Das ist für dich."
+          "example": "Esto es para ti."
         }
       ],
       "tip": {
         "text": "Recuerde: um acht = ocho en punto."
       },
       "important": [
-        "um ar laiku parasti ir “pulksten”.",
+        "um con la hora normalmente es \"o'clock\".",
         "um... zu a menudo significa \"a...\"."
       ],
       "sectionAccents": {
@@ -21057,22 +21058,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "debajo / entre",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "La bolsa está bajo la mesa."
         },
         {
           "word": "über",
           "meaning": "encima / sobre",
-          "example": "Die Lampe hängt über dem Tisch."
+          "example": "La lámpara cuelga sobre la mesa."
         },
         {
           "word": "zwischen",
           "meaning": "entre dos cosas",
-          "example": "Zwischen den Häusern."
+          "example": "Entre las casas."
         },
         {
           "word": "auf",
           "meaning": "sobre una superficie",
-          "example": "Auf dem Tisch."
+          "example": "Sobre la mesa."
         }
       ],
       "tip": {
@@ -21311,22 +21312,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "entender",
-          "example": "Ich verstehe dich."
+          "example": "Te entiendo."
         },
         {
           "word": "können",
           "meaning": "poder / saber",
-          "example": "Ich kann schwimmen."
+          "example": "Puedo nadar."
         },
         {
           "word": "wissen",
           "meaning": "conoce el hecho",
-          "example": "Ich weiß das."
+          "example": "Sé eso."
         },
         {
           "word": "kennen",
           "meaning": "saber",
-          "example": "Ich kenne ihn."
+          "example": "Lo conozco."
         }
       ],
       "tip": {
@@ -21602,12 +21603,12 @@ const A1_WORDS = [
         {
           "word": "vom",
           "meaning": "de (algo específico, ¿de quién?)",
-          "example": "vom Bahnhof – no stacijas"
+          "example": "vom Bahnhof – desde la estación"
         },
         {
           "word": "von",
           "meaning": "de (generales)",
-          "example": "von mir – no manis"
+          "example": "von mir – de mí"
         },
         {
           "word": "aus",
@@ -21617,7 +21618,7 @@ const A1_WORDS = [
         {
           "word": "ab",
           "meaning": "comenzando en (hora/lugar)",
-          "example": "ab Montag – no pirmdienas"
+          "example": "ab Montag – desde el lunes"
         },
         {
           "word": "zu",
@@ -21885,22 +21886,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "antes / delante de",
-          "example": "Vor dem Essen..."
+          "example": "Antes de la comida..."
         },
         {
           "word": "nach",
           "meaning": "después / a",
-          "example": "Nach dem Essen..."
+          "example": "Después de la comida..."
         },
         {
           "word": "neben",
           "meaning": "junto a",
-          "example": "Neben dem Haus."
+          "example": "Al lado de la casa."
         },
         {
           "word": "hinter",
           "meaning": "detrás",
-          "example": "Hinter dem Haus."
+          "example": "Detrás de la casa."
         }
       ],
       "tip": {
@@ -22169,7 +22170,7 @@ const A1_WORDS = [
         "Se pregunta sobre cosas, acontecimientos y hechos, nunca sobre personas.",
         "A la gente se le pregunta wer (quién/quién), no fue.",
         "was für (ein/eine) significa alguien/qué pasa y pregunta sobre una calidad o tipo (Was für ein Film ist das? = ¿Qué tipo de película es?).",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "Incorrecto: Wer ist passiert? → Correcto: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -22388,29 +22389,29 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "si / cuando",
-          "example": "Wenn du Zeit hast..."
+          "example": "Si tienes tiempo..."
         },
         {
           "word": "ob",
           "meaning": "o en una pregunta indirecta",
-          "example": "Ich weiß nicht, ob..."
+          "example": "No sé si..."
         },
         {
           "word": "wann",
           "meaning": "cuándo en una pregunta",
-          "example": "Wann kommst du?"
+          "example": "¿Cuándo vienes?"
         },
         {
           "word": "weil",
           "meaning": "porque",
-          "example": "Ich bleibe, weil ich krank bin."
+          "example": "Me quedo porque estoy enfermo."
         }
       ],
       "tip": {
         "text": "Recuerde: condición → wenn; la pregunta «¿cuándo?» → wann."
       },
       "important": [
-        "wenn un wann nav viens un tas pats.",
+        "wenn y wann no son lo mismo.",
         "¿Cuándo vienes? hay una pregunta. Wenn du kommst... es una condición/tiempo."
       ],
       "sectionAccents": {
@@ -22634,7 +22635,7 @@ const A1_WORDS = [
         "Sólo preguntamos por personas, nunca por cosas.",
         "Las cosas y los acontecimientos se preguntan con fue, no con wer.",
         "wer cambia de forma por inflexión: wen, wem, wessen, pero la forma básica es wer.",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "Incorrecto: Wer ist passiert? → Correcto: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -22803,29 +22804,29 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "convertirse en",
-          "example": "Ich werde müde."
+          "example": "Me estoy cansando."
         },
         {
           "word": "sein",
           "meaning": "ser",
-          "example": "Ich bin müde."
+          "example": "Estoy cansado."
         },
         {
           "word": "bleiben",
           "meaning": "permanecer",
-          "example": "Ich bleibe hier."
+          "example": "Me quedo aquí."
         },
         {
           "word": "machen",
           "meaning": "hacer / hacer",
-          "example": "Ich mache das."
+          "example": "Hago eso."
         }
       ],
       "tip": {
         "text": "Recuerde: el cambio/estado se vuelve diferente → werden."
       },
       "important": [
-        "werden nav tas pats, kas sein.",
+        "werden no es lo mismo que sein.",
         "Ich werde müde = me estoy cansando; Ich bin müde = estoy cansado."
       ],
       "sectionAccents": {
@@ -23024,22 +23025,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "condiciones climáticas",
-          "example": "Das Wetter ist schön."
+          "example": "El clima es hermoso."
         },
         {
           "word": "Zeit",
           "meaning": "tiempo (momento)",
-          "example": "Ich habe keine Zeit."
+          "example": "No tengo tiempo."
         },
         {
           "word": "Regen",
           "meaning": "lluvia",
-          "example": "Es gibt viel Regen."
+          "example": "Hay mucha lluvia."
         },
         {
           "word": "Sonne",
           "meaning": "el sol",
-          "example": "Die Sonne scheint."
+          "example": "Brilla el sol."
         }
       ],
       "tip": [
@@ -23279,7 +23280,7 @@ const A1_WORDS = [
         "En comparación, entonces... wie = como... como."
       ],
       "important": [
-        "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
+        "wie viel(e) = cuánto; wie alt = cuántos años tiene; wie lange = cuánto tiempo.",
         "wie alone (Wie...?) generalmente = cómo, no cuánto.",
         "Incorrecto: ¿Cuántos años tienes? → Correcto: ¿Cómo estás? (¿Cómo es el de geht?)"
       ],
@@ -23467,22 +23468,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "a / en / demasiado / infinitivo",
-          "example": "Ich gehe zum Arzt."
+          "example": "Voy al médico."
         },
         {
           "word": "nach",
           "meaning": "a ciudades/países",
-          "example": "Ich fahre nach Berlin."
+          "example": "Voy a Berlín."
         },
         {
           "word": "in",
           "meaning": "en / a un lugar",
-          "example": "Ich gehe in die Schule."
+          "example": "Voy a la escuela."
         },
         {
           "word": "bei",
           "meaning": "a alguien / al trabajo",
-          "example": "Ich bin bei Anna."
+          "example": "Estoy con Anna."
         }
       ],
       "tip": {
@@ -23695,22 +23696,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "el tren",
-          "example": "Der Zug kommt."
+          "example": "Llega el tren."
         },
         {
           "word": "die Bahn",
           "meaning": "ferrocarril / viajar en tren",
-          "example": "Ich fahre mit der Bahn."
+          "example": "Viajo en tren."
         },
         {
           "word": "der Bus",
           "meaning": "autobús",
-          "example": "Der Bus kommt."
+          "example": "Llega el autobús."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "tranvía",
-          "example": "Die Straßenbahn ist hier."
+          "example": "El tranvía está aquí."
         }
       ],
       "tip": {
@@ -24398,7 +24399,7 @@ const A1_WORDS = [
       "important": [
         "fernsehen es divisible: sehen + helecho.",
         "das Fernsehen no es plural, no *die Fernsehen.",
-        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
+        "Incorrecto: die Fernsehen → Correcto: das Fernsehen",
         "Acción: fernsehen → ich sehe helecho."
       ],
       "sectionAccents": {
@@ -24534,8 +24535,8 @@ const A1_WORDS = [
       ],
       "important": [
         "der Appetit es sólo singular.",
-        "Nepareizi: die Appetite → Pareizi: der Appetit",
-        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
+        "Incorrecto: die Appetite → Correcto: der Appetit",
+        "Incorrecto: Ich bin Appetit. → Correcto: Ich habe Appetit.",
         "Sentir: el apetito."
       ],
       "sectionAccents": {
@@ -24649,7 +24650,7 @@ const A1_WORDS = [
       ],
       "important": [
         "essen es un verbo sin artículo.",
-        "das Essen nav tas pats, kas essen.",
+        "das Essen no es lo mismo que essen.",
         "Acción: essen.",
         "Caso/comida: das Essen."
       ],
@@ -24785,7 +24786,7 @@ const A1_WORDS = [
       ],
       "important": [
         "essen es un verbo sin artículo.",
-        "das Essen nav tas pats, kas essen.",
+        "das Essen no es lo mismo que essen.",
         "Acción: essen.",
         "Caso/comida: das Essen."
       ],
@@ -25059,7 +25060,7 @@ const A1_WORDS = [
         "Utilice das Obst cuando el contexto se ajuste a este significado."
       ],
       "important": [
-        "Nepareizi: die Obsts → Pareizi: das Obst",
+        "Incorrecto: die Obsts → Correcto: das Obst",
         "das Obst = frutas (en general)."
       ],
       "sectionAccents": {
@@ -25206,7 +25207,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Ferien siempre con dativo: in den Ferien.",
-        "Nepareizi: in der Ferien → Pareizi: in den Ferien",
+        "Incorrecto: in der Ferien → Correcto: in den Ferien",
         "Escuela: die Ferien (solo plural).",
         "plural solamente. Vacaciones escolares o de estudio - siempre en plural."
       ],
@@ -25334,8 +25335,8 @@ const A1_WORDS = [
       ],
       "important": [
         "Incorrecto: die Ferie, der Urlabe (en el nivel A1).",
-        "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
+        "Vacaciones: estar de vacaciones / tomar vacaciones.",
+        "Incorrecto: die Urlaube → Correcto: der Urlaub",
         "Obra: der Urlaub (sólo en singular)."
       ],
       "sectionAccents": {
@@ -25722,7 +25723,7 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "einmal = vienreiz",
+        "einmal = una vez",
         "Utilice einmal cuando el contexto se ajuste a este significado."
       ],
       "important": [

@@ -72,12 +72,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sprechen = runāt",
-        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+        "sprechen = falar",
+        "Use sprechen quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "sprechen = runāt.",
-        "Runāt, sarunāties vai lietot valodu."
+        "sprechen = falar.",
+        "Falar, conversar ou usar a linguagem."
       ],
       "sectionAccents": {
         "explanation": {
@@ -153,10 +153,7 @@ const A1_WORDS = [
       "explanation": [
         "Idéia principal: tamanho ou escopo pequeno.",
         "Pequeno galvenokārt nozīmē: mazs izmērs.",
-        "Bieži raksturo: lateas/personas izmēru.",
-        "Pequeno galvenokārt nozīmē: mazs/amarelos.",
-        "Biezi raksturo: bērnu.",
-        "Pequeno descreve um tamanho pequeno."
+        "Bieži raksturo: lateas/personas izmēru."
       ],
       "examples": [
         {
@@ -181,13 +178,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "klein = mazs",
-        "Izmanto klein, kad konteksts atbilst šai nozīmei."
+        "klein = pequeno",
+        "Use klein quando o contexto corresponder a este significado."
       ],
       "important": [
         "klein = mazs izmērā.",
-        "klein = mazs.",
-        "Mazs izmērā vai apjomā."
+        "klein = mazs."
       ],
       "sectionAccents": {
         "explanation": {
@@ -453,8 +449,8 @@ const A1_WORDS = [
         "text": "Atceries: pie sienas/loga/malas → an."
       },
       "important": [
-        "an nav jebkurš “pie”. Tas bieži nozīmē pie virsmas, sienas, loga vai malas.",
-        "Uz horizontālas virsmas parasti lieto auf."
+        "an não é um \"em\" qualquer. Frequentemente significa na superfície, na parede, na janela ou na borda.",
+        "Em uma superfície horizontal, geralmente use auf."
       ]
     }
   },
@@ -668,8 +664,8 @@ const A1_WORDS = [
         "text": "Atceries: sākuma punkts laikā/vietā → ab."
       },
       "important": [
-        "ab rāda sākuma punktu laikā vai vietā.",
-        "Ja doma ir izcelsme vai virziens ārā no iekšienes, biežāk lieto von vai aus."
+        "ab indica o ponto de partida no tempo ou no lugar.",
+        "Se a ideia é origem ou direção para fora, use frequentemente von ou aus."
       ]
     }
   },
@@ -729,7 +725,7 @@ const A1_WORDS = [
         {
           "word": "jedoch",
           "meaning": "Tomer",
-          "example": "Es ist kalt, jedoch sonnig. – Ir auksts, tomēr saulains."
+          "example": "Es ist kalt, jedoch sonnig. – Está frio, mas ensolarado."
         }
       ],
       "tip": {
@@ -854,8 +850,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "aber rāda pretstatu vai iebildi.",
-        "Ja pretstats ir “nevis..., bet gan...”, vāciski parasti lieto sondern."
+        "aber indica contraste ou objeção.",
+        "Se o contraste é \"não..., mas sim...\", o alemão geralmente usa sondern."
       ]
     }
   },
@@ -1044,8 +1040,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "also rāda secinājumu: no iepriekš teiktā izriet nākamā doma.",
-        "Latviešu “tāpēc” bieži var būt arī deshalb."
+        "also indica conclusão: do que foi dito anteriormente segue o pensamento seguinte.",
+        "O latviano \"tāpēc\" geralmente também pode ser deshalb."
       ]
     }
   },
@@ -1208,12 +1204,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "auch = arī",
-        "Izmanto auch, kad konteksts atbilst šai nozīmei."
+        "auch = também",
+        "Use auch quando o contexto corresponder a este significado."
       ],
       "important": [
         "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
-        "auch = arī."
+        "auch = arī.",
+        "Incorreto: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1449,8 +1446,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "auf nav vienkārši jebkurš “uz”. Tas bieži nozīmē kustību vai atrašanos uz virsmas/augšpusē.",
-        "Ja kaut kas ir pie vertikālas virsmas, bieži vajag an; ja iekšā, vajag in."
+        "auf não é simplesmente qualquer \"em\". Frequentemente significa movimento ou localização em uma superfície/topo.",
+        "Se algo está em uma superfície vertical, frequentemente use an; se está dentro, use in."
       ]
     }
   },
@@ -1654,8 +1651,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "aus parasti rāda kustību ārā no iekšienes vai izcelsmi.",
-        "Ja runa ir tikai par sākuma punktu laikā vai vietā, bieži lieto ab."
+        "aus geralmente indica movimento para fora de dentro ou origem.",
+        "Se se trata apenas do ponto de partida no tempo ou lugar, frequentemente use ab."
       ]
     }
   },
@@ -1746,14 +1743,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: auf + das → aufs (kurp?, kurp?).",
+        "Lembre-se: auf + das → aufs (para onde?, para onde?).",
         "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
       ],
       "important": [
-        "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
-        "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
-        "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
+        "aufs = auf das, apenas com substantivos neutros em acusativo.",
+        "Responde a para onde? — movimento para um local ou superfície específica.",
+        "Em uma superfície horizontal, frequentemente use auf den, não aufs.",
+        "Não confunda com an (na parede) ou ins (dentro do espaço)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2097,22 +2094,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Nadar / estar na água / lavar",
-          "example": "Ich gehe baden."
+          "example": "Vou nadar."
         },
         {
           "word": "schwimmen",
           "meaning": "Peldēt kākustība vai esportes",
-          "example": "Er schwimmt sehr gut."
+          "example": "Ele nada muito bem."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Ich dusche am Morgen."
+          "example": "Tomo banho de manhã."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Cujo? Não importa.",
-          "example": "Ich gehe heute schwimmen."
+          "example": "Vou nadar hoje."
         }
       ],
       "tip": {
@@ -2520,8 +2517,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "bei bieži nozīmē pie cilvēka, pie vietas vai uzņēmumā.",
-        "Ja runa ir par kustību uz virsmu, parasti vajag auf, nevis bei."
+        "bei frequentemente significa em uma pessoa, em um lugar ou em uma empresa.",
+        "Se se trata de movimento para uma superfície, geralmente use auf, não bei."
       ]
     }
   },
@@ -2575,8 +2572,192 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Uma visita",
-    "level": "A1"
+    "lv": "visita",
+    "level": "A1",
+    "study": {
+      "id": "a1-besuch",
+      "layout": "standardStudy",
+      "translation": "visita",
+      "explanation": [
+        "Ideia principal: der Besuch significa visita, visita ou visita.",
+        "Se se trata de um lugar ou evento, em latviano, a palavra apropriada é visita.",
+        "Se besuchen se refere a uma pessoa, em latviano, a palavra pode ser visita ou visita.",
+        "O plural é die Besuche."
+      ],
+      "examples": [
+        {
+          "de": "Der Besuch im Museum war interessant.",
+          "lv": "A visita ao museu foi interessante."
+        },
+        {
+          "de": "Danke für deinen Besuch.",
+          "lv": "Obrigado pela sua visita."
+        },
+        {
+          "de": "Der Arzt macht einen Besuch.",
+          "lv": "O médico faz uma visita."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "der Besuch",
+          "meaning": "visita • visita • visita",
+          "example": "Danke für deinen Besuch. – Obrigado pela sua visita."
+        },
+        {
+          "word": "der Besucher",
+          "meaning": "Apmekletājs",
+          "example": "Der Besucher wartet draußen. – O visitante está esperando lá fora."
+        },
+        {
+          "word": "besuchen",
+          "meaning": "visitar • visitar",
+          "example": "Ich besuche meine Großeltern. – Eu visito meus avós."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+      },
+      "important": [
+        "der Besuch não é apenas visita; também pode ser visita ou visita.",
+        "Plural: die Besuche."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Besuch",
+            "die Besuche"
+          ],
+          "purple": [
+            "apmeklējums",
+            "apciemojums",
+            "vizīte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējums"
+              ],
+              "green": [
+                "Muzeja"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemojumu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Besuch"
+              ],
+              "green": [
+                "Arzt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "vizītē"
+              ],
+              "green": [
+                "Ārsts"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Besuch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklējums",
+                "apciemojums",
+                "vizīte"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "der Besucher"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklētājs"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "notikums",
+              "vizīte"
+            ],
+            "green": [
+              "Besucher"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "der Besuch"
+            ],
+            "purple": [
+              "apmeklējums",
+              "apciemojums",
+              "vizīte"
+            ]
+          },
+          {
+            "blue": [
+              "die Besuche"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Besucher",
@@ -2587,8 +2768,217 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "Apmeklet • Apciemot",
-    "level": "A1"
+    "lv": "visitar",
+    "level": "A1",
+    "study": {
+      "id": "a1-besuchen",
+      "layout": "standardStudy",
+      "translation": "visitar",
+      "explanation": [
+        "Ideia principal: besuchen é usado ao visitar um lugar, evento ou pessoa.",
+        "Um lugar, evento ou curso é geralmente visitado em latviano.",
+        "Se besuchen se refere a uma pessoa, em latviano, frequentemente é mais natural visitar.",
+        "Na língua alemã, besuchen é usado sem preposição e com acusativo."
+      ],
+      "examples": [
+        {
+          "de": "Ich besuche das Museum.",
+          "lv": "Eu visito o museu."
+        },
+        {
+          "de": "Wir besuchen einen Deutschkurs.",
+          "lv": "Visitamos um curso de alemão."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "Eu visito meus avós."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "besuchen",
+          "meaning": "visitar um lugar ou evento • visitar uma pessoa",
+          "example": "Ich besuche meine Großeltern. – Eu visito meus avós."
+        },
+        {
+          "word": "treffen",
+          "meaning": "conhecer",
+          "example": "Ich treffe meinen Freund. – Eu encontro meu amigo."
+        },
+        {
+          "word": "zu jemandem gehen",
+          "meaning": "ir ver alguém",
+          "example": "Ich gehe zu meinem Freund. – É o seu bolo Sava Drauga."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+      },
+      "important": [
+        "besuchen usa-se sem preposição: Ich besuche meine Freundin.",
+        "A tradução latviana depende do objeto: visitar um lugar, visitar uma pessoa."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "besuchen"
+          ],
+          "purple": [
+            "apmeklēt",
+            "apciemot"
+          ],
+          "green": [
+            "vietu",
+            "pasākumu",
+            "personu"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Museum"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklēju"
+              ],
+              "green": [
+                "muzeju"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuchen"
+              ],
+              "green": [
+                "Deutschkurs"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apmeklējam"
+              ],
+              "green": [
+                "vācu valodas kursu"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "besuche"
+              ],
+              "green": [
+                "Großeltern"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "apciemoju"
+              ],
+              "green": [
+                "vecvecākus"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "besuchen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "apmeklēt",
+                "apciemot"
+              ]
+            },
+            "example": {
+              "blue": [
+                "besuche"
+              ],
+              "purple": [
+                "apciemoju"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "treffen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "satikt"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "treffe"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "zu jemandem gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "iet pie kāda"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "gehe zu"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "bez prievārda"
+            ]
+          },
+          {
+            "green": [
+              "vietu",
+              "personu"
+            ],
+            "purple": [
+              "apmeklēt",
+              "apciemot"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "Bett",
@@ -2736,7 +3126,8 @@ const A1_WORDS = [
       },
       "important": [
         "bis = līdz robežai vai laika punktam.",
-        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr."
+        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr.",
+        "bis jetzt significa até agora."
       ]
     }
   },
@@ -2756,12 +3147,7 @@ const A1_WORDS = [
       "explanation": [
         "Adestramento Galvenā: Pieklājības vārds ar mallet burtu. Feliz, lai butu piklājīgi—lūdzu.",
         "Bitta galvenokārt nozīmē: piklājība.",
-        "Biezi raksturo: piklājības vārds.",
-        "Bitte significa principalmente: solicitação/solicitação.",
-        "Bieži raksturo: Laatvārds (este).",
-        "Bitte ar mallet sākumburtu ir piklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "O Bitte ar lielo burtu un artikulu die ir Laatvārds — tas nozīmē lūgumu vai peerasījumu (Ich habe eine Bitte = man ir lūgums).",
-        "Daudzskaitlī: o mordido."
+        "Biezi raksturo: piklājības vārds."
       ],
       "examples": [
         {
@@ -2796,8 +3182,7 @@ const A1_WORDS = [
       "important": [
         "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
         "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Daudzskaitlis: die Bitten (lūgumi)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2874,13 +3259,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Por favor",
+          "example": "Komm bitte herein. – Por favor, entre."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Lugums",
+          "example": "Ich habe eine Bitte. – Eu tenho um pedido."
         }
       ]
     }
@@ -2899,11 +3284,7 @@ const A1_WORDS = [
         "Idéia principal: substantivo com artigo noz e letra maiúscula. Uma solicitação ou solicitação específica.",
         "Die Bitte galvenokārt nozīmē: piklājība.",
         "Biezi raksturo: piklājības vārds.",
-        "Die Bitte na verdade significa: solicitação/solicitação.",
-        "Bieži raksturo: Laatvārds (este).",
-        "Bitte ar mallet sākumburtu ir piklājības vārds — tas nozīmē lūdzu (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "O Bitte ar lielo burtu un artikulu die ir Laatvārds — tas nozīmē lūgumu vai peerasījumu (Ich habe eine Bitte = man ir lūgums).",
-        "Daudzskaitlī: o mordido."
+        "Die Bitte na verdade significa: solicitação/solicitação."
       ],
       "examples": [
         {
@@ -2938,8 +3319,7 @@ const A1_WORDS = [
       "important": [
         "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
         "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Daudzskaitlis: die Bitten (lūgumi)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3009,13 +3389,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Lugums",
+          "example": "Ich habe eine Bitte. – Eu tenho um pedido."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Por favor",
+          "example": "Komm bitte herein. – Por favor, entre."
         }
       ]
     }
@@ -3092,30 +3472,30 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Ich bleibe hier."
+          "example": "Fico aqui."
         },
         {
           "word": "gehen",
           "meaning": "Ir/sair a pé",
-          "example": "Ich gehe nach Hause."
+          "example": "Vou para casa."
         },
         {
           "word": "fahren",
           "meaning": "Dirigindo/equitação",
-          "example": "Ich fahre nach Hause."
+          "example": "Dirijo para casa."
         },
         {
           "word": "warten",
           "meaning": "Espere",
-          "example": "Ich warte hier."
+          "example": "Espero aqui."
         }
       ],
       "tip": {
         "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
       },
       "important": [
-        "bleiben nozīmē palikt, nevis gaidīt.",
-        "Ich bleibe hier = es palieku šeit; Ich warte hier = es gaidu šeit."
+        "bleiben significa ficar, não esperar.",
+        "Ich bleibe hier = eu fico aqui; Ich warte hier = eu espero aqui."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3357,7 +3737,8 @@ const A1_WORDS = [
         "Idéia principal: Carregar significa carregar, transportar ou entregar algo a alguém.",
         "Trazer é usado quando algo é movido para outro lugar ou para outra pessoa.",
         "Não é o mesmo que nehming, porque nehming significa tomar para si.",
-        "Holen significa caçar e pesquisar ou procurar."
+        "Holen significa caçar e pesquisar ou procurar.",
+        "A tradução é determinada pelo contexto."
       ],
       "examples": [
         {
@@ -3400,8 +3781,8 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "pegar",
+          "example": "Ich nehme das Buch. – Eu pego o livro."
         }
       ],
       "tip": {
@@ -3409,7 +3790,8 @@ const A1_WORDS = [
       },
       "important": [
         "bringen rāda virzienu pie kāda vai uz kādu vietu.",
-        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam."
+        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam.",
+        "A tradução latviana depende do contexto."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3740,22 +4122,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Tur·Te·Šeit (visparīgi)",
-          "example": "Da ist mein Auto."
+          "example": "Meu carro está lá."
         },
         {
           "word": "hier",
           "meaning": "Aqui (em um local específico)",
-          "example": "Hier ist mein Auto."
+          "example": "Meu carro está aqui."
         },
         {
           "word": "dort",
           "meaning": "Tur (talak)",
-          "example": "Dort ist mein Auto."
+          "example": "Meu carro está ali."
         },
         {
           "word": "dann",
           "meaning": "Foguete Delta aprimorado com maior empuxo",
-          "example": "Dann gehen wir nach Hause."
+          "example": "Depois vamos para casa."
         }
       ],
       "tip": {
@@ -3959,8 +4341,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "da ir vispārīgs vietas vārds.",
-        "hier ir konkrēti “šeit”, dort ir tālāks “tur”."
+        "da é uma palavra de lugar geral.",
+        "hier é especificamente \"aqui\", dort é mais distante \"lá\"."
       ]
     }
   },
@@ -4119,8 +4501,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
-        "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
+        "No nível A1, aprenda das primeiro como um artigo neutro.",
+        "das não é o mesmo que dass — das pode ser um artigo ou pronome, dass significa \"que\"."
       ]
     }
   },
@@ -4309,8 +4691,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "dass nozīmē “ka” un ievada palīgteikumu.",
-        "To nejaukt ar das, kas var būt artikuls vai “tas”."
+        "dass significa \"que\" e introduz uma oração subordinada.",
+        "Não confunda com das, que pode ser um artigo ou \"aquele\"."
       ]
     }
   },
@@ -4421,8 +4803,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī der vispirms mācies kā vīriešu dzimtes artikulu.",
-        "Vietniekvārda un relatīvā lietojumi nāk vēlāk."
+        "No nível A1, aprenda der primeiro como um artigo masculino.",
+        "Os usos como pronome e relativo vêm mais tarde."
       ]
     }
   },
@@ -4544,8 +4926,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī die vispirms mācies kā sieviešu dzimtes artikulu.",
-        "Daudzskaitlī die lieto arī visām dzimtēm."
+        "No nível A1, aprenda die primeiro como um artigo feminino.",
+        "No plural, use die para todos os gêneros."
       ]
     }
   },
@@ -4678,8 +5060,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "dieser, diese un dieses mainās pēc dzimtes.",
-        "Daudzskaitlī forma atkal ir diese."
+        "dieser, diese e dieses mudam de acordo com o gênero.",
+        "No plural, a forma é novamente diese."
       ]
     }
   },
@@ -4771,7 +5153,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Artigo indefinido • Alguém • Alguém",
-      "explanation": "Feliz kopā ar Laatvārdu vīriešu dzimtē. Rāda uz kādu vienu Laatu vai cilvēku no vairākām iespējām.",
+      "explanation": [
+        "Ideia principal: ein é um artigo indefinido.",
+        "ein é um artigo indefinido para substantivos masculinos e neutros em nominativo.",
+        "ein é usado no gênero masculino: ein Mann.",
+        "ein é usado no gênero neutro: ein Buch.",
+        "Para o gênero feminino, use: eine.",
+        "No acusativo do gênero masculino: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -4787,7 +5176,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "A criança está brincando."
         }
       ],
       "tip": {
@@ -4895,28 +5284,30 @@ const A1_WORDS = [
       },
       "important": [
         "ein nav noteiktais artikuls.",
-        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
+        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das.",
+        "eine — gênero feminino.",
+        "einen — acusativo."
       ],
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
-          "example": "Ein Mann wartet draußen."
+          "meaning": "gênero masculino",
+          "example": "Um homem espera lá fora."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
-          "example": "eine Frau"
+          "meaning": "gênero feminino",
+          "example": "uma mulher"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
-          "example": "Ich habe ein Buch."
+          "meaning": "gênero neutro",
+          "example": "Tenho um livro."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
-          "example": "einen Mann"
+          "meaning": "acusativo",
+          "example": "um homem"
         }
       ]
     }
@@ -4973,30 +5364,30 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Gelo, gelo.",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Eu como um sorvete."
         },
         {
           "word": "der Schnee",
           "meaning": "Sniegs",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = A neve é branca."
         },
         {
           "word": "kalt",
           "meaning": "Frio",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = A água é fria."
         },
         {
           "word": "das Dessert",
           "meaning": "Desertos",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Sorvete é uma sobremesa."
         }
       ],
       "tip": {
         "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
       },
       "important": [
-        "Latviski ledus un saldējums ir divi dažādi vārdi, bet vāciski abiem bieži lieto das Eis.",
-        "Konteksts ir galvenais: ēdiens nozīmē saldējumu, auksta virsma vai ūdens nozīmē ledu."
+        "Em latviano, gelo e sorvete são duas palavras diferentes, mas em alemão, geralmente use das Eis para ambos.",
+        "O contexto é o principal: comida significa sorvete, superfície fria ou água significa gelo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5253,7 +5644,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "Espíritos de peixe • Tikai",
-      "explanation": "\"primeiro\" liedo, lai norādītu secību (visirms) vai uzsvērtu, ka kaut kas notoek vēlāk, nekā gaidīts, vai mazākā apjomā (tikai).",
+      "explanation": [
+        "Ideia principal: erst frequentemente significa apenas. Mas em um contexto específico, também pode significar primeiro.",
+        "erst frequentemente indica que algo acontece mais tarde do que o esperado.",
+        "Ich bin erst 18. — Eu tenho apenas 18 anos.",
+        "Es ist erst Montag. — É apenas segunda-feira.",
+        "Erst lernen, dann spielen. — Primeiro estude, depois brinque."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -5281,17 +5678,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Visspirmes • Sākuma",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Primeiro, tomamos café da manhã."
         },
         {
           "word": "nur",
           "meaning": "Tikai",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Eu tenho apenas 5 euros."
         },
         {
           "word": "dann",
           "meaning": "Foguete Delta aprimorado com maior empuxo",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Então voltamos para casa."
         }
       ],
       "tip": {
@@ -5441,7 +5838,8 @@ const A1_WORDS = [
       },
       "important": [
         "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
-        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu."
+        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu.",
+        "zuerst frequentemente significa: primeiro."
       ]
     }
   },
@@ -5458,7 +5856,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "Bolsa • Tā • Formulário Bezpersoniska",
-      "explanation": "O “eu” alemão não costuma falar de si mesmo. É usado para indicar: aquilo, aquilo ou uma forma impessoal (clima, tempo, várias frases impessoais).",
+      "explanation": [
+        "Ideia principal: es é um pronome.",
+        "Usado: isso, em construções impessoais."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -5601,18 +6002,19 @@ const A1_WORDS = [
       },
       "important": [
         "Vācu es nav latviešu “es”.",
-        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
+        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots.",
+        "O latviano \"es\" em alemão é ich; o alemão es frequentemente significa aquilo ou não é traduzido."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "isso • forma impessoal",
+          "example": "Es regnet. – Está chovendo."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "es (pessoa)",
+          "example": "Ich lerne Deutsch. – Eu estudo alemão."
         }
       ]
     }
@@ -5635,9 +6037,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: algo nozīmē kaut kas vai nedaudz atkarībā no konteksta.",
         "Quando etwas substitui algo desconhecido, o letão geralmente diz alguma coisa.",
-        "Sim, algo stāv pie īpašības vārda vai daudzuma, tas bieži nozīmē nedaudz.",
-        "Há algo que sei sobre A1 vārds.",
-        "O mais importante é fazer uma distinção: etwas kaufen = comprar alguma coisa, etwas müde = um pouco cansado."
+        "Sim, algo stāv pie īpašības vārda vai daudzuma, tas bieži nozīmē nedaudz."
       ],
       "examples": [
         {
@@ -5665,22 +6065,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Algo... barbudo.",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Eu preciso de algo."
         },
         {
           "word": "was",
           "meaning": "Algo (informal)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Você quer beber algo?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Mazliet",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Estou um pouco cansado."
         },
         {
           "word": "nichts",
           "meaning": "Nada",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Eu não preciso de nada."
         }
       ],
       "tip": {
@@ -5688,7 +6088,8 @@ const A1_WORDS = [
       },
       "important": [
         "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
-        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert."
+        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert.",
+        "Em latviano, às vezes soa melhor algo, em vez de algo, por exemplo: etwas trinken = beber algo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5927,17 +6328,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "SÓ",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Vocês são amigáveis."
         },
         {
           "word": "euch",
           "meaning": "Sucos/jumadas",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Eu vos ajudo."
         },
         {
           "word": "euer",
           "meaning": "Jusu",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Essa é a sua casa."
         }
       ],
       "info": [
@@ -6007,27 +6408,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Transporte de carro",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Viajo de ônibus."
         },
         {
           "word": "gehen",
           "meaning": "O kajam",
-          "example": "Ich gehe nach Hause."
+          "example": "Vou para casa."
         },
         {
           "word": "laufen",
           "meaning": "Escrito /iet",
-          "example": "Er läuft schnell."
+          "example": "Ele corre rápido."
         },
         {
           "word": "bringen",
           "meaning": "Atnest / nogadat",
-          "example": "Ich bringe das Buch."
+          "example": "Trago o livro."
         },
         {
           "word": "mitnehmen",
           "meaning": "Paņemt lidzi",
-          "example": "Ich nehme dich mit."
+          "example": "Levo você comigo."
         }
       ],
       "tip": {
@@ -6435,7 +6836,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Atrast / uzskatīt",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Eu acho isso bom."
         },
         {
           "word": "suchen",
@@ -6457,8 +6858,8 @@ const A1_WORDS = [
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
       },
       "important": [
-        "finden nav tikai “atrast”.",
-        "Ich finde das gut nozīmē “man tas šķiet labi”, nevis “es to atrodu labi”."
+        "finden não é apenas \"encontrar\".",
+        "Ich finde das gut significa \"eu acho isso bom\", não \"eu encontro isso bom\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6749,13 +7150,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ar piederības vārdu (meine/deine/seine Frau) gandrīz vienmēr domāta sieva (laulātā).",
-        "Bez piederības vārda (die Frau, eine Frau) parasti domāta sieviete."
+        "Com possuidor (meine/deine/seine Frau) quase sempre significa esposa (casada).",
+        "Sem possuidor (die Frau, eine Frau) geralmente significa mulher."
       ],
       "important": [
-        "die Frau = sieviete VAI sieva — atkarībā no konteksta.",
-        "meine Frau = mana sieva (ne 'mana sieviete').",
-        "Daudzskaitlī: die Frauen."
+        "die Frau = mulher OU esposa — dependendo do contexto.",
+        "meine Frau = minha esposa (não 'minha mulher').",
+        "Daudzskaitlī: Essas Frauen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7020,12 +7421,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "für vienmēr + akuzatīvs — neatkarīgi no nozīmes.",
-        "Saņēmējs/nolūks → priekš; apmaiņa/iemesls/maksa → par."
+        "für sempre + acusativo — independentemente do significado.",
+        "Receptor/propósito → para; troca/razão/pagamento → por."
       ],
       "important": [
-        "für + Akkusativ vienmēr, piemēram für mich, für dich, für das Kind.",
-        "danke für / bezahlen für = 'par', ne 'priekš'."
+        "für + acusativo sempre, por exemplo für mich, für dich, für das Kind.",
+        "danke für / bezahlen für = 'por', não 'para'."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7155,13 +7556,105 @@ const A1_WORDS = [
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Futebol",
-    "level": "A1"
+    "lv": "futebol",
+    "level": "A1",
+    "study": {
+      "id": "a1-fussball-study",
+      "layout": "standardStudy",
+      "translation": "futebol",
+      "explanation": [
+        "Ideia principal: Fußball frequentemente significa futebol como esporte.",
+        "Com artigo e significado contável, der Fußball também pode significar bola de futebol.",
+        "O plural die Fußbälle significa bolas de futebol, não vários esportes."
+      ],
+      "examples": [
+        {
+          "de": "Ich spiele Fußball.",
+          "lv": "eu jogo futebol."
+        },
+        {
+          "de": "Der Fußball liegt im Garten.",
+          "lv": "a bola de futebol está no jardim."
+        },
+        {
+          "de": "Wir kaufen zwei Fußbälle.",
+          "lv": "compramos duas bolas de futebol."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Fußball",
+          "meaning": "futebol como esporte",
+          "example": "Ich spiele Fußball. – Eu jogo futebol."
+        },
+        {
+          "word": "der Fußball",
+          "meaning": "bola de futebol",
+          "example": "Der Fußball ist neu. – A bola de futebol é nova."
+        }
+      ],
+      "tip": [
+        "Sem artigo, spielen Fußball geralmente significa jogar futebol.",
+        "No sentido contável, ein Fußball e die Fußbälle são bola de futebol e bolas de futebol."
+      ],
+      "important": [
+        "die Fußbälle significa bolas de futebol.",
+        "Como esporte, Fußball é geralmente usado no singular."
+      ]
+    }
   },
   {
     "de": "ganz",
-    "lv": "Parafuso",
-    "level": "A1"
+    "lv": "Barcos",
+    "level": "A1",
+    "study": {
+      "id": "a1-ganz-study",
+      "layout": "standardStudy",
+      "translation": "Barcos",
+      "explanation": [
+        "Ideia principal: ganz junto com um substantivo significa inteiro ou tudo em geral.",
+        "Antes de um adjetivo ou advérbio, ganz pode significar completamente, totalmente ou bastante.",
+        "ganz não é o mesmo que o pronome alles."
+      ],
+      "examples": [
+        {
+          "de": "Ich arbeite den ganzen Tag.",
+          "lv": "eu trabalho o dia todo."
+        },
+        {
+          "de": "Das ganze Haus ist sauber.",
+          "lv": "a casa inteira está limpa."
+        },
+        {
+          "de": "Das ist ganz sicher.",
+          "lv": "isso é completamente seguro."
+        },
+        {
+          "de": "Das Essen ist ganz gut.",
+          "lv": "a comida é bem boa."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ganz",
+          "meaning": "inteiro • tudo em geral • completamente",
+          "example": "der ganze Tag – todo o dia"
+        },
+        {
+          "word": "alles",
+          "meaning": "Parafuso",
+          "example": "Alles ist gut. – Tudo bem."
+        }
+      ],
+      "tip": [
+        "Antes de um substantivo, ganz frequentemente significa tudo ou inteiro.",
+        "Antes de um adjetivo, ganz frequentemente significa completamente ou bastante."
+      ],
+      "important": [
+        "der ganze Tag = todo o dia.",
+        "alles = tudo como pronome."
+      ]
+    }
   },
   {
     "de": "Garage",
@@ -7220,30 +7713,30 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Ver",
-          "example": "Gib mir das Buch."
+          "example": "Dá-me o livro."
         },
         {
           "word": "nehmen",
           "meaning": "‹emt/ paņemt",
-          "example": "Ich nehme das Buch."
+          "example": "Eu pego o livro."
         },
         {
           "word": "bekommen",
           "meaning": "Saņemt / dabūt",
-          "example": "Ich bekomme ein Geschenk."
+          "example": "Recebo um presente."
         },
         {
           "word": "bringen",
           "meaning": "Atnest / nogadat",
-          "example": "Ich bringe dir das Buch."
+          "example": "Eu te trago o livro."
         }
       ],
       "tip": {
         "text": "Atceries: dot prom → geben; paņemt sev → nehmen."
       },
       "important": [
-        "geben un nehmen ir pretēji virzieni.",
-        "bekommen nozīmē saņemt, nevis dot."
+        "geben e nehmen são direções opostas.",
+        "bekommen significa receber, não dar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7454,7 +7947,51 @@ const A1_WORDS = [
   {
     "de": "gefallen",
     "lv": "Patikt",
-    "level": "A1"
+    "level": "A1",
+    "study": {
+      "id": "a1-gefallen-study",
+      "layout": "standardStudy",
+      "translation": "Patikt",
+      "explanation": [
+        "Ideia principal: gefallen significa agradar, mas a estrutura da frase alemã é diferente do latviano.",
+        "A coisa que agrada é o sujeito da frase em alemão.",
+        "A pessoa para quem algo agrada está no dativo: mir, dir, ihm, ihr, uns, euch, ihnen."
+      ],
+      "examples": [
+        {
+          "de": "Das gefällt mir.",
+          "lv": "eu gosto disso."
+        },
+        {
+          "de": "Gefällt dir das Kleid?",
+          "lv": "você gosta do vestido?"
+        },
+        {
+          "de": "Der Film gefällt uns.",
+          "lv": "gostamos do filme."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "gefallen",
+          "meaning": "agradar • pessoa em dativo",
+          "example": "Das gefällt mir. – Eu gosto disso."
+        },
+        {
+          "word": "mögen",
+          "meaning": "agradar • preferir",
+          "example": "Ich mag das. – Eu gosto disso."
+        }
+      ],
+      "tip": [
+        "Lembre-se da construção: Das gefällt mir.",
+        "Não forme a ordem de palavras latviana literal."
+      ],
+      "important": [
+        "gefallen usa-se com dativo: mir, dir, ihm, ihr.",
+        "Das gefällt mir = eu gosto disso."
+      ]
+    }
   },
   {
     "de": "gegen",
@@ -7496,14 +8033,102 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Estatísticas • Vestuário",
-    "level": "A1"
+    "lv": "história",
+    "level": "A1",
+    "study": {
+      "id": "a1-geschichte-study",
+      "layout": "standardStudy",
+      "translation": "história",
+      "explanation": [
+        "Ideia principal: Geschichte pode significar história ou história.",
+        "O plural die Geschichten geralmente significa histórias.",
+        "No significado de história, Geschichte é geralmente usado no singular."
+      ],
+      "examples": [
+        {
+          "de": "Er erzählt eine Geschichte.",
+          "lv": "ele conta uma história."
+        },
+        {
+          "de": "Ich lerne Geschichte.",
+          "lv": "eu estudo história."
+        },
+        {
+          "de": "Das ist die Geschichte Deutschlands.",
+          "lv": "é a história da Alemanha."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "eine Geschichte",
+          "meaning": "história",
+          "example": "eine interessante Geschichte – uma história interessante"
+        },
+        {
+          "word": "Geschichte",
+          "meaning": "história",
+          "example": "Geschichte lernen – aprender história"
+        }
+      ],
+      "tip": [
+        "Com eine e plural, geralmente se trata de uma história.",
+        "Como disciplina escolar, Geschichte significa história."
+      ],
+      "important": [
+        "die Geschichten = histórias.",
+        "Geschichte como história é geralmente singular."
+      ]
+    }
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Brāųi a māsas",
-    "level": "A1"
+    "lv": "irmãos e irmãs",
+    "level": "A1",
+    "study": {
+      "id": "a1-geschwister-study",
+      "layout": "standardStudy",
+      "translation": "irmãos e irmãs",
+      "explanation": [
+        "Ideia principal: Geschwister significa irmãos e irmãs juntos.",
+        "Essa palavra é geralmente usada apenas no plural.",
+        "Para uma pessoa, use Bruder ou Schwester."
+      ],
+      "examples": [
+        {
+          "de": "Ich habe zwei Geschwister.",
+          "lv": "tenho dois irmãos ou irmãs."
+        },
+        {
+          "de": "Meine Geschwister wohnen in Berlin.",
+          "lv": "meus irmãos e irmãs vivem em Berlim."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Geschwister",
+          "meaning": "irmãos e irmãs",
+          "example": "Meine Geschwister – Meus irmãos e irmãs"
+        },
+        {
+          "word": "Bruder",
+          "meaning": "Irmão",
+          "example": "mein Bruder – Meu irmão"
+        },
+        {
+          "word": "Schwester",
+          "meaning": "Massa...",
+          "example": "meine Schwester – Minha irmã"
+        }
+      ],
+      "tip": [
+        "Geschwister é geralmente usado no plural.",
+        "Para uma pessoa, escolha Bruder ou Schwester."
+      ],
+      "important": [
+        "Não use ein Geschwister como forma singular comum do A1."
+      ]
+    }
   },
   {
     "de": "Gesicht",
@@ -7566,8 +8191,7 @@ const A1_WORDS = [
         "Adestramento Galvenā: gleich laika ziņā nozīmē tūlīt, salīdzinājumā nozīmē vienāds.",
         "Quando chegar a hora, gleich = imediatamente/assim que (Ich komme gleich. = irei imediatamente).",
         "Sim, runa ir de salīdzinājumu, igual a = vienāds/tāds pats (mesma cor = vienāda krāsa).",
-        "Gleich var Laatot arī kā prievārdu ar datīvu, nozīmē tāpat kā (gleich mir = tāpat kā man).",
-        "Konteksten (laika norāde vai salīdzinājums) pare pareizo nozimi."
+        "Gleich var Laatot arī kā prievārdu ar datīvu, nozīmē tāpat kā (gleich mir = tāpat kā man)."
       ],
       "examples": [
         {
@@ -7596,11 +8220,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par laiku (pēc brīža) → tūlīt.",
-        "Par salīdzinājumu (tāds pats) → vienāds."
+        "Sobre tempo (em breve) → imediatamente.",
+        "Sobre comparação (o mesmo) → igual."
       ],
       "important": [
-        "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
+        "gleich = imediatamente (tempo) OU igual (comparação).",
         "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
       ],
       "sectionAccents": {
@@ -7763,10 +8387,7 @@ const A1_WORDS = [
       "explanation": [
         "Adestramento Galvenā: Liels izmērā vai cilvēkam - garš augumā.",
         "Grande galvenokārt nozīmē: liels izmērs.",
-        "Frequentemente caracterizado por: tamanho geral.",
-        "Grande galvenokārt nozīmē: cilvēka augums.",
-        "Biezi raksturo: pessoa.",
-        "Grande raksturo izmēru kopumā vai cilvēka augumu."
+        "Frequentemente caracterizado por: tamanho geral."
       ],
       "examples": [
         {
@@ -7792,8 +8413,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Cilvēkam Er ist groß nozīmē garš augumā.",
-        "groß = liels.",
-        "Liels izmērā vai cilvēkam - garš augumā."
+        "groß = liels."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7873,8 +8493,52 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Vecvecaki",
-    "level": "A1"
+    "lv": "avós",
+    "level": "A1",
+    "study": {
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy",
+      "translation": "avós",
+      "explanation": [
+        "Ideia principal: Großeltern significa avó e avô juntos.",
+        "Essa palavra é usada no plural.",
+        "No singular, use Großmutter ou Großvater."
+      ],
+      "examples": [
+        {
+          "de": "Meine Großeltern wohnen auf dem Land.",
+          "lv": "meus avós vivem no campo."
+        },
+        {
+          "de": "Ich besuche meine Großeltern.",
+          "lv": "eu visito meus avós."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Großeltern",
+          "meaning": "avós",
+          "example": "meine Großeltern – Meus avós"
+        },
+        {
+          "word": "Großmutter",
+          "meaning": "Vecmāmiņa",
+          "example": "meine Großmutter – Minha avó"
+        },
+        {
+          "word": "Großvater",
+          "meaning": "Vectētiņš",
+          "example": "mein Großvater – Meu avô"
+        }
+      ],
+      "tip": [
+        "Großeltern é plural.",
+        "Para uma pessoa, use Großmutter ou Großvater."
+      ],
+      "important": [
+        "die Großeltern = avós."
+      ]
+    }
   },
   {
     "de": "Großmutter",
@@ -7963,12 +8627,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "gut bez artikula ir īpašības/apstākļa vārds — labs/labi.",
-        "das Gut ar lielo burtu un artikulu ir pavisam cits vārds — lietvārds (īpašums, muiža)."
+        "gut sem artigo é um adjetivo/advérbio — bom/bem.",
+        "das Gut com letra maiúscula e artigo é uma palavra completamente diferente — substantivo (propriedade, mansão)."
       ],
       "important": [
-        "gut = labs/labi (īpašības/apstākļa vārds).",
-        "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
+        "gut = bom/bem (adjetivo/advérbio).",
+        "das Gut = propriedade/mansão (substantivo) — não confunda com gut.",
         "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
       ],
       "sectionAccents": {
@@ -8135,31 +8799,31 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "J.",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Eu tenho tempo."
         },
         {
           "word": "sein",
           "meaning": "Nós dois estamos arruinados por causa de nossas famílias.",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Eu estou aqui."
         },
         {
           "word": "bekommen",
           "meaning": "Sanemt",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Eu recebo um presente."
         },
         {
           "word": "machen",
           "meaning": "Darit / Taisit",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Eu faço isso."
         }
       ],
       "tip": {
         "text": "Atceries: Ich habe → man ir."
       },
       "important": [
-        "Latviski „man ir” = vāciski Ich habe + akuzatīvs. Ne lietot datīvu: nepareizi *mir habe.",
-        "Ar sein un datīvu: Mir ist kalt. = Man ir auksti. (tas nav haben!)",
-        "Perfektā: Ich habe gelernt = es esmu mācījies."
+        "Em latviano \"man ir\" = em alemão Ich habe + acusativo. Não use dativo: incorreto *mir habe.",
+        "Com sein e dativo: Mir ist kalt. = Estou com frio. (não é haben!)",
+        "Perfeito: Ich habe gelernt = eu aprendi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8380,22 +9044,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Turēt / apstāties",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = O ônibus para."
         },
         {
           "word": "nehmen",
           "meaning": "Sou",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Eu pego a bolsa."
         },
         {
           "word": "anhalten",
           "meaning": "Fusíveis",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Por favor, pare."
         },
         {
           "word": "denken",
           "meaning": "Domínio",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Eu acho que está certo."
         }
       ],
       "tip": {
@@ -8403,7 +9067,8 @@ const A1_WORDS = [
       },
       "important": [
         "halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.",
-        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”."
+        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”.",
+        "Bitte halten Sie an usa o verbo separável anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8596,8 +9261,51 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Mão (palma)",
-    "level": "A1"
+    "lv": "mão",
+    "level": "A1",
+    "study": {
+      "id": "a1-hand-study",
+      "layout": "standardStudy",
+      "translation": "mão",
+      "explanation": [
+        "Ideia principal: die Hand significa mão.",
+        "Na língua alemã, Arm e Hand são duas palavras diferentes.",
+        "Na língua latviana cotidiana, a palavra roka frequentemente pode denotar tanto Arm quanto Hand."
+      ],
+      "examples": [
+        {
+          "de": "Ich wasche meine Hände.",
+          "lv": "eu lavo as mãos."
+        },
+        {
+          "de": "Sie hält das Glas in der Hand.",
+          "lv": "ela segura um copo na mão."
+        },
+        {
+          "de": "Mein Arm tut weh.",
+          "lv": "minha mão dói."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "die Hand",
+          "meaning": "mão",
+          "example": "in der Hand – na mão"
+        },
+        {
+          "word": "der Arm",
+          "meaning": "Roka",
+          "example": "Mein Arm tut weh. – Meu braço dói."
+        }
+      ],
+      "tip": [
+        "Hand = mão.",
+        "Arm = braço do ombro à mão."
+      ],
+      "important": [
+        "Na língua alemã, Hand e Arm não são a mesma palavra."
+      ]
+    }
   },
   {
     "de": "Handschuh",
@@ -8687,35 +9395,35 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Ser mencionado/significar",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Meu nome é Anna."
         },
         {
           "word": "nennen",
           "meaning": "Saukt/Nosaukt",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Ele me chama de Tom."
         },
         {
           "word": "bedeuten",
           "meaning": "Nozimet",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = O que isso significa?"
         },
         {
           "word": "rufen",
           "meaning": "Saukt / zvanīt",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Eu o chamo."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "Zvanit",
+          "example": "Ich rufe dich an. = Eu te ligo."
         }
       ],
       "tip": {
         "text": "Atceries: Ich heiße... → mani sauc..."
       },
       "important": [
-        "Wie heißt du? nozīmē “Kā tevi sauc?”, nevis burtiski “kā tu saucies?”.",
-        "Was heißt das? bieži nozīmē “Ko tas nozīmē?”."
+        "Wie heißt du? significa \"Qual é o seu nome?\", não literalmente \"como você se chamou?\".",
+        "Was heißt das? frequentemente significa \"O que isso significa?\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8953,10 +9661,7 @@ const A1_WORDS = [
       "explanation": [
         "Ideia principal: Altura vertical, nível ou altura.",
         "Up galvenokārt nozīmē: liels augstumā.",
-        "Frequentemente caracterizado por: altura vertical.",
-        "Up galvenokārt nozīmē: augsts līmenis.",
-        "Biezi raksturo: jantares/skaitļus.",
-        "Uma vez que a configuração é aumentada, o vertikālu virzienu vai līmeni."
+        "Frequentemente caracterizado por: altura vertical."
       ],
       "examples": [
         {
@@ -9114,12 +9819,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Dzirdēt skaņu vai klausīties mūziku.",
-        "Izmanto hören, kad konteksts atbilst šai nozīmei."
+        "Ouça o som ou escute a música.",
+        "Use hören quando o contexto corresponder a este significado."
       ],
       "important": [
-        "hören = dzirdēt/klausīties skaņu.",
-        "Dzirdēt skaņu vai klausīties mūziku."
+        "hören = ouvir/escutar som.",
+        "Ouça o som ou escute a música."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9190,8 +9895,203 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Glits • Jauks",
-    "level": "A1"
+    "lv": "bonito",
+    "level": "A1",
+    "study": {
+      "id": "a1-huebsch",
+      "layout": "standardStudy",
+      "translation": "bonito",
+      "explanation": [
+        "Ideia principal: hübsch significa bonito, atraente ou simpático em aparência.",
+        "hübsch frequentemente descreve a aparência de uma pessoa, roupa, quarto ou objeto.",
+        "O latviano legal em alguns contextos é possível, mas é muito amplo como tradução principal.",
+        "Para caráter ou comportamento gentil, o alemão frequentemente usa nett."
+      ],
+      "examples": [
+        {
+          "de": "Sie trägt ein hübsches Kleid.",
+          "lv": "Ela tem um vestido bonito."
+        },
+        {
+          "de": "Das Zimmer ist hübsch.",
+          "lv": "O quarto é bonito."
+        },
+        {
+          "de": "Das ist ein hübsches Bild.",
+          "lv": "É uma foto bonita."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "hübsch",
+          "meaning": "bonito • atraente em aparência",
+          "example": "Das ist ein hübsches Kleid. – Este é um vestido bonito."
+        },
+        {
+          "word": "schön",
+          "meaning": "lindo • agradável",
+          "example": "Der Garten ist schön. – O jardim é lindo."
+        },
+        {
+          "word": "nett",
+          "meaning": "legal • gentil",
+          "example": "Sie ist sehr nett. – Ela é muito legal."
+        }
+      ],
+      "tip": {
+        "text": "Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos."
+      },
+      "important": [
+        "hübsch não é uma tradução universal para legal.",
+        "Para caráter de pessoa ou comportamento gentil, geralmente nett é mais apropriado."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "hübsch"
+          ],
+          "purple": [
+            "glīts",
+            "pievilcīgs",
+            "simpātisks"
+          ],
+          "green": [
+            "izskatu"
+          ],
+          "yellow": [
+            "nett"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ],
+              "green": [
+                "Kleid"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ],
+              "green": [
+                "kleita"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsch"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "hübsches"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "glīta"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "hübsch"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "glīts",
+                "pievilcīgs"
+              ]
+            },
+            "example": {
+              "blue": [
+                "hübsches"
+              ],
+              "purple": [
+                "glīta"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schön"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skaists",
+                "patīkams"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "nett"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "jauks",
+                "laipns"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts izskats"
+            ],
+            "yellow": [
+              "nett"
+            ],
+            "green": [
+              "jauks cilvēks"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "hübsch"
+            ],
+            "purple": [
+              "glīts"
+            ]
+          },
+          {
+            "yellow": [
+              "nett"
+            ],
+            "purple": [
+              "jauks",
+              "laipns"
+            ]
+          }
+        ]
+      }
+    }
   },
   {
     "de": "hundert",
@@ -9251,13 +10151,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "ihr ar darbības vārda dsk. formu (kommt, habt) = jūs; ihr blakus vārdam kā datīvs vai piederība = viņai/viņas.",
-        "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas."
+        "ihr com forma de verbo plural (kommt, habt) = você; ihr ao lado de uma palavra como dativo ou posse = para ela/dela.",
+        "Verificar: Habt ihr...? / Kommt ihr...? = você; Ich gebe ihr... / ihr Buch = para ela/dela."
       ],
       "important": [
-        "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
-        "Pieklājīgā uzruna vienmēr Sie ar lielo burtu, nevis ihr.",
-        "Nepareizi: Ihr (pieklājīgi) → Pareizi: Sie."
+        "ihr = você (forma de endereço para vários) OU a ela (dativo) OU de dela (posse) — dependendo do contexto.",
+        "A forma de endereço respeitosa é sempre Sie com letra maiúscula, não ihr.",
+        "Incorreto: Ihr (respeitoso) → Correto: Sie."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9458,14 +10358,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + dem → im (kam?, kur?).",
-        "Kurp? → ins; kur? → im — nesajauc šos divus!"
+        "Lembre-se: in + dem → im (para onde?, onde?).",
+        "Para onde? → ins; onde? → im — não confunda estes dois!"
       ],
       "important": [
-        "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
-        "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
-        "Sieviešu dzimtei: in der Schule, nevis im Schule."
+        "im = in dem, apenas com substantivos masculinos ou neutros em dativo.",
+        "Responde para onde?, não para onde? — localização, não movimento.",
+        "Com meses e estações: im März, im Herbst.",
+        "Para gênero feminino: in der Schule, não im Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9739,7 +10639,7 @@ const A1_WORDS = [
         "Galvenā doma: in parasti nozīmē iekšā vai uz kādu vietu, sim runa ir par telpu, valsti, pilsētu vai ēku.",
         "A localização é frequentemente traduzida como ou em direção a: en Berlin = em Berlim.",
         "Arkustību in nozīmē uz iekšieni: ins Kino = uz kino.",
-        "Latviski tulkojums mainās pēc konteksta."
+        "A tradução latviana muda dependendo do contexto."
       ],
       "examples": [
         {
@@ -9763,8 +10663,8 @@ const A1_WORDS = [
         "text": "Atceries: iekšā/telpā → in."
       },
       "important": [
-        "in nav vienmēr burtiski “iekšā”; latviski bieži saka Berlīnē, skolā, uz kino.",
-        "Ja runa ir par virsmu, bieži vajag auf, nevis in."
+        "in não é sempre literalmente \"dentro\"; em latviano frequentemente se diz em Berlim, na escola, no cinema.",
+        "Se se trata de uma superfície, frequentemente use auf, não in."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9968,14 +10868,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + das → ins (kurp?, kurp?).",
-        "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
+        "Lembre-se: in + das → ins (para onde?, para onde?).",
+        "Para onde? → ins; onde? → im — este é o ponto principal de diferença!"
       ],
       "important": [
-        "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
-        "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
-        "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
+        "ins = in das, apenas com substantivos neutros em acusativo.",
+        "Responde para onde?, não onde? — movimento, não localização.",
+        "Para gênero masculino: in den Wald; para feminino: in die Schule.",
+        "Não confunda: ins Kino gehen (ir ao cinema) vs. im Kino sein (estar no cinema)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10325,13 +11225,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "jung ir par vecumu (cilvēki, dzīvnieki) — ja runā par lietām, kas nesen radītas, lieto neu.",
-        "Pretstats: jung ↔ alt (jauns ↔ vecs)."
+        "jung é para idade (pessoas, animais) — se falar sobre coisas recentemente criadas, use neu.",
+        "Oposto: jung ↔ alt (jovem ↔ velho)."
       ],
       "important": [
-        "jung raksturo vecumu, ne lietas jaunumu.",
-        "Par jaunām lietām (telefonu, automašīnu, māju) lieto neu, nevis jung.",
-        "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
+        "jung descreve a idade, não a novidade de uma coisa.",
+        "Para coisas novas (telefone, carro, casa), use neu, não jung.",
+        "Incorreto: Mein Handy ist jung. → Correto: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10534,12 +11434,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "kein noliedz lietvārdu (kein + lietvārds), nicht noliedz darbības vārdu vai teikumu.",
-        "kein locījas kā ein: kein/keine/keinen/keiner."
+        "kein nega o substantivo (kein + substantivo), nicht nega o verbo ou a frase.",
+        "kein se declina como ein: kein/keine/keinen/keiner."
       ],
       "important": [
-        "kein + lietvārds = 'nav nekāda/neviena X', ne 'nicht ein X'.",
-        "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
+        "kein + substantivo = 'não há nenhum/nenhuma X', não 'não um X'.",
+        "Incorreto: Ich habe nicht ein Geld. → Correto: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10715,13 +11615,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "kennen = pazīt",
-        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+        "kennen = conhecer",
+        "Use kennen quando o contexto corresponder a este significado."
       ],
       "important": [
-        "kennen = pazīt cilvēku/vietu.",
-        "kennen = pazīt.",
-        "Pazīt cilvēku, vietu vai lietu no pieredzes."
+        "kennen = conhecer uma pessoa/lugar.",
+        "kennen = conhecer.",
+        "Conhecer uma pessoa, lugar ou coisa pela experiência."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10819,7 +11719,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: Zināt facttu, atbildi vai informāciju.",
         "Excluir galvenokārt nozīmē: informacija/fakts.",
-        "Bieži raksturo: atbildes, datus.",
+        "Frequentemente descreve: respostas, dados.",
         "Excluir tarde, sim zini feito, atbildi vai informāciju."
       ],
       "examples": [
@@ -10849,13 +11749,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wissen = zināt",
-        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
+        "wissen = saber",
+        "Use wissen quando o contexto corresponder a este significado."
       ],
       "important": [
-        "wissen = zināt faktu.",
-        "wissen = zināt.",
-        "Zināt faktu, atbildi vai informāciju."
+        "wissen = saber um fato.",
+        "wissen = saber.",
+        "Saber um fato, resposta ou informação."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10988,30 +11888,30 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Varet/prast",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Eu posso nadar."
         },
         {
           "word": "dürfen",
           "meaning": "Drikstet",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Posso ir?"
         },
         {
           "word": "müssen",
           "meaning": "Vajadzēt / milho jā-",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Eu tenho que estudar."
         },
         {
           "word": "wissen",
           "meaning": "Zinat",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Eu sei disso."
         }
       ],
       "tip": {
         "text": "Atceries: prasme/iespēja → können."
       },
       "important": [
-        "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
-        "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
+        "können não é o mesmo que dürfen. können = poder/conseguir, dürfen = ter permissão.",
+        "Em uma frase com können, o segundo verbo frequentemente fica no final: Ich kann schwimmen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11245,31 +12145,31 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Maksāt (cenu) • Cik maksā",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Custa 5 euros."
         },
         {
           "word": "bezahlen",
           "meaning": "Maksat • Samaksat (nadu)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Eu pago a conta."
         },
         {
           "word": "zahlen",
           "meaning": "Maksat • Samaksat",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Posso pagar em dinheiro?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Quanto custa isso?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Quanto custa o livro?"
         }
       ],
       "tip": [
-        "Atceries: jautājums par cenu → kosten (Was kostet das?).",
-        "Atceries: maksājuma veikšana → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+        "Lembre-se: pergunta sobre o preço → kosten (Was kostet das?).",
+        "Lembre-se: fazer o pagamento → bezahlen / zahlen (Ich bezahle die Rechnung.)."
       ],
       "important": [
-        "kosten un bezahlen nav sinonīmi: kosten = cik maksā; bezahlen = samaksāt naudu.",
-        "Latviski abos gadījumos bieži lieto maksāt, bet vācu valodā jāizvēlas pēc situācijas."
+        "kosten e bezahlen não são sinônimos: kosten = quanto custa; bezahlen = pagar a quantia.",
+        "Em latviano, frequentemente se usa pagar para ambos os casos, mas em alemão você deve escolher de acordo com a situação."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11738,13 +12638,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Laden ar lielo burtu — lietvārds (veikals).",
-        "laden ar mazo burtu — darbības vārds (iekraut/uzlādēt)."
+        "der Laden com letra maiúscula — substantivo (loja).",
+        "laden com letra minúscula — verbo (carregar/recarregar)."
       ],
       "important": [
-        "der Laden = veikals (lietvārds).",
-        "laden = iekraut/uzlādēt (darbības vārds).",
-        "Daudzskaitlī: die Läden."
+        "der Laden = loja (substantivo).",
+        "laden = carregar/recarregar (verbo).",
+        "Daudzskaitlī: estes Läden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11885,30 +12785,30 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Valsts / Zeme / Lauki",
-          "example": "Deutschland ist ein Land."
+          "example": "Deutschland é um país."
         },
         {
           "word": "die Stadt",
           "meaning": "Pilseta",
-          "example": "Ich wohne in der Stadt."
+          "example": "Moro na cidade."
         },
         {
           "word": "das Dorf",
           "meaning": "Ciems",
-          "example": "Er lebt in einem Dorf."
+          "example": "Ele vive em uma aldeia."
         },
         {
           "word": "die Erde",
           "meaning": "Zema/Planeta",
-          "example": "Die Erde ist rund."
+          "example": "A Terra é redonda."
         }
       ],
       "tip": {
         "text": "Atceries: valsts → das Land; pilsēta → die Stadt."
       },
       "important": [
-        "aufs Land nozīmē “uz laukiem”, nevis “uz valsti”.",
-        "das Land nav tas pats, kas die Stadt."
+        "aufs Land significa \"para o campo\", não \"para o país\".",
+        "das Land não é o mesmo que die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12137,12 +13037,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par izmēru vai attālumu (mati, ceļš, galds) → garš.",
-        "Par laiku (diena, gaidīšana, filma) → ilgs."
+        "Para medida ou distância (cabelo, caminho, mesa) → comprido.",
+        "Para tempo (dia, espera, filme) → longo."
       ],
       "important": [
-        "lang = garš (izmērs) VAI ilgs (laiks) — atkarībā no konteksta.",
-        "wie lange = cik ilgi (jautājums par laiku, ne izmēru)."
+        "lang = comprido (medida) OU longo (tempo) — dependendo do contexto.",
+        "wie lange = quanto tempo (pergunta sobre tempo, não medida)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12307,30 +13207,30 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Atstat / ļaut",
-          "example": "Ich lasse das hier."
+          "example": "Deixo isso aqui."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Ich bleibe hier."
+          "example": "Fico aqui."
         },
         {
           "word": "erlauben",
           "meaning": "Atelauta",
-          "example": "Sie erlaubt mir das."
+          "example": "Ela me permite isso."
         },
         {
           "word": "geben",
           "meaning": "Ver",
-          "example": "Gib mir das Buch."
+          "example": "Dá-me o livro."
         }
       ],
       "tip": {
         "text": "Atceries: kaut kas paliek → lassen; kādam atļauj → lassen."
       },
       "important": [
-        "lassen nav tikai “atstāt”. Tas bieži nozīmē arī “ļaut”.",
-        "Lass mich in Ruhe! ir ļoti bieža frāze: “Liec mani mierā!”"
+        "lassen não é apenas \"deixar\". Frequentemente também significa \"permitir\".",
+        "Lass mich in Ruhe! é uma frase muito comum: \"Deixe-me em paz!\""
       ],
       "sectionAccents": {
         "explanation": {
@@ -12541,30 +13441,30 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Skriet/Darboties",
-          "example": "Er läuft schnell."
+          "example": "Ele corre rápido."
         },
         {
           "word": "gehen",
           "meaning": "O kajam",
-          "example": "Ich gehe nach Hause."
+          "example": "Vou para casa."
         },
         {
           "word": "fahren",
           "meaning": "Transporte de carro",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Viajo de ônibus."
         },
         {
           "word": "funktionieren",
           "meaning": "Darboties",
-          "example": "Das funktioniert gut."
+          "example": "Isso funciona bem."
         }
       ],
       "tip": {
         "text": "Atceries: kājas ātri → laufen; transports → fahren."
       },
       "important": [
-        "laufen nav tikai “skriet”. Par filmu vai ierīci tas var nozīmēt “iet” vai “darboties”.",
-        "Ich laufe nozīmē kustību kājām, nevis braukšanu."
+        "laufen não é apenas \"correr\". Para um filme ou dispositivo, pode significar \"ir\" ou \"funcionar\".",
+        "Ich laufe significa movimento a pé, não andar de carro."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12790,14 +13690,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "laut = skaņa"
+        "Pequeno laut = alto (adjetivo: ist laut). der Laut com letra maiúscula = som (substantivo: ein Laut, der Laut).",
+        "laut = som"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "laut em letra minúscula e sem artigo — é um adjetivo.",
+        "der Laut com letra maiúscula e artigo der é um substantivo.",
+        "Plural: die Laute (sons de fala, sinais sonoros).",
+        "Incorreto: Der Laut ist sehr. → Correto: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12952,14 +13852,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "der Laut = skaņa"
+        "Pequeno laut = alto (adjetivo: ist laut). der Laut com letra maiúscula = som (substantivo: ein Laut, der Laut).",
+        "der Laut = som"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "laut em letra minúscula e sem artigo — é um adjetivo.",
+        "der Laut com letra maiúscula e artigo der é um substantivo.",
+        "Plural: die Laute (sons de fala, sinais sonoros).",
+        "Incorreto: Der Laut ist sehr. → Correto: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13116,30 +14016,30 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Nolikt",
-          "example": "Ich lege das Buch auf den Tisch."
+          "example": "Coloco o livro na mesa."
         },
         {
           "word": "liegen",
           "meaning": "Atrazia/gargalo",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "O livro está na mesa."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt Stavus",
-          "example": "Ich stelle die Flasche auf den Tisch."
+          "example": "Coloco a garrafa na mesa."
         },
         {
           "word": "setzen",
           "meaning": "Nosēdināt / apsēsties",
-          "example": "Ich setze mich."
+          "example": "Eu me sento."
         }
       ],
       "tip": {
         "text": "Atceries: tu noliec → legen; lieta jau atrodas → liegen."
       },
       "important": [
-        "legen un liegen nav viens un tas pats.",
-        "Ich lege das Buch = es nolieku grāmatu. Das Buch liegt = grāmata atrodas."
+        "legen e liegen não são a mesma coisa.",
+        "Ich lege das Buch = eu coloco o livro. Das Buch liegt = o livro está."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13386,7 +14286,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Kluss",
       "explanation": [
-        "Galvenā doma: Kluss vai ar mazu skaļumu.",
+        "Ideia principal: Silencioso ou com baixo volume.",
         "Galvenokārt nozīmē silencioso: mazs skaųums.",
         "Frequentemente descreve: som/voz/música.",
         "Lease raksturo mazu skaļumu vai werku balsi/skaņu."
@@ -13410,13 +14310,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "leise = kluss",
-        "Izmanto leise, kad konteksts atbilst šai nozīmei."
+        "leise = silencioso",
+        "Use leise quando o contexto corresponder a este significado."
       ],
       "important": [
-        "leise = kluss skaņas ziņā.",
-        "leise = skaļums.",
-        "Kluss vai ar mazu skaļumu."
+        "leise = silencioso em termos de som.",
+        "leise = volume.",
+        "Silencioso ou com baixo volume."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13583,30 +14483,30 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Atrazia/gargalo",
-          "example": "Das Buch liegt hier."
+          "example": "O livro está aqui."
         },
         {
           "word": "legen",
           "meaning": "Nolikt",
-          "example": "Ich lege das Buch hierhin."
+          "example": "Coloco o livro aqui."
         },
         {
           "word": "stehen",
           "meaning": "Stāvēt / atrasties stāvus",
-          "example": "Die Flasche steht auf dem Tisch."
+          "example": "A garrafa está na mesa."
         },
         {
           "word": "sein",
           "meaning": "Nós dois estamos arruinados por causa de nossas famílias.",
-          "example": "Ich bin hier."
+          "example": "Estou aqui."
         }
       ],
       "tip": {
         "text": "Atceries: lieta jau ir vietā → liegen; tu to noliec → legen."
       },
       "important": [
-        "liegen rāda stāvokli vai atrašanās vietu.",
-        "legen rāda darbību: kāds kaut ko noliek."
+        "liegen indica posição ou localização.",
+        "legen indica ação: alguém coloca algo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13918,8 +14818,8 @@ const A1_WORDS = [
         "text": "Atceries: Was machst du? = Ko tu dari?"
       },
       "important": [
-        "machen ir ļoti plašs vārds, bet latviski bieži jātulko dabiski pēc situācijas.",
-        "Das macht Spaß nozīmē “tas ir jautri”, nevis burtiski “tas taisa prieku”."
+        "machen é uma palavra muito ampla, mas em latviano, frequentemente deve ser traduzida naturalmente dependendo da situação.",
+        "Das macht Spaß significa \"é divertido\", não literalmente \"faz diversão\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14088,7 +14988,7 @@ const A1_WORDS = [
         "Adestramento Galvenā: a marca nozīmē reizi kā notokumu vai gadījumu.",
         "Bieži leto ar skaitļiem: um mal, dois males, três males.",
         "Ar kartas skaitli: das erste Mal, das 2weite Mal.",
-        "Nesarunāj ar sarunvalodas daļiņu mal (Komm mal her!) — tā ir cita nozīme."
+        "Não confunda com a partícula de linguagem informal mal (Komm mal her!) — esse é um significado diferente."
       ],
       "examples": [
         {
@@ -14112,9 +15012,9 @@ const A1_WORDS = [
         "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
       },
       "important": [
-        "das Mal / die Male — lietvārds ar artikulu.",
-        "ein Mal, zwei Mal — skaita reizes.",
-        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
+        "das Mal / die Male — substantivo com artigo.",
+        "ein Mal, zwei Mal — vezes de contagem.",
+        "mal sem artigo (Komm mal her!) não é o mesmo que das Mal."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14246,7 +15146,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Virietis • Virs",
       "explanation": [
-        "Galvenā doma: der Mann var nozīmēt vīrieti (dzimums) vai vīru (laulātais).",
+        "Ideia principal: der Mann pode significar homem (sexo) ou marido (casado).",
         "Sim runa ir vienkārši par dzimumu vai personu, o homem = vīrietis.",
         "Ja runa ir par laulāto Partneri, der Mann = vīrs (mein Mann = mans vīrs).",
         "Piederības vietniekvārds (meu/seu marido) gandriz vienmēr nozīmē vīru — laulāto.",
@@ -14280,13 +15180,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
-        "Bez piederības vārda (der Mann, ein Mann) parasti domāts vīrietis."
+        "Com possuidor (mein/dein/ihr Mann) quase sempre significa marido (casado).",
+        "Sem possuidor (der Mann, ein Mann) geralmente significa homem."
       ],
       "important": [
-        "der Mann = vīrietis VAI vīrs — atkarībā no konteksta.",
-        "mein Mann = mans vīrs (ne 'mans vīrietis').",
-        "Daudzskaitlī: die Männer."
+        "der Mann = homem OU marido — dependendo do contexto.",
+        "mein Mann = meu marido (não 'meu homem').",
+        "Daudzskaitlī: este Männer."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14536,30 +15436,30 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Com/com",
-          "example": "Ich komme mit dir."
+          "example": "Vou com você."
         },
         {
           "word": "ohne",
           "meaning": "Disco.",
-          "example": "Ich komme ohne dich."
+          "example": "Vou sem você."
         },
         {
           "word": "bei",
           "meaning": "Bolo/torta Kāda",
-          "example": "Ich bin bei Anna."
+          "example": "Estou com Anna."
         },
         {
           "word": "zu",
           "meaning": "Uz/torta",
-          "example": "Ich gehe zum Arzt."
+          "example": "Vou ao médico."
         }
       ],
       "tip": {
         "text": "Atceries: kopā ar kādu vai ar transportu → mit."
       },
       "important": [
-        "mit prasa datīvu: mit dem Bus, mit der Mutter, mit dir.",
-        "Kommst du mit? nozīmē “Vai tu nāksi līdzi?”"
+        "mit requer dativo: mit dem Bus, mit der Mutter, mit dir.",
+        "Kommst du mit? significa \"Você vem comigo?\""
       ],
       "sectionAccents": {
         "explanation": {
@@ -14801,30 +15701,30 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Patikt",
-          "example": "Ich mag Musik."
+          "example": "Eu gosto de música."
         },
         {
           "word": "möchte",
           "meaning": "Gribetu",
-          "example": "Ich möchte Kaffee."
+          "example": "Quero café."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Ich will nach Hause."
+          "example": "Vou para casa."
         },
         {
           "word": "lieben",
           "meaning": "Mileto",
-          "example": "Ich liebe dich."
+          "example": "Eu te amo."
         }
       ],
       "tip": {
         "text": "Atceries: Ich mag... = man patīk..."
       },
       "important": [
-        "mögen nav galvenais vārds pieklājīgam “es gribētu”. Tam parasti lieto möchte.",
-        "Ich mag Kaffee nozīmē “man garšo/patīk kafija”."
+        "mögen não é a palavra principal para o educado \"eu gostaria\". Para isso, geralmente se usa möchte.",
+        "Ich mag Kaffee significa \"eu gosto/gosto de café\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15072,14 +15972,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "morgen = rīt"
+        "Pequeno morgen = amanhã (Ich komme morgen). der Morgen em maiúscula = manhã (Guten Morgen!, am Morgen).",
+        "morgen = amanhã"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "morgen é escrito em minúsculas — é uma circunstância de tempo (amanhã).",
+        "der Morgen em maiúscula com artigo der é um substantivo (manhã).",
+        "Guten Morgen! — sempre com maiúscula M (manhã, não amanhã).",
+        "Incorreto: Guten morgen! → Correto: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15233,14 +16133,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "der Morgen = rīt"
+        "Pequeno morgen = amanhã (Ich komme morgen). der Morgen em maiúscula = manhã (Guten Morgen!, am Morgen).",
+        "der Morgen = amanhã"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "morgen é escrito em minúsculas — é uma circunstância de tempo (amanhã).",
+        "der Morgen em maiúscula com artigo der é um substantivo (manhã).",
+        "Guten Morgen! — sempre com maiúscula M (manhã, não amanhã).",
+        "Incorreto: Guten morgen! → Correto: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15395,30 +16295,30 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Milho Vajadzēt / jadara",
-          "example": "Ich muss gehen."
+          "example": "Tenho que ir."
         },
         {
           "word": "können",
           "meaning": "Varet/prast",
-          "example": "Ich kann kommen."
+          "example": "Posso vir."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Ich will nach Hause."
+          "example": "Vou para casa."
         },
         {
           "word": "dürfen",
           "meaning": "Drikstet",
-          "example": "Darf ich gehen?"
+          "example": "Posso ir?"
         }
       ],
       "tip": {
         "text": "Atceries: Ich muss... = man jā..."
       },
       "important": [
-        "müssen ir modālais darbības vārds.",
-        "Otrs darbības vārds parasti iet teikuma beigās: Ich muss heute arbeiten."
+        "müssen é um verbo modal.",
+        "O segundo verbo geralmente vai no final da frase: Ich muss heute arbeiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15617,9 +16517,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Uz • Pēc",
       "explanation": [
-        "Galvenā doma: nach nozīmē uz ar vietām un pēc ar laiku vai secību.",
+        "Ideia principal: nach significa para com lugares e depois com tempo ou sequência.",
         "Ar pilsētām un valstīm bez article nach bieži nozīmē uz.",
-        "Ar laiku nach nozīmē pēc.",
+        "Com tempo, nach significa depois.",
         "Frāzē home tas nozīmē uz mājām."
       ],
       "examples": [
@@ -15644,30 +16544,30 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "Us/pec",
-          "example": "Ich fahre nach Berlin."
+          "example": "Vou para Berlim."
         },
         {
           "word": "zu",
           "meaning": "Uz/torta",
-          "example": "Ich gehe zum Arzt."
+          "example": "Vou ao médico."
         },
         {
           "word": "in",
           "meaning": "Iekšā / uz antigo ar artikulu",
-          "example": "Ich gehe in die Schule."
+          "example": "Vou à escola."
         },
         {
           "word": "vor",
           "meaning": "Pirms / priekšā",
-          "example": "Vor dem Essen wasche ich die Hände."
+          "example": "Lavo as mãos antes de comer."
         }
       ],
       "tip": {
         "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
       },
       "important": [
-        "nach nelieto ar visām vietām.",
-        "Uz skolu parasti ir in die Schule, nevis nach Schule."
+        "nach não é usado com todos os lugares.",
+        "Para escola, geralmente é in die Schule, não nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15931,12 +16831,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kā atsevišķs vārds, apstiprinot vai atbildot → protams.",
-        "Blakus lietvārdam, aprakstot izcelsmi vai īpašību → dabisks."
+        "Como palavra separada, confirmando ou respondendo → claro.",
+        "Ao lado de um substantivo, descrevendo origem ou qualidade → natural."
       ],
       "important": [
-        "natürlich = protams (apstākļa vārds, apstiprinājums) VAI dabisks (īpašības vārds).",
-        "Natürlich! kā atsevišķs saucienis vienmēr = protams!"
+        "natürlich = claro (advérbio, confirmação) OU natural (adjetivo).",
+        "Natürlich! como uma exclamação separada sempre = claro!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -16091,30 +16991,30 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "‹emt/ paņemt",
-          "example": "Nimm das Buch!"
+          "example": "Pega o livro!"
         },
         {
           "word": "bringen",
           "meaning": "Atnest / aiznest / nogādāt",
-          "example": "Ich bringe dir das Buch."
+          "example": "Eu te trago o livro."
         },
         {
           "word": "holen",
           "meaning": "Aiziet pakaų / atnest",
-          "example": "Ich hole Wasser."
+          "example": "Pego água."
         },
         {
           "word": "mitnehmen",
           "meaning": "Paņemt lidzi",
-          "example": "Ich nehme dich mit."
+          "example": "Levo você comigo."
         }
       ],
       "tip": {
         "text": "Atceries: paņem sev → nehmen; atnes kādam → bringen."
       },
       "important": [
-        "Ich nehme den Bus latviski nozīmē “es braucu ar autobusu”.",
-        "nehmen nav tas pats, kas bringen."
+        "Ich nehme den Bus em letão significa \"eu ando de ônibus\".",
+        "nehmen não é a mesma coisa que bringen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16376,13 +17276,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "neu ir par lietām, ierīcēm un jaunumiem — ja runā par cilvēka vecumu, lieto jung.",
-        "Pretstats: neu ↔ alt (jauns ↔ vecs)."
+        "neu é para coisas, dispositivos e novidades — se falar sobre a idade de uma pessoa, use jung.",
+        "Oposto: neu ↔ alt (novo ↔ velho)."
       ],
       "important": [
-        "neu raksturo lietas un jaunumus, ne cilvēka vai dzīvnieka vecumu.",
-        "Par cilvēka vai dzīvnieka vecumu lieto jung, nevis neu.",
-        "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
+        "neu descreve coisas e novidades, não a idade de uma pessoa ou animal.",
+        "Para a idade de uma pessoa ou animal, usa-se jung, não neu.",
+        "Incorreto: Meine Schwester ist neu. → Correto: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16610,12 +17510,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
-        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+        "Algo ainda está em andamento ou ainda não terminou.",
+        "Use noch quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "noch = vēl.",
-        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+        "noch = ainda.",
+        "Algo ainda está em andamento ou ainda não terminou."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16746,12 +17646,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
-        "Izmanto nur, kad konteksts atbilst šai nozīmei."
+        "Limita quantidade, número de pessoas, escolha ou possibilidades.",
+        "Use nur quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
-        "nur = tikai / vienīgi."
+        "O letão \"tikai\" em alemão nem sempre é nur.",
+        "nur = apenas / somente."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16887,30 +17787,30 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Vá netiesā jautājumā",
-          "example": "Ich weiß nicht, ob er kommt."
+          "example": "Não sei se ele vem."
         },
         {
           "word": "oder",
           "meaning": "Go izvēlē variação starp",
-          "example": "Kaffee oder Tee?"
+          "example": "Café ou chá?"
         },
         {
           "word": "wenn",
           "meaning": "SIM / KAD",
-          "example": "Wenn du Zeit hast..."
+          "example": "Se você tiver tempo..."
         },
         {
           "word": "dass",
           "meaning": "K.A.",
-          "example": "Ich weiß, dass er kommt."
+          "example": "Sei que ele vem."
         }
       ],
       "tip": {
         "text": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder."
       },
       "important": [
-        "ob nav parasta izvēles “vai” forma starp divām lietām.",
-        "Kaffee oder Tee? lieto oder, nevis ob."
+        "ob não é a forma usual de escolha \"ou\" entre duas coisas.",
+        "Kaffee oder Tee? usa oder, não ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17122,30 +18022,30 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Vá izvēlē",
-          "example": "Kaffee oder Tee?"
+          "example": "Café ou chá?"
         },
         {
           "word": "ob",
           "meaning": "Vá netiesā jautājumā",
-          "example": "Ich weiß nicht, ob er kommt."
+          "example": "Não sei se ele vem."
         },
         {
           "word": "und",
           "meaning": "ODIHR",
-          "example": "Kaffee und Kuchen."
+          "example": "Café e bolo."
         },
         {
           "word": "aber",
           "meaning": "SZADZIŃSKA",
-          "example": "Ich komme, aber später."
+          "example": "Venho, mas mais tarde."
         }
       ],
       "tip": {
         "text": "Atceries: izvēle starp variantiem → oder."
       },
       "important": [
-        "oder lieto izvēlei: Kaffee oder Tee.",
-        "Netiešā jautājumā “vai” parasti ir ob."
+        "oder é usado para escolha: Kaffee oder Tee.",
+        "Em pergunta indireta, \"ou\" geralmente é ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17373,7 +18273,7 @@ const A1_WORDS = [
   },
   {
     "de": "Ostern",
-    "lv": "Lieldienas",
+    "lv": "Páscoa",
     "level": "A1"
   },
   {
@@ -17433,30 +18333,30 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Deret / piestāvēt",
-          "example": "Die Jacke passt mir."
+          "example": "A jaqueta me cai bem."
         },
         {
           "word": "stehen",
           "meaning": "Piestāvēt / stāvēt",
-          "example": "Rot steht dir gut."
+          "example": "O vermelho fica bem em você."
         },
         {
           "word": "geeignet sein",
           "meaning": "Mas piemērotam",
-          "example": "Das ist geeignet."
+          "example": "Isso é adequado."
         },
         {
           "word": "funktionieren",
           "meaning": "Darboties",
-          "example": "Das funktioniert."
+          "example": "Isso funciona."
         }
       ],
       "tip": {
         "text": "Atceries: Das passt. = Tas der."
       },
       "important": [
-        "passen nav tikai par apģērbu.",
-        "Tas var nozīmēt arī, ka laiks, plāns vai risinājums der."
+        "passen não é apenas sobre roupas.",
+        "Também pode significar que o tempo, plano ou solução é apropriado."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17750,30 +18650,30 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Izmēēināt / nogaršot",
-          "example": "Probier mal die Suppe!"
+          "example": "Prova a sopa!"
         },
         {
           "word": "versuchen",
           "meaning": "Mēēinat",
-          "example": "Ich versuche es."
+          "example": "Tento."
         },
         {
           "word": "prüfen",
           "meaning": "Parbaudit",
-          "example": "Ich prüfe die Rechnung."
+          "example": "Verifico a conta."
         },
         {
           "word": "anprobieren",
           "meaning": "Pielaikot",
-          "example": "Ich probiere die Jacke an."
+          "example": "Provo a jaqueta."
         }
       ],
       "tip": {
         "text": "Atceries: ēdiens → probieren = nogaršot."
       },
       "important": [
-        "probieren nav galvenais vārds oficiālai pārbaudei.",
-        "Dokumentu vai rēķinu pārbaudīt parasti ir prüfen."
+        "probieren não é a palavra principal para uma verificação oficial.",
+        "Para verificar documentos ou contas, geralmente se usa prüfen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18083,8 +18983,8 @@ const A1_WORDS = [
         "text": "Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi."
       },
       "important": [
-        "der Reis — vācu valodā tikai vienskaitlis (Der Reis ist..., nicht *sind).",
-        "Latviski tulkojumā bieži lieto daudzskaitli: rīsi ir gatavi."
+        "der Reis — em alemão apenas singular (Der Reis ist..., nicht *sind).",
+        "Na tradução para letão, frequentemente se usa o plural: rīsi ir gatavi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18194,7 +19094,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Teikt",
       "explanation": [
-        "Galvenā doma: Pateikt konkrētu domu, vārdu vai teikumu.",
+        "Ideia principal: Expressar um pensamento, palavra ou frase específica.",
         "Diga galvenokārt nozīmē: pateikt konkrētu domu.",
         "Biezi raksturo: vārdus/teikumus.",
         "Sagen Laato konkrētam pateiktamtekstam."
@@ -18218,12 +19118,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sagen = teikt",
-        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+        "sagen = dizer",
+        "Use sagen quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "sagen = pateikt.",
-        "Pateikt konkrētu domu, vārdu vai teikumu."
+        "sagen = dizer.",
+        "Expressar um pensamento, palavra ou frase específica."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18327,12 +19227,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "schauen = skatīties",
-        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
+        "schauen = olhar",
+        "Use schauen quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "schauen = skatīties.",
-        "Aktīvi skatīties vai palūkoties."
+        "schauen = olhar.",
+        "Olhar ativamente ou dar uma olhada."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18469,12 +19369,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas jau ir noticis vai jau ir spēkā.",
-        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+        "Algo já aconteceu ou já está em vigor.",
+        "Use schon quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "schon = jau.",
-        "Kaut kas jau ir noticis vai jau ir spēkā."
+        "schon = já.",
+        "Algo já aconteceu ou já está em vigor."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18611,30 +19511,30 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Peldēt kākustība vai esportes",
-          "example": "Er schwimmt sehr gut."
+          "example": "Ele nada muito bem."
         },
         {
           "word": "baden",
           "meaning": "Peldēties / atrasties ūdenī",
-          "example": "Ich gehe baden."
+          "example": "Vou nadar."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Cujo? Não importa.",
-          "example": "Wir gehen schwimmen."
+          "example": "Vamos nadar."
         },
         {
           "word": "duschen",
           "meaning": "Mazgāties dušā",
-          "example": "Ich dusche morgens."
+          "example": "Tomo banho pela manhã."
         }
       ],
       "tip": {
         "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
       },
       "important": [
-        "schwimmen un baden nav viens un tas pats.",
-        "Latviski bieži saka “peldēt”, bet vāciski jāskatās, vai tā ir kustība vai peldēšanās."
+        "schwimmen e baden não são a mesma coisa.",
+        "Em letão, frequentemente se diz \"peldēt\", mas em alemão é preciso verificar se é movimento ou nado."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18888,30 +19788,30 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Redzet",
-          "example": "Ich sehe dich."
+          "example": "Eu te vejo."
         },
         {
           "word": "schauen",
           "meaning": "Trenós",
-          "example": "Ich schaue auf das Bild."
+          "example": "Olho para o quadro."
         },
         {
           "word": "ansehen",
           "meaning": "Apskatīt / skatīties",
-          "example": "Ich sehe mir den Film an."
+          "example": "Assisto ao filme."
         },
         {
           "word": "hören",
           "meaning": "Dzirdet",
-          "example": "Ich höre Musik."
+          "example": "Ouço música."
         }
       ],
       "tip": {
         "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
       },
       "important": [
-        "sehen nav tas pats, kas anschauen.",
-        "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+        "sehen não é a mesma coisa que schauen.",
+        "Ich sehe dich = eu te vejo; Ich schaue den Film = eu assisto ao filme."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19137,30 +20037,30 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Nós dois estamos arruinados por causa de nossas famílias.",
-          "example": "Ich bin hier."
+          "example": "Estou aqui."
         },
         {
           "word": "haben",
           "meaning": "J.",
-          "example": "Ich habe Zeit."
+          "example": "Tenho tempo."
         },
         {
           "word": "werden",
           "meaning": "Kļût",
-          "example": "Ich werde müde."
+          "example": "Fico cansado."
         },
         {
           "word": "bleiben",
           "meaning": "Palikt",
-          "example": "Ich bleibe hier."
+          "example": "Fico aqui."
         }
       ],
       "tip": {
         "text": "Atceries: ich bin = es esmu; du bist = tu esi."
       },
       "important": [
-        "sein formas jāiemācās atsevišķi: bin, bist, ist, sind.",
-        "Ich bin ir “es esmu”, nevis “es būt”."
+        "As formas de sein devem ser aprendidas separadamente: bin, bist, ist, sind.",
+        "Ich bin é \"eu sou\", não \"eu estar\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19379,12 +20279,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Runā par grāmatu vai lasīšanu → lappuse. Runā par novietojumu, virzienu vai attiecībām → puse.",
-        "Seite X grāmatā vienmēr ir lappuse, ne puse."
+        "Ao falar sobre livro ou leitura → página. Ao falar sobre localização, direção ou relações → lado.",
+        "Página X em um livro é sempre página, não lado."
       ],
       "important": [
-        "die Seite = lappuse VAI puse — konteksts izšķir.",
-        "Daudzskaitlī abām nozīmēm: die Seiten."
+        "die Seite = página OU lado — o contexto diferencia.",
+        "Daudzskaitlī abām nozīmēm: as páginas."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19554,30 +20454,30 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Sevi/sev",
-          "example": "Er wäscht sich."
+          "example": "Ele se lava."
         },
         {
           "word": "mich",
           "meaning": "Mãos / bolo sevi ich",
-          "example": "Ich wasche mich."
+          "example": "Eu me lavo."
         },
         {
           "word": "dich",
           "meaning": "Torta tevi/sevi",
-          "example": "Du wäschst dich."
+          "example": "Você se lava."
         },
         {
           "word": "ihn",
           "meaning": "Viñú",
-          "example": "Ich sehe ihn."
+          "example": "Eu o vejo."
         }
       ],
       "tip": {
         "text": "Atceries: darbība uz sevi → sich/mich/dich."
       },
       "important": [
-        "sich nav patstāvīgs lietvārds.",
-        "Tas mainās pēc personas: ich → mich, du → dich, er/sie/es → sich."
+        "sich não é um substantivo independente.",
+        "Ele muda de acordo com a pessoa: ich → mich, du → dich, er/sie/es → sich."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19794,12 +20694,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par vietu vai situāciju (drošība) → drošs.",
-        "Kā pārliecība vai apstiprinājums teikumā → noteikti/droši vien."
+        "Sobre lugar ou situação (segurança) → seguro.",
+        "Como certeza ou confirmação na frase → certamente/provavelmente."
       ],
       "important": [
-        "sicher = drošs (īpašības vārds) VAI noteikti/droši vien (apstākļa vārds).",
-        "sich sicher sein = būt pārliecinātam."
+        "sicher = seguro (adjetivo) OU certamente/provavelmente (advérbio).",
+        "sich sicher sein = estar certo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19924,11 +20824,11 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Viņi / vinhas",
       "explanation": [
-        "Galvenā doma: Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
+        "Ideia principal: Forma plural — falar sobre várias pessoas. O verbo termina em -en: kochen, essen, gehen.",
         "Ela galvenokārt nozīmē: venha peneirar.",
         "Bieži raksturo: darbības vārds vientkaitlī (-t).",
         "Leia galvenokārt nozīmē: vairāki cilvēki.",
-        "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
+        "Frequentemente caracterizado por: verbo no plural (-en).",
         "Sie galvenokārt nozīmē: piklājīga uzruna.",
         "Biezi raksturo: obrigado ao amor S.",
         "Mazais sie nozīmē viņu, ja darbības vārds ir venuskaitlī (Sie comprou = viņa gatavo)."
@@ -19960,14 +20860,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
-        "Izmanto sie, kad konteksts atbilst šai nozīmei."
+        "Forma plural — falar sobre várias pessoas. O verbo termina em -en: kochen, essen, gehen.",
+        "Use sie quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "O pronome de cortesia sempre com maiúscula S: Sie, não sie.",
+        "Ela: Sie kocht. Eles: sie kochen. Vocês: Sie kochen.",
+        "Incorreto: sie kocht → Correto: Sie kocht",
+        "Incorreto: Sie kocht (eles) → Correto: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20085,7 +20985,7 @@ const A1_WORDS = [
         "Ela galvenokārt nozīmē: venha peneirar.",
         "Bieži raksturo: darbības vārds vientkaitlī (-t).",
         "Leia galvenokārt nozīmē: vairāki cilvēki.",
-        "Bieži raksturo: darbības vārds daudzskaitlī (-en).",
+        "Frequentemente caracterizado por: verbo no plural (-en).",
         "Sie galvenokārt nozīmē: piklājīga uzruna.",
         "Biezi raksturo: obrigado ao amor S.",
         "Mazais sie nozīmē viņu, ja darbības vārds ir venuskaitlī (Sie comprou = viņa gatavo)."
@@ -20117,14 +21017,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
-        "Izmanto Sie, kad konteksts atbilst šai nozīmei."
+        "Pronome de cortesia — sempre com maiúscula S. Em letão: jūs. Frequentemente com verbo no plural.",
+        "Use Sie quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "O pronome de cortesia sempre com maiúscula S: Sie, não sie.",
+        "Ela: Sie kocht. Eles: sie kochen. Vocês: Sie kochen.",
+        "Incorreto: sie kocht → Correto: Sie kocht",
+        "Incorreto: Sie kocht (eles) → Correto: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20288,30 +21188,30 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Sentir",
-          "example": "Ich sitze am Tisch."
+          "example": "Estou sentado à mesa."
         },
         {
           "word": "stehen",
           "meaning": "Stavet",
-          "example": "Er steht an der Tür."
+          "example": "Ele está de pé à porta."
         },
         {
           "word": "liegen",
           "meaning": "Escuna / atrasties guļus",
-          "example": "Die Katze liegt dort."
+          "example": "O gato está deitado lá."
         },
         {
           "word": "setzen",
           "meaning": "Apsēsties / nosēdināt",
-          "example": "Ich setze mich."
+          "example": "Eu me sento."
         }
       ],
       "tip": {
         "text": "Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen."
       },
       "important": [
-        "sitzen rāda stāvokli “sēdēt”.",
-        "Apsēsties ir sich setzen, nevis sitzen."
+        "sitzen mostra a posição \"estar sentado\".",
+        "Sentar-se é sich setzen, não sitzen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20558,30 +21458,30 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Vajadzētu / jadara pēc norādes",
-          "example": "Was soll ich machen?"
+          "example": "O que devo fazer?"
         },
         {
           "word": "müssen",
           "meaning": "Obrigação vajadzēt",
-          "example": "Ich muss gehen."
+          "example": "Tenho que ir."
         },
         {
           "word": "können",
           "meaning": "Varet",
-          "example": "Ich kann kommen."
+          "example": "Posso vir."
         },
         {
           "word": "wollen",
           "meaning": "Gribet",
-          "example": "Ich will bleiben."
+          "example": "Quero ficar."
         }
       ],
       "tip": {
         "text": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen."
       },
       "important": [
-        "Was soll ich machen? ir ļoti bieža frāze.",
-        "sollen un müssen nav pilnīgi vienādi."
+        "Was soll ich machen? é uma frase muito comum.",
+        "sollen e müssen não são exatamente iguais."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20860,30 +21760,30 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stāvēt / atrasties stāvus",
-          "example": "Ich stehe hier."
+          "example": "Estou de pé aqui."
         },
         {
           "word": "sitzen",
           "meaning": "Sentir",
-          "example": "Er sitzt am Tisch."
+          "example": "Ele está sentado à mesa."
         },
         {
           "word": "liegen",
           "meaning": "Escuna / atrasties guļus",
-          "example": "Das Buch liegt dort."
+          "example": "O livro está lá."
         },
         {
           "word": "stellen",
           "meaning": "Nolikt Stavus",
-          "example": "Ich stelle die Flasche hin."
+          "example": "Coloco a garrafa lá."
         }
       ],
       "tip": {
         "text": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."
       },
       "important": [
-        "stehen rāda stāvokli, nevis darbību “nolikt”.",
-        "Nolikt priekšmetu stāvus ir stellen, nevis stehen."
+        "stehen indica estado, não ação \"colocar\".",
+        "Colocar um objeto em pé é stellen, não stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21328,8 +22228,8 @@ const A1_WORDS = [
         "text": "Atceries: tēma sarunā → über; virs galda → über."
       },
       "important": [
-        "über nav tikai vietas vārds.",
-        "sprechen über nozīmē “runāt par”."
+        "über não é apenas uma preposição de lugar.",
+        "sprechen über significa \"falar sobre\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21546,7 +22446,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā doma: um ųoti bieži nozīmē pulksten a laiku vai ap/apkārt ar vietu.",
         "Ar precīzu laiku um nozīmē.",
-        "Ar vietu um nozīmē ap vai apkārt.",
+        "Com lugar, um significa aproximadamente ou em torno de.",
         "Frāzē um ... to tas palīdz izteikt nolūku: lai."
       ],
       "examples": [
@@ -21593,8 +22493,8 @@ const A1_WORDS = [
         "text": "Atceries: um acht = pulksten astoņos."
       },
       "important": [
-        "um ar laiku parasti ir “pulksten”.",
-        "um ... zu bieži nozīmē “lai ...”."
+        "um com tempo geralmente é \"em hora\".",
+        "um ... zu frequentemente significa \"para ...\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21857,8 +22757,8 @@ const A1_WORDS = [
         "text": "Atceries: zem galda → unter dem Tisch."
       },
       "important": [
-        "unter var nozīmēt arī “starp”, īpaši ar cilvēkiem vai grupām.",
-        "unter un über bieži ir pretstati vietas nozīmē."
+        "unter também pode significar \"entre\", especialmente com pessoas ou grupos.",
+        "unter e über frequentemente são opostos no significado de lugar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22138,8 +23038,8 @@ const A1_WORDS = [
         "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
       },
       "important": [
-        "verstehen nav galvenais vārds nozīmei “prast”.",
-        "Ich verstehe Deutsch nozīmē “es saprotu vāciski”."
+        "verstehen não é a palavra principal para o significado \"conseguir\".",
+        "Ich verstehe Deutsch significa \"eu entendo alemão\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22452,14 +23352,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: von + dem → vom (kam?).",
-        "Sarunvalodā gandrīz nekad nesaka von dem — lieto vom."
+        "Lembre-se: von + dem → vom (dativo?).",
+        "Na linguagem coloquial, quase nunca se diz von dem — use vom."
       ],
       "important": [
-        "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda izcelsmi, avotu vai virzienu no kā konkrēta.",
-        "Sieviešu dzimtei: von der Mutter, nevis vom Mutter.",
-        "Nesajauc ar aus (izcelsme no valsts) vai ab (sākuma punkts)."
+        "vom = von dem, apenas com substantivos masculinos ou neutros no caso dativo.",
+        "Indica origem, fonte ou direção de algo específico.",
+        "Para gênero feminino: von der Mutter, não vom Mutter.",
+        "Não confunda com aus (origem de país) ou ab (ponto de partida)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22773,8 +23673,8 @@ const A1_WORDS = [
         "text": "Atceries: pirms laikā, priekšā vietā → vor."
       },
       "important": [
-        "vor var būt gan laiks, gan vieta.",
-        "vor dem Essen = pirms ēšanas; vor dem Haus = mājas priekšā."
+        "vor pode ser tanto tempo quanto lugar.",
+        "vor dem Essen = antes de comer; vor dem Haus = na frente da casa."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23043,7 +23943,7 @@ const A1_WORDS = [
         },
         {
           "de": "Was bedeutet dieses Wort?",
-          "lv": "Ko nozīmē šis vārds?"
+          "lv": "O que significa esta palavra?"
         },
         {
           "de": "Was ist dein Lieblingsessen?",
@@ -23055,14 +23955,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "was pats nemainās — vācu valodā tas vienmēr ir was; latviski izvēlies kas vai ko pēc teikuma daļas.",
-        "Ātrs triks: ja uz jautājumu var atbildēt ar 'Tas ir ...', lieto kas; ja atbilde nāk pēc darbības vārda kā papildinājums, lieto ko."
+        "was em si não muda — em alemão é sempre was; em português escolha o que ou o que de acordo com a parte da frase.",
+        "Dica rápida: se você pode responder à pergunta com \"Isso é ...\", use o quê; se a resposta vem após o verbo como complemento, use o que."
       ],
       "important": [
-        "was jautā par lietām, notikumiem un faktiem — nekad par personām.",
-        "Par personām jautā ar wer (kas/kurš), nevis was.",
-        "was für (ein/eine) nozīmē kāds/kas par un jautā par īpašību vai veidu (Was für ein Film ist das? = Kāda tā ir filma?).",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "was pergunta sobre coisas, eventos e fatos — nunca sobre pessoas.",
+        "Por personām jautā ar wer (kas/kurš), Nevis era.",
+        "was für (ein/eine) significa qual/que tipo de e pergunta sobre propriedade ou tipo (Was für ein Film ist das? = Que tipo de filme é esse?).",
+        "Incorreto: Wer ist passiert? → Correto: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23312,8 +24212,8 @@ const A1_WORDS = [
         "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
       },
       "important": [
-        "wenn un wann nav viens un tas pats.",
-        "Wann kommst du? ir jautājums. Wenn du kommst... ir nosacījums/laiks."
+        "wenn e wann não são a mesma coisa.",
+        "Wann kommst du? é uma pergunta. Wenn du kommst... é uma condição/tempo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23531,18 +24431,18 @@ const A1_WORDS = [
         },
         {
           "de": "Wer möchte Kaffee?",
-          "lv": "Kurš vēlas kafiju?"
+          "lv": "Quem quer café?"
         }
       ],
       "tip": [
-        "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
-        "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
+        "wer pergunta sobre pessoas (quem) — para coisas e eventos use was.",
+        "Para perguntar sobre uma escolha entre várias pessoas, use wer von... (quem de...)."
       ],
       "important": [
-        "wer jautā tikai par personām, nekad par lietām.",
-        "Par lietām un notikumiem jautā ar was, nevis wer.",
-        "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "wer pergunta apenas sobre pessoas, nunca sobre coisas.",
+        "Sobre coisas e eventos, pergunte com was, não wer.",
+        "wer muda de forma de acordo com o caso: wen, wem, wessen — mas a forma básica é wer.",
+        "Incorreto: Wer ist passiert? → Correto: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23750,8 +24650,8 @@ const A1_WORDS = [
         "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
       },
       "important": [
-        "werden nav tas pats, kas sein.",
-        "Ich werde müde = es kļūstu noguris; Ich bin müde = es esmu noguris."
+        "werden não é a mesma coisa que sein.",
+        "Ich werde müde = eu fico cansado; Ich bin müde = eu sou cansado."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23987,12 +24887,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runā par sauli, lietu vai temperatūru ārpusē — lieto das Wetter.",
-        "Atceries: Wie ist das Wetter? = Kāds laiks? (ne pulkstenis)."
+        "Se você falar sobre sol, chuva ou temperatura lá fora — use das Wetter.",
+        "Lembre-se: Wie ist das Wetter? = Como está o tempo? (não relógio)."
       ],
       "important": [
-        "das Wetter = laikapstākļi, ne laiks pulkstenī.",
-        "die Zeit = laiks kā brīdis vai iespēja — cita karte A1."
+        "das Wetter = condições climáticas, não hora do relógio.",
+        "die Zeit = tempo como momento ou oportunidade — outra ficha A1."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24237,13 +25137,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wie pati par sevi = kā (veids); wie + īpašības vārds (viel/alt/lange) = cik (apjoms).",
-        "Salīdzinājumā so ... wie = tikpat ... kā."
+        "wie por si só = como (maneira); wie + adjetivo (viel/alt/lange) = quanto (quantidade).",
+        "Em comparação so ... wie = tão ... quanto."
       ],
       "important": [
-        "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
-        "wie viens pats (Wie...?) parasti = kā, ne cik.",
-        "Nepareizi: Cik tev iet? → Pareizi: Kā tev iet? (Wie geht's?)"
+        "wie viel(e) = quanto; wie alt = que idade; wie lange = quanto tempo.",
+        "wie sozinho (Wie...?) geralmente = como, não quanto.",
+        "Incorreto: Quanto você está? → Correto: Como você está? (Wie geht's?)"
       ],
       "sectionAccents": {
         "explanation": {
@@ -24474,8 +25374,8 @@ const A1_WORDS = [
         "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
       },
       "important": [
-        "zu ir ļoti daudz lietojumu, tāpēc vienmēr skaties uz konstrukciju.",
-        "zu teuer nozīmē “pārāk dārgi”, nevis “uz dārgi”."
+        "zu tem muitos usos, portanto sempre olhe para a construção.",
+        "zu teuer significa \"muito caro\", não \"para caro\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24726,8 +25626,8 @@ const A1_WORDS = [
         "text": "Atceries: konkrēts vilciens → der Zug."
       },
       "important": [
-        "der Zug virsrakstā jāuztver kā “vilciens”.",
-        "Retākās nozīmes nav vajadzīgas galvenajā A1 virsrakstā."
+        "der Zug no contexto deve ser entendido como \"trem\".",
+        "Os significados mais raros não são necessários no contexto principal de A1."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24975,14 +25875,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: zu + dem → zum (kam?).",
-        "Sievišķās dzimtes vārdiem: zu + der → zur."
+        "Lembre-se: zu + dem → zum (dativo?).",
+        "Para palavras do gênero feminino: zu + der → zur."
       ],
       "important": [
-        "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
-        "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
-        "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
+        "zum = zu dem, apenas com substantivos masculinos ou neutros no caso dativo.",
+        "Indica direção ou objetivo: ao médico, à estação, ao amigo.",
+        "Para gênero feminino use zur: zur Bank, zur Post.",
+        "Não confunda com bei (presença em) ou nach (para cidades sem artigo)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25338,17 +26238,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Televisão Skatities",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Eu assisto televisão."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Televīzija (medicina)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = Há um filme na televisão."
         },
         {
           "word": "sehen",
           "meaning": "Redzet",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Eu vejo um filme."
         }
       ],
       "tip": {
@@ -25464,14 +26364,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-        "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
+        "Se falar sobre a ação, use fernsehen (ich sehe fern). Se falar sobre programas de TV ou mídia, use das Fernsehen.",
+        "Substantivo, apenas singular. Descreve a TV como mídia ou transmissão em geral."
       ],
       "important": [
-        "fernsehen ir sadalāms: sehen + fern.",
-        "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
-        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
-        "Darbība: fernsehen → ich sehe fern."
+        "fernsehen é separável: sehen + fern.",
+        "das Fernsehen não está no plural — não há *die Fernsehen.",
+        "Incorreto: die Fernsehen → Correto: das Fernsehen",
+        "Ação: fernsehen → ich sehe fern."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25601,14 +26501,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Appetit = apetīte",
-        "Izmanto der Appetit, kad konteksts atbilst šai nozīmei."
+        "der Appetit = apetite",
+        "Use der Appetit quando o contexto corresponder a este significado."
       ],
       "important": [
-        "der Appetit ir tikai vienskaitlī.",
-        "Nepareizi: die Appetite → Pareizi: der Appetit",
-        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
-        "Sajūta: der Appetit."
+        "der Appetit é apenas singular.",
+        "Incorreto: die Appetite → Correto: der Appetit",
+        "Incorreto: Ich bin Appetit. → Correto: Ich habe Appetit.",
+        "Sensação: der Appetit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25723,14 +26623,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "essen = ēst",
-        "Izmanto essen, kad konteksts atbilst šai nozīmei."
+        "essen = comer",
+        "Use essen quando o contexto corresponder a este significado."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "essen é um verbo sem artigo.",
+        "das Essen não é o mesmo que essen.",
+        "Ação: essen.",
+        "Coisa/refeição: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25832,7 +26732,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ˈhis • Maltīte",
       "explanation": [
-        "Galvenā doma: Lietvārds — ēdiens vai visa maltīte.",
+        "Ideia principal: Substantivo — comida ou refeição inteira.",
         "Das Essen galvenokārt nozīmē: patērēt partiku.",
         "Biezi raksturo: darbību.",
         "Das Essen galvenokārt nozīmē: partika vai maltīte.",
@@ -25867,14 +26767,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Essen = ēst",
-        "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
+        "das Essen = comer",
+        "Use das Essen quando o contexto corresponder a este significado."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "essen é um verbo sem artigo.",
+        "das Essen não é o mesmo que essen.",
+        "Ação: essen.",
+        "Coisa/refeição: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26011,13 +26911,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Gemüse = dārzeņi",
-        "Izmanto das Gemüse, kad konteksts atbilst šai nozīmei."
+        "das Gemüse = vegetais",
+        "Use das Gemüse quando o contexto corresponder a este significado."
       ],
       "important": [
-        "Nav pareizi: die Gemüse, die Obsts.",
-        "Nepareizi: die Gemüse → Pareizi: das Gemüse",
-        "das Gemüse = dārzeņi (kopumā)."
+        "Não correto: die Gemüse, die Obsts.",
+        "Incorreto: die Gemüse → Correto: das Gemüse",
+        "das Gemüse = vegetais (em geral)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26130,7 +27030,7 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Fruta",
       "explanation": [
-        "Galvenā doma: Augļi kopumā. Vācu valodā nav daudzskaitļa formas *die Obsts.",
+        "Ideia principal: Frutas em geral. Em alemão, não há forma de plural *die Obsts.",
         "A fruta galvenokārt nozīmē: augųi kopumā.",
         "Bieži raksturo: nekatrā dzimtē (tikai venuskaitlī)."
       ],
@@ -26157,12 +27057,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Obst = augļi",
-        "Izmanto das Obst, kad konteksts atbilst šai nozīmei."
+        "das Obst = frutas",
+        "Use das Obst quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "Nepareizi: die Obsts → Pareizi: das Obst",
-        "das Obst = augļi (kopumā)."
+        "Incorreto: die Obsts → Correto: das Obst",
+        "das Obst = frutas (em geral)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26310,14 +27210,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
-        "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
+        "apenas plural. Férias escolares ou acadêmicas — sempre plural.",
+        "Use die Ferien quando o contexto corresponder a este significado."
       ],
       "important": [
-        "Ferien vienmēr ar datīvu: in den Ferien.",
-        "Nepareizi: in der Ferien → Pareizi: in den Ferien",
-        "Skola: die Ferien (tikai daudzskaitlī).",
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
+        "Ferien sempre com dativo: in den Ferien.",
+        "Incorreto: in der Ferien → Correto: in den Ferien",
+        "Escola: die Ferien (apenas plural).",
+        "apenas plural. Férias escolares ou acadêmicas — sempre plural."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26446,13 +27346,13 @@ const A1_WORDS = [
       ],
       "tip": [
         "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
+        "Use der Urlaub quando o contexto corresponder a este significado."
       ],
       "important": [
-        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
+        "Não está correto: die Ferie, der Urlaube (nível A1).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
-        "Darbs: der Urlaub (tikai vienskaitlī)."
+        "Incorreto: die Urlaube → Correto: der Urlaub",
+        "Trabalho: der Urlaub (apenas no singular)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26573,7 +27473,7 @@ const A1_WORDS = [
       "explanation": [
         "Galvenā domesticação: Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: São oito horas.",
         "O relógio galvenokārt nozīmē: ierīce vai laiks pulkstenī.",
-        "Bieži raksturo: konkrēts laiks.",
+        "Frequentemente descreve: um tempo específico.",
         "Die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist otto Uhr, meine Uhr)."
       ],
       "examples": [
@@ -26603,12 +27503,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
-        "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
+        "Relógio ou relógio de pulso. Também a hora no relógio: Es ist acht Uhr.",
+        "Use die Uhr quando o contexto corresponder a este significado."
       ],
       "important": [
-        "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
-        "die Uhr: pārbaudi kontekstu pirms lietošanas."
+        "die Uhr: dispositivo (meine Uhr) ou tempo (acht Uhr).",
+        "die Uhr: verifica o contexto antes de usar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26742,12 +27642,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Laiks kā jēdziens — brīdis, iespēja, laika posms.",
-        "Izmanto die Zeit, kad konteksts atbilst šai nozīmei."
+        "Tempo como conceito — momento, oportunidade, período de tempo.",
+        "Use die Zeit quando o contexto corresponder a este significado."
       ],
       "important": [
-        "die Zeit: pārbaudi kontekstu pirms lietošanas.",
-        "die Zeit: pārbaudi kontekstu pirms lietošanas."
+        "die Zeit: verifica o contexto antes de usar.",
+        "die Zeit: verifica o contexto antes de usar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26855,12 +27755,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "einmal = vienreiz",
-        "Izmanto einmal, kad konteksts atbilst šai nozīmei."
+        "einmal = uma vez",
+        "Use einmal quando o contexto corresponder a este significado."
       ],
       "important": [
-        "einmal = vienreiz vai reiz pagātnē.",
-        "Norāda uz vienu reizi vai pagātni (reiz es biju...)."
+        "einmal = uma vez ou uma vez no passado.",
+        "Indica uma única vez ou passado (uma vez eu estava...)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26947,12 +27847,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei.",
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei."
+        "Use noch mal quando o contexto corresponder a esse significado.",
+        "Use noch mal quando o contexto corresponder a esse significado."
       ],
       "important": [
-        "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
-        "noch mal: pārbaudi kontekstu pirms lietošanas."
+        "Significa novamente — repetir uma ação ou solicitar uma repetição.",
+        "noch mal: verifique o contexto antes de usar."
       ],
       "sectionAccents": {
         "explanation": {
