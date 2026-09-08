@@ -2,12 +2,12 @@
 
 **Batch ID:** BATCH-001
 **Review track:** SOURCE_LV_REVIEW
-**Decision targets:** 100
-**Findings:** 100
+**Decision targets reviewed:** 100/100
+**OWNER decisions:** NELABOT 100 • LABOT 0 • NEW 0
+**Target-language backlog flags:** 29
 **Source hash:** `a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419`
-**Status:** PENDING
 
-> All OWNER statuses are **PENDING**. Agent does not make OWNER decisions.
+> Lēmums attiecas tikai uz SOURCE_LV_ISSUE. Atzīmētās mērķvalodas problēmas šajā batch netiek labotas.
 
 ## Review target 1
 
@@ -25,10 +25,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -48,10 +48,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -71,10 +71,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -94,10 +94,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -117,10 +117,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -140,10 +140,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -163,10 +163,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -186,10 +186,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -209,10 +209,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -232,10 +232,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -255,10 +255,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -278,10 +278,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -301,10 +301,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -324,10 +324,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -347,10 +347,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -370,10 +370,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -393,10 +393,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -416,10 +416,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -439,10 +439,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -462,10 +462,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -485,10 +485,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -508,10 +508,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -531,10 +531,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -554,10 +554,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -577,10 +577,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -600,10 +600,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -623,10 +623,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -646,10 +646,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -669,10 +669,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -692,10 +692,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -715,10 +715,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -738,10 +738,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -761,10 +761,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -784,10 +784,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -807,10 +807,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -830,10 +830,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -853,10 +853,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -876,10 +876,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -899,10 +899,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -922,10 +922,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -945,10 +945,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -968,10 +968,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -991,10 +991,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1014,10 +1014,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1037,10 +1037,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1060,10 +1060,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1083,10 +1083,10 @@
 **Reason:** —
 **Severity:** MEDIUM
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1106,10 +1106,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1129,10 +1129,10 @@
 **Reason:** —
 **Severity:** LOW
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1152,10 +1152,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1175,10 +1175,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1198,10 +1198,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1221,10 +1221,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1244,10 +1244,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1267,10 +1267,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1290,10 +1290,10 @@
 **Reason:** —
 **Severity:** MEDIUM
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1313,10 +1313,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1336,10 +1336,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1359,10 +1359,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1382,10 +1382,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1405,10 +1405,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1428,10 +1428,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1451,10 +1451,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1474,10 +1474,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1497,10 +1497,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1520,10 +1520,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1543,10 +1543,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1566,10 +1566,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1589,10 +1589,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1612,10 +1612,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1635,10 +1635,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1658,10 +1658,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1681,10 +1681,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1704,10 +1704,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1727,10 +1727,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1750,10 +1750,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1773,10 +1773,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1796,10 +1796,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1819,10 +1819,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1842,10 +1842,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1865,10 +1865,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1888,10 +1888,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1911,10 +1911,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1934,10 +1934,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -1957,10 +1957,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -1980,10 +1980,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -2003,10 +2003,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2026,10 +2026,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2049,10 +2049,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV master un study avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2072,10 +2072,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2095,10 +2095,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2118,10 +2118,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2141,10 +2141,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -2164,10 +2164,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2187,10 +2187,10 @@
 **Reason:** —
 **Severity:** CRITICAL
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2210,10 +2210,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2233,10 +2233,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots ir pareizs. SOURCE_LV_ISSUE noraidīts. CURRENT ir atsevišķa mērķvalodas kļūda, saglabāt target-language review backlogā.
 
 ---
 
@@ -2256,10 +2256,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2279,10 +2279,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 
@@ -2302,10 +2302,10 @@
 **Reason:** —
 **Severity:** HIGH
 **Conflict status:** NONE
-**OWNER STATUS:** PENDING
-**OWNER DECISION:**
-**OWNER NEW:**
-**OWNER NOTE:**
+**OWNER STATUS:** DECIDED
+**OWNER DECISION:** NELABOT
+**OWNER NEW:** 
+**OWNER NOTE:** LV avots pārbaudīts pret DE atsauci un ir pareizs. SOURCE_LV_ISSUE noraidīts.
 
 ---
 

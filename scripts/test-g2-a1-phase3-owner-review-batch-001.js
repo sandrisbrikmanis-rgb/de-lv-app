@@ -110,13 +110,19 @@ function testPrepareAndArtifacts() {
   const beforeStagingSha = sha256File(path.relative(ROOT, path.join(STAGING_ROOT, "en-a1.json")));
   const beforeCheckpointSha = checkpointSetSha();
 
-  const result = prepareBatch001({ root: ROOT });
-  assert(result.pass, "prepareBatch001 PASS");
-  assert(result.classification === "G2_A1_OWNER_REVIEW_BATCH_001_PACK_READY", "classification ready");
+  const existingProofPath = path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-proof.json");
+  const existingProof = fs.existsSync(existingProofPath)
+    ? JSON.parse(fs.readFileSync(existingProofPath, "utf8"))
+    : null;
+  const alreadyDecided = existingProof?.classification === "G2_A1_OWNER_REVIEW_BATCH_001_DECIDED";
 
-  const proof = JSON.parse(
-    fs.readFileSync(path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-proof.json"), "utf8"),
-  );
+  if (!alreadyDecided) {
+    const result = prepareBatch001({ root: ROOT });
+    assert(result.pass, "prepareBatch001 PASS");
+    assert(result.classification === "G2_A1_OWNER_REVIEW_BATCH_001_PACK_READY", "classification ready");
+  }
+
+  const proof = JSON.parse(fs.readFileSync(existingProofPath, "utf8"));
   const manifestBatch = JSON.parse(fs.readFileSync(path.join(ROOT, SOURCE_PATHS.batches), "utf8")).batches.find(
     (entry) => entry.batchId === BATCH_ID,
   );
@@ -139,7 +145,6 @@ function testPrepareAndArtifacts() {
   );
   assert(proof.automaticOwnerDecisions === 0, "no automatic owner decisions");
   assert(proof.newLunaCalls === 0, "no luna calls");
-  assert(proof.ownerStatuses.length === 1 && proof.ownerStatuses[0] === "PENDING", "owner statuses pending");
 
   const view = fs.readFileSync(path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-view.md"), "utf8");
   const decisions = fs.readFileSync(
@@ -148,6 +153,14 @@ function testPrepareAndArtifacts() {
   );
   const csv = fs.readFileSync(path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-decisions.csv"), "utf8");
 
+  if (alreadyDecided) {
+    assert(proof.batchStatus === "DECIDED", "batch status decided");
+    assert(proof.ownerDecisionCounts?.NELABOT === proof.batchDecisionTargetCount, "all nelabot");
+    assert((view.match(/\*\*OWNER DECISION:\*\* NELABOT/g) || []).length === proof.batchDecisionTargetCount, "view nelabot count");
+    return;
+  }
+
+  assert(proof.ownerStatuses.length === 1 && proof.ownerStatuses[0] === "PENDING", "owner statuses pending");
   assert((view.match(/\*\*OWNER STATUS:\*\* PENDING/g) || []).length === proof.batchDecisionTargetCount, "view pending count");
   assert(!/OWNER DECISION:\*\* (LABOT|NELABOT|NEW)/.test(view), "view has no owner decisions");
   assert(!/OWNER NEW:\*\* .+/.test(view), "view owner new blank");

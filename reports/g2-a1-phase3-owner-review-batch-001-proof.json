@@ -1,5 +1,5 @@
 {
-  "classification": "G2_A1_OWNER_REVIEW_BATCH_001_PACK_READY",
+  "classification": "G2_A1_OWNER_REVIEW_BATCH_001_DECIDED",
   "pass": true,
   "batchId": "BATCH-001",
   "ownerAuthorization": "G2_A1_OWNER_REVIEW_BATCH_001_PACK_PREPARATION_APPROVED",
@@ -273,6 +273,15 @@
       "sha256": "91c72faf9c59272df323978a8deb1c38469d9112c2ef309f60e73fc656ad6941"
     }
   },
-  "nextStep": "OWNER_FILL_BATCH_001_DECISIONS",
-  "outputHash": "85ec5a9cc073fe5feb90e1bf8f46fe84f50790cf45af2c12be72bb4496a71bd8"
+  "nextStep": "OWNER_REVIEW_BATCH_002_PACK",
+  "outputHash": "584f9da53f7fb88f5416067b45a44a9167ecc80861b1d0c2d4de07fe361809bc",
+  "batchStatus": "DECIDED",
+  "ownerDecisionCounts": {
+    "NELABOT": 100,
+    "LABOT": 0,
+    "NEW": 0
+  },
+  "targetLanguageBacklogCount": 29,
+  "productionFilesChanged": 0,
+  "decidedAt": "2026-09-08T14:12:20.186Z"
 }
