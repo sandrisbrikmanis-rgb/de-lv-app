@@ -16,6 +16,7 @@ const {
   formatShortRecoveryError,
   writeRecoveryDiagnosticsBestEffort,
 } = require("./phase1-luna-id-recovery-diagnostics");
+const { validateCanonicalIdSubset } = require("./g2-a1-phase3/missing-canonical-id-retry");
 
 const DEFAULT_MODEL = "gpt-5.6-luna";
 
@@ -123,6 +124,63 @@ function parsePhase1LunaResponseStrict(raw, expectedIds, options = {}) {
   return { items: normalized, idRecoveries: recovery.recoveries };
 }
 
+function parsePhase1LunaResponsePartial(raw, expectedIds, options = {}) {
+  if (!raw || typeof raw !== "string") {
+    throw new Error("Luna response empty");
+  }
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch (error) {
+    throw new Error(`Luna response invalid JSON: ${redactSecrets(error.message)}`);
+  }
+  const items = parsed.items || parsed.results || [];
+  if (!Array.isArray(items)) {
+    throw new Error("Luna response missing items array");
+  }
+
+  const recoveryContext = {
+    scopeId: options.scopeId ?? null,
+    batchIndex: options.batchIndex ?? null,
+    attempt: options.attempt ?? 1,
+  };
+
+  const batch = expectedIds.map((id) => ({ id }));
+  const validation = validateCanonicalIdSubset(batch, { items }, { attempt: recoveryContext.attempt });
+
+  if (validation.shortError) {
+    const writeResult = writeRecoveryDiagnosticsBestEffort(validation.idRecoveryDiagnostics || [], recoveryContext);
+    const err = new Error(validation.shortError);
+    err.code = "ID_RECOVERY_FAILED";
+    err.idRecoveryDiagnostics = validation.idRecoveryDiagnostics;
+    err.idRecoveryDiagnosticsPath = writeResult.path;
+    if (writeResult.writeError) {
+      err.idRecoveryDiagnosticsWriteError = writeResult.writeError;
+    }
+    throw err;
+  }
+
+  const partialOnlyIssues = new Set(["PARTIAL_RESPONSE", "ITEMS_WITHOUT_ID", "DUPLICATE_IDS", "UNEXPECTED_IDS"]);
+  const hardIssues = (validation.issues || []).filter((issue) => !partialOnlyIssues.has(issue));
+  if (hardIssues.length) {
+    const summary = formatShortRecoveryError(hardIssues, validation.idRecoveryDiagnostics || []);
+    const err = new Error(summary);
+    err.code = "ID_RECOVERY_FAILED";
+    throw err;
+  }
+
+  const normalized = validation.items.map((item) => ({
+    ...item,
+    status: String(item.status || "PASS").toUpperCase(),
+  }));
+
+  return {
+    items: normalized,
+    missingIds: validation.missingIds,
+    idRecoveries: validation.idRecoveries || [],
+  };
+}
+
 async function auditObjectsBatch({
   adapter,
   scopeId,
@@ -132,6 +190,7 @@ async function auditObjectsBatch({
   client = null,
   signal = null,
   recoveryContext = null,
+  allowPartialCanonicalIds = false,
 }) {
   if (!Array.isArray(objects) || objects.length === 0) {
     throw new Error("Luna batch objects must be non-empty");
@@ -181,11 +240,27 @@ async function auditObjectsBatch({
     );
   }
 
-  const parsed = parsePhase1LunaResponseStrict(rawText, expectedIds, {
+  const parseOptions = {
     scopeId: recoveryContext?.scopeId ?? scopeId,
     batchIndex: recoveryContext?.batchIndex ?? null,
     attempt: recoveryContext?.attempt ?? 1,
-  });
+  };
+
+  if (allowPartialCanonicalIds) {
+    const partial = parsePhase1LunaResponsePartial(rawText, expectedIds, parseOptions);
+    return {
+      items: partial.items,
+      missingIds: partial.missingIds,
+      tokensUsed: response.usage?.total_tokens || 0,
+      usage: response.usage || null,
+      model,
+      idRecoveryParsedInTransport: true,
+      idRecoveries: partial.idRecoveries,
+      partial: partial.missingIds.length > 0,
+    };
+  }
+
+  const parsed = parsePhase1LunaResponseStrict(rawText, expectedIds, parseOptions);
   return {
     items: parsed.items,
     tokensUsed: response.usage?.total_tokens || 0,
@@ -203,6 +278,7 @@ module.exports = {
   assertApiKeyConfigured,
   isApiKeyConfigured,
   parsePhase1LunaResponseStrict,
+  parsePhase1LunaResponsePartial,
   auditObjectsBatch,
   redactSecrets,
 };

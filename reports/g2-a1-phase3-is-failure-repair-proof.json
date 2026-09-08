@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0.0",
+  "classification": "TARGETED_IS_FAILURE_REPAIR_READY_FOR_OWNER_REVIEW",
+  "generatedAt": "2026-09-08T05:30:00.000Z",
+  "masterStandardVersion": "1.12",
+  "branch": "cursor/phase3-g2-a1-full-discovery-6338",
+  "originMainSha": "dd4587da30e07e43aab3ba7faf3ca697018a4480",
+  "repairBaseSha": "2ff180ec09e4d5deea631f25954855c9b5469730",
+  "provenRootCause": {
+    "confirmed": [
+      "parsePhase1LunaResponseStrict throws Luna response missing id when count mismatch or missing canonical ID; C0 recovery only activates when items.length === expectedIds.length",
+      "luna-transport.js wrapped errors in new Error() losing structured metadata (code, idRecoveryDiagnostics)",
+      "runBatchedAdapter retried entire batch on partial ID failure instead of missing-only subset",
+      "run-g2-a1-phase3-full-discovery.js did not accumulate lunaCalls/tokensUsed/retries on result.ok === false before break",
+      "Two distinct is failures (idx:153/Ei and idx:107/braun) prove non-object-specific systemic gap"
+    ],
+    "hypothesis": "Luna occasionally omits one canonical ID per large batch; without missing-only retry the whole scope fails and stats are lost",
+    "unrelated": [
+      "test:phase1-luna-infra-repair ENOENT on stale phase1 checkpoint fixture in snapshot (pre-existing env gap)"
+    ]
+  },
+  "repair": {
+    "optInFlag": "missingCanonicalIdRetry",
+    "enabledFor": ["g2-a1-phase3-full-discovery runLunaForLang"],
+    "defaultBehaviorUnchanged": true,
+    "positionalMappingUsed": false,
+    "fuzzyMappingUsed": false,
+    "missingOnlyRetry": true,
+    "retryLimit": 3,
+    "failClosedCode": "BLOCKED_MISSING_CANONICAL_ID",
+    "diagnosticsDir": "/tmp/cursor/artifacts/g2-a1-phase3-id-recovery/"
+  },
+  "tests": {
+    "mockMatrix": "scripts/test-g2-a1-phase3-missing-id-retry.js",
+    "mockMatrixResult": "57/57 PASS",
+    "regression": {
+      "test:phase1-luna-id-recovery": "44/44 PASS",
+      "test:phase1-luna-timeout-001": "53/53 PASS",
+      "test-phase1-real-transport-id-recovery-diagnostics": "42/42 PASS",
+      "test:phase1-luna-checkpoint-resume": "94 assertions PASS",
+      "test:phase1-real-luna-transport": "PASS",
+      "test:phase1-luna-ckpt-004": "26/26 PASS"
+    }
+  },
+  "newRealLunaCalls": 0,
+  "productionDiff": 0,
+  "deDiff": 0,
+  "resumeCommand": "npm run phase3:g2-a1:resume",
+  "resumeCommandArgv": ["--with-luna"],
+  "freshLunaNotUsedInRepair": true,
+  "nextStep": "OWNER_REVIEW_OF_TARGETED_IS_FAILURE_REPAIR"
+}

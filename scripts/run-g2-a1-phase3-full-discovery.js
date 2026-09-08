@@ -155,6 +155,8 @@ async function runLunaForLang(lang, options = {}) {
         batchSize,
         scopeId: `${scopeId}:${cardType}:${batchIndex}`,
         adapterName: "g2-phase3-staging",
+        missingCanonicalIdRetry: true,
+        cardType,
       });
       lunaCalls += result.stats?.realCalls || 0;
       tokensUsed += result.stats?.tokensUsed || 0;
@@ -165,6 +167,7 @@ async function runLunaForLang(lang, options = {}) {
           ok: false,
           lang,
           reason: result.reason,
+          missingIds: result.missingIds || [],
           lunaCalls,
           tokensUsed,
           batches,
@@ -313,23 +316,24 @@ async function main() {
     process.exit(1);
   }
 
-  const deterministic = collectAllDeterministic(STAGING_ROOT, args.langs);
-  let allFindings = [...deterministic.findings];
-  const lunaStats = {
-    lunaCalls: 0,
-    tokensUsed: 0,
-    batches: 0,
-    retries: 0,
-    scopesExpected: args.langs.length,
-    scopesProcessed: 0,
-    failures: [],
-  };
-
   const progressPath = path.join(LUNA_RUNS_ROOT, "progress.json");
   if (args.freshLuna && fs.existsSync(progressPath)) {
     fs.rmSync(progressPath, { force: true });
   }
   const progress = loadProgress(progressPath);
+  const previousLunaStats = progress.lunaStats || {};
+
+  const deterministic = collectAllDeterministic(STAGING_ROOT, args.langs);
+  let allFindings = [...deterministic.findings];
+  const lunaStats = {
+    lunaCalls: previousLunaStats.lunaCalls || 0,
+    tokensUsed: previousLunaStats.tokensUsed || 0,
+    batches: previousLunaStats.batches || 0,
+    retries: previousLunaStats.retries || 0,
+    scopesExpected: args.langs.length,
+    scopesProcessed: 0,
+    failures: Array.isArray(previousLunaStats.failures) ? [...previousLunaStats.failures] : [],
+  };
 
   if (args.withLuna) {
     const auth = authorizePhase3Luna();
@@ -352,7 +356,20 @@ async function main() {
       console.error(`[g2-a1-phase3] Luna scope g2/a1/${lang} ...`);
       const result = await runLunaForLang(lang, { transport, stagingRoot: STAGING_ROOT });
       if (!result.ok) {
-        lunaStats.failures.push({ lang, reason: result.reason });
+        lunaStats.lunaCalls += result.lunaCalls || 0;
+        lunaStats.tokensUsed += result.tokensUsed || 0;
+        lunaStats.batches += result.batches || 0;
+        lunaStats.retries += result.retries || 0;
+        lunaStats.failures.push({
+          lang,
+          reason: result.reason,
+          missingIds: result.missingIds || [],
+          lunaCalls: result.lunaCalls || 0,
+          tokensUsed: result.tokensUsed || 0,
+          retries: result.retries || 0,
+        });
+        progress.lunaStats = lunaStats;
+        saveProgress(progressPath, progress);
         break;
       }
       fs.writeFileSync(
