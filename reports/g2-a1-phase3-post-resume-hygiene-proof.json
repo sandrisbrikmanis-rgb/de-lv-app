@@ -1,0 +1,58 @@
+{
+  "classification": "G2_A1_PHASE3_DISCOVERY_COMPLETE_OWNER_DECISION_REQUIRED_ON_PROVENANCE_GAP",
+  "authorization": "G2_A1_PHASE3_POST_RESUME_HYGIENE_APPROVED",
+  "generatedAt": "2026-09-08T09:35:00.000Z",
+  "masterStandardVersion": "1.12",
+  "originMainSha": "dd4587da30e07e43aab3ba7faf3ca697018a4480",
+  "preHygieneHeadSha": "d9f41cd4f717a98852850f21f9369d3a0b275e52",
+  "preHygieneParentSha": "7c4d4dff4cec92d0727791b3ec1a904b087c3e29",
+  "repairV5Sha": "7c4d4dff4cec92d0727791b3ec1a904b087c3e29",
+  "branch": "cursor/phase3-g2-a1-full-discovery-6338",
+  "pr": "https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/718",
+  "preResumeHeadStatus": "PRE_RESUME_HEAD_UNVERIFIED",
+  "preResumeHeadTarget": "7c4d4dff4cec92d0727791b3ec1a904b087c3e29",
+  "preResumeHeadEvidence": {
+    "preflightArtifact": "/tmp/cursor/artifacts/g2-a1-phase3-is-resume/preflight.json",
+    "recordedHeadAtPreflight": "6979b58af723442790623464e2f514238818ce5d",
+    "resumeLogArtifact": "/tmp/cursor/artifacts/g2-a1-phase3-is-resume/resume.log",
+    "resumeStartedAt": "2026-09-08T09:00:36.791Z",
+    "tmuxSession": "g2-a1-phase3-is-resume",
+    "note": "Direct preflight evidence records HEAD 6979b58a (repair v3), not the stated repair v5 7c4d4dff. No before-git/after-git artifact found for 7c4d4dff. Commit parent alone is insufficient per task rules."
+  },
+  "discoveryProgress": "31/31",
+  "validatedFindings": 22750,
+  "isFindings": 691,
+  "lunaStats": {
+    "lunaCalls": 1586,
+    "tokensUsed": 6902605,
+    "retries": 36,
+    "scopesProcessed": 31,
+    "scopesExpected": 31,
+    "failures": []
+  },
+  "newRealLunaCalls": 0,
+  "checkpointFileCountBeforeAfter": "32/32",
+  "checkpointSetSha256BeforeAfter": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691 / 436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
+  "checkpointLocalPreservation": "PASS",
+  "checkpointTrackedInGit": "REMOVED_FROM_INDEX",
+  "gitignoreEntry": "reports/temp/g2-a1-phase3-luna-runs/",
+  "backupBranch": "backup/g2-a1-phase3-pre-hygiene-d9f41cd",
+  "ownerPrepStatus": {
+    "generated": true,
+    "coverage": "100%",
+    "findingCount": 22750,
+    "allStatusesPending": true
+  },
+  "ownerSourceHashBeforeAfter": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419 / a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
+  "productionDiff": 0,
+  "deDiff": 0,
+  "stagingValues": "92101/92101",
+  "testResults": {
+    "test:g2-a1-phase3-missing-id-retry": "111/113 PASS (2 expected post-resume fixture drift: checkpoint now 31/31 with is)",
+    "test:phase1-luna-infra-repair": "41/41 PASS"
+  },
+  "master112Compliance": "PASS",
+  "prDraftStatus": "Draft",
+  "mergeStatus": "NOT_ALLOWED",
+  "nextStep": "OWNER_DECISION_ON_PRE_RESUME_HEAD_PROVENANCE_GAP"
+}
