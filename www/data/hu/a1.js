@@ -6295,7 +6295,7 @@ const A1_WORDS = [
   },
   {
     "de": "euch",
-    "lv": "Te • Te",
+    "lv": "Te",
     "level": "A1",
     "study": {
       "id": "a1-euch",
@@ -7382,7 +7382,7 @@ const A1_WORDS = [
   },
   {
     "de": "für",
-    "lv": "For • For",
+    "lv": "For",
     "level": "A1",
     "study": {
       "id": "a1-fuer",
@@ -11858,7 +11858,7 @@ const A1_WORDS = [
   },
   {
     "de": "können",
-    "lv": "Tudni • Tudni",
+    "lv": "Tudni",
     "level": "A1",
     "study": {
       "id": "a1-können",
@@ -13001,7 +13001,7 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Hosszú • Hosszú",
+    "lv": "Hosszú",
     "level": "A1",
     "study": {
       "id": "a1-lang",
@@ -13177,7 +13177,7 @@ const A1_WORDS = [
   },
   {
     "de": "lassen",
-    "lv": "Hagyja • Hagyja",
+    "lv": "Hagyja",
     "level": "A1",
     "study": {
       "id": "a1-lassen",
@@ -14731,7 +14731,7 @@ const A1_WORDS = [
   },
   {
     "de": "links",
-    "lv": "Balra • Balra",
+    "lv": "Balra",
     "level": "A1"
   },
   {
@@ -15124,7 +15124,7 @@ const A1_WORDS = [
   },
   {
     "de": "malen",
-    "lv": "Festeni • Festeni",
+    "lv": "Festeni",
     "level": "A1"
   },
   {
@@ -16961,7 +16961,7 @@ const A1_WORDS = [
   },
   {
     "de": "nehmen",
-    "lv": "Venni • Venni",
+    "lv": "Venni",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
@@ -17615,7 +17615,7 @@ const A1_WORDS = [
   },
   {
     "de": "nur",
-    "lv": "Csak • Csak",
+    "lv": "Csak",
     "level": "A1",
     "study": {
       "id": "a1-nur-study",
@@ -17996,7 +17996,7 @@ const A1_WORDS = [
   },
   {
     "de": "oder",
-    "lv": "Vagy • Vagy",
+    "lv": "Vagy",
     "level": "A1",
     "study": {
       "id": "a1-oder",
@@ -18299,7 +18299,7 @@ const A1_WORDS = [
   },
   {
     "de": "passen",
-    "lv": "Illeszkedik • Illeszkedik",
+    "lv": "Illeszkedik",
     "level": "A1",
     "study": {
       "id": "a1-passen",
@@ -18925,7 +18925,7 @@ const A1_WORDS = [
   },
   {
     "de": "rechts",
-    "lv": "Jobbra • Jobbra",
+    "lv": "Jobbra",
     "level": "A1"
   },
   {
@@ -23621,7 +23621,7 @@ const A1_WORDS = [
   },
   {
     "de": "vor",
-    "lv": "Előtt • Előtt",
+    "lv": "Előtt",
     "level": "A1",
     "study": {
       "id": "a1-vor",
@@ -24390,7 +24390,7 @@ const A1_WORDS = [
   },
   {
     "de": "wer",
-    "lv": "Ki • Ki",
+    "lv": "Ki",
     "level": "A1",
     "study": {
       "id": "a1-wer",
@@ -27722,7 +27722,7 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "Egyszer • Egyszer",
+    "lv": "Egyszer",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
