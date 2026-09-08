@@ -1,33 +1,42 @@
 {
-  "schemaVersion": "4.0.0",
-  "classification": "TARGETED_IS_FAILURE_REPAIR_V4_TEST_ISOLATION",
-  "generatedAt": "2026-09-08T08:30:00.000Z",
+  "schemaVersion": "5.0.0",
+  "classification": "TARGETED_IS_FAILURE_REPAIR_V5_LOCK_PRESERVATION",
+  "generatedAt": "2026-09-08T08:40:00.000Z",
   "masterStandardVersion": "1.12",
   "branch": "cursor/phase3-g2-a1-full-discovery-6338",
   "originMainSha": "dd4587da30e07e43aab3ba7faf3ca697018a4480",
   "repairV1Sha": "124e7b70383695c5a6b72ab6d394400d576faecf",
   "repairV2Sha": "2440960c15c7aa89391219347d7536ae2bcf80c4",
   "repairV3Sha": "6979b58af723442790623464e2f514238818ce5d",
-  "v3Changes": {
-    "metadataPreservation": "partial parser + transport pass canonicalIdValidation with duplicateIds, unexpectedIds, itemsWithoutId, returnedItemCount, blockedReason",
-    "parseErrorUsage": "invalid JSON attaches usage/tokensUsed to error; runner counts tokens exactly once in catch path",
-    "resolveCanonicalIdValidation": "adapter reuses transport validation metadata instead of re-validating truncated items array"
-  },
+  "repairV4Sha": "6cf95a5b5997613c166d77781cda2a92c713fa53",
   "v4Changes": {
     "testResumeIdentityGatesIsolation": "patchRunsRoot(tempRunsRoot()) + mandatory finally cleanup; no writes to reports/temp/phase1-luna-runs",
     "legacyParityFixture": {
       "runId": "phase1-2026-08-30T08-56-50-163Z-a8e1dec1",
       "scopeId": "g2/a1/et",
       "batchId": "batch-0-42782e520ea0bf40",
-      "requestInputHash": "3100da1f7bb617aedb850884d7cdf44bc19cc2bb536b022f4282aa53a9075575",
-      "source": "phase1-r-ckpt-005-checkpoint-hash-matrix.json (pinned constants, not derived from plan at assert time)"
-    },
-    "reportsTempSnapshotProof": {
-      "fileCount": 1568,
-      "listingHashBefore": "f7f07b29d2e73ad3adb60a04a3487a5c541f6f4e7283073bb54bedf62ff7de4e",
-      "listingHashAfter": "f7f07b29d2e73ad3adb60a04a3487a5c541f6f4e7283073bb54bedf62ff7de4e",
-      "identical": true
+      "requestInputHash": "3100da1f7bb617aedb850884d7cdf44bc19cc2bb536b022f4282aa53a9075575"
     }
+  },
+  "v5Changes": {
+    "patchRunsRootLockPreservation": "removed all saved.activeLockPath unlinkSync on patch and restore",
+    "patchRunsRootCleanupScope": "restore() deletes only files under tmpRoot via fs.rmSync(tmpRoot)",
+    "sentinelLockTest": "testPatchRunsRootPreservesOriginalLock proves lock before/during/after patch with identical content",
+    "ownerAuthCleanup": "owner authorization files stored under test tmpRoot (cleaned by restore)"
+  },
+  "lockPreservationProof": {
+    "sentinelRunId": "sentinel-lock-v5-test",
+    "lockExistsBeforePatch": true,
+    "lockExistsDuringPatch": true,
+    "lockExistsAfterRestore": true,
+    "lockContentIdenticalAfterRestore": true,
+    "realReportsTempUntouched": true
+  },
+  "reportsTempSnapshotProof": {
+    "fileCount": 1568,
+    "listingHashBefore": "f7f07b29d2e73ad3adb60a04a3487a5c541f6f4e7283073bb54bedf62ff7de4e",
+    "listingHashAfter": "f7f07b29d2e73ad3adb60a04a3487a5c541f6f4e7283073bb54bedf62ff7de4e",
+    "identical": true
   },
   "e2eRealTransportProofs": {
     "unexpectedExtra": {
@@ -57,12 +66,12 @@
       "test:phase1-luna-checkpoint-resume": "94 assertions PASS",
       "test:phase1-real-luna-transport": "PASS",
       "test:phase1-luna-ckpt-004": "26/26 PASS",
-      "test:phase1-luna-infra-repair": "32/32 PASS (temp RUNS_ROOT + pinned legacy fixture + reports/temp snapshot gate)"
+      "test:phase1-luna-infra-repair": "41/41 PASS (lock preservation + temp RUNS_ROOT + reports/temp snapshot gate)"
     }
   },
   "newRealLunaCalls": 0,
   "productionDiff": 0,
   "deDiff": 0,
   "phase3CheckpointFindingsOwnerChanges": 0,
-  "nextStep": "OWNER_REVIEW_OF_REPAIR_V4"
+  "nextStep": "OWNER_REVIEW_OF_REPAIR_V5"
 }

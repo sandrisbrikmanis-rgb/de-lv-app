@@ -1,23 +1,24 @@
-# G2/A1 Phase 3 — Targeted `is` Missing-ID Repair v4 (test isolation)
+# G2/A1 Phase 3 — Targeted `is` Missing-ID Repair v5 (lock preservation)
 
-**Classification:** `TARGETED_IS_FAILURE_REPAIR_V4_TEST_ISOLATION`  
+**Classification:** `TARGETED_IS_FAILURE_REPAIR_V5_LOCK_PRESERVATION`  
 **Generated:** 2026-09-08  
 **Branch:** `cursor/phase3-g2-a1-full-discovery-6338`  
-**Repair v3:** `6979b58af723442790623464e2f514238818ce5d`  
+**Repair v4:** `6cf95a5b5997613c166d77781cda2a92c713fa53`  
 **Base:** `origin/main@dd4587da30e07e43aab3ba7faf3ca697018a4480`
 
-## v4 scope (test-only)
+## v5 scope (test-only)
 
-Isolates `testResumeIdentityGates()` from production `reports/temp/phase1-luna-runs`. No Luna/transport/retry functional changes.
+Hardens `patchRunsRoot()` lock handling. No Luna/transport/retry functional changes.
 
 | Change | Detail |
 |--------|--------|
-| Temp RUNS_ROOT | `patchRunsRoot(tempRunsRoot())` with mandatory `finally` cleanup |
-| Legacy parity fixture | Pinned `batch-0-42782e520ea0bf40` + hash `3100da1f…5575` (from r-ckpt-005 matrix) |
-| Plan independence | Fixture `batchId`/`requestInputHash` are code constants; plan is computed separately and must match |
-| reports/temp gate | SHA-256 listing hash identical before/after full test run (`1568` files, hash `f7f07b29…de4e`) |
+| Lock deletion forbidden | `saved.activeLockPath` is never unlinked on patch or restore |
+| Cleanup scope | `restore()` deletes only `tmpRoot` contents via `fs.rmSync(tmpRoot)` |
+| Sentinel lock test | `testPatchRunsRootPreservesOriginalLock` — lock exists before/during/after patch; content identical after restore |
+| Owner auth cleanup | Authorization files stored under test `tmpRoot/owner-auth` (removed with restore) |
+| reports/temp gate | SHA-256 listing hash unchanged (`1568` files, `f7f07b29…de4e`) |
 
-## v3 scope (unchanged functional repair)
+## v4 scope (test isolation)
 
 Preserves full canonical-ID validation metadata through partial parser and transport layers. No change to opt-in scope (`missingCanonicalIdRetry` remains G2/A1 Phase 3 only).
 
@@ -64,8 +65,9 @@ Preserves full canonical-ID validation metadata through partial parser and trans
 | `test:phase1-luna-checkpoint-resume` | PASS |
 | `test:phase1-real-luna-transport` | PASS |
 | `test:phase1-luna-ckpt-004` | 26/26 PASS |
-| `test:phase1-luna-infra-repair` | **32/32 PASS** |
+| `test:phase1-luna-infra-repair` | **41/41 PASS** |
 | `reports/temp/**` listing hash | unchanged (`f7f07b29…de4e`) |
+| Sentinel lock preservation | before/during/after patch + identical content after restore |
 | `NEW_REAL_LUNA_CALLS` | 0 |
 | Production diff | 0 |
 | DE diff | 0 |
@@ -73,8 +75,8 @@ Preserves full canonical-ID validation metadata through partial parser and trans
 
 ### `test:phase1-luna-infra-repair`
 
-`testResumeIdentityGates()` uses mkdtemp temp RUNS_ROOT only. Legacy parity uses pinned fixture constants; plan alignment is verified independently. No reads/writes to `reports/temp/phase1-luna-runs`.
+`patchRunsRoot()` never deletes the original `.active-lock.json`. `restore()` removes only the temp RUNS_ROOT tree. Owner authorization files live under test `tmpRoot`.
 
 ## Next step
 
-`OWNER_REVIEW_OF_REPAIR_V4` — real `is` resume remains blocked until OWNER approval.
+`OWNER_REVIEW_OF_REPAIR_V5` — real `is` resume remains blocked until OWNER approval.

@@ -99,9 +99,9 @@ function patchRunsRoot(tmpRoot) {
   constants.checkpointFilePath = (runId, scopeId, batchId) =>
     path.join(constants.checkpointDir(runId, scopeId), `${batchId}.json`);
   fs.mkdirSync(tmpRoot, { recursive: true });
-  if (fs.existsSync(saved.activeLockPath)) fs.unlinkSync(saved.activeLockPath);
   return {
     tmpRoot,
+    savedOriginalLockPath: saved.activeLockPath,
     restore() {
       constants.RUNS_ROOT = saved.runsRoot;
       constants.ACTIVE_LOCK_PATH = saved.activeLockPath;
@@ -110,14 +110,14 @@ function patchRunsRoot(tmpRoot) {
       constants.progressPath = saved.progressPath;
       constants.checkpointDir = saved.checkpointDir;
       constants.checkpointFilePath = saved.checkpointFilePath;
-      if (fs.existsSync(saved.activeLockPath)) fs.unlinkSync(saved.activeLockPath);
       fs.rmSync(tmpRoot, { recursive: true, force: true });
     },
   };
 }
 
-function writeOwnerAuthFileForRun(runId, manifest, executionSha = SHA_TEST) {
-  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "owner-auth-infra-"));
+function writeOwnerAuthFileForRun(runId, manifest, executionSha = SHA_TEST, authRoot = null) {
+  const dir = authRoot || fs.mkdtempSync(path.join(os.tmpdir(), "owner-auth-infra-"));
+  fs.mkdirSync(dir, { recursive: true });
   const doc = buildOwnerAuthorizationDocument({
     approvedExecutionSha: executionSha,
     runId,
@@ -130,6 +130,65 @@ function writeOwnerAuthFileForRun(runId, manifest, executionSha = SHA_TEST) {
   const filePath = path.join(dir, "owner-authorization.json");
   fs.writeFileSync(filePath, `${JSON.stringify(doc, null, 2)}\n`);
   return filePath;
+}
+
+async function testPatchRunsRootPreservesOriginalLock() {
+  const originalRoot = fs.mkdtempSync(path.join(os.tmpdir(), "phase1-infra-original-"));
+  const sentinelLock = {
+    schemaVersion: "1.0.0",
+    runId: "sentinel-lock-v5-test",
+    sentinel: "G2_A1_PHASE3_REPAIR_V5_LOCK_PRESERVATION",
+  };
+  const originalLockPath = path.join(originalRoot, ".active-lock.json");
+  fs.writeFileSync(originalLockPath, `${JSON.stringify(sentinelLock, null, 2)}\n`);
+  const lockContentBefore = fs.readFileSync(originalLockPath, "utf8");
+  const reportsTempBefore = snapshotReportsTemp();
+
+  const constants = require("./lib/phase1-luna-checkpoint/constants");
+  const savedReal = {
+    runsRoot: constants.RUNS_ROOT,
+    activeLockPath: constants.ACTIVE_LOCK_PATH,
+  };
+  constants.RUNS_ROOT = originalRoot;
+  constants.ACTIVE_LOCK_PATH = originalLockPath;
+
+  assert(fs.existsSync(originalLockPath), "sentinel lock exists before patch");
+  const patched = patchRunsRoot(tempRunsRoot());
+  try {
+    assert(fs.existsSync(originalLockPath), "sentinel lock exists during patch");
+    assert(
+      constants.ACTIVE_LOCK_PATH === path.join(patched.tmpRoot, ".active-lock.json"),
+      "active lock redirected to tmp during patch",
+    );
+    assert(constants.RUNS_ROOT === patched.tmpRoot, "runs root redirected to tmp during patch");
+    assert(
+      patched.savedOriginalLockPath === originalLockPath,
+      "patch saved original lock path without deleting it",
+    );
+  } finally {
+    patched.restore();
+  }
+
+  assert(fs.existsSync(originalLockPath), "sentinel lock exists after restore");
+  assert(
+    fs.readFileSync(originalLockPath, "utf8") === lockContentBefore,
+    "sentinel lock content identical after restore",
+  );
+
+  constants.RUNS_ROOT = savedReal.runsRoot;
+  constants.ACTIVE_LOCK_PATH = savedReal.activeLockPath;
+
+  const reportsTempAfter = snapshotReportsTemp();
+  assert(
+    reportsTempBefore.listingHash === reportsTempAfter.listingHash,
+    "real reports/temp listing hash unchanged by lock preservation test",
+  );
+  assert(
+    reportsTempBefore.fileCount === reportsTempAfter.fileCount,
+    "real reports/temp file count unchanged by lock preservation test",
+  );
+
+  fs.rmSync(originalRoot, { recursive: true, force: true });
 }
 
 function snapshotReportsTemp() {
@@ -448,13 +507,14 @@ async function testResumeIdentityGates() {
     );
     assert(cp.batchId === LEGACY_PARITY_FIXTURE.batchId, "temp inline fixture batchId parity");
 
+    const ownerAuthDir = path.join(patched.tmpRoot, "owner-auth");
     function resumeAuthOpts(extra = {}) {
       return {
         skipApiKeyCheck: true,
         gitIdentity,
         baseline,
         approvedInfraHeadSha: SHA_TEST,
-        ownerAuthorizationFile: writeOwnerAuthFileForRun(runId, manifest, SHA_TEST),
+        ownerAuthorizationFile: writeOwnerAuthFileForRun(runId, manifest, SHA_TEST, ownerAuthDir),
         ...extra,
       };
     }
@@ -563,6 +623,7 @@ async function main() {
   await testCanonicalGehaltIdentity();
   await testFindingDedupUsesRawCardId();
   await testResumeIdentityGates();
+  await testPatchRunsRootPreservesOriginalLock();
   await testLegacyReturnedIdsInCheckpoint();
   await testDeterministicFixtureRuns();
   const reportsTempAfter = snapshotReportsTemp();
