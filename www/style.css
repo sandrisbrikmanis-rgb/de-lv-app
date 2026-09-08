@@ -46,10 +46,10 @@
       --de-home-header-ink: #ffffff;
       --de-home-header-muted: rgba(255, 255, 255, 0.72);
       --de-shield-halo-filter:
-        drop-shadow(0 0 8px rgba(240, 246, 255, 0.77))
-        drop-shadow(0 0 20px rgba(225, 236, 255, 0.52))
-        drop-shadow(0 0 40px rgba(205, 220, 255, 0.3))
-        drop-shadow(0 0 64px rgba(190, 210, 255, 0.16));
+        drop-shadow(0 0 8px rgba(240, 246, 255, 0.89))
+        drop-shadow(0 0 20px rgba(225, 236, 255, 0.6))
+        drop-shadow(0 0 40px rgba(205, 220, 255, 0.35))
+        drop-shadow(0 0 64px rgba(190, 210, 255, 0.18));
       --de-eagle-bg: #FFCC00;
       --de-eagle-black: #000000;
       --de-eagle-red: #DD0000;
