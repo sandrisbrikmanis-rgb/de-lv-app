@@ -443,16 +443,79 @@ async function test16CumulativeStatsNotOverwritten() {
   assert(!resumeScript.includes("--fresh-luna"), "16/18: resume script has no --fresh-luna");
 }
 
-async function test17CompletedLangCacheUnchanged() {
-  const progressPath = path.join(ROOT, "reports/temp/g2-a1-phase3-luna-runs/progress.json");
-  if (!fs.existsSync(progressPath)) {
-    assert(true, "17: skip when checkpoint absent");
+function validatePhase3CheckpointLifecycle(progress, phase) {
+  assert(progress && typeof progress === "object", "17: progress object");
+  assert(Array.isArray(progress.completedLangs), "17: completedLangs array");
+  const unique = new Set(progress.completedLangs);
+  assert(unique.size === progress.completedLangs.length, "17: completedLangs unique");
+  const stats = progress.lunaStats || {};
+  assert(stats.scopesExpected === 31, "17: scopesExpected=31");
+  assert(Array.isArray(stats.failures), "17: failures array");
+
+  if (phase === "pre-resume") {
+    assert(progress.completedLangs.length === 30, "17: pre-resume 30 completed langs");
+    assert(!progress.completedLangs.includes("is"), "17: pre-resume is not completed");
+    assert(stats.scopesProcessed === 30, "17: pre-resume scopesProcessed=30");
+    assert(stats.lunaCalls === 1520, "17: pre-resume lunaCalls=1520");
+    assert(stats.tokensUsed === 6663032, "17: pre-resume tokensUsed=6663032");
+    assert(stats.retries === 20, "17: pre-resume retries=20");
     return;
   }
-  const progress = JSON.parse(fs.readFileSync(progressPath, "utf8"));
-  assert(Array.isArray(progress.completedLangs), "17: completedLangs array");
-  assert(progress.completedLangs.length === 30, "17: 30 completed langs unchanged");
-  assert(!progress.completedLangs.includes("is"), "17: is not in completed langs");
+
+  assert(phase === "post-resume", "17: known lifecycle phase");
+  assert(progress.completedLangs.length === 31, "17: post-resume 31 completed langs");
+  assert(progress.completedLangs.includes("is"), "17: post-resume is completed");
+  assert(stats.scopesProcessed === 31, "17: post-resume scopesProcessed=31");
+  assert(stats.lunaCalls === 1586, "17: post-resume lunaCalls=1586");
+  assert(stats.tokensUsed === 6902605, "17: post-resume tokensUsed=6902605");
+  assert(stats.retries === 36, "17: post-resume retries=36");
+  assert(stats.failures.length === 0, "17: post-resume failures empty");
+}
+
+async function test17CompletedLangCacheUnchanged() {
+  const { TARGET_LANGUAGES } = require("./lib/content-crowdin-bridge/constants");
+  const preResumeLangs = TARGET_LANGUAGES.filter((lang) => lang !== "is");
+  assert(preResumeLangs.length === 30, "17: fixture has 30 pre-resume langs");
+
+  const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), "g2-a1-phase3-checkpoint-"));
+  try {
+    const preProgress = {
+      completedLangs: preResumeLangs,
+      lunaStats: {
+        lunaCalls: 1520,
+        tokensUsed: 6663032,
+        batches: 1500,
+        retries: 20,
+        scopesExpected: 31,
+        scopesProcessed: 30,
+        failures: [],
+      },
+    };
+    const postProgress = {
+      completedLangs: [...preResumeLangs, "is"],
+      lunaStats: {
+        lunaCalls: 1586,
+        tokensUsed: 6902605,
+        batches: 1550,
+        retries: 36,
+        scopesExpected: 31,
+        scopesProcessed: 31,
+        failures: [],
+      },
+    };
+
+    const prePath = path.join(tempRoot, "pre-progress.json");
+    const postPath = path.join(tempRoot, "post-progress.json");
+    const realProgressPath = path.join(ROOT, "reports/temp/g2-a1-phase3-luna-runs/progress.json");
+    assert(prePath !== realProgressPath && postPath !== realProgressPath, "17: fixtures isolated from real checkpoint");
+    fs.writeFileSync(prePath, `${JSON.stringify(preProgress, null, 2)}\n`, "utf8");
+    fs.writeFileSync(postPath, `${JSON.stringify(postProgress, null, 2)}\n`, "utf8");
+
+    validatePhase3CheckpointLifecycle(JSON.parse(fs.readFileSync(prePath, "utf8")), "pre-resume");
+    validatePhase3CheckpointLifecycle(JSON.parse(fs.readFileSync(postPath, "utf8")), "post-resume");
+  } finally {
+    fs.rmSync(tempRoot, { recursive: true, force: true });
+  }
 }
 
 function test18ResumeCommandNoFreshLuna() {

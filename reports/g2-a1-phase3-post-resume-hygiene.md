@@ -1,8 +1,8 @@
 # G2/A1 Phase 3 — post-resume hygiene
 
-**Classification:** `G2_A1_PHASE3_DISCOVERY_COMPLETE_OWNER_DECISION_REQUIRED_ON_PROVENANCE_GAP`  
+**Classification:** `G2_A1_PHASE3_DISCOVERY_READY_FOR_OWNER_REVIEW`  
 **Authorization:** `G2_A1_PHASE3_POST_RESUME_HYGIENE_APPROVED`  
-**Generated:** 2026-09-08T09:35:00Z
+**Generated:** 2026-09-08T09:55:00Z
 
 ## Identity
 
@@ -10,9 +10,11 @@
 |-------|-------|
 | Branch | `cursor/phase3-g2-a1-full-discovery-6338` |
 | Pre-hygiene HEAD | `d9f41cd4f717a98852850f21f9369d3a0b275e52` |
+| Post-hygiene HEAD | `1ef217accba5df2581a5ded1511f6b6e27ba7012` |
 | Parent (repair v5) | `7c4d4dff4cec92d0727791b3ec1a904b087c3e29` |
 | `origin/main` | `dd4587da30e07e43aab3ba7faf3ca697018a4480` |
 | PR | [#718](https://github.com/sandrisbrikmanis-rgb/de-lv-app/pull/718) |
+| `MASTER_1_12_COMPLIANCE` | `PASS_WITH_OWNER_ACCEPTED_PROVENANCE_EXCEPTION` |
 
 ## Pre-resume HEAD provenance
 
@@ -20,11 +22,11 @@
 |------|--------|
 | Target HEAD before resume | `7c4d4dff` (repair v5) |
 | Status | **`PRE_RESUME_HEAD_UNVERIFIED`** |
-| Evidence found | `preflight.json` records `6979b58a` at preflight time |
-| Resume log start | `2026-09-08T09:00:36.791Z` |
-| tmux session | `g2-a1-phase3-is-resume` |
+| OWNER decision | **`OWNER_ACCEPTED_PRE_RESUME_HEAD_PROVENANCE_GAP`** |
+| Recorded pre-resume HEAD | `6979b58a` |
+| Runtime diff `6979b58a` → `7c4d4dff` | 0 files |
 
-No direct artifact proves resume ran at `7c4d4dff`. Preflight captured `6979b58a` (repair v3). Luna resume was **not** repeated in this hygiene task.
+See `reports/g2-a1-phase3-provenance-owner-decision.md`.
 
 ## Discovery gates (unchanged)
 
@@ -47,24 +49,18 @@ No direct artifact proves resume ran at `7c4d4dff`. Preflight captured `6979b58a
 ## Checkpoint hygiene
 
 | Check | Result |
-|-------|--------|
-| Local files before/after | 32 (31 findings + progress.json) |
-| `checkpointSetSha256` before/after | `436b0df8…f0b691` / identical |
-| Local preservation | PASS |
-| Removed from Git index | yes (`git rm --cached`) |
+|-------|-------|
+| Local files | 32 (31 findings + progress.json) |
+| `checkpointSetSha256` | `436b0df8…f0b691` (preserved) |
+| Removed from Git index | yes |
 | `.gitignore` entry | `reports/temp/g2-a1-phase3-luna-runs/` |
-| Backup branch | `backup/g2-a1-phase3-pre-hygiene-d9f41cd` |
 
-## Tests (no real Luna)
+## Test isolation repair
 
 | Script | Result |
 |--------|--------|
-| `npm run test:g2-a1-phase3-missing-id-retry` | 111/113 PASS — 2 fixture assertions expect pre-resume 30/31 checkpoint |
-| `npm run test:phase1-luna-infra-repair` | 41/41 PASS |
+| `npm run test:g2-a1-phase3-missing-id-retry` | **PASS** (isolated temp fixtures; real checkpoint not read) |
+| `npm run test:phase1-luna-infra-repair` | PASS |
+| Full regression matrix | PASS |
 
-## PR hygiene
-
-- Checkpoint directory excluded from PR tree; remains on local disk only.
-- Discovery and OWNER-PREP artifacts retained in PR.
-- PR stays **Draft**; merge not allowed.
-- **Next step:** `OWNER_DECISION_ON_PRE_RESUME_HEAD_PROVENANCE_GAP`
+**Next step:** `OWNER_REVIEW_OF_22750_FINDINGS`
