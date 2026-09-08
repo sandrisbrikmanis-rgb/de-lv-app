@@ -33,7 +33,17 @@ function main() {
     process.exit(0);
   }
 
-  const result = runCrowdinStagingCopyOnlyApply({ root: ROOT, dryRun: args.dryRun });
+  const preRepairHeadSha = require("child_process")
+    .execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" })
+    .trim();
+  const result = runCrowdinStagingCopyOnlyApply({
+    root: ROOT,
+    dryRun: args.dryRun,
+    preRepairHeadSha,
+  });
+  result.finalHeadSha = require("child_process")
+    .execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" })
+    .trim();
   const reports = writeApplyReports(result, ROOT);
 
   console.log(
