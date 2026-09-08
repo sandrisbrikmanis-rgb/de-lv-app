@@ -15,6 +15,8 @@ const {
   BATCH_ID,
   MULTI_VALUE_DELIM,
 } = require("./prepare-g2-a1-phase3-owner-review-batch-001");
+const { BASELINE_PACK_COMMIT, gitShow } = require("./lib/g2-a1-phase3/batch-001-pack-git");
+const { loadCsv, loadCsvFromString, buildCsv } = require("./lib/g2-a1-phase3/batch-001-csv");
 
 const PACK_PROOF = path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-proof.json");
 const PACK_CSV = path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-decisions.csv");
@@ -47,57 +49,8 @@ function sha256Hex(value) {
   return crypto.createHash("sha256").update(value).digest("hex");
 }
 
-function parseCsvLine(line) {
-  const cells = [];
-  let current = "";
-  let inQuotes = false;
-  for (let i = 0; i < line.length; i += 1) {
-    const ch = line[i];
-    if (inQuotes) {
-      if (ch === '"') {
-        if (line[i + 1] === '"') {
-          current += '"';
-          i += 1;
-        } else {
-          inQuotes = false;
-        }
-      } else {
-        current += ch;
-      }
-    } else if (ch === '"') {
-      inQuotes = true;
-    } else if (ch === ",") {
-      cells.push(current);
-      current = "";
-    } else {
-      current += ch;
-    }
-  }
-  cells.push(current);
-  return cells;
-}
-
-function loadCsv(filePath) {
-  const lines = fs.readFileSync(filePath, "utf8").trim().split(/\r?\n/);
-  const header = parseCsvLine(lines[0]);
-  const rows = [];
-  for (let i = 1; i < lines.length; i += 1) {
-    const cells = parseCsvLine(lines[i]);
-    const row = {};
-    header.forEach((key, idx) => {
-      row[key] = cells[idx] ?? "";
-    });
-    rows.push(row);
-  }
-  return { header, rows };
-}
-
 function escapeMd(value) {
   return String(value ?? "").replace(/\|/g, "\\|");
-}
-
-function escapeCsv(value) {
-  return `"${String(value ?? "").replace(/"/g, '""')}"`;
 }
 
 function buildViewMarkdown(rows, summary) {
@@ -170,14 +123,6 @@ function buildDecisionsMarkdown(rows, summary) {
   return `${lines.join("\n")}\n`;
 }
 
-function buildCsv(header, rows) {
-  const lines = [header.join(",")];
-  for (const row of rows) {
-    lines.push(header.map((key) => escapeCsv(row[key])).join(","));
-  }
-  return `${lines.join("\n")}\n`;
-}
-
 function applyOwnerReviewBatch001(options = {}) {
   const root = options.root || ROOT;
   const ownerCsvPath = options.ownerCsvPath || PACK_CSV;
@@ -199,8 +144,17 @@ function applyOwnerReviewBatch001(options = {}) {
   }
 
   const packProof = JSON.parse(fs.readFileSync(PACK_PROOF, "utf8"));
-  const packCsv = loadCsv(PACK_CSV);
   const ownerCsv = loadCsv(ownerCsvPath);
+  const packCsv =
+    packProof.classification === "G2_A1_OWNER_REVIEW_BATCH_001_DECIDED" ||
+    packProof.batchStatus === "DECIDED"
+      ? loadCsvFromString(
+          gitShow(
+            options.baselineCommit || BASELINE_PACK_COMMIT,
+            "reports/g2-a1-phase3-owner-review-batch-001-decisions.csv",
+          ),
+        )
+      : loadCsv(PACK_CSV);
 
   if (packProof.sourceHash !== EXPECTED_SOURCE_HASH) {
     errors.push("pack source hash mismatch");
@@ -240,6 +194,9 @@ function applyOwnerReviewBatch001(options = {}) {
     }
     if (row.owner_decision === "NEW" && !row.owner_new.trim()) {
       errors.push(`NEW without owner_new ${row.finding_stable_ids}`);
+    }
+    if (row.owner_decision === "NELABOT" && row.owner_new.trim()) {
+      errors.push(`NELABOT with owner_new ${row.finding_stable_ids}`);
     }
     if (row.owner_note.includes("target-language review backlog")) {
       targetLanguageBacklogCount += 1;

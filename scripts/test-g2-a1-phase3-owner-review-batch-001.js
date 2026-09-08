@@ -20,6 +20,13 @@ const {
   SOURCE_PATHS,
   prepareBatch001,
 } = require("./prepare-g2-a1-phase3-owner-review-batch-001");
+const {
+  BASELINE_PACK_COMMIT,
+  loadCsvFromString,
+  gitShow,
+  reconcileIdentity,
+} = require("./lib/g2-a1-phase3/batch-001-ingest-audit");
+const { loadCsv, parseCsvLine } = require("./lib/g2-a1-phase3/batch-001-csv");
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -35,36 +42,6 @@ function assert(condition, message) {
 function sha256File(relPath) {
   const filePath = path.join(ROOT, relPath);
   return crypto.createHash("sha256").update(fs.readFileSync(filePath)).digest("hex");
-}
-
-function parseCsvLine(line) {
-  const cells = [];
-  let current = "";
-  let inQuotes = false;
-  for (let i = 0; i < line.length; i += 1) {
-    const ch = line[i];
-    if (inQuotes) {
-      if (ch === '"') {
-        if (line[i + 1] === '"') {
-          current += '"';
-          i += 1;
-        } else {
-          inQuotes = false;
-        }
-      } else {
-        current += ch;
-      }
-    } else if (ch === '"') {
-      inQuotes = true;
-    } else if (ch === ",") {
-      cells.push(current);
-      current = "";
-    } else {
-      current += ch;
-    }
-  }
-  cells.push(current);
-  return cells;
 }
 
 function gitDiffNames(paths) {
@@ -154,14 +131,21 @@ function testPrepareAndArtifacts() {
   const csv = fs.readFileSync(path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-decisions.csv"), "utf8");
 
   if (alreadyDecided) {
+    const baselineCsv = loadCsvFromString(
+      gitShow(BASELINE_PACK_COMMIT, "reports/g2-a1-phase3-owner-review-batch-001-decisions.csv"),
+    );
+    const currentCsv = loadCsv(path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-decisions.csv"));
+    const identity = reconcileIdentity(baselineCsv.rows, currentCsv.rows);
+    assert(identity.missing.length === 0, "baseline member ids preserved");
+    assert(identity.extra.length === 0, "no extra member ids");
+    assert(identity.mismatches.length === 0, "identity columns preserved after ingest");
+    assert(baselineCsv.rows.every((row) => row.owner_status === "PENDING"), "git baseline pending");
     assert(proof.batchStatus === "DECIDED", "batch status decided");
     assert(proof.ownerDecisionCounts?.NELABOT === proof.batchDecisionTargetCount, "all nelabot");
     assert((view.match(/\*\*OWNER DECISION:\*\* NELABOT/g) || []).length === proof.batchDecisionTargetCount, "view nelabot count");
-    return;
-  }
-
-  assert(proof.ownerStatuses.length === 1 && proof.ownerStatuses[0] === "PENDING", "owner statuses pending");
-  assert((view.match(/\*\*OWNER STATUS:\*\* PENDING/g) || []).length === proof.batchDecisionTargetCount, "view pending count");
+  } else {
+    assert(proof.ownerStatuses.length === 1 && proof.ownerStatuses[0] === "PENDING", "owner statuses pending");
+    assert((view.match(/\*\*OWNER STATUS:\*\* PENDING/g) || []).length === proof.batchDecisionTargetCount, "view pending count");
   assert(!/OWNER DECISION:\*\* (LABOT|NELABOT|NEW)/.test(view), "view has no owner decisions");
   assert(!/OWNER NEW:\*\* .+/.test(view), "view owner new blank");
   assert((decisions.match(/\| PENDING \| \| \| \|/g) || []).length === proof.batchDecisionTargetCount, "decisions pending rows");
@@ -190,10 +174,13 @@ function testPrepareAndArtifacts() {
   }
   const outside = [...packedIds].filter((id) => !proof.memberFindingIds.includes(id));
   assert(outside.length === 0, "no findings outside BATCH-001");
+  }
 
   const integrity = validateSourceIntegrity(ROOT);
   assert(integrity.pass, "source integrity still PASS");
-  assert(new Set(integrity.findings.map((f) => f.ownerStatus)).size === 1, "all source findings pending");
+  if (!alreadyDecided) {
+    assert(new Set(integrity.findings.map((f) => f.ownerStatus)).size === 1, "all source findings pending");
+  }
 
   assert(sha256File("data/a1.js") === beforeLvSha, "LV source unchanged");
   assert(sha256File("data/a1.js") === beforeDeSha, "DE template unchanged");
