@@ -1,0 +1,61 @@
+{
+  "classification": "G2_A1_ALL_REMAINING_OWNER_REVIEW_BATCHES_READY",
+  "pass": true,
+  "ownerAuthorization": "G2_A1_PREPARE_ALL_REMAINING_OWNER_REVIEW_BATCHES_APPROVED",
+  "sourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
+  "totalSourceFindings": 22750,
+  "batch001Decided": 100,
+  "remainingFindings": 22650,
+  "generatedBatchCount": 232,
+  "firstGeneratedBatch": "BATCH-002",
+  "lastGeneratedBatch": "BATCH-233",
+  "maxDecisionTargetsPerBatch": 100,
+  "memberIdCoverage": "22650/22650",
+  "missing": 0,
+  "extra": 0,
+  "duplicateAssignments": 0,
+  "decisionTargetSplits": 0,
+  "sourceClusterSplits": 0,
+  "postCrowdinDistribution": {
+    "CHANGED_SINCE_DISCOVERY": 17083,
+    "TARGET_NOT_FOUND": 367,
+    "FIELD_NOT_FOUND": 5199,
+    "UNCHANGED_SINCE_DISCOVERY": 1
+  },
+  "primaryWwwParityChecked": true,
+  "positionalMappingUsed": false,
+  "fuzzyMappingUsed": false,
+  "ownerStatuses": [
+    "PENDING"
+  ],
+  "automaticOwnerDecisions": 0,
+  "targetLanguageBacklogPreserved": 29,
+  "newRealLunaCalls": 0,
+  "productionDiff": 0,
+  "lvDiff": 0,
+  "deDiff": 0,
+  "crowdinDiff": 0,
+  "lunaCheckpointDiff": 0,
+  "sourceArtifactSha256Before": {
+    "reports/g2-a1-phase3-full-discovery.json": "462c23f34454b00f21c6814b3e34a3364161ef8f10a75c654895bde1377a014c",
+    "reports/g2-a1-phase3-owner-proof.json": "e3f6425a9119a2852e01c165ad63011a5ee4f41b754360f8bcf655a45ca3e45d",
+    "reports/g2-a1-phase3-owner-decisions.csv": "91c72faf9c59272df323978a8deb1c38469d9112c2ef309f60e73fc656ad6941",
+    "reports/g2-a1-phase3-owner-review-batches.json": "c731240626fb45d7a616d1781d938b5b9734484b32c56aff0b43afaab2a77261",
+    "reports/g2-a1-phase3-owner-prep-usability-proof.json": "908f64887d2924a910cdeb00be666c7987d5fc35859c148601026729a76dba40",
+    "reports/g2-a1-phase3-owner-review-batch-001-proof.json": "2ae27e1249ad59a8d163e57278ed6e6c223b5950b8a7317c2005786384cfbc41",
+    "reports/g2-a1-phase3-owner-review-batch-001-ingest-audit-proof.json": "08108880690faa8ecef8cb6a1d31183e061531c1dc82f1ecb6fb8f25ef9717a5"
+  },
+  "sourceArtifactSha256After": {
+    "reports/g2-a1-phase3-full-discovery.json": "462c23f34454b00f21c6814b3e34a3364161ef8f10a75c654895bde1377a014c",
+    "reports/g2-a1-phase3-owner-proof.json": "e3f6425a9119a2852e01c165ad63011a5ee4f41b754360f8bcf655a45ca3e45d",
+    "reports/g2-a1-phase3-owner-decisions.csv": "91c72faf9c59272df323978a8deb1c38469d9112c2ef309f60e73fc656ad6941",
+    "reports/g2-a1-phase3-owner-review-batches.json": "c731240626fb45d7a616d1781d938b5b9734484b32c56aff0b43afaab2a77261",
+    "reports/g2-a1-phase3-owner-prep-usability-proof.json": "908f64887d2924a910cdeb00be666c7987d5fc35859c148601026729a76dba40",
+    "reports/g2-a1-phase3-owner-review-batch-001-proof.json": "2ae27e1249ad59a8d163e57278ed6e6c223b5950b8a7317c2005786384cfbc41",
+    "reports/g2-a1-phase3-owner-review-batch-001-ingest-audit-proof.json": "08108880690faa8ecef8cb6a1d31183e061531c1dc82f1ecb6fb8f25ef9717a5"
+  },
+  "checkpointShaBefore": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
+  "checkpointShaAfter": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
+  "nextStep": "OWNER_PARALLEL_REVIEW_ALL_REMAINING_BATCHES",
+  "outputHash": "f521c9ae4440fd6937ffdaff8d03496c056e358be65064fc2053a13ea6f83b56"
+}
