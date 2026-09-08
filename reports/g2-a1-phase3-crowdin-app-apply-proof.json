@@ -1,0 +1,402 @@
+{
+  "pass": true,
+  "classification": "G2_A1_CROWDIN_STAGING_TO_APP_COPY_ONLY_APPLY_PASS",
+  "ownerAuthorization": "G2_A1_CROWDIN_STAGING_TO_APP_APPLY_APPROVED",
+  "ownerDecision": "IMPORT_CROWDIN_A1_STAGING_AS_CURRENT_APP_BASELINE",
+  "dryRun": false,
+  "stagingRoot": "reports/staging/g2-a1-phase3-crowdin",
+  "languagesApplied": 31,
+  "valuesMatched": 92101,
+  "valuesExpected": 92101,
+  "filesChanged": 62,
+  "deFieldsChanged": 0,
+  "lvSourceChanged": false,
+  "lunaFindingsCount": 22750,
+  "lunaFindingsPending": 22750,
+  "lunaFindingsStatus": "DEFERRED_POST_IMPORT_BACKLOG",
+  "newLunaCalls": 0,
+  "automaticOwnerDecisions": 0,
+  "checkpointShaBefore": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
+  "checkpointShaAfter": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
+  "ownerSourceHashBefore": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
+  "ownerSourceHashAfter": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
+  "lvSourceShaBefore": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+  "lvSourceShaAfter": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+  "perLanguage": [
+    {
+      "lang": "bg",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/bg/a1.js",
+        "www/data/bg/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "bs",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/bs/a1.js",
+        "www/data/bs/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "cs",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/cs/a1.js",
+        "www/data/cs/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "da",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/da/a1.js",
+        "www/data/da/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "gr",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/gr/a1.js",
+        "www/data/gr/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "en",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/en/a1.js",
+        "www/data/en/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "es",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/es/a1.js",
+        "www/data/es/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "et",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/et/a1.js",
+        "www/data/et/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "fi",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/fi/a1.js",
+        "www/data/fi/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "fr",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/fr/a1.js",
+        "www/data/fr/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "hr",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/hr/a1.js",
+        "www/data/hr/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "hu",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/hu/a1.js",
+        "www/data/hu/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "is",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/is/a1.js",
+        "www/data/is/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "it",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/it/a1.js",
+        "www/data/it/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "lb",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/lb/a1.js",
+        "www/data/lb/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "lt",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/lt/a1.js",
+        "www/data/lt/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "mk",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/mk/a1.js",
+        "www/data/mk/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "nb",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/nb/a1.js",
+        "www/data/nb/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "nl",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/nl/a1.js",
+        "www/data/nl/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "nn",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/nn/a1.js",
+        "www/data/nn/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "pl",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/pl/a1.js",
+        "www/data/pl/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "pt",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/pt/a1.js",
+        "www/data/pt/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "ro",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/ro/a1.js",
+        "www/data/ro/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "ru",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/ru/a1.js",
+        "www/data/ru/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "sk",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/sk/a1.js",
+        "www/data/sk/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "sl",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/sl/a1.js",
+        "www/data/sl/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "sq",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/sq/a1.js",
+        "www/data/sq/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "sr",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/sr/a1.js",
+        "www/data/sr/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "sv",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/sv/a1.js",
+        "www/data/sv/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "tr",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/tr/a1.js",
+        "www/data/tr/a1.js"
+      ],
+      "dryRun": false
+    },
+    {
+      "lang": "uk",
+      "keysMatched": 2971,
+      "objects": 702,
+      "deIntegrity": "PASS",
+      "stagingRoundTrip": "PASS",
+      "files": [
+        "data/uk/a1.js",
+        "www/data/uk/a1.js"
+      ],
+      "dryRun": false
+    }
+  ],
+  "errors": [],
+  "nextStep": "OWNER_REVIEW_APPLY_PR",
+  "outputHash": "212735659c50c28019b07784dae94685154f9523410a3d16e65ebae250290d0d"
+}

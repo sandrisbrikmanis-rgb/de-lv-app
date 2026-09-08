@@ -153,10 +153,7 @@ const A1_WORDS = [
       "explanation": [
         "Κύρια ιδέα: Μικρό σε μέγεθος ή όγκο.",
         "Klein σημαίνει κυρίως: μικρό μέγεθος.",
-        "Συχνά περιγράφει: το μέγεθος ενός πράγματος/ατόμου.",
-        "Klein σημαίνει κυρίως: μικρός/νεαρός.",
-        "Συχνά περιγράφει: ένα παιδί.",
-        "Ο klein περιγράφει το μικρό μέγεθος."
+        "Συχνά περιγράφει: το μέγεθος ενός πράγματος/ατόμου."
       ],
       "examples": [
         {
@@ -186,8 +183,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Klein = μικρό σε μέγεθος.",
-        "Klein = μικρός.",
-        "Μικρό σε μέγεθος ή όγκο."
+        "Klein = μικρός."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1213,7 +1209,8 @@ const A1_WORDS = [
       ],
       "important": [
         "Το Ich auch wünsche Ihnen δεν είναι η σωστή σειρά λέξεων.",
-        "Αυχ = επίσης."
+        "Αυχ = επίσης.",
+        "Λάθος: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2575,7 +2572,7 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Μια επίσκεψη",
+    "lv": "επίσκεψη",
     "level": "A1"
   },
   {
@@ -2587,7 +2584,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "Να επισκεφθείτε • Να επισκεφθείτε",
+    "lv": "επισκέπτομαι",
     "level": "A1"
   },
   {
@@ -2736,7 +2733,8 @@ const A1_WORDS = [
       },
       "important": [
         "Bis = σε ένα όριο ή χρονικό σημείο.",
-        "Bis jetzt = μέχρι τώρα • Bis dass = μέχρι την ώρα που."
+        "Bis jetzt = μέχρι τώρα • Bis dass = μέχρι την ώρα που.",
+        "bis jetzt σημαίνει μέχρι τώρα."
       ]
     }
   },
@@ -2756,12 +2754,7 @@ const A1_WORDS = [
       "explanation": [
         "Κύρια ιδέα: Μια ευγενική λέξη με μικρό αρχικό γράμμα. Χρησιμοποιείται για να εκφράσει ευγένεια — παρακαλώ.",
         "Bitt σημαίνει κυρίως: ευγένεια.",
-        "Συχνά περιγράφει: μια ευγενική λέξη.",
-        "Bitt σημαίνει κυρίως: αίτημα/αίτηση.",
-        "Συχνά περιγράφει: ουσιαστικό (πεθάνει).",
-        "Bitte με πεζό γράμμα είναι μια ευγενική λέξη — σημαίνει παρακαλώ (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte με κεφαλαίο γράμμα και το άρθρο die είναι ουσιαστικό — σημαίνει αίτημα ή ευχή (Ich habe eine Bitte = έχω ένα αίτημα).",
-        "Πληθυντικός: die Bitten."
+        "Συχνά περιγράφει: μια ευγενική λέξη."
       ],
       "examples": [
         {
@@ -2796,8 +2789,7 @@ const A1_WORDS = [
       "important": [
         "Το bit γράφεται με πεζό γράμμα — είναι ευγενική λέξη, όχι ουσιαστικό.",
         "Die Bitte με κεφαλαίο γράμμα και το άρθρο die είναι ουσιαστικό.",
-        "Πληθυντικός: die Bitten (προσευχές).",
-        "Λάθος: Die Bitte schön! → Σωστό: Bitte schön!"
+        "Πληθυντικός: die Bitten (προσευχές)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2874,13 +2866,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Παρακαλώ",
+          "example": "Komm bitte herein. – Παρακαλώ, έλα μέσα."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Προσευχή",
+          "example": "Ich habe eine Bitte. – Έχω ένα αίτημα."
         }
       ]
     }
@@ -2899,11 +2891,7 @@ const A1_WORDS = [
         "Κύρια ιδέα: Ένα ουσιαστικό με το άρθρο die και ένα κεφαλαίο γράμμα. Ένα συγκεκριμένο αίτημα ή αίτημα.",
         "Die Bitte σημαίνει κυρίως: ευγένεια.",
         "Συχνά περιγράφει: μια ευγενική λέξη.",
-        "Die Bitte σημαίνει κυρίως: αίτημα/ευχή.",
-        "Συχνά περιγράφει: ουσιαστικό (πεθάνει).",
-        "Bitte με πεζό γράμμα είναι μια ευγενική λέξη — σημαίνει παρακαλώ (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte με κεφαλαίο γράμμα και το άρθρο die είναι ουσιαστικό — σημαίνει αίτημα ή ευχή (Ich habe eine Bitte = έχω ένα αίτημα).",
-        "Πληθυντικός: die Bitten."
+        "Die Bitte σημαίνει κυρίως: αίτημα/ευχή."
       ],
       "examples": [
         {
@@ -2938,8 +2926,7 @@ const A1_WORDS = [
       "important": [
         "Το bit γράφεται με πεζό γράμμα — είναι ευγενική λέξη, όχι ουσιαστικό.",
         "Die Bitte με κεφαλαίο γράμμα και το άρθρο die είναι ουσιαστικό.",
-        "Πληθυντικός: die Bitten (προσευχές).",
-        "Λάθος: Die Bitte schön! → Σωστό: Bitte schön!"
+        "Πληθυντικός: die Bitten (προσευχές)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3009,13 +2996,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Προσευχή",
+          "example": "Ich habe eine Bitte. – Έχω ένα αίτημα."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Παρακαλώ",
+          "example": "Komm bitte herein. – Παρακαλώ, έλα μέσα."
         }
       ]
     }
@@ -3357,7 +3344,8 @@ const A1_WORDS = [
         "Κύρια ιδέα: bringen σημαίνει να φέρεις, να πάρεις ή να παραδώσεις κάτι σε κάποιον.",
         "Το bringen χρησιμοποιείται όταν κάτι μεταφέρεται σε άλλο μέρος ή σε άλλο άτομο.",
         "Δεν είναι το ίδιο με το nehmen, γιατί nehmen σημαίνει να παίρνεις πάνω σου.",
-        "Τρύπα σημαίνει να πηγαίνω μετά και να φέρω ή να παίρνω."
+        "Τρύπα σημαίνει να πηγαίνω μετά και να φέρω ή να παίρνω.",
+        "Η μετάφραση καθορίζεται από το πλαίσιο."
       ],
       "examples": [
         {
@@ -3400,8 +3388,8 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "παίρνω",
+          "example": "Ich nehme das Buch. – Παίρνω το βιβλίο."
         }
       ],
       "tip": {
@@ -3409,7 +3397,8 @@ const A1_WORDS = [
       },
       "important": [
         "Το bringen δείχνει κατεύθυνση σε κάποιον ή ένα μέρος.",
-        "Nehmen σημαίνει παίρνω, αλλά όχι απαραίτητα παραδίδω σε κάποιον άλλο."
+        "Nehmen σημαίνει παίρνω, αλλά όχι απαραίτητα παραδίδω σε κάποιον άλλο.",
+        "Η λατβική μετάφραση εξαρτάται από το πλαίσιο."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4771,7 +4760,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Αόριστο άρθρο • Ένα • Μερικά",
-      "explanation": "Χρησιμοποιείται με ουσιαστικό αρσενικό. Αναφέρεται σε ένα συγκεκριμένο πράγμα ή άτομο ανάμεσα σε πολλές δυνατότητες.",
+      "explanation": [
+        "Κύρια ιδέα: ein είναι το αόριστο άρθρο.",
+        "ein είναι το αόριστο άρθρο για αρσενικά και ουδέτερα ουσιαστικά στην ονοματική.",
+        "ein χρησιμοποιείται στο αρσενικό: ein Mann.",
+        "ein χρησιμοποιείται στο ουδέτερο: ein Buch.",
+        "Στο θηλυκό γένος χρησιμοποιείται: eine.",
+        "Στην αιτιατική του αρσενικού γένους: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -4787,7 +4783,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "Το παιδί παίζει."
         }
       ],
       "tip": {
@@ -4895,27 +4891,29 @@ const A1_WORDS = [
       },
       "important": [
         "Το ein δεν είναι οριστικό άρθρο.",
-        "Εάν το θέμα είναι ήδη γνωστό συγκεκριμένα, συχνά χρειάζονται der, die ή das."
+        "Εάν το θέμα είναι ήδη γνωστό συγκεκριμένα, συχνά χρειάζονται der, die ή das.",
+        "eine — θηλυκό γένος.",
+        "einen — αιτιατική."
       ],
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
+          "meaning": "αρσενικό γένος",
           "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
+          "meaning": "θηλυκό γένος",
           "example": "eine Frau"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
+          "meaning": "ουδέτερο γένος",
           "example": "Ich habe ein Buch."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
+          "meaning": "αιτιατική",
           "example": "einen Mann"
         }
       ]
@@ -4973,22 +4971,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Παγωτό / παγωτό",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Τρώω παγωτό."
         },
         {
           "word": "der Schnee",
           "meaning": "Χιόνι",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = Το χιόνι είναι λευκό."
         },
         {
           "word": "kalt",
           "meaning": "Κρύο",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = Το νερό είναι κρύο."
         },
         {
           "word": "das Dessert",
           "meaning": "Επιδόρπιο",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Το παγωτό είναι ένα επιδόρπιο."
         }
       ],
       "tip": {
@@ -5253,7 +5251,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "Πρώτο • Μόνο",
-      "explanation": "Το \"erst\" χρησιμοποιείται για να δείξει τάξη (πρώτα) ή για να τονίσει ότι κάτι θα συμβεί αργότερα από το αναμενόμενο ή σε μικρότερη κλίμακα (ακόμα).",
+      "explanation": [
+        "Κύρια ιδέα: erst συνήθως σημαίνει μόνο. Ωστόσο, σε ορισμένο πλαίσιο, μπορεί να σημαίνει πρώτα.",
+        "erst χαρακτηρίζει συχνά ότι κάτι συμβαίνει αργότερα από ό,τι αναμένεται.",
+        "Ich bin erst 18. — Είμαι μόνο 18 χρονών.",
+        "Es ist erst Montag. — Είναι μόνο Δευτέρα.",
+        "Erst lernen, dann spielen. — Πρώτα μάθε, μετά παίξε."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -5281,17 +5285,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Πρώτο • Στην αρχή",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Πρώτα έχουμε πρωινό."
         },
         {
           "word": "nur",
           "meaning": "Μόνο",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Έχω μόνο 5 ευρώ."
         },
         {
           "word": "dann",
           "meaning": "Τότε",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Τότε πάμε σπίτι."
         }
       ],
       "tip": {
@@ -5441,7 +5445,8 @@ const A1_WORDS = [
       },
       "important": [
         "Το erst και το nur μπορούν και τα δύο να ακούγονται σαν \"μόνο\", αλλά δεν είναι το ίδιο.",
-        "Ο erst μιλάει συχνά για χρόνο, τάξη ή ένα σημείο που μόλις έφτασε. nur περιορίζει το ποσό."
+        "Ο erst μιλάει συχνά για χρόνο, τάξη ή ένα σημείο που μόλις έφτασε. nur περιορίζει το ποσό.",
+        "zuerst συνήθως σημαίνει: πρώτα."
       ]
     }
   },
@@ -5458,7 +5463,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "Το • Αυτός • Απρόσωπη μορφή",
-      "explanation": "Στα γερμανικά, δεν χρησιμοποιείς \"es\" για να μιλήσεις για τον εαυτό σου. Χρησιμοποιείται για να δηλώσει: αυτό, αυτός ή απρόσωπη μορφή (καιρός, χρόνος, διάφορες απρόσωπες προτάσεις).",
+      "explanation": [
+        "Κύρια ιδέα: es είναι αντωνυμία.",
+        "Χρησιμοποιείται: αυτό, αταίριαστες κατασκευές."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -5601,18 +5609,19 @@ const A1_WORDS = [
       },
       "important": [
         "Το γερμανικό es δεν είναι το «εγώ» της εσθονικής γλώσσας.",
-        "Το εσθονικό \"I\" είναι ich στα γερμανικά. Το γερμανικό es συχνά σημαίνει αυτό/αυτή ή παραμένει αμετάφραστο."
+        "Το εσθονικό \"I\" είναι ich στα γερμανικά. Το γερμανικό es συχνά σημαίνει αυτό/αυτή ή παραμένει αμετάφραστο.",
+        "Το λατβικό \"es\" στα γερμανικά είναι ich· το γερμανικό es συχνά σημαίνει αυτό ή δεν μεταφράζεται."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "αυτό • αταίριαστη μορφή",
+          "example": "Es regnet. – Βρέχει."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "es (πρόσωπο)",
+          "example": "Ich lerne Deutsch. – Μαθαίνω γερμανικά."
         }
       ]
     }
@@ -5635,9 +5644,7 @@ const A1_WORDS = [
       "explanation": [
         "Κύρια ιδέα: το etwas σημαίνει κάτι ή λίγο ανάλογα με το πλαίσιο.",
         "Όταν το etwas αντικαθιστά ένα άγνωστο πράγμα, κάτι λέγεται συνήθως στα Εσθονικά.",
-        "Όταν το etwas βρίσκεται μπροστά από ένα επίθετο ή μια ποσότητα, συχνά σημαίνει λίγο.",
-        "Το Etwas είναι μια πολύ συχνή και ουδέτερη λέξη Α1 στις συνομιλίες.",
-        "Το πιο σημαντικό είναι να διακρίνεις: etwas kaufen = αγοράζεις κάτι, etwas müde = λίγο κουρασμένος."
+        "Όταν το etwas βρίσκεται μπροστά από ένα επίθετο ή μια ποσότητα, συχνά σημαίνει λίγο."
       ],
       "examples": [
         {
@@ -5665,22 +5672,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Κάτι / λίγο",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Χρειάζομαι κάτι."
         },
         {
           "word": "was",
           "meaning": "Κάτι (καθομιλουμένη)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Θέλεις να πιεις κάτι;"
         },
         {
           "word": "ein bisschen",
           "meaning": "Λίγο",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Είμαι λίγο κουρασμένος."
         },
         {
           "word": "nichts",
           "meaning": "Τίποτα",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Δεν χρειάζομαι τίποτα."
         }
       ],
       "tip": {
@@ -5688,7 +5695,8 @@ const A1_WORDS = [
       },
       "important": [
         "Το etwas δεν είναι το ίδιο με το nichts: το etwas σημαίνει κάτι, αλλά το nichts δεν σημαίνει τίποτα.",
-        "Στα εσθονικά, μερικές φορές κάτι ακούγεται καλύτερα από το τίποτα, για παράδειγμα: etwas trinken = κάτι για να πιεις."
+        "Στα εσθονικά, μερικές φορές κάτι ακούγεται καλύτερα από το τίποτα, για παράδειγμα: etwas trinken = κάτι για να πιεις.",
+        "Στα λατβικά, κάποιες φορές ακούγεται καλύτερα κάτι, αντί για κάποιος, για παράδειγμα: etwas trinken = πιες κάτι."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5927,17 +5935,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Εσείς",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Είστε φιλικοί."
         },
         {
           "word": "euch",
           "meaning": "Εσύ / σε σένα",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Σας βοηθώ."
         },
         {
           "word": "euer",
           "meaning": "Εσείς",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Αυτό είναι το σπίτι σας."
         }
       ],
       "tip": {
@@ -6428,7 +6436,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Βρείτε / μαντέψτε",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Νομίζω ότι είναι καλό."
         },
         {
           "word": "suchen",
@@ -7148,12 +7156,12 @@ const A1_WORDS = [
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Ποδόσφαιρο",
+    "lv": "ποδόσφαιρο",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Πάντα",
+    "lv": "Υγιής",
     "level": "A1"
   },
   {
@@ -7489,13 +7497,13 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Ιστορία • Ιστορία",
+    "lv": "ιστορία",
     "level": "A1"
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Αδέρφια",
+    "lv": "αδέλφια και αδελφές",
     "level": "A1"
   },
   {
@@ -7559,8 +7567,7 @@ const A1_WORDS = [
         "Κύρια ιδέα: gleich σημαίνει αμέσως από άποψη χρόνου, σε σύγκριση σημαίνει το ίδιο.",
         "Όταν μιλάμε για χρόνο, gleich = αμέσως/σύντομα (Ich komme gleich. = θα έρθω αμέσως.).",
         "Όταν πρόκειται για σύγκριση, gleich = το ίδιο/το ίδιο (die gleiche Farbe = το ίδιο χρώμα).",
-        "Η λέξη gleich μπορεί να χρησιμοποιηθεί και ως πρόθεση με το Dative, που σημαίνει όπως (gleich mir = όπως εγώ).",
-        "Το πλαίσιο (ρήτρα χρόνου ή σύγκριση) υποδεικνύει τη σωστή έννοια."
+        "Η λέξη gleich μπορεί να χρησιμοποιηθεί και ως πρόθεση με το Dative, που σημαίνει όπως (gleich mir = όπως εγώ)."
       ],
       "examples": [
         {
@@ -7756,10 +7763,7 @@ const A1_WORDS = [
       "explanation": [
         "Κύρια ιδέα: Μεγάλο σε μέγεθος ή στην περίπτωση ατόμου - ψηλού αναστήματος.",
         "Groß σημαίνει κυρίως: μεγάλο μέτρο.",
-        "Συχνά περιγράφει: συνολικό μέγεθος.",
-        "Groß σημαίνει κυρίως: το ύψος ενός ατόμου.",
-        "Συχνά περιγράφει: ένα άτομο.",
-        "Το groß περιγράφει το γενικό μέγεθος ή ύψος ενός ατόμου."
+        "Συχνά περιγράφει: συνολικό μέγεθος."
       ],
       "examples": [
         {
@@ -7785,8 +7789,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Για ένα άτομο, Er ist groß σημαίνει ψηλή ανάπτυξη.",
-        "Groß = μεγάλος.",
-        "Μεγάλο σε μέγεθος ή ανά άτομο - ψηλό ανάστημα."
+        "Groß = μεγάλος."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7866,7 +7869,7 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Παππούς και γιαγιά",
+    "lv": "παππούδες και γιαγιάδες",
     "level": "A1"
   },
   {
@@ -8128,22 +8131,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Έχω",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Έχω χρόνο."
         },
         {
           "word": "sein",
           "meaning": "Να είναι",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Είμαι εδώ."
         },
         {
           "word": "bekommen",
           "meaning": "Να πάρει",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Λαμβάνω δώρο."
         },
         {
           "word": "machen",
           "meaning": "Να φτιάξω / ετοιμάζω",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Το κάνω αυτό."
         }
       ],
       "tip": {
@@ -8377,22 +8380,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Κρατήστε / σταματήστε",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = Το λεωφορείο σταματά."
         },
         {
           "word": "nehmen",
           "meaning": "Να πάρει",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Παίρνω την τσάντα."
         },
         {
           "word": "anhalten",
           "meaning": "Να σταματήσει",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Παρακαλώ, σταματήστε."
         },
         {
           "word": "denken",
           "meaning": "Να σκεφτεί",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Νομίζω ότι είναι σωστό."
         }
       ],
       "tip": {
@@ -8400,7 +8403,8 @@ const A1_WORDS = [
       },
       "important": [
         "Halten δεν σημαίνει απλώς «να κρατάς». Στην περίπτωση ενός οχήματος, αυτό σημαίνει συχνά στάση.",
-        "Το Ich halte das für... είναι μια φράση άποψης: «Θεωρώ ότι είναι ...»."
+        "Το Ich halte das für... είναι μια φράση άποψης: «Θεωρώ ότι είναι ...».",
+        "Bitte halten Sie an χρησιμοποιεί το διαχωρισμένο ρήμα anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8593,7 +8597,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Χέρι (χτένα)",
+    "lv": "παλάμη",
     "level": "A1"
   },
   {
@@ -8684,27 +8688,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Όνομα να είναι / σημαίνει",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Με λένε Άννα."
         },
         {
           "word": "nennen",
           "meaning": "Για να καλέσετε / όνομα",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Με λένε Τομ."
         },
         {
           "word": "bedeuten",
           "meaning": "Να σημαίνει",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Τι σημαίνει αυτό;"
         },
         {
           "word": "rufen",
           "meaning": "Να καλέσει / να καλέσει",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Σε καλώ."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "Να καλέσει",
+          "example": "Ich rufe dich an. = Σου τηλεφωνώ."
         }
       ],
       "tip": {
@@ -8950,10 +8954,7 @@ const A1_WORDS = [
       "explanation": [
         "Κύρια ιδέα: Υψηλό κατακόρυφα, ως προς το επίπεδο ή το ύψος.",
         "Χοχ σημαίνει κυρίως: μεγάλος σε ύψος.",
-        "Συχνά περιγράφει: κατακόρυφο ύψος.",
-        "Hoch σημαίνει κυρίως: υψηλό επίπεδο.",
-        "Συχνά περιγράφει: τιμές/τιμολόγιο.",
-        "Το hoch περιγράφει το ύψος, την κατακόρυφη κατεύθυνση ή το επίπεδο."
+        "Συχνά περιγράφει: κατακόρυφο ύψος."
       ],
       "examples": [
         {
@@ -9187,7 +9188,7 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Όμορφος • Ωραίος",
+    "lv": "όμορφος",
     "level": "A1"
   },
   {
@@ -10985,22 +10986,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Παίρνω / μπορώ",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Μπορώ να κολυμπήσω."
         },
         {
           "word": "dürfen",
           "meaning": "Να επιτρέπεται",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Μπορώ να πάω;"
         },
         {
           "word": "müssen",
           "meaning": "Χρειάζομαι / έχω",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Πρέπει να μάθω."
         },
         {
           "word": "wissen",
           "meaning": "Να ξέρεις",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Το ξέρω αυτό."
         }
       ],
       "tip": {
@@ -11242,22 +11243,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Πληρώστε (τιμή) • Πόσο κοστίζει",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Κοστίζει 5 ευρώ."
         },
         {
           "word": "bezahlen",
           "meaning": "Πληρώνω • Εξοφλώ (χρήματα)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Πληρώνω τον λογαριασμό."
         },
         {
           "word": "zahlen",
           "meaning": "Να πληρώσει • Να εξοφλήσει",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Μπορώ να πληρώσω με μετρητά;"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Ποσο κοστιζει...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Πόσο κοστίζει το βιβλίο;"
         }
       ],
       "tip": [
@@ -15436,7 +15437,7 @@ const A1_WORDS = [
         {
           "word": "dürfen",
           "meaning": "Να επιτρέπεται",
-          "example": "Darf ich gehen?"
+          "example": "Darf ich gehen;"
         }
       ],
       "tip": {
@@ -16918,7 +16919,7 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Ή σε μια επιλογή μεταξύ παραλλαγών",
-          "example": "Kaffee oder Tee?"
+          "example": "Kaffee oder Tee;"
         },
         {
           "word": "wenn",
@@ -17152,7 +17153,7 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Ή στην επιλογή",
-          "example": "Kaffee oder Tee?"
+          "example": "Kaffee oder Tee;"
         },
         {
           "word": "ob",
@@ -17756,8 +17757,7 @@ const A1_WORDS = [
         "Κύρια ιδέα: probieren σημαίνει να δοκιμάσεις ή να δοκιμάσεις.",
         "Όταν μιλάμε για φαγητό ή ποτό, το probieren συχνά σημαίνει γεύση.",
         "Όταν μιλάμε για μια ενέργεια, μέθοδο ή πράγμα, το probieren σημαίνει να προσπαθείς.",
-        "Testen σημαίνει συστηματικό έλεγχο ή έλεγχο, όχι απλώς προσπάθεια.",
-        "Αυτό δεν είναι το ίδιο με το prüfen, που σημαίνει να ελέγχεις πιο διεξοδικά."
+        "Testen σημαίνει συστηματικό έλεγχο ή έλεγχο, όχι απλώς προσπάθεια."
       ],
       "examples": [
         {
@@ -17813,8 +17813,7 @@ const A1_WORDS = [
       },
       "important": [
         "Probieren δεν είναι η κύρια λέξη για την επίσημη επιθεώρηση.",
-        "Το testen είναι πιο συστηματικό από το probieren.",
-        "Ο έλεγχος ενός εγγράφου ή τιμολογίου είναι συνήθως έλεγχος."
+        "Το testen είναι πιο συστηματικό από το probieren."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20012,8 +20011,7 @@ const A1_WORDS = [
         "Στην αρχή μιας πρότασης, το sie γράφεται πάντα με κεφαλαίο — Sie — ανεξάρτητα από το νόημα. Επομένως, το νόημα (αυτός, αυτοί ή σε ευγενικό) πρέπει να καθορίζεται από τα συμφραζόμενα και τη μορφή του ρήματος, όχι από τη χρήση κεφαλαίων.",
         "Η ευγενική διεύθυνση είναι πάντα με κεφαλαίο S: Sie, όχι sie.",
         "Αυτός: sie kocht (ενικός). Αυτοί: sie kochen (πληθυντικός, οικείος). Εσείς: Sie kochen (πληθυντικός, ευγενικός).",
-        "Λάθος: sie kocht → Σωστό: Sie kocht (στην αρχή μιας πρότασης)",
-        "Λάθος: Sie kocht (που σημαίνει αυτοί) → Σωστό: Sie kochen"
+        "Λάθος: sie kocht → Σωστό: Sie kocht (στην αρχή μιας πρότασης)"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20604,7 +20602,7 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Πρέπει / κάνει σύμφωνα με τις οδηγίες",
-          "example": "Was soll ich machen?"
+          "example": "Was soll ich machen;"
         },
         {
           "word": "müssen",
@@ -21352,22 +21350,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Παρόν / περίπου / πέρα",
-          "example": "Wir sprechen über das Wetter."
+          "example": "Μιλάμε για τον καιρό."
         },
         {
           "word": "auf",
           "meaning": "Στην επιφάνεια",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Το βιβλίο είναι πάνω στο τραπέζι."
         },
         {
           "word": "unter",
           "meaning": "Παρακάτω",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Η τσάντα είναι κάτω από το τραπέζι."
         },
         {
           "word": "von",
           "meaning": "Από / σχετικά με κάποια πηγή",
-          "example": "Ich höre von dir."
+          "example": "Ακούω από σένα."
         }
       ],
       "tip": {
@@ -21617,22 +21615,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "Στο / περίπου / αυτό",
-          "example": "Ich komme um acht."
+          "example": "Έρχομαι στις οκτώ."
         },
         {
           "word": "am",
           "meaning": "Στις / στις",
-          "example": "Am Montag komme ich."
+          "example": "Τη Δευτέρα έρχομαι."
         },
         {
           "word": "gegen",
           "meaning": "Γύρω / κατά",
-          "example": "Ich komme gegen acht."
+          "example": "Έρχομαι γύρω στις οκτώ."
         },
         {
           "word": "für",
           "meaning": "Υπέρ / υπέρ του",
-          "example": "Das ist für dich."
+          "example": "Αυτό είναι για σένα."
         }
       ],
       "tip": {
@@ -21881,22 +21879,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Κάτω από / μεταξύ",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Η τσάντα είναι κάτω από το τραπέζι."
         },
         {
           "word": "über",
           "meaning": "Παρόν / περίπου",
-          "example": "Die Lampe hängt über dem Tisch."
+          "example": "Η λάμπα κρέμεται πάνω από το τραπέζι."
         },
         {
           "word": "zwischen",
           "meaning": "Ανάμεσα σε δύο πράγματα",
-          "example": "Zwischen den Häusern."
+          "example": "Ανάμεσα στα σπίτια."
         },
         {
           "word": "auf",
           "meaning": "Στην επιφάνεια",
-          "example": "Auf dem Tisch."
+          "example": "Πάνω στο τραπέζι."
         }
       ],
       "tip": {
@@ -22162,22 +22160,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Να καταλάβεις",
-          "example": "Ich verstehe dich."
+          "example": "Σε καταλαβαίνω."
         },
         {
           "word": "können",
           "meaning": "Παίρνω / μπορώ",
-          "example": "Ich kann schwimmen."
+          "example": "Μπορώ να κολυμπάω."
         },
         {
           "word": "wissen",
           "meaning": "Να γνωρίζουν το γεγονός",
-          "example": "Ich weiß das."
+          "example": "Το ξέρω αυτό."
         },
         {
           "word": "kennen",
           "meaning": "Να νιώθεις",
-          "example": "Ich kenne ihn."
+          "example": "Τον γνωρίζω."
         }
       ],
       "tip": {
@@ -22797,22 +22795,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Πριν / μπροστά από",
-          "example": "Vor dem Essen..."
+          "example": "Πριν από το φαγητό..."
         },
         {
           "word": "nach",
           "meaning": "Μετά / προς",
-          "example": "Nach dem Essen..."
+          "example": "Μετά το φαγητό..."
         },
         {
           "word": "neben",
           "meaning": "Δίπλα",
-          "example": "Neben dem Haus."
+          "example": "Δίπλα στο σπίτι."
         },
         {
           "word": "hinter",
           "meaning": "Πίσω",
-          "example": "Hinter dem Haus."
+          "example": "Πίσω από το σπίτι."
         }
       ],
       "tip": {
@@ -23336,22 +23334,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Αν (συνθήκη) / αν (χρόνος)",
-          "example": "Wenn du Zeit hast..."
+          "example": "Αν έχεις χρόνο..."
         },
         {
           "word": "ob",
           "meaning": "Είτε σε έμμεση ερώτηση",
-          "example": "Ich weiß nicht, ob..."
+          "example": "Δεν ξέρω αν..."
         },
         {
           "word": "wann",
           "meaning": "Όταν στην ερώτηση",
-          "example": "Wann kommst du?"
+          "example": "Πότε έρχεσαι;"
         },
         {
           "word": "weil",
           "meaning": "Επειδή",
-          "example": "Ich bleibe, weil ich krank bin."
+          "example": "Μένω, γιατί είμαι άρρωστος."
         }
       ],
       "tip": {
@@ -23774,22 +23772,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Να πάρει",
-          "example": "Ich werde müde."
+          "example": "Κουράζομαι."
         },
         {
           "word": "sein",
           "meaning": "Να είναι",
-          "example": "Ich bin müde."
+          "example": "Είμαι κουρασμένος."
         },
         {
           "word": "bleiben",
           "meaning": "Να μείνεις",
-          "example": "Ich bleibe hier."
+          "example": "Μένω εδώ."
         },
         {
           "word": "machen",
           "meaning": "Να φτιάξω / ετοιμάζω",
-          "example": "Ich mache das."
+          "example": "Το κάνω αυτό."
         }
       ],
       "tip": {
@@ -24014,22 +24012,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Ο καιρός",
-          "example": "Das Wetter ist schön."
+          "example": "Ο καιρός είναι ωραίος."
         },
         {
           "word": "Zeit",
           "meaning": "Χρόνος (στιγμή)",
-          "example": "Ich habe keine Zeit."
+          "example": "Δεν έχω χρόνο."
         },
         {
           "word": "Regen",
           "meaning": "Η βροχή",
-          "example": "Es gibt viel Regen."
+          "example": "Υπάρχει πολύ βροχή."
         },
         {
           "word": "Sonne",
           "meaning": "Ο ήλιος",
-          "example": "Die Sonne scheint."
+          "example": "Ο ήλιος λάμπει."
         }
       ],
       "tip": [
@@ -24498,22 +24496,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Προς / προς / επίσης / αόριστο",
-          "example": "Ich gehe zum Arzt."
+          "example": "Πάω στο γιατρό."
         },
         {
           "word": "nach",
           "meaning": "Με πόλεις/χώρες",
-          "example": "Ich fahre nach Berlin."
+          "example": "Οδηγώ στο Βερολίνο."
         },
         {
           "word": "in",
           "meaning": "Σε / σε κάποιο μέρος",
-          "example": "Ich gehe in die Schule."
+          "example": "Πάω στο σχολείο."
         },
         {
           "word": "bei",
           "meaning": "Με κάποιον / στη δουλειά",
-          "example": "Ich bin bei Anna."
+          "example": "Είμαι στην Άννα."
         }
       ],
       "tip": {
@@ -24750,22 +24748,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Τρένο",
-          "example": "Der Zug kommt."
+          "example": "Το τρένο έρχεται."
         },
         {
           "word": "die Bahn",
           "meaning": "Σιδηρόδρομος / ταξίδι με τρένο",
-          "example": "Ich fahre mit der Bahn."
+          "example": "Ταξιδεύω με το τρένο."
         },
         {
           "word": "der Bus",
           "meaning": "Λεωφορείο",
-          "example": "Der Bus kommt."
+          "example": "Το λεωφορείο έρχεται."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Τραμ",
-          "example": "Die Straßenbahn ist hier."
+          "example": "Το τραμ είναι εδώ."
         }
       ],
       "tip": {
@@ -25384,17 +25382,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Να δει τηλεόραση",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Παρακολουθώ τηλεόραση."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Τηλεόραση (μέσα)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = Στην τηλεόραση παίζει μια ταινία."
         },
         {
           "word": "sehen",
           "meaning": "Να δεις",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Βλέπω μια ταινία."
         }
       ],
       "tip": {
@@ -26496,7 +26494,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Δεν είναι σωστό: die Ferie, der Urlabe (σε επίπεδο Α1).",
-        "Urlaub: im Urlaub sein / Urlaub machen.",
+        "Διακοπές: να είσαι σε διακοπές / να κάνεις διακοπές.",
         "Λάθος: die Urlabe → Σωστό: der Urlaub",
         "Έργο: der Urlaub (μόνο στον ενικό)."
       ],

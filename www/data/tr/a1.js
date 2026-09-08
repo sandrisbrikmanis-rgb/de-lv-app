@@ -135,10 +135,7 @@ const A1_WORDS = [
       "explanation": [
         "Ana fikir: Boyutu veya kapsamı küçük.",
         "Klein esas olarak: küçük boyut anlamına gelir.",
-        "Çoğunlukla şunu tanımlar: bir şeyin/kişinin büyüklüğü.",
-        "Klein temel olarak şu anlama gelir: küçük/yeni.",
-        "Sık sık tarif eder: bir çocuk.",
-        "Klein küçük boyutu tarif eder."
+        "Çoğunlukla şunu tanımlar: bir şeyin/kişinin büyüklüğü."
       ],
       "examples": [
         {
@@ -168,8 +165,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Klein = küçük boyut.",
-        "Klein = küçük.",
-        "Küçük boyut veya aralık."
+        "Klein = küçük."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1005,7 +1001,8 @@ const A1_WORDS = [
       ],
       "important": [
         "Ich auch wünsche Ihnen doğru kelime sırası değildir.",
-        "Ahh = aynı zamanda."
+        "Ahh = aynı zamanda.",
+        "Yanlış: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2097,7 +2094,7 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Ziyaret etmek",
+    "lv": "ziyaret",
     "level": "A1"
   },
   {
@@ -2109,7 +2106,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "Katılın • Ziyaret Edin",
+    "lv": "ziyaret etmek",
     "level": "A1"
   },
   {
@@ -2245,7 +2242,8 @@ const A1_WORDS = [
       },
       "important": [
         "BIS = sınıra veya zamandaki noktaya.",
-        "Bis jetzt = şimdiye kadar • Bis dass = tarihine kadar."
+        "Bis jetzt = şimdiye kadar • Bis dass = tarihine kadar.",
+        "bis jetzt şimdiye kadar anlamına gelir."
       ]
     }
   },
@@ -2265,12 +2263,7 @@ const A1_WORDS = [
       "explanation": [
         "Ana fikir: Küçük harfle yazılmış kibar bir kelime. Eskiden iyiydim, lütfen.",
         "Bitte esas olarak: nezaket anlamına gelir.",
-        "Genellikle şunu tanımlar: kibar bir kelime.",
-        "Bitte esas olarak şu anlama gelir: istek/talep.",
-        "Genellikle şu şekilde karakterize edilir: bir isim (ölmek).",
-        "Küçük harfle bitte kibar bir kelimedir - lütfen anlamına gelir (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Büyük harfle yazılan Die Bitte ve die artikeli bir isimdir - bu bir istek veya istek anlamına gelir (Ich habe eine Bitte = Bir isteğim var).",
-        "Çoğul: ısırılarak ölmek."
+        "Genellikle şunu tanımlar: kibar bir kelime."
       ],
       "examples": [
         {
@@ -2305,8 +2298,7 @@ const A1_WORDS = [
       "important": [
         "Bitte küçük harfle yazılır • Bu bir isim değil, kibar bir kelimedir.",
         "Die Bitte büyük harfle yazılmıştır ve die article bir isimdir.",
-        "Çoğul: Bitten ölmek (istekler).",
-        "Yanlış: Die Bitte schön! → Doğru: Bitte schön!"
+        "Çoğul: Bitten ölmek (istekler)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2368,13 +2360,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Lütfen",
+          "example": "Komm bitte herein. – Lütfen içeri gel."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "İstek",
+          "example": "Ich habe eine Bitte. – Bir ricam var."
         }
       ]
     }
@@ -2393,11 +2385,7 @@ const A1_WORDS = [
         "Ana fikir: Artikel die ve büyük harf içeren bir isim. Belirli bir istek veya istek.",
         "Die Bitte esas olarak nezaket anlamına gelir.",
         "Genellikle şunu tanımlar: kibar bir kelime.",
-        "Die Bitte temel olarak: istek/istek anlamına gelir.",
-        "Genellikle şu şekilde karakterize edilir: bir isim (ölmek).",
-        "Küçük harfle bitte kibar bir kelimedir - lütfen anlamına gelir (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Büyük harfle yazılan Die Bitte ve die artikeli bir isimdir - bu bir istek veya istek anlamına gelir (Ich habe eine Bitte = Bir isteğim var).",
-        "Çoğul: ısırılarak ölmek."
+        "Die Bitte temel olarak: istek/istek anlamına gelir."
       ],
       "examples": [
         {
@@ -2432,8 +2420,7 @@ const A1_WORDS = [
       "important": [
         "Bitte küçük harfle yazılır • Bu bir isim değil, kibar bir kelimedir.",
         "Die Bitte büyük harfle yazılmıştır ve die article bir isimdir.",
-        "Çoğul: Bitten ölmek (istekler).",
-        "Yanlış: Die Bitte schön! → Doğru: Bitte schön!"
+        "Çoğul: Bitten ölmek (istekler)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2495,13 +2482,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "İstek",
+          "example": "Ich habe eine Bitte. – Bir ricam var."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Lütfen",
+          "example": "Komm bitte herein. – Lütfen içeri gel."
         }
       ]
     }
@@ -2578,22 +2565,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Kalmak",
-          "example": "Ich bleibe hier."
+          "example": "Burada kalıyorum."
         },
         {
           "word": "gehen",
           "meaning": "Yürüyerek git/git",
-          "example": "Ich gehe nach Hause."
+          "example": "Eve gidiyorum."
         },
         {
           "word": "fahren",
           "meaning": "Ulaşımla gitmek/sürmek",
-          "example": "Ich fahre nach Hause."
+          "example": "Eve sürüyorum."
         },
         {
           "word": "warten",
           "meaning": "Beklemek",
-          "example": "Ich warte hier."
+          "example": "Burada bekliyorum."
         }
       ],
       "tip": {
@@ -2785,7 +2772,8 @@ const A1_WORDS = [
         "Ana fikir: Birine bir şey getirmek, taşımak veya teslim etmek için araçlar getirmek.",
         "Bir şeyin başka bir yere veya başka bir kişiye taşınması durumunda Bringen kullanırız.",
         "Bu nehmen ile aynı şey değildir çünkü nehmen kendi başına almak demektir.",
-        "Holen birini takip etmek, getirmek veya almak anlamına gelir."
+        "Holen birini takip etmek, getirmek veya almak anlamına gelir.",
+        "Çeviri bağlama göre belirlenir."
       ],
       "examples": [
         {
@@ -2828,8 +2816,8 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "almak",
+          "example": "Ich nehme das Buch. – Kitabı alıyorum."
         }
       ],
       "tip": {
@@ -2837,7 +2825,8 @@ const A1_WORDS = [
       },
       "important": [
         "Birine ya da bir yere giden yolu gösterin.",
-        "Nehmen almak anlamına gelir, ancak diğerine teslim etmek anlamına gelmez."
+        "Nehmen almak anlamına gelir, ancak diğerine teslim etmek anlamına gelmez.",
+        "Letonca çevirisi bağlama göre değişir."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3088,22 +3077,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Orada • Burada • Burada (genel)",
-          "example": "Da ist mein Auto."
+          "example": "Benim arabam orada."
         },
         {
           "word": "hier",
           "meaning": "Burada (belirli bir yerde)",
-          "example": "Hier ist mein Auto."
+          "example": "Burada benim arabam."
         },
         {
           "word": "dort",
           "meaning": "Orada (ileri)",
-          "example": "Dort ist mein Auto."
+          "example": "Orada benim arabam."
         },
         {
           "word": "dann",
           "meaning": "Sonra",
-          "example": "Dann gehen wir nach Hause."
+          "example": "Sonra eve gideceğiz."
         }
       ],
       "tip": {
@@ -3902,7 +3891,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Belirsiz artikel • Bir • Birisi",
-      "explanation": "Erkeksi bir isimle kullanılır. Çeşitli olasılıklardan bir şeye veya kişiye işaret etmek.",
+      "explanation": [
+        "Ana fikir: ein belirsiz bir makale.",
+        "ein erkek ve nötr cinsiyet isimlerinin nominatif halinde belirsiz bir makale.",
+        "ein erkek cinsiyet kullanılır: ein Mann.",
+        "ein nötr cinsiyet kullanılır: ein Buch.",
+        "Kadın cinsiyet için şunu kullanın: eine.",
+        "Yükleme halinde erkek cinsiyet: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -3918,7 +3914,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "Çocuk oynuyor."
         }
       ],
       "tip": {
@@ -4000,27 +3996,29 @@ const A1_WORDS = [
       },
       "important": [
         "Ein kesin bir artikel değildir.",
-        "Konu zaten somut olarak biliniyorsa der, die veya das'a sıklıkla ihtiyaç duyulur."
+        "Konu zaten somut olarak biliniyorsa der, die veya das'a sıklıkla ihtiyaç duyulur.",
+        "eine — kadın cinsiyeti.",
+        "einen — yükleme hali."
       ],
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
-          "example": "Ein Mann wartet draußen."
+          "meaning": "erkek cinsiyeti",
+          "example": "Dışarıda bir erkek bekliyor."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
+          "meaning": "kadın cinsiyeti",
           "example": "eine Frau"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
+          "meaning": "nötr cinsiyeti",
           "example": "Ich habe ein Buch."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
+          "meaning": "yükleme hali",
           "example": "einen Mann"
         }
       ]
@@ -4078,22 +4076,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Dondurma / dondurma",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Dondurma yiyorum."
         },
         {
           "word": "der Schnee",
           "meaning": "Kar yağacak",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = Kar beyazdır."
         },
         {
           "word": "kalt",
           "meaning": "Soğuk",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = Su soğuktur."
         },
         {
           "word": "das Dessert",
           "meaning": "Tatlı",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Dondurma bir tatlıdır."
         }
       ],
       "tip": {
@@ -4275,7 +4273,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "İlk • Yalnızca",
-      "explanation": "\"ilk \", sırayı belirtmek (ilk) veya bir şeyin beklenenden daha sonra veya daha az ölçüde (yalnızca) gerçekleştiğini vurgulamak için kullanılır.",
+      "explanation": [
+        "Ana fikir: erst çoğu zaman yalnızca anlamına gelir. Ancak belirli bağlamlarda ilk anlamı da olabilir.",
+        "erst genellikle bir şeyin beklenenden daha sonra gerçekleştiğini gösterir.",
+        "Ich bin erst 18. — Sadece 18 yaşındayım.",
+        "Es ist erst Montag. — Sadece pazartesidir.",
+        "Erst lernen, dann spielen. — Önce öğren, sonra oyna."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -4303,17 +4307,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "İlk • Başlangıçta",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Önce kahvaltı yapıyoruz."
         },
         {
           "word": "nur",
           "meaning": "Sadece",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Sadece 5 euro'um var."
         },
         {
           "word": "dann",
           "meaning": "Sonra",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Sonra eve gideceğiz."
         }
       ],
       "tip": {
@@ -4425,7 +4429,8 @@ const A1_WORDS = [
       },
       "important": [
         "Erst ve Nur kulağa \"adil\" gibi gelebilir ama aynı şey değiller.",
-        "İlki sıklıkla zamandan, sıralamadan ya da bir noktaya ulaşmaktan bahseder. • Nur miktarı sınırlar."
+        "İlki sıklıkla zamandan, sıralamadan ya da bir noktaya ulaşmaktan bahseder. • Nur miktarı sınırlar.",
+        "zuerst genellikle anlamına gelir: ilk olarak."
       ]
     }
   },
@@ -4442,7 +4447,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "Kime • Kime • Kişisel olmayan form",
-      "explanation": "Almanca \"ben\" kişinin kendisi hakkında konuşmak için kullanılmaz. Şunu belirtmek için kullanılır: şunu, şunu veya kişisel olmayan bir biçimi (hava durumu, zaman, çeşitli kişisel olmayan cümleler).",
+      "explanation": [
+        "Ana fikir: es bir zamirdir.",
+        "Kullanıldığı: bu, kişisiz yapılarda."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -4556,18 +4564,19 @@ const A1_WORDS = [
       },
       "important": [
         "Alman \"ben\"i Letonya \"ben\"i değil.",
-        "Letonca \"I\" Almanca'da ich'dir. • Almanca es genellikle şu/bunlar anlamına gelir veya tercüme edilmez."
+        "Letonca \"I\" Almanca'da ich'dir. • Almanca es genellikle şu/bunlar anlamına gelir veya tercüme edilmez.",
+        "Letonca 'es' Almanca'da ich olur; Almanca es genellikle bu anlamına gelir veya çevrilmez."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "bu • kişisiz yapı",
+          "example": "Es regnet. – Yağmur yağıyor."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "es (kişi)",
+          "example": "Ich lerne Deutsch. – Almanca öğreniyorum."
         }
       ]
     }
@@ -4590,9 +4599,7 @@ const A1_WORDS = [
       "explanation": [
         "Ana fikir: etwas, bağlama bağlı olarak bir şey veya biraz anlamına gelir.",
         "Eğer bilinmeyen bir şeyin yerini aldıysa, Letonca genellikle bir şey söyler.",
-        "Etwas bir sıfat veya nicelikten önce geldiğinde genellikle biraz anlamına gelir.",
-        "Etwas, konuşmalarda A1 harfiyle başlayan çok yaygın ve nötr bir kelimedir.",
-        "En önemli ayrım şudur: etwas kaufen = bir şey satın al, etwas müde = biraz yorgun."
+        "Etwas bir sıfat veya nicelikten önce geldiğinde genellikle biraz anlamına gelir."
       ],
       "examples": [
         {
@@ -4620,22 +4627,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Something/a bit",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Bir şeye ihtiyacım var."
         },
         {
           "word": "was",
           "meaning": "Bir şey (konuşma dilinde)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Bir şey içmek ister misin?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Biraz",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Biraz yorgunum."
         },
         {
           "word": "nichts",
           "meaning": "İplik",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Hiçbir şeye ihtiyacım yok."
         }
       ],
       "tip": {
@@ -4643,7 +4650,8 @@ const A1_WORDS = [
       },
       "important": [
         "Etwas, nichts ile aynı şey değildir: etwas bir şey ifade eder, ancak nichts hiçbir şey ifade etmez.",
-        "Letonca'da bir şey kulağa bir şeyden daha iyi gelir, örneğin: etwas trinken = bir şeyler içmek."
+        "Letonca'da bir şey kulağa bir şeyden daha iyi gelir, örneğin: etwas trinken = bir şeyler içmek.",
+        "Letonca'da bazen kaut ko daha iyi ses çıkarır, yani kaut kas değil, örneğin: etwas trinken = bir şey içmek."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4797,17 +4805,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Sen",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Siz dostlusunuz."
         },
         {
           "word": "euch",
           "meaning": "Sen / sana",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Size yardım ediyorum."
         },
         {
           "word": "euer",
           "meaning": "Senin",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = O sizin eviniz."
         }
       ],
       "info": [
@@ -4877,27 +4885,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Araçla ulaşım",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Otobüsle gidiyorum."
         },
         {
           "word": "gehen",
           "meaning": "Yürüyüş",
-          "example": "Ich gehe nach Hause."
+          "example": "Eve gidiyorum."
         },
         {
           "word": "laufen",
           "meaning": "Koşmak/yürümek",
-          "example": "Er läuft schnell."
+          "example": "Hızlı koşuyor."
         },
         {
           "word": "bringen",
           "meaning": "Getir/teslim et",
-          "example": "Ich bringe das Buch."
+          "example": "Kitabı getiriyorum."
         },
         {
           "word": "mitnehmen",
           "meaning": "Yanına al",
-          "example": "Ich nehme dich mit."
+          "example": "Seni benimle alıyorum."
         }
       ],
       "tip": {
@@ -5207,7 +5215,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Bul/düşün",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Bunu iyi buluyorum."
         },
         {
           "word": "suchen",
@@ -5777,12 +5785,12 @@ const A1_WORDS = [
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Futbol",
+    "lv": "futbol",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Tüm",
+    "lv": "Sağlıklı",
     "level": "A1"
   },
   {
@@ -5842,22 +5850,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Vermek",
-          "example": "Gib mir das Buch."
+          "example": "Bana kitabı ver."
         },
         {
           "word": "nehmen",
           "meaning": "Al / Al",
-          "example": "Ich nehme das Buch."
+          "example": "Kitabı alıyorum."
         },
         {
           "word": "bekommen",
           "meaning": "Almak/almak",
-          "example": "Ich bekomme ein Geschenk."
+          "example": "Hediye alıyorum."
         },
         {
           "word": "bringen",
           "meaning": "Getir/teslim et",
-          "example": "Ich bringe dir das Buch."
+          "example": "Bana kitabı getiriyorum."
         }
       ],
       "tip": {
@@ -6048,13 +6056,13 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Tarih • Tarih",
+    "lv": "hikaye",
     "level": "A1"
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Erkek ve Kız Kardeşler",
+    "lv": "kardeşler ve kızkardeşler",
     "level": "A1"
   },
   {
@@ -6118,8 +6126,7 @@ const A1_WORDS = [
         "Ana fikir: gleich geçici olarak hemen, nispeten eşit bir şekilde anlamına gelir.",
         "Zamana gelince, gleich = hemen/bir anda (Ich komme gleich. = Hemen geliyorum.).",
         "Karşılaştırma açısından, gleich = eşit/aynı (die gleiche Farbe = aynı renk).",
-        "Gleich aynı zamanda (gleich mir = benim gibi) anlamına gelen datif edat olarak da kullanılabilir.",
-        "Bağlam (zaman veya karşılaştırma) doğru anlamı gösterir."
+        "Gleich aynı zamanda (gleich mir = benim gibi) anlamına gelen datif edat olarak da kullanılabilir."
       ],
       "examples": [
         {
@@ -6270,10 +6277,7 @@ const A1_WORDS = [
       "explanation": [
         "Ana fikir: Büyük boy veya kişi başına - uzun boy.",
         "Groß her şeyden önce büyük boyut anlamına gelir.",
-        "Genellikle şu şekilde karakterize edilir: genel boyut.",
-        "Groß her şeyden önce insan büyümesi anlamına gelir.",
-        "Genellikle şunu tanımlar: bir kişi.",
-        "Groß genel olarak bir kişinin boyutunu veya boyunu tanımlar."
+        "Genellikle şu şekilde karakterize edilir: genel boyut."
       ],
       "examples": [
         {
@@ -6299,8 +6303,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Bir kişi için Er brüt, uzun anlamına gelir.",
-        "Brüt = büyük.",
-        "Büyük boy veya bir kişi için - yüksek boy."
+        "Brüt = büyük."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6354,7 +6357,7 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Büyükanne ve büyükbaba",
+    "lv": "büyükanne ve büyükbaba",
     "level": "A1"
   },
   {
@@ -6588,22 +6591,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Bende",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Zamanım var."
         },
         {
           "word": "sein",
           "meaning": "Olmak",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Buradayım."
         },
         {
           "word": "bekommen",
           "meaning": "Almak için",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Hediye alıyorum."
         },
         {
           "word": "machen",
           "meaning": "Yapmak / yapmak",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Bunu yapıyorum."
         }
       ],
       "tip": {
@@ -6770,22 +6773,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Tut/durdur",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = Otobüs duruyor."
         },
         {
           "word": "nehmen",
           "meaning": "Almak",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Çantayı alıyorum."
         },
         {
           "word": "anhalten",
           "meaning": "Durmak",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Lütfen durun."
         },
         {
           "word": "denken",
           "meaning": "Düşünmek",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Bunun doğru olduğunu düşünüyorum."
         }
       ],
       "tip": {
@@ -6793,7 +6796,8 @@ const A1_WORDS = [
       },
       "important": [
         "Halten sadece \"tutmak\" anlamına gelmiyor. Ulaşımda bu genellikle durmak anlamına gelir.",
-        "Ich halte das für... bir görüş ifadesidir: \"Bunu... olarak görüyorum \"."
+        "Ich halte das für... bir görüş ifadesidir: \"Bunu... olarak görüyorum \".",
+        "Bitte halten Sie an ayrılabilir fiil anhalten kullanır."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6906,7 +6910,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "El (Hand)",
+    "lv": "el",
     "level": "A1"
   },
   {
@@ -6997,27 +7001,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Çağrılmak/etiketlenmek",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Adım Anna."
         },
         {
           "word": "nennen",
           "meaning": "Ara/isim",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Bana Tom diye seslendiyor."
         },
         {
           "word": "bedeuten",
           "meaning": "Aklınızda bulunsun",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Bu ne anlama geliyor?"
         },
         {
           "word": "rufen",
           "meaning": "Ara",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Seni çağırıyorum."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "Ara",
+          "example": "Ich rufe dich an. = Seni arıyorum."
         }
       ],
       "tip": {
@@ -7199,10 +7203,7 @@ const A1_WORDS = [
       "explanation": [
         "Ana fikir: dikey, yatay veya yükseklik olarak yüksek.",
         "Hoch her şeyden önce büyük büyüme anlamına gelir.",
-        "Genellikle şu şekilde karakterize edilir: dikey yükseklik.",
-        "Hoch temel olarak şu anlama gelir: yüksek seviye.",
-        "Genellikle şu şekilde karakterize edilir: fiyatlar/sayılar.",
-        "Hoch yüksekliği, dikey yönü veya yatayı tanımlar."
+        "Genellikle şu şekilde karakterize edilir: dikey yükseklik."
       ],
       "examples": [
         {
@@ -7386,7 +7387,7 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Düzenli • Güzel",
+    "lv": "güzel",
     "level": "A1"
   },
   {
@@ -8854,22 +8855,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Bilmek",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Yüzme konusunda uzmanım."
         },
         {
           "word": "dürfen",
           "meaning": "İzin verilebilir",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Gidebilir miyim?"
         },
         {
           "word": "müssen",
           "meaning": "Ihtiyacım var / öyle olmalıyım-",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Ders çalışmam gerekiyor."
         },
         {
           "word": "wissen",
           "meaning": "Bilmek",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Bunu biliyorum."
         }
       ],
       "tip": {
@@ -9038,22 +9039,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Ödeme (fiyat) • Ne kadar",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Bunun fiyatı 5 euro."
         },
         {
           "word": "bezahlen",
           "meaning": "Ödeme • Ödeme (para)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Faturayı ödüyorum."
         },
         {
           "word": "zahlen",
           "meaning": "Ödeme • Ödeme",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Nakit olarak ödeyebilir miyim?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Ne kadar...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Kitabın fiyatı ne kadar?"
         }
       ],
       "tip": [
@@ -9880,22 +9881,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Bırak/izin ver",
-          "example": "Ich lasse das hier."
+          "example": "Bunu burada bırakıyorum."
         },
         {
           "word": "bleiben",
           "meaning": "Kalmak",
-          "example": "Ich bleibe hier."
+          "example": "Burada kalıyorum."
         },
         {
           "word": "erlauben",
           "meaning": "Etkinleştir",
-          "example": "Sie erlaubt mir das."
+          "example": "Bana izin veriyor."
         },
         {
           "word": "geben",
           "meaning": "Vermek",
-          "example": "Gib mir das Buch."
+          "example": "Bana kitabı ver."
         }
       ],
       "tip": {
@@ -10054,22 +10055,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Çalıştır/harekete geç",
-          "example": "Er läuft schnell."
+          "example": "Hızlı koşuyor."
         },
         {
           "word": "gehen",
           "meaning": "Yürüyüş",
-          "example": "Ich gehe nach Hause."
+          "example": "Eve gidiyorum."
         },
         {
           "word": "fahren",
           "meaning": "Araçla ulaşım",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Otobüsle gidiyorum."
         },
         {
           "word": "funktionieren",
           "meaning": "İş",
-          "example": "Das funktioniert gut."
+          "example": "Bu iyi çalışıyor."
         }
       ],
       "tip": {
@@ -10494,22 +10495,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Koymak",
-          "example": "Ich lege das Buch auf den Tisch."
+          "example": "Kitabı masaya koyuyorum."
         },
         {
           "word": "liegen",
           "meaning": "Olmak / uyumak",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Kitap masada yatıyor."
         },
         {
           "word": "stellen",
           "meaning": "Dikey olarak yerleştir",
-          "example": "Ich stelle die Flasche auf den Tisch."
+          "example": "Şişeyi masaya koyuyorum."
         },
         {
           "word": "setzen",
           "meaning": "Oturun/oturun",
-          "example": "Ich setze mich."
+          "example": "Oturuyorum."
         }
       ],
       "tip": {
@@ -10862,22 +10863,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Olmak / uyumak",
-          "example": "Das Buch liegt hier."
+          "example": "Kitap burada yatıyor."
         },
         {
           "word": "legen",
           "meaning": "Koymak",
-          "example": "Ich lege das Buch hierhin."
+          "example": "Kitabı buraya koyuyorum."
         },
         {
           "word": "stehen",
           "meaning": "Stand/Stand",
-          "example": "Die Flasche steht auf dem Tisch."
+          "example": "Şişe masada duruyor."
         },
         {
           "word": "sein",
           "meaning": "Olmak",
-          "example": "Ich bin hier."
+          "example": "Buradayım."
         }
       ],
       "tip": {
@@ -11620,22 +11621,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "Birlikte / birlikte",
-          "example": "Ich komme mit dir."
+          "example": "Seninle geliyorum."
         },
         {
           "word": "ohne",
           "meaning": "Olmadan",
-          "example": "Ich komme ohne dich."
+          "example": "Sensiz geliyorum."
         },
         {
           "word": "bei",
           "meaning": "Birinin yerinde",
-          "example": "Ich bin bei Anna."
+          "example": "Anna'da birlikte."
         },
         {
           "word": "zu",
           "meaning": "Kime / at",
-          "example": "Ich gehe zum Arzt."
+          "example": "Doktora gidiyorum."
         }
       ],
       "tip": {
@@ -11822,22 +11823,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Beğenmek",
-          "example": "Ich mag Musik."
+          "example": "Müziği seviyorum."
         },
         {
           "word": "möchte",
           "meaning": "Ben isterim",
-          "example": "Ich möchte Kaffee."
+          "example": "Kahve istiyorum."
         },
         {
           "word": "wollen",
           "meaning": "İstiyorum",
-          "example": "Ich will nach Hause."
+          "example": "Eve gitmek istiyorum."
         },
         {
           "word": "lieben",
           "meaning": "Aşk",
-          "example": "Ich liebe dich."
+          "example": "Seni seviyorum."
         }
       ],
       "tip": {
@@ -12286,22 +12287,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Yapmalıyım/yapmam gerekiyor",
-          "example": "Ich muss gehen."
+          "example": "Gitmek zorundayım."
         },
         {
           "word": "können",
           "meaning": "Bilmek",
-          "example": "Ich kann kommen."
+          "example": "Gelebilirim."
         },
         {
           "word": "wollen",
           "meaning": "İstiyorum",
-          "example": "Ich will nach Hause."
+          "example": "Eve gitmek istiyorum."
         },
         {
           "word": "dürfen",
           "meaning": "İzin verilebilir",
-          "example": "Darf ich gehen?"
+          "example": "Gidebilir miyim?"
         }
       ],
       "tip": {
@@ -12470,22 +12471,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "Şu ana kadar/sonra",
-          "example": "Ich fahre nach Berlin."
+          "example": "Berlin'e gidiyorum."
         },
         {
           "word": "zu",
           "meaning": "Kime / at",
-          "example": "Ich gehe zum Arzt."
+          "example": "Doktora gidiyorum."
         },
         {
           "word": "in",
           "meaning": "Makalenin bulunduğu yere / yere",
-          "example": "Ich gehe in die Schule."
+          "example": "Okula gidiyorum."
         },
         {
           "word": "vor",
           "meaning": "Önce/önce",
-          "example": "Vor dem Essen wasche ich die Hände."
+          "example": "Yemekten önce elleri yıkıyorum."
         }
       ],
       "tip": {
@@ -12807,22 +12808,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "Al / Al",
-          "example": "Nimm das Buch!"
+          "example": "Kitabı al!"
         },
         {
           "word": "bringen",
           "meaning": "Getir / al / teslim et",
-          "example": "Ich bringe dir das Buch."
+          "example": "Bana kitabı getiriyorum."
         },
         {
           "word": "holen",
           "meaning": "Git/ getir",
-          "example": "Ich hole Wasser."
+          "example": "Su getiriyorum."
         },
         {
           "word": "mitnehmen",
           "meaning": "Yanına al",
-          "example": "Ich nehme dich mit."
+          "example": "Seni benimle alıyorum."
         }
       ],
       "tip": {
@@ -13444,22 +13445,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Veya dolaylı bir soruda",
-          "example": "Ich weiß nicht, ob er kommt."
+          "example": "Gelip gelmeyeceğini bilmiyorum."
         },
         {
           "word": "oder",
           "meaning": "Veya seçeneklerden birini seçin",
-          "example": "Kaffee oder Tee?"
+          "example": "Kahve mi çay mı?"
         },
         {
           "word": "wenn",
           "meaning": "Eğer/ne zaman",
-          "example": "Wenn du Zeit hast..."
+          "example": "Vaktın varsa..."
         },
         {
           "word": "dass",
           "meaning": "O",
-          "example": "Ich weiß, dass er kommt."
+          "example": "Geleceğini biliyorum."
         }
       ],
       "tip": {
@@ -13624,22 +13625,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Veya seçin",
-          "example": "Kaffee oder Tee?"
+          "example": "Kahve mi çay mı?"
         },
         {
           "word": "ob",
           "meaning": "Veya dolaylı bir soruda",
-          "example": "Ich weiß nicht, ob er kommt."
+          "example": "Gelip gelmeyeceğini bilmiyorum."
         },
         {
           "word": "und",
           "meaning": "VE",
-          "example": "Kaffee und Kuchen."
+          "example": "Kahve ve kek."
         },
         {
           "word": "aber",
           "meaning": "Ancak",
-          "example": "Ich komme, aber später."
+          "example": "Geliyorum ama daha sonra."
         }
       ],
       "tip": {
@@ -13866,22 +13867,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Uyuyor / uyuyor",
-          "example": "Die Jacke passt mir."
+          "example": "Ceket bana uyuyor."
         },
         {
           "word": "stehen",
           "meaning": "Ayakta / ayakta",
-          "example": "Rot steht dir gut."
+          "example": "Kırmızı sana güzel geliyor."
         },
         {
           "word": "geeignet sein",
           "meaning": "Uygun Ol",
-          "example": "Das ist geeignet."
+          "example": "Bu uygun."
         },
         {
           "word": "funktionieren",
           "meaning": "İş",
-          "example": "Das funktioniert."
+          "example": "Bu işe yarıyor."
         }
       ],
       "tip": {
@@ -14105,22 +14106,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Deneyin/tadın",
-          "example": "Probier mal die Suppe!"
+          "example": "Çorbayı tat!"
         },
         {
           "word": "versuchen",
           "meaning": "Deneyin",
-          "example": "Ich versuche es."
+          "example": "Bunu deniyorum."
         },
         {
           "word": "prüfen",
           "meaning": "Kontrol etmek için",
-          "example": "Ich prüfe die Rechnung."
+          "example": "Faturayı kontrol ediyorum."
         },
         {
           "word": "anprobieren",
           "meaning": "Deneyin",
-          "example": "Ich probiere die Jacke an."
+          "example": "Cekett'i deniyorum."
         }
       ],
       "tip": {
@@ -14836,22 +14837,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Bir hareket veya spor olarak yüzme",
-          "example": "Er schwimmt sehr gut."
+          "example": "Çok iyi yüzüyor."
         },
         {
           "word": "baden",
           "meaning": "Suda yüzün/olun",
-          "example": "Ich gehe baden."
+          "example": "Yüzmeye gidiyorum."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Yüzmeye git",
-          "example": "Wir gehen schwimmen."
+          "example": "Yüzmeye gideceğiz."
         },
         {
           "word": "duschen",
           "meaning": "Duş al",
-          "example": "Ich dusche morgens."
+          "example": "Sabah duş alıyorum."
         }
       ],
       "tip": {
@@ -15053,22 +15054,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Görmek",
-          "example": "Ich sehe dich."
+          "example": "Seni görüyorum."
         },
         {
           "word": "schauen",
           "meaning": "Izlemek için",
-          "example": "Ich schaue auf das Bild."
+          "example": "Resme bakıyorum."
         },
         {
           "word": "ansehen",
           "meaning": "İzle/bak",
-          "example": "Ich sehe mir den Film an."
+          "example": "Filmi izliyorum."
         },
         {
           "word": "hören",
           "meaning": "Duymak",
-          "example": "Ich höre Musik."
+          "example": "Müzik dinliyorum."
         }
       ],
       "tip": {
@@ -15242,22 +15243,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Olmak",
-          "example": "Ich bin hier."
+          "example": "Buradayım."
         },
         {
           "word": "haben",
           "meaning": "Bende",
-          "example": "Ich habe Zeit."
+          "example": "Zamanım var."
         },
         {
           "word": "werden",
           "meaning": "Haline gelmek",
-          "example": "Ich werde müde."
+          "example": "Yorgun oluyor."
         },
         {
           "word": "bleiben",
           "meaning": "Kalmak",
-          "example": "Ich bleibe hier."
+          "example": "Burada kalıyorum."
         }
       ],
       "tip": {
@@ -15556,22 +15557,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Kendim",
-          "example": "Er wäscht sich."
+          "example": "O kendini yıkıyor."
         },
         {
           "word": "mich",
           "meaning": "Ben/ben onların",
-          "example": "Ich wasche mich."
+          "example": "Kendimi yıkıyorum."
         },
         {
           "word": "dich",
           "meaning": "Sen/ben du'da",
-          "example": "Du wäschst dich."
+          "example": "Kendini yıkıyorsun."
         },
         {
           "word": "ihn",
           "meaning": "Onun",
-          "example": "Ich sehe ihn."
+          "example": "Onu görüyorum."
         }
       ],
       "tip": {
@@ -16135,22 +16136,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Oturmak",
-          "example": "Ich sitze am Tisch."
+          "example": "Masada oturuyorum."
         },
         {
           "word": "stehen",
           "meaning": "Olmak",
-          "example": "Er steht an der Tür."
+          "example": "Kapı açılı duruyor."
         },
         {
           "word": "liegen",
           "meaning": "Uyumak/uzanmak",
-          "example": "Die Katze liegt dort."
+          "example": "Kedi orada yatıyor."
         },
         {
           "word": "setzen",
           "meaning": "Otur / otur",
-          "example": "Ich setze mich."
+          "example": "Oturuyorum."
         }
       ],
       "tip": {
@@ -16350,22 +16351,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Tavsiyelere uymalı/uymalı",
-          "example": "Was soll ich machen?"
+          "example": "Ne yapmalıyım?"
         },
         {
           "word": "müssen",
           "meaning": "Kesinlikle buna ihtiyacım var",
-          "example": "Ich muss gehen."
+          "example": "Gitmek zorundayım."
         },
         {
           "word": "können",
           "meaning": "To be able to",
-          "example": "Ich kann kommen."
+          "example": "Gelebilirim."
         },
         {
           "word": "wollen",
           "meaning": "İstiyorum",
-          "example": "Ich will bleiben."
+          "example": "Kalmak istiyorum."
         }
       ],
       "tip": {
@@ -16586,22 +16587,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Stand/Stand",
-          "example": "Ich stehe hier."
+          "example": "Burada duruyorum."
         },
         {
           "word": "sitzen",
           "meaning": "Oturmak",
-          "example": "Er sitzt am Tisch."
+          "example": "Masada oturuyor."
         },
         {
           "word": "liegen",
           "meaning": "Uyumak/uzanmak",
-          "example": "Das Buch liegt dort."
+          "example": "Kitap orada yatıyor."
         },
         {
           "word": "stellen",
           "meaning": "Dikey olarak yerleştir",
-          "example": "Ich stelle die Flasche hin."
+          "example": "Şişeyi koyuyorum."
         }
       ],
       "tip": {
@@ -16975,22 +16976,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Aşırı/fazla/çapraz",
-          "example": "Wir sprechen über das Wetter."
+          "example": "Hava hakkında konuşuyoruz."
         },
         {
           "word": "auf",
           "meaning": "Dıştan",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Kitap masanın üzerinde yatıyor."
         },
         {
           "word": "unter",
           "meaning": "Altında",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Çanta masanın altında."
         },
         {
           "word": "von",
           "meaning": "Bir kaynaktan/etrafından",
-          "example": "Ich höre von dir."
+          "example": "Senden haber alıyorum."
         }
       ],
       "tip": {
@@ -17170,22 +17171,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "Içinde/etrafında/içinde/içinde/içinde/içinde",
-          "example": "Ich komme um acht."
+          "example": "Saat sekizde geliyorum."
         },
         {
           "word": "am",
           "meaning": "Günlük / saat",
-          "example": "Am Montag komme ich."
+          "example": "Pazartesi günü geliyorum."
         },
         {
           "word": "gegen",
           "meaning": "Zaman / vs hakkında",
-          "example": "Ich komme gegen acht."
+          "example": "Saat sekiz civarında geliyorum."
         },
         {
           "word": "für",
           "meaning": "Lehine / lehine",
-          "example": "Das ist für dich."
+          "example": "Bu senin için."
         }
       ],
       "tip": {
@@ -17356,22 +17357,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Altında / Arasında",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Çanta masanın altında."
         },
         {
           "word": "über",
           "meaning": "Fazla/için",
-          "example": "Die Lampe hängt über dem Tisch."
+          "example": "Lamba masanın üzerinde asılı."
         },
         {
           "word": "zwischen",
           "meaning": "İki şey arasında",
-          "example": "Zwischen den Häusern."
+          "example": "Evlerin arasında."
         },
         {
           "word": "auf",
           "meaning": "Dıştan",
-          "example": "Auf dem Tisch."
+          "example": "Masanın üzerinde."
         }
       ],
       "tip": {
@@ -17573,22 +17574,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Anlamak",
-          "example": "Ich verstehe dich."
+          "example": "Seni anlıyorum."
         },
         {
           "word": "können",
           "meaning": "Bilmek",
-          "example": "Ich kann schwimmen."
+          "example": "Yüzebilirim."
         },
         {
           "word": "wissen",
           "meaning": "Bir gerçeği biliyorum",
-          "example": "Ich weiß das."
+          "example": "Bunu biliyorum."
         },
         {
           "word": "kennen",
           "meaning": "Bilmek",
-          "example": "Ich kenne ihn."
+          "example": "Onu tanıyorum."
         }
       ],
       "tip": {
@@ -18073,22 +18074,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Önce/önce",
-          "example": "Vor dem Essen..."
+          "example": "Yemekten önce..."
         },
         {
           "word": "nach",
           "meaning": "Sonra / bitene kadar",
-          "example": "Nach dem Essen..."
+          "example": "Yemekten sonra..."
         },
         {
           "word": "neben",
           "meaning": "Yakın",
-          "example": "Neben dem Haus."
+          "example": "Evin yanında."
         },
         {
           "word": "hinter",
           "meaning": "İçin",
-          "example": "Hinter dem Haus."
+          "example": "Evin arkasında."
         }
       ],
       "tip": {
@@ -18495,22 +18496,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Eğer/ne zaman",
-          "example": "Wenn du Zeit hast..."
+          "example": "Eğer zamanın varsa..."
         },
         {
           "word": "ob",
           "meaning": "Veya dolaylı bir soruda",
-          "example": "Ich weiß nicht, ob..."
+          "example": "Bilmiyorum, yoksa..."
         },
         {
           "word": "wann",
           "meaning": "O noktaya geldiğinde",
-          "example": "Wann kommst du?"
+          "example": "Ne zaman geliyorsun?"
         },
         {
           "word": "weil",
           "meaning": "Çünkü",
-          "example": "Ich bleibe, weil ich krank bin."
+          "example": "Kalıyorum, çünkü hastalanıyorum."
         }
       ],
       "tip": {
@@ -18807,22 +18808,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Haline gelmek",
-          "example": "Ich werde müde."
+          "example": "Yorgun oluyorum."
         },
         {
           "word": "sein",
           "meaning": "Olmak",
-          "example": "Ich bin müde."
+          "example": "Yorgunum."
         },
         {
           "word": "bleiben",
           "meaning": "Kalmak",
-          "example": "Ich bleibe hier."
+          "example": "Burada kalıyorum."
         },
         {
           "word": "machen",
           "meaning": "Yapmak / yapmak",
-          "example": "Ich mache das."
+          "example": "Bunu yapıyorum."
         }
       ],
       "tip": {
@@ -18997,22 +18998,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Hava koşulları",
-          "example": "Das Wetter ist schön."
+          "example": "Hava güzel."
         },
         {
           "word": "Zeit",
           "meaning": "Zaman (an)",
-          "example": "Ich habe keine Zeit."
+          "example": "Vaktim yok."
         },
         {
           "word": "Regen",
           "meaning": "Yağmur",
-          "example": "Es gibt viel Regen."
+          "example": "Çok yağmur yağıyor."
         },
         {
           "word": "Sonne",
           "meaning": "Güneş",
-          "example": "Die Sonne scheint."
+          "example": "Güneş parlıyor."
         }
       ],
       "tip": [
@@ -19370,22 +19371,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "To / in / too / mastar",
-          "example": "Ich gehe zum Arzt."
+          "example": "Doktora gidiyorum."
         },
         {
           "word": "nach",
           "meaning": "Şehirler/ülkeler ile",
-          "example": "Ich fahre nach Berlin."
+          "example": "Berlin'e gidiyorum."
         },
         {
           "word": "in",
           "meaning": "Yere / yere",
-          "example": "Ich gehe in die Schule."
+          "example": "Okula gidiyorum."
         },
         {
           "word": "bei",
           "meaning": "Birinin/iş yerinde",
-          "example": "Ich bin bei Anna."
+          "example": "Anna'da bulunuyorum."
         }
       ],
       "tip": {
@@ -19554,22 +19555,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Tren",
-          "example": "Der Zug kommt."
+          "example": "Tren geliyor."
         },
         {
           "word": "die Bahn",
           "meaning": "Demiryolu/tren yolculuğu",
-          "example": "Ich fahre mit der Bahn."
+          "example": "Trenle seyahat ediyorum."
         },
         {
           "word": "der Bus",
           "meaning": "Otobüs",
-          "example": "Der Bus kommt."
+          "example": "Otobüs geliyor."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Tramvay",
-          "example": "Die Straßenbahn ist hier."
+          "example": "Tramvay burada."
         }
       ],
       "tip": {
@@ -20058,17 +20059,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "TV izle",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Televizyon izliyorum."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Televizyon (medya)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = Televizyonda bir film oynatılıyor."
         },
         {
           "word": "sehen",
           "meaning": "Görmek",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Bir film izliyorum."
         }
       ],
       "tip": {
@@ -21043,7 +21044,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Niepoprawnie: die Ferie, der Urlabe (na poziomie A1).",
-        "Urlaub: im Urlaub sein / Urlaub machen.",
+        "Tatil: tatilde olmak / tatil yapmak.",
         "Yanlış: die Urlaube → Doğru: der Urlaub",
         "İş: der Urlaub (yalnızca tekil)."
       ],

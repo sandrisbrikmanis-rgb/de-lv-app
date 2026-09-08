@@ -135,10 +135,7 @@ const A1_WORDS = [
       "explanation": [
         "Основная идея: Небольшой размер или объем.",
         "Кляйн в основном означает: маленький размер.",
-        "Часто описывает: размер вещи/человека.",
-        "Кляйн в основном означает: маленький/новый.",
-        "Часто описывает: ребенок.",
-        "Кляйн описывает небольшой размер."
+        "Часто описывает: размер вещи/человека."
       ],
       "examples": [
         {
@@ -168,8 +165,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Кляйн = маленький по размеру.",
-        "Кляйн = маленький.",
-        "Небольшие по размеру или объему."
+        "Кляйн = маленький."
       ],
       "sectionAccents": {
         "explanation": {},
@@ -261,12 +257,12 @@ const A1_WORDS = [
         {
           "word": "an",
           "meaning": "На поверхности или краю",
-          "example": "an der Wand – pie sienas"
+          "example": "у стены – pie sienas"
         },
         {
           "word": "auf",
           "meaning": "На горизонтальной поверхности",
-          "example": "auf dem Tisch – uz galda"
+          "example": "на столе – uz galda"
         },
         {
           "word": "bei",
@@ -429,7 +425,7 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "От кого-то/чего-то • Происхождение",
-          "example": "von mir – no manis"
+          "example": "от меня – no manis"
         },
         {
           "word": "aus",
@@ -1006,7 +1002,8 @@ const A1_WORDS = [
       ],
       "important": [
         "Ich auch wünsche Ihnen — неправильный порядок слов.",
-        "Ах = также."
+        "Ах = также.",
+        "Неправильно: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1086,7 +1083,7 @@ const A1_WORDS = [
         {
           "word": "an",
           "meaning": "На (вертикальная поверхность)",
-          "example": "Ich hänge das Bild an die Wand. – Es karinu bildi pie sienas."
+          "example": "Я вешаю картину на стену. – Es karinu bildi pie sienas."
         },
         {
           "word": "in",
@@ -1253,7 +1250,7 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "От человека, места, поверхности",
-          "example": "von meinem Freund – no mana drauga"
+          "example": "от моего друга – no mana drauga"
         },
         {
           "word": "ab",
@@ -1421,17 +1418,17 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "К конкретному случаю (акк.)",
-          "example": "aufs Dach – uz jumta"
+          "example": "на крышу – uz jumta"
         },
         {
           "word": "auf",
           "meaning": "На поверхность или вверх",
-          "example": "auf den Tisch – uz galda"
+          "example": "на стол – uz galda"
         },
         {
           "word": "an",
           "meaning": "На вертикальной поверхности",
-          "example": "an die Wand – pie sienas"
+          "example": "на стену – pie sienas"
         },
         {
           "word": "ins",
@@ -1711,22 +1708,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Плавать/быть в воде/мыться",
-          "example": "Ich gehe baden."
+          "example": "Я иду купаться."
         },
         {
           "word": "schwimmen",
           "meaning": "Плавать как движение или спорт",
-          "example": "Er schwimmt sehr gut."
+          "example": "Он очень хорошо плывёт."
         },
         {
           "word": "duschen",
           "meaning": "Принять душ",
-          "example": "Ich dusche am Morgen."
+          "example": "Я принимаю душ утром."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Пойти плавать",
-          "example": "Ich gehe heute schwimmen."
+          "example": "Я иду сегодня плавать."
         }
       ],
       "tip": {
@@ -1937,7 +1934,7 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Кто собирается (направление)",
-          "example": "Ich gehe zu meinem Freund. – Es eju pie sava drauga."
+          "example": "Я иду к моему другу. – Es eju pie sava drauga."
         }
       ],
       "tip": {
@@ -2093,7 +2090,7 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Визит",
+    "lv": "посещение",
     "level": "A1"
   },
   {
@@ -2105,7 +2102,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "Присутствовать • Посещать",
+    "lv": "посещать",
     "level": "A1"
   },
   {
@@ -2241,7 +2238,8 @@ const A1_WORDS = [
       },
       "important": [
         "Bis = до предела или момента времени.",
-        "Bis jetzt = до сих пор • Bis dass = до тех пор, пока."
+        "Bis jetzt = до сих пор • Bis dass = до тех пор, пока.",
+        "bis jetzt означает до сих пор."
       ]
     }
   },
@@ -2261,12 +2259,7 @@ const A1_WORDS = [
       "explanation": [
         "Основная идея: Вежливое слово в нижнем регистре. Раньше было вежливо - пожалуйста.",
         "Bitte в основном означает: вежливость.",
-        "Часто описывает: вежливое слово.",
-        "Bitte в основном означает: запрос/просьба.",
-        "Часто характеризуется: существительным (умереть).",
-        "Bitte со строчной буквы — вежливое слово — оно означает «пожалуйста» (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte с большой буквы и артикль die — существительное — оно означает просьбу или просьбу (Ich habe eine Bitte = У меня есть просьба).",
-        "Множественное число: умереть Укушенный."
+        "Часто описывает: вежливое слово."
       ],
       "examples": [
         {
@@ -2301,8 +2294,7 @@ const A1_WORDS = [
       "important": [
         "Bitte — строчная буква — это вежливое слово, а не существительное.",
         "Die Bitte с заглавной буквы, а артикль die — существительное.",
-        "Множественное число: die Bitten (просит).",
-        "Неправильно: Die Bitte schön! → Правильно: Bitte schön!"
+        "Множественное число: die Bitten (просит)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2364,13 +2356,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Пожалуйста",
+          "example": "Пожалуйста, входи. – Lūdzu, nāc iekšā."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Запрос",
+          "example": "У меня есть просьба. – Man ir lūgums."
         }
       ]
     }
@@ -2389,11 +2381,7 @@ const A1_WORDS = [
         "Основная идея: существительное с артиклем die и заглавной буквой. Конкретный запрос или запрос.",
         "Die Bitte в основном означает: вежливость.",
         "Часто описывает: вежливое слово.",
-        "Die Bitte в основном означает: запрос/просьба.",
-        "Часто характеризуется: существительным (умереть).",
-        "Bitte со строчной буквы — вежливое слово — оно означает «пожалуйста» (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte с большой буквы и артикль die — существительное — оно означает просьбу или просьбу (Ich habe eine Bitte = У меня есть просьба).",
-        "Множественное число: умереть Укушенный."
+        "Die Bitte в основном означает: запрос/просьба."
       ],
       "examples": [
         {
@@ -2428,8 +2416,7 @@ const A1_WORDS = [
       "important": [
         "Bitte — строчная буква — это вежливое слово, а не существительное.",
         "Die Bitte с заглавной буквы, а артикль die — существительное.",
-        "Множественное число: die Bitten (просит).",
-        "Неправильно: Die Bitte schön! → Правильно: Bitte schön!"
+        "Множественное число: die Bitten (просит)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2491,13 +2478,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Запрос",
+          "example": "У меня есть просьба. – Man ir lūgums."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Пожалуйста",
+          "example": "Пожалуйста, входи. – Lūdzu, nāc iekšā."
         }
       ]
     }
@@ -2574,22 +2561,22 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Оставаться",
-          "example": "Ich bleibe hier."
+          "example": "Я остаюсь здесь."
         },
         {
           "word": "gehen",
           "meaning": "Идти/уходить пешком",
-          "example": "Ich gehe nach Hause."
+          "example": "Я иду домой."
         },
         {
           "word": "fahren",
           "meaning": "Ехать/ехать на транспорте",
-          "example": "Ich fahre nach Hause."
+          "example": "Я еду домой."
         },
         {
           "word": "warten",
           "meaning": "Ждать",
-          "example": "Ich warte hier."
+          "example": "Я жду здесь."
         }
       ],
       "tip": {
@@ -2785,7 +2772,8 @@ const A1_WORDS = [
         "Основная идея: Bringen означает принести, нести или доставить что-то кому-то.",
         "Bringen используется, когда что-то перемещается в другое место или к другому человеку.",
         "Это не то же самое, что «немен», потому что «немен» означает «взять себе».",
-        "«холен» означает «преследовать, приносить или брать»."
+        "«холен» означает «преследовать, приносить или брать».",
+        "Перевод зависит от контекста."
       ],
       "examples": [
         {
@@ -2828,8 +2816,8 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "брать",
+          "example": "Я беру книгу. – Es paņemu grāmatu."
         }
       ],
       "tip": {
@@ -2837,7 +2825,8 @@ const A1_WORDS = [
       },
       "important": [
         "Bringen показывает направление к кому-то или к месту.",
-        "Немен означает взять, но не обязательно передать другому."
+        "Немен означает взять, но не обязательно передать другому.",
+        "Латышский перевод зависит от контекста."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3096,22 +3085,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Там • Здесь • Здесь (общий)",
-          "example": "Da ist mein Auto."
+          "example": "Вот моя машина."
         },
         {
           "word": "hier",
           "meaning": "Здесь (в определенном месте)",
-          "example": "Hier ist mein Auto."
+          "example": "Здесь моя машина."
         },
         {
           "word": "dort",
           "meaning": "Там (дальше)",
-          "example": "Dort ist mein Auto."
+          "example": "Там моя машина."
         },
         {
           "word": "dann",
           "meaning": "Затем",
-          "example": "Dann gehen wir nach Hause."
+          "example": "Тогда мы идём домой."
         }
       ],
       "tip": {
@@ -3287,7 +3276,7 @@ const A1_WORDS = [
         {
           "word": "das",
           "meaning": "Это (артикль / местоимение)",
-          "example": "Das ist mein Auto. – Tas ir mans auto."
+          "example": "Это моя машина. – Tas ir mans auto."
         },
         {
           "word": "dies",
@@ -3940,7 +3929,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Неопределенный артикль • Один • Кто-то",
-      "explanation": "Используется с существительным мужского рода. Указание на одну вещь или человека из нескольких вариантов.",
+      "explanation": [
+        "Основная идея: ein — это неопределённый артикль.",
+        "ein — неопределённый артикль для существительных мужского и среднего рода в именительном падеже.",
+        "ein используется для мужского рода: ein Mann.",
+        "ein используется для среднего рода: ein Buch.",
+        "Для женского рода используется: eine.",
+        "В винительном падеже мужского рода: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -3956,7 +3952,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "Ребенок играет."
         }
       ],
       "tip": {
@@ -4039,28 +4035,30 @@ const A1_WORDS = [
       },
       "important": [
         "Ein не является определенным артиклем.",
-        "Если дело уже конкретно известно, часто требуется der, die или das."
+        "Если дело уже конкретно известно, часто требуется der, die или das.",
+        "eine — женский род.",
+        "einen — винительный падеж."
       ],
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
-          "example": "Ein Mann wartet draußen."
+          "meaning": "мужской род",
+          "example": "Мужчина ждёт снаружи."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
-          "example": "eine Frau"
+          "meaning": "женский род",
+          "example": "одна женщина"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
-          "example": "Ich habe ein Buch."
+          "meaning": "средний род",
+          "example": "У меня есть книга."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
-          "example": "einen Mann"
+          "meaning": "винительный падеж",
+          "example": "одного мужчину"
         }
       ]
     }
@@ -4117,22 +4115,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Лед / мороженое",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Я ем мороженое. = Es ēdu saldējumu."
         },
         {
           "word": "der Schnee",
           "meaning": "Пойдет снег",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Снег белый. = Sniegs ir balts."
         },
         {
           "word": "kalt",
           "meaning": "Холодный",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Вода холодная. = Ūdens ir auksts."
         },
         {
           "word": "das Dessert",
           "meaning": "Десерт",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Мороженое — это десерт. = Saldējums ir deserts."
         }
       ],
       "tip": {
@@ -4313,7 +4311,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "Сначала • Только",
-      "explanation": "«erst» используется для обозначения последовательности (сначала) или для того, чтобы подчеркнуть, что что-то происходит позже, чем ожидалось, или в меньшей степени (только).",
+      "explanation": [
+        "Основная идея: erst часто означает только. Однако в определённом контексте это может также означать сначала.",
+        "erst часто указывает на то, что что-то происходит позже, чем ожидается.",
+        "Мне только 18. — Man ir tikai 18 gadi.",
+        "Только понедельник. — Ir tikai pirmdiena.",
+        "Сначала учись, потом играй. — Vispirms mācies, pēc tam spēlējies."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -4341,17 +4345,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Сначала • В начале",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Сначала мы завтракаем. = Vispirms mēs brokastojam."
         },
         {
           "word": "nur",
           "meaning": "Только",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "У меня есть только 5 евро. = Man ir tikai 5 eiro."
         },
         {
           "word": "dann",
           "meaning": "Затем",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Потом мы идём домой. = Tad mēs ejam mājās."
         }
       ],
       "tip": {
@@ -4474,7 +4478,8 @@ const A1_WORDS = [
       },
       "important": [
         "Erst и nur могут звучать как «только», но это не одно и то же.",
-        "Первый часто говорит о времени, последовательности или о том, что еще предстоит достичь какой-то точки • Nur ограничивает количество."
+        "Первый часто говорит о времени, последовательности или о том, что еще предстоит достичь какой-то точки • Nur ограничивает количество.",
+        "zuerst часто означает: сначала."
       ]
     }
   },
@@ -4491,7 +4496,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "Это • Оно • Безличная форма",
-      "explanation": "Немецкое «Я» не используется, чтобы говорить о себе. Употребляется для обозначения: тот, тот или безличной формы (погода, время, различные безличные предложения).",
+      "explanation": [
+        "Основная идея: es — местоимение.",
+        "Используется: оно, в безличных конструкциях."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -4620,18 +4628,19 @@ const A1_WORDS = [
       },
       "important": [
         "Немецкое «я» — это не латвийское «я».",
-        "Латышское «Я» есть в немецком • Немецкий es часто означает это/оно или не переводится."
+        "Латышское «Я» есть в немецком • Немецкий es часто означает это/оно или не переводится.",
+        "Латышское «es» по-немецки — ich; немецкое es часто означает оно или не переводится."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "оно • безличная форма",
+          "example": "Идёт дождь. – Līst."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "es (лицо)",
+          "example": "Я учу немецкий язык. – Es mācos vācu valodu."
         }
       ]
     }
@@ -4654,9 +4663,7 @@ const A1_WORDS = [
       "explanation": [
         "Основная идея: etwas означает что-то или немного в зависимости от контекста.",
         "Если etwas заменяет что-то неизвестное, латышский обычно что-то говорит.",
-        "Когда etwas стоит перед прилагательным или количеством, оно часто означает немного.",
-        "Etwas — очень частое и нейтральное слово А1 в разговоре.",
-        "Самое главное — различать: etwas kaufen = что-то купить, etwas müde = немного устал."
+        "Когда etwas стоит перед прилагательным или количеством, оно часто означает немного."
       ],
       "examples": [
         {
@@ -4684,22 +4691,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Что-то / немного",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Мне нужно что-то. = Man kaut kas vajadzīgs."
         },
         {
           "word": "was",
           "meaning": "Что-то (разговорное)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Хочешь пить что-то? = Vai gribi kaut ko dzert?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Немного",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Я немного устал. = Es esmu mazliet noguris."
         },
         {
           "word": "nichts",
           "meaning": "Ничего",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Мне ничего не нужно. = Man neko nevajag."
         }
       ],
       "tip": {
@@ -4707,7 +4714,8 @@ const A1_WORDS = [
       },
       "important": [
         "Etwas — это не то же самое, что nichts: etwas что-то означает, но nichts ничего не значит.",
-        "По-латышски что-то звучит лучше чего-то, например: etwas trinken = что-то выпить."
+        "По-латышски что-то звучит лучше чего-то, например: etwas trinken = что-то выпить.",
+        "По-латышски иногда лучше звучит kaut ko, а не kaut kas, например: etwas trinken = kaut ko dzert."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4867,17 +4875,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Ты",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Вы дружелюбны. = Jūs esat draudzīgi."
         },
         {
           "word": "euch",
           "meaning": "Ты / тебе",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Я вам помогаю. = Es jums palīdzu."
         },
         {
           "word": "euer",
           "meaning": "Твой",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Это ваш дом. = Tā ir jūsu māja."
         }
       ],
       "info": [
@@ -4947,27 +4955,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Ездить на транспорте",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Я езжу на автобусе."
         },
         {
           "word": "gehen",
           "meaning": "Идти пешком",
-          "example": "Ich gehe nach Hause."
+          "example": "Я иду домой."
         },
         {
           "word": "laufen",
           "meaning": "Бежать / идти",
-          "example": "Er läuft schnell."
+          "example": "Он бежит быстро."
         },
         {
           "word": "bringen",
           "meaning": "Принести / доставить",
-          "example": "Ich bringe das Buch."
+          "example": "Я приносу книгу."
         },
         {
           "word": "mitnehmen",
           "meaning": "Возьми с собой",
-          "example": "Ich nehme dich mit."
+          "example": "Я беру тебя с собой."
         }
       ],
       "tip": {
@@ -5273,7 +5281,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Найти / рассмотреть",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Мне это нравится. = Man tas šķiet labi."
         },
         {
           "word": "Сучен",
@@ -5851,12 +5859,12 @@ const A1_WORDS = [
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Футбол",
+    "lv": "футбол",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Все",
+    "lv": "Здоровый",
     "level": "A1"
   },
   {
@@ -5916,22 +5924,22 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Дать",
-          "example": "Gib mir das Buch."
+          "example": "Дай мне книгу."
         },
         {
           "word": "nehmen",
           "meaning": "Взять / взять",
-          "example": "Ich nehme das Buch."
+          "example": "Я беру книгу."
         },
         {
           "word": "bekommen",
           "meaning": "Получить / получить",
-          "example": "Ich bekomme ein Geschenk."
+          "example": "Я получаю подарок."
         },
         {
           "word": "bringen",
           "meaning": "Принести / доставить",
-          "example": "Ich bringe dir das Buch."
+          "example": "Я приносу тебе книгу."
         }
       ],
       "tip": {
@@ -6110,13 +6118,13 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "История • История",
+    "lv": "история",
     "level": "A1"
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Братья и сестры",
+    "lv": "братья и сёстры",
     "level": "A1"
   },
   {
@@ -6180,8 +6188,7 @@ const A1_WORDS = [
         "Основная идея: gleich временно означает немедленно, сравнительно равный.",
         "Что касается времени, gleich = немедленно/через мгновение (Ich komme gleich. = Я сейчас приду.).",
         "Когда дело доходит до сравнения, gleich = равный/одинаковый (die gleiche Farbe = тот же цвет).",
-        "Gleich также может использоваться как предлог с дательным падежом, означающий подобный (gleich mir = как я).",
-        "Контекст (время или сравнение) показывает правильное значение."
+        "Gleich также может использоваться как предлог с дательным падежом, означающий подобный (gleich mir = как я)."
       ],
       "examples": [
         {
@@ -6332,10 +6339,7 @@ const A1_WORDS = [
       "explanation": [
         "Основная идея: Большой размер или для человека - высокого роста.",
         "Groß прежде всего означает: большой размер.",
-        "Часто характеризуются: габаритными размерами.",
-        "Groß прежде всего означает: человеческий рост.",
-        "Часто описывает: человек.",
-        "Groß описывает размер в целом или рост человека."
+        "Часто характеризуются: габаритными размерами."
       ],
       "examples": [
         {
@@ -6361,8 +6365,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Для человека Er ist groß означает высокий.",
-        "Гросс = большой.",
-        "Крупного размера или для человека – высокого роста."
+        "Гросс = большой."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6420,7 +6423,7 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Бабушка и дедушка",
+    "lv": "бабушка и дедушка",
     "level": "A1"
   },
   {
@@ -6650,22 +6653,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "У меня есть",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "У меня есть время. = Man ir laiks."
         },
         {
           "word": "sein",
           "meaning": "Быть",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Я здесь. = Es esmu šeit."
         },
         {
           "word": "bekommen",
           "meaning": "Получать",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Я получаю подарок. = Es saņemu dāvanu."
         },
         {
           "word": "machen",
           "meaning": "Делать / сделать",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Я это делаю. = Es to daru."
         }
       ],
       "tip": {
@@ -6844,22 +6847,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Держать/остановить",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Автобус останавливается. = Autobuss pietur."
         },
         {
           "word": "nehmen",
           "meaning": "Взять",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Я беру сумку. = Es ņemu somu."
         },
         {
           "word": "anhalten",
           "meaning": "Остановить",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Пожалуйста, остановитесь. = Lūdzu, apstājieties."
         },
         {
           "word": "denken",
           "meaning": "Думать",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Я думаю, что это правильно. = Es domāju, ka tas ir pareizi."
         }
       ],
       "tip": {
@@ -6867,7 +6870,8 @@ const A1_WORDS = [
       },
       "important": [
         "Халтен – это не просто «держать». В случае с транспортом это часто означает остановку.",
-        "Ichhalte das für... — это фраза мнения: «Я считаю это...»."
+        "Ichhalte das für... — это фраза мнения: «Я считаю это...».",
+        "Пожалуйста, остановитесь используется отделяемый глагол anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6991,7 +6995,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Рука (ладонь)",
+    "lv": "ладонь",
     "level": "A1"
   },
   {
@@ -7082,27 +7086,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Называться / иметь в виду",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Меня зовут Анна. = Mani sauc Anna."
         },
         {
           "word": "nennen",
           "meaning": "Позвонить / назвать",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Он называет меня Томом. = Viņš mani sauc par Tomu."
         },
         {
           "word": "bedeuten",
           "meaning": "Иметь в виду",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Что это означает? = Ko tas nozīmē?"
         },
         {
           "word": "rufen",
           "meaning": "Позвони / позвони",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Я зову тебя. = Es tevi pasaucu."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "Позвонить",
+          "example": "Я звоню тебе. = Es tev piezvanu."
         }
       ],
       "tip": {
@@ -7292,10 +7296,7 @@ const A1_WORDS = [
       "explanation": [
         "Основная идея: Высокая вертикаль, уровень или высота.",
         "Hoch прежде всего означает: большой по высоте.",
-        "Часто характеризуется: вертикальной высотой.",
-        "Хох в основном означает: высокий уровень.",
-        "Часто характеризуется: ценами/цифрами.",
-        "Хох описывает высоту, вертикальное направление или уровень."
+        "Часто характеризуется: вертикальной высотой."
       ],
       "examples": [
         {
@@ -7475,7 +7476,7 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Аккуратный • Красивый",
+    "lv": "красивый",
     "level": "A1"
   },
   {
@@ -7689,7 +7690,7 @@ const A1_WORDS = [
         {
           "word": "ins",
           "meaning": "Внутрь, куда? (Акк.)",
-          "example": "ins Kino – uz kino"
+          "example": "в кино – uz kino"
         },
         {
           "word": "in",
@@ -7704,7 +7705,7 @@ const A1_WORDS = [
         {
           "word": "auf",
           "meaning": "На поверхности",
-          "example": "auf dem Tisch – uz galda"
+          "example": "на столе – uz galda"
         }
       ],
       "tip": [
@@ -8077,12 +8078,12 @@ const A1_WORDS = [
         {
           "word": "ins",
           "meaning": "Внутрь, куда? (Акк.)",
-          "example": "ins Kino – uz kino"
+          "example": "в кино – uz kino"
         },
         {
           "word": "im",
           "meaning": "Внутри где? (кому?)",
-          "example": "im Kino – kino"
+          "example": "в кино – kino"
         },
         {
           "word": "in",
@@ -8092,7 +8093,7 @@ const A1_WORDS = [
         {
           "word": "aufs",
           "meaning": "На поверхность (акк.)",
-          "example": "aufs Dach – uz jumta"
+          "example": "на крышу – uz jumta"
         },
         {
           "word": "zum",
@@ -8935,22 +8936,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Уметь/знать",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Я умею плавать. = Es protu peldēt."
         },
         {
           "word": "dürfen",
           "meaning": "Быть разрешено",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Могу я ходить? = Vai drīkstu iet?"
         },
         {
           "word": "müssen",
           "meaning": "Нужно / быть да-",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Я должен учиться. = Man jāmācās."
         },
         {
           "word": "wissen",
           "meaning": "Знать",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Я это знаю. = Es to zinu."
         }
       ],
       "tip": {
@@ -9131,22 +9132,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Платить (цена) • Сколько",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Это стоит 5 евро. = Tas maksā 5 eiro."
         },
         {
           "word": "bezahlen",
           "meaning": "Платить • Платить (деньги)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Я оплачиваю счёт. = Es maksāju rēķinu."
         },
         {
           "word": "zahlen",
           "meaning": "Платить • Платить",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Могу ли я платить наличными? = Vai varu maksāt skaidrā naudā?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Сколько это стоит...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Сколько стоит книга? = Cik maksā grāmata?"
         }
       ],
       "tip": [
@@ -9652,22 +9653,22 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Страна / земля / сельская местность",
-          "example": "Deutschland ist ein Land."
+          "example": "Германия — это страна."
         },
         {
           "word": "die Stadt",
           "meaning": "Город",
-          "example": "Ich wohne in der Stadt."
+          "example": "Я живу в городе."
         },
         {
           "word": "das Dorf",
           "meaning": "Деревня",
-          "example": "Er lebt in einem Dorf."
+          "example": "Он живёт в деревне."
         },
         {
           "word": "die Erde",
           "meaning": "Земля/планета",
-          "example": "Die Erde ist rund."
+          "example": "Земля круглая."
         }
       ],
       "tip": {
@@ -9974,22 +9975,22 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Оставить / позволить",
-          "example": "Ich lasse das hier."
+          "example": "Я оставляю это здесь."
         },
         {
           "word": "bleiben",
           "meaning": "Оставаться",
-          "example": "Ich bleibe hier."
+          "example": "Я остаюсь здесь."
         },
         {
           "word": "erlauben",
           "meaning": "Позволять",
-          "example": "Sie erlaubt mir das."
+          "example": "Она позволяет мне это."
         },
         {
           "word": "geben",
           "meaning": "Дать",
-          "example": "Gib mir das Buch."
+          "example": "Дай мне книгу."
         }
       ],
       "tip": {
@@ -10148,22 +10149,22 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Бежать/работать",
-          "example": "Er läuft schnell."
+          "example": "Он быстро бежит."
         },
         {
           "word": "gehen",
           "meaning": "Идти пешком",
-          "example": "Ich gehe nach Hause."
+          "example": "Я иду домой."
         },
         {
           "word": "fahren",
           "meaning": "Ездить на транспорте",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Я езжу на автобусе."
         },
         {
           "word": "funktionieren",
           "meaning": "Действовать",
-          "example": "Das funktioniert gut."
+          "example": "Это хорошо работает."
         }
       ],
       "tip": {
@@ -10593,22 +10594,22 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Положить",
-          "example": "Ich lege das Buch auf den Tisch."
+          "example": "Я кладу книгу на стол."
         },
         {
           "word": "liegen",
           "meaning": "Быть / спать",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Книга лежит на столе."
         },
         {
           "word": "stellen",
           "meaning": "Поставить вертикально",
-          "example": "Ich stelle die Flasche auf den Tisch."
+          "example": "Я ставлю бутылку на стол."
         },
         {
           "word": "setzen",
           "meaning": "Сесть / сесть",
-          "example": "Ich setze mich."
+          "example": "Я сажусь."
         }
       ],
       "tip": {
@@ -10958,22 +10959,22 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Быть / спать",
-          "example": "Das Buch liegt hier."
+          "example": "Книга лежит здесь."
         },
         {
           "word": "legen",
           "meaning": "Положить",
-          "example": "Ich lege das Buch hierhin."
+          "example": "Я кладу книгу сюда."
         },
         {
           "word": "stehen",
           "meaning": "Стоять / стоять",
-          "example": "Die Flasche steht auf dem Tisch."
+          "example": "Бутылка стоит на столе."
         },
         {
           "word": "sein",
           "meaning": "Быть",
-          "example": "Ich bin hier."
+          "example": "Я здесь."
         }
       ],
       "tip": {
@@ -11720,22 +11721,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "С/вместе с",
-          "example": "Ich komme mit dir."
+          "example": "Я иду с тобой."
         },
         {
           "word": "ohne",
           "meaning": "Без",
-          "example": "Ich komme ohne dich."
+          "example": "Я иду без тебя."
         },
         {
           "word": "bei",
           "meaning": "У/у кого-то",
-          "example": "Ich bin bei Anna."
+          "example": "Я у Анны."
         },
         {
           "word": "zu",
           "meaning": "Куда/у",
-          "example": "Ich gehe zum Arzt."
+          "example": "Я иду к врачу."
         }
       ],
       "tip": {
@@ -11926,22 +11927,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Нравиться",
-          "example": "Ich mag Musik."
+          "example": "Я люблю музыку."
         },
         {
           "word": "möchte",
           "meaning": "Хотел бы",
-          "example": "Ich möchte Kaffee."
+          "example": "Я хочу кофе."
         },
         {
           "word": "wollen",
           "meaning": "Хочу",
-          "example": "Ich will nach Hause."
+          "example": "Я хочу идти домой."
         },
         {
           "word": "lieben",
           "meaning": "Любить",
-          "example": "Ich liebe dich."
+          "example": "Я люблю тебя."
         }
       ],
       "tip": {
@@ -12406,22 +12407,22 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Нужно / нужно сделать",
-          "example": "Ich muss gehen."
+          "example": "Я должен идти."
         },
         {
           "word": "können",
           "meaning": "Уметь/знать",
-          "example": "Ich kann kommen."
+          "example": "Я могу прийти."
         },
         {
           "word": "wollen",
           "meaning": "Хочу",
-          "example": "Ich will nach Hause."
+          "example": "Я хочу идти домой."
         },
         {
           "word": "dürfen",
           "meaning": "Быть разрешено",
-          "example": "Darf ich gehen?"
+          "example": "Могу я идти?"
         }
       ],
       "tip": {
@@ -12603,22 +12604,22 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "До/после",
-          "example": "Ich fahre nach Berlin."
+          "example": "Я еду в Берлин."
         },
         {
           "word": "zu",
           "meaning": "Куда/у",
-          "example": "Ich gehe zum Arzt."
+          "example": "Я иду к врачу."
         },
         {
           "word": "in",
           "meaning": "В/к месту со статьей",
-          "example": "Ich gehe in die Schule."
+          "example": "Я иду в школу."
         },
         {
           "word": "vor",
           "meaning": "До/перед",
-          "example": "Vor dem Essen wasche ich die Hände."
+          "example": "Перед едой я мою руки."
         }
       ],
       "tip": {
@@ -12944,22 +12945,22 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "Взять / взять",
-          "example": "Nimm das Buch!"
+          "example": "Возьми книгу!"
         },
         {
           "word": "bringen",
           "meaning": "Принести/взять/доставить",
-          "example": "Ich bringe dir das Buch."
+          "example": "Я приносу тебе книгу."
         },
         {
           "word": "holen",
           "meaning": "Пойти за / принести",
-          "example": "Ich hole Wasser."
+          "example": "Я беру воду."
         },
         {
           "word": "mitnehmen",
           "meaning": "Возьми с собой",
-          "example": "Ich nehme dich mit."
+          "example": "Я беру тебя с собой."
         }
       ],
       "tip": {
@@ -13573,22 +13574,22 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Или в косвенном вопросе",
-          "example": "Ich weiß nicht, ob er kommt."
+          "example": "Я не знаю, придёт ли он."
         },
         {
           "word": "oder",
           "meaning": "Или выберите один из вариантов",
-          "example": "Kaffee oder Tee?"
+          "example": "Кофе или чай?"
         },
         {
           "word": "wenn",
           "meaning": "Если/когда",
-          "example": "Wenn du Zeit hast..."
+          "example": "Если у тебя есть время..."
         },
         {
           "word": "dass",
           "meaning": "Что",
-          "example": "Ich weiß, dass er kommt."
+          "example": "Я знаю, что он придёт."
         }
       ],
       "tip": {
@@ -13760,22 +13761,22 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Или выберите",
-          "example": "Kaffee oder Tee?"
+          "example": "Кофе или чай?"
         },
         {
           "word": "ob",
           "meaning": "Или в косвенном вопросе",
-          "example": "Ich weiß nicht, ob er kommt."
+          "example": "Я не знаю, придёт ли он."
         },
         {
           "word": "und",
           "meaning": "И",
-          "example": "Kaffee und Kuchen."
+          "example": "Кофе и торт."
         },
         {
           "word": "aber",
           "meaning": "Но",
-          "example": "Ich komme, aber später."
+          "example": "Я приду, но позже."
         }
       ],
       "tip": {
@@ -14010,22 +14011,22 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Подходит / подходит",
-          "example": "Die Jacke passt mir."
+          "example": "Куртка мне подходит."
         },
         {
           "word": "stehen",
           "meaning": "Стоять / стоять",
-          "example": "Rot steht dir gut."
+          "example": "Красный тебе хорошо идёт."
         },
         {
           "word": "geeignet sein",
           "meaning": "Быть подходящим",
-          "example": "Das ist geeignet."
+          "example": "Это подходящий."
         },
         {
           "word": "funktionieren",
           "meaning": "Действовать",
-          "example": "Das funktioniert."
+          "example": "Это хорошо работает."
         }
       ],
       "tip": {
@@ -14261,22 +14262,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Попробовать / попробовать",
-          "example": "Probier mal die Suppe!"
+          "example": "Попробуй суп!"
         },
         {
           "word": "versuchen",
           "meaning": "Попробовать",
-          "example": "Ich versuche es."
+          "example": "Я стараюсь."
         },
         {
           "word": "prüfen",
           "meaning": "Проверить",
-          "example": "Ich prüfe die Rechnung."
+          "example": "Я проверяю счёт."
         },
         {
           "word": "anprobieren",
           "meaning": "Примерить",
-          "example": "Ich probiere die Jacke an."
+          "example": "Я примеряю куртку."
         }
       ],
       "tip": {
@@ -14624,7 +14625,7 @@ const A1_WORDS = [
         {
           "word": "sagen",
           "meaning": "Рассказать (конкретный текст)",
-          "example": "Was hast du gesagt? – Ko tu pateici?"
+          "example": "Что ты сказал? – Ko tu pateici?"
         },
         {
           "word": "sprechen",
@@ -14723,12 +14724,12 @@ const A1_WORDS = [
         {
           "word": "schauen",
           "meaning": "Смотреть (активно)",
-          "example": "Ich schaue aus dem Fenster. – Es skatos pa logu."
+          "example": "Я смотрю в окно. – Es skatos pa logu."
         },
         {
           "word": "sehen",
           "meaning": "Видеть (без намерения)",
-          "example": "Ich sehe dich. – Es tevi redzu."
+          "example": "Я вижу тебя. – Es tevi redzu."
         }
       ],
       "tip": [
@@ -14987,22 +14988,22 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Плавать как движение или спорт",
-          "example": "Er schwimmt sehr gut."
+          "example": "Он очень хорошо плывёт."
         },
         {
           "word": "baden",
           "meaning": "Плавать/быть в воде",
-          "example": "Ich gehe baden."
+          "example": "Я иду купаться."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Пойти плавать",
-          "example": "Wir gehen schwimmen."
+          "example": "Мы идём плавать."
         },
         {
           "word": "duschen",
           "meaning": "Принять душ",
-          "example": "Ich dusche morgens."
+          "example": "Я принимаю душ по утрам."
         }
       ],
       "tip": {
@@ -15193,22 +15194,22 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Чтобы увидеть",
-          "example": "Ich sehe dich."
+          "example": "Я вижу тебя."
         },
         {
           "word": "schauen",
           "meaning": "Смотреть",
-          "example": "Ich schaue auf das Bild."
+          "example": "Я смотрю на картину."
         },
         {
           "word": "ansehen",
           "meaning": "Посмотреть / посмотреть",
-          "example": "Ich sehe mir den Film an."
+          "example": "Я смотрю фильм."
         },
         {
           "word": "hören",
           "meaning": "Слышать",
-          "example": "Ich höre Musik."
+          "example": "Я слушаю музыку."
         }
       ],
       "tip": {
@@ -15398,22 +15399,22 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Быть",
-          "example": "Ich bin hier."
+          "example": "Я здесь."
         },
         {
           "word": "haben",
           "meaning": "У меня есть",
-          "example": "Ich habe Zeit."
+          "example": "У меня есть время."
         },
         {
           "word": "werden",
           "meaning": "Стать",
-          "example": "Ich werde müde."
+          "example": "Я устаю."
         },
         {
           "word": "bleiben",
           "meaning": "Оставаться",
-          "example": "Ich bleibe hier."
+          "example": "Я остаюсь здесь."
         }
       ],
       "tip": {
@@ -15725,22 +15726,22 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Я / я",
-          "example": "Er wäscht sich."
+          "example": "Он моется."
         },
         {
           "word": "mich",
           "meaning": "Я / я в ich",
-          "example": "Ich wasche mich."
+          "example": "Я моюсь."
         },
         {
           "word": "dich",
           "meaning": "Ты/я в ду",
-          "example": "Du wäschst dich."
+          "example": "Ты моешься."
         },
         {
           "word": "ihn",
           "meaning": "Ему",
-          "example": "Ich sehe ihn."
+          "example": "Я вижу его."
         }
       ],
       "tip": {
@@ -16324,22 +16325,22 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Сидеть",
-          "example": "Ich sitze am Tisch."
+          "example": "Я сидю за столом."
         },
         {
           "word": "stehen",
           "meaning": "Стоять",
-          "example": "Er steht an der Tür."
+          "example": "Он стоит у двери."
         },
         {
           "word": "liegen",
           "meaning": "Спать/лежать",
-          "example": "Die Katze liegt dort."
+          "example": "Кошка лежит там."
         },
         {
           "word": "setzen",
           "meaning": "Сидеть / садиться",
-          "example": "Ich setze mich."
+          "example": "Я сажусь."
         }
       ],
       "tip": {
@@ -16538,22 +16539,22 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Должен / должен делать, как указано",
-          "example": "Was soll ich machen?"
+          "example": "Что мне делать?"
         },
         {
           "word": "müssen",
           "meaning": "Абсолютно необходимо",
-          "example": "Ich muss gehen."
+          "example": "Я должен идти."
         },
         {
           "word": "können",
           "meaning": "Быть в состоянии",
-          "example": "Ich kann kommen."
+          "example": "Я могу прийти."
         },
         {
           "word": "wollen",
           "meaning": "Хочу",
-          "example": "Ich will bleiben."
+          "example": "Я хочу остаться."
         }
       ],
       "tip": {
@@ -16777,22 +16778,22 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Стоять / стоять",
-          "example": "Ich stehe hier."
+          "example": "Я стою здесь."
         },
         {
           "word": "sitzen",
           "meaning": "Сидеть",
-          "example": "Er sitzt am Tisch."
+          "example": "Он сидит за столом."
         },
         {
           "word": "liegen",
           "meaning": "Спать/лежать",
-          "example": "Das Buch liegt dort."
+          "example": "Книга лежит там."
         },
         {
           "word": "stellen",
           "meaning": "Поставить вертикально",
-          "example": "Ich stelle die Flasche hin."
+          "example": "Я ставлю бутылку."
         }
       ],
       "tip": {
@@ -17159,22 +17160,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Над / над / поперек",
-          "example": "Wir sprechen über das Wetter."
+          "example": "Мы говорим о погоде."
         },
         {
           "word": "auf",
           "meaning": "На поверхности",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Книга лежит на столе."
         },
         {
           "word": "unter",
           "meaning": "Под",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Сумка находится под столом."
         },
         {
           "word": "von",
           "meaning": "Откуда/о чём-то из какого-то источника",
-          "example": "Ich höre von dir."
+          "example": "Я слышу от тебя."
         }
       ],
       "tip": {
@@ -17358,22 +17359,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "У/вокруг/к",
-          "example": "Ich komme um acht."
+          "example": "Я приду в восемь."
         },
         {
           "word": "am",
           "meaning": "В день / в",
-          "example": "Am Montag komme ich."
+          "example": "В понедельник я приду."
         },
         {
           "word": "gegen",
           "meaning": "Примерно по времени / против",
-          "example": "Ich komme gegen acht."
+          "example": "Я приду примерно в восемь."
         },
         {
           "word": "für",
           "meaning": "За/в пользу",
-          "example": "Das ist für dich."
+          "example": "Это для тебя."
         }
       ],
       "tip": {
@@ -17548,22 +17549,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Под/между",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Сумка находится под столом."
         },
         {
           "word": "über",
           "meaning": "Более / за",
-          "example": "Die Lampe hängt über dem Tisch."
+          "example": "Лампа висит над столом."
         },
         {
           "word": "zwischen",
           "meaning": "Между двумя вещами",
-          "example": "Zwischen den Häusern."
+          "example": "Между домами."
         },
         {
           "word": "auf",
           "meaning": "На поверхности",
-          "example": "Auf dem Tisch."
+          "example": "На столе."
         }
       ],
       "tip": {
@@ -17770,22 +17771,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Понять",
-          "example": "Ich verstehe dich."
+          "example": "Я тебя понимаю."
         },
         {
           "word": "können",
           "meaning": "Уметь/знать",
-          "example": "Ich kann schwimmen."
+          "example": "Я могу плавать."
         },
         {
           "word": "wissen",
           "meaning": "Знать факт",
-          "example": "Ich weiß das."
+          "example": "Я знаю это."
         },
         {
           "word": "kennen",
           "meaning": "Знать",
-          "example": "Ich kenne ihn."
+          "example": "Я его знаю."
         }
       ],
       "tip": {
@@ -18035,7 +18036,7 @@ const A1_WORDS = [
         {
           "word": "von",
           "meaning": "Из (общего)",
-          "example": "von mir – no manis"
+          "example": "от меня – no manis"
         },
         {
           "word": "aus",
@@ -18286,22 +18287,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "До/перед",
-          "example": "Vor dem Essen..."
+          "example": "Перед едой..."
         },
         {
           "word": "nach",
           "meaning": "После/до",
-          "example": "Nach dem Essen..."
+          "example": "После еды..."
         },
         {
           "word": "neben",
           "meaning": "Рядом с",
-          "example": "Neben dem Haus."
+          "example": "Рядом с домом."
         },
         {
           "word": "hinter",
           "meaning": "Позади",
-          "example": "Hinter dem Haus."
+          "example": "За домом."
         }
       ],
       "tip": {
@@ -18712,22 +18713,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Если/когда",
-          "example": "Wenn du Zeit hast..."
+          "example": "Если у тебя есть время..."
         },
         {
           "word": "ob",
           "meaning": "Или в косвенном вопросе",
-          "example": "Ich weiß nicht, ob..."
+          "example": "Я не знаю, является ли..."
         },
         {
           "word": "wann",
           "meaning": "Когда под вопросом",
-          "example": "Wann kommst du?"
+          "example": "Когда ты придёшь?"
         },
         {
           "word": "weil",
           "meaning": "Потому что",
-          "example": "Ich bleibe, weil ich krank bin."
+          "example": "Я остаюсь, потому что я болен."
         }
       ],
       "tip": {
@@ -19049,22 +19050,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Стать",
-          "example": "Ich werde müde."
+          "example": "Я устаю."
         },
         {
           "word": "sein",
           "meaning": "Быть",
-          "example": "Ich bin müde."
+          "example": "Я устал."
         },
         {
           "word": "bleiben",
           "meaning": "Оставаться",
-          "example": "Ich bleibe hier."
+          "example": "Я остаюсь здесь."
         },
         {
           "word": "machen",
           "meaning": "Делать / сделать",
-          "example": "Ich mache das."
+          "example": "Я делаю это."
         }
       ],
       "tip": {
@@ -19243,22 +19244,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Погодные условия",
-          "example": "Das Wetter ist schön."
+          "example": "Погода хорошая."
         },
         {
           "word": "Zeit",
           "meaning": "Время (момент)",
-          "example": "Ich habe keine Zeit."
+          "example": "У меня нет времени."
         },
         {
           "word": "Regen",
           "meaning": "Дождь",
-          "example": "Es gibt viel Regen."
+          "example": "Идёт много дождя."
         },
         {
           "word": "Sonne",
           "meaning": "Солнце",
-          "example": "Die Sonne scheint."
+          "example": "Солнце светит."
         }
       ],
       "tip": [
@@ -19621,22 +19622,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "To / at / слишком / инфинитив",
-          "example": "Ich gehe zum Arzt."
+          "example": "Я иду к врачу."
         },
         {
           "word": "nach",
           "meaning": "С городами/странами",
-          "example": "Ich fahre nach Berlin."
+          "example": "Я езжу в Берлин."
         },
         {
           "word": "in",
           "meaning": "В/в место",
-          "example": "Ich gehe in die Schule."
+          "example": "Я иду в школу."
         },
         {
           "word": "bei",
           "meaning": "У кого-то/на работе",
-          "example": "Ich bin bei Anna."
+          "example": "Я у Анны."
         }
       ],
       "tip": {
@@ -19814,22 +19815,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Поезд",
-          "example": "Der Zug kommt."
+          "example": "Поезд приходит."
         },
         {
           "word": "die Bahn",
           "meaning": "Железная дорога / путешествие на поезде",
-          "example": "Ich fahre mit der Bahn."
+          "example": "Я езжу на поезде."
         },
         {
           "word": "der Bus",
           "meaning": "Автобус",
-          "example": "Der Bus kommt."
+          "example": "Автобус приходит."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Трамвай",
-          "example": "Die Straßenbahn ist hier."
+          "example": "Трамвай здесь."
         }
       ],
       "tip": {
@@ -20007,7 +20008,7 @@ const A1_WORDS = [
         {
           "word": "zur",
           "meaning": "К/у (семья жены)",
-          "example": "zur Schule – uz skolu"
+          "example": "в школу – uz skolu"
         },
         {
           "word": "zu",
@@ -20309,17 +20310,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Смотреть телевизор",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Я смотрю телевизор. = Es skatos televīziju."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Телевидение (СМИ)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "По телевизору идёт фильм. = Televīzijā rāda filmu."
         },
         {
           "word": "sehen",
           "meaning": "Чтобы увидеть",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Я смотрю фильм. = Es redzu filmu."
         }
       ],
       "tip": {

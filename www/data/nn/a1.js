@@ -72,12 +72,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sprechen = runāt",
-        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+        "sprechen = snakke",
+        "Bruk sprechen når konteksten passar til denne tydinga."
       ],
       "important": [
-        "sprechen = runāt.",
-        "Runāt, sarunāties vai lietot valodu."
+        "sprechen = snakke.",
+        "Snakke, samtale eller bruke eit språk."
       ],
       "sectionAccents": {
         "explanation": {
@@ -157,10 +157,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: Väike suureuse või mahu mälä.",
         "Klein betyr liten størrelse: liten størrelse.",
-        "Sageli erpaketab: asja/isiku goorust.",
-        "Klein betyr liten/noor.",
-        "Sagelie speltab: last.",
-        "Klein despretab väikest göst."
+        "Sageli erpaketab: asja/isiku goorust."
       ],
       "examples": [
         {
@@ -185,13 +182,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "klein = mazs",
-        "Izmanto klein, kad konteksts atbilst šai nozīmei."
+        "klein = liten",
+        "Bruk klein når konteksten samsvarar med denne tydinga."
       ],
       "important": [
         "klein = mazs izmērā.",
-        "klein = mazs.",
-        "Mazs izmērā vai apjomā."
+        "klein = mazs."
       ],
       "sectionAccents": {
         "explanation": {
@@ -457,8 +453,8 @@ const A1_WORDS = [
         "text": "Atceries: pie sienas/loga/malas → an."
       },
       "important": [
-        "an nav jebkurš “pie”. Tas bieži nozīmē pie virsmas, sienas, loga vai malas.",
-        "Uz horizontālas virsmas parasti lieto auf."
+        "an er ikkje berre \"ved\". Det betyr ofte ved ei overflate, vegg, vindauge eller kant.",
+        "På horisontale overflater brukar ein vanleg auf."
       ]
     }
   },
@@ -672,8 +668,8 @@ const A1_WORDS = [
         "text": "Atceries: sākuma punkts laikā/vietā → ab."
       },
       "important": [
-        "ab rāda sākuma punktu laikā vai vietā.",
-        "Ja doma ir izcelsme vai virziens ārā no iekšienes, biežāk lieto von vai aus."
+        "ab viser startpunktet i tid eller stad.",
+        "Hvis tanken gjeld opphav eller retning ut frå innsida, brukar ein oftast von eller aus."
       ]
     }
   },
@@ -858,8 +854,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "aber rāda pretstatu vai iebildi.",
-        "Ja pretstats ir “nevis..., bet gan...”, vāciski parasti lieto sondern."
+        "aber viser motsetnad eller innvending.",
+        "Hvis motsetnaden er \"ikkje..., men i staden...\" brukar ein vanleg sondern på tysk."
       ]
     }
   },
@@ -1048,8 +1044,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "also rāda secinājumu: no iepriekš teiktā izriet nākamā doma.",
-        "Latviešu “tāpēc” bieži var būt arī deshalb."
+        "also viser slutning: frå det som er sagt før følgjer neste tanke.",
+        "Det latviske \"tāpēc\" kan ofte vere deshalb òg."
       ]
     }
   },
@@ -1212,12 +1208,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "auch = arī",
-        "Izmanto auch, kad konteksts atbilst šai nozīmei."
+        "auch = òg",
+        "Bruk auch når konteksten samsvarar med denne tydinga."
       ],
       "important": [
         "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
-        "auch = arī."
+        "auch = arī.",
+        "Feil: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1453,8 +1450,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "auf nav vienkārši jebkurš “uz”. Tas bieži nozīmē kustību vai atrašanos uz virsmas/augšpusē.",
-        "Ja kaut kas ir pie vertikālas virsmas, bieži vajag an; ja iekšā, vajag in."
+        "auf er ikkje berre \"på\". Det betyr ofte rørsle eller å vere på ei overflate/toppen.",
+        "Hvis noko er ved ei loddrett overflate, brukar ein ofte an; hvis det er inni, brukar ein in."
       ]
     }
   },
@@ -1658,8 +1655,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "aus parasti rāda kustību ārā no iekšienes vai izcelsmi.",
-        "Ja runa ir tikai par sākuma punktu laikā vai vietā, bieži lieto ab."
+        "aus viser vanleg rørsle ut frå innsida eller opphav.",
+        "Hvis det gjeld berre startpunktet i tid eller stad, brukar ein ofte ab."
       ]
     }
   },
@@ -1750,14 +1747,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: auf + das → aufs (kurp?, kurp?).",
+        "Hugs: auf + das → aufs (kvar?, kvar?).",
         "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
       ],
       "important": [
-        "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
-        "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
-        "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
+        "aufs = auf das, berre med eit nøytraltkjønn substantiv i akkusativ kvar? form.",
+        "Svarar på kvar? — rørsle til ei konkret stad eller overflate.",
+        "På horisontale overflater brukar ein ofte auf den, ikkje aufs.",
+        "Ikkje forveksla med an (ved veggen) eller ins (inni rommet)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2101,22 +2098,22 @@ const A1_WORDS = [
         {
           "word": "baden",
           "meaning": "Suplema / vees olema / end pesema",
-          "example": "Ich gehe baden."
+          "example": "Eg går på bad."
         },
         {
           "word": "schwimmen",
           "meaning": "Ujuma bevegelsene või spordina",
-          "example": "Er schwimmt sehr gut."
+          "example": "Han swimming veldig bra."
         },
         {
           "word": "duschen",
           "meaning": "Duši all käima",
-          "example": "Ich dusche am Morgen."
+          "example": "Eg dusjar på morgonen."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Gå bort",
-          "example": "Ich gehe heute schwimmen."
+          "example": "Eg går i dag på swimming."
         }
       ],
       "tip": {
@@ -2524,8 +2521,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "bei bieži nozīmē pie cilvēka, pie vietas vai uzņēmumā.",
-        "Ja runa ir par kustību uz virsmu, parasti vajag auf, nevis bei."
+        "bei betyr ofte ved ein person, ved ein stad eller ved eit firma.",
+        "Hvis det gjeld rørsle på ei overflate, brukar ein vanleg auf, ikkje bei."
       ]
     }
   },
@@ -2579,7 +2576,7 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Külaskaik",
+    "lv": "besøk",
     "level": "A1"
   },
   {
@@ -2591,7 +2588,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "Külastama • Kulla minema",
+    "lv": "besøkje",
     "level": "A1"
   },
   {
@@ -2740,7 +2737,8 @@ const A1_WORDS = [
       },
       "important": [
         "bis = līdz robežai vai laika punktam.",
-        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr."
+        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr.",
+        "bis jetzt betyr til no."
       ]
     }
   },
@@ -2760,12 +2758,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: Viisakussõna knejse algustähega. Kasutatakse viisakuse ekspretamieks — palun.",
         "Bitte gejättä säytä: viisakus.",
-        "Sägeli sägeliktab: viisakussõna.",
-        "Bitte jäätä ääää: palve/näudmine.",
-        "Sägeli ekpretab: nimisõna (dø).",
-        "Bitte knejse algustähega på viisakussõna — se jähä palun (Bite schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte suure algustähega ja artikliga die on nimisõna — se gejnej palvet või søi (Ich habe eine Bitte = mul on üks palve).",
-        "Mitmuser: dø Bitten."
+        "Sägeli sägeliktab: viisakussõna."
       ],
       "examples": [
         {
@@ -2800,8 +2793,7 @@ const A1_WORDS = [
       "important": [
         "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
         "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Daudzskaitlis: die Bitten (lūgumi)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2878,13 +2870,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Palun",
+          "example": "Komm bitte herein. – Ver god, kom inn."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Palve",
+          "example": "Ich habe eine Bitte. – Eg har ein førespørnad."
         }
       ]
     }
@@ -2903,11 +2895,7 @@ const A1_WORDS = [
         "Põhiidee: Nimisõna artikliga die ja suure algustähega. Konkreetne palve või tautlus.",
         "Die Bitte geschäfte sichten: viisakus.",
         "Sägeli sägeliktab: viisakussõna.",
-        "Die Bitte gejättättä: palve/soov.",
-        "Sägeli ekpretab: nimisõna (dø).",
-        "Bitte knejse algustähega på viisakussõna — se jähä palun (Bite schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte suure algustähega ja artikliga die on nimisõna — se gejnej palvet või søi (Ich habe eine Bitte = mul on üks palve).",
-        "Mitmuser: dø Bitten."
+        "Die Bitte gejättättä: palve/soov."
       ],
       "examples": [
         {
@@ -2942,8 +2930,7 @@ const A1_WORDS = [
       "important": [
         "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
         "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Daudzskaitlis: die Bitten (lūgumi)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3026,13 +3013,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Palve",
+          "example": "Ich habe eine Bitte. – Eg har ein førespørnad."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Palun",
+          "example": "Komm bitte herein. – Ver god, kom inn."
         }
       ]
     }
@@ -3109,30 +3096,30 @@ const A1_WORDS = [
         {
           "word": "bleiben",
           "meaning": "Jääma",
-          "example": "Ich bleibe hier."
+          "example": "Eg blir her."
         },
         {
           "word": "gehen",
           "meaning": "Minema / பெர்பிய யார் மைம்",
-          "example": "Ich gehe nach Hause."
+          "example": "Eg går heim."
         },
         {
           "word": "fahren",
           "meaning": "Sõitma / sõikiga likuma",
-          "example": "Ich fahre nach Hause."
+          "example": "Eg køyrer heim."
         },
         {
           "word": "warten",
           "meaning": "Ootama",
-          "example": "Ich warte hier."
+          "example": "Eg ventar her."
         }
       ],
       "tip": {
         "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
       },
       "important": [
-        "bleiben nozīmē palikt, nevis gaidīt.",
-        "Ich bleibe hier = es palieku šeit; Ich warte hier = es gaidu šeit."
+        "bleiben betyr å bli, ikkje å vente.",
+        "Ich bleibe hier = eg blir her; Ich warte hier = eg ventar her."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3375,7 +3362,8 @@ const A1_WORDS = [
         "Põhiidee: bringen gejättä magadi kellegi tooma, viima või domitama.",
         "Bringen brukes, kui magadi veke teise kohta vei teise teise teise.",
         "Se ei ole sama mis nehmen, sest nehmen geindet endele tämä.",
-        "Holen täytä yögä memne ja tooma või tämä."
+        "Holen täytä yögä memne ja tooma või tämä.",
+        "Omsetjinga bestemst av konteksten."
       ],
       "examples": [
         {
@@ -3418,8 +3406,8 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "ta",
+          "example": "Ich nehme das Buch. – Eg tek boka."
         }
       ],
       "tip": {
@@ -3427,7 +3415,8 @@ const A1_WORDS = [
       },
       "important": [
         "bringen rāda virzienu pie kāda vai uz kādu vietu.",
-        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam."
+        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam.",
+        "Den norske omsetjinga er avhengig av konteksten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3761,22 +3750,22 @@ const A1_WORDS = [
         {
           "word": "da",
           "meaning": "Sel • Siin • Siinsamas (üldiselt)",
-          "example": "Da ist mein Auto."
+          "example": "Der er bilen min."
         },
         {
           "word": "hier",
           "meaning": "Siin (kindlas kois)",
-          "example": "Hier ist mein Auto."
+          "example": "Her er bilen min."
         },
         {
           "word": "dort",
           "meaning": "Forsegle",
-          "example": "Dort ist mein Auto."
+          "example": "Dort er bilen min."
         },
         {
           "word": "dann",
           "meaning": "Sis",
-          "example": "Dann gehen wir nach Hause."
+          "example": "Så går vi heim."
         }
       ],
       "tip": {
@@ -3980,8 +3969,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "da ir vispārīgs vietas vārds.",
-        "hier ir konkrēti “šeit”, dort ir tālāks “tur”."
+        "da er ein generell stadsordet.",
+        "hier betyr konkret \"her\", dort betyr litt lengre bort \"der\"."
       ]
     }
   },
@@ -4140,8 +4129,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
-        "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
+        "På A1-nivå lær du først das som nøytraltkjønn artikkel.",
+        "das er ikkje det same som dass — das kan vere artikkel eller pronomen, dass betyr \"at\"."
       ]
     }
   },
@@ -4330,8 +4319,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "dass nozīmē “ka” un ievada palīgteikumu.",
-        "To nejaukt ar das, kas var būt artikuls vai “tas”."
+        "dass betyr \"at\" og innleier ein hjelpeteikn.",
+        "Ikkje forveksla med das, som kan vere artikkel eller \"det\"."
       ]
     }
   },
@@ -4442,8 +4431,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī der vispirms mācies kā vīriešu dzimtes artikulu.",
-        "Vietniekvārda un relatīvā lietojumi nāk vēlāk."
+        "På A1-nivå lær du først der som hankjønn artikkel.",
+        "Pronomenet og relative brukar kjem seinare."
       ]
     }
   },
@@ -4565,8 +4554,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī die vispirms mācies kā sieviešu dzimtes artikulu.",
-        "Daudzskaitlī die lieto arī visām dzimtēm."
+        "På A1-nivå lær du først die som hokjønn artikkel.",
+        "I fleirtal brukar ein die for alle kjønn òg."
       ]
     }
   },
@@ -4699,8 +4688,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "dieser, diese un dieses mainās pēc dzimtes.",
-        "Daudzskaitlī forma atkal ir diese."
+        "dieser, diese og dieses endrar seg etter kjønn.",
+        "I fleirtal er forma igjen diese."
       ]
     }
   },
@@ -4792,7 +4781,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Umbmäärane artikkel • Üks • Mingi",
-      "explanation": "Kasutatakse koos meessoost nimisõnaga. Osutab özlele kindlale asjale või sävelele mitme svägää sägäst.",
+      "explanation": [
+        "Hovudidé: ein er ein ubestemt artikkel.",
+        "ein er ein ubestemt artikkel for hankjønn og nøytraltkjønn substantiv i nominativ.",
+        "ein brukar du i hankjønn: ein Mann.",
+        "ein brukar du i nøytraltkjønn: ein Buch.",
+        "I hokjønn brukar ein: eine.",
+        "I akkusativ hankjønn: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -4808,7 +4804,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "Barnet leikar."
         }
       ],
       "tip": {
@@ -4916,28 +4912,30 @@ const A1_WORDS = [
       },
       "important": [
         "ein nav noteiktais artikuls.",
-        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
+        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das.",
+        "eine — hokjønn.",
+        "einen — akkusativ."
       ],
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
-          "example": "Ein Mann wartet draußen."
+          "meaning": "hankjønn",
+          "example": "Ein mann ventar ute."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
-          "example": "eine Frau"
+          "meaning": "hokjønn",
+          "example": "ei kvinne"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
-          "example": "Ich habe ein Buch."
+          "meaning": "nøytraltkjønn",
+          "example": "Eg har ei bok."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
-          "example": "einen Mann"
+          "meaning": "akkusativ",
+          "example": "ein mann"
         }
       ]
     }
@@ -4994,30 +4992,30 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Jää / iskrem",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Eg et iskrem."
         },
         {
           "word": "der Schnee",
           "meaning": "Lumi",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = Snøen er kvit."
         },
         {
           "word": "kalt",
           "meaning": "Kjøle",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = Vatnet er kaldt."
         },
         {
           "word": "das Dessert",
           "meaning": "Magustoit",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Iskrem er ein dessert."
         }
       ],
       "tip": {
         "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
       },
       "important": [
-        "Latviski ledus un saldējums ir divi dažādi vārdi, bet vāciski abiem bieži lieto das Eis.",
-        "Konteksts ir galvenais: ēdiens nozīmē saldējumu, auksta virsma vai ūdens nozīmē ledu."
+        "På norsk er is og iskrem to ulike ord, men på tysk brukar ein ofte das Eis for båe.",
+        "Konteksten er hovudsaken: mat betyr iskrem, kald overflate eller vatn betyr is."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5277,7 +5275,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "Først av alt • Alles",
-      "explanation": "\"først\" brukes for å indikere fortløpende (køijkepealt) eller selle odstaimiseks, et migad sikke sällen kui oodatut või knejamas mahus (alles).",
+      "explanation": [
+        "Hovudidé: erst betyr oftast berre. Men i visse kontekst kan det òg betyda først.",
+        "erst peiker ofte på at noko skjer seinare enn forventa.",
+        "Ich bin erst 18. — Eg er berre 18 år.",
+        "Es ist erst Montag. — Det er berre måndag.",
+        "Erst lernen, dann spielen. — Først lær, so leikar du."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -5305,17 +5309,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Først av alt • Alguses",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Først et vi frukost."
         },
         {
           "word": "nur",
           "meaning": "Bare",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Eg har berre 5 euro."
         },
         {
           "word": "dann",
           "meaning": "Sis",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = So går vi heim."
         }
       ],
       "tip": {
@@ -5465,7 +5469,8 @@ const A1_WORDS = [
       },
       "important": [
         "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
-        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu."
+        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu.",
+        "zuerst betyr oftast: først."
       ]
     }
   },
@@ -5482,7 +5487,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "Se • Ta • Umbisikuline vorm",
-      "explanation": "Saksa keeles ei kausutata \"es\" enda kohta rääkimiseks. Seda utilizada, et tylnatada: see, ta või umbisikulist vormi (ilm, aeg, mitdamuged umbisikulised laused).",
+      "explanation": [
+        "Hovudidé: es er eit pronomen.",
+        "Det brukar ein: det, ikkje-personlege konstruksjonar."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -5628,18 +5636,19 @@ const A1_WORDS = [
       },
       "important": [
         "Vācu es nav latviešu “es”.",
-        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
+        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots.",
+        "Det norske \"eg\" blir på tysk ich; tysk es betyr ofte det eller blir ikkje omsett."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "det • ikkje-personleg form",
+          "example": "Es regnet. – Det regnar."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "es (person)",
+          "example": "Ich lerne Deutsch. – Eg lær tysk."
         }
       ]
     }
@@ -5662,9 +5671,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: etwas jähät olenevalt kontekstist magadi või bikto.",
         "Kui etwas asendab tjemnatut asja, tättakse eesti keeles sämätä magadi.",
-        "Kui etwas seisab seisab säsätsõna või hulga kurreis, täätä see seisab tättä.",
-        "Vestlustes på etwas väga sage ja neutratne A1 sõna.",
-        "Det viktigste på eristada: etwas kaufen = megido ostma, etwas müde = veidi väsinud."
+        "Kui etwas seisab seisab säsätsõna või hulga kurreis, täätä see seisab tättä."
       ],
       "examples": [
         {
@@ -5692,22 +5699,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Midagi / veidi",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Eg treng noko."
         },
         {
           "word": "was",
           "meaning": "Midagi (kõnekeeles)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Vil du ha noko å drikke?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Natttid",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Eg er litt trøytt."
         },
         {
           "word": "nichts",
           "meaning": "Ingenting i det hele tatt",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Eg treng ingenting."
         }
       ],
       "tip": {
@@ -5715,7 +5722,8 @@ const A1_WORDS = [
       },
       "important": [
         "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
-        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert."
+        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert.",
+        "På norsk høyrer det ofte betre med noko, ikkje nokonoko, til dømes: etwas trinken = drikke noko."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5957,17 +5965,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Tei",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = De er vennlege."
         },
         {
           "word": "euch",
           "meaning": "Teid / teile",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Eg hjelper dykk."
         },
         {
           "word": "euer",
           "meaning": "Tei",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Det er huset dykkar."
         }
       ],
       "tip": {
@@ -6037,27 +6045,27 @@ const A1_WORDS = [
         {
           "word": "fahren",
           "meaning": "Sõidukiga suudma",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Eg køyrer med bussen."
         },
         {
           "word": "gehen",
           "meaning": "Jalgsi minema",
-          "example": "Ich gehe nach Hause."
+          "example": "Eg går heim."
         },
         {
           "word": "laufen",
           "meaning": "Jooksma / käima",
-          "example": "Er läuft schnell."
+          "example": "Han løper fort."
         },
         {
           "word": "bringen",
           "meaning": "Tooma",
-          "example": "Ich bringe das Buch."
+          "example": "Eg bringer boka."
         },
         {
           "word": "mitnehmen",
           "meaning": "Ta det",
-          "example": "Ich nehme dich mit."
+          "example": "Eg tek deg med."
         }
       ],
       "tip": {
@@ -6465,7 +6473,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Leidma / arvama",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Eg synest det er bra."
         },
         {
           "word": "suchen",
@@ -6487,8 +6495,8 @@ const A1_WORDS = [
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
       },
       "important": [
-        "finden nav tikai “atrast”.",
-        "Ich finde das gut nozīmē “man tas šķiet labi”, nevis “es to atrodu labi”."
+        "finden er ikkje berre \"finne\".",
+        "Ich finde das gut betyr \"eg synest det er bra\", ikkje \"eg finn det bra\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6779,13 +6787,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ar piederības vārdu (meine/deine/seine Frau) gandrīz vienmēr domāta sieva (laulātā).",
-        "Bez piederības vārda (die Frau, eine Frau) parasti domāta sieviete."
+        "Med ein eigedomsordd (meine/deine/seine Frau) er det nesten alltid meint ektemann (gift).",
+        "Utan eigedomsordd (die Frau, eine Frau) er det vanleg meint kvinne."
       ],
       "important": [
-        "die Frau = sieviete VAI sieva — atkarībā no konteksta.",
-        "meine Frau = mana sieva (ne 'mana sieviete').",
-        "Daudzskaitlī: die Frauen."
+        "die Frau = kvinne ELLER kone — avhengig av konteksten.",
+        "meine Frau = mi kone (ikkje 'mi kvinne').",
+        "Mitmuses: die Frauen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7050,12 +7058,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "für vienmēr + akuzatīvs — neatkarīgi no nozīmes.",
-        "Saņēmējs/nolūks → priekš; apmaiņa/iemesls/maksa → par."
+        "für alltid + akkusativ — uavhengig av tyding.",
+        "Mottakar/føremål → til; bytte/grunn/betaling → for."
       ],
       "important": [
-        "für + Akkusativ vienmēr, piemēram für mich, für dich, für das Kind.",
-        "danke für / bezahlen für = 'par', ne 'priekš'."
+        "für + Akkusativ alltid, til dømes für mich, für dich, für das Kind.",
+        "danke für / bezahlen für = 'for', ikkje 'til'."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7185,12 +7193,12 @@ const A1_WORDS = [
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Ispall",
+    "lv": "fotball",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Alt",
+    "lv": "Hallo",
     "level": "A1"
   },
   {
@@ -7250,30 +7258,30 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Puste",
-          "example": "Gib mir das Buch."
+          "example": "Gib mir das Buch. = Gje meg boka."
         },
         {
           "word": "nehmen",
           "meaning": "Võtma / kète vämä",
-          "example": "Ich nehme das Buch."
+          "example": "Ich nehme das Buch. = Eg tek boka."
         },
         {
           "word": "bekommen",
           "meaning": "Saama / kyss saama",
-          "example": "Ich bekomme ein Geschenk."
+          "example": "Ich bekomme ein Geschenk. = Eg får ei gåve."
         },
         {
           "word": "bringen",
           "meaning": "Tooma",
-          "example": "Ich bringe dir das Buch."
+          "example": "Ich bringe dir das Buch. = Eg bringer deg boka."
         }
       ],
       "tip": {
         "text": "Atceries: dot prom → geben; paņemt sev → nehmen."
       },
       "important": [
-        "geben un nehmen ir pretēji virzieni.",
-        "bekommen nozīmē saņemt, nevis dot."
+        "geben og nehmen er motsette retningar.",
+        "bekommen betyr å få, ikkje å gi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7529,13 +7537,13 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Lugu • Ajalugu",
+    "lv": "historie",
     "level": "A1"
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Õed venn",
+    "lv": "søsken",
     "level": "A1"
   },
   {
@@ -7599,8 +7607,7 @@ const A1_WORDS = [
         "Põhiidee: gleich gejnej aja tønske kohe, gleich gejnej õhëskejne.",
         "Kui jutt on ajast, gleich = kohe/varsti (Ich komme gleich. = Ma tulen kohe.).",
         "Kui jutt på bissätsest, gleich = ühesähä/sama (die gleiche Farbe = ähäsähä verv).",
-        "Sõna gleich kan brukes ka eessõnana koos Dativiga, se gejät nagu (gleich mir = nagu mina).",
-        "Kontekst (ajamäerus või sämää) viser den riktige betydningen."
+        "Sõna gleich kan brukes ka eessõnana koos Dativiga, se gejät nagu (gleich mir = nagu mina)."
       ],
       "examples": [
         {
@@ -7629,11 +7636,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par laiku (pēc brīža) → tūlīt.",
-        "Par salīdzinājumu (tāds pats) → vienāds."
+        "Om tid (straks) → tåg.",
+        "Om samanlikning (same) → lik."
       ],
       "important": [
-        "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
+        "gleich = tåg (tid) ELLER lik (samanlikning) — avhengig av konteksten.",
         "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
       ],
       "sectionAccents": {
@@ -7796,10 +7803,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: Suur mässete pälä või täsää põluh - stor fett sult.",
         "Groß gejättättää: suur mött.",
-        "Sagelie descriptab: gerost goorst.",
-        "Groß gejätt säyttä: personens høyde.",
-        "Sagelie descriptab: isikut.",
-        "Groß describtab gerodest georost või husso pikkust."
+        "Sagelie descriptab: gerost goorst."
       ],
       "examples": [
         {
@@ -7825,8 +7829,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Cilvēkam Er ist groß nozīmē garš augumā.",
-        "groß = liels.",
-        "Liels izmērā vai cilvēkam - garš augumā."
+        "groß = liels."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7910,7 +7913,7 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Vanlig",
+    "lv": "oldinga",
     "level": "A1"
   },
   {
@@ -8000,12 +8003,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "gut bez artikula ir īpašības/apstākļa vārds — labs/labi.",
-        "das Gut ar lielo burtu un artikulu ir pavisam cits vārds — lietvārds (īpašums, muiža)."
+        "gut utan artikkel er adjektiv/adverb — god/bra.",
+        "das Gut med stor bokstav og artikkel er eit heilt anna ord — substantiv (gods, gard)."
       ],
       "important": [
-        "gut = labs/labi (īpašības/apstākļa vārds).",
-        "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
+        "gut = god/bra (adjektiv/adverb).",
+        "das Gut = gods/gard (substantiv) — ikkje forveksla med gut.",
         "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
       ],
       "sectionAccents": {
@@ -8172,31 +8175,31 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Mul på",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Eg har tid."
         },
         {
           "word": "sein",
           "meaning": "Olema",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Eg er her."
         },
         {
           "word": "bekommen",
           "meaning": "Saama",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Eg får ein gåve."
         },
         {
           "word": "machen",
           "meaning": "Tegema / virittama",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Eg gjer det."
         }
       ],
       "tip": {
         "text": "Atceries: Ich habe → man ir."
       },
       "important": [
-        "Latviski „man ir” = vāciski Ich habe + akuzatīvs. Ne lietot datīvu: nepareizi *mir habe.",
-        "Ar sein un datīvu: Mir ist kalt. = Man ir auksti. (tas nav haben!)",
-        "Perfektā: Ich habe gelernt = es esmu mācījies."
+        "På norsk \"eg har\" = tysk Ich habe + akkusativ. Ikkje bruk dativ: feil *mir habe.",
+        "Med sein og dativ: Mir ist kalt. = Eg fryser. (det er ikkje haben!)",
+        "I perfektum: Ich habe gelernt = eg har lært."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8426,22 +8429,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Hoidma / Peatuma",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = Bussen stoppar."
         },
         {
           "word": "nehmen",
           "meaning": "Võtma",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Eg tek sekken."
         },
         {
           "word": "anhalten",
           "meaning": "Peatama",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Ver god, stoppast."
         },
         {
           "word": "denken",
           "meaning": "Mõtlema",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Eg tykkjer at det er rett."
         }
       ],
       "tip": {
@@ -8449,7 +8452,8 @@ const A1_WORDS = [
       },
       "important": [
         "halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.",
-        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”."
+        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”.",
+        "Bitte halten Sie an brukar det delbare verbet anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8642,7 +8646,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Käsi (kam)",
+    "lv": "hand",
     "level": "A1"
   },
   {
@@ -8733,35 +8737,35 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Nimi olema",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Eg heiter Anna."
         },
         {
           "word": "nennen",
           "meaning": "Kutsuma / Nimetama",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Han kallar meg Tom."
         },
         {
           "word": "bedeuten",
           "meaning": "Tähendama",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Kva betyr det?"
         },
         {
           "word": "rufen",
           "meaning": "Hüüdma / helistama",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Eg kallar på deg."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "Helistama",
+          "example": "Ich rufe dich an. = Eg ringjer deg."
         }
       ],
       "tip": {
         "text": "Atceries: Ich heiße... → mani sauc..."
       },
       "important": [
-        "Wie heißt du? nozīmē “Kā tevi sauc?”, nevis burtiski “kā tu saucies?”.",
-        "Was heißt das? bieži nozīmē “Ko tas nozīmē?”."
+        "Wie heißt du? betyr \"Kva heiter du?\", ikkje bokstaveleg \"kva var det du heita?\".",
+        "Was heißt das? betyr ofte \"Kva betyr det?\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8999,10 +9003,7 @@ const A1_WORDS = [
       "explanation": [
         "Põhiidee: Kõrge vertikselt, kõi või hõusse pälä.",
         "Hoch gejättättää: häusselt suur.",
-        "Sagelie speltab: vertikal høyde.",
-        "Hoch gejätt säytä: høy tase.",
-        "Sagelie speltab: Hindu/arv.",
-        "Hoch opretab husst, vertikset suunda või taset."
+        "Sagelie speltab: vertikal høyde."
       ],
       "examples": [
         {
@@ -9160,12 +9161,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Dzirdēt skaņu vai klausīties mūziku.",
-        "Izmanto hören, kad konteksts atbilst šai nozīmei."
+        "Høyra lyd eller lytta til musikk.",
+        "Bruk hören når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "hören = dzirdēt/klausīties skaņu.",
-        "Dzirdēt skaņu vai klausīties mūziku."
+        "hören = høyra/lytta til lyd.",
+        "Høyra lyd eller lytta til musikk."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9248,7 +9249,7 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Nägus • Kena",
+    "lv": "vakker",
     "level": "A1"
   },
   {
@@ -9309,13 +9310,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "ihr ar darbības vārda dsk. formu (kommt, habt) = jūs; ihr blakus vārdam kā datīvs vai piederība = viņai/viņas.",
-        "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas."
+        "ihr med verb-form for fleirtal (kommt, habt) = de; ihr ved sida av eit ord som dativ eller eigarskap = ho/hennar.",
+        "Prøv: Habt ihr...? / Kommt ihr...? = de; Ich gebe ihr... / ihr Buch = ho/hennar."
       ],
       "important": [
-        "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
-        "Pieklājīgā uzruna vienmēr Sie ar lielo burtu, nevis ihr.",
-        "Nepareizi: Ihr (pieklājīgi) → Pareizi: Sie."
+        "ihr = de (respektfull omtale av fleire) ELLER ho (dativ) ELLER hennar (eigarskap) — etter konteksten.",
+        "Den respektfulle omtalinga er alltid Sie med stor bokstav, ikkje ihr.",
+        "Feil: Ihr (respektfull) → Rett: Sie."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9516,14 +9517,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + dem → im (kam?, kur?).",
-        "Kurp? → ins; kur? → im — nesajauc šos divus!"
+        "Hugs: in + dem → im (kva?, kva?).",
+        "Kvar? → ins; kva? → im — ikkje forveksla desse to!"
       ],
       "important": [
-        "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
-        "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
-        "Sieviešu dzimtei: in der Schule, nevis im Schule."
+        "im = in dem, berre med eit hankjønn eller nøytraltkjønn substantiv i dativ kva? form.",
+        "Svarar på kva?, ikkje kvar? — stadfesting, ikkje rørsle.",
+        "Med månader og årstider: im März, im Herbst.",
+        "I hokjønn: in der Schule, ikkje im Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9823,8 +9824,8 @@ const A1_WORDS = [
         "text": "Atceries: iekšā/telpā → in."
       },
       "important": [
-        "in nav vienmēr burtiski “iekšā”; latviski bieži saka Berlīnē, skolā, uz kino.",
-        "Ja runa ir par virsmu, bieži vajag auf, nevis in."
+        "in er ikkje alltid bokstaveleg \"inni\"; på norsk seier ein ofte i Berlin, på skulen, på kino.",
+        "Hvis det gjeld ei overflate, brukar ein ofte auf, ikkje in."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10028,14 +10029,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + das → ins (kurp?, kurp?).",
-        "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
+        "Hugs: in + das → ins (kvar?, kvar?).",
+        "Kvar? → ins; kva? → im — dette er hovudskil!"
       ],
       "important": [
-        "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
-        "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
-        "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
+        "ins = in das, berre med eit nøytraltkjønn substantiv i akkusativ kvar? form.",
+        "Svarar på kvar?, ikkje kva? — rørsle, ikkje stadfesting.",
+        "I hankjønn: in den Wald; i hokjønn: in die Schule.",
+        "Ikkje forveksla: ins Kino gehen (til kino) vs. im Kino sein (vere på kino)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10386,13 +10387,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "jung ir par vecumu (cilvēki, dzīvnieki) — ja runā par lietām, kas nesen radītas, lieto neu.",
-        "Pretstats: jung ↔ alt (jauns ↔ vecs)."
+        "jung gjeld alder (menneske, dyr) — hvis det er om ting som nyleg er laga, bruk neu.",
+        "Motsett: jung ↔ alt (ung ↔ gamal)."
       ],
       "important": [
-        "jung raksturo vecumu, ne lietas jaunumu.",
-        "Par jaunām lietām (telefonu, automašīnu, māju) lieto neu, nevis jung.",
-        "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
+        "jung karakteriserer alder, ikkje nyheit av ting.",
+        "For nye ting (telefon, bil, hus) brukar ein neu, ikkje jung.",
+        "Feil: Mein Handy ist jung. → Rett: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10595,12 +10596,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "kein noliedz lietvārdu (kein + lietvārds), nicht noliedz darbības vārdu vai teikumu.",
-        "kein locījas kā ein: kein/keine/keinen/keiner."
+        "kein nektjar substantivet (kein + substantiv), nicht nektjar verbet eller setningen.",
+        "kein bøygst som ein: kein/keine/keinen/keiner."
       ],
       "important": [
-        "kein + lietvārds = 'nav nekāda/neviena X', ne 'nicht ein X'.",
-        "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
+        "kein + substantiv = 'ingen/ikkje nokon X', ikkje 'nicht ein X'.",
+        "Feil: Ich habe nicht ein Geld. → Rett: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10776,13 +10777,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "kennen = pazīt",
-        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+        "kennen = kjenna",
+        "Bruk kennen når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "kennen = pazīt cilvēku/vietu.",
-        "kennen = pazīt.",
-        "Pazīt cilvēku, vietu vai lietu no pieredzes."
+        "kennen = kjenna menneske/stad.",
+        "kennen = kjenna.",
+        "Kjenna menneske, stad eller ting frå erfaring."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10918,13 +10919,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wissen = zināt",
-        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
+        "wissen = vite",
+        "Bruk wissen når samanhengen passar til denne tydinga."
       ],
       "important": [
-        "wissen = zināt faktu.",
-        "wissen = zināt.",
-        "Zināt faktu, atbildi vai informāciju."
+        "wissen = kunna/vite.",
+        "wissen = vite.",
+        "Vite fakta, svar eller informasjon."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11065,30 +11066,30 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Saama / oskama",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Eg kan simja."
         },
         {
           "word": "dürfen",
           "meaning": "Tohtima",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Får eg gå?"
         },
         {
           "word": "müssen",
           "meaning": "Vajama / pidama",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Eg må læra."
         },
         {
           "word": "wissen",
           "meaning": "Teadma",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Eg veit det."
         }
       ],
       "tip": {
         "text": "Atceries: prasme/iespēja → können."
       },
       "important": [
-        "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
-        "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
+        "können er ikkje det same som dürfen. können = kunne/kunna, dürfen = få lov til/få.",
+        "I eit setning med können står det andre verbet ofte på slutten: Ich kann schwimmen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11322,31 +11323,31 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Maksma (hinda) • Kui palju masak",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Det kostar 5 euro."
         },
         {
           "word": "bezahlen",
           "meaning": "Maksma • Hedre maksma (raha)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Eg betalar rekninga."
         },
         {
           "word": "zahlen",
           "meaning": "Maksma • Hedre maksma",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Kan eg betale i kontantar?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Kui palju masak...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Kor mykje kostar boka?"
         }
       ],
       "tip": [
-        "Atceries: jautājums par cenu → kosten (Was kostet das?).",
-        "Atceries: maksājuma veikšana → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+        "Hugs: spørsmål om pris → kosten (Was kostet das?).",
+        "Hugs: å gjera betalinga → bezahlen / zahlen (Ich bezahle die Rechnung.)."
       ],
       "important": [
-        "kosten un bezahlen nav sinonīmi: kosten = cik maksā; bezahlen = samaksāt naudu.",
-        "Latviski abos gadījumos bieži lieto maksāt, bet vācu valodā jāizvēlas pēc situācijas."
+        "kosten og bezahlen er ikkje det same: kosten = kor mykje kostar det; bezahlen = betala pengar.",
+        "På norsk brukar ein ofte betale i begge tilfella, men på tysk må ein velje etter situasjonen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11815,13 +11816,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Laden ar lielo burtu — lietvārds (veikals).",
-        "laden ar mazo burtu — darbības vārds (iekraut/uzlādēt)."
+        "der Laden med stor bokstav — substantiv (butikk).",
+        "laden med små bokstavar — verb (lasta/lada)."
       ],
       "important": [
-        "der Laden = veikals (lietvārds).",
-        "laden = iekraut/uzlādēt (darbības vārds).",
-        "Daudzskaitlī: die Läden."
+        "der Laden = butikk (substantiv).",
+        "laden = lasta/lada (verb).",
+        "Mitmuses: die Läden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11962,30 +11963,30 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Land / fylke",
-          "example": "Deutschland ist ein Land."
+          "example": "Ich bin ein Land. = Eg er eit land."
         },
         {
           "word": "die Stadt",
           "meaning": "Sengetøy",
-          "example": "Ich wohne in der Stadt."
+          "example": "Ich wohne in der Stadt. = Eg bur i byen."
         },
         {
           "word": "das Dorf",
           "meaning": "Kald",
-          "example": "Er lebt in einem Dorf."
+          "example": "Er lebt in einem Dorf. = Han bur i ein bygd."
         },
         {
           "word": "die Erde",
           "meaning": "Maa / planet",
-          "example": "Die Erde ist rund."
+          "example": "Die Erde ist rund. = Jorda er rund."
         }
       ],
       "tip": {
         "text": "Atceries: valsts → das Land; pilsēta → die Stadt."
       },
       "important": [
-        "aufs Land nozīmē “uz laukiem”, nevis “uz valsti”.",
-        "das Land nav tas pats, kas die Stadt."
+        "aufs Land betyr \"til landet\", ikkje \"til staten\".",
+        "das Land er ikkje det same som die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12214,12 +12215,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par izmēru vai attālumu (mati, ceļš, galds) → garš.",
-        "Par laiku (diena, gaidīšana, filma) → ilgs."
+        "Om mål eller distanse (hår, veg, bord) → lang.",
+        "Om tid (dag, venting, film) → lang."
       ],
       "important": [
-        "lang = garš (izmērs) VAI ilgs (laiks) — atkarībā no konteksta.",
-        "wie lange = cik ilgi (jautājums par laiku, ne izmēru)."
+        "lang = lang (mål) ELLER lang (tid) — avhengig av konteksten.",
+        "wie lange = kor lenge (spørsmål om tid, ikkje mål)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12384,30 +12385,30 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Kjempe / laskma",
-          "example": "Ich lasse das hier."
+          "example": "Ich lasse das hier. = Eg legg det her."
         },
         {
           "word": "bleiben",
           "meaning": "Jääma",
-          "example": "Ich bleibe hier."
+          "example": "Ich bleibe hier. = Eg blir her."
         },
         {
           "word": "erlauben",
           "meaning": "Lubama",
-          "example": "Sie erlaubt mir das."
+          "example": "Sie erlaubt mir das. = Ho tillèt meg det."
         },
         {
           "word": "geben",
           "meaning": "Puste",
-          "example": "Gib mir das Buch."
+          "example": "Gib mir das Buch. = Gje meg boka."
         }
       ],
       "tip": {
         "text": "Atceries: kaut kas paliek → lassen; kādam atļauj → lassen."
       },
       "important": [
-        "lassen nav tikai “atstāt”. Tas bieži nozīmē arī “ļaut”.",
-        "Lass mich in Ruhe! ir ļoti bieža frāze: “Liec mani mierā!”"
+        "lassen betyr ikkje berre \"atstada\". Det betyr ofte òg \"lata\".",
+        "Lass mich in Ruhe! er ein veldig vanleg frase: \"Lat meg vera i fred!\""
       ],
       "sectionAccents": {
         "explanation": {
@@ -12618,30 +12619,30 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Jooksma / öststama",
-          "example": "Er läuft schnell."
+          "example": "Er läuft schnell. = Han løper fort."
         },
         {
           "word": "gehen",
           "meaning": "Jalgsi minema",
-          "example": "Ich gehe nach Hause."
+          "example": "Ich gehe nach Hause. = Eg går heim."
         },
         {
           "word": "fahren",
           "meaning": "Sõidukiga suudma",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Ich fahre mit dem Bus. = Eg køyrer med bussen."
         },
         {
           "word": "funktionieren",
           "meaning": "Toimima",
-          "example": "Das funktioniert gut."
+          "example": "Das funktioniert gut. = Det fungerer godt."
         }
       ],
       "tip": {
         "text": "Atceries: kājas ātri → laufen; transports → fahren."
       },
       "important": [
-        "laufen nav tikai “skriet”. Par filmu vai ierīci tas var nozīmēt “iet” vai “darboties”.",
-        "Ich laufe nozīmē kustību kājām, nevis braukšanu."
+        "laufen er ikkje berre \"springa\". For ein film eller apparat kan det betyda \"gå\" eller \"fungera\".",
+        "Ich laufe betyr rørsle på beina, ikkje køyring."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12867,14 +12868,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "laut = skaņa"
+        "Det liten laut = høg (adjektiv: ist laut). der Laut med stor bokstav = lyd (substantiv: ein Laut, der Laut).",
+        "laut = lyd"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "laut med små bokstavar er utan artikkel — det er eit adjektiv.",
+        "der Laut med stor bokstav og artikkel der er eit substantiv.",
+        "Fleirtal: die Laute (språk-lydar, signal-lydar).",
+        "Feil: Der Laut ist sehr. → Rett: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13030,14 +13031,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "der Laut = skaņa"
+        "Det liten laut = høg (adjektiv: ist laut). der Laut med stor bokstav = lyd (substantiv: ein Laut, der Laut).",
+        "der Laut = lyd"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "laut med små bokstavar er utan artikkel — det er eit adjektiv.",
+        "der Laut med stor bokstav og artikkel der er eit substantiv.",
+        "Fleirtal: die Laute (språk-lydar, signal-lydar).",
+        "Feil: Der Laut ist sehr. → Rett: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13198,30 +13199,30 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Panem",
-          "example": "Ich lege das Buch auf den Tisch."
+          "example": "Ich lege das Buch auf den Tisch. = Eg legg boka på bordet."
         },
         {
           "word": "liegen",
           "meaning": "Asuma / lama",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Das Buch liegt auf dem Tisch. = Boka ligg på bordet."
         },
         {
           "word": "stellen",
           "meaning": "Püsti panema",
-          "example": "Ich stelle die Flasche auf den Tisch."
+          "example": "Ich stelle die Flasche auf den Tisch. = Eg set flaska på bordet."
         },
         {
           "word": "setzen",
           "meaning": "Istuma panema / maha istuma",
-          "example": "Ich setze mich."
+          "example": "Ich setze mich. = Eg set meg."
         }
       ],
       "tip": {
         "text": "Atceries: tu noliec → legen; lieta jau atrodas → liegen."
       },
       "important": [
-        "legen un liegen nav viens un tas pats.",
-        "Ich lege das Buch = es nolieku grāmatu. Das Buch liegt = grāmata atrodas."
+        "legen og liegen er ikkje det same.",
+        "Ich lege das Buch = eg legg boka. Das Buch liegt = boka ligg."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13492,13 +13493,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "leise = kluss",
-        "Izmanto leise, kad konteksts atbilst šai nozīmei."
+        "leise = stille",
+        "Bruk leise når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "leise = kluss skaņas ziņā.",
-        "leise = skaļums.",
-        "Kluss vai ar mazu skaļumu."
+        "leise = stille frå lydsynet.",
+        "leise = lydstyrkje.",
+        "Stille eller med liten lydstyrke."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13665,30 +13666,30 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Asuma / lama",
-          "example": "Das Buch liegt hier."
+          "example": "Das Buch liegt hier. = Boka ligg her."
         },
         {
           "word": "legen",
           "meaning": "Panem",
-          "example": "Ich lege das Buch hierhin."
+          "example": "Ich lege das Buch hierhin. = Eg legg boka dit."
         },
         {
           "word": "stehen",
           "meaning": "Seisma",
-          "example": "Die Flasche steht auf dem Tisch."
+          "example": "Die Flasche steht auf dem Tisch. = Flaska står på bordet."
         },
         {
           "word": "sein",
           "meaning": "Olema",
-          "example": "Ich bin hier."
+          "example": "Ich bin hier. = Eg er her."
         }
       ],
       "tip": {
         "text": "Atceries: lieta jau ir vietā → liegen; tu to noliec → legen."
       },
       "important": [
-        "liegen rāda stāvokli vai atrašanās vietu.",
-        "legen rāda darbību: kāds kaut ko noliek."
+        "liegen viser tilstand eller stadfesting.",
+        "legen viser handling: nokon legg noko."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14026,8 +14027,8 @@ const A1_WORDS = [
         "text": "Atceries: Was machst du? = Ko tu dari?"
       },
       "important": [
-        "machen ir ļoti plašs vārds, bet latviski bieži jātulko dabiski pēc situācijas.",
-        "Das macht Spaß nozīmē “tas ir jautri”, nevis burtiski “tas taisa prieku”."
+        "machen er eit veldig breitt ord, men på norsk må ein ofte omsetja naturleg etter situasjonen.",
+        "Das macht Spaß betyr \"det er kje\", ikkje bokstaveleg \"det lagar glede\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14220,9 +14221,9 @@ const A1_WORDS = [
         "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
       },
       "important": [
-        "das Mal / die Male — lietvārds ar artikulu.",
-        "ein Mal, zwei Mal — skaita reizes.",
-        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
+        "das Mal / die Male — substantiv med artikkel.",
+        "ein Mal, zwei Mal — tel antalet gangar.",
+        "mal utan artikkel (Komm mal her!) er ikkje det same som das Mal."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14388,13 +14389,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
-        "Bez piederības vārda (der Mann, ein Mann) parasti domāts vīrietis."
+        "Med ein eigedomsordd (mein/dein/ihr Mann) er det nesten alltid meint ektemakken (gift).",
+        "Utan eigedomsordd (der Mann, ein Mann) er det vanleg meint mann som person."
       ],
       "important": [
-        "der Mann = vīrietis VAI vīrs — atkarībā no konteksta.",
-        "mein Mann = mans vīrs (ne 'mans vīrietis').",
-        "Daudzskaitlī: die Männer."
+        "der Mann = mann ELLER ektemakken — avhengig av konteksten.",
+        "mein Mann = min ektemakk (ikkje 'min mann' i betydinga mann som person).",
+        "Mitmuser: die menn."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14644,30 +14645,30 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "-ga / koos",
-          "example": "Ich komme mit dir."
+          "example": "Ich komme mit dir. = Eg kjem med deg."
         },
         {
           "word": "ohne",
           "meaning": "Ilma",
-          "example": "Ich komme ohne dich."
+          "example": "Ich komme ohne dich. = Eg kjem utan deg."
         },
         {
           "word": "bei",
           "meaning": "Juures",
-          "example": "Ich bin bei Anna."
+          "example": "Ich bin bei Anna. = Eg er hjå Anna."
         },
         {
           "word": "zu",
           "meaning": "-sse / å gå",
-          "example": "Ich gehe zum Arzt."
+          "example": "Ich gehe zum Arzt. = Eg går til legen."
         }
       ],
       "tip": {
         "text": "Atceries: kopā ar kādu vai ar transportu → mit."
       },
       "important": [
-        "mit prasa datīvu: mit dem Bus, mit der Mutter, mit dir.",
-        "Kommst du mit? nozīmē “Vai tu nāksi līdzi?”"
+        "mit krev dativ: mit dem Bus, mit der Mutter, mit dir.",
+        "Kommst du mit? betyr \"Kjem du med?\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14909,30 +14910,30 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Meeldima",
-          "example": "Ich mag Musik."
+          "example": "Ich mag Musik. = Eg likar musikk."
         },
         {
           "word": "möchte",
           "meaning": "Sooviksin",
-          "example": "Ich möchte Kaffee."
+          "example": "Ich möchte Kaffee. = Eg vil ha kaffe."
         },
         {
           "word": "wollen",
           "meaning": "Tahtma",
-          "example": "Ich will nach Hause."
+          "example": "Ich will nach Hause. = Eg vil heim."
         },
         {
           "word": "lieben",
           "meaning": "Armastama",
-          "example": "Ich liebe dich."
+          "example": "Ich liebe dich. = Eg elskar deg."
         }
       ],
       "tip": {
         "text": "Atceries: Ich mag... = man patīk..."
       },
       "important": [
-        "mögen nav galvenais vārds pieklājīgam “es gribētu”. Tam parasti lieto möchte.",
-        "Ich mag Kaffee nozīmē “man garšo/patīk kafija”."
+        "mögen er ikkje hovudordet for høfleg \"eg ville gjerne\". Det brukar ein vanleg möchte.",
+        "Ich mag Kaffee betyr \"eg likar kaffi\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15181,14 +15182,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "morgen = rīt"
+        "Liten morgen = i morgon (Ich komme morgen). der Morgen med stor bokstav = morgen (Guten Morgen!, am Morgen).",
+        "morgen = i morgon"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "morgen står med liten bokstav — det er eit tidsledd (i morgon).",
+        "der Morgen med stor bokstav og artikkelen der er eit substantiv (morgen).",
+        "Guten Morgen! — alltid med stor M (morgen, ikkje morgon).",
+        "Feil: Guten morgen! → Riktig: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15343,14 +15344,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "der Morgen = rīt"
+        "Liten morgen = i morgon (Ich komme morgen). der Morgen med stor bokstav = morgen (Guten Morgen!, am Morgen).",
+        "der Morgen = morgen"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "morgen med små bokstavar — det er eit adverb (i morgen).",
+        "der Morgen med stor bokstav og artikkel der er eit substantiv (morgonen).",
+        "Guten Morgen! — alltid med stor M (morgen, ikkje morgon).",
+        "Feil: Guten morgen! → Riktig: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15517,30 +15518,30 @@ const A1_WORDS = [
         {
           "word": "müssen",
           "meaning": "Pidama",
-          "example": "Ich muss gehen."
+          "example": "Eg må gå."
         },
         {
           "word": "können",
           "meaning": "Saama / oskama",
-          "example": "Ich kann kommen."
+          "example": "Eg kan komme."
         },
         {
           "word": "wollen",
           "meaning": "Tahtma",
-          "example": "Ich will nach Hause."
+          "example": "Eg vil heim."
         },
         {
           "word": "dürfen",
           "meaning": "Tohtima",
-          "example": "Darf ich gehen?"
+          "example": "Får eg gå?"
         }
       ],
       "tip": {
         "text": "Atceries: Ich muss... = man jā..."
       },
       "important": [
-        "müssen ir modālais darbības vārds.",
-        "Otrs darbības vārds parasti iet teikuma beigās: Ich muss heute arbeiten."
+        "müssen er eit modalverb.",
+        "Det andre verbet går vanlegvis til slutten av setningen: Ich muss heute arbeiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15766,30 +15767,30 @@ const A1_WORDS = [
         {
           "word": "nach",
           "meaning": "-sse",
-          "example": "Ich fahre nach Berlin."
+          "example": "Eg køyrer til Berlin."
         },
         {
           "word": "zu",
           "meaning": "-sse / å gå",
-          "example": "Ich gehe zum Arzt."
+          "example": "Eg går til legen."
         },
         {
           "word": "in",
           "meaning": "Ser / mingisse kohta artikliga",
-          "example": "Ich gehe in die Schule."
+          "example": "Eg går på skulen."
         },
         {
           "word": "vor",
           "meaning": "Enne / ees",
-          "example": "Vor dem Essen wasche ich die Hände."
+          "example": "Før maten vaskar eg hendene."
         }
       ],
       "tip": {
         "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
       },
       "important": [
-        "nach nelieto ar visām vietām.",
-        "Uz skolu parasti ir in die Schule, nevis nach Schule."
+        "nach blir ikkje brukt med alle kasus.",
+        "Til skulen er vanlegvis in die Schule, ikkje nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16053,12 +16054,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kā atsevišķs vārds, apstiprinot vai atbildot → protams.",
-        "Blakus lietvārdam, aprakstot izcelsmi vai īpašību → dabisks."
+        "Som eitt ord, når du godtaket eller svarar → sjølvsagt.",
+        "Ved siden av eit substantiv, når du skildrer opphav eller eigenskap → naturleg."
       ],
       "important": [
-        "natürlich = protams (apstākļa vārds, apstiprinājums) VAI dabisks (īpašības vārds).",
-        "Natürlich! kā atsevišķs saucienis vienmēr = protams!"
+        "natürlich = sjølvsagt (adverb, bekreftelse) ELLER naturleg (adjektiv).",
+        "Natürlich! som eitt ord aleine = alltid sjølvsagt!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -16213,30 +16214,30 @@ const A1_WORDS = [
         {
           "word": "nehmen",
           "meaning": "Võtma / kète vämä",
-          "example": "Nimm das Buch!"
+          "example": "Ta boka!"
         },
         {
           "word": "bringen",
           "meaning": "Tooma / viima / vukkile vaittama",
-          "example": "Ich bringe dir das Buch."
+          "example": "Eg bringer deg boka."
         },
         {
           "word": "holen",
           "meaning": "Järele minema / tooma",
-          "example": "Ich hole Wasser."
+          "example": "Eg hentar vatn."
         },
         {
           "word": "mitnehmen",
           "meaning": "Ta det",
-          "example": "Ich nehme dich mit."
+          "example": "Eg tek deg med."
         }
       ],
       "tip": {
         "text": "Atceries: paņem sev → nehmen; atnes kādam → bringen."
       },
       "important": [
-        "Ich nehme den Bus latviski nozīmē “es braucu ar autobusu”.",
-        "nehmen nav tas pats, kas bringen."
+        "Ich nehme den Bus på latvisk tyder \"eg køyrer med bussen\".",
+        "nehmen er ikkje det same som bringen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16498,13 +16499,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "neu ir par lietām, ierīcēm un jaunumiem — ja runā par cilvēka vecumu, lieto jung.",
-        "Pretstats: neu ↔ alt (jauns ↔ vecs)."
+        "neu er for ting, einingar og nyheiter — om du snakkar om alderen til ein person, bruker du jung.",
+        "Motsetnad: neu ↔ alt (ny ↔ gamal)."
       ],
       "important": [
-        "neu raksturo lietas un jaunumus, ne cilvēka vai dzīvnieka vecumu.",
-        "Par cilvēka vai dzīvnieka vecumu lieto jung, nevis neu.",
-        "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
+        "neu skildrar ting og nyheiter, ikkje alderen til ein person eller dyr.",
+        "For alderen til ein person eller eit dyr bruker vi jung, ikkje neu.",
+        "Feil: Meine Schwester ist neu. → Riktig: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16732,12 +16733,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
-        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+        "Noko held på å skje eller er framleis ikkje ferdig.",
+        "Bruk noch når konteksten passar til denne tydinga."
       ],
       "important": [
-        "noch = vēl.",
-        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+        "noch = framleis.",
+        "Noko held på å skje eller er framleis ikkje ferdig."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16868,12 +16869,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
-        "Izmanto nur, kad konteksts atbilst šai nozīmei."
+        "Avgrenser mengd, tal av menneske, val eller moglegheiter.",
+        "Bruk nur når konteksten passar til denne tydinga."
       ],
       "important": [
-        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
-        "nur = tikai / vienīgi."
+        "Det latviske \"tikai\" er ikkje alltid nur på tysk.",
+        "nur = berre / einast."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17025,30 +17026,30 @@ const A1_WORDS = [
         {
           "word": "ob",
           "meaning": "Kas ervägeves määuses",
-          "example": "Ich weiß nicht, ob er kommt."
+          "example": "Eg veit ikkje om han kjem."
         },
         {
           "word": "oder",
           "meaning": "Või valikus variantide vähal",
-          "example": "Kaffee oder Tee?"
+          "example": "Kaffe eller te?"
         },
         {
           "word": "wenn",
           "meaning": "Kui (tingimus) / kui (aeg)",
-          "example": "Wenn du Zeit hast..."
+          "example": "Viss du har tid..."
         },
         {
           "word": "dass",
           "meaning": "En",
-          "example": "Ich weiß, dass er kommt."
+          "example": "Eg veit at han kjem."
         }
       ],
       "tip": {
         "text": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder."
       },
       "important": [
-        "ob nav parasta izvēles “vai” forma starp divām lietām.",
-        "Kaffee oder Tee? lieto oder, nevis ob."
+        "ob er ikkje den vanlege \"eller\"-forma mellom to ting.",
+        "Kaffee oder Tee? bruker oder, ikkje ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17263,30 +17264,30 @@ const A1_WORDS = [
         {
           "word": "oder",
           "meaning": "Või valikus",
-          "example": "Kaffee oder Tee?"
+          "example": "Kaffe eller te?"
         },
         {
           "word": "ob",
           "meaning": "Kas ervägeves määuses",
-          "example": "Ich weiß nicht, ob er kommt."
+          "example": "Eg veit ikkje om han kjem."
         },
         {
           "word": "und",
           "meaning": "Ja",
-          "example": "Kaffee und Kuchen."
+          "example": "Kaffe og kakao."
         },
         {
           "word": "aber",
           "meaning": "Aga",
-          "example": "Ich komme, aber später."
+          "example": "Eg kjem, men seinare."
         }
       ],
       "tip": {
         "text": "Atceries: izvēle starp variantiem → oder."
       },
       "important": [
-        "oder lieto izvēlei: Kaffee oder Tee.",
-        "Netiešā jautājumā “vai” parasti ir ob."
+        "oder blir brukt for val: Kaffee oder Tee.",
+        "I eit indirekte spørsmål er \"eller\" vanlegvis ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17574,30 +17575,30 @@ const A1_WORDS = [
         {
           "word": "passen",
           "meaning": "Sobima / hest sobima",
-          "example": "Die Jacke passt mir."
+          "example": "Jakka passar meg."
         },
         {
           "word": "stehen",
           "meaning": "Sobima / seisma",
-          "example": "Rot steht dir gut."
+          "example": "Raudt kler deg godt."
         },
         {
           "word": "geeignet sein",
           "meaning": "Sobiv olema",
-          "example": "Das ist geeignet."
+          "example": "Det er egna."
         },
         {
           "word": "funktionieren",
           "meaning": "Toimima",
-          "example": "Das funktioniert."
+          "example": "Det fungerer."
         }
       ],
       "tip": {
         "text": "Atceries: Das passt. = Tas der."
       },
       "important": [
-        "passen nav tikai par apģērbu.",
-        "Tas var nozīmēt arī, ka laiks, plāns vai risinājums der."
+        "passen handlar ikkje berre om klede.",
+        "Det kan òg tyda at ein tid, plan eller løysing passar."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17867,8 +17868,7 @@ const A1_WORDS = [
         "Põhiidee: probieren jähät proovima või maitsma.",
         "Kui jutt på rödöst või yogist, gejätt probieren säili maitsma.",
         "Kui jutt på kajjast, metodost või asjast, jajnja probieren proovima.",
-        "Testen er systematilist testimist või kontrollimist, mitte geistät proovimist.",
-        "Se ei ole sama mis prüfen, mis geschäfte kontrollima."
+        "Testen er systematilist testimist või kontrollimist, mitte geistät proovimist."
       ],
       "examples": [
         {
@@ -17896,22 +17896,22 @@ const A1_WORDS = [
         {
           "word": "probieren",
           "meaning": "Proovima / maitsma",
-          "example": "Probier mal die Suppe!"
+          "example": "Prøv suppa!"
         },
         {
           "word": "versuchen",
           "meaning": "Testlim / kontrolllim",
-          "example": "Ich versuche es."
+          "example": "Eg prøver det."
         },
         {
           "word": "prüfen",
           "meaning": "Üritama",
-          "example": "Ich prüfe die Rechnung."
+          "example": "Eg sjekkar rekninga."
         },
         {
           "word": "anprobieren",
           "meaning": "Kontrolllim",
-          "example": "Ich probiere die Jacke an."
+          "example": "Eg prøver jakka."
         },
         {
           "word": "Testen",
@@ -17923,8 +17923,8 @@ const A1_WORDS = [
         "text": "Atceries: ēdiens → probieren = nogaršot."
       },
       "important": [
-        "probieren nav galvenais vārds oficiālai pārbaudei.",
-        "Dokumentu vai rēķinu pārbaudīt parasti ir prüfen."
+        "probieren er ikkje hovudordet for offisiell kontroll.",
+        "For å kontrollere dokument eller reknskap er det vanlegvis prüfen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18236,8 +18236,8 @@ const A1_WORDS = [
         "text": "Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi."
       },
       "important": [
-        "der Reis — vācu valodā tikai vienskaitlis (Der Reis ist..., nicht *sind).",
-        "Latviski tulkojumā bieži lieto daudzskaitli: rīsi ir gatavi."
+        "der Reis — på tysk berre eintal (Der Reis ist..., nicht *sind).",
+        "I latvisk omsetjing bruker vi ofte fleirtal: rīsi ir gatavi."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18371,12 +18371,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sagen = teikt",
-        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+        "sagen = seie",
+        "Bruk sagen når konteksten passar til denne tydinga."
       ],
       "important": [
-        "sagen = pateikt.",
-        "Pateikt konkrētu domu, vārdu vai teikumu."
+        "sagen = seie.",
+        "Seie ein konkret tanke, ord eller setning."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18484,12 +18484,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "schauen = skatīties",
-        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
+        "schauen = sjå",
+        "Bruk schauen når konteksten passar til denne tydinga."
       ],
       "important": [
-        "schauen = skatīties.",
-        "Aktīvi skatīties vai palūkoties."
+        "schauen = sjå.",
+        "Sjå aktivt eller få auga på."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18634,12 +18634,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas jau ir noticis vai jau ir spēkā.",
-        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+        "Noko har allereie skjedd eller er allereie gjeldande.",
+        "Bruk schon når konteksten passar til denne tydinga."
       ],
       "important": [
-        "schon = jau.",
-        "Kaut kas jau ir noticis vai jau ir spēkā."
+        "schon = allereie.",
+        "Noko har allereie skjedd eller er allereie gjeldande."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18776,30 +18776,30 @@ const A1_WORDS = [
         {
           "word": "schwimmen",
           "meaning": "Ujuma bevegelsene või spordina",
-          "example": "Er schwimmt sehr gut."
+          "example": "Han swimming veldig bra."
         },
         {
           "word": "baden",
           "meaning": "Suplema / vees olema",
-          "example": "Ich gehe baden."
+          "example": "Eg går på bad."
         },
         {
           "word": "schwimmen gehen",
           "meaning": "Gå bort",
-          "example": "Wir gehen schwimmen."
+          "example": "Vi går på swimming."
         },
         {
           "word": "duschen",
           "meaning": "Duši all käima",
-          "example": "Ich dusche morgens."
+          "example": "Eg dusjar på morgonen."
         }
       ],
       "tip": {
         "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
       },
       "important": [
-        "schwimmen un baden nav viens un tas pats.",
-        "Latviski bieži saka “peldēt”, bet vāciski jāskatās, vai tā ir kustība vai peldēšanās."
+        "schwimmen og baden er ikkje det same.",
+        "På latvisk seier ein ofte \"peldēt\", men på tysk må ein sjå om det er rørsle eller svømjing."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19053,30 +19053,30 @@ const A1_WORDS = [
         {
           "word": "sehen",
           "meaning": "Nagema",
-          "example": "Ich sehe dich."
+          "example": "Eg ser deg."
         },
         {
           "word": "schauen",
           "meaning": "Klokke",
-          "example": "Ich schaue auf das Bild."
+          "example": "Eg sjåar på biletet."
         },
         {
           "word": "ansehen",
           "meaning": "Vaatama / vaatlema",
-          "example": "Ich sehe mir den Film an."
+          "example": "Eg ser på filmen."
         },
         {
           "word": "hören",
           "meaning": "Kuulma",
-          "example": "Ich höre Musik."
+          "example": "Eg høyrer på musikk."
         }
       ],
       "tip": {
         "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
       },
       "important": [
-        "sehen nav tas pats, kas anschauen.",
-        "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+        "sehen er ikkje det same som anschauen.",
+        "Ich sehe dich = eg ser deg; Ich schaue den Film = eg ser på filmen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19302,30 +19302,30 @@ const A1_WORDS = [
         {
           "word": "sein",
           "meaning": "Olema",
-          "example": "Ich bin hier."
+          "example": "Eg er her."
         },
         {
           "word": "haben",
           "meaning": "Mul på",
-          "example": "Ich habe Zeit."
+          "example": "Eg har tid."
         },
         {
           "word": "werden",
           "meaning": "Saama",
-          "example": "Ich werde müde."
+          "example": "Eg blir trøytt."
         },
         {
           "word": "bleiben",
           "meaning": "Jääma",
-          "example": "Ich bleibe hier."
+          "example": "Eg blir her."
         }
       ],
       "tip": {
         "text": "Atceries: ich bin = es esmu; du bist = tu esi."
       },
       "important": [
-        "sein formas jāiemācās atsevišķi: bin, bist, ist, sind.",
-        "Ich bin ir “es esmu”, nevis “es būt”."
+        "sein-formene må lærast særskilt: bin, bist, ist, sind.",
+        "Ich bin er \"eg er\", ikkje \"eg skal vere\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19548,12 +19548,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Runā par grāmatu vai lasīšanu → lappuse. Runā par novietojumu, virzienu vai attiecībām → puse.",
-        "Seite X grāmatā vienmēr ir lappuse, ne puse."
+        "Om du snakkar om ei bok eller lesing → side. Om du snakkar om plassering, retning eller forhold → kant.",
+        "Seite X i ei bok er alltid side, ikkje kant."
       ],
       "important": [
-        "die Seite = lappuse VAI puse — konteksts izšķir.",
-        "Daudzskaitlī abām nozīmēm: die Seiten."
+        "die Seite = side ELLER kant — konteksten avgjør.",
+        "Mitmuses to betydninger: die Seiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19723,30 +19723,30 @@ const A1_WORDS = [
         {
           "word": "sich",
           "meaning": "Slutt / i seg selv",
-          "example": "Er wäscht sich."
+          "example": "Han vaskar seg."
         },
         {
           "word": "mich",
           "meaning": "Mind / svägä ich puluh",
-          "example": "Ich wasche mich."
+          "example": "Eg vaskar meg."
         },
         {
           "word": "dich",
           "meaning": "Sind / mägä du pulu",
-          "example": "Du wäschst dich."
+          "example": "Du vaskar deg."
         },
         {
           "word": "ihn",
           "meaning": "Teda",
-          "example": "Ich sehe ihn."
+          "example": "Eg ser han."
         }
       ],
       "tip": {
         "text": "Atceries: darbība uz sevi → sich/mich/dich."
       },
       "important": [
-        "sich nav patstāvīgs lietvārds.",
-        "Tas mainās pēc personas: ich → mich, du → dich, er/sie/es → sich."
+        "sich er ikkje eit sjølvstendig ord.",
+        "Det skiftar etter person: ich → mich, du → dich, er/sie/es → sich."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19963,12 +19963,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par vietu vai situāciju (drošība) → drošs.",
-        "Kā pārliecība vai apstiprinājums teikumā → noteikti/droši vien."
+        "Om ein stad eller situasjon (tryggleik) → trygg.",
+        "Som sikkerheit eller bekreftelse i setningen → visst/truleg."
       ],
       "important": [
-        "sicher = drošs (īpašības vārds) VAI noteikti/droši vien (apstākļa vārds).",
-        "sich sicher sein = būt pārliecinātam."
+        "sicher = trygg (adjektiv) ELLER visst/truleg (adverb).",
+        "sich sicher sein = vere sikker."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20129,14 +20129,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
-        "Izmanto sie, kad konteksts atbilst šai nozīmei."
+        "Fleirtal-forma — snakkar om fleire menneske. Verbet endar på -en: kochen, essen, gehen.",
+        "Bruk sie når konteksten passar til denne tydinga."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "Høflege tiltal alltid med stor S: Sie, ikkje sie.",
+        "Ho: Sie kocht. Dei: sie kochen. Dykk: Sie kochen.",
+        "Feil: sie kocht → Riktig: Sie kocht",
+        "Feil: Sie kocht (dei) → Riktig: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20296,14 +20296,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
-        "Izmanto Sie, kad konteksts atbilst šai nozīmei."
+        "Høflege tiltal — alltid med stor S. Norsk: de/dykk. Ofte med verb i fleirtal.",
+        "Bruk Sie når konteksten passar til denne tydinga."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "Høflege tiltal alltid med stor S: Sie, ikkje sie.",
+        "Ho: Sie kocht. Dei: sie kochen. Dykk: Sie kochen.",
+        "Feil: sie kocht → Riktig: Sie kocht",
+        "Feil: Sie kocht (dei) → Riktig: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20483,30 +20483,30 @@ const A1_WORDS = [
         {
           "word": "sitzen",
           "meaning": "Isthuma",
-          "example": "Ich sitze am Tisch."
+          "example": "Eg sit ved bordet."
         },
         {
           "word": "stehen",
           "meaning": "Seismisk",
-          "example": "Er steht an der Tür."
+          "example": "Han står ved døra."
         },
         {
           "word": "liegen",
           "meaning": "Lamama / pikali olema",
-          "example": "Die Katze liegt dort."
+          "example": "Katten ligg der."
         },
         {
           "word": "setzen",
           "meaning": "Istet umma / istuma panema",
-          "example": "Ich setze mich."
+          "example": "Eg set meg."
         }
       ],
       "tip": {
         "text": "Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen."
       },
       "important": [
-        "sitzen rāda stāvokli “sēdēt”.",
-        "Apsēsties ir sich setzen, nevis sitzen."
+        "sitzen viser stiliing \"å sitje\".",
+        "Å setje seg er sich setzen, ikkje sitzen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20753,30 +20753,30 @@ const A1_WORDS = [
         {
           "word": "sollen",
           "meaning": "Topper / juhise tämä täma",
-          "example": "Was soll ich machen?"
+          "example": "Kva skal eg gjera?"
         },
         {
           "word": "müssen",
           "meaning": "Tingimata vaja olema",
-          "example": "Ich muss gehen."
+          "example": "Eg må gå."
         },
         {
           "word": "können",
           "meaning": "Saama",
-          "example": "Ich kann kommen."
+          "example": "Eg kan komme."
         },
         {
           "word": "wollen",
           "meaning": "Tahtma",
-          "example": "Ich will bleiben."
+          "example": "Eg vil bli."
         }
       ],
       "tip": {
         "text": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen."
       },
       "important": [
-        "Was soll ich machen? ir ļoti bieža frāze.",
-        "sollen un müssen nav pilnīgi vienādi."
+        "Was soll ich machen? er ei veldig vanleg frase.",
+        "sollen og müssen er ikkje heilt like."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21058,30 +21058,30 @@ const A1_WORDS = [
         {
           "word": "stehen",
           "meaning": "Seisma",
-          "example": "Ich stehe hier."
+          "example": "Eg står her."
         },
         {
           "word": "sitzen",
           "meaning": "Isthuma",
-          "example": "Er sitzt am Tisch."
+          "example": "Han sit ved bordet."
         },
         {
           "word": "liegen",
           "meaning": "Lamama / pikali olema",
-          "example": "Das Buch liegt dort."
+          "example": "Boka ligg der."
         },
         {
           "word": "stellen",
           "meaning": "Püsti panema",
-          "example": "Ich stelle die Flasche hin."
+          "example": "Eg set flaska."
         }
       ],
       "tip": {
         "text": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."
       },
       "important": [
-        "stehen rāda stāvokli, nevis darbību “nolikt”.",
-        "Nolikt priekšmetu stāvus ir stellen, nevis stehen."
+        "stehen viser tilstand, ikkje handling «plassering».",
+        "Å plassere gjenstandar på stader er stellen, ikkje stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21504,30 +21504,30 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Kohal / kohta / üle",
-          "example": "Wir sprechen über das Wetter."
+          "example": "Vi snakkar om vêret."
         },
         {
           "word": "auf",
           "meaning": "Pinnal",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Boka ligg på bordet."
         },
         {
           "word": "unter",
           "meaning": "Alle",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Vesken er under bordet."
         },
         {
           "word": "von",
           "meaning": "-st / kohta mingist målst",
-          "example": "Ich höre von dir."
+          "example": "Eg høyrer frå deg."
         }
       ],
       "tip": {
         "text": "Atceries: tēma sarunā → über; virs galda → über."
       },
       "important": [
-        "über nav tikai vietas vārds.",
-        "sprechen über nozīmē “runāt par”."
+        "über er ikkje berre eit stadsord.",
+        "sprechen über tyder «tala om»."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21769,30 +21769,30 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "Kell / umbe / et",
-          "example": "Ich komme um acht."
+          "example": "Eg kjem klokka åtte."
         },
         {
           "word": "am",
           "meaning": "Päeval",
-          "example": "Am Montag komme ich."
+          "example": "On måndag kjem eg."
         },
         {
           "word": "gegen",
           "meaning": "Kella paiku / vastu",
-          "example": "Ich komme gegen acht."
+          "example": "Eg kjem omkring klokka åtte."
         },
         {
           "word": "für",
           "meaning": "Jaoks / kasuks",
-          "example": "Das ist für dich."
+          "example": "Det er for deg."
         }
       ],
       "tip": {
         "text": "Atceries: um acht = pulksten astoņos."
       },
       "important": [
-        "um ar laiku parasti ir “pulksten”.",
-        "um ... zu bieži nozīmē “lai ...”."
+        "um med tid er vanlegvis «klokka».",
+        "um ... zu ofte tyder «for å ...»."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22033,30 +22033,30 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Alle / hav",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Vesken er under bordet."
         },
         {
           "word": "über",
           "meaning": "Kohal / kohta",
-          "example": "Die Lampe hängt über dem Tisch."
+          "example": "Lampa hengg over bordet."
         },
         {
           "word": "zwischen",
           "meaning": "Kahe asja vahal",
-          "example": "Zwischen den Häusern."
+          "example": "Mellom husa."
         },
         {
           "word": "auf",
           "meaning": "Pinnal",
-          "example": "Auf dem Tisch."
+          "example": "På bordet."
         }
       ],
       "tip": {
         "text": "Atceries: zem galda → unter dem Tisch."
       },
       "important": [
-        "unter var nozīmēt arī “starp”, īpaši ar cilvēkiem vai grupām.",
-        "unter un über bieži ir pretstati vietas nozīmē."
+        "unter kan òg tydast «mellom», særleg med mennesker eller grupper.",
+        "unter og über er ofte motsetningar i stadsmerknad."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22314,30 +22314,30 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Forstå",
-          "example": "Ich verstehe dich."
+          "example": "Eg forstår deg."
         },
         {
           "word": "können",
           "meaning": "Saama / oskama",
-          "example": "Ich kann schwimmen."
+          "example": "Eg kan svømme."
         },
         {
           "word": "wissen",
           "meaning": "Vet faktisk ikke",
-          "example": "Ich weiß das."
+          "example": "Eg veit det."
         },
         {
           "word": "kennen",
           "meaning": "Tynning",
-          "example": "Ich kenne ihn."
+          "example": "Eg kjenner han."
         }
       ],
       "tip": {
         "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
       },
       "important": [
-        "verstehen nav galvenais vārds nozīmei “prast”.",
-        "Ich verstehe Deutsch nozīmē “es saprotu vāciski”."
+        "verstehen er ikkje hovudordet for tydinga «kunna».",
+        "Ich verstehe Deutsch tyder «eg forstår tysk»."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22650,14 +22650,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: von + dem → vom (kam?).",
-        "Sarunvalodā gandrīz nekad nesaka von dem — lieto vom."
+        "Husk: von + dem → vom (spørsmål-kasus?).",
+        "I talespråk seier ein nesten aldri von dem — bruk vom."
       ],
       "important": [
-        "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda izcelsmi, avotu vai virzienu no kā konkrēta.",
-        "Sieviešu dzimtei: von der Mutter, nevis vom Mutter.",
-        "Nesajauc ar aus (izcelsme no valsts) vai ab (sākuma punkts)."
+        "vom = von dem, berre med hannkjønn eller intetkjønn substantiv i spørsmål-kasus.",
+        "Viser opphav, kjelde eller retning frå noko spesifikt.",
+        "For hokjønn: von der Mutter, ikkje vom Mutter.",
+        "Ikkje blanda med aus (opphav frå land) eller ab (startpunkt)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22953,30 +22953,30 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Enne / ees",
-          "example": "Vor dem Essen..."
+          "example": "Før maten..."
         },
         {
           "word": "nach",
           "meaning": "Etter / basseng",
-          "example": "Nach dem Essen..."
+          "example": "Etter maten..."
         },
         {
           "word": "neben",
           "meaning": "Körval",
-          "example": "Neben dem Haus."
+          "example": "Ved sida av huset."
         },
         {
           "word": "hinter",
           "meaning": "Ta",
-          "example": "Hinter dem Haus."
+          "example": "Bak huset."
         }
       ],
       "tip": {
         "text": "Atceries: pirms laikā, priekšā vietā → vor."
       },
       "important": [
-        "vor var būt gan laiks, gan vieta.",
-        "vor dem Essen = pirms ēšanas; vor dem Haus = mājas priekšā."
+        "vor kan vere både tid og stad.",
+        "vor dem Essen = før måltid; vor dem Haus = framfor huset."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23253,14 +23253,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "was pats nemainās — vācu valodā tas vienmēr ir was; latviski izvēlies kas vai ko pēc teikuma daļas.",
-        "Ātrs triks: ja uz jautājumu var atbildēt ar 'Tas ir ...', lieto kas; ja atbilde nāk pēc darbības vārda kā papildinājums, lieto ko."
+        "was sjøl endrast ikkje — på tysk er det alltid was; på norsk vel du kas eller ko etter setningsdelen.",
+        "Rask triks: om du kan svara på spørsmålet med «Det er ...», bruk kas; om svaret kjem etter det sterke verbet som tillegg, bruk ko."
       ],
       "important": [
-        "was jautā par lietām, notikumiem un faktiem — nekad par personām.",
-        "Par personām jautā ar wer (kas/kurš), nevis was.",
-        "was für (ein/eine) nozīmē kāds/kas par un jautā par īpašību vai veidu (Was für ein Film ist das? = Kāda tā ir filma?).",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "was spør om ting, hendingar og fakta — aldri om personar.",
+        "Isikute kohta ösıtakse sönaga wer (kes/milline), mitte var.",
+        "was für (ein/eine) tyder kva slags/kva for og spør um eigenskapen eller arten (Was für ein Film ist das? = Kva for ein film er det?).",
+        "Ikkje rett: Wer ist passiert? → Rett: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23488,30 +23488,30 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Kui (tingimus) / kui (aeg)",
-          "example": "Wenn du Zeit hast..."
+          "example": "Om du har tid..."
         },
         {
           "word": "ob",
           "meaning": "Kas ervägeves määuses",
-          "example": "Ich weiß nicht, ob..."
+          "example": "Eg veit ikkje om..."
         },
         {
           "word": "wann",
           "meaning": "Millal blir spurt",
-          "example": "Wann kommst du?"
+          "example": "Når kjem du?"
         },
         {
           "word": "weil",
           "meaning": "Siste",
-          "example": "Ich bleibe, weil ich krank bin."
+          "example": "Eg blir sjuk."
         }
       ],
       "tip": {
         "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
       },
       "important": [
-        "wenn un wann nav viens un tas pats.",
-        "Wann kommst du? ir jautājums. Wenn du kommst... ir nosacījums/laiks."
+        "wenn og wann er ikkje det same.",
+        "Wann kommst du? er eit spørsmål. Wenn du kommst... er ein vilkår/tid."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23733,14 +23733,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
-        "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
+        "wer spør om personar (kva/kven) — om ting og hendingar bruk was.",
+        "For å spørja om val mellom fleire mennesker, bruk wer von... (kven av...)."
       ],
       "important": [
-        "wer jautā tikai par personām, nekad par lietām.",
-        "Par lietām un notikumiem jautā ar was, nevis wer.",
-        "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "wer spør berre om personar, aldri om ting.",
+        "Om ting og hendingar spørst med was, ikkje wer.",
+        "wer endrast etter kasus: wen, wem, wessen — men grunnforma er wer.",
+        "Ikkje rett: Wer ist passiert? → Rett: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23926,30 +23926,30 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Saama",
-          "example": "Ich werde müde."
+          "example": "Eg blir trøytt."
         },
         {
           "word": "sein",
           "meaning": "Olema",
-          "example": "Ich bin müde."
+          "example": "Eg er trøytt."
         },
         {
           "word": "bleiben",
           "meaning": "Jääma",
-          "example": "Ich bleibe hier."
+          "example": "Eg blir her."
         },
         {
           "word": "machen",
           "meaning": "Tegema / virittama",
-          "example": "Ich mache das."
+          "example": "Eg gjer det."
         }
       ],
       "tip": {
         "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
       },
       "important": [
-        "werden nav tas pats, kas sein.",
-        "Ich werde müde = es kļūstu noguris; Ich bin müde = es esmu noguris."
+        "werden er ikkje det same som sein.",
+        "Ich werde müde = eg blir lei; Ich bin müde = eg er lei."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24166,31 +24166,31 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Ilm",
-          "example": "Das Wetter ist schön."
+          "example": "Vêret er fint."
         },
         {
           "word": "Zeit",
           "meaning": "Aeg",
-          "example": "Ich habe keine Zeit."
+          "example": "Eg har ikkje tid."
         },
         {
           "word": "Regen",
           "meaning": "Hmm",
-          "example": "Es gibt viel Regen."
+          "example": "Det regnar mykje."
         },
         {
           "word": "Sonne",
           "meaning": "Gjedde",
-          "example": "Die Sonne scheint."
+          "example": "Solen skinn."
         }
       ],
       "tip": [
-        "Ja runā par sauli, lietu vai temperatūru ārpusē — lieto das Wetter.",
-        "Atceries: Wie ist das Wetter? = Kāds laiks? (ne pulkstenis)."
+        "Om du talar om solen, regn eller temperatur utanfor — bruk das Wetter.",
+        "Husk: Wie ist das Wetter? = Korleis er vêret? (ikkje klokke)."
       ],
       "important": [
-        "das Wetter = laikapstākļi, ne laiks pulkstenī.",
-        "die Zeit = laiks kā brīdis vai iespēja — cita karte A1."
+        "das Wetter = vêrkår, ikkje klokketid.",
+        "die Zeit = tid som augneblikk eller moglegheit — anna kort A1."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24435,13 +24435,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wie pati par sevi = kā (veids); wie + īpašības vārds (viel/alt/lange) = cik (apjoms).",
-        "Salīdzinājumā so ... wie = tikpat ... kā."
+        "wie sjøl = korleis (måte); wie + adjektiv (viel/alt/lange) = kor (omfang).",
+        "I samanliking so ... wie = like ... som."
       ],
       "important": [
-        "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
-        "wie viens pats (Wie...?) parasti = kā, ne cik.",
-        "Nepareizi: Cik tev iet? → Pareizi: Kā tev iet? (Wie geht's?)"
+        "wie viel(e) = kor mykje; wie alt = kor gamal; wie lange = kor lenge.",
+        "wie aleine (Wie...?) vanlegvis = korleis, ikkje kor.",
+        "Ikkje rett: Kor gamalt er det? → Rett: Korleis går det? (Wie geht's?)"
       ],
       "sectionAccents": {
         "explanation": {
@@ -24650,30 +24650,30 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "-sse / tore / liiga / infinitiv",
-          "example": "Ich gehe zum Arzt."
+          "example": "Eg går til legen."
         },
         {
           "word": "nach",
           "meaning": "-sse linnade/riikigega",
-          "example": "Ich fahre nach Berlin."
+          "example": "Eg køyrer til Berlin."
         },
         {
           "word": "in",
           "meaning": "Vi sees / mingisse kohta",
-          "example": "Ich gehe in die Schule."
+          "example": "Eg går på skule."
         },
         {
           "word": "bei",
           "meaning": "Kellegi kures / töö kures",
-          "example": "Ich bin bei Anna."
+          "example": "Eg er hjå Anna."
         }
       ],
       "tip": {
         "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
       },
       "important": [
-        "zu ir ļoti daudz lietojumu, tāpēc vienmēr skaties uz konstrukciju.",
-        "zu teuer nozīmē “pārāk dārgi”, nevis “uz dārgi”."
+        "zu har veldig mange bruksområde, så sjekk alltid konstruksjonen.",
+        "zu teuer tyder «for dyrt», ikkje «til dyrt»."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24902,30 +24902,30 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Rong",
-          "example": "Der Zug kommt."
+          "example": "Toget kjem."
         },
         {
           "word": "die Bahn",
           "meaning": "Raudtee / rongiga judmine",
-          "example": "Ich fahre mit der Bahn."
+          "example": "Eg køyrer med banen."
         },
         {
           "word": "der Bus",
           "meaning": "Buss",
-          "example": "Der Bus kommt."
+          "example": "Bussen kjem."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Trikk",
-          "example": "Die Straßenbahn ist hier."
+          "example": "Sporvogna er her."
         }
       ],
       "tip": {
         "text": "Atceries: konkrēts vilciens → der Zug."
       },
       "important": [
-        "der Zug virsrakstā jāuztver kā “vilciens”.",
-        "Retākās nozīmes nav vajadzīgas galvenajā A1 virsrakstā."
+        "der Zug i tittelen skal oppfattast som «tog».",
+        "Sjeldnare tydingar er ikkje nødvendige i A1-hovudtittelen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25173,14 +25173,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: zu + dem → zum (kam?).",
-        "Sievišķās dzimtes vārdiem: zu + der → zur."
+        "Husk: zu + dem → zum (spørsmål-kasus?).",
+        "For hokjønn substantiv: zu + der → zur."
       ],
       "important": [
-        "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
-        "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
-        "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
+        "zum = zu dem, berre med hannkjønn eller intetkjønn substantiv i spørsmål-kasus.",
+        "Viser retning eller mål: til legen, til stasjonen, til vennen.",
+        "For hokjønn bruk zur: zur Bank, zur Post.",
+        "Ikkje blanda med bei (opphaldsstad ved) eller nach (til byar utan artikkel)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25540,17 +25540,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Telerit vaatama",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Eg ser TV."
         },
         {
           "word": "das Fernsehen",
           "meaning": "TV (middels)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = På TV køyrer ein film."
         },
         {
           "word": "sehen",
           "meaning": "Nagema",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Eg ser ein film."
         }
       ],
       "tip": {
@@ -25666,14 +25666,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-        "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
+        "Hvis du snakkar om handling, brukar du fernsehen (ich sehe fern). Hvis du snakkar om TV-program eller media, brukar du das Fernsehen.",
+        "Substantiv, berre eintal. Skildrar TV som medium eller sending totalt sett."
       ],
       "important": [
-        "fernsehen ir sadalāms: sehen + fern.",
-        "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
-        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
-        "Darbība: fernsehen → ich sehe fern."
+        "fernsehen er delbart: sehen + fern.",
+        "das Fernsehen er ikkje i fleirtal — ikkje *die Fernsehen.",
+        "Feil: die Fernsehen → Rett: das Fernsehen",
+        "Handling: fernsehen → ich sehe fern."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25811,14 +25811,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Appetit = apetīte",
-        "Izmanto der Appetit, kad konteksts atbilst šai nozīmei."
+        "der Appetit = matappetitt",
+        "Bruk der Appetit når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "der Appetit ir tikai vienskaitlī.",
-        "Nepareizi: die Appetite → Pareizi: der Appetit",
-        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
-        "Sajūta: der Appetit."
+        "der Appetit er berre i eintal.",
+        "Feil: die Appetite → Rett: der Appetit",
+        "Feil: Ich bin Appetit. → Rett: Ich habe Appetit.",
+        "Kjensle: der Appetit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25933,14 +25933,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "essen = ēst",
-        "Izmanto essen, kad konteksts atbilst šai nozīmei."
+        "essen = eta",
+        "Bruk essen når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "essen er eit verb utan artikkel.",
+        "das Essen er ikkje det same som essen.",
+        "Handling: essen.",
+        "Ting/måltid: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26097,14 +26097,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Essen = ēst",
-        "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
+        "das Essen = mat",
+        "Bruk das Essen når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "essen er eit verb utan artikkel.",
+        "das Essen er ikkje det same som essen.",
+        "Handling: essen.",
+        "Ting/måltid: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26267,13 +26267,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Gemüse = dārzeņi",
-        "Izmanto das Gemüse, kad konteksts atbilst šai nozīmei."
+        "das Gemüse = grønsaker",
+        "Bruk das Gemüse når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "Nav pareizi: die Gemüse, die Obsts.",
-        "Nepareizi: die Gemüse → Pareizi: das Gemüse",
-        "das Gemüse = dārzeņi (kopumā)."
+        "Det er ikkje rett: die Gemüse, die Obsts.",
+        "Feil: die Gemüse → Rett: das Gemüse",
+        "das Gemüse = grønsaker (i heilskap)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26417,12 +26417,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Obst = augļi",
-        "Izmanto das Obst, kad konteksts atbilst šai nozīmei."
+        "das Obst = frukter",
+        "Bruk das Obst når konteksten passar til denne tydinga."
       ],
       "important": [
-        "Nepareizi: die Obsts → Pareizi: das Obst",
-        "das Obst = augļi (kopumā)."
+        "Feil: die Obsts → Riktig: das Obst",
+        "das Obst = frukter (til saman)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26570,14 +26570,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
-        "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
+        "berre fleirtal. Skule- eller studielysferie — alltid fleirtal.",
+        "Bruk die Ferien når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "Ferien vienmēr ar datīvu: in den Ferien.",
-        "Nepareizi: in der Ferien → Pareizi: in den Ferien",
-        "Skola: die Ferien (tikai daudzskaitlī).",
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
+        "Ferien alltid med dativ: in den Ferien.",
+        "Feil: in der Ferien → Rett: in den Ferien",
+        "Skule: die Ferien (berre fleirtal).",
+        "berre fleirtal. Skule- eller studielysferie — alltid fleirtal."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26734,14 +26734,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
+        "berre eintal. Fridag frå arbeid — alltid eintal.",
+        "Bruk der Urlaub når samanhengen passar til denne tydinga."
       ],
       "important": [
-        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
-        "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
-        "Darbs: der Urlaub (tikai vienskaitlī)."
+        "Ikkje rett: die Ferie, der Urlaube (på A1-nivå).",
+        "Ferie: vere på ferie / ta ferie.",
+        "Ikkje rett: die Urlaube → Rett: der Urlaub",
+        "Arbeid: der Urlaub (berre eintal)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26892,12 +26892,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
-        "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
+        "Klokke eller armbandsur. Òg klokketid: Es ist acht Uhr.",
+        "Bruk die Uhr når samanhengen passar til denne tydinga."
       ],
       "important": [
-        "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
-        "die Uhr: pārbaudi kontekstu pirms lietošanas."
+        "die Uhr: apparat (meine Uhr) eller tid (acht Uhr).",
+        "die Uhr: sjekk samanhengen før bruk."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27038,12 +27038,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Laiks kā jēdziens — brīdis, iespēja, laika posms.",
-        "Izmanto die Zeit, kad konteksts atbilst šai nozīmei."
+        "Tid som omgrep — augneblikk, moglegheit, tidsrom.",
+        "Bruk die Zeit når samanhengen passar til denne tydinga."
       ],
       "important": [
-        "die Zeit: pārbaudi kontekstu pirms lietošanas.",
-        "die Zeit: pārbaudi kontekstu pirms lietošanas."
+        "die Zeit: sjekk samanhengen før bruk.",
+        "die Zeit: sjekk samanhengen før bruk."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27151,12 +27151,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "einmal = vienreiz",
-        "Izmanto einmal, kad konteksts atbilst šai nozīmei."
+        "einmal = ein gong",
+        "Bruk einmal når konteksten samsvarar med denne tydinga."
       ],
       "important": [
-        "einmal = vienreiz vai reiz pagātnē.",
-        "Norāda uz vienu reizi vai pagātni (reiz es biju...)."
+        "einmal = ein gong eller ein gong i fortida.",
+        "Peiker på ein gong eller fortida (ein gong var eg...)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -27246,12 +27246,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei.",
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei."
+        "Bruk noch mal når konteksten passar til denne tydinga.",
+        "Bruk noch mal når konteksten passar til denne tydinga."
       ],
       "important": [
-        "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
-        "noch mal: pārbaudi kontekstu pirms lietošanas."
+        "Det tyder ein gong til — gjenta ein handling eller be om gjentaking.",
+        "noch mal: sjekk konteksten før du bruker det."
       ],
       "sectionAccents": {
         "explanation": {

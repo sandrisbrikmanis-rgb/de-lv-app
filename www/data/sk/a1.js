@@ -135,10 +135,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: Malá veľkosťou alebo rozsahom.",
         "Klein znamená hlavne: malé rozmery.",
-        "Často opisuje: veľkosť veci/osoby.",
-        "Klein v podstate znamená: malý/nový.",
-        "Často opisuje: dieťa.",
-        "Klein opisuje malú veľkosť."
+        "Často opisuje: veľkosť veci/osoby."
       ],
       "examples": [
         {
@@ -168,8 +165,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Klein = malá veľkosť.",
-        "Klein = malý.",
-        "Malá veľkosťou alebo rozsahom."
+        "Klein = malý."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1033,7 +1029,8 @@ const A1_WORDS = [
       ],
       "important": [
         "Ich auch wünsche Ihnen nie je správny slovosled.",
-        "Ou = tiež."
+        "Ou = tiež.",
+        "Nesprávne: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2163,7 +2160,7 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Navštívte",
+    "lv": "návšteva",
     "level": "A1"
   },
   {
@@ -2175,7 +2172,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "Zúčastnite sa • Navštívte",
+    "lv": "navštíviť",
     "level": "A1"
   },
   {
@@ -2318,7 +2315,8 @@ const A1_WORDS = [
       },
       "important": [
         "Encore = do limitu alebo bodu v čase.",
-        "Bis jetzt = doteraz • Bis dass = kým."
+        "Bis jetzt = doteraz • Bis dass = kým.",
+        "bis jetzt znamená doteraz."
       ]
     }
   },
@@ -2338,12 +2336,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: Zdvorilé slovo napísané malými písmenami. Kedysi som bol dobrý - prosím.",
         "Bitte znamená hlavne: zdvorilosť.",
-        "Často opisuje: zdvorilé slovo.",
-        "Bitte znamená hlavne: žiadosť/žiadosť.",
-        "Často charakterizované: podstatným menom (zomrieť).",
-        "Bitte písané malým písmenom je zdvorilé slovo – znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte s veľkým začiatočným písmenom a člen die je podstatné meno - znamená žiadosť alebo žiadosť (Ich habe eine Bitte = mám prosbu).",
-        "Množné číslo: zomrieť uhryznutý."
+        "Často opisuje: zdvorilé slovo."
       ],
       "examples": [
         {
@@ -2378,8 +2371,7 @@ const A1_WORDS = [
       "important": [
         "Bitte sa píše malým písmom – je to zdvorilé slovo, nie podstatné meno.",
         "Die Bitte sa píše veľkými písmenami a článok die je podstatné meno.",
-        "Množné číslo: die Bitten (žiadosti).",
-        "Nesprávne: Die Bitte schön! → Správne: Bitte schön!"
+        "Množné číslo: die Bitten (žiadosti)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2441,13 +2433,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Prosím",
+          "example": "Komm bitte herein. – Prosím ťa, vojdi dnu."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Žiadosť",
+          "example": "Ich habe eine Bitte. – Mám jednu prosbu."
         }
       ]
     }
@@ -2466,11 +2458,7 @@ const A1_WORDS = [
         "Hlavná myšlienka: Podstatné meno s článkom zomrieť a veľkým písmenom. Konkrétna žiadosť alebo žiadosť.",
         "Die Bitte znamená hlavne: zdvorilosť.",
         "Často opisuje: zdvorilé slovo.",
-        "Die Bitte v podstate znamená: žiadosť/žiadosť.",
-        "Často charakterizované: podstatným menom (zomrieť).",
-        "Bitte písané malým písmenom je zdvorilé slovo – znamená prosím (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte s veľkým začiatočným písmenom a člen die je podstatné meno - znamená žiadosť alebo žiadosť (Ich habe eine Bitte = mám prosbu).",
-        "Množné číslo: zomrieť uhryznutý."
+        "Die Bitte v podstate znamená: žiadosť/žiadosť."
       ],
       "examples": [
         {
@@ -2505,8 +2493,7 @@ const A1_WORDS = [
       "important": [
         "Bitte sa píše malým písmom – je to zdvorilé slovo, nie podstatné meno.",
         "Die Bitte sa píše veľkými písmenami a článok die je podstatné meno.",
-        "Množné číslo: die Bitten (žiadosti).",
-        "Nesprávne: Die Bitte schön! → Správne: Bitte schön!"
+        "Množné číslo: die Bitten (žiadosti)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2568,13 +2555,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Žiadosť",
+          "example": "Ich habe eine Bitte. – Mám jednu prosbu."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Prosím",
+          "example": "Komm bitte herein. – Prosím ťa, vojdi dnu."
         }
       ]
     }
@@ -2873,7 +2860,8 @@ const A1_WORDS = [
         "Hlavná myšlienka: priniesť znamená niekomu niečo priniesť, niesť alebo doručiť.",
         "Prinesené používame, keď sa niečo presúva na iné miesto alebo k inej osobe.",
         "To nie je to isté ako nehmen, pretože nehmen znamená brať pre seba.",
-        "Holen znamená niekoho nasledovať, priniesť alebo vziať."
+        "Holen znamená niekoho nasledovať, priniesť alebo vziať.",
+        "Preklad určuje kontext."
       ],
       "examples": [
         {
@@ -2916,8 +2904,8 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "vziať si",
+          "example": "Ich nehme das Buch. – Beriem si knihu."
         }
       ],
       "tip": {
@@ -2925,7 +2913,8 @@ const A1_WORDS = [
       },
       "important": [
         "Bringen dáva niekomu alebo miestu smer.",
-        "Nehmen znamená vziať, ale nie nevyhnutne doručiť inému."
+        "Nehmen znamená vziať, ale nie nevyhnutne doručiť inému.",
+        "Slovenský preklad závisí od kontextu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -4045,7 +4034,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Neurčitý člen • Jeden • Niekto",
-      "explanation": "Používa sa s podstatným menom mužského rodu. Poukázanie na jednu vec alebo osobu z niekoľkých možností.",
+      "explanation": [
+        "Hlavná myšlienka: ein je neurčitý článok.",
+        "ein je neurčitý článok pre podstatné mená mužského a stredného rodu v nominatíve.",
+        "ein sa používa v mužskom rode: ein Mann.",
+        "ein sa používa v strednom rode: ein Buch.",
+        "V ženskom rode sa používa: eine.",
+        "V akuzatíve v mužskom rode: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -4061,7 +4057,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "Dieťa sa hrá."
         }
       ],
       "tip": {
@@ -4153,27 +4149,29 @@ const A1_WORDS = [
       },
       "important": [
         "Ein nie je určitý článok.",
-        "Ak je vec už konkrétne známa, často je potrebné der, die alebo das."
+        "Ak je vec už konkrétne známa, často je potrebné der, die alebo das.",
+        "eine — ženský rod.",
+        "einen — akuzatív."
       ],
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
+          "meaning": "mužský rod",
           "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
+          "meaning": "ženský rod",
           "example": "eine Frau"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
+          "meaning": "stredný rod",
           "example": "Ich habe ein Buch."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
+          "meaning": "akuzatív",
           "example": "einen Mann"
         }
       ]
@@ -4231,22 +4229,22 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Zmrzlina / zmrzlina",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Jem zmrzlinu."
         },
         {
           "word": "der Schnee",
           "meaning": "Bude sneh",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = Sneh je biely."
         },
         {
           "word": "kalt",
           "meaning": "Studená",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = Voda je studená."
         },
         {
           "word": "das Dessert",
           "meaning": "Dezert",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = Zmrzlina je dezert."
         }
       ],
       "tip": {
@@ -4443,7 +4441,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "Prvý • Len",
-      "explanation": "„prvý“ sa používa na označenie poradia (prvý) alebo na zdôraznenie toho, že sa niečo stane neskôr, ako sa očakávalo, alebo v menšom rozsahu (iba).",
+      "explanation": [
+        "Hlavná myšlienka: erst najčastejšie znamená iba. V určitom kontexte však môže znamenať aj najprv.",
+        "erst často naznačuje, že sa niečo stane neskôr, ako sa očakávalo.",
+        "Ich bin erst 18. — Mám iba 18 rokov.",
+        "Es ist erst Montag. — Je iba pondelok.",
+        "Erst lernen, dann spielen. — Najprv sa učiť, potom sa hrať."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -4471,17 +4475,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Prvý • Na začiatku",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Najprv raňajkujeme."
         },
         {
           "word": "nur",
           "meaning": "Len",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Mám iba 5 eur."
         },
         {
           "word": "dann",
           "meaning": "Potom",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Potom ideme domov."
         }
       ],
       "tip": {
@@ -4607,7 +4611,8 @@ const A1_WORDS = [
       },
       "important": [
         "Erst a nur môžu znieť ako „len“, ale nie sú to isté.",
-        "Prvý často hovorí o čase, postupnosti alebo dosiahnutí bodu • Nur obmedzuje množstvo."
+        "Prvý často hovorí o čase, postupnosti alebo dosiahnutí bodu • Nur obmedzuje množstvo.",
+        "zuerst často znamená: najprv."
       ]
     }
   },
@@ -4624,7 +4629,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "Do • Do • Neosobná forma",
-      "explanation": "Nemecké „ja“ sa nezvykne rozprávať o sebe. Používa sa na označenie: toho, toho alebo neosobnej formy (počasie, čas, rôzne neosobné vety).",
+      "explanation": [
+        "Hlavná myšlienka: es je zámeno.",
+        "Používa sa: to, v bezosôbnych konštrukciách."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -4756,18 +4764,19 @@ const A1_WORDS = [
       },
       "important": [
         "Nemecké „ja“ nie je lotyšské „ja“.",
-        "Lotyšské „ja“ je v nemčine ich • Nemecké es často znamená toto/tie alebo sa neprekladá."
+        "Lotyšské „ja“ je v nemčine ich • Nemecké es často znamená toto/tie alebo sa neprekladá.",
+        "Slovenské \"es\" sa nemčky prekladá ako ich; nemecké es často znamená to alebo sa neprekláda."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "to • bezosôbna forma",
+          "example": "Es regnet. – Prší."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "es (osoba)",
+          "example": "Ich lerne Deutsch. – Učím sa nemčinu."
         }
       ]
     }
@@ -4790,9 +4799,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: etwas znamená niečo alebo trochu, v závislosti od kontextu.",
         "Ak etwas nahrádza neznámu vec, lotyština zvyčajne niečo povie.",
-        "Keď je etwas pred prídavným menom alebo kvantitou, často to znamená málo.",
-        "Etwas je v rozhovore veľmi bežné a neutrálne slovo začínajúce na písmeno A1.",
-        "Najdôležitejšie rozlišovanie je: etwas kaufen = kúpiť niečo, etwas müde = trochu unavený."
+        "Keď je etwas pred prídavným menom alebo kvantitou, často to znamená málo."
       ],
       "examples": [
         {
@@ -4820,22 +4827,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Niečo/trochu",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Potrebujem niečo."
         },
         {
           "word": "was",
           "meaning": "Niečo (hovorové)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Chceš si niečo piť?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Trochu",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Som trochu unavený."
         },
         {
           "word": "nichts",
           "meaning": "Niť",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Nepotrebujem nič."
         }
       ],
       "tip": {
@@ -4843,7 +4850,8 @@ const A1_WORDS = [
       },
       "important": [
         "Etwas nie je to isté ako nichts: etwas znamená niečo, ale nichts neznamená nič.",
-        "V lotyštine niečo znie lepšie ako niečo, napríklad: etwas trinken = niečo vypiť."
+        "V lotyštine niečo znie lepšie ako niečo, napríklad: etwas trinken = niečo vypiť.",
+        "V slovenčine niekedy lepšie znie niečo, ako niečo, napríklad: etwas trinken = piť si niečo."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5005,17 +5013,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Vy",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Ste priatelia."
         },
         {
           "word": "euch",
           "meaning": "Vám/vám",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Pomáham vám."
         },
         {
           "word": "euer",
           "meaning": "Váš",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = To je váš dom."
         }
       ],
       "info": [
@@ -5451,7 +5459,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Nájsť/zvážiť",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Myslím si, že je to dobré."
         },
         {
           "word": "suchen",
@@ -6021,12 +6029,12 @@ const A1_WORDS = [
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Futbal",
+    "lv": "futbal",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Všetky",
+    "lv": "Zdravý",
     "level": "A1"
   },
   {
@@ -6300,13 +6308,13 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "História • História",
+    "lv": "príbeh",
     "level": "A1"
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Bratia a sestry",
+    "lv": "bratia a sestry",
     "level": "A1"
   },
   {
@@ -6370,8 +6378,7 @@ const A1_WORDS = [
         "Hlavná myšlienka: gleich dočasne znamená okamžite, relatívne rovnomerne.",
         "Z časového hľadiska gleich = okamžite/o chvíľu (Ich komme gleich. = prídem čoskoro.).",
         "Pokiaľ ide o porovnanie, gleich = rovnaký/rovnaký (die gleiche Farbe = rovnaká farba).",
-        "Gleich možno použiť aj ako datívnu predložku s významom ako (gleich mir = ako ja).",
-        "Kontext (čas alebo prirovnanie) ukazuje správny význam."
+        "Gleich možno použiť aj ako datívnu predložku s významom ako (gleich mir = ako ja)."
       ],
       "examples": [
         {
@@ -6526,10 +6533,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: Veľká veľkosť alebo na osobu - vysoká výška.",
         "Groß znamená predovšetkým: veľké rozmery.",
-        "Často charakterizované: celkovou veľkosťou.",
-        "Groß znamená predovšetkým: ľudskú výšku.",
-        "Často opisuje: osobu.",
-        "Groß popisuje veľkosť alebo výšku osoby vo všeobecnosti."
+        "Často charakterizované: celkovou veľkosťou."
       ],
       "examples": [
         {
@@ -6555,8 +6559,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Pre človeka Er je groß znamená vysoký.",
-        "Groß = veľký.",
-        "Veľká veľkosť alebo pre osobu - vysoká výška."
+        "Groß = veľký."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6614,7 +6617,7 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Starí rodičia",
+    "lv": "starí rodičia",
     "level": "A1"
   },
   {
@@ -6848,22 +6851,22 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Mám",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Mám čas."
         },
         {
           "word": "sein",
           "meaning": "Byť",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Som tu."
         },
         {
           "word": "bekommen",
           "meaning": "Prijímať",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Dostanem dar."
         },
         {
           "word": "machen",
           "meaning": "Urobiť/urobiť",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = To robím."
         }
       ],
       "tip": {
@@ -7037,22 +7040,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Podržať/zastaviť",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = Autobus zastavuje."
         },
         {
           "word": "nehmen",
           "meaning": "Zobrať",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = Beriem si tašku."
         },
         {
           "word": "anhalten",
           "meaning": "Stop",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Prosím ťa, zastav sa."
         },
         {
           "word": "denken",
           "meaning": "Premýšľajte",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Myslím si, že je to správne."
         }
       ],
       "tip": {
@@ -7060,7 +7063,8 @@ const A1_WORDS = [
       },
       "important": [
         "Halten nie je len o „držaní“. V doprave to často znamená zastavenie.",
-        "Ich halte das für... je vyjadrením názoru: „Toto považujem za...“."
+        "Ich halte das für... je vyjadrením názoru: „Toto považujem za...“.",
+        "Bitte halten Sie an sa používa oddeliteľné sloveso anhalten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7186,7 +7190,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Ruka (ruka)",
+    "lv": "dlaň",
     "level": "A1"
   },
   {
@@ -7277,27 +7281,27 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Na zavolanie/označenie",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Volám sa Anna."
         },
         {
           "word": "nennen",
           "meaning": "Volať/meno",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Volá ma Tom."
         },
         {
           "word": "bedeuten",
           "meaning": "Majte na pamäti",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Čo to znamená?"
         },
         {
           "word": "rufen",
           "meaning": "Volať / volať",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Volám ťa."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "Zavolajte",
+          "example": "Ich rufe dich an. = Volaním ti."
         }
       ],
       "tip": {
@@ -7490,10 +7494,7 @@ const A1_WORDS = [
       "explanation": [
         "Hlavná myšlienka: vysoká vertikálne, horizontálne alebo na výšku.",
         "Hoch znamená predovšetkým: veľkú výšku.",
-        "Často sa vyznačuje: vertikálnou výškou.",
-        "Hoch v podstate znamená: vysoká úroveň.",
-        "Často charakterizované: cenami/číslami.",
-        "Hoch popisuje výšku, vertikálny smer alebo horizontálu."
+        "Často sa vyznačuje: vertikálnou výškou."
       ],
       "examples": [
         {
@@ -7677,7 +7678,7 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Úhľadný • Pekný",
+    "lv": "pekný",
     "level": "A1"
   },
   {
@@ -9169,22 +9170,22 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Môcť/vedieť",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Viem plávať."
         },
         {
           "word": "dürfen",
           "meaning": "Byť dovolené",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Smiem ísť?"
         },
         {
           "word": "müssen",
           "meaning": "Potrebujem/byť tak-",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Musím sa učiť."
         },
         {
           "word": "wissen",
           "meaning": "Vedieť",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = To viem."
         }
       ],
       "tip": {
@@ -9361,22 +9362,22 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Platiť (cena) • Koľko",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = To stojí 5 eur."
         },
         {
           "word": "bezahlen",
           "meaning": "Platiť • Platiť (peniaze)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Platím účet."
         },
         {
           "word": "zahlen",
           "meaning": "Platiť • Platiť",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Môžem platiť v hotovosti?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Koľko je...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Koľko stojí kniha?"
         }
       ],
       "tip": [
@@ -15102,7 +15103,7 @@ const A1_WORDS = [
         {
           "word": "schauen",
           "meaning": "Sledujte (aktívne)",
-          "example": "Ich schaue aus dem Fenster. – Es skatos pa logu."
+          "example": "Ich schaue aus dem Fenster. – Pozerám sa z okna."
         },
         {
           "word": "sehen",
@@ -17598,22 +17599,22 @@ const A1_WORDS = [
         {
           "word": "über",
           "meaning": "Cez/nad/naprieč",
-          "example": "Wir sprechen über das Wetter."
+          "example": "Hovoríme o počasí."
         },
         {
           "word": "auf",
           "meaning": "Navonok",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "Kniha leží na stole."
         },
         {
           "word": "unter",
           "meaning": "Pod",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Taška je pod stolom."
         },
         {
           "word": "von",
           "meaning": "Z/okolo nejakého zdroja",
-          "example": "Ich höre von dir."
+          "example": "Počujem od teba."
         }
       ],
       "tip": {
@@ -17804,22 +17805,22 @@ const A1_WORDS = [
         {
           "word": "um",
           "meaning": "V/okolo/do",
-          "example": "Ich komme um acht."
+          "example": "Prídem o ôsmej."
         },
         {
           "word": "am",
           "meaning": "Denne / o",
-          "example": "Am Montag komme ich."
+          "example": "V pondelok prídem."
         },
         {
           "word": "gegen",
           "meaning": "O čase / vs",
-          "example": "Ich komme gegen acht."
+          "example": "Prídem okolo ôsmej."
         },
         {
           "word": "für",
           "meaning": "Pre/v prospech",
-          "example": "Das ist für dich."
+          "example": "To je pre teba."
         }
       ],
       "tip": {
@@ -17994,22 +17995,22 @@ const A1_WORDS = [
         {
           "word": "unter",
           "meaning": "Pod/medzi",
-          "example": "Die Tasche ist unter dem Tisch."
+          "example": "Taška je pod stolom."
         },
         {
           "word": "über",
           "meaning": "Pre/pre",
-          "example": "Die Lampe hängt über dem Tisch."
+          "example": "Lampa visí nad stolom."
         },
         {
           "word": "zwischen",
           "meaning": "Medzi dvoma vecami",
-          "example": "Zwischen den Häusern."
+          "example": "Medzi domami."
         },
         {
           "word": "auf",
           "meaning": "Navonok",
-          "example": "Auf dem Tisch."
+          "example": "Na stole."
         }
       ],
       "tip": {
@@ -18219,22 +18220,22 @@ const A1_WORDS = [
         {
           "word": "verstehen",
           "meaning": "Pochopte",
-          "example": "Ich verstehe dich."
+          "example": "Rozumiem ti."
         },
         {
           "word": "können",
           "meaning": "Môcť/vedieť",
-          "example": "Ich kann schwimmen."
+          "example": "Viem plávať."
         },
         {
           "word": "wissen",
           "meaning": "Viem jeden fakt",
-          "example": "Ich weiß das."
+          "example": "Viem to."
         },
         {
           "word": "kennen",
           "meaning": "Vedieť",
-          "example": "Ich kenne ihn."
+          "example": "Poznám ho."
         }
       ],
       "tip": {
@@ -18726,22 +18727,22 @@ const A1_WORDS = [
         {
           "word": "vor",
           "meaning": "Pred/predtým",
-          "example": "Vor dem Essen..."
+          "example": "Pred jedlom..."
         },
         {
           "word": "nach",
           "meaning": "Po / Do",
-          "example": "Nach dem Essen..."
+          "example": "Po jedle..."
         },
         {
           "word": "neben",
           "meaning": "Blízko",
-          "example": "Neben dem Haus."
+          "example": "Vedľa domu."
         },
         {
           "word": "hinter",
           "meaning": "Pre",
-          "example": "Hinter dem Haus."
+          "example": "Za domom."
         }
       ],
       "tip": {
@@ -19152,22 +19153,22 @@ const A1_WORDS = [
         {
           "word": "wenn",
           "meaning": "Ak/kedy",
-          "example": "Wenn du Zeit hast..."
+          "example": "Ak máš čas..."
         },
         {
           "word": "ob",
           "meaning": "Alebo v nepriamej otázke",
-          "example": "Ich weiß nicht, ob..."
+          "example": "Neviem, či..."
         },
         {
           "word": "wann",
           "meaning": "Keď na to príde",
-          "example": "Wann kommst du?"
+          "example": "Kedy prídeš?"
         },
         {
           "word": "weil",
           "meaning": "Pretože",
-          "example": "Ich bleibe, weil ich krank bin."
+          "example": "Ostávam, pretože som chorý."
         }
       ],
       "tip": {
@@ -19485,22 +19486,22 @@ const A1_WORDS = [
         {
           "word": "werden",
           "meaning": "Staňte sa",
-          "example": "Ich werde müde."
+          "example": "Počujem sa unavený."
         },
         {
           "word": "sein",
           "meaning": "Byť",
-          "example": "Ich bin müde."
+          "example": "Som unavený."
         },
         {
           "word": "bleiben",
           "meaning": "Zostaň",
-          "example": "Ich bleibe hier."
+          "example": "Ostávam tu."
         },
         {
           "word": "machen",
           "meaning": "Urobiť/urobiť",
-          "example": "Ich mache das."
+          "example": "Robím to."
         }
       ],
       "tip": {
@@ -19683,22 +19684,22 @@ const A1_WORDS = [
         {
           "word": "Wetter",
           "meaning": "Poveternostné podmienky",
-          "example": "Das Wetter ist schön."
+          "example": "Počasie je krásne."
         },
         {
           "word": "Zeit",
           "meaning": "Čas (chvíľa)",
-          "example": "Ich habe keine Zeit."
+          "example": "Nemám čas."
         },
         {
           "word": "Regen",
           "meaning": "Dážď",
-          "example": "Es gibt viel Regen."
+          "example": "Padá veľa dažďa."
         },
         {
           "word": "Sonne",
           "meaning": "Slnko",
-          "example": "Die Sonne scheint."
+          "example": "Slnko svieti."
         }
       ],
       "tip": [
@@ -20060,22 +20061,22 @@ const A1_WORDS = [
         {
           "word": "zu",
           "meaning": "Do / v / príliš / infinitív",
-          "example": "Ich gehe zum Arzt."
+          "example": "Idem k lekárovi."
         },
         {
           "word": "nach",
           "meaning": "S mestami/krajinami",
-          "example": "Ich fahre nach Berlin."
+          "example": "Jazdím do Berlína."
         },
         {
           "word": "in",
           "meaning": "Do/na miesto",
-          "example": "Ich gehe in die Schule."
+          "example": "Idem do školy."
         },
         {
           "word": "bei",
           "meaning": "U niekoho/v práci",
-          "example": "Ich bin bei Anna."
+          "example": "Som u Anny."
         }
       ],
       "tip": {
@@ -20256,22 +20257,22 @@ const A1_WORDS = [
         {
           "word": "der Zug",
           "meaning": "Vlak",
-          "example": "Der Zug kommt."
+          "example": "Vlak prichádza."
         },
         {
           "word": "die Bahn",
           "meaning": "Cestovanie vlakom/vlakom",
-          "example": "Ich fahre mit der Bahn."
+          "example": "Jazdím vlakom."
         },
         {
           "word": "der Bus",
           "meaning": "Autobus",
-          "example": "Der Bus kommt."
+          "example": "Autobus prichádza."
         },
         {
           "word": "die Straßenbahn",
           "meaning": "Električka",
-          "example": "Die Straßenbahn ist hier."
+          "example": "Električka je tu."
         }
       ],
       "tip": {
@@ -20775,17 +20776,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Sledujte televíziu",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Pozerám televíziu."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Televízia (médiá)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = V televízii ide film."
         },
         {
           "word": "sehen",
           "meaning": "Pozri",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Pozerám film."
         }
       ],
       "tip": {
@@ -21776,7 +21777,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Nesprávne: die Ferie, der Urlabe (na úrovni A1).",
-        "Urlaub: im Urlaub sein / Urlaub machen.",
+        "Dovolenka: byť na dovolenke / mať dovolenku.",
         "Nesprávne: die Urlaube → Správne: der Urlaub",
         "Dielo: der Urlaub (iba jednotné číslo)."
       ],

@@ -72,12 +72,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sprechen = runāt",
-        "Izmanto sprechen, kad konteksts atbilst šai nozīmei."
+        "sprechen = beszélni",
+        "Használd a sprechen-t, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "sprechen = runāt.",
-        "Runāt, sarunāties vai lietot valodu."
+        "sprechen = beszélni.",
+        "Beszélni, beszélgetni vagy nyelvet használni."
       ],
       "sectionAccents": {
         "explanation": {
@@ -153,10 +153,7 @@ const A1_WORDS = [
       "explanation": [
         "Fő ötlet: Kis méret vagy terjedelem.",
         "Klein főként azt jelenti: kis méret.",
-        "Gyakran leírja: egy dolog/személy mérete.",
-        "Klein alapvetően azt jelenti: kicsi/új.",
-        "Gyakran leírja: gyermek.",
-        "Klein kis méretet ír le."
+        "Gyakran leírja: egy dolog/személy mérete."
       ],
       "examples": [
         {
@@ -181,13 +178,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "klein = mazs",
-        "Izmanto klein, kad konteksts atbilst šai nozīmei."
+        "klein = kicsi",
+        "Használd a klein szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
         "klein = mazs izmērā.",
-        "klein = mazs.",
-        "Mazs izmērā vai apjomā."
+        "klein = mazs."
       ],
       "sectionAccents": {
         "explanation": {
@@ -453,8 +449,8 @@ const A1_WORDS = [
         "text": "Atceries: pie sienas/loga/malas → an."
       },
       "important": [
-        "an nav jebkurš “pie”. Tas bieži nozīmē pie virsmas, sienas, loga vai malas.",
-        "Uz horizontālas virsmas parasti lieto auf."
+        "az an nem egyszerűen \"nál\". Gyakran azt jelenti, hogy egy felületen, falnál, ablak vagy széli.",
+        "Vízszintes felületre általában az auf szót használjuk."
       ]
     }
   },
@@ -668,8 +664,8 @@ const A1_WORDS = [
         "text": "Atceries: sākuma punkts laikā/vietā → ab."
       },
       "important": [
-        "ab rāda sākuma punktu laikā vai vietā.",
-        "Ja doma ir izcelsme vai virziens ārā no iekšienes, biežāk lieto von vai aus."
+        "az ab a kezdőpontot időben vagy helyen mutatja.",
+        "Ha a gondolat egy hely vagy irányból való kiindulás, gyakrabban használjuk a von vagy aus szót."
       ]
     }
   },
@@ -854,8 +850,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "aber rāda pretstatu vai iebildi.",
-        "Ja pretstats ir “nevis..., bet gan...”, vāciski parasti lieto sondern."
+        "de aber az ellentéteket vagy kifogásokat mutatja.",
+        "Ha az ellentét \"nem..., hanem...\" típusú, a német nyelvben általában a sondern szót használjuk."
       ]
     }
   },
@@ -1044,8 +1040,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "also rāda secinājumu: no iepriekš teiktā izriet nākamā doma.",
-        "Latviešu “tāpēc” bieži var būt arī deshalb."
+        "az also a következtetést mutatja: az előbb elmondottakból következik a következő gondolat.",
+        "A magyar \"ezért\" gyakran lehet deshalb is."
       ]
     }
   },
@@ -1208,12 +1204,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "auch = arī",
-        "Izmanto auch, kad konteksts atbilst šai nozīmei."
+        "auch = szintén",
+        "Használd az auch szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
         "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
-        "auch = arī."
+        "auch = arī.",
+        "Helytelen: Ich auch wünsche Ihnen einen schönen Tag."
       ],
       "sectionAccents": {
         "explanation": {
@@ -1449,8 +1446,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "auf nav vienkārši jebkurš “uz”. Tas bieži nozīmē kustību vai atrašanos uz virsmas/augšpusē.",
-        "Ja kaut kas ir pie vertikālas virsmas, bieži vajag an; ja iekšā, vajag in."
+        "az auf nem egyszerűen bármilyen \"fel\". Gyakran mozgást vagy egy felületen/felül való jelenlétet jelent.",
+        "Ha valami egy függőleges felületnél van, gyakran kell az an; ha belül van, akkor az in."
       ]
     }
   },
@@ -1654,8 +1651,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "aus parasti rāda kustību ārā no iekšienes vai izcelsmi.",
-        "Ja runa ir tikai par sākuma punktu laikā vai vietā, bieži lieto ab."
+        "az aus általában mozgást mutat valami belsejéből kifelé vagy származást.",
+        "Ha csak a kezdőpontról van szó időben vagy helyen, gyakran az ab szót használjuk."
       ]
     }
   },
@@ -1746,14 +1743,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: auf + das → aufs (kurp?, kurp?).",
+        "Emlékezz: auf + das → aufs (hová?, hová?).",
         "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
       ],
       "important": [
-        "aufs = auf das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp? — kustība uz konkrētu vietu vai virsmu.",
-        "Uz horizontālas virsmas bieži lieto auf den, nevis aufs.",
-        "Nesajauc ar an (pie sienas) vai ins (iekš telpas)."
+        "aufs = auf das, csak semleges nemű főnév kérdő alakban hol?-ből.",
+        "Válaszol a \"hová?\" kérdésre — mozgás egy konkrét helyre vagy felületre.",
+        "Vízszintes felületre gyakran az auf den szót használjuk, nem az aufs szót.",
+        "Ne keverd össze az an szóval (a falon) vagy az ins szóval (a szobában)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2520,8 +2517,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "bei bieži nozīmē pie cilvēka, pie vietas vai uzņēmumā.",
-        "Ja runa ir par kustību uz virsmu, parasti vajag auf, nevis bei."
+        "bei gyakran azt jelenti, hogy egy személynél, egy helyen vagy egy vállalatnál.",
+        "Ha mozgásról van szó egy felületre, általában az auf szót kell használni, nem a bei szót."
       ]
     }
   },
@@ -2575,7 +2572,7 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "Egy látogatást",
+    "lv": "látogatás",
     "level": "A1"
   },
   {
@@ -2587,7 +2584,7 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "Részt venni • Meglátogatni",
+    "lv": "meglátogatni",
     "level": "A1"
   },
   {
@@ -2736,7 +2733,8 @@ const A1_WORDS = [
       },
       "important": [
         "bis = līdz robežai vai laika punktam.",
-        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr."
+        "bis jetzt = līdz šim; bis dass = līdz tam, kamēr.",
+        "bis jetzt azt jelenti, hogy eddig."
       ]
     }
   },
@@ -2756,12 +2754,7 @@ const A1_WORDS = [
       "explanation": [
         "Fő gondolat: Udvarias szó kisbetűvel. Korábban udvarias volt – kérem.",
         "Bitte főként azt jelenti: udvariasság.",
-        "Gyakran leírja: udvarias szó.",
-        "Bitte főként azt jelenti: kérés/kérés.",
-        "Gyakran jellemzi: főnév (die).",
-        "A kisbetűs bitte udvarias szó - azt jelenti, hogy kérem (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte nagybetűvel, és a die szócikk főnév - kérést vagy kérést jelent (Ich habe eine Bitte = van egy kérésem).",
-        "Többes szám: die Bitten."
+        "Gyakran leírja: udvarias szó."
       ],
       "examples": [
         {
@@ -2796,8 +2789,7 @@ const A1_WORDS = [
       "important": [
         "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
         "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Daudzskaitlis: die Bitten (lūgumi)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -2874,13 +2866,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Kérem",
+          "example": "Komm bitte herein. – Kérlek, gyere be."
         },
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Egy kérés",
+          "example": "Ich habe eine Bitte. – Egy kérésem van."
         }
       ]
     }
@@ -2899,11 +2891,7 @@ const A1_WORDS = [
         "Fő ötlet: Főnév a die cikkel és nagybetűvel. Egy konkrét kérés vagy kérés.",
         "Die Bitte főként azt jelenti: udvariasság.",
         "Gyakran leírja: udvarias szó.",
-        "Die Bitte alapvetően azt jelenti: kérés/kérés.",
-        "Gyakran jellemzi: főnév (die).",
-        "A kisbetűs bitte udvarias szó - azt jelenti, hogy kérem (Bitte schön!, Eine Tasse Kaffee, bitte).",
-        "Die Bitte nagybetűvel, és a die szócikk főnév - kérést vagy kérést jelent (Ich habe eine Bitte = van egy kérésem).",
-        "Többes szám: die Bitten."
+        "Die Bitte alapvetően azt jelenti: kérés/kérés."
       ],
       "examples": [
         {
@@ -2938,8 +2926,7 @@ const A1_WORDS = [
       "important": [
         "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
         "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi).",
-        "Nepareizi: Die Bitte schön! → Pareizi: Bitte schön!"
+        "Daudzskaitlis: die Bitten (lūgumi)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3009,13 +2996,13 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "lūgums",
-          "example": "Ich habe eine Bitte. – Man ir lūgums."
+          "meaning": "Egy kérés",
+          "example": "Ich habe eine Bitte. – Egy kérésem van."
         },
         {
           "word": "bitte",
-          "meaning": "lūdzu",
-          "example": "Komm bitte herein. – Lūdzu, nāc iekšā."
+          "meaning": "Kérem",
+          "example": "Komm bitte herein. – Kérlek, gyere be."
         }
       ]
     }
@@ -3114,8 +3101,8 @@ const A1_WORDS = [
         "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
       },
       "important": [
-        "bleiben nozīmē palikt, nevis gaidīt.",
-        "Ich bleibe hier = es palieku šeit; Ich warte hier = es gaidu šeit."
+        "bleiben azt jelenti, hogy maradni, nem pedig várni.",
+        "Ich bleibe hier = eu fico aqui; Ich warte hier = én vár itt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3357,7 +3344,8 @@ const A1_WORDS = [
         "Fő gondolat: a bringen azt jelenti, hogy valamit hozunk, hordozunk vagy átadunk valakinek.",
         "A bringen akkor használatos, ha valamit áthelyeznek egy másik helyre vagy egy másik személyhez.",
         "Nem ugyanaz, mint a nehmen, mert a nehmen azt jelenti, hogy elvállaljuk magunkat.",
-        "A holen azt jelenti, hogy utána menni és elhozni vagy elvenni."
+        "A holen azt jelenti, hogy utána menni és elhozni vagy elvenni.",
+        "A fordítást a kontextus határozza meg."
       ],
       "examples": [
         {
@@ -3400,8 +3388,8 @@ const A1_WORDS = [
         },
         {
           "word": "nehmen",
-          "meaning": "paņemt",
-          "example": "Ich nehme das Buch. – Es paņemu grāmatu."
+          "meaning": "venni",
+          "example": "Ich nehme das Buch. – Felveszem a könyvet."
         }
       ],
       "tip": {
@@ -3409,7 +3397,8 @@ const A1_WORDS = [
       },
       "important": [
         "bringen rāda virzienu pie kāda vai uz kādu vietu.",
-        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam."
+        "nehmen nozīmē paņemt, bet ne obligāti nogādāt citam.",
+        "A magyar fordítás a kontextustól függ."
       ],
       "sectionAccents": {
         "explanation": {
@@ -3755,7 +3744,7 @@ const A1_WORDS = [
         {
           "word": "dann",
           "meaning": "Majd",
-          "example": "Dann gehen wir nach Hause."
+          "example": "Akkor hazamegyünk."
         }
       ],
       "tip": {
@@ -3959,8 +3948,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "da ir vispārīgs vietas vārds.",
-        "hier ir konkrēti “šeit”, dort ir tālāks “tur”."
+        "da egy általános helyhatározó szó.",
+        "hier konkrétan \"itt\", dort pedig távolabbi \"ott\"."
       ]
     }
   },
@@ -4119,8 +4108,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī das vispirms mācies kā vidus dzimtes artikulu.",
-        "das nav tas pats, kas dass — das var būt artikuls vai vietniekvārds, dass nozīmē “ka”."
+        "Az A1 szinten a das szót elsősorban semleges nem névelőként tanulj.",
+        "das nem ugyanaz, mint a dass — a das lehet névelő vagy névmás, a dass pedig \"hogy\"-ot jelent."
       ]
     }
   },
@@ -4309,8 +4298,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "dass nozīmē “ka” un ievada palīgteikumu.",
-        "To nejaukt ar das, kas var būt artikuls vai “tas”."
+        "dass azt jelenti, hogy \"hogy\" és mellékmondat vezet be.",
+        "Ne keverd össze a das szóval, amely lehet névelő vagy \"az\"."
       ]
     }
   },
@@ -4421,8 +4410,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī der vispirms mācies kā vīriešu dzimtes artikulu.",
-        "Vietniekvārda un relatīvā lietojumi nāk vēlāk."
+        "Az A1 szinten a der szót elsősorban hímnemű névelőként tanulj.",
+        "A névmás és a relatív használat később jön."
       ]
     }
   },
@@ -4544,8 +4533,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "A1 līmenī die vispirms mācies kā sieviešu dzimtes artikulu.",
-        "Daudzskaitlī die lieto arī visām dzimtēm."
+        "Az A1 szinten a die szót elsősorban női nemű névelőként tanulj.",
+        "Többes számban a die szót minden nemre használjuk."
       ]
     }
   },
@@ -4678,8 +4667,8 @@ const A1_WORDS = [
         ]
       },
       "important": [
-        "dieser, diese un dieses mainās pēc dzimtes.",
-        "Daudzskaitlī forma atkal ir diese."
+        "dieser, diese és dieses nem szerint változik.",
+        "Többes számban az alak ismét diese."
       ]
     }
   },
@@ -4771,7 +4760,14 @@ const A1_WORDS = [
       "id": "a1-ein",
       "layout": "standardStudy",
       "translation": "Határozatlan cikk • Egy • Valaki",
-      "explanation": "Hímnemű főnévvel együtt használják. Egy dologra vagy személyre mutasson több lehetőség közül.",
+      "explanation": [
+        "Fő gondolat: ein a határozatlan névelő.",
+        "ein a határozatlan névelő hímnemű és semleges nemű főnevekhez nominatívuszban.",
+        "ein a hímnemben: ein Mann.",
+        "ein a semleges nemben: ein Buch.",
+        "Nőnemben a következőt használjuk: eine.",
+        "Akkuzatívuszban hímnemben: einen."
+      ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
@@ -4787,7 +4783,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "Bērns spēlējas."
+          "lv": "A gyerek játszik."
         }
       ],
       "tip": {
@@ -4895,27 +4891,29 @@ const A1_WORDS = [
       },
       "important": [
         "ein nav noteiktais artikuls.",
-        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das."
+        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das.",
+        "eine — nőnem.",
+        "einen — akkuzatívusz."
       ],
       "comparison": [
         {
           "word": "ein Mann",
-          "meaning": "vīriešu dzimte",
+          "meaning": "hímnem",
           "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
-          "meaning": "sieviešu dzimte",
+          "meaning": "nőnem",
           "example": "eine Frau"
         },
         {
           "word": "ein Buch",
-          "meaning": "vidus dzimte",
+          "meaning": "semleges nem",
           "example": "Ich habe ein Buch."
         },
         {
           "word": "einen Mann",
-          "meaning": "akuzatīvs",
+          "meaning": "akkuzatívusz",
           "example": "einen Mann"
         }
       ]
@@ -4973,30 +4971,30 @@ const A1_WORDS = [
         {
           "word": "das Eis",
           "meaning": "Jég / fagylalt",
-          "example": "Ich esse ein Eis. = Es ēdu saldējumu."
+          "example": "Ich esse ein Eis. = Fagyit eszem."
         },
         {
           "word": "der Schnee",
           "meaning": "Havazni fog",
-          "example": "Der Schnee ist weiß. = Sniegs ir balts."
+          "example": "Der Schnee ist weiß. = A hó fehér."
         },
         {
           "word": "kalt",
           "meaning": "Hideg",
-          "example": "Das Wasser ist kalt. = Ūdens ir auksts."
+          "example": "Das Wasser ist kalt. = A víz hideg."
         },
         {
           "word": "das Dessert",
           "meaning": "Desszert",
-          "example": "Eis ist ein Dessert. = Saldējums ir deserts."
+          "example": "Eis ist ein Dessert. = A fagyi egy desszert."
         }
       ],
       "tip": {
         "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
       },
       "important": [
-        "Latviski ledus un saldējums ir divi dažādi vārdi, bet vāciski abiem bieži lieto das Eis.",
-        "Konteksts ir galvenais: ēdiens nozīmē saldējumu, auksta virsma vai ūdens nozīmē ledu."
+        "A magyarban a jég és a fagyi két különböző szó, de a németben mindkettőre gyakran a das Eis szót használjuk.",
+        "A kontextus a fő: az étel a fagyi, a hideg felület vagy víz pedig a jég."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5253,7 +5251,13 @@ const A1_WORDS = [
       "id": "a1-erst",
       "layout": "standardStudy",
       "translation": "Először • Csak",
-      "explanation": "Az \"erst\" a sorrend jelzésére szolgál (első), vagy annak hangsúlyozására, hogy valami a vártnál később vagy kisebb mértékben (csak) történik.",
+      "explanation": [
+        "Fő gondolat: erst leggyakrabban \"csak\"-t jelent. De bizonyos kontextusban \"először\" is lehet.",
+        "erst gyakran azt jelzi, hogy valami később történik, mint amit vártak.",
+        "Ich bin erst 18. — Csak 18 éves vagyok.",
+        "Es ist erst Montag. — Csak hétfő van.",
+        "Erst lernen, dann spielen. — Először tanulj, majd játszani."
+      ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
@@ -5281,17 +5285,17 @@ const A1_WORDS = [
         {
           "word": "zuerst",
           "meaning": "Először • Az elején",
-          "example": "Zuerst frühstücken wir. = Vispirms mēs brokastojam."
+          "example": "Zuerst frühstücken wir. = Először reggelizünk."
         },
         {
           "word": "nur",
           "meaning": "Csak",
-          "example": "Ich habe nur 5 Euro. = Man ir tikai 5 eiro."
+          "example": "Ich habe nur 5 Euro. = Csak 5 eurom van."
         },
         {
           "word": "dann",
           "meaning": "Majd",
-          "example": "Dann gehen wir nach Hause. = Tad mēs ejam mājās."
+          "example": "Dann gehen wir nach Hause. = Akkor hazamegyünk."
         }
       ],
       "tip": {
@@ -5441,7 +5445,8 @@ const A1_WORDS = [
       },
       "important": [
         "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
-        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu."
+        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu.",
+        "zuerst gyakrabban jelent: először."
       ]
     }
   },
@@ -5458,7 +5463,10 @@ const A1_WORDS = [
       "id": "a1-es",
       "layout": "standardStudy",
       "translation": "It • It • Személytelen forma",
-      "explanation": "A német „én”-t nem szokták önmagáról beszélni. Jelölésére használják: azt, azt vagy egy személytelen alakot (időjárás, idő, különféle személytelen mondatok).",
+      "explanation": [
+        "Fő gondolat: es egy névmás.",
+        "Használat: ez, személytelen szerkezetekben."
+      ],
       "examples": [
         {
           "de": "Es regnet.",
@@ -5601,18 +5609,19 @@ const A1_WORDS = [
       },
       "important": [
         "Vācu es nav latviešu “es”.",
-        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots."
+        "Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots.",
+        "A magyar \"én\" németül az ich; a német es gyakran \"ez\"-nek vagy semmit nem fordítanak."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "tas • bezpersoniska forma",
-          "example": "Es regnet. – Līst."
+          "meaning": "ez • személytelenforma",
+          "example": "Es regnet. – Esik az eső."
         },
         {
           "word": "ich",
-          "meaning": "es (persona)",
-          "example": "Ich lerne Deutsch. – Es mācos vācu valodu."
+          "meaning": "es (személy)",
+          "example": "Ich lerne Deutsch. – Németül tanulok."
         }
       ]
     }
@@ -5635,9 +5644,7 @@ const A1_WORDS = [
       "explanation": [
         "Fő gondolat: az etwa a kontextustól függően jelent valamit vagy egy kicsit.",
         "Ha az etwa egy ismeretlen dolgot helyettesít, a lett általában mond valamit.",
-        "Amikor az etwa egy jelző vagy mennyiség előtt áll, az gyakran keveset jelent.",
-        "Az Etwa egy nagyon gyakori és semleges A1 szó a beszélgetésben.",
-        "A legfontosabb a különbségtétel: etwas kaufen = vásárolni valamit, etwas müde = kicsit fáradt."
+        "Amikor az etwa egy jelző vagy mennyiség előtt áll, az gyakran keveset jelent."
       ],
       "examples": [
         {
@@ -5665,22 +5672,22 @@ const A1_WORDS = [
         {
           "word": "etwas",
           "meaning": "Valamit / egy kicsit",
-          "example": "Ich brauche etwas. = Man kaut kas vajadzīgs."
+          "example": "Ich brauche etwas. = Valami szükségem van."
         },
         {
           "word": "was",
           "meaning": "Valami (köznyelvi)",
-          "example": "Willst du was trinken? = Vai gribi kaut ko dzert?"
+          "example": "Willst du was trinken? = Szeretnél inni valamit?"
         },
         {
           "word": "ein bisschen",
           "meaning": "Egy kicsit",
-          "example": "Ich bin ein bisschen müde. = Es esmu mazliet noguris."
+          "example": "Ich bin ein bisschen müde. = Egy kicsit fáradt vagyok."
         },
         {
           "word": "nichts",
           "meaning": "Semmi",
-          "example": "Ich brauche nichts. = Man neko nevajag."
+          "example": "Ich brauche nichts. = Nem szükségem semmire."
         }
       ],
       "tip": {
@@ -5688,7 +5695,8 @@ const A1_WORDS = [
       },
       "important": [
         "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
-        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert."
+        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert.",
+        "A magyarban néha jobban hangzik valamit, mint valami, például: etwas trinken = inni valamit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -5927,17 +5935,17 @@ const A1_WORDS = [
         {
           "word": "ihr",
           "meaning": "Te",
-          "example": "Ihr seid freundlich. = Jūs esat draudzīgi."
+          "example": "Ihr seid freundlich. = Ti barátságosak vagytok."
         },
         {
           "word": "euch",
           "meaning": "Neked / neked",
-          "example": "Ich helfe euch. = Es jums palīdzu."
+          "example": "Ich helfe euch. = Segítek nektek."
         },
         {
           "word": "euer",
           "meaning": "A tiéd",
-          "example": "Das ist euer Haus. = Tā ir jūsu māja."
+          "example": "Das ist euer Haus. = Ez a ti házatok."
         }
       ],
       "info": [
@@ -6435,7 +6443,7 @@ const A1_WORDS = [
         {
           "word": "finden",
           "meaning": "Megtalálni / fontolóra venni",
-          "example": "Ich finde das gut. = Man tas šķiet labi."
+          "example": "Ich finde das gut. = Ez jónak találom."
         },
         {
           "word": "suchen",
@@ -6457,8 +6465,8 @@ const A1_WORDS = [
         "text": "Atceries: pazaudēta lieta → finden; viedoklis → ich finde..."
       },
       "important": [
-        "finden nav tikai “atrast”.",
-        "Ich finde das gut nozīmē “man tas šķiet labi”, nevis “es to atrodu labi”."
+        "finden nem csak \"megtalálni\".",
+        "Ich finde das gut azt jelenti: \"ez jónak találom\", nem \"jól találom meg\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -6749,13 +6757,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ar piederības vārdu (meine/deine/seine Frau) gandrīz vienmēr domāta sieva (laulātā).",
-        "Bez piederības vārda (die Frau, eine Frau) parasti domāta sieviete."
+        "A birtokos névmással (meine/deine/seine Frau) szinte mindig a feleség (házastárs) értelmezhető.",
+        "A birtokos névmás nélkül (die Frau, eine Frau) általában egy nőt értünk."
       ],
       "important": [
-        "die Frau = sieviete VAI sieva — atkarībā no konteksta.",
-        "meine Frau = mana sieva (ne 'mana sieviete').",
-        "Daudzskaitlī: die Frauen."
+        "die Frau = nő vagy feleség — a kontextustól függ.",
+        "meine Frau = a feleségem (nem \"az én nőm\").",
+        "Többes szám: die Frauen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7020,12 +7028,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "für vienmēr + akuzatīvs — neatkarīgi no nozīmes.",
-        "Saņēmējs/nolūks → priekš; apmaiņa/iemesls/maksa → par."
+        "für mindig megköveteli az akkuzatívuszt, jelentéstől függetlenül.",
+        "Címzett/cél → számára; csere/ok/fizetés → miatt."
       ],
       "important": [
-        "für + Akkusativ vienmēr, piemēram für mich, für dich, für das Kind.",
-        "danke für / bezahlen für = 'par', ne 'priekš'."
+        "für + akkuzatívusz mindig, például für mich, für dich, für das Kind.",
+        "danke für / bezahlen für = 'miatt', nem 'számára'."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7155,12 +7163,12 @@ const A1_WORDS = [
     "de": "Fußball",
     "de_article": "der",
     "de_plural": "die Fußbälle",
-    "lv": "Futball",
+    "lv": "labdarúgás",
     "level": "A1"
   },
   {
     "de": "ganz",
-    "lv": "Minden",
+    "lv": "Egészséges",
     "level": "A1"
   },
   {
@@ -7220,30 +7228,30 @@ const A1_WORDS = [
         {
           "word": "geben",
           "meaning": "Adni",
-          "example": "Gib mir das Buch."
+          "example": "Add meg nekem a könyvet."
         },
         {
           "word": "nehmen",
           "meaning": "Venni / venni",
-          "example": "Ich nehme das Buch."
+          "example": "Elvettem a könyvet."
         },
         {
           "word": "bekommen",
           "meaning": "Kap / kap",
-          "example": "Ich bekomme ein Geschenk."
+          "example": "Kapok egy ajándékot."
         },
         {
           "word": "bringen",
           "meaning": "Hozni / szállítani",
-          "example": "Ich bringe dir das Buch."
+          "example": "Elhozom neked a könyvet."
         }
       ],
       "tip": {
         "text": "Atceries: dot prom → geben; paņemt sev → nehmen."
       },
       "important": [
-        "geben un nehmen ir pretēji virzieni.",
-        "bekommen nozīmē saņemt, nevis dot."
+        "geben és nehmen ellentétes irányok.",
+        "bekommen azt jelenti, hogy megkapni, nem pedig adni."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7496,13 +7504,13 @@ const A1_WORDS = [
     "de": "Geschichte",
     "de_article": "die",
     "de_plural": "die Geschichten",
-    "lv": "Történet • Történelem",
+    "lv": "történet",
     "level": "A1"
   },
   {
     "de": "Geschwister",
     "de_article": "die",
-    "lv": "Testvérek",
+    "lv": "testvérek",
     "level": "A1"
   },
   {
@@ -7566,8 +7574,7 @@ const A1_WORDS = [
         "Fő gondolat: a gleich időben azt jelenti, hogy azonnal, aránylag egyenlőt.",
         "Ha időről van szó, gleich = azonnal/pillanatban (Ich komme gleich. = mindjárt jövök.).",
         "Ha összehasonlításról van szó, a gleich = ugyanaz/ugyanaz (die gleiche Farbe = ugyanaz a szín).",
-        "A gleich elöljárószóként is használható a datívussal, azaz hasonló (gleich mir = mint én).",
-        "A szövegkörnyezet (időszak vagy összehasonlítás) a helyes jelentést mutatja."
+        "A gleich elöljárószóként is használható a datívussal, azaz hasonló (gleich mir = mint én)."
       ],
       "examples": [
         {
@@ -7596,11 +7603,11 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par laiku (pēc brīža) → tūlīt.",
-        "Par salīdzinājumu (tāds pats) → vienāds."
+        "Időben (később) → azonnal.",
+        "Összehasonlítás (ugyanaz) → ugyanaz."
       ],
       "important": [
-        "gleich = tūlīt (laiks) VAI vienāds (salīdzinājums).",
+        "gleich = azonnal (idő) vagy ugyanaz (összehasonlítás) — a kontextustól függ.",
         "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
       ],
       "sectionAccents": {
@@ -7763,10 +7770,7 @@ const A1_WORDS = [
       "explanation": [
         "Fő ötlet: Nagy méretű vagy egy személy számára - magas.",
         "Groß elsősorban azt jelenti: nagy méret.",
-        "Gyakran jellemző: teljes méret.",
-        "Groß elsősorban azt jelenti: embermagasság.",
-        "Gyakran leírja: egy személy.",
-        "Groß a méretet általában vagy egy személy magasságát írja le."
+        "Gyakran jellemző: teljes méret."
       ],
       "examples": [
         {
@@ -7792,8 +7796,7 @@ const A1_WORDS = [
       ],
       "important": [
         "Cilvēkam Er ist groß nozīmē garš augumā.",
-        "groß = liels.",
-        "Liels izmērā vai cilvēkam - garš augumā."
+        "groß = liels."
       ],
       "sectionAccents": {
         "explanation": {
@@ -7873,7 +7876,7 @@ const A1_WORDS = [
   {
     "de": "Großeltern",
     "de_article": "die",
-    "lv": "Nagyszülők",
+    "lv": "nagyapák és nagymamák",
     "level": "A1"
   },
   {
@@ -7963,12 +7966,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "gut bez artikula ir īpašības/apstākļa vārds — labs/labi.",
-        "das Gut ar lielo burtu un artikulu ir pavisam cits vārds — lietvārds (īpašums, muiža)."
+        "gut névelő nélkül melléknév/határozó — jó/jól.",
+        "das Gut nagybetűvel és névelővel egy teljesen más szó — főnév (birtok, majory)."
       ],
       "important": [
-        "gut = labs/labi (īpašības/apstākļa vārds).",
-        "das Gut = īpašums/muiža (lietvārds) — nejauc ar gut.",
+        "gut = jó/jól (melléknév/határozó).",
+        "das Gut = birtok/majory (főnév) — ne keverd össze a gut-tal.",
         "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
       ],
       "sectionAccents": {
@@ -8135,31 +8138,31 @@ const A1_WORDS = [
         {
           "word": "haben",
           "meaning": "Nekem van",
-          "example": "Ich habe Zeit. = Man ir laiks."
+          "example": "Ich habe Zeit. = Van időm."
         },
         {
           "word": "sein",
           "meaning": "Lenni",
-          "example": "Ich bin hier. = Es esmu šeit."
+          "example": "Ich bin hier. = Itt vagyok."
         },
         {
           "word": "bekommen",
           "meaning": "Fogadni",
-          "example": "Ich bekomme ein Geschenk. = Es saņemu dāvanu."
+          "example": "Ich bekomme ein Geschenk. = Egy ajándékot kapok."
         },
         {
           "word": "machen",
           "meaning": "Csinálni / elkészíteni",
-          "example": "Ich mache das. = Es to daru."
+          "example": "Ich mache das. = Ezt csinálom."
         }
       ],
       "tip": {
         "text": "Atceries: Ich habe → man ir."
       },
       "important": [
-        "Latviski „man ir” = vāciski Ich habe + akuzatīvs. Ne lietot datīvu: nepareizi *mir habe.",
-        "Ar sein un datīvu: Mir ist kalt. = Man ir auksti. (tas nav haben!)",
-        "Perfektā: Ich habe gelernt = es esmu mācījies."
+        "A magyarban az \"van nekem\" = németül Ich habe + akkuzatívusz. Ne használd a datívuszt: nem helyes *mir habe.",
+        "Sein és datívusszal: Mir ist kalt. = Hideg van. (nem haben!)",
+        "Perfektben: Ich habe gelernt = Tanultam."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8384,22 +8387,22 @@ const A1_WORDS = [
         {
           "word": "halten",
           "meaning": "Tartsa / megálljon",
-          "example": "Der Bus hält. = Autobuss pietur."
+          "example": "Der Bus hält. = Az autóbusz megáll."
         },
         {
           "word": "nehmen",
           "meaning": "Venni",
-          "example": "Ich nehme die Tasche. = Es ņemu somu."
+          "example": "Ich nehme die Tasche. = A táskát fogom."
         },
         {
           "word": "anhalten",
           "meaning": "Megállni",
-          "example": "Bitte halten Sie an. = Lūdzu, apstājieties."
+          "example": "Bitte halten Sie an. = Kérlek, állj meg."
         },
         {
           "word": "denken",
           "meaning": "Gondolkodni",
-          "example": "Ich denke, das ist richtig. = Es domāju, ka tas ir pareizi."
+          "example": "Ich denke, das ist richtig. = Gondolom, hogy ez helyes."
         }
       ],
       "tip": {
@@ -8407,7 +8410,8 @@ const A1_WORDS = [
       },
       "important": [
         "halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.",
-        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”."
+        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”.",
+        "A Bitte halten Sie an az anhalten elválasztható ige."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8600,7 +8604,7 @@ const A1_WORDS = [
     "de": "Hand",
     "de_article": "die",
     "de_plural": "die Hände",
-    "lv": "Kéz (tenyér)",
+    "lv": "tenyér",
     "level": "A1"
   },
   {
@@ -8691,35 +8695,35 @@ const A1_WORDS = [
         {
           "word": "heißen",
           "meaning": "Nevezni / jelenteni",
-          "example": "Ich heiße Anna. = Mani sauc Anna."
+          "example": "Ich heiße Anna. = Anna vagyok."
         },
         {
           "word": "nennen",
           "meaning": "Hívni / nevet",
-          "example": "Er nennt mich Tom. = Viņš mani sauc par Tomu."
+          "example": "Er nennt mich Tom. = Tom-nak hív."
         },
         {
           "word": "bedeuten",
           "meaning": "Átlagos",
-          "example": "Was bedeutet das? = Ko tas nozīmē?"
+          "example": "Was bedeutet das? = Ez mit jelent?"
         },
         {
           "word": "rufen",
           "meaning": "Hívás / hívás",
-          "example": "Ich rufe dich. = Es tevi pasaucu."
+          "example": "Ich rufe dich. = Szólítlak."
         },
         {
           "word": "anrufen",
-          "meaning": "zvanīt",
-          "example": "Ich rufe dich an. = Es tev piezvanu."
+          "meaning": "Felhívni",
+          "example": "Ich rufe dich an. = Felhívlak."
         }
       ],
       "tip": {
         "text": "Atceries: Ich heiße... → mani sauc..."
       },
       "important": [
-        "Wie heißt du? nozīmē “Kā tevi sauc?”, nevis burtiski “kā tu saucies?”.",
-        "Was heißt das? bieži nozīmē “Ko tas nozīmē?”."
+        "A \"Wie heißt du?\" azt jelenti, hogy \"Mi a neved?\", nem szószerinti \"hogy hívtak?\".",
+        "A \"Was heißt das?\" gyakran azt jelenti, hogy \"Ez mit jelent?\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -8957,10 +8961,7 @@ const A1_WORDS = [
       "explanation": [
         "Fő ötlet: Magas függőlegesen, vízszintesen vagy magasságban.",
         "Hoch elsősorban azt jelenti: nagy magasságú.",
-        "Gyakran jellemző: függőleges magasság.",
-        "Hoch alapvetően azt jelenti: magas szint.",
-        "Gyakran jellemzik: árak/számok.",
-        "Hoch a magasságot, a függőleges irányt vagy a szintet írja le."
+        "Gyakran jellemző: függőleges magasság."
       ],
       "examples": [
         {
@@ -9118,12 +9119,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Dzirdēt skaņu vai klausīties mūziku.",
-        "Izmanto hören, kad konteksts atbilst šai nozīmei."
+        "Hallani egy hangot vagy hallgatni a zenét.",
+        "Használd a hören szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "hören = dzirdēt/klausīties skaņu.",
-        "Dzirdēt skaņu vai klausīties mūziku."
+        "hören = hallani/hallgatni egy hangot.",
+        "Hallani egy hangot vagy hallgatni a zenét."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9194,7 +9195,7 @@ const A1_WORDS = [
   },
   {
     "de": "hübsch",
-    "lv": "Ügyes • Szép",
+    "lv": "szép",
     "level": "A1"
   },
   {
@@ -9255,13 +9256,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "ihr ar darbības vārda dsk. formu (kommt, habt) = jūs; ihr blakus vārdam kā datīvs vai piederība = viņai/viņas.",
-        "Pārbaudi: Habt ihr...? / Kommt ihr...? = jūs; Ich gebe ihr... / ihr Buch = viņai/viņas."
+        "ihr az ige dsk. alakjával (kommt, habt) = ti; ihr egy szó mellett mint datívusz vagy birtoklás = neki/hozzá.",
+        "Ellenőrizd: Habt ihr...? / Kommt ihr...? = ti; Ich gebe ihr... / ihr Buch = neki/hozzá."
       ],
       "important": [
-        "ihr = jūs (uzruna vairākiem) VAI viņai (datīvs) VAI viņas (piederība) — pēc konteksta.",
-        "Pieklājīgā uzruna vienmēr Sie ar lielo burtu, nevis ihr.",
-        "Nepareizi: Ihr (pieklājīgi) → Pareizi: Sie."
+        "ihr = ti (megszólítás sokakhoz) vagy neki (datívusz) vagy hozzá (birtoklás) — a kontextustól függ.",
+        "A udvarias szólítás mindig a Sie nagybetűvel, nem az ihr.",
+        "Nem helyes: Ihr (udvariasan) → Helyes: Sie."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9462,14 +9463,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + dem → im (kam?, kur?).",
-        "Kurp? → ins; kur? → im — nesajauc šos divus!"
+        "Emlékezz: in + dem → im (hol?, ahol?).",
+        "Hová? → ins; Hol? → im — ne keverd össze ezt a kettőt!"
       ],
       "important": [
-        "im = in dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Atbild uz kur?, nevis kurp? — atrašanās vieta, nevis kustība.",
-        "Ar mēnešiem un gadalaikiem: im März, im Herbst.",
-        "Sieviešu dzimtei: in der Schule, nevis im Schule."
+        "im = in dem, csak hímnemű vagy semleges nemű főnév kérdő alakban hol?-ből.",
+        "Válaszol a \"hol?\" kérdésre, nem a \"hová?\" kérdésre — egy hely jelenléte, nem mozgása.",
+        "Hónapokkal és évszakokkal: im März, im Herbst.",
+        "Nőnemre: in der Schule, nem az im Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9767,8 +9768,8 @@ const A1_WORDS = [
         "text": "Atceries: iekšā/telpā → in."
       },
       "important": [
-        "in nav vienmēr burtiski “iekšā”; latviski bieži saka Berlīnē, skolā, uz kino.",
-        "Ja runa ir par virsmu, bieži vajag auf, nevis in."
+        "in nem mindig szó szerinti \"belül\"; a magyarban gyakran azt mondják Berlinben, iskolában, moziban.",
+        "Ha felületről van szó, gyakran az auf szót kell használni, nem az in szót."
       ],
       "sectionAccents": {
         "explanation": {
@@ -9972,14 +9973,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: in + das → ins (kurp?, kurp?).",
-        "Kurp? → ins; kur? → im — šis ir galvenais atšķirības punkts!"
+        "Emlékezz: in + das → ins (hová?, hová?).",
+        "Hová? → ins; Hol? → im — ez az elsődleges különbség!"
       ],
       "important": [
-        "ins = in das, tikai ar nekatras dzimtes lietvārdu kurp? locījumā.",
-        "Atbild uz kurp?, nevis kur? — kustība, nevis atrašanās vieta.",
-        "Vīriešu dzimtei: in den Wald; sieviešu: in die Schule.",
-        "Nesajauc: ins Kino gehen (uz kino) vs. im Kino sein (būt kino)."
+        "ins = in das, csak semleges nemű főnév kérdő alakban hová?-ből.",
+        "Válaszol a \"hová?\" kérdésre, nem a \"hol?\" kérdésre — mozgás, nem pedig jelenlét.",
+        "Hímnemhez: in den Wald; nőnemhez: in die Schule.",
+        "Ne keverd össze: ins Kino gehen (a moziba menni) vs. im Kino sein (a moziban lenni)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10329,13 +10330,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "jung ir par vecumu (cilvēki, dzīvnieki) — ja runā par lietām, kas nesen radītas, lieto neu.",
-        "Pretstats: jung ↔ alt (jauns ↔ vecs)."
+        "jung az életkorhoz van (emberek, állatok) — ha az új dolgokról beszélsz, a neu szót használd.",
+        "Ellentét: jung ↔ alt (fiatal ↔ idős)."
       ],
       "important": [
-        "jung raksturo vecumu, ne lietas jaunumu.",
-        "Par jaunām lietām (telefonu, automašīnu, māju) lieto neu, nevis jung.",
-        "Nepareizi: Mein Handy ist jung. → Pareizi: Mein Handy ist neu."
+        "jung az életkort írja le, nem a dolgok újdonságát.",
+        "Az új dolgokról (telefon, autó, ház) a neu szót használjuk, nem a jung szót.",
+        "Nem helyes: Mein Handy ist jung. → Helyes: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10538,12 +10539,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "kein noliedz lietvārdu (kein + lietvārds), nicht noliedz darbības vārdu vai teikumu.",
-        "kein locījas kā ein: kein/keine/keinen/keiner."
+        "kein tagad a főnév (kein + főnév), nicht pedig az igét vagy a mondatot tagadja.",
+        "kein a ein -hez hasonlóan hajlik: kein/keine/keinen/keiner."
       ],
       "important": [
-        "kein + lietvārds = 'nav nekāda/neviena X', ne 'nicht ein X'.",
-        "Nepareizi: Ich habe nicht ein Geld. → Pareizi: Ich habe kein Geld."
+        "kein + főnév = 'nincs egy X sem', nem 'nem egy X'.",
+        "Nem helyes: Ich habe nicht ein Geld. → Helyes: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10719,13 +10720,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "kennen = pazīt",
-        "Izmanto kennen, kad konteksts atbilst šai nozīmei."
+        "kennen = ismerni",
+        "Használd a kennen szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "kennen = pazīt cilvēku/vietu.",
-        "kennen = pazīt.",
-        "Pazīt cilvēku, vietu vai lietu no pieredzes."
+        "kennen = ismerni egy embert/helyet.",
+        "kennen = ismerni.",
+        "Egy embert, helyet vagy dolgot ismerni a tapasztalatból."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10853,13 +10854,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wissen = zināt",
-        "Izmanto wissen, kad konteksts atbilst šai nozīmei."
+        "wissen = tudni",
+        "Használd a wissen szót, amikor a szövegkörnyezet megfelel ennek a jelentésnek."
       ],
       "important": [
-        "wissen = zināt faktu.",
-        "wissen = zināt.",
-        "Zināt faktu, atbildi vai informāciju."
+        "wissen = tudni egy tényt.",
+        "wissen = tudni.",
+        "Tudni egy tényt, választ vagy információt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -10992,30 +10993,30 @@ const A1_WORDS = [
         {
           "word": "können",
           "meaning": "Tudni/tudni",
-          "example": "Ich kann schwimmen. = Es protu peldēt."
+          "example": "Ich kann schwimmen. = Tudok úszni."
         },
         {
           "word": "dürfen",
           "meaning": "Hogy megengedjék",
-          "example": "Darf ich gehen? = Vai drīkstu iet?"
+          "example": "Darf ich gehen? = Szabad-e menjek?"
         },
         {
           "word": "müssen",
           "meaning": "Kell/legyen igen-",
-          "example": "Ich muss lernen. = Man jāmācās."
+          "example": "Ich muss lernen. = Tanulnom kell."
         },
         {
           "word": "wissen",
           "meaning": "Tudni",
-          "example": "Ich weiß das. = Es to zinu."
+          "example": "Ich weiß das. = Tudom ezt."
         }
       ],
       "tip": {
         "text": "Atceries: prasme/iespēja → können."
       },
       "important": [
-        "können nav tas pats, kas dürfen. können = varēt/prast, dürfen = drīkstēt.",
-        "Teikumā ar können otrs darbības vārds bieži stāv beigās: Ich kann schwimmen."
+        "können nem ugyanaz, mint a dürfen. können = tudni/tudni, dürfen = szabad.",
+        "A mondatban a können mellett gyakran az ige a vég: Ich kann schwimmen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11249,31 +11250,31 @@ const A1_WORDS = [
         {
           "word": "kosten",
           "meaning": "Fizet (ár) • Mennyi",
-          "example": "Das kostet 5 Euro. = Tas maksā 5 eiro."
+          "example": "Das kostet 5 Euro. = Ez 5 eurót fizet."
         },
         {
           "word": "bezahlen",
           "meaning": "Fizetés • Fizetés (pénz)",
-          "example": "Ich bezahle die Rechnung. = Es maksāju rēķinu."
+          "example": "Ich bezahle die Rechnung. = Kifizetем az számlát."
         },
         {
           "word": "zahlen",
           "meaning": "Fizetni • Fizetni",
-          "example": "Kann ich bar zahlen? = Vai varu maksāt skaidrā naudā?"
+          "example": "Kann ich bar zahlen? = Fizethetек készpénzzel?"
         },
         {
           "word": "Was kostet...?",
           "meaning": "Mennyibe kerül...?",
-          "example": "Was kostet das Buch? = Cik maksā grāmata?"
+          "example": "Was kostet das Buch? = Mennyibe kerül a könyv?"
         }
       ],
       "tip": [
-        "Atceries: jautājums par cenu → kosten (Was kostet das?).",
-        "Atceries: maksājuma veikšana → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+        "Emlékezz: az ár kérdése → kosten (Was kostet das?).",
+        "Emlékezz: a fizetés elvégzése → bezahlen / zahlen (Ich bezahle die Rechnung.)."
       ],
       "important": [
-        "kosten un bezahlen nav sinonīmi: kosten = cik maksā; bezahlen = samaksāt naudu.",
-        "Latviski abos gadījumos bieži lieto maksāt, bet vācu valodā jāizvēlas pēc situācijas."
+        "kosten és bezahlen nem szinonímák: kosten = mennyibe kerül; bezahlen = fizetni a pénzt.",
+        "A magyarban mindkét esetben gyakran a \"fizet\" szót használjuk, de a német nyelvben a helyzetből függően kell választani."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11742,13 +11743,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Laden ar lielo burtu — lietvārds (veikals).",
-        "laden ar mazo burtu — darbības vārds (iekraut/uzlādēt)."
+        "der Laden nagybetűvel — főnév (bolt).",
+        "laden kisbetűvel — ige (betölteni/tölteni)."
       ],
       "important": [
-        "der Laden = veikals (lietvārds).",
-        "laden = iekraut/uzlādēt (darbības vārds).",
-        "Daudzskaitlī: die Läden."
+        "der Laden = bolt (főnév).",
+        "laden = betölteni/tölteni (ige).",
+        "Többes szám: die Läden."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11889,30 +11890,30 @@ const A1_WORDS = [
         {
           "word": "das Land",
           "meaning": "Ország / föld / vidék",
-          "example": "Deutschland ist ein Land."
+          "example": "Németország egy ország."
         },
         {
           "word": "die Stadt",
           "meaning": "Város",
-          "example": "Ich wohne in der Stadt."
+          "example": "A városban lakik."
         },
         {
           "word": "das Dorf",
           "meaning": "Falu",
-          "example": "Er lebt in einem Dorf."
+          "example": "Egy falvban él."
         },
         {
           "word": "die Erde",
           "meaning": "Föld / bolygó",
-          "example": "Die Erde ist rund."
+          "example": "A Föld kerek."
         }
       ],
       "tip": {
         "text": "Atceries: valsts → das Land; pilsēta → die Stadt."
       },
       "important": [
-        "aufs Land nozīmē “uz laukiem”, nevis “uz valsti”.",
-        "das Land nav tas pats, kas die Stadt."
+        "aufs Land azt jelenti: \"a vidékre\", nem \"az ország felé\".",
+        "das Land nem ugyanaz, mint a die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12141,12 +12142,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par izmēru vai attālumu (mati, ceļš, galds) → garš.",
-        "Par laiku (diena, gaidīšana, filma) → ilgs."
+        "Méretről vagy távolságról (haj, út, asztal) → hosszú.",
+        "Időről (nap, várakozás, film) → hosszú."
       ],
       "important": [
-        "lang = garš (izmērs) VAI ilgs (laiks) — atkarībā no konteksta.",
-        "wie lange = cik ilgi (jautājums par laiku, ne izmēru)."
+        "lang = hosszú (méret) vagy hosszú (idő) — a kontextustól függ.",
+        "wie lange = meddig (kérdés az időről, nem a méretről)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12311,30 +12312,30 @@ const A1_WORDS = [
         {
           "word": "lassen",
           "meaning": "Hagyni / engedni",
-          "example": "Ich lasse das hier."
+          "example": "Hagyom itt."
         },
         {
           "word": "bleiben",
           "meaning": "Marad",
-          "example": "Ich bleibe hier."
+          "example": "Maradok itt."
         },
         {
           "word": "erlauben",
           "meaning": "Engedje meg",
-          "example": "Sie erlaubt mir das."
+          "example": "Megengedett nekem."
         },
         {
           "word": "geben",
           "meaning": "Adni",
-          "example": "Gib mir das Buch."
+          "example": "Add meg nekem a könyvet."
         }
       ],
       "tip": {
         "text": "Atceries: kaut kas paliek → lassen; kādam atļauj → lassen."
       },
       "important": [
-        "lassen nav tikai “atstāt”. Tas bieži nozīmē arī “ļaut”.",
-        "Lass mich in Ruhe! ir ļoti bieža frāze: “Liec mani mierā!”"
+        "lassen nem csak \"elhagyni\". Gyakran \"engedni\" is lehet.",
+        "Lass mich in Ruhe! egy nagyon gyakori kifejezés: \"Hagyd meg a békét!\""
       ],
       "sectionAccents": {
         "explanation": {
@@ -12545,30 +12546,30 @@ const A1_WORDS = [
         {
           "word": "laufen",
           "meaning": "Futni / működtetni",
-          "example": "Er läuft schnell."
+          "example": "Gyorsan fut."
         },
         {
           "word": "gehen",
           "meaning": "Menj gyalog",
-          "example": "Ich gehe nach Hause."
+          "example": "Hazamegyek."
         },
         {
           "word": "fahren",
           "meaning": "Üljön a szállítóeszközön",
-          "example": "Ich fahre mit dem Bus."
+          "example": "Busszal megyek."
         },
         {
           "word": "funktionieren",
           "meaning": "Működtetni",
-          "example": "Das funktioniert gut."
+          "example": "Jól működik."
         }
       ],
       "tip": {
         "text": "Atceries: kājas ātri → laufen; transports → fahren."
       },
       "important": [
-        "laufen nav tikai “skriet”. Par filmu vai ierīci tas var nozīmēt “iet” vai “darboties”.",
-        "Ich laufe nozīmē kustību kājām, nevis braukšanu."
+        "laufen nem csak \"futni\". Egy filmről vagy eszközről \"megy\" vagy \"működik\" lehet.",
+        "Ich laufe mozgást jelent a lábakkal, nem pedig vezetést."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12794,14 +12795,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "laut = skaņa"
+        "A kisbetű laut = hangos (melléknév: ist laut). der Laut nagybetűvel = hang (főnév: ein Laut, der Laut).",
+        "laut = hang"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "laut kisbetűvel és névelő nélkül — ez egy melléknév.",
+        "der Laut nagybetűvel és névelővel der egy főnév.",
+        "Többes szám: die Laute (a nyelv hangjai, jelzések hangjai).",
+        "Nem helyes: Der Laut ist sehr. → Helyes: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -12956,14 +12957,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais laut = skaļš (īpašības vārds: ist laut). der Laut ar lielo burtu = skaņa (lietvārds: ein Laut, der Laut).",
-        "der Laut = skaņa"
+        "A kisbetű laut = hangos (melléknév: ist laut). der Laut nagybetűvel = hang (főnév: ein Laut, der Laut).",
+        "der Laut = hang"
       ],
       "important": [
-        "laut stāv ar mazo burtu un bez artikula — tas ir īpašības vārds.",
-        "der Laut ar lielo burtu un artikulu der ir lietvārds.",
-        "Daudzskaitlis: die Laute (valodas skaņas, skaņas signāli).",
-        "Nepareizi: Der Laut ist sehr. → Pareizi: Das ist sehr laut."
+        "laut kisbetűvel és névelő nélkül — ez egy melléknév.",
+        "der Laut nagybetűvel és névelővel der egy főnév.",
+        "Többes szám: die Laute (a nyelv hangjai, jelzések hangjai).",
+        "Nem helyes: Der Laut ist sehr. → Helyes: Das ist sehr laut."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13120,30 +13121,30 @@ const A1_WORDS = [
         {
           "word": "legen",
           "meaning": "Tedd le",
-          "example": "Ich lege das Buch auf den Tisch."
+          "example": "Ráhelyezem a könyvet az asztalra."
         },
         {
           "word": "liegen",
           "meaning": "Lenni / aludni",
-          "example": "Das Buch liegt auf dem Tisch."
+          "example": "A könyv az asztalon van."
         },
         {
           "word": "stellen",
           "meaning": "Állítsa függőlegesen",
-          "example": "Ich stelle die Flasche auf den Tisch."
+          "example": "Ráhelyezem az üveget az asztalra."
         },
         {
           "word": "setzen",
           "meaning": "Ülj le / ülj le",
-          "example": "Ich setze mich."
+          "example": "Leülök."
         }
       ],
       "tip": {
         "text": "Atceries: tu noliec → legen; lieta jau atrodas → liegen."
       },
       "important": [
-        "legen un liegen nav viens un tas pats.",
-        "Ich lege das Buch = es nolieku grāmatu. Das Buch liegt = grāmata atrodas."
+        "legen és liegen nem ugyanaz.",
+        "Ich lege das Buch = Lerakatom a könyvet. Das Buch liegt = A könyv van."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13414,13 +13415,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "leise = kluss",
-        "Izmanto leise, kad konteksts atbilst šai nozīmei."
+        "leise = csönd",
+        "Használd a leise szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "leise = kluss skaņas ziņā.",
-        "leise = skaļums.",
-        "Kluss vai ar mazu skaļumu."
+        "leise = csönd a hang tekintetében.",
+        "leise = hangerő.",
+        "Csönd vagy alacsony hangerő."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13587,30 +13588,30 @@ const A1_WORDS = [
         {
           "word": "liegen",
           "meaning": "Lenni / aludni",
-          "example": "Das Buch liegt hier."
+          "example": "A könyv itt van."
         },
         {
           "word": "legen",
           "meaning": "Tedd le",
-          "example": "Ich lege das Buch hierhin."
+          "example": "Ide helyezem a könyvet."
         },
         {
           "word": "stehen",
           "meaning": "Állni / állni",
-          "example": "Die Flasche steht auf dem Tisch."
+          "example": "Az üveg az asztalon áll."
         },
         {
           "word": "sein",
           "meaning": "Lenni",
-          "example": "Ich bin hier."
+          "example": "Itt vagyok."
         }
       ],
       "tip": {
         "text": "Atceries: lieta jau ir vietā → liegen; tu to noliec → legen."
       },
       "important": [
-        "liegen rāda stāvokli vai atrašanās vietu.",
-        "legen rāda darbību: kāds kaut ko noliek."
+        "liegen egy állapotot vagy helyhelyzetet mutat.",
+        "legen egy cselekedetét mutatja: valaki kihagyja."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13922,8 +13923,8 @@ const A1_WORDS = [
         "text": "Atceries: Was machst du? = Ko tu dari?"
       },
       "important": [
-        "machen ir ļoti plašs vārds, bet latviski bieži jātulko dabiski pēc situācijas.",
-        "Das macht Spaß nozīmē “tas ir jautri”, nevis burtiski “tas taisa prieku”."
+        "machen egy nagyon széles szó, de a magyarban gyakran természetes fordítandó a helyzetnek megfelelően.",
+        "Das macht Spaß azt jelenti: \"ez szórakoztató\", nem szószerű \"ez örömet csináló\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14116,9 +14117,9 @@ const A1_WORDS = [
         "text": "Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa."
       },
       "important": [
-        "das Mal / die Male — lietvārds ar artikulu.",
-        "ein Mal, zwei Mal — skaita reizes.",
-        "mal bez artikula (Komm mal her!) nav tas pats, kas das Mal."
+        "das Mal / die Male — főnév névelővel.",
+        "ein Mal, zwei Mal — szám ismételtetések.",
+        "mal névelő nélkül (Komm mal her!) nem ugyanaz, mint a das Mal."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14284,13 +14285,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ar piederības vārdu (mein/dein/ihr Mann) gandrīz vienmēr domāts vīrs (laulātais).",
-        "Bez piederības vārda (der Mann, ein Mann) parasti domāts vīrietis."
+        "A birtokos szóval (mein/dein/ihr Mann) szinte mindig az ás férj (házastárs) értelmezhető.",
+        "A birtokos szó nélkül (der Mann, ein Mann) általában egy férfit értünk."
       ],
       "important": [
-        "der Mann = vīrietis VAI vīrs — atkarībā no konteksta.",
-        "mein Mann = mans vīrs (ne 'mans vīrietis').",
-        "Daudzskaitlī: die Männer."
+        "der Mann = férfi vagy feleség — a kontextustól függ.",
+        "mein Mann = az én férjem (nem \"az én férfim\").",
+        "Többes szám: die Männer."
       ],
       "sectionAccents": {
         "explanation": {
@@ -14540,30 +14541,30 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "-val / együtt",
-          "example": "Ich komme mit dir."
+          "example": "Velünk megyek."
         },
         {
           "word": "ohne",
           "meaning": "Nélkül",
-          "example": "Ich komme ohne dich."
+          "example": "Nélküled megyek."
         },
         {
           "word": "bei",
           "meaning": "Valakinél / valakinél",
-          "example": "Ich bin bei Anna."
+          "example": "Anna mellett vagyok."
         },
         {
           "word": "zu",
           "meaning": "Hogy / at",
-          "example": "Ich gehe zum Arzt."
+          "example": "Az orvoshoz megyek."
         }
       ],
       "tip": {
         "text": "Atceries: kopā ar kādu vai ar transportu → mit."
       },
       "important": [
-        "mit prasa datīvu: mit dem Bus, mit der Mutter, mit dir.",
-        "Kommst du mit? nozīmē “Vai tu nāksi līdzi?”"
+        "mit datívuszt követel: mit dem Bus, mit der Mutter, mit dir.",
+        "Kommst du mit? azt jelenti: \"Jössz velem?\""
       ],
       "sectionAccents": {
         "explanation": {
@@ -14805,30 +14806,30 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Kedvelni",
-          "example": "Ich mag Musik."
+          "example": "Szeretek zenét."
         },
         {
           "word": "möchte",
           "meaning": "Szeretnének",
-          "example": "Ich möchte Kaffee."
+          "example": "Kávét szeretnék."
         },
         {
           "word": "wollen",
           "meaning": "Akarni",
-          "example": "Ich will nach Hause."
+          "example": "Haza szeretnék menni."
         },
         {
           "word": "lieben",
           "meaning": "Szeretni",
-          "example": "Ich liebe dich."
+          "example": "Szeretlek."
         }
       ],
       "tip": {
         "text": "Atceries: Ich mag... = man patīk..."
       },
       "important": [
-        "mögen nav galvenais vārds pieklājīgam “es gribētu”. Tam parasti lieto möchte.",
-        "Ich mag Kaffee nozīmē “man garšo/patīk kafija”."
+        "mögen nem az elsődleges szó a udvarias \"szeretnék\"-hez. Ezt általában a möchte szót használjuk.",
+        "Ich mag Kaffee azt jelenti: \"szeretek kávét/szerintem jó a kávé\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15076,14 +15077,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "morgen = rīt"
+        "Kis morgen = holnap (Ich komme morgen). der Morgen nagy betűvel = reggel (Guten Morgen!, am Morgen).",
+        "morgen = holnap"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "morgen kisbetűvel áll — ez időhatározó (holnap).",
+        "der Morgen nagy betűvel és a der névelővel főnév (reggel).",
+        "Guten Morgen! — mindig nagy M-mel (reggel, nem holnap).",
+        "Helytelen: Guten morgen! → Helyes: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15237,14 +15238,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mazais morgen = rīt (Ich komme morgen). der Morgen ar lielo burtu = rīts (Guten Morgen!, am Morgen).",
-        "der Morgen = rīt"
+        "Kis morgen = holnap (Ich komme morgen). der Morgen nagy betűvel = reggel (Guten Morgen!, am Morgen).",
+        "der Morgen = reggel"
       ],
       "important": [
-        "morgen stāv ar mazo burtu — tas ir laika apstāklis (rīt).",
-        "der Morgen ar lielo burtu un artikulu der ir lietvārds (rīts).",
-        "Guten Morgen! — vienmēr ar lielo M (rīts, nevis rīt).",
-        "Nepareizi: Guten morgen! → Pareizi: Guten Morgen!"
+        "morgen kisbetűvel — ezt egy időhatározó (holnap).",
+        "der Morgen nagybetűvel és névelővel der egy főnév (reggel).",
+        "Guten Morgen! — mindig nagy M-mel (reggel, nem holnap).",
+        "Helytelen: Guten morgen! → Helyes: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -15421,8 +15422,8 @@ const A1_WORDS = [
         "text": "Atceries: Ich muss... = man jā..."
       },
       "important": [
-        "müssen ir modālais darbības vārds.",
-        "Otrs darbības vārds parasti iet teikuma beigās: Ich muss heute arbeiten."
+        "müssen modális ige.",
+        "A második ige általában a mondat végén áll: Ich muss heute arbeiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15670,8 +15671,8 @@ const A1_WORDS = [
         "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
       },
       "important": [
-        "nach nelieto ar visām vietām.",
-        "Uz skolu parasti ir in die Schule, nevis nach Schule."
+        "nach nem használható minden esettel.",
+        "Az iskolába általában in die Schule, nem nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15935,12 +15936,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kā atsevišķs vārds, apstiprinot vai atbildot → protams.",
-        "Blakus lietvārdam, aprakstot izcelsmi vai īpašību → dabisks."
+        "Önálló szóként, megerősítésként vagy válaszként → természetesen.",
+        "A főnév mellett, a származást vagy tulajdonságot leírva → természetes."
       ],
       "important": [
-        "natürlich = protams (apstākļa vārds, apstiprinājums) VAI dabisks (īpašības vārds).",
-        "Natürlich! kā atsevišķs saucienis vienmēr = protams!"
+        "natürlich = természetesen (határozószó, megerősítés) VAGY természetes (melléknév).",
+        "Natürlich! mint önálló felkiáltás mindig = természetesen!"
       ],
       "sectionAccents": {
         "explanation": {
@@ -16117,8 +16118,8 @@ const A1_WORDS = [
         "text": "Atceries: paņem sev → nehmen; atnes kādam → bringen."
       },
       "important": [
-        "Ich nehme den Bus latviski nozīmē “es braucu ar autobusu”.",
-        "nehmen nav tas pats, kas bringen."
+        "Ich nehme den Bus magyarosan azt jelenti, hogy \"busszal utazom\".",
+        "nehmen nem ugyanaz, mint bringen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16380,13 +16381,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "neu ir par lietām, ierīcēm un jaunumiem — ja runā par cilvēka vecumu, lieto jung.",
-        "Pretstats: neu ↔ alt (jauns ↔ vecs)."
+        "neu tárgyakról, eszközökről és újdonságokról szól — ha az ember koráról van szó, akkor a jung-ot használd.",
+        "Ellentét: neu ↔ alt (új ↔ régi)."
       ],
       "important": [
-        "neu raksturo lietas un jaunumus, ne cilvēka vai dzīvnieka vecumu.",
-        "Par cilvēka vai dzīvnieka vecumu lieto jung, nevis neu.",
-        "Nepareizi: Meine Schwester ist neu. → Pareizi: Meine Schwester ist jung."
+        "neu tárgyakat és újdonságokat jellemez, nem az ember vagy az állat korát.",
+        "Az ember vagy az állat korára a jung, nem a neu használatos.",
+        "Helytelen: Meine Schwester ist neu. → Helyes: Meine Schwester ist jung."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16614,12 +16615,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas joprojām turpinās vai vēl nav beidzies.",
-        "Izmanto noch, kad konteksts atbilst šai nozīmei."
+        "Valami még mindig folytatódik vagy még nem fejeződött be.",
+        "Használd a noch-ot, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "noch = vēl.",
-        "Kaut kas joprojām turpinās vai vēl nav beidzies."
+        "noch = még.",
+        "Valami még mindig folytatódik vagy még nem fejeződött be."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16750,12 +16751,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ierobežo daudzumu, cilvēku skaitu, izvēli vai iespējas.",
-        "Izmanto nur, kad konteksts atbilst šai nozīmei."
+        "Korlátozza a mennyiséget, az emberek számát, a választási lehetőségeket vagy a lehetőségeket.",
+        "Használd a nur-t, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "Latviešu “tikai” vācu valodā ne vienmēr ir nur.",
-        "nur = tikai / vienīgi."
+        "A magyar \"csak\" nem mindig nur a német nyelvben.",
+        "nur = csak / egyedül."
       ],
       "sectionAccents": {
         "explanation": {
@@ -16913,8 +16914,8 @@ const A1_WORDS = [
         "text": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder."
       },
       "important": [
-        "ob nav parasta izvēles “vai” forma starp divām lietām.",
-        "Kaffee oder Tee? lieto oder, nevis ob."
+        "ob nem a szokásos \"vagy\" forma két dolog között.",
+        "Kaffee oder Tee? az oder-t használja, nem az ob-ot."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17152,8 +17153,8 @@ const A1_WORDS = [
         "text": "Atceries: izvēle starp variantiem → oder."
       },
       "important": [
-        "oder lieto izvēlei: Kaffee oder Tee.",
-        "Netiešā jautājumā “vai” parasti ir ob."
+        "oder a választásra használatos: Kaffee oder Tee.",
+        "A közvetett kérdésben a \"vagy\" általában ob."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17455,8 +17456,8 @@ const A1_WORDS = [
         "text": "Atceries: Das passt. = Tas der."
       },
       "important": [
-        "passen nav tikai par apģērbu.",
-        "Tas var nozīmēt arī, ka laiks, plāns vai risinājums der."
+        "passen nem csak a ruházatról szól.",
+        "Az idő, a terv vagy a megoldás illik is lehet."
       ],
       "sectionAccents": {
         "explanation": {
@@ -17772,8 +17773,8 @@ const A1_WORDS = [
         "text": "Atceries: ēdiens → probieren = nogaršot."
       },
       "important": [
-        "probieren nav galvenais vārds oficiālai pārbaudei.",
-        "Dokumentu vai rēķinu pārbaudīt parasti ir prüfen."
+        "probieren nem a fő szó a hivatalos ellenőrzéshez.",
+        "Dokumentumok vagy számlák ellenőrzése általában prüfen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18083,8 +18084,8 @@ const A1_WORDS = [
         "text": "Atceries: der Reis ir vienskaitlis vāciski, bet latviski parasti — rīsi."
       },
       "important": [
-        "der Reis — vācu valodā tikai vienskaitlis (Der Reis ist..., nicht *sind).",
-        "Latviski tulkojumā bieži lieto daudzskaitli: rīsi ir gatavi."
+        "der Reis — német nyelvben csak egyesszám (Der Reis ist..., nem *sind).",
+        "A magyarban a fordításban gyakran többes számot használunk: rizs készen van."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18218,12 +18219,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "sagen = teikt",
-        "Izmanto sagen, kad konteksts atbilst šai nozīmei."
+        "sagen = mondani",
+        "Használd a sagen-t, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "sagen = pateikt.",
-        "Pateikt konkrētu domu, vārdu vai teikumu."
+        "sagen = mondani.",
+        "Mondj ki egy konkrét gondolatot, szót vagy mondatot."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18327,12 +18328,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "schauen = skatīties",
-        "Izmanto schauen, kad konteksts atbilst šai nozīmei."
+        "schauen = nézni",
+        "Használd a schauen-t, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "schauen = skatīties.",
-        "Aktīvi skatīties vai palūkoties."
+        "schauen = nézni.",
+        "Aktívan nézni vagy pillantani."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18469,12 +18470,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Kaut kas jau ir noticis vai jau ir spēkā.",
-        "Izmanto schon, kad konteksts atbilst šai nozīmei."
+        "Valami már megtörtént vagy már érvényben van.",
+        "Használd a schon-t, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "schon = jau.",
-        "Kaut kas jau ir noticis vai jau ir spēkā."
+        "schon = már.",
+        "Valami már megtörtént vagy már érvényben van."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18633,8 +18634,8 @@ const A1_WORDS = [
         "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
       },
       "important": [
-        "schwimmen un baden nav viens un tas pats.",
-        "Latviski bieži saka “peldēt”, bet vāciski jāskatās, vai tā ir kustība vai peldēšanās."
+        "schwimmen és baden nem ugyanaz.",
+        "A magyarban gyakran azt mondjuk, hogy \"úszni\", de a német nyelvben meg kell nézni, hogy mozgásról vagy fürdőzésről van szó."
       ],
       "sectionAccents": {
         "explanation": {
@@ -18910,8 +18911,8 @@ const A1_WORDS = [
         "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
       },
       "important": [
-        "sehen nav tas pats, kas anschauen.",
-        "Ich sehe dich = es tevi redzu; Ich schaue den Film = es skatos filmu."
+        "sehen nem ugyanaz, mint anschauen.",
+        "Ich sehe dich = látlak téged; Ich schaue den Film = megnézem a filmet."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19159,8 +19160,8 @@ const A1_WORDS = [
         "text": "Atceries: ich bin = es esmu; du bist = tu esi."
       },
       "important": [
-        "sein formas jāiemācās atsevišķi: bin, bist, ist, sind.",
-        "Ich bin ir “es esmu”, nevis “es būt”."
+        "sein alakjait külön kell megtanulni: bin, bist, ist, sind.",
+        "Ich bin azt jelenti, hogy \"vagyok\", nem \"lenni\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19383,12 +19384,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Runā par grāmatu vai lasīšanu → lappuse. Runā par novietojumu, virzienu vai attiecībām → puse.",
-        "Seite X grāmatā vienmēr ir lappuse, ne puse."
+        "Könyvről vagy olvasásról szól → oldal. Helyzetről, irányról vagy kapcsolatról szól → fél.",
+        "Seite X egy könyvben mindig oldal, nem fél."
       ],
       "important": [
-        "die Seite = lappuse VAI puse — konteksts izšķir.",
-        "Daudzskaitlī abām nozīmēm: die Seiten."
+        "die Seite = oldal VAGY fél — a kontextus dönti el.",
+        "Többes szám mindkét jelentésre: die Seiten."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19580,8 +19581,8 @@ const A1_WORDS = [
         "text": "Atceries: darbība uz sevi → sich/mich/dich."
       },
       "important": [
-        "sich nav patstāvīgs lietvārds.",
-        "Tas mainās pēc personas: ich → mich, du → dich, er/sie/es → sich."
+        "sich nem egy önálló főnév.",
+        "Ez a személy szerint változik: ich → mich, du → dich, er/sie/es → sich."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19798,12 +19799,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Par vietu vai situāciju (drošība) → drošs.",
-        "Kā pārliecība vai apstiprinājums teikumā → noteikti/droši vien."
+        "Helyről vagy helyzetről (biztonság) → biztonságos.",
+        "Meggyőződésként vagy megerősítésként a mondatban → bizonyára/valószínűleg."
       ],
       "important": [
-        "sicher = drošs (īpašības vārds) VAI noteikti/droši vien (apstākļa vārds).",
-        "sich sicher sein = būt pārliecinātam."
+        "sicher = biztonságos (melléknév) VAGY bizonyára/valószínűleg (határozószó).",
+        "sich sicher sein = biztos lenni."
       ],
       "sectionAccents": {
         "explanation": {
@@ -19964,14 +19965,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Daudzskaitļa forma — runā par vairākiem cilvēkiem. Darbības vārds beidzas ar -en: kochen, essen, gehen.",
-        "Izmanto sie, kad konteksts atbilst šai nozīmei."
+        "Többes szám — több személyről beszél. Az ige -en-re végződik: kochen, essen, gehen.",
+        "Használd a sie-t, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "A tiszteletes szólítás mindig nagy S-sel: Sie, nem sie.",
+        "Ő: Sie kocht. Ők: sie kochen. Önök: Sie kochen.",
+        "Helytelen: sie kocht → Helyes: Sie kocht",
+        "Helytelen: Sie kocht (ők) → Helyes: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20121,14 +20122,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pieklājības uzruna — vienmēr ar lielo S. Latviski: jūs. Bieži ar darbības vārdu daudzskaitlī.",
-        "Izmanto Sie, kad konteksts atbilst šai nozīmei."
+        "Tiszteletes szólítás — mindig nagy S-sel. Magyarosan: önök. Gyakran többes számú igével.",
+        "Használd a Sie-t, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "Pieklājības uzruna vienmēr ar lielo S: Sie, nevis sie.",
-        "Viņa: Sie kocht. Viņi: sie kochen. Jūs: Sie kochen.",
-        "Nepareizi: sie kocht → Pareizi: Sie kocht",
-        "Nepareizi: Sie kocht (viņi) → Pareizi: Sie kochen"
+        "A tiszteletes szólítás mindig nagy S-sel: Sie, nem sie.",
+        "Ő: Sie kocht. Ők: sie kochen. Önök: Sie kochen.",
+        "Helytelen: sie kocht → Helyes: Sie kocht",
+        "Helytelen: Sie kocht (ők) → Helyes: Sie kochen"
       ],
       "sectionAccents": {
         "explanation": {
@@ -20314,8 +20315,8 @@ const A1_WORDS = [
         "text": "Atceries: sēdus → sitzen; stāvus → stehen; guļus → liegen."
       },
       "important": [
-        "sitzen rāda stāvokli “sēdēt”.",
-        "Apsēsties ir sich setzen, nevis sitzen."
+        "sitzen az \"ülni\" pozíciót mutatja.",
+        "Leülni az sich setzen, nem a sitzen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20584,8 +20585,8 @@ const A1_WORDS = [
         "text": "Atceries: kāds saka, kas jādara → sollen; obligāti jādara → müssen."
       },
       "important": [
-        "Was soll ich machen? ir ļoti bieža frāze.",
-        "sollen un müssen nav pilnīgi vienādi."
+        "Was soll ich machen? nagyon gyakori kifejezés.",
+        "sollen és müssen nem teljesen azonosak."
       ],
       "sectionAccents": {
         "explanation": {
@@ -20886,8 +20887,8 @@ const A1_WORDS = [
         "text": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."
       },
       "important": [
-        "stehen rāda stāvokli, nevis darbību “nolikt”.",
-        "Nolikt priekšmetu stāvus ir stellen, nevis stehen."
+        "a stehen azt mutatja, hogy állás, nem pedig egy \"nolikt\" cselekvés.",
+        "Egy tárgy elhelyezése az stellen, nem pedig stehen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21332,8 +21333,8 @@ const A1_WORDS = [
         "text": "Atceries: tēma sarunā → über; virs galda → über."
       },
       "important": [
-        "über nav tikai vietas vārds.",
-        "sprechen über nozīmē “runāt par”."
+        "az über nem csak helyhatározó szó.",
+        "sprechen über azt jelenti, hogy \"beszélni valamiről\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21597,8 +21598,8 @@ const A1_WORDS = [
         "text": "Atceries: um acht = pulksten astoņos."
       },
       "important": [
-        "um ar laiku parasti ir “pulksten”.",
-        "um ... zu bieži nozīmē “lai ...”."
+        "az um idővel általában \"óra\".",
+        "um ... zu gyakran azt jelenti, hogy \"annak érdekében, hogy ...\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -21861,8 +21862,8 @@ const A1_WORDS = [
         "text": "Atceries: zem galda → unter dem Tisch."
       },
       "important": [
-        "unter var nozīmēt arī “starp”, īpaši ar cilvēkiem vai grupām.",
-        "unter un über bieži ir pretstati vietas nozīmē."
+        "az unter azt is jelentheti, hogy \"között\", különösen emberekkel vagy csoportokkal.",
+        "az unter és über gyakran ellentétesek a helyhatározó értelemben."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22142,8 +22143,8 @@ const A1_WORDS = [
         "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
       },
       "important": [
-        "verstehen nav galvenais vārds nozīmei “prast”.",
-        "Ich verstehe Deutsch nozīmē “es saprotu vāciski”."
+        "a verstehen nem a fő szó az \"tudni\" jelentéshez.",
+        "Ich verstehe Deutsch azt jelenti, hogy \"németül értek\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22456,14 +22457,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: von + dem → vom (kam?).",
-        "Sarunvalodā gandrīz nekad nesaka von dem — lieto vom."
+        "Emlékezz: von + dem → vom (kinek?).",
+        "A beszédben szinte soha nem mondod a von dem szót – használd a vom szót."
       ],
       "important": [
-        "vom = von dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda izcelsmi, avotu vai virzienu no kā konkrēta.",
-        "Sieviešu dzimtei: von der Mutter, nevis vom Mutter.",
-        "Nesajauc ar aus (izcelsme no valsts) vai ab (sākuma punkts)."
+        "vom = von dem, csak férfi vagy semleges nemű főnév dativusával (kinek? számlálóval).",
+        "Jelzi az eredetet, a forrást vagy az irányt valamitől.",
+        "Női nemhez: von der Mutter, nem pedig vom Mutter.",
+        "Ne keverd össze az aus szóval (egy ország eredete) vagy az ab szóval (kiindulópont)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -22777,8 +22778,8 @@ const A1_WORDS = [
         "text": "Atceries: pirms laikā, priekšā vietā → vor."
       },
       "important": [
-        "vor var būt gan laiks, gan vieta.",
-        "vor dem Essen = pirms ēšanas; vor dem Haus = mājas priekšā."
+        "a vor lehet idő és hely is.",
+        "vor dem Essen = evés előtt; vor dem Haus = a ház előtt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23059,14 +23060,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "was pats nemainās — vācu valodā tas vienmēr ir was; latviski izvēlies kas vai ko pēc teikuma daļas.",
-        "Ātrs triks: ja uz jautājumu var atbildēt ar 'Tas ir ...', lieto kas; ja atbilde nāk pēc darbības vārda kā papildinājums, lieto ko."
+        "a was önmagában nem változik – német nyelvben mindig was; magyarba válassz ki \"mi\" vagy \"mit\" a mondatrész szerint.",
+        "Gyors trükk: ha a kérdésre a \"Ez egy...\" válaszsal válaszolhatsz, használd a mi szót; ha a válasz az igét követi kiegészítésként, használd a \"mit\" szót."
       ],
       "important": [
-        "was jautā par lietām, notikumiem un faktiem — nekad par personām.",
-        "Par personām jautā ar wer (kas/kurš), nevis was.",
-        "was für (ein/eine) nozīmē kāds/kas par un jautā par īpašību vai veidu (Was für ein Film ist das? = Kāda tā ir filma?).",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "a was dolgokról, eseményekről és tényekről kérdez – soha nem személyekről.",
+        "Az embereket werrel (ki/ki) kérdezik, nem volt.",
+        "was für (ein/eine) azt jelenti, hogy milyen/mi a fajta, és az tulajdonságot vagy típust kérdez (Was für ein Film ist das? = Milyen film ez?).",
+        "Helytelen: Wer ist passiert? → Helyes: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23312,8 +23313,8 @@ const A1_WORDS = [
         "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
       },
       "important": [
-        "wenn un wann nav viens un tas pats.",
-        "Wann kommst du? ir jautājums. Wenn du kommst... ir nosacījums/laiks."
+        "a wenn és wann nem ugyanaz.",
+        "Wann kommst du? egy kérdés. Wenn du kommst... egy feltétel/idő."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23535,14 +23536,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
-        "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
+        "a wer személyekről kérdez (ki/melyik) – dolgokról és eseményekről a was szót használd.",
+        "Ahhoz, hogy több ember közül választhass, használd a wer von... (melyik közülük...) kifejezést."
       ],
       "important": [
-        "wer jautā tikai par personām, nekad par lietām.",
-        "Par lietām un notikumiem jautā ar was, nevis wer.",
-        "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
-        "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+        "a wer csak személyekről kérdez, soha dolgokról.",
+        "Dolgokról és eseményekről a was szóval kérdez, nem werrel.",
+        "a wer a morfológiához képest megváltozik: wen, wem, wessen – de az alapforma a wer.",
+        "Helytelen: Wer ist passiert? → Helyes: Was ist passiert?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -23746,8 +23747,8 @@ const A1_WORDS = [
         "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
       },
       "important": [
-        "werden nav tas pats, kas sein.",
-        "Ich werde müde = es kļūstu noguris; Ich bin müde = es esmu noguris."
+        "a werden nem ugyanaz, mint a sein.",
+        "Ich werde müde = fáradt leszek; Ich bin müde = fáradt vagyok."
       ],
       "sectionAccents": {
         "explanation": {
@@ -23983,12 +23984,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runā par sauli, lietu vai temperatūru ārpusē — lieto das Wetter.",
-        "Atceries: Wie ist das Wetter? = Kāds laiks? (ne pulkstenis)."
+        "Ha nap, eső vagy hőmérséklet az év külső részéről van szó – használd a das Wetter szót.",
+        "Emlékezz: Wie ist das Wetter? = Milyen az idő? (nem az óra)."
       ],
       "important": [
-        "das Wetter = laikapstākļi, ne laiks pulkstenī.",
-        "die Zeit = laiks kā brīdis vai iespēja — cita karte A1."
+        "das Wetter = időjárás, nem pedig az óra.",
+        "die Zeit = idő mint pillanat vagy lehetőség – más lap az A1-ben."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24233,13 +24234,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "wie pati par sevi = kā (veids); wie + īpašības vārds (viel/alt/lange) = cik (apjoms).",
-        "Salīdzinājumā so ... wie = tikpat ... kā."
+        "a wie önmagában = hogyan (mód); wie + melléknév (viel/alt/lange) = mennyit (mennyiség).",
+        "Az összehasonlításban so ... wie = olyan ... mint."
       ],
       "important": [
-        "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
-        "wie viens pats (Wie...?) parasti = kā, ne cik.",
-        "Nepareizi: Cik tev iet? → Pareizi: Kā tev iet? (Wie geht's?)"
+        "wie viel(e) = mennyit; wie alt = hány éves; wie lange = meddig.",
+        "a wie egyedül (Wie...?) általában = hogyan, nem pedig mennyit.",
+        "Helytelen: Mennyit mész? → Helyes: Hogyan vagy? (Wie geht's?)"
       ],
       "sectionAccents": {
         "explanation": {
@@ -24470,8 +24471,8 @@ const A1_WORDS = [
         "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
       },
       "important": [
-        "zu ir ļoti daudz lietojumu, tāpēc vienmēr skaties uz konstrukciju.",
-        "zu teuer nozīmē “pārāk dārgi”, nevis “uz dārgi”."
+        "a zu nagyon sok felhasználása van, ezért mindig nézd meg a szerkezetet.",
+        "zu teuer azt jelenti, hogy \"túl drága\", nem pedig \"rá drágára\"."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24722,8 +24723,8 @@ const A1_WORDS = [
         "text": "Atceries: konkrēts vilciens → der Zug."
       },
       "important": [
-        "der Zug virsrakstā jāuztver kā “vilciens”.",
-        "Retākās nozīmes nav vajadzīgas galvenajā A1 virsrakstā."
+        "a der Zug a címben \"vonat\"-ként értelmezendő.",
+        "A ritkább jelentések nem szükségesek az A1 fő címhez."
       ],
       "sectionAccents": {
         "explanation": {
@@ -24971,14 +24972,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Atceries: zu + dem → zum (kam?).",
-        "Sievišķās dzimtes vārdiem: zu + der → zur."
+        "Emlékezz: zu + dem → zum (kinek?).",
+        "Női nemű szavak esetén: zu + der → zur."
       ],
       "important": [
-        "zum = zu dem, tikai ar vīriešu vai nekatras dzimtes lietvārdu kam? locījumā.",
-        "Norāda virzienu vai mērķi: pie ārsta, uz staciju, pie drauga.",
-        "Sievišķās dzimtei lieto zur: zur Bank, zur Post.",
-        "Nesajauc ar bei (atrašanās pie) vai nach (uz pilsētām bez artikula)."
+        "zum = zu dem, csak férfi vagy semleges nemű főnév dativusával (kinek? számlálóval).",
+        "Jelzi az irányt vagy a célt: az orvoshoz, az állomásra, a baráthoz.",
+        "Női nemhez a zur szót használd: zur Bank, zur Post.",
+        "Ne keverd össze a bei szóval (tartózkodás mellett) vagy a nach szóval (a városok nélkül az artikulus)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25328,17 +25329,17 @@ const A1_WORDS = [
         {
           "word": "fernsehen",
           "meaning": "Tévét nézni",
-          "example": "Ich sehe fern. = Es skatos televīziju."
+          "example": "Ich sehe fern. = Tévét nézek."
         },
         {
           "word": "das Fernsehen",
           "meaning": "Televízió (média)",
-          "example": "Im Fernsehen läuft ein Film. = Televīzijā rāda filmu."
+          "example": "Im Fernsehen läuft ein Film. = Tévében egy film fut."
         },
         {
           "word": "sehen",
           "meaning": "Látni",
-          "example": "Ich sehe einen Film. = Es redzu filmu."
+          "example": "Ich sehe einen Film. = Egy filmet nézek."
         }
       ],
       "tip": {
@@ -25454,14 +25455,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Ja runā par darbību, lieto fernsehen (ich sehe fern). Ja runā par TV programmu vai mediju, lieto das Fernsehen.",
-        "Lietvārds, tikai vienskaitlis. Apraksta TV kā mediju vai pārraidi kopumā."
+        "Ha a cselekvésről van szó, használd a fernsehen szót (ich sehe fern). Ha a tévé-programról vagy médiumról van szó, akkor a das Fernsehen szót.",
+        "Főnév, csak egyes szám. A tévét médiumként vagy adásként írja le."
       ],
       "important": [
-        "fernsehen ir sadalāms: sehen + fern.",
-        "das Fernsehen nav daudzskaitlī — nav *die Fernsehen.",
-        "Nepareizi: die Fernsehen → Pareizi: das Fernsehen",
-        "Darbība: fernsehen → ich sehe fern."
+        "fernsehen egy elválasztható ige: sehen + fern.",
+        "das Fernsehen nincs többes szám — nincs *die Fernsehen.",
+        "Helytelen: die Fernsehen → Helyes: das Fernsehen",
+        "Cselekvés: fernsehen → ich sehe fern."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25591,14 +25592,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Appetit = apetīte",
-        "Izmanto der Appetit, kad konteksts atbilst šai nozīmei."
+        "der Appetit = étvágy",
+        "Használd a der Appetit szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "der Appetit ir tikai vienskaitlī.",
-        "Nepareizi: die Appetite → Pareizi: der Appetit",
-        "Nepareizi: Ich bin Appetit. → Pareizi: Ich habe Appetit.",
-        "Sajūta: der Appetit."
+        "der Appetit csak egyes számban van.",
+        "Helytelen: die Appetite → Helyes: der Appetit",
+        "Helytelen: Ich bin Appetit. → Helyes: Ich habe Appetit.",
+        "Érzés: der Appetit."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25713,14 +25714,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "essen = ēst",
-        "Izmanto essen, kad konteksts atbilst šai nozīmei."
+        "essen = enni",
+        "Használd az essen szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "essen egy főnév nélküli ige.",
+        "das Essen nem ugyanaz, mint az essen.",
+        "Cselekvés: essen.",
+        "Dolog/étkezés: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -25857,14 +25858,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Essen = ēst",
-        "Izmanto das Essen, kad konteksts atbilst šai nozīmei."
+        "das Essen = enni",
+        "Használd a das Essen szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "essen ir darbības vārds bez artikula.",
-        "das Essen nav tas pats, kas essen.",
-        "Darbība: essen.",
-        "Lieta/maltīte: das Essen."
+        "essen egy főnév nélküli ige.",
+        "das Essen nem ugyanaz, mint az essen.",
+        "Cselekvés: essen.",
+        "Dolog/étkezés: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26001,13 +26002,13 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Gemüse = dārzeņi",
-        "Izmanto das Gemüse, kad konteksts atbilst šai nozīmei."
+        "das Gemüse = zöldségek",
+        "Használd a das Gemüse szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "Nav pareizi: die Gemüse, die Obsts.",
-        "Nepareizi: die Gemüse → Pareizi: das Gemüse",
-        "das Gemüse = dārzeņi (kopumā)."
+        "Nem helyes: die Gemüse, die Obsts.",
+        "Helytelen: die Gemüse → Helyes: das Gemüse",
+        "das Gemüse = zöldségek (általában)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26147,12 +26148,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "das Obst = augļi",
-        "Izmanto das Obst, kad konteksts atbilst šai nozīmei."
+        "das Obst = gyümölcsök",
+        "Használd a das Obst-ot, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "Nepareizi: die Obsts → Pareizi: das Obst",
-        "das Obst = augļi (kopumā)."
+        "Helytelen: die Obsts → Helyes: das Obst",
+        "das Obst = gyümölcsök (összességben)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26300,14 +26301,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī.",
-        "Izmanto die Ferien, kad konteksts atbilst šai nozīmei."
+        "csak többes szám. Iskolai vagy tanulmányi szünet — mindig többes számban.",
+        "Használd a die Ferien szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "Ferien vienmēr ar datīvu: in den Ferien.",
-        "Nepareizi: in der Ferien → Pareizi: in den Ferien",
-        "Skola: die Ferien (tikai daudzskaitlī).",
-        "tikai daudzskaitlis. Skolas vai studiju brīvlaiks — vienmēr daudzskaitlī."
+        "Ferien mindig datívusszal: in den Ferien.",
+        "Helytelen: in der Ferien → Helyes: in den Ferien",
+        "Iskola: die Ferien (csak többes számban).",
+        "csak többes szám. Iskolai vagy tanulmányi szünet — mindig többes számban."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26435,14 +26436,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-        "Izmanto der Urlaub, kad konteksts atbilst šai nozīmei."
+        "fő gondolat: csak egyes számban. Munkából való szabadság – mindig egyes számban.",
+        "Használd a der Urlaub szót, amikor a szövegkörnyezet megfelel ennek a jelentésnek."
       ],
       "important": [
-        "Nav pareizi: die Ferie, der Urlaube (A1 līmenī).",
+        "Nem helyes: die Ferie, der Urlaube (A1 szinten).",
         "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Nepareizi: die Urlaube → Pareizi: der Urlaub",
-        "Darbs: der Urlaub (tikai vienskaitlī)."
+        "Helytelen: die Urlaube → Helyes: der Urlaub",
+        "Megjegyzés: der Urlaub (csak egyes szám)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26593,12 +26594,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
-        "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
+        "Óra vagy karóra. Az órában az idő is: Es ist acht Uhr.",
+        "Használd a die Uhr szót, amikor a szövegkörnyezet megfelel ennek a jelentésnek."
       ],
       "important": [
-        "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
-        "die Uhr: pārbaudi kontekstu pirms lietošanas."
+        "die Uhr: készülék (meine Uhr) vagy idő (acht Uhr).",
+        "die Uhr: ellenőrizd a szövegkörnyezetet a használat előtt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26732,12 +26733,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Laiks kā jēdziens — brīdis, iespēja, laika posms.",
-        "Izmanto die Zeit, kad konteksts atbilst šai nozīmei."
+        "Fő gondolat: Az idő mint fogalom – egy pillanat, egy lehetőség, egy időszak.",
+        "Használd a die Zeit szót, amikor a szövegkörnyezet megfelel ennek a jelentésnek."
       ],
       "important": [
-        "die Zeit: pārbaudi kontekstu pirms lietošanas.",
-        "die Zeit: pārbaudi kontekstu pirms lietošanas."
+        "die Zeit: ellenőrizd a szövegkörnyezetet a használat előtt.",
+        "die Zeit: ellenőrizd a szövegkörnyezetet a használat előtt."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26845,12 +26846,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "einmal = vienreiz",
-        "Izmanto einmal, kad konteksts atbilst šai nozīmei."
+        "einmal = egyszer",
+        "Használd az einmal szót, ha a kontextus ezt az értelmet adja."
       ],
       "important": [
-        "einmal = vienreiz vai reiz pagātnē.",
-        "Norāda uz vienu reizi vai pagātni (reiz es biju...)."
+        "einmal = egyszer vagy egyszer a múltban.",
+        "Egy alkalomra vagy a múltra utal (egyszer voltam...)."
       ],
       "sectionAccents": {
         "explanation": {
@@ -26937,12 +26938,12 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei.",
-        "Izmanto noch mal, kad konteksts atbilst šai nozīmei."
+        "Használd a noch mal-t, amikor a kontextus megfelel ennek a jelentésnek.",
+        "Használd a noch mal-t, amikor a kontextus megfelel ennek a jelentésnek."
       ],
       "important": [
-        "Nozīmē vēlreiz — atkārtot darbību vai lūgt atkārtojumu.",
-        "noch mal: pārbaudi kontekstu pirms lietošanas."
+        "Azt jelenti, hogy újra — egy cselekmény megismétlése vagy az ismétlés kérése.",
+        "noch mal: ellenőrizd a kontextust a használat előtt."
       ],
       "sectionAccents": {
         "explanation": {
