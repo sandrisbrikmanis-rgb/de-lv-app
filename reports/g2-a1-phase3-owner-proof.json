@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-09-08T09:00:36.791Z",
+  "scope": "G2/A1 × 31 languages",
+  "mainBaseSha": "dd4587da30e07e43aab3ba7faf3ca697018a4480",
+  "workBranch": "cursor/phase3-g2-a1-full-discovery-6338",
+  "sourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
+  "findingCount": 22750,
+  "ownerStatus": "PENDING",
+  "files": {
+    "view": "reports/g2-a1-phase3-owner-view.md",
+    "decisions": "reports/g2-a1-phase3-owner-decisions.md",
+    "github": "reports/g2-a1-phase3-owner-review-GITHUB.md",
+    "proof": "reports/g2-a1-phase3-owner-proof.json",
+    "csv": "reports/g2-a1-phase3-owner-decisions.csv"
+  }
+}

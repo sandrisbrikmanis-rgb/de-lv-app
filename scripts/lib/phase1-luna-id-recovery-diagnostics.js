@@ -5,6 +5,7 @@ const fs = require("fs");
 const path = require("path");
 
 const DEFAULT_DIAGNOSTICS_DIR = "/tmp/cursor/artifacts/phase1-id-recovery-diagnostics";
+const G2_A1_PHASE3_ID_RECOVERY_DIR = "/tmp/cursor/artifacts/g2-a1-phase3-id-recovery";
 
 function redactSecrets(text) {
   const key = process.env.OPENAI_API_KEY?.trim();
@@ -118,13 +119,81 @@ function writeRecoveryDiagnosticsBestEffort(records, context = {}) {
   }
 }
 
+function buildMissingCanonicalIdDiagnostic({
+  scopeId,
+  cardType = null,
+  batchIndex,
+  attempt,
+  expectedIds = [],
+  returnedCanonicalIds = [],
+  missingIds = [],
+  duplicateIds = [],
+  unexpectedIds = [],
+  itemsWithoutIdCount = 0,
+  returnedItemCount = null,
+  retrySubsetIds = [],
+  rejectionReason,
+  usage = null,
+}) {
+  return {
+    schemaVersion: "1.0.0",
+    classification: "MISSING_CANONICAL_ID_VALIDATION",
+    scopeId,
+    cardType,
+    batchIndex,
+    attempt,
+    expectedItemCount: expectedIds.length,
+    returnedItemCount: returnedItemCount ?? returnedCanonicalIds.length,
+    expectedCanonicalIds: expectedIds.map(escapeDiagnosticString),
+    returnedCanonicalIds: returnedCanonicalIds.map(escapeDiagnosticString),
+    missingIds: missingIds.map(escapeDiagnosticString),
+    duplicateIds: duplicateIds.map(escapeDiagnosticString),
+    unexpectedIds: unexpectedIds.map(escapeDiagnosticString),
+    itemsWithoutIdCount,
+    retrySubsetIds: retrySubsetIds.map(escapeDiagnosticString),
+    rejectionReason,
+    usage,
+    recordedAt: new Date().toISOString(),
+  };
+}
+
+function getG2A1Phase3DiagnosticsDir() {
+  return process.env.G2_A1_PHASE3_ID_RECOVERY_DIR || G2_A1_PHASE3_ID_RECOVERY_DIR;
+}
+
+function writeG2A1Phase3IdRecoveryDiagnostic(record) {
+  if (!record || typeof record !== "object") return null;
+  const dir = getG2A1Phase3DiagnosticsDir();
+  fs.mkdirSync(dir, { recursive: true });
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  const scopePart = String(record.scopeId || "unknown").replace(/[/:]/g, "_");
+  const attemptPart = record.attempt != null ? `-attempt-${record.attempt}` : "";
+  const filePath = path.join(dir, `missing-id-${scopePart}${attemptPart}-${stamp}.json`);
+  fs.writeFileSync(filePath, `${JSON.stringify(record, null, 2)}\n`);
+  return filePath;
+}
+
+function writeG2A1Phase3IdRecoveryDiagnosticBestEffort(record) {
+  try {
+    const filePath = writeG2A1Phase3IdRecoveryDiagnostic(record);
+    return { path: filePath, writeError: null };
+  } catch (error) {
+    return { path: null, writeError: redactSecrets(error.message || String(error)) };
+  }
+}
+
 module.exports = {
   DEFAULT_DIAGNOSTICS_DIR,
+  G2_A1_PHASE3_ID_RECOVERY_DIR,
   escapeDiagnosticString,
   buildRecoveryFailureDiagnostic,
+  buildMissingCanonicalIdDiagnostic,
   summarizeRecoveryFailure,
   formatShortRecoveryError,
   getDiagnosticsDir,
+  getG2A1Phase3DiagnosticsDir,
   writeRecoveryDiagnostics,
   writeRecoveryDiagnosticsBestEffort,
+  writeG2A1Phase3IdRecoveryDiagnostic,
+  writeG2A1Phase3IdRecoveryDiagnosticBestEffort,
 };

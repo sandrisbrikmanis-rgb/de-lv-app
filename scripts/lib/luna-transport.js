@@ -133,6 +133,7 @@ function createRealLunaTransport(options = {}) {
           client: options.client,
           signal: callOptions.signal,
           recoveryContext: callOptions.recoveryContext || null,
+          allowPartialCanonicalIds: callOptions.allowPartialCanonicalIds === true,
         });
         return {
           items: result.items,
@@ -141,9 +142,28 @@ function createRealLunaTransport(options = {}) {
           model: result.model,
           idRecoveryParsedInTransport: result.idRecoveryParsedInTransport === true,
           idRecoveries: result.idRecoveries || [],
+          missingIds: result.missingIds || [],
+          canonicalIdValidation: result.canonicalIdValidation || null,
+          duplicateIds: result.duplicateIds || [],
+          unexpectedIds: result.unexpectedIds || [],
+          itemsWithoutId: result.itemsWithoutId || 0,
+          returnedItemCount: result.returnedItemCount ?? result.items?.length ?? 0,
+          blockedReason: result.blockedReason || null,
+          partial: result.partial === true,
         };
       } catch (error) {
-        throw new Error(redactSecrets(error.message || String(error)));
+        const err = new Error(redactSecrets(error.message || String(error)));
+        if (error.code) err.code = error.code;
+        if (error.name) err.name = error.name;
+        if (error.idRecoveryDiagnostics) err.idRecoveryDiagnostics = error.idRecoveryDiagnostics;
+        if (error.idRecoveryDiagnosticsPath) err.idRecoveryDiagnosticsPath = error.idRecoveryDiagnosticsPath;
+        if (error.idRecoveryDiagnosticsWriteError) {
+          err.idRecoveryDiagnosticsWriteError = error.idRecoveryDiagnosticsWriteError;
+        }
+        if (error.usage) err.usage = error.usage;
+        if (error.tokensUsed) err.tokensUsed = error.tokensUsed;
+        if (error.canonicalIdValidation) err.canonicalIdValidation = error.canonicalIdValidation;
+        throw err;
       }
     },
   };

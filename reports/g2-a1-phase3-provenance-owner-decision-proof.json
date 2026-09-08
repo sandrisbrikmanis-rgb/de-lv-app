@@ -1,0 +1,22 @@
+{
+  "decision": "OWNER_ACCEPTED_PRE_RESUME_HEAD_PROVENANCE_GAP",
+  "recordedAt": "2026-09-08T09:55:00.000Z",
+  "authorization": [
+    "OWNER_ACCEPTED_PRE_RESUME_HEAD_PROVENANCE_GAP",
+    "G2_A1_PHASE3_POST_RESUME_TEST_ISOLATION_REPAIR_APPROVED"
+  ],
+  "recordedPreResumeHead": "6979b58af723442790623464e2f514238818ce5d",
+  "targetRepairV5Head": "7c4d4dff4cec92d0727791b3ec1a904b087c3e29",
+  "directV5ExecutionProof": "unavailable",
+  "provenanceStatus": "PRE_RESUME_HEAD_UNVERIFIED",
+  "runtimeDiff6979To7c4": "0 files",
+  "nonRuntimeDifferences": [
+    "reports/g2-a1-phase3-is-failure-repair-proof.json",
+    "reports/g2-a1-phase3-is-failure-repair.md",
+    "scripts/test-phase1-luna-infra-repair.js"
+  ],
+  "discoveryResultAccepted": true,
+  "repeatLunaResumeRequired": false,
+  "validatedFindingsRetained": 22750,
+  "nextStep": "OWNER_REVIEW_OF_22750_FINDINGS"
+}

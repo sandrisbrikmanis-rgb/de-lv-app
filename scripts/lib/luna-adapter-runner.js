@@ -7,6 +7,16 @@ const { isCanonicalLunaRequestId, shouldAttemptCanonicalIdRecovery } = require('
 const { recoverLunaResponseItems } = require('./phase1-luna-id-recovery');
 const { writeRecoveryDiagnosticsBestEffort, formatShortRecoveryError } = require('./phase1-luna-id-recovery-diagnostics');
 const {
+  BLOCKED_MISSING_CANONICAL_ID,
+  BLOCKED_DUPLICATE_CANONICAL_ID,
+  BLOCKED_UNEXPECTED_CANONICAL_ID,
+  validateCanonicalIdSubset,
+  resolveCanonicalIdValidation,
+  dedupeObjectsByCanonicalId,
+  deterministicRetrySubBatchSize,
+  recordMissingIdDiagnostic,
+} = require('./g2-a1-phase3/missing-canonical-id-retry');
+const {
   nowMs,
   createAttemptDeadlines,
   createAttemptAbortContext,
@@ -132,6 +142,282 @@ function failAttemptResult(reason, stats, results, checkpoints, lastBatchId, ext
   };
 }
 
+async function runSingleTransportCall({
+  transport,
+  lunaPayload,
+  attemptGuard,
+  stats,
+  allowPartialCanonicalIds,
+}) {
+  if (isRealLunaTransport(transport)) {
+    stats.realCalls += 1;
+  }
+  const callPromise = transport.call(lunaPayload, {
+    signal: attemptGuard.controller.signal,
+    recoveryContext: lunaPayload.recoveryContext,
+    allowPartialCanonicalIds,
+  });
+  trackDetachedPromise(callPromise);
+  const response = await Promise.race([callPromise, attemptGuard.guardPromise]);
+  stats.tokensUsed += response?.tokensUsed || 0;
+  return response;
+}
+
+async function runMissingCanonicalIdRetryBatch({
+  transport,
+  batch,
+  serialize,
+  serializeCheckpoint,
+  scopeId,
+  adapterName,
+  batchIndex,
+  stats,
+  interruptState,
+  batchWallClockMs,
+  requestTimeoutMs,
+  retryBackoffMs,
+  checkpointHooks,
+  cardType = null,
+}) {
+  const checkpointSerialize = serializeCheckpoint || serialize;
+  const expectedOrder = batch.map((obj) => obj.id);
+  const acceptedById = new Map();
+  let pendingObjects = [...batch];
+  let attemptRound = 0;
+  const batchStartedAt = new Date().toISOString();
+  const batchStartedMono = nowMs();
+  const batchDeadlineAt = batchStartedMono + batchWallClockMs;
+  let totalAttempts = 0;
+  let lastMissingIds = [];
+  let lastBlocker = BLOCKED_MISSING_CANONICAL_ID;
+  let batchTransportCalls = 0;
+
+  while (pendingObjects.length > 0) {
+    attemptRound += 1;
+    checkInterrupted(interruptState);
+
+    if (attemptRound > MAX_RETRIES) {
+      return failAttemptResult(lastBlocker, stats, [], [], null, {
+        missingIds: lastMissingIds,
+        missingCanonicalIdRetry: true,
+      });
+    }
+
+    const subBatchSize = deterministicRetrySubBatchSize(pendingObjects.length, attemptRound);
+    const subBatches = splitObjectsIntoBatches(pendingObjects, subBatchSize);
+    const nextPending = [];
+
+    for (const subBatch of subBatches) {
+      checkInterrupted(interruptState);
+      const remainingBatchMs = getMonotonicBatchRemainingMs(batchDeadlineAt);
+      if (remainingBatchMs <= 0) {
+        return batchWallExceededResult(stats, [], [], null);
+      }
+
+      totalAttempts += 1;
+      batchTransportCalls += 1;
+      if (batchTransportCalls > 1) {
+        stats.retries += 1;
+      }
+      const attemptStart = nowMs();
+      const deadlines = createAttemptDeadlines({
+        attemptStart,
+        requestTimeoutMs,
+        batchDeadlineAt,
+      });
+
+      let heartbeatTimer;
+      let attemptGuard = null;
+
+      try {
+        attemptGuard = createAttemptAbortContext({
+          attemptLimitMs: deadlines.attemptLimitMs,
+          isBatchDeadlineLimited: deadlines.isBatchDeadlineLimited,
+        });
+
+        if (checkpointHooks?.onHeartbeat) {
+          heartbeatTimer = setInterval(() => {
+            checkpointHooks.onHeartbeat({ currentScopeId: scopeId, batchIndex });
+          }, 15_000);
+        }
+
+        const checkpointPayload = {
+          scopeId,
+          adapter: adapterName,
+          objects: subBatch.map((obj) => checkpointSerialize(obj)),
+        };
+        const lunaPayload = {
+          scopeId,
+          adapter: adapterName,
+          objects: subBatch.map((obj) => serialize(obj)),
+          recoveryContext: { scopeId, batchIndex, attempt: totalAttempts, cardType },
+        };
+
+        const response = await runSingleTransportCall({
+          transport,
+          lunaPayload,
+          attemptGuard,
+          stats,
+          allowPartialCanonicalIds: true,
+        });
+
+        assertPostAwaitDeadline(deadlines);
+
+        const validation = resolveCanonicalIdValidation(subBatch, response, {
+          scopeId,
+          batchIndex,
+          attempt: totalAttempts,
+        });
+
+        if (validation.blockedReason === BLOCKED_UNEXPECTED_CANONICAL_ID) {
+          recordMissingIdDiagnostic({
+            scopeId,
+            cardType,
+            batchIndex,
+            attempt: totalAttempts,
+            validation,
+            usage: response?.usage || null,
+            retrySubsetIds: subBatch.map((obj) => obj.id),
+            rejectionReason: BLOCKED_UNEXPECTED_CANONICAL_ID,
+          });
+          return failAttemptResult(BLOCKED_UNEXPECTED_CANONICAL_ID, stats, [], [], null, {
+            missingIds: [],
+            unexpectedIds: validation.unexpectedIds,
+            missingCanonicalIdRetry: true,
+          });
+        }
+
+        for (const [id, item] of validation.acceptedById.entries()) {
+          if (!acceptedById.has(id)) {
+            acceptedById.set(id, item);
+          }
+        }
+
+        const subUnresolved = subBatch.filter((obj) => !acceptedById.has(obj.id));
+        for (const obj of subUnresolved) {
+          nextPending.push(obj);
+        }
+        lastMissingIds = subUnresolved.map((obj) => obj.id);
+        if (validation.duplicateIds?.length) {
+          lastBlocker = BLOCKED_DUPLICATE_CANONICAL_ID;
+        } else if (subUnresolved.length) {
+          lastBlocker = BLOCKED_MISSING_CANONICAL_ID;
+        }
+
+        if (!validation.ok) {
+          recordMissingIdDiagnostic({
+            scopeId,
+            cardType,
+            batchIndex,
+            attempt: totalAttempts,
+            validation,
+            usage: response?.usage || null,
+            retrySubsetIds: lastMissingIds,
+            rejectionReason: validation.blockedReason || validation.issues.join(","),
+          });
+        }
+      } catch (err) {
+        if (err.code === "INTERRUPTED") throw err;
+        const normalized = normalizeTransportError(err);
+        if (normalized.code === "BATCH_WALL_CLOCK_EXCEEDED") {
+          return batchWallExceededResult(stats, [], [], null);
+        }
+        lastBlocker = normalized.code === "TIMEOUT" ? "TIMEOUT" : BLOCKED_MISSING_CANONICAL_ID;
+        const tokensFromError = err.tokensUsed || err.usage?.total_tokens || 0;
+        if (tokensFromError > 0) {
+          stats.tokensUsed += tokensFromError;
+        }
+        recordMissingIdDiagnostic({
+          scopeId,
+          cardType,
+          batchIndex,
+          attempt: totalAttempts,
+          validation: {
+            expectedIds: subBatch.map((obj) => obj.id),
+            returnedCanonicalIds: [],
+            missingIds: subBatch.map((obj) => obj.id),
+            duplicateIds: [],
+            unexpectedIds: [],
+            itemsWithoutId: 0,
+            returnedItemCount: 0,
+          },
+          usage: err.usage || null,
+          retrySubsetIds: subBatch.map((obj) => obj.id),
+          rejectionReason: normalized.code === "TIMEOUT" ? "TIMEOUT" : normalized.message,
+        });
+        for (const obj of subBatch) {
+          if (!acceptedById.has(obj.id)) {
+            nextPending.push(obj);
+          }
+        }
+        lastMissingIds = subBatch.map((obj) => obj.id).filter((id) => !acceptedById.has(id));
+      } finally {
+        if (heartbeatTimer) clearInterval(heartbeatTimer);
+        if (attemptGuard) attemptGuard.dispose();
+      }
+    }
+
+    pendingObjects = dedupeObjectsByCanonicalId(nextPending);
+    lastMissingIds = pendingObjects.map((obj) => obj.id);
+
+    if (pendingObjects.length === 0) {
+      break;
+    }
+
+    if (attemptRound < MAX_RETRIES) {
+      const backoffDelayMs = retryBackoffMs[Math.min(attemptRound - 1, retryBackoffMs.length - 1)];
+      if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= backoffDelayMs) {
+        return batchWallExceededResult(stats, [], [], null);
+      }
+      await sleep(backoffDelayMs);
+      if (getMonotonicBatchRemainingMs(batchDeadlineAt) <= 0) {
+        return batchWallExceededResult(stats, [], [], null);
+      }
+    }
+  }
+
+  const finalItems = expectedOrder.map((id) => acceptedById.get(id));
+  if (finalItems.some((item) => !item)) {
+    return failAttemptResult(BLOCKED_MISSING_CANONICAL_ID, stats, [], [], null, {
+      missingIds: expectedOrder.filter((id) => !acceptedById.has(id)),
+      missingCanonicalIdRetry: true,
+    });
+  }
+
+  let savedCheckpoint = null;
+  if (checkpointHooks?.onBatchPass) {
+    const checkpointPayload = {
+      scopeId,
+      adapter: adapterName,
+      objects: batch.map((obj) => (serializeCheckpoint || serialize)(obj)),
+    };
+    savedCheckpoint = checkpointHooks.onBatchPass({
+      batchIndex,
+      batch,
+      getId: (obj) => obj.id,
+      requestPayload: checkpointPayload,
+      rawResult: { items: finalItems, tokensUsed: 0 },
+      attemptCount: totalAttempts,
+      tokensUsed: 0,
+      startedAt: batchStartedAt,
+    });
+  }
+
+  stats.objectsReturned += finalItems.length;
+  stats.batches += 1;
+
+  const checkpoints = savedCheckpoint ? [savedCheckpoint] : [];
+  const lastBatchId = savedCheckpoint?.batchId || null;
+
+  return {
+    ok: true,
+    items: finalItems,
+    checkpoints,
+    lastBatchId,
+    stats,
+  };
+}
+
 async function runBatchedAdapter({
   transport,
   objects,
@@ -146,6 +432,8 @@ async function runBatchedAdapter({
   batchWallClockMs = BATCH_WALL_CLOCK_MS,
   requestTimeoutMs = TIMEOUT_MS,
   retryBackoffMs = BACKOFF_MS,
+  missingCanonicalIdRetry = false,
+  cardType = null,
 }) {
   const stats = createAdapterStats();
   stats.objectsExpected = objects.length;
@@ -191,6 +479,45 @@ async function runBatchedAdapter({
         checkpointHooks.onHeartbeat?.({ skippedBatches: stats.skippedBatches });
         continue;
       }
+    }
+
+    if (missingCanonicalIdRetry) {
+      const retryResult = await runMissingCanonicalIdRetryBatch({
+        transport,
+        batch: batch.map((obj) => serialize(obj)),
+        serialize: (obj) => obj,
+        serializeCheckpoint: serializeCheckpoint
+          ? (obj) => (serializeCheckpoint(obj))
+          : (obj) => serialize(obj),
+        scopeId,
+        adapterName,
+        batchIndex,
+        stats,
+        interruptState,
+        batchWallClockMs,
+        requestTimeoutMs,
+        retryBackoffMs,
+        checkpointHooks,
+        cardType,
+      });
+      if (!retryResult.ok) {
+        return {
+          ok: false,
+          reason: retryResult.reason,
+          stats,
+          results,
+          checkpoints,
+          lastBatchId,
+          missingIds: retryResult.missingIds,
+          missingCanonicalIdRetry: true,
+        };
+      }
+      results.push(...retryResult.items);
+      if (retryResult.checkpoints?.length) {
+        checkpoints.push(...retryResult.checkpoints);
+        lastBatchId = retryResult.lastBatchId;
+      }
+      continue;
     }
 
     let attempt = 0;
@@ -354,8 +681,12 @@ module.exports = {
   createLunaAdapter,
   validateBatchResponse,
   isRealLunaTransport,
+  runMissingCanonicalIdRetryBatch,
   TIMEOUT_MS,
   MAX_RETRIES,
   BATCH_WALL_CLOCK_MS,
   BACKOFF_MS,
+  BLOCKED_MISSING_CANONICAL_ID,
+  BLOCKED_DUPLICATE_CANONICAL_ID,
+  BLOCKED_UNEXPECTED_CANONICAL_ID,
 };
