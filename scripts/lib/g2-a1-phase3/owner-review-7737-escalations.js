@@ -153,7 +153,12 @@ function triageEscalationRow(row) {
 function loadIndividualIngestProof() {
   if (!fs.existsSync(INDIVIDUAL_INGEST_PROOF)) return null;
   const proof = JSON.parse(fs.readFileSync(INDIVIDUAL_INGEST_PROOF, "utf8"));
-  if (proof.classification !== "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_INGEST_READY") return null;
+  if (
+    proof.classification !== "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_INGEST_READY" &&
+    proof.classification !== "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_QUARANTINE_REPAIRED"
+  ) {
+    return null;
+  }
   return proof;
 }
 

@@ -183,10 +183,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hr|Reis|idx:496|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|Vater|idx:617|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "sha256": "5f2d2e49cb49b8225ed650a42fff5f9c169317e17097615a9940327be14f2318",
+      "sha256": "45beaaabfe51c55ed789c55cad527d146e019114ed93ea4cdd6cff239029413b",
       "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 89,
-      "pendingCount": 11
+      "decidedCount": 88,
+      "pendingCount": 12
     },
     {
       "batchId": "ESC-018",
@@ -194,10 +194,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hr|verlieren|idx:620|lv|MEANING_AND_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hu|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "ff43f1f79d5d394c257820d624d4ddf976a45b20b33072b569bc73d0ed4d9330",
+      "sha256": "a7d01700b776987b4a43036c445fc96eee3f6a12a8dee2bdfc0cd334fc9efa49",
       "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 53,
-      "pendingCount": 47
+      "decidedCount": 51,
+      "pendingCount": 49
     },
     {
       "batchId": "ESC-019",
@@ -590,10 +590,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|an|idx:12|lv, study.translation, study.explanation, study.examples, study.comparison|LANGUAGE_CONTAMINATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|Ding|idx:140|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "8c2dc1d420d4dbcc1e63da81d62c9753b368d7448e7127767983acba8a345ee2",
+      "sha256": "ead7fb51b1f4034d949fbfa1a7e3d3aa9180cbd03f3ea8bbf9e29cc529863b60",
       "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 84,
-      "pendingCount": 16
+      "decidedCount": 83,
+      "pendingCount": 17
     },
     {
       "batchId": "ESC-055",
@@ -601,10 +601,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|Donnerstag|idx:141|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|Hut|idx:328|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "544b756133abe72b221105224bfcc9e6c68d66d1b2db7deaacfc7de87e1404d5",
+      "sha256": "b2045f1022d8c17635f57ed4277305a44abb887ae2e668335d4e76966097e299",
       "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 73,
-      "pendingCount": 27
+      "decidedCount": 68,
+      "pendingCount": 32
     },
     {
       "batchId": "ESC-056",
@@ -612,10 +612,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|ich|idx:291|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|mögen|idx:413|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
-      "sha256": "d221ecfed6d19e6d53a11d3d81f836e5348e561697b6320f1b7709e0d40c3cd6",
+      "sha256": "62d3663e128f6b126fd7e51b574277d193439977d55ddb29f5c3a1c416541522",
       "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 83,
-      "pendingCount": 17
+      "decidedCount": 77,
+      "pendingCount": 23
     },
     {
       "batchId": "ESC-057",
@@ -623,10 +623,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|Möhre|idx:414|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|Sohn|idx:563|lv|MISTRANSLATION|gpt-5.6-luna",
-      "sha256": "eda18f316ca8543af6e3a78a25503428bc63c4fa991ce671123d555128159918",
+      "sha256": "e7f508ef812d737415cd1c48e122cfd6068a1570fbe0c3198265ce045e1b2471",
       "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 81,
-      "pendingCount": 19
+      "decidedCount": 78,
+      "pendingCount": 22
     },
     {
       "batchId": "ESC-058",
@@ -634,10 +634,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|Sommer|idx:565|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|zusammen|idx:675|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "sha256": "b9fccd5d20aae168421f30f13ed7846b027b42b342ac43e86482fc62c23107a7",
+      "sha256": "5c14feedd634ead083c6a9c9025fb4f89a7c0e995b4b6b473cb92308100c9f54",
       "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 84,
-      "pendingCount": 16
+      "decidedCount": 81,
+      "pendingCount": 19
     },
     {
       "batchId": "ESC-059",

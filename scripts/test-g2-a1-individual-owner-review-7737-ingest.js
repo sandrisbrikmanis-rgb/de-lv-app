@@ -27,6 +27,8 @@ const {
   loadIngestAttachments,
   ingestIndividualOwnerReview7737,
 } = require("./lib/g2-a1-phase3/individual-7737-ingest");
+const { OUT_QUARANTINE_PROOF } = require("./lib/g2-a1-phase3/linguistic-quarantine-7737-repair");
+const { main: verifyPostIngest } = require("./verify-g2-a1-individual-owner-review-7737-post-ingest");
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -128,6 +130,10 @@ function testPreIngestBaselineRecorded() {
 }
 
 function main() {
+  if (fs.existsSync(OUT_QUARANTINE_PROOF)) {
+    verifyPostIngest();
+    return;
+  }
   testPreIngestBaselineRecorded();
   testAttachments();
   testIngestArtifacts();
