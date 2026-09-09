@@ -479,5 +479,8 @@ module.exports = {
   IDENTITY_PAIRS,
   reconcileIdentity,
   ownerGateStats,
+  buildConsolidatedRow,
+  buildBatchRow,
+  batchStatusForRows,
   ingestAllRemainingOwnerReview,
 };

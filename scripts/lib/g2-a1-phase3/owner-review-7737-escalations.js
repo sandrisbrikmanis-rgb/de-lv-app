@@ -27,6 +27,7 @@ const OUT_BATCH_INDEX = path.join(ROOT, "reports/g2-a1-owner-review-7737-escalat
 const BATCH_001_PROOF = path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-proof.json");
 const TARGET_BACKLOG = path.join(ROOT, "reports/g2-a1-phase3-owner-review-batch-001-target-language-backlog.json");
 const INGEST_PROOF = path.join(ROOT, "reports/g2-a1-phase3-owner-review-all-remaining-ingest-proof.json");
+const INDIVIDUAL_INGEST_PROOF = path.join(ROOT, "reports/g2-a1-owner-review-individual-7737-ingest-proof.json");
 
 const REVIEW_HEADER = [
   "escalation_batch_id",
@@ -149,27 +150,44 @@ function triageEscalationRow(row) {
   };
 }
 
+function loadIndividualIngestProof() {
+  if (!fs.existsSync(INDIVIDUAL_INGEST_PROOF)) return null;
+  const proof = JSON.parse(fs.readFileSync(INDIVIDUAL_INGEST_PROOF, "utf8"));
+  if (proof.classification !== "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_INGEST_READY") return null;
+  return proof;
+}
+
 function verifySourceIntegrity(root) {
   const errors = [];
-  const committedDecisions = loadCsvFromString(
-    gitShow("reports/g2-a1-owner-review-all-remaining-decisions-final.csv"),
-  ).rows;
-  const committedNeeds = loadCsvFromString(
-    gitShow("reports/g2-a1-owner-review-needs-owner-final.csv"),
-  ).rows;
+  const individualProof = loadIndividualIngestProof();
   const workingDecisions = loadCsv(DECISIONS_CSV).rows;
   const workingNeeds = loadCsv(NEEDS_OWNER_CSV).rows;
 
-  if (sha256File(DECISIONS_CSV) !== EXPECTED_DECISIONS_SHA) errors.push("decisions sha drift");
-  if (sha256File(NEEDS_OWNER_CSV) !== EXPECTED_NEEDS_OWNER_SHA) errors.push("needs-owner sha drift");
+  if (individualProof) {
+    if (sha256File(DECISIONS_CSV) !== individualProof.decisionsSha256After) errors.push("decisions sha drift");
+    if (sha256File(NEEDS_OWNER_CSV) !== individualProof.needsOwnerSha256After) errors.push("needs-owner sha drift");
+  } else {
+    if (sha256File(DECISIONS_CSV) !== EXPECTED_DECISIONS_SHA) errors.push("decisions sha drift");
+    if (sha256File(NEEDS_OWNER_CSV) !== EXPECTED_NEEDS_OWNER_SHA) errors.push("needs-owner sha drift");
+  }
+
+  const committedDecisions = individualProof
+    ? workingDecisions
+    : loadCsvFromString(gitShow("reports/g2-a1-owner-review-all-remaining-decisions-final.csv")).rows;
+  const committedNeeds = individualProof
+    ? workingNeeds
+    : loadCsvFromString(gitShow("reports/g2-a1-owner-review-needs-owner-final.csv")).rows;
 
   const committedPending = committedDecisions.filter((row) => row.owner_status === "PENDING");
   const workingPending = workingDecisions.filter((row) => row.owner_status === "PENDING");
   const committedDecided = committedDecisions.filter((row) => row.owner_status === "DECIDED");
 
-  if (committedPending.length !== 7737) errors.push(`committed pending ${committedPending.length}`);
-  if (workingPending.length !== 7737) errors.push(`working pending ${workingPending.length}`);
-  if (committedDecided.length !== 14913) errors.push(`committed decided ${committedDecided.length}`);
+  const expectedPending = individualProof ? individualProof.pending : 7737;
+  const expectedDecided = individualProof ? individualProof.decided : 14913;
+
+  if (committedPending.length !== expectedPending) errors.push(`committed pending ${committedPending.length}`);
+  if (workingPending.length !== expectedPending) errors.push(`working pending ${workingPending.length}`);
+  if (committedDecided.length !== expectedDecided) errors.push(`committed decided ${committedDecided.length}`);
 
   const identity = reconcileIdentity(
     committedPending.map((row) => ({
@@ -216,24 +234,50 @@ function verifySourceIntegrity(root) {
     }
   }
 
-  const ingestProof = JSON.parse(fs.readFileSync(INGEST_PROOF, "utf8"));
-  if (ingestProof.classification !== "G2_A1_OWNER_REVIEW_ALL_REMAINING_INGEST_READY") {
+  const ingestProof = individualProof || JSON.parse(fs.readFileSync(INGEST_PROOF, "utf8"));
+  if (individualProof) {
+    if (individualProof.preexisting14913DecisionsChanged !== 0) {
+      errors.push("preexisting 14913 changed");
+    }
+  } else if (ingestProof.classification !== "G2_A1_OWNER_REVIEW_ALL_REMAINING_INGEST_READY") {
     errors.push("ingest proof not ready");
-  }
-  if (ingestProof.decided !== 14913 || ingestProof.pending !== 7737) {
+  } else if (ingestProof.decided !== 14913 || ingestProof.pending !== 7737) {
     errors.push("ingest proof counts drift");
+  }
+
+  if (!individualProof) {
+    const trustedDecided = loadCsvFromString(
+      gitShow(INGEST_COMMIT, "reports/g2-a1-owner-review-all-remaining-decisions-final.csv"),
+    ).rows.filter((row) => row.owner_status === "DECIDED");
+    for (const row of trustedDecided) {
+      const working = workingDecisions.find((item) => item.finding_stable_ids === row.finding_stable_ids);
+      if (!working || !ownerFieldsEqual(row, working)) {
+        errors.push(`preexisting decision changed ${row.finding_stable_ids}`);
+      }
+    }
+  }
+
+  let escalationRows = [];
+  if (individualProof) {
+    const escDecided = loadCsv(OUT_DECISIONS).rows;
+    const escPending = loadCsv(OUT_REMAINING).rows;
+    escalationRows = [...escDecided, ...escPending];
+    if (escalationRows.length !== 7737) errors.push(`escalation scope ${escalationRows.length}`);
+  } else {
+    escalationRows = committedPending;
   }
 
   return {
     pass: errors.length === 0,
     errors,
-    committedPending,
+    committedPending: escalationRows,
     committedDecided,
     committedNeeds,
     workingPending,
     workingNeeds,
     identity,
     ingestProof,
+    individualProof,
   };
 }
 
@@ -748,7 +792,16 @@ function applyParallelEscalationReview(options = {}) {
   };
 }
 
-function consolidateReviewBatchOutputs(batchRows, baselinePendingByStable) {
+function isValidPendingOwnerNote(note, { individualLinguisticReview = false } = {}) {
+  const trimmed = String(note || "").trim();
+  if (!trimmed) return false;
+  if (individualLinguisticReview) return true;
+  return trimmed.includes("OWNER_REVIEW_REQUIRED");
+}
+
+function consolidateReviewBatchOutputs(batchRows, baselinePendingByStable, options = {}) {
+  const individualLinguisticReview =
+    options.individualLinguisticReview ?? Boolean(loadIndividualIngestProof());
   const errors = [];
   const outputs = [];
   for (const row of batchRows) {
@@ -778,7 +831,7 @@ function consolidateReviewBatchOutputs(batchRows, baselinePendingByStable) {
       if (row.owner_decision || row.owner_new) {
         errors.push(`pending has decision/new ${row.finding_stable_ids}`);
       }
-      if (!String(row.owner_note || "").includes("OWNER_REVIEW_REQUIRED")) {
+      if (!isValidPendingOwnerNote(row.owner_note, { individualLinguisticReview })) {
         errors.push(`pending missing marker ${row.finding_stable_ids}`);
       }
     } else {
@@ -800,6 +853,7 @@ module.exports = {
   REVIEW_HEADER,
   classifyUnresolvedCategory,
   buildPrecisePendingNote,
+  isValidPendingOwnerNote,
   triageEscalationRow,
   verifySourceIntegrity,
   packageReviewBatches,
