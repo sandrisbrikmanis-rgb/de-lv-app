@@ -7,10 +7,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/bg|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/es|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "a02fe2da97cfb546e64493a29b920091a76aac0ffd4c8ee39f2be9a1a405e564",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 8,
-      "pendingCount": 92
+      "sha256": "935d146a8c980e38fe475ea28993db8ec8e0437acf711219ebd3d8f493d8708c",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-002",
@@ -18,10 +18,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/es|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/et|morgen|idx:417|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "sha256": "08b67531bac30f89acf9e47a6484091eda64c4b4a2ae948df80ed1290a21d803",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 21,
-      "pendingCount": 79
+      "sha256": "ab5317c1b14fe74d67644ec3950ae781f0e6abfbae1b7438c5165b3430ed8667",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-003",
@@ -29,10 +29,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/et|Morgen|idx:418|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "8bc6190b924d4bb13a797dd81ac6de3483841ea07287a7c5b1398873d2af7f2d",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 84,
-      "pendingCount": 16
+      "sha256": "dac1ec2a740b1886de0b17a2d86914d223d8f9bcc3f7b88b899e6f478b7805f6",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-004",
@@ -40,10 +40,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/fi|a1-neu|a1.card.a1-neu.study.explanation[5]|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/fi|dann|idx:128|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "3bf459651f4e9df62cfdde59224224dba460187a1532f2c9fc0b630e8a32dc7d",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 86,
-      "pendingCount": 14
+      "sha256": "06a3cec98217b2e7fe31917ea9b46854bd5eead3e8c32f494300bd7fe88fd031",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-005",
@@ -51,10 +51,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/fi|Datum|idx:131|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|Gurke|idx:258|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "e97705341c338f3db27ca41f2147a6fd08abf4a967d72e5a6207bbe1e35613ba",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 80,
-      "pendingCount": 20
+      "sha256": "f74f113e56ec547fdfb34b6ec2bb116c0ddb4d1ae6372c4f37a139649a53e1b5",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-006",
@@ -62,10 +62,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/fi|gut|idx:259|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|Löffel|idx:383|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "736cd52f4324e5dc760cf65c7fdd55c5abac84302a4a890a741d2ab28961c8cd",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 81,
-      "pendingCount": 19
+      "sha256": "fa7eddb7e12c1ca1ef5c4e32f63ca84afcafb4e2ccfd562012399d1f1cb2c5fb",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-007",
@@ -73,10 +73,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/fi|Luft|idx:384|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|Post|idx:480|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "5a00e51de8463e54753562ba799f06238184e015ff60ac95e8ac901a4e6f0f71",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 82,
-      "pendingCount": 18
+      "sha256": "9241415e8540d638b8f89208aef7dfa1aa7792d3825cbf8b32e5dd1a367944ec",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-008",
@@ -84,10 +84,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/fi|Preis|idx:481|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/fi|Tochter|idx:600|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "1c79f2b72283130de24e8a005e8f1eee8df07904a7147571e7207f2db1072548",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 89,
-      "pendingCount": 11
+      "sha256": "cfd7f97df50016eda325f75c4bfc020089588a1f5164f2ae21ef749e4cfffa56",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-009",
@@ -95,10 +95,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/fi|Toilette|idx:601|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/fr|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "3ae1e775ce6dd84f22b56ec8912ce9b1fbd9ab95bd7bc9bf33b20e4a2f7a9495",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 88,
-      "pendingCount": 12
+      "sha256": "faad29022b61a29cb4b516c732980e2ad6c187a38a68e65e106e92aecdc95cda",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-010",
@@ -106,10 +106,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/fr|a1-fuer|a1.card.a1-fuer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/gr|a1-aufs|a1.card.a1-aufs.study.explanation[2]|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "ac76c24270c61d85ee6992e9f940382e5a46546a546f54fb0cba2adda18c3678",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 32,
-      "pendingCount": 68
+      "sha256": "49abaec097f681f75883637e865e17414c7654abe874ee1899d7513ca59281fc",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-011",
@@ -117,10 +117,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/gr|a1-aufs|a1.card.a1-aufs.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/gr|was|idx:644|lv, study.translation, study.explanation, study.examples, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "4cff290f8eacfa6584b75329190cdd17000358cec2403d24c4d04b3bf37c062e",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 46,
-      "pendingCount": 54
+      "sha256": "39787f133d7d8fab7e47c2f5e8af9bf81b86863cf5ae2a4cdbaa7e5a5b97e609",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-012",
@@ -128,10 +128,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/gr|wenn|idx:655|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|a1-nur-study|a1.card.a1-nur-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "cf8c8a2818561e3a28c1ae914710f34fe81b7233e0ce1bee617023eed55aa5c5",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 93,
-      "pendingCount": 7
+      "sha256": "974467afa018f4e765491960793badd2f018b73c8436ddb624d2632da49a57f0",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-013",
@@ -139,10 +139,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hr|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/hr|Bitte|idx:94|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "sha256": "a6f7ecc1cd70118d15e3630034321293b8dd708047ad80598ae84bb660a70734",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 89,
-      "pendingCount": 11
+      "sha256": "6eecba53b1eb93d99d64116d9ba5ab9ee98879bae36bbe80c868f038773704c9",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-014",
@@ -150,10 +150,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hr|blau|idx:100|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|Garage|idx:220|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "1811430ecd7366fb066519666748b3dcc2ec83027c5428d315e52513b2c6eb97",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 91,
-      "pendingCount": 9
+      "sha256": "1974d65d8b5724abbaed90b60f1f98edb6f541576237fa02f7c1e8fe12779f24",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-015",
@@ -161,10 +161,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hr|Garten|idx:221|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|leer|idx:362|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "f3bb82157457ce0237c6c43a22beacb7b6b7fbc95c9e92ce14a1b953a255037d",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 78,
-      "pendingCount": 22
+      "sha256": "c256518de75e48ea3d2e1d3525fd1a2f299481400977553f43db816be836d475",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-016",
@@ -172,10 +172,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hr|legen|idx:363|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|regnen|idx:495|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "d742ac375a19e8b3ff74e553d2576399d1988b00a81230e43bb241df39916941",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 95,
-      "pendingCount": 5
+      "sha256": "83ed2bbeac2a704228d02f92233dc236c17b310a80b44d4a018d8254edc0da73",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-017",
@@ -183,10 +183,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hr|Reis|idx:496|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/hr|Vater|idx:617|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "sha256": "064e36726fb3b9f9fd33d622e156bb645c573ee84e4ff9aabf26c21b8d678d77",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 89,
-      "pendingCount": 11
+      "sha256": "d87bf73cb8125cbca28467de4633a3d036090655f5a70ff1d7d129920271449c",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-018",
@@ -194,10 +194,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hr|verlieren|idx:620|lv|MEANING_AND_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/hu|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "51e12ec03b75da5b7ebe475a2bc8de865a46466ae312004a50501bf41a7c1472",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 89,
-      "pendingCount": 11
+      "sha256": "de8a4d9cf912092d495f07d6894b214997fe66a0b1767d60a853482bc9c7c553",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-019",
@@ -205,10 +205,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hu|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/hu|bitte|idx:93|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "79756b62fdcdf46bddde026970e1bc9915895963dc023d26dc5720fb9ac9f0b1",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 85,
-      "pendingCount": 15
+      "sha256": "e640537a5648d5d251d273c015206a9bb8ad8c3e7c5b9f3bd94bf24b3b0405e8",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-020",
@@ -216,10 +216,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/hu|Bitte|idx:94|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "20dee53b55d9fbb9111de3e37796dff5e7eeb0ab5fc4d348946bba11fcc3b93e",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 40,
-      "pendingCount": 60
+      "sha256": "b5297b74f5558ad84684f90e6f4f46d01b677f703863f690a7de3566b2eda52b",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-021",
@@ -227,10 +227,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/is|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/is|alle|idx:7|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "d23dc2b205125aa7ca54fe7c5ba9d12dda173a0db82acef2a57abb6dd2d98fb4",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 98,
-      "pendingCount": 2
+      "sha256": "2b0f60092a8953b801deac14d8f3258339215d62ad086863c5c08dabcc67caa2",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-022",
@@ -238,10 +238,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/is|allein|idx:8|lv|WRONG_TRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|dreißig|idx:146|lv|MEANING_ERROR|gpt-5.6-luna",
-      "sha256": "ad4e4301f346e95dcf87b03946278059e183a2a6593f569fc28094ac8590226f",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 83,
-      "pendingCount": 17
+      "sha256": "9d4427f9b46ac6315e45c6ea1fee8af61ba6d3cc66f0a4462a79b579e5848f87",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-023",
@@ -249,10 +249,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/is|dreizehn|idx:147|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|immer|idx:294|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "2d0c4545487859baf11d78d48c71295a731df8d8ca9e42eaad081b57fcab06c8",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 67,
-      "pendingCount": 33
+      "sha256": "bc8537764179c9834a4fa0d7503b4abb1e694f67d221b571c2084df3f201b979",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-024",
@@ -260,10 +260,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/is|in|idx:295|study|LANGUAGE_MIX|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|mehr|idx:400|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "sha256": "64ff2076c434fb3b04d605e92c8eeb035c75f60af551114c84557e05c0d871f2",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 83,
-      "pendingCount": 17
+      "sha256": "064a1ff074fcfeed8c44302a6e1ccf2d1ee5998ec4b094b6e4e7484e158291de",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-025",
@@ -271,10 +271,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/is|mein|idx:401|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|rot|idx:499|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
-      "sha256": "849ebc3bece100e118f2ef3640e8b7d626fb1003c7256bf1c298641f76d09145",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 78,
-      "pendingCount": 22
+      "sha256": "964670f0d1e2315ed8b316b7f1714bfbd08f08e63b22848f5d29d691b6402585",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-026",
@@ -282,10 +282,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/is|rufen|idx:500|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
       "lastStableId": "g2/a1/is|Tier|idx:598|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "sha256": "c857ac3a4a13cf80ecaa4b3a478b2b9556584fa8c6d066c231c0e2458231f080",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 89,
-      "pendingCount": 11
+      "sha256": "a2cceeae134fb821e10d3c55601bb33b8ed3ae33904e7db912c63b4f70602a83",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-027",
@@ -293,10 +293,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/is|Tisch|idx:599|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/it|a1-erst|a1.card.a1-erst.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "6d2b399b66b77b9450e5dfd514557738e10ec98149ddf2f4530a09f1715431ed",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 89,
-      "pendingCount": 11
+      "sha256": "b38be60278b114b14c707501f0c1476b3b60a2aa2b53c8371cf2f902a25ac708",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-028",
@@ -304,10 +304,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/it|a1-erst|a1.card.a1-erst.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/it|alles|idx:9|lv|MEANING_ERROR|gpt-5.6-luna",
-      "sha256": "48c11e59c84c2600712fdaf54d4a8d4f6ea7d221414a9d14121be092e1a23983",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 96,
-      "pendingCount": 4
+      "sha256": "8c5de488f828b3b1b94f65d23306035c68d91ef22649796a146d8cda5c3ce6f7",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-029",
@@ -315,10 +315,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/it|also|idx:26|study|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/it|Hose|idx:325|lv|MEANING_MISMATCH|gpt-5.6-luna",
-      "sha256": "36afb5b156726075c738d87d8f4c49613622bb128fc6fb6cfca539706a40bdcc",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 64,
-      "pendingCount": 36
+      "sha256": "a72b90093afb48c6845a49a5562ad6094f01a99500540975ceaa54e343341241",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-030",
@@ -326,10 +326,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/it|hübsch|idx:288|study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/it|Sekunde|idx:545|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "sha256": "4eb187081b1d2b852704e18d1f965e3220c9c9c7cc5088514af6bedcd1efb504",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 58,
-      "pendingCount": 42
+      "sha256": "cda7f3d8445fe6348884e869001d84de08a77938168bd9a3aea77283d74c7b20",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-031",
@@ -337,10 +337,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/it|September|idx:546|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|a1-heissen|a1.card.a1-heissen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "db89afd254ee54c53caeb5ac84f30b59b82c811c6729be78d4f6f04111428ab3",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 76,
-      "pendingCount": 24
+      "sha256": "4e51699dd55a420baec4dde6177c1f3253a5e28be41a11609d36b85931bcbd5f",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-032",
@@ -348,10 +348,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lb|a1-hoeren-study|a1.card.a1-hoeren-study.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/lb|auf dem Bahnhof|idx:59|lv|MISSING_TRANSLATION|gpt-5.6-luna",
-      "sha256": "92cf4dd8bcf2da25aadf9579093121938088666efae3223dbecb68e4c47c92cd",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 94,
-      "pendingCount": 6
+      "sha256": "004e19d60cc334ccf6ea9fdf063e7d504430a3c26ec3d77dcaf9edde5d7978e5",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-033",
@@ -359,10 +359,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lb|auf|idx:49|study|PLACEHOLDER_AND_TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|Fernseher|idx:182|lv|MISSING_TRANSLATION|gpt-5.6-luna",
-      "sha256": "8d295f30eceb587d940bfb21d6cf6e658c51b24043b46ea72c343f41d73ae316",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 75,
-      "pendingCount": 25
+      "sha256": "37d193cc62d0f4c9ddc8f8fbff49840315d4fde7a7d557e782d2939d8ad859f0",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-034",
@@ -370,10 +370,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lb|fertig|idx:183|lv|MISSING_TRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|ja|idx:297|lv|MISSING_TRANSLATION|gpt-5.6-luna",
-      "sha256": "26a21a3053b7f9c7131681c55129dad05e3d393a64cfcc9ea1bdbd5c8fd84959",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 80,
-      "pendingCount": 20
+      "sha256": "1d843224b1ffbe8fb2282584ed0e4982d812d5642617d23431a98efdfb46a073",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-035",
@@ -381,10 +381,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lb|Jahr|idx:329|lv|MISSING_TRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|mögen|idx:413|lv; study.explanation; study.examples.lv|MISSING_TRANSLATION|gpt-5.6-luna",
-      "sha256": "fc0d2b491672438e9e0ef3dd3641e3d6ffd3ba3f202109270f31c55166a5c966",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 85,
-      "pendingCount": 15
+      "sha256": "c6b1c0d917e18b90fff9171c6e3600da2d2484a5691ecf4dc705d2ed1a6442a3",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-036",
@@ -392,10 +392,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lb|Möhre|idx:414|lv|MISSING_TRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|schlecht|idx:513|lv|MISSING_TRANSLATION|gpt-5.6-luna",
-      "sha256": "dae71dd21d66f5c85691b5208da633edafce36b41830ea5ff2b4d7cb52affa87",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 84,
-      "pendingCount": 16
+      "sha256": "d549b5ef59fbee960f57536314f81a501a7f76cb9f2f9c20a32db0d10bf95a36",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-037",
@@ -403,10 +403,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lb|Schlüssel|idx:514|lv|MISSING_TRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/lb|um|idx:611|lv, study|TARGET_TRANSLATION_ERROR|gpt-5.6-luna",
-      "sha256": "f8e09bb02e46ce66c6bc17aadf7642660a98a41957afa0c8e53b3c0e9d7f440c",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 85,
-      "pendingCount": 15
+      "sha256": "6bc7859d96f970c1adce96fea78fea45f72b3cf81052c78766cbf6eb48dd8ac8",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-038",
@@ -414,10 +414,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lb|unser|idx:613|lv|MISSING_TRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/lt|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "bb32e390e3debb0e99520f086d2fdf77e7cd9962e8f47ace51abe6fbc7a95e0d",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 84,
-      "pendingCount": 16
+      "sha256": "5f0a64f7b390ebed8cb6f9a4d42940ba25412647e5cc29bf4735c16e081481a3",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-039",
@@ -425,10 +425,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lt|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/lt|dann|idx:128|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "a7fbb01f97767219ad9114cf99d97770cf39fbb43a8f0c3f64acd47f86501931",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 82,
-      "pendingCount": 18
+      "sha256": "a4ad98a5513d5f8b91f24361467f77f53b1dd845e2abc9d3e21a6a04150da25a",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-040",
@@ -436,10 +436,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/lt|das|idx:129|lv; study.translation; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/lt|wissen|idx:311|lv and study target-language fields|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
-      "sha256": "373d44972d3c2aa1646231b66b3be4f0f178d1365a79e20c191638acaf7d218b",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 53,
-      "pendingCount": 47
+      "sha256": "46c6671fb9c1e7a07019a580da3b8e8eb516d47ed657f83a077083503de51a24",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-041",
@@ -447,10 +447,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/mk|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/mk|a1-probieren|a1.card.a1-probieren.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "52ca34e37fbedf997770876b6caf18af1f15968a091d178eec214f00fa660deb",
-      "status": "REVIEWED_COMPLETE",
-      "decidedCount": 100,
-      "pendingCount": 0
+      "sha256": "53f7f287ae336d90d08f1db69c04ab19ade8f40f9e1829946d467eb0c11a387e",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-042",
@@ -458,10 +458,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/mk|a1-probieren|a1.card.a1-probieren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/mk|Filzstift|idx:186|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
-      "sha256": "e76f88f57306b105f5f5a615eb3ae09b1d708c9bd87285638daca87270ed7279",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 71,
-      "pendingCount": 29
+      "sha256": "062d913cb2e40bf6c859f44d47b401388f5eea61c6b1c737953a510c1d294287",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-043",
@@ -469,10 +469,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/mk|finden|idx:187|lv, study.translation, study.explanation, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/mk|Sohn|idx:563|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "0f5dec8bfe7169181bd1b192d5188dbe48fd76fc2ff72a09daa3be48984e6d82",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 54,
-      "pendingCount": 46
+      "sha256": "74f5b167049bd2694c098425a42fcb1760e2355f4108f137be631d3f133adfe5",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-044",
@@ -480,10 +480,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/mk|sollen|idx:564|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|a1-im|a1.card.a1-im.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "73e15f3e90762dfc86c01191c1c281969a9e61259310e50c3b503f605b627296",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 88,
-      "pendingCount": 12
+      "sha256": "a96d369a61c0cf059ba8c2141afea25a47ea58ae02f2cc6d1fe8909866851c17",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-045",
@@ -491,10 +491,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nb|a1-im|a1.card.a1-im.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/nb|Armbanduhr|idx:45|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "18945c19c4d7cd1151040f3d59d35cd6976f7b5c7aa7def4bc27440891649e12",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 96,
-      "pendingCount": 4
+      "sha256": "3c3ff68b0692de1afc286367a0080280f25871a7106584559dbf80044e113204",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-046",
@@ -502,10 +502,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nb|Ärztin|idx:46|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|Frühling|idx:206|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "103602ede99b973ae3f18bc781786ce2223f367a8b63b72b4d92c58c16941bf3",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 77,
-      "pendingCount": 23
+      "sha256": "7abd11677ef22c93e719ec954cbf2fb163b41f9cbe2ad20b45775bc6e88bedf5",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-047",
@@ -513,10 +513,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nb|Frühstück|idx:207|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|lachen|idx:323|lv|WRONG_MEANING|gpt-5.6-luna",
-      "sha256": "b129414d143d235b891acfd089544341b27ecd9c564fe7eb321a703717f3f01b",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 76,
-      "pendingCount": 24
+      "sha256": "429d9212849b140af0037c7b69cd5ed97ef17c701608ae85ffe5d73860b248c8",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-048",
@@ -524,10 +524,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nb|Laden|idx:349|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|sechzehnte|idx:536|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "a1f0e77f3c5f736bd1542e74edd6abefc68fb8fd4d460195ae4e13f14f3f28f9",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 70,
-      "pendingCount": 30
+      "sha256": "e5af6b98593a4c556dec99a01f6e5befac715e1acb71d0424402c71b387722e5",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-049",
@@ -535,10 +535,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nb|sechzig|idx:537|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nb|zweimal|idx:681|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "2bfbe44ddb0c8611729fa95597f9906969b2d72798ab7ae02636eca26f9ad67f",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 71,
-      "pendingCount": 29
+      "sha256": "cd2a673ae9df69cd63a51fe77fe0ed2c5a4689055b38fd260d0e673b1d4fc692",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-050",
@@ -546,10 +546,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nb|zweite|idx:682|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/nl|a1-probieren|a1.card.a1-probieren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "9ba28ac5764884b8938a2f3ffb240ff9482b105b60ab14b829c02e7642034082",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 99,
-      "pendingCount": 1
+      "sha256": "fda8868a3872c569373ade93ff013fe7f8196b1a2fb78839ad1fdec7501243ac",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-051",
@@ -557,10 +557,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nl|a1-seite|a1.card.a1-seite.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/nl|in|idx:295|study.explanation, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
-      "sha256": "f7842b6bd6e8e09baaeded4b59d410b162c235baa8f8e98bcbd54a5587b8c8ed",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 45,
-      "pendingCount": 55
+      "sha256": "664a08254f0626a6064b4b8d18268e4afe4be0cc53a22953573385b137104b66",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-052",
@@ -568,10 +568,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nl|ins|idx:296|lv; study.translation; study.explanation; study.examples[4].lv; study.tip; study.important|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "6f8635f5ee3ee3d9eb085d20b2d267251e75570520ac2c03d5eaf68ff334e445",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 46,
-      "pendingCount": 54
+      "sha256": "5276d6ffd0f8ee9d1d280a5f6cf43c991b3fa0cf18742d3a4520a6fb85910b8d",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-053",
@@ -579,10 +579,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/nn|Alter|idx:11|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "dbb03aec3b360b004bda71b585585e3dc1d52d9dcc5c7c6eb2cf7bea04926aa7",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 97,
-      "pendingCount": 3
+      "sha256": "ffe5499fe5662ba25778f03ba0addac67888f487a0136b7369885f2503b3ad64",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-054",
@@ -590,10 +590,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|an|idx:12|lv, study.translation, study.explanation, study.examples, study.comparison|LANGUAGE_CONTAMINATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|Ding|idx:140|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "075ac419ecfd4c5c1e3763d8df4e59a229041f75dae1bc500336e0ace73fffcb",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 84,
-      "pendingCount": 16
+      "sha256": "f2630d3b39f875442dcd9828bf168b034f9b88b1a163b05accc879f719493a37",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-055",
@@ -601,10 +601,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|Donnerstag|idx:141|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|Hut|idx:328|lv|WRONG_LANGUAGE|gpt-5.6-luna",
-      "sha256": "fabe1820f1a7fed76e6a2c2122deee870157192537e8dc5bbc421509f88d4498",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 73,
-      "pendingCount": 27
+      "sha256": "a938fc6617b09f05a1d16830d6f02aecd7596ed6b7f096774de9bb50b8b96f96",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-056",
@@ -612,10 +612,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|ich|idx:291|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|mögen|idx:413|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna",
-      "sha256": "69ed3b113384defb37550cc4b472cc6566db78c1d0626ce2e4a118e27075c6a7",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 82,
-      "pendingCount": 18
+      "sha256": "e34e6a2a298752dad361cb09eeb21f77bea41ba6a622711966cf0163c6b7482b",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-057",
@@ -623,10 +623,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|Möhre|idx:414|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|Sohn|idx:563|lv|MISTRANSLATION|gpt-5.6-luna",
-      "sha256": "7c9db8b089d084908526f2b75b8a5d8dafba76683e9782d7116b4731032a5a16",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 81,
-      "pendingCount": 19
+      "sha256": "955530fd9600469836c9690c5c82d862114092d3488c81fa52c76e4d37acade5",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-058",
@@ -634,10 +634,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|Sommer|idx:565|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|zusammen|idx:675|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "sha256": "a966aff52fa5f2d26a6f8db014b107fdbcbfdadff753963f2c58a54075be7db2",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 84,
-      "pendingCount": 16
+      "sha256": "379575db86334507a1b9dbfc344232818f16b97bcedd548d50d88127738d1643",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-059",
@@ -645,10 +645,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/nn|zwanzig|idx:677|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/pl|a1-natuerlich|a1.card.a1-natuerlich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "2791ed607ac2a453bd485455e8cf3f465b5a2e6308ac164590f2c20467c6f269",
-      "status": "REVIEWED_COMPLETE",
-      "decidedCount": 100,
-      "pendingCount": 0
+      "sha256": "41368ca9a87e94f8d163f63124efb971c67b28e03ef183d5bf57b19bacf36ea2",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-060",
@@ -656,10 +656,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/pl|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/pl|können|idx:319|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "8a79fef319a25906800126af2d452ebf2677cd88dca3a8a35975ab15206477b5",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 44,
-      "pendingCount": 56
+      "sha256": "ae3cb1d462daba69478a112e53d0d982380ee8655db747d7dda5764a2219d51e",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-061",
@@ -667,10 +667,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/pl|kosten|idx:320|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|a1-hoeren-study|a1.card.a1-hoeren-study.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "386d8318bb7ef4540d8f4da31afa38947f7cd0447c830509d481e026497db505",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 50,
-      "pendingCount": 50
+      "sha256": "5d482f7a89d7cc9edac3cbf3b7979cc2c06f7f8869375829ae551624a326485f",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-062",
@@ -678,10 +678,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/pt|a1-hoeren-study|a1.card.a1-hoeren-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/pt|besuchen|idx:89|lv, study.translation, study.explanation, study.examples, study.comparison|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna",
-      "sha256": "dd549859e313d748e827b02c05f28a38a06317d005fe08aa1a2b41ceb8e5ac24",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 66,
-      "pendingCount": 34
+      "sha256": "c56f8c71be8927a521a5c55d5778e6163255c717e272101577754827228b5a69",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-063",
@@ -689,10 +689,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/pt|bis|idx:91|lv, study.translation, study.examples, study.comparison|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|leider|idx:367|lv|ORTHOGRAPHY|gpt-5.6-luna",
-      "sha256": "44dae0487d813fdaf126d7c2cb2594e2d62712a554e5c9fd7f782a63c7ca9f36",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 1,
-      "pendingCount": 99
+      "sha256": "feca18eabe40e8a94d440a847c4d3472076425befab29a6d703e1ca74ab81641",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-064",
@@ -700,10 +700,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/pt|leise|idx:368|study|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|Vorname|idx:637|lv|ORTHOGRAPHY|gpt-5.6-luna",
-      "sha256": "37f49a06b7e488a99687f5de61ac93b4ea3f922a1a20a8f52d3ea74d7ca2604d",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 3,
-      "pendingCount": 97
+      "sha256": "40ca98d461365c8075a6a533ea7b5e53d6cd32c665276f9d98fb88ee7d09414a",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-065",
@@ -711,10 +711,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/pt|warum|idx:643|lv|ORTHOGRAPHY|gpt-5.6-luna",
       "lastStableId": "g2/a1/ro|a1-land|a1.card.a1-land.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "5f1bd6d1756d001cdeaa7c272ab36f145a028610683506daebb329ec7bd38afb",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 79,
-      "pendingCount": 21
+      "sha256": "af4da365ef5ecd9ee10d5bf6b9dc36eeae32358cb0f7c53f9cd4d61936255086",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-066",
@@ -722,10 +722,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/ro|a1-land|a1.card.a1-land.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/ro|Frau|idx:198|lv, study.translation, study.explanation, study.examples, study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "13477021d3d83eb9532f006a8b8f0c16f715e30ef743f37c14a3d616e855d16c",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 68,
-      "pendingCount": 32
+      "sha256": "ea4c6ddecb96c3d900c5d2dd1f8fbf1441592c5f78b4c29e63d9d7b795051583",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-067",
@@ -733,10 +733,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/ro|für|idx:216|lv, study.translation, study.explanation, study.examples, study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/ro|Spielzeug|idx:573|lv|MISTRANSLATION|gpt-5.6-luna",
-      "sha256": "5a571849a7d6f9e2a5d5a213e36468c48045cfea52729303d700059c9447c59d",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 32,
-      "pendingCount": 68
+      "sha256": "f76a9c1af6ec7aa6e53d00d2a7a835e2b18db610353f0a399c71613e70b801a4",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-068",
@@ -744,10 +744,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/ro|Sprache|idx:574|lv|MISTRANSLATION|gpt-5.6-luna",
       "lastStableId": "g2/a1/ru|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "2fdd3a43dd54deb3151453884ae1561091ea89a4defe4727253e6e9fa73286ea",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 82,
-      "pendingCount": 18
+      "sha256": "ea5029c596384859980253469a38d6d16f3537f6c86e20cbfc56b771107df09f",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-069",
@@ -755,10 +755,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/ru|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/ru|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "3c05e955c03cd029dadfd55530cf6efbdbc6ed8f7561a223eb6db118a3d021a9",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 67,
-      "pendingCount": 33
+      "sha256": "b411cea7159b2a5ce6a9f3b11081c7c0e1a7116b217634f70fc47b8e72489a30",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-070",
@@ -766,10 +766,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/ru|Mann|idx:394|lv; study.*.lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/sk|a1-ihr|a1.card.a1-ihr.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "sha256": "ef63ad793c5da0345dd1f7343e7238afa42734f7c27e7134f2efa67041fd81cf",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 70,
-      "pendingCount": 30
+      "sha256": "58cb119c7de6dcc637cfee2ecbaa6cf2e5623c7a25a1056e974821f73764890b",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-071",
@@ -777,10 +777,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/sk|a1-ihr|a1.card.a1-ihr.study.tip[0]|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/sk|dass|idx:130|lv, study.translation, study.comparison|MEANING_ERROR|gpt-5.6-luna",
-      "sha256": "3a7181ec0be97c975baa7d5ddb51c98825e9d0475c213f70dd86b64958059ab7",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 78,
-      "pendingCount": 22
+      "sha256": "dce2dd3e47ad3ea58f10d8e2c62015df9025637491a39e3e74926d027e36ba2a",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-072",
@@ -788,10 +788,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/sk|dein|idx:132|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/sk|passen|idx:471|lv, study.translation, study.explanation, study.comparison|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "sha256": "78b4208f0367dd457319e9a9777aa615692e44cfdde246a5fa285198d7f814b9",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 54,
-      "pendingCount": 46
+      "sha256": "28a5a5b219beb3f5388822e71e79c0d88881e8393b5d4078c60a887c85331e98",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-073",
@@ -799,10 +799,10 @@
       "rowCount": 100,
       "firstStableId": "g2/a1/sk|probieren|idx:482|lv and study LV fields|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/sl|unter|idx:615|lv, study|TRANSLATION_ERROR|gpt-5.6-luna",
-      "sha256": "20684adbde4e5c45b12309d884cee156ec2f41bbab0d2227e642896c6d5c46ff",
-      "status": "REVIEWED_WITH_REMAINDER",
-      "decidedCount": 4,
-      "pendingCount": 96
+      "sha256": "10960fa8fc3ff0c685ad480bf4089ef576b83acf9521c1242f8afba8b3ab6bba",
+      "status": "PENDING",
+      "decidedCount": 0,
+      "pendingCount": 100
     },
     {
       "batchId": "ESC-074",
@@ -811,7 +811,7 @@
       "firstStableId": "g2/a1/sl|verstehen|idx:621|lv, study|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/sr|Appetit|idx:689|lv; study.translation; study.explanation; study.examples; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna",
       "sha256": "63a11e83d9d5cb17db4d1e1df822dd5620f4f7dcbed573546b531d48af790477",
-      "status": "REVIEWED_WITH_REMAINDER",
+      "status": "PENDING",
       "decidedCount": 0,
       "pendingCount": 100
     },
@@ -822,7 +822,7 @@
       "firstStableId": "g2/a1/sr|auch|idx:48|lv; study.translation; study.explanation; study.examples[].lv; study.tip; study.important|TARGET_LANGUAGE_MIX|gpt-5.6-luna",
       "lastStableId": "g2/a1/sv|dass|idx:130|study.lv, study.examples.lv, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "sha256": "f321264c524968f95eccdda600029d56de25dec1b5de026b4a8c67114fd875c7",
-      "status": "REVIEWED_WITH_REMAINDER",
+      "status": "PENDING",
       "decidedCount": 0,
       "pendingCount": 100
     },
@@ -833,7 +833,7 @@
       "firstStableId": "g2/a1/sv|der|idx:134|study.lv, study.examples.lv, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/tr|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
       "sha256": "83d47be338d8d847b45ef81c036c2d08c41e7bc5a60c0f712c859301cbcf3457",
-      "status": "REVIEWED_WITH_REMAINDER",
+      "status": "PENDING",
       "decidedCount": 0,
       "pendingCount": 100
     },
@@ -844,7 +844,7 @@
       "firstStableId": "g2/a1/tr|ab|idx:17|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|jung|idx:304|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "sha256": "e8d9d252d07114e55b898ebd45f99fa3e633b17e60fb77723f42822a2672c259",
-      "status": "REVIEWED_WITH_REMAINDER",
+      "status": "PENDING",
       "decidedCount": 0,
       "pendingCount": 100
     },
@@ -855,7 +855,7 @@
       "firstStableId": "g2/a1/uk|kein|idx:308|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|Zug|idx:671|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "sha256": "5c5ab7db051210f4093bd643242a0598a1ee14796478c78ddfa4d9763e2a93b7",
-      "status": "REVIEWED_WITH_REMAINDER",
+      "status": "PENDING",
       "decidedCount": 0,
       "pendingCount": 37
     }

@@ -644,11 +644,17 @@ function applyParallelEscalationReview(options = {}) {
     newRealLunaCalls: 0,
     automaticOwnerDecisions: 0,
     parallelBatchReview: true,
-    nextStep:
-      decidedRows.length === 7737
-        ? "CONSOLIDATE_ALL_OWNER_DECISIONS_AND_PREPARE_SINGLE_COPY_ONLY_APPLY"
-        : "OWNER_REVIEW_REMAINING_ESCALATIONS",
+    ownerDecisionWritingDisabled: true,
+    nextStep: "INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737",
   };
+
+  if (decidedRows.length > 0) {
+    return {
+      pass: false,
+      classification: "BLOCKED_G2_A1_OWNER_REVIEW_7737_ESCALATIONS",
+      errors: ["automatic owner decision writing is disabled"],
+    };
+  }
 
   if (proof.productionDiff || proof.crowdinDiff) {
     return {

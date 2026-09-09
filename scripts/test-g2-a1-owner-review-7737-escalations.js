@@ -19,15 +19,16 @@ const {
   OUT_DECISIONS,
   OUT_REMAINING,
   OUT_PROOF,
-  OUT_BATCH_DIR,
   verifySourceIntegrity,
   runOwnerReview7737Escalations,
   applyParallelEscalationReview,
-  consolidateReviewBatchOutputs,
   classifyUnresolvedCategory,
   buildPrecisePendingNote,
 } = require("./lib/g2-a1-phase3/owner-review-7737-escalations");
-const { reviewEscalationRowEvidence } = require("./lib/g2-a1-phase3/review-escalation-row-evidence");
+const {
+  OWNER_DECISION_WRITING_DISABLED,
+  reviewEscalationRowEvidence,
+} = require("./lib/g2-a1-phase3/review-escalation-row-evidence");
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -70,15 +71,16 @@ function testReviewArtifacts() {
     fs.readFileSync(path.join(ROOT, "reports/g2-a1-owner-review-7737-escalations-batches-index.json"), "utf8"),
   );
   assert(
-    proof.classification === "G2_A1_OWNER_REVIEW_7737_ESCALATIONS_COMPLETED_WITH_REMAINDER" ||
-      proof.classification === "G2_A1_OWNER_REVIEW_7737_ESCALATIONS_COMPLETE",
+    proof.classification === "G2_A1_ESCALATION_REVIEW_5241_AUTOMATIC_DECISIONS_REPAIRED" ||
+      proof.classification === "G2_A1_OWNER_REVIEW_7737_ESCALATIONS_COMPLETED_WITH_REMAINDER",
     "classification valid",
   );
   assert(proof.inputRows === 7737, "input rows 7737");
   assert(proof.reviewScope === "7737/7737", "review scope");
-  assert(proof.reviewedDecided === decisions.rows.length, "decisions count matches proof");
-  assert(remaining.rows.length === proof.remainingPending, "remaining count matches proof");
-  assert(decisions.rows.length + remaining.rows.length === 7737, "partition 7737");
+  assert(decisions.rows.length === 0, "no automatic decisions csv");
+  assert(remaining.rows.length === 7737, "remaining 7737");
+  assert(proof.reviewedDecided === 0, "reviewed decided 0");
+  assert(proof.remainingPending === 7737, "remaining pending 7737");
   assert(proof.preexisting14913DecisionsChanged === 0, "14913 unchanged");
   assert(proof.batch001DecisionsChanged === 0, "batch001 unchanged");
   assert(proof.deferredBacklog29Closed === 0, "backlog preserved");
@@ -86,46 +88,31 @@ function testReviewArtifacts() {
   assert(proof.crowdinDiff === 0, "crowdin diff 0");
   assert(proof.newRealLunaCalls === 0, "no luna calls");
   assert(proof.automaticOwnerDecisions === 0, "no automatic decisions");
-  assert(proof.parallelBatchReview === true, "parallel batch review");
 
   let batchSum = 0;
-  let batchDecided = 0;
-  let batchPending = 0;
   const batchIds = new Set();
   for (const entry of index.batches) {
     assert(fs.existsSync(path.join(ROOT, entry.file)), `batch file ${entry.batchId}`);
     assert(entry.rowCount <= 100, `max 100 ${entry.batchId}`);
     batchSum += entry.rowCount;
-    batchDecided += entry.decidedCount || 0;
-    batchPending += entry.pendingCount || 0;
     assert(entry.sha256 === sha256File(entry.file), `batch sha ${entry.batchId}`);
     const batchRows = loadCsv(path.join(ROOT, entry.file)).rows;
     for (const row of batchRows) {
       assert(!batchIds.has(row.finding_stable_ids), `batch duplicate ${row.finding_stable_ids}`);
       batchIds.add(row.finding_stable_ids);
+      assert(row.owner_status === "PENDING", `pending ${row.finding_stable_ids}`);
+      assert(row.owner_decision === "" && row.owner_new === "", `blank decision/new ${row.finding_stable_ids}`);
+      assert(row.owner_note.includes("OWNER_REVIEW_REQUIRED"), `note marker ${row.finding_stable_ids}`);
     }
   }
   assert(batchSum === 7737, "batch sum 7737");
   assert(batchIds.size === 7737, "batch unique ids 7737");
-  assert(batchDecided === proof.reviewedDecided, "batch decided sum");
-  assert(batchPending === proof.remainingPending, "batch pending sum");
 
-  const ids = new Set();
-  for (const row of decisions.rows) {
-    assert(!ids.has(row.finding_stable_ids), `duplicate decided ${row.finding_stable_ids}`);
-    ids.add(row.finding_stable_ids);
-    assert(row.owner_status === "DECIDED", `decided ${row.finding_stable_ids}`);
-    assert(["LABOT", "NELABOT"].includes(row.owner_decision), `valid decision ${row.finding_stable_ids}`);
-    if (row.owner_decision === "LABOT") assert(String(row.owner_new || "").trim(), `labot new ${row.finding_stable_ids}`);
-    if (row.owner_decision === "NELABOT") assert(!String(row.owner_new || "").trim(), `nelabot blank new ${row.finding_stable_ids}`);
-  }
   for (const row of remaining.rows) {
-    assert(!ids.has(row.finding_stable_ids), `duplicate remaining ${row.finding_stable_ids}`);
-    ids.add(row.finding_stable_ids);
-    assert(row.owner_status === "PENDING", `pending ${row.finding_stable_ids}`);
-    assert(row.owner_decision === "" && row.owner_new === "", `blank decision/new ${row.finding_stable_ids}`);
-    assert(row.owner_note.includes("OWNER_REVIEW_REQUIRED"), `note marker ${row.finding_stable_ids}`);
-    assert(row.unresolved_category, `category ${row.finding_stable_ids}`);
+    assert(row.owner_status === "PENDING", `remaining pending ${row.finding_stable_ids}`);
+    assert(row.owner_decision === "" && row.owner_new === "", `remaining blank ${row.finding_stable_ids}`);
+    assert(row.owner_note.includes("OWNER_REVIEW_REQUIRED"), `remaining note ${row.finding_stable_ids}`);
+    assert(row.unresolved_category, `remaining category ${row.finding_stable_ids}`);
   }
 }
 
@@ -138,10 +125,12 @@ function testDeterminism() {
   const parallelFirst = applyParallelEscalationReview({ root: ROOT, dryRun: true });
   const parallelSecond = applyParallelEscalationReview({ root: ROOT, dryRun: true });
   assert(parallelFirst.pass && parallelSecond.pass, "parallel dry-run pass");
+  assert(parallelFirst.proof.reviewedDecided === 0, "parallel zero decided");
   assert(parallelFirst.proof.outputHash === parallelSecond.proof.outputHash, "parallel deterministic output hash");
 }
 
 function testEvidenceReviewHelpers() {
+  assert(OWNER_DECISION_WRITING_DISABLED === true, "owner writing disabled");
   const unchanged = reviewEscalationRowEvidence({
     mapping_resolution: "EXACT_FIELD",
     post_crowdin_state: "UNCHANGED_SINCE_DISCOVERY",
@@ -151,8 +140,9 @@ function testEvidenceReviewHelpers() {
     production_current: "test",
     de_reference: "test",
   });
-  assert(unchanged.reviewOutcome === "DECIDED", "unchanged scalar decided");
-  assert(unchanged.owner_decision === "NELABOT", "unchanged nelabot");
+  assert(unchanged.reviewOutcome === "PENDING", "unchanged stays pending");
+  assert(unchanged.owner_decision === "", "unchanged no decision");
+  assert(unchanged.evidence_tags.includes("UNCHANGED_SINCE_DISCOVERY_SCALAR"), "evidence tag");
 
   const composite = reviewEscalationRowEvidence({
     mapping_resolution: "COMPOSITE_SCOPE_CAPTURED",
