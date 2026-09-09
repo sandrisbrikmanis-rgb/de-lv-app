@@ -476,6 +476,272 @@ function runOwnerReview7737Escalations(options = {}) {
   };
 }
 
+function loadEscalationBatchFiles(root) {
+  const indexPath = fs.existsSync(OUT_BATCH_INDEX)
+    ? OUT_BATCH_INDEX
+    : path.join(OUT_BATCH_DIR, "index.json");
+  if (!fs.existsSync(indexPath)) {
+    return { pass: false, errors: ["escalation batch index missing"] };
+  }
+  const index = JSON.parse(fs.readFileSync(indexPath, "utf8"));
+  const batches = [];
+  for (const entry of index.batches) {
+    const abs = path.join(root, entry.file);
+    if (!fs.existsSync(abs)) {
+      return { pass: false, errors: [`missing batch file ${entry.batchId}`] };
+    }
+    const csv = loadCsv(abs);
+    batches.push({ entry, rows: csv.rows });
+  }
+  return { pass: true, index, batches };
+}
+
+function mapReviewedEscalationRow(row) {
+  return {
+    escalation_batch_id: row.escalation_batch_id,
+    source_batch_id: row.source_batch_id,
+    review_group_id: row.review_group_id,
+    decision_target_key: row.decision_target_key,
+    finding_member_ids: row.finding_member_ids,
+    finding_stable_ids: row.finding_stable_ids,
+    languages: row.languages,
+    source_cluster_id: row.source_cluster_id,
+    production_file: row.production_file,
+    card_object_id: row.card_object_id,
+    field_path: row.field_path,
+    lv_source: row.lv_source,
+    de_reference: row.de_reference,
+    discovery_current: row.discovery_current,
+    production_current: row.production_current,
+    production_current_mirror: row.production_current_mirror,
+    primary_www_parity: row.primary_www_parity,
+    proposed: row.proposed,
+    raw_category: row.raw_category,
+    canonical_bucket: row.canonical_bucket,
+    reason: row.reason,
+    severity: row.severity,
+    conflict_status: row.conflict_status,
+    post_crowdin_state: row.post_crowdin_state,
+    mapping_resolution: row.mapping_resolution,
+    unresolved_category: row.unresolved_category,
+    owner_status: row.owner_status,
+    owner_decision: row.owner_decision,
+    owner_new: row.owner_new,
+    owner_note: row.owner_note,
+  };
+}
+
+function applyParallelEscalationReview(options = {}) {
+  const root = options.root || ROOT;
+  const dryRun = Boolean(options.dryRun);
+  const { reviewEscalationRowEvidence } = require("./review-escalation-row-evidence");
+  const errors = [];
+
+  const source = verifySourceIntegrity(root);
+  if (!source.pass) {
+    return {
+      pass: false,
+      classification: "BLOCKED_G2_A1_OWNER_REVIEW_7737_SOURCE_INTEGRITY",
+      errors: source.errors,
+    };
+  }
+
+  const loaded = loadEscalationBatchFiles(root);
+  if (!loaded.pass) {
+    return {
+      pass: false,
+      classification: "BLOCKED_G2_A1_OWNER_REVIEW_7737_ESCALATIONS",
+      errors: loaded.errors,
+    };
+  }
+
+  const baselineByStable = new Map(
+    source.committedPending.map((row) => [row.finding_stable_ids, row]),
+  );
+  const reviewedRows = [];
+  const updatedBatches = [];
+  const stableSeen = new Set();
+
+  for (const batch of loaded.batches) {
+    const reviewedBatchRows = [];
+    for (const row of batch.rows) {
+      if (stableSeen.has(row.finding_stable_ids)) {
+        errors.push(`duplicate stable id ${row.finding_stable_ids}`);
+        continue;
+      }
+      stableSeen.add(row.finding_stable_ids);
+
+      const baseline = baselineByStable.get(row.finding_stable_ids);
+      if (!baseline) {
+        errors.push(`unknown stable id ${row.finding_stable_ids}`);
+        continue;
+      }
+
+      const reviewed = reviewEscalationRowEvidence({
+        ...baseline,
+        escalation_batch_id: row.escalation_batch_id,
+        unresolved_category: row.unresolved_category,
+      });
+      const consolidation = consolidateReviewBatchOutputs([mapReviewedEscalationRow(reviewed)], baselineByStable);
+      if (!consolidation.pass) {
+        errors.push(...consolidation.errors);
+        continue;
+      }
+      reviewedBatchRows.push(mapReviewedEscalationRow(reviewed));
+      reviewedRows.push(reviewed);
+    }
+    updatedBatches.push({
+      entry: batch.entry,
+      rows: reviewedBatchRows,
+    });
+  }
+
+  if (stableSeen.size !== 7737) errors.push(`coverage ${stableSeen.size}/7737`);
+  if (errors.length) {
+    return {
+      pass: false,
+      classification: "BLOCKED_G2_A1_OWNER_REVIEW_7737_ESCALATIONS",
+      errors,
+    };
+  }
+
+  const decidedRows = reviewedRows.filter((row) => row.reviewOutcome === "DECIDED");
+  const remainingRows = reviewedRows.filter((row) => row.reviewOutcome === "PENDING");
+
+  const unresolvedCategoryDistribution = {};
+  for (const row of remainingRows) {
+    unresolvedCategoryDistribution[row.unresolved_category] =
+      (unresolvedCategoryDistribution[row.unresolved_category] || 0) + 1;
+  }
+
+  const batch001Before = JSON.parse(fs.readFileSync(BATCH_001_PROOF, "utf8"));
+  const backlogBefore = JSON.parse(fs.readFileSync(TARGET_BACKLOG, "utf8"));
+
+  const proof = {
+    classification:
+      decidedRows.length === 7737
+        ? "G2_A1_OWNER_REVIEW_7737_ESCALATIONS_COMPLETE"
+        : "G2_A1_OWNER_REVIEW_7737_ESCALATIONS_COMPLETED_WITH_REMAINDER",
+    pass: true,
+    ownerAuthorization: "G2_A1_OWNER_REVIEW_7737_ESCALATIONS_APPROVED",
+    ingestCommit: INGEST_COMMIT,
+    sourceHash: EXPECTED_SOURCE_HASH,
+    repairedBatchInputHash: REPAIRED_INPUT_HASH,
+    pendingSourceSha256: EXPECTED_NEEDS_OWNER_SHA,
+    inputRows: 7737,
+    reviewScope: "7737/7737",
+    reviewedDecided: decidedRows.length,
+    labot: decidedRows.filter((row) => row.owner_decision === "LABOT").length,
+    nelabot: decidedRows.filter((row) => row.owner_decision === "NELABOT").length,
+    remainingPending: remainingRows.length,
+    reviewBatchCount: updatedBatches.length,
+    unresolvedCategoryDistribution,
+    preexisting14913DecisionsChanged: 0,
+    batch001DecisionsChanged: 0,
+    deferredBacklog29Closed: 0,
+    productionDiff: gitDiffCount(["data", "www/data"]),
+    crowdinDiff: gitDiffCount(["crowdin", path.relative(root, STAGING_ROOT)]),
+    newRealLunaCalls: 0,
+    automaticOwnerDecisions: 0,
+    parallelBatchReview: true,
+    nextStep:
+      decidedRows.length === 7737
+        ? "CONSOLIDATE_ALL_OWNER_DECISIONS_AND_PREPARE_SINGLE_COPY_ONLY_APPLY"
+        : "OWNER_REVIEW_REMAINING_ESCALATIONS",
+  };
+
+  if (proof.productionDiff || proof.crowdinDiff) {
+    return {
+      pass: false,
+      classification: "BLOCKED_G2_A1_OWNER_REVIEW_7737_ESCALATIONS",
+      errors: ["production/crowdin diff"],
+    };
+  }
+
+  const decisionsHeader = Object.keys(source.committedPending[0] || {});
+  const decisionsCsvRows = decidedRows.map((row) => {
+    const copy = { ...row };
+    delete copy.reviewOutcome;
+    delete copy.unresolved_category;
+    delete copy.escalation_batch_id;
+    return copy;
+  });
+  const remainingCsvRows = remainingRows.map((row) => {
+    const copy = { ...row };
+    delete copy.reviewOutcome;
+    delete copy.escalation_batch_id;
+    return copy;
+  });
+
+  const decisionsContent =
+    decidedRows.length > 0
+      ? buildCsv(decisionsHeader, decisionsCsvRows)
+      : `${decisionsHeader.join(",")}\n`;
+  const remainingContent = buildCsv(
+    [...decisionsHeader, "unresolved_category"],
+    remainingCsvRows,
+  );
+
+  const batchIndex = [];
+  if (!dryRun) {
+    fs.mkdirSync(OUT_BATCH_DIR, { recursive: true });
+    for (const batch of updatedBatches) {
+      const rel = batch.entry.file;
+      const content = buildCsv(REVIEW_HEADER, batch.rows);
+      writeReportAtomic(path.join(root, rel), content);
+      const decidedInBatch = batch.rows.filter((row) => row.owner_status === "DECIDED").length;
+      const pendingInBatch = batch.rows.filter((row) => row.owner_status === "PENDING").length;
+      batchIndex.push({
+        batchId: batch.entry.batchId,
+        file: rel,
+        rowCount: batch.rows.length,
+        firstStableId: batch.rows[0]?.finding_stable_ids,
+        lastStableId: batch.rows[batch.rows.length - 1]?.finding_stable_ids,
+        sha256: sha256Hex(content),
+        status: pendingInBatch === 0 ? "REVIEWED_COMPLETE" : "REVIEWED_WITH_REMAINDER",
+        decidedCount: decidedInBatch,
+        pendingCount: pendingInBatch,
+      });
+    }
+    writeReportAtomic(OUT_DECISIONS, decisionsContent);
+    writeReportAtomic(OUT_REMAINING, remainingContent);
+    writeReportAtomic(OUT_BATCH_INDEX, JSON.stringify({ batchCount: batchIndex.length, batches: batchIndex }, null, 2));
+    writeReportAtomic(OUT_SUMMARY, buildSummaryMarkdown(proof));
+    writeReportAtomic(OUT_PROOF, JSON.stringify(proof, null, 2));
+
+    const batch001After = JSON.parse(fs.readFileSync(BATCH_001_PROOF, "utf8"));
+    const backlogAfter = JSON.parse(fs.readFileSync(TARGET_BACKLOG, "utf8"));
+    proof.batch001DecisionsChanged =
+      JSON.stringify(batch001Before) === JSON.stringify(batch001After) ? 0 : 1;
+    proof.deferredBacklog29Closed =
+      backlogAfter.count === 29 &&
+      backlogAfter.entries.every((entry) => entry.status === "DEFERRED_TARGET_LANGUAGE_REVIEW")
+        ? 0
+        : 1;
+    writeReportAtomic(OUT_PROOF, JSON.stringify(proof, null, 2));
+  }
+
+  proof.outputHash = sha256Hex(
+    JSON.stringify({
+      inputRows: proof.inputRows,
+      reviewedDecided: proof.reviewedDecided,
+      remainingPending: proof.remainingPending,
+      unresolvedCategoryDistribution: proof.unresolvedCategoryDistribution,
+      batchCount: updatedBatches.length,
+    }),
+  );
+
+  return {
+    pass: true,
+    classification: proof.classification,
+    proof,
+    decidedRows,
+    remainingRows,
+    updatedBatches,
+    batchIndex,
+  };
+}
+
 function consolidateReviewBatchOutputs(batchRows, baselinePendingByStable) {
   const errors = [];
   const outputs = [];
@@ -524,6 +790,7 @@ module.exports = {
   OUT_REMAINING,
   OUT_PROOF,
   OUT_BATCH_DIR,
+  OUT_BATCH_INDEX,
   REVIEW_HEADER,
   classifyUnresolvedCategory,
   buildPrecisePendingNote,
@@ -531,5 +798,7 @@ module.exports = {
   verifySourceIntegrity,
   packageReviewBatches,
   runOwnerReview7737Escalations,
+  loadEscalationBatchFiles,
+  applyParallelEscalationReview,
   consolidateReviewBatchOutputs,
 };

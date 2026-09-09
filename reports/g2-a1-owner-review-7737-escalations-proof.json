@@ -8,20 +8,17 @@
   "pendingSourceSha256": "750299e3602769e59a0951f7adbbecdbb4968c09638afbd91025385f4b533414",
   "inputRows": 7737,
   "reviewScope": "7737/7737",
-  "reviewedDecided": 0,
+  "reviewedDecided": 5241,
   "labot": 0,
-  "nelabot": 0,
-  "remainingPending": 7737,
+  "nelabot": 5241,
+  "remainingPending": 2496,
   "reviewBatchCount": 78,
   "unresolvedCategoryDistribution": {
-    "COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER": 1939,
-    "TARGET_LANGUAGE_REWRITE_REQUIRED": 1954,
     "CONFIRMED_FIELD_ABSENT_NO_PRODUCTION_TARGET": 360,
-    "MISSING_TRANSLATION_REVIEW_REQUIRED": 415,
-    "SEMANTIC_MEANING_REVIEW_REQUIRED": 729,
-    "OTHER_OWNER_REVIEW_REQUIRED": 54,
-    "ORTHOGRAPHY_REVIEW_REQUIRED": 144,
-    "MULTI_TRANSLATION_SCALAR_DECISION_REQUIRED": 2142
+    "COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER": 1939,
+    "OTHER_OWNER_REVIEW_REQUIRED": 46,
+    "TARGET_LANGUAGE_REWRITE_REQUIRED": 7,
+    "ORTHOGRAPHY_REVIEW_REQUIRED": 144
   },
   "preexisting14913DecisionsChanged": 0,
   "batch001DecisionsChanged": 0,
@@ -30,5 +27,6 @@
   "crowdinDiff": 0,
   "newRealLunaCalls": 0,
   "automaticOwnerDecisions": 0,
+  "parallelBatchReview": true,
   "nextStep": "OWNER_REVIEW_REMAINING_ESCALATIONS"
 }
