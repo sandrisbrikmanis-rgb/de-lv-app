@@ -72,15 +72,17 @@
   },
   "checkpointShaBefore": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
   "checkpointShaAfter": "436b0df8b049ff23d3ff34a219dfcbee3ba7b165994c006fefa15c0e3af0b691",
-  "nextStep": "OWNER_REVIEW_7737_ESCALATIONS_OR_SEPARATE_APPLY_AUTHORIZATION",
+  "nextStep": "OWNER_REVIEW_REMAINING_INDIVIDUAL_ESCALATIONS",
   "outputHash": "0d3b8fbb1aeed3a694c2301194d950a1034b91f2f376aca7a6a9b6f46588c1bb",
   "ownerReviewIngest": {
-    "classification": "G2_A1_OWNER_REVIEW_ALL_REMAINING_INGEST_READY",
-    "decided": 14913,
-    "pending": 7737,
-    "labot": 1476,
-    "nelabot": 13437,
-    "ingestProofSha256": "6dfad2501971d1a5bfff9936b74b5e6840a4be4025dd73f77457d68f6bdffa1a",
-    "outputHash": "3b4a60aaee698c37a8ad3256704402ea4a200d510bbc240aeebb5d050aed674f"
+    "classification": "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_QUARANTINE_REPAIRED",
+    "decided": 17525,
+    "pending": 5125,
+    "labot": 3738,
+    "nelabot": 13787,
+    "linguisticQuarantineApplied": true,
+    "quarantinedToPending": 21,
+    "individual7737IngestProofSha256": "85866b4da1306237aaa4c7306fb5806978d69e4f951b23d056a8d1a428574431",
+    "outputHash": "4d40dfa04a1c410bb12c61d5eee07228a7a0f722c080a31cabbe9bb4e40ef118"
   }
 }

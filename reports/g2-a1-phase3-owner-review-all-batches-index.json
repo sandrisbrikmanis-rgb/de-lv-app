@@ -2324,7 +2324,7 @@
     {
       "batchId": "BATCH-069",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-069.csv",
-      "sha256": "3bdc7277b4bebbca01d85910f6adcf2f989f5da02c9a5537015a09d47ce5e1a9",
+      "sha256": "5bb80674f5ebad0ca6d8f8483c83858a9317028175d198e27cd12e88decca68c",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2341,7 +2341,7 @@
     {
       "batchId": "BATCH-070",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-070.csv",
-      "sha256": "82fafbe004131a316fa5be0123b38a242ea2c7b1b2c4ce4ec267653ddab1a8fb",
+      "sha256": "e0dca49334a6c5b8aecd510ac5228b7be4961c7893a15ffd307d5838e04ff587",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2357,7 +2357,7 @@
     {
       "batchId": "BATCH-071",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-071.csv",
-      "sha256": "fcf3d5e1615eeef42a9c77e92e756744953bd24de30c1188eb86828dc6fc9795",
+      "sha256": "dddf847baa67efff71caa62a409b160cc138c1e1d93b6e563e5e66d4f7d5bf27",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2373,7 +2373,7 @@
     {
       "batchId": "BATCH-072",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-072.csv",
-      "sha256": "a976f63700570ef0deed452bdc41de0f5976ac6ffa762165bb45194f42cd28aa",
+      "sha256": "ec2cc7d078abdfbc8d841ea22c2507b72cdeeb71c962dbb6bb7a7c15b70c9396",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2390,7 +2390,7 @@
     {
       "batchId": "BATCH-073",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-073.csv",
-      "sha256": "8b6636d9bd96e16ea0dfb75018c889a0037d6db6e1eba2f451766878fc3104ff",
+      "sha256": "8f0fa27c0e284f8730ca88b7fd214836b8d3bc26539fc85b3d475e816926465a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2406,7 +2406,7 @@
     {
       "batchId": "BATCH-074",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-074.csv",
-      "sha256": "c4ff17d9813ba8c0e74930ee10e6c01580821238a9f5803e16a5fce0c22b4101",
+      "sha256": "4bf96d20ca1791448cca02ae5e83d2da628116085226633152e32f051228241e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2422,7 +2422,7 @@
     {
       "batchId": "BATCH-075",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-075.csv",
-      "sha256": "34a4647a1a38092843cd0a9e53707b65f16e74b1b0749641b0551a69858343b9",
+      "sha256": "1f57b7573c47986089834fabf2eaecddfcecf4f2b648ab729e500fb1cacba8c3",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2439,7 +2439,7 @@
     {
       "batchId": "BATCH-076",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-076.csv",
-      "sha256": "58e91603d9cab66e60979b9ea382a13f7ae24823aa0a6a9f439351522ed57037",
+      "sha256": "4c4170f3b318a88f8718651bbc9b5195b29afbfa3ec4f5d2386b529fffb3d4c0",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2455,7 +2455,7 @@
     {
       "batchId": "BATCH-077",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-077.csv",
-      "sha256": "73f27c9d124d9375407e0ecb5273af098ea65b0181739c5640a748ae85200042",
+      "sha256": "0158ccdd9ad7b99770731cbc03778b4c42a46c169dcf44239360eff1f7a9ae22",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2471,7 +2471,7 @@
     {
       "batchId": "BATCH-078",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-078.csv",
-      "sha256": "1e81c561ff1f047d86eb60f9a2971b81a82b0c3080caac1e7257b33276a96aaf",
+      "sha256": "00406ca7d2ad806302354998627010a793f365736fafdf895596e80d30b1b8b4",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2487,7 +2487,7 @@
     {
       "batchId": "BATCH-079",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-079.csv",
-      "sha256": "51069aaf079582aa4c89da66cff529afb4c6fa58243757250b1d02fab9576ed8",
+      "sha256": "a800ea69c34ca934ad16c99e3c709a87a2bd91871ef90f7ad5e273c3f0995046",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2503,7 +2503,7 @@
     {
       "batchId": "BATCH-080",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-080.csv",
-      "sha256": "b41f1907187dee87ee3607b225ee91a3b09004a4726fabc3b8a7efe600936130",
+      "sha256": "cd23901fbd60b07032cecb15259cb526a23c2030f00c8b36371f402ea24dde8d",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2519,7 +2519,7 @@
     {
       "batchId": "BATCH-081",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-081.csv",
-      "sha256": "0c79ce8a45be73a6828e5e8ee37740446a1bebf0e7eec73559fc60a8d015ab97",
+      "sha256": "80b0bda6424f1b93244a96ba0b8e4583f26562a18cc79484dd75e899ceb2c241",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2536,7 +2536,7 @@
     {
       "batchId": "BATCH-082",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-082.csv",
-      "sha256": "2344714244e42e9a5a6034cfbd835fad790d0daed58e83989d57b65051bd64fc",
+      "sha256": "22eba7fa6133cb9971978653387cba9e34f55ca3b5da588d57d0728a9392c2d9",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2552,7 +2552,7 @@
     {
       "batchId": "BATCH-083",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-083.csv",
-      "sha256": "e79c27b6ae141029c4e4a03415ea623a39698917f908cd3b628bbd1d251ac1dc",
+      "sha256": "0667b6c628187d857ec146be26b91f13cd6b3736a8fb2c279b986a30d043f08e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2568,7 +2568,7 @@
     {
       "batchId": "BATCH-084",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-084.csv",
-      "sha256": "9b1534fe03f31b0a79b75d8802c0948224bd30d6cf8c063625c35931859a6f72",
+      "sha256": "6263f692d853ee6953172dd59375656e118bea4f15a99c6671a06ff4253d6bfd",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2585,7 +2585,7 @@
     {
       "batchId": "BATCH-085",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-085.csv",
-      "sha256": "3b11f0674a5cda14cc5b6e4847dd4f89a4f406c47eb5666720229a8d638153fb",
+      "sha256": "20570089ed5c06056c797debb36b33bc8869eddbca0c1d01f8999d27be66f80e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2601,7 +2601,7 @@
     {
       "batchId": "BATCH-086",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-086.csv",
-      "sha256": "e7dc757800ba0c9f972813ad8c0dbc995631cf4e2e2efe7247a03620dab6bff3",
+      "sha256": "0f7926952050a00bdc8ea0b789a7bf3b2d45382656638b1aadeec2a0fbb33789",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2617,7 +2617,7 @@
     {
       "batchId": "BATCH-087",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-087.csv",
-      "sha256": "d7c604a129858375949f07eb55024985862919583b19aac34c6a0d4606a66c32",
+      "sha256": "2fe53f8468db1202237989f7d0762da15b9349be9b0564411e3e24d27de0c058",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2633,7 +2633,7 @@
     {
       "batchId": "BATCH-088",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-088.csv",
-      "sha256": "0260d2299e21568b2acbd72673645bb7453d50b865b730c69814f41266154c2a",
+      "sha256": "cc04923bcc0f70e6a1503fbfbdfdd6f04aa0b66b198dcf61f480cdb3a920b500",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2650,7 +2650,7 @@
     {
       "batchId": "BATCH-089",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-089.csv",
-      "sha256": "2b7dfdccd5e70bda57a4f4f6ab4579c52e6eba122845e35053b14fe409fed290",
+      "sha256": "27ff5805f3edbfa8af76643ecee86db10f0834530062de8c042b32952d70017e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2666,7 +2666,7 @@
     {
       "batchId": "BATCH-090",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-090.csv",
-      "sha256": "962550c99c388e978ee0be9b52729b367e00a611572d061b28ecabe2422a7e71",
+      "sha256": "692e89e8f4379da55a38ee2b8929998bb50bb14bfe5af18919596782f00040e9",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2682,7 +2682,7 @@
     {
       "batchId": "BATCH-091",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-091.csv",
-      "sha256": "4fe16e84fc7c72915ebb36ac4a4e538f79a5a7bc71b70eda5984a8359f128382",
+      "sha256": "f54e473c0d429196f0c80c190a1b90592079507c81a4c8aca951d2cc359fb666",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2698,7 +2698,7 @@
     {
       "batchId": "BATCH-092",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-092.csv",
-      "sha256": "be713aef4bf87777fbccb48534a736d2f5327c4875d3fae3599d5550e87ce3f3",
+      "sha256": "385bff0f99eefe94c16db3417a109296085cd3ae8379c56131bfeb05583e3da8",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2714,7 +2714,7 @@
     {
       "batchId": "BATCH-093",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-093.csv",
-      "sha256": "cfd4951d9d7b1562c1ac43941c3e0cb4fe3e3e8803ce4a53cd8daf440e0e267b",
+      "sha256": "f9265e93ecf6f4fc7cbed662abff6cefc20c6020d13afe3dd5762ba2582b1cd8",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2731,7 +2731,7 @@
     {
       "batchId": "BATCH-094",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-094.csv",
-      "sha256": "3f5b94f652d06b15dff410f12c6c4045d673f10dfb2c4da2d64f2016a8ebfb64",
+      "sha256": "be717068f8bf81840e6ec422c9df33fa7237cca03f48be9996c5555d93aeab43",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2747,7 +2747,7 @@
     {
       "batchId": "BATCH-095",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-095.csv",
-      "sha256": "1872dfaae7e72189ff8c40e54fad74f03faf168764fc37acda2088eb5c04c455",
+      "sha256": "0f8071cc01df99da2f0c9ebdd51bba6fde965557743b0885909e2d2af63b50f1",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2763,7 +2763,7 @@
     {
       "batchId": "BATCH-096",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-096.csv",
-      "sha256": "bae1c0d164a1e2bcf60eb99356e018594f7f8574f84c0007e3bbb83a01b2055b",
+      "sha256": "bb3b49128613549896042b2239b5f324d6d7d24553ef690badc2d55a2eeed017",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2780,7 +2780,7 @@
     {
       "batchId": "BATCH-097",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-097.csv",
-      "sha256": "1177d4af722705dad015c999be537a2a391143fa38ad34ab48bfe194d5137fd6",
+      "sha256": "78d8dd0a9c06f296d533204eef1ac5259c67b85a68ccff2e7bf0bfa00709a560",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2796,7 +2796,7 @@
     {
       "batchId": "BATCH-098",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-098.csv",
-      "sha256": "391e9905d557b2f16fdf82be7179be8423c54b30ae277a5da182f4910ce19a2c",
+      "sha256": "5fcec3bbb5f689ba01d511880db1efffd067fd29902518c6ac554c52a713f50d",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2812,7 +2812,7 @@
     {
       "batchId": "BATCH-099",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-099.csv",
-      "sha256": "09848cdb95e331d103ee261adf939b00966633756a5f3e0d413510401e961466",
+      "sha256": "635fc0a048ac28181d0c7aad91275fa99a347191bde5d09bfc70f317f4b7d88e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2828,7 +2828,7 @@
     {
       "batchId": "BATCH-100",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-100.csv",
-      "sha256": "73d41e6846d5e512f8acbc56bd7c3890f448f02b8ff1c704d91923a5eb85b5df",
+      "sha256": "e12ced653b0d3760ceefbd964c31d3f4075bc68bc6e6d38a5240dae620dea0d7",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2844,7 +2844,7 @@
     {
       "batchId": "BATCH-101",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-101.csv",
-      "sha256": "34b7b4457c695600f496bf01406d6d8ee64370fa60f4c478a2a103ff07353517",
+      "sha256": "349246ec40a845d7c41439753e9e66ef0d8e2a763b63afda557e2619686bf098",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2861,7 +2861,7 @@
     {
       "batchId": "BATCH-102",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-102.csv",
-      "sha256": "dbdf631cd317296c0ab7546d288f4c72be6d31460214deafdc45cd292a45e64a",
+      "sha256": "cf7f25701c9b2ddc0f452ba33ec6035252823aa513913e7b11ef2665cbf9c369",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2878,7 +2878,7 @@
     {
       "batchId": "BATCH-103",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-103.csv",
-      "sha256": "a3dbb100575cbd9e94f7200585ed6251be3425043a2c2eba027c8e448da52317",
+      "sha256": "20cf898246e673ab9c9c37cb9374080605a641b1c7753576c5c3b74712c4c323",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2895,7 +2895,7 @@
     {
       "batchId": "BATCH-104",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-104.csv",
-      "sha256": "cf5c2ecdd947bc3f48e3f67c6addfc83c87a49491ada3db76afe3b6465e66965",
+      "sha256": "c2ecc6e61ee893be6c2e9d5bb0d27eceace273edd4e1448a89aec3f922d9a197",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2912,7 +2912,7 @@
     {
       "batchId": "BATCH-105",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-105.csv",
-      "sha256": "70c585ab4f7b13098237aa442781b1664f96f53f8d523d66623756fcefafa4fe",
+      "sha256": "b5077dfb69355493ef58326d15d803a9ab90c51ef787c7b5a55a47bfe573e495",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2928,7 +2928,7 @@
     {
       "batchId": "BATCH-106",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-106.csv",
-      "sha256": "f912a8a51d2fb72ed600f178bd37c1296be63e007ed4845daf55a8493030c83f",
+      "sha256": "0fd136f2cf342ad04d6a7ad258a1c8d843900b55ad6a04d4b754b2eab276fbc1",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2944,7 +2944,7 @@
     {
       "batchId": "BATCH-107",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-107.csv",
-      "sha256": "c0d1896fb3513b4dff93a794dcf09da929a36985605b4391167fe716cd2c3507",
+      "sha256": "3e12af59caae6a13e88d4a26574aad257c9b715271b3b9fc11d1761bdb59faab",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2961,7 +2961,7 @@
     {
       "batchId": "BATCH-108",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-108.csv",
-      "sha256": "bb8080062b10b8f2447d2c802b8843314b7d1254dd1c296454dc5217e95af636",
+      "sha256": "9c237d678e2c98be1a7006858dd17aa3db193bc712c3699f363cfe52dd3b8a71",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2977,7 +2977,7 @@
     {
       "batchId": "BATCH-109",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-109.csv",
-      "sha256": "fb54ad19a8de3b98fb28b5867e1d9b03bdec850561752cffa3bf47701327b62d",
+      "sha256": "922f8f1a7d60435f6cc2fa9e7ab816cce641a2bb822949ca4878b2b5ca3844e8",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -2993,7 +2993,7 @@
     {
       "batchId": "BATCH-110",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-110.csv",
-      "sha256": "54498ed13314042d8cb8a0f280fde831ac37a307d4384d5463e489bf35e81aff",
+      "sha256": "d2bc9b279f7b8ccac6d9a33763f096b5321b5004422708f235ec98a8e085405f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3009,7 +3009,7 @@
     {
       "batchId": "BATCH-111",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-111.csv",
-      "sha256": "6b199d6d1aedb91a0f9cc28fb4a4f4f481ca684a0d72d20cf3bc8f85378a58fe",
+      "sha256": "36ec04ce90efd708179a703a9b96777c0e9abd3ae48ee30d1aeafe82ea1d7906",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3026,7 +3026,7 @@
     {
       "batchId": "BATCH-112",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-112.csv",
-      "sha256": "b477085720b1b6355390ca6c3e3c478dd6229627f43cbf5eb5b68e1afeee1d2b",
+      "sha256": "8c0d5a30dc77daa1214b876bf50a7de251ed4921c9346d076673e71b2a2ac193",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3043,7 +3043,7 @@
     {
       "batchId": "BATCH-113",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-113.csv",
-      "sha256": "2e5186b85fbc333db0746ab6032024976e5abc265564234b8d86063f11e44ffa",
+      "sha256": "173f3c50e414eca07cce06cde24b6d93583c7dcf87754d485a989a717b4bb13a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3054,12 +3054,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nn|Abendessen|idx:19|lv|WRONG_LANGUAGE|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|öffnen|idx:460|lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-114",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-114.csv",
-      "sha256": "04f1a10ed78e1ff54df67db28b83ff25084ae01ae76da4fd0b6453947332480e",
+      "sha256": "2106e0e1ea58e72c3bcc99b22c55835d6b0b779788c04b386738800376b6820b",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3075,7 +3075,7 @@
     {
       "batchId": "BATCH-115",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-115.csv",
-      "sha256": "80f65f8c33f2a762ae5fc998a4a609d6c6e1c50923c5be42ce8092d0008d41a3",
+      "sha256": "64fd486e3ec93a099e236db29b118d2c9ad9b21889afad431a7818cd397f6cff",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3091,7 +3091,7 @@
     {
       "batchId": "BATCH-116",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-116.csv",
-      "sha256": "a7745cf5094ee9c97476a611d6cc45674a18a3f7f137a5c11b4c932ba5be638a",
+      "sha256": "9dc427461a17270f027bec165693bc488c8987d4789640265261bfff6a78105e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3108,7 +3108,7 @@
     {
       "batchId": "BATCH-117",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-117.csv",
-      "sha256": "7819a3680f4877b07313d1b010f901174c4851c9ade67ea387c0ef7f2cd1eb7f",
+      "sha256": "41fa3c5af333acb5926f3241674b9fa4bdc2791c20ae4023e4e8f9428cdb03fe",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3124,7 +3124,7 @@
     {
       "batchId": "BATCH-118",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-118.csv",
-      "sha256": "7993e3b789d1bfa91cba06096507b1616db1171372f2de2fd084304494754622",
+      "sha256": "8c2d239dd2aaf24505ed18c918640417966b9f4dc76d234fe4963180de5fb8a0",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3140,7 +3140,7 @@
     {
       "batchId": "BATCH-119",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-119.csv",
-      "sha256": "847d09c1ffdef7de28c2d40169212963e7c3c667c0f14048d9e2782efecbeedd",
+      "sha256": "2ceec7c055a20484b53e0cc50919eefdbe2bc186255b025addcd502f41a16e2a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3157,7 +3157,7 @@
     {
       "batchId": "BATCH-120",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-120.csv",
-      "sha256": "d8409f1c5d3c226ce68eaa3f64fbbb6f4adea24f1c3610e52590e310fdcdbd4c",
+      "sha256": "199e7b847e2a1f42068d092769a1ce2124839655eb7aa56b0053e9fd443fc8a6",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3173,7 +3173,7 @@
     {
       "batchId": "BATCH-121",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-121.csv",
-      "sha256": "eede21acfeb37010ce1ef4cca35f3c166d514679a5c5a4a40f6289ea8d05a5f8",
+      "sha256": "a7cbe3c4d3bef94b061e0b1a788693e22af75a21dc1e075c090aecf0afb97548",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3190,7 +3190,7 @@
     {
       "batchId": "BATCH-122",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-122.csv",
-      "sha256": "43da81ac6ccb6ccb63291caf76366769ae802a4ea418172035c7a1a9e4b26595",
+      "sha256": "5504b45983d20eefaa3ef1841e444ccb59dc34acdfc6722ffdcf12990f80210d",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3206,7 +3206,7 @@
     {
       "batchId": "BATCH-123",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-123.csv",
-      "sha256": "5b8aa8f372f428a6fbfb52a538365753975519f685fd0bd2d99ad1cc85c247fa",
+      "sha256": "a9f87ebcf25dd48da44654666c0f7067e953b5251fadbdd0d685784ef40c4815",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3222,7 +3222,7 @@
     {
       "batchId": "BATCH-124",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-124.csv",
-      "sha256": "36ea100b2382820760f16535e8c0b2d88753dde2a9dc1acd0b0d2e1aee4bb39c",
+      "sha256": "c392695620ec88661685876eecebb3f5efcca07691335778f34e2f24119ae8b1",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3238,7 +3238,7 @@
     {
       "batchId": "BATCH-125",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-125.csv",
-      "sha256": "ab281158097662f2014f5d2f04b49d3e188d30dc3a79480fbf6ed3fdfe74d60f",
+      "sha256": "e2b9c14dabbc99d005c6ce33d0f81f9bbba440f0a8edda9ef20761b75915cca0",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3255,7 +3255,7 @@
     {
       "batchId": "BATCH-126",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-126.csv",
-      "sha256": "301c5c7726f7eeaca153eceb798d13f613a99d16a2f4fb75904aaf416962f039",
+      "sha256": "d35690802fa97f5f9bcce6e674b6af08fcbeb784c65877bf656372f29a8ba882",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3271,7 +3271,7 @@
     {
       "batchId": "BATCH-127",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-127.csv",
-      "sha256": "0c0640462e24b00698771767431a186eee85379686bf592a57cb235f4d28fede",
+      "sha256": "fcf679d4c6f11f9e0226e05a9e69352774d2d6a915119029efaa5a724ebf7240",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3288,7 +3288,7 @@
     {
       "batchId": "BATCH-128",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-128.csv",
-      "sha256": "465800e8729ef6b3cd84b4bd4167ac95a2cc3952c6ed6b20d013f27e875ec4b3",
+      "sha256": "df83b922dfca1dd4083ec81636f461df65edaaf257a2f9d76a294b464e6843bb",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3304,7 +3304,7 @@
     {
       "batchId": "BATCH-129",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-129.csv",
-      "sha256": "81b6e94e04fca410a0816a979ffe3820c9023e3ffbcbea54447f1e86f9df14d8",
+      "sha256": "a764b1e11f7e09cd0ba88dba37d1b603e70a5b762dd570dc5c80d10878b973e4",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3320,7 +3320,7 @@
     {
       "batchId": "BATCH-130",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-130.csv",
-      "sha256": "9ccdba5042943eee9564a7a948e9e46d0da26a21ea350683fea2c39fa7e5b248",
+      "sha256": "193313caa324509319fb55c0b27a29984b57e9f26a28436a0b1df121d7791530",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3337,7 +3337,7 @@
     {
       "batchId": "BATCH-131",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-131.csv",
-      "sha256": "7c70aaf8b406aadccac74d547fd09394892dddd01da24825ed0ff26789eabfb6",
+      "sha256": "813ecc1927e9e8c5495f4958dea81340ddcf25598dd523f95e9e0ef00b33e181",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3353,7 +3353,7 @@
     {
       "batchId": "BATCH-132",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-132.csv",
-      "sha256": "9d685ce9fdea41b2c3a48d0bab61b82d51c97ae0006b5dac3bced53f905ad607",
+      "sha256": "41101d17946068387287e24787fbee7cc08ae2d002d4010ec03c2e6937291cfa",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3369,7 +3369,7 @@
     {
       "batchId": "BATCH-133",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-133.csv",
-      "sha256": "5c4d04f36be9336440e9f9a2cb87df2d7c1886752e6c009b44abd4d3668ae59a",
+      "sha256": "71e9d303a72e57ea1f4ccfc2fc008efbb76e84877c6217ddbe09b5552e4da2b2",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3385,7 +3385,7 @@
     {
       "batchId": "BATCH-134",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-134.csv",
-      "sha256": "1338d911f66083a0426b4bf4db0f38a3e31aae3d3c20623eccdc39c5ceca8a2a",
+      "sha256": "154518ee01eaa311e369d89bc8c4fa3edc18092f754cc6df8d59ea3a0b287975",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3402,7 +3402,7 @@
     {
       "batchId": "BATCH-135",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-135.csv",
-      "sha256": "554f652f14ad65b4a2e252e6eda08285c26f4a35c52424679573549c7a5d5968",
+      "sha256": "a2d084582f2f7cb6b580161bbcb1c3516510fc8182c15dfc0fa6c716c9f01677",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3418,7 +3418,7 @@
     {
       "batchId": "BATCH-136",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-136.csv",
-      "sha256": "223f897a870795a6a33bea42296e9b59b927cc2a23626b3d9fe10bd6a8d2422a",
+      "sha256": "614360dafad592bb430ff63ca1d7b36df1c6aef50cbfb2713039dbd1bd7e133f",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3434,7 +3434,7 @@
     {
       "batchId": "BATCH-137",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-137.csv",
-      "sha256": "bdc3e8679e472a2c0c72b9bde0bb34aa1355dce295ed78f7e770d9eaf09c1e0f",
+      "sha256": "755faf413303a971ddf95da7c2a19257c18ee940b9b906c17e9062deb5198319",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3451,7 +3451,7 @@
     {
       "batchId": "BATCH-138",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-138.csv",
-      "sha256": "9e08ad56e8ec4fd06df2b479fd81bec3b0932a280514a39cf19e1b22846c2780",
+      "sha256": "5e32e2ddbdaa109ce96f01e66c611d296f9ccc6ed8cdebc7f3084d804297545a",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3467,7 +3467,7 @@
     {
       "batchId": "BATCH-139",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-139.csv",
-      "sha256": "ef2062ea31797e8d41bccd05b1a95919aa222b81ea5d2fc1f5b79ba55476b7a6",
+      "sha256": "fe508d8a70c57bbbbb3e1402b42f4ec31720cf698f84e99edc76809e7c472143",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3483,7 +3483,7 @@
     {
       "batchId": "BATCH-140",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-140.csv",
-      "sha256": "3fdd75dc7ea3849c2aafbe0221991ea6384fd2f0bcc78947be6f6f284db00894",
+      "sha256": "f0d0ccef6c5635b949fd9f11ef45e6ae02d772d0516d7d5e109dfc82ca953e7d",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3499,7 +3499,7 @@
     {
       "batchId": "BATCH-141",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-141.csv",
-      "sha256": "8cb0d177470ef41b277814a25a6454bcf53db57494b428b496f3dbf541d0dea1",
+      "sha256": "b485fa8610861583c26090c3ce261681c87b32dc07a78954d3ef867d7bdb9c56",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3515,7 +3515,7 @@
     {
       "batchId": "BATCH-142",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-142.csv",
-      "sha256": "7a44c0716185d7be27e863bcc276be2a2a6f6bf314f091989f41dc26203532ae",
+      "sha256": "dfdd4584d9e70601dc5bc70ada0523726701399bf4f4091ec5e17ab6b1738147",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3532,7 +3532,7 @@
     {
       "batchId": "BATCH-143",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-143.csv",
-      "sha256": "8f36867490da6b3c6584c42627f3c4ab6c63015973aadcb903dd0d492aaea3df",
+      "sha256": "41c737123101d2de1f858bae088d338dbe1e167f7563db02a2bd2074df5be257",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3548,7 +3548,7 @@
     {
       "batchId": "BATCH-144",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-144.csv",
-      "sha256": "a4795244aba5a8611122863cef74111b089f70e132fbe9bbb8dfa0e8e27f5ac4",
+      "sha256": "8dc7eb3b37b31af10dcbed87914e0b444ff9164524b136aa61ef024add82d6a4",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3564,7 +3564,7 @@
     {
       "batchId": "BATCH-145",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-145.csv",
-      "sha256": "006ccad6694fba2ae99e658143a31ebbd12e0a55f161304103b2c83fbefe38d6",
+      "sha256": "85fa42be0ed51c73c5dbd2ca959baf31f97f6a029891c0f067bde2414d29cfd8",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3580,7 +3580,7 @@
     {
       "batchId": "BATCH-146",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-146.csv",
-      "sha256": "08164adebf9d7e8dbeb83c0e7b01d13cdc08d2a98ec2de26a5ed9dd0d274e1e5",
+      "sha256": "f46dac8e9350153522d581d2e9fb1ee370a0d95d61b04644e7eaed688bb2604e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3596,7 +3596,7 @@
     {
       "batchId": "BATCH-147",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-147.csv",
-      "sha256": "4d3e66e3c339605d175093e6298249cb707f86daa2ba8718ad71de450e9d4d5f",
+      "sha256": "ae0214b30d95c5b37a9ac63d4facbef4b7ed3a44c63661da7e6b64138673dc9e",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3613,7 +3613,7 @@
     {
       "batchId": "BATCH-148",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-148.csv",
-      "sha256": "1f4255457c33877f174ca9fa0111b50564f786400860056ef76bb3328c3a3e7c",
+      "sha256": "661a82ae95ad3344c4b8e1b2db0c57bebf898b065d7f2029177ec789fda36039",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3629,7 +3629,7 @@
     {
       "batchId": "BATCH-149",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-149.csv",
-      "sha256": "10dfff9d19494a080ec3a9f8b808e07db021bd1a3fb7ba9c2cceb4ec7d46a3e6",
+      "sha256": "f1243ad073b84bfcd101e6efaf6c706cd6f625e86d9bdb3d3e019380a1e54c04",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3645,7 +3645,7 @@
     {
       "batchId": "BATCH-150",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-150.csv",
-      "sha256": "9f08638e5fd75dfc4c56db02f1af588f2efcafb35efbf573b0542b1df6ab0357",
+      "sha256": "c1939147ed436073d09c67088c9479b3bf9eee28e229ee2f3ab55d29ea3db7fe",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3661,7 +3661,7 @@
     {
       "batchId": "BATCH-151",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-151.csv",
-      "sha256": "0748b637202a96bed54836f090b7b51baae81383728fe1bc075b319f32316b44",
+      "sha256": "ca40a6ea723f7eed18ab78481adf843ac9bd95a0dc0096b16e61af297280b573",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3678,7 +3678,7 @@
     {
       "batchId": "BATCH-152",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-152.csv",
-      "sha256": "91b0ddafdca5d3751b02d185ea66a3ef43e4b14c75d60a1764d967a76f901b46",
+      "sha256": "00a09f6eb689c20a1ca38c4fceff40a2b15951138b706cfc2293ef45f682d787",
       "reviewTrack": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "canonicalBucket": "WRONG_OR_MIXED_TARGET_LANGUAGE",
       "languages": [
@@ -3694,7 +3694,7 @@
     {
       "batchId": "BATCH-153",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-153.csv",
-      "sha256": "1fa66f85c57ccf7af6c1adf590258ac8b5392b7fffbe2aedc246761bbfdedaf7",
+      "sha256": "ceebf877beadb3690c74e8f74595ec8f662968e67994a567a0f616b002d8913e",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3715,7 +3715,7 @@
     {
       "batchId": "BATCH-154",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-154.csv",
-      "sha256": "d8427f58be521c8947b857e0236bc7b43146efcdb1f5350d0016a7153ade24cc",
+      "sha256": "e2b0ba1f8863f275d24ab9c5131428b2ed0a9d478bb155ec46e7a43129c4ef75",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3731,7 +3731,7 @@
     {
       "batchId": "BATCH-155",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-155.csv",
-      "sha256": "70202605fc64f86b57cf3804d947ad77e571154ab15c02e30d04915260dabf01",
+      "sha256": "9b8359285af037d6a4e1d3afc35636f53b42fc4aefd77d63bf541556e7f3054a",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3747,7 +3747,7 @@
     {
       "batchId": "BATCH-156",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-156.csv",
-      "sha256": "f111bc5b688f4665074d321bf26b7427d0cc63166c3ae16fece84890619a2ff1",
+      "sha256": "366e1363e896e0574bdeae6cadaecf5cf1dd087802358b48f6542c0d3d570d18",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3763,7 +3763,7 @@
     {
       "batchId": "BATCH-157",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-157.csv",
-      "sha256": "1fcc29a3a8ff5c25897b0be44d760272af0af8bbc17baff5ce2fb86cc0c7b4ac",
+      "sha256": "37cece2af4801d4a91bd6e3303e090fbe23c869e5c9f29b10ee1ab146c421037",
       "reviewTrack": "MISSING_OR_UNTRANSLATED",
       "canonicalBucket": "MISSING_OR_UNTRANSLATED",
       "languages": [
@@ -3782,7 +3782,7 @@
     {
       "batchId": "BATCH-158",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-158.csv",
-      "sha256": "1707133dd7aaac27f86f5069ceb4328857f6931305e079034d80b399c9379364",
+      "sha256": "dfacd5a9d11cf20b6ddea69e5fa27b11b078b322c3283cc8606734050c53c18d",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3799,7 +3799,7 @@
     {
       "batchId": "BATCH-159",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-159.csv",
-      "sha256": "bf7e7e46c48a2d4602072683b6ef7bd9bb17b7b0202a9803eba53521e50036d9",
+      "sha256": "88e756d32740618a8152cbf1b710a5ad064017efabf97faa20785c1cc65e0d9f",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3818,7 +3818,7 @@
     {
       "batchId": "BATCH-160",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-160.csv",
-      "sha256": "5258a8ad347c41bf1e87e5314777e4a3138878a5d461f4342a84972b07bfa8b6",
+      "sha256": "e55c25e5bbfb8541734f42e56c7444aa0a8c1fdeefe4086f86164adbc9ea1529",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3837,7 +3837,7 @@
     {
       "batchId": "BATCH-161",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-161.csv",
-      "sha256": "e2cc8dca849b09c21747f9cf75a07f65a823d5090908e5606353d2e298d85fa9",
+      "sha256": "f16938b8150699de73be0eeecdc1f9f5301f893e5fe1423eb09937300d34b391",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3855,7 +3855,7 @@
     {
       "batchId": "BATCH-162",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-162.csv",
-      "sha256": "0306ab39adb2f7f4ff1fb742160898b2c6303471d3ae32ac2489c74b5e1841ed",
+      "sha256": "dd33eecf1c0a00e2f5aabc8bf982e3ae965158cb2a53cfb1c6258fa87864fcb1",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3872,7 +3872,7 @@
     {
       "batchId": "BATCH-163",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-163.csv",
-      "sha256": "77762816ffb37b1b80cc51840ee5faa85c86961895a373584ef40a7d79cd65b4",
+      "sha256": "349a1101641a9b6f0edef27e51e8ec47a963c5d748b71bc2b6bd94ef3af4111b",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3890,7 +3890,7 @@
     {
       "batchId": "BATCH-164",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-164.csv",
-      "sha256": "1ec3441a4e6f4b0ff44a7700ec280812fa1fe091530918df3adc1338e7776669",
+      "sha256": "41416f3e39e21fe350999b4d1da6242922e1ea1962e389c2593d0c031d4a6715",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3906,7 +3906,7 @@
     {
       "batchId": "BATCH-165",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-165.csv",
-      "sha256": "18b896e3363a824a44e5c7289a5cf2898cd5f1b327d80c7cbd583c676a73100b",
+      "sha256": "c6d8df01e4be0a51b7aa8af1e08b3b3c7336cabc077508c7695e21792b630cb5",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3923,7 +3923,7 @@
     {
       "batchId": "BATCH-166",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-166.csv",
-      "sha256": "c688d20fa705e2f85241da180bba12cb0277694e62b0d529cf3087315f9ff7f5",
+      "sha256": "42284db6ec5a9a5a3ebe271ed7dce99b3e364f633115a98590159debe9dcdbef",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3939,7 +3939,7 @@
     {
       "batchId": "BATCH-167",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-167.csv",
-      "sha256": "b3e70a9630e76b9074ffb4be94e00e828de1952bb383de145151597e3c50d358",
+      "sha256": "d8388ddafad0d99b58fd9db2df41000a069f86c53194aa490f2f544474376113",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3956,7 +3956,7 @@
     {
       "batchId": "BATCH-168",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-168.csv",
-      "sha256": "3172ff7b22c44a730b6c356de8ef259633bc6253107058606b09036583fb3a9e",
+      "sha256": "2993c21158172fcce39e5357fac89ac84253a2edca7bc3ad5be0a6480bd87fce",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3973,7 +3973,7 @@
     {
       "batchId": "BATCH-169",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-169.csv",
-      "sha256": "92604e3c48a7f82dabe9a1fa48fe050c828c06bdc79aac8a02d10574fa643c02",
+      "sha256": "0a5a2f5c3004f4bbec1bb1b84985cec25b96c663c7b720e5bac18c966a051a20",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -3991,7 +3991,7 @@
     {
       "batchId": "BATCH-170",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-170.csv",
-      "sha256": "4168e2a200208716487efc90b9decf85fdca4034384e2e7e39d877b32f7d87de",
+      "sha256": "799167b80db6e8d5a14201cff4d829e11b7ce4d7568ba30e80f2b43e7901aeba",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4007,7 +4007,7 @@
     {
       "batchId": "BATCH-171",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-171.csv",
-      "sha256": "6b2d8479d4b10514dcc5be05d1822075cacc288fcc0b28fae8777171556ee534",
+      "sha256": "4508f7a15a5f0a9da2c9e1d49bafadd6c74dffa9a894da1215cb2b5b36dff789",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4024,7 +4024,7 @@
     {
       "batchId": "BATCH-172",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-172.csv",
-      "sha256": "483d3890cb8d41ad298663e6264acb5347e9952e1dff7524869b7bdd7dc99f59",
+      "sha256": "87f2caceadb25cff324e237a276b80de0ff848e907c008eef25f8c2e920b7ec2",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4041,7 +4041,7 @@
     {
       "batchId": "BATCH-173",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-173.csv",
-      "sha256": "1b420483335d79662b0bc7dbeb76fb9528cd3c891d906ecc26ea84f5b7b08ad2",
+      "sha256": "781f85189e48a8838d14390f4ce6a119793bb19d65779f5965c5cb85845ef495",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4057,7 +4057,7 @@
     {
       "batchId": "BATCH-174",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-174.csv",
-      "sha256": "bb8d0e3edac4c7f4d9d913b0b08a76aaafd9c9fdf623a41ad7802d49483b0dcf",
+      "sha256": "891183d24646efd11fe431b95f0d6a8f2cdef2125216c4f16c9e2de29179f72f",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4068,12 +4068,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nn|Abend|idx:18|lv|TRANSLATION_ERROR|gpt-5.6-luna",
       "lastStableId": "g2/a1/nn|zwölfte|idx:686|lv|TRANSLATION_ERROR|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-175",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-175.csv",
-      "sha256": "3ba2e0acb57511af65e9b1b6af03fc8eab36d9893b01000ff0f5565336930ba9",
+      "sha256": "0e0bc84347dc57f7d4cb8fbaa6f94459b4249fd88bd19c33b4d74c8cb70d322e",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4091,7 +4091,7 @@
     {
       "batchId": "BATCH-176",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-176.csv",
-      "sha256": "b2133694af8e72f8965b8b86a17b9ca9dfa5ff2a5843ef1024c61d0de663ea87",
+      "sha256": "ed89423c87fd6cd587feb80a6dcf464b9743e738f685b5afb13c08e1cad25f9a",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4107,7 +4107,7 @@
     {
       "batchId": "BATCH-177",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-177.csv",
-      "sha256": "bc4c627fab28aee316e731dbedd1f086d3d22af088eed24d169ea84141625b64",
+      "sha256": "7099a3becdc0af3ee71c6ec147ad5d935c9fdedf0e1de3ae9f2015339508cdb4",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4123,7 +4123,7 @@
     {
       "batchId": "BATCH-178",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-178.csv",
-      "sha256": "e5b5ab86b1bfd100a50e163b2f9d707626dd5bfa50a46595de4d457833639315",
+      "sha256": "7fdf58278f6a1ea19870009f1fa31aec271a016cee233a5ec372a999ada4a9ab",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4140,7 +4140,7 @@
     {
       "batchId": "BATCH-179",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-179.csv",
-      "sha256": "bfcfabf689d38080fe9db018595453c0c825c01ccd9353507dbbb528ea6b0fb9",
+      "sha256": "b0f0d30312dcd099042ff3b6137971ad05d2bd14bdfaf084f6b91ca11f025694",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4158,7 +4158,7 @@
     {
       "batchId": "BATCH-180",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-180.csv",
-      "sha256": "1db68009e2f01bab2ed2d26636f1c7bb647be88552ae22c20e600d68f2100851",
+      "sha256": "0ad0c36f5138f35212b01a73355c7434f805a66ea195e98bde5fdf2dc12bbfb2",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4176,7 +4176,7 @@
     {
       "batchId": "BATCH-181",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-181.csv",
-      "sha256": "d95fdfa2188f6286152ac42c63b8dccdd6a60173174509fb16d4ed7280daca2a",
+      "sha256": "8df387f81a32fe161d305b2110c734e837b1b6b6de8ddc9d6f04cc31a89545ac",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4192,7 +4192,7 @@
     {
       "batchId": "BATCH-182",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-182.csv",
-      "sha256": "8262b849747a37c227960f8ad7afc4b22988802b8089dbe4bdee8a126b5d0a29",
+      "sha256": "d7528b19a5f84c3d25cefaba25dbe7dca442483f15c677835b20622d7bcf0d15",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4208,7 +4208,7 @@
     {
       "batchId": "BATCH-183",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-183.csv",
-      "sha256": "fb022fb1b786d895a47410e84450a96b04d3dff079040ee2ec8dfbd97dbf09d7",
+      "sha256": "ebda40f4aed3ce36e980feaaf385c7ec4af34c339837eccf5192b78889eae0ff",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4225,7 +4225,7 @@
     {
       "batchId": "BATCH-184",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-184.csv",
-      "sha256": "d88a2914a714f52c1fad2dab8c97262ae40465e32a5accdb4d8d0ed12a29099e",
+      "sha256": "110f273cb28f8d79d7081ccbf4916a117a2ab60b687067042c15421ed6f18622",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4243,7 +4243,7 @@
     {
       "batchId": "BATCH-185",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-185.csv",
-      "sha256": "ef273dcf3216d052393a68651e7ce4523a628bb889185514e2cb8c804f6a223f",
+      "sha256": "6f4111dd1add08e7cd5f307fa9f68a1bade35847bcbaaf1d08fa9f2f50f77fde",
       "reviewTrack": "SEMANTIC_OR_MEANING_ERROR",
       "canonicalBucket": "SEMANTIC_OR_MEANING_ERROR",
       "languages": [
@@ -4260,7 +4260,7 @@
     {
       "batchId": "BATCH-186",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-186.csv",
-      "sha256": "0bce897ede5eb6315355b4fdc0aa3cfd3cfb95ae21f3a680c62686709b1b3e55",
+      "sha256": "bfea23b017bc5f658337fb2c50f8565e2a08691ea224da3239b2f22282917b44",
       "reviewTrack": "GRAMMAR_MORPHOLOGY_OR_FORM",
       "canonicalBucket": "GRAMMAR_MORPHOLOGY_OR_FORM",
       "languages": [
@@ -4291,7 +4291,7 @@
     {
       "batchId": "BATCH-187",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-187.csv",
-      "sha256": "56c8e2d89c5f0a78e31c26537656d9871566f397ace18720844204443da544c2",
+      "sha256": "99c4b28f18c659b83a14be0049e031eb8c16353f4237684b94b4ba02c491b1b8",
       "reviewTrack": "GRAMMAR_MORPHOLOGY_OR_FORM",
       "canonicalBucket": "GRAMMAR_MORPHOLOGY_OR_FORM",
       "languages": [
@@ -4315,7 +4315,7 @@
     {
       "batchId": "BATCH-188",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-188.csv",
-      "sha256": "4601aaecce6f5c2dac4983e25883fa6ccadb8394aec63526eaa84c6b9d430d32",
+      "sha256": "2c4f5eee86b4d593c8e5acd81b5d4f2bb34a927c18b5c5f25a1039cf6af487b6",
       "reviewTrack": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "canonicalBucket": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "languages": [
@@ -4336,7 +4336,7 @@
     {
       "batchId": "BATCH-189",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-189.csv",
-      "sha256": "d0a340b1b39d35e65a37d0283012ccf8eaba0d136f3c0d29d60f9568664799f7",
+      "sha256": "59f194997c1bd8e7f067dbc343c7bdeea5acc94855aa842efa3d7d618cbd204e",
       "reviewTrack": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "canonicalBucket": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "languages": [
@@ -4358,7 +4358,7 @@
     {
       "batchId": "BATCH-190",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-190.csv",
-      "sha256": "8c2c3667584abecc8f691dd20a908793f775ef6a6eeee66c5c734882cf6aa880",
+      "sha256": "186947fdb32c32a82afd1f2bccd6c3be69fb9bc162663a6df71feda38f4c271b",
       "reviewTrack": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "canonicalBucket": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "languages": [
@@ -4369,12 +4369,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pt|Abendessen|idx:19|lv|ORTHOGRAPHY|gpt-5.6-luna",
       "lastStableId": "g2/a1/pt|zwölf|idx:685|lv|ORTHOGRAPHY|gpt-5.6-luna",
-      "status": "PENDING"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-191",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-191.csv",
-      "sha256": "4da18b7ce74fbd07e33b07929036503a2c836bbbf74c5a0b286e206906d53e4c",
+      "sha256": "f3f2a2977cf7be5cbad7ecf498a304f10349f1294631aac178de99768eb7ee4e",
       "reviewTrack": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "canonicalBucket": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
       "languages": [
@@ -4391,7 +4391,7 @@
       "findingCount": 22,
       "firstStableId": "g2/a1/pt|Affe|idx:24|lv|ORTHOGRAPHY|gpt-5.6-luna",
       "lastStableId": "g2/a1/uk|November|idx:453|lv|ORTHOGRAPHY|gpt-5.6-luna",
-      "status": "PARTIAL"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-192",
@@ -4412,7 +4412,7 @@
     {
       "batchId": "BATCH-193",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-193.csv",
-      "sha256": "523e5db279c0e6dbef78bd5621135c81551bef40df40f72d51f1ed2f0b83c913",
+      "sha256": "0c6eaefa9652659823591cf833e752944a3908f0ce7ad8d787d94023714023ce",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4430,7 +4430,7 @@
     {
       "batchId": "BATCH-194",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-194.csv",
-      "sha256": "3a6ef34ab4256a4ae1cd9f9d9d763dac7a14e097ea388eeca7e4c88ac3abe75f",
+      "sha256": "693bfc52a53c6b927030c46b85fd5f83c2b1901ebdb8a1ea664c983fe02198a6",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4463,7 +4463,7 @@
     {
       "batchId": "BATCH-196",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-196.csv",
-      "sha256": "a33ee0e47c6b3d46efbf794743e54efd048c91b386ad63611034cb4b5ba1f1b2",
+      "sha256": "374082d76e8293793291f8269b2bf591c13c5759379e811de7d302e0a96d0eb0",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4480,7 +4480,7 @@
     {
       "batchId": "BATCH-197",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-197.csv",
-      "sha256": "4183456871e22e6d5c29aa5fc08bda0ed581459143048fd8245a255f941b0e20",
+      "sha256": "24266d5851c93800e3446a0b0740f93460875f1233524f9883e92a970eed7685",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4497,7 +4497,7 @@
     {
       "batchId": "BATCH-198",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-198.csv",
-      "sha256": "a2007faea1a2a480971eef72e10bf637553e8c0e2e23d3e67545b4c2e305c536",
+      "sha256": "dbf9502d3bb5e25e1662737849b845b913f33e9984ccc22ba8dcb8af63c07cea",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4508,12 +4508,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/es|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/es|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PARTIAL"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-199",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-199.csv",
-      "sha256": "c49664e54831c4ec3aae6355bb6bb600bb608cd02d7471e86b0e5a54228786c4",
+      "sha256": "b9486c945d0dd3b07f52d8d1280a56e79449081d0c59bc70cb8a67922c83ad06",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4531,7 +4531,7 @@
     {
       "batchId": "BATCH-200",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-200.csv",
-      "sha256": "547ddb01b582eebbd3edf12cf06995dc4c9d5215deeb7cc23a35c5b03509de0a",
+      "sha256": "f59aa6f941cd049fbe497e2267d51071877b23757fc776e5f2c8c37a7be84ac9",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4547,7 +4547,7 @@
     {
       "batchId": "BATCH-201",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-201.csv",
-      "sha256": "4561194eacde45ba18de8951603dcff4b99263abc77dd0a73ca163c6f690754c",
+      "sha256": "cec6540156f73f97175918f09e98f8a29088302ff4a84164bd6feebbcba03ba2",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4564,7 +4564,7 @@
     {
       "batchId": "BATCH-202",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-202.csv",
-      "sha256": "799a5a44ddfd46266fedd302731b1c71fc7c240b081c82aee07d4e7b54a35ce6",
+      "sha256": "3c96675ea78f0e66da0cc693130fc9784953d7044d3eea867a5c43f729e8f4d6",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4581,7 +4581,7 @@
     {
       "batchId": "BATCH-203",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-203.csv",
-      "sha256": "f87cf29c0ba46481accf7b1af655e5d191d47e799afbfbc1d8ecb041069958f3",
+      "sha256": "bddf1ccd2518f607345ec9f3840ea7837fb75a8991952a335bb6b484f26a788f",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4592,12 +4592,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/gr|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PARTIAL"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-204",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-204.csv",
-      "sha256": "7dd9ba7bddce9b63d5cd2ee86115adc671122ce1c5771fe227b8f887b4e7d008",
+      "sha256": "fde1b8c9b36744c6326b1f3f69ba9a7378deffb3a4e530d25d10cbae8ea6feab",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4609,12 +4609,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/gr|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/hr|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PARTIAL"
+      "status": "DECIDED"
     },
     {
       "batchId": "BATCH-205",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-205.csv",
-      "sha256": "0e615ce748702ed2f78080745dd1107d7107b9781c7d3a1bae6fd37f037398b2",
+      "sha256": "8150f8a691fe4ba3e8b714a78c2882c9b7019483ba817a68cbaccae6b2c7e9b7",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4626,12 +4626,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/hr|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/hu|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-206",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-206.csv",
-      "sha256": "c9043f26f99f264cfa90b4643025a1c7d458bdc4bc6a2abe13eab7285ccd0bbb",
+      "sha256": "ccebe7cae8cfbe900efed3a7971a8c8a7e0c593f5ec4fce4c3a44a4c1ab687e1",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4648,7 +4648,7 @@
     {
       "batchId": "BATCH-207",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-207.csv",
-      "sha256": "da7f4da8c8531f7fb3c6d2fdfcad8ad8e10f7c47a224aadb0ea86adf4ad997ee",
+      "sha256": "365e938bae55e3b6ccecdb872f8b4860ca72320bb0a01470ac1a3261c1e8770b",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4664,7 +4664,7 @@
     {
       "batchId": "BATCH-208",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-208.csv",
-      "sha256": "35c4f42ec4109d09e2e5acc809fc5161ce627301f38fa8bd038cae3016af2256",
+      "sha256": "b34ee4280fa8b0cd4a2bf85bc07627d72bf28cb4dcbd294c8d54f2d5608e8744",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4676,12 +4676,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/is|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/it|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-209",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-209.csv",
-      "sha256": "b563cc798ef3578b24aa00b2a549bf01f1a895ae19d8a0dd4d6d3e23b2b327df",
+      "sha256": "6471611e4d173fd2fed72f891347b5f232969e3f639b7cc51b62c2b8e1179fcd",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4693,12 +4693,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/it|a1-aufs|a1.card.a1-aufs.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/lb|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-210",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-210.csv",
-      "sha256": "f5c31cb43d5a37c619c2a4bc489525290c0c29bc1e825ca505d5383ea4af7d10",
+      "sha256": "011aff35d5d078b37079e03c4e4b4a4cbfc7719906f25b266653057ccecb9caf",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4715,7 +4715,7 @@
     {
       "batchId": "BATCH-211",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-211.csv",
-      "sha256": "0bd6901663ecad5165572797c4239e4c3892eeee43d98395163ba5a4a062c8c6",
+      "sha256": "2b2d1b691db1a5766f05ee4ed189af29de8769dfede25be0b059fe5049c8f0fc",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4727,12 +4727,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/lt|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/mk|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-212",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-212.csv",
-      "sha256": "794a8956504763a70c9c22ab2ea26ba3ffd73b77ec563fa6f48f0dcb7999057d",
+      "sha256": "b9187955ec915da145c9e80f0142dc3447fb07f1460aa4749d49b9e79ee76d58",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4743,12 +4743,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/mk|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/mk|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-213",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-213.csv",
-      "sha256": "c1f98477d976e2530582e231205c67288bc40a3557684bad21bf71760e8bcd1f",
+      "sha256": "5e3849f64c1479a5fed966ee5578780f566903f2862258965de0695a92487dce",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4760,12 +4760,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/mk|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/nb|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-214",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-214.csv",
-      "sha256": "ed3071631cef17b46e13668a62ae30ecd13a125db6b144a6db121bce8035d3db",
+      "sha256": "a5c6091760a34cc38ae2e8da797fb61f2522fd9328dacd11d3436d5ecdc18f9e",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4777,12 +4777,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nb|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/nl|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-215",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-215.csv",
-      "sha256": "613f6109b1d8fddb4c3c23785c7c48ce9d2042075c06330acca7c0a9e29f7eba",
+      "sha256": "435c95503f8ea1f06a95d895b4c6c19aa6b4193ba022cce43c95d0837c335a00",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4794,12 +4794,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nl|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/nn|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-216",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-216.csv",
-      "sha256": "84293e4300ae176c8091c13afe8f2009d1b5323b899dad16e8d2b2e4703bc57e",
+      "sha256": "002eb69a9b3cea661ca9998fa19fd255347231a4e915a317b5091083847dfae6",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4811,12 +4811,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/nn|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/pl|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-217",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-217.csv",
-      "sha256": "95d7aabeb204b4a67bb0337ba787ccc2aca8fe1268b5197a4cad3715e888c566",
+      "sha256": "ce0bf6a2c00ab4bde38a21f7ac9cf16913ca22823dd928aad71fe21490bb62f3",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4827,12 +4827,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pl|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/pl|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-218",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-218.csv",
-      "sha256": "e28657c0c78d6e06e8ad94554852bc6c5a2ae55609210928b2380f7d54133ac1",
+      "sha256": "5cd0b67ba2350529654138fbe4332c70f576e96028ca159e26dbc96d4fcf56d6",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4844,12 +4844,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pl|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/pt|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-219",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-219.csv",
-      "sha256": "60a74d152762f25e028c874832c5f2ed0e78bcc4c5c4a215ec26b5128608cc92",
+      "sha256": "bafcf6262a85889ad6daf199d3de89e7b6d97e63d5eb1649f6ad67ea4cdd05a7",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4861,12 +4861,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/pt|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/ro|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-220",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-220.csv",
-      "sha256": "9ccf624ae0d9c3862a3d01d40a0646900f31fe63677ae3e968876a9642b11216",
+      "sha256": "5199745c457f76375af6ba502a6fab6a1a0ae432fe43c97f0d4fbddc056cbf59",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4878,12 +4878,12 @@
       "findingCount": 100,
       "firstStableId": "g2/a1/ro|a1-also|a1.card.a1-also.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation",
       "lastStableId": "g2/a1/ru|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation",
-      "status": "PENDING"
+      "status": "PARTIAL"
     },
     {
       "batchId": "BATCH-221",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-221.csv",
-      "sha256": "4ce92db63e043f5e9a8246221c39775b9d375d64cb616b9d12c3432330834463",
+      "sha256": "b6697e4d8d012c6813007f2e3cdb6fb0e281084daab894765ab54e50112a1658",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4899,7 +4899,7 @@
     {
       "batchId": "BATCH-222",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-222.csv",
-      "sha256": "b1d329f3e60d922b9248fe06965bdd962f08edcf1ffc53a858abe94ac484f6a6",
+      "sha256": "c3cba8dfe86c7d991fddc720057a5a11ad785cc25074842e7466576fa1989242",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4916,7 +4916,7 @@
     {
       "batchId": "BATCH-223",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-223.csv",
-      "sha256": "c6186cd5c7c25a6750dece60bc299fb79f31c46691074f35bb207ea0af981eb6",
+      "sha256": "c82e4b29c9e0382bda70e35442a7249261bdabb4c874c74bba21f3ee87a01892",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4949,7 +4949,7 @@
     {
       "batchId": "BATCH-225",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-225.csv",
-      "sha256": "bbb81f8123de5532ff984ea803621a5747a186033eb38fd418b2955732672ad3",
+      "sha256": "f8d36614e8d47b9d114796e757bbc00876f8bc9762d14d736a6961850d4df589",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -4983,7 +4983,7 @@
     {
       "batchId": "BATCH-227",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-227.csv",
-      "sha256": "96cb93d37d35fc2dc8f4409580eb5a75208bd55d157984f37952f34e8b20a7fd",
+      "sha256": "78b579af9a29d733ed814c189802024e719794ee12746fb77d6c04b54942acbc",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -5033,7 +5033,7 @@
     {
       "batchId": "BATCH-230",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-230.csv",
-      "sha256": "b45a49b63b5532b7c3a562d90c83be12af8d4a6b355288a8563d1c5967292b75",
+      "sha256": "c6ffb86edbc2297307982c4831bbea1c3abc888abeb18025f2584809bdac522f",
       "reviewTrack": "MULTI_TRANSLATION_REVIEW",
       "canonicalBucket": "MULTI_TRANSLATION_REVIEW_REQUIRED",
       "languages": [
@@ -5066,7 +5066,7 @@
     {
       "batchId": "BATCH-232",
       "file": "reports/g2-a1-phase3-owner-review-all-batches/BATCH-232.csv",
-      "sha256": "3c48fee9fcb917be475fdc87429ce47ba8c258b971103cc15a508ee04d9fbdc4",
+      "sha256": "998be52673e666dc64c94e1d9ab475a6959454eb15a66479e1a5605e696a8ea2",
       "reviewTrack": "STYLE_FORMAT_AND_OTHER",
       "canonicalBucket": "MIXED_WITHIN_TRACK",
       "languages": [

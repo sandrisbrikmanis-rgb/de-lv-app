@@ -26,6 +26,7 @@ const {
   reviewEscalationRowEvidence,
 } = require("./lib/g2-a1-phase3/review-escalation-row-evidence");
 const { OUT_INGEST_PROOF } = require("./lib/g2-a1-phase3/individual-7737-ingest");
+const { OUT_QUARANTINE_PROOF } = require("./lib/g2-a1-phase3/linguistic-quarantine-7737-repair");
 
 let testsRun = 0;
 let testsFailed = 0;
@@ -55,7 +56,10 @@ function testSourceIntegrity() {
   assert(source.pass, "source integrity pass");
   assert(source.committedPending.length === 7737, "escalation scope 7737");
   if (source.individualProof) {
-    assert(source.committedDecided.length === 17546, "consolidated decided 17546");
+    assert(
+      source.committedDecided.length === source.individualProof.decided,
+      `consolidated decided ${source.individualProof.decided}`,
+    );
   } else {
     assert(source.committedDecided.length === 14913, "committed decided 14913");
   }
@@ -77,14 +81,20 @@ function testReviewArtifacts() {
     proof.classification === "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_COMPLETED_WITH_REMAINDER",
     "classification valid",
   );
-  assert(ingestProof.classification === "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_INGEST_READY", "ingest ready");
+  assert(
+    [
+      "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_INGEST_READY",
+      "G2_A1_INDIVIDUAL_LINGUISTIC_OWNER_REVIEW_7737_QUARANTINE_REPAIRED",
+    ].includes(ingestProof.classification),
+    "ingest classification valid",
+  );
   assert(proof.inputRows === 7737, "input rows 7737");
-  assert(proof.reviewedDecided === 2633, "reviewed decided 2633");
-  assert(proof.labot === 2280, "esc labot 2280");
-  assert(proof.nelabot === 353, "esc nelabot 353");
-  assert(proof.remainingPending === 5104, "remaining pending 5104");
-  assert(decisions.rows.length === 2633, "decisions count");
-  assert(remaining.rows.length === 5104, "remaining count");
+  assert(proof.reviewedDecided === ingestProof.newDecided, "reviewed decided");
+  assert(proof.labot === ingestProof.newLabot, "esc labot");
+  assert(proof.nelabot === ingestProof.newNelabot, "esc nelabot");
+  assert(proof.remainingPending === ingestProof.remainingPending, "remaining pending");
+  assert(decisions.rows.length === ingestProof.newDecided, "decisions count");
+  assert(remaining.rows.length === ingestProof.remainingPending, "remaining count");
   assert(decisions.rows.length + remaining.rows.length === 7737, "partition 7737");
   assert(proof.preexisting14913DecisionsChanged === 0, "14913 unchanged");
   assert(proof.batch001DecisionsChanged === 0, "batch001 unchanged");
@@ -93,7 +103,12 @@ function testReviewArtifacts() {
   assert(proof.crowdinDiff === 0, "crowdin diff 0");
   assert(proof.newRealLunaCalls === 0, "no luna calls");
   assert(proof.automaticOwnerDecisions === 0, "no automatic decisions");
-  assert(proof.individualLinguisticReview === true, "individual review flag");
+  assert(proof.individualLinguisticReview === ingestProof.newDecided, "individual review count");
+  if (fs.existsSync(OUT_QUARANTINE_PROOF)) {
+    const quarantineProof = JSON.parse(fs.readFileSync(OUT_QUARANTINE_PROOF, "utf8"));
+    assert(quarantineProof.quarantinedToPending === 21, "quarantined 21");
+    assert(ingestProof.quarantinedToPending === 21, "ingest quarantine count");
+  }
 
   let batchSum = 0;
   let batchDecided = 0;
@@ -111,8 +126,8 @@ function testReviewArtifacts() {
     }
   }
   assert(batchSum === 7737, "batch sum 7737");
-  assert(batchDecided === 2633, "batch decided sum");
-  assert(batchPending === 5104, "batch pending sum");
+  assert(batchDecided === ingestProof.newDecided, "batch decided sum");
+  assert(batchPending === ingestProof.remainingPending, "batch pending sum");
 
   for (const row of decisions.rows) {
     assert(row.owner_status === "DECIDED", `decided ${row.finding_stable_ids}`);

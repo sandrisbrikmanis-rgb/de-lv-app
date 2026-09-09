@@ -1,0 +1,33 @@
+{
+  "classification": "G2_A1_LINGUISTIC_OWNER_REVIEW_7737_AUDIT_READY",
+  "pass": true,
+  "ownerAuthorization": "G2_A1_LINGUISTIC_OWNER_REVIEW_7737_QUARANTINE_REPAIR_APPROVED",
+  "preRepairHeadSha": "db97b5178235f0be2bc46ebc6d815953a5114298",
+  "trustedIngestSha": "1b2212f2c64569ac809f306039f1061fe6698367",
+  "individualIngestSha": "db97b5178235f0be2bc46ebc6d815953a5114298",
+  "newDecided": 2633,
+  "confirmedBad": 4,
+  "suspectNnDeLemma": 17,
+  "nnLemmaQuarantine": 18,
+  "suspectHrNelabotTemplate": 28,
+  "nelabotReviewRequired": 322,
+  "quarantineTarget": 21,
+  "automaticOwnerDecisions": 0,
+  "individualLinguisticOwnerReview": 2633,
+  "unprovenProvenance": 0,
+  "linguisticClassificationDistribution": {
+    "OK": 2262,
+    "SUSPECT_HR_NELABOT_TEMPLATE": 28,
+    "CONFIRMED_BAD_HR_CYRILLIC_NELABOT": 3,
+    "NELABOT_REVIEW_REQUIRED": 322,
+    "SUSPECT_NN_DE_LEMMA_LABOT": 17,
+    "CONFIRMED_BAD_NN_HERR_LABOT": 1
+  },
+  "provenanceDistribution": {
+    "AUTOMATIC_RULE_DECISION": 0,
+    "INDIVIDUAL_LINGUISTIC_OWNER_REVIEW": 2633,
+    "UNPROVEN_PROVENANCE": 0,
+    "NOT_APPLICABLE": 0
+  },
+  "nextStep": "REPAIR_LINGUISTIC_QUARANTINE_TO_PENDING"
+}
