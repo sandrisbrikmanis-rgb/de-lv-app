@@ -30,5 +30,7 @@
   "individualLinguisticReview": 2612,
   "linguisticQuarantineApplied": true,
   "quarantinedToPending": 21,
-  "nextStep": "OWNER_REVIEW_REMAINING_INDIVIDUAL_ESCALATIONS"
+  "nextStep": "OWNER_REVIEW_REMAINING_INDIVIDUAL_ESCALATIONS",
+  "provenanceManifestSha256": "b74b1cb8ebbe911e3b2f0c5537ad1c230879595bc69a3766251abc4cdbf932dd",
+  "unprovenProvenance": 0
 }

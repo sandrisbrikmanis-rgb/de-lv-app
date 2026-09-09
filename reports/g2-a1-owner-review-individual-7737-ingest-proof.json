@@ -54,5 +54,7 @@
   },
   "linguisticQuarantineApplied": true,
   "linguisticQuarantineProofSha256": "7363def856918f3be0415801c2af878681450220ee61f48337503d0ea4229402",
-  "quarantinedToPending": 21
+  "quarantinedToPending": 21,
+  "provenanceManifestSha256": "b74b1cb8ebbe911e3b2f0c5537ad1c230879595bc69a3766251abc4cdbf932dd",
+  "unprovenProvenance": 0
 }

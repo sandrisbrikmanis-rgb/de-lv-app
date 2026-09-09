@@ -22,6 +22,8 @@ const {
   CONFIRMED_BAD_STABLE_IDS,
   classifyDecisionProvenance,
   classifyLinguisticRisk,
+  isAutomaticRuleNote,
+  loadShaProtectedProvenanceManifest,
 } = require("./lib/g2-a1-phase3/linguistic-quarantine-7737-repair");
 
 let testsRun = 0;
@@ -82,6 +84,8 @@ function testQuarantineArtifacts() {
   assert(quarantineProof.pending === 5125, "consolidated pending 5125");
   assert(quarantineProof.automaticOwnerDecisions === 0, "automatic 0");
   assert(quarantineProof.individualLinguisticOwnerReview === 2612, "individual 2612");
+  assert(quarantineProof.unprovenProvenance === 0, "unproven 0");
+  assert(ingestProof.provenanceManifestSha256 === quarantineProof.provenanceManifestSha256, "manifest sha aligned");
   assert(escProof.reviewedDecided === 2612, "esc reviewed 2612");
   assert(escProof.remainingPending === 5125, "esc pending 5125");
   assert(decisions.rows.length === 2612, "decisions 2612");
@@ -100,8 +104,10 @@ function testQuarantineArtifacts() {
     assert(String(row.owner_note_after_prefix || "").startsWith("LINGUISTIC_QUARANTINE:"), `quarantine note ${row.finding_stable_ids}`);
   }
 
+  const manifest = loadShaProtectedProvenanceManifest(ROOT);
+  assert(manifest.pass, "manifest pass for decided scan");
   for (const row of decisions.rows) {
-    assert(classifyDecisionProvenance(row) !== "AUTOMATIC_RULE_DECISION", `no automatic ${row.finding_stable_ids}`);
+    assert(classifyDecisionProvenance(row, manifest) === "INDIVIDUAL_LINGUISTIC_OWNER_REVIEW", `proven individual ${row.finding_stable_ids}`);
     assert(classifyLinguisticRisk(row) !== "CONFIRMED_BAD_HR_CYRILLIC_NELABOT", `no bad hr cyr ${row.finding_stable_ids}`);
     assert(classifyLinguisticRisk(row) !== "CONFIRMED_BAD_NN_HERR_LABOT", `no bad nn herr ${row.finding_stable_ids}`);
     assert(classifyLinguisticRisk(row) !== "SUSPECT_NN_DE_LEMMA_LABOT", `no suspect nn ${row.finding_stable_ids}`);
@@ -134,11 +140,39 @@ function testImmutableProduction() {
   assert(gitDiffCount(["crowdin", path.relative(ROOT, STAGING_ROOT)]) === 0, "crowdin diff 0");
 }
 
+function testProvenanceFailClosed() {
+  const manifest = loadShaProtectedProvenanceManifest(ROOT);
+  assert(manifest.pass, `sha manifest pass: ${(manifest.errors || []).join(", ")}`);
+
+  const base = {
+    owner_status: "DECIDED",
+    finding_stable_ids: "g2/a1/test|lemma|idx:0|lv|TEST|gpt-5.6-luna",
+    owner_decision: "NELABOT",
+    owner_new: "",
+  };
+
+  assert(classifyDecisionProvenance({ ...base, owner_note: "" }, manifest) === "UNPROVEN_PROVENANCE", "empty note unproven");
+  assert(
+    classifyDecisionProvenance({ ...base, owner_note: "arbitrary unreviewed garbage" }, manifest) === "UNPROVEN_PROVENANCE",
+    "arbitrary note unproven",
+  );
+  assert(
+    classifyDecisionProvenance(
+      { ...base, owner_note: "UNCHANGED_SINCE_DISCOVERY_SCALAR: production matches discovery" },
+      manifest,
+    ) === "AUTOMATIC_RULE_DECISION",
+    "unchanged since discovery automatic",
+  );
+  assert(isAutomaticRuleNote("UNCHANGED_SINCE_DISCOVERY_SCALAR: ok"), "unch marker detected");
+  assert(!manifest.entries.has(base.finding_stable_ids), "synthetic row not in manifest");
+}
+
 function main() {
   testAuditGates();
   testQuarantineArtifacts();
   testSourceIntegrity();
   testDeterminism();
+  testProvenanceFailClosed();
   testImmutableProduction();
 
   console.log(`\nTests run: ${testsRun}, failed: ${testsFailed}`);

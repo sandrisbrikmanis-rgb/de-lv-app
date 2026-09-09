@@ -21,7 +21,8 @@ const {
 } = require("./lib/g2-a1-phase3/individual-7737-ingest");
 const {
   OUT_QUARANTINE_PROOF,
-  classifyDecisionProvenance,
+  loadShaProtectedProvenanceManifest,
+  countDecisionProvenance,
 } = require("./lib/g2-a1-phase3/linguistic-quarantine-7737-repair");
 
 let testsRun = 0;
@@ -46,22 +47,6 @@ function gitDiffCount(paths) {
     encoding: "utf8",
   }).trim();
   return output ? output.split("\n").filter(Boolean).length : 0;
-}
-
-function computeProvenanceCounts(rows) {
-  const stats = {
-    automaticOwnerDecisions: 0,
-    individualLinguisticOwnerReview: 0,
-    unprovenProvenance: 0,
-  };
-  for (const row of rows) {
-    if (row.owner_status !== "DECIDED") continue;
-    const provenance = classifyDecisionProvenance(row);
-    if (provenance === "AUTOMATIC_RULE_DECISION") stats.automaticOwnerDecisions += 1;
-    else if (provenance === "INDIVIDUAL_LINGUISTIC_OWNER_REVIEW") stats.individualLinguisticOwnerReview += 1;
-    else stats.unprovenProvenance += 1;
-  }
-  return stats;
 }
 
 function main() {
@@ -92,13 +77,17 @@ function main() {
   assert(sha256File("reports/g2-a1-owner-review-all-remaining-decisions-final.csv") === ingestProof.decisionsSha256After, "decisions sha");
   assert(sha256File("reports/g2-a1-owner-review-needs-owner-final.csv") === ingestProof.needsOwnerSha256After, "needs-owner sha");
 
-  const provenance = computeProvenanceCounts(review.rows);
-  assert(provenance.automaticOwnerDecisions === 0, "computed automatic 0");
-  assert(
-    provenance.individualLinguisticOwnerReview === ingestProof.newDecided,
-    "computed individual matches newDecided",
+  const manifest = loadShaProtectedProvenanceManifest(ROOT);
+  assert(manifest.pass, `provenance manifest pass: ${(manifest.errors || []).join(", ")}`);
+  assert(manifest.decidedCount === ingestProof.newDecided, "manifest decided count");
+  assert(manifest.manifestSha256 === ingestProof.provenanceManifestSha256, "manifest sha matches proof");
+  const provenance = countDecisionProvenance(
+    review.rows.filter((row) => row.owner_status === "DECIDED"),
+    manifest,
   );
-  assert(provenance.unprovenProvenance === 0, "computed unproven 0");
+  assert(provenance.AUTOMATIC_RULE_DECISION === 0, "computed automatic 0");
+  assert(provenance.INDIVIDUAL_LINGUISTIC_OWNER_REVIEW === ingestProof.newDecided, "computed individual matches newDecided");
+  assert(provenance.UNPROVEN_PROVENANCE === 0, "computed unproven 0");
   assert(escProof.automaticOwnerDecisions === 0, "proof automatic 0");
   assert(ingestProof.automaticOwnerDecisions === 0, "ingest automatic 0");
   assert(ingestProof.preexisting14913DecisionsChanged === 0, "14913 unchanged");

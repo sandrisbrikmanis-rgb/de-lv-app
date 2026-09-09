@@ -116,6 +116,7 @@ function isAutomaticRuleNote(note) {
   const text = String(note || "");
   return (
     text.includes("AUTOMATIC_RULE") ||
+    text.includes("UNCHANGED_SINCE_DISCOVERY") ||
     text.startsWith("MULTI_TRANSLATION_VALID:") ||
     text.startsWith("TARGET_LANGUAGE_VALID:") ||
     text.startsWith("TARGET_VALUE_VALID:") ||
@@ -125,9 +126,82 @@ function isAutomaticRuleNote(note) {
   );
 }
 
-function classifyDecisionProvenance(row) {
+function provenanceEntryKey(row) {
+  return sha256Hex(
+    [
+      row.finding_stable_ids ?? "",
+      row.owner_status ?? "",
+      row.owner_decision ?? "",
+      row.owner_new ?? "",
+      row.owner_note ?? "",
+    ].join("|"),
+  );
+}
+
+function buildProvenanceManifest(rows) {
+  const entries = new Map();
+  for (const row of rows) {
+    if (row.owner_status !== "DECIDED") continue;
+    entries.set(row.finding_stable_ids, provenanceEntryKey(row));
+  }
+  const manifestBody = [...entries.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([stableId, entryKey]) => `${stableId}|${entryKey}`)
+    .join("\n");
+  return {
+    entries,
+    decidedCount: entries.size,
+    manifestSha256: sha256Hex(`${manifestBody}\n`),
+  };
+}
+
+function loadShaProtectedProvenanceManifest(root = ROOT) {
+  const errors = [];
+  if (!fs.existsSync(OUT_INGEST_PROOF)) errors.push("ingest proof missing");
+  if (!fs.existsSync(INGEST_REVIEW_CSV)) errors.push("ingest review csv missing");
+  if (errors.length) {
+    return { pass: false, errors, entries: new Map(), decidedCount: 0 };
+  }
+
+  const proof = JSON.parse(fs.readFileSync(OUT_INGEST_PROOF, "utf8"));
+  const rows = loadCsv(INGEST_REVIEW_CSV).rows;
+  const manifest = buildProvenanceManifest(rows);
+  const expectedSha = proof.provenanceManifestSha256;
+  if (!expectedSha) errors.push("provenance manifest sha missing from proof");
+  if (expectedSha && manifest.manifestSha256 !== expectedSha) errors.push("provenance manifest sha drift");
+
+  return {
+    pass: errors.length === 0,
+    errors,
+    entries: manifest.entries,
+    decidedCount: manifest.decidedCount,
+    manifestSha256: manifest.manifestSha256,
+    expectedSha256: expectedSha ?? null,
+  };
+}
+
+function countDecisionProvenance(rows, manifest) {
+  const counts = {
+    AUTOMATIC_RULE_DECISION: 0,
+    INDIVIDUAL_LINGUISTIC_OWNER_REVIEW: 0,
+    UNPROVEN_PROVENANCE: 0,
+    NOT_APPLICABLE: 0,
+  };
+  for (const row of rows) {
+    const provenance = classifyDecisionProvenance(row, manifest);
+    counts[provenance] = (counts[provenance] || 0) + 1;
+  }
+  return counts;
+}
+
+function classifyDecisionProvenance(row, manifest = null) {
   if (row.owner_status !== "DECIDED") return "NOT_APPLICABLE";
   if (isAutomaticRuleNote(row.owner_note)) return "AUTOMATIC_RULE_DECISION";
+  const note = String(row.owner_note || "").trim();
+  if (!note) return "UNPROVEN_PROVENANCE";
+  if (!manifest?.pass) return "UNPROVEN_PROVENANCE";
+  const expected = manifest.entries.get(row.finding_stable_ids);
+  if (!expected || expected !== provenanceEntryKey(row)) return "UNPROVEN_PROVENANCE";
   return "INDIVIDUAL_LINGUISTIC_OWNER_REVIEW";
 }
 
@@ -218,23 +292,17 @@ function loadEscalationBatches(root) {
   return { index, batches, rows };
 }
 
-function auditDecidedRows(rows) {
+function auditDecidedRows(rows, manifest = null) {
   const decided = rows.filter((row) => row.owner_status === "DECIDED");
   const classifications = {};
-  const provenanceCounts = {
-    AUTOMATIC_RULE_DECISION: 0,
-    INDIVIDUAL_LINGUISTIC_OWNER_REVIEW: 0,
-    UNPROVEN_PROVENANCE: 0,
-    NOT_APPLICABLE: 0,
-  };
+  const provenanceCounts = countDecisionProvenance(decided, manifest);
   const auditRows = [];
   const quarantineIds = new Set();
 
   for (const row of decided) {
     const linguisticClassification = classifyLinguisticRisk(row);
-    const decisionProvenance = classifyDecisionProvenance(row);
+    const decisionProvenance = classifyDecisionProvenance(row, manifest);
     classifications[linguisticClassification] = (classifications[linguisticClassification] || 0) + 1;
-    provenanceCounts[decisionProvenance] = (provenanceCounts[decisionProvenance] || 0) + 1;
     if (shouldQuarantine(linguisticClassification)) quarantineIds.add(row.finding_stable_ids);
     auditRows.push({
       finding_stable_ids: row.finding_stable_ids,
@@ -653,12 +721,15 @@ function runLinguisticQuarantineRepair(options = {}) {
   }
   if (preexistingChanged) errors.push(`preexisting changed ${preexistingChanged}`);
 
-  const computedAutomatic = reviewFinalRows.filter(
-    (row) => row.owner_status === "DECIDED" && classifyDecisionProvenance(row) === "AUTOMATIC_RULE_DECISION",
-  ).length;
-  const computedIndividual = reviewFinalRows.filter(
-    (row) => row.owner_status === "DECIDED" && classifyDecisionProvenance(row) === "INDIVIDUAL_LINGUISTIC_OWNER_REVIEW",
-  ).length;
+  const provenanceManifest = buildProvenanceManifest(reviewFinalRows);
+  const provenanceCounts = countDecisionProvenance(
+    reviewFinalRows.filter((row) => row.owner_status === "DECIDED"),
+    { pass: true, entries: provenanceManifest.entries },
+  );
+  const computedAutomatic = provenanceCounts.AUTOMATIC_RULE_DECISION;
+  const computedIndividual = provenanceCounts.INDIVIDUAL_LINGUISTIC_OWNER_REVIEW;
+  const computedUnproven = provenanceCounts.UNPROVEN_PROVENANCE;
+  if (computedUnproven) errors.push(`unproven provenance ${computedUnproven}`);
 
   const productionDiff = gitDiffCount(["data", "www/data"]);
   const crowdinDiff = gitDiffCount(["crowdin", path.relative(root, STAGING_ROOT)]);
@@ -682,6 +753,8 @@ function runLinguisticQuarantineRepair(options = {}) {
     pending: consolidatedGates.pending,
     automaticOwnerDecisions: computedAutomatic,
     individualLinguisticOwnerReview: computedIndividual,
+    unprovenProvenance: computedUnproven,
+    provenanceManifestSha256: provenanceManifest.manifestSha256,
     preexisting14913DecisionsChanged: 0,
     batch001DecisionsChanged: 0,
     deferredBacklog29Closed: 0,
@@ -770,6 +843,7 @@ function runLinguisticQuarantineRepair(options = {}) {
       linguisticQuarantineApplied: true,
       linguisticQuarantineProofSha256: sha256Hex(JSON.stringify(proof)),
       quarantinedToPending: proof.quarantinedToPending,
+      provenanceManifestSha256: provenanceManifest.manifestSha256,
       nextStep: proof.nextStep,
     };
     ingestProof.outputHash = sha256Hex(
@@ -819,6 +893,8 @@ function runLinguisticQuarantineRepair(options = {}) {
       newRealLunaCalls: 0,
       automaticOwnerDecisions: proof.automaticOwnerDecisions,
       individualLinguisticReview: proof.individualLinguisticOwnerReview,
+      unprovenProvenance: proof.unprovenProvenance,
+      provenanceManifestSha256: proof.provenanceManifestSha256,
       linguisticQuarantineApplied: true,
       quarantinedToPending: proof.quarantinedToPending,
       nextStep: proof.nextStep,
@@ -876,6 +952,11 @@ module.exports = {
   OUT_QUARANTINE_PROOF,
   OUT_QUARANTINE_ROWS,
   CONFIRMED_BAD_STABLE_IDS,
+  isAutomaticRuleNote,
+  provenanceEntryKey,
+  buildProvenanceManifest,
+  loadShaProtectedProvenanceManifest,
+  countDecisionProvenance,
   classifyDecisionProvenance,
   classifyLinguisticRisk,
   shouldQuarantine,
