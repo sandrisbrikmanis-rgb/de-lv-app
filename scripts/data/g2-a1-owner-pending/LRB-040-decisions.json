@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|versuchen|idx:622|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"reyna\"}",
+    "owner_note": "IS versuchen lv: ET Üritama→reyna for mēģināt try/attempt. DE untouched."
+  },
+  "g2/a1/is|viel|idx:623|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"mikið\"}",
+    "owner_note": "IS viel lv: ET Palju→mikið for daudz much/many. DE untouched."
+  },
+  "g2/a1/is|vielleicht|idx:624|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kannski\"}",
+    "owner_note": "IS vielleicht lv: NO Kanskje→kannski for varbūt perhaps. DE untouched."
+  },
+  "g2/a1/is|vierhundert|idx:626|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fjögur hundruð\"}",
+    "owner_note": "IS vierhundert lv: ET Nelisada→fjögur hundruð for četrsimt four hundred. DE untouched."
+  },
+  "g2/a1/is|vierte|idx:627|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fjórði\"}",
+    "owner_note": "IS vierte lv: ET Neljas→fjórði for ceturtais fourth. DE untouched."
+  },
+  "g2/a1/is|vierzehn|idx:628|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fjórtán\"}",
+    "owner_note": "IS vierzehn lv: garbage Neliteist→fjórtán for četrpadsmit fourteen. DE untouched."
+  },
+  "g2/a1/is|vierzehnte|idx:629|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fjórtándi\"}",
+    "owner_note": "IS vierzehnte lv: garbage Nittende→fjórtándi for četrpadsmitais fourteenth. DE untouched."
+  },
+  "g2/a1/is|vierzigste|idx:631|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fertugasti\"}",
+    "owner_note": "IS vierzigste lv: garbage Neljagyümce→fertugasti for četrdesmitais fortieth. DE untouched."
+  },
+  "g2/a1/is|Vogel|idx:632|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fugl\"}",
+    "owner_note": "IS Vogel lv: garbage Linden→fugl for putns bird. DE untouched."
+  },
+  "g2/a1/is|voll|idx:633|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fullur\"}",
+    "owner_note": "IS voll lv: garbage Shit→fullur for pilns full. DE untouched."
+  },
+  "g2/a1/is|vom|idx:634|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"frá\",\"study.explanation\":[\"Meginhugsun: vom er samruni forsetningsorðsins von og greinisins dem.\",\"Fullt form: von dem (þágufall).\",\"Notað með karlkyns eða hvorugkyns nafnorðum til að gefa til kynna uppruna eða stefnu frá einhverju.\",\"Svarar spurningunum: frá hverjum? eða hvaðan?\",\"Í talmáli er næstum alltaf notað vom í stað von dem.\"],\"study.examples[0].lv\":\"Ég kem frá lestarstöðinni.\",\"study.examples[1].lv\":\"Gjöfin er frá föður mínum.\",\"study.examples[2].lv\":\"Hann kemur frá lækninum.\",\"study.examples[3].lv\":\"Hún fer frá flugvellinum.\",\"study.examples[4].lv\":\"Þetta er frá markaðinum.\",\"study.examples[5].lv\":\"Við kemum frá hátíðinni.\",\"study.examples[6].lv\":\"Hann sækir mjólk frá bónda.\",\"study.examples[7].lv\":\"Skilaboðin eru frá yfirmanninum.\",\"study.comparison[0].meaning\":\"frá (nákvæmlega, frá hverjum?)\",\"study.comparison[0].example\":\"vom Bahnhof – Frá lestarstöðinni\",\"study.comparison[1].meaning\":\"frá (almennt)\",\"study.comparison[1].example\":\"von mir – Frá mér\",\"study.comparison[2].meaning\":\"úr / uppruni\",\"study.comparison[2].example\":\"aus Deutschland – Frá Þýskalandi\",\"study.comparison[3].meaning\":\"frá (tími/staður upphafs)\",\"study.comparison[3].example\":\"ab Montag – Frá mánudegi\",\"study.comparison[4].meaning\":\"til (andstæð stefna)\",\"study.comparison[4].example\":\"zum Arzt – Til læknisins\",\"study.tip[0]\":\"Mundu: von + dem → vom (þágufall).\",\"study.tip[1]\":\"Í talmáli segjum við næstum aldrei von dem — notum vom.\",\"study.important[0]\":\"vom = von dem, aðeins með karlkyns eða hvorugkyns nafnorði í þágufalli.\",\"study.important[1]\":\"Gefur til kynna uppruna, heimild eða stefnu frá einhverju sérstöku.\",\"study.important[2]\":\"Fyrir kvenkyns: von der Mutter, ekki vom Mutter.\",\"study.important[3]\":\"Ekki rugla saman við aus (land uppruna) eða ab (upphafspunktur).\"}",
+    "owner_note": "IS vom composite: ET/NO -st/jaamast→frá throughout study for no from. DE untouched."
+  },
+  "g2/a1/is|von|idx:635|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"frá\"}",
+    "owner_note": "IS von lv: garbage -st→frá for no from/of. DE untouched."
+  },
+  "g2/a1/is|vor|idx:636|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"áður • fyrir\",\"study.explanation\":[\"Meginhugsun: vor þýðir áður í tíma eða fyrir framan á stað.\",\"Þegar talað er um tíma þýðir vor áður.\",\"Þegar talað er um stað þýðir vor fyrir framan eða fyrir.\",\"Á klukku þýðir vor fimm mínútur í átt (fünf vor acht).\"],\"study.examples[0].lv\":\"Áður en ég borða, þvo ég hendurnar.\",\"study.examples[1].lv\":\"Bíllinn stendur fyrir framan húsið.\",\"study.examples[2].lv\":\"Það er fimm mínútur í átt.\",\"study.examples[3].lv\":\"Eftir matinn ferum við í gönguferð.\",\"study.comparison[0].meaning\":\"áður / fyrir framan\",\"study.comparison[0].example\":\"Vor dem Essen...\",\"study.comparison[1].meaning\":\"eftir\",\"study.comparison[1].example\":\"Nach dem Essen...\",\"study.comparison[2].meaning\":\"við hlið\",\"study.comparison[2].example\":\"Neben dem Haus.\",\"study.comparison[3].meaning\":\"á bak við\",\"study.comparison[3].example\":\"Hinter dem Haus.\",\"study.tip.text\":\"Mundu: áður í tíma, fyrir framan á stað → vor.\",\"study.important[0]\":\"vor getur verið bæði tími og staður.\",\"study.important[1]\":\"vor dem Essen = fyrir matinn; vor dem Haus = fyrir framan húsið.\"}",
+    "owner_note": "IS vor composite: ET Enne/Ees→áður•fyrir throughout study for pirms•priekšā. DE untouched."
+  },
+  "g2/a1/is|Vorname|idx:637|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fornafn\"}",
+    "owner_note": "IS Vorname lv: ET Eesnimi→fornafn for vārds first name. DE untouched."
+  },
+  "g2/a1/is|Wald|idx:638|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"skógur\"}",
+    "owner_note": "IS Wald lv: ET Mets→skógur for mežs forest. DE untouched."
+  },
+  "g2/a1/is|Wand|idx:639|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"veggur\"}",
+    "owner_note": "IS Wand lv: garbage Sent→veggur for siena wall. DE untouched."
+  },
+  "g2/a1/is|wann|idx:640|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hvenær\"}",
+    "owner_note": "IS wann lv: ET Millal→hvenær for kad when. DE untouched."
+  },
+  "g2/a1/is|warm|idx:641|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hlýr\"}",
+    "owner_note": "IS warm lv: ET Soe→hlýr for silts warm. DE untouched."
+  },
+  "g2/a1/is|warten|idx:642|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bíða\"}",
+    "owner_note": "IS warten lv: ET Ootama→bíða for gaidīt wait. DE untouched."
+  },
+  "g2/a1/is|warum|idx:643|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"af hverju\"}",
+    "owner_note": "IS warum lv: garbage Blande→af hverju for kāpēc why. DE untouched."
+  },
+  "g2/a1/is|was|idx:644|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"hvað\",\"study.explanation\":[\"Meginhugsun: was er spyrjandi fyrir hluti, atburði og staðreyndir.\",\"Spyr um hluti, atburði og staðreyndir — aldrei um fólk.\",\"Á þýsku breytist orðið ekki — það er alltaf was.\",\"Was ist das? = Hvað er þetta?\",\"Was machst du? = Hvað ertu að gera?\",\"Fyrir fólk spyrjum við með wer (hver), ekki was.\"],\"study.examples[0].lv\":\"Hvað er þetta?\",\"study.examples[1].lv\":\"Hvað gerðist?\",\"study.examples[2].lv\":\"Hvað ertu að gera núna?\",\"study.examples[3].lv\":\"Hvað viltu drekka?\",\"study.examples[4].lv\":\"Hvað þýðir þetta orð?\",\"study.examples[5].lv\":\"Hvað er uppáhalds matur þinn?\",\"study.examples[6].lv\":\"Hvað sagðir þú?\",\"study.tip[0]\":\"was breytist ekki — á þýsku er það alltaf was.\",\"study.tip[1]\":\"Fljótlegt: ef svar er „Það er ...“, nota hvað.\",\"study.important[0]\":\"was spyr um hluti, atburði og staðreyndir — aldrei um fólk.\",\"study.important[1]\":\"Fyrir fólk nota wer (hver), ekki was.\",\"study.important[2]\":\"Was für (ein/eine) þýðir hvaða/hvers konar.\",\"study.important[3]\":\"Ekki rétt: Wer ist passiert? → Rétt: Was ist passiert?\"}",
+    "owner_note": "IS was composite: ET Mis/Mida/NO→hvað throughout study for kas•ko what. DE untouched."
+  },
+  "g2/a1/is|waschen|idx:645|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þvo\"}",
+    "owner_note": "IS waschen lv: garbage Dikt→þvo for mazgāt wash. DE untouched."
+  },
+  "g2/a1/is|Wasser|idx:2|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vatn\"}",
+    "owner_note": "IS Wasser lv: ET Vesi→vatn for ūdens water. DE untouched."
+  },
+  "g2/a1/is|Weg|idx:647|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vegur\"}",
+    "owner_note": "IS Weg lv: garbage T-skjorte→vegur for ceļš way/path. DE untouched."
+  },
+  "g2/a1/is|Weihnachten|idx:648|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"jól\"}",
+    "owner_note": "IS Weihnachten lv: ET Jõulud→jól for Ziemassvētki Christmas. DE untouched."
+  },
+  "g2/a1/is|Wein|idx:649|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vín\"}",
+    "owner_note": "IS Wein lv: garbage Blodåre→vín for vīns wine. DE untouched."
+  },
+  "g2/a1/is|weinen|idx:650|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gráta\"}",
+    "owner_note": "IS weinen lv: garbage Nutma→gráta for raudāt cry. DE untouched."
+  },
+  "g2/a1/is|weiß|idx:651|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hvítur\"}",
+    "owner_note": "IS weiß lv: ET Valg→hvítur for balts white. DE untouched."
+  },
+  "g2/a1/is|welcher|idx:652|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hvor\"}",
+    "owner_note": "IS welcher lv: garbage Millie→hvor for kurš which. DE untouched."
+  },
+  "g2/a1/is|Welt|idx:653|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heimur\"}",
+    "owner_note": "IS Welt lv: ET Maailm→heimur for pasaule world. DE untouched."
+  },
+  "g2/a1/is|wenig|idx:654|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"lítið\"}",
+    "owner_note": "IS wenig lv: garbage Litt→lítið for maz little/few. DE untouched."
+  },
+  "g2/a1/is|wenn|idx:655|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"ef • þegar\",\"study.explanation\":[\"Meginhugsun: wenn þýðir ef eða þegar, eftir samhengi.\",\"Ef um skilyrði er að ræða, þýðir wenn ef.\",\"Þegar talað er um endurtekinn eða almennt tíma, þýðir wenn þegar.\",\"Eftir wenn kemur sögn í aðalsetningu á þýsku.\"],\"study.examples[0].lv\":\"Ef þú hefur tíma, komdu við.\",\"study.examples[1].lv\":\"Ef það rignir, verð ég heima.\",\"study.examples[2].lv\":\"Ef ég er þreyttur, drekk ég kaffi.\",\"study.examples[3].lv\":\"Ég veit ekki hvort hann kemur.\",\"study.comparison[0].meaning\":\"ef / þegar\",\"study.comparison[0].example\":\"Wenn du Zeit hast...\",\"study.comparison[1].meaning\":\"hvort (í indirekt spurningu)\",\"study.comparison[1].example\":\"Ich weiß nicht, ob...\",\"study.comparison[2].meaning\":\"hvenær (spurning)\",\"study.comparison[2].example\":\"Wann kommst du?\",\"study.comparison[3].meaning\":\"vegna þess\",\"study.comparison[3].example\":\"Ich bleibe, weil ich krank bin.\",\"study.tip.text\":\"Mundu: skilyrði → wenn; spurning „hvenær?“ → wann.\",\"study.important[0]\":\"wenn og wann eru ekki það sama.\",\"study.important[1]\":\"Wann kommst du? er spurning. Wenn du kommst... er skilyrði/tími.\"}",
+    "owner_note": "IS wenn composite: ET Kui→ef•þegar throughout study for ja•kad if/when. DE untouched."
+  },
+  "g2/a1/is|wer|idx:656|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"hver\",\"study.explanation\":[\"Meginhugsun: wer er spyrjandi um manneskju — á íslensku: hver.\",\"Spyr um fólk, ekki hluti eða atburði.\",\"Fyrir hluti og atburði nota was, ekki wer.\",\"Wer er oftast frumlag á þýsku — Wer ist das? = Hver er þetta?\",\"Ef spurt er um val úr hópi, nota wer von (wer von euch = hver af ykkur).\",\"Wer breytist eftir beygingu: wen, wem, wessen — á A1 er grunnformin wer.\"],\"study.examples[0].lv\":\"Hver er þetta?\",\"study.examples[1].lv\":\"Hver ert þú?\",\"study.examples[2].lv\":\"Hver kemur í dag?\",\"study.examples[3].lv\":\"Hver er kennarinn þinn?\",\"study.examples[4].lv\":\"Hver af ykkur talar þýsku?\",\"study.examples[5].lv\":\"Hver sagði þetta?\",\"study.examples[6].lv\":\"Hver vill kaffi?\",\"study.tip[0]\":\"wer spyr um fólk (hver) — fyrir hluti og atburði nota was.\",\"study.tip[1]\":\"Til að spyrja um val meðal manna, nota wer von... (hver af...).\",\"study.important[0]\":\"wer spyr eingöngu um fólk, aldrei um hluti.\",\"study.important[1]\":\"Fyrir hluti og atburði nota was, ekki wer.\",\"study.important[2]\":\"wer breytist: wen, wem, wessen — grunnform er wer.\",\"study.important[3]\":\"Ekki rétt: Wer ist passiert? → Rétt: Was ist passiert?\"}",
+    "owner_note": "IS wer composite: ET Kes/Cumb/NO→hver throughout study for kas•kurš who. DE untouched."
+  },
+  "g2/a1/is|werden|idx:657|study.explanation|LANGUAGE_MIXING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Meginhugsun: werden á A1 stigi þýðir oftast að verða eitthvað.\",\"study.explanation[1]\":\"Notað þegar eitthvað breytist eða verður öðruvísi.\",\"study.explanation[2]\":\"Seinna í þýsku er werden notað líka fyrir framtíð og passive.\",\"study.explanation[3]\":\"Mikilvægasta setningin á A1 er Ich werde müde. = Ég verð þreyttur.\"}",
+    "owner_note": "IS werden study.explanation: NO Hovedidé/Seda→IS Meginhugsun/Notað for kļūt become. DE untouched."
+  },
+  "g2/a1/is|Wetter|idx:658|study.explanation|LANGUAGE_MIXING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Meginhugsun: das Wetter þýðir veður — sólskin, rigning, kalt eða hlýtt.\",\"study.explanation[1]\":\"Íslenska „veður“ getur þýtt bæði veðurfar og tíma — á þýsku eru þetta mismunandi orð.\",\"study.explanation[2]\":\"Um veður í náttúrunni talað með das Wetter: Wie ist das Wetter heute?\",\"study.explanation[3]\":\"Í setningu nota oft das Wetter með orðum eins og warm eða kalt.\",\"study.explanation[4]\":\"Ekki rugla saman við die Zeit — það er tími sem stund eða tækifæri (Ich habe keine Zeit).\"}",
+    "owner_note": "IS Wetter study.explanation: ET Põhiidee/Ära→IS Meginhugsun/Ekki for laikapstākļi weather. DE untouched."
+  },
+  "g2/a1/is|wie viel|idx:662|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hversu mikið\"}",
+    "owner_note": "IS wie viel lv: NO Hvor mange→hversu mikið for cik how much. DE untouched."
+  },
+  "g2/a1/is|wie|idx:660|study.explanation|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Meginhugsun: wie spyr um hátt eða eiginleika (hvernig) og um magn eða fjölda (hversu), eftir samhengi.\",\"study.explanation[1]\":\"wie eitt (Wie geht's?) spyr um hátt — hvernig.\",\"study.explanation[2]\":\"wie + lýsingarorð (wie viel, wie alt, wie lange) spyr um magn, aldur eða lengd — hversu.\",\"study.explanation[3]\":\"Wie viel(e) þýðir hversu mikið • Wie alt þýðir hversu gamall • Wie lange þýðir hversu lengi.\",\"study.explanation[4]\":\"Í samanburði þýðir wie eins og (so groß wie = jafn stór og).\"}",
+    "owner_note": "IS wie study.explanation: ET Põhiidee/Kuidas→IS Meginhugsun/hvernig for kā•cik how. DE untouched."
+  },
+  "g2/a1/is|Wind|idx:663|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vindur\"}",
+    "owner_note": "IS Wind lv: garbage Tyll→vindur for vējš wind. DE untouched."
+  },
+  "g2/a1/is|wissen|idx:311|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vita\",\"study.translation\":\"vita\",\"study.explanation\":[\"Meginhugsun: vita staðreyndir, svör eða upplýsingar.\",\"Wissen snýst um þekkingu: staðreynd/upplýsing.\",\"Oft notað um að vita svar eða upplýsingar.\",\"Wissen notað þegar þú veist staðreyndir, svör eða upplýsingar.\"],\"study.examples[0].lv\":\"Ég veit hvar hann býr.\",\"study.examples[1].lv\":\"Hvernig veist þú það?\",\"study.examples[2].lv\":\"Ég veit svarið.\",\"study.comparison[0].meaning\":\"vita (staðreynd, upplýsing)\",\"study.comparison[0].example\":\"Ich weiß, wo er wohnt. – Ég veit hvar hann býr.\",\"study.comparison[1].meaning\":\"þekkja (mann, stað, hlut)\",\"study.comparison[1].example\":\"Ich kenne die Stadt. – Ég þekki borgina.\",\"study.tip[0]\":\"wissen = vita\",\"study.tip[1]\":\"Notaðu wissen þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"wissen = vita staðreyndir.\",\"study.important[1]\":\"wissen = vita.\",\"study.important[2]\":\"Vita staðreyndir, svör eða upplýsingar.\"}",
+    "owner_note": "IS wissen composite: ET/NO Teadma/Jeg vet→vita throughout lv/study; vita vs þekkja (cf. LRB-034 kennen). DE untouched."
+  },
+  "g2/a1/is|Wochenende|idx:181|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"lokahelgi\"}",
+    "owner_note": "IS Wochenende lv: garbage Bytte av nål→lokahelgi for nedēļas nogale weekend. DE untouched."
+  },
+  "g2/a1/is|Zigarette|idx:664|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sígaretta\"}",
+    "owner_note": "IS Zigarette lv: NO Sigaretten→sígaretta for cigarete cigarette. DE untouched."
+  },
+  "g2/a1/is|Zimmer|idx:665|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"herbergi\"}",
+    "owner_note": "IS Zimmer lv: ET Tuba→herbergi for istaba room. DE untouched."
+  },
+  "g2/a1/is|Zitrone|idx:666|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sítróna\"}",
+    "owner_note": "IS Zitrone lv: garbage Sideløp→sítróna for citrons lemon. DE untouched."
+  },
+  "g2/a1/is|Zoo|idx:667|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dýragarður\"}",
+    "owner_note": "IS Zoo lv: ET Loomaaed→dýragarður for zooloģiskais dārzs zoo. DE untouched."
+  },
+  "g2/a1/is|zu|idx:668|study.explanation|LANGUAGE_MIXING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Meginhugsun: zu þýðir oft til eða að, en hefur líka hlutverk með nafnhátt.\",\"study.explanation[1]\":\"Með fólki og stofnunum þýðir zu oft til eða hjá.\",\"study.explanation[2]\":\"Með lýsingarorðum getur zu þýtt of mikið.\",\"study.explanation[3]\":\"Í uppbyggingu zu + nafnháttur myndar nafnhátt: zu lernen, zu gehen.\"}",
+    "owner_note": "IS zu study.explanation: ET Põhiidee/täre→IS Meginhugsun/til for uz•pie to/at. DE untouched."
+  },
+  "g2/a1/is|Zucker|idx:669|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sykur\"}",
+    "owner_note": "IS Zucker lv: NO Sukker→sykur for cukurs sugar. DE untouched."
+  },
+  "g2/a1/is|zuerst|idx:670|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fyrst\"}",
+    "owner_note": "IS zuerst lv: NO Først av alt→fyrst for vispirms first/at first. DE untouched."
+  },
+  "g2/a1/is|Zug|idx:671|study.explanation|LANGUAGE_MIXING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Meginhugsun: der Zug á A1 stigi þýðir oftast lest.\",\"study.explanation[1]\":\"Notað í daglegum aðstæðum um ferð, komu og brottför.\",\"study.explanation[2]\":\"Í öðrum merkingum getur Zug verið hreyfing, andblástur eða lína, en það eru ekki aðalmerkingarnar á A1.\",\"study.explanation[3]\":\"Mjög algengar setningar eru mit dem Zug fahren og Der Zug kommt.\"}",
+    "owner_note": "IS Zug study.explanation: NO Hovedidé/feil→IS Meginhugsun/lest for vilciens train. DE untouched."
+  },
+  "g2/a1/is|zum|idx:672|lv|TARGET_LANGUAGE_MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til\"}",
+    "owner_note": "IS zum lv: ET -sse/Juurde→til for uz•pie zu+dem contraction (LRB-029). DE untouched."
+  },
+  "g2/a1/is|zurück|idx:674|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til baka\"}",
+    "owner_note": "IS zurück lv: ET Tagasi→til baka for atpakaļ back. DE untouched."
+  }
+}

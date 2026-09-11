@@ -1,0 +1,43 @@
+{
+  "batch_id": "LRB-040",
+  "classification": "G2_A1_OWNER_RESIDUAL_SEMANTIC_SOURCE_LANGUAGE_AUDIT_PASS",
+  "pass": true,
+  "rows_audited": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "residual_wrong_language_violations": 0,
+  "issue_cards": [],
+  "issues": [],
+  "composite_cards_audited": [
+    "Wetter",
+    "Zug",
+    "vom",
+    "vor",
+    "was",
+    "wenn",
+    "wer",
+    "werden",
+    "wie",
+    "wissen",
+    "zu"
+  ],
+  "semantic_micro_repair_cards": [
+    "vom",
+    "vor",
+    "was",
+    "wenn",
+    "wer",
+    "wissen",
+    "werden",
+    "Wetter",
+    "wie",
+    "zu",
+    "Zug"
+  ],
+  "semantic_micro_repair_violations": 0,
+  "semantic_violation_cards": [],
+  "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "verdict": "LRB_040_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-11T17:56:41.633Z"
+}
