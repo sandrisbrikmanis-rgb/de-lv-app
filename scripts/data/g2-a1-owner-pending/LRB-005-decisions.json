@@ -32,14 +32,14 @@
   "g2/a1/fi|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Kerran • Kerran",
-    "owner_note": "FI einmal native micro-repair: ET Üks kord/Kord → FI Kerran/Kerran for vienreiz • reiz. DE untouched."
+    "owner_new": "Kerran • Kerta",
+    "owner_note": "FI einmal native micro-repair: Kerran/Kerran → Kerran/Kerta; kerran=vienreiz, kerta=reize for LV vienreiz • reiz. DE untouched."
   },
   "g2/a1/fi|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Kerran • Kerran",
-    "owner_note": "FI einmal study.translation micro-repair: ET → FI Kerran/Kerran mirrors native repair. DE untouched."
+    "owner_new": "Kerran • Kerta",
+    "owner_note": "FI einmal study.translation micro-repair: Kerran/Kerran → Kerran/Kerta mirrors native; kerran=vienreiz, kerta=reize. DE untouched."
   },
   "g2/a1/fi|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
