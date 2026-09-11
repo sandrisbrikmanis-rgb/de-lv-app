@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Mittwoch|idx:412|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Keskiviikko",
+    "owner_note": "FI Mittwoch lv: ET Kolmapäev → FI Keskiviikko for trešdiena Wednesday. DE untouched."
+  },
+  "g2/a1/fi|mögen|idx:413|lv; study.explanation; study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pitää • Tykätä\",\"study.explanation[0]\":\"Pääajatus: mögen tarkoittaa yleisimmin, että jostakin pidetään.\",\"study.explanation[1]\":\"Ich mag... suomeksi on tavallisesti \\\"pidän...\\\".\",\"study.explanation[2]\":\"Möchte on toinen muoto, jota käytetään kohteliaaseen toiveeseen: haluaisin.\",\"study.explanation[3]\":\"A1-tasolla tärkein fraasi on Ich mag das.\",\"study.important[0]\":\"mögen ei ole pääverbi kohteliaalle \\\"haluaisin\\\". Sitä varten käytetään yleensä möchte.\",\"study.important[1]\":\"Ich mag Kaffee tarkoittaa \\\"pidän kahvista\\\".\"}",
+    "owner_note": "FI mögen: ET Meeldima + ET study → FI Pitää/Tykätä möchte contrast teaching. DE untouched."
+  },
+  "g2/a1/fi|Möhre|idx:414|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Porkkana",
+    "owner_note": "FI Möhre lv: ET Porgand → FI Porkkana for burkāns carrot. DE untouched."
+  },
+  "g2/a1/fi|Monat|idx:415|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuukausi",
+    "owner_note": "FI Monat lv: ET Kuu → FI Kuukausi for mēnesis month. DE untouched."
+  },
+  "g2/a1/fi|Montag|idx:416|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maanantai",
+    "owner_note": "FI Montag lv: ET Esmaspäev → FI Maanantai for pirmdiena Monday. DE untouched."
+  },
+  "g2/a1/fi|morgen|idx:417|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Huomenna\",\"study.explanation[0]\":\"Pääajatus: Aikaadverbi pienellä alkukirjaimella. Tarkoittaa seuraavaa päivää — huomenna.\",\"study.explanation[1]\":\"Morgen tarkoittaa pääasiassa: seuraavana päivänä.\",\"study.explanation[2]\":\"Kuvaa usein: aikaadverbia.\",\"study.explanation[3]\":\"Morgen tarkoittaa pääasiassa: päivän osaa.\",\"study.explanation[4]\":\"Kuvaa usein: substantiivia (der).\",\"study.explanation[5]\":\"Morgen tarkoittaa pääasiassa: useita aamuja.\",\"study.explanation[6]\":\"Kuvaa usein: substantiivia (pl.).\",\"study.explanation[7]\":\"Morgen pienellä alkukirjaimella tarkoittaa huomenna — seuraavana päivänä (Ich komme morgen = tulen huomenna, Bis morgen!).\",\"study.tip[0]\":\"Pieni morgen = huomenna (Ich komme morgen). der Morgen isolla kirjaimella = aamu (Guten Morgen!, am Morgen).\",\"study.tip[1]\":\"morgen = huomenna\",\"study.important[0]\":\"morgen pienellä kirjaimella — se on aikaadverbi (huomenna).\",\"study.important[1]\":\"der Morgen isolla kirjaimella ja artikkelilla der on substantiivi (aamu).\",\"study.important[2]\":\"Guten Morgen! — aina isolla M (aamu, ei huomenna).\",\"study.important[3]\":\"Väärin: Guten morgen! → Oikein: Guten Morgen!\"}",
+    "owner_note": "FI morgen: ET Homme + ET study → FI Huomenna adverb vs der Morgen noun contrast. DE untouched."
+  },
+  "g2/a1/fi|Morgen|idx:418|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Aamu\",\"study.explanation[0]\":\"Pääajatus: Substantiivi artikkelilla der ja isolla alkukirjaimella. Päivän osa — aamu.\",\"study.explanation[1]\":\"Der Morgen tarkoittaa pääasiassa: seuraavana päivänä.\",\"study.explanation[2]\":\"Kuvaa usein: aikaadverbia.\",\"study.explanation[3]\":\"Der Morgen tarkoittaa pääasiassa: päivän osaa.\",\"study.explanation[4]\":\"Kuvaa usein: substantiivia (der).\",\"study.explanation[5]\":\"Der Morgen tarkoittaa pääasiassa: useita aamuja.\",\"study.explanation[6]\":\"Kuvaa usein: substantiivia (pl.).\",\"study.explanation[7]\":\"Morgen pienellä alkukirjaimella tarkoittaa huomenna — seuraavana päivänä (Ich komme morgen = tulen huomenna, Bis morgen!).\",\"study.tip[0]\":\"Pieni morgen = huomenna (Ich komme morgen). der Morgen isolla kirjaimella = aamu (Guten Morgen!, am Morgen).\",\"study.tip[1]\":\"der Morgen = aamu\",\"study.important[0]\":\"morgen pienellä alkukirjaimella — se on aikaadverbi (huomenna).\",\"study.important[1]\":\"der Morgen isolla alkukirjaimella ja artikkelilla der on substantiivi (aamu).\",\"study.important[2]\":\"Guten Morgen! — aina isolla M (aamu, ei huomenna).\",\"study.important[3]\":\"Väärin: Guten morgen! → Oikein: Guten Morgen!\"}",
+    "owner_note": "FI Morgen: ET Hommik + ET study → FI Aamu noun morning vs morgen adverb. DE untouched."
+  },
+  "g2/a1/fi|morgens|idx:419|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aamulla",
+    "owner_note": "FI morgens lv: ET Hommikul → FI Aamulla for no rīta in the morning. DE untouched."
+  },
+  "g2/a1/fi|müde|idx:420|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Väsynyt",
+    "owner_note": "FI müde lv: ET Väsinud → FI Väsynyt for noguris tired. DE untouched."
+  },
+  "g2/a1/fi|Mund|idx:421|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Mund lv: suu is genuine Finnish cognate for mute mouth. DE untouched."
+  },
+  "g2/a1/fi|Musik|idx:422|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Musiikki",
+    "owner_note": "FI Musik lv: ET Muusika → FI Musiikki for mūzika music. DE untouched."
+  },
+  "g2/a1/fi|müssen|idx:423|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Täytyä • Pitää\",\"study.translation\":\"Täytyä • Pitää\",\"study.explanation[0]\":\"Pääajatus: müssen tarkoittaa, että jotain täytyy tehdä.\",\"study.explanation[1]\":\"Suomeksi müssen käännetään usein ilmaisuilla \\\"minun täytyy...\\\", \\\"sinun täytyy...\\\", \\\"meidän täytyy...\\\".\",\"study.explanation[2]\":\"Saksalaisessa lauseessa toinen verbi on yleensä lopussa.\",\"study.explanation[3]\":\"A1-tasolla tärkein muoto on Ich muss...\",\"study.examples[0].lv\":\"Minun täytyy mennä.\",\"study.examples[1].lv\":\"Sinun täytyy odottaa.\",\"study.examples[2].lv\":\"Meidän täytyy opiskella.\",\"study.examples[3].lv\":\"Minun täytyy työskennellä tänään.\",\"study.comparison[0].meaning\":\"Täytyä • Pitää\",\"study.comparison[0].example\":\"Ich muss gehen.\",\"study.comparison[1].meaning\":\"Voida • Osata\",\"study.comparison[1].example\":\"Ich kann kommen.\",\"study.comparison[2].meaning\":\"Haluta\",\"study.comparison[2].example\":\"Ich will nach Hause.\",\"study.comparison[3].meaning\":\"Saada lupa\",\"study.comparison[3].example\":\"Darf ich gehen?\",\"study.tip.text\":\"Muista: Ich muss... = minun täytyy...\",\"study.important[0]\":\"müssen on modaaliverbi.\",\"study.important[1]\":\"Toinen verbi menee yleensä lauseen loppuun: Ich muss heute arbeiten.\"}",
+    "owner_note": "FI müssen: ET Pidama + ET study → FI Täytyä/Pitää modal obligation teaching. DE untouched."
+  },
+  "g2/a1/fi|Mutter|idx:424|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Äiti",
+    "owner_note": "FI Mutter lv: ET Ema → FI Äiti for māte mother. DE untouched."
+  },
+  "g2/a1/fi|Mütze|idx:425|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pipo",
+    "owner_note": "FI Mütze lv: ET Müts → FI Pipo for cepure cap. DE untouched."
+  },
+  "g2/a1/fi|nach|idx:426|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-(i)in • Jälkeen\",\"study.translation\":\"-(i)in • Jälkeen\",\"study.explanation[0]\":\"Pääajatus: nach tarkoittaa paikkojen kohdalla suuntaa johonkin ja ajan tai järjestyksen kohdalla jälkeen.\",\"study.explanation[1]\":\"Ilman artikkelia kaupunkien ja maiden kohdalla nach tarkoittaa usein päätettä -(i)in.\",\"study.explanation[2]\":\"Ajan kohdalla nach tarkoittaa jälkeen.\",\"study.explanation[3]\":\"Fraasissa nach Hause se tarkoittaa kotiin.\",\"study.examples[0].lv\":\"Ajan Berliiniin.\",\"study.examples[1].lv\":\"Menemme kotiin.\",\"study.examples[2].lv\":\"Syömisen jälkeen menemme kävelylle.\",\"study.examples[3].lv\":\"Kello on kymmenen yli kahdeksan.\",\"study.comparison[0].meaning\":\"-(i)in • Jälkeen\",\"study.comparison[0].example\":\"Ich fahre nach Berlin.\",\"study.comparison[1].meaning\":\"-lle • Luo\",\"study.comparison[1].example\":\"Ich gehe zum Arzt.\",\"study.comparison[2].meaning\":\"Sisään • Paikkaan artikkelilla\",\"study.comparison[2].example\":\"Ich gehe in die Schule.\",\"study.comparison[3].meaning\":\"Ennen • Edessä\",\"study.comparison[3].example\":\"Vor dem Essen wasche ich die Hände.\",\"study.tip.text\":\"Muista: nach Hause; nach Berlin; syömisen jälkeen.\",\"study.important[0]\":\"nach ei käytetä kaikissa sijamuodoissa.\",\"study.important[1]\":\"Kouluun menee yleensä in die Schule, ei nach Schule.\"}",
+    "owner_note": "FI nach: ET -sse/Pärast + ET study → FI -(i)in/Jälkeen to vs after uz • pēc. DE untouched."
+  },
+  "g2/a1/fi|Nachmittag|idx:427|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Iltapäivä",
+    "owner_note": "FI Nachmittag lv: ET Pärastlõuna → FI Iltapäivä for pēcpusdiena afternoon. DE untouched."
+  },
+  "g2/a1/fi|nachmittags|idx:428|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Iltapäivisin",
+    "owner_note": "FI nachmittags lv: ET Pärastlõunal → FI Iltapäivisin for pēcpusdienā in the afternoon. DE untouched."
+  },
+  "g2/a1/fi|Nachname|idx:175|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sukunimi",
+    "owner_note": "FI Nachname lv: ET Perekonnanimi → FI Sukunimi for uzvārds surname. DE untouched."
+  },
+  "g2/a1/fi|Nacht|idx:429|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yö",
+    "owner_note": "FI Nacht lv: ET Öö → FI Yö for nakts night. DE untouched."
+  },
+  "g2/a1/fi|Nase|idx:430|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nenä",
+    "owner_note": "FI Nase lv: ET Nina → FI Nenä for deguns nose. DE untouched."
+  },
+  "g2/a1/fi|nass|idx:431|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Märkä",
+    "owner_note": "FI nass lv: ET Märg → FI Märkä for slapjš wet. DE untouched."
+  },
+  "g2/a1/fi|Natur|idx:432|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Luonto",
+    "owner_note": "FI Natur lv: ET Loodus → FI Luonto for daba nature. DE untouched."
+  },
+  "g2/a1/fi|natürlich|idx:433|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tietysti • Luonnollinen\",\"study.translation\":\"Tietysti • Luonnollinen\",\"study.explanation[0]\":\"Pääajatus: natürlich tarkoittaa adverbina tietysti, adjektiivina luonnollista.\",\"study.explanation[1]\":\"Keskustelussa, jotain vahvistaessa, natürlich = tietysti (Kommst du mit? – Natürlich! = Tuletko mukaan? – Tietysti!).\",\"study.explanation[2]\":\"Luonnosta, alkuperästä tai ominaisuuksista puhuttaessa natürlich = luonnollinen (natürliche Schönheit = luonnollinen kauneus).\",\"study.explanation[3]\":\"Konteksti (vastaus/vahvistus tai kuvaus) osoittaa oikean merkityksen.\",\"study.examples[0].lv\":\"Tuletko mukaan? – Tietysti!\",\"study.examples[1].lv\":\"Se on luonnollinen reaktio.\",\"study.examples[2].lv\":\"Tietysti autan sinua.\",\"study.examples[3].lv\":\"Hänellä on luonnostaan punaiset hiukset.\",\"study.examples[4].lv\":\"Tietysti voin tehdä sen.\",\"study.examples[5].lv\":\"Se on täysin luonnollista/normaalia.\",\"study.tip[0]\":\"Erillisenä sanana, vahvistettaessa tai vastattaessa → tietysti.\",\"study.tip[1]\":\"Substantiivin rinnalla, kuvatessa alkuperää tai ominaisuutta → luonnollinen.\",\"study.important[0]\":\"natürlich = tietysti (adverbi, vahvistus) TAI luonnollinen (adjektiivi).\",\"study.important[1]\":\"Natürlich! erillisenä huudahduksena aina = tietysti!\"}",
+    "owner_note": "FI natürlich: ET Muidugi/Loomulik + ET study → FI Tietysti/Luonnollinen of-course vs natural. DE untouched."
+  },
+  "g2/a1/fi|neben|idx:434|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vieressä",
+    "owner_note": "FI neben lv: ET Kõrval → FI Vieressä for blakus next to. DE untouched."
+  },
+  "g2/a1/fi|nehmen|idx:435|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ottaa • Poimia\",\"study.translation\":\"Ottaa • Poimia\",\"study.explanation[0]\":\"Pääajatus: nehmen tarkoittaa ottaa tai poimia.\",\"study.explanation[1]\":\"Nehmen käytetään, kun otat jotain itsellesi tai valitset.\",\"study.explanation[2]\":\"Se ei ole sama kuin bringen, koska bringen tarkoittaa tuoda tai viedä jollekin.\",\"study.explanation[3]\":\"Holen tarkoittaa hakea ja tuoda/ottaa.\",\"study.examples[0].lv\":\"Matkustan bussilla.\",\"study.examples[1].lv\":\"Ota kirja!\",\"study.examples[2].lv\":\"Tuon sinulle kirjan.\",\"study.examples[3].lv\":\"Tulen hakemaan sinut.\",\"study.comparison[0].meaning\":\"Ottaa • Poimia\",\"study.comparison[0].example\":\"Nimm das Buch!\",\"study.comparison[1].meaning\":\"Tuoda • Viedä • Toimittaa\",\"study.comparison[1].example\":\"Ich bringe dir das Buch.\",\"study.comparison[2].meaning\":\"Hakea • Tuoda\",\"study.comparison[2].example\":\"Ich hole Wasser.\",\"study.comparison[3].meaning\":\"Ottaa mukaan\",\"study.comparison[3].example\":\"Ich nehme dich mit.\",\"study.tip.text\":\"Muista: ottaa itselleen → nehmen; tuoda jollekin → bringen.\",\"study.important[0]\":\"Ich nehme den Bus suomeksi tarkoittaa \\\"matkustan bussilla\\\".\",\"study.important[1]\":\"nehmen ei ole sama kuin bringen.\"}",
+    "owner_note": "FI nehmen: ET Võtma/Kätte võtma + ET study → FI Ottaa/Poimia take vs bring contrast. DE untouched."
+  },
+  "g2/a1/fi|nein|idx:436|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI nein lv: ei is genuine Finnish for nē no. DE untouched."
+  },
+  "g2/a1/fi|nennen|idx:437|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nimittää",
+    "owner_note": "FI nennen lv: ET Nimetama → FI Nimittää for nosaukt to name. DE untouched."
+  },
+  "g2/a1/fi|nett|idx:438|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ystävällinen",
+    "owner_note": "FI nett lv: ET Kena → FI Ystävällinen for jauks nice. DE untouched."
+  },
+  "g2/a1/fi|neu|idx:439|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Uusi\",\"study.translation\":\"Uusi\",\"study.explanation[0]\":\"Pääajatus: neu tarkoittaa uusi asian merkityksessä — äskettäin luotu, hankittu tai ensimmäistä kertaa käytetty.\",\"study.explanation[1]\":\"Neu kuvaa asioita, laitteita, vaatteita, taloa, ideoita jne. — ei ihmisen tai eläimen ikää.\",\"study.explanation[2]\":\"Suomessa nämä kaksi merkitystä ovat eri sanoilla: nuori iän suhteen (jung) ja uusi/hiljattain valmistunut asian suhteen (neu).\",\"study.explanation[3]\":\"Ihmisen tai eläimen iästä käytetään jung, ei neu.\",\"study.explanation[4]\":\"Neu käytetään myös siirretyssä merkityksessä: uusi työ, uusi tieto, uusi alku.\",\"study.explanation[5]\":\"Vastakohta on alt (vanha) • Substantiivi das Neue tarkoittaa jotain uutta.\",\"study.examples[0].lv\":\"Puhelimeni on uusi.\",\"study.examples[1].lv\":\"Meillä on uusi auto.\",\"study.examples[2].lv\":\"Tämä on uusi asuntoni.\",\"study.examples[3].lv\":\"Ostin uudet kengät.\",\"study.examples[4].lv\":\"Tämä on uusi idea.\",\"study.examples[5].lv\":\"Hänellä on uusi työ.\",\"study.examples[6].lv\":\"Mitä uutta?\",\"study.tip[0]\":\"neu on asioista, laitteista ja uutuuksista — jos puhutaan ihmisen iästä, käytetään jung.\",\"study.tip[1]\":\"Vastakohta: neu ↔ alt (uusi ↔ vanha).\",\"study.important[0]\":\"neu kuvaa asioita ja uutuuksia, ei ihmisen tai eläimen ikää.\",\"study.important[1]\":\"Ihmisen tai eläimen iästä käytetään jung, ei neu.\",\"study.important[2]\":\"Väärin: Meine Schwester ist neu. → Oikein: Meine Schwester ist jung.\"}",
+    "owner_note": "FI neu: ET Uus + ET study → FI Uusi jung vs neu age contrast teaching. DE untouched."
+  },
+  "g2/a1/fi|neun|idx:440|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksän",
+    "owner_note": "FI neun lv: ET Üheksa → FI Yhdeksän for deviņi nine. DE untouched."
+  },
+  "g2/a1/fi|neunhundert|idx:441|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksänsataa",
+    "owner_note": "FI neunhundert lv: ET Üheksasada → FI Yhdeksänsataa for deviņsimt nine hundred. DE untouched."
+  },
+  "g2/a1/fi|neunte|idx:442|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksäs",
+    "owner_note": "FI neunte lv: ET Üheksas → FI Yhdeksäs for devītais ninth. DE untouched."
+  },
+  "g2/a1/fi|neunzehn|idx:443|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksästoista",
+    "owner_note": "FI neunzehn lv: ET Üheksateist → FI Yhdeksästoista for deviņpadsmit nineteen. DE untouched."
+  },
+  "g2/a1/fi|neunzehnte|idx:444|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksästoista",
+    "owner_note": "FI neunzehnte lv: ET Üheksateistkümnes → FI Yhdeksästoista for deviņpadsmitais nineteenth. DE untouched."
+  },
+  "g2/a1/fi|neunzig|idx:445|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksänkymmentä",
+    "owner_note": "FI neunzig lv: ET Üheksakümmend → FI Yhdeksänkymmentä for deviņdesmit ninety. DE untouched."
+  },
+  "g2/a1/fi|neunzigste|idx:446|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksäskymmenes",
+    "owner_note": "FI neunzigste lv: ET Üheksakümnes → FI Yhdeksäskymmenes for deviņdesmitais ninetieth. DE untouched."
+  },
+  "g2/a1/fi|nicht|idx:447|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI nicht lv: ei is genuine Finnish negation for ne not. DE untouched."
+  },
+  "g2/a1/fi|nichts|idx:448|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ei mitään",
+    "owner_note": "FI nichts lv: ET Mitte midagi → FI Ei mitään for nekas nothing. DE untouched."
+  },
+  "g2/a1/fi|nie|idx:449|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ei koskaan",
+    "owner_note": "FI nie lv: ET Mitte kunagi → FI Ei koskaan for nekad never. DE untouched."
+  },
+  "g2/a1/fi|niemand|idx:450|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ei kukaan",
+    "owner_note": "FI niemand lv: ET Mitte keegi → FI Ei kukaan for neviens nobody. DE untouched."
+  },
+  "g2/a1/fi|noch mal|idx:701|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Uudestaan • Uudelleen\",\"study.translation\":\"Uudestaan • Uudelleen\",\"study.explanation[0]\":\"Pääajatus: Tarkoittaa uudestaan — toistaa toimintoa tai pyytää toistoa.\",\"study.examples[0].lv\":\"Uudestaan, kiitos.\",\"study.examples[1].lv\":\"Uudestaan, kiitos.\",\"study.examples[2].lv\":\"Sano se uudestaan.\",\"study.tip[0]\":\"Käytä noch mal, kun konteksti vastaa tätä merkitystä.\",\"study.tip[1]\":\"Käytä noch mal, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"Tarkoittaa uudelleen — toiminnon toistaminen tai toiston pyytäminen.\",\"study.important[1]\":\"noch mal: tarkista konteksti ennen käyttöä.\"}",
+    "owner_note": "FI noch mal: ET Veel kord + ET study → FI Uudestaan/Uudelleen again repeat. DE untouched."
+  },
+  "g2/a1/fi|noch|idx:451|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vielä\",\"study.explanation[0]\":\"Pääajatus: Jokin jatkuu edelleen tai ei ole vielä päättynyt.\",\"study.explanation[1]\":\"Noch tarkoittaa pääasiassa: jokin vielä jatkuu.\",\"study.explanation[2]\":\"Kuvaa usein: jatkumista tai keskeneräistä tilaa.\",\"study.explanation[3]\":\"Noch tarkoittaa vielä: jokin vielä jatkuu tai ei ole vielä päättynyt.\",\"study.tip[0]\":\"Jokin jatkuu edelleen tai ei ole vielä ohi.\",\"study.tip[1]\":\"Käytä noch, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"noch = vielä.\",\"study.important[1]\":\"Jokin jatkuu edelleen tai ei ole vielä ohi.\"}",
+    "owner_note": "FI noch: ET Veel + ET study → FI Vielä still/yet continuation sense. DE untouched."
+  },
+  "g2/a1/fi|normal|idx:452|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Normaali",
+    "owner_note": "FI normal lv: ET Normaalne → FI Normaali for normāls normal. DE untouched."
+  },
+  "g2/a1/fi|November|idx:453|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Marraskuu",
+    "owner_note": "FI November lv: ET November → FI Marraskuu for novembris November. DE untouched."
+  },
+  "g2/a1/fi|Null|idx:454|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nolla",
+    "owner_note": "FI Null lv: ET Null → FI Nolla for nulle zero. DE untouched."
+  },
+  "g2/a1/fi|Nummer|idx:455|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Numero",
+    "owner_note": "FI Nummer lv: ET Number → FI Numero for numurs number. DE untouched."
+  },
+  "g2/a1/fi|nur|idx:456|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vain • Ainoastaan\",\"study.explanation[0]\":\"Pääajatus: Rajoittaa määrää, ihmisten lukumäärää, valintaa tai mahdollisuuksia.\",\"study.explanation[1]\":\"Nur tarkoittaa pääasiassa: rajattu määrä tai valinta.\",\"study.explanation[2]\":\"Kuvaa usein: kuinka paljon, mitä tarkalleen tai kuka ainoa.\",\"study.explanation[3]\":\"Nur tarkoittaa vain, ainoastaan, ei enempää: se rajoittaa määrää tai valintaa.\",\"study.tip[0]\":\"Rajoittaa määrää, ihmisten lukumäärää, valintaa tai mahdollisuuksia.\",\"study.tip[1]\":\"Käytä nur, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"Latvian \\\"tikai\\\" ei aina ole nur saksaksi.\",\"study.important[1]\":\"nur = vain / ainoastaan.\"}",
+    "owner_note": "FI nur: ET Ainult/Üksnes + ET study → FI Vain/Ainoastaan only restriction. DE untouched."
+  },
+  "g2/a1/fi|ob|idx:457|lv; study.explanation; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kas\",\"study.explanation[0]\":\"Pääajatus: ob johdattaa epäsuoran kysymyksen ja tarkoittaa suomeksi yleisimmin kas.\",\"study.explanation[1]\":\"Ob käytetään sanojen kuten fragen, wissen, sehen, sagen jälkeen, kun kyse ei ole suorasta kysymyksestä.\",\"study.explanation[2]\":\"Suorassa kysymyksessä ob:ta ei saksaksi yleensä käytetä.\",\"study.explanation[3]\":\"A1-tasolla on tärkeää erottaa ob ja oder.\",\"study.important[0]\":\"ob ei ole tavallinen valintamuoto \\\"vai\\\" kahden asian välillä.\",\"study.important[1]\":\"Kaffee oder Tee? käytetään oder, ei ob.\"}",
+    "owner_note": "FI ob: lv Kas keep + ET study → FI indirect question ob vs oder contrast. DE untouched."
+  },
+  "g2/a1/fi|oben|idx:458|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ylhäällä",
+    "owner_note": "FI oben lv: ET Üleval → FI Ylhäällä for augšā above/up. DE untouched."
+  },
+  "g2/a1/fi|oder|idx:459|lv; study.explanation; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vai • Tai\",\"study.explanation[0]\":\"Pääajatus: oder käytetään, kun valitaan kahden tai useamman vaihtoehdon välillä.\",\"study.explanation[1]\":\"Suomeksi oder tarkoittaa yleisimmin vai.\",\"study.explanation[2]\":\"Se ei ole sama kuin ob, joka johdattaa epäsuoran kysymyksen.\",\"study.explanation[3]\":\"Keskusteluissa oder voi olla myös lauseen lopussa: Du kommst, oder?\",\"study.important[0]\":\"oder käytetään valintaan: Kaffee oder Tee.\",\"study.important[1]\":\"Epäsuorassa kysymyksessä \\\"vai\\\" on yleensä ob.\"}",
+    "owner_note": "FI oder: ET Või/Ehk + ET study → FI Vai/Tai choice or ob vs oder contrast. DE untouched."
+  }
+}
