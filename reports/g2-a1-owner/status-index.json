@@ -66,7 +66,7 @@
     "batchesTotal": 103,
     "batchesReviewed": 11,
     "batchesAntiBulkPass": 11,
-    "batchesSpotCheckPass": 10,
+    "batchesSpotCheckPass": 9,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -157,27 +157,17 @@
         "antiBulkPass": true,
         "headSha": "bf11b9e306ffa3f7fa51596375383c245de9af0b",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-009-decisions.csv"
-      },
-      "LRB-010": {
-        "verdict": "LRB_010_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-        "status": "LINGUISTICALLY_CLOSED",
-        "labot": 49,
-        "nelabot": 1,
-        "pending": 0,
-        "antiBulkPass": true,
-        "headSha": "a76a36256fa728c82203933fe6648b671efcf994",
-        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-010-decisions.csv"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-011",
+      "batch_id": "LRB-010",
       "labot": 49,
       "nelabot": 1,
       "pending": 0,
       "antiBulkPass": true,
-      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-011-decisions.csv",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-011-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-011-anti-bulk-proof.json"
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-010-decisions.csv",
+      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-010-proof.json",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-010-anti-bulk-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
