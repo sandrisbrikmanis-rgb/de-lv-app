@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|zusammen|idx:675|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"saman\"}",
+    "owner_note": "IS zusammen lv: ET Coos→saman for kopā together. DE untouched."
+  },
+  "g2/a1/is|zwanzig|idx:677|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tuttugu\"}",
+    "owner_note": "IS zwanzig lv: NO Tyve→tuttugu for divdesmit twenty. DE untouched."
+  },
+  "g2/a1/is|zwanzigste|idx:678|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tuttugasti\"}",
+    "owner_note": "IS zwanzigste lv: ET Kahegümce→tuttugasti for divdesmitais twentieth. DE untouched."
+  },
+  "g2/a1/is|zwei|idx:679|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tveir\"}",
+    "owner_note": "IS zwei lv: ET Kaks→tveir for divi two. DE untouched."
+  },
+  "g2/a1/is|zweihundert|idx:680|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tveir hundruð\"}",
+    "owner_note": "IS zweihundert lv: ET Kaksada→tveir hundruð for divsimt two hundred. DE untouched."
+  },
+  "g2/a1/is|zweimal|idx:681|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tvisvar\"}",
+    "owner_note": "IS zweimal lv: ET Kak korda→tvisvar for divreiz twice. DE untouched."
+  },
+  "g2/a1/is|zweite|idx:682|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"annar\"}",
+    "owner_note": "IS zweite lv: ET Teine→annar for otrais second. DE untouched."
+  },
+  "g2/a1/is|Zwiebel|idx:683|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"laukur\"}",
+    "owner_note": "IS Zwiebel lv: ET Sibul→laukur for sīpols onion. DE untouched."
+  },
+  "g2/a1/is|zwischen|idx:684|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"á milli\"}",
+    "owner_note": "IS zwischen lv: ET Vahel→á milli for starp between. DE untouched."
+  },
+  "g2/a1/is|zwölf|idx:685|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tólf\"}",
+    "owner_note": "IS zwölf lv: ET Kaksteist→tólf for divpadsmit twelve. DE untouched."
+  },
+  "g2/a1/is|zwölfte|idx:686|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tólfti\"}",
+    "owner_note": "IS zwölfte lv: ET Kahetíšík sin→tólfti for divpadsmitais twelfth. DE untouched."
+  },
+  "g2/a1/it|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"Da qualcuno/qualcosa • Origine\"}",
+    "owner_note": "IT ab cmp[1] von: LV No kāda→Da qualcuno/qualcosa • Origine for von origin gloss. DE untouched."
+  },
+  "g2/a1/it|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"Contrasto • Obiezione • Però\"}",
+    "owner_note": "IT aber cmp[0]: LV Pretstats→Contrasto • Obiezione • Però for aber contrast gloss. DE untouched."
+  },
+  "g2/a1/it|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"A • Su • Sul bordo\"}",
+    "owner_note": "IT an native: mixed Dal/Al→A • Su • Sul bordo for an at-edge preposition. DE untouched."
+  },
+  "g2/a1/it|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Sopra • In superficie • Sul bordo\"}",
+    "owner_note": "IT an translation: confirm Sopra • In superficie • Sul bordo for an surface/edge. DE untouched."
+  },
+  "g2/a1/it|a1-aufs|a1.card.a1-aufs.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Su • Sopra • Dove?\"}",
+    "owner_note": "IT aufs native: LV Uz • Virsū • Kurp?→Su • Sopra • Dove? for auf das whither. DE untouched."
+  },
+  "g2/a1/it|a1-aufs|a1.card.a1-aufs.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Su • Sopra • Dove?\"}",
+    "owner_note": "IT aufs translation: LV Uz • Virsū • Kurp?→Su • Sopra • Dove? for auf das direction. DE untouched."
+  },
+  "g2/a1/it|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Da • Fuori\"}",
+    "owner_note": "IT aus native: LV No • Ārā→Da • Fuori for aus from-within. DE untouched."
+  },
+  "g2/a1/it|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Da • Fuori\"}",
+    "owner_note": "IT aus translation: LV No • Ārā→Da • Fuori for aus origin/out. DE untouched."
+  },
+  "g2/a1/it|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"visita • ospite • visita\"}",
+    "owner_note": "IT besuch cmp[0]: LV apciemojums leak→visita • ospite • visita for Besuch noun senses. DE untouched."
+  },
+  "g2/a1/it|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Portare • Consegnare\"}",
+    "owner_note": "IT bringen native: LV Atnest • Aiznest→Portare • Consegnare for bringen bring/deliver. DE untouched."
+  },
+  "g2/a1/it|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Portare • Consegnare\"}",
+    "owner_note": "IT bringen translation: LV Atnest • Aiznest→Portare • Consegnare for bringen bring/deliver. DE untouched."
+  },
+  "g2/a1/it|a1-da|a1.card.a1-da.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"Lì • Qui • Eccoci\"}",
+    "owner_note": "IT da cmp[0]: LV Tur • Te • Šeit→Lì • Qui • Eccoci for da there/here. DE untouched."
+  },
+  "g2/a1/it|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[2].meaning\":\"Quale • Quale • Quale\"}",
+    "owner_note": "IT das cmp[2] welches: LV Kurš • Kura • Kuru→Quale • Quale • Quale for welches relative. DE untouched."
+  },
+  "g2/a1/it|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"Perché • Poiché\"}",
+    "owner_note": "IT dass cmp[1] weil: LV Jo • Tāpēc ka→Perché • Poiché for weil because. DE untouched."
+  },
+  "g2/a1/it|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Articolo indefinito • Uno • Qualcuno\"}",
+    "owner_note": "IT ein native: dedupe Qualcuno→Articolo indefinito • Uno • Qualcuno for ein article. DE untouched."
+  },
+  "g2/a1/it|a1-ein|a1.card.a1-ein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Articolo indefinito • Uno • Qualcuno\"}",
+    "owner_note": "IT ein translation: dedupe Qualcuno→Articolo indefinito • Uno • Qualcuno for ein article. DE untouched."
+  },
+  "g2/a1/it|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Una volta • Una volta\"}",
+    "owner_note": "IT einmal native: LV Vienna • Reiz→Una volta • Una volta for einmal once. DE untouched."
+  },
+  "g2/a1/it|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Una volta • Una volta\"}",
+    "owner_note": "IT einmal translation: LV Vienna • Reiz→Una volta • Una volta for einmal once. DE untouched."
+  },
+  "g2/a1/it|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ghiaccio • Gelato\"}",
+    "owner_note": "IT eis native: LV Ledus • Saldéjums→Ghiaccio • Gelato for Eis ice/ice-cream. DE untouched."
+  },
+  "g2/a1/it|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Ghiaccio • Gelato\"}",
+    "owner_note": "IT eis translation: LV Ledus • Saldéjums→Ghiaccio • Gelato for Eis ice/ice-cream. DE untouched."
+  },
+  "g2/a1/it|a1-erst|a1.card.a1-erst.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Prima • Solo\"}",
+    "owner_note": "IT erst native: garbage Spirmi di pesce→Prima • Solo for erst first/only. DE untouched."
+  },
+  "g2/a1/it|a1-erst|a1.card.a1-erst.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"Prima • Solo\"}",
+    "owner_note": "IT erst cmp[0]: garbage Spirmi di pesce→Prima • Solo for erst first/only. DE untouched."
+  },
+  "g2/a1/it|a1-erst|a1.card.a1-erst.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Prima • Solo\"}",
+    "owner_note": "IT erst translation: garbage Spirmi di pesce→Prima • Solo for erst first/only. DE untouched."
+  },
+  "g2/a1/it|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Esso • Esso • Forma impersonale\"}",
+    "owner_note": "IT es native: LV Borsa • Tā→Esso • Esso • Forma impersonale for es pronoun. DE untouched."
+  },
+  "g2/a1/it|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"esso • forma impersonale\"}",
+    "owner_note": "IT es cmp[0]: confirm esso • forma impersonale for es impersonal. DE untouched."
+  },
+  "g2/a1/it|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Esso • Esso • Forma impersonale\"}",
+    "owner_note": "IT es translation: LV Borsa • Tā→Esso • Esso • Forma impersonale for es pronoun. DE untouched."
+  },
+  "g2/a1/it|a1-essen-study|a1.card.a1-essen-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Cibo • Pasto\"}",
+    "owner_note": "IT essen-study native: garbage ˈhis • Maltīte→Cibo • Pasto for das Essen food/meal. DE untouched."
+  },
+  "g2/a1/it|a1-essen-study|a1.card.a1-essen-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Cibo • Pasto\"}",
+    "owner_note": "IT essen-study translation: garbage ˈhis • Maltīte→Cibo • Pasto for das Essen food/meal. DE untouched."
+  },
+  "g2/a1/it|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Qualcosa • Un po'\"}",
+    "owner_note": "IT etwas native: garbage Serra Kaut→Qualcosa • Un po' for etwas something/a little. DE untouched."
+  },
+  "g2/a1/it|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Qualcosa • Un po'\"}",
+    "owner_note": "IT etwas translation: garbage Serra Kaut→Qualcosa • Un po' for etwas something/a little. DE untouched."
+  },
+  "g2/a1/it|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Voi • A voi\"}",
+    "owner_note": "IT euch native: garbage Succo • Jums→Voi • A voi for euch you-plural. DE untouched."
+  },
+  "g2/a1/it|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Voi • A voi\"}",
+    "owner_note": "IT euch translation: garbage Succo • Jums→Voi • A voi for euch you-plural. DE untouched."
+  },
+  "g2/a1/it|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Guidare • Portare • Trasportare\"}",
+    "owner_note": "IT fahren native: LV Braukt • Gilet→Guidare • Portare • Trasportare for fahren drive/take. DE untouched."
+  },
+  "g2/a1/it|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Guidare • Portare • Trasportare\"}",
+    "owner_note": "IT fahren translation: LV Braukt • Gilet→Guidare • Portare • Trasportare for fahren drive/take. DE untouched."
+  },
+  "g2/a1/it|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Trovare • Ritieni\"}",
+    "owner_note": "IT finden native: confirm Trovare • Ritieni for finden find/consider. DE untouched."
+  },
+  "g2/a1/it|a1-finden|a1.card.a1-finden.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Trovare • Ritieni\"}",
+    "owner_note": "IT finden translation: confirm Trovare • Ritieni for finden find/consider. DE untouched."
+  },
+  "g2/a1/it|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Donna • Moglie\"}",
+    "owner_note": "IT frau native: LV Sieva • Sieva→Donna • Moglie for Frau woman/wife. DE untouched."
+  },
+  "g2/a1/it|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Donna • Moglie\"}",
+    "owner_note": "IT frau translation: LV Sieva • Sieva→Donna • Moglie for Frau woman/wife. DE untouched."
+  },
+  "g2/a1/it|a1-gleich|a1.card.a1-gleich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Subito • Uguale\"}",
+    "owner_note": "IT gleich native: LV Tūlīt • Vienāds→Subito • Uguale for gleich immediately/equal. DE untouched."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "batch_id": "LRB-041",
+  "classification": "LRB_041_RESIDUAL_PASS",
+  "row_count": 50,
+  "is_cards": 11,
+  "it_cards": 39,
+  "individual_linguistic": 50,
+  "failures": [],
+  "verdict": "LRB_041_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+}
