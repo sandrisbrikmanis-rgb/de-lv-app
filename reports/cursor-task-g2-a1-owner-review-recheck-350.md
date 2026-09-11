@@ -9,7 +9,11 @@ OWNER_AUTHORIZATION_STATUS = PENDING
 
 Repair the **invalid** `g2-a1-owner-recheck-350-decisions.csv` artifact by performing a genuine individual linguistic review of exactly **350** rows, split into **7** batches of **50** rows (`LRB-R350-001` … `LRB-R350-007`).
 
+Follow `reports/g2-a1-three-tier-architecture.md` (Luna → anti-bulk → spot-check → OWNER APPROVED → Cursor merge).
+
 This task is **review only**. It must not modify production, LV, DE, Crowdin, Luna, or any trusted prior ingest decisions. It must not ingest results until `cursor-task-g2-a1-owner-anti-bulk-audit.md` passes on every batch and on the merged R350 slice.
+
+Do not start until `OWNER_AUTHORIZATION_STATUS = APPROVED` for the target batch in `reports/g2-a1-owner/status-index.json`.
 
 If this instruction conflicts with `docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md`, STOP and report the exact conflict.
 

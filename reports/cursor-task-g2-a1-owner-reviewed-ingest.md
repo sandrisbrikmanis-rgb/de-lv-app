@@ -3,12 +3,20 @@
 ## OWNER authorization
 
 ```text
-G2_A1_OWNER_REVIEWED_DECISIONS_INGEST_APPROVED
+OWNER_AUTHORIZATION = REQUIRED
+OWNER_AUTHORIZATION_STATUS = PENDING
+INGEST_AUTHORIZATION = false
 ```
 
-Ingest consolidated individually reviewed OWNER decisions **only after** anti-bulk audit PASS on every batch and on the consolidated merge candidate.
+**Structural gates 1–3** must pass before ingest — see `reports/g2-a1-three-tier-architecture.md`.
 
-This task is **ingest only**. It must not apply LABOT values to production language files.
+Ingest consolidated individually reviewed OWNER decisions **only after**:
+
+- anti-bulk audit PASS on every batch and consolidated merge;
+- manifest-before-output verified for all batches;
+- human OWNER sets `ingestApproved = true` in `reports/g2-a1-owner/status-index.json`.
+
+This task is **ingest only**. It must not apply LABOT values to production language files (apply is structural gate 4 — separate phase).
 
 If this instruction conflicts with `docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md`, STOP and report the exact conflict.
 

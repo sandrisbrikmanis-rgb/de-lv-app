@@ -6,7 +6,9 @@
 G2_A1_OWNER_ANTI_BULK_AUDIT_GATE_ENABLED
 ```
 
-Run the anti-bulk audit on **one reviewed batch** or on a **consolidated merge candidate** before any ingest or OWNER approval claim.
+**Structural gate 1 of 4** — see `reports/g2-a1-three-tier-architecture.md`.
+
+Run the anti-bulk audit on **one reviewed batch** or on a **consolidated merge candidate** before any Cursor merge, ingest, or OWNER approval claim. This gate sits **between Luna translation output and Cursor integration** — it is mandatory and cannot be replaced by ChatGPT spot-check alone.
 
 This gate exists because technical CSV integrity (SHA, row count, identity columns) does not detect fake OWNER review. The `recheck-350` incident must never repeat.
 

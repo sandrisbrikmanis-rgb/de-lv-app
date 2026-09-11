@@ -2,6 +2,20 @@
 
 **Classification:** `G2_A1_OWNER_REVIEW_REPAIR_SEQUENCE_ACTIVE`
 **Governing docs:** `docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md`
+**Architecture:** `reports/g2-a1-three-tier-architecture.md`
+
+## Three-tier architecture + four mandatory gates
+
+All work follows `reports/g2-a1-three-tier-architecture.md`:
+
+| # | Gate | Rule |
+|---|------|------|
+| 1 | **anti-bulk** | Deterministic script between Luna output and Cursor merge; FAIL closed |
+| 2 | **manifest before output** | `LRB-###-start.json` from input SHA before any decisions CSV |
+| 3 | **OWNER authorization** | Separate status in `status-index.json`; only human sets `APPROVED` |
+| 4 | **apply last** | COPY-ONLY apply only after ingest + OWNER closure + explicit apply authorization |
+
+Role split: **Luna** = translation only · **Cursor/Grok** = scripts/integration only · **ChatGPT** = batch spot-check only · **OWNER** = authorization only.
 
 ## Why this sequence exists
 
@@ -10,7 +24,7 @@ Technical ingest gates (SHA, row coverage, identity) can pass while OWNER artifa
 This sequence replaces “one large AI session closes N rows” with:
 
 ```text
-manifest (start) → split → individual batch review → anti-bulk audit → merge → ingest → final COPY-ONLY apply
+split → manifest (before output) → Luna review (≤50) → anti-bulk → spot-check → OWNER APPROVED → merge → ingest → OWNER apply APPROVED → COPY-ONLY apply
 ```
 
 ## Current verified baseline (PR #721 family)
@@ -102,13 +116,17 @@ Do **not** run Phase E until Phase D reports `PENDING = 0` for linguistic escala
 ## Per-batch workflow (repeat for every `LRB-###`)
 
 ```text
-1. OWNER or tooling creates manifests/LRB-###-start.json from committed pending input SHA
-2. split script writes batches-pending/LRB-###-input.csv (≤50 rows)
-3. One Cursor task reviews exactly that batch → batches-reviewed/LRB-###-decisions.csv
-4. anti-bulk audit on the batch → FAIL closed on bulk patterns
-5. merge script appends to consolidated working set
-6. Continue until all batches complete
+1. Cursor (script): split → batches-pending/LRB-###-input.csv (≤50 rows)
+2. Cursor (script): manifest → manifests/LRB-###-start.json (input SHA + IDs, before review)
+3. Luna (translation only): batches-reviewed/LRB-###-decisions.csv
+4. anti-bulk script on batch → FAIL closed on bulk patterns
+5. ChatGPT spot-check: 15–20 random rows → BATCH_SPOT_CHECK_PASS / FAIL
+6. OWNER (human): set owner_authorization_status = APPROVED in status-index.json
+7. Cursor (script): merge batch into consolidated working set; commit
+8. Continue until all batches complete
 ```
+
+Steps 7–8 (ingest, apply) run only after consolidated anti-bulk PASS and separate OWNER authorization per `cursor-task-g2-a1-owner-reviewed-ingest.md` and `cursor-task-g2-a1-owner-final-copy-only-apply.md`.
 
 ## Status index (required fields)
 
@@ -125,7 +143,14 @@ Do **not** run Phase E until Phase D reports `PENDING = 0` for linguistic escala
   "batches_reviewed": 0,
   "batches_anti_bulk_pass": 0,
   "consolidated_ingest_status": "NOT_STARTED",
-  "production_labot_apply_status": "NOT_STARTED"
+  "production_labot_apply_status": "NOT_STARTED",
+  "owner_authorization": {
+    "required": true,
+    "status": "PENDING",
+    "approved_batches": [],
+    "ingest_approved": false,
+    "apply_approved": false
+  }
 }
 ```
 
@@ -133,6 +158,7 @@ Update this file at the end of every phase. Never claim `OWNER_READY` unless ant
 
 ## Task documents in this repair pack
 
+0. `reports/g2-a1-three-tier-architecture.md`
 1. `reports/cursor-task-g2-a1-owner-review-recheck-350.md`
 2. `reports/cursor-task-g2-a1-owner-review-pending-5125.md`
 3. `reports/cursor-task-g2-a1-owner-anti-bulk-audit.md`

@@ -3,10 +3,20 @@
 ## OWNER authorization
 
 ```text
-G2_A1_OWNER_LABOT_FINAL_COPY_ONLY_APPLY_APPROVED
+OWNER_AUTHORIZATION = REQUIRED
+OWNER_AUTHORIZATION_STATUS = PENDING
+APPLY_AUTHORIZATION = false
 ```
 
-Apply all approved `LABOT` target-language corrections to production `a1.js` files in **one consolidated COPY-ONLY operation**, after individual OWNER review ingest is complete and `PENDING` linguistic escalations are closed (deferred 29-entry backlog excluded).
+**Structural gate 4 of 4** — see `reports/g2-a1-three-tier-architecture.md`.
+
+Apply all approved `LABOT` target-language corrections to production `a1.js` files in **one consolidated COPY-ONLY operation**, after:
+
+- individual OWNER review ingest is complete;
+- `PENDING` linguistic escalations are closed (deferred 29-entry backlog excluded);
+- human OWNER sets `applyApproved = true` in `reports/g2-a1-owner/status-index.json`.
+
+Apply is the **last** phase. No automatic apply after translation or ingest.
 
 If this instruction conflicts with `docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md`, STOP and report the exact conflict.
 

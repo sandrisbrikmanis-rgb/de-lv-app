@@ -3,18 +3,21 @@
 ## OWNER authorization
 
 ```text
-G2_A1_OWNER_PENDING_5125_BATCHED_INDIVIDUAL_REVIEW_APPROVED
+OWNER_AUTHORIZATION = REQUIRED
+OWNER_AUTHORIZATION_STATUS = PENDING
 ```
 
-Perform genuine individual OWNER review of the **5,125** remaining `PENDING` linguistic escalations using the **Agent + Script** hybrid method:
+Perform genuine individual OWNER review of the **5,125** remaining `PENDING` linguistic escalations using the **three-tier architecture** (`reports/g2-a1-three-tier-architecture.md`):
 
-- scripts split/merge/verify;
-- AI reviews **one batch only** per session (max **50** rows);
-- anti-bulk audit is mandatory before merge/ingest.
+- **Luna** — translation only, one batch per session (max **50** rows);
+- **anti-bulk script** — mandatory gate between Luna output and Cursor merge;
+- **ChatGPT** — spot-check 15–20 rows per batch (supplement, not replacement for anti-bulk);
+- **Cursor/Grok** — split, merge, verify only (no linguistic decisions);
+- **OWNER (human)** — sets `owner_authorization_status = APPROVED` in `status-index.json` per batch.
 
 This task must not modify production, LV, DE, Crowdin, or Luna state. It must not apply LABOT corrections.
 
-Read `reports/g2-a1-owner-review-repair-master-sequence.md` first. If this instruction conflicts with `docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md`, STOP and report the exact conflict.
+Read `reports/g2-a1-three-tier-architecture.md` and `reports/g2-a1-owner-review-repair-master-sequence.md` first. If this instruction conflicts with `docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md`, STOP and report the exact conflict.
 
 ---
 
