@@ -1,0 +1,32 @@
+{
+  "batch_id": "LRB-036",
+  "classification": "G2_A1_OWNER_RESIDUAL_SEMANTIC_SOURCE_LANGUAGE_AUDIT_PASS",
+  "pass": true,
+  "rows_audited": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "residual_wrong_language_violations": 0,
+  "issue_cards": [],
+  "issues": [],
+  "semantic_micro_repair_cards": [],
+  "semantic_micro_repair_violations": 0,
+  "semantic_violation_cards": [],
+  "composite_cards_audited": [
+    "Morgen",
+    "Obst",
+    "morgen",
+    "müssen",
+    "nach",
+    "natürlich",
+    "nehmen",
+    "neu",
+    "noch",
+    "nur",
+    "ob",
+    "oder"
+  ],
+  "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "verdict": "LRB_036_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-11T17:13:45.412Z"
+}
