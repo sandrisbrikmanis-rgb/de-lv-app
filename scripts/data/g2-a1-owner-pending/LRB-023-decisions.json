@@ -8,8 +8,8 @@
   "g2/a1/hu|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"A • Nál • Mellett\"}",
-    "owner_note": "HU a1-an native: EN At/To→A•Nál•Mellett for pie at. DE untouched."
+    "owner_new": "{\"lv\":\"-nál/-nél • mellett\"}",
+    "owner_note": "HU a1-an native: EN At/To→-nál/-nél•mellett for pie at. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -79,9 +79,9 @@
   },
   "g2/a1/hu|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "HU a1-dass: HU multi-translation aligns with LV source. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"Mert • Azért, mert\"}",
+    "owner_note": "HU a1-dass comparison[1]: duplicate Mert→Mert•Azért,mert for jo•tāpēc ka. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -97,27 +97,27 @@
   },
   "g2/a1/hu|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "HU a1-einmal: HU multi-translation aligns with LV source. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Egyszer • Alkalom\"}",
+    "owner_note": "HU a1-einmal native: duplicate Egyszer→Egyszer•Alkalom for vienreiz•reiz. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "HU a1-einmal: HU multi-translation aligns with LV source. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Egyszer • Alkalom\"}",
+    "owner_note": "HU a1-einmal translation: duplicate Egyszer→Egyszer•Alkalom for vienreiz•reiz. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "HU a1-eis: HU multi-translation aligns with LV source. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Jég • Fagylalt\"}",
+    "owner_note": "HU a1-eis native: Jégkrém→Jég for ledus•saldējums. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "HU a1-eis: HU multi-translation aligns with LV source. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Jég • Fagylalt\"}",
+    "owner_note": "HU a1-eis translation: Jégkrém→Jég for ledus•saldējums. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-erst|a1.card.a1-erst.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -140,8 +140,8 @@
   "g2/a1/hu|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Ez • Az • Személytelen alany\"}",
-    "owner_note": "HU a1-es native/translation: EN It→Ez•Az•Személytelen alany for tas. DE untouched."
+    "owner_new": "{\"lv\":\"Ez • Az\"}",
+    "owner_note": "HU a1-es native: EN It→Ez•Az; impersonal label kept in comparison only. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -152,8 +152,8 @@
   "g2/a1/hu|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Ez • Az • Személytelen alany\"}",
-    "owner_note": "HU a1-es native/translation: EN It→Ez•Az•Személytelen alany for tas. DE untouched."
+    "owner_new": "{\"study.translation\":\"Ez • Az\"}",
+    "owner_note": "HU a1-es translation: EN It→Ez•Az; impersonal label kept in comparison only. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-essen-study|a1.card.a1-essen-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -194,26 +194,26 @@
   "g2/a1/hu|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Vezet • Utazik • Elvitt\"}",
-    "owner_note": "HU a1-fahren: Ólom lead→Vezet•Utazik•Elvitt for braukt drive. DE untouched."
+    "owner_new": "{\"lv\":\"Vezet • Utazik • Visz\"}",
+    "owner_note": "HU a1-fahren native: Ólom wrong lead→Vezet•Utazik•Visz for braukt. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Vezet • Utazik • Elvitt\"}",
-    "owner_note": "HU a1-fahren: Ólom lead→Vezet•Utazik•Elvitt for braukt drive. DE untouched."
+    "owner_new": "{\"study.translation\":\"Vezet • Utazik • Visz\"}",
+    "owner_note": "HU a1-fahren translation: Ólom wrong lead→Vezet•Utazik•Visz for braukt. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "HU a1-finden: HU multi-translation aligns with LV source. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Talál\"}",
+    "owner_note": "HU a1-finden native: spurious Fontolja meg→Talál only for atrast. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-finden|a1.card.a1-finden.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "HU a1-finden: HU multi-translation aligns with LV source. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Talál\"}",
+    "owner_note": "HU a1-finden translation: spurious Fontolja meg→Talál only for atrast. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -266,14 +266,14 @@
   "g2/a1/hu|a1-halten|a1.card.a1-halten.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Tart • Megáll\"}",
-    "owner_note": "HU a1-halten: EN Stop→Tart•Megáll for turēt hold/stop. DE untouched."
+    "owner_new": "{\"lv\":\"Tart\"}",
+    "owner_note": "HU a1-halten native: EN Stop/Tartsa→Tart for turēt hold. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-halten|a1.card.a1-halten.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Tart • Megáll\"}",
-    "owner_note": "HU a1-halten: EN Stop→Tart•Megáll for turēt hold/stop. DE untouched."
+    "owner_new": "{\"study.translation\":\"Tart\"}",
+    "owner_note": "HU a1-halten translation: EN Stop/Tartsa→Tart for turēt hold. Owner micro-repair. DE untouched."
   },
   "g2/a1/hu|a1-heissen|a1.card.a1-heissen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
