@@ -31,6 +31,6 @@
     "lang"
   ],
   "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  "verdict": "LRB_034_LINGUISTIC_REPAIR_PASS",
-  "updatedAt": "2026-09-11T17:00:18.457Z"
+  "verdict": "LRB_034_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-11T17:02:00.000Z"
 }
