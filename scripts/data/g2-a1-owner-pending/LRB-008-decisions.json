@@ -26,14 +26,14 @@
   "g2/a1/fi|Besuch|idx:87|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.explanation[1]\":\"Jos puhutaan paikasta tai tapahtumasta, suomeksi sopiva on vierailu.\",\"study.explanation[2]\":\"Jos Besuch koskee henkilöä, suomeksi voi sanoa vierailu tai käynti.\",\"study.comparison[0].meaning\":\"vierailu • käynti\",\"study.comparison[1].meaning\":\"Vierailija\",\"study.tip.text\":\"Muista: Besuch tarkoittaa vierailua tai käyntiä, mutta Besucher tarkoittaa henkilöä.\"}",
-    "owner_note": "FI Besuch micro-repair: explanation latviaksi→suomeksi; comparison[0] dedupe; tip FI Besuch/Besucher contrast. DE untouched."
+    "owner_new": "{\"study.explanation[0]\":\"Pääajatus: der Besuch tarkoittaa vierailua tai käyntiä.\",\"study.explanation[1]\":\"Jos puhutaan paikasta tai tapahtumasta, suomeksi sopiva on vierailu.\",\"study.explanation[2]\":\"Jos Besuch koskee henkilöä, suomeksi voi sanoa vierailu tai käynti.\",\"study.comparison[0].meaning\":\"vierailu • käynti\",\"study.comparison[1].meaning\":\"Vierailija\",\"study.tip.text\":\"Muista: Besuch tarkoittaa vierailua tai käyntiä, mutta Besucher tarkoittaa henkilöä.\",\"study.important[0]\":\"der Besuch voi tarkoittaa vierailua tai käyntiä.\"}",
+    "owner_note": "FI Besuch FULL micro-repair: explanation[0] dedupe; latviaksi→suomeksi; comparison/tip/important FI. DE untouched."
   },
   "g2/a1/fi|besuchen|idx:89|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.explanation[1]\":\"Paikkaa, tapahtumaa tai kurssia suomeksi yleensä vieraillaan.\",\"study.explanation[2]\":\"Jos besuchen koskee henkilöä, suomeksi usein luontevampaa on käydä jonkun luona.\",\"study.explanation[3]\":\"Saksan kielessä besuchen käytetään ilman prepositiota ja akkusatiivin kanssa.\",\"study.comparison[2].example\":\"Ich gehe zu meinem Freund. – Menen ystäväni luo.\",\"study.tip.text\":\"Muista: paikkaa voi vierailla, mutta henkilön luona yleensä käydään.\"}",
-    "owner_note": "FI besuchen micro-repair: explanation latviaksi→suomeksi + Saksan kielessä prepositio rule; tip FI place vs person. DE untouched."
+    "owner_new": "{\"study.explanation[1]\":\"Paikkaa, tapahtumaa tai kurssia suomeksi yleensä vieraillaan.\",\"study.explanation[2]\":\"Jos besuchen koskee henkilöä, suomeksi usein luontevampaa on käydä jonkun luona.\",\"study.explanation[3]\":\"Saksan kielessä besuchen käytetään ilman prepositiota ja akkusatiivin kanssa.\",\"study.comparison[2].example\":\"Ich gehe zu meinem Freund. – Menen ystäväni luo.\",\"study.tip.text\":\"Muista: paikkaa voi vierailla, mutta henkilön luona yleensä käydään.\",\"study.important[1]\":\"Suomenkielinen käännös riippuu objektista: vierailla paikassa, käydä henkilön luona.\"}",
+    "owner_note": "FI besuchen FULL micro-repair: explanation suomeksi + Saksan kielessä rule; important[1] FI object-dependent gloss. DE untouched."
   },
   "g2/a1/fi|bis|idx:91|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -44,20 +44,20 @@
   "g2/a1/fi|bitte|idx:93|study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.examples[0].lv\":\"Yksi kuppi kahvia, kiitos.\",\"study.examples[1].lv\":\"Tule sisään, olkaa hyvä.\",\"study.examples[2].lv\":\"Olkaa hyvä!\",\"study.examples[3].lv\":\"Voinko kysyä jotain?\",\"study.examples[4].lv\":\"Minulla on yksi pyyntö.\",\"study.examples[5].lv\":\"Pyyntö on tärkeä.\",\"study.comparison[0].meaning\":\"Olkaa hyvä / Kiitos\",\"study.comparison[1].meaning\":\"Pyyntö\"}",
-    "owner_note": "FI bitte: shuffled ET Palun examples → aligned FI politeness/pyyntö teaching; comparison ET Palun/Palve → FI. DE untouched."
+    "owner_new": "{\"study.examples[0].lv\":\"Yksi kuppi kahvia, kiitos.\",\"study.examples[1].lv\":\"Tule sisään, ole hyvä.\",\"study.examples[2].lv\":\"Olkaa hyvä!\",\"study.examples[3].lv\":\"Voinko kysyä jotain?\",\"study.examples[4].lv\":\"Minulla on yksi pyyntö.\",\"study.examples[5].lv\":\"Pyyntö on tärkeä.\",\"study.comparison[0].meaning\":\"Ole hyvä • kiitos\",\"study.comparison[1].meaning\":\"Pyyntö\"}",
+    "owner_note": "FI bitte FULL micro-repair: examples[1] ole hyvä (singular); comparison Ole hyvä • kiitos. DE untouched."
   },
   "g2/a1/fi|Bitte|idx:94|study.explanation, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.explanation[0]\":\"Pääajatus: die Bitte on substantiivi artikkelilla die ja isolla alkukirjaimella. Konkreettinen pyyntö tai toive.\",\"study.explanation[1]\":\"die Bitte tarkoittaa pääasiassa: pyyntö tai toive.\",\"study.explanation[2]\":\"Kuvaa usein: konkreettista pyyntöä tai anomusta.\",\"study.explanation[3]\":\"Monikko on die Bitten.\",\"study.examples[0].lv\":\"Minulla on yksi pyyntö.\",\"study.examples[1].lv\":\"Hän täyttää pyyntöni.\",\"study.examples[2].lv\":\"Hänellä on kaksi pyyntöä.\",\"study.examples[3].lv\":\"Voinko kysyä jotain?\",\"study.examples[4].lv\":\"Minulla on yksi pyyntö.\",\"study.examples[5].lv\":\"Pyyntö on tärkeä.\",\"study.comparison[0].meaning\":\"Pyyntö\",\"study.comparison[1].meaning\":\"Olkaa hyvä\"}",
-    "owner_note": "FI Bitte noun card: ET põhiidee/viisakus + wrong examples → FI pyyntö teaching and aligned examples. DE untouched."
+    "owner_new": "{\"study.explanation[0]\":\"Pääajatus: die Bitte on substantiivi artikkelilla die ja isolla alkukirjaimella. Konkreettinen pyyntö tai toive.\",\"study.explanation[1]\":\"die Bitte tarkoittaa pääasiassa: pyyntö tai toive.\",\"study.explanation[2]\":\"Kuvaa usein: konkreettista pyyntöä tai anomusta.\",\"study.explanation[3]\":\"Monikko on die Bitten.\",\"study.examples[0].lv\":\"Minulla on yksi pyyntö.\",\"study.examples[1].lv\":\"Hän täyttää pyyntöni.\",\"study.examples[2].lv\":\"Hänellä on kaksi pyyntöä.\",\"study.examples[3].lv\":\"Voinko kysyä jotain?\",\"study.examples[4].lv\":\"Minulla on yksi pyyntö.\",\"study.examples[5].lv\":\"Pyyntö on tärkeä.\",\"study.comparison[0].meaning\":\"Pyyntö\",\"study.comparison[1].meaning\":\"Ole hyvä\"}",
+    "owner_note": "FI Bitte FULL micro-repair: comparison[1] Olkaa hyvä → Ole hyvä for bitte politeness gloss. DE untouched."
   },
   "g2/a1/fi|bleiben|idx:101|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Jäädä\",\"study.translation\":\"Jäädä\",\"study.explanation[0]\":\"Pääajatus: bleiben tarkoittaa jäämistä.\",\"study.explanation[1]\":\"Bleiben käytetään, kun henkilö tai asia ei lähde pois vaan pysyy samassa paikassa tai tilassa.\",\"study.explanation[2]\":\"Se on vastakohta sanojen gehen ja fahren verbi, kun puhutaan poislähdöstä.\",\"study.explanation[3]\":\"Hyvin yleinen lause on Ich bleibe zu Hause.\",\"study.examples[0].lv\":\"Jään kotiin.\",\"study.examples[1].lv\":\"Jää tänne!\",\"study.examples[2].lv\":\"Jäämme vielä tunniksi.\",\"study.examples[3].lv\":\"Menen kotiin.\",\"study.comparison[0].meaning\":\"Jäädä\",\"study.comparison[1].meaning\":\"Mennä / kävellä pois\",\"study.comparison[2].meaning\":\"Ajaa / liikkua ajoneuvolla\",\"study.comparison[3].meaning\":\"Odottaa\",\"study.important[0]\":\"bleiben tarkoittaa jäädä, ei odottaa.\",\"study.important[1]\":\"Ich bleibe hier = jään tänne; Ich warte hier = odotan täällä.\"}",
-    "owner_note": "FI bleiben: ET Jääma/jään/ootan → FI Jäädä with gehen contrast example Menen kotiin. DE untouched."
+    "owner_new": "{\"lv\":\"Jäädä\",\"study.translation\":\"Jäädä\",\"study.explanation[0]\":\"Pääajatus: bleiben tarkoittaa jäämistä.\",\"study.explanation[1]\":\"Bleiben käytetään, kun henkilö tai asia ei lähde pois vaan pysyy samassa paikassa tai tilassa.\",\"study.explanation[2]\":\"Se on vastakohta verbeille gehen ja fahren, kun puhutaan poislähdöstä.\",\"study.explanation[3]\":\"Hyvin yleinen lause on Ich bleibe zu Hause.\",\"study.examples[0].lv\":\"Jään kotiin.\",\"study.examples[1].lv\":\"Jää tänne!\",\"study.examples[2].lv\":\"Jäämme vielä tunniksi.\",\"study.examples[3].lv\":\"Menen kotiin.\",\"study.comparison[0].meaning\":\"Jäädä\",\"study.comparison[1].meaning\":\"Mennä / kävellä pois\",\"study.comparison[2].meaning\":\"Ajaa / liikkua ajoneuvolla\",\"study.comparison[3].meaning\":\"Odottaa\",\"study.tip.text\":\"Muista: ei lähde pois → bleiben; lähtee kävellen pois → gehen.\",\"study.important[0]\":\"bleiben tarkoittaa jäädä, ei odottaa.\",\"study.important[1]\":\"Ich bleibe hier = jään tänne; Ich warte hier = odotan täällä.\"}",
+    "owner_note": "FI bleiben FULL micro-repair: explanation[2] verbeille; tip FI bleiben/gehen contrast. DE untouched."
   },
   "g2/a1/fi|bringen|idx:111|lv, study.explanation, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -110,8 +110,8 @@
   "g2/a1/fi|da|idx:126|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.examples[2].lv\":\"Tuolta hän tulee.\"}",
-    "owner_note": "FI da micro-repair: examples[2] Da kommt er Tässä→Tuolta (there-approach, not here). Other da subfields unchanged. DE untouched."
+    "owner_new": "{\"study.examples[2].lv\":\"Tuolta hän tulee.\",\"study.tip.text\":\"Muista: yleinen siellä/täällä → da.\"}",
+    "owner_note": "FI da FULL micro-repair: examples[2] Tuolta; tip FI yleinen siellä/täällä → da. DE untouched."
   },
   "g2/a1/fi|danken|idx:127|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
