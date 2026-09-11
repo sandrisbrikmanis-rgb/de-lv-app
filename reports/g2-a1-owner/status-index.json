@@ -422,7 +422,7 @@
         "residualAuditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "bb4bc6eb",
+        "headSha": "4e810663",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-031-decisions.csv",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-031-residual-wrong-language-proof.json"
       }
