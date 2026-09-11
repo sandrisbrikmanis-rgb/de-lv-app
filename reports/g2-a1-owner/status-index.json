@@ -8,7 +8,7 @@
   "pendingTotal": 5125,
   "ownerAuthorization": {
     "required": true,
-    "status": "APPROVED",
+    "status": "PENDING",
     "approvedBatches": ["LRB-R350-001"],
     "ingestApproved": false,
     "applyApproved": false
