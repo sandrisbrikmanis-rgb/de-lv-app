@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-11T12:05:00.000Z",
+  "updatedAt": "2026-09-11T12:10:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -9,7 +9,19 @@
   "ownerAuthorization": {
     "required": true,
     "status": "PENDING",
-    "approvedBatches": ["LRB-R350-001", "LRB-R350-002", "LRB-R350-003", "LRB-R350-004", "LRB-R350-005", "LRB-R350-006", "LRB-R350-007", "LRB-001", "LRB-002", "LRB-003", "LRB-004"],
+    "approvedBatches": [
+      "LRB-R350-001",
+      "LRB-R350-002",
+      "LRB-R350-003",
+      "LRB-R350-004",
+      "LRB-R350-005",
+      "LRB-R350-006",
+      "LRB-R350-007",
+      "LRB-001",
+      "LRB-002",
+      "LRB-003",
+      "LRB-004"
+    ],
     "ingestApproved": false,
     "applyApproved": false
   },
@@ -47,7 +59,7 @@
     "batchesTotal": 103,
     "batchesReviewed": 4,
     "batchesAntiBulkPass": 4,
-    "batchesSpotCheckPass": 3,
+    "batchesSpotCheckPass": 4,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -78,12 +90,22 @@
         "antiBulkPass": true,
         "headSha": "6c866057c5ffca1476e5ca47ea289eb401c5f7c9",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-003-decisions.csv"
+      },
+      "LRB-004": {
+        "verdict": "LRB_004_LINGUISTIC_REPAIR_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
+        "labot": 7,
+        "nelabot": 43,
+        "pending": 0,
+        "antiBulkPass": true,
+        "headSha": "94b1e52072268256f7a88b9cfe81d970fc373a9b",
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-004-decisions.csv"
       }
     },
     "lastBatch": {
       "batch_id": "LRB-004",
-      "labot": 5,
-      "nelabot": 45,
+      "labot": 7,
+      "nelabot": 43,
       "pending": 0,
       "antiBulkPass": true,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-004-decisions.csv",
