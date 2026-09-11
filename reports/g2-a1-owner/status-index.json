@@ -451,7 +451,7 @@
         "antiBulkPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "8d449350",
+        "headSha": "4b0bca3a",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-033-decisions.csv",
         "proof": "reports/g2-a1-owner/batches-reviewed/LRB-033-proof.json",
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-033-anti-bulk-proof.json"
