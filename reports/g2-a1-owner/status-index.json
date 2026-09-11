@@ -519,7 +519,7 @@
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-037-residual-wrong-language-proof.json"
       },
       "LRB-038": {
-        "verdict": "LRB_038_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "verdict": "LRB_038_LINGUISTIC_REPAIR_PASS",
         "status": "LINGUISTICALLY_CLOSED",
         "labot": 50,
         "nelabot": 0,
@@ -528,7 +528,8 @@
         "residualAuditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "b7f22444",
+        "galaRepair": true,
+        "headSha": "0c4f7b0b",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-038-decisions.csv",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-038-residual-wrong-language-proof.json"
       }
@@ -542,7 +543,8 @@
       "residualAuditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "gpt-5.6-luna",
-      "linguisticVerdict": "LRB_038_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "linguisticVerdict": "LRB_038_LINGUISTIC_REPAIR_PASS",
+      "galaRepair": true,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-038-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-038-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-038-anti-bulk-proof.json",
