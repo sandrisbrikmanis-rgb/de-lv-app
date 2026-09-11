@@ -11,6 +11,13 @@
       "inputPath": "reports/g2-a1-owner/batches-pending/LRB-001-input.csv",
       "manifestPath": "reports/g2-a1-owner/manifests/LRB-001-start.json",
       "inputSha256": "f636781252f7e4ff65e0ea182aab4e216553049173c19e89d6380ffbb8133ffb"
+    },
+    {
+      "batchId": "LRB-002",
+      "rows": 50,
+      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-002-input.csv",
+      "manifestPath": "reports/g2-a1-owner/manifests/LRB-002-start.json",
+      "inputSha256": "8c0e3d402f6ecd01c9a0c5a41f82085df4784a2b9a8f9517ba725cf8d8a54ddc"
     }
   ]
 }
