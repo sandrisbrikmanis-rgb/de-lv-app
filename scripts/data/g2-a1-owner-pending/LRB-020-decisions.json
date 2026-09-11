@@ -2,8 +2,8 @@
   "g2/a1/fr|unter|idx:615|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.tip\":\"{\\\"text\\\":\\\"Rappelez-vous : zem galda → unter dem Tisch.\\\"}\",\"study.comparison[1].meaning\":\"Au-dessus / à propos de\"}",
-    "owner_note": "FR unter: replace Atceries LV leak in tip; fix über comparison Plus/pour gloss. DE untouched."
+    "owner_new": "{\"study.tip.text\":\"Rappelez-vous : sous la table → unter dem Tisch.\",\"study.comparison[1].meaning\":\"Au-dessus / à propos de\"}",
+    "owner_note": "FR unter: owner micro-repair tip sous la table; fix über comparison gloss. DE untouched."
   },
   "g2/a1/fr|Urlaub|idx:695|study.explanation, study.important|MEANING_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -14,8 +14,8 @@
   "g2/a1/fr|verstehen|idx:621|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Comprendre\",\"study.translation\":\"Comprendre\",\"study.comparison[0].meaning\":\"Comprendre\"}",
-    "owner_note": "FR verstehen: Pour comprendre→Comprendre for saprast understand. DE untouched."
+    "owner_new": "{\"lv\":\"Comprendre\",\"study.translation\":\"Comprendre\",\"study.explanation[2]\":\"Verstehen signifie comprendre une langue, une personne, un texte ou une situation ; können exprime plutôt une capacité ou une possibilité.\",\"study.comparison[0].meaning\":\"Comprendre\"}",
+    "owner_note": "FR verstehen: owner micro-repair explanation[2] verstehen vs können contrast. DE untouched."
   },
   "g2/a1/fr|vom|idx:634|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -97,15 +97,15 @@
   },
   "g2/a1/gr|aber|idx:21|lv, study.translation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "GR aber: Ωστόσο contrast teaching and sondern/jedoch align with bet. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Αλλά\",\"study.translation\":\"Αλλά\",\"study.comparison[0].meaning\":\"Αντίθεση • Αλλά\",\"study.comparison[1].example\":\"Ich wollte keinen Tee, sondern Kaffee. – Δεν ήθελα τσάι, αλλά καφέ.\"}",
+    "owner_note": "GR aber: owner micro-repair Αλλά for bet; fix sondern contrast example. DE untouched."
   },
   "g2/a1/gr|also|idx:26|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.explanation\":\"Χρησιμοποιείται για την εξαγωγή συμπερασμάτων ή την εμφάνιση ενός αποτελέσματος. Σημαίνει «άρα», «λοιπόν».\"}",
-    "owner_note": "GR also study: remove duplicate «άρα» in explanation. DE untouched."
+    "owner_new": "{\"study.explanation\":\"Χρησιμοποιείται για την εξαγωγή συμπερασμάτων ή την εμφάνιση ενός αποτελέσματος. Σημαίνει «άρα», «λοιπόν».\",\"study.comparison[1].meaning\":\"Επίσης\",\"study.tip.text\":\"Θυμήσου: συμπέρασμα → also = άρα / λοιπόν.\",\"study.important[0]\":\"Το also δείχνει ένα συμπέρασμα: η επόμενη ιδέα προκύπτει από την προηγούμενη.\",\"study.important[1]\":\"Το also μπορεί συχνά να αποδοθεί ως άρα, λοιπόν ή επομένως.\"}",
+    "owner_note": "GR also study: owner micro-repair comparison/tip/important conclusion senses for tātad. DE untouched."
   },
   "g2/a1/gr|an|idx:12|lv, study.translation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -205,9 +205,9 @@
   },
   "g2/a1/gr|gleich|idx:243|lv, study.examples|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "GR gleich: Αμέσως•Το ίδιο examples align with tūlīt soon/same senses. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[5].lv\":\"Έχουν το ίδιο ύψος.\"}",
+    "owner_note": "GR gleich composite: owner micro-repair examples[5] same-height not same-length. DE untouched."
   },
   "g2/a1/gr|groß|idx:250|lv, study.examples|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
