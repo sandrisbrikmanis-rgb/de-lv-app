@@ -237,7 +237,7 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "{\"study.explanation[5]\":\"Andstæða er alt (gamall) • Nafnorðið das Neue þýðir eitthvað nýtt.\"}",
-    "owner_note": "IS neu translation: ET/NO Vastand/Nimisõna→Andstæða er alt (gamall)•Nafnorðið das Neue þýðir eitthvað nýtt. for alt vs das Neue. DE untouched."
+    "owner_note": "IS neu explanation[5]: ET/NO Vastand/Nimisõna→Andstæða er alt (gamall)•Nafnorðið das Neue þýðir eitthvað nýtt. for alt vs das Neue. DE untouched."
   },
   "g2/a1/is|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
