@@ -32,8 +32,8 @@
   "g2/a1/is|schon|idx:521|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"þegar\",\"study.translation\":\"þegar\",\"study.explanation\":[\"Meginhugsun: schon þýðir að eitthvað hefur þegar gerst eða er þegar til staðar.\",\"Schon leggur áherslu á að atburður er nú þegar liðinn.\",\"Oft notað með staðsetningu: Ich bin schon zu Hause.\",\"Ekki rugla við noch (enn) eða nur (aðeins).\"],\"study.examples[0].lv\":\"Ég er þegar heima.\",\"study.tip[0]\":\"Eitthvað hefur þegar gerst eða er þegar virkt.\",\"study.tip[1]\":\"Notaðu schon þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"schon = þegar.\",\"study.important[1]\":\"Eitthvað hefur þegar gerst eða er þegar virkt.\"}",
-    "owner_note": "IS schon composite: ET Juba→þegar throughout lv/study for jau already. DE untouched."
+    "owner_new": "{\"lv\":\"nú þegar\",\"study.translation\":\"nú þegar\",\"study.explanation\":[\"Meginhugsun: schon merkir oft að eitthvað er nú þegar gerst eða á stað.\",\"schon = nú þegar eða þegar eftir samhengi — ekki alltaf einfalt „already“.\",\"noch = enn (ennþá ekki); schon = nú þegar (þegar til staðar).\",\"Ich bin schon zu Hause. = Ég er nú þegar heima.\"],\"study.examples[0].lv\":\"Ég er nú þegar heima.\",\"study.tip[0]\":\"schon = nú þegar / þegar — samhengið ræður.\",\"study.tip[1]\":\"Rugla ekki við noch (ennþá).\",\"study.important[0]\":\"schon = nú þegar (ekki bara þegar sem „already“).\",\"study.important[1]\":\"noch = enn; schon = nú þegar.\"}",
+    "owner_note": "IS schon gala: nú þegar; schon vs noch; ex Ég er nú þegar heima. DE untouched."
   },
   "g2/a1/is|schön|idx:522|lv|MEANING_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -134,8 +134,8 @@
   "g2/a1/is|sehen|idx:539|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"sjá\",\"study.translation\":\"sjá\",\"study.explanation\":[\"Meginhugsun: sehen þýðir að sjá með augum.\",\"Sehen lýsir því sem augu taka á móti án sérstakrar athygli.\",\"Schauen/ansehen felur í sér virkari athygli.\",\"Ich sehe dich. = Ég sé þig.\"],\"study.examples[0].lv\":\"Ég sé þig.\",\"study.examples[1].lv\":\"Sérðu bílinn?\",\"study.examples[2].lv\":\"Ég sé ekkert.\",\"study.examples[3].lv\":\"Við horfum á mynd.\",\"study.comparison[0].meaning\":\"sjá\",\"study.comparison[0].example\":\"Ich sehe dich. – Ég sé þig.\",\"study.comparison[1].meaning\":\"horfa\",\"study.comparison[1].example\":\"Ég horfi á myndina.\",\"study.comparison[2].meaning\":\"skoða\",\"study.comparison[2].example\":\"Ég horfi á kvikmyndina.\",\"study.comparison[3].meaning\":\"heyra\",\"study.comparison[3].example\":\"Ég hlusta á tónlist.\",\"study.tip.text\":\"Mundu: augu taka á móti → sehen; virk athygli → schauen/ansehen.\",\"study.important[0]\":\"sehen er ekki það sama og anschauen.\",\"study.important[1]\":\"Ich sehe dich = ég sé þig; Ich schaue den Film = ég horfa á kvikmyndina.\"}",
-    "owner_note": "IS sehen composite: ET Nagema→sjá throughout lv/study; schauen=horfa contrast. DE untouched."
+    "owner_new": "{\"lv\":\"sjá\",\"study.translation\":\"sjá\",\"study.explanation\":[\"Meginhugsun: sehen þýðir að sjá með augum.\",\"Sehen lýsir því sem augu taka á móti án sérstakrar athygli.\",\"Schauen/ansehen felur í sér virkari athygli.\",\"Ich sehe dich. = Ég sé þig.\"],\"study.examples[0].lv\":\"Ég sé þig.\",\"study.examples[1].lv\":\"Sérðu bílinn?\",\"study.examples[2].lv\":\"Ég sé ekkert.\",\"study.examples[3].lv\":\"Við horfum á mynd.\",\"study.comparison[0].meaning\":\"sjá\",\"study.comparison[0].example\":\"Ich sehe dich. – Ég sé þig.\",\"study.comparison[1].meaning\":\"horfa / líta\",\"study.comparison[1].example\":\"Ich schaue fern. – Ég horfi í sjónvarp.\",\"study.comparison[2].meaning\":\"horfa á / skoða\",\"study.comparison[2].example\":\"Ich schaue den Film. – Ég horfi á kvikmyndina.\",\"study.comparison[3].meaning\":\"heyra\",\"study.comparison[3].example\":\"Ich höre Musik. – Ég heyri tónlist.\",\"study.tip.text\":\"Mundu: augu taka á móti → sehen; virk athygli → schauen/ansehen.\",\"study.important[0]\":\"sehen er ekki það sama og anschauen.\",\"study.important[1]\":\"Ich sehe dich = ég sé þig; Ich schaue den Film = ég horfi á kvikmyndina.\"}",
+    "owner_note": "IS sehen gala: horfi á; hören=heyra (not hlusta); sehen/schauen/ansehen/hören contrast. DE untouched."
   },
   "g2/a1/is|sehr|idx:540|lv|MEANING_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -206,8 +206,8 @@
   "g2/a1/is|Sie|idx:550|lv|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"þið\"}",
-    "owner_note": "IS Sie lv: garbage Tei→þið for jūs formal you. DE untouched."
+    "owner_new": "{\"lv\":\"þér (formlegt)\"}",
+    "owner_note": "IS Sie gala: þér(formlegt) for DE formal you; þið=informal plural — not identical. Modern IS formal rare. DE untouched."
   },
   "g2/a1/is|siebenhundert|idx:551|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -290,8 +290,8 @@
   "g2/a1/is|sollen|idx:564|lv|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"ætti\"}",
-    "owner_note": "IS sollen lv: garbage Topper→ætti for vajadzētu should. DE untouched."
+    "owner_new": "{\"lv\":\"eiga að\"}",
+    "owner_note": "IS sollen gala: dictionary sollen→eiga að; sollte context→ætti að. DE untouched."
   },
   "g2/a1/is|Sommer|idx:565|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",

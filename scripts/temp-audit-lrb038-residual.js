@@ -27,6 +27,23 @@ const LV_LEAK =
   /\b(netīrs|sniegs|snigt|ātrs|šokolāde|jau|skaists|skapis|rakstīt|kurpe|skolnieks|melns|cūka|māsa|peldbaseins|peldēt|seši|sešsimt|sestais|sešpadsmitais|sešdesmit|sešdesmitais|redzēt|ļoti|ziepes|būt|kopš|lappuse|puse|sekunde|septembris|mazgāties|sevi|sev|drošs|noteikti|viņi|viņas|jūs|septiņsimt|septītais|septiņpadsmit|septiņpadsmitais|septiņdesmit|septiņdesmitais|dziedāt|sēdēt|tā|zeķe|dīvāns|tūlīt|dēls|vajadzētu|vasara)\b/i;
 
 const COMPOSITE_CARDS = ["schon", "schwimmen", "sehen", "sein", "Seite", "sich"];
+const GALA_REPAIR_CARDS = ["schon", "sehen", "Sie", "sollen"];
+
+const EXPECTED = {
+  schon: {
+    lv: "nú þegar",
+    "study.translation": "nú þegar",
+    "study.examples[0].lv": "Ég er nú þegar heima.",
+  },
+  sehen: {
+    "study.comparison[3].meaning": "heyra",
+    "study.comparison[3].example": "Ich höre Musik. – Ég heyri tónlist.",
+    "study.important[1]":
+      "Ich sehe dich = ég sé þig; Ich schaue den Film = ég horfi á kvikmyndina.",
+  },
+  Sie: { lv: "þér (formlegt)" },
+  sollen: { lv: "eiga að" },
+};
 
 function parseMaybeJson(v) {
   if (typeof v !== "string") return v;
@@ -181,12 +198,26 @@ function checkDeIsAlignment(card, deExamples, gotLv, issues) {
 function semanticChecks(card, merged, deExamples, issues) {
   const all = collectTargetStrings(merged).map((x) => x.text).join(" ");
 
+  if (EXPECTED[card]) {
+    for (const [path, expected] of Object.entries(EXPECTED[card])) {
+      const got = path === "lv" ? merged.lv : s(merged, path);
+      if (got !== expected) {
+        issues.push({
+          card,
+          type: "SEMANTIC",
+          msg: `${card} ${path} expected "${expected}", got "${got || ""}"`,
+        });
+      }
+    }
+  }
+
   if (card === "schon") {
-    if (merged.lv !== "þegar") issues.push({ card, type: "SEMANTIC", msg: "schon lv not þegar" });
     if (/Juba|Ma olen juba/i.test(all))
       issues.push({ card, type: "SEMANTIC", msg: "schon source residue" });
-    if (s(merged, "study.examples[0].lv") !== "Ég er þegar heima.")
-      issues.push({ card, type: "SEMANTIC", msg: "schon ex[0] wrong" });
+    if (!/noch/i.test(s(merged, "study.important[1]")))
+      issues.push({ card, type: "SEMANTIC", msg: "schon missing noch contrast" });
+    if (/schon = þegar\./i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "schon oversimplified þegar gloss" });
   }
 
   if (card === "schwimmen") {
@@ -209,6 +240,22 @@ function semanticChecks(card, merged, deExamples, issues) {
       issues.push({ card, type: "SEMANTIC", msg: "sehen ex[3] schauen contrast" });
     if (!/sjá/i.test(s(merged, "study.comparison[0].meaning")))
       issues.push({ card, type: "SEMANTIC", msg: "sehen comparison not sjá" });
+    if (/hlusta/i.test(s(merged, "study.comparison[3].example")))
+      issues.push({ card, type: "SEMANTIC", msg: "sehen hören not hlusta" });
+    if (/horfa á kvikmyndina/i.test(s(merged, "study.important[1]")) && !/horfi á/i.test(s(merged, "study.important[1]")))
+      issues.push({ card, type: "SEMANTIC", msg: "sehen important[1] not horfi" });
+    if (!/horfa/i.test(s(merged, "study.comparison[1].meaning")))
+      issues.push({ card, type: "SEMANTIC", msg: "sehen schauen contrast missing" });
+  }
+
+  if (card === "Sie") {
+    if (merged.lv === "þið")
+      issues.push({ card, type: "SEMANTIC", msg: "Sie lv must not be informal þið" });
+  }
+
+  if (card === "sollen") {
+    if (merged.lv === "ætti")
+      issues.push({ card, type: "SEMANTIC", msg: "sollen lv must be eiga að not ætti" });
   }
 
   if (card === "sein") {
@@ -303,7 +350,7 @@ for (const row of rows) {
     issueCards.add(card);
   }
 
-  if (COMPOSITE_CARDS.includes(card)) {
+  if (COMPOSITE_CARDS.includes(card) || GALA_REPAIR_CARDS.includes(card)) {
     semanticChecks(card, merged, deExamples, issues);
     if (issues.some((i) => i.card === card)) issueCards.add(card);
   } else if (deExamples.length) {
@@ -337,7 +384,8 @@ const proof = {
   semantic_micro_repair_violations: semanticViolations.length,
   semantic_violation_cards: [...new Set(semanticViolations.map((i) => i.card))],
   anti_bulk: "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  verdict: pass ? "LRB_038_FULL_50_50_LINGUISTIC_REVIEW_PASS" : "BLOCKED",
+  gala_repair_cards: GALA_REPAIR_CARDS,
+  verdict: pass ? "LRB_038_LINGUISTIC_REPAIR_PASS" : "BLOCKED",
   updatedAt: new Date().toISOString(),
 };
 
