@@ -71,6 +71,10 @@ const LABOT_EXPECTED = {
   },
   "g2/a1/en|es|idx:167|lv; study.examples[*].lv; study.comparison[1].meaning|MISTRANSLATION|gpt-5.6-luna": {
     lv: "It",
+    "study.examples[0].lv": "It's raining.",
+    "study.examples[1].lv": "It is cold.",
+    "study.examples[2].lv": "The child is sleeping.",
+    "study.examples[3].lv": "It is tired.",
   },
   "g2/a1/en|essen|idx:690|study.explanation|DE_SOURCE_ISSUE|gpt-5.6-luna": {
     "study.explanation[4]": "Often describes: thing.",
@@ -96,6 +100,8 @@ const LABOT_EXPECTED = {
   },
   "g2/a1/en|stehen|idx:576|study.explanation, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": {
     "study.comparison[2].meaning": "Lie (down)",
+    "study.comparison[2].example":
+      "Das Buch liegt dort. – The book lies there.",
   },
   "g2/a1/en|Wetter|idx:658|lv, study.examples, study.tip|MISTRANSLATION|gpt-5.6-luna": {
     lv: "Weather",
@@ -183,7 +189,114 @@ const FORBIDDEN_FRAGMENTS = {
   "g2/a1/da|Land|idx:351|study.examples; study.important|MEANING_AND_USAGE|gpt-5.6-luna": [
     "ikke 'til landet', ikke 'til landet'",
   ],
+  "g2/a1/en|stehen|idx:576|study.explanation, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": [
+    "The book lies there. – The book lies there.",
+  ],
 };
+
+/** DE → merged target lv pairs for LABOT rows (index-by-index). */
+const DE_EXAMPLE_ALIGN = {
+  "g2/a1/en|es|idx:167|lv; study.examples[*].lv; study.comparison[1].meaning|MISTRANSLATION|gpt-5.6-luna": {
+    "Es regnet.": "It's raining.",
+    "Es ist kalt.": "It is cold.",
+    "Das Kind schläft.": "The child is sleeping.",
+    "Es ist müde.": "It is tired.",
+  },
+  "g2/a1/en|stehen|idx:576|study.explanation, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": {
+    cmp2: "Das Buch liegt dort. – The book lies there.",
+  },
+  "g2/a1/es|baden|idx:68|study.examples, study.comparison|MISTRANSLATION|gpt-5.6-luna": {
+    "Ich gehe baden.": "Voy a bañarme.",
+    "Wir gehen im See baden.": "Vamos a bañarnos en el lago.",
+    "Er schwimmt sehr gut.": "Nada muy bien.",
+    "Ich schwimme jeden Montag.": "Nado todos los lunes.",
+  },
+  "g2/a1/es|bitte|idx:93|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MISTRANSLATION|gpt-5.6-luna": {
+    "Eine Tasse Kaffee, bitte.": "Una taza de café, por favor.",
+    "Komm bitte herein.": "Entra, por favor.",
+    "Bitte schön!": "¡De nada!",
+    "Kann ich bitte fragen?": "¿Puedo preguntar, por favor?",
+  },
+  "g2/a1/es|Bitte|idx:94|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MISTRANSLATION|gpt-5.6-luna": {
+    "Ich habe eine Bitte.": "Tengo una petición.",
+    "Er erfüllt meine Bitte.": "Cumple mi petición.",
+    "Sie hat zwei Bitten.": "Tiene dos peticiones.",
+  },
+  "g2/a1/es|bleiben|idx:101|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MISTRANSLATION|gpt-5.6-luna": {
+    "Ich gehe nach Hause.": "Me voy a casa.",
+    cmp1: "Ich gehe nach Hause. – Me voy a casa.",
+  },
+  "g2/a1/da|Land|idx:351|study.examples; study.important|MEANING_AND_USAGE|gpt-5.6-luna": {
+    "Wir fahren aufs Land.": "Vi kører ud på landet.",
+  },
+};
+
+function parseMaybeJson(v) {
+  if (typeof v !== "string") return v;
+  const t = v.trim();
+  if (
+    (t.startsWith("[") && t.endsWith("]")) ||
+    (t.startsWith("{") && t.endsWith("}"))
+  ) {
+    try {
+      return JSON.parse(t);
+    } catch {
+      return v;
+    }
+  }
+  return v;
+}
+
+function flatToNested(flat) {
+  const out = { lv: flat.lv };
+  const study = {};
+  for (const [k, v] of Object.entries(flat)) {
+    if (k === "lv") continue;
+    if (k.startsWith("study.")) {
+      const sub = k.slice(6);
+      if (sub.includes("[") || sub.includes(".")) continue;
+      study[sub] = parseMaybeJson(v);
+    }
+  }
+  if (Object.keys(study).length) out.study = study;
+  return out;
+}
+
+function applyPatches(nested, ownerNewStr) {
+  const out = JSON.parse(JSON.stringify(nested));
+  if (!ownerNewStr) return out;
+  const patches = JSON.parse(ownerNewStr);
+  for (const [p, value] of Object.entries(patches)) {
+    if (p === "lv") {
+      out.lv = value;
+      continue;
+    }
+    if (!out.study && p.startsWith("study.")) out.study = {};
+    if (p.startsWith("study.")) {
+      const field = p.slice(6);
+      if (!setAt(out.study, field, value)) {
+        const m = field.match(/^(\w+)$/);
+        if (m) out.study[field] = value;
+        else {
+          const arrM = field.match(/^(\w+)\[/);
+          if (arrM) {
+            const arrName = arrM[1];
+            if (!Array.isArray(out.study[arrName])) out.study[arrName] = [];
+            setAt(out.study, field, value);
+          }
+        }
+      }
+    }
+  }
+  return out;
+}
+
+function isDegeneratePair(text) {
+  if (!text || !/ – | -- /.test(text)) return false;
+  const parts = text.split(/\s+–\s+|\s+--\s+/);
+  if (parts.length !== 2) return false;
+  return parts[0].trim().toLowerCase() === parts[1].trim().toLowerCase();
+}
 
 function parseOwnerNew(str) {
   if (!str) return {};
@@ -257,6 +370,8 @@ let extraMeaningNotInSource = 0;
 let duplicateMeanings = 0;
 let wrongLanguage = 0;
 let semanticViolations = 0;
+let deTargetAlignmentViolations = 0;
+let degenerateExamplePairs = 0;
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
@@ -353,6 +468,83 @@ for (const row of rows) {
       });
     }
   }
+
+  if (d.owner_decision === "LABOT") {
+    let flat;
+    try {
+      flat = JSON.parse(row.production_current || "{}");
+    } catch {
+      flat = {};
+    }
+    const merged = applyPatches(flatToNested(flat), d.owner_new);
+
+    const align = DE_EXAMPLE_ALIGN[id];
+    if (align) {
+      if (align.cmp2) {
+        const got = merged.study?.comparison?.[2]?.example || "";
+        if (got !== align.cmp2) {
+          deTargetAlignmentViolations++;
+          semanticViolations++;
+          issues.push({
+            id,
+            type: "DE_TARGET_ALIGN",
+            field: "study.comparison[2].example",
+            expected: align.cmp2,
+            got,
+          });
+        }
+      }
+      if (align.cmp1) {
+        const got = merged.study?.comparison?.[1]?.example || "";
+        if (got !== align.cmp1) {
+          deTargetAlignmentViolations++;
+          semanticViolations++;
+          issues.push({
+            id,
+            type: "DE_TARGET_ALIGN",
+            field: "study.comparison[1].example",
+            expected: align.cmp1,
+            got,
+          });
+        }
+      }
+      const examples = merged.study?.examples;
+      if (Array.isArray(examples)) {
+        for (const ex of examples) {
+          const de = ex?.de;
+          if (!de || !align[de]) continue;
+          if (ex.lv !== align[de]) {
+            deTargetAlignmentViolations++;
+            semanticViolations++;
+            issues.push({
+              id,
+              type: "DE_TARGET_ALIGN",
+              field: `study.examples de="${de}"`,
+              expected: align[de],
+              got: ex.lv,
+            });
+          }
+        }
+      }
+    }
+
+    const comparisons = merged.study?.comparison;
+    if (Array.isArray(comparisons)) {
+      for (let i = 0; i < comparisons.length; i++) {
+        const ex = comparisons[i]?.example;
+        if (ex && isDegeneratePair(ex)) {
+          degenerateExamplePairs++;
+          semanticViolations++;
+          issues.push({
+            id,
+            type: "DEGENERATE_PAIR",
+            field: `study.comparison[${i}].example`,
+            msg: ex,
+          });
+        }
+      }
+    }
+  }
 }
 
 const pass =
@@ -362,7 +554,9 @@ const pass =
   extraMeaningNotInSource === 0 &&
   duplicateMeanings === 0 &&
   wrongLanguage === 0 &&
-  semanticViolations === 0;
+  semanticViolations === 0 &&
+  deTargetAlignmentViolations === 0 &&
+  degenerateExamplePairs === 0;
 
 const proof = {
   batch_id: BATCH,
@@ -380,6 +574,8 @@ const proof = {
     duplicate_meanings: duplicateMeanings,
     wrong_language_residue: wrongLanguage,
     semantic_alignment_violations: semanticViolations,
+    de_target_alignment_violations: deTargetAlignmentViolations,
+    degenerate_example_pairs: degenerateExamplePairs,
   },
   failures: issues,
   verdict: pass

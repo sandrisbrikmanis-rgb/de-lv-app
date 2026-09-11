@@ -11,9 +11,11 @@
     "EXTRA_MEANING_NOT_IN_SOURCE": 0,
     "duplicate_meanings": 0,
     "wrong_language_residue": 0,
-    "semantic_alignment_violations": 0
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0
   },
   "failures": [],
   "verdict": "LRB_002_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-11T18:35:09.153Z"
+  "updatedAt": "2026-09-11T18:39:48.565Z"
 }

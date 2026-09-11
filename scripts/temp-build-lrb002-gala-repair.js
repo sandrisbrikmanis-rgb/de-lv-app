@@ -184,11 +184,12 @@ const decisions = {
       "study.translation": "It",
       "study.examples[0].lv": "It's raining.",
       "study.examples[1].lv": "It is cold.",
+      "study.examples[2].lv": "The child is sleeping.",
       "study.examples[3].lv": "It is tired.",
       "study.comparison[0].meaning": "it • impersonal form",
       "study.comparison[1].meaning": "I (pronoun)",
     },
-    "EN es gala: source tas→It; fix examples; impersonal label only in cmp[0]. DE untouched."
+    "EN es gala: full composite; ex[2] Das Kind→The child; ex[3] Es ist müde→It is tired (neuter). DE untouched."
   ),
 
   "g2/a1/en|essen|idx:690|study.explanation|DE_SOURCE_ISSUE|gpt-5.6-luna": labot(
@@ -252,9 +253,10 @@ const decisions = {
   "g2/a1/en|stehen|idx:576|study.explanation, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": labot(
     {
       "study.comparison[2].meaning": "Lie (down)",
-      "study.comparison[2].example": "The book lies there. – The book lies there.",
+      "study.comparison[2].example":
+        "Das Buch liegt dort. – The book lies there.",
     },
-    "EN stehen gala: liegen Sleep/lie down→Lie (down). DE untouched."
+    "EN stehen gala: liegen→Lie (down); DE→EN comparison pair. DE untouched."
   ),
 
   "g2/a1/en|Wetter|idx:658|lv, study.examples, study.tip|MISTRANSLATION|gpt-5.6-luna": labot(
