@@ -26,8 +26,8 @@
   "g2/a1/is|zweihundert|idx:680|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"tveir hundruð\"}",
-    "owner_note": "IS zweihundert lv: ET Kaksada→tveir hundruð for divsimt two hundred. DE untouched."
+    "owner_new": "{\"lv\":\"tvö hundruð\"}",
+    "owner_note": "IS zweihundert gala repair: tveir hundruð→tvö hundruð (neuter hundred agreement). DE untouched."
   },
   "g2/a1/is|zweimal|idx:681|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -116,8 +116,8 @@
   "g2/a1/it|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.comparison[0].meaning\":\"visita • ospite • visita\"}",
-    "owner_note": "IT besuch cmp[0]: LV apciemojums leak→visita • ospite • visita for Besuch noun senses. DE untouched."
+    "owner_new": "{\"study.comparison[0].meaning\":\"visita • visita a qualcuno • visita (ufficiale)\"}",
+    "owner_note": "IT besuch cmp[0] gala: remove ospite/dup→visita•visita a qualcuno•visita (ufficiale) for LV apmeklējums•apciemojums•vizīte. DE untouched."
   },
   "g2/a1/it|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -140,8 +140,8 @@
   "g2/a1/it|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.comparison[2].meaning\":\"Quale • Quale • Quale\"}",
-    "owner_note": "IT das cmp[2] welches: LV Kurš • Kura • Kuru→Quale • Quale • Quale for welches relative. DE untouched."
+    "owner_new": "{\"study.comparison[2].meaning\":\"Quale\"}",
+    "owner_note": "IT das cmp[2] welches gala: Quale•Quale•Quale→Quale (IT no m/f/acc triple gloss). DE untouched."
   },
   "g2/a1/it|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -152,26 +152,26 @@
   "g2/a1/it|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Articolo indefinito • Uno • Qualcuno\"}",
-    "owner_note": "IT ein native: dedupe Qualcuno→Articolo indefinito • Uno • Qualcuno for ein article. DE untouched."
+    "owner_new": "{\"lv\":\"Articolo indefinito • Un/Uno\"}",
+    "owner_note": "IT ein native gala: remove Qualcuno→Articolo indefinito • Un/Uno (LV nenoteiktais artikuls only). DE untouched."
   },
   "g2/a1/it|a1-ein|a1.card.a1-ein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Articolo indefinito • Uno • Qualcuno\"}",
-    "owner_note": "IT ein translation: dedupe Qualcuno→Articolo indefinito • Uno • Qualcuno for ein article. DE untouched."
+    "owner_new": "{\"study.translation\":\"Articolo indefinito • Un/Uno\"}",
+    "owner_note": "IT ein translation gala: remove Qualcuno→Articolo indefinito • Un/Uno. DE untouched."
   },
   "g2/a1/it|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Una volta • Una volta\"}",
-    "owner_note": "IT einmal native: LV Vienna • Reiz→Una volta • Una volta for einmal once. DE untouched."
+    "owner_new": "{\"lv\":\"Una volta\"}",
+    "owner_note": "IT einmal native gala: dedupe Una volta•Una volta→Una volta (LV vienreiz•reiz same sense). DE untouched."
   },
   "g2/a1/it|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Una volta • Una volta\"}",
-    "owner_note": "IT einmal translation: LV Vienna • Reiz→Una volta • Una volta for einmal once. DE untouched."
+    "owner_new": "{\"study.translation\":\"Una volta\"}",
+    "owner_note": "IT einmal translation gala: dedupe→Una volta for einmal once. DE untouched."
   },
   "g2/a1/it|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -206,20 +206,20 @@
   "g2/a1/it|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Esso • Esso • Forma impersonale\"}",
-    "owner_note": "IT es native: LV Borsa • Tā→Esso • Esso • Forma impersonale for es pronoun. DE untouched."
+    "owner_new": "{\"lv\":\"Esso • Forma impersonale\"}",
+    "owner_note": "IT es native gala: remove Esso dup→Esso • Forma impersonale (LV tas•bezpersoniska). DE untouched."
   },
   "g2/a1/it|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "{\"study.comparison[0].meaning\":\"esso • forma impersonale\"}",
-    "owner_note": "IT es cmp[0]: confirm esso • forma impersonale for es impersonal. DE untouched."
+    "owner_note": "IT es cmp[0] gala: confirm esso • forma impersonale (LV tas • bezpersoniska forma). DE untouched."
   },
   "g2/a1/it|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Esso • Esso • Forma impersonale\"}",
-    "owner_note": "IT es translation: LV Borsa • Tā→Esso • Esso • Forma impersonale for es pronoun. DE untouched."
+    "owner_new": "{\"study.translation\":\"Esso • Forma impersonale\"}",
+    "owner_note": "IT es translation gala: remove Esso dup→Esso • Forma impersonale. DE untouched."
   },
   "g2/a1/it|a1-essen-study|a1.card.a1-essen-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -260,26 +260,26 @@
   "g2/a1/it|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Guidare • Portare • Trasportare\"}",
-    "owner_note": "IT fahren native: LV Braukt • Gilet→Guidare • Portare • Trasportare for fahren drive/take. DE untouched."
+    "owner_new": "{\"lv\":\"Guidare • Viaggiare in veicolo\"}",
+    "owner_note": "IT fahren native gala: LV braukt only→Guidare • Viaggiare in veicolo (not Portare/Trasportare). DE untouched."
   },
   "g2/a1/it|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Guidare • Portare • Trasportare\"}",
-    "owner_note": "IT fahren translation: LV Braukt • Gilet→Guidare • Portare • Trasportare for fahren drive/take. DE untouched."
+    "owner_new": "{\"study.translation\":\"Guidare • Viaggiare in veicolo\"}",
+    "owner_note": "IT fahren translation gala: LV braukt drive/travel→Guidare • Viaggiare in veicolo. DE untouched."
   },
   "g2/a1/it|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Trovare • Ritieni\"}",
-    "owner_note": "IT finden native: confirm Trovare • Ritieni for finden find/consider. DE untouched."
+    "owner_new": "{\"lv\":\"Trovare • Ritenere\"}",
+    "owner_note": "IT finden native gala: Ritieni→Ritenere infinitive (LV atrast find/consider). DE untouched."
   },
   "g2/a1/it|a1-finden|a1.card.a1-finden.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Trovare • Ritieni\"}",
-    "owner_note": "IT finden translation: confirm Trovare • Ritieni for finden find/consider. DE untouched."
+    "owner_new": "{\"study.translation\":\"Trovare • Ritenere\"}",
+    "owner_note": "IT finden translation gala: Ritieni→Ritenere infinitive dictionary form. DE untouched."
   },
   "g2/a1/it|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",

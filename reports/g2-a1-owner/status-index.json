@@ -579,7 +579,7 @@
         "reviewer": "gpt-5.6-luna",
         "isCards": 11,
         "itCards": 39,
-        "headSha": "eb687691",
+        "headSha": "511bd508",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-041-decisions.csv",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-residual-wrong-language-proof.json"
       }

@@ -1,10 +1,21 @@
 {
   "batch_id": "LRB-041",
   "classification": "LRB_041_RESIDUAL_PASS",
+  "repair_pass": true,
   "row_count": 50,
   "is_cards": 11,
   "it_cards": 39,
   "individual_linguistic": 50,
+  "gala_repair_items": [
+    "IS zweihundert tvö hundruð",
+    "IT einmal Una volta",
+    "IT es Esso•Forma impersonale",
+    "IT das Quale",
+    "IT besuch visita•visita a qualcuno•visita (ufficiale)",
+    "IT ein Articolo indefinito•Un/Uno",
+    "IT finden Trovare•Ritenere",
+    "IT fahren Guidare•Viaggiare in veicolo"
+  ],
   "failures": [],
-  "verdict": "LRB_041_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+  "verdict": "LRB_041_LINGUISTIC_REPAIR_PASS"
 }
