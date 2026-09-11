@@ -37,7 +37,13 @@
   ],
   "semantic_micro_repair_violations": 0,
   "semantic_violation_cards": [],
+  "gala_repair_cards": [
+    "Wetter",
+    "was",
+    "wissen"
+  ],
   "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  "verdict": "LRB_040_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-11T17:56:41.633Z"
+  "verdict": "LRB_040_LINGUISTIC_REPAIR_PASS",
+  "audit_type": "FRESH_POST_GALA_REPAIR",
+  "updatedAt": "2026-09-11T18:00:10.303Z"
 }
