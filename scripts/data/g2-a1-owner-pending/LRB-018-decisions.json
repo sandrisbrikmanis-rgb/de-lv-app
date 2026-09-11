@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|zweite|idx:682|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Toinen",
+    "owner_note": "FI zweite lv: ET Teine → FI Toinen for otrais second. DE untouched."
+  },
+  "g2/a1/fi|Zwiebel|idx:683|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sipuli",
+    "owner_note": "FI Zwiebel lv: ET Sibul → FI Sipuli for sīpols onion. DE untouched."
+  },
+  "g2/a1/fi|zwischen|idx:684|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Välissä",
+    "owner_note": "FI zwischen lv: ET Vahel → FI Välissä for starp between. DE untouched."
+  },
+  "g2/a1/fi|zwölf|idx:685|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaksitoista",
+    "owner_note": "FI zwölf lv: ET Kaksteist → FI Kaksitoista for divpadsmit twelve. DE untouched."
+  },
+  "g2/a1/fi|zwölfte|idx:686|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kahdestoista",
+    "owner_note": "FI zwölfte lv: ET Kaheteistkümnes → FI Kahdestoista for divpadsmitais twelfth. DE untouched."
+  },
+  "g2/a1/fr|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "À • Au • Présent",
+    "owner_note": "FR a1-an native: dedupe À • Au • Présent for pie/at-on edge senses. DE untouched."
+  },
+  "g2/a1/fr|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "À • Au • Présent",
+    "owner_note": "FR a1-an study.translation: mirrors native repair. DE untouched."
+  },
+  "g2/a1/fr|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Visite • Visite de courtoisie • Visite",
+    "owner_note": "FR besuch comparison[0]: apmeklējums/apciemojums/vizīte → distinct French visit senses. DE untouched."
+  },
+  "g2/a1/fr|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Apporter • Amener",
+    "owner_note": "FR bringen native: À emporter wrong for atnest/bringen; LABOT Apporter/Amener. DE untouched."
+  },
+  "g2/a1/fr|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Apporter • Amener",
+    "owner_note": "FR bringen study.translation: mirrors native bring/carry repair. DE untouched."
+  },
+  "g2/a1/fr|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Qui • Lequel • Que",
+    "owner_note": "FR das comparison[2]: dedupe Qui; add Que for accusative relative kurš/kura/kuru. DE untouched."
+  },
+  "g2/a1/fr|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Que • C'est que",
+    "owner_note": "FR dass comparison[1]: Parce que wrong for dass; LABOT Que/C'est que conjunction. DE untouched."
+  },
+  "g2/a1/fr|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Une fois • À une reprise",
+    "owner_note": "FR einmal native: vienreiz/reiz → Une fois/À une reprise once senses. DE untouched."
+  },
+  "g2/a1/fr|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Une fois • À une reprise",
+    "owner_note": "FR einmal study.translation: mirrors native once-frequency repair. DE untouched."
+  },
+  "g2/a1/fr|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Glace • Crème glacée",
+    "owner_note": "FR eis native: ledus/saldējums → Glace/Crème glacée ice vs ice-cream. DE untouched."
+  },
+  "g2/a1/fr|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Glace • Crème glacée",
+    "owner_note": "FR eis study.translation: mirrors native ice/cream split. DE untouched."
+  },
+  "g2/a1/fr|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ce • Il • Forme impersonnelle",
+    "owner_note": "FR es native: dedupe Il; Ce/Il/impersonal for tas/es it pronoun. DE untouched."
+  },
+  "g2/a1/fr|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ce • Il • Forme impersonnelle",
+    "owner_note": "FR es study.translation: mirrors native it/impersonal repair. DE untouched."
+  },
+  "g2/a1/fr|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vous • À vous",
+    "owner_note": "FR euch native: jūs/jums → Vous/À vous you-plural dative. DE untouched."
+  },
+  "g2/a1/fr|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vous • À vous",
+    "owner_note": "FR euch study.translation: mirrors native plural-you repair. DE untouched."
+  },
+  "g2/a1/fr|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pour • En faveur de",
+    "owner_note": "FR fuer native: priekš → Pour/En faveur de for/benefit für. DE untouched."
+  },
+  "g2/a1/fr|a1-fuer|a1.card.a1-fuer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pour • En faveur de",
+    "owner_note": "FR fuer study.translation: mirrors native for/benefit split. DE untouched."
+  },
+  "g2/a1/fr|a1-ins|a1.card.a1-ins.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Dans • Vers l'intérieur • Où ?",
+    "owner_note": "FR ins native: iekšā/uz iekšu/kurp → Dans/Vers l'intérieur/Où ? into-where. DE untouched."
+  },
+  "g2/a1/fr|a1-ins|a1.card.a1-ins.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Dans • Vers l'intérieur • Où ?",
+    "owner_note": "FR ins study.translation: mirrors native in/into-where repair. DE untouched."
+  },
+  "g2/a1/fr|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Long • Long (durée)",
+    "owner_note": "FR lang native: garš/ilgs → Long/Long (durée) length vs duration. DE untouched."
+  },
+  "g2/a1/fr|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Long • Long (durée)",
+    "owner_note": "FR lang study.translation: mirrors native long/time-span split. DE untouched."
+  },
+  "g2/a1/fr|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Faire • Fabriquer",
+    "owner_note": "FR machen native: darīt/taisīt → Faire/Fabriquer do vs make. DE untouched."
+  },
+  "g2/a1/fr|a1-machen|a1.card.a1-machen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Faire • Fabriquer",
+    "owner_note": "FR machen study.translation: mirrors native do/make repair. DE untouched."
+  },
+  "g2/a1/fr|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Prendre • Saisir",
+    "owner_note": "FR nehmen native: ņemt/paņemt → Prendre/Saisir take/grasp. DE untouched."
+  },
+  "g2/a1/fr|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Prendre • Saisir",
+    "owner_note": "FR nehmen study.translation: mirrors native take/grasp repair. DE untouched."
+  },
+  "g2/a1/fr|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Seulement • Uniquement",
+    "owner_note": "FR nur-study native: tikai/vienīgi → Seulement/Uniquement only/limit. DE untouched."
+  },
+  "g2/a1/fr|a1-nur-study|a1.card.a1-nur-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Seulement • Uniquement",
+    "owner_note": "FR nur-study study.translation: mirrors native only/limit repair. DE untouched."
+  },
+  "g2/a1/fr|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ou • Ou bien",
+    "owner_note": "FR oder native: vai/jeb → Ou/Ou bien choice or/alternative. DE untouched."
+  },
+  "g2/a1/fr|a1-oder|a1.card.a1-oder.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ou • Ou bien",
+    "owner_note": "FR oder study.translation: mirrors native choice/alternative repair. DE untouched."
+  },
+  "g2/a1/fr|a1-passen|a1.card.a1-passen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aller • Convenir",
+    "owner_note": "FR passen native: Ajustement wrong noun; LABOT Aller/Convenir fit/suit derēt. DE untouched."
+  },
+  "g2/a1/fr|a1-passen|a1.card.a1-passen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aller • Convenir",
+    "owner_note": "FR passen study.translation: mirrors native fit/suit verb repair. DE untouched."
+  },
+  "g2/a1/fr|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Qui • Lequel",
+    "owner_note": "FR wer native: kas/kurš → Qui/Lequel who/which-person. DE untouched."
+  },
+  "g2/a1/fr|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Qui • Lequel",
+    "owner_note": "FR wer study.translation: mirrors native who/which repair. DE untouched."
+  },
+  "g2/a1/fr|a1-zu|a1.card.a1-zu.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "À • Chez",
+    "owner_note": "FR zu native: uz/pie → À/Chez to/at-person direction. DE untouched."
+  },
+  "g2/a1/fr|a1-zu|a1.card.a1-zu.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "À • Chez",
+    "owner_note": "FR zu study.translation: mirrors native to/at-person repair. DE untouched."
+  },
+  "g2/a1/fr|a1-zum|a1.card.a1-zum.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Au • À",
+    "owner_note": "FR zum native: uz/pie → Au/À contracted to-the zum. DE untouched."
+  },
+  "g2/a1/fr|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Au • À",
+    "owner_note": "FR zum study.translation: mirrors native to-the contraction repair. DE untouched."
+  },
+  "g2/a1/fr|ab|idx:17|study.translation; study.examples; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR ab study: Depuis/À partir de examples and von/aus contrast already correct for no/ab. DE untouched."
+  },
+  "g2/a1/fr|aber|idx:21|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR aber study: Mais/contrast teaching and sondern/jedoch contrast align with bet. DE untouched."
+  },
+  "g2/a1/fr|an|idx:12|study.translation; study.examples; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"À • Au • Présent\",\"study.examples[0].lv\":\"Sur le mur\",\"study.examples[1].lv\":\"À la fenêtre\",\"study.examples[2].lv\":\"Au bord de la mer\"}",
+    "owner_note": "FR an composite: dedupe À/Au/Présent translation; fix examples[0] duplicate sur le mur. DE untouched."
+  },
+  "g2/a1/fr|Appetit|idx:689|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[1]\":\"Incorrect : l'appétit → Correct : der Appetit\",\"study.important[2]\":\"Incorrect : Ich bin Appetit. → Correct : J'ai de l'appétit.\"}",
+    "owner_note": "FR Appetit composite: replace Latvian Nepareizi/Pareizi leaks in study.important with French. DE untouched."
+  },
+  "g2/a1/fr|Besuch|idx:87|study.explanation|STYLE_ONLY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Idée principale : der Besuch signifie visite, visite de courtoisie ou passage.\",\"study.explanation[1]\":\"Si on parle d'un lieu ou d'un événement, en français le mot approprié est visite.\",\"study.explanation[2]\":\"Si on parle de la visite d'une personne, en français on peut dire visite de courtoisie ou passage.\",\"study.explanation[3]\":\"Le pluriel est die Besuche.\"}",
+    "owner_note": "FR Besuch explanation: remove triple visite repetition; improve fluency for apmeklējums senses. DE untouched."
+  },
+  "g2/a1/fr|bis|idx:91|study.comparison|SEMANTIC_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].example\":\"Ich bleibe bis morgen. – Je reste jusqu'à demain.\",\"study.comparison[1].example\":\"bis zum Bahnhof – jusqu'à la gare\",\"study.comparison[2].example\":\"Bis jetzt habe ich nichts verstanden. – Jusqu'à présent, je n'ai rien compris.\",\"study.comparison[3].example\":\"Bis jetzt ist alles gut. – Jusqu'ici, tout va bien.\"}",
+    "owner_note": "FR bis comparison: fix scrambled examples (18h00/work-hours/waiting) → jusqu'à demain/gare/présent. DE untouched."
+  },
+  "g2/a1/fr|bitte|idx:93|study.examples|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Une tasse de café, s'il vous plaît.\",\"study.examples[1].lv\":\"Entre, s'il te plaît.\",\"study.examples[2].lv\":\"Je vous en prie !\",\"study.examples[3].lv\":\"Puis-je demander, s'il vous plaît ?\",\"study.examples[4].lv\":\"J'ai une demande.\",\"study.examples[5].lv\":\"La demande est importante.\"}",
+    "owner_note": "FR bitte examples: unscramble permuted S'il te plaît/coffee-cup translations per German prompts. DE untouched."
+  },
+  "g2/a1/fr|ein|idx:154|lv, study.translation, study.explanation, study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[3].lv\":\"Un enfant joue.\"}",
+    "owner_note": "FR ein composite: examples[3] L'enfant→Un enfant for Ein Kind indefinite article. DE untouched."
+  }
+}
