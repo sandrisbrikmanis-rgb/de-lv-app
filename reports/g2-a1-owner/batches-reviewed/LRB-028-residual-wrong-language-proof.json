@@ -20,6 +20,6 @@
   "semantic_micro_repair_violations": 0,
   "semantic_violation_cards": [],
   "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  "verdict": "LRB_028_LINGUISTIC_REPAIR_PASS",
+  "verdict": "LRB_028_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "updatedAt": "2026-09-11T15:53:27.209Z"
 }
