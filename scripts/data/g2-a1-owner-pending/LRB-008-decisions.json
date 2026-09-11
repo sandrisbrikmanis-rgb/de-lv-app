@@ -26,14 +26,14 @@
   "g2/a1/fi|Besuch|idx:87|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.comparison[1].meaning\":\"Vierailija\"}",
-    "owner_note": "FI Besuch micro-repair: comparison[1].meaning ET Külastaja → FI Vierailija; rest already natural FI. DE untouched."
+    "owner_new": "{\"study.explanation[1]\":\"Jos puhutaan paikasta tai tapahtumasta, suomeksi sopiva on vierailu.\",\"study.explanation[2]\":\"Jos Besuch koskee henkilöä, suomeksi voi sanoa vierailu tai käynti.\",\"study.comparison[0].meaning\":\"vierailu • käynti\",\"study.comparison[1].meaning\":\"Vierailija\",\"study.tip.text\":\"Muista: Besuch tarkoittaa vierailua tai käyntiä, mutta Besucher tarkoittaa henkilöä.\"}",
+    "owner_note": "FI Besuch micro-repair: explanation latviaksi→suomeksi; comparison[0] dedupe; tip FI Besuch/Besucher contrast. DE untouched."
   },
   "g2/a1/fi|besuchen|idx:89|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.comparison[2].example\":\"Ich gehe zu meinem Freund. – Menen ystäväni luo.\"}",
-    "owner_note": "FI besuchen micro-repair: comparison[2] example ET sõbra juurde → FI ystäväni luo for zu jemandem gehen contrast. DE untouched."
+    "owner_new": "{\"study.explanation[1]\":\"Paikkaa, tapahtumaa tai kurssia suomeksi yleensä vieraillaan.\",\"study.explanation[2]\":\"Jos besuchen koskee henkilöä, suomeksi usein luontevampaa on käydä jonkun luona.\",\"study.explanation[3]\":\"Saksan kielessä besuchen käytetään ilman prepositiota ja akkusatiivin kanssa.\",\"study.comparison[2].example\":\"Ich gehe zu meinem Freund. – Menen ystäväni luo.\",\"study.tip.text\":\"Muista: paikkaa voi vierailla, mutta henkilön luona yleensä käydään.\"}",
+    "owner_note": "FI besuchen micro-repair: explanation latviaksi→suomeksi + Saksan kielessä prepositio rule; tip FI place vs person. DE untouched."
   },
   "g2/a1/fi|bis|idx:91|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -110,8 +110,8 @@
   "g2/a1/fi|da|idx:126|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Siellä • Täällä\",\"study.translation\":\"Siellä • Täällä\",\"study.explanation[0]\":\"Pääajatus: da tarkoittaa A1-tasolla useimmiten siellä tai täällä.\",\"study.explanation[1]\":\"Da viittaa paikkaan tai jo mainittuun asiaan.\",\"study.explanation[2]\":\"Tilanteesta riippuen sitä voidaan kääntää myös tänne tai sinne.\",\"study.explanation[3]\":\"A1-tasolla opimme sanan da pääasiassa yleisenä paikan adverbina.\",\"study.examples[0].lv\":\"Siellä on autoni.\",\"study.examples[1].lv\":\"Olin siellä.\",\"study.examples[2].lv\":\"Tässä hän tulee.\",\"study.examples[3].lv\":\"Tule tänne!\",\"study.comparison[0].meaning\":\"Siellä • Täällä • Tässä (yleisesti)\",\"study.comparison[1].meaning\":\"Tässä (tietyssä paikassa)\",\"study.comparison[2].meaning\":\"Tuolla (kauempana)\",\"study.comparison[3].meaning\":\"Sitten\",\"study.important[0]\":\"da on yleinen paikan adverbi.\",\"study.important[1]\":\"hier on konkreettisesti \\\"tässä\\\", dort on kauempana \\\"tuolla\\\".\"}",
-    "owner_note": "FI da: ET Seal/siin tuleb → FI Siellä/Täällä place-adverb teaching with hier/dort/dann contrast. DE untouched."
+    "owner_new": "{\"study.examples[2].lv\":\"Tuolta hän tulee.\"}",
+    "owner_note": "FI da micro-repair: examples[2] Da kommt er Tässä→Tuolta (there-approach, not here). Other da subfields unchanged. DE untouched."
   },
   "g2/a1/fi|danken|idx:127|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
