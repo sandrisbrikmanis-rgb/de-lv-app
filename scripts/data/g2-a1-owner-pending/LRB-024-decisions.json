@@ -1,0 +1,302 @@
+{
+  "g2/a1/hu|a1-huebsch|a1.card.a1-huebsch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-huebsch: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-ihr|a1.card.a1-ihr.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ti • Neki\"}",
+    "owner_note": "HU a1-ihr native: sg Te/Őt→Ti•Neki for jūs•viņai (you pl/to her). DE untouched."
+  },
+  "g2/a1/hu|a1-ihr|a1.card.a1-ihr.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Ti • Neki\"}",
+    "owner_note": "HU a1-ihr translation: sg Te/Őt→Ti•Neki for jūs•viņai. DE untouched."
+  },
+  "g2/a1/hu|a1-im|a1.card.a1-im.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-ban/-ben • Hol?\"}",
+    "owner_note": "HU a1-im native: corrupt Hol? only→-ban/-ben•Hol? for iekšā•kur?. DE untouched."
+  },
+  "g2/a1/hu|a1-im|a1.card.a1-im.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"-ban/-ben • Hol?\"}",
+    "owner_note": "HU a1-im translation: corrupt Hol? only→-ban/-ben•Hol? for iekšā•kur?. DE untouched."
+  },
+  "g2/a1/hu|a1-in|a1.card.a1-in.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-ban/-ben • -ba/-be\"}",
+    "owner_note": "HU a1-in native: EN In/To→-ban/-ben•-ba/-be for iekšā•uz. DE untouched."
+  },
+  "g2/a1/hu|a1-in|a1.card.a1-in.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"-ban/-ben • -ba/-be\"}",
+    "owner_note": "HU a1-in translation: EN In/To→-ban/-ben•-ba/-be for iekšā•uz. DE untouched."
+  },
+  "g2/a1/hu|a1-ins|a1.card.a1-ins.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Be • Bele • Hova?\"}",
+    "owner_note": "HU a1-ins native: wrong Be•Be•Hova?→Be•Bele•Hova? for iekšā•uz iekšu•kurp?. DE untouched."
+  },
+  "g2/a1/hu|a1-ins|a1.card.a1-ins.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Be • Bele • Hova?\"}",
+    "owner_note": "HU a1-ins translation: wrong Be•Be•Hova?→Be•Bele•Hova? for iekšā•uz iekšu•kurp?. DE untouched."
+  },
+  "g2/a1/hu|a1-kein|a1.card.a1-kein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-kein: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-kein|a1.card.a1-kein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-kein: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-koennen|a1.card.a1-koennen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Képes • Tudni\"}",
+    "owner_note": "HU a1-koennen native: duplicate Tudni→Képes•Tudni for varēt•prast. DE untouched."
+  },
+  "g2/a1/hu|a1-koennen|a1.card.a1-koennen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Képes • Tudni\"}",
+    "owner_note": "HU a1-koennen translation: duplicate Tudni→Képes•Tudni for varēt•prast. DE untouched."
+  },
+  "g2/a1/hu|a1-kosten|a1.card.a1-kosten.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-kosten: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-land|a1.card.a1-land.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-land: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-land|a1.card.a1-land.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-land: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Hosszú • Hosszan\"}",
+    "owner_note": "HU a1-lang native: duplicate Hosszú→Hosszú•Hosszan for garš•ilgs. DE untouched."
+  },
+  "g2/a1/hu|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Hosszú • Hosszan\"}",
+    "owner_note": "HU a1-lang translation: duplicate Hosszú→Hosszú•Hosszan for garš•ilgs. DE untouched."
+  },
+  "g2/a1/hu|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Enged • Hagy\"}",
+    "owner_note": "HU a1-lassen native: duplicate Hagyja→Enged•Hagy for atstāt•ļaut. DE untouched."
+  },
+  "g2/a1/hu|a1-lassen|a1.card.a1-lassen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Enged • Hagy\"}",
+    "owner_note": "HU a1-lassen translation: duplicate Hagyja→Enged•Hagy for atstāt•ļaut. DE untouched."
+  },
+  "g2/a1/hu|a1-laufen|a1.card.a1-laufen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Futni • Működik\"}",
+    "owner_note": "HU a1-laufen native: wrong Működtetni→Futni•Működik for skriet•darboties. DE untouched."
+  },
+  "g2/a1/hu|a1-laufen|a1.card.a1-laufen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Futni • Működik\"}",
+    "owner_note": "HU a1-laufen translation: wrong Működtetni→Futni•Működik for skriet•darboties. DE untouched."
+  },
+  "g2/a1/hu|a1-liegen|a1.card.a1-liegen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Van • Fekszik\"}",
+    "owner_note": "HU a1-liegen native: wrong Lenni→Van•Fekszik for atrasties•gulēt. DE untouched."
+  },
+  "g2/a1/hu|a1-liegen|a1.card.a1-liegen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Van • Fekszik\"}",
+    "owner_note": "HU a1-liegen translation: wrong Lenni→Van•Fekszik for atrasties•gulēt. DE untouched."
+  },
+  "g2/a1/hu|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-machen: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-machen|a1.card.a1-machen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-machen: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-mann|a1.card.a1-mann.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-mann: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-mann|a1.card.a1-mann.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-mann: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-nach|a1.card.a1-nach.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Felé • Után\"}",
+    "owner_note": "HU a1-nach native: wrong Hogy→Felé•Után for uz•pēc. DE untouched."
+  },
+  "g2/a1/hu|a1-nach|a1.card.a1-nach.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Felé • Után\"}",
+    "owner_note": "HU a1-nach translation: wrong Hogy→Felé•Után for uz•pēc. DE untouched."
+  },
+  "g2/a1/hu|a1-natuerlich|a1.card.a1-natuerlich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-natuerlich: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-natuerlich|a1.card.a1-natuerlich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-natuerlich: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Venni • Elvenni\"}",
+    "owner_note": "HU a1-nehmen native: duplicate Venni→Venni•Elvenni for ņemt•paņemt. DE untouched."
+  },
+  "g2/a1/hu|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Venni • Elvenni\"}",
+    "owner_note": "HU a1-nehmen translation: duplicate Venni→Venni•Elvenni for ņemt•paņemt. DE untouched."
+  },
+  "g2/a1/hu|a1-neu|a1.card.a1-neu.study.explanation[5]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-neu: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Csak • Kizárólag\"}",
+    "owner_note": "HU a1-nur-study native: duplicate Csak→Csak•Kizárólag for tikai•vienīgi. DE untouched."
+  },
+  "g2/a1/hu|a1-nur-study|a1.card.a1-nur-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Csak • Kizárólag\"}",
+    "owner_note": "HU a1-nur-study translation: duplicate Csak→Csak•Kizárólag for tikai•vienīgi. DE untouched."
+  },
+  "g2/a1/hu|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vagy • Akár\"}",
+    "owner_note": "HU a1-oder native: duplicate Vagy→Vagy•Akár for vai•jeb. DE untouched."
+  },
+  "g2/a1/hu|a1-oder|a1.card.a1-oder.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Vagy • Akár\"}",
+    "owner_note": "HU a1-oder translation: duplicate Vagy→Vagy•Akár for vai•jeb. DE untouched."
+  },
+  "g2/a1/hu|a1-passen|a1.card.a1-passen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Illik • Illeszkedik\"}",
+    "owner_note": "HU a1-passen native: duplicate Illeszkedik→Illik•Illeszkedik for derēt•piestāvēt. DE untouched."
+  },
+  "g2/a1/hu|a1-passen|a1.card.a1-passen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Illik • Illeszkedik\"}",
+    "owner_note": "HU a1-passen translation: duplicate Illeszkedik→Illik•Illeszkedik for derēt•piestāvēt. DE untouched."
+  },
+  "g2/a1/hu|a1-probieren|a1.card.a1-probieren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-probieren: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-probieren|a1.card.a1-probieren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-probieren: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-seite|a1.card.a1-seite.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-seite: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-seite|a1.card.a1-seite.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-seite: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-sich|a1.card.a1-sich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-sich: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-sich|a1.card.a1-sich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-sich: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-sicher|a1.card.a1-sicher.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-sicher: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-sicher|a1.card.a1-sicher.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-sicher: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-ueber|a1.card.a1-ueber.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Fölött • -ról/-ről\"}",
+    "owner_note": "HU a1-ueber native: EN Over/For→Fölött•-ról/-ről for virs•par. DE untouched."
+  }
+}

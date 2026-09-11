@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-11T17:05:00.000Z",
+  "updatedAt": "2026-09-11T17:15:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -39,7 +39,8 @@
       "LRB-020",
       "LRB-021",
       "LRB-022",
-      "LRB-023"
+      "LRB-023",
+      "LRB-024"
     ],
     "ingestApproved": false,
     "applyApproved": false
@@ -76,8 +77,8 @@
     "batchPrefix": "LRB",
     "batchSize": 50,
     "batchesTotal": 103,
-    "batchesReviewed": 23,
-    "batchesAntiBulkPass": 23,
+    "batchesReviewed": 24,
+    "batchesAntiBulkPass": 24,
     "batchesSpotCheckPass": 23,
     "linguisticVerdicts": {
       "LRB-001": {
@@ -309,18 +310,28 @@
         "antiBulkPass": true,
         "headSha": "17cb9a3c",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-023-decisions.csv"
+      },
+      "LRB-024": {
+        "verdict": "LRB_024_LINGUISTIC_REPAIR_PASS",
+        "status": "LINGUISTIC_REVIEW_COMPLETE",
+        "labot": 29,
+        "nelabot": 21,
+        "pending": 0,
+        "antiBulkPass": true,
+        "headSha": "pending",
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-024-decisions.csv"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-023",
-      "labot": 22,
-      "nelabot": 28,
+      "batch_id": "LRB-024",
+      "labot": 29,
+      "nelabot": 21,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-023-decisions.csv",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-023-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-023-anti-bulk-proof.json"
+      "linguisticVerdict": "LRB_024_LINGUISTIC_REPAIR_PASS",
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-024-decisions.csv",
+      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-024-proof.json",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-024-anti-bulk-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
