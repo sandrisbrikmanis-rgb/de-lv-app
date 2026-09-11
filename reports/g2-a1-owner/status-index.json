@@ -40,7 +40,8 @@
       "LRB-021",
       "LRB-022",
       "LRB-023",
-      "LRB-024"
+      "LRB-024",
+      "LRB-025"
     ],
     "ingestApproved": false,
     "applyApproved": false
@@ -318,7 +319,7 @@
         "nelabot": 17,
         "pending": 0,
         "antiBulkPass": true,
-        "headSha": "pending",
+        "headSha": "561ddcd7",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-024-decisions.csv"
       }
     },
