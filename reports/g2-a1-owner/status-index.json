@@ -81,8 +81,8 @@
     "batchSize": 50,
     "batchesTotal": 103,
     "batchesReviewed": 27,
-    "batchesLinguisticallyClosed": 26,
-    "rowsLinguisticallyClosed": 1300,
+    "batchesLinguisticallyClosed": 27,
+    "rowsLinguisticallyClosed": 1350,
     "batchesAntiBulkPass": 27,
     "batchesSpotCheckPass": 27,
     "linguisticVerdicts": {
@@ -353,8 +353,8 @@
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-026-residual-wrong-language-proof.json"
       },
       "LRB-027": {
-        "verdict": "LRB_027_LINGUISTIC_REPAIR_PASS",
-        "status": "LINGUISTIC_REVIEW_COMPLETE",
+        "verdict": "LRB_027_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
         "labot": 47,
         "nelabot": 3,
         "pending": 0,
@@ -376,7 +376,7 @@
       "residualAuditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "gpt-5.6-luna",
-      "linguisticVerdict": "LRB_027_LINGUISTIC_REPAIR_PASS",
+      "linguisticVerdict": "LRB_027_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-027-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-027-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-027-anti-bulk-proof.json",
