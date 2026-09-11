@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Blume|idx:104|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"blóm\"}",
+    "owner_note": "IS Blume lv: NO Liten→blóm for puķe flower. DE untouched."
+  },
+  "g2/a1/is|Boot|idx:105|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bátur\"}",
+    "owner_note": "IS Boot lv: NL Paat→bátur for laiva boat. DE untouched."
+  },
+  "g2/a1/is|brauchen|idx:106|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þurfa\"}",
+    "owner_note": "IS brauchen lv: PL Wajama→þurfa for vajadzēt need. DE untouched."
+  },
+  "g2/a1/is|braun|idx:107|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"brúnn\"}",
+    "owner_note": "IS braun lv: NO Beskjær→brúnn for brūns brown. DE untouched."
+  },
+  "g2/a1/is|breit|idx:108|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"breiður\"}",
+    "owner_note": "IS breit lv: LV Lai→breiður for plats wide. DE untouched."
+  },
+  "g2/a1/is|Brief|idx:109|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bréf\"}",
+    "owner_note": "IS Brief lv: FI Kiri→bréf for vēstule letter. DE untouched."
+  },
+  "g2/a1/is|bringen|idx:111|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"bera • koma með\",\"study.explanation\":[\"Meginhugsun: bringen þýðir að bera eða koma með eitthvað til einhvers eða á stað.\",\"Notað þegar eitthvað er fært til annars manns eða á ákveðinn stað.\",\"Þetta er ekki sama og nehmen — nehmen þýðir að taka.\",\"Holen þýðir að fara og sækja eitthvað.\",\"Íslenska þýðingin fer eftir samhenginu.\"],\"study.examples[0].lv\":\"Ég ber þér bók.\",\"study.examples[1].lv\":\"Ég fer með pakkann á pósthúsið.\",\"study.examples[2].lv\":\"Ég fer með börnin í skólann.\",\"study.examples[3].lv\":\"Ég tek bókina.\",\"study.comparison[0].meaning\":\"bera / koma með\",\"study.comparison[0].example\":\"Ich bringe dir ein Buch. – Ég ber þér bók.\",\"study.comparison[1].meaning\":\"fara með á stað\",\"study.comparison[1].example\":\"Ich bringe das Paket zur Post. – Ég fer með pakkann á pósthúsið.\",\"study.comparison[2].meaning\":\"fara með (börn)\",\"study.comparison[2].example\":\"Ich bringe die Kinder zur Schule. – Ég fer með börnin í skólann.\",\"study.comparison[3].meaning\":\"taka\",\"study.comparison[3].example\":\"Ich nehme das Buch. – Ég tek bókina.\",\"study.comparison[4].meaning\":\"sækja\",\"study.comparison[4].example\":\"Ich hole Wasser. – Ég sæki vatn.\",\"study.tip.text\":\"Mundu: færir til einhvers → bringen; tekur → nehmen.\",\"study.important[0]\":\"bringen sýnir stefnu til einhvers eða á stað.\",\"study.important[1]\":\"nehmen þýðir að taka, en ekki endilega að koma með til annars.\",\"study.important[2]\":\"Íslenska þýðingin fer eftir samhenginu.\"}",
+    "owner_note": "IS bringen composite: ET/NO Tooma/Viima→bera•koma með throughout study fields for atnest. DE untouched."
+  },
+  "g2/a1/is|Brot|idx:1|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"brauð\"}",
+    "owner_note": "IS Brot lv: DE Leib→brauð for maize bread. DE untouched."
+  },
+  "g2/a1/is|Brötchen|idx:113|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"brauðstykki\"}",
+    "owner_note": "IS Brötchen lv: EN Cuckold→brauðstykki for maizīte bread roll. DE untouched."
+  },
+  "g2/a1/is|Bruder|idx:115|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bróðir\"}",
+    "owner_note": "IS Bruder lv: NO Vend→bróðir for brālis brother. DE untouched."
+  },
+  "g2/a1/is|Buch|idx:116|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bók\"}",
+    "owner_note": "IS Buch lv: ET Raamat→bók for grāmata book. DE untouched."
+  },
+  "g2/a1/is|Buchstabe|idx:117|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"stafur\"}",
+    "owner_note": "IS Buchstabe lv: ET Täht→stafur for burts letter. DE untouched."
+  },
+  "g2/a1/is|Büro|idx:118|lv|FORM_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"skrifstofa\"}",
+    "owner_note": "IS Büro lv: NO Kontor→skrifstofa for birojs office. DE untouched."
+  },
+  "g2/a1/is|Bus|idx:119|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"strætisvagn\"}",
+    "owner_note": "IS Bus lv: DE/SC Buss→strætisvagn for autobuss bus. DE untouched."
+  },
+  "g2/a1/is|Café|idx:121|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kaffihús\"}",
+    "owner_note": "IS Café lv: ET Kohvik→kaffihús for kafejnīca café. DE untouched."
+  },
+  "g2/a1/is|Computer|idx:123|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tölva\"}",
+    "owner_note": "IS Computer lv: ET Arvuti→tölva for dators computer. DE untouched."
+  },
+  "g2/a1/is|Cousin|idx:124|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"frændi\"}",
+    "owner_note": "IS Cousin lv: ET Nõbu→frændi for brālēns male cousin. DE untouched."
+  },
+  "g2/a1/is|Cousine|idx:125|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"frænka\"}",
+    "owner_note": "IS Cousine lv: ET Nõbu→frænka for māsīca female cousin. DE untouched."
+  },
+  "g2/a1/is|da|idx:126|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"þar\",\"study.explanation\":[\"Meginhugsun: da er almennt staðarorð fyrir „þar“.\",\"Da vísar oft til staðar sem þegar hefur verið nefndur eða er augljós í samhenginu.\",\"Það getur líka verið staðarsetning í setningu.\",\"Á íslensku er oft notað „þar“ eða „þarna“.\"],\"study.examples[0].lv\":\"Þar er bíllinn minn.\",\"study.examples[1].lv\":\"Ég var þar.\",\"study.examples[2].lv\":\"Þar kemur hann.\",\"study.examples[3].lv\":\"Komdu hingað!\",\"study.comparison[0].meaning\":\"þar (almennt)\",\"study.comparison[0].example\":\"Da ist mein Auto. – Þar er bíllinn minn.\",\"study.comparison[1].meaning\":\"hér\",\"study.comparison[1].example\":\"Hier ist mein Auto. – Hér er bíllinn minn.\",\"study.comparison[2].meaning\":\"þar (fjær)\",\"study.comparison[2].example\":\"Dort ist mein Auto. – Þar er bíllinn minn.\",\"study.comparison[3].meaning\":\"þá\",\"study.comparison[3].example\":\"Dann gehen wir nach Hause. – Þá förum við heim.\",\"study.tip.text\":\"Mundu: almennt þar → da.\",\"study.important[0]\":\"da er almennt staðarorð.\",\"study.important[1]\":\"hier er sérstaklega „hér“, dort er fjarlægara „þar“.\"}",
+    "owner_note": "IS da composite: NO Forsegle/ET→þar throughout study fields for tur. DE untouched."
+  },
+  "g2/a1/is|danken|idx:127|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þakka\"}",
+    "owner_note": "IS danken lv: ET Tänama→þakka for pateikties thank. DE untouched."
+  },
+  "g2/a1/is|dann|idx:128|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þá\"}",
+    "owner_note": "IS dann lv: ET Sis→þá for tad then. DE untouched."
+  },
+  "g2/a1/is|Datum|idx:131|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dagsetning\"}",
+    "owner_note": "IS Datum lv: ET Kuupäev→dagsetning for datums date. DE untouched."
+  },
+  "g2/a1/is|dein|idx:132|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þinn\"}",
+    "owner_note": "IS dein lv: ET Sinu→þinn for tavs your. DE untouched."
+  },
+  "g2/a1/is|denken|idx:133|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hugsa\"}",
+    "owner_note": "IS denken lv: ET Mõtlema→hugsa for domāt think. DE untouched."
+  },
+  "g2/a1/is|deutsch|idx:135|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þýskur\"}",
+    "owner_note": "IS deutsch lv: NO Saksisk→þýskur for vācu German. DE untouched."
+  },
+  "g2/a1/is|Dezember|idx:136|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"desember\"}",
+    "owner_note": "IS Dezember lv: ET Desember→desember for decembris December. DE untouched."
+  },
+  "g2/a1/is|Dienstag|idx:138|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þriðjudagur\"}",
+    "owner_note": "IS Dienstag lv: NO Tirsdag→þriðjudagur for otrdiena Tuesday. DE untouched."
+  },
+  "g2/a1/is|Ding|idx:140|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hlutur\"}",
+    "owner_note": "IS Ding lv: garbage Asia→hlutur for lieta thing. DE untouched."
+  },
+  "g2/a1/is|Donnerstag|idx:141|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fimmtudagur\"}",
+    "owner_note": "IS Donnerstag lv: ET Neljapäev→fimmtudagur for ceturtdiena Thursday. DE untouched."
+  },
+  "g2/a1/is|dort|idx:142|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þar\"}",
+    "owner_note": "IS dort lv: NO Forsegle→þar for tur there. DE untouched."
+  },
+  "g2/a1/is|drei|idx:143|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þrír\"}",
+    "owner_note": "IS drei lv: ET Kolm→þrír for trīs three. DE untouched."
+  },
+  "g2/a1/is|dreihundert|idx:144|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þrjú hundruð\"}",
+    "owner_note": "IS dreihundert lv: ET Kolmsada→þrjú hundruð for trīssimt three hundred. DE untouched."
+  },
+  "g2/a1/is|dreimal|idx:145|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þrisvar\"}",
+    "owner_note": "IS dreimal lv: ET Kolm Korda→þrisvar for trīsreiz three times. DE untouched."
+  },
+  "g2/a1/is|dreißig|idx:146|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þrjátíu\"}",
+    "owner_note": "IS dreißig lv: NO Førti→þrjátíu for trīsdesmit thirty. DE untouched."
+  },
+  "g2/a1/is|dreizehn|idx:147|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þrettán\"}",
+    "owner_note": "IS dreizehn lv: ET Kolmtheist→þrettán for trīspadsmit thirteen. DE untouched."
+  },
+  "g2/a1/is|dritte|idx:148|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þriðja\"}",
+    "owner_note": "IS dritte lv: ET Kolmas→þriðja for trešais third. DE untouched."
+  },
+  "g2/a1/is|dürfen|idx:150|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"mega\"}",
+    "owner_note": "IS dürfen lv: ET Tohtima→mega for drīkstēt may/be allowed. DE untouched."
+  },
+  "g2/a1/is|Dusche|idx:151|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sturta\"}",
+    "owner_note": "IS Dusche lv: NO Dusj→sturta for duša shower. DE untouched."
+  },
+  "g2/a1/is|Ecke|idx:152|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"horn\"}",
+    "owner_note": "IS Ecke lv: ET Nurk→horn for stūris corner. DE untouched."
+  },
+  "g2/a1/is|Ei|idx:153|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"egg\"}",
+    "owner_note": "IS Ei lv: NO Munn→egg for ola egg. DE untouched."
+  },
+  "g2/a1/is|ein|idx:154|lv; study.translation; study.explanation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"einn\",\"study.translation\":\"einn\",\"study.explanation\":[\"Meginhugsun: ein er óákveðinn greinir.\",\"ein er notað fyrir karlkyn og hlutlaust kyn í nefnifalli: ein Mann, ein Buch.\",\"Fyrir kvenkyn er notað: eine.\",\"Í þolfalli fyrir karlkyn: einen.\"],\"study.examples[0].lv\":\"Maður bíður úti.\",\"study.examples[1].lv\":\"Ég á bók.\",\"study.examples[2].lv\":\"Hann leitar að blýanti.\",\"study.examples[3].lv\":\"Barn leikur.\",\"study.comparison[0].meaning\":\"karlkyn\",\"study.comparison[0].example\":\"Ein Mann wartet draußen. – Maður bíður úti.\",\"study.comparison[1].meaning\":\"kvenkyn\",\"study.comparison[1].example\":\"eine Frau – kona\",\"study.comparison[2].meaning\":\"hlutlaust kyn\",\"study.comparison[2].example\":\"ein Buch – bók\",\"study.comparison[3].meaning\":\"þolfall\",\"study.comparison[3].example\":\"einen Mann – mann\"}",
+    "owner_note": "IS ein composite: ET Umbmäärane/Üks→einn throughout lv/study fields for nenoteiktais artikuls. DE untouched."
+  },
+  "g2/a1/is|einfach|idx:155|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"einfaldur\"}",
+    "owner_note": "IS einfach lv: garbage Lett→einfaldur for vienkāršs simple. DE untouched."
+  },
+  "g2/a1/is|eins|idx:156|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"einn\"}",
+    "owner_note": "IS eins lv: NO En→einn for viens one. DE untouched."
+  },
+  "g2/a1/is|Eis|idx:157|lv; study.translation; study.explanation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"klaki • ís\",\"study.translation\":\"klaki • ís\",\"study.explanation\":[\"Meginhugsun: das Eis getur þýtt bæði klaki og ís (ísja).\",\"Ef talað er um frjósið vatn á vatni eða á jörðu, er klaki viðeigandi.\",\"Ef talað er um ísja eða eftirrétt, er ís viðeigandi.\",\"Samhengið ræður hvaða merking passar.\"],\"study.examples[0].lv\":\"Ég borða ís.\",\"study.examples[1].lv\":\"Viltu ís?\",\"study.examples[2].lv\":\"Í vetur er klaki á vatninu.\",\"study.examples[3].lv\":\"Klakið er kalt.\",\"study.examples[4].lv\":\"Ég tek súkkulaðaís.\",\"study.comparison[0].meaning\":\"klaki / ís\",\"study.comparison[0].example\":\"Ich esse ein Eis. – Ég borða ís.\",\"study.comparison[1].meaning\":\"snjór\",\"study.comparison[1].example\":\"Der Schnee ist weiß. – Snjórinn er hvítur.\",\"study.comparison[2].meaning\":\"kalt\",\"study.comparison[2].example\":\"Das Wasser ist kalt. – Vatnið er kalt.\",\"study.comparison[3].meaning\":\"eftirréttur\",\"study.comparison[3].example\":\"Eis ist ein Dessert. – Ís er eftirréttur.\"}",
+    "owner_note": "IS Eis composite: ET/NO Jää/Iskrem→klaki•ís throughout lv/study fields for ledus•saldējums. DE untouched."
+  },
+  "g2/a1/is|elf|idx:158|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ellefu\"}",
+    "owner_note": "IS elf lv: ET Üksteist→ellefu for vienpadsmit eleven. DE untouched."
+  },
+  "g2/a1/is|Eltern|idx:160|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"foreldrar\"}",
+    "owner_note": "IS Eltern lv: NO Vanlig→foreldrar for vecāki parents. DE untouched."
+  },
+  "g2/a1/is|Ende|idx:161|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"endi\"}",
+    "owner_note": "IS Ende lv: NO Løp→endi for beigas end. DE untouched."
+  },
+  "g2/a1/is|er|idx:162|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hann\"}",
+    "owner_note": "IS er lv: ES Tema→hann for viņš he. DE untouched."
+  },
+  "g2/a1/is|Erdbeere|idx:76|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"jarðarber\"}",
+    "owner_note": "IS Erdbeere lv: ET Maasika sin→jarðarber for zemene strawberry. DE untouched."
+  },
+  "g2/a1/is|Erde|idx:164|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"jörð\"}",
+    "owner_note": "IS Erde lv: FI Maa→jörð for zeme earth. DE untouched."
+  }
+}
