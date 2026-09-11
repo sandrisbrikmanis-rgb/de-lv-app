@@ -330,7 +330,7 @@
         "pending": 0,
         "antiBulkPass": true,
         "residualAuditPass": true,
-        "headSha": "db00225e",
+        "headSha": "780a41f5",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-025-decisions.csv",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-025-residual-wrong-language-proof.json"
       }
