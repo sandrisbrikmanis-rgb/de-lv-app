@@ -42,6 +42,6 @@
     "jung"
   ],
   "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  "verdict": "LRB_033_LINGUISTIC_REPAIR_PASS",
-  "updatedAt": "2026-09-11T16:49:24.074Z"
+  "verdict": "LRB_033_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-11T16:52:00.000Z"
 }
