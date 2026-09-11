@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Sonne|idx:567|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sól\"}",
+    "owner_note": "IS Sonne lv: NO Gjedde→sól for saule sun. DE untouched."
+  },
+  "g2/a1/is|Sonntag|idx:568|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sunnudagur\"}",
+    "owner_note": "IS Sonntag lv: ET Pühapäev→sunnudagur for svētdiena Sunday. DE untouched."
+  },
+  "g2/a1/is|spät|idx:569|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"seint\"}",
+    "owner_note": "IS spät lv: ET Hiline→seint for vēls late. DE untouched."
+  },
+  "g2/a1/is|spazieren gehen|idx:570|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fara í gönguferð\"}",
+    "owner_note": "IS spazieren gehen lv: NO Gå bort→fara í gönguferð for iet pastaigāties go for a walk. DE untouched."
+  },
+  "g2/a1/is|Spiel|idx:571|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"leikur\"}",
+    "owner_note": "IS Spiel lv: NO Beløp→leikur for spēle game. DE untouched."
+  },
+  "g2/a1/is|spielen|idx:572|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"spila\"}",
+    "owner_note": "IS spielen lv: ET Mangima→spila for spēlēt play. DE untouched."
+  },
+  "g2/a1/is|Sprache|idx:574|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tungumál\"}",
+    "owner_note": "IS Sprache lv: NO Kjøl→tungumál for valoda language. DE untouched."
+  },
+  "g2/a1/is|sprechen|idx:5|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tala\",\"study.translation\":\"tala\",\"study.explanation\":[\"Meginhugsun: sprechen þýðir að tala, ræða eða nota tungumál.\",\"Sprechen leggur áherslu á tal eða tungumál.\",\"Notað um samtal, tungumál eða að tala við einhvern.\",\"sagen leggur meiri áherslu á ákveðin orð eða setningu.\"],\"study.examples[0].lv\":\"Ég tala þýsku.\",\"study.examples[1].lv\":\"Við tölum um vinnuna.\",\"study.examples[2].lv\":\"Hún talar við kennarann sinn.\",\"study.comparison[0].meaning\":\"tala (tungumál)\",\"study.comparison[0].example\":\"Wir sprechen über die Arbeit. – Við tölum um vinnuna.\",\"study.comparison[1].meaning\":\"segja (ákveðið)\",\"study.comparison[1].example\":\"Sag mir die Wahrheit. – Segðu mér sannleikann.\",\"study.tip[0]\":\"sprechen = tala\",\"study.tip[1]\":\"Notaðu sprechen þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"sprechen = tala.\",\"study.important[1]\":\"Tala, ræða eða nota tungumál.\"}",
+    "owner_note": "IS sprechen composite: ET/NO Pratsom/snakke→tala throughout lv/study; fix ex[2] Lehrerin; sagen contrast. DE untouched."
+  },
+  "g2/a1/is|Staat|idx:697|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ríki\"}",
+    "owner_note": "IS Staat lv: ET Riik→ríki for valsts state/country. DE untouched."
+  },
+  "g2/a1/is|Stadt|idx:696|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"borg\"}",
+    "owner_note": "IS Stadt lv: NO Sengetøy→borg for pilsēta city. DE untouched."
+  },
+  "g2/a1/is|stark|idx:575|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sterkur\"}",
+    "owner_note": "IS stark lv: NO Sterk→sterkur for stiprs strong. DE untouched."
+  },
+  "g2/a1/is|stehen|idx:576|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"standa\",\"study.explanation\":[\"Meginhugsun: stehen þýðir að standa.\",\"Fyrir manneskju þýðir stehen að standa upprétt.\",\"Fyrir hlut þýðir stehen að standa á staðnum.\",\"Mikilvægt að greina: stehen = standa, sitzen = sitja, liegen = liggja.\"],\"study.examples[0].lv\":\"Ég stend við hurðina.\",\"study.examples[1].lv\":\"Stóllinn stendur í eldhúsinu.\",\"study.examples[2].lv\":\"Hann situr við borðið.\",\"study.examples[3].lv\":\"Bókin liggur á borðinu.\",\"study.comparison[0].meaning\":\"standa\",\"study.comparison[0].example\":\"Ég stend hér.\",\"study.comparison[1].meaning\":\"sitja\",\"study.comparison[1].example\":\"Hann situr við borðið.\",\"study.comparison[2].meaning\":\"liggja\",\"study.comparison[2].example\":\"Bókin liggur þar.\",\"study.comparison[3].meaning\":\"setja\",\"study.comparison[3].example\":\"Ég set flöskuna þar.\",\"study.tip.text\":\"Mundu: upprétt → stehen; sitjandi → sitzen; liggjandi → liegen.\",\"study.important[0]\":\"stehen sýnir stöðu, ekki aðgerð setja.\",\"study.important[1]\":\"Að setja hluti í stöðu er stellen, ekki stehen.\"}",
+    "owner_note": "IS stehen composite: ET Seismisk/NO→standa throughout study; stehen/sitzen/liegen/stellen contrast. DE untouched."
+  },
+  "g2/a1/is|Stern|idx:577|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"stjarna\"}",
+    "owner_note": "IS Stern lv: ET Täht→stjarna for zvaigzne star. DE untouched."
+  },
+  "g2/a1/is|Straße|idx:578|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gata\"}",
+    "owner_note": "IS Straße lv: NO Gate→gata for iela street. DE untouched."
+  },
+  "g2/a1/is|Straßenbahn|idx:579|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sporvagn\"}",
+    "owner_note": "IS Straßenbahn lv: NO Trikk→sporvagn for tramvajs tram. DE untouched."
+  },
+  "g2/a1/is|Stück|idx:580|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bútur\"}",
+    "owner_note": "IS Stück lv: ET Tukk→bútur for gabals piece. DE untouched."
+  },
+  "g2/a1/is|Student|idx:581|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nemandi\"}",
+    "owner_note": "IS Student lv: ET Üliõpilane→nemandi for students student. DE untouched."
+  },
+  "g2/a1/is|Stuhl|idx:582|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"stóll\"}",
+    "owner_note": "IS Stuhl lv: NO Verktøy→stóll for krēsls chair. DE untouched."
+  },
+  "g2/a1/is|Stunde|idx:583|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"klukkustund\"}",
+    "owner_note": "IS Stunde lv: NO Tynn→klukkustund for stunda hour. DE untouched."
+  },
+  "g2/a1/is|suchen|idx:584|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"leita\"}",
+    "owner_note": "IS suchen lv: ET Otsima→leita for meklēt search. DE untouched."
+  },
+  "g2/a1/is|süß|idx:585|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sætur\"}",
+    "owner_note": "IS süß lv: ET Magus→sætur for salds sweet. DE untouched."
+  },
+  "g2/a1/is|Tag|idx:586|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dagur\"}",
+    "owner_note": "IS Tag lv: garbage Pave→dagur for diena day. DE untouched."
+  },
+  "g2/a1/is|Tante|idx:587|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"frænka\"}",
+    "owner_note": "IS Tante lv: garbage Taddy→frænka for tante aunt. DE untouched."
+  },
+  "g2/a1/is|tanzen|idx:588|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dansa\"}",
+    "owner_note": "IS tanzen lv: ET Tantsima→dansa for dejot dance. DE untouched."
+  },
+  "g2/a1/is|Tasche|idx:589|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"taska\"}",
+    "owner_note": "IS Tasche lv: NO Kjegle→taska for soma bag. DE untouched."
+  },
+  "g2/a1/is|Tasse|idx:590|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bolli\"}",
+    "owner_note": "IS Tasse lv: NO Pote→bolli for tase cup. DE untouched."
+  },
+  "g2/a1/is|Taxi|idx:591|lv|PROJECT_CONVENTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"leigubíll\"}",
+    "owner_note": "IS Taxi lv: loanword Taxi→leigubíll for taksometrs taxi. DE untouched."
+  },
+  "g2/a1/is|Tee|idx:592|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"te\"}",
+    "owner_note": "IS Tee lv: NO T-skjorte→te for tēja tea. DE untouched."
+  },
+  "g2/a1/is|Telefon|idx:593|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sími\"}",
+    "owner_note": "IS Telefon lv: loanword Telefon→sími for telefons phone. DE untouched."
+  },
+  "g2/a1/is|telefonieren|idx:594|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hringja\"}",
+    "owner_note": "IS telefonieren lv: NO Telefonsamtaler→hringja for zvanīt pa tālruni phone/call. DE untouched."
+  },
+  "g2/a1/is|Teller|idx:595|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"diskur\"}",
+    "owner_note": "IS Teller lv: ET Taldrik→diskur for šķīvis plate. DE untouched."
+  },
+  "g2/a1/is|teuer|idx:596|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dýr\"}",
+    "owner_note": "IS teuer lv: garbage Callis→dýr for dārgs expensive. DE untouched."
+  },
+  "g2/a1/is|Text|idx:597|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"texti\"}",
+    "owner_note": "IS Text lv: NO Tekst→texti for teksts text. DE untouched."
+  },
+  "g2/a1/is|Tier|idx:598|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dýr\"}",
+    "owner_note": "IS Tier lv: garbage Vevstol→dýr for dzīvnieks animal. DE untouched."
+  },
+  "g2/a1/is|Tisch|idx:599|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"borð\"}",
+    "owner_note": "IS Tisch lv: ET Laud→borð for galds table. DE untouched."
+  },
+  "g2/a1/is|Tochter|idx:600|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dóttir\"}",
+    "owner_note": "IS Tochter lv: garbage Hoots→dóttir for meita daughter. DE untouched."
+  },
+  "g2/a1/is|Toilette|idx:601|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"klósett\"}",
+    "owner_note": "IS Toilette lv: NO Toalett→klósett for tualete toilet. DE untouched."
+  },
+  "g2/a1/is|Tomate|idx:602|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tómatur\"}",
+    "owner_note": "IS Tomate lv: NO Tomat→tómatur for tomāts tomato. DE untouched."
+  },
+  "g2/a1/is|Treppe|idx:603|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"stigi\"}",
+    "owner_note": "IS Treppe lv: NO Trapp→stigi for kāpnes stairs. DE untouched."
+  },
+  "g2/a1/is|trinken|idx:604|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"drekkja\"}",
+    "owner_note": "IS trinken lv: ET Jooma→drekkja for dzert drink. DE untouched."
+  },
+  "g2/a1/is|tun|idx:605|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gera\"}",
+    "owner_note": "IS tun lv: ET Tegema→gera for darīt do. DE untouched."
+  },
+  "g2/a1/is|Tür|idx:606|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hurð\"}",
+    "owner_note": "IS Tür lv: garbage Oj→hurð for durvis door. DE untouched."
+  },
+  "g2/a1/is|über|idx:608|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"yfir • um\",\"study.explanation\":[\"Meginhugsun: über þýðir yfir eða um eftir samhengi.\",\"Ef talað er um staðsetningu, þýðir über oft yfir.\",\"Ef talað er um efni eða umræðuefni, þýðir über um.\",\"Í hreyfingu getur über þýtt yfir eitthvað.\"],\"study.examples[0].lv\":\"Ljósið hangir yfir borðinu.\",\"study.examples[1].lv\":\"Við tölum um veðrið.\",\"study.examples[2].lv\":\"Barnið hleypur yfir götuna.\",\"study.examples[3].lv\":\"Ég gleðst yfir gjöfina.\",\"study.comparison[0].meaning\":\"yfir / um / yfir\",\"study.comparison[0].example\":\"Wir sprechen über das Wetter.\",\"study.comparison[1].meaning\":\"á\",\"study.comparison[1].example\":\"Das Buch liegt auf dem Tisch.\",\"study.comparison[2].meaning\":\"undir\",\"study.comparison[2].example\":\"Die Tasche ist unter dem Tisch.\",\"study.comparison[3].meaning\":\"frá\",\"study.comparison[3].example\":\"Ich höre von dir.\",\"study.tip.text\":\"Mundu: umræðuefni → um; yfir borði → yfir.\",\"study.important[0]\":\"über er ekki bara staðarforði.\",\"study.important[1]\":\"sprechen über þýðir tala um.\"}",
+    "owner_note": "IS über composite: ET Kohal/Kohta→yfir•um throughout study for virs•par; sprechen über contrast. DE untouched."
+  },
+  "g2/a1/is|um|idx:611|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"um • klukkan\",\"study.explanation\":[\"Meginhugsun: um þýðir oft klukkan eða í kringum eftir samhengi.\",\"Með nákvæmum tíma þýðir um klukkan.\",\"Um staðsetningu getur um þýtt í kringum.\",\"Í setningunni um ... zu þýðir oft til að.\"],\"study.examples[0].lv\":\"Ég kem klukkan átta.\",\"study.examples[1].lv\":\"Við sitjum í kringum borðið.\",\"study.examples[2].lv\":\"Hann fer í kringum hornið.\",\"study.examples[3].lv\":\"Ég læri til að tala þýsku.\",\"study.comparison[0].meaning\":\"klukkan / í kringum / til að\",\"study.comparison[0].example\":\"Ich komme um acht.\",\"study.comparison[1].meaning\":\"á degi\",\"study.comparison[1].example\":\"Am Montag komme ich.\",\"study.comparison[2].meaning\":\"um það bil\",\"study.comparison[2].example\":\"Ich komme gegen acht.\",\"study.comparison[3].meaning\":\"fyrir / til\",\"study.comparison[3].example\":\"Das ist für dich.\",\"study.tip.text\":\"Mundu: um acht = klukkan átta.\",\"study.important[0]\":\"um með tíma er venjulega klukkan.\",\"study.important[1]\":\"um ... zu þýðir oft til að.\"}",
+    "owner_note": "IS um composite: ET Umbes/Kell→um•klukkan throughout study for ap•pulksten. DE untouched."
+  },
+  "g2/a1/is|unser|idx:613|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"okkar\"}",
+    "owner_note": "IS unser lv: garbage Mee→okkar for mūsu our. DE untouched."
+  },
+  "g2/a1/is|unter|idx:615|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"undir • meðal\",\"study.explanation\":[\"Meginhugsun: unter þýðir undir eða meðal eftir samhengi.\",\"Ef eitthvað er undir borði, stól eða öðru, notaðu unter.\",\"Ef talað er um hóp fólks, getur unter þýtt meðal.\",\"Andstæða við über þegar um stefnu upp/niður er að ræða.\"],\"study.examples[0].lv\":\"Taskan er undir borðinu.\",\"study.examples[1].lv\":\"Kötturinn liggur undir stólnum.\",\"study.examples[2].lv\":\"Meðal vina segir maður þetta svoleiðis.\",\"study.examples[3].lv\":\"Ljósið hangir yfir borðinu.\",\"study.comparison[0].meaning\":\"undir / meðal\",\"study.comparison[0].example\":\"Die Tasche ist unter dem Tisch.\",\"study.comparison[1].meaning\":\"yfir / um\",\"study.comparison[1].example\":\"Die Lampe hängt über dem Tisch.\",\"study.comparison[2].meaning\":\"milli\",\"study.comparison[2].example\":\"Zwischen den Häusern.\",\"study.comparison[3].meaning\":\"á\",\"study.comparison[3].example\":\"Auf dem Tisch.\",\"study.tip.text\":\"Mundu: undir borði → unter dem Tisch.\",\"study.important[0]\":\"unter getur einnig þýtt meðal, sérstaklega með fólki eða hópum.\",\"study.important[1]\":\"unter og über eru oft andstæður í staðaframsetningum.\"}",
+    "owner_note": "IS unter composite: ET Alle/hav→undir•meðal throughout study for zem; über contrast. DE untouched."
+  },
+  "g2/a1/is|Urlaub|idx:695|lv; study.translation; study.explanation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"orlof\",\"study.translation\":\"orlof\",\"study.explanation\":[\"Meginhugsun: der Urlaub er aðeins í eintölu.\",\"Der Urlaub þýðir frí frá vinnu.\",\"Oft notað: im Urlaub (í orlofi).\",\"Der Urlaub er aðeins í eintölu — orlof frá vinnu (im Urlaub).\"],\"study.examples\":[{\"de\":\"Mein Vater ist im Urlaub.\",\"lv\":\"Faðir minn er í orlofi.\"},{\"de\":\"Mein Vater ist im Urlaub.\",\"lv\":\"Faðir minn er í orlofi.\"},{\"de\":\"Nächste Woche habe ich Urlaub.\",\"lv\":\"Næstu viku hef ég orlof.\"},{\"de\":\"Wir machen Urlaub in Spanien.\",\"lv\":\"Við eyðum orlofi í Spáni.\"},{\"de\":\"im Urlaub\",\"lv\":\"í orlofi\"}],\"study.comparison\":[{\"word\":\"der Urlaub\",\"meaning\":\"orlof (eintala)\",\"example\":\"Mein Vater ist im Urlaub. – Faðir minn er í orlofi.\"},{\"word\":\"die Ferien\",\"meaning\":\"skólafrí (fleirtala)\",\"example\":\"Die Kinder haben Ferien. – Börnin eru í fríi.\"}],\"study.important\":[\"Rangt: die Urlaube (á A1 stigi).\",\"Rétt: der Urlaub (eintölu).\"]}",
+    "owner_note": "IS Urlaub composite: ET Puhkus→orlof throughout lv/study; full examples/comparison arrays; Urlaub vs Ferien per LRB-032. DE untouched."
+  },
+  "g2/a1/is|Vase|idx:616|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vaska\"}",
+    "owner_note": "IS Vase lv: garbage Wow→vaska for vāze vase. DE untouched."
+  },
+  "g2/a1/is|verlieren|idx:620|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tapa\"}",
+    "owner_note": "IS verlieren lv: ET Kaotama→tapa for zaudēt lose. DE untouched."
+  },
+  "g2/a1/is|verstehen|idx:621|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"skilja\",\"study.explanation\":[\"Meginhugsun: verstehen þýðir að skilja.\",\"Notað þegar þú skilur tungumál, manneskju, texta eða aðstæður.\",\"Á íslensku er verstehen = skilja; geta/kunna svarar oftast að orði können.\",\"Mjög algeng setning er Ich verstehe. = Ég skil.\"],\"study.examples[0].lv\":\"Ég skil þig.\",\"study.examples[1].lv\":\"Skilur þú þýsku?\",\"study.examples[2].lv\":\"Ég skil þetta ekki.\",\"study.examples[3].lv\":\"Ég get talað þýsku.\",\"study.comparison[0].meaning\":\"skilja\",\"study.comparison[0].example\":\"Ich verstehe dich.\",\"study.comparison[1].meaning\":\"geta / kunna\",\"study.comparison[1].example\":\"Ich kann schwimmen.\",\"study.comparison[2].meaning\":\"vita\",\"study.comparison[2].example\":\"Ich weiß das.\",\"study.comparison[3].meaning\":\"þekkja\",\"study.comparison[3].example\":\"Ich kenne ihn.\",\"study.tip.text\":\"Mundu: skilja texta/manneskju → verstehen; geta gert eitthvað → können.\",\"study.important[0]\":\"verstehen er ekki aðalorðið fyrir merkinguna geta.\",\"study.important[1]\":\"Ich verstehe Deutsch þýðir ég skil þýsku.\"}",
+    "owner_note": "IS verstehen composite: ET/NO Forstå/saan aru→skilja throughout study; verstehen/können/wissen/kennen contrast. DE untouched."
+  }
+}
