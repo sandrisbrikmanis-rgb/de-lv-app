@@ -80,38 +80,38 @@
   "g2/a1/it|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"A • Su • Sul bordo\"}",
-    "owner_note": "IT an native: mixed Dal/Al→A • Su • Sul bordo for an at-edge preposition. DE untouched."
+    "owner_new": "{\"lv\":\"Presso\"}",
+    "owner_note": "IT an native source-fidelity: LV pie→Presso only. DE untouched."
   },
   "g2/a1/it|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Sopra • In superficie • Sul bordo\"}",
-    "owner_note": "IT an translation: confirm Sopra • In superficie • Sul bordo for an surface/edge. DE untouched."
+    "owner_new": "{\"study.translation\":\"Presso\"}",
+    "owner_note": "IT an translation source-fidelity: LV pie→Presso only. DE untouched."
   },
   "g2/a1/it|a1-aufs|a1.card.a1-aufs.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Su • Sopra • Dove?\"}",
-    "owner_note": "IT aufs native: LV Uz • Virsū • Kurp?→Su • Sopra • Dove? for auf das whither. DE untouched."
+    "owner_new": "{\"lv\":\"Su\"}",
+    "owner_note": "IT aufs native source-fidelity: LV uz→Su only. DE untouched."
   },
   "g2/a1/it|a1-aufs|a1.card.a1-aufs.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Su • Sopra • Dove?\"}",
-    "owner_note": "IT aufs translation: LV Uz • Virsū • Kurp?→Su • Sopra • Dove? for auf das direction. DE untouched."
+    "owner_new": "{\"study.translation\":\"Su\"}",
+    "owner_note": "IT aufs translation source-fidelity: LV uz→Su only. DE untouched."
   },
   "g2/a1/it|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Da • Fuori\"}",
-    "owner_note": "IT aus native: LV No • Ārā→Da • Fuori for aus from-within. DE untouched."
+    "owner_new": "{\"lv\":\"Da\"}",
+    "owner_note": "IT aus native source-fidelity: LV no→Da only. DE untouched."
   },
   "g2/a1/it|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Da • Fuori\"}",
-    "owner_note": "IT aus translation: LV No • Ārā→Da • Fuori for aus origin/out. DE untouched."
+    "owner_new": "{\"study.translation\":\"Da\"}",
+    "owner_note": "IT aus translation source-fidelity: LV no→Da only. DE untouched."
   },
   "g2/a1/it|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -122,20 +122,20 @@
   "g2/a1/it|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Portare • Consegnare\"}",
-    "owner_note": "IT bringen native: LV Atnest • Aiznest→Portare • Consegnare for bringen bring/deliver. DE untouched."
+    "owner_new": "{\"lv\":\"Portare\"}",
+    "owner_note": "IT bringen native source-fidelity: LV atnest→Portare only. DE untouched."
   },
   "g2/a1/it|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Portare • Consegnare\"}",
-    "owner_note": "IT bringen translation: LV Atnest • Aiznest→Portare • Consegnare for bringen bring/deliver. DE untouched."
+    "owner_new": "{\"study.translation\":\"Portare\"}",
+    "owner_note": "IT bringen translation source-fidelity: LV atnest→Portare only. DE untouched."
   },
   "g2/a1/it|a1-da|a1.card.a1-da.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.comparison[0].meaning\":\"Lì • Qui • Eccoci\"}",
-    "owner_note": "IT da cmp[0]: LV Tur • Te • Šeit→Lì • Qui • Eccoci for da there/here. DE untouched."
+    "owner_new": "{\"study.comparison[0].meaning\":\"Lì • Qui\"}",
+    "owner_note": "IT da cmp[0] source-fidelity: LV tur•te→Lì•Qui (no extra Eccoci). DE untouched."
   },
   "g2/a1/it|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -152,14 +152,14 @@
   "g2/a1/it|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Articolo indefinito • Un/Uno\"}",
-    "owner_note": "IT ein native gala: remove Qualcuno→Articolo indefinito • Un/Uno (LV nenoteiktais artikuls only). DE untouched."
+    "owner_new": "{\"lv\":\"Articolo indefinito\"}",
+    "owner_note": "IT ein native source-fidelity: LV nenoteiktais artikuls→Articolo indefinito only. DE untouched."
   },
   "g2/a1/it|a1-ein|a1.card.a1-ein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Articolo indefinito • Un/Uno\"}",
-    "owner_note": "IT ein translation gala: remove Qualcuno→Articolo indefinito • Un/Uno. DE untouched."
+    "owner_new": "{\"study.translation\":\"Articolo indefinito\"}",
+    "owner_note": "IT ein translation source-fidelity: LV nenoteiktais artikuls→Articolo indefinito only. DE untouched."
   },
   "g2/a1/it|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -188,8 +188,8 @@
   "g2/a1/it|a1-erst|a1.card.a1-erst.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Prima • Solo\"}",
-    "owner_note": "IT erst native: garbage Spirmi di pesce→Prima • Solo for erst first/only. DE untouched."
+    "owner_new": "{\"lv\":\"Solo\"}",
+    "owner_note": "IT erst native source-fidelity: LV tikai→Solo only. DE untouched."
   },
   "g2/a1/it|a1-erst|a1.card.a1-erst.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -200,14 +200,14 @@
   "g2/a1/it|a1-erst|a1.card.a1-erst.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Prima • Solo\"}",
-    "owner_note": "IT erst translation: garbage Spirmi di pesce→Prima • Solo for erst first/only. DE untouched."
+    "owner_new": "{\"study.translation\":\"Solo\"}",
+    "owner_note": "IT erst translation source-fidelity: LV tikai→Solo only. DE untouched."
   },
   "g2/a1/it|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Esso • Forma impersonale\"}",
-    "owner_note": "IT es native gala: remove Esso dup→Esso • Forma impersonale (LV tas•bezpersoniska). DE untouched."
+    "owner_new": "{\"lv\":\"Esso\"}",
+    "owner_note": "IT es native source-fidelity: LV tas→Esso only. DE untouched."
   },
   "g2/a1/it|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -218,8 +218,8 @@
   "g2/a1/it|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Esso • Forma impersonale\"}",
-    "owner_note": "IT es translation gala: remove Esso dup→Esso • Forma impersonale. DE untouched."
+    "owner_new": "{\"study.translation\":\"Esso\"}",
+    "owner_note": "IT es translation source-fidelity: LV tas→Esso only. DE untouched."
   },
   "g2/a1/it|a1-essen-study|a1.card.a1-essen-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -236,14 +236,14 @@
   "g2/a1/it|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Qualcosa • Un po'\"}",
-    "owner_note": "IT etwas native: garbage Serra Kaut→Qualcosa • Un po' for etwas something/a little. DE untouched."
+    "owner_new": "{\"lv\":\"Qualcosa\"}",
+    "owner_note": "IT etwas native source-fidelity: LV kaut kas→Qualcosa only. DE untouched."
   },
   "g2/a1/it|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Qualcosa • Un po'\"}",
-    "owner_note": "IT etwas translation: garbage Serra Kaut→Qualcosa • Un po' for etwas something/a little. DE untouched."
+    "owner_new": "{\"study.translation\":\"Qualcosa\"}",
+    "owner_note": "IT etwas translation source-fidelity: LV kaut kas→Qualcosa only. DE untouched."
   },
   "g2/a1/it|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -260,43 +260,43 @@
   "g2/a1/it|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Guidare • Viaggiare in veicolo\"}",
-    "owner_note": "IT fahren native gala: LV braukt only→Guidare • Viaggiare in veicolo (not Portare/Trasportare). DE untouched."
+    "owner_new": "{\"lv\":\"Viaggiare in veicolo\"}",
+    "owner_note": "IT fahren native source-fidelity: LV braukt→Viaggiare in veicolo only. DE untouched."
   },
   "g2/a1/it|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Guidare • Viaggiare in veicolo\"}",
-    "owner_note": "IT fahren translation gala: LV braukt drive/travel→Guidare • Viaggiare in veicolo. DE untouched."
+    "owner_new": "{\"study.translation\":\"Viaggiare in veicolo\"}",
+    "owner_note": "IT fahren translation source-fidelity: LV braukt→Viaggiare in veicolo only. DE untouched."
   },
   "g2/a1/it|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Trovare • Ritenere\"}",
-    "owner_note": "IT finden native gala: Ritieni→Ritenere infinitive (LV atrast find/consider). DE untouched."
+    "owner_new": "{\"lv\":\"Trovare\"}",
+    "owner_note": "IT finden native source-fidelity: LV atrast→Trovare only. DE untouched."
   },
   "g2/a1/it|a1-finden|a1.card.a1-finden.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Trovare • Ritenere\"}",
-    "owner_note": "IT finden translation gala: Ritieni→Ritenere infinitive dictionary form. DE untouched."
+    "owner_new": "{\"study.translation\":\"Trovare\"}",
+    "owner_note": "IT finden translation source-fidelity: LV atrast→Trovare only. DE untouched."
   },
   "g2/a1/it|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Donna • Moglie\"}",
-    "owner_note": "IT frau native: LV Sieva • Sieva→Donna • Moglie for Frau woman/wife. DE untouched."
+    "owner_new": "{\"lv\":\"Donna\"}",
+    "owner_note": "IT frau native source-fidelity: LV sieviete→Donna only. DE untouched."
   },
   "g2/a1/it|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Donna • Moglie\"}",
-    "owner_note": "IT frau translation: LV Sieva • Sieva→Donna • Moglie for Frau woman/wife. DE untouched."
+    "owner_new": "{\"study.translation\":\"Donna\"}",
+    "owner_note": "IT frau translation source-fidelity: LV sieviete→Donna only. DE untouched."
   },
   "g2/a1/it|a1-gleich|a1.card.a1-gleich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Subito • Uguale\"}",
-    "owner_note": "IT gleich native: LV Tūlīt • Vienāds→Subito • Uguale for gleich immediately/equal. DE untouched."
+    "owner_new": "{\"lv\":\"Subito\"}",
+    "owner_note": "IT gleich native source-fidelity: LV tūlīt→Subito only. DE untouched."
   }
 }

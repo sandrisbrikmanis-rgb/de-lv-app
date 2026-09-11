@@ -568,7 +568,7 @@
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-040-residual-wrong-language-proof.json"
       },
       "LRB-041": {
-        "verdict": "LRB_041_LINGUISTIC_REPAIR_PASS",
+        "verdict": "LRB_041_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "status": "LINGUISTICALLY_CLOSED",
         "labot": 50,
         "nelabot": 0,
@@ -577,10 +577,10 @@
         "residualAuditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "galaRepair": true,
+        "sourceSemanticRepair": true,
         "isCards": 11,
         "itCards": 39,
-        "headSha": "1998126b",
+        "headSha": "PENDING_COMMIT",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-041-decisions.csv",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-residual-wrong-language-proof.json"
       }
@@ -594,8 +594,8 @@
       "residualAuditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "gpt-5.6-luna",
-      "linguisticVerdict": "LRB_041_LINGUISTIC_REPAIR_PASS",
-      "galaRepair": true,
+      "linguisticVerdict": "LRB_041_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "sourceSemanticRepair": true,
       "isCards": 11,
       "itCards": 39,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-041-decisions.csv",
