@@ -38,8 +38,8 @@
   "g2/a1/fi|ab|idx:17|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"-sta\",\"study.translation\":\"-sta\",\"study.examples[0].lv\":\"Tästä päivästä lähtien\",\"study.examples[1].lv\":\"Maanantaista lähtien\",\"study.examples[2].lv\":\"Kello kahdeksasta\",\"study.examples[3].lv\":\"Asemalta\",\"study.comparison[0].meaning\":\"Lähtien (ajasta/paikasta)\",\"study.comparison[1].meaning\":\"Keneltä/keltä • Alkuperä\",\"study.comparison[2].meaning\":\"Ulos jostakin\",\"study.important[0]\":\"ab ilmaisee lähtöpistettä ajassa tai paikassa.\",\"study.important[1]\":\"Jos ajatus ilmaisee alkuperää tai suuntaa sisältä, käytetään usein von tai aus.\"}",
-    "owner_note": "FI ab micro-repair: ET Alates/Jaamast → FI lähtien/asta; comparison von/aus FI; important FI. DE untouched."
+    "owner_new": "{\"lv\":\"alkaen • lähtien\",\"study.translation\":\"alkaen • lähtien\",\"study.examples[0].lv\":\"Tästä päivästä lähtien\",\"study.examples[1].lv\":\"Maanantaista lähtien\",\"study.examples[2].lv\":\"Kello kahdeksasta\",\"study.examples[3].lv\":\"Asemalta\",\"study.comparison[0].meaning\":\"Lähtien (ajasta/paikasta)\",\"study.comparison[1].meaning\":\"Keneltä/keltä • Alkuperä\",\"study.comparison[2].meaning\":\"Ulos jostakin\",\"study.important[0]\":\"ab ilmaisee lähtöpistettä ajassa tai paikassa.\",\"study.important[1]\":\"Jos ajatus ilmaisee alkuperää tai suuntaa sisältä, käytetään usein von tai aus.\"}",
+    "owner_note": "FI ab micro-repair: lv/translation -sta → alkaen • lähtien; -sta is case ending only, not full gloss for DE ab from-point. Other ab subfields unchanged. DE untouched."
   },
   "g2/a1/fi|Abend|idx:18|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
