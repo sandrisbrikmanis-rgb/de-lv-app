@@ -7,11 +7,11 @@
   "quarantineFile": "reports/g2-a1-owner/quarantine/recheck-350-invalid.csv",
   "batches": [
     {
-      "batchId": "LRB-R350-003",
+      "batchId": "LRB-R350-004",
       "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-R350-003-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-R350-003-start.json",
-      "inputSha256": "38b32955c867544321147a241100f9d05fe4b4d52c8f2677a15b0827166e7885"
+      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-R350-004-input.csv",
+      "manifestPath": "reports/g2-a1-owner/manifests/LRB-R350-004-start.json",
+      "inputSha256": "23fde418a28a112ed15807b04ee22601ea27b6248b5a500e4c4cd1b8915e4f1e"
     }
   ]
 }
