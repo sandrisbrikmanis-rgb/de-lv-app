@@ -236,14 +236,14 @@
   "g2/a1/fi|erst|idx:165|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\": \"Ensin • Vain\", \"study.translation\": \"Ensin • Vain\", \"study.explanation[0]\": \"Pääajatus: erst useimmiten tarkoittaa vain. Tietyissä yhteyksissä se voi tarkoittaa myös ensin.\", \"study.explanation[1]\": \"erst usein yhdessä nur (vain) tai järjestys-/aikakontekstissa.\", \"study.examples[0].lv\": \"Ensin opiskella, sitten leikkiä.\", \"study.examples[1].lv\": \"Tulen vasta huomenna.\", \"study.examples[2].lv\": \"Hän on vasta 18-vuotias.\", \"study.examples[3].lv\": \"Syömme vasta kahdeksalta.\", \"study.comparison[0].meaning\": \"Ensin • Vain\", \"study.important[0]\": \"erst und nur voivat kuulostaa molemmilta \\\"vain\\\", mutta eivät ole sama asia.\", \"study.important[1]\": \"erst puhutaan usein ajasta, järjestyksestä tai siitä, että jotain tapahtuu vasta myöhemmin.\"}",
-    "owner_note": "FI erst: ET Kõigepealt/Alles → FI Ensin/Vain with aligned examples and important FI. DE untouched."
+    "owner_new": "{\"study.explanation[1]\":\"erst ilmaisee usein, että jokin tapahtuu vasta tiettynä ajankohtana tai tietyn vaiheen jälkeen.\",\"study.comparison[1].meaning\":\"Ensin • Aluksi\",\"study.comparison[2].meaning\":\"Vain\",\"study.comparison[3].meaning\":\"Sitten\",\"study.tip.text\":\"Muista: aika/järjestys → erst; määrän rajoitus → nur.\"}",
+    "owner_note": "FI erst micro-repair: explanation[1] time/sequence; comparison erst/nur/dann; tip aika→erst määrä→nur. DE untouched."
   },
   "g2/a1/fi|es|idx:167|lv, study.examples|MEANING_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\": \"Se • Henkilökohtainen sija\", \"study.examples[0].lv\": \"Sataa.\", \"study.examples[1].lv\": \"On kylmä.\", \"study.examples[2].lv\": \"Lapsi nukkuu.\", \"study.examples[3].lv\": \"Se on väsynyt.\", \"study.examples[4].lv\": \"Sataa.\", \"study.examples[5].lv\": \"Sataa lunta.\"}",
-    "owner_note": "FI es: shuffled ET examples → aligned FI impersonal Se (sataa/on kylmä). DE untouched."
+    "owner_new": "{\"lv\":\"Se • persoonaton pronomini\",\"study.examples[0].lv\":\"Sataa.\",\"study.examples[1].lv\":\"On kylmä.\",\"study.examples[2].lv\":\"Lapsi nukkuu.\",\"study.examples[3].lv\":\"Se on väsynyt.\",\"study.examples[4].lv\":\"Sataa.\",\"study.examples[5].lv\":\"Sataa lunta.\"}",
+    "owner_note": "FI es micro-repair: lv Henkilökohtainen sija → persoonaton pronomini; examples unchanged FI. DE untouched."
   },
   "g2/a1/fi|etwas|idx:169|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -266,20 +266,20 @@
   "g2/a1/fi|finden|idx:187|lv, study.translation, study.explanation, study.examples, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\": \"Löytää • Pitää\", \"study.translation\": \"Löytää • Pitää\", \"study.explanation[0]\": \"Pääajatus: finden tarkoittaa useimmiten löytämistä.\", \"study.explanation[1]\": \"Keskusteluissa finden tarkoittaa usein myös pitämistä tai mielipidettä jostakin.\", \"study.examples[0].lv\": \"Löydän avaimeni.\", \"study.examples[1].lv\": \"Pidän siitä.\", \"study.examples[2].lv\": \"Miltä sinusta elokuva vaikuttaa?\", \"study.examples[3].lv\": \"Miltä sinusta elokuva vaikuttaa?\", \"study.important[0]\": \"finden ei ole pelkästään \\\"löytää\\\".\", \"study.important[1]\": \"Ich finde das gut tarkoittaa \\\"pidän siitä\\\", ei \\\"löydän sen hyväksi\\\".\"}",
-    "owner_note": "FI finden: ET Leidma + mismatched examples → FI Löytää/Pitää aligned examples. DE untouched."
+    "owner_new": "{\"study.examples[1].lv\":\"Minusta se on hyvä.\"}",
+    "owner_note": "FI finden micro-repair: examples[1] Ich finde das gut Pidän siitä → Minusta se on hyvä opinion gloss. DE untouched."
   },
   "g2/a1/fi|Frau|idx:198|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\": \"Nainen • Vaimo\", \"study.translation\": \"Nainen • Vaimo\", \"study.explanation[0]\": \"Pääajatus: die Frau voi tarkoittaa naista (sukupuoli) tai vaimoa (puoliso).\", \"study.explanation[1]\": \"Kun puhutaan sukupuolesta tai henkilöstä yleisesti, die Frau tarkoittaa naista.\", \"study.explanation[2]\": \"Omistuspronominin kanssa (meine Frau) tarkoittaa usein vaimoa.\", \"study.examples[0].lv\": \"Hän on mukava nainen.\", \"study.examples[1].lv\": \"Tämä on vaimoni.\", \"study.examples[2].lv\": \"Kuinka monta naista on täällä?\", \"study.examples[3].lv\": \"Vaimoni työskentelee Berliinissä.\", \"study.examples[4].lv\": \"Nainen käyttää mekkoa.\", \"study.examples[5].lv\": \"Hänen vaimonsa on lääkäri.\", \"study.tip[0]\": \"Omistuspronominin kanssa (meine/deine/seine Frau) tarkoittaa lähes aina vaimoa.\", \"study.tip[1]\": \"Ilman omistuspronominia (die Frau, eine Frau) tarkoittaa yleensä naista.\", \"study.important[0]\": \"die Frau = nainen TAI vaimo — riippuu kontekstista.\", \"study.important[1]\": \"meine Frau = minun vaimoni (ei \\\"minun naiseni\\\").\"}",
-    "owner_note": "FI Frau: ET Naine/Abikaasa → FI Nainen/Vaimo woman/wife teaching. DE untouched."
+    "owner_new": "{\"study.important[2]\":\"Monikko: die Frauen.\"}",
+    "owner_note": "FI Frau micro-repair: important[2] Mitmuses→Monikko die Frauen plural note. DE untouched."
   },
   "g2/a1/fi|für|idx:216|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\": \"Varten • Puolesta\", \"study.translation\": \"Varten • Puolesta\", \"study.explanation[0]\": \"Pääajatus: für on prepositio, joka vaatii aina akkusatiivin — suomeksi yleensä varten tai puolesta.\", \"study.explanation[1]\": \"Saajasta tai tarkoituksesta puhuttaessa käytetään varten; kiitoksesta tai maksusta puolesta.\", \"study.examples[0].lv\": \"Tämä on sinulle.\", \"study.examples[1].lv\": \"Kiitos avusta.\", \"study.examples[2].lv\": \"Ostan lahjan äidilleni.\", \"study.examples[3].lv\": \"Kuinka paljon maksat autosta?\", \"study.examples[4].lv\": \"Kirja on lapsille.\", \"study.examples[5].lv\": \"Täksi päiväksi tämä riittää.\", \"study.tip[0]\": \"für vaatii aina akkusatiivin riippumatta merkityksestä.\", \"study.tip[1]\": \"Vastaanottaja/tarkoitus → varten; vaihto/syy/maksu → puolesta.\", \"study.important[0]\": \"für + akkusatiivi aina, esimerkiksi für mich, für dich, für das Kind.\", \"study.important[1]\": \"danke für / bezahlen für = puolesta, ei varten.\"}",
-    "owner_note": "FI für: ET Jaoks/Eest → FI Varten/Puolesta for/purpose vs thanks-for. DE untouched."
+    "owner_new": "{\"study.explanation[1]\":\"Suomennos riippuu rakenteesta: esimerkiksi für dich = sinulle, danke für die Hilfe = kiitos avusta.\",\"study.tip[1]\":\"Suomessa für käännetään rakenteen mukaan, esimerkiksi varten, -lle tai -sta/-stä.\",\"study.important[1]\":\"danke für die Hilfe = kiitos avusta; bezahlen für das Auto = maksaa autosta.\"}",
+    "owner_note": "FI für micro-repair: remove false für=puolesta rule; structure-based FI gloss (sinulle/kiitos avusta/maksaa autosta). DE untouched."
   },
   "g2/a1/fi|ganz|idx:219|lv, study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
