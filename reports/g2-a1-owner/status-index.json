@@ -580,7 +580,7 @@
         "galaRepair": true,
         "isCards": 11,
         "itCards": 39,
-        "headSha": "pending",
+        "headSha": "1998126b",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-041-decisions.csv",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-residual-wrong-language-proof.json"
       }
