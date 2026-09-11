@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|a1-sich|a1.card.a1-sich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sig • sér\"}",
+    "owner_note": "IS sich native: NO Slutt/Endale→sig•sér for sevi•sev (reflexive). DE untouched."
+  },
+  "g2/a1/is|a1-sich|a1.card.a1-sich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"sig • sér\"}",
+    "owner_note": "IS sich translation: NO Slutt/Endale→sig•sér for sevi•sev (reflexive). DE untouched."
+  },
+  "g2/a1/is|a1-sicher|a1.card.a1-sicher.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"öruggur • viss\"}",
+    "owner_note": "IS sicher native: NO Kindle/Definitivt→öruggur•viss for drošs•noteikti. DE untouched."
+  },
+  "g2/a1/is|a1-sicher|a1.card.a1-sicher.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"öruggur • viss\"}",
+    "owner_note": "IS sicher translation: NO Kindle/Definitivt→öruggur•viss for drošs•noteikti. DE untouched."
+  },
+  "g2/a1/is|a1-ueber|a1.card.a1-ueber.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"yfir • um\"}",
+    "owner_note": "IS über native: ET Kohal/Kohta→yfir•um for virs•par. DE untouched."
+  },
+  "g2/a1/is|a1-ueber|a1.card.a1-ueber.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"yfir • um\"}",
+    "owner_note": "IS über translation: ET Kohal/Kohta→yfir•um for virs•par. DE untouched."
+  },
+  "g2/a1/is|a1-um|a1.card.a1-um.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"um • klukkan\"}",
+    "owner_note": "IS um native: ET Umbes/Kell→um•klukkan for ap•pulksten. DE untouched."
+  },
+  "g2/a1/is|a1-um|a1.card.a1-um.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"um • klukkan\"}",
+    "owner_note": "IS um translation: ET Umbes/Kell→um•klukkan for ap•pulksten. DE untouched."
+  },
+  "g2/a1/is|a1-verstehen|a1.card.a1-verstehen.study.explanation[2]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[2]\":\"Á íslensku er verstehen = skilja; geta/kunna svarar oftast að orði können.\"}",
+    "owner_note": "IS verstehen explanation[2]: ET/NO oskama/suutma/können→verstehen=skilja; geta/kunna for LV prast/mācēt note. DE untouched."
+  },
+  "g2/a1/is|a1-vor|a1.card.a1-vor.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"áður • fyrir\"}",
+    "owner_note": "IS vor native: ET Enne/Ees→áður•fyrir for pirms•priekšā. DE untouched."
+  },
+  "g2/a1/is|a1-vor|a1.card.a1-vor.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"áður • fyrir\"}",
+    "owner_note": "IS vor translation: ET Enne/Ees→áður•fyrir for pirms•priekšā. DE untouched."
+  },
+  "g2/a1/is|a1-was|a1.card.a1-was.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hvað • hvað\"}",
+    "owner_note": "IS was native: ET Mis/Mida→hvað•hvað for kas•ko. DE untouched."
+  },
+  "g2/a1/is|a1-was|a1.card.a1-was.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"hvað • hvað\"}",
+    "owner_note": "IS was translation: ET Mis/Mida→hvað•hvað for kas•ko. DE untouched."
+  },
+  "g2/a1/is|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ef • þegar\"}",
+    "owner_note": "IS wenn native: ET Kui tingimus/aeg→ef•þegar for ja•kad. DE untouched."
+  },
+  "g2/a1/is|a1-wenn|a1.card.a1-wenn.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"ef • þegar\"}",
+    "owner_note": "IS wenn translation: ET Kui tingimus/aeg→ef•þegar for ja•kad. DE untouched."
+  },
+  "g2/a1/is|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hver • hver\"}",
+    "owner_note": "IS wer native: ET Kes/Cumb→hver•hver for kas•kurš. DE untouched."
+  },
+  "g2/a1/is|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"hver • hver\"}",
+    "owner_note": "IS wer translation: ET Kes/Cumb→hver•hver for kas•kurš. DE untouched."
+  },
+  "g2/a1/is|a1-wie|a1.card.a1-wie.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hvernig • hversu\"}",
+    "owner_note": "IS wie native: ET Kuidas/Kui→hvernig•hversu for kā•cik. DE untouched."
+  },
+  "g2/a1/is|a1-wie|a1.card.a1-wie.study.explanation[3]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[3]\":\"Wie viel(e) þýðir hversu mikið • Wie alt þýðir hversu gamall • Wie lange þýðir hversu lengi.\"}",
+    "owner_note": "IS wie explanation[3]: ET gejnej/kui→þýðir hversu for wie viel/alt/lange teaching. DE untouched."
+  },
+  "g2/a1/is|a1-wie|a1.card.a1-wie.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"hvernig • hversu\"}",
+    "owner_note": "IS wie translation: ET Kuidas/Kui→hvernig•hversu for kā•cik. DE untouched."
+  },
+  "g2/a1/is|a1-zu|a1.card.a1-zu.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til • að\"}",
+    "owner_note": "IS zu native: ET -sse/Juurde→til•að for uz•pie. DE untouched."
+  },
+  "g2/a1/is|a1-zu|a1.card.a1-zu.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"til • að\"}",
+    "owner_note": "IS zu translation: ET -sse/Juurde→til•að for uz•pie. DE untouched."
+  },
+  "g2/a1/is|a1-zum|a1.card.a1-zum.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til • að\"}",
+    "owner_note": "IS zum native: ET -sse/Juurde→til•að for uz•pie. DE untouched."
+  },
+  "g2/a1/is|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"til • að\"}",
+    "owner_note": "IS zum translation: ET -sse/Juurde→til•að for uz•pie. DE untouched."
+  },
+  "g2/a1/is|ab|idx:17|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"frá\",\"study.translation\":\"frá\",\"study.explanation\":\"Notað þegar eitthvað byrjar á ákveðnum tíma, stað eða punkti. Þýðir oft „frá“.\",\"study.examples[0].lv\":\"Frá deginum í dag\",\"study.examples[1].lv\":\"Frá mánudegi\",\"study.examples[2].lv\":\"Frá klukkan 8\",\"study.examples[3].lv\":\"Frá lestarstöð\",\"study.comparison[0].meaning\":\"Frá ákveðnum tíma/punkti\",\"study.comparison[0].example\":\"ab Montag – Frá mánudegi\",\"study.comparison[1].meaning\":\"frá • uppruni\",\"study.comparison[1].example\":\"von mir – Frá mér\",\"study.comparison[2].meaning\":\"Út frá innan\",\"study.comparison[2].example\":\"aus dem Haus – Út úr húsinu\",\"study.tip.text\":\"Mundu: upphafspunktur í tíma/stað → ab.\",\"study.important[0]\":\"ab sýnir upphafspunkt í tíma eða stað.\",\"study.important[1]\":\"Ef hugmyndin er uppruni eða stefna frá innan, notarðu oftar von eða aus.\"}",
+    "owner_note": "IS ab composite: ET/NO -st/Alates/God påske→frá throughout lv/study fields for no. DE untouched."
+  },
+  "g2/a1/is|Abend|idx:18|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kvöld\"}",
+    "owner_note": "IS Abend lv: NO Høyre→kvöld for vakars. DE untouched."
+  },
+  "g2/a1/is|Abendessen|idx:19|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kvöldmatur\"}",
+    "owner_note": "IS Abendessen lv: ET Õhtusöök→kvöldmatur for vakariņas. DE untouched."
+  },
+  "g2/a1/is|abends|idx:20|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"á kvöldin\"}",
+    "owner_note": "IS abends lv: ET Õhtul→á kvöldin for vakarā. DE untouched."
+  },
+  "g2/a1/is|achten|idx:22|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fylgja\"}",
+    "owner_note": "IS achten lv: ET Järgima→fylgja for ievērot. DE untouched."
+  },
+  "g2/a1/is|Adresse|idx:23|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heimilisfang\"}",
+    "owner_note": "IS Adresse lv: DE Adresse residue→heimilisfang for adrese. DE untouched."
+  },
+  "g2/a1/is|Affe|idx:24|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"api\"}",
+    "owner_note": "IS Affe lv: NO Oj→api for pērtiķis. DE untouched."
+  },
+  "g2/a1/is|Album|idx:25|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"plata\"}",
+    "owner_note": "IS Album lv: DE Album residue→plata for albums. DE untouched."
+  },
+  "g2/a1/is|alle|idx:7|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"allir\"}",
+    "owner_note": "IS alle lv: NO Alt→allir for visi. DE untouched."
+  },
+  "g2/a1/is|allein|idx:8|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"einn • einnalegur\"}",
+    "owner_note": "IS allein lv: NO Ja→einn•einnalegur for viens pats. DE untouched."
+  },
+  "g2/a1/is|Alter|idx:11|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"aldur\"}",
+    "owner_note": "IS Alter lv: NO Venus→aldur for vecums. DE untouched."
+  },
+  "g2/a1/is|Ameise|idx:27|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"maur\"}",
+    "owner_note": "IS Ameise lv: NO Sive gass→maur for skudra. DE untouched."
+  },
+  "g2/a1/is|Anfang|idx:13|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"byrjun\"}",
+    "owner_note": "IS Anfang lv: ET Algus→byrjun for sākums. DE untouched."
+  },
+  "g2/a1/is|anhalten|idx:31|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"stöðva\"}",
+    "owner_note": "IS anhalten lv: ET Peatuma→stöðva for apstāties. DE untouched."
+  },
+  "g2/a1/is|ankommen|idx:28|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"koma\"}",
+    "owner_note": "IS ankommen lv: ET Saabuma→koma for ierasties. DE untouched."
+  },
+  "g2/a1/is|anschauen|idx:29|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"horfa á\"}",
+    "owner_note": "IS anschauen lv: NO Klokke→horfa á for apskatīt. DE untouched."
+  },
+  "g2/a1/is|Antenne|idx:34|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"loftnet\"}",
+    "owner_note": "IS Antenne lv: DE Antenne residue→loftnet for antena. DE untouched."
+  },
+  "g2/a1/is|antworten|idx:36|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"svara\"}",
+    "owner_note": "IS antworten lv: ET Vastama→svara for atbildēt. DE untouched."
+  },
+  "g2/a1/is|anziehen|idx:30|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"klæðast\"}",
+    "owner_note": "IS anziehen lv: ET Selg panema→klæðast for uzvilkt. DE untouched."
+  },
+  "g2/a1/is|Apfel|idx:0|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"epli\"}",
+    "owner_note": "IS Apfel lv: DE Un→epli for ābols. DE untouched."
+  },
+  "g2/a1/is|Appetit|idx:689|lv|TARGET_LANGUAGE_MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"matarlyst\"}",
+    "owner_note": "IS Appetit lv: FI Isu→matarlyst for apetīte. DE untouched."
+  },
+  "g2/a1/is|Aprikose|idx:40|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"apríkósa\"}",
+    "owner_note": "IS Aprikose lv: NO Aprikos→apríkósa for aprikoze. DE untouched."
+  },
+  "g2/a1/is|April|idx:41|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"apríl\"}",
+    "owner_note": "IS April lv: DE April residue→apríl for aprīlis. DE untouched."
+  },
+  "g2/a1/is|aber|idx:21|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"en\",\"study.translation\":\"en\",\"study.explanation\":\"Notað til að vísa í andstæður eða mótmæli. Þýðir oft „en“, „þó“, „samt sem áður“.\",\"study.examples[0].lv\":\"Ég vil koma með, en ég hef ekki tíma.\",\"study.examples[1].lv\":\"Maturinn var góður, en of dýr.\",\"study.examples[2].lv\":\"Hann hefur rétt fyrir sér, en ég sé þetta öðruvísi.\",\"study.comparison[0].meaning\":\"enem • kærleiki • en\",\"study.comparison[0].example\":\"Ich komme, aber später. – Ég kem, en seinna.\",\"study.comparison[1].meaning\":\"heldur • ekki ... heldur ...\",\"study.comparison[1].example\":\"Ich wollte keinen Tee, sondern Kaffee. – Ég vildi ekki te, heldur kaffi.\",\"study.comparison[2].meaning\":\"þó\",\"study.comparison[2].example\":\"Es ist kalt, jedoch sonnig. – Kalt er, en sólríkt.\",\"study.tip.text\":\"Mundu: andstæða/mótmæli → aber.\",\"study.important[0]\":\"aber sýnir andstöðu eða einvörpu.\",\"study.important[1]\":\"Ef andstaðan er „ekki..., heldur...“, nota Þjóðverjarar venjulega sondern.\"}",
+    "owner_note": "IS aber composite: ET/NO Aga/Kasutatakse→en throughout lv/study fields for bet. DE untouched."
+  },
+  "g2/a1/is|also|idx:26|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"því • þar af leiðandi\",\"study.explanation\":\"Notað til að draga ályktun eða sýna afleiðslu. Þýðir „því“, „þar af leiðandi“.\",\"study.examples[0].lv\":\"Það rignir, því verð ég heima.\",\"study.examples[1].lv\":\"Þú ert veikur, því ferðu ekki í vinnuna.\",\"study.examples[2].lv\":\"Ég hef lært mikið, því skil ég það núna.\",\"study.comparison[0].meaning\":\"því • þar af leiðandi\",\"study.comparison[0].example\":\"Es regnet, also bleibe ich zu Hause. – Það rignir, því verð ég heima.\",\"study.comparison[1].meaning\":\"líka\",\"study.comparison[1].example\":\"Ich komme auch. – Ég kem líka.\",\"study.comparison[2].meaning\":\"þess vegna\",\"study.comparison[2].example\":\"Es regnet, deshalb bleibe ich zu Hause. – Það rignir, þess vegna verð ég heima.\",\"study.tip.text\":\"Mundu: ályktun → also.\",\"study.important[0]\":\"also sýnir ályktun: af því sem áður var sagt kemur næsta hugmynd.\",\"study.important[1]\":\"Latvisku „tāpēc“ getur oft verið líka deshalb.\"}",
+    "owner_note": "IS also composite: ET/NO Seega/seepåråt→því•þar af leiðandi throughout study fields for tātad. DE untouched."
+  },
+  "g2/a1/is|an|idx:12|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"við • á • nálægt\",\"study.translation\":\"við • á • nálægt\",\"study.explanation\":\"Notað þegar eitthvað er við vegg, glugga, dyr, á, strönd eða annan brún/yfirborð.\",\"study.examples[0].lv\":\"Við vegginn\",\"study.examples[1].lv\":\"Við gluggann\",\"study.examples[2].lv\":\"Við sjóinn\",\"study.comparison[0].meaning\":\"á yfirborði eða brún\",\"study.comparison[0].example\":\"an der Wand – Við vegginn\",\"study.comparison[1].meaning\":\"á láréttu yfirborði\",\"study.comparison[1].example\":\"auf dem Tisch – Á borðinu\",\"study.comparison[2].meaning\":\"hjá manneskju eða stað\",\"study.comparison[2].example\":\"beim Arzt – Hjá lækninum\",\"study.tip.text\":\"Mundu: við vegg/glugga/brún → an.\",\"study.important[0]\":\"an er ekki hvaða „við“ sem er. Það þýðir oft við yfirborð, vegg, glugga eða brún.\",\"study.important[1]\":\"Á láréttri yfirborði notarðu venjulega auf.\"}",
+    "owner_note": "IS an composite: ET/NO Juures/Seina dyllus→við•á•nálægt throughout lv/study fields for pie. DE untouched."
+  }
+}
