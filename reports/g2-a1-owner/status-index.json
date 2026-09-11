@@ -391,7 +391,7 @@
         "antiBulkPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "pending-commit",
+        "headSha": "72cf6a47",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-029-decisions.csv"
       }
     },
