@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Grammatik|idx:247|lv|ORTHOGRAPHIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"málfræði\"}",
+    "owner_note": "IS Grammatik lv: NO Grammatikk→málfræði for gramatika grammar. DE untouched."
+  },
+  "g2/a1/is|groß|idx:250|lv, study.explanation, study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"stór\",\"study.explanation\":[\"Meginhugsun: stór þýðir mikla stærð eða hæð.\",\"Groß lýsir oft stærð, hæð eða mikilvægi.\",\"Fyrir manneskju getur Er ist groß þýtt hann er hár/táll.\"],\"study.examples[0].lv\":\"Húsið er stórt.\",\"study.examples[1].lv\":\"Berlin er stór borg.\",\"study.examples[2].lv\":\"Hann er hár.\",\"study.examples[3].lv\":\"Herbergið er stórt.\"}",
+    "owner_note": "IS groß composite: ET Suur/NO på→stór throughout study for liels big. DE untouched."
+  },
+  "g2/a1/is|Großeltern|idx:251|lv, study.explanation, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"afi og amma\",\"study.explanation\":[\"Meginhugsun: Großeltern þýðir amma og afa saman.\",\"Þetta orð er notað í fleirtölu.\",\"Í eintölu notaðu Großmutter eða Großvater.\"],\"study.comparison[0].meaning\":\"afi og amma\",\"study.comparison[0].example\":\"meine Großeltern – afi og amma mín\",\"study.comparison[1].meaning\":\"amma\",\"study.comparison[1].example\":\"meine Großmutter – amma mín\",\"study.comparison[2].meaning\":\"afi\",\"study.comparison[2].example\":\"mein Großvater – afi minn\",\"study.tip[0]\":\"Großeltern er fleirtala.\",\"study.tip[1]\":\"Fyrir eina persónu notaðu Großmutter eða Großvater.\",\"study.important[0]\":\"die Großeltern = afi og amma.\"}",
+    "owner_note": "IS Großeltern composite: ET Vanaema/Vanaisa→amma/afi in comparison for vecvecāki. DE untouched."
+  },
+  "g2/a1/is|gut|idx:259|lv, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gott\",\"study.explanation\":[\"Meginhugsun: gut er lýsingarorð/staðarorð — gott, vel, í lagi.\",\"Gut lýsir gæðum, heilsu eða að gengi vel (Es geht mir gut.).\",\"Guten Tag/Morgen/Abend — gut breytist eftir beygingu.\",\"Kemur gut fyrir sögn, er það oft staðarorð (gut schwimmen = syndir vel).\",\"Ekki rugla við das Gut — annað orð (eign, ríkuleiki).\"],\"study.examples[0].lv\":\"Maturinn er góður.\",\"study.examples[1].lv\":\"Hvernig hefur þú það? – Gott, takk!\",\"study.examples[2].lv\":\"Hann talar góða þýsku.\",\"study.examples[3].lv\":\"Góðan dag!\",\"study.examples[4].lv\":\"Þetta er góð hugmynd.\",\"study.examples[5].lv\":\"Allt er í lagi.\",\"study.tip[0]\":\"gott án greinis = gott/vel\",\"study.tip[1]\":\"das Gut með grein = eign — annað orð\",\"study.important[0]\":\"gut = gott/vel (lýsingarorð/staðarorð).\",\"study.important[1]\":\"das Gut = eign — ekki rugla við gut.\",\"study.important[2]\":\"Guten Tag/Morgen/Abend — gut í beygingu.\"}",
+    "owner_note": "IS gut composite: NO Hei/ET→gott throughout study for labs good. DE untouched."
+  },
+  "g2/a1/is|haben|idx:261|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eiga\",\"study.translation\":\"eiga\",\"study.explanation\":[\"Meginhugsun: haben þýðir að eiga eða hafa aðgang að einhverju.\",\"Á íslensku: ég á + þolfall svarar til Ich habe + Akkusativ.\",\"Haben tekur Akkusativ: Ich habe ein Auto. = Ég á bíl.\",\"Haben er líka hjálparsögn í fullgildu: Ich habe gelernt.\"],\"study.examples[0].lv\":\"Ég á bíl.\",\"study.examples[1].lv\":\"Áttu tíma?\",\"study.examples[2].lv\":\"Við erum svöng.\",\"study.examples[3].lv\":\"Ég gerði það.\",\"study.comparison[0].meaning\":\"eiga\",\"study.comparison[0].example\":\"Ich habe Zeit. – Ég á tíma.\",\"study.comparison[1].meaning\":\"vera\",\"study.comparison[1].example\":\"Ich bin hier. – Ég er hér.\",\"study.comparison[2].meaning\":\"fá\",\"study.comparison[2].example\":\"Ich bekomme ein Geschenk. – Ég fæ gjöf.\",\"study.comparison[3].meaning\":\"gera\",\"study.comparison[3].example\":\"Ich mache das. – Ég geri það.\",\"study.tip.text\":\"Mundu: Ich habe → ég á.\",\"study.important[0]\":\"Á íslensku 'ég á' = Ich habe + þolfall. Ekki *mir habe.\",\"study.important[1]\":\"Með sein og datívi: Mir ist kalt. = Mér er kalt. (það er ekki haben!)\",\"study.important[2]\":\"Í fullgildu: Ich habe gelernt = ég hef lært.\"}",
+    "owner_note": "IS haben composite: NO Mul på/ET→eiga throughout study for man ir have. DE untouched."
+  },
+  "g2/a1/is|halten|idx:265|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"halda • stöðva\",\"study.translation\":\"halda • stöðva\",\"study.explanation\":[\"Meginhugsun: halten þýðir að halda, en með farartæki oft að stöðva.\",\"Ef hlutur er í hendi, þýðir halten að halda.\",\"Bíll/strætisvagn hält = stöðvast.\",\"Ich halte das für... = ég tel það vera...\"],\"study.examples[0].lv\":\"Ég held pokann.\",\"study.examples[1].lv\":\"Strætisvagninn stoppar hér.\",\"study.examples[2].lv\":\"Vinsamlegast stöðvið.\",\"study.examples[3].lv\":\"Ég tel þetta rétt.\",\"study.comparison[0].meaning\":\"halda / stöðva\",\"study.comparison[0].example\":\"Der Bus hält. – Strætisvagninn stoppar.\",\"study.comparison[1].meaning\":\"taka\",\"study.comparison[1].example\":\"Ich nehme die Tasche. – Ég tek pokann.\",\"study.comparison[2].meaning\":\"stöðva\",\"study.comparison[2].example\":\"Bitte halten Sie an. – Stöðvið, takk.\",\"study.comparison[3].meaning\":\"halda (skoðun)\",\"study.comparison[3].example\":\"Ich denke, das ist richtig. – Ég held að það sé rétt.\",\"study.tip.text\":\"Mundu: í hendi → halten; farartæki → hält/stöðvast.\",\"study.important[0]\":\"halten er ekki bara 'halda' — með farartæki þýðir það oft stöðva.\",\"study.important[1]\":\"Ich halte das für... = ég tel það vera...\",\"study.important[2]\":\"Bitte halten Sie an notað með anhalten.\"}",
+    "owner_note": "IS halten composite: ET Hoidma/NO stoppar→halda•stöðva throughout for turēt hold/stop. DE untouched."
+  },
+  "g2/a1/is|Hand|idx:267|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hönd\",\"study.translation\":\"hönd\",\"study.explanation\":[\"Meginhugsun: die Hand þýðir hönd.\",\"Á þýsku eru Arm og Hand tvö óskyld orð.\",\"Á íslensku getur armur stundum táknað bæði arm og hönd í daglegu máli.\"],\"study.examples[0].lv\":\"Ég þvoi hendurnar.\",\"study.examples[1].lv\":\"Hún heldur glasið í hendinni.\",\"study.examples[2].lv\":\"Armurinn minn er sár.\",\"study.comparison[0].meaning\":\"hönd\",\"study.comparison[0].example\":\"in der Hand – í hendinni\",\"study.comparison[1].meaning\":\"armur\",\"study.comparison[1].example\":\"Mein Arm tut weh. – Armurinn minn særir.\",\"study.tip[0]\":\"Hand = hönd.\",\"study.tip[1]\":\"Arm = armur frá herðinni til hendinnar.\",\"study.important[0]\":\"Á þýsku er Hand og Arm ekki sama orðið.\"}",
+    "owner_note": "IS Hand composite: LV roka/plaukstā→hönd/hendinni throughout for plauksta hand. DE untouched."
+  },
+  "g2/a1/is|Haus|idx:3|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hús\"}",
+    "owner_note": "IS Haus lv: garbage Maya→hús for māja house. DE untouched."
+  },
+  "g2/a1/is|heiraten|idx:274|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"giftast\"}",
+    "owner_note": "IS heiraten lv: ET Abielluma→giftast for precēties marry. DE untouched."
+  },
+  "g2/a1/is|heiß|idx:275|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heitt\"}",
+    "owner_note": "IS heiß lv: garbage Kum→heitt for karsts hot. DE untouched."
+  },
+  "g2/a1/is|heißen|idx:276|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"heita • þýða\",\"study.translation\":\"heita • þýða\",\"study.explanation\":[\"Meginhugsun: heißen er oft notað til nafns.\",\"Ich heiße... = ég heiti...\",\"Was heißt das? = hvað þýðir það?\",\"A1 stig: Wie heißt du? er mikilvægasta spurningin.\"],\"study.examples[0].lv\":\"Ég heiti Anna.\",\"study.examples[1].lv\":\"Hvað heitir þú?\",\"study.examples[2].lv\":\"Hvernig segir maður þetta á þýsku?\",\"study.examples[3].lv\":\"Hvað þýðir það?\",\"study.comparison[0].meaning\":\"heita\",\"study.comparison[0].example\":\"Ich heiße Anna. – Ég heiti Anna.\",\"study.comparison[1].meaning\":\"kalla\",\"study.comparison[1].example\":\"Er nennt mich Tom. – Hann kallar mig Tom.\",\"study.comparison[2].meaning\":\"þýða\",\"study.comparison[2].example\":\"Was bedeutet das? – Hvað þýðir það?\",\"study.comparison[3].meaning\":\"kalla (hrópa)\",\"study.comparison[3].example\":\"Ich rufe dich. – Ég kallaði þig.\",\"study.comparison[4].meaning\":\"hringja\",\"study.comparison[4].example\":\"Ich rufe dich an. – Ég hringi í þig.\",\"study.tip.text\":\"Mundu: Ich heiße... → ég heiti...\",\"study.important[0]\":\"Wie heißt du? = Hvað heitir þú?\",\"study.important[1]\":\"Was heißt das? = Hvað þýðir það?\"}",
+    "owner_note": "IS heißen composite: ET/NO Nimi/Jeg→heita•þýða throughout for saukties name/mean. DE untouched."
+  },
+  "g2/a1/is|helfen|idx:277|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hjálpa\"}",
+    "owner_note": "IS helfen lv: ET Aitama→hjálpa for palīdzēt help. DE untouched."
+  },
+  "g2/a1/is|Hemd|idx:278|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"skyrta\"}",
+    "owner_note": "IS Hemd lv: garbage Svak→skyrta for krekls shirt. DE untouched."
+  },
+  "g2/a1/is|Herbst|idx:279|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"haust\"}",
+    "owner_note": "IS Herbst lv: ET Sügis→haust for rudens autumn. DE untouched."
+  },
+  "g2/a1/is|Herr|idx:280|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"herra\"}",
+    "owner_note": "IS Herr lv: EN Sir→herra for kungs Mr/sir. DE untouched."
+  },
+  "g2/a1/is|heute|idx:281|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"í dag\"}",
+    "owner_note": "IS heute lv: NO Takk→í dag for šodien today. DE untouched."
+  },
+  "g2/a1/is|hier|idx:282|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hér\"}",
+    "owner_note": "IS hier lv: ET Siin→hér for šeit here. DE untouched."
+  },
+  "g2/a1/is|Hilfe|idx:283|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hjálp\"}",
+    "owner_note": "IS Hilfe lv: garbage Abi→hjálp for palīdzība help (noun). DE untouched."
+  },
+  "g2/a1/is|hinter|idx:284|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fyrir aftan\"}",
+    "owner_note": "IS hinter lv: garbage Ta→fyrir aftan for aiz behind. DE untouched."
+  },
+  "g2/a1/is|hoch|idx:285|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hár\",\"study.translation\":\"hár\",\"study.explanation\":[\"Meginhugsun: hoch þýðir mikla hæð eða hátt stig.\",\"Hoch lýsir oft hæð, verði eða stigi.\",\"Oft notað um lóðrétta hæð.\"],\"study.examples[0].lv\":\"Fjallið er hátt.\",\"study.examples[1].lv\":\"Hillan er tvö metrar á hæð.\",\"study.examples[2].lv\":\"Leigan er há.\",\"study.examples[3].lv\":\"Vegghliðin er há.\",\"study.examples[4].lv\":\"Verðin eru há.\",\"study.tip[0]\":\"hoch = hár\",\"study.tip[1]\":\"Notaðu hoch þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"Fyrir verð og stig er oft notað hoch.\",\"study.important[1]\":\"hoch = hár.\",\"study.important[2]\":\"Hár lóðrétt, á stigi eða í hæð.\"}",
+    "owner_note": "IS hoch composite: NO Høy/ET→hár throughout study for augsts high. DE untouched."
+  },
+  "g2/a1/is|höflich|idx:286|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kurteis\"}",
+    "owner_note": "IS höflich lv: ET Viisakas→kurteis for pieklājīgs polite. DE untouched."
+  },
+  "g2/a1/is|Honig|idx:324|lv|MEANING_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hunang\"}",
+    "owner_note": "IS Honig lv: garbage Messias→hunang for medus honey. DE untouched."
+  },
+  "g2/a1/is|hören|idx:287|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"heyra • hlusta\",\"study.explanation\":[\"Meginhugsun: hören þýðir að heyra hljóð eða hlusta á tónlist.\",\"Hören er notað fyrir hljóð, tónlist og sögur.\",\"Oft lýsir hljóðum og því sem heyrist.\"],\"study.examples[0].lv\":\"Ég hlusta á tónlist.\",\"study.examples[1].lv\":\"Börnin hlusta á sögu.\",\"study.examples[2].lv\":\"Ég heyri þig.\",\"study.tip[0]\":\"Heyra hljóð eða hlusta á tónlist.\",\"study.tip[1]\":\"Notaðu hören þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"hören = heyra/hlusta á hljóð.\",\"study.important[1]\":\"Heyra hljóð eða hlusta á tónlist.\"}",
+    "owner_note": "IS hören composite: ET Kuulma/NO→heyra•hlusta throughout for dzirdēt•klausīties. DE untouched."
+  },
+  "g2/a1/is|Hose|idx:325|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"buxur\"}",
+    "owner_note": "IS Hose lv: ET Püksid→buxur for bikses pants. DE untouched."
+  },
+  "g2/a1/is|hübsch|idx:288|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"fagurt\",\"study.explanation\":[\"Meginhugsun: hübsch þýðir fagurt, aðlaðandi eða fallegt að útliti.\",\"hübsch lýsir oft útliti manns, fata, herbergis eða hluta.\",\"Fallegt getur verið mögulegt í sumum samhengum, en er of víðtækt sem aðalþýðing.\",\"Á þýsku lýsir vinsamleg framkoma oft með nett.\"],\"study.examples[0].lv\":\"Hún er í fögrum kjól.\",\"study.examples[1].lv\":\"Herbergið er fagurt.\",\"study.examples[2].lv\":\"Þetta er fögur mynd.\",\"study.comparison[0].meaning\":\"fagurt • aðlaðandi að útliti\",\"study.comparison[0].example\":\"Das ist ein hübsches Kleid. – Þetta er fagur kjól.\",\"study.comparison[1].meaning\":\"fallegt • þægilegt\",\"study.comparison[1].example\":\"Der Garten ist schön. – Garðurinn er fallegur.\",\"study.comparison[2].meaning\":\"vinsamleg • vinaleg\",\"study.comparison[2].example\":\"Sie ist sehr nett. – Hún er mjög vinsamleg.\",\"study.tip.text\":\"Mundu: hübsch lýsir oft útliti; nett lýsir oft vinsamlegri framkomu.\",\"study.important[0]\":\"hübsch er ekki alhliða þýðing fyrir fallegt.\",\"study.important[1]\":\"Fyrir vinsamlega framkomu er oft hentugra nett.\"}",
+    "owner_note": "IS hübsch composite: fix fagur mynd grammar + ensure natural IS for glīts pretty. DE untouched."
+  },
+  "g2/a1/is|Huhn|idx:326|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hænsn\"}",
+    "owner_note": "IS Huhn lv: ET Kana→hænsn for vista chicken. DE untouched."
+  },
+  "g2/a1/is|Hund|idx:327|lv|MEANING_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hundur\"}",
+    "owner_note": "IS Hund lv: NO Kyr (cow)→hundur for suns dog. DE untouched."
+  },
+  "g2/a1/is|hundert|idx:289|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hundrað\"}",
+    "owner_note": "IS hundert lv: garbage Sada→hundrað for simts hundred. DE untouched."
+  },
+  "g2/a1/is|hungrig|idx:290|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"svangur\"}",
+    "owner_note": "IS hungrig lv: NO Nålen (needle)→svangur for izsalcis hungry. DE untouched."
+  },
+  "g2/a1/is|Hut|idx:328|lv|MEANING_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hattur\"}",
+    "owner_note": "IS Hut lv: garbage Tupp→hattur for cepure hat. DE untouched."
+  },
+  "g2/a1/is|ich|idx:291|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ég\"}",
+    "owner_note": "IS ich lv: NO Mine→ég for es I. DE untouched."
+  },
+  "g2/a1/is|ihr|idx:292|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"þið • henni\",\"study.explanation\":[\"Meginhugsun: ihr hefur tvær aðalmerkingar — þið (fleirtala) og henni (datívi af sie).\",\"Með sagnorðum (kommt, habt) = þið.\",\"ihr Buch = hennar bók; Ich gebe ihr... = ég gef henni...\",\"Við formlegu tali er alltaf Sie, ekki ihr.\"],\"study.examples[0].lv\":\"Komist þið í kvöld?\",\"study.examples[1].lv\":\"Ég gef henni bókina.\",\"study.examples[2].lv\":\"Hvar búið þið?\",\"study.examples[3].lv\":\"Hann skrifar henni bréf.\",\"study.examples[4].lv\":\"Eruð þið með tíma?\",\"study.examples[5].lv\":\"Þetta er bíll hennar.\",\"study.tip[0]\":\"ihr með sagnorðum (kommt, habt) = þið; ihr við nafnorð = henni/hennar.\",\"study.tip[1]\":\"Athugun: Habt ihr...? = þið; Ich gebe ihr... = henni.\",\"study.important[0]\":\"ihr = þið EÐA henni/hennar — fer eftir samhengi.\",\"study.important[1]\":\"Formlegt tal er alltaf Sie með stórum staf, ekki ihr.\",\"study.important[2]\":\"Rangt: Ihr (formlegt) → Rétt: Sie.\"}",
+    "owner_note": "IS ihr composite: ET/NO Teie/Er du glad→þið•henni throughout for jūs•viņai. DE untouched."
+  },
+  "g2/a1/is|im|idx:293|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"í • hvar?\",\"study.explanation\":[\"im er stytting fyrir in dem (datívi).\",\"Fullt form: in dem (hvar?).\",\"Notað með karlkyni/hlutlausu nafnorði: hvar?\",\"Með mánuðum og árstíðum: im Januar, im Sommer, im Winter.\",\"Í reynd er næstum alltaf notað im, ekki in dem.\"],\"study.examples[0].lv\":\"Ég er í garðinum.\",\"study.examples[1].lv\":\"Við búum í miðbænum.\",\"study.examples[2].lv\":\"Á sumrin er heitt.\",\"study.examples[3].lv\":\"Hann vinnur í skrifstofunni.\",\"study.examples[4].lv\":\"Barnið leikur sér í garðinum.\",\"study.examples[5].lv\":\"Í janúar fer ég til Vínar.\",\"study.examples[6].lv\":\"Hún er í bíó.\",\"study.examples[7].lv\":\"Við hittumst í veitingastað.\",\"study.comparison[0].meaning\":\"í (hvar?)\",\"study.comparison[0].example\":\"im Park – í garðinum\",\"study.comparison[1].meaning\":\"inn (hvert?)\",\"study.comparison[1].example\":\"ins Kino – í bíó\",\"study.comparison[2].meaning\":\"í (án greinis)\",\"study.comparison[2].example\":\"in Berlin – í Berlín\",\"study.comparison[3].meaning\":\"við (hvar?)\",\"study.comparison[3].example\":\"am Fenster – við gluggann\",\"study.comparison[4].meaning\":\"á\",\"study.comparison[4].example\":\"auf dem Tisch – á borðinu\",\"study.tip[0]\":\"Mundu: in + dem → im (hvar?).\",\"study.tip[1]\":\"Hvert? → ins; hvar? → im — ekki rugla!\",\"study.important[0]\":\"im = in dem, aðeins með karlkyni/hlutlausu nafnorði hvar? beygingu.\",\"study.important[1]\":\"Svarar hvar?, ekki hvert? — staðsetning, ekki hreyfing.\",\"study.important[2]\":\"Með mánuðum og árstíðum: im März, im Herbst.\",\"study.important[3]\":\"Fyrir kvenkyn: in der Schule, ekki im Schule.\"}",
+    "owner_note": "IS im composite: ET Ser/Sissy→í•hvar? throughout for iekšā•kur? in dem. DE untouched."
+  },
+  "g2/a1/is|immer|idx:294|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"alltaf\"}",
+    "owner_note": "IS immer lv: TR Alati→alltaf for vienmēr always. DE untouched."
+  },
+  "g2/a1/is|in|idx:295|study|LANGUAGE_MIX|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"í • inn\",\"study.explanation\":[\"Meginhugsun: in þýðir í eða inn eftir samhengi.\",\"Fyrir staðsetningu: í Berlín = in Berlin.\",\"Fyrir hreyfingu inn: ins Kino = í bíó.\",\"Íslenska þýðing fer eftir samhengi.\"],\"study.examples[0].lv\":\"Ég er í Berlín.\",\"study.examples[1].lv\":\"Ég fer í skólann.\",\"study.examples[2].lv\":\"Bókin er í pokanum.\",\"study.examples[3].lv\":\"Við förum í bíó.\",\"study.tip.text\":\"Mundu: staðsetning/hreyfing inn → in.\",\"study.important[0]\":\"in er ekki alltaf bóklega 'innni'; á íslensku er oft náttúrulegra að segja í Berlín, í skóla, í bíó.\",\"study.important[1]\":\"Fyrir yfirborð notaðu venjulega auf, ekki in.\"}",
+    "owner_note": "IS in composite: ET Sett/Sissy→í•inn throughout for iekšā•uz in/into. DE untouched."
+  },
+  "g2/a1/is|ins|idx:296|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"inn • inn í • hvert?\",\"study.translation\":\"inn • inn í • hvert?\",\"study.explanation\":[\"ins er stytting fyrir in das (akkusativ).\",\"Fullt form: in das (hvert?).\",\"Notað með hlutlausu nafnorði: hvert?\",\"Oft með sögnum: gehen, fahren, kommen, legen, stecken.\",\"Í reynd er næstum alltaf notað ins, ekki in das.\"],\"study.examples[0].lv\":\"Ég fer í bíó.\",\"study.examples[1].lv\":\"Hún fer í rúmið.\",\"study.examples[2].lv\":\"Við keyrum til útlanda.\",\"study.examples[3].lv\":\"Kom inn í húsið!\",\"study.examples[4].lv\":\"Hann setur peningana í veskið.\",\"study.examples[5].lv\":\"Við förum á safn.\",\"study.examples[6].lv\":\"Hún setur blómin í vatnið.\",\"study.examples[7].lv\":\"Keyrðu í miðbæinn, takk.\",\"study.comparison[0].meaning\":\"inn (hvert?)\",\"study.comparison[0].example\":\"ins Kino – í bíó\",\"study.comparison[1].meaning\":\"í (hvar?)\",\"study.comparison[1].example\":\"im Kino – í bíó\",\"study.comparison[2].meaning\":\"inn (með grein)\",\"study.comparison[2].example\":\"in die Stadt – í borgina\",\"study.comparison[3].meaning\":\"á (akkusativ)\",\"study.comparison[3].example\":\"aufs Dach – á þakið\",\"study.comparison[4].meaning\":\"til (datívi)\",\"study.comparison[4].example\":\"zum Arzt – til læknis\",\"study.tip[0]\":\"Mundu: in + das → ins (hvert?).\",\"study.tip[1]\":\"Hvert? → ins; hvar? → im — aðalmunurinn!\",\"study.important[0]\":\"ins = in das, aðeins með hlutlausu nafnorði hvert? beygingu.\",\"study.important[1]\":\"Svarar hvert?, ekki hvar? — hreyfing, ekki staðsetning.\",\"study.important[2]\":\"Fyrir karlkyn: in den Wald; fyrir kvenkyn: in die Schule.\",\"study.important[3]\":\"Ekki rugla: ins Kino gehen (fara í bíó) vs. im Kino sein (vera í bíó).\"}",
+    "owner_note": "IS ins composite: ET Sisse/Kuhu?→inn•inn í•hvert? throughout for iekšā•uz iekšu•kurp?. DE untouched."
+  },
+  "g2/a1/is|Jahr|idx:329|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ár\"}",
+    "owner_note": "IS Jahr lv: ET Aasta→ár for gads year. DE untouched."
+  },
+  "g2/a1/is|Januar|idx:298|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"janúar\"}",
+    "owner_note": "IS Januar lv: DE Januar→janúar for janvāris January. DE untouched."
+  },
+  "g2/a1/is|jawohl|idx:299|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"já einmitt\"}",
+    "owner_note": "IS jawohl lv: NO Akkurat slik→já einmitt for tieši tā exactly so. DE untouched."
+  },
+  "g2/a1/is|Jeans|idx:306|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gallabuxur\"}",
+    "owner_note": "IS Jeans lv: NO Denimbukser→gallabuxur for džinsi jeans. DE untouched."
+  },
+  "g2/a1/is|jeder|idx:300|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hver\"}",
+    "owner_note": "IS jeder lv: ET Iga→hver for katrs every/each. DE untouched."
+  },
+  "g2/a1/is|jemand|idx:301|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"einhver\"}",
+    "owner_note": "IS jemand lv: ET Keegi→einhver for kāds someone. DE untouched."
+  },
+  "g2/a1/is|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"núna • nú\"}",
+    "owner_note": "IS jetzt native: ET Nüüd/Nå→núna•nú for tagad•pašlaik now. DE untouched."
+  },
+  "g2/a1/is|jetzt|idx:302|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"núna • nú\"}",
+    "owner_note": "IS jetzt lv: ET Nüüd•Nå→núna•nú for tagad•pašlaik now. DE untouched."
+  },
+  "g2/a1/is|Juli|idx:303|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"júlí\"}",
+    "owner_note": "IS Juli lv: garbage Julie→júlí for jūlijs July. DE untouched."
+  },
+  "g2/a1/is|jung|idx:304|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ungur\",\"study.translation\":\"ungur\",\"study.explanation\":[\"Meginhugsun: jung lýsir aldri, ekki nýjung hluta.\",\"Jung lýsir aldri — andstæða er alt (gamall).\",\"Á íslensku eru tvö orð: ungur (aldur) og nýr (nýlega búið til).\",\"Fyrir nýja hluti notaðu neu, ekki jung.\",\"Jung er líka notað í yfirfærðri merkingu: ung hjónaúna, ung pör.\"],\"study.examples[0].lv\":\"Hún er enn ung.\",\"study.examples[1].lv\":\"Hundurinn er ungur.\",\"study.examples[2].lv\":\"Við erum enn ung.\",\"study.examples[3].lv\":\"Hann lítur mjög ungan út.\",\"study.examples[4].lv\":\"Þetta er ungt par.\",\"study.examples[5].lv\":\"Ung kona brosir.\",\"study.examples[6].lv\":\"Bróðir minn er yngri en ég.\",\"study.tip[0]\":\"jung er fyrir aldur (fólk, dýr) — fyrir nýja hluti notaðu neu.\",\"study.tip[1]\":\"Andstæða: jung ↔ alt (ungir ↔ gamlir).\",\"study.important[0]\":\"jung lýsir aldri, ekki nýjungi hluta.\",\"study.important[1]\":\"Fyrir nýja hluti (síma, bíl, hús) notaðu neu, ekki jung.\",\"study.important[2]\":\"Rangt: Mein Handy ist jung. → Rétt: Mein Handy ist neu.\"}",
+    "owner_note": "IS jung composite: ET Noor/NO→ungur throughout for jauns young (age). DE untouched."
+  },
+  "g2/a1/is|Juni|idx:305|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"júní\"}",
+    "owner_note": "IS Juni lv: DE Juni→júní for jūnijs June. DE untouched."
+  },
+  "g2/a1/is|Kaffee|idx:330|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kaffi\"}",
+    "owner_note": "IS Kaffee lv: ET Kohv→kaffi for kafija coffee. DE untouched."
+  },
+  "g2/a1/is|Kalender|idx:331|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dagatal\"}",
+    "owner_note": "IS Kalender lv: DE Kalender→dagatal for kalendārs calendar. DE untouched."
+  },
+  "g2/a1/is|Karotte|idx:333|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gulrót\"}",
+    "owner_note": "IS Karotte lv: NO Gulrøtter→gulrót for burkāns carrot. DE untouched."
+  }
+}
