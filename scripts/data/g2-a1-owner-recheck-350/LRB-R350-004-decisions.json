@@ -1,5 +1,5 @@
 {
-  "g2/a1/nl|Ärztin|idx:46|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"dokter","owner_note":"NL Ärztin/lv: «Een dokter» adds indefinite article; vocabulary headword should be bare «dokter» for ārste/female doctor."},
+  "g2/a1/nl|Ärztin|idx:46|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"vrouwelijke arts","owner_note":"NL Ärztin/lv: LV «ārste» and DE «Ärztin» denote female doctor specifically; LABOT from «Een dokter» to «vrouwelijke arts» because bare «dokter» loses feminine gender."},
   "g2/a1/nl|bald|idx:69|lv|WRONG_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"NL bald/lv: «Spoedig» correctly translates soon/drīz in Dutch A1 usage."},
   "g2/a1/nl|beste|idx:86|lv|WRONG_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"beste","owner_note":"NL beste/lv: «De beste» adds definite article; adjective headword should be bare «beste» for vislabākais."},
   "g2/a1/nl|Brot|idx:1|lv|WRONG_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"NL Brot/lv: «Brood» is standard Dutch for bread/maize."},
