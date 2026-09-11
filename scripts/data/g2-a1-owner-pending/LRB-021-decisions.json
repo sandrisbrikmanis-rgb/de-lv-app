@@ -2,8 +2,8 @@
   "g2/a1/gr|laut|idx:358|lv, study.translation, study.explanation, study.examples, study.tip|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Ηχηρός\",\"study.translation\":\"Ηχηρός\",\"study.explanation[1]\":\"Laut σημαίνει κυρίως: δυνατός ήχος.\",\"study.explanation[3]\":\"Laut σημαίνει κυρίως: ήχος ως σήμα.\",\"study.tip[0]\":\"Μικρό laut = ηχηρός (επίθετο: ist laut). der Laut με κεφαλαίο = ήχος (ουσιαστικό: ein Laut, der Laut).\"}",
-    "owner_note": "GR laut: Επιλέγω→Ηχηρός loud adjective; fix tip LV leak. DE untouched."
+    "owner_new": "{\"lv\":\"Δυνατός\",\"study.translation\":\"Δυνατός\",\"study.explanation[1]\":\"Laut σημαίνει κυρίως: δυνατός ήχος.\",\"study.explanation[3]\":\"Laut σημαίνει κυρίως: ήχος ως σήμα.\",\"study.tip[0]\":\"Το laut με μικρό γράμμα = δυνατός (επίθετο: ist laut). Το der Laut με κεφαλαίο = ήχος (ουσιαστικό).\"}",
+    "owner_note": "GR laut: owner micro-repair Ηχηρός→Δυνατός; tip δυνατός gloss. DE untouched."
   },
   "g2/a1/gr|Laut|idx:359|lv, study.translation, study.explanation, study.examples, study.tip|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -98,14 +98,14 @@
   "g2/a1/gr|vom|idx:634|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Από\",\"study.translation\":\"Από\"}",
-    "owner_note": "GR vom composite: Δηλ abbreviation→Από for no from-origin. DE untouched."
+    "owner_new": "{\"lv\":\"Από\",\"study.translation\":\"Από\",\"study.explanation[3]\":\"Απαντά συχνά στις ερωτήσεις: από πού; από ποιον;\",\"study.comparison[0].meaning\":\"Από (συγκεκριμένη πηγή, δοτική)\"}",
+    "owner_note": "GR vom composite: owner micro-repair explanation[3] and comparison meaning. DE untouched."
   },
   "g2/a1/gr|vor|idx:636|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "GR vor: Πριν•Μπροστά από time/place teaching aligns with pirms/priekšā. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[3]\":\"Στην ώρα, vor σημαίνει «πριν», π.χ. fünf vor acht.\",\"study.examples[2].lv\":\"Είναι πέντε λεπτά πριν τις οκτώ.\"}",
+    "owner_note": "GR vor: owner micro-repair clock-time explanation and example[2]. DE untouched."
   },
   "g2/a1/gr|was|idx:644|lv, study.translation, study.explanation, study.examples, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -206,14 +206,14 @@
   "g2/a1/hr|aus|idx:57|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Iz • Od\",\"study.translation\":\"Iz • Od\",\"study.explanation\":\"Koristi se kada nešto dolazi iznutra, izlazi ili ukazuje na podrijetlo.\",\"study.examples[0].lv\":\"Ja sam iz Njemačke.\",\"study.examples[1].lv\":\"On izlazi iz kuće.\",\"study.examples[2].lv\":\"Vadim knjigu iz torbe.\",\"study.comparison[0].meaning\":\"Iznutra, iz\",\"study.comparison[1].meaning\":\"Od osobe, mjesta, površine\",\"study.comparison[2].meaning\":\"Počinjući od trenutka ili vremena\",\"study.tip.text\":\"Zapamtite: iznutra → aus.\"}",
-    "owner_note": "HR aus: dedupe Од•Од→Iz•Od; Croatian study fields. DE untouched."
+    "owner_new": "{\"lv\":\"Iz • Od\",\"study.translation\":\"Iz • Od\",\"study.explanation\":\"Koristi se kada nešto dolazi iznutra, izlazi ili ukazuje na podrijetlo.\",\"study.examples[0].lv\":\"Ja sam iz Njemačke.\",\"study.examples[1].lv\":\"On izlazi iz kuće.\",\"study.examples[2].lv\":\"Vadim knjigu iz torbe.\",\"study.comparison[0].meaning\":\"Iznutra, iz\",\"study.comparison[1].meaning\":\"Od osobe, mjesta, površine\",\"study.comparison[2].meaning\":\"Počinjući od trenutka ili vremena\",\"study.tip.text\":\"Zapamtite: iznutra → aus.\",\"study.important[0]\":\"Aus obično označava kretanje iznutra prema van ili podrijetlo.\"}",
+    "owner_note": "HR aus: owner micro-repair important[0] movement/origin gloss. DE untouched."
   },
   "g2/a1/hr|bitte|idx:93|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Molim\",\"study.translation\":\"Molim\",\"study.explanation[0]\":\"Glavna ideja: ljubazna riječ malim slovima.\",\"study.explanation[1]\":\"Bitte u osnovi znači: ljubaznost.\",\"study.examples[0].lv\":\"Šalicu kave, molim.\",\"study.examples[1].lv\":\"Molim, uđite.\",\"study.examples[3].lv\":\"Mogu li pitati, molim?\",\"study.examples[4].lv\":\"Imam jedan zahtjev.\",\"study.examples[5].lv\":\"Zahtjev je važan.\",\"study.comparison[0].meaning\":\"Molim\",\"study.comparison[0].example\":\"Komm bitte herein. – Molim, uđi unutra.\",\"study.comparison[1].meaning\":\"Zahtjev\",\"study.comparison[1].example\":\"Ich habe eine Bitte. – Imam jedan zahtjev.\",\"study.tip[0]\":\"Malo bitte = molim (Bitte schön!, Kaffee, bitte). Die Bitte s velikim = zahtjev.\",\"study.important[0]\":\"Bitte s malim slovom je ljubazna riječ, ne ime.\",\"study.important[1]\":\"Die Bitte s velikim slovom i članom die je samostalnik.\"}",
-    "owner_note": "HR bitte: Macedonian Ве молам→Molim; unscramble examples. DE untouched."
+    "owner_new": "{\"lv\":\"Molim\",\"study.translation\":\"Molim\",\"study.explanation[0]\":\"Glavna ideja: ljubazna riječ malim slovima.\",\"study.explanation[1]\":\"Bitte u osnovi znači: ljubaznost.\",\"study.examples[0].lv\":\"Šalicu kave, molim.\",\"study.examples[1].lv\":\"Molim, uđite.\",\"study.examples[2].lv\":\"Izvolite!\",\"study.examples[3].lv\":\"Mogu li pitati, molim?\",\"study.examples[4].lv\":\"Imam jedan zahtjev.\",\"study.examples[5].lv\":\"Zahtjev je važan.\",\"study.comparison[0].meaning\":\"Molim\",\"study.comparison[0].example\":\"Komm bitte herein. – Molim, uđi unutra.\",\"study.comparison[1].meaning\":\"Zahtjev\",\"study.comparison[1].example\":\"Ich habe eine Bitte. – Imam jedan zahtjev.\",\"study.tip[0]\":\"Malo bitte = molim (Bitte schön!, Kaffee, bitte). Die Bitte s velikim = zahtjev.\",\"study.important[0]\":\"Bitte s malim slovom je ljubazna riječ, ne ime.\",\"study.important[1]\":\"Die Bitte s velikim slovom i članom die je samostalnik.\",\"study.important[2]\":\"Množina: die Bitten = zahtjevi / molbe.\"}",
+    "owner_note": "HR bitte: owner micro-repair examples[2] Izvolite; important[2] plural. DE untouched."
   },
   "g2/a1/hr|Bitte|idx:94|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
