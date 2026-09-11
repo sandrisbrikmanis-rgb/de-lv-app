@@ -32,14 +32,14 @@
   "g2/a1/fr|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "À • Au • Présent",
-    "owner_note": "FR a1-an native: dedupe À • Au • Présent for pie/at-on edge senses. DE untouched."
+    "owner_new": "À • Au bord de • Contre",
+    "owner_note": "FR a1-an: micro-repair À • Au bord de • Contre at/edge/against pie senses. DE untouched."
   },
   "g2/a1/fr|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "À • Au • Présent",
-    "owner_note": "FR a1-an study.translation: mirrors native repair. DE untouched."
+    "owner_new": "À • Au bord de • Contre",
+    "owner_note": "FR a1-an: micro-repair À • Au bord de • Contre at/edge/against pie senses. DE untouched."
   },
   "g2/a1/fr|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -68,8 +68,8 @@
   "g2/a1/fr|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Que • C'est que",
-    "owner_note": "FR dass comparison[1]: Parce que wrong for dass; LABOT Que/C'est que conjunction. DE untouched."
+    "owner_new": "Car • Parce que",
+    "owner_note": "FR dass: micro-repair comparison[1] Car/Parce que for jo/tāpēc ka weil contrast, not dass translation. DE untouched."
   },
   "g2/a1/fr|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -98,26 +98,26 @@
   "g2/a1/fr|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Ce • Il • Forme impersonnelle",
-    "owner_note": "FR es native: dedupe Il; Ce/Il/impersonal for tas/es it pronoun. DE untouched."
+    "owner_new": "Il • Ce",
+    "owner_note": "FR a1-es: micro-repair Il • Ce impersonal/it for tas/es. DE untouched."
   },
   "g2/a1/fr|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Ce • Il • Forme impersonnelle",
-    "owner_note": "FR es study.translation: mirrors native it/impersonal repair. DE untouched."
+    "owner_new": "Il • Ce",
+    "owner_note": "FR a1-es: micro-repair Il • Ce impersonal/it for tas/es. DE untouched."
   },
   "g2/a1/fr|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Vous • À vous",
-    "owner_note": "FR euch native: jūs/jums → Vous/À vous you-plural dative. DE untouched."
+    "owner_new": "Vous",
+    "owner_note": "FR a1-euch: micro-repair single Vous for jūs/jums; no invented dedupe pair. DE untouched."
   },
   "g2/a1/fr|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Vous • À vous",
-    "owner_note": "FR euch study.translation: mirrors native plural-you repair. DE untouched."
+    "owner_new": "Vous",
+    "owner_note": "FR a1-euch: micro-repair single Vous for jūs/jums; no invented dedupe pair. DE untouched."
   },
   "g2/a1/fr|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -170,14 +170,14 @@
   "g2/a1/fr|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Prendre • Saisir",
-    "owner_note": "FR nehmen native: ņemt/paņemt → Prendre/Saisir take/grasp. DE untouched."
+    "owner_new": "Prendre",
+    "owner_note": "FR a1-nehmen: micro-repair single Prendre for ņemt/paņemt; avoid Saisir. DE untouched."
   },
   "g2/a1/fr|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Prendre • Saisir",
-    "owner_note": "FR nehmen study.translation: mirrors native take/grasp repair. DE untouched."
+    "owner_new": "Prendre",
+    "owner_note": "FR a1-nehmen: micro-repair single Prendre for ņemt/paņemt; avoid Saisir. DE untouched."
   },
   "g2/a1/fr|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -218,14 +218,14 @@
   "g2/a1/fr|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Qui • Lequel",
-    "owner_note": "FR wer native: kas/kurš → Qui/Lequel who/which-person. DE untouched."
+    "owner_new": "Qui",
+    "owner_note": "FR a1-wer: micro-repair single Qui for kas/kurš who. DE untouched."
   },
   "g2/a1/fr|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Qui • Lequel",
-    "owner_note": "FR wer study.translation: mirrors native who/which repair. DE untouched."
+    "owner_new": "Qui",
+    "owner_note": "FR a1-wer: micro-repair single Qui for kas/kurš who. DE untouched."
   },
   "g2/a1/fr|a1-zu|a1.card.a1-zu.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -242,20 +242,20 @@
   "g2/a1/fr|a1-zum|a1.card.a1-zum.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Au • À",
-    "owner_note": "FR zum native: uz/pie → Au/À contracted to-the zum. DE untouched."
+    "owner_new": "Au • Chez le",
+    "owner_note": "FR a1-zum: micro-repair Au • Chez le contextual zu dem; not universal À contraction. DE untouched."
   },
   "g2/a1/fr|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Au • À",
-    "owner_note": "FR zum study.translation: mirrors native to-the contraction repair. DE untouched."
+    "owner_new": "Au • Chez le",
+    "owner_note": "FR a1-zum: micro-repair Au • Chez le contextual zu dem; not universal À contraction. DE untouched."
   },
   "g2/a1/fr|ab|idx:17|study.translation; study.examples; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FR ab study: Depuis/À partir de examples and von/aus contrast already correct for no/ab. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"À partir d'aujourd'hui\",\"study.examples[1].lv\":\"À partir de lundi\",\"study.examples[2].lv\":\"À partir de 8 heures\",\"study.comparison[0].example\":\"ab Montag – À partir de lundi\"}",
+    "owner_note": "FR ab: micro-repair À partir orthography + 8 heures; keep Depuis content. DE untouched."
   },
   "g2/a1/fr|aber|idx:21|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
