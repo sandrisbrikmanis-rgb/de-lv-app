@@ -8,8 +8,8 @@
   "g2/a1/fi|hübsch|idx:288|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.tip.text\":\"Muista: hübsch kuvaa enimmäkseen kaunista ulkonäköä, mutta nett kuvaa useammin mukavaa ihmistä tai käytöstä.\"}",
-    "owner_note": "FI hübsch micro: study.tip LV → FI; lv/translation/explanations already Finnish. DE untouched."
+    "owner_new": "{\"study.tip.text\":\"Muista: hübsch kuvaa enimmäkseen kaunista ulkonäköä, mutta nett kuvaa useammin mukavaa ihmistä tai käytöstä.\",\"study.explanation[2]\":\"Suomen sana mukava voi joissakin yhteyksissä sopia, mutta se on liian laaja pääkäännökseksi.\"}",
+    "owner_note": "FI hübsch micro: study.tip LV → FI + explanation[2] mukava scope fix. DE untouched."
   },
   "g2/a1/fi|hundert|idx:289|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -32,8 +32,8 @@
   "g2/a1/fi|ihr|idx:292|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Te • Hänelle\",\"study.translation\":\"Te • Hänelle\",\"study.explanation[0]\":\"Pääajatus: ihr on kaksi eri sanaa samalla kirjoitusasulla — monikon sinuttelu (te) ja sie-pronominin datiivi (hänelle).\",\"study.explanation[1]\":\"Pienellä ihr tarkoittaa monikon sinuttelua: te (Kommt ihr mit? = Tuletteko mukaan?).\",\"study.explanation[2]\":\"Omistuspronominina ihr tarkoittaa hänen (ihr Buch = hänen kirja).\",\"study.explanation[3]\":\"Datiivissa (sie-pronominista) ihr tarkoittaa hänelle (Ich gebe ihr das Buch. = Annan hänelle kirjan.).\",\"study.explanation[4]\":\"Verbin muoto (kommt, habt) kertoo, että kyse on te-sinuttelusta.\",\"study.explanation[5]\":\"Kohtelias sinuttelu on aina Sie isolla alkukirjaimella, ei ihr.\",\"study.examples[0].lv\":\"Tuletteko tänä iltana?\",\"study.examples[1].lv\":\"Annan hänelle kirjan.\",\"study.examples[2].lv\":\"Missä te asutte?\",\"study.examples[3].lv\":\"Hän kirjoittaa hänelle kirjeen.\",\"study.examples[4].lv\":\"Onko teillä aikaa?\",\"study.examples[5].lv\":\"Se on hänen auto.\"}",
-    "owner_note": "FI ihr: ET Teie/Temale + ET study → FI Te/Hänelle you-pl vs dative teaching. DE untouched."
+    "owner_new": "{\"lv\":\"Te • Hänelle\",\"study.translation\":\"Te • Hänelle\",\"study.explanation[0]\":\"Pääajatus: ihr on kaksi eri sanaa samalla kirjoitusasulla — monikon sinuttelu (te) ja sie-pronominin datiivi (hänelle).\",\"study.explanation[1]\":\"Pienellä ihr tarkoittaa monikon sinuttelua: te (Kommt ihr mit? = Tuletteko mukaan?).\",\"study.explanation[2]\":\"Omistuspronominina ihr tarkoittaa hänen (ihr Buch = hänen kirjansa).\",\"study.explanation[3]\":\"Datiivissa (sie-pronominista) ihr tarkoittaa hänelle (Ich gebe ihr das Buch. = Annan hänelle kirjan.).\",\"study.explanation[4]\":\"Verbin muoto (kommt, habt) kertoo, että kyse on te-sinuttelusta.\",\"study.explanation[5]\":\"Kohtelias sinuttelu on aina Sie isolla alkukirjaimella, ei ihr.\",\"study.examples[0].lv\":\"Tuletteko tänä iltana?\",\"study.examples[1].lv\":\"Annan hänelle kirjan.\",\"study.examples[2].lv\":\"Missä te asutte?\",\"study.examples[3].lv\":\"Hän kirjoittaa hänelle kirjeen.\",\"study.examples[4].lv\":\"Onko teillä aikaa?\",\"study.examples[5].lv\":\"Se on hänen autonsa.\"}",
+    "owner_note": "FI ihr micro: possessive kirjansa/autonsa fix in explanation[2] and examples[5]. DE untouched."
   },
   "g2/a1/fi|im|idx:293|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -146,8 +146,8 @@
   "g2/a1/fi|Köchin|idx:341|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Naiskeittiömestari",
-    "owner_note": "FI Köchin lv: ET Naiskokk → FI Naiskeittiömestari for pavāre female cook. DE untouched."
+    "owner_new": "Kokki",
+    "owner_note": "FI Köchin lv: ET Naiskokk → FI Kokki for pavāre female cook. DE untouched."
   },
   "g2/a1/fi|können|idx:319|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -206,8 +206,8 @@
   "g2/a1/fi|Laden|idx:349|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Kauppa\",\"study.translation\":\"Kauppa\",\"study.explanation[0]\":\"Pääajatus: der Laden isolla alkukirjaimella ja artikkelilla der on substantiivi — pieni kauppa.\",\"study.explanation[1]\":\"Laden pienellä alkukirjaimella on verbi — ladata tai ladata akku.\",\"study.explanation[2]\":\"Der Laden tarkoittaa arjessa usein pientä kauppaa (im Laden einkaufen = käydä kaupassa).\",\"study.explanation[3]\":\"Monikko: die Läden.\",\"study.examples[0].lv\":\"Menen kauppaan.\",\"study.examples[1].lv\":\"Kauppa on suljettu.\",\"study.examples[2].lv\":\"Täällä on paljon kauppoja.\",\"study.examples[3].lv\":\"Minun täytyy ladata puhelin.\",\"study.tip[0]\":\"der Laden isolla alkukirjaimella — substantiivi (kauppa).\",\"study.tip[1]\":\"laden pienellä alkukirjaimella — verbi (ladata).\",\"study.important[0]\":\"der Laden = kauppa (substantiivi).\",\"study.important[1]\":\"laden = ladata (verbi).\",\"study.important[2]\":\"Monikko: die Läden.\"}",
-    "owner_note": "FI Laden: ET Pood + ET study → FI Kauppa shop vs laden verb teaching. DE untouched."
+    "owner_new": "{\"lv\":\"Kauppa\",\"study.translation\":\"Kauppa\",\"study.explanation[0]\":\"Pääajatus: der Laden isolla alkukirjaimella ja artikkelilla der on substantiivi — pieni kauppa.\",\"study.explanation[1]\":\"Laden pienellä alkukirjaimella on verbi — lastata tai ladata.\",\"study.explanation[2]\":\"Der Laden tarkoittaa arjessa usein pientä kauppaa (im Laden einkaufen = käydä kaupassa).\",\"study.explanation[3]\":\"Monikko: die Läden.\",\"study.examples[0].lv\":\"Menen kauppaan.\",\"study.examples[1].lv\":\"Kauppa on suljettu.\",\"study.examples[2].lv\":\"Täällä on paljon kauppoja.\",\"study.examples[3].lv\":\"Minun täytyy ladata puhelin.\",\"study.tip[0]\":\"der Laden isolla alkukirjaimella — substantiivi (kauppa).\",\"study.tip[1]\":\"laden pienellä alkukirjaimella — verbi (ladata).\",\"study.important[0]\":\"der Laden = kauppa (substantiivi).\",\"study.important[1]\":\"laden = lastata / ladata (verbi).\",\"study.important[2]\":\"Monikko: die Läden.\"}",
+    "owner_note": "FI Laden micro: laden verb lastata/ladata wording fix. DE untouched."
   },
   "g2/a1/fi|Lampe|idx:350|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -218,8 +218,8 @@
   "g2/a1/fi|Land|idx:351|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Valtio • Maa\",\"study.translation\":\"Valtio • Maa\",\"study.explanation[0]\":\"Pääajatus: das Land tarkoittaa useimmiten valtiota tai maaseutua kaupungin vastakohtana.\",\"study.explanation[1]\":\"Kun puhutaan Saksasta, Suomesta tai muusta alueesta, käännös on valtio.\",\"study.explanation[2]\":\"Kun puhutaan maaseudusta tai maasta kaupungin vastakohtana, käännös on maa tai maaseutu.\",\"study.explanation[3]\":\"Konteksti ratkaisee, tarkoitetaanko valtiota, maaseutua vai maata.\",\"study.examples[0].lv\":\"Saksa on kaunis maa.\",\"study.examples[1].lv\":\"Olen pienestä maasta.\",\"study.examples[2].lv\":\"Ajelemme maalle.\",\"study.examples[3].lv\":\"Maaseudulla on rauhallista.\",\"study.comparison[0].meaning\":\"Valtio / maa / maaseutu\",\"study.comparison[1].meaning\":\"Kaupunki\",\"study.comparison[2].meaning\":\"Kylä\",\"study.comparison[3].meaning\":\"Maa / planeetta\",\"study.tip.text\":\"Muista: valsts → das Land; pilsēta → die Stadt.\",\"study.important[0]\":\"aufs Land tarkoittaa maalle, ei valtiolle.\",\"study.important[1]\":\"das Land ei ole sama kuin die Stadt.\"}",
-    "owner_note": "FI Land: ET Riik/Maa + ET study → FI Valtio/Maa country vs countryside teaching. DE untouched."
+    "owner_new": "{\"lv\":\"Valtio • Maa\",\"study.translation\":\"Valtio • Maa\",\"study.explanation[0]\":\"Pääajatus: das Land tarkoittaa useimmiten valtiota tai maaseutua kaupungin vastakohtana.\",\"study.explanation[1]\":\"Kun puhutaan Saksasta, Suomesta tai muusta alueesta, käännös on valtio.\",\"study.explanation[2]\":\"Kun puhutaan maaseudusta tai maasta kaupungin vastakohtana, käännös on maa tai maaseutu.\",\"study.explanation[3]\":\"Konteksti ratkaisee, tarkoitetaanko valtiota, maaseutua vai maata.\",\"study.examples[0].lv\":\"Saksa on kaunis maa.\",\"study.examples[1].lv\":\"Olen pienestä maasta.\",\"study.examples[2].lv\":\"Ajelemme maalle.\",\"study.examples[3].lv\":\"Maaseudulla on rauhallista.\",\"study.comparison[0].meaning\":\"Valtio / maa / maaseutu\",\"study.comparison[1].meaning\":\"Kaupunki\",\"study.comparison[2].meaning\":\"Kylä\",\"study.comparison[3].meaning\":\"Maa / planeetta\",\"study.tip.text\":\"Muista: valtio/maa → das Land; kaupunki → die Stadt.\",\"study.important[0]\":\"aufs Land tarkoittaa maalle, ei valtiolle.\",\"study.important[1]\":\"das Land ei ole sama kuin die Stadt.\"}",
+    "owner_note": "FI Land micro: study.tip.text LV → FI valtio/maa/kaupunki. DE untouched."
   },
   "g2/a1/fi|lang|idx:352|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
