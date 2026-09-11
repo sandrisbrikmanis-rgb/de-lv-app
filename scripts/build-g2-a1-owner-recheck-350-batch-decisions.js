@@ -6,6 +6,14 @@ const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const { loadCsv, buildCsv } = require("./lib/g2-a1-phase3/batch-001-csv");
 
+function loadDecisions(batchId) {
+  const dataPath = path.join(ROOT, "scripts/data/g2-a1-owner-recheck-350", `${batchId}-decisions.json`);
+  if (fs.existsSync(dataPath)) {
+    return JSON.parse(fs.readFileSync(dataPath, "utf8"));
+  }
+  return DECISIONS;
+}
+
 const DECISIONS = {
   "g2/a1/fr|baden|idx:68|study.translation|TRANSLATION_ERROR|gpt-5.6-luna": {
     owner_status: "DECIDED",
@@ -366,6 +374,7 @@ function main() {
   const proofPath = path.join(ROOT, "reports/g2-a1-owner/batches-reviewed", `${batchId}-proof.json`);
 
   const { header, rows } = loadCsv(inputPath);
+  const decisions = loadDecisions(batchId);
   const outHeader = [...header.filter((h) => h !== "provenance_type"), "provenance_type"];
   const reviewed = [];
   let labot = 0;
@@ -373,7 +382,7 @@ function main() {
   let pending = 0;
 
   for (const row of rows) {
-    const decision = DECISIONS[row.finding_stable_ids];
+    const decision = decisions[row.finding_stable_ids];
     if (!decision) {
       throw new Error(`Missing individual decision for ${row.finding_stable_ids}`);
     }
