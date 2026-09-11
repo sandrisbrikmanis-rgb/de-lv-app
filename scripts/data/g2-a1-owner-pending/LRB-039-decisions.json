@@ -14,8 +14,8 @@
   "g2/a1/is|spät|idx:569|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"seint\"}",
-    "owner_note": "IS spät lv: ET Hiline→seint for vēls late. DE untouched."
+    "owner_new": "{\"lv\":\"seinn\"}",
+    "owner_note": "IS spät lv gala: seint→seinn (adj form for vēls late). DE untouched."
   },
   "g2/a1/is|spazieren gehen|idx:570|lv|MEANING_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -44,8 +44,8 @@
   "g2/a1/is|sprechen|idx:5|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"tala\",\"study.translation\":\"tala\",\"study.explanation\":[\"Meginhugsun: sprechen þýðir að tala, ræða eða nota tungumál.\",\"Sprechen leggur áherslu á tal eða tungumál.\",\"Notað um samtal, tungumál eða að tala við einhvern.\",\"sagen leggur meiri áherslu á ákveðin orð eða setningu.\"],\"study.examples[0].lv\":\"Ég tala þýsku.\",\"study.examples[1].lv\":\"Við tölum um vinnuna.\",\"study.examples[2].lv\":\"Hún talar við kennarann sinn.\",\"study.comparison[0].meaning\":\"tala (tungumál)\",\"study.comparison[0].example\":\"Wir sprechen über die Arbeit. – Við tölum um vinnuna.\",\"study.comparison[1].meaning\":\"segja (ákveðið)\",\"study.comparison[1].example\":\"Sag mir die Wahrheit. – Segðu mér sannleikann.\",\"study.tip[0]\":\"sprechen = tala\",\"study.tip[1]\":\"Notaðu sprechen þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"sprechen = tala.\",\"study.important[1]\":\"Tala, ræða eða nota tungumál.\"}",
-    "owner_note": "IS sprechen composite: ET/NO Pratsom/snakke→tala throughout lv/study; fix ex[2] Lehrerin; sagen contrast. DE untouched."
+    "owner_new": "{\"lv\":\"tala\",\"study.translation\":\"tala\",\"study.explanation\":[\"Meginhugsun: sprechen þýðir að tala, ræða eða nota tungumál.\",\"Sprechen leggur áherslu á tal eða tungumál.\",\"Notað um samtal, tungumál eða að tala við einhvern.\",\"sagen leggur meiri áherslu á ákveðin orð eða setningu.\"],\"study.examples[0].lv\":\"Ég tala þýsku.\",\"study.examples[1].lv\":\"Við tölum um vinnuna.\",\"study.examples[2].lv\":\"Hún talar við kennara sína.\",\"study.comparison[0].meaning\":\"tala (tungumál)\",\"study.comparison[0].example\":\"Wir sprechen über die Arbeit. – Við tölum um vinnuna.\",\"study.comparison[1].meaning\":\"segja (ákveðið)\",\"study.comparison[1].example\":\"Sag mir die Wahrheit. – Segðu mér sannleikann.\",\"study.tip[0]\":\"sprechen = tala\",\"study.tip[1]\":\"Notaðu sprechen þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"sprechen = tala.\",\"study.important[1]\":\"Tala, ræða eða nota tungumál.\"}",
+    "owner_note": "IS sprechen gala: ex[2] Lehrerin→kennara sína (fem teacher, not kennarann); full DE↔IS alignment. DE untouched."
   },
   "g2/a1/is|Staat|idx:697|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -98,8 +98,8 @@
   "g2/a1/is|Student|idx:581|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"nemandi\"}",
-    "owner_note": "IS Student lv: ET Üliõpilane→nemandi for students student. DE untouched."
+    "owner_new": "{\"lv\":\"háskólanemi\"}",
+    "owner_note": "IS Student lv gala: nemandi→háskólanemi for students university student. DE untouched."
   },
   "g2/a1/is|Stuhl|idx:582|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -254,8 +254,8 @@
   "g2/a1/is|über|idx:608|study|LANGUAGE_MIX|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"yfir • um\",\"study.explanation\":[\"Meginhugsun: über þýðir yfir eða um eftir samhengi.\",\"Ef talað er um staðsetningu, þýðir über oft yfir.\",\"Ef talað er um efni eða umræðuefni, þýðir über um.\",\"Í hreyfingu getur über þýtt yfir eitthvað.\"],\"study.examples[0].lv\":\"Ljósið hangir yfir borðinu.\",\"study.examples[1].lv\":\"Við tölum um veðrið.\",\"study.examples[2].lv\":\"Barnið hleypur yfir götuna.\",\"study.examples[3].lv\":\"Ég gleðst yfir gjöfina.\",\"study.comparison[0].meaning\":\"yfir / um / yfir\",\"study.comparison[0].example\":\"Wir sprechen über das Wetter.\",\"study.comparison[1].meaning\":\"á\",\"study.comparison[1].example\":\"Das Buch liegt auf dem Tisch.\",\"study.comparison[2].meaning\":\"undir\",\"study.comparison[2].example\":\"Die Tasche ist unter dem Tisch.\",\"study.comparison[3].meaning\":\"frá\",\"study.comparison[3].example\":\"Ich höre von dir.\",\"study.tip.text\":\"Mundu: umræðuefni → um; yfir borði → yfir.\",\"study.important[0]\":\"über er ekki bara staðarforði.\",\"study.important[1]\":\"sprechen über þýðir tala um.\"}",
-    "owner_note": "IS über composite: ET Kohal/Kohta→yfir•um throughout study for virs•par; sprechen über contrast. DE untouched."
+    "owner_new": "{\"study.translation\":\"yfir • um\",\"study.explanation\":[\"Meginhugsun: über þýðir yfir eða um eftir samhengi.\",\"Ef talað er um staðsetningu, þýðir über oft yfir + þágufall.\",\"Ef talað er um efni eða umræðuefni, þýðir über um.\",\"Í hreyfingu getur über þýtt yfir + þolfall.\"],\"study.examples[0].lv\":\"Ljósið hangir yfir borðinu.\",\"study.examples[1].lv\":\"Við tölum um veðrið.\",\"study.examples[2].lv\":\"Barnið hleypur yfir götuna.\",\"study.examples[3].lv\":\"Ég gleðst yfir gjöfinni.\",\"study.comparison[0].meaning\":\"yfir • um\",\"study.comparison[0].example\":\"Wir sprechen über das Wetter.\",\"study.comparison[1].meaning\":\"á\",\"study.comparison[1].example\":\"Das Buch liegt auf dem Tisch.\",\"study.comparison[2].meaning\":\"undir\",\"study.comparison[2].example\":\"Die Tasche ist unter dem Tisch.\",\"study.comparison[3].meaning\":\"frá\",\"study.comparison[3].example\":\"Ich höre von dir.\",\"study.tip.text\":\"Mundu: umræðuefni → um; yfir borði → yfir + þágufall.\",\"study.important[0]\":\"über er ekki bara staðarforði.\",\"study.important[1]\":\"sprechen über þýðir tala um; sich freuen über → yfir + þágufall.\"}",
+    "owner_note": "IS über gala: ex[3] gjöfina→gjöfinni (dat); cmp[0] yfir•um; case gov dem/acc/dat verified. DE untouched."
   },
   "g2/a1/is|um|idx:611|study|LANGUAGE_MIX|gpt-5.6-luna": {
     "owner_status": "DECIDED",

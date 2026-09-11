@@ -34,14 +34,17 @@ const COMPOSITE_CARDS = [
   "Urlaub",
   "verstehen",
 ];
-const GALA_REPAIR_CARDS = [];
+const GALA_REPAIR_CARDS = ["spät", "Student", "sprechen", "über"];
 
 const EXPECTED = {
+  "spät": { lv: "seinn" },
+  Student: { lv: "háskólanemi" },
   sprechen: {
     lv: "tala",
     "study.translation": "tala",
     "study.examples[0].lv": "Ég tala þýsku.",
-    "study.examples[2].lv": "Hún talar við kennarann sinn.",
+    "study.examples[1].lv": "Við tölum um vinnuna.",
+    "study.examples[2].lv": "Hún talar við kennara sína.",
   },
   stehen: {
     "study.translation": "standa",
@@ -50,7 +53,11 @@ const EXPECTED = {
   },
   über: {
     "study.translation": "yfir • um",
+    "study.examples[0].lv": "Ljósið hangir yfir borðinu.",
     "study.examples[1].lv": "Við tölum um veðrið.",
+    "study.examples[2].lv": "Barnið hleypur yfir götuna.",
+    "study.examples[3].lv": "Ég gleðst yfir gjöfinni.",
+    "study.comparison[0].meaning": "yfir • um",
   },
   um: {
     "study.translation": "um • klukkan",
@@ -242,6 +249,14 @@ function semanticChecks(card, merged, deExamples, issues) {
       issues.push({ card, type: "SEMANTIC", msg: "sprechen source residue" });
     if (!/segja/i.test(s(merged, "study.comparison[1].meaning")))
       issues.push({ card, type: "SEMANTIC", msg: "sprechen sagen contrast missing" });
+    if (/kennarann sinn/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "sprechen ex[2] masculine kennarann not allowed for Lehrerin" });
+    if (!/kennara sína/i.test(s(merged, "study.examples[2].lv")))
+      issues.push({ card, type: "SEMANTIC", msg: "sprechen ex[2] must preserve female teacher (kennara sína)" });
+    if (deExamples[0] && s(merged, "study.examples[0].lv") !== "Ég tala þýsku.")
+      issues.push({ card, type: "ALIGNMENT", msg: "sprechen ex[0] Ich spreche Deutsch misaligned" });
+    if (deExamples[1] && !/tölum um vinnuna/i.test(s(merged, "study.examples[1].lv")))
+      issues.push({ card, type: "ALIGNMENT", msg: "sprechen ex[1] über die Arbeit misaligned" });
   }
 
   if (card === "stehen") {
@@ -252,10 +267,20 @@ function semanticChecks(card, merged, deExamples, issues) {
   }
 
   if (card === "über") {
-    if (/Kohal|Kohta|ripub|søleme|kurüstan/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "über source residue" });
+    if (/Kohal|Kohta|ripub|søleme|kurüstan|gjöfina/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "über source residue or wrong case gjöfina" });
     if (!/yfir/i.test(s(merged, "study.translation")))
       issues.push({ card, type: "SEMANTIC", msg: "über translation missing yfir" });
+    if (s(merged, "study.comparison[0].meaning") !== "yfir • um")
+      issues.push({ card, type: "SEMANTIC", msg: "über comparison[0] must be yfir • um" });
+    if (!/borðinu/i.test(s(merged, "study.examples[0].lv")))
+      issues.push({ card, type: "SEMANTIC", msg: "über dem Tisch must use dative borðinu" });
+    if (!/um veðrið/i.test(s(merged, "study.examples[1].lv")))
+      issues.push({ card, type: "SEMANTIC", msg: "über das Wetter must use um" });
+    if (!/götuna/i.test(s(merged, "study.examples[2].lv")))
+      issues.push({ card, type: "SEMANTIC", msg: "über die Straße must use accusative götuna" });
+    if (!/gjöfinni/i.test(s(merged, "study.examples[3].lv")))
+      issues.push({ card, type: "SEMANTIC", msg: "sich freuen über must use dative gjöfinni" });
   }
 
   if (card === "um") {
@@ -351,6 +376,22 @@ for (const row of rows) {
     issueCards.add(card);
   }
 
+  if (GALA_REPAIR_CARDS.includes(card)) {
+    if (EXPECTED[card]) {
+      for (const [path, expected] of Object.entries(EXPECTED[card])) {
+        const got = path === "lv" ? merged.lv : s(merged, path);
+        if (got !== expected) {
+          issues.push({
+            card,
+            type: "SEMANTIC",
+            msg: `${card} ${path} expected "${expected}", got "${got || ""}"`,
+          });
+          issueCards.add(card);
+        }
+      }
+    }
+  }
+
   if (COMPOSITE_CARDS.includes(card) || GALA_REPAIR_CARDS.includes(card)) {
     semanticChecks(card, merged, deExamples, issues);
     if (issues.some((i) => i.card === card)) issueCards.add(card);
@@ -386,7 +427,7 @@ const proof = {
   semantic_violation_cards: [...new Set(semanticViolations.map((i) => i.card))],
   anti_bulk: "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   gala_repair_cards: GALA_REPAIR_CARDS,
-  verdict: pass ? "LRB_039_FULL_50_50_LINGUISTIC_REVIEW_PASS" : "BLOCKED",
+  verdict: pass ? "LRB_039_LINGUISTIC_REPAIR_PASS" : "BLOCKED",
   updatedAt: new Date().toISOString(),
 };
 

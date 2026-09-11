@@ -30,7 +30,12 @@
   "semantic_micro_repair_violations": 0,
   "semantic_violation_cards": [],
   "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  "gala_repair_cards": [],
-  "verdict": "LRB_039_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-11T17:45:27.876Z"
+  "gala_repair_cards": [
+    "spät",
+    "Student",
+    "sprechen",
+    "über"
+  ],
+  "verdict": "LRB_039_LINGUISTIC_REPAIR_PASS",
+  "updatedAt": "2026-09-11T17:49:49.788Z"
 }
