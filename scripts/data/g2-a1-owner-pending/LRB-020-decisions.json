@@ -1,0 +1,302 @@
+{
+  "g2/a1/fr|unter|idx:615|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip\":\"{\\\"text\\\":\\\"Rappelez-vous : zem galda → unter dem Tisch.\\\"}\",\"study.comparison[1].meaning\":\"Au-dessus / à propos de\"}",
+    "owner_note": "FR unter: replace Atceries LV leak in tip; fix über comparison Plus/pour gloss. DE untouched."
+  },
+  "g2/a1/fr|Urlaub|idx:695|study.explanation, study.important|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[2]\":\"Incorrect : die Urlaube → Correct : der Urlaub\"}",
+    "owner_note": "FR Urlaub composite: replace Nepareizi/Pareizi LV leak in study.important. DE untouched."
+  },
+  "g2/a1/fr|verstehen|idx:621|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Comprendre\",\"study.translation\":\"Comprendre\",\"study.comparison[0].meaning\":\"Comprendre\"}",
+    "owner_note": "FR verstehen: Pour comprendre→Comprendre for saprast understand. DE untouched."
+  },
+  "g2/a1/fr|vom|idx:634|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"De\",\"study.translation\":\"De\",\"study.tip[0]\":\"Rappelez-vous : von + dem → vom (Dativ).\"}",
+    "owner_note": "FR vom: Depuis→De for no from-origin; replace Atceries LV leak in tip. DE untouched."
+  },
+  "g2/a1/fr|vor|idx:636|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR vor: Avant•Devant time/place teaching aligns with pirms/priekšā. DE untouched."
+  },
+  "g2/a1/fr|was|idx:644|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Quoi • Que\",\"study.translation\":\"Quoi • Que\",\"study.important[3]\":\"Incorrect : Qu'est-ce que ça passe ? → Correct : Qu'est-ce qui s'est passé ?\"}",
+    "owner_note": "FR was: Qui•Quoi→Quoi•Que for kas/ko things; replace Nepareizi leak. DE untouched."
+  },
+  "g2/a1/fr|wenn|idx:655|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[0]\":\"Wann viens-tu ? est une question. Wenn du kommst... est une condition ou un temps.\"}",
+    "owner_note": "FR wenn composite: replace nav tas pats LV leak in study.important. DE untouched."
+  },
+  "g2/a1/fr|wer|idx:656|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Qui\",\"study.translation\":\"Qui\",\"study.examples[0].lv\":\"Qui est-ce ?\",\"study.examples[2].lv\":\"Qui vient aujourd'hui ?\",\"study.important[3]\":\"Incorrect : Qu'est-ce que ça passe ? → Correct : Qu'est-ce qui s'est passé ?\"}",
+    "owner_note": "FR wer: dedupe Qui•Qui→Qui; fix scrambled examples; replace Nepareizi leak. DE untouched."
+  },
+  "g2/a1/fr|werden|idx:657|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[0]\":\"Werden n'est pas la même chose que sein.\"}",
+    "owner_note": "FR werden composite: replace nav tas pats LV leak in study.important. DE untouched."
+  },
+  "g2/a1/fr|Wetter|idx:658|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Quel temps fait-il aujourd'hui ?\",\"study.tip[1]\":\"Rappelez-vous : Wie ist das Wetter ? = Quel temps fait-il ? (pas l'heure).\"}",
+    "owner_note": "FR Wetter composite: fix weather vs clock example/tip confusion. DE untouched."
+  },
+  "g2/a1/fr|wie|idx:660|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important[2]\":\"Incorrect : Quel âge as-tu ? → Correct : Wie alt bist du ?\"}",
+    "owner_note": "FR wie composite: fix incorrect/correct example confusion in study.important. DE untouched."
+  },
+  "g2/a1/fr|wissen|idx:311|lv; study.*|TARGET_LANGUAGE_WRONG|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR wissen: Savoir fact-knowledge teaching aligns with zināt. DE untouched."
+  },
+  "g2/a1/fr|zu|idx:668|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"À • Chez\",\"study.translation\":\"À • Chez\"}",
+    "owner_note": "FR zu composite: dedupe À•À→À•Chez per LRB-018 zu pattern. DE untouched."
+  },
+  "g2/a1/fr|Zug|idx:671|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FR Zug: Le train teaching aligns with vilciens train sense. DE untouched."
+  },
+  "g2/a1/fr|zum|idx:672|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Au • Chez le\",\"study.translation\":\"Au • Chez le\",\"study.tip[0]\":\"Rappelez-vous : zu + dem → zum (Dativ).\"}",
+    "owner_note": "FR zum composite: dedupe À•À→Au•Chez le; replace Atceries LV leak in tip. DE untouched."
+  },
+  "g2/a1/gr|ab|idx:17|lv, study.translation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Από\",\"study.translation\":\"Από\"}",
+    "owner_note": "GR ab composite: Δηλ abbreviation→Από for no from starting-point. DE untouched."
+  },
+  "g2/a1/gr|aber|idx:21|lv, study.translation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR aber: Ωστόσο contrast teaching and sondern/jedoch align with bet. DE untouched."
+  },
+  "g2/a1/gr|also|idx:26|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation\":\"Χρησιμοποιείται για την εξαγωγή συμπερασμάτων ή την εμφάνιση ενός αποτελέσματος. Σημαίνει «άρα», «λοιπόν».\"}",
+    "owner_note": "GR also study: remove duplicate «άρα» in explanation. DE untouched."
+  },
+  "g2/a1/gr|an|idx:12|lv, study.translation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR an: Στο/Στις/Κοντά at/edge teaching aligns with pie. DE untouched."
+  },
+  "g2/a1/gr|bitte|idx:93|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR bitte: Παρακαλώ polite-word teaching aligns with lūdzu. DE untouched."
+  },
+  "g2/a1/gr|Bitte|idx:94|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Αίτημα\",\"study.translation\":\"Αίτημα\",\"study.explanation[1]\":\"Die Bitte σημαίνει κυρίως: αίτημα.\",\"study.explanation[3]\":\"Die Bitte σημαίνει κυρίως: αίτημα ή παράκληση.\",\"study.examples[1].lv\":\"Εκπληρώνει το αίτημά μου.\",\"study.examples[2].lv\":\"Έχει δύο αιτήματα.\",\"study.examples[5].lv\":\"Το αίτημα είναι σημαντικό.\",\"study.comparison[0].meaning\":\"Αίτημα\",\"study.tip[0]\":\"Μικρό bitte = παρακαλώ (Bitte schön!, Kaffee, bitte). Die Bitte με κεφαλαίο = αίτημα.\",\"study.important[2]\":\"Πληθυντικός: die Bitten (αιτήματα).\"}",
+    "owner_note": "GR Bitte composite: Προσευχή→Αίτημα request noun; unscramble examples per lūgums. DE untouched."
+  },
+  "g2/a1/gr|bleiben|idx:101|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Μένω\",\"study.translation\":\"Μένω\",\"study.comparison[0].meaning\":\"Μένω\"}",
+    "owner_note": "GR bleiben: Να μείνεις imperative→Μένω dictionary form for palikt stay. DE untouched."
+  },
+  "g2/a1/gr|bringen|idx:111|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Φέρνω • Μεταφέρω\",\"study.translation\":\"Φέρνω • Μεταφέρω\",\"study.examples[0].lv\":\"Σου φέρνω ένα βιβλίο.\",\"study.examples[1].lv\":\"Φέρνω το δέμα στο ταχυδρομείο.\",\"study.examples[2].lv\":\"Πηγαίνω τα παιδιά στο σχολείο.\",\"study.comparison[0].meaning\":\"Φέρνω / μεταφέρω\",\"study.comparison[1].meaning\":\"Παραλαμβάνω / φέρνω\",\"study.comparison[2].meaning\":\"Πηγαίνω / φέρνω\",\"study.comparison[3].meaning\":\"Φέρνω μαζί μου\"}",
+    "owner_note": "GR bringen composite: unscramble examples; Φέρνω•Μεταφέρω not Παίρνω take. DE untouched."
+  },
+  "g2/a1/gr|da|idx:126|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR da: Εκεί there-adverb teaching aligns with tur. DE untouched."
+  },
+  "g2/a1/gr|das|idx:129|study.comparison[2].meaning; study.important[1]|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[2].meaning\":\"Ποιο • Ποια • Τι\",\"study.important[1]\":\"Το das δεν είναι το ίδιο με το dass — το das μπορεί να είναι άρθρο ή αντωνυμία, το dass σημαίνει «ότι».\"}",
+    "owner_note": "GR das composite: dedupe Τι; fix dass=ότι not αυτό in important. DE untouched."
+  },
+  "g2/a1/gr|dass|idx:130|study.comparison; study.important[0]|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].example\":\"Ich weiß, dass er kommt. – Ξέρω ότι έρχεται.\",\"study.comparison[2].meaning\":\"Ώστε να\",\"study.important[0]\":\"Dass σημαίνει «ότι» και ξεκινά μια δευτερεύουσα πρόταση.\"}",
+    "owner_note": "GR dass composite: fix dass=ότι; repair scrambled comparison examples. DE untouched."
+  },
+  "g2/a1/gr|ein|idx:154|lv; study.translation; study.explanation; study.examples; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR ein: Αόριστο άρθρο indefinite-article teaching aligns with nenoteiktais. DE untouched."
+  },
+  "g2/a1/gr|Eis|idx:157|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Πάγος • Παγωτό\",\"study.translation\":\"Πάγος • Παγωτό\",\"study.explanation[0]\":\"Κύρια ιδέα: das Eis μπορεί να σημαίνει και πάγο και παγωτό.\",\"study.comparison[0].meaning\":\"Πάγος / παγωτό\"}",
+    "owner_note": "GR Eis composite: dedupe Παγωτό•Παγωτό→Πάγος•Παγωτό ice/cream per FR pattern. DE untouched."
+  },
+  "g2/a1/gr|erst|idx:165|lv; study.translation; study.explanation; study.examples; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Μόνο • Πρώτα\",\"study.translation\":\"Μόνο • Πρώτα\",\"study.examples[0].lv\":\"Πρώτα μαθαίνουμε, μετά παίζουμε.\"}",
+    "owner_note": "GR erst composite: fix scrambled first-example; Μόνο•Πρώτα for tikai only/first. DE untouched."
+  },
+  "g2/a1/gr|es|idx:167|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Το • Αυτό • Απρόσωπη μορφή\",\"study.translation\":\"Το • Αυτό • Απρόσωπη μορφή\",\"study.examples[0].lv\":\"Βρέχει.\",\"study.examples[1].lv\":\"Κάνει κρύο.\",\"study.examples[2].lv\":\"Το παιδί κοιμάται.\",\"study.examples[3].lv\":\"Είναι κουρασμένο.\",\"study.examples[4].lv\":\"Βρέχει.\",\"study.examples[5].lv\":\"Χιονίζει.\"}",
+    "owner_note": "GR es composite: unscramble examples; Αυτός→Αυτό impersonal it for tas/es. DE untouched."
+  },
+  "g2/a1/gr|etwas|idx:169|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR etwas: Κάτι•Λίγο teaching aligns with kaut kas something/a little. DE untouched."
+  },
+  "g2/a1/gr|euch|idx:170|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Εσάς\"}",
+    "owner_note": "GR euch study: dedupe Εσείς•Σε σας→Εσάς accusative/dative you-plural for jūs/jums. DE untouched."
+  },
+  "g2/a1/gr|Frau|idx:198|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Γυναίκα • Σύζυγος\",\"study.explanation[0]\":\"Κύρια ιδέα: die Frau μπορεί να σημαίνει γυναίκα (φύλο) ή σύζυγος (σύζυγος).\"}",
+    "owner_note": "GR Frau study: Σύζυγος•Σύζυγος→Γυναίκα•Σύζυγος woman/wife for sieviete. DE untouched."
+  },
+  "g2/a1/gr|Geschwister|idx:234|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Αδέλφια\",\"study.translation\":\"Αδέλφια\",\"study.examples[0].lv\":\"Έχω δύο αδέλφια.\",\"study.examples[1].lv\":\"Τα αδέλφια μου ζουν στο Βερολίνο.\",\"study.comparison[0].meaning\":\"Αδέλφια\"}",
+    "owner_note": "GR Geschwister composite: replace LV leaks; Αδέλφια siblings for brāļi un māsas. DE untouched."
+  },
+  "g2/a1/gr|gleich|idx:243|lv, study.examples|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR gleich: Αμέσως•Το ίδιο examples align with tūlīt soon/same senses. DE untouched."
+  },
+  "g2/a1/gr|groß|idx:250|lv, study.examples|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[1].lv\":\"Το Βερολίνο είναι μια μεγάλη πόλη.\"}",
+    "owner_note": "GR groß composite: fix examples[1] Berlin city vs house scramble. DE untouched."
+  },
+  "g2/a1/gr|Großeltern|idx:251|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Παππούδες και γιαγιάδες\",\"study.translation\":\"Παππούδες και γιαγιάδες\",\"study.examples[0].lv\":\"Οι παππούδες και οι γιαγιάδες μου ζουν στην ύπαιθρο.\",\"study.examples[1].lv\":\"Επισκέπτομαι τους παππούδες και τις γιαγιάδες μου.\"}",
+    "owner_note": "GR Großeltern composite: replace LV leaks; capitalize Greek grandparents terms. DE untouched."
+  },
+  "g2/a1/gr|gut|idx:259|lv, study.explanation, study.important|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Κύρια ιδέα: το gut είναι επίθετο/επίρρημα — καλό, καλά, καλά.\",\"study.explanation[1]\":\"Το gut περιγράφει την ποιότητα, την υγεία ή το πώς πάει κάτι (Es geht mir gut. = τα πάω καλά.).\",\"study.explanation[3]\":\"Όταν το gut περιγράφει ένα ρήμα, είναι επίρρημα (gut schwimmen = κολυμπάω καλά).\",\"study.important[0]\":\"gut = καλό/καλά (επίθετο/επίρρημα).\",\"study.important[2]\":\"Guten Tag/Morgen/Abend — το gut αλλάζει την κατάληξη ανάλογα με την πτώση.\"}",
+    "owner_note": "GR gut composite: έντερο intestine→gut/kalό mistranslation fix throughout. DE untouched."
+  },
+  "g2/a1/gr|haben|idx:261|lv, study.translation, study.explanation, study.examples, study.comparison|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[1]\":\"Στα ελληνικά, η έκφραση «έχω» αντιστοιχεί στο Ich habe ..., Du hast ..., Er hat ... — όχι *mir habe.\"}",
+    "owner_note": "GR haben composite: replace Estonian leak in study.explanation with Greek. DE untouched."
+  },
+  "g2/a1/gr|halten|idx:265|lv, study.translation, study.explanation, study.examples, study.comparison|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Κρατώ • Σταματώ\",\"study.translation\":\"Κρατώ • Σταματώ\",\"study.comparison[0].meaning\":\"Κρατώ / σταματώ\"}",
+    "owner_note": "GR halten: imperative Κρατήστε•Σταματήστε→Κρατώ•Σταματώ dictionary forms for turēt hold/stop. DE untouched."
+  },
+  "g2/a1/gr|Hand|idx:267|lv, study.translation, study.explanation, study.examples, study.comparison|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Χέρι\",\"study.translation\":\"Χέρι\",\"study.explanation[0]\":\"Κύρια ιδέα: die Hand σημαίνει χέρι.\",\"study.examples[0].lv\":\"Πλένω τα χέρια μου.\",\"study.examples[1].lv\":\"Κρατάει το ποτήρι στο χέρι της.\",\"study.examples[2].lv\":\"Ο βραχίονας μου πονάει.\",\"study.comparison[0].meaning\":\"Χέρι\",\"study.comparison[0].example\":\"in der Hand – στο χέρι\",\"study.comparison[1].meaning\":\"Βραχίονας\"}",
+    "owner_note": "GR Hand composite: παλάμη palm→Χέρι hand; replace LV roka leaks in examples. DE untouched."
+  },
+  "g2/a1/gr|heißen|idx:276|lv, study.translation, study.explanation, study.examples, study.comparison|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR heißen: Όνομα να είναι•Σημαίνει name/mean teaching aligns with saukties. DE untouched."
+  },
+  "g2/a1/gr|hoch|idx:285|lv, study.translation, study.explanation, study.examples|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ψηλός\",\"study.translation\":\"Ψηλός\",\"study.examples[1].lv\":\"Το ράφι είναι δύο μέτρα ψηλό.\"}",
+    "owner_note": "GR hoch composite: Ψηλά adverb→Ψηλός adjective; fix shelf vs mountain example scramble. DE untouched."
+  },
+  "g2/a1/gr|können|idx:319|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Μπορώ • Μπορώ να\",\"study.translation\":\"Μπορώ • Μπορώ να\",\"study.explanation[1]\":\"Όταν πρόκειται για ικανότητα ή δεξιότητα, στα ελληνικά λέγεται συχνά μπορώ.\",\"study.explanation[2]\":\"Όταν πρόκειται για δυνατότητα, συχνά λέγεται μπορώ να.\",\"study.comparison[0].meaning\":\"Μπορώ / μπορώ να\"}",
+    "owner_note": "GR können composite: replace Estonian leaks; fix Να είναι•Σε θέση να→Μπορώ•Μπορώ να. DE untouched."
+  },
+  "g2/a1/gr|kosten|idx:320|lv, study.translation, study.explanation, study.comparison, study.tip, study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Κοστίζει\",\"study.translation\":\"Κοστίζει\",\"study.explanation[3]\":\"Η ελληνική λέξη κοστίζει είναι σωστή σε αυτό το πλαίσιο: Das kostet 5 Euro. = Κοστίζει 5 ευρώ.\",\"study.important[2]\":\"Στα ελληνικά, η λέξη πληρώνω χρησιμοποιείται για την πράξη, αλλά στα γερμανικά πρέπει να επιλέξετε ανάλογα με την κατάσταση.\"}",
+    "owner_note": "GR kosten composite: Να πληρώσει→Κοστίζει price verb; replace Estonian leaks. DE untouched."
+  },
+  "g2/a1/gr|Laden|idx:349|lv, study.translation, study.explanation, study.tip, study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR Laden: Κατάστημα noun vs laden verb contrast teaching aligns with veikals. DE untouched."
+  },
+  "g2/a1/gr|Land|idx:351|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "GR Land: Χώρα•Γη country/countryside teaching aligns with valsts/zeme. DE untouched."
+  },
+  "g2/a1/gr|lang|idx:352|lv, study.translation, study.explanation, study.tip, study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Μακρύς • Μακράς\",\"study.translation\":\"Μακρύς • Μακράς\"}",
+    "owner_note": "GR lang composite: dedupe Μεγάλης διάρκειας•→Μακρύς•Μακράς space/time long. DE untouched."
+  },
+  "g2/a1/gr|lassen|idx:356|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Αφήνω • Επιτρέπω\",\"study.translation\":\"Αφήνω • Επιτρέπω\",\"study.explanation[1]\":\"Όταν κάτι παραμένει στη θέση του, το lassen μεταφράζεται ως αφήνω.\",\"study.comparison[0].meaning\":\"Αφήνω / επιτρέπω\"}",
+    "owner_note": "GR lassen composite: Να φύγει wrong→Αφήνω•Επιτρέπω for atstāt/ļaut leave/let. DE untouched."
+  },
+  "g2/a1/gr|laufen|idx:357|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Τρέχω • Λειτουργεί\",\"study.translation\":\"Τρέχω • Λειτουργεί\",\"study.explanation[0]\":\"Κύρια ιδέα: laufen σημαίνει τρέξιμο, αλλά για εξοπλισμό μπορεί να σημαίνει λειτουργία.\",\"study.comparison[0].meaning\":\"Τρέχω / λειτουργεί\",\"study.comparison[3].meaning\":\"Λειτουργεί\"}",
+    "owner_note": "GR laufen composite: Να τρέχω•Στη δουλειά→Τρέχω•Λειτουργεί run/machine-run per FI/FR pattern. DE untouched."
+  }
+}
