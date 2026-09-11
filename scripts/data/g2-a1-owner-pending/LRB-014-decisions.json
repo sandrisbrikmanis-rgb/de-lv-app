@@ -32,8 +32,8 @@
   "g2/a1/fi|Onkel|idx:465|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Setä",
-    "owner_note": "FI Onkel lv: ET Onu → FI Setä for tēvocis uncle. DE untouched."
+    "owner_new": "Setä • Eno",
+    "owner_note": "FI Onkel: micro-repair lv Setä • Eno uncle/maternal uncle. DE untouched."
   },
   "g2/a1/fi|Orange|idx:466|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -68,8 +68,8 @@
   "g2/a1/fi|passen|idx:471|lv; study.explanation; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Sopia • Sopia hyvin\",\"study.explanation[0]\":\"Pääajatus: passen tarkoittaa sopima, istua hyvin tai olla sopiva.\",\"study.explanation[1]\":\"Vaatteiden osalta passen tarkoittaa usein sopivaa kokoa.\",\"study.explanation[2]\":\"Värvien tai tyylin osalta passen tarkoittaa sopivaa yhdistelmää.\",\"study.explanation[3]\":\"Hyvin yleinen fraasi on Das passt. = Se sopii.\",\"study.important[0]\":\"passen ei ole vain vaatteista.\",\"study.important[1]\":\"Se voi tarkoittaa myös sitä, että aika, suunnitelma tai ratkaisu sopii.\"}",
-    "owner_note": "FI passen: ET Sobima/Hästi sobima + ET study.explanation → FI Sopia/Sopia hyvin + Finnish teaching. DE untouched."
+    "owner_new": "{\"lv\":\"Sopia • Istua hyvin\",\"study.explanation[0]\":\"Pääajatus: passen tarkoittaa sopima, istua hyvin tai olla sopiva.\",\"study.explanation[1]\":\"Vaatteiden osalta passen tarkoittaa usein sopivaa kokoa.\",\"study.explanation[2]\":\"Värvien tai tyylin osalta passen tarkoittaa sopivaa yhdistelmää.\",\"study.explanation[3]\":\"Hyvin yleinen fraasi on Das passt. = Se sopii.\",\"study.important[0]\":\"passen ei ole vain vaatteista.\",\"study.important[1]\":\"Se voi tarkoittaa myös sitä, että aika, suunnitelma tai ratkaisu sopii.\"}",
+    "owner_note": "FI passen: micro-repair lv Sopia • Istua hyvin fit/size sense. DE untouched."
   },
   "g2/a1/fi|Pause|idx:472|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -164,8 +164,8 @@
   "g2/a1/fi|putzen|idx:487|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Siivota",
-    "owner_note": "FI putzen lv: ET Puhastama → FI Siivota for tīrīt clean. DE untouched."
+    "owner_new": "Puhdistaa • Siivota",
+    "owner_note": "FI putzen: micro-repair lv Puhdistaa • Siivota clean/clean up. DE untouched."
   },
   "g2/a1/fi|Rad fahren|idx:488|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -254,8 +254,8 @@
   "g2/a1/fi|rufen|idx:500|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Huutaa",
-    "owner_note": "FI rufen lv: ET Hüüdma → FI Huutaa for saukt call/shout. DE untouched."
+    "owner_new": "Kutsua • Huutaa",
+    "owner_note": "FI rufen: micro-repair lv Kutsua • Huutaa call/shout. DE untouched."
   },
   "g2/a1/fi|rund|idx:501|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
