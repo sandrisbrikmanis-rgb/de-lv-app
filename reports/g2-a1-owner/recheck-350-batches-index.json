@@ -1,0 +1,17 @@
+{
+  "classification": "G2_A1_RECHECK_350_SPLIT_READY",
+  "totalRows": 350,
+  "batchSize": 50,
+  "batchCount": 7,
+  "sourceFile": "reports/g2-a1-owner-review-individual-7737-decisions-ingest.csv",
+  "quarantineFile": "reports/g2-a1-owner/quarantine/recheck-350-invalid.csv",
+  "batches": [
+    {
+      "batchId": "LRB-R350-001",
+      "rows": 50,
+      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-R350-001-input.csv",
+      "manifestPath": "reports/g2-a1-owner/manifests/LRB-R350-001-start.json",
+      "inputSha256": "fae2c7ef9e0cf1bf188a8defaff0759c3ce43cc8b118fa1544b0fb10eda941bb"
+    }
+  ]
+}
