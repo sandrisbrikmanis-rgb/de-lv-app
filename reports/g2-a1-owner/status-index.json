@@ -117,8 +117,11 @@
         "nelabot": 34,
         "pending": 0,
         "antiBulkPass": true,
-        "headSha": "30a4ff72cf30b6b6f137e90d4a502df103d896de",
-        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-002-decisions.csv"
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "PENDING_COMMIT",
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-002-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-002-anti-bulk-proof.json"
       },
       "LRB-003": {
         "verdict": "LRB_003_LINGUISTIC_REPAIR_PASS",
