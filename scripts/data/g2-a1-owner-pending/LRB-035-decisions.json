@@ -2,8 +2,8 @@
   "g2/a1/is|leise|idx:368|lv, study|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"þögul • hljóðlát\",\"study.translation\":\"þögul • hljóðlát\",\"study.explanation\":[\"Meginhugsun: leise lýsir lágri hljóðstyrk eða rólegri rödd.\",\"Leise þýðir oft þögult eða með litlum hljóði.\",\"Oft notað um rödd, hljóð eða tónlist.\",\"Leise lýsir lítilli hljóðstyrk eða rólegu tali.\"],\"study.examples[0].lv\":\"Vinsamlegast verið þögul.\",\"study.examples[1].lv\":\"Vinsamlegast verið þögul.\",\"study.examples[2].lv\":\"Tónlistin er hljóðlát.\",\"study.examples[3].lv\":\"Talaðu hljóðlega, takk.\",\"study.tip[0]\":\"leise = þögul\",\"study.tip[1]\":\"Notaðu leise þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"leise = þögul rödd/hljóð.\",\"study.important[1]\":\"leise = hljóðstyrkur.\",\"study.important[2]\":\"Þögult eða með litlum hljóði.\"}",
-    "owner_note": "IS leise composite: NO Våkn opp/ET→þögul•hljóðlát throughout lv/study for kluss quiet. DE untouched."
+    "owner_new": "{\"lv\":\"þögull • hljóðlátur\",\"study.translation\":\"þögull • hljóðlátur\",\"study.explanation\":[\"Meginhugsun: leise lýsir lágri hljóðstyrk eða rólegri rödd.\",\"Leise þýðir oft þögult eða með litlum hljóði.\",\"Oft notað um rödd, hljóð eða tónlist.\",\"Leise lýsir lítilli hljóðstyrk eða rólegu tali.\"],\"study.examples[0].lv\":\"Vinsamlegast vertu hljóðlátur.\",\"study.examples[1].lv\":\"Ekki tala svona hátt.\",\"study.examples[2].lv\":\"Tónlistin er hljóðlát.\",\"study.examples[3].lv\":\"Talaðu hljóðlega, takk.\",\"study.tip[0]\":\"leise = þögull / hljóðlátur\",\"study.tip[1]\":\"Notaðu leise þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"leise = þögull rödd/hljóð.\",\"study.important[1]\":\"leise = hljóðstyrkur.\",\"study.important[2]\":\"Þögult eða með litlum hljóði.\"}",
+    "owner_note": "IS leise gala: lv þögull•hljóðlátur; Bitte sei leise→Vertu hljóðlátur; dedup ex[1]. DE untouched."
   },
   "g2/a1/is|lernen|idx:4|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -32,8 +32,8 @@
   "g2/a1/is|lieb|idx:373|lv|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"elskanlegur • kæra\"}",
-    "owner_note": "IS lieb lv: garbage Callis→elskanlegur•kæra for mīļš dear. DE untouched."
+    "owner_new": "{\"lv\":\"elskanlegur • kær\"}",
+    "owner_note": "IS lieb gala: kæra→kær for mīļš dear adj. DE untouched."
   },
   "g2/a1/is|Liebe|idx:374|lv|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -56,8 +56,8 @@
   "g2/a1/is|liegen|idx:377|lv, study|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"liggja • sofa\",\"study.translation\":\"liggja • sofa\",\"study.explanation\":[\"Meginhugsun: liegen þýðir að liggja eða sofa lárétt.\",\"Fyrir manneskju getur liegen þýtt að sofa.\",\"Fyrir hlut þýðir liegen að hann liggur einhvers staðar.\",\"Þetta er ekki sama og legen, sem þýðir að leggja eitthvað niður.\"],\"study.examples[0].lv\":\"Bókin liggur á borðinu.\",\"study.examples[1].lv\":\"Síminn minn er í bílnum.\",\"study.examples[2].lv\":\"Hann liggur í rúminu.\",\"study.examples[3].lv\":\"Ég legg bókina á borðið.\",\"study.comparison[0].meaning\":\"liggja / sofa\",\"study.comparison[0].example\":\"Bókin liggur hér.\",\"study.comparison[1].meaning\":\"leggja\",\"study.comparison[1].example\":\"Ég legg bókina hingað.\",\"study.comparison[2].meaning\":\"standa\",\"study.comparison[2].example\":\"Flaskan stendur á borðinu.\",\"study.comparison[3].meaning\":\"vera\",\"study.comparison[3].example\":\"Ég er hér.\",\"study.tip.text\":\"Mundu: hlutur er þegar á stað → liegen; þú setur hann niður → legen.\",\"study.important[0]\":\"liegen sýnir stöðu eða staðsetningu.\",\"study.important[1]\":\"legen sýnir athöfn: einhver setur eitthvað niður.\"}",
-    "owner_note": "IS liegen composite: ET Asuma•Lamama/NO→liggja•sofa throughout lv/study for atrasties•gulēt. DE untouched."
+    "owner_new": "{\"lv\":\"vera staðsettur • liggja\",\"study.translation\":\"vera staðsettur • liggja\",\"study.explanation\":[\"Meginhugsun: liegen þýðir að vera staðsettur eða liggja lárétt.\",\"Fyrir hlut þýðir liegen að hann liggur einhvers staðar.\",\"Fyrir manneskju getur liegen þýtt að liggja, en ekki endilega sofa.\",\"schlafen = sofa; legen = leggja eitthvað niður.\"],\"study.examples[0].lv\":\"Bókin liggur á borðinu.\",\"study.examples[1].lv\":\"Síminn minn liggur í bílnum.\",\"study.examples[2].lv\":\"Hann liggur í rúminu.\",\"study.examples[3].lv\":\"Ég legg bókina á borðið.\",\"study.comparison[0].meaning\":\"vera staðsett / liggja\",\"study.comparison[0].example\":\"Das Buch liegt auf dem Tisch. – Bókin liggur á borðinu.\",\"study.comparison[1].meaning\":\"leggja\",\"study.comparison[1].example\":\"Ich lege das Buch auf den Tisch. – Ég legg bókina á borðið.\",\"study.comparison[2].meaning\":\"sofa\",\"study.comparison[2].example\":\"Er schläft im Bett. – Hann sefur í rúminu.\",\"study.comparison[3].meaning\":\"standa\",\"study.comparison[3].example\":\"Die Flasche steht auf dem Tisch. – Flaskan stendur á borðinu.\",\"study.tip.text\":\"Mundu: hlutur er þegar á stað → liegen; þú setur hann niður → legen; sofa → schlafen.\",\"study.important[0]\":\"liegen sýnir stöðu eða staðsetningu.\",\"study.important[1]\":\"legen sýnir athöfn: einhver setur eitthvað niður.\",\"study.important[2]\":\"liegen er ekki sama og schlafen (sofa).\"}",
+    "owner_note": "IS liegen gala: vera staðsettur•liggja; liegen/legen/schlafen distinction in ex+cmp. DE untouched."
   },
   "g2/a1/is|Limonade|idx:378|lv|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -134,8 +134,8 @@
   "g2/a1/is|Mal|idx:390|lv, study|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"skipti\",\"study.translation\":\"skipti\",\"study.explanation\":[\"Meginhugsun: das Mal þýðir skipti eða sinni.\",\"Oft notað með tölum: ein Mal, zwei Mal, drei Mal.\",\"Með röðunartölu: das erste Mal, das zweite Mal.\",\"Ekki rugla við smáorðið mal (Komm mal her!) — það er annað orð.\"],\"study.examples[0].lv\":\"Í fyrsta skiptið var erfitt.\",\"study.examples[1].lv\":\"Ég hef verið í Berlín tvisvar.\",\"study.examples[2].lv\":\"Einu sinni nægir.\",\"study.examples[3].lv\":\"Aftur einu sinni, takk!\",\"study.tip.text\":\"Mundu: das Mal = skipti (nafnorð); mal án greinis = tímabundin partikla.\",\"study.important[0]\":\"das Mal / die Male — nafnorð með greini.\",\"study.important[1]\":\"ein Mal, zwei Mal — telur endurtekningar.\",\"study.important[2]\":\"mal án greinis (Komm mal her!) er ekki það sama og das Mal.\"}",
-    "owner_note": "IS Mal composite: NO Snor/ET→skipti throughout lv/study for reize time/occasion. DE untouched."
+    "owner_new": "{\"lv\":\"skipti\",\"study.translation\":\"skipti\",\"study.explanation\":[\"Meginhugsun: das Mal þýðir skipti eða sinni.\",\"Oft notað með tölum: ein Mal, zwei Mal, drei Mal.\",\"Með röðunartölu: das erste Mal, das zweite Mal.\",\"Ekki rugla við smáorðið mal (Komm mal her!) — það er samtalsorð, ekki nafnorð.\"],\"study.examples[0].lv\":\"Í fyrsta skipti var erfitt.\",\"study.examples[1].lv\":\"Ég hef verið í Berlín tvisvar.\",\"study.examples[2].lv\":\"Einu sinni nægir.\",\"study.examples[3].lv\":\"Enn einu sinni, takk!\",\"study.tip.text\":\"Mundu: das Mal = skipti (nafnorð); mal án greinis = samtalsorð/partikla.\",\"study.important[0]\":\"das Mal / die Male — nafnorð með greini.\",\"study.important[1]\":\"ein Mal, zwei Mal — telur endurtekningar.\",\"study.important[2]\":\"mal án greinis (Komm mal her!) er ekki það sama og das Mal.\"}",
+    "owner_note": "IS Mal gala: das Mal=skipti; mal án greinis=samtalsorð; natural IS examples. DE untouched."
   },
   "g2/a1/is|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -248,8 +248,8 @@
   "g2/a1/is|mit|idx:408|lv; study.explanation; study.important|TARGET_LANGUAGE_CORRUPTION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"með\",\"study.explanation\":[\"Meginhugsun: mit þýðir með eða -með.\",\"Notað þegar einhver fer eða gerir eitthvað ásamt einhverju eða einhverjum.\",\"Með samgöngum: mit dem Bus, mit dem Auto.\",\"A1 stig: mjög algengar setningar eru mit dem Bus, mit dem Auto og mit dir.\"],\"study.important[0]\":\"mit krefst þolfalls: mit dem Bus, mit der Mutter, mit dir.\",\"study.important[1]\":\"Kommst du mit? þýðir Viltu koma með mér?\"}",
-    "owner_note": "IS mit partial study: NO - gå/ET→með in lv+explanation+important for ar with. DE untouched."
+    "owner_new": "{\"lv\":\"með\",\"study.explanation\":[\"Meginhugsun: mit þýðir með eða -með.\",\"Notað þegar einhver fer eða gerir eitthvað ásamt einhverju eða einhverjum.\",\"Með samgöngum: mit dem Bus, mit dem Auto.\",\"A1 stig: mjög algengar setningar eru mit dem Bus, mit dem Auto og mit dir.\"],\"study.important[0]\":\"mit stýrir þágufalli: mit dem Bus, mit der Mutter, mit dir.\",\"study.important[1]\":\"Kommst du mit? þýðir Viltu koma með mér?\",\"study.translation\":\"með\",\"study.tip.text\":\"Mundu: mit + þágufall → með + þágufall.\"}",
+    "owner_note": "IS mit gala: full card með; þágufall not þolfall; no ET/NO residue. DE untouched."
   },
   "g2/a1/is|mitnehmen|idx:409|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -278,8 +278,8 @@
   "g2/a1/is|mögen|idx:413|lv; study|TARGET_LANGUAGE_CORRUPTION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"líka við\",\"study.translation\":\"líka við\",\"study.explanation\":[\"Meginhugsun: mögen þýðir að líka við eitthvað.\",\"Ich mag... = Mér líkar við...\",\"Möchte er annað form, notað kurteislega: ég myndi vilja.\",\"A1 stig: mikilvægasta setningin er Ich mag das.\"],\"study.examples[0].lv\":\"Mér líkar við tónlist.\",\"study.examples[1].lv\":\"Líkar þér kaffi?\",\"study.examples[2].lv\":\"Henni líkar við börn.\",\"study.examples[3].lv\":\"Ég myndi vilja fá kaffi.\",\"study.comparison[0].meaning\":\"líka við\",\"study.comparison[0].example\":\"Ich mag Musik. – Mér líkar við tónlist.\",\"study.comparison[1].meaning\":\"myndi vilja\",\"study.comparison[1].example\":\"Ich möchte einen Kaffee. – Ég myndi vilja fá kaffi.\",\"study.comparison[2].meaning\":\"vilja\",\"study.comparison[2].example\":\"Ich will nach Hause. – Ég vil heim.\",\"study.comparison[3].meaning\":\"elska\",\"study.comparison[3].example\":\"Ich liebe dich. – Ég elska þig.\",\"study.tip.text\":\"Mundu: Ich mag... = Mér líkar við...\",\"study.important[0]\":\"mögen er ekki aðalorðið fyrir kurteisa ósk; flestir nota möchte.\",\"study.important[1]\":\"Ich mag Kaffee þýðir mér finnst kaffi gott.\"}",
-    "owner_note": "IS mögen composite: ET Meeldima/NO Jeg liker→líka við throughout lv/study for patikt like. DE untouched."
+    "owner_new": "{\"lv\":\"líka við\",\"study.translation\":\"líka við\",\"study.explanation\":[\"Meginhugsun: mögen þýðir að líka við eitthvað.\",\"Ich mag... = Mér líkar við...\",\"Möchte er annað form: vilja gjarnan eða langa (kurteis ósk).\",\"wollen = vilja; lieben = elska.\",\"A1 stig: mikilvægasta setningin er Ich mag das.\"],\"study.examples[0].lv\":\"Mér líkar við tónlist.\",\"study.examples[1].lv\":\"Líkar þér kaffi?\",\"study.examples[2].lv\":\"Henni líkar við börn.\",\"study.examples[3].lv\":\"Ég vil gjarnan fá kaffi.\",\"study.comparison[0].meaning\":\"líka við\",\"study.comparison[0].example\":\"Ich mag Musik. – Mér líkar við tónlist.\",\"study.comparison[1].meaning\":\"vilja gjarnan / langa\",\"study.comparison[1].example\":\"Ich möchte einen Kaffee. – Ég vil gjarnan fá kaffi.\",\"study.comparison[2].meaning\":\"vilja\",\"study.comparison[2].example\":\"Ich will nach Hause. – Ég vil heim.\",\"study.comparison[3].meaning\":\"elska\",\"study.comparison[3].example\":\"Ich liebe dich. – Ég elska þig.\",\"study.tip.text\":\"Mundu: Ich mag... = Mér líkar við...\",\"study.important[0]\":\"mögen = líka við; möchte = vilja gjarnan/langa; wollen = vilja.\",\"study.important[1]\":\"Ich mag Kaffee þýðir mér finnst kaffi gott.\"}",
+    "owner_note": "IS mögen gala: mögen/möchte/wollen/lieben IS semantics; no ET/NO residue. DE untouched."
   },
   "g2/a1/is|Möhre|idx:414|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
