@@ -529,7 +529,7 @@
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
         "galaRepair": true,
-        "headSha": "76785e98",
+        "headSha": "6336bf9e",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-038-decisions.csv",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-038-residual-wrong-language-proof.json"
       }
