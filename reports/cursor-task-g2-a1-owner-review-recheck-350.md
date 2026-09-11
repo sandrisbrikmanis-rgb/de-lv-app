@@ -3,7 +3,8 @@
 ## OWNER authorization
 
 ```text
-G2_A1_OWNER_RECHECK_350_REAL_INDIVIDUAL_REVIEW_APPROVED
+OWNER_AUTHORIZATION = REQUIRED
+OWNER_AUTHORIZATION_STATUS = PENDING
 ```
 
 Repair the **invalid** `g2-a1-owner-recheck-350-decisions.csv` artifact by performing a genuine individual linguistic review of exactly **350** rows, split into **7** batches of **50** rows (`LRB-R350-001` … `LRB-R350-007`).
