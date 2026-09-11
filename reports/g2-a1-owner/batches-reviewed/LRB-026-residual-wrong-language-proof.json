@@ -1,0 +1,28 @@
+{
+  "batch_id": "LRB-026",
+  "classification": "G2_A1_OWNER_RESIDUAL_SEMANTIC_SOURCE_LANGUAGE_AUDIT_PASS",
+  "pass": true,
+  "rows_audited": 50,
+  "labot": 47,
+  "nelabot": 3,
+  "pending": 0,
+  "residual_wrong_language_violations": 0,
+  "issue_cards": [],
+  "issues": [],
+  "semantic_micro_repair_cards": [
+    "für",
+    "können",
+    "kosten",
+    "Gemüse",
+    "Obst",
+    "Uhr",
+    "vor",
+    "was",
+    "wer"
+  ],
+  "semantic_micro_repair_violations": 0,
+  "semantic_violation_cards": [],
+  "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "verdict": "LRB_026_LINGUISTIC_REPAIR_PASS",
+  "updatedAt": "2026-09-11T15:08:33.217Z"
+}
