@@ -44,8 +44,8 @@
   "g2/a1/fr|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Visite • Visite de courtoisie • Visite",
-    "owner_note": "FR besuch comparison[0]: apmeklējums/apciemojums/vizīte → distinct French visit senses. DE untouched."
+    "owner_new": "Visite • Visite amicale • Rendez-vous",
+    "owner_note": "FR besuch comparison[0]: micro-repair apmeklējums/apciemojums/vizīte → Visite/Visite amicale/Rendez-vous. DE untouched."
   },
   "g2/a1/fr|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
