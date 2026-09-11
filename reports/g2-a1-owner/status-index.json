@@ -79,7 +79,7 @@
     "batchesTotal": 103,
     "batchesReviewed": 24,
     "batchesAntiBulkPass": 24,
-    "batchesSpotCheckPass": 23,
+    "batchesSpotCheckPass": 24,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
