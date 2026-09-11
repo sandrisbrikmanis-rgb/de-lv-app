@@ -2,7 +2,7 @@
   "pass": true,
   "classification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   "baseline_sha256": "78b196e6c2e1b885135f3d4c711f80584ef354d0e16c7f523d3e1f180f955adf",
-  "output_sha256": "1d4d8d94da31275033507b2237a04ffa00a784bf451543e76912a7be4aecba85",
+  "output_sha256": "bab23da52cc92d908f4061c3acc1cb63009e7eb4cf9b77c53793a84d4f152175",
   "manifest_sha256": "4e4ff012b40cc7c26fd925cd0d542f797949c08e5e4b081415ee51033d85f310",
   "row_count": 50,
   "prefix_only_nelabot": 0,

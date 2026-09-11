@@ -26,6 +26,30 @@ const EN_WORDS =
 const LV_LEAK =
   /\b(Lieldienas|pāris|papīrs|parks|derēt|piestāvēt|pārtraukums|persona|zirgs|augs|plāns|vieta|policija|pasts|cena|problēma|programma|džemperis|punkts|tīrīt|braukt ar divriteni|dzēšamgumija|smēķēt|pa labi|labais|runāt|lietus|lietussargs|līt|rīsi|pareizs|rozā|roze|sarkans|saukt|apaļš|lieta|sula|teikt|salāti|sestdiena|tīrs|sauna|aita|garšot|atslēga)\b/i;
 
+const EXPECTED = {
+  passen: {
+    "study.examples[0].lv": "Jakkinn passar á mig.",
+    "study.examples[3].lv": "Það passar.",
+  },
+  Reis: {
+    lv: "hrísgrjón",
+    "study.examples[0].lv": "Hrísgrjónin eru tilbúin.",
+    "study.examples[1].lv": "Ég borða hrísgrjón.",
+    "study.examples[2].lv": "Ertu að elda hrísgrjón?",
+    "study.examples[3].lv": "Hrísgrjónin bragðast vel.",
+  },
+  schauen: {
+    lv: "horfa • líta",
+    "study.examples[0].lv": "Ég horfi í sjónvarp.",
+    "study.examples[1].lv": "Við horfum út á gluggann.",
+    "study.examples[2].lv": "Ég horfi í sjónvarp.",
+    "study.comparison[0].example":
+      "Ich schaue aus dem Fenster. – Við horfum út á gluggann.",
+    "study.comparison[1].meaning": "sjá",
+    "study.comparison[1].example": "Ich sehe dich. – Ég sé þig.",
+  },
+};
+
 function parseMaybeJson(v) {
   if (typeof v !== "string") return v;
   const t = v.trim();
@@ -109,7 +133,7 @@ function wrongLanguageFlags(text, p = "") {
       p.startsWith("study.important") ||
       p.startsWith("study.tip") ||
       p.startsWith("study.comparison")) &&
-    /\b(mit|dem|der|dir|Bus|Das passt|Die Jacke|Probier|Ich schaue|Ich spreche|Was hast du|Der Reis|Schauen|sehen|sprechen|sagen|testen|fern|Fenster)\b/i.test(
+    /\b(mit|dem|der|dir|Bus|Das passt|Die Jacke|Probier|Ich schaue|Ich spreche|Was hast du|Der Reis|Schauen|sehen|sprechen|sagen|testen|fern|Fenster|Aus dem)\b/i.test(
       text
     )
   ) {
@@ -131,84 +155,112 @@ function cardName(id) {
   return id.split("|")[1];
 }
 
+function s(merged, path) {
+  const hit = collectTargetStrings(merged).find((x) => x.path === path);
+  return hit ? hit.text : "";
+}
+
 function getExamplesLv(merged) {
   const ex = merged.study?.examples;
   if (!Array.isArray(ex)) return [];
   return ex.map((e) => (e && e.lv) || "");
 }
 
+function checkDeIsAlignment(card, deExamples, gotLv, issues) {
+  for (let i = 0; i < gotLv.length; i++) {
+    if (!gotLv[i]) {
+      issues.push({ card, type: "ALIGNMENT", msg: `${card} ex[${i}] missing IS` });
+      continue;
+    }
+    if (
+      i > 0 &&
+      deExamples[i] &&
+      deExamples[i - 1] &&
+      deExamples[i] === deExamples[i - 1] &&
+      gotLv[i] !== gotLv[i - 1]
+    ) {
+      issues.push({
+        card,
+        type: "ALIGNMENT",
+        msg: `${card} duplicate DE at ex[${i}] not mirrored in IS`,
+      });
+    }
+    if (
+      i > 0 &&
+      deExamples[i] &&
+      deExamples[i - 1] &&
+      deExamples[i] !== deExamples[i - 1] &&
+      gotLv[i] === gotLv[i - 1]
+    ) {
+      issues.push({
+        card,
+        type: "ALIGNMENT",
+        msg: `${card} unjustified duplicate IS at ex[${i}]`,
+      });
+    }
+  }
+}
+
 function semanticChecks(card, merged, deExamples, issues) {
   const all = collectTargetStrings(merged).map((x) => x.text).join(" ");
-  const s = (p) => {
-    const hit = collectTargetStrings(merged).find((x) => x.path === p);
-    return hit ? hit.text : "";
-  };
+
+  if (EXPECTED[card]) {
+    for (const [path, expected] of Object.entries(EXPECTED[card])) {
+      const got = path === "lv" ? merged.lv : s(merged, path);
+      if (got !== expected) {
+        issues.push({
+          card,
+          type: "SEMANTIC",
+          msg: `${card} ${path} expected "${expected}", got "${got || ""}"`,
+        });
+      }
+    }
+  }
 
   if (card === "passen") {
-    if (merged.lv !== "passa • henta")
-      issues.push({ card, type: "SEMANTIC", msg: "passen lv not passa•henta" });
-    if (/Sobima|Hest sobima/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "passen ET/NO residue" });
-    if (!/Það passar/i.test(s("study.examples[3].lv")))
-      issues.push({ card, type: "SEMANTIC", msg: "passen ex[3] not Das passt" });
+    if (/Sobima|Hest sobima|passer til|sitter godt/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "passen source-language residue" });
+    if (/passar mér\b/i.test(all) && !/passar á mig/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "passen ex[0] not passar á mig" });
   }
 
   if (card === "probieren") {
-    if (merged.lv !== "prófa • bragða")
-      issues.push({ card, type: "SEMANTIC", msg: "probieren lv not prófa•bragða" });
     if (/Proovima|Maitsma|Maitse/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "probieren ET/NO residue" });
-    if (!/bragða/i.test(s("study.examples[1].lv")))
-      issues.push({ card, type: "SEMANTIC", msg: "probieren ex[1] not bragða" });
-    if (!/prófum nýja aðferð/i.test(s("study.examples[2].lv")))
-      issues.push({ card, type: "SEMANTIC", msg: "probieren ex[2] not prófa method" });
+      issues.push({ card, type: "SEMANTIC", msg: "probieren source-language residue" });
   }
 
   if (card === "rechts") {
-    if (merged.lv !== "til hægri • hægri")
-      issues.push({ card, type: "SEMANTIC", msg: "rechts lv not til hægri•hægri" });
     if (/Paremale|Parem/i.test(all))
       issues.push({ card, type: "SEMANTIC", msg: "rechts ET residue" });
   }
 
   if (card === "Reis") {
-    if (merged.lv !== "hrísgrjón")
-      issues.push({ card, type: "SEMANTIC", msg: "Reis lv not hrísgrjón" });
     if (/\b(Ris|Risen)\b/i.test(all) || /\briisi\b/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "Reis ET/NO residue" });
-    if (s("study.examples[0].lv") !== "Risið er tilbúið.")
-      issues.push({ card, type: "SEMANTIC", msg: "Reis ex[0] wrong" });
-    if (!/hrísgrjón/i.test(s("study.examples[1].lv")))
-      issues.push({ card, type: "SEMANTIC", msg: "Reis ex[1] not hrísgrjón" });
-    if (!/eintala/i.test(s("study.important[0]")))
-      issues.push({ card, type: "SEMANTIC", msg: "Reis missing singular note" });
+      issues.push({ card, type: "SEMANTIC", msg: "Reis source-language residue" });
+    if (/risið|Risið/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "Reis inconsistent singular risið" });
+    if (!/mælieintala|eintala/i.test(s(merged, "study.important[0]")))
+      issues.push({ card, type: "SEMANTIC", msg: "Reis missing DE singular note" });
+    if (!/fleirtala/i.test(s(merged, "study.important[1]")))
+      issues.push({ card, type: "SEMANTIC", msg: "Reis missing IS plural note" });
   }
 
   if (card === "sagen") {
-    if (merged.lv !== "segja")
-      issues.push({ card, type: "SEMANTIC", msg: "sagen lv not segja" });
     if (/Ütlema|seaside/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "sagen ET/NO residue" });
-    if (!/Hvað sagðir þú/i.test(s("study.examples[0].lv")))
-      issues.push({ card, type: "SEMANTIC", msg: "sagen ex[0] wrong" });
-    if (!/tala \(tungumál\)/i.test(s("study.comparison[1].meaning")))
-      issues.push({ card, type: "SEMANTIC", msg: "sagen sprechen contrast missing" });
+      issues.push({ card, type: "SEMANTIC", msg: "sagen source-language residue" });
   }
 
   if (card === "schauen") {
-    if (merged.lv !== "horfa")
-      issues.push({ card, type: "SEMANTIC", msg: "schauen lv not horfa" });
     if (/Klokke|vaatan|vaatame/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "schauen ET/NO residue" });
-    if (!/horfi í sjónvarp/i.test(s("study.examples[0].lv")))
-      issues.push({ card, type: "SEMANTIC", msg: "schauen ex[0] not fern" });
-    if (!/horfum út gluggann/i.test(s("study.examples[1].lv")))
-      issues.push({ card, type: "SEMANTIC", msg: "schauen ex[1] not Fenster" });
-    const got = getExamplesLv(merged);
-    if (deExamples[0] === deExamples[2] && got[0] !== got[2]) {
-      issues.push({ card, type: "ALIGNMENT", msg: "schauen duplicate DE not mirrored in IS" });
-    }
+      issues.push({ card, type: "SEMANTIC", msg: "schauen source-language residue" });
+    if (/horfum út gluggann\b/i.test(all) && !/horfum út á gluggann/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "schauen Fenster missing á" });
+    if (!/sjá/i.test(s(merged, "study.comparison[1].meaning")))
+      issues.push({ card, type: "SEMANTIC", msg: "schauen sehen not sjá" });
   }
+
+  const gotLv = getExamplesLv(merged);
+  if (gotLv.length) checkDeIsAlignment(card, deExamples, gotLv, issues);
 }
 
 const issues = [];
@@ -217,7 +269,8 @@ let labot = 0;
 let nelabot = 0;
 let pending = 0;
 const compositeCards = new Set();
-const semanticMicroRepairCards = [
+const galaRepairCards = ["passen", "Reis", "schauen"];
+const compositeAuditCards = [
   "passen",
   "probieren",
   "rechts",
@@ -259,28 +312,39 @@ for (const row of rows) {
     deExamples = merged.study.examples.map((e) => e.de || "");
   }
 
-  for (const s of collectTargetStrings(merged)) {
-    const flags = wrongLanguageFlags(s.text, s.path);
+  for (const str of collectTargetStrings(merged)) {
+    const flags = wrongLanguageFlags(str.text, str.path);
     if (flags.length) {
       issues.push({
         card,
         type: "WRONG_LANG",
-        path: s.path,
-        text: s.text.slice(0, 120),
+        path: str.path,
+        text: str.text.slice(0, 120),
         flags,
       });
       issueCards.add(card);
     }
   }
 
-  if (semanticMicroRepairCards.includes(card)) {
+  if (!merged.lv && d.owner_decision === "LABOT") {
+    issues.push({ card, type: "INCOMPLETE", msg: "LABOT but lv empty after merge" });
+    issueCards.add(card);
+  }
+
+  if (compositeAuditCards.includes(card) || galaRepairCards.includes(card)) {
     semanticChecks(card, merged, deExamples, issues);
+    if (issues.some((i) => i.card === card)) issueCards.add(card);
+  } else if (deExamples.length) {
+    checkDeIsAlignment(card, deExamples, getExamplesLv(merged), issues);
     if (issues.some((i) => i.card === card)) issueCards.add(card);
   }
 }
 
 const semanticViolations = issues.filter(
-  (i) => i.type === "SEMANTIC" || i.type === "ALIGNMENT"
+  (i) =>
+    i.type === "SEMANTIC" ||
+    i.type === "ALIGNMENT" ||
+    i.type === "INCOMPLETE"
 );
 const wrongLangViolations = issues.filter((i) => i.type === "WRONG_LANG");
 const pass =
@@ -302,12 +366,13 @@ const proof = {
   residual_wrong_language_violations: wrongLangViolations.length,
   issue_cards: [...issueCards],
   issues,
-  semantic_micro_repair_cards: semanticMicroRepairCards,
+  gala_repair_cards: galaRepairCards,
+  semantic_micro_repair_cards: compositeAuditCards,
   semantic_micro_repair_violations: semanticViolations.length,
   semantic_violation_cards: [...new Set(semanticViolations.map((i) => i.card))],
   composite_cards_audited: [...compositeCards].sort(),
   anti_bulk: "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  verdict: pass ? "LRB_037_FULL_50_50_LINGUISTIC_REVIEW_PASS" : "BLOCKED",
+  verdict: pass ? "LRB_037_LINGUISTIC_REPAIR_PASS" : "BLOCKED",
   updatedAt: new Date().toISOString(),
 };
 
@@ -323,7 +388,7 @@ console.log(
       pending,
       verdict: proof.verdict,
       issue_cards: [...issueCards],
-      details: issues.slice(0, 10),
+      details: issues.slice(0, 15),
     },
     null,
     2

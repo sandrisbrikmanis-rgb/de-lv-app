@@ -26,8 +26,8 @@
   "g2/a1/is|passen|idx:471|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"passa • henta\",\"study.translation\":\"passa • henta\",\"study.explanation\":[\"Meginhugsun: passen þýðir að passa, henta eða vera rétt stærð.\",\"Um föt þýðir passen oft að þau passa vel á mann.\",\"Um lit eða stíl þýðir passen að eitthvað passar vel saman.\",\"Das passt. = Það passar.\"],\"study.examples[0].lv\":\"Jakkin passar mér.\",\"study.examples[1].lv\":\"Kjóllinn passar vel.\",\"study.examples[2].lv\":\"Liturinn passar við þig.\",\"study.examples[3].lv\":\"Það passar.\"}",
-    "owner_note": "IS passen composite: ET/NO Sobima/passer→passa•henta throughout lv/study for derēt•piestāvēt. DE untouched."
+    "owner_new": "{\"lv\":\"passa • henta\",\"study.translation\":\"passa • henta\",\"study.explanation\":[\"Meginhugsun: passen þýðir að passa, henta eða vera rétt stærð.\",\"Um föt þýðir passen oft að þau passa vel á mann.\",\"Um lit eða stíl þýðir passen að eitthvað passar vel saman.\",\"Das passt. = Það passar.\"],\"study.examples[0].lv\":\"Jakkinn passar á mig.\",\"study.examples[1].lv\":\"Kjóllinn passar vel.\",\"study.examples[2].lv\":\"Liturinn passar við þig.\",\"study.examples[3].lv\":\"Það passar.\"}",
+    "owner_note": "IS passen gala: ex[0] passar á mig (Die Jacke passt mir). DE untouched."
   },
   "g2/a1/is|Pause|idx:472|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -176,8 +176,8 @@
   "g2/a1/is|Reis|idx:496|lv, study.examples, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"hrísgrjón\",\"study.examples[0].lv\":\"Risið er tilbúið.\",\"study.examples[1].lv\":\"Ég borða hrísgrjón.\",\"study.examples[2].lv\":\"Ertu að elda hrísgrjón?\",\"study.examples[3].lv\":\"Hrísgrjónið bragðast vel.\",\"study.important[0]\":\"der Reis — á þýsku aðeins eintala (Der Reis ist..., ekki *sind).\",\"study.important[1]\":\"Á íslensku er oft notað hrísgrjón eða risið: risið er tilbúið.\"}",
-    "owner_note": "IS Reis composite: ET/NO Ris/Risen→hrísgrjón throughout lv/study for rīsi rice. DE untouched."
+    "owner_new": "{\"lv\":\"hrísgrjón\",\"study.examples[0].lv\":\"Hrísgrjónin eru tilbúin.\",\"study.examples[1].lv\":\"Ég borða hrísgrjón.\",\"study.examples[2].lv\":\"Ertu að elda hrísgrjón?\",\"study.examples[3].lv\":\"Hrísgrjónin bragðast vel.\",\"study.important[0]\":\"der Reis — á þýsku mælieintala (Der Reis ist..., ekki *sind).\",\"study.important[1]\":\"Á íslensku er hrísgrjón venjulega fleirtala; samræmið beygingu (Hrísgrjónin eru..., bragðast).\"}",
+    "owner_note": "IS Reis gala: hrísgrjón plural agreement throughout; DE mass-noun vs IS plural note. DE untouched."
   },
   "g2/a1/is|richtig|idx:497|lv|MEANING_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -266,8 +266,8 @@
   "g2/a1/is|schauen|idx:510|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"horfa\",\"study.translation\":\"horfa\",\"study.explanation\":[\"Meginhugsun: schauen þýðir að horfa eða líta.\",\"Schauen leggur áherslu á virka athygli.\",\"Oft notað með fern (sjónvarp) eða aus dem Fenster.\",\"sehen getur verið að sjá án sérstakrar athygli.\"],\"study.examples[0].lv\":\"Ég horfi í sjónvarp.\",\"study.examples[1].lv\":\"Við horfum út gluggann.\",\"study.examples[2].lv\":\"Ég horfi í sjónvarp.\",\"study.comparison[0].meaning\":\"horfa (virkt)\",\"study.comparison[0].example\":\"Ich schaue aus dem Fenster. – Við horfum út gluggann.\",\"study.comparison[1].meaning\":\"sjá\",\"study.comparison[1].example\":\"Ich sehe dich. – Ég sé þig.\",\"study.tip[0]\":\"schauen = horfa\",\"study.tip[1]\":\"Notaðu schauen þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"schauen = horfa.\",\"study.important[1]\":\"Virkt horfa eða skoða.\"}",
-    "owner_note": "IS schauen composite: ET/NO Klokke/vaatan→horfa throughout lv/study for skatīties look. DE untouched."
+    "owner_new": "{\"lv\":\"horfa • líta\",\"study.translation\":\"horfa • líta\",\"study.explanation\":[\"Meginhugsun: schauen þýðir að horfa eða líta.\",\"Schauen leggur áherslu á virka athygli.\",\"Oft notað með fern (sjónvarp): horfa í sjónvarp.\",\"Aus dem Fenster: horfa út á gluggann. sehen = sjá án sérstakrar athygli.\"],\"study.examples[0].lv\":\"Ég horfi í sjónvarp.\",\"study.examples[1].lv\":\"Við horfum út á gluggann.\",\"study.examples[2].lv\":\"Ég horfi í sjónvarp.\",\"study.comparison[0].meaning\":\"horfa (virkt)\",\"study.comparison[0].example\":\"Ich schaue aus dem Fenster. – Við horfum út á gluggann.\",\"study.comparison[1].meaning\":\"sjá\",\"study.comparison[1].example\":\"Ich sehe dich. – Ég sé þig.\",\"study.tip[0]\":\"schauen = horfa / líta\",\"study.tip[1]\":\"Notaðu horfa í (sjónvarp) eða horfa út á (glugga) eftir samhengi.\",\"study.important[0]\":\"schauen = horfa / líta.\",\"study.important[1]\":\"sehen = sjá (sjálfgefið); schauen = virk athygli.\"}",
+    "owner_note": "IS schauen gala: horfa•líta; horfa í/út á; sehen=sjá; DE-index alignment. DE untouched."
   },
   "g2/a1/is|schicken|idx:511|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
