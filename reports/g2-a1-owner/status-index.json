@@ -580,7 +580,7 @@
         "sourceSemanticRepair": true,
         "isCards": 11,
         "itCards": 39,
-        "headSha": "PENDING_COMMIT",
+        "headSha": "48e02490",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-041-decisions.csv",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-residual-wrong-language-proof.json"
       }
