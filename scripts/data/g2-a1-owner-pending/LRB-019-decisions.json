@@ -2,8 +2,8 @@
   "g2/a1/fr|einmal|idx:700|study.explanation|SEMANTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.explanation[0]\":\"Idée principale : Indique une seule fois ou le passé (une fois j'étais...).\",\"study.explanation[1]\":\"Einmal signifie essentiellement : une fois / dans le passé.\",\"study.explanation[2]\":\"Décrit souvent : une circonstance temporelle.\",\"study.explanation[3]\":\"Einmal fait référence à une seule fois ou au passé (une fois je...).\"}",
-    "owner_note": "FR einmal explanation: remove weather/morning noun confusion; restore once/past teaching per LV vienreiz/pagātnē. DE untouched."
+    "owner_new": "{\"study.explanation[0]\":\"Idée principale : einmal indique une seule fois ; dans certains contextes narratifs, il peut correspondre à autrefois.\",\"study.explanation[1]\":\"Einmal signifie essentiellement : une fois / dans le passé.\",\"study.explanation[2]\":\"Décrit souvent : une circonstance temporelle.\",\"study.explanation[3]\":\"Einmal peut signifier « une fois » ou, selon le contexte, « autrefois ».\"}",
+    "owner_note": "FR einmal explanation: owner micro-repair once/autrefois narrative framing per LV vienreiz/pagātnē. DE untouched."
   },
   "g2/a1/fr|Eis|idx:157|lv, study.translation, study.explanation, study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -20,7 +20,7 @@
   "g2/a1/fr|es|idx:167|lv, study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Il • Ce • Forme impersonnelle\",\"study.examples[0].lv\":\"Il pleut.\",\"study.examples[1].lv\":\"Il fait froid.\",\"study.examples[2].lv\":\"L'enfant dort.\",\"study.examples[3].lv\":\"Il est fatigué.\",\"study.examples[4].lv\":\"Il pleut.\",\"study.examples[5].lv\":\"Il neige.\"}",
+    "owner_new": "{\"lv\":\"Il • Ce\",\"study.examples[0].lv\":\"Il pleut.\",\"study.examples[1].lv\":\"Il fait froid.\",\"study.examples[2].lv\":\"L'enfant dort.\",\"study.examples[3].lv\":\"Il est fatigué.\",\"study.examples[4].lv\":\"Il pleut.\",\"study.examples[5].lv\":\"Il neige.\"}",
     "owner_note": "FR es composite: unscramble permuted examples; dedupe Il per LRB-018 a1-es Il•Ce pattern. DE untouched."
   },
   "g2/a1/fr|essen|idx:690|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
@@ -49,9 +49,9 @@
   },
   "g2/a1/fr|fahren|idx:172|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FR fahren study: Conduire/Diriger/Emporter teaching and vehicle examples align with braukt. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Conduire • Aller en véhicule\",\"study.translation\":\"Conduire • Aller en véhicule\"}",
+    "owner_note": "FR fahren: owner micro-repair Conduire•Aller en véhicule for braukt drive/travel-by-vehicle. DE untouched."
   },
   "g2/a1/fr|Ferien|idx:694|study.examples, study.comparison, study.important|MEANING_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -80,7 +80,7 @@
   "g2/a1/fr|Frau|idx:198|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.important[1]\":\"Meine Frau = ma femme (épouse), pas seulement « ma femme » au sens générique.\"}",
+    "owner_new": "{\"study.important[1]\":\"Meine Frau = ma femme (mon épouse) ; eine Frau = une femme.\"}",
     "owner_note": "FR Frau composite: replace mana sieva LV leak in study.important with French. DE untouched."
   },
   "g2/a1/fr|für|idx:216|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
@@ -115,9 +115,9 @@
   },
   "g2/a1/fr|ihr|idx:292|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FR ihr: Vous•Elle dual-pronoun teaching aligns with jūs/viņai. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vous • Lui\",\"study.translation\":\"Vous • Lui\"}",
+    "owner_note": "FR ihr: owner micro-repair Vous•Lui for jūs/viņai you/her pronoun senses. DE untouched."
   },
   "g2/a1/fr|im|idx:293|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -140,13 +140,13 @@
   "g2/a1/fr|jung|idx:304|lv; study.*|TARGET_LANGUAGE_WRONG|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.important[2]\":\"Incorrect : Mon Handy est jeune → Correct : Mein Handy ist neu.\"}",
+    "owner_new": "{\"study.important[2]\":\"Incorrect : Mein Handy ist jung. → Correct : Mein Handy ist neu. Pour un appareil, on utilise neu, pas jung.\"}",
     "owner_note": "FR jung composite: replace Nepareizi LV leak in study.important with French. DE untouched."
   },
   "g2/a1/fr|kein|idx:308|lv; study.*|TARGET_LANGUAGE_WRONG|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.important[1]\":\"Incorrect : Je n'ai pas un Geld. → Correct : Ich habe kein Geld.\"}",
+    "owner_new": "{\"study.important[1]\":\"Incorrect : Ich habe nicht ein Geld. → Correct : Ich habe kein Geld. Kein nie un nom sans article défini.\"}",
     "owner_note": "FR kein composite: replace Nepareizi/Pareizi LV leak in study.important with French. DE untouched."
   },
   "g2/a1/fr|kennen|idx:310|lv; study.*|TARGET_LANGUAGE_WRONG|gpt-5.6-luna": {
@@ -176,8 +176,8 @@
   "g2/a1/fr|laut|idx:358|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Bruyant\",\"study.translation\":\"Bruyant\"}",
-    "owner_note": "FR laut adjective: Fort→Bruyant for skaļš loud intensity. DE untouched."
+    "owner_new": "{\"lv\":\"Fort • Bruyant\",\"study.translation\":\"Fort • Bruyant\"}",
+    "owner_note": "FR laut adjective: owner micro-repair Fort•Bruyant for skaļš loud intensity. DE untouched."
   },
   "g2/a1/fr|Laut|idx:359|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -206,8 +206,8 @@
   "g2/a1/fr|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Gauche",
-    "owner_note": "FR links native: dedupe Gauche•Gauche → Gauche for pa kreisi/kreisais. DE untouched."
+    "owner_new": "À gauche • Gauche",
+    "owner_note": "FR links native: owner micro-repair À gauche•Gauche for pa kreisi/kreisais left/adjective. DE untouched."
   },
   "g2/a1/fr|machen|idx:386|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -248,7 +248,7 @@
   "g2/a1/fr|schwimmen|idx:531|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.examples[3].lv\":\"Je vais me baigner.\",\"study.important[0]\":\"Schwimmen et baden ne sont pas la même chose.\",\"study.important[1]\":\"En français on dit souvent « nager », mais en allemand il faut vérifier s'il s'agit de mouvement ou de bain.\"}",
+    "owner_new": "{\"study.examples[3].lv\":\"Je vais me baigner.\",\"study.important[0]\":\"Schwimmen et baden ne sont pas la même chose.\",\"study.important[1]\":\"Schwimmen = nager ; baden = se baigner. En allemand, il faut distinguer ces deux verbes.\"}",
     "owner_note": "FR schwimmen composite: fix baden example; replace nav vient un tas pats LV leaks. DE untouched."
   },
   "g2/a1/fr|sehen|idx:539|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
@@ -284,8 +284,8 @@
   "g2/a1/fr|über|idx:608|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Au-dessus • À propos de\",\"study.translation\":\"Au-dessus • À propos de\",\"study.explanation[3]\":\"En mouvement, über peut signifier par-dessus ou à travers.\",\"study.comparison[0].meaning\":\"Au-dessus / à propos de / par-dessus\"}",
-    "owner_note": "FR über composite: Fini•Pour→Au-dessus•À propos de for virs/par above/about. DE untouched."
+    "owner_new": "{\"lv\":\"Au-dessus de • À propos de\",\"study.translation\":\"Au-dessus de • À propos de\",\"study.explanation[3]\":\"En mouvement, über peut signifier par-dessus ou à travers.\",\"study.comparison[0].meaning\":\"Au-dessus de / à propos de / par-dessus\"}",
+    "owner_note": "FR über composite: owner micro-repair Au-dessus de•À propos de for virs/par above/about. DE untouched."
   },
   "g2/a1/fr|Uhr|idx:698|study.examples|GRAMMAR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
