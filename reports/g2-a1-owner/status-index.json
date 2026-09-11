@@ -318,7 +318,7 @@
         "nelabot": 21,
         "pending": 0,
         "antiBulkPass": true,
-        "headSha": "pending",
+        "headSha": "b5127011",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-024-decisions.csv"
       }
     },
