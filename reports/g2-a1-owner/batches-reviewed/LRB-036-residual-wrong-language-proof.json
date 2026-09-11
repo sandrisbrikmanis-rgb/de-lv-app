@@ -9,7 +9,15 @@
   "residual_wrong_language_violations": 0,
   "issue_cards": [],
   "issues": [],
-  "semantic_micro_repair_cards": [],
+  "semantic_micro_repair_cards": [
+    "morgen",
+    "Morgen",
+    "natürlich",
+    "nehmen",
+    "noch",
+    "nur",
+    "Obst"
+  ],
   "semantic_micro_repair_violations": 0,
   "semantic_violation_cards": [],
   "composite_cards_audited": [
@@ -27,6 +35,6 @@
     "oder"
   ],
   "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  "verdict": "LRB_036_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-11T17:13:45.412Z"
+  "verdict": "LRB_036_LINGUISTIC_REPAIR_PASS",
+  "updatedAt": "2026-09-11T17:19:22.001Z"
 }
