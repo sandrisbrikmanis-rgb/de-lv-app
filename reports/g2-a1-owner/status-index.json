@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-11T16:15:00.000Z",
+  "updatedAt": "2026-09-11T16:30:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -77,7 +77,7 @@
     "batchesTotal": 103,
     "batchesReviewed": 22,
     "batchesAntiBulkPass": 22,
-    "batchesSpotCheckPass": 21,
+    "batchesSpotCheckPass": 22,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -290,13 +290,13 @@
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-021-decisions.csv"
       },
       "LRB-022": {
-        "verdict": "LRB_022_LINGUISTIC_REPAIR_PASS",
-        "status": "LINGUISTIC_REVIEW_COMPLETE",
+        "verdict": "LRB_022_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
         "labot": 47,
         "nelabot": 3,
         "pending": 0,
         "antiBulkPass": true,
-        "headSha": "pending",
+        "headSha": "7892fbaf",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-022-decisions.csv"
       }
     },
@@ -306,7 +306,7 @@
       "nelabot": 3,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "LRB_022_LINGUISTIC_REPAIR_PASS",
+      "linguisticVerdict": "LRB_022_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-022-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-022-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-022-anti-bulk-proof.json",
