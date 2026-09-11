@@ -31,21 +31,21 @@
   },
   "g2/a1/is|a1-huebsch|a1.card.a1-huebsch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "IS huebsch comparison[0]: fagurt • aðlaðandi að útliti already correct Icelandic for glīts•pievilcīgs. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"fallegur • aðlaðandi í útliti\"}",
+    "owner_note": "IS huebsch comparison[0] gala: fagurt•að útliti→fallegur•aðlaðandi í útliti (adj form + prep fix for glīts•pievilcīgs). DE untouched."
   },
   "g2/a1/is|a1-ihr|a1.card.a1-ihr.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"þið • ykkur\"}",
-    "owner_note": "IS ihr native: ET Teie/Temale→þið•ykkur for jūs•viņai. DE untouched."
+    "owner_new": "{\"lv\":\"þið • henni\"}",
+    "owner_note": "IS ihr native gala: þið•ykkur→þið•henni (2nd pers pl + dat sg f for jūs•viņai). DE untouched."
   },
   "g2/a1/is|a1-ihr|a1.card.a1-ihr.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"þið • ykkur\"}",
-    "owner_note": "IS ihr translation: ET Teie/Temale→þið•ykkur for jūs•viņai. DE untouched."
+    "owner_new": "{\"study.translation\":\"þið • henni\"}",
+    "owner_note": "IS ihr translation gala: þið•ykkur→þið•henni (2nd pers pl + dat sg f for jūs•viņai). DE untouched."
   },
   "g2/a1/is|a1-im|a1.card.a1-im.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -128,14 +128,14 @@
   "g2/a1/is|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"langur • langt\"}",
-    "owner_note": "IS lang native: ET Hane/Kauakestev→langur•langt for garš•ilgs. DE untouched."
+    "owner_new": "{\"lv\":\"langur • langvarandi\"}",
+    "owner_note": "IS lang native gala: langur•langt→langur•langvarandi (adj + adv for garš•ilgs). DE untouched."
   },
   "g2/a1/is|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"langur • langt\"}",
-    "owner_note": "IS lang translation: ET Hane/Kauakestev→langur•langt for garš•ilgs. DE untouched."
+    "owner_new": "{\"study.translation\":\"langur • langvarandi\"}",
+    "owner_note": "IS lang translation gala: langur•langt→langur•langvarandi (adj + adv for garš•ilgs). DE untouched."
   },
   "g2/a1/is|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -152,26 +152,26 @@
   "g2/a1/is|a1-laufen|a1.card.a1-laufen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"hlaupa • ganga\"}",
-    "owner_note": "IS laufen native: ET Jooksma/Töötama→hlaupa•ganga for skriet•darboties. DE untouched."
+    "owner_new": "{\"lv\":\"hlaupa • virka\"}",
+    "owner_note": "IS laufen native gala: hlaupa•ganga→hlaupa•virka (run + operate/function for skriet•darboties). DE untouched."
   },
   "g2/a1/is|a1-laufen|a1.card.a1-laufen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"hlaupa • ganga\"}",
-    "owner_note": "IS laufen translation: ET Jooksma/Töötama→hlaupa•ganga for skriet•darboties. DE untouched."
+    "owner_new": "{\"study.translation\":\"hlaupa • virka\"}",
+    "owner_note": "IS laufen translation gala: hlaupa•ganga→hlaupa•virka (run + operate/function for skriet•darboties). DE untouched."
   },
   "g2/a1/is|a1-liegen|a1.card.a1-liegen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"liggja • vera\"}",
-    "owner_note": "IS liegen native: ET Asuma/Lamama→liggja•vera for atrasties•gulēt. DE untouched."
+    "owner_new": "{\"lv\":\"vera staðsettur • liggja\"}",
+    "owner_note": "IS liegen native gala: liggja•vera→vera staðsettur•liggja (be located + lie for atrasties•gulēt). DE untouched."
   },
   "g2/a1/is|a1-liegen|a1.card.a1-liegen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"liggja • vera\"}",
-    "owner_note": "IS liegen translation: ET Asuma/Lamama→liggja•vera for atrasties•gulēt. DE untouched."
+    "owner_new": "{\"study.translation\":\"vera staðsettur • liggja\"}",
+    "owner_note": "IS liegen translation gala: liggja•vera→vera staðsettur•liggja (be located + lie for atrasties•gulēt). DE untouched."
   },
   "g2/a1/is|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -212,14 +212,14 @@
   "g2/a1/is|a1-natuerlich|a1.card.a1-natuerlich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"auðvitað • náttúrulegt\"}",
-    "owner_note": "IS natuerlich native: mixed Svezvoj/Loomulik→auðvitað•náttúrulegt for protams•dabisks. DE untouched."
+    "owner_new": "{\"lv\":\"auðvitað • náttúrulegur\"}",
+    "owner_note": "IS natuerlich native gala: náttúrulegt→náttúrulegur (adv + masc adj for protams•dabisks). DE untouched."
   },
   "g2/a1/is|a1-natuerlich|a1.card.a1-natuerlich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"auðvitað • náttúrulegt\"}",
-    "owner_note": "IS natuerlich translation: mixed Svezvoj/Loomulik→auðvitað•náttúrulegt for protams•dabisks. DE untouched."
+    "owner_new": "{\"study.translation\":\"auðvitað • náttúrulegur\"}",
+    "owner_note": "IS natuerlich translation gala: náttúrulegt→náttúrulegur (adv + masc adj for protams•dabisks). DE untouched."
   },
   "g2/a1/is|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
