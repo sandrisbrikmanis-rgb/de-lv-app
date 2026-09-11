@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-11T12:05:00.000Z",
+  "updatedAt": "2026-09-11T12:07:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -147,7 +147,7 @@
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-008-decisions.csv"
       },
       "LRB-009": {
-        "verdict": "LRB_009_LINGUISTIC_REPAIR_PASS",
+        "verdict": "LRB_009_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "status": "LINGUISTICALLY_CLOSED",
         "labot": 44,
         "nelabot": 6,
@@ -163,7 +163,7 @@
       "nelabot": 6,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "LRB_009_LINGUISTIC_REPAIR_PASS",
+      "linguisticVerdict": "LRB_009_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-009-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-009-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-009-anti-bulk-proof.json"
