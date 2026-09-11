@@ -67,9 +67,9 @@
   },
   "g2/a1/fi|Taxi|idx:591|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI Taxi lv: takso is standard Finnish for taksometrs taxi. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "Taksi",
+    "owner_note": "FI Taxi: micro-repair lv Taksi standard Finnish spelling for taxi. DE untouched."
   },
   "g2/a1/fi|Tee|idx:592|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -128,8 +128,8 @@
   "g2/a1/fi|Toilette|idx:601|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Vessa",
-    "owner_note": "FI Toilette lv: ET Tualett → FI Vessa for tualete toilet. DE untouched."
+    "owner_new": "WC",
+    "owner_note": "FI Toilette: micro-repair lv WC for tualete toilet. DE untouched."
   },
   "g2/a1/fi|Tomate|idx:602|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -182,8 +182,8 @@
   "g2/a1/fi|Uhr|idx:698|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Kello\",\"study.translation\":\"Kello\",\"study.explanation[0]\":\"Pääajatus: Kello tai rannekello. Myös kellonaika: Es ist acht Uhr.\",\"study.explanation[1]\":\"Die Uhr tarkoittaa pääasiassa: laitetta tai kellonaikaa.\",\"study.explanation[2]\":\"Kuvaa usein: tiettyä kellonaikaa.\",\"study.explanation[3]\":\"Die Uhr tarkoittaa kelloa — laitetta tai kellonaikaa (Es ist acht Uhr, meine Uhr).\",\"study.examples[0].lv\":\"Kello on kahdeksan.\",\"study.examples[1].lv\":\"Kello on kahdeksan.\",\"study.examples[2].lv\":\"Kelloni on rikki.\",\"study.examples[3].lv\":\"Kello on kahdeksan.\",\"study.examples[4].lv\":\"Kello on kahdeksan.\",\"study.examples[5].lv\":\"Kello näyttää aikaa.\",\"study.tip[0]\":\"Kello tai rannekello. Myös aika kellolla: Es ist acht Uhr.\",\"study.tip[1]\":\"Käytä die Uhr, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"die Uhr: laite (meine Uhr) tai aika (acht Uhr).\",\"study.important[1]\":\"die Uhr: tarkista konteksti ennen käyttöä.\"}",
-    "owner_note": "FI Uhr: ET Kell + mixed ET study → FI Kello clock/time teaching. DE untouched."
+    "owner_new": "{\"lv\":\"Kello\",\"study.translation\":\"Kello\",\"study.explanation[0]\":\"Pääajatus: Kello tai rannekello. Myös kellonaika: Es ist acht Uhr.\",\"study.explanation[1]\":\"Die Uhr tarkoittaa pääasiassa: laitetta tai kellonaikaa.\",\"study.explanation[2]\":\"Kuvaa usein: tiettyä kellonaikaa.\",\"study.explanation[3]\":\"Die Uhr tarkoittaa kelloa — laitetta tai kellonaikaa (Es ist acht Uhr, meine Uhr).\",\"study.examples[0].lv\":\"Kello on kahdeksan.\",\"study.examples[1].lv\":\"On kahdeksan.\",\"study.examples[2].lv\":\"Kelloni on rikki.\",\"study.examples[3].lv\":\"Kahdeksan.\",\"study.examples[4].lv\":\"On kahdeksan (kello).\",\"study.examples[5].lv\":\"Kello näyttää aikaa.\",\"study.tip[0]\":\"Kello tai rannekello. Myös aika kellolla: Es ist acht Uhr.\",\"study.tip[1]\":\"Käytä die Uhr, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"die Uhr: laite (meine Uhr) tai aika (acht Uhr).\",\"study.important[1]\":\"die Uhr: tarkista konteksti ennen käyttöä.\"}",
+    "owner_note": "FI Uhr: micro-repair study.examples time vs device senses; lv/study.translation Kello. DE untouched."
   },
   "g2/a1/fi|und|idx:612|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -230,8 +230,8 @@
   "g2/a1/fi|verlieren|idx:620|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Kadottaa",
-    "owner_note": "FI verlieren lv: ET Kaotama → FI Kadottaa for zaudēt lose. DE untouched."
+    "owner_new": "Menettää • Kadottaa",
+    "owner_note": "FI verlieren: micro-repair lv Menettää • Kadottaa lose. DE untouched."
   },
   "g2/a1/fi|versuchen|idx:622|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
