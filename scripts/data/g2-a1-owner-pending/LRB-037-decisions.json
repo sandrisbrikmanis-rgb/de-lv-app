@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Ostern|idx:467|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"páskar\"}",
+    "owner_note": "IS Ostern lv: ET Lihavögted→páskar for Lieldienas Easter. DE untouched."
+  },
+  "g2/a1/is|Paar|idx:468|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"par\"}",
+    "owner_note": "IS Paar lv: ET Par→par for pāris couple/pair. DE untouched."
+  },
+  "g2/a1/is|Papier|idx:469|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"pappír\"}",
+    "owner_note": "IS Papier lv: NO Papir→pappír for papīrs paper. DE untouched."
+  },
+  "g2/a1/is|Park|idx:470|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"almenningsgarður\"}",
+    "owner_note": "IS Park lv: NO Parkere→almenningsgarður for parks park. DE untouched."
+  },
+  "g2/a1/is|passen|idx:471|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"passa • henta\",\"study.translation\":\"passa • henta\",\"study.explanation\":[\"Meginhugsun: passen þýðir að passa, henta eða vera rétt stærð.\",\"Um föt þýðir passen oft að þau passa vel á mann.\",\"Um lit eða stíl þýðir passen að eitthvað passar vel saman.\",\"Das passt. = Það passar.\"],\"study.examples[0].lv\":\"Jakkin passar mér.\",\"study.examples[1].lv\":\"Kjóllinn passar vel.\",\"study.examples[2].lv\":\"Liturinn passar við þig.\",\"study.examples[3].lv\":\"Það passar.\"}",
+    "owner_note": "IS passen composite: ET/NO Sobima/passer→passa•henta throughout lv/study for derēt•piestāvēt. DE untouched."
+  },
+  "g2/a1/is|Pause|idx:472|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hlé\"}",
+    "owner_note": "IS Pause lv: ET Vaheag→hlé for pārtraukums break. DE untouched."
+  },
+  "g2/a1/is|Person|idx:473|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"manneskja\"}",
+    "owner_note": "IS Person lv: ET Isik→manneskja for persona person. DE untouched."
+  },
+  "g2/a1/is|Pferd|idx:474|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hestur\"}",
+    "owner_note": "IS Pferd lv: ET Hobune→hestur for zirgs horse. DE untouched."
+  },
+  "g2/a1/is|Pflanze|idx:475|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"planta\"}",
+    "owner_note": "IS Pflanze lv: ET Taim→planta for augs plant. DE untouched."
+  },
+  "g2/a1/is|Plan|idx:477|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"áætlun\"}",
+    "owner_note": "IS Plan lv: loan Plan→áætlun for plāns plan. DE untouched."
+  },
+  "g2/a1/is|Platz|idx:478|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"torg • pláss\"}",
+    "owner_note": "IS Platz lv: ET Koht→torg•pláss for vieta square/place. DE untouched."
+  },
+  "g2/a1/is|Polizei|idx:479|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"lögregla\"}",
+    "owner_note": "IS Polizei lv: NO Politiavdelingen→lögregla for policija police. DE untouched."
+  },
+  "g2/a1/is|Post|idx:480|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"póstur\"}",
+    "owner_note": "IS Post lv: loan Post→póstur for pasts mail/post. DE untouched."
+  },
+  "g2/a1/is|Preis|idx:481|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"verð\"}",
+    "owner_note": "IS Preis lv: ET Hind→verð for cena price. DE untouched."
+  },
+  "g2/a1/is|probieren|idx:482|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"prófa • bragða\",\"study.translation\":\"prófa • bragða\",\"study.explanation\":[\"Meginhugsun: probieren þýðir að prófa eða bragða.\",\"Um mat þýðir probieren oft bragða.\",\"Um hugmynd, aðferð eða hlut þýðir probieren prófa.\",\"testen er kerfisbundið próf, ekki sama og probieren.\"],\"study.examples[0].lv\":\"Prófaðu súpuna!\",\"study.examples[1].lv\":\"Ég vil bragða kökuna.\",\"study.examples[2].lv\":\"Við prófum nýja aðferð.\",\"study.examples[3].lv\":\"Get ég prófað vestið?\",\"study.examples[4].lv\":\"Við prófum nýja hugbúnaðinn.\",\"study.comparison[0].meaning\":\"prófa / bragða\",\"study.comparison[0].example\":\"Prófaðu súpuna!\",\"study.comparison[1].meaning\":\"reyna\",\"study.comparison[1].example\":\"Ég reyni það.\",\"study.comparison[2].meaning\":\"athuga\",\"study.comparison[2].example\":\"Ég athuga reikninginn.\",\"study.comparison[3].meaning\":\"prófa (fatnað)\",\"study.comparison[3].example\":\"Ég prófa vestið.\",\"study.tip.text\":\"Mundu: matur → probieren = bragða.\",\"study.important[0]\":\"probieren er ekki aðalsögnin fyrir opinbera prófun.\",\"study.important[1]\":\"Skjöl eða reikninga athuga er venjulega prüfen.\"}",
+    "owner_note": "IS probieren composite: ET/NO Proovima/Maitsma→prófa•bragða throughout lv/study for izmēģināt•nogaršot. DE untouched."
+  },
+  "g2/a1/is|Problem|idx:483|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vandamál\"}",
+    "owner_note": "IS Problem lv: loan Problem→vandamál for problēma problem. DE untouched."
+  },
+  "g2/a1/is|Programm|idx:484|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dagskrá\"}",
+    "owner_note": "IS Programm lv: loan Program→dagskrá for programma program/schedule. DE untouched."
+  },
+  "g2/a1/is|Pullover|idx:485|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"peysa\"}",
+    "owner_note": "IS Pullover lv: NO Kampsun→peysa for džemperis sweater. DE untouched."
+  },
+  "g2/a1/is|Punkt|idx:486|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"punktur\"}",
+    "owner_note": "IS Punkt lv: loan Punkt→punktur for punkts dot/point. DE untouched."
+  },
+  "g2/a1/is|putzen|idx:487|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þrífa\"}",
+    "owner_note": "IS putzen lv: garbage Puh-stammen→þrífa for tīrīt to clean. DE untouched."
+  },
+  "g2/a1/is|Rad fahren|idx:488|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hjóla\"}",
+    "owner_note": "IS Rad fahren lv: ET Jalgrattaga juidma→hjóla for braukt ar divriteni cycle. DE untouched."
+  },
+  "g2/a1/is|Radiergummi|idx:489|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"strokleðja\"}",
+    "owner_note": "IS Radiergummi lv: ET Kustutuskumm→strokleðja for dzēšamgumija eraser. DE untouched."
+  },
+  "g2/a1/is|rauchen|idx:490|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"reykja\"}",
+    "owner_note": "IS rauchen lv: garbage Drakten setter→reykja for smēķēt to smoke. DE untouched."
+  },
+  "g2/a1/is|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til hægri • hægri\"}",
+    "owner_note": "IS rechts native: ET Paremale•Parem→til hægri•hægri for pa labi•labais right. DE untouched."
+  },
+  "g2/a1/is|rechts|idx:491|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til hægri • hægri\"}",
+    "owner_note": "IS rechts lv: ET Paremale•Parem→til hægri•hægri for pa labi•labais right. DE untouched."
+  },
+  "g2/a1/is|reden|idx:492|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tala\"}",
+    "owner_note": "IS reden lv: NO Pratsom→tala for runāt to speak. DE untouched."
+  },
+  "g2/a1/is|Regen|idx:493|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"rigning\"}",
+    "owner_note": "IS Regen lv: garbage Hmm→rigning for lietus rain. DE untouched."
+  },
+  "g2/a1/is|Regenschirm|idx:494|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"regnhlíf\"}",
+    "owner_note": "IS Regenschirm lv: ET Vihmavari→regnhlíf for lietussargs umbrella. DE untouched."
+  },
+  "g2/a1/is|regnen|idx:495|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"rigna\"}",
+    "owner_note": "IS regnen lv: ET Vihma sadama→rigna for līt to rain. DE untouched."
+  },
+  "g2/a1/is|Reis|idx:496|lv, study.examples, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hrísgrjón\",\"study.examples[0].lv\":\"Risið er tilbúið.\",\"study.examples[1].lv\":\"Ég borða hrísgrjón.\",\"study.examples[2].lv\":\"Ertu að elda hrísgrjón?\",\"study.examples[3].lv\":\"Hrísgrjónið bragðast vel.\",\"study.important[0]\":\"der Reis — á þýsku aðeins eintala (Der Reis ist..., ekki *sind).\",\"study.important[1]\":\"Á íslensku er oft notað hrísgrjón eða risið: risið er tilbúið.\"}",
+    "owner_note": "IS Reis composite: ET/NO Ris/Risen→hrísgrjón throughout lv/study for rīsi rice. DE untouched."
+  },
+  "g2/a1/is|richtig|idx:497|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"rétt\"}",
+    "owner_note": "IS richtig lv: NO Høyre→rétt for pareizs correct/right. DE untouched."
+  },
+  "g2/a1/is|rosa|idx:498|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bleikur\"}",
+    "owner_note": "IS rosa lv: NO Rose→bleikur for rozā pink. DE untouched."
+  },
+  "g2/a1/is|Rose|idx:502|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"rós\"}",
+    "owner_note": "IS Rose lv: NO Rose→rós for roze rose flower. DE untouched."
+  },
+  "g2/a1/is|rot|idx:499|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"rauður\"}",
+    "owner_note": "IS rot lv: ET Punane→rauður for sarkans red. DE untouched."
+  },
+  "g2/a1/is|rufen|idx:500|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kalla\"}",
+    "owner_note": "IS rufen lv: ET Hüüdma→kalla for saukt to call. DE untouched."
+  },
+  "g2/a1/is|rund|idx:501|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"rundur\"}",
+    "owner_note": "IS rund lv: ET Ümmargune→rundur for apaļš round. DE untouched."
+  },
+  "g2/a1/is|Sache|idx:503|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hlutur\"}",
+    "owner_note": "IS Sache lv: ET Asia→hlutur for lieta thing. DE untouched."
+  },
+  "g2/a1/is|Saft|idx:504|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"safi\"}",
+    "owner_note": "IS Saft lv: ET Mat→safi for sula juice. DE untouched."
+  },
+  "g2/a1/is|sagen|idx:505|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"segja\",\"study.translation\":\"segja\",\"study.explanation\":[\"Meginhugsun: sagen þýðir að segja eitthvað.\",\"Notað um ákveðin orð eða setningu sem einhver segir.\",\"sagen leggur áherslu á innihald þess sem er sagt.\",\"sprechen leggur meiri áherslu á tal eða tungumál.\"],\"study.examples[0].lv\":\"Hvað sagðir þú?\",\"study.comparison[0].meaning\":\"segja (ákveðið)\",\"study.comparison[0].example\":\"Was hast du gesagt? – Hvað sagðir þú?\",\"study.comparison[1].meaning\":\"tala (tungumál)\",\"study.comparison[1].example\":\"Ich spreche Deutsch. – Ég tala þýsku.\",\"study.tip[0]\":\"sagen = segja\",\"study.tip[1]\":\"Notaðu sagen þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"sagen = segja.\",\"study.important[1]\":\"Segja ákveðna hugsun, orð eða setningu.\"}",
+    "owner_note": "IS sagen composite: ET/NO Ütlema/sa seaside→segja throughout lv/study for teikt say. DE untouched."
+  },
+  "g2/a1/is|Salat|idx:506|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"salat\"}",
+    "owner_note": "IS Salat lv: loan Salat→salat for salāti salad. DE untouched."
+  },
+  "g2/a1/is|Samstag|idx:566|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"laugardagur\"}",
+    "owner_note": "IS Samstag lv: ET Laupaev→laugardagur for sestdiena Saturday. DE untouched."
+  },
+  "g2/a1/is|sauber|idx:508|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hreinn\"}",
+    "owner_note": "IS sauber lv: garbage Brumm→hreinn for tīrs clean. DE untouched."
+  },
+  "g2/a1/is|Sauna|idx:67|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gufubað\"}",
+    "owner_note": "IS Sauna lv: NO Badstue→gufubað for sauna sauna/bath. DE untouched."
+  },
+  "g2/a1/is|Schaf|idx:509|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kind\"}",
+    "owner_note": "IS Schaf lv: ET Lam→kind for aita sheep. DE untouched."
+  },
+  "g2/a1/is|schauen|idx:510|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"horfa\",\"study.translation\":\"horfa\",\"study.explanation\":[\"Meginhugsun: schauen þýðir að horfa eða líta.\",\"Schauen leggur áherslu á virka athygli.\",\"Oft notað með fern (sjónvarp) eða aus dem Fenster.\",\"sehen getur verið að sjá án sérstakrar athygli.\"],\"study.examples[0].lv\":\"Ég horfi í sjónvarp.\",\"study.examples[1].lv\":\"Við horfum út gluggann.\",\"study.examples[2].lv\":\"Ég horfi í sjónvarp.\",\"study.comparison[0].meaning\":\"horfa (virkt)\",\"study.comparison[0].example\":\"Ich schaue aus dem Fenster. – Við horfum út gluggann.\",\"study.comparison[1].meaning\":\"sjá\",\"study.comparison[1].example\":\"Ich sehe dich. – Ég sé þig.\",\"study.tip[0]\":\"schauen = horfa\",\"study.tip[1]\":\"Notaðu schauen þegar samhengið passar við þessa merkingu.\",\"study.important[0]\":\"schauen = horfa.\",\"study.important[1]\":\"Virkt horfa eða skoða.\"}",
+    "owner_note": "IS schauen composite: ET/NO Klokke/vaatan→horfa throughout lv/study for skatīties look. DE untouched."
+  },
+  "g2/a1/is|schicken|idx:511|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"senda\"}",
+    "owner_note": "IS schicken lv: ET Saatma→senda for sūtīt to send. DE untouched."
+  },
+  "g2/a1/is|schlafen|idx:512|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sofa\"}",
+    "owner_note": "IS schlafen lv: NO Mage→sofa for gulēt sleep. DE untouched."
+  },
+  "g2/a1/is|schlecht|idx:513|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"slæmur\"}",
+    "owner_note": "IS schlecht lv: ET Halb→slæmur for slikts bad. DE untouched."
+  },
+  "g2/a1/is|Schlüssel|idx:514|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"lykill\"}",
+    "owner_note": "IS Schlüssel lv: ET Võti→lykill for atslēga key. DE untouched."
+  },
+  "g2/a1/is|schmecken|idx:515|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bragðast\"}",
+    "owner_note": "IS schmecken lv: ET Maitsma→bragðast for garšot to taste. DE untouched."
+  }
+}
