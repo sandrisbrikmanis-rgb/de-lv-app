@@ -20,14 +20,14 @@
   "g2/a1/fi|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Pitkä • Pitkään",
-    "owner_note": "FI lang native: ET Pikk/Kauakestev → FI Pitkä/Pitkään length vs duration garš • ilgs. DE untouched."
+    "owner_new": "Pitkä • Pitkäkestoinen",
+    "owner_note": "FI lang native micro-repair: Pitkä/Pitkään → Pitkä/Pitkäkestoinen; pitkä=garš, pitkäkestoinen=ilgs (pitkään=ilgi neder). DE untouched."
   },
   "g2/a1/fi|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Pitkä • Pitkään",
-    "owner_note": "FI lang study.translation: ET → FI Pitkä/Pitkään mirrors native repair. DE untouched."
+    "owner_new": "Pitkä • Pitkäkestoinen",
+    "owner_note": "FI lang study.translation micro-repair: Pitkä/Pitkään → Pitkä/Pitkäkestoinen mirrors native; pitkäkestoinen=ilgs. DE untouched."
   },
   "g2/a1/fi|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
