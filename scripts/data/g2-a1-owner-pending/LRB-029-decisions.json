@@ -14,14 +14,14 @@
   "g2/a1/is|a1-sicher|a1.card.a1-sicher.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"öruggur • viss\"}",
-    "owner_note": "IS sicher native: NO Kindle/Definitivt→öruggur•viss for drošs•noteikti. DE untouched."
+    "owner_new": "{\"lv\":\"öruggur • örugglega\"}",
+    "owner_note": "IS sicher native gala: öruggur•viss→öruggur•örugglega (adj+adv for drošs•noteikti). DE untouched."
   },
   "g2/a1/is|a1-sicher|a1.card.a1-sicher.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"öruggur • viss\"}",
-    "owner_note": "IS sicher translation: NO Kindle/Definitivt→öruggur•viss for drošs•noteikti. DE untouched."
+    "owner_new": "{\"study.translation\":\"öruggur • örugglega\"}",
+    "owner_note": "IS sicher translation gala: öruggur•viss→öruggur•örugglega (adj+adv for drošs•noteikti). DE untouched."
   },
   "g2/a1/is|a1-ueber|a1.card.a1-ueber.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -68,14 +68,14 @@
   "g2/a1/is|a1-was|a1.card.a1-was.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"hvað • hvað\"}",
-    "owner_note": "IS was native: ET Mis/Mida→hvað•hvað for kas•ko. DE untouched."
+    "owner_new": "{\"lv\":\"hvað\"}",
+    "owner_note": "IS was native gala: hvað•hvað→hvað (dedupe gloss for kas•ko). DE untouched."
   },
   "g2/a1/is|a1-was|a1.card.a1-was.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"hvað • hvað\"}",
-    "owner_note": "IS was translation: ET Mis/Mida→hvað•hvað for kas•ko. DE untouched."
+    "owner_new": "{\"study.translation\":\"hvað\"}",
+    "owner_note": "IS was translation gala: hvað•hvað→hvað (dedupe gloss for kas•ko). DE untouched."
   },
   "g2/a1/is|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -92,14 +92,14 @@
   "g2/a1/is|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"hver • hver\"}",
-    "owner_note": "IS wer native: ET Kes/Cumb→hver•hver for kas•kurš. DE untouched."
+    "owner_new": "{\"lv\":\"hver\"}",
+    "owner_note": "IS wer native gala: hver•hver→hver (dedupe gloss for kas•kurš). DE untouched."
   },
   "g2/a1/is|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"hver • hver\"}",
-    "owner_note": "IS wer translation: ET Kes/Cumb→hver•hver for kas•kurš. DE untouched."
+    "owner_new": "{\"study.translation\":\"hver\"}",
+    "owner_note": "IS wer translation gala: hver•hver→hver (dedupe gloss for kas•kurš). DE untouched."
   },
   "g2/a1/is|a1-wie|a1.card.a1-wie.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -122,26 +122,26 @@
   "g2/a1/is|a1-zu|a1.card.a1-zu.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"til • að\"}",
-    "owner_note": "IS zu native: ET -sse/Juurde→til•að for uz•pie. DE untouched."
+    "owner_new": "{\"lv\":\"til\"}",
+    "owner_note": "IS zu native gala: til•að→til (prep toward for uz•pie). DE untouched."
   },
   "g2/a1/is|a1-zu|a1.card.a1-zu.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"til • að\"}",
-    "owner_note": "IS zu translation: ET -sse/Juurde→til•að for uz•pie. DE untouched."
+    "owner_new": "{\"study.translation\":\"til\"}",
+    "owner_note": "IS zu translation gala: til•að→til (prep toward for uz•pie). DE untouched."
   },
   "g2/a1/is|a1-zum|a1.card.a1-zum.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"til • að\"}",
-    "owner_note": "IS zum native: ET -sse/Juurde→til•að for uz•pie. DE untouched."
+    "owner_new": "{\"lv\":\"til\"}",
+    "owner_note": "IS zum native gala: til•að→til; zum=zu+dem in study context for uz•pie. DE untouched."
   },
   "g2/a1/is|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"til • að\"}",
-    "owner_note": "IS zum translation: ET -sse/Juurde→til•að for uz•pie. DE untouched."
+    "owner_new": "{\"study.translation\":\"til\"}",
+    "owner_note": "IS zum translation gala: til•að→til; zum=zu+dem in study context for uz•pie. DE untouched."
   },
   "g2/a1/is|ab|idx:17|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -200,8 +200,8 @@
   "g2/a1/is|allein|idx:8|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"einn • einnalegur\"}",
-    "owner_note": "IS allein lv: NO Ja→einn•einnalegur for viens pats. DE untouched."
+    "owner_new": "{\"lv\":\"einn • aleinn\"}",
+    "owner_note": "IS allein lv gala: einn•einnalegur→einn•aleinn for viens pats. DE untouched."
   },
   "g2/a1/is|Alter|idx:11|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -290,13 +290,13 @@
   "g2/a1/is|also|idx:26|study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"því • þar af leiðandi\",\"study.explanation\":\"Notað til að draga ályktun eða sýna afleiðslu. Þýðir „því“, „þar af leiðandi“.\",\"study.examples[0].lv\":\"Það rignir, því verð ég heima.\",\"study.examples[1].lv\":\"Þú ert veikur, því ferðu ekki í vinnuna.\",\"study.examples[2].lv\":\"Ég hef lært mikið, því skil ég það núna.\",\"study.comparison[0].meaning\":\"því • þar af leiðandi\",\"study.comparison[0].example\":\"Es regnet, also bleibe ich zu Hause. – Það rignir, því verð ég heima.\",\"study.comparison[1].meaning\":\"líka\",\"study.comparison[1].example\":\"Ich komme auch. – Ég kem líka.\",\"study.comparison[2].meaning\":\"þess vegna\",\"study.comparison[2].example\":\"Es regnet, deshalb bleibe ich zu Hause. – Það rignir, þess vegna verð ég heima.\",\"study.tip.text\":\"Mundu: ályktun → also.\",\"study.important[0]\":\"also sýnir ályktun: af því sem áður var sagt kemur næsta hugmynd.\",\"study.important[1]\":\"Latvisku „tāpēc“ getur oft verið líka deshalb.\"}",
-    "owner_note": "IS also composite: ET/NO Seega/seepåråt→því•þar af leiðandi throughout study fields for tātad. DE untouched."
+    "owner_new": "{\"study.translation\":\"því • þar af leiðandi\",\"study.explanation\":\"Notað til að draga ályktun eða sýna afleiðslu. Þýðir „því“, „þar af leiðandi“.\",\"study.examples[0].lv\":\"Það rignir, því verð ég heima.\",\"study.examples[1].lv\":\"Þú ert veikur, því ferðu ekki í vinnuna.\",\"study.examples[2].lv\":\"Ég hef lært mikið, því skil ég það núna.\",\"study.comparison[0].meaning\":\"því • þar af leiðandi\",\"study.comparison[0].example\":\"Es regnet, also bleibe ich zu Hause. – Það rignir, því verð ég heima.\",\"study.comparison[1].meaning\":\"líka\",\"study.comparison[1].example\":\"Ich komme auch. – Ég kem líka.\",\"study.comparison[2].meaning\":\"þess vegna\",\"study.comparison[2].example\":\"Es regnet, deshalb bleibe ich zu Hause. – Það rignir, þess vegna verð ég heima.\",\"study.tip.text\":\"Mundu: ályktun → also.\",\"study.important[0]\":\"also sýnir ályktun: af því sem áður var sagt kemur næsta hugmynd.\",\"study.important[1]\":\"„þess vegna“ samsvarar oft þýska orðinu deshalb.\"}",
+    "owner_note": "IS also composite gala: important[1] LV tāpēc residue→þess vegna/deshalb IS note; full composite IS clean. DE untouched."
   },
   "g2/a1/is|an|idx:12|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"við • á • nálægt\",\"study.translation\":\"við • á • nálægt\",\"study.explanation\":\"Notað þegar eitthvað er við vegg, glugga, dyr, á, strönd eða annan brún/yfirborð.\",\"study.examples[0].lv\":\"Við vegginn\",\"study.examples[1].lv\":\"Við gluggann\",\"study.examples[2].lv\":\"Við sjóinn\",\"study.comparison[0].meaning\":\"á yfirborði eða brún\",\"study.comparison[0].example\":\"an der Wand – Við vegginn\",\"study.comparison[1].meaning\":\"á láréttu yfirborði\",\"study.comparison[1].example\":\"auf dem Tisch – Á borðinu\",\"study.comparison[2].meaning\":\"hjá manneskju eða stað\",\"study.comparison[2].example\":\"beim Arzt – Hjá lækninum\",\"study.tip.text\":\"Mundu: við vegg/glugga/brún → an.\",\"study.important[0]\":\"an er ekki hvaða „við“ sem er. Það þýðir oft við yfirborð, vegg, glugga eða brún.\",\"study.important[1]\":\"Á láréttri yfirborði notarðu venjulega auf.\"}",
-    "owner_note": "IS an composite: ET/NO Juures/Seina dyllus→við•á•nálægt throughout lv/study fields for pie. DE untouched."
+    "owner_new": "{\"lv\":\"við • á • nálægt\",\"study.translation\":\"við • á • nálægt\",\"study.explanation\":\"Notað þegar eitthvað er við vegg, glugga, dyr, strönd eða annað yfirborð/brún.\",\"study.examples[0].lv\":\"Við vegginn\",\"study.examples[1].lv\":\"Við gluggann\",\"study.examples[2].lv\":\"Við sjóinn\",\"study.comparison[0].meaning\":\"á yfirborði eða brún\",\"study.comparison[0].example\":\"an der Wand – Við vegginn\",\"study.comparison[1].meaning\":\"á láréttu yfirborði\",\"study.comparison[1].example\":\"auf dem Tisch – Á borðinu\",\"study.comparison[2].meaning\":\"hjá manneskju eða stað\",\"study.comparison[2].example\":\"beim Arzt – Hjá lækninum\",\"study.tip.text\":\"Mundu: við vegg/glugga/brún → an.\",\"study.important[0]\":\"an er ekki hvaða „við“ sem er. Það þýðir oft við yfirborð, vegg, glugga eða brún.\",\"study.important[1]\":\"Á láréttri yfirborði notarðu venjulega auf.\"}",
+    "owner_note": "IS an composite gala: explanation→natural IS yfirborð/brún phrasing; full composite grammar/semantic pass. DE untouched."
   }
 }
