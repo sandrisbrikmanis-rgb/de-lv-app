@@ -2,32 +2,32 @@
   "g2/a1/hu|Wetter|idx:658|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Időjárás\",\"study.translation\":\"Időjárás\",\"study.explanation[0]\":\"Fő gondolat: a das Wetter az időjárást jelenti – napos, esős, hideg vagy meleg.\",\"study.explanation[1]\":\"A magyar „időjárás” kifejezetten az ég és a külső viszonyokra utal – nem ugyanaz, mint die Zeit (idő).\",\"study.examples[0].lv\":\"Milyen az időjárás ma?\",\"study.examples[1].lv\":\"Szép az időjárás.\",\"study.examples[2].lv\":\"Rossz az időjárás.\",\"study.examples[3].lv\":\"Télen gyakran hideg az időjárás.\",\"study.examples[4].lv\":\"Az időjárásról beszélünk.\",\"study.examples[5].lv\":\"Holnap jobb időjárás lesz.\",\"study.tip[1]\":\"Emlékezz: Wie ist das Wetter? = Milyen az időjárás? (nem az óra).\"}",
-    "owner_note": "HU Wetter card: Idő clock→Időjárás weather; fix examples for laikapstākļi. DE untouched."
+    "owner_new": "{\"lv\":\"Időjárás\",\"study.translation\":\"Időjárás\",\"study.explanation\":[\"Fő gondolat: a das Wetter az időjárást jelenti – napos, esős, hideg vagy meleg.\",\"Magyarul az időjárás kifejezetten az ég és a külső viszonyokra utal – nem ugyanaz, mint die Zeit (idő).\",\"Wie ist das Wetter heute? = Milyen az időjárás ma?\",\"A das Wetter-t gyakran használják olyan szavakkal együtt, mint meleg vagy kalt.\",\"Nem tévesztendő össze a die Zeit-tel – az idő mint pillanat vagy lehetőség (Ich habe keine Zeit).\"],\"study.examples\":[{\"de\":\"Wie ist das Wetter heute?\",\"lv\":\"Milyen az időjárás ma?\"},{\"de\":\"Das Wetter ist schön.\",\"lv\":\"Szép az időjárás.\"},{\"de\":\"Das Wetter ist schlecht.\",\"lv\":\"Rossz az időjárás.\"},{\"de\":\"Im Winter ist das Wetter oft kalt.\",\"lv\":\"Télen gyakran hideg az időjárás.\"},{\"de\":\"Wir sprechen über das Wetter.\",\"lv\":\"Az időjárásról beszélünk.\"},{\"de\":\"Morgen wird das Wetter besser.\",\"lv\":\"Holnap jobb időjárás lesz.\"}],\"study.comparison\":[{\"word\":\"Wetter\",\"meaning\":\"Időjárási viszonyok\",\"example\":\"Das Wetter ist schön.\"},{\"word\":\"Zeit\",\"meaning\":\"Idő (pillanat)\",\"example\":\"Ich habe keine Zeit.\"},{\"word\":\"Regen\",\"meaning\":\"Eső\",\"example\":\"Es regnet.\"},{\"word\":\"Sonne\",\"meaning\":\"Nap / napsütés\",\"example\":\"Die Sonne scheint.\"}],\"study.tip\":[\"Ha nap, eső vagy hőmérséklet az év külső részéről van szó – használd a das Wetter szót.\",\"Emlékezz: Wie ist das Wetter? = Milyen az időjárás? (nem az óra).\"],\"study.important\":[\"das Wetter = időjárás, nem pedig az óra.\",\"die Zeit = idő mint pillanat vagy lehetőség – más lap az A1-ben.\"]}",
+    "owner_note": "HU Wetter card: gala repair full study; remove lett residue; Wetter vs Zeit contrast; fix examples. DE untouched."
   },
   "g2/a1/hu|wie|idx:660|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.explanation[1]\":\"A Wie önmagában (Wie geht's?) az útról vagy állapotról kérdez – magyarul hogyan.\",\"study.explanation[2]\":\"A Wie + melléknév (wie viel, wie alt, wie lange) a mennyiségre, korra vagy időtartamra kérdez – magyarul mennyi/mennyit.\",\"study.explanation[3]\":\"Wie viel(e) = mennyit • Wie alt = hány éves • Wie lange = meddig.\"}",
-    "owner_note": "HU wie card: remove lett residue in explanations; Hogyan•Mennyit aligns with LV kā•cik. DE untouched."
+    "owner_new": "{\"lv\":\"Hogyan • Mennyi\",\"study.translation\":\"Hogyan • Mennyi\",\"study.explanation\":[\"Fő ötlet: a wie a módra (hogyan) és a mennyiségre/korra/időtartamra (mennyi) kérdez, a kontextustól függően.\",\"A wie önmagában (Wie geht's?) az útról vagy állapotról kérdez – magyarul hogyan.\",\"A wie + melléknév (wie viel, wie alt, wie lange) mennyiségre, korra vagy időtartamra kérdez.\",\"Wie viel(e) = mennyi • Wie alt = hány éves • Wie lange = meddig.\",\"Összehasonlításban: so ... wie = olyan ... mint.\"],\"study.tip\":[\"A wie önmagában = hogyan (mód); wie + melléknév (viel/alt/lange) = mennyi/meddig.\",\"Az összehasonlításban so ... wie = olyan ... mint.\"],\"study.important\":[\"wie viel(e) = mennyi; wie alt = hány éves; wie lange = meddig.\",\"A wie egyedül (Wie...?) általában = hogyan, nem pedig mennyi.\",\"Helytelen: Mennyi mész? → Helyes: Hogyan vagy? (Wie geht's?)\"]}",
+    "owner_note": "HU wie card: gala repair full study; remove lett/lettül; wie=hogyan, wie viel=mennyi, so...wie. DE untouched."
   },
   "g2/a1/hu|Zeit|idx:699|lv, study.translation, study.explanation, study.examples, study.tip, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "HU Zeit card: Idő (pillanat/időtartam) aligns with LV laiks (brīdis/laika posms). DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important\":[\"die Zeit: idő mint pillanat vagy lehetőség – nem időjárás.\",\"die Zeit: ellenőrizd a szövegkörnyezetet a használat előtt.\"],\"study.tip\":[\"Fő gondolat: az idő mint fogalom – pillanat, lehetőség, időszak.\",\"Használd a die Zeit szót, ha időről vagy lehetőségről beszélsz.\"]}",
+    "owner_note": "HU Zeit card: gala repair duplicate important/tip; NELABOT lv/translation OK. DE untouched."
   },
   "g2/a1/hu|zu|idx:668|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"-hoz/-hez/-höz • -ba/-be\",\"study.translation\":\"-hoz/-hez/-höz • -ba/-be\",\"study.explanation[0]\":\"Fő gondolat: a zu nagyon gyakran azt jelenti, hogy hozzá/hez vagy be, de szerepe van az infinitívus mellett is.\",\"study.comparison[0].meaning\":\"-hoz/-hez • -ba/-be / túl / infinitív\",\"study.tip\":{\"text\":\"Emlékezz: az orvoshoz → zum Arzt; túl drága → zu teuer.\"}}",
-    "owner_note": "HU zu card: Hogy•At EN→-hoz/-hez/-höz•-ba/-be for uz•pie; fix LV tip residue. DE untouched."
+    "owner_new": "{\"lv\":\"-hoz/-hez/-höz • -ba/-be\",\"study.translation\":\"-hoz/-hez/-höz • -ba/-be\",\"study.explanation\":[\"Fő gondolat: a zu nagyon gyakran azt jelenti, hogy hozzá/hez vagy be, de szerepe van az infinitívus mellett is.\",\"Emberek és intézmények esetében a zu gyakran -hoz/-hez vagy -ba/-be jelentést ad.\",\"Melléknéveknél a zu gyakran túl jelentést ad: zu teuer = túl drága.\",\"A zu + határozatlan szerkezetben segíti az infinitívust: zu lernen, zu gehen.\"],\"study.comparison[0].meaning\":\"-hoz/-hez • -ba/-be / túl / infinitív\",\"study.tip\":{\"text\":\"Emlékezz: az orvoshoz → zum Arzt; túl drága → zu teuer.\"}}",
+    "owner_note": "HU zu card: gala repair EN at residue + LV tip→HU for uz•pie. DE untouched."
   },
   "g2/a1/hu|Zug|idx:671|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Vonat\",\"study.translation\":\"Vonat\",\"study.comparison[0].meaning\":\"Vonat\",\"study.comparison[1].meaning\":\"Vasút / vonattal utazás\"}",
-    "owner_note": "HU Zug card: A vonat→Vonat dictionary form for vilciens train. DE untouched."
+    "owner_new": "{\"lv\":\"Vonat\",\"study.translation\":\"Vonat\",\"study.comparison[0].meaning\":\"Vonat\",\"study.comparison[1].meaning\":\"Vasút / vonattal utazás\",\"study.tip\":{\"text\":\"Emlékezz: konkrét vonat → der Zug.\"}}",
+    "owner_note": "HU Zug card: gala repair LV tip→HU for vilciens train. DE untouched."
   },
   "g2/a1/is|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -86,8 +86,8 @@
   "g2/a1/is|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.comparison[0].meaning\":\"heimsókn • komu • heimsókn\"}",
-    "owner_note": "IS besuch comparison[0]: SV besók→heimsókn•komu•heimsókn for apmeklējums•apciemojums•vizīte. DE untouched."
+    "owner_new": "{\"study.comparison[0].meaning\":\"heimsókn • koma • gestir\"}",
+    "owner_note": "IS besuch comparison[0]: duplicate heimsókn→heimsókn•koma•gestir for apmeklējums•apciemojums•vizīte. DE untouched."
   },
   "g2/a1/is|a1-besuchen|a1.card.a1-besuchen.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -140,26 +140,26 @@
   "g2/a1/is|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"einu sinni • einu sinni\"}",
-    "owner_note": "IS einmal native: ET Üks kord/Kord→einu sinni•einu sinni for vienreiz•reiz. DE untouched."
+    "owner_new": "{\"lv\":\"einu sinni • skipti\"}",
+    "owner_note": "IS einmal native: duplicate einu sinni→einu sinni•skipti for vienreiz•reiz. DE untouched."
   },
   "g2/a1/is|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"einu sinni • einu sinni\"}",
-    "owner_note": "IS einmal translation: ET Üks kord/Kord→einu sinni•einu sinni for vienreiz•reiz. DE untouched."
+    "owner_new": "{\"study.translation\":\"einu sinni • skipti\"}",
+    "owner_note": "IS einmal translation: duplicate einu sinni→einu sinni•skipti for vienreiz•reiz. DE untouched."
   },
   "g2/a1/is|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"ís • ísbúð\"}",
-    "owner_note": "IS eis native: FI/NO Jää/Iskrem→ís•ísbúð for ledus•saldējums. DE untouched."
+    "owner_new": "{\"lv\":\"ís • rjómaís\"}",
+    "owner_note": "IS eis native: ísbúð→rjómaís ice cream for ledus•saldējums. DE untouched."
   },
   "g2/a1/is|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"ís • ísbúð\"}",
-    "owner_note": "IS eis translation: FI/NO Jää/Iskrem→ís•ísbúð for ledus•saldējums. DE untouched."
+    "owner_new": "{\"study.translation\":\"ís • rjómaís\"}",
+    "owner_note": "IS eis translation: ísbúð→rjómaís for ledus•saldējums. DE untouched."
   },
   "g2/a1/is|a1-erst|a1.card.a1-erst.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -182,8 +182,8 @@
   "g2/a1/is|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"það • það • ópersónulegt\"}",
-    "owner_note": "IS es native: ET Se/Ta/Umbisikuline→það•það•ópersónulegt for tas. DE untouched."
+    "owner_new": "{\"lv\":\"það • ópersónulegt\"}",
+    "owner_note": "IS es native: duplicate það→það•ópersónulegt for tas impersonal. DE untouched."
   },
   "g2/a1/is|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -194,44 +194,44 @@
   "g2/a1/is|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"það • það\"}",
-    "owner_note": "IS es translation: ET Se/Ta/Umbisikuline→það•það for tas. DE untouched."
+    "owner_new": "{\"study.translation\":\"það\"}",
+    "owner_note": "IS es translation: duplicate það→það single for tas. DE untouched."
   },
   "g2/a1/is|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"eitthvað • eitthvað\"}",
-    "owner_note": "IS etwas native: ET Midagi/Veidi→eitthvað•eitthvað for kaut kas. DE untouched."
+    "owner_new": "{\"lv\":\"eitthvað\"}",
+    "owner_note": "IS etwas native: duplicate eitthvað→eitthvað single for kaut kas. DE untouched."
   },
   "g2/a1/is|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"eitthvað • eitthvað\"}",
-    "owner_note": "IS etwas translation: ET Midagi/Veidi→eitthvað•eitthvað for kaut kas. DE untouched."
+    "owner_new": "{\"study.translation\":\"eitthvað\"}",
+    "owner_note": "IS etwas translation: duplicate eitthvað→eitthvað single for kaut kas. DE untouched."
   },
   "g2/a1/is|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"ykkur • ykkur\"}",
-    "owner_note": "IS euch native: ET Teid/Teile→ykkur•ykkur for jūs•jums. DE untouched."
+    "owner_new": "{\"lv\":\"ykkur\"}",
+    "owner_note": "IS euch native: duplicate ykkur→ykkur single for jūs•jums. DE untouched."
   },
   "g2/a1/is|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"ykkur • ykkur\"}",
-    "owner_note": "IS euch translation: ET Teid/Teile→ykkur•ykkur for jūs•jums. DE untouched."
+    "owner_new": "{\"study.translation\":\"ykkur\"}",
+    "owner_note": "IS euch translation: duplicate ykkur→ykkur single for jūs•jums. DE untouched."
   },
   "g2/a1/is|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"aka • keyra • færa\"}",
-    "owner_note": "IS fahren native: ET Sõitma/Vedama→aka•keyra•færa for braukt. DE untouched."
+    "owner_new": "{\"lv\":\"aka • keyra\"}",
+    "owner_note": "IS fahren native: remove færa→aka•keyra for braukt drive/travel. DE untouched."
   },
   "g2/a1/is|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"aka • keyra • færa\"}",
-    "owner_note": "IS fahren translation: ET Sõitma/Vedama→aka•keyra•færa for braukt. DE untouched."
+    "owner_new": "{\"study.translation\":\"aka • keyra\"}",
+    "owner_note": "IS fahren translation: remove færa→aka•keyra for braukt. DE untouched."
   },
   "g2/a1/is|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -248,14 +248,14 @@
   "g2/a1/is|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"kona • eiginkona\"}",
-    "owner_note": "IS frau native: ET Naine/Abikaasa→kona•eiginkona for sieviete. DE untouched."
+    "owner_new": "{\"lv\":\"kona\"}",
+    "owner_note": "IS frau native: duplicate kona•eiginkona→kona for sieviete woman. DE untouched."
   },
   "g2/a1/is|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"kona • eiginkona\"}",
-    "owner_note": "IS frau translation: ET Naine/Abikaasa→kona•eiginkona for sieviete. DE untouched."
+    "owner_new": "{\"study.translation\":\"kona\"}",
+    "owner_note": "IS frau translation: duplicate kona•eiginkona→kona for sieviete. DE untouched."
   },
   "g2/a1/is|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",

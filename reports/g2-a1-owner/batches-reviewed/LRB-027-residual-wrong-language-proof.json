@@ -1,0 +1,27 @@
+{
+  "batch_id": "LRB-027",
+  "classification": "G2_A1_OWNER_RESIDUAL_SEMANTIC_SOURCE_LANGUAGE_AUDIT_PASS",
+  "pass": true,
+  "rows_audited": 50,
+  "labot": 47,
+  "nelabot": 3,
+  "pending": 0,
+  "residual_wrong_language_violations": 0,
+  "issue_cards": [],
+  "issues": [],
+  "semantic_micro_repair_cards": [
+    "Wetter",
+    "wie",
+    "a1-einmal",
+    "a1-eis",
+    "a1-etwas",
+    "a1-euch",
+    "a1-fahren",
+    "a1-frau"
+  ],
+  "semantic_micro_repair_violations": 0,
+  "semantic_violation_cards": [],
+  "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "verdict": "LRB_027_LINGUISTIC_REPAIR_PASS",
+  "updatedAt": "2026-09-11T15:34:52.408Z"
+}
