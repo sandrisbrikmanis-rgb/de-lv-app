@@ -56,7 +56,17 @@ const EXPECTED = {
     "study.comparison[0].meaning": "vita (staðreynd, upplýsing)",
     "study.comparison[1].meaning": "þekkja (mann, stað, hlut)",
   },
-  vom: { "study.translation": "frá", "study.examples[0].lv": "Ég kem frá lestarstöðinni." },
+  vom: {
+    "study.translation": "frá",
+    "study.explanation[0]":
+      "Meginhugsun: vom er samdráttur von + dem; von stýrir þágufalli.",
+    "study.examples[0].lv": "Ég kem frá lestarstöðinni.",
+    "study.examples[1].lv": "Gjöfin er frá föðurnum.",
+    "study.examples[2].lv": "Hann kemur frá lækninum.",
+    "study.tip[0]": "Mundu: von + dem → vom; von krefst þágufalls (Dativ).",
+    "study.important[0]":
+      "vom = von dem; von stýrir þágufalli — aldrei þolfalli eða Akkusativ.",
+  },
   vor: {
     "study.translation": "áður • fyrir",
     "study.examples[0].lv": "Áður en ég borða, þvo ég hendurnar.",
@@ -83,7 +93,7 @@ const EXPECTED = {
 const DE_IS_ALIGN = {
   vom: [
     ["Ich komme vom Bahnhof.", "Ég kem frá lestarstöðinni."],
-    ["Das Geschenk ist vom Vater.", "Gjöfin er frá föður mínum."],
+    ["Das Geschenk ist vom Vater.", "Gjöfin er frá föðurnum."],
     ["Er kommt vom Arzt.", "Hann kemur frá lækninum."],
   ],
   vor: [
@@ -274,10 +284,32 @@ function semanticChecks(card, merged, deExamples, issues) {
   }
 
   if (card === "vom") {
-    if (/eessõna|Bahnhof – Faktisk|jaamast|issalt/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "vom source residue" });
+    if (/eessõna|Bahnhof – Faktisk|jaamast|issalt|föður mínum/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "vom source residue or wrong case ex[1]" });
+    if (!/samdráttur von \+ dem/i.test(s(merged, "study.explanation[0]")))
+      issues.push({ card, type: "SEMANTIC", msg: "vom expl[0] must state von+dem samdráttur" });
+    if (!/þágufalli/i.test(s(merged, "study.explanation[0]")))
+      issues.push({ card, type: "SEMANTIC", msg: "vom expl[0] must state von stýrir þágufalli" });
     if (!/von dem/i.test(s(merged, "study.explanation[1]")))
-      issues.push({ card, type: "SEMANTIC", msg: "vom must explain von dem" });
+      issues.push({ card, type: "SEMANTIC", msg: "vom must explain von dem Dativ" });
+    if (!/þágufall/i.test(s(merged, "study.explanation[1]")))
+      issues.push({ card, type: "SEMANTIC", msg: "vom expl[1] must mention þágufall" });
+    if (!/þágufall/i.test(s(merged, "study.tip[0]")))
+      issues.push({ card, type: "SEMANTIC", msg: "vom tip[0] must mention þágufall/Dativ" });
+    if (!/þágufalli/i.test(s(merged, "study.important[0]")))
+      issues.push({ card, type: "SEMANTIC", msg: "vom important[0] must state þágufall governance" });
+    if (!/föðurnum/i.test(s(merged, "study.comparison[0].example")))
+      issues.push({ card, type: "SEMANTIC", msg: "vom comparison must show vom Vater→föðurnum" });
+    if (!/lækninum/i.test(s(merged, "study.comparison[0].example")))
+      issues.push({ card, type: "SEMANTIC", msg: "vom comparison must show vom Arzt→lækninum" });
+    if (/frá bónda[^n]/i.test(all) || /\bfrá bónda\./i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "vom ex[6] must use dative bóndanum not bónda" });
+    if (
+      /\b(vom (notar|krefst|styrir|stýrir) (þolfall|akkusativ)|með þolfalli|þolfall eftir vom)\b/i.test(
+        all
+      )
+    )
+      issues.push({ card, type: "SEMANTIC", msg: "vom accusative case claim detected" });
     if (/vom Mutter/i.test(all) && !/von der Mutter/i.test(all))
       issues.push({ card, type: "SEMANTIC", msg: "vom feminine rule missing" });
   }
@@ -489,12 +521,77 @@ for (const row of rows) {
   }
 }
 
+function auditVomCaseGovernment() {
+  const vomKey = Object.keys(decisions).find((k) => k.includes("|vom|"));
+  const vomRow = rows.find((r) => r.finding_stable_ids === vomKey);
+  const vomDecision = decisions[vomKey];
+  let flat;
+  try {
+    flat = JSON.parse(vomRow.production_current || "{}");
+  } catch {
+    flat = {};
+  }
+  const merged = applyPatches(flatToNested(flat), vomDecision.owner_new);
+  const all = collectTargetStrings(merged).map((x) => x.text).join(" ");
+
+  const accusativeHits = [];
+  const badPatterns = [
+    { re: /\bföður mínum\b/i, msg: "ex[1] föður mínum not vom Vater dative föðurnum" },
+    { re: /\bfrá bónda\./i, msg: "ex[6] frá bónda missing dative -num" },
+    {
+      re: /\b(vom (notar|krefst|styrir|stýrir) (þolfall|akkusativ)|með akkusativ|með þolfalli)\b/i,
+      msg: "affirmative accusative governance claim",
+    },
+  ];
+  for (const { re, msg } of badPatterns) {
+    if (re.test(all)) accusativeHits.push(msg);
+  }
+  if (s(merged, "study.examples[1].lv") !== "Gjöfin er frá föðurnum.")
+    accusativeHits.push("ex[1] must be Gjöfin er frá föðurnum.");
+  if (s(merged, "study.examples[6].lv") !== "Hann sækir mjólk frá bóndanum.")
+    accusativeHits.push("ex[6] must be Hann sækir mjólk frá bóndanum.");
+
+  const dativOk =
+    /samdráttur von \+ dem/i.test(s(merged, "study.explanation[0]")) &&
+    /þágufalli/i.test(s(merged, "study.explanation[0]")) &&
+    /þágufall/i.test(s(merged, "study.explanation[1]")) &&
+    /þágufall/i.test(s(merged, "study.tip[0]")) &&
+    /þágufalli/i.test(s(merged, "study.important[0]"));
+
+  return {
+    vom_case_government: dativOk ? "DATIV / þágufall" : "FAIL",
+    vom_accusative_residue: accusativeHits.length,
+    vom_accusative_details: accusativeHits,
+  };
+}
+
+const vomCaseAudit = auditVomCaseGovernment();
+if (vomCaseAudit.vom_case_government !== "DATIV / þágufall") {
+  issues.push({
+    card: "vom",
+    type: "SEMANTIC",
+    msg: "vom_case_government must be DATIV / þágufall",
+  });
+  issueCards.add("vom");
+}
+if (vomCaseAudit.vom_accusative_residue > 0) {
+  for (const detail of vomCaseAudit.vom_accusative_details) {
+    issues.push({ card: "vom", type: "SEMANTIC", msg: `vom_accusative_residue: ${detail}` });
+  }
+  issueCards.add("vom");
+}
+
 const semanticViolations = issues.filter(
   (i) => i.type === "SEMANTIC" || i.type === "ALIGNMENT" || i.type === "INCOMPLETE"
 );
 const wrongLangViolations = issues.filter((i) => i.type === "WRONG_LANG");
 const pass =
-  labot === 50 && nelabot === 0 && pending === 0 && issues.length === 0;
+  labot === 50 &&
+  nelabot === 0 &&
+  pending === 0 &&
+  issues.length === 0 &&
+  vomCaseAudit.vom_case_government === "DATIV / þágufall" &&
+  vomCaseAudit.vom_accusative_residue === 0;
 
 const proof = {
   batch_id: BATCH,
@@ -513,10 +610,13 @@ const proof = {
   semantic_micro_repair_cards: [...COMPOSITE_FULL, ...EXPLANATION_ONLY],
   semantic_micro_repair_violations: semanticViolations.length,
   semantic_violation_cards: [...new Set(semanticViolations.map((i) => i.card))],
-  gala_repair_cards: GALA_REPAIR,
+  gala_repair_cards: [...GALA_REPAIR, "vom"],
+  vom_case_government: vomCaseAudit.vom_case_government,
+  vom_accusative_residue: vomCaseAudit.vom_accusative_residue,
+  vom_accusative_details: vomCaseAudit.vom_accusative_details,
   anti_bulk: "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  verdict: pass ? "LRB_040_LINGUISTIC_REPAIR_PASS" : "BLOCKED",
-  audit_type: "FRESH_POST_GALA_REPAIR",
+  verdict: pass ? "LRB_040_FULL_50_50_LINGUISTIC_REVIEW_PASS" : "BLOCKED",
+  audit_type: "FRESH_POST_VOM_DATIV_REPAIR",
   updatedAt: new Date().toISOString(),
 };
 
@@ -531,6 +631,8 @@ console.log(
       nelabot,
       pending,
       verdict: proof.verdict,
+      vom_case_government: proof.vom_case_government,
+      vom_accusative_residue: proof.vom_accusative_residue,
       issue_cards: [...issueCards],
       details: issues.slice(0, 20),
     },

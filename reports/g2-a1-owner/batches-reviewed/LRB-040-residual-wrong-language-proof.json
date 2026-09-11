@@ -40,10 +40,14 @@
   "gala_repair_cards": [
     "Wetter",
     "was",
-    "wissen"
+    "wissen",
+    "vom"
   ],
+  "vom_case_government": "DATIV / þágufall",
+  "vom_accusative_residue": 0,
+  "vom_accusative_details": [],
   "anti_bulk": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
-  "verdict": "LRB_040_LINGUISTIC_REPAIR_PASS",
-  "audit_type": "FRESH_POST_GALA_REPAIR",
-  "updatedAt": "2026-09-11T18:00:10.303Z"
+  "verdict": "LRB_040_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "audit_type": "FRESH_POST_VOM_DATIV_REPAIR",
+  "updatedAt": "2026-09-11T18:03:06.265Z"
 }
