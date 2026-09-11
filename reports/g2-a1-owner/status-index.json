@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_BATCH_001_COMPLETE",
-  "updatedAt": "2026-09-11T09:50:00.000Z",
+  "updatedAt": "2026-09-11T10:05:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -9,7 +9,7 @@
   "ownerAuthorization": {
     "required": true,
     "status": "PENDING",
-    "approvedBatches": ["LRB-R350-001"],
+    "approvedBatches": ["LRB-R350-001", "LRB-R350-002", "LRB-R350-003"],
     "ingestApproved": false,
     "applyApproved": false
   },
@@ -23,7 +23,7 @@
     "status": "IN_PROGRESS",
     "rows": 350,
     "batches": 7,
-    "batchesCompleted": 1,
+    "batchesCompleted": 3,
     "batchPrefix": "LRB-R350",
     "ingestAllowed": false
   },
