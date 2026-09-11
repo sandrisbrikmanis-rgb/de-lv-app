@@ -27,7 +27,16 @@ const LV_LEAK =
   /\b(netīrs|sniegs|snigt|ātrs|šokolāde|jau|skaists|skapis|rakstīt|kurpe|skolnieks|melns|cūka|māsa|peldbaseins|peldēt|seši|sešsimt|sestais|sešpadsmitais|sešdesmit|sešdesmitais|redzēt|ļoti|ziepes|būt|kopš|lappuse|puse|sekunde|septembris|mazgāties|sevi|sev|drošs|noteikti|viņi|viņas|jūs|septiņsimt|septītais|septiņpadsmit|septiņpadsmitais|septiņdesmit|septiņdesmitais|dziedāt|sēdēt|tā|zeķe|dīvāns|tūlīt|dēls|vajadzētu|vasara)\b/i;
 
 const COMPOSITE_CARDS = ["schon", "schwimmen", "sehen", "sein", "Seite", "sich"];
-const GALA_REPAIR_CARDS = ["schon", "sehen", "Sie", "sollen"];
+const GALA_REPAIR_CARDS = [
+  "schon",
+  "sehen",
+  "Sie",
+  "sollen",
+  "Seite",
+  "sich",
+  "schwimmen",
+  "sein",
+];
 
 const EXPECTED = {
   schon: {
@@ -43,6 +52,26 @@ const EXPECTED = {
   },
   Sie: { lv: "þér (formlegt)" },
   sollen: { lv: "eiga að" },
+  Seite: {
+    "study.explanation[3]":
+      "Í tengslum: auf meiner Seite = á minni hlið / með mér.",
+    "study.explanation[5]": "Í fleirtölu: die Seiten.",
+    "study.examples[5].lv": "Á hinni hlið götunnar.",
+    "study.important[1]": "Í fleirtölu: die Seiten.",
+  },
+  sich: {
+    "study.examples[1].lv": "Ég sest niður.",
+    "study.comparison[2].example": "Þú þværð þig.",
+  },
+  schwimmen: {
+    "study.explanation[1]":
+      "Notað þegar talað er um sundhreyfingu í sundlaug, vatni eða sjó.",
+    "study.examples[0].lv": "Mér finnst gaman að synda.",
+  },
+  sein: {
+    "study.comparison[1].meaning": "hafa",
+    "study.comparison[1].example": "Ich habe Zeit. – Ég hef tíma.",
+  },
 };
 
 function parseMaybeJson(v) {
@@ -222,12 +251,14 @@ function semanticChecks(card, merged, deExamples, issues) {
 
   if (card === "schwimmen") {
     if (merged.lv !== "synda") issues.push({ card, type: "SEMANTIC", msg: "schwimmen lv not synda" });
-    if (/Ujuma|ujuda|ujub|ujume/i.test(all))
+    if (/Ujuma|ujuda|ujub|ujume|sundlaugar/i.test(all))
       issues.push({ card, type: "SEMANTIC", msg: "schwimmen source residue" });
     if (!/baða mig/i.test(s(merged, "study.examples[3].lv")))
       issues.push({ card, type: "SEMANTIC", msg: "schwimmen ex[3] not baden contrast" });
     if (!/syndum í sundlauginni/i.test(s(merged, "study.examples[2].lv")))
       issues.push({ card, type: "SEMANTIC", msg: "schwimmen ex[2] wrong" });
+    if (/Ég syndi gaman/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "schwimmen ex[0] not gern-aligned" });
   }
 
   if (card === "sehen") {
@@ -264,13 +295,17 @@ function semanticChecks(card, merged, deExamples, issues) {
       issues.push({ card, type: "SEMANTIC", msg: "sein source residue" });
     if (s(merged, "study.examples[0].lv") !== "Ég er hér.")
       issues.push({ card, type: "SEMANTIC", msg: "sein ex[0] wrong" });
+    if (/eiga/i.test(s(merged, "study.comparison[1].meaning")))
+      issues.push({ card, type: "SEMANTIC", msg: "sein haben not eiga" });
+    if (/Ég á tíma/i.test(s(merged, "study.comparison[1].example")))
+      issues.push({ card, type: "SEMANTIC", msg: "sein haben example not hef tíma" });
   }
 
   if (card === "Seite") {
     if (merged.lv !== "blaðsíða • hlið")
       issues.push({ card, type: "SEMANTIC", msg: "Seite lv wrong" });
-    if (/Lehekülg|basseng|Veebileht laadib|min side/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "Seite source residue" });
+    if (/Lehekülg|basseng|Veebileht laadib|min side|Mitmuses|mínum hlið|hinum hlið/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "Seite source/case residue" });
     if (!/blaðsíðu tuttugu/i.test(s(merged, "study.examples[0].lv")))
       issues.push({ card, type: "SEMANTIC", msg: "Seite ex[0] wrong" });
     if (!/Vefsíðan/i.test(s(merged, "study.examples[2].lv")))
@@ -279,8 +314,8 @@ function semanticChecks(card, merged, deExamples, issues) {
 
   if (card === "sich") {
     if (merged.lv !== "sig • sér") issues.push({ card, type: "SEMANTIC", msg: "sich lv wrong" });
-    if (/Slutt|Endale|peseb slutt|Ma pesen bilen/i.test(all))
-      issues.push({ card, type: "SEMANTIC", msg: "sich source residue" });
+    if (/Slutt|Endale|peseb slutt|Ma pesen bilen|Ég set mig|þvæur þig/i.test(all))
+      issues.push({ card, type: "SEMANTIC", msg: "sich source/conjugation residue" });
     if (s(merged, "study.examples[0].lv") !== "Hann þvær sig.")
       issues.push({ card, type: "SEMANTIC", msg: "sich ex[0] wrong" });
     if (!/þvæ bílinn/i.test(s(merged, "study.examples[3].lv")))

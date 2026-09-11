@@ -71,5 +71,45 @@ patch(
   "IS sollen gala: dictionary sollen→eiga að; sollte context→ætti að. DE untouched."
 );
 
+patch(
+  "g2/a1/is|Seite|idx:544|lv, study|TRANSLATION_ERROR|gpt-5.6-luna",
+  (f) => {
+    f["study.explanation[3]"] =
+      "Í tengslum: auf meiner Seite = á minni hlið / með mér.";
+    f["study.explanation[5]"] = "Í fleirtölu: die Seiten.";
+    f["study.examples[5].lv"] = "Á hinni hlið götunnar.";
+    f["study.important[1]"] = "Í fleirtölu: die Seiten.";
+  },
+  "IS Seite gala-2: minni/hinni hlið; Í fleirtölu; gender/case IS. DE untouched."
+);
+
+patch(
+  "g2/a1/is|sich|idx:547|lv, study|TRANSLATION_ERROR|gpt-5.6-luna",
+  (f) => {
+    f["study.examples[1].lv"] = "Ég sest niður.";
+    f["study.comparison[2].example"] = "Þú þværð þig.";
+  },
+  "IS sich gala-2: sest niður (setzen); þværð paradigm. DE untouched."
+);
+
+patch(
+  "g2/a1/is|schwimmen|idx:531|lv, study|TRANSLATION_ERROR|gpt-5.6-luna",
+  (f) => {
+    f["study.explanation[1]"] =
+      "Notað þegar talað er um sundhreyfingu í sundlaug, vatni eða sjó.";
+    f["study.examples[0].lv"] = "Mér finnst gaman að synda.";
+  },
+  "IS schwimmen gala-2: sundlaug; Mér finnst gaman að synda (gern). DE untouched."
+);
+
+patch(
+  "g2/a1/is|sein|idx:542|lv, study|TRANSLATION_ERROR|gpt-5.6-luna",
+  (f) => {
+    f["study.comparison[1].meaning"] = "hafa";
+    f["study.comparison[1].example"] = "Ich habe Zeit. – Ég hef tíma.";
+  },
+  "IS sein gala-2: haben=hafa Ég hef tíma (not eiga). DE untouched."
+);
+
 fs.writeFileSync(decisionsPath, `${JSON.stringify(decisions, null, 2)}\n`);
 console.log("LRB-038 gala repairs applied.");
