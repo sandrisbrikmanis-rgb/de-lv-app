@@ -85,9 +85,9 @@
   },
   "g2/a1/mk|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "MK aus study.translation: mirrors native «Од • Од»; align after native LABOT in apply phase, no separate rewrite here."
+    "owner_decision": "LABOT",
+    "owner_new": "Од",
+    "owner_note": "MK aus study.translation: duplicate «Од • Од» repeats identical meaning; LABOT to single «Од» for LV «no»."
   },
   "g2/a1/mk|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
@@ -139,9 +139,9 @@
   },
   "g2/a1/mk|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "MK für native: duplicate «За • За» reflects single LV priekš at A1; acceptable learner simplification."
+    "owner_decision": "LABOT",
+    "owner_new": "За",
+    "owner_note": "MK für native: duplicate «За • За» repeats identical meaning; LABOT to single «За» for LV «priekš»."
   },
   "g2/a1/mk|a1-fuer|a1.card.a1-fuer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
