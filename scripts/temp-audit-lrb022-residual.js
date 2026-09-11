@@ -8,7 +8,7 @@ const CYR = /[\u0400-\u04FF]/;
 const MK = /[љњџќѓ]/i;
 const BG_WORDS = /\b(Разберете|Германия|Баща|Мога|Познайте|Запомнете|Отговаря|Използва|съществителн|мъжки|женски|обем|тих|дълъг|дълго|към|чака|спиране|задържане|почивка|ваканция|разбирам|разбирате)\b/i;
 const MK_WORDS = /\b(Доаѓа|Дојдовме|празникот|докторот|Имам|Имате|Направих|гладни)\b/i;
-const SL_WORDS = /\b(Prosimo|utihnite|miza|zelo|čakal|dolga|trajanje|Ves dan|Ranjen|Tudi|Če|Kdaj|Atceries|nekaj|pusti|za seboj)\b/i;
+const SL_WORDS = /\b(Prosimo|utihnite|miza|zelo|čakal|Ves dan|Ranjen|Tudi|Če|Kdaj|Atceries|nekaj|pusti|za seboj|v nemščini|reče)\b/i;
 const EN_WORDS = /\b(Shop|English|the store)\b/i;
 const LV_LEAK = /\b(Atceries|man ir|Latvijisk|latvijski|latvijska)\b/i;
 
