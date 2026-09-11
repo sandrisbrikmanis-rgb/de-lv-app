@@ -535,7 +535,7 @@
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-038-residual-wrong-language-proof.json"
       },
       "LRB-039": {
-        "verdict": "LRB_039_LINGUISTIC_REPAIR_PASS",
+        "verdict": "LRB_039_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "status": "LINGUISTICALLY_CLOSED",
         "labot": 50,
         "nelabot": 0,
@@ -559,7 +559,7 @@
       "residualAuditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "gpt-5.6-luna",
-      "linguisticVerdict": "LRB_039_LINGUISTIC_REPAIR_PASS",
+      "linguisticVerdict": "LRB_039_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "galaRepair": true,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-039-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-039-proof.json",

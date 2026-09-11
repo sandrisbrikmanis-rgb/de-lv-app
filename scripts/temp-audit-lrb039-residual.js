@@ -427,7 +427,7 @@ const proof = {
   semantic_violation_cards: [...new Set(semanticViolations.map((i) => i.card))],
   anti_bulk: "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   gala_repair_cards: GALA_REPAIR_CARDS,
-  verdict: pass ? "LRB_039_LINGUISTIC_REPAIR_PASS" : "BLOCKED",
+  verdict: pass ? "LRB_039_FULL_50_50_LINGUISTIC_REVIEW_PASS" : "BLOCKED",
   updatedAt: new Date().toISOString(),
 };
 
