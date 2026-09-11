@@ -14,14 +14,14 @@
   "g2/a1/hr|haben|idx:261|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Imati\",\"study.translation\":\"Imati\",\"study.explanation[1]\":\"Latvijska dativna konstrukcija man ir na njemačkom je nominativ + haben: Ich habe..., Du hast...\",\"study.examples[0].lv\":\"Imam auto.\",\"study.examples[1].lv\":\"Imaš li vremena?\",\"study.examples[2].lv\":\"Gladni smo.\",\"study.examples[3].lv\":\"To sam napravio.\",\"study.comparison[1].meaning\":\"Biti\",\"study.comparison[2].meaning\":\"Dobiti\",\"study.comparison[3].meaning\":\"Raditi\",\"study.tip.text\":\"Zapamtite: Ich habe → Imam.\",\"study.important[0]\":\"Latvijski imam = njemački Ich habe + akuzativ. Ne koristiti dativ *mir habe.\",\"study.important[2]\":\"Perfekt: Ich habe gelernt = naučio sam.\"}",
-    "owner_note": "HR haben: Cyrillic Имам→Imati; Croatian examples/comparison for man ir. DE untouched."
+    "owner_new": "{\"lv\":\"Imati\",\"study.translation\":\"Imati\",\"study.explanation[1]\":\"Latvijska dativna konstrukcija man ir na njemačkom je nominativ + haben: Ich habe..., Du hast...\",\"study.examples[0].lv\":\"Imam auto.\",\"study.examples[1].lv\":\"Imaš li vremena?\",\"study.examples[2].lv\":\"Gladni smo.\",\"study.examples[3].lv\":\"To sam napravio.\",\"study.comparison[1].meaning\":\"Biti\",\"study.comparison[2].meaning\":\"Dobiti\",\"study.comparison[3].meaning\":\"Raditi\",\"study.tip.text\":\"Zapamtite: Ich habe → Imam.\",\"study.important[0]\":\"Latvijski imam = njemački Ich habe + akuzativ. Ne koristiti dativ *mir habe.\",\"study.important[2]\":\"Perfekt: Ich habe gelernt = naučio sam.\",\"study.explanation[0]\":\"Glavna ideja: haben znači da netko ima ili ima pristup nečemu.\",\"study.explanation[3]\":\"Haben se koristi i kao pomoćni glagol u perfektu: Ich habe gelernt.\",\"study.comparison[0].meaning\":\"Imati\",\"study.important[1]\":\"Uz sein i dativ: Mir ist kalt. = Hladno mi je. (to nije haben!)\"}",
+    "owner_note": "HR haben: Cyrillic Имам→Imati; Croatian examples/comparison for man ir.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|halten|idx:265|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Držati • Zaustaviti\",\"study.translation\":\"Držati • Zaustaviti\",\"study.explanation[0]\":\"Ključna ideja: halten znači držati, ali u prijevozu može značiti stati.\",\"study.examples[0].lv\":\"Držim torbu.\",\"study.examples[1].lv\":\"Autobus staje ovdje.\",\"study.examples[2].lv\":\"Molim vas, zaustavite se.\",\"study.examples[3].lv\":\"Mislim da je to točno.\",\"study.comparison[0].meaning\":\"Držati / stati\",\"study.comparison[1].meaning\":\"Uzeti\",\"study.comparison[2].meaning\":\"Zaustaviti se\",\"study.comparison[3].meaning\":\"Misliti\",\"study.tip.text\":\"Zapamtite: u ruci → halten • Prijevoz → stati.\"}",
-    "owner_note": "HR halten: imperative→Držati•Zaustaviti; Croatian study fields for turēt. DE untouched."
+    "owner_new": "{\"lv\":\"Držati • Zaustaviti\",\"study.translation\":\"Držati • Zaustaviti\",\"study.explanation[0]\":\"Ključna ideja: halten znači držati, ali u prijevozu može značiti stati.\",\"study.examples[0].lv\":\"Držim torbu.\",\"study.examples[1].lv\":\"Autobus staje ovdje.\",\"study.examples[2].lv\":\"Molim vas, zaustavite se.\",\"study.examples[3].lv\":\"Mislim da je to točno.\",\"study.comparison[0].meaning\":\"Držati / stati\",\"study.comparison[1].meaning\":\"Uzeti\",\"study.comparison[2].meaning\":\"Zaustaviti se\",\"study.comparison[3].meaning\":\"Misliti\",\"study.tip.text\":\"Zapamtite: u ruci → halten • Prijevoz → stati.\",\"study.explanation[1]\":\"Kada predmet je u ruci, halten obično znači držati.\",\"study.explanation[3]\":\"U popularnoj frazi ich halte das für... znači smatrati.\"}",
+    "owner_note": "HR halten: imperative→Držati•Zaustaviti; Croatian study fields for turēt.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Hand|idx:267|lv, study|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -32,20 +32,20 @@
   "g2/a1/hr|heißen|idx:276|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Zvati se • Značiti\",\"study.translation\":\"Zvati se • Značiti\",\"study.explanation[0]\":\"Osnovna ideja: heißen se najčešće koristi za ime.\",\"study.examples[0].lv\":\"Zovem se Anna.\",\"study.examples[3].lv\":\"Što to znači?\",\"study.comparison[0].meaning\":\"Zvati se / značiti\",\"study.comparison[1].meaning\":\"Nazvati\",\"study.comparison[2].meaning\":\"Značiti\",\"study.comparison[3].meaning\":\"Zvati\",\"study.comparison[4].meaning\":\"Nazvati (telefon)\",\"study.tip.text\":\"Zapamtite: Ich heiße... → Zovem se...\",\"study.important[1]\":\"Was heißt das? često znači «Što to znači?»\"}",
-    "owner_note": "HR heißen: Imenovani•Sredstva→Zvati se•Značiti; Croatian fields for saukties. DE untouched."
+    "owner_new": "{\"lv\":\"Zvati se • Značiti\",\"study.translation\":\"Zvati se • Značiti\",\"study.explanation[0]\":\"Osnovna ideja: heißen se uglavnom koristi za ime.\",\"study.examples[0].lv\":\"Zovem se Anna.\",\"study.examples[3].lv\":\"Što to znači?\",\"study.comparison[0].meaning\":\"Zvati se / značiti\",\"study.comparison[1].meaning\":\"Nazvati\",\"study.comparison[2].meaning\":\"Značiti\",\"study.comparison[3].meaning\":\"Zvati\",\"study.comparison[4].meaning\":\"Nazvati (telefon)\",\"study.tip.text\":\"Zapamtite: Ich heiße... → Zovem se...\",\"study.important[1]\":\"Was heißt das? često znači «Što to znači?»\",\"study.explanation[1]\":\"Izraz Ich heiße... znači «zovem se...».\",\"study.explanation[2]\":\"U riječima i izrazima heißen može značiti i «značiti».\",\"study.examples[2].lv\":\"Kako se to kaže na njemačkom?\",\"study.important[0]\":\"Wie heißt du? znači «Kako ti je ime?», a ne doslovno «Kako se zoveš?».\"}",
+    "owner_note": "HR heißen: Imenovani•Sredstva→Zvati se•Značiti; Croatian fields for saukties.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|hoch|idx:285|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Visok\",\"study.translation\":\"Visok\",\"study.explanation[1]\":\"Hoch prije svega znači: velika visina.\",\"study.examples[1].lv\":\"Polica je dva metra visoka.\",\"study.examples[2].lv\":\"Najam je visok.\",\"study.tip[0]\":\"Hoch = visok\",\"study.tip[1]\":\"Koristite hoch kada kontekst odgovara ovom značenju.\",\"study.important[1]\":\"Hoch = visok.\"}",
-    "owner_note": "HR hoch: Visoko adverb→Visok adjective; fix scrambled examples for augsts. DE untouched."
+    "owner_new": "{\"lv\":\"Visok\",\"study.translation\":\"Visok\",\"study.explanation[1]\":\"Hoch prije svega znači: velika visina.\",\"study.examples[1].lv\":\"Polica je dva metra visoka.\",\"study.examples[2].lv\":\"Najam je visok.\",\"study.tip[0]\":\"Hoch = visok\",\"study.tip[1]\":\"Koristite hoch kada kontekst odgovara ovom značenju.\",\"study.important[1]\":\"Hoch = visok.\",\"study.explanation[2]\":\"Često opisuje: vertikalnu visinu.\",\"study.examples[3].lv\":\"Zid je visok.\",\"study.examples[4].lv\":\"Cijene su visoke.\",\"study.important[2]\":\"Visoko vertikalno, na razini ili visini.\"}",
+    "owner_note": "HR hoch: Visoko adverb→Visok adjective; fix scrambled examples for augsts.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|hören|idx:287|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Čuti • Slušati\",\"study.translation\":\"Čuti • Slušati\",\"study.explanation[0]\":\"Osnovna ideja je čuti zvuk ili slušati glazbu.\",\"study.explanation[1]\":\"Hören u osnovi znači: čuti zvuk.\",\"study.examples[2].lv\":\"Čujem te.\",\"study.tip[0]\":\"Čuj zvuk ili slušaj glazbu.\",\"study.important[0]\":\"Hören = čuti zvuk.\"}",
-    "owner_note": "HR hören: imperative→Čuti•Slušati; Croatian fields for dzirdēt/klausīties. DE untouched."
+    "owner_new": "{\"lv\":\"Čuti • Slušati\",\"study.translation\":\"Čuti • Slušati\",\"study.explanation[0]\":\"Osnovna ideja je čuti zvuk ili slušati glazbu.\",\"study.explanation[1]\":\"Hören u osnovi znači: čuti zvuk.\",\"study.examples[2].lv\":\"Čujem te.\",\"study.tip[0]\":\"Čuj zvuk ili slušaj glazbu.\",\"study.important[0]\":\"Hören = čuti zvuk.\",\"study.explanation[2]\":\"Često opisuje: zvukove.\",\"study.explanation[3]\":\"Hören se koristi za označavanje zvukova, glazbe i stvari koje se čuju.\",\"study.examples[0].lv\":\"Slušam glazbu.\",\"study.examples[1].lv\":\"Djeca slušaju priču.\",\"study.important[1]\":\"Čuj zvuk ili slušaj glazbu.\"}",
+    "owner_note": "HR hören: imperative→Čuti•Slušati; Croatian fields for dzirdēt/klausīties.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|hübsch|idx:288|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -56,20 +56,20 @@
   "g2/a1/hr|ihr|idx:292|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Vi • Njoj\",\"study.translation\":\"Vi • Njoj\",\"study.explanation[0]\":\"Ključna ideja: ihr ima dva značenja — vi (množina) i njoj (dativ od sie).\",\"study.examples[0].lv\":\"Dolazite li večeras?\",\"study.examples[1].lv\":\"Dajem joj knjigu.\",\"study.examples[2].lv\":\"Gdje živite?\",\"study.examples[3].lv\":\"Piše joj pismo.\",\"study.examples[5].lv\":\"To je njezin auto.\",\"study.tip[0]\":\"Ihr s glagolom (kommt, habt) = vi • ihr pri imenici = njezin/njezina.\",\"study.important[0]\":\"Ihr = vi (više osoba) ILI njoj/njezin — ovisno o kontekstu.\"}",
-    "owner_note": "HR ihr: Cyrillic Ти•Тя→Vi•Njoj for jūs/viņai. DE untouched."
+    "owner_new": "{\"lv\":\"Vi • Njoj\",\"study.translation\":\"Vi • Njoj\",\"study.explanation[0]\":\"Ključna ideja: ihr ima dva značenja — vi (množina) i njoj (dativ od sie).\",\"study.examples[0].lv\":\"Dolazite li večeras?\",\"study.examples[1].lv\":\"Dajem joj knjigu.\",\"study.examples[2].lv\":\"Gdje živite?\",\"study.examples[3].lv\":\"Piše joj pismo.\",\"study.examples[5].lv\":\"To je njezin auto.\",\"study.tip[0]\":\"Ihr s glagolom (kommt, habt) = vi • ihr pri imenici = njezin/njezina.\",\"study.important[0]\":\"Ihr = vi (više osoba) ILI njoj/njezin — ovisno o kontekstu.\",\"study.explanation[1]\":\"Kad govorite s više ljudi, mala slova ihr znači vi (Kommt ihr mit? = Dolazite li s nama?).\",\"study.explanation[2]\":\"Ihr kao posvojna zamjenica znači njezin (ihr Buch = njezina knjiga).\",\"study.explanation[3]\":\"Ihr kao dativ (od sie) znači njoj (Ich gebe ihr das Buch. = Dajem joj knjigu).\",\"study.important[1]\":\"U pristojnom obraćanju Sie se uvijek piše velikim slovom, a ne ihr.\",\"study.important[2]\":\"Netočno: Ihr (pristojno) → Točno: Sie.\"}",
+    "owner_note": "HR ihr: Cyrillic Ти•Тя→Vi•Njoj for jūs/viņai.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|im|idx:293|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"U • Gdje?\",\"study.translation\":\"U • Gdje?\",\"study.explanation[0]\":\"Im je skraćenica za prijedlog in i član dem.\",\"study.explanation[1]\":\"Puna oblika: in dem (gdje?).\",\"study.examples[0].lv\":\"Ja sam u parku.\",\"study.examples[1].lv\":\"Živimo u centru.\",\"study.examples[2].lv\":\"Ljeti je toplo.\",\"study.examples[3].lv\":\"Radi u uredu.\",\"study.comparison[0].meaning\":\"Gdje unutra? (kome?)\",\"study.comparison[0].example\":\"im Park – U parku\",\"study.comparison[1].example\":\"ins Kino – U kino\",\"study.comparison[3].example\":\"am Fenster – Kod prozora\",\"study.tip[0]\":\"Zapamtite: in + dem → im (kome?, gdje?).\",\"study.tip[1]\":\"Gdje? → ins • Gdje? → im — ne miješati!\"}",
-    "owner_note": "HR im: Cyrillic П•Каде→U•Gdje?; Croatian fields for iekšā/kur. DE untouched."
+    "owner_new": "{\"lv\":\"U • Gdje?\",\"study.translation\":\"U • Gdje?\",\"study.explanation[0]\":\"Im je skraćenica za prijedlog in i član dem.\",\"study.explanation[1]\":\"Puna oblika: in dem (gdje?).\",\"study.examples[0].lv\":\"Ja sam u parku.\",\"study.examples[1].lv\":\"Živimo u centru.\",\"study.examples[2].lv\":\"Ljeti je toplo.\",\"study.examples[3].lv\":\"Radi u uredu.\",\"study.comparison[0].meaning\":\"Gdje unutra? (kome?)\",\"study.comparison[0].example\":\"im Park – U parku\",\"study.comparison[1].example\":\"ins Kino – U kino\",\"study.comparison[3].example\":\"am Fenster – Kod prozora\",\"study.tip[0]\":\"Zapamtite: in + dem → im (kome?, gdje?).\",\"study.tip[1]\":\"Gdje? → ins • Gdje? → im — ne miješati!\",\"study.explanation[2]\":\"Koristi se s imenicama muškog i srednjeg roda kada odgovara na pitanje gdje? — mjesto.\",\"study.explanation[3]\":\"Ovisno o vremenu i sezonama: im Januar, im Sommer, im Winter.\",\"study.explanation[4]\":\"U praksi se im gotovo uvijek koristi umjesto punog in dem.\",\"study.examples[4].lv\":\"Dijete se igra u vrtu.\",\"study.examples[5].lv\":\"U siječnju idem u Beč.\",\"study.examples[7].lv\":\"Sastajemo se u restoranu.\",\"study.comparison[1].meaning\":\"Unutra, gdje? (akuz.)\",\"study.comparison[2].meaning\":\"U (bez člana)\",\"study.comparison[2].example\":\"in Berlin – U Berlinu\",\"study.comparison[3].meaning\":\"Kod, gdje? (na kome?)\",\"study.important[0]\":\"Im = in dem, samo s imenicom muškog ili srednjeg roda za pitanje gdje? u lokativu.\",\"study.important[1]\":\"Odgovara na pitanje gdje?, a ne kamo? — mjesto, ne kretanje.\",\"study.important[2]\":\"S mjesecima i sezonama: im März, im Herbst.\"}",
+    "owner_note": "HR im: Cyrillic П•Каде→U•Gdje?; Croatian fields for iekšā/kur.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|in|idx:295|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"U\",\"study.translation\":\"U\",\"study.explanation[0]\":\"Ključna ideja: in obično znači na mjestu ili unutra.\",\"study.examples[0].lv\":\"Ja sam u Berlinu.\",\"study.examples[1].lv\":\"Idem u školu.\",\"study.examples[2].lv\":\"Knjiga je u torbi.\",\"study.examples[3].lv\":\"Idemo u kino.\",\"study.tip.text\":\"Zapamtite: u/v → in.\",\"study.important[0]\":\"U ne znači uvijek doslovno unutra — često u Berlinu, u školi, u kino.\"}",
-    "owner_note": "HR in: Cyrillic ВО→U; Croatian study fields for iekšā/uz. DE untouched."
+    "owner_new": "{\"lv\":\"U\",\"study.translation\":\"U\",\"study.explanation[0]\":\"Ključna ideja: in obično znači na mjestu ili unutra.\",\"study.examples[0].lv\":\"Ja sam u Berlinu.\",\"study.examples[1].lv\":\"Idem u školu.\",\"study.examples[2].lv\":\"Knjiga je u torbi.\",\"study.examples[3].lv\":\"Idemo u kino.\",\"study.tip.text\":\"Zapamtite: u/v → in.\",\"study.important[0]\":\"U ne znači uvijek doslovno unutra — često u Berlinu, u školi, u kino.\",\"study.explanation[1]\":\"Za lokaciju se in obično prevodi kao u: u Berlinu = in Berlin.\",\"study.explanation[2]\":\"Kada se krećete, in znači unutra: ins Kino = u kino.\",\"study.explanation[3]\":\"Prijevod na latvijski varira ovisno o kontekstu.\",\"study.important[1]\":\"Kad je pitanje o površinama, često trebate auf umjesto in.\"}",
+    "owner_note": "HR in: Cyrillic ВО→U; Croatian study fields for iekšā/uz.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|klein|idx:6|lv and study.*|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -80,26 +80,26 @@
   "g2/a1/hr|können|idx:319|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Moći • Znati\",\"study.translation\":\"Moći • Znati\",\"study.explanation[0]\":\"Osnovna ideja: können znači moći ili znati nešto učiti.\",\"study.examples[0].lv\":\"Mogu govoriti njemački.\",\"study.examples[1].lv\":\"Možeš li mi pomoći?\",\"study.examples[2].lv\":\"Možemo doći danas.\",\"study.examples[3].lv\":\"On dobro pliva.\",\"study.comparison[0].meaning\":\"Moći / znati\",\"study.comparison[1].meaning\":\"Smjeti\",\"study.comparison[2].meaning\":\"Morati\",\"study.comparison[3].meaning\":\"Znati (činjenicu)\",\"study.tip.text\":\"Zapamtite: vještina/sposobnost → können.\"}",
-    "owner_note": "HR können: imperative→Moći•Znati; Croatian fields for varēt/prast. DE untouched."
+    "owner_new": "{\"lv\":\"Moći • Znati\",\"study.translation\":\"Moći • Znati\",\"study.explanation[0]\":\"Osnovna ideja: können znači moći ili znati nešto učiti.\",\"study.examples[0].lv\":\"Mogu govoriti njemački.\",\"study.examples[1].lv\":\"Možeš li mi pomoći?\",\"study.examples[2].lv\":\"Možemo doći danas.\",\"study.examples[3].lv\":\"On dobro pliva.\",\"study.comparison[0].meaning\":\"Moći / znati\",\"study.comparison[1].meaning\":\"Smjeti\",\"study.comparison[2].meaning\":\"Morati\",\"study.comparison[3].meaning\":\"Znati (činjenicu)\",\"study.tip.text\":\"Zapamtite: vještina/sposobnost → können.\",\"study.explanation[2]\":\"Kada govorimo o mogućnosti, često se kaže da je nešto moguće.\",\"study.important[0]\":\"Können nije isto što i dürfen. können = moći/znati, dürfen = smjeti.\",\"study.important[1]\":\"U rečenicama s können drugi glagol često dolazi na kraju: Ich kann schwimmen.\"}",
+    "owner_note": "HR können: imperative→Moći•Znati; Croatian fields for varēt/prast.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|kosten|idx:320|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Koštati\",\"study.translation\":\"Koštati\"}",
-    "owner_note": "HR kosten: Plaćanje noun→Koštati verb for maksāt pay/cost. DE untouched."
+    "owner_new": "{\"lv\":\"Koštati\",\"study.translation\":\"Koštati\",\"study.explanation[0]\":\"Glavna ideja: kosten znači koštati — govori o cijeni nečega.\",\"study.explanation[1]\":\"Ova se riječ koristi kad se pita ili kaže koliko nešto košta, a ne kad osoba plaća.\",\"study.explanation[2]\":\"Pitanja o cijeni na njemačkom često počinju s Was kostet...?\",\"study.explanation[3]\":\"U ovom kontekstu latvijska riječ za «koštati» bi bila točna: Das kostet 5 Euro. = Košta 5 eura.\",\"study.explanation[4]\":\"Kad osoba daje novac za robu ili uslugu, na njemačkom se koristi bezahlen ili zahlen.\",\"study.examples[1].lv\":\"Koliko košta to?\",\"study.examples[3].lv\":\"Hrana ne košta puno.\",\"study.examples[4].lv\":\"Plaćam račun.\",\"study.examples[6].lv\":\"Plaća karticom.\",\"study.examples[7].lv\":\"Plaćam odmah.\",\"study.comparison[0].meaning\":\"Koštati (cijena) • Koliko\",\"study.comparison[1].meaning\":\"Plaćanje • Plaćanje (novac)\",\"study.tip[0]\":\"Zapamtite: pitanje o cijeni → kosten (Was kostet das?).\",\"study.tip[1]\":\"Zapamtite: izvršavanje plaćanja → bezahlen (Ich bezahle die Rechnung.).\",\"study.important[0]\":\"Kosten i bezahlen nisu sinonimi: kosten = koliko košta • bezahlen = plaćam novac.\",\"study.important[1]\":\"Na latvijskom se plaćanje često koristi u oba slučaja, ali na njemačkom izbor mora biti prema situaciji.\"}",
+    "owner_note": "HR kosten: Plaćanje noun→Koštati verb for maksāt pay/cost.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Laden|idx:349|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Trgovina\",\"study.translation\":\"Trgovina\"}",
-    "owner_note": "HR Laden: English Shop→Trgovina for veikals store. DE untouched."
+    "owner_new": "{\"lv\":\"Trgovina\",\"study.translation\":\"Trgovina\",\"study.explanation[0]\":\"Osnovna ideja: der Laden piše se velikim slovom, član der — imenica, mala trgovina.\",\"study.explanation[1]\":\"laden — glagol malim slovom — za punjenje ili učitavanje.\",\"study.explanation[2]\":\"Der Laden često se odnosi na malu trgovinu u svakodnevnom životu (im Laden einkaufen = kupovati u trgovini).\",\"study.explanation[3]\":\"Množina: die Läden.\",\"study.examples[0].lv\":\"Idem u trgovinu.\",\"study.examples[3].lv\":\"Moram napuniti mobitel.\",\"study.tip[1]\":\"Malo slovo laden — glagol (učitati/puniti).\",\"study.important[0]\":\"Der Laden = trgovina (imenica).\",\"study.important[2]\":\"Množina: die Läden.\"}",
+    "owner_note": "HR Laden: English Shop→Trgovina for veikals store.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Land|idx:351|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Zemlja • Država\",\"study.translation\":\"Zemlja • Država\",\"study.explanation[0]\":\"Glavna ideja: das Land najčešće znači zemljište ili kraj izvan grada.\",\"study.explanation[1]\":\"Kada govorimo o Njemačkoj, Latviji ili drugom području s granicama, to znači država.\",\"study.explanation[2]\":\"Kada se govori o pokrajini ili zemlji, a ne gradu, prevodite kao pokrajina ili zemlja.\",\"study.explanation[3]\":\"Kontekst određuje mislimo li na zemlju, pokrajinu ili državu.\",\"study.examples[0].lv\":\"Njemačka je prekrasna država.\",\"study.examples[1].lv\":\"Dolazim iz male zemlje.\",\"study.examples[2].lv\":\"Idemo na selo / u kraj.\",\"study.examples[3].lv\":\"Na selu je tiho.\",\"study.comparison[0].meaning\":\"Država/zemlja/selo\",\"study.comparison[1].meaning\":\"Grad\",\"study.comparison[2].meaning\":\"Selo\",\"study.comparison[3].meaning\":\"Zemlja/planet\",\"study.tip.text\":\"Zapamtite: zemlja → das Land • grad → die Stadt.\",\"study.important[0]\":\"Aufs Land znači «u kraj / na selo», a ne doslovno «prema selu».\",\"study.important[1]\":\"Das Land nije isto što i die Stadt.\"}",
-    "owner_note": "HR Land: owner micro-repair full HR study block; BG/MK/SL/Cyrillic removed. DE untouched."
+    "owner_new": "{\"lv\":\"Zemlja • Država\",\"study.translation\":\"Zemlja • Država\",\"study.explanation[0]\":\"Osnovna ideja: das Land uglavnom označava zemljište ili kraj izvan grada.\",\"study.explanation[1]\":\"Kada govorimo o Njemačkoj, Latviji ili drugom području s granicama, to znači država.\",\"study.explanation[2]\":\"Kada se govori o pokrajini ili zemlji, a ne gradu, prevodite kao pokrajina ili zemlja.\",\"study.explanation[3]\":\"Kontekst određuje mislimo li na zemlju, pokrajinu ili državu.\",\"study.examples[0].lv\":\"Njemačka je prekrasna država.\",\"study.examples[1].lv\":\"Dolazim iz male zemlje.\",\"study.examples[2].lv\":\"Idemo na selo / u kraj.\",\"study.examples[3].lv\":\"Na selu je tiho.\",\"study.comparison[0].meaning\":\"Država/zemlja/selo\",\"study.comparison[1].meaning\":\"Grad\",\"study.comparison[2].meaning\":\"Selo\",\"study.comparison[3].meaning\":\"Zemlja/planet\",\"study.tip.text\":\"Zapamtite: zemlja → das Land • grad → die Stadt.\",\"study.important[0]\":\"Aufs Land znači «u kraj / na selo», a ne doslovno «prema selu».\",\"study.important[1]\":\"Das Land nije isto što i die Stadt.\"}",
+    "owner_note": "HR Land: owner micro-repair full HR study block; BG/MK/SL/Cyrillic removed.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|lang|idx:352|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -110,56 +110,56 @@
   "g2/a1/hr|leise|idx:368|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Tih • Tiho\",\"study.translation\":\"Tih • Tiho\"}",
-    "owner_note": "HR leise: Tiho→Tih•Tiho adjective/adverb for kluss quiet. DE untouched."
+    "owner_new": "{\"lv\":\"Tih • Tiho\",\"study.translation\":\"Tih • Tiho\",\"study.explanation[1]\":\"Leise u osnovi znači: niska glasnoća.\",\"study.explanation[2]\":\"Često opisuje: zvuk/glas/glazbu.\",\"study.explanation[3]\":\"Leise opisuje tih ili tih glas/zvuk.\",\"study.examples[0].lv\":\"Molim vas, budite tihi.\",\"study.examples[1].lv\":\"Molim vas, budite tihi.\",\"study.examples[2].lv\":\"Glazba je tiha.\",\"study.examples[3].lv\":\"Molim te, govori tiho.\",\"study.tip[0]\":\"Leise = tiho\",\"study.important[0]\":\"Leise = tih zvuk.\",\"study.important[1]\":\"Leise = glasnoća.\"}",
+    "owner_note": "HR leise: Tiho→Tih•Tiho adjective/adverb for kluss quiet.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|liegen|idx:377|lv; study.explanation; study.examples; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Ležati • Biti\",\"study.translation\":\"Ležati • Biti\",\"study.comparison[0].meaning\":\"Ležati / biti\"}",
-    "owner_note": "HR liegen: imperative→Ležati•Biti dictionary form for gulēt/atrasties. DE untouched."
+    "owner_new": "{\"lv\":\"Ležati • Biti\",\"study.translation\":\"Ležati • Biti\",\"study.comparison[0].meaning\":\"Ležati / biti\",\"study.explanation[0]\":\"Osnovna ideja: liegen znači leći ili ležati vodoravno.\",\"study.explanation[1]\":\"Za osobu ležanje često znači spavati.\",\"study.explanation[3]\":\"Razlikuje se od legen, koji znači «staviti nešto».\",\"study.examples[0].lv\":\"Knjiga je na stolu.\",\"study.examples[1].lv\":\"Moj mobitel je u autu.\",\"study.examples[2].lv\":\"On leži u krevetu.\",\"study.examples[3].lv\":\"Stavio sam knjigu na stol.\",\"study.comparison[1].meaning\":\"Staviti\",\"study.comparison[2].meaning\":\"Stajati\",\"study.comparison[3].meaning\":\"Biti\",\"study.important[0]\":\"Liegen pokazuje stanje ili mjesto.\",\"study.important[1]\":\"Legen označava radnju: netko nešto ostavi.\"}",
+    "owner_note": "HR liegen: imperative→Ležati•Biti dictionary form for gulēt/atrasties.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|machen|idx:386|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Raditi • Napraviti\",\"study.translation\":\"Raditi • Napraviti\",\"study.explanation[0]\":\"Ključna ideja: machen je vrlo čest glagol — raditi ili napraviti.\"}",
-    "owner_note": "HR machen: scrambled Ranjen sem→Raditi•Napraviti for darīt/taisīt. DE untouched."
+    "owner_new": "{\"lv\":\"Raditi • Napraviti\",\"study.translation\":\"Raditi • Napraviti\",\"study.explanation[0]\":\"Ključna ideja: machen je vrlo čest glagol — raditi ili napraviti.\",\"study.explanation[1]\":\"Ako govorimo o radnji kao cjelini, tada mislimo kako je napraviti.\",\"study.explanation[2]\":\"Ako se nešto radi ili priprema, prevodi se kao raditi ili pripremati.\",\"study.explanation[3]\":\"U mnogim frazama machen se prevodi prirodno, prema latvijskom, a ne doslovno.\",\"study.examples[1].lv\":\"Radim domaću zadaću.\",\"study.examples[2].lv\":\"Radimo pizzu.\",\"study.important[1]\":\"Das macht Spaß znači «to je zabavno», a ne doslovno «to radi zabavu».\"}",
+    "owner_note": "HR machen: scrambled Ranjen sem→Raditi•Napraviti for darīt/taisīt.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Mal|idx:390|lv; study.explanation; study.examples; study.important|TRANSLATION_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Put\",\"study.translation\":\"Put\",\"study.explanation[0]\":\"Glavna ideja: das Mal znači red kao događaj ili slučaj.\",\"study.examples[0].lv\":\"Prvi put je bio težak.\",\"study.examples[1].lv\":\"Već sam dva puta bio u Berlinu.\",\"study.examples[2].lv\":\"Jednom je dosta.\",\"study.examples[3].lv\":\"Još jednom, molim!\"}",
-    "owner_note": "HR Mal: Време→Put occasion for reize time/occurrence. DE untouched."
+    "owner_new": "{\"lv\":\"Put\",\"study.translation\":\"Put\",\"study.explanation[0]\":\"Glavna ideja: das Mal znači red kao događaj ili slučaj.\",\"study.examples[0].lv\":\"Prvi put je bio težak.\",\"study.examples[1].lv\":\"Već sam dva puta bio u Berlinu.\",\"study.examples[2].lv\":\"Jednom je dosta.\",\"study.examples[3].lv\":\"Još jednom, molim!\",\"study.explanation[2]\":\"S rednim brojem: das erste Mal, das zweite Mal.\",\"study.important[0]\":\"Das Mal/die Male je imenica s članom.\"}",
+    "owner_note": "HR Mal: Време→Put occasion for reize time/occurrence.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Obst|idx:693|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Voće\",\"study.translation\":\"Voće\",\"study.explanation[0]\":\"Glavna ideja: Obst znači voće općenito.\",\"study.explanation[1]\":\"Das Obst znači prvenstveno: voće.\",\"study.tip[0]\":\"Das Obst = voće\",\"study.important[2]\":\"Das Obst = voće (u cjelini).\"}",
-    "owner_note": "HR Obst: Cyrillic Плодове→Voće Croatian for augļi fruit. DE untouched."
+    "owner_new": "{\"lv\":\"Voće\",\"study.translation\":\"Voće\",\"study.explanation[0]\":\"Glavna ideja: Obst znači voće općenito.\",\"study.explanation[1]\":\"Das Obst znači prvenstveno: voće.\",\"study.tip[0]\":\"Das Obst = voće\",\"study.important[2]\":\"Das Obst = voće (u cjelini).\",\"study.explanation[2]\":\"Često se opisuje: srednji rod (samo jednina).\",\"study.examples[0].lv\":\"Jedemo puno voća.\",\"study.examples[1].lv\":\"Jedemo puno voća.\",\"study.examples[2].lv\":\"Voće je zdravo.\",\"study.examples[3].lv\":\"Volim voće i povrće.\",\"study.examples[4].lv\":\"Jedemo voće.\",\"study.important[0]\":\"Netočno: die Obsts → Točno: das Obst.\",\"study.important[1]\":\"Das Obst = voće (u cjelini).\"}",
+    "owner_note": "HR Obst: Cyrillic Плодове→Voće Croatian for augļi fruit.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|sicher|idx:548|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Siguran • Naravno\",\"study.translation\":\"Siguran • Naravno\"}",
-    "owner_note": "HR sicher: Cyrillic→Siguran•Naravno for drošs/noteikti safe/certainly. DE untouched."
+    "owner_new": "{\"lv\":\"Siguran • Naravno\",\"study.translation\":\"Siguran • Naravno\",\"study.explanation[0]\":\"Osnovna ideja: sicher kao pridjev znači siguran, kao prilog — sigurno/vjerojatno.\",\"study.explanation[1]\":\"Kad govorimo o mjestu, situaciji ili osobi, sicher = sigurno (ein sicherer Ort = sigurno mjesto).\",\"study.explanation[2]\":\"Kao potvrda ili uvjerenje u rečenici sicher = naravno/sigurno (Das ist sicher wahr. = To je sigurno istina).\",\"study.explanation[3]\":\"Sicher! kao zaseban odgovor znači naravno!/vjerojatno!\",\"study.examples[0].lv\":\"Je li voda sigurna?\",\"study.examples[1].lv\":\"Dolaziš li sutra? – Sigurno!\",\"study.examples[3].lv\":\"To je sigurno rješenje.\",\"study.examples[5].lv\":\"Vozi sigurno!\"}",
+    "owner_note": "HR sicher: Cyrillic→Siguran•Naravno for drošs/noteikti safe/certainly.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|sie|idx:549|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Oni/one\",\"study.translation\":\"Oni/one\"}",
-    "owner_note": "HR sie: Cyrillic Те/тя→Oni/one for viņi/viņas they. DE untouched."
+    "owner_new": "{\"lv\":\"Oni/one\",\"study.translation\":\"Oni/one\",\"study.explanation[3]\":\"Sie zapravo znači: više ljudi.\",\"study.explanation[1]\":\"sie u osnovi znači: jedna žena.\",\"study.explanation[2]\":\"Često se karakterizira: glagol u jednini (-t).\",\"study.explanation[5]\":\"Sie u osnovi znači: pristojno obraćanje.\",\"study.explanation[7]\":\"Malo slovo sie znači ona, kad je glagol u jednini (Sie kocht = ona kuha).\",\"study.examples[0].lv\":\"Oni kuha.\",\"study.examples[1].lv\":\"Ona kuha.\",\"study.examples[2].lv\":\"Ona jede.\",\"study.examples[3].lv\":\"Oni kuha.\",\"study.examples[5].lv\":\"Molim vas, pripremite to.\"}",
+    "owner_note": "HR sie: Cyrillic Те/тя→Oni/one for viņi/viņas they.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Sie|idx:550|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Vi\",\"study.translation\":\"Vi\"}",
-    "owner_note": "HR Sie: Cyrillic Вие→Vi formal you for jūs. DE untouched."
+    "owner_new": "{\"lv\":\"Vi\",\"study.translation\":\"Vi\",\"study.explanation[3]\":\"Sie zapravo znači: više ljudi.\",\"study.explanation[0]\":\"Osnovna ideja: Sie — uvijek veliko S. Latviski: vi. Obično s glagolom u množini.\",\"study.explanation[1]\":\"sie u osnovi znači: jedna žena.\",\"study.explanation[2]\":\"Često se karakterizira: glagol u jednini (-t).\",\"study.explanation[5]\":\"Sie u osnovi znači: pristojno obraćanje.\",\"study.explanation[7]\":\"Malo slovo sie znači ona, kad je glagol u jednini (Sie kocht = ona kuha).\",\"study.examples[1].lv\":\"Ona kuha.\",\"study.examples[2].lv\":\"Ona jede.\",\"study.examples[3].lv\":\"Oni kuha.\",\"study.examples[5].lv\":\"Molim vas, pripremite to.\"}",
+    "owner_note": "HR Sie: Cyrillic Вие→Vi formal you for jūs.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|sitzen|idx:558|lv; study.translation; study.explanation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Sjediti\",\"study.translation\":\"Sjediti\",\"study.comparison[0].meaning\":\"Sjediti\"}",
-    "owner_note": "HR sitzen: imperative Sedi→Sjediti dictionary form for sēdēt. DE untouched."
+    "owner_new": "{\"lv\":\"Sjediti\",\"study.translation\":\"Sjediti\",\"study.comparison[0].meaning\":\"Sjediti\",\"study.explanation[0]\":\"Glavna ideja: sitzen znači sjediti.\",\"study.explanation[1]\":\"Sitzen se koristi za osobu ili životinju koja sjedi.\",\"study.explanation[2]\":\"Ponekad sitzen znači i biti na određenom mjestu, ali na A1 glavno značenje je sjediti.\",\"study.explanation[3]\":\"Važno je razlikovati: sitzen = sjediti, stehen = stajati, liegen = ležati.\",\"study.examples[0].lv\":\"Sjedim za stolom.\",\"study.examples[1].lv\":\"U autobusu sjede djeca.\",\"study.examples[2].lv\":\"On stoji kod vrata.\",\"study.examples[3].lv\":\"Mačka leži na kauču.\",\"study.comparison[1].meaning\":\"Stajati\",\"study.comparison[2].meaning\":\"Ležati\",\"study.comparison[3].meaning\":\"Sjesti\"}",
+    "owner_note": "HR sitzen: imperative Sedi→Sjediti dictionary form for sēdēt.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|sollen|idx:564|lv; study.translation; study.explanation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -170,14 +170,14 @@
   "g2/a1/hr|sprechen|idx:5|lv and study.*|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Govoriti\",\"study.translation\":\"Govoriti\",\"study.comparison[0].meaning\":\"Govoriti\"}",
-    "owner_note": "HR sprechen: noun Govor→Govoriti verb for runāt speak. DE untouched."
+    "owner_new": "{\"lv\":\"Govoriti\",\"study.translation\":\"Govoriti\",\"study.comparison[0].meaning\":\"Govoriti\",\"study.explanation[0]\":\"Glavna ideja: govoriti, razgovor ili korištenje jezika.\",\"study.explanation[1]\":\"Sprechen u osnovi znači: govoriti.\",\"study.examples[1].lv\":\"Govorimo o poslu.\",\"study.comparison[0].example\":\"Wir sprechen über die Arbeit. – Govorimo o poslu.\",\"study.comparison[1].meaning\":\"Reći (konkretan tekst)\",\"study.tip[0]\":\"Sprechen = govoriti\",\"study.tip[1]\":\"Koristi sprechen kad kontekst odgovara ovom značenju.\"}",
+    "owner_note": "HR sprechen: noun Govor→Govoriti verb for runāt speak.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|stehen|idx:576|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Stajati\",\"study.translation\":\"Stajati\"}",
-    "owner_note": "HR stehen: noun Стойка→Stajati verb for stāvēt stand. DE untouched."
+    "owner_new": "{\"lv\":\"Stajati\",\"study.translation\":\"Stajati\",\"study.explanation[0]\":\"Osnovna ideja: stehen znači stajati.\",\"study.explanation[2]\":\"Za predmet stehen znači da stoji ili je na određenom mjestu.\",\"study.explanation[3]\":\"Važno je razlikovati: stehen = stajati, sitzen = sjediti, liegen = ležati.\",\"study.examples[1].lv\":\"Stolica je u kuhinji.\",\"study.examples[2].lv\":\"On sjedi za stolom.\",\"study.examples[3].lv\":\"Knjiga je na stolu.\",\"study.comparison[0].meaning\":\"Stajati\",\"study.comparison[2].meaning\":\"Ležati\",\"study.comparison[3].meaning\":\"Postaviti vertikalno\",\"study.tip.text\":\"Zapamtite: uspravno → stehen • Sjedeći → sitzen • Ležeći → liegen.\",\"study.important[0]\":\"Stehen pokazuje stanje, a ne radnju «postavljanja».\",\"study.important[1]\":\"Postaviti predmet vertikalno je stellen, a ne stehen.\"}",
+    "owner_note": "HR stehen: noun Стойка→Stajati verb for stāvēt stand.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Student|idx:581|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -188,20 +188,20 @@
   "g2/a1/hr|über|idx:608|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Iznad • O\",\"study.translation\":\"Iznad • O\"}",
-    "owner_note": "HR über: Още•За→Iznad•O for virs/par above/about. DE untouched."
+    "owner_new": "{\"lv\":\"Iznad • O\",\"study.translation\":\"Iznad • O\",\"study.explanation[0]\":\"Ključna ideja: über znači «iznad» ili «o» ovisno o kontekstu.\",\"study.explanation[1]\":\"Kad je pitanje o lokaciji, über često znači «iznad».\",\"study.explanation[3]\":\"U kretanju über može značiti «preko».\",\"study.examples[1].lv\":\"Govorimo o vremenu.\",\"study.examples[2].lv\":\"Dijete trči preko ulice.\",\"study.comparison[0].meaning\":\"Iznad / preko / o\",\"study.important[1]\":\"Sprechen über znači «govoriti o».\"}",
+    "owner_note": "HR über: Още•За→Iznad•O for virs/par above/about.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|um|idx:611|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Okolo • U\",\"study.translation\":\"Okolo • U\"}",
-    "owner_note": "HR um: Околу•Часови→Okolo•U for ap/pulksten around/at o'clock. DE untouched."
+    "owner_new": "{\"lv\":\"Okolo • U\",\"study.translation\":\"Okolo • U\",\"study.explanation[0]\":\"Ključna ideja: um vrlo često znači «u» (vrijeme) ili «oko» (mjesto).\",\"study.explanation[1]\":\"S točnim vremenom um znači «u» (sat).\",\"study.explanation[2]\":\"U odnosu na mjesto znači «oko» ili «okolo».\",\"study.explanation[3]\":\"U frazi um... zu pomaže izraziti namjeru: da bi.\",\"study.examples[0].lv\":\"Dolazim u osam sati.\",\"study.examples[1].lv\":\"Sjedimo oko stola.\",\"study.examples[3].lv\":\"Učim da govorim njemački.\",\"study.comparison[0].meaning\":\"U/oko/do\",\"study.comparison[1].meaning\":\"Na dan/na\",\"study.comparison[2].meaning\":\"Za vrijeme/oko\",\"study.comparison[3].meaning\":\"Za/u korist\"}",
+    "owner_note": "HR um: Околу•Часови→Okolo•U for ap/pulksten around/at o'clock.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|unter|idx:615|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Ispod • Među\",\"study.translation\":\"Ispod • Među\"}",
-    "owner_note": "HR unter: Ispod alone→Ispod•Među under/among for zem. DE untouched."
+    "owner_new": "{\"lv\":\"Ispod • Među\",\"study.translation\":\"Ispod • Među\",\"study.explanation[1]\":\"Ako je nešto ispod stola, stolice ili drugog predmeta, koristite unter.\",\"study.explanation[2]\":\"Kad govorimo o skupini ljudi, unter može značiti «među».\",\"study.explanation[3]\":\"Suprotno je od über kad je pitanje smjera gore/dolje.\",\"study.examples[0].lv\":\"Torba je ispod stola.\",\"study.examples[1].lv\":\"Mačka leži ispod stolice.\",\"study.examples[2].lv\":\"Među prijateljima tako se kaže.\",\"study.comparison[0].meaning\":\"Ispod/među\",\"study.comparison[1].meaning\":\"Iznad/o\",\"study.comparison[2].meaning\":\"Između dvije stvari\",\"study.tip.text\":\"Zapamtite: ispod stola → unter dem Tisch.\",\"study.important[0]\":\"Unter može značiti i «među», posebno s ljudima ili skupinama.\",\"study.important[1]\":\"Unter i über često su suprotni u odnosu na mjesto.\"}",
+    "owner_note": "HR unter: Ispod alone→Ispod•Među under/among for zem.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Urlaub|idx:695|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -224,56 +224,56 @@
   "g2/a1/hr|vor|idx:636|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Prije • Ispred\",\"study.explanation[3]\":\"Na satu, vor znači «prije», npr. fünf vor acht.\",\"study.examples[2].lv\":\"Pet je minuta prije osam.\"}",
-    "owner_note": "HR vor: dedupe Преди; clock-time explanation per LRB-021 GR vor pattern. DE untouched."
+    "owner_new": "{\"study.translation\":\"Prije • Ispred\",\"study.explanation[3]\":\"Na satu, vor znači «prije», npr. fünf vor acht.\",\"study.examples[2].lv\":\"Pet je minuta prije osam.\",\"study.explanation[0]\":\"Ključna ideja: vor znači «prije» u vremenu ili «ispred» mjesta.\",\"study.explanation[1]\":\"Kad je pitanje o vremenu, vor znači «prije».\",\"study.explanation[2]\":\"Kad je pitanje o mjestu, vor znači «ispred» ili «pred».\",\"study.examples[0].lv\":\"Perem ruke prije jela.\",\"study.examples[1].lv\":\"Auto je parkiran ispred kuće.\",\"study.examples[3].lv\":\"Nakon jela idemo u šetnju.\",\"study.comparison[0].meaning\":\"Prije/ispred\",\"study.comparison[2].meaning\":\"Pored\",\"study.comparison[3].meaning\":\"Iza\"}",
+    "owner_note": "HR vor: dedupe Преди; clock-time explanation per LRB-021 GR vor pattern.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|was|idx:644|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Što • Što\"}",
-    "owner_note": "HR was: Кой•Какво→Što for kas/ko things (not who). DE untouched."
+    "owner_new": "{\"study.translation\":\"Što • Što\",\"study.explanation[0]\":\"Glavna ideja: was je upitna riječ za stvari i događaje — na latvijskom što ili ko, ovisno o dijelu rečenice.\",\"study.explanation[1]\":\"Pita se za stvari, događaje i činjenice, a ne za ljude.\",\"study.explanation[2]\":\"Na njemačkom se riječ ne mijenja po licu — uvijek izgleda kao was.\",\"study.explanation[3]\":\"Ako je u rečenici predmet, prevodi se na latvijski kao kas (Was ist das? = Što je to?).\",\"study.explanation[4]\":\"Ako je was objekt (dopuna) glagola, prevodi se kao ko (Was machst du? = Što radiš?).\",\"study.explanation[5]\":\"Za ljude se pita s wer (tko), a ne was.\",\"study.examples[0].lv\":\"Što je to?\",\"study.examples[1].lv\":\"Što se dogodilo?\",\"study.examples[3].lv\":\"Što želiš piti?\",\"study.examples[4].lv\":\"Što znači ova riječ?\",\"study.examples[5].lv\":\"Koja je tvoja omiljena hrana?\",\"study.examples[6].lv\":\"Što si rekao?\",\"study.tip[1]\":\"Brzi trik: Ako na pitanje možeš odgovoriti «To je...», koristi was • Ako odgovor dolazi nakon glagola kao objekt, koristi ko.\",\"study.important[0]\":\"Pita se za stvari, događaje i činjenice, a ne za ljude.\",\"study.important[1]\":\"Za ljude se pita s wer (tko), a ne was.\",\"study.important[2]\":\"Was für (ein/eine) znači kakav/kakva i pita za kvalitetu ili tip (Was für ein Film ist das? = Kakav je taj film?).\"}",
+    "owner_note": "HR was: Кой•Какво→Što for kas/ko things (not who).; residual HR repair. DE untouched."
   },
   "g2/a1/hr|wenn|idx:655|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Ako • Kada\"}",
-    "owner_note": "HR wenn: Slovenian Če•Kdaj→Ako•Kada for ja/kad if/when. DE untouched."
+    "owner_new": "{\"study.translation\":\"Ako • Kada\",\"study.explanation[0]\":\"Ključna ideja: wenn znači «ako» ili «kada», ovisno o situaciji.\",\"study.explanation[1]\":\"Ako je uvjet, prevodi se kao «ako».\",\"study.explanation[2]\":\"Kad govorimo o ponavljajućem ili općem vremenu, prevodi se kao «kada».\",\"study.examples[1].lv\":\"Ako pada kiša, ostajem kod kuće.\",\"study.examples[3].lv\":\"Ne znam hoće li doći.\",\"study.comparison[0].meaning\":\"Ako/kada\",\"study.comparison[1].meaning\":\"Ili u indirektnom pitanju\",\"study.comparison[2].meaning\":\"Kad (pitanje)\",\"study.comparison[3].meaning\":\"Jer\",\"study.tip.text\":\"Zapamtite: uvjet → wenn • Pitanje «kada?» → wann.\",\"study.important[0]\":\"Wenn i Wann nisu ista stvar.\",\"study.important[1]\":\"Kad dođeš, imam pitanje: Wenn du kommst... — uvjet/vrijeme.\"}",
+    "owner_note": "HR wenn: Slovenian Če•Kdaj→Ako•Kada for ja/kad if/when.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|wer|idx:656|study|SEMANTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Tko\"}",
-    "owner_note": "HR wer: dedupe Кой•Кой→Tko for kas/kurš who. DE untouched."
+    "owner_new": "{\"study.translation\":\"Tko\",\"study.explanation[0]\":\"Glavna ideja: wer je upitna riječ za identitet osobe — na latvijskom kas ili kurš.\",\"study.explanation[1]\":\"Pitamo za ljude, a ne za stvari ili događaje.\",\"study.explanation[3]\":\"Wer na njemačkom obično je subjekt rečenice (nominativ) — Wer ist das? = Tko je to?\",\"study.explanation[5]\":\"Wer mijenja oblik ovisno o deklinaciji: wen (akuzativ), wem (dativ), wessen (genitiv) — na A1 uglavnom je forma wer.\",\"study.examples[0].lv\":\"Tko je to?\",\"study.examples[1].lv\":\"Tko si ti?\",\"study.examples[3].lv\":\"Tko je tvoja učiteljica?\",\"study.examples[4].lv\":\"Koliko vas govori njemački?\",\"study.examples[5].lv\":\"Tko je to rekao?\",\"study.examples[6].lv\":\"Tko želi kavu?\",\"study.tip[0]\":\"Wer pita za ljude (tko) — za stvari i događaje koristimo was.\",\"study.important[2]\":\"Wer mijenja oblik: wen, wem, wessen, ali osnovna forma je wer.\"}",
+    "owner_note": "HR wer: dedupe Кой•Кой→Tko for kas/kurš who.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|werden|idx:657|lv, study|MIXED_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Postati\",\"study.translation\":\"Postati\"}",
-    "owner_note": "HR werden: imperative Станете→Postati for kļūt become. DE untouched."
+    "owner_new": "{\"lv\":\"Postati\",\"study.translation\":\"Postati\",\"study.explanation[2]\":\"U kasnijem njemačkom werden se koristi i za buduće vrijeme i pasiv.\",\"study.examples[1].lv\":\"Postaje hladno.\",\"study.examples[2].lv\":\"Ona postaje liječnica.\",\"study.examples[3].lv\":\"Umoran sam.\",\"study.comparison[0].meaning\":\"Postati\",\"study.comparison[1].meaning\":\"Biti\",\"study.comparison[2].meaning\":\"Ostati\",\"study.tip.text\":\"Zapamtite: promjena/stanje postaje drugačije → werden.\",\"study.important[0]\":\"Werden nije isto što i sein.\"}",
+    "owner_note": "HR werden: imperative Станете→Postati for kļūt become.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Wetter|idx:658|lv, study.examples|WRONG_TRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Vrijeme\",\"study.translation\":\"Vrijeme\",\"study.examples[0].lv\":\"Kakvo je vrijeme danas?\"}",
-    "owner_note": "HR Wetter: Čas(i) clock→Vrijeme weather; fix example for laikapstākļi. DE untouched."
+    "owner_new": "{\"lv\":\"Vrijeme\",\"study.translation\":\"Vrijeme\",\"study.examples[0].lv\":\"Kakvo je vrijeme danas?\",\"study.examples[1].lv\":\"Vrijeme je lijepo.\",\"study.examples[2].lv\":\"Vrijeme je loše.\",\"study.examples[3].lv\":\"Zimi je često hladno.\",\"study.examples[4].lv\":\"Govorimo o vremenu.\",\"study.examples[5].lv\":\"Sutra će vrijeme biti bolje.\"}",
+    "owner_note": "HR Wetter: Čas(i) clock→Vrijeme weather; fix example for laikapstākļi.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|wie|idx:660|lv, study|MIXED_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Kako • Koliko\",\"study.translation\":\"Kako • Koliko\"}",
-    "owner_note": "HR wie: Kuk typo→Koliko for kā•cik manner/quantity. DE untouched."
+    "owner_new": "{\"lv\":\"Kako • Koliko\",\"study.translation\":\"Kako • Koliko\",\"study.explanation[1]\":\"Wie samo (Wie geht's?) pita za način — na latvijskom kā.\",\"study.explanation[2]\":\"Wie + pridjev (wie viel, wie alt, wie lange) pita za količinu, dob ili duljinu — koliko.\",\"study.explanation[3]\":\"Wie viel(e) znači koliko • Wie alt znači koliko godina • Wie lange znači «koliko dugo».\",\"study.explanation[4]\":\"Za usporedbu wie znači «kao» (npr. groß wie = visok kao).\",\"study.examples[0].lv\":\"Kako si?\",\"study.examples[2].lv\":\"Koliko košta to?\",\"study.examples[3].lv\":\"Koliko imaš godina?\",\"study.examples[5].lv\":\"Po visini je kao otac.\",\"study.tip[0]\":\"Wie samo = kako (način) • Wie + pridjev (viel/alt/lange) = koliko (količina).\",\"study.important[1]\":\"Wie samo (Wie...?) obično = kako, ne koliko.\"}",
+    "owner_note": "HR wie: Kuk typo→Koliko for kā•cik manner/quantity.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|zu|idx:668|lv, study|MIXED_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"U • Prema\",\"study.translation\":\"U • Prema\"}",
-    "owner_note": "HR zu: K•V→U•Prema for uz•pie to/at. DE untouched."
+    "owner_new": "{\"lv\":\"U • Prema\",\"study.translation\":\"U • Prema\",\"study.explanation[0]\":\"Ključna ideja: zu vrlo često znači «k» ili «pri», ali ima i ulogu s infinitivom.\",\"study.explanation[1]\":\"U vezi s ljudima i institucijama zu često znači «k» ili «pri».\",\"study.explanation[2]\":\"Uz pridjeve zu može značiti «previše».\",\"study.explanation[3]\":\"U konstrukciji zu + infinitiv pomaže oblikovati infinitiv: zu lernen, zu gehen.\",\"study.examples[0].lv\":\"Idem k liječniku.\",\"study.examples[2].lv\":\"Previše je skupo.\",\"study.examples[3].lv\":\"Nemam vremena za učiti.\",\"study.comparison[0].meaning\":\"K / pri / previše / infinitiv\",\"study.comparison[1].meaning\":\"S gradovima/državama\",\"study.comparison[2].meaning\":\"U (smjer)\",\"study.important[1]\":\"Zu teuer znači «previše skupo», a ne «prema skupo».\"}",
+    "owner_note": "HR zu: K•V→U•Prema for uz•pie to/at.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|Zug|idx:671|lv, study|MIXED_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Vlak\",\"study.translation\":\"Vlak\",\"study.examples[1].lv\":\"Putujem vlakom.\",\"study.examples[2].lv\":\"Vlak je pun.\",\"study.comparison[0].meaning\":\"Vlak\",\"study.comparison[1].meaning\":\"Putovanje vlakom\"}",
-    "owner_note": "HR Zug: Cyrillic Влак→Vlak; Croatian examples for vilciens train. DE untouched."
+    "owner_new": "{\"lv\":\"Vlak\",\"study.translation\":\"Vlak\",\"study.examples[1].lv\":\"Putujem vlakom.\",\"study.examples[2].lv\":\"Vlak je pun.\",\"study.comparison[0].meaning\":\"Vlak\",\"study.comparison[1].meaning\":\"Putovanje vlakom\",\"study.explanation[0]\":\"Osnovna ideja: der Zug na A1 razini uglavnom znači vlak.\",\"study.explanation[1]\":\"Koristi se u svakodnevnim situacijama vožnje, dolaska i odlaska.\",\"study.explanation[2]\":\"U drugim značenjima Zug može biti potez, nacrt ili linija, ali to nisu glavna A1 značenja.\",\"study.explanation[3]\":\"Vrlo česte fraze su mit dem Zug fahren i Der Zug kommt.\",\"study.examples[3].lv\":\"Autobus će doći kasnije.\",\"study.comparison[3].meaning\":\"Tramvaj\",\"study.important[1]\":\"Rjeđa značenja nisu potrebna u glavnom A1 zaglavlju.\"}",
+    "owner_note": "HR Zug: Cyrillic Влак→Vlak; Croatian examples for vilciens train.; residual HR repair. DE untouched."
   },
   "g2/a1/hr|zurück|idx:674|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
     "owner_status": "DECIDED",

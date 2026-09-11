@@ -1,0 +1,28 @@
+{
+  "batch_id": "LRB-022",
+  "classification": "G2_A1_OWNER_RESIDUAL_WRONG_LANGUAGE_AUDIT_PASS",
+  "pass": true,
+  "rows_audited": 50,
+  "labot_hr": 47,
+  "nelabot": 3,
+  "issue_cards": 0,
+  "residual_violations": 0,
+  "checked_fields": [
+    "lv",
+    "study.translation",
+    "study.explanation",
+    "study.examples.lv",
+    "study.comparison.meaning",
+    "study.comparison.example",
+    "study.tip",
+    "study.important"
+  ],
+  "forbidden_fragments": [
+    "CYRILLIC",
+    "BG",
+    "MK",
+    "SL",
+    "EN"
+  ],
+  "updatedAt": "2026-09-11T14:22:10.539Z"
+}
