@@ -17,6 +17,8 @@
   "paste_source": "gpt-5.6-luna-copy-paste",
   "paste_file": "LRB-023-decisions-COPY-PASTE.json",
   "paste_sha256": "2aa5b88d946ed11b30bef8faac6bb353f83b875d7d39e5449cc8f3e26ad7ab3e",
+  "galaResidualPasteFile": "LRB-023-gala-residual-COPY-PASTE.json",
+  "galaResidualPasteSha256": "c199535f1d8a90bc197cb2d0b128b2dc9de14dd744074db44f02588913bc8f72",
   "languages": {
     "hu": 50
   },
@@ -38,5 +40,6 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-023-residual-wrong-language-proof.json",
-  "note": "GPT-5.6 Luna FULL_50_50 copy/paste applied (50 LABOT / 28 unique HU cards). Submitted for ChatGPT PDF re-review. NOT LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS. DE/production/Crowdin/ingest/apply unchanged."
+  "galaResidualRepairs": "28-card study.sectionAccents semantic alignment + a1-eis explanation[4] + a1-heissen dictionary-form lv/comparison/meaning",
+  "note": "GPT-5.6 Luna FULL_50_50 copy/paste + Gala residual copy/paste applied (50 LABOT / 28 unique HU cards). Submitted for ChatGPT PDF re-review. NOT LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS. DE/production/Crowdin/ingest/apply unchanged."
 }
