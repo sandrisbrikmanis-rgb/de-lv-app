@@ -1,0 +1,24 @@
+{
+  "batch_id": "LRB-015",
+  "classification": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "reviewer": "gpt-5.6-luna",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0
+  },
+  "nelabot_cards": [
+    "Schaf",
+    "Schnee"
+  ],
+  "failures": [],
+  "verdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T11:11:53.552Z"
+}

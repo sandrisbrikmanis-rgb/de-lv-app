@@ -1,0 +1,36 @@
+{
+  "batch_id": "LRB-015",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T11:12:00.000Z",
+  "linguisticVerdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "nelabot_cards": ["Schaf", "Schnee"],
+  "composite_labot_cards": [
+    "schwimmen",
+    "sehen",
+    "sein",
+    "Seite",
+    "sich",
+    "sicher",
+    "sie",
+    "Sie",
+    "sitzen",
+    "sollen",
+    "sprechen"
+  ],
+  "scope": "Schaf..Staat",
+  "residualProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-015-owner-auth-residual-proof.json",
+  "note": "OWNER authorization APPROVED. GPT-5.6 Luna individual FI review Schaf..Staat. 48 LABOT / 2 NELABOT (Schaf, Schnee). 11 composite study repairs. DE/production/Crowdin/ingest/apply unchanged."
+}
