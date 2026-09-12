@@ -1,0 +1,346 @@
+{
+  "batch_id": "LRB-010",
+  "classification": "LRB_010_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 45,
+  "nelabot": 5,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "nelabot_cards": [
+    "Gramm",
+    "grau",
+    "Hand",
+    "Handy",
+    "Hauptstadt"
+  ],
+  "pdf_reaudit_repairs": [
+    "Gesundheit",
+    "gleich",
+    "groß",
+    "Großeltern",
+    "gut"
+  ],
+  "row_audit": [
+    {
+      "card": "Gesundheit",
+      "lv_source": "veselība",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Getränk",
+      "lv_source": "dzēriens",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Giraffe",
+      "lv_source": "žirafe",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Glas",
+      "lv_source": "glāze",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "glauben",
+      "lv_source": "ticēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "gleich",
+      "lv_source": "tūlīt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Glück",
+      "lv_source": "laime",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "glücklich",
+      "lv_source": "laimīgs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Gramm",
+      "lv_source": "grams",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Grammatik",
+      "lv_source": "gramatika",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Gras",
+      "lv_source": "zāle",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "grau",
+      "lv_source": "pelēks",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "groß",
+      "lv_source": "liels",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Großeltern",
+      "lv_source": "vecvecāki",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Großmutter",
+      "lv_source": "vecmāmiņa",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Großvater",
+      "lv_source": "vectētiņš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "grün",
+      "lv_source": "zaļš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Gruppe",
+      "lv_source": "grupa",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Gruß",
+      "lv_source": "sveiciens",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "grüßen",
+      "lv_source": "sveicināt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Gurke",
+      "lv_source": "gurķis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "gut",
+      "lv_source": "labs",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Haar",
+      "lv_source": "mats",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "haben",
+      "lv_source": "man ir",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "halb",
+      "lv_source": "pus",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Hälfte",
+      "lv_source": "puse",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Hals",
+      "lv_source": "kakls",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "halten",
+      "lv_source": "turēt",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "Haltestelle",
+      "lv_source": "pietura",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Hand",
+      "lv_source": "plauksta",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Handschuh",
+      "lv_source": "cimds",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Handtasche",
+      "lv_source": "rokassoma",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Handtuch",
+      "lv_source": "dvielis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Handy",
+      "lv_source": "mobilais tālrunis",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Hauptstadt",
+      "lv_source": "galvaspilsēta",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Haus",
+      "lv_source": "māja",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Heft",
+      "lv_source": "burtnīca",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "heiraten",
+      "lv_source": "precēties",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "heiß",
+      "lv_source": "karsts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "heißen",
+      "lv_source": "saukties",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "helfen",
+      "lv_source": "palīdzēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Hemd",
+      "lv_source": "krekls",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Herbst",
+      "lv_source": "rudens",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Herr",
+      "lv_source": "kungs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "heute",
+      "lv_source": "šodien",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "hier",
+      "lv_source": "šeit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Hilfe",
+      "lv_source": "palīdzība",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "hinter",
+      "lv_source": "aiz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "hoch",
+      "lv_source": "augsts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "höflich",
+      "lv_source": "pieklājīgs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_010_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T10:11:05.524Z"
+}

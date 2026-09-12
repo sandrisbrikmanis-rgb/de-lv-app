@@ -1,0 +1,16 @@
+{
+  "classification": "G2_A1_PENDING_5125_SPLIT_READY",
+  "totalRows": 5125,
+  "batchSize": 50,
+  "batchCount": 103,
+  "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "batches": [
+    {
+      "batchId": "LRB-014",
+      "rows": 50,
+      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-014-input.csv",
+      "manifestPath": "reports/g2-a1-owner/manifests/LRB-014-start.json",
+      "inputSha256": "bc387714911b39fe005e76fcb77bb18a5c51cd67ed3d7e228bc4aa7db2629551"
+    }
+  ]
+}
