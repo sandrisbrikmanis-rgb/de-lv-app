@@ -31,6 +31,7 @@ function parseJsonField(value) {
 const LANG_DATA_FILES = {
   tr: "data/tr/a1.js",
   uk: "data/uk/a1.js",
+  sv: "data/sv/a1.js",
   fr: "data/fr/a1.js",
   gr: "data/gr/a1.js",
   fi: "data/fi/a1.js",
@@ -62,11 +63,16 @@ function loadLangWords(lang) {
 }
 
 function getFullGalaCard(lang, cardId) {
-  const idxMatch = String(cardId || "").match(/idx:(\d+)/);
-  if (!idxMatch) return null;
   const words = loadLangWords(lang);
   if (!words) return null;
-  const card = words[parseInt(idxMatch[1], 10)];
+  const raw = String(cardId || "");
+  const idxMatch = raw.match(/idx:(\d+)/);
+  if (idxMatch) {
+    const card = words[parseInt(idxMatch[1], 10)];
+    return card ? JSON.parse(JSON.stringify(card)) : null;
+  }
+  const id = raw.split("|")[0];
+  const card = words.find((w) => w?.study?.id === id || w?.id === id);
   return card ? JSON.parse(JSON.stringify(card)) : null;
 }
 

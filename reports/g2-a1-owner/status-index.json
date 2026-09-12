@@ -37,6 +37,7 @@
       "LRB-018",
       "LRB-019",
       "LRB-020",
+      "LRB-101",
       "LRB-102",
       "LRB-103"
     ],
@@ -491,22 +492,46 @@
         "proof": "reports/g2-a1-owner/batches-owner-review/LRB-102/LRB-102-owner-review-proof.json",
         "galaCards": "reports/g2-a1-owner/batches-owner-review/LRB-102/LRB-102-gala-cards.json",
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-102-owner-authorization-proof.json"
+      },
+      "LRB-101": {
+        "verdict": "LRB_101_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
+        "labot": 50,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "4b33fed2",
+        "verifiedCommit": "4b33fed2bdf34eeb514b77af9bc15a6693876646",
+        "verificationStandard": "FULL_50_50_PDF",
+        "languages": {
+          "tr": 50
+        },
+        "uniqueTrCards": 50,
+        "compositeRepairs": 50,
+        "productionSource": "data/tr/a1.js",
+        "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-decisions.md",
+        "proof": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-review-proof.json",
+        "galaCards": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-gala-cards.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-101-owner-authorization-proof.json"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-102",
+      "batch_id": "LRB-101",
       "labot": 50,
       "nelabot": 0,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "LRB_102_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "linguisticVerdict": "LRB_101_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "verifiedCommit": "4b33fed2bdf34eeb514b77af9bc15a6693876646",
       "languages": {
-        "tr": 20,
-        "uk": 30
+        "tr": 50
       },
-      "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-102/LRB-102-owner-decisions.md",
-      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-102/LRB-102-owner-review-proof.json",
-      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-102-owner-authorization-proof.json"
+      "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-decisions.md",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-review-proof.json",
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-101-owner-authorization-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
