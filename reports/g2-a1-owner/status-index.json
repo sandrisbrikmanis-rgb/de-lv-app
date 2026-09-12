@@ -197,8 +197,12 @@
         "nelabot": 1,
         "pending": 0,
         "antiBulkPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
         "headSha": "b829b97d13b63c0dec1bea02225267beaeb15d1d",
-        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-007-decisions.csv"
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-007-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-007-anti-bulk-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-007-owner-authorization-proof.json"
       },
       "LRB-008": {
         "verdict": "LRB_008_FULL_50_50_LINGUISTIC_REVIEW_PASS",
