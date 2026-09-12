@@ -342,6 +342,7 @@ const CARD_TARGETS = {
   sie: {
     lv: "He",
     study: {
+      replaceExplanationArray: true,
       translation: "He",
       explanation: [
         "Pääajatus: Monikon muoto — kyse on useasta ihmisestä. Verbi päättyy -en: kochen, essen, gehen.",
@@ -349,8 +350,6 @@ const CARD_TARGETS = {
         "Pienellä sie yksikössä verbin kanssa (-t) tarkoittaa häntä naisena (sie kocht = hän keittää).",
         "Verbin muoto (-en vs -t) osoittaa, onko kyse heistä vai hänestä.",
         "Iso Sie tarkoittaa kohteliasta te-puhuttelua — ei sekoiteta pienen sie kanssa.",
-        "Pieni sie tarkoittaa häntä, kun verbi on yksikössä (sie isst = hän syö).",
-        "Pieni sie tarkoittaa heitä, kun verbi on monikossa (sie kochen = he keittävät).",
       ],
       examples: [
         { de: "Sie kochen.", lv: "He keittävät." },
@@ -395,7 +394,6 @@ const CARD_TARGETS = {
         "Formaalinen Sie käyttää aina 3. persoonan monikon verbiä: Sie sind, Sie haben, Sie kochen.",
         "Pieni sie yksikössä tarkoittaa häntä (sie kocht = hän keittää).",
         "Pieni sie monikossa tarkoittaa heitä (sie kochen = he keittävät).",
-        "Kohtelias Sie vaatii ison S-kirjaimen ja 3. persoonan monikon verbin.",
         "Erota: Sie kochen (te) vs sie kochen (he) vs sie kocht (hän).",
         "Esimerkkejä: Sie sind hier. = Olette täällä.; Sie haben Zeit. = Teillä on aikaa.",
       ],
@@ -602,8 +600,8 @@ const NOTES = {
   Seite: "full composite: comparison/tip/sectionAccents FI; DE↔FI aligned",
   sich: "full composite: comparison/tip/sectionAccents FI; DE↔FI aligned",
   sicher: "full composite: examples/comparison/tip/sectionAccents FI; Sicher!=tietysti",
-  sie: "important[2/3] He/Te contrast; full composite FI; DE↔FI aligned",
-  Sie: "removed duplicate explanation[7]; formal Sie 3rd pl verb; full composite FI",
+  sie: "full study.explanation array (5 items); removed semantic dupes [5]/[6]; DE↔FI aligned",
+  Sie: "full study.explanation array (6 items); removed semantic dupe [4]; formal Sie 3rd pl verb",
   sitzen: "liegen=makuulla (not pitkin); comparison/sectionAccents FI; sitzen=istua contrast",
   sein: "sectionAccents explanation.purple=olemista; full composite FI",
   sollen: "full composite: comparison/tip/sectionAccents FI; sollen vs müssen",

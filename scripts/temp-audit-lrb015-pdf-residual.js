@@ -279,6 +279,68 @@ function hasDupes(val) {
   return false;
 }
 
+function explanationSemanticKey(line) {
+  const t = String(line || "").toLowerCase();
+  if (/monikon muoto|pääajatus:.*monikon/.test(t)) return "topic:plural-intro";
+  if (/pienellä sie monikossa|pieni sie tarkoittaa heitä/.test(t)) return "sie-plural-he";
+  if (/pienellä sie yksikössä|pieni sie tarkoittaa häntä/.test(t)) return "sie-singular-han";
+  if (/verbin muoto/.test(t)) return "verb-form-contrast";
+  if (/iso sie tarkoittaa kohteliasta/.test(t)) return "formal-sie-capital";
+  if (/pääajatus:.*kohtelias puhuttelu/.test(t)) return "Sie-formal-intro";
+  if (/formaalinen sie käyttää|kohtelias sie vaatii/.test(t)) return "Sie-formal-verb-plural";
+  if (/erota:.*sie kochen/.test(t)) return "contrast-line";
+  if (/esimerkkejä:/.test(t)) return "Sie-examples";
+  return `literal:${t.replace(/\s+/g, " ").trim()}`;
+}
+
+function findSemanticExplanationDupes(explanations) {
+  const seen = new Map();
+  const dupes = [];
+  for (let i = 0; i < (explanations || []).length; i++) {
+    const line = explanations[i];
+    const key = explanationSemanticKey(line);
+    if (seen.has(key)) {
+      dupes.push({ index: i, prior: seen.get(key), key, line });
+    } else {
+      seen.set(key, i);
+    }
+  }
+  return dupes;
+}
+
+function validateExplanationArray(id, explanations, expectedLength) {
+  const failures = [];
+  if (!Array.isArray(explanations) || explanations.length !== expectedLength) {
+    failures.push({
+      field: "study.explanation.length",
+      expected: expectedLength,
+      got: explanations?.length ?? 0,
+    });
+  }
+  if ((explanations || []).some((line) => line == null || line === "")) {
+    failures.push({ field: "study.explanation", msg: "empty explanation slot" });
+  }
+  const semanticDupes = findSemanticExplanationDupes(explanations || []);
+  if (semanticDupes.length) {
+    failures.push({
+      field: "study.explanation",
+      msg: "semantic duplicate explanations",
+      dupes: semanticDupes,
+    });
+  }
+  const exactDupes = (explanations || []).filter(
+    (line, idx, arr) => arr.indexOf(line) !== idx
+  );
+  if (exactDupes.length) {
+    failures.push({
+      field: "study.explanation",
+      msg: "identical explanation strings",
+      dupes: exactDupes,
+    });
+  }
+  return failures;
+}
+
 function scalarValue(ownerNew) {
   if (!ownerNew) return "";
   const t = String(ownerNew).trim();
@@ -739,39 +801,16 @@ for (const row of rows) {
       }
     }
 
-    if (id === SIE_CAP_ID) {
+    if (id === SIE_ID || id === SIE_CAP_ID) {
       const explanations = merged.study?.explanation || [];
-      if (explanations.length !== 7) {
+      const expectedLength = id === SIE_ID ? 5 : 6;
+      for (const failure of validateExplanationArray(id, explanations, expectedLength)) {
         targetLanguageQualityErrors++;
+        duplicateMeanings++;
         issues.push({
           id,
-          type: "TARGET_LANGUAGE_QUALITY",
-          field: "study.explanation.length",
-          expected: 7,
-          got: explanations.length,
-        });
-      }
-      const dupes = explanations.filter(
-        (line) =>
-          line ===
-          "Erota aina: Sie kochen (te) vs sie kochen (he) vs sie kocht (hän)."
-      );
-      if (dupes.length > 0) {
-        targetLanguageQualityErrors++;
-        issues.push({
-          id,
-          type: "TARGET_LANGUAGE_QUALITY",
-          field: "study.explanation",
-          msg: "duplicate explanation[7] residue",
-        });
-      }
-      if (explanations.some((line) => line == null || line === "")) {
-        targetLanguageQualityErrors++;
-        issues.push({
-          id,
-          type: "TARGET_LANGUAGE_QUALITY",
-          field: "study.explanation",
-          msg: "empty explanation slot",
+          type: "EXPLANATION_DUPLICATE",
+          ...failure,
         });
       }
     }
