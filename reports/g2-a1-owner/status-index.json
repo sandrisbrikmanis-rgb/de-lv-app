@@ -401,7 +401,7 @@
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "pending-gpt-5.6-luna",
-        "headSha": "PENDING_COMMIT",
+        "headSha": "ac46a001",
         "languages": {
           "fr": 50
         },
