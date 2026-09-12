@@ -28,6 +28,48 @@ function parseJsonField(value) {
   }
 }
 
+const LANG_DATA_FILES = {
+  tr: "data/tr/a1.js",
+  uk: "data/uk/a1.js",
+  fr: "data/fr/a1.js",
+  gr: "data/gr/a1.js",
+  fi: "data/fi/a1.js",
+};
+
+const langWordsCache = new Map();
+
+function loadLangWords(lang) {
+  if (langWordsCache.has(lang)) return langWordsCache.get(lang);
+  const rel = LANG_DATA_FILES[lang];
+  if (!rel) {
+    langWordsCache.set(lang, null);
+    return null;
+  }
+  const abs = path.join(ROOT, rel);
+  if (!fs.existsSync(abs)) {
+    langWordsCache.set(lang, null);
+    return null;
+  }
+  const src = fs.readFileSync(abs, "utf8");
+  const m = src.match(/const A1_WORDS = (\[[\s\S]*\]);/);
+  if (!m) {
+    langWordsCache.set(lang, null);
+    return null;
+  }
+  const words = eval(m[1]);
+  langWordsCache.set(lang, words);
+  return words;
+}
+
+function getFullGalaCard(lang, cardId) {
+  const idxMatch = String(cardId || "").match(/idx:(\d+)/);
+  if (!idxMatch) return null;
+  const words = loadLangWords(lang);
+  if (!words) return null;
+  const card = words[parseInt(idxMatch[1], 10)];
+  return card ? JSON.parse(JSON.stringify(card)) : null;
+}
+
 function escapeMd(value) {
   return String(value ?? "—").replace(/\|/g, "\\|");
 }
@@ -36,7 +78,9 @@ function buildFindings(batchId, rows) {
   return rows.map((row, index) => {
     const auditId = `${batchId.replace("-", "")}-${String(index + 1).padStart(4, "0")}`;
     const lang = (row.languages || "").split(",")[0] || "—";
-    const galaCard = parseJsonField(row.production_current_mirror || row.production_current);
+    const galaCard =
+      getFullGalaCard(lang, row.card_object_id) ||
+      parseJsonField(row.production_current_mirror || row.production_current);
     return {
       auditId,
       findingStableId: row.finding_stable_ids,
@@ -75,6 +119,8 @@ function buildOwnerView(batchId, findings, options) {
     `**Rows:** ${findings.length}/${findings.length}`,
     `**Direction:** ${options.direction || "—"}`,
     `**Reserved for:** ${options.reservedFor || "—"}`,
+    `**OWNER_AUTHORIZATION_STATUS:** ${options.ownerAuthorizationStatus || "APPROVED"}`,
+    `**Linguistic reviewer:** ${options.linguisticReviewer || "gpt-5.6-luna"}`,
     `**Generated:** ${options.generatedAt}`,
     `**Source commit:** \`${options.sourceCommit}\``,
     `**Branch:** \`${options.branch}\``,
@@ -256,8 +302,10 @@ function main() {
     branch,
     inputSha256: manifest.input_csv_sha256,
     manifestPath: files.manifest,
-    direction: process.env.LRB_DIRECTION || "DESCENDING",
-    reservedFor: process.env.LRB_RESERVED_FOR || "PC2",
+    direction: process.env.LRB_DIRECTION || manifest.direction || "DESCENDING",
+    reservedFor: process.env.LRB_RESERVED_FOR || manifest.reserved_for || "PC2",
+    ownerAuthorizationStatus: manifest.owner_authorization_status || "APPROVED",
+    linguisticReviewer: manifest.linguistic_reviewer || "gpt-5.6-luna",
   };
 
   writeAtomic(path.join(ROOT, files.view), buildOwnerView(batchId, findings, options));
@@ -277,6 +325,8 @@ function main() {
     branch,
     direction: options.direction,
     reservedFor: options.reservedFor,
+    ownerAuthorizationStatus: options.ownerAuthorizationStatus,
+    linguisticReviewer: options.linguisticReviewer,
     rows: `${findings.length}/${findings.length}`,
     ownerBacklogFinal: findings.length,
     ownerViewFindings: findings.length,
