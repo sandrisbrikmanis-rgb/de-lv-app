@@ -269,12 +269,13 @@
         "pending": 0,
         "antiBulkPass": true,
         "residualAuditPass": true,
+        "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "d44cedae",
+        "headSha": "930e246d",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-015-decisions.csv",
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-015-anti-bulk-proof.json",
-        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-015-owner-auth-residual-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-015-residual-wrong-language-proof.json",
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-015-owner-authorization-proof.json"
       }
     },
