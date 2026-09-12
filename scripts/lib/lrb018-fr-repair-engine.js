@@ -120,7 +120,7 @@ function repairAppetit(out) {
   out.study.examples = [
     { de: "Guten Appetit!", lv: "Bon appétit !" },
     { de: "Guten Appetit!", lv: "Bon appétit !" },
-    { de: "Ich habe Appetit.", lv: "J'ai de l'appétit." },
+    { de: "Ich habe keinen Appetit.", lv: "Je n'ai pas d'appétit." },
   ];
   out.study.important = [
     "Der Appetit est au singulier seulement.",
@@ -135,7 +135,7 @@ function repairAppetit(out) {
     {
       word: "der Appetit",
       meaning: "appétit",
-      example: "Ich habe Appetit. – J'ai de l'appétit.",
+      example: "Ich habe keinen Appetit. – Je n'ai pas d'appétit.",
     },
     {
       word: "Guten Appetit",
@@ -148,10 +148,10 @@ function repairAppetit(out) {
     examples: [
       { de: { blue: ["Appetit"] }, lv: { purple: ["appétit"] } },
       { de: { blue: ["Appetit"] }, lv: { purple: ["appétit"] } },
-      { de: { blue: ["Appetit"] }, lv: { purple: ["appétit"] } },
+      { de: { blue: ["keinen Appetit"] }, lv: { purple: ["pas d'appétit"] } },
     ],
     tip: [{ purple: ["Appétit"] }],
-    important: [{ blue: ["der Appetit"], purple: ["Ich habe Appetit"] }],
+    important: [{ blue: ["der Appetit"], purple: ["Ich habe keinen Appetit"] }],
   };
 }
 
@@ -200,6 +200,9 @@ function repairBitte(out) {
       { de: { blue: ["bitte"] }, lv: { purple: ["plaît"] } },
       { de: { blue: ["bitte"] }, lv: { purple: ["plaît"] } },
       { de: { blue: ["Bitte"] }, lv: { purple: ["rien"] } },
+      { de: { blue: ["bitte"] }, lv: { purple: ["question"] } },
+      { de: { blue: ["Bitte"] }, lv: { purple: ["demande"] } },
+      { de: { blue: ["Bitte"] }, lv: { purple: ["demande"] } },
     ],
     comparison: [
       { word: { blue: ["bitte"] }, meaning: { purple: ["plaît"] } },
@@ -306,9 +309,11 @@ function repairEuch(out) {
   ];
   out.study.sectionAccents = {
     examples: [
-      { de: { blue: ["euch"] }, lv: { purple: ["vous"] } },
-      { de: { blue: ["euch"] }, lv: { purple: ["vous"] } },
-      { de: { blue: ["euch"] }, lv: { purple: ["vous"] } },
+      { de: { blue: ["euch"] }, lv: { purple: ["vois"] } },
+      { de: { blue: ["euch"] }, lv: { purple: ["aide"] } },
+      { de: { blue: ["euch"] }, lv: { purple: ["donne"] } },
+      { de: { blue: ["euch"] }, lv: { purple: ["remercie"] } },
+      { de: { blue: ["euch"] }, lv: { purple: ["souvenez"] } },
     ],
     comparison: [
       { word: { green: ["euch"] }, meaning: { purple: ["vous"] } },
@@ -320,8 +325,8 @@ function repairEuch(out) {
 }
 
 function repairDas(out) {
-  out.lv = "Le • Cela";
-  out.study.translation = "Le • Cela";
+  out.lv = "Article défini neutre • Cela";
+  out.study.translation = "Article défini neutre • Cela";
   out.study.explanation =
     "Utilisé avec les noms neutres. Dans certaines phrases, das peut aussi être un pronom ou un pronom relatif.";
   out.study.examples = [
@@ -335,7 +340,7 @@ function repairDas(out) {
   out.study.comparison = [
     {
       word: "das",
-      meaning: "le/la/les (neutre) • cela",
+      meaning: "article défini neutre • cela",
       example: "Das ist mein Auto. – C'est ma voiture.",
     },
     {
@@ -604,9 +609,14 @@ function repairIns(out) {
   out.study.sectionAccents = {
     explanation: { blue: ["ins", "in das"], purple: ["vers où", "où"] },
     examples: [
-      { de: { blue: ["ins"] }, lv: { purple: ["vais"] } },
+      { de: { blue: ["ins"] }, lv: { purple: ["cinéma"] } },
       { de: { blue: ["ins"] }, lv: { purple: ["couche"] } },
       { de: { blue: ["ins"] }, lv: { purple: ["étranger"] } },
+      { de: { blue: ["ins"] }, lv: { purple: ["maison"] } },
+      { de: { blue: ["in den"] }, lv: { purple: ["portefeuille"] } },
+      { de: { blue: ["ins"] }, lv: { purple: ["musée"] } },
+      { de: { blue: ["ins"] }, lv: { purple: ["eau"] } },
+      { de: { blue: ["ins"] }, lv: { purple: ["centre"] } },
     ],
     comparison: [
       { word: { blue: ["ins"] }, meaning: { purple: ["vers où"] } },
@@ -626,6 +636,12 @@ function repairMachen(out) {
     "Si quelque chose est fait ou préparé, cela se traduit par faire ou cuisiner.",
     "Dans de nombreuses expressions, machen se traduit naturellement en français.",
   ];
+  out.study.examples = [
+    { de: "Was machst du?", lv: "Que fais-tu ?" },
+    { de: "Ich mache Hausaufgaben.", lv: "Je fais mes devoirs." },
+    { de: "Wir machen Pizza.", lv: "Nous faisons une pizza." },
+    { de: "Das macht Spaß.", lv: "C'est amusant." },
+  ];
   out.study.tip = { text: "Rappel : Was machst du ? = Que fais-tu ?" };
   out.study.important = [
     "Machen est un mot très large ; le français doit souvent être traduit naturellement selon la situation.",
@@ -643,8 +659,8 @@ function repairMachen(out) {
       example: "Was tust du? – Que fais-tu ?",
     },
     {
-      word: "herstellen",
-      meaning: "fabriquer",
+      word: "machen",
+      meaning: "faire / cuisiner",
       example: "Wir machen Pizza. – Nous faisons une pizza.",
     },
   ];
@@ -828,7 +844,7 @@ function repairZum(out) {
   out.study.translation = "À • Chez";
   out.study.explanation = [
     "zum est la contraction de zu + dem.",
-    "Forme complète : zu dem (à qui ? / chez qui ?).",
+    "Forme complète : zu dem (à qui ? / chez qui ?) — zu + dem est toujours au datif.",
     "Utilisé avec les noms masculins et neutres pour indiquer une direction ou un but.",
     "Signifie souvent chez quelqu'un ou vers quelque chose : chez le médecin, à la gare, chez un ami.",
     "En pratique, on utilise presque toujours zum, pas zu dem.",
@@ -875,17 +891,22 @@ function repairZum(out) {
     "Pour les noms féminins : zu + der → zur.",
   ];
   out.study.important = [
-    "zum = zu dem, avec un nom masculin ou neutre à l'accusatif/datif selon le contexte.",
+    "zum = zu dem : zu + dem est toujours au datif.",
     "Indique une direction ou un but : chez le médecin, à la gare, chez un ami.",
     "Au féminin : zur Bank, zur Post.",
     "Ne pas confondre avec bei (être chez) ou nach (vers des villes sans article).",
   ];
   out.study.sectionAccents = {
-    explanation: { blue: ["zum", "zu dem"], purple: ["à", "chez"] },
+    explanation: { blue: ["zum", "zu dem"], purple: ["à", "chez", "datif"] },
     examples: [
       { de: { blue: ["zum"] }, lv: { purple: ["médecin"] } },
       { de: { blue: ["zum"] }, lv: { purple: ["gare"] } },
       { de: { blue: ["zum"] }, lv: { purple: ["supermarché"] } },
+      { de: { blue: ["zum"] }, lv: { purple: ["manger"] } },
+      { de: { blue: ["zum"] }, lv: { purple: ["aéroport"] } },
+      { de: { blue: ["zum"] }, lv: { purple: ["concert"] } },
+      { de: { blue: ["zum"] }, lv: { purple: ["anniversaire"] } },
+      { de: { blue: ["zum"] }, lv: { purple: ["coiffeur"] } },
     ],
     comparison: [
       { word: { blue: ["zum"] }, meaning: { purple: ["chez"] } },
@@ -1058,8 +1079,8 @@ function repairAb(out) {
 }
 
 function repairEin(out) {
-  out.lv = "Un • Un";
-  out.study.translation = "Un • Un";
+  out.lv = "Article indéfini • Un";
+  out.study.translation = "Article indéfini • Un";
   out.study.explanation = [
     "Idée principale : ein est l'article indéfini.",
     "ein s'utilise au masculin et au neutre au nominatif.",
@@ -1167,9 +1188,12 @@ function repairFuer(out) {
   out.study.sectionAccents = {
     explanation: { blue: ["für"], purple: ["Pour"] },
     examples: [
-      { de: { blue: ["für"] }, lv: { purple: ["pour"] } },
-      { de: { green: ["für"] }, lv: { purple: ["pour"] } },
-      { de: { blue: ["für"] }, lv: { purple: ["pour"] } },
+      { de: { blue: ["für"] }, lv: { purple: ["toi"] } },
+      { de: { blue: ["für"] }, lv: { purple: ["aide"] } },
+      { de: { blue: ["für"] }, lv: { purple: ["mère"] } },
+      { de: { blue: ["für"] }, lv: { purple: ["voiture"] } },
+      { de: { blue: ["für"] }, lv: { purple: ["enfants"] } },
+      { de: { blue: ["Für"] }, lv: { purple: ["aujourd'hui"] } },
     ],
     comparison: [{ word: { blue: ["für"] }, meaning: { purple: ["pour"] } }],
     tip: [{ blue: ["für"], purple: ["accusatif"] }],
@@ -1227,8 +1251,10 @@ function repairEis(out) {
     explanation: { blue: ["Eis"], purple: ["glace", "crème glacée"] },
     examples: [
       { de: { blue: ["Eis"] }, lv: { purple: ["glace"] } },
-      { de: { blue: ["Eis"] }, lv: { purple: ["crème glacée"] } },
       { de: { blue: ["Eis"] }, lv: { purple: ["glace"] } },
+      { de: { blue: ["Eis"] }, lv: { purple: ["glace"] } },
+      { de: { blue: ["Eis"] }, lv: { purple: ["froide"] } },
+      { de: { blue: ["Eis"] }, lv: { purple: ["chocolat"] } },
     ],
     comparison: [
       { word: { blue: ["Eis"] }, meaning: { purple: ["glace"] } },
@@ -1417,6 +1443,7 @@ function repairNur(out) {
   ];
   out.study.examples = [
     { de: "Ich habe nur zehn Euro.", lv: "Je n'ai que dix euros." },
+    { de: "Ich habe nur zehn Euro.", lv: "Je n'ai que dix euros." },
     { de: "Nur du kannst mir helfen.", lv: "Toi seul peux m'aider." },
     { de: "Ich möchte nur Kaffee.", lv: "Je veux seulement du café." },
     { de: "Ich habe nur acht Euro.", lv: "Je n'ai que huit euros." },
@@ -1449,6 +1476,7 @@ function repairNur(out) {
   out.study.sectionAccents = {
     explanation: { orange: ["nur"], purple: ["seulement"] },
     examples: [
+      { de: { orange: ["nur"] }, lv: { purple: ["que"] } },
       { de: { orange: ["nur"] }, lv: { purple: ["que"] } },
       { de: { orange: ["Nur"] }, lv: { purple: ["seul"] } },
       { de: { orange: ["nur"] }, lv: { purple: ["seulement"] } },
@@ -1511,6 +1539,7 @@ function repairBringen(out) {
       { de: { blue: ["bringe"] }, lv: { purple: ["apporte"] } },
       { de: { blue: ["bringe"] }, lv: { purple: ["apporte"] } },
       { de: { blue: ["bringe"] }, lv: { purple: ["emmène"] } },
+      { de: { blue: ["nehme"] }, lv: { purple: ["prends"] } },
     ],
     comparison: [
       { word: { green: ["bringen"] }, meaning: { purple: ["apporter"] } },

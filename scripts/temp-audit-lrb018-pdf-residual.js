@@ -83,7 +83,17 @@ const EN_LEAK =
   /\b(I help you|i see you|I'm telling you|you \(subject|you \(where|your \(possessive|Latvian \"es\"|German \"I\" = it|« at »)\b/i;
 
 const FORBIDDEN_FR =
-  /Ressentez|visite de courtoisie|J'étais une fois|objet d'une phrase|letton|Latvian|J'emmène le colis|jusqu'à ce que \(le moment|Entre, s'il te plaît\. – Entre|À • Au • Près|vidus dzimte|L'ordre est|Atceries|kurp|Qui • Laquelle • Lequel|Seulement • Seulement|Ou • Ou|Dans • Dans • Où/i;
+  /Ressentez|visite de courtoisie|J'étais une fois|objet d'une phrase|letton|Latvian|J'emmène le colis|jusqu'à ce que \(le moment|Entre, s'il te plaît\. – Entre|À • Au • Près|vidus dzimte|L'ordre est|Atceries|kurp|Qui • Laquelle • Lequel|Seulement • Seulement|Ou • Ou|Dans • Dans • Où|Le • Cela|Un • Un|le\/la\/les \(neutre\)/i;
+
+const SECTION_ACCENTS_FULL_COVERAGE = {
+  bitte: 6,
+  euch: 5,
+  ins: 8,
+  zum: 8,
+  für: 6,
+  Eis: 5,
+  bringen: 4,
+};
 
 const STALE_HIGHLIGHT =
   /\b(Atceries|vienreiz|reiz|sienas|loga|malas|tarte|vidus dzimte|pretstats|iebilde|kurp|kam|apmeklējums|apciemojums|vizīte|Paldies|Apmeklētājs|Es apciemoju|Līst|Es mācos|nav tas pats|Tas der)\b/i;
@@ -111,7 +121,7 @@ const DE_EXAMPLE_ALIGN = {
     "Ihr erinnert euch.": "Vous vous souvenez.",
   },
   Appetit: {
-    "Ich habe Appetit.": "J'ai de l'appétit.",
+    "Ich habe keinen Appetit.": "Je n'ai pas d'appétit.",
   },
   es: {
     "Es regnet.": "Il pleut.",
@@ -119,15 +129,23 @@ const DE_EXAMPLE_ALIGN = {
     "Das Kind schläft.": "L'enfant dort.",
     "Es ist müde.": "Il/Elle est fatigué(e).",
   },
+  nur: {
+    "Ich habe nur zehn Euro.": "Je n'ai que dix euros.",
+    "Nur du kannst mir helfen.": "Toi seul peux m'aider.",
+    "Ich möchte nur Kaffee.": "Je veux seulement du café.",
+    "Ich habe nur acht Euro.": "Je n'ai que huit euros.",
+  },
+  machen: {
+    "Was machst du?": "Que fais-tu ?",
+    "Ich mache Hausaufgaben.": "Je fais mes devoirs.",
+    "Wir machen Pizza.": "Nous faisons une pizza.",
+    "Das macht Spaß.": "C'est amusant.",
+  },
   bringen: {
     "Ich bringe dir ein Buch.": "Je t'apporte un livre.",
     "Ich bringe das Paket zur Post.": "J'apporte le colis à la poste.",
     "Ich bringe die Kinder zur Schule.": "J'emmène les enfants à l'école.",
     "Ich nehme das Buch.": "Je prends le livre.",
-  },
-  bitte: {
-    "Komm bitte herein.": "Entre, s'il vous plaît.",
-    "Ich habe eine Bitte.": "J'ai une demande.",
   },
   einmal: {
     "Ich war einmal in Berlin.": "Je suis allé à Berlin une fois.",
@@ -236,6 +254,29 @@ function validateDeFrExamples(cardKey, merged) {
   return failures;
 }
 
+function validateSectionAccentsCount(cardKey, merged) {
+  const expected = SECTION_ACCENTS_FULL_COVERAGE[cardDeKey(cardKey)];
+  if (!expected) return [];
+  const accents = merged.study?.sectionAccents?.examples;
+  const failures = [];
+  if (!Array.isArray(accents) || accents.length !== expected) {
+    failures.push({
+      type: "SECTION_ACCENTS_COUNT",
+      expected,
+      got: Array.isArray(accents) ? accents.length : 0,
+    });
+  }
+  const exampleCount = (merged.study?.examples || []).length;
+  if (exampleCount !== expected) {
+    failures.push({
+      type: "EXAMPLE_COUNT",
+      expected,
+      got: exampleCount,
+    });
+  }
+  return failures;
+}
+
 function validateBisComparison(merged) {
   const failures = [];
   const cmp = merged.study?.comparison || [];
@@ -269,16 +310,63 @@ function validateMergedCard(cardKey, merged) {
     failures.push(...validateBisComparison(merged));
   }
   if (cardDeKey(cardKey) === "Appetit") {
-    const hasIchHabe = (merged.study?.examples || []).some(
-      (ex) => ex.de === "Ich habe Appetit." && ex.lv === "J'ai de l'appétit."
+    const hasKeinen = (merged.study?.examples || []).some(
+      (ex) => ex.de === "Ich habe keinen Appetit." && ex.lv === "Je n'ai pas d'appétit."
     );
-    if (!hasIchHabe) {
-      failures.push({ type: "APPETIT_ICH_HABE" });
+    if (!hasKeinen) {
+      failures.push({ type: "APPETIT_KEINEN" });
     }
     if (allText.includes("Ressentez")) {
       failures.push({ type: "APPETIT_RESSENTEZ" });
     }
   }
+  if (cardDeKey(cardKey) === "das") {
+    if (merged.lv === "Le • Cela" || merged.study?.translation === "Le • Cela") {
+      failures.push({ type: "DAS_OLD_TRANSLATION", got: merged.lv });
+    }
+    if (!merged.lv?.includes("Article défini neutre")) {
+      failures.push({ type: "DAS_TRANSLATION", got: merged.lv });
+    }
+    const dasCmp = (merged.study?.comparison || []).find((c) => c.word === "das");
+    if (dasCmp?.meaning?.includes("le/la/les")) {
+      failures.push({ type: "DAS_COMPARISON_NEUTRE", got: dasCmp.meaning });
+    }
+  }
+  if (cardDeKey(cardKey) === "ein") {
+    if (merged.lv === "Un • Un" || merged.study?.translation === "Un • Un") {
+      failures.push({ type: "EIN_DUPLICATE_TRANSLATION", got: merged.lv });
+    }
+    if (!merged.lv?.includes("Article indéfini")) {
+      failures.push({ type: "EIN_TRANSLATION", got: merged.lv });
+    }
+  }
+  if (cardDeKey(cardKey) === "zum") {
+    const explText = flattenStrings(merged.study?.explanation || {}).join(" ");
+    const impText = flattenStrings(merged.study?.important || {}).join(" ");
+    if (!/toujours au datif/i.test(explText + impText)) {
+      failures.push({ type: "ZUM_DATIVE_NOTE" });
+    }
+  }
+  if (cardDeKey(cardKey) === "machen") {
+    const pizzaCmp = (merged.study?.comparison || []).find(
+      (c) => (c.example || "").includes("Wir machen Pizza")
+    );
+    if (pizzaCmp && pizzaCmp.word !== "machen") {
+      failures.push({ type: "MACHEN_COMPARISON_WORD", got: pizzaCmp.word });
+    }
+    if (!(merged.study?.examples || []).length) {
+      failures.push({ type: "MACHEN_MISSING_EXAMPLES" });
+    }
+  }
+  if (cardDeKey(cardKey) === "nur") {
+    if ((merged.study?.examples || []).length !== 5) {
+      failures.push({
+        type: "NUR_EXAMPLE_COUNT",
+        got: (merged.study?.examples || []).length,
+      });
+    }
+  }
+  failures.push(...validateSectionAccentsCount(cardKey, merged));
   if (cardDeKey(cardKey) === "wer") {
     if (/objet d'une phrase/i.test(allText)) {
       failures.push({ type: "WER_OBJECT_ERROR" });

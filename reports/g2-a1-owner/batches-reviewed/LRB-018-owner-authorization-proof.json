@@ -66,5 +66,5 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-018-residual-wrong-language-proof.json",
-  "note": "OWNER authorization APPROVED after individual FR card re-review (round 2). 50 LABOT / 0 NELABOT. Mandatory fixes: Appetit Ich habe Appetit, an no-EN-at, bitte DE–FR comparisons, bis jusqu'à demain, wer nominatif sujet, bringen J'apporte le colis, einmal natural French, es no Latvian refs, Besuch no courtoisie, lang Long•Longtemps. Merged data/fr/a1.js validation PASS. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER authorization APPROVED after full 28-card composite reconstruction (round 3). Every FR card now exports complete study fields (examples, comparison, tip, important, sectionAccents). Key fixes: an Sur•À•Au bord de, das que je lis, ins vers où?/où?, oder full card no L'ordre, nur no duplicates, Eis/dass/nehmen/für/ab/aber/ein/zu/zum individually rebuilt. merged_card_failures=0. DE/production/Crowdin/ingest/apply unchanged."
 }
