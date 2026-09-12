@@ -585,15 +585,15 @@ function repairErst(out) {
       },
       {
           "de": "Ich komme erst morgen.",
-          "lv": "Je n'arriverai que demain."
+          "lv": "Je n'ai que dix euros."
       },
       {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "Il n'a que dix-huit ans."
+          "lv": "Elle n'arrive qu'à huit heures."
       },
       {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Nous ne mangeons qu'à huit heures."
+          "lv": "Il a seulement dix ans."
       }
   ];
   out.study.comparison = [
@@ -846,6 +846,10 @@ function repairFerien(out) {
       {
           "de": "Die Schule ist in den Ferien zu.",
           "lv": "Les vacances scolaires durent deux semaines."
+      },
+      {
+          "de": "In den Ferien fahren wir ans Meer.",
+          "lv": "Bonnes vacances !"
       }
   ];
   out.study.comparison = [
@@ -928,20 +932,24 @@ function repairFernsehenNoun(out) {
           "lv": "La télévision est intéressante."
       },
       {
-          "de": "Im Fernsehen läuft ein Film.",
+          "de": "Was gibt es heute im Fernsehen?",
           "lv": "Je regarde beaucoup la télévision."
       },
       {
-          "de": "Das Fernsehen ist heute langweilig.",
+          "de": "Im Fernsehen läuft ein Film.",
           "lv": "La télévision est allumée."
       },
       {
-          "de": "Ich sehe heute Abend fern.",
+          "de": "Das Fernsehen ist heute langweilig.",
           "lv": "La télévision est importante pour lui."
       },
       {
-          "de": "Was gibt es im Fernsehen?",
+          "de": "Ich sehe heute Abend fern.",
           "lv": "Je ne regarde pas la télévision aujourd'hui."
+      },
+      {
+          "de": "Was gibt es im Fernsehen?",
+          "lv": "Qu'y a-t-il à la télévision ?"
       }
   ];
 
@@ -1045,8 +1053,12 @@ function repairFrau(out) {
 function repairGemuese(out) {
   out.lv = "Légumes";
   out.study.translation = "Légumes";
-  out.study.explanation = ["Idée principale : das Gemüse désigne les légumes en général.","Das Gemüse est un nom neutre généralement employé au singulier.","Pas de pluriel *die Gemüse en allemand standard."];
+  out.study.explanation = ["Idée principale : das Gemüse désigne les légumes en général.","Pas de pluriel *die Gemüse en allemand standard.","Das Gemüse est un nom neutre généralement employé au singulier."];
   out.study.examples = [
+      {
+          "de": "Ich esse gern Gemüse.",
+          "lv": "J'aime manger des légumes."
+      },
       {
           "de": "Ich esse gern Gemüse.",
           "lv": "J'aime manger des légumes."
@@ -1084,7 +1096,7 @@ function repairGemuese(out) {
 function repairHand(out) {
   out.lv = "Main";
   out.study.translation = "Main";
-  out.study.explanation = ["Idée principale : die Hand signifie la main (paume et doigts).","En allemand, Arm et Hand sont deux mots distincts.","Arm = bras ; Hand = main."];
+  out.study.explanation = ["Idée principale : die Hand signifie la main.","En allemand, Arm et Hand sont deux mots distincts.","Arm = bras ; Hand = main."];
   out.study.examples = [
       {
           "de": "Ich wasche meine Hände.",
@@ -1462,6 +1474,14 @@ function repairKennen(out) {
       {
           "de": "Wo habt ihr euch kennengelernt?",
           "lv": "Où vous êtes-vous rencontrés ?"
+      },
+      {
+          "de": "Ich kenne ihn.",
+          "lv": "Je le connais."
+      },
+      {
+          "de": "kennen",
+          "lv": "Connaître"
       }
   ];
   out.study.comparison = [
@@ -1473,7 +1493,7 @@ function repairKennen(out) {
       {
           "word": "wissen",
           "meaning": "savoir (un fait, une information)",
-          "example": "Ich weiß seinen Namen. – Je connais son nom."
+          "example": "Ich weiß seinen Namen. – Je sais son nom."
       }
   ];
   out.study.tip = [
@@ -1930,6 +1950,10 @@ function repairObst(out) {
   out.study.translation = "Fruits";
   out.study.explanation = ["Idée principale : das Obst désigne les fruits en général.","Das Obst est un nom neutre généralement employé au singulier.","Pas de pluriel *die Obsts."];
   out.study.examples = [
+      {
+          "de": "Wir essen viel Obst.",
+          "lv": "Nous mangeons beaucoup de fruits."
+      },
       {
           "de": "Obst ist gesund.",
           "lv": "Les fruits sont sains."
@@ -2498,9 +2522,7 @@ function nestedToFlatPatches(nested) {
 
   if (study.tip !== undefined) {
     if (Array.isArray(study.tip)) {
-      study.tip.forEach((v, i) => {
-        flat[`study.tip[${i}]`] = v;
-      });
+      flat["study.tip"] = JSON.stringify(study.tip);
     } else if (typeof study.tip === "object" && study.tip !== null) {
       if (study.tip.text !== undefined) flat["study.tip.text"] = study.tip.text;
       if (study.tip.example !== undefined) flat["study.tip.example"] = study.tip.example;
