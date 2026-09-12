@@ -1,6 +1,8 @@
 {
   "batch_id": "LRB-008",
   "classification": "LRB_008_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
   "recalculated_from_production": true,
   "pass": true,
   "row_count": 50,
@@ -10,15 +12,326 @@
   "gates": {
     "ROWS": "50/50",
     "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
     "wrong_language_residue": 0,
-    "semantic_alignment_violations": 0
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
   },
   "nelabot_cards": [
     "deutsch",
     "dritte",
     "Ei"
   ],
+  "row_audit": [
+    {
+      "card": "benutzen",
+      "lv_source": "lietot",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Berg",
+      "lv_source": "kalns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "besser",
+      "lv_source": "labāks",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "beste",
+      "lv_source": "vislabākais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Besuch",
+      "lv_source": "apmeklējums",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "besuchen",
+      "lv_source": "apmeklēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "bis",
+      "lv_source": "līdz",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "bitte",
+      "lv_source": "[{\"de\":\"Eine Tasse Kaffee, bitte.\",\"lv\":\"Vienu tasi kafijas, lūdzu.\"},{\"de\":\"Komm bitte herein.\",\"lv\":\"Lūdzu, nāc iekšā.\"},{\"de\":\"Bitte schön!\",\"lv\":\"Lūdzu!\"}]",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Bitte",
+      "lv_source": "[\"Galvenā doma: die Bitte ir lietvārds ar nozīmi lūgums.\",\"Vārdu raksta ar lielo sākumburtu un lieto ar artikulu die.\",\"Daudzskaitlis ir die Bitten.\",\"Pieklājības vārds bitte ar mazo sākumburtu nozīmē lūdzu.\"]",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "bleiben",
+      "lv_source": "palikt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "bringen",
+      "lv_source": "atnest",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Brot",
+      "lv_source": "maize",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Bus",
+      "lv_source": "autobuss",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Butter",
+      "lv_source": "sviests",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Café",
+      "lv_source": "kafejnīca",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Computer",
+      "lv_source": "dators",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Cousin",
+      "lv_source": "brālēns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Cousine",
+      "lv_source": "māsīca",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "da",
+      "lv_source": "tur",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "danken",
+      "lv_source": "pateikties",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dann",
+      "lv_source": "tad",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Datum",
+      "lv_source": "datums",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dein",
+      "lv_source": "tavs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "denken",
+      "lv_source": "domāt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "deutsch",
+      "lv_source": "vācu",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Dezember",
+      "lv_source": "decembris",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Dienstag",
+      "lv_source": "otrdiena",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Ding",
+      "lv_source": "lieta",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Donnerstag",
+      "lv_source": "ceturtdiena",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dort",
+      "lv_source": "tur",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "drei",
+      "lv_source": "trīs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dreihundert",
+      "lv_source": "trīssimt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dreimal",
+      "lv_source": "trīsreiz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dreißig",
+      "lv_source": "trīsdesmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dreizehn",
+      "lv_source": "trīspadsmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dritte",
+      "lv_source": "trešais",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "du",
+      "lv_source": "tu",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "dürfen",
+      "lv_source": "drīkstēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Dusche",
+      "lv_source": "duša",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "E-Mail",
+      "lv_source": "e-pasts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Ecke",
+      "lv_source": "stūris",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Ei",
+      "lv_source": "ola",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "ein",
+      "lv_source": "nenoteiktais artikuls",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "einfach",
+      "lv_source": "vienkāršs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "einmal",
+      "lv_source": "vienreiz • reiz",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "eins",
+      "lv_source": "viens",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Eis",
+      "lv_source": "ledus • saldējums",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "elf",
+      "lv_source": "vienpadsmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Eltern",
+      "lv_source": "vecāki",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Ende",
+      "lv_source": "beigas",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
+  ],
   "failures": [],
   "verdict": "LRB_008_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T09:33:00.690Z"
+  "updatedAt": "2026-09-12T09:45:19.022Z"
 }
