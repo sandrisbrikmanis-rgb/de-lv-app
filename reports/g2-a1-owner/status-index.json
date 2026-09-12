@@ -70,9 +70,9 @@
     "batchPrefix": "LRB",
     "batchSize": 50,
     "batchesTotal": 103,
-    "batchesReviewed": 15,
-    "batchesAntiBulkPass": 15,
-    "batchesSpotCheckPass": 15,
+    "batchesReviewed": 17,
+    "batchesAntiBulkPass": 17,
+    "batchesSpotCheckPass": 17,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -315,7 +315,7 @@
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "pending",
+        "headSha": "40ff92b4",
         "compositeRepairs": [
           "vom",
           "vor",
