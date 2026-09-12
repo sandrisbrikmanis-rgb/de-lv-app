@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-101",
-  "phase": "PENDING_5125_REVIEW",
+  "phase": "OWNER_APPROVED_OVERRIDES_APPLIED",
   "input_csv_sha256": "c520d025f9727a989f7a4de9ead665f734b747f0f710995fae7c6c806238f186",
   "input_row_count": 50,
   "finding_stable_ids": [
@@ -56,14 +56,16 @@
     "g2/a1/tr|Mal|idx:390|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna"
   ],
   "created_at": "2026-09-12T18:46:14.778Z",
-  "updated_at": "2026-09-12T18:47:00.000Z",
+  "updated_at": "2026-09-12T18:59:29.389Z",
   "reviewer": "CURSOR_AGENT",
   "linguistic_reviewer": "gpt-5.6-luna",
   "direction": "DESCENDING",
   "reserved_for": "PC2",
   "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
   "owner_authorization_status": "APPROVED",
-  "phase": "OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
-  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv"
+  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "overrides_sha256": "7cb24d35fb0678696292fe1e412aec569a63a45a31357737058f2167b07304f5",
+  "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-approved-overrides.json",
+  "verdict": "50 LABOT / 0 NELABOT / 0 PENDING"
 }

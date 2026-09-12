@@ -3,11 +3,13 @@
 - [OWNER VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-view.md)
 - [OWNER DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-decisions.md)
 - [OWNER CORRECTIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-corrections.md)
+- [Approved overrides JSON](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-approved-overrides.json)
 - [Gala cards JSON](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-gala-cards.json)
+- [Owner review proof](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-review-proof.json)
 - [Batch manifest](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/manifests/LRB-101-start.json)
-- [Batch input CSV](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/batches-pending/LRB-101-input.csv)
 - [Parallel checkpoint](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-101-owner-review-pc2-3db2/reports/g2-a1-owner/parallel-checkpoint.json)
 
 **Branch:** `cursor/lrb-101-owner-review-pc2-3db2`
-**Source commit:** `126aa7fb08577f68c10f2be6471fc1c830e24301`
+**Overrides SHA256:** `7cb24d35fb0678696292fe1e412aec569a63a45a31357737058f2167b07304f5`
+**Status:** 50 LABOT applied — awaiting OWNER/GPT final verdict
 
