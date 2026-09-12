@@ -449,8 +449,8 @@
         "round2cHighlightRepairs": "25-card sectionAccents semantic overrides (8 FR + 17 GR) + Laden examples[3]"
       },
       "LRB-021": {
-        "verdict": "PENDING_LINGUISTIC_REVIEW",
-        "status": "OWNER_PREP_READY",
+        "verdict": "LRB_021_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
         "labot": 50,
         "nelabot": 0,
         "pending": 0,
@@ -458,7 +458,8 @@
         "residualAuditPass": true,
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
-        "reviewer": "pending-gpt-5.6-luna",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "5baf8736",
         "languages": {
           "gr": 26,
           "hr": 24
@@ -482,7 +483,7 @@
       "nelabot": 0,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+      "linguisticVerdict": "LRB_021_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-021-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-021-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-021-anti-bulk-proof.json"
