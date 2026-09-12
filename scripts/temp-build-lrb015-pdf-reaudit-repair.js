@@ -30,8 +30,8 @@ function patchComposite(id, patches) {
 
 const PDF_REAUDIT_OVERRIDES = {
   [SICH_ID]: JSON.stringify({
-    lv: "itseään • itselleen",
-    "study.translation": "itseään • itselleen",
+    lv: "Itseään • Itselleen",
+    "study.translation": "Itseään • Itselleen",
     "study.explanation[0]":
       "Pääajatus: sich on heijempronomeni — toiminta kohdistuu tekijään itseensä.",
     "study.explanation[1]":
@@ -108,7 +108,7 @@ const PDF_REAUDIT_OVERRIDES = {
 
 const PDF_NOTES = {
   sich:
-    "PDF reaudit: lv/study.translation itseään • itselleen (reflexive FI); aligned headword/explanation/examples",
+    "PDF reaudit: lv/study.translation Itseään • Itselleen (reflexive FI); aligned headword/explanation/examples",
   schwimmen: "PDF reaudit: study.explanation[3] uidä → uida",
   Sie:
     "PDF reaudit: formal Sie uses 3rd person plural verb (Sie sind/haben/kochen); removed usein monikon verbin kanssa",
