@@ -1,0 +1,36 @@
+{
+  "batch_id": "LRB-013",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T11:10:00.000Z",
+  "linguisticVerdict": "LRB_013_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 47,
+  "nelabot": 3,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "nelabot_cards": ["Mund", "nein", "nicht"],
+  "composite_labot_cards": [
+    "mögen",
+    "morgen",
+    "Morgen",
+    "müssen",
+    "nach",
+    "natürlich",
+    "nehmen",
+    "neu",
+    "noch mal",
+    "noch",
+    "nur",
+    "ob",
+    "oder"
+  ],
+  "note": "OWNER authorization APPROVED. GPT-5.6 Luna individual FI linguistic review for Mittwoch..oder (50 rows). 47 LABOT / 3 NELABOT (Mund Suu, nein Ei, nicht Ei negation — production already correct Finnish). 13 composite study repairs. DE/production/Crowdin/ingest/apply unchanged."
+}
