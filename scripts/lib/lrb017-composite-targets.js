@@ -87,7 +87,7 @@ const VOR_SECTION_ACCENTS = {
     },
     {
       word: { green: ["nach"] },
-      meaning: { purple: ["jälkeen", "puoli"] },
+      meaning: { purple: ["jälkeen", "yli"] },
       example: { red: ["Nach"] },
     },
     {
@@ -305,7 +305,7 @@ const COMPOSITE_BY_ID = {
       "Pääajatus: Vom on preposition von ja artikkelin dem lyhenne.",
     "study.explanation[1]": "Täysi muoto: von dem (Dativ).",
     "study.explanation[2]":
-      "Käytetään maskuliini- ja neutrinitiveissä, kun ilmaistaan alkuperä tai suunta jostakin poispäin.",
+      "Käytetään maskuliini- ja neutrisukuisissa substantiiveissa, kun ilmaistaan alkuperä tai suunta jostakin poispäin.",
     "study.explanation[3]": "Vastaa kysymyksiin keneltä? tai mistä?",
     "study.explanation[4]":
       "Käytännössä käytetään lähes aina vom, ei täysmuotoa von dem.",
@@ -354,7 +354,7 @@ const COMPOSITE_BY_ID = {
     "study.examples[2].lv": "On vaille kahdeksan.",
     "study.examples[3].lv": "Ruokailun jälkeen menemme kävelylle.",
     "study.comparison[0].meaning": "Ennen / edessä",
-    "study.comparison[1].meaning": "Jälkeen / puoli",
+    "study.comparison[1].meaning": "Jälkeen / yli",
     "study.comparison[2].meaning": "Vieressä",
     "study.comparison[3].meaning": "Takana",
     "study.tip.text":
@@ -475,7 +475,7 @@ const COMPOSITE_BY_ID = {
       "study.explanation[3]":
         "A1-tasolla tärkein fraasi on Ich werde müde. = Väsyn.",
       "study.examples[0].lv": "Väsyn.",
-      "study.examples[1].lv": "Rupeaa kylmäksi.",
+      "study.examples[1].lv": "Tulee kylmä.",
       "study.examples[2].lv": "Hänestä tulee lääkäri.",
       "study.examples[3].lv": "Olen väsynyt.",
       "study.comparison[0].meaning": "Tulla",
@@ -546,8 +546,9 @@ const COMPOSITE_BY_ID = {
         "wie viel(e) = kuinka paljon; wie alt = kuinka vanha; wie lange = kuinka kauan.",
       "study.important[1]":
         "wie yksin (Wie...?) yleensä = miten, ei kuinka.",
+      "study.examples[0].lv": "Miten sinulla menee?",
       "study.important[2]":
-        "Väärin: Kuinka sinulle käy? → Oikein: Miten sinulle käy? (Wie geht's?)",
+        "Väärin: Miten sinulle käy? → Oikein: Miten sinulla menee? (Wie geht's?)",
       "study.sectionAccents": WIE_SECTION_ACCENTS,
     },
 
@@ -592,11 +593,12 @@ const COMPOSITE_BY_ID = {
       "study.examples[2].lv": "Se on liian kallis.",
       "study.examples[3].lv": "Minulla ei ole aikaa opiskella.",
       "study.comparison[0].meaning": "-lle / kohti / liian / infinitiivi",
-      "study.comparison[1].meaning": "-Väliin kaupunkien/maiden kanssa",
+      "study.comparison[1].meaning": "Kaupunkeihin / maihin",
+      "study.comparison[1].example": "Ich fahre nach Berlin. – Menen Berliiniin.",
       "study.comparison[2].meaning": "Sisään / johonkin paikkaan",
       "study.comparison[3].meaning": "Luona / työn parissa",
       "study.tip.text":
-        "Muista: lääkärille → zum Arzt; liian hinta → zu teuer.",
+        "Muista: lääkärille → zum Arzt; liian kallis → zu teuer.",
       "study.important[0]":
         "zu: sillä on monia käyttötarkoituksia, joten tarkista aina rakenne.",
       "study.important[1]":
