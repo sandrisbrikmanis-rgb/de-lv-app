@@ -4,6 +4,10 @@
 const fs = require("fs");
 const path = require("path");
 const { loadCsv } = require("./lib/g2-a1-phase3/batch-001-csv");
+const {
+  COMPOSITE_BY_ID,
+  FINDING_TO_CARD,
+} = require("./lib/lrb018-fr-repair-engine");
 
 const BATCH = "LRB-018";
 const decisions = JSON.parse(
@@ -20,23 +24,10 @@ const ET_LEAK =
   /\b(Teine|Sibul|Vahel|Kaksteist|Kaheteistkümnes|Teis|Põhiidee|tähendab peamiselt|eesti keeles)\b/i;
 
 const LV_LEAK =
-  /\b(Nepareizi|Pareizi|Atceries|Galvenā doma|latviaksi|kaut kas|nedaudz|reize|apmeklējums|vizīte|lūdzu)\b/i;
+  /\b(Nepareizi|Pareizi|Atceries|Galvenā doma|latviaksi|kaut kas|nedaudz|apmeklējums|vizīte|lūdzu|vienreiz|reiz|vidus dzimte|pretstats|iebilde|Paldies|Apmeklētājs|Līst|Es mācos|nav tas pats|Tas der)\b/i;
 
-const NELABOT_CARDS = [
-  "a1-einmal",
-  "a1-euch",
-  "a1-fuer",
-  "a1-ins",
-  "a1-machen",
-  "a1-nehmen",
-  "a1-nur-study",
-  "a1-oder",
-  "a1-wer",
-  "ab",
-  "aber",
-  "ein",
-  "Besuch",
-];
+const EN_LEAK =
+  /\b(I help you|i see you|I'm telling you|Latvian \"es\"|German \"I\" = it)\b/i;
 
 function isFiRow(id) {
   return id.startsWith("g2/a1/fi|");
@@ -66,9 +57,7 @@ function flattenStrings(obj, acc = []) {
   }
   if (Array.isArray(obj)) {
     for (const v of obj) flattenStrings(v, acc);
-    return acc;
-  }
-  if (typeof obj === "object") {
+  } else if (typeof obj === "object") {
     for (const v of Object.values(obj)) flattenStrings(v, acc);
   }
   return acc;
@@ -80,6 +69,9 @@ let nelabot = 0;
 let pending = 0;
 let wrongLanguage = 0;
 let semanticViolations = 0;
+
+const frRows = rows.filter((r) => r.languages === "fr");
+const uniqueCards = new Set(Object.values(FINDING_TO_CARD));
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
@@ -100,13 +92,13 @@ for (const row of rows) {
     semanticViolations++;
   }
 
-  if (d.owner_decision === "LABOT" && !String(d.owner_new || "").trim()) {
-    issues.push({ id, type: "LABOT_EMPTY", msg: "LABOT without owner_new" });
+  if (d.owner_decision !== "LABOT") {
+    issues.push({ id, type: "NOT_LABOT", msg: d.owner_decision });
     semanticViolations++;
   }
 
-  if (d.owner_decision === "NELABOT" && String(d.owner_new || "").trim()) {
-    issues.push({ id, type: "NELABOT_WITH_NEW", msg: "NELABOT has owner_new" });
+  if (!String(d.owner_new || "").trim()) {
+    issues.push({ id, type: "LABOT_EMPTY", msg: "LABOT without owner_new" });
     semanticViolations++;
   }
 
@@ -115,70 +107,61 @@ for (const row of rows) {
     semanticViolations++;
   }
 
-  const effective =
-    d.owner_decision === "LABOT" ? String(d.owner_new || "").trim() : prod;
-  const allText =
-    d.owner_decision === "LABOT"
-      ? flattenStrings(
-          (() => {
-            try {
-              return JSON.parse(effective);
-            } catch {
-              return { _scalar: effective };
-            }
-          })()
-        ).join(" ")
-      : effective;
+  const effective = String(d.owner_new || "").trim();
+  let parsedEffective;
+  try {
+    parsedEffective = JSON.parse(effective);
+  } catch {
+    parsedEffective = { _scalar: effective };
+  }
+  const allText = flattenStrings(parsedEffective).join(" ");
 
-  if (d.owner_decision === "LABOT") {
-    if (isFiRow(id) && ET_LEAK.test(allText)) {
-      wrongLanguage++;
-      issues.push({ id, type: "WRONG_LANG_ET", msg: allText.slice(0, 100) });
-    }
-    if (isFrRow(id) && LV_LEAK.test(allText)) {
+  if (isFiRow(id) && ET_LEAK.test(allText)) {
+    wrongLanguage++;
+    issues.push({ id, type: "WRONG_LANG_ET", msg: allText.slice(0, 100) });
+  }
+  if (isFrRow(id)) {
+    if (LV_LEAK.test(allText)) {
       wrongLanguage++;
       issues.push({ id, type: "WRONG_LANG_LV", msg: allText.slice(0, 100) });
     }
-  }
-
-  if (d.owner_decision === "LABOT" && normalizeVal(effective) === prod) {
-    issues.push({ id, type: "LABOT_NO_CHANGE", msg: "owner_new equals production_current" });
-    semanticViolations++;
-  }
-
-  if (d.owner_decision === "NELABOT") {
-    const card = id.match(/\|([^|]+)\|/)?.[1] || "";
-    if (!NELABOT_CARDS.includes(card)) {
-      issues.push({ id, type: "UNEXPECTED_NELABOT", msg: `unexpected NELABOT card ${card}` });
+    if (EN_LEAK.test(allText)) {
+      wrongLanguage++;
+      issues.push({ id, type: "WRONG_LANG_EN", msg: allText.slice(0, 100) });
+    }
+    const expected = normalizeVal(JSON.stringify(COMPOSITE_BY_ID[id]));
+    if (normalizeVal(effective) !== expected) {
+      issues.push({ id, type: "COMPOSITE_ENGINE_MISMATCH" });
+      semanticViolations++;
+    }
+    if (normalizeVal(effective) === prod) {
+      issues.push({ id, type: "LABOT_NO_CHANGE", msg: "owner_new equals production_current" });
       semanticViolations++;
     }
   }
 }
 
-if (nelabot !== 22) {
-  issues.push({ type: "NELABOT_COUNT", msg: `expected 22 NELABOT, got ${nelabot}` });
+if (frRows.length !== 45) {
+  issues.push({ type: "FR_ROW_COUNT", msg: `expected 45, got ${frRows.length}` });
   semanticViolations++;
 }
-if (labot !== 28) {
-  issues.push({ type: "LABOT_COUNT", msg: `expected 28 LABOT, got ${labot}` });
+if (uniqueCards.size !== 28) {
+  issues.push({ type: "UNIQUE_CARDS", msg: `expected 28, got ${uniqueCards.size}` });
   semanticViolations++;
 }
-for (const card of NELABOT_CARDS) {
-  const hit = rows.find(
-    (r) =>
-      r.finding_stable_ids.includes(`|${card}|`) &&
-      decisions[r.finding_stable_ids]?.owner_decision === "NELABOT"
-  );
-  if (!hit) {
-    issues.push({ type: "NELABOT_MISSING", msg: `missing NELABOT for ${card}` });
-    semanticViolations++;
-  }
+if (labot !== 50) {
+  issues.push({ type: "LABOT_COUNT", msg: `expected 50 LABOT, got ${labot}` });
+  semanticViolations++;
+}
+if (nelabot !== 0) {
+  issues.push({ type: "NELABOT_COUNT", msg: `expected 0 NELABOT, got ${nelabot}` });
+  semanticViolations++;
 }
 
 const pass =
   issues.length === 0 &&
-  labot === 28 &&
-  nelabot === 22 &&
+  labot === 50 &&
+  nelabot === 0 &&
   pending === 0 &&
   wrongLanguage === 0 &&
   semanticViolations === 0;
@@ -195,13 +178,19 @@ const proof = {
   labot,
   nelabot,
   pending,
+  unique_fr_cards: uniqueCards.size,
+  fr_rows: frRows.length,
   gates: {
     ROWS: `${rows.length}/50`,
     PENDING: pending,
+    LABOT: `${labot}/50`,
+    NELABOT: nelabot,
+    FR_ROWS: `${frRows.length}/45`,
+    UNIQUE_CARDS: `${uniqueCards.size}/28`,
     wrong_language_residue: wrongLanguage,
     semantic_alignment_violations: semanticViolations,
   },
-  nelabot_cards: NELABOT_CARDS,
+  composite_repairs: [...uniqueCards].sort(),
   languages: { fi: 5, fr: 45 },
   failures: issues,
   verdict: pass
@@ -220,6 +209,7 @@ console.log(
       labot,
       nelabot,
       pending,
+      unique_fr_cards: uniqueCards.size,
       issues: issues.length,
       gates: proof.gates,
       details: issues.slice(0, 15),

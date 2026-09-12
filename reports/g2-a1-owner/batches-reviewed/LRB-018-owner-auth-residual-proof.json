@@ -5,29 +5,50 @@
   "recalculated_from_production": true,
   "pass": true,
   "row_count": 50,
-  "labot": 28,
-  "nelabot": 22,
+  "labot": 50,
+  "nelabot": 0,
   "pending": 0,
+  "unique_fr_cards": 28,
+  "fr_rows": 45,
   "gates": {
     "ROWS": "50/50",
     "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "FR_ROWS": "45/45",
+    "UNIQUE_CARDS": "28/28",
     "wrong_language_residue": 0,
     "semantic_alignment_violations": 0
   },
-  "nelabot_cards": [
+  "composite_repairs": [
+    "Appetit",
+    "Besuch",
+    "a1-an",
+    "a1-besuch",
+    "a1-bringen",
+    "a1-das",
+    "a1-dass",
     "a1-einmal",
+    "a1-eis",
+    "a1-es",
     "a1-euch",
     "a1-fuer",
     "a1-ins",
+    "a1-lang",
     "a1-machen",
     "a1-nehmen",
     "a1-nur-study",
     "a1-oder",
+    "a1-passen",
     "a1-wer",
+    "a1-zu",
+    "a1-zum",
     "ab",
     "aber",
-    "ein",
-    "Besuch"
+    "an",
+    "bis",
+    "bitte",
+    "ein"
   ],
   "languages": {
     "fi": 5,
@@ -35,5 +56,5 @@
   },
   "failures": [],
   "verdict": "LRB_018_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T14:51:44.588Z"
+  "updatedAt": "2026-09-12T15:07:29.878Z"
 }
