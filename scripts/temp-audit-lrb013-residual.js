@@ -22,7 +22,7 @@ const ET_LEAK =
 const LV_LEAK =
   /\b(Atceries|Galvenā doma|latviaksi|kaut kas|nedaudz|reize)\b/i;
 
-const NELABOT_CARDS = ["Mund", "nein", "nicht"];
+const NELABOT_CARDS = ["Mund", "nein"];
 
 function normalizeVal(v) {
   const t = String(v || "").trim();
@@ -129,8 +129,8 @@ for (const row of rows) {
   }
 }
 
-if (nelabot !== 3) {
-  issues.push({ type: "NELABOT_COUNT", msg: `expected 3 NELABOT, got ${nelabot}` });
+if (nelabot !== 2) {
+  issues.push({ type: "NELABOT_COUNT", msg: `expected 2 NELABOT, got ${nelabot}` });
   semanticViolations++;
 }
 for (const card of NELABOT_CARDS) {
@@ -147,8 +147,8 @@ for (const card of NELABOT_CARDS) {
 
 const pass =
   issues.length === 0 &&
-  labot === 47 &&
-  nelabot === 3 &&
+  labot === 48 &&
+  nelabot === 2 &&
   pending === 0 &&
   wrongLanguage === 0 &&
   semanticViolations === 0;

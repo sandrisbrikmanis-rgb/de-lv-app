@@ -217,9 +217,9 @@
   },
   "g2/a1/fi|nicht|idx:447|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI nicht lv: production Ei already correct Finnish negation for ne not. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "ei (+verbi)",
+    "owner_note": "FI nicht PDF reaudit: scalar Ei is verb-negation form, not independent nicht equivalent; metalinguistic ei (+verbi). DE untouched."
   },
   "g2/a1/fi|nichts|idx:448|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -242,8 +242,8 @@
   "g2/a1/fi|noch mal|idx:701|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Uudestaan\",\"study.translation\":\"Uudestaan\",\"study.explanation[0]\":\"Pääajatus: Tarkoittaa uudestaan — toiminnon toistaminen tai toiston pyytäminen.\",\"study.examples[0].lv\":\"Uudestaan, olkaa hyvä.\",\"study.examples[1].lv\":\"Uudestaan, olkaa hyvä.\",\"study.examples[2].lv\":\"Sano se uudestaan.\",\"study.tip[0]\":\"Käytä noch mal, kun konteksti vastaa tätä merkitystä.\",\"study.tip[1]\":\"Käytä noch mal, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"Tarkoittaa uudelleen — toiminnon toistaminen tai toiston pyytäminen.\",\"study.important[1]\":\"noch mal: tarkista konteksti ennen käyttöä.\"}",
-    "owner_note": "FI noch mal FULL repair: ET Veel kord + ET study → FI Uudestaan; production DE[0]=DE[1] duplicate mirrored. DE untouched."
+    "owner_new": "{\"lv\":\"Uudestaan\",\"study.translation\":\"Uudestaan\",\"study.explanation[0]\":\"Pääajatus: Tarkoittaa uudestaan — toiminnon toistaminen tai toiston pyytäminen.\",\"study.examples[0].lv\":\"Uudestaan, olkaa hyvä.\",\"study.examples[1].lv\":\"Uudestaan, olkaa hyvä.\",\"study.examples[2].lv\":\"Sano se uudestaan.\",\"study.tip\":\"[\\\"Käytä noch mal, kun konteksti vastaa tätä merkitystä.\\\"]\",\"study.important[0]\":\"Tarkoittaa uudelleen — toiminnon toistaminen tai toiston pyytäminen.\",\"study.important[1]\":\"noch mal: tarkista konteksti ennen käyttöä.\"}",
+    "owner_note": "FI noch mal PDF reaudit: removed mechanical duplicate study.tip[1]; examples[0]/[1] mirror source DE duplicate. DE untouched."
   },
   "g2/a1/fi|noch|idx:451|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",

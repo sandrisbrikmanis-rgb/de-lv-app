@@ -5,8 +5,8 @@
   "authorizedAt": "2026-09-12T11:10:00.000Z",
   "linguisticVerdict": "LRB_013_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
-  "labot": 47,
-  "nelabot": 3,
+  "labot": 48,
+  "nelabot": 2,
   "pending": 0,
   "antiBulkPass": true,
   "residualAuditPass": true,
@@ -16,7 +16,7 @@
   "languages": {
     "fi": 50
   },
-  "nelabot_cards": ["Mund", "nein", "nicht"],
+  "nelabot_cards": ["Mund", "nein"],
   "composite_labot_cards": [
     "mögen",
     "morgen",
@@ -32,5 +32,23 @@
     "ob",
     "oder"
   ],
-  "note": "OWNER authorization APPROVED. GPT-5.6 Luna individual FI linguistic review for Mittwoch..oder (50 rows). 47 LABOT / 3 NELABOT (Mund Suu, nein Ei, nicht Ei negation — production already correct Finnish). 13 composite study repairs. DE/production/Crowdin/ingest/apply unchanged."
+  "pdfReaudit": true,
+  "pdfReauditAt": "2026-09-12T11:20:00.000Z",
+  "pdfReauditRepairs": ["nicht", "noch mal"],
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "note": "OWNER authorization APPROVED. PDF-standard reaudit repair (nicht scalar Ei→metalinguistic ei (+verbi) for DE nicht/LV ne negation particle + noch mal removed mechanical duplicate study.tip) + 13-composite verification + fresh 50-row gates recalculated from production_current + owner_new merge. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
 }

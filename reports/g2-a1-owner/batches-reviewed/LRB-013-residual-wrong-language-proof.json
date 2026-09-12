@@ -5,8 +5,8 @@
   "recalculated_from_production": true,
   "pass": true,
   "row_count": 50,
-  "labot": 47,
-  "nelabot": 3,
+  "labot": 48,
+  "nelabot": 2,
   "pending": 0,
   "gates": {
     "ROWS": "50/50",
@@ -16,10 +16,9 @@
   },
   "nelabot_cards": [
     "Mund",
-    "nein",
-    "nicht"
+    "nein"
   ],
   "failures": [],
   "verdict": "LRB_013_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T10:42:23.401Z"
+  "updatedAt": "2026-09-12T10:47:33.782Z"
 }
