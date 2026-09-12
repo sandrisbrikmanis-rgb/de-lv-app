@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Schaf|idx:509|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Schaf lv: lammas is genuine Finnish for aita sheep. DE untouched."
+  },
+  "g2/a1/fi|schauen|idx:510|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Katsoa",
+    "owner_note": "FI schauen lv: ET Vaatama → FI Katsoa for skatīties look/watch. DE untouched."
+  },
+  "g2/a1/fi|schicken|idx:511|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lähettää",
+    "owner_note": "FI schicken lv: ET Saatma → FI Lähettää for sūtīt send. DE untouched."
+  },
+  "g2/a1/fi|schlafen|idx:512|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nukkua",
+    "owner_note": "FI schlafen lv: ET Magama → FI Nukkua for gulēt sleep. DE untouched."
+  },
+  "g2/a1/fi|schlecht|idx:513|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Huono",
+    "owner_note": "FI schlecht lv: ET Halb → FI Huono for slikts bad. DE untouched."
+  },
+  "g2/a1/fi|Schlüssel|idx:514|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Avain",
+    "owner_note": "FI Schlüssel lv: ET Võti → FI Avain for atslēga key. DE untouched."
+  },
+  "g2/a1/fi|schmecken|idx:515|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maistua",
+    "owner_note": "FI schmecken lv: ET Maitsema → FI Maistua for garšot taste. DE untouched."
+  },
+  "g2/a1/fi|schmutzig|idx:516|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Likainen",
+    "owner_note": "FI schmutzig lv: ET Must → FI Likainen for netīrs dirty. DE untouched."
+  },
+  "g2/a1/fi|Schnee|idx:517|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Schnee lv: lumi is genuine Finnish for sniegs snow. DE untouched."
+  },
+  "g2/a1/fi|schneien|idx:518|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sataa lunta",
+    "owner_note": "FI schneien lv: ET Lund sadama → FI Sataa lunta for snigt to snow. DE untouched."
+  },
+  "g2/a1/fi|schnell|idx:519|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nopea",
+    "owner_note": "FI schnell lv: ET Kiire → FI Nopea for ātrs fast. DE untouched."
+  },
+  "g2/a1/fi|Schokolade|idx:520|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Suklaa",
+    "owner_note": "FI Schokolade lv: ET Šokolaad → FI Suklaa for šokolāde chocolate. DE untouched."
+  },
+  "g2/a1/fi|schon|idx:521|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jo",
+    "owner_note": "FI schon lv: ET Juba → FI Jo for jau already. DE untouched."
+  },
+  "g2/a1/fi|schön|idx:522|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaunis",
+    "owner_note": "FI schön lv: ET Ilus → FI Kaunis for skaists beautiful. DE untouched."
+  },
+  "g2/a1/fi|Schrank|idx:523|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaappi",
+    "owner_note": "FI Schrank lv: ET Kapp → FI Kaappi for skapis cupboard. DE untouched."
+  },
+  "g2/a1/fi|schreiben|idx:524|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kirjoittaa",
+    "owner_note": "FI schreiben lv: ET Kirjutama → FI Kirjoittaa for rakstīt write. DE untouched."
+  },
+  "g2/a1/fi|Schuh|idx:525|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kenkä",
+    "owner_note": "FI Schuh lv: ET King → FI Kenkä for kurpe shoe. DE untouched."
+  },
+  "g2/a1/fi|Schule|idx:526|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Koulu",
+    "owner_note": "FI Schule lv: ET Kool → FI Koulu for skola school. DE untouched."
+  },
+  "g2/a1/fi|Schüler|idx:527|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Oppilas",
+    "owner_note": "FI Schüler lv: ET Õpilane → FI Oppilas for skolnieks pupil. DE untouched."
+  },
+  "g2/a1/fi|schwarz|idx:528|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI schwarz lv: musta is genuine Finnish for melns black. DE untouched."
+  },
+  "g2/a1/fi|Schwein|idx:529|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sika",
+    "owner_note": "FI Schwein lv: ET Siga → FI Sika for cūka pig. DE untouched."
+  },
+  "g2/a1/fi|Schwester|idx:530|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sisar",
+    "owner_note": "FI Schwester lv: ET Õde → FI Sisar for māsa sister. DE untouched."
+  },
+  "g2/a1/fi|Schwimmbad|idx:66|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Uima-allas",
+    "owner_note": "FI Schwimmbad: micro-repair lv Uima-allas swimming pool. DE untouched."
+  },
+  "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Uida\",\"study.explanation[0]\":\"Pääajatus: schwimmen tarkoittaa uintia liikkeenä tai urheiluna.\",\"study.explanation[1]\":\"Schwimmen käytetään, kun ihminen ui vedessä uintiliikkeillä.\",\"study.explanation[2]\":\"Kun kyse on lillumisesta tai rentoutumisesta vedessä, käytetään usein baden.\",\"study.explanation[3]\":\"A1-tasolla on tärkeää erottaa: schwimmen = uida, baden = kylpeä/pulikoida.\",\"study.examples[0].lv\":\"Minusta on kiva uida.\",\"study.examples[1].lv\":\"Hän ui erittäin hyvin.\",\"study.examples[2].lv\":\"Uimme uimahallissa.\",\"study.examples[3].lv\":\"Menen kylpemään.\",\"study.important[0]\":\"schwimmen ja baden eivät ole sama asia.\",\"study.important[1]\":\"Saksassa on erotettava schwimmen (uida) ja baden (kylpeä/pulikoida).\"}",
+    "owner_note": "FI schwimmen: micro-repair study.important[1] schwimmen/baden German contrast. DE untouched."
+  },
+  "g2/a1/fi|sechs|idx:532|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuusi",
+    "owner_note": "FI sechs lv: ET Kuus → FI Kuusi for seši six. DE untouched."
+  },
+  "g2/a1/fi|sechshundert|idx:533|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuusisataa",
+    "owner_note": "FI sechshundert lv: ET Kuussada → FI Kuusisataa for sešsimt six hundred. DE untouched."
+  },
+  "g2/a1/fi|sechste|idx:534|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuudes",
+    "owner_note": "FI sechste lv: ET Kuues → FI Kuudes for sestais sixth. DE untouched."
+  },
+  "g2/a1/fi|sechzehn|idx:535|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuusitoista",
+    "owner_note": "FI sechzehn lv: ET Kuusteist → FI Kuusitoista for sešpadsmit sixteen (cardinal). DE untouched."
+  },
+  "g2/a1/fi|sechzehnte|idx:536|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuudestoista",
+    "owner_note": "FI sechzehnte lv: ET Kuueteistkümnes → FI Kuudestoista for sešpadsmitais sixteenth (ordinal). DE untouched."
+  },
+  "g2/a1/fi|sechzig|idx:537|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuusikymmentä",
+    "owner_note": "FI sechzig lv: ET Kuuskümmend → FI Kuusikymmentä for sešdesmit sixty. DE untouched."
+  },
+  "g2/a1/fi|sechzigste|idx:538|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuudeskymmenes",
+    "owner_note": "FI sechzigste lv: ET Kuuekümnes → FI Kuudeskymmenes for sešdesmitais sixtieth. DE untouched."
+  },
+  "g2/a1/fi|sehen|idx:539|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Nähdä\",\"study.explanation[0]\":\"Pääajatus: sehen tarkoittaa näkemistä silmillä.\",\"study.explanation[1]\":\"Kun puhutaan siitä, mitä silmät havaitsevat, käytetään sehen.\",\"study.explanation[2]\":\"Tietoinen katsominen on usein schauen tai ansehen.\",\"study.explanation[3]\":\"Hyvin yleinen fraasi on Ich sehe dich. = Näen sinut.\",\"study.examples[0].lv\":\"Näen sinut.\",\"study.examples[1].lv\":\"Näetkö sen auton?\",\"study.examples[2].lv\":\"En näe mitään.\",\"study.examples[3].lv\":\"Katsomme elokuvaa.\",\"study.important[0]\":\"sehen ei ole sama kuin anschauen.\",\"study.important[1]\":\"Ich sehe dich = näen sinut; Ich schaue den Film = katson elokuvan.\"}",
+    "owner_note": "FI sehen: ET Nägema + ET study/examples → FI Nähdä + Finnish teaching sehen/schauen contrast. DE untouched."
+  },
+  "g2/a1/fi|sehr|idx:540|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Erittäin",
+    "owner_note": "FI sehr lv: ET Väga → FI Erittäin for ļoti very. DE untouched."
+  },
+  "g2/a1/fi|Seife|idx:541|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Saippua",
+    "owner_note": "FI Seife lv: ET Seep → FI Saippua for ziepes soap. DE untouched."
+  },
+  "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Olla\",\"study.explanation[0]\":\"Pääajatus: sein tarkoittaa olemista.\",\"study.explanation[1]\":\"Sein on yksi tärkeimmistä saksan verbeistä.\",\"study.explanation[2]\":\"A1-tasolla erityisen tärkeitä ovat muodot ich bin, du bist, er ist ja wir sind.\",\"study.explanation[3]\":\"Verbiä sein käytetään myös monissa lauseissa sijainnin tai ominaisuuden kanssa.\",\"study.examples[0].lv\":\"Olen täällä.\",\"study.examples[1].lv\":\"Olet väsynyt.\",\"study.examples[2].lv\":\"Hän on opettaja.\",\"study.examples[3].lv\":\"Olemme kotona.\",\"study.important[0]\":\"sein-muodot on opittava erikseen: bin, bist, ist, sind.\",\"study.important[1]\":\"Ich bin = olen, ei olla.\"}",
+    "owner_note": "FI sein: micro-repair study.explanation[3] sein usage with location/property. DE untouched."
+  },
+  "g2/a1/fi|seit|idx:543|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lähtien",
+    "owner_note": "FI seit lv: ET Alates → FI Lähtien for kopš since. DE untouched."
+  },
+  "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sivu • Puoli\",\"study.explanation[0]\":\"Pääajatus: die Seite voi tarkoittaa kirjan tai asiakirjan sivua tai jonkin asian puolta/reunaa.\",\"study.explanation[1]\":\"Kirjassa, lehdessä tai verkkosivulla die Seite = sivu (Seite 5 = sivu 5).\",\"study.explanation[2]\":\"Paikallisessa merkityksessä die Seite = puoli (auf der linken Seite = vasemmalla puolella).\",\"study.explanation[3]\":\"Siirretyssä merkityksessä die Seite voi tarkoittaa puolta konfliktissa tai ajatuksissa (auf meiner Seite = minun puolellani).\",\"study.explanation[4]\":\"Konteksti (kirja/lukeminen tai paikka/suhteet) kertoo oikean merkityksen.\",\"study.explanation[5]\":\"Monikossa molemmissa merkityksissä: die Seiten.\",\"study.examples[0].lv\":\"Avatkaa sivu kaksikymmentä.\",\"study.examples[1].lv\":\"Vasemmalla puolella on puisto.\",\"study.examples[2].lv\":\"Verkkosivu latautuu hitaasti.\",\"study.examples[3].lv\":\"Hän on minun puolellani.\",\"study.examples[4].lv\":\"Kirjassa on 200 sivua.\",\"study.examples[5].lv\":\"Kadun toisella puolella.\",\"study.tip[0]\":\"Puhutaan kirjasta tai lukemisesta → sivu. Puhutaan sijainnista, suunnasta tai suhteista → puoli.\",\"study.tip[1]\":\"Sivu X kirjassa on aina sivu, ei puoli.\",\"study.important[0]\":\"die Seite = sivu TAI puoli — konteksti ratkaisee.\",\"study.important[1]\":\"Monikossa molemmissa merkityksissä: die Seiten.\"}",
+    "owner_note": "FI Seite: micro-repair study.examples[0].lv imperative Avatkaa. DE untouched."
+  },
+  "g2/a1/fi|Sekunde|idx:545|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sekunti",
+    "owner_note": "FI Sekunde lv: ET Sekund → FI Sekunti for sekunde second. DE untouched."
+  },
+  "g2/a1/fi|September|idx:546|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Syyskuu",
+    "owner_note": "FI September lv: ET September → FI Syyskuu for septembris September. DE untouched."
+  },
+  "g2/a1/fi|sich waschen|idx:646|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Peseytyä",
+    "owner_note": "FI sich waschen: micro-repair lv Peseytyä reflexive wash. DE untouched."
+  },
+  "g2/a1/fi|sich|idx:547|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Itsensä • Itselleen\",\"study.explanation[0]\":\"Pääajatus: sich osoittaa, että teko kohdistuu tekijään itseensä.\",\"study.explanation[1]\":\"Suomeksi sitä käännetään usein muodolla itse tai itselleen.\",\"study.explanation[2]\":\"Joillakin saksan verbeillä sich on pakollinen osa, esimerkiksi sich waschen.\",\"study.explanation[3]\":\"A1-tasolla on tärkeää huomata: ich wasche mich, er wäscht sich.\",\"study.examples[0].lv\":\"Hän peseytyy.\",\"study.examples[1].lv\":\"Istun alas.\",\"study.examples[2].lv\":\"Hän iloitsee.\",\"study.examples[3].lv\":\"Pesen auton.\",\"study.important[0]\":\"sich ei ole itsenäinen substantiivi.\",\"study.important[1]\":\"Se muuttuu henkilön mukaan: ich → mich, du → dich, er/sie/es → sich.\"}",
+    "owner_note": "FI sich: micro-repair lv Itsensä • Itselleen reflexive pronoun. DE untouched."
+  },
+  "g2/a1/fi|sicher|idx:548|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Turvallinen • Varmasti\",\"study.explanation[0]\":\"Pääajatus: sicher tarkoittaa adjektiivina varmaa/turvallista ja adverbina varmasti/luultavasti.\",\"study.explanation[1]\":\"Paikasta, tilanteesta tai ihmisestä puhuttaessa sicher = turvallinen (ein sicherer Ort = turvallinen paikka).\",\"study.explanation[2]\":\"Vahvistuksena tai vakuutuksena lauseessa sicher = varmasti/tietysti (Das ist sicher wahr. = Se on varmasti totta.).\",\"study.explanation[3]\":\"Sicher! erillisenä vastauksena tarkoittaa tietysti!/luultavasti!\",\"study.tip[0]\":\"Paikasta tai tilanteesta (turvallisuus) → turvallinen.\",\"study.tip[1]\":\"Vakuutuksena tai vahvistuksena lauseessa → varmasti/luultavasti.\",\"study.important[0]\":\"sicher = turvallinen (adjektiivi) TAI varmasti/luultavasti (adverbi).\",\"study.important[1]\":\"sich sicher sein = olla vakuuttunut.\"}",
+    "owner_note": "FI sicher: ET Kindel/Kindlasti + ET study → FI Turvallinen/Varmasti adj/adv contrast. DE untouched."
+  },
+  "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"He\",\"study.explanation[0]\":\"Pääajatus: Monikon muoto — puhutaan useasta henkilöstä. Verbi päättyy usein -en: kochen, essen, gehen.\",\"study.explanation[1]\":\"Sie (iso S) tarkoittaa pääasiassa: yhtä naista.\",\"study.explanation[2]\":\"Usein kuvaa: verbi yksikössä (-t).\",\"study.explanation[3]\":\"sie (pieni) tarkoittaa pääasiassa: useita henkilöitä.\",\"study.explanation[4]\":\"Usein kuvaa: verbi monikossa (-en).\",\"study.explanation[5]\":\"Sie (iso S) tarkoittaa myös: kohteliasta puhuttelua.\",\"study.explanation[6]\":\"Vaatii aina ison S-kirjaimen.\",\"study.explanation[7]\":\"Pieni sie yksikössä tarkoittaa häntä (Sie kocht = hän keittää).\",\"study.examples[0].lv\":\"He keittävät.\",\"study.examples[1].lv\":\"Hän keittää.\",\"study.examples[2].lv\":\"Hän syö.\",\"study.examples[3].lv\":\"He keittävät.\",\"study.examples[4].lv\":\"He pelaavat jalkapalloa.\",\"study.examples[5].lv\":\"Keittäkää, olkaa hyvä.\"}",
+    "owner_note": "FI sie: ET Nemad/nad + broken ET examples → FI He + sie/Sie distinction teaching with corrected examples. DE untouched."
+  },
+  "g2/a1/fi|Sie|idx:550|lv; study.explanation; study.tip; study.important; study.examples|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Te\",\"study.explanation[0]\":\"Pääajatus: Kohtelias puhuttelu — aina isolla S:llä. Suomeksi: te. Usein monikon verbin kanssa.\",\"study.explanation[1]\":\"Sie (iso S) tarkoittaa pääasiassa: yhtä naista.\",\"study.explanation[2]\":\"Usein kuvaa: verbi yksikössä (-t).\",\"study.explanation[3]\":\"sie (pieni) tarkoittaa pääasiassa: useita henkilöitä.\",\"study.explanation[4]\":\"Usein kuvaa: verbi monikossa (-en).\",\"study.explanation[5]\":\"Sie (iso S) tarkoittaa myös: kohteliasta puhuttelua.\",\"study.explanation[6]\":\"Vaatii aina ison S-kirjaimen.\",\"study.explanation[7]\":\"Pieni sie yksikössä tarkoittaa häntä (Sie kocht = hän keittää).\",\"study.tip[0]\":\"Kohtelias puhuttelu — aina isolla S. Suomeksi: te. Usein monikon verbin kanssa.\",\"study.tip[1]\":\"Käytä Sie, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"Kohtelias puhuttelu aina isolla S: Sie, ei sie.\",\"study.important[1]\":\"Hän: Sie kocht. He: sie kochen. Te: Sie kochen.\",\"study.important[2]\":\"Väärin: sie kocht → Oikein: Sie kocht\",\"study.important[3]\":\"Väärin: Sie kocht (he) → Oikein: Sie kochen\",\"study.examples[0].lv\":\"Keittäkää, olkaa hyvä.\",\"study.examples[1].lv\":\"Hän keittää.\",\"study.examples[2].lv\":\"Hän syö.\",\"study.examples[3].lv\":\"He keittävät.\",\"study.examples[4].lv\":\"He pelaavat jalkapalloa.\",\"study.examples[5].lv\":\"Keittäkää, olkaa hyvä.\"}",
+    "owner_note": "FI Sie: ET Teie + ET study/examples → FI Te formal you + Sie/sie distinction teaching. DE untouched."
+  },
+  "g2/a1/fi|siebenhundert|idx:551|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Seitäsataa",
+    "owner_note": "FI siebenhundert lv: ET Seitsesada → FI Seitäsataa for septiņsimt seven hundred. DE untouched."
+  },
+  "g2/a1/fi|siebente|idx:552|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Seitsemäs",
+    "owner_note": "FI siebente lv: ET Seitsmes → FI Seitsemäs for septītais seventh. DE untouched."
+  },
+  "g2/a1/fi|sitzen|idx:558|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Istua\",\"study.explanation[0]\":\"Pääajatus: sitzen tarkoittaa istumista.\",\"study.explanation[1]\":\"Sitzen käytetään ihmisestä tai eläimestä, joka istuu.\",\"study.explanation[2]\":\"Joskus sitzen tarkoittaa myös olla tietyssä paikassa, mutta A1-tasolla päämerkitys on istua.\",\"study.explanation[3]\":\"Tärkeää erottaa: sitzen = istua, stehen = seistä, liegen = maata/polla.\",\"study.tip.text\":\"Muista: istuen → sitzen; seisten → stehen; makuulla → liegen.\",\"study.important[0]\":\"sitzen osoittaa asentoa \\\"istua\\\".\",\"study.important[1]\":\"Istua alas on sich setzen, ei sitzen.\"}",
+    "owner_note": "FI sitzen: ET Istuma + ET study/tip → FI Istua + sitzen/stehen/liegen contrast. DE untouched."
+  },
+  "g2/a1/fi|sollen|idx:564|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pitäisi\",\"study.explanation[0]\":\"Pääajatus: sollen tarkoittaa, että jonkun pitäisi tehdä jotain tai hänen pitää tehdä jotain ohjeen mukaan.\",\"study.explanation[1]\":\"Sollen käytetään usein, kun joku muu sanoo, mitä tehdä.\",\"study.explanation[2]\":\"Se ei ole yhtä vahva kuin müssen.\",\"study.explanation[3]\":\"Hyvin yleinen fraasi on Was soll ich machen? = Mitä minun pitäisi tehdä?\",\"study.tip.text\":\"Muista: joku sanoo mitä tehdä → sollen; pakko tehdä → müssen.\",\"study.important[0]\":\"Was soll ich machen? on hyvin yleinen ilmaus.\",\"study.important[1]\":\"sollen ja müssen eivät ole täysin identtisiä.\"}",
+    "owner_note": "FI sollen: ET Peaks + ET study/tip → FI Pitäisi modal should vs müssen. DE untouched."
+  },
+  "g2/a1/fi|sprechen|idx:5|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Puhua\",\"study.translation\":\"Puhua\",\"study.explanation[0]\":\"Pääajatus: puhua, keskustella tai käyttää kieltä.\",\"study.explanation[1]\":\"Sprechen tarkoittaa pääasiassa: puhua tai keskustella.\",\"study.explanation[2]\":\"Kuvaa usein: kieltä/keskustelua.\",\"study.explanation[3]\":\"Sprechen kuvaa puhumista tai kielen käyttöä.\",\"study.examples[0].lv\":\"Puhun saksaa.\",\"study.examples[1].lv\":\"Puhumme työstä.\",\"study.examples[2].lv\":\"Hän puhuu opettajansa kanssa.\",\"study.tip[0]\":\"sprechen = puhua\",\"study.tip[1]\":\"Käytä sprechen, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"sprechen = puhua.\",\"study.important[1]\":\"Puhua, keskustella tai käyttää kieltä.\"}",
+    "owner_note": "FI sprechen: ET Rääkima + ET study → FI Puhua speak/talk teaching. DE untouched."
+  },
+  "g2/a1/fi|Staat|idx:697|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Valtio",
+    "owner_note": "FI Staat lv: ET Riik → FI Valtio for valsts state. DE untouched."
+  }
+}

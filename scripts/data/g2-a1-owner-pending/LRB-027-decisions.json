@@ -1,0 +1,302 @@
+{
+  "g2/a1/hu|Wetter|idx:658|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Időjárás\",\"study.translation\":\"Időjárás\",\"study.explanation\":[\"Fő gondolat: a das Wetter az időjárást jelenti – napos, esős, hideg vagy meleg.\",\"Magyarul az időjárás kifejezetten az ég és a külső viszonyokra utal – nem ugyanaz, mint die Zeit (idő).\",\"Wie ist das Wetter heute? = Milyen az időjárás ma?\",\"A das Wetter-t gyakran használják olyan szavakkal együtt, mint meleg vagy kalt.\",\"Nem tévesztendő össze a die Zeit-tel – az idő mint pillanat vagy lehetőség (Ich habe keine Zeit).\"],\"study.examples\":[{\"de\":\"Wie ist das Wetter heute?\",\"lv\":\"Milyen az időjárás ma?\"},{\"de\":\"Das Wetter ist schön.\",\"lv\":\"Szép az időjárás.\"},{\"de\":\"Das Wetter ist schlecht.\",\"lv\":\"Rossz az időjárás.\"},{\"de\":\"Im Winter ist das Wetter oft kalt.\",\"lv\":\"Télen gyakran hideg az időjárás.\"},{\"de\":\"Wir sprechen über das Wetter.\",\"lv\":\"Az időjárásról beszélünk.\"},{\"de\":\"Morgen wird das Wetter besser.\",\"lv\":\"Holnap jobb időjárás lesz.\"}],\"study.comparison\":[{\"word\":\"Wetter\",\"meaning\":\"Időjárási viszonyok\",\"example\":\"Das Wetter ist schön.\"},{\"word\":\"Zeit\",\"meaning\":\"Idő (pillanat)\",\"example\":\"Ich habe keine Zeit.\"},{\"word\":\"Regen\",\"meaning\":\"Eső\",\"example\":\"Es regnet.\"},{\"word\":\"Sonne\",\"meaning\":\"Nap / napsütés\",\"example\":\"Die Sonne scheint.\"}],\"study.tip\":[\"Ha nap, eső vagy hőmérséklet az év külső részéről van szó – használd a das Wetter szót.\",\"Emlékezz: Wie ist das Wetter? = Milyen az időjárás? (nem az óra).\"],\"study.important\":[\"das Wetter = időjárás, nem pedig az óra.\",\"die Zeit = idő mint pillanat vagy lehetőség – más lap az A1-ben.\"]}",
+    "owner_note": "HU Wetter card: gala repair full study; remove lett residue; Wetter vs Zeit contrast; fix examples. DE untouched."
+  },
+  "g2/a1/hu|wie|idx:660|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Hogyan • Mennyi\",\"study.translation\":\"Hogyan • Mennyi\",\"study.explanation\":[\"Fő ötlet: a wie a módra (hogyan) és a mennyiségre/korra/időtartamra (mennyi) kérdez, a kontextustól függően.\",\"A wie önmagában (Wie geht's?) az útról vagy állapotról kérdez – magyarul hogyan.\",\"A wie + melléknév (wie viel, wie alt, wie lange) mennyiségre, korra vagy időtartamra kérdez.\",\"Wie viel(e) = mennyi • Wie alt = hány éves • Wie lange = meddig.\",\"Összehasonlításban: so ... wie = olyan ... mint.\"],\"study.tip\":[\"A wie önmagában = hogyan (mód); wie + melléknév (viel/alt/lange) = mennyi/meddig.\",\"Az összehasonlításban so ... wie = olyan ... mint.\"],\"study.important\":[\"wie viel(e) = mennyi; wie alt = hány éves; wie lange = meddig.\",\"A wie egyedül (Wie...?) általában = hogyan, nem pedig mennyi.\",\"Helytelen: Mennyi mész? → Helyes: Hogyan vagy? (Wie geht's?)\"]}",
+    "owner_note": "HU wie card: gala repair full study; remove lett/lettül; wie=hogyan, wie viel=mennyi, so...wie. DE untouched."
+  },
+  "g2/a1/hu|Zeit|idx:699|lv, study.translation, study.explanation, study.examples, study.tip, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important\":[\"die Zeit: idő mint pillanat vagy lehetőség – nem időjárás.\",\"die Zeit: ellenőrizd a szövegkörnyezetet a használat előtt.\"],\"study.tip\":[\"Fő gondolat: az idő mint fogalom – pillanat, lehetőség, időszak.\",\"Használd a die Zeit szót, ha időről vagy lehetőségről beszélsz.\"]}",
+    "owner_note": "HU Zeit card: gala repair duplicate important/tip; NELABOT lv/translation OK. DE untouched."
+  },
+  "g2/a1/hu|zu|idx:668|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-hoz/-hez/-höz • -ba/-be\",\"study.translation\":\"-hoz/-hez/-höz • -ba/-be\",\"study.explanation\":[\"Fő gondolat: a zu nagyon gyakran azt jelenti, hogy hozzá/hez vagy be, de szerepe van az infinitívus mellett is.\",\"Emberek és intézmények esetében a zu gyakran -hoz/-hez vagy -ba/-be jelentést ad.\",\"Melléknéveknél a zu gyakran túl jelentést ad: zu teuer = túl drága.\",\"A zu + határozatlan szerkezetben segíti az infinitívust: zu lernen, zu gehen.\"],\"study.comparison[0].meaning\":\"-hoz/-hez • -ba/-be / túl / infinitív\",\"study.tip\":{\"text\":\"Emlékezz: az orvoshoz → zum Arzt; túl drága → zu teuer.\"}}",
+    "owner_note": "HU zu card: gala repair EN at residue + LV tip→HU for uz•pie. DE untouched."
+  },
+  "g2/a1/hu|Zug|idx:671|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vonat\",\"study.translation\":\"Vonat\",\"study.comparison[0].meaning\":\"Vonat\",\"study.comparison[1].meaning\":\"Vasút / vonattal utazás\",\"study.tip\":{\"text\":\"Emlékezz: konkrét vonat → der Zug.\"}}",
+    "owner_note": "HU Zug card: gala repair LV tip→HU for vilciens train. DE untouched."
+  },
+  "g2/a1/is|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"frá • uppruni\"}",
+    "owner_note": "IS ab comparison[1]: ET Kellestki/Päritolu→frá•uppruni for no kāda•izcelsme. DE untouched."
+  },
+  "g2/a1/is|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"enem • kærleiki • en\"}",
+    "owner_note": "IS aber comparison[0]: FI Vastand/Vastuväide→enem•kærleiki•en for pretstats•iebilde•tomēr. DE untouched."
+  },
+  "g2/a1/is|a1-also|a1.card.a1-also.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"því • þar af leiðandi\"}",
+    "owner_note": "IS also comparison[0]: ET Seega/Järelikult→því•þar af leiðandi for tātad•līdz ar to. DE untouched."
+  },
+  "g2/a1/is|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"við • á • nálægt\"}",
+    "owner_note": "IS an native: ET Juures/Peal/Ligi→við•á•nálægt for pie at/near. DE untouched."
+  },
+  "g2/a1/is|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"við • á • nálægt\"}",
+    "owner_note": "IS an translation: ET/Finnish residue→við•á•nálægt for pie. DE untouched."
+  },
+  "g2/a1/is|a1-aufs|a1.card.a1-aufs.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"á • upp á • hvert?\"}",
+    "owner_note": "IS aufs native: ET Peale/Otsa/Kuhu→á•upp á•hvert? for uz onto. DE untouched."
+  },
+  "g2/a1/is|a1-aufs|a1.card.a1-aufs.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"á • upp á • hvert?\"}",
+    "owner_note": "IS aufs translation: ET Peale/Otsa/Kuhu→á•upp á•hvert? for uz onto. DE untouched."
+  },
+  "g2/a1/is|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"úr • frá\"}",
+    "owner_note": "IS aus native: NO -st/Velg→úr•frá for no from. DE untouched."
+  },
+  "g2/a1/is|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"úr • frá\"}",
+    "owner_note": "IS aus translation: NO -st/Velg→úr•frá for no from. DE untouched."
+  },
+  "g2/a1/is|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"heimsókn • koma • gestir\"}",
+    "owner_note": "IS besuch comparison[0]: duplicate heimsókn→heimsókn•koma•gestir for apmeklējums•apciemojums•vizīte. DE untouched."
+  },
+  "g2/a1/is|a1-besuchen|a1.card.a1-besuchen.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"heimsækja stað eða viðburð • heimsækja mann\"}",
+    "owner_note": "IS besuchen comparison[0]: SV besóka mann→heimsækja mann for apciemot personu. DE untouched."
+  },
+  "g2/a1/is|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"færa • koma með\"}",
+    "owner_note": "IS bringen native: ET Tooma/Viima→færa•koma með for atnest bring. DE untouched."
+  },
+  "g2/a1/is|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"færa • koma með\"}",
+    "owner_note": "IS bringen translation: ET Tooma/Viima→færa•koma með for atnest bring. DE untouched."
+  },
+  "g2/a1/is|a1-da|a1.card.a1-da.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"þar • hér • hérna\"}",
+    "owner_note": "IS da comparison[0]: ET Sel/Siin/Siinsamas→þar•hér•hérna for tur•te•šeit. DE untouched."
+  },
+  "g2/a1/is|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[2].meaning\":\"sá • sú • það\"}",
+    "owner_note": "IS das comparison[2]: ET Mis/Mille/Mida→sá•sú•það for kurš•kura•kuru. DE untouched."
+  },
+  "g2/a1/is|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"að • því að\"}",
+    "owner_note": "IS dass comparison[1]: NO/DK Sest/Det er derfor→að•því að for jo•tāpēc ka. DE untouched."
+  },
+  "g2/a1/is|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"óákveðinn greinir • einn • einhver\"}",
+    "owner_note": "IS ein native: ET Umbmäärane/Üks/Mingi→óákveðinn greinir•einn•einhver for nenoteiktais artikuls. DE untouched."
+  },
+  "g2/a1/is|a1-ein|a1.card.a1-ein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"óákveðinn greinir • einn • einhver\"}",
+    "owner_note": "IS ein translation: ET Umbmäärane/Üks/Mingi→óákveðinn greinir•einn•einhver. DE untouched."
+  },
+  "g2/a1/is|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"einu sinni • skipti\"}",
+    "owner_note": "IS einmal native: duplicate einu sinni→einu sinni•skipti for vienreiz•reiz. DE untouched."
+  },
+  "g2/a1/is|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"einu sinni • skipti\"}",
+    "owner_note": "IS einmal translation: duplicate einu sinni→einu sinni•skipti for vienreiz•reiz. DE untouched."
+  },
+  "g2/a1/is|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ís • rjómaís\"}",
+    "owner_note": "IS eis native: ísbúð→rjómaís ice cream for ledus•saldējums. DE untouched."
+  },
+  "g2/a1/is|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"ís • rjómaís\"}",
+    "owner_note": "IS eis translation: ísbúð→rjómaís for ledus•saldējums. DE untouched."
+  },
+  "g2/a1/is|a1-erst|a1.card.a1-erst.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fyrst • aðeins\"}",
+    "owner_note": "IS erst native: NO Først av alt/Alles→fyrst•aðeins for tikai/vispirms. DE untouched."
+  },
+  "g2/a1/is|a1-erst|a1.card.a1-erst.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"fyrst • aðeins\"}",
+    "owner_note": "IS erst comparison[0]: NO Først av alt/Alles→fyrst•aðeins for vispirms•tikai. DE untouched."
+  },
+  "g2/a1/is|a1-erst|a1.card.a1-erst.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"fyrst • aðeins\"}",
+    "owner_note": "IS erst translation: NO Først av alt/Alles→fyrst•aðeins for tikai. DE untouched."
+  },
+  "g2/a1/is|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"það • ópersónulegt\"}",
+    "owner_note": "IS es native: duplicate það→það•ópersónulegt for tas impersonal. DE untouched."
+  },
+  "g2/a1/is|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IS es comparison[0]: það•óeinstakling mynd already correct Icelandic for tas•bezpersoniska forma. DE untouched."
+  },
+  "g2/a1/is|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"það\"}",
+    "owner_note": "IS es translation: duplicate það→það single for tas. DE untouched."
+  },
+  "g2/a1/is|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eitthvað\"}",
+    "owner_note": "IS etwas native: duplicate eitthvað→eitthvað single for kaut kas. DE untouched."
+  },
+  "g2/a1/is|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"eitthvað\"}",
+    "owner_note": "IS etwas translation: duplicate eitthvað→eitthvað single for kaut kas. DE untouched."
+  },
+  "g2/a1/is|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ykkur\"}",
+    "owner_note": "IS euch native: duplicate ykkur→ykkur single for jūs•jums. DE untouched."
+  },
+  "g2/a1/is|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"ykkur\"}",
+    "owner_note": "IS euch translation: duplicate ykkur→ykkur single for jūs•jums. DE untouched."
+  },
+  "g2/a1/is|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"aka • keyra\"}",
+    "owner_note": "IS fahren native: remove færa→aka•keyra for braukt drive/travel. DE untouched."
+  },
+  "g2/a1/is|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"aka • keyra\"}",
+    "owner_note": "IS fahren translation: remove færa→aka•keyra for braukt. DE untouched."
+  },
+  "g2/a1/is|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"finna • telja\"}",
+    "owner_note": "IS finden native: ET Leidma/Arvama→finna•telja for atrast. DE untouched."
+  },
+  "g2/a1/is|a1-finden|a1.card.a1-finden.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"finna • telja\"}",
+    "owner_note": "IS finden translation: ET Leidma/Arvama→finna•telja for atrast. DE untouched."
+  },
+  "g2/a1/is|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kona\"}",
+    "owner_note": "IS frau native: duplicate kona•eiginkona→kona for sieviete woman. DE untouched."
+  },
+  "g2/a1/is|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"kona\"}",
+    "owner_note": "IS frau translation: duplicate kona•eiginkona→kona for sieviete. DE untouched."
+  },
+  "g2/a1/is|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fyrir • handa\"}",
+    "owner_note": "IS fuer native: ET Jaoks/Eest→fyrir•handa for priekš. DE untouched."
+  },
+  "g2/a1/is|a1-fuer|a1.card.a1-fuer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"fyrir • handa\"}",
+    "owner_note": "IS fuer translation: ET Jaoks/Eest→fyrir•handa for priekš. DE untouched."
+  },
+  "g2/a1/is|a1-ganz-study|a1.card.a1-ganz-study.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IS ganz comparison[0]: heill•allt í heild•fullkomlega already correct Icelandic for vesels•viss kopumā•pilnīgi. DE untouched."
+  },
+  "g2/a1/is|a1-gefallen-study|a1.card.a1-gefallen-study.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "IS gefallen comparison[0]: finnast•persóna í þolfalli already correct Icelandic for patikt•persona datīvā. DE untouched."
+  },
+  "g2/a1/is|a1-gleich|a1.card.a1-gleich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"strax • jafn\"}",
+    "owner_note": "IS gleich native: ET Kohe/Ëësäkää→strax•jafn for tūlīt/immediately vs equal. DE untouched."
+  },
+  "g2/a1/is|a1-gleich|a1.card.a1-gleich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"strax • jafn\"}",
+    "owner_note": "IS gleich translation: ET Kohe/Ëësäkää→strax•jafn for tūlīt. DE untouched."
+  },
+  "g2/a1/is|a1-halten|a1.card.a1-halten.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"halda • stöðva\"}",
+    "owner_note": "IS halten native: ET Hoidma/Peatama→halda•stöðva for turēt hold/stop. DE untouched."
+  }
+}

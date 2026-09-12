@@ -1,0 +1,21 @@
+{
+  "batch_id": "LRB-006",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T07:55:00.000Z",
+  "linguisticVerdict": "LRB_006_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "pdfReaudit": true,
+  "note": "OWNER authorization recorded after GPT-5.6 Luna PDF-standard reaudit (passen/sich/wer/machen/nehmen repairs) and fresh 50/50 gates. DE/production/Crowdin/ingest/apply unchanged."
+}
