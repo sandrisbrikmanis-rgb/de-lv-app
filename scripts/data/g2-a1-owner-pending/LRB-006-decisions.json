@@ -3,300 +3,300 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Maksaa (hinta) • Paljonko maksaa",
-    "owner_note": "FI kosten comparison[0]: ET Maksma/Kui palju → FI Maksaa/Paljonko for maksāt (cenu) • cik maksā. DE untouched."
+    "owner_note": "FI a1-kosten gala: ET leak repair → \"Maksaa (hinta) • Paljonko maksaa\". DE untouched."
   },
   "g2/a1/fi|a1-land|a1.card.a1-land.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Valtio • Maa",
-    "owner_note": "FI land native: ET Riik/Maa → FI Valtio/Maa country vs land/earth valsts • zeme. DE untouched."
+    "owner_note": "FI a1-land gala: ET leak repair → \"Valtio • Maa\". DE untouched."
   },
   "g2/a1/fi|a1-land|a1.card.a1-land.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Valtio • Maa",
-    "owner_note": "FI land study.translation: ET → FI Valtio/Maa mirrors native repair. DE untouched."
+    "owner_note": "FI a1-land gala: ET leak repair → \"Valtio • Maa\". DE untouched."
   },
   "g2/a1/fi|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Pitkä • Pitkäkestoinen",
-    "owner_note": "FI lang native micro-repair: Pitkä/Pitkään → Pitkä/Pitkäkestoinen; pitkä=garš, pitkäkestoinen=ilgs (pitkään=ilgi neder). DE untouched."
+    "owner_note": "FI a1-lang gala: ET leak repair → \"Pitkä • Pitkäkestoinen\". DE untouched."
   },
   "g2/a1/fi|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Pitkä • Pitkäkestoinen",
-    "owner_note": "FI lang study.translation micro-repair: Pitkä/Pitkään → Pitkä/Pitkäkestoinen mirrors native; pitkäkestoinen=ilgs. DE untouched."
+    "owner_note": "FI a1-lang gala: ET leak repair → \"Pitkä • Pitkäkestoinen\". DE untouched."
   },
   "g2/a1/fi|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jättää • Antaa",
-    "owner_note": "FI lassen native: ET Jätma/Laskma → FI Jättää/Antaa leave/let atstāt • ļaut. DE untouched."
+    "owner_note": "FI a1-lassen gala: ET leak repair → \"Jättää • Antaa\". DE untouched."
   },
   "g2/a1/fi|a1-lassen|a1.card.a1-lassen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jättää • Antaa",
-    "owner_note": "FI lassen study.translation: ET → FI Jättää/Antaa mirrors native repair. DE untouched."
+    "owner_note": "FI a1-lassen gala: ET leak repair → \"Jättää • Antaa\". DE untouched."
   },
   "g2/a1/fi|a1-laufen|a1.card.a1-laufen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Juosta • Toimia",
-    "owner_note": "FI laufen native: ET Jooksma/Töötama → FI Juosta/Toimia run vs work skriet • darboties. DE untouched."
+    "owner_note": "FI a1-laufen gala: ET leak repair → \"Juosta • Toimia\". DE untouched."
   },
   "g2/a1/fi|a1-laufen|a1.card.a1-laufen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Juosta • Toimia",
-    "owner_note": "FI laufen study.translation: ET → FI Juosta/Toimia mirrors native repair. DE untouched."
+    "owner_note": "FI a1-laufen gala: ET leak repair → \"Juosta • Toimia\". DE untouched."
   },
   "g2/a1/fi|a1-liegen|a1.card.a1-liegen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Olla • Makata",
-    "owner_note": "FI liegen native: ET Asuma/Lamama → FI Olla/Makata located vs lying atrasties • gulēt. DE untouched."
+    "owner_new": "Sijaita • Maata",
+    "owner_note": "FI a1-liegen gala: atrasties•gulēt→Sijaita•Maata; no Olla•Makata. DE untouched."
   },
   "g2/a1/fi|a1-liegen|a1.card.a1-liegen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Olla • Makata",
-    "owner_note": "FI liegen study.translation: ET → FI Olla/Makata mirrors native repair. DE untouched."
+    "owner_new": "Sijaita • Maata",
+    "owner_note": "FI a1-liegen gala: atrasties•gulēt→Sijaita•Maata; no Olla•Makata. DE untouched."
   },
   "g2/a1/fi|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Tehdä • Valmistaa",
-    "owner_note": "FI machen native: ET Tegema/Valmistama → FI Tehdä/Valmistaa do vs make/cook darīt • taisīt. DE untouched."
+    "owner_new": "Tehdä • Laatia",
+    "owner_note": "FI a1-machen gala: darīt•taisīt→Tehdä•Laatia; no Valmistaa/sagatavot expansion. DE untouched."
   },
   "g2/a1/fi|a1-machen|a1.card.a1-machen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Tehdä • Valmistaa",
-    "owner_note": "FI machen study.translation: ET → FI Tehdä/Valmistaa mirrors native repair. DE untouched."
+    "owner_new": "Tehdä • Laatia",
+    "owner_note": "FI a1-machen gala: darīt•taisīt→Tehdä•Laatia; no Valmistaa/sagatavot expansion. DE untouched."
   },
   "g2/a1/fi|a1-mann|a1.card.a1-mann.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Mies • Aviomies",
-    "owner_note": "FI mann native: ET Mees/Abikaasa → FI Mies/Aviomies man vs husband vīrietis • vīrs. DE untouched."
+    "owner_note": "FI a1-mann gala: ET leak repair → \"Mies • Aviomies\". DE untouched."
   },
   "g2/a1/fi|a1-mann|a1.card.a1-mann.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Mies • Aviomies",
-    "owner_note": "FI mann study.translation: ET → FI Mies/Aviomies mirrors native repair. DE untouched."
+    "owner_note": "FI a1-mann gala: ET leak repair → \"Mies • Aviomies\". DE untouched."
   },
   "g2/a1/fi|a1-nach|a1.card.a1-nach.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "-(i)in • Jälkeen",
-    "owner_note": "FI nach native: ET -sse/Pärast → FI -(i)in/Jälkeen to vs after uz • pēc. DE untouched."
+    "owner_note": "FI a1-nach gala: ET leak repair → \"-(i)in • Jälkeen\". DE untouched."
   },
   "g2/a1/fi|a1-nach|a1.card.a1-nach.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "-(i)in • Jälkeen",
-    "owner_note": "FI nach study.translation: ET → FI -(i)in/Jälkeen mirrors native repair. DE untouched."
+    "owner_note": "FI a1-nach gala: ET leak repair → \"-(i)in • Jälkeen\". DE untouched."
   },
   "g2/a1/fi|a1-natuerlich|a1.card.a1-natuerlich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Tietysti • Luonnollinen",
-    "owner_note": "FI natürlich native: ET Muidugi/Loomulik → FI Tietysti/Luonnollinen of-course vs natural protams • dabisks. DE untouched."
+    "owner_note": "FI a1-natuerlich gala: ET leak repair → \"Tietysti • Luonnollinen\". DE untouched."
   },
   "g2/a1/fi|a1-natuerlich|a1.card.a1-natuerlich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Tietysti • Luonnollinen",
-    "owner_note": "FI natürlich study.translation: ET → FI Tietysti/Luonnollinen mirrors native repair. DE untouched."
+    "owner_note": "FI a1-natuerlich gala: ET leak repair → \"Tietysti • Luonnollinen\". DE untouched."
   },
   "g2/a1/fi|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Ottaa • Poimia",
-    "owner_note": "FI nehmen native: ET Võtma/Kätte võtma → FI Ottaa/Poimia take vs pick-up ņemt • paņemt. DE untouched."
+    "owner_new": "Ottaa • Ottaa mukaan",
+    "owner_note": "FI a1-nehmen gala: ņemt•paņemt→Ottaa•Ottaa mukaan; no Poimia. DE untouched."
   },
   "g2/a1/fi|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Ottaa • Poimia",
-    "owner_note": "FI nehmen study.translation: ET → FI Ottaa/Poimia mirrors native repair. DE untouched."
+    "owner_new": "Ottaa • Ottaa mukaan",
+    "owner_note": "FI a1-nehmen gala: ņemt•paņemt→Ottaa•Ottaa mukaan; no Poimia. DE untouched."
   },
   "g2/a1/fi|a1-neu|a1.card.a1-neu.study.explanation[5]|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Vastakohta on alt (vanha) • Substantiivi das Neue tarkoittaa jotain uutta.",
-    "owner_note": "FI neu explanation[5]: ET Vastand/Nimisõna → FI Vastakohta/Substantiivi alt vs das Neue contrast line. DE untouched."
+    "owner_new": "Vastakohta on alt (vanha); Substantiivi das Neue tarkoittaa jotain uutta.",
+    "owner_note": "FI a1-neu gala: ET leak repair → \"Vastakohta on alt (vanha); Substantiivi das Neue tarkoittaa jotain uutta.\". DE untouched."
   },
   "g2/a1/fi|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Vain • Ainoastaan",
-    "owner_note": "FI nur native: ET Ainult/Üksnes → FI Vain/Ainoastaan only tikai • vienīgi. DE untouched."
+    "owner_note": "FI a1-nur-study gala: ET leak repair → \"Vain • Ainoastaan\". DE untouched."
   },
   "g2/a1/fi|a1-nur-study|a1.card.a1-nur-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Vain • Ainoastaan",
-    "owner_note": "FI nur study.translation: ET → FI Vain/Ainoastaan mirrors native repair. DE untouched."
+    "owner_note": "FI a1-nur-study gala: ET leak repair → \"Vain • Ainoastaan\". DE untouched."
   },
   "g2/a1/fi|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Vai • Tai",
-    "owner_note": "FI oder native: ET Või/Ehk → FI Vai/Tai choice or vai • jeb. DE untouched."
+    "owner_note": "FI a1-oder gala: ET leak repair → \"Vai • Tai\". DE untouched."
   },
   "g2/a1/fi|a1-oder|a1.card.a1-oder.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Vai • Tai",
-    "owner_note": "FI oder study.translation: ET → FI Vai/Tai mirrors native repair. DE untouched."
+    "owner_note": "FI a1-oder gala: ET leak repair → \"Vai • Tai\". DE untouched."
   },
   "g2/a1/fi|a1-passen|a1.card.a1-passen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Sopia • Sopia hyvin",
-    "owner_note": "FI passen native: ET Sobima/Hästi sobima → FI Sopia/Sopia hyvin fit derēt • piestāvēt. DE untouched."
+    "owner_new": "Sopia • Sovittua",
+    "owner_note": "FI a1-passen gala: derēt•piestāvēt→Sopia•Sovittua; no Sopia hyvin. DE untouched."
   },
   "g2/a1/fi|a1-passen|a1.card.a1-passen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Sopia • Sopia hyvin",
-    "owner_note": "FI passen study.translation: ET → FI Sopia/Sopia hyvin mirrors native repair. DE untouched."
+    "owner_new": "Sopia • Sovittua",
+    "owner_note": "FI a1-passen gala: derēt•piestāvēt→Sopia•Sovittua; no Sopia hyvin. DE untouched."
   },
   "g2/a1/fi|a1-probieren|a1.card.a1-probieren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kokeilla • Maistaa",
-    "owner_note": "FI probieren native: ET Proovima/Maitsma → FI Kokeilla/Maistaa try vs taste izmēģināt • nogaršot. DE untouched."
+    "owner_note": "FI a1-probieren gala: ET leak repair → \"Kokeilla • Maistaa\". DE untouched."
   },
   "g2/a1/fi|a1-probieren|a1.card.a1-probieren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kokeilla • Maistaa",
-    "owner_note": "FI probieren study.translation: ET → FI Kokeilla/Maistaa mirrors native repair. DE untouched."
+    "owner_note": "FI a1-probieren gala: ET leak repair → \"Kokeilla • Maistaa\". DE untouched."
   },
   "g2/a1/fi|a1-seite|a1.card.a1-seite.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Sivu • Puoli",
-    "owner_note": "FI seite native: ET Lehekülg/Külg → FI Sivu/Puoli page vs side lappuse • puse. DE untouched."
+    "owner_note": "FI a1-seite gala: ET leak repair → \"Sivu • Puoli\". DE untouched."
   },
   "g2/a1/fi|a1-seite|a1.card.a1-seite.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Sivu • Puoli",
-    "owner_note": "FI seite study.translation: ET → FI Sivu/Puoli mirrors native repair. DE untouched."
+    "owner_note": "FI a1-seite gala: ET leak repair → \"Sivu • Puoli\". DE untouched."
   },
   "g2/a1/fi|a1-sich|a1.card.a1-sich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Itse • Itselleen",
-    "owner_note": "FI sich native: ET End/Endale → FI Itse/Itselleen reflexive sevi • sev. DE untouched."
+    "owner_note": "FI a1-sich gala: ET leak repair → \"Itse • Itselleen\". DE untouched."
   },
   "g2/a1/fi|a1-sich|a1.card.a1-sich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Itse • Itselleen",
-    "owner_note": "FI sich study.translation: ET → FI Itse/Itselleen mirrors native repair. DE untouched."
+    "owner_note": "FI a1-sich gala: ET leak repair → \"Itse • Itselleen\". DE untouched."
   },
   "g2/a1/fi|a1-sicher|a1.card.a1-sicher.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Turvallinen • Varmasti",
-    "owner_note": "FI sicher native: ET Kindel/Kindlasti → FI Turvallinen/Varmasti safe vs certainly drošs • noteikti. DE untouched."
+    "owner_note": "FI a1-sicher gala: ET leak repair → \"Turvallinen • Varmasti\". DE untouched."
   },
   "g2/a1/fi|a1-sicher|a1.card.a1-sicher.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Turvallinen • Varmasti",
-    "owner_note": "FI sicher study.translation: ET → FI Turvallinen/Varmasti mirrors native repair. DE untouched."
+    "owner_note": "FI a1-sicher gala: ET leak repair → \"Turvallinen • Varmasti\". DE untouched."
   },
   "g2/a1/fi|a1-ueber|a1.card.a1-ueber.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Yllä • Aiheesta",
-    "owner_note": "FI über native: ET Kohal/Kohta → FI Yllä/Aiheesta over vs about virs • par. DE untouched."
+    "owner_note": "FI a1-ueber gala: ET leak repair → \"Yllä • Aiheesta\". DE untouched."
   },
   "g2/a1/fi|a1-ueber|a1.card.a1-ueber.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Yllä • Aiheesta",
-    "owner_note": "FI über study.translation: ET → FI Yllä/Aiheesta mirrors native repair. DE untouched."
+    "owner_note": "FI a1-ueber gala: ET leak repair → \"Yllä • Aiheesta\". DE untouched."
   },
   "g2/a1/fi|a1-um|a1.card.a1-um.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Noin • Kello",
-    "owner_note": "FI um native: ET Umbes/Kell → FI Noin/Kello around vs at-time ap • pulksten. DE untouched."
+    "owner_note": "FI a1-um gala: ET leak repair → \"Noin • Kello\". DE untouched."
   },
   "g2/a1/fi|a1-um|a1.card.a1-um.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Noin • Kello",
-    "owner_note": "FI um study.translation: ET → FI Noin/Kello mirrors native repair. DE untouched."
+    "owner_note": "FI a1-um gala: ET leak repair → \"Noin • Kello\". DE untouched."
   },
   "g2/a1/fi|a1-verstehen|a1.card.a1-verstehen.study.explanation[2]|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Suomeksi ei täällä yleensä tarvita sanoja «osata» tai «voida» • Ne vastaavat useammin sanaa können.",
-    "owner_note": "FI verstehen explanation[2]: ET oskama/suutma/können note → FI osata/voida/können teaching line. DE untouched."
+    "owner_new": "Suomeksi ei täällä yleensä tarvita sanoja «osata» tai «voida»; Ne vastaavat useammin sanaa können.",
+    "owner_note": "FI a1-verstehen gala: ET leak repair → \"Suomeksi ei täällä yleensä tarvita sanoja «osata» tai «voida»; Ne vastaavat useammin sanaa können.\". DE untouched."
   },
   "g2/a1/fi|a1-vor|a1.card.a1-vor.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ennen • Edessä",
-    "owner_note": "FI vor native: ET Enne/Ees → FI Ennen/Edessä before-time vs in-front pirms • priekšā. DE untouched."
+    "owner_note": "FI a1-vor gala: ET leak repair → \"Ennen • Edessä\". DE untouched."
   },
   "g2/a1/fi|a1-vor|a1.card.a1-vor.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ennen • Edessä",
-    "owner_note": "FI vor study.translation: ET → FI Ennen/Edessä mirrors native repair. DE untouched."
+    "owner_note": "FI a1-vor gala: ET leak repair → \"Ennen • Edessä\". DE untouched."
   },
   "g2/a1/fi|a1-was|a1.card.a1-was.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Mikä • Mitä",
-    "owner_note": "FI was native: ET Mis/Mida → FI Mikä/Mitä what nom/acc kas • ko. DE untouched."
+    "owner_note": "FI a1-was gala: kas•ko→Mikä•Mitä lexical nom/acc fidelity. DE untouched."
   },
   "g2/a1/fi|a1-was|a1.card.a1-was.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Mikä • Mitä",
-    "owner_note": "FI was study.translation: ET → FI Mikä/Mitä mirrors native repair. DE untouched."
+    "owner_note": "FI a1-was gala: kas•ko→Mikä•Mitä lexical nom/acc fidelity. DE untouched."
   },
   "g2/a1/fi|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jos (ehto) • Kun (aika)",
-    "owner_note": "FI wenn native: ET Kui tingimus/aeg → FI Jos/Kun if vs when ja • kad. DE untouched."
+    "owner_note": "FI a1-wenn gala: ET leak repair → \"Jos (ehto) • Kun (aika)\". DE untouched."
   },
   "g2/a1/fi|a1-wenn|a1.card.a1-wenn.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jos (ehto) • Kun (aika)",
-    "owner_note": "FI wenn study.translation: ET → FI Jos/Kun mirrors native repair. DE untouched."
+    "owner_note": "FI a1-wenn gala: ET leak repair → \"Jos (ehto) • Kun (aika)\". DE untouched."
   },
   "g2/a1/fi|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Kuka • Kumpi",
-    "owner_note": "FI wer native: ET Kes/Kumb → FI Kuka/Kumpi who vs which-of-two kas • kurš. DE untouched."
+    "owner_new": "Kuka • Joka",
+    "owner_note": "FI a1-wer gala: kas•kurš→Kuka•Joka; no Kumpi (which-of-two). DE untouched."
   },
   "g2/a1/fi|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Kuka • Kumpi",
-    "owner_note": "FI wer study.translation: ET → FI Kuka/Kumpi mirrors native repair. DE untouched."
+    "owner_new": "Kuka • Joka",
+    "owner_note": "FI a1-wer gala: kas•kurš→Kuka•Joka; no Kumpi (which-of-two). DE untouched."
   },
   "g2/a1/fi|a1-wie|a1.card.a1-wie.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Miten • Kuinka",
-    "owner_note": "FI wie native: ET Kuidas/Kui → FI Miten/Kuinka how-manner vs how-much kā • cik. DE untouched."
+    "owner_note": "FI a1-wie gala: ET leak repair → \"Miten • Kuinka\". DE untouched."
   }
 }

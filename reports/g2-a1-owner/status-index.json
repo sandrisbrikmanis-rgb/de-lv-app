@@ -175,17 +175,19 @@
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-005-owner-authorization-proof.json"
       },
       "LRB-006": {
-        "verdict": "LRB_006_LINGUISTIC_REPAIR_PASS",
+        "verdict": "LRB_006_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "status": "LINGUISTICALLY_CLOSED",
         "labot": 50,
         "nelabot": 0,
         "pending": 0,
         "antiBulkPass": true,
+        "residualAuditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "41db7e08",
+        "headSha": "pending",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-006-decisions.csv",
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-006-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-006-residual-wrong-language-proof.json",
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-006-owner-authorization-proof.json"
       },
       "LRB-007": {
