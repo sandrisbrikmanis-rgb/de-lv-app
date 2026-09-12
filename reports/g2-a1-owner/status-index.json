@@ -185,7 +185,7 @@
         "pdfReaudit": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "5aa24d90",
+        "headSha": "c873eabf",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-006-decisions.csv",
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-006-anti-bulk-proof.json",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-006-residual-wrong-language-proof.json",
