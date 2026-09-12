@@ -84,6 +84,13 @@ const COMPOSITE_REQUIRED = {
 };
 
 const DE_EXAMPLE_ALIGN = {
+  "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna": {
+    "Sie kochen.": "He keittävät.",
+    "Sie kocht.": "Hän keittää.",
+    "Sie isst.": "Hän syö.",
+    "Sie spielen Fußball.": "He pelaavat jalkapalloa.",
+    "Sie kochen, bitte.": "Keittäkää, olkaa hyvä."
+  },
   "g2/a1/fi|sich|idx:547|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "Er wäscht sich.": "Hän peseytyy.",
     "Ich setze mich.": "Istun alas.",

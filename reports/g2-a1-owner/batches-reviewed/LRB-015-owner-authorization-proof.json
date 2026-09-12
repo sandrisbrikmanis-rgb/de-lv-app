@@ -2,7 +2,7 @@
   "batch_id": "LRB-015",
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
-  "authorizedAt": "2026-09-12T11:26:00.000Z",
+  "authorizedAt": "2026-09-12T11:33:00.000Z",
   "linguisticVerdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 48,
@@ -32,7 +32,7 @@
   ],
   "scope": "Schaf..Staat",
   "pdfReaudit": true,
-  "pdfReauditAt": "2026-09-12T11:20:00.000Z",
+  "pdfReauditAt": "2026-09-12T11:26:00.000Z",
   "pdfReauditRepairs": ["sich", "schwimmen", "Sie", "sicher", "sitzen", "sprechen"],
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-015-residual-wrong-language-proof.json",
   "postRepairMerge": true,
@@ -51,5 +51,5 @@
     "target_language_grammar": "PASS",
     "anti_bulk": "PASS"
   },
-  "note": "OWNER authorization APPROVED. PDF-standard reaudit repairs: sich (itseään • itselleen reflexive FI), schwimmen (uidä→uida), Sie (3rd pers. pl. verb Sie sind/haben/kochen), sicher (Sicher!=tietysti, no luultavasti), sitzen (natural FI), sprechen (opettajansa). Fresh 50-row POST-REPAIR merge gates PASS. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER authorization APPROVED. PDF-standard reaudit repairs: sich (Itseään • Itselleen reflexive FI), schwimmen (uidä→uida), Sie (3rd pers. pl. verb Sie sind/haben/kochen), sicher (Sicher!=luultavasti, tietysti/varmasti), sitzen (natural FI), sprechen (opettajansa). Fresh 50-row POST-REPAIR merge gates PASS. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
 }

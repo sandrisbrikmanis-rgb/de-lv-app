@@ -134,8 +134,8 @@
   "g2/a1/fi|Schwimmbad|idx:66|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Uimahalli",
-    "owner_note": "FI Schwimmbad lv: ET Ujumisbassein → FI Uimahalli for peldbaseins. DE untouched."
+    "owner_new": "Uima-allas",
+    "owner_note": "FI Schwimmbad lv: ET Ujumisbassein → FI Uima-allas for peldbaseins (avoids narrowing vs uimahalli). DE untouched."
   },
   "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -254,8 +254,8 @@
   "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"He\",\"study.translation\":\"He\",\"study.explanation[0]\":\"Pääajatus: Monikon muoto — kyse on useasta ihmisestä. Verbi päättyy -en: kochen, essen, gehen.\",\"study.explanation[1]\":\"Pienellä sie monikossa tarkoittaa he (sie kochen = he keittävät).\",\"study.explanation[2]\":\"Pienellä sie yksikössä verbin kanssa (-t) tarkoittaa häntä naisena (sie kocht = hän keittää).\",\"study.explanation[3]\":\"Verbin muoto (-en vs -t) osoittaa, onko kyse heistä vai hänestä.\",\"study.explanation[4]\":\"Iso Sie tarkoittaa kohteliasta te-puhuttelua — ei sekoiteta pienen sie kanssa.\",\"study.explanation[5]\":\"Pieni sie tarkoittaa häntä, kun verbi on yksikössä (sie isst = hän syö).\",\"study.explanation[6]\":\"Pieni sie tarkoittaa heitä, kun verbi on monikossa (sie kochen = he keittävät).\",\"study.examples[0].lv\":\"He keittävät.\",\"study.examples[1].lv\":\"Hän keittää.\",\"study.examples[2].lv\":\"Hän syö.\",\"study.examples[3].lv\":\"He syövät yhdessä.\",\"study.examples[4].lv\":\"He pelaavat jalkapalloa.\",\"study.examples[5].lv\":\"He keittävät joka päivä.\"}",
-    "owner_note": "FI sie study repair: garbled ET examples → FI aligned with DE; plural they (he) + small sie=she note. DE untouched."
+    "owner_new": "{\"lv\":\"He\",\"study.translation\":\"He\",\"study.explanation[0]\":\"Pääajatus: Monikon muoto — kyse on useasta ihmisestä. Verbi päättyy -en: kochen, essen, gehen.\",\"study.explanation[1]\":\"Pienellä sie monikossa tarkoittaa he (sie kochen = he keittävät).\",\"study.explanation[2]\":\"Pienellä sie yksikössä verbin kanssa (-t) tarkoittaa häntä naisena (sie kocht = hän keittää).\",\"study.explanation[3]\":\"Verbin muoto (-en vs -t) osoittaa, onko kyse heistä vai hänestä.\",\"study.explanation[4]\":\"Iso Sie tarkoittaa kohteliasta te-puhuttelua — ei sekoiteta pienen sie kanssa.\",\"study.explanation[5]\":\"Pieni sie tarkoittaa häntä, kun verbi on yksikössä (sie isst = hän syö).\",\"study.explanation[6]\":\"Pieni sie tarkoittaa heitä, kun verbi on monikossa (sie kochen = he keittävät).\",\"study.examples[0].lv\":\"He keittävät.\",\"study.examples[1].lv\":\"Hän keittää.\",\"study.examples[2].lv\":\"Hän syö.\",\"study.examples[3].lv\":\"He keittävät.\",\"study.examples[4].lv\":\"He pelaavat jalkapalloa.\",\"study.examples[5].lv\":\"Keittäkää, olkaa hyvä.\"}",
+    "owner_note": "FI sie study repair: DE↔FI example alignment fix ex[3] Sie kochen→He keittävät, ex[5] Sie kochen bitte→Keittäkää olkaa hyvä. DE untouched."
   },
   "g2/a1/fi|Sie|idx:550|lv; study.explanation; study.tip; study.important; study.examples|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -266,8 +266,8 @@
   "g2/a1/fi|siebenhundert|idx:551|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Seitäsataa",
-    "owner_note": "FI siebenhundert lv: ET Seitsesada → FI Seitäsataa for septiņsimt. DE untouched."
+    "owner_new": "Seitsemänsataa",
+    "owner_note": "FI siebenhundert lv: ET Seitsesada → FI Seitsemänsataa for septiņsimt. DE untouched."
   },
   "g2/a1/fi|siebente|idx:552|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
