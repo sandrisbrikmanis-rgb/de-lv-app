@@ -11,9 +11,23 @@ const outPath = path.join(__dirname, `data/g2-a1-owner-pending/${BATCH}-decision
 const UHR_ID =
   "g2/a1/fi|Uhr|idx:698|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna";
 
+const UHR_SECTION_ACCENTS = {
+  explanation: { blue: ["Uhr"], purple: ["Kello"] },
+  examples: [
+    { de: { blue: ["uhr"] }, lv: { purple: ["kahdeksan"] } },
+    { de: { blue: ["uhr"] }, lv: { purple: ["kahdeksan"] } },
+    { de: { blue: ["uhr"] }, lv: { purple: ["Kelloni", "rikki"] } },
+    { de: { blue: ["uhr"] }, lv: { purple: ["kahdeksan"] } },
+    { de: { blue: ["uhr"] }, lv: { purple: ["kahdeksan"] } },
+    { de: { blue: ["die Uhr", "uhr"] }, lv: { purple: ["Kello"] } },
+  ],
+  tip: [{ purple: ["Kello"] }],
+  important: [{ blue: ["die Uhr"] }],
+};
+
 const UHR_COMPOSITE = {
-  lv: "Kell",
-  "study.translation": "Kell",
+  lv: "Kello",
+  "study.translation": "Kello",
   "study.explanation[0]":
     "Pääajatus: die Uhr tarkoittaa kelloa — käekelloa tai seinäkelloa.",
   "study.explanation[1]":
@@ -27,13 +41,12 @@ const UHR_COMPOSITE = {
   "study.examples[2].lv": "Kelloni on rikki.",
   "study.examples[3].lv": "Kello on kahdeksan.",
   "study.examples[4].lv": "Kello on kahdeksan.",
-  "study.examples[5].lv": "Kello näyttää aikaa.",
+  "study.examples[5].lv": "Kello",
   "study.tip[0]": "Kello tai rannekello. Myös aika kellolla: Es ist acht Uhr.",
   "study.tip[1]": "Käytä die Uhr, kun konteksti vastaa tätä merkitystä.",
   "study.important[0]": "die Uhr: laite (meine Uhr) tai aika (acht Uhr).",
   "study.important[1]": "die Uhr: tarkista konteksti ennen käyttöä.",
-  "study.sectionAccents.explanation.purple": '["kello"]',
-  "study.sectionAccents.tip[0].purple": '["kello"]',
+  "study.sectionAccents": UHR_SECTION_ACCENTS,
 };
 
 /** card → FI target (scalar lv) */
@@ -73,7 +86,7 @@ const SCALAR_TARGETS = {
   Vater: "Isä",
   verheiratet: "Naimisissa",
   verkaufen: "Myydä",
-  verlieren: "Kadottaa",
+  verlieren: "Menettää",
   versuchen: "Yrittää",
   viel: "Paljon",
   vielleicht: "Ehkä",
@@ -166,7 +179,7 @@ function noteFor(card, decision, et, target) {
     return `FI ${card} production already correct Finnish; NELABOT. DE untouched.`;
   }
   if (card === "Uhr") {
-    return "FI Uhr full composite study repair: ET/LV residue removed; kello device/time; DE↔FI aligned. DE untouched.";
+    return "FI Uhr composite repair: Kell→Kello; examples[5]=Kello; sectionAccents.examples FI-aligned (no kell/kaheksa/aega ET highlights). DE untouched.";
   }
   return `FI ${card} lv: ET ${et} → FI ${target}. DE untouched.`;
 }

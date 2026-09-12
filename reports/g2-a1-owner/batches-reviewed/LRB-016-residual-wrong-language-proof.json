@@ -20,10 +20,13 @@
     "de_target_alignment_violations": 0,
     "degenerate_example_pairs": 0,
     "internal_card_contradictions": 0,
+    "stale_highlights": 0,
+    "target_language_quality_errors": 0,
     "full_composite_completeness": "PASS",
     "target_language_grammar": "PASS",
     "anti_bulk": "PASS"
   },
+  "productionSource": "data/fi/a1.js",
   "nelabot_cards": [
     "Tee",
     "teuer",
@@ -336,5 +339,5 @@
   ],
   "failures": [],
   "verdict": "LRB_016_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T13:44:41.788Z"
+  "updatedAt": "2026-09-12T13:49:54.098Z"
 }

@@ -182,8 +182,8 @@
   "g2/a1/fi|Uhr|idx:698|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Kell\",\"study.translation\":\"Kell\",\"study.explanation[0]\":\"Pääajatus: die Uhr tarkoittaa kelloa — käekelloa tai seinäkelloa.\",\"study.explanation[1]\":\"Es ist acht Uhr tarkoittaa, että kello on kahdeksan.\",\"study.explanation[2]\":\"Kontekstista riippuu, tarkoitetaanko kellolaitetta vai kellonaikaa.\",\"study.explanation[3]\":\"Yleisiä esimerkkejä: Meine Uhr ist kaputt. = Kelloni on rikki.\",\"study.examples[0].lv\":\"Kello on kahdeksan.\",\"study.examples[1].lv\":\"Kello on kahdeksan.\",\"study.examples[2].lv\":\"Kelloni on rikki.\",\"study.examples[3].lv\":\"Kello on kahdeksan.\",\"study.examples[4].lv\":\"Kello on kahdeksan.\",\"study.examples[5].lv\":\"Kello näyttää aikaa.\",\"study.tip[0]\":\"Kello tai rannekello. Myös aika kellolla: Es ist acht Uhr.\",\"study.tip[1]\":\"Käytä die Uhr, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"die Uhr: laite (meine Uhr) tai aika (acht Uhr).\",\"study.important[1]\":\"die Uhr: tarkista konteksti ennen käyttöä.\",\"study.sectionAccents.explanation.purple\":\"[\\\"kello\\\"]\",\"study.sectionAccents.tip[0].purple\":\"[\\\"kello\\\"]\"}",
-    "owner_note": "FI Uhr full composite study repair: ET/LV residue removed; kello device/time; DE↔FI aligned. DE untouched."
+    "owner_new": "{\"lv\":\"Kello\",\"study.translation\":\"Kello\",\"study.explanation[0]\":\"Pääajatus: die Uhr tarkoittaa kelloa — käekelloa tai seinäkelloa.\",\"study.explanation[1]\":\"Es ist acht Uhr tarkoittaa, että kello on kahdeksan.\",\"study.explanation[2]\":\"Kontekstista riippuu, tarkoitetaanko kellolaitetta vai kellonaikaa.\",\"study.explanation[3]\":\"Yleisiä esimerkkejä: Meine Uhr ist kaputt. = Kelloni on rikki.\",\"study.examples[0].lv\":\"Kello on kahdeksan.\",\"study.examples[1].lv\":\"Kello on kahdeksan.\",\"study.examples[2].lv\":\"Kelloni on rikki.\",\"study.examples[3].lv\":\"Kello on kahdeksan.\",\"study.examples[4].lv\":\"Kello on kahdeksan.\",\"study.examples[5].lv\":\"Kello\",\"study.tip[0]\":\"Kello tai rannekello. Myös aika kellolla: Es ist acht Uhr.\",\"study.tip[1]\":\"Käytä die Uhr, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"die Uhr: laite (meine Uhr) tai aika (acht Uhr).\",\"study.important[1]\":\"die Uhr: tarkista konteksti ennen käyttöä.\",\"study.sectionAccents\":{\"explanation\":{\"blue\":[\"Uhr\"],\"purple\":[\"Kello\"]},\"examples\":[{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"kahdeksan\"]}},{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"kahdeksan\"]}},{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"Kelloni\",\"rikki\"]}},{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"kahdeksan\"]}},{\"de\":{\"blue\":[\"uhr\"]},\"lv\":{\"purple\":[\"kahdeksan\"]}},{\"de\":{\"blue\":[\"die Uhr\",\"uhr\"]},\"lv\":{\"purple\":[\"Kello\"]}}],\"tip\":[{\"purple\":[\"Kello\"]}],\"important\":[{\"blue\":[\"die Uhr\"]}]}}",
+    "owner_note": "FI Uhr composite repair: Kell→Kello; examples[5]=Kello; sectionAccents.examples FI-aligned (no kell/kaheksa/aega ET highlights). DE untouched."
   },
   "g2/a1/fi|und|idx:612|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -230,8 +230,8 @@
   "g2/a1/fi|verlieren|idx:620|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Kadottaa",
-    "owner_note": "FI verlieren lv: ET Kaotama → FI Kadottaa. DE untouched."
+    "owner_new": "Menettää",
+    "owner_note": "FI verlieren lv: ET Kaotama → FI Menettää. DE untouched."
   },
   "g2/a1/fi|versuchen|idx:622|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",

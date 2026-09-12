@@ -3,8 +3,29 @@
 
 const fs = require("fs");
 const path = require("path");
+const vm = require("vm");
 const { loadCsv } = require("./lib/g2-a1-phase3/batch-001-csv");
 const { getAt, setAt } = require("./lib/da-a1-owner-path");
+
+function loadFiA1() {
+  const ctx = { window: {} };
+  vm.runInNewContext(
+    fs.readFileSync(path.join(__dirname, "../data/fi/a1.js"), "utf8"),
+    ctx
+  );
+  return ctx.window.A1_WORDS;
+}
+
+const FI_A1_WORDS = loadFiA1();
+const A1_NESTED_BY_CARD = {};
+for (const entry of FI_A1_WORDS) {
+  if (entry.study) {
+    A1_NESTED_BY_CARD[entry.de] = {
+      lv: entry.lv,
+      study: JSON.parse(JSON.stringify(entry.study)),
+    };
+  }
+}
 
 const BATCH = "LRB-016";
 const decisions = JSON.parse(
@@ -58,7 +79,10 @@ const FORBIDDEN_FRAGMENTS = {
     "Sageli kirjeldab",
     "Pulkstenis",
     "Minu kell on katki",
-    "Kell näitab aega"
+    "Kell näitab aega",
+    "Kello näyttää aikaa",
+    '"lv":"Kell"',
+    '"study.translation":"Kell"'
   ]
 };
 
@@ -69,7 +93,6 @@ const COMPOSITE_REQUIRED = {
     "Pääajatus: die Uhr",
     "Es ist acht Uhr",
     "Kelloni on rikki",
-    "Kello näyttää aikaa",
     "die Uhr: laite"
   ]
 };
@@ -78,7 +101,18 @@ const DE_EXAMPLE_ALIGN = {
   [UHR_ID]: {
     "Es ist acht Uhr.": "Kello on kahdeksan.",
     "Meine Uhr ist kaputt.": "Kelloni on rikki.",
-    "die Uhr": "Kello näyttää aikaa."
+    "die Uhr": "Kello"
+  }
+};
+
+const STALE_HIGHLIGHT =
+  /\b(kell|kaheksa|aega|Pulkstenis)\b/i;
+
+const MERGED_FIELD_REQUIRED = {
+  [UHR_ID]: {
+    lv: "Kello",
+    "study.translation": "Kello",
+    "study.examples[5].lv": "Kello",
   }
 };
 
@@ -219,6 +253,7 @@ function applyPatches(nested, ownerNewStr) {
     if (!out.study && p.startsWith("study.")) out.study = {};
     if (p.startsWith("study.")) {
       const field = p.slice(6);
+      const parsedValue = parseMaybeJson(value);
       const top = field.split(/[.[]/)[0];
       if (typeof out.study[top] === "string") {
         out.study[top] = parseMaybeJson(out.study[top]);
@@ -226,15 +261,15 @@ function applyPatches(nested, ownerNewStr) {
       if (field.includes("[") && !Array.isArray(out.study[top]) && out.study[top] == null) {
         out.study[top] = [];
       }
-      if (!setAt(out.study, field, value)) {
+      if (!setAt(out.study, field, parsedValue)) {
         const m = field.match(/^(\w+)$/);
-        if (m) out.study[field] = value;
+        if (m) out.study[field] = parsedValue;
         else {
           const arrM = field.match(/^(\w+)\[/);
           if (arrM) {
             const arrName = arrM[1];
             if (!Array.isArray(out.study[arrName])) out.study[arrName] = [];
-            setAt(out.study, field, value);
+            setAt(out.study, field, parsedValue);
           }
         }
       }
@@ -289,6 +324,47 @@ function isScrambledPair(text) {
   return false;
 }
 
+function valuesEqual(a, b) {
+  if (typeof a === "object" || typeof b === "object") {
+    return JSON.stringify(a) === JSON.stringify(b);
+  }
+  return String(a) === String(b);
+}
+
+function validateUhrSectionAccents(merged) {
+  const failures = [];
+  const examples = merged.study?.examples || [];
+  const accents = merged.study?.sectionAccents?.examples || [];
+  if (accents.length !== examples.length) {
+    failures.push({
+      type: "ACCENT_LEN",
+      msg: `examples ${examples.length} vs accents ${accents.length}`,
+    });
+  }
+  for (let i = 0; i < accents.length; i++) {
+    const fi = String(examples[i]?.lv || "");
+    const purple = accents[i]?.lv?.purple || [];
+    for (const p of purple) {
+      if (!fi.toLowerCase().includes(String(p).toLowerCase())) {
+        failures.push({
+          type: "ACCENT_MISMATCH",
+          index: i,
+          highlight: p,
+          fi,
+        });
+      }
+      if (STALE_HIGHLIGHT.test(p)) {
+        failures.push({
+          type: "STALE_ACCENT",
+          index: i,
+          highlight: p,
+        });
+      }
+    }
+  }
+  return failures;
+}
+
 const issues = [];
 const rowAudit = [];
 let labot = 0;
@@ -303,6 +379,8 @@ let deTargetViolations = 0;
 let degeneratePairs = 0;
 let internalContradictions = 0;
 let compositeIncomplete = 0;
+let staleHighlights = 0;
+let targetLanguageQualityErrors = 0;
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
@@ -429,17 +507,14 @@ for (const row of rows) {
   }
 
   if (COMPOSITE_IDS.has(id) && d.owner_decision === "LABOT" && isJsonComposite) {
-    let flat;
-    try {
-      flat = JSON.parse(row.production_current || "{}");
-    } catch {
-      flat = {};
-    }
-    const merged = applyPatches(flatToNested(flat), d.owner_new);
+    const nestedBase =
+      A1_NESTED_BY_CARD[card] ||
+      flatToNested(JSON.parse(row.production_current || "{}"));
+    const merged = applyPatches(nestedBase, d.owner_new);
     const patches = parseOwnerNew(d.owner_new);
     for (const [key, val] of Object.entries(JSON.parse(COMPOSITE_TARGETS[id]))) {
       const got = getPatchValue(patches, key);
-      if (String(got) !== String(val)) {
+      if (!valuesEqual(got, val)) {
         semanticViolations++;
         issues.push({
           id,
@@ -514,7 +589,46 @@ for (const row of rows) {
     }
 
     const mergedText = flattenStrings(merged).join(" ");
-        const required = COMPOSITE_REQUIRED[id];
+    if (ET_LEAK.test(mergedText) || LV_LEAK.test(mergedText)) {
+      wrongLanguage++;
+      issues.push({ id, type: "MERGED_WRONG_LANG", msg: mergedText.slice(0, 120) });
+    }
+    const accentText = flattenStrings(merged.study?.sectionAccents || {}).join(" ");
+    if (STALE_HIGHLIGHT.test(accentText)) {
+      staleHighlights++;
+      issues.push({
+        id,
+        type: "STALE_HIGHLIGHT",
+        msg: accentText.slice(0, 120),
+      });
+    }
+
+    const mergedRequired = MERGED_FIELD_REQUIRED[id];
+    if (mergedRequired) {
+      for (const [field, expected] of Object.entries(mergedRequired)) {
+        const got = getAt(merged.study || merged, field.replace(/^study\./, ""));
+        if (field === "lv") {
+          if (String(merged.lv) !== String(expected)) {
+            targetLanguageQualityErrors++;
+            issues.push({ id, type: "TARGET_LANGUAGE_QUALITY", field, expected, got: merged.lv });
+          }
+          continue;
+        }
+        if (String(got) !== String(expected)) {
+          targetLanguageQualityErrors++;
+          issues.push({ id, type: "TARGET_LANGUAGE_QUALITY", field, expected, got });
+        }
+      }
+    }
+
+    if (id === UHR_ID) {
+      for (const failure of validateUhrSectionAccents(merged)) {
+        targetLanguageQualityErrors++;
+        issues.push({ id, type: "UHR_SECTION_ACCENTS", ...failure });
+      }
+    }
+
+    const required = COMPOSITE_REQUIRED[id];
     if (required) {
       for (const phrase of required) {
         if (!mergedText.includes(phrase)) {
@@ -562,6 +676,8 @@ const pass =
   deTargetViolations === 0 &&
   degeneratePairs === 0 &&
   internalContradictions === 0 &&
+  staleHighlights === 0 &&
+  targetLanguageQualityErrors === 0 &&
   fullCompositeCompleteness === "PASS";
 
 const proof = {
@@ -588,10 +704,13 @@ const proof = {
     de_target_alignment_violations: deTargetViolations,
     degenerate_example_pairs: degeneratePairs,
     internal_card_contradictions: internalContradictions,
+    stale_highlights: staleHighlights,
+    target_language_quality_errors: targetLanguageQualityErrors,
     full_composite_completeness: fullCompositeCompleteness,
     target_language_grammar: targetLanguageGrammar,
     anti_bulk: "PASS",
   },
+  productionSource: "data/fi/a1.js",
   nelabot_cards: NELABOT_CARDS,
   composite_repairs: ["Uhr"],
   row_audit: rowAudit,

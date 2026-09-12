@@ -18,7 +18,9 @@
   },
   "nelabot_cards": ["Tee", "teuer", "und"],
   "composite_labot_cards": ["Uhr"],
+  "compositeMicroRepairs": ["Uhr", "verlieren"],
   "scope": "Stadt..Vogel",
+  "productionSource": "data/fi/a1.js",
   "pdfGates": {
     "ROWS": "50/50",
     "PENDING": 0,
@@ -26,10 +28,12 @@
     "semantic_alignment_violations": 0,
     "duplicate_meanings": 0,
     "internal_card_contradictions": 0,
+    "stale_highlights": 0,
+    "target_language_quality_errors": 0,
     "full_composite_completeness": "PASS",
     "target_language_grammar": "PASS",
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-016-residual-wrong-language-proof.json",
-  "note": "OWNER authorization APPROVED. GPT-5.6 Luna individual FI linguistic review: 47 LABOT / 3 NELABOT (Tee, teuer, und). Uhr composite study repair. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER authorization APPROVED. Uhr: Kell→Kello, examples[5]=Kello, sectionAccents.examples FI-aligned (a1.js merge audit). verlieren: Kadottaa→Menettää. 47 LABOT / 3 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
 }
