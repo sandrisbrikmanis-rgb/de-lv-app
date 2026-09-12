@@ -1,0 +1,331 @@
+{
+  "batch_id": "LRB-007",
+  "classification": "LRB_007_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_micro_repair": true,
+  "post_repair_merge": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 49,
+  "nelabot": 1,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS"
+  },
+  "row_audit": [
+    {
+      "card": "a1-wie",
+      "lv_source": "wie viel(e) nozīmē cik daudz; wie alt nozīmē cik vecs; wie lange nozīmē cik ilgi.",
+      "decision": "LABOT",
+      "segment_fidelity": "3/3"
+    },
+    {
+      "card": "a1-wie",
+      "lv_source": "kā • cik",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-zu",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-zu",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-zum",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-zum",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "ab",
+      "lv_source": "no",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Abend",
+      "lv_source": "vakars",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Abendessen",
+      "lv_source": "vakariņas",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "abends",
+      "lv_source": "vakarā",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "aber",
+      "lv_source": "bet",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "achten",
+      "lv_source": "ievērot",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Adresse",
+      "lv_source": "adrese",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Affe",
+      "lv_source": "pērtiķis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Album",
+      "lv_source": "albums",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "alle",
+      "lv_source": "visi",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "allein",
+      "lv_source": "viens pats",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "alles",
+      "lv_source": "viss",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "alt",
+      "lv_source": "vecs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Alter",
+      "lv_source": "vecums",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Ameise",
+      "lv_source": "skudra",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "an",
+      "lv_source": "pie",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "anders",
+      "lv_source": "citādi",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Anfang",
+      "lv_source": "sākums",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "anfangen",
+      "lv_source": "sākt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "ankommen",
+      "lv_source": "ierasties",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "anrufen",
+      "lv_source": "zvanīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "anschauen",
+      "lv_source": "apskatīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "anziehen",
+      "lv_source": "uzvilkt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Apfel",
+      "lv_source": "ābols",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "auf dem Bahnhof",
+      "lv_source": "stacijā",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "aufs",
+      "lv_source": "uz",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Augenbraue",
+      "lv_source": "uzacs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Augenfarbe",
+      "lv_source": "acu krāsa",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Bad",
+      "lv_source": "vannas istaba",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "baden",
+      "lv_source": "peldēties",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Badezimmer",
+      "lv_source": "vannas istaba",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "bald",
+      "lv_source": "drīz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Balkon",
+      "lv_source": "balkons",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Ball",
+      "lv_source": "bumba",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Banane",
+      "lv_source": "banāns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Bauch",
+      "lv_source": "vēders",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Baum",
+      "lv_source": "koks",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "bedeuten",
+      "lv_source": "nozīmēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "beginnen",
+      "lv_source": "sākt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "bei",
+      "lv_source": "pie",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "beide",
+      "lv_source": "abi",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Bein",
+      "lv_source": "kāja",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Beispiel",
+      "lv_source": "piemērs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "bekommen",
+      "lv_source": "saņemt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_007_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T09:27:58.216Z"
+}

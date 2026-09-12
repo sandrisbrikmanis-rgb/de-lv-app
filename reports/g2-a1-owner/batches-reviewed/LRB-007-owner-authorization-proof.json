@@ -1,0 +1,24 @@
+{
+  "batch_id": "LRB-007",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T09:30:00.000Z",
+  "linguisticVerdict": "LRB_007_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 49,
+  "nelabot": 1,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "gala_repair": true,
+  "aufs_semantic_repair": true,
+  "mandatory_fixes": ["ab", "an", "baden", "zu", "zum", "wie", "aufs"],
+  "nelabot_cards": ["Baum"],
+  "note": "OWNER authorization after LRB-007 aufs important[0] semantic repair and fresh 50-row residual audit. DE/production/Crowdin/ingest/apply unchanged."
+}

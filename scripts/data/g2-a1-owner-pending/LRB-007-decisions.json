@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|a1-wie|a1.card.a1-wie.study.explanation[3]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Wie viel(e) tarkoittaa kuinka paljon • Wie alt tarkoittaa kuinka vanha • Wie lange tarkoittaa kuinka kauan.",
+    "owner_note": "FI a1-wie gala: kā•cik→Miten•Kuinka; explanation[3] teaches wie viel/alt/lange distinction. DE untouched."
+  },
+  "g2/a1/fi|a1-wie|a1.card.a1-wie.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Miten • Kuinka",
+    "owner_note": "FI a1-wie gala: kā•cik→Miten•Kuinka; explanation[3] teaches wie viel/alt/lange distinction. DE untouched."
+  },
+  "g2/a1/fi|a1-zu|a1.card.a1-zu.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Luokse • Kohti",
+    "owner_note": "FI a1-zu gala: uz•pie→Luokse•Kohti semantic; no -(i)in case ending as sole gloss. DE untouched."
+  },
+  "g2/a1/fi|a1-zu|a1.card.a1-zu.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Luokse • Kohti",
+    "owner_note": "FI a1-zu gala: uz•pie→Luokse•Kohti semantic; no -(i)in case ending as sole gloss. DE untouched."
+  },
+  "g2/a1/fi|a1-zum|a1.card.a1-zum.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Luokse • Kohti",
+    "owner_note": "FI a1-zum gala: uz•pie→Luokse•Kohti semantic; no -(i)in case ending as sole gloss. DE untouched."
+  },
+  "g2/a1/fi|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Luokse • Kohti",
+    "owner_note": "FI a1-zum gala: uz•pie→Luokse•Kohti semantic; no -(i)in case ending as sole gloss. DE untouched."
+  },
+  "g2/a1/fi|ab|idx:17|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Alkaen\",\"study.translation\":\"Alkaen\",\"study.examples[0].lv\":\"Tästä päivästä lähtien\",\"study.examples[1].lv\":\"Maanantaista lähtien\",\"study.examples[2].lv\":\"Kello kahdeksasta\",\"study.examples[3].lv\":\"Asemalta\",\"study.comparison[0].meaning\":\"Lähtien (ajasta tai paikasta)\",\"study.comparison[1].meaning\":\"Keneltä/keltä • Alkuperä\",\"study.comparison[2].meaning\":\"Ulos jostakin\",\"study.important[0]\":\"ab osoittaa lähtöpistettä ajassa tai paikassa — alkaen tietystä hetkestä tai paikasta.\",\"study.important[1]\":\"Jos ajatus ilmaisee alkuperää tai suuntaa sisältä, käytetään usein von tai aus.\"}",
+    "owner_note": "FI ab gala: lv no→Alkaen (from-point); not case-ending-only or temporal-only lähtien scalar; examples contextual. DE untouched."
+  },
+  "g2/a1/fi|Abend|idx:18|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ilta",
+    "owner_note": "FI Abend gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Abendessen|idx:19|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Illallinen",
+    "owner_note": "FI Abendessen gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|abends|idx:20|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Illalla",
+    "owner_note": "FI abends gala: lv no→Alkaen (from-point); not case-ending-only or temporal-only lähtien scalar; examples contextual. DE untouched."
+  },
+  "g2/a1/fi|aber|idx:21|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Mutta\",\"study.translation\":\"Mutta\",\"study.examples[0].lv\":\"Haluan tulla mukaan, mutta minulla ei ole aikaa.\",\"study.examples[1].lv\":\"Ruoka oli herkullista, mutta liian kallista.\",\"study.examples[2].lv\":\"Hänellä on oikeus, mutta ajattelen toisin.\",\"study.comparison[0].meaning\":\"Vastakohta • Vastaväite • Silti\",\"study.comparison[1].meaning\":\"Ei • Vaan\",\"study.comparison[2].meaning\":\"Kuitenkin\",\"study.important[0]\":\"aber ilmaisee vastakohtaa tai vastalausetta.\",\"study.important[1]\":\"Jos vastakohtaa ilmaistaan muodolla «ei..., vaan...», saksassa käytetään yleensä sondern.\"}",
+    "owner_note": "FI aber gala: lv no→Alkaen (from-point); not case-ending-only or temporal-only lähtien scalar; examples contextual. DE untouched."
+  },
+  "g2/a1/fi|achten|idx:22|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Huomata",
+    "owner_note": "FI achten gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Adresse|idx:23|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Osoite",
+    "owner_note": "FI Adresse gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Affe|idx:24|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Apina",
+    "owner_note": "FI Affe gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Album|idx:25|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Albumi",
+    "owner_note": "FI Album gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|alle|idx:7|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaikki",
+    "owner_note": "FI alle gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|allein|idx:8|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yksin",
+    "owner_note": "FI allein gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|alles|idx:9|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaikki",
+    "owner_note": "FI alles gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|alt|idx:10|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vanha",
+    "owner_note": "FI alt gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Alter|idx:11|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ikä",
+    "owner_note": "FI Alter gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Ameise|idx:27|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Muurahainen",
+    "owner_note": "FI Ameise gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|an|idx:12|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Luona\",\"study.translation\":\"Kiinni • Pinnalla\",\"study.examples[0].lv\":\"Seinällä / seinää vasten\",\"study.examples[1].lv\":\"Ikkunan luona\",\"study.examples[2].lv\":\"Meren rannalla\",\"study.comparison[0].meaning\":\"Pinnan tai reunan vieressä\",\"study.comparison[1].meaning\":\"Vaakatasolla pinnalla\",\"study.comparison[2].meaning\":\"Henkilön tai paikan luona\",\"study.important[0]\":\"an ei tarkoita mitä tahansa «bei». Se tarkoittaa usein pintaa, seinää, ikkunaa tai reunaa.\",\"study.important[1]\":\"Vaakasuoralla pinnalla käytetään yleensä auf.\"}",
+    "owner_note": "FI an gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|anders|idx:15|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Toisin",
+    "owner_note": "FI anders gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|Anfang|idx:13|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Alku",
+    "owner_note": "FI Anfang gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|anfangen|idx:14|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aloittaa",
+    "owner_note": "FI anfangen gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|ankommen|idx:28|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Saapua",
+    "owner_note": "FI ankommen gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|anrufen|idx:16|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Soittaa",
+    "owner_note": "FI anrufen gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|anschauen|idx:29|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Katsoa",
+    "owner_note": "FI anschauen gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|anziehen|idx:30|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pukea päälle",
+    "owner_note": "FI anziehen gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|Apfel|idx:0|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Omena",
+    "owner_note": "FI Apfel gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|auf dem Bahnhof|idx:59|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Asemalla",
+    "owner_note": "FI auf dem Bahnhof gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Päälle • Minne?\",\"study.explanation[0]\":\"Aufs on preposition auf ja artikkelin das lyhenne.\",\"study.explanation[1]\":\"Täysmuoto: auf das (akkusatiivi).\",\"study.explanation[2]\":\"Käytetään, kun teko osoittaa suuntaa tiettyä asiaa tai pintaa kohti — vastaa kysymykseen minne?\",\"study.explanation[3]\":\"Usein liikkeen kanssa: kiivetä, istua, asettaa, ajaa jollekin pinnalle.\",\"study.explanation[4]\":\"Puhekielessä käytetään lähes aina aufs, ei täysmuotoa auf das.\",\"study.examples[0].lv\":\"Menen katolle.\",\"study.examples[1].lv\":\"Hän istuu sohvalle.\",\"study.examples[2].lv\":\"Ajelemme maalle.\",\"study.examples[3].lv\":\"Laita laukku sängylle.\",\"study.examples[4].lv\":\"Hän hyppää hevosen selkään.\",\"study.examples[5].lv\":\"Laita kirja hyllylle.\",\"study.examples[6].lv\":\"Tule nopeasti veneeseen!\",\"study.examples[7].lv\":\"Menemme juhliin.\",\"study.comparison[0].meaning\":\"Tietylle asialle (akk.)\",\"study.comparison[0].example\":\"aufs Dach – katolle\",\"study.comparison[1].meaning\":\"Pinnalle tai ylöspäin\",\"study.comparison[1].example\":\"auf den Tisch – pöydälle\",\"study.comparison[2].meaning\":\"Pystysuoran pinnan vieressä\",\"study.comparison[2].example\":\"an die Wand – seinää vasten\",\"study.comparison[3].meaning\":\"Sisään (huoneeseen)\",\"study.comparison[3].example\":\"ins Zimmer – huoneeseen\",\"study.comparison[4].meaning\":\"-lle / luokse (dat.)\",\"study.comparison[4].example\":\"zum Arzt – lääkärille\",\"study.tip[0]\":\"Muista: auf + das → aufs (minne?).\",\"study.tip[1]\":\"Arkipuheessa harvoin sanotaan täyttä auf das — käytä aufs.\",\"study.important[0]\":\"aufs = auf + das; sitä käytetään neutrisukuisen yksikön kanssa akkusatiivissa, kun ilmaistaan suuntaa (minne?).\",\"study.important[1]\":\"Vastaa kysymykseen minne? — liike tietylle alueelle tai pinnalle.\",\"study.important[2]\":\"Vaakasuoralla pinnalla käytetään usein auf den, ei aufs.\",\"study.important[3]\":\"Älä sekoita an (seinää vasten) tai ins (huoneen sisään).\"}",
+    "owner_note": "FI aufs PDF micro: study.translation Päälle • Minne? (no duplicate); auf+das neuter Akk minne? preserved; DE↔FI aligned. DE untouched."
+  },
+  "g2/a1/fi|Augenbraue|idx:61|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kulmakarva",
+    "owner_note": "FI Augenbraue gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Augenfarbe|idx:62|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Silmien väri",
+    "owner_note": "FI Augenfarbe gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Bad|idx:64|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kylpyhuone",
+    "owner_note": "FI Bad gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|baden|idx:68|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Käydä uimassa\",\"study.translation\":\"Käydä uimassa\",\"study.explanation[0]\":\"Pääajatus: baden tarkoittaa käydä uimassa, olla vedessä tai nauttia vedestä.\",\"study.explanation[1]\":\"Badenia käytetään, kun puhutaan virkistäytymisestä vedessä — järven, meren tai uima-altaan ympäristössä.\",\"study.explanation[2]\":\"Baden voi tarkoittaa myös kylpyä kylvyssä.\",\"study.explanation[3]\":\"Kun painotus on uintiliikkeissä tai urheiluna, saksassa käytetään useammin schwimmen.\",\"study.examples[0].lv\":\"Menen uimaan.\",\"study.examples[1].lv\":\"Menemme uimaan järveen.\",\"study.examples[2].lv\":\"Hän ui erittäin hyvin.\",\"study.examples[3].lv\":\"Käyn uimassa joka maanantai.\",\"study.comparison[0].meaning\":\"Käydä uimassa / olla vedessä / kylpeä\",\"study.comparison[0].example\":\"Ich gehe baden. – Menen uimaan.\",\"study.comparison[1].meaning\":\"Uinti liikkeenä tai urheiluna\",\"study.comparison[1].example\":\"Er schwimmt sehr gut. – Hän ui erittäin hyvin.\",\"study.comparison[2].meaning\":\"Käydä suihkussa\",\"study.comparison[2].example\":\"Ich dusche am Morgen. – Käyn aamulla suihkussa.\",\"study.comparison[3].meaning\":\"Mennä uimaan\",\"study.comparison[3].example\":\"Ich gehe heute schwimmen. – Menen tänään uimaan.\",\"study.tip.text\":\"Muista: oleskelu vedessä → baden; uintiliike → schwimmen.\",\"study.important[0]\":\"baden ja schwimmen eivät ole synonyymejä.\",\"study.important[1]\":\"baden korostaa useammin oleskelua tai virkistäytymistä vedessä; schwimmen korostaa uintiliikettä.\"}",
+    "owner_note": "FI baden PDF micro: lv/study.translation Käydä uimassa; no lomasta/loma vedessä; virkistäytyminen/oleskelu vedessä; baden≠schwimmen; DE↔FI aligned. DE untouched."
+  },
+  "g2/a1/fi|Badezimmer|idx:65|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kylpyhuone",
+    "owner_note": "FI Badezimmer gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|bald|idx:69|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pian",
+    "owner_note": "FI bald gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Balkon|idx:70|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Parveke",
+    "owner_note": "FI Balkon gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Ball|idx:71|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pallo",
+    "owner_note": "FI Ball gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Banane|idx:72|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Banaani",
+    "owner_note": "FI Banane gala: lv pie→Luona only; surface/edge senses in comparison/explanation not scalar. DE untouched."
+  },
+  "g2/a1/fi|Bauch|idx:73|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vatsa",
+    "owner_note": "FI Bauch gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Baum|idx:74|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Baum gala: production already correct FI; NELABOT. DE untouched."
+  },
+  "g2/a1/fi|bedeuten|idx:75|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Merkitä",
+    "owner_note": "FI bedeuten gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|beginnen|idx:77|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aloittaa",
+    "owner_note": "FI beginnen gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|bei|idx:78|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Luona\",\"study.translation\":\"Luona\",\"study.explanation\":\"Käytetään, kun jokin on henkilön, organisaation tai paikan luona tai tapahtuu tietyissä olosuhteissa.\",\"study.examples[0].lv\":\"Olen ystäväni luona.\",\"study.examples[1].lv\":\"Hän työskentelee Siemensillä.\",\"study.examples[2].lv\":\"Sateella jäämme kotiin.\",\"study.comparison[0].meaning\":\"Henkilön, yrityksen luona tai tietyissä olosuhteissa\",\"study.comparison[1].meaning\":\"Seinää, reunaa, rantaa tai pinnan vieressä\",\"study.comparison[2].meaning\":\"Jonnekin meneminen (suunta)\",\"study.tip.text\":\"Muista: henkilön/paikan/yrityksen luona → bei.\",\"study.important[0]\":\"bei tarkoittaa usein henkilöä, paikkaa tai yritystä.\",\"study.important[1]\":\"Jos puhutaan liikkeestä pinnalle, tarvitaan yleensä auf, ei bei.\"}",
+    "owner_note": "FI bei gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|beide|idx:79|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Molemmat",
+    "owner_note": "FI beide gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Bein|idx:80|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jalka",
+    "owner_note": "FI Bein gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|Beispiel|idx:81|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Esimerkki",
+    "owner_note": "FI Beispiel gala: ET leak repair → target FI. DE untouched."
+  },
+  "g2/a1/fi|bekommen|idx:82|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Saada",
+    "owner_note": "FI bekommen gala: ET leak repair → target FI. DE untouched."
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "batch_id": "LRB-006",
+  "classification": "LRB_006_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "gala_repair": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "gates": {
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0
+  },
+  "row_audit": [
+    {
+      "card": "a1-kosten",
+      "lv_source": "maksāt (cenu) • cik maksā",
+      "production_current": "Maksma (hinda) • Kui palju maksab",
+      "expected_fi": "Maksaa (hinta) • Paljonko maksaa",
+      "decision": "LABOT",
+      "owner_new": "Maksaa (hinta) • Paljonko maksaa",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-land",
+      "lv_source": "valsts • zeme",
+      "production_current": "Riik • Maa",
+      "expected_fi": "Valtio • Maa",
+      "decision": "LABOT",
+      "owner_new": "Valtio • Maa",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-land",
+      "lv_source": "valsts • zeme",
+      "production_current": "Riik • Maa",
+      "expected_fi": "Valtio • Maa",
+      "decision": "LABOT",
+      "owner_new": "Valtio • Maa",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-lang",
+      "lv_source": "garš • ilgs",
+      "production_current": "Pikk • Kauakestev",
+      "expected_fi": "Pitkä • Pitkäkestoinen",
+      "decision": "LABOT",
+      "owner_new": "Pitkä • Pitkäkestoinen",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-lang",
+      "lv_source": "garš • ilgs",
+      "production_current": "Pikk • Kauakestev",
+      "expected_fi": "Pitkä • Pitkäkestoinen",
+      "decision": "LABOT",
+      "owner_new": "Pitkä • Pitkäkestoinen",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-lassen",
+      "lv_source": "atstāt • ļaut",
+      "production_current": "Jätma • Laskma",
+      "expected_fi": "Jättää • Antaa",
+      "decision": "LABOT",
+      "owner_new": "Jättää • Antaa",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-lassen",
+      "lv_source": "atstāt • ļaut",
+      "production_current": "Jätma • Laskma",
+      "expected_fi": "Jättää • Antaa",
+      "decision": "LABOT",
+      "owner_new": "Jättää • Antaa",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-laufen",
+      "lv_source": "skriet • darboties",
+      "production_current": "Jooksma • Töötama",
+      "expected_fi": "Juosta • Toimia",
+      "decision": "LABOT",
+      "owner_new": "Juosta • Toimia",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-laufen",
+      "lv_source": "skriet • darboties",
+      "production_current": "Jooksma • Töötama",
+      "expected_fi": "Juosta • Toimia",
+      "decision": "LABOT",
+      "owner_new": "Juosta • Toimia",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-liegen",
+      "lv_source": "atrasties • gulēt",
+      "production_current": "Asuma • Lamama",
+      "expected_fi": "Sijaita • Maata",
+      "decision": "LABOT",
+      "owner_new": "Sijaita • Maata",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-liegen",
+      "lv_source": "atrasties • gulēt",
+      "production_current": "Asuma • Lamama",
+      "expected_fi": "Sijaita • Maata",
+      "decision": "LABOT",
+      "owner_new": "Sijaita • Maata",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-machen",
+      "lv_source": "darīt • taisīt",
+      "production_current": "Tegema • Valmistama",
+      "expected_fi": "Tehdä • Laatia",
+      "decision": "LABOT",
+      "owner_new": "Tehdä • Laatia",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-machen",
+      "lv_source": "darīt • taisīt",
+      "production_current": "Tegema • Valmistama",
+      "expected_fi": "Tehdä • Laatia",
+      "decision": "LABOT",
+      "owner_new": "Tehdä • Laatia",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-mann",
+      "lv_source": "vīrietis • vīrs",
+      "production_current": "Mees • Abikaasa",
+      "expected_fi": "Mies • Aviomies",
+      "decision": "LABOT",
+      "owner_new": "Mies • Aviomies",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-mann",
+      "lv_source": "vīrietis • vīrs",
+      "production_current": "Mees • Abikaasa",
+      "expected_fi": "Mies • Aviomies",
+      "decision": "LABOT",
+      "owner_new": "Mies • Aviomies",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-nach",
+      "lv_source": "uz • pēc",
+      "production_current": "-sse • Pärast",
+      "expected_fi": "-(i)in • Jälkeen",
+      "decision": "LABOT",
+      "owner_new": "-(i)in • Jälkeen",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-nach",
+      "lv_source": "uz • pēc",
+      "production_current": "-sse • Pärast",
+      "expected_fi": "-(i)in • Jälkeen",
+      "decision": "LABOT",
+      "owner_new": "-(i)in • Jälkeen",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-natuerlich",
+      "lv_source": "protams • dabisks",
+      "production_current": "Muidugi • Loomulik",
+      "expected_fi": "Tietysti • Luonnollinen",
+      "decision": "LABOT",
+      "owner_new": "Tietysti • Luonnollinen",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-natuerlich",
+      "lv_source": "protams • dabisks",
+      "production_current": "Muidugi • Loomulik",
+      "expected_fi": "Tietysti • Luonnollinen",
+      "decision": "LABOT",
+      "owner_new": "Tietysti • Luonnollinen",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-nehmen",
+      "lv_source": "ņemt • paņemt",
+      "production_current": "Võtma • Kätte võtma",
+      "expected_fi": "Ottaa • Ottaa mukaan",
+      "decision": "LABOT",
+      "owner_new": "Ottaa • Ottaa mukaan",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-nehmen",
+      "lv_source": "ņemt • paņemt",
+      "production_current": "Võtma • Kätte võtma",
+      "expected_fi": "Ottaa • Ottaa mukaan",
+      "decision": "LABOT",
+      "owner_new": "Ottaa • Ottaa mukaan",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-neu",
+      "lv_source": "Pretstats ir alt (vecs); lietvārds das Neue nozīmē jaunumu.",
+      "production_current": "Vastand on alt (vana) • Nimisõna das Neue tähendab midagi uut.",
+      "expected_fi": "Vastakohta on alt (vanha); Substantiivi das Neue tarkoittaa jotain uutta.",
+      "decision": "LABOT",
+      "owner_new": "Vastakohta on alt (vanha); Substantiivi das Neue tarkoittaa jotain uutta.",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-nur-study",
+      "lv_source": "tikai • vienīgi",
+      "production_current": "Ainult • Üksnes",
+      "expected_fi": "Vain • Ainoastaan",
+      "decision": "LABOT",
+      "owner_new": "Vain • Ainoastaan",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-nur-study",
+      "lv_source": "tikai • vienīgi",
+      "production_current": "Ainult • Üksnes",
+      "expected_fi": "Vain • Ainoastaan",
+      "decision": "LABOT",
+      "owner_new": "Vain • Ainoastaan",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-oder",
+      "lv_source": "vai • jeb",
+      "production_current": "Või • Ehk",
+      "expected_fi": "Vai • Tai",
+      "decision": "LABOT",
+      "owner_new": "Vai • Tai",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-oder",
+      "lv_source": "vai • jeb",
+      "production_current": "Või • Ehk",
+      "expected_fi": "Vai • Tai",
+      "decision": "LABOT",
+      "owner_new": "Vai • Tai",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-passen",
+      "lv_source": "derēt • piestāvēt",
+      "production_current": "Sobima • Hästi sobima",
+      "expected_fi": "Sopia • Sovittua",
+      "decision": "LABOT",
+      "owner_new": "Sopia • Sovittua",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-passen",
+      "lv_source": "derēt • piestāvēt",
+      "production_current": "Sobima • Hästi sobima",
+      "expected_fi": "Sopia • Sovittua",
+      "decision": "LABOT",
+      "owner_new": "Sopia • Sovittua",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-probieren",
+      "lv_source": "izmēģināt • nogaršot",
+      "production_current": "Proovima • Maitsma",
+      "expected_fi": "Kokeilla • Maistaa",
+      "decision": "LABOT",
+      "owner_new": "Kokeilla • Maistaa",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-probieren",
+      "lv_source": "izmēģināt • nogaršot",
+      "production_current": "Proovima • Maitsma",
+      "expected_fi": "Kokeilla • Maistaa",
+      "decision": "LABOT",
+      "owner_new": "Kokeilla • Maistaa",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-seite",
+      "lv_source": "lappuse • puse",
+      "production_current": "Lehekülg • Külg",
+      "expected_fi": "Sivu • Puoli",
+      "decision": "LABOT",
+      "owner_new": "Sivu • Puoli",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-seite",
+      "lv_source": "lappuse • puse",
+      "production_current": "Lehekülg • Külg",
+      "expected_fi": "Sivu • Puoli",
+      "decision": "LABOT",
+      "owner_new": "Sivu • Puoli",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-sich",
+      "lv_source": "sevi • sev",
+      "production_current": "End • Endale",
+      "expected_fi": "Itse • Itselleen",
+      "decision": "LABOT",
+      "owner_new": "Itse • Itselleen",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-sich",
+      "lv_source": "sevi • sev",
+      "production_current": "End • Endale",
+      "expected_fi": "Itse • Itselleen",
+      "decision": "LABOT",
+      "owner_new": "Itse • Itselleen",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-sicher",
+      "lv_source": "drošs • noteikti",
+      "production_current": "Kindel • Kindlasti",
+      "expected_fi": "Turvallinen • Varmasti",
+      "decision": "LABOT",
+      "owner_new": "Turvallinen • Varmasti",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-sicher",
+      "lv_source": "drošs • noteikti",
+      "production_current": "Kindel • Kindlasti",
+      "expected_fi": "Turvallinen • Varmasti",
+      "decision": "LABOT",
+      "owner_new": "Turvallinen • Varmasti",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-ueber",
+      "lv_source": "virs • par",
+      "production_current": "Kohal • Kohta",
+      "expected_fi": "Yllä • Aiheesta",
+      "decision": "LABOT",
+      "owner_new": "Yllä • Aiheesta",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-ueber",
+      "lv_source": "virs • par",
+      "production_current": "Kohal • Kohta",
+      "expected_fi": "Yllä • Aiheesta",
+      "decision": "LABOT",
+      "owner_new": "Yllä • Aiheesta",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-um",
+      "lv_source": "ap • pulksten",
+      "production_current": "Umbes • Kell",
+      "expected_fi": "Noin • Kello",
+      "decision": "LABOT",
+      "owner_new": "Noin • Kello",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-um",
+      "lv_source": "ap • pulksten",
+      "production_current": "Umbes • Kell",
+      "expected_fi": "Noin • Kello",
+      "decision": "LABOT",
+      "owner_new": "Noin • Kello",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-verstehen",
+      "lv_source": "Latviski šeit parasti nevajag “prast” vai “mācēt”; tie biežāk ir können.",
+      "production_current": "Eesti keeles ei ole siin tavaliselt vaja sõnu “oskama” või “suutma” • Need vastavad sagedamini sõnale können.",
+      "expected_fi": "Suomeksi ei täällä yleensä tarvita sanoja «osata» tai «voida»; Ne vastaavat useammin sanaa können.",
+      "decision": "LABOT",
+      "owner_new": "Suomeksi ei täällä yleensä tarvita sanoja «osata» tai «voida»; Ne vastaavat useammin sanaa können.",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-vor",
+      "lv_source": "pirms • priekšā",
+      "production_current": "Enne • Ees",
+      "expected_fi": "Ennen • Edessä",
+      "decision": "LABOT",
+      "owner_new": "Ennen • Edessä",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-vor",
+      "lv_source": "pirms • priekšā",
+      "production_current": "Enne • Ees",
+      "expected_fi": "Ennen • Edessä",
+      "decision": "LABOT",
+      "owner_new": "Ennen • Edessä",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-was",
+      "lv_source": "kas • ko",
+      "production_current": "Mis • Mida",
+      "expected_fi": "Mikä • Mitä",
+      "decision": "LABOT",
+      "owner_new": "Mikä • Mitä",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-was",
+      "lv_source": "kas • ko",
+      "production_current": "Mis • Mida",
+      "expected_fi": "Mikä • Mitä",
+      "decision": "LABOT",
+      "owner_new": "Mikä • Mitä",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-wenn",
+      "lv_source": "ja • kad",
+      "production_current": "Kui (tingimus) • Kui (aeg)",
+      "expected_fi": "Jos (ehto) • Kun (aika)",
+      "decision": "LABOT",
+      "owner_new": "Jos (ehto) • Kun (aika)",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-wenn",
+      "lv_source": "ja • kad",
+      "production_current": "Kui (tingimus) • Kui (aeg)",
+      "expected_fi": "Jos (ehto) • Kun (aika)",
+      "decision": "LABOT",
+      "owner_new": "Jos (ehto) • Kun (aika)",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-wer",
+      "lv_source": "kas • kurš",
+      "production_current": "Kes • Kumb",
+      "expected_fi": "Kuka • Joka",
+      "decision": "LABOT",
+      "owner_new": "Kuka • Joka",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-wer",
+      "lv_source": "kas • kurš",
+      "production_current": "Kes • Kumb",
+      "expected_fi": "Kuka • Joka",
+      "decision": "LABOT",
+      "owner_new": "Kuka • Joka",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    },
+    {
+      "card": "a1-wie",
+      "lv_source": "kā • cik",
+      "production_current": "Kuidas • Kui",
+      "expected_fi": "Miten • Kuinka",
+      "decision": "LABOT",
+      "owner_new": "Miten • Kuinka",
+      "segment_fidelity": "2/2",
+      "scalar_pass": true
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_006_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T07:53:30.062Z"
+}
