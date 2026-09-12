@@ -42,5 +42,6 @@
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-020-residual-wrong-language-proof.json",
   "round2Repairs": "50 cards Luna copy/paste corrections (15 FR + 35 GR)",
+  "round2bRepairs": "Full-field replacements fixing DE-target misalignment (verstehen/vom/werden/zum FR; Frau/da/ein/gleich GR + 40 more cards)",
   "note": "Owner prep ready for linguistic review. NOT LRB_020_FULL_50_50_LINGUISTIC_REVIEW_PASS. DE/production/Crowdin/ingest/apply unchanged."
 }
