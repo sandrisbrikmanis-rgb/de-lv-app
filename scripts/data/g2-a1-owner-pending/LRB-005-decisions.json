@@ -3,300 +3,300 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Siellä • Täällä • Tuossa (yleisesti)",
-    "owner_note": "FI da gala: ET Seal/Siin → FI Siellä/Täällä/Tuossa for tur•te•šeit. DE untouched."
+    "owner_note": "FI a1-da gala: production \"Seal • Siin • Siinsamas (üldiselt)\" → \"Siellä • Täällä • Tuossa (yleisesti)\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Mikä • Jonka • Mitä",
-    "owner_note": "FI das gala: ET Mis/Mille/Mida → FI Mikä/Jonka/Mitä for kurš•kura•kuru. DE untouched."
+    "owner_note": "FI a1-das gala: production \"Mis • Mille • Mida\" → \"Mikä • Jonka • Mitä\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Koska • Siksi että",
-    "owner_note": "FI dass gala: ET Sest/Sellepärast et → FI Koska/Siksi että for jo•tāpēc ka. DE untouched."
+    "owner_note": "FI a1-dass gala: production \"Sest • Sellepärast et\" → \"Koska • Siksi että\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Epämääräinen artikkeli",
-    "owner_note": "FI ein gala: lv_source nenoteiktais artikuls→Epämääräinen artikkeli only; no Yksi•Jokin. DE untouched."
+    "owner_note": "FI a1-ein gala: production \"Umbmäärane artikkel • Üks • Mingi\" → \"Epämääräinen artikkeli\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-ein|a1.card.a1-ein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Epämääräinen artikkeli",
-    "owner_note": "FI ein gala: study.translation mirrors native scalar fidelity. DE untouched."
+    "owner_note": "FI a1-ein gala: production \"Umbmäärane artikkel • Üks • Mingi\" → \"Epämääräinen artikkeli\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kerran • Kerta",
-    "owner_note": "FI einmal gala: ET Üks kord/Kord → FI Kerran/Kerta for vienreiz•reiz. DE untouched."
+    "owner_note": "FI a1-einmal gala: production \"Üks kord • Kord\" → \"Kerran • Kerta\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kerran • Kerta",
-    "owner_note": "FI einmal gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-einmal gala: production \"Üks kord • Kord\" → \"Kerran • Kerta\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jää • Jäätelö",
-    "owner_note": "FI eis gala: ET Jäätis → FI Jäätelö for ledus•saldējums. DE untouched."
+    "owner_note": "FI a1-eis gala: production \"Jää • Jäätis\" → \"Jää • Jäätelö\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jää • Jäätelö",
-    "owner_note": "FI eis gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-eis gala: production \"Jää • Jäätis\" → \"Jää • Jäätelö\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-erst|a1.card.a1-erst.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Vasta",
-    "owner_note": "FI erst gala: lv_source tikai→Vasta only on native/translation. DE untouched."
+    "owner_note": "FI a1-erst gala: production \"Kõigepealt • Alles\" → \"Vasta\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-erst|a1.card.a1-erst.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ensin • Vasta",
-    "owner_note": "FI erst gala: comparison[0] lv_source vispirms•tikai keeps Ensin•Vasta. DE untouched."
+    "owner_note": "FI a1-erst gala: production \"Kõigepealt • Alles\" → \"Ensin • Vasta\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-erst|a1.card.a1-erst.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Vasta",
-    "owner_note": "FI erst gala: study.translation tikai→Vasta scalar. DE untouched."
+    "owner_note": "FI a1-erst gala: production \"Kõigepealt • Alles\" → \"Vasta\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Se",
-    "owner_note": "FI es gala: lv_source tas→Se only; no Se•Se; no Persoonaton muoto in scalar. DE untouched."
+    "owner_note": "FI a1-es gala: production \"See • Ta • Umbisikuline vorm\" → \"Se\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "NELABOT",
     "owner_new": "",
-    "owner_note": "FI es comparison[0]: se•persoonaton muoto matches lv_source tas•bezpersoniska forma. DE untouched."
+    "owner_note": "FI a1-es gala: production already correct FI (se • persoonaton muoto); NELABOT. DE untouched."
   },
   "g2/a1/fi|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Se",
-    "owner_note": "FI es gala: study.translation tas→Se scalar only. DE untouched."
+    "owner_note": "FI a1-es gala: production \"See • Ta • Umbisikuline vorm\" → \"Se\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jotain",
-    "owner_note": "FI etwas gala: lv_source kaut kas→Jotain only; no Vähän. DE untouched."
+    "owner_note": "FI a1-etwas gala: production \"Midagi • Veidi\" → \"Jotain\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jotain",
-    "owner_note": "FI etwas gala: study.translation mirrors native scalar. DE untouched."
+    "owner_note": "FI a1-etwas gala: production \"Midagi • Veidi\" → \"Jotain\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Teitä • Teille",
-    "owner_note": "FI euch gala: ET Teid/Teile → FI Teitä/Teille for jūs•jums. DE untouched."
+    "owner_note": "FI a1-euch gala: production \"Teid • Teile\" → \"Teitä • Teille\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Teitä • Teille",
-    "owner_note": "FI euch gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-euch gala: production \"Teid • Teile\" → \"Teitä • Teille\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ajaa",
-    "owner_note": "FI fahren gala: lv_source braukt→Ajaa only; no Kuljettaa•Viedä. DE untouched."
+    "owner_note": "FI a1-fahren gala: production \"Sõitma • Vedama • Ära viima\" → \"Ajaa\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ajaa",
-    "owner_note": "FI fahren gala: study.translation mirrors native scalar. DE untouched."
+    "owner_note": "FI a1-fahren gala: production \"Sõitma • Vedama • Ära viima\" → \"Ajaa\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Löytää",
-    "owner_note": "FI finden gala: lv_source atrast→Löytää only; no Pitää. DE untouched."
+    "owner_note": "FI a1-finden gala: production \"Leidma • Arvama\" → \"Löytää\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-finden|a1.card.a1-finden.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Löytää",
-    "owner_note": "FI finden gala: study.translation mirrors native scalar. DE untouched."
+    "owner_note": "FI a1-finden gala: production \"Leidma • Arvama\" → \"Löytää\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Nainen",
-    "owner_note": "FI frau gala: lv_source sieviete→Nainen only; no Vaimo. DE untouched."
+    "owner_note": "FI a1-frau gala: production \"Naine • Abikaasa\" → \"Nainen\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Nainen",
-    "owner_note": "FI frau gala: study.translation mirrors native scalar. DE untouched."
+    "owner_note": "FI a1-frau gala: production \"Naine • Abikaasa\" → \"Nainen\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Varten",
-    "owner_note": "FI für gala: lv_source priekš→Varten scalar; ET Jaoks/Eest removed. DE untouched."
+    "owner_note": "FI a1-fuer gala: production \"Jaoks • Eest\" → \"Varten\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-fuer|a1.card.a1-fuer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Varten",
-    "owner_note": "FI für gala: study.translation priekš→Varten scalar. DE untouched."
+    "owner_note": "FI a1-fuer gala: production \"Jaoks • Eest\" → \"Varten\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-ganz-study|a1.card.a1-ganz-study.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "NELABOT",
     "owner_new": "",
-    "owner_note": "FI ganz comparison[0]: kokonainen•kokonaan•täysin matches vesels•viss kopumā•pilnīgi. DE untouched."
+    "owner_note": "FI a1-ganz-study gala: production already correct FI (kokonainen • kokonaan • täysin); NELABOT. DE untouched."
   },
   "g2/a1/fi|a1-gefallen-study|a1.card.a1-gefallen-study.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "NELABOT",
     "owner_new": "",
-    "owner_note": "FI gefallen comparison[0]: pitää•henkilö datiivissa matches patikt•persona datīvā. DE untouched."
+    "owner_note": "FI a1-gefallen-study gala: production already correct FI (pitää • henkilö datiivissa); NELABOT. DE untouched."
   },
   "g2/a1/fi|a1-gleich|a1.card.a1-gleich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Heti",
-    "owner_note": "FI gleich gala: lv_source tūlīt→Heti only; no Sama. DE untouched."
+    "owner_note": "FI a1-gleich gala: production \"Kohe • Ühesugune\" → \"Heti\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-gleich|a1.card.a1-gleich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Heti",
-    "owner_note": "FI gleich gala: study.translation mirrors native scalar. DE untouched."
+    "owner_note": "FI a1-gleich gala: production \"Kohe • Ühesugune\" → \"Heti\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-halten|a1.card.a1-halten.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Pitää",
-    "owner_note": "FI halten gala: lv_source turēt→Pitää scalar; ET Hoidma/Peatama removed. DE untouched."
+    "owner_note": "FI a1-halten gala: production \"Hoidma • Peatama\" → \"Pitää\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-halten|a1.card.a1-halten.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Pitää",
-    "owner_note": "FI halten gala: study.translation mirrors native scalar. DE untouched."
+    "owner_note": "FI a1-halten gala: production \"Hoidma • Peatama\" → \"Pitää\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-heissen|a1.card.a1-heissen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Nimeltään",
-    "owner_note": "FI heißen gala: lv_source saukties→Nimeltään scalar; ET Nimi olema removed. DE untouched."
+    "owner_note": "FI a1-heissen gala: production \"Nimi olema • Tähendama\" → \"Nimeltään\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-heissen|a1.card.a1-heissen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Nimeltään",
-    "owner_note": "FI heißen gala: study.translation mirrors native scalar. DE untouched."
+    "owner_note": "FI a1-heissen gala: production \"Nimi olema • Tähendama\" → \"Nimeltään\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-hoeren-study|a1.card.a1-hoeren-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kuulla • Kuunnella",
-    "owner_note": "FI hören gala: ET Kuulma/Kuulama → FI Kuulla/Kuunnella for dzirdēt•klausīties. DE untouched."
+    "owner_note": "FI a1-hoeren-study gala: production \"Kuulma • Kuulama\" → \"Kuulla • Kuunnella\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-hoeren-study|a1.card.a1-hoeren-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kuulla • Kuunnella",
-    "owner_note": "FI hören gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-hoeren-study gala: production \"Kuulma • Kuulama\" → \"Kuulla • Kuunnella\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-huebsch|a1.card.a1-huebsch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "NELABOT",
     "owner_new": "",
-    "owner_note": "FI hübsch comparison[0]: kaunis•houkutteleva ulkonäöllään matches glīts•pievilcīgs. DE untouched."
+    "owner_note": "FI a1-huebsch gala: production already correct FI (kaunis • houkutteleva ulkonäöllään); NELABOT. DE untouched."
   },
   "g2/a1/fi|a1-ihr|a1.card.a1-ihr.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Te • Hänelle",
-    "owner_note": "FI ihr gala: ET Teie/Temale → FI Te/Hänelle for jūs•viņai. DE untouched."
+    "owner_note": "FI a1-ihr gala: production \"Teie • Temale\" → \"Te • Hänelle\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-ihr|a1.card.a1-ihr.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Te • Hänelle",
-    "owner_note": "FI ihr gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-ihr gala: production \"Teie • Temale\" → \"Te • Hänelle\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-im|a1.card.a1-im.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Sisällä (-ssa) • Missä?",
-    "owner_note": "FI im gala: ET Sees/Kus → FI Sisällä (-ssa)/Missä? for iekšā•kur?. DE untouched."
+    "owner_note": "FI a1-im gala: production \"Sees (-s) • Kus?\" → \"Sisällä (-ssa) • Missä?\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-im|a1.card.a1-im.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Sisällä (-ssa) • Missä?",
-    "owner_note": "FI im gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-im gala: production \"Sees (-s) • Kus?\" → \"Sisällä (-ssa) • Missä?\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-in|a1.card.a1-in.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Sisällä • Sisään",
-    "owner_note": "FI in gala: ET Sees/Sisse → FI Sisällä/Sisään for iekšā•uz. DE untouched."
+    "owner_note": "FI a1-in gala: production \"Sees • Sisse\" → \"Sisällä • Sisään\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-in|a1.card.a1-in.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Sisällä • Sisään",
-    "owner_note": "FI in gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-in gala: production \"Sees • Sisse\" → \"Sisällä • Sisään\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-ins|a1.card.a1-ins.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Sisään • Sisään päin • Mihin?",
-    "owner_note": "FI ins gala: ET Sisse/Sissepoole/Kuhu → FI Sisään/Sisään päin/Mihin? DE untouched."
+    "owner_note": "FI a1-ins gala: production \"Sisse • Sissepoole • Kuhu?\" → \"Sisään • Sisään päin • Mihin?\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-ins|a1.card.a1-ins.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Sisään • Sisään päin • Mihin?",
-    "owner_note": "FI ins gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-ins gala: production \"Sisse • Sissepoole • Kuhu?\" → \"Sisään • Sisään päin • Mihin?\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-kein|a1.card.a1-kein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ei kukaan • Ei mikään",
-    "owner_note": "FI kein gala: ET Mitte ükski/mingi → FI Ei kukaan/Ei mikään for neviens•nekāds. DE untouched."
+    "owner_note": "FI a1-kein gala: production \"Mitte ükski • Mitte mingi\" → \"Ei kukaan • Ei mikään\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-kein|a1.card.a1-kein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ei kukaan • Ei mikään",
-    "owner_note": "FI kein gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-kein gala: production \"Mitte ükski • Mitte mingi\" → \"Ei kukaan • Ei mikään\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-koennen|a1.card.a1-koennen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Voida • Osata",
-    "owner_note": "FI können gala: ET Saama/Oskama → FI Voida/Osata for varēt•prast. DE untouched."
+    "owner_note": "FI a1-koennen gala: production \"Saama • Oskama\" → \"Voida • Osata\"; LABOT. DE untouched."
   },
   "g2/a1/fi|a1-koennen|a1.card.a1-koennen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Voida • Osata",
-    "owner_note": "FI können gala: study.translation mirrors native. DE untouched."
+    "owner_note": "FI a1-koennen gala: production \"Saama • Oskama\" → \"Voida • Osata\"; LABOT. DE untouched."
   }
 }
