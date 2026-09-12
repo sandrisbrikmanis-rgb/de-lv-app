@@ -1,12 +1,17 @@
 {
   "batchId": "LRB-103",
-  "classification": "G2_A1_LRB_TECHNICAL_ARTIFACT_REPAIR",
-  "generatedAt": "2026-09-12T18:12:06.940Z",
-  "sourceCommit": "f8b5cd780b46997094ff5363503eb5b4fa1867b9",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-12T18:17:00.000Z",
+  "sourceCommit": "d5aca76da9f49f8b5bfb3e5f5f4ab7fb7d26f852",
   "branch": "cursor/lrb-103-owner-review-pc2",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT OWNER",
+  "linguisticReviewer": "gpt-5.6-luna",
+  "linguisticVerdict": "LRB_103_FULL_25_25_LINGUISTIC_REVIEW_PASS",
+  "galaPass": true,
+  "ownerAuthorizationStatus": "APPROVED",
+  "batchSizeNote": "Final batch: 25 rows (not 50)",
   "overridesSha256": "26fab5794bd550d85d98b1bd13a60b6559d342a6827624940799af0b98375ca2",
   "rows": "25/25",
   "labot": 25,
@@ -48,6 +53,8 @@
     "github": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-review-GITHUB.md",
     "overrides": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-approved-overrides.json",
     "manifest": "reports/g2-a1-owner/manifests/LRB-103-start.json",
-    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json"
-  }
+    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
+    "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-103-owner-authorization-proof.json"
+  },
+  "note": "Gala verdict LRB_103_FULL_25_25_LINGUISTIC_REVIEW_PASS. 25 LABOT / 0 NELABOT / 0 PENDING. Final batch (25 rows). DE/production/Crowdin/ingest/apply unchanged."
 }

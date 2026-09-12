@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-103",
-  "phase": "TECHNICAL_ARTIFACT_REPAIR_FULL_GALA_CARDS",
+  "phase": "GALA_PASS",
   "input_csv_sha256": "cf60f0f9db467566463276d8c549d91b8d0fdc746eb21d42ee2f9791f3f38e8b",
   "input_row_count": 25,
   "finding_stable_ids": [
@@ -33,12 +33,15 @@
   "created_at": "2026-09-12T17:17:08.361Z",
   "reviewer": "GPT OWNER",
   "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
-  "owner_authorization_status": "ARTIFACTS_READY",
+  "owner_authorization_status": "APPROVED",
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-approved-overrides.json",
-  "verdict": "25 LABOT / 0 NELABOT / 0 PENDING",
-  "updated_at": "2026-09-12T18:12:06.940Z",
+  "verdict": "LRB_103_FULL_25_25_LINGUISTIC_REVIEW_PASS",
+  "linguistic_verdict": "LRB_103_FULL_25_25_LINGUISTIC_REVIEW_PASS",
+  "gala_pass": true,
+  "batch_size_note": "Final batch: 25 rows (not 50)",
+  "updated_at": "2026-09-12T18:17:00.000Z",
   "overrides_sha256": "26fab5794bd550d85d98b1bd13a60b6559d342a6827624940799af0b98375ca2",
   "technical_repair": "full_gala_cards_from_data_uk_a1_js"
 }

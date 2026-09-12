@@ -5,12 +5,13 @@
 **Direction:** DESCENDING
 **Reserved for:** PC2
 **Reviewer:** GPT OWNER
-**Generated:** 2026-09-12T18:12:06.940Z
-**Source commit:** `f8b5cd780b46997094ff5363503eb5b4fa1867b9`
+**Generated:** 2026-09-12T18:17:00.000Z
+**Source commit:** `d5aca76da9f49f8b5bfb3e5f5f4ab7fb7d26f852`
 **Branch:** `cursor/lrb-103-owner-review-pc2`
 **Overrides SHA256:** `26fab5794bd550d85d98b1bd13a60b6559d342a6827624940799af0b98375ca2`
+**GALA PASS:** `LRB_103_FULL_25_25_LINGUISTIC_REVIEW_PASS` (final batch — 25 rows, not 50)
 
-> Technical artifact repair: full gala cards materialized from data/uk/a1.js. OWNER NEW values unchanged.
+> Full gala cards materialized from data/uk/a1.js. OWNER NEW values unchanged. Linguistic review closed.
 
 **Summary:** 25 LABOT / 0 NELABOT / 0 PENDING
 
