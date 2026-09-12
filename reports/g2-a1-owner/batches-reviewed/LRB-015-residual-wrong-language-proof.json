@@ -1,0 +1,344 @@
+{
+  "batch_id": "LRB-015",
+  "classification": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "nelabot_cards": [
+    "Schaf",
+    "Schnee"
+  ],
+  "pdf_reaudit_repairs": [
+    "sich",
+    "schwimmen",
+    "Sie",
+    "sicher",
+    "sitzen",
+    "sprechen"
+  ],
+  "row_audit": [
+    {
+      "card": "Schaf",
+      "lv_source": "aita",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schauen",
+      "lv_source": "skatīties",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schicken",
+      "lv_source": "sūtīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schlafen",
+      "lv_source": "gulēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schlecht",
+      "lv_source": "slikts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schlüssel",
+      "lv_source": "atslēga",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schmecken",
+      "lv_source": "garšot",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schmutzig",
+      "lv_source": "netīrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schnee",
+      "lv_source": "sniegs",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schneien",
+      "lv_source": "snigt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schnell",
+      "lv_source": "ātrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schokolade",
+      "lv_source": "šokolāde",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schon",
+      "lv_source": "jau",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schön",
+      "lv_source": "skaists",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schrank",
+      "lv_source": "skapis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schreiben",
+      "lv_source": "rakstīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schuh",
+      "lv_source": "kurpe",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schule",
+      "lv_source": "skola",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schüler",
+      "lv_source": "skolnieks",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schwarz",
+      "lv_source": "melns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schwein",
+      "lv_source": "cūka",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schwester",
+      "lv_source": "māsa",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Schwimmbad",
+      "lv_source": "peldbaseins",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "schwimmen",
+      "lv_source": "peldēt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "sechs",
+      "lv_source": "seši",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sechshundert",
+      "lv_source": "sešsimt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sechste",
+      "lv_source": "sestais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sechzehn",
+      "lv_source": "sešpadsmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sechzehnte",
+      "lv_source": "sešpadsmitais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sechzig",
+      "lv_source": "sešdesmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sechzigste",
+      "lv_source": "sešdesmitais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sehen",
+      "lv_source": "redzēt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "sehr",
+      "lv_source": "ļoti",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Seife",
+      "lv_source": "ziepes",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sein",
+      "lv_source": "būt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "seit",
+      "lv_source": "kopš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Seite",
+      "lv_source": "lappuse • puse",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "Sekunde",
+      "lv_source": "sekunde",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "September",
+      "lv_source": "septembris",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sich waschen",
+      "lv_source": "mazgāties",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sich",
+      "lv_source": "sevi • sev",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "sicher",
+      "lv_source": "drošs • noteikti",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "sie",
+      "lv_source": "viņi / viņas",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Sie",
+      "lv_source": "jūs",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "siebenhundert",
+      "lv_source": "septiņsimt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "siebente",
+      "lv_source": "septītais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sitzen",
+      "lv_source": "sēdēt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "sollen",
+      "lv_source": "vajadzētu",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "sprechen",
+      "lv_source": "runāt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Staat",
+      "lv_source": "valsts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T11:20:42.855Z"
+}

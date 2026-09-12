@@ -2,7 +2,7 @@
   "batch_id": "LRB-015",
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
-  "authorizedAt": "2026-09-12T11:12:00.000Z",
+  "authorizedAt": "2026-09-12T11:20:00.000Z",
   "linguisticVerdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 48,
@@ -31,6 +31,25 @@
     "sprechen"
   ],
   "scope": "Schaf..Staat",
-  "residualProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-015-owner-auth-residual-proof.json",
-  "note": "OWNER authorization APPROVED. GPT-5.6 Luna individual FI review Schaf..Staat. 48 LABOT / 2 NELABOT (Schaf, Schnee). 11 composite study repairs. DE/production/Crowdin/ingest/apply unchanged."
+  "pdfReaudit": true,
+  "pdfReauditAt": "2026-09-12T11:20:00.000Z",
+  "pdfReauditRepairs": ["sich", "schwimmen", "Sie", "sicher", "sitzen", "sprechen"],
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-015-residual-wrong-language-proof.json",
+  "postRepairMerge": true,
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "note": "OWNER authorization APPROVED. PDF-standard reaudit repairs: sich (itseään • itselleen reflexive FI), schwimmen (uidä→uida), Sie (3rd pers. pl. verb Sie sind/haben/kochen), sicher (Sicher!=tietysti, no luultavasti), sitzen (natural FI), sprechen (opettajansa). Fresh 50-row POST-REPAIR merge gates PASS. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
 }
