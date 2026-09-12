@@ -21,7 +21,7 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "{\"lv\":\"Hiljainen\",\"study.translation\":\"Hiljainen\",\"study.explanation[0]\":\"Pääajatus: hiljainen tai pienellä äänenvoimakkuudella.\",\"study.explanation[1]\":\"leise tarkoittaa pääasiassa pientä äänenvoimakkuutta.\",\"study.explanation[2]\":\"Sitä käytetään usein äänestä, puheesta tai musiikista.\",\"study.explanation[3]\":\"leise kuvaa hiljaista ääntä tai matalaa äänenvoimakkuutta.\",\"study.examples[0].lv\":\"Ole hiljaa, ole hyvä.\",\"study.examples[1].lv\":\"Ole hiljaa, ole hyvä.\",\"study.examples[2].lv\":\"Musiikki on hiljaista.\",\"study.examples[3].lv\":\"Puhu hiljaa, ole hyvä.\",\"study.tip[0]\":\"leise = hiljainen\",\"study.tip[1]\":\"Käytä leise, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"leise = hiljainen äänen puolesta.\",\"study.important[1]\":\"leise = äänenvoimakkuus.\",\"study.important[2]\":\"Hiljainen tai pienellä äänenvoimakkuudella.\"}",
-    "owner_note": "FI leise FULL repair: ET Vaikne + ET study body → FI Hiljainen with DE-aligned examples. DE untouched."
+    "owner_note": "FI leise PDF reaudit: production DE[0]=DE[1] duplicate mirrored; FI Hiljainen composite verified. DE untouched."
   },
   "g2/a1/fi|lernen|idx:4|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -55,9 +55,9 @@
   },
   "g2/a1/fi|lieb|idx:373|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI lieb lv: production Kallis already correct Finnish for mīļš dear/kind. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "Rakas",
+    "owner_note": "FI lieb PDF reaudit: ET Kallis → FI Rakas for mīļš dear/beloved (not expensive kallis sense). DE untouched."
   },
   "g2/a1/fi|Liebe|idx:374|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",

@@ -1,24 +1,339 @@
 {
   "batch_id": "LRB-012",
   "classification": "LRB_012_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "reviewer": "gpt-5.6-luna",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
   "recalculated_from_production": true,
   "pass": true,
   "row_count": 50,
-  "labot": 48,
-  "nelabot": 2,
+  "labot": 49,
+  "nelabot": 1,
   "pending": 0,
   "gates": {
     "ROWS": "50/50",
     "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
     "wrong_language_residue": 0,
-    "semantic_alignment_violations": 0
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
   },
   "nelabot_cards": [
-    "lieb",
     "Meer"
+  ],
+  "pdf_reaudit_repairs": [
+    "lieb",
+    "leise"
+  ],
+  "row_audit": [
+    {
+      "card": "Lehrerin",
+      "lv_source": "skolotāja",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "leicht",
+      "lv_source": "viegls",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "leider",
+      "lv_source": "diemžēl",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "leise",
+      "lv_source": "kluss",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "lernen",
+      "lv_source": "mācīties",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "lesen",
+      "lv_source": "lasīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "letzte",
+      "lv_source": "pēdējais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Leute",
+      "lv_source": "ļaudis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Licht",
+      "lv_source": "gaisma",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "lieb",
+      "lv_source": "mīļš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Liebe",
+      "lv_source": "mīlestība",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "lieben",
+      "lv_source": "mīlēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Lied",
+      "lv_source": "dziesma",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "liegen",
+      "lv_source": "atrasties • gulēt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Limonade",
+      "lv_source": "limonāde",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Lineal",
+      "lv_source": "lineāls",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "links",
+      "lv_source": "pa kreisi • kreisais",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "links",
+      "lv_source": "pa kreisi • kreisais",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "Liste",
+      "lv_source": "saraksts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Liter",
+      "lv_source": "litrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Löffel",
+      "lv_source": "karote",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Luft",
+      "lv_source": "gaiss",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "lustig",
+      "lv_source": "jautrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "machen",
+      "lv_source": "darīt • taisīt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Mädchen",
+      "lv_source": "meitene",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mahlzeit",
+      "lv_source": "maltīte",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mai",
+      "lv_source": "maijs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mal",
+      "lv_source": "reize",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "malen",
+      "lv_source": "gleznot • krāsot",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "malen",
+      "lv_source": "gleznot • krāsot",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "manchmal",
+      "lv_source": "dažreiz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mandarine",
+      "lv_source": "mandarīns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mann",
+      "lv_source": "vīrietis • vīrs",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Marmelade",
+      "lv_source": "ievārījums",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "März",
+      "lv_source": "marts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Maus",
+      "lv_source": "pele",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Meer",
+      "lv_source": "jūra",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mehl",
+      "lv_source": "milti",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "mehr",
+      "lv_source": "vairāk",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "mein",
+      "lv_source": "mans",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mensch",
+      "lv_source": "cilvēks",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Messer",
+      "lv_source": "nazis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Meter",
+      "lv_source": "metrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Milch",
+      "lv_source": "piens",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Million",
+      "lv_source": "miljons",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Minute",
+      "lv_source": "minūte",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "mit",
+      "lv_source": "ar",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "mitnehmen",
+      "lv_source": "ņemt līdzi",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mittag",
+      "lv_source": "pusdiena",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Mittagessen",
+      "lv_source": "pusdienas",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
   ],
   "failures": [],
   "verdict": "LRB_012_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T10:32:07.138Z"
+  "updatedAt": "2026-09-12T10:35:13.536Z"
 }

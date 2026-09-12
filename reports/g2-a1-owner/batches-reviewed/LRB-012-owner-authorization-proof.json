@@ -5,8 +5,8 @@
   "authorizedAt": "2026-09-12T10:50:00.000Z",
   "linguisticVerdict": "LRB_012_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
-  "labot": 48,
-  "nelabot": 2,
+  "labot": 49,
+  "nelabot": 1,
   "pending": 0,
   "antiBulkPass": true,
   "residualAuditPass": true,
@@ -16,7 +16,7 @@
   "languages": {
     "fi": 50
   },
-  "nelabot_cards": ["lieb", "Meer"],
+  "nelabot_cards": ["Meer"],
   "composite_labot_cards": [
     "leise",
     "liegen",
@@ -25,5 +25,23 @@
     "Mann",
     "mit"
   ],
-  "note": "OWNER authorization APPROVED after GPT-5.6 Luna individual FI review (48 LABOT / 2 NELABOT). Anti-bulk + residual audit PASS. DE/production/Crowdin/ingest/apply unchanged."
+  "pdfReaudit": true,
+  "pdfReauditAt": "2026-09-12T11:00:00.000Z",
+  "pdfReauditRepairs": ["lieb", "leise"],
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "note": "OWNER authorization APPROVED. PDF-standard reaudit repair (lieb ET Kallis→FI Rakas for mīļš dear/beloved + leise composite verified; production DE[0]=DE[1] duplicate mirrored in FI) + fresh 50-row gates recalculated from production_current + owner_new merge. 49 LABOT / 1 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
 }
