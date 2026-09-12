@@ -3,8 +3,8 @@
 const VOM_SECTION_ACCENTS = {
   explanation: {
     blue: ["vom", "von dem"],
-    purple: ["vom"],
-    green: ["vom", "alkuperää"],
+    purple: ["prepositio", "vom"],
+    green: ["maskuliini", "neutrisukuisissa", "substantiiveissa"],
   },
   examples: [
     { de: { blue: ["vom"] }, lv: { purple: ["rautatieasemalta"] } },
@@ -87,7 +87,7 @@ const VOR_SECTION_ACCENTS = {
     },
     {
       word: { green: ["nach"] },
-      meaning: { purple: ["jälkeen", "yli"] },
+      meaning: { purple: ["jälkeen"] },
       example: { red: ["Nach"] },
     },
     {
@@ -101,7 +101,7 @@ const VOR_SECTION_ACCENTS = {
       example: { yellow: ["Hinter"] },
     },
   ],
-  tip: { left: { blue: ["vor"], purple: ["Muista"] } },
+  tip: { left: { blue: ["vor"], purple: ["Muista", "ajassa", "ennen"] } },
   important: [
     { blue: ["vor"], purple: ["ennen", "edessä"] },
     { blue: ["vor dem Essen", "vor dem Haus"], purple: ["ennen", "edessä"] },
@@ -237,16 +237,17 @@ const WETTER_SECTION_ACCENTS = {
 
 const WIE_SECTION_ACCENTS = {
   explanation: {
-    blue: ["wie"],
-    purple: ["miten", "kuinka"],
+    blue: ["wie", "wie viel", "wie alt", "wie lange"],
+    purple: ["miten", "kuinka", "määräsana", "adverbi"],
   },
   tip: [
-    { blue: ["wie"], purple: ["miten", "kuinka"] },
+    { blue: ["wie"], purple: ["miten"] },
+    { blue: ["wie viel", "wie alt", "wie lange"], purple: ["kuinka"] },
     { purple: ["kuin"] },
   ],
   important: [
     { purple: ["kuinka paljon", "kuinka vanha", "kuinka kauan"] },
-    { purple: ["miten"] },
+    { blue: ["wie viel", "wie alt", "wie lange"], purple: ["määrä", "ikä", "kesto"] },
     { red: ["Väärin"], blue: ["Oikein"] },
   ],
 };
@@ -254,7 +255,7 @@ const WIE_SECTION_ACCENTS = {
 const ZEIT_SECTION_ACCENTS = {
   explanation: {
     green: ["die Zeit", "zeit"],
-    purple: ["aika"],
+    purple: ["aika", "hetki", "ajanjakso"],
     yellow: ["Zeit"],
   },
   examples: [
@@ -302,7 +303,7 @@ const COMPOSITE_BY_ID = {
   "g2/a1/fi|vom|idx:634|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "study.translation": "-sta/-stä",
     "study.explanation[0]":
-      "Pääajatus: Vom on preposition von ja artikkelin dem lyhenne.",
+      "Pääajatus: Vom on prepositio von ja artikkelin dem lyhenne.",
     "study.explanation[1]": "Täysi muoto: von dem (Dativ).",
     "study.explanation[2]":
       "Käytetään maskuliini- ja neutrisukuisissa substantiiveissa, kun ilmaistaan alkuperä tai suunta jostakin poispäin.",
@@ -331,7 +332,7 @@ const COMPOSITE_BY_ID = {
     "study.tip[1]":
       "Puheessa melkein koskaan ei sanota von dem - käytetään vom.",
     "study.important[0]":
-      "vom = von dem, vain maskuliinisille tai neutraaleille substantiiveille datiivissa (mistä?).",
+      "vom = von dem, vain maskuliini- ja neutrisukuisissa substantiiveissa datiivissa (mistä?).",
     "study.important[1]":
       "Ilmaisee alkuperää, lähtöä tai suuntaa jostakin konkreettisesta.",
     "study.important[2]": "Feminiineille: von der Mutter, ei vom Mutter.",
@@ -354,11 +355,11 @@ const COMPOSITE_BY_ID = {
     "study.examples[2].lv": "On vaille kahdeksan.",
     "study.examples[3].lv": "Ruokailun jälkeen menemme kävelylle.",
     "study.comparison[0].meaning": "Ennen / edessä",
-    "study.comparison[1].meaning": "Jälkeen / yli",
+    "study.comparison[1].meaning": "Jälkeen",
     "study.comparison[2].meaning": "Vieressä",
     "study.comparison[3].meaning": "Takana",
     "study.tip.text":
-      "Muista: aikana ennen, paikassa edessä → vor.",
+      "Muista: ajassa ennen, paikassa edessä → vor.",
     "study.important[0]": "vor voi olla sekä aika että paikka.",
     "study.important[1]":
       "vor dem Essen = ennen ruokailua; vor dem Haus = talon edessä.",
@@ -534,13 +535,13 @@ const COMPOSITE_BY_ID = {
       "study.explanation[1]":
         "Wie yksin (Wie geht's?) kysyy tavasta — suomeksi miten.",
       "study.explanation[2]":
-        "Wie + adjektiivi (wie viel, wie alt, wie lange) kysyy määrää, ikää tai kestoa — suomeksi kuinka.",
+        "Yhdistelmät wie viel, wie alt ja wie lange kysyvät määrää, ikää tai kestoa — suomeksi kuinka. Vain alt on adjektiivi; viel on määräsana ja lange adverbi.",
       "study.explanation[3]":
         "Wie viel(e) tarkoittaa kuinka paljon • Wie alt tarkoittaa kuinka vanha • Wie lange tarkoittaa kuinka kauan.",
       "study.explanation[4]":
         "Vertailuissa wie tarkoittaa myös kuin (so groß wie = yhtä suuri kuin).",
       "study.tip[0]":
-        "wie itse = miten (tapa); wie + adjektiivi (viel/alt/lange) = kuinka (määrä).",
+        "wie itse = miten (tapa); wie viel / wie alt / wie lange = kuinka (määrä, ikä, kesto).",
       "study.tip[1]": "Vertailussa so ... wie = yhtä ... kuin.",
       "study.important[0]":
         "wie viel(e) = kuinka paljon; wie alt = kuinka vanha; wie lange = kuinka kauan.",
@@ -553,8 +554,8 @@ const COMPOSITE_BY_ID = {
     },
 
   "g2/a1/fi|Zeit|idx:699|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
-    lv: "Aika (hetki / ajankohta)",
-    "study.translation": "Aika (hetki / ajankohta)",
+    lv: "Aika (hetki / ajanjakso)",
+    "study.translation": "Aika (hetki / ajanjakso)",
     "study.explanation[0]":
       "Pääajatus: Aika käsitteenä — hetki, mahdollisuus, ajanjakso.",
     "study.explanation[1]":
