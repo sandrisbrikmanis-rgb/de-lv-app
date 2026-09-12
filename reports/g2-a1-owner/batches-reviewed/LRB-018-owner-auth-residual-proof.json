@@ -1,0 +1,39 @@
+{
+  "batch_id": "LRB-018",
+  "classification": "LRB_018_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "reviewer": "gpt-5.6-luna",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 28,
+  "nelabot": 22,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0
+  },
+  "nelabot_cards": [
+    "a1-einmal",
+    "a1-euch",
+    "a1-fuer",
+    "a1-ins",
+    "a1-machen",
+    "a1-nehmen",
+    "a1-nur-study",
+    "a1-oder",
+    "a1-wer",
+    "ab",
+    "aber",
+    "ein",
+    "Besuch"
+  ],
+  "languages": {
+    "fi": 5,
+    "fr": 45
+  },
+  "failures": [],
+  "verdict": "LRB_018_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T14:51:01.560Z"
+}

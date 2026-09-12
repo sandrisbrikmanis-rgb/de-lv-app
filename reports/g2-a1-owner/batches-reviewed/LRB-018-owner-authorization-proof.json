@@ -1,0 +1,51 @@
+{
+  "batch_id": "LRB-018",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T14:50:00.000Z",
+  "linguisticVerdict": "LRB_018_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 28,
+  "nelabot": 22,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 5,
+    "fr": 45
+  },
+  "nelabot_cards": [
+    "a1-einmal",
+    "a1-euch",
+    "a1-fuer",
+    "a1-ins",
+    "a1-machen",
+    "a1-nehmen",
+    "a1-nur-study",
+    "a1-oder",
+    "a1-wer",
+    "ab",
+    "aber",
+    "ein",
+    "Besuch"
+  ],
+  "composite_labot_cards": ["an", "Appetit"],
+  "field_level_labot_cards": ["bis", "bitte"],
+  "scope": "zweite..zum (mixed FI scalars + FR MULTI/Luna)",
+  "productionSource": "data/fi/a1.js + data/fr/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "duplicate_meanings": 0,
+    "de_target_alignment_violations": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-018-residual-wrong-language-proof.json",
+  "note": "OWNER authorization APPROVED. GPT-5.6 Luna individual mixed FI/FR linguistic review: 28 LABOT / 22 NELABOT. 5 FI ET→FI scalars; 19 FR MULTI_TRANSLATION LABOT; 18 FR MULTI NELABOT; 2 Luna composite LABOT (an, Appetit); 2 field-level LABOT (bis, bitte); 4 Luna NELABOT (ab, aber, ein, Besuch). DE/production/Crowdin/ingest/apply unchanged."
+}

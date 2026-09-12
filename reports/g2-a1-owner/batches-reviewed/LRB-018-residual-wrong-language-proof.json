@@ -1,0 +1,359 @@
+{
+  "batch_id": "LRB-018",
+  "classification": "LRB_018_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 28,
+  "nelabot": 22,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "target_language_quality_errors": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "productionSource": "data/fi/a1.js + data/fr/a1.js",
+  "languages": {
+    "fi": 5,
+    "fr": 45
+  },
+  "nelabot_cards": [
+    "a1-einmal",
+    "a1-euch",
+    "a1-fuer",
+    "a1-ins",
+    "a1-machen",
+    "a1-nehmen",
+    "a1-nur-study",
+    "a1-oder",
+    "a1-wer",
+    "ab",
+    "aber",
+    "ein",
+    "Besuch"
+  ],
+  "composite_repairs": [
+    "an",
+    "Appetit"
+  ],
+  "field_level_repairs": [
+    "bis",
+    "bitte"
+  ],
+  "row_audit": [
+    {
+      "card": "zweite",
+      "lv_source": "otrais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Zwiebel",
+      "lv_source": "sīpols",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zwischen",
+      "lv_source": "starp",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zwölf",
+      "lv_source": "divpadsmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zwölfte",
+      "lv_source": "divpadsmitais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "a1-an",
+      "lv_source": "pie",
+      "decision": "LABOT",
+      "segment_fidelity": "3/1"
+    },
+    {
+      "card": "a1-an",
+      "lv_source": "pie",
+      "decision": "LABOT",
+      "segment_fidelity": "3/1"
+    },
+    {
+      "card": "a1-besuch",
+      "lv_source": "apmeklējums • apciemojums • vizīte",
+      "decision": "LABOT",
+      "segment_fidelity": "3/3"
+    },
+    {
+      "card": "a1-bringen",
+      "lv_source": "atnest",
+      "decision": "LABOT",
+      "segment_fidelity": "2/1"
+    },
+    {
+      "card": "a1-bringen",
+      "lv_source": "atnest",
+      "decision": "LABOT",
+      "segment_fidelity": "2/1"
+    },
+    {
+      "card": "a1-das",
+      "lv_source": "kurš • kura • kuru",
+      "decision": "LABOT",
+      "segment_fidelity": "3/3"
+    },
+    {
+      "card": "a1-dass",
+      "lv_source": "jo • tāpēc ka",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-einmal",
+      "lv_source": "vienreiz • reiz",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-einmal",
+      "lv_source": "vienreiz • reiz",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-eis",
+      "lv_source": "ledus • saldējums",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-eis",
+      "lv_source": "ledus • saldējums",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-es",
+      "lv_source": "tas",
+      "decision": "LABOT",
+      "segment_fidelity": "3/1"
+    },
+    {
+      "card": "a1-es",
+      "lv_source": "tas",
+      "decision": "LABOT",
+      "segment_fidelity": "3/1"
+    },
+    {
+      "card": "a1-euch",
+      "lv_source": "jūs • jums",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-euch",
+      "lv_source": "jūs • jums",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-fuer",
+      "lv_source": "priekš",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-fuer",
+      "lv_source": "priekš",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-ins",
+      "lv_source": "iekšā • uz iekšu • kurp?",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-ins",
+      "lv_source": "iekšā • uz iekšu • kurp?",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-lang",
+      "lv_source": "garš • ilgs",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-lang",
+      "lv_source": "garš • ilgs",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-machen",
+      "lv_source": "darīt • taisīt",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-machen",
+      "lv_source": "darīt • taisīt",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-nehmen",
+      "lv_source": "ņemt • paņemt",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-nehmen",
+      "lv_source": "ņemt • paņemt",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-nur-study",
+      "lv_source": "tikai • vienīgi",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-nur-study",
+      "lv_source": "tikai • vienīgi",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-oder",
+      "lv_source": "vai • jeb",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-oder",
+      "lv_source": "vai • jeb",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-passen",
+      "lv_source": "derēt • piestāvēt",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-passen",
+      "lv_source": "derēt • piestāvēt",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-wer",
+      "lv_source": "kas • kurš",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-wer",
+      "lv_source": "kas • kurš",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "a1-zu",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-zu",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-zum",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "a1-zum",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "ab",
+      "lv_source": "no",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "aber",
+      "lv_source": "bet",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "an",
+      "lv_source": "pie",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Appetit",
+      "lv_source": "apetīte",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Besuch",
+      "lv_source": "[\"Galvenā doma: der Besuch nozīmē apmeklējumu, vizīti vai apciemojumu.\",\"Ja runa ir par vietu vai pasākumu, latviski piemērots ir apmeklējums.\",\"Ja runa ir par cilvēka apmeklēšanu, latviski var teikt apciemojums vai vizīte.\",\"Daudzskaitlis ir die Besuche.\"]",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "bis",
+      "lv_source": "[{\"word\":\"bis\",\"meaning\":\"līdz robežai vai laika punktam\",\"example\":\"Ich bleibe bis morgen. – Es palieku līdz rītdienai.\"},{\"word\":\"bis zu\",\"meaning\":\"līdz konkrētai robežai\",\"example\":\"bis zum Bahnhof – līdz stacijai\"},{\"word\":\"bis jetzt\",\"meaning\":\"līdz šim\",\"example\":\"Bis jetzt habe ich nichts verstanden. – Līdz šim es neko neesmu sapratis.\"}]",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "bitte",
+      "lv_source": "[{\"de\":\"Eine Tasse Kaffee, bitte.\",\"lv\":\"Vienu tasi kafijas, lūdzu.\"},{\"de\":\"Komm bitte herein.\",\"lv\":\"Lūdzu, nāc iekšā.\"},{\"de\":\"Bitte schön!\",\"lv\":\"Lūdzu!\"}]",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "ein",
+      "lv_source": "nenoteiktais artikuls",
+      "decision": "NELABOT",
+      "segment_fidelity": "n/a"
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_018_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T14:51:01.534Z"
+}
