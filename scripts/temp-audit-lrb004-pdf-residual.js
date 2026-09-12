@@ -58,6 +58,8 @@ const LABOT_EXPECTED = {
     "study.translation": "suplema",
     "study.comparison[0].meaning": "suplema / vees olema",
     "study.examples[0].lv": "Ma lähen suplema.",
+    "study.explanation[3]":
+      "Kui rõhk on ujumisliigutustel või spordil, kasutatakse saksa keeles sagedamini schwimmen.",
   },
   "g2/a1/et|bei|idx:78|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "study.comparison[2].meaning": "kellegi juurde (suund)",
@@ -68,6 +70,7 @@ const LABOT_EXPECTED = {
   },
   "g2/a1/et|bis|idx:91|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MEANING_MISMATCH|gpt-5.6-luna": {
     "study.comparison[0].example": "Ich bleibe bis morgen. – Ma jään homseni.",
+    "study.comparison[1].example": "bis zum Bahnhof – jaamani",
   },
   "g2/a1/et|Bitte|idx:94|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna": {
     "study.explanation[1]": "die Bitte tähendab peamiselt: palve või soov.",
@@ -164,6 +167,10 @@ const FORBIDDEN_FRAGMENTS = {
     "end pesema",
     "ma lähen ujuma",
     "me läheme järve ujuma",
+    "või sportil",
+  ],
+  "g2/a1/et|bis|idx:91|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MEANING_MISMATCH|gpt-5.6-luna": [
+    "jaama juurde",
   ],
   "g2/a1/et|Mann|idx:394|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": [
     "See on minu mees.",
@@ -199,6 +206,12 @@ const DE_EXAMPLE_ALIGN = {
     "Wir gehen im See baden.": "Me läheme järves suplema.",
     "Er schwimmt sehr gut.": "Ta ujub väga hästi.",
     "Ich schwimme jeden Montag.": "Ma käin igal esmaspäeval ujumas.",
+  },
+  "g2/a1/et|bis|idx:91|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MEANING_MISMATCH|gpt-5.6-luna": {
+    cmp0: "Ich bleibe bis morgen. – Ma jään homseni.",
+    cmp1: "bis zum Bahnhof – jaamani",
+    cmp2:
+      "Bis jetzt habe ich nichts verstanden. – Siiani pole ma midagi aru saanud.",
   },
   "g2/a1/et|bleiben|idx:101|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna": {
     "Ich gehe nach Hause.": "Ma lähen koju.",
@@ -264,6 +277,12 @@ const INTERNAL_CONTRADICTION_CHECKS = {
       if (ex?.de === "Ich muss jetzt gehen." && /peaksin/i.test(ex.lv || ""))
         return "Ich muss jetzt gehen translated with peaksin";
     }
+    return null;
+  },
+  "g2/a1/et|bis|idx:91|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MEANING_MISMATCH|gpt-5.6-luna": (merged) => {
+    const cmp1 = merged.study?.comparison?.[1]?.example || "";
+    if (/jaama juurde/i.test(cmp1))
+      return "bis endpoint translated as zu/zum juurde direction";
     return null;
   },
   "g2/a1/et|sie|idx:549|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": (merged) => {
@@ -430,6 +449,7 @@ let semanticViolations = 0;
 let deTargetAlignmentViolations = 0;
 let degenerateExamplePairs = 0;
 let internalCardContradictions = 0;
+let targetLanguageGrammar = 0;
 let fullCompositeCompletenessFails = 0;
 
 for (const row of rows) {
@@ -471,8 +491,9 @@ for (const row of rows) {
   if (forbidden) {
     for (const frag of forbidden) {
       if (allText.includes(frag)) {
+        targetLanguageGrammar++;
         semanticViolations++;
-        issues.push({ id, type: "FORBIDDEN", msg: `contains "${frag}"` });
+        issues.push({ id, type: "TARGET_LANGUAGE_GRAMMAR", msg: `contains "${frag}"` });
       }
     }
   }
@@ -669,6 +690,7 @@ const pass =
   deTargetAlignmentViolations === 0 &&
   degenerateExamplePairs === 0 &&
   internalCardContradictions === 0 &&
+  targetLanguageGrammar === 0 &&
   fullCompositeCompleteness === "PASS";
 
 const proof = {
@@ -693,6 +715,7 @@ const proof = {
     de_target_alignment_violations: deTargetAlignmentViolations,
     degenerate_example_pairs: degenerateExamplePairs,
     internal_card_contradictions: internalCardContradictions,
+    target_language_grammar: targetLanguageGrammar === 0 ? "PASS" : "FAIL",
     full_composite_completeness: fullCompositeCompleteness,
   },
   failures: issues,

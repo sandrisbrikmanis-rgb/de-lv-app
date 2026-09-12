@@ -34,7 +34,7 @@ const decisions = {
         "Põhiidee: baden tähendab suplema või vees olema.",
         "baden kasutatakse, kui jutt on puhkusest vees, järves, meres või basseinis.",
         "Kontekstis võib baden tähendada ka vannis käimist või kümblamist.",
-        "Kui rõhk on ujumisliigutustel või sportil, kasutatakse saksa keeles sagedamini schwimmen.",
+        "Kui rõhk on ujumisliigutustel või spordil, kasutatakse saksa keeles sagedamini schwimmen.",
         "baden ja schwimmen ei ole sünonüümid.",
       ],
       "study.examples[0].lv": "Ma lähen suplema.",
@@ -95,11 +95,11 @@ const decisions = {
     {
       "study.comparison[0].example":
         "Ich bleibe bis morgen. – Ma jään homseni.",
-      "study.comparison[1].example": "bis zum Bahnhof – jaama juurde",
+      "study.comparison[1].example": "bis zum Bahnhof – jaamani",
       "study.comparison[2].example":
         "Bis jetzt habe ich nichts verstanden. – Siiani pole ma midagi aru saanud.",
     },
-    "ET bis gala: comparison examples homseni/jaama juurde/siiani aru saanud; DE untouched."
+    "ET bis micro-repair: bis zum Bahnhof→jaamani (endpoint); not zu/zum juurde direction leak. DE untouched."
   ),
 
   "g2/a1/et|bitte|idx:93|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna": nelabot(

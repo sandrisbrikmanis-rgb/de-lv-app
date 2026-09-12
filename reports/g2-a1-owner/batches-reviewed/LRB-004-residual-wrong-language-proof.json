@@ -18,9 +18,10 @@
     "de_target_alignment_violations": 0,
     "degenerate_example_pairs": 0,
     "internal_card_contradictions": 0,
+    "target_language_grammar": "PASS",
     "full_composite_completeness": "PASS"
   },
   "failures": [],
   "verdict": "LRB_004_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T08:44:54.708Z"
+  "updatedAt": "2026-09-12T08:49:34.467Z"
 }
