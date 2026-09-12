@@ -1,26 +1,341 @@
 {
   "batch_id": "LRB-009",
   "classification": "LRB_009_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "reviewer": "gpt-5.6-luna",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
   "recalculated_from_production": true,
   "pass": true,
   "row_count": 50,
-  "labot": 46,
-  "nelabot": 4,
+  "labot": 47,
+  "nelabot": 3,
   "pending": 0,
   "gates": {
     "ROWS": "50/50",
     "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
     "wrong_language_residue": 0,
-    "semantic_alignment_violations": 0
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
   },
   "nelabot_cards": [
     "Erde",
     "Geld",
-    "Geschichte",
     "gesund"
+  ],
+  "pdf_reaudit_repairs": [
+    "erst",
+    "Geschichte"
+  ],
+  "row_audit": [
+    {
+      "card": "er",
+      "lv_source": "viņš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Erbse",
+      "lv_source": "zirnis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Erdbeere",
+      "lv_source": "zemene",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Erde",
+      "lv_source": "zeme",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "erst",
+      "lv_source": "tikai",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "erste",
+      "lv_source": "pirmais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "es",
+      "lv_source": "tas",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Esslöffel",
+      "lv_source": "ēdamkarote",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "etwas",
+      "lv_source": "kaut kas",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "euch",
+      "lv_source": "jūs • jums",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "euer",
+      "lv_source": "jūsu",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "fahren",
+      "lv_source": "braukt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "falsch",
+      "lv_source": "nepareizs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Familie",
+      "lv_source": "ģimene",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Farbe",
+      "lv_source": "krāsa",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "fast",
+      "lv_source": "gandrīz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Februar",
+      "lv_source": "februāris",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Fehler",
+      "lv_source": "kļūda",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Fenster",
+      "lv_source": "logs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "finden",
+      "lv_source": "atrast",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Frau",
+      "lv_source": "sieviete",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "fünf",
+      "lv_source": "pieci",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "fünfhundert",
+      "lv_source": "piecsimt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "fünfte",
+      "lv_source": "piektais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "fünfzehn",
+      "lv_source": "piecpadsmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "fünfzehnte",
+      "lv_source": "piecpadsmitais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "fünfzig",
+      "lv_source": "piecdesmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "fünfzigste",
+      "lv_source": "piecdesmitais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "für",
+      "lv_source": "priekš",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Fuß",
+      "lv_source": "pēda",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Fußball",
+      "lv_source": "futbols",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "ganz",
+      "lv_source": "vesels",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Garage",
+      "lv_source": "garāža",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Garten",
+      "lv_source": "dārzs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Gast",
+      "lv_source": "viesis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "geben",
+      "lv_source": "dot",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "geboren",
+      "lv_source": "dzimis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "gefallen",
+      "lv_source": "patikt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "gegen",
+      "lv_source": "pret",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "gehen",
+      "lv_source": "iet",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "gelb",
+      "lv_source": "dzeltens",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Geld",
+      "lv_source": "nauda",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "genug",
+      "lv_source": "pietiekami",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "geradeaus",
+      "lv_source": "taisni uz priekšu",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "gern",
+      "lv_source": "labprāt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Geschichte",
+      "lv_source": "stāsts",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Geschwister",
+      "lv_source": "brāļi un māsas",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Gesicht",
+      "lv_source": "seja",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "gestern",
+      "lv_source": "vakar",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "gesund",
+      "lv_source": "vesels",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    }
   ],
   "failures": [],
   "verdict": "LRB_009_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T09:53:33.465Z"
+  "updatedAt": "2026-09-12T09:59:22.732Z"
 }
