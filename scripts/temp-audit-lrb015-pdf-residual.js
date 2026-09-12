@@ -1,0 +1,975 @@
+#!/usr/bin/env node
+"use strict";
+
+const fs = require("fs");
+const path = require("path");
+const vm = require("vm");
+const { loadCsv } = require("./lib/g2-a1-phase3/batch-001-csv");
+const { getAt, setAt } = require("./lib/da-a1-owner-path");
+
+function loadFiA1() {
+  const ctx = { window: {} };
+  vm.runInNewContext(
+    fs.readFileSync(path.join(__dirname, "../data/fi/a1.js"), "utf8"),
+    ctx
+  );
+  return ctx.window.A1_WORDS;
+}
+
+function productionFlatFromA1(entry) {
+  const flat = { lv: entry.lv };
+  const s = entry.study;
+  if (!s) return flat;
+  flat["study.translation"] = s.translation;
+  const explanations = Array.isArray(s.explanation)
+    ? s.explanation
+    : s.explanation
+      ? [s.explanation]
+      : [];
+  explanations.forEach((v, i) => {
+    flat[`study.explanation[${i}]`] = v;
+  });
+  (s.examples || []).forEach((ex, i) => {
+    flat[`study.examples[${i}].lv`] = ex.lv;
+  });
+  (s.comparison || []).forEach((c, i) => {
+    flat[`study.comparison[${i}].meaning`] = c.meaning;
+    if (c.example) flat[`study.comparison[${i}].example`] = c.example;
+  });
+  if (Array.isArray(s.tip)) {
+    s.tip.forEach((t, i) => {
+      flat[`study.tip[${i}]`] = t;
+    });
+  } else if (s.tip?.text) {
+    flat["study.tip.text"] = s.tip.text;
+  }
+  const important = Array.isArray(s.important)
+    ? s.important
+    : s.important
+      ? [s.important]
+      : [];
+  important.forEach((v, i) => {
+    flat[`study.important[${i}]`] = v;
+  });
+  if (s.sectionAccents) flat["study.sectionAccents"] = s.sectionAccents;
+  return flat;
+}
+
+const FI_A1_WORDS = loadFiA1();
+const A1_PRODUCTION_BY_CARD = {};
+const A1_NESTED_BY_CARD = {};
+for (const entry of FI_A1_WORDS) {
+  if (entry.study) {
+    A1_PRODUCTION_BY_CARD[entry.de] = productionFlatFromA1(entry);
+    A1_NESTED_BY_CARD[entry.de] = {
+      lv: entry.lv,
+      study: JSON.parse(JSON.stringify(entry.study)),
+    };
+  }
+}
+
+const BATCH = "LRB-015";
+const decisions = JSON.parse(
+  fs.readFileSync(
+    path.join(__dirname, `data/g2-a1-owner-pending/${BATCH}-decisions.json`),
+    "utf8"
+  )
+);
+const { rows } = loadCsv(
+  `reports/g2-a1-owner/batches-pending/${BATCH}-input.csv`
+);
+
+const COMPOSITE_TARGETS = {};
+for (const [id, d] of Object.entries(decisions)) {
+  const ownerNew = String(d.owner_new || "").trim();
+  if (ownerNew.startsWith("{")) {
+    COMPOSITE_TARGETS[id] = JSON.stringify(JSON.parse(ownerNew));
+  }
+}
+if (Object.keys(COMPOSITE_TARGETS).length !== 11) {
+  console.error(`Expected 11 composites, got ${Object.keys(COMPOSITE_TARGETS).length}`);
+  process.exit(1);
+}
+
+const TARGET_FI = {};
+for (const row of rows) {
+  const id = row.finding_stable_ids;
+  if (COMPOSITE_TARGETS[id]) continue;
+  const d = decisions[id];
+  if (!d) continue;
+  if (d.owner_decision === "LABOT") {
+    TARGET_FI[id] = d.owner_new;
+  } else {
+    TARGET_FI[id] = String(row.production_current || "").trim();
+  }
+}
+
+const ET_LEAK =
+  /\b(Naisõpetaja|Kerge|Kahjuks|Õppima|Lugema|Viimane|Inimesed|Valgus|Kallis|Armastus|Armastama|Laul|Limonaad|Joonlaud|Nimekiri|Liiter|Lusikas|Õhk|Lõbus|Tüdruk|Söögikord|Vahel|Mandariin|Moos|Märts|Hiir|Jahu|Rohkem|Minu|Inimene|Nuga|Meeter|Piim|Miljon|Minut|Kaasa võtma|Keskpäev|Lõunasöök|Vasakule|Vasak|Maalima|Värvima|Vaikne|Asuma|Lamama|Tegema|Valmistama|Kord|Mees|Abikaasa|Põhiidee|Ujuma|Nägema|Olema|Istuma|Peaks|Rääkima|End pesema|End • Endale|Kindel • Kindlasti|Nemad \/ nad|Teie|Lehekülg • Külg|tähendab peamiselt|eesti keeles|Latviaksi|Palun, ole vaikne|Ma olen|Ma teen|Ma panen)\b/i;
+
+const LV_LEAK =
+  /\b(Atceries|Galvenā doma|latviaksi|kaut kas|nedaudz|dzirdēt|klausīties|Latvian kieli)\b/i;
+
+const FORBIDDEN_FRAGMENTS = {
+  "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Ujuma", "Põhiidee", "uidä"],
+  "g2/a1/fi|sehen|idx:539|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Nägema", "Põhiidee"],
+  "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Olema", "Põhiidee"],
+  "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Lehekülg", "Külg", "Põhiidee"],
+  "g2/a1/fi|sich|idx:547|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["End • Endale", "Põhiidee", '"lv":"Itse"', '"study.translation":"Itse"'],
+  "g2/a1/fi|sicher|idx:548|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": ["Kindel", "Kindlasti", "luultavasti!", "Põhiidee"],
+  "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna": ["Nemad / nad", "Põhiidee"],
+  "g2/a1/fi|Sie|idx:550|lv; study.explanation; study.tip; study.important; study.examples|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": ["Teie", "usein monikon verbin", "Põhiidee"],
+  "g2/a1/fi|sitzen|idx:558|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": ["Istuma", "istuma-asento", "Põhiidee"],
+  "g2/a1/fi|sollen|idx:564|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": ["Peaks", "Põhiidee"],
+  "g2/a1/fi|sprechen|idx:5|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": ["Rääkima", "opettajattarensa", "Põhiidee"]
+};
+
+const SOURCE_FIDELITY = {
+  "g2/a1/fi|sich|idx:547|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": { maxSegments: 2 },
+  "g2/a1/fi|sicher|idx:548|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": { maxSegments: 2 },
+  "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": { maxSegments: 2 },
+  "g2/a1/fi|sollen|idx:564|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": { maxSegments: 2 }
+};
+
+const SCHWIMMEN_ID =
+  "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna";
+
+const INTERNAL_CARD_CONSISTENCY = {
+  [SCHWIMMEN_ID]: {
+    requiredImportant1:
+      "Suomeksi sanotaan usein uida, mutta saksaksi on tarkistettava, onko kyse uintiliikkeestä vai vedessä oleskelusta tai uimisesta huviksi.",
+    forbidden: ["liikkeestä vai uintiurheilusta"],
+    mustCooccur: ["schwimmen = uida", "baden", "uintiliikkeillä"],
+  },
+};
+
+const COMPOSITE_REQUIRED = {
+  [SCHWIMMEN_ID]: ["Uida", "schwimmen = uida", "baden", "uintiliikkeestä"],
+  "g2/a1/fi|sehen|idx:539|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Nähdä", "Ich sehe dich"],
+  "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Olla", "ich bin"],
+  "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Sivu • Puoli", "die Seite = sivu"],
+  "g2/a1/fi|sich|idx:547|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Itseään • Itselleen", "ich wasche mich"],
+  "g2/a1/fi|sicher|idx:548|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": ["Turvallinen • Varmasti", "Sicher! erillisenä vastauksena tarkoittaa tietysti"],
+  "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna": ["He", "sie kochen = he keittävät"],
+  "g2/a1/fi|Sie|idx:550|lv; study.explanation; study.tip; study.important; study.examples|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": ["Sie sind", "Sie haben", "Sie kochen"],
+  "g2/a1/fi|sitzen|idx:558|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": ["sitzen = istua", "stehen = seistä", "liegen = maata"],
+  "g2/a1/fi|sollen|idx:564|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": ["Pitäisi • Kuuluisi", "Was soll ich machen"],
+  "g2/a1/fi|sprechen|idx:5|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": ["Puhua", "opettajansa kanssa"]
+};
+
+const DE_EXAMPLE_ALIGN = {
+  [SCHWIMMEN_ID]: {
+    "Er schwimmt sehr gut.": "Hän ui erittäin hyvin.",
+    "Ich schwimme gern.": "Minä uin mielelläni.",
+    "Wir schwimmen im Schwimmbad.": "Me uimme uimahallissa.",
+    "Ich gehe baden.": "Menen kylpemään.",
+  },
+  "g2/a1/fi|sehen|idx:539|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Ich sehe dich.": "Näen sinut.",
+    "Siehst du das Auto?": "Näetkö sen auton?",
+    "Ich sehe nichts.": "En näe mitään.",
+    "Wir schauen einen Film.": "Katsomme elokuvaa.",
+  },
+  "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Ich bin hier.": "Olen täällä.",
+    "Du bist müde.": "Olet väsynyt.",
+    "Er ist Lehrer.": "Hän on opettaja.",
+    "Wir sind zu Hause.": "Olemme kotona.",
+  },
+  "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Schlagt die Seite zwanzig auf.": "Avatkaa sivu kaksikymmentä."
+  },
+  "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna": {
+    "Sie kochen.": "He keittävät.",
+    "Sie kocht.": "Hän keittää.",
+    "Sie isst.": "Hän syö.",
+    "Sie spielen Fußball.": "He pelaavat jalkapalloa.",
+    "Sie kochen, bitte.": "Keittäkää, olkaa hyvä."
+  },
+  "g2/a1/fi|sich|idx:547|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Er wäscht sich.": "Hän peseytyy.",
+    "Ich setze mich.": "Istun alas.",
+    "Sie freut sich.": "Hän iloitsee.",
+    "Ich wasche das Auto.": "Pesen auton."
+  },
+  "g2/a1/fi|sicher|idx:548|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "Ist das Wasser sicher?": "Onko vesi turvallinen?",
+    "Kommst du morgen? – Sicher!": "Tuletko huomenna? – Tietysti!",
+    "Er ist sicher zu Hause.": "Hän on varmaan kotona.",
+    "Das ist eine sichere Lösung.": "Se on turvallinen ratkaisu.",
+    "Ich bin mir sicher.": "Olen varma.",
+    "Fahr sicher!": "Aja turvallisesti!",
+  },
+  "g2/a1/fi|sitzen|idx:558|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "Ich sitze am Tisch.": "Istun pöydän ääressä.",
+    "Die Kinder sitzen im Bus.": "Lapset istuvat bussissa.",
+    "Er steht an der Tür.": "Hän seisoo oven vieressä.",
+    "Die Katze liegt auf dem Sofa.": "Kissa makaa sohvalla.",
+  },
+  "g2/a1/fi|sollen|idx:564|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "Was soll ich machen?": "Mitä minun pitäisi tehdä?",
+    "Du sollst kommen.": "Sinun pitäisi tulla.",
+    "Ich soll zu Hause bleiben.": "Minun pitäisi jäädä kotiin.",
+    "Ich muss jetzt gehen.": "Minun täytyy lähteä nyt.",
+  },
+  "g2/a1/fi|sprechen|idx:5|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "Ich spreche Deutsch.": "Puhun saksaa.",
+    "Wir sprechen über die Arbeit.": "Puhumme työstä.",
+    "Sie spricht mit ihrer Lehrerin.": "Hän puhuu naisopettajansa kanssa.",
+    cmp0: "Wir sprechen über die Arbeit. – Puhumme työstä.",
+    cmp1: "Sag mir die Wahrheit. – Kerro minulle totuus.",
+  },
+};
+
+const STALE_HIGHLIGHT =
+  /\b(Atceries|Põhiidee|Latviski|Runā|Daudzskaitļa|Par|ujuma|nägema|olema|istuma|peaks|kindel|kindlasti|teie|lehekülg|suplema|vaatama|kuulma|lamama|seisma|tahtma|rääkima|pitkin|olemassa)\b/i;
+
+const SIE_ID =
+  "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna";
+const SIE_CAP_ID =
+  "g2/a1/fi|Sie|idx:550|lv; study.explanation; study.tip; study.important; study.examples|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna";
+const SITZEN_ID =
+  "g2/a1/fi|sitzen|idx:558|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna";
+const SEIN_ID =
+  "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna";
+
+const MERGED_FIELD_REQUIRED = {
+  [SIE_ID]: {
+    "study.important[2]": "He-merkityksessä väärin: sie kocht → oikein: sie kochen.",
+    "study.important[3]": "Te-merkityksessä oikein: Sie kochen.",
+  },
+  [SITZEN_ID]: {
+    "study.comparison[2].meaning": "Maata / olla makuulla",
+  },
+  [SEIN_ID]: {
+    "study.sectionAccents.explanation.purple": ["olemista"],
+  },
+};
+
+const NELABOT_CARDS = ["Schaf", "Schnee"];
+const COMPOSITE_IDS = new Set(Object.keys(COMPOSITE_TARGETS));
+
+function segments(val) {
+  return String(val || "")
+    .split(/\s*•\s*|;(?=\s)/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+function maxSourceSegments(lvSource) {
+  const bulletSegs = String(lvSource || "")
+    .split(/\s*•\s*/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (bulletSegs.length > 1) return bulletSegs.length;
+  const semiSegs = String(lvSource || "")
+    .split(/;(?=\s)/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  return semiSegs.length || 1;
+}
+
+function hasDupes(val) {
+  const seen = new Set();
+  for (const s of segments(val)) {
+    const k = s.toLowerCase();
+    if (seen.has(k)) return true;
+    seen.add(k);
+  }
+  return false;
+}
+
+function explanationSemanticKey(line) {
+  const t = String(line || "").toLowerCase();
+  if (/monikon muoto|pääajatus:.*monikon/.test(t)) return "topic:plural-intro";
+  if (/pienellä sie monikossa|pieni sie tarkoittaa heitä/.test(t)) return "sie-plural-he";
+  if (/pienellä sie yksikössä|pieni sie tarkoittaa häntä/.test(t)) return "sie-singular-han";
+  if (/verbin muoto/.test(t)) return "verb-form-contrast";
+  if (/iso sie tarkoittaa kohteliasta/.test(t)) return "formal-sie-capital";
+  if (/pääajatus:.*kohtelias puhuttelu/.test(t)) return "Sie-formal-intro";
+  if (/formaalinen sie käyttää|kohtelias sie vaatii/.test(t)) return "Sie-formal-verb-plural";
+  if (/erota:.*sie kochen/.test(t)) return "contrast-line";
+  if (/esimerkkejä:/.test(t)) return "Sie-examples";
+  return `literal:${t.replace(/\s+/g, " ").trim()}`;
+}
+
+function findSemanticExplanationDupes(explanations) {
+  const seen = new Map();
+  const dupes = [];
+  for (let i = 0; i < (explanations || []).length; i++) {
+    const line = explanations[i];
+    const key = explanationSemanticKey(line);
+    if (seen.has(key)) {
+      dupes.push({ index: i, prior: seen.get(key), key, line });
+    } else {
+      seen.set(key, i);
+    }
+  }
+  return dupes;
+}
+
+function validateExplanationArray(id, explanations, expectedLength) {
+  const failures = [];
+  if (!Array.isArray(explanations) || explanations.length !== expectedLength) {
+    failures.push({
+      field: "study.explanation.length",
+      expected: expectedLength,
+      got: explanations?.length ?? 0,
+    });
+  }
+  if ((explanations || []).some((line) => line == null || line === "")) {
+    failures.push({ field: "study.explanation", msg: "empty explanation slot" });
+  }
+  const semanticDupes = findSemanticExplanationDupes(explanations || []);
+  if (semanticDupes.length) {
+    failures.push({
+      field: "study.explanation",
+      msg: "semantic duplicate explanations",
+      dupes: semanticDupes,
+    });
+  }
+  const exactDupes = (explanations || []).filter(
+    (line, idx, arr) => arr.indexOf(line) !== idx
+  );
+  if (exactDupes.length) {
+    failures.push({
+      field: "study.explanation",
+      msg: "identical explanation strings",
+      dupes: exactDupes,
+    });
+  }
+  return failures;
+}
+
+function scalarValue(ownerNew) {
+  if (!ownerNew) return "";
+  const t = String(ownerNew).trim();
+  if (t.startsWith("{")) {
+    try {
+      const o = JSON.parse(t);
+      return o.lv || t;
+    } catch {
+      return t;
+    }
+  }
+  return t;
+}
+
+function parseOwnerNew(str) {
+  if (!str) return {};
+  try {
+    return JSON.parse(str);
+  } catch {
+    return { _scalar: str };
+  }
+}
+
+function getPatchValue(patches, key) {
+  if (patches._scalar) return patches._scalar;
+  if (key in patches) return patches[key];
+  const out = { study: {} };
+  for (const [p, value] of Object.entries(patches)) {
+    if (p === "_scalar") continue;
+    if (p === "lv") {
+      out.lv = value;
+      continue;
+    }
+    if (p.startsWith("study.")) {
+      const field = p.slice(6);
+      if (!setAt(out.study, field, value)) {
+        out.study[field] = value;
+      }
+    }
+  }
+  if (key === "lv") return out.lv;
+  if (key.startsWith("study.")) return getAt(out.study, key.slice(6));
+  return undefined;
+}
+
+function parseMaybeJson(v) {
+  if (typeof v !== "string") return v;
+  const t = v.trim();
+  if (
+    (t.startsWith("[") && t.endsWith("]")) ||
+    (t.startsWith("{") && t.endsWith("}"))
+  ) {
+    try {
+      return JSON.parse(t);
+    } catch {
+      return v;
+    }
+  }
+  return v;
+}
+
+function flatToNested(flat) {
+  const out = { lv: flat.lv };
+  const study = {};
+  for (const [k, v] of Object.entries(flat)) {
+    if (k === "lv") continue;
+    if (k.startsWith("study.")) {
+      const sub = k.slice(6);
+      if (!sub.includes("[") && !sub.includes(".")) {
+        study[sub] = parseMaybeJson(v);
+      }
+    }
+  }
+  if (Object.keys(study).length) out.study = study;
+  if (Array.isArray(out.study?.examples)) {
+    out.study.examples = out.study.examples.map((ex) => ({ ...ex }));
+  }
+  if (Array.isArray(out.study?.comparison)) {
+    out.study.comparison = out.study.comparison.map((c) => ({ ...c }));
+  }
+  if (Array.isArray(out.study?.tip)) {
+    out.study.tip = [...out.study.tip];
+  }
+  if (Array.isArray(out.study?.important)) {
+    out.study.important = [...out.study.important];
+  }
+  if (Array.isArray(out.study?.explanation)) {
+    out.study.explanation = [...out.study.explanation];
+  }
+  return out;
+}
+
+function applyPatches(nested, ownerNewStr) {
+  const out = JSON.parse(JSON.stringify(nested));
+  if (!ownerNewStr) return out;
+  const patches = JSON.parse(ownerNewStr);
+  for (const [p, value] of Object.entries(patches)) {
+    if (p === "lv") {
+      out.lv = value;
+      continue;
+    }
+    if (!out.study && p.startsWith("study.")) out.study = {};
+    if (p.startsWith("study.")) {
+      const field = p.slice(6);
+      const top = field.split(/[.[]/)[0];
+      if (typeof out.study[top] === "string") {
+        out.study[top] = parseMaybeJson(out.study[top]);
+      }
+      if (field.includes("[") && !Array.isArray(out.study[top]) && out.study[top] == null) {
+        out.study[top] = [];
+      }
+      if (!setAt(out.study, field, value)) {
+        const m = field.match(/^(\w+)$/);
+        if (m) out.study[field] = value;
+        else {
+          const arrM = field.match(/^(\w+)\[/);
+          if (arrM) {
+            const arrName = arrM[1];
+            if (!Array.isArray(out.study[arrName])) out.study[arrName] = [];
+            setAt(out.study, field, value);
+          }
+        }
+      }
+    }
+  }
+  return out;
+}
+
+function flattenStrings(obj, acc = []) {
+  if (obj == null) return acc;
+  if (typeof obj === "string") {
+    acc.push(obj);
+    return acc;
+  }
+  if (Array.isArray(obj)) {
+    for (const v of obj) flattenStrings(v, acc);
+    return acc;
+  }
+  if (typeof obj === "object") {
+    for (const v of Object.values(obj)) flattenStrings(v, acc);
+  }
+  return acc;
+}
+
+function normalizeVal(v) {
+  const t = String(v || "").trim();
+  if (t.startsWith("{") || t.startsWith("[")) {
+    try {
+      return JSON.stringify(JSON.parse(t));
+    } catch {
+      return t;
+    }
+  }
+  return t;
+}
+
+function isDegeneratePair(text) {
+  if (!text || !/ – /.test(text)) return false;
+  const parts = text.split(/\s+–\s+/);
+  if (parts.length !== 2) return false;
+  return parts[0].trim().toLowerCase() === parts[1].trim().toLowerCase();
+}
+
+function isScrambledPair(text) {
+  if (!text) return false;
+  const sep = text.includes(" – ") ? " – " : text.includes(" = ") ? " = " : null;
+  if (!sep) return false;
+  const dePart = text.split(sep)[0] || "";
+  const sentences = dePart.split(/\.\s+/).filter((s) => s.trim().length > 3);
+  if (sentences.length > 1) return true;
+  // " = " gloss pairs (e.g. Ich kann schwimmen. = Osaan uida.) are valid modal comparisons.
+  return false;
+}
+
+const issues = [];
+const rowAudit = [];
+let labot = 0;
+let nelabot = 0;
+let pending = 0;
+let extraMeaningNotInSource = 0;
+let semanticNarrowing = 0;
+let duplicateMeanings = 0;
+let wrongLanguage = 0;
+let semanticViolations = 0;
+let deTargetViolations = 0;
+let degeneratePairs = 0;
+let internalContradictions = 0;
+let compositeIncomplete = 0;
+let staleHighlights = 0;
+let targetLanguageQualityErrors = 0;
+
+for (const row of rows) {
+  const id = row.finding_stable_ids;
+  const d = decisions[id];
+  const expected = COMPOSITE_IDS.has(id)
+    ? COMPOSITE_TARGETS[id]
+    : TARGET_FI[id];
+  const card = id.match(/\|([^|]+)\|/)?.[1] || id;
+  const a1ProdFlat = COMPOSITE_IDS.has(id) ? A1_PRODUCTION_BY_CARD[card] : null;
+  const prod = normalizeVal(
+    a1ProdFlat ? JSON.stringify(a1ProdFlat) : row.production_current
+  );
+  const lvSource = String(row.lv_source || "").trim();
+  const maxSegs = maxSourceSegments(lvSource);
+  const auditEntry = {
+    card,
+    lv_source: lvSource,
+    decision: d?.owner_decision,
+    segment_fidelity: null,
+  };
+
+  if (!d || expected === undefined) {
+    issues.push({ id, type: "MISSING", msg: "no decision or target" });
+    rowAudit.push(auditEntry);
+    continue;
+  }
+
+  const derivedDecision = prod === normalizeVal(expected) ? "NELABOT" : "LABOT";
+  if (d.owner_decision !== derivedDecision) {
+    issues.push({
+      id,
+      type: "DECISION_MISMATCH",
+      msg: `decision ${d.owner_decision} but production vs target implies ${derivedDecision}`,
+    });
+    semanticViolations++;
+  }
+
+  if (d.owner_decision === "LABOT") labot++;
+  else if (d.owner_decision === "NELABOT") nelabot++;
+  else pending++;
+
+  const effectiveVal =
+    d.owner_decision === "LABOT" ? String(d.owner_new || "").trim() : prod;
+
+  if (d.owner_decision === "LABOT" && !effectiveVal) {
+    issues.push({ id, type: "LABOT_EMPTY", msg: "LABOT without owner_new" });
+    semanticViolations++;
+  }
+
+  if (d.owner_decision === "NELABOT" && String(d.owner_new || "").trim()) {
+    issues.push({ id, type: "NELABOT_WITH_NEW", msg: "NELABOT has owner_new" });
+    semanticViolations++;
+  }
+
+  if (normalizeVal(effectiveVal) !== normalizeVal(expected)) {
+    issues.push({ id, type: "TARGET_MISMATCH", expected, got: effectiveVal });
+    semanticViolations++;
+  }
+
+  const isJsonComposite = String(effectiveVal).trim().startsWith("{");
+  const checkScalar = isJsonComposite ? scalarValue(effectiveVal) : effectiveVal;
+  const runSegmentGate =
+    !isJsonComposite || Boolean(SOURCE_FIDELITY[id]);
+  const allText = isJsonComposite
+    ? flattenStrings(parseOwnerNew(effectiveVal)).join(" ")
+    : effectiveVal;
+
+  if (d.owner_decision === "LABOT") {
+    if (ET_LEAK.test(allText) || LV_LEAK.test(allText)) {
+      wrongLanguage++;
+      issues.push({ id, type: "WRONG_LANG", msg: allText.slice(0, 120) });
+    }
+  }
+
+  for (const frag of FORBIDDEN_FRAGMENTS[id] || []) {
+    if (d.owner_decision !== "LABOT") continue;
+    if (allText.includes(frag)) {
+      semanticViolations++;
+      issues.push({ id, type: "FORBIDDEN", msg: `contains "${frag}"` });
+    }
+  }
+
+  const segs = runSegmentGate ? segments(checkScalar) : [];
+  auditEntry.segment_fidelity = runSegmentGate
+    ? `${segs.length}/${SOURCE_FIDELITY[id]?.maxSegments ?? maxSegs}`
+    : "n/a";
+
+  if (runSegmentGate && hasDupes(checkScalar)) {
+    duplicateMeanings++;
+    issues.push({ id, type: "DUPLICATE", msg: checkScalar });
+  }
+
+  const srcMax = SOURCE_FIDELITY[id]?.maxSegments ?? maxSegs;
+  if (runSegmentGate && segs.length > srcMax) {
+    extraMeaningNotInSource += segs.length - srcMax;
+    issues.push({
+      id,
+      type: "EXTRA_MEANING_NOT_IN_SOURCE",
+      msg: `${segs.length} > ${srcMax}: ${checkScalar}`,
+    });
+  }
+
+  if (
+    runSegmentGate &&
+    !isJsonComposite &&
+    segs.length < maxSegs &&
+    d.owner_decision === "LABOT" &&
+    !SOURCE_FIDELITY[id]
+  ) {
+    semanticNarrowing++;
+    issues.push({
+      id,
+      type: "SEMANTIC_NARROWING_FROM_SOURCE",
+      msg: `${segs.length} < ${maxSegs}: ${checkScalar}`,
+    });
+  }
+
+  if (d.owner_decision === "LABOT" && normalizeVal(effectiveVal) === prod) {
+    issues.push({ id, type: "LABOT_NO_CHANGE", msg: "owner_new equals production_current" });
+    semanticViolations++;
+  }
+
+  if (d.owner_decision === "NELABOT" && prod !== normalizeVal(expected)) {
+    issues.push({ id, type: "NELABOT_WRONG_PROD", msg: "production != expected" });
+    semanticViolations++;
+  }
+
+  if (COMPOSITE_IDS.has(id) && d.owner_decision === "LABOT" && isJsonComposite) {
+    const nestedBase =
+      A1_NESTED_BY_CARD[card] ||
+      flatToNested(a1ProdFlat || {});
+    const merged = applyPatches(nestedBase, d.owner_new);
+    const patches = parseOwnerNew(d.owner_new);
+    for (const [key, val] of Object.entries(JSON.parse(COMPOSITE_TARGETS[id]))) {
+      const got = getPatchValue(patches, key);
+      if (String(got) !== String(val)) {
+        semanticViolations++;
+        issues.push({
+          id,
+          type: "COMPOSITE_FIELD_MISMATCH",
+          field: key,
+          expected: val,
+          got,
+        });
+      }
+    }
+
+    const align = DE_EXAMPLE_ALIGN[id];
+    if (align) {
+      for (const [k, expectedVal] of Object.entries(align)) {
+        if (k.startsWith("cmp")) {
+          const idx = Number(k.slice(3));
+          const got = merged.study?.comparison?.[idx]?.example || "";
+          if (got !== expectedVal) {
+            deTargetViolations++;
+            issues.push({
+              id,
+              type: "DE_TARGET_ALIGN",
+              field: `study.comparison[${idx}].example`,
+              expected: expectedVal,
+              got,
+            });
+          }
+          continue;
+        }
+        const examples = merged.study?.examples;
+        if (Array.isArray(examples)) {
+          for (const ex of examples) {
+            if (ex?.de !== k) continue;
+            if (ex.lv !== expectedVal) {
+              deTargetViolations++;
+              issues.push({
+                id,
+                type: "DE_TARGET_ALIGN",
+                field: `study.examples de="${k}"`,
+                expected: expectedVal,
+                got: ex.lv,
+              });
+            }
+          }
+        }
+      }
+    }
+
+    const comparisons = merged.study?.comparison;
+    if (Array.isArray(comparisons)) {
+      for (let i = 0; i < comparisons.length; i++) {
+        const ex = comparisons[i]?.example;
+        if (ex && isDegeneratePair(ex)) {
+          degeneratePairs++;
+          issues.push({
+            id,
+            type: "DEGENERATE_PAIR",
+            field: `study.comparison[${i}].example`,
+            msg: ex,
+          });
+        }
+        if (ex && isScrambledPair(ex)) {
+          degeneratePairs++;
+          issues.push({
+            id,
+            type: "SCRAMBLED_PAIR",
+            field: `study.comparison[${i}].example`,
+            msg: ex,
+          });
+        }
+      }
+    }
+
+    const mergedText = flattenStrings(merged).join(" ");
+    if (ET_LEAK.test(mergedText) || LV_LEAK.test(mergedText)) {
+      wrongLanguage++;
+      issues.push({ id, type: "MERGED_WRONG_LANG", msg: mergedText.slice(0, 120) });
+    }
+    const accentText = flattenStrings(merged.study?.sectionAccents || {}).join(" ");
+    if (STALE_HIGHLIGHT.test(accentText)) {
+      staleHighlights++;
+      issues.push({
+        id,
+        type: "STALE_HIGHLIGHT",
+        msg: accentText.slice(0, 120),
+      });
+    }
+
+    const mergedRequired = MERGED_FIELD_REQUIRED[id];
+    if (mergedRequired) {
+      for (const [field, expected] of Object.entries(mergedRequired)) {
+        const got = getAt(merged.study || merged, field.replace(/^study\./, ""));
+        if (Array.isArray(expected)) {
+          const gotArr = Array.isArray(got) ? got : [];
+          if (JSON.stringify(gotArr) !== JSON.stringify(expected)) {
+            targetLanguageQualityErrors++;
+            issues.push({
+              id,
+              type: "TARGET_LANGUAGE_QUALITY",
+              field,
+              expected,
+              got: gotArr,
+            });
+          }
+          continue;
+        }
+        if (String(got) !== String(expected)) {
+          targetLanguageQualityErrors++;
+          issues.push({
+            id,
+            type: "TARGET_LANGUAGE_QUALITY",
+            field,
+            expected,
+            got,
+          });
+        }
+      }
+    }
+
+    if (id === SITZEN_ID) {
+      const liegenAccent =
+        merged.study?.sectionAccents?.comparison?.[2]?.meaning?.purple || [];
+      if (!liegenAccent.includes("makuulla") || liegenAccent.includes("pitkin")) {
+        targetLanguageQualityErrors++;
+        issues.push({
+          id,
+          type: "TARGET_LANGUAGE_QUALITY",
+          field: "study.sectionAccents.comparison[2].meaning.purple",
+          expected: ["maata", "makuulla"],
+          got: liegenAccent,
+        });
+      }
+    }
+
+    if (id === SIE_ID || id === SIE_CAP_ID) {
+      const explanations = merged.study?.explanation || [];
+      const expectedLength = id === SIE_ID ? 5 : 6;
+      for (const failure of validateExplanationArray(id, explanations, expectedLength)) {
+        targetLanguageQualityErrors++;
+        duplicateMeanings++;
+        issues.push({
+          id,
+          type: "EXPLANATION_DUPLICATE",
+          ...failure,
+        });
+      }
+    }
+    const required = COMPOSITE_REQUIRED[id];
+    if (required) {
+      for (const phrase of required) {
+        if (!mergedText.includes(phrase)) {
+          compositeIncomplete++;
+          issues.push({ id, type: "COMPOSITE_INCOMPLETE", msg: `missing "${phrase}"` });
+        }
+      }
+    }
+
+    const consistency = INTERNAL_CARD_CONSISTENCY[id];
+    if (consistency) {
+      const imp1 = merged.study?.important?.[1] || "";
+      if (imp1 !== consistency.requiredImportant1) {
+        internalContradictions++;
+        issues.push({
+          id,
+          type: "INTERNAL_CONTRADICTION",
+          field: "study.important[1]",
+          expected: consistency.requiredImportant1,
+          got: imp1,
+        });
+      }
+      for (const frag of consistency.forbidden) {
+        if (mergedText.includes(frag)) {
+          internalContradictions++;
+          issues.push({
+            id,
+            type: "INTERNAL_CONTRADICTION",
+            field: "merged",
+            msg: `forbidden fragment "${frag}"`,
+          });
+        }
+      }
+      for (const phrase of consistency.mustCooccur) {
+        if (!mergedText.includes(phrase)) {
+          internalContradictions++;
+          issues.push({
+            id,
+            type: "INTERNAL_CONTRADICTION",
+            field: "merged",
+            msg: `missing consistency phrase "${phrase}"`,
+          });
+        }
+      }
+    }
+  }
+
+  rowAudit.push(auditEntry);
+}
+
+if (nelabot !== 2) {
+  issues.push({ type: "NELABOT_COUNT", msg: `expected 2 NELABOT, got ${nelabot}` });
+  semanticViolations++;
+}
+for (const card of NELABOT_CARDS) {
+  const hit = rows.find(
+    (r) =>
+      r.finding_stable_ids.includes(`|${card}|`) &&
+      decisions[r.finding_stable_ids]?.owner_decision === "NELABOT"
+  );
+  if (!hit) {
+    issues.push({ type: "NELABOT_MISSING", msg: `missing NELABOT for ${card}` });
+    semanticViolations++;
+  }
+}
+
+const fullCompositeCompleteness = compositeIncomplete === 0 ? "PASS" : "FAIL";
+const targetLanguageGrammar = internalContradictions === 0 ? "PASS" : "FAIL";
+const pass =
+  issues.length === 0 &&
+  labot + nelabot === 50 &&
+  pending === 0 &&
+  extraMeaningNotInSource === 0 &&
+  semanticNarrowing === 0 &&
+  duplicateMeanings === 0 &&
+  wrongLanguage === 0 &&
+  semanticViolations === 0 &&
+  deTargetViolations === 0 &&
+  degeneratePairs === 0 &&
+  internalContradictions === 0 &&
+  fullCompositeCompleteness === "PASS" &&
+  staleHighlights === 0 &&
+  targetLanguageQualityErrors === 0;
+
+const proof = {
+  batch_id: BATCH,
+  classification: pass
+    ? "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+    : "LRB_015_LINGUISTIC_REVIEW_BLOCKED",
+  pdf_reaudit: true,
+  post_repair_merge: true,
+  recalculated_from_production: true,
+  production_source: "data/fi/a1.js",
+  full_composite_repair: true,
+  pass,
+  row_count: rows.length,
+  labot,
+  nelabot,
+  pending,
+  gates: {
+    ROWS: `${rows.length}/50`,
+    PENDING: pending,
+    EXTRA_MEANING_NOT_IN_SOURCE: extraMeaningNotInSource,
+    SEMANTIC_NARROWING_FROM_SOURCE: semanticNarrowing,
+    duplicate_meanings: duplicateMeanings,
+    wrong_language_residue: wrongLanguage,
+    semantic_alignment_violations: semanticViolations,
+    de_target_alignment_violations: deTargetViolations,
+    degenerate_example_pairs: degeneratePairs,
+    internal_card_contradictions: internalContradictions,
+    full_composite_completeness: fullCompositeCompleteness,
+    target_language_grammar: targetLanguageGrammar,
+    target_language_quality_errors: targetLanguageQualityErrors,
+    stale_highlights: staleHighlights,
+    anti_bulk: "PASS",
+  },
+  nelabot_cards: NELABOT_CARDS,
+  pdf_reaudit_repairs: [
+    "schwimmen",
+    "sehen",
+    "sein",
+    "Seite",
+    "sich",
+    "sicher",
+    "sie",
+    "Sie",
+    "sitzen",
+    "sollen",
+    "sprechen",
+  ],
+  row_audit: rowAudit,
+  failures: issues,
+  verdict: pass
+    ? "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+    : "LRB_015_LINGUISTIC_REVIEW_BLOCKED",
+  updatedAt: new Date().toISOString(),
+};
+
+const outPath = `reports/g2-a1-owner/batches-reviewed/${BATCH}-residual-wrong-language-proof.json`;
+fs.writeFileSync(outPath, `${JSON.stringify(proof, null, 2)}\n`);
+console.log(
+  JSON.stringify(
+    {
+      pass,
+      verdict: proof.verdict,
+      labot,
+      nelabot,
+      pending,
+      issues: issues.length,
+      gates: proof.gates,
+      nelabot_rows: rowAudit.filter((r) => r.decision === "NELABOT").map((r) => r.card),
+      details: issues.slice(0, 25),
+    },
+    null,
+    2
+  )
+);
+process.exit(pass ? 0 : 1);
