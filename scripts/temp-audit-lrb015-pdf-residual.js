@@ -84,6 +84,12 @@ const COMPOSITE_REQUIRED = {
 };
 
 const DE_EXAMPLE_ALIGN = {
+  "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Er schwimmt sehr gut.": "Hän ui erittäin hyvin."
+  },
+  "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Schlagt die Seite zwanzig auf.": "Avatkaa sivu kaksikymmentä."
+  },
   "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna": {
     "Sie kochen.": "He keittävät.",
     "Sie kocht.": "Hän keittää.",
@@ -100,7 +106,7 @@ const DE_EXAMPLE_ALIGN = {
   "g2/a1/fi|sprechen|idx:5|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "Ich spreche Deutsch.": "Puhun saksaa.",
     "Wir sprechen über die Arbeit.": "Puhumme työstä.",
-    "Sie spricht mit ihrer Lehrerin.": "Hän puhuu opettajansa kanssa."
+    "Sie spricht mit ihrer Lehrerin.": "Hän puhuu naisopettajansa kanssa."
   }
 };
 
