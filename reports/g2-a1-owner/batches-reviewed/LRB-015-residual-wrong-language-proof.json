@@ -24,6 +24,8 @@
     "internal_card_contradictions": 0,
     "full_composite_completeness": "PASS",
     "target_language_grammar": "PASS",
+    "target_language_quality_errors": 0,
+    "stale_highlights": 0,
     "anti_bulk": "PASS"
   },
   "nelabot_cards": [
@@ -347,5 +349,5 @@
   ],
   "failures": [],
   "verdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T13:25:26.375Z"
+  "updatedAt": "2026-09-12T13:30:47.774Z"
 }

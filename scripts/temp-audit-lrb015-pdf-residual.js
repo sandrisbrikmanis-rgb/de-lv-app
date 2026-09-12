@@ -222,7 +222,29 @@ const DE_EXAMPLE_ALIGN = {
 };
 
 const STALE_HIGHLIGHT =
-  /\b(Atceries|Põhiidee|Latviski|Runā|Daudzskaitļa|Par|ujuma|nägema|olema|istuma|peaks|kindel|kindlasti|teie|lehekülg|suplema|vaatama|kuulma|lamama|seisma|tahtma|rääkima)\b/i;
+  /\b(Atceries|Põhiidee|Latviski|Runā|Daudzskaitļa|Par|ujuma|nägema|olema|istuma|peaks|kindel|kindlasti|teie|lehekülg|suplema|vaatama|kuulma|lamama|seisma|tahtma|rääkima|pitkin|olemassa)\b/i;
+
+const SIE_ID =
+  "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna";
+const SIE_CAP_ID =
+  "g2/a1/fi|Sie|idx:550|lv; study.explanation; study.tip; study.important; study.examples|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna";
+const SITZEN_ID =
+  "g2/a1/fi|sitzen|idx:558|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna";
+const SEIN_ID =
+  "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna";
+
+const MERGED_FIELD_REQUIRED = {
+  [SIE_ID]: {
+    "study.important[2]": "He-merkityksessä väärin: sie kocht → oikein: sie kochen.",
+    "study.important[3]": "Te-merkityksessä oikein: Sie kochen.",
+  },
+  [SITZEN_ID]: {
+    "study.comparison[2].meaning": "Maata / olla makuulla",
+  },
+  [SEIN_ID]: {
+    "study.sectionAccents.explanation.purple": ["olemista"],
+  },
+};
 
 const NELABOT_CARDS = ["Schaf", "Schnee"];
 const COMPOSITE_IDS = new Set(Object.keys(COMPOSITE_TARGETS));
@@ -445,6 +467,8 @@ let deTargetViolations = 0;
 let degeneratePairs = 0;
 let internalContradictions = 0;
 let compositeIncomplete = 0;
+let staleHighlights = 0;
+let targetLanguageQualityErrors = 0;
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
@@ -661,12 +685,95 @@ for (const row of rows) {
     }
     const accentText = flattenStrings(merged.study?.sectionAccents || {}).join(" ");
     if (STALE_HIGHLIGHT.test(accentText)) {
-      wrongLanguage++;
+      staleHighlights++;
       issues.push({
         id,
         type: "STALE_HIGHLIGHT",
         msg: accentText.slice(0, 120),
       });
+    }
+
+    const mergedRequired = MERGED_FIELD_REQUIRED[id];
+    if (mergedRequired) {
+      for (const [field, expected] of Object.entries(mergedRequired)) {
+        const got = getAt(merged.study || merged, field.replace(/^study\./, ""));
+        if (Array.isArray(expected)) {
+          const gotArr = Array.isArray(got) ? got : [];
+          if (JSON.stringify(gotArr) !== JSON.stringify(expected)) {
+            targetLanguageQualityErrors++;
+            issues.push({
+              id,
+              type: "TARGET_LANGUAGE_QUALITY",
+              field,
+              expected,
+              got: gotArr,
+            });
+          }
+          continue;
+        }
+        if (String(got) !== String(expected)) {
+          targetLanguageQualityErrors++;
+          issues.push({
+            id,
+            type: "TARGET_LANGUAGE_QUALITY",
+            field,
+            expected,
+            got,
+          });
+        }
+      }
+    }
+
+    if (id === SITZEN_ID) {
+      const liegenAccent =
+        merged.study?.sectionAccents?.comparison?.[2]?.meaning?.purple || [];
+      if (!liegenAccent.includes("makuulla") || liegenAccent.includes("pitkin")) {
+        targetLanguageQualityErrors++;
+        issues.push({
+          id,
+          type: "TARGET_LANGUAGE_QUALITY",
+          field: "study.sectionAccents.comparison[2].meaning.purple",
+          expected: ["maata", "makuulla"],
+          got: liegenAccent,
+        });
+      }
+    }
+
+    if (id === SIE_CAP_ID) {
+      const explanations = merged.study?.explanation || [];
+      if (explanations.length !== 7) {
+        targetLanguageQualityErrors++;
+        issues.push({
+          id,
+          type: "TARGET_LANGUAGE_QUALITY",
+          field: "study.explanation.length",
+          expected: 7,
+          got: explanations.length,
+        });
+      }
+      const dupes = explanations.filter(
+        (line) =>
+          line ===
+          "Erota aina: Sie kochen (te) vs sie kochen (he) vs sie kocht (hän)."
+      );
+      if (dupes.length > 0) {
+        targetLanguageQualityErrors++;
+        issues.push({
+          id,
+          type: "TARGET_LANGUAGE_QUALITY",
+          field: "study.explanation",
+          msg: "duplicate explanation[7] residue",
+        });
+      }
+      if (explanations.some((line) => line == null || line === "")) {
+        targetLanguageQualityErrors++;
+        issues.push({
+          id,
+          type: "TARGET_LANGUAGE_QUALITY",
+          field: "study.explanation",
+          msg: "empty explanation slot",
+        });
+      }
     }
     const required = COMPOSITE_REQUIRED[id];
     if (required) {
@@ -749,7 +856,9 @@ const pass =
   deTargetViolations === 0 &&
   degeneratePairs === 0 &&
   internalContradictions === 0 &&
-  fullCompositeCompleteness === "PASS";
+  fullCompositeCompleteness === "PASS" &&
+  staleHighlights === 0 &&
+  targetLanguageQualityErrors === 0;
 
 const proof = {
   batch_id: BATCH,
@@ -779,6 +888,8 @@ const proof = {
     internal_card_contradictions: internalContradictions,
     full_composite_completeness: fullCompositeCompleteness,
     target_language_grammar: targetLanguageGrammar,
+    target_language_quality_errors: targetLanguageQualityErrors,
+    stale_highlights: staleHighlights,
     anti_bulk: "PASS",
   },
   nelabot_cards: NELABOT_CARDS,

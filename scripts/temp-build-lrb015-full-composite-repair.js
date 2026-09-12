@@ -18,9 +18,13 @@ function loadFiA1() {
 
 function flattenStudyTarget(target) {
   const flat = { lv: target.lv, "study.translation": target.study.translation };
-  target.study.explanation.forEach((v, i) => {
-    flat[`study.explanation[${i}]`] = v;
-  });
+  if (target.study.replaceExplanationArray) {
+    flat["study.explanation"] = target.study.explanation;
+  } else {
+    target.study.explanation.forEach((v, i) => {
+      flat[`study.explanation[${i}]`] = v;
+    });
+  }
   target.study.examples.forEach((ex, i) => {
     flat[`study.examples[${i}].lv`] = ex.lv;
   });
@@ -177,7 +181,7 @@ const CARD_TARGETS = {
       sectionAccents: {
         explanation: {
           blue: ["sein", "ich bin", "du bist", "er ist", "wir sind"],
-          purple: ["olla", "olemassa"],
+          purple: ["olemista"],
         },
         examples: [
           { de: { blue: ["bin"] }, lv: { purple: ["olen"] } },
@@ -347,7 +351,6 @@ const CARD_TARGETS = {
         "Iso Sie tarkoittaa kohteliasta te-puhuttelua — ei sekoiteta pienen sie kanssa.",
         "Pieni sie tarkoittaa häntä, kun verbi on yksikössä (sie isst = hän syö).",
         "Pieni sie tarkoittaa heitä, kun verbi on monikossa (sie kochen = he keittävät).",
-        "Erota aina: sie kochen (he) vs sie kocht (hän) vs Sie kochen (te).",
       ],
       examples: [
         { de: "Sie kochen.", lv: "He keittävät." },
@@ -364,8 +367,8 @@ const CARD_TARGETS = {
       important: [
         "Kohtelias puhuttelu aina isolla S: Sie, ei sie.",
         "Hän: sie kocht. He: sie kochen. Te: Sie kochen.",
-        "Väärin: sie kocht → Oikein: Sie kocht",
-        "Väärin: Sie kocht (he) → Oikein: sie kochen",
+        "He-merkityksessä väärin: sie kocht → oikein: sie kochen.",
+        "Te-merkityksessä oikein: Sie kochen.",
       ],
       sectionAccents: {
         explanation: { green: ["sie", "kochen"], purple: ["he", "hän"] },
@@ -385,6 +388,7 @@ const CARD_TARGETS = {
   Sie: {
     lv: "Te",
     study: {
+      replaceExplanationArray: true,
       translation: "Te",
       explanation: [
         "Pääajatus: Kohtelias puhuttelu — aina isolla S-kirjaimella. Suomeksi: te.",
@@ -394,7 +398,6 @@ const CARD_TARGETS = {
         "Kohtelias Sie vaatii ison S-kirjaimen ja 3. persoonan monikon verbin.",
         "Erota: Sie kochen (te) vs sie kochen (he) vs sie kocht (hän).",
         "Esimerkkejä: Sie sind hier. = Olette täällä.; Sie haben Zeit. = Teillä on aikaa.",
-        "Erota aina: Sie kochen (te) vs sie kochen (he) vs sie kocht (hän).",
       ],
       examples: [
         { de: "Sie kochen, bitte.", lv: "Keittäkää, olkaa hyvä." },
@@ -448,7 +451,7 @@ const CARD_TARGETS = {
       comparison: [
         { word: "sitzen", meaning: "Istua", example: "Ich sitze am Tisch." },
         { word: "stehen", meaning: "Seistä", example: "Er steht an der Tür." },
-        { word: "liegen", meaning: "Maata / olla pitkin", example: "Die Katze liegt dort." },
+        { word: "liegen", meaning: "Maata / olla makuulla", example: "Die Katze liegt dort." },
         { word: "setzen", meaning: "Istuutua / istua alas", example: "Ich setze mich." },
       ],
       tip: { text: "Muista: kun istuu → sitzen; kun seisoo → stehen; kun makaa → liegen." },
@@ -467,7 +470,7 @@ const CARD_TARGETS = {
         comparison: [
           { word: { green: ["sitzen"] }, meaning: { purple: ["istua"] }, example: { blue: ["sitze"] } },
           { word: { green: ["stehen"] }, meaning: { purple: ["seistä"] }, example: { red: ["steht"] } },
-          { word: { green: ["liegen"] }, meaning: { purple: ["maata", "pitkin"] }, example: { yellow: ["liegt"] } },
+          { word: { green: ["liegen"] }, meaning: { purple: ["maata", "makuulla"] }, example: { yellow: ["liegt"] } },
           { word: { green: ["setzen"] }, meaning: { purple: ["istuutua"] }, example: { green: ["setze"] } },
         ],
         tip: { left: { blue: ["sitzen"], purple: ["Muista"], red: ["stehen"], yellow: ["liegen"] } },
@@ -599,9 +602,10 @@ const NOTES = {
   Seite: "full composite: comparison/tip/sectionAccents FI; DE↔FI aligned",
   sich: "full composite: comparison/tip/sectionAccents FI; DE↔FI aligned",
   sicher: "full composite: examples/comparison/tip/sectionAccents FI; Sicher!=tietysti",
-  sie: "full composite: all explanations/examples/sectionAccents FI; DE↔FI aligned",
-  Sie: "full composite: all explanations/examples/sectionAccents FI; formal Sie 3rd pl verb",
-  sitzen: "full composite: comparison/tip/sectionAccents FI; sitzen=istua contrast",
+  sie: "important[2/3] He/Te contrast; full composite FI; DE↔FI aligned",
+  Sie: "removed duplicate explanation[7]; formal Sie 3rd pl verb; full composite FI",
+  sitzen: "liegen=makuulla (not pitkin); comparison/sectionAccents FI; sitzen=istua contrast",
+  sein: "sectionAccents explanation.purple=olemista; full composite FI",
   sollen: "full composite: comparison/tip/sectionAccents FI; sollen vs müssen",
   sprechen: "full composite: comparison/tip/sectionAccents FI; DE↔FI aligned",
 };
