@@ -1,0 +1,635 @@
+"use strict";
+
+const VOM_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["vom", "von dem"],
+    purple: ["vom"],
+    green: ["vom", "alkuperää"],
+  },
+  examples: [
+    { de: { blue: ["vom"] }, lv: { purple: ["rautatieasemalta"] } },
+    { de: { blue: ["vom"] }, lv: { purple: ["isältä"] } },
+    { de: { blue: ["vom"] }, lv: { purple: ["lääkäriltä"] } },
+    { de: { blue: ["vom"] }, lv: { purple: ["lentokentältä"] } },
+    { de: { blue: ["vom"] }, lv: { purple: ["torilta"] } },
+    { de: { blue: ["vom"] }, lv: { purple: ["juhlista"] } },
+    { de: { blue: ["vom"] }, lv: { purple: ["maanviljelijältä"] } },
+    { de: { blue: ["vom"] }, lv: { purple: ["päälliköltä"] } },
+  ],
+  comparison: [
+    {
+      word: { green: ["vom"] },
+      meaning: { purple: ["-sta", "-stä"] },
+      example: { blue: ["vom Bahnhof"] },
+    },
+    {
+      word: { green: ["von"] },
+      meaning: { purple: ["-sta", "-stä"] },
+      example: { yellow: ["von mir"] },
+    },
+    {
+      word: { green: ["aus"] },
+      meaning: { purple: ["sisältä", "alkuperä"] },
+      example: { green: ["aus Deutschland"] },
+    },
+    {
+      word: { green: ["ab"] },
+      meaning: { purple: ["alkaen"] },
+      example: { green: ["ab Montag"] },
+    },
+    {
+      word: { green: ["zu"] },
+      meaning: { purple: ["-lle", "kohti"] },
+      example: { red: ["zum Arzt"] },
+    },
+  ],
+  tip: [
+    { blue: ["vom"], purple: ["Muista"] },
+    { purple: ["von dem"] },
+  ],
+  important: [
+    { blue: ["vom"], purple: ["von dem"], green: ["vom"] },
+    { purple: ["Ilmaisee", "alkuperää"] },
+    { yellow: ["von der Mutter"], red: ["vom Mutter"] },
+    { green: ["aus"], red: ["ab"] },
+  ],
+};
+
+const VOR_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["vor", "fünf vor acht"],
+    purple: ["ennen", "edessä", "vaille"],
+    green: ["ajasta", "paikasta"],
+  },
+  examples: [
+    {
+      de: { blue: ["Vor"], yellow: ["Essen"] },
+      lv: { purple: ["ennen"], yellow: ["ruokailua"] },
+    },
+    {
+      de: { blue: ["vor"], yellow: ["Haus"] },
+      lv: { purple: ["edessä"], yellow: ["talon"] },
+    },
+    {
+      de: { blue: ["vor"] },
+      lv: { purple: ["vaille"] },
+    },
+    {
+      de: { red: ["Nach"], yellow: ["Essen"] },
+      lv: { red: ["jälkeen"], yellow: ["ruokailun"] },
+    },
+  ],
+  comparison: [
+    {
+      word: { green: ["vor"] },
+      meaning: { purple: ["ennen", "edessä"] },
+      example: { blue: ["Vor"] },
+    },
+    {
+      word: { green: ["nach"] },
+      meaning: { purple: ["jälkeen", "puoli"] },
+      example: { red: ["Nach"] },
+    },
+    {
+      word: { green: ["neben"] },
+      meaning: { purple: ["vieressä"] },
+      example: { green: ["Neben"] },
+    },
+    {
+      word: { green: ["hinter"] },
+      meaning: { purple: ["takana"] },
+      example: { yellow: ["Hinter"] },
+    },
+  ],
+  tip: { left: { blue: ["vor"], purple: ["Muista"] } },
+  important: [
+    { blue: ["vor"], purple: ["ennen", "edessä"] },
+    { blue: ["vor dem Essen", "vor dem Haus"], purple: ["ennen", "edessä"] },
+  ],
+};
+
+const WAS_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["was"],
+    purple: ["mitä", "mikä"],
+  },
+  examples: [
+    { de: { blue: ["Was"] }, lv: { purple: ["Mikä"] } },
+    { de: { blue: ["Was"] }, lv: { purple: ["Mitä"] } },
+    { de: { blue: ["Was"] }, lv: { purple: ["Mitä"] } },
+    { de: { blue: ["Was"] }, lv: { purple: ["Mitä"] } },
+    { de: { blue: ["Was"] }, lv: { purple: ["Mitä"] } },
+    { de: { blue: ["Was"] }, lv: { purple: ["Mikä"] } },
+    { de: { blue: ["Was"] }, lv: { purple: ["Mitä"] } },
+  ],
+  tip: [{ blue: ["was"] }, { purple: ["mitä", "mikä"] }],
+  important: [
+    { blue: ["was"] },
+    { blue: ["wer"] },
+    { blue: ["was für"] },
+    { blue: ["was"] },
+  ],
+};
+
+const WENN_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["wenn"],
+    purple: ["jos", "kun"],
+    green: ["lopussa"],
+  },
+  examples: [
+    {
+      de: { blue: ["Wenn", "hast"] },
+      lv: { purple: ["jos"] },
+    },
+    {
+      de: { blue: ["Wenn", "regnet"] },
+      lv: { purple: ["kun"] },
+    },
+    {
+      de: { blue: ["Wenn", "bin"] },
+      lv: { purple: ["kun"] },
+    },
+    {
+      de: { red: ["ob"] },
+      lv: { red: ["tuleeko"] },
+    },
+  ],
+  comparison: [
+    {
+      word: { green: ["wenn"] },
+      meaning: { purple: ["jos", "kun"] },
+      example: { blue: ["Wenn"] },
+    },
+    {
+      word: { green: ["ob"] },
+      meaning: { purple: ["epäsuora"] },
+      example: { red: ["ob"] },
+    },
+    {
+      word: { green: ["wann"] },
+      meaning: { purple: ["milloin"] },
+      example: { yellow: ["Wann"] },
+    },
+    {
+      word: { green: ["weil"] },
+      meaning: { purple: ["koska"] },
+      example: { green: ["weil"] },
+    },
+  ],
+  tip: { left: { blue: ["wenn"], purple: ["Muista"], yellow: ["wann"] } },
+  important: [
+    { blue: ["wenn"], yellow: ["wann"] },
+    { yellow: ["Wann kommst du"], blue: ["Wenn du kommst"] },
+  ],
+};
+
+const WER_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["wer"],
+    purple: ["kuka", "kumpi"],
+    green: ["was"],
+  },
+  examples: [
+    { de: { blue: ["Wer"] }, lv: { purple: ["Kuka"] } },
+    { de: { blue: ["Wer"] }, lv: { purple: ["Kuka"] } },
+    { de: { blue: ["Wer"] }, lv: { purple: ["Kuka"] } },
+    { de: { blue: ["Wer"] }, lv: { purple: ["Kuka"] } },
+    { de: { blue: ["Wer"] }, lv: { purple: ["Kuka"] } },
+    { de: { blue: ["Wer"] }, lv: { purple: ["Kuka"] } },
+    { de: { blue: ["Wer"] }, lv: { purple: ["Kuka"] } },
+  ],
+  tip: [
+    { blue: ["wer"], green: ["was"] },
+    { blue: ["wer von"], purple: ["kuka"] },
+  ],
+  important: [
+    { blue: ["wer"] },
+    { green: ["was"], blue: ["wer"] },
+    { blue: ["wer"] },
+    { blue: ["Wer"], green: ["Was"] },
+  ],
+};
+
+const WERDEN_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["werden", "Ich werde"],
+    purple: ["tulla", "muuttuu"],
+  },
+  tip: { left: { blue: ["werden"], purple: ["Muista"] } },
+  important: [
+    { blue: ["werden"], red: ["sein"] },
+    { blue: ["werde"], purple: ["väsyn"], red: ["bin"] },
+  ],
+};
+
+const WETTER_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["Wetter", "Zeit"],
+    purple: ["sää"],
+  },
+  tip: [{ blue: ["Wetter"] }, { blue: ["Wetter"], purple: ["sää"] }],
+  important: [
+    { blue: ["Wetter"], purple: ["sää"] },
+    { green: ["Zeit"], purple: ["aika"] },
+  ],
+};
+
+const WIE_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["wie"],
+    purple: ["miten", "kuinka"],
+  },
+  tip: [
+    { blue: ["wie"], purple: ["miten", "kuinka"] },
+    { purple: ["kuin"] },
+  ],
+  important: [
+    { purple: ["kuinka paljon", "kuinka vanha", "kuinka kauan"] },
+    { purple: ["miten"] },
+    { red: ["Väärin"], blue: ["Oikein"] },
+  ],
+};
+
+const ZEIT_SECTION_ACCENTS = {
+  explanation: {
+    green: ["die Zeit", "zeit"],
+    purple: ["aika"],
+    yellow: ["Zeit"],
+  },
+  examples: [
+    { de: { green: ["zeit"] }, lv: { purple: ["aikaa"] } },
+    { de: { green: ["zeit"] }, lv: { purple: ["aikaa"] } },
+    { de: { green: ["zeit"] }, lv: { purple: ["aikaa"] } },
+    { de: { green: ["die Zeit", "zeit"] }, lv: { purple: ["aika"] } },
+  ],
+  tip: [{ purple: ["aika"] }],
+  important: [{ green: ["die Zeit"] }],
+};
+
+const ZU_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["zu", "zu lernen", "zu gehen"],
+    purple: ["-lle", "liian", "infinitiivi"],
+    green: ["ihmisten", "laitosten"],
+  },
+  tip: {
+    left: {
+      blue: ["zum Arzt", "zu teuer"],
+      purple: ["Muista"],
+    },
+  },
+  important: [
+    { blue: ["zu"], purple: ["monia"] },
+    { blue: ["zu teuer"], purple: ["liian"], red: ["liian"] },
+  ],
+};
+
+const ZUG_SECTION_ACCENTS = {
+  explanation: {
+    blue: ["der Zug", "Zug", "mit dem Zug fahren"],
+    purple: ["juna"],
+    red: ["veto", "imu", "kasvonpiirre"],
+  },
+  tip: { left: { blue: ["der Zug"], purple: ["Muista"] } },
+  important: [
+    { blue: ["der Zug"], purple: ["juna"] },
+    { red: ["harvinaisemmat"], purple: ["A1"] },
+  ],
+};
+
+const COMPOSITE_BY_ID = {
+  "g2/a1/fi|vom|idx:634|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "study.translation": "-sta/-stä",
+    "study.explanation[0]":
+      "Pääajatus: Vom on preposition von ja artikkelin dem lyhenne.",
+    "study.explanation[1]": "Täysi muoto: von dem (Dativ).",
+    "study.explanation[2]":
+      "Käytetään maskuliini- ja neutrinitiveissä, kun ilmaistaan alkuperä tai suunta jostakin poispäin.",
+    "study.explanation[3]": "Vastaa kysymyksiin keneltä? tai mistä?",
+    "study.explanation[4]":
+      "Käytännössä käytetään lähes aina vom, ei täysmuotoa von dem.",
+    "study.examples[0].lv": "Tulen rautatieasemalta.",
+    "study.examples[1].lv": "Lahja on isältä.",
+    "study.examples[2].lv": "Hän tulee lääkäriltä.",
+    "study.examples[3].lv": "Hän ajaa lentokentältä.",
+    "study.examples[4].lv": "Se on torilta.",
+    "study.examples[5].lv": "Tulemme juhlista.",
+    "study.examples[6].lv": "Hän hakee maitoa maanviljelijältä.",
+    "study.examples[7].lv": "Viesti on päälliköltä.",
+    "study.comparison[0].meaning": "-sta/-stä (konkreettinen asia, Dativ)",
+    "study.comparison[0].example": "vom Bahnhof – Rautatieasemalta",
+    "study.comparison[1].meaning": "-sta/-stä (yleisesti)",
+    "study.comparison[1].example": "von mir – Minulta",
+    "study.comparison[2].meaning": "Sisältä / alkuperä",
+    "study.comparison[2].example": "aus Deutschland – Saksasta",
+    "study.comparison[3].meaning": "Alkaen (aika/paikka)",
+    "study.comparison[3].example": "ab Montag – Maanantaista lähtien",
+    "study.comparison[4].meaning": "-lle / kohti (vastakkainen suunta)",
+    "study.comparison[4].example": "zum Arzt – Lääkärille",
+    "study.tip[0]": "Muista: von + dem → vom (mistä?).",
+    "study.tip[1]":
+      "Puheessa melkein koskaan ei sanota von dem - käytetään vom.",
+    "study.important[0]":
+      "vom = von dem, vain maskuliinisille tai neutraaleille substantiiveille datiivissa (mistä?).",
+    "study.important[1]":
+      "Ilmaisee alkuperää, lähtöä tai suuntaa jostakin konkreettisesta.",
+    "study.important[2]": "Feminiineille: von der Mutter, ei vom Mutter.",
+    "study.important[3]":
+      "Älä sekoita aus (alkuperä maasta) tai ab (lähtöpiste).",
+    "study.sectionAccents": VOM_SECTION_ACCENTS,
+  },
+
+  "g2/a1/fi|vor|idx:636|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "study.translation": "Ennen • Edessä",
+    "study.explanation[0]":
+      "Pääajatus: vor tarkoittaa ajassa ennen tai paikassa edessä.",
+    "study.explanation[1]": "Kun puhutaan ajasta, vor tarkoittaa ennen.",
+    "study.explanation[2]":
+      "Kun puhutaan paikasta, vor tarkoittaa edessä tai lähellä.",
+    "study.explanation[3]":
+      "Kellonajassa vor tarkoittaa vaille, esimerkiksi fünf vor acht.",
+    "study.examples[0].lv": "Ennen ruokailua pesen kädet.",
+    "study.examples[1].lv": "Auto seisoo talon edessä.",
+    "study.examples[2].lv": "On vaille kahdeksan.",
+    "study.examples[3].lv": "Ruokailun jälkeen menemme kävelylle.",
+    "study.comparison[0].meaning": "Ennen / edessä",
+    "study.comparison[1].meaning": "Jälkeen / puoli",
+    "study.comparison[2].meaning": "Vieressä",
+    "study.comparison[3].meaning": "Takana",
+    "study.tip.text":
+      "Muista: aikana ennen, paikassa edessä → vor.",
+    "study.important[0]": "vor voi olla sekä aika että paikka.",
+    "study.important[1]":
+      "vor dem Essen = ennen ruokailua; vor dem Haus = talon edessä.",
+    "study.sectionAccents": VOR_SECTION_ACCENTS,
+  },
+
+  "g2/a1/fi|was|idx:644|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "study.translation": "Mitä • Mikä",
+    "study.explanation[0]":
+      "Pääajatus: was on kysymyssana asioista ja tapahtumista — suomeksi mitä tai mikä, riippuen lauseenosasta.",
+    "study.explanation[1]":
+      "Was kysyy asioista, tapahtumista ja tosiasioista, ei ihmisistä.",
+    "study.explanation[2]":
+      "Saksassa was ei muutu sijamuodoissa — se näyttää aina samalta.",
+    "study.explanation[3]":
+      "Kun was on lauseen subjekti, käännetään suomeksi mikä (Was ist das? = Mikä se on?).",
+    "study.explanation[4]":
+      "Kun was on verbin objekti, käännetään suomeksi mitä (Was machst du? = Mitä teet?).",
+    "study.explanation[5]":
+      "Ihmisistä kysytään sanalla wer (kuka/kumpi), ei was.",
+    "study.examples[0].lv": "Mikä se on?",
+    "study.examples[1].lv": "Mitä tapahtui?",
+    "study.examples[2].lv": "Mitä teet juuri nyt?",
+    "study.examples[3].lv": "Mitä haluat juoda?",
+    "study.examples[4].lv": "Mitä tämä sana tarkoittaa?",
+    "study.examples[5].lv": "Mikä on lempiruokasi?",
+    "study.examples[6].lv": "Mitä sanoit?",
+    "study.tip[0]":
+      "was ei muutu - saksassa se on aina was; suomeksi valitse mitä tai mikä lauseen osan mukaan.",
+    "study.tip[1]":
+      "Nopea kikka: jos kysymykseen voi vastata Se on ..., käytä mikä; jos vastaus tulee verbin jälkeen täydennyksenä, käytä mitä.",
+    "study.important[0]":
+      "was kysyy asioista, tapahtumista ja tosiasioista - ei koskaan ihmisistä.",
+    "study.important[1]":
+      "Ihmisistä kysytään sanalla wer (kuka/kumpi), ei was.",
+    "study.important[2]":
+      "was für (ein/eine) tarkoittaa millainen ja kysyy ominaisuudesta tai tyypistä (Was für ein Film ist das? = Millainen elokuva se on?).",
+    "study.important[3]":
+      "Väärin: Wer ist passiert? → Oikein: Was ist passiert?",
+    "study.sectionAccents": WAS_SECTION_ACCENTS,
+  },
+
+  "g2/a1/fi|wenn|idx:655|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "study.translation": "Jos • Kun",
+    "study.explanation[0]":
+      "Pääajatus: wenn ilmaisee tilanteen mukaan ehtoa tai toistuvaa aikaa ja vastaa suomeksi jos tai kun.",
+    "study.explanation[1]": "Kun kyse on ehdosta, käännetään sanalla jos.",
+    "study.explanation[2]":
+      "Kun kyse on toistuvasta tai yleisestä ajasta, käännetään sanalla kun.",
+    "study.explanation[3]":
+      "Wennin jälkeen verbi on saksan lauseessa yleensä lopussa.",
+    "study.examples[0].lv": "Jos sinulla on aikaa, tule käymään.",
+    "study.examples[1].lv": "Kun sataa, jään kotiin.",
+    "study.examples[2].lv": "Kun olen väsynyt, juon kahvia.",
+    "study.examples[3].lv": "En tiedä, tuleeko hän.",
+    "study.comparison[0].meaning": "Jos (ehto) / kun (aika)",
+    "study.comparison[1].meaning": "Epäsuorassa kysymyksessä",
+    "study.comparison[2].meaning": "Milloin kysymyksessä",
+    "study.comparison[3].meaning": "Koska",
+    "study.tip.text":
+      "Muista: ehto → wenn; kysymys milloin? → wann.",
+    "study.important[0]": "wenn ja wann eivät ole samaa.",
+    "study.important[1]":
+      "Wann kommst du? on kysymys. Wenn du kommst... on ehto/aika.",
+    "study.sectionAccents": WENN_SECTION_ACCENTS,
+  },
+
+  "g2/a1/fi|wer|idx:656|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "study.translation": "Kuka • Kumpi",
+    "study.explanation[0]":
+      "Pääajatus: wer on kysymyssana ihmisen identiteetistä — suomeksi kuka.",
+    "study.explanation[1]":
+      "Wer kysyy ihmisistä, ei asioista tai tapahtumista.",
+    "study.explanation[2]":
+      "Asioista ja tapahtumista kysytään was, ei wer.",
+    "study.explanation[3]":
+      "Wer on saksassa yleensä lauseen subjekti (Nominatiivi) — Wer ist das? = Kuka se on?",
+    "study.explanation[4]":
+      "Kun kysyt, kuka tarkalleen useista ihmisistä, käytetään usein wer von (wer von euch = kuka teistä).",
+    "study.explanation[5]":
+      "Wer muuttuu sijamuodon mukaan: wen (Akkusatiivi), wem (Datiivi), wessen (Genetiivi) — A1-tasolla yleisin on wer.",
+    "study.examples[0].lv": "Kuka se on?",
+    "study.examples[1].lv": "Kuka sinä olet?",
+    "study.examples[2].lv": "Kuka tulee tänään?",
+    "study.examples[3].lv": "Kuka on opettajasi?",
+    "study.examples[4].lv": "Kuka teistä puhuu saksaa?",
+    "study.examples[5].lv": "Kuka sen sanoi?",
+    "study.examples[6].lv": "Kuka haluaa kahvia?",
+    "study.tip[0]":
+      "wer kysyy ihmisistä (kuka/ketkä) - asioista ja tapahtumista käytetään was.",
+    "study.tip[1]":
+      "Kysyäksesi valinnasta useiden ihmisten välillä, käytä wer von... (kuka... joukosta).",
+    "study.important[0]":
+      "wer kysyy vain ihmisistä, ei koskaan asioista.",
+    "study.important[1]":
+      "Asioista ja tapahtumista kysytään was, ei wer.",
+    "study.important[2]":
+      "wer muuttuu sijan mukaan: wen, wem, wessen - mutta perusmuoto on wer.",
+    "study.important[3]":
+      "Väärin: Wer ist passiert? → Oikein: Was ist passiert?",
+    "study.sectionAccents": WER_SECTION_ACCENTS,
+  },
+
+  "g2/a1/fi|werden|idx:657|lv; study.translation; study.explanation; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna":
+    {
+      lv: "Tulla",
+      "study.translation": "Tulla",
+      "study.explanation[0]":
+        "Pääajatus: werden tarkoittaa A1-tasolla yleisimmin tulla.",
+      "study.explanation[1]":
+        "Sitä käytetään, kun jokin muuttuu tai tulee toisenlaiseksi.",
+      "study.explanation[2]":
+        "Myöhemmin saksassa werden käytetään myös tulevaisuuden ja passiivin muodostamiseen.",
+      "study.explanation[3]":
+        "A1-tasolla tärkein fraasi on Ich werde müde. = Väsyn.",
+      "study.examples[0].lv": "Väsyn.",
+      "study.examples[1].lv": "Rupeaa kylmäksi.",
+      "study.examples[2].lv": "Hänestä tulee lääkäri.",
+      "study.examples[3].lv": "Olen väsynyt.",
+      "study.comparison[0].meaning": "Tulla",
+      "study.comparison[1].meaning": "Olla",
+      "study.comparison[2].meaning": "Jäädä",
+      "study.comparison[3].meaning": "Tehdä / valmistaa",
+      "study.tip.text":
+        "Muista: muutos/tila muuttuu → werden.",
+      "study.important[0]": "werden ei ole sama kuin sein.",
+      "study.important[1]":
+        "Ich werde müde = väsyn; Ich bin müde = olen väsynyt.",
+      "study.sectionAccents": WERDEN_SECTION_ACCENTS,
+    },
+
+  "g2/a1/fi|Wetter|idx:658|lv; study.translation; study.explanation; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna":
+    {
+      lv: "Sää",
+      "study.translation": "Sää",
+      "study.explanation[0]":
+        "Pääajatus: das Wetter tarkoittaa säätä — aurinkoista, sateista, kylmää tai lämmintä.",
+      "study.explanation[1]":
+        "Suomen sana sää tarkoittaa vain sääolosuhteita, ei kellonaikaa — saksassakin ne ovat eri sanat.",
+      "study.explanation[2]":
+        "Säästä puhutaan sanalla das Wetter: Wie ist das Wetter heute?",
+      "study.explanation[3]":
+        "Lauseessa das Wetter käytetään usein sanojen kuten warm tai kalt kanssa.",
+      "study.explanation[4]":
+        "Älä sekoita sanaan die Zeit — se on aika hetkenä tai mahdollisuutena (Ich habe keine Zeit).",
+      "study.tip[0]":
+        "Jos puhut auringosta, sateesta tai lämpötilasta ulkona - käytä das Wetter.",
+      "study.tip[1]":
+        "Muista: Wie ist das Wetter? = Millainen sää on? (ei kello).",
+      "study.important[0]":
+        "das Wetter = sääolosuhteet, ei kellonaikaa.",
+      "study.important[1]":
+        "die Zeit = aika käsitteenä tai mahdollisuutena - erillinen kortti A1-tasolla.",
+      "study.examples[0].lv": "Millainen sää on tänään?",
+      "study.examples[1].lv": "Sää on kaunis.",
+      "study.examples[2].lv": "Sää on huono.",
+      "study.examples[3].lv": "Talvella sää on usein kylmä.",
+      "study.examples[4].lv": "Puhumme säästä.",
+      "study.examples[5].lv": "Huomenna sää paranee.",
+      "study.comparison[0].meaning": "Sää",
+      "study.comparison[1].meaning": "Aika (hetki)",
+      "study.comparison[2].meaning": "Sade",
+      "study.comparison[3].meaning": "Aurinko",
+      "study.sectionAccents": WETTER_SECTION_ACCENTS,
+    },
+
+  "g2/a1/fi|wie|idx:660|lv; study.translation; study.explanation; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna":
+    {
+      lv: "Miten • Kuinka",
+      "study.translation": "Miten • Kuinka",
+      "study.explanation[0]":
+        "Pääajatus: wie kysyy tavasta tai ominaisuudesta (miten) ja määrästä tai lukumäärästä (kuinka paljon), riippuen kontekstista.",
+      "study.explanation[1]":
+        "Wie yksin (Wie geht's?) kysyy tavasta — suomeksi miten.",
+      "study.explanation[2]":
+        "Wie + adjektiivi (wie viel, wie alt, wie lange) kysyy määrää, ikää tai kestoa — suomeksi kuinka.",
+      "study.explanation[3]":
+        "Wie viel(e) tarkoittaa kuinka paljon • Wie alt tarkoittaa kuinka vanha • Wie lange tarkoittaa kuinka kauan.",
+      "study.explanation[4]":
+        "Vertailuissa wie tarkoittaa myös kuin (so groß wie = yhtä suuri kuin).",
+      "study.tip[0]":
+        "wie itse = miten (tapa); wie + adjektiivi (viel/alt/lange) = kuinka (määrä).",
+      "study.tip[1]": "Vertailussa so ... wie = yhtä ... kuin.",
+      "study.important[0]":
+        "wie viel(e) = kuinka paljon; wie alt = kuinka vanha; wie lange = kuinka kauan.",
+      "study.important[1]":
+        "wie yksin (Wie...?) yleensä = miten, ei kuinka.",
+      "study.important[2]":
+        "Väärin: Kuinka sinulle käy? → Oikein: Miten sinulle käy? (Wie geht's?)",
+      "study.sectionAccents": WIE_SECTION_ACCENTS,
+    },
+
+  "g2/a1/fi|Zeit|idx:699|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    lv: "Aika (hetki / ajankohta)",
+    "study.translation": "Aika (hetki / ajankohta)",
+    "study.explanation[0]":
+      "Pääajatus: Aika käsitteenä — hetki, mahdollisuus, ajanjakso.",
+    "study.explanation[1]":
+      "Die Zeit tarkoittaa pääasiassa: hetki, mahdollisuus.",
+    "study.explanation[2]": "Usein kuvaa: abstrakti käsite.",
+    "study.explanation[3]":
+      "Die Zeit on abstrakti käsite — aika, hetki tai mahdollisuus (Ich habe keine Zeit).",
+    "study.examples[0].lv": "Minulla ei ole aikaa.",
+    "study.examples[1].lv": "Minulla ei ole aikaa.",
+    "study.examples[2].lv": "Onko sinulla aikaa?",
+    "study.examples[3].lv": "Aika kuluu nopeasti.",
+    "study.tip[0]":
+      "Aika käsitteenä - hetki, mahdollisuus, ajanjakso.",
+    "study.tip[1]":
+      "Käytä die Zeit, kun konteksti vastaa tätä merkitystä.",
+    "study.important[0]": "die Zeit: tarkista konteksti ennen käyttöä.",
+    "study.important[1]":
+      "die Zeit: erota die Uhr (kello/kellonaika).",
+    "study.sectionAccents": ZEIT_SECTION_ACCENTS,
+  },
+
+  "g2/a1/fi|zu|idx:668|lv; study.translation; study.explanation; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna":
+    {
+      lv: "-lle • Liian",
+      "study.translation": "-lle • Liian",
+      "study.explanation[0]":
+        "Pääajatus: zu tarkoittaa usein kohti tai -lle, mutta sillä on myös oma rooli infinitiivin kanssa.",
+      "study.explanation[1]":
+        "Ihmisten ja laitosten kohdalla zu tarkoittaa usein kohti tai -lle.",
+      "study.explanation[2]":
+        "Adjektiivien kanssa zu voi tarkoittaa liian.",
+      "study.explanation[3]":
+        "Rakenteessa zu + verbi se muodostaa infinitiivin: zu lernen, zu gehen.",
+      "study.examples[0].lv": "Menen lääkärille.",
+      "study.examples[1].lv": "Menemme kouluun.",
+      "study.examples[2].lv": "Se on liian kallis.",
+      "study.examples[3].lv": "Minulla ei ole aikaa opiskella.",
+      "study.comparison[0].meaning": "-lle / kohti / liian / infinitiivi",
+      "study.comparison[1].meaning": "-Väliin kaupunkien/maiden kanssa",
+      "study.comparison[2].meaning": "Sisään / johonkin paikkaan",
+      "study.comparison[3].meaning": "Luona / työn parissa",
+      "study.tip.text":
+        "Muista: lääkärille → zum Arzt; liian hinta → zu teuer.",
+      "study.important[0]":
+        "zu: sillä on monia käyttötarkoituksia, joten tarkista aina rakenne.",
+      "study.important[1]":
+        "zu teuer tarkoittaa liian korkeaa hintaa, ei suuntaa kohti hintaa.",
+      "study.sectionAccents": ZU_SECTION_ACCENTS,
+    },
+
+  "g2/a1/fi|Zug|idx:671|lv; study.translation; study.explanation; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna":
+    {
+      lv: "Juna",
+      "study.translation": "Juna",
+      "study.explanation[0]":
+        "Pääajatus: der Zug tarkoittaa A1-tasolla yleisimmin junaa.",
+      "study.explanation[1]":
+        "Sitä käytetään arkisissa tilanteissa matkustamisesta, saapumisesta ja lähtemisestä.",
+      "study.explanation[2]":
+        "Joissain muissa merkityksissä Zug voi tarkoittaa vetoa, imua tai kasvonpiirrettä, mutta ne eivät ole pääasiallisia A1-merkityksiä.",
+      "study.explanation[3]":
+        "Hyvin yleisiä fraaseja ovat mit dem Zug fahren ja Der Zug kommt.",
+      "study.tip.text": "Muista: tietty juna → der Zug.",
+      "study.examples[0].lv": "Juna saapuu kahdeksalta.",
+      "study.examples[1].lv": "Matkustan junalla.",
+      "study.examples[2].lv": "Juna on täynnä.",
+      "study.examples[3].lv": "Bussi saapuu myöhemmin.",
+      "study.comparison[0].meaning": "Juna",
+      "study.comparison[1].meaning": "Rautatie / junamatka",
+      "study.comparison[2].meaning": "Bussi",
+      "study.comparison[3].meaning": "Raitiovaunu",
+      "study.important[0]": "Pääotsikko Zug tarkoittaa junaa.",
+      "study.important[1]":
+        "Harvinaisemmat merkitykset eivät kuulu A1-tason pääotsikkoon.",
+      "study.sectionAccents": ZUG_SECTION_ACCENTS,
+    },
+};
+
+module.exports = { COMPOSITE_BY_ID };

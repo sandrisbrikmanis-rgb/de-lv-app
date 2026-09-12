@@ -32,7 +32,8 @@
       "LRB-013",
       "LRB-014",
       "LRB-015",
-      "LRB-016"
+      "LRB-016",
+      "LRB-017"
     ],
     "ingestApproved": false,
     "applyApproved": false
@@ -302,18 +303,49 @@
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-016-anti-bulk-proof.json",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-016-residual-wrong-language-proof.json",
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-016-owner-authorization-proof.json"
+      },
+      "LRB-017": {
+        "verdict": "LRB_017_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
+        "labot": 49,
+        "nelabot": 1,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "pending",
+        "compositeRepairs": [
+          "vom",
+          "vor",
+          "was",
+          "wenn",
+          "wer",
+          "werden",
+          "Wetter",
+          "wie",
+          "Zeit",
+          "zu",
+          "Zug"
+        ],
+        "productionSource": "data/fi/a1.js",
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-017-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-017-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-017-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-017-owner-authorization-proof.json"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-016",
-      "labot": 47,
-      "nelabot": 3,
+      "batch_id": "LRB-017",
+      "labot": 49,
+      "nelabot": 1,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "LRB_016_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-016-decisions.csv",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-016-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-016-anti-bulk-proof.json"
+      "linguisticVerdict": "LRB_017_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-017-decisions.csv",
+      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-017-proof.json",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-017-anti-bulk-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
