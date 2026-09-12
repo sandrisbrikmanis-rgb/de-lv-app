@@ -179,7 +179,8 @@ const proof = {
   updatedAt: new Date().toISOString(),
 };
 
-const outPath = `reports/g2-a1-owner/batches-reviewed/${BATCH}-residual-wrong-language-proof.json`;
+// Post-PDF-reaudit canonical proof is written by temp-audit-lrb013-pdf-residual.js.
+const outPath = `reports/g2-a1-owner/batches-reviewed/${BATCH}-owner-auth-residual-proof.json`;
 fs.writeFileSync(outPath, `${JSON.stringify(proof, null, 2)}\n`);
 console.log(
   JSON.stringify(

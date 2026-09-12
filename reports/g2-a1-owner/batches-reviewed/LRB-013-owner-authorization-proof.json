@@ -33,7 +33,10 @@
     "oder"
   ],
   "pdfReaudit": true,
-  "pdfReauditAt": "2026-09-12T11:20:00.000Z",
+  "pdfReauditAt": "2026-09-12T11:25:00.000Z",
+  "pdfProofSyncAt": "2026-09-12T11:25:00.000Z",
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-013-residual-wrong-language-proof.json",
+  "postRepairMerge": true,
   "pdfReauditRepairs": ["nicht", "noch mal"],
   "pdfGates": {
     "ROWS": "50/50",
@@ -50,5 +53,5 @@
     "target_language_grammar": "PASS",
     "anti_bulk": "PASS"
   },
-  "note": "OWNER authorization APPROVED. PDF-standard reaudit repair (nicht scalar Ei→metalinguistic ei (+verbi) for DE nicht/LV ne negation particle + noch mal removed mechanical duplicate study.tip) + 13-composite verification + fresh 50-row gates recalculated from production_current + owner_new merge. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER authorization APPROVED. Final PDF proof sync from POST-REPAIR production_current + owner_new merge. All 14 PDF gates PASS in LRB-013-residual-wrong-language-proof.json. 48 LABOT / 2 NELABOT (Mund, nein). DE/production/Crowdin/ingest/apply unchanged."
 }
