@@ -56,7 +56,7 @@
     "g2/a1/tr|Mal|idx:390|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna"
   ],
   "created_at": "2026-09-12T18:46:14.778Z",
-  "updated_at": "2026-09-12T18:59:29.389Z",
+  "updated_at": "2026-09-12T19:07:00.000Z",
   "reviewer": "CURSOR_AGENT",
   "linguistic_reviewer": "gpt-5.6-luna",
   "direction": "DESCENDING",
@@ -67,5 +67,9 @@
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "overrides_sha256": "7cb24d35fb0678696292fe1e412aec569a63a45a31357737058f2167b07304f5",
   "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-approved-overrides.json",
-  "verdict": "50 LABOT / 0 NELABOT / 0 PENDING"
+  "verdict": "LRB_101_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "linguistic_verdict": "LRB_101_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "verified_commit": "4b33fed2bdf34eeb514b77af9bc15a6693876646",
+  "gala_pass": true,
+  "phase": "GALA_PASS"
 }
