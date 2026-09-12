@@ -55,14 +55,17 @@
     "g2/a1/tr|Bitte|idx:94|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna"
   ],
   "created_at": "2026-09-12T19:08:15.046Z",
-  "updated_at": "2026-09-12T19:09:00.000Z",
+  "updated_at": "2026-09-12T19:27:23.994Z",
   "reviewer": "CURSOR_AGENT",
   "linguistic_reviewer": "gpt-5.6-luna",
   "direction": "DESCENDING",
   "reserved_for": "PC2",
   "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
   "owner_authorization_status": "APPROVED",
-  "phase": "OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "phase": "OWNER_APPROVED_OVERRIDES_APPLIED",
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
-  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv"
+  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "overrides_sha256": "9101c883ef80311969407000b019a8ab6694e852cf6f6c1f37987bfdcffdeda1",
+  "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-100/LRB-100-owner-approved-overrides.json",
+  "verdict": "50 LABOT / 0 NELABOT / 0 PENDING"
 }
