@@ -1,8 +1,11 @@
 {
   "batchId": "LRB-100",
-  "generatedAt": "2026-09-12T19:27:23.994Z",
-  "sourceCommit": "d94abeb88e060e9f457e06c38c0ce7b95fdb5c9e",
+  "generatedAt": "2026-09-12T19:31:00.000Z",
+  "sourceCommit": "a9b8c26c46a264b1e25d79e168020a2e21d61047",
+  "verifiedCommit": "a9b8c26c46a264b1e25d79e168020a2e21d61047",
   "reviewer": "OWNER/GPT",
+  "linguisticVerdict": "LRB_100_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPass": true,
   "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
   "overridesSha256": "9101c883ef80311969407000b019a8ab6694e852cf6f6c1f37987bfdcffdeda1",
   "uniqueCards": 50,
