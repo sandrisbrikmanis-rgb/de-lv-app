@@ -1,0 +1,49 @@
+{
+  "version": "g2-a1-phase3-owner-batch-production-field-alias-v1",
+  "segmentAliases": {
+    "lv": {
+      "aliasRuleId": "LV_TO_CARD_LV_FIELD",
+      "resolvedProductionPath": "lv",
+      "description": "Discovery/staging lv segment maps to production card.lv on target-language datasets"
+    },
+    "native": {
+      "aliasRuleId": "NATIVE_TO_CARD_LV_FIELD",
+      "resolvedProductionPath": "lv",
+      "description": "Crowdin export native leaf maps to production card.lv"
+    },
+    "translation": {
+      "aliasRuleId": "BARE_TRANSLATION_TO_STUDY_TRANSLATION",
+      "resolvedProductionPath": "study.translation",
+      "description": "Legacy bare translation segment"
+    },
+    "study content": {
+      "aliasRuleId": "STUDY_CONTENT_TO_STUDY_CONTAINER",
+      "resolvedProductionPath": "study",
+      "compositeContainer": true,
+      "description": "Legacy study content phrase maps to full study container"
+    }
+  },
+  "compositeDelimiters": [
+    ";",
+    ",",
+    "/",
+    " and "
+  ],
+  "studyContainerPaths": [
+    "study.translation",
+    "study.title",
+    "study.note",
+    "study.subtitle",
+    "study.lead",
+    "study.question",
+    "study.explanation",
+    "study.examples",
+    "study.comparison",
+    "study.tip",
+    "study.important"
+  ],
+  "nonExportReadablePaths": [
+    "study.sectionAccents"
+  ],
+  "exportKeyPattern": "^a1\\.card\\.([^.]+)\\.(.+)$"
+}

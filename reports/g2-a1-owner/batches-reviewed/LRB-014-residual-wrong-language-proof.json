@@ -1,0 +1,338 @@
+{
+  "batch_id": "LRB-014",
+  "classification": "LRB_014_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 49,
+  "nelabot": 1,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "nelabot_cards": [
+    "rosa"
+  ],
+  "pdf_reaudit_repairs": [
+    "passen"
+  ],
+  "row_audit": [
+    {
+      "card": "öffnen",
+      "lv_source": "atvērt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "oft",
+      "lv_source": "bieži",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "ohne",
+      "lv_source": "bez",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Ohr",
+      "lv_source": "auss",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Oktober",
+      "lv_source": "oktobris",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Onkel",
+      "lv_source": "tēvocis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Orange",
+      "lv_source": "apelsīns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Ostern",
+      "lv_source": "Lieldienas",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Paar",
+      "lv_source": "pāris",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Papier",
+      "lv_source": "papīrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Park",
+      "lv_source": "parks",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "passen",
+      "lv_source": "derēt • piestāvēt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Pause",
+      "lv_source": "pārtraukums",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Person",
+      "lv_source": "persona",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Pferd",
+      "lv_source": "zirgs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Pflanze",
+      "lv_source": "augs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Pizza",
+      "lv_source": "pica",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Plan",
+      "lv_source": "plāns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Platz",
+      "lv_source": "vieta",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Polizei",
+      "lv_source": "policija",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Post",
+      "lv_source": "pasts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Preis",
+      "lv_source": "cena",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "probieren",
+      "lv_source": "izmēģināt • nogaršot",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "Problem",
+      "lv_source": "problēma",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Programm",
+      "lv_source": "programma",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Pullover",
+      "lv_source": "džemperis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Punkt",
+      "lv_source": "punkts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "putzen",
+      "lv_source": "tīrīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Rad fahren",
+      "lv_source": "braukt ar divriteni",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Radiergummi",
+      "lv_source": "dzēšamgumija",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "rauchen",
+      "lv_source": "smēķēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "rechts",
+      "lv_source": "pa labi • labais",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "rechts",
+      "lv_source": "pa labi • labais",
+      "decision": "LABOT",
+      "segment_fidelity": "2/2"
+    },
+    {
+      "card": "reden",
+      "lv_source": "runāt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Regen",
+      "lv_source": "lietus",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Regenschirm",
+      "lv_source": "lietussargs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "regnen",
+      "lv_source": "līt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Reis",
+      "lv_source": "rīsi",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "richtig",
+      "lv_source": "pareizs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "rosa",
+      "lv_source": "rozā",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Rose",
+      "lv_source": "roze",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "rot",
+      "lv_source": "sarkans",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "rufen",
+      "lv_source": "saukt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "rund",
+      "lv_source": "apaļš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Sache",
+      "lv_source": "lieta",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Saft",
+      "lv_source": "sula",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sagen",
+      "lv_source": "teikt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Salat",
+      "lv_source": "salāti",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Salz",
+      "lv_source": "sāls",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "sauber",
+      "lv_source": "tīrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_014_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T11:03:17.146Z"
+}
