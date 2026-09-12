@@ -123,7 +123,8 @@
         "headSha": "51c9a6fa",
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-002-decisions.csv",
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-002-anti-bulk-proof.json",
-        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-002-residual-wrong-language-proof.json"
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-002-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-002-owner-authorization-proof.json"
       },
       "LRB-003": {
         "verdict": "LRB_003_LINGUISTIC_REPAIR_PASS",
