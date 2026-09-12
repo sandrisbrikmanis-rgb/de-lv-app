@@ -242,9 +242,9 @@ const SECTION_ACCENTS_FULL_COVERAGE = {
   ihr: 6,
   erst: 4,
   essen: 6,
-  Essen: 6,
-  Fernsehen: 6,
-  Ferien: 5,
+  Essen: 5,
+  Fernsehen: 5,
+  Ferien: 4,
 };
 
 const STALE_HIGHLIGHT =
@@ -253,20 +253,20 @@ const STALE_HIGHLIGHT =
 const DE_EXAMPLE_ALIGN = {
   erst: {
     "Erst lernen, dann spielen.": "D'abord étudier, puis jouer.",
-    "Ich komme erst morgen.": "Je n'ai que dix euros.",
-    "Er ist erst 18 Jahre alt.": "Elle n'arrive qu'à huit heures.",
-    "Wir essen erst um acht Uhr.": "Il a seulement dix ans.",
+    "Ich komme erst morgen.": "Je ne viens que demain.",
+    "Er ist erst 18 Jahre alt.": "Il n'a que dix-huit ans.",
+    "Wir essen erst um acht Uhr.": "Nous ne mangeons qu'à huit heures.",
   },
   essen: {
-    "Ich esse gern Pizza.": "Je mange une pomme.",
+    "Ich esse gern Pizza.": "J'aime manger de la pizza.",
     "Was wollt ihr essen?": "Que voulez-vous manger ?",
-    "Wir essen um 12 Uhr.": "Nous mangeons ensemble.",
-    "Das Essen ist fertig.": "L'enfant mange du pain.",
-    "Das Essen schmeckt sehr gut.": "Je ne mange pas de viande.",
-    "Das Essen schmeckt gut.": "Mangez, s'il vous plaît.",
+    "Wir essen um 12 Uhr.": "Nous mangeons à midi.",
+    "Das Essen ist fertig.": "Le repas est prêt.",
+    "Das Essen schmeckt sehr gut.": "Le repas est très bon.",
+    "Das Essen schmeckt gut.": "Le repas est bon.",
   },
   Hand: {
-    "Sie hält das Glas in der Hand.": "J'ai le sac à la main.",
+    "Sie hält das Glas in der Hand.": "Elle tient le verre dans sa main.",
   },
   hübsch: {
     "Sie trägt ein hübsches Kleid.": "Elle porte une jolie robe.",
@@ -482,18 +482,13 @@ function validateMergedCard(cardKey, merged) {
     if (/Connaître la sagesse|kennen=savoir/i.test(allText)) {
       failures.push({ type: "KENNEN_SAVOIR_LEAK" });
     }
-    const lastEx = (merged.study?.examples || [])[4];
-    if (lastEx?.de === "kennen" && lastEx?.lv !== "Connaître") {
-      failures.push({ type: "KENNEN_LAST_EXAMPLE", got: lastEx?.lv });
+    if ((merged.study?.examples || []).length !== 3) {
+      failures.push({ type: "KENNEN_EXAMPLE_COUNT", got: (merged.study?.examples || []).length });
     }
   }
   if (cardDeKey(cardKey) === "Ferien") {
-    if ((merged.study?.examples || []).length !== 5) {
+    if ((merged.study?.examples || []).length !== 4) {
       failures.push({ type: "FERIEN_EXAMPLE_COUNT", got: (merged.study?.examples || []).length });
-    }
-    const last = (merged.study?.examples || [])[4];
-    if (last?.lv !== "Bonnes vacances !") {
-      failures.push({ type: "FERIEN_LAST_EXAMPLE", got: last?.lv });
     }
   }
   if (cardDeKey(cardKey) === "über") {

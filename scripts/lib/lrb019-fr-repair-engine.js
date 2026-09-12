@@ -164,8 +164,7 @@ function repairEinmal(out) {
     "Einmal renvoie à une seule occurrence ou au passé (une fois que...).",
   ];
   out.study.examples = [
-    { de: "Ich war einmal in Berlin.", lv: "Je suis allé à Berlin une fois." },
-    { de: "Ich war einmal in Berlin.", lv: "Je suis allé à Berlin une fois." },
+    { de: "Ich war einmal in Berlin.", lv: "Je suis allé une fois à Berlin." },
   ];
   out.study.tip = [
     "Einmal = une fois",
@@ -187,21 +186,7 @@ function repairEinmal(out) {
       example: "Sag das noch einmal. – Dis-le encore une fois.",
     },
   ];
-  out.study.sectionAccents = {
-    explanation: { green: ["einmal"], purple: ["fois"] },
-    examples: [
-      {
-        de: { green: ["einmal"] },
-        lv: { purple: ["Berlin"] },
-      },
-      {
-        de: { green: ["einmal"] },
-        lv: { purple: ["fois"] },
-      },
-    ],
-    tip: [{ purple: ["Une", "fois"] }],
-    important: [{ green: ["einmal"] }],
-  };
+  out.study.sectionAccents = buildIndexAlignedSectionAccents(out.study, "einmal");
 }
 
 function repairEis(out) {
@@ -425,7 +410,7 @@ function repairIns(out) {
     },
     {
       word: "zum",
-      meaning: "chez / vers (à qui ?)",
+      meaning: "chez / vers",
       example: "zum Arzt – chez le médecin",
     },
   ];
@@ -439,28 +424,7 @@ function repairIns(out) {
     "Ne pas confondre : ins Kino gehen (aller au cinéma) vs im Kino sein (être au cinéma).",
     "Au masculin : in den Wald ; au féminin : in die Schule.",
   ];
-  out.study.sectionAccents = {
-    explanation: { blue: ["ins", "in das"], purple: ["où va-t-on"] },
-    examples: [
-      { de: { blue: ["ins"] }, lv: { purple: ["cinéma"] } },
-      { de: { blue: ["ins"] }, lv: { purple: ["couche"] } },
-      { de: { blue: ["ins"] }, lv: { purple: ["étranger"] } },
-      { de: { blue: ["ins"] }, lv: { purple: ["Entre"] } },
-      { de: { blue: ["in den"] }, lv: { purple: ["portefeuille"] } },
-      { de: { blue: ["ins"] }, lv: { purple: ["musée"] } },
-      { de: { blue: ["ins"] }, lv: { purple: ["eau"] } },
-      { de: { blue: ["ins"] }, lv: { purple: ["centre"] } },
-    ],
-    comparison: [
-      { word: { blue: ["ins"] }, meaning: { purple: ["où va-t-on"] } },
-      { word: { green: ["im"] }, meaning: { purple: ["où"] } },
-    ],
-    tip: [
-      { left: { blue: ["ins"], purple: ["Rappel"] } },
-      { left: { blue: ["ins"], green: ["im"] } },
-    ],
-    important: [{ blue: ["ins"] }, { green: ["im"] }],
-  };
+  out.study.sectionAccents = buildIndexAlignedSectionAccents(out.study, "ins");
 }
 
 function repairMachen(out) {
@@ -558,20 +522,7 @@ function repairFuer(out) {
       example: "Ich kämpfe um Freiheit. – Je me bats pour la liberté.",
     },
   ];
-  out.study.sectionAccents = {
-    explanation: { blue: ["für"], purple: ["Pour"] },
-    examples: [
-      { de: { blue: ["für"] }, lv: { purple: ["toi"] } },
-      { de: { blue: ["für"] }, lv: { purple: ["aide"] } },
-      { de: { blue: ["für"] }, lv: { purple: ["mère"] } },
-      { de: { blue: ["für"] }, lv: { purple: ["voiture"] } },
-      { de: { blue: ["für"] }, lv: { purple: ["enfants"] } },
-      { de: { blue: ["Für"] }, lv: { purple: ["aujourd'hui"] } },
-    ],
-    comparison: [{ word: { blue: ["für"] }, meaning: { purple: ["pour"] } }],
-    tip: [{ blue: ["für"], purple: ["accusatif"] }],
-    important: [{ blue: ["für"] }, { purple: ["pour"] }],
-  };
+  out.study.sectionAccents = buildIndexAlignedSectionAccents(out.study, "für");
 }
 
 function repairErst(out) {
@@ -585,15 +536,15 @@ function repairErst(out) {
       },
       {
           "de": "Ich komme erst morgen.",
-          "lv": "Je n'ai que dix euros."
+          "lv": "Je ne viens que demain."
       },
       {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "Elle n'arrive qu'à huit heures."
+          "lv": "Il n'a que dix-huit ans."
       },
       {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Il a seulement dix ans."
+          "lv": "Nous ne mangeons qu'à huit heures."
       }
   ];
   out.study.comparison = [
@@ -633,11 +584,14 @@ function repairErst(out) {
 function repairEssenVerb(out) {
   out.lv = "Manger";
   out.study.translation = "Manger";
-  out.study.explanation = ["Idée principale : essen est le verbe manger — consommer de la nourriture.","essen décrit l'action de manger.","Ne pas confondre avec das Essen, le nom qui désigne la nourriture ou le repas."];
+  out.study.explanation = [
+      "Idée principale : essen est le verbe manger — consommer de la nourriture.",
+      "Ne pas confondre avec das Essen, le nom qui désigne la nourriture ou le repas."
+  ];
   out.study.examples = [
       {
           "de": "Ich esse gern Pizza.",
-          "lv": "Je mange une pomme."
+          "lv": "J'aime manger de la pizza."
       },
       {
           "de": "Was wollt ihr essen?",
@@ -645,19 +599,19 @@ function repairEssenVerb(out) {
       },
       {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Nous mangeons ensemble."
+          "lv": "Nous mangeons à midi."
       },
       {
           "de": "Das Essen ist fertig.",
-          "lv": "L'enfant mange du pain."
+          "lv": "Le repas est prêt."
       },
       {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Je ne mange pas de viande."
+          "lv": "Le repas est très bon."
       },
       {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Mangez, s'il vous plaît."
+          "lv": "Le repas est bon."
       }
   ];
 
@@ -676,11 +630,15 @@ function repairEssenVerb(out) {
 function repairEssenNoun(out) {
   out.lv = "Nourriture • Repas";
   out.study.translation = "Nourriture • Repas";
-  out.study.explanation = ["Idée principale : das Essen est un nom — la nourriture ou le repas.","das Essen désigne ce qu'on mange ou le repas en tant qu'ensemble.","Ne pas confondre avec essen, le verbe manger."];
+  out.study.explanation = [
+      "Idée principale : das Essen est un nom — la nourriture ou le repas.",
+      "das Essen désigne ce qu'on mange ou le repas en tant qu'ensemble.",
+      "Ne pas confondre avec essen, le verbe manger."
+  ];
   out.study.examples = [
       {
           "de": "Das Essen schmeckt gut.",
-          "lv": "La nourriture est prête."
+          "lv": "Le repas est bon."
       },
       {
           "de": "Was wollt ihr essen?",
@@ -688,19 +646,15 @@ function repairEssenNoun(out) {
       },
       {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Le repas est délicieux."
+          "lv": "Nous mangeons à midi."
       },
       {
           "de": "Das Essen ist fertig.",
-          "lv": "Après le repas, nous buvons du café."
+          "lv": "Le repas est prêt."
       },
       {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Je prépare le repas."
-      },
-      {
-          "de": "Das Essen schmeckt gut.",
-          "lv": "Le dîner est à dix-huit heures."
+          "lv": "Le repas est très bon."
       }
   ];
 
@@ -723,7 +677,7 @@ function repairEtwas(out) {
   out.study.examples = [
       {
           "de": "Ich möchte etwas trinken.",
-          "lv": "Je voudrais manger quelque chose."
+          "lv": "Je voudrais boire quelque chose."
       },
       {
           "de": "Hast du etwas Zeit?",
@@ -731,11 +685,15 @@ function repairEtwas(out) {
       },
       {
           "de": "Ich bin etwas müde.",
-          "lv": "Il y a quelque chose ici."
+          "lv": "Je suis un peu fatigué."
       },
       {
           "de": "Ich habe etwas für dich.",
-          "lv": "Je n'entends rien."
+          "lv": "J'ai quelque chose pour toi."
+      },
+      {
+          "de": "Das ist etwas teuer.",
+          "lv": "C'est un peu cher."
       }
   ];
   out.study.comparison = [
@@ -786,11 +744,15 @@ function repairFahren(out) {
       },
       {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Il conduit très vite."
+          "lv": "Je conduis ma fille à l'école."
       },
       {
           "de": "Ich fahre dich nach Hause.",
           "lv": "Je te conduis chez toi."
+      },
+      {
+          "de": "Wir fahren morgen nach München.",
+          "lv": "Nous allons à Munich demain."
       }
   ];
   out.study.comparison = [
@@ -833,11 +795,11 @@ function repairFerien(out) {
   out.study.examples = [
       {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Nous avons des vacances."
+          "lv": "Pendant les vacances, nous allons au bord de la mer."
       },
       {
           "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "Les vacances commencent lundi."
+          "lv": "Pendant les vacances, j'ai beaucoup de temps."
       },
       {
           "de": "Was macht ihr in den Ferien?",
@@ -845,11 +807,7 @@ function repairFerien(out) {
       },
       {
           "de": "Die Schule ist in den Ferien zu.",
-          "lv": "Les vacances scolaires durent deux semaines."
-      },
-      {
-          "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Bonnes vacances !"
+          "lv": "L'école est fermée pendant les vacances."
       }
   ];
   out.study.comparison = [
@@ -883,7 +841,7 @@ function repairFernsehenVerb(out) {
   out.study.examples = [
       {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "Je regarde la télévision le soir."
+          "lv": "Je regarde la télévision ce soir."
       },
       {
           "de": "Siehst du oft fern?",
@@ -891,7 +849,7 @@ function repairFernsehenVerb(out) {
       },
       {
           "de": "Die Kinder sehen am Nachmittag fern.",
-          "lv": "Nous regardons un film à la télévision."
+          "lv": "Les enfants regardent la télévision l'après-midi."
       }
   ];
   out.study.comparison = [
@@ -912,7 +870,7 @@ function repairFernsehenVerb(out) {
       }
   ];
   out.study.tip = {
-      "text": "fernsehen = verbe (ich sehe fern). das Fernsehen = nom (la télévision)."
+      "text": "fernsehen est un verbe séparable : ich sehe fern. das Fernsehen est le nom la télévision."
   };
   out.study.important = [
       "fernsehen est un verbe séparable : ich sehe fern.",
@@ -925,27 +883,27 @@ function repairFernsehenVerb(out) {
 function repairFernsehenNoun(out) {
   out.lv = "Télévision";
   out.study.translation = "Télévision";
-  out.study.explanation = ["Idée principale : das Fernsehen est un nom — la télévision comme média ou programme.","das Fernsehen décrit la télévision en tant que média ou diffusion.","fernsehen est le verbe regarder la télévision.","das Fernsehen est au singulier seulement."];
+  out.study.explanation = [
+      "Idée principale : das Fernsehen est un nom — la télévision comme média ou programme.",
+      "fernsehen est le verbe regarder la télévision.",
+      "das Fernsehen s'emploie au singulier."
+  ];
   out.study.examples = [
       {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "La télévision est intéressante."
-      },
-      {
-          "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Je regarde beaucoup la télévision."
+          "lv": "Qu'y a-t-il à la télévision aujourd'hui ?"
       },
       {
           "de": "Im Fernsehen läuft ein Film.",
-          "lv": "La télévision est allumée."
+          "lv": "Un film passe à la télévision."
       },
       {
           "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "La télévision est importante pour lui."
+          "lv": "La télévision est ennuyeuse aujourd'hui."
       },
       {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "Je ne regarde pas la télévision aujourd'hui."
+          "lv": "Je regarde la télévision ce soir."
       },
       {
           "de": "Was gibt es im Fernsehen?",
@@ -954,8 +912,8 @@ function repairFernsehenNoun(out) {
   ];
 
   out.study.tip = [
-      "Pour l'action, utilisez fernsehen (ich sehe fern).",
-      "Pour le média ou la programme, utilisez das Fernsehen."
+      "Pour l'action, utilisez fernsehen : ich sehe fern.",
+      "Pour le média ou le programme, utilisez das Fernsehen."
   ];
   out.study.important = [
       "das Fernsehen est un nom : la télévision.",
@@ -1009,7 +967,13 @@ function repairFinden(out) {
 function repairFrau(out) {
   out.lv = "Femme • Épouse";
   out.study.translation = "Femme • Épouse";
-  out.study.explanation = ["Idée principale : die Frau peut signifier une femme ou une épouse.","Sans possessif, die Frau = une femme.","Avec possessif (meine Frau), die Frau = mon épouse.","Pluriel : die Frauen."];
+  out.study.explanation = [
+      "Idée principale : die Frau peut signifier une femme ou une épouse.",
+      "Sans possessif, die Frau = une femme.",
+      "Avec un possessif, meine Frau = mon épouse.",
+      "Pluriel : die Frauen.",
+      "La forme masculine der Mann a le même double sens : homme ou mari."
+  ];
   out.study.examples = [
       {
           "de": "Sie ist eine nette Frau.",
@@ -1060,10 +1024,6 @@ function repairGemuese(out) {
           "lv": "J'aime manger des légumes."
       },
       {
-          "de": "Ich esse gern Gemüse.",
-          "lv": "J'aime manger des légumes."
-      },
-      {
           "de": "Das Gemüse ist frisch.",
           "lv": "Les légumes sont frais."
       },
@@ -1104,7 +1064,7 @@ function repairHand(out) {
       },
       {
           "de": "Sie hält das Glas in der Hand.",
-          "lv": "J'ai le sac à la main."
+          "lv": "Elle tient le verre dans sa main."
       },
       {
           "de": "Mein Arm tut weh.",
@@ -1141,15 +1101,15 @@ function repairHoeren(out) {
   out.study.examples = [
       {
           "de": "Ich höre Musik.",
-          "lv": "J'entends de la musique."
+          "lv": "J'écoute de la musique."
       },
       {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "Écoute bien !"
+          "lv": "Les enfants écoutent une histoire."
       },
       {
           "de": "Ich höre dich.",
-          "lv": "Tu m'entends ?"
+          "lv": "Je t'entends."
       }
   ];
 
@@ -1215,7 +1175,13 @@ function repairHuebsch(out) {
 function repairIhr(out) {
   out.lv = "Vous • Lui • Son/sa/ses";
   out.study.translation = "Vous • Lui • Son/sa/ses";
-  out.study.explanation = ["Idée principale : ihr a plusieurs fonctions — vous (2e pers. plur.), lui (datif de sie) et son/sa/ses (possessif).","Avec verbe au pluriel (kommt, habt), ihr = vous.","ihr comme datif = lui (Ich gebe ihr das Buch).","ihr comme possessif = son/sa/ses (ihr Auto).","La forme de politesse est Sie avec majuscule."];
+  out.study.explanation = [
+      "Idée principale : ihr a plusieurs fonctions — vous (2e personne du pluriel), lui (datif de sie) et son/sa/ses (possessif).",
+      "Avec un verbe au pluriel, ihr = vous.",
+      "Comme datif de sie, ihr = lui.",
+      "Comme possessif, ihr = son, sa ou ses.",
+      "La forme de politesse est Sie avec une majuscule."
+  ];
   out.study.examples = [
       {
           "de": "Kommt ihr heute Abend?",
@@ -1259,7 +1225,12 @@ function repairIhr(out) {
 function repairIm(out) {
   out.lv = "Dans le • Au";
   out.study.translation = "Dans le • Au";
-  out.study.explanation = ["im est la contraction de in + dem.","Forme complète : in dem (datif masculin/neutre).","Répond à la question « où ? » — lieu d'être, pas « à qui ? ».","Avec les mois et saisons : im Januar, im Sommer."];
+  out.study.explanation = [
+      "im est la contraction de in + dem.",
+      "Forme complète : in dem, au datif masculin ou neutre.",
+      "im répond à la question où ? et indique un emplacement, pas un mouvement.",
+      "Avec les mois et les saisons : im Januar, im Sommer."
+  ];
   out.study.examples = [
       {
           "de": "Ich bin im Park.",
@@ -1371,7 +1342,12 @@ function repairIn(out) {
 function repairJung(out) {
   out.lv = "Jeune (âge)";
   out.study.translation = "Jeune (âge)";
-  out.study.explanation = ["Idée principale : jung décrit la jeunesse d'âge — pour les personnes et les animaux.","jung = jeune d'âge ; neu = nouveau (pour les choses).","Ne pas utiliser jung pour un téléphone ou une voiture récente."];
+  out.study.explanation = [
+      "Idée principale : jung décrit la jeunesse d'âge — pour les personnes et les animaux.",
+      "jung = jeune d'âge ; neu = nouveau pour les choses.",
+      "jung s'emploie aussi au sens figuré : une jeune génération, un jeune couple, des jeunes.",
+      "Le nom die Jugend signifie la jeunesse."
+  ];
   out.study.examples = [
       {
           "de": "Sie ist noch jung.",
@@ -1418,7 +1394,13 @@ function repairJung(out) {
 function repairKein(out) {
   out.lv = "Aucun • Pas de";
   out.study.translation = "Aucun • Pas de";
-  out.study.explanation = ["Idée principale : kein est l'article négatif devant un nom.","kein se décline comme ein : kein, keine, keinen...","kein nie signifie personne ou rien seul — il accompagne un nom."];
+  out.study.explanation = [
+      "Idée principale : kein est l'article négatif placé devant un nom.",
+      "kein se décline comme ein : kein, keine, keinen...",
+      "Avec un nom dénombrable, kein correspond souvent à aucun.",
+      "Avec un nom indénombrable, kein correspond souvent à pas de.",
+      "kein porte sur un nom; nicht nie plutôt un verbe, un adjectif ou la phrase."
+  ];
   out.study.examples = [
       {
           "de": "Ich habe kein Geld.",
@@ -1474,14 +1456,6 @@ function repairKennen(out) {
       {
           "de": "Wo habt ihr euch kennengelernt?",
           "lv": "Où vous êtes-vous rencontrés ?"
-      },
-      {
-          "de": "Ich kenne ihn.",
-          "lv": "Je le connais."
-      },
-      {
-          "de": "kennen",
-          "lv": "Connaître"
       }
   ];
   out.study.comparison = [
@@ -1542,7 +1516,12 @@ function repairKlein(out) {
 function repairLassen(out) {
   out.lv = "Laisser • Permettre";
   out.study.translation = "Laisser • Permettre";
-  out.study.explanation = ["Idée principale : lassen signifie laisser ou permettre.","Quand quelque chose reste en place : lassen = laisser.","Quand on donne la permission : lassen = permettre."];
+  out.study.explanation = [
+      "Idée principale : lassen signifie laisser ou permettre.",
+      "Quand quelque chose reste en place, lassen = laisser.",
+      "Quand on donne une permission, lassen = permettre.",
+      "Lass mich in Ruhe! signifie Laisse-moi tranquille!"
+  ];
   out.study.examples = [
       {
           "de": "Ich lasse die Tasche hier.",
@@ -1652,7 +1631,11 @@ function repairLaufen(out) {
 function repairLautAdj(out) {
   out.lv = "Fort • Bruyant";
   out.study.translation = "Fort • Bruyant";
-  out.study.explanation = ["Idée principale : laut (adjectif) décrit un son fort ou bruyant.","laut en minuscules sans article = adjectif (Die Musik ist laut).","Ne pas confondre avec der Laut (nom = son)."];
+  out.study.explanation = [
+      "Idée principale : laut est un adjectif qui décrit un son fort ou bruyant.",
+      "laut s'écrit avec une minuscule et s'emploie sans article.",
+      "Ne pas confondre avec der Laut, le nom son."
+  ];
   out.study.examples = [
       {
           "de": "Die Musik ist laut.",
@@ -1684,7 +1667,11 @@ function repairLautAdj(out) {
 function repairLautNoun(out) {
   out.lv = "Son";
   out.study.translation = "Son";
-  out.study.explanation = ["Idée principale : der Laut est un nom — un son ou un signal sonore.","der Laut avec article = le son.","laut en minuscules = fort/bruyant (adjectif).","Pluriel : die Laute."];
+  out.study.explanation = [
+      "Idée principale : der Laut est un nom — un son ou un phonème.",
+      "laut en minuscules est l'adjectif fort ou bruyant.",
+      "Pluriel : die Laute."
+  ];
   out.study.examples = [
       {
           "de": "Der Laut ist schön.",
@@ -1712,7 +1699,11 @@ function repairLautNoun(out) {
 function repairLegen(out) {
   out.lv = "Poser • Mettre";
   out.study.translation = "Poser • Mettre";
-  out.study.explanation = ["Idée principale : legen signifie poser horizontalement — une action.","legen = poser (action) ; liegen = être couché (état).","On pose un livre sur la table : legen."];
+  out.study.explanation = [
+      "Idée principale : legen signifie poser ou placer horizontalement — une action.",
+      "legen = poser, tandis que liegen = être couché ou se trouver — un état.",
+      "Ich lege das Buch auf den Tisch. = Je pose le livre sur la table."
+  ];
   out.study.examples = [
       {
           "de": "Ich lege das Buch auf den Tisch.",
@@ -1767,7 +1758,11 @@ function repairLegen(out) {
 function repairLeise(out) {
   out.lv = "Doucement • Silencieux";
   out.study.translation = "Doucement • Silencieux";
-  out.study.explanation = ["Idée principale : leise décrit un son doux ou un volume bas.","leise = doucement, silencieux.","On demande leise pour parler ou écouter sans bruit."];
+  out.study.explanation = [
+      "Idée principale : leise décrit un son doux ou un volume bas.",
+      "leise peut se traduire par doucement, silencieux ou à voix basse selon le contexte.",
+      "Sprich bitte leise. = Parle doucement, s'il te plaît."
+  ];
   out.study.examples = [
       {
           "de": "Bitte sei leise.",
@@ -1853,7 +1848,11 @@ function repairLiegen(out) {
 function repairMal(out) {
   out.lv = "Fois";
   out.study.translation = "Fois";
-  out.study.explanation = ["Idée principale : das Mal signifie une fois ou une occasion.","ein Mal, zwei Mal = une fois, deux fois.","mal sans article est une particule familière (Komm mal her!)."];
+  out.study.explanation = [
+      "Idée principale : das Mal signifie une fois ou une occasion.",
+      "ein Mal, zwei Mal indiquent le nombre de fois.",
+      "mal sans article est une particule familière, comme dans Komm mal her!"
+  ];
   out.study.examples = [
       {
           "de": "Das erste Mal war schwer.",
@@ -1888,7 +1887,11 @@ function repairMal(out) {
 function repairMorgenAdv(out) {
   out.lv = "Demain";
   out.study.translation = "Demain";
-  out.study.explanation = ["Idée principale : morgen (adverbe) signifie demain.","morgen en minuscules = demain (Ich komme morgen).","Ne pas confondre avec der Morgen (le matin)."];
+  out.study.explanation = [
+      "Idée principale : morgen est un adverbe qui signifie demain.",
+      "morgen s'écrit avec une minuscule dans Ich komme morgen.",
+      "Ne pas confondre avec der Morgen, le matin."
+  ];
   out.study.examples = [
       {
           "de": "Ich komme morgen.",
@@ -1920,7 +1923,11 @@ function repairMorgenAdv(out) {
 function repairMorgenNoun(out) {
   out.lv = "Matin";
   out.study.translation = "Matin";
-  out.study.explanation = ["Idée principale : der Morgen est un nom — le matin.","der Morgen = le matin (Guten Morgen!).","morgen minuscule = demain."];
+  out.study.explanation = [
+      "Idée principale : der Morgen est un nom — le matin.",
+      "der Morgen = le matin, comme dans Guten Morgen!",
+      "morgen en minuscules = demain."
+  ];
   out.study.examples = [
       {
           "de": "Guten Morgen!",
@@ -2038,7 +2045,11 @@ function repairSchwimmen(out) {
 function repairSehen(out) {
   out.lv = "Voir";
   out.study.translation = "Voir";
-  out.study.explanation = ["Idée principale : sehen signifie voir avec les yeux.","sehen = voir ; schauen/ansehen = regarder.","Ich sehe dich = Je te vois."];
+  out.study.explanation = [
+      "Idée principale : sehen signifie voir avec les yeux.",
+      "sehen = voir; schauen ou ansehen = regarder.",
+      "Ich sehe dich. = Je te vois."
+  ];
   out.study.examples = [
       {
           "de": "Ich sehe dich.",
@@ -2203,7 +2214,11 @@ function repairSich(out) {
 function repairSprechen(out) {
   out.lv = "Parler";
   out.study.translation = "Parler";
-  out.study.explanation = ["Idée principale : sprechen signifie parler ou utiliser une langue.","sprechen = parler (processus, langue, conversation).","sagen = dire (un texte précis)."];
+  out.study.explanation = [
+      "Idée principale : sprechen signifie parler ou utiliser une langue.",
+      "sprechen décrit le processus ou la conversation.",
+      "sagen signifie dire un contenu précis."
+  ];
   out.study.examples = [
       {
           "de": "Ich spreche Deutsch.",
@@ -2245,7 +2260,11 @@ function repairSprechen(out) {
 function repairStehen(out) {
   out.lv = "Être debout • Se trouver";
   out.study.translation = "Être debout • Se trouver";
-  out.study.explanation = ["Idée principale : stehen signifie être debout ou se trouver verticalement.","stehen = état debout ; stellen = mettre debout (action).","stehen, sitzen, liegen décrivent des positions."];
+  out.study.explanation = [
+      "Idée principale : stehen signifie être debout ou se trouver verticalement.",
+      "stehen décrit un état; stellen signifie mettre debout.",
+      "stehen, sitzen et liegen décrivent respectivement les positions debout, assise et couchée."
+  ];
   out.study.examples = [
       {
           "de": "Ich stehe an der Tür.",
@@ -2308,7 +2327,7 @@ function repairUeber(out) {
       },
       {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Nous parlons du temps."
+          "lv": "Nous parlons de la météo."
       },
       {
           "de": "Das Kind läuft über die Straße.",
@@ -2355,7 +2374,11 @@ function repairUeber(out) {
 function repairUhr(out) {
   out.lv = "Horloge • Montre • Heure";
   out.study.translation = "Horloge • Montre • Heure";
-  out.study.explanation = ["Idée principale : die Uhr désigne l'horloge, la montre ou l'heure.","Es ist acht Uhr = Il est huit heures.","meine Uhr = ma montre."];
+  out.study.explanation = [
+      "Idée principale : die Uhr désigne une horloge, une montre ou l'heure indiquée.",
+      "Es ist acht Uhr. = Il est huit heures.",
+      "Meine Uhr ist kaputt. = Ma montre est cassée."
+  ];
   out.study.examples = [
       {
           "de": "Es ist acht Uhr.",
@@ -2398,7 +2421,7 @@ function repairUm(out) {
       },
       {
           "de": "Ich lerne, um Deutsch zu sprechen.",
-          "lv": "J'apprends pour parler allemand."
+          "lv": "J'apprends afin de parler allemand."
       }
   ];
   out.study.comparison = [
