@@ -1,0 +1,340 @@
+{
+  "batch_id": "LRB-016",
+  "classification": "LRB_016_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 47,
+  "nelabot": 3,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "nelabot_cards": [
+    "Tee",
+    "teuer",
+    "und"
+  ],
+  "composite_repairs": [
+    "Uhr"
+  ],
+  "row_audit": [
+    {
+      "card": "Stadt",
+      "lv_source": "pilsēta",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Student",
+      "lv_source": "students",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Stuhl",
+      "lv_source": "krēsls",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Stunde",
+      "lv_source": "stunda",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "suchen",
+      "lv_source": "meklēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "süß",
+      "lv_source": "salds",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tag",
+      "lv_source": "diena",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tante",
+      "lv_source": "tante",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "tanzen",
+      "lv_source": "dejot",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tasche",
+      "lv_source": "soma",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tasse",
+      "lv_source": "tase",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Taxi",
+      "lv_source": "taksometrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tee",
+      "lv_source": "tēja",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Telefon",
+      "lv_source": "telefons",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "telefonieren",
+      "lv_source": "zvanīt pa tālruni",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Teller",
+      "lv_source": "šķīvis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "teuer",
+      "lv_source": "dārgs",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Text",
+      "lv_source": "teksts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tier",
+      "lv_source": "dzīvnieks",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tisch",
+      "lv_source": "galds",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tochter",
+      "lv_source": "meita",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Toilette",
+      "lv_source": "tualete",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tomate",
+      "lv_source": "tomāts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Treppe",
+      "lv_source": "kāpnes",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "trinken",
+      "lv_source": "dzert",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "tun",
+      "lv_source": "darīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Tür",
+      "lv_source": "durvis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "U-Bahn",
+      "lv_source": "metro",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "überall",
+      "lv_source": "visur",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "übermorgen",
+      "lv_source": "parīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Uhr",
+      "lv_source": "pulkstenis",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "und",
+      "lv_source": "un",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "unser",
+      "lv_source": "mūsu",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "unten",
+      "lv_source": "apakšā",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Vase",
+      "lv_source": "vāze",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Vater",
+      "lv_source": "tēvs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "verheiratet",
+      "lv_source": "precējies",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "verkaufen",
+      "lv_source": "pārdot",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "verlieren",
+      "lv_source": "zaudēt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "versuchen",
+      "lv_source": "mēģināt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "viel",
+      "lv_source": "daudz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vielleicht",
+      "lv_source": "varbūt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vier",
+      "lv_source": "četri",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vierhundert",
+      "lv_source": "četrsimt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vierte",
+      "lv_source": "ceturtais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vierzehn",
+      "lv_source": "četrpadsmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vierzehnte",
+      "lv_source": "četrpadsmitais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vierzig",
+      "lv_source": "četrdesmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vierzigste",
+      "lv_source": "četrdesmitais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Vogel",
+      "lv_source": "putns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_016_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T13:44:41.788Z"
+}
