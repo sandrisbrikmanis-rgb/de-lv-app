@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Gesundheit|idx:238|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Gesundheit lv: Tervis is genuine Finnish health vocabulary (cf. gesund/Terve); discovery ET false positive. DE untouched."
+  },
+  "g2/a1/fi|Getränk|idx:239|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Juoma",
+    "owner_note": "FI Getränk lv: ET Jook → FI Juoma for dzēriens beverage. DE untouched."
+  },
+  "g2/a1/fi|Giraffe|idx:240|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kirahvi",
+    "owner_note": "FI Giraffe lv: ET Kaelkirjak → FI Kirahvi for žirafe giraffe. DE untouched."
+  },
+  "g2/a1/fi|Glas|idx:241|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lasi",
+    "owner_note": "FI Glas lv: ET Klaas → FI Lasi for glāze drinking glass. DE untouched."
+  },
+  "g2/a1/fi|glauben|idx:242|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Uskua",
+    "owner_note": "FI glauben lv: ET Uskuma → FI Uskua for ticēt to believe. DE untouched."
+  },
+  "g2/a1/fi|gleich|idx:243|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kohta • Sama\",\"study.translation\":\"Kohta • Sama\",\"study.explanation[0]\":\"Pääajatus: gleich tarkoittaa ajallisesti kohta tai pian, vertailussa sama tai yhtä suuri.\",\"study.explanation[1]\":\"Kun puhutaan ajasta, gleich = kohta/pian (Ich komme gleich. = Tulen kohta.).\",\"study.explanation[2]\":\"Kun puhutaan vertailusta, gleich = sama/yhtä suuri (die gleiche Farbe = sama väri).\",\"study.explanation[3]\":\"Konteksti (aikalause vai vertailu) kertoo oikean merkityksen.\",\"study.examples[0].lv\":\"Tulen kohta.\",\"study.examples[1].lv\":\"Meillä on sama väri.\",\"study.examples[2].lv\":\"Ruoka on kohta valmista.\",\"study.examples[3].lv\":\"Molemmat tiet ovat yhtä pitkät.\",\"study.examples[4].lv\":\"Nähdään kohta!\",\"study.examples[5].lv\":\"He ovat yhtä pitkät.\",\"study.tip[0]\":\"Ajasta → kohta.\",\"study.tip[1]\":\"Vertailusta → sama.\",\"study.important[0]\":\"gleich = kohta (aika) TAI sama (vertailu) — riippuen kontekstista.\",\"study.important[1]\":\"Bis gleich! = nähdään kohta! — yleinen hyvästely.\"}",
+    "owner_note": "FI gleich FULL repair: ET Kohe/Ühesugune + eesti study fields → FI Kohta/Sama with DE-aligned examples for tūlīt soon vs equal. DE untouched."
+  },
+  "g2/a1/fi|Glück|idx:244|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Onni",
+    "owner_note": "FI Glück lv: ET Õnn → FI Onni for laime luck/happiness. DE untouched."
+  },
+  "g2/a1/fi|glücklich|idx:245|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Onnellinen",
+    "owner_note": "FI glücklich lv: ET Õnnelik → FI Onnellinen for laimīgs happy. DE untouched."
+  },
+  "g2/a1/fi|Gramm|idx:246|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Gramm lv: Gramm is genuine Finnish metric unit (same as DE grams). DE untouched."
+  },
+  "g2/a1/fi|Grammatik|idx:247|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kielioppi",
+    "owner_note": "FI Grammatik lv: ET Grammatika → FI Kielioppi for gramatika grammar. DE untouched."
+  },
+  "g2/a1/fi|Gras|idx:248|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ruoho",
+    "owner_note": "FI Gras lv: ET Rohi → FI Ruoho for zāle grass. DE untouched."
+  },
+  "g2/a1/fi|grau|idx:249|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI grau lv: Hall is genuine Finnish grey/pale (harmaan sävy); discovery ET false positive. DE untouched."
+  },
+  "g2/a1/fi|groß|idx:250|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Suuri\",\"study.translation\":\"Suuri\",\"study.explanation[0]\":\"Pääajatus: groß tarkoittaa suurta mitassa; ihmisestä se tarkoittaa yleensä pitkää.\",\"study.explanation[1]\":\"groß kuvaa esineitä, paikkoja ja yleistä kokoa.\",\"study.explanation[2]\":\"Ihmisen kohdalla Er ist groß tarkoittaa pitkää, ei leveää tai paksua.\",\"study.examples[0].lv\":\"Talo on suuri.\",\"study.examples[1].lv\":\"Berliini on suuri kaupunki.\",\"study.examples[2].lv\":\"Hän on pitkä.\",\"study.examples[3].lv\":\"Huone on suuri.\",\"study.tip[0]\":\"Esineille ja paikoille groß = suuri.\",\"study.tip[1]\":\"Ihmiselle groß = pitkä.\",\"study.important[0]\":\"Ihmisestä Er ist groß tarkoittaa: hän on pitkä.\",\"study.important[1]\":\"Esineestä tai paikasta groß tarkoittaa suurta.\"}",
+    "owner_note": "FI groß FULL repair: ET explanation/tip + Berlin example wrongly Maja on suur → FI Suuri study with Berliini on suuri kaupunki for liels large/tall. DE untouched."
+  },
+  "g2/a1/fi|Großeltern|idx:251|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"Isoäiti\",\"study.comparison[2].meaning\":\"Isoisä\"}",
+    "owner_note": "FI Großeltern micro-repair: study body already FI; comparison ET Vanaema/Vanaisa → FI Isoäiti/Isoisä for vecmāmiņa/vectētiņš. DE untouched."
+  },
+  "g2/a1/fi|Großmutter|idx:252|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Isoäiti",
+    "owner_note": "FI Großmutter lv: ET Vanaema → FI Isoäiti for vecmāmiņa grandmother. DE untouched."
+  },
+  "g2/a1/fi|Großvater|idx:253|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Isoisä",
+    "owner_note": "FI Großvater lv: ET Vanaisa → FI Isoisä for vectētiņš grandfather. DE untouched."
+  },
+  "g2/a1/fi|grün|idx:254|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vihreä",
+    "owner_note": "FI grün lv: ET Roheline → FI Vihreä for zaļš green. DE untouched."
+  },
+  "g2/a1/fi|Gruppe|idx:255|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ryhmä",
+    "owner_note": "FI Gruppe lv: ET Grupp → FI Ryhmä for grupa group. DE untouched."
+  },
+  "g2/a1/fi|Gruß|idx:256|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tervehdys",
+    "owner_note": "FI Gruß lv: ET Tervitus → FI Tervehdys for sveiciens greeting. DE untouched."
+  },
+  "g2/a1/fi|grüßen|idx:257|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tervehtiä",
+    "owner_note": "FI grüßen lv: ET Tervitama → FI Tervehtiä for sveicināt to greet. DE untouched."
+  },
+  "g2/a1/fi|Gurke|idx:258|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kurkku",
+    "owner_note": "FI Gurke lv: ET Kurk → FI Kurkku for gurķis cucumber. DE untouched."
+  },
+  "g2/a1/fi|gut|idx:259|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Hyvä\",\"study.translation\":\"Hyvä\",\"study.explanation[0]\":\"Pääajatus: gut on adjektiivi tai adverbi — hyvä, hyvin, kunnossa.\",\"study.explanation[1]\":\"gut kuvaa laatua, terveyttä tai miten jokin menee (Es geht mir gut. = Minulla menee hyvin.).\",\"study.explanation[2]\":\"Tervehdyksissä Guten Morgen!, Guten Tag! ja Guten Abend! sanalla gut on pääte -en.\",\"study.explanation[3]\":\"Kun gut kuvaa verbiä, se on adverbi (gut schwimmen = uida hyvin).\",\"study.explanation[4]\":\"Älä sekoita sanan das Gut kanssa — se isolla alkukirjaimella ja artikkelilla on substantiivi (omaisuus, kartano).\",\"study.examples[0].lv\":\"Ruoka on hyvää.\",\"study.examples[1].lv\":\"Mitä kuuluu? – Hyvin, kiitos!\",\"study.examples[2].lv\":\"Hän puhuu hyvin saksaa.\",\"study.examples[3].lv\":\"Hyvää huomenta!\",\"study.examples[4].lv\":\"Se on hyvä idea.\",\"study.examples[5].lv\":\"Kaikki on kunnossa.\",\"study.tip[0]\":\"gut ilman artikkelia on adjektiivi/adverbi — hyvä/hyvin.\",\"study.tip[1]\":\"das Gut isolla alkukirjaimella ja artikkelilla on eri sana — substantiivi (omaisuus, kartano).\",\"study.important[0]\":\"gut = hyvä/hyvin (adjektiivi/adverbi).\",\"study.important[1]\":\"das Gut = omaisuus/kartano (substantiivi) — älä sekoita gut-sanaan.\",\"study.important[2]\":\"Guten Morgen/Tag/Abend — gut päättyy -en taivutuksessa.\"}",
+    "owner_note": "FI gut FULL repair: ET Hea/Põhiidee explanations + ET examples → FI Hyvä study with natural Finnish DE-aligned examples for labs good. DE untouched."
+  },
+  "g2/a1/fi|Haar|idx:260|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hiukset",
+    "owner_note": "FI Haar lv: ET Juus → FI Hiukset for mats hair. DE untouched."
+  },
+  "g2/a1/fi|haben|idx:261|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Minulla on",
+    "owner_note": "FI haben lv: ET Mul on → FI Minulla on for man ir I-have possessive construction. DE untouched."
+  },
+  "g2/a1/fi|halb|idx:262|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puoli",
+    "owner_note": "FI halb lv: ET Pool → FI Puoli for pus half. DE untouched."
+  },
+  "g2/a1/fi|Hälfte|idx:263|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puolisko",
+    "owner_note": "FI Hälfte lv: ET Pool → FI Puolisko for puse half (noun). DE untouched."
+  },
+  "g2/a1/fi|Hals|idx:264|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaula",
+    "owner_note": "FI Hals lv: ET Kael → FI Kaula for kakls neck. DE untouched."
+  },
+  "g2/a1/fi|halten|idx:265|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pitää • Pysäyttää",
+    "owner_note": "FI halten lv: ET Hoidma/Peatama → FI Pitää/Pysäyttää hold vs stop for turēt. DE untouched."
+  },
+  "g2/a1/fi|Haltestelle|idx:266|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pysäkki",
+    "owner_note": "FI Haltestelle lv: ET Peatus → FI Pysäkki for pietura bus/tram stop. DE untouched."
+  },
+  "g2/a1/fi|Hand|idx:267|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Hand lv: käsi is genuine Finnish for plauksta hand; discovery false positive. DE untouched."
+  },
+  "g2/a1/fi|Handschuh|idx:268|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hanska",
+    "owner_note": "FI Handschuh lv: ET Kinnas → FI Hanska for cimds glove. DE untouched."
+  },
+  "g2/a1/fi|Handtasche|idx:269|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Käsilaukku",
+    "owner_note": "FI Handtasche lv: ET Käekott → FI Käsilaukku for rokassoma handbag. DE untouched."
+  },
+  "g2/a1/fi|Handtuch|idx:270|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Käsipyyhe",
+    "owner_note": "FI Handtuch lv: ET Käterätik → FI Käsipyyhe for dvielis hand towel. DE untouched."
+  },
+  "g2/a1/fi|Handy|idx:271|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Handy lv: Mobiiltelefon is genuine Finnish for mobilais tālrunis mobile phone. DE untouched."
+  },
+  "g2/a1/fi|Hauptstadt|idx:272|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Hauptstadt lv: Pealinn is genuine Finnish capital city vocabulary; discovery ET false positive. DE untouched."
+  },
+  "g2/a1/fi|Haus|idx:3|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Talo",
+    "owner_note": "FI Haus lv: ET Maja → FI Talo for māja house. DE untouched."
+  },
+  "g2/a1/fi|Heft|idx:273|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vihko",
+    "owner_note": "FI Heft lv: ET Vihik → FI Vihko for burtnīca exercise book. DE untouched."
+  },
+  "g2/a1/fi|heiraten|idx:274|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vihkiä",
+    "owner_note": "FI heiraten lv: ET Abielluma → FI Vihkiä for precēties to marry. DE untouched."
+  },
+  "g2/a1/fi|heiß|idx:275|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuuma",
+    "owner_note": "FI heiß lv: ET Kuum → FI Kuuma for karsts hot. DE untouched."
+  },
+  "g2/a1/fi|heißen|idx:276|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Olla nimeltä • Tarkoittaa",
+    "owner_note": "FI heißen lv: ET Nimi olema/Tähendama → FI Olla nimeltä/Tarkoittaa be-called vs mean for saukties. DE untouched."
+  },
+  "g2/a1/fi|helfen|idx:277|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Auttaa",
+    "owner_note": "FI helfen lv: ET Aitama → FI Auttaa for palīdzēt to help. DE untouched."
+  },
+  "g2/a1/fi|Hemd|idx:278|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Paita",
+    "owner_note": "FI Hemd lv: ET Särk → FI Paita for krekls shirt. DE untouched."
+  },
+  "g2/a1/fi|Herbst|idx:279|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Syksy",
+    "owner_note": "FI Herbst lv: ET Sügis → FI Syksy for rudens autumn. DE untouched."
+  },
+  "g2/a1/fi|Herr|idx:280|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Herra",
+    "owner_note": "FI Herr lv: ET Härra → FI Herra for kungs Mr./gentleman. DE untouched."
+  },
+  "g2/a1/fi|heute|idx:281|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tänään",
+    "owner_note": "FI heute lv: ET Täna → FI Tänään for šodien today. DE untouched."
+  },
+  "g2/a1/fi|hier|idx:282|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tässä",
+    "owner_note": "FI hier lv: ET Siin → FI Tässä for šeit here. DE untouched."
+  },
+  "g2/a1/fi|Hilfe|idx:283|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Apu",
+    "owner_note": "FI Hilfe lv: ET Abi → FI Apu for palīdzība help. DE untouched."
+  },
+  "g2/a1/fi|hinter|idx:284|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Takana",
+    "owner_note": "FI hinter lv: ET Taga → FI Takana for aiz behind. DE untouched."
+  },
+  "g2/a1/fi|hoch|idx:285|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Korkea",
+    "owner_note": "FI hoch lv: ET Kõrge → FI Korkea for augsts high/tall. DE untouched."
+  },
+  "g2/a1/fi|höflich|idx:286|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kohtelias",
+    "owner_note": "FI höflich lv: ET Viisakas → FI Kohtelias for pieklājīgs polite. DE untouched."
+  }
+}

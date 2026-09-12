@@ -1,0 +1,28 @@
+{
+  "batch_id": "LRB-010",
+  "classification": "LRB_010_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "reviewer": "gpt-5.6-luna",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 44,
+  "nelabot": 6,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0
+  },
+  "nelabot_cards": [
+    "Gesundheit",
+    "Gramm",
+    "grau",
+    "Hand",
+    "Handy",
+    "Hauptstadt"
+  ],
+  "failures": [],
+  "verdict": "LRB_010_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T10:07:21.465Z"
+}
