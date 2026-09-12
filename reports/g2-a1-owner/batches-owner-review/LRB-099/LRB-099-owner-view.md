@@ -2,43 +2,154 @@
 
 **Batch:** LRB-099
 **Rows:** 50/50
+**Languages:** SV 50
 **Direction:** DESCENDING
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-12T19:33:23.449Z
-**Source commit:** `915a967b70cc061aa05cc9248ea1a6b183b36921`
+**Generated:** 2026-09-12T19:45:12.754Z
+**Source commit:** `2c25062be7cba4d26574f96856d70cfe1e058841`
 **Branch:** `cursor/lrb-099-owner-review-pc2-3db2`
-**Input SHA256:** `6b9959d52110f8c06b2804ae71f1e3ece5f0a0217e5dac92cc503b33cf4c581e`
-**Manifest:** `reports/g2-a1-owner/manifests/LRB-099-start.json`
+**Overrides SHA256:** `280dd6180c803bc33940ba96ad7163949f985fa21c7f62f5d0f203750d0e49ae`
 
-> All OWNER statuses are initially **PENDING**. Agent does not make OWNER decisions.
-> PROPOSED values are audit suggestions — not OWNER-approved.
+> OWNER approved overrides applied mechanically. All 50 LABOT. No Cursor linguistic analysis.
+
+**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
 ## Finding 1
 
 **Audit ID:** `LRB099-0001`
 **Finding Stable ID:** `g2/a1/sv|Ferien|idx:694|lv; study.explanation; study.tip; study.important; study.comparison|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `Ferien|idx:694`
 **Field / path:** `lv; study.explanation; study.tip; study.important; study.comparison`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_CONTAMINATION
-**LV source (read-only):** brīvdienas (skola)
-**DE reference (read-only):** Ferien
 **CURRENT (captured scope):** {"lv":"Vaheaeg (kool)","study.explanation":"[\"Põhiidee: ainult mitmus. Kooli- või õppevaheaeg — alati mitmuses.\",\"Die Ferien tähendab peamiselt: koolivaheaeg.\",\"Sageli kirjeldab: ainult mitmus.\",\"Die Ferien on ainult mitmuses — alati mitmuses (in den Ferien).\"]","study.tip":"[\"endast plural. Skol- eller studielov — alltid i plural.\",\"Använd die Ferien när sammanhanget motsvarar denna betydelse.\"]","study.important":"[\"Ferien använder alltid dativ: in den Ferien.\",\"Fel: in der Ferien → Korrekt: in den Ferien\",\"Skola: die Ferien (endast i plural).\",\"endast plural. Skol- eller studielov — alltid i plural.\"]","study.comparison":"[{\"word\":\"die Ferien\",\"meaning\":\"Kooli/ülikooli vaheaeg (ainult mitmuses)\",\"example\":\"In den Ferien fahren wir weg. – Vaheajal sõidame me kuhugi ära.\"},{\"word\":\"der Urlaub\",\"meaning\":\"Puhkus töölt (ainult ains.)\",\"example\":\"Ich habe zwei Wochen Urlaub. – Mul on kaks nädalat puhkust.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Ferien\|idx:694 (Ferien), ceļš 'lv; study.explanation; study.tip; study.important; study.comparison': viena rinda aptver apakšlaukus lv, study.explanation, study.tip, study.important, study.comparison, kuru saturs sākas ar '{"lv":"Vaheaeg (kool)","study.explanation":"[\"Põhiidee: ainult mitmus. Kooli- või õppevaheaeg — alati m…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"skollov","study.translation":"skollov","study.explanation":"[\"Huvudidé: die Ferien betyder skollov eller studieledighet och används alltid i plural.\",\"Det syftar på en ledig period från skolan eller studierna; ledighet från arbetet heter der Urlaub.\"]","study.examples":"[{\"de\":\"In den Ferien fahren wir ans Meer.\",\"lv\":\"På skollovet åker vi till havet.\"},{\"de\":\"In den Ferien habe ich viel Zeit.\",\"lv\":\"På skollovet har jag gott om tid.\"},{\"de\":\"Was macht ihr in den Ferien?\",\"lv\":\"Vad gör ni på skollovet?\"},{\"de\":\"Die Schule ist in den Ferien zu.\",\"lv\":\"Skolan är stängd under lovet.\"},{\"de\":\"In den Ferien fahren wir ans Meer.\",\"lv\":\"På skollovet åker vi till havet.\"},{\"de\":\"In den Ferien\",\"lv\":\"på skollovet\"}]","study.comparison":"[{\"word\":\"die Ferien\",\"meaning\":\"skollov / studieledighet (endast plural)\",\"example\":\"In den Ferien fahren wir weg. – På skollovet reser vi bort.\"},{\"word\":\"der Urlaub\",\"meaning\":\"semester eller ledighet från arbetet (normalt singular)\",\"example\":\"Ich habe zwei Wochen Urlaub. – Jag har två veckors semester.\"}]","study.tip":"[\"die Ferien står alltid i plural.\",\"Använd die Ferien för ledighet från skolan och der Urlaub för ledighet från arbetet.\"]","study.important":"[\"Det heter in den Ferien, inte *in der Ferien.\",\"die Ferien = skollov och har ingen vanlig singularform.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: Ferien: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Ferien",
+  "de_article": "die",
+  "lv": "skollov",
+  "level": "A1",
+  "study": {
+    "id": "a1-ferien",
+    "layout": "standardStudy",
+    "translation": "skollov",
+    "explanation": [
+      "Huvudidé: die Ferien betyder skollov eller studieledighet och används alltid i plural.",
+      "Det syftar på en ledig period från skolan eller studierna; ledighet från arbetet heter der Urlaub."
+    ],
+    "examples": [
+      {
+        "de": "In den Ferien fahren wir ans Meer.",
+        "lv": "På skollovet åker vi till havet."
+      },
+      {
+        "de": "In den Ferien habe ich viel Zeit.",
+        "lv": "På skollovet har jag gott om tid."
+      },
+      {
+        "de": "Was macht ihr in den Ferien?",
+        "lv": "Vad gör ni på skollovet?"
+      },
+      {
+        "de": "Die Schule ist in den Ferien zu.",
+        "lv": "Skolan är stängd under lovet."
+      },
+      {
+        "de": "In den Ferien fahren wir ans Meer.",
+        "lv": "På skollovet åker vi till havet."
+      },
+      {
+        "de": "In den Ferien",
+        "lv": "på skollovet"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "die Ferien",
+        "meaning": "skollov / studieledighet (endast plural)",
+        "example": "In den Ferien fahren wir weg. – På skollovet reser vi bort."
+      },
+      {
+        "word": "der Urlaub",
+        "meaning": "semester eller ledighet från arbetet (normalt singular)",
+        "example": "Ich habe zwei Wochen Urlaub. – Jag har två veckors semester."
+      }
+    ],
+    "tip": [
+      "die Ferien står alltid i plural.",
+      "Använd die Ferien för ledighet från skolan och der Urlaub för ledighet från arbetet."
+    ],
+    "important": [
+      "Det heter in den Ferien, inte *in der Ferien.",
+      "die Ferien = skollov och har ingen vanlig singularform."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -217,26 +328,111 @@
 
 **Audit ID:** `LRB099-0002`
 **Finding Stable ID:** `g2/a1/sv|fernsehen|idx:687|lv; study.examples[].lv|TARGET_LANGUAGE_MIX|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `fernsehen|idx:687`
 **Field / path:** `lv; study.examples[].lv`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MIX
-**LV source (read-only):** skatīties televizoru
-**DE reference (read-only):** fernsehen
 **CURRENT (captured scope):** {"lv":"Telerit vaatama","study.examples[].lv":null}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts fernsehen\|idx:687 (fernsehen), ceļš 'lv; study.examples[].lv': norādītais lauks produkcijas shēmā nav atrodams. Konteksts ir '{"lv":"Telerit vaatama","study.examples[].lv":null}'; vajadzīgs OWNER shēmas lēmums par konkrētā lauka izveidi vai finding slēgšanu.
-**Unresolved category:** CONFIRMED_FIELD_ABSENT_NO_PRODUCTION_TARGET
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"titta på tv","study.translation":"titta på tv","study.explanation":"Huvudidé: fernsehen är ett separabelt verb som betyder titta på tv: ich sehe fern, du siehst fern. Substantivet das Fernsehen betyder television som medium eller programutbud.","study.examples":"[{\"de\":\"Ich sehe heute Abend fern.\",\"lv\":\"Jag tittar på tv i kväll.\"},{\"de\":\"Siehst du oft fern?\",\"lv\":\"Tittar du ofta på tv?\"},{\"de\":\"Die Kinder sehen am Nachmittag fern.\",\"lv\":\"Barnen tittar på tv på eftermiddagen.\"}]","study.comparison":"[{\"word\":\"fernsehen\",\"meaning\":\"titta på tv\",\"example\":\"Ich sehe fern. – Jag tittar på tv.\"},{\"word\":\"das Fernsehen\",\"meaning\":\"television / tv som medium\",\"example\":\"Im Fernsehen läuft ein Film. – Det går en film på tv.\"},{\"word\":\"sehen\",\"meaning\":\"se\",\"example\":\"Ich sehe einen Film. – Jag ser en film.\"}]","study.tip":"{\"leftBlocks\":[{\"text\":\"Handling → fernsehen (ich sehe fern); medium eller programutbud → das Fernsehen.\"}]}","study.important":"{\"text\":\"fernsehen är ett separabelt verb; das Fernsehen är ett substantiv som bara används i singular.\"}","study.sectionAccents":{"explanation":{},"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":{}}}
+**Note:** OWNER approved override: fernsehen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "fernsehen",
+  "lv": "titta på tv",
+  "level": "A1",
+  "study": {
+    "id": "a1-fernsehen",
+    "layout": "standardStudy",
+    "translation": "titta på tv",
+    "explanation": "Huvudidé: fernsehen är ett separabelt verb som betyder titta på tv: ich sehe fern, du siehst fern. Substantivet das Fernsehen betyder television som medium eller programutbud.",
+    "examples": [
+      {
+        "de": "Ich sehe heute Abend fern.",
+        "lv": "Jag tittar på tv i kväll."
+      },
+      {
+        "de": "Siehst du oft fern?",
+        "lv": "Tittar du ofta på tv?"
+      },
+      {
+        "de": "Die Kinder sehen am Nachmittag fern.",
+        "lv": "Barnen tittar på tv på eftermiddagen."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "fernsehen",
+        "meaning": "titta på tv",
+        "example": "Ich sehe fern. – Jag tittar på tv."
+      },
+      {
+        "word": "das Fernsehen",
+        "meaning": "television / tv som medium",
+        "example": "Im Fernsehen läuft ein Film. – Det går en film på tv."
+      },
+      {
+        "word": "sehen",
+        "meaning": "se",
+        "example": "Ich sehe einen Film. – Jag ser en film."
+      }
+    ],
+    "tip": {
+      "leftBlocks": [
+        {
+          "text": "Handling → fernsehen (ich sehe fern); medium eller programutbud → das Fernsehen."
+        }
+      ]
+    },
+    "important": {
+      "text": "fernsehen är ett separabelt verb; das Fernsehen är ett substantiv som bara används i singular."
+    },
+    "sectionAccents": {
+      "explanation": {},
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": {}
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -355,26 +551,116 @@
 
 **Audit ID:** `LRB099-0003`
 **Finding Stable ID:** `g2/a1/sv|Fernsehen|idx:688|lv; study.explanation; study.examples[].lv; study.tip; study.important|TARGET_LANGUAGE_MIX|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `Fernsehen|idx:688`
 **Field / path:** `lv; study.explanation; study.examples[].lv; study.tip; study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MIX
-**LV source (read-only):** televīzija
-**DE reference (read-only):** Fernsehen
 **CURRENT (captured scope):** {"lv":"Televisioon","study.explanation":"[\"Põhiidee: Nimisõna, ainult ainsus. Kirjeldab TV-d kui meediumi või saateid tervikuna.\",\"Das Fernsehen tähendab peamiselt: saadet vaatama.\",\"Sageli kirjeldab: tegevust.\",\"Das Fernsehen tähendab peamiselt: televisioon kui meedium.\",\"Sageli kirjeldab: nimisõna (ainult ainsuses).\",\"Fernsehen on tegusõna, mida saab lahutada: ich sehe fern, du siehst fern.\",\"Das Fernsehen on nimisõna ja ainult ainsuses — sellel ei ole mitmuse vormi.\"]","study.examples[].lv":null,"study.tip":"[\"Om det handlar om verbet använder man fernsehen (ich sehe fern). Om det handlar om TV-program eller media använder man das Fernsehen.\",\"Substantiv, endast singular. Beskriver TV som medium eller sändning i allmänhet.\"]","study.important":"[\"fernsehen är separabel: sehen + fern.\",\"das Fernsehen är inte i plural — det finns ingen *die Fernsehen.\",\"Fel: die Fernsehen → Korrekt: das Fernsehen\",\"Verb: fernsehen → ich sehe fern.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Fernsehen\|idx:688 (Fernsehen), ceļš 'lv; study.explanation; study.examples[].lv; study.tip; study.important': norādītais lauks produkcijas shēmā nav atrodams. Konteksts ir '{"lv":"Televisioon","study.explanation":"[\"Põhiidee: Nimisõna, ainult ainsus. Kirjeldab TV-d kui meediu…'; vajadzīgs OWNER shēmas lēmums par konkrētā lauka izveidi vai finding slēgšanu.
-**Unresolved category:** CONFIRMED_FIELD_ABSENT_NO_PRODUCTION_TARGET
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"television • tv","study.translation":"television • tv","study.explanation":"[\"Huvudidé: das Fernsehen är ett substantiv som betyder television eller tv som medium och programutbud.\",\"Det används bara i singular.\",\"Verbet fernsehen beskriver handlingen att titta på tv och är separabelt.\"]","study.examples":"[{\"de\":\"Was gibt es heute im Fernsehen?\",\"lv\":\"Vad går det på tv i dag?\"},{\"de\":\"Was gibt es heute im Fernsehen?\",\"lv\":\"Vad går det på tv i dag?\"},{\"de\":\"Im Fernsehen läuft ein Film.\",\"lv\":\"Det går en film på tv.\"},{\"de\":\"Das Fernsehen ist heute langweilig.\",\"lv\":\"Det är tråkigt på tv i dag.\"},{\"de\":\"Ich sehe heute Abend fern.\",\"lv\":\"Jag tittar på tv i kväll.\"},{\"de\":\"Was gibt es im Fernsehen?\",\"lv\":\"Vad går det på tv?\"}]","study.tip":"[\"Handling → fernsehen; medium eller programutbud → das Fernsehen.\",\"das Fernsehen har ingen pluralform.\"]","study.important":"[\"fernsehen är separabelt: ich sehe fern.\",\"Skriv das Fernsehen, inte *die Fernsehen.\",\"das Fernsehen används bara i singular.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}
+**Note:** OWNER approved override: Fernsehen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Fernsehen",
+  "de_article": "das",
+  "lv": "television • tv",
+  "level": "A1",
+  "study": {
+    "id": "a1-fernsehen-study",
+    "layout": "standardStudy",
+    "translation": "television • tv",
+    "explanation": [
+      "Huvudidé: das Fernsehen är ett substantiv som betyder television eller tv som medium och programutbud.",
+      "Det används bara i singular.",
+      "Verbet fernsehen beskriver handlingen att titta på tv och är separabelt."
+    ],
+    "examples": [
+      {
+        "de": "Was gibt es heute im Fernsehen?",
+        "lv": "Vad går det på tv i dag?"
+      },
+      {
+        "de": "Was gibt es heute im Fernsehen?",
+        "lv": "Vad går det på tv i dag?"
+      },
+      {
+        "de": "Im Fernsehen läuft ein Film.",
+        "lv": "Det går en film på tv."
+      },
+      {
+        "de": "Das Fernsehen ist heute langweilig.",
+        "lv": "Det är tråkigt på tv i dag."
+      },
+      {
+        "de": "Ich sehe heute Abend fern.",
+        "lv": "Jag tittar på tv i kväll."
+      },
+      {
+        "de": "Was gibt es im Fernsehen?",
+        "lv": "Vad går det på tv?"
+      }
+    ],
+    "tip": [
+      "Handling → fernsehen; medium eller programutbud → das Fernsehen.",
+      "das Fernsehen har ingen pluralform."
+    ],
+    "important": [
+      "fernsehen är separabelt: ich sehe fern.",
+      "Skriv das Fernsehen, inte *die Fernsehen.",
+      "das Fernsehen används bara i singular."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -544,26 +830,97 @@
 
 **Audit ID:** `LRB099-0004`
 **Finding Stable ID:** `g2/a1/sv|finden|idx:187|study.examples; study.important; study.comparison|MEANING_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `finden|idx:187`
 **Field / path:** `study.examples; study.important; study.comparison`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** MEANING_MISMATCH
-**LV source (read-only):** atrast
-**DE reference (read-only):** finden
 **CURRENT (captured scope):** {"study.examples":"[{\"de\":\"Ich finde meinen Schlüssel.\",\"lv\":\"Ma ei leia oma võtit.\"},{\"de\":\"Ich finde das gut.\",\"lv\":\"Kas sa leidsid oma telefoni?\"},{\"de\":\"Wie findest du den Film?\",\"lv\":\"Minu meelest on see hea.\"},{\"de\":\"Wie findest du den Film?\",\"lv\":\"Kuidas sulle film tundub?\"}]","study.important":"[\"finden är inte bara \\\"hitta\\\".\",\"Ich finde das gut betyder \\\"jag tycker det är bra\\\", inte \\\"jag hittar det bra\\\".\"]","study.comparison":"[{\"word\":\"finden\",\"meaning\":\"Leidma / arvama\",\"example\":\"Ich finde das gut. = Jag tycker det är bra.\"},{\"word\":\"suchen\",\"meaning\":\"Otsima\",\"example\":\"Ich suche den Schlüssel. = Ma otsin võtit.\"},{\"word\":\"denken\",\"meaning\":\"Mõtlema\",\"example\":\"Ich denke an dich. = Ma mõtlen sinule.\"},{\"word\":\"glauben\",\"meaning\":\"Uskuma / arvama\",\"example\":\"Ich glaube, er kommt. = Ma arvan, et ta tuleb.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts finden\|idx:187 (finden), ceļš 'study.examples; study.important; study.comparison': viena rinda aptver apakšlaukus study.examples, study.important, study.comparison, kuru saturs sākas ar '{"study.examples":"[{\"de\":\"Ich finde meinen Schlüssel.\",\"lv\":\"Ma ei leia oma võtit.\"},{\"de\":\"…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"hitta • tycka","study.translation":"hitta • tycka","study.explanation":"[\"Huvudidé: finden betyder oftast hitta, men används också för att uttrycka en åsikt: tycka eller anse.\",\"En borttappad sak hittar man; i Ich finde das gut uttrycker talaren en bedömning.\"]","study.examples":"[{\"de\":\"Ich finde meinen Schlüssel.\",\"lv\":\"Jag hittar min nyckel.\"},{\"de\":\"Ich finde das gut.\",\"lv\":\"Jag tycker att det är bra.\"},{\"de\":\"Wie findest du den Film?\",\"lv\":\"Vad tycker du om filmen?\"}]","study.comparison":"[{\"word\":\"finden\",\"meaning\":\"hitta / tycka / anse\",\"example\":\"Ich finde das gut. – Jag tycker att det är bra.\"}]","study.tip":"{\"text\":\"Borttappad sak → hitta; åsikt → tycka eller anse.\"}","study.important":"[\"finden betyder inte bara hitta.\",\"Ich finde das gut = Jag tycker att det är bra.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: finden: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "finden",
+  "lv": "hitta • tycka",
+  "level": "A1",
+  "study": {
+    "id": "a1-finden",
+    "layout": "standardStudy",
+    "translation": "hitta • tycka",
+    "explanation": [
+      "Huvudidé: finden betyder oftast hitta, men används också för att uttrycka en åsikt: tycka eller anse.",
+      "En borttappad sak hittar man; i Ich finde das gut uttrycker talaren en bedömning."
+    ],
+    "examples": [
+      {
+        "de": "Ich finde meinen Schlüssel.",
+        "lv": "Jag hittar min nyckel."
+      },
+      {
+        "de": "Ich finde das gut.",
+        "lv": "Jag tycker att det är bra."
+      },
+      {
+        "de": "Wie findest du den Film?",
+        "lv": "Vad tycker du om filmen?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "finden",
+        "meaning": "hitta / tycka / anse",
+        "example": "Ich finde das gut. – Jag tycker att det är bra."
+      }
+    ],
+    "tip": {
+      "text": "Borttappad sak → hitta; åsikt → tycka eller anse."
+    },
+    "important": [
+      "finden betyder inte bara hitta.",
+      "Ich finde das gut = Jag tycker att det är bra."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -814,26 +1171,117 @@
 
 **Audit ID:** `LRB099-0005`
 **Finding Stable ID:** `g2/a1/sv|Frau|idx:198|lv; study.explanation; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `Frau|idx:198`
 **Field / path:** `lv; study.explanation; study.tip; study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** sieviete
-**DE reference (read-only):** Frau
 **CURRENT (captured scope):** {"lv":"Naine • Abikaasa","study.explanation":"[\"Põhiidee: die Frau võib tähendada naist (sugu) või abikaasat (abielupool).\",\"Kui jutt on lihtsalt soost või isikust, die Frau = naine.\",\"Kui jutt on abikaasast, die Frau = naine (meine Frau = minu naine).\",\"Omastav asesõna (meine/deine/seine Frau) tähendab peaaegu alati naist — abikaasat.\",\"Mitmuses: die Frauen.\",\"Meessoovormil der Mann on samasugune kahetine tähendus: mees JA abikaasa.\"]","study.tip":"[\"Med possesiv pronomen (meine/deine/seine Frau) menar man nästan alltid fru (makan).\",\"Utan possesiv pronomen (die Frau, eine Frau) menar man vanligtvis kvinna.\"]","study.important":"[\"die Frau = kvinna ELLER fru — beroende på sammanhang.\",\"meine Frau = min fru (inte \\\"min kvinna\\\").\",\"Mitmuses: die Frauen.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Frau\|idx:198 (Frau), ceļš 'lv; study.explanation; study.tip; study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.tip, study.important, kuru saturs sākas ar '{"lv":"Naine • Abikaasa","study.explanation":"[\"Põhiidee: die Frau võib tähendada naist (sugu) või abik…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"kvinna • hustru","study.translation":"kvinna • hustru","study.explanation":"[\"Huvudidé: die Frau betyder kvinna eller hustru beroende på sammanhanget.\",\"Med ett possessivt ord, som meine Frau, betyder det nästan alltid hustru.\",\"Pluralformen är die Frauen.\"]","study.examples":"[{\"de\":\"Sie ist eine nette Frau.\",\"lv\":\"Hon är en trevlig kvinna.\"},{\"de\":\"Das ist meine Frau.\",\"lv\":\"Det här är min hustru.\"},{\"de\":\"Wie viele Frauen sind hier?\",\"lv\":\"Hur många kvinnor är här?\"},{\"de\":\"Meine Frau arbeitet in Berlin.\",\"lv\":\"Min hustru arbetar i Berlin.\"},{\"de\":\"Die Frau trägt ein Kleid.\",\"lv\":\"Kvinnan har på sig en klänning.\"},{\"de\":\"Seine Frau ist Ärztin.\",\"lv\":\"Hans hustru är läkare.\"}]","study.tip":"[\"Possessivt ord + Frau betyder normalt hustru.\",\"Utan possessivt ord betyder die/eine Frau vanligen kvinna.\"]","study.important":"[\"die Frau = kvinna eller hustru beroende på sammanhanget.\",\"meine Frau = min hustru.\",\"Plural: die Frauen.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}
+**Note:** OWNER approved override: Frau: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Frau",
+  "de_article": "die",
+  "de_plural": "die Frauen",
+  "lv": "kvinna • hustru",
+  "level": "A1",
+  "study": {
+    "id": "a1-frau",
+    "layout": "standardStudy",
+    "translation": "kvinna • hustru",
+    "explanation": [
+      "Huvudidé: die Frau betyder kvinna eller hustru beroende på sammanhanget.",
+      "Med ett possessivt ord, som meine Frau, betyder det nästan alltid hustru.",
+      "Pluralformen är die Frauen."
+    ],
+    "examples": [
+      {
+        "de": "Sie ist eine nette Frau.",
+        "lv": "Hon är en trevlig kvinna."
+      },
+      {
+        "de": "Das ist meine Frau.",
+        "lv": "Det här är min hustru."
+      },
+      {
+        "de": "Wie viele Frauen sind hier?",
+        "lv": "Hur många kvinnor är här?"
+      },
+      {
+        "de": "Meine Frau arbeitet in Berlin.",
+        "lv": "Min hustru arbetar i Berlin."
+      },
+      {
+        "de": "Die Frau trägt ein Kleid.",
+        "lv": "Kvinnan har på sig en klänning."
+      },
+      {
+        "de": "Seine Frau ist Ärztin.",
+        "lv": "Hans hustru är läkare."
+      }
+    ],
+    "tip": [
+      "Possessivt ord + Frau betyder normalt hustru.",
+      "Utan possessivt ord betyder die/eine Frau vanligen kvinna."
+    ],
+    "important": [
+      "die Frau = kvinna eller hustru beroende på sammanhanget.",
+      "meine Frau = min hustru.",
+      "Plural: die Frauen."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1024,26 +1472,111 @@
 
 **Audit ID:** `LRB099-0006`
 **Finding Stable ID:** `g2/a1/sv|für|idx:216|lv; study.translation; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0005`
 **Lang:** sv
 **Card:** `für|idx:216`
 **Field / path:** `lv; study.translation; study.explanation; study.examples; study.tip; study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** priekš
-**DE reference (read-only):** für
 **CURRENT (captured scope):** {"lv":"Jaoks • Eest","study.translation":"Jaoks • Eest","study.explanation":"[\"Põhiidee: für on eessõna, mis nõuab alati Akkusativit — eesti keeles tavaliselt jaoks või eest.\",\"Saajast või eesmärgist rääkides für = jaoks (für dich = sinu jaoks).\",\"Vahetusest, tasust või põhjusest rääkides für = eest (danke für das Geschenk = aitäh kingi eest).\",\"Für nõuab alati Akkusativi, olenemata tähendusest.\"]","study.examples":"[{\"de\":\"Das ist für dich.\",\"lv\":\"See on sinu jaoks.\"},{\"de\":\"Danke für die Hilfe.\",\"lv\":\"Aitäh abi eest.\"},{\"de\":\"Ich kaufe ein Geschenk für meine Mutter.\",\"lv\":\"Ma ostan kingi oma emale.\"},{\"de\":\"Was bezahlst du für das Auto?\",\"lv\":\"Kui palju sa auto eest maksad?\"},{\"de\":\"Das Buch ist für Kinder.\",\"lv\":\"Raamat on lastele.\"},{\"de\":\"Für heute ist das genug.\",\"lv\":\"Tänaseks on sellest küll.\"}]","study.tip":"[\"für använder alltid ackusativ oberoende av betydelse.\",\"Mottagare/syfte → för; utbyte/anledning/betalning → för.\"]","study.important":"[\"för + ackusativ alltid, till exempel för mich, für dich, für das Kind.\",\"danke für / bezahlen für = \\\"för\\\", inte \\\"för\\\".\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts für\|idx:216 (für), ceļš 'lv; study.translation; study.explanation; study.examples; study.tip; study.important': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Jaoks • Eest","study.translation":"Jaoks • Eest","study.explanation":"[\"Põhiidee: für on eessõna…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"för","study.translation":"för","study.explanation":"[\"Huvudidé: für är en preposition som alltid styr ackusativ och oftast betyder för.\",\"Den kan ange mottagare eller syfte samt det som man tackar eller betalar för.\"]","study.examples":"[{\"de\":\"Das ist für dich.\",\"lv\":\"Det här är till dig.\"},{\"de\":\"Danke für die Hilfe.\",\"lv\":\"Tack för hjälpen.\"},{\"de\":\"Ich kaufe ein Geschenk für meine Mutter.\",\"lv\":\"Jag köper en present till min mamma.\"},{\"de\":\"Was bezahlst du für das Auto?\",\"lv\":\"Hur mycket betalar du för bilen?\"},{\"de\":\"Das Buch ist für Kinder.\",\"lv\":\"Boken är för barn.\"},{\"de\":\"Für heute ist das genug.\",\"lv\":\"Det räcker för i dag.\"}]","study.tip":"[\"für styr alltid ackusativ.\",\"Översätt naturligt som för eller till beroende på sammanhanget.\"]","study.important":"[\"für + ackusativ: für mich, für dich, für das Kind.\",\"danke für och bezahlen für motsvarar för på svenska.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: für: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "für",
+  "lv": "för",
+  "level": "A1",
+  "study": {
+    "id": "a1-fuer",
+    "layout": "standardStudy",
+    "translation": "för",
+    "explanation": [
+      "Huvudidé: für är en preposition som alltid styr ackusativ och oftast betyder för.",
+      "Den kan ange mottagare eller syfte samt det som man tackar eller betalar för."
+    ],
+    "examples": [
+      {
+        "de": "Das ist für dich.",
+        "lv": "Det här är till dig."
+      },
+      {
+        "de": "Danke für die Hilfe.",
+        "lv": "Tack för hjälpen."
+      },
+      {
+        "de": "Ich kaufe ein Geschenk für meine Mutter.",
+        "lv": "Jag köper en present till min mamma."
+      },
+      {
+        "de": "Was bezahlst du für das Auto?",
+        "lv": "Hur mycket betalar du för bilen?"
+      },
+      {
+        "de": "Das Buch ist für Kinder.",
+        "lv": "Boken är för barn."
+      },
+      {
+        "de": "Für heute ist das genug.",
+        "lv": "Det räcker för i dag."
+      }
+    ],
+    "tip": [
+      "für styr alltid ackusativ.",
+      "Översätt naturligt som för eller till beroende på sammanhanget."
+    ],
+    "important": [
+      "für + ackusativ: für mich, für dich, für das Kind.",
+      "danke für och bezahlen für motsvarar för på svenska."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1219,26 +1752,119 @@
 
 **Audit ID:** `LRB099-0007`
 **Finding Stable ID:** `g2/a1/sv|ganz|idx:219|lv; study.comparison[1].meaning|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `ganz|idx:219`
 **Field / path:** `lv; study.comparison[1].meaning`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** vesels
-**DE reference (read-only):** ganz
 **CURRENT (captured scope):** {"lv":"Terve","study.comparison[1].meaning":"Kõik"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts ganz\|idx:219 (ganz), ceļš 'lv; study.comparison[1].meaning': viena rinda aptver apakšlaukus lv, study.comparison[1].meaning, kuru saturs sākas ar '{"lv":"Terve","study.comparison[1].meaning":"Kõik"}'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"hel • helt","study.translation":"hel • helt","study.explanation":"[\"Huvudidé: ganz framför ett substantiv betyder hel eller hela; framför ett adjektiv eller adverb betyder det ofta helt eller ganska.\",\"Pronomenet alles betyder däremot allt.\"]","study.examples":"[{\"de\":\"Ich arbeite den ganzen Tag.\",\"lv\":\"Jag arbetar hela dagen.\"},{\"de\":\"Das ganze Haus ist sauber.\",\"lv\":\"Hela huset är rent.\"},{\"de\":\"Das ist ganz sicher.\",\"lv\":\"Det är helt säkert.\"},{\"de\":\"Das Essen ist ganz gut.\",\"lv\":\"Maten är ganska god.\"}]","study.comparison":"[{\"word\":\"ganz\",\"meaning\":\"hel / hela / helt / ganska\",\"example\":\"der ganze Tag – hela dagen\"},{\"word\":\"alles\",\"meaning\":\"allt\",\"example\":\"Alles ist gut. – Allt är bra.\"}]","study.tip":"[\"Framför substantiv → hel/hela; framför adjektiv → helt eller ganska.\",\"Skilj ganz från pronomenet alles.\"]","study.important":"[\"der ganze Tag = hela dagen.\",\"alles = allt.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: ganz: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ganz",
+  "lv": "hel • helt",
+  "level": "A1",
+  "study": {
+    "id": "a1-ganz-study",
+    "layout": "standardStudy",
+    "translation": "hel • helt",
+    "explanation": [
+      "Huvudidé: ganz framför ett substantiv betyder hel eller hela; framför ett adjektiv eller adverb betyder det ofta helt eller ganska.",
+      "Pronomenet alles betyder däremot allt."
+    ],
+    "examples": [
+      {
+        "de": "Ich arbeite den ganzen Tag.",
+        "lv": "Jag arbetar hela dagen."
+      },
+      {
+        "de": "Das ganze Haus ist sauber.",
+        "lv": "Hela huset är rent."
+      },
+      {
+        "de": "Das ist ganz sicher.",
+        "lv": "Det är helt säkert."
+      },
+      {
+        "de": "Das Essen ist ganz gut.",
+        "lv": "Maten är ganska god."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "ganz",
+        "meaning": "hel / hela / helt / ganska",
+        "example": "der ganze Tag – hela dagen"
+      },
+      {
+        "word": "alles",
+        "meaning": "allt",
+        "example": "Alles ist gut. – Allt är bra."
+      }
+    ],
+    "tip": [
+      "Framför substantiv → hel/hela; framför adjektiv → helt eller ganska.",
+      "Skilj ganz från pronomenet alles."
+    ],
+    "important": [
+      "der ganze Tag = hela dagen.",
+      "alles = allt."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1302,26 +1928,135 @@
 
 **Audit ID:** `LRB099-0008`
 **Finding Stable ID:** `g2/a1/sv|geben|idx:223|lv; study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `geben|idx:223`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** dot
-**DE reference (read-only):** geben
 **CURRENT (captured scope):** {"lv":"Andma","study.translation":"Andma","study.explanation":"[\"Põhiidee: geben tähendab andmist.\",\"Geben kasutatakse, kui keegi annab midagi teisele inimesele.\",\"See on vastupidine suund sõnale nehmen.\",\"Bekommen tähendab saama, seega olla see, kes midagi kätte saab.\"]","study.examples":"[{\"de\":\"Gib mir bitte das Buch.\",\"lv\":\"Anna mulle palun raamat.\"},{\"de\":\"Ich gebe dir meine Nummer.\",\"lv\":\"Ma annan sulle oma numbri.\"},{\"de\":\"Ich nehme das Buch.\",\"lv\":\"Ma võtan raamatu.\"},{\"de\":\"Ich bekomme ein Geschenk.\",\"lv\":\"Ma saan kingi.\"}]","study.comparison":"[{\"word\":\"geben\",\"meaning\":\"Andma\",\"example\":\"Ge mig boken.\"},{\"word\":\"nehmen\",\"meaning\":\"Võtma / kätte võtma\",\"example\":\"Jag tar boken.\"},{\"word\":\"bekommen\",\"meaning\":\"Saama / kätte saama\",\"example\":\"Jag får en gåva.\"},{\"word\":\"bringen\",\"meaning\":\"Tooma / kohale toimetama\",\"example\":\"Jag ger dig boken.\"}]","study.tip":"{\"text\":\"Atceries: dot prom → geben; paņemt sev → nehmen.\"}","study.important":"[\"geben och nehmen är motsatta riktningar.\",\"bekommen betyder att få, inte att ge.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts geben\|idx:223 (geben), ceļš 'lv; study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"Andma","study.translation":"Andma","study.explanation":"[\"Põhiidee: geben tähendab andmist.\",\"…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ge","study.translation":"ge","study.explanation":"[\"Huvudidé: geben betyder ge: någon överlämnar något till en annan person.\",\"nehmen betyder ta och bekommen betyder få eller ta emot.\"]","study.examples":"[{\"de\":\"Gib mir bitte das Buch.\",\"lv\":\"Ge mig boken, är du snäll.\"},{\"de\":\"Ich gebe dir meine Nummer.\",\"lv\":\"Jag ger dig mitt nummer.\"},{\"de\":\"Ich nehme das Buch.\",\"lv\":\"Jag tar boken.\"},{\"de\":\"Ich bekomme ein Geschenk.\",\"lv\":\"Jag får en present.\"}]","study.comparison":"[{\"word\":\"geben\",\"meaning\":\"ge\",\"example\":\"Gib mir das Buch. – Ge mig boken.\"},{\"word\":\"nehmen\",\"meaning\":\"ta\",\"example\":\"Ich nehme das Buch. – Jag tar boken.\"},{\"word\":\"bekommen\",\"meaning\":\"få / ta emot\",\"example\":\"Ich bekomme ein Geschenk. – Jag får en present.\"},{\"word\":\"bringen\",\"meaning\":\"ta med / komma med\",\"example\":\"Ich bringe dir das Buch. – Jag tar med boken till dig.\"}]","study.tip":"{\"text\":\"Ge bort → geben; ta själv → nehmen; få → bekommen.\"}","study.important":"[\"geben och nehmen beskriver motsatta riktningar.\",\"bekommen betyder få, inte ge.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: geben: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "geben",
+  "lv": "ge",
+  "level": "A1",
+  "study": {
+    "id": "a1-geben",
+    "layout": "standardStudy",
+    "translation": "ge",
+    "explanation": [
+      "Huvudidé: geben betyder ge: någon överlämnar något till en annan person.",
+      "nehmen betyder ta och bekommen betyder få eller ta emot."
+    ],
+    "examples": [
+      {
+        "de": "Gib mir bitte das Buch.",
+        "lv": "Ge mig boken, är du snäll."
+      },
+      {
+        "de": "Ich gebe dir meine Nummer.",
+        "lv": "Jag ger dig mitt nummer."
+      },
+      {
+        "de": "Ich nehme das Buch.",
+        "lv": "Jag tar boken."
+      },
+      {
+        "de": "Ich bekomme ein Geschenk.",
+        "lv": "Jag får en present."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "geben",
+        "meaning": "ge",
+        "example": "Gib mir das Buch. – Ge mig boken."
+      },
+      {
+        "word": "nehmen",
+        "meaning": "ta",
+        "example": "Ich nehme das Buch. – Jag tar boken."
+      },
+      {
+        "word": "bekommen",
+        "meaning": "få / ta emot",
+        "example": "Ich bekomme ein Geschenk. – Jag får en present."
+      },
+      {
+        "word": "bringen",
+        "meaning": "ta med / komma med",
+        "example": "Ich bringe dir das Buch. – Jag tar med boken till dig."
+      }
+    ],
+    "tip": {
+      "text": "Ge bort → geben; ta själv → nehmen; få → bekommen."
+    },
+    "important": [
+      "geben och nehmen beskriver motsatta riktningar.",
+      "bekommen betyder få, inte ge."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1597,26 +2332,111 @@
 
 **Audit ID:** `LRB099-0009`
 **Finding Stable ID:** `g2/a1/sv|gefallen|idx:225|lv; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `gefallen|idx:225`
 **Field / path:** `lv; study.explanation`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** TRANSLATION_ERROR
-**LV source (read-only):** patikt
-**DE reference (read-only):** gefallen
 **CURRENT (captured scope):** {"lv":"Meeldima","study.explanation":"[\"Huvudidén: gefallen betyder gilla, men den tyska meningsstrukturen skiljer sig från svenska.\",\"Det som gillar är på tyska meningens objekt.\",\"Personen som något gillar för är i dativ: mir, dir, ihm, ihr, uns, euch, ihnen.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts gefallen\|idx:225 (gefallen), ceļš 'lv; study.explanation': viena rinda aptver apakšlaukus lv, study.explanation, kuru saturs sākas ar '{"lv":"Meeldima","study.explanation":"[\"Huvudidén: gefallen betyder gilla, men den tyska meningsstruktu…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"tycka om","study.translation":"tycka om","study.explanation":"[\"Huvudidé: gefallen betyder tycka om, men det som uppskattas är subjekt på tyska och personen står i dativ.\",\"Lär dig mönstret Das gefällt mir.\"]","study.examples":"[{\"de\":\"Das gefällt mir.\",\"lv\":\"Jag tycker om det.\"},{\"de\":\"Gefällt dir das Kleid?\",\"lv\":\"Tycker du om klänningen?\"},{\"de\":\"Der Film gefällt uns.\",\"lv\":\"Vi tycker om filmen.\"}]","study.comparison":"[{\"word\":\"gefallen\",\"meaning\":\"tycka om; personen står i dativ\",\"example\":\"Das gefällt mir. – Jag tycker om det.\"},{\"word\":\"mögen\",\"meaning\":\"gilla / tycka om\",\"example\":\"Ich mag das. – Jag gillar det.\"}]","study.tip":"[\"Lär dig konstruktionen Das gefällt mir.\",\"Översätt meningen naturligt, inte ord för ord.\"]","study.important":"[\"gefallen används med dativ: mir, dir, ihm, ihr.\",\"Das gefällt mir = Jag tycker om det.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: gefallen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gefallen",
+  "lv": "tycka om",
+  "level": "A1",
+  "study": {
+    "id": "a1-gefallen-study",
+    "layout": "standardStudy",
+    "translation": "tycka om",
+    "explanation": [
+      "Huvudidé: gefallen betyder tycka om, men det som uppskattas är subjekt på tyska och personen står i dativ.",
+      "Lär dig mönstret Das gefällt mir."
+    ],
+    "examples": [
+      {
+        "de": "Das gefällt mir.",
+        "lv": "Jag tycker om det."
+      },
+      {
+        "de": "Gefällt dir das Kleid?",
+        "lv": "Tycker du om klänningen?"
+      },
+      {
+        "de": "Der Film gefällt uns.",
+        "lv": "Vi tycker om filmen."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "gefallen",
+        "meaning": "tycka om; personen står i dativ",
+        "example": "Das gefällt mir. – Jag tycker om det."
+      },
+      {
+        "word": "mögen",
+        "meaning": "gilla / tycka om",
+        "example": "Ich mag das. – Jag gillar det."
+      }
+    ],
+    "tip": [
+      "Lär dig konstruktionen Das gefällt mir.",
+      "Översätt meningen naturligt, inte ord för ord."
+    ],
+    "important": [
+      "gefallen används med dativ: mir, dir, ihm, ihr.",
+      "Das gefällt mir = Jag tycker om det."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1676,26 +2496,112 @@
 
 **Audit ID:** `LRB099-0010`
 **Finding Stable ID:** `g2/a1/sv|Gemüse|idx:692|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `Gemüse|idx:692`
 **Field / path:** `lv; study.explanation; study.tip; study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_CONTAMINATION
-**LV source (read-only):** dārzeņi
-**DE reference (read-only):** Gemüse
 **CURRENT (captured scope):** {"lv":"Köögiviljad","study.explanation":"[\"Põhiidee: Köögiviljad üldiselt. Saksa keeles ei ole mitmuse vormi *die Gemüse.\",\"Das Gemüse tähendab peamiselt: köögiviljad üldiselt.\",\"Sageli kirjeldab: kesksoos (ainult ainsuses).\"]","study.tip":"[\"das Gemüse = grönsaker\",\"Använd das Gemüse när sammanhanget motsvarar denna betydelse.\"]","study.important":"[\"Det är inte korrekt: die Gemüse, die Obsts.\",\"Fel: die Gemüse → Korrekt: das Gemüse\",\"das Gemüse = grönsaker (tillsammans).\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Gemüse\|idx:692 (Gemüse), ceļš 'lv; study.explanation; study.tip; study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.tip, study.important, kuru saturs sākas ar '{"lv":"Köögiviljad","study.explanation":"[\"Põhiidee: Köögiviljad üldiselt. Saksa keeles ei ole mitmuse …'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"grönsaker","study.translation":"grönsaker","study.explanation":"[\"Huvudidé: das Gemüse betyder grönsaker som en samlad livsmedelskategori.\",\"På tyska används ordet i singular och formen *die Gemüse är fel.\"]","study.examples":"[{\"de\":\"Ich esse gern Gemüse.\",\"lv\":\"Jag äter gärna grönsaker.\"},{\"de\":\"Ich esse gern Gemüse.\",\"lv\":\"Jag äter gärna grönsaker.\"},{\"de\":\"Das Gemüse ist frisch.\",\"lv\":\"Grönsakerna är färska.\"},{\"de\":\"Wir kaufen Gemüse auf dem Markt.\",\"lv\":\"Vi köper grönsaker på marknaden.\"},{\"de\":\"Ich mag Obst und Gemüse.\",\"lv\":\"Jag tycker om frukt och grönsaker.\"},{\"de\":\"Ich esse Gemüse.\",\"lv\":\"Jag äter grönsaker.\"}]","study.tip":"[\"das Gemüse = grönsaker som kategori.\",\"Använd singular på tyska.\"]","study.important":"[\"Skriv das Gemüse, inte *die Gemüse.\",\"Tyskans das Gemüse motsvarar ofta svensk plural: grönsaker.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: Gemüse: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Gemüse",
+  "de_article": "das",
+  "lv": "grönsaker",
+  "level": "A1",
+  "study": {
+    "id": "a1-gemuese",
+    "layout": "standardStudy",
+    "translation": "grönsaker",
+    "explanation": [
+      "Huvudidé: das Gemüse betyder grönsaker som en samlad livsmedelskategori.",
+      "På tyska används ordet i singular och formen *die Gemüse är fel."
+    ],
+    "examples": [
+      {
+        "de": "Ich esse gern Gemüse.",
+        "lv": "Jag äter gärna grönsaker."
+      },
+      {
+        "de": "Ich esse gern Gemüse.",
+        "lv": "Jag äter gärna grönsaker."
+      },
+      {
+        "de": "Das Gemüse ist frisch.",
+        "lv": "Grönsakerna är färska."
+      },
+      {
+        "de": "Wir kaufen Gemüse auf dem Markt.",
+        "lv": "Vi köper grönsaker på marknaden."
+      },
+      {
+        "de": "Ich mag Obst und Gemüse.",
+        "lv": "Jag tycker om frukt och grönsaker."
+      },
+      {
+        "de": "Ich esse Gemüse.",
+        "lv": "Jag äter grönsaker."
+      }
+    ],
+    "tip": [
+      "das Gemüse = grönsaker som kategori.",
+      "Använd singular på tyska."
+    ],
+    "important": [
+      "Skriv das Gemüse, inte *die Gemüse.",
+      "Tyskans das Gemüse motsvarar ofta svensk plural: grönsaker."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1860,26 +2766,112 @@
 
 **Audit ID:** `LRB099-0011`
 **Finding Stable ID:** `g2/a1/sv|Geschwister|idx:234|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0001`
 **Lang:** sv
 **Card:** `Geschwister|idx:234`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** brāļi un māsas
-**DE reference (read-only):** Geschwister
 **CURRENT (captured scope):** {"lv":"syskon","study.translation":"syskon","study.explanation":"[\"Huvudidén: Geschwister betyder syskon tillsammans.\",\"Detta ord används vanligtvis endast i plural.\",\"För en person använder man Bruder eller Schwester.\"]","study.examples":"[{\"de\":\"Ich habe zwei Geschwister.\",\"lv\":\"man ir divi brāļi vai māsas.\"},{\"de\":\"Meine Geschwister wohnen in Berlin.\",\"lv\":\"mani brāļi un māsas dzīvo Berlīnē.\"}]","study.comparison":"[{\"word\":\"Geschwister\",\"meaning\":\"syskon\",\"example\":\"Meine Geschwister – mina syskon\"},{\"word\":\"Bruder\",\"meaning\":\"Vend\",\"example\":\"mein Bruder – min bror\"},{\"word\":\"Schwester\",\"meaning\":\"Õde\",\"example\":\"meine Schwester – min syster\"}]","study.tip":"[\"Geschwister används vanligtvis i plural.\",\"För en person väljer du Bruder eller Schwester.\"]","study.important":"[\"Använd inte ein Geschwister som en vanlig A1 singularform.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Geschwister\|idx:234 (Geschwister), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"syskon","study.translation":"syskon","study.explanation":"[\"Huvudidén: Geschwister betyder sysko…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"syskon","study.translation":"syskon","study.explanation":"[\"Huvudidé: Geschwister betyder syskon, alltså bröder och systrar tillsammans.\",\"Ordet används normalt bara i plural; för en person används Bruder eller Schwester.\"]","study.examples":"[{\"de\":\"Ich habe zwei Geschwister.\",\"lv\":\"Jag har två syskon.\"},{\"de\":\"Meine Geschwister wohnen in Berlin.\",\"lv\":\"Mina syskon bor i Berlin.\"}]","study.comparison":"[{\"word\":\"Geschwister\",\"meaning\":\"syskon\",\"example\":\"Meine Geschwister – mina syskon\"},{\"word\":\"Bruder\",\"meaning\":\"bror\",\"example\":\"mein Bruder – min bror\"},{\"word\":\"Schwester\",\"meaning\":\"syster\",\"example\":\"meine Schwester – min syster\"}]","study.tip":"[\"Geschwister används normalt i plural.\",\"För en person använder du Bruder eller Schwester.\"]","study.important":"[\"Använd inte ein Geschwister som vanlig A1-singularform.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{}]}}
+**Note:** OWNER approved override: Geschwister: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Geschwister",
+  "de_article": "die",
+  "lv": "syskon",
+  "level": "A1",
+  "study": {
+    "id": "a1-geschwister-study",
+    "layout": "standardStudy",
+    "translation": "syskon",
+    "explanation": [
+      "Huvudidé: Geschwister betyder syskon, alltså bröder och systrar tillsammans.",
+      "Ordet används normalt bara i plural; för en person används Bruder eller Schwester."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe zwei Geschwister.",
+        "lv": "Jag har två syskon."
+      },
+      {
+        "de": "Meine Geschwister wohnen in Berlin.",
+        "lv": "Mina syskon bor i Berlin."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Geschwister",
+        "meaning": "syskon",
+        "example": "Meine Geschwister – mina syskon"
+      },
+      {
+        "word": "Bruder",
+        "meaning": "bror",
+        "example": "mein Bruder – min bror"
+      },
+      {
+        "word": "Schwester",
+        "meaning": "syster",
+        "example": "meine Schwester – min syster"
+      }
+    ],
+    "tip": [
+      "Geschwister används normalt i plural.",
+      "För en person använder du Bruder eller Schwester."
+    ],
+    "important": [
+      "Använd inte ein Geschwister som vanlig A1-singularform."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1940,26 +2932,111 @@
 
 **Audit ID:** `LRB099-0012`
 **Finding Stable ID:** `g2/a1/sv|gleich|idx:243|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `gleich|idx:243`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** tūlīt
-**DE reference (read-only):** gleich
 **CURRENT (captured scope):** {"lv":"Kohe • Ühesugune","study.translation":"Kohe • Ühesugune","study.explanation":"[\"Põhiidee: gleich tähendab aja mõttes kohe, võrdluses tähendab ühesugune.\",\"Kui jutt on ajast, gleich = kohe/varsti (Ich komme gleich. = Ma tulen kohe.).\",\"Kui jutt on võrdlusest, gleich = ühesugune/sama (die gleiche Farbe = ühesugune värv).\",\"Sõna gleich võib kasutada ka eessõnana koos Dativiga, see tähendab nagu (gleich mir = nagu mina).\"]","study.examples":"[{\"de\":\"Ich komme gleich.\",\"lv\":\"Ma tulen kohe.\"},{\"de\":\"Wir haben die gleiche Farbe.\",\"lv\":\"Meil on ühesugune värv.\"},{\"de\":\"Das Essen ist gleich fertig.\",\"lv\":\"Toit saab kohe valmis.\"},{\"de\":\"Beide Wege sind gleich lang.\",\"lv\":\"Mõlemad teed on ühepikkused.\"},{\"de\":\"Bis gleich!\",\"lv\":\"Näeme kohe!\"},{\"de\":\"Sie sind gleich groß.\",\"lv\":\"Nad on ühepikkused.\"}]","study.tip":"[\"För tid (strax) → omedelbar.\",\"För jämförelse (samma) → identisk.\"]","study.important":"[\"gleich = omedelbar (tid) ELLER identisk (jämförelse) — beroende på sammanhang.\",\"Bis gleich! = līdz tūlīt! — ierasta atvadu frāze.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts gleich\|idx:243 (gleich), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Kohe • Ühesugune","study.translation":"Kohe • Ühesugune","study.explanation":"[\"Põhiidee: gleich…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"strax • likadan","study.translation":"strax • likadan","study.explanation":"[\"Huvudidé: gleich betyder strax i tidsuttryck och likadan eller samma i jämförelser.\",\"Sammanhanget visar om ordet gäller tid eller likhet.\"]","study.examples":"[{\"de\":\"Ich komme gleich.\",\"lv\":\"Jag kommer strax.\"},{\"de\":\"Wir haben die gleiche Farbe.\",\"lv\":\"Vi har samma färg.\"},{\"de\":\"Das Essen ist gleich fertig.\",\"lv\":\"Maten är snart färdig.\"},{\"de\":\"Beide Wege sind gleich lang.\",\"lv\":\"Båda vägarna är lika långa.\"},{\"de\":\"Bis gleich!\",\"lv\":\"Vi ses snart!\"},{\"de\":\"Sie sind gleich groß.\",\"lv\":\"De är lika långa.\"}]","study.tip":"[\"Tid → strax/snart.\",\"Jämförelse → likadan, samma eller lika.\"]","study.important":"[\"gleich kan betyda strax eller samma/likadan.\",\"Bis gleich! = Vi ses snart!\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: gleich: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gleich",
+  "lv": "strax • likadan",
+  "level": "A1",
+  "study": {
+    "id": "a1-gleich",
+    "layout": "standardStudy",
+    "translation": "strax • likadan",
+    "explanation": [
+      "Huvudidé: gleich betyder strax i tidsuttryck och likadan eller samma i jämförelser.",
+      "Sammanhanget visar om ordet gäller tid eller likhet."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme gleich.",
+        "lv": "Jag kommer strax."
+      },
+      {
+        "de": "Wir haben die gleiche Farbe.",
+        "lv": "Vi har samma färg."
+      },
+      {
+        "de": "Das Essen ist gleich fertig.",
+        "lv": "Maten är snart färdig."
+      },
+      {
+        "de": "Beide Wege sind gleich lang.",
+        "lv": "Båda vägarna är lika långa."
+      },
+      {
+        "de": "Bis gleich!",
+        "lv": "Vi ses snart!"
+      },
+      {
+        "de": "Sie sind gleich groß.",
+        "lv": "De är lika långa."
+      }
+    ],
+    "tip": [
+      "Tid → strax/snart.",
+      "Jämförelse → likadan, samma eller lika."
+    ],
+    "important": [
+      "gleich kan betyda strax eller samma/likadan.",
+      "Bis gleich! = Vi ses snart!"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2130,26 +3207,95 @@
 
 **Audit ID:** `LRB099-0013`
 **Finding Stable ID:** `g2/a1/sv|groß|idx:250|lv, study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `groß|idx:250`
 **Field / path:** `lv, study.examples`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** liels
-**DE reference (read-only):** groß
 **CURRENT (captured scope):** {"lv":"Suur","study.examples":"[{\"de\":\"Das Haus ist groß.\",\"lv\":\"Maja on suur.\"},{\"de\":\"Berlin ist eine große Stadt.\",\"lv\":\"Maja on suur.\"},{\"de\":\"Er ist groß.\",\"lv\":\"Ta on pikka kasvu.\"},{\"de\":\"Das Zimmer ist groß.\",\"lv\":\"Tuba on suur.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts groß\|idx:250 (groß), ceļš 'lv, study.examples': viena rinda aptver apakšlaukus lv, study.examples, kuru saturs sākas ar '{"lv":"Suur","study.examples":"[{\"de\":\"Das Haus ist groß.\",\"lv\":\"Maja on suur.\"},{\"de\":\"Berli…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"stor • lång","study.translation":"stor • lång","study.explanation":"[\"Huvudidé: groß betyder stor om saker och platser men lång om en persons kroppslängd.\",\"Det beskriver storlek, inte att en person är bred eller tjock.\"]","study.examples":"[{\"de\":\"Das Haus ist groß.\",\"lv\":\"Huset är stort.\"},{\"de\":\"Berlin ist eine große Stadt.\",\"lv\":\"Berlin är en stor stad.\"},{\"de\":\"Er ist groß.\",\"lv\":\"Han är lång.\"},{\"de\":\"Das Zimmer ist groß.\",\"lv\":\"Rummet är stort.\"}]","study.tip":"[\"Sak eller plats → stor.\",\"Personens kroppslängd → lång.\"]","study.important":"[\"Er ist groß = Han är lång.\",\"För saker och platser betyder groß oftast stor.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: groß: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "groß",
+  "lv": "stor • lång",
+  "level": "A1",
+  "study": {
+    "id": "a1-gross-study",
+    "layout": "standardStudy",
+    "translation": "stor • lång",
+    "explanation": [
+      "Huvudidé: groß betyder stor om saker och platser men lång om en persons kroppslängd.",
+      "Det beskriver storlek, inte att en person är bred eller tjock."
+    ],
+    "examples": [
+      {
+        "de": "Das Haus ist groß.",
+        "lv": "Huset är stort."
+      },
+      {
+        "de": "Berlin ist eine große Stadt.",
+        "lv": "Berlin är en stor stad."
+      },
+      {
+        "de": "Er ist groß.",
+        "lv": "Han är lång."
+      },
+      {
+        "de": "Das Zimmer ist groß.",
+        "lv": "Rummet är stort."
+      }
+    ],
+    "tip": [
+      "Sak eller plats → stor.",
+      "Personens kroppslängd → lång."
+    ],
+    "important": [
+      "Er ist groß = Han är lång.",
+      "För saker och platser betyder groß oftast stor."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2278,26 +3424,112 @@
 
 **Audit ID:** `LRB099-0014`
 **Finding Stable ID:** `g2/a1/sv|Großeltern|idx:251|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `Großeltern|idx:251`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** vecvecāki
-**DE reference (read-only):** Großeltern
 **CURRENT (captured scope):** {"lv":"farföräldrar","study.translation":"farföräldrar","study.explanation":"[\"Huvudidén: Großeltern betyder farföräldrar tillsammans.\",\"Detta ord används i plural.\",\"I singular används Großmutter eller Großvater.\"]","study.examples":"[{\"de\":\"Meine Großeltern wohnen auf dem Land.\",\"lv\":\"mani vecvecāki dzīvo laukos.\"},{\"de\":\"Ich besuche meine Großeltern.\",\"lv\":\"es apciemoju savus vecvecākus.\"}]","study.comparison":"[{\"word\":\"Großeltern\",\"meaning\":\"farföräldrar\",\"example\":\"meine Großeltern – mina farföräldrar\"},{\"word\":\"Großmutter\",\"meaning\":\"Vanaema\",\"example\":\"meine Großmutter – min farmor\"},{\"word\":\"Großvater\",\"meaning\":\"Vanaisa\",\"example\":\"mein Großvater – min farfar\"}]","study.tip":"[\"Großeltern är plural.\",\"För en person använder du Großmutter eller Großvater.\"]","study.important":"[\"die Großeltern = farföräldrar.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Großeltern\|idx:251 (Großeltern), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"farföräldrar","study.translation":"farföräldrar","study.explanation":"[\"Huvudidén: Großeltern be…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"mor- och farföräldrar","study.translation":"mor- och farföräldrar","study.explanation":"[\"Huvudidé: Großeltern betyder mor- och farföräldrar som grupp och används i plural.\",\"För en person används Großmutter eller Großvater.\"]","study.examples":"[{\"de\":\"Meine Großeltern wohnen auf dem Land.\",\"lv\":\"Mina mor- och farföräldrar bor på landet.\"},{\"de\":\"Ich besuche meine Großeltern.\",\"lv\":\"Jag besöker mina mor- och farföräldrar.\"}]","study.comparison":"[{\"word\":\"Großeltern\",\"meaning\":\"mor- och farföräldrar\",\"example\":\"meine Großeltern – mina mor- och farföräldrar\"},{\"word\":\"Großmutter\",\"meaning\":\"mormor/farmor\",\"example\":\"meine Großmutter – min mormor/farmor\"},{\"word\":\"Großvater\",\"meaning\":\"morfar/farfar\",\"example\":\"mein Großvater – min morfar/farfar\"}]","study.tip":"[\"Großeltern är plural.\",\"För en person använder du Großmutter eller Großvater.\"]","study.important":"[\"die Großeltern = mor- och farföräldrar.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{}]}}
+**Note:** OWNER approved override: Großeltern: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Großeltern",
+  "de_article": "die",
+  "lv": "mor- och farföräldrar",
+  "level": "A1",
+  "study": {
+    "id": "a1-grosseltern-study",
+    "layout": "standardStudy",
+    "translation": "mor- och farföräldrar",
+    "explanation": [
+      "Huvudidé: Großeltern betyder mor- och farföräldrar som grupp och används i plural.",
+      "För en person används Großmutter eller Großvater."
+    ],
+    "examples": [
+      {
+        "de": "Meine Großeltern wohnen auf dem Land.",
+        "lv": "Mina mor- och farföräldrar bor på landet."
+      },
+      {
+        "de": "Ich besuche meine Großeltern.",
+        "lv": "Jag besöker mina mor- och farföräldrar."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Großeltern",
+        "meaning": "mor- och farföräldrar",
+        "example": "meine Großeltern – mina mor- och farföräldrar"
+      },
+      {
+        "word": "Großmutter",
+        "meaning": "mormor/farmor",
+        "example": "meine Großmutter – min mormor/farmor"
+      },
+      {
+        "word": "Großvater",
+        "meaning": "morfar/farfar",
+        "example": "mein Großvater – min morfar/farfar"
+      }
+    ],
+    "tip": [
+      "Großeltern är plural.",
+      "För en person använder du Großmutter eller Großvater."
+    ],
+    "important": [
+      "die Großeltern = mor- och farföräldrar."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2358,26 +3590,115 @@
 
 **Audit ID:** `LRB099-0015`
 **Finding Stable ID:** `g2/a1/sv|gut|idx:259|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0005`
 **Lang:** sv
 **Card:** `gut|idx:259`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** labs
-**DE reference (read-only):** gut
 **CURRENT (captured scope):** {"lv":"Hea","study.translation":"Hea","study.explanation":"[\"Põhiidee: gut on omadus-/määrsõna — hea, hästi, korras.\",\"Gut kirjeldab kvaliteeti, tervist või seda, kuidas midagi läheb (Es geht mir gut. = Mul läheb hästi.).\",\"Viisakusfraasis guten Tag/Abend/Morgen muudab gut lõppu käände järgi.\",\"Kui gut kirjeldab tegusõna, on see määrsõna (gut schwimmen = hästi ujuma).\",\"Ära aja segi sõnaga das Gut — see on suure algustähega ja artikliga nimisõna (vara, mõis).\"]","study.examples":"[{\"de\":\"Das Essen ist gut.\",\"lv\":\"Toit on hea.\"},{\"de\":\"Wie geht es dir? – Gut, danke!\",\"lv\":\"Kuidas sul läheb? – hästi, aitäh!\"},{\"de\":\"Er spricht gut Deutsch.\",\"lv\":\"Ta räägib hästi saksa keelt.\"},{\"de\":\"Guten Morgen!\",\"lv\":\"Tere hommikust!\"},{\"de\":\"Das ist eine gute Idee.\",\"lv\":\"See on hea idee.\"},{\"de\":\"Alles ist gut.\",\"lv\":\"Kõik on korras.\"}]","study.tip":"[\"gut utan artikel är adjektiv/adverb — bra/väl.\",\"das Gut med stor bokstav och artikel är ett helt annat ord — substantiv (egendom, gård).\"]","study.important":"[\"gut = bra/väl (adjektiv/adverb).\",\"das Gut = egendom/gård (substantiv) — förväxla inte med gut.\",\"Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts gut\|idx:259 (gut), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Hea","study.translation":"Hea","study.explanation":"[\"Põhiidee: gut on omadus-/määrsõna — hea, h…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"bra • god","study.translation":"bra • god","study.explanation":"[\"Huvudidé: gut betyder bra eller god som adjektiv och bra/väl som adverb.\",\"Det beskriver kvalitet, hälsa eller hur något utförs.\",\"I hälsningarna Guten Morgen, Guten Tag och Guten Abend får ordet ändelsen -en.\"]","study.examples":"[{\"de\":\"Das Essen ist gut.\",\"lv\":\"Maten är god.\"},{\"de\":\"Wie geht es dir? – Gut, danke!\",\"lv\":\"Hur mår du? – Bra, tack!\"},{\"de\":\"Er spricht gut Deutsch.\",\"lv\":\"Han talar bra tyska.\"},{\"de\":\"Guten Morgen!\",\"lv\":\"God morgon!\"},{\"de\":\"Das ist eine gute Idee.\",\"lv\":\"Det är en bra idé.\"},{\"de\":\"Alles ist gut.\",\"lv\":\"Allt är bra.\"}]","study.tip":"[\"gut = bra/god eller bra/väl beroende på substantiv och satsfunktion.\",\"das Gut med stor bokstav är ett annat ord.\"]","study.important":"[\"gut är adjektiv eller adverb.\",\"das Gut är ett substantiv och kan betyda egendom eller gods.\",\"Guten Morgen/Tag/Abend har ändelsen -en.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}
+**Note:** OWNER approved override: gut: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gut",
+  "lv": "bra • god",
+  "level": "A1",
+  "study": {
+    "id": "a1-gut-study",
+    "layout": "standardStudy",
+    "translation": "bra • god",
+    "explanation": [
+      "Huvudidé: gut betyder bra eller god som adjektiv och bra/väl som adverb.",
+      "Det beskriver kvalitet, hälsa eller hur något utförs.",
+      "I hälsningarna Guten Morgen, Guten Tag och Guten Abend får ordet ändelsen -en."
+    ],
+    "examples": [
+      {
+        "de": "Das Essen ist gut.",
+        "lv": "Maten är god."
+      },
+      {
+        "de": "Wie geht es dir? – Gut, danke!",
+        "lv": "Hur mår du? – Bra, tack!"
+      },
+      {
+        "de": "Er spricht gut Deutsch.",
+        "lv": "Han talar bra tyska."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "God morgon!"
+      },
+      {
+        "de": "Das ist eine gute Idee.",
+        "lv": "Det är en bra idé."
+      },
+      {
+        "de": "Alles ist gut.",
+        "lv": "Allt är bra."
+      }
+    ],
+    "tip": [
+      "gut = bra/god eller bra/väl beroende på substantiv och satsfunktion.",
+      "das Gut med stor bokstav är ett annat ord."
+    ],
+    "important": [
+      "gut är adjektiv eller adverb.",
+      "das Gut är ett substantiv och kan betyda egendom eller gods.",
+      "Guten Morgen/Tag/Abend har ändelsen -en."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2559,26 +3880,135 @@
 
 **Audit ID:** `LRB099-0016`
 **Finding Stable ID:** `g2/a1/sv|haben|idx:261|lv; study.explanation; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0001`
 **Lang:** sv
 **Card:** `haben|idx:261`
 **Field / path:** `lv; study.explanation; study.comparison; study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** man ir
-**DE reference (read-only):** haben
 **CURRENT (captured scope):** {"lv":"Mul on","study.explanation":"[\"Põhiidee: haben tähendab, et kellelegi kuulub midagi või et miski on kättesaadav.\",\"Eesti väljendile „mul on / sul on” vastab saksa keeles Nominativ + haben: Ich habe ..., Du hast ..., Er hat ... — mitte *mir habe.\",\"Sõna haben järel tuleb Akkusativ: Ich habe ein Auto. = Mul on auto.\",\"Haben kasutatakse ka abitegusõnana Perfektis: Ich habe gelernt.\"]","study.comparison":"[{\"word\":\"haben\",\"meaning\":\"Mul on\",\"example\":\"Ich habe Zeit. = Jag har tid.\"},{\"word\":\"sein\",\"meaning\":\"Olema\",\"example\":\"Ich bin hier. = Jag är här.\"},{\"word\":\"bekommen\",\"meaning\":\"Saama\",\"example\":\"Ich bekomme ein Geschenk. = Jag får en gåva.\"},{\"word\":\"machen\",\"meaning\":\"Tegema / valmistama\",\"example\":\"Ich mache das. = Jag gör det.\"}]","study.important":"[\"På svenska \\\"jag har\\\" = på tyska Ich habe + ackusativ. Använd inte dativ: fel *mir habe.\",\"Med sein och dativ: Mir ist kalt. = Jag är kall. (det är inte haben!)\",\"I perfekt: Ich habe gelernt = jag har lärt mig.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts haben\|idx:261 (haben), ceļš 'lv; study.explanation; study.comparison; study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.comparison, study.important, kuru saturs sākas ar '{"lv":"Mul on","study.explanation":"[\"Põhiidee: haben tähendab, et kellelegi kuulub midagi või et miski…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ha","study.translation":"ha","study.explanation":"[\"Huvudidé: haben betyder ha; tyskans subjekt + haben motsvarar svenskans jag har, du har och han har.\",\"Som huvudverb tar det normalt ett objekt i ackusativ och det används även som hjälpverb i perfekt.\"]","study.examples":"[{\"de\":\"Ich habe ein Auto.\",\"lv\":\"Jag har en bil.\"},{\"de\":\"Hast du Zeit?\",\"lv\":\"Har du tid?\"},{\"de\":\"Wir haben Hunger.\",\"lv\":\"Vi är hungriga.\"},{\"de\":\"Ich habe das gemacht.\",\"lv\":\"Jag har gjort det.\"}]","study.comparison":"[{\"word\":\"haben\",\"meaning\":\"ha\",\"example\":\"Ich habe Zeit. – Jag har tid.\"},{\"word\":\"sein\",\"meaning\":\"vara\",\"example\":\"Ich bin hier. – Jag är här.\"},{\"word\":\"bekommen\",\"meaning\":\"få / ta emot\",\"example\":\"Ich bekomme ein Geschenk. – Jag får en present.\"},{\"word\":\"machen\",\"meaning\":\"göra\",\"example\":\"Ich mache das. – Jag gör det.\"}]","study.tip":"{\"text\":\"Ich habe = jag har.\"}","study.important":"[\"Som huvudverb tar haben ackusativ: Ich habe ein Auto.\",\"I perfekt: Ich habe gelernt = Jag har lärt mig.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: haben: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "haben",
+  "lv": "ha",
+  "level": "A1",
+  "study": {
+    "id": "a1-haben",
+    "layout": "standardStudy",
+    "translation": "ha",
+    "explanation": [
+      "Huvudidé: haben betyder ha; tyskans subjekt + haben motsvarar svenskans jag har, du har och han har.",
+      "Som huvudverb tar det normalt ett objekt i ackusativ och det används även som hjälpverb i perfekt."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe ein Auto.",
+        "lv": "Jag har en bil."
+      },
+      {
+        "de": "Hast du Zeit?",
+        "lv": "Har du tid?"
+      },
+      {
+        "de": "Wir haben Hunger.",
+        "lv": "Vi är hungriga."
+      },
+      {
+        "de": "Ich habe das gemacht.",
+        "lv": "Jag har gjort det."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "haben",
+        "meaning": "ha",
+        "example": "Ich habe Zeit. – Jag har tid."
+      },
+      {
+        "word": "sein",
+        "meaning": "vara",
+        "example": "Ich bin hier. – Jag är här."
+      },
+      {
+        "word": "bekommen",
+        "meaning": "få / ta emot",
+        "example": "Ich bekomme ein Geschenk. – Jag får en present."
+      },
+      {
+        "word": "machen",
+        "meaning": "göra",
+        "example": "Ich mache das. – Jag gör det."
+      }
+    ],
+    "tip": {
+      "text": "Ich habe = jag har."
+    },
+    "important": [
+      "Som huvudverb tar haben ackusativ: Ich habe ein Auto.",
+      "I perfekt: Ich habe gelernt = Jag har lärt mig."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2824,26 +4254,139 @@
 
 **Audit ID:** `LRB099-0017`
 **Finding Stable ID:** `g2/a1/sv|halten|idx:265|lv; study.explanation; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `halten|idx:265`
 **Field / path:** `lv; study.explanation; study.comparison; study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** turēt
-**DE reference (read-only):** halten
 **CURRENT (captured scope):** {"lv":"Hoidma • Peatama","study.explanation":"[\"Põhiidee: halten tähendab hoidma, aga sõiduki või liikumise puhul võib tähendada peatama või peatuma.\",\"Kui ese on käes, tähendab halten tavaliselt hoidma.\",\"Bussi, rongi või auto puhul tähendab halten sageli peatuma.\",\"Arvamust väljendavas fraasis ich halte das für... tähendab see millekski pidama.\"]","study.comparison":"[{\"word\":\"halten\",\"meaning\":\"Hoidma / peatuma\",\"example\":\"Der Bus hält. = Bussen stannar.\"},{\"word\":\"nehmen\",\"meaning\":\"Võtma\",\"example\":\"Ich nehme die Tasche. = Jag tar väskan.\"},{\"word\":\"anhalten\",\"meaning\":\"Peatama\",\"example\":\"Bitte halten Sie an. = Var vänlig och stanna.\"},{\"word\":\"denken\",\"meaning\":\"Mõtlema\",\"example\":\"Ich denke, das ist richtig. = Jag tror att det är rätt.\"}]","study.important":"[\"halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.\",\"Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”.\",\"Bitte halten Sie an använder den separabla verben anhalten.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts halten\|idx:265 (halten), ceļš 'lv; study.explanation; study.comparison; study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.comparison, study.important, kuru saturs sākas ar '{"lv":"Hoidma • Peatama","study.explanation":"[\"Põhiidee: halten tähendab hoidma, aga sõiduki või liiku…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"hålla • stanna","study.translation":"hålla • stanna","study.explanation":"[\"Huvudidé: halten betyder oftast hålla; om bussar och tåg betyder det stanna vid en hållplats.\",\"Det separabla anhalten betyder stanna eller stoppa.\",\"etwas für ... halten betyder anse något vara något.\"]","study.examples":"[{\"de\":\"Ich halte die Tasche.\",\"lv\":\"Jag håller väskan.\"},{\"de\":\"Der Bus hält hier.\",\"lv\":\"Bussen stannar här.\"},{\"de\":\"Bitte halten Sie an.\",\"lv\":\"Var vänlig och stanna.\"},{\"de\":\"Ich halte das für richtig.\",\"lv\":\"Jag anser att det är rätt.\"}]","study.comparison":"[{\"word\":\"halten\",\"meaning\":\"hålla / stanna vid hållplats\",\"example\":\"Der Bus hält. – Bussen stannar.\"},{\"word\":\"nehmen\",\"meaning\":\"ta\",\"example\":\"Ich nehme die Tasche. – Jag tar väskan.\"},{\"word\":\"anhalten\",\"meaning\":\"stanna / stoppa\",\"example\":\"Bitte halten Sie an. – Var vänlig och stanna.\"},{\"word\":\"denken\",\"meaning\":\"tänka / tycka\",\"example\":\"Ich denke, das ist richtig. – Jag tror att det är rätt.\"}]","study.tip":"{\"text\":\"Hålla ett föremål → halten; stanna → anhalten; ett fordon stannar vid en hållplats → hält.\"}","study.important":"[\"halten betyder oftast hålla.\",\"Der Bus hält = Bussen stannar här.\",\"Bitte halten Sie an använder det separabla verbet anhalten.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{},{}]}}
+**Note:** OWNER approved override: halten: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "halten",
+  "lv": "hålla • stanna",
+  "level": "A1",
+  "study": {
+    "id": "a1-halten",
+    "layout": "standardStudy",
+    "translation": "hålla • stanna",
+    "explanation": [
+      "Huvudidé: halten betyder oftast hålla; om bussar och tåg betyder det stanna vid en hållplats.",
+      "Det separabla anhalten betyder stanna eller stoppa.",
+      "etwas für ... halten betyder anse något vara något."
+    ],
+    "examples": [
+      {
+        "de": "Ich halte die Tasche.",
+        "lv": "Jag håller väskan."
+      },
+      {
+        "de": "Der Bus hält hier.",
+        "lv": "Bussen stannar här."
+      },
+      {
+        "de": "Bitte halten Sie an.",
+        "lv": "Var vänlig och stanna."
+      },
+      {
+        "de": "Ich halte das für richtig.",
+        "lv": "Jag anser att det är rätt."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "halten",
+        "meaning": "hålla / stanna vid hållplats",
+        "example": "Der Bus hält. – Bussen stannar."
+      },
+      {
+        "word": "nehmen",
+        "meaning": "ta",
+        "example": "Ich nehme die Tasche. – Jag tar väskan."
+      },
+      {
+        "word": "anhalten",
+        "meaning": "stanna / stoppa",
+        "example": "Bitte halten Sie an. – Var vänlig och stanna."
+      },
+      {
+        "word": "denken",
+        "meaning": "tänka / tycka",
+        "example": "Ich denke, das ist richtig. – Jag tror att det är rätt."
+      }
+    ],
+    "tip": {
+      "text": "Hålla ett föremål → halten; stanna → anhalten; ett fordon stannar vid en hållplats → hält."
+    },
+    "important": [
+      "halten betyder oftast hålla.",
+      "Der Bus hält = Bussen stannar här.",
+      "Bitte halten Sie an använder det separabla verbet anhalten."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3096,26 +4639,111 @@
 
 **Audit ID:** `LRB099-0018`
 **Finding Stable ID:** `g2/a1/sv|Hand|idx:267|lv; study.explanation; study.comparison|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `Hand|idx:267`
 **Field / path:** `lv; study.explanation; study.comparison`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** plauksta
-**DE reference (read-only):** Hand
 **CURRENT (captured scope):** {"lv":"hand","study.explanation":"[\"Huvudidén: die Hand betyder hand.\",\"På tyska är Arm och Hand två separate ord.\",\"I svensk vardagsspråk kan ordet arm ofta hänvisa till både Arm och Hand.\"]","study.comparison":"[{\"word\":\"die Hand\",\"meaning\":\"hand\",\"example\":\"in der Hand – i handen\"},{\"word\":\"der Arm\",\"meaning\":\"Käsi\",\"example\":\"Mein Arm tut weh. – Min arm gör ont.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Hand\|idx:267 (Hand), ceļš 'lv; study.explanation; study.comparison': viena rinda aptver apakšlaukus lv, study.explanation, study.comparison, kuru saturs sākas ar '{"lv":"hand","study.explanation":"[\"Huvudidén: die Hand betyder hand.\",\"På tyska är Arm och Hand två …'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"hand","study.translation":"hand","study.explanation":"[\"Huvudidé: die Hand betyder hand, medan der Arm betyder arm.\",\"Tyskan skiljer alltså tydligt mellan Hand och Arm.\"]","study.examples":"[{\"de\":\"Ich wasche meine Hände.\",\"lv\":\"Jag tvättar händerna.\"},{\"de\":\"Sie hält das Glas in der Hand.\",\"lv\":\"Hon håller glaset i handen.\"},{\"de\":\"Mein Arm tut weh.\",\"lv\":\"Jag har ont i armen.\"}]","study.comparison":"[{\"word\":\"die Hand\",\"meaning\":\"hand\",\"example\":\"in der Hand – i handen\"},{\"word\":\"der Arm\",\"meaning\":\"arm\",\"example\":\"Mein Arm tut weh. – Jag har ont i armen.\"}]","study.tip":"[\"Hand = hand.\",\"Arm = arm från axeln till handen.\"]","study.important":"[\"På tyska är Hand och Arm två olika ord.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{}]}}
+**Note:** OWNER approved override: Hand: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Hand",
+  "de_article": "die",
+  "de_plural": "die Hände",
+  "lv": "hand",
+  "level": "A1",
+  "study": {
+    "id": "a1-hand-study",
+    "layout": "standardStudy",
+    "translation": "hand",
+    "explanation": [
+      "Huvudidé: die Hand betyder hand, medan der Arm betyder arm.",
+      "Tyskan skiljer alltså tydligt mellan Hand och Arm."
+    ],
+    "examples": [
+      {
+        "de": "Ich wasche meine Hände.",
+        "lv": "Jag tvättar händerna."
+      },
+      {
+        "de": "Sie hält das Glas in der Hand.",
+        "lv": "Hon håller glaset i handen."
+      },
+      {
+        "de": "Mein Arm tut weh.",
+        "lv": "Jag har ont i armen."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "die Hand",
+        "meaning": "hand",
+        "example": "in der Hand – i handen"
+      },
+      {
+        "word": "der Arm",
+        "meaning": "arm",
+        "example": "Mein Arm tut weh. – Jag har ont i armen."
+      }
+    ],
+    "tip": [
+      "Hand = hand.",
+      "Arm = arm från axeln till handen."
+    ],
+    "important": [
+      "På tyska är Hand och Arm två olika ord."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3176,26 +4804,147 @@
 
 **Audit ID:** `LRB099-0019`
 **Finding Stable ID:** `g2/a1/sv|heißen|idx:276|lv; study.explanation; study.comparison; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `heißen|idx:276`
 **Field / path:** `lv; study.explanation; study.comparison; study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** saukties
-**DE reference (read-only):** heißen
 **CURRENT (captured scope):** {"lv":"Nimi olema • Tähendama","study.explanation":"[\"Põhiidee: heißen kasutatakse kõige sagedamini selleks, et öelda, mis kellegi nimi on.\",\"Fraas Ich heiße... tähendab “minu nimi on...”.\",\"Sõnade või väljendite puhul võib heißen tähendada ka tähendama.\",\"A1 tasemel on kõige tähtsam fraas Wie heißt du?\"]","study.comparison":"[{\"word\":\"heißen\",\"meaning\":\"Nimi olema / tähendama\",\"example\":\"Ich heiße Anna. = Jag heter Anna.\"},{\"word\":\"nennen\",\"meaning\":\"Kutsuma / nimetama\",\"example\":\"Er nennt mich Tom. = Han kallar mig Tom.\"},{\"word\":\"bedeuten\",\"meaning\":\"Tähendama\",\"example\":\"Was bedeutet das? = Vad betyder det?\"},{\"word\":\"rufen\",\"meaning\":\"Hüüdma / helistama\",\"example\":\"Ich rufe dich. = Jag ringer dig.\"},{\"word\":\"anrufen\",\"meaning\":\"Helistama\",\"example\":\"Ich rufe dich an. = Jag ringer dig upp.\"}]","study.important":"[\"Wie heißt du? betyder \\\"Vad heter du?\\\", inte bokstavligen \\\"hur du kallas?\\\".\",\"Was heißt das? betyder ofta \\\"Vad betyder det?\\\".\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts heißen\|idx:276 (heißen), ceļš 'lv; study.explanation; study.comparison; study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.comparison, study.important, kuru saturs sākas ar '{"lv":"Nimi olema • Tähendama","study.explanation":"[\"Põhiidee: heißen kasutatakse kõige sagedamini sel…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"heta • betyda","study.translation":"heta • betyda","study.explanation":"[\"Huvudidé: heißen används främst för att säga vad någon heter.\",\"Om ord och uttryck kan det också betyda betyda.\",\"Den viktigaste A1-frågan är Wie heißt du?\"]","study.examples":"[{\"de\":\"Ich heiße Anna.\",\"lv\":\"Jag heter Anna.\"},{\"de\":\"Wie heißt du?\",\"lv\":\"Vad heter du?\"},{\"de\":\"Wie heißt das auf Deutsch?\",\"lv\":\"Vad heter det på tyska?\"},{\"de\":\"Was heißt das?\",\"lv\":\"Vad betyder det?\"}]","study.comparison":"[{\"word\":\"heißen\",\"meaning\":\"heta / betyda\",\"example\":\"Ich heiße Anna. – Jag heter Anna.\"},{\"word\":\"nennen\",\"meaning\":\"kalla / benämna\",\"example\":\"Er nennt mich Tom. – Han kallar mig Tom.\"},{\"word\":\"bedeuten\",\"meaning\":\"betyda\",\"example\":\"Was bedeutet das? – Vad betyder det?\"},{\"word\":\"rufen\",\"meaning\":\"ropa på\",\"example\":\"Ich rufe dich. – Jag ropar på dig.\"},{\"word\":\"anrufen\",\"meaning\":\"ringa\",\"example\":\"Ich rufe dich an. – Jag ringer dig.\"}]","study.tip":"{\"text\":\"Ich heiße ... = Jag heter ...\"}","study.important":"[\"Wie heißt du? = Vad heter du?\",\"Was heißt das? betyder ofta Vad betyder det?\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: heißen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "heißen",
+  "lv": "heta • betyda",
+  "level": "A1",
+  "study": {
+    "id": "a1-heißen",
+    "layout": "standardStudy",
+    "translation": "heta • betyda",
+    "explanation": [
+      "Huvudidé: heißen används främst för att säga vad någon heter.",
+      "Om ord och uttryck kan det också betyda betyda.",
+      "Den viktigaste A1-frågan är Wie heißt du?"
+    ],
+    "examples": [
+      {
+        "de": "Ich heiße Anna.",
+        "lv": "Jag heter Anna."
+      },
+      {
+        "de": "Wie heißt du?",
+        "lv": "Vad heter du?"
+      },
+      {
+        "de": "Wie heißt das auf Deutsch?",
+        "lv": "Vad heter det på tyska?"
+      },
+      {
+        "de": "Was heißt das?",
+        "lv": "Vad betyder det?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "heißen",
+        "meaning": "heta / betyda",
+        "example": "Ich heiße Anna. – Jag heter Anna."
+      },
+      {
+        "word": "nennen",
+        "meaning": "kalla / benämna",
+        "example": "Er nennt mich Tom. – Han kallar mig Tom."
+      },
+      {
+        "word": "bedeuten",
+        "meaning": "betyda",
+        "example": "Was bedeutet das? – Vad betyder det?"
+      },
+      {
+        "word": "rufen",
+        "meaning": "ropa på",
+        "example": "Ich rufe dich. – Jag ropar på dig."
+      },
+      {
+        "word": "anrufen",
+        "meaning": "ringa",
+        "example": "Ich rufe dich an. – Jag ringer dig."
+      }
+    ],
+    "tip": {
+      "text": "Ich heiße ... = Jag heter ..."
+    },
+    "important": [
+      "Wie heißt du? = Vad heter du?",
+      "Was heißt das? betyder ofta Vad betyder det?"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3449,26 +5198,105 @@
 
 **Audit ID:** `LRB099-0020`
 **Finding Stable ID:** `g2/a1/sv|hoch|idx:285|lv; study.examples[1].lv; study.important|MISTRANSLATION|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0005`
 **Lang:** sv
 **Card:** `hoch|idx:285`
 **Field / path:** `lv; study.examples[1].lv; study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** MISTRANSLATION
-**LV source (read-only):** augsts
-**DE reference (read-only):** hoch
 **CURRENT (captured scope):** {"lv":"Kõrge","study.examples[1].lv":null,"study.important":"[\"Cenām un līmenim bieži lieto hoch.\",\"hoch = augsts.\",\"Augsts vertikāli, līmenī vai augstumā.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts hoch\|idx:285 (hoch), ceļš 'lv; study.examples[1].lv; study.important': norādītais lauks produkcijas shēmā nav atrodams. Konteksts ir '{"lv":"Kõrge","study.examples[1].lv":null,"study.important":"[\"Cenām un līmenim bieži lieto hoch.\",\"h…'; vajadzīgs OWNER shēmas lēmums par konkrētā lauka izveidi vai finding slēgšanu.
-**Unresolved category:** CONFIRMED_FIELD_ABSENT_NO_PRODUCTION_TARGET
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"hög","study.translation":"hög","study.explanation":"[\"Huvudidé: hoch betyder hög eller högt och beskriver vertikal höjd eller en hög nivå.\",\"Om en persons kroppslängd används normalt groß.\"]","study.examples":"[{\"de\":\"Der Berg ist hoch.\",\"lv\":\"Berget är högt.\"},{\"de\":\"Das Regal ist zwei Meter hoch.\",\"lv\":\"Hyllan är två meter hög.\"},{\"de\":\"Die Miete ist hoch.\",\"lv\":\"Hyran är hög.\"},{\"de\":\"Die Mauer ist hoch.\",\"lv\":\"Muren är hög.\"},{\"de\":\"Die Preise sind hoch.\",\"lv\":\"Priserna är höga.\"}]","study.tip":"[\"Vertikal höjd eller hög nivå → hoch.\",\"Om en persons längd används normalt groß.\"]","study.important":"[\"Der Berg ist hoch = Berget är högt.\",\"Er ist groß = Han är lång.\",\"Använd normalt inte hoch om en persons kroppslängd.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}
+**Note:** OWNER approved override: hoch: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hoch",
+  "lv": "hög",
+  "level": "A1",
+  "study": {
+    "id": "a1-hoch-study",
+    "layout": "standardStudy",
+    "translation": "hög",
+    "explanation": [
+      "Huvudidé: hoch betyder hög eller högt och beskriver vertikal höjd eller en hög nivå.",
+      "Om en persons kroppslängd används normalt groß."
+    ],
+    "examples": [
+      {
+        "de": "Der Berg ist hoch.",
+        "lv": "Berget är högt."
+      },
+      {
+        "de": "Das Regal ist zwei Meter hoch.",
+        "lv": "Hyllan är två meter hög."
+      },
+      {
+        "de": "Die Miete ist hoch.",
+        "lv": "Hyran är hög."
+      },
+      {
+        "de": "Die Mauer ist hoch.",
+        "lv": "Muren är hög."
+      },
+      {
+        "de": "Die Preise sind hoch.",
+        "lv": "Priserna är höga."
+      }
+    ],
+    "tip": [
+      "Vertikal höjd eller hög nivå → hoch.",
+      "Om en persons längd används normalt groß."
+    ],
+    "important": [
+      "Der Berg ist hoch = Berget är högt.",
+      "Er ist groß = Han är lång.",
+      "Använd normalt inte hoch om en persons kroppslängd."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3614,26 +5442,87 @@
 
 **Audit ID:** `LRB099-0021`
 **Finding Stable ID:** `g2/a1/sv|hören|idx:287|lv, study.explanation, study.tip, study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0001`
 **Lang:** sv
 **Card:** `hören|idx:287`
 **Field / path:** `lv, study.explanation, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** dzirdēt • klausīties
-**DE reference (read-only):** hören
 **CURRENT (captured scope):** {"lv":"Kuulma • Kuulama","study.explanation":"[\"Põhiidee: Kuulda heli või kuulata muusikat.\",\"Hören tähendab peamiselt: heli tajuma.\",\"Sageli kirjeldab: helisid.\",\"Hören kasutatakse helide, muusika ja selle kohta, mida kuuldakse.\"]","study.tip":"[\"Höra ljud eller lyssna på musik.\",\"Använd hören när sammanhanget motsvarar denna betydelse.\"]","study.important":"[\"hören = höra/lyssna på ljud.\",\"Höra ljud eller lyssna på musik.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts hören\|idx:287 (hören), ceļš 'lv, study.explanation, study.tip, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.tip, study.important, kuru saturs sākas ar '{"lv":"Kuulma • Kuulama","study.explanation":"[\"Põhiidee: Kuulda heli või kuulata muusikat.\",\"Hören t…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"höra • lyssna","study.translation":"höra • lyssna","study.explanation":"[\"Huvudidé: hören betyder höra en ljudsignal eller lyssna på musik, en berättelse eller någon som talar.\",\"Sammanhanget avgör den naturliga svenska översättningen.\"]","study.examples":"[{\"de\":\"Ich höre Musik.\",\"lv\":\"Jag lyssnar på musik.\"},{\"de\":\"Die Kinder hören eine Geschichte.\",\"lv\":\"Barnen lyssnar på en berättelse.\"},{\"de\":\"Ich höre dich.\",\"lv\":\"Jag hör dig.\"}]","study.tip":"[\"Ljud som uppfattas → höra; medveten uppmärksamhet → lyssna.\",\"hören används i båda dessa sammanhang på tyska.\"]","study.important":"[\"hören kan motsvara både höra och lyssna.\",\"Välj den svenska formen efter sammanhanget.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: hören: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hören",
+  "lv": "höra • lyssna",
+  "level": "A1",
+  "study": {
+    "id": "a1-hoeren-study",
+    "layout": "standardStudy",
+    "translation": "höra • lyssna",
+    "explanation": [
+      "Huvudidé: hören betyder höra en ljudsignal eller lyssna på musik, en berättelse eller någon som talar.",
+      "Sammanhanget avgör den naturliga svenska översättningen."
+    ],
+    "examples": [
+      {
+        "de": "Ich höre Musik.",
+        "lv": "Jag lyssnar på musik."
+      },
+      {
+        "de": "Die Kinder hören eine Geschichte.",
+        "lv": "Barnen lyssnar på en berättelse."
+      },
+      {
+        "de": "Ich höre dich.",
+        "lv": "Jag hör dig."
+      }
+    ],
+    "tip": [
+      "Ljud som uppfattas → höra; medveten uppmärksamhet → lyssna.",
+      "hören används i båda dessa sammanhang på tyska."
+    ],
+    "important": [
+      "hören kan motsvara både höra och lyssna.",
+      "Välj den svenska formen efter sammanhanget."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3759,26 +5648,119 @@
 
 **Audit ID:** `LRB099-0022`
 **Finding Stable ID:** `g2/a1/sv|hübsch|idx:288|lv, study.explanation, study.comparison, study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `hübsch|idx:288`
 **Field / path:** `lv, study.explanation, study.comparison, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** glīts
-**DE reference (read-only):** hübsch
 **CURRENT (captured scope):** {"lv":"vacker","study.explanation":"[\"Huvudidén: hübsch betyder vacker, tilltalande eller sympatisk till utseendet.\",\"hübsch beskriver ofta utseendet på en person, kläder, rum eller föremål.\",\"Det svenska ordet trevlig passar i vissa sammanhang, men är för brett som huvudöversättning.\",\"En persons karaktär eller vänlig attityd beskrivs oftare på tyska med nett.\"]","study.comparison":"[{\"word\":\"hübsch\",\"meaning\":\"vacker • tilltalande till utseendet\",\"example\":\"Das ist ein hübsches Kleid. – Det är en vacker klänning.\"},{\"word\":\"schön\",\"meaning\":\"vacker • behaglig\",\"example\":\"Der Garten ist schön. – Trädgården är vacker.\"},{\"word\":\"nett\",\"meaning\":\"trevlig • vänlig\",\"example\":\"Sie ist sehr nett. – Hon är mycket trevlig.\"}]","study.important":"[\"hübsch är inte en universell motsvarighet till ordet trevlig.\",\"För en persons karaktär eller vänlig attityd är nett vanligtvis lämpligare.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts hübsch\|idx:288 (hübsch), ceļš 'lv, study.explanation, study.comparison, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.comparison, study.important, kuru saturs sākas ar '{"lv":"vacker","study.explanation":"[\"Huvudidén: hübsch betyder vacker, tilltalande eller sympatisk til…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"fin","study.translation":"fin","study.explanation":"[\"Huvudidé: hübsch betyder fin, söt eller attraktiv till utseendet.\",\"Det beskriver ofta en person, ett plagg, ett rum eller ett föremål.\",\"nett beskriver oftare en vänlig person eller ett vänligt beteende.\"]","study.examples":"[{\"de\":\"Sie trägt ein hübsches Kleid.\",\"lv\":\"Hon har på sig en fin klänning.\"},{\"de\":\"Das Zimmer ist hübsch.\",\"lv\":\"Rummet är fint.\"},{\"de\":\"Das ist ein hübsches Bild.\",\"lv\":\"Det är en fin bild.\"}]","study.comparison":"[{\"word\":\"hübsch\",\"meaning\":\"fin / söt / attraktiv till utseendet\",\"example\":\"Das ist ein hübsches Kleid. – Det är en fin klänning.\"},{\"word\":\"schön\",\"meaning\":\"vacker / fin / härlig\",\"example\":\"Der Garten ist schön. – Trädgården är vacker.\"},{\"word\":\"nett\",\"meaning\":\"snäll / trevlig\",\"example\":\"Sie ist sehr nett. – Hon är mycket trevlig.\"}]","study.tip":"{\"text\":\"Utseende → hübsch; vänlig karaktär eller handling → nett.\"}","study.important":"[\"hübsch är inte ett allmänt ord för trevlig.\",\"Om en persons karaktär eller beteende passar nett oftast bättre.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: hübsch: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hübsch",
+  "lv": "fin",
+  "level": "A1",
+  "study": {
+    "id": "a1-huebsch",
+    "layout": "standardStudy",
+    "translation": "fin",
+    "explanation": [
+      "Huvudidé: hübsch betyder fin, söt eller attraktiv till utseendet.",
+      "Det beskriver ofta en person, ett plagg, ett rum eller ett föremål.",
+      "nett beskriver oftare en vänlig person eller ett vänligt beteende."
+    ],
+    "examples": [
+      {
+        "de": "Sie trägt ein hübsches Kleid.",
+        "lv": "Hon har på sig en fin klänning."
+      },
+      {
+        "de": "Das Zimmer ist hübsch.",
+        "lv": "Rummet är fint."
+      },
+      {
+        "de": "Das ist ein hübsches Bild.",
+        "lv": "Det är en fin bild."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "hübsch",
+        "meaning": "fin / söt / attraktiv till utseendet",
+        "example": "Das ist ein hübsches Kleid. – Det är en fin klänning."
+      },
+      {
+        "word": "schön",
+        "meaning": "vacker / fin / härlig",
+        "example": "Der Garten ist schön. – Trädgården är vacker."
+      },
+      {
+        "word": "nett",
+        "meaning": "snäll / trevlig",
+        "example": "Sie ist sehr nett. – Hon är mycket trevlig."
+      }
+    ],
+    "tip": {
+      "text": "Utseende → hübsch; vänlig karaktär eller handling → nett."
+    },
+    "important": [
+      "hübsch är inte ett allmänt ord för trevlig.",
+      "Om en persons karaktär eller beteende passar nett oftast bättre."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3989,26 +5971,115 @@
 
 **Audit ID:** `LRB099-0023`
 **Finding Stable ID:** `g2/a1/sv|ihr|idx:292|lv, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `ihr|idx:292`
 **Field / path:** `lv, study.explanation, study.examples, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** jūs • viņai
-**DE reference (read-only):** ihr
 **CURRENT (captured scope):** {"lv":"Teie • Temale","study.explanation":"[\"Põhiidee: ihr on kaks erinevat ühesuguse kirjapildiga asesõna — mitme inimese poole pöördumine (teie) ja asesõna sie Dativi vorm (talle/tema).\",\"Väikese ihr tõlgitakse mitme inimese poole pöördumisel sõnaga teie (Kommt ihr mit? = Kas te tulete kaasa?).\",\"Ihr omastava asesõnana tähendab tema (ihr Buch = tema raamat).\",\"Ihr Dativi vormina (sõnast sie) tähendab talle (Ich gebe ihr das Buch. = Ma annan talle raamatu.).\",\"Tegusõna vorm (kommt, habt) näitab, et jutt on sõnast teie — mitme inimese poole pöördumisest.\",\"Viisakas pöördumine on alati Sie suure algustähega, mitte ihr.\"]","study.examples":"[{\"de\":\"Kommt ihr heute Abend?\",\"lv\":\"Kas te tulete täna õhtul?\"},{\"de\":\"Ich gebe ihr das Buch.\",\"lv\":\"Ma annan talle raamatu.\"},{\"de\":\"Wo wohnt ihr?\",\"lv\":\"Kus te elate?\"},{\"de\":\"Er schreibt ihr einen Brief.\",\"lv\":\"Ta kirjutab talle kirja.\"},{\"de\":\"Habt ihr Zeit?\",\"lv\":\"Kas teil on aega?\"},{\"de\":\"Das ist ihr Auto.\",\"lv\":\"See on tema auto.\"}]","study.tip":"[\"ihr med verbet pluralform (kommt, habt) = ni; ihr bredvid ett ord som dativ eller ägandeform = henne/hennes.\",\"Prov: Habt ihr...? / Kommt ihr...? = ni; Ich gebe ihr... / ihr Buch = henne/hennes.\"]","study.important":"[\"ihr = ni (tilltal till flera) ELLER henne (dativ) ELLER hennes (ägandeform) — beroende på sammanhang.\",\"Artigt tilltal är alltid Sie med stor bokstav, inte ihr.\",\"Fel: Ihr (artigt) → Korrekt: Sie.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts ihr\|idx:292 (ihr), ceļš 'lv, study.explanation, study.examples, study.tip, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.examples, study.tip, study.important, kuru saturs sākas ar '{"lv":"Teie • Temale","study.explanation":"[\"Põhiidee: ihr on kaks erinevat ühesuguse kirjapildiga ases…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ni • henne/hennes","study.translation":"ni • henne/hennes","study.explanation":"[\"Huvudidé: ihr kan vara informellt ni till flera personer, dativformen henne eller possessivet hennes.\",\"Verbformen visar när ihr är tilltal: kommt ihr, habt ihr.\",\"Artigt tilltal skrivs Sie med stor bokstav.\"]","study.examples":"[{\"de\":\"Kommt ihr heute Abend?\",\"lv\":\"Kommer ni i kväll?\"},{\"de\":\"Ich gebe ihr das Buch.\",\"lv\":\"Jag ger henne boken.\"},{\"de\":\"Wo wohnt ihr?\",\"lv\":\"Var bor ni?\"},{\"de\":\"Er schreibt ihr einen Brief.\",\"lv\":\"Han skriver ett brev till henne.\"},{\"de\":\"Habt ihr Zeit?\",\"lv\":\"Har ni tid?\"},{\"de\":\"Das ist ihr Auto.\",\"lv\":\"Det är hennes bil.\"}]","study.tip":"[\"Verb i ihr-form → informellt ni; framför ett substantiv eller som dativ → hennes/henne.\",\"Kontrollera hela satsen: Kommt ihr? men Ich gebe ihr ...\"]","study.important":"[\"ihr = ni, henne eller hennes beroende på sammanhanget.\",\"Artigt tilltal heter Sie, inte ihr.\",\"Som artigt personligt pronomen används Sie, inte Ihr.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}
+**Note:** OWNER approved override: ihr: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ihr",
+  "lv": "ni • henne/hennes",
+  "level": "A1",
+  "study": {
+    "id": "a1-ihr",
+    "layout": "standardStudy",
+    "translation": "ni • henne/hennes",
+    "explanation": [
+      "Huvudidé: ihr kan vara informellt ni till flera personer, dativformen henne eller possessivet hennes.",
+      "Verbformen visar när ihr är tilltal: kommt ihr, habt ihr.",
+      "Artigt tilltal skrivs Sie med stor bokstav."
+    ],
+    "examples": [
+      {
+        "de": "Kommt ihr heute Abend?",
+        "lv": "Kommer ni i kväll?"
+      },
+      {
+        "de": "Ich gebe ihr das Buch.",
+        "lv": "Jag ger henne boken."
+      },
+      {
+        "de": "Wo wohnt ihr?",
+        "lv": "Var bor ni?"
+      },
+      {
+        "de": "Er schreibt ihr einen Brief.",
+        "lv": "Han skriver ett brev till henne."
+      },
+      {
+        "de": "Habt ihr Zeit?",
+        "lv": "Har ni tid?"
+      },
+      {
+        "de": "Das ist ihr Auto.",
+        "lv": "Det är hennes bil."
+      }
+    ],
+    "tip": [
+      "Verb i ihr-form → informellt ni; framför ett substantiv eller som dativ → hennes/henne.",
+      "Kontrollera hela satsen: Kommt ihr? men Ich gebe ihr ..."
+    ],
+    "important": [
+      "ihr = ni, henne eller hennes beroende på sammanhanget.",
+      "Artigt tilltal heter Sie, inte ihr.",
+      "Som artigt personligt pronomen används Sie, inte Ihr."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -4192,26 +6263,183 @@
 
 **Audit ID:** `LRB099-0024`
 **Finding Stable ID:** `g2/a1/sv|im|idx:293|lv, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `im|idx:293`
 **Field / path:** `lv, study.explanation, study.examples, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** iekšā (-ā) • kur?
-**DE reference (read-only):** im
 **CURRENT (captured scope):** {"lv":"Sees (-s) • Kus?","study.explanation":"[\"Im on eessõna in ja artikli dem lühend.\",\"Täisvorm: in dem (Dativ).\",\"Kasutatakse mees- ja kesksoost nimisõnadega, kui vastatakse küsimusele kus? — asukoht.\",\"Ajaga ja aastaaegadega: im Januar, im Sommer, im Winter.\",\"Praktikas kasutatakse peaaegu alati im, mitte täisvormi in dem.\"]","study.examples":"[{\"de\":\"Ich bin im Park.\",\"lv\":\"Ma olen pargis.\"},{\"de\":\"Wir wohnen im Zentrum.\",\"lv\":\"Me elame kesklinnas.\"},{\"de\":\"Im Sommer ist es warm.\",\"lv\":\"Suvel on soe.\"},{\"de\":\"Er arbeitet im Büro.\",\"lv\":\"Ta töötab kontoris.\"},{\"de\":\"Das Kind spielt im Garten.\",\"lv\":\"Laps mängib aias.\"},{\"de\":\"Im Januar fahre ich nach Wien.\",\"lv\":\"Jaanuaris sõidan ma Viini.\"},{\"de\":\"Sie ist im Kino.\",\"lv\":\"Ta on kinos.\"},{\"de\":\"Wir treffen uns im Restaurant.\",\"lv\":\"Me kohtume restoranis.\"}]","study.tip":"[\"Kom ihåg: in + dem → im (var?, var?).\",\"Vart? → ins; var? → im — förväxla inte dessa två!\"]","study.important":"[\"im = in dem, endast med ett maskulint eller neutrum substantiv i dativ.\",\"Svarar på var?, inte vart? — var något är, inte rörelse.\",\"Med månader och årstider: im März, im Herbst.\",\"För feminin: in der Schule, inte im Schule.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts im\|idx:293 (im), ceļš 'lv, study.explanation, study.examples, study.tip, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.examples, study.tip, study.important, kuru saturs sākas ar '{"lv":"Sees (-s) • Kus?","study.explanation":"[\"Im on eessõna in ja artikli dem lühend.\",\"Täisvorm: i…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"i • var?","study.translation":"i • var?","study.explanation":"[\"Huvudidé: im är sammandragningen av in dem och anger vanligtvis befintlig plats med maskulina eller neutrala substantiv.\",\"Det används också med månader och årstider: im Januar, im Sommer.\"]","study.examples":"[{\"de\":\"Ich bin im Park.\",\"lv\":\"Jag är i parken.\"},{\"de\":\"Wir wohnen im Zentrum.\",\"lv\":\"Vi bor i centrum.\"},{\"de\":\"Im Sommer ist es warm.\",\"lv\":\"På sommaren är det varmt.\"},{\"de\":\"Er arbeitet im Büro.\",\"lv\":\"Han arbetar på kontoret.\"},{\"de\":\"Das Kind spielt im Garten.\",\"lv\":\"Barnet leker i trädgården.\"},{\"de\":\"Im Januar fahre ich nach Wien.\",\"lv\":\"I januari åker jag till Wien.\"},{\"de\":\"Sie ist im Kino.\",\"lv\":\"Hon är på bio.\"},{\"de\":\"Wir treffen uns im Restaurant.\",\"lv\":\"Vi träffas på restaurangen.\"}]","study.comparison":"[{\"word\":\"im\",\"meaning\":\"i/på; befintlig plats (in dem)\",\"example\":\"im Park – i parken\"},{\"word\":\"ins\",\"meaning\":\"in i/till; riktning (in das)\",\"example\":\"ins Kino – på bio\"},{\"word\":\"in\",\"meaning\":\"i/in i med separat artikel\",\"example\":\"in Berlin – i Berlin\"},{\"word\":\"am\",\"meaning\":\"vid/på (an dem)\",\"example\":\"am Fenster – vid fönstret\"},{\"word\":\"auf\",\"meaning\":\"på en yta\",\"example\":\"auf dem Tisch – på bordet\"}]","study.tip":"[\"in + dem → im.\",\"Befintlig plats → im; riktning inåt → ins.\"]","study.important":"[\"im används med maskulina eller neutrala substantiv i dativ.\",\"Det svarar på var?, inte vart?\",\"Med femininum: in der Schule, inte *im Schule.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{},{}]}}
+**Note:** OWNER approved override: im: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "im",
+  "lv": "i • var?",
+  "level": "A1",
+  "study": {
+    "id": "a1-im",
+    "layout": "standardStudy",
+    "translation": "i • var?",
+    "explanation": [
+      "Huvudidé: im är sammandragningen av in dem och anger vanligtvis befintlig plats med maskulina eller neutrala substantiv.",
+      "Det används också med månader och årstider: im Januar, im Sommer."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin im Park.",
+        "lv": "Jag är i parken."
+      },
+      {
+        "de": "Wir wohnen im Zentrum.",
+        "lv": "Vi bor i centrum."
+      },
+      {
+        "de": "Im Sommer ist es warm.",
+        "lv": "På sommaren är det varmt."
+      },
+      {
+        "de": "Er arbeitet im Büro.",
+        "lv": "Han arbetar på kontoret."
+      },
+      {
+        "de": "Das Kind spielt im Garten.",
+        "lv": "Barnet leker i trädgården."
+      },
+      {
+        "de": "Im Januar fahre ich nach Wien.",
+        "lv": "I januari åker jag till Wien."
+      },
+      {
+        "de": "Sie ist im Kino.",
+        "lv": "Hon är på bio."
+      },
+      {
+        "de": "Wir treffen uns im Restaurant.",
+        "lv": "Vi träffas på restaurangen."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "im",
+        "meaning": "i/på; befintlig plats (in dem)",
+        "example": "im Park – i parken"
+      },
+      {
+        "word": "ins",
+        "meaning": "in i/till; riktning (in das)",
+        "example": "ins Kino – på bio"
+      },
+      {
+        "word": "in",
+        "meaning": "i/in i med separat artikel",
+        "example": "in Berlin – i Berlin"
+      },
+      {
+        "word": "am",
+        "meaning": "vid/på (an dem)",
+        "example": "am Fenster – vid fönstret"
+      },
+      {
+        "word": "auf",
+        "meaning": "på en yta",
+        "example": "auf dem Tisch – på bordet"
+      }
+    ],
+    "tip": [
+      "in + dem → im.",
+      "Befintlig plats → im; riktning inåt → ins."
+    ],
+    "important": [
+      "im används med maskulina eller neutrala substantiv i dativ.",
+      "Det svarar på var?, inte vart?",
+      "Med femininum: in der Schule, inte *im Schule."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -4565,26 +6793,91 @@
 
 **Audit ID:** `LRB099-0025`
 **Finding Stable ID:** `g2/a1/sv|in|idx:295|lv, study.explanation, study.examples, study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0005`
 **Lang:** sv
 **Card:** `in|idx:295`
 **Field / path:** `lv, study.explanation, study.examples, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** iekšā • uz
-**DE reference (read-only):** in
 **CURRENT (captured scope):** {"lv":"Sees • Sisse","study.explanation":"[\"Põhiidee: in tähendab tavaliselt sees või mingisse kohta, kui jutt on ruumist, riigist, linnast või hoonest.\",\"Asukoha puhul tõlgitakse in sageli sõnaga sees või lõpuga -s: in Berlin = Berliinis.\",\"Liikumise puhul tähendab in sissepoole: ins Kino = kinno.\",\"Eesti keeles muutub tõlge olenevalt kontekstist.\"]","study.examples":"[{\"de\":\"Ich bin in Berlin.\",\"lv\":\"Ma olen Berliinis.\"},{\"de\":\"Ich gehe in die Schule.\",\"lv\":\"Ma lähen kooli.\"},{\"de\":\"Das Buch ist in der Tasche.\",\"lv\":\"Raamat on kotis.\"},{\"de\":\"Wir gehen ins Kino.\",\"lv\":\"Me läheme kinno.\"}]","study.important":"[\"in är inte alltid bokstavligt \\\"inuti\\\"; på svenska säger man ofta i Berlin, i skolan, på bio.\",\"Om det handlar om en yta använder man ofta auf, inte in.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts in\|idx:295 (in), ceļš 'lv, study.explanation, study.examples, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.examples, study.important, kuru saturs sākas ar '{"lv":"Sees • Sisse","study.explanation":"[\"Põhiidee: in tähendab tavaliselt sees või mingisse kohta, k…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"i • till","study.translation":"i • till","study.explanation":"[\"Huvudidé: in anger befintlig plats eller riktning in i en plats.\",\"På svenska blir översättningen ofta i, på eller till beroende på sammanhanget.\"]","study.examples":"[{\"de\":\"Ich bin in Berlin.\",\"lv\":\"Jag är i Berlin.\"},{\"de\":\"Ich gehe in die Schule.\",\"lv\":\"Jag går till skolan.\"},{\"de\":\"Das Buch ist in der Tasche.\",\"lv\":\"Boken ligger i väskan.\"},{\"de\":\"Wir gehen ins Kino.\",\"lv\":\"Vi går på bio.\"}]","study.tip":"{\"text\":\"Plats eller riktning in i ett rum eller område → in.\"}","study.important":"[\"in översätts inte alltid ordagrant; välj svenskans naturliga preposition.\",\"För en yta används ofta auf i stället för in.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: in: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "in",
+  "lv": "i • till",
+  "level": "A1",
+  "study": {
+    "id": "a1-in",
+    "layout": "standardStudy",
+    "translation": "i • till",
+    "explanation": [
+      "Huvudidé: in anger befintlig plats eller riktning in i en plats.",
+      "På svenska blir översättningen ofta i, på eller till beroende på sammanhanget."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin in Berlin.",
+        "lv": "Jag är i Berlin."
+      },
+      {
+        "de": "Ich gehe in die Schule.",
+        "lv": "Jag går till skolan."
+      },
+      {
+        "de": "Das Buch ist in der Tasche.",
+        "lv": "Boken ligger i väskan."
+      },
+      {
+        "de": "Wir gehen ins Kino.",
+        "lv": "Vi går på bio."
+      }
+    ],
+    "tip": {
+      "text": "Plats eller riktning in i ett rum eller område → in."
+    },
+    "important": [
+      "in översätts inte alltid ordagrant; välj svenskans naturliga preposition.",
+      "För en yta används ofta auf i stället för in."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -4759,26 +7052,185 @@
 
 **Audit ID:** `LRB099-0026`
 **Finding Stable ID:** `g2/a1/sv|ins|idx:296|lv, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0001`
 **Lang:** sv
 **Card:** `ins|idx:296`
 **Field / path:** `lv, study.explanation, study.examples, study.comparison, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** iekšā • uz iekšu • kurp?
-**DE reference (read-only):** ins
 **CURRENT (captured scope):** {"lv":"Sisse • Sissepoole • Kuhu?","study.explanation":"[\"Ins on eessõna in ja artikli das lühend.\",\"Täisvorm: in das (Akkusativ).\",\"Kasutatakse kesksoost nimisõnadega, kui vastatakse küsimusele kuhu? — liikumine sissepoole.\",\"Sageli koos tegusõnadega: gehen, fahren, kommen, legen, stecken.\",\"Praktikas kasutatakse peaaegu alati ins, mitte täisvormi in das.\"]","study.examples":"[{\"de\":\"Ich gehe ins Kino.\",\"lv\":\"Ma lähen kinno.\"},{\"de\":\"Sie geht ins Bett.\",\"lv\":\"Ta läheb magama.\"},{\"de\":\"Wir fahren ins Ausland.\",\"lv\":\"Me sõidame välismaale.\"},{\"de\":\"Komm ins Haus!\",\"lv\":\"Tule majja!\"},{\"de\":\"Er steckt das Geld in den Geldbeutel.\",\"lv\":\"Ta paneb raha rahakotti.\"},{\"de\":\"Wir gehen ins Museum.\",\"lv\":\"Me läheme muuseumi.\"},{\"de\":\"Sie legt die Blumen ins Wasser.\",\"lv\":\"Ta paneb lilled vette.\"},{\"de\":\"Fahr bitte ins Zentrum.\",\"lv\":\"Palun, sõida kesklinna.\"}]","study.comparison":"[{\"word\":\"ins\",\"meaning\":\"Sisse, kuhu? (Akk.)\",\"example\":\"ins Kino – Kinno\"},{\"word\":\"im\",\"meaning\":\"Sees, kus? (Dativ)\",\"example\":\"im Kino – Kino\"},{\"word\":\"in\",\"meaning\":\"Sees / sisse (eraldi artikliga)\",\"example\":\"in die Stadt – Linna\"},{\"word\":\"aufs\",\"meaning\":\"Pinnale (Akk.)\",\"example\":\"aufs Dach – Katusele\"},{\"word\":\"zum\",\"meaning\":\"-sse / juurde (Dativ)\",\"example\":\"zum Arzt – Arsti juures\"}]","study.tip":"[\"Kom ihåg: in + das → ins (vart?, vart?).\",\"Vart? → ins; var? → im — det här är huvudskillnaden!\"]","study.important":"[\"ins = in das, endast med ett neutrum substantiv i vilken-fallet.\",\"Svarar på vart?, inte var? — rörelse, inte plats.\",\"För maskulin: in den Wald; för feminin: in die Schule.\",\"Förväxla inte: ins Kino gehen (till bio) vs. im Kino sein (att vara på bio).\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts ins\|idx:296 (ins), ceļš 'lv, study.explanation, study.examples, study.comparison, study.tip, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.examples, study.comparison, study.tip, kuru saturs sākas ar '{"lv":"Sisse • Sissepoole • Kuhu?","study.explanation":"[\"Ins on eessõna in ja artikli das lühend.\",\"…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"in i • vart?","study.translation":"in i • vart?","study.explanation":"[\"Huvudidé: ins är sammandragningen av in das och anger rörelse in i något med ett neutralt substantiv.\",\"Det svarar på frågan vart?; im anger i stället befintlig plats.\"]","study.examples":"[{\"de\":\"Ich gehe ins Kino.\",\"lv\":\"Jag går på bio.\"},{\"de\":\"Sie geht ins Bett.\",\"lv\":\"Hon går och lägger sig.\"},{\"de\":\"Wir fahren ins Ausland.\",\"lv\":\"Vi åker utomlands.\"},{\"de\":\"Komm ins Haus!\",\"lv\":\"Kom in i huset!\"},{\"de\":\"Er steckt das Geld in den Geldbeutel.\",\"lv\":\"Han stoppar pengarna i plånboken.\"},{\"de\":\"Wir gehen ins Museum.\",\"lv\":\"Vi går till museet.\"},{\"de\":\"Sie legt die Blumen ins Wasser.\",\"lv\":\"Hon lägger blommorna i vatten.\"},{\"de\":\"Fahr bitte ins Zentrum.\",\"lv\":\"Åk till centrum, är du snäll.\"}]","study.comparison":"[{\"word\":\"ins\",\"meaning\":\"in i/till; riktning (in das)\",\"example\":\"ins Kino – på bio (riktning)\"},{\"word\":\"im\",\"meaning\":\"i/på; befintlig plats (in dem)\",\"example\":\"im Kino – på bio (befintlig plats)\"},{\"word\":\"in\",\"meaning\":\"in i/till med separat artikel\",\"example\":\"in die Stadt – in till staden\"},{\"word\":\"aufs\",\"meaning\":\"upp på en yta\",\"example\":\"aufs Dach – upp på taket\"},{\"word\":\"zum\",\"meaning\":\"till/hos en person eller institution\",\"example\":\"zum Arzt – till läkaren\"}]","study.tip":"[\"in + das → ins.\",\"Riktning → ins; befintlig plats → im.\"]","study.important":"[\"ins används med neutrala substantiv i ackusativ.\",\"Det anger rörelse, inte befintlig plats.\",\"Maskulinum: in den Wald; femininum: in die Schule.\",\"ins Kino gehen men im Kino sein.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}
+**Note:** OWNER approved override: ins: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ins",
+  "lv": "in i • vart?",
+  "level": "A1",
+  "study": {
+    "id": "a1-ins",
+    "layout": "standardStudy",
+    "translation": "in i • vart?",
+    "explanation": [
+      "Huvudidé: ins är sammandragningen av in das och anger rörelse in i något med ett neutralt substantiv.",
+      "Det svarar på frågan vart?; im anger i stället befintlig plats."
+    ],
+    "examples": [
+      {
+        "de": "Ich gehe ins Kino.",
+        "lv": "Jag går på bio."
+      },
+      {
+        "de": "Sie geht ins Bett.",
+        "lv": "Hon går och lägger sig."
+      },
+      {
+        "de": "Wir fahren ins Ausland.",
+        "lv": "Vi åker utomlands."
+      },
+      {
+        "de": "Komm ins Haus!",
+        "lv": "Kom in i huset!"
+      },
+      {
+        "de": "Er steckt das Geld in den Geldbeutel.",
+        "lv": "Han stoppar pengarna i plånboken."
+      },
+      {
+        "de": "Wir gehen ins Museum.",
+        "lv": "Vi går till museet."
+      },
+      {
+        "de": "Sie legt die Blumen ins Wasser.",
+        "lv": "Hon lägger blommorna i vatten."
+      },
+      {
+        "de": "Fahr bitte ins Zentrum.",
+        "lv": "Åk till centrum, är du snäll."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "ins",
+        "meaning": "in i/till; riktning (in das)",
+        "example": "ins Kino – på bio (riktning)"
+      },
+      {
+        "word": "im",
+        "meaning": "i/på; befintlig plats (in dem)",
+        "example": "im Kino – på bio (befintlig plats)"
+      },
+      {
+        "word": "in",
+        "meaning": "in i/till med separat artikel",
+        "example": "in die Stadt – in till staden"
+      },
+      {
+        "word": "aufs",
+        "meaning": "upp på en yta",
+        "example": "aufs Dach – upp på taket"
+      },
+      {
+        "word": "zum",
+        "meaning": "till/hos en person eller institution",
+        "example": "zum Arzt – till läkaren"
+      }
+    ],
+    "tip": [
+      "in + das → ins.",
+      "Riktning → ins; befintlig plats → im."
+    ],
+    "important": [
+      "ins används med neutrala substantiv i ackusativ.",
+      "Det anger rörelse, inte befintlig plats.",
+      "Maskulinum: in den Wald; femininum: in die Schule.",
+      "ins Kino gehen men im Kino sein."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5140,26 +7592,121 @@
 
 **Audit ID:** `LRB099-0027`
 **Finding Stable ID:** `g2/a1/sv|jung|idx:304|lv, study.explanation, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `jung|idx:304`
 **Field / path:** `lv, study.explanation, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** jauns (par cilvēkiem)
-**DE reference (read-only):** jung
 **CURRENT (captured scope):** {"lv":"Noor (inimeste kohta)","study.explanation":"[\"Põhiidee: jung tähendab noor vanuse mõttes — kasutatakse inimeste ja loomade, mitte asjade kohta.\",\"Jung kirjeldab vanust — vastand on alt (vana).\",\"Eesti keeles on need kaks tähendust eri sõnadega: noor vanuse kohta (jung) ja uus/hiljuti valminud asja kohta (neu).\",\"Asjade kohta, mis on hiljuti loodud või ostetud, kasutatakse neu, mitte jung.\",\"Jung kasutatakse ka ülekantud tähenduses: noor põlvkond, noor paar, noored inimesed.\",\"On olemas ka nimisõna die Jugend (noorsugu, noorus).\"]","study.tip":"[\"jung är för ålder (människor, djur) — om något nyligen skapades använder man neu.\",\"Motsats: jung ↔ alt (ung ↔ gammal).\"]","study.important":"[\"jung beskriver ålder, inte nyhet på föremål.\",\"För nya saker (telefon, bil, hus) använder man neu, inte jung.\",\"Fel: Mein Handy ist jung. → Korrekt: Mein Handy ist neu.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts jung\|idx:304 (jung), ceļš 'lv, study.explanation, study.tip, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.tip, study.important, kuru saturs sākas ar '{"lv":"Noor (inimeste kohta)","study.explanation":"[\"Põhiidee: jung tähendab noor vanuse mõttes — kasut…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ung","study.translation":"ung","study.explanation":"[\"Huvudidé: jung betyder ung i fråga om ålder och används om människor och djur.\",\"För nya eller nyligen tillverkade saker används neu.\",\"Motsatsen är alt.\"]","study.examples":"[{\"de\":\"Sie ist noch jung.\",\"lv\":\"Hon är fortfarande ung.\"},{\"de\":\"Der Hund ist jung.\",\"lv\":\"Hunden är ung.\"},{\"de\":\"Wir sind noch jung.\",\"lv\":\"Vi är fortfarande unga.\"},{\"de\":\"Er sieht sehr jung aus.\",\"lv\":\"Han ser mycket ung ut.\"},{\"de\":\"Das ist ein junges Paar.\",\"lv\":\"Det är ett ungt par.\"},{\"de\":\"Die junge Frau lächelt.\",\"lv\":\"Den unga kvinnan ler.\"},{\"de\":\"Mein Bruder ist jünger als ich.\",\"lv\":\"Min bror är yngre än jag.\"}]","study.tip":"[\"Ålder hos människor eller djur → jung.\",\"Nya saker → neu.\"]","study.important":"[\"jung beskriver ålder, inte att ett föremål är nytt.\",\"Säg Mein Handy ist neu, inte *jung.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: jung: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "jung",
+  "lv": "ung",
+  "level": "A1",
+  "study": {
+    "id": "a1-jung",
+    "layout": "standardStudy",
+    "translation": "ung",
+    "explanation": [
+      "Huvudidé: jung betyder ung i fråga om ålder och används om människor och djur.",
+      "För nya eller nyligen tillverkade saker används neu.",
+      "Motsatsen är alt."
+    ],
+    "examples": [
+      {
+        "de": "Sie ist noch jung.",
+        "lv": "Hon är fortfarande ung."
+      },
+      {
+        "de": "Der Hund ist jung.",
+        "lv": "Hunden är ung."
+      },
+      {
+        "de": "Wir sind noch jung.",
+        "lv": "Vi är fortfarande unga."
+      },
+      {
+        "de": "Er sieht sehr jung aus.",
+        "lv": "Han ser mycket ung ut."
+      },
+      {
+        "de": "Das ist ein junges Paar.",
+        "lv": "Det är ett ungt par."
+      },
+      {
+        "de": "Die junge Frau lächelt.",
+        "lv": "Den unga kvinnan ler."
+      },
+      {
+        "de": "Mein Bruder ist jünger als ich.",
+        "lv": "Min bror är yngre än jag."
+      }
+    ],
+    "tip": [
+      "Ålder hos människor eller djur → jung.",
+      "Nya saker → neu."
+    ],
+    "important": [
+      "jung beskriver ålder, inte att ett föremål är nytt.",
+      "Säg Mein Handy ist neu, inte *jung."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5367,26 +7914,113 @@
 
 **Audit ID:** `LRB099-0028`
 **Finding Stable ID:** `g2/a1/sv|kein|idx:308|lv, study.explanation, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `kein|idx:308`
 **Field / path:** `lv, study.explanation, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** neviens • nekāds
-**DE reference (read-only):** kein
 **CURRENT (captured scope):** {"lv":"Mitte ükski • Mitte mingi","study.explanation":"[\"Põhiidee: kein on eitav artikkel, mis eitab nimisõna — eesti keeles olenevalt kontekstist mitte ükski või mitte mingi.\",\"Kein käändub samamoodi nagu ein (kein/keine/keinen...) ja seisab nimisõna ees.\",\"Loendatavate nimisõnadega (inimestega) tõlgitakse kein sageli kui mitte ükski (kein Mensch = mitte ükski inimene).\",\"Loendamatute või abstraktsete nimisõnadega tõlgitakse kein sageli kui mitte mingi/ei ole üldse (kein Geld = mitte mingit raha/ei ole raha).\",\"Kein eitab tervet nimisõna, mitte ainult tegusõna (võrdle sõnaga nicht).\"]","study.tip":"[\"kein förnekar ett substantiv (kein + substantiv), nicht förnekar ett verb eller en hel mening.\",\"kein böjs som ein: kein/keine/keinen/keiner.\"]","study.important":"[\"kein + substantiv = \\\"ingen/inte någon X\\\", inte \\\"inte en X\\\".\",\"Fel: Ich habe nicht ein Geld. → Korrekt: Ich habe kein Geld.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts kein\|idx:308 (kein), ceļš 'lv, study.explanation, study.tip, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.tip, study.important, kuru saturs sākas ar '{"lv":"Mitte ükski • Mitte mingi","study.explanation":"[\"Põhiidee: kein on eitav artikkel, mis eitab ni…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ingen • inget","study.translation":"ingen • inget","study.explanation":"[\"Huvudidé: kein är en negationsartikel som negerar ett substantiv och böjs som ein.\",\"På svenska motsvarar den ofta ingen, inget, inga eller konstruktionen har inte.\",\"nicht negerar däremot oftare verb, egenskaper eller hela satser.\"]","study.examples":"[{\"de\":\"Ich habe kein Geld.\",\"lv\":\"Jag har inga pengar.\"},{\"de\":\"Es gibt keine Milch mehr.\",\"lv\":\"Det finns ingen mjölk kvar.\"},{\"de\":\"Kein Mensch war da.\",\"lv\":\"Ingen människa var där.\"},{\"de\":\"Ich habe keine Zeit.\",\"lv\":\"Jag har inte tid.\"},{\"de\":\"Das ist kein Problem.\",\"lv\":\"Det är inget problem.\"},{\"de\":\"Wir haben keine Kinder.\",\"lv\":\"Vi har inga barn.\"}]","study.tip":"[\"kein negerar ett substantiv; nicht negerar ofta ett verb, en egenskap eller en sats.\",\"Böjningen följer ein: kein, keine, keinen ...\"]","study.important":"[\"kein + substantiv uttrycker frånvaro av saken eller personen.\",\"Säg Ich habe kein Geld, inte *nicht ein Geld.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: kein: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "kein",
+  "lv": "ingen • inget",
+  "level": "A1",
+  "study": {
+    "id": "a1-kein",
+    "layout": "standardStudy",
+    "translation": "ingen • inget",
+    "explanation": [
+      "Huvudidé: kein är en negationsartikel som negerar ett substantiv och böjs som ein.",
+      "På svenska motsvarar den ofta ingen, inget, inga eller konstruktionen har inte.",
+      "nicht negerar däremot oftare verb, egenskaper eller hela satser."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe kein Geld.",
+        "lv": "Jag har inga pengar."
+      },
+      {
+        "de": "Es gibt keine Milch mehr.",
+        "lv": "Det finns ingen mjölk kvar."
+      },
+      {
+        "de": "Kein Mensch war da.",
+        "lv": "Ingen människa var där."
+      },
+      {
+        "de": "Ich habe keine Zeit.",
+        "lv": "Jag har inte tid."
+      },
+      {
+        "de": "Das ist kein Problem.",
+        "lv": "Det är inget problem."
+      },
+      {
+        "de": "Wir haben keine Kinder.",
+        "lv": "Vi har inga barn."
+      }
+    ],
+    "tip": [
+      "kein negerar ett substantiv; nicht negerar ofta ett verb, en egenskap eller en sats.",
+      "Böjningen följer ein: kein, keine, keinen ..."
+    ],
+    "important": [
+      "kein + substantiv uttrycker frånvaro av saken eller personen.",
+      "Säg Ich habe kein Geld, inte *nicht ein Geld."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5563,26 +8197,128 @@
 
 **Audit ID:** `LRB099-0029`
 **Finding Stable ID:** `g2/a1/sv|kennen|idx:310|lv, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `kennen|idx:310`
 **Field / path:** `lv, study.explanation, study.examples, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** pazīt
-**DE reference (read-only):** kennen
 **CURRENT (captured scope):** {"lv":"Tundma","study.explanation":"[\"Põhiidee: Tunda inimest, kohta või asja kogemuse põhjal.\",\"Kennen tähendab peamiselt: isiklik tundmine.\",\"Sageli kirjeldab: inimesi, kohti.\",\"Kennen kasutatakse siis, kui tunned inimest, kohta või asja isiklikust kogemusest.\"]","study.examples":"[{\"de\":\"Ich kenne ihn.\",\"lv\":\"Ma tunnen teda.\"},{\"de\":\"Kennen Sie diese Frau?\",\"lv\":\"Kas te tunnete seda naist?\"},{\"de\":\"Wo habt ihr euch kennengelernt?\",\"lv\":\"Kus te tutvusite?\"},{\"de\":\"Ich kenne ihn.\",\"lv\":\"Ma tunnen teda.\"},{\"de\":\"kennen\",\"lv\":\"Kas sa tunned seda linna?\"}]","study.tip":"[\"kennen = känna\",\"Använd kennen när sammanhanget motsvarar denna betydelse.\"]","study.important":"[\"kennen = känna en person/plats.\",\"kennen = känna.\",\"Känna en person, plats eller sak från erfarenhet.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts kennen\|idx:310 (kennen), ceļš 'lv, study.explanation, study.examples, study.tip, study.important': viena rinda aptver apakšlaukus lv, study.explanation, study.examples, study.tip, study.important, kuru saturs sākas ar '{"lv":"Tundma","study.explanation":"[\"Põhiidee: Tunda inimest, kohta või asja kogemuse põhjal.\",\"Kenn…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"känna • känna till","study.translation":"känna • känna till","study.explanation":"[\"Huvudidé: kennen betyder känna en person eller känna till en plats eller sak genom erfarenhet.\",\"wissen betyder veta ett faktum eller ha information.\"]","study.examples":"[{\"de\":\"Ich kenne ihn.\",\"lv\":\"Jag känner honom.\"},{\"de\":\"Kennen Sie diese Frau?\",\"lv\":\"Känner ni den här kvinnan?\"},{\"de\":\"Wo habt ihr euch kennengelernt?\",\"lv\":\"Var lärde ni känna varandra?\"},{\"de\":\"Ich kenne ihn.\",\"lv\":\"Jag känner honom.\"},{\"de\":\"kennen\",\"lv\":\"känna eller känna till; wissen = veta\"}]","study.comparison":"[{\"word\":\"kennen\",\"meaning\":\"känna en person / känna till en plats eller sak\",\"example\":\"Ich kenne ihn. – Jag känner honom.\"},{\"word\":\"wissen\",\"meaning\":\"veta ett faktum eller en uppgift\",\"example\":\"Ich weiß seinen Namen. – Jag vet vad han heter.\"}]","study.tip":"[\"kennen = känna eller känna till.\",\"Använd kennen för personer, platser och saker som man är bekant med.\"]","study.important":"[\"kennen gäller bekantskap eller erfarenhet.\",\"wissen gäller fakta och information.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: kennen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "kennen",
+  "lv": "känna • känna till",
+  "level": "A1",
+  "id": "a1-kennen",
+  "study": {
+    "id": "a1-kennen-study",
+    "layout": "standardStudy",
+    "translation": "känna • känna till",
+    "explanation": [
+      "Huvudidé: kennen betyder känna en person eller känna till en plats eller sak genom erfarenhet.",
+      "wissen betyder veta ett faktum eller ha information."
+    ],
+    "examples": [
+      {
+        "de": "Ich kenne ihn.",
+        "lv": "Jag känner honom."
+      },
+      {
+        "de": "Kennen Sie diese Frau?",
+        "lv": "Känner ni den här kvinnan?"
+      },
+      {
+        "de": "Wo habt ihr euch kennengelernt?",
+        "lv": "Var lärde ni känna varandra?"
+      },
+      {
+        "de": "Ich kenne ihn.",
+        "lv": "Jag känner honom."
+      },
+      {
+        "de": "kennen",
+        "lv": "känna eller känna till; wissen = veta"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "kennen",
+        "meaning": "känna en person / känna till en plats eller sak",
+        "example": "Ich kenne ihn. – Jag känner honom."
+      },
+      {
+        "word": "wissen",
+        "meaning": "veta ett faktum eller en uppgift",
+        "example": "Ich weiß seinen Namen. – Jag vet vad han heter."
+      }
+    ],
+    "tip": [
+      "kennen = känna eller känna till.",
+      "Använd kennen för personer, platser och saker som man är bekant med."
+    ],
+    "important": [
+      "kennen gäller bekantskap eller erfarenhet.",
+      "wissen gäller fakta och information."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5743,26 +8479,87 @@
 
 **Audit ID:** `LRB099-0030`
 **Finding Stable ID:** `g2/a1/sv|klein|idx:6|lv; study.examples[1-2].lv|TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `klein|idx:6`
 **Field / path:** `lv; study.examples[1-2].lv`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** TRANSLATION_ERROR
-**LV source (read-only):** mazs
-**DE reference (read-only):** klein
 **CURRENT (captured scope):** {"lv":"Väike","study.examples[1-2].lv":null}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts klein\|idx:6 (klein), ceļš 'lv; study.examples[1-2].lv': norādītais lauks produkcijas shēmā nav atrodams. Konteksts ir '{"lv":"Väike","study.examples[1-2].lv":null}'; vajadzīgs OWNER shēmas lēmums par konkrētā lauka izveidi vai finding slēgšanu.
-**Unresolved category:** CONFIRMED_FIELD_ABSENT_NO_PRODUCTION_TARGET
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"liten","study.translation":"liten","study.explanation":"[\"Huvudidé: klein betyder liten i fråga om storlek, omfattning eller ibland ett barns ålder.\",\"Den exakta betydelsen beror på substantivet och sammanhanget.\"]","study.examples":"[{\"de\":\"Das Zimmer ist klein.\",\"lv\":\"Rummet är litet.\"},{\"de\":\"Das Kind ist noch klein.\",\"lv\":\"Barnet är fortfarande litet.\"},{\"de\":\"Ich habe eine kleine Tasche.\",\"lv\":\"Jag har en liten väska.\"}]","study.tip":"[\"klein = liten.\",\"Använd klein om liten storlek eller omfattning.\"]","study.important":"[\"klein betyder oftast liten.\",\"Om ett barn kan det också syfta på låg ålder.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: klein: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "klein",
+  "lv": "liten",
+  "level": "A1",
+  "study": {
+    "id": "a1-klein-study",
+    "layout": "standardStudy",
+    "translation": "liten",
+    "explanation": [
+      "Huvudidé: klein betyder liten i fråga om storlek, omfattning eller ibland ett barns ålder.",
+      "Den exakta betydelsen beror på substantivet och sammanhanget."
+    ],
+    "examples": [
+      {
+        "de": "Das Zimmer ist klein.",
+        "lv": "Rummet är litet."
+      },
+      {
+        "de": "Das Kind ist noch klein.",
+        "lv": "Barnet är fortfarande litet."
+      },
+      {
+        "de": "Ich habe eine kleine Tasche.",
+        "lv": "Jag har en liten väska."
+      }
+    ],
+    "tip": [
+      "klein = liten.",
+      "Använd klein om liten storlek eller omfattning."
+    ],
+    "important": [
+      "klein betyder oftast liten.",
+      "Om ett barn kan det också syfta på låg ålder."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5883,26 +8680,137 @@
 
 **Audit ID:** `LRB099-0031`
 **Finding Stable ID:** `g2/a1/sv|können|idx:319|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0001`
 **Lang:** sv
 **Card:** `können|idx:319`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** varēt • prast
-**DE reference (read-only):** können
 **CURRENT (captured scope):** {"lv":"Saama • Oskama","study.translation":"Saama • Oskama","study.explanation":"[\"Põhiidee: können tähendab midagi suutma või oskama teha.\",\"Kui jutt on võimest või oskusest, öeldakse eesti keeles sageli oskama.\",\"Kui jutt on võimalusest, öeldakse sageli saama.\",\"Können on modaaltegusõna, seepärast seisab teine tegusõna tavaliselt lause lõpus.\"]","study.examples":"[{\"de\":\"Ich kann Deutsch sprechen.\",\"lv\":\"Ma oskan saksa keelt rääkida.\"},{\"de\":\"Kannst du mir helfen?\",\"lv\":\"Kas sa saad mind aidata?\"},{\"de\":\"Wir können heute kommen.\",\"lv\":\"Me saame täna tulla.\"},{\"de\":\"Er kann gut schwimmen.\",\"lv\":\"Ta oskab hästi ujuda.\"}]","study.comparison":"[{\"word\":\"können\",\"meaning\":\"Saama / oskama\",\"example\":\"Ich kann schwimmen. = Jag kan simma.\"},{\"word\":\"dürfen\",\"meaning\":\"Tohtima\",\"example\":\"Darf ich gehen? = Får jag gå?\"},{\"word\":\"müssen\",\"meaning\":\"Vajama / pidama\",\"example\":\"Ich muss lernen. = Jag måste lära mig.\"},{\"word\":\"wissen\",\"meaning\":\"Teadma\",\"example\":\"Ich weiß das. = Jag vet det.\"}]","study.tip":"{\"text\":\"Atceries: prasme/iespēja → können.\"}","study.important":"[\"können är inte detsamma som dürfen. können = kunna/prova, dürfen = få.\",\"I en mening med können står det andra verbet ofta sist: Ich kann schwimmen.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts können\|idx:319 (können), ceļš 'lv; study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"Saama • Oskama","study.translation":"Saama • Oskama","study.explanation":"[\"Põhiidee: können täh…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"kunna","study.translation":"kunna","study.explanation":"[\"Huvudidé: können betyder kunna i fråga om förmåga eller möjlighet.\",\"Det är ett modalverb, så det andra verbet står normalt sist i den tyska satsen.\",\"dürfen betyder däremot få eller ha tillåtelse.\"]","study.examples":"[{\"de\":\"Ich kann Deutsch sprechen.\",\"lv\":\"Jag kan tala tyska.\"},{\"de\":\"Kannst du mir helfen?\",\"lv\":\"Kan du hjälpa mig?\"},{\"de\":\"Wir können heute kommen.\",\"lv\":\"Vi kan komma i dag.\"},{\"de\":\"Er kann gut schwimmen.\",\"lv\":\"Han kan simma bra.\"}]","study.comparison":"[{\"word\":\"können\",\"meaning\":\"kunna\",\"example\":\"Ich kann schwimmen. – Jag kan simma.\"},{\"word\":\"dürfen\",\"meaning\":\"få / ha tillåtelse\",\"example\":\"Darf ich gehen? – Får jag gå?\"},{\"word\":\"müssen\",\"meaning\":\"måste\",\"example\":\"Ich muss lernen. – Jag måste studera.\"},{\"word\":\"wissen\",\"meaning\":\"veta\",\"example\":\"Ich weiß das. – Jag vet det.\"}]","study.tip":"{\"text\":\"Förmåga eller möjlighet → können; tillåtelse → dürfen.\"}","study.important":"[\"können och dürfen betyder inte samma sak.\",\"Det andra verbet står ofta sist: Ich kann schwimmen.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: können: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "können",
+  "lv": "kunna",
+  "level": "A1",
+  "study": {
+    "id": "a1-können",
+    "layout": "standardStudy",
+    "translation": "kunna",
+    "explanation": [
+      "Huvudidé: können betyder kunna i fråga om förmåga eller möjlighet.",
+      "Det är ett modalverb, så det andra verbet står normalt sist i den tyska satsen.",
+      "dürfen betyder däremot få eller ha tillåtelse."
+    ],
+    "examples": [
+      {
+        "de": "Ich kann Deutsch sprechen.",
+        "lv": "Jag kan tala tyska."
+      },
+      {
+        "de": "Kannst du mir helfen?",
+        "lv": "Kan du hjälpa mig?"
+      },
+      {
+        "de": "Wir können heute kommen.",
+        "lv": "Vi kan komma i dag."
+      },
+      {
+        "de": "Er kann gut schwimmen.",
+        "lv": "Han kan simma bra."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "können",
+        "meaning": "kunna",
+        "example": "Ich kann schwimmen. – Jag kan simma."
+      },
+      {
+        "word": "dürfen",
+        "meaning": "få / ha tillåtelse",
+        "example": "Darf ich gehen? – Får jag gå?"
+      },
+      {
+        "word": "müssen",
+        "meaning": "måste",
+        "example": "Ich muss lernen. – Jag måste studera."
+      },
+      {
+        "word": "wissen",
+        "meaning": "veta",
+        "example": "Ich weiß das. – Jag vet det."
+      }
+    ],
+    "tip": {
+      "text": "Förmåga eller möjlighet → können; tillåtelse → dürfen."
+    },
+    "important": [
+      "können och dürfen betyder inte samma sak.",
+      "Det andra verbet står ofta sist: Ich kann schwimmen."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6153,26 +9061,173 @@
 
 **Audit ID:** `LRB099-0032`
 **Finding Stable ID:** `g2/a1/sv|kosten|idx:320|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `kosten|idx:320`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** maksāt
-**DE reference (read-only):** kosten
 **CURRENT (captured scope):** {"lv":"Maksma","study.translation":"Maksma","study.explanation":"[\"Põhiidee: kosten tähendab maksma nii ja nii palju — jutt on asja hinnast.\",\"Seda sõna kasutatakse, kui küsitakse või öeldakse, kui palju miski maksab, mitte siis, kui inimene teeb makse.\",\"Hinnaküsimus algab saksa keeles sageli sõnadega Was kostet...?\",\"Eesti sõna maksma on selles kontekstis õige: Das kostet 5 Euro. = See maksab 5 eurot.\",\"Kui inimene annab kauba või teenuse eest raha, kasutatakse saksa keeles bezahlen või zahlen.\"]","study.examples":"[{\"de\":\"Das kostet 5 Euro.\",\"lv\":\"See maksab 5 eurot.\"},{\"de\":\"Was kostet das?\",\"lv\":\"Kui palju see maksab?\"},{\"de\":\"Wie viel kostet der Pullover?\",\"lv\":\"Kui palju kampsun maksab?\"},{\"de\":\"Das Essen kostet nicht viel.\",\"lv\":\"Toit ei maksa palju.\"},{\"de\":\"Ich bezahle die Rechnung.\",\"lv\":\"Ma maksan arve.\"},{\"de\":\"Kann ich bar bezahlen?\",\"lv\":\"Kas ma saan sularahas maksta?\"},{\"de\":\"Er zahlt mit Karte.\",\"lv\":\"Ta maksab kaardiga.\"},{\"de\":\"Ich zahle gleich.\",\"lv\":\"Ma maksan kohe.\"}]","study.comparison":"[{\"word\":\"kosten\",\"meaning\":\"Maksma (hinda) • Kui palju maksab\",\"example\":\"Das kostet 5 Euro. = Det kostar 5 euro.\"},{\"word\":\"bezahlen\",\"meaning\":\"Maksma • Ära maksma (raha)\",\"example\":\"Ich bezahle die Rechnung. = Jag betalar räkningen.\"},{\"word\":\"zahlen\",\"meaning\":\"Maksma • Ära maksma\",\"example\":\"Kann ich bar zahlen? = Kan jag betala kontant?\"},{\"word\":\"Was kostet...?\",\"meaning\":\"Kui palju maksab...?\",\"example\":\"Was kostet das Buch? = Hur mycket kostar boken?\"}]","study.tip":"[\"Kom ihåg: fråga om pris → kosten (Was kostet das?).\",\"Kom ihåg: att göra betalningen → bezahlen / zahlen (Ich bezahle die Rechnung.).\"]","study.important":"[\"kosten och bezahlen är inte synonymer: kosten = hur mycket kostar det; bezahlen = betala pengar.\",\"På svenska använder man ofta betala i båda fallen, men på tyska måste du välja enligt situationen.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts kosten\|idx:320 (kosten), ceļš 'lv; study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"Maksma","study.translation":"Maksma","study.explanation":"[\"Põhiidee: kosten tähendab maksma nii…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"kosta","study.translation":"kosta","study.explanation":"[\"Huvudidé: kosten anger vad en vara eller tjänst kostar.\",\"När en person faktiskt betalar används bezahlen eller zahlen.\",\"Prisfrågor börjar ofta med Was kostet ...?\"]","study.examples":"[{\"de\":\"Das kostet 5 Euro.\",\"lv\":\"Det kostar fem euro.\"},{\"de\":\"Was kostet das?\",\"lv\":\"Vad kostar det?\"},{\"de\":\"Wie viel kostet der Pullover?\",\"lv\":\"Hur mycket kostar tröjan?\"},{\"de\":\"Das Essen kostet nicht viel.\",\"lv\":\"Maten kostar inte mycket.\"},{\"de\":\"Ich bezahle die Rechnung.\",\"lv\":\"Jag betalar räkningen.\"},{\"de\":\"Kann ich bar bezahlen?\",\"lv\":\"Kan jag betala kontant?\"},{\"de\":\"Er zahlt mit Karte.\",\"lv\":\"Han betalar med kort.\"},{\"de\":\"Ich zahle gleich.\",\"lv\":\"Jag betalar strax.\"}]","study.comparison":"[{\"word\":\"kosten\",\"meaning\":\"kosta / ha ett pris\",\"example\":\"Das kostet 5 Euro. – Det kostar fem euro.\"},{\"word\":\"bezahlen\",\"meaning\":\"betala något\",\"example\":\"Ich bezahle die Rechnung. – Jag betalar räkningen.\"},{\"word\":\"zahlen\",\"meaning\":\"betala\",\"example\":\"Kann ich bar zahlen? – Kan jag betala kontant?\"},{\"word\":\"Was kostet...?\",\"meaning\":\"Vad kostar ...?\",\"example\":\"Was kostet das Buch? – Vad kostar boken?\"}]","study.tip":"[\"Pris → kosten.\",\"Utföra betalningen → bezahlen eller zahlen.\"]","study.important":"[\"kosten och bezahlen är inte synonyma.\",\"kosten anger pris; bezahlen eller zahlen anger betalning.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: kosten: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "kosten",
+  "lv": "kosta",
+  "level": "A1",
+  "study": {
+    "id": "a1-kosten",
+    "layout": "standardStudy",
+    "translation": "kosta",
+    "explanation": [
+      "Huvudidé: kosten anger vad en vara eller tjänst kostar.",
+      "När en person faktiskt betalar används bezahlen eller zahlen.",
+      "Prisfrågor börjar ofta med Was kostet ...?"
+    ],
+    "examples": [
+      {
+        "de": "Das kostet 5 Euro.",
+        "lv": "Det kostar fem euro."
+      },
+      {
+        "de": "Was kostet das?",
+        "lv": "Vad kostar det?"
+      },
+      {
+        "de": "Wie viel kostet der Pullover?",
+        "lv": "Hur mycket kostar tröjan?"
+      },
+      {
+        "de": "Das Essen kostet nicht viel.",
+        "lv": "Maten kostar inte mycket."
+      },
+      {
+        "de": "Ich bezahle die Rechnung.",
+        "lv": "Jag betalar räkningen."
+      },
+      {
+        "de": "Kann ich bar bezahlen?",
+        "lv": "Kan jag betala kontant?"
+      },
+      {
+        "de": "Er zahlt mit Karte.",
+        "lv": "Han betalar med kort."
+      },
+      {
+        "de": "Ich zahle gleich.",
+        "lv": "Jag betalar strax."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "kosten",
+        "meaning": "kosta / ha ett pris",
+        "example": "Das kostet 5 Euro. – Det kostar fem euro."
+      },
+      {
+        "word": "bezahlen",
+        "meaning": "betala något",
+        "example": "Ich bezahle die Rechnung. – Jag betalar räkningen."
+      },
+      {
+        "word": "zahlen",
+        "meaning": "betala",
+        "example": "Kann ich bar zahlen? – Kan jag betala kontant?"
+      },
+      {
+        "word": "Was kostet...?",
+        "meaning": "Vad kostar ...?",
+        "example": "Was kostet das Buch? – Vad kostar boken?"
+      }
+    ],
+    "tip": [
+      "Pris → kosten.",
+      "Utföra betalningen → bezahlen eller zahlen."
+    ],
+    "important": [
+      "kosten och bezahlen är inte synonyma.",
+      "kosten anger pris; bezahlen eller zahlen anger betalning."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6507,26 +9562,101 @@
 
 **Audit ID:** `LRB099-0033`
 **Finding Stable ID:** `g2/a1/sv|Laden|idx:349|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `Laden|idx:349`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** veikals
-**DE reference (read-only):** Laden
 **CURRENT (captured scope):** {"lv":"Pood","study.translation":"Pood","study.explanation":"[\"Põhiidee: der Laden suure algustähega ja artikliga der on nimisõna — väike pood.\",\"Laden väikese algustähega on tegusõna — peale laadima või laadima.\",\"Der Laden tähistab igapäevaelus sageli väikest poodi (im Laden einkaufen = poes sisseoste tegema).\",\"Mitmuses: die Läden.\"]","study.examples":"[{\"de\":\"Ich gehe in den Laden.\",\"lv\":\"Ma lähen poodi.\"},{\"de\":\"Der Laden ist geschlossen.\",\"lv\":\"Pood on suletud.\"},{\"de\":\"Es gibt viele Läden hier.\",\"lv\":\"Siin on palju poode.\"},{\"de\":\"Ich muss mein Handy laden.\",\"lv\":\"Ma pean telefoni laadima.\"}]","study.tip":"[\"der Laden med stor bokstav — substantiv (butik).\",\"laden med liten bokstav — verb (ladda/fylla).\"]","study.important":"[\"der Laden = butik (substantiv).\",\"laden = ladda/fylla (verb).\",\"Mitmuses: die Läden.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Laden\|idx:349 (Laden), ceļš 'lv; study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Pood","study.translation":"Pood","study.explanation":"[\"Põhiidee: der Laden suure algustähega ja…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"butik","study.translation":"butik","study.explanation":"[\"Huvudidé: der Laden är ett substantiv som betyder butik, ofta en mindre butik.\",\"Verbet laden med liten bokstav betyder lasta eller ladda.\",\"Pluralformen är die Läden.\"]","study.examples":"[{\"de\":\"Ich gehe in den Laden.\",\"lv\":\"Jag går till butiken.\"},{\"de\":\"Der Laden ist geschlossen.\",\"lv\":\"Butiken är stängd.\"},{\"de\":\"Es gibt viele Läden hier.\",\"lv\":\"Det finns många butiker här.\"},{\"de\":\"Ich muss mein Handy laden.\",\"lv\":\"Jag måste ladda min mobil.\"}]","study.tip":"[\"der Laden med stor bokstav = butik.\",\"laden med liten bokstav = lasta eller ladda.\"]","study.important":"[\"der Laden är ett substantiv.\",\"laden är ett verb.\",\"Plural: die Läden.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}
+**Note:** OWNER approved override: Laden: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Laden",
+  "de_article": "der",
+  "de_plural": "die Läden",
+  "lv": "butik",
+  "level": "A1",
+  "study": {
+    "id": "a1-laden-study",
+    "layout": "standardStudy",
+    "translation": "butik",
+    "explanation": [
+      "Huvudidé: der Laden är ett substantiv som betyder butik, ofta en mindre butik.",
+      "Verbet laden med liten bokstav betyder lasta eller ladda.",
+      "Pluralformen är die Läden."
+    ],
+    "examples": [
+      {
+        "de": "Ich gehe in den Laden.",
+        "lv": "Jag går till butiken."
+      },
+      {
+        "de": "Der Laden ist geschlossen.",
+        "lv": "Butiken är stängd."
+      },
+      {
+        "de": "Es gibt viele Läden hier.",
+        "lv": "Det finns många butiker här."
+      },
+      {
+        "de": "Ich muss mein Handy laden.",
+        "lv": "Jag måste ladda min mobil."
+      }
+    ],
+    "tip": [
+      "der Laden med stor bokstav = butik.",
+      "laden med liten bokstav = lasta eller ladda."
+    ],
+    "important": [
+      "der Laden är ett substantiv.",
+      "laden är ett verb.",
+      "Plural: die Läden."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6674,26 +9804,137 @@
 
 **Audit ID:** `LRB099-0034`
 **Finding Stable ID:** `g2/a1/sv|Land|idx:351|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `Land|idx:351`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** valsts • zeme
-**DE reference (read-only):** Land
 **CURRENT (captured scope):** {"lv":"Riik • Maa","study.translation":"Riik • Maa","study.explanation":"[\"Põhiidee: das Land tähendab kõige sagedamini riiki või maad väljaspool linna.\",\"Kui jutt on Saksamaast, Eestist või mõnest muust piiridega territooriumist, tõlgi kui riik.\",\"Kui jutt on maakohast või maast linna vastandina, tõlgitakse see kui maa või maakoht.\",\"Kontekst määrab, kas mõtleme riiki, maakohta või maad.\"]","study.examples":"[{\"de\":\"Deutschland ist ein schönes Land.\",\"lv\":\"Saksamaa on ilus riik.\"},{\"de\":\"Ich komme aus einem kleinen Land.\",\"lv\":\"Ma olen pärit väikesest riigist.\"},{\"de\":\"Wir fahren aufs Land.\",\"lv\":\"Me sõidame maale.\"},{\"de\":\"Auf dem Land ist es ruhig.\",\"lv\":\"Maal on rahulik.\"}]","study.comparison":"[{\"word\":\"das Land\",\"meaning\":\"Riik / maa / maapiirkond\",\"example\":\"Deutschland ist ein Land.\"},{\"word\":\"die Stadt\",\"meaning\":\"Linn\",\"example\":\"Jag bor i staden.\"},{\"word\":\"das Dorf\",\"meaning\":\"Küla\",\"example\":\"Han bor i en by.\"},{\"word\":\"die Erde\",\"meaning\":\"Maa / planeet\",\"example\":\"Jorden är rund.\"}]","study.tip":"{\"text\":\"Atceries: valsts → das Land; pilsēta → die Stadt.\"}","study.important":"[\"aufs Land betyder \\\"ut på landet\\\", inte \\\"till nationen\\\".\",\"das Land är inte detsamma som die Stadt.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Land\|idx:351 (Land), ceļš 'lv; study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"Riik • Maa","study.translation":"Riik • Maa","study.explanation":"[\"Põhiidee: das Land tähendab …'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"land • landsbygd","study.translation":"land • landsbygd","study.explanation":"[\"Huvudidé: das Land betyder land som stat eller landsbygd i motsats till stad.\",\"Sammanhanget avgör om det gäller ett land, mark eller landet.\"]","study.examples":"[{\"de\":\"Deutschland ist ein schönes Land.\",\"lv\":\"Tyskland är ett vackert land.\"},{\"de\":\"Ich komme aus einem kleinen Land.\",\"lv\":\"Jag kommer från ett litet land.\"},{\"de\":\"Wir fahren aufs Land.\",\"lv\":\"Vi åker ut på landet.\"},{\"de\":\"Auf dem Land ist es ruhig.\",\"lv\":\"Det är lugnt på landet.\"}]","study.comparison":"[{\"word\":\"das Land\",\"meaning\":\"land / mark / landsbygd\",\"example\":\"Deutschland ist ein Land. – Tyskland är ett land.\"},{\"word\":\"die Stadt\",\"meaning\":\"stad\",\"example\":\"Ich wohne in der Stadt. – Jag bor i staden.\"},{\"word\":\"das Dorf\",\"meaning\":\"by\",\"example\":\"Er lebt in einem Dorf. – Han bor i en by.\"},{\"word\":\"die Erde\",\"meaning\":\"jorden / mark\",\"example\":\"Die Erde ist rund. – Jorden är rund.\"}]","study.tip":"{\"text\":\"Stat → land; motsats till stad → landsbygd eller landet.\"}","study.important":"[\"aufs Land betyder ut på landet, inte till ett annat land.\",\"das Land är motsatsen till die Stadt i detta uttryck.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: Land: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Land",
+  "de_article": "das",
+  "de_plural": "die Länder",
+  "lv": "land • landsbygd",
+  "level": "A1",
+  "study": {
+    "id": "a1-land",
+    "layout": "standardStudy",
+    "translation": "land • landsbygd",
+    "explanation": [
+      "Huvudidé: das Land betyder land som stat eller landsbygd i motsats till stad.",
+      "Sammanhanget avgör om det gäller ett land, mark eller landet."
+    ],
+    "examples": [
+      {
+        "de": "Deutschland ist ein schönes Land.",
+        "lv": "Tyskland är ett vackert land."
+      },
+      {
+        "de": "Ich komme aus einem kleinen Land.",
+        "lv": "Jag kommer från ett litet land."
+      },
+      {
+        "de": "Wir fahren aufs Land.",
+        "lv": "Vi åker ut på landet."
+      },
+      {
+        "de": "Auf dem Land ist es ruhig.",
+        "lv": "Det är lugnt på landet."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "das Land",
+        "meaning": "land / mark / landsbygd",
+        "example": "Deutschland ist ein Land. – Tyskland är ett land."
+      },
+      {
+        "word": "die Stadt",
+        "meaning": "stad",
+        "example": "Ich wohne in der Stadt. – Jag bor i staden."
+      },
+      {
+        "word": "das Dorf",
+        "meaning": "by",
+        "example": "Er lebt in einem Dorf. – Han bor i en by."
+      },
+      {
+        "word": "die Erde",
+        "meaning": "jorden / mark",
+        "example": "Die Erde ist rund. – Jorden är rund."
+      }
+    ],
+    "tip": {
+      "text": "Stat → land; motsats till stad → landsbygd eller landet."
+    },
+    "important": [
+      "aufs Land betyder ut på landet, inte till ett annat land.",
+      "das Land är motsatsen till die Stadt i detta uttryck."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6952,26 +10193,111 @@
 
 **Audit ID:** `LRB099-0035`
 **Finding Stable ID:** `g2/a1/sv|lang|idx:352|lv; study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0005`
 **Lang:** sv
 **Card:** `lang|idx:352`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** garš • ilgs
-**DE reference (read-only):** lang
 **CURRENT (captured scope):** {"lv":"Pikk • Kauakestev","study.translation":"Pikk • Kauakestev","study.explanation":"[\"Põhiidee: lang tähendab ruumiliselt pikk, aja mõttes pikk või kestev.\",\"Kui jutt on suurusest või kaugusest, lang = pikk (ein langer Tisch = pikk laud).\",\"Kui jutt on ajalisest kestusest, lang = pikk (ein langer Tag = pikk päev).\",\"Fraasis den ganzen Tag lang tähendab see kogu päeva (jooksul).\",\"Eesti keeles öeldakse nii 'pikk laud' kui ka 'pikk päev' ning saksa lang katab samamoodi mõlemad tähendused.\"]","study.examples":"[{\"de\":\"Der Tisch ist sehr lang.\",\"lv\":\"Laud on väga pikk.\"},{\"de\":\"Der Film war sehr lang.\",\"lv\":\"Film oli väga pikk.\"},{\"de\":\"Wie lange dauert es?\",\"lv\":\"Kui kaua see kestab?\"},{\"de\":\"Sie hat lange Haare.\",\"lv\":\"Tal on pikad juuksed.\"},{\"de\":\"Ich warte schon lange.\",\"lv\":\"Ma ootan juba kaua.\"},{\"de\":\"Den ganzen Tag lang.\",\"lv\":\"Kogu päev (otsa).\"}]","study.tip":"[\"För mätning eller avstånd (hår, väg, bord) → lång.\",\"För tid (dag, väntan, film) → långvarig.\"]","study.important":"[\"lang = lång (mätning) ELLER lång (tid) — beroende på sammanhang.\",\"wie lange = hur länge (fråga om tid, inte mätning).\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts lang\|idx:352 (lang), ceļš 'lv; study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Pikk • Kauakestev","study.translation":"Pikk • Kauakestev","study.explanation":"[\"Põhiidee: lang…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"lång • länge","study.translation":"lång • länge","study.explanation":"[\"Huvudidé: lang betyder lång i fråga om utsträckning och länge eller långvarig i fråga om tid.\",\"Svenskan väljer adjektiv eller adverb efter sammanhanget.\"]","study.examples":"[{\"de\":\"Der Tisch ist sehr lang.\",\"lv\":\"Bordet är mycket långt.\"},{\"de\":\"Der Film war sehr lang.\",\"lv\":\"Filmen var mycket lång.\"},{\"de\":\"Wie lange dauert es?\",\"lv\":\"Hur länge varar det?\"},{\"de\":\"Sie hat lange Haare.\",\"lv\":\"Hon har långt hår.\"},{\"de\":\"Ich warte schon lange.\",\"lv\":\"Jag har väntat länge.\"},{\"de\":\"Den ganzen Tag lang.\",\"lv\":\"hela dagen\"}]","study.tip":"[\"Sträcka eller storlek → lång.\",\"Tid eller varaktighet → länge/lång.\"]","study.important":"[\"lang kan gälla både utsträckning och tid.\",\"wie lange = hur länge.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: lang: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "lang",
+  "lv": "lång • länge",
+  "level": "A1",
+  "study": {
+    "id": "a1-lang",
+    "layout": "standardStudy",
+    "translation": "lång • länge",
+    "explanation": [
+      "Huvudidé: lang betyder lång i fråga om utsträckning och länge eller långvarig i fråga om tid.",
+      "Svenskan väljer adjektiv eller adverb efter sammanhanget."
+    ],
+    "examples": [
+      {
+        "de": "Der Tisch ist sehr lang.",
+        "lv": "Bordet är mycket långt."
+      },
+      {
+        "de": "Der Film war sehr lang.",
+        "lv": "Filmen var mycket lång."
+      },
+      {
+        "de": "Wie lange dauert es?",
+        "lv": "Hur länge varar det?"
+      },
+      {
+        "de": "Sie hat lange Haare.",
+        "lv": "Hon har långt hår."
+      },
+      {
+        "de": "Ich warte schon lange.",
+        "lv": "Jag har väntat länge."
+      },
+      {
+        "de": "Den ganzen Tag lang.",
+        "lv": "hela dagen"
+      }
+    ],
+    "tip": [
+      "Sträcka eller storlek → lång.",
+      "Tid eller varaktighet → länge/lång."
+    ],
+    "important": [
+      "lang kan gälla både utsträckning och tid.",
+      "wie lange = hur länge."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7143,26 +10469,137 @@
 
 **Audit ID:** `LRB099-0036`
 **Finding Stable ID:** `g2/a1/sv|lassen|idx:356|study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0001`
 **Lang:** sv
 **Card:** `lassen|idx:356`
 **Field / path:** `study.*`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** atstāt • ļaut
-**DE reference (read-only):** lassen
 **CURRENT (captured scope):** {"study.translation":"Jätma • Laskma","study.explanation":"[\"Põhiidee: lassen tähendab midagi jätma või laskma millelgi juhtuda.\",\"Kui miski jääb paigale, tõlgitakse lassen kui jätma.\",\"Kui kellelegi antakse luba, tõlgitakse lassen kui lubama.\",\"Vestlustes on väga sage vorm Lass mich! = Jäta mind rahule! või Lase mind!\"]","study.examples":"[{\"de\":\"Ich lasse die Tasche hier.\",\"lv\":\"Ma jätan koti siia.\"},{\"de\":\"Lass das bitte auf dem Tisch.\",\"lv\":\"Jäta see palun lauale.\"},{\"de\":\"Meine Eltern lassen mich gehen.\",\"lv\":\"Vanemad lasevad mul minna.\"},{\"de\":\"Lass mich in Ruhe!\",\"lv\":\"Jäta mind rahule!\"}]","study.comparison":"[{\"word\":\"lassen\",\"meaning\":\"Jätma / laskma\",\"example\":\"Jag lämnar det här.\"},{\"word\":\"bleiben\",\"meaning\":\"Jääma\",\"example\":\"Jag stannar här.\"},{\"word\":\"erlauben\",\"meaning\":\"Lubama\",\"example\":\"Hon tillåter mig det.\"},{\"word\":\"geben\",\"meaning\":\"Andma\",\"example\":\"Ge mig boken.\"}]","study.tip":"{\"text\":\"Atceries: kaut kas paliek → lassen; kādam atļauj → lassen.\"}","study.important":"[\"lassen är inte bara \\\"lämna\\\". Det betyder ofta även \\\"låta\\\".\",\"Lass mich in Ruhe! är mycket vanlig: \\\"Låt mig vara!\\\"\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts lassen\|idx:356 (lassen), ceļš 'study.*': viena rinda aptver apakšlaukus study.translation, study.explanation, study.examples, study.comparison, study.tip, kuru saturs sākas ar '{"study.translation":"Jätma • Laskma","study.explanation":"[\"Põhiidee: lassen tähendab midagi jätma või…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"lämna • låta","study.translation":"lämna • låta","study.explanation":"[\"Huvudidé: lassen betyder lämna eller låta beroende på sammanhanget.\",\"När något blir kvar betyder det lämna; när någon får tillåtelse betyder det låta.\",\"Lass mich in Ruhe! är en fast och vanlig fras.\"]","study.examples":"[{\"de\":\"Ich lasse die Tasche hier.\",\"lv\":\"Jag lämnar väskan här.\"},{\"de\":\"Lass das bitte auf dem Tisch.\",\"lv\":\"Lämna det på bordet, är du snäll.\"},{\"de\":\"Meine Eltern lassen mich gehen.\",\"lv\":\"Mina föräldrar låter mig gå.\"},{\"de\":\"Lass mich in Ruhe!\",\"lv\":\"Låt mig vara!\"}]","study.comparison":"[{\"word\":\"lassen\",\"meaning\":\"lämna / låta\",\"example\":\"Ich lasse das hier. – Jag lämnar det här.\"},{\"word\":\"bleiben\",\"meaning\":\"stanna / bli kvar\",\"example\":\"Ich bleibe hier. – Jag stannar här.\"},{\"word\":\"erlauben\",\"meaning\":\"tillåta\",\"example\":\"Sie erlaubt mir das. – Hon tillåter mig det.\"},{\"word\":\"geben\",\"meaning\":\"ge\",\"example\":\"Gib mir das Buch. – Ge mig boken.\"}]","study.tip":"{\"text\":\"Något blir kvar → lassen = lämna; någon får göra något → lassen = låta.\"}","study.important":"[\"lassen betyder både lämna och låta.\",\"Lass mich in Ruhe! = Låt mig vara!\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: lassen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "lassen",
+  "lv": "lämna • låta",
+  "level": "A1",
+  "study": {
+    "id": "a1-lassen",
+    "layout": "standardStudy",
+    "translation": "lämna • låta",
+    "explanation": [
+      "Huvudidé: lassen betyder lämna eller låta beroende på sammanhanget.",
+      "När något blir kvar betyder det lämna; när någon får tillåtelse betyder det låta.",
+      "Lass mich in Ruhe! är en fast och vanlig fras."
+    ],
+    "examples": [
+      {
+        "de": "Ich lasse die Tasche hier.",
+        "lv": "Jag lämnar väskan här."
+      },
+      {
+        "de": "Lass das bitte auf dem Tisch.",
+        "lv": "Lämna det på bordet, är du snäll."
+      },
+      {
+        "de": "Meine Eltern lassen mich gehen.",
+        "lv": "Mina föräldrar låter mig gå."
+      },
+      {
+        "de": "Lass mich in Ruhe!",
+        "lv": "Låt mig vara!"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "lassen",
+        "meaning": "lämna / låta",
+        "example": "Ich lasse das hier. – Jag lämnar det här."
+      },
+      {
+        "word": "bleiben",
+        "meaning": "stanna / bli kvar",
+        "example": "Ich bleibe hier. – Jag stannar här."
+      },
+      {
+        "word": "erlauben",
+        "meaning": "tillåta",
+        "example": "Sie erlaubt mir das. – Hon tillåter mig det."
+      },
+      {
+        "word": "geben",
+        "meaning": "ge",
+        "example": "Gib mir das Buch. – Ge mig boken."
+      }
+    ],
+    "tip": {
+      "text": "Något blir kvar → lassen = lämna; någon får göra något → lassen = låta."
+    },
+    "important": [
+      "lassen betyder både lämna och låta.",
+      "Lass mich in Ruhe! = Låt mig vara!"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7407,26 +10844,135 @@
 
 **Audit ID:** `LRB099-0037`
 **Finding Stable ID:** `g2/a1/sv|laufen|idx:357|study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `laufen|idx:357`
 **Field / path:** `study.*`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** skriet • darboties
-**DE reference (read-only):** laufen
 **CURRENT (captured scope):** {"study.translation":"Jooksma • Töötama","study.explanation":"[\"Põhiidee: laufen tähendab jooksma, aga seadmete puhul võib see tähendada töötama.\",\"Inimese või looma kohta tähendab laufen sageli jooksma või kiires sammus minema.\",\"Filmi, masina või programmi kohta tähendab laufen, et see töötab või käib.\",\"Jalgsi liikumise puhul võrreldakse A1 tasemel kõige sagedamini sõnu gehen ja laufen.\"]","study.examples":"[{\"de\":\"Er läuft sehr schnell.\",\"lv\":\"Ta jookseb väga kiiresti.\"},{\"de\":\"Die Kinder laufen im Park.\",\"lv\":\"Lapsed jooksevad pargis.\"},{\"de\":\"Der Film läuft schon.\",\"lv\":\"Film juba käib.\"},{\"de\":\"Die Maschine läuft gut.\",\"lv\":\"Masin töötab hästi.\"}]","study.comparison":"[{\"word\":\"laufen\",\"meaning\":\"Jooksma / töötama\",\"example\":\"Han springer snabbt.\"},{\"word\":\"gehen\",\"meaning\":\"Jalgsi minema\",\"example\":\"Jag går hem.\"},{\"word\":\"fahren\",\"meaning\":\"Sõidukiga sõitma\",\"example\":\"Jag åker med buss.\"},{\"word\":\"funktionieren\",\"meaning\":\"Toimima\",\"example\":\"Det fungerar bra.\"}]","study.tip":"{\"text\":\"Atceries: kājas ātri → laufen; transports → fahren.\"}","study.important":"[\"laufen är inte bara \\\"springa\\\". För en film eller enhet kan det betyda \\\"gå\\\" eller \\\"fungera\\\".\",\"Ich laufe betyder rörelse till fots, inte körning.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts laufen\|idx:357 (laufen), ceļš 'study.*': viena rinda aptver apakšlaukus study.translation, study.explanation, study.examples, study.comparison, study.tip, kuru saturs sākas ar '{"study.translation":"Jooksma • Töötama","study.explanation":"[\"Põhiidee: laufen tähendab jooksma, aga …'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"springa • fungera","study.translation":"springa • fungera","study.explanation":"[\"Huvudidé: laufen betyder springa om människor och djur, men kan betyda gå eller fungera om filmer, maskiner och program.\",\"gehen betyder normalt gå till fots och fahren färdas med transportmedel.\"]","study.examples":"[{\"de\":\"Er läuft sehr schnell.\",\"lv\":\"Han springer mycket fort.\"},{\"de\":\"Die Kinder laufen im Park.\",\"lv\":\"Barnen springer i parken.\"},{\"de\":\"Der Film läuft schon.\",\"lv\":\"Filmen går redan.\"},{\"de\":\"Die Maschine läuft gut.\",\"lv\":\"Maskinen fungerar bra.\"}]","study.comparison":"[{\"word\":\"laufen\",\"meaning\":\"springa / gå / fungera\",\"example\":\"Er läuft schnell. – Han springer fort.\"},{\"word\":\"gehen\",\"meaning\":\"gå till fots\",\"example\":\"Ich gehe nach Hause. – Jag går hem.\"},{\"word\":\"fahren\",\"meaning\":\"åka med ett fordon\",\"example\":\"Ich fahre mit dem Bus. – Jag åker buss.\"},{\"word\":\"funktionieren\",\"meaning\":\"fungera\",\"example\":\"Das funktioniert gut. – Det fungerar bra.\"}]","study.tip":"{\"text\":\"Snabb rörelse på ben → laufen; transport → fahren.\"}","study.important":"[\"laufen betyder inte bara springa.\",\"Om en film eller maskin kan det betyda gå eller fungera.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: laufen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "laufen",
+  "lv": "springa • fungera",
+  "level": "A1",
+  "study": {
+    "id": "a1-laufen",
+    "layout": "standardStudy",
+    "translation": "springa • fungera",
+    "explanation": [
+      "Huvudidé: laufen betyder springa om människor och djur, men kan betyda gå eller fungera om filmer, maskiner och program.",
+      "gehen betyder normalt gå till fots och fahren färdas med transportmedel."
+    ],
+    "examples": [
+      {
+        "de": "Er läuft sehr schnell.",
+        "lv": "Han springer mycket fort."
+      },
+      {
+        "de": "Die Kinder laufen im Park.",
+        "lv": "Barnen springer i parken."
+      },
+      {
+        "de": "Der Film läuft schon.",
+        "lv": "Filmen går redan."
+      },
+      {
+        "de": "Die Maschine läuft gut.",
+        "lv": "Maskinen fungerar bra."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "laufen",
+        "meaning": "springa / gå / fungera",
+        "example": "Er läuft schnell. – Han springer fort."
+      },
+      {
+        "word": "gehen",
+        "meaning": "gå till fots",
+        "example": "Ich gehe nach Hause. – Jag går hem."
+      },
+      {
+        "word": "fahren",
+        "meaning": "åka med ett fordon",
+        "example": "Ich fahre mit dem Bus. – Jag åker buss."
+      },
+      {
+        "word": "funktionieren",
+        "meaning": "fungera",
+        "example": "Das funktioniert gut. – Det fungerar bra."
+      }
+    ],
+    "tip": {
+      "text": "Snabb rörelse på ben → laufen; transport → fahren."
+    },
+    "important": [
+      "laufen betyder inte bara springa.",
+      "Om en film eller maskin kan det betyda gå eller fungera."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7677,26 +11223,115 @@
 
 **Audit ID:** `LRB099-0038`
 **Finding Stable ID:** `g2/a1/sv|laut|idx:358|study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `laut|idx:358`
 **Field / path:** `study.*`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** skaļš
-**DE reference (read-only):** laut
 **CURRENT (captured scope):** {"study.translation":"Vali","study.explanation":"[\"Põhiidee: Omadussõna väikese algustähega. Kirjeldab intensiivsust — kui vali on heli või kõne.\",\"Laut tähendab peamiselt: vali heli.\",\"Sageli kirjeldab: omadussõna.\",\"Laut tähendab peamiselt: helisignaal.\",\"Sageli kirjeldab: nimisõna (der).\",\"Laut väikese algustähega on omadussõna — see kirjeldab, kui vali on heli (Die Musik ist laut = muusika on vali).\",\"Der Laut suure algustähega ja artikliga der on nimisõna — see tähendab heli kui asja või signaali (Der Laut ist schön = heli on ilus).\",\"Mitmuses: die Laute.\"]","study.examples":"[{\"de\":\"Die Musik ist laut.\",\"lv\":\"Muusika on vali.\"},{\"de\":\"Die Musik ist laut.\",\"lv\":\"Muusika on vali.\"},{\"de\":\"Sprich nicht so laut!\",\"lv\":\"Ära räägi nii valjult!\"},{\"de\":\"Das ist sehr laut.\",\"lv\":\"See on väga vali.\"},{\"de\":\"Der Laut ist schön.\",\"lv\":\"Heli on ilus.\"},{\"de\":\"Ich höre einen Laut.\",\"lv\":\"Ma kuulen mingit heli.\"}]","study.tip":"[\"Litet laut = högt (adjektiv: ist laut). der Laut med stor bokstav = ljud (substantiv: ein Laut, der Laut).\",\"laut = ljud\"]","study.important":"[\"laut med liten bokstav utan artikel — det är ett adjektiv.\",\"der Laut med stor bokstav och artikel der är ett substantiv.\",\"Plural: die Laute (språkljud, signalljud).\",\"Fel: Der Laut ist sehr. → Korrekt: Das ist sehr laut.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts laut\|idx:358 (laut), ceļš 'study.*': viena rinda aptver apakšlaukus study.translation, study.explanation, study.examples, study.tip, study.important, kuru saturs sākas ar '{"study.translation":"Vali","study.explanation":"[\"Põhiidee: Omadussõna väikese algustähega. Kirjeldab …'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"högljudd • högt","study.translation":"högljudd • högt","study.explanation":"[\"Huvudidé: laut med liten bokstav är ett adjektiv eller adverb som beskriver hög ljudnivå.\",\"Substantivet der Laut med stor bokstav betyder ett ljud eller språkljud.\"]","study.examples":"[{\"de\":\"Die Musik ist laut.\",\"lv\":\"Musiken är hög.\"},{\"de\":\"Die Musik ist laut.\",\"lv\":\"Musiken är hög.\"},{\"de\":\"Sprich nicht so laut!\",\"lv\":\"Tala inte så högt!\"},{\"de\":\"Das ist sehr laut.\",\"lv\":\"Det är mycket högljutt.\"},{\"de\":\"Der Laut ist schön.\",\"lv\":\"Ljudet är vackert.\"},{\"de\":\"Ich höre einen Laut.\",\"lv\":\"Jag hör ett ljud.\"}]","study.tip":"[\"laut med liten bokstav = högljudd/högt; der Laut = ljud.\",\"Kontrollera stor bokstav och artikel.\"]","study.important":"[\"laut är adjektiv eller adverb.\",\"der Laut är ett substantiv.\",\"Plural: die Laute.\",\"Das ist sehr laut är korrekt; *Der Laut ist sehr är ofullständigt.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}
+**Note:** OWNER approved override: laut: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "laut",
+  "lv": "högljudd • högt",
+  "level": "A1",
+  "study": {
+    "id": "a1-laut",
+    "layout": "standardStudy",
+    "translation": "högljudd • högt",
+    "explanation": [
+      "Huvudidé: laut med liten bokstav är ett adjektiv eller adverb som beskriver hög ljudnivå.",
+      "Substantivet der Laut med stor bokstav betyder ett ljud eller språkljud."
+    ],
+    "examples": [
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "Musiken är hög."
+      },
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "Musiken är hög."
+      },
+      {
+        "de": "Sprich nicht so laut!",
+        "lv": "Tala inte så högt!"
+      },
+      {
+        "de": "Das ist sehr laut.",
+        "lv": "Det är mycket högljutt."
+      },
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "Ljudet är vackert."
+      },
+      {
+        "de": "Ich höre einen Laut.",
+        "lv": "Jag hör ett ljud."
+      }
+    ],
+    "tip": [
+      "laut med liten bokstav = högljudd/högt; der Laut = ljud.",
+      "Kontrollera stor bokstav och artikel."
+    ],
+    "important": [
+      "laut är adjektiv eller adverb.",
+      "der Laut är ett substantiv.",
+      "Plural: die Laute.",
+      "Das ist sehr laut är korrekt; *Der Laut ist sehr är ofullständigt."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7868,26 +11503,117 @@
 
 **Audit ID:** `LRB099-0039`
 **Finding Stable ID:** `g2/a1/sv|Laut|idx:359|study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `Laut|idx:359`
 **Field / path:** `study.*`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** skaņa
-**DE reference (read-only):** Laut
 **CURRENT (captured scope):** {"study.translation":"Heli","study.explanation":"[\"Põhiidee: Nimisõna artikliga der ja suure algustähega. Tähendab heli kui asja, signaali või keele häälikut.\",\"Der Laut tähendab peamiselt: vali heli.\",\"Sageli kirjeldab: omadussõna.\",\"Der Laut tähendab peamiselt: helisignaal.\",\"Sageli kirjeldab: nimisõna (der).\",\"Laut väikese algustähega on omadussõna — see kirjeldab, kui vali on heli (Die Musik ist laut = muusika on vali).\",\"Der Laut suure algustähega ja artikliga der on nimisõna — see tähendab heli kui asja või signaali (Der Laut ist schön = heli on ilus).\",\"Mitmuses: die Laute.\"]","study.examples":"[{\"de\":\"Der Laut ist schön.\",\"lv\":\"Heli on ilus.\"},{\"de\":\"Die Musik ist laut.\",\"lv\":\"Muusika on vali.\"},{\"de\":\"Sprich nicht so laut!\",\"lv\":\"Ära räägi nii valjult!\"},{\"de\":\"Das ist sehr laut.\",\"lv\":\"See on väga vali.\"},{\"de\":\"Der Laut ist schön.\",\"lv\":\"Heli on ilus.\"},{\"de\":\"Ich höre einen Laut.\",\"lv\":\"Ma kuulen mingit heli.\"}]","study.tip":"[\"Litet laut = högt (adjektiv: ist laut). der Laut med stor bokstav = ljud (substantiv: ein Laut, der Laut).\",\"der Laut = ljud\"]","study.important":"[\"laut med liten bokstav utan artikel — det är ett adjektiv.\",\"der Laut med stor bokstav och artikel der är ett substantiv.\",\"Plural: die Laute (språkljud, signalljud).\",\"Fel: Der Laut ist sehr. → Korrekt: Das ist sehr laut.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Laut\|idx:359 (Laut), ceļš 'study.*': viena rinda aptver apakšlaukus study.translation, study.explanation, study.examples, study.tip, study.important, kuru saturs sākas ar '{"study.translation":"Heli","study.explanation":"[\"Põhiidee: Nimisõna artikliga der ja suure algustäheg…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ljud","study.translation":"ljud","study.explanation":"[\"Huvudidé: der Laut är ett substantiv som betyder ett enskilt ljud, en signal eller ett språkljud.\",\"Adjektivet/adverbet laut med liten bokstav betyder högljudd eller högt.\"]","study.examples":"[{\"de\":\"Der Laut ist schön.\",\"lv\":\"Ljudet är vackert.\"},{\"de\":\"Die Musik ist laut.\",\"lv\":\"Musiken är hög.\"},{\"de\":\"Sprich nicht so laut!\",\"lv\":\"Tala inte så högt!\"},{\"de\":\"Das ist sehr laut.\",\"lv\":\"Det är mycket högljutt.\"},{\"de\":\"Der Laut ist schön.\",\"lv\":\"Ljudet är vackert.\"},{\"de\":\"Ich höre einen Laut.\",\"lv\":\"Jag hör ett ljud.\"}]","study.tip":"[\"der Laut = ljud; laut med liten bokstav = högljudd/högt.\",\"Kontrollera stor bokstav och artikel.\"]","study.important":"[\"der Laut är ett substantiv.\",\"laut är adjektiv eller adverb.\",\"Plural: die Laute.\",\"Das ist sehr laut är korrekt; *Der Laut ist sehr är ofullständigt.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}
+**Note:** OWNER approved override: Laut: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Laut",
+  "de_article": "der",
+  "de_plural": "die Laute",
+  "lv": "ljud",
+  "level": "A1",
+  "study": {
+    "id": "a1-laut-study",
+    "layout": "standardStudy",
+    "translation": "ljud",
+    "explanation": [
+      "Huvudidé: der Laut är ett substantiv som betyder ett enskilt ljud, en signal eller ett språkljud.",
+      "Adjektivet/adverbet laut med liten bokstav betyder högljudd eller högt."
+    ],
+    "examples": [
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "Ljudet är vackert."
+      },
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "Musiken är hög."
+      },
+      {
+        "de": "Sprich nicht so laut!",
+        "lv": "Tala inte så högt!"
+      },
+      {
+        "de": "Das ist sehr laut.",
+        "lv": "Det är mycket högljutt."
+      },
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "Ljudet är vackert."
+      },
+      {
+        "de": "Ich höre einen Laut.",
+        "lv": "Jag hör ett ljud."
+      }
+    ],
+    "tip": [
+      "der Laut = ljud; laut med liten bokstav = högljudd/högt.",
+      "Kontrollera stor bokstav och artikel."
+    ],
+    "important": [
+      "der Laut är ett substantiv.",
+      "laut är adjektiv eller adverb.",
+      "Plural: die Laute.",
+      "Das ist sehr laut är korrekt; *Der Laut ist sehr är ofullständigt."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -8062,26 +11788,135 @@
 
 **Audit ID:** `LRB099-0040`
 **Finding Stable ID:** `g2/a1/sv|legen|idx:363|study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0005`
 **Lang:** sv
 **Card:** `legen|idx:363`
 **Field / path:** `study.*`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** nolikt
-**DE reference (read-only):** legen
 **CURRENT (captured scope):** {"study.translation":"Panema","study.explanation":"[\"Põhiidee: legen tähendab midagi pikali või horisontaalselt panema.\",\"Legen kasutatakse, kui sa ise liigutad asja ja paned selle lauale, voodile või mõnele muule pinnale.\",\"See erineb sõnast liegen, mis tähendab, et miski juba asub või lamab.\",\"A1 tasemel on kõige tähtsam vahe: legen = asetama, liegen = lamama.\"]","study.examples":"[{\"de\":\"Ich lege das Buch auf den Tisch.\",\"lv\":\"Ma panen raamatu lauale.\"},{\"de\":\"Leg den Schlüssel hierhin.\",\"lv\":\"Pane võti siia.\"},{\"de\":\"Sie legt das Kind ins Bett.\",\"lv\":\"Ta paneb lapse voodisse.\"},{\"de\":\"Das Buch liegt auf dem Tisch.\",\"lv\":\"Raamat on laual.\"}]","study.comparison":"[{\"word\":\"legen\",\"meaning\":\"Panema\",\"example\":\"Jag lägger boken på bordet.\"},{\"word\":\"liegen\",\"meaning\":\"Asuma / lamama\",\"example\":\"Boken ligger på bordet.\"},{\"word\":\"stellen\",\"meaning\":\"Püsti panema\",\"example\":\"Jag ställer flaskan på bordet.\"},{\"word\":\"setzen\",\"meaning\":\"Istuma panema / maha istuma\",\"example\":\"Jag sätter mig.\"}]","study.tip":"{\"text\":\"Atceries: tu noliec → legen; lieta jau atrodas → liegen.\"}","study.important":"[\"legen och liegen är inte samma.\",\"Ich lege das Buch = jag lägger boken. Das Buch liegt = boken ligger.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts legen\|idx:363 (legen), ceļš 'study.*': viena rinda aptver apakšlaukus study.translation, study.explanation, study.examples, study.comparison, study.tip, kuru saturs sākas ar '{"study.translation":"Panema","study.explanation":"[\"Põhiidee: legen tähendab midagi pikali või horison…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"lägga","study.translation":"lägga","study.explanation":"[\"Huvudidé: legen betyder lägga eller placera något horisontellt.\",\"Det beskriver en handling; liegen beskriver att något redan ligger eller befinner sig någonstans.\"]","study.examples":"[{\"de\":\"Ich lege das Buch auf den Tisch.\",\"lv\":\"Jag lägger boken på bordet.\"},{\"de\":\"Leg den Schlüssel hierhin.\",\"lv\":\"Lägg nyckeln här.\"},{\"de\":\"Sie legt das Kind ins Bett.\",\"lv\":\"Hon lägger barnet i sängen.\"},{\"de\":\"Das Buch liegt auf dem Tisch.\",\"lv\":\"Boken ligger på bordet.\"}]","study.comparison":"[{\"word\":\"legen\",\"meaning\":\"lägga\",\"example\":\"Ich lege das Buch auf den Tisch. – Jag lägger boken på bordet.\"},{\"word\":\"liegen\",\"meaning\":\"ligga / befinna sig\",\"example\":\"Das Buch liegt auf dem Tisch. – Boken ligger på bordet.\"},{\"word\":\"stellen\",\"meaning\":\"ställa upprätt\",\"example\":\"Ich stelle die Flasche auf den Tisch. – Jag ställer flaskan på bordet.\"},{\"word\":\"setzen\",\"meaning\":\"sätta / sätta sig\",\"example\":\"Ich setze mich. – Jag sätter mig.\"}]","study.tip":"{\"text\":\"Du placerar något → legen; saken befinner sig redan där → liegen.\"}","study.important":"[\"legen och liegen betyder inte samma sak.\",\"Ich lege das Buch = jag lägger boken; Das Buch liegt = boken ligger.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: legen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "legen",
+  "lv": "lägga",
+  "level": "A1",
+  "study": {
+    "id": "a1-legen",
+    "layout": "standardStudy",
+    "translation": "lägga",
+    "explanation": [
+      "Huvudidé: legen betyder lägga eller placera något horisontellt.",
+      "Det beskriver en handling; liegen beskriver att något redan ligger eller befinner sig någonstans."
+    ],
+    "examples": [
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "lv": "Jag lägger boken på bordet."
+      },
+      {
+        "de": "Leg den Schlüssel hierhin.",
+        "lv": "Lägg nyckeln här."
+      },
+      {
+        "de": "Sie legt das Kind ins Bett.",
+        "lv": "Hon lägger barnet i sängen."
+      },
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "lv": "Boken ligger på bordet."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "legen",
+        "meaning": "lägga",
+        "example": "Ich lege das Buch auf den Tisch. – Jag lägger boken på bordet."
+      },
+      {
+        "word": "liegen",
+        "meaning": "ligga / befinna sig",
+        "example": "Das Buch liegt auf dem Tisch. – Boken ligger på bordet."
+      },
+      {
+        "word": "stellen",
+        "meaning": "ställa upprätt",
+        "example": "Ich stelle die Flasche auf den Tisch. – Jag ställer flaskan på bordet."
+      },
+      {
+        "word": "setzen",
+        "meaning": "sätta / sätta sig",
+        "example": "Ich setze mich. – Jag sätter mig."
+      }
+    ],
+    "tip": {
+      "text": "Du placerar något → legen; saken befinner sig redan där → liegen."
+    },
+    "important": [
+      "legen och liegen betyder inte samma sak.",
+      "Ich lege das Buch = jag lägger boken; Das Buch liegt = boken ligger."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -8365,26 +12200,95 @@
 
 **Audit ID:** `LRB099-0041`
 **Finding Stable ID:** `g2/a1/sv|leise|idx:368|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0001`
 **Lang:** sv
 **Card:** `leise|idx:368`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** kluss
-**DE reference (read-only):** leise
 **CURRENT (captured scope):** {"lv":"Vaikne","study.translation":"Vaikne","study.explanation":"[\"Põhiidee: Vaikne või väikese helitugevusega.\",\"Leise tähendab peamiselt: väike helitugevus.\",\"Sageli kirjeldab: heli/häält/muusikat.\",\"Leise kirjeldab väikest helitugevust või vaikset häält/heli.\"]","study.examples":"[{\"de\":\"Bitte sei leise.\",\"lv\":\"Palun, ole vaikne.\"},{\"de\":\"Bitte sei leise.\",\"lv\":\"Palun, ole vaikne.\"},{\"de\":\"Die Musik ist leise.\",\"lv\":\"Muusika on vaikne.\"},{\"de\":\"Sprich bitte leise.\",\"lv\":\"Palun, räägi vaikselt.\"}]","study.tip":"[\"leise = tyst\",\"Använd leise när sammanhanget motsvarar denna betydelse.\"]","study.important":"[\"leise = lågt till ljudstyrkan.\",\"leise = volym.\",\"Tyst eller med låg volym.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts leise\|idx:368 (leise), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Vaikne","study.translation":"Vaikne","study.explanation":"[\"Põhiidee: Vaikne või väikese helitug…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"tyst • lågt","study.translation":"tyst • lågt","study.explanation":"[\"Huvudidé: leise betyder tyst eller med låg ljudnivå.\",\"Det kan beskriva en röst, musik eller annat ljud.\"]","study.examples":"[{\"de\":\"Bitte sei leise.\",\"lv\":\"Var tyst, är du snäll.\"},{\"de\":\"Bitte sei leise.\",\"lv\":\"Var tyst, är du snäll.\"},{\"de\":\"Die Musik ist leise.\",\"lv\":\"Musiken är låg.\"},{\"de\":\"Sprich bitte leise.\",\"lv\":\"Tala tyst, är du snäll.\"}]","study.tip":"[\"leise = tyst eller lågt i fråga om ljud.\",\"Välj adjektiv eller adverb efter satsen.\"]","study.important":"[\"leise beskriver låg ljudnivå.\",\"Det kan översättas med tyst, tystlåten eller lågt beroende på sammanhanget.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: leise: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "leise",
+  "lv": "tyst • lågt",
+  "level": "A1",
+  "study": {
+    "id": "a1-leise-study",
+    "layout": "standardStudy",
+    "translation": "tyst • lågt",
+    "explanation": [
+      "Huvudidé: leise betyder tyst eller med låg ljudnivå.",
+      "Det kan beskriva en röst, musik eller annat ljud."
+    ],
+    "examples": [
+      {
+        "de": "Bitte sei leise.",
+        "lv": "Var tyst, är du snäll."
+      },
+      {
+        "de": "Bitte sei leise.",
+        "lv": "Var tyst, är du snäll."
+      },
+      {
+        "de": "Die Musik ist leise.",
+        "lv": "Musiken är låg."
+      },
+      {
+        "de": "Sprich bitte leise.",
+        "lv": "Tala tyst, är du snäll."
+      }
+    ],
+    "tip": [
+      "leise = tyst eller lågt i fråga om ljud.",
+      "Välj adjektiv eller adverb efter satsen."
+    ],
+    "important": [
+      "leise beskriver låg ljudnivå.",
+      "Det kan översättas med tyst, tystlåten eller lågt beroende på sammanhanget."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -8519,26 +12423,135 @@
 
 **Audit ID:** `LRB099-0042`
 **Finding Stable ID:** `g2/a1/sv|liegen|idx:377|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `liegen|idx:377`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** atrasties • gulēt
-**DE reference (read-only):** liegen
 **CURRENT (captured scope):** {"lv":"Asuma • Lamama","study.translation":"Asuma • Lamama","study.explanation":"[\"Põhiidee: liegen tähendab asuma või horisontaalselt lamama.\",\"Inimese kohta tähendab liegen sageli lamamist.\",\"Asja kohta tähendab liegen, et see asub kuskil.\",\"See erineb sõnast legen, mis tähendab midagi pikali panema.\"]","study.examples":"[{\"de\":\"Das Buch liegt auf dem Tisch.\",\"lv\":\"Raamat on laual.\"},{\"de\":\"Mein Handy liegt im Auto.\",\"lv\":\"Minu telefon on autos.\"},{\"de\":\"Er liegt im Bett.\",\"lv\":\"Ta lamab voodis.\"},{\"de\":\"Ich lege das Buch auf den Tisch.\",\"lv\":\"Ma panen raamatu lauale.\"}]","study.comparison":"[{\"word\":\"liegen\",\"meaning\":\"Asuma / lamama\",\"example\":\"Boken ligger här.\"},{\"word\":\"legen\",\"meaning\":\"Panema\",\"example\":\"Jag lägger boken här.\"},{\"word\":\"stehen\",\"meaning\":\"Seisma / püsti olema\",\"example\":\"Flaskan står på bordet.\"},{\"word\":\"sein\",\"meaning\":\"Olema\",\"example\":\"Jag är här.\"}]","study.tip":"{\"text\":\"Atceries: lieta jau ir vietā → liegen; tu to noliec → legen.\"}","study.important":"[\"liegen visar tillstånd eller plats.\",\"legen visar handling: någon lägger något.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts liegen\|idx:377 (liegen), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"Asuma • Lamama","study.translation":"Asuma • Lamama","study.explanation":"[\"Põhiidee: liegen täh…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ligga • befinna sig","study.translation":"ligga • befinna sig","study.explanation":"[\"Huvudidé: liegen betyder ligga eller befinna sig horisontellt.\",\"Det beskriver ett tillstånd; legen beskriver handlingen att lägga något.\"]","study.examples":"[{\"de\":\"Das Buch liegt auf dem Tisch.\",\"lv\":\"Boken ligger på bordet.\"},{\"de\":\"Mein Handy liegt im Auto.\",\"lv\":\"Min mobil ligger i bilen.\"},{\"de\":\"Er liegt im Bett.\",\"lv\":\"Han ligger i sängen.\"},{\"de\":\"Ich lege das Buch auf den Tisch.\",\"lv\":\"Jag lägger boken på bordet.\"}]","study.comparison":"[{\"word\":\"liegen\",\"meaning\":\"ligga / befinna sig\",\"example\":\"Das Buch liegt hier. – Boken ligger här.\"},{\"word\":\"legen\",\"meaning\":\"lägga\",\"example\":\"Ich lege das Buch hierhin. – Jag lägger boken här.\"},{\"word\":\"stehen\",\"meaning\":\"stå / befinna sig upprätt\",\"example\":\"Die Flasche steht auf dem Tisch. – Flaskan står på bordet.\"},{\"word\":\"sein\",\"meaning\":\"vara\",\"example\":\"Ich bin hier. – Jag är här.\"}]","study.tip":"{\"text\":\"Saken befinner sig där → liegen; någon placerar den → legen.\"}","study.important":"[\"liegen beskriver ett läge eller en plats.\",\"legen beskriver handlingen att lägga något.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: liegen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "liegen",
+  "lv": "ligga • befinna sig",
+  "level": "A1",
+  "study": {
+    "id": "a1-liegen",
+    "layout": "standardStudy",
+    "translation": "ligga • befinna sig",
+    "explanation": [
+      "Huvudidé: liegen betyder ligga eller befinna sig horisontellt.",
+      "Det beskriver ett tillstånd; legen beskriver handlingen att lägga något."
+    ],
+    "examples": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "lv": "Boken ligger på bordet."
+      },
+      {
+        "de": "Mein Handy liegt im Auto.",
+        "lv": "Min mobil ligger i bilen."
+      },
+      {
+        "de": "Er liegt im Bett.",
+        "lv": "Han ligger i sängen."
+      },
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "lv": "Jag lägger boken på bordet."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "liegen",
+        "meaning": "ligga / befinna sig",
+        "example": "Das Buch liegt hier. – Boken ligger här."
+      },
+      {
+        "word": "legen",
+        "meaning": "lägga",
+        "example": "Ich lege das Buch hierhin. – Jag lägger boken här."
+      },
+      {
+        "word": "stehen",
+        "meaning": "stå / befinna sig upprätt",
+        "example": "Die Flasche steht auf dem Tisch. – Flaskan står på bordet."
+      },
+      {
+        "word": "sein",
+        "meaning": "vara",
+        "example": "Ich bin hier. – Jag är här."
+      }
+    ],
+    "tip": {
+      "text": "Saken befinner sig där → liegen; någon placerar den → legen."
+    },
+    "important": [
+      "liegen beskriver ett läge eller en plats.",
+      "legen beskriver handlingen att lägga något."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -8813,26 +12826,91 @@
 
 **Audit ID:** `LRB099-0043`
 **Finding Stable ID:** `g2/a1/sv|machen|idx:386|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `machen|idx:386`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** darīt • taisīt
-**DE reference (read-only):** machen
 **CURRENT (captured scope):** {"lv":"Tegema • Valmistama","study.translation":"Tegema • Valmistama","study.explanation":"[\"Põhiidee: machen on väga sage sõna, mis tähendab tegema või valmistama.\",\"Kui jutt on tegevusest üldiselt, tõlgitakse see kui tegema.\",\"Kui midagi luuakse või valmistatakse, tõlgitakse see kui tegema või valmistama.\",\"Paljudes fraasides tõlgitakse machen loomulikult eesti keele järgi, mitte sõna-sõnalt.\"]","study.examples":"[{\"de\":\"Was machst du?\",\"lv\":\"Mida sa teed?\"},{\"de\":\"Ich mache Hausaufgaben.\",\"lv\":\"Ma teen kodutöid.\"},{\"de\":\"Wir machen Pizza.\",\"lv\":\"Me teeme pitsat.\"},{\"de\":\"Das macht Spaß.\",\"lv\":\"See on lõbus.\"}]","study.tip":"{\"text\":\"Atceries: Was machst du? = Ko tu dari?\"}","study.important":"[\"machen är ett mycket brett ord, men på svenska måste det ofta översättas naturligt enligt situationen.\",\"Das macht Spaß betyder \\\"det är roligt\\\", inte bokstavligt \\\"det gör nöje\\\".\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts machen\|idx:386 (machen), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Tegema • Valmistama","study.translation":"Tegema • Valmistama","study.explanation":"[\"Põhiidee: …'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"göra • tillverka","study.translation":"göra • tillverka","study.explanation":"[\"Huvudidé: machen är ett mycket vanligt verb som betyder göra, tillverka eller laga.\",\"Den naturliga svenska översättningen beror på aktiviteten och uttrycket.\"]","study.examples":"[{\"de\":\"Was machst du?\",\"lv\":\"Vad gör du?\"},{\"de\":\"Ich mache Hausaufgaben.\",\"lv\":\"Jag gör mina läxor.\"},{\"de\":\"Wir machen Pizza.\",\"lv\":\"Vi lagar pizza.\"},{\"de\":\"Das macht Spaß.\",\"lv\":\"Det är roligt.\"}]","study.tip":"{\"text\":\"Was machst du? = Vad gör du?\"}","study.important":"[\"machen har bred betydelse och måste översättas naturligt efter sammanhanget.\",\"Das macht Spaß = Det är roligt.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: machen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "machen",
+  "lv": "göra • tillverka",
+  "level": "A1",
+  "study": {
+    "id": "a1-machen",
+    "layout": "standardStudy",
+    "translation": "göra • tillverka",
+    "explanation": [
+      "Huvudidé: machen är ett mycket vanligt verb som betyder göra, tillverka eller laga.",
+      "Den naturliga svenska översättningen beror på aktiviteten och uttrycket."
+    ],
+    "examples": [
+      {
+        "de": "Was machst du?",
+        "lv": "Vad gör du?"
+      },
+      {
+        "de": "Ich mache Hausaufgaben.",
+        "lv": "Jag gör mina läxor."
+      },
+      {
+        "de": "Wir machen Pizza.",
+        "lv": "Vi lagar pizza."
+      },
+      {
+        "de": "Das macht Spaß.",
+        "lv": "Det är roligt."
+      }
+    ],
+    "tip": {
+      "text": "Was machst du? = Vad gör du?"
+    },
+    "important": [
+      "machen har bred betydelse och måste översättas naturligt efter sammanhanget.",
+      "Das macht Spaß = Det är roligt."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -9015,26 +13093,97 @@
 
 **Audit ID:** `LRB099-0044`
 **Finding Stable ID:** `g2/a1/sv|Mal|idx:390|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0005`
 **Lang:** sv
 **Card:** `Mal|idx:390`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** reize
-**DE reference (read-only):** Mal
 **CURRENT (captured scope):** {"lv":"Kord","study.translation":"Kord","study.explanation":"[\"Põhiidee: das Mal tähendab korda kui sündmust või juhtumit.\",\"Sageli kasutatakse koos arvudega: ein Mal, zwei Mal, drei Mal.\",\"Järgarvuga: das erste Mal, das zweite Mal.\",\"Ära aja segi kõnekeelse osakesega mal (Komm mal her!) — sellel on teine tähendus.\"]","study.examples":"[{\"de\":\"Das erste Mal war schwer.\",\"lv\":\"Esimest korda oli raske.\"},{\"de\":\"Ich war schon zwei Mal in Berlin.\",\"lv\":\"Ma olen juba kaks korda Berliinis käinud.\"},{\"de\":\"Ein Mal reicht.\",\"lv\":\"Üks kord piisab.\"},{\"de\":\"Noch ein Mal, bitte!\",\"lv\":\"Veel üks kord, palun!\"}]","study.tip":"{\"text\":\"Atceries: das Mal = reize (lietvārds); mal bez artikula = sarunvalodas daļiņa.\"}","study.important":"[\"das Mal / die Male — substantiv med artikel.\",\"ein Mal, zwei Mal — antal gånger.\",\"mal utan artikel (Komm mal her!) är inte detsamma som das Mal.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts Mal\|idx:390 (Mal), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Kord","study.translation":"Kord","study.explanation":"[\"Põhiidee: das Mal tähendab korda kui sün…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"gång","study.translation":"gång","study.explanation":"[\"Huvudidé: das Mal betyder gång eller tillfälle och används när man räknar upprepningar.\",\"Det förekommer i ein Mal, zwei Mal och das erste Mal.\",\"Partikeln mal i Komm mal her! är en annan användning.\"]","study.examples":"[{\"de\":\"Das erste Mal war schwer.\",\"lv\":\"Första gången var svår.\"},{\"de\":\"Ich war schon zwei Mal in Berlin.\",\"lv\":\"Jag har redan varit i Berlin två gånger.\"},{\"de\":\"Ein Mal reicht.\",\"lv\":\"En gång räcker.\"},{\"de\":\"Noch ein Mal, bitte!\",\"lv\":\"En gång till, tack!\"}]","study.tip":"{\"text\":\"das Mal = gång/tillfälle; mal utan artikel kan vara en samtalspartikel.\"}","study.important":"[\"das Mal / die Male är ett substantiv.\",\"ein Mal, zwei Mal räknar gånger.\",\"mal i Komm mal her! har en annan funktion.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":{},"important":[{},{},{}]}}
+**Note:** OWNER approved override: Mal: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Mal",
+  "de_article": "das",
+  "de_plural": "die Male",
+  "lv": "gång",
+  "level": "A1",
+  "study": {
+    "id": "a1-mal",
+    "layout": "standardStudy",
+    "translation": "gång",
+    "explanation": [
+      "Huvudidé: das Mal betyder gång eller tillfälle och används när man räknar upprepningar.",
+      "Det förekommer i ein Mal, zwei Mal och das erste Mal.",
+      "Partikeln mal i Komm mal her! är en annan användning."
+    ],
+    "examples": [
+      {
+        "de": "Das erste Mal war schwer.",
+        "lv": "Första gången var svår."
+      },
+      {
+        "de": "Ich war schon zwei Mal in Berlin.",
+        "lv": "Jag har redan varit i Berlin två gånger."
+      },
+      {
+        "de": "Ein Mal reicht.",
+        "lv": "En gång räcker."
+      },
+      {
+        "de": "Noch ein Mal, bitte!",
+        "lv": "En gång till, tack!"
+      }
+    ],
+    "tip": {
+      "text": "das Mal = gång/tillfälle; mal utan artikel kan vara en samtalspartikel."
+    },
+    "important": [
+      "das Mal / die Male är ett substantiv.",
+      "ein Mal, zwei Mal räknar gånger.",
+      "mal i Komm mal her! har en annan funktion."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -9189,26 +13338,135 @@
 
 **Audit ID:** `LRB099-0045`
 **Finding Stable ID:** `g2/a1/sv|müssen|idx:423|lv, study|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0001`
 **Lang:** sv
 **Card:** `müssen|idx:423`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** vajadzēt
-**DE reference (read-only):** müssen
 **CURRENT (captured scope):** {"lv":"Pidama","study.translation":"Pidama","study.explanation":"[\"Põhiidee: müssen tähendab, et midagi tuleb teha.\",\"Eesti keeles tõlgitakse müssen sageli väljenditega “ma pean...”, “sa pead...”, “me peame...”.\",\"Saksa lauses on teine tegusõna tavaliselt lõpus.\",\"A1 tasemel on kõige tähtsam vorm Ich muss...\"]","study.examples":"[{\"de\":\"Ich muss gehen.\",\"lv\":\"Ma pean minema.\"},{\"de\":\"Du musst warten.\",\"lv\":\"Sa pead ootama.\"},{\"de\":\"Wir müssen lernen.\",\"lv\":\"Me peame õppima.\"},{\"de\":\"Ich muss heute arbeiten.\",\"lv\":\"Ma pean täna töötama.\"}]","study.comparison":"[{\"word\":\"müssen\",\"meaning\":\"Pidama\",\"example\":\"Ich muss gehen.\"},{\"word\":\"können\",\"meaning\":\"Saama / oskama\",\"example\":\"Ich kann kommen.\"},{\"word\":\"wollen\",\"meaning\":\"Tahtma\",\"example\":\"Ich will nach Hause.\"},{\"word\":\"dürfen\",\"meaning\":\"Tohtima\",\"example\":\"Darf ich gehen?\"}]","study.tip":"{\"text\":\"Atceries: Ich muss... = man jā...\"}","study.important":"[\"müssen är ett modalverb.\",\"Det andra verbet står vanligtvis i slutet av meningen: Ich muss heute arbeiten.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts müssen\|idx:423 (müssen), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"Pidama","study.translation":"Pidama","study.explanation":"[\"Põhiidee: müssen tähendab, et midagi…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"måste","study.translation":"måste","study.explanation":"[\"Huvudidé: müssen uttrycker att något är nödvändigt och motsvarar måste.\",\"Det är ett modalverb, så det andra verbet står normalt sist i den tyska satsen.\"]","study.examples":"[{\"de\":\"Ich muss gehen.\",\"lv\":\"Jag måste gå.\"},{\"de\":\"Du musst warten.\",\"lv\":\"Du måste vänta.\"},{\"de\":\"Wir müssen lernen.\",\"lv\":\"Vi måste studera.\"},{\"de\":\"Ich muss heute arbeiten.\",\"lv\":\"Jag måste arbeta i dag.\"}]","study.comparison":"[{\"word\":\"müssen\",\"meaning\":\"måste\",\"example\":\"Ich muss gehen. – Jag måste gå.\"},{\"word\":\"können\",\"meaning\":\"kunna\",\"example\":\"Ich kann kommen. – Jag kan komma.\"},{\"word\":\"wollen\",\"meaning\":\"vilja\",\"example\":\"Ich will nach Hause. – Jag vill gå hem.\"},{\"word\":\"dürfen\",\"meaning\":\"få / ha tillåtelse\",\"example\":\"Darf ich gehen? – Får jag gå?\"}]","study.tip":"{\"text\":\"Ich muss ... = Jag måste ...\"}","study.important":"[\"müssen är ett modalverb.\",\"Det andra verbet står normalt sist: Ich muss heute arbeiten.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: müssen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "müssen",
+  "lv": "måste",
+  "level": "A1",
+  "study": {
+    "id": "a1-müssen",
+    "layout": "standardStudy",
+    "translation": "måste",
+    "explanation": [
+      "Huvudidé: müssen uttrycker att något är nödvändigt och motsvarar måste.",
+      "Det är ett modalverb, så det andra verbet står normalt sist i den tyska satsen."
+    ],
+    "examples": [
+      {
+        "de": "Ich muss gehen.",
+        "lv": "Jag måste gå."
+      },
+      {
+        "de": "Du musst warten.",
+        "lv": "Du måste vänta."
+      },
+      {
+        "de": "Wir müssen lernen.",
+        "lv": "Vi måste studera."
+      },
+      {
+        "de": "Ich muss heute arbeiten.",
+        "lv": "Jag måste arbeta i dag."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "müssen",
+        "meaning": "måste",
+        "example": "Ich muss gehen. – Jag måste gå."
+      },
+      {
+        "word": "können",
+        "meaning": "kunna",
+        "example": "Ich kann kommen. – Jag kan komma."
+      },
+      {
+        "word": "wollen",
+        "meaning": "vilja",
+        "example": "Ich will nach Hause. – Jag vill gå hem."
+      },
+      {
+        "word": "dürfen",
+        "meaning": "få / ha tillåtelse",
+        "example": "Darf ich gehen? – Får jag gå?"
+      }
+    ],
+    "tip": {
+      "text": "Ich muss ... = Jag måste ..."
+    },
+    "important": [
+      "müssen är ett modalverb.",
+      "Det andra verbet står normalt sist: Ich muss heute arbeiten."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -9454,26 +13712,137 @@
 
 **Audit ID:** `LRB099-0046`
 **Finding Stable ID:** `g2/a1/sv|nach|idx:426|lv, study|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0002`
 **Lang:** sv
 **Card:** `nach|idx:426`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** uz • pēc
-**DE reference (read-only):** nach
 **CURRENT (captured scope):** {"lv":"-sse • Pärast","study.translation":"-sse • Pärast","study.explanation":"[\"Põhiidee: nach tähendab kohtade puhul suunda kuhugi ja aja või järjekorra puhul pärast.\",\"Artiklita linnade ja riikide puhul tähendab nach sageli lõppu -sse.\",\"Aja puhul tähendab nach pärast.\",\"Fraasis nach Hause tähendab see koju.\"]","study.examples":"[{\"de\":\"Ich fahre nach Berlin.\",\"lv\":\"Ma sõidan Berliini.\"},{\"de\":\"Wir gehen nach Hause.\",\"lv\":\"Me läheme koju.\"},{\"de\":\"Nach dem Essen gehen wir spazieren.\",\"lv\":\"Pärast söömist läheme jalutama.\"},{\"de\":\"Es ist zehn nach acht.\",\"lv\":\"On kümme minutit kaheksa läbi.\"}]","study.comparison":"[{\"word\":\"nach\",\"meaning\":\"-sse / pärast\",\"example\":\"Ich fahre nach Berlin.\"},{\"word\":\"zu\",\"meaning\":\"-sse / juurde\",\"example\":\"Ich gehe zum Arzt.\"},{\"word\":\"in\",\"meaning\":\"Sees / mingisse kohta artikliga\",\"example\":\"Ich gehe in die Schule.\"},{\"word\":\"vor\",\"meaning\":\"Enne / ees\",\"example\":\"Vor dem Essen wasche ich die Hände.\"}]","study.tip":"{\"text\":\"Atceries: nach Hause; nach Berlin; pēc ēšanas.\"}","study.important":"[\"nach används inte med alla fall.\",\"Till skolan säger man vanligtvis in die Schule, inte nach Schule.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts nach\|idx:426 (nach), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"-sse • Pärast","study.translation":"-sse • Pärast","study.explanation":"[\"Põhiidee: nach tähenda…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"till • efter","study.translation":"till • efter","study.explanation":"[\"Huvudidé: nach betyder till med städer och länder utan artikel samt efter i tid eller ordningsföljd.\",\"I nach Hause betyder det hem.\",\"I klockslag betyder zehn nach acht tio över åtta.\"]","study.examples":"[{\"de\":\"Ich fahre nach Berlin.\",\"lv\":\"Jag åker till Berlin.\"},{\"de\":\"Wir gehen nach Hause.\",\"lv\":\"Vi går hem.\"},{\"de\":\"Nach dem Essen gehen wir spazieren.\",\"lv\":\"Efter maten går vi en promenad.\"},{\"de\":\"Es ist zehn nach acht.\",\"lv\":\"Klockan är tio över åtta.\"}]","study.comparison":"[{\"word\":\"nach\",\"meaning\":\"till / efter\",\"example\":\"Ich fahre nach Berlin. – Jag åker till Berlin.\"},{\"word\":\"zu\",\"meaning\":\"till / hos\",\"example\":\"Ich gehe zum Arzt. – Jag går till läkaren.\"},{\"word\":\"in\",\"meaning\":\"in i / till en plats med artikel\",\"example\":\"Ich gehe in die Schule. – Jag går till skolan.\"},{\"word\":\"vor\",\"meaning\":\"före / framför\",\"example\":\"Vor dem Essen wasche ich die Hände. – Före maten tvättar jag händerna.\"}]","study.tip":"{\"text\":\"nach Hause; nach Berlin; nach dem Essen.\"}","study.important":"[\"nach används inte med alla resmål.\",\"Det heter normalt in die Schule, inte *nach Schule.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: nach: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "nach",
+  "lv": "till • efter",
+  "level": "A1",
+  "study": {
+    "id": "a1-nach",
+    "layout": "standardStudy",
+    "translation": "till • efter",
+    "explanation": [
+      "Huvudidé: nach betyder till med städer och länder utan artikel samt efter i tid eller ordningsföljd.",
+      "I nach Hause betyder det hem.",
+      "I klockslag betyder zehn nach acht tio över åtta."
+    ],
+    "examples": [
+      {
+        "de": "Ich fahre nach Berlin.",
+        "lv": "Jag åker till Berlin."
+      },
+      {
+        "de": "Wir gehen nach Hause.",
+        "lv": "Vi går hem."
+      },
+      {
+        "de": "Nach dem Essen gehen wir spazieren.",
+        "lv": "Efter maten går vi en promenad."
+      },
+      {
+        "de": "Es ist zehn nach acht.",
+        "lv": "Klockan är tio över åtta."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "nach",
+        "meaning": "till / efter",
+        "example": "Ich fahre nach Berlin. – Jag åker till Berlin."
+      },
+      {
+        "word": "zu",
+        "meaning": "till / hos",
+        "example": "Ich gehe zum Arzt. – Jag går till läkaren."
+      },
+      {
+        "word": "in",
+        "meaning": "in i / till en plats med artikel",
+        "example": "Ich gehe in die Schule. – Jag går till skolan."
+      },
+      {
+        "word": "vor",
+        "meaning": "före / framför",
+        "example": "Vor dem Essen wasche ich die Hände. – Före maten tvättar jag händerna."
+      }
+    ],
+    "tip": {
+      "text": "nach Hause; nach Berlin; nach dem Essen."
+    },
+    "important": [
+      "nach används inte med alla resmål.",
+      "Det heter normalt in die Schule, inte *nach Schule."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -9729,26 +14098,111 @@
 
 **Audit ID:** `LRB099-0047`
 **Finding Stable ID:** `g2/a1/sv|natürlich|idx:433|lv, study|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0003`
 **Lang:** sv
 **Card:** `natürlich|idx:433`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** protams • dabisks
-**DE reference (read-only):** natürlich
 **CURRENT (captured scope):** {"lv":"Muidugi • Loomulik","study.translation":"Muidugi • Loomulik","study.explanation":"[\"Põhiidee: natürlich tähendab määrsõnana muidugi, omadussõnana tähendab loomulik.\",\"Vestluses, midagi kinnitades, natürlich = muidugi (Kommst du mit? – Natürlich! = Kas tuled kaasa? – Muidugi!).\",\"Loodusest, päritolust või omadustest rääkides natürlich = loomulik (natürliche Schönheit = loomulik ilu).\",\"Kontekst (vastus/kinnitus või kirjeldus) näitab õiget tähendust.\"]","study.examples":"[{\"de\":\"Kommst du mit? – Natürlich!\",\"lv\":\"Kas tuled kaasa? – muidugi!\"},{\"de\":\"Das ist eine natürliche Reaktion.\",\"lv\":\"See on loomulik reaktsioon.\"},{\"de\":\"Natürlich helfe ich dir.\",\"lv\":\"Muidugi, ma aitan sind.\"},{\"de\":\"Sie hat natürliche rote Haare.\",\"lv\":\"Tal on loomulikult punased juuksed.\"},{\"de\":\"Natürlich kann ich das machen.\",\"lv\":\"Muidugi, ma saan seda teha.\"},{\"de\":\"Das ist ganz natürlich.\",\"lv\":\"See on täiesti loomulik/normaalne.\"}]","study.tip":"[\"Som ett separat ord, för att bekräfta eller svara → självklart.\",\"Bredvid ett substantiv, för att beskriva ursprung eller egenskap → naturlig.\"]","study.important":"[\"natürlich = självklart (adverb, bekräftelse) ELLER naturlig (adjektiv).\",\"Natürlich! som ett separat utrop betyder alltid = självklart!\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts natürlich\|idx:433 (natürlich), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Muidugi • Loomulik","study.translation":"Muidugi • Loomulik","study.explanation":"[\"Põhiidee: na…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"naturligtvis • naturlig","study.translation":"naturligtvis • naturlig","study.explanation":"[\"Huvudidé: natürlich betyder naturligtvis som satsadverb och naturlig som adjektiv.\",\"Ett svar eller en bekräftelse ger den första betydelsen; beskrivning av egenskaper eller ursprung ger den andra.\"]","study.examples":"[{\"de\":\"Kommst du mit? – Natürlich!\",\"lv\":\"Följer du med? – Naturligtvis!\"},{\"de\":\"Das ist eine natürliche Reaktion.\",\"lv\":\"Det är en naturlig reaktion.\"},{\"de\":\"Natürlich helfe ich dir.\",\"lv\":\"Naturligtvis hjälper jag dig.\"},{\"de\":\"Sie hat natürliche rote Haare.\",\"lv\":\"Hon har naturligt rött hår.\"},{\"de\":\"Natürlich kann ich das machen.\",\"lv\":\"Naturligtvis kan jag göra det.\"},{\"de\":\"Das ist ganz natürlich.\",\"lv\":\"Det är helt naturligt.\"}]","study.tip":"[\"Som svar eller bekräftelse → naturligtvis.\",\"Som beskrivning av egenskap eller ursprung → naturlig.\"]","study.important":"[\"natürlich kan vara satsadverb eller adjektiv.\",\"Natürlich! som fristående svar = Naturligtvis!\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: natürlich: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "natürlich",
+  "lv": "naturligtvis • naturlig",
+  "level": "A1",
+  "study": {
+    "id": "a1-natuerlich",
+    "layout": "standardStudy",
+    "translation": "naturligtvis • naturlig",
+    "explanation": [
+      "Huvudidé: natürlich betyder naturligtvis som satsadverb och naturlig som adjektiv.",
+      "Ett svar eller en bekräftelse ger den första betydelsen; beskrivning av egenskaper eller ursprung ger den andra."
+    ],
+    "examples": [
+      {
+        "de": "Kommst du mit? – Natürlich!",
+        "lv": "Följer du med? – Naturligtvis!"
+      },
+      {
+        "de": "Das ist eine natürliche Reaktion.",
+        "lv": "Det är en naturlig reaktion."
+      },
+      {
+        "de": "Natürlich helfe ich dir.",
+        "lv": "Naturligtvis hjälper jag dig."
+      },
+      {
+        "de": "Sie hat natürliche rote Haare.",
+        "lv": "Hon har naturligt rött hår."
+      },
+      {
+        "de": "Natürlich kann ich das machen.",
+        "lv": "Naturligtvis kan jag göra det."
+      },
+      {
+        "de": "Das ist ganz natürlich.",
+        "lv": "Det är helt naturligt."
+      }
+    ],
+    "tip": [
+      "Som svar eller bekräftelse → naturligtvis.",
+      "Som beskrivning av egenskap eller ursprung → naturlig."
+    ],
+    "important": [
+      "natürlich kan vara satsadverb eller adjektiv.",
+      "Natürlich! som fristående svar = Naturligtvis!"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -9919,26 +14373,135 @@
 
 **Audit ID:** `LRB099-0048`
 **Finding Stable ID:** `g2/a1/sv|nehmen|idx:435|lv, study|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `nehmen|idx:435`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** ņemt • paņemt
-**DE reference (read-only):** nehmen
 **CURRENT (captured scope):** {"lv":"Võtma • Kätte võtma","study.translation":"Võtma • Kätte võtma","study.explanation":"[\"Põhiidee: nehmen tähendab võtma või kätte võtma.\",\"Nehmen kasutatakse, kui sa võtad midagi endale või valid.\",\"See ei ole sama mis bringen, sest bringen tähendab kellelegi tooma või viima.\",\"Holen tähendab järele minema ja tooma/võtma.\"]","study.examples":"[{\"de\":\"Ich nehme den Bus.\",\"lv\":\"Ma sõidan bussiga.\"},{\"de\":\"Nimm das Buch!\",\"lv\":\"Võta raamat!\"},{\"de\":\"Ich bringe dir das Buch.\",\"lv\":\"Ma toon sulle raamatu.\"},{\"de\":\"Ich hole dich ab.\",\"lv\":\"Ma tulen sulle järele.\"}]","study.comparison":"[{\"word\":\"nehmen\",\"meaning\":\"Võtma / kätte võtma\",\"example\":\"Nimm das Buch!\"},{\"word\":\"bringen\",\"meaning\":\"Tooma / viima / kohale toimetama\",\"example\":\"Ich bringe dir das Buch.\"},{\"word\":\"holen\",\"meaning\":\"Järele minema / tooma\",\"example\":\"Ich hole Wasser.\"},{\"word\":\"mitnehmen\",\"meaning\":\"Kaasa võtma\",\"example\":\"Ich nehme dich mit.\"}]","study.tip":"{\"text\":\"Atceries: paņem sev → nehmen; atnes kādam → bringen.\"}","study.important":"[\"Ich nehme den Bus betyder på svenska \\\"jag åker med bussen\\\".\",\"nehmen är inte detsamma som bringen.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts nehmen\|idx:435 (nehmen), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.comparison, kuru saturs sākas ar '{"lv":"Võtma • Kätte võtma","study.translation":"Võtma • Kätte võtma","study.explanation":"[\"Põhiidee: …'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ta","study.translation":"ta","study.explanation":"[\"Huvudidé: nehmen betyder ta eller välja något.\",\"bringen betyder ta med eller komma med något till någon; holen betyder hämta.\"]","study.examples":"[{\"de\":\"Ich nehme den Bus.\",\"lv\":\"Jag tar bussen.\"},{\"de\":\"Nimm das Buch!\",\"lv\":\"Ta boken!\"},{\"de\":\"Ich bringe dir das Buch.\",\"lv\":\"Jag tar med boken till dig.\"},{\"de\":\"Ich hole dich ab.\",\"lv\":\"Jag hämtar dig.\"}]","study.comparison":"[{\"word\":\"nehmen\",\"meaning\":\"ta\",\"example\":\"Nimm das Buch! – Ta boken!\"},{\"word\":\"bringen\",\"meaning\":\"ta med / komma med\",\"example\":\"Ich bringe dir das Buch. – Jag tar med boken till dig.\"},{\"word\":\"holen\",\"meaning\":\"hämta\",\"example\":\"Ich hole Wasser. – Jag hämtar vatten.\"},{\"word\":\"mitnehmen\",\"meaning\":\"ta med sig\",\"example\":\"Ich nehme dich mit. – Jag tar med dig.\"}]","study.tip":"{\"text\":\"Ta själv → nehmen; ta med något till någon → bringen.\"}","study.important":"[\"Ich nehme den Bus = Jag tar bussen.\",\"nehmen är inte samma sak som bringen.\"]","study.sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}
+**Note:** OWNER approved override: nehmen: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "nehmen",
+  "lv": "ta",
+  "level": "A1",
+  "study": {
+    "id": "a1-nehmen",
+    "layout": "standardStudy",
+    "translation": "ta",
+    "explanation": [
+      "Huvudidé: nehmen betyder ta eller välja något.",
+      "bringen betyder ta med eller komma med något till någon; holen betyder hämta."
+    ],
+    "examples": [
+      {
+        "de": "Ich nehme den Bus.",
+        "lv": "Jag tar bussen."
+      },
+      {
+        "de": "Nimm das Buch!",
+        "lv": "Ta boken!"
+      },
+      {
+        "de": "Ich bringe dir das Buch.",
+        "lv": "Jag tar med boken till dig."
+      },
+      {
+        "de": "Ich hole dich ab.",
+        "lv": "Jag hämtar dig."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "nehmen",
+        "meaning": "ta",
+        "example": "Nimm das Buch! – Ta boken!"
+      },
+      {
+        "word": "bringen",
+        "meaning": "ta med / komma med",
+        "example": "Ich bringe dir das Buch. – Jag tar med boken till dig."
+      },
+      {
+        "word": "holen",
+        "meaning": "hämta",
+        "example": "Ich hole Wasser. – Jag hämtar vatten."
+      },
+      {
+        "word": "mitnehmen",
+        "meaning": "ta med sig",
+        "example": "Ich nehme dich mit. – Jag tar med dig."
+      }
+    ],
+    "tip": {
+      "text": "Ta själv → nehmen; ta med något till någon → bringen."
+    },
+    "important": [
+      "Ich nehme den Bus = Jag tar bussen.",
+      "nehmen är inte samma sak som bringen."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -10208,26 +14771,121 @@
 
 **Audit ID:** `LRB099-0049`
 **Finding Stable ID:** `g2/a1/sv|neu|idx:439|lv, study|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0005`
 **Lang:** sv
 **Card:** `neu|idx:439`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** CRITICAL
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** jauns (par lietām)
-**DE reference (read-only):** neu
 **CURRENT (captured scope):** {"lv":"Uus (asjade kohta)","study.translation":"Uus (asjade kohta)","study.explanation":"[\"Põhiidee: neu tähendab uus asja mõttes — hiljuti loodud, soetatud või esimest korda kasutatud.\",\"Neu kirjeldab asju, seadmeid, riideid, maja, ideed jms — mitte inimese või looma vanust.\",\"Eesti keeles on need kaks tähendust eri sõnadega: noor vanuse kohta (jung) ja uus/hiljuti valminud asja kohta (neu).\",\"Inimese või looma vanuse kohta kasutatakse jung, mitte neu.\",\"Neu kasutatakse ka ülekantud tähenduses: uus töö, uus info, uus algus.\",\"Vastand on alt (vana) • Nimisõna das Neue tähendab midagi uut.\"]","study.examples":"[{\"de\":\"Mein Handy ist neu.\",\"lv\":\"Minu telefon on uus.\"},{\"de\":\"Wir haben ein neues Auto.\",\"lv\":\"Meil on uus auto.\"},{\"de\":\"Das ist meine neue Wohnung.\",\"lv\":\"See on minu uus korter.\"},{\"de\":\"Ich habe neue Schuhe gekauft.\",\"lv\":\"Ma ostsin uued kingad.\"},{\"de\":\"Das ist eine neue Idee.\",\"lv\":\"See on uus idee.\"},{\"de\":\"Er hat einen neuen Job.\",\"lv\":\"Tal on uus töö.\"},{\"de\":\"Was gibt es Neues?\",\"lv\":\"Mis uut?\"}]","study.tip":"[\"neu är för saker, enheter och nyheter — när man talar om en människas ålder använder man jung.\",\"Motsats: neu ↔ alt (ny ↔ gammal).\"]","study.important":"[\"neu beskriver saker och nyheter, inte en människas eller djurs ålder.\",\"För en människas eller ett djurs ålder använder man jung, inte neu.\",\"Felaktigt: Meine Schwester ist neu. → Korrekt: Meine Schwester ist jung.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts neu\|idx:439 (neu), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Uus (asjade kohta)","study.translation":"Uus (asjade kohta)","study.explanation":"[\"Põhiidee: ne…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ny","study.translation":"ny","study.explanation":"[\"Huvudidé: neu betyder ny om saker, idéer, arbeten och annat som nyligen skapats eller införskaffats.\",\"Om en människas eller ett djurs ålder används jung.\",\"Motsatsen är alt.\"]","study.examples":"[{\"de\":\"Mein Handy ist neu.\",\"lv\":\"Min mobil är ny.\"},{\"de\":\"Wir haben ein neues Auto.\",\"lv\":\"Vi har en ny bil.\"},{\"de\":\"Das ist meine neue Wohnung.\",\"lv\":\"Det här är min nya lägenhet.\"},{\"de\":\"Ich habe neue Schuhe gekauft.\",\"lv\":\"Jag har köpt nya skor.\"},{\"de\":\"Das ist eine neue Idee.\",\"lv\":\"Det är en ny idé.\"},{\"de\":\"Er hat einen neuen Job.\",\"lv\":\"Han har ett nytt jobb.\"},{\"de\":\"Was gibt es Neues?\",\"lv\":\"Vad är nytt?\"}]","study.tip":"[\"Nytt föremål eller nyhet → neu.\",\"Ung person eller ungt djur → jung.\"]","study.important":"[\"neu beskriver nya saker och nyheter, inte ålder.\",\"Säg Meine Schwester ist jung, inte *neu.\"]","study.sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}
+**Note:** OWNER approved override: neu: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "neu",
+  "lv": "ny",
+  "level": "A1",
+  "study": {
+    "id": "a1-neu",
+    "layout": "standardStudy",
+    "translation": "ny",
+    "explanation": [
+      "Huvudidé: neu betyder ny om saker, idéer, arbeten och annat som nyligen skapats eller införskaffats.",
+      "Om en människas eller ett djurs ålder används jung.",
+      "Motsatsen är alt."
+    ],
+    "examples": [
+      {
+        "de": "Mein Handy ist neu.",
+        "lv": "Min mobil är ny."
+      },
+      {
+        "de": "Wir haben ein neues Auto.",
+        "lv": "Vi har en ny bil."
+      },
+      {
+        "de": "Das ist meine neue Wohnung.",
+        "lv": "Det här är min nya lägenhet."
+      },
+      {
+        "de": "Ich habe neue Schuhe gekauft.",
+        "lv": "Jag har köpt nya skor."
+      },
+      {
+        "de": "Das ist eine neue Idee.",
+        "lv": "Det är en ny idé."
+      },
+      {
+        "de": "Er hat einen neuen Job.",
+        "lv": "Han har ett nytt jobb."
+      },
+      {
+        "de": "Was gibt es Neues?",
+        "lv": "Vad är nytt?"
+      }
+    ],
+    "tip": [
+      "Nytt föremål eller nyhet → neu.",
+      "Ung person eller ungt djur → jung."
+    ],
+    "important": [
+      "neu beskriver nya saker och nyheter, inte ålder.",
+      "Säg Meine Schwester ist jung, inte *neu."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -10435,26 +15093,83 @@
 
 **Audit ID:** `LRB099-0050`
 **Finding Stable ID:** `g2/a1/sv|noch mal|idx:701|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SV-L0004`
 **Lang:** sv
 **Card:** `noch mal|idx:701`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sv-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** vēlreiz
-**DE reference (read-only):** noch mal
 **CURRENT (captured scope):** {"lv":"Veel kord","study.translation":"Veel kord","study.explanation":"[\"Põhiidee: Tähendab veel kord — tegevust korrata või paluda kordamist.\"]","study.examples":"[{\"de\":\"Noch mal, bitte.\",\"lv\":\"Veel kord, palun.\"},{\"de\":\"Noch mal, bitte.\",\"lv\":\"Veel kord, palun.\"},{\"de\":\"Sag das noch mal.\",\"lv\":\"Ütle seda veel kord.\"}]","study.tip":"[\"Använd noch mal när sammanhanget motsvarar denna betydelse.\",\"Använd noch mal när sammanhanget motsvarar denna betydelse.\"]","study.important":"[\"Betyder igen — upprepa en handling eller be om upprepning.\",\"noch mal: kontrollera sammanhanget före användning.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individuāli pārskatīts sv ieraksts noch mal\|idx:701 (noch mal), ceļš 'lv, study': viena rinda aptver apakšlaukus lv, study.translation, study.explanation, study.examples, study.tip, kuru saturs sākas ar '{"lv":"Veel kord","study.translation":"Veel kord","study.explanation":"[\"Põhiidee: Tähendab veel kord —…'. Atsevišķās nozīmes nevar droši aizstāt ar vienu owner_new; vajadzīgs lauka līmeņa OWNER sadalījums.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"en gång till • igen","study.translation":"en gång till • igen","study.explanation":"[\"Huvudidé: noch mal betyder en gång till eller igen och används när en handling upprepas eller någon ber om en upprepning.\"]","study.examples":"[{\"de\":\"Noch mal, bitte.\",\"lv\":\"En gång till, tack.\"},{\"de\":\"Noch mal, bitte.\",\"lv\":\"En gång till, tack.\"},{\"de\":\"Sag das noch mal.\",\"lv\":\"Säg det igen.\"}]","study.tip":"[\"noch mal = en gång till / igen.\",\"Använd uttrycket när något ska upprepas.\"]","study.important":"[\"noch mal används för att be om eller beskriva en upprepning.\"]","study.sectionAccents":{"explanation":[{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{}]}}
+**Note:** OWNER approved override: noch mal: individually reviewed full SV composite requires exact language/semantic repair; DE/LV source meaning, grammar, examples and contrasts preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "noch mal",
+  "lv": "en gång till • igen",
+  "level": "A1",
+  "study": {
+    "id": "a1-noch-mal",
+    "layout": "standardStudy",
+    "translation": "en gång till • igen",
+    "explanation": [
+      "Huvudidé: noch mal betyder en gång till eller igen och används när en handling upprepas eller någon ber om en upprepning."
+    ],
+    "examples": [
+      {
+        "de": "Noch mal, bitte.",
+        "lv": "En gång till, tack."
+      },
+      {
+        "de": "Noch mal, bitte.",
+        "lv": "En gång till, tack."
+      },
+      {
+        "de": "Sag das noch mal.",
+        "lv": "Säg det igen."
+      }
+    ],
+    "tip": [
+      "noch mal = en gång till / igen.",
+      "Använd uttrycket när något ska upprepas."
+    ],
+    "important": [
+      "noch mal används för att be om eller beskriva en upprepning."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
