@@ -3,12 +3,13 @@
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-12T07:26:00.000Z",
-  "linguisticVerdict": "LRB_003_LINGUISTIC_REPAIR_PASS",
+  "linguisticVerdict": "LRB_003_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
-  "labot": 14,
-  "nelabot": 36,
+  "labot": 22,
+  "nelabot": 28,
   "pending": 0,
   "antiBulkPass": true,
+  "residualAuditPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   "individual_linguistic": 50,
   "provenance_individual_count": 50,
@@ -16,5 +17,5 @@
     "es": 49,
     "et": 1
   },
-  "note": "OWNER authorization recorded after GPT-5.6 Luna individual translation review. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER authorization recorded after GPT-5.6 Luna gala repair and full 50/50 residual audit. DE/production/Crowdin/ingest/apply unchanged."
 }

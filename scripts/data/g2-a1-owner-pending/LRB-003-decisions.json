@@ -1,52 +1,302 @@
 {
-  "g2/a1/es|bringen|idx:111|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MISTRANSLATION|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"{\"study.examples[0].lv\":\"Te traigo un libro.\",\"study.examples[1].lv\":\"Llevo el paquete a correos.\",\"study.examples[2].lv\":\"Llevo a los niños a la escuela.\",\"study.examples[3].lv\":\"Cojo el libro.\"}","owner_note":"ES bringen micro-repair: all four study.examples DE→ES aligned (Buch/Paket/Kinder/nehmen). DE untouched."},
-  "g2/a1/es|da|idx:126|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES da lv/allá: place-word teaching for da/tur (there/here) acceptable at A1."},
-  "g2/a1/es|dass|idx:130|study.comparison, study.important|MISTRANSLATION|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"{\"study.comparison.weil\":\"porque\",\"study.comparison.damit\":\"para que\",\"study.comparison.ob\":\"si\",\"study.important[0]\":\"Dass significa «que» e introduce una oración subordinada.\"}","owner_note":"ES dass micro-repair: comparison weil/porque, damit/para que, ob/si; important[0] dass=que subordinate clause. DE untouched."},
-  "g2/a1/es|Eis|idx:157|study.explanation; study.comparison[1].meaning|MISTRANSLATION|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"{\"study.comparison[1].meaning\":\"helado\",\"study.explanation[0]\":\"Idea principal: das Eis puede significar tanto hielo como helado.\"}","owner_note":"ES Eis micro-repair: comparison[1] helado; explanation[0] hielo/helado dual sense. DE untouched."},
-  "g2/a1/es|es|idx:167|study.examples; study.comparison[1].meaning|MEANING_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"{\"study.examples[0].lv\":\"Está lloviendo.\",\"study.examples[1].lv\":\"Hace frío.\",\"study.examples[3].lv\":\"Está cansado.\"}","owner_note":"ES es study.examples: impersonal/it-sentence lines scrambled; LABOT regnet/kalt/müde examples to weather/state Spanish."},
-  "g2/a1/es|essen|idx:690|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"cosa","owner_note":"ES essen study.explanation: DE-source leak «lluvia» in noun-sense line; LABOT to «cosa» (thing) like EN repair."},
-  "g2/a1/es|Essen|idx:691|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"{\"lv\":\"comida\",\"study.translation\":\"comida\",\"study.explanation[0]\":\"Idea principal: Sustantivo: alimento o comida.\",\"study.explanation[1]\":\"Das Essen significa principalmente comida o alimento.\",\"study.explanation[2]\":\"A menudo describe una cosa o una comida.\",\"study.explanation[3]\":\"Das Essen puede significar alimento o una comida completa.\",\"study.explanation[4]\":\"Es un sustantivo.\",\"study.tip[0]\":\"das Essen = comida\"}","owner_note":"ES Essen micro-repair: lv/translation noun-only comida; explanation[0–4] and tip[0] das Essen noun teaching. DE untouched."},
-  "g2/a1/es|Ferien|idx:694|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Ferien study: «vacaciones (escuela)» correctly renders school holidays/brīvdienas."},
-  "g2/a1/es|fernsehen|idx:687|lv, study.examples, study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES fernsehen: ver la televisión and ich sehe fern examples teach skatīties televizoru."},
-  "g2/a1/es|Fernsehen|idx:688|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Fernsehen study: televisión noun singular-only rule matches televīzija medium sense."},
-  "g2/a1/es|Gemüse|idx:692|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Gemüse study: «verduras» standard Spanish for vegetables/dārzeņi."},
-  "g2/a1/es|gut|idx:259|study.explanation; study.important; study.sectionAccents|MEANING_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES gut study: adjective/adverb vs das Gut noun distinction and Guten-Tag flexion correctly taught."},
-  "g2/a1/es|haben|idx:261|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES haben study: tener/tengo teaching for man ir/possession acceptable at A1."},
-  "g2/a1/es|halten|idx:265|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES halten study: mantener • detener covers hold/stop senses of turēt."},
-  "g2/a1/es|Hand|idx:267|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Hand study: mano (palma) with Arm/Hand distinction note matches plauksta scope."},
-  "g2/a1/es|heißen|idx:276|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES heißen study: ser llamado • significar covers name/meaning of saukties."},
-  "g2/a1/es|hoch|idx:285|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES hoch study: alto for height/tall augsts teaching is standard Spanish."},
-  "g2/a1/es|ins|idx:296|study|GRAMMAR_MEANING|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"hacia el • al","owner_note":"ES ins study.translation: «al • dentro del» awkward for movement; LABOT «hacia el • al» for in-das motion."},
-  "g2/a1/es|jung|idx:304|study|SEMANTIC_ACCURACY|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES jung study: joven for people/animals/things covers jauns person sense at A1."},
-  "g2/a1/es|können|idx:319|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES können study: ser capaz de • saber modal teaching aligns with varēt • prast."},
-  "g2/a1/es|kosten|idx:320|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"costar (precio), no pagar","owner_note":"ES kosten study.explanation: confuses pagar with costar; LABOT clarify costar=price vs bezahlen=pagar."},
-  "g2/a1/es|Laden|idx:349|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Laden study: tienda vs laden verb capitalization rule correctly taught for veikals."},
-  "g2/a1/es|Land|idx:351|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Land study: país • tierra dual sense matches valsts • zeme country/countryside."},
-  "g2/a1/es|lang|idx:352|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES lang study: largo • mucho tiempo covers long length vs long time garš • ilgs."},
-  "g2/a1/es|lassen|idx:356|study.explanation; study.examples; study.comparison; lv|SEMANTIC_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES lassen study: dejar/let examples and Lass mich phrase teach atstāt • ļaut acceptably."},
-  "g2/a1/es|laufen|idx:357|study.explanation; study.comparison; lv|SEMANTIC_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES laufen study: correr vs funcionar dual sense matches skriet • darboties contrast."},
-  "g2/a1/es|laut|idx:358|study.explanation; study.examples; lv|SEMANTIC_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES laut study: loud-volume adjective teaching for skaļš is linguistically sound."},
-  "g2/a1/es|Laut|idx:359|study.examples; study.explanation; lv|SEMANTIC_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"La música está alta.","owner_note":"ES Laut study.examples[1].lv: conflates Laut noun with laut adjective; LABOT «La música está alta» for Die Musik ist laut."},
-  "g2/a1/es|legen|idx:363|study.explanation; study.examples; study.important; lv|SEMANTIC_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES legen study: colocar horizontal placement teaching matches nolikt lay/put sense."},
-  "g2/a1/es|machen|idx:386|lv; study.explanation|MISTRANSLATION|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"hacer • cocinar","owner_note":"ES machen lv: duplicate «hacer • hacer»; LABOT to «hacer • cocinar» for darīt • taisīt dual sense."},
-  "g2/a1/es|Mann|idx:394|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Mann study: hombre • marido and mein Mann note match vīrietis • vīrs."},
-  "g2/a1/es|mit|idx:408|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES mit study: con and mit+dative examples correctly teach ar/with."},
-  "g2/a1/es|mögen|idx:413|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES mögen study: gustar and möchte contrast align with patikt teaching."},
-  "g2/a1/es|morgen|idx:417|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES morgen study: lowercase mañana adverb vs Morgen noun rule matches rīt/rīts."},
-  "g2/a1/es|Morgen|idx:418|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Morgen study: la mañana noun with article matches rīts morning sense."},
-  "g2/a1/es|nehmen|idx:435|study|MISTRANSLATION|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"coger • tomar","owner_note":"ES nehmen study.translation: duplicate «tomar • tomar»; LABOT «coger • tomar» for ņemt • paņemt take/pick-up."},
-  "g2/a1/es|Obst|idx:693|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Obst study: frutas plural-only mass noun teaching matches augļi."},
-  "g2/a1/es|oder|idx:459|study.comparison[1].meaning; study.tip.text|MEANING_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"o (elección)","owner_note":"ES oder comparison[1].meaning: «o en pregunta indirecta» is ob not oder; LABOT «o (elección)» for vai • jeb."},
-  "g2/a1/es|passen|idx:471|study.comparison[1].meaning; study.tip.text|MEANING_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"encajar • quedar bien","owner_note":"ES passen comparison[1]: duplicate «estar de pie»; LABOT «encajar • quedar bien» for derēt • piestāvēt fit sense."},
-  "g2/a1/es|sicher|idx:548|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES sicher study: seguro • ciertamente covers safe vs certainly drošs • noteikti."},
-  "g2/a1/es|sie|idx:549|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES sie study: ellos/ella overview for plural/feminine sie forms acceptable at A1."},
-  "g2/a1/es|Sie|idx:550|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Sie study: usted formal address with capital S matches jūs polite form."},
-  "g2/a1/es|sitzen|idx:558|lv, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"LABOT","owner_new":"Él está de pie en la puerta.","owner_note":"ES sitzen study.examples[2].lv: «sentado» for Er steht; LABOT «de pie» (standing) to contrast sitzen/stehen."},
-  "g2/a1/es|sollen|idx:564|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES sollen study: debería obligation-from-instruction sense matches vajadzētu."},
-  "g2/a1/es|Urlaub|idx:695|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES Urlaub study: vacaciones singular holiday/vacation sense matches atvaļinājums."},
-  "g2/a1/es|vom|idx:634|lv, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES vom study: von+dem contraction and de/from examples teach no correctly."},
-  "g2/a1/es|vor|idx:636|lv, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES vor study: antes • delante de temporal/spatial contrast matches pirms • priekšā."},
-  "g2/a1/es|wenn|idx:655|lv, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES wenn study: si • cuando conditional/temporal split matches ja • kad."},
-  "g2/a1/es|zum|idx:672|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ES zum study: zu+dem a/en direction examples and zur contrast teach uz • pie."},
-  "g2/a1/et|Appetit|idx:689|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna": {"owner_status":"DECIDED","owner_decision":"NELABOT","owner_new":"","owner_note":"ET Appetit study: isu is correct Estonian for appetite/apetīte; Guten Appetit example proper."}
+  "g2/a1/es|bringen|idx:111|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"traer • llevar\",\"study.translation\":\"traer • llevar\",\"study.explanation\":[\"Idea principal: bringen significa traer o llevar algo a alguien o a un lugar.\",\"Bringen se usa cuando algo se traslada hacia otra persona o hacia otro sitio.\",\"No es lo mismo que nehmen: nehmen significa tomar o coger para uno mismo.\",\"Holen significa ir a buscar o recoger algo.\",\"Mitbringen significa traer consigo algo.\"],\"study.examples[0].lv\":\"Te traigo un libro.\",\"study.examples[1].lv\":\"Llevo el paquete a correos.\",\"study.examples[2].lv\":\"Llevo a los niños a la escuela.\",\"study.examples[3].lv\":\"Cojo el libro.\",\"study.comparison[0].meaning\":\"traer / llevar\",\"study.comparison[0].example\":\"Ich bringe dir ein Buch. – Te traigo un libro.\",\"study.comparison[1].meaning\":\"tomar / coger\",\"study.comparison[1].example\":\"Ich nehme das Buch. – Cojo el libro.\",\"study.comparison[2].meaning\":\"ir a buscar / recoger\",\"study.comparison[2].example\":\"Ich hole Wasser. – Voy a buscar agua.\",\"study.comparison[3].meaning\":\"traer consigo\",\"study.comparison[3].example\":\"Bringst du Brot mit? – ¿Traes pan contigo?\",\"study.comparison[4].meaning\":\"entregar / llevar a un lugar\",\"study.comparison[4].example\":\"Ich bringe das Paket zur Post. – Llevo el paquete a correos.\",\"study.important[0]\":\"Bringen muestra dirección hacia alguien o hacia un lugar.\",\"study.important[1]\":\"nehmen = tomar para uno mismo; holen = ir a buscar; mitbringen = traer consigo.\",\"study.important[2]\":\"La traducción depende del contexto: traer hacia aquí o llevar hacia allí.\"}",
+    "owner_note": "ES bringen gala: traer/llevar by direction; nehmen/holen/mitbringen contrasts; DE↔ES examples index-by-index; remove letón residue. DE untouched."
+  },
+  "g2/a1/es|da|idx:126|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ahí • allí\",\"study.translation\":\"ahí • allí\",\"study.explanation\":[\"Idea principal: da en el nivel A1 suele significar ahí o allí.\",\"da indica un lugar o se refiere a algo ya mencionado.\",\"Dependiendo del contexto también puede traducirse como aquí (cuando algo se acerca).\",\"En el nivel A1 aprendemos principalmente da como palabra de lugar general.\"],\"study.examples[0].lv\":\"Ahí está mi auto.\",\"study.examples[1].lv\":\"Yo estuve allí.\",\"study.examples[2].lv\":\"Ahí viene.\",\"study.examples[3].lv\":\"¡Ven aquí!\",\"study.comparison[0].meaning\":\"ahí • allí (general)\",\"study.comparison[0].example\":\"Da ist mein Auto. – Ahí está mi auto.\",\"study.comparison[1].meaning\":\"aquí (lugar concreto)\",\"study.comparison[1].example\":\"Hier ist mein Auto. – Aquí está mi auto.\",\"study.comparison[2].meaning\":\"allí (más lejos)\",\"study.comparison[2].example\":\"Dort ist mein Auto. – Allí está mi auto.\",\"study.comparison[3].meaning\":\"entonces\",\"study.comparison[3].example\":\"Dann gehen wir nach Hause. – Entonces nos vamos a casa.\",\"study.important[0]\":\"da es un adverbio de lugar general.\",\"study.important[1]\":\"hier = aquí concreto; dort = allí más lejos.\"}",
+    "owner_note": "ES da gala: source tur→ahí/allí; no duplicate aquí•aquí; full explanation/comparison audit. DE untouched."
+  },
+  "g2/a1/es|dass|idx:130|study.comparison, study.important|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"que\",\"study.comparison[0].example\":\"Ich weiß, dass er kommt. – Sé que vendrá.\",\"study.comparison[1].meaning\":\"porque\",\"study.comparison[1].example\":\"Ich bleibe zu Hause, weil es regnet. – Me quedo en casa porque está lloviendo.\",\"study.comparison[2].meaning\":\"para que\",\"study.comparison[2].example\":\"Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Aprendo alemán para poder trabajar en Alemania.\",\"study.comparison[3].meaning\":\"si\",\"study.comparison[3].example\":\"Ich weiß nicht, ob er kommt. – No sé si vendrá.\",\"study.important[0]\":\"Dass introduce una oración subordinada con «que»; no significa «eso».\",\"study.important[1]\":\"No confundir dass (que) con das (artículo o «eso»).\"}",
+    "owner_note": "ES dass gala: dass=que; weil=porque; damit=para que; ob=si; dass≠eso; full comparison/important cleanup. DE untouched."
+  },
+  "g2/a1/es|Eis|idx:157|study.explanation; study.comparison[1].meaning|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[0]\":\"Idea principal: das Eis puede significar hielo o helado.\",\"study.comparison[1].meaning\":\"helado\"}",
+    "owner_note": "ES Eis gala: explanation hielo/helado dual sense; comparison[1] helado not nevará. DE untouched."
+  },
+  "g2/a1/es|es|idx:167|study.examples; study.comparison[1].meaning|MEANING_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Está lloviendo.\",\"study.examples[1].lv\":\"Hace frío.\",\"study.examples[2].lv\":\"El niño está durmiendo.\",\"study.examples[3].lv\":\"Está cansado.\",\"study.examples[4].lv\":\"Está lloviendo.\",\"study.examples[5].lv\":\"Nieva.\",\"study.comparison[0].meaning\":\"ello / forma impersonal\",\"study.comparison[1].meaning\":\"él (pronombre)\"}",
+    "owner_note": "ES es gala: impersonal weather/state examples DE↔ES index-by-index; comparison meanings fixed. DE untouched."
+  },
+  "g2/a1/es|essen|idx:690|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[4]\":\"A menudo describe: acción o cosa.\"}",
+    "owner_note": "ES essen gala: explanation[4] lluvia→acción/cosa (noun-sense leak fix). DE untouched."
+  },
+  "g2/a1/es|Essen|idx:691|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"comida\",\"study.translation\":\"comida\",\"study.explanation[0]\":\"Idea principal: Sustantivo: alimento o comida.\",\"study.explanation[1]\":\"Das Essen significa principalmente comida o alimento.\",\"study.explanation[2]\":\"A menudo describe una comida o un alimento.\",\"study.explanation[3]\":\"Das Essen puede significar alimento o una comida completa.\",\"study.explanation[4]\":\"Es un sustantivo.\",\"study.tip[0]\":\"das Essen = comida\"}",
+    "owner_note": "ES Essen gala: lv/translation noun-only comida; explanation/tip das Essen noun teaching. DE untouched."
+  },
+  "g2/a1/es|Ferien|idx:694|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES Ferien: vacaciones escolares plural-only rule and in den Ferien usage correctly taught. DE untouched."
+  },
+  "g2/a1/es|fernsehen|idx:687|lv, study.examples, study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES fernsehen: ver la televisión and ich sehe fern examples teach skatīties televizoru. DE untouched."
+  },
+  "g2/a1/es|Fernsehen|idx:688|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES Fernsehen study: televisión noun singular-only rule matches televīzija medium sense. DE untouched."
+  },
+  "g2/a1/es|Gemüse|idx:692|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES Gemüse study: verduras standard Spanish for vegetables/dārzeņi. DE untouched."
+  },
+  "g2/a1/es|gut|idx:259|study.explanation; study.important; study.sectionAccents|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES gut study: adjective/adverb vs das Gut noun distinction and Guten-Tag flexion correctly taught. DE untouched."
+  },
+  "g2/a1/es|haben|idx:261|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES haben study: tener/tengo teaching for man ir/possession acceptable at A1. DE untouched."
+  },
+  "g2/a1/es|halten|idx:265|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES halten study: mantener • detener covers hold/stop senses of turēt. DE untouched."
+  },
+  "g2/a1/es|Hand|idx:267|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES Hand study: mano (palma) with Arm/Hand distinction note matches plauksta scope. DE untouched."
+  },
+  "g2/a1/es|heißen|idx:276|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES heißen study: ser llamado • significar covers name/meaning of saukties. DE untouched."
+  },
+  "g2/a1/es|hoch|idx:285|lv, study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"alto\",\"study.translation\":\"alto\",\"study.explanation\":[\"Idea principal: hoch describe altura vertical, nivel o altura.\",\"hoch significa grande en altura o elevado.\",\"Se usa para montañas, paredes, precios y niveles.\"],\"study.examples[0].lv\":\"La montaña es alta.\",\"study.examples[1].lv\":\"La estantería mide dos metros de alto.\",\"study.examples[2].lv\":\"El alquiler es alto.\",\"study.examples[3].lv\":\"La pared es alta.\",\"study.examples[4].lv\":\"Los precios son altos.\",\"study.tip[0]\":\"hoch = alto (altura o nivel)\",\"study.important[0]\":\"hoch se utiliza para altura física y también para precios o niveles altos.\",\"study.important[1]\":\"No confundir hoch (alto) con groß (grande en tamaño general).\"}",
+    "owner_note": "ES hoch gala: all DE↔ES examples aligned; Regal→La estantería mide dos metros de alto; remove augsts residue. DE untouched."
+  },
+  "g2/a1/es|ins|idx:296|study|GRAMMAR_MEANING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"al • hacia el\",\"study.explanation\":[\"ins es una contracción de in + das.\",\"Forma completa: in das (¿adónde?).\",\"Se usa con sustantivos neutros en singular para movimiento hacia dentro.\",\"Responde a ¿adónde? (Wohin?), no a ¿dónde?.\",\"A menudo con verbos: gehen, fahren, kommen, legen, stecken.\"],\"study.examples[0].lv\":\"Voy al cine.\",\"study.examples[1].lv\":\"Ella se va a dormir.\",\"study.examples[2].lv\":\"Nos vamos al extranjero.\",\"study.examples[3].lv\":\"¡Ven a la casa!\",\"study.examples[4].lv\":\"Pone el dinero en su billetera.\",\"study.examples[5].lv\":\"Vamos al museo.\",\"study.examples[6].lv\":\"Ella pone las flores en el agua.\",\"study.examples[7].lv\":\"Por favor, ve al centro.\",\"study.comparison[0].meaning\":\"hacia dentro (¿adónde?)\",\"study.comparison[0].example\":\"ins Kino – al cine\",\"study.comparison[1].meaning\":\"¿dónde? (ubicación)\",\"study.comparison[1].example\":\"im Kino – en el cine\",\"study.comparison[2].meaning\":\"en / a (con artículo aparte)\",\"study.comparison[2].example\":\"in die Stadt – a la ciudad\",\"study.comparison[3].meaning\":\"hacia una superficie (acusativo)\",\"study.comparison[3].example\":\"aufs Dach – hacia el tejado\",\"study.comparison[4].meaning\":\"a / hacia (¿adónde?)\",\"study.comparison[4].example\":\"zum Arzt – al médico\",\"study.tip[0]\":\"Recuerda: in + das → ins (¿adónde?). im = ¿dónde? (ubicación).\",\"study.important[0]\":\"ins = in das, solo con sustantivo neutro en singular.\",\"study.important[1]\":\"¿Adónde? → ins; ¿dónde? → im — movimiento, no ubicación.\",\"study.important[2]\":\"Para masculino: in den Wald; para femenino: in die Schule.\",\"study.important[3]\":\"No confundir: ins Kino gehen (al cine) vs. im Kino sein (estar en el cine).\"}",
+    "owner_note": "ES ins gala: in+das neuter; Wohin/Akk ¿adónde? not ¿dónde?; no kurp/LV residue; full explanation/tip/important/comparison. DE untouched."
+  },
+  "g2/a1/es|jung|idx:304|study|SEMANTIC_ACCURACY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"joven (personas y animales)\",\"study.explanation\":[\"Idea principal: jung significa joven en edad; se usa para personas y animales, no para objetos.\",\"jung describe la edad; el contraste es alt (viejo).\",\"Para cosas nuevas o recientes, utilice neu, no jung.\",\"jung también se usa en sentido figurado: gente joven, pareja joven.\",\"También existe el sustantivo die Jugend (juventud).\"],\"study.tip[0]\":\"jung = joven (personas y animales); para cosas nuevas use neu.\",\"study.important[0]\":\"jung describe edad de personas o animales, no la novedad de los objetos.\",\"study.important[1]\":\"Incorrecto: Mein Handy ist jung. → Correcto: Mein Handy ist neu.\"}",
+    "owner_note": "ES jung gala: joven=personas/animales; neu for things; no vecumu LV residue; translation/explanation aligned. DE untouched."
+  },
+  "g2/a1/es|können|idx:319|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES können study: ser capaz de • saber modal teaching aligns with varēt • prast. DE untouched."
+  },
+  "g2/a1/es|kosten|idx:320|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[5].lv\":\"¿Puedo pagar en efectivo?\",\"study.examples[6].lv\":\"Paga con tarjeta.\",\"study.examples[7].lv\":\"Pago ahora.\",\"study.comparison[1].meaning\":\"pagar\",\"study.comparison[2].meaning\":\"pagar\"}",
+    "owner_note": "ES kosten gala: fix scrambled bezahlen/zahlen examples; kosten vs bezahlen comparison meanings. DE untouched."
+  },
+  "g2/a1/es|Laden|idx:349|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES Laden study: tienda vs laden verb capitalization rule correctly taught for veikals. DE untouched."
+  },
+  "g2/a1/es|Land|idx:351|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES Land study: país • tierra dual sense matches valsts • zeme country/countryside. DE untouched."
+  },
+  "g2/a1/es|lang|idx:352|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES lang study: largo • mucho tiempo covers long length vs long time garš • ilgs. DE untouched."
+  },
+  "g2/a1/es|lassen|idx:356|study.explanation; study.examples; study.comparison; lv|SEMANTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES lassen study: dejar/let examples and Lass mich phrase teach atstāt • ļaut acceptably. DE untouched."
+  },
+  "g2/a1/es|laufen|idx:357|study.explanation; study.comparison; lv|SEMANTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES laufen study: correr vs funcionar dual sense matches skriet • darboties contrast. DE untouched."
+  },
+  "g2/a1/es|laut|idx:358|study.explanation; study.examples; lv|SEMANTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES laut study: loud-volume adjective teaching for skaļš is linguistically sound. DE untouched."
+  },
+  "g2/a1/es|Laut|idx:359|study.examples; study.explanation; lv|SEMANTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"El sonido es hermoso.\",\"study.examples[1].lv\":\"La música está alta.\",\"study.examples[2].lv\":\"¡No hables tan alto!\",\"study.examples[3].lv\":\"Es muy ruidoso.\",\"study.examples[4].lv\":\"El sonido es hermoso.\",\"study.examples[5].lv\":\"Escucho un sonido.\"}",
+    "owner_note": "ES Laut gala: noun laut vs adjective laut examples DE↔ES index-by-index. DE untouched."
+  },
+  "g2/a1/es|legen|idx:363|study.explanation; study.examples; study.important; lv|SEMANTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES legen study: colocar horizontal placement teaching matches nolikt lay/put sense. DE untouched."
+  },
+  "g2/a1/es|machen|idx:386|lv; study.explanation|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hacer • cocinar\",\"study.explanation[0]\":\"Idea principal: machen es una palabra muy común que significa hacer.\",\"study.explanation[1]\":\"Si se trata de acción en general, se traduce como hacer.\",\"study.explanation[2]\":\"Si se prepara algo, se traduce como hacer o cocinar.\"}",
+    "owner_note": "ES machen gala: source darīt•taisīt→hacer•cocinar; remove duplicate hacer•hacer. DE untouched."
+  },
+  "g2/a1/es|Mann|idx:394|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES Mann study: hombre • marido and mein Mann note match vīrietis • vīrs. DE untouched."
+  },
+  "g2/a1/es|mit|idx:408|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES mit study: con and mit+dative examples correctly teach ar/with. DE untouched."
+  },
+  "g2/a1/es|mögen|idx:413|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES mögen study: gustar and möchte contrast align with patikt teaching. DE untouched."
+  },
+  "g2/a1/es|morgen|idx:417|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"mañana\",\"study.translation\":\"mañana\",\"study.explanation\":[\"Idea principal: morgen en minúscula es un adverbio de tiempo.\",\"Significa el día siguiente: mañana.\",\"No confundir con der Morgen (sustantivo, la mañana como parte del día).\"],\"study.examples[0].lv\":\"Vengo mañana.\",\"study.examples[1].lv\":\"¡Hasta mañana!\",\"study.examples[2].lv\":\"Vengo mañana.\",\"study.examples[3].lv\":\"Mañana es lunes.\",\"study.examples[4].lv\":\"Buenos días.\",\"study.examples[5].lv\":\"La mañana es hermosa.\",\"study.tip[0]\":\"morgen = mañana (adverbio); der Morgen = la mañana (sustantivo).\",\"study.important[0]\":\"morgen en minúscula = mañana (adverbio de tiempo).\",\"study.important[1]\":\"der Morgen con mayúscula = la mañana (sustantivo).\",\"study.important[2]\":\"Guten Morgen! = Buenos días (no confundir con morgen adverbio).\",\"study.important[3]\":\"Incorrecto: Guten morgen! → Correcto: Guten Morgen!\"}",
+    "owner_note": "ES morgen gala: adverb mañana; Ich komme morgen=Vengo mañana; Bis morgen=Hasta mañana; full cleanup. DE untouched."
+  },
+  "g2/a1/es|Morgen|idx:418|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"la mañana\",\"study.translation\":\"la mañana\",\"study.explanation\":[\"Idea principal: der Morgen es un sustantivo con artículo.\",\"Significa la mañana como parte del día.\",\"No confundir con morgen en minúscula (mañana, día siguiente).\"],\"study.examples[0].lv\":\"Buenos días.\",\"study.examples[1].lv\":\"¡Hasta mañana!\",\"study.examples[2].lv\":\"Vengo mañana.\",\"study.examples[3].lv\":\"Mañana es lunes.\",\"study.examples[4].lv\":\"Buenos días.\",\"study.examples[5].lv\":\"La mañana es hermosa.\",\"study.tip[0]\":\"der Morgen = la mañana (sustantivo); morgen = mañana (adverbio).\",\"study.important[0]\":\"der Morgen = la mañana (parte del día).\",\"study.important[1]\":\"morgen en minúscula = mañana (día siguiente).\",\"study.important[2]\":\"Guten Morgen! = Buenos días.\",\"study.important[3]\":\"Incorrecto: Guten morgen! → Correcto: Guten Morgen!\"}",
+    "owner_note": "ES Morgen gala: der Morgen=la mañana; Guten Morgen=Buenos días; full explanation/examples/tip/important cleanup. DE untouched."
+  },
+  "g2/a1/es|nehmen|idx:435|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"coger • tomar\",\"study.explanation\":[\"Idea principal: nehmen significa tomar o coger.\",\"nehmen se usa cuando tomas algo para ti o eliges.\",\"No es lo mismo que bringen: bringen significa traer o llevar a alguien.\",\"Holen significa ir a buscar o recoger.\",\"Mitnehmen significa llevar consigo.\"],\"study.examples[0].lv\":\"Tomo el autobús.\",\"study.examples[1].lv\":\"¡Toma el libro!\",\"study.examples[2].lv\":\"Te traigo el libro.\",\"study.examples[3].lv\":\"Voy a recogerte.\",\"study.comparison[0].meaning\":\"tomar / coger\",\"study.comparison[0].example\":\"Nimm das Buch! – ¡Toma el libro!\",\"study.comparison[1].meaning\":\"traer / llevar\",\"study.comparison[1].example\":\"Ich bringe dir das Buch. – Te traigo el libro.\",\"study.comparison[2].meaning\":\"ir a buscar / recoger\",\"study.comparison[2].example\":\"Ich hole dich ab. – Voy a recogerte.\",\"study.comparison[3].meaning\":\"llevar consigo\",\"study.comparison[3].example\":\"Ich nehme dich mit. – Te llevo conmigo.\",\"study.tip[0]\":\"Recuerda: tomar para ti → nehmen; traer a alguien → bringen.\",\"study.important[0]\":\"Ich nehme den Bus significa «Tomo el autobús».\",\"study.important[1]\":\"nehmen no es lo mismo que bringen ni holen.\"}",
+    "owner_note": "ES nehmen gala: coger•tomar; Ich nehme den Bus=Tomo el autobús; bringen/holen/mitnehmen contrasts; full examples/comparison/important. DE untouched."
+  },
+  "g2/a1/es|Obst|idx:693|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fruta\",\"study.translation\":\"fruta\",\"study.explanation\":[\"Idea principal: das Obst significa fruta en general (sentido colectivo o de masa).\",\"En alemán das Obst es sustantivo neutro en singular.\",\"En español suele traducirse como fruta (colectivo) o frutas según el contexto.\",\"No existe la forma plural incorrecta *die Obsts.\"],\"study.examples[0].lv\":\"Comemos mucha fruta.\",\"study.examples[1].lv\":\"Comemos mucha fruta.\",\"study.examples[2].lv\":\"La fruta es saludable.\",\"study.examples[3].lv\":\"Me gustan la fruta y las verduras.\",\"study.examples[4].lv\":\"Comemos fruta.\",\"study.tip[0]\":\"das Obst = fruta (en general)\",\"study.important[0]\":\"Incorrecto: die Obsts → Correcto: das Obst\",\"study.important[1]\":\"das Obst = fruta en general; en contexto puede aparecer como frutas.\"}",
+    "owner_note": "ES Obst gala: fruta collective/mass sense; no cualquier género claim; A1 singular usage explained. DE untouched."
+  },
+  "g2/a1/es|oder|idx:459|study.comparison[1].meaning; study.tip.text|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"o (elección)\"}",
+    "owner_note": "ES oder gala: comparison[1] ob-indirect-question→o (elección) for vai•jeb. DE untouched."
+  },
+  "g2/a1/es|passen|idx:471|study.comparison[1].meaning; study.tip.text|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"encajar • quedar bien\"}",
+    "owner_note": "ES passen gala: comparison[1] duplicate estar de pie→encajar•quedar bien for derēt•piestāvēt. DE untouched."
+  },
+  "g2/a1/es|sicher|idx:548|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES sicher study: seguro • ciertamente covers safe vs certainly drošs • noteikti. DE untouched."
+  },
+  "g2/a1/es|sie|idx:549|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES sie study: ellos/ella overview for plural/feminine sie forms acceptable at A1. DE untouched."
+  },
+  "g2/a1/es|Sie|idx:550|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES Sie study: usted formal address with capital S matches jūs polite form. DE untouched."
+  },
+  "g2/a1/es|sitzen|idx:558|lv, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"estar sentado\",\"study.translation\":\"estar sentado\",\"study.examples[0].lv\":\"Estoy sentado a la mesa.\",\"study.examples[1].lv\":\"Los niños están sentados en el autobús.\",\"study.examples[2].lv\":\"Él está de pie en la puerta.\",\"study.examples[3].lv\":\"El gato está tumbado en el sofá.\",\"study.comparison[0].meaning\":\"estar sentado\",\"study.comparison[0].example\":\"Ich sitze am Tisch. – Estoy sentado a la mesa.\",\"study.comparison[1].meaning\":\"estar de pie\",\"study.comparison[1].example\":\"Er steht an der Tür. – Él está de pie en la puerta.\",\"study.comparison[2].meaning\":\"estar tumbado / yacer\",\"study.comparison[2].example\":\"Die Katze liegt auf dem Sofa. – El gato está tumbado en el sofá.\",\"study.comparison[3].meaning\":\"sentar / sentarse\",\"study.comparison[3].example\":\"Ich setze mich. – Me siento.\"}",
+    "owner_note": "ES sitzen gala: sitzen=estar sentado; stehen/liegen/setzen contrasts; cat example fixed. DE untouched."
+  },
+  "g2/a1/es|sollen|idx:564|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"deber • tener que (por indicación)\",\"study.translation\":\"deber • tener que (por indicación)\",\"study.explanation\":[\"Idea principal: sollen expresa que alguien debe hacer algo según una indicación.\",\"sollen se usa cuando otra persona dice qué hacer.\",\"No es tan fuerte como müssen (obligación más firme).\",\"Una frase muy común es Was soll ich machen? = ¿Qué debo hacer?\"],\"study.examples[0].lv\":\"¿Qué debo hacer?\",\"study.examples[1].lv\":\"Debes venir.\",\"study.examples[2].lv\":\"Debo quedarme en casa.\",\"study.examples[3].lv\":\"Tengo que irme ahora.\",\"study.comparison[0].meaning\":\"deber / tener que (por indicación)\",\"study.comparison[0].example\":\"Was soll ich machen? – ¿Qué debo hacer?\",\"study.comparison[1].meaning\":\"tener que (obligación fuerte)\",\"study.comparison[1].example\":\"Ich muss gehen. – Tengo que irme.\",\"study.comparison[2].meaning\":\"poder\",\"study.comparison[2].example\":\"Ich kann kommen. – Puedo venir.\",\"study.comparison[3].meaning\":\"querer\",\"study.comparison[3].example\":\"Ich will bleiben. – Quiero quedarme.\",\"study.tip[0]\":\"Alguien indica qué hacer → sollen; obligación fuerte → müssen.\",\"study.important[0]\":\"Was soll ich machen? es una frase muy común.\",\"study.important[1]\":\"sollen y müssen no son exactamente lo mismo.\"}",
+    "owner_note": "ES sollen gala: deber/tener que por indicación; Was soll ich machen fixed; full examples/comparison/important. DE untouched."
+  },
+  "g2/a1/es|Urlaub|idx:695|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vacaciones • permiso laboral\",\"study.translation\":\"vacaciones • permiso laboral\",\"study.explanation\":[\"Idea principal: der Urlaub significa vacaciones o permiso laboral.\",\"Se refiere al tiempo libre del trabajo (im Urlaub).\",\"En alemán der Urlaub es sustantivo masculino en singular.\",\"No confundir con die Ferien (vacaciones escolares, siempre plural).\"],\"study.examples[0].lv\":\"Mi padre está de vacaciones.\",\"study.examples[1].lv\":\"Mi padre está de vacaciones.\",\"study.examples[2].lv\":\"Tengo vacaciones la próxima semana.\",\"study.examples[3].lv\":\"Estamos de vacaciones en España.\",\"study.examples[4].lv\":\"De vacaciones (del trabajo).\",\"study.comparison[0].meaning\":\"vacaciones laborales\",\"study.comparison[0].example\":\"Mein Vater ist im Urlaub. – Mi padre está de vacaciones.\",\"study.comparison[1].meaning\":\"vacaciones escolares\",\"study.comparison[1].example\":\"Die Kinder haben Ferien. – Los niños tienen vacaciones escolares.\",\"study.tip[0]\":\"der Urlaub = vacaciones del trabajo; die Ferien = vacaciones escolares.\",\"study.important[0]\":\"der Urlaub = vacaciones o permiso laboral (im Urlaub).\",\"study.important[1]\":\"die Ferien = vacaciones escolares (in den Ferien), no lo mismo que Urlaub.\"}",
+    "owner_note": "ES Urlaub gala: vacaciones/permiso laboral; no absolute solo-singular claim; Ferien≠solo estudiantes oversimplification removed. DE untouched."
+  },
+  "g2/a1/es|vom|idx:634|lv, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES vom study: von+dem contraction and de/from examples teach no correctly. DE untouched."
+  },
+  "g2/a1/es|vor|idx:636|lv, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES vor study: antes • delante de temporal/spatial contrast matches pirms • priekšā. DE untouched."
+  },
+  "g2/a1/es|wenn|idx:655|lv, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES wenn study: si • cuando conditional/temporal split matches ja • kad. DE untouched."
+  },
+  "g2/a1/es|zum|idx:672|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ES zum study: zu+dem a/en direction examples and zur contrast teach uz • pie. DE untouched."
+  },
+  "g2/a1/et|Appetit|idx:689|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "ET Appetit study: isu is correct Estonian for appetite/apetīte; Guten Appetit example proper. DE untouched."
+  }
 }
