@@ -2,8 +2,9 @@
   "batch_id": "LRB-001",
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
-  "authorizedAt": "2026-09-12T07:30:00.000Z",
+  "authorizedAt": "2026-09-12T08:25:00.000Z",
   "linguisticVerdict": "LRB_001_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "metadataSyncVerdict": "LRB_001_AUTHORIZATION_METADATA_SYNC_PASS",
   "row_count": 50,
   "labot": 17,
   "nelabot": 33,
@@ -19,5 +20,13 @@
     "cs": 6,
     "da": 3
   },
-  "note": "OWNER authorization after GPT-5.6 Luna gala repair and full 50/50 residual audit. DE/production/Crowdin/ingest/apply unchanged."
+  "metadataSync": {
+    "replacedVerdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
+    "replacedCounts": "12 / 38 / 0",
+    "finalVerdict": "LRB_001_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+    "finalCounts": "17 / 33 / 0",
+    "decisionsUnchanged": true,
+    "newLunaReview": false
+  },
+  "note": "Authorization metadata synced to gala final state (17 LABOT / 33 NELABOT). OWNER decisions unchanged. DE/production/Crowdin/ingest/apply unchanged."
 }
