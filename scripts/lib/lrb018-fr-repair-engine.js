@@ -62,21 +62,48 @@ function loadFrNested(cardKey) {
 function repairAn(out) {
   out.lv = "À • Au • Près";
   out.study.translation = "À • Au • Près";
+  out.study.explanation =
+    "Utilisé lorsque quelque chose se trouve près d'un mur, d'une fenêtre, d'une porte, d'une rivière, d'un bord de mer ou de tout autre bord/surface.";
   out.study.examples = [
     { de: "an der Wand", lv: "Sur le mur" },
     { de: "am Fenster", lv: "À la fenêtre" },
     { de: "am Meer", lv: "Au bord de la mer" },
   ];
-  out.study.tip = { text: "Rappel : mur/fenêtre/bord → an." };
+  out.study.comparison = [
+    {
+      word: "an",
+      meaning: "Sur une surface ou en bordure",
+      example: "an der Wand – Sur le mur",
+    },
+    {
+      word: "auf",
+      meaning: "Sur une surface horizontale",
+      example: "auf dem Tisch – Sur la table",
+    },
+    {
+      word: "bei",
+      meaning: "Chez une personne ou un lieu",
+      example: "beim Arzt – Chez le médecin",
+    },
+  ];
+  out.study.tip = { text: "Rappel : mur, fenêtre, bord → an." };
+  out.study.important = [
+    "An indique souvent le contact avec une surface, un mur, une fenêtre ou un bord — pas une simple proximité vague.",
+    "Auf s'utilise généralement sur une surface horizontale.",
+  ];
   out.study.sectionAccents = {
     examples: [
       { de: { blue: ["an"] }, lv: { purple: ["Sur"] } },
       { de: { blue: ["am"] }, lv: { purple: ["fenêtre"] } },
       { de: { blue: ["am"] }, lv: { purple: ["bord"] } },
     ],
-    comparison: out.study.sectionAccents?.comparison || out.study.comparison?.map(() => ({})),
+    comparison: [
+      { word: { green: ["an"] }, example: { green: ["an"], purple: ["Wand"] } },
+      { word: { green: ["auf"] }, example: { yellow: ["auf"], purple: ["Tisch"] } },
+      { word: { green: ["bei"] }, example: { red: ["beim"], purple: ["Arzt"] } },
+    ],
     tip: { left: { blue: ["an"], purple: ["Rappel"], green: ["mur", "fenêtre", "bord"] } },
-    important: [{ purple: ["n'est"] }],
+    important: [{ purple: ["surface", "bord"] }],
   };
 }
 
@@ -90,9 +117,8 @@ function repairAppetit(out) {
   ];
   out.study.important = [
     "Der Appetit est au singulier seulement.",
-    "Incorrect : l'appétit → Correct : der Appetit",
-    "Incorrect : Ich bin Appetit. → Correct : J'ai de l'appétit.",
-    "Ressentez : l'appétit.",
+    "Incorrect : die Appetite → Correct : der Appetit",
+    "Incorrect : Ich bin Appetit. → Correct : Ich habe Appetit.",
   ];
   out.study.sectionAccents = {
     explanation: { purple: ["Appétit"] },
@@ -102,7 +128,7 @@ function repairAppetit(out) {
       { de: { blue: ["Appetit"] }, lv: { purple: ["appétit"] } },
     ],
     tip: [{ purple: ["Appétit"] }],
-    important: [{ blue: ["der Appetit"] }],
+    important: [{ blue: ["der Appetit"], purple: ["Ich habe Appetit"] }],
   };
 }
 
@@ -124,12 +150,12 @@ function repairBitte(out) {
     {
       word: "bitte",
       meaning: "S'il te plaît",
-      example: "Entre, s'il te plaît. – Entre, s'il te plaît.",
+      example: "Komm bitte herein. – Entre, s'il vous plaît.",
     },
     {
       word: "die Bitte",
       meaning: "Une demande",
-      example: "J'ai une demande. – J'ai une demande.",
+      example: "Ich habe eine Bitte. – J'ai une demande.",
     },
   ];
 }
@@ -143,7 +169,7 @@ function repairBis(out) {
   out.study.comparison = [
     {
       word: "bis",
-      meaning: "Jusqu'à ce que (le moment soit atteint)",
+      meaning: "Jusqu'à (moment ou limite temporelle)",
       example: "Ich bleibe bis morgen. – Je reste jusqu'à demain.",
     },
     {
@@ -226,34 +252,74 @@ function repairDass(out) {
 function repairEinmal(out) {
   out.lv = "Une fois";
   out.study.translation = "Une fois";
+  out.study.explanation = [
+    "Idée principale : indique une seule fois ou une situation passée (une fois, j'étais...).",
+    "Einmal signifie essentiellement : une fois / dans le passé.",
+    "Souvent caractérisé par : un moment dans le passé.",
+    "Einmal renvoie à une seule occurrence ou au passé (une fois que...).",
+  ];
+  out.study.examples = [
+    { de: "Ich war einmal in Berlin.", lv: "Je suis allé à Berlin une fois." },
+    { de: "Ich war einmal in Berlin.", lv: "Je suis allé à Berlin une fois." },
+  ];
   out.study.tip = [
-    "Une fois = autrefois / une fois dans le passé.",
+    "Einmal = une fois",
     "Utilisez einmal lorsque le contexte correspond à ce sens.",
   ];
-  if (out.study.sectionAccents?.tip) {
-    out.study.sectionAccents.tip = [{ purple: ["Une", "fois"] }];
-  }
+  out.study.important = [
+    "Einmal = une fois ou une fois dans le passé.",
+    "Renvoie à une seule occurrence ou au passé (une fois que j'étais...).",
+  ];
+  out.study.sectionAccents = {
+    explanation: { green: ["einmal"], purple: ["fois"] },
+    examples: [
+      {
+        de: { green: ["einmal"] },
+        lv: { purple: ["Berlin"] },
+      },
+      {
+        de: { green: ["einmal"] },
+        lv: { purple: ["fois"] },
+      },
+    ],
+    tip: [{ purple: ["Une", "fois"] }],
+    important: [{ green: ["einmal"] }],
+  };
 }
 
 function repairBesuch(out) {
   out.lv = "visite";
   out.study.translation = "visite";
   out.study.explanation = [
-    "Idée principale : der Besuch signifie une visite ou une visite de courtoisie.",
+    "Idée principale : der Besuch signifie une visite (événement ou passage).",
     "Si on parle d'un lieu ou d'un événement, le mot approprié est visite.",
-    "Si on parle de la visite d'une personne, on peut dire visite ou visite de courtoisie.",
+    "Si on parle de la visite d'une personne, on dit visite.",
     "Le pluriel est die Besuche.",
   ];
-  out.study.comparison[0].meaning = "visite • visite de courtoisie • visite";
-  out.study.comparison[0].example =
-    "Danke für deinen Besuch. – Merci de ta visite.";
-  out.study.comparison[1].example =
-    "Der Besucher wartet draußen. – Le visiteur attend dehors.";
-  out.study.comparison[2].example =
-    "Ich besuche meine Großeltern. – Je rends visite à mes grands-parents.";
+  out.study.comparison = [
+    {
+      word: "der Besuch",
+      meaning: "visite",
+      example: "Danke für deinen Besuch. – Merci de ta visite.",
+    },
+    {
+      word: "der Besucher",
+      meaning: "Visiteur",
+      example: "Der Besucher wartet draußen. – Le visiteur attend dehors.",
+    },
+    {
+      word: "besuchen",
+      meaning: "Rendre visite",
+      example: "Ich besuche meine Großeltern. – Je rends visite à mes grands-parents.",
+    },
+  ];
   out.study.tip = {
     text: "Rappel : Besuch = visite/événement ; Besucher = visiteur (personne).",
   };
+  out.study.important = [
+    "der Besuch peut désigner une visite chez quelqu'un ou une visite de lieu.",
+    "Pluriel : die Besuche.",
+  ];
   out.study.sectionAccents = {
     explanation: { blue: ["der Besuch"], purple: ["visite"] },
     examples: [
@@ -273,7 +339,7 @@ function repairBesuch(out) {
     comparison: [
       {
         word: { green: ["der Besuch"] },
-        meaning: { purple: ["visite", "visite de courtoisie"] },
+        meaning: { purple: ["visite"] },
       },
     ],
   };
@@ -373,29 +439,45 @@ function repairWer(out) {
   out.study.translation = "Qui";
   out.study.explanation = [
     "Idée principale : wer est un mot interrogatif sur l'identité d'une personne.",
-    "Nous posons des questions sur les gens, pas sur les choses ou les événements.",
-    "Les choses et les événements sont posés avec was et non avec wer.",
-    "Wer en allemand fait généralement l'objet d'une phrase (nominatif) — Wer ist das ? = Qui est-ce ?",
-    "Lorsqu'on demande laquelle de plusieurs personnes, wer est souvent utilisé avec von (wer von euch = lequel d'entre vous).",
-    "Wer change de forme selon la flexion : wen (accusatif), wem (datif), wessen (génitif).",
+    "On pose des questions sur des personnes, pas sur des choses ou des événements.",
+    "Pour les choses et les événements, on utilise was, pas wer.",
+    "En allemand, wer est en général le sujet de la phrase (nominatif) — Wer ist das ? = Qui est-ce ?",
+    "Pour demander laquelle parmi plusieurs personnes, wer s'emploie souvent avec von (wer von euch = lequel d'entre vous).",
+    "Wer change de forme selon le cas : wen (accusatif), wem (datif), wessen (génitif) — au niveau A1, wer reste la forme la plus courante.",
   ];
-  out.study.examples = out.study.examples.map((ex) =>
-    ex.de === "Wer kommt heute?"
-      ? { de: "Wer kommt heute?", lv: "Qui vient aujourd'hui ?" }
-      : ex
-  );
-  out.study.important = out.study.important.filter(
-    (line) => !/Nepareizi|Pareizi|letton/i.test(line)
-  );
+  out.study.examples = [
+    { de: "Wer ist das?", lv: "Qui est-ce ?" },
+    { de: "Wer bist du?", lv: "Qui es-tu ?" },
+    { de: "Wer kommt heute?", lv: "Qui vient aujourd'hui ?" },
+    { de: "Wer ist deine Lehrerin?", lv: "Qui est ton professeur ?" },
+    { de: "Wer von euch spricht Deutsch?", lv: "Lequel d'entre vous parle allemand ?" },
+    { de: "Wer hat das gesagt?", lv: "Qui a dit ça ?" },
+    { de: "Wer möchte Kaffee?", lv: "Qui veut du café ?" },
+  ];
+  out.study.tip = [
+    "Wer pose des questions sur des personnes — pour les choses et les événements, on utilise was.",
+    "Pour un choix entre plusieurs personnes : wer von... (lequel de...).",
+  ];
+  out.study.important = [
+    "Wer ne concerne que les personnes, jamais les choses.",
+    "Pour les choses et les événements, on utilise was, pas wer.",
+    "Wer se décline : wen, wem, wessen — la forme de base est wer.",
+    "Incorrect : Wer ist passiert? → Correct : Was ist passiert?",
+  ];
   out.study.sectionAccents = {
     explanation: { blue: ["wer"], purple: ["Qui"] },
-    examples: out.study.examples.map((ex) => ({
-      de: { blue: ["Wer"] },
-      lv: { purple: [ex.lv.split(/[\s']/)[0] || "Qui"] },
-    })),
+    examples: [
+      { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
+      { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
+      { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
+      { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
+      { de: { blue: ["Wer"] }, lv: { purple: ["Lequel"] } },
+      { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
+      { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
+    ],
     tip: [{ purple: ["Qui"], blue: ["wer"] }],
     important: [
-      { blue: ["wer"], purple: ["Qui"] },
+      { blue: ["wer"], purple: ["sujet", "nominatif"] },
       { blue: ["was"], green: ["choses"] },
       { blue: ["wer"], purple: ["wen", "wem", "wessen"] },
     ],
@@ -468,6 +550,55 @@ function repairFuer(out) {
 function repairEis(out) {
   out.lv = "Glace • Crème glacée";
   out.study.translation = "Glace • Crème glacée";
+  out.study.explanation = [
+    "Idée principale : das Eis peut signifier à la fois glace (eau gelée) et crème glacée.",
+    "Lorsqu'il s'agit d'eau froide et gelée, on parle de glace.",
+    "Lorsqu'il s'agit de nourriture ou de dessert, das Eis signifie très souvent crème glacée.",
+    "Le contexte indique généralement immédiatement quelle signification est voulue.",
+    "Au niveau A1, les phrases les plus importantes sont ein Eis essen et Eis im Glas.",
+  ];
+  out.study.comparison = [
+    {
+      word: "das Eis",
+      meaning: "Glace / crème glacée",
+      example: "Ich esse ein Eis. – Je mange une glace.",
+    },
+    {
+      word: "der Schnee",
+      meaning: "Neige",
+      example: "Der Schnee ist weiß. – La neige est blanche.",
+    },
+    {
+      word: "kalt",
+      meaning: "Froid",
+      example: "Das Wasser ist kalt. – L'eau est froide.",
+    },
+    {
+      word: "das Dessert",
+      meaning: "Dessert",
+      example: "Das Eis ist ein Dessert. – La glace est un dessert.",
+    },
+  ];
+  out.study.important = [
+    "En français, glace et crème glacée sont deux mots, mais en allemand das Eis couvre souvent les deux.",
+    "Le contexte est essentiel : nourriture → crème glacée, hiver/eau → glace.",
+  ];
+  out.study.tip = {
+    text: "Rappel : nourriture → crème glacée • hiver/eau → glace.",
+  };
+  out.study.sectionAccents = {
+    explanation: { blue: ["Eis"], purple: ["glace", "crème glacée"] },
+    examples: [
+      { de: { blue: ["Eis"] }, lv: { purple: ["glace"] } },
+      { de: { blue: ["Eis"] }, lv: { purple: ["crème glacée"] } },
+      { de: { blue: ["Eis"] }, lv: { purple: ["glace"] } },
+    ],
+    comparison: [
+      { word: { blue: ["Eis"] }, meaning: { purple: ["glace"] } },
+    ],
+    tip: { left: { blue: ["Eis"], purple: ["Rappel"] } },
+    important: [{ blue: ["Eis"], purple: ["contexte"] }],
+  };
 }
 
 function repairEs(out) {
@@ -480,21 +611,19 @@ function repairEs(out) {
   out.study.examples = [
     { de: "Es regnet.", lv: "Il pleut." },
     { de: "Es ist kalt.", lv: "Il fait froid." },
-    { de: "Es ist spät.", lv: "Il est tard." },
-    { de: "Es schneit.", lv: "Il neige." },
-    { de: "Es regnet.", lv: "Il pleut." },
-    { de: "Es schneit.", lv: "Il neige." },
+    { de: "Das Kind schläft.", lv: "L'enfant dort." },
+    { de: "Es ist müde.", lv: "Il/Elle est fatigué(e)." },
   ];
   out.study.info = [
     "es (allemand) = il / cela / forme impersonnelle",
-    "ich (allemand) = je — ne pas confondre avec es letton = je",
+    "ich (allemand) = je",
   ];
   out.study.tip = {
-    text: "Rappel : es allemand ≠ es letton (je) ; es = il/cela/impersonnel.",
+    text: "Rappel : es = il/cela/impersonnel ; ich = je.",
   };
   out.study.important = [
-    "Le es allemand n'est pas le es letton.",
-    "Le « je » letton est ich en allemand ; l'allemand es signifie souvent cela ou n'est pas traduit.",
+    "Es regnet et Es schneit sont des phrases impersonnelles courantes.",
+    "Es ist kalt / Es ist müde décrivent un état ou une condition.",
   ];
   out.study.comparison = [
     {
@@ -508,21 +637,103 @@ function repairEs(out) {
       example: "Ich lerne Deutsch. – J'apprends l'allemand.",
     },
   ];
+  out.study.sectionAccents = {
+    examples: [
+      { de: { blue: ["Es"] }, lv: { purple: ["Il"] } },
+      { de: { blue: ["Es"] }, lv: { purple: ["froid"] } },
+      { de: { blue: ["Kind"] }, lv: { purple: ["enfant"] } },
+      { de: { blue: ["Es"] }, lv: { purple: ["fatigué"] } },
+    ],
+    comparison: [
+      { word: { blue: ["es"] }, example: { blue: ["Es regnet"] } },
+      { word: { blue: ["ich"] }, example: { blue: ["Ich lerne"] } },
+    ],
+    tip: { left: { blue: ["es"], purple: ["Rappel"], green: ["impersonnel"] } },
+  };
 }
 
 function repairLang(out) {
-  out.lv = "Long • Long";
-  out.study.translation = "Long • Long";
+  out.lv = "Long • Longtemps";
+  out.study.translation = "Long • Longtemps";
+  out.study.explanation = [
+    "Idée principale : lang signifie long dans l'espace ou long dans le temps.",
+    "Pour la taille ou la distance : lang = long (ein langer Tisch = une longue table).",
+    "Pour la durée : lang = long / de longue durée (ein langer Tag = une longue journée).",
+    "Dans l'expression den ganzen Tag lang, cela signifie toute la journée.",
+    "En français, on distingue souvent long (taille) et longtemps (durée), mais l'allemand lang couvre les deux sens.",
+  ];
+  out.study.examples = [
+    { de: "Der Tisch ist sehr lang.", lv: "La table est très longue." },
+    { de: "Der Film war sehr lang.", lv: "Le film était très long." },
+    { de: "Wie lange dauert es?", lv: "Combien de temps ça dure ?" },
+    { de: "Sie hat lange Haare.", lv: "Elle a les cheveux longs." },
+    { de: "Ich warte schon lange.", lv: "J'attends depuis longtemps." },
+    { de: "Den ganzen Tag lang.", lv: "Toute la journée." },
+  ];
+  out.study.tip = [
+    "Pour la taille ou la distance (cheveux, route, table) → long.",
+    "Pour le temps (jour, attente, film) → long / longtemps.",
+  ];
+  out.study.important = [
+    "Lang = long (taille) OU long / de longue durée (temps), selon le contexte.",
+    "Wie lange = combien de temps (question sur la durée, pas la taille).",
+  ];
+  out.study.sectionAccents = {
+    explanation: { blue: ["lang"], purple: ["long", "longtemps"] },
+    examples: [
+      { de: { blue: ["lang"] }, lv: { purple: ["longue"] } },
+      { de: { green: ["lang"] }, lv: { purple: ["long"] } },
+      { de: { green: ["lange"] }, lv: { purple: ["temps"] } },
+      { de: { blue: ["lange"] }, lv: { purple: ["longs"] } },
+      { de: { green: ["lange"] }, lv: { purple: ["longtemps"] } },
+      { de: { green: ["lang"] }, lv: { purple: ["journée"] } },
+    ],
+    tip: [{ purple: ["long"], green: ["longtemps"] }],
+    important: [{ blue: ["lang"], purple: ["taille", "temps"] }],
+  };
 }
 
 function repairOder(out) {
   out.lv = "Ou";
   out.study.translation = "Ou";
+  out.study.explanation = [
+    "Idée principale : oder est utilisé lorsque nous choisissons entre deux ou plusieurs options.",
+    "En allemand, oder signifie le plus souvent ou.",
+    "Ce n'est pas la même chose que ob, qui introduit une question indirecte.",
+    "Dans les conversations, oder peut aussi être à la fin de la phrase : Du kommst, oder ?",
+  ];
+  out.study.comparison = [
+    {
+      word: "oder",
+      meaning: "Ou (choix)",
+      example: "Kaffee oder Tee? – Café ou thé ?",
+    },
+    {
+      word: "ob",
+      meaning: "Si (question indirecte)",
+      example: "Ich weiß nicht, ob er kommt. – Je ne sais pas s'il vient.",
+    },
+    {
+      word: "und",
+      meaning: "Et",
+      example: "Kaffee und Kuchen. – Café et gâteau.",
+    },
+    {
+      word: "aber",
+      meaning: "Mais",
+      example: "Ich komme, aber später. – Je viens, mais plus tard.",
+    },
+  ];
+  out.study.tip = { text: "Rappel : choisir entre des options → oder." };
 }
 
 function repairNur(out) {
   out.lv = "Seulement";
   out.study.translation = "Seulement";
+  out.study.important = [
+    "Seulement en français ne correspond pas toujours à nur en allemand.",
+    "Nur = uniquement / exclusivement.",
+  ];
 }
 
 function repairBringen(out) {
@@ -530,7 +741,7 @@ function repairBringen(out) {
   out.study.translation = "Apporter • Amener";
   out.study.examples = [
     { de: "Ich bringe dir ein Buch.", lv: "Je t'apporte un livre." },
-    { de: "Ich bringe das Paket zur Post.", lv: "J'emmène le colis à la poste." },
+    { de: "Ich bringe das Paket zur Post.", lv: "J'apporte le colis à la poste." },
     { de: "Ich bringe die Kinder zur Schule.", lv: "J'emmène les enfants à l'école." },
     { de: "Ich nehme das Buch.", lv: "Je prends le livre." },
   ];

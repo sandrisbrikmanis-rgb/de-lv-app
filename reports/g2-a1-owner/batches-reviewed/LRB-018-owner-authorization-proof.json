@@ -2,7 +2,7 @@
   "batch_id": "LRB-018",
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
-  "authorizedAt": "2026-09-12T15:10:00.000Z",
+  "authorizedAt": "2026-09-12T15:20:00.000Z",
   "linguisticVerdict": "LRB_018_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 50,
@@ -66,5 +66,5 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-018-residual-wrong-language-proof.json",
-  "note": "OWNER authorization APPROVED. Full FR composite repair engine: 50 LABOT / 0 NELABOT. 5 FI ET→FI scalars unchanged; 45 FR rows each carry full composite owner_new from lrb018-fr-repair-engine (28 unique cards, 45 findings). Fresh audits validate merged data/fr/a1.js cards for LV/ET/EN leak, DE↔FR alignment, bis 3-row comparison, sectionAccents cleanup. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER authorization APPROVED after individual FR card re-review (round 2). 50 LABOT / 0 NELABOT. Mandatory fixes: Appetit Ich habe Appetit, an no-EN-at, bitte DE–FR comparisons, bis jusqu'à demain, wer nominatif sujet, bringen J'apporte le colis, einmal natural French, es no Latvian refs, Besuch no courtoisie, lang Long•Longtemps. Merged data/fr/a1.js validation PASS. DE/production/Crowdin/ingest/apply unchanged."
 }

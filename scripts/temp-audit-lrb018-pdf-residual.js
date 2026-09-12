@@ -80,7 +80,10 @@ const LV_LEAK =
   /\b(Nepareizi|Pareizi|Atceries|Galvenā doma|latviaksi|kaut kas|nedaudz|apmeklējums|apciemojums|vizīte|lūdzu|lietvārds|vienreiz|reiz|vidus dzimte|pretstats|iebilde|kurp|kam|Paldies|Apmeklētājs|Es apciemoju|Es mācos|Līst|grāmatu|nav tas pats|Tas der|Muzeja|Ārsts)\b/i;
 
 const EN_LEAK =
-  /\b(I help you|i see you|I'm telling you|you \(subject|you \(where|your \(possessive|Latvian \"es\"|German \"I\" = it)\b/i;
+  /\b(I help you|i see you|I'm telling you|you \(subject|you \(where|your \(possessive|Latvian \"es\"|German \"I\" = it|« at »)\b/i;
+
+const FORBIDDEN_FR =
+  /Ressentez|visite de courtoisie|J'étais une fois|objet d'une phrase|letton|Latvian|J'emmène le colis|jusqu'à ce que \(le moment|Entre, s'il te plaît\. – Entre/i;
 
 const STALE_HIGHLIGHT =
   /\b(Atceries|vienreiz|reiz|sienas|loga|malas|tarte|vidus dzimte|pretstats|iebilde|kurp|kam|apmeklējums|apciemojums|vizīte|Paldies|Apmeklētājs|Es apciemoju|Līst|Es mācos|nav tas pats|Tas der)\b/i;
@@ -113,13 +116,21 @@ const DE_EXAMPLE_ALIGN = {
   es: {
     "Es regnet.": "Il pleut.",
     "Es ist kalt.": "Il fait froid.",
-    "Es schneit.": "Il neige.",
+    "Das Kind schläft.": "L'enfant dort.",
+    "Es ist müde.": "Il/Elle est fatigué(e).",
   },
   bringen: {
     "Ich bringe dir ein Buch.": "Je t'apporte un livre.",
-    "Ich bringe das Paket zur Post.": "J'emmène le colis à la poste.",
+    "Ich bringe das Paket zur Post.": "J'apporte le colis à la poste.",
     "Ich bringe die Kinder zur Schule.": "J'emmène les enfants à l'école.",
     "Ich nehme das Buch.": "Je prends le livre.",
+  },
+  bitte: {
+    "Komm bitte herein.": "Entre, s'il vous plaît.",
+    "Ich habe eine Bitte.": "J'ai une demande.",
+  },
+  einmal: {
+    "Ich war einmal in Berlin.": "Je suis allé à Berlin une fois.",
   },
   wer: {
     "Wer kommt heute?": "Qui vient aujourd'hui ?",
@@ -247,6 +258,9 @@ function validateMergedCard(cardKey, merged) {
   if (EN_LEAK.test(allText)) {
     failures.push({ type: "EN_LEAK", sample: allText.match(EN_LEAK)?.[0] });
   }
+  if (FORBIDDEN_FR.test(allText)) {
+    failures.push({ type: "FORBIDDEN_FR", sample: allText.match(FORBIDDEN_FR)?.[0] });
+  }
   if (STALE_HIGHLIGHT.test(flattenStrings(merged.study?.sectionAccents || {}).join(" "))) {
     failures.push({ type: "STALE_SECTION_ACCENTS" });
   }
@@ -255,8 +269,34 @@ function validateMergedCard(cardKey, merged) {
     failures.push(...validateBisComparison(merged));
   }
   if (cardDeKey(cardKey) === "Appetit") {
-    if (!allText.includes("Incorrect") || !allText.includes("Correct")) {
-      failures.push({ type: "APPETIT_INCORRECT_CORRECT" });
+    const hasIchHabe = (merged.study?.examples || []).some(
+      (ex) => ex.de === "Ich habe Appetit." && ex.lv === "J'ai de l'appétit."
+    );
+    if (!hasIchHabe) {
+      failures.push({ type: "APPETIT_ICH_HABE" });
+    }
+    if (allText.includes("Ressentez")) {
+      failures.push({ type: "APPETIT_RESSENTEZ" });
+    }
+  }
+  if (cardDeKey(cardKey) === "wer") {
+    if (/objet d'une phrase/i.test(allText)) {
+      failures.push({ type: "WER_OBJECT_ERROR" });
+    }
+    const werKommt = (merged.study?.examples || []).find(
+      (ex) => ex.de === "Wer kommt heute?"
+    );
+    if (werKommt && werKommt.lv !== "Qui vient aujourd'hui ?") {
+      failures.push({ type: "WER_KOMMT", got: werKommt.lv });
+    }
+  }
+  if (cardDeKey(cardKey) === "lang") {
+    if (
+      merged.lv === "Long • Long" ||
+      merged.study?.translation === "Long • Long" ||
+      merged.study?.translation === "Longue • Longue"
+    ) {
+      failures.push({ type: "LANG_DUPLICATE" });
     }
   }
   if (cardDeKey(cardKey) === "an") {
