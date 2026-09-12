@@ -2529,9 +2529,7 @@ function nestedToFlatPatches(nested) {
 
   if (study.explanation !== undefined) {
     if (Array.isArray(study.explanation)) {
-      study.explanation.forEach((v, i) => {
-        flat[`study.explanation[${i}]`] = v;
-      });
+      flat["study.explanation"] = JSON.stringify(study.explanation);
     } else {
       flat["study.explanation"] = study.explanation;
     }
@@ -2544,14 +2542,8 @@ function nestedToFlatPatches(nested) {
   }
 
   if (study.tip !== undefined) {
-    if (Array.isArray(study.tip)) {
+    if (Array.isArray(study.tip) || (typeof study.tip === "object" && study.tip !== null)) {
       flat["study.tip"] = JSON.stringify(study.tip);
-    } else if (typeof study.tip === "object" && study.tip !== null) {
-      if (study.tip.text !== undefined) flat["study.tip.text"] = study.tip.text;
-      if (study.tip.example !== undefined) flat["study.tip.example"] = study.tip.example;
-      if (!flat["study.tip.text"] && !flat["study.tip.example"]) {
-        flat["study.tip"] = JSON.stringify(study.tip);
-      }
     } else {
       flat["study.tip"] = study.tip;
     }

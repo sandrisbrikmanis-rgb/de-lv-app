@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-12T16:24:48.637Z",
+  "updatedAt": "2026-09-12T16:33:59.803Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -401,7 +401,7 @@
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "pending-gpt-5.6-luna",
-        "headSha": "b096a41fa6376c27ae490239be42c1f0c64cac0a",
+        "headSha": "PENDING_COMMIT",
         "languages": {
           "fr": 50
         },
@@ -412,7 +412,9 @@
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-019-decisions.csv",
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-019-anti-bulk-proof.json",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-019-residual-wrong-language-proof.json",
-        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-019-owner-authorization-proof.json"
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-019-owner-authorization-proof.json",
+        "round2Repairs": "33 cards Luna copy/paste corrections",
+        "round3Repairs": "nestedToFlatPatches full-array fix: 18 study.explanation + fernsehen study.tip"
       }
     },
     "lastBatch": {
