@@ -1,0 +1,540 @@
+#!/usr/bin/env node
+"use strict";
+
+const fs = require("fs");
+const path = require("path");
+
+const outPath = path.join(__dirname, "data/g2-a1-owner-pending/LRB-004-decisions.json");
+
+function labot(ownerNew, note) {
+  return {
+    owner_status: "DECIDED",
+    owner_decision: "LABOT",
+    owner_new: typeof ownerNew === "string" ? ownerNew : JSON.stringify(ownerNew),
+    owner_note: note,
+  };
+}
+
+function nelabot(note) {
+  return {
+    owner_status: "DECIDED",
+    owner_decision: "NELABOT",
+    owner_new: "",
+    owner_note: note,
+  };
+}
+
+const decisions = {
+  // ── ET baden (explanation: vannis käima in context only) ─────────────
+  "g2/a1/et|baden|idx:68|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      lv: "suplema",
+      "study.translation": "suplema",
+      "study.explanation": [
+        "Põhiidee: baden tähendab suplema või vees olema.",
+        "baden kasutatakse, kui jutt on puhkusest vees, järves, meres või basseinis.",
+        "Kontekstis võib baden tähendada ka vannis käimist või kümblamist.",
+        "Kui rõhk on ujumisliigutustel või spordil, kasutatakse saksa keeles sagedamini schwimmen.",
+        "baden ja schwimmen ei ole sünonüümid.",
+      ],
+      "study.examples[0].lv": "Ma lähen suplema.",
+      "study.examples[1].lv": "Me läheme järves suplema.",
+      "study.examples[2].lv": "Ta ujub väga hästi.",
+      "study.examples[3].lv": "Ma käin igal esmaspäeval ujumas.",
+      "study.comparison[0].meaning": "suplema / vees olema",
+      "study.comparison[0].example": "Ich gehe baden. – Ma lähen suplema.",
+      "study.comparison[1].meaning": "ujumist liikumise või spordialana",
+      "study.comparison[1].example": "Er schwimmt sehr gut. – Ta ujub väga hästi.",
+      "study.comparison[2].meaning": "duši all käima",
+      "study.comparison[2].example": "Ich dusche am Morgen. – Ma käin hommikul duši all.",
+      "study.comparison[3].meaning": "ujuma minema",
+      "study.comparison[3].example":
+        "Ich gehe heute schwimmen. – Ma lähen täna ujuma.",
+      "study.important[0]": "baden ja schwimmen ei ole sünonüümid.",
+      "study.important[1]":
+        "baden = suplema/vees olema; schwimmen = ujuma (liikumine või sport).",
+    },
+    "ET baden PDF reaudit: lv/study.translation suplema; explanation adds vannis käima/kümblema context only; baden≠schwimmen. DE untouched."
+  ),
+
+  "g2/a1/et|bei|idx:78|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      "study.comparison[2].meaning": "kellegi juurde (suund)",
+      "study.comparison[2].example":
+        "Ich gehe zu meinem Freund. – Ma lähen oma sõbra juurde.",
+      "study.comparison[4].meaning": "juures (asukoht)",
+      "study.comparison[4].example": "beim Arzt – arsti juures",
+      "study.important[2]":
+        "bei = juures (asukoht); zu/zum = juurde (suund).",
+    },
+    "ET bei gala: zu=kellegi juurde (suund); bei=location; full post-merge composite audit. DE untouched."
+  ),
+
+  "g2/a1/et|Besuch|idx:87|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      lv: "külastus",
+      "study.translation": "külastus",
+      "study.explanation": [
+        "Põhitähendus: der Besuch tähendab külastust.",
+        "Kui räägitakse kohast või üritusest, sobib eesti keeles tavaliselt külastus.",
+        "Kui räägitakse inimese külastamisest, võib kontekstis sobida ka külaskäik või visiit.",
+        "Mitmus on die Besuche.",
+      ],
+      "study.comparison[0].meaning": "külastus • külaskäik • visiit",
+      "study.important[0]":
+        "der Besuch = külastus; laiemad tähendused (külaskäik, visiit) sõltuvad kontekstist.",
+    },
+    "ET Besuch gala: lv_source apmeklējums→külastus scalar only; broader senses in comparison only. DE untouched."
+  ),
+
+  "g2/a1/et|besuchen|idx:89|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET besuchen study: külastama kohta/inimest and accusative rule align with apmeklēt place vs person. DE untouched."
+  ),
+
+  "g2/a1/et|bis|idx:91|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE_AND_MEANING_MISMATCH|gpt-5.6-luna": labot(
+    {
+      "study.comparison[0].example":
+        "Ich bleibe bis morgen. – Ma jään homseni.",
+      "study.comparison[1].example": "bis zum Bahnhof – jaamani",
+      "study.comparison[2].example":
+        "Bis jetzt habe ich nichts verstanden. – Siiani pole ma midagi aru saanud.",
+    },
+    "ET bis micro-repair: bis zum Bahnhof→jaamani (endpoint); not zu/zum juurde direction leak. DE untouched."
+  ),
+
+  "g2/a1/et|bitte|idx:93|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET bitte study: palun politeness word and bitte vs die Bitte noun contrast correctly taught for lūdzu. DE untouched."
+  ),
+
+  "g2/a1/et|Bitte|idx:94|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      "study.explanation[0]":
+        "Põhiidee: Nimisõna artikliga die ja suure algustähega. Konkreetne palve või taotlus.",
+      "study.explanation[1]":
+        "die Bitte tähendab peamiselt: palve või soov.",
+      "study.explanation[2]":
+        "Sageli kirjeldab: konkreetset palvet või taotlust.",
+    },
+    "ET Bitte gala: noun palve/soov teaching; remove viisakus leak in explanation. DE untouched."
+  ),
+
+  "g2/a1/et|bleiben|idx:101|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      "study.examples[3].lv": "Ma lähen koju.",
+      "study.comparison[1].example":
+        "Ich gehe nach Hause. – Ma lähen koju.",
+    },
+    "ET bleiben gala: Ich gehe nach Hause→Ma lähen koju; gehen contrast in comparison. DE untouched."
+  ),
+
+  "g2/a1/et|bringen|idx:111|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      "study.comparison[0].meaning": "tooma / viima",
+      "study.comparison[0].example":
+        "Ich bringe dir ein Buch. – Ma toon sulle raamatu.",
+      "study.comparison[1].meaning": "viima kohale",
+      "study.comparison[1].example":
+        "Ich bringe das Paket zur Post. – Ma viin paki postkontorisse.",
+      "study.comparison[2].meaning": "viima (nt lapsed kooli)",
+      "study.comparison[2].example":
+        "Ich bringe die Kinder zur Schule. – Ma viin lapsed kooli.",
+      "study.comparison[3].meaning": "kaasa tooma",
+      "study.comparison[3].example":
+        "Bringst du Brot mit? – Kas sa tood leiba kaasa?",
+      "study.comparison[4].meaning": "võtma",
+      "study.comparison[4].example":
+        "Ich nehme das Buch. – Ma võtan raamatu.",
+    },
+    "ET bringen gala: four comparison ET lines; nehmen contrast; no DE leaks. DE untouched."
+  ),
+
+  "g2/a1/et|da|idx:126|study|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET da study: seal/siin place-word and da/hier/dort/dann contrast acceptable for tur at A1. DE untouched."
+  ),
+
+  // ── ET essen (NELABOT→LABOT) ─────────────────────────────────────────
+  "g2/a1/et|essen|idx:690|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna": labot(
+    {
+      lv: "sööma",
+      "study.translation": "sööma",
+      "study.explanation": [
+        "Põhiidee: Tegusõna — toitu sööma.",
+        "essen tähendab peamiselt: toitu tarbima või sööma.",
+        "Sageli kirjeldab: tegevust (ilma artiklita).",
+        "das Essen on eraldi nimisõna: toit või söögikord.",
+        "das Essen võib tähendada toitu või söögikorda üldiselt.",
+        "essen ja das Essen ei ole sama — tegusõna vs nimisõna.",
+      ],
+      "study.examples[0].lv": "Ma söön meelsasti pitsat.",
+      "study.examples[2].lv": "Me sööme kell 12.",
+      "study.examples[3].lv": "Toit on valmis.",
+      "study.examples[4].lv": "Toit maitseb väga hästi.",
+      "study.examples[5].lv": "Toit maitseb hästi.",
+      "study.tip[0]":
+        "essen = sööma (tegusõna); das Essen = toit / söögikord (nimisõna).",
+      "study.important[0]": "essen on tegusõna ilma artiklita.",
+      "study.important[1]": "das Essen ei ole sama mis essen.",
+      "study.important[2]": "Tegevus: essen = sööma. Asi/söögikord: das Essen = toit.",
+    },
+    "ET essen PDF reaudit: essen=sööma verb; das Essen=toit/söögikord noun; explanation contradictions cleaned. DE untouched."
+  ),
+
+  // ── ET Fernsehen (NELABOT→LABOT) ─────────────────────────────────────
+  "g2/a1/et|Fernsehen|idx:688|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna": labot(
+    {
+      lv: "televisioon",
+      "study.translation": "televisioon",
+      "study.explanation": [
+        "Põhiidee: Nimisõna, ainult ainsus. Kirjeldab TV-d kui meediumi või saateid tervikuna.",
+        "das Fernsehen tähendab peamiselt: televisioon kui meedium või TV-programm.",
+        "Sageli kirjeldab: nimisõna (ainult ainsuses).",
+        "fernsehen on tegusõna: televiisorit vaatama.",
+        "fernsehen on lahutatav: ich sehe fern, du siehst fern.",
+        "das Fernsehen on nimisõna ja ainult ainsuses — sellel ei ole mitmuse vormi.",
+      ],
+      "study.examples[1].lv": "Mida täna televisioonis näidatakse?",
+      "study.examples[2].lv": "Televisioonis näidatakse filmi.",
+      "study.examples[3].lv": "Televisiooniprogramm on täna igav.",
+      "study.examples[4].lv": "Täna õhtul vaatan ma telerit.",
+      "study.tip[0]":
+        "Kui jutt on tegevusest, kasutatakse fernsehen (ich sehe fern). Kui jutt on teleprogrammist või meediumist, kasutatakse das Fernsehen.",
+      "study.important[0]": "fernsehen on lahutatav: sehen + fern.",
+      "study.important[1]": "das Fernsehen ei ole mitmuses — ei ole *die Fernsehen.",
+      "study.important[2]":
+        "Tegevus: fernsehen → ich sehe fern. Meedium: das Fernsehen = televisioon.",
+    },
+    "ET Fernsehen PDF reaudit: das Fernsehen=televisioon/TV medium; fernsehen=televiisorit vaatama; no saadet vaatama leak. DE untouched."
+  ),
+
+  "g2/a1/et|können|idx:319|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET können study: saama/oskama modal ability/know-how teaching aligns with varēt • prast. DE untouched."
+  ),
+
+  "g2/a1/et|kosten|idx:320|lv, study.examples|WRONG_TARGET_LANGUAGE_AND_MEANING|gpt-5.6-luna": labot(
+    {
+      "study.examples[4].lv": "Ma maksan arve.",
+      "study.examples[5].lv": "Kas ma saan sularahas maksta?",
+      "study.examples[6].lv": "Ta maksab kaardiga.",
+      "study.examples[7].lv": "Ma maksan kohe.",
+    },
+    "ET kosten gala: bezahlen/zahlen examples proper maksma Estonian; DE untouched."
+  ),
+
+  "g2/a1/et|Laden|idx:349|lv, study.examples|WRONG_TARGET_LANGUAGE_AND_MEANING|gpt-5.6-luna": labot(
+    {
+      "study.examples[3].lv": "Ma pean oma telefoni laadima.",
+    },
+    "ET Laden gala: Handy laden→telefoni laadima not shop open. DE untouched."
+  ),
+
+  "g2/a1/et|Land|idx:351|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET Land study: riik/maa country/land dual sense matches valsts • zeme. DE untouched."
+  ),
+
+  "g2/a1/et|lang|idx:352|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET lang study: pikk/kauakestev length vs duration covers garš • ilgs. DE untouched."
+  ),
+
+  "g2/a1/et|Mann|idx:394|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      lv: "mees • abikaasa",
+      "study.translation": "mees • abikaasa",
+      "study.explanation": [
+        "Põhiidee: der Mann võib tähendada meest (sugu) või abikaasat (abielupool).",
+        "Kui jutt on lihtsalt soost või isikust, der Mann = mees.",
+        "Kui jutt on abikaasast, der Mann = abikaasa (mein Mann = minu abikaasa).",
+        "Omastav asesõna (mein/dein/ihr Mann) tähendab peaaegu alati abikaasat.",
+        "Mitmuses: die Männer.",
+      ],
+      "study.examples[0].lv": "Ta on tore mees.",
+      "study.examples[1].lv": "See on minu abikaasa.",
+      "study.examples[3].lv": "Minu abikaasa töötab Berliinis.",
+      "study.examples[5].lv": "Tema abikaasa on arst.",
+      "study.tip[0]":
+        "Ilma omastava asesõnata (der Mann, ein Mann) = mees; mein/dein/ihr Mann = abikaasa.",
+      "study.important[0]":
+        "der Mann = mees (sugu) VÕI abikaasa (abielus) — olenevalt kontekstist.",
+      "study.important[1]":
+        "mein Mann = minu abikaasa (mitte lihtsalt «minu mees»).",
+      "study.important[2]": "Mitmuses: die Männer.",
+    },
+    "ET Mann gala: mees≠abikaasa clearly distinguished; mein Mann=abikaasa in examples/important. DE untouched."
+  ),
+
+  "g2/a1/et|mit|idx:408|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET mit study: -ga/with and mit+dative examples correctly teach ar. DE untouched."
+  ),
+
+  "g2/a1/et|mögen|idx:413|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET mögen study: meeldib and möchte contrast align with patikt teaching. DE untouched."
+  ),
+
+  "g2/a1/et|morgen|idx:417|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      lv: "homme",
+      "study.translation": "homme",
+      "study.explanation": [
+        "Põhiidee: Ajamäärus väikese algustähega. Tähendab järgmist päeva — homme.",
+        "morgen tähendab järgmisel päeval (Ich komme morgen = ma tulen homme).",
+        "Ei tohi segi ajada nimisõnaga der Morgen (hommik).",
+      ],
+      "study.examples[0].lv": "Ma tulen homme.",
+      "study.examples[1].lv": "Homseni!",
+      "study.examples[2].lv": "Ma tulen homme.",
+      "study.examples[3].lv": "Homme on esmaspäev.",
+      "study.examples[4].lv": "Tere hommikust!",
+      "study.examples[5].lv": "Hommik on ilus.",
+      "study.tip[0]":
+        "morgen = homme (ajamäärus); der Morgen = hommik (nimisõna).",
+      "study.important[0]":
+        "morgen kirjutatakse väikese tähega — ajamäärsõna (homme).",
+      "study.important[1]":
+        "der Morgen suure M-iga = hommik (nimisõna), mitte homme.",
+      "study.important[2]":
+        "Guten Morgen! = Tere hommikust! (nimisõna, mitte homme).",
+    },
+    "ET morgen gala: adverb homme only in explanation; remove der-Morgen noun clutter; examples/tip/important audit. DE untouched."
+  ),
+
+  "g2/a1/et|Morgen|idx:418|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": labot(
+    {
+      lv: "hommik",
+      "study.translation": "hommik",
+      "study.explanation": [
+        "Põhiidee: Nimisõna artikliga der ja suure algustähega. Päevaosa — hommik.",
+        "der Morgen tähendab hommikut kui päevaosa.",
+        "Ei tohi segi ajada ajamäärusega morgen (homme).",
+      ],
+      "study.examples[0].lv": "Tere hommikust!",
+      "study.examples[1].lv": "Homseni!",
+      "study.examples[2].lv": "Ma tulen homme.",
+      "study.examples[3].lv": "Homme on esmaspäev.",
+      "study.examples[4].lv": "Tere hommikust!",
+      "study.examples[5].lv": "Hommik on ilus.",
+      "study.tip[0]":
+        "der Morgen = hommik (nimisõna); morgen = homme (ajamäärus).",
+      "study.important[0]": "der Morgen = hommik (päevaosa).",
+      "study.important[1]":
+        "morgen väikese m-iga = homme (järgmine päev).",
+      "study.important[2]": "Guten Morgen! = Tere hommikust!",
+    },
+    "ET Morgen gala: der Morgen=hommik; fix scrambled examples; morgen adverb contrast in important. DE untouched."
+  ),
+
+  "g2/a1/et|noch|idx:451|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET noch study: veel still/yet and noch nicht examples teach vēl. DE untouched."
+  ),
+
+  "g2/a1/et|nur|idx:456|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET nur study: ainult/üksnes quantity/choice limiter matches tikai • vienīgi. DE untouched."
+  ),
+
+  "g2/a1/et|ob|idx:457|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET ob study: kas indirect-question and ob vs oder contrast correctly taught for vai. DE untouched."
+  ),
+
+  "g2/a1/et|oder|idx:459|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET oder study: või choice and oder vs ob distinction matches vai • jeb. DE untouched."
+  ),
+
+  "g2/a1/et|passen|idx:471|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET passen study: sobima fit/size/color and Das passt phrase teach derēt • piestāvēt. DE untouched."
+  ),
+
+  "g2/a1/et|sicher|idx:548|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": nelabot(
+    "ET sicher study: kindel/kindlasti safe vs certainly covers drošs • noteikti. DE untouched."
+  ),
+
+  // ── ET sie (NELABOT→LABOT) ───────────────────────────────────────────
+  "g2/a1/et|sie|idx:549|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": labot(
+    {
+      lv: "nemad / nad",
+      "study.translation": "nad",
+      "study.explanation": [
+        "Põhiidee: Mitmuse vorm — jutt on mitmest inimesest. Tegusõna lõpeb -en: kochen, essen, gehen.",
+        "Väike sie tähendab teda (üks naine), kui tegusõna on ainsuses (-t): sie kocht = ta teeb süüa.",
+        "Väike sie tähendab neid, kui tegusõna on mitmuses (-en): sie kochen = nad teevad süüa.",
+        "Lause alguses on sie alati suure algustähega — tähendus määratakse tegusõna vormi ja konteksti järgi.",
+        "Viisakas pöördumine Sie (alati suur S, mitmus) õpetatakse eraldi Sie-kaardil.",
+      ],
+      "study.examples[0].lv": "Nad teevad süüa.",
+      "study.examples[1].lv": "Ta teeb süüa.",
+      "study.examples[2].lv": "Ta sööb.",
+      "study.examples[3].lv": "Nad teevad süüa.",
+      "study.examples[4].lv": "Nad mängivad jalgpalli.",
+      "study.examples[5].lv": "Nad teevad süüa, palun.",
+      "study.tip[0]":
+        "Mitmuse vorm — jutt on mitmest inimesest. Tegusõna lõpeb -en: kochen, essen, gehen.",
+      "study.important[0]":
+        "sie kocht (ainsus) = ta teeb süüa; sie kochen (mitmus) = nad teevad süüa.",
+      "study.important[1]":
+        "Viisakas Teie (Sie kochen, bitte.) õpetatakse Sie-kaardil, mitte siin.",
+      "study.important[2]":
+        "Vale: sie kocht → Õige: Sie kocht (lausealguses)",
+    },
+    "ET sie PDF reaudit: plural/feminine sie vs formal Sie separated; persona index-by-index DE↔ET. DE untouched."
+  ),
+
+  "g2/a1/et|Sie|idx:550|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": nelabot(
+    "ET Sie study: teie formal address with capital S matches jūs polite form. DE untouched."
+  ),
+
+  "g2/a1/et|sitzen|idx:558|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": nelabot(
+    "ET sitzen study: istuma and stehen/liegen contrast examples correctly teach sēdēt vs seisma. DE untouched."
+  ),
+
+  // ── ET sollen (NELABOT→LABOT) ────────────────────────────────────────
+  "g2/a1/et|sollen|idx:564|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": labot(
+    {
+      lv: "peaks",
+      "study.translation": "peaks",
+      "study.explanation": [
+        "Põhiidee: sollen tähendab, et keegi peaks midagi tegema juhise järgi.",
+        "sollen kasutatakse sageli siis, kui keegi teine ütleb, mida teha.",
+        "See ei ole nii tugev kui müssen (kohustus).",
+        "Väga sage fraas on Was soll ich machen? = Mida ma peaksin tegema?",
+      ],
+      "study.examples[0].lv": "Mida ma peaksin tegema?",
+      "study.examples[1].lv": "Sa peaksid tulema.",
+      "study.examples[2].lv": "Ma peaksin koju jääma.",
+      "study.examples[3].lv": "Ma pean nüüd minema.",
+      "study.comparison[0].meaning": "peaks / juhise järgi tegema",
+      "study.comparison[0].example":
+        "Was soll ich machen? – Mida ma peaksin tegema?",
+      "study.comparison[1].meaning": "peab / kohustus",
+      "study.comparison[1].example": "Ich muss gehen. – Ma pean minema.",
+      "study.important[0]": "Was soll ich machen? on väga sage fraas.",
+      "study.important[1]":
+        "sollen = peaks / juhise järgi; müssen = peab / kohustus.",
+    },
+    "ET sollen PDF reaudit: Ich muss jetzt gehen→Ma pean nüüd minema; sollen=peaks vs müssen=peab. DE untouched."
+  ),
+
+  "g2/a1/et|werden|idx:657|lv, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET werden study: saama/kutsuma become/passive and werden vs sein contrast teach kļūt. DE untouched."
+  ),
+
+  "g2/a1/et|Wetter|idx:658|lv, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET Wetter study: ilm weather vs Zeit time distinction matches laiks (laikapstākļi). DE untouched."
+  ),
+
+  "g2/a1/et|zu|idx:668|lv, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET zu study: juurde/liiga direction and zu Hause examples teach uz • pie. DE untouched."
+  ),
+
+  "g2/a1/et|Zug|idx:671|lv, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna": nelabot(
+    "ET Zug study: rong train noun and Zug vs ziehen contrast match vilciens. DE untouched."
+  ),
+
+  "g2/a1/et|zum|idx:672|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna": labot(
+    {
+      lv: "-sse • juurde",
+      "study.translation": "juurde",
+      "study.explanation": [
+        "zum on eessõna zu ja artikli dem lühend.",
+        "Täisvorm: zu dem (Dativ).",
+        "Kasutatakse mees- ja kesksoost nimisõnadega suuna või eesmärgi näitamiseks.",
+        "zum Arzt = arsti juurde (suund), mitte arsti juures (asukoht).",
+        "Naissoost sõnade puhul: zu + der → zur.",
+      ],
+      "study.comparison[0].meaning": "-sse / juurde (suund)",
+      "study.comparison[0].example": "zum Arzt – arsti juurde",
+      "study.comparison[1].meaning": "-sse / juurde (naissoost: zu + der)",
+      "study.comparison[1].example": "zur Schule – kooli",
+      "study.comparison[4].meaning": "juures (asukoht)",
+      "study.comparison[4].example": "beim Arzt – arsti juures",
+      "study.important[0]":
+        "zum = zu dem, mees- ja kesksoost nimisõnaga Dativis.",
+      "study.important[1]":
+        "zum näitab suunda (juurde); bei/beim näitab asukohta (juures).",
+      "study.important[3]":
+        "Ära aja segi: zum Arzt (arsti juurde) vs. beim Arzt (arsti juures).",
+    },
+    "ET zum gala: zu+dem Dativ; zum Arzt=arsti juurde; zur feminine; bei=location vs zum=direction. DE untouched."
+  ),
+
+  // ── FI (13) — all ET leak → real Finnish LABOT ───────────────────────
+  "g2/a1/fi|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { "study.comparison[1].meaning": "Jostakin • Alkuperä" },
+    "FI ab comparison[1]: ET Kellestki/Päritolu→Jostakin•Alkuperä for no kāda/kaut kā•izcelsme. DE untouched."
+  ),
+  "g2/a1/fi|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { "study.comparison[0].meaning": "Vastakohta • Vastaväite • Kuitenkin" },
+    "FI aber comparison[0]: ET Vastand/Vastuväide→Vastakohta•Vastaväite•Kuitenkin for pretstats•iebilde•tomēr. DE untouched."
+  ),
+  "g2/a1/fi|a1-also|a1.card.a1-also.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { "study.comparison[0].meaning": "Siis • Näin ollen" },
+    "FI also comparison[0]: ET Seega/Järelikult→Siis•Näin ollen for tātad•līdz ar to. DE untouched."
+  ),
+  "g2/a1/fi|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { lv: "Luona • Päällä • Lähellä" },
+    "FI an native: ET Juures/Peal/Ligi→Luona•Päällä•Lähellä per full an study semantics. DE untouched."
+  ),
+  "g2/a1/fi|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { "study.translation": "Kiinni • Pinnalla • Reunalla" },
+    "FI an study.translation: ET Pinna küljes/Serva ääres→Kiinni•Pinnalla•Reunalla for pie surface/edge. DE untouched."
+  ),
+  "g2/a1/fi|a1-aufs|a1.card.a1-aufs.native|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { lv: "Päälle • Pinnalle • Minne?" },
+    "FI aufs native: ET Peale/Otsa/Kuhu→Päälle•Pinnalle•Minne? auf+das Akk direction minne?. DE untouched."
+  ),
+  "g2/a1/fi|a1-aufs|a1.card.a1-aufs.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { "study.translation": "Päälle • Pinnalle • Minne?" },
+    "FI aufs study.translation mirrors native; auf+das Akkusativ minne? consistent. DE untouched."
+  ),
+  "g2/a1/fi|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { lv: "-sta/-stä • Ulos" },
+    "FI aus native: ET -st/Välja→-sta/-stä•Ulos for no•ārā from/out senses. DE untouched."
+  ),
+  "g2/a1/fi|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { "study.translation": "-sta/-stä • Ulos" },
+    "FI aus study.translation mirrors native; -sta/-stä•Ulos consistent with aus card. DE untouched."
+  ),
+  "g2/a1/fi|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { "study.comparison[0].meaning": "Käynti • Vierailu • Kyläily" },
+    "FI besuch comparison[0]: remove vierailu dup→Käynti•Vierailu•Kyläily for apmeklējums•apciemojums•vizīte. DE untouched."
+  ),
+  "g2/a1/fi|a1-besuchen|a1.card.a1-besuchen.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    {
+      "study.comparison[0].meaning":
+        "Vierailla paikassa tai tapahtumassa • Käydä jonkun luona",
+    },
+    "FI besuchen comparison[0]: ET paikkaa/henkilöllä→paikassa/tapahtumassa•käydä jonkun luona. DE untouched."
+  ),
+  "g2/a1/fi|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { lv: "Tuoda • Viedä" },
+    "FI bringen native: ET Tooma/Viima→Tuoda•Viedä for atnest bring/carry. DE untouched."
+  ),
+  "g2/a1/fi|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": labot(
+    { "study.translation": "Tuoda • Viedä" },
+    "FI bringen study.translation mirrors native; Tuoda•Viedä consistent. DE untouched."
+  ),
+};
+
+const ids = Object.keys(decisions);
+if (ids.length !== 50) {
+  console.error(`Expected 50 decisions, got ${ids.length}`);
+  process.exit(1);
+}
+
+let labotCount = 0;
+let nelabotCount = 0;
+for (const d of Object.values(decisions)) {
+  if (d.owner_decision === "LABOT") labotCount++;
+  else if (d.owner_decision === "NELABOT") nelabotCount++;
+}
+
+fs.writeFileSync(outPath, `${JSON.stringify(decisions, null, 2)}\n`);
+console.log(
+  JSON.stringify(
+    {
+      total: ids.length,
+      labot: labotCount,
+      nelabot: nelabotCount,
+      pending: 0,
+      pdf_reaudit: true,
+    },
+    null,
+    2
+  )
+);

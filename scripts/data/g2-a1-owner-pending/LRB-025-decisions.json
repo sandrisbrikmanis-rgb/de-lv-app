@@ -1,0 +1,302 @@
+{
+  "g2/a1/hu|a1-ueber|a1.card.a1-ueber.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Fölött • -ról/-ről\"}",
+    "owner_note": "HU a1-ueber translation: EN Over/For→Fölött•-ról/-ről for virs•par. DE untouched."
+  },
+  "g2/a1/hu|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[5].native\":\"Óra\"}",
+    "owner_note": "HU a1-uhr examples[5].native: empty→Óra for pulkstenis/Uhr. DE untouched."
+  },
+  "g2/a1/hu|a1-um|a1.card.a1-um.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-kor • Körül\"}",
+    "owner_note": "HU a1-um native: corrupt Óra körül lead→-kor•Körül for ap•pulksten. DE untouched."
+  },
+  "g2/a1/hu|a1-um|a1.card.a1-um.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"-kor • Körül\"}",
+    "owner_note": "HU a1-um translation: corrupt Óra körül lead→-kor•Körül for ap•pulksten. DE untouched."
+  },
+  "g2/a1/hu|a1-verstehen|a1.card.a1-verstehen.study.explanation[2]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation[2]\":\"Magyarul a verstehen jelentése „érteni”; a képességet inkább a können fejezi ki.\"}",
+    "owner_note": "HU a1-verstehen explanation[2]: owner micro-repair→érteni vs können for LV prast/mācēt note. DE untouched."
+  },
+  "g2/a1/hu|a1-vor|a1.card.a1-vor.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Előtt\"}",
+    "owner_note": "HU a1-vor native: owner micro-repair Előtt•Előtte→Előtt only; priekšā in study context. DE untouched."
+  },
+  "g2/a1/hu|a1-vor|a1.card.a1-vor.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Előtt\"}",
+    "owner_note": "HU a1-vor translation: owner micro-repair Előtt•Előtte→Előtt only. DE untouched."
+  },
+  "g2/a1/hu|a1-was|a1.card.a1-was.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Mi • Mit\"}",
+    "owner_note": "HU a1-was native: Ki→Mi for kas•ko (what). DE untouched."
+  },
+  "g2/a1/hu|a1-was|a1.card.a1-was.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Mi • Mit\"}",
+    "owner_note": "HU a1-was translation: Ki→Mi for kas•ko (what). DE untouched."
+  },
+  "g2/a1/hu|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-wenn: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-wenn|a1.card.a1-wenn.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-wenn: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ki • Kicsoda\"}",
+    "owner_note": "HU a1-wer native: duplicate Ki→Ki•Kicsoda for kas•kurš. DE untouched."
+  },
+  "g2/a1/hu|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Ki • Kicsoda\"}",
+    "owner_note": "HU a1-wer translation: duplicate Ki→Ki•Kicsoda for kas•kurš. DE untouched."
+  },
+  "g2/a1/hu|a1-wie|a1.card.a1-wie.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-wie: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-wie|a1.card.a1-wie.study.explanation[3]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-wie: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-wie|a1.card.a1-wie.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU a1-wie: HU multi-translation aligns with LV source. DE untouched."
+  },
+  "g2/a1/hu|a1-zu|a1.card.a1-zu.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-hoz/-hez/-höz • felé\"}",
+    "owner_note": "HU a1-zu native: owner micro-repair→-hoz/-hez/-höz•felé for uz•pie. DE untouched."
+  },
+  "g2/a1/hu|a1-zu|a1.card.a1-zu.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"-hoz/-hez/-höz • felé\"}",
+    "owner_note": "HU a1-zu translation: owner micro-repair→-hoz/-hez/-höz•felé for uz•pie. DE untouched."
+  },
+  "g2/a1/hu|a1-zum|a1.card.a1-zum.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-hoz/-hez/-höz\"}",
+    "owner_note": "HU a1-zum native: owner micro-repair→-hoz/-hez/-höz (zu+dem) for uz•pie. DE untouched."
+  },
+  "g2/a1/hu|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"-hoz/-hez/-höz\"}",
+    "owner_note": "HU a1-zum translation: owner micro-repair→-hoz/-hez/-höz (zu+dem). DE untouched."
+  },
+  "g2/a1/hu|ab|idx:17|study.explanation; study.examples[3].lv; study.comparison[2].example|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[3].lv\":\"Hétfőtől dolgozom.\",\"study.comparison[2].example\":\"ab Montag – Hétfőtől\"}",
+    "owner_note": "HU ab card: gala repair example + ab (not aus) comparison for no/ab. DE untouched."
+  },
+  "g2/a1/hu|aber|idx:21|study.explanation; study.examples[1].lv; study.comparison[1].example|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[1].lv\":\"Teát akartam, nem kávét.\",\"study.comparison[1].example\":\"Ich wollte keinen Tee, sondern Kaffee. – Teát akartam, nem kávét.\"}",
+    "owner_note": "HU aber card: null example + comparison alignment for bet/aber contrast. DE untouched."
+  },
+  "g2/a1/hu|also|idx:26|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tehát • Ezért\",\"study.translation\":\"Tehát • Ezért\",\"study.tip.text\":\"Emlékezz: következtetés → also.\"}",
+    "owner_note": "HU also card: Ezért-only lv + LV tip residue→Tehát•Ezért + HU tip for tātad/also. DE untouched."
+  },
+  "g2/a1/hu|an|idx:12|study.translation; study.explanation; study.comparison[2].example|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[2].example\":\"beim Arzt – Az orvosnál\"}",
+    "owner_note": "HU an card: wrong comparison example→beim Arzt HU alignment for pie/an. DE untouched."
+  },
+  "g2/a1/hu|auch|idx:48|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[1].lv\":\"Ő is itt dolgozik.\",\"study.examples[2].lv\":\"Kívánok Önnek is szép napot.\",\"study.important[0]\":\"Az „Ich auch wünsche Ihnen” nem helyes szórend.\",\"study.important[1]\":\"auch = is/szintén.\",\"study.important[2]\":\"Helytelen: Ich auch wünsche Ihnen einen schönen Tag.\"}",
+    "owner_note": "HU auch card: swapped examples + LV important→HU for arī/auch. DE untouched."
+  },
+  "g2/a1/hu|auf|idx:49|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Rá • Fel • Felszínre\",\"study.translation\":\"Rá • Fel • Felszínre\",\"study.tip.text\":\"Emlékezz: felületre/felfelé → auf.\"}",
+    "owner_note": "HU auf card: EN Hogy + LV tip→Rá•Fel•Felszínre + HU tip for uz/auf. DE untouched."
+  },
+  "g2/a1/hu|aufs|idx:60|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Rá • Fel • Felszínre\",\"study.translation\":\"Rá • Fel • Felszínre\",\"study.tip\":\"[\\\"Emlékezz: auf + das → aufs (hová?).\\\",\\\"A hétköznapi beszédben szinte soha nem mondják a teljes auf das formát — aufs-et használnak.\\\"]\"}",
+    "owner_note": "HU aufs card: LV tip residue→HU for uz/aufs. DE untouched."
+  },
+  "g2/a1/hu|aus|idx:57|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-ból • -től • Honnan\",\"study.translation\":\"-ból • -től • Honnan\",\"study.tip.text\":\"Emlékezz: belülről kifelé vagy származás → aus.\"}",
+    "owner_note": "HU aus card: corrupt Ki + LV tip→HU for no/aus. DE untouched."
+  },
+  "g2/a1/hu|baden|idx:68|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Fürödni • Úszni\",\"study.translation\":\"Fürödni • Úszni\"}",
+    "owner_note": "HU baden card: Úszni-only lead→Fürödni•Úszni for peldēties/baden bathe. DE untouched."
+  },
+  "g2/a1/hu|bei|idx:78|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-nál/-nél\",\"study.translation\":\"-nál/-nél\",\"study.tip.text\":\"Emlékezz: személy/hely/vállalat mellett → bei.\"}",
+    "owner_note": "HU bei card: EN At→-nál/-nél + HU tip for pie/bei. DE untouched."
+  },
+  "g2/a1/hu|Besuch|idx:87|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Látogatás\",\"study.translation\":\"Látogatás\",\"study.tip.text\":\"Emlékezz: a Besuch esemény vagy látogatás, a Besucher pedig személy.\"}",
+    "owner_note": "HU Besuch card: LV tip residue→HU; capitalize Látogatás for apmeklējums. DE untouched."
+  },
+  "g2/a1/hu|besuchen|idx:89|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip.text\":\"Emlékezz: helyet meglátogat, személyt magyarul gyakran meglátogat.\"}",
+    "owner_note": "HU besuchen card: LV tip residue→HU for apmeklēt/besuchen. DE untouched."
+  },
+  "g2/a1/hu|bis|idx:91|lv, study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip.text\":\"Emlékezz: határ/időpont/feltétel → bis.\",\"study.important\":\"[\\\"bis = -ig, határpontig vagy időpontig.\\\",\\\"bis jetzt = eddig; bis dass = amíg.\\\",\\\"A bis jetzt azt jelenti, hogy eddig.\\\"]\"}",
+    "owner_note": "HU bis card: LV tip/important residue→HU for līdz/bis. DE untouched."
+  },
+  "g2/a1/hu|bitte|idx:93|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Egy csésze kávét, kérem.\",\"study.examples[1].lv\":\"Gyere be, kérlek.\",\"study.examples[2].lv\":\"Szívesen!\",\"study.examples[3].lv\":\"Megkérdezhetem?\",\"study.examples[4].lv\":\"Van egy kérésem.\",\"study.examples[5].lv\":\"A kérés fontos.\",\"study.tip\":\"[\\\"A kis bitte = kérem (Bitte schön!, Kaffee, bitte). A die Bitte nagybetűvel = kérés (eine Bitte, meine Bitte).\\\",\\\"Udvariassági szó kisbetűvel. Használd, ha udvariasan kérsz — kérem.\\\"]\",\"study.important\":\"[\\\"A bitte kisbetűvel udvariassági szó, nem főnév.\\\",\\\"A die Bitte nagybetűvel és a die névelővel főnév: kérés.\\\",\\\"Többes szám: die Bitten (kérések).\\\"]\"}",
+    "owner_note": "HU bitte card: examples + LV tip/important→HU for lūdzu/bitte politeness. DE untouched."
+  },
+  "g2/a1/hu|Bitte|idx:94|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Egy kérésem van.\",\"study.examples[1].lv\":\"Teljesíti a kérésemet.\",\"study.examples[2].lv\":\"Két kérése van.\",\"study.examples[3].lv\":\"Megkérdezhetem?\",\"study.examples[4].lv\":\"Egy kérésem van.\",\"study.examples[5].lv\":\"A kérés fontos.\",\"study.tip\":\"[\\\"A kis bitte = kérem (Bitte schön!, Kaffee, bitte). A die Bitte nagybetűvel = kérés (eine Bitte, meine Bitte).\\\",\\\"Főnév a die névelővel és nagybetűvel: konkrét kérés vagy kérés.\\\"]\",\"study.important\":\"[\\\"A bitte kisbetűvel udvariassági szó, nem főnév.\\\",\\\"A die Bitte nagybetűvel és a die névelővel főnév: kérés.\\\",\\\"Többes szám: die Bitten (kérések).\\\"]\"}",
+    "owner_note": "HU Bitte card: full examples/comparison semantic fix + LV tip/important→HU for lūgums/die Bitte. DE untouched."
+  },
+  "g2/a1/hu|bleiben|idx:101|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip.text\":\"Emlékezz: nem megy el → bleiben; elmegy gyalog → gehen.\",\"study.important[0]\":\"A bleiben azt jelenti, hogy maradni, nem pedig várni.\",\"study.important[1]\":\"Ich bleibe hier = Itt maradok; Ich warte hier = Itt várok.\"}",
+    "owner_note": "HU bleiben card: LV tip + PT/EN residue in important→HU for palikt/bleiben. DE untouched."
+  },
+  "g2/a1/hu|bringen|idx:111|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Hozok neked egy könyvet.\",\"study.examples[1].lv\":\"Elviszem a csomagot a postára.\",\"study.examples[2].lv\":\"Elviszem a gyerekeket iskolába.\",\"study.examples[3].lv\":\"Veszem a könyvet.\",\"study.comparison[0].meaning\":\"Hozni • elvinni • szállítani\",\"study.comparison[0].example\":\"Ich bringe dir ein Buch. – Hozok neked egy könyvet.\",\"study.comparison[1].word\":\"nehmen\",\"study.comparison[1].meaning\":\"Venni • magához venni\",\"study.comparison[1].example\":\"Ich nehme das Buch. – Veszem a könyvet.\",\"study.comparison[2].word\":\"holen\",\"study.comparison[2].meaning\":\"Elmenni utána • elhozni\",\"study.comparison[2].example\":\"Ich hole Wasser. – Vizet hozok.\",\"study.comparison[3].word\":\"mitbringen\",\"study.comparison[3].meaning\":\"Magával vinni\",\"study.comparison[3].example\":\"Bringst du Brot mit? – Hozol kenyeret?\",\"study.tip.text\":\"Emlékezz: valakihez visz → bringen; magához vesz → nehmen; utánamegy és elhoz → holen.\",\"study.important[0]\":\"A bringen irányt mutat valakihez vagy valahova.\",\"study.important[1]\":\"A nehmen azt jelenti, hogy vesz, de nem feltétlenül ad át másnak.\",\"study.important[2]\":\"A magyar fordítás a kontextustól függ.\"}",
+    "owner_note": "HU bringen card: gala repair all examples/comparison + nehmen/holen contrast; remove LV residue. DE untouched."
+  },
+  "g2/a1/hu|da|idx:126|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip.text\":\"Emlékezz: általános ott/itt → da.\"}",
+    "owner_note": "HU da card: LV tip residue→HU for tur/da. DE untouched."
+  },
+  "g2/a1/hu|ein|idx:154|study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.tip.text\":\"Emlékezz: nem konkrét egy/valaki → ein.\",\"study.important\":\"[\\\"Az ein a határozatlan névelő.\\\",\\\"Ha a tárgy már konkrétan ismert, gyakran der, die vagy das kell.\\\",\\\"eine — nőnem.\\\",\\\"einen — akkuzatívusz.\\\"]\"}",
+    "owner_note": "HU ein card: LV tip/important residue→HU for nenoteiktais/ein article. DE untouched."
+  },
+  "g2/a1/hu|einmal|idx:700|lv, study.translation, study.explanation, study.examples, study.tip, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Egyszer • Alkalom\",\"study.translation\":\"Egyszer • Alkalom\"}",
+    "owner_note": "HU einmal card: duplicate Egyszer→Egyszer•Alkalom for vienreiz•reiz. DE untouched."
+  },
+  "g2/a1/hu|Eis|idx:157|study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Jég • Fagylalt\"}",
+    "owner_note": "HU Eis card: Jégkrém lead→Jég•Fagylalt for ledus•saldējums. DE untouched."
+  },
+  "g2/a1/hu|erst|idx:165|study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Először tanulj, aztán játssz.\",\"study.tip.text\":\"Emlékezz: idő/sorrend → erst; mennyiség → nur.\",\"study.important\":\"[\\\"Az erst és a nur egyaránt fordítható „csak”-ként, de nem ugyanaz.\\\",\\\"Az erst gyakran időre, sorrendre vagy még el nem ért pontra utal; a nur mennyiséget korlátoz.\\\",\\\"A zuerst gyakrabban jelent: először.\\\"]\"}",
+    "owner_note": "HU erst card: wrong example[0] + LV tip/important→HU for tikai/erst. DE untouched."
+  },
+  "g2/a1/hu|es|idx:167|study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples\":[{\"de\":\"Es regnet.\",\"lv\":\"Esik az eső.\"},{\"de\":\"Es ist kalt.\",\"lv\":\"Hideg van.\"},{\"de\":\"Das Kind schläft.\",\"lv\":\"A gyerek alszik.\"},{\"de\":\"Es ist müde.\",\"lv\":\"Fáradt.\"},{\"de\":\"Es schneit.\",\"lv\":\"Havazik.\"}]}",
+    "owner_note": "HU es card: gala repair all DE↔HU examples for es impersonal; remove permuted LV. DE untouched."
+  },
+  "g2/a1/hu|Essen|idx:691|study.explanation, study.examples, study.tip|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation\":\"[\\\"Fő ötlet: Főnév — étel vagy az egész étkezés.\\\",\\\"A das Essen elsősorban ételt vagy étkezést jelent.\\\",\\\"Az essen azt jelenti, hogy enni.\\\",\\\"A das Essen lehet étel vagy étkezés összességében.\\\"]\",\"study.tip\":\"[\\\"das Essen = étel/étkezés\\\",\\\"essen = enni\\\",\\\"Használd a das Essen szót étel/étkezés értelemben, az essen szót pedig cselekvésként.\\\"]\"}",
+    "owner_note": "HU Essen card: wrong eső/cselekvés mix + tip das Essen=enni→étel vs essen=enni. DE untouched."
+  },
+  "g2/a1/hu|etwas|idx:169|study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.important\":\"[\\\"Az etwas nem ugyanaz, mint a nichts: az etwas azt jelenti, hogy van valami, a nichts pedig semmi.\\\",\\\"Magyarul néha természetesebb valamit, pl. etwas trinken = inni valamit.\\\"]\"}",
+    "owner_note": "HU etwas card: LV important residue→HU for kaut kas/etwas. DE untouched."
+  },
+  "g2/a1/hu|euch|idx:170|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Titeket • Nektek\",\"study.explanation\":\"Az „euch” a többes szám második személyű névmás. Tárgyesetben: titeket; részeshatározóban: nektek.\",\"study.examples[0].lv\":\"Látok titeket.\",\"study.examples[1].lv\":\"Segítek nektek.\",\"study.examples[2].lv\":\"Adok nektek egy könyvet.\",\"study.examples[3].lv\":\"Köszönöm nektek.\",\"study.examples[4].lv\":\"Emlékeztek.\"}",
+    "owner_note": "HU euch card: sg Te residue in explanation/examples→plural Titeket•Nektek for jūs•jums. DE untouched."
+  },
+  "g2/a1/hu|fahren|idx:172|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Vezet • Utazik • Visz\"}",
+    "owner_note": "HU fahren card: Ólom wrong lead→Vezet•Utazik•Visz for braukt/fahren. DE untouched."
+  },
+  "g2/a1/hu|Ferien|idx:694|study.examples, study.comparison|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":\"Szünidőben a tengerhez megyünk.\",\"study.examples[1].lv\":\"Szünidőben sok időm van.\",\"study.examples[2].lv\":\"Mit csináltok szünidőben?\",\"study.examples[3].lv\":\"Az iskola szünidőben zárva tart.\",\"study.examples[4].lv\":\"Szünidőben a tengerhez megyünk.\",\"study.examples[5].lv\":\"Szünidőben (iskola).\",\"study.comparison[0].example\":\"In den Ferien fahren wir weg. – Szünidőben elmegyünk valahova.\"}",
+    "owner_note": "HU Ferien card: Hétvége/Ünnepnap→Szünidő for brīvdienas/Ferien school holidays. DE untouched."
+  },
+  "g2/a1/hu|finden|idx:187|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Talál\",\"study.examples[0].lv\":\"Megtalálom a kulcsomat.\",\"study.examples[1].lv\":\"Jónak találom.\",\"study.examples[2].lv\":\"Mit gondolsz a filmről?\",\"study.examples[3].lv\":\"Mit gondolsz a filmről?\"}",
+    "owner_note": "HU finden card: Fontolja meg lead→Talál + aligned examples for atrast/finden. DE untouched."
+  },
+  "g2/a1/hu|Frau|idx:198|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "HU Frau|idx:198: HU multi-translation aligns with LV source. DE untouched."
+  }
+}
