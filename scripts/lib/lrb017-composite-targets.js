@@ -290,7 +290,7 @@ const ZUG_SECTION_ACCENTS = {
   explanation: {
     blue: ["der Zug", "Zug", "mit dem Zug fahren"],
     purple: ["juna"],
-    red: ["veto", "imu", "kasvonpiirre"],
+    red: ["kulkue", "ilmavirta", "kasvonpiirre"],
   },
   tip: { left: { blue: ["der Zug"], purple: ["Muista"] } },
   important: [
@@ -304,7 +304,7 @@ const COMPOSITE_BY_ID = {
     "study.translation": "-sta/-stä",
     "study.explanation[0]":
       "Pääajatus: Vom on prepositio von ja artikkelin dem lyhenne.",
-    "study.explanation[1]": "Täysi muoto: von dem (Dativ).",
+    "study.explanation[1]": "Täysi muoto: von dem (datiivi).",
     "study.explanation[2]":
       "Käytetään maskuliini- ja neutrisukuisissa substantiiveissa, kun ilmaistaan alkuperä tai suunta jostakin poispäin.",
     "study.explanation[3]": "Vastaa kysymyksiin keneltä? tai mistä?",
@@ -318,7 +318,7 @@ const COMPOSITE_BY_ID = {
     "study.examples[5].lv": "Tulemme juhlista.",
     "study.examples[6].lv": "Hän hakee maitoa maanviljelijältä.",
     "study.examples[7].lv": "Viesti on päälliköltä.",
-    "study.comparison[0].meaning": "-sta/-stä (konkreettinen asia, Dativ)",
+    "study.comparison[0].meaning": "-sta/-stä (konkreettinen asia, datiivissa)",
     "study.comparison[0].example": "vom Bahnhof – Rautatieasemalta",
     "study.comparison[1].meaning": "-sta/-stä (yleisesti)",
     "study.comparison[1].example": "von mir – Minulta",
@@ -347,7 +347,7 @@ const COMPOSITE_BY_ID = {
       "Pääajatus: vor tarkoittaa ajassa ennen tai paikassa edessä.",
     "study.explanation[1]": "Kun puhutaan ajasta, vor tarkoittaa ennen.",
     "study.explanation[2]":
-      "Kun puhutaan paikasta, vor tarkoittaa edessä tai lähellä.",
+      "Kun puhutaan paikasta, vor tarkoittaa edessä.",
     "study.explanation[3]":
       "Kellonajassa vor tarkoittaa vaille, esimerkiksi fünf vor acht.",
     "study.examples[0].lv": "Ennen ruokailua pesen kädet.",
@@ -616,7 +616,7 @@ const COMPOSITE_BY_ID = {
       "study.explanation[1]":
         "Sitä käytetään arkisissa tilanteissa matkustamisesta, saapumisesta ja lähtemisestä.",
       "study.explanation[2]":
-        "Joissain muissa merkityksissä Zug voi tarkoittaa vetoa, imua tai kasvonpiirrettä, mutta ne eivät ole pääasiallisia A1-merkityksiä.",
+        "Joissain muissa merkityksissä Zug voi tarkoittaa kulkueita, vetävää ilmavirtaa tai kasvonpiirrettä, mutta ne eivät ole pääasiallisia A1-merkityksiä.",
       "study.explanation[3]":
         "Hyvin yleisiä fraaseja ovat mit dem Zug fahren ja Der Zug kommt.",
       "study.tip.text": "Muista: tietty juna → der Zug.",
