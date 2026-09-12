@@ -290,7 +290,7 @@ const ZUG_SECTION_ACCENTS = {
   explanation: {
     blue: ["der Zug", "Zug", "mit dem Zug fahren"],
     purple: ["juna"],
-    red: ["kulkue", "ilmavirta", "kasvonpiirre"],
+    red: ["kulkue", "veto", "kasvonpiirre"],
   },
   tip: { left: { blue: ["der Zug"], purple: ["Muista"] } },
   important: [
@@ -616,7 +616,7 @@ const COMPOSITE_BY_ID = {
       "study.explanation[1]":
         "Sitä käytetään arkisissa tilanteissa matkustamisesta, saapumisesta ja lähtemisestä.",
       "study.explanation[2]":
-        "Joissain muissa merkityksissä Zug voi tarkoittaa kulkueita, vetävää ilmavirtaa tai kasvonpiirrettä, mutta ne eivät ole pääasiallisia A1-merkityksiä.",
+        "Joissain muissa merkityksissä Zug voi tarkoittaa kulkueita, vetoa tai kasvonpiirrettä, mutta ne eivät ole pääasiallisia A1-merkityksiä.",
       "study.explanation[3]":
         "Hyvin yleisiä fraaseja ovat mit dem Zug fahren ja Der Zug kommt.",
       "study.tip.text": "Muista: tietty juna → der Zug.",
