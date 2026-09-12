@@ -4,6 +4,8 @@
   "pdf_reaudit": true,
   "post_repair_merge": true,
   "recalculated_from_production": true,
+  "production_source": "data/fi/a1.js",
+  "full_composite_repair": true,
   "pass": true,
   "row_count": 50,
   "labot": 48,
@@ -29,11 +31,16 @@
     "Schnee"
   ],
   "pdf_reaudit_repairs": [
-    "sich",
     "schwimmen",
-    "Sie",
+    "sehen",
+    "sein",
+    "Seite",
+    "sich",
     "sicher",
+    "sie",
+    "Sie",
     "sitzen",
+    "sollen",
     "sprechen"
   ],
   "row_audit": [
@@ -340,5 +347,5 @@
   ],
   "failures": [],
   "verdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T11:46:32.468Z"
+  "updatedAt": "2026-09-12T13:25:26.375Z"
 }

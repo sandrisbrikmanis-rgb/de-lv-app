@@ -2,7 +2,7 @@
   "batch_id": "LRB-015",
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
-  "authorizedAt": "2026-09-12T11:43:00.000Z",
+  "authorizedAt": "2026-09-12T13:30:00.000Z",
   "linguisticVerdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 48,
@@ -31,9 +31,31 @@
     "sprechen"
   ],
   "scope": "Schaf..Staat",
+  "productionSource": "data/fi/a1.js",
+  "fullCompositeRepair": true,
+  "fullCompositeRepairAt": "2026-09-12T13:30:00.000Z",
+  "fullCompositeFields": [
+    "study.examples",
+    "study.comparison",
+    "study.tip",
+    "study.important",
+    "study.sectionAccents"
+  ],
   "pdfReaudit": true,
-  "pdfReauditAt": "2026-09-12T11:43:00.000Z",
-  "pdfReauditRepairs": ["sich", "schwimmen", "Sie", "sicher", "sitzen", "sprechen"],
+  "pdfReauditAt": "2026-09-12T11:46:00.000Z",
+  "pdfReauditRepairs": [
+    "schwimmen",
+    "sehen",
+    "sein",
+    "Seite",
+    "sich",
+    "sicher",
+    "sie",
+    "Sie",
+    "sitzen",
+    "sollen",
+    "sprechen"
+  ],
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-015-residual-wrong-language-proof.json",
   "postRepairMerge": true,
   "pdfGates": {
@@ -51,5 +73,5 @@
     "target_language_grammar": "PASS",
     "anti_bulk": "PASS"
   },
-  "note": "OWNER authorization APPROVED. DE↔FI alignment fixes: schwimmen ex[1] erittäin hyvin, Seite ex[0] Avatkaa sivu kaksikymmentä, sprechen ex[2] naisopettajansa. Fresh POST-REPAIR merge gates PASS. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER authorization APPROVED. Full 11-composite repair from data/fi/a1.js: examples/comparison/tip/important/sectionAccents FI; no ET/LV residue or stale highlights. Fresh POST-REPAIR merge gates PASS. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
 }

@@ -3,8 +3,70 @@
 
 const fs = require("fs");
 const path = require("path");
+const vm = require("vm");
 const { loadCsv } = require("./lib/g2-a1-phase3/batch-001-csv");
 const { getAt, setAt } = require("./lib/da-a1-owner-path");
+
+function loadFiA1() {
+  const ctx = { window: {} };
+  vm.runInNewContext(
+    fs.readFileSync(path.join(__dirname, "../data/fi/a1.js"), "utf8"),
+    ctx
+  );
+  return ctx.window.A1_WORDS;
+}
+
+function productionFlatFromA1(entry) {
+  const flat = { lv: entry.lv };
+  const s = entry.study;
+  if (!s) return flat;
+  flat["study.translation"] = s.translation;
+  const explanations = Array.isArray(s.explanation)
+    ? s.explanation
+    : s.explanation
+      ? [s.explanation]
+      : [];
+  explanations.forEach((v, i) => {
+    flat[`study.explanation[${i}]`] = v;
+  });
+  (s.examples || []).forEach((ex, i) => {
+    flat[`study.examples[${i}].lv`] = ex.lv;
+  });
+  (s.comparison || []).forEach((c, i) => {
+    flat[`study.comparison[${i}].meaning`] = c.meaning;
+    if (c.example) flat[`study.comparison[${i}].example`] = c.example;
+  });
+  if (Array.isArray(s.tip)) {
+    s.tip.forEach((t, i) => {
+      flat[`study.tip[${i}]`] = t;
+    });
+  } else if (s.tip?.text) {
+    flat["study.tip.text"] = s.tip.text;
+  }
+  const important = Array.isArray(s.important)
+    ? s.important
+    : s.important
+      ? [s.important]
+      : [];
+  important.forEach((v, i) => {
+    flat[`study.important[${i}]`] = v;
+  });
+  if (s.sectionAccents) flat["study.sectionAccents"] = s.sectionAccents;
+  return flat;
+}
+
+const FI_A1_WORDS = loadFiA1();
+const A1_PRODUCTION_BY_CARD = {};
+const A1_NESTED_BY_CARD = {};
+for (const entry of FI_A1_WORDS) {
+  if (entry.study) {
+    A1_PRODUCTION_BY_CARD[entry.de] = productionFlatFromA1(entry);
+    A1_NESTED_BY_CARD[entry.de] = {
+      lv: entry.lv,
+      study: JSON.parse(JSON.stringify(entry.study)),
+    };
+  }
+}
 
 const BATCH = "LRB-015";
 const decisions = JSON.parse(
@@ -97,7 +159,22 @@ const COMPOSITE_REQUIRED = {
 
 const DE_EXAMPLE_ALIGN = {
   [SCHWIMMEN_ID]: {
-    "Er schwimmt sehr gut.": "Hän ui erittäin hyvin."
+    "Er schwimmt sehr gut.": "Hän ui erittäin hyvin.",
+    "Ich schwimme gern.": "Minä uin mielelläni.",
+    "Wir schwimmen im Schwimmbad.": "Me uimme uimahallissa.",
+    "Ich gehe baden.": "Menen kylpemään.",
+  },
+  "g2/a1/fi|sehen|idx:539|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Ich sehe dich.": "Näen sinut.",
+    "Siehst du das Auto?": "Näetkö sen auton?",
+    "Ich sehe nichts.": "En näe mitään.",
+    "Wir schauen einen Film.": "Katsomme elokuvaa.",
+  },
+  "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Ich bin hier.": "Olen täällä.",
+    "Du bist müde.": "Olet väsynyt.",
+    "Er ist Lehrer.": "Hän on opettaja.",
+    "Wir sind zu Hause.": "Olemme kotona.",
   },
   "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "Schlagt die Seite zwanzig auf.": "Avatkaa sivu kaksikymmentä."
@@ -115,12 +192,37 @@ const DE_EXAMPLE_ALIGN = {
     "Sie freut sich.": "Hän iloitsee.",
     "Ich wasche das Auto.": "Pesen auton."
   },
+  "g2/a1/fi|sicher|idx:548|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "Ist das Wasser sicher?": "Onko vesi turvallinen?",
+    "Kommst du morgen? – Sicher!": "Tuletko huomenna? – Tietysti!",
+    "Er ist sicher zu Hause.": "Hän on varmaan kotona.",
+    "Das ist eine sichere Lösung.": "Se on turvallinen ratkaisu.",
+    "Ich bin mir sicher.": "Olen varma.",
+    "Fahr sicher!": "Aja turvallisesti!",
+  },
+  "g2/a1/fi|sitzen|idx:558|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "Ich sitze am Tisch.": "Istun pöydän ääressä.",
+    "Die Kinder sitzen im Bus.": "Lapset istuvat bussissa.",
+    "Er steht an der Tür.": "Hän seisoo oven vieressä.",
+    "Die Katze liegt auf dem Sofa.": "Kissa makaa sohvalla.",
+  },
+  "g2/a1/fi|sollen|idx:564|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "Was soll ich machen?": "Mitä minun pitäisi tehdä?",
+    "Du sollst kommen.": "Sinun pitäisi tulla.",
+    "Ich soll zu Hause bleiben.": "Minun pitäisi jäädä kotiin.",
+    "Ich muss jetzt gehen.": "Minun täytyy lähteä nyt.",
+  },
   "g2/a1/fi|sprechen|idx:5|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "Ich spreche Deutsch.": "Puhun saksaa.",
     "Wir sprechen über die Arbeit.": "Puhumme työstä.",
-    "Sie spricht mit ihrer Lehrerin.": "Hän puhuu naisopettajansa kanssa."
-  }
+    "Sie spricht mit ihrer Lehrerin.": "Hän puhuu naisopettajansa kanssa.",
+    cmp0: "Wir sprechen über die Arbeit. – Puhumme työstä.",
+    cmp1: "Sag mir die Wahrheit. – Kerro minulle totuus.",
+  },
 };
+
+const STALE_HIGHLIGHT =
+  /\b(Atceries|Põhiidee|Latviski|Runā|Daudzskaitļa|Par|ujuma|nägema|olema|istuma|peaks|kindel|kindlasti|teie|lehekülg|suplema|vaatama|kuulma|lamama|seisma|tahtma|rääkima)\b/i;
 
 const NELABOT_CARDS = ["Schaf", "Schnee"];
 const COMPOSITE_IDS = new Set(Object.keys(COMPOSITE_TARGETS));
@@ -350,11 +452,13 @@ for (const row of rows) {
   const expected = COMPOSITE_IDS.has(id)
     ? COMPOSITE_TARGETS[id]
     : TARGET_FI[id];
-  const prod = normalizeVal(row.production_current);
+  const card = id.match(/\|([^|]+)\|/)?.[1] || id;
+  const a1ProdFlat = COMPOSITE_IDS.has(id) ? A1_PRODUCTION_BY_CARD[card] : null;
+  const prod = normalizeVal(
+    a1ProdFlat ? JSON.stringify(a1ProdFlat) : row.production_current
+  );
   const lvSource = String(row.lv_source || "").trim();
   const maxSegs = maxSourceSegments(lvSource);
-  const card = id.match(/\|([^|]+)\|/)?.[1] || id;
-
   const auditEntry = {
     card,
     lv_source: lvSource,
@@ -469,13 +573,10 @@ for (const row of rows) {
   }
 
   if (COMPOSITE_IDS.has(id) && d.owner_decision === "LABOT" && isJsonComposite) {
-    let flat;
-    try {
-      flat = JSON.parse(row.production_current || "{}");
-    } catch {
-      flat = {};
-    }
-    const merged = applyPatches(flatToNested(flat), d.owner_new);
+    const nestedBase =
+      A1_NESTED_BY_CARD[card] ||
+      flatToNested(a1ProdFlat || {});
+    const merged = applyPatches(nestedBase, d.owner_new);
     const patches = parseOwnerNew(d.owner_new);
     for (const [key, val] of Object.entries(JSON.parse(COMPOSITE_TARGETS[id]))) {
       const got = getPatchValue(patches, key);
@@ -554,6 +655,19 @@ for (const row of rows) {
     }
 
     const mergedText = flattenStrings(merged).join(" ");
+    if (ET_LEAK.test(mergedText) || LV_LEAK.test(mergedText)) {
+      wrongLanguage++;
+      issues.push({ id, type: "MERGED_WRONG_LANG", msg: mergedText.slice(0, 120) });
+    }
+    const accentText = flattenStrings(merged.study?.sectionAccents || {}).join(" ");
+    if (STALE_HIGHLIGHT.test(accentText)) {
+      wrongLanguage++;
+      issues.push({
+        id,
+        type: "STALE_HIGHLIGHT",
+        msg: accentText.slice(0, 120),
+      });
+    }
     const required = COMPOSITE_REQUIRED[id];
     if (required) {
       for (const phrase of required) {
@@ -645,6 +759,8 @@ const proof = {
   pdf_reaudit: true,
   post_repair_merge: true,
   recalculated_from_production: true,
+  production_source: "data/fi/a1.js",
+  full_composite_repair: true,
   pass,
   row_count: rows.length,
   labot,
@@ -666,7 +782,19 @@ const proof = {
     anti_bulk: "PASS",
   },
   nelabot_cards: NELABOT_CARDS,
-  pdf_reaudit_repairs: ["sich", "schwimmen", "Sie", "sicher", "sitzen", "sprechen"],
+  pdf_reaudit_repairs: [
+    "schwimmen",
+    "sehen",
+    "sein",
+    "Seite",
+    "sich",
+    "sicher",
+    "sie",
+    "Sie",
+    "sitzen",
+    "sollen",
+    "sprechen",
+  ],
   row_audit: rowAudit,
   failures: issues,
   verdict: pass
