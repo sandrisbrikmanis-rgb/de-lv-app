@@ -1,0 +1,21 @@
+{
+  "batch_id": "LRB-009",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T09:55:00.000Z",
+  "linguisticVerdict": "LRB_009_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 46,
+  "nelabot": 4,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "nelabot_cards": ["Erde", "Geld", "Geschichte", "gesund"],
+  "note": "OWNER authorization APPROVED after GPT-5.6 Luna individual FI review (46 LABOT / 4 NELABOT). Anti-bulk + residual audit PASS. DE/production/Crowdin/ingest/apply unchanged."
+}
