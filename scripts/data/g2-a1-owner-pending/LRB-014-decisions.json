@@ -68,8 +68,8 @@
   "g2/a1/fi|passen|idx:471|lv; study.explanation; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Sopia • Sopia hyvin\",\"study.explanation[0]\":\"Pääajatus: passen tarkoittaa sopivaa, istuvaa tai kelvollista.\",\"study.explanation[1]\":\"Vaatteista puhuttaessa passen tarkoittaa usein kokoa sopivaksi.\",\"study.explanation[2]\":\"Värien tai tyylin kohdalla passen tarkoittaa hyvin sopivaa.\",\"study.explanation[3]\":\"Hyvin yleinen fraasi on Das passt. = Se sopii.\",\"study.important[0]\":\"passen ei ole vain vaatteista.\",\"study.important[1]\":\"Se voi tarkoittaa myös sitä, että aika, suunnitelma tai ratkaisu sopii.\"}",
-    "owner_note": "FI passen study repair: ET Sobima + ET explanation → FI Sopia/Sopia hyvin fit/size/style sense. DE untouched."
+    "owner_new": "{\"lv\":\"Sopia • Sopia hyvin\",\"study.translation\":\"Sopia • Sopia hyvin\",\"study.explanation[0]\":\"Pääajatus: passen tarkoittaa, että jokin sopii.\",\"study.explanation[1]\":\"Vaatteista puhuttaessa passen voi tarkoittaa sopia, istua hyvin tai olla sopivan kokoinen.\",\"study.explanation[2]\":\"Värien tai tyylin kohdalla passen tarkoittaa sopia hyvin yhteen.\",\"study.explanation[3]\":\"Hyvin yleinen fraasi on Das passt. = Se sopii.\",\"study.important[0]\":\"passen ei ole vain vaatteista.\",\"study.important[1]\":\"Se voi tarkoittaa myös sitä, että aika, suunnitelma tai ratkaisu sopii.\"}",
+    "owner_note": "FI passen PDF reaudit: verbal FI study repair (sopia/istua hyvin/sopia hyvin yhteen); derēt/piestāvēt ↔ sopia/sopia hyvin. DE untouched."
   },
   "g2/a1/fi|Pause|idx:472|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
