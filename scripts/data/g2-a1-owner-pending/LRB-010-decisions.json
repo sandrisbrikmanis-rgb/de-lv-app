@@ -1,9 +1,9 @@
 {
   "g2/a1/fi|Gesundheit|idx:238|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI Gesundheit lv: Tervis is genuine Finnish health vocabulary (cf. gesund/Terve); discovery ET false positive. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "Terveys",
+    "owner_note": "FI Gesundheit PDF reaudit: ET Tervis → FI Terveys; not genuine Finnish. DE untouched."
   },
   "g2/a1/fi|Getränk|idx:239|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -32,8 +32,8 @@
   "g2/a1/fi|gleich|idx:243|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Kohta • Sama\",\"study.translation\":\"Kohta • Sama\",\"study.explanation[0]\":\"Pääajatus: gleich tarkoittaa ajallisesti kohta tai pian, vertailussa sama tai yhtä suuri.\",\"study.explanation[1]\":\"Kun puhutaan ajasta, gleich = kohta/pian (Ich komme gleich. = Tulen kohta.).\",\"study.explanation[2]\":\"Kun puhutaan vertailusta, gleich = sama/yhtä suuri (die gleiche Farbe = sama väri).\",\"study.explanation[3]\":\"Konteksti (aikalause vai vertailu) kertoo oikean merkityksen.\",\"study.examples[0].lv\":\"Tulen kohta.\",\"study.examples[1].lv\":\"Meillä on sama väri.\",\"study.examples[2].lv\":\"Ruoka on kohta valmista.\",\"study.examples[3].lv\":\"Molemmat tiet ovat yhtä pitkät.\",\"study.examples[4].lv\":\"Nähdään kohta!\",\"study.examples[5].lv\":\"He ovat yhtä pitkät.\",\"study.tip[0]\":\"Ajasta → kohta.\",\"study.tip[1]\":\"Vertailusta → sama.\",\"study.important[0]\":\"gleich = kohta (aika) TAI sama (vertailu) — riippuen kontekstista.\",\"study.important[1]\":\"Bis gleich! = nähdään kohta! — yleinen hyvästely.\"}",
-    "owner_note": "FI gleich FULL repair: ET Kohe/Ühesugune + eesti study fields → FI Kohta/Sama with DE-aligned examples for tūlīt soon vs equal. DE untouched."
+    "owner_new": "{\"lv\":\"Kohta • Sama\",\"study.translation\":\"Kohta • Sama\",\"study.explanation[0]\":\"Pääajatus: gleich tarkoittaa ajallisesti kohta tai pian, vertailussa sama tai yhtä suuri.\",\"study.explanation[1]\":\"Kun puhutaan ajasta, gleich = kohta/pian (Ich komme gleich. = Tulen kohta.).\",\"study.explanation[2]\":\"Kun puhutaan vertailusta, gleich = sama/yhtä suuri (die gleiche Farbe = sama väri).\",\"study.explanation[3]\":\"Konteksti (aikalause tai vertailu) kertoo oikean merkityksen.\",\"study.examples[0].lv\":\"Tulen kohta.\",\"study.examples[1].lv\":\"Meillä on sama väri.\",\"study.examples[2].lv\":\"Ruoka on kohta valmista.\",\"study.examples[3].lv\":\"Molemmat tiet ovat yhtä pitkät.\",\"study.examples[4].lv\":\"Nähdään kohta!\",\"study.examples[5].lv\":\"He ovat yhtä pitkät.\",\"study.tip[0]\":\"Ajasta → kohta.\",\"study.tip[1]\":\"Vertailusta → sama.\",\"study.important[0]\":\"gleich = kohta (aika) TAI sama (vertailu) — riippuen kontekstista.\",\"study.important[1]\":\"Bis gleich! = nähdään kohta! — yleinen hyvästely.\"}",
+    "owner_note": "FI gleich PDF reaudit: full composite Kohta/Sama; DE↔FI aligned; no ET/LV residue. DE untouched."
   },
   "g2/a1/fi|Glück|idx:244|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -75,13 +75,13 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "{\"lv\":\"Suuri\",\"study.translation\":\"Suuri\",\"study.explanation[0]\":\"Pääajatus: groß tarkoittaa suurta mitassa; ihmisestä se tarkoittaa yleensä pitkää.\",\"study.explanation[1]\":\"groß kuvaa esineitä, paikkoja ja yleistä kokoa.\",\"study.explanation[2]\":\"Ihmisen kohdalla Er ist groß tarkoittaa pitkää, ei leveää tai paksua.\",\"study.examples[0].lv\":\"Talo on suuri.\",\"study.examples[1].lv\":\"Berliini on suuri kaupunki.\",\"study.examples[2].lv\":\"Hän on pitkä.\",\"study.examples[3].lv\":\"Huone on suuri.\",\"study.tip[0]\":\"Esineille ja paikoille groß = suuri.\",\"study.tip[1]\":\"Ihmiselle groß = pitkä.\",\"study.important[0]\":\"Ihmisestä Er ist groß tarkoittaa: hän on pitkä.\",\"study.important[1]\":\"Esineestä tai paikasta groß tarkoittaa suurta.\"}",
-    "owner_note": "FI groß FULL repair: ET explanation/tip + Berlin example wrongly Maja on suur → FI Suuri study with Berliini on suuri kaupunki for liels large/tall. DE untouched."
+    "owner_note": "FI groß PDF reaudit: full composite Suuri; Berlin example aligned; no ET/LV residue. DE untouched."
   },
   "g2/a1/fi|Großeltern|idx:251|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "{\"study.comparison[1].meaning\":\"Isoäiti\",\"study.comparison[2].meaning\":\"Isoisä\"}",
-    "owner_note": "FI Großeltern micro-repair: study body already FI; comparison ET Vanaema/Vanaisa → FI Isoäiti/Isoisä for vecmāmiņa/vectētiņš. DE untouched."
+    "owner_note": "FI Großeltern PDF reaudit: comparison Isoäiti/Isoisä; DE↔FI aligned. DE untouched."
   },
   "g2/a1/fi|Großmutter|idx:252|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -129,7 +129,7 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "{\"lv\":\"Hyvä\",\"study.translation\":\"Hyvä\",\"study.explanation[0]\":\"Pääajatus: gut on adjektiivi tai adverbi — hyvä, hyvin, kunnossa.\",\"study.explanation[1]\":\"gut kuvaa laatua, terveyttä tai miten jokin menee (Es geht mir gut. = Minulla menee hyvin.).\",\"study.explanation[2]\":\"Tervehdyksissä Guten Morgen!, Guten Tag! ja Guten Abend! sanalla gut on pääte -en.\",\"study.explanation[3]\":\"Kun gut kuvaa verbiä, se on adverbi (gut schwimmen = uida hyvin).\",\"study.explanation[4]\":\"Älä sekoita sanan das Gut kanssa — se isolla alkukirjaimella ja artikkelilla on substantiivi (omaisuus, kartano).\",\"study.examples[0].lv\":\"Ruoka on hyvää.\",\"study.examples[1].lv\":\"Mitä kuuluu? – Hyvin, kiitos!\",\"study.examples[2].lv\":\"Hän puhuu hyvin saksaa.\",\"study.examples[3].lv\":\"Hyvää huomenta!\",\"study.examples[4].lv\":\"Se on hyvä idea.\",\"study.examples[5].lv\":\"Kaikki on kunnossa.\",\"study.tip[0]\":\"gut ilman artikkelia on adjektiivi/adverbi — hyvä/hyvin.\",\"study.tip[1]\":\"das Gut isolla alkukirjaimella ja artikkelilla on eri sana — substantiivi (omaisuus, kartano).\",\"study.important[0]\":\"gut = hyvä/hyvin (adjektiivi/adverbi).\",\"study.important[1]\":\"das Gut = omaisuus/kartano (substantiivi) — älä sekoita gut-sanaan.\",\"study.important[2]\":\"Guten Morgen/Tag/Abend — gut päättyy -en taivutuksessa.\"}",
-    "owner_note": "FI gut FULL repair: ET Hea/Põhiidee explanations + ET examples → FI Hyvä study with natural Finnish DE-aligned examples for labs good. DE untouched."
+    "owner_note": "FI gut PDF reaudit: full composite Hyvä; DE↔FI aligned; no ET/LV residue. DE untouched."
   },
   "g2/a1/fi|Haar|idx:260|lv|MISTRANSLATION|gpt-5.6-luna": {
     "owner_status": "DECIDED",
