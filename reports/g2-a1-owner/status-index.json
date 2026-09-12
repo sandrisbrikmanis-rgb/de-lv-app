@@ -347,6 +347,7 @@
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
+        "headSha": "b6a3263b",
         "languages": { "fi": 5, "fr": 45 },
         "compositeRepairs": ["an", "Appetit"],
         "fieldLevelRepairs": ["bis", "bitte"],
