@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-12T18:44:00.000Z",
+  "updatedAt": "2026-09-12T18:47:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,14 +40,18 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": null,
-    "reservedBatches": [],
-    "inProgressBatches": [],
+    "activeBatch": "LRB-101",
+    "reservedBatches": [
+      "LRB-101"
+    ],
+    "inProgressBatches": [
+      "LRB-101"
+    ],
     "completedBatches": [
       "LRB-103",
       "LRB-102"
     ],
-    "nextCandidate": "LRB-101"
+    "nextCandidate": "LRB-100"
   },
   "reservations": [
     {
@@ -89,6 +93,21 @@
       "labot": 50,
       "pending": 0,
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-102-owner-authorization-proof.json"
+    },
+    {
+      "batchId": "LRB-101",
+      "owner": "PC2",
+      "direction": "DESCENDING",
+      "status": "OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+      "branch": "cursor/lrb-101-owner-review-pc2-3db2",
+      "reservedAt": "2026-09-12T18:47:00.000Z",
+      "rows": 50,
+      "languages": {
+        "tr": 50
+      },
+      "ownerAuthorizationStatus": "APPROVED",
+      "linguisticReviewer": "gpt-5.6-luna",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-review-proof.json"
     }
   ],
   "conflicts": []
