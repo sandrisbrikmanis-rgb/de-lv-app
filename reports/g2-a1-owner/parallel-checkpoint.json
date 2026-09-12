@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-12T17:20:00.000Z",
+  "updatedAt": "2026-09-12T18:03:42.571Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,14 +40,14 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": "LRB-103",
+    "activeBatch": null,
     "reservedBatches": [
       "LRB-103"
     ],
-    "inProgressBatches": [
+    "inProgressBatches": [],
+    "completedBatches": [
       "LRB-103"
     ],
-    "completedBatches": [],
     "nextCandidate": "LRB-102"
   },
   "reservations": [
@@ -55,10 +55,12 @@
       "batchId": "LRB-103",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "IN_PROGRESS",
+      "status": "OWNER_ARTIFACTS_READY",
       "branch": "cursor/lrb-103-owner-review-pc2",
       "reservedAt": "2026-09-12T17:20:00.000Z",
-      "rows": 25
+      "rows": 25,
+      "completedAt": "2026-09-12T18:03:42.571Z",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-review-proof.json"
     }
   ],
   "conflicts": []

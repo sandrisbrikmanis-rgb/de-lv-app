@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-103",
-  "phase": "PENDING_5125_REVIEW",
+  "phase": "OWNER_APPROVED_OVERRIDES_APPLIED",
   "input_csv_sha256": "cf60f0f9db467566463276d8c549d91b8d0fdc746eb21d42ee2f9791f3f38e8b",
   "input_row_count": 25,
   "finding_stable_ids": [
@@ -31,9 +31,12 @@
     "g2/a1/uk|Zug|idx:671|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna"
   ],
   "created_at": "2026-09-12T17:17:08.361Z",
-  "reviewer": "CURSOR_AGENT",
+  "reviewer": "GPT OWNER",
   "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
-  "owner_authorization_status": "APPROVED",
+  "owner_authorization_status": "ARTIFACTS_READY",
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
-  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv"
+  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-approved-overrides.json",
+  "verdict": "25 LABOT / 0 NELABOT / 0 PENDING",
+  "updated_at": "2026-09-12T18:03:42.571Z"
 }
