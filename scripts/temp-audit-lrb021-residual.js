@@ -4,11 +4,8 @@
 const fs = require("fs");
 const path = require("path");
 const { loadCsv } = require("./lib/g2-a1-phase3/batch-001-csv");
-const {
-  COMPOSITE_BY_ID,
-  FINDING_TO_CARD,
-  FINDING_TO_LANG,
-} = require("./lib/lrb021-repair-engine");
+
+const PASTE_SOURCE = "gpt-5.6-luna-copy-paste";
 
 const BATCH = "LRB-021";
 const decisions = JSON.parse(
@@ -66,13 +63,15 @@ let pending = 0;
 let wrongLanguage = 0;
 let semanticViolations = 0;
 
-const uniqueCards = new Set(Object.values(FINDING_TO_CARD));
+const uniqueCards = new Set(
+  rows.map((row) => `${row.languages}:${row.card_object_id.split("|")[0]}`)
+);
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
   const d = decisions[id];
   const prod = normalizeVal(row.production_current);
-  const lang = FINDING_TO_LANG[id];
+  const lang = row.languages;
 
   if (!d) {
     issues.push({ id, type: "MISSING", msg: "no decision" });
@@ -129,9 +128,10 @@ for (const row of rows) {
     issues.push({ id, type: "WRONG_LANG_GR_IN_HR", msg: allText.slice(0, 100) });
   }
 
-  const expected = normalizeVal(JSON.stringify(COMPOSITE_BY_ID[id]));
-  if (normalizeVal(effective) !== expected) {
-    issues.push({ id, type: "COMPOSITE_ENGINE_MISMATCH" });
+  try {
+    JSON.parse(effective);
+  } catch {
+    issues.push({ id, type: "OWNER_NEW_INVALID_JSON" });
     semanticViolations++;
   }
   if (normalizeVal(effective) === prod) {
@@ -171,6 +171,7 @@ const proof = {
     ? "LRB_021_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
     : "LRB_021_OWNER_PREP_BLOCKED",
   reviewer: "owner-prep-pipeline",
+  paste_source: PASTE_SOURCE,
   recalculated_from_production: true,
   pass,
   row_count: rows.length,

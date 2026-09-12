@@ -2,6 +2,7 @@
   "batch_id": "LRB-021",
   "classification": "LRB_021_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
   "reviewer": "owner-prep-pipeline",
+  "paste_source": "gpt-5.6-luna-copy-paste",
   "recalculated_from_production": true,
   "pass": true,
   "row_count": 50,
@@ -26,5 +27,5 @@
   },
   "failures": [],
   "verdict": "LRB_021_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
-  "updatedAt": "2026-09-12T18:30:49.823Z"
+  "updatedAt": "2026-09-12T19:16:44.693Z"
 }
