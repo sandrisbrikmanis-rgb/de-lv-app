@@ -1,9 +1,9 @@
 {
   "batch_id": "LRB-021",
   "ownerAuthorizationStatus": "APPROVED",
-  "reviewer": "owner-prep-pipeline",
+  "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-12T18:30:00.000Z",
-  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "linguisticVerdict": "LRB_021_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 50,
   "nelabot": 0,
