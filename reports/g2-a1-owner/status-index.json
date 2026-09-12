@@ -471,7 +471,9 @@
         "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-021-decisions.csv",
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-021-anti-bulk-proof.json",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-021-residual-wrong-language-proof.json",
-        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-021-owner-authorization-proof.json"
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-021-owner-authorization-proof.json",
+        "pasteRepairs": "GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT) — pending ChatGPT PDF re-review",
+        "studyAccentsResidualRepairs": "HR da + fahren study.accents copy/paste"
       }
     },
     "lastBatch": {
