@@ -294,7 +294,7 @@
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "335be783",
+        "headSha": "c7de9df8",
         "compositeRepairs": ["Uhr"],
         "compositeMicroRepairs": ["Uhr", "verlieren"],
         "productionSource": "data/fi/a1.js",
