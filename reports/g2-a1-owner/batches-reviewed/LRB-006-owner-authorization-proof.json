@@ -16,5 +16,6 @@
   "languages": {
     "fi": 50
   },
-  "note": "OWNER authorization recorded after GPT-5.6 Luna gala repair and full 50/50 residual audit. DE/production/Crowdin/ingest/apply unchanged."
+  "pdfReaudit": true,
+  "note": "OWNER authorization recorded after GPT-5.6 Luna PDF-standard reaudit (passen/sich/wer/machen/nehmen repairs) and fresh 50/50 gates. DE/production/Crowdin/ingest/apply unchanged."
 }
