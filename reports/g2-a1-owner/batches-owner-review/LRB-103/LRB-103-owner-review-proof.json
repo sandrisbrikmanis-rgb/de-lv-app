@@ -1,0 +1,32 @@
+{
+  "batchId": "LRB-103",
+  "classification": "G2_A1_LRB_OWNER_REVIEW_ARTIFACTS_READY",
+  "generatedAt": "2026-09-12T17:17:46.237Z",
+  "sourceCommit": "94720e05f0f69818e138b5391e74ba648a595a09",
+  "branch": "cursor/lrb-103-owner-review-pc2",
+  "direction": "DESCENDING",
+  "reservedFor": "PC2",
+  "rows": "25/25",
+  "ownerBacklogFinal": 25,
+  "ownerViewFindings": 25,
+  "ownerDecisionsFindings": 25,
+  "ownerCorrectionsFindings": 25,
+  "uniqueGalaCards": 25,
+  "ownerArtifactCoverage": "100%",
+  "productionChanges": 0,
+  "deChanges": 0,
+  "newLunaCalls": 0,
+  "overlapWithPc1": 0,
+  "manifestSha256": "cf60f0f9db467566463276d8c549d91b8d0fdc746eb21d42ee2f9791f3f38e8b",
+  "files": {
+    "view": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-view.md",
+    "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-decisions.md",
+    "corrections": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-corrections.md",
+    "galaCards": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-gala-cards.json",
+    "proof": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-review-proof.json",
+    "github": "reports/g2-a1-owner/batches-owner-review/LRB-103/LRB-103-owner-review-GITHUB.md",
+    "manifest": "reports/g2-a1-owner/manifests/LRB-103-start.json",
+    "input": "reports/g2-a1-owner/batches-pending/LRB-103-input.csv",
+    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json"
+  }
+}
