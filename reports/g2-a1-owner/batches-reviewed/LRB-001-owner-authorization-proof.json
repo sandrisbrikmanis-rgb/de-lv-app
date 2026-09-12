@@ -1,0 +1,23 @@
+{
+  "batch_id": "LRB-001",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T07:30:00.000Z",
+  "linguisticVerdict": "LRB_001_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 17,
+  "nelabot": 33,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "bg": 22,
+    "bs": 19,
+    "cs": 6,
+    "da": 3
+  },
+  "note": "OWNER authorization after GPT-5.6 Luna gala repair and full 50/50 residual audit. DE/production/Crowdin/ingest/apply unchanged."
+}

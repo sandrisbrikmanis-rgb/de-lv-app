@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|schmutzig|idx:516|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"óhreinn\"}",
+    "owner_note": "IS schmutzig lv: garbage Må→óhreinn for netīrs dirty. DE untouched."
+  },
+  "g2/a1/is|Schnee|idx:517|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"snjór\"}",
+    "owner_note": "IS Schnee lv: ET Lumi→snjór for sniegs snow. DE untouched."
+  },
+  "g2/a1/is|schneien|idx:518|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"snjóa\"}",
+    "owner_note": "IS schneien lv: ET Lund sadama→snjóa for snigt to snow. DE untouched."
+  },
+  "g2/a1/is|schnell|idx:519|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fljótur\"}",
+    "owner_note": "IS schnell lv: NO Rask→fljótur for ātrs fast. DE untouched."
+  },
+  "g2/a1/is|Schokolade|idx:520|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"súkkulaði\"}",
+    "owner_note": "IS Schokolade lv: NO Sjokolade→súkkulaði for šokolāde chocolate. DE untouched."
+  },
+  "g2/a1/is|schon|idx:521|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nú þegar\",\"study.translation\":\"nú þegar\",\"study.explanation\":[\"Meginhugsun: schon merkir oft að eitthvað er nú þegar gerst eða á stað.\",\"schon = nú þegar eða þegar eftir samhengi — ekki alltaf einfalt „already“.\",\"noch = enn (ennþá ekki); schon = nú þegar (þegar til staðar).\",\"Ich bin schon zu Hause. = Ég er nú þegar heima.\"],\"study.examples[0].lv\":\"Ég er nú þegar heima.\",\"study.tip[0]\":\"schon = nú þegar / þegar — samhengið ræður.\",\"study.tip[1]\":\"Rugla ekki við noch (ennþá).\",\"study.important[0]\":\"schon = nú þegar (ekki bara þegar sem „already“).\",\"study.important[1]\":\"noch = enn; schon = nú þegar.\"}",
+    "owner_note": "IS schon gala: nú þegar; schon vs noch; ex Ég er nú þegar heima. DE untouched."
+  },
+  "g2/a1/is|schön|idx:522|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fallegur\"}",
+    "owner_note": "IS schön lv: NO Illusjon→fallegur for skaists beautiful. DE untouched."
+  },
+  "g2/a1/is|Schrank|idx:523|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"skápur\"}",
+    "owner_note": "IS Schrank lv: garbage Kappe→skápur for skapis cupboard. DE untouched."
+  },
+  "g2/a1/is|schreiben|idx:524|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"skrifa\"}",
+    "owner_note": "IS schreiben lv: NO Skriv dem→skrifa for rakstīt to write. DE untouched."
+  },
+  "g2/a1/is|Schuh|idx:525|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"skór\"}",
+    "owner_note": "IS Schuh lv: garbage Konge→skór for kurpe shoe. DE untouched."
+  },
+  "g2/a1/is|Schüler|idx:527|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nemandi\"}",
+    "owner_note": "IS Schüler lv: ET Õpilane→nemandi for skolnieks pupil. DE untouched."
+  },
+  "g2/a1/is|schwarz|idx:528|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"svartur\"}",
+    "owner_note": "IS schwarz lv: garbage Må→svartur for melns black. DE untouched."
+  },
+  "g2/a1/is|Schwein|idx:529|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"svín\"}",
+    "owner_note": "IS Schwein lv: garbage Sukk→svín for cūka pig. DE untouched."
+  },
+  "g2/a1/is|Schwester|idx:530|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"systir\"}",
+    "owner_note": "IS Schwester lv: ET Õde→systir for māsa sister. DE untouched."
+  },
+  "g2/a1/is|Schwimmbad|idx:66|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sundlaug\"}",
+    "owner_note": "IS Schwimmbad lv: ET Ujumis basseng→sundlaug for peldbaseins pool. DE untouched."
+  },
+  "g2/a1/is|schwimmen|idx:531|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"synda\",\"study.translation\":\"synda\",\"study.explanation\":[\"Meginhugsun: schwimmen þýðir að synda sem hreyfing eða íþrótt.\",\"Notað þegar talað er um sundhreyfingu í sundlaugar, vatni eða sjó.\",\"baden er frekar að baða sig eða vera í vatni til skemmtunar.\",\"A1: schwimmen = synda; baden = baða sig.\"],\"study.examples[0].lv\":\"Mér finnst gaman að synda.\",\"study.examples[1].lv\":\"Hann syndir mjög vel.\",\"study.examples[2].lv\":\"Við syndum í sundlauginni.\",\"study.examples[3].lv\":\"Ég fer að baða mig.\",\"study.comparison[0].meaning\":\"synda\",\"study.comparison[0].example\":\"Hann syndir mjög vel.\",\"study.comparison[1].meaning\":\"baða sig\",\"study.comparison[1].example\":\"Ég fer að baða mig.\",\"study.comparison[2].meaning\":\"fara að synda\",\"study.comparison[2].example\":\"Við förum að synda.\",\"study.comparison[3].meaning\":\"fara í sturtu\",\"study.comparison[3].example\":\"Ég fer í sturtu á morgnana.\",\"study.tip.text\":\"Mundu: sundhreyfing → schwimmen; afslöppun í vatni → baden.\",\"study.important[0]\":\"schwimmen og baden eru ekki samheiti.\",\"study.important[1]\":\"Á íslensku velurðu synda eða baða sig eftir samhengi.\",\"study.explanation[1]\":\"Notað þegar talað er um sundhreyfingu í sundlaug, vatni eða sjó.\"}",
+    "owner_note": "IS schwimmen gala-2: sundlaug; Mér finnst gaman að synda (gern). DE untouched."
+  },
+  "g2/a1/is|sechs|idx:532|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sex\"}",
+    "owner_note": "IS sechs lv: garbage Kuss→sex for seši six. DE untouched."
+  },
+  "g2/a1/is|sechshundert|idx:533|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sexhundruð\"}",
+    "owner_note": "IS sechshundert lv: ET Kuussada→sexhundruð for sešsimt six hundred. DE untouched."
+  },
+  "g2/a1/is|sechste|idx:534|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjötti\"}",
+    "owner_note": "IS sechste lv: garbage Kues→sjötti for sestais sixth. DE untouched."
+  },
+  "g2/a1/is|sechzehnte|idx:536|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sextándi\"}",
+    "owner_note": "IS sechzehnte lv: NO Seksten→sextándi for sešpadsmitais sixteenth. DE untouched."
+  },
+  "g2/a1/is|sechzig|idx:537|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sextíu\"}",
+    "owner_note": "IS sechzig lv: ET Kuusükmen→sextíu for sešdesmit sixty. DE untouched."
+  },
+  "g2/a1/is|sechzigste|idx:538|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sextugasti\"}",
+    "owner_note": "IS sechzigste lv: ET Kuuedükümes→sextugasti for sešdesmitais sixtieth. DE untouched."
+  },
+  "g2/a1/is|sehen|idx:539|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjá\",\"study.translation\":\"sjá\",\"study.explanation\":[\"Meginhugsun: sehen þýðir að sjá með augum.\",\"Sehen lýsir því sem augu taka á móti án sérstakrar athygli.\",\"Schauen/ansehen felur í sér virkari athygli.\",\"Ich sehe dich. = Ég sé þig.\"],\"study.examples[0].lv\":\"Ég sé þig.\",\"study.examples[1].lv\":\"Sérðu bílinn?\",\"study.examples[2].lv\":\"Ég sé ekkert.\",\"study.examples[3].lv\":\"Við horfum á mynd.\",\"study.comparison[0].meaning\":\"sjá\",\"study.comparison[0].example\":\"Ich sehe dich. – Ég sé þig.\",\"study.comparison[1].meaning\":\"horfa / líta\",\"study.comparison[1].example\":\"Ich schaue fern. – Ég horfi í sjónvarp.\",\"study.comparison[2].meaning\":\"horfa á / skoða\",\"study.comparison[2].example\":\"Ich schaue den Film. – Ég horfi á kvikmyndina.\",\"study.comparison[3].meaning\":\"heyra\",\"study.comparison[3].example\":\"Ich höre Musik. – Ég heyri tónlist.\",\"study.tip.text\":\"Mundu: augu taka á móti → sehen; virk athygli → schauen/ansehen.\",\"study.important[0]\":\"sehen er ekki það sama og anschauen.\",\"study.important[1]\":\"Ich sehe dich = ég sé þig; Ich schaue den Film = ég horfi á kvikmyndina.\"}",
+    "owner_note": "IS sehen gala: horfi á; hören=heyra (not hlusta); sehen/schauen/ansehen/hören contrast. DE untouched."
+  },
+  "g2/a1/is|sehr|idx:540|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"mjög\"}",
+    "owner_note": "IS sehr lv: garbage Veie→mjög for ļoti very. DE untouched."
+  },
+  "g2/a1/is|Seife|idx:541|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sápa\"}",
+    "owner_note": "IS Seife lv: garbage Sive→sápa for ziepes soap. DE untouched."
+  },
+  "g2/a1/is|sein|idx:542|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vera\",\"study.translation\":\"vera\",\"study.explanation\":[\"Meginhugsun: sein þýðir að vera.\",\"Sein er ein af mikilvægustu sögnunum á þýsku.\",\"A1: ich bin, du bist, er ist, wir sind.\",\"Notað um stöðu, staðsetningu og eiginleika.\"],\"study.examples[0].lv\":\"Ég er hér.\",\"study.examples[1].lv\":\"Þú ert þreyttur.\",\"study.examples[2].lv\":\"Hann er kennari.\",\"study.examples[3].lv\":\"Við erum heima.\",\"study.comparison[0].meaning\":\"vera\",\"study.comparison[0].example\":\"Ég er hér.\",\"study.comparison[1].meaning\":\"hafa\",\"study.comparison[1].example\":\"Ich habe Zeit. – Ég hef tíma.\",\"study.comparison[2].meaning\":\"verða\",\"study.comparison[2].example\":\"Ég verð þreyttur.\",\"study.comparison[3].meaning\":\"dvelja\",\"study.comparison[3].example\":\"Ég dvel hér.\",\"study.tip.text\":\"Mundu: ich bin = ég er; du bist = þú ert.\",\"study.important[0]\":\"sein-beyging verður að læra sérstaklega: bin, bist, ist, sind.\",\"study.important[1]\":\"Ich bin er „ég er“, ekki „ég vera“.\"}",
+    "owner_note": "IS sein gala-2: haben=hafa Ég hef tíma (not eiga). DE untouched."
+  },
+  "g2/a1/is|seit|idx:543|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"síðan\"}",
+    "owner_note": "IS seit lv: ET Alates→síðan for kopš since. DE untouched."
+  },
+  "g2/a1/is|Seite|idx:544|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"blaðsíða • hlið\",\"study.translation\":\"blaðsíða • hlið\",\"study.explanation\":[\"Meginhugsun: die Seite getur þýtt blaðsíðu eða hlið eftir samhengi.\",\"Í bók eða skjali: die Seite = blaðsíða (Seite 5 = blaðsíða 5).\",\"Í rými: auf der linken Seite = á vinstri hlið.\",\"Í tengslum: auf meiner Seite = á mínum hlið / með mér.\",\"Vefsíða er Webseite.\",\"Mitmuses: die Seiten.\"],\"study.examples[0].lv\":\"Opnið blaðsíðu tuttugu.\",\"study.examples[1].lv\":\"Á vinstri hlið er almenningsgarður.\",\"study.examples[2].lv\":\"Vefsíðan hleðst seint.\",\"study.examples[3].lv\":\"Hann er með mér.\",\"study.examples[4].lv\":\"Bókin er með 200 blaðsíður.\",\"study.examples[5].lv\":\"Á hinni hlið götunnar.\",\"study.tip[0]\":\"Um bók eða lestur → blaðsíða. Um staðsetningu eða tengsl → hlið.\",\"study.tip[1]\":\"Seite X í bók er alltaf blaðsíða, ekki hlið.\",\"study.important[0]\":\"die Seite = blaðsíða EÐA hlið — samhengið ákvarðar.\",\"study.important[1]\":\"Í fleirtölu: die Seiten.\",\"study.explanation[3]\":\"Í tengslum: auf meiner Seite = á minni hlið / með mér.\",\"study.explanation[5]\":\"Í fleirtölu: die Seiten.\"}",
+    "owner_note": "IS Seite gala-2: minni/hinni hlið; Í fleirtölu; gender/case IS. DE untouched."
+  },
+  "g2/a1/is|Sekunde|idx:545|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sekúnda\"}",
+    "owner_note": "IS Sekunde lv: loan Sekund→sekúnda for sekunde second. DE untouched."
+  },
+  "g2/a1/is|September|idx:546|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"september\"}",
+    "owner_note": "IS September lv: loan September→september for septembris September. DE untouched."
+  },
+  "g2/a1/is|sich waschen|idx:646|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þvo sig\"}",
+    "owner_note": "IS sich waschen lv: ET Slutt pesema→þvo sig for mazgāties wash oneself. DE untouched."
+  },
+  "g2/a1/is|sich|idx:547|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sig • sér\",\"study.translation\":\"sig • sér\",\"study.explanation\":[\"Meginhugsun: sich vísar til aðgerðar sem beinist að manni sjálfum.\",\"Sich er ekki sjálfstætt nafnorð — það breytist eftir persónu.\",\"Oft með sögnum eins og waschen, setzen, freuen.\",\"A1: ich wasche mich, du wäschst dich, er wäscht sich.\"],\"study.examples[0].lv\":\"Hann þvær sig.\",\"study.examples[1].lv\":\"Ég sest niður.\",\"study.examples[2].lv\":\"Hún gleðst.\",\"study.examples[3].lv\":\"Ég þvæ bílinn.\",\"study.comparison[0].meaning\":\"sig (sjálfur)\",\"study.comparison[0].example\":\"Hann þvær sig.\",\"study.comparison[1].meaning\":\"mig\",\"study.comparison[1].example\":\"Ég þvæ mig.\",\"study.comparison[2].meaning\":\"þig\",\"study.comparison[2].example\":\"Þú þværð þig.\",\"study.comparison[3].meaning\":\"hann\",\"study.comparison[3].example\":\"Ég sé hann.\",\"study.tip.text\":\"Mundu: aðgerð á sjálfan sig → sich/mich/dich.\",\"study.important[0]\":\"sich er ekki sjálfstætt nafnorð.\",\"study.important[1]\":\"Það breytist eftir persónu: ich → mich, du → dich, er/sie/es → sich.\"}",
+    "owner_note": "IS sich gala-2: sest niður (setzen); þværð paradigm. DE untouched."
+  },
+  "g2/a1/is|sicher|idx:548|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"öruggur • vissulega\"}",
+    "owner_note": "IS sicher lv: garbage Kindle•Definitivt→öruggur•vissulega for drošs•noteikti. DE untouched."
+  },
+  "g2/a1/is|sie|idx:549|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þeir / þær\"}",
+    "owner_note": "IS sie lv: garbage Nemad/nad→þeir/þær for viņi/viņas they. DE untouched."
+  },
+  "g2/a1/is|Sie|idx:550|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þér (formlegt)\"}",
+    "owner_note": "IS Sie gala: þér(formlegt) for DE formal you; þið=informal plural — not identical. Modern IS formal rare. DE untouched."
+  },
+  "g2/a1/is|siebenhundert|idx:551|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjöhundruð\"}",
+    "owner_note": "IS siebenhundert lv: ET Seitsesada→sjöhundruð for septiņsimt seven hundred. DE untouched."
+  },
+  "g2/a1/is|siebente|idx:552|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjöundi\"}",
+    "owner_note": "IS siebente lv: ET Seitsmes→sjöundi for septītais seventh. DE untouched."
+  },
+  "g2/a1/is|siebzehn|idx:553|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sautján\"}",
+    "owner_note": "IS siebzehn lv: ET Seitseteist→sautján for septiņpadsmit seventeen. DE untouched."
+  },
+  "g2/a1/is|siebzehnte|idx:554|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sautjándi\"}",
+    "owner_note": "IS siebzehnte lv: garbage Sekstende→sautjándi for septiņpadsmitais seventeenth. DE untouched."
+  },
+  "g2/a1/is|siebzig|idx:555|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjötugu\"}",
+    "owner_note": "IS siebzig lv: NO Sytti→sjötugu for septiņdesmit seventy. DE untouched."
+  },
+  "g2/a1/is|siebzigste|idx:556|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjötugasti\"}",
+    "owner_note": "IS siebzigste lv: ET Seitsmegyüms→sjötugasti for septiņdesmitais seventieth. DE untouched."
+  },
+  "g2/a1/is|singen|idx:557|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"syngja\"}",
+    "owner_note": "IS singen lv: ET Laulma→syngja for dziedāt to sing. DE untouched."
+  },
+  "g2/a1/is|sitzen|idx:558|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sitja\"}",
+    "owner_note": "IS sitzen lv: garbage Isthuma→sitja for sēdēt to sit. DE untouched."
+  },
+  "g2/a1/is|so|idx:559|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"svo\"}",
+    "owner_note": "IS so lv: garbage Nei→svo for tā so/thus. DE untouched."
+  },
+  "g2/a1/is|Socke|idx:560|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sokkur\"}",
+    "owner_note": "IS Socke lv: NO Sokk→sokkur for zeķe sock. DE untouched."
+  },
+  "g2/a1/is|Sofa|idx:561|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sófi\"}",
+    "owner_note": "IS Sofa lv: garbage Divaen→sófi for dīvāns sofa. DE untouched."
+  },
+  "g2/a1/is|sofort|idx:562|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"strax\"}",
+    "owner_note": "IS sofort lv: garbage Koh→strax for tūlīt immediately. DE untouched."
+  },
+  "g2/a1/is|Sohn|idx:563|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sonur\"}",
+    "owner_note": "IS Sohn lv: garbage Dikt→sonur for dēls son. DE untouched."
+  },
+  "g2/a1/is|sollen|idx:564|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eiga að\"}",
+    "owner_note": "IS sollen gala: dictionary sollen→eiga að; sollte context→ætti að. DE untouched."
+  },
+  "g2/a1/is|Sommer|idx:565|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sumar\"}",
+    "owner_note": "IS Sommer lv: ET Suvi→sumar for vasara summer. DE untouched."
+  }
+}
