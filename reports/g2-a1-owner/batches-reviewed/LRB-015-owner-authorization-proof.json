@@ -32,7 +32,7 @@
   ],
   "scope": "Schaf..Staat",
   "pdfReaudit": true,
-  "pdfReauditAt": "2026-09-12T11:33:00.000Z",
+  "pdfReauditAt": "2026-09-12T11:43:00.000Z",
   "pdfReauditRepairs": ["sich", "schwimmen", "Sie", "sicher", "sitzen", "sprechen"],
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-015-residual-wrong-language-proof.json",
   "postRepairMerge": true,
@@ -51,5 +51,5 @@
     "target_language_grammar": "PASS",
     "anti_bulk": "PASS"
   },
-  "note": "OWNER authorization APPROVED. Linguistic fixes: sie ex[3,5] DE↔FI alignment, siebenhundert Seitsemänsataa, Schwimmbad Uima-allas. PDF reaudit + fresh POST-REPAIR merge gates PASS. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER authorization APPROVED. DE↔FI alignment fixes: schwimmen ex[1] erittäin hyvin, Seite ex[0] Avatkaa sivu kaksikymmentä, sprechen ex[2] naisopettajansa. Fresh POST-REPAIR merge gates PASS. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
 }

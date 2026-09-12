@@ -69,8 +69,20 @@ const SOURCE_FIDELITY = {
   "g2/a1/fi|sollen|idx:564|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": { maxSegments: 2 }
 };
 
+const SCHWIMMEN_ID =
+  "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna";
+
+const INTERNAL_CARD_CONSISTENCY = {
+  [SCHWIMMEN_ID]: {
+    requiredImportant1:
+      "Suomeksi sanotaan usein uida, mutta saksaksi on tarkistettava, onko kyse uintiliikkeestä vai vedessä oleskelusta tai uimisesta huviksi.",
+    forbidden: ["liikkeestä vai uintiurheilusta"],
+    mustCooccur: ["schwimmen = uida", "baden", "uintiliikkeillä"],
+  },
+};
+
 const COMPOSITE_REQUIRED = {
-  "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Uida", "schwimmen = uida", "baden"],
+  [SCHWIMMEN_ID]: ["Uida", "schwimmen = uida", "baden", "uintiliikkeestä"],
   "g2/a1/fi|sehen|idx:539|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Nähdä", "Ich sehe dich"],
   "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Olla", "ich bin"],
   "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": ["Sivu • Puoli", "die Seite = sivu"],
@@ -84,7 +96,7 @@ const COMPOSITE_REQUIRED = {
 };
 
 const DE_EXAMPLE_ALIGN = {
-  "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+  [SCHWIMMEN_ID]: {
     "Er schwimmt sehr gut.": "Hän ui erittäin hyvin."
   },
   "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
@@ -542,12 +554,49 @@ for (const row of rows) {
     }
 
     const mergedText = flattenStrings(merged).join(" ");
-        const required = COMPOSITE_REQUIRED[id];
+    const required = COMPOSITE_REQUIRED[id];
     if (required) {
       for (const phrase of required) {
         if (!mergedText.includes(phrase)) {
           compositeIncomplete++;
           issues.push({ id, type: "COMPOSITE_INCOMPLETE", msg: `missing "${phrase}"` });
+        }
+      }
+    }
+
+    const consistency = INTERNAL_CARD_CONSISTENCY[id];
+    if (consistency) {
+      const imp1 = merged.study?.important?.[1] || "";
+      if (imp1 !== consistency.requiredImportant1) {
+        internalContradictions++;
+        issues.push({
+          id,
+          type: "INTERNAL_CONTRADICTION",
+          field: "study.important[1]",
+          expected: consistency.requiredImportant1,
+          got: imp1,
+        });
+      }
+      for (const frag of consistency.forbidden) {
+        if (mergedText.includes(frag)) {
+          internalContradictions++;
+          issues.push({
+            id,
+            type: "INTERNAL_CONTRADICTION",
+            field: "merged",
+            msg: `forbidden fragment "${frag}"`,
+          });
+        }
+      }
+      for (const phrase of consistency.mustCooccur) {
+        if (!mergedText.includes(phrase)) {
+          internalContradictions++;
+          issues.push({
+            id,
+            type: "INTERNAL_CONTRADICTION",
+            field: "merged",
+            msg: `missing consistency phrase "${phrase}"`,
+          });
         }
       }
     }
