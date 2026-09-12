@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-11T18:25:00.000Z",
+  "updatedAt": "2026-09-12T07:14:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -107,8 +107,12 @@
         "nelabot": 38,
         "pending": 0,
         "antiBulkPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
         "headSha": "f45d25eba25dc9ce0a8679b5ce59795cd9d45575",
-        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv"
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-001-anti-bulk-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-001-owner-authorization-proof.json"
       },
       "LRB-002": {
         "verdict": "LRB_002_FULL_50_50_LINGUISTIC_REVIEW_PASS",
