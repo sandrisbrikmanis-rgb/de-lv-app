@@ -41,5 +41,5 @@
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-021-residual-wrong-language-proof.json",
   "studyAccentsResidualRepairs": "HR da + fahren study.accents copy/paste",
-  "note": "Gala verdict LRB_021_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "GPT-5.6 Luna FULL_50_50 copy/paste applied (50 LABOT) + HR da/fahren study.accents residual. Submitted for ChatGPT PDF re-review. NOT LRB_021_FULL_50_50_LINGUISTIC_REVIEW_PASS. DE/production/Crowdin/ingest/apply unchanged."
 }
