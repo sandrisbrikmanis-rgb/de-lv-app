@@ -1,18 +1,42 @@
 {
   "batch_id": "LRB-023",
   "ownerAuthorizationStatus": "APPROVED",
-  "reviewer": "owner-prep-pipeline",
+  "reviewer": "pending-gpt-5.6-luna",
   "authorizedAt": "2026-09-12T20:00:00.000Z",
   "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
   "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReauditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "paste_file": "LRB-023-decisions-COPY-PASTE.json",
+  "paste_sha256": "2aa5b88d946ed11b30bef8faac6bb353f83b875d7d39e5449cc8f3e26ad7ab3e",
   "languages": {
     "hu": 50
   },
   "unique_cards": 28,
-  "scope": "a1-also..a1-hoeren-study (50 HU rows, 28 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "hu_composite_repairs": 28,
+  "scope": "a1-also..a1-hoeren-study (50 HU rows, 28 unique cards) GPT-5.6 Luna FULL_50_50 paste",
   "productionSource": "data/hu/a1.js",
-  "input_csv_sha256": "5f9fe66c75c0ee21fff22b6e7da97cef6648516fb663899a16616d60f43f3ebd",
-  "manifestPath": "reports/g2-a1-owner/manifests/LRB-023-start.json",
-  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-023-input.csv",
-  "note": "Owner authorization APPROVED. GPT-5.6 Luna linguistic review pending. NOT LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "HU_ROWS": "50/50",
+    "UNIQUE_CARDS": "28/28",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-023-residual-wrong-language-proof.json",
+  "note": "GPT-5.6 Luna FULL_50_50 copy/paste applied (50 LABOT / 28 unique HU cards). Submitted for ChatGPT PDF re-review. NOT LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS. DE/production/Crowdin/ingest/apply unchanged."
 }

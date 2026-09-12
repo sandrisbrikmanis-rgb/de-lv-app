@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-12T20:00:00.000Z",
+  "updatedAt": "2026-09-12T20:10:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -77,7 +77,7 @@
     "batchSize": 50,
     "batchesTotal": 103,
     "batchesReviewed": 23,
-    "batchesAntiBulkPass": 22,
+    "batchesAntiBulkPass": 23,
     "batchesSpotCheckPass": 22,
     "linguisticVerdicts": {
       "LRB-001": {
@@ -506,6 +506,12 @@
       "LRB-023": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
+        "labot": 50,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "pending-gpt-5.6-luna",
         "languages": {
@@ -513,19 +519,26 @@
         },
         "uniqueCards": 28,
         "rowCount": 50,
+        "compositeRepairs": 28,
         "productionSource": "data/hu/a1.js",
-        "inputPath": "reports/g2-a1-owner/batches-pending/LRB-023-input.csv",
-        "manifestPath": "reports/g2-a1-owner/manifests/LRB-023-start.json",
-        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-023-owner-authorization-proof.json"
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-023-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-023-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-023-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-023-owner-authorization-proof.json",
+        "pasteRepairs": "GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT / 28 unique HU cards) — pending ChatGPT PDF re-review",
+        "pasteSha256": "2aa5b88d946ed11b30bef8faac6bb353f83b875d7d39e5449cc8f3e26ad7ab3e"
       }
     },
     "lastBatch": {
       "batch_id": "LRB-023",
-      "ownerAuthorization": "APPROVED",
+      "labot": 50,
+      "nelabot": 0,
+      "pending": 0,
+      "antiBulkPass": true,
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-023-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-023-start.json",
-      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-023-owner-authorization-proof.json"
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-023-decisions.csv",
+      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-023-proof.json",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-023-anti-bulk-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
