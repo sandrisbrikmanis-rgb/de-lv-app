@@ -81,6 +81,43 @@ const GALA_OVERRIDES = {
     "study.important[1]":
       "baden = käydä uimassa/olla vedessä; schwimmen = uida (liike tai urheilu).",
   }),
+  "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": JSON.stringify({
+    "study.translation": "Päälle • Päälle • Minne?",
+    "study.explanation[0]": "Aufs on preposition auf ja artikkelin das lyhenne.",
+    "study.explanation[1]": "Täysmuoto: auf das (akkusatiivi).",
+    "study.explanation[2]":
+      "Käytetään, kun teko osoittaa suuntaa tiettyä asiaa tai pintaa kohti — vastaa kysymykseen minne?",
+    "study.explanation[3]":
+      "Usein liikkeen kanssa: kiivetä, istua, asettaa, ajaa jollekin pinnalle.",
+    "study.explanation[4]":
+      "Puhekielessä käytetään lähes aina aufs, ei täysmuotoa auf das.",
+    "study.examples[0].lv": "Menen katolle.",
+    "study.examples[1].lv": "Hän istuu sohvalle.",
+    "study.examples[2].lv": "Ajelemme maalle.",
+    "study.examples[3].lv": "Laita laukku sängylle.",
+    "study.examples[4].lv": "Hän hyppää hevosen selkään.",
+    "study.examples[5].lv": "Laita kirja hyllylle.",
+    "study.examples[6].lv": "Tule nopeasti veneeseen!",
+    "study.examples[7].lv": "Menemme juhliin.",
+    "study.comparison[0].meaning": "Tietylle asialle (akk.)",
+    "study.comparison[0].example": "aufs Dach – katolle",
+    "study.comparison[1].meaning": "Pinnalle tai ylöspäin",
+    "study.comparison[1].example": "auf den Tisch – pöydälle",
+    "study.comparison[2].meaning": "Pystysuoran pinnan vieressä",
+    "study.comparison[2].example": "an die Wand – seinää vasten",
+    "study.comparison[3].meaning": "Sisään (huoneeseen)",
+    "study.comparison[3].example": "ins Zimmer – huoneeseen",
+    "study.comparison[4].meaning": "-lle / luokse (dat.)",
+    "study.comparison[4].example": "zum Arzt – lääkärille",
+    "study.tip[0]": "Muista: auf + das → aufs (minne?).",
+    "study.tip[1]": "Arkipuheessa harvoin sanotaan täyttä auf das — käytä aufs.",
+    "study.important[0]":
+      "aufs = auf + das; sitä käytetään neutrisukuisen yksikön kanssa akkusatiivissa, kun ilmaistaan suuntaa (minne?).",
+    "study.important[1]":
+      "Vastaa kysymykseen minne? — liike tietylle alueelle tai pinnalle.",
+    "study.important[2]": "Vaakasuoralla pinnalla käytetään usein auf den, ei aufs.",
+    "study.important[3]": "Älä sekoita an (seinää vasten) tai ins (huoneen sisään).",
+  }),
 };
 
 const GALA_NOTES = {
@@ -90,6 +127,7 @@ const GALA_NOTES = {
   zu: "gala: uz•pie→Luokse•Kohti semantic; no -(i)in case ending as sole gloss",
   zum: "gala: uz•pie→Luokse•Kohti uniform with zu; grammar in card explanation layer",
   wie: "gala: kā•cik→Miten•Kuinka; explanation[3] teaches wie viel/alt/lange distinction",
+  aufs: "gala: important[0] auf+das neuter Akk minne?; no millä?; comparison DE↔FI aligned",
 };
 
 function normalizeVal(v) {
@@ -107,7 +145,7 @@ function normalizeVal(v) {
 function noteFor(id, target, prod) {
   const cardMatch = id.match(/\|([^|]+)\|/);
   const card = cardMatch ? cardMatch[1] : id;
-  const galaKey = ["ab", "an", "baden", "a1-zu", "a1-zum", "a1-wie"].find((k) =>
+  const galaKey = ["ab", "an", "baden", "aufs", "a1-zu", "a1-zum", "a1-wie"].find((k) =>
     card.includes(k)
   );
   const galaNote = galaKey

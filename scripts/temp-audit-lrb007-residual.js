@@ -91,6 +91,44 @@ const COMPOSITE_TARGETS = {
       "study.important[1]":
         "baden = käydä uimassa/olla vedessä; schwimmen = uida (liike tai urheilu).",
     }),
+  "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna":
+    JSON.stringify({
+      "study.translation": "Päälle • Päälle • Minne?",
+      "study.explanation[0]": "Aufs on preposition auf ja artikkelin das lyhenne.",
+      "study.explanation[1]": "Täysmuoto: auf das (akkusatiivi).",
+      "study.explanation[2]":
+        "Käytetään, kun teko osoittaa suuntaa tiettyä asiaa tai pintaa kohti — vastaa kysymykseen minne?",
+      "study.explanation[3]":
+        "Usein liikkeen kanssa: kiivetä, istua, asettaa, ajaa jollekin pinnalle.",
+      "study.explanation[4]":
+        "Puhekielessä käytetään lähes aina aufs, ei täysmuotoa auf das.",
+      "study.examples[0].lv": "Menen katolle.",
+      "study.examples[1].lv": "Hän istuu sohvalle.",
+      "study.examples[2].lv": "Ajelemme maalle.",
+      "study.examples[3].lv": "Laita laukku sängylle.",
+      "study.examples[4].lv": "Hän hyppää hevosen selkään.",
+      "study.examples[5].lv": "Laita kirja hyllylle.",
+      "study.examples[6].lv": "Tule nopeasti veneeseen!",
+      "study.examples[7].lv": "Menemme juhliin.",
+      "study.comparison[0].meaning": "Tietylle asialle (akk.)",
+      "study.comparison[0].example": "aufs Dach – katolle",
+      "study.comparison[1].meaning": "Pinnalle tai ylöspäin",
+      "study.comparison[1].example": "auf den Tisch – pöydälle",
+      "study.comparison[2].meaning": "Pystysuoran pinnan vieressä",
+      "study.comparison[2].example": "an die Wand – seinää vasten",
+      "study.comparison[3].meaning": "Sisään (huoneeseen)",
+      "study.comparison[3].example": "ins Zimmer – huoneeseen",
+      "study.comparison[4].meaning": "-lle / luokse (dat.)",
+      "study.comparison[4].example": "zum Arzt – lääkärille",
+      "study.tip[0]": "Muista: auf + das → aufs (minne?).",
+      "study.tip[1]": "Arkipuheessa harvoin sanotaan täyttä auf das — käytä aufs.",
+      "study.important[0]":
+        "aufs = auf + das; sitä käytetään neutrisukuisen yksikön kanssa akkusatiivissa, kun ilmaistaan suuntaa (minne?).",
+      "study.important[1]":
+        "Vastaa kysymykseen minne? — liike tietylle alueelle tai pinnalle.",
+      "study.important[2]": "Vaakasuoralla pinnalla käytetään usein auf den, ei aufs.",
+      "study.important[3]": "Älä sekoita an (seinää vasten) tai ins (huoneen sisään).",
+    }),
 };
 
 // Load remaining scalar targets from decisions for rows not in maps above
@@ -131,7 +169,24 @@ const FORBIDDEN_FRAGMENTS = {
   "g2/a1/fi|baden|idx:68|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": [
     '"lv":"Uida"', "peseytyä", "vannis käimist", "kylpyä",
   ],
+  "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": [
+    "millä?",
+    "Katusele",
+    "Laual",
+    "Seinal",
+    "Tuppa",
+    "Arsti juures",
+    "Peale • Otsa",
+    "Kuhu?",
+  ],
 };
+
+const AUFS_REQUIRED_PHRASES = [
+  "auf + das",
+  "neutrisukuisen",
+  "akkusatiiv",
+  "minne?",
+];
 
 const NARROWING_FRAGMENTS = {
   "g2/a1/fi|an|idx:12|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": [
@@ -152,6 +207,21 @@ const SOURCE_FIDELITY = {
 };
 
 const DE_EXAMPLE_ALIGN = {
+  "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "Ich gehe aufs Dach.": "Menen katolle.",
+    "Sie setzt sich aufs Sofa.": "Hän istuu sohvalle.",
+    "Wir fahren aufs Land.": "Ajelemme maalle.",
+    "Stell die Tasche aufs Bett.": "Laita laukku sängylle.",
+    "Er springt aufs Pferd.": "Hän hyppää hevosen selkään.",
+    "Leg das Buch aufs Regal.": "Laita kirja hyllylle.",
+    "Komm schnell aufs Boot!": "Tule nopeasti veneeseen!",
+    "Wir gehen aufs Fest.": "Menemme juhliin.",
+    cmp0: "aufs Dach – katolle",
+    cmp1: "auf den Tisch – pöydälle",
+    cmp2: "an die Wand – seinää vasten",
+    cmp3: "ins Zimmer – huoneeseen",
+    cmp4: "zum Arzt – lääkärille",
+  },
   "g2/a1/fi|baden|idx:68|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "Ich gehe baden.": "Menen uimaan.",
     "Wir gehen im See baden.": "Menemme uimaan järveen.",
@@ -270,6 +340,21 @@ function flatToNested(flat) {
     }
   }
   if (Object.keys(study).length) out.study = study;
+  if (Array.isArray(out.study?.examples)) {
+    out.study.examples = out.study.examples.map((ex) => ({ ...ex }));
+  }
+  if (Array.isArray(out.study?.comparison)) {
+    out.study.comparison = out.study.comparison.map((c) => ({ ...c }));
+  }
+  if (Array.isArray(out.study?.tip)) {
+    out.study.tip = [...out.study.tip];
+  }
+  if (Array.isArray(out.study?.important)) {
+    out.study.important = [...out.study.important];
+  }
+  if (Array.isArray(out.study?.explanation)) {
+    out.study.explanation = [...out.study.explanation];
+  }
   return out;
 }
 
@@ -288,6 +373,9 @@ function applyPatches(nested, ownerNewStr) {
       const top = field.split(/[.[]/)[0];
       if (typeof out.study[top] === "string") {
         out.study[top] = parseMaybeJson(out.study[top]);
+      }
+      if (field.includes("[") && !Array.isArray(out.study[top]) && out.study[top] == null) {
+        out.study[top] = [];
       }
       if (!setAt(out.study, field, value)) {
         const m = field.match(/^(\w+)$/);
@@ -549,6 +637,16 @@ for (const row of rows) {
             field: `study.comparison[${i}].example`,
             msg: ex,
           });
+        }
+      }
+    }
+
+    if (id === "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna") {
+      const mergedText = flattenStrings(merged).join(" ");
+      for (const phrase of AUFS_REQUIRED_PHRASES) {
+        if (!mergedText.toLowerCase().includes(phrase.toLowerCase())) {
+          semanticViolations++;
+          issues.push({ id, type: "AUFS_SEMANTIC", msg: `missing "${phrase}"` });
         }
       }
     }

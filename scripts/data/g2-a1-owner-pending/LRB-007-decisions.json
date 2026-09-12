@@ -45,13 +45,13 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ilta",
-    "owner_note": "FI Abend lv: ET Õhtu → FI Ilta for vakars evening noun.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Abend gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Abendessen|idx:19|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Illallinen",
-    "owner_note": "FI Abendessen lv: ET Õhtusöök → FI Illallinen for vakariņas supper.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Abendessen gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|abends|idx:20|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -69,61 +69,61 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Huomata",
-    "owner_note": "FI achten lv: ET Järgima → FI Huomata for ievērot pay-attention sense.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI achten gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Adresse|idx:23|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Osoite",
-    "owner_note": "FI Adresse lv: ET Aadress → FI Osoite for adrese address.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Adresse gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Affe|idx:24|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Apina",
-    "owner_note": "FI Affe lv: ET Ahv → FI Apina for pērtiķis monkey.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Affe gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Album|idx:25|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Albumi",
-    "owner_note": "FI Album lv: ET Album → FI Albumi for albums noun (German das Album).; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Album gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|alle|idx:7|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kaikki",
-    "owner_note": "FI alle lv: ET Kõik → FI Kaikki for visi all/everyone sense.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI alle gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|allein|idx:8|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Yksin",
-    "owner_note": "FI allein lv: ET Üksi → FI Yksin for viens pats alone.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI allein gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|alles|idx:9|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kaikki",
-    "owner_note": "FI alles lv: ET Kõik → FI Kaikki for viss everything.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI alles gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|alt|idx:10|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Vanha",
-    "owner_note": "FI alt lv: ET Vana → FI Vanha for vecs old adjective.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI alt gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Alter|idx:11|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Ikä",
-    "owner_note": "FI Alter lv: ET Vanus → FI Ikä for vecums age noun.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Alter gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Ameise|idx:27|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Muurahainen",
-    "owner_note": "FI Ameise lv: ET Sipelgas → FI Muurahainen for skudra ant.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Ameise gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|an|idx:12|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -177,37 +177,37 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Omena",
-    "owner_note": "FI Apfel lv: ET Õun → FI Omena for ābols apple.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Apfel gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|auf dem Bahnhof|idx:59|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Asemalla",
-    "owner_note": "FI auf dem Bahnhof lv: ET Jaamas → FI Asemalla for stacijā at-the-station.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI auf dem Bahnhof gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"study.translation\":\"Päälle • Päälle • Minne?\",\"study.explanation[0]\":\"Aufs on preposition auf ja artikkelin das lyhenne.\",\"study.explanation[1]\":\"Täysmuoto: auf das (akkusatiivi).\",\"study.explanation[2]\":\"Käytetään, kun teko osoittaa suuntaa tiettyä asiaa tai pintaa kohti — vastaa kysymykseen minne?\",\"study.explanation[3]\":\"Usein liikkeen kanssa: kiivetä, istua, asettaa, ajaa jollekin pinnalle.\",\"study.explanation[4]\":\"Puhekielessä käytetään lähes aina aufs, ei täysmuotoa auf das.\",\"study.examples[0].lv\":\"Menen katolle.\",\"study.examples[1].lv\":\"Hän istuu sohvalle.\",\"study.examples[2].lv\":\"Ajelemme maalle.\",\"study.examples[3].lv\":\"Laita laukku sängylle.\",\"study.examples[4].lv\":\"Hän hyppää hevosen selkään.\",\"study.examples[5].lv\":\"Laita kirja hyllylle.\",\"study.examples[6].lv\":\"Tule nopeasti veneeseen!\",\"study.examples[7].lv\":\"Menemme juhliin.\",\"study.comparison[0].meaning\":\"Tietylle asialle (akk.)\",\"study.comparison[1].meaning\":\"Pinnalle tai ylöspäin\",\"study.comparison[2].meaning\":\"Pystysuoran pinnan vieressä\",\"study.comparison[3].meaning\":\"Sisään (huoneeseen)\",\"study.comparison[4].meaning\":\"-lle / luokse (dat.)\",\"study.tip[0]\":\"Muista: auf + das → aufs (minne?).\",\"study.tip[1]\":\"Arkipuheessa harvoin sanotaan täyttä auf das — käytä aufs.\",\"study.important[0]\":\"aufs = auf das, vain neutraaliin substantiiviin millä? taivutuksessa.\",\"study.important[1]\":\"Vastaa kysymykseen minne? — liike tietylle alueelle tai pinnalle.\",\"study.important[2]\":\"Vaakasuoralla pinnalla käytetään usein auf den, ei aufs.\",\"study.important[3]\":\"Älä sekoita an (seinää vasten) tai ins (huoneen sisään).\"}",
-    "owner_note": "FI aufs micro-repair: full study block ET (eessõna/Akkusativ/examples) → FI preposition/motion teaching.; gala recheck confirmed. DE untouched."
+    "owner_new": "{\"study.translation\":\"Päälle • Päälle • Minne?\",\"study.explanation[0]\":\"Aufs on preposition auf ja artikkelin das lyhenne.\",\"study.explanation[1]\":\"Täysmuoto: auf das (akkusatiivi).\",\"study.explanation[2]\":\"Käytetään, kun teko osoittaa suuntaa tiettyä asiaa tai pintaa kohti — vastaa kysymykseen minne?\",\"study.explanation[3]\":\"Usein liikkeen kanssa: kiivetä, istua, asettaa, ajaa jollekin pinnalle.\",\"study.explanation[4]\":\"Puhekielessä käytetään lähes aina aufs, ei täysmuotoa auf das.\",\"study.examples[0].lv\":\"Menen katolle.\",\"study.examples[1].lv\":\"Hän istuu sohvalle.\",\"study.examples[2].lv\":\"Ajelemme maalle.\",\"study.examples[3].lv\":\"Laita laukku sängylle.\",\"study.examples[4].lv\":\"Hän hyppää hevosen selkään.\",\"study.examples[5].lv\":\"Laita kirja hyllylle.\",\"study.examples[6].lv\":\"Tule nopeasti veneeseen!\",\"study.examples[7].lv\":\"Menemme juhliin.\",\"study.comparison[0].meaning\":\"Tietylle asialle (akk.)\",\"study.comparison[0].example\":\"aufs Dach – katolle\",\"study.comparison[1].meaning\":\"Pinnalle tai ylöspäin\",\"study.comparison[1].example\":\"auf den Tisch – pöydälle\",\"study.comparison[2].meaning\":\"Pystysuoran pinnan vieressä\",\"study.comparison[2].example\":\"an die Wand – seinää vasten\",\"study.comparison[3].meaning\":\"Sisään (huoneeseen)\",\"study.comparison[3].example\":\"ins Zimmer – huoneeseen\",\"study.comparison[4].meaning\":\"-lle / luokse (dat.)\",\"study.comparison[4].example\":\"zum Arzt – lääkärille\",\"study.tip[0]\":\"Muista: auf + das → aufs (minne?).\",\"study.tip[1]\":\"Arkipuheessa harvoin sanotaan täyttä auf das — käytä aufs.\",\"study.important[0]\":\"aufs = auf + das; sitä käytetään neutrisukuisen yksikön kanssa akkusatiivissa, kun ilmaistaan suuntaa (minne?).\",\"study.important[1]\":\"Vastaa kysymykseen minne? — liike tietylle alueelle tai pinnalle.\",\"study.important[2]\":\"Vaakasuoralla pinnalla käytetään usein auf den, ei aufs.\",\"study.important[3]\":\"Älä sekoita an (seinää vasten) tai ins (huoneen sisään).\"}",
+    "owner_note": "FI aufs gala: important[0] auf+das neuter Akk minne?; no millä?; comparison DE↔FI aligned. DE untouched."
   },
   "g2/a1/fi|Augenbraue|idx:61|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kulmakarva",
-    "owner_note": "FI Augenbraue lv: ET Kulm → FI Kulmakarva for uzacs eyebrow.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Augenbraue gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Augenfarbe|idx:62|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Silmien väri",
-    "owner_note": "FI Augenfarbe lv: ET Silmade värv → FI Silmien väri for acu krāsa eye-color.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Augenfarbe gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Bad|idx:64|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kylpyhuone",
-    "owner_note": "FI Bad lv: ET Vannituba → FI Kylpyhuone for vannas istaba bathroom.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Bad gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|baden|idx:68|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -219,25 +219,25 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Kylpyhuone",
-    "owner_note": "FI Badezimmer lv: ET Vannituba → FI Kylpyhuone for vannas istaba.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Badezimmer gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|bald|idx:69|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Pian",
-    "owner_note": "FI bald lv: ET Varsti → FI Pian for drīz soon.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI bald gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Balkon|idx:70|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Parveke",
-    "owner_note": "FI Balkon lv: ET Rõdu → FI Parveke for balkons balcony.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Balkon gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Ball|idx:71|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Pallo",
-    "owner_note": "FI Ball lv: ET Pall → FI Pallo for bumba ball.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Ball gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Banane|idx:72|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -249,7 +249,7 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Vatsa",
-    "owner_note": "FI Bauch lv: ET Kõht → FI Vatsa for vēders belly.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Bauch gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Baum|idx:74|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -261,42 +261,42 @@
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Merkitä",
-    "owner_note": "FI bedeuten lv: ET Tähendama → FI Merkitä for nozīmēt mean.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI bedeuten gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|beginnen|idx:77|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Aloittaa",
-    "owner_note": "FI beginnen lv: ET Alustama → FI Aloittaa for sākt begin.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI beginnen gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|bei|idx:78|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "{\"lv\":\"Luona\",\"study.translation\":\"Luona\",\"study.explanation\":\"Käytetään, kun jokin on henkilön, organisaation tai paikan luona tai tapahtuu tietyissä olosuhteissa.\",\"study.examples[0].lv\":\"Olen ystäväni luona.\",\"study.examples[1].lv\":\"Hän työskentelee Siemensillä.\",\"study.examples[2].lv\":\"Sateella jäämme kotiin.\",\"study.comparison[0].meaning\":\"Henkilön, yrityksen luona tai tietyissä olosuhteissa\",\"study.comparison[1].meaning\":\"Seinää, reunaa, rantaa tai pinnan vieressä\",\"study.comparison[2].meaning\":\"Jonnekin meneminen (suunta)\",\"study.tip.text\":\"Muista: henkilön/paikan/yrityksen luona → bei.\",\"study.important[0]\":\"bei tarkoittaa usein henkilöä, paikkaa tai yritystä.\",\"study.important[1]\":\"Jos puhutaan liikkeestä pinnalle, tarvitaan yleensä auf, ei bei.\"}",
-    "owner_note": "FI bei micro-repair: ET juures/examples/comparison → FI luona/luona teaching for pie.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI bei gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|beide|idx:79|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Molemmat",
-    "owner_note": "FI beide lv: ET Mõlemad → FI Molemmat for abi both.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI beide gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Bein|idx:80|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Jalka",
-    "owner_note": "FI Bein lv: ET Jalg → FI Jalka for kāja leg.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Bein gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|Beispiel|idx:81|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Esimerkki",
-    "owner_note": "FI Beispiel lv: ET Näide → FI Esimerkki for piemērs example.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI Beispiel gala: ET leak repair → target FI. DE untouched."
   },
   "g2/a1/fi|bekommen|idx:82|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
     "owner_new": "Saada",
-    "owner_note": "FI bekommen lv: ET Saama → FI Saada for saņemt receive/get.; gala recheck confirmed. DE untouched."
+    "owner_note": "FI bekommen gala: ET leak repair → target FI. DE untouched."
   }
 }
