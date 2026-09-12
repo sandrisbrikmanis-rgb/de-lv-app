@@ -83,7 +83,7 @@ const EN_LEAK =
   /\b(I help you|i see you|I'm telling you|you \(subject|you \(where|your \(possessive|Latvian \"es\"|German \"I\" = it|« at »)\b/i;
 
 const FORBIDDEN_FR =
-  /Ressentez|visite de courtoisie|J'étais une fois|objet d'une phrase|letton|Latvian|J'emmène le colis|jusqu'à ce que \(le moment|Entre, s'il te plaît\. – Entre/i;
+  /Ressentez|visite de courtoisie|J'étais une fois|objet d'une phrase|letton|Latvian|J'emmène le colis|jusqu'à ce que \(le moment|Entre, s'il te plaît\. – Entre|À • Au • Près|vidus dzimte|L'ordre est|Atceries|kurp|Qui • Laquelle • Lequel|Seulement • Seulement|Ou • Ou|Dans • Dans • Où/i;
 
 const STALE_HIGHLIGHT =
   /\b(Atceries|vienreiz|reiz|sienas|loga|malas|tarte|vidus dzimte|pretstats|iebilde|kurp|kam|apmeklējums|apciemojums|vizīte|Paldies|Apmeklētājs|Es apciemoju|Līst|Es mācos|nav tas pats|Tas der)\b/i;
@@ -300,11 +300,51 @@ function validateMergedCard(cardKey, merged) {
     }
   }
   if (cardDeKey(cardKey) === "an") {
-    if (!merged.lv?.includes("À • Au • Près")) {
-      failures.push({ type: "AN_LV" });
+    if (!merged.lv?.includes("Sur • À • Au bord de")) {
+      failures.push({ type: "AN_LV", got: merged.lv });
+    }
+    if (merged.lv?.includes("À • Au • Près")) {
+      failures.push({ type: "AN_OLD_TRANSLATION" });
     }
     if (merged.study?.examples?.[0]?.lv?.includes("/")) {
       failures.push({ type: "AN_DUP_EXAMPLE" });
+    }
+  }
+  if (cardDeKey(cardKey) === "das") {
+    const welches = (merged.study?.comparison || []).find((c) => c.word === "welches");
+    if (welches?.meaning?.includes("Qui")) {
+      failures.push({ type: "DAS_WELCHES", got: welches.meaning });
+    }
+    const rel = (merged.study?.examples || []).find(
+      (ex) => ex.de === "Das Buch, das ich lese, ist interessant."
+    );
+    if (rel && !rel.lv.includes("que je lis")) {
+      failures.push({ type: "DAS_RELATIVE", got: rel.lv });
+    }
+  }
+  if (cardDeKey(cardKey) === "ins") {
+    const tipText = flattenStrings(merged.study?.tip || {}).join(" ");
+    if (!/vers où/i.test(tipText) || !/Où \? → im/i.test(tipText)) {
+      failures.push({ type: "INS_TIP_DIRECTION" });
+    }
+  }
+  if (cardDeKey(cardKey) === "oder") {
+    if (/L'ordre est/i.test(allText)) {
+      failures.push({ type: "ODER_LORDRE" });
+    }
+    if (!(merged.study?.examples || []).length) {
+      failures.push({ type: "ODER_MISSING_EXAMPLES" });
+    }
+  }
+  if (cardDeKey(cardKey) === "nur") {
+    if (merged.study?.translation === "Seulement • Seulement") {
+      failures.push({ type: "NUR_DUPLICATE_TRANSLATION" });
+    }
+  }
+  const required = ["examples", "comparison", "tip", "important", "sectionAccents"];
+  for (const field of required) {
+    if (!merged.study?.[field]) {
+      failures.push({ type: "INCOMPLETE_COMPOSITE", field });
     }
   }
   return failures;
