@@ -1,9 +1,9 @@
 {
   "batch_id": "LRB-023",
   "ownerAuthorizationStatus": "APPROVED",
-  "reviewer": "pending-gpt-5.6-luna",
+  "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-12T20:00:00.000Z",
-  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "linguisticVerdict": "LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 50,
   "nelabot": 0,
@@ -41,5 +41,5 @@
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-023-residual-wrong-language-proof.json",
   "galaResidualRepairs": "28-card study.sectionAccents semantic alignment + a1-eis explanation[4] + a1-heissen dictionary-form lv/comparison/meaning",
-  "note": "GPT-5.6 Luna FULL_50_50 copy/paste + Gala residual copy/paste applied (50 LABOT / 28 unique HU cards). Submitted for ChatGPT PDF re-review. NOT LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Gala verdict LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
 }
