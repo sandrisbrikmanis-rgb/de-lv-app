@@ -1,7 +1,8 @@
 {
   "batch_id": "LRB-011",
   "classification": "LRB_011_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "reviewer": "gpt-5.6-luna",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
   "recalculated_from_production": true,
   "pass": true,
   "row_count": 50,
@@ -11,13 +12,327 @@
   "gates": {
     "ROWS": "50/50",
     "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
     "wrong_language_residue": 0,
-    "semantic_alignment_violations": 0
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
   },
   "nelabot_cards": [
     "Kraftwagen"
   ],
+  "pdf_reaudit_repairs": [
+    "hübsch"
+  ],
+  "row_audit": [
+    {
+      "card": "hören",
+      "lv_source": "dzirdēt • klausīties",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "hübsch",
+      "lv_source": "glīts",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "hundert",
+      "lv_source": "simts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "hungrig",
+      "lv_source": "izsalcis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "ich",
+      "lv_source": "es",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "ihr",
+      "lv_source": "jūs • viņai",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "im",
+      "lv_source": "iekšā (-ā) • kur?",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "immer",
+      "lv_source": "vienmēr",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "in",
+      "lv_source": "iekšā • uz",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "ja",
+      "lv_source": "jā",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Januar",
+      "lv_source": "janvāris",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "jawohl",
+      "lv_source": "tieši tā",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Jeans",
+      "lv_source": "džinsi",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "jeder",
+      "lv_source": "katrs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "jemand",
+      "lv_source": "kāds",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "jetzt",
+      "lv_source": "tagad • pašlaik",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "jetzt",
+      "lv_source": "tagad • pašlaik",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Juli",
+      "lv_source": "jūlijs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Juni",
+      "lv_source": "jūnijs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Kleid",
+      "lv_source": "kleita",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Kleidung",
+      "lv_source": "apģērbs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "klein",
+      "lv_source": "mazs",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Knoblauch",
+      "lv_source": "ķiploks",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Koch",
+      "lv_source": "pavārs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Köchin",
+      "lv_source": "pavāre",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "können",
+      "lv_source": "varēt • prast",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Kopf",
+      "lv_source": "galva",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "kosten",
+      "lv_source": "maksāt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Kraftwagen",
+      "lv_source": "automašīna",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Küche",
+      "lv_source": "virtuve",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Kuchen",
+      "lv_source": "kūka",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Kuh",
+      "lv_source": "govs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Kühlschrank",
+      "lv_source": "ledusskapis",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Kuss",
+      "lv_source": "skūpsts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Laden",
+      "lv_source": "veikals",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Lampe",
+      "lv_source": "lampa",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Land",
+      "lv_source": "valsts • zeme",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "lang",
+      "lv_source": "garš • ilgs",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "lange",
+      "lv_source": "ilgi",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "langsam",
+      "lv_source": "lēns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "langweilig",
+      "lv_source": "garlaicīgs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "lassen",
+      "lv_source": "atstāt • ļaut",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "laufen",
+      "lv_source": "skriet • darboties",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "laut",
+      "lv_source": "skaļš",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Laut",
+      "lv_source": "skaņa",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "leben",
+      "lv_source": "dzīvot",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "lecker",
+      "lv_source": "gards",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "leer",
+      "lv_source": "tukšs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "legen",
+      "lv_source": "nolikt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Lehrer",
+      "lv_source": "skolotājs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
+  ],
   "failures": [],
   "verdict": "LRB_011_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "updatedAt": "2026-09-12T10:17:56.722Z"
+  "updatedAt": "2026-09-12T10:22:08.770Z"
 }

@@ -197,6 +197,7 @@
         "pending": 0,
         "antiBulkPass": true,
         "residualAuditPass": true,
+        "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
         "headSha": "11bee796",
