@@ -142,8 +142,14 @@
         "nelabot": 3,
         "pending": 0,
         "antiBulkPass": true,
-        "headSha": "4f11d8d85be94d29b7b784500117210e3a51773e",
-        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-008-decisions.csv"
+        "residualAuditPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "PENDING_COMMIT",
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-008-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-008-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-008-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-008-owner-authorization-proof.json"
       }
     },
     "lastBatch": {
