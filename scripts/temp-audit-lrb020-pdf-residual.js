@@ -13,6 +13,7 @@ const {
   FINDING_TO_LANG,
   resolveCardKey,
   buildIndexAlignedSectionAccents,
+  SECTION_ACCENT_OVERRIDES,
 } = require("./lib/lrb020-repair-engine");
 
 function loadA1(lang) {
@@ -81,6 +82,37 @@ const FR_IN_GR =
   /\b(Rappelez-vous|Idée principale|Comprendre|Sous •|Avant • Devant|Le train|Savoir •|Incorrect\s*:|Correct\s*:|en français)\b/i;
 
 const ACCENT_COLORS = ["blue", "green", "purple", "yellow", "orange", "red"];
+
+const INVALID_DE_HIGHLIGHT =
+  /^(ich|du|er|sie|es|wir|ihr|die|der|das|den|dem|des|ein|eine|einen|einem|einer|mit|und|ist|sind|hat|haben)$/i;
+
+function isTrivialHighlight(term) {
+  const t = String(term || "").trim();
+  if (!t || t.length <= 1) return true;
+  if (/^[\p{P}\p{S}]+$/u.test(t)) return true;
+  return false;
+}
+
+function comparisonSide(example, side) {
+  const parts = String(example || "").split(/\s[–=]\s/);
+  if (side === "de") return parts[0] || "";
+  return parts[1] || "";
+}
+
+function highlightMatchesCompareWord(term, wordField, sideText) {
+  const t = String(term || "").trim().toLowerCase();
+  const side = String(sideText || "").toLowerCase();
+  const word = String(wordField || "").trim().toLowerCase();
+  if (!t || !side.includes(t)) return false;
+  if (word.includes(t) || t.includes(word)) return true;
+  const core = (word.match(/[a-zäöüß]+/gi) || []).pop()?.toLowerCase() || "";
+  if (!core) return false;
+  if (t === core || core.includes(t) || t.includes(core)) return true;
+  for (let len = Math.min(core.length, t.length, 4); len >= 3; len--) {
+    if (core.slice(0, len) === t.slice(0, len)) return true;
+  }
+  return false;
+}
 
 function parseMaybeJson(v) {
   if (typeof v !== "string") return v;
@@ -173,6 +205,81 @@ function collectSectionText(study, sectionKey, index, field) {
   return "";
 }
 
+function overridePathsForCard(lang, cardKey) {
+  const resolved = resolveCardKey(cardKey);
+  const overrides =
+    SECTION_ACCENT_OVERRIDES[lang]?.[resolved] ||
+    SECTION_ACCENT_OVERRIDES[lang]?.[cardKey] ||
+    {};
+  return new Set(Object.keys(overrides));
+}
+
+function validateComparisonAccentSemantics(study, sectionAccents, cardKey, lang) {
+  const failures = [];
+  const overridePaths = overridePathsForCard(lang, cardKey);
+  const rows = study.comparison || [];
+  const accentRows = sectionAccents?.comparison || [];
+  rows.forEach((row, index) => {
+    const accent = accentRows[index];
+    if (!accent?.example) return;
+    const pathKey = `comparison[${index}].example`;
+    if (!overridePaths.has(pathKey)) return;
+    const dePart = comparisonSide(row.example, "de");
+    const lvPart = comparisonSide(row.example, "lv");
+    const word = row.word || "";
+
+    for (const term of accent.example.green || []) {
+      const raw = String(term || "").trim();
+      if (!raw) continue;
+      if (isTrivialHighlight(raw)) {
+        failures.push({
+          type: "SECTION_ACCENT_TRIVIAL_HIGHLIGHT",
+          card: cardKey,
+          path: `sectionAccents.comparison[${index}].example.green`,
+          term: raw,
+        });
+        continue;
+      }
+      if (word && dePart && !highlightMatchesCompareWord(raw, word, dePart)) {
+        failures.push({
+          type: INVALID_DE_HIGHLIGHT.test(raw)
+            ? "SECTION_ACCENT_TRIVIAL_HIGHLIGHT"
+            : "SECTION_ACCENT_COMPARISON_DE_SEMANTIC",
+          card: cardKey,
+          path: `sectionAccents.comparison[${index}].example.green`,
+          term: raw,
+          word,
+          target: dePart.slice(0, 100),
+        });
+      }
+    }
+
+    for (const term of accent.example.purple || []) {
+      const raw = String(term || "").trim();
+      if (!raw) continue;
+      if (isTrivialHighlight(raw)) {
+        failures.push({
+          type: "SECTION_ACCENT_TRIVIAL_HIGHLIGHT",
+          card: cardKey,
+          path: `sectionAccents.comparison[${index}].example.purple`,
+          term: raw,
+        });
+        continue;
+      }
+      if (lvPart && !lvPart.toLowerCase().includes(raw.toLowerCase())) {
+        failures.push({
+          type: "SECTION_ACCENT_MISMATCH",
+          card: cardKey,
+          path: `sectionAccents.comparison[${index}].example.purple`,
+          term: raw,
+          target: lvPart.slice(0, 100),
+        });
+      }
+    }
+  });
+  return failures;
+}
+
 function validateSectionAccents(study, sectionAccents, cardKey) {
   const failures = [];
   if (!sectionAccents || typeof sectionAccents !== "object") return failures;
@@ -183,6 +290,15 @@ function validateSectionAccents(study, sectionAccents, cardKey) {
       for (const term of accentMap[color]) {
         const raw = String(term || "").trim();
         if (!raw) continue;
+        if (isTrivialHighlight(raw)) {
+          failures.push({
+            type: "SECTION_ACCENT_TRIVIAL_HIGHLIGHT",
+            card: cardKey,
+            path: pathPrefix,
+            term: raw,
+          });
+          continue;
+        }
         const target = collectSectionText(study, sectionKey, index, field);
         if (!target.toLowerCase().includes(raw.toLowerCase())) {
           failures.push({
@@ -252,6 +368,14 @@ function validateMergedCard(lang, cardKey, merged) {
   failures.push(
     ...validateSectionAccents(merged.study || {}, merged.study?.sectionAccents, cardKey)
   );
+  failures.push(
+    ...validateComparisonAccentSemantics(
+      merged.study || {},
+      merged.study?.sectionAccents,
+      cardKey,
+      lang
+    )
+  );
   for (const field of ["examples", "tip", "important", "sectionAccents"]) {
     if (!merged.study?.[field]) failures.push({ type: "INCOMPLETE_COMPOSITE", field });
   }
@@ -266,6 +390,7 @@ let wrongLanguage = 0;
 let semanticViolations = 0;
 let cardMergeFailures = 0;
 let sectionAccentMismatches = 0;
+let sectionAccentSemanticViolations = 0;
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
@@ -321,6 +446,12 @@ for (const [key, { lang, card }] of UNIQUE_CARDS) {
         wrongLanguage++;
       }
       if (f.type === "SECTION_ACCENT_MISMATCH") sectionAccentMismatches++;
+      if (
+        f.type === "SECTION_ACCENT_TRIVIAL_HIGHLIGHT" ||
+        f.type === "SECTION_ACCENT_COMPARISON_DE_SEMANTIC"
+      ) {
+        sectionAccentSemanticViolations++;
+      }
     }
   }
   validatedCards.add(key);
@@ -335,6 +466,7 @@ const pass =
   semanticViolations === 0 &&
   cardMergeFailures === 0 &&
   sectionAccentMismatches === 0 &&
+  sectionAccentSemanticViolations === 0 &&
   validatedCards.size === 50;
 
 const proof = {
@@ -365,6 +497,7 @@ const proof = {
     semantic_alignment_violations: semanticViolations,
     merged_card_failures: cardMergeFailures,
     section_accent_mismatches: sectionAccentMismatches,
+    section_accent_semantic_violations: sectionAccentSemanticViolations,
     full_composite_completeness: cardMergeFailures === 0 ? "PASS" : "FAIL",
     anti_bulk: "PASS",
   },
