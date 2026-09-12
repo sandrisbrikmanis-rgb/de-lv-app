@@ -1,13 +1,17 @@
 {
   "batchId": "LRB-099",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-12T19:45:12.754Z",
-  "sourceCommit": "2c25062be7cba4d26574f96856d70cfe1e058841",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-12T19:52:00.000Z",
+  "sourceCommit": "139930c57881f16f6039c82ad0a419abae3dffe4",
+  "verifiedCommit": "139930c57881f16f6039c82ad0a419abae3dffe4",
+  "verificationStandard": "FULL_50_50_PDF",
   "branch": "cursor/lrb-099-owner-review-pc2-3db2",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "OWNER/GPT",
   "linguisticReviewer": "gpt-5.6-luna",
+  "linguisticVerdict": "LRB_099_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPass": true,
   "ownerAuthorizationStatus": "APPROVED",
   "overridesSha256": "280dd6180c803bc33940ba96ad7163949f985fa21c7f62f5d0f203750d0e49ae",
   "rows": "50/50",
@@ -63,7 +67,8 @@
     "github": "reports/g2-a1-owner/batches-owner-review/LRB-099/LRB-099-owner-review-GITHUB.md",
     "overrides": "reports/g2-a1-owner/batches-owner-review/LRB-099/LRB-099-owner-approved-overrides.json",
     "manifest": "reports/g2-a1-owner/manifests/LRB-099-start.json",
-    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json"
+    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
+    "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-099-owner-authorization-proof.json"
   },
-  "note": "OWNER approved overrides applied mechanically. Awaiting independent OWNER/GPT verdict LRB_099_FULL_50_50_LINGUISTIC_REVIEW_PASS."
+  "note": "Gala verdict LRB_099_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 139930c57881f16f6039c82ad0a419abae3dffe4 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (SV 50). DE/production/Crowdin/ingest/apply unchanged."
 }
