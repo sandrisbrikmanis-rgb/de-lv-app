@@ -1,13 +1,15 @@
 {
   "batchId": "LRB-102",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-12T18:37:14.850Z",
-  "sourceCommit": "35af3560bac7132af7bb2bc16e80af1d51258023",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-12T18:44:00.000Z",
+  "sourceCommit": "311c21d4a9f185fc8572af0a31d7f778bb66c72f",
   "branch": "cursor/lrb-102-owner-review-pc2-3db2",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "OWNER/GPT",
   "linguisticReviewer": "gpt-5.6-luna",
+  "linguisticVerdict": "LRB_102_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPass": true,
   "ownerAuthorizationStatus": "APPROVED",
   "overridesSha256": "150365ddecc86bcd2c313a227820848be79f064cc39fc2ec1d67593563d3e8cd",
   "rows": "50/50",
@@ -61,7 +63,8 @@
     "github": "reports/g2-a1-owner/batches-owner-review/LRB-102/LRB-102-owner-review-GITHUB.md",
     "overrides": "reports/g2-a1-owner/batches-owner-review/LRB-102/LRB-102-owner-approved-overrides.json",
     "manifest": "reports/g2-a1-owner/manifests/LRB-102-start.json",
-    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json"
+    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
+    "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-102-owner-authorization-proof.json"
   },
-  "note": "OWNER approved overrides applied mechanically. Awaiting independent OWNER/GPT verdict LRB_102_FULL_50_50_LINGUISTIC_REVIEW_PASS."
+  "note": "Gala verdict LRB_102_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING (TR 20 + UK 30). DE/production/Crowdin/ingest/apply unchanged."
 }

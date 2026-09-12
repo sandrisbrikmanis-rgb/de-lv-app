@@ -7,12 +7,13 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-12T18:37:14.850Z
-**Source commit:** `35af3560bac7132af7bb2bc16e80af1d51258023`
+**Generated:** 2026-09-12T18:44:00.000Z
+**Source commit:** `311c21d4a9f185fc8572af0a31d7f778bb66c72f`
 **Branch:** `cursor/lrb-102-owner-review-pc2-3db2`
 **Overrides SHA256:** `150365ddecc86bcd2c313a227820848be79f064cc39fc2ec1d67593563d3e8cd`
+**GALA PASS:** `LRB_102_FULL_50_50_LINGUISTIC_REVIEW_PASS`
 
-> OWNER approved overrides applied mechanically. All 50 LABOT. No Cursor linguistic analysis.
+> OWNER approved overrides applied. Linguistic review closed (TR 20 + UK 30).
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 

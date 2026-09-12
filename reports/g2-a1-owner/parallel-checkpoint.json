@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-12T18:37:14.850Z",
+  "updatedAt": "2026-09-12T18:44:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,15 +40,12 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": "LRB-102",
-    "reservedBatches": [
-      "LRB-102"
-    ],
-    "inProgressBatches": [
-      "LRB-102"
-    ],
+    "activeBatch": null,
+    "reservedBatches": [],
+    "inProgressBatches": [],
     "completedBatches": [
-      "LRB-103"
+      "LRB-103",
+      "LRB-102"
     ],
     "nextCandidate": "LRB-101"
   },
@@ -73,7 +70,7 @@
       "batchId": "LRB-102",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "OWNER_APPROVED_OVERRIDES_APPLIED",
+      "status": "GALA_PASS",
       "branch": "cursor/lrb-102-owner-review-pc2-3db2",
       "reservedAt": "2026-09-12T18:20:00.000Z",
       "rows": 50,
@@ -86,8 +83,12 @@
       "proof": "reports/g2-a1-owner/batches-owner-review/LRB-102/LRB-102-owner-review-proof.json",
       "overridesSha256": "150365ddecc86bcd2c313a227820848be79f064cc39fc2ec1d67593563d3e8cd",
       "appliedAt": "2026-09-12T18:37:14.850Z",
+      "completedAt": "2026-09-12T18:44:00.000Z",
+      "linguisticVerdict": "LRB_102_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "galaPassAt": "2026-09-12T18:44:00.000Z",
       "labot": 50,
-      "pending": 0
+      "pending": 0,
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-102-owner-authorization-proof.json"
     }
   ],
   "conflicts": []
