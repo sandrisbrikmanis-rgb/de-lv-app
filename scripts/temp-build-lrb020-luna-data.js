@@ -6,7 +6,7 @@ const path = require("path");
 
 const existingPath = path.join(__dirname, "lib/lrb020-luna-repair-data.js");
 const existing = require(existingPath);
-const updates = require("./data/lrb020-round2-updates.json");
+const round2c = require("./data/lrb020-round2c-updates.json");
 
 const FULL_FIELD_PREFIXES = [
   "study.examples",
@@ -42,13 +42,28 @@ function mergeLang(base, langUpdates) {
   return out;
 }
 
-const mergedFr = mergeLang(existing.LUNA_PATCHES.fr, updates.fr);
-const mergedGr = mergeLang(existing.LUNA_PATCHES.gr, updates.gr);
+const mergedFr = mergeLang(existing.LUNA_PATCHES.fr, round2c.fr);
+const mergedGr = mergeLang(existing.LUNA_PATCHES.gr, round2c.gr);
+
+const sectionAccentOverrides = JSON.parse(
+  JSON.stringify(existing.SECTION_ACCENT_OVERRIDES || { gr: {}, fr: {} })
+);
+if (round2c.sectionAccentOverrides) {
+  for (const [lang, cards] of Object.entries(round2c.sectionAccentOverrides)) {
+    if (!sectionAccentOverrides[lang]) sectionAccentOverrides[lang] = {};
+    for (const [card, patch] of Object.entries(cards)) {
+      sectionAccentOverrides[lang][card] = mergeCard(
+        sectionAccentOverrides[lang][card],
+        patch
+      );
+    }
+  }
+}
 
 const content = `"use strict";
 
 module.exports = {
-  SECTION_ACCENT_OVERRIDES: ${JSON.stringify(existing.SECTION_ACCENT_OVERRIDES, null, 2)},
+  SECTION_ACCENT_OVERRIDES: ${JSON.stringify(sectionAccentOverrides, null, 2)},
   LUNA_PATCHES: {
     fr: ${JSON.stringify(mergedFr, null, 2)},
     gr: ${JSON.stringify(mergedGr, null, 2)},

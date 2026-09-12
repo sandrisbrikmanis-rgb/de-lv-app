@@ -13,6 +13,20 @@ module.exports = {
         "purple": [
           "γι' αυτό"
         ]
+      },
+      "comparison[2].example": {
+        "green": [
+          "deshalb"
+        ],
+        "purple": [
+          "γι' αυτό"
+        ]
+      },
+      "comparison[2].meaning": {
+        "purple": [
+          "Γι' αυτό",
+          "Επομένως"
+        ]
       }
     }
   }
@@ -434,7 +448,10 @@ module.exports = {
         "de": "Ich bin müde.",
         "lv": "Je suis fatigué."
       }
-    ]
+    ],
+    "study.tip": {
+      "text": "Retenez : changement d'état → werden."
+    }
   },
   "Wetter": {
     "study.explanation[1]": "En allemand, das Wetter désigne la météo ; die Zeit désigne le temps disponible ou un moment.",
@@ -491,7 +508,8 @@ module.exports = {
     "study.tip": [
       "Pour le soleil, la pluie ou la température extérieure, utilisez das Wetter.",
       "Wie ist das Wetter? = Quel temps fait-il ?"
-    ]
+    ],
+    "study.explanation[4]": "À ne pas confondre avec die Zeit : le temps disponible ou un moment, comme dans Ich habe keine Zeit."
   },
   "wie": {
     "lv": "Comment • Combien",
@@ -651,7 +669,10 @@ module.exports = {
         "de": "Der Bus kommt später.",
         "lv": "Le bus arrive plus tard."
       }
-    ]
+    ],
+    "study.tip": {
+      "text": "Retenez : un train déterminé → der Zug."
+    }
   },
   "zum": {
     "lv": "Au • À la • Chez le",
@@ -1078,7 +1099,10 @@ module.exports = {
         "de": "Ein Kind spielt.",
         "lv": "Ένα παιδί παίζει."
       }
-    ]
+    ],
+    "study.tip": {
+      "text": "Θυμήσου: αόριστο άρθρο → ein."
+    }
   },
   "Eis": {
     "study.important": [
@@ -1135,7 +1159,11 @@ module.exports = {
         "meaning": "Επιδόρπιο",
         "example": "Eis ist ein Dessert. – Το παγωτό είναι επιδόρπιο."
       }
-    ]
+    ],
+    "study.examples[4].lv": "Θα πάρω ένα παγωτό με σοκολάτα.",
+    "study.tip": {
+      "text": "Θυμήσου: φαγητό → παγωτό· χειμώνας ή παγωμένο νερό → πάγος."
+    }
   },
   "erst": {
     "study.tip.text": "Θυμήσου: χρόνος ή σειρά → erst· περιορισμένη ποσότητα → nur.",
@@ -1180,6 +1208,11 @@ module.exports = {
         "meaning": "Μετά • Τότε",
         "example": "Dann gehen wir nach Hause. – Μετά πηγαίνουμε σπίτι."
       }
+    ],
+    "study.important": [
+      "Τα erst και nur μπορούν και τα δύο να αποδοθούν ως «μόνο», αλλά δεν χρησιμοποιούνται με τον ίδιο τρόπο.",
+      "Το erst αναφέρεται συχνά σε χρόνο, σειρά ή σημείο που μόλις επιτεύχθηκε· το nur περιορίζει μια ποσότητα.",
+      "Το zuerst σημαίνει συνήθως «πρώτα»."
     ]
   },
   "es": {
@@ -1252,7 +1285,8 @@ module.exports = {
     "study.important": [
       "etwas = κάτι ή λίγο· nichts = τίποτα.",
       "etwas trinken = πίνω κάτι· nichts trinken = δεν πίνω τίποτα."
-    ]
+    ],
+    "study.comparison[0].meaning": "Κάτι • Λίγο"
   },
   "euch": {
     "lv": "Σας • Σε εσάς",
@@ -1347,7 +1381,8 @@ module.exports = {
     "study.tip": [
       "Με κτητικό, όπως meine Frau, η λέξη συνήθως σημαίνει σύζυγος.",
       "Χωρίς κτητικό, die Frau ή eine Frau συνήθως σημαίνει γυναίκα."
-    ]
+    ],
+    "study.examples[0].lv": "Είναι μια συμπαθητική γυναίκα."
   },
   "Geschwister": {
     "study.comparison[0].example": "Meine Geschwister – τα αδέλφια μου",
@@ -1432,7 +1467,9 @@ module.exports = {
     "study.tip": [
       "Για αντικείμενα ή μέρη: groß = μεγάλος.",
       "Για ανθρώπους: groß = ψηλός."
-    ]
+    ],
+    "lv": "Μεγάλος • Ψηλός",
+    "study.translation": "Μεγάλος • Ψηλός"
   },
   "Großeltern": {
     "study.comparison[0].example": "meine Großeltern – οι παππούδες και οι γιαγιάδες μου",
@@ -1460,12 +1497,13 @@ module.exports = {
       "Δεν πρέπει να συγχέεται με το ουσιαστικό das Gut, που έχει διαφορετική σημασία."
     ],
     "study.important": [
-      "gut = καλός/καλά· das Gut είναι διαφορετικό ουσιαστικό."
+      "gut = καλός • καλά· das Gut είναι διαφορετικό ουσιαστικό."
     ],
     "study.tip": [
       "gut χωρίς άρθρο = καλός ή καλά.",
       "das Gut με κεφαλαίο και άρθρο είναι διαφορετικό ουσιαστικό."
-    ]
+    ],
+    "study.examples[1].lv": "Πώς είσαι; – Καλά, ευχαριστώ!"
   },
   "haben": {
     "study.explanation": [
@@ -1587,7 +1625,13 @@ module.exports = {
         "meaning": "Βραχίονας • Άνω άκρο",
         "example": "Mein Arm tut weh. – Πονάει το χέρι μου."
       }
-    ]
+    ],
+    "study.examples[2].lv": "Πονάει ο βραχίονάς μου.",
+    "study.comparison[1]": {
+      "word": "der Arm",
+      "meaning": "Βραχίονας • Άνω άκρο",
+      "example": "Mein Arm tut weh. – Πονάει ο βραχίονάς μου."
+    }
   },
   "heißen": {
     "lv": "Ονομάζομαι • Σημαίνω",
@@ -1640,6 +1684,12 @@ module.exports = {
         "meaning": "Τηλεφωνώ",
         "example": "Ich rufe dich an. – Σου τηλεφωνώ."
       }
+    ],
+    "study.explanation": [
+      "Κύρια ιδέα: heißen χρησιμοποιείται κυρίως για να πούμε πώς ονομάζεται κάποιος.",
+      "Η φράση Ich heiße... σημαίνει «με λένε...».",
+      "Για λέξεις ή εκφράσεις, heißen μπορεί επίσης να σημαίνει «σημαίνω».",
+      "Στο επίπεδο Α1, η σημαντικότερη φράση είναι Wie heißt du?"
     ]
   },
   "hoch": {
@@ -1787,7 +1837,8 @@ module.exports = {
   },
   "Laden": {
     "study.tip": [
-      "Ουσιαστικό: der Laden = κατάστημα. Ρήμα: laden = φορτώνω ή προσκαλώ."
+      "Ουσιαστικό: der Laden = κατάστημα.",
+      "Ρήμα: laden = φορτώνω· einladen = προσκαλώ."
     ],
     "study.important": [
       "Laden με κεφαλαίο = κατάστημα· laden με πεζό = ρήμα."

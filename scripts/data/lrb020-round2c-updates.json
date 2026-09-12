@@ -1,0 +1,88 @@
+{
+  "fr": {
+    "werden": {
+      "study.tip": {
+        "text": "Retenez : changement d'état → werden."
+      }
+    },
+    "Wetter": {
+      "study.explanation[4]": "À ne pas confondre avec die Zeit : le temps disponible ou un moment, comme dans Ich habe keine Zeit."
+    },
+    "Zug": {
+      "study.tip": {
+        "text": "Retenez : un train déterminé → der Zug."
+      }
+    }
+  },
+  "gr": {
+    "Eis": {
+      "study.examples[4].lv": "Θα πάρω ένα παγωτό με σοκολάτα.",
+      "study.tip": {
+        "text": "Θυμήσου: φαγητό → παγωτό· χειμώνας ή παγωμένο νερό → πάγος."
+      }
+    },
+    "Frau": {
+      "study.examples[0].lv": "Είναι μια συμπαθητική γυναίκα."
+    },
+    "Hand": {
+      "study.examples[2].lv": "Πονάει ο βραχίονάς μου.",
+      "study.comparison[1]": {
+        "word": "der Arm",
+        "meaning": "Βραχίονας • Άνω άκρο",
+        "example": "Mein Arm tut weh. – Πονάει ο βραχίονάς μου."
+      }
+    },
+    "Laden": {
+      "study.tip": [
+        "Ουσιαστικό: der Laden = κατάστημα.",
+        "Ρήμα: laden = φορτώνω· einladen = προσκαλώ."
+      ]
+    },
+    "ein": {
+      "study.tip": {
+        "text": "Θυμήσου: αόριστο άρθρο → ein."
+      }
+    },
+    "erst": {
+      "study.important": [
+        "Τα erst και nur μπορούν και τα δύο να αποδοθούν ως «μόνο», αλλά δεν χρησιμοποιούνται με τον ίδιο τρόπο.",
+        "Το erst αναφέρεται συχνά σε χρόνο, σειρά ή σημείο που μόλις επιτεύχθηκε· το nur περιορίζει μια ποσότητα.",
+        "Το zuerst σημαίνει συνήθως «πρώτα»."
+      ]
+    },
+    "etwas": {
+      "study.comparison[0].meaning": "Κάτι • Λίγο"
+    },
+    "groß": {
+      "lv": "Μεγάλος • Ψηλός",
+      "study.translation": "Μεγάλος • Ψηλός"
+    },
+    "gut": {
+      "study.examples[1].lv": "Πώς είσαι; – Καλά, ευχαριστώ!",
+      "study.important": [
+        "gut = καλός • καλά· das Gut είναι διαφορετικό ουσιαστικό."
+      ]
+    },
+    "heißen": {
+      "study.explanation": [
+        "Κύρια ιδέα: heißen χρησιμοποιείται κυρίως για να πούμε πώς ονομάζεται κάποιος.",
+        "Η φράση Ich heiße... σημαίνει «με λένε...».",
+        "Για λέξεις ή εκφράσεις, heißen μπορεί επίσης να σημαίνει «σημαίνω».",
+        "Στο επίπεδο Α1, η σημαντικότερη φράση είναι Wie heißt du?"
+      ]
+    }
+  },
+  "sectionAccentOverrides": {
+    "gr": {
+      "also": {
+        "comparison[2].example": {
+          "green": ["deshalb"],
+          "purple": ["γι' αυτό"]
+        },
+        "comparison[2].meaning": {
+          "purple": ["Γι' αυτό", "Επομένως"]
+        }
+      }
+    }
+  }
+}
