@@ -2,8 +2,8 @@
   "g2/a1/et|baden|idx:68|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"suplema\",\"study.translation\":\"suplema\",\"study.explanation\":[\"Põhiidee: baden tähendab suplema või vees olema.\",\"baden kasutatakse, kui jutt on puhkusest vees, järves, meres või basseinis.\",\"Kui rõhk on ujumisliigutustel või sportil, kasutatakse saksa keeles sagedamini schwimmen.\",\"baden ja schwimmen ei ole sünonüümid.\"],\"study.examples[0].lv\":\"Ma lähen suplema.\",\"study.examples[1].lv\":\"Me läheme järves suplema.\",\"study.examples[2].lv\":\"Ta ujub väga hästi.\",\"study.examples[3].lv\":\"Ma käin igal esmaspäeval ujumas.\",\"study.comparison[0].meaning\":\"suplema / vees olema\",\"study.comparison[0].example\":\"Ich gehe baden. – Ma lähen suplema.\",\"study.comparison[1].meaning\":\"ujumist liikumise või spordialana\",\"study.comparison[1].example\":\"Er schwimmt sehr gut. – Ta ujub väga hästi.\",\"study.comparison[2].meaning\":\"duši all käima\",\"study.comparison[2].example\":\"Ich dusche am Morgen. – Ma käin hommikul duši all.\",\"study.comparison[3].meaning\":\"ujuma minema\",\"study.comparison[3].example\":\"Ich gehe heute schwimmen. – Ma lähen täna ujuma.\",\"study.important[0]\":\"baden ja schwimmen ei ole sünonüümid.\",\"study.important[1]\":\"baden = suplema/vees olema; schwimmen = ujuma (liikumine või sport).\"}",
-    "owner_note": "ET baden gala: source peldēties→suplema only; no vannis käima/end pesema in headword; full baden vs schwimmen composite. DE untouched."
+    "owner_new": "{\"lv\":\"suplema\",\"study.translation\":\"suplema\",\"study.explanation\":[\"Põhiidee: baden tähendab suplema või vees olema.\",\"baden kasutatakse, kui jutt on puhkusest vees, järves, meres või basseinis.\",\"Kontekstis võib baden tähendada ka vannis käimist või kümblamist.\",\"Kui rõhk on ujumisliigutustel või sportil, kasutatakse saksa keeles sagedamini schwimmen.\",\"baden ja schwimmen ei ole sünonüümid.\"],\"study.examples[0].lv\":\"Ma lähen suplema.\",\"study.examples[1].lv\":\"Me läheme järves suplema.\",\"study.examples[2].lv\":\"Ta ujub väga hästi.\",\"study.examples[3].lv\":\"Ma käin igal esmaspäeval ujumas.\",\"study.comparison[0].meaning\":\"suplema / vees olema\",\"study.comparison[0].example\":\"Ich gehe baden. – Ma lähen suplema.\",\"study.comparison[1].meaning\":\"ujumist liikumise või spordialana\",\"study.comparison[1].example\":\"Er schwimmt sehr gut. – Ta ujub väga hästi.\",\"study.comparison[2].meaning\":\"duši all käima\",\"study.comparison[2].example\":\"Ich dusche am Morgen. – Ma käin hommikul duši all.\",\"study.comparison[3].meaning\":\"ujuma minema\",\"study.comparison[3].example\":\"Ich gehe heute schwimmen. – Ma lähen täna ujuma.\",\"study.important[0]\":\"baden ja schwimmen ei ole sünonüümid.\",\"study.important[1]\":\"baden = suplema/vees olema; schwimmen = ujuma (liikumine või sport).\"}",
+    "owner_note": "ET baden PDF reaudit: lv/study.translation suplema; explanation adds vannis käima/kümblema context only; baden≠schwimmen. DE untouched."
   },
   "g2/a1/et|bei|idx:78|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -61,15 +61,15 @@
   },
   "g2/a1/et|essen|idx:690|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "ET essen study: sööma verb vs das Essen noun distinction correctly taught for ēst. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sööma\",\"study.translation\":\"sööma\",\"study.explanation\":[\"Põhiidee: Tegusõna — toitu sööma.\",\"essen tähendab peamiselt: toitu tarbima või sööma.\",\"Sageli kirjeldab: tegevust (ilma artiklita).\",\"das Essen on eraldi nimisõna: toit või söögikord.\",\"das Essen võib tähendada toitu või söögikorda üldiselt.\",\"essen ja das Essen ei ole sama — tegusõna vs nimisõna.\"],\"study.examples[0].lv\":\"Ma söön meelsasti pitsat.\",\"study.examples[2].lv\":\"Me sööme kell 12.\",\"study.examples[3].lv\":\"Toit on valmis.\",\"study.examples[4].lv\":\"Toit maitseb väga hästi.\",\"study.examples[5].lv\":\"Toit maitseb hästi.\",\"study.tip[0]\":\"essen = sööma (tegusõna); das Essen = toit / söögikord (nimisõna).\",\"study.important[0]\":\"essen on tegusõna ilma artiklita.\",\"study.important[1]\":\"das Essen ei ole sama mis essen.\",\"study.important[2]\":\"Tegevus: essen = sööma. Asi/söögikord: das Essen = toit.\"}",
+    "owner_note": "ET essen PDF reaudit: essen=sööma verb; das Essen=toit/söögikord noun; explanation contradictions cleaned. DE untouched."
   },
   "g2/a1/et|Fernsehen|idx:688|lv, study.*|LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "ET Fernsehen study: televisioon noun singular-only and fernsehen verb split match televīzija. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"televisioon\",\"study.translation\":\"televisioon\",\"study.explanation\":[\"Põhiidee: Nimisõna, ainult ainsus. Kirjeldab TV-d kui meediumi või saateid tervikuna.\",\"das Fernsehen tähendab peamiselt: televisioon kui meedium või TV-programm.\",\"Sageli kirjeldab: nimisõna (ainult ainsuses).\",\"fernsehen on tegusõna: televiisorit vaatama.\",\"fernsehen on lahutatav: ich sehe fern, du siehst fern.\",\"das Fernsehen on nimisõna ja ainult ainsuses — sellel ei ole mitmuse vormi.\"],\"study.examples[1].lv\":\"Mida täna televisioonis näidatakse?\",\"study.examples[2].lv\":\"Televisioonis näidatakse filmi.\",\"study.examples[3].lv\":\"Televisiooniprogramm on täna igav.\",\"study.examples[4].lv\":\"Täna õhtul vaatan ma telerit.\",\"study.tip[0]\":\"Kui jutt on tegevusest, kasutatakse fernsehen (ich sehe fern). Kui jutt on teleprogrammist või meediumist, kasutatakse das Fernsehen.\",\"study.important[0]\":\"fernsehen on lahutatav: sehen + fern.\",\"study.important[1]\":\"das Fernsehen ei ole mitmuses — ei ole *die Fernsehen.\",\"study.important[2]\":\"Tegevus: fernsehen → ich sehe fern. Meedium: das Fernsehen = televisioon.\"}",
+    "owner_note": "ET Fernsehen PDF reaudit: das Fernsehen=televisioon/TV medium; fernsehen=televiisorit vaatama; no saadet vaatama leak. DE untouched."
   },
   "g2/a1/et|können|idx:319|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -169,9 +169,9 @@
   },
   "g2/a1/et|sie|idx:549|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "ET sie study: nemad/nad plural/feminine overview acceptable for viņi/viņas at A1. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nemad / nad\",\"study.translation\":\"nad\",\"study.explanation\":[\"Põhiidee: Mitmuse vorm — jutt on mitmest inimesest. Tegusõna lõpeb -en: kochen, essen, gehen.\",\"Väike sie tähendab teda (üks naine), kui tegusõna on ainsuses (-t): sie kocht = ta teeb süüa.\",\"Väike sie tähendab neid, kui tegusõna on mitmuses (-en): sie kochen = nad teevad süüa.\",\"Lause alguses on sie alati suure algustähega — tähendus määratakse tegusõna vormi ja konteksti järgi.\",\"Viisakas pöördumine Sie (alati suur S, mitmus) õpetatakse eraldi Sie-kaardil.\"],\"study.examples[0].lv\":\"Nad teevad süüa.\",\"study.examples[1].lv\":\"Ta teeb süüa.\",\"study.examples[2].lv\":\"Ta sööb.\",\"study.examples[3].lv\":\"Nad teevad süüa.\",\"study.examples[4].lv\":\"Nad mängivad jalgpalli.\",\"study.examples[5].lv\":\"Nad teevad süüa, palun.\",\"study.tip[0]\":\"Mitmuse vorm — jutt on mitmest inimesest. Tegusõna lõpeb -en: kochen, essen, gehen.\",\"study.important[0]\":\"sie kocht (ainsus) = ta teeb süüa; sie kochen (mitmus) = nad teevad süüa.\",\"study.important[1]\":\"Viisakas Teie (Sie kochen, bitte.) õpetatakse Sie-kaardil, mitte siin.\",\"study.important[2]\":\"Vale: sie kocht → Õige: Sie kocht (lausealguses)\"}",
+    "owner_note": "ET sie PDF reaudit: plural/feminine sie vs formal Sie separated; persona index-by-index DE↔ET. DE untouched."
   },
   "g2/a1/et|Sie|idx:550|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -187,9 +187,9 @@
   },
   "g2/a1/et|sollen|idx:564|lv; study.*|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "ET sollen study: peaks obligation-from-instruction sense matches vajadzētu. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"peaks\",\"study.translation\":\"peaks\",\"study.explanation\":[\"Põhiidee: sollen tähendab, et keegi peaks midagi tegema juhise järgi.\",\"sollen kasutatakse sageli siis, kui keegi teine ütleb, mida teha.\",\"See ei ole nii tugev kui müssen (kohustus).\",\"Väga sage fraas on Was soll ich machen? = Mida ma peaksin tegema?\"],\"study.examples[0].lv\":\"Mida ma peaksin tegema?\",\"study.examples[1].lv\":\"Sa peaksid tulema.\",\"study.examples[2].lv\":\"Ma peaksin koju jääma.\",\"study.examples[3].lv\":\"Ma pean nüüd minema.\",\"study.comparison[0].meaning\":\"peaks / juhise järgi tegema\",\"study.comparison[0].example\":\"Was soll ich machen? – Mida ma peaksin tegema?\",\"study.comparison[1].meaning\":\"peab / kohustus\",\"study.comparison[1].example\":\"Ich muss gehen. – Ma pean minema.\",\"study.important[0]\":\"Was soll ich machen? on väga sage fraas.\",\"study.important[1]\":\"sollen = peaks / juhise järgi; müssen = peab / kohustus.\"}",
+    "owner_note": "ET sollen PDF reaudit: Ich muss jetzt gehen→Ma pean nüüd minema; sollen=peaks vs müssen=peab. DE untouched."
   },
   "g2/a1/et|werden|idx:657|lv, study.explanation, study.examples, study.comparison, study.important|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
@@ -223,80 +223,80 @@
   },
   "g2/a1/fi|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI ab comparison[1]: Kellestki/millestki • Päritolu mirrors LV no kāda/kaut kā • izcelsme from-origin senses. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[1].meaning\":\"Jostakin • Alkuperä\"}",
+    "owner_note": "FI ab comparison[1]: ET Kellestki/Päritolu→Jostakin•Alkuperä for no kāda/kaut kā•izcelsme. DE untouched."
   },
   "g2/a1/fi|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI aber comparison[0]: Vastand • Vastuväide • Siiski preserves contrast/objection/however LV pretstats • iebilde • tomēr. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"Vastakohta • Vastaväite • Kuitenkin\"}",
+    "owner_note": "FI aber comparison[0]: ET Vastand/Vastuväide→Vastakohta•Vastaväite•Kuitenkin for pretstats•iebilde•tomēr. DE untouched."
   },
   "g2/a1/fi|a1-also|a1.card.a1-also.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI also comparison[0]: Seega • Järelikult correctly maps thus/therefore LV tātad • līdz ar to. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"Siis • Näin ollen\"}",
+    "owner_note": "FI also comparison[0]: ET Seega/Järelikult→Siis•Näin ollen for tātad•līdz ar to. DE untouched."
   },
   "g2/a1/fi|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI an native: Juures • Peal • Ligi acceptably expands at/on/near LV pie for A1 an teaching. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Luona • Päällä • Lähellä\"}",
+    "owner_note": "FI an native: ET Juures/Peal/Ligi→Luona•Päällä•Lähellä per full an study semantics. DE untouched."
   },
   "g2/a1/fi|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI an study.translation: Juures • Pinna küljes • Serva ääres mirrors native at/surface/edge LV pie gloss. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Kiinni • Pinnalla • Reunalla\"}",
+    "owner_note": "FI an study.translation: ET Pinna küljes/Serva ääres→Kiinni•Pinnalla•Reunalla for pie surface/edge. DE untouched."
   },
   "g2/a1/fi|a1-aufs|a1.card.a1-aufs.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI aufs native: Peale • Otsa • Kuhu? covers onto/on-top/where LV uz movement sense. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Päälle • Pinnalle • Minne?\"}",
+    "owner_note": "FI aufs native: ET Peale/Otsa/Kuhu→Päälle•Pinnalle•Minne? auf+das Akk direction minne?. DE untouched."
   },
   "g2/a1/fi|a1-aufs|a1.card.a1-aufs.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI aufs study.translation mirrors native; Peale • Otsa • Kuhu? consistent with aufs card. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Päälle • Pinnalle • Minne?\"}",
+    "owner_note": "FI aufs study.translation mirrors native; auf+das Akkusativ minne? consistent. DE untouched."
   },
   "g2/a1/fi|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI aus native: -st • Välja correctly distinguishes from-origin vs out LV no • ārā senses. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-sta/-stä • Ulos\"}",
+    "owner_note": "FI aus native: ET -st/Välja→-sta/-stä•Ulos for no•ārā from/out senses. DE untouched."
   },
   "g2/a1/fi|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI aus study.translation mirrors native; -st • Välja consistent with aus dual-sense card. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"-sta/-stä • Ulos\"}",
+    "owner_note": "FI aus study.translation mirrors native; -sta/-stä•Ulos consistent with aus card. DE untouched."
   },
   "g2/a1/fi|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI besuch comparison[0]: vierailu • käynti • vierailu mirrors LV apmeklējums • apciemojums • vizīte visit senses. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"Käynti • Vierailu • Kyläily\"}",
+    "owner_note": "FI besuch comparison[0]: remove vierailu dup→Käynti•Vierailu•Kyläily for apmeklējums•apciemojums•vizīte. DE untouched."
   },
   "g2/a1/fi|a1-besuchen|a1.card.a1-besuchen.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI besuchen comparison[0]: place/event vs person visit split matches LV apmeklēt vietu vs apciemot personu. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.comparison[0].meaning\":\"Vierailla paikassa tai tapahtumassa • Käydä jonkun luona\"}",
+    "owner_note": "FI besuchen comparison[0]: ET paikkaa/henkilöllä→paikassa/tapahtumassa•käydä jonkun luona. DE untouched."
   },
   "g2/a1/fi|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI bringen native: Tooma • Viima distinguishes bring/carry LV atnest dual motion sense. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tuoda • Viedä\"}",
+    "owner_note": "FI bringen native: ET Tooma/Viima→Tuoda•Viedä for atnest bring/carry. DE untouched."
   },
   "g2/a1/fi|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
     "owner_status": "DECIDED",
-    "owner_decision": "NELABOT",
-    "owner_new": "",
-    "owner_note": "FI bringen study.translation mirrors native; Tooma • Viima consistent with bringen card gloss. DE untouched."
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"Tuoda • Viedä\"}",
+    "owner_note": "FI bringen study.translation mirrors native; Tuoda•Viedä consistent. DE untouched."
   }
 }
