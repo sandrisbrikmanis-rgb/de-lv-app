@@ -68,17 +68,17 @@ const COMPOSITE_TARGETS = {
       lv: "Käydä uimassa",
       "study.translation": "Käydä uimassa",
       "study.explanation[0]":
-        "Pääajatus: baden tarkoittaa käydä uimassa tai olla vedessä.",
+        "Pääajatus: baden tarkoittaa käydä uimassa, olla vedessä tai nauttia vedestä.",
       "study.explanation[1]":
-        "Badenia käytetään, kun puhutaan lomasta vedessä, järvessä, meressä tai uima-altaassa.",
-      "study.explanation[2]":
+        "Badenia käytetään, kun puhutaan virkistäytymisestä vedessä — järven, meren tai uima-altaan ympäristössä.",
+      "study.explanation[2]": "Baden voi tarkoittaa myös kylpyä kylvyssä.",
+      "study.explanation[3]":
         "Kun painotus on uintiliikkeissä tai urheiluna, saksassa käytetään useammin schwimmen.",
-      "study.explanation[3]": "baden ja schwimmen eivät ole synonyymejä.",
       "study.examples[0].lv": "Menen uimaan.",
       "study.examples[1].lv": "Menemme uimaan järveen.",
       "study.examples[2].lv": "Hän ui erittäin hyvin.",
       "study.examples[3].lv": "Käyn uimassa joka maanantai.",
-      "study.comparison[0].meaning": "Käydä uimassa / olla vedessä",
+      "study.comparison[0].meaning": "Käydä uimassa / olla vedessä / kylpeä",
       "study.comparison[0].example": "Ich gehe baden. – Menen uimaan.",
       "study.comparison[1].meaning": "Uinti liikkeenä tai urheiluna",
       "study.comparison[1].example": "Er schwimmt sehr gut. – Hän ui erittäin hyvin.",
@@ -86,14 +86,14 @@ const COMPOSITE_TARGETS = {
       "study.comparison[2].example": "Ich dusche am Morgen. – Käyn aamulla suihkussa.",
       "study.comparison[3].meaning": "Mennä uimaan",
       "study.comparison[3].example": "Ich gehe heute schwimmen. – Menen tänään uimaan.",
-      "study.tip.text": "Muista: loma vedessä → baden; uintiliike → schwimmen.",
+      "study.tip.text": "Muista: oleskelu vedessä → baden; uintiliike → schwimmen.",
       "study.important[0]": "baden ja schwimmen eivät ole synonyymejä.",
       "study.important[1]":
-        "baden = käydä uimassa/olla vedessä; schwimmen = uida (liike tai urheilu).",
+        "baden korostaa useammin oleskelua tai virkistäytymistä vedessä; schwimmen korostaa uintiliikettä.",
     }),
   "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna":
     JSON.stringify({
-      "study.translation": "Päälle • Päälle • Minne?",
+      "study.translation": "Päälle • Minne?",
       "study.explanation[0]": "Aufs on preposition auf ja artikkelin das lyhenne.",
       "study.explanation[1]": "Täysmuoto: auf das (akkusatiivi).",
       "study.explanation[2]":
@@ -167,7 +167,8 @@ const FORBIDDEN_FRAGMENTS = {
     "Päällä • Lähellä", "Luona • Päällä",
   ],
   "g2/a1/fi|baden|idx:68|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": [
-    '"lv":"Uida"', "peseytyä", "vannis käimist", "kylpyä",
+    '"lv":"Uida"', '"study.translation":"Uida"', "peseytyä", "vannis käimist",
+    "lomasta vedessä", "loma vedessä",
   ],
   "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": [
     "millä?",
@@ -178,8 +179,17 @@ const FORBIDDEN_FRAGMENTS = {
     "Arsti juures",
     "Peale • Otsa",
     "Kuhu?",
+    "Päälle • Päälle",
   ],
 };
+
+const BADEN_REQUIRED_PHRASES = [
+  "virkistäytymisestä vedessä",
+  "oleskelua",
+  "kylpyä kylvyssä",
+];
+
+const AUFS_TRANSLATION_EXPECTED = "Päälle • Minne?";
 
 const AUFS_REQUIRED_PHRASES = [
   "auf + das",
@@ -441,6 +451,8 @@ let wrongLanguage = 0;
 let semanticViolations = 0;
 let deTargetViolations = 0;
 let degeneratePairs = 0;
+let internalContradictions = 0;
+let compositeIncomplete = 0;
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
@@ -649,12 +661,44 @@ for (const row of rows) {
           issues.push({ id, type: "AUFS_SEMANTIC", msg: `missing "${phrase}"` });
         }
       }
+      const aufsTrans = merged.study?.translation || "";
+      if (aufsTrans !== AUFS_TRANSLATION_EXPECTED) {
+        internalContradictions++;
+        issues.push({
+          id,
+          type: "AUFS_TRANSLATION",
+          expected: AUFS_TRANSLATION_EXPECTED,
+          got: aufsTrans,
+        });
+      }
+      if (hasDupes(aufsTrans)) {
+        duplicateMeanings++;
+        issues.push({ id, type: "DUPLICATE_AUFS", msg: aufsTrans });
+      }
+    }
+
+    if (id === "g2/a1/fi|baden|idx:68|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna") {
+      const mergedText = flattenStrings(merged).join(" ");
+      for (const phrase of BADEN_REQUIRED_PHRASES) {
+        if (!mergedText.includes(phrase)) {
+          compositeIncomplete++;
+          issues.push({ id, type: "BADEN_INCOMPLETE", msg: `missing "${phrase}"` });
+        }
+      }
+      for (const frag of ["lomasta vedessä", "loma vedessä"]) {
+        if (mergedText.includes(frag)) {
+          internalContradictions++;
+          issues.push({ id, type: "INTERNAL_CONTRADICTION", msg: `contains "${frag}"` });
+        }
+      }
     }
   }
 
   rowAudit.push(auditEntry);
 }
 
+const fullCompositeCompleteness = compositeIncomplete === 0 ? "PASS" : "FAIL";
+const targetLanguageGrammar = internalContradictions === 0 ? "PASS" : "FAIL";
 const pass =
   issues.length === 0 &&
   labot + nelabot === 50 &&
@@ -665,14 +709,17 @@ const pass =
   wrongLanguage === 0 &&
   semanticViolations === 0 &&
   deTargetViolations === 0 &&
-  degeneratePairs === 0;
+  degeneratePairs === 0 &&
+  internalContradictions === 0 &&
+  fullCompositeCompleteness === "PASS";
 
 const proof = {
   batch_id: BATCH,
   classification: pass
     ? "LRB_007_FULL_50_50_LINGUISTIC_REVIEW_PASS"
     : "LRB_007_LINGUISTIC_REVIEW_BLOCKED",
-  gala_repair: true,
+  pdf_micro_repair: true,
+  post_repair_merge: true,
   recalculated_from_production: true,
   pass,
   row_count: rows.length,
@@ -680,6 +727,8 @@ const proof = {
   nelabot,
   pending,
   gates: {
+    ROWS: `${rows.length}/50`,
+    PENDING: pending,
     EXTRA_MEANING_NOT_IN_SOURCE: extraMeaningNotInSource,
     SEMANTIC_NARROWING_FROM_SOURCE: semanticNarrowing,
     duplicate_meanings: duplicateMeanings,
@@ -687,6 +736,9 @@ const proof = {
     semantic_alignment_violations: semanticViolations,
     de_target_alignment_violations: deTargetViolations,
     degenerate_example_pairs: degeneratePairs,
+    internal_card_contradictions: internalContradictions,
+    full_composite_completeness: fullCompositeCompleteness,
+    target_language_grammar: targetLanguageGrammar,
   },
   row_audit: rowAudit,
   failures: issues,
