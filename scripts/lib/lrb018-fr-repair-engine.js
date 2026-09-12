@@ -625,7 +625,10 @@ function repairIns(out) {
       { word: { blue: ["ins"] }, meaning: { purple: ["où va-t-on"] } },
       { word: { green: ["im"] }, meaning: { purple: ["où"] } },
     ],
-    tip: [{ left: { blue: ["ins"], purple: ["Rappel"], green: ["im"] } }],
+    tip: [
+      { left: { blue: ["ins"], purple: ["Rappel"] } },
+      { left: { blue: ["ins"], green: ["im"] } },
+    ],
     important: [{ blue: ["ins"] }, { green: ["im"] }],
   };
 }
@@ -921,7 +924,10 @@ function repairZum(out) {
       { word: { blue: ["zum"] }, meaning: { purple: ["chez"] } },
       { word: { green: ["zur"] }, meaning: { purple: ["féminin"] } },
     ],
-    tip: [{ left: { blue: ["zum"], purple: ["Rappel"], green: ["zur"] } }],
+    tip: [
+      { left: { blue: ["zum"], purple: ["Rappel"] } },
+      { left: { green: ["zur"] } },
+    ],
     important: [{ blue: ["zum"] }, { blue: ["direction"] }, { green: ["zur"] }],
   };
 }
@@ -1377,7 +1383,10 @@ function repairLang(out) {
       { de: { green: ["lange"] }, lv: { purple: ["longtemps"] } },
       { de: { green: ["lang"] }, lv: { purple: ["journée"] } },
     ],
-    tip: [{ purple: ["long"], green: ["longtemps"] }],
+    tip: [
+      { purple: ["long"] },
+      { purple: ["long"], green: ["longtemps"] },
+    ],
     important: [{ blue: ["Lang"] }, { purple: ["taille", "temps"] }],
   };
 }
@@ -1492,7 +1501,10 @@ function repairNur(out) {
       { de: { orange: ["nur"] }, lv: { purple: ["que"] } },
     ],
     comparison: [{ word: { orange: ["nur"] }, meaning: { purple: ["seulement"] } }],
-    tip: [{ purple: ["quantité"], orange: ["nur"] }],
+    tip: [
+      { purple: ["quantité"] },
+      { orange: ["nur"] },
+    ],
     important: [{ orange: ["nur"] }, { purple: ["uniquement"] }],
   };
 }

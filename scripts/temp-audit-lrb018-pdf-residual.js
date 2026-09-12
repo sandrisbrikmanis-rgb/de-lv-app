@@ -157,12 +157,18 @@ function collectSectionText(study, sectionKey, index, field) {
   }
   if (sectionKey === "explanation") {
     const expl = study.explanation;
-    if (Array.isArray(expl)) return expl.join(" ");
+    if (Array.isArray(expl)) {
+      if (typeof index === "number") return String(expl[index] || "");
+      return expl.join(" ");
+    }
     return String(expl || "");
   }
   if (sectionKey === "tip") {
     const tip = study.tip;
-    if (Array.isArray(tip)) return tip.join(" ");
+    if (Array.isArray(tip)) {
+      if (typeof index === "number") return String(tip[index] || "");
+      return tip.join(" ");
+    }
     if (tip && typeof tip === "object") {
       return [tip.text, tip.example].filter(Boolean).join(" ");
     }
