@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Lehrerin|idx:365|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Naisopettaja",
+    "owner_note": "FI Lehrerin lv: ET Naisõpetaja → FI Naisopettaja for skolotāja female teacher. DE untouched."
+  },
+  "g2/a1/fi|leicht|idx:366|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Helppo",
+    "owner_note": "FI leicht lv: ET Kerge → FI Helppo for viegls easy/light. DE untouched."
+  },
+  "g2/a1/fi|leider|idx:367|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Valitettavasti",
+    "owner_note": "FI leider lv: ET Kahjuks → FI Valitettavasti for diemžēl unfortunately. DE untouched."
+  },
+  "g2/a1/fi|leise|idx:368|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Hiljainen\",\"study.translation\":\"Hiljainen\",\"study.explanation[0]\":\"Pääajatus: hiljainen tai pienellä äänenvoimakkuudella.\",\"study.explanation[1]\":\"leise tarkoittaa pääasiassa pientä äänenvoimakkuutta.\",\"study.explanation[2]\":\"Sitä käytetään usein äänestä, puheesta tai musiikista.\",\"study.explanation[3]\":\"leise kuvaa hiljaista ääntä tai matalaa äänenvoimakkuutta.\",\"study.examples[0].lv\":\"Ole hiljaa, ole hyvä.\",\"study.examples[1].lv\":\"Ole hiljaa, ole hyvä.\",\"study.examples[2].lv\":\"Musiikki on hiljaista.\",\"study.examples[3].lv\":\"Puhu hiljaa, ole hyvä.\",\"study.tip[0]\":\"leise = hiljainen\",\"study.tip[1]\":\"Käytä leise, kun konteksti vastaa tätä merkitystä.\",\"study.important[0]\":\"leise = hiljainen äänen puolesta.\",\"study.important[1]\":\"leise = äänenvoimakkuus.\",\"study.important[2]\":\"Hiljainen tai pienellä äänenvoimakkuudella.\"}",
+    "owner_note": "FI leise FULL repair: ET Vaikne + ET study body → FI Hiljainen with DE-aligned examples. DE untouched."
+  },
+  "g2/a1/fi|lernen|idx:4|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Oppia",
+    "owner_note": "FI lernen lv: ET Õppima → FI Oppia for mācīties to learn. DE untouched."
+  },
+  "g2/a1/fi|lesen|idx:369|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lukea",
+    "owner_note": "FI lesen lv: ET Lugema → FI Lukea for lasīt to read. DE untouched."
+  },
+  "g2/a1/fi|letzte|idx:370|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viimeinen",
+    "owner_note": "FI letzte lv: ET Viimane → FI Viimeinen for pēdējais last. DE untouched."
+  },
+  "g2/a1/fi|Leute|idx:371|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ihmiset",
+    "owner_note": "FI Leute lv: ET Inimesed → FI Ihmiset for ļaudis people. DE untouched."
+  },
+  "g2/a1/fi|Licht|idx:372|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Valo",
+    "owner_note": "FI Licht lv: ET Valgus → FI Valo for gaisma light. DE untouched."
+  },
+  "g2/a1/fi|lieb|idx:373|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI lieb lv: production Kallis already correct Finnish for mīļš dear/kind. DE untouched."
+  },
+  "g2/a1/fi|Liebe|idx:374|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Rakkaus",
+    "owner_note": "FI Liebe lv: ET Armastus → FI Rakkaus for mīlestība love. DE untouched."
+  },
+  "g2/a1/fi|lieben|idx:375|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Rakastaa",
+    "owner_note": "FI lieben lv: ET Armastama → FI Rakastaa for mīlēt to love. DE untouched."
+  },
+  "g2/a1/fi|Lied|idx:376|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Laulu",
+    "owner_note": "FI Lied lv: ET Laul → FI Laulu for dziesma song. DE untouched."
+  },
+  "g2/a1/fi|liegen|idx:377|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Olla • Maata\",\"study.translation\":\"Olla • Maata\",\"study.explanation[0]\":\"Pääajatus: liegen tarkoittaa olla paikallaan tai maata vaaka-asennossa.\",\"study.explanation[1]\":\"Ihmisestä puhuttaessa liegen tarkoittaa usein makaamista.\",\"study.explanation[2]\":\"Esineestä puhuttaessa liegen tarkoittaa, että se on jossain.\",\"study.explanation[3]\":\"Se eroaa legen-verbi, joka tarkoittaa asettaa jotain vaakaan.\",\"study.examples[0].lv\":\"Kirja on pöydällä.\",\"study.examples[1].lv\":\"Puhelimeni on autossa.\",\"study.examples[2].lv\":\"Hän makaa sängyssä.\",\"study.examples[3].lv\":\"Laitan kirjan pöydälle.\",\"study.important[0]\":\"liegen osoittaa asentoa tai sijaintia.\",\"study.important[1]\":\"legen osoittaa toimintaa: joku asettaa jotain.\"}",
+    "owner_note": "FI liegen FULL repair: ET Asuma/Lamama + ET study → FI Olla/Maata with DE-aligned legen contrast. DE untouched."
+  },
+  "g2/a1/fi|Limonade|idx:378|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Limonadi",
+    "owner_note": "FI Limonade lv: ET Limonaad → FI Limonadi for limonāde lemonade. DE untouched."
+  },
+  "g2/a1/fi|Lineal|idx:379|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Viivain",
+    "owner_note": "FI Lineal lv: ET Joonlaud → FI Viivain for lineāls ruler. DE untouched."
+  },
+  "g2/a1/fi|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vasemmalle • Vasen",
+    "owner_note": "FI links native: ET Vasakule/Vasak → FI Vasemmalle/Vasen for pa kreisi/kreisais left. DE untouched."
+  },
+  "g2/a1/fi|links|idx:380|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vasemmalle • Vasen",
+    "owner_note": "FI links lv: ET Vasakule/Vasak → FI Vasemmalle/Vasen for pa kreisi/kreisais left. DE untouched."
+  },
+  "g2/a1/fi|Liste|idx:381|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lista",
+    "owner_note": "FI Liste lv: ET Nimekiri → FI Lista for saraksts list. DE untouched."
+  },
+  "g2/a1/fi|Liter|idx:382|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Litra",
+    "owner_note": "FI Liter lv: ET Liiter → FI Litra for litrs liter. DE untouched."
+  },
+  "g2/a1/fi|Löffel|idx:383|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lusikka",
+    "owner_note": "FI Löffel lv: ET Lusikas → FI Lusikka for karote spoon. DE untouched."
+  },
+  "g2/a1/fi|Luft|idx:384|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ilma",
+    "owner_note": "FI Luft lv: ET Õhk → FI Ilma for gaiss air. DE untouched."
+  },
+  "g2/a1/fi|lustig|idx:385|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hauska",
+    "owner_note": "FI lustig lv: ET Lõbus → FI Hauska for jautrs funny. DE untouched."
+  },
+  "g2/a1/fi|machen|idx:386|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tehdä • Valmistaa\",\"study.translation\":\"Tehdä • Valmistaa\",\"study.explanation[0]\":\"Pääajatus: machen on hyvin yleinen sana, joka tarkoittaa tehdä tai valmistaa.\",\"study.explanation[1]\":\"Kun puhutaan toiminnasta yleisesti, käännetään se tehdä.\",\"study.explanation[2]\":\"Kun jotain luodaan tai valmistetaan, käännetään se tehdä tai valmistaa.\",\"study.explanation[3]\":\"Monissa fraaseissa machen käännetään luonnollisesti suomeksi, ei sanasta sanaan.\",\"study.examples[0].lv\":\"Mitä sinä teet?\",\"study.examples[1].lv\":\"Teen kotitehtäviä.\",\"study.examples[2].lv\":\"Teemme pitsaa.\",\"study.examples[3].lv\":\"Se on hauskaa.\",\"study.tip.text\":\"Muista: Was machst du? = Mitä sinä teet?\",\"study.important[0]\":\"machen on hyvin laaja sana, mutta suomeksi se täytyy usein kääntää luonnollisesti tilanteen mukaan.\",\"study.important[1]\":\"Das macht Spaß tarkoittaa \\\"se on hauskaa\\\", ei kirjaimellisesti \\\"se tekee iloa\\\".\"}",
+    "owner_note": "FI machen FULL repair: ET Tegema/Valmistama + ET study → FI Tehdä/Valmistaa with DE-aligned examples. DE untouched."
+  },
+  "g2/a1/fi|Mädchen|idx:387|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tyttö",
+    "owner_note": "FI Mädchen lv: ET Tüdruk → FI Tyttö for meitene girl. DE untouched."
+  },
+  "g2/a1/fi|Mahlzeit|idx:388|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ateria",
+    "owner_note": "FI Mahlzeit lv: ET Söögikord → FI Ateria for maltīte meal. DE untouched."
+  },
+  "g2/a1/fi|Mai|idx:389|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Toukokuu",
+    "owner_note": "FI Mai lv: ET Mai → FI Toukokuu for maijs May. DE untouched."
+  },
+  "g2/a1/fi|Mal|idx:390|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kerta\",\"study.translation\":\"Kerta\",\"study.explanation[0]\":\"Pääajatus: das Mal tarkoittaa kertaa tapahtumana tai sattumana.\",\"study.explanation[1]\":\"Sitä käytetään usein lukujen kanssa: ein Mal, zwei Mal, drei Mal.\",\"study.explanation[2]\":\"Järjestysluvun kanssa: das erste Mal, das zweite Mal.\",\"study.explanation[3]\":\"Älä sekoita puhekielistä partikkelia mal (Komm mal her!) — sillä on eri merkitys.\",\"study.examples[0].lv\":\"Ensimmäistä kertaa oli vaikeaa.\",\"study.examples[1].lv\":\"Olen jo käynyt Berliinissä kahdesti.\",\"study.examples[2].lv\":\"Kerran riittää.\",\"study.examples[3].lv\":\"Vielä kerran, kiitos!\",\"study.tip.text\":\"Muista: das Mal = kerta (substantiivi); mal ilman artikkelia = puhekielinen partikkeli.\",\"study.important[0]\":\"das Mal / die Male — substantiivi artikkelilla.\",\"study.important[1]\":\"ein Mal, zwei Mal — kertojen lukumäärä.\",\"study.important[2]\":\"mal ilman artikkelia (Komm mal her!) ei ole sama kuin das Mal.\"}",
+    "owner_note": "FI Mal FULL repair: ET Kord + ET study → FI Kerta with DE-aligned time/occurrence examples. DE untouched."
+  },
+  "g2/a1/fi|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maalata • Värittää",
+    "owner_note": "FI malen native: ET Maalima/Värvima → FI Maalata/Värittää for gleznot/krāsot. DE untouched."
+  },
+  "g2/a1/fi|malen|idx:391|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maalata • Värittää",
+    "owner_note": "FI malen lv: ET Maalima/Värvima → FI Maalata/Värittää for gleznot/krāsot paint/color. DE untouched."
+  },
+  "g2/a1/fi|manchmal|idx:392|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Joskus",
+    "owner_note": "FI manchmal lv: ET Vahel → FI Joskus for dažreiz sometimes. DE untouched."
+  },
+  "g2/a1/fi|Mandarine|idx:393|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mandariini",
+    "owner_note": "FI Mandarine lv: ET Mandariin → FI Mandariini for mandarīns mandarin. DE untouched."
+  },
+  "g2/a1/fi|Mann|idx:394|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Mies • Aviomies\",\"study.translation\":\"Mies • Aviomies\",\"study.explanation[0]\":\"Pääajatus: der Mann voi tarkoittaa miestä (sukupuoli) tai aviomiestä (puoliso).\",\"study.explanation[1]\":\"Kun puhutaan sukupuolesta tai henkilöstä, der Mann = mies.\",\"study.explanation[2]\":\"Kun puhutaan puolisosta, der Mann = aviomies (mein Mann = aviomieheni).\",\"study.explanation[3]\":\"Omistuspronomini (mein/dein/ihr Mann) tarkoittaa lähes aina aviomiestä — puolisoa.\",\"study.explanation[4]\":\"Monikossa: die Männer.\",\"study.explanation[5]\":\"Naispuolisella die Frau on sama kaksiselitteinen merkitys: nainen JA vaimo.\",\"study.tip[0]\":\"Omistuspronominilla (mein/dein/ihr Mann) tarkoitetaan lähes aina aviomiestä.\",\"study.tip[1]\":\"Ilman omistuspronominia (der Mann, ein Mann) tarkoitetaan yleensä miestä.\",\"study.important[0]\":\"der Mann = mies TAI aviomies — riippuen kontekstista.\",\"study.important[1]\":\"mein Mann = aviomieheni (ei \\\"minun mies\\\").\",\"study.important[2]\":\"Monikossa: die Männer.\"}",
+    "owner_note": "FI Mann FULL repair: ET Mees/Abikaasa + ET explanation → FI Mies/Aviomies dual sense. DE untouched."
+  },
+  "g2/a1/fi|Marmelade|idx:395|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hillo",
+    "owner_note": "FI Marmelade lv: ET Moos → FI Hillo for ievārījums jam. DE untouched."
+  },
+  "g2/a1/fi|März|idx:396|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maaliskuu",
+    "owner_note": "FI März lv: ET Märts → FI Maaliskuu for marts March. DE untouched."
+  },
+  "g2/a1/fi|Maus|idx:397|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hiiri",
+    "owner_note": "FI Maus lv: ET Hiir → FI Hiiri for pele mouse. DE untouched."
+  },
+  "g2/a1/fi|Meer|idx:398|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Meer lv: production Meri already correct Finnish for jūra sea. DE untouched."
+  },
+  "g2/a1/fi|Mehl|idx:399|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jauho",
+    "owner_note": "FI Mehl lv: ET Jahu → FI Jauho for milti flour. DE untouched."
+  },
+  "g2/a1/fi|mehr|idx:400|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Enemmän",
+    "owner_note": "FI mehr lv: ET Rohkem → FI Enemmän for vairāk more. DE untouched."
+  },
+  "g2/a1/fi|mein|idx:401|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Minun",
+    "owner_note": "FI mein lv: ET Minu → FI Minun for mans my. DE untouched."
+  },
+  "g2/a1/fi|Mensch|idx:402|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ihminen",
+    "owner_note": "FI Mensch lv: ET Inimene → FI Ihminen for cilvēks person/human. DE untouched."
+  },
+  "g2/a1/fi|Messer|idx:403|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Veitsi",
+    "owner_note": "FI Messer lv: ET Nuga → FI Veitsi for nazis knife. DE untouched."
+  },
+  "g2/a1/fi|Meter|idx:404|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Metri",
+    "owner_note": "FI Meter lv: ET Meeter → FI Metri for metrs meter. DE untouched."
+  },
+  "g2/a1/fi|Milch|idx:405|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maito",
+    "owner_note": "FI Milch lv: ET Piim → FI Maito for piens milk. DE untouched."
+  },
+  "g2/a1/fi|Million|idx:406|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Miljoona",
+    "owner_note": "FI Million lv: ET Miljon → FI Miljoona for miljons million. DE untouched."
+  },
+  "g2/a1/fi|Minute|idx:407|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Minuutti",
+    "owner_note": "FI Minute lv: ET Minut → FI Minuutti for minūte minute. DE untouched."
+  },
+  "g2/a1/fi|mit|idx:408|lv; study.explanation; study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kanssa (-lla/-llä)\",\"study.translation\":\"Kanssa (-lla/-llä)\",\"study.explanation[0]\":\"Pääajatus: mit tarkoittaa yleensä kanssa tai adessiivilla (-lla/-llä).\",\"study.explanation[1]\":\"Mit käytetään, kun ihminen on jonkun kanssa tai tekee jotain jollakin välineellä.\",\"study.explanation[2]\":\"Kulkuneuvosta puhuttaessa mit tarkoittaa usein ajamista bussilla, junalla tai autolla.\",\"study.explanation[3]\":\"A1-tasolla hyvin yleisiä fraaseja ovat mit dem Bus, mit dem Auto ja mit dir.\",\"study.important[0]\":\"mit vaatii datiivin: mit dem Bus, mit der Mutter, mit dir.\",\"study.important[1]\":\"Kommst du mit? tarkoittaa \\\"Tuletko mukaan?\\\"\"}",
+    "owner_note": "FI mit study repair: ET -ga suffix + ET explanation → FI Kanssa (-lla/-llä) preposition sense. DE untouched."
+  },
+  "g2/a1/fi|mitnehmen|idx:409|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ottaa mukaan",
+    "owner_note": "FI mitnehmen lv: ET Kaasa võtma → FI Ottaa mukaan for ņemt līdzi take along. DE untouched."
+  },
+  "g2/a1/fi|Mittag|idx:410|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Keskipäivä",
+    "owner_note": "FI Mittag lv: ET Keskpäev → FI Keskipäivä for pusdiena noon. DE untouched."
+  },
+  "g2/a1/fi|Mittagessen|idx:411|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lounas",
+    "owner_note": "FI Mittagessen lv: ET Lõunasöök → FI Lounas for pusdienas lunch. DE untouched."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "batch_id": "LRB-012",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T10:50:00.000Z",
+  "linguisticVerdict": "LRB_012_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "nelabot_cards": ["lieb", "Meer"],
+  "composite_labot_cards": [
+    "leise",
+    "liegen",
+    "machen",
+    "Mal",
+    "Mann",
+    "mit"
+  ],
+  "note": "OWNER authorization APPROVED after GPT-5.6 Luna individual FI review (48 LABOT / 2 NELABOT). Anti-bulk + residual audit PASS. DE/production/Crowdin/ingest/apply unchanged."
+}
