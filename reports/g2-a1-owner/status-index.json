@@ -347,7 +347,7 @@
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "gpt-5.6-luna",
-        "headSha": "c27fc199",
+        "headSha": "ece2218f",
         "languages": { "fi": 5, "fr": 45 },
         "uniqueFrCards": 28,
         "compositeRepairs": 28,
