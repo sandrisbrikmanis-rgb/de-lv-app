@@ -83,7 +83,154 @@ const EN_LEAK =
   /\b(I help you|i see you|I'm telling you|you \(subject|you \(where|your \(possessive|Latvian \"es\"|German \"I\" = it|« at »)\b/i;
 
 const FORBIDDEN_FR =
-  /Ressentez|visite de courtoisie|J'étais une fois|objet d'une phrase|letton|Latvian|J'emmène le colis|jusqu'à ce que \(le moment|Entre, s'il te plaît\. – Entre|À • Au • Près|vidus dzimte|L'ordre est|Atceries|kurp|Qui • Laquelle • Lequel|Seulement • Seulement|Ou • Ou|Dans • Dans • Où|Le • Cela|Un • Un|le\/la\/les \(neutre\)/i;
+  /Ressentez|visite de courtoisie|J'étais une fois|objet d'une phrase|letton|Latvian|J'emmène le colis|jusqu'à ce que \(le moment|À • Au • Près|vidus dzimte|L'ordre est|Atceries|kurp|Qui • Laquelle • Lequel|Seulement • Seulement|Ou • Ou|Dans • Dans • Où|Le • Cela|Un • Un|le\/la\/les \(neutre\)|Vers où \? • Où \?/i;
+
+const ACCENT_COLORS = ["blue", "green", "purple", "yellow", "orange", "red"];
+
+function segments(val) {
+  return String(val || "")
+    .split(/\s*•\s*|;(?=\s)/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+function maxSourceSegments(lvSource) {
+  const bulletSegs = String(lvSource || "")
+    .split(/\s*•\s*/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (bulletSegs.length > 1) return bulletSegs.length;
+  const semiSegs = String(lvSource || "")
+    .split(/;(?=\s)/)
+    .map((s) => s.trim())
+    .filter(Boolean);
+  return semiSegs.length || 1;
+}
+
+function hasDupes(val) {
+  const seen = new Set();
+  for (const s of segments(val)) {
+    const k = s.toLowerCase();
+    if (seen.has(k)) return true;
+    seen.add(k);
+  }
+  return false;
+}
+
+function isDegeneratePair(text) {
+  if (!text || !/ – /.test(text)) return false;
+  const parts = text.split(/\s+–\s+/);
+  if (parts.length !== 2) return false;
+  return parts[0].trim().toLowerCase() === parts[1].trim().toLowerCase();
+}
+
+function isScrambledPair(text) {
+  if (!text) return false;
+  const sep = text.includes(" – ") ? " – " : text.includes(" = ") ? " = " : null;
+  if (!sep) return false;
+  const dePart = text.split(sep)[0] || "";
+  const sentences = dePart.split(/\.\s+/).filter((s) => s.trim().length > 3);
+  return sentences.length > 1;
+}
+
+function scalarValue(ownerNew) {
+  try {
+    const o = JSON.parse(ownerNew);
+    return o.lv || ownerNew;
+  } catch {
+    return ownerNew;
+  }
+}
+
+function collectSectionText(study, sectionKey, index, field) {
+  if (sectionKey === "examples" && Array.isArray(study.examples) && study.examples[index]) {
+    if (field === "de") return study.examples[index].de || "";
+    if (field === "lv") return study.examples[index].lv || "";
+    return `${study.examples[index].de || ""} ${study.examples[index].lv || ""}`;
+  }
+  if (sectionKey === "comparison" && Array.isArray(study.comparison) && study.comparison[index]) {
+    const row = study.comparison[index];
+    if (field === "word") return row.word || "";
+    if (field === "meaning") return row.meaning || "";
+    if (field === "example") return row.example || "";
+    return `${row.word || ""} ${row.meaning || ""} ${row.example || ""}`;
+  }
+  if (sectionKey === "explanation") {
+    const expl = study.explanation;
+    if (Array.isArray(expl)) return expl.join(" ");
+    return String(expl || "");
+  }
+  if (sectionKey === "tip") {
+    const tip = study.tip;
+    if (Array.isArray(tip)) return tip.join(" ");
+    if (tip && typeof tip === "object") {
+      return [tip.text, tip.example].filter(Boolean).join(" ");
+    }
+    return String(tip || "");
+  }
+  if (sectionKey === "important" && Array.isArray(study.important)) {
+    return typeof index === "number" ? study.important[index] || "" : study.important.join(" ");
+  }
+  return "";
+}
+
+function validateSectionAccents(study, sectionAccents, cardKey) {
+  const failures = [];
+  if (!sectionAccents || typeof sectionAccents !== "object") return failures;
+  const checkMap = (sectionKey, index, field, accentMap, pathPrefix) => {
+    if (!accentMap || typeof accentMap !== "object") return;
+    for (const color of ACCENT_COLORS) {
+      if (!Array.isArray(accentMap[color])) continue;
+      for (const term of accentMap[color]) {
+        const raw = String(term || "").trim();
+        if (!raw) continue;
+        const target = collectSectionText(study, sectionKey, index, field);
+        if (!target.toLowerCase().includes(raw.toLowerCase())) {
+          failures.push({
+            type: "SECTION_ACCENT_MISMATCH",
+            card: cardKey,
+            path: pathPrefix,
+            term: raw,
+            target: target.slice(0, 100),
+          });
+        }
+      }
+    }
+  };
+  for (const [sectionKey, rules] of Object.entries(sectionAccents)) {
+    if (Array.isArray(rules)) {
+      rules.forEach((entry, index) => {
+        if (!entry || typeof entry !== "object") return;
+        const hasColors = ACCENT_COLORS.some((c) => Array.isArray(entry[c]));
+        if (hasColors) {
+          checkMap(sectionKey, index, null, entry, `sectionAccents.${sectionKey}[${index}]`);
+          return;
+        }
+        for (const field of Object.keys(entry)) {
+          if (field === "left") {
+            checkMap(sectionKey, index, null, entry.left, `sectionAccents.${sectionKey}[${index}].left`);
+            continue;
+          }
+          checkMap(sectionKey, index, field, entry[field], `sectionAccents.${sectionKey}[${index}].${field}`);
+        }
+      });
+      continue;
+    }
+    if (rules && typeof rules === "object") {
+      const hasColors = ACCENT_COLORS.some((c) => Array.isArray(rules[c]));
+      if (hasColors) {
+        checkMap(sectionKey, null, null, rules, `sectionAccents.${sectionKey}`);
+      } else if (rules.left) {
+        checkMap(sectionKey, null, null, rules.left, `sectionAccents.${sectionKey}.left`);
+      } else {
+        for (const [field, map] of Object.entries(rules)) {
+          checkMap(sectionKey, null, field, map, `sectionAccents.${sectionKey}.${field}`);
+        }
+      }
+    }
+  }
+  return failures;
+}
 
 const SECTION_ACCENTS_FULL_COVERAGE = {
   bitte: 6,
@@ -100,14 +247,18 @@ const STALE_HIGHLIGHT =
 
 const DE_EXAMPLE_ALIGN = {
   bis: {
+    "Ich warte bis zu deiner Ankunft.": "J'attends jusqu'à ton arrivée.",
     "Ich bleibe bis morgen.": "Je reste jusqu'à demain.",
     "bis zum Bahnhof": "jusqu'à la gare",
     "Bis jetzt habe ich nichts verstanden.":
       "Jusqu'à présent, je n'ai rien compris.",
   },
+  ins: {
+    "Komm ins Haus!": "Entre dans la maison !",
+  },
   bitte: {
     "Eine Tasse Kaffee, bitte.": "Une tasse de café, s'il vous plaît.",
-    "Komm bitte herein.": "Entre, s'il vous plaît.",
+    "Komm bitte herein.": "Entre, s'il te plaît.",
     "Bitte schön!": "De rien !",
     "Kann ich bitte fragen?": "Puis-je poser une question, s'il vous plaît ?",
     "Ich habe eine Bitte.": "J'ai une demande.",
@@ -152,6 +303,10 @@ const DE_EXAMPLE_ALIGN = {
   },
   wer: {
     "Wer kommt heute?": "Qui vient aujourd'hui ?",
+    "Wer ist deine Lehrerin?": "Qui est ta professeure ?",
+  },
+  das: {
+    "Dies ist mein Auto.": "Ceci est ma voiture.",
   },
 };
 
@@ -302,8 +457,19 @@ function validateMergedCard(cardKey, merged) {
   if (FORBIDDEN_FR.test(allText)) {
     failures.push({ type: "FORBIDDEN_FR", sample: allText.match(FORBIDDEN_FR)?.[0] });
   }
-  if (STALE_HIGHLIGHT.test(flattenStrings(merged.study?.sectionAccents || {}).join(" "))) {
-    failures.push({ type: "STALE_SECTION_ACCENTS" });
+  const accentText = flattenStrings(merged.study?.sectionAccents || {}).join(" ");
+  if (STALE_HIGHLIGHT.test(accentText)) {
+    failures.push({ type: "STALE_HIGHLIGHT" });
+  }
+  failures.push(...validateSectionAccents(merged.study || {}, merged.study?.sectionAccents, cardDeKey(cardKey)));
+  for (const c of merged.study?.comparison || []) {
+    const ex = c.example || "";
+    if (ex && isDegeneratePair(ex)) {
+      failures.push({ type: "DEGENERATE_PAIR", example: ex });
+    }
+    if (ex && isScrambledPair(ex)) {
+      failures.push({ type: "SCRAMBLED_PAIR", example: ex });
+    }
   }
   failures.push(...validateDeFrExamples(cardKey, merged));
   if (cardDeKey(cardKey) === "bis") {
@@ -412,8 +578,16 @@ function validateMergedCard(cardKey, merged) {
   }
   if (cardDeKey(cardKey) === "ins") {
     const tipText = flattenStrings(merged.study?.tip || {}).join(" ");
-    if (!/vers où/i.test(tipText) || !/Où \? → im/i.test(tipText)) {
+    if (!/où va-t-on/i.test(tipText) || !/Où \? → im/i.test(tipText)) {
       failures.push({ type: "INS_TIP_DIRECTION" });
+    }
+    if (merged.lv === "Vers où ? • Où ?" || merged.study?.translation === "Vers où ? • Où ?") {
+      failures.push({ type: "INS_OLD_TRANSLATION", got: merged.lv });
+    }
+  }
+  if (cardDeKey(cardKey) === "euch") {
+    if (merged.study?.translation === "Vous • Vous") {
+      failures.push({ type: "EUCH_DUPLICATE_TRANSLATION" });
     }
   }
   if (cardDeKey(cardKey) === "oder") {
@@ -447,6 +621,13 @@ let semanticViolations = 0;
 let deTargetViolations = 0;
 let compositeIncomplete = 0;
 let cardMergeFailures = 0;
+let extraMeaningNotInSource = 0;
+let semanticNarrowing = 0;
+let duplicateMeanings = 0;
+let degeneratePairs = 0;
+let internalContradictions = 0;
+let staleHighlights = 0;
+let sectionAccentMismatches = 0;
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
@@ -490,6 +671,30 @@ for (const row of rows) {
     if (ET_LEAK.test(allText)) {
       wrongLanguage++;
       issues.push({ id, type: "WRONG_LANG_ET", msg: allText.slice(0, 80) });
+    }
+    const lvSource = String(row.lv_source || "").trim();
+    const maxSegs = maxSourceSegments(lvSource);
+    const checkScalar = scalarValue(d.owner_new);
+    const segs = segments(checkScalar);
+    if (hasDupes(checkScalar)) {
+      duplicateMeanings++;
+      issues.push({ id, type: "DUPLICATE", msg: checkScalar });
+    }
+    if (segs.length > maxSegs) {
+      extraMeaningNotInSource += segs.length - maxSegs;
+      issues.push({
+        id,
+        type: "EXTRA_MEANING_NOT_IN_SOURCE",
+        msg: `${segs.length} > ${maxSegs}: ${checkScalar}`,
+      });
+    }
+    if (segs.length < maxSegs) {
+      semanticNarrowing++;
+      issues.push({
+        id,
+        type: "SEMANTIC_NARROWING_FROM_SOURCE",
+        msg: `${segs.length} < ${maxSegs}: ${checkScalar}`,
+      });
     }
   }
 }
@@ -538,6 +743,9 @@ for (const cardKey of UNIQUE_FR_CARDS) {
     for (const f of failures) {
       if (f.type === "LV_LEAK" || f.type === "EN_LEAK") wrongLanguage++;
       if (f.field === "comparison" || f.de) deTargetViolations++;
+      if (f.type === "STALE_HIGHLIGHT") staleHighlights++;
+      if (f.type === "SECTION_ACCENT_MISMATCH") sectionAccentMismatches++;
+      if (f.type === "DEGENERATE_PAIR" || f.type === "SCRAMBLED_PAIR") degeneratePairs++;
     }
   }
   validatedCards.add(cardKey);
@@ -552,6 +760,13 @@ const pass =
   semanticViolations === 0 &&
   deTargetViolations === 0 &&
   cardMergeFailures === 0 &&
+  extraMeaningNotInSource === 0 &&
+  semanticNarrowing === 0 &&
+  duplicateMeanings === 0 &&
+  degeneratePairs === 0 &&
+  internalContradictions === 0 &&
+  staleHighlights === 0 &&
+  sectionAccentMismatches === 0 &&
   validatedCards.size === 28;
 
 const proof = {
@@ -581,6 +796,13 @@ const proof = {
     semantic_alignment_violations: semanticViolations,
     de_target_alignment_violations: deTargetViolations,
     merged_card_failures: cardMergeFailures,
+    EXTRA_MEANING_NOT_IN_SOURCE: extraMeaningNotInSource,
+    SEMANTIC_NARROWING_FROM_SOURCE: semanticNarrowing,
+    duplicate_meanings: duplicateMeanings,
+    degenerate_example_pairs: degeneratePairs,
+    internal_card_contradictions: internalContradictions,
+    stale_highlights: staleHighlights,
+    section_accent_mismatches: sectionAccentMismatches,
     full_composite_completeness: cardMergeFailures === 0 ? "PASS" : "FAIL",
     anti_bulk: "PASS",
   },

@@ -63,7 +63,7 @@ function repairAn(out) {
   out.lv = "Sur • À • Au bord de";
   out.study.translation = "Sur • À • Au bord de";
   out.study.explanation =
-    "Utilisé lorsque quelque chose se trouve près d'un mur, d'une fenêtre, d'une porte, d'une rivière, d'un bord de mer ou de tout autre bord/surface.";
+    "Utilisé lorsque quelque chose se trouve contre un mur, à une fenêtre, à une porte, au bord d'une rivière, au bord de la mer ou au contact d'une limite ou d'une surface.";
   out.study.examples = [
     { de: "an der Wand", lv: "Sur le mur" },
     { de: "am Fenster", lv: "À la fenêtre" },
@@ -115,7 +115,7 @@ function repairAppetit(out) {
     "Der Appetit signifie essentiellement : l'envie de manger.",
     "Décrit souvent : un sentiment (singulier seulement).",
     "Der Appetit n'est qu'au singulier : appétit.",
-    "Au niveau A1, ils apparaissent souvent ensemble, par exemple : Guten Appetit !",
+    "Au niveau A1, l'expression la plus courante est : Guten Appetit !",
   ];
   out.study.examples = [
     { de: "Guten Appetit!", lv: "Bon appétit !" },
@@ -151,7 +151,7 @@ function repairAppetit(out) {
       { de: { blue: ["keinen Appetit"] }, lv: { purple: ["pas d'appétit"] } },
     ],
     tip: [{ purple: ["Appétit"] }],
-    important: [{ blue: ["der Appetit"], purple: ["Ich habe keinen Appetit"] }],
+    important: [{ blue: ["der Appetit"] }, { purple: ["Appetit"] }, { blue: ["Ich habe Appetit"] }],
   };
 }
 
@@ -165,7 +165,7 @@ function repairBitte(out) {
   ];
   out.study.examples = [
     { de: "Eine Tasse Kaffee, bitte.", lv: "Une tasse de café, s'il vous plaît." },
-    { de: "Komm bitte herein.", lv: "Entre, s'il vous plaît." },
+    { de: "Komm bitte herein.", lv: "Entre, s'il te plaît." },
     { de: "Bitte schön!", lv: "De rien !" },
     {
       de: "Kann ich bitte fragen?",
@@ -178,7 +178,7 @@ function repairBitte(out) {
     {
       word: "bitte",
       meaning: "S'il te plaît",
-      example: "Komm bitte herein. – Entre, s'il vous plaît.",
+      example: "Komm bitte herein. – Entre, s'il te plaît.",
     },
     {
       word: "die Bitte",
@@ -198,7 +198,7 @@ function repairBitte(out) {
   out.study.sectionAccents = {
     examples: [
       { de: { blue: ["bitte"] }, lv: { purple: ["plaît"] } },
-      { de: { blue: ["bitte"] }, lv: { purple: ["plaît"] } },
+      { de: { blue: ["bitte"] }, lv: { purple: ["te"] } },
       { de: { blue: ["Bitte"] }, lv: { purple: ["rien"] } },
       { de: { blue: ["bitte"] }, lv: { purple: ["question"] } },
       { de: { blue: ["Bitte"] }, lv: { purple: ["demande"] } },
@@ -209,7 +209,7 @@ function repairBitte(out) {
       { word: { green: ["Bitte"] }, meaning: { purple: ["demande"] } },
     ],
     tip: [{ blue: ["bitte"], purple: ["politesse"] }],
-    important: [{ blue: ["bitte"], green: ["Bitte"] }],
+    important: [{ blue: ["bitte"] }, { green: ["Bitte"] }],
   };
 }
 
@@ -218,7 +218,7 @@ function repairBis(out) {
   out.study.translation = "Jusqu'à";
   out.study.explanation = "Indique une limite, un point dans le temps ou une condition.";
   out.study.examples = [
-    { de: "Ich warte bis zu deiner Ankunft.", lv: "J'attends ton arrivée." },
+    { de: "Ich warte bis zu deiner Ankunft.", lv: "J'attends jusqu'à ton arrivée." },
     { de: "Bleib hier, bis ich zurückkomme.", lv: "Reste ici jusqu'à mon retour." },
     { de: "Ich lerne Deutsch bis zum Abend.", lv: "J'étudie l'allemand jusqu'au soir." },
     {
@@ -251,7 +251,7 @@ function repairBis(out) {
   ];
   out.study.sectionAccents = {
     examples: [
-      { de: { purple: ["bis"] }, lv: { purple: ["attends"] } },
+      { de: { purple: ["bis"] }, lv: { purple: ["arrivée"] } },
       { de: { purple: ["bis"] }, lv: { purple: ["jusqu'à"] } },
       { de: { purple: ["bis"] }, lv: { purple: ["soir"] } },
       { de: { blue: ["Bis jetzt"] }, lv: { purple: ["présent"] } },
@@ -268,7 +268,9 @@ function repairBis(out) {
 
 function repairEuch(out) {
   out.lv = "Vous";
-  out.study.translation = "Vous • Vous";
+  out.study.translation = "Vous";
+  out.study.explanation =
+    "« euch » est un pronom de la 2e personne du pluriel. Il s'emploie comme complément direct (« qui ? ») ou indirect (« à qui ? ») et se traduit généralement par « vous ».";
   out.study.examples = [
     { de: "Ich sehe euch.", lv: "Je vous vois." },
     { de: "Ich helfe euch.", lv: "Je vous aide." },
@@ -308,6 +310,7 @@ function repairEuch(out) {
     "ihr = vous (sujet), euch = vous (complément), euer = votre.",
   ];
   out.study.sectionAccents = {
+    explanation: { blue: ["euch"], purple: ["vous"] },
     examples: [
       { de: { blue: ["euch"] }, lv: { purple: ["vois"] } },
       { de: { blue: ["euch"] }, lv: { purple: ["aide"] } },
@@ -316,11 +319,11 @@ function repairEuch(out) {
       { de: { blue: ["euch"] }, lv: { purple: ["souvenez"] } },
     ],
     comparison: [
-      { word: { green: ["euch"] }, meaning: { purple: ["vous"] } },
       { word: { green: ["ihr"] }, meaning: { purple: ["Vous"] } },
+      { word: { green: ["euch"] }, meaning: { purple: ["vous"] } },
     ],
     tip: { left: { blue: ["euch"], purple: ["vous"] } },
-    important: [{ blue: ["euch"], green: ["ihr"] }],
+    important: [{ blue: ["euch"] }, { green: ["ihr"] }],
   };
 }
 
@@ -328,7 +331,7 @@ function repairDas(out) {
   out.lv = "Article défini neutre • Cela";
   out.study.translation = "Article défini neutre • Cela";
   out.study.explanation =
-    "Utilisé avec les noms neutres. Dans certaines phrases, das peut aussi être un pronom ou un pronom relatif.";
+    "En allemand, das est l'article défini des noms neutres. Il peut aussi être un pronom ou un pronom relatif.";
   out.study.examples = [
     { de: "Das ist mein Auto.", lv: "C'est ma voiture." },
     { de: "Das ist gut.", lv: "C'est bien." },
@@ -346,7 +349,7 @@ function repairDas(out) {
     {
       word: "dies",
       meaning: "ceci",
-      example: "Dies ist mein Auto. – C'est ma voiture.",
+      example: "Dies ist mein Auto. – Ceci est ma voiture.",
     },
     {
       word: "welches",
@@ -371,7 +374,7 @@ function repairDas(out) {
     ],
     comparison: [
       { word: { green: ["das"] }, example: { blue: ["Das"] } },
-      { word: { green: ["dies"] }, example: { green: ["Dies"] } },
+      { word: { green: ["dies"] }, example: { green: ["Dies"], purple: ["Ceci"] } },
       {
         word: { green: ["welches"] },
         example: { blue: ["welches"], yellow: ["lese"] },
@@ -380,7 +383,7 @@ function repairDas(out) {
     tip: {
       left: { blue: ["das"], purple: ["Rappel"], red: ["dass"], green: ["neutre"] },
     },
-    important: [{ blue: ["das"], purple: ["dass"] }],
+    important: [{ blue: ["das"] }, { purple: ["dass"] }],
   };
 }
 
@@ -434,7 +437,7 @@ function repairDass(out) {
       { word: { green: ["weil"] }, meaning: { purple: ["parce"] } },
     ],
     tip: { left: { blue: ["dass"], purple: ["Rappel"] } },
-    important: [{ blue: ["dass"], red: ["das"] }],
+    important: [{ blue: ["dass"] }, { red: ["das"] }],
   };
 }
 
@@ -547,12 +550,12 @@ function repairBesuch(out) {
 }
 
 function repairIns(out) {
-  out.lv = "Vers où ? • Où ?";
-  out.study.translation = "Vers où ? • Où ?";
+  out.lv = "Dans • Vers l'intérieur";
+  out.study.translation = "Dans • Vers l'intérieur";
   out.study.explanation = [
     "ins est la contraction de in + das.",
-    "Forme complète : in das (vers où ?).",
-    "Utilisé pour le mouvement vers l'intérieur — réponse à « vers où ? ».",
+    "Forme complète : in das (où va-t-on ?).",
+    "S'emploie pour un mouvement vers l'intérieur et répond à la question « où va-t-on ? ».",
     "Souvent avec : gehen, fahren, kommen, legen, stecken.",
     "En pratique, on utilise presque toujours ins, pas in das.",
   ];
@@ -560,7 +563,7 @@ function repairIns(out) {
     { de: "Ich gehe ins Kino.", lv: "Je vais au cinéma." },
     { de: "Sie geht ins Bett.", lv: "Elle va se coucher." },
     { de: "Wir fahren ins Ausland.", lv: "Nous partons à l'étranger." },
-    { de: "Komm ins Haus!", lv: "Viens à la maison !" },
+    { de: "Komm ins Haus!", lv: "Entre dans la maison !" },
     {
       de: "Er steckt das Geld in den Geldbeutel.",
       lv: "Il met l'argent dans son portefeuille.",
@@ -572,7 +575,7 @@ function repairIns(out) {
   out.study.comparison = [
     {
       word: "ins",
-      meaning: "vers où ? (mouvement)",
+      meaning: "où va-t-on ? (mouvement)",
       example: "Ich gehe ins Kino. – Je vais au cinéma.",
     },
     {
@@ -597,33 +600,33 @@ function repairIns(out) {
     },
   ];
   out.study.tip = [
-    "Rappel : in + das → ins (vers où ? — mouvement).",
-    "Vers où ? → ins • Où ? → im — mouvement vs emplacement.",
+    "Rappel : in + das → ins (où va-t-on ? — mouvement).",
+    "Où va-t-on ? → ins • Où ? → im — mouvement vs emplacement.",
   ];
   out.study.important = [
-    "ins = in das : mouvement vers l'intérieur, réponse à « vers où ? ».",
+    "ins = in das : mouvement vers l'intérieur, réponse à « où va-t-on ? ».",
     "im = in dem : emplacement, réponse à « où ? ».",
     "Ne pas confondre : ins Kino gehen (aller au cinéma) vs im Kino sein (être au cinéma).",
     "Au masculin : in den Wald ; au féminin : in die Schule.",
   ];
   out.study.sectionAccents = {
-    explanation: { blue: ["ins", "in das"], purple: ["vers où", "où"] },
+    explanation: { blue: ["ins", "in das"], purple: ["où va-t-on"] },
     examples: [
       { de: { blue: ["ins"] }, lv: { purple: ["cinéma"] } },
       { de: { blue: ["ins"] }, lv: { purple: ["couche"] } },
       { de: { blue: ["ins"] }, lv: { purple: ["étranger"] } },
-      { de: { blue: ["ins"] }, lv: { purple: ["maison"] } },
+      { de: { blue: ["ins"] }, lv: { purple: ["Entre"] } },
       { de: { blue: ["in den"] }, lv: { purple: ["portefeuille"] } },
       { de: { blue: ["ins"] }, lv: { purple: ["musée"] } },
       { de: { blue: ["ins"] }, lv: { purple: ["eau"] } },
       { de: { blue: ["ins"] }, lv: { purple: ["centre"] } },
     ],
     comparison: [
-      { word: { blue: ["ins"] }, meaning: { purple: ["vers où"] } },
+      { word: { blue: ["ins"] }, meaning: { purple: ["où va-t-on"] } },
       { word: { green: ["im"] }, meaning: { purple: ["où"] } },
     ],
     tip: [{ left: { blue: ["ins"], purple: ["Rappel"], green: ["im"] } }],
-    important: [{ blue: ["ins"], green: ["im"] }],
+    important: [{ blue: ["ins"] }, { green: ["im"] }],
   };
 }
 
@@ -669,11 +672,11 @@ function repairMachen(out) {
     examples: [
       { de: { blue: ["machst"] }, lv: { purple: ["Que"] } },
       { de: { blue: ["mache"], yellow: ["Hausaufgaben"] }, lv: { purple: ["fais"] } },
-      { de: { blue: ["machen"], yellow: ["Pizza"] }, lv: { purple: ["Nous"] } },
+      { de: { blue: ["machen"], yellow: ["Pizza"] }, lv: { purple: ["pizza"] } },
       { de: { blue: ["macht Spaß"] }, lv: { purple: ["C'est"] } },
     ],
-    tip: { left: { blue: ["machen"], purple: ["Rappel"], green: ["faire"] } },
-    important: [{ blue: ["machen"], purple: ["faire"] }],
+    tip: { left: { blue: ["machst"], purple: ["Rappel"], green: ["fais-tu"] } },
+    important: [{ blue: ["Machen"], purple: ["français"] }, { blue: ["Spaß"] }],
   };
 }
 
@@ -729,13 +732,19 @@ function repairNehmen(out) {
     ],
     comparison: [{ word: { green: ["nehmen"] }, meaning: { purple: ["prendre"] } }],
     tip: { left: { blue: ["nehmen"], purple: ["Rappel"], red: ["bringen"] } },
-    important: [{ blue: ["nehmen"], red: ["bringen"] }],
+    important: [{ blue: ["nehme"] }, { red: ["bringen"] }],
   };
 }
 
 function repairPassen(out) {
   out.lv = "Aller • Convenir";
   out.study.translation = "Aller • Convenir";
+  out.study.examples = [
+    { de: "Die Jacke passt mir.", lv: "La veste me va." },
+    { de: "Das Kleid passt gut.", lv: "La robe va bien." },
+    { de: "Die Farbe passt zu dir.", lv: "Cette couleur te va bien." },
+    { de: "Das passt.", lv: "Ça convient." },
+  ];
   out.study.explanation = [
     "Idée principale : passen signifie aller, convenir ou correspondre.",
     "Pour les vêtements, passen signifie souvent aller à la taille.",
@@ -759,7 +768,7 @@ function repairPassen(out) {
       { de: { blue: ["passt"], yellow: ["Jacke"] }, lv: { purple: ["veste"] } },
       { de: { blue: ["passt"], yellow: ["Kleid"] }, lv: { purple: ["robe"] } },
       { de: { blue: ["passt"], yellow: ["Farbe"] }, lv: { purple: ["couleur"] } },
-      { de: { blue: ["Das passt"] }, lv: { purple: ["Cela"] } },
+      { de: { blue: ["Das passt"] }, lv: { purple: ["convient"] } },
     ],
     comparison: [
       {
@@ -768,7 +777,7 @@ function repairPassen(out) {
       },
     ],
     tip: { left: { blue: ["passt"], purple: ["Rappel"] } },
-    important: [{ blue: ["passen"], purple: ["convenir"] }],
+    important: [{ blue: ["Passen"], purple: ["vêtements"] }, { blue: ["moment"] }],
   };
 }
 
@@ -787,7 +796,7 @@ function repairWer(out) {
     { de: "Wer ist das?", lv: "Qui est-ce ?" },
     { de: "Wer bist du?", lv: "Qui es-tu ?" },
     { de: "Wer kommt heute?", lv: "Qui vient aujourd'hui ?" },
-    { de: "Wer ist deine Lehrerin?", lv: "Qui est ton professeur ?" },
+    { de: "Wer ist deine Lehrerin?", lv: "Qui est ta professeure ?" },
     { de: "Wer von euch spricht Deutsch?", lv: "Lequel d'entre vous parle allemand ?" },
     { de: "Wer hat das gesagt?", lv: "Qui a dit ça ?" },
     { de: "Wer möchte Kaffee?", lv: "Qui veut du café ?" },
@@ -825,16 +834,16 @@ function repairWer(out) {
       { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
       { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
       { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
-      { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
+      { de: { blue: ["Wer"] }, lv: { purple: ["professeure"] } },
       { de: { blue: ["Wer"] }, lv: { purple: ["Lequel"] } },
       { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
       { de: { blue: ["Wer"] }, lv: { purple: ["Qui"] } },
     ],
-    tip: [{ purple: ["Qui"], blue: ["wer"] }],
+    tip: [{ purple: ["personnes"], blue: ["wer"] }],
     important: [
-      { blue: ["wer"], purple: ["sujet", "nominatif"] },
+      { blue: ["Wer"] },
       { blue: ["was"], green: ["choses"] },
-      { blue: ["wer"], purple: ["wen", "wem", "wessen"] },
+      { blue: ["wen"], purple: ["wem", "wessen"] },
     ],
   };
 }
@@ -910,10 +919,10 @@ function repairZum(out) {
     ],
     comparison: [
       { word: { blue: ["zum"] }, meaning: { purple: ["chez"] } },
-      { word: { green: ["zur"] }, meaning: { purple: ["école"] } },
+      { word: { green: ["zur"] }, meaning: { purple: ["féminin"] } },
     ],
     tip: [{ left: { blue: ["zum"], purple: ["Rappel"], green: ["zur"] } }],
-    important: [{ blue: ["zum"], green: ["zur"] }],
+    important: [{ blue: ["zum"] }, { blue: ["direction"] }, { green: ["zur"] }],
   };
 }
 
@@ -971,7 +980,7 @@ function repairZu(out) {
     ],
     comparison: [{ word: { green: ["zu"] }, meaning: { purple: ["à"] } }],
     tip: { left: { blue: ["zu"], purple: ["Rappel"] } },
-    important: [{ blue: ["zu"], purple: ["trop"] }],
+    important: [{ blue: ["zu"] }, { purple: ["trop"] }],
   };
 }
 
@@ -1074,7 +1083,7 @@ function repairAb(out) {
       { word: { green: ["von"] }, meaning: { purple: ["de"] } },
     ],
     tip: { left: { blue: ["ab"], purple: ["Rappel"], green: ["départ"] } },
-    important: [{ blue: ["ab"], green: ["von", "aus"] }],
+    important: [{ blue: ["Ab"] }, { green: ["von", "aus"] }],
   };
 }
 
@@ -1124,7 +1133,7 @@ function repairEin(out) {
     "Au niveau A1, ein = un article indéfini ou « un/une ».",
   ];
   out.study.sectionAccents = {
-    explanation: { blue: ["ein"], purple: ["Un"] },
+    explanation: { blue: ["ein"], purple: ["indéfini"] },
     examples: [
       { de: { blue: ["Ein"] }, lv: { purple: ["homme"] } },
       { de: { blue: ["ein"] }, lv: { purple: ["livre"] } },
@@ -1197,7 +1206,7 @@ function repairFuer(out) {
     ],
     comparison: [{ word: { blue: ["für"] }, meaning: { purple: ["pour"] } }],
     tip: [{ blue: ["für"], purple: ["accusatif"] }],
-    important: [{ blue: ["für"], purple: ["pour"] }],
+    important: [{ blue: ["für"] }, { purple: ["pour"] }],
   };
 }
 
@@ -1259,8 +1268,8 @@ function repairEis(out) {
     comparison: [
       { word: { blue: ["Eis"] }, meaning: { purple: ["glace"] } },
     ],
-    tip: { left: { blue: ["Eis"], purple: ["Rappel"] } },
-    important: [{ blue: ["Eis"], purple: ["contexte"] }],
+    tip: { left: { blue: ["nourriture"], purple: ["Rappel"] } },
+    important: [{ blue: ["Eis"] }, { purple: ["contexte"] }],
   };
 }
 
@@ -1369,7 +1378,7 @@ function repairLang(out) {
       { de: { green: ["lang"] }, lv: { purple: ["journée"] } },
     ],
     tip: [{ purple: ["long"], green: ["longtemps"] }],
-    important: [{ blue: ["lang"], purple: ["taille", "temps"] }],
+    important: [{ blue: ["Lang"] }, { purple: ["taille", "temps"] }],
   };
 }
 
@@ -1428,7 +1437,7 @@ function repairOder(out) {
       { word: { green: ["ob"] }, meaning: { purple: ["si"] } },
     ],
     tip: { left: { blue: ["oder"], purple: ["Rappel"] } },
-    important: [{ blue: ["oder"], green: ["ob"] }],
+    important: [{ blue: ["Oder"] }, { green: ["ob"] }],
   };
 }
 
@@ -1483,8 +1492,8 @@ function repairNur(out) {
       { de: { orange: ["nur"] }, lv: { purple: ["que"] } },
     ],
     comparison: [{ word: { orange: ["nur"] }, meaning: { purple: ["seulement"] } }],
-    tip: [{ purple: ["seulement"], orange: ["nur"] }],
-    important: [{ orange: ["nur"], purple: ["uniquement"] }],
+    tip: [{ purple: ["quantité"], orange: ["nur"] }],
+    important: [{ orange: ["nur"] }, { purple: ["uniquement"] }],
   };
 }
 
@@ -1546,7 +1555,7 @@ function repairBringen(out) {
       { word: { green: ["nehmen"] }, meaning: { purple: ["prendre"] } },
     ],
     tip: { left: { blue: ["bringen"], purple: ["Rappel"], red: ["nehmen"] } },
-    important: [{ blue: ["bringen"], red: ["nehmen"] }],
+    important: [{ blue: ["Bringen"] }, { red: ["Nehmen"] }],
   };
 }
 
