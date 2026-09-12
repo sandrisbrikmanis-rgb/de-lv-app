@@ -1,0 +1,19 @@
+{
+  "batch_id": "LRB-006",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T07:50:00.000Z",
+  "linguisticVerdict": "LRB_006_LINGUISTIC_REPAIR_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "note": "OWNER authorization recorded after GPT-5.6 Luna individual linguistic review of all 50 FI translations. DE/production/Crowdin/ingest/apply unchanged."
+}
