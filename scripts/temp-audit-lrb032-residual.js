@@ -201,8 +201,8 @@ const pass =
 const proof = {
   batch_id: BATCH,
   classification: pass
-    ? "LRB_031_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
-    : "LRB_031_OWNER_PREP_BLOCKED",
+    ? "LRB_032_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
+    : "LRB_032_OWNER_PREP_BLOCKED",
   reviewer: "owner-prep-pipeline",
   paste_source: PASTE_SOURCE,
   recalculated_from_production: true,
@@ -225,8 +225,8 @@ const proof = {
   languages: { is: 50 },
   failures: issues,
   verdict: pass
-    ? "LRB_031_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
-    : "LRB_031_OWNER_PREP_BLOCKED",
+    ? "LRB_032_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
+    : "LRB_032_OWNER_PREP_BLOCKED",
   updatedAt: new Date().toISOString(),
 };
 

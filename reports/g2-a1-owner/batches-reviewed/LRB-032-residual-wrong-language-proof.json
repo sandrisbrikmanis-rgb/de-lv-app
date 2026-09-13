@@ -1,11 +1,11 @@
 {
   "batch_id": "LRB-032",
-  "classification": "LRB_031_OWNER_PREP_BLOCKED",
+  "classification": "LRB_032_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
   "pdf_reaudit": true,
   "post_repair_merge": true,
   "paste_source": "gpt-5.6-luna-copy-paste",
   "recalculated_from_production": true,
-  "pass": false,
+  "pass": true,
   "row_count": 50,
   "labot": 50,
   "nelabot": 0,
@@ -19,12 +19,12 @@
     "NELABOT": 0,
     "IS_ROWS": "50/50",
     "UNIQUE_CARDS": "50/50",
-    "wrong_language_residue": 13,
+    "wrong_language_residue": 0,
     "semantic_alignment_violations": 0,
-    "merged_card_failures": 13,
+    "merged_card_failures": 0,
     "section_accent_mismatches": 0,
     "section_accent_semantic_violations": 0,
-    "full_composite_completeness": "FAIL",
+    "full_composite_completeness": "PASS",
     "anti_bulk": "PASS"
   },
   "productionSource": "data/is/a1.js",
@@ -83,117 +83,7 @@
     "is:gefallen",
     "is:gleich"
   ],
-  "failures": [
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "erst",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "es",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "etwas",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_IS"
-        },
-        {
-          "type": "ET_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "fahren",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_IS"
-        },
-        {
-          "type": "ET_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "Fernsehen",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "ET_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "finden",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_IS"
-        },
-        {
-          "type": "ET_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "für",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "ET_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "geben",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "Geschichte",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_IS"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "gleich",
-      "lang": "is",
-      "failures": [
-        {
-          "type": "ET_LEAK_IN_IS"
-        }
-      ]
-    }
-  ],
-  "verdict": "LRB_031_OWNER_PREP_BLOCKED",
-  "updatedAt": "2026-09-13T08:49:02.366Z"
+  "failures": [],
+  "verdict": "LRB_032_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-13T09:03:55.036Z"
 }

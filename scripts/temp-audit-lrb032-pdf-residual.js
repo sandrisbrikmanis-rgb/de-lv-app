@@ -527,8 +527,8 @@ const pass =
 const proof = {
   batch_id: BATCH,
   classification: pass
-    ? "LRB_031_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
-    : "LRB_031_OWNER_PREP_BLOCKED",
+    ? "LRB_032_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
+    : "LRB_032_OWNER_PREP_BLOCKED",
   pdf_reaudit: true,
   post_repair_merge: true,
   paste_source: PASTE_SOURCE,
@@ -560,8 +560,8 @@ const proof = {
   composite_repairs: [...UNIQUE_CARDS.keys()].sort(),
   failures: issues,
   verdict: pass
-    ? "LRB_031_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
-    : "LRB_031_OWNER_PREP_BLOCKED",
+    ? "LRB_032_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"
+    : "LRB_032_OWNER_PREP_BLOCKED",
   updatedAt: new Date().toISOString(),
 };
 
