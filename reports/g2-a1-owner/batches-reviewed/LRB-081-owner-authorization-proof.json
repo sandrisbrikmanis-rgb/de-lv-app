@@ -22,8 +22,8 @@
   "lunaAuditScript": "scripts/temp-audit-lrb081-luna.js",
   "lunaModel": "gpt-5.6-luna",
   "lunaTokens": 44349,
-  "note": "OWNER copy/paste correction #2 applied. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
-  "overridesSha256": "fc562a04be8ab720126ecd7f804b191892cdebca4185b760c6556c226ad8e799",
-  "correctionRound": 2,
-  "appliedAt": "2026-09-13T18:17:44.890Z"
+  "note": "OWNER copy/paste correction #3 applied. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
+  "overridesSha256": "7ef3f38f5dda5b455ae91bf17a0ebf3972434aad76b10ca82c261f007f58077a",
+  "correctionRound": 3,
+  "appliedAt": "2026-09-13T18:34:48.881Z"
 }

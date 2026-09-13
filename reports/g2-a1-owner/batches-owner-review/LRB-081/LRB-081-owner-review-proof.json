@@ -1,16 +1,16 @@
 {
   "batchId": "LRB-081",
   "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T18:17:44.890Z",
-  "sourceCommit": "b6634e5a6bbb7bd8a19f8fa613eda1bf74a12b8e",
+  "generatedAt": "2026-09-13T18:34:48.881Z",
+  "sourceCommit": "48eb78ed06146dd34026ba158eb068d4a76ddd80",
   "branch": "cursor/lrb-081-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT-5.6 Luna",
   "linguisticReviewer": "gpt-5.6-luna",
   "ownerAuthorizationStatus": "APPROVED",
-  "correctionRound": 2,
-  "overridesSha256": "fc562a04be8ab720126ecd7f804b191892cdebca4185b760c6556c226ad8e799",
+  "correctionRound": 3,
+  "overridesSha256": "7ef3f38f5dda5b455ae91bf17a0ebf3972434aad76b10ca82c261f007f58077a",
   "rows": "50/50",
   "languages": {
     "pt": 4,
@@ -36,7 +36,7 @@
     "UNIQUE_AUDIT_IDS": 50,
     "UNIQUE_TARGET_CARDS": 50,
     "FULL_STUDY_CARDS": 50,
-    "CONTENT_REPLACEMENTS": "16/16",
+    "CONTENT_REPLACEMENTS": "11/11",
     "SOURCE_SPEC_EXACT_MATCH": "50/50",
     "APPROVED_GALA_CARD_ALIGNMENT": "50/50",
     "APPROVED_GALA_CARD_DRIFT": 0,
@@ -85,9 +85,10 @@
     "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
     "input": "reports/g2-a1-owner/batches-pending/LRB-081-input.csv",
     "copyPaste2": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-2.json",
+    "copyPaste3": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-3.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-owner-authorization-proof.json"
   },
-  "note": "OWNER copy/paste correction #2 applied. 50 LABOT / 0 NELABOT / 0 PENDING (PT 4, RO 46, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50). CONTENT_REPLACEMENTS=16/16. DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "OWNER copy/paste correction #3 applied. 50 LABOT / 0 NELABOT / 0 PENDING (PT 4, RO 46, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50). CONTENT_REPLACEMENTS=11/11. DE/production/Crowdin/ingest/apply unchanged.",
   "galaPass": false,
   "scriptChanges": 0
 }

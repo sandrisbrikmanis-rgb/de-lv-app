@@ -1,11 +1,11 @@
 {
   "batchId": "LRB-081",
-  "generatedAt": "2026-09-13T18:17:44.890Z",
-  "sourceCommit": "b6634e5a6bbb7bd8a19f8fa613eda1bf74a12b8e",
+  "generatedAt": "2026-09-13T18:34:48.881Z",
+  "sourceCommit": "48eb78ed06146dd34026ba158eb068d4a76ddd80",
   "reviewer": "GPT-5.6 Luna",
-  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
-  "correctionRound": 2,
-  "overridesSha256": "fc562a04be8ab720126ecd7f804b191892cdebca4185b760c6556c226ad8e799",
+  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_3",
+  "correctionRound": 3,
+  "overridesSha256": "7ef3f38f5dda5b455ae91bf17a0ebf3972434aad76b10ca82c261f007f58077a",
   "uniqueCards": 50,
   "fullStudyCards": 50,
   "rowCount": 50,
@@ -146,7 +146,7 @@
             },
             {
               "de": "Woher wissen Sie das?",
-              "lv": "Como o senhor sabe disso?"
+              "lv": "Como sabe disso?"
             },
             {
               "de": "Ich weiß die Antwort.",
@@ -199,7 +199,7 @@
             },
             {
               "de": "Woher wissen Sie das?",
-              "lv": "Como o senhor sabe disso?"
+              "lv": "Como sabe disso?"
             },
             {
               "de": "Ich weiß die Antwort.",
@@ -488,16 +488,16 @@
       },
       "approvedGalaCard": {
         "de": "zu",
-        "lv": "para • junto de",
+        "lv": "a • para",
         "level": "A1",
         "study": {
           "id": "a1-zu",
           "layout": "standardStudy",
-          "translation": "para • junto de",
+          "translation": "a • para",
           "explanation": [
-            "Ideia principal: zu frequentemente significa para ou junto de, mas também é usado antes do infinitivo.",
-            "Com pessoas e instituições, zu frequentemente significa junto de ou para.",
-            "Com adjetivos, zu pode significar demasiado ou excessivamente.",
+            "Ideia principal: zu indica frequentemente direção para uma pessoa ou instituição, mas também aparece com adjetivos e infinitivos.",
+            "Com pessoas e instituições, zu costuma corresponder a «a» ou «para».",
+            "Com adjetivos, zu pode significar «demasiado» ou «excessivamente».",
             "Na construção zu + infinitivo, zu introduz o infinitivo, como em zu lernen (aprender)."
           ],
           "examples": [
@@ -521,7 +521,7 @@
           "comparison": [
             {
               "word": "zu",
-              "meaning": "para • junto de • demasiado • antes do infinitivo",
+              "meaning": "a • para • demasiado • antes do infinitivo",
               "example": "Ich gehe zum Arzt. – Vou ao médico."
             },
             {
@@ -552,16 +552,16 @@
       },
       "ownerNew": {
         "de": "zu",
-        "lv": "para • junto de",
+        "lv": "a • para",
         "level": "A1",
         "study": {
           "id": "a1-zu",
           "layout": "standardStudy",
-          "translation": "para • junto de",
+          "translation": "a • para",
           "explanation": [
-            "Ideia principal: zu frequentemente significa para ou junto de, mas também é usado antes do infinitivo.",
-            "Com pessoas e instituições, zu frequentemente significa junto de ou para.",
-            "Com adjetivos, zu pode significar demasiado ou excessivamente.",
+            "Ideia principal: zu indica frequentemente direção para uma pessoa ou instituição, mas também aparece com adjetivos e infinitivos.",
+            "Com pessoas e instituições, zu costuma corresponder a «a» ou «para».",
+            "Com adjetivos, zu pode significar «demasiado» ou «excessivamente».",
             "Na construção zu + infinitivo, zu introduz o infinitivo, como em zu lernen (aprender)."
           ],
           "examples": [
@@ -585,7 +585,7 @@
           "comparison": [
             {
               "word": "zu",
-              "meaning": "para • junto de • demasiado • antes do infinitivo",
+              "meaning": "a • para • demasiado • antes do infinitivo",
               "example": "Ich gehe zum Arzt. – Vou ao médico."
             },
             {
@@ -1375,7 +1375,7 @@
             },
             {
               "de": "Wir fahren zum Bahnhof.",
-              "lv": "Vamos de carro até a estação."
+              "lv": "Vamos até a estação."
             },
             {
               "de": "Sie geht zum Supermarkt.",
@@ -1464,7 +1464,7 @@
             },
             {
               "de": "Wir fahren zum Bahnhof.",
-              "lv": "Vamos de carro até a estação."
+              "lv": "Vamos até a estação."
             },
             {
               "de": "Sie geht zum Supermarkt.",
@@ -1952,7 +1952,7 @@
             },
             {
               "de": "ab Bahnhof",
-              "lv": "Din gară"
+              "lv": "De la gară"
             }
           ],
           "comparison": [
@@ -2007,7 +2007,7 @@
             },
             {
               "de": "ab Bahnhof",
-              "lv": "Din gară"
+              "lv": "De la gară"
             }
           ],
           "comparison": [
@@ -2466,7 +2466,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: concluzia → de asemenea."
+            "text": "Reține: concluzie sau rezultat → also."
           },
           "important": [
             "Also introduce o concluzie: următoarea idee rezultă din cele spuse anterior.",
@@ -2516,7 +2516,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: concluzia → de asemenea."
+            "text": "Reține: concluzie sau rezultat → also."
           },
           "important": [
             "Also introduce o concluzie: următoarea idee rezultă din cele spuse anterior.",
@@ -2675,13 +2675,13 @@
       },
       "approvedGalaCard": {
         "de": "an",
-        "lv": "La • La suprafață • La margine",
+        "lv": "la • pe",
         "level": "A1",
         "study": {
           "id": "a1-an",
           "layout": "standardStudy",
-          "translation": "La • La suprafață • La margine",
-          "explanation": "Ideea principală: folosit atunci când ceva se află lângă un perete, o fereastră, o ușă, un râu, malul mării sau o altă margine ori suprafață.",
+          "translation": "la • pe",
+          "explanation": "Ideea principală: an indică adesea contactul cu o suprafață verticală sau poziția lângă o margine, o fereastră, un râu ori mare.",
           "examples": [
             {
               "de": "an der Wand",
@@ -2699,8 +2699,8 @@
           "comparison": [
             {
               "word": "an",
-              "meaning": "La o suprafață sau la o margine",
-              "example": "an der Wand – la perete"
+              "meaning": "pe o suprafață verticală • la o margine",
+              "example": "an der Wand – pe perete"
             },
             {
               "word": "auf",
@@ -2725,13 +2725,13 @@
       },
       "ownerNew": {
         "de": "an",
-        "lv": "La • La suprafață • La margine",
+        "lv": "la • pe",
         "level": "A1",
         "study": {
           "id": "a1-an",
           "layout": "standardStudy",
-          "translation": "La • La suprafață • La margine",
-          "explanation": "Ideea principală: folosit atunci când ceva se află lângă un perete, o fereastră, o ușă, un râu, malul mării sau o altă margine ori suprafață.",
+          "translation": "la • pe",
+          "explanation": "Ideea principală: an indică adesea contactul cu o suprafață verticală sau poziția lângă o margine, o fereastră, un râu ori mare.",
           "examples": [
             {
               "de": "an der Wand",
@@ -2749,8 +2749,8 @@
           "comparison": [
             {
               "word": "an",
-              "meaning": "La o suprafață sau la o margine",
-              "example": "an der Wand – la perete"
+              "meaning": "pe o suprafață verticală • la o margine",
+              "example": "an der Wand – pe perete"
             },
             {
               "word": "auf",
@@ -3065,10 +3065,9 @@
           "layout": "standardStudy",
           "translation": "Și • De asemenea",
           "explanation": [
-            "Ideea principală: „de asemenea” cel mai comun și neutru.",
-            "Auch înseamnă practic: simplu „prea”.",
-            "Caracterizat adesea prin: adaos.",
-            "Auch este cel mai comun cuvânt pentru „de asemenea”."
+            "Ideea principală: auch este cel mai frecvent și neutru cuvânt german pentru «și» sau «de asemenea».",
+            "Auch adaugă o persoană, un lucru sau o acțiune la ceea ce s-a spus deja.",
+            "Poziția lui auch depinde de partea propoziției asupra căreia cade accentul."
           ],
           "examples": [
             {
@@ -3085,13 +3084,13 @@
             }
           ],
           "tip": [
-            "Auch = de asemenea",
-            "Folosește auch atunci când contextul se potrivește acestui sens."
+            "Auch = și • de asemenea.",
+            "În Ich komme auch, auch înseamnă «și eu»."
           ],
           "important": [
-            "Ich auch wünsche Ihnen nu este ordinea corectă a cuvintelor.",
-            "Auch = de asemenea.",
-            "Incorect: Ich auch wünsche Ihnen einen schönen Tag."
+            "Auch este cuvântul neutru obișnuit pentru «de asemenea».",
+            "Corect: Ich wünsche Ihnen auch einen schönen Tag.",
+            "Incorect: *Ich auch wünsche Ihnen einen schönen Tag."
           ]
         },
         "index": 48
@@ -3105,10 +3104,9 @@
           "layout": "standardStudy",
           "translation": "Și • De asemenea",
           "explanation": [
-            "Ideea principală: „de asemenea” cel mai comun și neutru.",
-            "Auch înseamnă practic: simplu „prea”.",
-            "Caracterizat adesea prin: adaos.",
-            "Auch este cel mai comun cuvânt pentru „de asemenea”."
+            "Ideea principală: auch este cel mai frecvent și neutru cuvânt german pentru «și» sau «de asemenea».",
+            "Auch adaugă o persoană, un lucru sau o acțiune la ceea ce s-a spus deja.",
+            "Poziția lui auch depinde de partea propoziției asupra căreia cade accentul."
           ],
           "examples": [
             {
@@ -3125,13 +3123,13 @@
             }
           ],
           "tip": [
-            "Auch = de asemenea",
-            "Folosește auch atunci când contextul se potrivește acestui sens."
+            "Auch = și • de asemenea.",
+            "În Ich komme auch, auch înseamnă «și eu»."
           ],
           "important": [
-            "Ich auch wünsche Ihnen nu este ordinea corectă a cuvintelor.",
-            "Auch = de asemenea.",
-            "Incorect: Ich auch wünsche Ihnen einen schönen Tag."
+            "Auch este cuvântul neutru obișnuit pentru «de asemenea».",
+            "Corect: Ich wünsche Ihnen auch einen schönen Tag.",
+            "Incorect: *Ich auch wünsche Ihnen einen schönen Tag."
           ]
         }
       },
@@ -3288,15 +3286,15 @@
           "id": "a1-auf",
           "layout": "standardStudy",
           "translation": "pe",
-          "explanation": "Ideea principală: folosit pentru a indica o direcție către un loc sau vârful unei suprafețe.",
+          "explanation": "Ideea principală: auf indică poziția pe o suprafață sau deplasarea către o suprafață ori un loc deschis.",
           "examples": [
             {
               "de": "Ich stelle das Buch auf den Tisch.",
-              "lv": "Am pus cartea pe masă."
+              "lv": "Pun cartea pe masă."
             },
             {
               "de": "Wir fahren auf den Berg.",
-              "lv": "Mergem la munte."
+              "lv": "Urcăm pe munte cu un mijloc de transport."
             },
             {
               "de": "Die Katze springt auf das Sofa.",
@@ -3321,11 +3319,11 @@
             }
           ],
           "tip": {
-            "text": "De reținut: la suprafață/deasupra → auf."
+            "text": "Reține: pe o suprafață sau către ea → auf."
           },
           "important": [
-            "Auf poate indica poziția pe sau deasupra unei suprafețe ori deplasarea către aceasta.",
-            "Dacă ceva se află lângă o suprafață verticală, se folosește adesea an. Dacă intră într-un spațiu interior, se folosește in."
+            "Auf poate indica poziția pe o suprafață sau deplasarea către aceasta.",
+            "Pentru o suprafață verticală se folosește adesea an, iar pentru interiorul unui spațiu se folosește in."
           ]
         },
         "index": 49
@@ -3338,15 +3336,15 @@
           "id": "a1-auf",
           "layout": "standardStudy",
           "translation": "pe",
-          "explanation": "Ideea principală: folosit pentru a indica o direcție către un loc sau vârful unei suprafețe.",
+          "explanation": "Ideea principală: auf indică poziția pe o suprafață sau deplasarea către o suprafață ori un loc deschis.",
           "examples": [
             {
               "de": "Ich stelle das Buch auf den Tisch.",
-              "lv": "Am pus cartea pe masă."
+              "lv": "Pun cartea pe masă."
             },
             {
               "de": "Wir fahren auf den Berg.",
-              "lv": "Mergem la munte."
+              "lv": "Urcăm pe munte cu un mijloc de transport."
             },
             {
               "de": "Die Katze springt auf das Sofa.",
@@ -3371,11 +3369,11 @@
             }
           ],
           "tip": {
-            "text": "De reținut: la suprafață/deasupra → auf."
+            "text": "Reține: pe o suprafață sau către ea → auf."
           },
           "important": [
-            "Auf poate indica poziția pe sau deasupra unei suprafețe ori deplasarea către aceasta.",
-            "Dacă ceva se află lângă o suprafață verticală, se folosește adesea an. Dacă intră într-un spațiu interior, se folosește in."
+            "Auf poate indica poziția pe o suprafață sau deplasarea către aceasta.",
+            "Pentru o suprafață verticală se folosește adesea an, iar pentru interiorul unui spațiu se folosește in."
           ]
         }
       },
@@ -3654,17 +3652,17 @@
             "Ideea principală: aufs este forma prescurtată a prepoziției auf și a articolului das.",
             "Forma completă este auf das.",
             "Este folosit când acțiunea indică o direcție către un anumit lucru sau către o suprafață și răspunde la întrebarea „încotro?”.",
-            "Apare frecvent cu verbe de mișcare, precum a urca, a se așeza, a pune sau a conduce către ceva.",
+            "Apare frecvent cu verbe de mișcare, de exemplu când cineva urcă, se așază sau pune ceva pe o suprafață.",
             "În vorbirea de zi cu zi, aufs este folosit adesea în locul formei complete auf das."
           ],
           "examples": [
             {
               "de": "Ich gehe aufs Dach.",
-              "lv": "Merg pe acoperiș"
+              "lv": "Mă duc pe acoperiș."
             },
             {
               "de": "Sie setzt sich aufs Sofa.",
-              "lv": "Ea se aseaza pe canapea."
+              "lv": "Ea se așază pe canapea."
             },
             {
               "de": "Wir fahren aufs Land.",
@@ -3684,7 +3682,7 @@
             },
             {
               "de": "Komm schnell aufs Boot!",
-              "lv": "Vino repede la barcă!"
+              "lv": "Urcă repede în barcă!"
             },
             {
               "de": "Wir gehen aufs Fest.",
@@ -3719,8 +3717,8 @@
             }
           ],
           "tip": [
-            "Amintiți-vă: auf + das → aufs (unde?, unde?).",
-            "Auf das complet nu este aproape niciodată vorbit colocvial - este folosit aufs."
+            "Reține: auf + das → aufs.",
+            "Aufs indică de obicei direcția și cere acuzativul."
           ],
           "important": [
             "Aufs = auf das și se folosește înaintea unui substantiv neutru la acuzativ.",
@@ -3743,17 +3741,17 @@
             "Ideea principală: aufs este forma prescurtată a prepoziției auf și a articolului das.",
             "Forma completă este auf das.",
             "Este folosit când acțiunea indică o direcție către un anumit lucru sau către o suprafață și răspunde la întrebarea „încotro?”.",
-            "Apare frecvent cu verbe de mișcare, precum a urca, a se așeza, a pune sau a conduce către ceva.",
+            "Apare frecvent cu verbe de mișcare, de exemplu când cineva urcă, se așază sau pune ceva pe o suprafață.",
             "În vorbirea de zi cu zi, aufs este folosit adesea în locul formei complete auf das."
           ],
           "examples": [
             {
               "de": "Ich gehe aufs Dach.",
-              "lv": "Merg pe acoperiș"
+              "lv": "Mă duc pe acoperiș."
             },
             {
               "de": "Sie setzt sich aufs Sofa.",
-              "lv": "Ea se aseaza pe canapea."
+              "lv": "Ea se așază pe canapea."
             },
             {
               "de": "Wir fahren aufs Land.",
@@ -3773,7 +3771,7 @@
             },
             {
               "de": "Komm schnell aufs Boot!",
-              "lv": "Vino repede la barcă!"
+              "lv": "Urcă repede în barcă!"
             },
             {
               "de": "Wir gehen aufs Fest.",
@@ -3808,8 +3806,8 @@
             }
           ],
           "tip": [
-            "Amintiți-vă: auf + das → aufs (unde?, unde?).",
-            "Auf das complet nu este aproape niciodată vorbit colocvial - este folosit aufs."
+            "Reține: auf + das → aufs.",
+            "Aufs indică de obicei direcția și cere acuzativul."
           ],
           "important": [
             "Aufs = auf das și se folosește înaintea unui substantiv neutru la acuzativ.",
@@ -4300,7 +4298,7 @@
             },
             {
               "de": "Ich schwimme jeden Montag.",
-              "lv": "Înot în fiecare luni."
+              "lv": "Înot în fiecare zi de luni."
             }
           ],
           "comparison": [
@@ -4326,7 +4324,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: odihniți-vă în apă → baden • Mișcare de înot → schwimmen."
+            "text": "Reține: recreere sau baie în apă → baden; mișcarea de înot ori sportul → schwimmen."
           },
           "important": [
             "Baden și schwimmen nu sunt sinonime.",
@@ -4364,7 +4362,7 @@
             },
             {
               "de": "Ich schwimme jeden Montag.",
-              "lv": "Înot în fiecare luni."
+              "lv": "Înot în fiecare zi de luni."
             }
           ],
           "comparison": [
@@ -4390,7 +4388,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: odihniți-vă în apă → baden • Mișcare de înot → schwimmen."
+            "text": "Reține: recreere sau baie în apă → baden; mișcarea de înot ori sportul → schwimmen."
           },
           "important": [
             "Baden și schwimmen nu sunt sinonime.",
@@ -4567,7 +4565,7 @@
           "id": "a1-bei",
           "layout": "standardStudy",
           "translation": "la • în apropierea",
-          "explanation": "Ideea principală: se folosește când ceva se află în apropierea unei persoane, a unei organizații sau a unui loc ori când ceva se întâmplă în anumite circumstanțe.",
+          "explanation": "Ideea principală: bei indică aflarea la o persoană, la o organizație sau într-un loc și poate introduce anumite împrejurări.",
           "examples": [
             {
               "de": "Ich bin bei meinem Freund.",
@@ -4600,7 +4598,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: la persoană/loc/companie → bei."
+            "text": "Reține: la o persoană, la o organizație sau în anumite împrejurări → bei."
           },
           "important": [
             "Bei înseamnă adesea «la» o persoană, «la» o companie sau «în» anumite circumstanțe.",
@@ -4617,7 +4615,7 @@
           "id": "a1-bei",
           "layout": "standardStudy",
           "translation": "la • în apropierea",
-          "explanation": "Ideea principală: se folosește când ceva se află în apropierea unei persoane, a unei organizații sau a unui loc ori când ceva se întâmplă în anumite circumstanțe.",
+          "explanation": "Ideea principală: bei indică aflarea la o persoană, la o organizație sau într-un loc și poate introduce anumite împrejurări.",
           "examples": [
             {
               "de": "Ich bin bei meinem Freund.",
@@ -4650,7 +4648,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: la persoană/loc/companie → bei."
+            "text": "Reține: la o persoană, la o organizație sau în anumite împrejurări → bei."
           },
           "important": [
             "Bei înseamnă adesea «la» o persoană, «la» o companie sau «în» anumite circumstanțe.",
@@ -4878,9 +4876,9 @@
           "layout": "standardStudy",
           "translation": "vizită",
           "explanation": [
-            "Ideea principală: der Besuch înseamnă o vizită a unui loc, a unui eveniment sau a unei persoane.",
-            "Dacă este vorba despre un loc sau un eveniment, der Besuch denumește vizita.",
-            "Dacă este vorba despre vizitarea unei persoane, în română spunem de obicei «vizită». ",
+            "Ideea principală: der Besuch înseamnă o vizită sau vizitarea unei persoane, a unui loc ori a unui eveniment.",
+            "Pentru un loc sau un eveniment, der Besuch desemnează vizitarea acestuia.",
+            "Pentru o persoană, der Besuch desemnează o vizită.",
             "Pluralul este die Besuche."
           ],
           "examples": [
@@ -4915,7 +4913,7 @@
             }
           ],
           "tip": {
-            "text": "Reține: Besuch este vizita sau evenimentul, iar Besucher este persoana care vizitează."
+            "text": "Reține: Besuch este vizita, iar Besucher este persoana care vizitează."
           },
           "important": [
             "Der Besuch înseamnă „vizită” și poate desemna vizitarea unei persoane, a unui loc sau a unui eveniment.",
@@ -4935,9 +4933,9 @@
           "layout": "standardStudy",
           "translation": "vizită",
           "explanation": [
-            "Ideea principală: der Besuch înseamnă o vizită a unui loc, a unui eveniment sau a unei persoane.",
-            "Dacă este vorba despre un loc sau un eveniment, der Besuch denumește vizita.",
-            "Dacă este vorba despre vizitarea unei persoane, în română spunem de obicei «vizită». ",
+            "Ideea principală: der Besuch înseamnă o vizită sau vizitarea unei persoane, a unui loc ori a unui eveniment.",
+            "Pentru un loc sau un eveniment, der Besuch desemnează vizitarea acestuia.",
+            "Pentru o persoană, der Besuch desemnează o vizită.",
             "Pluralul este die Besuche."
           ],
           "examples": [
@@ -4972,7 +4970,7 @@
             }
           ],
           "tip": {
-            "text": "Reține: Besuch este vizita sau evenimentul, iar Besucher este persoana care vizitează."
+            "text": "Reține: Besuch este vizita, iar Besucher este persoana care vizitează."
           },
           "important": [
             "Der Besuch înseamnă „vizită” și poate desemna vizitarea unei persoane, a unui loc sau a unui eveniment.",
@@ -5249,7 +5247,7 @@
             {
               "word": "treffen",
               "meaning": "a întâlni",
-              "example": "Ich treffe meinen Freund. – Îmi întâlnesc prietenul."
+              "example": "Ich treffe meinen Freund. – Mă întâlnesc cu prietenul meu."
             },
             {
               "word": "zu jemandem gehen",
@@ -5304,7 +5302,7 @@
             {
               "word": "treffen",
               "meaning": "a întâlni",
-              "example": "Ich treffe meinen Freund. – Îmi întâlnesc prietenul."
+              "example": "Ich treffe meinen Freund. – Mă întâlnesc cu prietenul meu."
             },
             {
               "word": "zu jemandem gehen",
@@ -5751,7 +5749,7 @@
           "id": "a1-das",
           "layout": "standardStudy",
           "translation": "articol hotărât de gen neutru",
-          "explanation": "Ideea principală: folosit pentru substantive neutre. În unele propoziții, „care” poate funcționa și ca pronume sau pronume relativ.",
+          "explanation": "Ideea principală: das se folosește ca articol cu substantive neutre și poate funcționa și ca pronume sau pronume relativ.",
           "examples": [
             {
               "de": "Das ist mein Auto.",
@@ -5784,7 +5782,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: genitiv mijlociu → das • Că → dass."
+            "text": "Reține: gen neutru → das; conjuncția «că» → dass."
           },
           "important": [
             "La nivelul A1, das este studiat mai întâi ca articol hotărât de gen neutru.",
@@ -5801,7 +5799,7 @@
           "id": "a1-das",
           "layout": "standardStudy",
           "translation": "articol hotărât de gen neutru",
-          "explanation": "Ideea principală: folosit pentru substantive neutre. În unele propoziții, „care” poate funcționa și ca pronume sau pronume relativ.",
+          "explanation": "Ideea principală: das se folosește ca articol cu substantive neutre și poate funcționa și ca pronume sau pronume relativ.",
           "examples": [
             {
               "de": "Das ist mein Auto.",
@@ -5834,7 +5832,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: genitiv mijlociu → das • Că → dass."
+            "text": "Reține: gen neutru → das; conjuncția «că» → dass."
           },
           "important": [
             "La nivelul A1, das este studiat mai întâi ca articol hotărât de gen neutru.",
@@ -6016,7 +6014,7 @@
           "id": "a1-dass",
           "layout": "standardStudy",
           "translation": "că",
-          "explanation": "Ideea principală: introduce o propoziție auxiliară care exprimă un fapt, un gând sau o afirmație.",
+          "explanation": "Ideea principală: dass introduce o propoziție subordonată care exprimă un fapt, un gând sau o afirmație.",
           "examples": [
             {
               "de": "Ich weiß, dass du müde bist.",
@@ -6071,7 +6069,7 @@
           "id": "a1-dass",
           "layout": "standardStudy",
           "translation": "că",
-          "explanation": "Ideea principală: introduce o propoziție auxiliară care exprimă un fapt, un gând sau o afirmație.",
+          "explanation": "Ideea principală: dass introduce o propoziție subordonată care exprimă un fapt, un gând sau o afirmație.",
           "examples": [
             {
               "de": "Ich weiß, dass du müde bist.",
@@ -6235,7 +6233,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: masculin → se potrivește."
+            "text": "Reține: gen masculin → der."
           },
           "important": [
             "La nivelul A1, der este studiat mai întâi ca articol hotărât de gen masculin.",
@@ -6268,7 +6266,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: masculin → se potrivește."
+            "text": "Reține: gen masculin → der."
           },
           "important": [
             "La nivelul A1, der este studiat mai întâi ca articol hotărât de gen masculin.",
@@ -6388,7 +6386,7 @@
           "id": "a1-die",
           "layout": "standardStudy",
           "translation": "articol hotărât de gen feminin",
-          "explanation": "Ideea principală: folosit cu substantivele feminine. În unele propoziții, „mor” poate funcționa și ca pronume sau pronume relativ.",
+          "explanation": "Ideea principală: die se folosește ca articol cu substantive feminine și poate funcționa și ca pronume sau pronume relativ.",
           "examples": [
             {
               "de": "Die Frau ist hier.",
@@ -6404,7 +6402,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: feminin → muri."
+            "text": "Reține: gen feminin → die."
           },
           "important": [
             "La nivelul A1, die este studiat mai întâi ca articol hotărât de gen feminin.",
@@ -6421,7 +6419,7 @@
           "id": "a1-die",
           "layout": "standardStudy",
           "translation": "articol hotărât de gen feminin",
-          "explanation": "Ideea principală: folosit cu substantivele feminine. În unele propoziții, „mor” poate funcționa și ca pronume sau pronume relativ.",
+          "explanation": "Ideea principală: die se folosește ca articol cu substantive feminine și poate funcționa și ca pronume sau pronume relativ.",
           "examples": [
             {
               "de": "Die Frau ist hier.",
@@ -6437,7 +6435,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: feminin → muri."
+            "text": "Reține: gen feminin → die."
           },
           "important": [
             "La nivelul A1, die este studiat mai întâi ca articol hotărât de gen feminin.",
@@ -6587,7 +6585,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: asta + masculin → dieser."
+            "text": "Reține: acest/acesta + gen masculin → dieser."
           },
           "important": [
             "Dieser, diese și dieses se schimbă în funcție de gen și de caz.",
@@ -6620,7 +6618,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: asta + masculin → dieser."
+            "text": "Reține: acest/acesta + gen masculin → dieser."
           },
           "important": [
             "Dieser, diese și dieses se schimbă în funcție de gen și de caz.",
@@ -6794,12 +6792,10 @@
           "layout": "standardStudy",
           "translation": "articol nehotărât",
           "explanation": [
-            "Ideea principală: ein este articolul nedefinit.",
-            "ein este articolul nedefinit pentru substantivele de gen masculin și neutru în nominativ.",
-            "ein se folosește pentru genul masculin: ein Mann.",
-            "ein se folosește pentru genul neutru: ein Buch.",
-            "Pentru genul feminin se folosește: eine.",
-            "În acuzativ pentru genul masculin: einen."
+            "Ideea principală: ein este articolul nehotărât pentru substantive masculine și neutre.",
+            "La nominativ se spune ein Mann și ein Buch.",
+            "Pentru genul feminin se folosește eine.",
+            "La acuzativ, forma masculină este einen."
           ],
           "examples": [
             {
@@ -6820,13 +6816,12 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: nespecific unul/cineva → ein."
+            "text": "Reține: ein nu înseamnă întotdeauna numeralul «unu»; adesea este doar articol nehotărât."
           },
           "important": [
-            "Ein nu este un articol hotărât.",
-            "Dacă problema este deja cunoscută în mod concret, der, die sau das este adesea nevoie.",
-            "eine — genul feminin.",
-            "einen — acuzativ."
+            "Ein se folosește la nominativ cu substantive masculine și neutre.",
+            "Eine se folosește pentru genul feminin.",
+            "Einen este forma de acuzativ masculin."
           ],
           "comparison": [
             {
@@ -6862,12 +6857,10 @@
           "layout": "standardStudy",
           "translation": "articol nehotărât",
           "explanation": [
-            "Ideea principală: ein este articolul nedefinit.",
-            "ein este articolul nedefinit pentru substantivele de gen masculin și neutru în nominativ.",
-            "ein se folosește pentru genul masculin: ein Mann.",
-            "ein se folosește pentru genul neutru: ein Buch.",
-            "Pentru genul feminin se folosește: eine.",
-            "În acuzativ pentru genul masculin: einen."
+            "Ideea principală: ein este articolul nehotărât pentru substantive masculine și neutre.",
+            "La nominativ se spune ein Mann și ein Buch.",
+            "Pentru genul feminin se folosește eine.",
+            "La acuzativ, forma masculină este einen."
           ],
           "examples": [
             {
@@ -6888,13 +6881,12 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: nespecific unul/cineva → ein."
+            "text": "Reține: ein nu înseamnă întotdeauna numeralul «unu»; adesea este doar articol nehotărât."
           },
           "important": [
-            "Ein nu este un articol hotărât.",
-            "Dacă problema este deja cunoscută în mod concret, der, die sau das este adesea nevoie.",
-            "eine — genul feminin.",
-            "einen — acuzativ."
+            "Ein se folosește la nominativ cu substantive masculine și neutre.",
+            "Eine se folosește pentru genul feminin.",
+            "Einen este forma de acuzativ masculin."
           ],
           "comparison": [
             {
@@ -7134,20 +7126,20 @@
           "layout": "standardStudy",
           "translation": "gheață • înghețată",
           "explanation": [
-            "Ideea principală: das Eis poate însemna atât înghețată, cât și înghețată.",
-            "Când vine vorba de apă rece înghețată, letona spune de obicei gheață.",
-            "Când vine vorba de mâncare sau desert, das Eis înseamnă foarte adesea înghețată în viața de zi cu zi.",
-            "Contextul vă spune de obicei imediat ce semnificație este intenționată.",
-            "La nivelul A1, cele mai importante fraze sunt ein Eis essen și Eis im Glas."
+            "Ideea principală: das Eis poate însemna atât «gheață», cât și «înghețată».",
+            "Pentru apa înghețată, în română se spune «gheață».",
+            "Pentru desert, în română se spune «înghețată».",
+            "Contextul arată care dintre cele două sensuri este potrivit.",
+            "La nivelul A1 sunt importante expresii precum ein Eis essen și Eis auf dem See."
           ],
           "examples": [
             {
               "de": "Ich esse ein Eis.",
-              "lv": "Eu mananc inghetata"
+              "lv": "Mănânc o înghețată."
             },
             {
               "de": "Möchtest du ein Eis?",
-              "lv": "Vrei inghetata"
+              "lv": "Vrei o înghețată?"
             },
             {
               "de": "Im Winter liegt Eis auf dem See.",
@@ -7155,11 +7147,11 @@
             },
             {
               "de": "Das Eis ist kalt.",
-              "lv": "Gheata este rece."
+              "lv": "Gheața este rece."
             },
             {
               "de": "Ich nehme ein Eis mit Schokolade.",
-              "lv": "Voi lua înghețată de ciocolată."
+              "lv": "Iau o înghețată cu ciocolată."
             }
           ],
           "comparison": [
@@ -7185,11 +7177,11 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: mâncare → înghețată • Iarnă/apă → gheață."
+            "text": "Reține: desert → înghețată; apă înghețată → gheață."
           },
           "important": [
-            "Înghețată și înghețată sunt două cuvinte diferite în letonă, dar das Eis este adesea folosit pentru ambele în germană.",
-            "Contextul este cheia: mâncarea înseamnă înghețată, suprafața rece sau apa înseamnă gheață."
+            "În română, «gheață» și «înghețată» sunt cuvinte diferite, dar în germană ambele sensuri pot fi exprimate prin das Eis.",
+            "Contextul diferențiază desertul de apa înghețată."
           ]
         },
         "index": 157
@@ -7204,20 +7196,20 @@
           "layout": "standardStudy",
           "translation": "gheață • înghețată",
           "explanation": [
-            "Ideea principală: das Eis poate însemna atât înghețată, cât și înghețată.",
-            "Când vine vorba de apă rece înghețată, letona spune de obicei gheață.",
-            "Când vine vorba de mâncare sau desert, das Eis înseamnă foarte adesea înghețată în viața de zi cu zi.",
-            "Contextul vă spune de obicei imediat ce semnificație este intenționată.",
-            "La nivelul A1, cele mai importante fraze sunt ein Eis essen și Eis im Glas."
+            "Ideea principală: das Eis poate însemna atât «gheață», cât și «înghețată».",
+            "Pentru apa înghețată, în română se spune «gheață».",
+            "Pentru desert, în română se spune «înghețată».",
+            "Contextul arată care dintre cele două sensuri este potrivit.",
+            "La nivelul A1 sunt importante expresii precum ein Eis essen și Eis auf dem See."
           ],
           "examples": [
             {
               "de": "Ich esse ein Eis.",
-              "lv": "Eu mananc inghetata"
+              "lv": "Mănânc o înghețată."
             },
             {
               "de": "Möchtest du ein Eis?",
-              "lv": "Vrei inghetata"
+              "lv": "Vrei o înghețată?"
             },
             {
               "de": "Im Winter liegt Eis auf dem See.",
@@ -7225,11 +7217,11 @@
             },
             {
               "de": "Das Eis ist kalt.",
-              "lv": "Gheata este rece."
+              "lv": "Gheața este rece."
             },
             {
               "de": "Ich nehme ein Eis mit Schokolade.",
-              "lv": "Voi lua înghețată de ciocolată."
+              "lv": "Iau o înghețată cu ciocolată."
             }
           ],
           "comparison": [
@@ -7255,11 +7247,11 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: mâncare → înghețată • Iarnă/apă → gheață."
+            "text": "Reține: desert → înghețată; apă înghețată → gheață."
           },
           "important": [
-            "Înghețată și înghețată sunt două cuvinte diferite în letonă, dar das Eis este adesea folosit pentru ambele în germană.",
-            "Contextul este cheia: mâncarea înseamnă înghețată, suprafața rece sau apa înseamnă gheață."
+            "În română, «gheață» și «înghețată» sunt cuvinte diferite, dar în germană ambele sensuri pot fi exprimate prin das Eis.",
+            "Contextul diferențiază desertul de apa înghețată."
           ]
         }
       },
@@ -7463,11 +7455,11 @@
           "layout": "standardStudy",
           "translation": "doar",
           "explanation": [
-            "Ideea principală: erst cel mai des înseamnă doar. Totuși, în anumit context, poate înseamna și mai întâi.",
-            "erst indică adesea că ceva se întâmplă mai târziu decât era de așteptat.",
-            "Sunt doar 18. — Man ir tikai 18 gadi.",
-            "E încă luni. — Ir tikai pirmdiena.",
-            "Erst lernen, dann spielen. — Mai întâi învață, apoi joacă-te."
+            "Ideea principală: erst poate însemna «doar», «abia» sau «mai întâi», în funcție de context.",
+            "Cu vârsta, ora sau un moment, erst arată adesea că valoarea ori momentul este mai mic sau mai târziu decât se aștepta.",
+            "Ich bin erst 18. – Am doar 18 ani.",
+            "Es ist erst Montag. – Este abia luni.",
+            "Erst lernen, dann spielen. – Mai întâi învață, apoi joacă-te."
           ],
           "examples": [
             {
@@ -7476,7 +7468,7 @@
             },
             {
               "de": "Ich komme erst morgen.",
-              "lv": "Nu voi ajunge până mâine."
+              "lv": "Vin abia mâine."
             },
             {
               "de": "Er ist erst 18 Jahre alt.",
@@ -7510,12 +7502,12 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: timp/număr → erst • Cantitate → nr."
+            "text": "Reține: timp sau etapă încă neatinsă → erst; limitarea unei cantități → nur."
           },
           "important": [
-            "Erst și nur pot suna ambele ca „numai”, dar nu sunt la fel.",
-            "Mai întâi se vorbește despre timp, secvență sau încă de a ajunge la un punct • Nur limiteaza cantitatea.",
-            "zuerst cel mai des înseamnă: mai întâi."
+            "Erst și nur se pot traduce uneori prin «doar», dar nu sunt identice.",
+            "Erst se referă frecvent la timp, ordine sau o etapă; nur limitează o cantitate ori o posibilitate.",
+            "Zuerst înseamnă de obicei «mai întâi»."
           ]
         },
         "index": 165
@@ -7529,11 +7521,11 @@
           "layout": "standardStudy",
           "translation": "doar",
           "explanation": [
-            "Ideea principală: erst cel mai des înseamnă doar. Totuși, în anumit context, poate înseamna și mai întâi.",
-            "erst indică adesea că ceva se întâmplă mai târziu decât era de așteptat.",
-            "Sunt doar 18. — Man ir tikai 18 gadi.",
-            "E încă luni. — Ir tikai pirmdiena.",
-            "Erst lernen, dann spielen. — Mai întâi învață, apoi joacă-te."
+            "Ideea principală: erst poate însemna «doar», «abia» sau «mai întâi», în funcție de context.",
+            "Cu vârsta, ora sau un moment, erst arată adesea că valoarea ori momentul este mai mic sau mai târziu decât se aștepta.",
+            "Ich bin erst 18. – Am doar 18 ani.",
+            "Es ist erst Montag. – Este abia luni.",
+            "Erst lernen, dann spielen. – Mai întâi învață, apoi joacă-te."
           ],
           "examples": [
             {
@@ -7542,7 +7534,7 @@
             },
             {
               "de": "Ich komme erst morgen.",
-              "lv": "Nu voi ajunge până mâine."
+              "lv": "Vin abia mâine."
             },
             {
               "de": "Er ist erst 18 Jahre alt.",
@@ -7576,12 +7568,12 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: timp/număr → erst • Cantitate → nr."
+            "text": "Reține: timp sau etapă încă neatinsă → erst; limitarea unei cantități → nur."
           },
           "important": [
-            "Erst și nur pot suna ambele ca „numai”, dar nu sunt la fel.",
-            "Mai întâi se vorbește despre timp, secvență sau încă de a ajunge la un punct • Nur limiteaza cantitatea.",
-            "zuerst cel mai des înseamnă: mai întâi."
+            "Erst și nur se pot traduce uneori prin «doar», dar nu sunt identice.",
+            "Erst se referă frecvent la timp, ordine sau o etapă; nur limitează o cantitate ori o posibilitate.",
+            "Zuerst înseamnă de obicei «mai întâi»."
           ]
         }
       },
@@ -8165,7 +8157,7 @@
           "id": "a1-euch",
           "layout": "standardStudy",
           "translation": "vă • vouă",
-          "explanation": "Ideea principală: „euch” este un pronume de persoana a 2-a plural. Se folosește atât ca complement direct (unde?) – „tu”, cât și ca complement indirect (cui?) – „către tine”.",
+          "explanation": "Ideea principală: euch este pronumele personal pentru persoana a doua plural la acuzativ și dativ.",
           "examples": [
             {
               "de": "Ich sehe euch.",
@@ -8206,17 +8198,17 @@
             }
           ],
           "info": [
-            "Ihr = tu (forma subiectului propoziției)",
-            "Euch = tu (unde? formă) / tu (cui? formă)",
-            "Euer = dvs. (forma posesivă)"
+            "ihr = voi, forma de nominativ",
+            "euch = vă/vouă, forma de acuzativ sau dativ",
+            "euer = al vostru/a voastră, formă posesivă"
           ],
           "tip": {
-            "text": "„euch” răspunde la întrebarea „cui?” sau este complementul direct în propoziții cu „tu”.",
-            "example": "Te ajut. = Ich helfe euch. te văd = Ich sehe euch. iti spun eu. = Ich erzähle euch."
+            "text": "Reține: ihr este subiectul, iar euch este complement direct sau indirect.",
+            "example": "Ich sehe euch. = Vă văd. • Ich helfe euch. = Vă ajut."
           },
           "important": [
             "Euch este forma de acuzativ și dativ pentru persoana a doua plural.",
-            "În română se traduce după context prin „vă” sau „vouă”."
+            "În română se traduce după context prin «vă» sau «vouă»."
           ]
         },
         "index": 170
@@ -8229,7 +8221,7 @@
           "id": "a1-euch",
           "layout": "standardStudy",
           "translation": "vă • vouă",
-          "explanation": "Ideea principală: „euch” este un pronume de persoana a 2-a plural. Se folosește atât ca complement direct (unde?) – „tu”, cât și ca complement indirect (cui?) – „către tine”.",
+          "explanation": "Ideea principală: euch este pronumele personal pentru persoana a doua plural la acuzativ și dativ.",
           "examples": [
             {
               "de": "Ich sehe euch.",
@@ -8270,17 +8262,17 @@
             }
           ],
           "info": [
-            "Ihr = tu (forma subiectului propoziției)",
-            "Euch = tu (unde? formă) / tu (cui? formă)",
-            "Euer = dvs. (forma posesivă)"
+            "ihr = voi, forma de nominativ",
+            "euch = vă/vouă, forma de acuzativ sau dativ",
+            "euer = al vostru/a voastră, formă posesivă"
           ],
           "tip": {
-            "text": "„euch” răspunde la întrebarea „cui?” sau este complementul direct în propoziții cu „tu”.",
-            "example": "Te ajut. = Ich helfe euch. te văd = Ich sehe euch. iti spun eu. = Ich erzähle euch."
+            "text": "Reține: ihr este subiectul, iar euch este complement direct sau indirect.",
+            "example": "Ich sehe euch. = Vă văd. • Ich helfe euch. = Vă ajut."
           },
           "important": [
             "Euch este forma de acuzativ și dativ pentru persoana a doua plural.",
-            "În română se traduce după context prin „vă” sau „vouă”."
+            "În română se traduce după context prin «vă» sau «vouă»."
           ]
         }
       },
@@ -8610,7 +8602,7 @@
             },
             {
               "word": "laufen",
-              "meaning": "a alerga",
+              "meaning": "a alerga • a merge pe jos",
               "example": "Er läuft schnell. – El aleargă repede."
             },
             {
@@ -8625,11 +8617,11 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: vehicul → fahren • Pe jos → gehen."
+            "text": "Reține: deplasare cu un vehicul → fahren; deplasare pe jos → gehen."
           },
           "important": {
-            "text": "Fahren ≠ doar „conduce”",
-            "example": "În germană, același verb înseamnă adesea: a conduce • A conduce • A lua în funcție de context."
+            "text": "Fahren nu înseamnă numai «a conduce».",
+            "example": "În funcție de construcție, fahren poate însemna «a merge cu un vehicul», «a duce» sau «a transporta». "
           }
         },
         "index": 172
@@ -8683,7 +8675,7 @@
             },
             {
               "word": "laufen",
-              "meaning": "a alerga",
+              "meaning": "a alerga • a merge pe jos",
               "example": "Er läuft schnell. – El aleargă repede."
             },
             {
@@ -8698,11 +8690,11 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: vehicul → fahren • Pe jos → gehen."
+            "text": "Reține: deplasare cu un vehicul → fahren; deplasare pe jos → gehen."
           },
           "important": {
-            "text": "Fahren ≠ doar „conduce”",
-            "example": "În germană, același verb înseamnă adesea: a conduce • A conduce • A lua în funcție de context."
+            "text": "Fahren nu înseamnă numai «a conduce».",
+            "example": "În funcție de construcție, fahren poate însemna «a merge cu un vehicul», «a duce» sau «a transporta». "
           }
         }
       },
@@ -9688,11 +9680,11 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: lucru pierdut → finden • Parere → ich finde..."
+            "text": "Reține: obiect pierdut → finden = a găsi; opinie → ich finde ... = consider/mi se pare."
           },
           "important": [
-            "Finden nu este doar „găsește”.",
-            "Ich finde das gut înseamnă „mi se pare bine”, nu „mi se pare bine”."
+            "Finden nu înseamnă numai «a găsi».",
+            "Ich finde das gut înseamnă «Consider că este bine» sau «Mi se pare bine»."
           ]
         },
         "index": 187
@@ -9733,11 +9725,11 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: lucru pierdut → finden • Parere → ich finde..."
+            "text": "Reține: obiect pierdut → finden = a găsi; opinie → ich finde ... = consider/mi se pare."
           },
           "important": [
-            "Finden nu este doar „găsește”.",
-            "Ich finde das gut înseamnă „mi se pare bine”, nu „mi se pare bine”."
+            "Finden nu înseamnă numai «a găsi».",
+            "Ich finde das gut înseamnă «Consider că este bine» sau «Mi se pare bine»."
           ]
         }
       },
@@ -10172,12 +10164,12 @@
             }
           ],
           "tip": [
-            "Für întotdeauna + acuzativ - indiferent de sens.",
-            "Destinatar/intenție → pentru • Schimb/motiv/ comision → pentru."
+            "Für cere întotdeauna acuzativul, indiferent de sens.",
+            "Destinatar sau scop → pentru; schimb, preț ori motiv → tot pentru."
           ],
           "important": [
-            "Für + Akkusativ întotdeauna, de exemplu für mich, für dich, für das Kind.",
-            "Danke für / bezahlen für = „pentru”, nu „înainte”."
+            "Für + acuzativ: für mich, für dich, für das Kind.",
+            "Danke für și bezahlen für se traduc în română cu «pentru»."
           ]
         },
         "index": 216
@@ -10223,12 +10215,12 @@
             }
           ],
           "tip": [
-            "Für întotdeauna + acuzativ - indiferent de sens.",
-            "Destinatar/intenție → pentru • Schimb/motiv/ comision → pentru."
+            "Für cere întotdeauna acuzativul, indiferent de sens.",
+            "Destinatar sau scop → pentru; schimb, preț ori motiv → tot pentru."
           ],
           "important": [
-            "Für + Akkusativ întotdeauna, de exemplu für mich, für dich, für das Kind.",
-            "Danke für / bezahlen für = „pentru”, nu „înainte”."
+            "Für + acuzativ: für mich, für dich, für das Kind.",
+            "Danke für și bezahlen für se traduc în română cu «pentru»."
           ]
         }
       },
@@ -10499,7 +10491,7 @@
             },
             {
               "de": "Das ist ganz sicher.",
-              "lv": "Asta este complet sigur."
+              "lv": "Asta este absolut sigur."
             },
             {
               "de": "Das Essen ist ganz gut.",
@@ -10553,7 +10545,7 @@
             },
             {
               "de": "Das ist ganz sicher.",
-              "lv": "Asta este complet sigur."
+              "lv": "Asta este absolut sigur."
             },
             {
               "de": "Das Essen ist ganz gut.",
@@ -10999,8 +10991,8 @@
           "layout": "standardStudy",
           "translation": "a plăcea",
           "explanation": [
-            "Ideea principală: gefallen înseamnă «a plăcea», dar construcția propoziției germane este diferită de cea românească.",
-            "Lucrul care place este subiectul propoziției în germană.",
+            "Ideea principală: gefallen înseamnă «a plăcea», iar construcția germană este asemănătoare cu cea românească.",
+            "Lucrul care place este subiectul propoziției.",
             "Persoana căreia îi place ceva este la dativ: mir, dir, ihm, ihr, uns, euch, ihnen."
           ],
           "examples": [
@@ -11030,8 +11022,8 @@
             }
           ],
           "tip": [
-            "Amintește-ți construcția: Das gefällt mir.",
-            "Nu copia literal ordinea cuvintelor din germană în română."
+            "Reține construcția: Das gefällt mir. – Îmi place asta.",
+            "Persoana apare la dativ, la fel ca în construcția românească «îmi/îți place»."
           ],
           "important": [
             "Gefallen se folosește cu dativul: mir, dir, ihm, ihr.",
@@ -11049,8 +11041,8 @@
           "layout": "standardStudy",
           "translation": "a plăcea",
           "explanation": [
-            "Ideea principală: gefallen înseamnă «a plăcea», dar construcția propoziției germane este diferită de cea românească.",
-            "Lucrul care place este subiectul propoziției în germană.",
+            "Ideea principală: gefallen înseamnă «a plăcea», iar construcția germană este asemănătoare cu cea românească.",
+            "Lucrul care place este subiectul propoziției.",
             "Persoana căreia îi place ceva este la dativ: mir, dir, ihm, ihr, uns, euch, ihnen."
           ],
           "examples": [
@@ -11080,8 +11072,8 @@
             }
           ],
           "tip": [
-            "Amintește-ți construcția: Das gefällt mir.",
-            "Nu copia literal ordinea cuvintelor din germană în română."
+            "Reține construcția: Das gefällt mir. – Îmi place asta.",
+            "Persoana apare la dativ, la fel ca în construcția românească «îmi/îți place»."
           ],
           "important": [
             "Gefallen se folosește cu dativul: mir, dir, ihm, ihr.",
@@ -11578,7 +11570,7 @@
           "examples": [
             {
               "de": "Ich habe zwei Geschwister.",
-              "lv": "Am doi frați sau două surori."
+              "lv": "Am doi frați."
             },
             {
               "de": "Meine Geschwister wohnen in Berlin.",
@@ -11629,7 +11621,7 @@
           "examples": [
             {
               "de": "Ich habe zwei Geschwister.",
-              "lv": "Am doi frați sau două surori."
+              "lv": "Am doi frați."
             },
             {
               "de": "Meine Geschwister wohnen in Berlin.",
@@ -13019,11 +13011,11 @@
             },
             {
               "de": "Der Bus hält hier.",
-              "lv": "Autobuzul oprește aici."
+              "lv": "Autobuzul se oprește aici."
             },
             {
               "de": "Bitte halten Sie an.",
-              "lv": "Vă rog să opriți."
+              "lv": "Vă rog să vă opriți."
             },
             {
               "de": "Ich halte das für richtig.",
@@ -13044,7 +13036,7 @@
             {
               "word": "anhalten",
               "meaning": "a se opri • a opri",
-              "example": "Bitte halten Sie an. – Te rog, oprește-te."
+              "example": "Bitte halten Sie an. – Vă rog să vă opriți."
             },
             {
               "word": "denken",
@@ -13084,11 +13076,11 @@
             },
             {
               "de": "Der Bus hält hier.",
-              "lv": "Autobuzul oprește aici."
+              "lv": "Autobuzul se oprește aici."
             },
             {
               "de": "Bitte halten Sie an.",
-              "lv": "Vă rog să opriți."
+              "lv": "Vă rog să vă opriți."
             },
             {
               "de": "Ich halte das für richtig.",
@@ -13109,7 +13101,7 @@
             {
               "word": "anhalten",
               "meaning": "a se opri • a opri",
-              "example": "Bitte halten Sie an. – Te rog, oprește-te."
+              "example": "Bitte halten Sie an. – Vă rog să vă opriți."
             },
             {
               "word": "denken",

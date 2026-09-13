@@ -61,8 +61,8 @@
   "owner_authorization_status": "APPROVED",
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
-  "overrides_sha256": "fc562a04be8ab720126ecd7f804b191892cdebca4185b760c6556c226ad8e799",
-  "correction_round": 2,
-  "updated_at": "2026-09-13T18:17:44.890Z",
-  "source_commit": "b6634e5a6bbb7bd8a19f8fa613eda1bf74a12b8e"
+  "overrides_sha256": "7ef3f38f5dda5b455ae91bf17a0ebf3972434aad76b10ca82c261f007f58077a",
+  "correction_round": 3,
+  "updated_at": "2026-09-13T18:34:48.881Z",
+  "source_commit": "48eb78ed06146dd34026ba158eb068d4a76ddd80"
 }
