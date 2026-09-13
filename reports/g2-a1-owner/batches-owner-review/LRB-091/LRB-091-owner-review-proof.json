@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-091",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T10:23:22.366Z",
-  "sourceCommit": "904c22f2e33fe719653a5fe99cffa9ff83b042b4",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-13T10:30:41.746Z",
+  "sourceCommit": "9db3a12033c6fe5323e70577b5671e80e8734ae1",
   "branch": "cursor/lrb-091-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -70,7 +70,10 @@
     "input": "reports/g2-a1-owner/batches-pending/LRB-091-input.csv",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-091-owner-authorization-proof.json"
   },
-  "note": "OWNER-approved overrides applied (copy/paste). 50 LABOT / 0 NELABOT / 0 PENDING (SK 50). DE/production/Crowdin/ingest/apply unchanged. Pending independent post-review.",
-  "galaPass": false,
-  "scriptChanges": 0
+  "note": "Gala verdict LRB_091_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 9db3a12033c6fe5323e70577b5671e80e8734ae1 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50). DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
+  "scriptChanges": 0,
+  "verifiedCommit": "9db3a12033c6fe5323e70577b5671e80e8734ae1",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_091_FULL_50_50_LINGUISTIC_REVIEW_PASS"
 }
