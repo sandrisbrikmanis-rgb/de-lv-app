@@ -3,7 +3,7 @@
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-13T13:42:00.000Z",
-  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "linguisticVerdict": "LRB_049_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 47,
   "nelabot": 3,
@@ -39,5 +39,5 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-049-residual-wrong-language-proof.json",
-  "note": "GPT-5.6 Luna copy/paste applied. 47 LABOT / 3 NELABOT / 0 PENDING (Pizza, Sache, Schaf). PDF paste-mode PASS. NOT LRB_049_FULL_50_50_LINGUISTIC_REVIEW_PASS — pending Gala. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Gala verdict LRB_049_FULL_50_50_LINGUISTIC_REVIEW_PASS. 47 LABOT / 3 NELABOT / 0 PENDING (Pizza, Sache, Schaf). Individuāli pārbaudītas visas 50/50 rindas. DE/production/Crowdin/ingest/apply unchanged."
 }
