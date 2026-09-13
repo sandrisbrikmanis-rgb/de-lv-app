@@ -1,7 +1,7 @@
 {
   "batchId": "LRB-090",
   "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T10:57:58.932Z",
+  "generatedAt": "2026-09-13T11:07:27.296Z",
   "sourceCommit": "6ffbe2a0fd15f755844a55e64e55febaf8fb84e5",
   "branch": "cursor/lrb-090-owner-review-pc2-3db2",
   "direction": "DESCENDING",
@@ -55,7 +55,9 @@
     "ANTI_BULK": "PASS",
     "ACCENT_TERM_ISSUES": 0,
     "SCRIPT_CHANGES": 0,
-    "GIT_DIFF_CHECK": "PASS"
+    "GIT_DIFF_CHECK": "PASS",
+    "SOURCE_ROW_IDENTITY_ALIGNMENT": "50/50",
+    "SOURCE_ROW_IDENTITY_DRIFT": 0
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-090/LRB-090-owner-view.md",
@@ -70,7 +72,7 @@
     "input": "reports/g2-a1-owner/batches-pending/LRB-090-input.csv",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-090-owner-authorization-proof.json"
   },
-  "note": "OWNER-approved overrides applied (copy/paste). 50 LABOT / 0 NELABOT / 0 PENDING (SK 50). DE/production/Crowdin/ingest/apply unchanged. Pending independent post-review.",
+  "note": "OWNER-approved overrides applied (copy/paste). Technical correction #1: source row identity restored from LRB-090-decisions.csv. Pending independent post-review.",
   "galaPass": false,
   "scriptChanges": 0
 }

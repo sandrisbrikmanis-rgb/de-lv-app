@@ -12,3 +12,4 @@
 **Branch:** `cursor/lrb-090-owner-review-pc2-3db2`
 **Source commit:** `6ffbe2a0fd15f755844a55e64e55febaf8fb84e5`
 **Overrides SHA256:** `1465c3c97fc4fe98f2365ac0a0a8498c6c61168f69a26e9fe82b7e9b54b3f7d1`
+**Technical correction #1:** source row identity alignment restored.
