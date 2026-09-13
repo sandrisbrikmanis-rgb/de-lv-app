@@ -1,0 +1,302 @@
+{
+  "g2/a1/sk|a1-koennen|a1.card.a1-koennen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri nemeckom slove „können“ sú významy „byť schopný“ a „vedieť“ správne vystihnuté slovenskými prekladmi."
+  },
+  "g2/a1/sk|a1-koennen|a1.card.a1-koennen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pre „können“ je dvojica „Byť schopný • Vedieť“ prirodzená a významovo zodpovedá schopnosti aj ovládaniu nejakej činnosti."
+  },
+  "g2/a1/sk|a1-kosten|a1.card.a1-kosten.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Stáť (o cene) • Koľko to stojí",
+    "owner_note": "Nemecké „kosten“ znamená, že niečo má určitú cenu, preto treba „stáť“ namiesto „platiť“; druhý význam prirodzene vyjadruje otázka „Koľko to stojí?“."
+  },
+  "g2/a1/sk|a1-kosten|a1.card.a1-kosten.study.important[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "„kosten“ a „bezahlen“ nie sú synonymá: „kosten“ = koľko to stojí • „bezahlen“ = zaplatiť",
+    "owner_note": "Pri nemeckých slovesách „kosten“ a „bezahlen“ treba rozlíšiť cenu od úhrady; „bezahlen“ sa po slovensky prekladá prirodzene ako „zaplatiť“, nie všeobecne „platiť peniaze“."
+  },
+  "g2/a1/sk|a1-land|a1.card.a1-land.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké podstatné meno „Land“ môže znamenať „krajina“ aj „zem“, takže oba slovenské významy sú správne."
+  },
+  "g2/a1/sk|a1-land|a1.card.a1-land.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pre „Land“ je spojenie „Krajina • Zem“ významovo presné a zachytáva význam štátu aj územia."
+  },
+  "g2/a1/sk|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Dlhý • Dlho trvajúci",
+    "owner_note": "Nemecké „lang“ označuje dĺžku aj časové trvanie; opakovanie „Dlhý“ nerozlišuje druhý význam, ktorý lepšie vyjadruje „dlho trvajúci“."
+  },
+  "g2/a1/sk|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Dlhý • Dlho trvajúci",
+    "owner_note": "Pri „lang“ treba okrem priestorovej dĺžky uviesť aj význam dlhého trvania, preto druhý preklad nahrádza duplicitné „Dlhý“."
+  },
+  "g2/a1/sk|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nechať • Dovoliť",
+    "owner_note": "Nemecké „lassen“ znamená niečo ponechať alebo niekomu niečo dovoliť; „odísť“ označuje odchod a nie je správnym prekladom tohto slovesa."
+  },
+  "g2/a1/sk|a1-lassen|a1.card.a1-lassen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nechať • Dovoliť",
+    "owner_note": "Pre „lassen“ sú slovenské infinitívy „nechať“ a „dovoliť“ významovo presné, zatiaľ čo „odísť“ má opačný význam konať odchod."
+  },
+  "g2/a1/sk|a1-laufen|a1.card.a1-laufen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bežať • Fungovať",
+    "owner_note": "Nemecké sloveso „laufen“ znamená „bežať“ a pri zariadeniach aj „fungovať“; anglické tvary „Run • Act“ sú nesprávne."
+  },
+  "g2/a1/sk|a1-laufen|a1.card.a1-laufen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bežať • Fungovať",
+    "owner_note": "Pri nemeckom „laufen“ treba uviesť slovenské infinitívy „bežať“ a „fungovať“, nie anglické „Run • Act“."
+  },
+  "g2/a1/sk|a1-liegen|a1.card.a1-liegen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nachádzať sa • Ležať",
+    "owner_note": "Nemecké „liegen“ vyjadruje polohu „nachádzať sa“ alebo „ležať“; „Buďte“ je český imperatív a „Spať“ významovo nezodpovedá slovu."
+  },
+  "g2/a1/sk|a1-liegen|a1.card.a1-liegen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nachádzať sa • Ležať",
+    "owner_note": "Pre nemecké slovo „liegen“ sú potrebné slovenské infinitívy „nachádzať sa • ležať“, nie nesprávne tvary „Buďte • Spať“."
+  },
+  "g2/a1/sk|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Robiť • Vyrábať",
+    "owner_note": "Nemecké „machen“ znamená všeobecne „robiť“ a v zmysle tvorby či výroby aj „vyrábať“; opakované „Robiť“ neposkytuje druhý význam."
+  },
+  "g2/a1/sk|a1-machen|a1.card.a1-machen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Robiť • Vyrábať",
+    "owner_note": "Pri slove „machen“ treba rozlíšiť slovenské významy „robiť“ a „vyrábať“, pretože súčasné „Robiť • Robiť“ je duplicitné."
+  },
+  "g2/a1/sk|a1-mann|a1.card.a1-mann.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké podstatné meno „Mann“ má v slovenčine správne významy „muž“ a podľa kontextu „manžel“; aktuálne „Muž • Manžel“ je prijateľné."
+  },
+  "g2/a1/sk|a1-mann|a1.card.a1-mann.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pre nemecké „Mann“ sú dvojica „Muž • Manžel“ prirodzené slovenské preklady a významovo zodpovedajú všeobecnému aj rodinnému významu."
+  },
+  "g2/a1/sk|a1-nach|a1.card.a1-nach.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Do • Po",
+    "owner_note": "Nemecká predložka „nach“ sa pri smere prekladá ako „do“ a pri časovom význame ako „po“; „Potom“ nie je správny slovenský preklad predložky."
+  },
+  "g2/a1/sk|a1-nach|a1.card.a1-nach.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Do • Po",
+    "owner_note": "Pre slovo „nach“ sú v slovenčine vhodné predložky „do • po“, zatiaľ čo aktuálne „Do • Potom“ mieša predložku s príslovkou."
+  },
+  "g2/a1/sk|a1-natuerlich|a1.card.a1-natuerlich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Samozrejme • Prirodzený",
+    "owner_note": "DE „natürlich“ znamená „samozrejme“ aj „prirodzený“; druhý slovenský ekvivalent musí byť v správnom základnom tvare, nie „prirodzené“."
+  },
+  "g2/a1/sk|a1-natuerlich|a1.card.a1-natuerlich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Samozrejme • Prirodzený",
+    "owner_note": "Pri DE „natürlich“ je „prirodzený“ správny slovenský prídavný tvar; „prirodzené“ nezodpovedá základnému heslovému tvaru."
+  },
+  "g2/a1/sk|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vziať • Brať",
+    "owner_note": "DE „nehmen“ je neurčitok; „vezmi“ je slovenský rozkazovací spôsob, preto ho treba nahradiť infinitívami „vziať“ a „brať“."
+  },
+  "g2/a1/sk|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vziať • Brať",
+    "owner_note": "Pre DE „nehmen“ sú potrebné slovenské infinitívy „vziať“ a „brať“, nie opakovaný imperatív „vezmi“."
+  },
+  "g2/a1/sk|a1-neu|a1.card.a1-neu.study.explanation[5]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Opakom je alt (starý) • Podstatné meno das Neue znamená novinku.",
+    "owner_note": "DE „das Neue“ je substantivizované prídavné meno a znamená „novinku“ alebo „niečo nové“, nie „nový“."
+  },
+  "g2/a1/sk|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Iba • Jedine",
+    "owner_note": "DE „nur“ má v slovenčine význam „iba“ aj „jedine“; opakovanie „iba“ neposkytuje dva odlišné ekvivalenty."
+  },
+  "g2/a1/sk|a1-nur-study|a1.card.a1-nur-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Iba • Jedine",
+    "owner_note": "Pre DE „nur“ treba uviesť odlišné prirodzené slovenské ekvivalenty „iba“ a „jedine“, nie dvakrát „iba“."
+  },
+  "g2/a1/sk|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Alebo • Či",
+    "owner_note": "DE „oder“ sa po slovensky prekladá ako „alebo“ alebo „či“; „Or“ je anglický, teda nesprávny jazykový zvyšok."
+  },
+  "g2/a1/sk|a1-oder|a1.card.a1-oder.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Alebo • Či",
+    "owner_note": "Pri DE „oder“ treba odstrániť anglické „Or“ a použiť slovenské spojky „alebo“ a „či“."
+  },
+  "g2/a1/sk|a1-passen|a1.card.a1-passen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hodiť sa • Pristávať",
+    "owner_note": "DE „passen“ vyjadruje, že niečo sa hodí alebo niekomu pristane; „sedí • sedí“ opakuje rovnaký tvar a nepokrýva oba významy."
+  },
+  "g2/a1/sk|a1-passen|a1.card.a1-passen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hodiť sa • Pristať",
+    "owner_note": "DE „passen“ znamená podľa kontextu „hodiť sa“ alebo „pristať“; „Sedí • Sedí“ nerozlišuje významy dostatočne."
+  },
+  "g2/a1/sk|a1-probieren|a1.card.a1-probieren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vyskúšať • Ochutnať",
+    "owner_note": "DE „probieren“ má významy „vyskúšať“ a „ochutnať“; súčasné tvary „Vyskúšajte • Ochutnajte“ sú zdvorilé rozkazovacie tvary namiesto základných tvarov slovesa."
+  },
+  "g2/a1/sk|a1-probieren|a1.card.a1-probieren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vyskúšať • Ochutnať",
+    "owner_note": "Pri DE „probieren“ treba uviesť infinitívy „vyskúšať“ a „ochutnať“; aktuálne slovenské výrazy sú tvary pre 2. osobu množného čísla."
+  },
+  "g2/a1/sk|a1-sehen|a1.card.a1-sehen.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "DE „sehen“ je v príklade správne preložené ako „vidím ťa“ a kontrast s DE „schaue“ ako „pozerám film“ je v slovenčine prirodzený."
+  },
+  "g2/a1/sk|a1-seite|a1.card.a1-seite.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "DE „Seite“ môže znamenať „strana“ v zmysle strany textu aj strany alebo boku; „Strana • Strana“ je v slovenčine správne."
+  },
+  "g2/a1/sk|a1-seite|a1.card.a1-seite.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pre DE „Seite“ je opakovanie slovenského slova „strana“ odôvodnené, pretože pokrýva význam stránky aj strany alebo boku."
+  },
+  "g2/a1/sk|a1-sich|a1.card.a1-sich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Seba • Sebe",
+    "owner_note": "DE „sich“ sa podľa pádu prekladá ako „seba“ alebo „sebe“; „pre seba“ je predložkové spojenie s významom „für sich“, nie základný datívny tvar."
+  },
+  "g2/a1/sk|a1-sich|a1.card.a1-sich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Seba • Sebe",
+    "owner_note": "Pri DE „sich“ treba rozlíšiť slovenské tvary „seba“ a „sebe“; aktuálne „pre seba“ mení význam na „für sich“."
+  },
+  "g2/a1/sk|a1-sicher|a1.card.a1-sicher.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bezpečný • Istý",
+    "owner_note": "DE „sicher“ znamená „bezpečný“ alebo „istý“; „Určite“ je slovenská príslovka, nie zodpovedajúci prídavný tvar."
+  },
+  "g2/a1/sk|a1-sicher|a1.card.a1-sicher.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bezpečný • Istý",
+    "owner_note": "Pre DE „sicher“ sú potrebné prídavné mená „bezpečný“ a „istý“; súčasné „Bezpečné • Určite“ obsahuje nesprávny rod a nesprávny slovný druh."
+  },
+  "g2/a1/sk|a1-ueber|a1.card.a1-ueber.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nad • O",
+    "owner_note": "DE „über“ znamená v týchto významoch „nad“ a „o“, nie „cez“ a „pre“."
+  },
+  "g2/a1/sk|a1-ueber|a1.card.a1-ueber.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nad • O",
+    "owner_note": "Pri DE „über“ treba uviesť slovenské významy „nad“ a „o“; „cez • pre“ nie sú v tomto kontexte správne."
+  },
+  "g2/a1/sk|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hodiny",
+    "owner_note": "DE „Uhr“ sa po slovensky prekladá ako „hodiny“, preto prázdne pole treba doplniť."
+  },
+  "g2/a1/sk|a1-um|a1.card.a1-um.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Okolo • O",
+    "owner_note": "DE „um“ vyjadruje približný čas alebo časový údaj, preto sú vhodné preklady „okolo • o“, nie „približne • hodiny“."
+  },
+  "g2/a1/sk|a1-um|a1.card.a1-um.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Okolo • O",
+    "owner_note": "V spojení s DE „um“ ide o význam „okolo“ a časovú väzbu „o“, nie o podstatné meno „hodiny“."
+  },
+  "g2/a1/sk|a1-verstehen|a1.card.a1-verstehen.study.explanation[2]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Zvyčajne tu netreba používať „vedieť“ alebo „môcť“; DE „verstehen“ znamená „rozumieť“ • Častejšie sa používajú slovesá können.",
+    "owner_note": "DE „verstehen“ znamená „rozumieť“; aktuálne vysvetlenie nesprávne hovorí o učení sa lotyštiny a mieša význam slovesa können."
+  },
+  "g2/a1/sk|a1-vor|a1.card.a1-vor.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pred • Vpredu",
+    "owner_note": "DE „vor“ má význam „pred“ pri časovom určení a „vpredu“ pri polohe; opakovanie „predtým“ druhý význam nevyjadruje."
+  },
+  "g2/a1/sk|a1-vor|a1.card.a1-vor.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vor dem Essen = pred jedlom • Vor dem Haus = pred domom.",
+    "owner_note": "DE „vor dem Haus“ znamená „pred domom“, nie „pred domovom“; prvý príklad s „pred jedlom“ je správny."
+  },
+  "g2/a1/sk|a1-vor|a1.card.a1-vor.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pred • Vpredu",
+    "owner_note": "Pre DE „vor“ treba rozlíšiť časový význam „pred“ od miestneho významu „vpredu“, nie uvádzať dvakrát „predtým“."
+  },
+  "g2/a1/sk|a1-was|a1.card.a1-was.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Čo • Čože",
+    "owner_note": "DE „was“ znamená „čo“ alebo zvolacie „čože“; „kto“ patrí k nemeckému slovu wer."
+  }
+}
