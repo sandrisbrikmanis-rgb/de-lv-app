@@ -11,8 +11,7 @@
 - [Batch input CSV](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-084-owner-authorization-ed35/reports/g2-a1-owner/batches-pending/LRB-084-input.csv)
 - [Parallel checkpoint](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-084-owner-authorization-ed35/reports/g2-a1-owner/parallel-checkpoint.json)
 
-**Branch:** `cursor/lrb-084-owner-authorization-ed35`
-**Source commit:** `a27d110b53de418321b3633b5f2544aaa1432076`
+**Gala verdict:** `LRB_084_FULL_50_50_LINGUISTIC_REVIEW_PASS`
+**Verified commit:** `6118ab81f8d5b6ae178eac46e7b31cdea9ad1e8a`
 **Overrides SHA256:** `fbec11c89d7b1c0846d07c5b1b2c01ce2a6ed4ce23d10b5fa914450b54870661`
-
-**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING (RU 50, SK 0, UNIQUE_TARGET_CARDS=26, FULL_STUDY_CARDS=26)
+**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING (RU 50, UNIQUE_TARGET_CARDS=26, FULL_STUDY_CARDS=26)
