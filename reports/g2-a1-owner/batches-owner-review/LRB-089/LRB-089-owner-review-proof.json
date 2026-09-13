@@ -1,15 +1,15 @@
 {
   "batchId": "LRB-089",
   "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T11:41:52.693Z",
-  "sourceCommit": "ac4100c532f97e4995fa643ffdeb1db888348685",
+  "generatedAt": "2026-09-13T11:59:21.210Z",
+  "sourceCommit": "c61d0c175b379c90b502aa8f30c59aaf5df3ecf6",
   "branch": "cursor/lrb-089-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT-5.6 Luna",
   "linguisticReviewer": "gpt-5.6-luna",
   "ownerAuthorizationStatus": "APPROVED",
-  "overridesSha256": "b2b4513abe7e9bee6b2ad3774d902f82a6a55377d25bbeaaebf4fd2f074a7925",
+  "overridesSha256": "2dd479031ae2f3915c2b1b23a1c169e7eb7ba5688a28106dfd2ec67569e47332",
   "rows": "50/50",
   "languages": {
     "sk": 50
@@ -70,9 +70,9 @@
     "manifest": "reports/g2-a1-owner/manifests/LRB-089-start.json",
     "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
     "input": "reports/g2-a1-owner/batches-pending/LRB-089-input.csv",
-    "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-089-owner-authorization-proof.json"
+    "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-decisions-COPY-PASTE.json"
   },
-  "note": "OWNER-approved overrides applied (copy/paste). 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=27). DE/production/Crowdin/ingest/apply unchanged. Pending independent post-review.",
+  "note": "OWNER copy/paste corrections applied. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=27). DE/production/Crowdin/ingest/apply unchanged.",
   "galaPass": false,
   "scriptChanges": 0
 }

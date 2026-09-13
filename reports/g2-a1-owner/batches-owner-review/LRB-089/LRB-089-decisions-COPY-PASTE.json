@@ -1,0 +1,365 @@
+{
+  "batch_id": "LRB-089",
+  "base_commit": "c61d0c175b379c90b502aa8f30c59aaf5df3ecf6",
+  "verdict": "FAIL_REPAIR_REQUIRED",
+  "mode": "OWNER_EXACT_COPY_PASTE_ONLY",
+  "instructions": {
+    "linguistic_reanalysis": false,
+    "apply_every_replacement_exactly": true,
+    "require_expected_old_match": true,
+    "apply_to_every_duplicate_of_card": true,
+    "rebuild_owner_artifacts_after_apply": true
+  },
+  "content_replacements": [
+    {
+      "card_id": "a1-koennen",
+      "path": "study.comparison[0].meaning",
+      "expected_old": "Môcť/vedieť",
+      "new": "Môcť • Vedieť"
+    },
+    {
+      "card_id": "a1-koennen",
+      "path": "study.tip.text",
+      "expected_old": "Pamätajte: zručnosť/schopnosť → können.",
+      "new": "Pamätaj: schopnosť alebo zručnosť → können."
+    },
+    {
+      "card_id": "a1-koennen",
+      "path": "study.important[0]",
+      "expected_old": "können nie je to isté ako dürfen: können = môcť/vedieť, dürfen = smieť.",
+      "new": "können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť."
+    },
+    {
+      "card_id": "a1-kosten",
+      "path": "lv",
+      "expected_old": "Stáť (o cene)",
+      "new": "Stáť (cena)"
+    },
+    {
+      "card_id": "a1-kosten",
+      "path": "study.translation",
+      "expected_old": "Stáť (o cene)",
+      "new": "Stáť (cena)"
+    },
+    {
+      "card_id": "a1-kosten",
+      "path": "study.explanation[2]",
+      "expected_old": "Pýtať sa na cenu v nemčine často začína slovami Was kostet...?",
+      "new": "Otázka na cenu sa v nemčine často začína slovami Was kostet...?"
+    },
+    {
+      "card_id": "a1-kosten",
+      "path": "study.tip[1]",
+      "expected_old": "Pamätajte: vykonajte platbu → bezahlen / zahlen (Ich bezahle die Rechnung.).",
+      "new": "Pamätaj: platba → bezahlen • zahlen (Ich bezahle die Rechnung.)."
+    },
+    {
+      "card_id": "a1-land",
+      "path": "lv",
+      "expected_old": "Krajina • Zem • Vidiek",
+      "new": "Krajina • Zem"
+    },
+    {
+      "card_id": "a1-land",
+      "path": "study.translation",
+      "expected_old": "Krajina • Zem • Vidiek",
+      "new": "Krajina • Zem"
+    },
+    {
+      "card_id": "a1-land",
+      "path": "study.comparison[3].meaning",
+      "expected_old": "Zem/planéta",
+      "new": "Zem • Planéta"
+    },
+    {
+      "card_id": "a1-lassen",
+      "path": "study.important[1]",
+      "expected_old": "Lass mich in Ruhe! existuje veľmi populárna fráza: \"Nechaj ma na pokoji!\"",
+      "new": "Lass mich in Ruhe! je veľmi častá fráza: „Nechaj ma na pokoji!“"
+    },
+    {
+      "card_id": "a1-laufen",
+      "path": "study.important[1]",
+      "expected_old": "Ich laufe znamená cestovať pešo, nie šoférovať.",
+      "new": "Ich laufe znamená pohybovať sa pešo, nie ísť dopravným prostriedkom."
+    },
+    {
+      "card_id": "a1-machen",
+      "path": "study.examples[3].lv",
+      "expected_old": "Je to skvelá zábava.",
+      "new": "Je to zábavné."
+    },
+    {
+      "card_id": "a1-mann",
+      "path": "study.explanation[5]",
+      "expected_old": "Ženský tvar die Frau má podobnú dvojitú nozīmi: žena AJ manželka.",
+      "new": "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
+    },
+    {
+      "card_id": "a1-nach",
+      "path": "study.explanation[2]",
+      "expected_old": "Postupom času nach znamená po.",
+      "new": "Pri časovom poradí nach znamená „po“."
+    },
+    {
+      "card_id": "a1-natuerlich",
+      "path": "study.examples[5].lv",
+      "expected_old": "To je úplne prirodzené/normálne.",
+      "new": "To je úplne prirodzené alebo normálne."
+    },
+    {
+      "card_id": "a1-neu",
+      "path": "study.examples[6].lv",
+      "expected_old": "Čo je nové",
+      "new": "Čo je nové?"
+    },
+    {
+      "card_id": "a1-nur-study",
+      "path": "study.important[1]",
+      "expected_old": "Nur = iba/výhradne.",
+      "new": "nur = iba • výhradne."
+    },
+    {
+      "card_id": "a1-passen",
+      "path": "study.explanation[3]",
+      "expected_old": "Veľmi populárnou frázou je Das passt. = Hodí sa.",
+      "new": "Veľmi častá fráza je Das passt. = Hodí sa."
+    },
+    {
+      "card_id": "a1-sehen",
+      "path": "study.explanation[3]",
+      "expected_old": "Veľmi populárnou frázou je Ich sehe dich. = Vidím ťa.",
+      "new": "Veľmi častá fráza je Ich sehe dich. = Vidím ťa."
+    },
+    {
+      "card_id": "a1-sehen",
+      "path": "study.tip.text",
+      "expected_old": "Pamätaj: oči niečo vnímajú → sehen • vedomé pozeranie → schauen/ansehen.",
+      "new": "Pamätaj: oči niečo vnímajú → sehen • vedomé pozeranie → schauen alebo ansehen."
+    },
+    {
+      "card_id": "a1-seite",
+      "path": "study.explanation[4]",
+      "expected_old": "Kontext (kniha/čítanie alebo položka/vzťah) ukazuje správny význam.",
+      "new": "Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam."
+    },
+    {
+      "card_id": "a1-sicher",
+      "path": "study.explanation[2]",
+      "expected_old": "Ako potvrdenie alebo uistenie vo vete, sicher = určite/samozrejme (Das ist sicher wahr. = Určite je to pravda.).",
+      "new": "Ako potvrdenie alebo uistenie vo vete sicher znamená „určite“ alebo „samozrejme“ (Das ist sicher wahr. = Určite je to pravda.)."
+    },
+    {
+      "card_id": "a1-sicher",
+      "path": "study.examples[4].lv",
+      "expected_old": "Som si istý",
+      "new": "Som si istý."
+    },
+    {
+      "card_id": "a1-sicher",
+      "path": "study.tip[1]",
+      "expected_old": "Ako presvedčenie alebo potvrdenie vo vete → určite/pravdepodobne.",
+      "new": "Ako presvedčenie alebo potvrdenie vo vete → určite alebo pravdepodobne."
+    },
+    {
+      "card_id": "a1-ueber",
+      "path": "study.important[0]",
+      "expected_old": "Über nie je len názov miesta.",
+      "new": "über nevyjadruje iba miesto."
+    },
+    {
+      "card_id": "a1-uhr",
+      "path": "study.explanation[2]",
+      "expected_old": "Často charakterizované: konkrétnym časom.",
+      "new": "Pri údaji presného času stojí Uhr za číslom: acht Uhr."
+    },
+    {
+      "card_id": "a1-uhr",
+      "path": "study.examples[5].lv",
+      "expected_old": "Zariadenie/čas na hodinách; die Zeit",
+      "new": "Hodiny"
+    },
+    {
+      "card_id": "a1-verstehen",
+      "path": "study.explanation[3]",
+      "expected_old": "Veľmi populárna fráza je Ich verstehe. = Rozumiem.",
+      "new": "Veľmi častá fráza je Ich verstehe. = Rozumiem."
+    },
+    {
+      "card_id": "a1-verstehen",
+      "path": "study.tip.text",
+      "expected_old": "Pamätajte: porozumieť textu/osobe → verstehen • Vedieť niečo urobiť → können.",
+      "new": "Pamätaj: rozumieť textu alebo osobe → verstehen • vedieť niečo urobiť → können."
+    }
+  ],
+  "accent_replacements": [
+    {
+      "card_id": "a1-koennen",
+      "path": "study.sectionAccents.comparison[2].example.yellow",
+      "expected_old": ["Muszę"],
+      "new": ["muss", "Musím"]
+    },
+    {
+      "card_id": "a1-kosten",
+      "path": "study.sectionAccents.comparison[0].example.blue",
+      "expected_old": ["Kosztuje"],
+      "new": ["kostet"]
+    },
+    {
+      "card_id": "a1-land",
+      "path": "study.sectionAccents.comparison[3].meaning.purple",
+      "expected_old": ["planeta"],
+      "new": ["Planéta"]
+    },
+    {
+      "card_id": "a1-lassen",
+      "path": "study.sectionAccents.tip.left.purple",
+      "expected_old": ["Pamätajte"],
+      "new": ["Pamätaj"]
+    },
+    {
+      "card_id": "a1-laufen",
+      "path": "study.sectionAccents.explanation.green",
+      "expected_old": ["Hlavná", "filmu", "Hlavná", "programu"],
+      "new": ["Hlavná", "filme", "programe"]
+    },
+    {
+      "card_id": "a1-liegen",
+      "path": "study.sectionAccents.examples[1].lv.yellow",
+      "expected_old": ["telefon"],
+      "new": ["telefón"]
+    },
+    {
+      "card_id": "a1-liegen",
+      "path": "study.sectionAccents.comparison[2].meaning.purple",
+      "expected_old": ["Stojan"],
+      "new": ["Stáť"]
+    },
+    {
+      "card_id": "a1-liegen",
+      "path": "study.sectionAccents.tip.left.purple",
+      "expected_old": ["Pamätajte"],
+      "new": ["Pamätaj"]
+    },
+    {
+      "card_id": "a1-machen",
+      "path": "study.sectionAccents.tip.left.blue",
+      "expected_old": ["Atceries"],
+      "new": ["Was machst du"]
+    },
+    {
+      "card_id": "a1-machen",
+      "path": "study.sectionAccents.tip.left.purple",
+      "expected_old": ["Atceries"],
+      "new": ["Čo robíš"]
+    },
+    {
+      "card_id": "a1-nach",
+      "path": "study.sectionAccents.examples[0].lv.green",
+      "expected_old": ["Berlina"],
+      "new": ["Berlína"]
+    },
+    {
+      "card_id": "a1-nach",
+      "path": "study.sectionAccents.tip.left.purple",
+      "expected_old": ["Pamätajte"],
+      "new": ["Pamätaj"]
+    },
+    {
+      "card_id": "a1-natuerlich",
+      "path": "study.sectionAccents.important[1].blue",
+      "expected_old": ["Prirodzene"],
+      "new": ["Natürlich"]
+    },
+    {
+      "card_id": "a1-oder",
+      "path": "study.sectionAccents.tip.left.blue",
+      "expected_old": ["Pamätajte"],
+      "new": ["oder"]
+    },
+    {
+      "card_id": "a1-oder",
+      "path": "study.sectionAccents.tip.left.purple",
+      "expected_old": ["Pamätajte"],
+      "new": ["Zapamätaj si"]
+    },
+    {
+      "card_id": "a1-passen",
+      "path": "study.sectionAccents.comparison[1].meaning.purple",
+      "expected_old": ["Stojan"],
+      "new": ["Pristať"]
+    },
+    {
+      "card_id": "a1-passen",
+      "path": "study.sectionAccents.tip.left.purple",
+      "expected_old": ["tas der"],
+      "new": ["To sa hodí"]
+    },
+    {
+      "card_id": "a1-passen",
+      "path": "study.sectionAccents.important[1].purple",
+      "expected_old": ["plan"],
+      "new": ["plán"]
+    },
+    {
+      "card_id": "a1-probieren",
+      "path": "study.sectionAccents.examples[0].lv.yellow",
+      "expected_old": ["Ochutnajte"],
+      "new": ["Ochutnaj"]
+    },
+    {
+      "card_id": "a1-probieren",
+      "path": "study.sectionAccents.tip.left.purple",
+      "expected_old": ["Pamätajte"],
+      "new": ["Pamätaj"]
+    },
+    {
+      "card_id": "a1-seite",
+      "path": "study.sectionAccents.tip[1].blue",
+      "expected_old": ["Rozprávanie"],
+      "new": ["Seite X"]
+    },
+    {
+      "card_id": "a1-sich",
+      "path": "study.sectionAccents.tip.left.purple",
+      "expected_old": ["Pamätajte"],
+      "new": ["Pamätaj"]
+    },
+    {
+      "card_id": "a1-was",
+      "path": "study.sectionAccents.explanation.purple",
+      "expected_old": ["kas", "ko"],
+      "new": ["čo"]
+    },
+    {
+      "card_id": "a1-was",
+      "path": "study.sectionAccents.tip[1].purple",
+      "expected_old": ["ko"],
+      "new": ["was"]
+    }
+  ],
+  "required_artifact_updates": [
+    "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-owner-approved-overrides.json",
+    "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-gala-cards.json",
+    "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-owner-view.md",
+    "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-owner-decisions.md",
+    "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-owner-corrections.md",
+    "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-owner-review-proof.json",
+    "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-owner-review-GITHUB.md",
+    "reports/g2-a1-owner/batches-reviewed/LRB-089-decisions.csv",
+    "scripts/data/g2-a1-owner-pending/LRB-089-decisions.json",
+    "reports/g2-a1-owner/manifests/LRB-089-start.json",
+    "reports/g2-a1-owner/parallel-checkpoint.json"
+  ],
+  "forbidden_changes": [
+    "data/**",
+    "www/data/**",
+    "German source content",
+    "Crowdin",
+    "ingest/apply",
+    "scripts",
+    "LRB-090",
+    "LRB-091",
+    "LRB-092"
+  ]
+}

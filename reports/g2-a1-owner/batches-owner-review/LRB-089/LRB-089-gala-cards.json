@@ -1,10 +1,10 @@
 {
   "batchId": "LRB-089",
-  "generatedAt": "2026-09-13T11:41:52.693Z",
-  "sourceCommit": "ac4100c532f97e4995fa643ffdeb1db888348685",
+  "generatedAt": "2026-09-13T11:59:21.210Z",
+  "sourceCommit": "c61d0c175b379c90b502aa8f30c59aaf5df3ecf6",
   "reviewer": "GPT-5.6 Luna",
   "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
-  "overridesSha256": "b2b4513abe7e9bee6b2ad3774d902f82a6a55377d25bbeaaebf4fd2f074a7925",
+  "overridesSha256": "2dd479031ae2f3915c2b1b23a1c169e7eb7ba5688a28106dfd2ec67569e47332",
   "uniqueCards": 27,
   "rowCount": 50,
   "languages": {
@@ -230,7 +230,7 @@
           "comparison": [
             {
               "word": "können",
-              "meaning": "Môcť/vedieť",
+              "meaning": "Môcť • Vedieť",
               "example": "Ich kann schwimmen. = Viem plávať."
             },
             {
@@ -250,10 +250,10 @@
             }
           ],
           "tip": {
-            "text": "Pamätajte: zručnosť/schopnosť → können."
+            "text": "Pamätaj: schopnosť alebo zručnosť → können."
           },
           "important": [
-            "können nie je to isté ako dürfen: können = môcť/vedieť, dürfen = smieť.",
+            "können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť.",
             "Vo vete s können sa na konci často objavuje druhé sloveso: Ich kann schwimmen."
           ],
           "sectionAccents": {
@@ -328,7 +328,8 @@
                 "meaning": {},
                 "example": {
                   "yellow": [
-                    "Muszę"
+                    "muss",
+                    "Musím"
                   ]
                 }
               },
@@ -403,7 +404,7 @@
           "comparison": [
             {
               "word": "können",
-              "meaning": "Môcť/vedieť",
+              "meaning": "Môcť • Vedieť",
               "example": "Ich kann schwimmen. = Viem plávať."
             },
             {
@@ -423,10 +424,10 @@
             }
           ],
           "tip": {
-            "text": "Pamätajte: zručnosť/schopnosť → können."
+            "text": "Pamätaj: schopnosť alebo zručnosť → können."
           },
           "important": [
-            "können nie je to isté ako dürfen: können = môcť/vedieť, dürfen = smieť.",
+            "können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť.",
             "Vo vete s können sa na konci často objavuje druhé sloveso: Ich kann schwimmen."
           ],
           "sectionAccents": {
@@ -501,7 +502,8 @@
                 "meaning": {},
                 "example": {
                   "yellow": [
-                    "Muszę"
+                    "muss",
+                    "Musím"
                   ]
                 }
               },
@@ -770,7 +772,7 @@
           "comparison": [
             {
               "word": "können",
-              "meaning": "Môcť/vedieť",
+              "meaning": "Môcť • Vedieť",
               "example": "Ich kann schwimmen. = Viem plávať."
             },
             {
@@ -790,10 +792,10 @@
             }
           ],
           "tip": {
-            "text": "Pamätajte: zručnosť/schopnosť → können."
+            "text": "Pamätaj: schopnosť alebo zručnosť → können."
           },
           "important": [
-            "können nie je to isté ako dürfen: können = môcť/vedieť, dürfen = smieť.",
+            "können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť.",
             "Vo vete s können sa na konci často objavuje druhé sloveso: Ich kann schwimmen."
           ],
           "sectionAccents": {
@@ -868,7 +870,8 @@
                 "meaning": {},
                 "example": {
                   "yellow": [
-                    "Muszę"
+                    "muss",
+                    "Musím"
                   ]
                 }
               },
@@ -943,7 +946,7 @@
           "comparison": [
             {
               "word": "können",
-              "meaning": "Môcť/vedieť",
+              "meaning": "Môcť • Vedieť",
               "example": "Ich kann schwimmen. = Viem plávať."
             },
             {
@@ -963,10 +966,10 @@
             }
           ],
           "tip": {
-            "text": "Pamätajte: zručnosť/schopnosť → können."
+            "text": "Pamätaj: schopnosť alebo zručnosť → können."
           },
           "important": [
-            "können nie je to isté ako dürfen: können = môcť/vedieť, dürfen = smieť.",
+            "können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť.",
             "Vo vete s können sa na konci často objavuje druhé sloveso: Ich kann schwimmen."
           ],
           "sectionAccents": {
@@ -1041,7 +1044,8 @@
                 "meaning": {},
                 "example": {
                   "yellow": [
-                    "Muszę"
+                    "muss",
+                    "Musím"
                   ]
                 }
               },
@@ -1351,16 +1355,16 @@
       },
       "approvedGalaCard": {
         "de": "kosten",
-        "lv": "Stáť (o cene)",
+        "lv": "Stáť (cena)",
         "level": "A1",
         "study": {
           "id": "a1-kosten",
           "layout": "standardStudy",
-          "translation": "Stáť (o cene)",
+          "translation": "Stáť (cena)",
           "explanation": [
             "Hlavná myšlienka: kosten znamená stáť určitú sumu – hovorí o cene veci.",
             "Toto slovo používame, keď sa pýtame alebo hovoríme, koľko niečo stojí, nie vtedy, keď daná osoba platí.",
-            "Pýtať sa na cenu v nemčine často začína slovami Was kostet...?",
+            "Otázka na cenu sa v nemčine často začína slovami Was kostet...?",
             "V slovenčine sa v tomto kontexte používa „stáť“: Das kostet 5 Euro. = Stojí to 5 eur.",
             "Keď niekto dá peniaze za tovar alebo službu, v nemčine sa používa bezahlen alebo zahlen."
           ],
@@ -1422,7 +1426,7 @@
           ],
           "tip": [
             "Pamätaj: otázka na cenu → kosten (Was kostet das?).",
-            "Pamätajte: vykonajte platbu → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+            "Pamätaj: platba → bezahlen • zahlen (Ich bezahle die Rechnung.)."
           ],
           "important": [
             "„kosten“ a „bezahlen“ nie sú synonymá: „kosten“ = koľko to stojí; „bezahlen“ = zaplatiť.",
@@ -1524,7 +1528,7 @@
                 },
                 "example": {
                   "blue": [
-                    "Kosztuje"
+                    "kostet"
                   ]
                 }
               },
@@ -1599,15 +1603,15 @@
         }
       },
       "ownerNew": {
-        "lv": "Stáť (o cene)",
+        "lv": "Stáť (cena)",
         "study": {
           "id": "a1-kosten",
           "layout": "standardStudy",
-          "translation": "Stáť (o cene)",
+          "translation": "Stáť (cena)",
           "explanation": [
             "Hlavná myšlienka: kosten znamená stáť určitú sumu – hovorí o cene veci.",
             "Toto slovo používame, keď sa pýtame alebo hovoríme, koľko niečo stojí, nie vtedy, keď daná osoba platí.",
-            "Pýtať sa na cenu v nemčine často začína slovami Was kostet...?",
+            "Otázka na cenu sa v nemčine často začína slovami Was kostet...?",
             "V slovenčine sa v tomto kontexte používa „stáť“: Das kostet 5 Euro. = Stojí to 5 eur.",
             "Keď niekto dá peniaze za tovar alebo službu, v nemčine sa používa bezahlen alebo zahlen."
           ],
@@ -1669,7 +1673,7 @@
           ],
           "tip": [
             "Pamätaj: otázka na cenu → kosten (Was kostet das?).",
-            "Pamätajte: vykonajte platbu → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+            "Pamätaj: platba → bezahlen • zahlen (Ich bezahle die Rechnung.)."
           ],
           "important": [
             "„kosten“ a „bezahlen“ nie sú synonymá: „kosten“ = koľko to stojí; „bezahlen“ = zaplatiť.",
@@ -1771,7 +1775,7 @@
                 },
                 "example": {
                   "blue": [
-                    "Kosztuje"
+                    "kostet"
                   ]
                 }
               },
@@ -2113,16 +2117,16 @@
       },
       "approvedGalaCard": {
         "de": "kosten",
-        "lv": "Stáť (o cene)",
+        "lv": "Stáť (cena)",
         "level": "A1",
         "study": {
           "id": "a1-kosten",
           "layout": "standardStudy",
-          "translation": "Stáť (o cene)",
+          "translation": "Stáť (cena)",
           "explanation": [
             "Hlavná myšlienka: kosten znamená stáť určitú sumu – hovorí o cene veci.",
             "Toto slovo používame, keď sa pýtame alebo hovoríme, koľko niečo stojí, nie vtedy, keď daná osoba platí.",
-            "Pýtať sa na cenu v nemčine často začína slovami Was kostet...?",
+            "Otázka na cenu sa v nemčine často začína slovami Was kostet...?",
             "V slovenčine sa v tomto kontexte používa „stáť“: Das kostet 5 Euro. = Stojí to 5 eur.",
             "Keď niekto dá peniaze za tovar alebo službu, v nemčine sa používa bezahlen alebo zahlen."
           ],
@@ -2184,7 +2188,7 @@
           ],
           "tip": [
             "Pamätaj: otázka na cenu → kosten (Was kostet das?).",
-            "Pamätajte: vykonajte platbu → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+            "Pamätaj: platba → bezahlen • zahlen (Ich bezahle die Rechnung.)."
           ],
           "important": [
             "„kosten“ a „bezahlen“ nie sú synonymá: „kosten“ = koľko to stojí; „bezahlen“ = zaplatiť.",
@@ -2286,7 +2290,7 @@
                 },
                 "example": {
                   "blue": [
-                    "Kosztuje"
+                    "kostet"
                   ]
                 }
               },
@@ -2361,15 +2365,15 @@
         }
       },
       "ownerNew": {
-        "lv": "Stáť (o cene)",
+        "lv": "Stáť (cena)",
         "study": {
           "id": "a1-kosten",
           "layout": "standardStudy",
-          "translation": "Stáť (o cene)",
+          "translation": "Stáť (cena)",
           "explanation": [
             "Hlavná myšlienka: kosten znamená stáť určitú sumu – hovorí o cene veci.",
             "Toto slovo používame, keď sa pýtame alebo hovoríme, koľko niečo stojí, nie vtedy, keď daná osoba platí.",
-            "Pýtať sa na cenu v nemčine často začína slovami Was kostet...?",
+            "Otázka na cenu sa v nemčine často začína slovami Was kostet...?",
             "V slovenčine sa v tomto kontexte používa „stáť“: Das kostet 5 Euro. = Stojí to 5 eur.",
             "Keď niekto dá peniaze za tovar alebo službu, v nemčine sa používa bezahlen alebo zahlen."
           ],
@@ -2431,7 +2435,7 @@
           ],
           "tip": [
             "Pamätaj: otázka na cenu → kosten (Was kostet das?).",
-            "Pamätajte: vykonajte platbu → bezahlen / zahlen (Ich bezahle die Rechnung.)."
+            "Pamätaj: platba → bezahlen • zahlen (Ich bezahle die Rechnung.)."
           ],
           "important": [
             "„kosten“ a „bezahlen“ nie sú synonymá: „kosten“ = koľko to stojí; „bezahlen“ = zaplatiť.",
@@ -2533,7 +2537,7 @@
                 },
                 "example": {
                   "blue": [
-                    "Kosztuje"
+                    "kostet"
                   ]
                 }
               },
@@ -2818,12 +2822,12 @@
         "de": "Land",
         "de_article": "das",
         "de_plural": "die Länder",
-        "lv": "Krajina • Zem • Vidiek",
+        "lv": "Krajina • Zem",
         "level": "A1",
         "study": {
           "id": "a1-land",
           "layout": "standardStudy",
-          "translation": "Krajina • Zem • Vidiek",
+          "translation": "Krajina • Zem",
           "explanation": [
             "Hlavná myšlienka: das Land najčastejšie znamená krajinu alebo vidiek či zem mimo mesta.",
             "Keď ide o Nemecko, Lotyšsko alebo akékoľvek iné územie s hranicami, prekladá sa to ako krajina.",
@@ -2866,7 +2870,7 @@
             },
             {
               "word": "die Erde",
-              "meaning": "Zem/planéta",
+              "meaning": "Zem • Planéta",
               "example": "Die Erde ist rund."
             }
           ],
@@ -2969,7 +2973,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "planeta"
+                    "Planéta"
                   ]
                 },
                 "example": {}
@@ -3005,11 +3009,11 @@
         }
       },
       "ownerNew": {
-        "lv": "Krajina • Zem • Vidiek",
+        "lv": "Krajina • Zem",
         "study": {
           "id": "a1-land",
           "layout": "standardStudy",
-          "translation": "Krajina • Zem • Vidiek",
+          "translation": "Krajina • Zem",
           "explanation": [
             "Hlavná myšlienka: das Land najčastejšie znamená krajinu alebo vidiek či zem mimo mesta.",
             "Keď ide o Nemecko, Lotyšsko alebo akékoľvek iné územie s hranicami, prekladá sa to ako krajina.",
@@ -3052,7 +3056,7 @@
             },
             {
               "word": "die Erde",
-              "meaning": "Zem/planéta",
+              "meaning": "Zem • Planéta",
               "example": "Die Erde ist rund."
             }
           ],
@@ -3155,7 +3159,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "planeta"
+                    "Planéta"
                   ]
                 },
                 "example": {}
@@ -3401,12 +3405,12 @@
         "de": "Land",
         "de_article": "das",
         "de_plural": "die Länder",
-        "lv": "Krajina • Zem • Vidiek",
+        "lv": "Krajina • Zem",
         "level": "A1",
         "study": {
           "id": "a1-land",
           "layout": "standardStudy",
-          "translation": "Krajina • Zem • Vidiek",
+          "translation": "Krajina • Zem",
           "explanation": [
             "Hlavná myšlienka: das Land najčastejšie znamená krajinu alebo vidiek či zem mimo mesta.",
             "Keď ide o Nemecko, Lotyšsko alebo akékoľvek iné územie s hranicami, prekladá sa to ako krajina.",
@@ -3449,7 +3453,7 @@
             },
             {
               "word": "die Erde",
-              "meaning": "Zem/planéta",
+              "meaning": "Zem • Planéta",
               "example": "Die Erde ist rund."
             }
           ],
@@ -3552,7 +3556,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "planeta"
+                    "Planéta"
                   ]
                 },
                 "example": {}
@@ -3588,11 +3592,11 @@
         }
       },
       "ownerNew": {
-        "lv": "Krajina • Zem • Vidiek",
+        "lv": "Krajina • Zem",
         "study": {
           "id": "a1-land",
           "layout": "standardStudy",
-          "translation": "Krajina • Zem • Vidiek",
+          "translation": "Krajina • Zem",
           "explanation": [
             "Hlavná myšlienka: das Land najčastejšie znamená krajinu alebo vidiek či zem mimo mesta.",
             "Keď ide o Nemecko, Lotyšsko alebo akékoľvek iné územie s hranicami, prekladá sa to ako krajina.",
@@ -3635,7 +3639,7 @@
             },
             {
               "word": "die Erde",
-              "meaning": "Zem/planéta",
+              "meaning": "Zem • Planéta",
               "example": "Die Erde ist rund."
             }
           ],
@@ -3738,7 +3742,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "planeta"
+                    "Planéta"
                   ]
                 },
                 "example": {}
@@ -4798,7 +4802,7 @@
           },
           "important": [
             "lassen neznamená iba „nechať“. Často znamená aj „dovoliť“.",
-            "Lass mich in Ruhe! existuje veľmi populárna fráza: \"Nechaj ma na pokoji!\""
+            "Lass mich in Ruhe! je veľmi častá fráza: „Nechaj ma na pokoji!“"
           ],
           "sectionAccents": {
             "explanation": {
@@ -4901,7 +4905,7 @@
                   "lassen"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -4977,7 +4981,7 @@
           },
           "important": [
             "lassen neznamená iba „nechať“. Často znamená aj „dovoliť“.",
-            "Lass mich in Ruhe! existuje veľmi populárna fráza: \"Nechaj ma na pokoji!\""
+            "Lass mich in Ruhe! je veľmi častá fráza: „Nechaj ma na pokoji!“"
           ],
           "sectionAccents": {
             "explanation": {
@@ -5080,7 +5084,7 @@
                   "lassen"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -5356,7 +5360,7 @@
           },
           "important": [
             "lassen neznamená iba „nechať“. Často znamená aj „dovoliť“.",
-            "Lass mich in Ruhe! existuje veľmi populárna fráza: \"Nechaj ma na pokoji!\""
+            "Lass mich in Ruhe! je veľmi častá fráza: „Nechaj ma na pokoji!“"
           ],
           "sectionAccents": {
             "explanation": {
@@ -5459,7 +5463,7 @@
                   "lassen"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -5535,7 +5539,7 @@
           },
           "important": [
             "lassen neznamená iba „nechať“. Často znamená aj „dovoliť“.",
-            "Lass mich in Ruhe! existuje veľmi populárna fráza: \"Nechaj ma na pokoji!\""
+            "Lass mich in Ruhe! je veľmi častá fráza: „Nechaj ma na pokoji!“"
           ],
           "sectionAccents": {
             "explanation": {
@@ -5638,7 +5642,7 @@
                   "lassen"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -5919,7 +5923,7 @@
           },
           "important": [
             "laufen nie je iba „bežať“. Pri filme alebo zariadení môže znamenať „bežať“ alebo „fungovať“.",
-            "Ich laufe znamená cestovať pešo, nie šoférovať."
+            "Ich laufe znamená pohybovať sa pešo, nie ísť dopravným prostriedkom."
           ],
           "sectionAccents": {
             "explanation": {
@@ -5928,9 +5932,8 @@
               ],
               "green": [
                 "Hlavná",
-                "filmu",
-                "Hlavná",
-                "programu"
+                "filme",
+                "programe"
               ]
             },
             "examples": [
@@ -6103,7 +6106,7 @@
           },
           "important": [
             "laufen nie je iba „bežať“. Pri filme alebo zariadení môže znamenať „bežať“ alebo „fungovať“.",
-            "Ich laufe znamená cestovať pešo, nie šoférovať."
+            "Ich laufe znamená pohybovať sa pešo, nie ísť dopravným prostriedkom."
           ],
           "sectionAccents": {
             "explanation": {
@@ -6112,9 +6115,8 @@
               ],
               "green": [
                 "Hlavná",
-                "filmu",
-                "Hlavná",
-                "programu"
+                "filme",
+                "programe"
               ]
             },
             "examples": [
@@ -6492,7 +6494,7 @@
           },
           "important": [
             "laufen nie je iba „bežať“. Pri filme alebo zariadení môže znamenať „bežať“ alebo „fungovať“.",
-            "Ich laufe znamená cestovať pešo, nie šoférovať."
+            "Ich laufe znamená pohybovať sa pešo, nie ísť dopravným prostriedkom."
           ],
           "sectionAccents": {
             "explanation": {
@@ -6501,9 +6503,8 @@
               ],
               "green": [
                 "Hlavná",
-                "filmu",
-                "Hlavná",
-                "programu"
+                "filme",
+                "programe"
               ]
             },
             "examples": [
@@ -6676,7 +6677,7 @@
           },
           "important": [
             "laufen nie je iba „bežať“. Pri filme alebo zariadení môže znamenať „bežať“ alebo „fungovať“.",
-            "Ich laufe znamená cestovať pešo, nie šoférovať."
+            "Ich laufe znamená pohybovať sa pešo, nie ísť dopravným prostriedkom."
           ],
           "sectionAccents": {
             "explanation": {
@@ -6685,9 +6686,8 @@
               ],
               "green": [
                 "Hlavná",
-                "filmu",
-                "Hlavná",
-                "programu"
+                "filme",
+                "programe"
               ]
             },
             "examples": [
@@ -7121,7 +7121,7 @@
                 },
                 "lv": {
                   "yellow": [
-                    "telefon"
+                    "telefón"
                   ]
                 }
               },
@@ -7180,7 +7180,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "Stojan"
+                    "Stáť"
                   ]
                 },
                 "example": {
@@ -7205,7 +7205,7 @@
                   "liegen"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ],
                 "red": [
                   "legen"
@@ -7324,7 +7324,7 @@
                 },
                 "lv": {
                   "yellow": [
-                    "telefon"
+                    "telefón"
                   ]
                 }
               },
@@ -7383,7 +7383,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "Stojan"
+                    "Stáť"
                   ]
                 },
                 "example": {
@@ -7408,7 +7408,7 @@
                   "liegen"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ],
                 "red": [
                   "legen"
@@ -7751,7 +7751,7 @@
                 },
                 "lv": {
                   "yellow": [
-                    "telefon"
+                    "telefón"
                   ]
                 }
               },
@@ -7810,7 +7810,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "Stojan"
+                    "Stáť"
                   ]
                 },
                 "example": {
@@ -7835,7 +7835,7 @@
                   "liegen"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ],
                 "red": [
                   "legen"
@@ -7954,7 +7954,7 @@
                 },
                 "lv": {
                   "yellow": [
-                    "telefon"
+                    "telefón"
                   ]
                 }
               },
@@ -8013,7 +8013,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "Stojan"
+                    "Stáť"
                   ]
                 },
                 "example": {
@@ -8038,7 +8038,7 @@
                   "liegen"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ],
                 "red": [
                   "legen"
@@ -8241,7 +8241,7 @@
             },
             {
               "de": "Das macht Spaß.",
-              "lv": "Je to skvelá zábava."
+              "lv": "Je to zábavné."
             }
           ],
           "tip": {
@@ -8322,10 +8322,10 @@
             "tip": {
               "left": {
                 "blue": [
-                  "Atceries"
+                  "Was machst du"
                 ],
                 "purple": [
-                  "Atceries"
+                  "Čo robíš"
                 ]
               }
             },
@@ -8371,7 +8371,7 @@
             },
             {
               "de": "Das macht Spaß.",
-              "lv": "Je to skvelá zábava."
+              "lv": "Je to zábavné."
             }
           ],
           "tip": {
@@ -8452,10 +8452,10 @@
             "tip": {
               "left": {
                 "blue": [
-                  "Atceries"
+                  "Was machst du"
                 ],
                 "purple": [
-                  "Atceries"
+                  "Čo robíš"
                 ]
               }
             },
@@ -8652,7 +8652,7 @@
             },
             {
               "de": "Das macht Spaß.",
-              "lv": "Je to skvelá zábava."
+              "lv": "Je to zábavné."
             }
           ],
           "tip": {
@@ -8733,10 +8733,10 @@
             "tip": {
               "left": {
                 "blue": [
-                  "Atceries"
+                  "Was machst du"
                 ],
                 "purple": [
-                  "Atceries"
+                  "Čo robíš"
                 ]
               }
             },
@@ -8782,7 +8782,7 @@
             },
             {
               "de": "Das macht Spaß.",
-              "lv": "Je to skvelá zábava."
+              "lv": "Je to zábavné."
             }
           ],
           "tip": {
@@ -8863,10 +8863,10 @@
             "tip": {
               "left": {
                 "blue": [
-                  "Atceries"
+                  "Was machst du"
                 ],
                 "purple": [
-                  "Atceries"
+                  "Čo robíš"
                 ]
               }
             },
@@ -9059,7 +9059,7 @@
             "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
             "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
             "Množné číslo: die Männer.",
-            "Ženský tvar die Frau má podobnú dvojitú nozīmi: žena AJ manželka."
+            "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
           ],
           "examples": [
             {
@@ -9196,7 +9196,7 @@
             "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
             "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
             "Množné číslo: die Männer.",
-            "Ženský tvar die Frau má podobnú dvojitú nozīmi: žena AJ manželka."
+            "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
           ],
           "examples": [
             {
@@ -9495,7 +9495,7 @@
             "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
             "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
             "Množné číslo: die Männer.",
-            "Ženský tvar die Frau má podobnú dvojitú nozīmi: žena AJ manželka."
+            "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
           ],
           "examples": [
             {
@@ -9632,7 +9632,7 @@
             "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
             "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
             "Množné číslo: die Männer.",
-            "Ženský tvar die Frau má podobnú dvojitú nozīmi: žena AJ manželka."
+            "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
           ],
           "examples": [
             {
@@ -9977,7 +9977,7 @@
           "explanation": [
             "Hlavná myšlienka: nach znamená „do“ pri miestach a „po“ pri čase alebo poradí.",
             "Pri mestách a krajinách bez člena nach často znamená „do“.",
-            "Postupom času nach znamená po.",
+            "Pri časovom poradí nach znamená „po“.",
             "Vo fráze nach Hause znamená domov."
           ],
           "examples": [
@@ -10046,7 +10046,7 @@
                 },
                 "lv": {
                   "green": [
-                    "Berlina"
+                    "Berlína"
                   ]
                 }
               },
@@ -10139,7 +10139,7 @@
                   "nach"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -10167,7 +10167,7 @@
           "explanation": [
             "Hlavná myšlienka: nach znamená „do“ pri miestach a „po“ pri čase alebo poradí.",
             "Pri mestách a krajinách bez člena nach často znamená „do“.",
-            "Postupom času nach znamená po.",
+            "Pri časovom poradí nach znamená „po“.",
             "Vo fráze nach Hause znamená domov."
           ],
           "examples": [
@@ -10236,7 +10236,7 @@
                 },
                 "lv": {
                   "green": [
-                    "Berlina"
+                    "Berlína"
                   ]
                 }
               },
@@ -10329,7 +10329,7 @@
                   "nach"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -10568,7 +10568,7 @@
           "explanation": [
             "Hlavná myšlienka: nach znamená „do“ pri miestach a „po“ pri čase alebo poradí.",
             "Pri mestách a krajinách bez člena nach často znamená „do“.",
-            "Postupom času nach znamená po.",
+            "Pri časovom poradí nach znamená „po“.",
             "Vo fráze nach Hause znamená domov."
           ],
           "examples": [
@@ -10637,7 +10637,7 @@
                 },
                 "lv": {
                   "green": [
-                    "Berlina"
+                    "Berlína"
                   ]
                 }
               },
@@ -10730,7 +10730,7 @@
                   "nach"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -10758,7 +10758,7 @@
           "explanation": [
             "Hlavná myšlienka: nach znamená „do“ pri miestach a „po“ pri čase alebo poradí.",
             "Pri mestách a krajinách bez člena nach často znamená „do“.",
-            "Postupom času nach znamená po.",
+            "Pri časovom poradí nach znamená „po“.",
             "Vo fráze nach Hause znamená domov."
           ],
           "examples": [
@@ -10827,7 +10827,7 @@
                 },
                 "lv": {
                   "green": [
-                    "Berlina"
+                    "Berlína"
                   ]
                 }
               },
@@ -10920,7 +10920,7 @@
                   "nach"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -11112,7 +11112,7 @@
             },
             {
               "de": "Das ist ganz natürlich.",
-              "lv": "To je úplne prirodzené/normálne."
+              "lv": "To je úplne prirodzené alebo normálne."
             }
           ],
           "tip": [
@@ -11187,7 +11187,7 @@
               {},
               {
                 "blue": [
-                  "Prirodzene"
+                  "Natürlich"
                 ]
               }
             ]
@@ -11229,7 +11229,7 @@
             },
             {
               "de": "Das ist ganz natürlich.",
-              "lv": "To je úplne prirodzené/normálne."
+              "lv": "To je úplne prirodzené alebo normálne."
             }
           ],
           "tip": [
@@ -11304,7 +11304,7 @@
               {},
               {
                 "blue": [
-                  "Prirodzene"
+                  "Natürlich"
                 ]
               }
             ]
@@ -11484,7 +11484,7 @@
             },
             {
               "de": "Das ist ganz natürlich.",
-              "lv": "To je úplne prirodzené/normálne."
+              "lv": "To je úplne prirodzené alebo normálne."
             }
           ],
           "tip": [
@@ -11559,7 +11559,7 @@
               {},
               {
                 "blue": [
-                  "Prirodzene"
+                  "Natürlich"
                 ]
               }
             ]
@@ -11601,7 +11601,7 @@
             },
             {
               "de": "Das ist ganz natürlich.",
-              "lv": "To je úplne prirodzené/normálne."
+              "lv": "To je úplne prirodzené alebo normálne."
             }
           ],
           "tip": [
@@ -11676,7 +11676,7 @@
               {},
               {
                 "blue": [
-                  "Prirodzene"
+                  "Natürlich"
                 ]
               }
             ]
@@ -13133,7 +13133,7 @@
             },
             {
               "de": "Was gibt es Neues?",
-              "lv": "Čo je nové"
+              "lv": "Čo je nové?"
             }
           ],
           "tip": [
@@ -13297,7 +13297,7 @@
             },
             {
               "de": "Was gibt es Neues?",
-              "lv": "Čo je nové"
+              "lv": "Čo je nové?"
             }
           ],
           "tip": [
@@ -13590,7 +13590,7 @@
           ],
           "important": [
             "Slovenské „iba“ sa do nemčiny nie vždy prekladá ako nur.",
-            "Nur = iba/výhradne."
+            "nur = iba • výhradne."
           ],
           "sectionAccents": {
             "explanation": {
@@ -13699,7 +13699,7 @@
           ],
           "important": [
             "Slovenské „iba“ sa do nemčiny nie vždy prekladá ako nur.",
-            "Nur = iba/výhradne."
+            "nur = iba • výhradne."
           ],
           "sectionAccents": {
             "explanation": {
@@ -13938,7 +13938,7 @@
           ],
           "important": [
             "Slovenské „iba“ sa do nemčiny nie vždy prekladá ako nur.",
-            "Nur = iba/výhradne."
+            "nur = iba • výhradne."
           ],
           "sectionAccents": {
             "explanation": {
@@ -14047,7 +14047,7 @@
           ],
           "important": [
             "Slovenské „iba“ sa do nemčiny nie vždy prekladá ako nur.",
-            "Nur = iba/výhradne."
+            "nur = iba • výhradne."
           ],
           "sectionAccents": {
             "explanation": {
@@ -14473,10 +14473,10 @@
             "tip": {
               "left": {
                 "blue": [
-                  "Pamätajte"
+                  "oder"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Zapamätaj si"
                 ]
               }
             },
@@ -14652,10 +14652,10 @@
             "tip": {
               "left": {
                 "blue": [
-                  "Pamätajte"
+                  "oder"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Zapamätaj si"
                 ]
               }
             },
@@ -15031,10 +15031,10 @@
             "tip": {
               "left": {
                 "blue": [
-                  "Pamätajte"
+                  "oder"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Zapamätaj si"
                 ]
               }
             },
@@ -15210,10 +15210,10 @@
             "tip": {
               "left": {
                 "blue": [
-                  "Pamätajte"
+                  "oder"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Zapamätaj si"
                 ]
               }
             },
@@ -15443,7 +15443,7 @@
             "Hlavná myšlienka: passen znamená hodiť sa, pristať alebo byť vhodný.",
             "Pri oblečení passen často znamená sedieť veľkosťou.",
             "Pri farbách alebo štýle passen znamená „pristať“.",
-            "Veľmi populárnou frázou je Das passt. = Hodí sa."
+            "Veľmi častá fráza je Das passt. = Hodí sa."
           ],
           "examples": [
             {
@@ -15560,7 +15560,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "Stojan"
+                    "Pristať"
                   ]
                 },
                 "example": {
@@ -15594,7 +15594,7 @@
                   "Das passt"
                 ],
                 "purple": [
-                  "tas der"
+                  "To sa hodí"
                 ]
               }
             },
@@ -15606,7 +15606,7 @@
               },
               {
                 "purple": [
-                  "plan"
+                  "plán"
                 ]
               }
             ]
@@ -15623,7 +15623,7 @@
             "Hlavná myšlienka: passen znamená hodiť sa, pristať alebo byť vhodný.",
             "Pri oblečení passen často znamená sedieť veľkosťou.",
             "Pri farbách alebo štýle passen znamená „pristať“.",
-            "Veľmi populárnou frázou je Das passt. = Hodí sa."
+            "Veľmi častá fráza je Das passt. = Hodí sa."
           ],
           "examples": [
             {
@@ -15740,7 +15740,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "Stojan"
+                    "Pristať"
                   ]
                 },
                 "example": {
@@ -15774,7 +15774,7 @@
                   "Das passt"
                 ],
                 "purple": [
-                  "tas der"
+                  "To sa hodí"
                 ]
               }
             },
@@ -15786,7 +15786,7 @@
               },
               {
                 "purple": [
-                  "plan"
+                  "plán"
                 ]
               }
             ]
@@ -16004,7 +16004,7 @@
             "Hlavná myšlienka: passen znamená hodiť sa, pristať alebo byť vhodný.",
             "Pri oblečení passen často znamená sedieť veľkosťou.",
             "Pri farbách alebo štýle passen znamená „pristať“.",
-            "Veľmi populárnou frázou je Das passt. = Hodí sa."
+            "Veľmi častá fráza je Das passt. = Hodí sa."
           ],
           "examples": [
             {
@@ -16121,7 +16121,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "Stojan"
+                    "Pristať"
                   ]
                 },
                 "example": {
@@ -16155,7 +16155,7 @@
                   "Das passt"
                 ],
                 "purple": [
-                  "tas der"
+                  "To sa hodí"
                 ]
               }
             },
@@ -16167,7 +16167,7 @@
               },
               {
                 "purple": [
-                  "plan"
+                  "plán"
                 ]
               }
             ]
@@ -16184,7 +16184,7 @@
             "Hlavná myšlienka: passen znamená hodiť sa, pristať alebo byť vhodný.",
             "Pri oblečení passen často znamená sedieť veľkosťou.",
             "Pri farbách alebo štýle passen znamená „pristať“.",
-            "Veľmi populárnou frázou je Das passt. = Hodí sa."
+            "Veľmi častá fráza je Das passt. = Hodí sa."
           ],
           "examples": [
             {
@@ -16301,7 +16301,7 @@
                 },
                 "meaning": {
                   "purple": [
-                    "Stojan"
+                    "Pristať"
                   ]
                 },
                 "example": {
@@ -16335,7 +16335,7 @@
                   "Das passt"
                 ],
                 "purple": [
-                  "tas der"
+                  "To sa hodí"
                 ]
               }
             },
@@ -16347,7 +16347,7 @@
               },
               {
                 "purple": [
-                  "plan"
+                  "plán"
                 ]
               }
             ]
@@ -16655,7 +16655,7 @@
                 },
                 "lv": {
                   "yellow": [
-                    "Ochutnajte"
+                    "Ochutnaj"
                   ]
                 }
               },
@@ -16754,7 +16754,7 @@
                   "probieren"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -16854,7 +16854,7 @@
                 },
                 "lv": {
                   "yellow": [
-                    "Ochutnajte"
+                    "Ochutnaj"
                   ]
                 }
               },
@@ -16953,7 +16953,7 @@
                   "probieren"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -17273,7 +17273,7 @@
                 },
                 "lv": {
                   "yellow": [
-                    "Ochutnajte"
+                    "Ochutnaj"
                   ]
                 }
               },
@@ -17372,7 +17372,7 @@
                   "probieren"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -17472,7 +17472,7 @@
                 },
                 "lv": {
                   "yellow": [
-                    "Ochutnajte"
+                    "Ochutnaj"
                   ]
                 }
               },
@@ -17571,7 +17571,7 @@
                   "probieren"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -17804,7 +17804,7 @@
             "Hlavná myšlienka: sehen znamená vidieť očami.",
             "Pokiaľ ide o to, čo vnímajú oči, používa sa slovo sehen.",
             "Zámerné pozeranie je často schauen alebo ansehen.",
-            "Veľmi populárnou frázou je Ich sehe dich. = Vidím ťa."
+            "Veľmi častá fráza je Ich sehe dich. = Vidím ťa."
           ],
           "examples": [
             {
@@ -17847,7 +17847,7 @@
             }
           ],
           "tip": {
-            "text": "Pamätaj: oči niečo vnímajú → sehen • vedomé pozeranie → schauen/ansehen."
+            "text": "Pamätaj: oči niečo vnímajú → sehen • vedomé pozeranie → schauen alebo ansehen."
           },
           "important": [
             "Sehen nie je to isté ako anschauen.",
@@ -17987,7 +17987,7 @@
             "Hlavná myšlienka: sehen znamená vidieť očami.",
             "Pokiaľ ide o to, čo vnímajú oči, používa sa slovo sehen.",
             "Zámerné pozeranie je často schauen alebo ansehen.",
-            "Veľmi populárnou frázou je Ich sehe dich. = Vidím ťa."
+            "Veľmi častá fráza je Ich sehe dich. = Vidím ťa."
           ],
           "examples": [
             {
@@ -18030,7 +18030,7 @@
             }
           ],
           "tip": {
-            "text": "Pamätaj: oči niečo vnímajú → sehen • vedomé pozeranie → schauen/ansehen."
+            "text": "Pamätaj: oči niečo vnímajú → sehen • vedomé pozeranie → schauen alebo ansehen."
           },
           "important": [
             "Sehen nie je to isté ako anschauen.",
@@ -18320,7 +18320,7 @@
             "V knihe, časopise alebo na webe die Seite znamená stránku (Seite 5 = strana 5).",
             "V priestorovom význame die Seite znamená stranu (auf der linken Seite = na ľavej strane).",
             "V prenesenom význame môže die Seite znamenať aj stranu v konflikte alebo myšlienke (auf meiner Seite = na mojej strane).",
-            "Kontext (kniha/čítanie alebo položka/vzťah) ukazuje správny význam.",
+            "Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam.",
             "Množné číslo pre oba významy: die Seiten."
           ],
           "examples": [
@@ -18418,7 +18418,7 @@
               {},
               {
                 "blue": [
-                  "Rozprávanie"
+                  "Seite X"
                 ]
               }
             ],
@@ -18444,7 +18444,7 @@
             "V knihe, časopise alebo na webe die Seite znamená stránku (Seite 5 = strana 5).",
             "V priestorovom význame die Seite znamená stranu (auf der linken Seite = na ľavej strane).",
             "V prenesenom význame môže die Seite znamenať aj stranu v konflikte alebo myšlienke (auf meiner Seite = na mojej strane).",
-            "Kontext (kniha/čítanie alebo položka/vzťah) ukazuje správny význam.",
+            "Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam.",
             "Množné číslo pre oba významy: die Seiten."
           ],
           "examples": [
@@ -18542,7 +18542,7 @@
               {},
               {
                 "blue": [
-                  "Rozprávanie"
+                  "Seite X"
                 ]
               }
             ],
@@ -18717,7 +18717,7 @@
             "V knihe, časopise alebo na webe die Seite znamená stránku (Seite 5 = strana 5).",
             "V priestorovom význame die Seite znamená stranu (auf der linken Seite = na ľavej strane).",
             "V prenesenom význame môže die Seite znamenať aj stranu v konflikte alebo myšlienke (auf meiner Seite = na mojej strane).",
-            "Kontext (kniha/čítanie alebo položka/vzťah) ukazuje správny význam.",
+            "Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam.",
             "Množné číslo pre oba významy: die Seiten."
           ],
           "examples": [
@@ -18815,7 +18815,7 @@
               {},
               {
                 "blue": [
-                  "Rozprávanie"
+                  "Seite X"
                 ]
               }
             ],
@@ -18841,7 +18841,7 @@
             "V knihe, časopise alebo na webe die Seite znamená stránku (Seite 5 = strana 5).",
             "V priestorovom význame die Seite znamená stranu (auf der linken Seite = na ľavej strane).",
             "V prenesenom význame môže die Seite znamenať aj stranu v konflikte alebo myšlienke (auf meiner Seite = na mojej strane).",
-            "Kontext (kniha/čítanie alebo položka/vzťah) ukazuje správny význam.",
+            "Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam.",
             "Množné číslo pre oba významy: die Seiten."
           ],
           "examples": [
@@ -18939,7 +18939,7 @@
               {},
               {
                 "blue": [
-                  "Rozprávanie"
+                  "Seite X"
                 ]
               }
             ],
@@ -19310,7 +19310,7 @@
                   "sich"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -19489,7 +19489,7 @@
                   "sich"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -19868,7 +19868,7 @@
                   "sich"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -20047,7 +20047,7 @@
                   "sich"
                 ],
                 "purple": [
-                  "Pamätajte"
+                  "Pamätaj"
                 ]
               }
             },
@@ -20217,7 +20217,7 @@
           "explanation": [
             "Hlavná myšlienka: sicher ako prídavné meno znamená bezpečný, ako príslovka znamená určite alebo pravdepodobne.",
             "Pri mieste, situácii alebo osobe sicher znamená „bezpečný“ (ein sicherer Ort = bezpečné miesto).",
-            "Ako potvrdenie alebo uistenie vo vete, sicher = určite/samozrejme (Das ist sicher wahr. = Určite je to pravda.).",
+            "Ako potvrdenie alebo uistenie vo vete sicher znamená „určite“ alebo „samozrejme“ (Das ist sicher wahr. = Určite je to pravda.).",
             "Sicher! ako samostatná odpoveď znamená „Samozrejme!“ alebo „Iste!“"
           ],
           "examples": [
@@ -20239,7 +20239,7 @@
             },
             {
               "de": "Ich bin mir sicher.",
-              "lv": "Som si istý"
+              "lv": "Som si istý."
             },
             {
               "de": "Fahr sicher!",
@@ -20248,7 +20248,7 @@
           ],
           "tip": [
             "Pri mieste alebo situácii, keď ide o bezpečnosť → bezpečný.",
-            "Ako presvedčenie alebo potvrdenie vo vete → určite/pravdepodobne."
+            "Ako presvedčenie alebo potvrdenie vo vete → určite alebo pravdepodobne."
           ],
           "important": [
             "sicher = bezpečný ako prídavné meno ALEBO určite či pravdepodobne ako príslovka.",
@@ -20334,7 +20334,7 @@
           "explanation": [
             "Hlavná myšlienka: sicher ako prídavné meno znamená bezpečný, ako príslovka znamená určite alebo pravdepodobne.",
             "Pri mieste, situácii alebo osobe sicher znamená „bezpečný“ (ein sicherer Ort = bezpečné miesto).",
-            "Ako potvrdenie alebo uistenie vo vete, sicher = určite/samozrejme (Das ist sicher wahr. = Určite je to pravda.).",
+            "Ako potvrdenie alebo uistenie vo vete sicher znamená „určite“ alebo „samozrejme“ (Das ist sicher wahr. = Určite je to pravda.).",
             "Sicher! ako samostatná odpoveď znamená „Samozrejme!“ alebo „Iste!“"
           ],
           "examples": [
@@ -20356,7 +20356,7 @@
             },
             {
               "de": "Ich bin mir sicher.",
-              "lv": "Som si istý"
+              "lv": "Som si istý."
             },
             {
               "de": "Fahr sicher!",
@@ -20365,7 +20365,7 @@
           ],
           "tip": [
             "Pri mieste alebo situácii, keď ide o bezpečnosť → bezpečný.",
-            "Ako presvedčenie alebo potvrdenie vo vete → určite/pravdepodobne."
+            "Ako presvedčenie alebo potvrdenie vo vete → určite alebo pravdepodobne."
           ],
           "important": [
             "sicher = bezpečný ako prídavné meno ALEBO určite či pravdepodobne ako príslovka.",
@@ -20589,7 +20589,7 @@
           "explanation": [
             "Hlavná myšlienka: sicher ako prídavné meno znamená bezpečný, ako príslovka znamená určite alebo pravdepodobne.",
             "Pri mieste, situácii alebo osobe sicher znamená „bezpečný“ (ein sicherer Ort = bezpečné miesto).",
-            "Ako potvrdenie alebo uistenie vo vete, sicher = určite/samozrejme (Das ist sicher wahr. = Určite je to pravda.).",
+            "Ako potvrdenie alebo uistenie vo vete sicher znamená „určite“ alebo „samozrejme“ (Das ist sicher wahr. = Určite je to pravda.).",
             "Sicher! ako samostatná odpoveď znamená „Samozrejme!“ alebo „Iste!“"
           ],
           "examples": [
@@ -20611,7 +20611,7 @@
             },
             {
               "de": "Ich bin mir sicher.",
-              "lv": "Som si istý"
+              "lv": "Som si istý."
             },
             {
               "de": "Fahr sicher!",
@@ -20620,7 +20620,7 @@
           ],
           "tip": [
             "Pri mieste alebo situácii, keď ide o bezpečnosť → bezpečný.",
-            "Ako presvedčenie alebo potvrdenie vo vete → určite/pravdepodobne."
+            "Ako presvedčenie alebo potvrdenie vo vete → určite alebo pravdepodobne."
           ],
           "important": [
             "sicher = bezpečný ako prídavné meno ALEBO určite či pravdepodobne ako príslovka.",
@@ -20706,7 +20706,7 @@
           "explanation": [
             "Hlavná myšlienka: sicher ako prídavné meno znamená bezpečný, ako príslovka znamená určite alebo pravdepodobne.",
             "Pri mieste, situácii alebo osobe sicher znamená „bezpečný“ (ein sicherer Ort = bezpečné miesto).",
-            "Ako potvrdenie alebo uistenie vo vete, sicher = určite/samozrejme (Das ist sicher wahr. = Určite je to pravda.).",
+            "Ako potvrdenie alebo uistenie vo vete sicher znamená „určite“ alebo „samozrejme“ (Das ist sicher wahr. = Určite je to pravda.).",
             "Sicher! ako samostatná odpoveď znamená „Samozrejme!“ alebo „Iste!“"
           ],
           "examples": [
@@ -20728,7 +20728,7 @@
             },
             {
               "de": "Ich bin mir sicher.",
-              "lv": "Som si istý"
+              "lv": "Som si istý."
             },
             {
               "de": "Fahr sicher!",
@@ -20737,7 +20737,7 @@
           ],
           "tip": [
             "Pri mieste alebo situácii, keď ide o bezpečnosť → bezpečný.",
-            "Ako presvedčenie alebo potvrdenie vo vete → určite/pravdepodobne."
+            "Ako presvedčenie alebo potvrdenie vo vete → určite alebo pravdepodobne."
           ],
           "important": [
             "sicher = bezpečný ako prídavné meno ALEBO určite či pravdepodobne ako príslovka.",
@@ -21085,7 +21085,7 @@
             "text": "Pamätajte: téma rozhovoru → über • Nad stolom → über."
           },
           "important": [
-            "Über nie je len názov miesta.",
+            "über nevyjadruje iba miesto.",
             "Sprechen über znamená „hovoriť o“."
           ],
           "sectionAccents": {
@@ -21279,7 +21279,7 @@
             "text": "Pamätajte: téma rozhovoru → über • Nad stolom → über."
           },
           "important": [
-            "Über nie je len názov miesta.",
+            "über nevyjadruje iba miesto.",
             "Sprechen über znamená „hovoriť o“."
           ],
           "sectionAccents": {
@@ -21688,7 +21688,7 @@
             "text": "Pamätajte: téma rozhovoru → über • Nad stolom → über."
           },
           "important": [
-            "Über nie je len názov miesta.",
+            "über nevyjadruje iba miesto.",
             "Sprechen über znamená „hovoriť o“."
           ],
           "sectionAccents": {
@@ -21882,7 +21882,7 @@
             "text": "Pamätajte: téma rozhovoru → über • Nad stolom → über."
           },
           "important": [
-            "Über nie je len názov miesta.",
+            "über nevyjadruje iba miesto.",
             "Sprechen über znamená „hovoriť o“."
           ],
           "sectionAccents": {
@@ -22170,7 +22170,7 @@
           "explanation": [
             "Hlavná myšlienka: Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.",
             "die Uhr znamená zariadenie na meranie času alebo údaj presného času.",
-            "Často charakterizované: konkrétnym časom.",
+            "Pri údaji presného času stojí Uhr za číslom: acht Uhr.",
             "die Uhr znamená hodiny či hodinky alebo údaj času (Es ist acht Uhr, meine Uhr)."
           ],
           "examples": [
@@ -22196,7 +22196,7 @@
             },
             {
               "de": "die Uhr",
-              "lv": "Zariadenie/čas na hodinách; die Zeit"
+              "lv": "Hodiny"
             }
           ],
           "tip": [
@@ -22286,7 +22286,7 @@
           "explanation": [
             "Hlavná myšlienka: Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.",
             "die Uhr znamená zariadenie na meranie času alebo údaj presného času.",
-            "Často charakterizované: konkrétnym časom.",
+            "Pri údaji presného času stojí Uhr za číslom: acht Uhr.",
             "die Uhr znamená hodiny či hodinky alebo údaj času (Es ist acht Uhr, meine Uhr)."
           ],
           "examples": [
@@ -22312,7 +22312,7 @@
             },
             {
               "de": "die Uhr",
-              "lv": "Zariadenie/čas na hodinách; die Zeit"
+              "lv": "Hodiny"
             }
           ],
           "tip": [
@@ -23674,7 +23674,7 @@
             "Hlavná myšlienka: verstehen znamená rozumieť.",
             "Používa sa, keď rozumiete jazyku, osobe, textu alebo situácii.",
             "V slovenčine tu zvyčajne netreba použiť „vedieť“ ani „dokázať“; tie častejšie zodpovedajú nemeckému „können“.",
-            "Veľmi populárna fráza je Ich verstehe. = Rozumiem."
+            "Veľmi častá fráza je Ich verstehe. = Rozumiem."
           ],
           "examples": [
             {
@@ -23717,7 +23717,7 @@
             }
           ],
           "tip": {
-            "text": "Pamätajte: porozumieť textu/osobe → verstehen • Vedieť niečo urobiť → können."
+            "text": "Pamätaj: rozumieť textu alebo osobe → verstehen • vedieť niečo urobiť → können."
           },
           "important": [
             "verstehen nie je hlavné sloveso vo význame „vedieť niečo urobiť“.",
@@ -23844,7 +23844,7 @@
             "Hlavná myšlienka: verstehen znamená rozumieť.",
             "Používa sa, keď rozumiete jazyku, osobe, textu alebo situácii.",
             "V slovenčine tu zvyčajne netreba použiť „vedieť“ ani „dokázať“; tie častejšie zodpovedajú nemeckému „können“.",
-            "Veľmi populárna fráza je Ich verstehe. = Rozumiem."
+            "Veľmi častá fráza je Ich verstehe. = Rozumiem."
           ],
           "examples": [
             {
@@ -23887,7 +23887,7 @@
             }
           ],
           "tip": {
-            "text": "Pamätajte: porozumieť textu/osobe → verstehen • Vedieť niečo urobiť → können."
+            "text": "Pamätaj: rozumieť textu alebo osobe → verstehen • vedieť niečo urobiť → können."
           },
           "important": [
             "verstehen nie je hlavné sloveso vo význame „vedieť niečo urobiť“.",
@@ -25897,8 +25897,7 @@
                 "was"
               ],
               "purple": [
-                "kas",
-                "ko"
+                "čo"
               ]
             },
             "examples": [
@@ -25963,7 +25962,7 @@
               {},
               {
                 "purple": [
-                  "ko"
+                  "was"
                 ]
               }
             ],
@@ -26044,8 +26043,7 @@
                 "was"
               ],
               "purple": [
-                "kas",
-                "ko"
+                "čo"
               ]
             },
             "examples": [
@@ -26110,7 +26108,7 @@
               {},
               {
                 "purple": [
-                  "ko"
+                  "was"
                 ]
               }
             ],
