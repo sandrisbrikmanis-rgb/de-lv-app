@@ -1,0 +1,302 @@
+{
+  "g2/a1/sk|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "raz • jedenkrát",
+    "owner_note": "Pre nemecké „einmal“ sú prirodzené slovenské ekvivalenty „raz“ a „jedenkrát“; súčasné „Raz“ je navyše nesprávne zopakované."
+  },
+  "g2/a1/sk|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ľad • zmrzlina",
+    "owner_note": "Nemecké „Eis“ znamená podľa kontextu slovenské „ľad“ alebo „zmrzlina“, nie dvakrát „Zmrzlina“."
+  },
+  "g2/a1/sk|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ľad • zmrzlina",
+    "owner_note": "Pri nemeckom slove „Eis“ treba uviesť oba významy: „ľad“ a „zmrzlina“; súčasný preklad opakuje iba druhý význam."
+  },
+  "g2/a1/sk|a1-erst|a1.card.a1-erst.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "najprv • iba",
+    "owner_note": "Nemecké „erst“ sa v uvedených významoch prekladá ako „najprv“ alebo „iba“, nie ako prídavné meno „Prvý“ a skrátené „Len“."
+  },
+  "g2/a1/sk|a1-erst|a1.card.a1-erst.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "najprv • iba",
+    "owner_note": "Významy nemeckého „erst“ sú slovenské príslovky „najprv“ a „iba“; „Prvý“ je nesprávny slovný druh a „Len“ nie je vhodne zjednotené s druhým významom."
+  },
+  "g2/a1/sk|a1-erst|a1.card.a1-erst.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "„Erst“ často označuje čas, postupnosť alebo dosiahnutie určitého bodu • „Iba“ obmedzuje množstvo.",
+    "owner_note": "Pri nemeckom „erst“ treba zachovať vysvetlenie jeho časového a postupového významu; druhá časť má preložiť „Nur“ ako slovenské „iba“, nie ponechať nemecký text."
+  },
+  "g2/a1/sk|a1-erst|a1.card.a1-erst.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "najprv • iba",
+    "owner_note": "Nemecké „erst“ má v tomto učebnom poli významy „najprv“ a „iba“, nie „Prvý“ a „Len“."
+  },
+  "g2/a1/sk|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "to • to • bezosobná forma",
+    "owner_note": "Nemecké „es“ sa v slovenčine prekladá ako „to“ alebo označuje bezosobnú formu; „Do“ je nesprávny slovenský tvar."
+  },
+  "g2/a1/sk|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "to • bezosobná forma",
+    "owner_note": "Pre nemecké „es“ sú správne slovenské výrazy „to“ a „bezosobná forma“; súčasné „bezosôbna“ obsahuje pravopisnú chybu."
+  },
+  "g2/a1/sk|a1-es|a1.card.a1-es.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nemecké „es“ nie je lotyšské „es“ • Nemecké „es“ často znamená „to“ alebo sa neprekladá.",
+    "owner_note": "Pri nemeckom „es“ treba opraviť zámená aj jazyky: nejde o lotyšské „ja“ ani o nemecké „ich“, ale o rozdiel medzi nemeckým a lotyšským „es“."
+  },
+  "g2/a1/sk|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "To • Ono • Neosobné zámeno",
+    "owner_note": "Nemecké „es“ je slovenské „to/ono“ a v neosobnom použití ide o neosobné zámeno; „Do“ je nesprávne."
+  },
+  "g2/a1/sk|a1-essen-study|a1.card.a1-essen-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jedlo • Strava",
+    "owner_note": "Nemecké „Essen“ znamená „jedlo“ alebo „strava“; opakovanie „Jedlo“ neposkytuje druhý významový ekvivalent."
+  },
+  "g2/a1/sk|a1-essen-study|a1.card.a1-essen-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jedlo • Strava",
+    "owner_note": "Pri nemeckom slove „Essen“ sú prirodzené slovenské ekvivalenty „jedlo“ a „strava“, nie dve identické položky."
+  },
+  "g2/a1/sk|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké „etwas“ má podľa použitia význam „niečo“ alebo „trochu“, takže aktuálne slovenské preklady sú správne."
+  },
+  "g2/a1/sk|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké „etwas“ sa prekladá ako „niečo“ pri zámenovom použití a „trochu“ pri množstevnom použití; aktuálny zápis je prijateľný."
+  },
+  "g2/a1/sk|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vás • Vám",
+    "owner_note": "Nemecké „euch“ je akuzatív alebo datív množného čísla, preto slovenské tvary sú „vás“ a „vám“, nie nominatívne „vy“."
+  },
+  "g2/a1/sk|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vás • Vám",
+    "owner_note": "Pri nemeckom „euch“ treba rozlíšiť slovenské pádové tvary „vás“ a „vám“; „Vy“ je nesprávny pád."
+  },
+  "g2/a1/sk|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jazdiť • Cestovať",
+    "owner_note": "Nemecké „fahren“ označuje jazdu alebo cestovanie dopravným prostriedkom; „brať“ je významovo nesprávne a duplicitné „Jazdiť“ treba odstrániť."
+  },
+  "g2/a1/sk|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jazdiť • Cestovať",
+    "owner_note": "Sloveso „fahren“ sa po slovensky prirodzene prekladá ako „jazdiť“ alebo „cestovať“, nie ako „brať“."
+  },
+  "g2/a1/sk|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nájsť • Objaviť",
+    "owner_note": "Nemecké „finden“ znamená „nájsť“ alebo „objaviť“; „zvážiť“ má iný význam a v tejto dvojici je nesprávne."
+  },
+  "g2/a1/sk|a1-finden|a1.card.a1-finden.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nájsť • Objaviť",
+    "owner_note": "Nemecké sloveso „finden“ znamená „nájsť“ alebo „objaviť“; „zvážiť“ má v nemčine význam „überlegen“."
+  },
+  "g2/a1/sk|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké podstatné meno „Frau“ môže podľa kontextu znamenať „žena“ aj „manželka“, takže obe slovenské možnosti sú správne."
+  },
+  "g2/a1/sk|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri nemeckom slove „Frau“ sú prekladové možnosti „žena“ a „manželka“ významovo prirodzené a gramaticky správne."
+  },
+  "g2/a1/sk|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pre • Za",
+    "owner_note": "Nemecké „für“ sa v slovenčine prekladá najmä ako „pre“, v kontexte výmeny alebo ceny aj ako „za“; „pro“ je český výraz."
+  },
+  "g2/a1/sk|a1-fuer|a1.card.a1-fuer.study.tip[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Príjemca/zámer → pre • Výmena/dôvod/platba → za",
+    "owner_note": "Pri nemeckom „für“ vyjadruje príjemcu alebo zámer slovenská predložka „pre“, zatiaľ čo výmenu, dôvod či platbu vyjadruje „za“."
+  },
+  "g2/a1/sk|a1-fuer|a1.card.a1-fuer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pre • Za",
+    "owner_note": "Nemecké „für“ má v slovenčine základný ekvivalent „pre“ a pri cene alebo výmene ekvivalent „za“; „pro“ nie je spisovný slovenský preklad."
+  },
+  "g2/a1/sk|a1-ganz-study|a1.card.a1-ganz-study.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Významy nemeckého „ganz“ sú správne zachytené ako „celý“, „všetko dohromady“ a „úplne“."
+  },
+  "g2/a1/sk|a1-gefallen-study|a1.card.a1-gefallen-study.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké „gefallen“ znamená „páčiť sa“ a osoba, ktorej sa niečo páči, stojí v datíve; aktuálne znenie to vysvetľuje správne."
+  },
+  "g2/a1/sk|a1-gleich|a1.card.a1-gleich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Nemecké „gleich“ môže znamenať „okamžite“ aj „rovnaký“, takže obe uvedené slovenské možnosti sú významovo správne."
+  },
+  "g2/a1/sk|a1-gleich|a1.card.a1-gleich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pre nemecké slovo „gleich“ sú „okamžite“ a „rovnaký“ prirodzené slovenské preklady jeho dvoch bežných významov."
+  },
+  "g2/a1/sk|a1-halten|a1.card.a1-halten.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Držať • Zastaviť",
+    "owner_note": "Nemecké sloveso „halten“ znamená „držať“ aj „zastaviť“; „Podržať“ nie je základný význam slovesa."
+  },
+  "g2/a1/sk|a1-halten|a1.card.a1-halten.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Držať • Zastaviť",
+    "owner_note": "Pri slove „halten“ treba uviesť prirodzené slovenské infinitívy „držať“ a „zastaviť“, nie nedokonavé „podržať“."
+  },
+  "g2/a1/sk|a1-heissen|a1.card.a1-heissen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Volať sa • Znamenať",
+    "owner_note": "Nemecké „heißen“ sa pri osobe prekladá ako „volať sa“ a v inom použití aj ako „znamenať“; „Hovorte si“ je nesprávny tvar."
+  },
+  "g2/a1/sk|a1-heissen|a1.card.a1-heissen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Volať sa • Znamenať",
+    "owner_note": "Pre „heißen“ je potrebný slovenský infinitív „volať sa“, pričom „Zmysel“ je podstatné meno a nie vhodný preklad slovesa."
+  },
+  "g2/a1/sk|a1-hoeren-study|a1.card.a1-hoeren-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Počuť • Počúvať",
+    "owner_note": "Nemecké „hören“ pokrýva významy „počuť“ a „počúvať“; opakovanie „Počúvať“ nerozlišuje oba významy."
+  },
+  "g2/a1/sk|a1-hoeren-study|a1.card.a1-hoeren-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Počuť • Počúvať",
+    "owner_note": "Pri „hören“ treba rozlíšiť neúmyselné vnímanie zvuku „počuť“ od zámerného počúvania „počúvať“."
+  },
+  "g2/a1/sk|a1-huebsch|a1.card.a1-huebsch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pekný • Vzhľadovo príťažlivý",
+    "owner_note": "Nemecké prídavné meno „hübsch“ znamená „pekný“ alebo „vzhľadovo príťažlivý“; „atraktívny vzhľadom“ je v slovenčine neprirodzené spojenie."
+  },
+  "g2/a1/sk|a1-ihr|a1.card.a1-ihr.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vy • jej",
+    "owner_note": "Nemecké „ihr“ znamená pri slovese v množnom čísle „vy“, ale ako datív alebo privlastňovacie zámeno „jej“; „ona“ je nesprávny pád."
+  },
+  "g2/a1/sk|a1-ihr|a1.card.a1-ihr.study.tip[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ihr so slovesom v množnom čísle (kommt, habt) = vy • Ihr pri slove v datíve alebo v privlastňovacom význame = jej.",
+    "owner_note": "Pri nemeckom „ihr“ treba opraviť význam pri slovesách z „ty“ na „vy“ a pri datíve či vlastníctve z „ona/jej“ na správne „jej“."
+  },
+  "g2/a1/sk|a1-ihr|a1.card.a1-ihr.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vy • jej",
+    "owner_note": "Pre nemecké zámeno „ihr“ sú správne slovenské ekvivalenty „vy“ a „jej“; „ona“ je v tomto kontexte nesprávny tvar."
+  },
+  "g2/a1/sk|a1-im|a1.card.a1-im.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "v • kde?",
+    "owner_note": "Nemecké slovo „im“ vyjadruje polohu vo vnútri, preto je prirodzený preklad „v • kde?“."
+  },
+  "g2/a1/sk|a1-im|a1.card.a1-im.study.tip[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kam? → do • kde? → v – nezamieňajte si tieto dve veci!",
+    "owner_note": "Pri nemeckom „im“ ide o odpoveď na otázku „kde?“, zatiaľ čo „ins“ odpovedá na „kam?“ a prekladá sa ako „do“."
+  },
+  "g2/a1/sk|a1-im|a1.card.a1-im.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "v • kde?",
+    "owner_note": "Nemecké „im“ označuje miesto, preto má byť slovenský preklad „v • kde?“ namiesto veľkých začiatočných písmen."
+  },
+  "g2/a1/sk|a1-in|a1.card.a1-in.study.important[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nemecké „in“ nie vždy doslova znamená „dovnútra“ • V slovenčine sa často hovorí „v Berlíne, v škole, v kine“.",
+    "owner_note": "Pri nemeckom „in“ je pôvodný text čiastočne v inom jazyku a nesprávne uvádza lotyštinu; oprava používa prirodzené slovenské príklady."
+  },
+  "g2/a1/sk|a1-ins|a1.card.a1-ins.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "do • dovnútra • kam?",
+    "owner_note": "Nemecké „ins“ vyjadruje smer dovnútra, preto sa prekladá ako „do • dovnútra • kam?“, nie ako statické „v“ a „kde?“."
+  },
+  "g2/a1/sk|a1-ins|a1.card.a1-ins.study.important[2]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pre mužský rod: in den Wald • Pre ženský rod: in die Schule.",
+    "owner_note": "Pri nemeckom „ins“ treba rodové označenia uviesť po slovensky ako „mužský rod“ a „ženský rod“, nie „pre mužské“ a „pre ženy“."
+  },
+  "g2/a1/sk|a1-ins|a1.card.a1-ins.study.tip[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kam? → do • kde? → v – to je hlavný rozdiel!",
+    "owner_note": "Nemecké „ins“ odpovedá na „kam?“ a znamená „do“, kým „im“ odpovedá na „kde?“ a znamená „v“; pôvodné „oni“ je chybný preklad."
+  },
+  "g2/a1/sk|a1-ins|a1.card.a1-ins.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "do • dovnútra • kam?",
+    "owner_note": "Nemecké „ins“ označuje pohyb smerom dovnútra, preto slovenské ekvivalenty musia byť „do • dovnútra • kam?“."
+  },
+  "g2/a1/sk|a1-kein|a1.card.a1-kein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "žiadny • nijaký",
+    "owner_note": "Nemecké „kein“ je záporné zámeno alebo determinátor s významom „žiadny • nijaký“, nie všeobecné slovenské „nikto • nič“."
+  },
+  "g2/a1/sk|a1-kein|a1.card.a1-kein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "žiadny • nijaký",
+    "owner_note": "V prípade nemeckého slova „kein“ treba zachovať význam neprítomnosti alebo záporu pri podstatnom mene: „žiadny • nijaký“."
+  }
+}
