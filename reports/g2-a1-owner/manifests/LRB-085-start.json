@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-085",
-  "phase": "PENDING_5125_REVIEW",
+  "phase": "OWNER_APPROVED_OVERRIDES_APPLIED",
   "input_csv_sha256": "11445c7a68969f7143f7f79630ff79d415dcb404e07fe45f6a1664c8d8e9c739",
   "input_row_count": 50,
   "finding_stable_ids": [
@@ -60,5 +60,8 @@
   "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
   "owner_authorization_status": "APPROVED",
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
-  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv"
+  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "overrides_sha256": "5cdbd7fcd083a26d1f3846c7637fed7cc66bf7429ecf3fa1b03e3ae2da881734",
+  "updated_at": "2026-09-13T15:37:57.624Z",
+  "source_commit": "547e750e91c2fe88feb5b0ad75209744a5caea1f"
 }
