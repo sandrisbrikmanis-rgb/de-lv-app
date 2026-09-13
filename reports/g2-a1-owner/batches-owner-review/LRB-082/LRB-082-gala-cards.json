@@ -1,10 +1,11 @@
 {
   "batchId": "LRB-082",
-  "generatedAt": "2026-09-13T17:30:22.164Z",
-  "sourceCommit": "fc544bca4e86392fef59085d839389214472a00a",
+  "generatedAt": "2026-09-13T17:42:24.098Z",
+  "sourceCommit": "9a76db736486359c507da3bd71c897ebc5bfcbdd",
   "reviewer": "GPT-5.6 Luna",
-  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
-  "overridesSha256": "4467ab3a652adafcda05226c85633de3cdbc02cc024e607d8a6379740bb95765",
+  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
+  "correctionRound": 2,
+  "overridesSha256": "f1c3635abff8f7b12cae540935030346be3e57c43a399d428b7e15a13e1ec3d4",
   "uniqueCards": 50,
   "fullStudyCards": 50,
   "rowCount": 50,
@@ -76,8 +77,8 @@
         "de": "Hand",
         "de_article": "die",
         "de_plural": "die Hände",
-        "lv": "Mână",
         "level": "A1",
+        "lv": "Mână",
         "study": {
           "id": "a1-hand-study",
           "layout": "standardStudy",
@@ -124,6 +125,10 @@
         "index": 267
       },
       "ownerNew": {
+        "de": "Hand",
+        "de_article": "die",
+        "de_plural": "die Hände",
+        "level": "A1",
         "lv": "Mână",
         "study": {
           "id": "a1-hand-study",
@@ -372,8 +377,8 @@
       },
       "approvedGalaCard": {
         "de": "heißen",
-        "lv": "A se numi • A însemna",
         "level": "A1",
+        "lv": "A se numi • A însemna",
         "study": {
           "id": "a1-heißen",
           "layout": "standardStudy",
@@ -440,6 +445,8 @@
         "index": 276
       },
       "ownerNew": {
+        "de": "heißen",
+        "level": "A1",
         "lv": "A se numi • A însemna",
         "study": {
           "id": "a1-heißen",
@@ -625,8 +632,8 @@
       },
       "approvedGalaCard": {
         "de": "hoch",
-        "lv": "Înalt • Ridicat",
         "level": "A1",
+        "lv": "Înalt • Ridicat",
         "study": {
           "id": "a1-hoch-study",
           "layout": "standardStudy",
@@ -672,6 +679,8 @@
         "index": 285
       },
       "ownerNew": {
+        "de": "hoch",
+        "level": "A1",
         "lv": "Înalt • Ridicat",
         "study": {
           "id": "a1-hoch-study",
@@ -816,8 +825,8 @@
       },
       "approvedGalaCard": {
         "de": "hören",
-        "lv": "A auzi • A asculta",
         "level": "A1",
+        "lv": "A auzi • A asculta",
         "study": {
           "id": "a1-hoeren-study",
           "layout": "standardStudy",
@@ -851,6 +860,8 @@
         "index": 287
       },
       "ownerNew": {
+        "de": "hören",
+        "level": "A1",
         "lv": "A auzi • A asculta",
         "study": {
           "id": "a1-hoeren-study",
@@ -1103,8 +1114,8 @@
       },
       "approvedGalaCard": {
         "de": "hübsch",
-        "lv": "Frumos",
         "level": "A1",
+        "lv": "Frumos",
         "study": {
           "id": "a1-huebsch",
           "layout": "standardStudy",
@@ -1156,6 +1167,8 @@
         "index": 288
       },
       "ownerNew": {
+        "de": "hübsch",
+        "level": "A1",
         "lv": "Frumos",
         "study": {
           "id": "a1-huebsch",
@@ -1350,8 +1363,8 @@
       },
       "approvedGalaCard": {
         "de": "ihr",
-        "lv": "Voi • Ei • Lor",
         "level": "A1",
+        "lv": "Voi • Ei • Lor",
         "study": {
           "id": "a1-ihr",
           "layout": "standardStudy",
@@ -1402,6 +1415,8 @@
         "index": 292
       },
       "ownerNew": {
+        "de": "ihr",
+        "level": "A1",
         "lv": "Voi • Ei • Lor",
         "study": {
           "id": "a1-ihr",
@@ -1736,8 +1751,8 @@
       },
       "approvedGalaCard": {
         "de": "im",
-        "lv": "În • La",
         "level": "A1",
+        "lv": "În • La",
         "study": {
           "id": "a1-im",
           "layout": "standardStudy",
@@ -1823,6 +1838,8 @@
         "index": 293
       },
       "ownerNew": {
+        "de": "im",
+        "level": "A1",
         "lv": "În • La",
         "study": {
           "id": "a1-im",
@@ -2044,8 +2061,8 @@
       },
       "approvedGalaCard": {
         "de": "in",
-        "lv": "În • La",
         "level": "A1",
+        "lv": "În • La",
         "study": {
           "id": "a1-in",
           "layout": "standardStudy",
@@ -2085,6 +2102,8 @@
         "index": 295
       },
       "ownerNew": {
+        "de": "in",
+        "level": "A1",
         "lv": "În • La",
         "study": {
           "id": "a1-in",
@@ -2228,8 +2247,8 @@
       },
       "approvedGalaCard": {
         "de": "klein",
-        "lv": "Mic",
         "level": "A1",
+        "lv": "Mic",
         "study": {
           "id": "a1-klein-study",
           "layout": "standardStudy",
@@ -2265,6 +2284,8 @@
         "index": 6
       },
       "ownerNew": {
+        "de": "klein",
+        "level": "A1",
         "lv": "Mic",
         "study": {
           "id": "a1-klein-study",
@@ -2490,8 +2511,8 @@
       },
       "approvedGalaCard": {
         "de": "können",
-        "lv": "A putea • A ști să",
         "level": "A1",
+        "lv": "A putea • A ști să",
         "study": {
           "id": "a1-können",
           "layout": "standardStudy",
@@ -2553,6 +2574,8 @@
         "index": 319
       },
       "ownerNew": {
+        "de": "können",
+        "level": "A1",
         "lv": "A putea • A ști să",
         "study": {
           "id": "a1-können",
@@ -2855,8 +2878,8 @@
       },
       "approvedGalaCard": {
         "de": "kosten",
-        "lv": "A costa",
         "level": "A1",
+        "lv": "A costa",
         "study": {
           "id": "a1-kosten",
           "layout": "standardStudy",
@@ -2936,6 +2959,8 @@
         "index": 320
       },
       "ownerNew": {
+        "de": "kosten",
+        "level": "A1",
         "lv": "A costa",
         "study": {
           "id": "a1-kosten",
@@ -3138,8 +3163,8 @@
         "de": "Laden",
         "de_article": "der",
         "de_plural": "die Läden",
-        "lv": "Magazin",
         "level": "A1",
+        "lv": "Magazin",
         "study": {
           "id": "a1-laden-study",
           "layout": "standardStudy",
@@ -3181,6 +3206,10 @@
         "index": 349
       },
       "ownerNew": {
+        "de": "Laden",
+        "de_article": "der",
+        "de_plural": "die Läden",
+        "level": "A1",
         "lv": "Magazin",
         "study": {
           "id": "a1-laden-study",
@@ -3428,8 +3457,8 @@
         "de": "Land",
         "de_article": "das",
         "de_plural": "die Länder",
-        "lv": "Țară • Zonă rurală",
         "level": "A1",
+        "lv": "Țară • Zonă rurală",
         "study": {
           "id": "a1-land",
           "layout": "standardStudy",
@@ -3491,6 +3520,10 @@
         "index": 351
       },
       "ownerNew": {
+        "de": "Land",
+        "de_article": "das",
+        "de_plural": "die Länder",
+        "level": "A1",
         "lv": "Țară • Zonă rurală",
         "study": {
           "id": "a1-land",
@@ -3685,8 +3718,8 @@
       },
       "approvedGalaCard": {
         "de": "lang",
-        "lv": "Lung • Îndelungat",
         "level": "A1",
+        "lv": "Lung • Îndelungat",
         "study": {
           "id": "a1-lang",
           "layout": "standardStudy",
@@ -3735,6 +3768,8 @@
         "index": 352
       },
       "ownerNew": {
+        "de": "lang",
+        "level": "A1",
         "lv": "Lung • Îndelungat",
         "study": {
           "id": "a1-lang",
@@ -3976,8 +4011,8 @@
       },
       "approvedGalaCard": {
         "de": "lassen",
-        "lv": "A lăsa • A permite",
         "level": "A1",
+        "lv": "A lăsa • A permite",
         "study": {
           "id": "a1-lassen",
           "layout": "standardStudy",
@@ -4039,6 +4074,8 @@
         "index": 356
       },
       "ownerNew": {
+        "de": "lassen",
+        "level": "A1",
         "lv": "A lăsa • A permite",
         "study": {
           "id": "a1-lassen",
@@ -4297,8 +4334,8 @@
       },
       "approvedGalaCard": {
         "de": "laufen",
-        "lv": "A alerga • A funcționa",
         "level": "A1",
+        "lv": "A alerga • A funcționa",
         "study": {
           "id": "a1-laufen",
           "layout": "standardStudy",
@@ -4360,6 +4397,8 @@
         "index": 357
       },
       "ownerNew": {
+        "de": "laufen",
+        "level": "A1",
         "lv": "A alerga • A funcționa",
         "study": {
           "id": "a1-laufen",
@@ -4563,8 +4602,8 @@
       },
       "approvedGalaCard": {
         "de": "laut",
-        "lv": "Tare • Zgomotos",
         "level": "A1",
+        "lv": "Tare • Zgomotos",
         "study": {
           "id": "a1-laut",
           "layout": "standardStudy",
@@ -4581,11 +4620,11 @@
               "lv": "Muzica este tare."
             },
             {
-              "de": "Die Musik ist laut.",
+              "de": "Sprich nicht so laut!",
               "lv": "Nu vorbi atât de tare!"
             },
             {
-              "de": "Sprich nicht so laut!",
+              "de": "Das ist sehr laut.",
               "lv": "Este foarte zgomotos."
             }
           ],
@@ -4602,6 +4641,8 @@
         "index": 358
       },
       "ownerNew": {
+        "de": "laut",
+        "level": "A1",
         "lv": "Tare • Zgomotos",
         "study": {
           "id": "a1-laut",
@@ -4619,11 +4660,11 @@
               "lv": "Muzica este tare."
             },
             {
-              "de": "Die Musik ist laut.",
+              "de": "Sprich nicht so laut!",
               "lv": "Nu vorbi atât de tare!"
             },
             {
-              "de": "Sprich nicht so laut!",
+              "de": "Das ist sehr laut.",
               "lv": "Este foarte zgomotos."
             }
           ],
@@ -4782,8 +4823,8 @@
         "de": "Laut",
         "de_article": "der",
         "de_plural": "die Laute",
-        "lv": "Sunet",
         "level": "A1",
+        "lv": "Sunet",
         "study": {
           "id": "a1-laut-study",
           "layout": "standardStudy",
@@ -4808,7 +4849,7 @@
               "lv": "Nu vorbi atât de tare!"
             },
             {
-              "de": "Das ist sehr laut.",
+              "de": "Ich höre einen Laut.",
               "lv": "Aud un sunet."
             }
           ],
@@ -4824,6 +4865,10 @@
         "index": 359
       },
       "ownerNew": {
+        "de": "Laut",
+        "de_article": "der",
+        "de_plural": "die Laute",
+        "level": "A1",
         "lv": "Sunet",
         "study": {
           "id": "a1-laut-study",
@@ -4849,7 +4894,7 @@
               "lv": "Nu vorbi atât de tare!"
             },
             {
-              "de": "Das ist sehr laut.",
+              "de": "Ich höre einen Laut.",
               "lv": "Aud un sunet."
             }
           ],
@@ -5086,8 +5131,8 @@
       },
       "approvedGalaCard": {
         "de": "legen",
-        "lv": "A pune • A așeza",
         "level": "A1",
+        "lv": "A pune • A așeza",
         "study": {
           "id": "a1-legen",
           "layout": "standardStudy",
@@ -5149,6 +5194,8 @@
         "index": 363
       },
       "ownerNew": {
+        "de": "legen",
+        "level": "A1",
         "lv": "A pune • A așeza",
         "study": {
           "id": "a1-legen",
@@ -5323,8 +5370,8 @@
       },
       "approvedGalaCard": {
         "de": "leise",
-        "lv": "Încet • În liniște",
         "level": "A1",
+        "lv": "Încet • În liniște",
         "study": {
           "id": "a1-leise-study",
           "layout": "standardStudy",
@@ -5341,11 +5388,11 @@
               "lv": "Te rog, fă liniște."
             },
             {
-              "de": "Bitte sei leise.",
+              "de": "Die Musik ist leise.",
               "lv": "Muzica se aude încet."
             },
             {
-              "de": "Die Musik ist leise.",
+              "de": "Sprich bitte leise.",
               "lv": "Te rog să vorbești încet."
             }
           ],
@@ -5362,6 +5409,8 @@
         "index": 368
       },
       "ownerNew": {
+        "de": "leise",
+        "level": "A1",
         "lv": "Încet • În liniște",
         "study": {
           "id": "a1-leise-study",
@@ -5379,11 +5428,11 @@
               "lv": "Te rog, fă liniște."
             },
             {
-              "de": "Bitte sei leise.",
+              "de": "Die Musik ist leise.",
               "lv": "Muzica se aude încet."
             },
             {
-              "de": "Die Musik ist leise.",
+              "de": "Sprich bitte leise.",
               "lv": "Te rog să vorbești încet."
             }
           ],
@@ -5617,8 +5666,8 @@
       },
       "approvedGalaCard": {
         "de": "liegen",
-        "lv": "A se afla • A sta întins",
         "level": "A1",
+        "lv": "A se afla • A sta întins",
         "study": {
           "id": "a1-liegen",
           "layout": "standardStudy",
@@ -5680,6 +5729,8 @@
         "index": 377
       },
       "ownerNew": {
+        "de": "liegen",
+        "level": "A1",
         "lv": "A se afla • A sta întins",
         "study": {
           "id": "a1-liegen",
@@ -5881,8 +5932,8 @@
       },
       "approvedGalaCard": {
         "de": "machen",
-        "lv": "A face • A realiza",
         "level": "A1",
+        "lv": "A face • A realiza",
         "study": {
           "id": "a1-machen",
           "layout": "standardStudy",
@@ -5922,6 +5973,8 @@
         "index": 386
       },
       "ownerNew": {
+        "de": "machen",
+        "level": "A1",
         "lv": "A face • A realiza",
         "study": {
           "id": "a1-machen",
@@ -6089,8 +6142,8 @@
         "de": "Mal",
         "de_article": "das",
         "de_plural": "die Male",
-        "lv": "Dată • Ocazie",
         "level": "A1",
+        "lv": "Dată • Ocazie",
         "study": {
           "id": "a1-mal",
           "layout": "standardStudy",
@@ -6131,6 +6184,10 @@
         "index": 390
       },
       "ownerNew": {
+        "de": "Mal",
+        "de_article": "das",
+        "de_plural": "die Male",
+        "level": "A1",
         "lv": "Dată • Ocazie",
         "study": {
           "id": "a1-mal",
@@ -6316,8 +6373,8 @@
         "de": "Mann",
         "de_article": "der",
         "de_plural": "die Männer",
-        "lv": "Bărbat • Soț",
         "level": "A1",
+        "lv": "Bărbat • Soț",
         "study": {
           "id": "a1-mann",
           "layout": "standardStudy",
@@ -6368,6 +6425,10 @@
         "index": 394
       },
       "ownerNew": {
+        "de": "Mann",
+        "de_article": "der",
+        "de_plural": "die Männer",
+        "level": "A1",
         "lv": "Bărbat • Soț",
         "study": {
           "id": "a1-mann",
@@ -6615,8 +6676,8 @@
       },
       "approvedGalaCard": {
         "de": "mit",
-        "lv": "Cu",
         "level": "A1",
+        "lv": "Cu",
         "study": {
           "id": "a1-mit",
           "layout": "standardStudy",
@@ -6678,6 +6739,8 @@
         "index": 408
       },
       "ownerNew": {
+        "de": "mit",
+        "level": "A1",
         "lv": "Cu",
         "study": {
           "id": "a1-mit",
@@ -6929,8 +6992,8 @@
       },
       "approvedGalaCard": {
         "de": "mögen",
-        "lv": "A plăcea",
         "level": "A1",
+        "lv": "A plăcea",
         "study": {
           "id": "a1-mögen",
           "layout": "standardStudy",
@@ -6992,6 +7055,8 @@
         "index": 413
       },
       "ownerNew": {
+        "de": "mögen",
+        "level": "A1",
         "lv": "A plăcea",
         "study": {
           "id": "a1-mögen",
@@ -7195,8 +7260,8 @@
       },
       "approvedGalaCard": {
         "de": "morgen",
-        "lv": "Mâine",
         "level": "A1",
+        "lv": "Mâine",
         "study": {
           "id": "a1-morgen",
           "layout": "standardStudy",
@@ -7225,7 +7290,7 @@
               "lv": "Pe mâine!"
             },
             {
-              "de": "Ich komme morgen.",
+              "de": "Morgen ist Montag.",
               "lv": "Mâine este luni."
             }
           ]
@@ -7233,6 +7298,8 @@
         "index": 417
       },
       "ownerNew": {
+        "de": "morgen",
+        "level": "A1",
         "lv": "Mâine",
         "study": {
           "id": "a1-morgen",
@@ -7262,7 +7329,7 @@
               "lv": "Pe mâine!"
             },
             {
-              "de": "Ich komme morgen.",
+              "de": "Morgen ist Montag.",
               "lv": "Mâine este luni."
             }
           ]
@@ -7408,8 +7475,8 @@
       "approvedGalaCard": {
         "de": "Morgen",
         "de_article": "der",
-        "lv": "Dimineață",
         "level": "A1",
+        "lv": "Dimineață",
         "study": {
           "id": "a1-morgen-study",
           "layout": "standardStudy",
@@ -7447,7 +7514,7 @@
               "lv": "Mâine este luni."
             },
             {
-              "de": "Guten Morgen!",
+              "de": "Der Morgen ist schön.",
               "lv": "Dimineața este frumoasă."
             }
           ]
@@ -7455,6 +7522,9 @@
         "index": 418
       },
       "ownerNew": {
+        "de": "Morgen",
+        "de_article": "der",
+        "level": "A1",
         "lv": "Dimineață",
         "study": {
           "id": "a1-morgen-study",
@@ -7493,7 +7563,7 @@
               "lv": "Mâine este luni."
             },
             {
-              "de": "Guten Morgen!",
+              "de": "Der Morgen ist schön.",
               "lv": "Dimineața este frumoasă."
             }
           ]
@@ -7595,8 +7665,8 @@
       },
       "approvedGalaCard": {
         "de": "noch",
-        "lv": "Încă • Mai",
         "level": "A1",
+        "lv": "Încă • Mai",
         "study": {
           "id": "a1-noch-study",
           "layout": "standardStudy",
@@ -7612,7 +7682,7 @@
               "lv": "Încă sunt acasă."
             },
             {
-              "de": "Ich bin noch zu Hause.",
+              "de": "Bist du noch da?",
               "lv": "Mai ești aici?"
             }
           ],
@@ -7628,6 +7698,8 @@
         "index": 451
       },
       "ownerNew": {
+        "de": "noch",
+        "level": "A1",
         "lv": "Încă • Mai",
         "study": {
           "id": "a1-noch-study",
@@ -7644,7 +7716,7 @@
               "lv": "Încă sunt acasă."
             },
             {
-              "de": "Ich bin noch zu Hause.",
+              "de": "Bist du noch da?",
               "lv": "Mai ești aici?"
             }
           ],
@@ -7784,8 +7856,8 @@
       },
       "approvedGalaCard": {
         "de": "nur",
-        "lv": "Doar • Numai",
         "level": "A1",
+        "lv": "Doar • Numai",
         "study": {
           "id": "a1-nur-study",
           "layout": "standardStudy",
@@ -7802,15 +7874,15 @@
               "lv": "Am doar zece euro."
             },
             {
-              "de": "Ich habe nur zehn Euro.",
+              "de": "Nur du kannst mir helfen.",
               "lv": "Doar tu mă poți ajuta."
             },
             {
-              "de": "Nur du kannst mir helfen.",
+              "de": "Ich möchte nur Kaffee.",
               "lv": "Vreau doar cafea."
             },
             {
-              "de": "Ich möchte nur Kaffee.",
+              "de": "Ich habe nur acht Euro.",
               "lv": "Am doar opt euro."
             }
           ],
@@ -7826,6 +7898,8 @@
         "index": 456
       },
       "ownerNew": {
+        "de": "nur",
+        "level": "A1",
         "lv": "Doar • Numai",
         "study": {
           "id": "a1-nur-study",
@@ -7843,15 +7917,15 @@
               "lv": "Am doar zece euro."
             },
             {
-              "de": "Ich habe nur zehn Euro.",
+              "de": "Nur du kannst mir helfen.",
               "lv": "Doar tu mă poți ajuta."
             },
             {
-              "de": "Nur du kannst mir helfen.",
+              "de": "Ich möchte nur Kaffee.",
               "lv": "Vreau doar cafea."
             },
             {
-              "de": "Ich möchte nur Kaffee.",
+              "de": "Ich habe nur acht Euro.",
               "lv": "Am doar opt euro."
             }
           ],
@@ -8063,8 +8137,8 @@
       },
       "approvedGalaCard": {
         "de": "ob",
-        "lv": "Dacă",
         "level": "A1",
+        "lv": "Dacă",
         "study": {
           "id": "a1-ob",
           "layout": "standardStudy",
@@ -8126,6 +8200,8 @@
         "index": 457
       },
       "ownerNew": {
+        "de": "ob",
+        "level": "A1",
         "lv": "Dacă",
         "study": {
           "id": "a1-ob",
@@ -8311,8 +8387,8 @@
       "approvedGalaCard": {
         "de": "Obst",
         "de_article": "das",
-        "lv": "Fructe",
         "level": "A1",
+        "lv": "Fructe",
         "study": {
           "id": "a1-obst",
           "layout": "standardStudy",
@@ -8336,15 +8412,15 @@
               "lv": "Mâncăm multe fructe."
             },
             {
-              "de": "Wir essen viel Obst.",
+              "de": "Obst ist gesund.",
               "lv": "Fructele sunt sănătoase."
             },
             {
-              "de": "Obst ist gesund.",
+              "de": "Ich mag Obst und Gemüse.",
               "lv": "Îmi plac fructele și legumele."
             },
             {
-              "de": "Ich mag Obst und Gemüse.",
+              "de": "Wir essen Obst.",
               "lv": "Mâncăm fructe."
             }
           ]
@@ -8352,6 +8428,9 @@
         "index": 693
       },
       "ownerNew": {
+        "de": "Obst",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Fructe",
         "study": {
           "id": "a1-obst",
@@ -8376,15 +8455,15 @@
               "lv": "Mâncăm multe fructe."
             },
             {
-              "de": "Wir essen viel Obst.",
+              "de": "Obst ist gesund.",
               "lv": "Fructele sunt sănătoase."
             },
             {
-              "de": "Obst ist gesund.",
+              "de": "Ich mag Obst und Gemüse.",
               "lv": "Îmi plac fructele și legumele."
             },
             {
-              "de": "Ich mag Obst und Gemüse.",
+              "de": "Wir essen Obst.",
               "lv": "Mâncăm fructe."
             }
           ]
@@ -8580,8 +8659,8 @@
       },
       "approvedGalaCard": {
         "de": "oder",
-        "lv": "Sau • Ori",
         "level": "A1",
+        "lv": "Sau • Ori",
         "study": {
           "id": "a1-oder",
           "layout": "standardStudy",
@@ -8643,6 +8722,8 @@
         "index": 459
       },
       "ownerNew": {
+        "de": "oder",
+        "level": "A1",
         "lv": "Sau • Ori",
         "study": {
           "id": "a1-oder",
@@ -8894,8 +8975,8 @@
       },
       "approvedGalaCard": {
         "de": "passen",
-        "lv": "A se potrivi • A-i veni bine",
         "level": "A1",
+        "lv": "A se potrivi • A-i veni bine",
         "study": {
           "id": "a1-passen",
           "layout": "standardStudy",
@@ -8957,6 +9038,8 @@
         "index": 471
       },
       "ownerNew": {
+        "de": "passen",
+        "level": "A1",
         "lv": "A se potrivi • A-i veni bine",
         "study": {
           "id": "a1-passen",
@@ -9228,8 +9311,8 @@
       },
       "approvedGalaCard": {
         "de": "probieren",
-        "lv": "A încerca • A gusta",
         "level": "A1",
+        "lv": "A încerca • A gusta",
         "study": {
           "id": "a1-probieren",
           "layout": "standardStudy",
@@ -9291,6 +9374,8 @@
         "index": 482
       },
       "ownerNew": {
+        "de": "probieren",
+        "level": "A1",
         "lv": "A încerca • A gusta",
         "study": {
           "id": "a1-probieren",
@@ -9438,8 +9523,8 @@
       "approvedGalaCard": {
         "de": "Reis",
         "de_article": "der",
-        "lv": "Orez",
         "level": "A1",
+        "lv": "Orez",
         "study": {
           "id": "a1-reis",
           "layout": "standardStudy",
@@ -9474,6 +9559,9 @@
         "index": 496
       },
       "ownerNew": {
+        "de": "Reis",
+        "de_article": "der",
+        "level": "A1",
         "lv": "Orez",
         "study": {
           "id": "a1-reis",
@@ -9591,8 +9679,8 @@
       },
       "approvedGalaCard": {
         "de": "sagen",
-        "lv": "A spune",
         "level": "A1",
+        "lv": "A spune",
         "study": {
           "id": "a1-sagen-study",
           "layout": "standardStudy",
@@ -9632,6 +9720,8 @@
         "index": 505
       },
       "ownerNew": {
+        "de": "sagen",
+        "level": "A1",
         "lv": "A spune",
         "study": {
           "id": "a1-sagen-study",
@@ -9781,8 +9871,8 @@
       },
       "approvedGalaCard": {
         "de": "schauen",
-        "lv": "A se uita • A privi",
         "level": "A1",
+        "lv": "A se uita • A privi",
         "study": {
           "id": "a1-schauen-study",
           "layout": "standardStudy",
@@ -9827,6 +9917,8 @@
         "index": 510
       },
       "ownerNew": {
+        "de": "schauen",
+        "level": "A1",
         "lv": "A se uita • A privi",
         "study": {
           "id": "a1-schauen-study",
@@ -9947,8 +10039,8 @@
       },
       "approvedGalaCard": {
         "de": "schon",
-        "lv": "Deja",
         "level": "A1",
+        "lv": "Deja",
         "study": {
           "id": "a1-schon-study",
           "layout": "standardStudy",
@@ -9976,6 +10068,8 @@
         "index": 521
       },
       "ownerNew": {
+        "de": "schon",
+        "level": "A1",
         "lv": "Deja",
         "study": {
           "id": "a1-schon-study",
@@ -10135,8 +10229,8 @@
       },
       "approvedGalaCard": {
         "de": "sicher",
-        "lv": "Sigur • Cu siguranță",
         "level": "A1",
+        "lv": "Sigur • Cu siguranță",
         "study": {
           "id": "a1-sicher",
           "layout": "standardStudy",
@@ -10185,6 +10279,8 @@
         "index": 548
       },
       "ownerNew": {
+        "de": "sicher",
+        "level": "A1",
         "lv": "Sigur • Cu siguranță",
         "study": {
           "id": "a1-sicher",
@@ -10375,8 +10471,8 @@
       },
       "approvedGalaCard": {
         "de": "sie",
-        "lv": "Ei • Ele",
         "level": "A1",
+        "lv": "Ei • Ele",
         "study": {
           "id": "a1-sie-study",
           "layout": "standardStudy",
@@ -10410,7 +10506,7 @@
               "lv": "Ea mănâncă."
             },
             {
-              "de": "Sie kochen.",
+              "de": "Sie spielen Fußball.",
               "lv": "Ei joacă fotbal."
             }
           ]
@@ -10418,6 +10514,8 @@
         "index": 549
       },
       "ownerNew": {
+        "de": "sie",
+        "level": "A1",
         "lv": "Ei • Ele",
         "study": {
           "id": "a1-sie-study",
@@ -10452,7 +10550,7 @@
               "lv": "Ea mănâncă."
             },
             {
-              "de": "Sie kochen.",
+              "de": "Sie spielen Fußball.",
               "lv": "Ei joacă fotbal."
             }
           ]
@@ -10602,8 +10700,8 @@
       },
       "approvedGalaCard": {
         "de": "Sie",
-        "lv": "Dumneavoastră",
         "level": "A1",
+        "lv": "Dumneavoastră",
         "study": {
           "id": "a1-sie-study-2",
           "layout": "standardStudy",
@@ -10629,7 +10727,7 @@
               "lv": "Gătiți, vă rog."
             },
             {
-              "de": "Sie kocht.",
+              "de": "Sie spielen Fußball.",
               "lv": "Jucați fotbal."
             }
           ]
@@ -10637,6 +10735,8 @@
         "index": 550
       },
       "ownerNew": {
+        "de": "Sie",
+        "level": "A1",
         "lv": "Dumneavoastră",
         "study": {
           "id": "a1-sie-study-2",
@@ -10663,7 +10763,7 @@
               "lv": "Gătiți, vă rog."
             },
             {
-              "de": "Sie kocht.",
+              "de": "Sie spielen Fußball.",
               "lv": "Jucați fotbal."
             }
           ]
@@ -10879,8 +10979,8 @@
       },
       "approvedGalaCard": {
         "de": "sitzen",
-        "lv": "A sta jos • A ședea",
         "level": "A1",
+        "lv": "A sta jos • A ședea",
         "study": {
           "id": "a1-sitzen",
           "layout": "standardStudy",
@@ -10942,6 +11042,8 @@
         "index": 558
       },
       "ownerNew": {
+        "de": "sitzen",
+        "level": "A1",
         "lv": "A sta jos • A ședea",
         "study": {
           "id": "a1-sitzen",
@@ -11197,8 +11299,8 @@
       },
       "approvedGalaCard": {
         "de": "sollen",
-        "lv": "A trebui",
         "level": "A1",
+        "lv": "A trebui",
         "study": {
           "id": "a1-sollen",
           "layout": "standardStudy",
@@ -11260,6 +11362,8 @@
         "index": 564
       },
       "ownerNew": {
+        "de": "sollen",
+        "level": "A1",
         "lv": "A trebui",
         "study": {
           "id": "a1-sollen",
@@ -11430,8 +11534,8 @@
       },
       "approvedGalaCard": {
         "de": "sprechen",
-        "lv": "A vorbi",
         "level": "A1",
+        "lv": "A vorbi",
         "study": {
           "id": "a1-sprechen-study",
           "layout": "standardStudy",
@@ -11480,6 +11584,8 @@
         "index": 5
       },
       "ownerNew": {
+        "de": "sprechen",
+        "level": "A1",
         "lv": "A vorbi",
         "study": {
           "id": "a1-sprechen-study",
@@ -11746,8 +11852,8 @@
       },
       "approvedGalaCard": {
         "de": "stehen",
-        "lv": "A sta în picioare",
         "level": "A1",
+        "lv": "A sta în picioare",
         "study": {
           "id": "a1-stehen",
           "layout": "standardStudy",
@@ -11809,6 +11915,8 @@
         "index": 576
       },
       "ownerNew": {
+        "de": "stehen",
+        "level": "A1",
         "lv": "A sta în picioare",
         "study": {
           "id": "a1-stehen",
@@ -12074,8 +12182,8 @@
       },
       "approvedGalaCard": {
         "de": "über",
-        "lv": "Deasupra • Despre",
         "level": "A1",
+        "lv": "Deasupra • Despre",
         "study": {
           "id": "a1-über",
           "layout": "standardStudy",
@@ -12137,6 +12245,8 @@
         "index": 608
       },
       "ownerNew": {
+        "de": "über",
+        "level": "A1",
         "lv": "Deasupra • Despre",
         "study": {
           "id": "a1-über",
@@ -12388,8 +12498,8 @@
       },
       "approvedGalaCard": {
         "de": "um",
-        "lv": "La ora • În jurul",
         "level": "A1",
+        "lv": "La ora • În jurul",
         "study": {
           "id": "a1-um",
           "layout": "standardStudy",
@@ -12451,6 +12561,8 @@
         "index": 611
       },
       "ownerNew": {
+        "de": "um",
+        "level": "A1",
         "lv": "La ora • În jurul",
         "study": {
           "id": "a1-um",
@@ -12719,8 +12831,8 @@
       },
       "approvedGalaCard": {
         "de": "unter",
-        "lv": "Sub",
         "level": "A1",
+        "lv": "Sub",
         "study": {
           "id": "a1-unter",
           "layout": "standardStudy",
@@ -12782,6 +12894,8 @@
         "index": 615
       },
       "ownerNew": {
+        "de": "unter",
+        "level": "A1",
         "lv": "Sub",
         "study": {
           "id": "a1-unter",
@@ -12982,8 +13096,8 @@
       "approvedGalaCard": {
         "de": "Urlaub",
         "de_article": "der",
-        "lv": "Concediu • Vacanță",
         "level": "A1",
+        "lv": "Concediu • Vacanță",
         "study": {
           "id": "a1-urlaub",
           "layout": "standardStudy",
@@ -13009,15 +13123,15 @@
               "lv": "Tatăl meu este în concediu."
             },
             {
-              "de": "Mein Vater ist im Urlaub.",
+              "de": "Nächste Woche habe ich Urlaub.",
               "lv": "Săptămâna viitoare sunt în concediu."
             },
             {
-              "de": "Nächste Woche habe ich Urlaub.",
+              "de": "Wir machen Urlaub in Spanien.",
               "lv": "Ne petrecem vacanța în Spania."
             },
             {
-              "de": "Wir machen Urlaub in Spanien.",
+              "de": "im Urlaub",
               "lv": "în concediu"
             }
           ],
@@ -13037,6 +13151,9 @@
         "index": 695
       },
       "ownerNew": {
+        "de": "Urlaub",
+        "de_article": "der",
+        "level": "A1",
         "lv": "Concediu • Vacanță",
         "study": {
           "id": "a1-urlaub",
@@ -13063,15 +13180,15 @@
               "lv": "Tatăl meu este în concediu."
             },
             {
-              "de": "Mein Vater ist im Urlaub.",
+              "de": "Nächste Woche habe ich Urlaub.",
               "lv": "Săptămâna viitoare sunt în concediu."
             },
             {
-              "de": "Nächste Woche habe ich Urlaub.",
+              "de": "Wir machen Urlaub in Spanien.",
               "lv": "Ne petrecem vacanța în Spania."
             },
             {
-              "de": "Wir machen Urlaub in Spanien.",
+              "de": "im Urlaub",
               "lv": "în concediu"
             }
           ],

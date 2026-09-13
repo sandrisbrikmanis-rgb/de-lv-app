@@ -1,8 +1,9 @@
 {
   "batchId": "LRB-082",
-  "sourceCommit": "fc544bca4e86392fef59085d839389214472a00a",
+  "sourceCommit": "9a76db736486359c507da3bd71c897ebc5bfcbdd",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
+  "correctionRound": 2,
   "cards": [
     {
       "auditId": "LRB082-0001",
@@ -10,6 +11,10 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Hand»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Hand",
+        "de_article": "die",
+        "de_plural": "die Hände",
+        "level": "A1",
         "lv": "Mână",
         "study": {
           "id": "a1-hand-study",
@@ -62,6 +67,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «heißen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "heißen",
+        "level": "A1",
         "lv": "A se numi • A însemna",
         "study": {
           "id": "a1-heißen",
@@ -134,6 +141,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «hoch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "hoch",
+        "level": "A1",
         "lv": "Înalt • Ridicat",
         "study": {
           "id": "a1-hoch-study",
@@ -185,6 +194,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «hören»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "hören",
+        "level": "A1",
         "lv": "A auzi • A asculta",
         "study": {
           "id": "a1-hoeren-study",
@@ -224,6 +235,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «hübsch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "hübsch",
+        "level": "A1",
         "lv": "Frumos",
         "study": {
           "id": "a1-huebsch",
@@ -281,6 +294,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «ihr»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "ihr",
+        "level": "A1",
         "lv": "Voi • Ei • Lor",
         "study": {
           "id": "a1-ihr",
@@ -337,6 +352,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «im»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "im",
+        "level": "A1",
         "lv": "În • La",
         "study": {
           "id": "a1-im",
@@ -428,6 +445,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «in»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "in",
+        "level": "A1",
         "lv": "În • La",
         "study": {
           "id": "a1-in",
@@ -473,6 +492,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «klein»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "klein",
+        "level": "A1",
         "lv": "Mic",
         "study": {
           "id": "a1-klein-study",
@@ -514,6 +535,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «können»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "können",
+        "level": "A1",
         "lv": "A putea • A ști să",
         "study": {
           "id": "a1-können",
@@ -581,6 +604,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «kosten»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "kosten",
+        "level": "A1",
         "lv": "A costa",
         "study": {
           "id": "a1-kosten",
@@ -666,6 +691,10 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Laden»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Laden",
+        "de_article": "der",
+        "de_plural": "die Läden",
+        "level": "A1",
         "lv": "Magazin",
         "study": {
           "id": "a1-laden-study",
@@ -713,6 +742,10 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Land»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Land",
+        "de_article": "das",
+        "de_plural": "die Länder",
+        "level": "A1",
         "lv": "Țară • Zonă rurală",
         "study": {
           "id": "a1-land",
@@ -780,6 +813,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «lang»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "lang",
+        "level": "A1",
         "lv": "Lung • Îndelungat",
         "study": {
           "id": "a1-lang",
@@ -834,6 +869,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «lassen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "lassen",
+        "level": "A1",
         "lv": "A lăsa • A permite",
         "study": {
           "id": "a1-lassen",
@@ -901,6 +938,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «laufen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "laufen",
+        "level": "A1",
         "lv": "A alerga • A funcționa",
         "study": {
           "id": "a1-laufen",
@@ -968,6 +1007,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «laut»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "laut",
+        "level": "A1",
         "lv": "Tare • Zgomotos",
         "study": {
           "id": "a1-laut",
@@ -985,11 +1026,11 @@
               "lv": "Muzica este tare."
             },
             {
-              "de": "Die Musik ist laut.",
+              "de": "Sprich nicht so laut!",
               "lv": "Nu vorbi atât de tare!"
             },
             {
-              "de": "Sprich nicht so laut!",
+              "de": "Das ist sehr laut.",
               "lv": "Este foarte zgomotos."
             }
           ],
@@ -1011,6 +1052,10 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Laut»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Laut",
+        "de_article": "der",
+        "de_plural": "die Laute",
+        "level": "A1",
         "lv": "Sunet",
         "study": {
           "id": "a1-laut-study",
@@ -1036,7 +1081,7 @@
               "lv": "Nu vorbi atât de tare!"
             },
             {
-              "de": "Das ist sehr laut.",
+              "de": "Ich höre einen Laut.",
               "lv": "Aud un sunet."
             }
           ],
@@ -1057,6 +1102,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «legen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "legen",
+        "level": "A1",
         "lv": "A pune • A așeza",
         "study": {
           "id": "a1-legen",
@@ -1124,6 +1171,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «leise»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "leise",
+        "level": "A1",
         "lv": "Încet • În liniște",
         "study": {
           "id": "a1-leise-study",
@@ -1141,11 +1190,11 @@
               "lv": "Te rog, fă liniște."
             },
             {
-              "de": "Bitte sei leise.",
+              "de": "Die Musik ist leise.",
               "lv": "Muzica se aude încet."
             },
             {
-              "de": "Die Musik ist leise.",
+              "de": "Sprich bitte leise.",
               "lv": "Te rog să vorbești încet."
             }
           ],
@@ -1167,6 +1216,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «liegen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "liegen",
+        "level": "A1",
         "lv": "A se afla • A sta întins",
         "study": {
           "id": "a1-liegen",
@@ -1234,6 +1285,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «machen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "machen",
+        "level": "A1",
         "lv": "A face • A realiza",
         "study": {
           "id": "a1-machen",
@@ -1279,6 +1332,10 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Mal»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Mal",
+        "de_article": "das",
+        "de_plural": "die Male",
+        "level": "A1",
         "lv": "Dată • Ocazie",
         "study": {
           "id": "a1-mal",
@@ -1325,6 +1382,10 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Mann»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Mann",
+        "de_article": "der",
+        "de_plural": "die Männer",
+        "level": "A1",
         "lv": "Bărbat • Soț",
         "study": {
           "id": "a1-mann",
@@ -1381,6 +1442,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «mit»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "mit",
+        "level": "A1",
         "lv": "Cu",
         "study": {
           "id": "a1-mit",
@@ -1448,6 +1511,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «mögen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "mögen",
+        "level": "A1",
         "lv": "A plăcea",
         "study": {
           "id": "a1-mögen",
@@ -1515,6 +1580,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «morgen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "morgen",
+        "level": "A1",
         "lv": "Mâine",
         "study": {
           "id": "a1-morgen",
@@ -1544,7 +1611,7 @@
               "lv": "Pe mâine!"
             },
             {
-              "de": "Ich komme morgen.",
+              "de": "Morgen ist Montag.",
               "lv": "Mâine este luni."
             }
           ]
@@ -1557,6 +1624,9 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Morgen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Morgen",
+        "de_article": "der",
+        "level": "A1",
         "lv": "Dimineață",
         "study": {
           "id": "a1-morgen-study",
@@ -1595,7 +1665,7 @@
               "lv": "Mâine este luni."
             },
             {
-              "de": "Guten Morgen!",
+              "de": "Der Morgen ist schön.",
               "lv": "Dimineața este frumoasă."
             }
           ]
@@ -1608,6 +1678,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «noch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "noch",
+        "level": "A1",
         "lv": "Încă • Mai",
         "study": {
           "id": "a1-noch-study",
@@ -1624,7 +1696,7 @@
               "lv": "Încă sunt acasă."
             },
             {
-              "de": "Ich bin noch zu Hause.",
+              "de": "Bist du noch da?",
               "lv": "Mai ești aici?"
             }
           ],
@@ -1645,6 +1717,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «nur»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "nur",
+        "level": "A1",
         "lv": "Doar • Numai",
         "study": {
           "id": "a1-nur-study",
@@ -1662,15 +1736,15 @@
               "lv": "Am doar zece euro."
             },
             {
-              "de": "Ich habe nur zehn Euro.",
+              "de": "Nur du kannst mir helfen.",
               "lv": "Doar tu mă poți ajuta."
             },
             {
-              "de": "Nur du kannst mir helfen.",
+              "de": "Ich möchte nur Kaffee.",
               "lv": "Vreau doar cafea."
             },
             {
-              "de": "Ich möchte nur Kaffee.",
+              "de": "Ich habe nur acht Euro.",
               "lv": "Am doar opt euro."
             }
           ],
@@ -1691,6 +1765,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «ob»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "ob",
+        "level": "A1",
         "lv": "Dacă",
         "study": {
           "id": "a1-ob",
@@ -1758,6 +1834,9 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Obst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Obst",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Fructe",
         "study": {
           "id": "a1-obst",
@@ -1782,15 +1861,15 @@
               "lv": "Mâncăm multe fructe."
             },
             {
-              "de": "Wir essen viel Obst.",
+              "de": "Obst ist gesund.",
               "lv": "Fructele sunt sănătoase."
             },
             {
-              "de": "Obst ist gesund.",
+              "de": "Ich mag Obst und Gemüse.",
               "lv": "Îmi plac fructele și legumele."
             },
             {
-              "de": "Ich mag Obst und Gemüse.",
+              "de": "Wir essen Obst.",
               "lv": "Mâncăm fructe."
             }
           ]
@@ -1803,6 +1882,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «oder»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "oder",
+        "level": "A1",
         "lv": "Sau • Ori",
         "study": {
           "id": "a1-oder",
@@ -1870,6 +1951,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «passen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "passen",
+        "level": "A1",
         "lv": "A se potrivi • A-i veni bine",
         "study": {
           "id": "a1-passen",
@@ -1937,6 +2020,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «probieren»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "probieren",
+        "level": "A1",
         "lv": "A încerca • A gusta",
         "study": {
           "id": "a1-probieren",
@@ -2004,6 +2089,9 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Reis»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Reis",
+        "de_article": "der",
+        "level": "A1",
         "lv": "Orez",
         "study": {
           "id": "a1-reis",
@@ -2044,6 +2132,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «sagen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "sagen",
+        "level": "A1",
         "lv": "A spune",
         "study": {
           "id": "a1-sagen-study",
@@ -2089,6 +2179,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «schauen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "schauen",
+        "level": "A1",
         "lv": "A se uita • A privi",
         "study": {
           "id": "a1-schauen-study",
@@ -2139,6 +2231,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «schon»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "schon",
+        "level": "A1",
         "lv": "Deja",
         "study": {
           "id": "a1-schon-study",
@@ -2172,6 +2266,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «sicher»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "sicher",
+        "level": "A1",
         "lv": "Sigur • Cu siguranță",
         "study": {
           "id": "a1-sicher",
@@ -2226,6 +2322,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «sie»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "sie",
+        "level": "A1",
         "lv": "Ei • Ele",
         "study": {
           "id": "a1-sie-study",
@@ -2260,7 +2358,7 @@
               "lv": "Ea mănâncă."
             },
             {
-              "de": "Sie kochen.",
+              "de": "Sie spielen Fußball.",
               "lv": "Ei joacă fotbal."
             }
           ]
@@ -2273,6 +2371,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Sie»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Sie",
+        "level": "A1",
         "lv": "Dumneavoastră",
         "study": {
           "id": "a1-sie-study-2",
@@ -2299,7 +2399,7 @@
               "lv": "Gătiți, vă rog."
             },
             {
-              "de": "Sie kocht.",
+              "de": "Sie spielen Fußball.",
               "lv": "Jucați fotbal."
             }
           ]
@@ -2312,6 +2412,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «sitzen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "sitzen",
+        "level": "A1",
         "lv": "A sta jos • A ședea",
         "study": {
           "id": "a1-sitzen",
@@ -2379,6 +2481,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «sollen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "sollen",
+        "level": "A1",
         "lv": "A trebui",
         "study": {
           "id": "a1-sollen",
@@ -2446,6 +2550,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «sprechen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "sprechen",
+        "level": "A1",
         "lv": "A vorbi",
         "study": {
           "id": "a1-sprechen-study",
@@ -2500,6 +2606,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «stehen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "stehen",
+        "level": "A1",
         "lv": "A sta în picioare",
         "study": {
           "id": "a1-stehen",
@@ -2567,6 +2675,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «über»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "über",
+        "level": "A1",
         "lv": "Deasupra • Despre",
         "study": {
           "id": "a1-über",
@@ -2634,6 +2744,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «um»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "um",
+        "level": "A1",
         "lv": "La ora • În jurul",
         "study": {
           "id": "a1-um",
@@ -2701,6 +2813,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «unter»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "unter",
+        "level": "A1",
         "lv": "Sub",
         "study": {
           "id": "a1-unter",
@@ -2768,6 +2882,9 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Urlaub»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Urlaub",
+        "de_article": "der",
+        "level": "A1",
         "lv": "Concediu • Vacanță",
         "study": {
           "id": "a1-urlaub",
@@ -2794,15 +2911,15 @@
               "lv": "Tatăl meu este în concediu."
             },
             {
-              "de": "Mein Vater ist im Urlaub.",
+              "de": "Nächste Woche habe ich Urlaub.",
               "lv": "Săptămâna viitoare sunt în concediu."
             },
             {
-              "de": "Nächste Woche habe ich Urlaub.",
+              "de": "Wir machen Urlaub in Spanien.",
               "lv": "Ne petrecem vacanța în Spania."
             },
             {
-              "de": "Wir machen Urlaub in Spanien.",
+              "de": "im Urlaub",
               "lv": "în concediu"
             }
           ],
