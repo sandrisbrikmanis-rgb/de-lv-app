@@ -250,8 +250,6 @@
       "owner_note": "RU vienskaitļa vērtība precizēta kā «Ботинок», nevis pārāk plašais «Обувь».",
       "approved_card": {
         "de": "Schuh",
-        "de_article": "der",
-        "de_plural": "die Schuhe",
         "level": "A1",
         "lv": "Ботинок"
       }
@@ -266,8 +264,6 @@
       "owner_note": "RU pamatvērtība precizēta kā «Ученик».",
       "approved_card": {
         "de": "Schüler",
-        "de_article": "der",
-        "de_plural": "die Schüler",
         "level": "A1",
         "lv": "Ученик"
       }
@@ -279,7 +275,7 @@
         7
       ],
       "owner_decision": "LABOT",
-      "owner_note": "Pilna RU kartīte: izņemta transliterācija un latviešu atlikumi, DE pāri atjaunoti.",
+      "owner_note": "Pilna RU kartīte: vācu termini tip/important sadaļā atjaunoti oriģinālajā rakstībā, un neatbilstošā atsauce uz latviešu valodu aizstāta ar precīzu RU kontrastu.",
       "approved_card": {
         "de": "schwimmen",
         "level": "A1",
@@ -335,11 +331,11 @@
             }
           ],
           "tip": {
-            "text": "Помните: плавательное движение → плавание • Отдых в воде → баден."
+            "text": "Запомните: движение или спорт в воде → schwimmen; купание и отдых в воде → baden."
           },
           "important": [
-            "Швиммен и Баден — это не одно и то же.",
-            "По-латышски часто говорят «плавать», а по-немецки нужно проверить, движение это или купание."
+            "Schwimmen и baden — не одно и то же.",
+            "Schwimmen означает «плавать», а baden — «купаться»."
           ]
         }
       }
@@ -498,8 +494,6 @@
       "owner_note": "Pilna RU kartīte aptver «Страница • Сторона» un saglabā avota DE piemēru secību.",
       "approved_card": {
         "de": "Seite",
-        "de_article": "die",
-        "de_plural": "die Seiten",
         "level": "A1",
         "lv": "Страница • Сторона",
         "study": {
@@ -958,8 +952,6 @@
       "owner_note": "RU pamatvērtība precizēta kā «Государство».",
       "approved_card": {
         "de": "Staat",
-        "de_article": "der",
-        "de_plural": "die Staaten",
         "level": "A1",
         "lv": "Государство"
       }
@@ -1334,7 +1326,6 @@
       "owner_note": "Pilna RU kartīte: «Погода», izņemti null lauki un nepareizais «Время (погода)».",
       "approved_card": {
         "de": "Wetter",
-        "de_article": "das",
         "level": "A1",
         "lv": "Погода",
         "study": {
@@ -2126,11 +2117,9 @@
         39
       ],
       "owner_decision": "LABOT",
-      "owner_note": "Pilna SK kartīte: «Návšteva», izņemti dublikāti un latviešu paskaidrojumi.",
+      "owner_note": "Pilna SK kartīte: kļūdainais sinonīms „vizita“ izņemts; Besuch konsekventi nozīmē „návšteva“, bet Besucher — „návštevník“.",
       "approved_card": {
         "de": "Besuch",
-        "de_article": "der",
-        "de_plural": "die Besuche",
         "level": "A1",
         "lv": "Návšteva",
         "study": {
@@ -2138,9 +2127,9 @@
           "layout": "standardStudy",
           "translation": "Návšteva",
           "explanation": [
-            "Hlavná myšlienka: der Besuch znamená návštevu alebo vizitu.",
+            "Hlavná myšlienka: der Besuch znamená návštevu osoby, miesta alebo podujatia.",
             "Pri návšteve miesta alebo podujatia sa používa „návšteva“.",
-            "Pri návšteve človeka možno podľa kontextu povedať „návšteva“ alebo „vizita“.",
+            "Pri návšteve človeka sa používa „návšteva“.",
             "Množné číslo je die Besuche."
           ],
           "examples": [
@@ -2160,7 +2149,7 @@
           "comparison": [
             {
               "word": "der Besuch",
-              "meaning": "návšteva • vizita",
+              "meaning": "návšteva",
               "example": "Danke für deinen Besuch. – Ďakujem za tvoju návštevu."
             },
             {
@@ -2175,7 +2164,7 @@
             }
           ],
           "tip": {
-            "text": "Zapamätajte si: Besuch je návšteva alebo vizita; Besucher je návštevník."
+            "text": "Zapamätajte si: Besuch je návšteva; Besucher je návštevník."
           },
           "important": [
             "Der Besuch môže označovať návštevu človeka, miesta alebo podujatia.",
@@ -2537,7 +2526,7 @@
         46
       ],
       "owner_decision": "LABOT",
-      "owner_note": "Pilna SK kartīte: noteiktais vidējās dzimtes člen, zámeno lietojumi un das/dass atšķirība.",
+      "owner_note": "Pilna SK kartīte: welches salīdzinājuma nozīme dota kā vārdnīcas forma „vzťažné zámeno ktorý“, saskaņojot to ar piemēra formu „ktorú“.",
       "approved_card": {
         "de": "das",
         "level": "A1",
@@ -2574,7 +2563,7 @@
             },
             {
               "word": "welches",
-              "meaning": "ktoré • vzťažné zámeno",
+              "meaning": "vzťažné zámeno „ktorý“",
               "example": "Das ist das Buch, welches ich lese. – Toto je kniha, ktorú čítam."
             }
           ],
@@ -2659,7 +2648,7 @@
         49
       ],
       "owner_decision": "LABOT",
-      "owner_note": "Pilna SK kartīte abām rindām: «Neurčitý člen • Jeden», izlabots «článok» un kļūdainais «Niekto».",
+      "owner_note": "Pilna SK kartīte: ein locījumu skaidrojums precizēts — vidējā dzimtē forma ein saglabājas arī akuzatīvā.",
       "approved_card": {
         "de": "ein",
         "level": "A1",
@@ -2670,9 +2659,9 @@
           "translation": "Neurčitý člen • Jeden",
           "explanation": [
             "Hlavná myšlienka: ein je neurčitý člen.",
-            "Ein sa používa s podstatnými menami mužského a stredného rodu v nominatíve.",
+            "Ein sa používa s podstatnými menami mužského a stredného rodu v nominatíve; pri strednom rode má rovnakú formu aj v akuzatíve.",
             "Pri mužskom rode: ein Mann.",
-            "Pri strednom rode: ein Buch.",
+            "Pri strednom rode: ein Buch; táto forma zostáva aj v akuzatíve.",
             "Pri ženskom rode sa používa eine.",
             "V akuzatíve mužského rodu sa používa einen."
           ],
@@ -2698,7 +2687,7 @@
             "text": "Zapamätajte si: ein nie je iba číslovka „jeden“; často je to neurčitý člen."
           },
           "important": [
-            "Ein sa používa pri mužskom a strednom rode v nominatíve.",
+            "Ein sa používa pri mužskom a strednom rode v nominatíve a pri strednom rode aj v akuzatíve.",
             "Eine sa používa pri ženskom rode.",
             "Einen sa používa pri mužskom rode v akuzatíve.",
             "Ak je vec konkrétne známa, používa sa určitý člen der, die alebo das."
@@ -2716,7 +2705,7 @@
             },
             {
               "word": "ein Buch",
-              "meaning": "stredný rod",
+              "meaning": "stredný rod: nominatív alebo akuzatív",
               "example": "Ich habe ein Buch. – Mám jednu knihu."
             },
             {
@@ -2735,7 +2724,7 @@
         50
       ],
       "owner_decision": "LABOT",
-      "owner_note": "Pilna SK kartīte: «Raz», bez liekiem sinonīmiem un nepamatota laikapstākļu skaidrojuma.",
+      "owner_note": "Pilna SK kartīte: izņemts mācību nolūkam neatbilstošais laikapstākļu teikums; saglabātas tikai einmal faktiskās laika nozīmes.",
       "approved_card": {
         "de": "einmal",
         "level": "A1",
@@ -2747,8 +2736,7 @@
           "explanation": [
             "Hlavná myšlienka: einmal označuje jeden výskyt deja alebo neurčitú chvíľu v minulosti.",
             "Pri počte opakovaní einmal znamená, že sa niečo stane raz.",
-            "V rozprávaní môže einmal uvádzať udalosť, ktorá sa kedysi stala.",
-            "Einmal neoznačuje poveternostné podmienky."
+            "V rozprávaní môže einmal uvádzať udalosť, ktorá sa kedysi stala."
           ],
           "examples": [
             {
@@ -2774,4 +2762,3 @@
     }
   ]
 }
-

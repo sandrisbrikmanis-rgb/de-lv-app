@@ -2,11 +2,11 @@
   "batch_id": "LRB-087",
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
-  "authorizedAt": "2026-09-13T13:35:00.000Z",
-  "linguisticVerdict": "LRB_087_FULL_50_45_5_LINGUISTIC_REVIEW_PASS",
+  "authorizedAt": "2026-09-13T14:01:00.000Z",
+  "linguisticVerdict": "LRB_087_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
-  "labot": 45,
-  "nelabot": 5,
+  "labot": 50,
+  "nelabot": 0,
   "pending": 0,
   "antiBulkPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
@@ -16,11 +16,13 @@
     "ru": 28,
     "sk": 22
   },
-  "unique_cards": 38,
-  "scope": "sagen..zumachen (28 RU) + ab..einmal (22 SK) — semantic, grammar, wrong-language, multi-translation, composite-scope fixes",
+  "unique_target_cards": 45,
+  "full_study_cards": 39,
+  "overridesSha256": "e47b7bec921a6d594d15d646cbd580c7db011444a19dbc69f3c09426d5d0265f",
+  "scope": "sagen..zumachen (28 RU) + ab..einmal (22 SK) — full-card COPY-PASTE remonts",
   "productionSource": "data/ru/a1.js + data/sk/a1.js (read-only review)",
   "lunaAuditScript": "scripts/temp-audit-lrb087-luna.js",
   "lunaModel": "gpt-5.6-luna",
   "lunaTokens": 30779,
-  "note": "OWNER_AUTHORIZATION_STATUS=APPROVED. 45 LABOT / 5 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "OWNER copy/paste full-card remonts applied. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
 }

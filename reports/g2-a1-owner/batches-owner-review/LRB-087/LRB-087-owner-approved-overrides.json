@@ -1,6 +1,6 @@
 {
   "batchId": "LRB-087",
-  "sourceCommit": "e723610c56c3451bd3e6d735c047d86a53b07828",
+  "sourceCommit": "240adea9308a4e998b65de6be6bfcd3d5151d83f",
   "reviewer": "GPT-5.6 Luna",
   "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
   "cards": [
@@ -170,7 +170,7 @@
       "auditId": "LRB087-0007",
       "cardId": "schwimmen|idx:531",
       "status": "LABOT",
-      "reason": "Pilna RU kartīte: izņemta transliterācija un latviešu atlikumi, DE pāri atjaunoti.",
+      "reason": "Pilna RU kartīte: vācu termini tip/important sadaļā atjaunoti oriģinālajā rakstībā, un neatbilstošā atsauce uz latviešu valodu aizstāta ar precīzu RU kontrastu.",
       "new": {
         "lv": "Плавать",
         "study": {
@@ -224,11 +224,11 @@
             }
           ],
           "tip": {
-            "text": "Помните: плавательное движение → плавание • Отдых в воде → баден."
+            "text": "Запомните: движение или спорт в воде → schwimmen; купание и отдых в воде → baden."
           },
           "important": [
-            "Швиммен и Баден — это не одно и то же.",
-            "По-латышски часто говорят «плавать», а по-немецки нужно проверить, движение это или купание."
+            "Schwimmen и baden — не одно и то же.",
+            "Schwimmen означает «плавать», а baden — «купаться»."
           ]
         }
       }
@@ -2062,7 +2062,7 @@
       "auditId": "LRB087-0039",
       "cardId": "a1-besuch",
       "status": "LABOT",
-      "reason": "Pilna SK kartīte: «Návšteva», izņemti dublikāti un latviešu paskaidrojumi.",
+      "reason": "Pilna SK kartīte: kļūdainais sinonīms „vizita“ izņemts; Besuch konsekventi nozīmē „návšteva“, bet Besucher — „návštevník“.",
       "new": {
         "lv": "Návšteva",
         "study": {
@@ -2070,9 +2070,9 @@
           "layout": "standardStudy",
           "translation": "Návšteva",
           "explanation": [
-            "Hlavná myšlienka: der Besuch znamená návštevu alebo vizitu.",
+            "Hlavná myšlienka: der Besuch znamená návštevu osoby, miesta alebo podujatia.",
             "Pri návšteve miesta alebo podujatia sa používa „návšteva“.",
-            "Pri návšteve človeka možno podľa kontextu povedať „návšteva“ alebo „vizita“.",
+            "Pri návšteve človeka sa používa „návšteva“.",
             "Množné číslo je die Besuche."
           ],
           "examples": [
@@ -2092,7 +2092,7 @@
           "comparison": [
             {
               "word": "der Besuch",
-              "meaning": "návšteva • vizita",
+              "meaning": "návšteva",
               "example": "Danke für deinen Besuch. – Ďakujem za tvoju návštevu."
             },
             {
@@ -2107,7 +2107,7 @@
             }
           ],
           "tip": {
-            "text": "Zapamätajte si: Besuch je návšteva alebo vizita; Besucher je návštevník."
+            "text": "Zapamätajte si: Besuch je návšteva; Besucher je návštevník."
           },
           "important": [
             "Der Besuch môže označovať návštevu človeka, miesta alebo podujatia.",
@@ -2510,7 +2510,7 @@
       "auditId": "LRB087-0046",
       "cardId": "a1-das",
       "status": "LABOT",
-      "reason": "Pilna SK kartīte: noteiktais vidējās dzimtes člen, zámeno lietojumi un das/dass atšķirība.",
+      "reason": "Pilna SK kartīte: welches salīdzinājuma nozīme dota kā vārdnīcas forma „vzťažné zámeno ktorý“, saskaņojot to ar piemēra formu „ktorú“.",
       "new": {
         "lv": "Určitý člen stredného rodu",
         "study": {
@@ -2545,7 +2545,7 @@
             },
             {
               "word": "welches",
-              "meaning": "ktoré • vzťažné zámeno",
+              "meaning": "vzťažné zámeno „ktorý“",
               "example": "Das ist das Buch, welches ich lese. – Toto je kniha, ktorú čítam."
             }
           ],
@@ -2621,7 +2621,7 @@
       "auditId": "LRB087-0048",
       "cardId": "a1-ein",
       "status": "LABOT",
-      "reason": "Pilna SK kartīte abām rindām: «Neurčitý člen • Jeden», izlabots «článok» un kļūdainais «Niekto».",
+      "reason": "Pilna SK kartīte: ein locījumu skaidrojums precizēts — vidējā dzimtē forma ein saglabājas arī akuzatīvā.",
       "new": {
         "lv": "Neurčitý člen • Jeden",
         "study": {
@@ -2630,9 +2630,9 @@
           "translation": "Neurčitý člen • Jeden",
           "explanation": [
             "Hlavná myšlienka: ein je neurčitý člen.",
-            "Ein sa používa s podstatnými menami mužského a stredného rodu v nominatíve.",
+            "Ein sa používa s podstatnými menami mužského a stredného rodu v nominatíve; pri strednom rode má rovnakú formu aj v akuzatíve.",
             "Pri mužskom rode: ein Mann.",
-            "Pri strednom rode: ein Buch.",
+            "Pri strednom rode: ein Buch; táto forma zostáva aj v akuzatíve.",
             "Pri ženskom rode sa používa eine.",
             "V akuzatíve mužského rodu sa používa einen."
           ],
@@ -2658,7 +2658,7 @@
             "text": "Zapamätajte si: ein nie je iba číslovka „jeden“; často je to neurčitý člen."
           },
           "important": [
-            "Ein sa používa pri mužskom a strednom rode v nominatíve.",
+            "Ein sa používa pri mužskom a strednom rode v nominatíve a pri strednom rode aj v akuzatíve.",
             "Eine sa používa pri ženskom rode.",
             "Einen sa používa pri mužskom rode v akuzatíve.",
             "Ak je vec konkrétne známa, používa sa určitý člen der, die alebo das."
@@ -2676,7 +2676,7 @@
             },
             {
               "word": "ein Buch",
-              "meaning": "stredný rod",
+              "meaning": "stredný rod: nominatív alebo akuzatív",
               "example": "Ich habe ein Buch. – Mám jednu knihu."
             },
             {
@@ -2692,7 +2692,7 @@
       "auditId": "LRB087-0049",
       "cardId": "a1-ein",
       "status": "LABOT",
-      "reason": "Pilna SK kartīte abām rindām: «Neurčitý člen • Jeden», izlabots «článok» un kļūdainais «Niekto».",
+      "reason": "Pilna SK kartīte: ein locījumu skaidrojums precizēts — vidējā dzimtē forma ein saglabājas arī akuzatīvā.",
       "new": {
         "lv": "Neurčitý člen • Jeden",
         "study": {
@@ -2701,9 +2701,9 @@
           "translation": "Neurčitý člen • Jeden",
           "explanation": [
             "Hlavná myšlienka: ein je neurčitý člen.",
-            "Ein sa používa s podstatnými menami mužského a stredného rodu v nominatíve.",
+            "Ein sa používa s podstatnými menami mužského a stredného rodu v nominatíve; pri strednom rode má rovnakú formu aj v akuzatíve.",
             "Pri mužskom rode: ein Mann.",
-            "Pri strednom rode: ein Buch.",
+            "Pri strednom rode: ein Buch; táto forma zostáva aj v akuzatíve.",
             "Pri ženskom rode sa používa eine.",
             "V akuzatíve mužského rodu sa používa einen."
           ],
@@ -2729,7 +2729,7 @@
             "text": "Zapamätajte si: ein nie je iba číslovka „jeden“; často je to neurčitý člen."
           },
           "important": [
-            "Ein sa používa pri mužskom a strednom rode v nominatíve.",
+            "Ein sa používa pri mužskom a strednom rode v nominatíve a pri strednom rode aj v akuzatíve.",
             "Eine sa používa pri ženskom rode.",
             "Einen sa používa pri mužskom rode v akuzatíve.",
             "Ak je vec konkrétne známa, používa sa určitý člen der, die alebo das."
@@ -2747,7 +2747,7 @@
             },
             {
               "word": "ein Buch",
-              "meaning": "stredný rod",
+              "meaning": "stredný rod: nominatív alebo akuzatív",
               "example": "Ich habe ein Buch. – Mám jednu knihu."
             },
             {
@@ -2763,7 +2763,7 @@
       "auditId": "LRB087-0050",
       "cardId": "a1-einmal",
       "status": "LABOT",
-      "reason": "Pilna SK kartīte: «Raz», bez liekiem sinonīmiem un nepamatota laikapstākļu skaidrojuma.",
+      "reason": "Pilna SK kartīte: izņemts mācību nolūkam neatbilstošais laikapstākļu teikums; saglabātas tikai einmal faktiskās laika nozīmes.",
       "new": {
         "lv": "Raz",
         "study": {
@@ -2773,8 +2773,7 @@
           "explanation": [
             "Hlavná myšlienka: einmal označuje jeden výskyt deja alebo neurčitú chvíľu v minulosti.",
             "Pri počte opakovaní einmal znamená, že sa niečo stane raz.",
-            "V rozprávaní môže einmal uvádzať udalosť, ktorá sa kedysi stala.",
-            "Einmal neoznačuje poveternostné podmienky."
+            "V rozprávaní môže einmal uvádzať udalosť, ktorá sa kedysi stala."
           ],
           "examples": [
             {
