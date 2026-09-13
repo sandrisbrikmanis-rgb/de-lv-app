@@ -1,0 +1,302 @@
+{
+  "g2/a1/lb|Bad|idx:64|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Buedzëmmer",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Buedzëmmer ir gatavā vērtība vācu “Bad” un LV “vannas istaba”."
+  },
+  "g2/a1/lb|Badezimmer|idx:65|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Buedzëmmer",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Buedzëmmer ir gatavā vērtība vācu “Badezimmer” un LV “vannas istaba”."
+  },
+  "g2/a1/lb|Schwimmbad|idx:66|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Schwämm",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Schwämm ir gatavā vērtība vācu “Schwimmbad” un LV “peldbaseins”."
+  },
+  "g2/a1/lb|Sauna|idx:67|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sauna",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Sauna ir gatavā vērtība vācu “Sauna” un LV “sauna”."
+  },
+  "g2/a1/lb|Balkon|idx:70|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Balkon",
+    "owner_note": "Balkonen nav precīzs luksemburgiešu aizvietojums; Balkon ir gatavā vērtība vācu “Balkon” un LV “balkons”."
+  },
+  "g2/a1/lb|Ball|idx:71|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ball",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Ball ir gatavā vērtība vācu “Ball” un LV “bumba”."
+  },
+  "g2/a1/lb|Banane|idx:72|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Banann",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Banann ir gatavā vērtība vācu “Banane” un LV “banāns”."
+  },
+  "g2/a1/lb|Bauch|idx:73|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bauch",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Bauch ir gatavā vērtība vācu “Bauch” un LV “vēders”."
+  },
+  "g2/a1/lb|Baum|idx:74|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bam",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Bam ir gatavā vērtība vācu “Baum” un LV “koks”."
+  },
+  "g2/a1/lb|bedeuten|idx:75|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bedeiten",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; bedeiten ir gatavā vērtība vācu “bedeuten” un LV “nozīmēt”."
+  },
+  "g2/a1/lb|Erdbeere|idx:76|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Äerdbier",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Äerdbier ir gatavā vērtība vācu “Erdbeere” un LV “zemene”."
+  },
+  "g2/a1/lb|beginnen|idx:77|lv|TYPO|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ufänken",
+    "owner_note": "Sakt nav precīzs luksemburgiešu aizvietojums; ufänken ir gatavā vērtība vācu “beginnen” un LV “sākt”."
+  },
+  "g2/a1/lb|beide|idx:79|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "béid",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; béid ir gatavā vērtība vācu “beide” un LV “abi”."
+  },
+  "g2/a1/lb|Bein|idx:80|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Been",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Been ir gatavā vērtība vācu “Bein” un LV “kāja”."
+  },
+  "g2/a1/lb|benutzen|idx:83|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "benotzen",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; benotzen ir gatavā vērtība vācu “benutzen” un LV “lietot”."
+  },
+  "g2/a1/lb|Berg|idx:84|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bierg",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Bierg ir gatavā vērtība vācu “Berg” un LV “kalns”."
+  },
+  "g2/a1/lb|besser|idx:85|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "besser",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; besser ir gatavā vērtība vācu “besser” un LV “labāks”."
+  },
+  "g2/a1/lb|beste|idx:86|lv|GARBLED_TEXT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dee beschten",
+    "owner_note": "Ë § ë ¯ ¯ ì nav precīzs luksemburgiešu aizvietojums; dee beschten ir gatavā vērtība vācu “beste” un LV “vislabākais”."
+  },
+  "g2/a1/lb|Besucher|idx:88|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Visiteur",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Visiteur ir gatavā vērtība vācu “Besucher” un LV “apmeklētājs”."
+  },
+  "g2/a1/lb|bisschen|idx:92|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bëssen",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; bëssen ir gatavā vērtība vācu “bisschen” un LV “mazliet”."
+  },
+  "g2/a1/lb|bitte|idx:93|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"wann ech gelift\",\"study.translation\":\"wann ech gelift\",\"study.explanation\":\"[\\\"Haaptiddi: bitte mat klengem Ufanksbuschtaf ass en Héiflechkeetswuert a bedeit wann ech gelift.\\\",\\\"Et gëtt bei Ufroen, Bestellungen an héiflechen Äntwerte benotzt.\\\",\\\"D’Substantiv die Bitte mat groussem Ufanksbuschtaf bedeit Ufro.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Eine Tasse Kaffee, bitte.\\\",\\\"lv\\\":\\\"Eng Taass Kaffi, wann ech gelift.\\\"},{\\\"de\\\":\\\"Komm bitte herein.\\\",\\\"lv\\\":\\\"Komm eran, wann ech gelift.\\\"},{\\\"de\\\":\\\"Bitte schön!\\\",\\\"lv\\\":\\\"Wann ech gelift!\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bitte\\\",\\\"meaning\\\":\\\"wann ech gelift\\\",\\\"example\\\":\\\"Komm bitte herein. – Komm eran, wann ech gelift.\\\"},{\\\"word\\\":\\\"die Bitte\\\",\\\"meaning\\\":\\\"Ufro\\\",\\\"example\\\":\\\"Ich habe eine Bitte. – Ech hunn eng Ufro.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: bitte mat klengem Buschtaf bedeit wann ech gelift; die Bitte mat groussem Buschtaf bedeit Ufro.\\\"}\",\"study.important\":\"[\\\"bitte ass en Héiflechkeetswuert.\\\",\\\"die Bitte ass e Substantiv mam Artikel die.\\\",\\\"Falsch: Die Bitte schön! Richteg: Bitte schön!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"bitte\\\"],\\\"purple\\\":[\\\"wann ech gelift\\\"],\\\"green\\\":[\\\"die Bitte\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bitte\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"wann ech gelift\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bitte\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"wann ech gelift\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Bitte\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Wann ech gelift\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"blue\\\":[\\\"bitte\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"wann ech gelift\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"die Bitte\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Ufro\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"bitte\\\"],\\\"purple\\\":[\\\"wann ech gelift\\\"],\\\"green\\\":[\\\"die Bitte\\\",\\\"Ufro\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"bitte\\\"],\\\"purple\\\":[\\\"Héiflechkeetswuert\\\"]},{\\\"green\\\":[\\\"die Bitte\\\"],\\\"purple\\\":[\\\"Substantiv\\\"]}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: galvenā doma, visi piemēri, salīdzinājumi, padoms, svarīgais un akcenti aizvietoti ar korektu luksemburgiešu saturu; DE teksti saglabāti. [bitte|idx:93]"
+  },
+  "g2/a1/lb|Bitte|idx:94|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ufro\",\"study.translation\":\"Ufro\",\"study.explanation\":\"[\\\"Haaptiddi: die Bitte ass e Substantiv a bedeit Ufro.\\\",\\\"D’Wuert gëtt mat groussem Ufanksbuschtaf geschriwwen a mam Artikel die benotzt.\\\",\\\"De Pluriel ass die Bitten.\\\",\\\"D’Héiflechkeetswuert bitte mat klengem Ufanksbuschtaf bedeit wann ech gelift.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich habe eine Bitte.\\\",\\\"lv\\\":\\\"Ech hunn eng Ufro.\\\"},{\\\"de\\\":\\\"Er erfüllt meine Bitte.\\\",\\\"lv\\\":\\\"Hien erfëllt meng Ufro.\\\"},{\\\"de\\\":\\\"Sie hat zwei Bitten.\\\",\\\"lv\\\":\\\"Si huet zwou Ufroen.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"die Bitte\\\",\\\"meaning\\\":\\\"Ufro\\\",\\\"example\\\":\\\"Ich habe eine Bitte. – Ech hunn eng Ufro.\\\"},{\\\"word\\\":\\\"bitte\\\",\\\"meaning\\\":\\\"wann ech gelift\\\",\\\"example\\\":\\\"Komm bitte herein. – Komm eran, wann ech gelift.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: die Bitte ass e Substantiv a bedeit Ufro; bitte ass en Héiflechkeetswuert a bedeit wann ech gelift.\\\"}\",\"study.important\":\"[\\\"Artikel: die Bitte.\\\",\\\"Pluriel: die Bitten.\\\",\\\"D’Substantiv gëtt mat groussem Ufanksbuschtaf geschriwwen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"die Bitte\\\",\\\"die Bitten\\\"],\\\"purple\\\":[\\\"Ufro\\\"],\\\"blue\\\":[\\\"bitte\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"Bitte\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ufro\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Bitte\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ufro\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Bitten\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ufroen\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"die Bitte\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Ufro\\\"]}},{\\\"word\\\":{\\\"blue\\\":[\\\"bitte\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"wann ech gelift\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"green\\\":[\\\"die Bitte\\\"],\\\"purple\\\":[\\\"Ufro\\\"],\\\"blue\\\":[\\\"bitte\\\",\\\"wann ech gelift\\\"]}},\\\"important\\\":[{\\\"green\\\":[\\\"die Bitte\\\"]},{\\\"green\\\":[\\\"die Bitten\\\"]},{\\\"purple\\\":[\\\"Substantiv\\\",\\\"groussem Ufanksbuschtaf\\\"]}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: galvenā doma, visi piemēri, salīdzinājumi, padoms, svarīgais un akcenti aizvietoti ar korektu luksemburgiešu saturu; DE teksti saglabāti. [Bitte|idx:94]"
+  },
+  "g2/a1/lb|billig|idx:95|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bëlleg",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; bëlleg ir gatavā vērtība vācu “billig” un LV “lēts”."
+  },
+  "g2/a1/lb|Bier|idx:96|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Béier",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Béier ir gatavā vērtība vācu “Bier” un LV “alus”."
+  },
+  "g2/a1/lb|Bild|idx:97|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bild",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Bild ir gatavā vērtība vācu “Bild” un LV “attēls”."
+  },
+  "g2/a1/lb|bitten|idx:98|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bieden",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; bieden ir gatavā vērtība vācu “bitten” un LV “lūgt”."
+  },
+  "g2/a1/lb|Blatt|idx:99|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Blat",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Blat ir gatavā vērtība vācu “Blatt” un LV “lapa”."
+  },
+  "g2/a1/lb|blau|idx:100|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "blo",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; blo ir gatavā vērtība vācu “blau” un LV “zils”."
+  },
+  "g2/a1/lb|bleiben|idx:101|lv, study|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bleiwen\",\"study.translation\":\"bleiwen\",\"study.explanation\":\"[\\\"Haaptiddi: bleiben bedeit bleiwen.\\\",\\\"bleiben gëtt benotzt, wann eng Persoun oder eng Saach net fortgeet an op där selwechter Plaz oder am selwechten Zoustand bleift.\\\",\\\"Et ass de Géigendeel vu gehen a fahren, wann et drëm geet fortzegoen.\\\",\\\"E ganz heefegen Ausdrock ass Ich bleibe zu Hause.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bleibe zu Hause.\\\",\\\"lv\\\":\\\"Ech bleiwen doheem.\\\"},{\\\"de\\\":\\\"Bleib hier!\\\",\\\"lv\\\":\\\"Bleif hei!\\\"},{\\\"de\\\":\\\"Wir bleiben noch eine Stunde.\\\",\\\"lv\\\":\\\"Mir bleiwen nach eng Stonn.\\\"},{\\\"de\\\":\\\"Ich gehe nach Hause.\\\",\\\"lv\\\":\\\"Ech ginn heem.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"bleiwen\\\",\\\"example\\\":\\\"Ich bleibe hier. – Ech bleiwen hei.\\\"},{\\\"word\\\":\\\"gehen\\\",\\\"meaning\\\":\\\"goen / zu Fouss fortgoen\\\",\\\"example\\\":\\\"Ich gehe nach Hause. – Ech ginn heem.\\\"},{\\\"word\\\":\\\"fahren\\\",\\\"meaning\\\":\\\"fueren / mat engem Transportmëttel fortgoen\\\",\\\"example\\\":\\\"Ich fahre nach Hause. – Ech fueren heem.\\\"},{\\\"word\\\":\\\"warten\\\",\\\"meaning\\\":\\\"waarden\\\",\\\"example\\\":\\\"Ich warte hier. – Ech waarden hei.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: net fortgoen → bleiben; zu Fouss fortgoen → gehen.\\\"}\",\"study.important\":\"[\\\"bleiben bedeit bleiwen, net waarden.\\\",\\\"Ich bleibe hier = Ech bleiwen hei; Ich warte hier = Ech waarden hei.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"bleiben\\\"],\\\"purple\\\":[\\\"bleiwen\\\",\\\"net fortgeet\\\"],\\\"red\\\":[\\\"gehen\\\",\\\"fahren\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bleibe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bleiwen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Bleib\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Bleif\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bleiben\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bleiwen\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"gehe\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"ginn\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"bleiben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"bleiwen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bleibe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"gehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"goen\\\",\\\"fortgoen\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"gehe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"fahren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fueren\\\",\\\"Transportmëttel\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"fahre\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"warten\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"waarden\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"warte\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"bleiben\\\"],\\\"purple\\\":[\\\"net fortgoen\\\"],\\\"red\\\":[\\\"gehen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"bleiben\\\"],\\\"purple\\\":[\\\"bleiwen\\\"],\\\"green\\\":[\\\"waarden\\\"]},{\\\"blue\\\":[\\\"bleibe\\\"],\\\"green\\\":[\\\"warte\\\"]}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: galvenā doma, visi piemēri, salīdzinājumi, padoms, svarīgais un akcenti aizvietoti ar korektu luksemburgiešu saturu; DE teksti saglabāti. [bleiben|idx:101]"
+  },
+  "g2/a1/lb|Bleistift|idx:102|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bläistëft",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Bläistëft ir gatavā vērtība vācu “Bleistift” un LV “zīmulis”."
+  },
+  "g2/a1/lb|blond|idx:103|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "blond",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; blond ir gatavā vērtība vācu “blond” un LV “blonds”."
+  },
+  "g2/a1/lb|Blume|idx:104|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Blumm",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Blumm ir gatavā vērtība vācu “Blume” un LV “puķe”."
+  },
+  "g2/a1/lb|Boot|idx:105|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Boot",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Boot ir gatavā vērtība vācu “Boot” un LV “laiva”."
+  },
+  "g2/a1/lb|brauchen|idx:106|lv|SEMANTIC_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "brauchen",
+    "owner_note": "Nötig nav precīzs luksemburgiešu aizvietojums; brauchen ir gatavā vērtība vācu “brauchen” un LV “vajadzēt”."
+  },
+  "g2/a1/lb|braun|idx:107|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "brong",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; brong ir gatavā vērtība vācu “braun” un LV “brūns”."
+  },
+  "g2/a1/lb|bringen|idx:111|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bréngen\",\"study.translation\":\"bréngen\",\"study.explanation\":\"[\\\"Haaptiddi: bringen bedeit virun allem, eppes bei eng aner Persoun oder op eng bestëmmte Plaz ze bréngen.\\\",\\\"Op Lëtzebuergesch kann bringen jee no Kontext verschidde Formuléierungen hunn.\\\",\\\"Am heefegsten: bréngen.\\\",\\\"Jee no Situatioun: ewechbréngen, féieren oder liwweren.\\\",\\\"D’Iwwersetzung gëtt vum Kontext bestëmmt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bringe dir ein Buch.\\\",\\\"lv\\\":\\\"Ech bréngen dir e Buch.\\\"},{\\\"de\\\":\\\"Ich bringe das Paket zur Post.\\\",\\\"lv\\\":\\\"Ech bréngen de Pak op d’Post.\\\"},{\\\"de\\\":\\\"Ich bringe die Kinder zur Schule.\\\",\\\"lv\\\":\\\"Ech bréngen d’Kanner an d’Schoul.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"bréngen\\\",\\\"example\\\":\\\"Ich bringe dir ein Buch. – Ech bréngen dir e Buch.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"ewechbréngen\\\",\\\"example\\\":\\\"Ich bringe das Paket zur Post. – Ech bréngen de Pak op d’Post.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"féieren\\\",\\\"example\\\":\\\"Ich bringe die Kinder zur Schule. – Ech bréngen d’Kanner an d’Schoul.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"liwweren\\\",\\\"example\\\":\\\"Ich bringe dir ein Buch. – Ech bréngen dir e Buch.\\\"},{\\\"word\\\":\\\"nehmen\\\",\\\"meaning\\\":\\\"huelen\\\",\\\"example\\\":\\\"Ich nehme das Buch. – Ech huelen d’Buch.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Wann en Objet bei eng aner Persoun oder op eng aner Plaz kënnt, gëtt am Däitsche ganz dacks bringen benotzt.\\\"}\",\"study.important\":\"[\\\"nehmen bedeit huelen.\\\",\\\"bringen bedeit bréngen oder liwweren.\\\",\\\"D’lëtzebuergesch Iwwersetzung hänkt vum Kontext of.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"bringen\\\"],\\\"purple\\\":[\\\"bréngen\\\",\\\"ewechbréngen\\\",\\\"liwweren\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bringe\\\"],\\\"yellow\\\":[\\\"Buch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bréngen\\\"],\\\"yellow\\\":[\\\"Buch\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bringe\\\"],\\\"yellow\\\":[\\\"Paket\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bréngen\\\"],\\\"yellow\\\":[\\\"Pak\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bringe\\\"],\\\"green\\\":[\\\"Kinder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bréngen\\\"],\\\"green\\\":[\\\"Kanner\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"bréngen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bringe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ewechbréngen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bringe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"féieren\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bringe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"liwweren\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bringe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nehmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"huelen\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"nehme\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"bringen\\\"],\\\"purple\\\":[\\\"aner Persoun\\\",\\\"aner Plaz\\\"]}},\\\"important\\\":[{\\\"red\\\":[\\\"nehmen\\\"],\\\"purple\\\":[\\\"huelen\\\"]},{\\\"blue\\\":[\\\"bringen\\\"],\\\"purple\\\":[\\\"bréngen\\\",\\\"liwweren\\\"]}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: galvenā doma, visi piemēri, salīdzinājumi, padoms, svarīgais un akcenti aizvietoti ar korektu luksemburgiešu saturu; DE teksti saglabāti. [bringen|idx:111]"
+  },
+  "g2/a1/lb|Brötchen|idx:113|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bréitchen",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Bréitchen ir gatavā vērtība vācu “Brötchen” un LV “maizīte”."
+  },
+  "g2/a1/lb|Brücke|idx:114|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bréck",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Bréck ir gatavā vērtība vācu “Brücke” un LV “tilts”."
+  },
+  "g2/a1/lb|Buch|idx:116|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Buch",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Buch ir gatavā vērtība vācu “Buch” un LV “grāmata”."
+  },
+  "g2/a1/lb|Buchstabe|idx:117|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Buschtaf",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Buschtaf ir gatavā vērtība vācu “Buchstabe” un LV “burts”."
+  },
+  "g2/a1/lb|Büro|idx:118|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Büro",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Büro ir gatavā vērtība vācu “Büro” un LV “birojs”."
+  },
+  "g2/a1/lb|Bus|idx:119|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Bus",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Bus ir gatavā vērtība vācu “Bus” un LV “autobuss”."
+  },
+  "g2/a1/lb|Butter|idx:120|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Botter",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Botter ir gatavā vērtība vācu “Butter” un LV “sviests”."
+  },
+  "g2/a1/lb|CD|idx:122|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "CD",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; CD ir gatavā vērtība vācu “CD” un LV “CD”."
+  },
+  "g2/a1/lb|Computer|idx:123|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Computer",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Computer ir gatavā vērtība vācu “Computer” un LV “dators”."
+  },
+  "g2/a1/lb|Cousin|idx:124|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Cousin",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Cousin ir gatavā vērtība vācu “Cousin” un LV “brālēns”."
+  },
+  "g2/a1/lb|Cousine|idx:125|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Cousine",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; Cousine ir gatavā vērtība vācu “Cousine” un LV “māsīca”."
+  },
+  "g2/a1/lb|da|idx:126|lv, study|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"do\",\"study.translation\":\"do\",\"study.explanation\":\"[\\\"Haaptiddi: da bedeit um Niveau A1 meeschtens do.\\\",\\\"da weist op eng Plaz hin oder bezitt sech op eppes, wat scho genannt gouf.\\\",\\\"Jee no Situatioun kann et och mat hei iwwersat ginn.\\\",\\\"Um Niveau A1 léiere mir da virun allem als allgemengt Uertswuert.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Da ist mein Auto.\\\",\\\"lv\\\":\\\"Do ass mäin Auto.\\\"},{\\\"de\\\":\\\"Ich war da.\\\",\\\"lv\\\":\\\"Ech war do.\\\"},{\\\"de\\\":\\\"Da kommt er.\\\",\\\"lv\\\":\\\"Do kënnt hien.\\\"},{\\\"de\\\":\\\"Komm mal da her!\\\",\\\"lv\\\":\\\"Komm emol heihinner!\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"da\\\",\\\"meaning\\\":\\\"do • hei (allgemeng)\\\",\\\"example\\\":\\\"Do ass mäin Auto.\\\"},{\\\"word\\\":\\\"hier\\\",\\\"meaning\\\":\\\"hei (op enger bestëmmter Plaz)\\\",\\\"example\\\":\\\"Hei ass mäin Auto.\\\"},{\\\"word\\\":\\\"dort\\\",\\\"meaning\\\":\\\"do (méi wäit ewech)\\\",\\\"example\\\":\\\"Do ass mäin Auto.\\\"},{\\\"word\\\":\\\"dann\\\",\\\"meaning\\\":\\\"dann\\\",\\\"example\\\":\\\"Da gi mir heem.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: eng allgemeng Plaz do/hei → da.\\\"}\",\"study.important\":\"[\\\"da ass en allgemengt Uertswuert.\\\",\\\"hier ass konkret „hei“, dort ass e méi wäiten „do“.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"da\\\"],\\\"purple\\\":[\\\"do\\\"],\\\"green\\\":[\\\"hei\\\"],\\\"yellow\\\":[\\\"Plaz\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Da\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Do\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"da\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"do\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Da\\\"]},\\\"lv\\\":{\\\"green\\\":[\\\"Do\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"da\\\"]},\\\"lv\\\":{\\\"green\\\":[\\\"heihinner\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"da\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"do\\\",\\\"hei\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Do\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"hier\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hei\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"Hei\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dort\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"do\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Do\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dann\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"dann\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Da\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"da\\\"],\\\"purple\\\":[\\\"do\\\"],\\\"green\\\":[\\\"hei\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"da\\\"],\\\"purple\\\":[\\\"Uertswuert\\\"]},{\\\"yellow\\\":[\\\"hier\\\"],\\\"red\\\":[\\\"dort\\\"],\\\"green\\\":[\\\"hei\\\"],\\\"purple\\\":[\\\"do\\\"]}]}\",\"study.accents\":\"{\\\"blue\\\":[\\\"da\\\",\\\"Da\\\"],\\\"purple\\\":[\\\"do\\\",\\\"Do\\\"],\\\"green\\\":[\\\"hei\\\",\\\"Hei\\\",\\\"heihinner\\\"],\\\"yellow\\\":[\\\"hier\\\"],\\\"red\\\":[\\\"dort\\\",\\\"dann\\\"]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: galvenā doma, visi piemēri, salīdzinājumi, padoms, svarīgais un akcenti aizvietoti ar korektu luksemburgiešu saturu; DE teksti saglabāti. [da|idx:126]"
+  },
+  "g2/a1/lb|dann|idx:128|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dann",
+    "owner_note": "CAA - nav precīzs luksemburgiešu aizvietojums; dann ir gatavā vērtība vācu “dann” un LV “tad”."
+  },
+  "g2/a1/lb|das|idx:129|study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bestëmmten Artikel vum Neutrum\",\"study.translation\":\"bestëmmten Artikel vum Neutrum\",\"study.explanation\":\"Gëtt bei Substantiver am Neutrum benotzt. A verschiddene Sätz kann „das“ och als Pronomen oder Relativpronomen fungéieren.\",\"study.examples\":\"[{\\\"de\\\":\\\"Das ist mein Auto.\\\",\\\"lv\\\":\\\"Dat ass mäin Auto.\\\"},{\\\"de\\\":\\\"Das ist gut.\\\",\\\"lv\\\":\\\"Dat ass gutt.\\\"},{\\\"de\\\":\\\"Das Buch, das ich lese, ist interessant.\\\",\\\"lv\\\":\\\"D’Buch, dat ech liesen, ass interessant.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"das\\\",\\\"meaning\\\":\\\"dat (Artikel / Pronomen)\\\",\\\"example\\\":\\\"Das ist mein Auto. – Dat ass mäin Auto.\\\"},{\\\"word\\\":\\\"dies\\\",\\\"meaning\\\":\\\"dëst\\\",\\\"example\\\":\\\"Dies ist mein Auto. – Dëst ass mäin Auto.\\\"},{\\\"word\\\":\\\"welches\\\",\\\"meaning\\\":\\\"wat • dat\\\",\\\"example\\\":\\\"Das ist das Buch, welches ich lese. – Dat ass d’Buch, dat ech liesen.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Neutrum → das; datt → dass.\\\"}\",\"study.important\":\"[\\\"Um Niveau A1 léiers de das fir d’éischt als Artikel vum Neutrum.\\\",\\\"das ass net dat selwecht wéi dass — das kann en Artikel oder e Pronomen sinn, dass bedeit „datt“.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Das\\\"]},\\\"lv\\\":{\\\"blue\\\":[\\\"Dat\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Das\\\"]},\\\"lv\\\":{\\\"blue\\\":[\\\"Dat\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Das\\\"],\\\"yellow\\\":[\\\"das\\\"]},\\\"lv\\\":{\\\"blue\\\":[\\\"D’Buch\\\"],\\\"yellow\\\":[\\\"dat\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"das\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"dat\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Das\\\",\\\"Dat\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dies\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"dëst\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"Dies\\\",\\\"Dëst\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"welches\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"wat\\\",\\\"dat\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Das\\\",\\\"Dat\\\"],\\\"yellow\\\":[\\\"welches\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"das\\\"],\\\"purple\\\":[\\\"Neutrum\\\"],\\\"red\\\":[\\\"dass\\\",\\\"datt\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"das\\\"],\\\"purple\\\":[\\\"Artikel vum Neutrum\\\"]},{\\\"blue\\\":[\\\"das\\\"],\\\"purple\\\":[\\\"Artikel\\\",\\\"Pronomen\\\"],\\\"red\\\":[\\\"dass\\\"]}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: galvenā doma, visi piemēri, salīdzinājumi, padoms, svarīgais un akcenti aizvietoti ar korektu luksemburgiešu saturu; DE teksti saglabāti. [das|idx:129]"
+  }
+}
