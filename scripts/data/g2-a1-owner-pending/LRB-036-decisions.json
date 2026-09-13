@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|morgen|idx:417|lv; study|TARGET_LANGUAGE_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"á morgun\",\"study.translation\":\"á morgun\",\"study.explanation\":\"[\\\"Meginhugmynd: morgen með litlum staf er atviksorð og merkir á morgun, daginn eftir í dag.\\\",\\\"morgen segir að eitthvað gerist næsta dag.\\\",\\\"Orðið er skrifað með litlum staf þegar það er atviksorð.\\\",\\\"Ekki rugla morgen saman við nafnorðið der Morgen, sem merkir morgunn.\\\",\\\"Í kveðjunni Guten Morgen! er Morgen nafnorð og því skrifað með stórum staf.\\\",\\\"Fleirtala nafnorðsins er die Morgen og vísar til fleiri en eins morguns.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Ég kem á morgun.\\\"},{\\\"de\\\":\\\"Bis morgen!\\\",\\\"lv\\\":\\\"Sjáumst á morgun!\\\"},{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Ég kem á morgun.\\\"},{\\\"de\\\":\\\"Morgen ist Montag.\\\",\\\"lv\\\":\\\"Á morgun er mánudagur.\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Góðan morgun!\\\"},{\\\"de\\\":\\\"Der Morgen ist schön.\\\",\\\"lv\\\":\\\"Morguninn er fallegur.\\\"}]\",\"study.tip\":\"[\\\"morgen með litlum staf = á morgun; der Morgen með stórum staf = morgunn.\\\",\\\"morgen = á morgun\\\"]\",\"study.important\":\"[\\\"morgen er skrifað með litlum staf þegar það merkir á morgun.\\\",\\\"der Morgen er nafnorð með greininum der og merkir morgunn.\\\",\\\"Guten Morgen! er alltaf skrifað með stóru M.\\\",\\\"Rangt: Guten morgen! → Rétt: Guten Morgen!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"morgen\\\",\\\"der Morgen\\\",\\\"Guten Morgen\\\",\\\"die Morgen\\\"],\\\"purple\\\":[\\\"á morgun\\\",\\\"morgunn\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á morgun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á morgun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á morgun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Á morgun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"morgun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Morguninn\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"morgen\\\",\\\"der Morgen\\\"],\\\"purple\\\":[\\\"á morgun\\\",\\\"morgunn\\\"]},{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"á morgun\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"á morgun\\\"]},{\\\"blue\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"morgunn\\\"]},{\\\"blue\\\":[\\\"Guten Morgen\\\"],\\\"yellow\\\":[\\\"stóru M\\\"]},{\\\"red\\\":[\\\"Guten morgen\\\"],\\\"green\\\":[\\\"Guten Morgen\\\"]}]}\"}",
+    "owner_note": "IS morgen / lv; study: individuāli pārbaudīta LRB-036 rinda 1/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Morgen|idx:418|lv; study|TARGET_LANGUAGE_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"morgunn\",\"study.translation\":\"morgunn\",\"study.explanation\":\"[\\\"Meginhugmynd: der Morgen er nafnorð og merkir morgunn, fyrri hluta dagsins.\\\",\\\"Nafnorðið er skrifað með stórum staf og hefur greininn der.\\\",\\\"Ekki rugla der Morgen saman við atviksorðið morgen, sem merkir á morgun.\\\",\\\"Guten Morgen! er kveðja sem notuð er að morgni.\\\",\\\"Fleirtala nafnorðsins er die Morgen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Góðan morgun!\\\"},{\\\"de\\\":\\\"Bis morgen!\\\",\\\"lv\\\":\\\"Sjáumst á morgun!\\\"},{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Ég kem á morgun.\\\"},{\\\"de\\\":\\\"Morgen ist Montag.\\\",\\\"lv\\\":\\\"Á morgun er mánudagur.\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Góðan morgun!\\\"},{\\\"de\\\":\\\"Der Morgen ist schön.\\\",\\\"lv\\\":\\\"Morguninn er fallegur.\\\"}]\",\"study.tip\":\"[\\\"morgen með litlum staf = á morgun; der Morgen með stórum staf = morgunn.\\\",\\\"der Morgen = morgunn\\\"]\",\"study.important\":\"[\\\"morgen er atviksorð með litlum staf og merkir á morgun.\\\",\\\"der Morgen er nafnorð með stórum staf og greininum der og merkir morgunn.\\\",\\\"Guten Morgen! er alltaf skrifað með stóru M.\\\",\\\"Rangt: Guten morgen! → Rétt: Guten Morgen!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Morgen\\\",\\\"morgen\\\",\\\"Guten Morgen\\\",\\\"die Morgen\\\"],\\\"purple\\\":[\\\"morgunn\\\",\\\"á morgun\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"morgun\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á morgun\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á morgun\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Á morgun\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"morgun\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"der Morgen\\\",\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Morguninn\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"morgen\\\",\\\"der Morgen\\\"],\\\"purple\\\":[\\\"á morgun\\\",\\\"morgunn\\\"]},{\\\"blue\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"morgunn\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"á morgun\\\"]},{\\\"blue\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"morgunn\\\"]},{\\\"blue\\\":[\\\"Guten Morgen\\\"],\\\"yellow\\\":[\\\"stóru M\\\"]},{\\\"red\\\":[\\\"Guten morgen\\\"],\\\"green\\\":[\\\"Guten Morgen\\\"]}]}\"}",
+    "owner_note": "IS Morgen / lv; study: individuāli pārbaudīta LRB-036 rinda 2/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|morgens|idx:419|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "á morgnana",
+    "owner_note": "IS morgens / lv: individuāli pārbaudīta LRB-036 rinda 3/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|müde|idx:420|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þreyttur",
+    "owner_note": "IS müde / lv: individuāli pārbaudīta LRB-036 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mund|idx:421|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "munnur",
+    "owner_note": "IS Mund / lv: individuāli pārbaudīta LRB-036 rinda 5/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Musik|idx:422|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tónlist",
+    "owner_note": "IS Musik / lv: individuāli pārbaudīta LRB-036 rinda 6/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|müssen|idx:423|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"verða að • þurfa að\",\"study.translation\":\"verða að • þurfa að\",\"study.explanation\":\"[\\\"Meginhugmynd: müssen er háttarsögn sem lýsir nauðsyn; eitthvað verður að gera.\\\",\\\"Á íslensku er müssen oftast þýtt með verða að eða þurfa að.\\\",\\\"Í þýskri setningu stendur nafnháttur hinnar sagnarinnar venjulega aftast.\\\",\\\"Á A1-stigi er Ich muss ... mikilvæg grunnmynd.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich muss gehen.\\\",\\\"lv\\\":\\\"Ég verð að fara.\\\"},{\\\"de\\\":\\\"Du musst warten.\\\",\\\"lv\\\":\\\"Þú verður að bíða.\\\"},{\\\"de\\\":\\\"Wir müssen lernen.\\\",\\\"lv\\\":\\\"Við verðum að læra.\\\"},{\\\"de\\\":\\\"Ich muss heute arbeiten.\\\",\\\"lv\\\":\\\"Ég verð að vinna í dag.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: Ich muss ... = Ég verð að ... eða Ég þarf að ...\\\"}\",\"study.important\":\"[\\\"müssen er háttarsögn.\\\",\\\"Nafnháttur hinnar sagnarinnar stendur venjulega aftast: Ich muss heute arbeiten.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"müssen\\\",\\\"Ich muss\\\"],\\\"purple\\\":[\\\"verða að\\\",\\\"þurfa að\\\"],\\\"green\\\":[\\\"aftast\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"muss\\\",\\\"gehen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verð að fara\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"musst\\\",\\\"warten\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verður að bíða\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"müssen\\\",\\\"lernen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verðum að læra\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"muss\\\",\\\"arbeiten\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verð að vinna\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Ich muss\\\"],\\\"purple\\\":[\\\"Ég verð að\\\",\\\"Ég þarf að\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"müssen\\\"],\\\"purple\\\":[\\\"háttarsögn\\\"]},{\\\"blue\\\":[\\\"Ich muss heute arbeiten\\\"],\\\"purple\\\":[\\\"aftast\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"müssen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"verða að\\\",\\\"þurfa að\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"muss\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"können\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"geta\\\",\\\"kunna\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"kann\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vilja\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"will\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dürfen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mega\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Darf\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"müssen\\\",\\\"meaning\\\":\\\"verða að • þurfa að\\\",\\\"example\\\":\\\"Ich muss gehen. – Ég verð að fara.\\\"},{\\\"word\\\":\\\"können\\\",\\\"meaning\\\":\\\"geta • kunna\\\",\\\"example\\\":\\\"Ich kann kommen. – Ég get komið.\\\"},{\\\"word\\\":\\\"wollen\\\",\\\"meaning\\\":\\\"vilja\\\",\\\"example\\\":\\\"Ich will nach Hause. – Ég vil fara heim.\\\"},{\\\"word\\\":\\\"dürfen\\\",\\\"meaning\\\":\\\"mega\\\",\\\"example\\\":\\\"Darf ich gehen? – Má ég fara?\\\"}]\"}",
+    "owner_note": "IS müssen / study: individuāli pārbaudīta LRB-036 rinda 7/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mutter|idx:424|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "móðir",
+    "owner_note": "IS Mutter / lv: individuāli pārbaudīta LRB-036 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mütze|idx:425|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "húfa",
+    "owner_note": "IS Mütze / lv: individuāli pārbaudīta LRB-036 rinda 9/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nach|idx:426|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til • eftir\",\"study.translation\":\"til • eftir\",\"study.explanation\":\"[\\\"Meginhugmynd: nach merkir til með borgum og löndum en eftir þegar rætt er um tíma eða röð.\\\",\\\"Með borgum og löndum án greinis táknar nach oft stefnu; á íslensku er þá oft notað til með eignarfalli.\\\",\\\"Þegar rætt er um tíma merkir nach eftir.\\\",\\\"Í orðasambandinu nach Hause merkir það heim.\\\",\\\"Í klukkunni samsvarar nach íslenska orðinu yfir.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich fahre nach Berlin.\\\",\\\"lv\\\":\\\"Ég fer til Berlínar.\\\"},{\\\"de\\\":\\\"Wir gehen nach Hause.\\\",\\\"lv\\\":\\\"Við förum heim.\\\"},{\\\"de\\\":\\\"Nach dem Essen gehen wir spazieren.\\\",\\\"lv\\\":\\\"Eftir matinn förum við í göngutúr.\\\"},{\\\"de\\\":\\\"Es ist zehn nach acht.\\\",\\\"lv\\\":\\\"Klukkan er tíu mínútur yfir átta.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: nach Hause = heim; nach Berlin = til Berlínar; nach dem Essen = eftir matinn.\\\"}\",\"study.important\":\"[\\\"nach er ekki notað með öllum stöðum.\\\",\\\"Til skóla er venjulega in die Schule, ekki nach Schule.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nach\\\",\\\"nach Hause\\\"],\\\"purple\\\":[\\\"til\\\",\\\"eftir\\\",\\\"heim\\\",\\\"yfir\\\"],\\\"green\\\":[\\\"borgum\\\",\\\"löndum\\\",\\\"tíma\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"nach\\\"],\\\"green\\\":[\\\"Berlin\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"til Berlínar\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nach Hause\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"heim\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Nach\\\"],\\\"yellow\\\":[\\\"Essen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Eftir matinn\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nach\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"yfir átta\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"nach Hause\\\",\\\"nach Berlin\\\",\\\"nach dem Essen\\\"],\\\"purple\\\":[\\\"heim\\\",\\\"til Berlínar\\\",\\\"eftir matinn\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"nach\\\"],\\\"red\\\":[\\\"öllum stöðum\\\"]},{\\\"green\\\":[\\\"in die Schule\\\"],\\\"red\\\":[\\\"nach Schule\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"nach\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\",\\\"eftir\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"nach\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\",\\\"að\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"zum Arzt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"in\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"inn í\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"in die Schule\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"vor\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fyrir\\\",\\\"fyrir framan\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Vor\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"nach\\\",\\\"meaning\\\":\\\"til • eftir\\\",\\\"example\\\":\\\"Ich fahre nach Berlin. – Ég fer til Berlínar.\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"til • að\\\",\\\"example\\\":\\\"Ich gehe zum Arzt. – Ég fer til læknisins.\\\"},{\\\"word\\\":\\\"in\\\",\\\"meaning\\\":\\\"inn í • á stað með greini\\\",\\\"example\\\":\\\"Ich gehe in die Schule. – Ég fer í skólann.\\\"},{\\\"word\\\":\\\"vor\\\",\\\"meaning\\\":\\\"fyrir • fyrir framan\\\",\\\"example\\\":\\\"Vor dem Essen wasche ich die Hände. – Fyrir matinn þvæ ég hendurnar.\\\"}]\"}",
+    "owner_note": "IS nach / study: individuāli pārbaudīta LRB-036 rinda 10/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Nachmittag|idx:427|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "síðdegi",
+    "owner_note": "IS Nachmittag / lv: individuāli pārbaudīta LRB-036 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nachmittags|idx:428|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "síðdegis",
+    "owner_note": "IS nachmittags / lv: individuāli pārbaudīta LRB-036 rinda 12/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Nachname|idx:175|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "eftirnafn",
+    "owner_note": "IS Nachname / lv: individuāli pārbaudīta LRB-036 rinda 13/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Nacht|idx:429|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nótt",
+    "owner_note": "IS Nacht / lv: individuāli pārbaudīta LRB-036 rinda 14/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Nase|idx:430|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nef",
+    "owner_note": "IS Nase / lv: individuāli pārbaudīta LRB-036 rinda 15/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nass|idx:431|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "blautur",
+    "owner_note": "IS nass / lv: individuāli pārbaudīta LRB-036 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Natur|idx:432|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "náttúra",
+    "owner_note": "IS Natur / lv: individuāli pārbaudīta LRB-036 rinda 17/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|natürlich|idx:433|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"auðvitað • náttúrulegur\",\"study.translation\":\"auðvitað • náttúrulegur\",\"study.explanation\":\"[\\\"Meginhugmynd: natürlich merkir auðvitað sem atviksorð en náttúrulegur eða eðlilegur sem lýsingarorð.\\\",\\\"Í svari eða staðfestingu merkir natürlich auðvitað: Kommst du mit? – Natürlich!\\\",\\\"Þegar lýst er uppruna eða eiginleika merkir natürlich náttúrulegur.\\\",\\\"Í sumu samhengi, til dæmis um viðbrögð, er eðlilegur náttúruleg íslensk þýðing.\\\",\\\"Samhengið sýnir hvort um staðfestingu eða lýsingu er að ræða.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Kommst du mit? – Natürlich!\\\",\\\"lv\\\":\\\"Kemurðu með? – Auðvitað!\\\"},{\\\"de\\\":\\\"Das ist eine natürliche Reaktion.\\\",\\\"lv\\\":\\\"Þetta eru eðlileg viðbrögð.\\\"},{\\\"de\\\":\\\"Natürlich helfe ich dir.\\\",\\\"lv\\\":\\\"Auðvitað hjálpa ég þér.\\\"},{\\\"de\\\":\\\"Sie hat natürliche rote Haare.\\\",\\\"lv\\\":\\\"Hún er með náttúrulega rautt hár.\\\"},{\\\"de\\\":\\\"Natürlich kann ich das machen.\\\",\\\"lv\\\":\\\"Auðvitað get ég gert það.\\\"},{\\\"de\\\":\\\"Das ist ganz natürlich.\\\",\\\"lv\\\":\\\"Þetta er fullkomlega eðlilegt.\\\"}]\",\"study.tip\":\"[\\\"Sem sjálfstætt svar eða staðfesting → auðvitað.\\\",\\\"Við nafnorð, þegar uppruna eða eiginleika er lýst → náttúrulegur.\\\"]\",\"study.important\":\"[\\\"natürlich = auðvitað sem atviksorð eða náttúrulegur/eðlilegur sem lýsingarorð.\\\",\\\"Natürlich! sem sjálfstætt svar merkir auðvitað!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"natürlich\\\"],\\\"purple\\\":[\\\"auðvitað\\\",\\\"náttúrulegur\\\",\\\"eðlilegur\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Auðvitað\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"natürliche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eðlileg\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Auðvitað\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"natürliche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"náttúrulega\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Auðvitað\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eðlilegt\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"staðfesting\\\"],\\\"purple\\\":[\\\"auðvitað\\\"]},{\\\"green\\\":[\\\"nafnorð\\\"],\\\"purple\\\":[\\\"náttúrulegur\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"natürlich\\\"],\\\"purple\\\":[\\\"auðvitað\\\",\\\"náttúrulegur\\\",\\\"eðlilegur\\\"]},{\\\"blue\\\":[\\\"Natürlich\\\"],\\\"purple\\\":[\\\"auðvitað\\\"]}]}\"}",
+    "owner_note": "IS natürlich / study: individuāli pārbaudīta LRB-036 rinda 18/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neben|idx:434|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "við hliðina á",
+    "owner_note": "IS neben / lv: individuāli pārbaudīta LRB-036 rinda 19/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nehmen|idx:435|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"taka\",\"study.translation\":\"taka\",\"study.explanation\":\"[\\\"Meginhugmynd: nehmen merkir að taka eða velja eitthvað.\\\",\\\"nehmen er notað þegar maður tekur eitthvað til sín eða velur það.\\\",\\\"Það er ekki það sama og bringen, sem merkir að færa eða koma með eitthvað til einhvers.\\\",\\\"holen merkir að fara og sækja eitthvað eða einhvern.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich nehme den Bus.\\\",\\\"lv\\\":\\\"Ég tek strætó.\\\"},{\\\"de\\\":\\\"Nimm das Buch!\\\",\\\"lv\\\":\\\"Taktu bókina!\\\"},{\\\"de\\\":\\\"Ich bringe dir das Buch.\\\",\\\"lv\\\":\\\"Ég færi þér bókina.\\\"},{\\\"de\\\":\\\"Ich hole dich ab.\\\",\\\"lv\\\":\\\"Ég sæki þig.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: taka eða velja fyrir sig → nehmen; færa einhverjum eitthvað → bringen.\\\"}\",\"study.important\":\"[\\\"Ich nehme den Bus merkir á íslensku „Ég tek strætó.“\\\",\\\"nehmen er ekki það sama og bringen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nehmen\\\"],\\\"purple\\\":[\\\"taka\\\",\\\"velja\\\"],\\\"red\\\":[\\\"bringen\\\",\\\"holen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"nehme\\\"],\\\"yellow\\\":[\\\"Bus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"tek strætó\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Nimm\\\"],\\\"yellow\\\":[\\\"Buch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Taktu\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"bringe\\\"],\\\"yellow\\\":[\\\"Buch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"færi\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"hole\\\"],\\\"green\\\":[\\\"dich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sæki\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"nehmen\\\"],\\\"purple\\\":[\\\"taka\\\",\\\"velja\\\"],\\\"red\\\":[\\\"bringen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"nehme den Bus\\\"],\\\"purple\\\":[\\\"tek strætó\\\"]},{\\\"blue\\\":[\\\"nehmen\\\"],\\\"red\\\":[\\\"bringen\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"nehmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"taka\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Nimm\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"færa\\\",\\\"koma með\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"bringe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"holen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sækja\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"hole\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"mitnehmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"taka með\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"nehme\\\",\\\"mit\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"nehmen\\\",\\\"meaning\\\":\\\"taka\\\",\\\"example\\\":\\\"Nimm das Buch! – Taktu bókina!\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"færa • koma með\\\",\\\"example\\\":\\\"Ich bringe dir das Buch. – Ég færi þér bókina.\\\"},{\\\"word\\\":\\\"holen\\\",\\\"meaning\\\":\\\"sækja\\\",\\\"example\\\":\\\"Ich hole Wasser. – Ég sæki vatn.\\\"},{\\\"word\\\":\\\"mitnehmen\\\",\\\"meaning\\\":\\\"taka með\\\",\\\"example\\\":\\\"Ich nehme dich mit. – Ég tek þig með.\\\"}]\"}",
+    "owner_note": "IS nehmen / study: individuāli pārbaudīta LRB-036 rinda 20/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nein|idx:436|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nei",
+    "owner_note": "IS nein / lv: individuāli pārbaudīta LRB-036 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nennen|idx:437|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nefna",
+    "owner_note": "IS nennen / lv: individuāli pārbaudīta LRB-036 rinda 22/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nett|idx:438|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "indæll",
+    "owner_note": "IS nett / lv: individuāli pārbaudīta LRB-036 rinda 23/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neu|idx:439|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nýr (um hluti)\",\"study.translation\":\"nýr (um hluti)\",\"study.explanation\":\"[\\\"Meginhugmynd: neu merkir nýr um eitthvað sem er nýlega búið til, keypt eða notað í fyrsta sinn.\\\",\\\"neu lýsir hlutum, tækjum, fatnaði, húsnæði, hugmyndum og öðru slíku, ekki aldri manneskju eða dýrs.\\\",\\\"Þýska greinir á milli neu, sem merkir nýr, og jung, sem merkir ungur.\\\",\\\"Um aldur manneskju eða dýrs er notað jung, ekki neu.\\\",\\\"neu er einnig notað í yfirfærðri merkingu, til dæmis um nýja vinnu, nýjar upplýsingar eða nýtt upphaf.\\\",\\\"Andheitið er alt; nafnorðið das Neue merkir það sem er nýtt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Mein Handy ist neu.\\\",\\\"lv\\\":\\\"Síminn minn er nýr.\\\"},{\\\"de\\\":\\\"Wir haben ein neues Auto.\\\",\\\"lv\\\":\\\"Við eigum nýjan bíl.\\\"},{\\\"de\\\":\\\"Das ist meine neue Wohnung.\\\",\\\"lv\\\":\\\"Þetta er nýja íbúðin mín.\\\"},{\\\"de\\\":\\\"Ich habe neue Schuhe gekauft.\\\",\\\"lv\\\":\\\"Ég keypti nýja skó.\\\"},{\\\"de\\\":\\\"Das ist eine neue Idee.\\\",\\\"lv\\\":\\\"Þetta er ný hugmynd.\\\"},{\\\"de\\\":\\\"Er hat einen neuen Job.\\\",\\\"lv\\\":\\\"Hann er kominn með nýja vinnu.\\\"},{\\\"de\\\":\\\"Was gibt es Neues?\\\",\\\"lv\\\":\\\"Hvað er nýtt?\\\"}]\",\"study.tip\":\"[\\\"neu er notað um hluti og nýjungar; um aldur fólks er notað jung.\\\",\\\"Andheiti: neu ↔ alt (nýr ↔ gamall).\\\"]\",\"study.important\":\"[\\\"neu lýsir hlutum og nýjungum, ekki aldri manneskju eða dýrs.\\\",\\\"Um aldur manneskju eða dýrs er notað jung, ekki neu.\\\",\\\"Rangt: Meine Schwester ist neu. → Rétt: Meine Schwester ist jung.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"neu\\\"],\\\"purple\\\":[\\\"nýr\\\"],\\\"green\\\":[\\\"jung\\\",\\\"ungur\\\"],\\\"red\\\":[\\\"alt\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"neu\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nýr\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neues\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nýjan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nýja\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nýja\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ný\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neuen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nýja\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Neues\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nýtt\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"neu\\\"],\\\"green\\\":[\\\"jung\\\"]},{\\\"blue\\\":[\\\"neu\\\"],\\\"red\\\":[\\\"alt\\\"],\\\"purple\\\":[\\\"nýr\\\",\\\"gamall\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"neu\\\"]},{\\\"green\\\":[\\\"jung\\\"],\\\"blue\\\":[\\\"neu\\\"]},{\\\"red\\\":[\\\"Meine Schwester ist neu\\\"],\\\"green\\\":[\\\"Meine Schwester ist jung\\\"]}]}\"}",
+    "owner_note": "IS neu / study: individuāli pārbaudīta LRB-036 rinda 24/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neun|idx:440|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "níu",
+    "owner_note": "IS neun / lv: individuāli pārbaudīta LRB-036 rinda 25/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neunhundert|idx:441|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "níu hundruð",
+    "owner_note": "IS neunhundert / lv: individuāli pārbaudīta LRB-036 rinda 26/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neunte|idx:442|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "níundi",
+    "owner_note": "IS neunte / lv: individuāli pārbaudīta LRB-036 rinda 27/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neunzehn|idx:443|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nítján",
+    "owner_note": "IS neunzehn / lv: individuāli pārbaudīta LRB-036 rinda 28/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neunzehnte|idx:444|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nítjándi",
+    "owner_note": "IS neunzehnte / lv: individuāli pārbaudīta LRB-036 rinda 29/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neunzig|idx:445|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "níutíu",
+    "owner_note": "IS neunzig / lv: individuāli pārbaudīta LRB-036 rinda 30/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|neunzigste|idx:446|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nítugasti",
+    "owner_note": "IS neunzigste / lv: individuāli pārbaudīta LRB-036 rinda 31/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nicht|idx:447|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ekki",
+    "owner_note": "IS nicht / lv: individuāli pārbaudīta LRB-036 rinda 32/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nie|idx:449|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "aldrei",
+    "owner_note": "IS nie / lv: individuāli pārbaudīta LRB-036 rinda 33/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|niemand|idx:450|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "enginn",
+    "owner_note": "IS niemand / lv: individuāli pārbaudīta LRB-036 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|noch|idx:451|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"enn\",\"study.translation\":\"enn\",\"study.explanation\":\"[\\\"Meginhugmynd: noch merkir enn þegar eitthvað heldur áfram eða er ekki lokið.\\\",\\\"noch sýnir að ástand eða athöfn stendur enn yfir.\\\",\\\"Orðið vísar oft til áframhalds eða ólokins ástands.\\\",\\\"Í þessum dæmum samsvarar noch íslenska orðinu enn.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin noch zu Hause.\\\",\\\"lv\\\":\\\"Ég er enn heima.\\\"},{\\\"de\\\":\\\"Ich bin noch zu Hause.\\\",\\\"lv\\\":\\\"Ég er enn heima.\\\"},{\\\"de\\\":\\\"Bist du noch da?\\\",\\\"lv\\\":\\\"Ertu enn hér?\\\"}]\",\"study.tip\":\"[\\\"Notaðu noch þegar eitthvað heldur enn áfram eða er ekki lokið.\\\",\\\"Í þessari merkingu: noch = enn.\\\"]\",\"study.important\":\"[\\\"noch = enn.\\\",\\\"Það sýnir að eitthvað heldur áfram eða er ekki lokið.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"enn\\\"],\\\"green\\\":[\\\"heldur áfram\\\",\\\"ekki lokið\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"enn\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"enn\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"enn\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"enn\\\"]},{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"enn\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"enn\\\"]},{\\\"green\\\":[\\\"heldur áfram\\\",\\\"ekki lokið\\\"]}]}\"}",
+    "owner_note": "IS noch / lv; study.translation; study.explanation; study.examples: individuāli pārbaudīta LRB-036 rinda 35/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|normal|idx:452|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "eðlilegur",
+    "owner_note": "IS normal / lv: individuāli pārbaudīta LRB-036 rinda 36/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|November|idx:453|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nóvember",
+    "owner_note": "IS November / lv: individuāli pārbaudīta LRB-036 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Null|idx:454|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "núll",
+    "owner_note": "IS Null / lv: individuāli pārbaudīta LRB-036 rinda 38/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Nummer|idx:455|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "númer",
+    "owner_note": "IS Nummer / lv: individuāli pārbaudīta LRB-036 rinda 39/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|nur|idx:456|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"aðeins • einungis\",\"study.translation\":\"aðeins • einungis\",\"study.explanation\":\"[\\\"Meginhugmynd: nur takmarkar magn, fjölda fólks, val eða möguleika.\\\",\\\"nur merkir að magn eða val sé takmarkað.\\\",\\\"Orðið sýnir hversu mikið, hvað nákvæmlega eða hver einn kemur til greina.\\\",\\\"nur merkir aðeins eða einungis: ekkert umfram það.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich habe nur zehn Euro.\\\",\\\"lv\\\":\\\"Ég á aðeins tíu evrur.\\\"},{\\\"de\\\":\\\"Ich habe nur zehn Euro.\\\",\\\"lv\\\":\\\"Ég á aðeins tíu evrur.\\\"},{\\\"de\\\":\\\"Nur du kannst mir helfen.\\\",\\\"lv\\\":\\\"Aðeins þú getur hjálpað mér.\\\"},{\\\"de\\\":\\\"Ich möchte nur Kaffee.\\\",\\\"lv\\\":\\\"Ég vil aðeins kaffi.\\\"},{\\\"de\\\":\\\"Ich habe nur acht Euro.\\\",\\\"lv\\\":\\\"Ég á aðeins átta evrur.\\\"}]\",\"study.tip\":\"[\\\"nur takmarkar magn, fjölda fólks, val eða möguleika.\\\",\\\"Notaðu nur þegar merkingin er aðeins eða einungis.\\\"]\",\"study.important\":\"[\\\"Íslensk orð eins og aðeins geta eftir samhengi átt sér aðra þýska samsvörun.\\\",\\\"nur = aðeins • einungis.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"aðeins\\\",\\\"einungis\\\"],\\\"green\\\":[\\\"takmarkar\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"aðeins\\\"]}},{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"aðeins\\\"]}},{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Aðeins\\\"]}},{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"aðeins\\\"]}},{\\\"de\\\":{\\\"orange\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"aðeins\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"nur\\\"],\\\"green\\\":[\\\"takmarkar\\\"]},{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"aðeins\\\",\\\"einungis\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"aðeins\\\"]},{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"aðeins\\\",\\\"einungis\\\"]}]}\"}",
+    "owner_note": "IS nur / lv; study.translation; study.explanation; study.examples: individuāli pārbaudīta LRB-036 rinda 40/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|ob|idx:457|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hvort\",\"study.translation\":\"hvort\",\"study.explanation\":\"[\\\"Meginhugmynd: ob innleiðir óbeina já/nei-spurningu og samsvarar oft íslenska hvort.\\\",\\\"ob er notað á eftir sögnum eins og fragen, wissen, sehen og sagen þegar spurningin er ekki bein.\\\",\\\"Í beinni spurningu er ob yfirleitt ekki notað í þýsku.\\\",\\\"Á A1-stigi er mikilvægt að greina ob frá oder.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich weiß nicht, ob er kommt.\\\",\\\"lv\\\":\\\"Ég veit ekki hvort hann kemur.\\\"},{\\\"de\\\":\\\"Sie fragt, ob du Zeit hast.\\\",\\\"lv\\\":\\\"Hún spyr hvort þú hafir tíma.\\\"},{\\\"de\\\":\\\"Sag mir, ob das stimmt.\\\",\\\"lv\\\":\\\"Segðu mér hvort það sé rétt.\\\"},{\\\"de\\\":\\\"Kommst du heute oder morgen?\\\",\\\"lv\\\":\\\"Kemurðu í dag eða á morgun?\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: „Ég veit ekki hvort ...“ → ob; „kaffi eða te“ → oder.\\\"}\",\"study.important\":\"[\\\"ob er ekki notað fyrir venjulegt val milli tveggja hluta.\\\",\\\"Í Kaffee oder Tee? er notað oder, ekki ob.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"ob\\\",\\\"oder\\\"],\\\"purple\\\":[\\\"hvort\\\",\\\"óbeina\\\"],\\\"green\\\":[\\\"fragen\\\",\\\"wissen\\\",\\\"sehen\\\",\\\"sagen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hvort\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hvort\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hvort\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eða\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"ob\\\",\\\"oder\\\"],\\\"purple\\\":[\\\"hvort\\\"],\\\"red\\\":[\\\"eða\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"ob\\\"],\\\"red\\\":[\\\"val\\\"]},{\\\"red\\\":[\\\"oder\\\"],\\\"blue\\\":[\\\"ob\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"ob\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hvort\\\",\\\"óbeinni\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"ob\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"oder\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"eða\\\",\\\"val\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"oder\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wenn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ef\\\",\\\"þegar\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"Wenn\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dass\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"að\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"dass\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"hvort í óbeinni spurningu\\\",\\\"example\\\":\\\"Ich weiß nicht, ob er kommt. – Ég veit ekki hvort hann kemur.\\\"},{\\\"word\\\":\\\"oder\\\",\\\"meaning\\\":\\\"eða við val\\\",\\\"example\\\":\\\"Kaffee oder Tee? – Kaffi eða te?\\\"},{\\\"word\\\":\\\"wenn\\\",\\\"meaning\\\":\\\"ef • þegar\\\",\\\"example\\\":\\\"Wenn du Zeit hast... – Ef þú hefur tíma...\\\"},{\\\"word\\\":\\\"dass\\\",\\\"meaning\\\":\\\"að\\\",\\\"example\\\":\\\"Ich weiß, dass er kommt. – Ég veit að hann kemur.\\\"}]\"}",
+    "owner_note": "IS ob / lv; study.translation; study.explanation; study.examples: individuāli pārbaudīta LRB-036 rinda 41/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|oben|idx:458|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "uppi",
+    "owner_note": "IS oben / lv: individuāli pārbaudīta LRB-036 rinda 42/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Obst|idx:693|lv; study.translation; study.explanation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ávextir\",\"study.translation\":\"ávextir\",\"study.explanation\":\"[\\\"Meginhugmynd: das Obst vísar til ávaxta almennt; í þýsku er fleirtalan *die Obsts ekki notuð.\\\",\\\"das Obst merkir ávexti sem safnheiti.\\\",\\\"Orðið er hvorugkyns og er venjulega aðeins notað í eintölu.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Wir essen viel Obst.\\\",\\\"lv\\\":\\\"Við borðum mikið af ávöxtum.\\\"},{\\\"de\\\":\\\"Wir essen viel Obst.\\\",\\\"lv\\\":\\\"Við borðum mikið af ávöxtum.\\\"},{\\\"de\\\":\\\"Obst ist gesund.\\\",\\\"lv\\\":\\\"Ávextir eru hollir.\\\"},{\\\"de\\\":\\\"Ich mag Obst und Gemüse.\\\",\\\"lv\\\":\\\"Mér líkar við ávexti og grænmeti.\\\"},{\\\"de\\\":\\\"Wir essen Obst.\\\",\\\"lv\\\":\\\"Við borðum ávexti.\\\"}]\",\"study.tip\":\"[\\\"das Obst = ávextir\\\",\\\"Notaðu das Obst þegar rætt er um ávexti almennt.\\\"]\",\"study.important\":\"[\\\"Rangt: die Obsts → Rétt: das Obst\\\",\\\"das Obst = ávextir sem safnheiti.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"das Obst\\\"],\\\"purple\\\":[\\\"ávexti\\\",\\\"ávaxta\\\"],\\\"red\\\":[\\\"die Obsts\\\"],\\\"green\\\":[\\\"eintölu\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"obst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ávöxtum\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"obst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ávöxtum\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"obst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ávextir\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"obst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ávexti\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"obst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ávexti\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"das Obst\\\"],\\\"purple\\\":[\\\"ávextir\\\"]},{\\\"blue\\\":[\\\"das Obst\\\"],\\\"purple\\\":[\\\"ávexti\\\"]}],\\\"important\\\":[{\\\"red\\\":[\\\"die Obsts\\\"],\\\"green\\\":[\\\"das Obst\\\"]},{\\\"blue\\\":[\\\"das Obst\\\"],\\\"purple\\\":[\\\"ávextir\\\"]}]}\"}",
+    "owner_note": "IS Obst / lv; study.translation; study.explanation; study.examples[].lv: individuāli pārbaudīta LRB-036 rinda 43/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|oder|idx:459|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eða\",\"study.translation\":\"eða\",\"study.explanation\":\"[\\\"Meginhugmynd: oder er notað þegar valið er milli tveggja eða fleiri möguleika.\\\",\\\"Á íslensku merkir oder oftast eða.\\\",\\\"Það er ekki það sama og ob, sem innleiðir óbeina spurningu.\\\",\\\"Í samtali getur oder einnig staðið í lok setningar: Du kommst, oder?\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Kaffee oder Tee?\\\",\\\"lv\\\":\\\"Kaffi eða te?\\\"},{\\\"de\\\":\\\"Heute oder morgen?\\\",\\\"lv\\\":\\\"Í dag eða á morgun?\\\"},{\\\"de\\\":\\\"Willst du Pizza oder Salat?\\\",\\\"lv\\\":\\\"Viltu pítsu eða salat?\\\"},{\\\"de\\\":\\\"Du kommst, oder?\\\",\\\"lv\\\":\\\"Þú kemur, er það ekki?\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: val milli möguleika → oder.\\\"}\",\"study.important\":\"[\\\"oder er notað við val: Kaffee oder Tee.\\\",\\\"Í óbeinni spurningu samsvarar íslenska hvort yfirleitt ob.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"oder\\\",\\\"ob\\\"],\\\"purple\\\":[\\\"eða\\\",\\\"valið\\\",\\\"óbeina spurningu\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"],\\\"yellow\\\":[\\\"Kaffee\\\",\\\"Tee\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eða\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eða\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"],\\\"yellow\\\":[\\\"Pizza\\\",\\\"Salat\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eða\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"er það ekki\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"oder\\\"],\\\"purple\\\":[\\\"val\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"oder\\\"],\\\"purple\\\":[\\\"val\\\"]},{\\\"red\\\":[\\\"ob\\\"],\\\"purple\\\":[\\\"hvort\\\",\\\"óbeinni spurningu\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"oder\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"eða\\\",\\\"val\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"oder\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ob\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hvort\\\",\\\"óbeinni\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"ob\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"und\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"og\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"und\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"aber\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"en\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"aber\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"oder\\\",\\\"meaning\\\":\\\"eða við val\\\",\\\"example\\\":\\\"Kaffee oder Tee? – Kaffi eða te?\\\"},{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"hvort í óbeinni spurningu\\\",\\\"example\\\":\\\"Ich weiß nicht, ob er kommt. – Ég veit ekki hvort hann kemur.\\\"},{\\\"word\\\":\\\"und\\\",\\\"meaning\\\":\\\"og\\\",\\\"example\\\":\\\"Kaffee und Kuchen. – Kaffi og kaka.\\\"},{\\\"word\\\":\\\"aber\\\",\\\"meaning\\\":\\\"en\\\",\\\"example\\\":\\\"Ich komme, aber später. – Ég kem, en seinna.\\\"}]\"}",
+    "owner_note": "IS oder / lv; study.translation; study.explanation; study.examples: individuāli pārbaudīta LRB-036 rinda 44/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|öffnen|idx:460|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "opna",
+    "owner_note": "IS öffnen / lv: individuāli pārbaudīta LRB-036 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|ohne|idx:462|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "án",
+    "owner_note": "IS ohne / lv: individuāli pārbaudīta LRB-036 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Ohr|idx:463|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "eyra",
+    "owner_note": "IS Ohr / lv: individuāli pārbaudīta LRB-036 rinda 47/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Oktober|idx:464|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "október",
+    "owner_note": "IS Oktober / lv: individuāli pārbaudīta LRB-036 rinda 48/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Onkel|idx:465|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "frændi",
+    "owner_note": "IS Onkel / lv: individuāli pārbaudīta LRB-036 rinda 49/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Orange|idx:466|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "appelsína",
+    "owner_note": "IS Orange / lv: individuāli pārbaudīta LRB-036 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  }
+}
