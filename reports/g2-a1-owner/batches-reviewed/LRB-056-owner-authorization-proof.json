@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-056",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T15:56:16.609Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "es": 50
+  },
+  "unique_cards": 50,
+  "scope": "Appetit..zum (50 ES rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/es/a1.js",
+  "input_csv_sha256": "842d53154c8d2e79983eccc879b332e5cf70bf7f3945f0043e2986c7f8d357ad",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-056-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-056-input.csv",
+  "note": "Owner authorization APPROVED. ES batch 1 (post FI LRB-055). First ES slice from 7737 pool (5 ES rows remain). GPT-5.6 Luna linguistic review pending. NOT LRB_056_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
