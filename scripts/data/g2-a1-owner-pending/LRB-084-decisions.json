@@ -1,0 +1,302 @@
+{
+  "g2/a1/ru|a1-fahren|a1.card.a1-fahren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ехать • Ездить • Водить",
+    "owner_note": "Для DE «fahren» исправлено ошибочное «забирать»: глагол означает движение или управление транспортом — «ехать», «ездить», «водить»."
+  },
+  "g2/a1/ru|a1-finden|a1.card.a1-finden.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Найти • Обнаружить",
+    "owner_note": "Для DE «finden» заменено ошибочное «рассмотреть» на точное значение обнаружения: «найти» и «обнаружить»."
+  },
+  "g2/a1/ru|a1-finden|a1.card.a1-finden.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Найти • Обнаружить",
+    "owner_note": "В переводе DE «finden» слово «рассмотреть» семантически неверно; подходят «найти» и «обнаружить»."
+  },
+  "g2/a1/ru|a1-frau|a1.card.a1-frau.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "DE «Frau» корректно передано как «женщина» или «жена» в зависимости от контекста."
+  },
+  "g2/a1/ru|a1-frau|a1.card.a1-frau.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для DE «Frau» варианты «женщина» и «жена» являются нормативными контекстными переводами."
+  },
+  "g2/a1/ru|a1-fuer|a1.card.a1-fuer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Для • За",
+    "owner_note": "Для DE «für» дублирование «для» исправлено: помимо значения адресата «для» возможен перевод «за» в значении обмена, платы или причины."
+  },
+  "g2/a1/ru|a1-fuer|a1.card.a1-fuer.study.tip[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Подсказка к DE «für» правильно различает «для» для адресата или намерения и «за» для обмена, причины или платы."
+  },
+  "g2/a1/ru|a1-fuer|a1.card.a1-fuer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Для • За",
+    "owner_note": "В переводе DE «für» повтор «для» устранён вторым контекстным вариантом «за», например в значении платы или обмена."
+  },
+  "g2/a1/ru|a1-ganz-study|a1.card.a1-ganz-study.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "DE «ganz» корректно представлен значениями «целый», «полностью» и «совсем», охватывающими основные употребления слова."
+  },
+  "g2/a1/ru|a1-gefallen-study|a1.card.a1-gefallen-study.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для DE «gefallen» правильно указаны значение «нравиться» и грамматическая модель с лицом в дательном падеже."
+  },
+  "g2/a1/ru|a1-gleich|a1.card.a1-gleich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Одинаковый • Равный",
+    "owner_note": "Для DE «gleich» заменено ошибочное «Сразу» на значения «одинаковый» и «равный»."
+  },
+  "g2/a1/ru|a1-gleich|a1.card.a1-gleich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Одинаковый • Равный",
+    "owner_note": "Для DE «gleich» заменено ошибочное «Сразу» на значения «одинаковый» и «равный»."
+  },
+  "g2/a1/ru|a1-halten|a1.card.a1-halten.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Держать • Останавливаться",
+    "owner_note": "Для DE «halten» исправлены разговорные формы «Держи • Стоп» на словарные инфинитивы «держать» и «останавливаться»."
+  },
+  "g2/a1/ru|a1-halten|a1.card.a1-halten.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Держать • Останавливаться",
+    "owner_note": "Для DE «halten» исправлены разговорные формы «Держи • Стоп» на словарные инфинитивы «держать» и «останавливаться»."
+  },
+  "g2/a1/ru|a1-heissen|a1.card.a1-heissen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Называться • Значить",
+    "owner_note": "Для DE «heißen» исправлена неграмматичная форма «Значит» на инфинитив «значить»; «называться» сохранено."
+  },
+  "g2/a1/ru|a1-heissen|a1.card.a1-heissen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Называться • Значить",
+    "owner_note": "Для DE «heißen» исправлена неграмматичная форма «Значит» на инфинитив «значить»; «называться» сохранено."
+  },
+  "g2/a1/ru|a1-hoeren-study|a1.card.a1-hoeren-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Переводы DE «hören» как «слышать» и «слушать» точны, естественны и грамматически корректны."
+  },
+  "g2/a1/ru|a1-hoeren-study|a1.card.a1-hoeren-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Переводы DE «hören» как «слышать» и «слушать» точны, естественны и грамматически корректны."
+  },
+  "g2/a1/ru|a1-huebsch|a1.card.a1-huebsch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для DE «hübsch» варианты «красивый» и «привлекательный внешне» естественно передают значение внешней привлекательности."
+  },
+  "g2/a1/ru|a1-ihr|a1.card.a1-ihr.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Вы • Ей",
+    "owner_note": "Для DE «ihr» исправлено «Ты • Она»: «Вы» передаёт местоимение во множественном числе, а «Ей» — дательный вариант значения «ей»."
+  },
+  "g2/a1/ru|a1-ihr|a1.card.a1-ihr.study.tip[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ihr с глаголом во множественном числе (kommt, habt) = вы • ihr рядом со словом в дательном или притяжательном значении = ей/её",
+    "owner_note": "Для немецкого ihr исправлены ошибочные «ты» и английское «her/hers»: форма с kommt и habt означает «вы», а в дательном или притяжательном значении — «ей/её»."
+  },
+  "g2/a1/ru|a1-ihr|a1.card.a1-ihr.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Вы • Ей/её",
+    "owner_note": "У немецкого ihr два указанных значения: форма обращения к нескольким лицам «вы» и форма «ей/её»; текущее «Ты • Она» содержит ошибки лица и падежа."
+  },
+  "g2/a1/ru|a1-im|a1.card.a1-im.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого im варианты «в» и «где?» корректно передают значение предлога и вопрос о месте."
+  },
+  "g2/a1/ru|a1-im|a1.card.a1-im.study.tip[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Куда? → ins • Где? → im — не путай эти два!",
+    "owner_note": "В подсказке для немецкого im исправлены перепутанный вопрос «Где?» вместо «Куда?» и ошибочное «я» вместо формы im."
+  },
+  "g2/a1/ru|a1-im|a1.card.a1-im.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого im перевод «В • Где?» соответствует значению места и вопросу «где?», поэтому текущая формулировка приемлема."
+  },
+  "g2/a1/ru|a1-in|a1.card.a1-in.study.important[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "«in» не всегда буквально означает «внутри» • По-латышски часто говорят «в Берлине», «в школе», «в кино».",
+    "owner_note": "Для немецкого in исправлено неестественное «На латышском языке» на нормативное русское «По-латышски», а значение предлога уточнено как «означает»."
+  },
+  "g2/a1/ru|a1-ins|a1.card.a1-ins.study.important[2]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Для мужского рода: in den Wald • Для женского рода: in die Schule.",
+    "owner_note": "В примере с немецким ins исправлены смешение русского и немецкого в первой части, ошибочное «Женщин» и отсутствие русского оформления второй части."
+  },
+  "g2/a1/ru|a1-ins|a1.card.a1-ins.study.tip[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Куда? → ins • Где? → im — это главное отличие!",
+    "owner_note": "Для немецкого ins исправлен вопрос направления на «Куда?», а противопоставление с im оформлено как «Где? → im»."
+  },
+  "g2/a1/ru|a1-kein|a1.card.a1-kein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ни один • Никакой",
+    "owner_note": "Немецкое kein не означает «никто» или «ничего»; его основные русские соответствия здесь — «ни один» и «никакой»."
+  },
+  "g2/a1/ru|a1-kein|a1.card.a1-kein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ни один • Никакой",
+    "owner_note": "Для немецкого kein заменены ошибочные местоимения «никто» и «ничего» на соответствующие значения отрицательного определителя «ни один» и «никакой»."
+  },
+  "g2/a1/ru|a1-koennen|a1.card.a1-koennen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Мочь • Уметь",
+    "owner_note": "Для DE «können» нужны значения «мочь» и «уметь»; «знать» здесь является неверным переводом."
+  },
+  "g2/a1/ru|a1-koennen|a1.card.a1-koennen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Мочь • Уметь",
+    "owner_note": "В переводе DE «können» второе значение должно быть «уметь», а не «знать»."
+  },
+  "g2/a1/ru|a1-kosten|a1.card.a1-kosten.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Стоить (о цене) • Сколько стоит",
+    "owner_note": "DE «kosten» означает «стоить» и используется в вопросе «сколько стоит»; «платить» передаёт другое значение."
+  },
+  "g2/a1/ru|a1-kosten|a1.card.a1-kosten.study.important[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kosten и bezahlen не являются синонимами: kosten означает «сколько стоит» • bezahlen — «заплатить деньги».",
+    "owner_note": "Для DE «kosten» и «bezahlen» исправлены ошибочные русские транслитерации и уточнено различие значений: цена против оплаты."
+  },
+  "g2/a1/ru|a1-land|a1.card.a1-land.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "DE «Land» действительно переводится как «страна» или «земля» в зависимости от контекста; текущая пара корректна."
+  },
+  "g2/a1/ru|a1-land|a1.card.a1-land.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для DE «Land» текущие значения «страна» и «земля» являются естественными и семантически полными."
+  },
+  "g2/a1/ru|a1-lang|a1.card.a1-lang.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Длинный • Долгий",
+    "owner_note": "DE «lang» имеет значение «длинный» для протяжённости и «долгий» для длительности; повтор «длинный» не отражает второе значение."
+  },
+  "g2/a1/ru|a1-lang|a1.card.a1-lang.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Длинный • Долгий",
+    "owner_note": "В переводе DE «lang» второе значение должно обозначать длительность: «долгий», а не повторять «длинный»."
+  },
+  "g2/a1/ru|a1-lassen|a1.card.a1-lassen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Оставлять • Позволять",
+    "owner_note": "DE «lassen» означает «оставлять» и «позволять»; «уйти» и «пусть» не являются точными инфинитивными переводами."
+  },
+  "g2/a1/ru|a1-lassen|a1.card.a1-lassen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Оставлять • Позволять",
+    "owner_note": "Для DE «lassen» нужны русские инфинитивы «оставлять» и «позволять», поскольку текущие формы не соответствуют значениям глагола."
+  },
+  "g2/a1/ru|a1-laufen|a1.card.a1-laufen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Бегать • Работать",
+    "owner_note": "Для немецкого слова «laufen» нужен общий несовершенный вид «бегать», а не однонаправленное «бежать»; «работать» корректно для работы устройства."
+  },
+  "g2/a1/ru|a1-laufen|a1.card.a1-laufen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Бегать • Работать",
+    "owner_note": "В переводе немецкого «laufen» форма «бегать» точнее передаёт обычное действие, тогда как «бежать» обозначает направленный бег; «работать» сохраняется."
+  },
+  "g2/a1/ru|a1-liegen|a1.card.a1-liegen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Лежать • Находиться",
+    "owner_note": "Немецкое «liegen» означает «лежать» или «находиться», но не «быть» и не «спать»; исправлены оба значения."
+  },
+  "g2/a1/ru|a1-liegen|a1.card.a1-liegen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Лежать • Находиться",
+    "owner_note": "Для «liegen» требуется русское «лежать», а дополнительное значение состояния места — «находиться»; «спать» является смысловой ошибкой."
+  },
+  "g2/a1/ru|a1-machen|a1.card.a1-machen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Делать • Изготавливать",
+    "owner_note": "Немецкое «machen» переводится несовершенными инфинитивами «делать» и «изготавливать»; «сделать» ошибочно меняет вид на совершенный."
+  },
+  "g2/a1/ru|a1-machen|a1.card.a1-machen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Делать • Изготавливать",
+    "owner_note": "В значениях немецкого «machen» нужны «делать» и «изготавливать», а не повторяющееся совершенное «сделать»."
+  },
+  "g2/a1/ru|a1-mann|a1.card.a1-mann.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого существительного «Mann» варианты «мужчина» и «муж» нормативны и соответствуют указанным значениям; исправление не требуется."
+  },
+  "g2/a1/ru|a1-mann|a1.card.a1-mann.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Перевод «Mann» как «мужчина • муж» естественен: первое слово обозначает мужчину, второе — супруга; текущая форма приемлема."
+  },
+  "g2/a1/ru|a1-nach|a1.card.a1-nach.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "В • После",
+    "owner_note": "Немецкое «nach» в направлении обычно переводится как «в» или «к», а не как «до»; значение времени «после» сохранено."
+  },
+  "g2/a1/ru|a1-nach|a1.card.a1-nach.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "В • После",
+    "owner_note": "Для «nach» вариант «до» неверен в значении направления; нормативная пара переводов — «в • после»."
+  }
+}
