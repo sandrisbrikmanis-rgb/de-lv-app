@@ -1,0 +1,33 @@
+{
+  "batch_id": "LRB-032",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T08:46:00.000Z",
+  "linguisticVerdict": "LRB_032_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna",
+  "languages": {
+    "is": 50
+  },
+  "unique_cards": 50,
+  "is_composite_repairs": 18,
+  "is_scalar_repairs": 32,
+  "scope": "erst..gleich (50 IS rows, 50 unique cards: 18 study composite + 32 scalar lv) GPT-5.6 Luna FULL_50_50",
+  "productionSource": "data/is/a1.js",
+  "semanticMicroRepairs": [
+    "erst",
+    "finden",
+    "für",
+    "Fußball"
+  ],
+  "residualProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-032-residual-wrong-language-proof.json",
+  "note": "OWNER_AUTHORIZATION_STATUS=APPROVED. GPT-5.6 Luna linguistic review: 50 LABOT / 0 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
+}

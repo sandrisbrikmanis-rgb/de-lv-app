@@ -1,0 +1,199 @@
+{
+  "batch_id": "LRB-032",
+  "classification": "LRB_031_OWNER_PREP_BLOCKED",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "recalculated_from_production": true,
+  "pass": false,
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 50,
+  "is_rows": 50,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "IS_ROWS": "50/50",
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 13,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 13,
+    "section_accent_mismatches": 0,
+    "section_accent_semantic_violations": 0,
+    "full_composite_completeness": "FAIL",
+    "anti_bulk": "PASS"
+  },
+  "productionSource": "data/is/a1.js",
+  "languages": {
+    "is": 50
+  },
+  "composite_repairs": [
+    "is:Essen",
+    "is:Esslöffel",
+    "is:Familie",
+    "is:Farbe",
+    "is:Fehler",
+    "is:Fenster",
+    "is:Ferien",
+    "is:Fernsehen",
+    "is:Fernseher",
+    "is:Film",
+    "is:Filzstift",
+    "is:Finger",
+    "is:Fisch",
+    "is:Flasche",
+    "is:Fleisch",
+    "is:Flugzeug",
+    "is:Fluss",
+    "is:Frage",
+    "is:Frau",
+    "is:Freitag",
+    "is:Freundin",
+    "is:Frühling",
+    "is:Frühstück",
+    "is:Fußball",
+    "is:Gemüse",
+    "is:Geschichte",
+    "is:Geschwister",
+    "is:erst",
+    "is:erste",
+    "is:es",
+    "is:essen",
+    "is:etwas",
+    "is:euch",
+    "is:euer",
+    "is:fahren",
+    "is:fast",
+    "is:fertig",
+    "is:fett",
+    "is:finden",
+    "is:fliegen",
+    "is:fragen",
+    "is:frei",
+    "is:freundlich",
+    "is:frisch",
+    "is:früh",
+    "is:für",
+    "is:ganz",
+    "is:geben",
+    "is:gefallen",
+    "is:gleich"
+  ],
+  "failures": [
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "erst",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "LV_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "es",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "LV_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "etwas",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "LV_LEAK_IN_IS"
+        },
+        {
+          "type": "ET_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "fahren",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "LV_LEAK_IN_IS"
+        },
+        {
+          "type": "ET_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "Fernsehen",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "ET_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "finden",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "LV_LEAK_IN_IS"
+        },
+        {
+          "type": "ET_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "für",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "ET_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "geben",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "LV_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "Geschichte",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "LV_LEAK_IN_IS"
+        }
+      ]
+    },
+    {
+      "type": "MERGED_CARD_FAIL",
+      "card": "gleich",
+      "lang": "is",
+      "failures": [
+        {
+          "type": "ET_LEAK_IN_IS"
+        }
+      ]
+    }
+  ],
+  "verdict": "LRB_031_OWNER_PREP_BLOCKED",
+  "updatedAt": "2026-09-13T08:49:02.366Z"
+}
