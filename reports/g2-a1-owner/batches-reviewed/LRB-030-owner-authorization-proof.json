@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-030",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T08:10:00.000Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "is": 50
+  },
+  "unique_cards": 50,
+  "scope": "Arbeit..Ärztin (50 IS rows, 50 unique cards: 38 scalar lv + 12 study composite) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/is/a1.js",
+  "input_csv_sha256": "c2543bef7d0769c24fd971cc015a5ec7547dd52d092e64e496717898f1dd5b75",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-030-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-030-input.csv",
+  "note": "Owner authorization APPROVED. GPT-5.6 Luna linguistic review pending. NOT LRB_030_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
