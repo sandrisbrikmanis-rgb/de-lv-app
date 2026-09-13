@@ -1,0 +1,302 @@
+{
+  "g2/a1/lb|Wasser|idx:2|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Waasser",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Waasser ir precīzs luksemburgiešu lietvārds vācu Wasser un LV ūdens."
+  },
+  "g2/a1/lb|lernen|idx:4|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "léieren",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; léieren ir precīzs infinitīvs vācu lernen un LV mācīties."
+  },
+  "g2/a1/lb|sprechen|idx:5|study.translation|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"schwätzen\",\"study.translation\":\"schwätzen\",\"study.explanation\":\"[\\\"Haaptiddi: Schwätzen, sech ënnerhalen oder eng Sprooch benotzen.\\\",\\\"sprechen heescht virun allem schwätzen oder sech ënnerhalen.\\\",\\\"Dacks geet et ëm eng Sprooch oder e Gespréich.\\\",\\\"sprechen beschreift d'Schwätzen oder d'Benotze vun enger Sprooch.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich spreche Deutsch.\\\",\\\"lv\\\":\\\"Ech schwätzen Däitsch.\\\"},{\\\"de\\\":\\\"Wir sprechen über die Arbeit.\\\",\\\"lv\\\":\\\"Mir schwätzen iwwer d'Aarbecht.\\\"},{\\\"de\\\":\\\"Sie spricht mit ihrer Lehrerin.\\\",\\\"lv\\\":\\\"Si schwätzt mat hirer Léierin.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sprechen\\\",\\\"meaning\\\":\\\"schwätzen (Handlung, Sprooch)\\\",\\\"example\\\":\\\"Wir sprechen über die Arbeit. – Mir schwätzen iwwer d'Aarbecht.\\\"},{\\\"word\\\":\\\"sagen\\\",\\\"meaning\\\":\\\"eppes Konkretes soen\\\",\\\"example\\\":\\\"Sag mir die Wahrheit. – So mir d'Wourecht.\\\"}]\",\"study.tip\":\"[\\\"sprechen = schwätzen\\\",\\\"Benotz sprechen, wann de Kontext dëser Bedeitung entsprécht.\\\"]\",\"study.important\":\"[\\\"sprechen = schwätzen.\\\",\\\"Et geet ëm d'Schwätzen, e Gespréich oder d'Benotze vun enger Sprooch.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sprechen\\\"],\\\"purple\\\":[\\\"Schwätzen\\\",\\\"schwätzen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"spreche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"schwätzen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sprechen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"schwätzen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"spricht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"schwätzt\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: galvenā doma, 3/3 piemēri, sprechen/sagen kontrasts, padoms un svarīgais pārrakstīts korektā luksemburgiešu valodā; DE teksti saglabāti."
+  },
+  "g2/a1/lb|klein|idx:6|study.translation|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"kleng\",\"study.translation\":\"kleng\",\"study.explanation\":\"[\\\"Haaptiddi: klein bedeit kleng wat d'Gréisst, den Ëmfang oder den Alter ugeet.\\\",\\\"klein kann en Objet, e Raum, eng Quantitéit oder e Kand beschreiwen.\\\",\\\"Déi genee Bedeitung hänkt vum Substantiv a vum Kontext of.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das Zimmer ist klein.\\\",\\\"lv\\\":\\\"D'Zëmmer ass kleng.\\\"},{\\\"de\\\":\\\"Das Kind ist noch klein.\\\",\\\"lv\\\":\\\"D'Kand ass nach kleng.\\\"},{\\\"de\\\":\\\"Ich habe eine kleine Tasche.\\\",\\\"lv\\\":\\\"Ech hunn eng kleng Täsch.\\\"}]\",\"study.tip\":\"[\\\"klein = kleng\\\",\\\"Benotz klein, wann de Kontext dëser Bedeitung entsprécht.\\\"]\",\"study.important\":\"[\\\"klein bedeit meeschtens kleng.\\\",\\\"Bei engem Kand kann klein och op e jonken Alter hiweisen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"klein\\\"],\\\"purple\\\":[\\\"kleng\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"klein\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kleng\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"klein\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kleng\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"kleine\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kleng\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: galvenā doma, 3/3 piemēri, padoms un vecuma nianse pārrakstīta korektā luksemburgiešu valodā; DE teksti saglabāti."
+  },
+  "g2/a1/lb|alle|idx:7|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "alleguer",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; alleguer atbilst patstāvīgi lietotam alle un LV visi."
+  },
+  "g2/a1/lb|alles|idx:9|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "alles",
+    "owner_note": "Fësch nozīmē zivs un maina jēgu; alles precīzi atbilst vācu alles un LV viss."
+  },
+  "g2/a1/lb|an|idx:12|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"un\",\"study.translation\":\"un\",\"study.explanation\":\"\\\"Haaptiddi: an weist dacks eng Positioun un enger Mauer, enger Fënster, enger Dier, engem Floss, dem Mier oder engem anere Rand beziehungsweise enger Uewerfläch un.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"an der Wand\\\",\\\"lv\\\":\\\"un der Mauer\\\"},{\\\"de\\\":\\\"am Fenster\\\",\\\"lv\\\":\\\"bei der Fënster\\\"},{\\\"de\\\":\\\"am Meer\\\",\\\"lv\\\":\\\"um Mier\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"un enger Uewerfläch oder um Rand\\\",\\\"example\\\":\\\"an der Wand – un der Mauer\\\"},{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"op enger horizontaler Uewerfläch\\\",\\\"example\\\":\\\"auf dem Tisch – um Dësch\\\"},{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"bei enger Persoun oder enger Plaz\\\",\\\"example\\\":\\\"beim Arzt – beim Dokter\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: bei enger Mauer, Fënster oder engem Rand → an.\\\"}\",\"study.important\":\"[\\\"an bedeit net allgemeng all Zort vu „bei“. Et steet dacks bei enger Uewerfläch, enger Mauer, enger Fënster oder engem Rand.\\\",\\\"Op enger horizontaler Uewerfläch benotzt een am Däitschen normalerweis auf.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"an\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"un\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"am\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bei\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"am\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"um\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: 3/3 piemēri, an/auf/bei kontrasti, padoms un svarīgais precīzi atjaunoti; jauktais Von • Zu • Present saturs noņemts."
+  },
+  "g2/a1/lb|Anfang|idx:13|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ufank",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Ufank ir precīzs lietvārds vācu Anfang un LV sākums."
+  },
+  "g2/a1/lb|anfangen|idx:14|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ufänken",
+    "owner_note": "Sakt nav luksemburgiešu infinitīvs; ufänken precīzi atbilst vācu anfangen un LV sākt."
+  },
+  "g2/a1/lb|anders|idx:15|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "anescht",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; anescht precīzi atbilst vācu anders un LV citādi."
+  },
+  "g2/a1/lb|anrufen|idx:16|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "uruffen",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; uruffen precīzi atbilst vācu anrufen un LV zvanīt."
+  },
+  "g2/a1/lb|ab|idx:17|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vun ... un\",\"study.translation\":\"vun ... un\",\"study.explanation\":\"\\\"Haaptiddi: ab weist un, datt eppes bei enger bestëmmter Zäit, Plaz oder engem bestëmmte Punkt ufänkt. Et bedeit dacks „vun ... un“.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"ab heute\\\",\\\"lv\\\":\\\"vun haut un\\\",\\\"level\\\":\\\"A1\\\"},{\\\"de\\\":\\\"ab Montag\\\",\\\"lv\\\":\\\"vu Méindeg un\\\"},{\\\"de\\\":\\\"ab 8 Uhr\\\",\\\"lv\\\":\\\"vun 8 Auer un\\\"},{\\\"de\\\":\\\"ab Bahnhof\\\",\\\"lv\\\":\\\"vun der Gare un\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"ab\\\",\\\"meaning\\\":\\\"vun engem Zäit- oder Ausgangspunkt un\\\",\\\"example\\\":\\\"ab Montag – vu Méindeg un\\\"},{\\\"word\\\":\\\"von\\\",\\\"meaning\\\":\\\"vun enger Persoun oder enger Quell\\\",\\\"example\\\":\\\"von mir – vu mir\\\"},{\\\"word\\\":\\\"aus\\\",\\\"meaning\\\":\\\"aus dem Banneraum oder Hierkonft\\\",\\\"example\\\":\\\"aus dem Haus – aus dem Haus\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: en Ufank an der Zäit oder op enger Plaz → ab.\\\"}\",\"study.important\":\"[\\\"ab weist en Ufank an der Zäit oder op enger Plaz un.\\\",\\\"Fir Hierkonft oder eng Beweegung aus engem Banneraum benotzt een am Däitschen éischter von oder aus.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"ab\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vun\\\",\\\"un\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ab\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vu\\\",\\\"un\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ab\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vun\\\",\\\"un\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ab\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vun\\\",\\\"un\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: 4/4 piemēri, ab/von/aus kontrasti un sākuma punkta skaidrojums precīzi atjaunots; kļūdainais Nee saturs noņemts."
+  },
+  "g2/a1/lb|Abendessen|idx:19|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Owesiessen",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Owesiessen precīzi atbilst vācu Abendessen un LV vakariņas."
+  },
+  "g2/a1/lb|abends|idx:20|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "owes",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; owes precīzi atbilst vācu abends un LV vakarā."
+  },
+  "g2/a1/lb|aber|idx:21|study.translation|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"awer\",\"study.translation\":\"awer\",\"study.explanation\":\"\\\"Haaptiddi: aber féiert e Géigesaz oder en Asproch an. Et bedeit dacks „awer“, „allerdéngs“ oder „trotzdeem“.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich möchte mitkommen, aber ich habe keine Zeit.\\\",\\\"lv\\\":\\\"Ech wëll matkommen, awer ech hu keng Zäit.\\\"},{\\\"de\\\":\\\"Das Essen war lecker, aber zu teuer.\\\",\\\"lv\\\":\\\"D'Iesse war lecker, awer ze deier.\\\"},{\\\"de\\\":\\\"Er hat recht, aber ich sehe das anders.\\\",\\\"lv\\\":\\\"Hien huet Recht, awer ech gesinn dat anescht.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"aber\\\",\\\"meaning\\\":\\\"Géigesaz oder Asproch\\\",\\\"example\\\":\\\"Ich komme, aber später. – Ech kommen, awer méi spéit.\\\"},{\\\"word\\\":\\\"sondern\\\",\\\"meaning\\\":\\\"net ..., mä ...\\\",\\\"example\\\":\\\"Ich wollte keinen Tee, sondern Kaffee. – Ech wollt keen Téi, mä Kaffi.\\\"},{\\\"word\\\":\\\"jedoch\\\",\\\"meaning\\\":\\\"allerdéngs\\\",\\\"example\\\":\\\"Es ist kalt, jedoch sonnig. – Et ass kal, allerdéngs sonneg.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Géigesaz oder Asproch → aber.\\\"}\",\"study.important\":\"[\\\"aber weist e Géigesaz oder en Asproch.\\\",\\\"Beim Muster „net ..., mä ...“ benotzt een am Däitschen normalerweis sondern.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"aber\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"awer\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aber\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"awer\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aber\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"awer\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: 3/3 piemēri, aber/sondern/jedoch kontrasti, padoms un svarīgais pārrakstīts korektā luksemburgiešu valodā."
+  },
+  "g2/a1/lb|achten|idx:22|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "uechten",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; uechten atbilst achten nozīmei ievērot/pievērst uzmanību."
+  },
+  "g2/a1/lb|Adresse|idx:23|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Adress",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Adress ir precīzs luksemburgiešu lietvārds vācu Adresse un LV adrese."
+  },
+  "g2/a1/lb|Affe|idx:24|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Af",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Af ir precīzs luksemburgiešu lietvārds vācu Affe un LV pērtiķis."
+  },
+  "g2/a1/lb|Album|idx:25|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Album",
+    "owner_note": "Albumen ir daudzskaitlis, bet DE/LV avots ir vienskaitlī; Album saglabā skaitli un jēgu."
+  },
+  "g2/a1/lb|also|idx:26|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"also • deemno\",\"study.translation\":\"also • deemno\",\"study.explanation\":\"\\\"Haaptiddi: also zitt eng Konklusioun oder weist e Resultat. Et bedeit „also“ oder „deemno“.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Es regnet, also bleibe ich zu Hause.\\\",\\\"lv\\\":\\\"Et reent, also bleiwen ech doheem.\\\"},{\\\"de\\\":\\\"Du bist krank, also gehst du nicht zur Arbeit.\\\",\\\"lv\\\":\\\"Du bass krank, also gees de net op d'Aarbecht.\\\"},{\\\"de\\\":\\\"Ich habe viel gelernt, also verstehe ich es jetzt.\\\",\\\"lv\\\":\\\"Ech hu vill geléiert, also verstinn ech et elo.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"also\\\",\\\"meaning\\\":\\\"also • deemno\\\",\\\"example\\\":\\\"Es regnet, also bleibe ich zu Hause. – Et reent, also bleiwen ech doheem.\\\"},{\\\"word\\\":\\\"auch\\\",\\\"meaning\\\":\\\"och\\\",\\\"example\\\":\\\"Ich komme auch. – Ech kommen och.\\\"},{\\\"word\\\":\\\"deshalb\\\",\\\"meaning\\\":\\\"dofir\\\",\\\"example\\\":\\\"Es regnet, deshalb bleibe ich zu Hause. – Et reent, dofir bleiwen ech doheem.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Konklusioun → also.\\\"}\",\"study.important\":\"[\\\"also weist eng Konklusioun: Aus deem, wat virdru gesot gouf, ergëtt sech déi nächst Iddi.\\\",\\\"Fir eng Ursaach ze betounen, kann deshalb op Lëtzebuergesch dacks mat dofir iwwersat ginn.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"also\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"also\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"also\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"also\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"also\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"also\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: 3/3 piemēri un also/auch/deshalb kontrasti salaboti bez nozīmes maiņas; visi svešvalodu un placeholder fragmenti noņemti."
+  },
+  "g2/a1/lb|Ameise|idx:27|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Seechomes",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Seechomes ir precīzs luksemburgiešu lietvārds vācu Ameise un LV skudra."
+  },
+  "g2/a1/lb|anschauen|idx:29|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ukucken",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; ukucken precīzi atbilst vācu anschauen un LV apskatīt."
+  },
+  "g2/a1/lb|anziehen|idx:30|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "undoen",
+    "owner_note": "Kleed un ir nepilnīga frāze un maina vārda formu; undoen ir precīzs infinitīvs anziehen/uzvilkt."
+  },
+  "g2/a1/lb|anhalten|idx:31|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "stoe bleiwen",
+    "owner_note": "Stop ir aizguvums/komanda, nevis prasītais infinitīvs; stoe bleiwen precīzi izsaka apstāties."
+  },
+  "g2/a1/lb|Angst|idx:32|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Angscht",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Angscht precīzi atbilst vācu Angst un LV bailes."
+  },
+  "g2/a1/lb|angenehm|idx:33|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "agreabel",
+    "owner_note": "Patikams ir latviešu transliterācija, nevis luksemburgiešu vārds; agreabel atbilst angenehm/patīkams."
+  },
+  "g2/a1/lb|Antenne|idx:34|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Antenn",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Antenn precīzi atbilst vācu Antenne un LV antena."
+  },
+  "g2/a1/lb|Antwort|idx:35|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Äntwert",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Äntwert precīzi atbilst vācu Antwort un LV atbilde."
+  },
+  "g2/a1/lb|antworten|idx:36|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "äntweren",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; äntweren ir precīzs infinitīvs vācu antworten un LV atbildēt."
+  },
+  "g2/a1/lb|Anzug|idx:37|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kostüm",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Kostüm šajā apģērba nozīmē atbilst vācu Anzug un LV uzvalks."
+  },
+  "g2/a1/lb|Apfelbaum|idx:38|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Äppelbam",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Äppelbam precīzi atbilst vācu Apfelbaum un LV ābele."
+  },
+  "g2/a1/lb|Apfelsine|idx:39|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Eng Orange ir dabiska luksemburgiešu nominālā frāze un pilnībā saglabā vācu Apfelsine / LV apelsīns nozīmi."
+  },
+  "g2/a1/lb|Aprikose|idx:40|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Aprikos ir pareizs luksemburgiešu vienskaitļa lietvārds un precīzi atbilst vācu Aprikose / LV aprikoze."
+  },
+  "g2/a1/lb|April|idx:41|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Abrëll ir pareizais luksemburgiešu mēneša nosaukums un precīzi atbilst vācu April / LV aprīlis."
+  },
+  "g2/a1/lb|Arbeit|idx:42|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aarbecht",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Aarbecht precīzi atbilst vācu Arbeit un LV darbs."
+  },
+  "g2/a1/lb|arbeiten|idx:43|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "schaffen",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; schaffen ir precīzs infinitīvs vācu arbeiten un LV strādāt."
+  },
+  "g2/a1/lb|Armbanduhr|idx:45|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aarmbandauer",
+    "owner_note": "Rokas Pulkstis ir latviešu frāze, nevis luksemburgiešu vārds; Aarmbandauer precīzi atbilst Armbanduhr."
+  },
+  "g2/a1/lb|Ärztin|idx:46|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Doktesch",
+    "owner_note": "Vëloen Doctor ir semantiski un gramatiski nederīgs; Doktesch ir sieviešu dzimtes luksemburgiešu nosaukums Ärztin/ārste."
+  },
+  "g2/a1/lb|atmen|idx:47|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ootmen",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; ootmen ir precīzs infinitīvs vācu atmen un LV elpot."
+  },
+  "g2/a1/lb|auch|idx:48|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"och\",\"study.translation\":\"och\",\"study.explanation\":\"[\\\"Haaptiddi: auch ass dat heefegst an neutralst däitscht Wuert fir „och“.\\\",\\\"Et füügt eng Persoun, eng Saach oder eng Handlung dobäi.\\\",\\\"D'Positioun vun auch hänkt dovun of, wat am Saz dobäigesat oder betount gëtt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme auch.\\\",\\\"lv\\\":\\\"Ech kommen och.\\\"},{\\\"de\\\":\\\"Sie arbeitet auch hier.\\\",\\\"lv\\\":\\\"Si schafft och hei.\\\"},{\\\"de\\\":\\\"Ich wünsche Ihnen auch einen schönen Tag.\\\",\\\"lv\\\":\\\"Ech wënschen Iech och e schéinen Dag.\\\"}]\",\"study.tip\":\"[\\\"auch = och\\\",\\\"Benotz auch, wann eng Persoun, Saach oder Handlung dobäikënnt.\\\"]\",\"study.important\":\"[\\\"auch ass dat heefegst neutral däitscht Wuert mat der Bedeitung „och“.\\\",\\\"Richteg: Ich wünsche Ihnen auch einen schönen Tag.\\\",\\\"Falsch: Ich auch wünsche Ihnen einen schönen Tag.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"auch\\\"],\\\"purple\\\":[\\\"och\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"auch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"och\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"auch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"och\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"auch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"och\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: 3/3 piemēri, galvenā doma, padoms un vārdu kārtības brīdinājums korekti pārtulkots; turku/latviešu atlikumi noņemti."
+  },
+  "g2/a1/lb|auf|idx:49|study|PLACEHOLDER_AND_TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"op\",\"study.translation\":\"op\",\"study.explanation\":\"\\\"Haaptiddi: auf weist eng Richtung op eng Plaz oder op d'Uewerfläch vun eppes un.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich stelle das Buch auf den Tisch.\\\",\\\"lv\\\":\\\"Ech stellen d'Buch op den Dësch.\\\"},{\\\"de\\\":\\\"Wir fahren auf den Berg.\\\",\\\"lv\\\":\\\"Mir fueren op de Bierg.\\\"},{\\\"de\\\":\\\"Die Katze springt auf das Sofa.\\\",\\\"lv\\\":\\\"D'Kaz spréngt op de Canapé.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"op eng Uewerfläch oder no uewen\\\",\\\"example\\\":\\\"Ich stelle das Glas auf den Tisch. – Ech stellen d'Glas op den Dësch.\\\"},{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"un eng vertikal Uewerfläch\\\",\\\"example\\\":\\\"Ich hänge das Bild an die Wand. – Ech hänken d'Bild un d'Mauer.\\\"},{\\\"word\\\":\\\"in\\\",\\\"meaning\\\":\\\"an e Banneraum\\\",\\\"example\\\":\\\"Ich lege das Buch in die Tasche. – Ech leeën d'Buch an d'Täsch.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: op eng Uewerfläch oder no uewen → auf.\\\"}\",\"study.important\":\"[\\\"auf bedeit net allgemeng all Zort vun „op“. Et weist dacks eng Beweegung oder eng Positioun op enger Uewerfläch beziehungsweise uewen un.\\\",\\\"Bei enger vertikaler Uewerfläch benotzt een am Däitschen dacks an; fir eng Beweegung an e Banneraum benotzt een in.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"auf\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"auf\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"auf\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: 3/3 piemēri un auf/an/in kontrasti precīzi atjaunoti; svešvalodu, placeholder un semantiski sajauktie fragmenti noņemti."
+  },
+  "g2/a1/lb|aufpassen|idx:51|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "oppassen",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; oppassen precīzi atbilst vācu aufpassen un LV uzmanīties."
+  },
+  "g2/a1/lb|aufwärts|idx:53|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "no uewen",
+    "owner_note": "QShortcut ir programmatūras marķieris, nevis tulkojums; no uewen precīzi atbilst aufwärts/uz augšu."
+  },
+  "g2/a1/lb|Auge|idx:54|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "A",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; A ir precīzs luksemburgiešu lietvārds vācu Auge un LV acs."
+  },
+  "g2/a1/lb|August|idx:56|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "August",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; August ir pareizais luksemburgiešu mēneša nosaukums."
+  },
+  "g2/a1/lb|aus|idx:57|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"aus\",\"study.translation\":\"aus\",\"study.explanation\":\"\\\"Haaptiddi: aus weist, datt eppes aus engem Banneraum kënnt, erausgeet oder seng Hierkonft ugëtt.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme aus Deutschland.\\\",\\\"lv\\\":\\\"Ech kommen aus Däitschland.\\\"},{\\\"de\\\":\\\"Er geht aus dem Haus.\\\",\\\"lv\\\":\\\"Hie geet aus dem Haus.\\\"},{\\\"de\\\":\\\"Ich nehme das Buch aus der Tasche.\\\",\\\"lv\\\":\\\"Ech huelen d'Buch aus der Täsch.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"aus\\\",\\\"meaning\\\":\\\"aus engem Banneraum oder als Hierkonft\\\",\\\"example\\\":\\\"aus dem Haus – aus dem Haus\\\"},{\\\"word\\\":\\\"von\\\",\\\"meaning\\\":\\\"vun enger Persoun, Plaz oder Uewerfläch\\\",\\\"example\\\":\\\"von meinem Freund – vu mengem Frënd\\\"},{\\\"word\\\":\\\"ab\\\",\\\"meaning\\\":\\\"vun engem Zäit- oder Ausgangspunkt un\\\",\\\"example\\\":\\\"ab Montag – vu Méindeg un\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: aus engem Banneraum eraus → aus.\\\"}\",\"study.important\":\"[\\\"aus weist normalerweis eng Beweegung aus engem Banneraum oder eng Hierkonft un.\\\",\\\"Wann et nëmmen ëm en Ufank an der Zäit oder op enger Plaz geet, benotzt een am Däitschen dacks ab.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"aus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"aus\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"aus\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"aus\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: 3/3 piemēri un aus/von/ab kontrasti precīzi atjaunoti; latviešu un bojātie fragmenti noņemti."
+  },
+  "g2/a1/lb|auf dem Bahnhof|idx:59|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "op der Gare",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; op der Gare precīzi atbilst vācu frāzei auf dem Bahnhof un LV stacijā."
+  },
+  "g2/a1/lb|aufs|idx:60|study|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"op\",\"study.translation\":\"op\",\"study.explanation\":\"[\\\"Haaptiddi: aufs ass d’Kontraktioun vun der däitscher Präpositioun auf an dem Artikel das.\\\",\\\"Déi voll Form ass auf das. Si gëtt mat Neutrum-Substantiver benotzt, fir eng Beweegung op eng Uewerfläch, eng Plaz oder en Evenement unzeweisen.\\\",\\\"aufs beäntwert am Däitschen d'Fro „wohin?“ an net „wo?“\\\",\\\"Am normalen Däitsch gëtt d’Kontraktioun aufs dacks benotzt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe aufs Dach.\\\",\\\"lv\\\":\\\"Ech ginn op den Daach.\\\"},{\\\"de\\\":\\\"Sie setzt sich aufs Sofa.\\\",\\\"lv\\\":\\\"Si setzt sech op de Canapé.\\\"},{\\\"de\\\":\\\"Wir fahren aufs Land.\\\",\\\"lv\\\":\\\"Mir fueren op d'Land.\\\"},{\\\"de\\\":\\\"Stell die Tasche aufs Bett.\\\",\\\"lv\\\":\\\"Stell d'Täsch op d'Bett.\\\"},{\\\"de\\\":\\\"Er springt aufs Pferd.\\\",\\\"lv\\\":\\\"Hie spréngt op d'Päerd.\\\"},{\\\"de\\\":\\\"Leg das Buch aufs Regal.\\\",\\\"lv\\\":\\\"Lee d'Buch op d'Regal.\\\"},{\\\"de\\\":\\\"Komm schnell aufs Boot!\\\",\\\"lv\\\":\\\"Komm séier op d'Boot!\\\"},{\\\"de\\\":\\\"Wir gehen aufs Fest.\\\",\\\"lv\\\":\\\"Mir ginn op d'Fest.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"aufs\\\",\\\"meaning\\\":\\\"op eng Uewerfläch, Plaz oder en Evenement; auf + das\\\",\\\"example\\\":\\\"aufs Dach – op den Daach\\\"},{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"op eng Uewerfläch\\\",\\\"example\\\":\\\"auf den Tisch – op den Dësch\\\"},{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"un eng vertikal Uewerfläch\\\",\\\"example\\\":\\\"an die Wand – un d'Mauer\\\"},{\\\"word\\\":\\\"ins\\\",\\\"meaning\\\":\\\"an e Banneraum eran\\\",\\\"example\\\":\\\"ins Zimmer – an d'Zëmmer\\\"},{\\\"word\\\":\\\"zum\\\",\\\"meaning\\\":\\\"bei enger Persoun oder enger Institutioun\\\",\\\"example\\\":\\\"zum Arzt – bei den Dokter\\\"}]\",\"study.tip\":\"[\\\"Denk drun: auf + das → aufs; et weist eng Richtung oder en Zil un.\\\",\\\"Fir eng Plaz ouni Beweegung steet auf mam Dativ.\\\"]\",\"study.important\":\"[\\\"aufs kann nëmmen auf + das kontrahéieren; et steet net mat maskulinen oder feminine Substantiver.\\\",\\\"Verwiessel aufs net mat an fir eng vertikal Uewerfläch oder mat ins fir eng Beweegung an e Banneraum.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"aufs\\\",\\\"auf das\\\"],\\\"purple\\\":[\\\"op\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}}]}\"}",
+    "owner_note": "Pilnā gala kartīte individuāli salīdzināta ar LV→DE avotu: 8/8 piemēri, 5/5 salīdzinājumi, auf + das skaidrojums, padoms un svarīgais precīzi atjaunots; DE teksti saglabāti."
+  },
+  "g2/a1/lb|Augenbraue|idx:61|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aperhoer",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Aperhoer precīzi atbilst vācu Augenbraue un LV uzacs."
+  },
+  "g2/a1/lb|Augenfarbe|idx:62|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aefaarf",
+    "owner_note": "CAA - ir neatļauts aizvietotājs; Aefaarf precīzi atbilst vācu Augenfarbe un LV acu krāsa."
+  }
+}
