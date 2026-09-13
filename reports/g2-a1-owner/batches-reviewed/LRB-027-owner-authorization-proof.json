@@ -1,0 +1,19 @@
+{
+  "batch_id": "LRB-027",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T07:15:00.000Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "hu": 5,
+    "is": 45
+  },
+  "unique_cards": 32,
+  "scope": "Wetter..Zug (5 HU) + a1-ab..a1-halten (45 IS, 27 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/hu/a1.js + data/is/a1.js",
+  "input_csv_sha256": "5ac93f979b8be7d38f653eb69a6cdfb2e829a87fc42d899825141ee1f468b16d",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-027-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-027-input.csv",
+  "note": "Owner authorization APPROVED. GPT-5.6 Luna linguistic review pending. NOT LRB_027_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
