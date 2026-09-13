@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T11:35:00.000Z",
+  "updatedAt": "2026-09-13T11:46:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -96,7 +96,7 @@
     "batchSize": 50,
     "batchesTotal": 103,
     "batchesReviewed": 42,
-    "batchesAntiBulkPass": 41,
+    "batchesAntiBulkPass": 42,
     "batchesSpotCheckPass": 41,
     "linguisticVerdicts": {
       "LRB-001": {
@@ -1022,6 +1022,12 @@
       "LRB-042": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
+        "labot": 48,
+        "nelabot": 2,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "pending-gpt-5.6-luna",
         "languages": {
@@ -1029,23 +1035,34 @@
         },
         "uniqueCards": 50,
         "rowCount": 50,
+        "compositeRepairs": 8,
         "batchNote": "First FI batch after IS completion: Apfel..Bein (50 FI rows by idx from 7737 pool)",
         "productionSource": "data/fi/a1.js",
-        "inputPath": "reports/g2-a1-owner/batches-pending/LRB-042-input.csv",
-        "manifestPath": "reports/g2-a1-owner/manifests/LRB-042-start.json",
-        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-042-owner-authorization-proof.json"
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-042-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-042-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-042-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-042-owner-authorization-proof.json",
+        "pasteRepairs": "GPT-5.6 Luna copy/paste (48 LABOT / 2 NELABOT / 50 unique FI cards: 8 composite + 40 scalar) — pending ChatGPT PDF re-review",
+        "pasteSha256": "e6fb6451a540349a9ed550d306eadc8c0e43abd8b50de4a3e2ff65f96d85d523"
       }
     },
     "lastBatch": {
       "batch_id": "LRB-042",
+      "labot": 48,
+      "nelabot": 2,
+      "pending": 0,
+      "antiBulkPass": true,
+      "residualAuditPass": true,
+      "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
       "rowCount": 50,
       "uniqueCards": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-042-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-042-start.json",
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-042-decisions.csv",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-042-anti-bulk-proof.json",
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-042-residual-wrong-language-proof.json",
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-042-owner-authorization-proof.json"
     }
   },

@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Apfel|idx:0|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Omena",
+    "owner_note": "FI Apfel / lv: individuāli pārbaudīta LRB-042 rinda 1/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Brot|idx:1|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Leipä",
+    "owner_note": "FI Brot / lv: individuāli pārbaudīta LRB-042 rinda 2/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Wasser|idx:2|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Wasser / lv: individuāli pārbaudīta LRB-042 rinda 3/50; production vērtība “Vesi” jau ir pareiza somu valoda un precīzi atbilst LV/DE avotam; DE avots nemainīts."
+  },
+  "g2/a1/fi|Haus|idx:3|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Talo",
+    "owner_note": "FI Haus / lv: individuāli pārbaudīta LRB-042 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|lernen|idx:4|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Oppia • Opiskella",
+    "owner_note": "FI lernen / lv: individuāli pārbaudīta LRB-042 rinda 5/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|sprechen|idx:5|lv; study.translation; study.explanation; study.examples; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Puhua\",\"study.translation\":\"Puhua\",\"study.explanation\":\"[\\\"Pääajatus: sprechen tarkoittaa puhumista, keskustelua tai kielen käyttämistä.\\\",\\\"sprechen tarkoittaa ensisijaisesti puhumista tai keskustelemista.\\\",\\\"Sanaa käytetään usein kielen tai keskustelun yhteydessä.\\\",\\\"sprechen kuvaa puhumisen prosessia, kun taas sagen tarkoittaa tiettyjen sanojen sanomista.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich spreche Deutsch.\\\",\\\"lv\\\":\\\"Puhun saksaa.\\\"},{\\\"de\\\":\\\"Wir sprechen über die Arbeit.\\\",\\\"lv\\\":\\\"Puhumme työstä.\\\"},{\\\"de\\\":\\\"Sie spricht mit ihrer Lehrerin.\\\",\\\"lv\\\":\\\"Hän puhuu naisopettajansa kanssa.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sprechen\\\",\\\"meaning\\\":\\\"puhua (prosessi, kieli)\\\",\\\"example\\\":\\\"Wir sprechen über die Arbeit. – Puhumme työstä.\\\"},{\\\"word\\\":\\\"sagen\\\",\\\"meaning\\\":\\\"sanoa (tietyt sanat)\\\",\\\"example\\\":\\\"Sag mir die Wahrheit. – Kerro minulle totuus.\\\"}]\",\"study.tip\":\"[\\\"sprechen = puhua\\\",\\\"Käytä sprechen, kun tarkoitetaan puhumista, keskustelua tai kielen käyttämistä.\\\"]\",\"study.important\":\"[\\\"sprechen = puhua.\\\",\\\"Sana voi tarkoittaa puhumista, keskustelemista tai kielen käyttämistä.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"sprechen\\\",\\\"sagen\\\"],\\\"purple\\\":[\\\"puhumista\\\",\\\"keskustelua\\\",\\\"kielen\\\"],\\\"red\\\":[\\\"sanomista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"spreche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Puhun\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sprechen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Puhumme\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"spricht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"puhuu\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sprechen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"puhua\\\",\\\"prosessi\\\",\\\"kieli\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"sprechen\\\"],\\\"purple\\\":[\\\"Puhumme\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sagen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sanoa\\\",\\\"tietyt sanat\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Sag\\\"],\\\"purple\\\":[\\\"Kerro\\\"]}}],\\\"tip\\\":[{\\\"green\\\":[\\\"sprechen\\\"],\\\"purple\\\":[\\\"puhua\\\"]},{\\\"green\\\":[\\\"sprechen\\\"],\\\"purple\\\":[\\\"puhumista\\\",\\\"keskustelua\\\",\\\"kielen\\\"]}],\\\"important\\\":[{\\\"green\\\":[\\\"sprechen\\\"],\\\"purple\\\":[\\\"puhua\\\"]},{\\\"purple\\\":[\\\"puhumista\\\",\\\"keskustelemista\\\",\\\"kielen\\\"]}]}\"}",
+    "owner_note": "FI sprechen / lv; study.translation; study.explanation; study.examples; study.tip; study.important: individuāli pārbaudīta LRB-042 rinda 6/50; pilnā composite kartīte aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|klein|idx:6|lv; study.translation; study.explanation; study.examples|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pieni\",\"study.translation\":\"Pieni\",\"study.explanation\":\"[\\\"Pääajatus: klein tarkoittaa pientä kokoa, määrää tai nuorta ikää.\\\",\\\"klein voi kuvata esinettä, tilaa, määrää tai lasta.\\\",\\\"Tarkka merkitys riippuu substantiivista ja asiayhteydestä.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das Zimmer ist klein.\\\",\\\"lv\\\":\\\"Huone on pieni.\\\"},{\\\"de\\\":\\\"Das Kind ist noch klein.\\\",\\\"lv\\\":\\\"Lapsi on vielä pieni.\\\"},{\\\"de\\\":\\\"Ich habe eine kleine Tasche.\\\",\\\"lv\\\":\\\"Minulla on pieni laukku.\\\"},{\\\"de\\\":\\\"Ich habe eine kleine Tasche.\\\",\\\"lv\\\":\\\"Minulla on pieni laukku.\\\"},{\\\"de\\\":\\\"Das Kind ist klein.\\\",\\\"lv\\\":\\\"Lapsi on pieni.\\\"}]\",\"study.tip\":\"[\\\"klein = pieni\\\",\\\"Käytä klein, kun asiayhteys vastaa tätä merkitystä.\\\"]\",\"study.important\":\"[\\\"klein tarkoittaa useimmiten pientä.\\\",\\\"Lapsesta puhuttaessa klein voi viitata myös nuoreen ikään.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"klein\\\"],\\\"purple\\\":[\\\"pientä\\\"],\\\"green\\\":[\\\"kokoa\\\",\\\"määrää\\\",\\\"nuorta ikää\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"klein\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pieni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"klein\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pieni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"kleine\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pieni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"kleine\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pieni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"klein\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pieni\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"klein\\\"],\\\"purple\\\":[\\\"pieni\\\"]},{\\\"blue\\\":[\\\"klein\\\"],\\\"purple\\\":[\\\"merkitystä\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"klein\\\"],\\\"purple\\\":[\\\"pientä\\\"]},{\\\"blue\\\":[\\\"klein\\\"],\\\"purple\\\":[\\\"nuoreen ikään\\\"]}]}\"}",
+    "owner_note": "FI klein / lv; study.translation; study.explanation; study.examples: individuāli pārbaudīta LRB-042 rinda 7/50; pilnā composite kartīte aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|alle|idx:7|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaikki",
+    "owner_note": "FI alle / lv: individuāli pārbaudīta LRB-042 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|allein|idx:8|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yksin",
+    "owner_note": "FI allein / lv: individuāli pārbaudīta LRB-042 rinda 9/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|alles|idx:9|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaikki",
+    "owner_note": "FI alles / lv: individuāli pārbaudīta LRB-042 rinda 10/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|alt|idx:10|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vanha",
+    "owner_note": "FI alt / lv: individuāli pārbaudīta LRB-042 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Alter|idx:11|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ikä",
+    "owner_note": "FI Alter / lv: individuāli pārbaudīta LRB-042 rinda 12/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|an|idx:12|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Luona • Kiinni\",\"study.translation\":\"Luona • Kiinni\",\"study.explanation\":\"Käytetään, kun jokin on seinän, ikkunan, oven, joen, merenrannan tai muun reunan tai pinnan luona tai kiinni siinä.\",\"study.examples\":\"[{\\\"de\\\":\\\"an der Wand\\\",\\\"lv\\\":\\\"seinällä / kiinni seinässä\\\"},{\\\"de\\\":\\\"am Fenster\\\",\\\"lv\\\":\\\"ikkunan luona\\\"},{\\\"de\\\":\\\"am Meer\\\",\\\"lv\\\":\\\"meren rannalla\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"pinnan tai reunan luona tai kiinni siinä\\\",\\\"example\\\":\\\"an der Wand – seinällä\\\"},{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"vaakasuoran pinnan päällä\\\",\\\"example\\\":\\\"auf dem Tisch – pöydällä\\\"},{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"henkilön tai paikan luona\\\",\\\"example\\\":\\\"beim Arzt – lääkärin luona\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: seinän, ikkunan tai reunan luona tai kiinni siinä → an.\\\"}\",\"study.important\":\"[\\\"an ei tarkoita mitä tahansa lähellä olemista. Se viittaa usein pintaan, seinään, ikkunaan tai reunaan.\\\",\\\"Vaakasuoran pinnan päällä käytetään tavallisesti auf.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"an\\\"],\\\"purple\\\":[\\\"luona\\\",\\\"kiinni\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"an\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"seinällä\\\",\\\"kiinni seinässä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"am\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ikkunan luona\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"am\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"meren rannalla\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"an\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"pinnan\\\",\\\"reunan\\\",\\\"kiinni\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"an\\\"],\\\"purple\\\":[\\\"seinällä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"auf\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vaakasuoran pinnan päällä\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"auf\\\"],\\\"purple\\\":[\\\"pöydällä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bei\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"henkilön\\\",\\\"paikan luona\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"beim\\\"],\\\"purple\\\":[\\\"lääkärin luona\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"an\\\"],\\\"purple\\\":[\\\"seinän\\\",\\\"ikkunan\\\",\\\"reunan\\\"],\\\"green\\\":[\\\"luona\\\",\\\"kiinni\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"an\\\"],\\\"purple\\\":[\\\"pintaan\\\",\\\"seinään\\\",\\\"ikkunaan\\\",\\\"reunaan\\\"]},{\\\"yellow\\\":[\\\"auf\\\"],\\\"purple\\\":[\\\"Vaakasuoran pinnan päällä\\\"]}]}\"}",
+    "owner_note": "FI an / lv; study.translation; study.examples; study.comparison; study.important: individuāli pārbaudīta LRB-042 rinda 13/50; pilnā composite kartīte aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Anfang|idx:13|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Alku",
+    "owner_note": "FI Anfang / lv: individuāli pārbaudīta LRB-042 rinda 14/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|anfangen|idx:14|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aloittaa",
+    "owner_note": "FI anfangen / lv: individuāli pārbaudīta LRB-042 rinda 15/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|anders|idx:15|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Toisin",
+    "owner_note": "FI anders / lv: individuāli pārbaudīta LRB-042 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|anrufen|idx:16|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Soittaa",
+    "owner_note": "FI anrufen / lv: individuāli pārbaudīta LRB-042 rinda 17/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|ab|idx:17|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Alkaen\",\"study.translation\":\"Alkaen\",\"study.explanation\":\"ab-sanaa käytetään, kun jokin alkaa tietystä ajasta, paikasta tai pisteestä. Sana merkitsee usein ”alkaen”.\",\"study.examples\":\"[{\\\"de\\\":\\\"ab heute\\\",\\\"lv\\\":\\\"tästä päivästä alkaen\\\",\\\"level\\\":\\\"A1\\\"},{\\\"de\\\":\\\"ab Montag\\\",\\\"lv\\\":\\\"maanantaista alkaen\\\"},{\\\"de\\\":\\\"ab 8 Uhr\\\",\\\"lv\\\":\\\"kello kahdeksasta alkaen\\\"},{\\\"de\\\":\\\"ab Bahnhof\\\",\\\"lv\\\":\\\"asemalta\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"ab\\\",\\\"meaning\\\":\\\"alkaen tietystä ajasta tai pisteestä\\\",\\\"example\\\":\\\"ab Montag – maanantaista alkaen\\\"},{\\\"word\\\":\\\"von\\\",\\\"meaning\\\":\\\"joltakulta tai jostakin • alkuperä\\\",\\\"example\\\":\\\"von mir – minulta\\\"},{\\\"word\\\":\\\"aus\\\",\\\"meaning\\\":\\\"sisältä ulos\\\",\\\"example\\\":\\\"aus dem Haus – talosta / ulos talosta\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: alkupiste ajassa tai paikassa → ab.\\\"}\",\"study.important\":\"[\\\"ab osoittaa alkupisteen ajassa tai paikassa.\\\",\\\"Kun tarkoitetaan alkuperää tai suuntaa sisältä ulos, käytetään yleensä von tai aus.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"ab\\\"],\\\"purple\\\":[\\\"alkaa\\\",\\\"alkaen\\\"],\\\"green\\\":[\\\"ajasta\\\",\\\"paikasta\\\",\\\"pisteestä\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"ab\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"alkaen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ab\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"alkaen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ab\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"alkaen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ab\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"asemalta\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"ab\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"alkaen\\\",\\\"ajasta\\\",\\\"pisteestä\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"ab\\\"],\\\"purple\\\":[\\\"maanantaista alkaen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"von\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"joltakulta\\\",\\\"jostakin\\\",\\\"alkuperä\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"von\\\"],\\\"purple\\\":[\\\"minulta\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"aus\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sisältä ulos\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"aus\\\"],\\\"purple\\\":[\\\"talosta\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"ab\\\"],\\\"purple\\\":[\\\"alkupiste\\\"],\\\"green\\\":[\\\"ajassa\\\",\\\"paikassa\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"ab\\\"],\\\"purple\\\":[\\\"alkupisteen\\\"],\\\"green\\\":[\\\"ajassa\\\",\\\"paikassa\\\"]},{\\\"yellow\\\":[\\\"von\\\"],\\\"red\\\":[\\\"aus\\\"],\\\"purple\\\":[\\\"alkuperää\\\",\\\"sisältä ulos\\\"]}]}\"}",
+    "owner_note": "FI ab / lv; study.translation; study.examples; study.comparison; study.important: individuāli pārbaudīta LRB-042 rinda 18/50; pilnā composite kartīte aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Abend|idx:18|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ilta",
+    "owner_note": "FI Abend / lv: individuāli pārbaudīta LRB-042 rinda 19/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Abendessen|idx:19|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Illallinen",
+    "owner_note": "FI Abendessen / lv: individuāli pārbaudīta LRB-042 rinda 20/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|abends|idx:20|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Iltaisin",
+    "owner_note": "FI abends / lv: individuāli pārbaudīta LRB-042 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|aber|idx:21|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Mutta\",\"study.translation\":\"Mutta\",\"study.explanation\":\"aber-sanaa käytetään vastakohdan tai vastaväitteen esittämiseen. Sana tarkoittaa usein ”mutta”, ”kuitenkin” tai ”tosin”.\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich möchte mitkommen, aber ich habe keine Zeit.\\\",\\\"lv\\\":\\\"Haluaisin tulla mukaan, mutta minulla ei ole aikaa.\\\"},{\\\"de\\\":\\\"Das Essen war lecker, aber zu teuer.\\\",\\\"lv\\\":\\\"Ruoka oli herkullista, mutta liian kallista.\\\"},{\\\"de\\\":\\\"Er hat recht, aber ich sehe das anders.\\\",\\\"lv\\\":\\\"Hän on oikeassa, mutta minä ajattelen asiasta toisin.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"aber\\\",\\\"meaning\\\":\\\"vastakohta • vastaväite • kuitenkin\\\",\\\"example\\\":\\\"Ich komme, aber später. – Tulen, mutta myöhemmin.\\\"},{\\\"word\\\":\\\"sondern\\\",\\\"meaning\\\":\\\"vaan (kieltolauseen jälkeen)\\\",\\\"example\\\":\\\"Ich wollte keinen Tee, sondern Kaffee. – En halunnut teetä vaan kahvia.\\\"},{\\\"word\\\":\\\"jedoch\\\",\\\"meaning\\\":\\\"kuitenkin\\\",\\\"example\\\":\\\"Es ist kalt, jedoch sonnig. – On kylmä mutta kuitenkin aurinkoista.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: vastakohta tai vastaväite → aber.\\\"}\",\"study.important\":\"[\\\"aber ilmaisee vastakohtaa tai vastaväitettä.\\\",\\\"Rakenteessa ”ei..., vaan...” saksassa käytetään yleensä sanaa sondern.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"aber\\\"],\\\"purple\\\":[\\\"vastakohdan\\\",\\\"vastaväitteen\\\",\\\"mutta\\\",\\\"kuitenkin\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"aber\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mutta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aber\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mutta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aber\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mutta\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"aber\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vastakohta\\\",\\\"vastaväite\\\",\\\"kuitenkin\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"aber\\\"],\\\"purple\\\":[\\\"mutta\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sondern\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vaan\\\",\\\"kieltolauseen jälkeen\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"sondern\\\"],\\\"purple\\\":[\\\"vaan\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"jedoch\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kuitenkin\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"jedoch\\\"],\\\"purple\\\":[\\\"kuitenkin\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"green\\\":[\\\"aber\\\"],\\\"purple\\\":[\\\"vastakohta\\\",\\\"vastaväite\\\"]}},\\\"important\\\":[{\\\"green\\\":[\\\"aber\\\"],\\\"purple\\\":[\\\"vastakohtaa\\\",\\\"vastaväitettä\\\"]},{\\\"yellow\\\":[\\\"sondern\\\"],\\\"purple\\\":[\\\"ei\\\",\\\"vaan\\\"]}]}\"}",
+    "owner_note": "FI aber / lv; study.translation; study.examples; study.comparison; study.important: individuāli pārbaudīta LRB-042 rinda 22/50; pilnā composite kartīte aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|achten|idx:22|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Huomioida",
+    "owner_note": "FI achten / lv: individuāli pārbaudīta LRB-042 rinda 23/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Adresse|idx:23|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Osoite",
+    "owner_note": "FI Adresse / lv: individuāli pārbaudīta LRB-042 rinda 24/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Affe|idx:24|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Apina",
+    "owner_note": "FI Affe / lv: individuāli pārbaudīta LRB-042 rinda 25/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Album|idx:25|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Albumi",
+    "owner_note": "FI Album / lv: individuāli pārbaudīta LRB-042 rinda 26/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Ameise|idx:27|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Muurahainen",
+    "owner_note": "FI Ameise / lv: individuāli pārbaudīta LRB-042 rinda 27/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|ankommen|idx:28|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Saapua",
+    "owner_note": "FI ankommen / lv: individuāli pārbaudīta LRB-042 rinda 28/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|anschauen|idx:29|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Katsoa",
+    "owner_note": "FI anschauen / lv: individuāli pārbaudīta LRB-042 rinda 29/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|anziehen|idx:30|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pukea päälle",
+    "owner_note": "FI anziehen / lv: individuāli pārbaudīta LRB-042 rinda 30/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|auf dem Bahnhof|idx:59|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Asemalla",
+    "owner_note": "FI auf dem Bahnhof / lv: individuāli pārbaudīta LRB-042 rinda 31/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|aufs|idx:60|study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Päälle • -lle\",\"study.translation\":\"Päälle • -lle\",\"study.explanation\":\"[\\\"aufs on preposition auf ja artikkelin das supistuma.\\\",\\\"Täysi muoto on auf das (akkusatiivi).\\\",\\\"Muotoa käytetään, kun liike suuntautuu tietylle neutrisukuiselle alueelle tai pinnalle ja vastaa usein kysymykseen minne?\\\",\\\"Sitä käytetään usein liikkeen yhteydessä: nousta, istuutua tai asettaa jonkin päälle sekä mennä johonkin tapahtumaan.\\\",\\\"Neutraalissa arkikielessä auf das supistuu usein muotoon aufs; myös täysi muoto on kieliopillisesti oikein.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe aufs Dach.\\\",\\\"lv\\\":\\\"Menen katolle.\\\"},{\\\"de\\\":\\\"Sie setzt sich aufs Sofa.\\\",\\\"lv\\\":\\\"Hän istuutuu sohvalle.\\\"},{\\\"de\\\":\\\"Wir fahren aufs Land.\\\",\\\"lv\\\":\\\"Ajamme maaseudulle.\\\"},{\\\"de\\\":\\\"Stell die Tasche aufs Bett.\\\",\\\"lv\\\":\\\"Laita laukku sängylle.\\\"},{\\\"de\\\":\\\"Er springt aufs Pferd.\\\",\\\"lv\\\":\\\"Hän hyppää hevosen selkään.\\\"},{\\\"de\\\":\\\"Leg das Buch aufs Regal.\\\",\\\"lv\\\":\\\"Laita kirja hyllylle.\\\"},{\\\"de\\\":\\\"Komm schnell aufs Boot!\\\",\\\"lv\\\":\\\"Tule nopeasti veneeseen!\\\"},{\\\"de\\\":\\\"Wir gehen aufs Fest.\\\",\\\"lv\\\":\\\"Menemme juhliin.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"aufs\\\",\\\"meaning\\\":\\\"auf + das, neutrisuku ja akkusatiivi\\\",\\\"example\\\":\\\"aufs Dach – katolle\\\"},{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"pinnalle tai ylöspäin\\\",\\\"example\\\":\\\"auf den Tisch – pöydälle\\\"},{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"seinää tai muuta pystysuoraa pintaa kohti\\\",\\\"example\\\":\\\"an die Wand – seinälle\\\"},{\\\"word\\\":\\\"ins\\\",\\\"meaning\\\":\\\"sisään suljettuun tilaan\\\",\\\"example\\\":\\\"ins Zimmer – huoneeseen\\\"},{\\\"word\\\":\\\"zum\\\",\\\"meaning\\\":\\\"jonkun luo tai johonkin kohteeseen\\\",\\\"example\\\":\\\"zum Arzt – lääkärin luo\\\"}]\",\"study.tip\":\"[\\\"Muista: auf + das → aufs (minne?).\\\",\\\"Arkikielessä auf das supistuu usein muotoon aufs; täysi muoto on myös oikein.\\\"]\",\"study.important\":\"[\\\"aufs = auf das; supistus liittyy neutrisukuiseen substantiiviin akkusatiivissa.\\\",\\\"Muoto vastaa usein kysymykseen minne? ja ilmaisee liikettä tietylle alueelle tai pinnalle.\\\",\\\"Artikkeli riippuu substantiivin suvusta: aufs Dach, mutta auf den Tisch.\\\",\\\"Älä sekoita muotoihin an (esimerkiksi seinälle) tai ins (sisään huoneeseen).\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"aufs\\\",\\\"auf das\\\"],\\\"purple\\\":[\\\"supistuma\\\",\\\"akkusatiivi\\\",\\\"minne?\\\"],\\\"green\\\":[\\\"liike\\\",\\\"pinnalle\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"katolle\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sohvalle\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maaseudulle\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sängylle\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hevosen selkään\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hyllylle\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"veneeseen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"juhliin\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"aufs\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"auf + das\\\",\\\"neutrisuku\\\",\\\"akkusatiivi\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"aufs Dach\\\"],\\\"purple\\\":[\\\"katolle\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"auf\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"pinnalle\\\",\\\"ylöspäin\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"auf den Tisch\\\"],\\\"purple\\\":[\\\"pöydälle\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"an\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"pystysuoraa pintaa\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"an die Wand\\\"],\\\"purple\\\":[\\\"seinälle\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ins\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sisään\\\",\\\"tilaan\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"ins Zimmer\\\"],\\\"purple\\\":[\\\"huoneeseen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zum\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"luo\\\",\\\"kohteeseen\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"zum Arzt\\\"],\\\"purple\\\":[\\\"lääkärin luo\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"auf + das\\\",\\\"aufs\\\"],\\\"purple\\\":[\\\"minne?\\\"]},{\\\"blue\\\":[\\\"auf das\\\",\\\"aufs\\\"],\\\"purple\\\":[\\\"Arkikielessä\\\",\\\"täysi muoto\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"aufs\\\",\\\"auf das\\\"],\\\"purple\\\":[\\\"neutrisukuiseen\\\",\\\"akkusatiivissa\\\"]},{\\\"purple\\\":[\\\"minne?\\\",\\\"liikettä\\\",\\\"alueelle\\\",\\\"pinnalle\\\"]},{\\\"blue\\\":[\\\"aufs Dach\\\"],\\\"yellow\\\":[\\\"auf den Tisch\\\"]},{\\\"green\\\":[\\\"an\\\"],\\\"red\\\":[\\\"ins\\\"],\\\"purple\\\":[\\\"seinälle\\\",\\\"huoneeseen\\\"]}]}\"}",
+    "owner_note": "FI aufs / study: individuāli pārbaudīta LRB-042 rinda 32/50; pilnā composite kartīte aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Augenbraue|idx:61|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kulmakarva",
+    "owner_note": "FI Augenbraue / lv: individuāli pārbaudīta LRB-042 rinda 33/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Augenfarbe|idx:62|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Silmien väri",
+    "owner_note": "FI Augenfarbe / lv: individuāli pārbaudīta LRB-042 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Bad|idx:64|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kylpyhuone",
+    "owner_note": "FI Bad / lv: individuāli pārbaudīta LRB-042 rinda 35/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Badezimmer|idx:65|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kylpyhuone",
+    "owner_note": "FI Badezimmer / lv: individuāli pārbaudīta LRB-042 rinda 36/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Schwimmbad|idx:66|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Uima-allas",
+    "owner_note": "FI Schwimmbad / lv: individuāli pārbaudīta LRB-042 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|baden|idx:68|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kylpeä • Uida huviksi\",\"study.translation\":\"Kylpeä • Uida huviksi\",\"study.explanation\":\"[\\\"Pääajatus: baden tarkoittaa kylpemistä, vedessä olemista tai vedestä nauttimista.\\\",\\\"baden-verbiä käytetään, kun puhutaan virkistäytymisestä järvessä, meressä tai uima-altaassa.\\\",\\\"baden voi tarkoittaa myös kylpemistä ammeessa.\\\",\\\"Kun paino on itse uintiliikkeessä tai urheilussa, saksassa käytetään useammin verbiä schwimmen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe baden.\\\",\\\"lv\\\":\\\"Menen uimaan.\\\"},{\\\"de\\\":\\\"Wir gehen im See baden.\\\",\\\"lv\\\":\\\"Käymme uimassa järvessä.\\\"},{\\\"de\\\":\\\"Er schwimmt sehr gut.\\\",\\\"lv\\\":\\\"Hän ui erittäin hyvin.\\\"},{\\\"de\\\":\\\"Ich schwimme jeden Montag.\\\",\\\"lv\\\":\\\"Uin joka maanantai.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"baden\\\",\\\"meaning\\\":\\\"kylpeä / olla vedessä / uida huviksi\\\",\\\"example\\\":\\\"Ich gehe baden.\\\"},{\\\"word\\\":\\\"schwimmen\\\",\\\"meaning\\\":\\\"uida liikkeenä tai urheiluna\\\",\\\"example\\\":\\\"Er schwimmt sehr gut.\\\"},{\\\"word\\\":\\\"duschen\\\",\\\"meaning\\\":\\\"käydä suihkussa\\\",\\\"example\\\":\\\"Ich dusche am Morgen.\\\"},{\\\"word\\\":\\\"schwimmen gehen\\\",\\\"meaning\\\":\\\"mennä uimaan\\\",\\\"example\\\":\\\"Ich gehe heute schwimmen.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: vedessä oleskelu tai uinti huviksi → baden; uintiliike → schwimmen.\\\"}\",\"study.important\":\"[\\\"baden ja schwimmen eivät ole täysin synonyymejä.\\\",\\\"baden korostaa useammin vedessä olemista tai virkistäytymistä, kun taas schwimmen korostaa uintiliikettä.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"baden\\\"],\\\"purple\\\":[\\\"kylpemistä\\\",\\\"vedessä olemista\\\",\\\"vedestä nauttimista\\\",\\\"ammeessa\\\"],\\\"green\\\":[\\\"järvessä\\\",\\\"meressä\\\",\\\"uima-altaassa\\\"],\\\"red\\\":[\\\"schwimmen\\\",\\\"uintiliikkeessä\\\",\\\"urheilussa\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"baden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uimaan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"baden\\\"],\\\"green\\\":[\\\"See\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uimassa\\\"],\\\"green\\\":[\\\"järvessä\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"schwimmt\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"ui\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"schwimme\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"Uin\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"baden\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kylpeä\\\",\\\"vedessä\\\",\\\"uida huviksi\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"baden\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"uida\\\",\\\"liikkeenä\\\",\\\"urheiluna\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"schwimmt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"duschen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"käydä suihkussa\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"dusche\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen gehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mennä uimaan\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"schwimmen\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"baden\\\"],\\\"purple\\\":[\\\"vedessä oleskelu\\\",\\\"uinti huviksi\\\"],\\\"red\\\":[\\\"schwimmen\\\",\\\"uintiliike\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"baden\\\"],\\\"red\\\":[\\\"schwimmen\\\"],\\\"purple\\\":[\\\"synonyymejä\\\"]},{\\\"blue\\\":[\\\"baden\\\"],\\\"purple\\\":[\\\"vedessä olemista\\\",\\\"virkistäytymistä\\\"],\\\"red\\\":[\\\"schwimmen\\\",\\\"uintiliikettä\\\"]}]}\"}",
+    "owner_note": "FI baden / lv; study.*: individuāli pārbaudīta LRB-042 rinda 38/50; pilnā composite kartīte aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|bald|idx:69|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pian",
+    "owner_note": "FI bald / lv: individuāli pārbaudīta LRB-042 rinda 39/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Balkon|idx:70|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Parveke",
+    "owner_note": "FI Balkon / lv: individuāli pārbaudīta LRB-042 rinda 40/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Ball|idx:71|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pallo",
+    "owner_note": "FI Ball / lv: individuāli pārbaudīta LRB-042 rinda 41/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Banane|idx:72|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Banaani",
+    "owner_note": "FI Banane / lv: individuāli pārbaudīta LRB-042 rinda 42/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Bauch|idx:73|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vatsa",
+    "owner_note": "FI Bauch / lv: individuāli pārbaudīta LRB-042 rinda 43/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Baum|idx:74|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Baum / lv: individuāli pārbaudīta LRB-042 rinda 44/50; production vērtība “Puu” jau ir pareiza somu valoda un precīzi atbilst LV/DE avotam; DE avots nemainīts."
+  },
+  "g2/a1/fi|bedeuten|idx:75|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tarkoittaa",
+    "owner_note": "FI bedeuten / lv: individuāli pārbaudīta LRB-042 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Erdbeere|idx:76|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mansikka",
+    "owner_note": "FI Erdbeere / lv: individuāli pārbaudīta LRB-042 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|beginnen|idx:77|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aloittaa",
+    "owner_note": "FI beginnen / lv: individuāli pārbaudīta LRB-042 rinda 47/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|bei|idx:78|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Luona • -lla/-llä\",\"study.translation\":\"Luona • -lla/-llä\",\"study.explanation\":\"bei-prepositiota käytetään, kun jokin on henkilön, organisaation tai paikan luona tai kun jotakin tapahtuu tietyissä olosuhteissa.\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin bei meinem Freund.\\\",\\\"lv\\\":\\\"Olen ystäväni luona.\\\"},{\\\"de\\\":\\\"Sie arbeitet bei Siemens.\\\",\\\"lv\\\":\\\"Hän työskentelee Siemensillä.\\\"},{\\\"de\\\":\\\"Bei Regen bleiben wir zu Hause.\\\",\\\"lv\\\":\\\"Sateella pysymme kotona.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"henkilön luona, yrityksen palveluksessa tai tietyissä olosuhteissa\\\",\\\"example\\\":\\\"Ich bin bei meiner Schwester. – Olen sisareni luona.\\\"},{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"seinällä, reunalla tai rannalla\\\",\\\"example\\\":\\\"Das Bild hängt an der Wand. – Kuva roikkuu seinällä.\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"liike jonkun luo\\\",\\\"example\\\":\\\"Ich gehe zu meinem Freund. – Menen ystäväni luo.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: henkilön tai paikan luona, yrityksen palveluksessa tai tietyissä olosuhteissa → bei.\\\"}\",\"study.important\":\"[\\\"bei tarkoittaa usein henkilön tai paikan luona olemista, yrityksen palveluksessa työskentelyä tai tiettyjä olosuhteita.\\\",\\\"Kun tarkoitetaan liikettä pinnalle, käytetään yleensä auf, ei bei.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"bei\\\"],\\\"purple\\\":[\\\"henkilön\\\",\\\"organisaation\\\",\\\"paikan\\\",\\\"olosuhteissa\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bei\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"luona\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bei\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Siemensillä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Bei\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Sateella\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"purple\\\":[\\\"bei\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"henkilön luona\\\",\\\"yrityksen palveluksessa\\\",\\\"olosuhteissa\\\"]},\\\"example\\\":{\\\"purple\\\":[\\\"bei\\\",\\\"sisareni luona\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"an\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"seinällä\\\",\\\"reunalla\\\",\\\"rannalla\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"an\\\"],\\\"purple\\\":[\\\"seinällä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"liike\\\",\\\"luo\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"zu\\\"],\\\"purple\\\":[\\\"ystäväni luo\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"purple\\\":[\\\"bei\\\"],\\\"green\\\":[\\\"henkilön\\\",\\\"paikan luona\\\",\\\"yrityksen palveluksessa\\\",\\\"olosuhteissa\\\"]}},\\\"important\\\":[{\\\"purple\\\":[\\\"bei\\\"],\\\"green\\\":[\\\"henkilön\\\",\\\"paikan luona\\\",\\\"yrityksen palveluksessa\\\",\\\"olosuhteita\\\"]},{\\\"blue\\\":[\\\"auf\\\"],\\\"red\\\":[\\\"bei\\\"],\\\"purple\\\":[\\\"liikettä pinnalle\\\"]}]}\"}",
+    "owner_note": "FI bei / lv; study.*: individuāli pārbaudīta LRB-042 rinda 48/50; pilnā composite kartīte aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|beide|idx:79|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Molemmat",
+    "owner_note": "FI beide / lv: individuāli pārbaudīta LRB-042 rinda 49/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  },
+  "g2/a1/fi|Bein|idx:80|lv|LINGUISTIC_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jalka",
+    "owner_note": "FI Bein / lv: individuāli pārbaudīta LRB-042 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku; DE avots nemainīts."
+  }
+}
