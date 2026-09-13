@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-087",
   "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T14:14:46.173Z",
-  "sourceCommit": "240adea9308a4e998b65de6be6bfcd3d5151d83f",
+  "generatedAt": "2026-09-13T14:35:43.031Z",
+  "sourceCommit": "04b936a78b315c0459a063bb074d49a91dd9a51d",
   "branch": "cursor/lrb-087-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -75,9 +75,10 @@
     "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
     "input": "reports/g2-a1-owner/batches-pending/LRB-087-input.csv",
     "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-087/LRB-087-decisions-COPY-PASTE.json",
-    "copyPaste2": "reports/g2-a1-owner/batches-owner-review/LRB-087/LRB-087-decisions-COPY-PASTE-2.json"
+    "copyPaste2": "reports/g2-a1-owner/batches-owner-review/LRB-087/LRB-087-decisions-COPY-PASTE-2.json",
+    "copyPaste3": "reports/g2-a1-owner/batches-owner-review/LRB-087/LRB-087-decisions-COPY-PASTE-3.json"
   },
-  "note": "OWNER copy/paste round-2 corrections applied. 12 content + 6 row_note replacements. 50 LABOT / 0 NELABOT / 0 PENDING.",
+  "note": "Round-3 technical metadata fix: restored 11 de_article/de_plural fields in COPY-PASTE spec. Overrides unchanged.",
   "galaPass": false,
   "scriptChanges": 0
 }

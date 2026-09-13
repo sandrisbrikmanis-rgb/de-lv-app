@@ -251,7 +251,9 @@
       "approved_card": {
         "de": "Schuh",
         "level": "A1",
-        "lv": "Ботинок"
+        "lv": "Ботинок",
+        "de_article": "der",
+        "de_plural": "die Schuhe"
       }
     },
     {
@@ -265,7 +267,9 @@
       "approved_card": {
         "de": "Schüler",
         "level": "A1",
-        "lv": "Ученик"
+        "lv": "Ученик",
+        "de_article": "der",
+        "de_plural": "die Schüler"
       }
     },
     {
@@ -543,7 +547,9 @@
             "Оба значения во множественном числе: die Seiten."
           ],
           "comparison": []
-        }
+        },
+        "de_article": "die",
+        "de_plural": "die Seiten"
       }
     },
     {
@@ -953,7 +959,9 @@
       "approved_card": {
         "de": "Staat",
         "level": "A1",
-        "lv": "Государство"
+        "lv": "Государство",
+        "de_article": "der",
+        "de_plural": "die Staaten"
       }
     },
     {
@@ -1395,7 +1403,8 @@
             "das Wetter = погода, а не время.",
             "die Zeit = время как момент или продолжительность."
           ]
-        }
+        },
+        "de_article": "das"
       }
     },
     {
@@ -2170,7 +2179,9 @@
             "Der Besuch môže označovať návštevu človeka, miesta alebo podujatia.",
             "Množné číslo: die Besuche."
           ]
-        }
+        },
+        "de_article": "der",
+        "de_plural": "die Besuche"
       }
     },
     {
