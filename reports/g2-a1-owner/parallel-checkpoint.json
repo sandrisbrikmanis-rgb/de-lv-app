@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-12T20:12:00.000Z",
+  "updatedAt": "2026-09-13T06:17:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,9 +40,13 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": null,
-    "reservedBatches": [],
-    "inProgressBatches": [],
+    "activeBatch": "LRB-097",
+    "reservedBatches": [
+      "LRB-097"
+    ],
+    "inProgressBatches": [
+      "LRB-097"
+    ],
     "completedBatches": [
       "LRB-103",
       "LRB-102",
@@ -51,9 +55,24 @@
       "LRB-099",
       "LRB-098"
     ],
-    "nextCandidate": "LRB-097"
+    "nextCandidate": "LRB-096"
   },
   "reservations": [
+    {
+      "batchId": "LRB-097",
+      "owner": "PC2",
+      "direction": "DESCENDING",
+      "status": "IN_PROGRESS",
+      "branch": "cursor/lrb-097-owner-review-pc2-3db2",
+      "reservedAt": "2026-09-13T06:17:00.000Z",
+      "rows": 50,
+      "languages": {
+        "sr": 50
+      },
+      "ownerAuthorizationStatus": "APPROVED",
+      "linguisticReviewer": "gpt-5.6-luna",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-097/LRB-097-owner-review-proof.json"
+    },
     {
       "batchId": "LRB-098",
       "owner": "PC2",
