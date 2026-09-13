@@ -1,0 +1,26 @@
+{
+  "batch_id": "LRB-041",
+  "phase": "PENDING_5125_REVIEW",
+  "input_csv_sha256": "071c03e439f7beea119a2bef37da26d3ba2543974d16aea4d4255db63c900deb",
+  "input_row_count": 11,
+  "finding_stable_ids": [
+    "g2/a1/is|Wasser|idx:2|lv|WRONG_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/is|sprechen|idx:5|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/is|Schwimmbad|idx:66|lv|WRONG_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/is|Sauna|idx:67|lv|WRONG_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/is|Wochenende|idx:181|lv|MISTRANSLATION|gpt-5.6-luna",
+    "g2/a1/is|wissen|idx:311|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/is|zwölfte|idx:686|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/is|Urlaub|idx:695|lv; study.translation; study.explanation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+    "g2/a1/is|Stadt|idx:696|lv|MEANING_ERROR|gpt-5.6-luna",
+    "g2/a1/is|Staat|idx:697|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/is|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation"
+  ],
+  "created_at": "2026-09-13T11:20:01.120Z",
+  "reviewer": "CURSOR_AGENT",
+  "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
+  "owner_authorization_status": "APPROVED",
+  "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
+  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "note": "Final IS mop-up batch: all remaining 11 unused IS escalations from 7737 pool (stragglers + tail after LRB-040)"
+}
