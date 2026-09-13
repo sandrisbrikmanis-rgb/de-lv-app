@@ -1,0 +1,42 @@
+{
+  "batch_id": "LRB-025",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T06:35:00.000Z",
+  "linguisticVerdict": "LRB_025_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReauditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "paste_file": "LRB-025-decisions-COPY-PASTE.json",
+  "paste_sha256": "276b6b45b2cd3df19c770268e31afd23748fcc8696eb63bd50f712ceb091092b",
+  "languages": {
+    "hu": 50
+  },
+  "unique_cards": 41,
+  "hu_composite_repairs": 41,
+  "scope": "Besuch..finden (50 HU rows, 41 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+  "productionSource": "data/hu/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "HU_ROWS": "50/50",
+    "UNIQUE_CARDS": "41/41",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-025-residual-wrong-language-proof.json",
+  "note": "Gala verdict LRB_025_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+}
