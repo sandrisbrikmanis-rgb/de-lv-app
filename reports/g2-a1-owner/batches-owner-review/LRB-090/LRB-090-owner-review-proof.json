@@ -1,9 +1,9 @@
 {
   "batchId": "LRB-090",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T11:07:27.296Z",
-  "sourceCommit": "6ffbe2a0fd15f755844a55e64e55febaf8fb84e5",
-  "branch": "cursor/lrb-090-owner-review-pc2-3db2",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-13T11:15:59.132Z",
+  "sourceCommit": "59931b609069e2bf5b77999b731c13736471c715",
+  "branch": "cursor/lrb-090-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT-5.6 Luna",
@@ -72,7 +72,10 @@
     "input": "reports/g2-a1-owner/batches-pending/LRB-090-input.csv",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-090-owner-authorization-proof.json"
   },
-  "note": "OWNER-approved overrides applied (copy/paste). Technical correction #1: source row identity restored from LRB-090-decisions.csv. Pending independent post-review.",
-  "galaPass": false,
-  "scriptChanges": 0
+  "note": "Gala verdict LRB_090_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 59931b609069e2bf5b77999b731c13736471c715 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=41). DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
+  "scriptChanges": 0,
+  "verifiedCommit": "59931b609069e2bf5b77999b731c13736471c715",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_090_FULL_50_50_LINGUISTIC_REVIEW_PASS"
 }
