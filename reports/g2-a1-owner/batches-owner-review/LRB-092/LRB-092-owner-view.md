@@ -7,14 +7,13 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-13T09:23:23.060Z
-**Source commit:** `07aa224bd4bc4f4d86f23901adf2ee0a84d89266`
-**Verified commit:** `07aa224bd4bc4f4d86f23901adf2ee0a84d89266`
+**Generated:** 2026-09-13T09:40:54.104Z
+**Source commit:** `fc8a099e22bbab23d0aaf4a34faa70444a499b2a`
 **Branch:** `cursor/lrb-092-owner-authorization-ed35`
-**Overrides SHA256:** `e755e57c0d3f255dd9090663087839a8e1723de0d1a4a66f21fe49b1bc1483d4`
-**GALA PASS:** `LRB_092_FULL_50_50_LINGUISTIC_REVIEW_PASS`
+**Overrides SHA256:** `ac474c64eb79afccbb83a0e06653fd38af8f0e23927bd322c446f58c477deb5d`
+**Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
 
-> Independently verified per FULL_50_50 PDF standard. Linguistic review closed (SK 50).
+> OWNER-approved overrides applied (copy/paste). Pending independent OWNER/GPT post-review.
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
@@ -2173,7 +2172,7 @@
 **CURRENT (captured scope):** {"lv":"Povedať","study":{"id":"a1-sagen-study","layout":"standardStudy","translation":"Povedať","explanation":["Hlavná myšlienka: Povedzte konkrétnu myšlienku, slovo alebo vetu.","Sagen hlavne znamená: predstaviť konkrétny bod.","Často opisuje: slová/vety.","Sagen sa používa na označenie konkrétneho textu."],"examples":[{"de":"Was hast du gesagt?","lv":"Čo si povedal?"}],"comparison":[{"word":"sagen","meaning":"Povedz (konkrétny text)","example":"Was hast du gesagt? – Čo si povedal?"},{"word":"sprechen","meaning":"Hovor (jazyk, hovor)","example":"Ich spreche Deutsch. – Hovorím po nemecky."}],"tip":["Sagen = povedať","Použite sagen, keď kontext zodpovedá tomuto významu."],"important":["Sagen = povedať.","Na vyjadrenie konkrétnej myšlienky, slova alebo frázy."],"sectionAccents":{"explanation":{"blue":["sagen"]},"examples":[{"de":{},"lv":{}}],"tip":[{}],"important":[{"blue":["sagen"]}]}}}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"povedať","study":{"id":"a1-sagen-study","layout":"standardStudy","translation":"povedať","explanation":["Hlavná myšlienka: sagen znamená povedať konkrétnu myšlienku, slovo alebo vetu.","Najčastejšie označuje konkrétny vyslovený obsah.","Používa sa pri slovách a vetách.","Na všeobecné hovorenie alebo ovládanie jazyka sa používa sprechen."],"examples":[{"de":"Was hast du gesagt?","lv":"Čo si povedal?"}],"comparison":[{"word":"sagen","meaning":"povedať konkrétny obsah","example":"Was hast du gesagt? – Ko tu pateici? — Čo si povedal?"},{"word":"sprechen","meaning":"hovoriť • rozprávať","example":"Ich spreche Deutsch. – Es runāju vāciski. — Hovorím po nemecky."}],"tip":["sagen = povedať","Použite sagen pri konkrétnom vyslovenom obsahu."],"important":["sagen = povedať.","sagen označuje konkrétnu myšlienku, slovo alebo vetu."],"sectionAccents":{"examples":[{}],"comparison":[{},{}]}}}
+**NEW (OWNER mapping):** {"lv":"povedať","study":{"id":"a1-sagen-study","layout":"standardStudy","translation":"povedať","explanation":["Hlavná myšlienka: sagen znamená povedať konkrétnu myšlienku, slovo alebo vetu.","Najčastejšie označuje konkrétny vyslovený obsah.","Používa sa pri slovách a vetách.","Na všeobecné hovorenie alebo ovládanie jazyka sa používa sprechen."],"examples":[{"de":"Was hast du gesagt?","lv":"Čo si povedal?"}],"comparison":[{"word":"sagen","meaning":"povedať konkrétny obsah","example":"Was hast du gesagt? — Čo si povedal?"},{"word":"sprechen","meaning":"hovoriť • rozprávať","example":"Ich spreche Deutsch. — Hovorím po nemecky."}],"tip":["sagen = povedať","Použite sagen pri konkrétnom vyslovenom obsahu."],"important":["sagen = povedať.","sagen označuje konkrétnu myšlienku, slovo alebo vetu."],"sectionAccents":{"examples":[{}],"comparison":[{},{}]}}}
 **Note:** Luna zmenila iba názov; preložená je celá študijná karta.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2203,12 +2202,12 @@
       {
         "word": "sagen",
         "meaning": "povedať konkrétny obsah",
-        "example": "Was hast du gesagt? – Ko tu pateici? — Čo si povedal?"
+        "example": "Was hast du gesagt? — Čo si povedal?"
       },
       {
         "word": "sprechen",
         "meaning": "hovoriť • rozprávať",
-        "example": "Ich spreche Deutsch. – Es runāju vāciski. — Hovorím po nemecky."
+        "example": "Ich spreche Deutsch. — Hovorím po nemecky."
       }
     ],
     "tip": [
@@ -2246,7 +2245,7 @@
 **CURRENT (captured scope):** {"lv":"Na pozeranie","study":{"id":"a1-schauen-study","layout":"standardStudy","translation":"Na pozeranie","explanation":["Hlavná myšlienka: Aktívne sa pozerať alebo pozerať.","Schauen znamená predovšetkým: aktívne pozorovanie.","Často opisuje: akcia.","Schauen znamená aktívne sa pozerať."],"examples":[{"de":"Ich schaue fern.","lv":"Pozerám televíziu."},{"de":"Wir schauen aus dem Fenster.","lv":"Pozeráme sa z okna."},{"de":"Ich schaue fern.","lv":"Pozerám televíziu"}],"comparison":[{"word":"schauen","meaning":"Sledujte (aktívne)","example":"Ich schaue aus dem Fenster. – Pozerám sa z okna."},{"word":"sehen","meaning":"Vidieť (bez úmyslu)","example":"Ich sehe dich. – Vidím ťa"}],"tip":["Schauen = pozerať sa","Použite schauen, keď kontext zodpovedá tomuto významu."],"important":["Schauen = pozerať sa.","Aktívne pozorujte alebo pozerajte."],"sectionAccents":{"explanation":{"green":["schauen"]},"examples":[{"de":{"green":["schaue"]},"lv":{}},{"de":{"green":["schauen","schauen"]},"lv":{}},{"de":{"green":["schaue"]},"lv":{}}],"tip":[{}],"important":[{"green":["schauen"]}]}}}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"pozerať sa","study":{"id":"a1-schauen-study","layout":"standardStudy","translation":"pozerať sa","explanation":["Hlavná myšlienka: schauen znamená aktívne sa pozerať alebo pozrieť sa.","Najčastejšie opisuje úmyselné pozeranie.","Ide o činnosť, nie iba o schopnosť niečo vidieť.","Tým sa odlišuje od sehen vo význame vidieť."],"examples":[{"de":"Ich schaue fern.","lv":"Pozerám televíziu."},{"de":"Wir schauen aus dem Fenster.","lv":"Pozeráme sa z okna."},{"de":"Ich schaue fern.","lv":"Pozerám televíziu."}],"comparison":[{"word":"schauen","meaning":"pozerať sa","example":"Ich schaue aus dem Fenster. – Es skatos pa logu. — Pozerám sa z okna."},{"word":"sehen","meaning":"vidieť","example":"Ich sehe dich. – Es tevi redzu. — Vidím ťa."}],"tip":["schauen = pozerať sa","Použite schauen pri aktívnom pozeraní."],"important":["schauen = pozerať sa.","schauen opisuje aktívne pozeranie alebo krátke pozretie."],"sectionAccents":{"examples":[{},{},{}],"comparison":[{},{}]}}}
+**NEW (OWNER mapping):** {"lv":"pozerať sa","study":{"id":"a1-schauen-study","layout":"standardStudy","translation":"pozerať sa","explanation":["Hlavná myšlienka: schauen znamená aktívne sa pozerať alebo pozrieť sa.","Najčastejšie opisuje úmyselné pozeranie.","Ide o činnosť, nie iba o schopnosť niečo vidieť.","Tým sa odlišuje od sehen vo význame vidieť."],"examples":[{"de":"Ich schaue fern.","lv":"Pozerám televíziu."},{"de":"Wir schauen aus dem Fenster.","lv":"Pozeráme sa z okna."},{"de":"Ich schaue fern.","lv":"Pozerám televíziu."}],"comparison":[{"word":"schauen","meaning":"pozerať sa","example":"Ich schaue aus dem Fenster. — Pozerám sa z okna."},{"word":"sehen","meaning":"vidieť","example":"Ich sehe dich. — Vidím ťa."}],"tip":["schauen = pozerať sa","Použite schauen pri aktívnom pozeraní."],"important":["schauen = pozerať sa.","schauen opisuje aktívne pozeranie alebo krátke pozretie."],"sectionAccents":{"examples":[{},{},{}],"comparison":[{},{}]}}}
 **Note:** Luna zmenila iba názov; preložená je celá študijná karta.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2284,12 +2283,12 @@
       {
         "word": "schauen",
         "meaning": "pozerať sa",
-        "example": "Ich schaue aus dem Fenster. – Es skatos pa logu. — Pozerám sa z okna."
+        "example": "Ich schaue aus dem Fenster. — Pozerám sa z okna."
       },
       {
         "word": "sehen",
         "meaning": "vidieť",
-        "example": "Ich sehe dich. – Es tevi redzu. — Vidím ťa."
+        "example": "Ich sehe dich. — Vidím ťa."
       }
     ],
     "tip": [

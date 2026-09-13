@@ -1,15 +1,15 @@
 {
   "batchId": "LRB-092",
-  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
-  "generatedAt": "2026-09-13T09:23:23.060Z",
-  "sourceCommit": "07aa224bd4bc4f4d86f23901adf2ee0a84d89266",
+  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
+  "generatedAt": "2026-09-13T09:40:54.104Z",
+  "sourceCommit": "fc8a099e22bbab23d0aaf4a34faa70444a499b2a",
   "branch": "cursor/lrb-092-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "OWNER/GPT independent review",
   "linguisticReviewer": "gpt-5.6-luna",
   "ownerAuthorizationStatus": "APPROVED",
-  "overridesSha256": "e755e57c0d3f255dd9090663087839a8e1723de0d1a4a66f21fe49b1bc1483d4",
+  "overridesSha256": "ac474c64eb79afccbb83a0e06653fd38af8f0e23927bd322c446f58c477deb5d",
   "rows": "50/50",
   "languages": {
     "sk": 50
@@ -24,6 +24,7 @@
   "newLunaCalls": 0,
   "ingestApply": 0,
   "overlapWithPc1": 0,
+  "scriptChanges": 0,
   "gates": {
     "ROWS": "50/50",
     "SK": 50,
@@ -41,7 +42,21 @@
     "CROWDIN_CHANGES": 0,
     "NEW_LUNA_CALLS": 0,
     "INGEST_APPLY": 0,
-    "pass": true
+    "pass": true,
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "93/93",
+    "COMPARISON_ALIGNMENT": "36/36",
+    "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "DUPLICATE_MEANINGS": 0,
+    "DE_TARGET_ALIGNMENT_VIOLATIONS": 0,
+    "DEGENERATE_EXAMPLE_PAIRS": 0,
+    "INTERNAL_CARD_CONTRADICTIONS": 0,
+    "FULL_COMPOSITE_COMPLETENESS": "PASS",
+    "ANTI_BULK": "PASS",
+    "ACCENT_TERM_ISSUES": 0,
+    "SCRIPT_CHANGES": 0,
+    "GIT_DIFF_CHECK": "PASS"
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-092/LRB-092-owner-view.md",
@@ -55,9 +70,6 @@
     "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
     "input": "reports/g2-a1-owner/batches-pending/LRB-092-input.csv"
   },
-  "note": "Gala verdict LRB_092_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50). DE/production/Crowdin/ingest/apply unchanged.",
-  "verifiedCommit": "07aa224bd4bc4f4d86f23901adf2ee0a84d89266",
-  "verificationStandard": "FULL_50_50_PDF",
-  "linguisticVerdict": "LRB_092_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-  "galaPass": true
+  "note": "OWNER-approved overrides applied (copy/paste). 50 LABOT / 0 NELABOT / 0 PENDING (SK 50). DE/production/Crowdin/ingest/apply unchanged. Pending independent post-review.",
+  "galaPass": false
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-13T09:23:23.060Z",
+  "updatedAt": "2026-09-13T09:40:54.104Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,11 +40,12 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": null,
+    "activeBatch": "LRB-092",
     "reservedBatches": [],
-    "inProgressBatches": [],
+    "inProgressBatches": [
+      "LRB-092"
+    ],
     "completedBatches": [
-      "LRB-092",
       "LRB-093",
       "LRB-103",
       "LRB-102",
