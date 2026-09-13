@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T11:12:00.000Z",
+  "updatedAt": "2026-09-13T11:18:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -94,7 +94,7 @@
     "batchSize": 50,
     "batchesTotal": 103,
     "batchesReviewed": 40,
-    "batchesAntiBulkPass": 39,
+    "batchesAntiBulkPass": 40,
     "batchesSpotCheckPass": 39,
     "linguisticVerdicts": {
       "LRB-001": {
@@ -967,6 +967,12 @@
       "LRB-040": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
+        "labot": 50,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "pending-gpt-5.6-luna",
         "languages": {
@@ -974,22 +980,33 @@
         },
         "uniqueCards": 50,
         "rowCount": 50,
+        "compositeRepairs": 11,
         "productionSource": "data/is/a1.js",
-        "inputPath": "reports/g2-a1-owner/batches-pending/LRB-040-input.csv",
-        "manifestPath": "reports/g2-a1-owner/manifests/LRB-040-start.json",
-        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-040-owner-authorization-proof.json"
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-040-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-040-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-040-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-040-owner-authorization-proof.json",
+        "pasteRepairs": "GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT / 50 unique IS cards: 11 composite + 39 scalar) — pending ChatGPT PDF re-review",
+        "pasteSha256": "22f6ec1f13a28302c3e0dcf549cd044b7ab1ca7e0beb945fa74eed3ae6a06b23"
       }
     },
     "lastBatch": {
       "batch_id": "LRB-040",
+      "labot": 50,
+      "nelabot": 0,
+      "pending": 0,
+      "antiBulkPass": true,
+      "residualAuditPass": true,
+      "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
       "rowCount": 50,
       "uniqueCards": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-040-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-040-start.json",
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-040-decisions.csv",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-040-anti-bulk-proof.json",
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-040-residual-wrong-language-proof.json",
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-040-owner-authorization-proof.json"
     }
   },

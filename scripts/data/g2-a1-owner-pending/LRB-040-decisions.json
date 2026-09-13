@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Vogel|idx:632|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fugl",
+    "owner_note": "IS Vogel / lv: individuāli pārbaudīta LRB-040 rinda 1/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|voll|idx:633|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fullur",
+    "owner_note": "IS voll / lv: individuāli pārbaudīta LRB-040 rinda 2/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|vom|idx:634|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"frá\",\"study.translation\":\"frá\",\"study.explanation\":\"[\\\"vom er samdráttur úr forsetningunni von og greininum dem.\\\",\\\"Óstytt mynd er von dem; dem er í þágufalli.\\\",\\\"vom er notað með karlkyns og hvorugkyns nafnorðum þegar vísað er til uppruna, upphafsstaðar eða þess hvaðan eitthvað kemur.\\\",\\\"vom er oft þýtt sem frá og svarar spurningunni hvaðan?\\\",\\\"Í daglegu máli er vom nær alltaf notað í stað von dem.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme vom Bahnhof.\\\",\\\"lv\\\":\\\"Ég kem frá lestarstöðinni.\\\"},{\\\"de\\\":\\\"Das Geschenk ist vom Vater.\\\",\\\"lv\\\":\\\"Gjöfin er frá föðurnum.\\\"},{\\\"de\\\":\\\"Er kommt vom Arzt.\\\",\\\"lv\\\":\\\"Hann kemur frá lækninum.\\\"},{\\\"de\\\":\\\"Sie fährt vom Flughafen.\\\",\\\"lv\\\":\\\"Hún ekur frá flugvellinum.\\\"},{\\\"de\\\":\\\"Das ist vom Markt.\\\",\\\"lv\\\":\\\"Þetta er frá markaðnum.\\\"},{\\\"de\\\":\\\"Wir kommen vom Fest.\\\",\\\"lv\\\":\\\"Við komum frá hátíðinni.\\\"},{\\\"de\\\":\\\"Er holt Milch vom Bauern.\\\",\\\"lv\\\":\\\"Hann sækir mjólk til bóndans.\\\"},{\\\"de\\\":\\\"Die Nachricht ist vom Chef.\\\",\\\"lv\\\":\\\"Skilaboðin eru frá yfirmanninum.\\\"}]\",\"study.tip\":\"[\\\"Mundu: von + dem → vom.\\\",\\\"Í daglegu máli er yfirleitt sagt vom, ekki von dem.\\\"]\",\"study.important\":\"[\\\"vom = von dem og stendur með karlkyns eða hvorugkyns nafnorði í þágufalli.\\\",\\\"Það vísar til uppruna, upphafsstaðar eða þess hvaðan eitthvað kemur.\\\",\\\"Með kvenkyns þýsku nafnorði er sagt von der Mutter, ekki vom Mutter.\\\",\\\"Ekki rugla vom saman við aus eða ab.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"vom\\\",\\\"von dem\\\"],\\\"purple\\\":[\\\"frá\\\"],\\\"green\\\":[\\\"þágufalli\\\",\\\"uppruna\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"frá lestarstöðinni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"frá föðurnum\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"frá lækninum\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"frá flugvellinum\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"frá markaðnum\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"frá hátíðinni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"til bóndans\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"frá yfirmanninum\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"vom\\\"]},{\\\"purple\\\":[\\\"vom\\\"],\\\"red\\\":[\\\"von dem\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"vom\\\",\\\"von dem\\\"],\\\"green\\\":[\\\"þágufalli\\\"]},{\\\"purple\\\":[\\\"uppruna\\\",\\\"upphafsstaðar\\\"]},{\\\"yellow\\\":[\\\"von der Mutter\\\"],\\\"red\\\":[\\\"vom Mutter\\\"]},{\\\"green\\\":[\\\"aus\\\"],\\\"red\\\":[\\\"ab\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"vom\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"frá\\\",\\\"von dem\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"vom Bahnhof\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"von\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"frá\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"von mir\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"aus\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"úr\\\",\\\"uppruni\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"aus Deutschland\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ab\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"frá og með\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"ab Montag\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\",\\\"hjá\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"zum Arzt\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"vom\\\",\\\"meaning\\\":\\\"frá (samdráttur úr von dem)\\\",\\\"example\\\":\\\"vom Bahnhof – frá lestarstöðinni\\\"},{\\\"word\\\":\\\"von\\\",\\\"meaning\\\":\\\"frá (almennt)\\\",\\\"example\\\":\\\"von mir – frá mér\\\"},{\\\"word\\\":\\\"aus\\\",\\\"meaning\\\":\\\"úr • frá (innan úr / uppruni)\\\",\\\"example\\\":\\\"aus Deutschland – frá Þýskalandi\\\"},{\\\"word\\\":\\\"ab\\\",\\\"meaning\\\":\\\"frá og með (tími / staður)\\\",\\\"example\\\":\\\"ab Montag – frá og með mánudegi\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"til • hjá (gagnstæð átt)\\\",\\\"example\\\":\\\"zum Arzt – til læknis\\\"}]\"}",
+    "owner_note": "IS vom / study: individuāli pārbaudīta LRB-040 rinda 3/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|von|idx:635|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "frá",
+    "owner_note": "IS von / lv: individuāli pārbaudīta LRB-040 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|vor|idx:636|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fyrir • fyrir framan\",\"study.translation\":\"fyrir • fyrir framan\",\"study.explanation\":\"[\\\"Meginhugmynd: vor merkir fyrir í tíma eða fyrir framan á stað.\\\",\\\"Þegar rætt er um tíma merkir vor fyrir.\\\",\\\"Þegar rætt er um stað merkir vor fyrir framan.\\\",\\\"Í klukkunni merkir fünf vor acht fimm mínútur í átta.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Vor dem Essen wasche ich die Hände.\\\",\\\"lv\\\":\\\"Fyrir mat þvæ ég mér um hendurnar.\\\"},{\\\"de\\\":\\\"Das Auto steht vor dem Haus.\\\",\\\"lv\\\":\\\"Bíllinn stendur fyrir framan húsið.\\\"},{\\\"de\\\":\\\"Es ist fünf vor acht.\\\",\\\"lv\\\":\\\"Klukkan er fimm mínútur í átta.\\\"},{\\\"de\\\":\\\"Nach dem Essen gehen wir spazieren.\\\",\\\"lv\\\":\\\"Eftir mat förum við í göngutúr.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: fyrir í tíma, fyrir framan á stað → vor.\\\"}\",\"study.important\":\"[\\\"vor getur vísað bæði til tíma og staðar.\\\",\\\"vor dem Essen = fyrir mat; vor dem Haus = fyrir framan húsið.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"vor\\\",\\\"fünf vor acht\\\"],\\\"purple\\\":[\\\"fyrir\\\",\\\"fyrir framan\\\",\\\"fimm mínútur í átta\\\"],\\\"green\\\":[\\\"tíma\\\",\\\"stað\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Vor\\\"],\\\"yellow\\\":[\\\"Essen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Fyrir mat\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vor\\\"],\\\"yellow\\\":[\\\"Haus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fyrir framan húsið\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vor\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fimm mínútur í átta\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"Nach\\\"],\\\"yellow\\\":[\\\"Essen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Eftir mat\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"vor\\\"],\\\"purple\\\":[\\\"fyrir\\\",\\\"fyrir framan\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"vor\\\"],\\\"purple\\\":[\\\"tíma\\\",\\\"staðar\\\"]},{\\\"blue\\\":[\\\"vor dem Essen\\\",\\\"vor dem Haus\\\"],\\\"purple\\\":[\\\"fyrir mat\\\",\\\"fyrir framan húsið\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"vor\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fyrir\\\",\\\"fyrir framan\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Vor\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nach\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"eftir\\\",\\\"til\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Nach\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"neben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"við hliðina á\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"Neben\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"hinter\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"á bak við\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"Hinter\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"vor\\\",\\\"meaning\\\":\\\"fyrir • fyrir framan\\\",\\\"example\\\":\\\"Vor dem Essen... – Fyrir mat...\\\"},{\\\"word\\\":\\\"nach\\\",\\\"meaning\\\":\\\"eftir • til\\\",\\\"example\\\":\\\"Nach dem Essen... – Eftir mat...\\\"},{\\\"word\\\":\\\"neben\\\",\\\"meaning\\\":\\\"við hliðina á\\\",\\\"example\\\":\\\"Neben dem Haus. – Við hliðina á húsinu.\\\"},{\\\"word\\\":\\\"hinter\\\",\\\"meaning\\\":\\\"á bak við\\\",\\\"example\\\":\\\"Hinter dem Haus. – Á bak við húsið.\\\"}]\"}",
+    "owner_note": "IS vor / study: individuāli pārbaudīta LRB-040 rinda 5/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Vorname|idx:637|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fornafn",
+    "owner_note": "IS Vorname / lv: individuāli pārbaudīta LRB-040 rinda 6/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Wald|idx:638|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "skógur",
+    "owner_note": "IS Wald / lv: individuāli pārbaudīta LRB-040 rinda 7/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Wand|idx:639|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "veggur",
+    "owner_note": "IS Wand / lv: individuāli pārbaudīta LRB-040 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|wann|idx:640|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hvenær",
+    "owner_note": "IS wann / lv: individuāli pārbaudīta LRB-040 rinda 9/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|warm|idx:641|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hlýr",
+    "owner_note": "IS warm / lv: individuāli pārbaudīta LRB-040 rinda 10/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|warten|idx:642|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bíða",
+    "owner_note": "IS warten / lv: individuāli pārbaudīta LRB-040 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|warum|idx:643|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hvers vegna",
+    "owner_note": "IS warum / lv: individuāli pārbaudīta LRB-040 rinda 12/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|was|idx:644|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hvað\",\"study.translation\":\"hvað\",\"study.explanation\":\"[\\\"Meginhugmynd: was er spurnarorð um hluti, atburði og staðreyndir og merkir yfirleitt hvað.\\\",\\\"was er notað um hluti og atburði, ekki fólk.\\\",\\\"Í þýsku breytist was ekki eftir falli.\\\",\\\"Þegar spurt er um fólk er wer notað, ekki was.\\\",\\\"Í íslensku getur orðalagið breyst eftir setningunni, þótt þýska spurnarorðið sé was.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was ist das?\\\",\\\"lv\\\":\\\"Hvað er þetta?\\\"},{\\\"de\\\":\\\"Was ist passiert?\\\",\\\"lv\\\":\\\"Hvað gerðist?\\\"},{\\\"de\\\":\\\"Was machst du gerade?\\\",\\\"lv\\\":\\\"Hvað ertu að gera núna?\\\"},{\\\"de\\\":\\\"Was möchtest du trinken?\\\",\\\"lv\\\":\\\"Hvað viltu drekka?\\\"},{\\\"de\\\":\\\"Was bedeutet dieses Wort?\\\",\\\"lv\\\":\\\"Hvað þýðir þetta orð?\\\"},{\\\"de\\\":\\\"Was ist dein Lieblingsessen?\\\",\\\"lv\\\":\\\"Hver er uppáhaldsmaturinn þinn?\\\"},{\\\"de\\\":\\\"Was hast du gesagt?\\\",\\\"lv\\\":\\\"Hvað sagðirðu?\\\"}]\",\"study.tip\":\"[\\\"was breytist ekki í þýsku; á íslensku merkir það yfirleitt hvað.\\\",\\\"Mundu: um hluti og atburði → was; um fólk → wer.\\\"]\",\"study.important\":\"[\\\"was spyr um hluti, atburði og staðreyndir, ekki fólk.\\\",\\\"Um fólk er spurt með wer.\\\",\\\"was für (ein/eine) merkir hvers konar.\\\",\\\"Rangt: Wer ist passiert? → Rétt: Was ist passiert?\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"was\\\",\\\"wer\\\"],\\\"purple\\\":[\\\"hvað\\\"],\\\"green\\\":[\\\"hluti\\\",\\\"atburði\\\",\\\"fólk\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hver\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"was\\\"],\\\"purple\\\":[\\\"hvað\\\"]},{\\\"blue\\\":[\\\"was\\\",\\\"wer\\\"],\\\"purple\\\":[\\\"hluti\\\",\\\"atburði\\\",\\\"fólk\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"was\\\"],\\\"purple\\\":[\\\"hluti\\\",\\\"atburði\\\",\\\"staðreyndir\\\"]},{\\\"blue\\\":[\\\"wer\\\"],\\\"purple\\\":[\\\"fólk\\\"]},{\\\"blue\\\":[\\\"was für\\\"],\\\"purple\\\":[\\\"hvers konar\\\"]},{\\\"red\\\":[\\\"Wer ist passiert\\\"],\\\"blue\\\":[\\\"Was ist passiert\\\"]}]}\"}",
+    "owner_note": "IS was / study: individuāli pārbaudīta LRB-040 rinda 13/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|waschen|idx:645|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þvo",
+    "owner_note": "IS waschen / lv: individuāli pārbaudīta LRB-040 rinda 14/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sich waschen|idx:646|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þvo sér",
+    "owner_note": "IS sich waschen / lv: individuāli pārbaudīta LRB-040 rinda 15/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Weg|idx:647|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "leið",
+    "owner_note": "IS Weg / lv: individuāli pārbaudīta LRB-040 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Weihnachten|idx:648|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "jól",
+    "owner_note": "IS Weihnachten / lv: individuāli pārbaudīta LRB-040 rinda 17/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Wein|idx:649|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "vín",
+    "owner_note": "IS Wein / lv: individuāli pārbaudīta LRB-040 rinda 18/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|weinen|idx:650|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gráta",
+    "owner_note": "IS weinen / lv: individuāli pārbaudīta LRB-040 rinda 19/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|weiß|idx:651|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hvítur",
+    "owner_note": "IS weiß / lv: individuāli pārbaudīta LRB-040 rinda 20/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|welcher|idx:652|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hvaða",
+    "owner_note": "IS welcher / lv: individuāli pārbaudīta LRB-040 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Welt|idx:653|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "heimur",
+    "owner_note": "IS Welt / lv: individuāli pārbaudīta LRB-040 rinda 22/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|wenig|idx:654|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lítið",
+    "owner_note": "IS wenig / lv: individuāli pārbaudīta LRB-040 rinda 23/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|wenn|idx:655|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ef • þegar\",\"study.translation\":\"ef • þegar\",\"study.explanation\":\"[\\\"Meginhugmynd: wenn merkir ef eða þegar eftir samhengi.\\\",\\\"Þegar um skilyrði er að ræða merkir wenn ef.\\\",\\\"Þegar um endurtekinn eða almennan tíma er að ræða merkir wenn þegar.\\\",\\\"Í aukasetningu með wenn stendur beygingarsögnin venjulega aftast.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Wenn du Zeit hast, komm vorbei.\\\",\\\"lv\\\":\\\"Ef þú hefur tíma, komdu við.\\\"},{\\\"de\\\":\\\"Wenn es regnet, bleibe ich zu Hause.\\\",\\\"lv\\\":\\\"Ef það rignir verð ég heima.\\\"},{\\\"de\\\":\\\"Wenn ich müde bin, trinke ich Kaffee.\\\",\\\"lv\\\":\\\"Þegar ég er þreyttur drekk ég kaffi.\\\"},{\\\"de\\\":\\\"Ich weiß nicht, ob er kommt.\\\",\\\"lv\\\":\\\"Ég veit ekki hvort hann kemur.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: skilyrði → wenn; bein spurning um tíma → wann.\\\"}\",\"study.important\":\"[\\\"wenn og wann eru ekki sama orðið.\\\",\\\"Wann kommst du? er spurning. Wenn du kommst... lýsir skilyrði eða tíma.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"wenn\\\"],\\\"purple\\\":[\\\"ef\\\",\\\"þegar\\\"],\\\"green\\\":[\\\"skilyrði\\\",\\\"tíma\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Wenn\\\",\\\"hast\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ef\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wenn\\\",\\\"regnet\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ef\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wenn\\\",\\\"bin\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Þegar\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hvort\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"wenn\\\",\\\"wann\\\"],\\\"purple\\\":[\\\"skilyrði\\\",\\\"spurning\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"wenn\\\",\\\"wann\\\"]},{\\\"blue\\\":[\\\"Wann kommst du\\\",\\\"Wenn du kommst\\\"],\\\"purple\\\":[\\\"spurning\\\",\\\"skilyrði\\\",\\\"tíma\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"wenn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ef\\\",\\\"þegar\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Wenn\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ob\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hvort\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"ob\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wann\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hvenær\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"Wann\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"weil\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"af því að\\\",\\\"vegna þess að\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"weil\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"wenn\\\",\\\"meaning\\\":\\\"ef • þegar\\\",\\\"example\\\":\\\"Wenn du Zeit hast... – Ef þú hefur tíma...\\\"},{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"hvort í óbeinni spurningu\\\",\\\"example\\\":\\\"Ich weiß nicht, ob... – Ég veit ekki hvort...\\\"},{\\\"word\\\":\\\"wann\\\",\\\"meaning\\\":\\\"hvenær í spurningu\\\",\\\"example\\\":\\\"Wann kommst du? – Hvenær kemurðu?\\\"},{\\\"word\\\":\\\"weil\\\",\\\"meaning\\\":\\\"af því að • vegna þess að\\\",\\\"example\\\":\\\"Ich bleibe, weil ich krank bin. – Ég verð heima af því að ég er veikur.\\\"}]\"}",
+    "owner_note": "IS wenn / study: individuāli pārbaudīta LRB-040 rinda 24/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|wer|idx:656|study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hver\",\"study.translation\":\"hver\",\"study.explanation\":\"[\\\"Meginhugmynd: wer er spurnarorð um persónu og merkir hver.\\\",\\\"wer er notað um fólk, ekki hluti eða atburði.\\\",\\\"Um hluti og atburði er spurt með was.\\\",\\\"wer er yfirleitt frumlag setningarinnar og stendur þá í nefnifalli.\\\",\\\"Til að spyrja hver úr hópi er sagt wer von euch.\\\",\\\"wer beygist eftir falli: wen, wem, wessen; á A1-stigi er grunnmyndin wer algengust.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Wer ist das?\\\",\\\"lv\\\":\\\"Hver er þetta?\\\"},{\\\"de\\\":\\\"Wer bist du?\\\",\\\"lv\\\":\\\"Hver ert þú?\\\"},{\\\"de\\\":\\\"Wer kommt heute?\\\",\\\"lv\\\":\\\"Hver kemur í dag?\\\"},{\\\"de\\\":\\\"Wer ist deine Lehrerin?\\\",\\\"lv\\\":\\\"Hver er kennarinn þinn?\\\"},{\\\"de\\\":\\\"Wer von euch spricht Deutsch?\\\",\\\"lv\\\":\\\"Hver ykkar talar þýsku?\\\"},{\\\"de\\\":\\\"Wer hat das gesagt?\\\",\\\"lv\\\":\\\"Hver sagði þetta?\\\"},{\\\"de\\\":\\\"Wer möchte Kaffee?\\\",\\\"lv\\\":\\\"Hver vill kaffi?\\\"}]\",\"study.tip\":\"[\\\"wer spyr um fólk; um hluti og atburði er was notað.\\\",\\\"Til að velja úr hópi er sagt wer von...\\\"]\",\"study.important\":\"[\\\"wer spyr um fólk, ekki hluti.\\\",\\\"Um hluti og atburði er spurt með was.\\\",\\\"wer beygist sem wen, wem og wessen; grunnmyndin er wer.\\\",\\\"Rangt: Wer ist passiert? → Rétt: Was ist passiert?\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"wer\\\",\\\"was\\\",\\\"wen\\\",\\\"wem\\\",\\\"wessen\\\"],\\\"purple\\\":[\\\"hver\\\"],\\\"green\\\":[\\\"fólk\\\",\\\"nefnifalli\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Wer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hver\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hver\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hver\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hver\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hver ykkar\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hver\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hver\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"wer\\\",\\\"was\\\"],\\\"purple\\\":[\\\"fólk\\\",\\\"hluti\\\",\\\"atburði\\\"]},{\\\"blue\\\":[\\\"wer von\\\"],\\\"purple\\\":[\\\"hópi\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"wer\\\"],\\\"purple\\\":[\\\"fólk\\\"]},{\\\"blue\\\":[\\\"was\\\"],\\\"purple\\\":[\\\"hluti\\\",\\\"atburði\\\"]},{\\\"blue\\\":[\\\"wer\\\",\\\"wen\\\",\\\"wem\\\",\\\"wessen\\\"]},{\\\"red\\\":[\\\"Wer ist passiert\\\"],\\\"blue\\\":[\\\"Was ist passiert\\\"]}]}\"}",
+    "owner_note": "IS wer / study: individuāli pārbaudīta LRB-040 rinda 25/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|werden|idx:657|study.explanation|LANGUAGE_MIXING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"verða\",\"study.translation\":\"verða\",\"study.explanation\":\"[\\\"Meginhugmynd: werden merkir oftast verða á A1-stigi.\\\",\\\"Sögnin er notuð þegar eitthvað breytist eða verður öðruvísi.\\\",\\\"Síðar er werden einnig notað til að mynda framtíð og þolmynd.\\\",\\\"Mikilvægt A1-dæmi er Ich werde müde. = Ég verð þreyttur.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich werde müde.\\\",\\\"lv\\\":\\\"Ég verð þreyttur.\\\"},{\\\"de\\\":\\\"Es wird kalt.\\\",\\\"lv\\\":\\\"Það verður kalt.\\\"},{\\\"de\\\":\\\"Sie wird Ärztin.\\\",\\\"lv\\\":\\\"Hún verður læknir.\\\"},{\\\"de\\\":\\\"Ich bin müde.\\\",\\\"lv\\\":\\\"Ég er þreyttur.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: breyting á ástandi → werden.\\\"}\",\"study.important\":\"[\\\"werden er ekki það sama og sein.\\\",\\\"Ich werde müde = ég verð þreyttur; Ich bin müde = ég er þreyttur.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"werden\\\",\\\"Ich werde müde\\\"],\\\"purple\\\":[\\\"verða\\\",\\\"Ég verð þreyttur\\\"],\\\"green\\\":[\\\"breytist\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"werde\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verð þreyttur\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"wird\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verður kalt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"wird\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verður læknir\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"bin\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"er þreyttur\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"werden\\\"],\\\"purple\\\":[\\\"breyting\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"werden\\\",\\\"sein\\\"]},{\\\"blue\\\":[\\\"Ich werde müde\\\",\\\"Ich bin müde\\\"],\\\"purple\\\":[\\\"ég verð þreyttur\\\",\\\"ég er þreyttur\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"werden\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"verða\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"werde\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vera\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"bin\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bleiben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vera áfram\\\",\\\"verða kyrr\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"bleibe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"machen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"gera\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"mache\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"werden\\\",\\\"meaning\\\":\\\"verða\\\",\\\"example\\\":\\\"Ich werde müde. – Ég verð þreyttur.\\\"},{\\\"word\\\":\\\"sein\\\",\\\"meaning\\\":\\\"vera\\\",\\\"example\\\":\\\"Ich bin müde. – Ég er þreyttur.\\\"},{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"vera áfram • verða kyrr\\\",\\\"example\\\":\\\"Ich bleibe hier. – Ég verð hér.\\\"},{\\\"word\\\":\\\"machen\\\",\\\"meaning\\\":\\\"gera\\\",\\\"example\\\":\\\"Ich mache das. – Ég geri þetta.\\\"}]\"}",
+    "owner_note": "IS werden / study.explanation: individuāli pārbaudīta LRB-040 rinda 26/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Wetter|idx:658|study.explanation|LANGUAGE_MIXING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"veður\",\"study.translation\":\"veður\",\"study.explanation\":\"[\\\"Meginhugmynd: das Wetter merkir veður, til dæmis sól, rigningu, kulda eða hita.\\\",\\\"Í þýsku er das Wetter veðrið úti en die Zeit tími.\\\",\\\"Spurt er um veðrið með Wie ist das Wetter heute?\\\",\\\"das Wetter kemur oft fyrir með orðum eins og warm og kalt.\\\",\\\"Ekki rugla das Wetter saman við die Zeit, sem merkir tíma eða stund.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Wie ist das Wetter heute?\\\",\\\"lv\\\":\\\"Hvernig er veðrið í dag?\\\"},{\\\"de\\\":\\\"Das Wetter ist schön.\\\",\\\"lv\\\":\\\"Veðrið er gott.\\\"},{\\\"de\\\":\\\"Das Wetter ist schlecht.\\\",\\\"lv\\\":\\\"Veðrið er vont.\\\"},{\\\"de\\\":\\\"Im Winter ist das Wetter oft kalt.\\\",\\\"lv\\\":\\\"Á veturna er veðrið oft kalt.\\\"},{\\\"de\\\":\\\"Wir sprechen über das Wetter.\\\",\\\"lv\\\":\\\"Við tölum um veðrið.\\\"},{\\\"de\\\":\\\"Morgen wird das Wetter besser.\\\",\\\"lv\\\":\\\"Á morgun batnar veðrið.\\\"}]\",\"study.tip\":\"[\\\"Þegar rætt er um sól, rigningu eða hitastig úti er das Wetter notað.\\\",\\\"Mundu: Wie ist das Wetter? = Hvernig er veðrið?\\\"]\",\"study.important\":\"[\\\"das Wetter = veður, ekki tími á klukku.\\\",\\\"die Zeit = tími eða stund; það er annað orð.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"das Wetter\\\",\\\"die Zeit\\\"],\\\"purple\\\":[\\\"veður\\\",\\\"tími\\\",\\\"stund\\\"],\\\"green\\\":[\\\"sól\\\",\\\"rigningu\\\",\\\"kulda\\\",\\\"hita\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Wetter\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"veðrið\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wetter\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Veðrið\\\",\\\"gott\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wetter\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Veðrið\\\",\\\"vont\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wetter\\\"],\\\"yellow\\\":[\\\"Winter\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"veðrið\\\",\\\"kalt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wetter\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"um veðrið\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wetter\\\"],\\\"green\\\":[\\\"besser\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"batnar veðrið\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"das Wetter\\\"],\\\"purple\\\":[\\\"sól\\\",\\\"rigningu\\\",\\\"hitastig\\\"]},{\\\"blue\\\":[\\\"Wie ist das Wetter\\\"],\\\"purple\\\":[\\\"Hvernig er veðrið\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"das Wetter\\\"],\\\"purple\\\":[\\\"veður\\\"],\\\"red\\\":[\\\"tími á klukku\\\"]},{\\\"blue\\\":[\\\"die Zeit\\\"],\\\"purple\\\":[\\\"tími\\\",\\\"stund\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"Wetter\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"veður\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Wetter\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"Zeit\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tími\\\",\\\"stund\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"Zeit\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"Regen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"rigning\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"Regen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"Sonne\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sól\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"Sonne\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"Wetter\\\",\\\"meaning\\\":\\\"veður\\\",\\\"example\\\":\\\"Das Wetter ist schön. – Veðrið er gott.\\\"},{\\\"word\\\":\\\"Zeit\\\",\\\"meaning\\\":\\\"tími • stund\\\",\\\"example\\\":\\\"Ich habe keine Zeit. – Ég hef engan tíma.\\\"},{\\\"word\\\":\\\"Regen\\\",\\\"meaning\\\":\\\"rigning\\\",\\\"example\\\":\\\"Es gibt viel Regen. – Það rignir mikið.\\\"},{\\\"word\\\":\\\"Sonne\\\",\\\"meaning\\\":\\\"sól\\\",\\\"example\\\":\\\"Die Sonne scheint. – Sólin skín.\\\"}]\"}",
+    "owner_note": "IS Wetter / study.explanation: individuāli pārbaudīta LRB-040 rinda 27/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|wie|idx:660|study.explanation|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hvernig • hversu\",\"study.translation\":\"hvernig • hversu\",\"study.explanation\":\"[\\\"Meginhugmynd: wie spyr um hátt eða eiginleika og kemur einnig fyrir í spurningum um magn, aldur og lengd.\\\",\\\"wie eitt og sér merkir oft hvernig, til dæmis Wie geht es dir?\\\",\\\"Í föstum samböndum eins og wie viel, wie alt og wie lange er íslenska orðalagið oft hvað eða hversu.\\\",\\\"wie viel(e) spyr um magn eða fjölda, wie alt um aldur og wie lange um lengd eða tíma.\\\",\\\"Í samanburði merkir so ... wie jafn ... og.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Wie geht es dir?\\\",\\\"lv\\\":\\\"Hvernig hefurðu það?\\\"},{\\\"de\\\":\\\"Wie heißt du?\\\",\\\"lv\\\":\\\"Hvað heitir þú?\\\"},{\\\"de\\\":\\\"Wie viel kostet das?\\\",\\\"lv\\\":\\\"Hvað kostar þetta?\\\"},{\\\"de\\\":\\\"Wie alt bist du?\\\",\\\"lv\\\":\\\"Hvað ertu gamall?\\\"},{\\\"de\\\":\\\"Wie lange dauert der Film?\\\",\\\"lv\\\":\\\"Hvað er myndin löng?\\\"},{\\\"de\\\":\\\"Er ist so groß wie sein Vater.\\\",\\\"lv\\\":\\\"Hann er jafn hávaxinn og faðir hans.\\\"}]\",\"study.tip\":\"[\\\"wie eitt og sér merkir oft hvernig; í wie viel, wie alt og wie lange fer íslenska orðalagið eftir spurningunni.\\\",\\\"Í samanburði merkir so ... wie jafn ... og.\\\"]\",\"study.important\":\"[\\\"wie viel(e) spyr um magn eða fjölda; wie alt um aldur; wie lange um lengd eða tíma.\\\",\\\"wie eitt og sér merkir oft hvernig.\\\",\\\"Rangt: Hversu gengur þér? → Rétt: Hvernig hefurðu það?\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"wie\\\",\\\"wie viel\\\",\\\"wie alt\\\",\\\"wie lange\\\",\\\"so ... wie\\\"],\\\"purple\\\":[\\\"hvernig\\\",\\\"hvað\\\",\\\"hversu\\\",\\\"jafn ... og\\\"],\\\"green\\\":[\\\"magn\\\",\\\"aldur\\\",\\\"lengd\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Wie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvernig\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Wie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hvað\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"wie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"jafn hávaxinn og\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"wie\\\",\\\"wie viel\\\",\\\"wie alt\\\",\\\"wie lange\\\"],\\\"purple\\\":[\\\"hvernig\\\"]},{\\\"blue\\\":[\\\"so ... wie\\\"],\\\"purple\\\":[\\\"jafn ... og\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"wie viel\\\",\\\"wie alt\\\",\\\"wie lange\\\"],\\\"purple\\\":[\\\"magn\\\",\\\"fjölda\\\",\\\"aldur\\\",\\\"lengd\\\",\\\"tíma\\\"]},{\\\"blue\\\":[\\\"wie\\\"],\\\"purple\\\":[\\\"hvernig\\\"]},{\\\"red\\\":[\\\"Hversu gengur þér\\\"],\\\"blue\\\":[\\\"Hvernig hefurðu það\\\"]}]}\"}",
+    "owner_note": "IS wie / study.explanation: individuāli pārbaudīta LRB-040 rinda 28/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|wie viel|idx:662|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hversu mikið",
+    "owner_note": "IS wie viel / lv: individuāli pārbaudīta LRB-040 rinda 29/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Wind|idx:663|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "vindur",
+    "owner_note": "IS Wind / lv: individuāli pārbaudīta LRB-040 rinda 30/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Zigarette|idx:664|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sígaretta",
+    "owner_note": "IS Zigarette / lv: individuāli pārbaudīta LRB-040 rinda 31/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Zimmer|idx:665|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "herbergi",
+    "owner_note": "IS Zimmer / lv: individuāli pārbaudīta LRB-040 rinda 32/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Zitrone|idx:666|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sítróna",
+    "owner_note": "IS Zitrone / lv: individuāli pārbaudīta LRB-040 rinda 33/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Zoo|idx:667|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dýragarður",
+    "owner_note": "IS Zoo / lv: individuāli pārbaudīta LRB-040 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zu|idx:668|study.explanation|LANGUAGE_MIXING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til • of • að\",\"study.translation\":\"til • of • að\",\"study.explanation\":\"[\\\"Meginhugmynd: zu merkir oft til, en getur einnig merkt of eða verið hluti af nafnhætti.\\\",\\\"Með fólki og stofnunum vísar zu oft til stefnu eða áfangastaðar.\\\",\\\"Með lýsingarorði merkir zu of.\\\",\\\"Á undan nafnhætti samsvarar zu oft íslenska að eða til að.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe zum Arzt.\\\",\\\"lv\\\":\\\"Ég fer til læknis.\\\"},{\\\"de\\\":\\\"Wir gehen zur Schule.\\\",\\\"lv\\\":\\\"Við förum í skólann.\\\"},{\\\"de\\\":\\\"Das ist zu teuer.\\\",\\\"lv\\\":\\\"Þetta er of dýrt.\\\"},{\\\"de\\\":\\\"Ich habe keine Zeit zu lernen.\\\",\\\"lv\\\":\\\"Ég hef ekki tíma til að læra.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: til læknis → zum Arzt; of dýrt → zu teuer.\\\"}\",\"study.important\":\"[\\\"zu hefur fleiri en eina notkun; skoðaðu alltaf setningargerðina.\\\",\\\"zu teuer merkir of dýrt, ekki til dýrs.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"zu\\\"],\\\"purple\\\":[\\\"til\\\",\\\"of\\\",\\\"að\\\",\\\"til að\\\"],\\\"green\\\":[\\\"fólki\\\",\\\"stofnunum\\\",\\\"lýsingarorði\\\",\\\"nafnhætti\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"zum Arzt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"til læknis\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zur Schule\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"í skólann\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zu teuer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"of dýrt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zu lernen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"til að læra\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"zum Arzt\\\",\\\"zu teuer\\\"],\\\"purple\\\":[\\\"til læknis\\\",\\\"of dýrt\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"zu\\\"],\\\"purple\\\":[\\\"setningargerðina\\\"]},{\\\"blue\\\":[\\\"zu teuer\\\"],\\\"purple\\\":[\\\"of dýrt\\\"],\\\"red\\\":[\\\"til dýrs\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\",\\\"of\\\",\\\"að\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"zum Arzt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nach\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"nach Berlin\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"in\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"inn í\\\",\\\"á stað\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"in die Schule\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bei\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hjá\\\",\\\"við\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"bei Anna\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"til • of • að\\\",\\\"example\\\":\\\"Ich gehe zum Arzt. – Ég fer til læknis.\\\"},{\\\"word\\\":\\\"nach\\\",\\\"meaning\\\":\\\"til með borgum og löndum\\\",\\\"example\\\":\\\"Ich fahre nach Berlin. – Ég fer til Berlínar.\\\"},{\\\"word\\\":\\\"in\\\",\\\"meaning\\\":\\\"inn í • á stað\\\",\\\"example\\\":\\\"Ich gehe in die Schule. – Ég fer inn í skólann.\\\"},{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"hjá • við\\\",\\\"example\\\":\\\"Ich bin bei Anna. – Ég er hjá Önnu.\\\"}]\"}",
+    "owner_note": "IS zu / study.explanation: individuāli pārbaudīta LRB-040 rinda 35/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Zucker|idx:669|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sykur",
+    "owner_note": "IS Zucker / lv: individuāli pārbaudīta LRB-040 rinda 36/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zuerst|idx:670|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fyrst",
+    "owner_note": "IS zuerst / lv: individuāli pārbaudīta LRB-040 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Zug|idx:671|study.explanation|LANGUAGE_MIXING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"lest\",\"study.translation\":\"lest\",\"study.explanation\":\"[\\\"Meginhugmynd: der Zug merkir oftast lest á A1-stigi.\\\",\\\"Orðið er notað þegar rætt er um lestarferðir, komu og brottför.\\\",\\\"Í öðrum samhengi getur Zug meðal annars merkt leik í tafli, trekk eða andlitsdrátt, en það eru ekki helstu A1-merkingarnar.\\\",\\\"Algeng sambönd eru mit dem Zug fahren og Der Zug kommt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Zug kommt um acht Uhr.\\\",\\\"lv\\\":\\\"Lestin kemur klukkan átta.\\\"},{\\\"de\\\":\\\"Ich fahre mit dem Zug.\\\",\\\"lv\\\":\\\"Ég fer með lestinni.\\\"},{\\\"de\\\":\\\"Der Zug ist voll.\\\",\\\"lv\\\":\\\"Lestin er full.\\\"},{\\\"de\\\":\\\"Der Bus kommt später.\\\",\\\"lv\\\":\\\"Strætóinn kemur seinna.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: ákveðin lest → der Zug.\\\"}\",\"study.important\":\"[\\\"Í fyrirsögninni merkir der Zug lest.\\\",\\\"Sjaldgæfari merkingarnar eiga ekki heima í aðalfyrirsögn A1-kortsins.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Zug\\\",\\\"Zug\\\",\\\"mit dem Zug fahren\\\"],\\\"purple\\\":[\\\"lest\\\"],\\\"red\\\":[\\\"leik í tafli\\\",\\\"trekk\\\",\\\"andlitsdrátt\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Zug\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Lestin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mit dem Zug\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"með lestinni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Zug\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Lestin\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"Bus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Strætóinn\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"der Zug\\\"],\\\"purple\\\":[\\\"ákveðin lest\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"der Zug\\\"],\\\"purple\\\":[\\\"lest\\\"]},{\\\"red\\\":[\\\"Sjaldgæfari merkingarnar\\\"],\\\"purple\\\":[\\\"aðalfyrirsögn\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"der Zug\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"lest\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Zug\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"die Bahn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"járnbraut\\\",\\\"lestarferð\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"Bahn\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"der Bus\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"strætó\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"Bus\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"die Straßenbahn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sporvagn\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Straßenbahn\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"der Zug\\\",\\\"meaning\\\":\\\"lest\\\",\\\"example\\\":\\\"Der Zug kommt. – Lestin kemur.\\\"},{\\\"word\\\":\\\"die Bahn\\\",\\\"meaning\\\":\\\"járnbraut • lestarferð\\\",\\\"example\\\":\\\"Ich fahre mit der Bahn. – Ég fer með lestinni.\\\"},{\\\"word\\\":\\\"der Bus\\\",\\\"meaning\\\":\\\"strætó\\\",\\\"example\\\":\\\"Der Bus kommt. – Strætóinn kemur.\\\"},{\\\"word\\\":\\\"die Straßenbahn\\\",\\\"meaning\\\":\\\"sporvagn\\\",\\\"example\\\":\\\"Die Straßenbahn ist hier. – Sporvagninn er hér.\\\"}]\"}",
+    "owner_note": "IS Zug / study.explanation: individuāli pārbaudīta LRB-040 rinda 38/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zum|idx:672|lv|TARGET_LANGUAGE_MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"til\",\"study.translation\":\"til\",\"study.explanation\":\"[\\\"zum er samdráttur úr forsetningunni zu og greininum dem.\\\",\\\"Óstytt mynd er zu dem; dem er í þágufalli.\\\",\\\"zum er notað með karlkyns og hvorugkyns nafnorðum þegar vísað er til stefnu eða markmiðs.\\\",\\\"Það merkir oft til eða á eftir samhengi, til dæmis til læknis eða á lestarstöðina.\\\",\\\"Í daglegu máli er zum nær alltaf notað í stað zu dem.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe zum Arzt.\\\",\\\"lv\\\":\\\"Ég fer til læknis.\\\"},{\\\"de\\\":\\\"Wir fahren zum Bahnhof.\\\",\\\"lv\\\":\\\"Við ökum á lestarstöðina.\\\"},{\\\"de\\\":\\\"Sie geht zum Supermarkt.\\\",\\\"lv\\\":\\\"Hún fer í stórmarkaðinn.\\\"},{\\\"de\\\":\\\"Komm zum Essen!\\\",\\\"lv\\\":\\\"Komdu að borða!\\\"},{\\\"de\\\":\\\"Er fährt zum Flughafen.\\\",\\\"lv\\\":\\\"Hann ekur á flugvöllinn.\\\"},{\\\"de\\\":\\\"Wir gehen zum Konzert.\\\",\\\"lv\\\":\\\"Við förum á tónleikana.\\\"},{\\\"de\\\":\\\"Das Geschenk ist zum Geburtstag.\\\",\\\"lv\\\":\\\"Gjöfin er í afmælisgjöf.\\\"},{\\\"de\\\":\\\"Ich gehe zum Friseur.\\\",\\\"lv\\\":\\\"Ég fer til hárgreiðslumannsins.\\\"}]\",\"study.tip\":\"[\\\"Mundu: zu + dem → zum.\\\",\\\"Með kvenkyns þýsku nafnorði er zu + der → zur.\\\"]\",\"study.important\":\"[\\\"zum = zu dem og stendur með karlkyns eða hvorugkyns nafnorði í þágufalli.\\\",\\\"Það vísar til stefnu eða markmiðs, til dæmis til læknis eða á lestarstöðina.\\\",\\\"Með kvenkyns þýsku nafnorði er zur notað: zur Bank, zur Post.\\\",\\\"Ekki rugla zum saman við bei, sem lýsir staðsetningu, eða nach með borgum og löndum.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"zum\\\",\\\"zu dem\\\"],\\\"purple\\\":[\\\"til\\\",\\\"á\\\"],\\\"green\\\":[\\\"þágufalli\\\",\\\"markmiðs\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"zum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"til læknis\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á lestarstöðina\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"í stórmarkaðinn\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"að borða\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á flugvöllinn\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á tónleikana\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"í afmælisgjöf\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zum\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"til hárgreiðslumannsins\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"zum\\\"]},{\\\"yellow\\\":[\\\"zur\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"zum\\\",\\\"zu dem\\\"],\\\"green\\\":[\\\"þágufalli\\\"]},{\\\"purple\\\":[\\\"stefnu\\\",\\\"markmiðs\\\",\\\"til læknis\\\",\\\"á lestarstöðina\\\"]},{\\\"yellow\\\":[\\\"zur Bank\\\",\\\"zur Post\\\"]},{\\\"green\\\":[\\\"bei\\\"],\\\"red\\\":[\\\"nach\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"zum\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\",\\\"á\\\",\\\"zu dem\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"zum Arzt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zur\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\",\\\"á\\\",\\\"kvenkyni\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"zur Schule\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\",\\\"hjá\\\",\\\"of\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"zu Hause\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nach\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"nach Berlin\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bei\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hjá\\\",\\\"við\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"beim Arzt\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"zum\\\",\\\"meaning\\\":\\\"til • á (samdráttur úr zu dem)\\\",\\\"example\\\":\\\"zum Arzt – til læknis\\\"},{\\\"word\\\":\\\"zur\\\",\\\"meaning\\\":\\\"til • á með kvenkyni\\\",\\\"example\\\":\\\"zur Schule – í skólann\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"til • hjá • of\\\",\\\"example\\\":\\\"zu Hause – heima\\\"},{\\\"word\\\":\\\"nach\\\",\\\"meaning\\\":\\\"til með borgum og löndum\\\",\\\"example\\\":\\\"nach Berlin – til Berlínar\\\"},{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"hjá • við (staðsetning)\\\",\\\"example\\\":\\\"beim Arzt – hjá lækninum\\\"}]\"}",
+    "owner_note": "IS zum / lv: individuāli pārbaudīta LRB-040 rinda 39/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zurück|idx:674|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "til baka",
+    "owner_note": "IS zurück / lv: individuāli pārbaudīta LRB-040 rinda 40/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zusammen|idx:675|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "saman",
+    "owner_note": "IS zusammen / lv: individuāli pārbaudīta LRB-040 rinda 41/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zwanzig|idx:677|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tuttugu",
+    "owner_note": "IS zwanzig / lv: individuāli pārbaudīta LRB-040 rinda 42/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zwanzigste|idx:678|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tuttugasti",
+    "owner_note": "IS zwanzigste / lv: individuāli pārbaudīta LRB-040 rinda 43/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zwei|idx:679|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tveir",
+    "owner_note": "IS zwei / lv: individuāli pārbaudīta LRB-040 rinda 44/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zweihundert|idx:680|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tvö hundruð",
+    "owner_note": "IS zweihundert / lv: individuāli pārbaudīta LRB-040 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zweimal|idx:681|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tvisvar",
+    "owner_note": "IS zweimal / lv: individuāli pārbaudīta LRB-040 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zweite|idx:682|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "annar",
+    "owner_note": "IS zweite / lv: individuāli pārbaudīta LRB-040 rinda 47/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Zwiebel|idx:683|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "laukur",
+    "owner_note": "IS Zwiebel / lv: individuāli pārbaudīta LRB-040 rinda 48/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zwischen|idx:684|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "milli",
+    "owner_note": "IS zwischen / lv: individuāli pārbaudīta LRB-040 rinda 49/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zwölf|idx:685|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tólf",
+    "owner_note": "IS zwölf / lv: individuāli pārbaudīta LRB-040 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  }
+}
