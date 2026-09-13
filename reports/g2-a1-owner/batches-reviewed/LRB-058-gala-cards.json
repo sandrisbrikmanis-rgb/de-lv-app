@@ -1,0 +1,1634 @@
+{
+  "batch_id": "LRB-058",
+  "language": "lb",
+  "scope": "Wasser..Augenfarbe",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "5607dc02cd91566053da64743cb25d07e7bf16146401cf4fc7c4d8a318c1a303",
+  "full_card_replacements": 10,
+  "full_card_object_ids": [
+    "aber|idx:21",
+    "ab|idx:17",
+    "also|idx:26",
+    "an|idx:12",
+    "auch|idx:48",
+    "aufs|idx:60",
+    "auf|idx:49",
+    "aus|idx:57",
+    "klein|idx:6",
+    "sprechen|idx:5"
+  ],
+  "classification": "LRB_058_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "Wasser|idx:2",
+      "de_reference": "Wasser",
+      "idx": 2,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Wasser",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Waasser"
+      }
+    },
+    {
+      "card_object_id": "lernen|idx:4",
+      "de_reference": "lernen",
+      "idx": 4,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lernen",
+        "level": "A1",
+        "lv": "léieren"
+      }
+    },
+    {
+      "card_object_id": "sprechen|idx:5",
+      "de_reference": "sprechen",
+      "idx": 5,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sprechen",
+        "level": "A1",
+        "lv": "schwätzen",
+        "study": {
+          "id": "a1-sprechen-study",
+          "layout": "standardStudy",
+          "translation": "schwätzen",
+          "explanation": [
+            "Haaptiddi: Schwätzen, sech ënnerhalen oder eng Sprooch benotzen.",
+            "sprechen heescht virun allem schwätzen oder sech ënnerhalen.",
+            "Dacks geet et ëm eng Sprooch oder e Gespréich.",
+            "sprechen beschreift d'Schwätzen oder d'Benotze vun enger Sprooch."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Ech schwätzen Däitsch."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Mir schwätzen iwwer d'Aarbecht."
+            },
+            {
+              "de": "Sie spricht mit ihrer Lehrerin.",
+              "lv": "Si schwätzt mat hirer Léierin."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "schwätzen (Handlung, Sprooch)",
+              "example": "Wir sprechen über die Arbeit. – Mir schwätzen iwwer d'Aarbecht."
+            },
+            {
+              "word": "sagen",
+              "meaning": "eppes Konkretes soen",
+              "example": "Sag mir die Wahrheit. – So mir d'Wourecht."
+            }
+          ],
+          "tip": [
+            "sprechen = schwätzen",
+            "Benotz sprechen, wann de Kontext bei dës Bedeitung passt."
+          ],
+          "important": [
+            "sprechen = schwätzen.",
+            "Et geet ëm d'Schwätzen, e Gespréich oder d'Benotze vun enger Sprooch."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sprechen"
+              ],
+              "purple": [
+                "Schwätzen",
+                "schwätzen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "spreche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schwätzen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sprechen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schwätzen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "spricht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schwätzt"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "klein|idx:6",
+      "de_reference": "klein",
+      "idx": 6,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "klein",
+        "level": "A1",
+        "lv": "kleng",
+        "study": {
+          "id": "a1-klein-study",
+          "layout": "standardStudy",
+          "translation": "kleng",
+          "explanation": [
+            "Haaptiddi: klein bedeit kleng wat d'Gréisst, den Ëmfang oder den Alter ugeet.",
+            "klein kann en Objet, e Raum, eng Quantitéit oder e Kand beschreiwen.",
+            "Déi genee Bedeitung hänkt vum Substantiv a vum Kontext of."
+          ],
+          "examples": [
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "D'Zëmmer ass kleng."
+            },
+            {
+              "de": "Das Kind ist noch klein.",
+              "lv": "D'Kand ass nach kleng."
+            },
+            {
+              "de": "Ich habe eine kleine Tasche.",
+              "lv": "Ech hunn eng kleng Täsch."
+            }
+          ],
+          "tip": [
+            "klein = kleng",
+            "Benotz klein, wann de Kontext bei dës Bedeitung passt."
+          ],
+          "important": [
+            "klein bedeit meeschtens kleng.",
+            "Bei engem Kand kann klein och op e jonken Alter hiweisen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "klein"
+              ],
+              "purple": [
+                "kleng"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kleng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kleng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kleine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kleng"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "alle|idx:7",
+      "de_reference": "alle",
+      "idx": 7,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "alle",
+        "level": "A1",
+        "lv": "alleguer"
+      }
+    },
+    {
+      "card_object_id": "alles|idx:9",
+      "de_reference": "alles",
+      "idx": 9,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "alles",
+        "level": "A1",
+        "lv": "alles"
+      }
+    },
+    {
+      "card_object_id": "an|idx:12",
+      "de_reference": "an",
+      "idx": 12,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "an",
+        "level": "A1",
+        "lv": "un",
+        "study": {
+          "id": "a1-an",
+          "layout": "standardStudy",
+          "translation": "un",
+          "explanation": "\"Haaptiddi: an weist dacks eng Positioun un enger Mauer, enger Fënster, enger Dier, engem Floss, dem Mier oder engem anere Rand beziehungsweise enger Uewerfläch un.\"",
+          "examples": [
+            {
+              "de": "an der Wand",
+              "lv": "un der Mauer"
+            },
+            {
+              "de": "am Fenster",
+              "lv": "bei der Fënster"
+            },
+            {
+              "de": "am Meer",
+              "lv": "um Mier"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "an",
+              "meaning": "un enger Uewerfläch oder um Rand",
+              "example": "an der Wand – un der Mauer"
+            },
+            {
+              "word": "auf",
+              "meaning": "op enger horizontaler Uewerfläch",
+              "example": "auf dem Tisch – um Dësch"
+            },
+            {
+              "word": "bei",
+              "meaning": "bei enger Persoun oder enger Plaz",
+              "example": "beim Arzt – beim Dokter"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "an"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "un"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "am"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bei"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "am"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "um"
+                  ]
+                }
+              }
+            ]
+          },
+          "tip": {
+            "text": "Denk drun: bei enger Mauer, Fënster oder engem Rand → an."
+          },
+          "important": [
+            "an bedeit net allgemeng all Zort vu „bei“. Et steet dacks bei enger Uewerfläch, enger Mauer, enger Fënster oder engem Rand.",
+            "Op enger horizontaler Uewerfläch benotzt een am Däitschen normalerweis auf."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "Anfang|idx:13",
+      "de_reference": "Anfang",
+      "idx": 13,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Anfang",
+        "de_article": "der",
+        "de_plural": "die Anfänge",
+        "level": "A1",
+        "lv": "Ufank"
+      }
+    },
+    {
+      "card_object_id": "anfangen|idx:14",
+      "de_reference": "anfangen",
+      "idx": 14,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "anfangen",
+        "level": "A1",
+        "lv": "ufänken"
+      }
+    },
+    {
+      "card_object_id": "anders|idx:15",
+      "de_reference": "anders",
+      "idx": 15,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "anders",
+        "level": "A1",
+        "lv": "anescht"
+      }
+    },
+    {
+      "card_object_id": "anrufen|idx:16",
+      "de_reference": "anrufen",
+      "idx": 16,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "anrufen",
+        "level": "A1",
+        "lv": "uruffen"
+      }
+    },
+    {
+      "card_object_id": "ab|idx:17",
+      "de_reference": "ab",
+      "idx": 17,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "ab",
+        "level": "A1",
+        "lv": "vun ... un",
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "vun ... un",
+          "explanation": "\"Haaptiddi: ab weist un, datt eppes bei enger bestëmmter Zäit, Plaz oder engem bestëmmte Punkt ufänkt. Et bedeit dacks „vun ... un“.\"",
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "vun haut un",
+              "level": "A1"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "vu Méindeg un"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "vun 8 Auer un"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "vun der Gare un"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "vun engem Zäit- oder Ausgangspunkt un",
+              "example": "ab Montag – vu Méindeg un"
+            },
+            {
+              "word": "von",
+              "meaning": "vun enger Persoun oder enger Quell",
+              "example": "von mir – vu mir"
+            },
+            {
+              "word": "aus",
+              "meaning": "aus dem Banneraum oder Hierkonft",
+              "example": "aus dem Haus – aus dem Haus"
+            }
+          ],
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vun",
+                    "un"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vu",
+                    "un"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vun",
+                    "un"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vun",
+                    "un"
+                  ]
+                }
+              }
+            ]
+          },
+          "tip": {
+            "text": "Denk drun: en Ufank an der Zäit oder op enger Plaz → ab."
+          },
+          "important": [
+            "ab weist en Ufank an der Zäit oder op enger Plaz un.",
+            "Fir Hierkonft oder eng Beweegung aus engem Banneraum benotzt een am Däitschen éischter von oder aus."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "Abendessen|idx:19",
+      "de_reference": "Abendessen",
+      "idx": 19,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Abendessen",
+        "de_article": "das",
+        "de_plural": "die Abendessen",
+        "level": "A1",
+        "lv": "Owesiessen"
+      }
+    },
+    {
+      "card_object_id": "abends|idx:20",
+      "de_reference": "abends",
+      "idx": 20,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "abends",
+        "level": "A1",
+        "lv": "owes"
+      }
+    },
+    {
+      "card_object_id": "aber|idx:21",
+      "de_reference": "aber",
+      "idx": 21,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "aber",
+        "level": "A1",
+        "lv": "awer",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "awer",
+          "explanation": "\"Haaptiddi: aber féiert e Géigesaz oder en Asproch an. Et bedeit dacks „awer“, „allerdéngs“ oder „trotzdeem“.\"",
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Ech wëll matkommen, awer ech hu keng Zäit."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "D'Iesse war lecker, awer ze deier."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Hien huet Recht, awer ech gesinn dat anescht."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "Géigesaz oder Asproch",
+              "example": "Ich komme, aber später. – Ech kommen, awer méi spéit."
+            },
+            {
+              "word": "sondern",
+              "meaning": "net ..., mä ...",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. – Ech wollt keen Téi, mä Kaffi."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "allerdéngs",
+              "example": "Es ist kalt, jedoch sonnig. – Et ass kal, allerdéngs sonneg."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Géigesaz oder Asproch → aber."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "awer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "awer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "awer"
+                  ]
+                }
+              }
+            ]
+          },
+          "important": [
+            "aber weist e Géigesaz oder en Asproch.",
+            "Beim Muster „net ..., mä ...“ benotzt een am Däitschen normalerweis sondern."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "achten|idx:22",
+      "de_reference": "achten",
+      "idx": 22,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "achten",
+        "level": "A1",
+        "lv": "uechten"
+      }
+    },
+    {
+      "card_object_id": "Adresse|idx:23",
+      "de_reference": "Adresse",
+      "idx": 23,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Adresse",
+        "de_article": "die",
+        "de_plural": "die Adressen",
+        "level": "A1",
+        "lv": "Adress"
+      }
+    },
+    {
+      "card_object_id": "Affe|idx:24",
+      "de_reference": "Affe",
+      "idx": 24,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Affe",
+        "de_article": "der",
+        "de_plural": "die Affen",
+        "level": "A1",
+        "lv": "Af"
+      }
+    },
+    {
+      "card_object_id": "Album|idx:25",
+      "de_reference": "Album",
+      "idx": 25,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Album",
+        "de_article": "das",
+        "de_plural": "die Alben",
+        "level": "A1",
+        "lv": "Album"
+      }
+    },
+    {
+      "card_object_id": "also|idx:26",
+      "de_reference": "also",
+      "idx": 26,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "also",
+        "level": "A1",
+        "lv": "also • deemno",
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "also • deemno",
+          "explanation": "\"Haaptiddi: also zitt eng Konklusioun oder weist e Resultat. Et bedeit „also“ oder „deemno“.\"",
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Et reent, also bleiwen ech doheem."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Du bass krank, also gees de net op d'Aarbecht."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Ech hu vill geléiert, also verstinn ech et elo."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "also • deemno",
+              "example": "Es regnet, also bleibe ich zu Hause. – Et reent, also bleiwen ech doheem."
+            },
+            {
+              "word": "auch",
+              "meaning": "och",
+              "example": "Ich komme auch. – Ech kommen och."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "dofir",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Et reent, dofir bleiwen ech doheem."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Konklusioun → also."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "also"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "also"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "also"
+                  ]
+                }
+              }
+            ]
+          },
+          "important": [
+            "also weist eng Konklusioun: Aus deem, wat virdru gesot gouf, ergëtt sech déi nächst Iddi.",
+            "Fir eng Ursaach ze betounen, kann deshalb op Lëtzebuergesch dacks mat dofir iwwersat ginn."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "Ameise|idx:27",
+      "de_reference": "Ameise",
+      "idx": 27,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Ameise",
+        "de_article": "die",
+        "de_plural": "die Ameisen",
+        "level": "A1",
+        "lv": "Seechomes"
+      }
+    },
+    {
+      "card_object_id": "anschauen|idx:29",
+      "de_reference": "anschauen",
+      "idx": 29,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "anschauen",
+        "level": "A1",
+        "lv": "ukucken"
+      }
+    },
+    {
+      "card_object_id": "anziehen|idx:30",
+      "de_reference": "anziehen",
+      "idx": 30,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "anziehen",
+        "level": "A1",
+        "lv": "undoen"
+      }
+    },
+    {
+      "card_object_id": "anhalten|idx:31",
+      "de_reference": "anhalten",
+      "idx": 31,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "anhalten",
+        "level": "A1",
+        "lv": "stoe bleiwen"
+      }
+    },
+    {
+      "card_object_id": "Angst|idx:32",
+      "de_reference": "Angst",
+      "idx": 32,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Angst",
+        "de_article": "die",
+        "de_plural": "die Ängste",
+        "level": "A1",
+        "lv": "Angscht"
+      }
+    },
+    {
+      "card_object_id": "angenehm|idx:33",
+      "de_reference": "angenehm",
+      "idx": 33,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "angenehm",
+        "level": "A1",
+        "lv": "agreabel"
+      }
+    },
+    {
+      "card_object_id": "Antenne|idx:34",
+      "de_reference": "Antenne",
+      "idx": 34,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Antenne",
+        "de_article": "die",
+        "de_plural": "die Antennen",
+        "level": "A1",
+        "lv": "Antenn"
+      }
+    },
+    {
+      "card_object_id": "Antwort|idx:35",
+      "de_reference": "Antwort",
+      "idx": 35,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Antwort",
+        "de_article": "die",
+        "de_plural": "die Antworten",
+        "level": "A1",
+        "lv": "Äntwert"
+      }
+    },
+    {
+      "card_object_id": "antworten|idx:36",
+      "de_reference": "antworten",
+      "idx": 36,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "antworten",
+        "level": "A1",
+        "lv": "äntweren"
+      }
+    },
+    {
+      "card_object_id": "Anzug|idx:37",
+      "de_reference": "Anzug",
+      "idx": 37,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Anzug",
+        "de_article": "der",
+        "de_plural": "die Anzüge",
+        "level": "A1",
+        "lv": "Kostüm"
+      }
+    },
+    {
+      "card_object_id": "Apfelbaum|idx:38",
+      "de_reference": "Apfelbaum",
+      "idx": 38,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Apfelbaum",
+        "de_article": "der",
+        "de_plural": "die Apfelbäume",
+        "level": "A1",
+        "lv": "Äppelbam"
+      }
+    },
+    {
+      "card_object_id": "Apfelsine|idx:39",
+      "de_reference": "Apfelsine",
+      "idx": 39,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "no_change",
+      "post_owner": {
+        "de": "Apfelsine",
+        "de_article": "die",
+        "de_plural": "die Apfelsinen",
+        "level": "A1",
+        "lv": "Eng Orange"
+      }
+    },
+    {
+      "card_object_id": "Aprikose|idx:40",
+      "de_reference": "Aprikose",
+      "idx": 40,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "no_change",
+      "post_owner": {
+        "de": "Aprikose",
+        "de_article": "die",
+        "de_plural": "die Aprikosen",
+        "level": "A1",
+        "lv": "Aprikos"
+      }
+    },
+    {
+      "card_object_id": "April|idx:41",
+      "de_reference": "April",
+      "idx": 41,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "no_change",
+      "post_owner": {
+        "de": "April",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Abrëll"
+      }
+    },
+    {
+      "card_object_id": "Arbeit|idx:42",
+      "de_reference": "Arbeit",
+      "idx": 42,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Arbeit",
+        "de_article": "die",
+        "de_plural": "die Arbeiten",
+        "level": "A1",
+        "lv": "Aarbecht"
+      }
+    },
+    {
+      "card_object_id": "arbeiten|idx:43",
+      "de_reference": "arbeiten",
+      "idx": 43,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "arbeiten",
+        "level": "A1",
+        "lv": "schaffen"
+      }
+    },
+    {
+      "card_object_id": "Armbanduhr|idx:45",
+      "de_reference": "Armbanduhr",
+      "idx": 45,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Armbanduhr",
+        "de_article": "die",
+        "de_plural": "die Armbanduhren",
+        "level": "A1",
+        "lv": "Aarmbandauer"
+      }
+    },
+    {
+      "card_object_id": "Ärztin|idx:46",
+      "de_reference": "Ärztin",
+      "idx": 46,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Ärztin",
+        "de_article": "die",
+        "de_plural": "die Ärztinnen",
+        "level": "A1",
+        "lv": "Doktesch"
+      }
+    },
+    {
+      "card_object_id": "atmen|idx:47",
+      "de_reference": "atmen",
+      "idx": 47,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "atmen",
+        "level": "A1",
+        "lv": "ootmen"
+      }
+    },
+    {
+      "card_object_id": "auch|idx:48",
+      "de_reference": "auch",
+      "idx": 48,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "auch",
+        "level": "A1",
+        "lv": "och",
+        "study": {
+          "id": "a1-auch-study",
+          "layout": "standardStudy",
+          "translation": "och",
+          "explanation": [
+            "Haaptiddi: auch ass dat heefegst an neutralst däitscht Wuert fir „och“.",
+            "Et füügt eng Persoun, eng Saach oder eng Handlung dobäi.",
+            "D'Positioun vun auch hänkt dovun of, wat am Saz dobäigesat oder betount gëtt."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme auch.",
+              "lv": "Ech kommen och."
+            },
+            {
+              "de": "Sie arbeitet auch hier.",
+              "lv": "Si schafft och hei."
+            },
+            {
+              "de": "Ich wünsche Ihnen auch einen schönen Tag.",
+              "lv": "Ech wënschen Iech och e schéinen Dag."
+            }
+          ],
+          "tip": [
+            "auch = och",
+            "Benotz auch, wann eng Persoun, Saach oder Handlung dobäikënnt."
+          ],
+          "important": [
+            "auch ass dat heefegst neutral däitscht Wuert mat der Bedeitung „och“.",
+            "Richteg: Ich wünsche Ihnen auch einen schönen Tag.",
+            "Falsch: Ich auch wünsche Ihnen einen schönen Tag."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "auch"
+              ],
+              "purple": [
+                "och"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "och"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "och"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "och"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "auf|idx:49",
+      "de_reference": "auf",
+      "idx": 49,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "auf",
+        "level": "A1",
+        "lv": "op",
+        "study": {
+          "id": "a1-auf",
+          "layout": "standardStudy",
+          "translation": "op",
+          "explanation": "\"Haaptiddi: auf weist eng Richtung op eng Plaz oder op d'Uewerfläch vun eppes un.\"",
+          "examples": [
+            {
+              "de": "Ich stelle das Buch auf den Tisch.",
+              "lv": "Ech stellen d'Buch op den Dësch."
+            },
+            {
+              "de": "Wir fahren auf den Berg.",
+              "lv": "Mir fueren op de Bierg."
+            },
+            {
+              "de": "Die Katze springt auf das Sofa.",
+              "lv": "D'Kaz spréngt op de Canapé."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "auf",
+              "meaning": "op eng Uewerfläch oder no uewen",
+              "example": "Ich stelle das Glas auf den Tisch. – Ech stellen d'Glas op den Dësch."
+            },
+            {
+              "word": "an",
+              "meaning": "un eng vertikal Uewerfläch",
+              "example": "Ich hänge das Bild an die Wand. – Ech hänken d'Bild un d'Mauer."
+            },
+            {
+              "word": "in",
+              "meaning": "an e Banneraum",
+              "example": "Ich lege das Buch in die Tasche. – Ech leeën d'Buch an d'Täsch."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: op eng Uewerfläch oder no uewen → auf."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "auf"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              }
+            ]
+          },
+          "important": [
+            "auf bedeit net allgemeng all Zort vun „op“. Et weist dacks eng Beweegung oder eng Positioun op enger Uewerfläch beziehungsweise uewen un.",
+            "Bei enger vertikaler Uewerfläch benotzt een am Däitschen dacks an; fir eng Beweegung an e Banneraum benotzt een in."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "aufpassen|idx:51",
+      "de_reference": "aufpassen",
+      "idx": 51,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "aufpassen",
+        "level": "A1",
+        "lv": "oppassen"
+      }
+    },
+    {
+      "card_object_id": "aufwärts|idx:53",
+      "de_reference": "aufwärts",
+      "idx": 53,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "aufwärts",
+        "level": "A1",
+        "lv": "no uewen"
+      }
+    },
+    {
+      "card_object_id": "Auge|idx:54",
+      "de_reference": "Auge",
+      "idx": 54,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Auge",
+        "de_article": "das",
+        "de_plural": "die Augen",
+        "level": "A1",
+        "lv": "A"
+      }
+    },
+    {
+      "card_object_id": "August|idx:56",
+      "de_reference": "August",
+      "idx": 56,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "August",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "August"
+      }
+    },
+    {
+      "card_object_id": "aus|idx:57",
+      "de_reference": "aus",
+      "idx": 57,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "aus",
+        "level": "A1",
+        "lv": "aus",
+        "study": {
+          "id": "a1-aus",
+          "layout": "standardStudy",
+          "translation": "aus",
+          "explanation": "\"Haaptiddi: aus weist, datt eppes aus engem Banneraum kënnt, erausgeet oder seng Hierkonft ugëtt.\"",
+          "examples": [
+            {
+              "de": "Ich komme aus Deutschland.",
+              "lv": "Ech kommen aus Däitschland."
+            },
+            {
+              "de": "Er geht aus dem Haus.",
+              "lv": "Hie geet aus dem Haus."
+            },
+            {
+              "de": "Ich nehme das Buch aus der Tasche.",
+              "lv": "Ech huelen d'Buch aus der Täsch."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aus",
+              "meaning": "aus engem Banneraum oder als Hierkonft",
+              "example": "aus dem Haus – aus dem Haus"
+            },
+            {
+              "word": "von",
+              "meaning": "vun enger Persoun, Plaz oder Uewerfläch",
+              "example": "von meinem Freund – vu mengem Frënd"
+            },
+            {
+              "word": "ab",
+              "meaning": "vun engem Zäit- oder Ausgangspunkt un",
+              "example": "ab Montag – vu Méindeg un"
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: aus engem Banneraum eraus → aus."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "aus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "aus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "aus"
+                  ]
+                }
+              }
+            ]
+          },
+          "important": [
+            "aus weist normalerweis eng Beweegung aus engem Banneraum oder eng Hierkonft un.",
+            "Wann et nëmmen ëm en Ufank an der Zäit oder op enger Plaz geet, benotzt een am Däitschen dacks ab."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "auf dem Bahnhof|idx:59",
+      "de_reference": "auf dem Bahnhof",
+      "idx": 59,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "auf dem Bahnhof",
+        "level": "A1",
+        "lv": "op der Gare"
+      }
+    },
+    {
+      "card_object_id": "aufs|idx:60",
+      "de_reference": "aufs",
+      "idx": 60,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "aufs",
+        "level": "A1",
+        "lv": "op",
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "op",
+          "explanation": [
+            "Haaptiddi: aufs ass d’Kontraktioun vun der däitscher Präpositioun auf an dem Artikel das.",
+            "Déi voll Form ass auf das. Si gëtt mat Neutrum-Substantiver benotzt, fir eng Beweegung op eng Uewerfläch, eng Plaz oder en Evenement unzeweisen.",
+            "aufs beäntwert déi däitsch Fro wohin? an net wo?.",
+            "Am normalen Däitsch gëtt aufs meeschtens éischter benotzt wéi déi voll Form auf das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Ech ginn op den Daach."
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Si setzt sech op de Canapé."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Mir fueren op d'Land."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Stell d'Täsch op d'Bett."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Hie spréngt op d'Päerd."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Lee d'Buch op d'Regal."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Komm séier op d'Boot!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Mir ginn op d'Fest."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "op eng Uewerfläch, Plaz oder en Evenement; auf + das",
+              "example": "aufs Dach – op den Daach"
+            },
+            {
+              "word": "auf",
+              "meaning": "op eng Uewerfläch",
+              "example": "auf den Tisch – op den Dësch"
+            },
+            {
+              "word": "an",
+              "meaning": "un eng vertikal Uewerfläch",
+              "example": "an die Wand – un d'Mauer"
+            },
+            {
+              "word": "ins",
+              "meaning": "an e Banneraum eran",
+              "example": "ins Zimmer – an d'Zëmmer"
+            },
+            {
+              "word": "zum",
+              "meaning": "bei eng Persoun oder Institutioun",
+              "example": "zum Arzt – bei den Dokter"
+            }
+          ],
+          "tip": [
+            "Denk drun: auf + das → aufs; et weist eng Richtung oder en Zil un.",
+            "Fir eng Plaz ouni Beweegung steet auf mam Dativ."
+          ],
+          "important": [
+            "aufs kann nëmmen auf + das kontrahéieren; et steet net mat maskulinen oder feminine Substantiver.",
+            "Verwiessel aufs net mat an fir eng vertikal Uewerfläch oder mat ins fir eng Beweegung an e Banneraum."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "aufs",
+                "auf das"
+              ],
+              "purple": [
+                "op"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Augenbraue|idx:61",
+      "de_reference": "Augenbraue",
+      "idx": 61,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Augenbraue",
+        "de_article": "die",
+        "de_plural": "die Augenbrauen",
+        "level": "A1",
+        "lv": "Aperhoer"
+      }
+    },
+    {
+      "card_object_id": "Augenfarbe|idx:62",
+      "de_reference": "Augenfarbe",
+      "idx": 62,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Augenfarbe",
+        "de_article": "die",
+        "de_plural": "die Augenfarben",
+        "level": "A1",
+        "lv": "Aefaarf"
+      }
+    }
+  ]
+}
