@@ -1,10 +1,10 @@
 {
   "batchId": "LRB-089",
-  "generatedAt": "2026-09-13T11:59:21.210Z",
-  "sourceCommit": "c61d0c175b379c90b502aa8f30c59aaf5df3ecf6",
+  "generatedAt": "2026-09-13T12:17:02.438Z",
+  "sourceCommit": "9ed06ae33df62be7f68279bd26dc90b6f89882f9",
   "reviewer": "GPT-5.6 Luna",
   "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
-  "overridesSha256": "2dd479031ae2f3915c2b1b23a1c169e7eb7ba5688a28106dfd2ec67569e47332",
+  "overridesSha256": "31d01aca24eb18bb64572799b9c0899120c67eda9a0ec8f7799f51b05d3e508f",
   "uniqueCards": 27,
   "rowCount": 50,
   "languages": {
@@ -245,7 +245,7 @@
             },
             {
               "word": "wissen",
-              "meaning": "Vedieť",
+              "meaning": "Vedieť (fakt)",
               "example": "Ich weiß das. = To viem."
             }
           ],
@@ -419,7 +419,7 @@
             },
             {
               "word": "wissen",
-              "meaning": "Vedieť",
+              "meaning": "Vedieť (fakt)",
               "example": "Ich weiß das. = To viem."
             }
           ],
@@ -787,7 +787,7 @@
             },
             {
               "word": "wissen",
-              "meaning": "Vedieť",
+              "meaning": "Vedieť (fakt)",
               "example": "Ich weiß das. = To viem."
             }
           ],
@@ -961,7 +961,7 @@
             },
             {
               "word": "wissen",
-              "meaning": "Vedieť",
+              "meaning": "Vedieť (fakt)",
               "example": "Ich weiß das. = To viem."
             }
           ],
@@ -3963,7 +3963,7 @@
             "Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."
           ],
           "important": [
-            "lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.",
+            "lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext.",
             "Wie lange = ako dlho (otázka času, nie veľkosti)."
           ],
           "sectionAccents": {
@@ -4084,7 +4084,7 @@
             "Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."
           ],
           "important": [
-            "lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.",
+            "lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext.",
             "Wie lange = ako dlho (otázka času, nie veľkosti)."
           ],
           "sectionAccents": {
@@ -4347,7 +4347,7 @@
             "Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."
           ],
           "important": [
-            "lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.",
+            "lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext.",
             "Wie lange = ako dlho (otázka času, nie veľkosti)."
           ],
           "sectionAccents": {
@@ -4468,7 +4468,7 @@
             "Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."
           ],
           "important": [
-            "lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.",
+            "lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext.",
             "Wie lange = ako dlho (otázka času, nie veľkosti)."
           ],
           "sectionAccents": {
@@ -9055,16 +9055,16 @@
           "translation": "Muž • Manžel",
           "explanation": [
             "Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.",
-            "Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.",
+            "Keď ide o osobu mužského pohlavia, Mann znamená „muž“.",
             "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
-            "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+            "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
             "Množné číslo: die Männer.",
-            "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
+            "Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."
           ],
           "examples": [
             {
               "de": "Er ist ein netter Mann.",
-              "lv": "Je to milý muž."
+              "lv": "On je milý muž."
             },
             {
               "de": "Das ist mein Mann.",
@@ -9088,7 +9088,7 @@
             }
           ],
           "tip": [
-            "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+            "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
             "Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."
           ],
           "important": [
@@ -9192,16 +9192,16 @@
           "translation": "Muž • Manžel",
           "explanation": [
             "Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.",
-            "Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.",
+            "Keď ide o osobu mužského pohlavia, Mann znamená „muž“.",
             "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
-            "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+            "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
             "Množné číslo: die Männer.",
-            "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
+            "Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."
           ],
           "examples": [
             {
               "de": "Er ist ein netter Mann.",
-              "lv": "Je to milý muž."
+              "lv": "On je milý muž."
             },
             {
               "de": "Das ist mein Mann.",
@@ -9225,7 +9225,7 @@
             }
           ],
           "tip": [
-            "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+            "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
             "Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."
           ],
           "important": [
@@ -9491,16 +9491,16 @@
           "translation": "Muž • Manžel",
           "explanation": [
             "Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.",
-            "Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.",
+            "Keď ide o osobu mužského pohlavia, Mann znamená „muž“.",
             "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
-            "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+            "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
             "Množné číslo: die Männer.",
-            "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
+            "Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."
           ],
           "examples": [
             {
               "de": "Er ist ein netter Mann.",
-              "lv": "Je to milý muž."
+              "lv": "On je milý muž."
             },
             {
               "de": "Das ist mein Mann.",
@@ -9524,7 +9524,7 @@
             }
           ],
           "tip": [
-            "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+            "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
             "Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."
           ],
           "important": [
@@ -9628,16 +9628,16 @@
           "translation": "Muž • Manžel",
           "explanation": [
             "Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.",
-            "Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.",
+            "Keď ide o osobu mužského pohlavia, Mann znamená „muž“.",
             "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
-            "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+            "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
             "Množné číslo: die Männer.",
-            "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
+            "Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."
           ],
           "examples": [
             {
               "de": "Er ist ein netter Mann.",
-              "lv": "Je to milý muž."
+              "lv": "On je milý muž."
             },
             {
               "de": "Das ist mein Mann.",
@@ -9661,7 +9661,7 @@
             }
           ],
           "tip": [
-            "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+            "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
             "Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."
           ],
           "important": [
@@ -10006,7 +10006,7 @@
             },
             {
               "word": "zu",
-              "meaning": "K • Ku",
+              "meaning": "K • Do",
               "example": "Ich gehe zum Arzt."
             },
             {
@@ -10196,7 +10196,7 @@
             },
             {
               "word": "zu",
-              "meaning": "K • Ku",
+              "meaning": "K • Do",
               "example": "Ich gehe zum Arzt."
             },
             {
@@ -10597,7 +10597,7 @@
             },
             {
               "word": "zu",
-              "meaning": "K • Ku",
+              "meaning": "K • Do",
               "example": "Ich gehe zum Arzt."
             },
             {
@@ -10787,7 +10787,7 @@
             },
             {
               "word": "zu",
-              "meaning": "K • Ku",
+              "meaning": "K • Do",
               "example": "Ich gehe zum Arzt."
             },
             {
@@ -11087,7 +11087,7 @@
             "Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.",
             "V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).",
             "Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).",
-            "Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam."
+            "Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."
           ],
           "examples": [
             {
@@ -11116,7 +11116,7 @@
             }
           ],
           "tip": [
-            "Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.",
+            "Ako samostatná potvrdzujúca odpoveď → samozrejme.",
             "Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."
           ],
           "important": [
@@ -11204,7 +11204,7 @@
             "Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.",
             "V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).",
             "Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).",
-            "Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam."
+            "Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."
           ],
           "examples": [
             {
@@ -11233,7 +11233,7 @@
             }
           ],
           "tip": [
-            "Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.",
+            "Ako samostatná potvrdzujúca odpoveď → samozrejme.",
             "Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."
           ],
           "important": [
@@ -11459,7 +11459,7 @@
             "Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.",
             "V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).",
             "Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).",
-            "Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam."
+            "Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."
           ],
           "examples": [
             {
@@ -11488,7 +11488,7 @@
             }
           ],
           "tip": [
-            "Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.",
+            "Ako samostatná potvrdzujúca odpoveď → samozrejme.",
             "Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."
           ],
           "important": [
@@ -11576,7 +11576,7 @@
             "Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.",
             "V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).",
             "Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).",
-            "Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam."
+            "Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."
           ],
           "examples": [
             {
@@ -11605,7 +11605,7 @@
             }
           ],
           "tip": [
-            "Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.",
+            "Ako samostatná potvrdzujúca odpoveď → samozrejme.",
             "Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."
           ],
           "important": [
@@ -18326,7 +18326,7 @@
           "examples": [
             {
               "de": "Schlagt die Seite zwanzig auf.",
-              "lv": "Otvorte si stranu dvadsať."
+              "lv": "Otvorte si dvadsiatu stranu."
             },
             {
               "de": "Auf der linken Seite ist ein Park.",
@@ -18450,7 +18450,7 @@
           "examples": [
             {
               "de": "Schlagt die Seite zwanzig auf.",
-              "lv": "Otvorte si stranu dvadsať."
+              "lv": "Otvorte si dvadsiatu stranu."
             },
             {
               "de": "Auf der linken Seite ist ein Park.",
@@ -18723,7 +18723,7 @@
           "examples": [
             {
               "de": "Schlagt die Seite zwanzig auf.",
-              "lv": "Otvorte si stranu dvadsať."
+              "lv": "Otvorte si dvadsiatu stranu."
             },
             {
               "de": "Auf der linken Seite ist ein Park.",
@@ -18847,7 +18847,7 @@
           "examples": [
             {
               "de": "Schlagt die Seite zwanzig auf.",
-              "lv": "Otvorte si stranu dvadsať."
+              "lv": "Otvorte si dvadsiatu stranu."
             },
             {
               "de": "Auf der linken Seite ist ein Park.",
@@ -19154,15 +19154,15 @@
       },
       "approvedGalaCard": {
         "de": "sich",
-        "lv": "Seba • Sebe",
+        "lv": "Sa • Si • Seba • Sebe",
         "level": "A1",
         "study": {
           "id": "a1-sich",
           "layout": "standardStudy",
-          "translation": "Seba • Sebe",
+          "translation": "Sa • Si • Seba • Sebe",
           "explanation": [
             "Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.",
-            "V slovenčine sa často prekladá ako „seba“ alebo „sebe“.",
+            "V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“.",
             "V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.",
             "Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."
           ],
@@ -19187,31 +19187,31 @@
           "comparison": [
             {
               "word": "sich",
-              "meaning": "Seba • Sebe",
+              "meaning": "Sa • Si • Seba • Sebe",
               "example": "Er wäscht sich."
             },
             {
               "word": "mich",
-              "meaning": "Mňa • Seba pri ich",
+              "meaning": "Ma • Mňa • Sa • Seba (pri ich)",
               "example": "Ich wasche mich."
             },
             {
               "word": "dich",
-              "meaning": "Teba • Seba pri du",
+              "meaning": "Ťa • Teba • Sa • Seba (pri du)",
               "example": "Du wäschst dich."
             },
             {
               "word": "ihn",
-              "meaning": "Jeho",
+              "meaning": "Ho • Jeho",
               "example": "Ich sehe ihn."
             }
           ],
           "tip": {
-            "text": "Pamätaj: činnosť zameraná na seba → sich/mich/dich."
+            "text": "Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."
           },
           "important": [
             "Sich nie je samostatné podstatné meno.",
-            "Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich."
+            "Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."
           ],
           "sectionAccents": {
             "explanation": {
@@ -19334,14 +19334,14 @@
         }
       },
       "ownerNew": {
-        "lv": "Seba • Sebe",
+        "lv": "Sa • Si • Seba • Sebe",
         "study": {
           "id": "a1-sich",
           "layout": "standardStudy",
-          "translation": "Seba • Sebe",
+          "translation": "Sa • Si • Seba • Sebe",
           "explanation": [
             "Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.",
-            "V slovenčine sa často prekladá ako „seba“ alebo „sebe“.",
+            "V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“.",
             "V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.",
             "Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."
           ],
@@ -19366,31 +19366,31 @@
           "comparison": [
             {
               "word": "sich",
-              "meaning": "Seba • Sebe",
+              "meaning": "Sa • Si • Seba • Sebe",
               "example": "Er wäscht sich."
             },
             {
               "word": "mich",
-              "meaning": "Mňa • Seba pri ich",
+              "meaning": "Ma • Mňa • Sa • Seba (pri ich)",
               "example": "Ich wasche mich."
             },
             {
               "word": "dich",
-              "meaning": "Teba • Seba pri du",
+              "meaning": "Ťa • Teba • Sa • Seba (pri du)",
               "example": "Du wäschst dich."
             },
             {
               "word": "ihn",
-              "meaning": "Jeho",
+              "meaning": "Ho • Jeho",
               "example": "Ich sehe ihn."
             }
           ],
           "tip": {
-            "text": "Pamätaj: činnosť zameraná na seba → sich/mich/dich."
+            "text": "Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."
           },
           "important": [
             "Sich nie je samostatné podstatné meno.",
-            "Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich."
+            "Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."
           ],
           "sectionAccents": {
             "explanation": {
@@ -19712,15 +19712,15 @@
       },
       "approvedGalaCard": {
         "de": "sich",
-        "lv": "Seba • Sebe",
+        "lv": "Sa • Si • Seba • Sebe",
         "level": "A1",
         "study": {
           "id": "a1-sich",
           "layout": "standardStudy",
-          "translation": "Seba • Sebe",
+          "translation": "Sa • Si • Seba • Sebe",
           "explanation": [
             "Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.",
-            "V slovenčine sa často prekladá ako „seba“ alebo „sebe“.",
+            "V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“.",
             "V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.",
             "Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."
           ],
@@ -19745,31 +19745,31 @@
           "comparison": [
             {
               "word": "sich",
-              "meaning": "Seba • Sebe",
+              "meaning": "Sa • Si • Seba • Sebe",
               "example": "Er wäscht sich."
             },
             {
               "word": "mich",
-              "meaning": "Mňa • Seba pri ich",
+              "meaning": "Ma • Mňa • Sa • Seba (pri ich)",
               "example": "Ich wasche mich."
             },
             {
               "word": "dich",
-              "meaning": "Teba • Seba pri du",
+              "meaning": "Ťa • Teba • Sa • Seba (pri du)",
               "example": "Du wäschst dich."
             },
             {
               "word": "ihn",
-              "meaning": "Jeho",
+              "meaning": "Ho • Jeho",
               "example": "Ich sehe ihn."
             }
           ],
           "tip": {
-            "text": "Pamätaj: činnosť zameraná na seba → sich/mich/dich."
+            "text": "Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."
           },
           "important": [
             "Sich nie je samostatné podstatné meno.",
-            "Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich."
+            "Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."
           ],
           "sectionAccents": {
             "explanation": {
@@ -19892,14 +19892,14 @@
         }
       },
       "ownerNew": {
-        "lv": "Seba • Sebe",
+        "lv": "Sa • Si • Seba • Sebe",
         "study": {
           "id": "a1-sich",
           "layout": "standardStudy",
-          "translation": "Seba • Sebe",
+          "translation": "Sa • Si • Seba • Sebe",
           "explanation": [
             "Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.",
-            "V slovenčine sa často prekladá ako „seba“ alebo „sebe“.",
+            "V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“.",
             "V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.",
             "Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."
           ],
@@ -19924,31 +19924,31 @@
           "comparison": [
             {
               "word": "sich",
-              "meaning": "Seba • Sebe",
+              "meaning": "Sa • Si • Seba • Sebe",
               "example": "Er wäscht sich."
             },
             {
               "word": "mich",
-              "meaning": "Mňa • Seba pri ich",
+              "meaning": "Ma • Mňa • Sa • Seba (pri ich)",
               "example": "Ich wasche mich."
             },
             {
               "word": "dich",
-              "meaning": "Teba • Seba pri du",
+              "meaning": "Ťa • Teba • Sa • Seba (pri du)",
               "example": "Du wäschst dich."
             },
             {
               "word": "ihn",
-              "meaning": "Jeho",
+              "meaning": "Ho • Jeho",
               "example": "Ich sehe ihn."
             }
           ],
           "tip": {
-            "text": "Pamätaj: činnosť zameraná na seba → sich/mich/dich."
+            "text": "Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."
           },
           "important": [
             "Sich nie je samostatné podstatné meno.",
-            "Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich."
+            "Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."
           ],
           "sectionAccents": {
             "explanation": {
@@ -22161,12 +22161,12 @@
         "de": "Uhr",
         "de_article": "die",
         "de_plural": "die Uhren",
-        "lv": "Hodiny",
+        "lv": "Hodiny • Hodinky",
         "level": "A1",
         "study": {
           "id": "a1-uhr",
           "layout": "standardStudy",
-          "translation": "Hodiny",
+          "translation": "Hodiny • Hodinky",
           "explanation": [
             "Hlavná myšlienka: Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.",
             "die Uhr znamená zariadenie na meranie času alebo údaj presného času.",
@@ -22196,7 +22196,7 @@
             },
             {
               "de": "die Uhr",
-              "lv": "Hodiny"
+              "lv": "Hodiny • Hodinky"
             }
           ],
           "tip": [
@@ -22278,11 +22278,11 @@
         }
       },
       "ownerNew": {
-        "lv": "Hodiny",
+        "lv": "Hodiny • Hodinky",
         "study": {
           "id": "a1-uhr",
           "layout": "standardStudy",
-          "translation": "Hodiny",
+          "translation": "Hodiny • Hodinky",
           "explanation": [
             "Hlavná myšlienka: Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.",
             "die Uhr znamená zariadenie na meranie času alebo údaj presného času.",
@@ -22312,7 +22312,7 @@
             },
             {
               "de": "die Uhr",
-              "lv": "Hodiny"
+              "lv": "Hodiny • Hodinky"
             }
           ],
           "tip": [
@@ -25888,7 +25888,7 @@
           "important": [
             "was sa pýta na veci, udalosti a fakty – nikdy nie na osoby.",
             "Na osoby sa pýtame pomocou wer („kto“), nie was.",
-            "was für (ein/eine) znamená „aký/aká/aké“ alebo „čo za“ a pýta sa na druh či vlastnosť (Was für ein Film ist das? = Aký je to film?).",
+            "was für (ein alebo eine) znamená „aký, aká alebo aké“ či „čo za“ a pýta sa na druh alebo vlastnosť (Was für ein Film ist das? = Aký je to film?).",
             "Nesprávne: Wer ist passiert? → Správne: Was ist passiert?"
           ],
           "sectionAccents": {
@@ -26034,7 +26034,7 @@
           "important": [
             "was sa pýta na veci, udalosti a fakty – nikdy nie na osoby.",
             "Na osoby sa pýtame pomocou wer („kto“), nie was.",
-            "was für (ein/eine) znamená „aký/aká/aké“ alebo „čo za“ a pýta sa na druh či vlastnosť (Was für ein Film ist das? = Aký je to film?).",
+            "was für (ein alebo eine) znamená „aký, aká alebo aké“ či „čo za“ a pýta sa na druh alebo vlastnosť (Was für ein Film ist das? = Aký je to film?).",
             "Nesprávne: Wer ist passiert? → Správne: Was ist passiert?"
           ],
           "sectionAccents": {

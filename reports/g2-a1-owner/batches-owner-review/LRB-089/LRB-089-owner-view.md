@@ -7,10 +7,10 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-13T11:59:21.210Z
-**Source commit:** `c61d0c175b379c90b502aa8f30c59aaf5df3ecf6`
+**Generated:** 2026-09-13T12:17:02.438Z
+**Source commit:** `9ed06ae33df62be7f68279bd26dc90b6f89882f9`
 **Branch:** `cursor/lrb-089-owner-authorization-ed35`
-**Overrides SHA256:** `2dd479031ae2f3915c2b1b23a1c169e7eb7ba5688a28106dfd2ec67569e47332`
+**Overrides SHA256:** `31d01aca24eb18bb64572799b9c0899120c67eda9a0ec8f7799f51b05d3e508f`
 **Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
@@ -27,7 +27,7 @@
 **CURRENT (captured scope):** Byť schopný • Vedieť
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Môcť • Vedieť","study":{"id":"a1-können","layout":"standardStudy","translation":"Môcť • Vedieť","explanation":["Hlavná myšlienka: können znamená byť schopný alebo vedieť niečo robiť.","Keď ide o schopnosť alebo zručnosť, v slovenčine sa často používa „vedieť“ alebo „dokázať“.","Keď ide o možnosť, často sa používa „môcť“.","Können je modálne sloveso, takže druhé sloveso je zvyčajne posledné."],"examples":[{"de":"Ich kann Deutsch sprechen.","lv":"Viem hovoriť po nemecky."},{"de":"Kannst du mir helfen?","lv":"Môžeš mi pomôcť?"},{"de":"Wir können heute kommen.","lv":"Dnes môžeme prísť."},{"de":"Er kann gut schwimmen.","lv":"Vie dobre plávať."}],"comparison":[{"word":"können","meaning":"Môcť • Vedieť","example":"Ich kann schwimmen. = Viem plávať."},{"word":"dürfen","meaning":"Mať dovolené","example":"Darf ich gehen? = Smiem ísť?"},{"word":"müssen","meaning":"Musieť • Byť povinný","example":"Ich muss lernen. = Musím sa učiť."},{"word":"wissen","meaning":"Vedieť","example":"Ich weiß das. = To viem."}],"tip":{"text":"Pamätaj: schopnosť alebo zručnosť → können."},"important":["können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť.","Vo vete s können sa na konci často objavuje druhé sloveso: Ich kann schwimmen."],"sectionAccents":{"explanation":{"blue":["können"]},"examples":[{"de":{"blue":["kann"]},"lv":{}},{"de":{"blue":["Kannst"]},"lv":{}},{"de":{"blue":["können"]},"lv":{}},{"de":{"blue":["kann"]},"lv":{}}],"comparison":[{"word":{"green":["können"]},"meaning":{},"example":{}},{"word":{"green":["dürfen"]},"meaning":{},"example":{"red":["Darf"]}},{"word":{"green":["müssen"]},"meaning":{},"example":{"yellow":["muss","Musím"]}},{"word":{"green":["wissen"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["können"]}},"important":[{"blue":["können"],"red":["dürfen"]},{"blue":["kann"],"green":["schwimmen"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Môcť • Vedieť","study":{"id":"a1-können","layout":"standardStudy","translation":"Môcť • Vedieť","explanation":["Hlavná myšlienka: können znamená byť schopný alebo vedieť niečo robiť.","Keď ide o schopnosť alebo zručnosť, v slovenčine sa často používa „vedieť“ alebo „dokázať“.","Keď ide o možnosť, často sa používa „môcť“.","Können je modálne sloveso, takže druhé sloveso je zvyčajne posledné."],"examples":[{"de":"Ich kann Deutsch sprechen.","lv":"Viem hovoriť po nemecky."},{"de":"Kannst du mir helfen?","lv":"Môžeš mi pomôcť?"},{"de":"Wir können heute kommen.","lv":"Dnes môžeme prísť."},{"de":"Er kann gut schwimmen.","lv":"Vie dobre plávať."}],"comparison":[{"word":"können","meaning":"Môcť • Vedieť","example":"Ich kann schwimmen. = Viem plávať."},{"word":"dürfen","meaning":"Mať dovolené","example":"Darf ich gehen? = Smiem ísť?"},{"word":"müssen","meaning":"Musieť • Byť povinný","example":"Ich muss lernen. = Musím sa učiť."},{"word":"wissen","meaning":"Vedieť (fakt)","example":"Ich weiß das. = To viem."}],"tip":{"text":"Pamätaj: schopnosť alebo zručnosť → können."},"important":["können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť.","Vo vete s können sa na konci často objavuje druhé sloveso: Ich kann schwimmen."],"sectionAccents":{"explanation":{"blue":["können"]},"examples":[{"de":{"blue":["kann"]},"lv":{}},{"de":{"blue":["Kannst"]},"lv":{}},{"de":{"blue":["können"]},"lv":{}},{"de":{"blue":["kann"]},"lv":{}}],"comparison":[{"word":{"green":["können"]},"meaning":{},"example":{}},{"word":{"green":["dürfen"]},"meaning":{},"example":{"red":["Darf"]}},{"word":{"green":["müssen"]},"meaning":{},"example":{"yellow":["muss","Musím"]}},{"word":{"green":["wissen"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["können"]}},"important":[{"blue":["können"],"red":["dürfen"]},{"blue":["kann"],"green":["schwimmen"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -83,7 +83,7 @@
       },
       {
         "word": "wissen",
-        "meaning": "Vedieť",
+        "meaning": "Vedieť (fakt)",
         "example": "Ich weiß das. = To viem."
       }
     ],
@@ -225,7 +225,7 @@
 **CURRENT (captured scope):** Byť schopný • Vedieť
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Môcť • Vedieť","study":{"id":"a1-können","layout":"standardStudy","translation":"Môcť • Vedieť","explanation":["Hlavná myšlienka: können znamená byť schopný alebo vedieť niečo robiť.","Keď ide o schopnosť alebo zručnosť, v slovenčine sa často používa „vedieť“ alebo „dokázať“.","Keď ide o možnosť, často sa používa „môcť“.","Können je modálne sloveso, takže druhé sloveso je zvyčajne posledné."],"examples":[{"de":"Ich kann Deutsch sprechen.","lv":"Viem hovoriť po nemecky."},{"de":"Kannst du mir helfen?","lv":"Môžeš mi pomôcť?"},{"de":"Wir können heute kommen.","lv":"Dnes môžeme prísť."},{"de":"Er kann gut schwimmen.","lv":"Vie dobre plávať."}],"comparison":[{"word":"können","meaning":"Môcť • Vedieť","example":"Ich kann schwimmen. = Viem plávať."},{"word":"dürfen","meaning":"Mať dovolené","example":"Darf ich gehen? = Smiem ísť?"},{"word":"müssen","meaning":"Musieť • Byť povinný","example":"Ich muss lernen. = Musím sa učiť."},{"word":"wissen","meaning":"Vedieť","example":"Ich weiß das. = To viem."}],"tip":{"text":"Pamätaj: schopnosť alebo zručnosť → können."},"important":["können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť.","Vo vete s können sa na konci často objavuje druhé sloveso: Ich kann schwimmen."],"sectionAccents":{"explanation":{"blue":["können"]},"examples":[{"de":{"blue":["kann"]},"lv":{}},{"de":{"blue":["Kannst"]},"lv":{}},{"de":{"blue":["können"]},"lv":{}},{"de":{"blue":["kann"]},"lv":{}}],"comparison":[{"word":{"green":["können"]},"meaning":{},"example":{}},{"word":{"green":["dürfen"]},"meaning":{},"example":{"red":["Darf"]}},{"word":{"green":["müssen"]},"meaning":{},"example":{"yellow":["muss","Musím"]}},{"word":{"green":["wissen"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["können"]}},"important":[{"blue":["können"],"red":["dürfen"]},{"blue":["kann"],"green":["schwimmen"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Môcť • Vedieť","study":{"id":"a1-können","layout":"standardStudy","translation":"Môcť • Vedieť","explanation":["Hlavná myšlienka: können znamená byť schopný alebo vedieť niečo robiť.","Keď ide o schopnosť alebo zručnosť, v slovenčine sa často používa „vedieť“ alebo „dokázať“.","Keď ide o možnosť, často sa používa „môcť“.","Können je modálne sloveso, takže druhé sloveso je zvyčajne posledné."],"examples":[{"de":"Ich kann Deutsch sprechen.","lv":"Viem hovoriť po nemecky."},{"de":"Kannst du mir helfen?","lv":"Môžeš mi pomôcť?"},{"de":"Wir können heute kommen.","lv":"Dnes môžeme prísť."},{"de":"Er kann gut schwimmen.","lv":"Vie dobre plávať."}],"comparison":[{"word":"können","meaning":"Môcť • Vedieť","example":"Ich kann schwimmen. = Viem plávať."},{"word":"dürfen","meaning":"Mať dovolené","example":"Darf ich gehen? = Smiem ísť?"},{"word":"müssen","meaning":"Musieť • Byť povinný","example":"Ich muss lernen. = Musím sa učiť."},{"word":"wissen","meaning":"Vedieť (fakt)","example":"Ich weiß das. = To viem."}],"tip":{"text":"Pamätaj: schopnosť alebo zručnosť → können."},"important":["können nie je to isté ako dürfen: können = môcť • vedieť; dürfen = smieť.","Vo vete s können sa na konci často objavuje druhé sloveso: Ich kann schwimmen."],"sectionAccents":{"explanation":{"blue":["können"]},"examples":[{"de":{"blue":["kann"]},"lv":{}},{"de":{"blue":["Kannst"]},"lv":{}},{"de":{"blue":["können"]},"lv":{}},{"de":{"blue":["kann"]},"lv":{}}],"comparison":[{"word":{"green":["können"]},"meaning":{},"example":{}},{"word":{"green":["dürfen"]},"meaning":{},"example":{"red":["Darf"]}},{"word":{"green":["müssen"]},"meaning":{},"example":{"yellow":["muss","Musím"]}},{"word":{"green":["wissen"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["können"]}},"important":[{"blue":["können"],"red":["dürfen"]},{"blue":["kann"],"green":["schwimmen"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -281,7 +281,7 @@
       },
       {
         "word": "wissen",
-        "meaning": "Vedieť",
+        "meaning": "Vedieť (fakt)",
         "example": "Ich weiß das. = To viem."
       }
     ],
@@ -1389,7 +1389,7 @@
 **CURRENT (captured scope):** Dlhý • Dlhý
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Dlhý (rozmer) • Dlhý (trvanie)","study":{"id":"a1-lang","layout":"standardStudy","translation":"Dlhý (rozmer) • Dlhý (trvanie)","explanation":["Hlavná myšlienka: lang pri rozmere znamená dlhý a pri čase vyjadruje dlhé trvanie.","Pokiaľ ide o veľkosť alebo vzdialenosť, lang = dlhý (ein langer Tisch = dlhý stôl).","Keď ide o časové trvanie, lang znamená dlhý alebo dlho trvajúci (ein langer Tag = dlhý deň).","Vo výraze den ganzen Tag lang to znamená celý deň (dĺžka).","V slovenčine sa pri oboch významoch používa „dlhý“, no kontext ukazuje, či ide o rozmer alebo trvanie."],"examples":[{"de":"Der Tisch ist sehr lang.","lv":"Stôl je veľmi dlhý."},{"de":"Der Film war sehr lang.","lv":"Film bol veľmi dlhý."},{"de":"Wie lange dauert es?","lv":"Ako dlho to trvá?"},{"de":"Sie hat lange Haare.","lv":"Má dlhé vlasy."},{"de":"Ich warte schon lange.","lv":"Čakám už dlho."},{"de":"Den ganzen Tag lang.","lv":"Celý deň."}],"tip":["Pri rozmere alebo vzdialenosti (vlasy, cesta, stôl) → dlhý.","Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."],"important":["lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.","Wie lange = ako dlho (otázka času, nie veľkosti)."],"sectionAccents":{"explanation":{"blue":["lang"],"purple":["Hlavná"]},"examples":[{"de":{"blue":["lang"]},"lv":{}},{"de":{"green":["lang"]},"lv":{}},{"de":{"green":["lange"]},"lv":{}},{"de":{"blue":["lange"]},"lv":{}},{"de":{"green":["lange"]},"lv":{}},{"de":{"blue":["lang"]},"lv":{}}],"tip":[{},{}],"important":[{},{"green":["wie lange"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Dlhý (rozmer) • Dlhý (trvanie)","study":{"id":"a1-lang","layout":"standardStudy","translation":"Dlhý (rozmer) • Dlhý (trvanie)","explanation":["Hlavná myšlienka: lang pri rozmere znamená dlhý a pri čase vyjadruje dlhé trvanie.","Pokiaľ ide o veľkosť alebo vzdialenosť, lang = dlhý (ein langer Tisch = dlhý stôl).","Keď ide o časové trvanie, lang znamená dlhý alebo dlho trvajúci (ein langer Tag = dlhý deň).","Vo výraze den ganzen Tag lang to znamená celý deň (dĺžka).","V slovenčine sa pri oboch významoch používa „dlhý“, no kontext ukazuje, či ide o rozmer alebo trvanie."],"examples":[{"de":"Der Tisch ist sehr lang.","lv":"Stôl je veľmi dlhý."},{"de":"Der Film war sehr lang.","lv":"Film bol veľmi dlhý."},{"de":"Wie lange dauert es?","lv":"Ako dlho to trvá?"},{"de":"Sie hat lange Haare.","lv":"Má dlhé vlasy."},{"de":"Ich warte schon lange.","lv":"Čakám už dlho."},{"de":"Den ganzen Tag lang.","lv":"Celý deň."}],"tip":["Pri rozmere alebo vzdialenosti (vlasy, cesta, stôl) → dlhý.","Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."],"important":["lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext.","Wie lange = ako dlho (otázka času, nie veľkosti)."],"sectionAccents":{"explanation":{"blue":["lang"],"purple":["Hlavná"]},"examples":[{"de":{"blue":["lang"]},"lv":{}},{"de":{"green":["lang"]},"lv":{}},{"de":{"green":["lange"]},"lv":{}},{"de":{"blue":["lange"]},"lv":{}},{"de":{"green":["lange"]},"lv":{}},{"de":{"blue":["lang"]},"lv":{}}],"tip":[{},{}],"important":[{},{"green":["wie lange"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1441,7 +1441,7 @@
       "Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."
     ],
     "important": [
-      "lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.",
+      "lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext.",
       "Wie lange = ako dlho (otázka času, nie veľkosti)."
     ],
     "sectionAccents": {
@@ -1534,7 +1534,7 @@
 **CURRENT (captured scope):** Dlhý • Dlhý
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Dlhý (rozmer) • Dlhý (trvanie)","study":{"id":"a1-lang","layout":"standardStudy","translation":"Dlhý (rozmer) • Dlhý (trvanie)","explanation":["Hlavná myšlienka: lang pri rozmere znamená dlhý a pri čase vyjadruje dlhé trvanie.","Pokiaľ ide o veľkosť alebo vzdialenosť, lang = dlhý (ein langer Tisch = dlhý stôl).","Keď ide o časové trvanie, lang znamená dlhý alebo dlho trvajúci (ein langer Tag = dlhý deň).","Vo výraze den ganzen Tag lang to znamená celý deň (dĺžka).","V slovenčine sa pri oboch významoch používa „dlhý“, no kontext ukazuje, či ide o rozmer alebo trvanie."],"examples":[{"de":"Der Tisch ist sehr lang.","lv":"Stôl je veľmi dlhý."},{"de":"Der Film war sehr lang.","lv":"Film bol veľmi dlhý."},{"de":"Wie lange dauert es?","lv":"Ako dlho to trvá?"},{"de":"Sie hat lange Haare.","lv":"Má dlhé vlasy."},{"de":"Ich warte schon lange.","lv":"Čakám už dlho."},{"de":"Den ganzen Tag lang.","lv":"Celý deň."}],"tip":["Pri rozmere alebo vzdialenosti (vlasy, cesta, stôl) → dlhý.","Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."],"important":["lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.","Wie lange = ako dlho (otázka času, nie veľkosti)."],"sectionAccents":{"explanation":{"blue":["lang"],"purple":["Hlavná"]},"examples":[{"de":{"blue":["lang"]},"lv":{}},{"de":{"green":["lang"]},"lv":{}},{"de":{"green":["lange"]},"lv":{}},{"de":{"blue":["lange"]},"lv":{}},{"de":{"green":["lange"]},"lv":{}},{"de":{"blue":["lang"]},"lv":{}}],"tip":[{},{}],"important":[{},{"green":["wie lange"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Dlhý (rozmer) • Dlhý (trvanie)","study":{"id":"a1-lang","layout":"standardStudy","translation":"Dlhý (rozmer) • Dlhý (trvanie)","explanation":["Hlavná myšlienka: lang pri rozmere znamená dlhý a pri čase vyjadruje dlhé trvanie.","Pokiaľ ide o veľkosť alebo vzdialenosť, lang = dlhý (ein langer Tisch = dlhý stôl).","Keď ide o časové trvanie, lang znamená dlhý alebo dlho trvajúci (ein langer Tag = dlhý deň).","Vo výraze den ganzen Tag lang to znamená celý deň (dĺžka).","V slovenčine sa pri oboch významoch používa „dlhý“, no kontext ukazuje, či ide o rozmer alebo trvanie."],"examples":[{"de":"Der Tisch ist sehr lang.","lv":"Stôl je veľmi dlhý."},{"de":"Der Film war sehr lang.","lv":"Film bol veľmi dlhý."},{"de":"Wie lange dauert es?","lv":"Ako dlho to trvá?"},{"de":"Sie hat lange Haare.","lv":"Má dlhé vlasy."},{"de":"Ich warte schon lange.","lv":"Čakám už dlho."},{"de":"Den ganzen Tag lang.","lv":"Celý deň."}],"tip":["Pri rozmere alebo vzdialenosti (vlasy, cesta, stôl) → dlhý.","Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."],"important":["lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext.","Wie lange = ako dlho (otázka času, nie veľkosti)."],"sectionAccents":{"explanation":{"blue":["lang"],"purple":["Hlavná"]},"examples":[{"de":{"blue":["lang"]},"lv":{}},{"de":{"green":["lang"]},"lv":{}},{"de":{"green":["lange"]},"lv":{}},{"de":{"blue":["lange"]},"lv":{}},{"de":{"green":["lange"]},"lv":{}},{"de":{"blue":["lang"]},"lv":{}}],"tip":[{},{}],"important":[{},{"green":["wie lange"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1586,7 +1586,7 @@
       "Pri trvaní (deň, čakanie, film) → dlhý alebo dlho."
     ],
     "important": [
-      "lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.",
+      "lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext.",
       "Wie lange = ako dlho (otázka času, nie veľkosti)."
     ],
     "sectionAccents": {
@@ -3261,7 +3261,7 @@
 **CURRENT (captured scope):** Muž • Manžel
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Muž • Manžel","study":{"id":"a1-mann","layout":"standardStudy","translation":"Muž • Manžel","explanation":["Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.","Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.","Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).","Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.","Množné číslo: die Männer.","Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."],"examples":[{"de":"Er ist ein netter Mann.","lv":"Je to milý muž."},{"de":"Das ist mein Mann.","lv":"Toto je môj manžel."},{"de":"Wie viele Männer sind hier?","lv":"Koľko mužov je tu?"},{"de":"Mein Mann arbeitet in Berlin.","lv":"Môj manžel pracuje v Berlíne."},{"de":"Der Mann trägt einen Anzug.","lv":"Muž má na sebe oblek."},{"de":"Ihr Mann ist Arzt.","lv":"Jej manžel je lekár."}],"tip":["Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.","Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."],"important":["Der Mann = muž ALEBO manžel – v závislosti od kontextu.","Mein Mann = môj manžel (nie „môj muž“).","Množné číslo: die Männer."],"sectionAccents":{"explanation":{"blue":["der Mann","Mann"]},"examples":[{"de":{"blue":["Mann"]},"lv":{}},{"de":{"green":["mein Mann"]},"lv":{}},{"de":{"blue":["Männer"]},"lv":{}},{"de":{"green":["Mein Mann"]},"lv":{}},{"de":{"blue":["Mann"]},"lv":{}},{"de":{"green":["Ihr Mann"]},"lv":{}}],"tip":[{"green":["mein","dein","ihr Mann"]},{"blue":["der Mann","ein Mann"]}],"important":[{},{"green":["mein Mann"]},{"blue":["die Männer"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Muž • Manžel","study":{"id":"a1-mann","layout":"standardStudy","translation":"Muž • Manžel","explanation":["Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.","Keď ide o osobu mužského pohlavia, Mann znamená „muž“.","Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).","Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.","Množné číslo: die Männer.","Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."],"examples":[{"de":"Er ist ein netter Mann.","lv":"On je milý muž."},{"de":"Das ist mein Mann.","lv":"Toto je môj manžel."},{"de":"Wie viele Männer sind hier?","lv":"Koľko mužov je tu?"},{"de":"Mein Mann arbeitet in Berlin.","lv":"Môj manžel pracuje v Berlíne."},{"de":"Der Mann trägt einen Anzug.","lv":"Muž má na sebe oblek."},{"de":"Ihr Mann ist Arzt.","lv":"Jej manžel je lekár."}],"tip":["Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.","Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."],"important":["Der Mann = muž ALEBO manžel – v závislosti od kontextu.","Mein Mann = môj manžel (nie „môj muž“).","Množné číslo: die Männer."],"sectionAccents":{"explanation":{"blue":["der Mann","Mann"]},"examples":[{"de":{"blue":["Mann"]},"lv":{}},{"de":{"green":["mein Mann"]},"lv":{}},{"de":{"blue":["Männer"]},"lv":{}},{"de":{"green":["Mein Mann"]},"lv":{}},{"de":{"blue":["Mann"]},"lv":{}},{"de":{"green":["Ihr Mann"]},"lv":{}}],"tip":[{"green":["mein","dein","ihr Mann"]},{"blue":["der Mann","ein Mann"]}],"important":[{},{"green":["mein Mann"]},{"blue":["die Männer"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3279,16 +3279,16 @@
     "translation": "Muž • Manžel",
     "explanation": [
       "Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.",
-      "Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.",
+      "Keď ide o osobu mužského pohlavia, Mann znamená „muž“.",
       "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
-      "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+      "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
       "Množné číslo: die Männer.",
-      "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
+      "Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."
     ],
     "examples": [
       {
         "de": "Er ist ein netter Mann.",
-        "lv": "Je to milý muž."
+        "lv": "On je milý muž."
       },
       {
         "de": "Das ist mein Mann.",
@@ -3312,7 +3312,7 @@
       }
     ],
     "tip": [
-      "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+      "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
       "Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."
     ],
     "important": [
@@ -3424,7 +3424,7 @@
 **CURRENT (captured scope):** Muž • Manžel
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Muž • Manžel","study":{"id":"a1-mann","layout":"standardStudy","translation":"Muž • Manžel","explanation":["Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.","Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.","Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).","Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.","Množné číslo: die Männer.","Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."],"examples":[{"de":"Er ist ein netter Mann.","lv":"Je to milý muž."},{"de":"Das ist mein Mann.","lv":"Toto je môj manžel."},{"de":"Wie viele Männer sind hier?","lv":"Koľko mužov je tu?"},{"de":"Mein Mann arbeitet in Berlin.","lv":"Môj manžel pracuje v Berlíne."},{"de":"Der Mann trägt einen Anzug.","lv":"Muž má na sebe oblek."},{"de":"Ihr Mann ist Arzt.","lv":"Jej manžel je lekár."}],"tip":["Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.","Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."],"important":["Der Mann = muž ALEBO manžel – v závislosti od kontextu.","Mein Mann = môj manžel (nie „môj muž“).","Množné číslo: die Männer."],"sectionAccents":{"explanation":{"blue":["der Mann","Mann"]},"examples":[{"de":{"blue":["Mann"]},"lv":{}},{"de":{"green":["mein Mann"]},"lv":{}},{"de":{"blue":["Männer"]},"lv":{}},{"de":{"green":["Mein Mann"]},"lv":{}},{"de":{"blue":["Mann"]},"lv":{}},{"de":{"green":["Ihr Mann"]},"lv":{}}],"tip":[{"green":["mein","dein","ihr Mann"]},{"blue":["der Mann","ein Mann"]}],"important":[{},{"green":["mein Mann"]},{"blue":["die Männer"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Muž • Manžel","study":{"id":"a1-mann","layout":"standardStudy","translation":"Muž • Manžel","explanation":["Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.","Keď ide o osobu mužského pohlavia, Mann znamená „muž“.","Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).","Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.","Množné číslo: die Männer.","Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."],"examples":[{"de":"Er ist ein netter Mann.","lv":"On je milý muž."},{"de":"Das ist mein Mann.","lv":"Toto je môj manžel."},{"de":"Wie viele Männer sind hier?","lv":"Koľko mužov je tu?"},{"de":"Mein Mann arbeitet in Berlin.","lv":"Môj manžel pracuje v Berlíne."},{"de":"Der Mann trägt einen Anzug.","lv":"Muž má na sebe oblek."},{"de":"Ihr Mann ist Arzt.","lv":"Jej manžel je lekár."}],"tip":["Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.","Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."],"important":["Der Mann = muž ALEBO manžel – v závislosti od kontextu.","Mein Mann = môj manžel (nie „môj muž“).","Množné číslo: die Männer."],"sectionAccents":{"explanation":{"blue":["der Mann","Mann"]},"examples":[{"de":{"blue":["Mann"]},"lv":{}},{"de":{"green":["mein Mann"]},"lv":{}},{"de":{"blue":["Männer"]},"lv":{}},{"de":{"green":["Mein Mann"]},"lv":{}},{"de":{"blue":["Mann"]},"lv":{}},{"de":{"green":["Ihr Mann"]},"lv":{}}],"tip":[{"green":["mein","dein","ihr Mann"]},{"blue":["der Mann","ein Mann"]}],"important":[{},{"green":["mein Mann"]},{"blue":["die Männer"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3442,16 +3442,16 @@
     "translation": "Muž • Manžel",
     "explanation": [
       "Hlavná myšlienka: der Mann môže znamenať muža alebo manžela.",
-      "Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.",
+      "Keď ide o osobu mužského pohlavia, Mann znamená „muž“.",
       "Keď ide o životného partnera, der Mann znamená manžel (mein Mann = môj manžel).",
-      "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+      "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
       "Množné číslo: die Männer.",
-      "Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka."
+      "Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."
     ],
     "examples": [
       {
         "de": "Er ist ein netter Mann.",
-        "lv": "Je to milý muž."
+        "lv": "On je milý muž."
       },
       {
         "de": "Das ist mein Mann.",
@@ -3475,7 +3475,7 @@
       }
     ],
     "tip": [
-      "Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.",
+      "Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela.",
       "Bez privlastňovacieho (der Mann, ein Mann) zvyčajne znamená muž."
     ],
     "important": [
@@ -3587,7 +3587,7 @@
 **CURRENT (captured scope):** Do • Potom
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Do • Po","study":{"id":"a1-nach","layout":"standardStudy","translation":"Do • Po","explanation":["Hlavná myšlienka: nach znamená „do“ pri miestach a „po“ pri čase alebo poradí.","Pri mestách a krajinách bez člena nach často znamená „do“.","Pri časovom poradí nach znamená „po“.","Vo fráze nach Hause znamená domov."],"examples":[{"de":"Ich fahre nach Berlin.","lv":"Idem do Berlína."},{"de":"Wir gehen nach Hause.","lv":"Ideme domov."},{"de":"Nach dem Essen gehen wir spazieren.","lv":"Po jedle ideme na prechádzku."},{"de":"Es ist zehn nach acht.","lv":"Je desať minút po ôsmej."}],"comparison":[{"word":"nach","meaning":"Do • Po","example":"Ich fahre nach Berlin."},{"word":"zu","meaning":"K • Ku","example":"Ich gehe zum Arzt."},{"word":"in","meaning":"Do • Na miesto s členom","example":"Ich gehe in die Schule."},{"word":"vor","meaning":"Pred • Pred niečím","example":"Vor dem Essen wasche ich die Hände."}],"tip":{"text":"Pamätaj: nach Hause = domov • nach Berlin = do Berlína • nach dem Essen = po jedle."},"important":["Nach sa nepoužíva na všetkých miestach.","Do školy sa zvyčajne povie in die Schule, nie nach Schule."],"sectionAccents":{"explanation":{"blue":["nach","nach Hause"]},"examples":[{"de":{"blue":["nach"],"green":["Berlin"]},"lv":{"green":["Berlína"]}},{"de":{"blue":["nach Hause"]},"lv":{}},{"de":{"blue":["Nach"],"yellow":["Essen"]},"lv":{}},{"de":{"blue":["nach"]},"lv":{}}],"comparison":[{"word":{"green":["nach"]},"meaning":{},"example":{"blue":["nach"]}},{"word":{"green":["zu"]},"meaning":{},"example":{"yellow":["zum Arzt"]}},{"word":{"green":["in"]},"meaning":{},"example":{"green":["in die Schule"]}},{"word":{"green":["vor"]},"meaning":{},"example":{"red":["Vor"]}}],"tip":{"left":{"blue":["nach Hause","nach"],"purple":["Pamätaj"]}},"important":[{"blue":["nach"]},{"red":["nach Schule"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Do • Po","study":{"id":"a1-nach","layout":"standardStudy","translation":"Do • Po","explanation":["Hlavná myšlienka: nach znamená „do“ pri miestach a „po“ pri čase alebo poradí.","Pri mestách a krajinách bez člena nach často znamená „do“.","Pri časovom poradí nach znamená „po“.","Vo fráze nach Hause znamená domov."],"examples":[{"de":"Ich fahre nach Berlin.","lv":"Idem do Berlína."},{"de":"Wir gehen nach Hause.","lv":"Ideme domov."},{"de":"Nach dem Essen gehen wir spazieren.","lv":"Po jedle ideme na prechádzku."},{"de":"Es ist zehn nach acht.","lv":"Je desať minút po ôsmej."}],"comparison":[{"word":"nach","meaning":"Do • Po","example":"Ich fahre nach Berlin."},{"word":"zu","meaning":"K • Do","example":"Ich gehe zum Arzt."},{"word":"in","meaning":"Do • Na miesto s členom","example":"Ich gehe in die Schule."},{"word":"vor","meaning":"Pred • Pred niečím","example":"Vor dem Essen wasche ich die Hände."}],"tip":{"text":"Pamätaj: nach Hause = domov • nach Berlin = do Berlína • nach dem Essen = po jedle."},"important":["Nach sa nepoužíva na všetkých miestach.","Do školy sa zvyčajne povie in die Schule, nie nach Schule."],"sectionAccents":{"explanation":{"blue":["nach","nach Hause"]},"examples":[{"de":{"blue":["nach"],"green":["Berlin"]},"lv":{"green":["Berlína"]}},{"de":{"blue":["nach Hause"]},"lv":{}},{"de":{"blue":["Nach"],"yellow":["Essen"]},"lv":{}},{"de":{"blue":["nach"]},"lv":{}}],"comparison":[{"word":{"green":["nach"]},"meaning":{},"example":{"blue":["nach"]}},{"word":{"green":["zu"]},"meaning":{},"example":{"yellow":["zum Arzt"]}},{"word":{"green":["in"]},"meaning":{},"example":{"green":["in die Schule"]}},{"word":{"green":["vor"]},"meaning":{},"example":{"red":["Vor"]}}],"tip":{"left":{"blue":["nach Hause","nach"],"purple":["Pamätaj"]}},"important":[{"blue":["nach"]},{"red":["nach Schule"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3633,7 +3633,7 @@
       },
       {
         "word": "zu",
-        "meaning": "K • Ku",
+        "meaning": "K • Do",
         "example": "Ich gehe zum Arzt."
       },
       {
@@ -3801,7 +3801,7 @@
 **CURRENT (captured scope):** Do • Potom
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Do • Po","study":{"id":"a1-nach","layout":"standardStudy","translation":"Do • Po","explanation":["Hlavná myšlienka: nach znamená „do“ pri miestach a „po“ pri čase alebo poradí.","Pri mestách a krajinách bez člena nach často znamená „do“.","Pri časovom poradí nach znamená „po“.","Vo fráze nach Hause znamená domov."],"examples":[{"de":"Ich fahre nach Berlin.","lv":"Idem do Berlína."},{"de":"Wir gehen nach Hause.","lv":"Ideme domov."},{"de":"Nach dem Essen gehen wir spazieren.","lv":"Po jedle ideme na prechádzku."},{"de":"Es ist zehn nach acht.","lv":"Je desať minút po ôsmej."}],"comparison":[{"word":"nach","meaning":"Do • Po","example":"Ich fahre nach Berlin."},{"word":"zu","meaning":"K • Ku","example":"Ich gehe zum Arzt."},{"word":"in","meaning":"Do • Na miesto s členom","example":"Ich gehe in die Schule."},{"word":"vor","meaning":"Pred • Pred niečím","example":"Vor dem Essen wasche ich die Hände."}],"tip":{"text":"Pamätaj: nach Hause = domov • nach Berlin = do Berlína • nach dem Essen = po jedle."},"important":["Nach sa nepoužíva na všetkých miestach.","Do školy sa zvyčajne povie in die Schule, nie nach Schule."],"sectionAccents":{"explanation":{"blue":["nach","nach Hause"]},"examples":[{"de":{"blue":["nach"],"green":["Berlin"]},"lv":{"green":["Berlína"]}},{"de":{"blue":["nach Hause"]},"lv":{}},{"de":{"blue":["Nach"],"yellow":["Essen"]},"lv":{}},{"de":{"blue":["nach"]},"lv":{}}],"comparison":[{"word":{"green":["nach"]},"meaning":{},"example":{"blue":["nach"]}},{"word":{"green":["zu"]},"meaning":{},"example":{"yellow":["zum Arzt"]}},{"word":{"green":["in"]},"meaning":{},"example":{"green":["in die Schule"]}},{"word":{"green":["vor"]},"meaning":{},"example":{"red":["Vor"]}}],"tip":{"left":{"blue":["nach Hause","nach"],"purple":["Pamätaj"]}},"important":[{"blue":["nach"]},{"red":["nach Schule"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Do • Po","study":{"id":"a1-nach","layout":"standardStudy","translation":"Do • Po","explanation":["Hlavná myšlienka: nach znamená „do“ pri miestach a „po“ pri čase alebo poradí.","Pri mestách a krajinách bez člena nach často znamená „do“.","Pri časovom poradí nach znamená „po“.","Vo fráze nach Hause znamená domov."],"examples":[{"de":"Ich fahre nach Berlin.","lv":"Idem do Berlína."},{"de":"Wir gehen nach Hause.","lv":"Ideme domov."},{"de":"Nach dem Essen gehen wir spazieren.","lv":"Po jedle ideme na prechádzku."},{"de":"Es ist zehn nach acht.","lv":"Je desať minút po ôsmej."}],"comparison":[{"word":"nach","meaning":"Do • Po","example":"Ich fahre nach Berlin."},{"word":"zu","meaning":"K • Do","example":"Ich gehe zum Arzt."},{"word":"in","meaning":"Do • Na miesto s členom","example":"Ich gehe in die Schule."},{"word":"vor","meaning":"Pred • Pred niečím","example":"Vor dem Essen wasche ich die Hände."}],"tip":{"text":"Pamätaj: nach Hause = domov • nach Berlin = do Berlína • nach dem Essen = po jedle."},"important":["Nach sa nepoužíva na všetkých miestach.","Do školy sa zvyčajne povie in die Schule, nie nach Schule."],"sectionAccents":{"explanation":{"blue":["nach","nach Hause"]},"examples":[{"de":{"blue":["nach"],"green":["Berlin"]},"lv":{"green":["Berlína"]}},{"de":{"blue":["nach Hause"]},"lv":{}},{"de":{"blue":["Nach"],"yellow":["Essen"]},"lv":{}},{"de":{"blue":["nach"]},"lv":{}}],"comparison":[{"word":{"green":["nach"]},"meaning":{},"example":{"blue":["nach"]}},{"word":{"green":["zu"]},"meaning":{},"example":{"yellow":["zum Arzt"]}},{"word":{"green":["in"]},"meaning":{},"example":{"green":["in die Schule"]}},{"word":{"green":["vor"]},"meaning":{},"example":{"red":["Vor"]}}],"tip":{"left":{"blue":["nach Hause","nach"],"purple":["Pamätaj"]}},"important":[{"blue":["nach"]},{"red":["nach Schule"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3847,7 +3847,7 @@
       },
       {
         "word": "zu",
-        "meaning": "K • Ku",
+        "meaning": "K • Do",
         "example": "Ich gehe zum Arzt."
       },
       {
@@ -4015,7 +4015,7 @@
 **CURRENT (captured scope):** Samozrejme • Prirodzené
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Samozrejme • Prirodzený","study":{"id":"a1-natuerlich","layout":"standardStudy","translation":"Samozrejme • Prirodzený","explanation":["Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.","V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).","Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).","Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam."],"examples":[{"de":"Kommst du mit? – Natürlich!","lv":"Ideš s nami? – Samozrejme!"},{"de":"Das ist eine natürliche Reaktion.","lv":"Je to prirodzená reakcia."},{"de":"Natürlich helfe ich dir.","lv":"Samozrejme ti pomôžem."},{"de":"Sie hat natürliche rote Haare.","lv":"Má prirodzené červené vlasy."},{"de":"Natürlich kann ich das machen.","lv":"Samozrejme to môžem urobiť."},{"de":"Das ist ganz natürlich.","lv":"To je úplne prirodzené alebo normálne."}],"tip":["Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.","Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."],"important":["natürlich = samozrejme ako príslovka ALEBO prirodzený ako prídavné meno.","Natürlich! ako samostatná odpoveď znamená „Samozrejme!“"],"sectionAccents":{"explanation":{"blue":["natürlich"]},"examples":[{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürlich"]},"lv":{}}],"tip":[{},{}],"important":[{},{"blue":["Natürlich"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Samozrejme • Prirodzený","study":{"id":"a1-natuerlich","layout":"standardStudy","translation":"Samozrejme • Prirodzený","explanation":["Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.","V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).","Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).","Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."],"examples":[{"de":"Kommst du mit? – Natürlich!","lv":"Ideš s nami? – Samozrejme!"},{"de":"Das ist eine natürliche Reaktion.","lv":"Je to prirodzená reakcia."},{"de":"Natürlich helfe ich dir.","lv":"Samozrejme ti pomôžem."},{"de":"Sie hat natürliche rote Haare.","lv":"Má prirodzené červené vlasy."},{"de":"Natürlich kann ich das machen.","lv":"Samozrejme to môžem urobiť."},{"de":"Das ist ganz natürlich.","lv":"To je úplne prirodzené alebo normálne."}],"tip":["Ako samostatná potvrdzujúca odpoveď → samozrejme.","Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."],"important":["natürlich = samozrejme ako príslovka ALEBO prirodzený ako prídavné meno.","Natürlich! ako samostatná odpoveď znamená „Samozrejme!“"],"sectionAccents":{"explanation":{"blue":["natürlich"]},"examples":[{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürlich"]},"lv":{}}],"tip":[{},{}],"important":[{},{"blue":["Natürlich"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -4033,7 +4033,7 @@
       "Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.",
       "V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).",
       "Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).",
-      "Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam."
+      "Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."
     ],
     "examples": [
       {
@@ -4062,7 +4062,7 @@
       }
     ],
     "tip": [
-      "Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.",
+      "Ako samostatná potvrdzujúca odpoveď → samozrejme.",
       "Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."
     ],
     "important": [
@@ -4156,7 +4156,7 @@
 **CURRENT (captured scope):** Samozrejme • Prirodzené
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Samozrejme • Prirodzený","study":{"id":"a1-natuerlich","layout":"standardStudy","translation":"Samozrejme • Prirodzený","explanation":["Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.","V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).","Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).","Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam."],"examples":[{"de":"Kommst du mit? – Natürlich!","lv":"Ideš s nami? – Samozrejme!"},{"de":"Das ist eine natürliche Reaktion.","lv":"Je to prirodzená reakcia."},{"de":"Natürlich helfe ich dir.","lv":"Samozrejme ti pomôžem."},{"de":"Sie hat natürliche rote Haare.","lv":"Má prirodzené červené vlasy."},{"de":"Natürlich kann ich das machen.","lv":"Samozrejme to môžem urobiť."},{"de":"Das ist ganz natürlich.","lv":"To je úplne prirodzené alebo normálne."}],"tip":["Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.","Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."],"important":["natürlich = samozrejme ako príslovka ALEBO prirodzený ako prídavné meno.","Natürlich! ako samostatná odpoveď znamená „Samozrejme!“"],"sectionAccents":{"explanation":{"blue":["natürlich"]},"examples":[{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürlich"]},"lv":{}}],"tip":[{},{}],"important":[{},{"blue":["Natürlich"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Samozrejme • Prirodzený","study":{"id":"a1-natuerlich","layout":"standardStudy","translation":"Samozrejme • Prirodzený","explanation":["Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.","V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).","Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).","Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."],"examples":[{"de":"Kommst du mit? – Natürlich!","lv":"Ideš s nami? – Samozrejme!"},{"de":"Das ist eine natürliche Reaktion.","lv":"Je to prirodzená reakcia."},{"de":"Natürlich helfe ich dir.","lv":"Samozrejme ti pomôžem."},{"de":"Sie hat natürliche rote Haare.","lv":"Má prirodzené červené vlasy."},{"de":"Natürlich kann ich das machen.","lv":"Samozrejme to môžem urobiť."},{"de":"Das ist ganz natürlich.","lv":"To je úplne prirodzené alebo normálne."}],"tip":["Ako samostatná potvrdzujúca odpoveď → samozrejme.","Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."],"important":["natürlich = samozrejme ako príslovka ALEBO prirodzený ako prídavné meno.","Natürlich! ako samostatná odpoveď znamená „Samozrejme!“"],"sectionAccents":{"explanation":{"blue":["natürlich"]},"examples":[{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürlich"]},"lv":{}}],"tip":[{},{}],"important":[{},{"blue":["Natürlich"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -4174,7 +4174,7 @@
       "Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.",
       "V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).",
       "Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).",
-      "Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam."
+      "Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."
     ],
     "examples": [
       {
@@ -4203,7 +4203,7 @@
       }
     ],
     "tip": [
-      "Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.",
+      "Ako samostatná potvrdzujúca odpoveď → samozrejme.",
       "Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."
     ],
     "important": [
@@ -6660,7 +6660,7 @@
 **CURRENT (captured scope):** Strana • Strana
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Stránka • Strana","study":{"id":"a1-seite","layout":"standardStudy","translation":"Stránka • Strana","explanation":["Hlavná myšlienka: die Seite môže znamenať stránku knihy alebo dokumentu, prípadne stranu či okraj niečoho.","V knihe, časopise alebo na webe die Seite znamená stránku (Seite 5 = strana 5).","V priestorovom význame die Seite znamená stranu (auf der linken Seite = na ľavej strane).","V prenesenom význame môže die Seite znamenať aj stranu v konflikte alebo myšlienke (auf meiner Seite = na mojej strane).","Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam.","Množné číslo pre oba významy: die Seiten."],"examples":[{"de":"Schlagt die Seite zwanzig auf.","lv":"Otvorte si stranu dvadsať."},{"de":"Auf der linken Seite ist ein Park.","lv":"Na ľavej strane je park."},{"de":"Die Webseite lädt langsam.","lv":"Webová stránka sa načítava pomaly."},{"de":"Er steht auf meiner Seite.","lv":"Je na mojej strane."},{"de":"Das Buch hat 200 Seiten.","lv":"Kniha má 200 strán."},{"de":"Auf der anderen Seite der Straße.","lv":"Na druhej strane ulice."}],"tip":["Pri knihe alebo čítaní → stránka. Pri polohe, smere alebo vzťahu → strana.","Seite X v knihe vždy znamená stránku, nie jednu polovicu knihy."],"important":["die Seite = stránka ALEBO strana – rozhoduje kontext.","Množné číslo pre oba významy: die Seiten."],"sectionAccents":{"explanation":{"blue":["die Seite","Seite"]},"examples":[{"de":{"blue":["Seite"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}},{"de":{"blue":["Webseite"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}},{"de":{"blue":["Seiten"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}}],"tip":[{},{"blue":["Seite X"]}],"important":[{},{"blue":["die Seiten"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Stránka • Strana","study":{"id":"a1-seite","layout":"standardStudy","translation":"Stránka • Strana","explanation":["Hlavná myšlienka: die Seite môže znamenať stránku knihy alebo dokumentu, prípadne stranu či okraj niečoho.","V knihe, časopise alebo na webe die Seite znamená stránku (Seite 5 = strana 5).","V priestorovom význame die Seite znamená stranu (auf der linken Seite = na ľavej strane).","V prenesenom význame môže die Seite znamenať aj stranu v konflikte alebo myšlienke (auf meiner Seite = na mojej strane).","Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam.","Množné číslo pre oba významy: die Seiten."],"examples":[{"de":"Schlagt die Seite zwanzig auf.","lv":"Otvorte si dvadsiatu stranu."},{"de":"Auf der linken Seite ist ein Park.","lv":"Na ľavej strane je park."},{"de":"Die Webseite lädt langsam.","lv":"Webová stránka sa načítava pomaly."},{"de":"Er steht auf meiner Seite.","lv":"Je na mojej strane."},{"de":"Das Buch hat 200 Seiten.","lv":"Kniha má 200 strán."},{"de":"Auf der anderen Seite der Straße.","lv":"Na druhej strane ulice."}],"tip":["Pri knihe alebo čítaní → stránka. Pri polohe, smere alebo vzťahu → strana.","Seite X v knihe vždy znamená stránku, nie jednu polovicu knihy."],"important":["die Seite = stránka ALEBO strana – rozhoduje kontext.","Množné číslo pre oba významy: die Seiten."],"sectionAccents":{"explanation":{"blue":["die Seite","Seite"]},"examples":[{"de":{"blue":["Seite"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}},{"de":{"blue":["Webseite"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}},{"de":{"blue":["Seiten"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}}],"tip":[{},{"blue":["Seite X"]}],"important":[{},{"blue":["die Seiten"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -6687,7 +6687,7 @@
     "examples": [
       {
         "de": "Schlagt die Seite zwanzig auf.",
-        "lv": "Otvorte si stranu dvadsať."
+        "lv": "Otvorte si dvadsiatu stranu."
       },
       {
         "de": "Auf der linken Seite ist ein Park.",
@@ -6810,7 +6810,7 @@
 **CURRENT (captured scope):** Strana • Strana
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Stránka • Strana","study":{"id":"a1-seite","layout":"standardStudy","translation":"Stránka • Strana","explanation":["Hlavná myšlienka: die Seite môže znamenať stránku knihy alebo dokumentu, prípadne stranu či okraj niečoho.","V knihe, časopise alebo na webe die Seite znamená stránku (Seite 5 = strana 5).","V priestorovom význame die Seite znamená stranu (auf der linken Seite = na ľavej strane).","V prenesenom význame môže die Seite znamenať aj stranu v konflikte alebo myšlienke (auf meiner Seite = na mojej strane).","Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam.","Množné číslo pre oba významy: die Seiten."],"examples":[{"de":"Schlagt die Seite zwanzig auf.","lv":"Otvorte si stranu dvadsať."},{"de":"Auf der linken Seite ist ein Park.","lv":"Na ľavej strane je park."},{"de":"Die Webseite lädt langsam.","lv":"Webová stránka sa načítava pomaly."},{"de":"Er steht auf meiner Seite.","lv":"Je na mojej strane."},{"de":"Das Buch hat 200 Seiten.","lv":"Kniha má 200 strán."},{"de":"Auf der anderen Seite der Straße.","lv":"Na druhej strane ulice."}],"tip":["Pri knihe alebo čítaní → stránka. Pri polohe, smere alebo vzťahu → strana.","Seite X v knihe vždy znamená stránku, nie jednu polovicu knihy."],"important":["die Seite = stránka ALEBO strana – rozhoduje kontext.","Množné číslo pre oba významy: die Seiten."],"sectionAccents":{"explanation":{"blue":["die Seite","Seite"]},"examples":[{"de":{"blue":["Seite"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}},{"de":{"blue":["Webseite"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}},{"de":{"blue":["Seiten"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}}],"tip":[{},{"blue":["Seite X"]}],"important":[{},{"blue":["die Seiten"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Stránka • Strana","study":{"id":"a1-seite","layout":"standardStudy","translation":"Stránka • Strana","explanation":["Hlavná myšlienka: die Seite môže znamenať stránku knihy alebo dokumentu, prípadne stranu či okraj niečoho.","V knihe, časopise alebo na webe die Seite znamená stránku (Seite 5 = strana 5).","V priestorovom význame die Seite znamená stranu (auf der linken Seite = na ľavej strane).","V prenesenom význame môže die Seite znamenať aj stranu v konflikte alebo myšlienke (auf meiner Seite = na mojej strane).","Kontext (kniha alebo čítanie; poloha alebo vzťah) ukazuje správny význam.","Množné číslo pre oba významy: die Seiten."],"examples":[{"de":"Schlagt die Seite zwanzig auf.","lv":"Otvorte si dvadsiatu stranu."},{"de":"Auf der linken Seite ist ein Park.","lv":"Na ľavej strane je park."},{"de":"Die Webseite lädt langsam.","lv":"Webová stránka sa načítava pomaly."},{"de":"Er steht auf meiner Seite.","lv":"Je na mojej strane."},{"de":"Das Buch hat 200 Seiten.","lv":"Kniha má 200 strán."},{"de":"Auf der anderen Seite der Straße.","lv":"Na druhej strane ulice."}],"tip":["Pri knihe alebo čítaní → stránka. Pri polohe, smere alebo vzťahu → strana.","Seite X v knihe vždy znamená stránku, nie jednu polovicu knihy."],"important":["die Seite = stránka ALEBO strana – rozhoduje kontext.","Množné číslo pre oba významy: die Seiten."],"sectionAccents":{"explanation":{"blue":["die Seite","Seite"]},"examples":[{"de":{"blue":["Seite"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}},{"de":{"blue":["Webseite"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}},{"de":{"blue":["Seiten"]},"lv":{}},{"de":{"green":["Seite"]},"lv":{}}],"tip":[{},{"blue":["Seite X"]}],"important":[{},{"blue":["die Seiten"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -6837,7 +6837,7 @@
     "examples": [
       {
         "de": "Schlagt die Seite zwanzig auf.",
-        "lv": "Otvorte si stranu dvadsať."
+        "lv": "Otvorte si dvadsiatu stranu."
       },
       {
         "de": "Auf der linken Seite ist ein Park.",
@@ -6960,7 +6960,7 @@
 **CURRENT (captured scope):** Seba • Pre seba
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Seba • Sebe","study":{"id":"a1-sich","layout":"standardStudy","translation":"Seba • Sebe","explanation":["Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.","V slovenčine sa často prekladá ako „seba“ alebo „sebe“.","V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.","Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."],"examples":[{"de":"Er wäscht sich.","lv":"Umýva sa."},{"de":"Ich setze mich.","lv":"Sadám si."},{"de":"Sie freut sich.","lv":"Teší sa."},{"de":"Ich wasche das Auto.","lv":"Umývam auto."}],"comparison":[{"word":"sich","meaning":"Seba • Sebe","example":"Er wäscht sich."},{"word":"mich","meaning":"Mňa • Seba pri ich","example":"Ich wasche mich."},{"word":"dich","meaning":"Teba • Seba pri du","example":"Du wäschst dich."},{"word":"ihn","meaning":"Jeho","example":"Ich sehe ihn."}],"tip":{"text":"Pamätaj: činnosť zameraná na seba → sich/mich/dich."},"important":["Sich nie je samostatné podstatné meno.","Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich."],"sectionAccents":{"explanation":{"blue":["sich","ich wasche mich","er wäscht sich"]},"examples":[{"de":{"blue":["sich"]},"lv":{}},{"de":{"green":["mich"]},"lv":{}},{"de":{"blue":["sich"]},"lv":{}},{"de":{"red":["wasche"],"yellow":["Auto"]},"lv":{}}],"comparison":[{"word":{"green":["sich"]},"meaning":{},"example":{"blue":["sich"]}},{"word":{"green":["mich"]},"meaning":{},"example":{"green":["mich"]}},{"word":{"green":["dich"]},"meaning":{},"example":{}},{"word":{"green":["ihn"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["sich"],"purple":["Pamätaj"]}},"important":[{"blue":["sich"]},{"green":["mich","dich"],"blue":["sich"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Sa • Si • Seba • Sebe","study":{"id":"a1-sich","layout":"standardStudy","translation":"Sa • Si • Seba • Sebe","explanation":["Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.","V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“.","V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.","Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."],"examples":[{"de":"Er wäscht sich.","lv":"Umýva sa."},{"de":"Ich setze mich.","lv":"Sadám si."},{"de":"Sie freut sich.","lv":"Teší sa."},{"de":"Ich wasche das Auto.","lv":"Umývam auto."}],"comparison":[{"word":"sich","meaning":"Sa • Si • Seba • Sebe","example":"Er wäscht sich."},{"word":"mich","meaning":"Ma • Mňa • Sa • Seba (pri ich)","example":"Ich wasche mich."},{"word":"dich","meaning":"Ťa • Teba • Sa • Seba (pri du)","example":"Du wäschst dich."},{"word":"ihn","meaning":"Ho • Jeho","example":"Ich sehe ihn."}],"tip":{"text":"Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."},"important":["Sich nie je samostatné podstatné meno.","Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."],"sectionAccents":{"explanation":{"blue":["sich","ich wasche mich","er wäscht sich"]},"examples":[{"de":{"blue":["sich"]},"lv":{}},{"de":{"green":["mich"]},"lv":{}},{"de":{"blue":["sich"]},"lv":{}},{"de":{"red":["wasche"],"yellow":["Auto"]},"lv":{}}],"comparison":[{"word":{"green":["sich"]},"meaning":{},"example":{"blue":["sich"]}},{"word":{"green":["mich"]},"meaning":{},"example":{"green":["mich"]}},{"word":{"green":["dich"]},"meaning":{},"example":{}},{"word":{"green":["ihn"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["sich"],"purple":["Pamätaj"]}},"important":[{"blue":["sich"]},{"green":["mich","dich"],"blue":["sich"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -6968,15 +6968,15 @@
 ```json
 {
   "de": "sich",
-  "lv": "Seba • Sebe",
+  "lv": "Sa • Si • Seba • Sebe",
   "level": "A1",
   "study": {
     "id": "a1-sich",
     "layout": "standardStudy",
-    "translation": "Seba • Sebe",
+    "translation": "Sa • Si • Seba • Sebe",
     "explanation": [
       "Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.",
-      "V slovenčine sa často prekladá ako „seba“ alebo „sebe“.",
+      "V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“.",
       "V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.",
       "Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."
     ],
@@ -7001,31 +7001,31 @@
     "comparison": [
       {
         "word": "sich",
-        "meaning": "Seba • Sebe",
+        "meaning": "Sa • Si • Seba • Sebe",
         "example": "Er wäscht sich."
       },
       {
         "word": "mich",
-        "meaning": "Mňa • Seba pri ich",
+        "meaning": "Ma • Mňa • Sa • Seba (pri ich)",
         "example": "Ich wasche mich."
       },
       {
         "word": "dich",
-        "meaning": "Teba • Seba pri du",
+        "meaning": "Ťa • Teba • Sa • Seba (pri du)",
         "example": "Du wäschst dich."
       },
       {
         "word": "ihn",
-        "meaning": "Jeho",
+        "meaning": "Ho • Jeho",
         "example": "Ich sehe ihn."
       }
     ],
     "tip": {
-      "text": "Pamätaj: činnosť zameraná na seba → sich/mich/dich."
+      "text": "Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."
     },
     "important": [
       "Sich nie je samostatné podstatné meno.",
-      "Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich."
+      "Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."
     ],
     "sectionAccents": {
       "explanation": {
@@ -7163,7 +7163,7 @@
 **CURRENT (captured scope):** Seba • Pre seba
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Seba • Sebe","study":{"id":"a1-sich","layout":"standardStudy","translation":"Seba • Sebe","explanation":["Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.","V slovenčine sa často prekladá ako „seba“ alebo „sebe“.","V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.","Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."],"examples":[{"de":"Er wäscht sich.","lv":"Umýva sa."},{"de":"Ich setze mich.","lv":"Sadám si."},{"de":"Sie freut sich.","lv":"Teší sa."},{"de":"Ich wasche das Auto.","lv":"Umývam auto."}],"comparison":[{"word":"sich","meaning":"Seba • Sebe","example":"Er wäscht sich."},{"word":"mich","meaning":"Mňa • Seba pri ich","example":"Ich wasche mich."},{"word":"dich","meaning":"Teba • Seba pri du","example":"Du wäschst dich."},{"word":"ihn","meaning":"Jeho","example":"Ich sehe ihn."}],"tip":{"text":"Pamätaj: činnosť zameraná na seba → sich/mich/dich."},"important":["Sich nie je samostatné podstatné meno.","Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich."],"sectionAccents":{"explanation":{"blue":["sich","ich wasche mich","er wäscht sich"]},"examples":[{"de":{"blue":["sich"]},"lv":{}},{"de":{"green":["mich"]},"lv":{}},{"de":{"blue":["sich"]},"lv":{}},{"de":{"red":["wasche"],"yellow":["Auto"]},"lv":{}}],"comparison":[{"word":{"green":["sich"]},"meaning":{},"example":{"blue":["sich"]}},{"word":{"green":["mich"]},"meaning":{},"example":{"green":["mich"]}},{"word":{"green":["dich"]},"meaning":{},"example":{}},{"word":{"green":["ihn"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["sich"],"purple":["Pamätaj"]}},"important":[{"blue":["sich"]},{"green":["mich","dich"],"blue":["sich"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Sa • Si • Seba • Sebe","study":{"id":"a1-sich","layout":"standardStudy","translation":"Sa • Si • Seba • Sebe","explanation":["Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.","V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“.","V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.","Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."],"examples":[{"de":"Er wäscht sich.","lv":"Umýva sa."},{"de":"Ich setze mich.","lv":"Sadám si."},{"de":"Sie freut sich.","lv":"Teší sa."},{"de":"Ich wasche das Auto.","lv":"Umývam auto."}],"comparison":[{"word":"sich","meaning":"Sa • Si • Seba • Sebe","example":"Er wäscht sich."},{"word":"mich","meaning":"Ma • Mňa • Sa • Seba (pri ich)","example":"Ich wasche mich."},{"word":"dich","meaning":"Ťa • Teba • Sa • Seba (pri du)","example":"Du wäschst dich."},{"word":"ihn","meaning":"Ho • Jeho","example":"Ich sehe ihn."}],"tip":{"text":"Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."},"important":["Sich nie je samostatné podstatné meno.","Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."],"sectionAccents":{"explanation":{"blue":["sich","ich wasche mich","er wäscht sich"]},"examples":[{"de":{"blue":["sich"]},"lv":{}},{"de":{"green":["mich"]},"lv":{}},{"de":{"blue":["sich"]},"lv":{}},{"de":{"red":["wasche"],"yellow":["Auto"]},"lv":{}}],"comparison":[{"word":{"green":["sich"]},"meaning":{},"example":{"blue":["sich"]}},{"word":{"green":["mich"]},"meaning":{},"example":{"green":["mich"]}},{"word":{"green":["dich"]},"meaning":{},"example":{}},{"word":{"green":["ihn"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["sich"],"purple":["Pamätaj"]}},"important":[{"blue":["sich"]},{"green":["mich","dich"],"blue":["sich"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -7171,15 +7171,15 @@
 ```json
 {
   "de": "sich",
-  "lv": "Seba • Sebe",
+  "lv": "Sa • Si • Seba • Sebe",
   "level": "A1",
   "study": {
     "id": "a1-sich",
     "layout": "standardStudy",
-    "translation": "Seba • Sebe",
+    "translation": "Sa • Si • Seba • Sebe",
     "explanation": [
       "Hlavná myšlienka: sich ukazuje, že dej sa vzťahuje na samotného vykonávateľa.",
-      "V slovenčine sa často prekladá ako „seba“ alebo „sebe“.",
+      "V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“.",
       "V niektorých nemeckých slovesách je sich povinnou súčasťou, napríklad sich waschen.",
       "Dôležité upozornenie na úrovni A1: ich wasche mich, er wäscht sich."
     ],
@@ -7204,31 +7204,31 @@
     "comparison": [
       {
         "word": "sich",
-        "meaning": "Seba • Sebe",
+        "meaning": "Sa • Si • Seba • Sebe",
         "example": "Er wäscht sich."
       },
       {
         "word": "mich",
-        "meaning": "Mňa • Seba pri ich",
+        "meaning": "Ma • Mňa • Sa • Seba (pri ich)",
         "example": "Ich wasche mich."
       },
       {
         "word": "dich",
-        "meaning": "Teba • Seba pri du",
+        "meaning": "Ťa • Teba • Sa • Seba (pri du)",
         "example": "Du wäschst dich."
       },
       {
         "word": "ihn",
-        "meaning": "Jeho",
+        "meaning": "Ho • Jeho",
         "example": "Ich sehe ihn."
       }
     ],
     "tip": {
-      "text": "Pamätaj: činnosť zameraná na seba → sich/mich/dich."
+      "text": "Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."
     },
     "important": [
       "Sich nie je samostatné podstatné meno.",
-      "Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich."
+      "Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."
     ],
     "sectionAccents": {
       "explanation": {
@@ -8084,7 +8084,7 @@
 **CURRENT (captured scope):** Hodiny
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Hodiny","study":{"id":"a1-uhr","layout":"standardStudy","translation":"Hodiny","explanation":["Hlavná myšlienka: Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.","die Uhr znamená zariadenie na meranie času alebo údaj presného času.","Pri údaji presného času stojí Uhr za číslom: acht Uhr.","die Uhr znamená hodiny či hodinky alebo údaj času (Es ist acht Uhr, meine Uhr)."],"examples":[{"de":"Es ist acht Uhr.","lv":"Je osem hodín."},{"de":"Es ist acht Uhr.","lv":"Je osem hodín."},{"de":"Meine Uhr ist kaputt.","lv":"Moje hodinky sú pokazené."},{"de":"Es ist acht Uhr.","lv":"Je osem hodín."},{"de":"Es ist acht Uhr.","lv":"Je osem."},{"de":"die Uhr","lv":"Hodiny"}],"tip":["Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.","Použite die Uhr, ak kontext zodpovedá tomuto významu."],"important":["Die Uhr: prístroj (meine Uhr) alebo čas (acht Uhr).","Die Uhr: pred použitím skontrolujte kontext."],"sectionAccents":{"explanation":{"blue":["Uhr"]},"examples":[{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["die Uhr","uhr"]},"lv":{}}],"tip":[{}],"important":[{"blue":["die Uhr"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Hodiny • Hodinky","study":{"id":"a1-uhr","layout":"standardStudy","translation":"Hodiny • Hodinky","explanation":["Hlavná myšlienka: Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.","die Uhr znamená zariadenie na meranie času alebo údaj presného času.","Pri údaji presného času stojí Uhr za číslom: acht Uhr.","die Uhr znamená hodiny či hodinky alebo údaj času (Es ist acht Uhr, meine Uhr)."],"examples":[{"de":"Es ist acht Uhr.","lv":"Je osem hodín."},{"de":"Es ist acht Uhr.","lv":"Je osem hodín."},{"de":"Meine Uhr ist kaputt.","lv":"Moje hodinky sú pokazené."},{"de":"Es ist acht Uhr.","lv":"Je osem hodín."},{"de":"Es ist acht Uhr.","lv":"Je osem."},{"de":"die Uhr","lv":"Hodiny • Hodinky"}],"tip":["Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.","Použite die Uhr, ak kontext zodpovedá tomuto významu."],"important":["Die Uhr: prístroj (meine Uhr) alebo čas (acht Uhr).","Die Uhr: pred použitím skontrolujte kontext."],"sectionAccents":{"explanation":{"blue":["Uhr"]},"examples":[{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["uhr"]},"lv":{}},{"de":{"blue":["die Uhr","uhr"]},"lv":{}}],"tip":[{}],"important":[{"blue":["die Uhr"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -8094,12 +8094,12 @@
   "de": "Uhr",
   "de_article": "die",
   "de_plural": "die Uhren",
-  "lv": "Hodiny",
+  "lv": "Hodiny • Hodinky",
   "level": "A1",
   "study": {
     "id": "a1-uhr",
     "layout": "standardStudy",
-    "translation": "Hodiny",
+    "translation": "Hodiny • Hodinky",
     "explanation": [
       "Hlavná myšlienka: Hodiny alebo hodinky. Aj údaj času: Es ist acht Uhr.",
       "die Uhr znamená zariadenie na meranie času alebo údaj presného času.",
@@ -8129,7 +8129,7 @@
       },
       {
         "de": "die Uhr",
-        "lv": "Hodiny"
+        "lv": "Hodiny • Hodinky"
       }
     ],
     "tip": [
@@ -9420,7 +9420,7 @@
 **CURRENT (captured scope):** Kto • Čo
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Čo","study":{"id":"a1-was","layout":"standardStudy","translation":"Čo","explanation":["Hlavná myšlienka: was je opytovacie zámeno pre veci, deje a udalosti; po slovensky znamená „čo“.","was sa pýta na veci, udalosti a fakty, nie na osoby.","V nemčine sa was podľa pádu nemení; vždy má tvar was.","Keď je was podmetom, po slovensky zostáva „čo“ (Was ist passiert? = Čo sa stalo?).","Keď je was predmetom slovesa, po slovensky tiež zostáva „čo“ (Was machst du? = Čo robíš?).","Na osoby sa pýtame pomocou wer („kto“), nie was."],"examples":[{"de":"Was ist das?","lv":"Čo je to?"},{"de":"Was ist passiert?","lv":"Čo sa stalo?"},{"de":"Was machst du gerade?","lv":"Čo práve robíš?"},{"de":"Was möchtest du trinken?","lv":"Čo chceš piť?"},{"de":"Was bedeutet dieses Wort?","lv":"Čo znamená toto slovo?"},{"de":"Was ist dein Lieblingsessen?","lv":"Aké je tvoje obľúbené jedlo?"},{"de":"Was hast du gesagt?","lv":"Čo si povedal?"}],"tip":["was sa v nemčine nemení; v slovenčine mu zodpovedá „čo“.","Rýchly trik: na osobu použi wer; na vec, dej alebo udalosť použi was."],"important":["was sa pýta na veci, udalosti a fakty – nikdy nie na osoby.","Na osoby sa pýtame pomocou wer („kto“), nie was.","was für (ein/eine) znamená „aký/aká/aké“ alebo „čo za“ a pýta sa na druh či vlastnosť (Was für ein Film ist das? = Aký je to film?).","Nesprávne: Wer ist passiert? → Správne: Was ist passiert?"],"sectionAccents":{"explanation":{"blue":["was"],"purple":["čo"]},"examples":[{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}}],"tip":[{},{"purple":["was"]}],"important":[{},{"blue":["wer"]},{"blue":["was für"]},{}]}}}
+**NEW (OWNER mapping):** {"lv":"Čo","study":{"id":"a1-was","layout":"standardStudy","translation":"Čo","explanation":["Hlavná myšlienka: was je opytovacie zámeno pre veci, deje a udalosti; po slovensky znamená „čo“.","was sa pýta na veci, udalosti a fakty, nie na osoby.","V nemčine sa was podľa pádu nemení; vždy má tvar was.","Keď je was podmetom, po slovensky zostáva „čo“ (Was ist passiert? = Čo sa stalo?).","Keď je was predmetom slovesa, po slovensky tiež zostáva „čo“ (Was machst du? = Čo robíš?).","Na osoby sa pýtame pomocou wer („kto“), nie was."],"examples":[{"de":"Was ist das?","lv":"Čo je to?"},{"de":"Was ist passiert?","lv":"Čo sa stalo?"},{"de":"Was machst du gerade?","lv":"Čo práve robíš?"},{"de":"Was möchtest du trinken?","lv":"Čo chceš piť?"},{"de":"Was bedeutet dieses Wort?","lv":"Čo znamená toto slovo?"},{"de":"Was ist dein Lieblingsessen?","lv":"Aké je tvoje obľúbené jedlo?"},{"de":"Was hast du gesagt?","lv":"Čo si povedal?"}],"tip":["was sa v nemčine nemení; v slovenčine mu zodpovedá „čo“.","Rýchly trik: na osobu použi wer; na vec, dej alebo udalosť použi was."],"important":["was sa pýta na veci, udalosti a fakty – nikdy nie na osoby.","Na osoby sa pýtame pomocou wer („kto“), nie was.","was für (ein alebo eine) znamená „aký, aká alebo aké“ či „čo za“ a pýta sa na druh alebo vlastnosť (Was für ein Film ist das? = Aký je to film?).","Nesprávne: Wer ist passiert? → Správne: Was ist passiert?"],"sectionAccents":{"explanation":{"blue":["was"],"purple":["čo"]},"examples":[{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}},{"de":{"blue":["Was"]},"lv":{}}],"tip":[{},{"purple":["was"]}],"important":[{},{"blue":["wer"]},{"blue":["was für"]},{}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -9479,7 +9479,7 @@
     "important": [
       "was sa pýta na veci, udalosti a fakty – nikdy nie na osoby.",
       "Na osoby sa pýtame pomocou wer („kto“), nie was.",
-      "was für (ein/eine) znamená „aký/aká/aké“ alebo „čo za“ a pýta sa na druh či vlastnosť (Was für ein Film ist das? = Aký je to film?).",
+      "was für (ein alebo eine) znamená „aký, aká alebo aké“ či „čo za“ a pýta sa na druh alebo vlastnosť (Was für ein Film ist das? = Aký je to film?).",
       "Nesprávne: Wer ist passiert? → Správne: Was ist passiert?"
     ],
     "sectionAccents": {
