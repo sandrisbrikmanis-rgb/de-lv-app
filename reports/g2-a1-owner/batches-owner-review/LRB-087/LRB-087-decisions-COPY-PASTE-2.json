@@ -1,0 +1,242 @@
+{
+  "batch_id": "LRB-087",
+  "round": 2,
+  "reviewed_commit": "240adea9308a4e998b65de6be6bfcd3d5151d83f",
+  "pr": 791,
+  "owner_verdict": "FAIL_REQUIRES_COPY_PASTE_CORRECTION_2",
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "audit_result": {
+    "rows_reviewed": "50/50",
+    "unique_target_cards_reviewed": "45/45",
+    "full_study_cards_reviewed": "39/39",
+    "technical_copy_paste_alignment": "PASS",
+    "cross_artifact_drift": 0,
+    "remaining_cards_with_errors": 5,
+    "affected_rows": [
+      7,
+      39,
+      46,
+      48,
+      49,
+      50
+    ]
+  },
+  "content_replacements": [
+    {
+      "language": "RU",
+      "card_id": "schwimmen|idx:531",
+      "row_numbers": [
+        7
+      ],
+      "path": "study.tip",
+      "current": {
+        "text": "Помните: плавательное движение → плавание • Отдых в воде → баден."
+      },
+      "replacement": {
+        "text": "Запомните: движение или спорт в воде → schwimmen; купание и отдых в воде → baden."
+      }
+    },
+    {
+      "language": "RU",
+      "card_id": "schwimmen|idx:531",
+      "row_numbers": [
+        7
+      ],
+      "path": "study.important",
+      "current": [
+        "Швиммен и Баден — это не одно и то же.",
+        "По-латышски часто говорят «плавать», а по-немецки нужно проверить, движение это или купание."
+      ],
+      "replacement": [
+        "Schwimmen и baden — не одно и то же.",
+        "Schwimmen означает «плавать», а baden — «купаться»."
+      ]
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-besuch",
+      "row_numbers": [
+        39
+      ],
+      "path": "study.explanation[0]",
+      "current": "Hlavná myšlienka: der Besuch znamená návštevu alebo vizitu.",
+      "replacement": "Hlavná myšlienka: der Besuch znamená návštevu osoby, miesta alebo podujatia."
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-besuch",
+      "row_numbers": [
+        39
+      ],
+      "path": "study.explanation[2]",
+      "current": "Pri návšteve človeka možno podľa kontextu povedať „návšteva“ alebo „vizita“.",
+      "replacement": "Pri návšteve človeka sa používa „návšteva“."
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-besuch",
+      "row_numbers": [
+        39
+      ],
+      "path": "study.comparison[0].meaning",
+      "current": "návšteva • vizita",
+      "replacement": "návšteva"
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-besuch",
+      "row_numbers": [
+        39
+      ],
+      "path": "study.tip.text",
+      "current": "Zapamätajte si: Besuch je návšteva alebo vizita; Besucher je návštevník.",
+      "replacement": "Zapamätajte si: Besuch je návšteva; Besucher je návštevník."
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-das",
+      "row_numbers": [
+        46
+      ],
+      "path": "study.comparison[2].meaning",
+      "current": "ktoré • vzťažné zámeno",
+      "replacement": "vzťažné zámeno „ktorý“"
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-ein",
+      "row_numbers": [
+        48,
+        49
+      ],
+      "path": "study.explanation[1]",
+      "current": "Ein sa používa s podstatnými menami mužského a stredného rodu v nominatíve.",
+      "replacement": "Ein sa používa s podstatnými menami mužského a stredného rodu v nominatíve; pri strednom rode má rovnakú formu aj v akuzatíve."
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-ein",
+      "row_numbers": [
+        48,
+        49
+      ],
+      "path": "study.explanation[3]",
+      "current": "Pri strednom rode: ein Buch.",
+      "replacement": "Pri strednom rode: ein Buch; táto forma zostáva aj v akuzatíve."
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-ein",
+      "row_numbers": [
+        48,
+        49
+      ],
+      "path": "study.important[0]",
+      "current": "Ein sa používa pri mužskom a strednom rode v nominatíve.",
+      "replacement": "Ein sa používa pri mužskom a strednom rode v nominatíve a pri strednom rode aj v akuzatíve."
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-ein",
+      "row_numbers": [
+        48,
+        49
+      ],
+      "path": "study.comparison[2].meaning",
+      "current": "stredný rod",
+      "replacement": "stredný rod: nominatív alebo akuzatív"
+    },
+    {
+      "language": "SK",
+      "card_id": "a1-einmal",
+      "row_numbers": [
+        50
+      ],
+      "path": "study.explanation",
+      "current": [
+        "Hlavná myšlienka: einmal označuje jeden výskyt deja alebo neurčitú chvíľu v minulosti.",
+        "Pri počte opakovaní einmal znamená, že sa niečo stane raz.",
+        "V rozprávaní môže einmal uvádzať udalosť, ktorá sa kedysi stala.",
+        "Einmal neoznačuje poveternostné podmienky."
+      ],
+      "replacement": [
+        "Hlavná myšlienka: einmal označuje jeden výskyt deja alebo neurčitú chvíľu v minulosti.",
+        "Pri počte opakovaní einmal znamená, že sa niečo stane raz.",
+        "V rozprávaní môže einmal uvádzať udalosť, ktorá sa kedysi stala."
+      ]
+    }
+  ],
+  "row_note_replacements": [
+    {
+      "row_number": 7,
+      "card_id": "schwimmen|idx:531",
+      "replacement": "Pilna RU kartīte: vācu termini tip/important sadaļā atjaunoti oriģinālajā rakstībā, un neatbilstošā atsauce uz latviešu valodu aizstāta ar precīzu RU kontrastu."
+    },
+    {
+      "row_number": 39,
+      "card_id": "a1-besuch",
+      "replacement": "Pilna SK kartīte: kļūdainais sinonīms „vizita“ izņemts; Besuch konsekventi nozīmē „návšteva“, bet Besucher — „návštevník“."
+    },
+    {
+      "row_number": 46,
+      "card_id": "a1-das",
+      "replacement": "Pilna SK kartīte: welches salīdzinājuma nozīme dota kā vārdnīcas forma „vzťažné zámeno ktorý“, saskaņojot to ar piemēra formu „ktorú“."
+    },
+    {
+      "row_number": 48,
+      "card_id": "a1-ein",
+      "replacement": "Pilna SK kartīte: ein locījumu skaidrojums precizēts — vidējā dzimtē forma ein saglabājas arī akuzatīvā."
+    },
+    {
+      "row_number": 49,
+      "card_id": "a1-ein",
+      "replacement": "Pilna SK kartīte: ein locījumu skaidrojums precizēts — vidējā dzimtē forma ein saglabājas arī akuzatīvā."
+    },
+    {
+      "row_number": 50,
+      "card_id": "a1-einmal",
+      "replacement": "Pilna SK kartīte: izņemts mācību nolūkam neatbilstošais laikapstākļu teikums; saglabātas tikai einmal faktiskās laika nozīmes."
+    }
+  ],
+  "apply_instructions": [
+    "Precīzi piemērot visas 12 content_replacements vērtības visos norādītajos gala kartīšu dublikātos.",
+    "Precīzi piemērot 6 row_note_replacements visos LRB-087 rindu un OWNER skatu artefaktos.",
+    "Atjaunot COPY-PASTE specifikācijas pilnās approved_card vērtības šīm piecām kartītēm.",
+    "Pārrēķināt overrides SHA-256 un ģenerēt fresh post-repair proof.",
+    "Neveikt jaunu lingvistisko analīzi un nepārfrāzēt nevienu replacement vērtību.",
+    "Nemainīt production, DE, Crowdin, ingest/apply, skriptus vai citus batch."
+  ],
+  "required_fresh_gates": {
+    "ROWS": "50/50",
+    "RU": 28,
+    "SK": 22,
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "UNIQUE_TARGET_CARDS": 45,
+    "FULL_STUDY_CARDS": 39,
+    "OWNER_NEW_DRIFT": 0,
+    "APPROVED_COMPOSITE_DRIFT": 0,
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "157/157",
+    "COMPARISON_ALIGNMENT": "117/117",
+    "WRONG_LANGUAGE_RESIDUE": 0,
+    "NULL_TARGET_VALUES": 0,
+    "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "DUPLICATE_MEANINGS": 0,
+    "DE_TARGET_ALIGNMENT_VIOLATIONS": 0,
+    "DEGENERATE_EXAMPLE_PAIRS": 0,
+    "INTERNAL_CARD_CONTRADICTIONS": 0,
+    "FULL_COMPOSITE_COMPLETENESS": "PASS",
+    "ANTI_BULK": "PASS",
+    "NEW_LUNA_CALLS": 0,
+    "PRODUCTION_CHANGES": 0,
+    "DE_CHANGES": 0,
+    "CROWDIN_CHANGES": 0,
+    "INGEST_APPLY": 0,
+    "SCRIPT_CHANGES": 0,
+    "pass": true
+  }
+}
+

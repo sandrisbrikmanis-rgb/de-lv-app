@@ -1,0 +1,113 @@
+{
+  "batch_id": "LRB-087",
+  "round": 3,
+  "reviewed_commit": "04b936a78b315c0459a063bb074d49a91dd9a51d",
+  "pr": 791,
+  "owner_verdict": "FAIL_TECHNICAL_ARTIFACT_DRIFT",
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_LINGUISTIC_ANALYSIS",
+  "linguistic_status": "50/50 rows and 45/45 final cards PASS after round-2",
+  "issue": "LRB-087-decisions-COPY-PASTE.json lost immutable German noun metadata from six approved_card objects while gala cards retained it.",
+  "target_file": "reports/g2-a1-owner/batches-owner-review/LRB-087/LRB-087-decisions-COPY-PASTE.json",
+  "insertions": [
+    {
+      "card_id": "Schuh|idx:525",
+      "path": "approved_card.de_article",
+      "current_state": "MISSING",
+      "replacement": "der"
+    },
+    {
+      "card_id": "Schuh|idx:525",
+      "path": "approved_card.de_plural",
+      "current_state": "MISSING",
+      "replacement": "die Schuhe"
+    },
+    {
+      "card_id": "Schüler|idx:527",
+      "path": "approved_card.de_article",
+      "current_state": "MISSING",
+      "replacement": "der"
+    },
+    {
+      "card_id": "Schüler|idx:527",
+      "path": "approved_card.de_plural",
+      "current_state": "MISSING",
+      "replacement": "die Schüler"
+    },
+    {
+      "card_id": "Seite|idx:544",
+      "path": "approved_card.de_article",
+      "current_state": "MISSING",
+      "replacement": "die"
+    },
+    {
+      "card_id": "Seite|idx:544",
+      "path": "approved_card.de_plural",
+      "current_state": "MISSING",
+      "replacement": "die Seiten"
+    },
+    {
+      "card_id": "Staat|idx:697",
+      "path": "approved_card.de_article",
+      "current_state": "MISSING",
+      "replacement": "der"
+    },
+    {
+      "card_id": "Staat|idx:697",
+      "path": "approved_card.de_plural",
+      "current_state": "MISSING",
+      "replacement": "die Staaten"
+    },
+    {
+      "card_id": "Wetter|idx:658",
+      "path": "approved_card.de_article",
+      "current_state": "MISSING",
+      "replacement": "das"
+    },
+    {
+      "card_id": "a1-besuch",
+      "path": "approved_card.de_article",
+      "current_state": "MISSING",
+      "replacement": "der"
+    },
+    {
+      "card_id": "a1-besuch",
+      "path": "approved_card.de_plural",
+      "current_state": "MISSING",
+      "replacement": "die Besuche"
+    }
+  ],
+  "instructions": [
+    "Ievietot precīzi visas 11 trūkstošās īpašības attiecīgo approved_cards objektu approved_card sadaļā.",
+    "Nemainīt nevienu citu approved_card, owner_new, owner_note vai lingvistisko vērtību.",
+    "Pārbaudīt, ka galvenās COPY-PASTE specifikācijas 45 approved_card objekti precīzi sakrīt ar LRB-087-gala-cards.json approvedGalaCard pēc tehniskā index lauka ignorēšanas.",
+    "Ģenerēt fresh proof ar APPROVED_COMPOSITE_DRIFT=0 un FULL_COMPOSITE_COMPLETENESS=PASS.",
+    "Overrides saturs un tā SHA-256 7be5aadedcf9a54c1e8b9eb05fe532c459e2f58da4248f601165760935b3a25a nedrīkst mainīties.",
+    "Nemainīt production, DE avotu, Crowdin, ingest/apply, skriptus, rindu lēmumus vai citus batch."
+  ],
+  "required_result": {
+    "INSERTIONS": "11/11",
+    "AFFECTED_CARDS": "6/6",
+    "ROWS": "50/50",
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "UNIQUE_TARGET_CARDS": 45,
+    "FULL_STUDY_CARDS": 39,
+    "APPROVED_COMPOSITE_DRIFT": 0,
+    "OWNER_NEW_DRIFT": 0,
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "157/157",
+    "COMPARISON_ALIGNMENT": "117/117",
+    "WRONG_LANGUAGE_RESIDUE": 0,
+    "NULL_TARGET_VALUES": 0,
+    "FULL_COMPOSITE_COMPLETENESS": "PASS",
+    "OVERRIDES_SHA256": "7be5aadedcf9a54c1e8b9eb05fe532c459e2f58da4248f601165760935b3a25a",
+    "NEW_LUNA_CALLS": 0,
+    "PRODUCTION_CHANGES": 0,
+    "DE_CHANGES": 0,
+    "CROWDIN_CHANGES": 0,
+    "INGEST_APPLY": 0,
+    "SCRIPT_CHANGES": 0,
+    "pass": true
+  }
+}
+
