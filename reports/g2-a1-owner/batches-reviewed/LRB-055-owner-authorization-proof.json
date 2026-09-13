@@ -3,7 +3,7 @@
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-13T15:50:00.000Z",
-  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "linguisticVerdict": "LRB_055_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 23,
   "labot": 23,
   "nelabot": 0,
@@ -39,5 +39,5 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-055-residual-wrong-language-proof.json",
-  "note": "GPT-5.6 Luna copy/paste applied. 23 LABOT / 0 NELABOT / 0 PENDING (10 composite + 4 scalar cards). PDF paste-mode PASS. NOT LRB_055_FULL_50_50_LINGUISTIC_REVIEW_PASS — pending Gala. Final 7737 FI non-idx pool exhausted. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Gala verdict LRB_055_FULL_50_50_LINGUISTIC_REVIEW_PASS. 23 LABOT / 0 NELABOT / 0 PENDING (10 composite + 4 scalar cards). Final 7737 FI non-idx pool exhausted. DE/production/Crowdin/ingest/apply unchanged."
 }
