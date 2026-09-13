@@ -1,0 +1,43 @@
+{
+  "batch_id": "LRB-044",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T12:20:00.000Z",
+  "linguisticVerdict": "LRB_044_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReauditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "paste_file": "LRB-044-decisions-COPY-PASTE.json",
+  "paste_sha256": "75668ae4d4dcc9132549aabb9cfd7f70c86a8d5e3290d18cfc91c84f5a250290",
+  "languages": {
+    "fi": 50
+  },
+  "unique_cards": 50,
+  "fi_composite_repairs": 14,
+  "fi_scalar_repairs": 34,
+  "scope": "er..gestern (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+  "productionSource": "data/fi/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "48/48",
+    "NELABOT": 2,
+    "FI_ROWS": "50/50",
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-044-residual-wrong-language-proof.json",
+  "note": "GPT-5.6 Luna copy/paste applied. 48 LABOT / 2 NELABOT / 0 PENDING (Erde, Geld). NOT LRB_044_FULL_50_50_LINGUISTIC_REVIEW_PASS — pending ChatGPT PDF re-review. DE/production/Crowdin/ingest/apply unchanged."
+}
