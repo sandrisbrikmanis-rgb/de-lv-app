@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T06:52:00.000Z",
+  "updatedAt": "2026-09-13T07:10:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -41,7 +41,8 @@
       "LRB-022",
       "LRB-023",
       "LRB-024",
-      "LRB-025"
+      "LRB-025",
+      "LRB-026"
     ],
     "ingestApproved": false,
     "applyApproved": false
@@ -78,9 +79,9 @@
     "batchPrefix": "LRB",
     "batchSize": 50,
     "batchesTotal": 103,
-    "batchesReviewed": 25,
-    "batchesAntiBulkPass": 25,
-    "batchesSpotCheckPass": 25,
+    "batchesReviewed": 26,
+    "batchesAntiBulkPass": 26,
+    "batchesSpotCheckPass": 26,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -584,18 +585,44 @@
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-025-owner-authorization-proof.json",
         "pasteRepairs": "GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT / 41 unique HU cards)",
         "pasteSha256": "276b6b45b2cd3df19c770268e31afd23748fcc8696eb63bd50f712ceb091092b"
+      },
+      "LRB-026": {
+        "verdict": "LRB_026_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
+        "labot": 50,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "d13ad7a1",
+        "languages": {
+          "hu": 50
+        },
+        "uniqueCards": 50,
+        "rowCount": 50,
+        "compositeRepairs": 50,
+        "productionSource": "data/hu/a1.js",
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-026-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-026-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-026-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-026-owner-authorization-proof.json",
+        "pasteRepairs": "GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT / 50 unique HU cards)",
+        "pasteSha256": "e9702f191b8bcabf56bb470c409b900ba73084f9d9e7f8d444b221f9f42dd324"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-025",
+      "batch_id": "LRB-026",
       "labot": 50,
       "nelabot": 0,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "LRB_025_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-025-decisions.csv",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-025-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-025-anti-bulk-proof.json"
+      "linguisticVerdict": "LRB_026_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-026-decisions.csv",
+      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-026-proof.json",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-026-anti-bulk-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
