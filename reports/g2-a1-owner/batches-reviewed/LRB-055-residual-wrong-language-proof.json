@@ -1,0 +1,53 @@
+{
+  "batch_id": "LRB-055",
+  "classification": "LRB_055_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 23,
+  "labot": 23,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 14,
+  "fi_rows": 23,
+  "gates": {
+    "ROWS": "23/23",
+    "PENDING": 0,
+    "LABOT": "23/23",
+    "NELABOT": 0,
+    "FI_ROWS": "23/23",
+    "UNIQUE_CARDS": "14/14",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "section_accent_mismatches": 0,
+    "section_accent_semantic_violations": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "productionSource": "data/fi/a1.js",
+  "languages": {
+    "fi": 23
+  },
+  "composite_repairs": [
+    "fi:a1-ueber",
+    "fi:a1-um",
+    "fi:a1-verstehen",
+    "fi:a1-vor",
+    "fi:a1-was",
+    "fi:a1-wenn",
+    "fi:a1-wer",
+    "fi:a1-wie",
+    "fi:a1-zu",
+    "fi:a1-zum",
+    "fi:jetzt",
+    "fi:links",
+    "fi:malen",
+    "fi:rechts"
+  ],
+  "failures": [],
+  "verdict": "LRB_055_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-13T15:50:54.563Z"
+}
