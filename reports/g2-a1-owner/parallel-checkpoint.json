@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-13T07:57:26.504Z",
+  "updatedAt": "2026-09-13T08:01:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,13 +40,9 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": "LRB-094",
-    "reservedBatches": [
-      "LRB-094"
-    ],
-    "inProgressBatches": [
-      "LRB-094"
-    ],
+    "activeBatch": null,
+    "reservedBatches": [],
+    "inProgressBatches": [],
     "completedBatches": [
       "LRB-103",
       "LRB-102",
@@ -56,7 +52,8 @@
       "LRB-098",
       "LRB-097",
       "LRB-096",
-      "LRB-095"
+      "LRB-095",
+      "LRB-094"
     ],
     "nextCandidate": "LRB-093"
   },
@@ -65,7 +62,7 @@
       "batchId": "LRB-094",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "OWNER_APPROVED_OVERRIDES_APPLIED",
+      "status": "GALA_PASS",
       "branch": "cursor/lrb-094-owner-review-pc2-3db2",
       "reservedAt": "2026-09-13T07:41:45.000Z",
       "rows": 50,
@@ -76,9 +73,14 @@
       "linguisticReviewer": "gpt-5.6-luna",
       "overridesSha256": "1a3f7099fd33ae3fdd27d56c716b63c6f1158ca20dff7c2e2d28e6e1c48f609d",
       "appliedAt": "2026-09-13T07:57:26.504Z",
+      "completedAt": "2026-09-13T08:01:00.000Z",
+      "verifiedCommit": "0cd450cea8f83058844c721c58c574f247110720",
+      "linguisticVerdict": "LRB_094_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "galaPassAt": "2026-09-13T08:01:00.000Z",
       "proof": "reports/g2-a1-owner/batches-owner-review/LRB-094/LRB-094-owner-review-proof.json",
       "labot": 50,
-      "pending": 0
+      "pending": 0,
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-094-owner-authorization-proof.json"
     },
     {
       "batchId": "LRB-095",
