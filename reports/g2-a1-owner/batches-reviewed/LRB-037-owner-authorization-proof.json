@@ -1,0 +1,43 @@
+{
+  "batch_id": "LRB-037",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T10:19:41.858Z",
+  "linguisticVerdict": "LRB_037_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReauditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "paste_file": "LRB-037-decisions-COPY-PASTE.json",
+  "paste_sha256": "d142b0734c6da12ae2df8ef97267780ac7726022bd4f69b45e2c120a2395d4f5",
+  "languages": {
+    "is": 50
+  },
+  "unique_cards": 50,
+  "is_composite_repairs": 5,
+  "is_scalar_repairs": 45,
+  "scope": "Ostern..schneien (50 IS rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+  "productionSource": "data/is/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "IS_ROWS": "50/50",
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-037-residual-wrong-language-proof.json",
+  "note": "Gala verdict LRB_037_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+}

@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Ostern|idx:467|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "páskar",
+    "owner_note": "IS Ostern / lv: individuāli pārbaudīta LRB-037 rinda 1/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Paar|idx:468|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "par",
+    "owner_note": "IS Paar / lv: individuāli pārbaudīta LRB-037 rinda 2/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Papier|idx:469|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "pappír",
+    "owner_note": "IS Papier / lv: individuāli pārbaudīta LRB-037 rinda 3/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Park|idx:470|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "almenningsgarður",
+    "owner_note": "IS Park / lv: individuāli pārbaudīta LRB-037 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|passen|idx:471|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"passa • fara vel\",\"study.translation\":\"passa • fara vel\",\"study.explanation\":\"[\\\"Meginhugmynd: passen merkir að passa, fara vel eða henta.\\\",\\\"Um fatnað merkir passen oft að passa að stærð.\\\",\\\"Um liti eða stíl getur passen merkt að fara vel.\\\",\\\"Algengt orðasamband er Das passt. = Það passar.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Die Jacke passt mir.\\\",\\\"lv\\\":\\\"Jakkinn passar á mig.\\\"},{\\\"de\\\":\\\"Das Kleid passt gut.\\\",\\\"lv\\\":\\\"Kjóllinn passar vel.\\\"},{\\\"de\\\":\\\"Die Farbe passt zu dir.\\\",\\\"lv\\\":\\\"Liturinn fer þér vel.\\\"},{\\\"de\\\":\\\"Das passt.\\\",\\\"lv\\\":\\\"Það passar.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: Das passt. = Það passar.\\\"}\",\"study.important\":\"[\\\"passen er ekki aðeins notað um fatnað.\\\",\\\"Það getur einnig merkt að tími, áætlun eða lausn henti.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"passen\\\",\\\"Das passt\\\"],\\\"purple\\\":[\\\"passa\\\",\\\"fara vel\\\",\\\"henta\\\"],\\\"yellow\\\":[\\\"fatnað\\\",\\\"liti\\\",\\\"stíl\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Jacke\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"passar á mig\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Kleid\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"passar vel\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Farbe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fer þér vel\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Das passt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Það passar\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Das passt\\\"],\\\"purple\\\":[\\\"Það passar\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"passen\\\"],\\\"yellow\\\":[\\\"fatnað\\\"]},{\\\"purple\\\":[\\\"tími\\\",\\\"áætlun\\\",\\\"lausn\\\",\\\"henti\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"passen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"passa\\\",\\\"fara vel\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"passt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fara vel\\\",\\\"standa\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"steht\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"geeignet sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"henta\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"geeignet\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"funktionieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"virka\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"funktioniert\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"passen\\\",\\\"meaning\\\":\\\"passa • fara vel\\\",\\\"example\\\":\\\"Die Jacke passt mir. – Jakkinn passar á mig.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"fara vel • standa\\\",\\\"example\\\":\\\"Rot steht dir gut. – Rauður fer þér vel.\\\"},{\\\"word\\\":\\\"geeignet sein\\\",\\\"meaning\\\":\\\"henta\\\",\\\"example\\\":\\\"Das ist geeignet. – Þetta hentar.\\\"},{\\\"word\\\":\\\"funktionieren\\\",\\\"meaning\\\":\\\"virka\\\",\\\"example\\\":\\\"Das funktioniert. – Þetta virkar.\\\"}]\"}",
+    "owner_note": "IS passen / lv; study.translation; study.explanation; study.examples: individuāli pārbaudīta LRB-037 rinda 5/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Pause|idx:472|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hlé",
+    "owner_note": "IS Pause / lv: individuāli pārbaudīta LRB-037 rinda 6/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Person|idx:473|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "manneskja",
+    "owner_note": "IS Person / lv: individuāli pārbaudīta LRB-037 rinda 7/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Pferd|idx:474|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hestur",
+    "owner_note": "IS Pferd / lv: individuāli pārbaudīta LRB-037 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Pflanze|idx:475|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "planta",
+    "owner_note": "IS Pflanze / lv: individuāli pārbaudīta LRB-037 rinda 9/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Plan|idx:477|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "áætlun",
+    "owner_note": "IS Plan / lv: individuāli pārbaudīta LRB-037 rinda 10/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Platz|idx:478|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "staður",
+    "owner_note": "IS Platz / lv: individuāli pārbaudīta LRB-037 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Polizei|idx:479|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lögregla",
+    "owner_note": "IS Polizei / lv: individuāli pārbaudīta LRB-037 rinda 12/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Post|idx:480|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "póstur",
+    "owner_note": "IS Post / lv: individuāli pārbaudīta LRB-037 rinda 13/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Preis|idx:481|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "verð",
+    "owner_note": "IS Preis / lv: individuāli pārbaudīta LRB-037 rinda 14/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|probieren|idx:482|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"prófa • smakka\",\"study.translation\":\"prófa • smakka\",\"study.explanation\":\"[\\\"Meginhugmynd: probieren merkir að prófa eða smakka.\\\",\\\"Þegar rætt er um mat eða drykk merkir probieren oft að smakka.\\\",\\\"Þegar rætt er um aðgerð, aðferð eða hlut merkir probieren að prófa.\\\",\\\"Það er ekki það sama og prüfen, sem merkir að athuga eða yfirfara vandlega.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Probier mal die Suppe!\\\",\\\"lv\\\":\\\"Smakkaðu súpuna!\\\"},{\\\"de\\\":\\\"Ich möchte den Kuchen probieren.\\\",\\\"lv\\\":\\\"Mig langar að smakka kökuna.\\\"},{\\\"de\\\":\\\"Wir probieren eine neue Methode.\\\",\\\"lv\\\":\\\"Við prófum nýja aðferð.\\\"},{\\\"de\\\":\\\"Kann ich die Jacke anprobieren?\\\",\\\"lv\\\":\\\"Má ég máta jakkann?\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: þegar rætt er um mat merkir probieren að smakka.\\\"}\",\"study.important\":\"[\\\"probieren er ekki aðalorðið um formlega eða nákvæma yfirferð.\\\",\\\"Að athuga skjal eða reikning er venjulega prüfen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"probieren\\\",\\\"prüfen\\\"],\\\"purple\\\":[\\\"prófa\\\",\\\"smakka\\\",\\\"athuga\\\",\\\"yfirfara\\\"],\\\"yellow\\\":[\\\"mat\\\",\\\"drykk\\\",\\\"aðferð\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Probier\\\"],\\\"yellow\\\":[\\\"Suppe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Smakkaðu\\\",\\\"súpuna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"probieren\\\"],\\\"yellow\\\":[\\\"Kuchen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"smakka\\\",\\\"kökuna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"probieren\\\"],\\\"yellow\\\":[\\\"Methode\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"prófum\\\",\\\"aðferð\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"anprobieren\\\"],\\\"yellow\\\":[\\\"Jacke\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"máta\\\",\\\"jakkann\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"probieren\\\"],\\\"yellow\\\":[\\\"mat\\\"],\\\"purple\\\":[\\\"smakka\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"probieren\\\"],\\\"red\\\":[\\\"formlega\\\",\\\"nákvæma\\\"]},{\\\"red\\\":[\\\"prüfen\\\"],\\\"purple\\\":[\\\"athuga\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"probieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"prófa\\\",\\\"smakka\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Probier\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"versuchen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"reyna\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"versuche\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"prüfen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"athuga\\\",\\\"yfirfara\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"prüfe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"anprobieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"máta\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"probiere\\\",\\\"an\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"probieren\\\",\\\"meaning\\\":\\\"prófa • smakka\\\",\\\"example\\\":\\\"Probier mal die Suppe! – Smakkaðu súpuna!\\\"},{\\\"word\\\":\\\"versuchen\\\",\\\"meaning\\\":\\\"reyna\\\",\\\"example\\\":\\\"Ich versuche es. – Ég reyni það.\\\"},{\\\"word\\\":\\\"prüfen\\\",\\\"meaning\\\":\\\"athuga • yfirfara\\\",\\\"example\\\":\\\"Ich prüfe die Rechnung. – Ég yfirfer reikninginn.\\\"},{\\\"word\\\":\\\"anprobieren\\\",\\\"meaning\\\":\\\"máta\\\",\\\"example\\\":\\\"Ich probiere die Jacke an. – Ég máta jakkann.\\\"}]\"}",
+    "owner_note": "IS probieren / lv, study: individuāli pārbaudīta LRB-037 rinda 15/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Problem|idx:483|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "vandamál",
+    "owner_note": "IS Problem / lv: individuāli pārbaudīta LRB-037 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Programm|idx:484|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dagskrá • forrit",
+    "owner_note": "IS Programm / lv: individuāli pārbaudīta LRB-037 rinda 17/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Pullover|idx:485|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "peysa",
+    "owner_note": "IS Pullover / lv: individuāli pārbaudīta LRB-037 rinda 18/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Punkt|idx:486|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "punktur",
+    "owner_note": "IS Punkt / lv: individuāli pārbaudīta LRB-037 rinda 19/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|putzen|idx:487|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þrífa",
+    "owner_note": "IS putzen / lv: individuāli pārbaudīta LRB-037 rinda 20/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Rad fahren|idx:488|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hjóla",
+    "owner_note": "IS Rad fahren / lv: individuāli pārbaudīta LRB-037 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Radiergummi|idx:489|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "strokleður",
+    "owner_note": "IS Radiergummi / lv: individuāli pārbaudīta LRB-037 rinda 22/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|rauchen|idx:490|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "reykja",
+    "owner_note": "IS rauchen / lv: individuāli pārbaudīta LRB-037 rinda 23/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|rechts|idx:491|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "til hægri • hægri",
+    "owner_note": "IS rechts / lv: individuāli pārbaudīta LRB-037 rinda 24/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|reden|idx:492|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tala",
+    "owner_note": "IS reden / lv: individuāli pārbaudīta LRB-037 rinda 25/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Regen|idx:493|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "rigning",
+    "owner_note": "IS Regen / lv: individuāli pārbaudīta LRB-037 rinda 26/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Regenschirm|idx:494|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "regnhlíf",
+    "owner_note": "IS Regenschirm / lv: individuāli pārbaudīta LRB-037 rinda 27/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|regnen|idx:495|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "rigna",
+    "owner_note": "IS regnen / lv: individuāli pārbaudīta LRB-037 rinda 28/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Reis|idx:496|lv, study.examples, study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hrísgrjón\",\"study.translation\":\"hrísgrjón\",\"study.explanation\":\"\\\"Í þýsku er der Reis notað í eintölu, þannig að sögnin er í eintölu (til dæmis ist, ekki sind). Íslenska orðið hrísgrjón er hins vegar fleirtöluorð.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Reis ist fertig.\\\",\\\"lv\\\":\\\"Hrísgrjónin eru tilbúin.\\\"},{\\\"de\\\":\\\"Ich esse Reis.\\\",\\\"lv\\\":\\\"Ég borða hrísgrjón.\\\"},{\\\"de\\\":\\\"Kochst du Reis?\\\",\\\"lv\\\":\\\"Eldarðu hrísgrjón?\\\"},{\\\"de\\\":\\\"Der Reis schmeckt gut.\\\",\\\"lv\\\":\\\"Hrísgrjónin bragðast vel.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: der Reis er eintala í þýsku en hrísgrjón er fleirtöluorð á íslensku.\\\"}\",\"study.important\":\"[\\\"der Reis er aðeins notað í eintölu í þýsku: Der Reis ist ..., ekki *sind.\\\",\\\"Á íslensku er hrísgrjón fleirtöluorð: Hrísgrjónin eru tilbúin.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Reis\\\",\\\"ist\\\"],\\\"purple\\\":[\\\"eintölu\\\",\\\"hrísgrjón\\\",\\\"fleirtöluorð\\\"],\\\"red\\\":[\\\"sind\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Reis\\\",\\\"ist\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hrísgrjónin\\\",\\\"tilbúin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Reis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hrísgrjón\\\"]}},{\\\"de\\\":{},\\\"lv\\\":{\\\"purple\\\":[\\\"hrísgrjón\\\"]}},{\\\"de\\\":{},\\\"lv\\\":{\\\"purple\\\":[\\\"Hrísgrjónin\\\",\\\"bragðast vel\\\"]}}],\\\"tip\\\":{\\\"blue\\\":[\\\"der Reis\\\"],\\\"purple\\\":[\\\"eintala\\\",\\\"hrísgrjón\\\",\\\"fleirtöluorð\\\"]},\\\"important\\\":[{\\\"blue\\\":[\\\"der Reis\\\",\\\"ist\\\"],\\\"red\\\":[\\\"sind\\\"]},{\\\"purple\\\":[\\\"hrísgrjón\\\",\\\"fleirtöluorð\\\",\\\"Hrísgrjónin eru tilbúin\\\"]}]}\"}",
+    "owner_note": "IS Reis / lv, study.examples, study.important: individuāli pārbaudīta LRB-037 rinda 29/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|richtig|idx:497|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "réttur",
+    "owner_note": "IS richtig / lv: individuāli pārbaudīta LRB-037 rinda 30/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|rosa|idx:498|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bleikur",
+    "owner_note": "IS rosa / lv: individuāli pārbaudīta LRB-037 rinda 31/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|rot|idx:499|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "rauður",
+    "owner_note": "IS rot / lv: individuāli pārbaudīta LRB-037 rinda 32/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|rufen|idx:500|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "kalla",
+    "owner_note": "IS rufen / lv: individuāli pārbaudīta LRB-037 rinda 33/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|rund|idx:501|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "kringlóttur",
+    "owner_note": "IS rund / lv: individuāli pārbaudīta LRB-037 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Rose|idx:502|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "rós",
+    "owner_note": "IS Rose / lv: individuāli pārbaudīta LRB-037 rinda 35/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sache|idx:503|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hlutur",
+    "owner_note": "IS Sache / lv: individuāli pārbaudīta LRB-037 rinda 36/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Saft|idx:504|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "safi",
+    "owner_note": "IS Saft / lv: individuāli pārbaudīta LRB-037 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sagen|idx:505|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"segja\",\"study.translation\":\"segja\",\"study.explanation\":\"[\\\"Meginhugmynd: sagen merkir að segja ákveðna hugsun, orð eða setningu.\\\",\\\"sagen er notað þegar einhver segir eitthvað ákveðið.\\\",\\\"Orðið vísar oft til orða eða setninga.\\\",\\\"sagen er notað um tiltekið talað efni.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was hast du gesagt?\\\",\\\"lv\\\":\\\"Hvað sagðirðu?\\\"}]\",\"study.tip\":\"[\\\"sagen = segja\\\",\\\"Notaðu sagen þegar átt er við ákveðin orð eða tiltekið efni.\\\"]\",\"study.important\":\"[\\\"sagen = segja.\\\",\\\"Það vísar til þess að segja ákveðna hugsun, orð eða setningu.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sagen\\\"],\\\"purple\\\":[\\\"segja\\\"],\\\"green\\\":[\\\"hugsun\\\",\\\"orð\\\",\\\"setningu\\\"]},\\\"examples\\\":[{\\\"de\\\":{},\\\"lv\\\":{\\\"purple\\\":[\\\"sagðirðu\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"sagen\\\"],\\\"purple\\\":[\\\"segja\\\"]},{\\\"blue\\\":[\\\"sagen\\\"],\\\"green\\\":[\\\"ákveðin orð\\\",\\\"tiltekið efni\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"sagen\\\"],\\\"purple\\\":[\\\"segja\\\"]},{\\\"green\\\":[\\\"hugsun\\\",\\\"orð\\\",\\\"setningu\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sagen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"segja\\\",\\\"ákveðin orð\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"sprechen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tala\\\",\\\"tungumál\\\",\\\"samtal\\\"]},\\\"example\\\":{}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"sagen\\\",\\\"meaning\\\":\\\"segja (ákveðin orð)\\\",\\\"example\\\":\\\"Was hast du gesagt? – Hvað sagðirðu?\\\"},{\\\"word\\\":\\\"sprechen\\\",\\\"meaning\\\":\\\"tala (tungumál eða samtal)\\\",\\\"example\\\":\\\"Ich spreche Deutsch. – Ég tala þýsku.\\\"}]\"}",
+    "owner_note": "IS sagen / lv, study: individuāli pārbaudīta LRB-037 rinda 38/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Salat|idx:506|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "salat",
+    "owner_note": "IS Salat / lv: individuāli pārbaudīta LRB-037 rinda 39/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sauber|idx:508|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hreinn",
+    "owner_note": "IS sauber / lv: individuāli pārbaudīta LRB-037 rinda 40/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schaf|idx:509|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sauðkind",
+    "owner_note": "IS Schaf / lv: individuāli pārbaudīta LRB-037 rinda 41/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schauen|idx:510|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"horfa • líta\",\"study.translation\":\"horfa • líta\",\"study.explanation\":\"[\\\"Meginhugmynd: schauen merkir að horfa eða líta af ásetningi.\\\",\\\"schauen vísar fyrst og fremst til virkrar athafnar.\\\",\\\"Orðið lýsir því að beina augunum viljandi að einhverju.\\\",\\\"schauen er ekki það sama og sehen, sem merkir að sjá.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich schaue fern.\\\",\\\"lv\\\":\\\"Ég horfi á sjónvarpið.\\\"},{\\\"de\\\":\\\"Wir schauen aus dem Fenster.\\\",\\\"lv\\\":\\\"Við horfum út um gluggann.\\\"},{\\\"de\\\":\\\"Ich schaue fern.\\\",\\\"lv\\\":\\\"Ég horfi á sjónvarpið.\\\"}]\",\"study.tip\":\"[\\\"schauen = horfa • líta\\\",\\\"Notaðu schauen þegar um viljandi athöfn er að ræða.\\\"]\",\"study.important\":\"[\\\"schauen merkir að horfa eða líta.\\\",\\\"Það vísar til virkrar, viljandi athafnar.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"schauen\\\",\\\"sehen\\\"],\\\"purple\\\":[\\\"horfa\\\",\\\"líta\\\",\\\"sjá\\\"],\\\"green\\\":[\\\"af ásetningi\\\",\\\"viljandi\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"schaue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"horfi\\\",\\\"sjónvarpið\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"schauen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"horfum\\\",\\\"gluggann\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"schaue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"horfi\\\",\\\"sjónvarpið\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"schauen\\\"],\\\"purple\\\":[\\\"horfa\\\",\\\"líta\\\"]},{\\\"blue\\\":[\\\"schauen\\\"],\\\"green\\\":[\\\"viljandi athöfn\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"schauen\\\"],\\\"purple\\\":[\\\"horfa\\\",\\\"líta\\\"]},{\\\"green\\\":[\\\"virkrar\\\",\\\"viljandi\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"schauen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"horfa\\\",\\\"líta\\\",\\\"af ásetningi\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"sehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sjá\\\"]},\\\"example\\\":{}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"schauen\\\",\\\"meaning\\\":\\\"horfa • líta (af ásetningi)\\\",\\\"example\\\":\\\"Ich schaue aus dem Fenster. – Ég horfi út um gluggann.\\\"},{\\\"word\\\":\\\"sehen\\\",\\\"meaning\\\":\\\"sjá\\\",\\\"example\\\":\\\"Ich sehe dich. – Ég sé þig.\\\"}]\"}",
+    "owner_note": "IS schauen / lv, study: individuāli pārbaudīta LRB-037 rinda 42/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schicken|idx:511|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "senda",
+    "owner_note": "IS schicken / lv: individuāli pārbaudīta LRB-037 rinda 43/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schlafen|idx:512|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sofa",
+    "owner_note": "IS schlafen / lv: individuāli pārbaudīta LRB-037 rinda 44/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schlecht|idx:513|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "slæmur",
+    "owner_note": "IS schlecht / lv: individuāli pārbaudīta LRB-037 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schlüssel|idx:514|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lykill",
+    "owner_note": "IS Schlüssel / lv: individuāli pārbaudīta LRB-037 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schmecken|idx:515|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bragðast",
+    "owner_note": "IS schmecken / lv: individuāli pārbaudīta LRB-037 rinda 47/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schmutzig|idx:516|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "óhreinn",
+    "owner_note": "IS schmutzig / lv: individuāli pārbaudīta LRB-037 rinda 48/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schnee|idx:517|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "snjór",
+    "owner_note": "IS Schnee / lv: individuāli pārbaudīta LRB-037 rinda 49/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schneien|idx:518|lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "snjóa",
+    "owner_note": "IS schneien / lv: individuāli pārbaudīta LRB-037 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  }
+}
