@@ -2,43 +2,95 @@
 
 **Batch:** LRB-097
 **Rows:** 50/50
+**Languages:** SR 50
 **Direction:** DESCENDING
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-13T06:16:16.831Z
-**Source commit:** `9efd4bb955b3afeeb0c04602b48df54f2f52be25`
+**Generated:** 2026-09-13T06:44:20.005Z
+**Source commit:** `2a120b534feb961cfd583990c5f0aa6fea0d31d7`
 **Branch:** `cursor/lrb-097-owner-review-pc2-3db2`
-**Input SHA256:** `8bd487acb540c27baf2e68b409c67198c2a5e23513211c35f80195f75abf6b0d`
-**Manifest:** `reports/g2-a1-owner/manifests/LRB-097-start.json`
+**Overrides SHA256:** `2e782f69fe8240db6b2fd978435588db1c3e3d4e16145076ef8455331588425b`
 
-> All OWNER statuses are initially **PENDING**. Agent does not make OWNER decisions.
-> PROPOSED values are audit suggestions — not OWNER-approved.
+> OWNER approved overrides applied mechanically. All 50 LABOT. No Cursor linguistic analysis.
+
+**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
 ## Finding 1
 
 **Audit ID:** `LRB097-0001`
 **Finding Stable ID:** `g2/a1/sr|einmal|idx:700|lv; study.*|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `einmal|idx:700`
 **Field / path:** `lv; study.*`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** vienreiz • reiz
-**DE reference (read-only):** einmal
 **CURRENT (captured scope):** {"lv":"Еднократно • Еднократно","study.translation":"Еднократно • Еднократно","study.explanation":"[\"Osnovna ideja: Odnosi se na vrijeme ili prošlost (bilo je vrijeme kada sam bio...).\",\"Einmal основно означава: веднъж/в миналото.\",\"Често се характеризира с: климатични условия.\",\"Еинмал се однесува на време или минато (еднаш одамна јас...).\"]","study.examples":"[{\"de\":\"Ich war einmal in Berlin.\",\"lv\":\"Веднъж бях в Берлин.\"},{\"de\":\"Ich war einmal in Berlin.\",\"lv\":\"Веднъж бях в Берлин.\"}]","study.tip":"[\"Eynmal = enkrat\",\"Uporabite einmal, ko se kontekst ujema s to vrednostjo.\"]","study.important":"[\"Einmal = веднъж или веднъж в миналото.\",\"Се однесува на времето или минатото (еднаш одамна бев...).\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “einmal” (lv; study.*) against Latvian “vienreiz • reiz”. Production begins “{"lv":"Еднократно • Еднократно","study.translation":"Еднократно • Еднократно","study.explanation":"[\"Osnovna ideja: Od…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"једном • некада","study":{"id":"a1-einmal","layout":"standardStudy","translation":"једном • некада","explanation":["Главна идеја: einmal означава да се нешто догодило једанпут или некада у прошлости.","Контекст показује да ли је реч о тачно једном догађају или неодређеном прошлом времену."],"examples":[{"de":"Ich war einmal in Berlin.","lv":"Једном сам био у Берлину."},{"de":"Ich war einmal in Berlin.","lv":"Једном сам био у Берлину."}],"tip":["einmal = једном или некада.","Користи einmal за један догађај или неодређено време у прошлости."],"important":["einmal може значити једном или некада у прошлости."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{}]}}}
+**Note:** OWNER approved override: einmal: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "einmal",
+  "lv": "једном • некада",
+  "level": "A1",
+  "study": {
+    "id": "a1-einmal",
+    "layout": "standardStudy",
+    "translation": "једном • некада",
+    "explanation": [
+      "Главна идеја: einmal означава да се нешто догодило једанпут или некада у прошлости.",
+      "Контекст показује да ли је реч о тачно једном догађају или неодређеном прошлом времену."
+    ],
+    "examples": [
+      {
+        "de": "Ich war einmal in Berlin.",
+        "lv": "Једном сам био у Берлину."
+      },
+      {
+        "de": "Ich war einmal in Berlin.",
+        "lv": "Једном сам био у Берлину."
+      }
+    ],
+    "tip": [
+      "einmal = једном или некада.",
+      "Користи einmal за један догађај или неодређено време у прошлости."
+    ],
+    "important": [
+      "einmal може значити једном или некада у прошлости."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -121,26 +173,113 @@
 
 **Audit ID:** `LRB097-0002`
 **Finding Stable ID:** `g2/a1/sr|essen|idx:690|lv; study.translation; study.explanation; study.examples; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `essen|idx:690`
 **Field / path:** `lv; study.translation; study.explanation; study.examples; study.tip; study.important`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** ēst
-**DE reference (read-only):** essen
 **CURRENT (captured scope):** {"lv":"Яжте","study.translation":"Яжте","study.explanation":"[\"Главна идеја: Глагол - јадам храна.\",\"Есен основно означава: да консумираш храна.\",\"Често опишува: акција.\",\"Esen основно означава: храна или храна.\",\"Често опишува: дожд.\",\"Esen означава да ядеш.\",\"Das Essen може да означава храна или храна като цяло.\"]","study.examples":"[{\"de\":\"Ich esse gern Pizza.\",\"lv\":\"Обичам да ям пица.\"},{\"de\":\"Was wollt ihr essen?\",\"lv\":\"Што сакате да јадете\"},{\"de\":\"Wir essen um 12 Uhr.\",\"lv\":\"Jedli bomo ob 12. uri.\"},{\"de\":\"Das Essen ist fertig.\",\"lv\":\"Яденето е готово.\"},{\"de\":\"Das Essen schmeckt sehr gut.\",\"lv\":\"Храната е много вкусна.\"},{\"de\":\"Das Essen schmeckt gut.\",\"lv\":\"Храната е вкусна.\"}]","study.tip":"[\"Jesen = da\",\"Използвайте essen, когато контекстът съответства на това значение.\"]","study.important":"[\"Essen е глагол без член.\",\"Дас Есен не е исто што и Есен.\",\"Действие: есен.\",\"Повод/храна: das Essen.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “essen” (lv; study.translation; study.explanation; study.examples; study.tip; study.important) against Latvian “ēst”. Production begins “{"lv":"Яжте","study.translation":"Яжте","study.explanation":"[\"Главна идеја: Глагол - јадам храна.\",\"Есен основно оз…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"јести","study":{"id":"a1-essen","layout":"standardStudy","translation":"јести","explanation":["Главна идеја: essen са малим почетним словом је глагол и значи јести.","Именица das Essen са великим словом значи храна или оброк."],"examples":[{"de":"Ich esse gern Pizza.","lv":"Волим да једем пицу."},{"de":"Was wollt ihr essen?","lv":"Шта желите да једете?"},{"de":"Wir essen um 12 Uhr.","lv":"Једемо у дванаест сати."},{"de":"Das Essen ist fertig.","lv":"Храна је готова."},{"de":"Das Essen schmeckt sehr gut.","lv":"Храна је веома укусна."},{"de":"Das Essen schmeckt gut.","lv":"Храна је укусна."}],"tip":["essen = јести; das Essen = храна или оброк.","Обрати пажњу на велико слово и члан."],"important":["essen је глагол без члана.","das Essen је именица.","Радња: essen. Храна или оброк: das Essen."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** OWNER approved override: essen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "essen",
+  "lv": "јести",
+  "level": "A1",
+  "study": {
+    "id": "a1-essen",
+    "layout": "standardStudy",
+    "translation": "јести",
+    "explanation": [
+      "Главна идеја: essen са малим почетним словом је глагол и значи јести.",
+      "Именица das Essen са великим словом значи храна или оброк."
+    ],
+    "examples": [
+      {
+        "de": "Ich esse gern Pizza.",
+        "lv": "Волим да једем пицу."
+      },
+      {
+        "de": "Was wollt ihr essen?",
+        "lv": "Шта желите да једете?"
+      },
+      {
+        "de": "Wir essen um 12 Uhr.",
+        "lv": "Једемо у дванаест сати."
+      },
+      {
+        "de": "Das Essen ist fertig.",
+        "lv": "Храна је готова."
+      },
+      {
+        "de": "Das Essen schmeckt sehr gut.",
+        "lv": "Храна је веома укусна."
+      },
+      {
+        "de": "Das Essen schmeckt gut.",
+        "lv": "Храна је укусна."
+      }
+    ],
+    "tip": [
+      "essen = јести; das Essen = храна или оброк.",
+      "Обрати пажњу на велико слово и члан."
+    ],
+    "important": [
+      "essen је глагол без члана.",
+      "das Essen је именица.",
+      "Радња: essen. Храна или оброк: das Essen."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -281,26 +420,114 @@
 
 **Audit ID:** `LRB097-0003`
 **Finding Stable ID:** `g2/a1/sr|Essen|idx:691|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `Essen|idx:691`
 **Field / path:** `lv; study.translation; study.explanation; study.examples`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** ēdiens • maltīte
-**DE reference (read-only):** Essen
 **CURRENT (captured scope):** {"lv":"Храна • Храна","study.translation":"Храна • Храна","study.explanation":"[\"Glavna ideja: samostalnik – hrana ali vsa hrana.\",\"Das Esen pomeni predvsem: uživati hrano.\",\"Често опишува: акција.\",\"Das Essen основно означава: храна или храна.\",\"Често опишува: дожд.\",\"Esen означава да ядеш.\",\"Das Essen може да означава храна или храна като цяло.\"]","study.examples":"[{\"de\":\"Das Essen schmeckt gut.\",\"lv\":\"Храната е вкусна.\"},{\"de\":\"Was wollt ihr essen?\",\"lv\":\"Што сакате да јадете\"},{\"de\":\"Wir essen um 12 Uhr.\",\"lv\":\"Jedli bomo ob 12. uri.\"},{\"de\":\"Das Essen ist fertig.\",\"lv\":\"Яденето е готово.\"},{\"de\":\"Das Essen schmeckt sehr gut.\",\"lv\":\"Храната е много вкусна.\"},{\"de\":\"Das Essen schmeckt gut.\",\"lv\":\"Храната е вкусна.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Essen” (lv; study.translation; study.explanation; study.examples) against Latvian “ēdiens • maltīte”. Production begins “{"lv":"Храна • Храна","study.translation":"Храна • Храна","study.explanation":"[\"Glavna ideja: samostalnik – hrana ali…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"храна • оброк","study":{"id":"a1-essen-study","layout":"standardStudy","translation":"храна • оброк","explanation":["Главна идеја: das Essen је именица и значи храна или оброк.","Глагол essen са малим почетним словом значи јести."],"examples":[{"de":"Das Essen schmeckt gut.","lv":"Храна је укусна."},{"de":"Was wollt ihr essen?","lv":"Шта желите да једете?"},{"de":"Wir essen um 12 Uhr.","lv":"Једемо у дванаест сати."},{"de":"Das Essen ist fertig.","lv":"Храна је готова."},{"de":"Das Essen schmeckt sehr gut.","lv":"Храна је веома укусна."},{"de":"Das Essen schmeckt gut.","lv":"Храна је укусна."}],"tip":["das Essen = храна/оброк; essen = јести.","Обрати пажњу на велико слово и члан."],"important":["essen је глагол без члана.","das Essen је именица.","Радња: essen. Храна или оброк: das Essen."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** OWNER approved override: Essen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Essen",
+  "de_article": "das",
+  "lv": "храна • оброк",
+  "level": "A1",
+  "study": {
+    "id": "a1-essen-study",
+    "layout": "standardStudy",
+    "translation": "храна • оброк",
+    "explanation": [
+      "Главна идеја: das Essen је именица и значи храна или оброк.",
+      "Глагол essen са малим почетним словом значи јести."
+    ],
+    "examples": [
+      {
+        "de": "Das Essen schmeckt gut.",
+        "lv": "Храна је укусна."
+      },
+      {
+        "de": "Was wollt ihr essen?",
+        "lv": "Шта желите да једете?"
+      },
+      {
+        "de": "Wir essen um 12 Uhr.",
+        "lv": "Једемо у дванаест сати."
+      },
+      {
+        "de": "Das Essen ist fertig.",
+        "lv": "Храна је готова."
+      },
+      {
+        "de": "Das Essen schmeckt sehr gut.",
+        "lv": "Храна је веома укусна."
+      },
+      {
+        "de": "Das Essen schmeckt gut.",
+        "lv": "Храна је укусна."
+      }
+    ],
+    "tip": [
+      "das Essen = храна/оброк; essen = јести.",
+      "Обрати пажњу на велико слово и члан."
+    ],
+    "important": [
+      "essen је глагол без члана.",
+      "das Essen је именица.",
+      "Радња: essen. Храна или оброк: das Essen."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -439,26 +666,135 @@
 
 **Audit ID:** `LRB097-0004`
 **Finding Stable ID:** `g2/a1/sr|euch|idx:170|lv, study.translation, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `euch|idx:170`
 **Field / path:** `lv, study.translation, study.examples, study.comparison`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** TRANSLATION_ERROR
-**LV source (read-only):** jūs • jums
-**DE reference (read-only):** euch
 **CURRENT (captured scope):** {"lv":"Vie • Vie","study.translation":"Vie • Vie","study.examples":"[{\"de\":\"Ich sehe euch.\",\"lv\":\"Те гледам\"},{\"de\":\"Ich helfe euch.\",\"lv\":\"Pomagal vam bom\"},{\"de\":\"Ich gebe euch das Buch.\",\"lv\":\"Dajem vam knjigo\"},{\"de\":\"Ich danke euch.\",\"lv\":\"Ти благодарам\"},{\"de\":\"Ihr erinnert euch.\",\"lv\":\"Sjećaš li se?\"}]","study.comparison":"[{\"word\":\"ihr\",\"meaning\":\"Вие\",\"example\":\"Ihr seid freundlich. = Ви сте пријатни.\"},{\"word\":\"euch\",\"meaning\":\"Ти/към теб\",\"example\":\"Ich helfe euch. = Помажем вам.\"},{\"word\":\"euer\",\"meaning\":\"Tvoja\",\"example\":\"Das ist euer Haus. = То је ваша кућа.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “euch” (lv, study.translation, study.examples, study.comparison) against Latvian “jūs • jums”. Production begins “{"lv":"Vie • Vie","study.translation":"Vie • Vie","study.examples":"[{\"de\":\"Ich sehe euch.\",\"lv\":\"Те гледам\"},{…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"вас • вам","study":{"id":"a1-euch","layout":"standardStudy","translation":"вас • вам","explanation":"Главна идеја: euch је неформални облик другог лица множине у акузативу или дативу и одговара облицима вас или вам.","examples":[{"de":"Ich sehe euch.","lv":"Видим вас."},{"de":"Ich helfe euch.","lv":"Помажем вам."},{"de":"Ich gebe euch das Buch.","lv":"Дајем вам књигу."},{"de":"Ich danke euch.","lv":"Захваљујем вам."},{"de":"Ihr erinnert euch.","lv":"Сећате се."}],"comparison":[{"word":"ihr","meaning":"ви","example":"Ihr seid freundlich. – Ви сте љубазни."},{"word":"euch","meaning":"вас / вам","example":"Ich helfe euch. – Помажем вам."},{"word":"euer","meaning":"ваш / ваша / ваше","example":"Das ist euer Haus. – То је ваша кућа."}],"tip":{"text":"euch се користи као објекат: Ich sehe euch / Ich helfe euch."},"info":["ihr = ви (субјекат)","euch = вас (акузатив) / вам (датив)","euer = ваш (присвојни облик)"],"accents":{"blue":["ihr"],"yellow":["euch"],"green":["euer"]},"sectionAccents":{"explanation":{},"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{}}}}
+**Note:** OWNER approved override: euch: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "euch",
+  "lv": "вас • вам",
+  "level": "A1",
+  "study": {
+    "id": "a1-euch",
+    "layout": "standardStudy",
+    "translation": "вас • вам",
+    "explanation": "Главна идеја: euch је неформални облик другог лица множине у акузативу или дативу и одговара облицима вас или вам.",
+    "examples": [
+      {
+        "de": "Ich sehe euch.",
+        "lv": "Видим вас."
+      },
+      {
+        "de": "Ich helfe euch.",
+        "lv": "Помажем вам."
+      },
+      {
+        "de": "Ich gebe euch das Buch.",
+        "lv": "Дајем вам књигу."
+      },
+      {
+        "de": "Ich danke euch.",
+        "lv": "Захваљујем вам."
+      },
+      {
+        "de": "Ihr erinnert euch.",
+        "lv": "Сећате се."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "ihr",
+        "meaning": "ви",
+        "example": "Ihr seid freundlich. – Ви сте љубазни."
+      },
+      {
+        "word": "euch",
+        "meaning": "вас / вам",
+        "example": "Ich helfe euch. – Помажем вам."
+      },
+      {
+        "word": "euer",
+        "meaning": "ваш / ваша / ваше",
+        "example": "Das ist euer Haus. – То је ваша кућа."
+      }
+    ],
+    "tip": {
+      "text": "euch се користи као објекат: Ich sehe euch / Ich helfe euch."
+    },
+    "info": [
+      "ihr = ви (субјекат)",
+      "euch = вас (акузатив) / вам (датив)",
+      "euer = ваш (присвојни облик)"
+    ],
+    "accents": {
+      "blue": [
+        "ihr"
+      ],
+      "yellow": [
+        "euch"
+      ],
+      "green": [
+        "euer"
+      ]
+    },
+    "sectionAccents": {
+      "explanation": {},
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {}
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -539,26 +875,177 @@
 
 **Audit ID:** `LRB097-0005`
 **Finding Stable ID:** `g2/a1/sr|fahren|idx:172|lv, study.translation, study.explanation, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `fahren|idx:172`
 **Field / path:** `lv, study.translation, study.explanation, study.examples, study.comparison`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** TRANSLATION_ERROR
-**LV source (read-only):** braukt
-**DE reference (read-only):** fahren
 **CURRENT (captured scope):** {"lv":"Vožnja • Vožnja • Nošenje","study.translation":"Vožnja • Vožnja • Nošenje","study.explanation":"[\"Главна идеја: фарен значи да се вози возило, а во некои реченици и да се земе или да се земе некого.\",\"Faren се користи кога се патува со автомобил, автобус, воз, велосипед или друго возило.\",\"Ако предметот на реченицата е личност, фарен може да значи води или одзема.\",\"Ако патувате пешки, најчесто користите Гехен или Лауфен.\"]","study.examples":"[{\"de\":\"Ich fahre nach Berlin.\",\"lv\":\"Grem v Berlin.\"},{\"de\":\"Ich fahre mit dem Auto.\",\"lv\":\"Возам автомобил.\"},{\"de\":\"Ich fahre meine Tochter zur Schule.\",\"lv\":\"Водя дъщеря си на училище.\"},{\"de\":\"Ich fahre dich nach Hause.\",\"lv\":\"Peljal vas bom domov\"},{\"de\":\"Wir fahren morgen nach München.\",\"lv\":\"Утре одиме во Минхен.\"}]","study.comparison":"[{\"word\":\"fahren\",\"meaning\":\"Vožnja sa prevozom\",\"example\":\"Вожим се аутобусом.\"},{\"word\":\"gehen\",\"meaning\":\"Прошетка\",\"example\":\"Идем кући.\"},{\"word\":\"laufen\",\"meaning\":\"Tek/hoja\",\"example\":\"Он трчи брзо.\"},{\"word\":\"bringen\",\"meaning\":\"Donesi / isporača\",\"example\":\"Доносим књигу.\"},{\"word\":\"mitnehmen\",\"meaning\":\"-Vzamite ga s sabo. -Razumem.\",\"example\":\"Узимам те са собом.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “fahren” (lv, study.translation, study.explanation, study.examples, study.comparison) against Latvian “braukt”. Production begins “{"lv":"Vožnja • Vožnja • Nošenje","study.translation":"Vožnja • Vožnja • Nošenje","study.explanation":"[\"Главна идеја:…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"возити се • возити","study":{"id":"a1-fahren","layout":"standardStudy","translation":"возити се • возити","explanation":["Главна идеја: fahren значи путовати или возити превозно средство, а са особом као објектом може значити одвести или повести некога.","За кретање пешке обично се користе gehen или laufen."],"examples":[{"de":"Ich fahre nach Berlin.","lv":"Путујем у Берлин."},{"de":"Ich fahre mit dem Auto.","lv":"Возим се аутомобилом."},{"de":"Ich fahre meine Tochter zur Schule.","lv":"Возим ћерку у школу."},{"de":"Ich fahre dich nach Hause.","lv":"Возим те кући."},{"de":"Wir fahren morgen nach München.","lv":"Сутра путујемо у Минхен."}],"comparison":[{"word":"fahren","meaning":"путовати / возити се превозним средством","example":"Ich fahre mit dem Bus. – Возим се аутобусом."},{"word":"gehen","meaning":"ићи пешке","example":"Ich gehe nach Hause. – Идем кући."},{"word":"laufen","meaning":"трчати / ићи","example":"Er läuft schnell. – Он брзо трчи."},{"word":"bringen","meaning":"донети / однети","example":"Ich bringe das Buch. – Доносим књигу."},{"word":"mitnehmen","meaning":"повести са собом","example":"Ich nehme dich mit. – Водим те са собом."}],"tip":{"text":"Превозно средство → fahren; пешке → gehen."},"important":{"text":"fahren не значи само возити се.","example":"Са особом као објектом може значити возити или одвести некога."},"accents":{"blue":["fahren","fahre"],"purple":["возити се","возити","путовати","одвести"],"green":["превозно средство","аутомобил","аутобус","воз","бицикл"],"yellow":["gehen","laufen"],"red":["bringen","mitnehmen"]},"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":{}}}}
+**Note:** OWNER approved override: fahren: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "fahren",
+  "lv": "возити се • возити",
+  "level": "A1",
+  "study": {
+    "id": "a1-fahren",
+    "layout": "standardStudy",
+    "translation": "возити се • возити",
+    "explanation": [
+      "Главна идеја: fahren значи путовати или возити превозно средство, а са особом као објектом може значити одвести или повести некога.",
+      "За кретање пешке обично се користе gehen или laufen."
+    ],
+    "examples": [
+      {
+        "de": "Ich fahre nach Berlin.",
+        "lv": "Путујем у Берлин."
+      },
+      {
+        "de": "Ich fahre mit dem Auto.",
+        "lv": "Возим се аутомобилом."
+      },
+      {
+        "de": "Ich fahre meine Tochter zur Schule.",
+        "lv": "Возим ћерку у школу."
+      },
+      {
+        "de": "Ich fahre dich nach Hause.",
+        "lv": "Возим те кући."
+      },
+      {
+        "de": "Wir fahren morgen nach München.",
+        "lv": "Сутра путујемо у Минхен."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "fahren",
+        "meaning": "путовати / возити се превозним средством",
+        "example": "Ich fahre mit dem Bus. – Возим се аутобусом."
+      },
+      {
+        "word": "gehen",
+        "meaning": "ићи пешке",
+        "example": "Ich gehe nach Hause. – Идем кући."
+      },
+      {
+        "word": "laufen",
+        "meaning": "трчати / ићи",
+        "example": "Er läuft schnell. – Он брзо трчи."
+      },
+      {
+        "word": "bringen",
+        "meaning": "донети / однети",
+        "example": "Ich bringe das Buch. – Доносим књигу."
+      },
+      {
+        "word": "mitnehmen",
+        "meaning": "повести са собом",
+        "example": "Ich nehme dich mit. – Водим те са собом."
+      }
+    ],
+    "tip": {
+      "text": "Превозно средство → fahren; пешке → gehen."
+    },
+    "important": {
+      "text": "fahren не значи само возити се.",
+      "example": "Са особом као објектом може значити возити или одвести некога."
+    },
+    "accents": {
+      "blue": [
+        "fahren",
+        "fahre"
+      ],
+      "purple": [
+        "возити се",
+        "возити",
+        "путовати",
+        "одвести"
+      ],
+      "green": [
+        "превозно средство",
+        "аутомобил",
+        "аутобус",
+        "воз",
+        "бицикл"
+      ],
+      "yellow": [
+        "gehen",
+        "laufen"
+      ],
+      "red": [
+        "bringen",
+        "mitnehmen"
+      ]
+    },
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": {}
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -810,26 +1297,138 @@
 
 **Audit ID:** `LRB097-0006`
 **Finding Stable ID:** `g2/a1/sr|Ferien|idx:694|lv; study.translation; study.examples; study.comparison|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `Ferien|idx:694`
 **Field / path:** `lv; study.translation; study.examples; study.comparison`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** brīvdienas (skola)
-**DE reference (read-only):** Ferien
 **CURRENT (captured scope):** {"lv":"Празници (училиште)","study.translation":"Празници (училиште)","study.examples":"[{\"de\":\"In den Ferien fahren wir ans Meer.\",\"lv\":\"През уикендите ходим на море.\"},{\"de\":\"In den Ferien habe ich viel Zeit.\",\"lv\":\"Имам много време през ваканциите.\"},{\"de\":\"Was macht ihr in den Ferien?\",\"lv\":\"Какво правиш по празниците\"},{\"de\":\"Die Schule ist in den Ferien zu.\",\"lv\":\"Училището е затворено за ваканция.\"},{\"de\":\"In den Ferien fahren wir ans Meer.\",\"lv\":\"На празници одиме на море.\"},{\"de\":\"In den Ferien\",\"lv\":\"Във ваканция (в училище).\"}]","study.comparison":"[{\"word\":\"die Ferien\",\"meaning\":\"Školski/obrazovni praznici (samo DSK)\",\"example\":\"In den Ferien fahren wir weg. – Този уикенд ще ходим някъде.\"},{\"word\":\"der Urlaub\",\"meaning\":\"Напуснете работата си (само всички)\",\"example\":\"Ich habe zwei Wochen Urlaub. – Имам две недели одмор.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Ferien” (lv; study.translation; study.examples; study.comparison) against Latvian “brīvdienas (skola)”. Production begins “{"lv":"Празници (училиште)","study.translation":"Празници (училиште)","study.examples":"[{\"de\":\"In den Ferien fahren…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"школски распуст","study":{"id":"a1-ferien","layout":"standardStudy","translation":"школски распуст","explanation":["Главна идеја: die Ferien означава школски или студентски распуст и у немачком се употребљава само у множини.","За одсуство са посла користи се der Urlaub."],"examples":[{"de":"In den Ferien fahren wir ans Meer.","lv":"За време распуста путујемо на море."},{"de":"In den Ferien habe ich viel Zeit.","lv":"За време распуста имам много времена."},{"de":"Was macht ihr in den Ferien?","lv":"Шта радите за време распуста?"},{"de":"Die Schule ist in den Ferien zu.","lv":"Школа је затворена за време распуста."},{"de":"In den Ferien fahren wir ans Meer.","lv":"За време распуста путујемо на море."},{"de":"In den Ferien","lv":"за време школског распуста"}],"comparison":[{"word":"die Ferien","meaning":"школски/студентски распуст; само множина","example":"In den Ferien fahren wir weg. – За време распуста путујемо."},{"word":"der Urlaub","meaning":"одмор са посла; једнина","example":"Ich habe zwei Wochen Urlaub. – Имам две недеље одмора."}],"tip":["die Ferien се користи само у множини.","Користи die Ferien за школски или студентски распуст."],"important":["Каже се in den Ferien, јер је Ferien множина.","Нетачно: in der Ferien → тачно: in den Ferien.","Школа: die Ferien; посао: der Urlaub."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** OWNER approved override: Ferien: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Ferien",
+  "de_article": "die",
+  "lv": "школски распуст",
+  "level": "A1",
+  "study": {
+    "id": "a1-ferien",
+    "layout": "standardStudy",
+    "translation": "школски распуст",
+    "explanation": [
+      "Главна идеја: die Ferien означава школски или студентски распуст и у немачком се употребљава само у множини.",
+      "За одсуство са посла користи се der Urlaub."
+    ],
+    "examples": [
+      {
+        "de": "In den Ferien fahren wir ans Meer.",
+        "lv": "За време распуста путујемо на море."
+      },
+      {
+        "de": "In den Ferien habe ich viel Zeit.",
+        "lv": "За време распуста имам много времена."
+      },
+      {
+        "de": "Was macht ihr in den Ferien?",
+        "lv": "Шта радите за време распуста?"
+      },
+      {
+        "de": "Die Schule ist in den Ferien zu.",
+        "lv": "Школа је затворена за време распуста."
+      },
+      {
+        "de": "In den Ferien fahren wir ans Meer.",
+        "lv": "За време распуста путујемо на море."
+      },
+      {
+        "de": "In den Ferien",
+        "lv": "за време школског распуста"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "die Ferien",
+        "meaning": "школски/студентски распуст; само множина",
+        "example": "In den Ferien fahren wir weg. – За време распуста путујемо."
+      },
+      {
+        "word": "der Urlaub",
+        "meaning": "одмор са посла; једнина",
+        "example": "Ich habe zwei Wochen Urlaub. – Имам две недеље одмора."
+      }
+    ],
+    "tip": [
+      "die Ferien се користи само у множини.",
+      "Користи die Ferien за школски или студентски распуст."
+    ],
+    "important": [
+      "Каже се in den Ferien, јер је Ferien множина.",
+      "Нетачно: in der Ferien → тачно: in den Ferien.",
+      "Школа: die Ferien; посао: der Urlaub."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -972,26 +1571,111 @@
 
 **Audit ID:** `LRB097-0007`
 **Finding Stable ID:** `g2/a1/sr|fernsehen|idx:687|lv; study.translation; study.examples; study.comparison|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `fernsehen|idx:687`
 **Field / path:** `lv; study.translation; study.examples; study.comparison`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** skatīties televizoru
-**DE reference (read-only):** fernsehen
 **CURRENT (captured scope):** {"lv":"Glejte televizijo","study.translation":"Glejte televizijo","study.examples":"[{\"de\":\"Ich sehe heute Abend fern.\",\"lv\":\"Večeras gledam TV.\"},{\"de\":\"Siehst du oft fern?\",\"lv\":\"Pogosto gledate televizijo?\"},{\"de\":\"Die Kinder sehen am Nachmittag fern.\",\"lv\":\"Otroci podnevi gledajo televizijo.\"}]","study.comparison":"[{\"word\":\"fernsehen\",\"meaning\":\"Glejte televizijo\",\"example\":\"Ich sehe fern. = Гледам телевизију.\"},{\"word\":\"das Fernsehen\",\"meaning\":\"Телевизия (медия)\",\"example\":\"Im Fernsehen läuft ein Film. = На телевизији се емитује филм.\"},{\"word\":\"sehen\",\"meaning\":\"Poglejmo\",\"example\":\"Ich sehe einen Film. = Видим филм.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “fernsehen” (lv; study.translation; study.examples; study.comparison) against Latvian “skatīties televizoru”. Production begins “{"lv":"Glejte televizijo","study.translation":"Glejte televizijo","study.examples":"[{\"de\":\"Ich sehe heute Abend fer…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"гледати телевизију","study":{"id":"a1-fernsehen","layout":"standardStudy","translation":"гледати телевизију","explanation":"Главна идеја: fernsehen је раздвојив глагол: ich sehe fern, du siehst fern. Значи гледати телевизију и не треба га мешати са именицом das Fernsehen.","examples":[{"de":"Ich sehe heute Abend fern.","lv":"Вечерас гледам телевизију."},{"de":"Siehst du oft fern?","lv":"Гледаш ли често телевизију?"},{"de":"Die Kinder sehen am Nachmittag fern.","lv":"Деца поподне гледају телевизију."}],"comparison":[{"word":"fernsehen","meaning":"гледати телевизију","example":"Ich sehe fern. – Гледам телевизију."},{"word":"das Fernsehen","meaning":"телевизија као медиј","example":"Im Fernsehen läuft ein Film. – На телевизији се приказује филм."},{"word":"sehen","meaning":"видети","example":"Ich sehe einen Film. – Видим филм."}],"tip":{"leftBlocks":[{"text":"За радњу користи fernsehen (ich sehe fern), а за медиј или програм das Fernsehen."}]},"important":{"text":"fernsehen је глагол; das Fernsehen је именица која се користи само у једнини."},"sectionAccents":{"explanation":{},"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":{}}}}
+**Note:** OWNER approved override: fernsehen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "fernsehen",
+  "lv": "гледати телевизију",
+  "level": "A1",
+  "study": {
+    "id": "a1-fernsehen",
+    "layout": "standardStudy",
+    "translation": "гледати телевизију",
+    "explanation": "Главна идеја: fernsehen је раздвојив глагол: ich sehe fern, du siehst fern. Значи гледати телевизију и не треба га мешати са именицом das Fernsehen.",
+    "examples": [
+      {
+        "de": "Ich sehe heute Abend fern.",
+        "lv": "Вечерас гледам телевизију."
+      },
+      {
+        "de": "Siehst du oft fern?",
+        "lv": "Гледаш ли често телевизију?"
+      },
+      {
+        "de": "Die Kinder sehen am Nachmittag fern.",
+        "lv": "Деца поподне гледају телевизију."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "fernsehen",
+        "meaning": "гледати телевизију",
+        "example": "Ich sehe fern. – Гледам телевизију."
+      },
+      {
+        "word": "das Fernsehen",
+        "meaning": "телевизија као медиј",
+        "example": "Im Fernsehen läuft ein Film. – На телевизији се приказује филм."
+      },
+      {
+        "word": "sehen",
+        "meaning": "видети",
+        "example": "Ich sehe einen Film. – Видим филм."
+      }
+    ],
+    "tip": {
+      "leftBlocks": [
+        {
+          "text": "За радњу користи fernsehen (ich sehe fern), а за медиј или програм das Fernsehen."
+        }
+      ]
+    },
+    "important": {
+      "text": "fernsehen је глагол; das Fernsehen је именица која се користи само у једнини."
+    },
+    "sectionAccents": {
+      "explanation": {},
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": {}
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1094,26 +1778,116 @@
 
 **Audit ID:** `LRB097-0008`
 **Finding Stable ID:** `g2/a1/sr|Fernsehen|idx:688|lv; study.translation; study.explanation; study.examples; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `Fernsehen|idx:688`
 **Field / path:** `lv; study.translation; study.explanation; study.examples; study.tip; study.important`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** televīzija
-**DE reference (read-only):** Fernsehen
 **CURRENT (captured scope):** {"lv":"ТВ","study.translation":"ТВ","study.explanation":"[\"Основна идея: съществително име, единствено число. Описва телевизията като медия или излъчването като цяло.\",\"Das Fernsehen v bistvu pomeni: glej predstavo.\",\"Често опишува: акција.\",\"Das Fernsehen на първо място означава: телевизията като масова медия.\",\"Често описва: съществително име (само в единствено число).\",\"Fernsehen е глагол, който може да се раздели: ich sehe папрат, du siehst папрат.\",\"Das Fernsehen е именка во еднина и нема множинска форма.\"]","study.examples":"[{\"de\":\"Was gibt es heute im Fernsehen?\",\"lv\":\"Kaj je danes na televiziji?\"},{\"de\":\"Was gibt es heute im Fernsehen?\",\"lv\":\"Kaj je danes na televiziji?\"},{\"de\":\"Im Fernsehen läuft ein Film.\",\"lv\":\"Има филм по телевизията.\"},{\"de\":\"Das Fernsehen ist heute langweilig.\",\"lv\":\"Телевизионната програма днес е скучна.\"},{\"de\":\"Ich sehe heute Abend fern.\",\"lv\":\"Večeras gledam TV.\"},{\"de\":\"Was gibt es im Fernsehen?\",\"lv\":\"Што има на ТВ?\"}]","study.tip":"[\"Когато говорите за действие, използвайте \\\"fernsehen\\\" (ich sehe папрат). Когато говорите за телевизионна програма или медия, използвайте das Fernsehen.\",\"Именка, само еднина. Ја опишува телевизијата како медиум или емитување воопшто.\"]","study.important":"[\"Фернсехен се дели на: сехен + папрат.\",\"Das Fernsehen не е множествено число, а не *die Fernsehen.\",\"Неправилно: die Fernsehen → Правилно: das Fernsehen.\",\"Действие: папрат → ich sehe папрат.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Fernsehen” (lv; study.translation; study.explanation; study.examples; study.tip; study.important) against Latvian “televīzija”. Production begins “{"lv":"ТВ","study.translation":"ТВ","study.explanation":"[\"Основна идея: съществително име, единствено число. Описва т…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"телевизија","study":{"id":"a1-fernsehen-study","layout":"standardStudy","translation":"телевизија","explanation":["Главна идеја: das Fernsehen је именица која означава телевизију као медиј или програм и користи се само у једнини.","fernsehen је раздвојив глагол: ich sehe fern."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Шта има данас на телевизији?"},{"de":"Was gibt es heute im Fernsehen?","lv":"Шта има данас на телевизији?"},{"de":"Im Fernsehen läuft ein Film.","lv":"На телевизији се приказује филм."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Телевизијски програм је данас досадан."},{"de":"Ich sehe heute Abend fern.","lv":"Вечерас гледам телевизију."},{"de":"Was gibt es im Fernsehen?","lv":"Шта има на телевизији?"}],"tip":["За радњу користи fernsehen; за медиј или програм das Fernsehen.","das Fernsehen је именица само у једнини."],"important":["fernsehen се раздваја: sehen + fern.","das Fernsehen нема множину.","Нетачно: die Fernsehen → тачно: das Fernsehen.","Радња: fernsehen → ich sehe fern."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}}
+**Note:** OWNER approved override: Fernsehen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Fernsehen",
+  "de_article": "das",
+  "lv": "телевизија",
+  "level": "A1",
+  "study": {
+    "id": "a1-fernsehen-study",
+    "layout": "standardStudy",
+    "translation": "телевизија",
+    "explanation": [
+      "Главна идеја: das Fernsehen је именица која означава телевизију као медиј или програм и користи се само у једнини.",
+      "fernsehen је раздвојив глагол: ich sehe fern."
+    ],
+    "examples": [
+      {
+        "de": "Was gibt es heute im Fernsehen?",
+        "lv": "Шта има данас на телевизији?"
+      },
+      {
+        "de": "Was gibt es heute im Fernsehen?",
+        "lv": "Шта има данас на телевизији?"
+      },
+      {
+        "de": "Im Fernsehen läuft ein Film.",
+        "lv": "На телевизији се приказује филм."
+      },
+      {
+        "de": "Das Fernsehen ist heute langweilig.",
+        "lv": "Телевизијски програм је данас досадан."
+      },
+      {
+        "de": "Ich sehe heute Abend fern.",
+        "lv": "Вечерас гледам телевизију."
+      },
+      {
+        "de": "Was gibt es im Fernsehen?",
+        "lv": "Шта има на телевизији?"
+      }
+    ],
+    "tip": [
+      "За радњу користи fernsehen; за медиј или програм das Fernsehen.",
+      "das Fernsehen је именица само у једнини."
+    ],
+    "important": [
+      "fernsehen се раздваја: sehen + fern.",
+      "das Fernsehen нема множину.",
+      "Нетачно: die Fernsehen → тачно: das Fernsehen.",
+      "Радња: fernsehen → ich sehe fern."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1251,26 +2025,97 @@
 
 **Audit ID:** `LRB097-0009`
 **Finding Stable ID:** `g2/a1/sr|finden|idx:187|lv, study.translation, study.explanation, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `finden|idx:187`
 **Field / path:** `lv, study.translation, study.explanation, study.examples, study.comparison`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** TRANSLATION_ERROR
-**LV source (read-only):** atrast
-**DE reference (read-only):** finden
 **CURRENT (captured scope):** {"lv":"Namjere • Razgledaj","study.translation":"Namjere • Razgledaj","study.explanation":"[\"Главна идеја: Најден најчесто значи да се најде.\",\"Во разговорот многу често наоѓам и средства да погледнам или размислувам за нешто.\",\"Ако зборуваме за изгубена работа, тогаш тоа се преведува како наод.\",\"Кога зборуваме за мислење, тоа се преведува на размислување или гледање.\"]","study.examples":"[{\"de\":\"Ich finde meinen Schlüssel.\",\"lv\":\"Не можам да го најдам мојот клуч\"},{\"de\":\"Ich finde das gut.\",\"lv\":\"Jeste li našli svoj telefon?\"},{\"de\":\"Wie findest du den Film?\",\"lv\":\"Мене ми изгледа во ред.\"},{\"de\":\"Wie findest du den Film?\",\"lv\":\"Kaj menite o filmu?\"}]","study.comparison":"[{\"word\":\"finden\",\"meaning\":\"Најдете / Прикажи\",\"example\":\"Ich finde das gut. = Мислим да је то добро.\"},{\"word\":\"suchen\",\"meaning\":\"Пребарување\",\"example\":\"Ich suche den Schlüssel. = Го барам клучот.\"},{\"word\":\"denken\",\"meaning\":\"Hajde momci. Razmisli o tome.\",\"example\":\"Ich denke an dich. = Мисля за теб\"},{\"word\":\"glauben\",\"meaning\":\"Верувај/размисли\",\"example\":\"Ich glaube, er kommt. = Мисля, че ще дойде.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “finden” (lv, study.translation, study.explanation, study.examples, study.comparison) against Latvian “atrast”. Production begins “{"lv":"Namjere • Razgledaj","study.translation":"Namjere • Razgledaj","study.explanation":"[\"Главна идеја: Најден најч…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"наћи • сматрати","study":{"id":"a1-finden","layout":"standardStudy","translation":"наћи • сматрати","explanation":["Главна идеја: finden најчешће значи наћи, али у исказивању мишљења значи сматрати или мислити.","Контекст показује да ли је реч о проналажењу предмета или о оцени."],"examples":[{"de":"Ich finde meinen Schlüssel.","lv":"Налазим свој кључ."},{"de":"Ich finde das gut.","lv":"Мислим да је то добро."},{"de":"Wie findest du den Film?","lv":"Шта мислиш о филму?"}],"comparison":[{"word":"finden","meaning":"наћи / сматрати","example":"Ich finde das gut. – Мислим да је то добро."}],"tip":{"text":"Изгубљена ствар → finden; мишљење → ich finde ..."},"important":["finden не значи само наћи.","Ich finde das gut значи „мислим да је то добро“."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: finden: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "finden",
+  "lv": "наћи • сматрати",
+  "level": "A1",
+  "study": {
+    "id": "a1-finden",
+    "layout": "standardStudy",
+    "translation": "наћи • сматрати",
+    "explanation": [
+      "Главна идеја: finden најчешће значи наћи, али у исказивању мишљења значи сматрати или мислити.",
+      "Контекст показује да ли је реч о проналажењу предмета или о оцени."
+    ],
+    "examples": [
+      {
+        "de": "Ich finde meinen Schlüssel.",
+        "lv": "Налазим свој кључ."
+      },
+      {
+        "de": "Ich finde das gut.",
+        "lv": "Мислим да је то добро."
+      },
+      {
+        "de": "Wie findest du den Film?",
+        "lv": "Шта мислиш о филму?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "finden",
+        "meaning": "наћи / сматрати",
+        "example": "Ich finde das gut. – Мислим да је то добро."
+      }
+    ],
+    "tip": {
+      "text": "Изгубљена ствар → finden; мишљење → ich finde ..."
+    },
+    "important": [
+      "finden не значи само наћи.",
+      "Ich finde das gut значи „мислим да је то добро“."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1454,26 +2299,117 @@
 
 **Audit ID:** `LRB097-0010`
 **Finding Stable ID:** `g2/a1/sr|Frau|idx:198|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `Frau|idx:198`
 **Field / path:** `lv, study.translation, study.explanation, study.examples, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** TRANSLATION_ERROR
-**LV source (read-only):** sieviete
-**DE reference (read-only):** Frau
 **CURRENT (captured scope):** {"lv":"Жена • Сопруга","study.translation":"Жена • Сопруга","study.explanation":"[\"Ključna ideja: die Frau može značiti supruga (pol) ili supružnik (supružnik).\",\"Če gre le za spol ali osebnost, die Frau = ženski.\",\"В случай на съпруг, die Frau = съпруга (meine Frau = жена ми).\",\"Присвојната заменка (meine/deine/seine Frau) скоро секогаш означува жена – жена.\",\"Множествено число: die Frauen.\",\"Moška oblika der Mann ima enak dvojni pomen: moški in mož.\"]","study.examples":"[{\"de\":\"Sie ist eine nette Frau.\",\"lv\":\"Таа е добра жена.\"},{\"de\":\"Das ist meine Frau.\",\"lv\":\"To je moja žena, Yvaine. -Tvoja žena?\"},{\"de\":\"Wie viele Frauen sind hier?\",\"lv\":\"Koliko žena ima?\"},{\"de\":\"Meine Frau arbeitet in Berlin.\",\"lv\":\"Жена ми работи в Берлин.\"},{\"de\":\"Die Frau trägt ein Kleid.\",\"lv\":\"Жената носи рокля.\"},{\"de\":\"Seine Frau ist Ärztin.\",\"lv\":\"Жена му е лекар.\"}]","study.tip":"[\"Usvojna zamjenica (meine/deine/seine Frau) gotovo uvijek znači supružnika.\",\"Без притежателен падеж (die Frau, eine Frau) обикновено означава жена.\"]","study.important":"[\"Die Frau = жена ИЛИ съпруга - в зависимост от контекста.\",\"Meine Frau = мојата сопруга (не „мојата сопруга“).\",\"Множествено число: die Frauen.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Frau” (lv, study.translation, study.explanation, study.examples, study.tip, study.important) against Latvian “sieviete”. Production begins “{"lv":"Жена • Сопруга","study.translation":"Жена • Сопруга","study.explanation":"[\"Ključna ideja: die Frau može značit…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"жена • супруга","study":{"id":"a1-frau","layout":"standardStudy","translation":"жена • супруга","explanation":["Главна идеја: die Frau може значити жена или супруга, зависно од контекста.","С присвојним обликом meine/deine/seine Frau готово увек значи супруга.","Множина је die Frauen."],"examples":[{"de":"Sie ist eine nette Frau.","lv":"Она је љубазна жена."},{"de":"Das ist meine Frau.","lv":"Ово је моја супруга."},{"de":"Wie viele Frauen sind hier?","lv":"Колико је жена овде?"},{"de":"Meine Frau arbeitet in Berlin.","lv":"Моја супруга ради у Берлину."},{"de":"Die Frau trägt ein Kleid.","lv":"Жена носи хаљину."},{"de":"Seine Frau ist Ärztin.","lv":"Његова супруга је лекарка."}],"tip":["С присвојним обликом Frau обично значи супруга.","Без присвојног облика обично значи жена."],"important":["die Frau = жена или супруга, према контексту.","meine Frau = моја супруга.","Множина: die Frauen."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** OWNER approved override: Frau: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Frau",
+  "de_article": "die",
+  "de_plural": "die Frauen",
+  "lv": "жена • супруга",
+  "level": "A1",
+  "study": {
+    "id": "a1-frau",
+    "layout": "standardStudy",
+    "translation": "жена • супруга",
+    "explanation": [
+      "Главна идеја: die Frau може значити жена или супруга, зависно од контекста.",
+      "С присвојним обликом meine/deine/seine Frau готово увек значи супруга.",
+      "Множина је die Frauen."
+    ],
+    "examples": [
+      {
+        "de": "Sie ist eine nette Frau.",
+        "lv": "Она је љубазна жена."
+      },
+      {
+        "de": "Das ist meine Frau.",
+        "lv": "Ово је моја супруга."
+      },
+      {
+        "de": "Wie viele Frauen sind hier?",
+        "lv": "Колико је жена овде?"
+      },
+      {
+        "de": "Meine Frau arbeitet in Berlin.",
+        "lv": "Моја супруга ради у Берлину."
+      },
+      {
+        "de": "Die Frau trägt ein Kleid.",
+        "lv": "Жена носи хаљину."
+      },
+      {
+        "de": "Seine Frau ist Ärztin.",
+        "lv": "Његова супруга је лекарка."
+      }
+    ],
+    "tip": [
+      "С присвојним обликом Frau обично значи супруга.",
+      "Без присвојног облика обично значи жена."
+    ],
+    "important": [
+      "die Frau = жена или супруга, према контексту.",
+      "meine Frau = моја супруга.",
+      "Множина: die Frauen."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1625,26 +2561,111 @@
 
 **Audit ID:** `LRB097-0011`
 **Finding Stable ID:** `g2/a1/sr|für|idx:216|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `für|idx:216`
 **Field / path:** `lv, study.translation, study.explanation, study.examples, study.tip, study.important`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** TRANSLATION_ERROR
-**LV source (read-only):** priekš
-**DE reference (read-only):** für
 **CURRENT (captured scope):** {"lv":"O nas • O nas","study.translation":"O nas • O nas","study.explanation":"[\"Главна идеја: für е предлог кој секогаш го контролира акузативот - на латвиски обично е за или за.\",\"Когато говорим за получателя или намерението, für = за (für dich = за вас).\",\"Ko govorimo o menjavi, honorarju ali razlogu, für = for (danke für das Geschenk = hvala za darilo).\",\"Für винаги изисква винителен падеж, независимо от значението.\"]","study.examples":"[{\"de\":\"Das ist für dich.\",\"lv\":\"To je za vas\"},{\"de\":\"Danke für die Hilfe.\",\"lv\":\"Hvala za pomoč.\"},{\"de\":\"Ich kaufe ein Geschenk für meine Mutter.\",\"lv\":\"Купувам подарок за мајка ми.\"},{\"de\":\"Was bezahlst du für das Auto?\",\"lv\":\"Колку плаќате за колата?\"},{\"de\":\"Das Buch ist für Kinder.\",\"lv\":\"Книга за деца.\"},{\"de\":\"Für heute ist das genug.\",\"lv\":\"Доста е за денес.\"}]","study.tip":"[\"Für väite + akuzativ – bez razlike u značenju.\",\"Примач/намера → за • Размена/причина/плаќање → за.\"]","study.important":"[\"Für + Akkusativ секогаш, на пример für mich, für dich, für das Kind.\",\"Danke für / bezahlen für = \\\"за\\\", не \\\"преди\\\".\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “für” (lv, study.translation, study.explanation, study.examples, study.tip, study.important) against Latvian “priekš”. Production begins “{"lv":"O nas • O nas","study.translation":"O nas • O nas","study.explanation":"[\"Главна идеја: für е предлог кој секог…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"за","study":{"id":"a1-fuer","layout":"standardStudy","translation":"за","explanation":["Главна идеја: für је предлог који увек захтева акузатив и најчешће значи за.","Користи се за примаоца, сврху, разлог, накнаду или цену."],"examples":[{"de":"Das ist für dich.","lv":"Ово је за тебе."},{"de":"Danke für die Hilfe.","lv":"Хвала на помоћи."},{"de":"Ich kaufe ein Geschenk für meine Mutter.","lv":"Купујем поклон за своју мајку."},{"de":"Was bezahlst du für das Auto?","lv":"Колико плаћаш за аутомобил?"},{"de":"Das Buch ist für Kinder.","lv":"Књига је за децу."},{"de":"Für heute ist das genug.","lv":"За данас је то довољно."}],"tip":["für увек захтева акузатив.","Прималац, сврха, разлог или цена → für."],"important":["für + Akkusativ: für mich, für dich, für das Kind.","danke für и bezahlen für природно се преводе према контексту."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: für: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "für",
+  "lv": "за",
+  "level": "A1",
+  "study": {
+    "id": "a1-fuer",
+    "layout": "standardStudy",
+    "translation": "за",
+    "explanation": [
+      "Главна идеја: für је предлог који увек захтева акузатив и најчешће значи за.",
+      "Користи се за примаоца, сврху, разлог, накнаду или цену."
+    ],
+    "examples": [
+      {
+        "de": "Das ist für dich.",
+        "lv": "Ово је за тебе."
+      },
+      {
+        "de": "Danke für die Hilfe.",
+        "lv": "Хвала на помоћи."
+      },
+      {
+        "de": "Ich kaufe ein Geschenk für meine Mutter.",
+        "lv": "Купујем поклон за своју мајку."
+      },
+      {
+        "de": "Was bezahlst du für das Auto?",
+        "lv": "Колико плаћаш за аутомобил?"
+      },
+      {
+        "de": "Das Buch ist für Kinder.",
+        "lv": "Књига је за децу."
+      },
+      {
+        "de": "Für heute ist das genug.",
+        "lv": "За данас је то довољно."
+      }
+    ],
+    "tip": [
+      "für увек захтева акузатив.",
+      "Прималац, сврха, разлог или цена → für."
+    ],
+    "important": [
+      "für + Akkusativ: für mich, für dich, für das Kind.",
+      "danke für и bezahlen für природно се преводе према контексту."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1784,26 +2805,115 @@
 
 **Audit ID:** `LRB097-0012`
 **Finding Stable ID:** `g2/a1/sr|Fußball|idx:218|lv; study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `Fußball|idx:218`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** futbols
-**DE reference (read-only):** Fußball
 **CURRENT (captured scope):** {"lv":"фудбал","study.translation":"фудбал","study.explanation":"[\"Главна идеја: Fußball чешће означава фудбал као врсту спорта.\",\"Са чланом и у множини der Fußball може означавати и фудбалску лопту.\",\"Множина die Fußbälle означава фудбалске лопте, а не више врста спорта.\"]","study.examples":"[{\"de\":\"Ich spiele Fußball.\",\"lv\":\"es spēlēju futbolu. => Играм фудбал.\"},{\"de\":\"Der Fußball liegt im Garten.\",\"lv\":\"futbola bumba atrodas dārzā. => Фудбалска лопта је у врту.\"},{\"de\":\"Wir kaufen zwei Fußbälle.\",\"lv\":\"mēs pērkam divas futbola bumbas. => Куповаћемо двије фудбалске лопте.\"}]","study.comparison":"[{\"word\":\"Fußball\",\"meaning\":\"фудбал као врста спорта\",\"example\":\"Ich spiele Fußball. – Играм фудбал.\"},{\"word\":\"der Fußball\",\"meaning\":\"фудбалска лопта\",\"example\":\"Der Fußball ist neu. – Фудбалска лопта је нова.\"}]","study.tip":"[\"Без чланка spielen Fußball обично значи играти фудбал.\",\"У множини ein Fußball и die Fußbälle су фудбалска лопта и фудбалске лопте.\"]","study.important":"[\"die Fußbälle означава фудбалске лопте.\",\"Врста спорта Fußball се обично користи у једнини.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Fußball” (lv; study) against Latvian “futbols”. Production begins “{"lv":"фудбал","study.translation":"фудбал","study.explanation":"[\"Главна идеја: Fußball чешће означава фудбал као врс…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"фудбал","study":{"id":"a1-fussball-study","layout":"standardStudy","translation":"фудбал","explanation":["Главна идеја: Fußball најчешће означава фудбал као спорт.","С чланом и као бројива именица der Fußball може означавати фудбалску лопту.","Множина die Fußbälle значи фудбалске лопте."],"examples":[{"de":"Ich spiele Fußball.","lv":"Играм фудбал."},{"de":"Der Fußball liegt im Garten.","lv":"Фудбалска лопта је у башти."},{"de":"Wir kaufen zwei Fußbälle.","lv":"Купујемо две фудбалске лопте."}],"comparison":[{"word":"Fußball","meaning":"фудбал као спорт","example":"Ich spiele Fußball. – Играм фудбал."},{"word":"der Fußball","meaning":"фудбалска лопта","example":"Der Fußball ist neu. – Фудбалска лопта је нова."}],"tip":["Без члана Fußball обично значи спорт.","ein Fußball / die Fußbälle означава лопту / лопте."],"important":["die Fußbälle значи фудбалске лопте.","Спорт Fußball обично се употребљава у једнини."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: Fußball: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Fußball",
+  "de_article": "der",
+  "de_plural": "die Fußbälle",
+  "lv": "фудбал",
+  "level": "A1",
+  "study": {
+    "id": "a1-fussball-study",
+    "layout": "standardStudy",
+    "translation": "фудбал",
+    "explanation": [
+      "Главна идеја: Fußball најчешће означава фудбал као спорт.",
+      "С чланом и као бројива именица der Fußball може означавати фудбалску лопту.",
+      "Множина die Fußbälle значи фудбалске лопте."
+    ],
+    "examples": [
+      {
+        "de": "Ich spiele Fußball.",
+        "lv": "Играм фудбал."
+      },
+      {
+        "de": "Der Fußball liegt im Garten.",
+        "lv": "Фудбалска лопта је у башти."
+      },
+      {
+        "de": "Wir kaufen zwei Fußbälle.",
+        "lv": "Купујемо две фудбалске лопте."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Fußball",
+        "meaning": "фудбал као спорт",
+        "example": "Ich spiele Fußball. – Играм фудбал."
+      },
+      {
+        "word": "der Fußball",
+        "meaning": "фудбалска лопта",
+        "example": "Der Fußball ist neu. – Фудбалска лопта је нова."
+      }
+    ],
+    "tip": [
+      "Без члана Fußball обично значи спорт.",
+      "ein Fußball / die Fußbälle означава лопту / лопте."
+    ],
+    "important": [
+      "die Fußbälle значи фудбалске лопте.",
+      "Спорт Fußball обично се употребљава у једнини."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1865,26 +2975,119 @@
 
 **Audit ID:** `LRB097-0013`
 **Finding Stable ID:** `g2/a1/sr|ganz|idx:219|lv; study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `ganz|idx:219`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** vesels
-**DE reference (read-only):** ganz
 **CURRENT (captured scope):** {"lv":"Zdravo","study.translation":"Zdravo","study.explanation":"[\"Главна идеја: ganz са именицом значи цијели или сви укупно.\",\"Испред придјева или прилога ganz може значити апсолутно, сасвим или прилично.\",\"ganz није исто као заменица alles.\"]","study.examples":"[{\"de\":\"Ich arbeite den ganzen Tag.\",\"lv\":\"радим цио дан.\"},{\"de\":\"Das ganze Haus ist sauber.\",\"lv\":\"цијела кућа је чиста.\"},{\"de\":\"Das ist ganz sicher.\",\"lv\":\"то је апсолутно сигурно.\"},{\"de\":\"Das Essen ist ganz gut.\",\"lv\":\"јело је прилично добро.\"}]","study.comparison":"[{\"word\":\"ganz\",\"meaning\":\"цијели • сви укупно • апсолутно\",\"example\":\"der ganze Tag – цио дан\"},{\"word\":\"alles\",\"meaning\":\"Сите\",\"example\":\"Alles ist gut. – Све је добро.\"}]","study.tip":"[\"Испред именице ganz често означава сви или цијели.\",\"Испред придјева ganz често означава апсолутно или прилично.\"]","study.important":"[\"der ganze Tag = цио дан.\",\"alles = сви као заменица.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “ganz” (lv; study) against Latvian “vesels”. Production begins “{"lv":"Zdravo","study.translation":"Zdravo","study.explanation":"[\"Главна идеја: ganz са именицом значи цијели или сви…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"цео • сасвим","study":{"id":"a1-ganz-study","layout":"standardStudy","translation":"цео • сасвим","explanation":["Главна идеја: ganz уз именицу значи цео или сав, а испред придева и прилога може значити сасвим или прилично.","ganz није исто што и заменица alles."],"examples":[{"de":"Ich arbeite den ganzen Tag.","lv":"Радим цео дан."},{"de":"Das ganze Haus ist sauber.","lv":"Цела кућа је чиста."},{"de":"Das ist ganz sicher.","lv":"То је сасвим сигурно."},{"de":"Das Essen ist ganz gut.","lv":"Храна је прилично добра."}],"comparison":[{"word":"ganz","meaning":"цео / сав / сасвим","example":"der ganze Tag – цео дан"},{"word":"alles","meaning":"све","example":"Alles ist gut. – Све је у реду."}],"tip":["Уз именицу ganz често значи цео или сав.","Испред придева често значи сасвим или прилично."],"important":["der ganze Tag = цео дан.","alles = све као заменица."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: ganz: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ganz",
+  "lv": "цео • сасвим",
+  "level": "A1",
+  "study": {
+    "id": "a1-ganz-study",
+    "layout": "standardStudy",
+    "translation": "цео • сасвим",
+    "explanation": [
+      "Главна идеја: ganz уз именицу значи цео или сав, а испред придева и прилога може значити сасвим или прилично.",
+      "ganz није исто што и заменица alles."
+    ],
+    "examples": [
+      {
+        "de": "Ich arbeite den ganzen Tag.",
+        "lv": "Радим цео дан."
+      },
+      {
+        "de": "Das ganze Haus ist sauber.",
+        "lv": "Цела кућа је чиста."
+      },
+      {
+        "de": "Das ist ganz sicher.",
+        "lv": "То је сасвим сигурно."
+      },
+      {
+        "de": "Das Essen ist ganz gut.",
+        "lv": "Храна је прилично добра."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "ganz",
+        "meaning": "цео / сав / сасвим",
+        "example": "der ganze Tag – цео дан"
+      },
+      {
+        "word": "alles",
+        "meaning": "све",
+        "example": "Alles ist gut. – Све је у реду."
+      }
+    ],
+    "tip": [
+      "Уз именицу ganz често значи цео или сав.",
+      "Испред придева често значи сасвим или прилично."
+    ],
+    "important": [
+      "der ganze Tag = цео дан.",
+      "alles = све као заменица."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -1948,26 +3151,135 @@
 
 **Audit ID:** `LRB097-0014`
 **Finding Stable ID:** `g2/a1/sr|geben|idx:223|lv; study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `geben|idx:223`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** dot
-**DE reference (read-only):** geben
 **CURRENT (captured scope):** {"lv":"Дайте","study.translation":"Дайте","study.explanation":"[\"Ключова идея: Goeben означава да даваш.\",\"Geben се използва, когато някой дава нещо на друг човек.\",\"Ова е спротивна насока на Неман.\",\"Biti pomeni prejemati, torej biti tisti, ki nekaj prejme.\"]","study.examples":"[{\"de\":\"Gib mir bitte das Buch.\",\"lv\":\"Моля, дайте ми книгата\"},{\"de\":\"Ich gebe dir meine Nummer.\",\"lv\":\"Dajem ti svoj broj\"},{\"de\":\"Ich nehme das Buch.\",\"lv\":\"Земам книга\"},{\"de\":\"Ich bekomme ein Geschenk.\",\"lv\":\"Prejel bom darilo\"}]","study.comparison":"[{\"word\":\"geben\",\"meaning\":\"Дайте\",\"example\":\"Дај ми књигу.\"},{\"word\":\"nehmen\",\"meaning\":\"Ja uzimam\",\"example\":\"Узимам књигу.\"},{\"word\":\"bekommen\",\"meaning\":\"Prejemanje/Prejemanje\",\"example\":\"Добијам поклон.\"},{\"word\":\"bringen\",\"meaning\":\"Donesi / isporača\",\"example\":\"Доносим ти књигу.\"}]","study.tip":"{\"text\":\"Запомнете: дадете → geben • Земете → nekhmen.\"}","study.important":"[\"Гебен и немен се спротивни насоки.\",\"Бекомен значи да се прима, а не да се дава.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “geben” (lv; study) against Latvian “dot”. Production begins “{"lv":"Дайте","study.translation":"Дайте","study.explanation":"[\"Ключова идея: Goeben означава да даваш.\",\"Geben се …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"дати","study":{"id":"a1-geben","layout":"standardStudy","translation":"дати","explanation":["Главна идеја: geben значи дати нешто другој особи.","Супротан смер изражава nehmen, а bekommen значи примити."],"examples":[{"de":"Gib mir bitte das Buch.","lv":"Дај ми књигу, молим те."},{"de":"Ich gebe dir meine Nummer.","lv":"Дајем ти свој број."},{"de":"Ich nehme das Buch.","lv":"Узимам књигу."},{"de":"Ich bekomme ein Geschenk.","lv":"Добијам поклон."}],"comparison":[{"word":"geben","meaning":"дати","example":"Gib mir das Buch. – Дај ми књигу."},{"word":"nehmen","meaning":"узети","example":"Ich nehme das Buch. – Узимам књигу."},{"word":"bekommen","meaning":"добити / примити","example":"Ich bekomme ein Geschenk. – Добијам поклон."},{"word":"bringen","meaning":"донети / доставити","example":"Ich bringe dir das Buch. – Доносим ти књигу."}],"tip":{"text":"Дати некоме → geben; узети за себе → nehmen."},"important":["geben и nehmen означавају супротне смерове.","bekommen значи примити, а не дати."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: geben: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "geben",
+  "lv": "дати",
+  "level": "A1",
+  "study": {
+    "id": "a1-geben",
+    "layout": "standardStudy",
+    "translation": "дати",
+    "explanation": [
+      "Главна идеја: geben значи дати нешто другој особи.",
+      "Супротан смер изражава nehmen, а bekommen значи примити."
+    ],
+    "examples": [
+      {
+        "de": "Gib mir bitte das Buch.",
+        "lv": "Дај ми књигу, молим те."
+      },
+      {
+        "de": "Ich gebe dir meine Nummer.",
+        "lv": "Дајем ти свој број."
+      },
+      {
+        "de": "Ich nehme das Buch.",
+        "lv": "Узимам књигу."
+      },
+      {
+        "de": "Ich bekomme ein Geschenk.",
+        "lv": "Добијам поклон."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "geben",
+        "meaning": "дати",
+        "example": "Gib mir das Buch. – Дај ми књигу."
+      },
+      {
+        "word": "nehmen",
+        "meaning": "узети",
+        "example": "Ich nehme das Buch. – Узимам књигу."
+      },
+      {
+        "word": "bekommen",
+        "meaning": "добити / примити",
+        "example": "Ich bekomme ein Geschenk. – Добијам поклон."
+      },
+      {
+        "word": "bringen",
+        "meaning": "донети / доставити",
+        "example": "Ich bringe dir das Buch. – Доносим ти књигу."
+      }
+    ],
+    "tip": {
+      "text": "Дати некоме → geben; узети за себе → nehmen."
+    },
+    "important": [
+      "geben и nehmen означавају супротне смерове.",
+      "bekommen значи примити, а не дати."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2158,26 +3470,111 @@
 
 **Audit ID:** `LRB097-0015`
 **Finding Stable ID:** `g2/a1/sr|gefallen|idx:225|lv; study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `gefallen|idx:225`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** patikt
-**DE reference (read-only):** gefallen
 **CURRENT (captured scope):** {"lv":"Sviđa mi se","study.translation":"Sviđa mi se","study.explanation":"[\"Главна идеја: gefallen значи свиђати се, али је немачка реченична структура другачија од српске.\",\"Ствар која се свиђа је немачки предмет реченице.\",\"Особа којој се нешто свиђа је у датнву: mir, dir, ihm, ihr, uns, euch, ihnen.\"]","study.examples":"[{\"de\":\"Das gefällt mir.\",\"lv\":\"мне то се свиђа.\"},{\"de\":\"Gefällt dir das Kleid?\",\"lv\":\"да ли ти се свиђа хаљина?\"},{\"de\":\"Der Film gefällt uns.\",\"lv\":\"нама се свиђа филм.\"}]","study.comparison":"[{\"word\":\"gefallen\",\"meaning\":\"свиђати се • особа у датнву\",\"example\":\"Das gefällt mir. – То ми се свиђа.\"},{\"word\":\"mögen\",\"meaning\":\"свиђати се • радо одабрати\",\"example\":\"Ich mag das. – То ми се свиђа.\"}]","study.tip":"[\"Запамти конструкцију: Das gefällt mir.\",\"Не направи дослиједан превод са дослиједећим редосљедом.\"]","study.important":"[\"gefallen се користи са датнвом: mir, dir, ihm, ihr.\",\"Das gefällt mir = то ми се свиђа.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “gefallen” (lv; study) against Latvian “patikt”. Production begins “{"lv":"Sviđa mi se","study.translation":"Sviđa mi se","study.explanation":"[\"Главна идеја: gefallen значи свиђати се, …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"допадати се","study":{"id":"a1-gefallen-study","layout":"standardStudy","translation":"допадати се","explanation":["Главна идеја: gefallen значи допадати се, али је ствар која се допада субјекат немачке реченице.","Особа којој се нешто допада стоји у дативу: mir, dir, ihm, ihr, uns, euch, ihnen."],"examples":[{"de":"Das gefällt mir.","lv":"То ми се допада."},{"de":"Gefällt dir das Kleid?","lv":"Да ли ти се допада хаљина?"},{"de":"Der Film gefällt uns.","lv":"Филм нам се допада."}],"comparison":[{"word":"gefallen","meaning":"допадати се; особа у дативу","example":"Das gefällt mir. – То ми се допада."},{"word":"mögen","meaning":"волети / свиђати се","example":"Ich mag das. – То волим."}],"tip":["Запамти конструкцију: Das gefällt mir.","Не пресликавај дословно ред речи из српског."],"important":["gefallen се користи с дативом: mir, dir, ihm, ihr.","Das gefällt mir = то ми се допада."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: gefallen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gefallen",
+  "lv": "допадати се",
+  "level": "A1",
+  "study": {
+    "id": "a1-gefallen-study",
+    "layout": "standardStudy",
+    "translation": "допадати се",
+    "explanation": [
+      "Главна идеја: gefallen значи допадати се, али је ствар која се допада субјекат немачке реченице.",
+      "Особа којој се нешто допада стоји у дативу: mir, dir, ihm, ihr, uns, euch, ihnen."
+    ],
+    "examples": [
+      {
+        "de": "Das gefällt mir.",
+        "lv": "То ми се допада."
+      },
+      {
+        "de": "Gefällt dir das Kleid?",
+        "lv": "Да ли ти се допада хаљина?"
+      },
+      {
+        "de": "Der Film gefällt uns.",
+        "lv": "Филм нам се допада."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "gefallen",
+        "meaning": "допадати се; особа у дативу",
+        "example": "Das gefällt mir. – То ми се допада."
+      },
+      {
+        "word": "mögen",
+        "meaning": "волети / свиђати се",
+        "example": "Ich mag das. – То волим."
+      }
+    ],
+    "tip": [
+      "Запамти конструкцију: Das gefällt mir.",
+      "Не пресликавај дословно ред речи из српског."
+    ],
+    "important": [
+      "gefallen се користи с дативом: mir, dir, ihm, ihr.",
+      "Das gefällt mir = то ми се допада."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2237,26 +3634,112 @@
 
 **Audit ID:** `LRB097-0016`
 **Finding Stable ID:** `g2/a1/sr|Gemüse|idx:692|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `Gemüse|idx:692`
 **Field / path:** `lv; study.translation; study.explanation; study.examples`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** dārzeņi
-**DE reference (read-only):** Gemüse
 **CURRENT (captured scope):** {"lv":"Zelenchuk","study.translation":"Zelenchuk","study.explanation":"[\"Главна идеја: Зеленчук воопшто. Германскиот јазик нема множинска форма за *die Gemüse.\",\"Das Gemüse v bistvu pomeni: zelenjava na splošno.\",\"Често се опишува: во кој било род (само еднина).\"]","study.examples":"[{\"de\":\"Ich esse gern Gemüse.\",\"lv\":\"Volim da jedem povrće.\"},{\"de\":\"Ich esse gern Gemüse.\",\"lv\":\"Volim da jedem povrće.\"},{\"de\":\"Das Gemüse ist frisch.\",\"lv\":\"Povrće je sveže.\"},{\"de\":\"Wir kaufen Gemüse auf dem Markt.\",\"lv\":\"Povrće kupujemo na pijaci.\"},{\"de\":\"Ich mag Obst und Gemüse.\",\"lv\":\"Обичам плодове и зеленчуци.\"},{\"de\":\"Ich esse Gemüse.\",\"lv\":\"Ям зеленчуци.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Gemüse” (lv; study.translation; study.explanation; study.examples) against Latvian “dārzeņi”. Production begins “{"lv":"Zelenchuk","study.translation":"Zelenchuk","study.explanation":"[\"Главна идеја: Зеленчук воопшто. Германскиот ј…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"поврће","study":{"id":"a1-gemuese","layout":"standardStudy","translation":"поврће","explanation":["Главна идеја: das Gemüse означава поврће уопштено и у немачком нема редовну множину *die Gemüse.","То је именица средњег рода која се у овом значењу употребљава у једнини."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Волим да једем поврће."},{"de":"Ich esse gern Gemüse.","lv":"Волим да једем поврће."},{"de":"Das Gemüse ist frisch.","lv":"Поврће је свеже."},{"de":"Wir kaufen Gemüse auf dem Markt.","lv":"Купујемо поврће на пијаци."},{"de":"Ich mag Obst und Gemüse.","lv":"Волим воће и поврће."},{"de":"Ich esse Gemüse.","lv":"Једем поврће."}],"tip":["das Gemüse = поврће.","Користи једнину за поврће као целину."],"important":["Нетачно: die Gemüse → тачно: das Gemüse.","das Gemüse = поврће уопштено."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: Gemüse: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Gemüse",
+  "de_article": "das",
+  "lv": "поврће",
+  "level": "A1",
+  "study": {
+    "id": "a1-gemuese",
+    "layout": "standardStudy",
+    "translation": "поврће",
+    "explanation": [
+      "Главна идеја: das Gemüse означава поврће уопштено и у немачком нема редовну множину *die Gemüse.",
+      "То је именица средњег рода која се у овом значењу употребљава у једнини."
+    ],
+    "examples": [
+      {
+        "de": "Ich esse gern Gemüse.",
+        "lv": "Волим да једем поврће."
+      },
+      {
+        "de": "Ich esse gern Gemüse.",
+        "lv": "Волим да једем поврће."
+      },
+      {
+        "de": "Das Gemüse ist frisch.",
+        "lv": "Поврће је свеже."
+      },
+      {
+        "de": "Wir kaufen Gemüse auf dem Markt.",
+        "lv": "Купујемо поврће на пијаци."
+      },
+      {
+        "de": "Ich mag Obst und Gemüse.",
+        "lv": "Волим воће и поврће."
+      },
+      {
+        "de": "Ich esse Gemüse.",
+        "lv": "Једем поврће."
+      }
+    ],
+    "tip": [
+      "das Gemüse = поврће.",
+      "Користи једнину за поврће као целину."
+    ],
+    "important": [
+      "Нетачно: die Gemüse → тачно: das Gemüse.",
+      "das Gemüse = поврће уопштено."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2386,26 +3869,113 @@
 
 **Audit ID:** `LRB097-0017`
 **Finding Stable ID:** `g2/a1/sr|Geschichte|idx:233|lv; study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `Geschichte|idx:233`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_TARGET_LANGUAGE
-**LV source (read-only):** stāsts
-**DE reference (read-only):** Geschichte
 **CURRENT (captured scope):** {"lv":"прича","study.translation":"прича","study.explanation":"[\"Главна идеја: Geschichte може означавати причу или историју.\",\"Множина die Geschichten обично означава приче.\",\"Када означава историју, реч Geschichte се обично користи у једнини.\"]","study.examples":"[{\"de\":\"Er erzählt eine Geschichte.\",\"lv\":\"он причава причу.\"},{\"de\":\"Ich lerne Geschichte.\",\"lv\":\"учим историју.\"},{\"de\":\"Das ist die Geschichte Deutschlands.\",\"lv\":\"то је историја Њемачке.\"}]","study.comparison":"[{\"word\":\"eine Geschichte\",\"meaning\":\"прича\",\"example\":\"eine interessante Geschichte – занимљива прича\"},{\"word\":\"Geschichte\",\"meaning\":\"историја\",\"example\":\"Geschichte lernen – учити историју\"}]","study.tip":"[\"Са eine и у множини обично је ријеч о причи.\",\"Као предмет наставе Geschichte означава историју.\"]","study.important":"[\"die Geschichten = приче.\",\"Geschichte као историја је обично у једнини.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Geschichte” (lv; study) against Latvian “stāsts”. Production begins “{"lv":"прича","study.translation":"прича","study.explanation":"[\"Главна идеја: Geschichte може означавати причу или ис…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"прича • историја","study":{"id":"a1-geschichte-study","layout":"standardStudy","translation":"прича • историја","explanation":["Главна идеја: Geschichte може значити прича или историја.","Множина die Geschichten обично означава приче, а као школски предмет Geschichte значи историја."],"examples":[{"de":"Er erzählt eine Geschichte.","lv":"Он прича причу."},{"de":"Ich lerne Geschichte.","lv":"Учим историју."},{"de":"Das ist die Geschichte Deutschlands.","lv":"То је историја Немачке."}],"comparison":[{"word":"eine Geschichte","meaning":"прича","example":"eine interessante Geschichte – занимљива прича"},{"word":"Geschichte","meaning":"историја","example":"Geschichte lernen – учити историју"}],"tip":["С чланом eine и у множини обично значи прича.","Као предмет без члана значи историја."],"important":["die Geschichten = приче.","Geschichte у значењу историје обично је у једнини."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: Geschichte: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Geschichte",
+  "de_article": "die",
+  "de_plural": "die Geschichten",
+  "lv": "прича • историја",
+  "level": "A1",
+  "study": {
+    "id": "a1-geschichte-study",
+    "layout": "standardStudy",
+    "translation": "прича • историја",
+    "explanation": [
+      "Главна идеја: Geschichte може значити прича или историја.",
+      "Множина die Geschichten обично означава приче, а као школски предмет Geschichte значи историја."
+    ],
+    "examples": [
+      {
+        "de": "Er erzählt eine Geschichte.",
+        "lv": "Он прича причу."
+      },
+      {
+        "de": "Ich lerne Geschichte.",
+        "lv": "Учим историју."
+      },
+      {
+        "de": "Das ist die Geschichte Deutschlands.",
+        "lv": "То је историја Немачке."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "eine Geschichte",
+        "meaning": "прича",
+        "example": "eine interessante Geschichte – занимљива прича"
+      },
+      {
+        "word": "Geschichte",
+        "meaning": "историја",
+        "example": "Geschichte lernen – учити историју"
+      }
+    ],
+    "tip": [
+      "С чланом eine и у множини обично значи прича.",
+      "Као предмет без члана значи историја."
+    ],
+    "important": [
+      "die Geschichten = приче.",
+      "Geschichte у значењу историје обично је у једнини."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2467,26 +4037,112 @@
 
 **Audit ID:** `LRB097-0018`
 **Finding Stable ID:** `g2/a1/sr|Geschwister|idx:234|lv, study|LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `Geschwister|idx:234`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR
-**LV source (read-only):** brāļi un māsas
-**DE reference (read-only):** Geschwister
 **CURRENT (captured scope):** {"lv":"браћа и сестре","study.translation":"браћа и сестре","study.explanation":"[\"Главна идеја: Geschwister означава браћу и сестре заједно.\",\"Ова реч се обично користи само у множини.\",\"За једну особу користи Bruder или Schwester.\"]","study.examples":"[{\"de\":\"Ich habe zwei Geschwister.\",\"lv\":\"имам двоје браће или сестара.\"},{\"de\":\"Meine Geschwister wohnen in Berlin.\",\"lv\":\"моја браћа и сестре живе у Берлину.\"}]","study.comparison":"[{\"word\":\"Geschwister\",\"meaning\":\"браћа и сестре\",\"example\":\"Meine Geschwister – моја браћа и сестре\"},{\"word\":\"Bruder\",\"meaning\":\"Брат\",\"example\":\"mein Bruder – мој брат\"},{\"word\":\"Schwester\",\"meaning\":\"Sestro\",\"example\":\"meine Schwester – моја сестра\"}]","study.tip":"[\"Geschwister се обично користи у множини.\",\"За једну особу одабери Bruder или Schwester.\"]","study.important":"[\"Не користи ein Geschwister као обичну А1 форму у једнини.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Geschwister” (lv, study) against Latvian “brāļi un māsas”. Production begins “{"lv":"браћа и сестре","study.translation":"браћа и сестре","study.explanation":"[\"Главна идеја: Geschwister означава …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"браћа и сестре","study":{"id":"a1-geschwister-study","layout":"standardStudy","translation":"браћа и сестре","explanation":["Главна идеја: Geschwister означава браћу и сестре заједно и обично се употребљава само у множини.","За једну особу користи Bruder или Schwester."],"examples":[{"de":"Ich habe zwei Geschwister.","lv":"Имам двоје браће и сестара."},{"de":"Meine Geschwister wohnen in Berlin.","lv":"Моја браћа и сестре живе у Берлину."}],"comparison":[{"word":"Geschwister","meaning":"браћа и сестре","example":"Meine Geschwister – моја браћа и сестре"},{"word":"Bruder","meaning":"брат","example":"mein Bruder – мој брат"},{"word":"Schwester","meaning":"сестра","example":"meine Schwester – моја сестра"}],"tip":["Geschwister се обично употребљава у множини.","За једну особу изабери Bruder или Schwester."],"important":["Не користи ein Geschwister као уобичајену А1 једнину."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{}]}}}
+**Note:** OWNER approved override: Geschwister: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Geschwister",
+  "de_article": "die",
+  "lv": "браћа и сестре",
+  "level": "A1",
+  "study": {
+    "id": "a1-geschwister-study",
+    "layout": "standardStudy",
+    "translation": "браћа и сестре",
+    "explanation": [
+      "Главна идеја: Geschwister означава браћу и сестре заједно и обично се употребљава само у множини.",
+      "За једну особу користи Bruder или Schwester."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe zwei Geschwister.",
+        "lv": "Имам двоје браће и сестара."
+      },
+      {
+        "de": "Meine Geschwister wohnen in Berlin.",
+        "lv": "Моја браћа и сестре живе у Берлину."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Geschwister",
+        "meaning": "браћа и сестре",
+        "example": "Meine Geschwister – моја браћа и сестре"
+      },
+      {
+        "word": "Bruder",
+        "meaning": "брат",
+        "example": "mein Bruder – мој брат"
+      },
+      {
+        "word": "Schwester",
+        "meaning": "сестра",
+        "example": "meine Schwester – моја сестра"
+      }
+    ],
+    "tip": [
+      "Geschwister се обично употребљава у множини.",
+      "За једну особу изабери Bruder или Schwester."
+    ],
+    "important": [
+      "Не користи ein Geschwister као уобичајену А1 једнину."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2547,26 +4203,111 @@
 
 **Audit ID:** `LRB097-0019`
 **Finding Stable ID:** `g2/a1/sr|gleich|idx:243|lv, study|LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `gleich|idx:243`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR
-**LV source (read-only):** tūlīt
-**DE reference (read-only):** gleich
 **CURRENT (captured scope):** {"lv":"Uvijek • Jednako","study.translation":"Uvijek • Jednako","study.explanation":"[\"Osnovna ideja: gleich vormenno znači odmah, relativno podjednako.\",\"По отношение на времето, gleich = веднага/след миг (Ich komme gleich. = Ще бъда там сега.).\",\"Кога станува збор за споредба, gleich = еднакво/исто (die gleiche Farbe = иста боја).\",\"Gleich може да се користи и како дативен предлог што значи како (gleich mir = како мене).\"]","study.examples":"[{\"de\":\"Ich komme gleich.\",\"lv\":\"Odmah će se vratiti.\"},{\"de\":\"Wir haben die gleiche Farbe.\",\"lv\":\"Imamo istu boju.\"},{\"de\":\"Das Essen ist gleich fertig.\",\"lv\":\"Храната ще бъде готова скоро.\"},{\"de\":\"Beide Wege sind gleich lang.\",\"lv\":\"И двата пътя са с еднаква дължина.\"},{\"de\":\"Bis gleich!\",\"lv\":\"До скоро!\"},{\"de\":\"Sie sind gleich groß.\",\"lv\":\"Тие се со иста висина.\"}]","study.tip":"[\"Čez nekaj časa (→trenutno).\",\"За споредба (исто) → исто.\"]","study.important":"[\"Gleich = takojšen (čas) ALI enak (primerjava).\",\"Bis gleich! = до скоро! - обичайните думи за раздяла.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “gleich” (lv, study) against Latvian “tūlīt”. Production begins “{"lv":"Uvijek • Jednako","study.translation":"Uvijek • Jednako","study.explanation":"[\"Osnovna ideja: gleich vormenno …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"одмах • исти","study":{"id":"a1-gleich","layout":"standardStudy","translation":"одмах • исти","explanation":["Главна идеја: gleich у временском контексту значи одмах или ускоро, а у поређењу исти или једнак.","Контекст показује које је значење потребно."],"examples":[{"de":"Ich komme gleich.","lv":"Одмах долазим."},{"de":"Wir haben die gleiche Farbe.","lv":"Имамо исту боју."},{"de":"Das Essen ist gleich fertig.","lv":"Храна ће ускоро бити готова."},{"de":"Beide Wege sind gleich lang.","lv":"Оба пута су једнако дуга."},{"de":"Bis gleich!","lv":"Видимо се ускоро!"},{"de":"Sie sind gleich groß.","lv":"Исте су висине."}],"tip":["Време → одмах/ускоро.","Поређење → исти/једнак."],"important":["gleich = одмах/ускоро или исти/једнак.","Bis gleich! је уобичајен поздрав: видимо се ускоро!"],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: gleich: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gleich",
+  "lv": "одмах • исти",
+  "level": "A1",
+  "study": {
+    "id": "a1-gleich",
+    "layout": "standardStudy",
+    "translation": "одмах • исти",
+    "explanation": [
+      "Главна идеја: gleich у временском контексту значи одмах или ускоро, а у поређењу исти или једнак.",
+      "Контекст показује које је значење потребно."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme gleich.",
+        "lv": "Одмах долазим."
+      },
+      {
+        "de": "Wir haben die gleiche Farbe.",
+        "lv": "Имамо исту боју."
+      },
+      {
+        "de": "Das Essen ist gleich fertig.",
+        "lv": "Храна ће ускоро бити готова."
+      },
+      {
+        "de": "Beide Wege sind gleich lang.",
+        "lv": "Оба пута су једнако дуга."
+      },
+      {
+        "de": "Bis gleich!",
+        "lv": "Видимо се ускоро!"
+      },
+      {
+        "de": "Sie sind gleich groß.",
+        "lv": "Исте су висине."
+      }
+    ],
+    "tip": [
+      "Време → одмах/ускоро.",
+      "Поређење → исти/једнак."
+    ],
+    "important": [
+      "gleich = одмах/ускоро или исти/једнак.",
+      "Bis gleich! је уобичајен поздрав: видимо се ускоро!"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2692,26 +4433,95 @@
 
 **Audit ID:** `LRB097-0020`
 **Finding Stable ID:** `g2/a1/sr|groß|idx:250|lv, study|LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `groß|idx:250`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR
-**LV source (read-only):** liels
-**DE reference (read-only):** groß
 **CURRENT (captured scope):** {"lv":"Голям","study.translation":"Голям","study.explanation":"[\"Главна идеја: Голема големина или за висока личност.\",\"Groß на първо място означава: голям размер.\",\"Zanj so pogosto značilne: splošne dimenzije.\"]","study.examples":"[{\"de\":\"Das Haus ist groß.\",\"lv\":\"Куќата е голема.\"},{\"de\":\"Berlin ist eine große Stadt.\",\"lv\":\"Куќата е голема.\"},{\"de\":\"Er ist groß.\",\"lv\":\"Takole visok je.\"},{\"de\":\"Das Zimmer ist groß.\",\"lv\":\"Стаята е голяма.\"}]","study.tip":"[\"Брутно = голямо\",\"Користете Groß кога контекстот се совпаѓа со ова значење.\"]","study.important":"[\"За една личност, Er ist groß значи висок.\",\"Бруто = голем.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “groß” (lv, study) against Latvian “liels”. Production begins “{"lv":"Голям","study.translation":"Голям","study.explanation":"[\"Главна идеја: Голема големина или за висока личност.\…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"велик • висок","study":{"id":"a1-gross-study","layout":"standardStudy","translation":"велик • висок","explanation":["Главна идеја: groß значи велик, а за висину особе обично висок.","Описује величину предмета, места или града; за човека не значи широк или дебео."],"examples":[{"de":"Das Haus ist groß.","lv":"Кућа је велика."},{"de":"Berlin ist eine große Stadt.","lv":"Берлин је велики град."},{"de":"Er ist groß.","lv":"Он је висок."},{"de":"Das Zimmer ist groß.","lv":"Соба је велика."}],"tip":["За предмет или место groß = велик.","За човека groß = висок."],"important":["Er ist groß значи: он је висок.","За предмет или место groß обично значи велик."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: groß: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "groß",
+  "lv": "велик • висок",
+  "level": "A1",
+  "study": {
+    "id": "a1-gross-study",
+    "layout": "standardStudy",
+    "translation": "велик • висок",
+    "explanation": [
+      "Главна идеја: groß значи велик, а за висину особе обично висок.",
+      "Описује величину предмета, места или града; за човека не значи широк или дебео."
+    ],
+    "examples": [
+      {
+        "de": "Das Haus ist groß.",
+        "lv": "Кућа је велика."
+      },
+      {
+        "de": "Berlin ist eine große Stadt.",
+        "lv": "Берлин је велики град."
+      },
+      {
+        "de": "Er ist groß.",
+        "lv": "Он је висок."
+      },
+      {
+        "de": "Das Zimmer ist groß.",
+        "lv": "Соба је велика."
+      }
+    ],
+    "tip": [
+      "За предмет или место groß = велик.",
+      "За човека groß = висок."
+    ],
+    "important": [
+      "Er ist groß значи: он је висок.",
+      "За предмет или место groß обично значи велик."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2814,26 +4624,112 @@
 
 **Audit ID:** `LRB097-0021`
 **Finding Stable ID:** `g2/a1/sr|Großeltern|idx:251|lv, study|LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `Großeltern|idx:251`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR
-**LV source (read-only):** vecvecāki
-**DE reference (read-only):** Großeltern
 **CURRENT (captured scope):** {"lv":"баке и дједови","study.translation":"баке и дједови","study.explanation":"[\"Главна идеја: Großeltern означава бабу и дједо заједно.\",\"Ову реч користи у множини.\",\"У једнини користи Großmutter или Großvater.\"]","study.examples":"[{\"de\":\"Meine Großeltern wohnen auf dem Land.\",\"lv\":\"моје баке и дједови живе на селу.\"},{\"de\":\"Ich besuche meine Großeltern.\",\"lv\":\"ес апцiемоју саве вецвецакус.\"}]","study.comparison":"[{\"word\":\"Großeltern\",\"meaning\":\"баке и дједови\",\"example\":\"meine Großeltern – моје баке и дједове\"},{\"word\":\"Großmutter\",\"meaning\":\"Баба\",\"example\":\"meine Großmutter – моја баба\"},{\"word\":\"Großvater\",\"meaning\":\"Дедо\",\"example\":\"mein Großvater – мој дједо\"}]","study.tip":"[\"Großeltern је множина.\",\"За једну особу користи Großmutter или Großvater.\"]","study.important":"[\"die Großeltern = баке и дједови.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Großeltern” (lv, study) against Latvian “vecvecāki”. Production begins “{"lv":"баке и дједови","study.translation":"баке и дједови","study.explanation":"[\"Главна идеја: Großeltern означава б…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"баке и деке","study":{"id":"a1-grosseltern-study","layout":"standardStudy","translation":"баке и деке","explanation":["Главна идеја: Großeltern означава баку и деку заједно и употребљава се у множини.","За једну особу користи Großmutter или Großvater."],"examples":[{"de":"Meine Großeltern wohnen auf dem Land.","lv":"Моје баке и деке живе на селу."},{"de":"Ich besuche meine Großeltern.","lv":"Посећујем своје баке и деке."}],"comparison":[{"word":"Großeltern","meaning":"баке и деке","example":"meine Großeltern – моје баке и деке"},{"word":"Großmutter","meaning":"бака","example":"meine Großmutter – моја бака"},{"word":"Großvater","meaning":"дека","example":"mein Großvater – мој дека"}],"tip":["Großeltern је множина.","За једну особу користи Großmutter или Großvater."],"important":["die Großeltern = баке и деке."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{}]}}}
+**Note:** OWNER approved override: Großeltern: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Großeltern",
+  "de_article": "die",
+  "lv": "баке и деке",
+  "level": "A1",
+  "study": {
+    "id": "a1-grosseltern-study",
+    "layout": "standardStudy",
+    "translation": "баке и деке",
+    "explanation": [
+      "Главна идеја: Großeltern означава баку и деку заједно и употребљава се у множини.",
+      "За једну особу користи Großmutter или Großvater."
+    ],
+    "examples": [
+      {
+        "de": "Meine Großeltern wohnen auf dem Land.",
+        "lv": "Моје баке и деке живе на селу."
+      },
+      {
+        "de": "Ich besuche meine Großeltern.",
+        "lv": "Посећујем своје баке и деке."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Großeltern",
+        "meaning": "баке и деке",
+        "example": "meine Großeltern – моје баке и деке"
+      },
+      {
+        "word": "Großmutter",
+        "meaning": "бака",
+        "example": "meine Großmutter – моја бака"
+      },
+      {
+        "word": "Großvater",
+        "meaning": "дека",
+        "example": "mein Großvater – мој дека"
+      }
+    ],
+    "tip": [
+      "Großeltern је множина.",
+      "За једну особу користи Großmutter или Großvater."
+    ],
+    "important": [
+      "die Großeltern = баке и деке."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -2894,26 +4790,115 @@
 
 **Audit ID:** `LRB097-0022`
 **Finding Stable ID:** `g2/a1/sr|gut|idx:259|lv, study|LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `gut|idx:259`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH_AND_TRANSLATION_ERROR
-**LV source (read-only):** labs
-**DE reference (read-only):** gut
 **CURRENT (captured scope):** {"lv":"U redu","study.translation":"U redu","study.explanation":"[\"Основна идея: Gut - прилагателно/наречие, добър, успешен, добре.\",\"Червата описват качество, здраве или състояние на нещата (Es geht mir Gut. = Справям се добре).\",\"V vljudni frazi \\\"guten Tag/Abend/Morgen Gut\\\" se konec po upogibanju spremeni.\",\"Ако Gut описва глагол, тогава той е наречие (gut schwimmen = да плувам добре).\",\"Ne smemo ga zamenjati z das Gut - to je samostalnik (lastnina, lastnina) z veliko črko in členom.\"]","study.examples":"[{\"de\":\"Das Essen ist gut.\",\"lv\":\"Храната е добра.\"},{\"de\":\"Wie geht es dir? – Gut, danke!\",\"lv\":\"Како си - добро благодарам!\"},{\"de\":\"Er spricht gut Deutsch.\",\"lv\":\"Добро зборува германски.\"},{\"de\":\"Guten Morgen!\",\"lv\":\"Dobro jutro\"},{\"de\":\"Das ist eine gute Idee.\",\"lv\":\"Това е добра идея.\"},{\"de\":\"Alles ist gut.\",\"lv\":\"Се е во ред\"}]","study.tip":"[\"Гът без член – прилагателно/наречие – добър/добре.\",\"Das Gut с главна буква и член е съвсем различна дума - съществително (имот, имоти).\"]","study.important":"[\"Gut = добър/добър (прилагателно/прилагателно).\",\"Das Gut = собственост/имот (съществително) – да не се бърка с червата.\",\"Гутен Таг/Морген/Абенд – промени во цревата кои завршуваат по свиокот.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “gut” (lv, study) against Latvian “labs”. Production begins “{"lv":"U redu","study.translation":"U redu","study.explanation":"[\"Основна идея: Gut - прилагателно/наречие, добър, ус…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"добар • добро","study":{"id":"a1-gut-study","layout":"standardStudy","translation":"добар • добро","explanation":["Главна идеја: gut је придев или прилог и значи добар или добро.","Описује квалитет, стање или начин радње; у поздравима има облик Guten.","Не мешај га с именицом das Gut."],"examples":[{"de":"Das Essen ist gut.","lv":"Храна је добра."},{"de":"Wie geht es dir? – Gut, danke!","lv":"Како си? – Добро, хвала!"},{"de":"Er spricht gut Deutsch.","lv":"Он добро говори немачки."},{"de":"Guten Morgen!","lv":"Добро јутро!"},{"de":"Das ist eine gute Idee.","lv":"То је добра идеја."},{"de":"Alles ist gut.","lv":"Све је у реду."}],"tip":["gut без члана = добар/добро.","das Gut је друга реч: имање или добро."],"important":["gut = добар/добро.","das Gut = имање/добро као именица.","Guten Morgen / Guten Tag / Guten Abend имају наставак -en."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** OWNER approved override: gut: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gut",
+  "lv": "добар • добро",
+  "level": "A1",
+  "study": {
+    "id": "a1-gut-study",
+    "layout": "standardStudy",
+    "translation": "добар • добро",
+    "explanation": [
+      "Главна идеја: gut је придев или прилог и значи добар или добро.",
+      "Описује квалитет, стање или начин радње; у поздравима има облик Guten.",
+      "Не мешај га с именицом das Gut."
+    ],
+    "examples": [
+      {
+        "de": "Das Essen ist gut.",
+        "lv": "Храна је добра."
+      },
+      {
+        "de": "Wie geht es dir? – Gut, danke!",
+        "lv": "Како си? – Добро, хвала!"
+      },
+      {
+        "de": "Er spricht gut Deutsch.",
+        "lv": "Он добро говори немачки."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "Добро јутро!"
+      },
+      {
+        "de": "Das ist eine gute Idee.",
+        "lv": "То је добра идеја."
+      },
+      {
+        "de": "Alles ist gut.",
+        "lv": "Све је у реду."
+      }
+    ],
+    "tip": [
+      "gut без члана = добар/добро.",
+      "das Gut је друга реч: имање или добро."
+    ],
+    "important": [
+      "gut = добар/добро.",
+      "das Gut = имање/добро као именица.",
+      "Guten Morgen / Guten Tag / Guten Abend имају наставак -en."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3063,26 +5048,137 @@
 
 **Audit ID:** `LRB097-0023`
 **Finding Stable ID:** `g2/a1/sr|haben|idx:261|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `haben|idx:261`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** man ir
-**DE reference (read-only):** haben
 **CURRENT (captured scope):** {"lv":"Имам","study.translation":"Имам","study.explanation":"[\"Glavna ideja: haben pomeni, da nekdo ima ali ima dostop do nečesa.\",\"Латвиската дативна конструкција „I/you have“ на германски е номинатив + haben: Ich habe..., Du hast..., Er Hat... не е *mir habe.\",\"Habenu sledi akuzativ: Ich habe ein Auto. = Imam avtomobil.\",\"Хабен се користи и како помошен глагол во перфектот: Ich habe gelernt.\"]","study.examples":"[{\"de\":\"Ich habe ein Auto.\",\"lv\":\"Имам кола\"},{\"de\":\"Hast du Zeit?\",\"lv\":\"Imate li vremena\"},{\"de\":\"Wir haben Hunger.\",\"lv\":\"Ние сме гладни\"},{\"de\":\"Ich habe das gemacht.\",\"lv\":\"Направих го\"}]","study.comparison":"[{\"word\":\"haben\",\"meaning\":\"Имам\",\"example\":\"Ich habe Zeit. = Имам времена.\"},{\"word\":\"sein\",\"meaning\":\"Бъди\",\"example\":\"Ich bin hier. = Ја сам овде.\"},{\"word\":\"bekommen\",\"meaning\":\"Добијте го\",\"example\":\"Ich bekomme ein Geschenk. = Добијам поклон.\"},{\"word\":\"machen\",\"meaning\":\"Pravâ / I'm doing\",\"example\":\"Ich mache das. = Радим то.\"}]","study.tip":"{\"text\":\"Запомнете: Ich habe → Да.\"}","study.important":"[\"Latvijski \\\"imam\\\" = njemački Ich habe + akuzativ. Nemojte koristiti dativ: netačan *mir habe.\",\"Со сеин и датив падеж: Мир ист калт. = Ладно ми е. (тоа не е губење!)\",\"Совршено: Ich habe gelernt = научив.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “haben” (lv, study) against Latvian “man ir”. Production begins “{"lv":"Имам","study.translation":"Имам","study.explanation":"[\"Glavna ideja: haben pomeni, da nekdo ima ali ima dostop…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"имати","study":{"id":"a1-haben","layout":"standardStudy","translation":"имати","explanation":["Главна идеја: haben значи имати и гради се са субјектом у номинативу: Ich habe, du hast, er hat.","После haben предмет је у акузативу, а глагол се користи и као помоћни у перфекту."],"examples":[{"de":"Ich habe ein Auto.","lv":"Имам аутомобил."},{"de":"Hast du Zeit?","lv":"Имаш ли времена?"},{"de":"Wir haben Hunger.","lv":"Гладни смо."},{"de":"Ich habe das gemacht.","lv":"Урадио сам то."}],"comparison":[{"word":"haben","meaning":"имати","example":"Ich habe Zeit. – Имам времена."},{"word":"sein","meaning":"бити","example":"Ich bin hier. – Овде сам."},{"word":"bekommen","meaning":"добити","example":"Ich bekomme ein Geschenk. – Добијам поклон."},{"word":"machen","meaning":"радити / правити","example":"Ich mache das. – Радим то."}],"tip":{"text":"Ich habe = ја имам."},"important":["После haben предмет је у акузативу: Ich habe ein Auto.","Mir ist kalt користи sein и датив, а не haben.","У перфекту: Ich habe gelernt."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{},{}]}}}
+**Note:** OWNER approved override: haben: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "haben",
+  "lv": "имати",
+  "level": "A1",
+  "study": {
+    "id": "a1-haben",
+    "layout": "standardStudy",
+    "translation": "имати",
+    "explanation": [
+      "Главна идеја: haben значи имати и гради се са субјектом у номинативу: Ich habe, du hast, er hat.",
+      "После haben предмет је у акузативу, а глагол се користи и као помоћни у перфекту."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe ein Auto.",
+        "lv": "Имам аутомобил."
+      },
+      {
+        "de": "Hast du Zeit?",
+        "lv": "Имаш ли времена?"
+      },
+      {
+        "de": "Wir haben Hunger.",
+        "lv": "Гладни смо."
+      },
+      {
+        "de": "Ich habe das gemacht.",
+        "lv": "Урадио сам то."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "haben",
+        "meaning": "имати",
+        "example": "Ich habe Zeit. – Имам времена."
+      },
+      {
+        "word": "sein",
+        "meaning": "бити",
+        "example": "Ich bin hier. – Овде сам."
+      },
+      {
+        "word": "bekommen",
+        "meaning": "добити",
+        "example": "Ich bekomme ein Geschenk. – Добијам поклон."
+      },
+      {
+        "word": "machen",
+        "meaning": "радити / правити",
+        "example": "Ich mache das. – Радим то."
+      }
+    ],
+    "tip": {
+      "text": "Ich habe = ја имам."
+    },
+    "important": [
+      "После haben предмет је у акузативу: Ich habe ein Auto.",
+      "Mir ist kalt користи sein и датив, а не haben.",
+      "У перфекту: Ich habe gelernt."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3268,26 +5364,139 @@
 
 **Audit ID:** `LRB097-0024`
 **Finding Stable ID:** `g2/a1/sr|halten|idx:265|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `halten|idx:265`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** turēt
-**DE reference (read-only):** halten
 **CURRENT (captured scope):** {"lv":"Zadržite • Ustavite","study.translation":"Zadržite • Ustavite","study.explanation":"[\"Ключова идея: „halten“ означава „задържане“, но „транспортиране“ или „движение“ може да означава „спиране“ или „спиране“.\",\"Когато артикулът е в ръката, халтенът обикновено трябва да се държи.\",\"U autobusu, vozu ili automobilu \\\"stop\\\" često znači stati.\",\"Во популарната фраза ichhalte das für... значи да се брои.\"]","study.examples":"[{\"de\":\"Ich halte die Tasche.\",\"lv\":\"Аз държа чантата\"},{\"de\":\"Der Bus hält hier.\",\"lv\":\"Автобусът спира тук.\"},{\"de\":\"Bitte halten Sie an.\",\"lv\":\"Ве молиме престанете\"},{\"de\":\"Ich halte das für richtig.\",\"lv\":\"Мислам дека тоа е точно.\"}]","study.comparison":"[{\"word\":\"halten\",\"meaning\":\"Држете/Стоп\",\"example\":\"Der Bus hält. = Аутобус стаје.\"},{\"word\":\"nehmen\",\"meaning\":\"-Res?\",\"example\":\"Ich nehme die Tasche. = Узимам торбу.\"},{\"word\":\"anhalten\",\"meaning\":\"-Nehaj.\",\"example\":\"Bitte halten Sie an. = Молим вас, стајте.\"},{\"word\":\"denken\",\"meaning\":\"Hajde momci. Razmisli o tome.\",\"example\":\"Ich denke, das ist richtig. = Мислим да је то тачно.\"}]","study.tip":"{\"text\":\"Запомнете: в ръка → стоп • Транспорт → стоп/стоп.\"}","study.important":"[\"Halten nije samo \\\"zadarzhane\\\". Prilikom transporta to često znači zaustavljanje.\",\"Ichhalte das für... je besedna zveza: \\\"Verjamem, da...\\\".\",\"Bitte halten Sie an користи одвојив глагол anhalten.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “halten” (lv, study) against Latvian “turēt”. Production begins “{"lv":"Zadržite • Ustavite","study.translation":"Zadržite • Ustavite","study.explanation":"[\"Ключова идея: „halten“ оз…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"држати • зауставити се","study":{"id":"a1-halten","layout":"standardStudy","translation":"држати • зауставити се","explanation":["Главна идеја: halten најчешће значи држати.","За аутобус или воз може значити стати, а раздвојиви anhalten значи зауставити се или зауставити нешто.","etwas für ... halten значи сматрати нешто нечим."],"examples":[{"de":"Ich halte die Tasche.","lv":"Држим торбу."},{"de":"Der Bus hält hier.","lv":"Аутобус овде стаје."},{"de":"Bitte halten Sie an.","lv":"Молим вас, зауставите се."},{"de":"Ich halte das für richtig.","lv":"Сматрам да је то исправно."}],"comparison":[{"word":"halten","meaning":"држати; за превоз и стати","example":"Der Bus hält. – Аутобус стаје."},{"word":"nehmen","meaning":"узети","example":"Ich nehme die Tasche. – Узимам торбу."},{"word":"anhalten","meaning":"зауставити се / зауставити","example":"Bitte halten Sie an. – Молим вас, зауставите се."},{"word":"denken","meaning":"мислити","example":"Ich denke, das ist richtig. – Мислим да је то исправно."}],"tip":{"text":"Предмет држати → halten; зауставити се → anhalten; превоз стаје → hält."},"important":["halten најчешће значи држати.","Der Bus hält значи да аутобус стаје.","Bitte halten Sie an користи раздвојиви глагол anhalten."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{},{}]}}}
+**Note:** OWNER approved override: halten: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "halten",
+  "lv": "држати • зауставити се",
+  "level": "A1",
+  "study": {
+    "id": "a1-halten",
+    "layout": "standardStudy",
+    "translation": "држати • зауставити се",
+    "explanation": [
+      "Главна идеја: halten најчешће значи држати.",
+      "За аутобус или воз може значити стати, а раздвојиви anhalten значи зауставити се или зауставити нешто.",
+      "etwas für ... halten значи сматрати нешто нечим."
+    ],
+    "examples": [
+      {
+        "de": "Ich halte die Tasche.",
+        "lv": "Држим торбу."
+      },
+      {
+        "de": "Der Bus hält hier.",
+        "lv": "Аутобус овде стаје."
+      },
+      {
+        "de": "Bitte halten Sie an.",
+        "lv": "Молим вас, зауставите се."
+      },
+      {
+        "de": "Ich halte das für richtig.",
+        "lv": "Сматрам да је то исправно."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "halten",
+        "meaning": "држати; за превоз и стати",
+        "example": "Der Bus hält. – Аутобус стаје."
+      },
+      {
+        "word": "nehmen",
+        "meaning": "узети",
+        "example": "Ich nehme die Tasche. – Узимам торбу."
+      },
+      {
+        "word": "anhalten",
+        "meaning": "зауставити се / зауставити",
+        "example": "Bitte halten Sie an. – Молим вас, зауставите се."
+      },
+      {
+        "word": "denken",
+        "meaning": "мислити",
+        "example": "Ich denke, das ist richtig. – Мислим да је то исправно."
+      }
+    ],
+    "tip": {
+      "text": "Предмет држати → halten; зауставити се → anhalten; превоз стаје → hält."
+    },
+    "important": [
+      "halten најчешће значи држати.",
+      "Der Bus hält значи да аутобус стаје.",
+      "Bitte halten Sie an користи раздвојиви глагол anhalten."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3468,26 +5677,111 @@
 
 **Audit ID:** `LRB097-0025`
 **Finding Stable ID:** `g2/a1/sr|Hand|idx:267|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `Hand|idx:267`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** plauksta
-**DE reference (read-only):** Hand
 **CURRENT (captured scope):** {"lv":"дланица","study.translation":"дланица","study.explanation":"[\"Главна идеја: die Hand означава дланицу.\",\"На немачком су Arm и Hand двије одвојене речи.\",\"У званичном језику на српском реч рука често може означавати и Arm и Hand.\"]","study.examples":"[{\"de\":\"Ich wasche meine Hände.\",\"lv\":\"перем руке.\"},{\"de\":\"Sie hält das Glas in der Hand.\",\"lv\":\"она держава чашу у дланици.\"},{\"de\":\"Mein Arm tut weh.\",\"lv\":\"боли ме рука.\"}]","study.comparison":"[{\"word\":\"die Hand\",\"meaning\":\"дланица\",\"example\":\"in der Hand – у дланици\"},{\"word\":\"der Arm\",\"meaning\":\"Ruka\",\"example\":\"Mein Arm tut weh. – Боли ме рука.\"}]","study.tip":"[\"Hand = дланица.\",\"Arm = рука од рамена до дланице.\"]","study.important":"[\"На немачком Arm и Hand нису исто.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Hand” (lv, study) against Latvian “plauksta”. Production begins “{"lv":"дланица","study.translation":"дланица","study.explanation":"[\"Главна идеја: die Hand означава дланицу.\",\"На н…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"шака","study":{"id":"a1-hand-study","layout":"standardStudy","translation":"шака","explanation":["Главна идеја: die Hand означава шаку, од ручног зглоба до прстију.","У немачком су Arm и Hand две различите речи; у српском се реч рука често користи шире."],"examples":[{"de":"Ich wasche meine Hände.","lv":"Перем руке."},{"de":"Sie hält das Glas in der Hand.","lv":"Она држи чашу у руци."},{"de":"Mein Arm tut weh.","lv":"Боли ме рука."}],"comparison":[{"word":"die Hand","meaning":"шака / рука","example":"in der Hand – у руци"},{"word":"der Arm","meaning":"рука од рамена до шаке","example":"Mein Arm tut weh. – Боли ме рука."}],"tip":["Hand = шака или рука у ужем смислу.","Arm = рука од рамена до шаке."],"important":["У немачком Hand и Arm нису иста реч."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{}]}}}
+**Note:** OWNER approved override: Hand: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Hand",
+  "de_article": "die",
+  "de_plural": "die Hände",
+  "lv": "шака",
+  "level": "A1",
+  "study": {
+    "id": "a1-hand-study",
+    "layout": "standardStudy",
+    "translation": "шака",
+    "explanation": [
+      "Главна идеја: die Hand означава шаку, од ручног зглоба до прстију.",
+      "У немачком су Arm и Hand две различите речи; у српском се реч рука често користи шире."
+    ],
+    "examples": [
+      {
+        "de": "Ich wasche meine Hände.",
+        "lv": "Перем руке."
+      },
+      {
+        "de": "Sie hält das Glas in der Hand.",
+        "lv": "Она држи чашу у руци."
+      },
+      {
+        "de": "Mein Arm tut weh.",
+        "lv": "Боли ме рука."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "die Hand",
+        "meaning": "шака / рука",
+        "example": "in der Hand – у руци"
+      },
+      {
+        "word": "der Arm",
+        "meaning": "рука од рамена до шаке",
+        "example": "Mein Arm tut weh. – Боли ме рука."
+      }
+    ],
+    "tip": [
+      "Hand = шака или рука у ужем смислу.",
+      "Arm = рука од рамена до шаке."
+    ],
+    "important": [
+      "У немачком Hand и Arm нису иста реч."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3548,26 +5842,145 @@
 
 **Audit ID:** `LRB097-0026`
 **Finding Stable ID:** `g2/a1/sr|heißen|idx:276|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `heißen|idx:276`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** saukties
-**DE reference (read-only):** heißen
 **CURRENT (captured scope):** {"lv":"Imenovani • Sredstva","study.translation":"Imenovani • Sredstva","study.explanation":"[\"Основна идея: heißen най-често се използва, за да се каже как е името на някого.\",\"Izraz Ich heiße... pomeni \\\"moje ime je...\\\".\",\"В думи и изрази heißen може също да означава „означава“.\",\"Na nivou A1, najvažnija fraza je Wie heißt du?\"]","study.examples":"[{\"de\":\"Ich heiße Anna.\",\"lv\":\"Казвам се Анна.\"},{\"de\":\"Wie heißt du?\",\"lv\":\"Kako se zoveš?\"},{\"de\":\"Wie heißt das auf Deutsch?\",\"lv\":\"Kako se to reče v nemščini?\"},{\"de\":\"Was heißt das?\",\"lv\":\"Какво значи\"}]","study.comparison":"[{\"word\":\"heißen\",\"meaning\":\"Да се ​​нарича / да означава\",\"example\":\"Ich heiße Anna. = Мене зову Анна.\"},{\"word\":\"nennen\",\"meaning\":\"Pozovi/pozovi\",\"example\":\"Er nennt mich Tom. = Он ме зове Том.\"},{\"word\":\"bedeuten\",\"meaning\":\"Имајте на ум\",\"example\":\"Was bedeutet das? = Шта то значи?\"},{\"word\":\"rufen\",\"meaning\":\"Повик/Повик\",\"example\":\"Ich rufe dich. = Позивам те.\"},{\"word\":\"anrufen\",\"meaning\":\"Јавете ми се\",\"example\":\"Ich rufe dich an. = Позивам те телефоном.\"}]","study.tip":"{\"text\":\"Zapamtite: Ich heiße... → Govorim...\"}","study.important":"[\"Wie heißt du? pomeni \\\"Kako ti je ime?\\\" in ne dobesedno \\\"Kako ti je ime?\\\"\",\"Дали беше heißt das? често значи \\\"Што значи тоа?\\\"\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “heißen” (lv, study) against Latvian “saukties”. Production begins “{"lv":"Imenovani • Sredstva","study.translation":"Imenovani • Sredstva","study.explanation":"[\"Основна идея: heißen на…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"звати се • значити","study":{"id":"a1-heißen","layout":"standardStudy","translation":"звати се • значити","explanation":["Главна идеја: heißen се најчешће користи да се каже како се неко зове.","Ich heiße ... значи „зовем се ...“, а за реч или израз heißen може значити и значити."],"examples":[{"de":"Ich heiße Anna.","lv":"Зовем се Ана."},{"de":"Wie heißt du?","lv":"Како се зовеш?"},{"de":"Wie heißt das auf Deutsch?","lv":"Како се то каже на немачком?"},{"de":"Was heißt das?","lv":"Шта то значи?"}],"comparison":[{"word":"heißen","meaning":"звати се / значити","example":"Ich heiße Anna. – Зовем се Ана."},{"word":"nennen","meaning":"назвати / звати","example":"Er nennt mich Tom. – Он ме зове Том."},{"word":"bedeuten","meaning":"значити","example":"Was bedeutet das? – Шта то значи?"},{"word":"rufen","meaning":"дозвати","example":"Ich rufe dich. – Дозивам те."},{"word":"anrufen","meaning":"позвати телефоном","example":"Ich rufe dich an. – Зовем те телефоном."}],"tip":{"text":"Ich heiße ... = зовем се ..."},"important":["Wie heißt du? значи „Како се зовеш?“","Was heißt das? често значи „Шта то значи?“"],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: heißen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "heißen",
+  "lv": "звати се • значити",
+  "level": "A1",
+  "study": {
+    "id": "a1-heißen",
+    "layout": "standardStudy",
+    "translation": "звати се • значити",
+    "explanation": [
+      "Главна идеја: heißen се најчешће користи да се каже како се неко зове.",
+      "Ich heiße ... значи „зовем се ...“, а за реч или израз heißen може значити и значити."
+    ],
+    "examples": [
+      {
+        "de": "Ich heiße Anna.",
+        "lv": "Зовем се Ана."
+      },
+      {
+        "de": "Wie heißt du?",
+        "lv": "Како се зовеш?"
+      },
+      {
+        "de": "Wie heißt das auf Deutsch?",
+        "lv": "Како се то каже на немачком?"
+      },
+      {
+        "de": "Was heißt das?",
+        "lv": "Шта то значи?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "heißen",
+        "meaning": "звати се / значити",
+        "example": "Ich heiße Anna. – Зовем се Ана."
+      },
+      {
+        "word": "nennen",
+        "meaning": "назвати / звати",
+        "example": "Er nennt mich Tom. – Он ме зове Том."
+      },
+      {
+        "word": "bedeuten",
+        "meaning": "значити",
+        "example": "Was bedeutet das? – Шта то значи?"
+      },
+      {
+        "word": "rufen",
+        "meaning": "дозвати",
+        "example": "Ich rufe dich. – Дозивам те."
+      },
+      {
+        "word": "anrufen",
+        "meaning": "позвати телефоном",
+        "example": "Ich rufe dich an. – Зовем те телефоном."
+      }
+    ],
+    "tip": {
+      "text": "Ich heiße ... = зовем се ..."
+    },
+    "important": [
+      "Wie heißt du? значи „Како се зовеш?“",
+      "Was heißt das? често значи „Шта то значи?“"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3765,26 +6178,105 @@
 
 **Audit ID:** `LRB097-0027`
 **Finding Stable ID:** `g2/a1/sr|hoch|idx:285|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `hoch|idx:285`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_MISMATCH
-**LV source (read-only):** augsts
-**DE reference (read-only):** hoch
 **CURRENT (captured scope):** {"lv":"Visoko","study.translation":"Visoko","study.explanation":"[\"Glavna ideja: Visoka vertikala, nivo ili visina.\",\"Hoch преди всичко означава: голям на ръст.\",\"Често се характеризира с: вертикална височина.\"]","study.examples":"[{\"de\":\"Der Berg ist hoch.\",\"lv\":\"Gora je visoka.\"},{\"de\":\"Das Regal ist zwei Meter hoch.\",\"lv\":\"Gora je visoka.\"},{\"de\":\"Die Miete ist hoch.\",\"lv\":\"Наемът е висок.\"},{\"de\":\"Die Mauer ist hoch.\",\"lv\":\"Стената е висока.\"},{\"de\":\"Die Preise sind hoch.\",\"lv\":\"Цените са високи.\"}]","study.tip":"[\"Хокс = висок\",\"Използвайте hoch, когато контекстът съответства на това значение.\"]","study.important":"[\"Hox se često koristi za označavanje cijena i nivoa.\",\"Hox = visoko.\",\"Високо вертикално, на ниво или височина.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “hoch” (lv, study) against Latvian “augsts”. Production begins “{"lv":"Visoko","study.translation":"Visoko","study.explanation":"[\"Glavna ideja: Visoka vertikala, nivo ili visina.\",…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"висок • високо","study":{"id":"a1-hoch-study","layout":"standardStudy","translation":"висок • високо","explanation":["Главна идеја: hoch значи висок или високо и описује вертикалну висину или висок ниво.","Користи се за планину, зид, цену, температуру или број; за висину човека обично се користи groß."],"examples":[{"de":"Der Berg ist hoch.","lv":"Планина је висока."},{"de":"Das Regal ist zwei Meter hoch.","lv":"Полица је висока два метра."},{"de":"Die Miete ist hoch.","lv":"Кирија је висока."},{"de":"Die Mauer ist hoch.","lv":"Зид је висок."},{"de":"Die Preise sind hoch.","lv":"Цене су високе."}],"tip":["Вертикална висина или висок ниво → hoch.","За висину човека обично се користи groß."],"important":["Der Berg ist hoch = планина је висока.","Er ist groß = он је висок.","За висину човека обично се не користи hoch."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** OWNER approved override: hoch: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hoch",
+  "lv": "висок • високо",
+  "level": "A1",
+  "study": {
+    "id": "a1-hoch-study",
+    "layout": "standardStudy",
+    "translation": "висок • високо",
+    "explanation": [
+      "Главна идеја: hoch значи висок или високо и описује вертикалну висину или висок ниво.",
+      "Користи се за планину, зид, цену, температуру или број; за висину човека обично се користи groß."
+    ],
+    "examples": [
+      {
+        "de": "Der Berg ist hoch.",
+        "lv": "Планина је висока."
+      },
+      {
+        "de": "Das Regal ist zwei Meter hoch.",
+        "lv": "Полица је висока два метра."
+      },
+      {
+        "de": "Die Miete ist hoch.",
+        "lv": "Кирија је висока."
+      },
+      {
+        "de": "Die Mauer ist hoch.",
+        "lv": "Зид је висок."
+      },
+      {
+        "de": "Die Preise sind hoch.",
+        "lv": "Цене су високе."
+      }
+    ],
+    "tip": [
+      "Вертикална висина или висок ниво → hoch.",
+      "За висину човека обично се користи groß."
+    ],
+    "important": [
+      "Der Berg ist hoch = планина је висока.",
+      "Er ist groß = он је висок.",
+      "За висину човека обично се не користи hoch."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -3896,26 +6388,87 @@
 
 **Audit ID:** `LRB097-0028`
 **Finding Stable ID:** `g2/a1/sr|hören|idx:287|lv/study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `hören|idx:287`
 **Field / path:** `lv/study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** dzirdēt • klausīties
-**DE reference (read-only):** hören
 **CURRENT (captured scope):** {"lv":"Čujte • Sluhajte","study.translation":"Čujte • Sluhajte","study.explanation":"[\"Osnovna ideja je čuti zvuk ili slušati muziku.\",\"Hören основно означава: да възприемаш звук.\",\"Често се характеризира с: звуци.\",\"Hören се използва за обозначаване на звуци, музика и неща, които се чуват.\"]","study.examples":"[{\"de\":\"Ich höre Musik.\",\"lv\":\"Слушам музика.\"},{\"de\":\"Die Kinder hören eine Geschichte.\",\"lv\":\"Децата слушат историята.\"},{\"de\":\"Ich höre dich.\",\"lv\":\"Те слушам\"}]","study.tip":"[\"Чуйте звука или слушайте музиката.\",\"Uporabite hören, ko kontekst ustreza temu pomenu.\"]","study.important":"[\"Hören = Slišim zvok.\",\"Чуйте звука или слушайте музиката.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “hören” (lv/study) against Latvian “dzirdēt • klausīties”. Production begins “{"lv":"Čujte • Sluhajte","study.translation":"Čujte • Sluhajte","study.explanation":"[\"Osnovna ideja je čuti zvuk ili …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"чути • слушати","study":{"id":"a1-hoeren-study","layout":"standardStudy","translation":"чути • слушати","explanation":["Главна идеја: hören значи чути звук или слушати музику, причу или говор.","Контекст показује да ли је реч о опажању звука или намерном слушању."],"examples":[{"de":"Ich höre Musik.","lv":"Слушам музику."},{"de":"Die Kinder hören eine Geschichte.","lv":"Деца слушају причу."},{"de":"Ich höre dich.","lv":"Чујем те."}],"tip":["hören = чути или слушати звук.","Користи hören за звук, музику и оно што се чује."],"important":["hören може значити чути или слушати.","Субјекат и објекат морају остати у истим улогама."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: hören: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hören",
+  "lv": "чути • слушати",
+  "level": "A1",
+  "study": {
+    "id": "a1-hoeren-study",
+    "layout": "standardStudy",
+    "translation": "чути • слушати",
+    "explanation": [
+      "Главна идеја: hören значи чути звук или слушати музику, причу или говор.",
+      "Контекст показује да ли је реч о опажању звука или намерном слушању."
+    ],
+    "examples": [
+      {
+        "de": "Ich höre Musik.",
+        "lv": "Слушам музику."
+      },
+      {
+        "de": "Die Kinder hören eine Geschichte.",
+        "lv": "Деца слушају причу."
+      },
+      {
+        "de": "Ich höre dich.",
+        "lv": "Чујем те."
+      }
+    ],
+    "tip": [
+      "hören = чути или слушати звук.",
+      "Користи hören за звук, музику и оно што се чује."
+    ],
+    "important": [
+      "hören може значити чути или слушати.",
+      "Субјекат и објекат морају остати у истим улогама."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -4009,26 +6562,117 @@
 
 **Audit ID:** `LRB097-0029`
 **Finding Stable ID:** `g2/a1/sr|hübsch|idx:288|lv/study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `hübsch|idx:288`
 **Field / path:** `lv/study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** glīts
-**DE reference (read-only):** hübsch
 **CURRENT (captured scope):** {"lv":"леп","study.translation":"леп","study.explanation":"[\"Главна идеја: hübsch означава лепо, привлачно или симпатично по изгледу.\",\"hübsch често описује изглед особе, одеће, просторије или предмета.\",\"Српски јаук у неким контекстима је могућ, али је премно широк као главни превод.\",\"Карактер или љубазну манеру на немачком чешће описује nett.\"]","study.examples":"[{\"de\":\"Sie trägt ein hübsches Kleid.\",\"lv\":\"Она има лепу хаљину.\"},{\"de\":\"Das Zimmer ist hübsch.\",\"lv\":\"Соба је лепа.\"},{\"de\":\"Das ist ein hübsches Bild.\",\"lv\":\"То је лепа слика.\"}]","study.comparison":"[{\"word\":\"hübsch\",\"meaning\":\"леп • привлачан по изгледу\",\"example\":\"Das ist ein hübsches Kleid. – То је лепа хаљина.\"},{\"word\":\"schön\",\"meaning\":\"леп • пријатан\",\"example\":\"Der Garten ist schön. – Врт је лепо мјесто.\"},{\"word\":\"nett\",\"meaning\":\"љубазна • драга\",\"example\":\"Sie ist sehr nett. – Она је врло љубазна.\"}]","study.tip":"{\"text\":\"Atceries: hübsch galvenokārt raksturo glītu izskatu, bet nett biežāk raksturo jauku cilvēku vai izturēšanos.\"}","study.important":"[\"hübsch није универзалан превод за јаук.\",\"За карактер особе или љубазну манеру, обично је боље nett.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “hübsch” (lv/study) against Latvian “glīts”. Production begins “{"lv":"леп","study.translation":"леп","study.explanation":"[\"Главна идеја: hübsch означава лепо, привлачно или симпати…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"леп • привлачан","study":{"id":"a1-huebsch","layout":"standardStudy","translation":"леп • привлачан","explanation":["Главна идеја: hübsch значи леп, привлачан или симпатичан по изгледу.","Најчешће описује изглед особе, одеће, просторије или предмета; за љубазан карактер чешће се користи nett."],"examples":[{"de":"Sie trägt ein hübsches Kleid.","lv":"Она носи лепу хаљину."},{"de":"Das Zimmer ist hübsch.","lv":"Соба је лепа."},{"de":"Das ist ein hübsches Bild.","lv":"То је лепа слика."}],"comparison":[{"word":"hübsch","meaning":"леп / привлачан по изгледу","example":"Das ist ein hübsches Kleid. – То је лепа хаљина."},{"word":"schön","meaning":"леп / пријатан","example":"Der Garten ist schön. – Врт је леп."},{"word":"nett","meaning":"љубазан / симпатичан","example":"Sie ist sehr nett. – Она је веома љубазна."}],"tip":{"text":"hübsch најчешће описује леп изглед, а nett љубазну особу или понашање."},"important":["hübsch није универзалан превод за „симпатичан“.","За карактер или љубазно понашање обично је прикладнији nett."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: hübsch: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hübsch",
+  "lv": "леп • привлачан",
+  "level": "A1",
+  "study": {
+    "id": "a1-huebsch",
+    "layout": "standardStudy",
+    "translation": "леп • привлачан",
+    "explanation": [
+      "Главна идеја: hübsch значи леп, привлачан или симпатичан по изгледу.",
+      "Најчешће описује изглед особе, одеће, просторије или предмета; за љубазан карактер чешће се користи nett."
+    ],
+    "examples": [
+      {
+        "de": "Sie trägt ein hübsches Kleid.",
+        "lv": "Она носи лепу хаљину."
+      },
+      {
+        "de": "Das Zimmer ist hübsch.",
+        "lv": "Соба је лепа."
+      },
+      {
+        "de": "Das ist ein hübsches Bild.",
+        "lv": "То је лепа слика."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "hübsch",
+        "meaning": "леп / привлачан по изгледу",
+        "example": "Das ist ein hübsches Kleid. – То је лепа хаљина."
+      },
+      {
+        "word": "schön",
+        "meaning": "леп / пријатан",
+        "example": "Der Garten ist schön. – Врт је леп."
+      },
+      {
+        "word": "nett",
+        "meaning": "љубазан / симпатичан",
+        "example": "Sie ist sehr nett. – Она је веома љубазна."
+      }
+    ],
+    "tip": {
+      "text": "hübsch најчешће описује леп изглед, а nett љубазну особу или понашање."
+    },
+    "important": [
+      "hübsch није универзалан превод за „симпатичан“.",
+      "За карактер или љубазно понашање обично је прикладнији nett."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -4239,26 +6883,115 @@
 
 **Audit ID:** `LRB097-0030`
 **Finding Stable ID:** `g2/a1/sr|ihr|idx:292|lv/study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `ihr|idx:292`
 **Field / path:** `lv/study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** jūs • viņai
-**DE reference (read-only):** ihr
 **CURRENT (captured scope):** {"lv":"Ти • Тя","study.translation":"Ти • Тя","study.explanation":"[\"Ключова идея: ihr са две различни местоимения с еднакъв правопис - отнасящи се до повече от едно лице (ти) и дателната форма на местоимението sie (тя/тя).\",\"Кога се обраќате на неколку луѓе, малите букви ихр се преведуваат како вие (Kommt ihr mit? = Доаѓате ли со нас?).\",\"Ihr като притежателно местоимение означава нея (ihr Buch = нейната книга).\",\"Ihr като дателен падеж (от sie) означава за нея (Ich gebe ihr das Buch. = Давам й книгата).\",\"Glagolski oblik (commt, habt) pokazuje da govorimo umjesto vas - obraćajući se nekoliko osoba.\",\"Učtivoto obrʺŝenie se uvijek piše velikim slovom Sie, a ne ihr.\"]","study.examples":"[{\"de\":\"Kommt ihr heute Abend?\",\"lv\":\"Prideš nocoj?\"},{\"de\":\"Ich gebe ihr das Buch.\",\"lv\":\"Давам й книгата.\"},{\"de\":\"Wo wohnt ihr?\",\"lv\":\"Gdje živiš\"},{\"de\":\"Er schreibt ihr einen Brief.\",\"lv\":\"Napiše ji pismo.\"},{\"de\":\"Habt ihr Zeit?\",\"lv\":\"Imate li vremena\"},{\"de\":\"Das ist ihr Auto.\",\"lv\":\"To je njen avto.\"}]","study.tip":"[\"Ihr с глагола dsk. форма (commt, habt) = вие • Ihr до дума в дателен или притежателен падеж = нея/нейната.\",\"Provjerite: Habt niv...? / Da gi obâvat...? = ti • Ič gebe ihr... / ihr Buč = za nju/njega.\"]","study.important":"[\"Ihr = ти (се мисли на неколку) ИЛИ неа (дативен случај) ИЛИ неа (посесивен случај) - во зависност од контекстот.\",\"В учтивото обръщение Sie винаги се изписва с главна буква, а не ihr.\",\"Неправилно: Ihr (учтив) → Правилно: Sie.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “ihr” (lv/study) against Latvian “jūs • viņai”. Production begins “{"lv":"Ти • Тя","study.translation":"Ти • Тя","study.explanation":"[\"Ключова идея: ihr са две различни местоимения с е…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ви • њој • њен","study":{"id":"a1-ihr","layout":"standardStudy","translation":"ви • њој • њен","explanation":["Главна идеја: ihr има више функција: неформално ви за више особа, датив њој и присвојно њен/њена/њено.","Глаголски облик kommt или habt показује да је ihr субјекат „ви“.","Учтива заменица је Sie с великим словом."],"examples":[{"de":"Kommt ihr heute Abend?","lv":"Долазите ли вечерас?"},{"de":"Ich gebe ihr das Buch.","lv":"Дајем јој књигу."},{"de":"Wo wohnt ihr?","lv":"Где живите?"},{"de":"Er schreibt ihr einen Brief.","lv":"Он јој пише писмо."},{"de":"Habt ihr Zeit?","lv":"Имате ли времена?"},{"de":"Das ist ihr Auto.","lv":"То је њен аутомобил."}],"tip":["ihr уз kommt/habt = ви; као датив или присвојни облик = њој/њен.","Habt ihr ...? / Kommt ihr ...? = ви; Ich gebe ihr ... / ihr Buch = њој/њен."],"important":["ihr = ви, њој или њен, према контексту.","Учтива заменица је Sie, а не ihr.","Нетачно: Ihr као учтиво ви → тачно: Sie."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** OWNER approved override: ihr: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ihr",
+  "lv": "ви • њој • њен",
+  "level": "A1",
+  "study": {
+    "id": "a1-ihr",
+    "layout": "standardStudy",
+    "translation": "ви • њој • њен",
+    "explanation": [
+      "Главна идеја: ihr има више функција: неформално ви за више особа, датив њој и присвојно њен/њена/њено.",
+      "Глаголски облик kommt или habt показује да је ihr субјекат „ви“.",
+      "Учтива заменица је Sie с великим словом."
+    ],
+    "examples": [
+      {
+        "de": "Kommt ihr heute Abend?",
+        "lv": "Долазите ли вечерас?"
+      },
+      {
+        "de": "Ich gebe ihr das Buch.",
+        "lv": "Дајем јој књигу."
+      },
+      {
+        "de": "Wo wohnt ihr?",
+        "lv": "Где живите?"
+      },
+      {
+        "de": "Er schreibt ihr einen Brief.",
+        "lv": "Он јој пише писмо."
+      },
+      {
+        "de": "Habt ihr Zeit?",
+        "lv": "Имате ли времена?"
+      },
+      {
+        "de": "Das ist ihr Auto.",
+        "lv": "То је њен аутомобил."
+      }
+    ],
+    "tip": [
+      "ihr уз kommt/habt = ви; као датив или присвојни облик = њој/њен.",
+      "Habt ihr ...? / Kommt ihr ...? = ви; Ich gebe ihr ... / ihr Buch = њој/њен."
+    ],
+    "important": [
+      "ihr = ви, њој или њен, према контексту.",
+      "Учтива заменица је Sie, а не ihr.",
+      "Нетачно: Ihr као учтиво ви → тачно: Sie."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -4407,26 +7140,185 @@
 
 **Audit ID:** `LRB097-0031`
 **Finding Stable ID:** `g2/a1/sr|im|idx:293|lv/study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `im|idx:293`
 **Field / path:** `lv/study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** iekšā (-ā) • kur?
-**DE reference (read-only):** im
 **CURRENT (captured scope):** {"lv":"П • Каде?","study.translation":"П • Каде?","study.explanation":"[\"Im e svivane na prepositiona and i article dem.\",\"Пълна форма: в дем (на кого?).\",\"Употребява се с имена от мъжки род и съществителни от всякакъв род, когато отговаря на въпроса къде? - местоположение.\",\"В зависимост от времето и сезоните: аз съм януари, аз съм лято, аз съм зима.\",\"Во пракса, im речиси секогаш се користи наместо целосна во дем.\"]","study.examples":"[{\"de\":\"Ich bin im Park.\",\"lv\":\"Јас сум во паркот\"},{\"de\":\"Wir wohnen im Zentrum.\",\"lv\":\"Живеем в центъра.\"},{\"de\":\"Im Sommer ist es warm.\",\"lv\":\"През лятото е топло.\"},{\"de\":\"Er arbeitet im Büro.\",\"lv\":\"Работи в офис.\"},{\"de\":\"Das Kind spielt im Garten.\",\"lv\":\"Дете си играе в градината.\"},{\"de\":\"Im Januar fahre ich nach Wien.\",\"lv\":\"През януари бях във Виена.\"},{\"de\":\"Sie ist im Kino.\",\"lv\":\"V filmih je.\"},{\"de\":\"Wir treffen uns im Restaurant.\",\"lv\":\"Се среќаваме во ресторан.\"}]","study.comparison":"[{\"word\":\"im\",\"meaning\":\"Къде вътре? (на кого?)\",\"example\":\"im Park – V parku\"},{\"word\":\"ins\",\"meaning\":\"Вътре, къде? (Акц.)\",\"example\":\"ins Kino – Uz kino\"},{\"word\":\"in\",\"meaning\":\"C/c (без статија)\",\"example\":\"in Berlin – В Берлин\"},{\"word\":\"am\",\"meaning\":\"Б, къде? (на кого?)\",\"example\":\"am Fenster – Do prozora\"},{\"word\":\"auf\",\"meaning\":\"Na površini\",\"example\":\"auf dem Tisch – Sa galdom\"}]","study.tip":"[\"Запомнете: во +dem → im (на кого?, каде?).\",\"Kje? → ins • Kje? → Jaz - ne mešaj teh dveh!\"]","study.important":"[\"Im = in dem, само със съществително от мъжки или среден род за кого? в завоя.\",\"Отговори на въпроса къде?, а не къде? - местоположение, а не движение.\",\"С месеци и сезони: im März, im Herbst.\",\"Za ženske: in der Schule, ne im Schule.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “im” (lv/study) against Latvian “iekšā (-ā) • kur?”. Production begins “{"lv":"П • Каде?","study.translation":"П • Каде?","study.explanation":"[\"Im e svivane na prepositiona and i article de…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"у • где?","study":{"id":"a1-im","layout":"standardStudy","translation":"у • где?","explanation":["Главна идеја: im је сажети облик in dem и означава место, односно одговара на питање где.","Користи се уз именице мушког и средњег рода у дативу, као и уз месеце и годишња доба."],"examples":[{"de":"Ich bin im Park.","lv":"У парку сам."},{"de":"Wir wohnen im Zentrum.","lv":"Живимо у центру."},{"de":"Im Sommer ist es warm.","lv":"Лети је топло."},{"de":"Er arbeitet im Büro.","lv":"Он ради у канцеларији."},{"de":"Das Kind spielt im Garten.","lv":"Дете се игра у башти."},{"de":"Im Januar fahre ich nach Wien.","lv":"У јануару путујем у Беч."},{"de":"Sie ist im Kino.","lv":"Она је у биоскопу."},{"de":"Wir treffen uns im Restaurant.","lv":"Састајемо се у ресторану."}],"comparison":[{"word":"im","meaning":"у; место и датив","example":"im Park – у парку"},{"word":"ins","meaning":"у; смер и акузатив","example":"ins Kino – у биоскоп"},{"word":"in","meaning":"у без члана","example":"in Berlin – у Берлину"},{"word":"am","meaning":"код / на; место","example":"am Fenster – код прозора"},{"word":"auf","meaning":"на површини","example":"auf dem Tisch – на столу"}],"tip":["in + dem → im: место, где.","Смер, куда → ins; место, где → im."],"important":["im = in dem уз мушки или средњи род у дативу.","Означава место, а не кретање.","С месецима и годишњим добима: im März, im Herbst.","Женски род: in der Schule, не *im Schule."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}}
+**Note:** OWNER approved override: im: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "im",
+  "lv": "у • где?",
+  "level": "A1",
+  "study": {
+    "id": "a1-im",
+    "layout": "standardStudy",
+    "translation": "у • где?",
+    "explanation": [
+      "Главна идеја: im је сажети облик in dem и означава место, односно одговара на питање где.",
+      "Користи се уз именице мушког и средњег рода у дативу, као и уз месеце и годишња доба."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin im Park.",
+        "lv": "У парку сам."
+      },
+      {
+        "de": "Wir wohnen im Zentrum.",
+        "lv": "Живимо у центру."
+      },
+      {
+        "de": "Im Sommer ist es warm.",
+        "lv": "Лети је топло."
+      },
+      {
+        "de": "Er arbeitet im Büro.",
+        "lv": "Он ради у канцеларији."
+      },
+      {
+        "de": "Das Kind spielt im Garten.",
+        "lv": "Дете се игра у башти."
+      },
+      {
+        "de": "Im Januar fahre ich nach Wien.",
+        "lv": "У јануару путујем у Беч."
+      },
+      {
+        "de": "Sie ist im Kino.",
+        "lv": "Она је у биоскопу."
+      },
+      {
+        "de": "Wir treffen uns im Restaurant.",
+        "lv": "Састајемо се у ресторану."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "im",
+        "meaning": "у; место и датив",
+        "example": "im Park – у парку"
+      },
+      {
+        "word": "ins",
+        "meaning": "у; смер и акузатив",
+        "example": "ins Kino – у биоскоп"
+      },
+      {
+        "word": "in",
+        "meaning": "у без члана",
+        "example": "in Berlin – у Берлину"
+      },
+      {
+        "word": "am",
+        "meaning": "код / на; место",
+        "example": "am Fenster – код прозора"
+      },
+      {
+        "word": "auf",
+        "meaning": "на површини",
+        "example": "auf dem Tisch – на столу"
+      }
+    ],
+    "tip": [
+      "in + dem → im: место, где.",
+      "Смер, куда → ins; место, где → im."
+    ],
+    "important": [
+      "im = in dem уз мушки или средњи род у дативу.",
+      "Означава место, а не кретање.",
+      "С месецима и годишњим добима: im März, im Herbst.",
+      "Женски род: in der Schule, не *im Schule."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -4699,26 +7591,91 @@
 
 **Audit ID:** `LRB097-0032`
 **Finding Stable ID:** `g2/a1/sr|in|idx:295|lv/study|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `in|idx:295`
 **Field / path:** `lv/study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** iekšā • uz
-**DE reference (read-only):** in
 **CURRENT (captured scope):** {"lv":"ВО","study.translation":"ВО","study.explanation":"[\"Ключова идея: in обикновено означава „на място“ или „на място“, когато се отнася до пространство, държава, град или сграда.\",\"Што се однесува до локацијата, во често се преведува како во или во: во Берлин = во Берлин.\",\"Когато се движите, in означава навътре: ins Kino = в киното.\",\"Преводот на латвиски варира во зависност од контекстот.\"]","study.examples":"[{\"de\":\"Ich bin in Berlin.\",\"lv\":\"Јас сум во Берлин\"},{\"de\":\"Ich gehe in die Schule.\",\"lv\":\"Ходя на училище\"},{\"de\":\"Das Buch ist in der Tasche.\",\"lv\":\"Книга во торба.\"},{\"de\":\"Wir gehen ins Kino.\",\"lv\":\"Idemo u bioskop.\"}]","study.tip":"{\"text\":\"Ne pozabite: i/v → i.\"}","study.important":"[\"„во“ не е секогаш буквално „внатре“ • Летонскиот често се зборува во Берлин, во училиште, во кино.\",\"Когато става въпрос за повърхности, често имате нужда от auf вместо in.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “in” (lv/study) against Latvian “iekšā • uz”. Production begins “{"lv":"ВО","study.translation":"ВО","study.explanation":"[\"Ключова идея: in обикновено означава „на място“ или „на мяс…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"у","study":{"id":"a1-in","layout":"standardStudy","translation":"у","explanation":["Главна идеја: in најчешће значи у, било да се говори о месту или кретању у унутрашњост.","За место се користи датив, а за правац акузатив; превод зависи од контекста."],"examples":[{"de":"Ich bin in Berlin.","lv":"У Берлину сам."},{"de":"Ich gehe in die Schule.","lv":"Идем у школу."},{"de":"Das Buch ist in der Tasche.","lv":"Књига је у торби."},{"de":"Wir gehen ins Kino.","lv":"Идемо у биоскоп."}],"tip":{"text":"Место или кретање у унутрашњост → in."},"important":["in не значи увек дословно „унутра“.","За површину је често потребно auf, а не in."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: in: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "in",
+  "lv": "у",
+  "level": "A1",
+  "study": {
+    "id": "a1-in",
+    "layout": "standardStudy",
+    "translation": "у",
+    "explanation": [
+      "Главна идеја: in најчешће значи у, било да се говори о месту или кретању у унутрашњост.",
+      "За место се користи датив, а за правац акузатив; превод зависи од контекста."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin in Berlin.",
+        "lv": "У Берлину сам."
+      },
+      {
+        "de": "Ich gehe in die Schule.",
+        "lv": "Идем у школу."
+      },
+      {
+        "de": "Das Buch ist in der Tasche.",
+        "lv": "Књига је у торби."
+      },
+      {
+        "de": "Wir gehen ins Kino.",
+        "lv": "Идемо у биоскоп."
+      }
+    ],
+    "tip": {
+      "text": "Место или кретање у унутрашњост → in."
+    },
+    "important": [
+      "in не значи увек дословно „унутра“.",
+      "За површину је често потребно auf, а не in."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -4847,26 +7804,137 @@
 
 **Audit ID:** `LRB097-0033`
 **Finding Stable ID:** `g2/a1/sr|können|idx:319|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `können|idx:319`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** varēt • prast
-**DE reference (read-only):** können
 **CURRENT (captured scope):** {"lv":"Умейте да • Знаете","study.translation":"Умейте да • Знаете","study.explanation":"[\"Основна идея: können означава „да можеш или можеш да направиш нещо“.\",\"Kada govorimo o sposobnostima ili vještinama, Letonac često kaže „da znam“.\",\"Когато се говори за възможност, често се казва, че е възможно.\",\"Können je modalni glagol, zato drugi glagol običajno pride na koncu.\"]","study.examples":"[{\"de\":\"Ich kann Deutsch sprechen.\",\"lv\":\"Мога да говоря немски\"},{\"de\":\"Kannst du mir helfen?\",\"lv\":\"Možete li mi pomoći?\"},{\"de\":\"Wir können heute kommen.\",\"lv\":\"Можем да дойдем днес.\"},{\"de\":\"Er kann gut schwimmen.\",\"lv\":\"Той може да плува добре.\"}]","study.comparison":"[{\"word\":\"können\",\"meaning\":\"Бъдете способни/знайте\",\"example\":\"Ich kann schwimmen. = Могу пливати.\"},{\"word\":\"dürfen\",\"meaning\":\"Ќе биде дозволено\",\"example\":\"Darf ich gehen? = Да ли смијем ићи?\"},{\"word\":\"müssen\",\"meaning\":\"Треба/треба да е да-\",\"example\":\"Ich muss lernen. = Мора м учити.\"},{\"word\":\"wissen\",\"meaning\":\"Знам\",\"example\":\"Ich weiß das. = То знам.\"}]","study.tip":"{\"text\":\"Запомнете: умение/способност → können.\"}","study.important":"[\"Können не е исто што и дурфен. können = да може/да знае, dürfen = да се дозволи.\",\"Во речениците со können, вториот глагол често доаѓа на крајот: Ich kann schwimmen.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “können” (lv, study) against Latvian “varēt • prast”. Production begins “{"lv":"Умейте да • Знаете","study.translation":"Умейте да • Знаете","study.explanation":"[\"Основна идея: können означа…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"моћи • умети","study":{"id":"a1-können","layout":"standardStudy","translation":"моћи • умети","explanation":["Главна идеја: können значи моћи или умети нешто да се уради.","За способност или вештину често се преводи умети, а за могућност моћи.","Као модални глагол, други глагол обично стоји на крају реченице."],"examples":[{"de":"Ich kann Deutsch sprechen.","lv":"Умем да говорим немачки."},{"de":"Kannst du mir helfen?","lv":"Можеш ли да ми помогнеш?"},{"de":"Wir können heute kommen.","lv":"Можемо данас да дођемо."},{"de":"Er kann gut schwimmen.","lv":"Он уме добро да плива."}],"comparison":[{"word":"können","meaning":"моћи / умети","example":"Ich kann schwimmen. – Умем да пливам."},{"word":"dürfen","meaning":"смети","example":"Darf ich gehen? – Смем ли да идем?"},{"word":"müssen","meaning":"морати","example":"Ich muss lernen. – Морам да учим."},{"word":"wissen","meaning":"знати","example":"Ich weiß das. – Знам то."}],"tip":{"text":"Способност или могућност → können."},"important":["können није исто што и dürfen: können = моћи/умети, dürfen = смети.","Уз können други глагол стоји на крају: Ich kann schwimmen."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: können: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "können",
+  "lv": "моћи • умети",
+  "level": "A1",
+  "study": {
+    "id": "a1-können",
+    "layout": "standardStudy",
+    "translation": "моћи • умети",
+    "explanation": [
+      "Главна идеја: können значи моћи или умети нешто да се уради.",
+      "За способност или вештину често се преводи умети, а за могућност моћи.",
+      "Као модални глагол, други глагол обично стоји на крају реченице."
+    ],
+    "examples": [
+      {
+        "de": "Ich kann Deutsch sprechen.",
+        "lv": "Умем да говорим немачки."
+      },
+      {
+        "de": "Kannst du mir helfen?",
+        "lv": "Можеш ли да ми помогнеш?"
+      },
+      {
+        "de": "Wir können heute kommen.",
+        "lv": "Можемо данас да дођемо."
+      },
+      {
+        "de": "Er kann gut schwimmen.",
+        "lv": "Он уме добро да плива."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "können",
+        "meaning": "моћи / умети",
+        "example": "Ich kann schwimmen. – Умем да пливам."
+      },
+      {
+        "word": "dürfen",
+        "meaning": "смети",
+        "example": "Darf ich gehen? – Смем ли да идем?"
+      },
+      {
+        "word": "müssen",
+        "meaning": "морати",
+        "example": "Ich muss lernen. – Морам да учим."
+      },
+      {
+        "word": "wissen",
+        "meaning": "знати",
+        "example": "Ich weiß das. – Знам то."
+      }
+    ],
+    "tip": {
+      "text": "Способност или могућност → können."
+    },
+    "important": [
+      "können није исто што и dürfen: können = моћи/умети, dürfen = смети.",
+      "Уз können други глагол стоји на крају: Ich kann schwimmen."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5056,26 +8124,171 @@
 
 **Audit ID:** `LRB097-0034`
 **Finding Stable ID:** `g2/a1/sr|kosten|idx:320|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `kosten|idx:320`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** maksāt
-**DE reference (read-only):** kosten
 **CURRENT (captured scope):** {"lv":"Plaćanje","study.translation":"Plaćanje","study.explanation":"[\"Главна идеја: Костен значи да платиш така и така, зборува за цената на нешто.\",\"Овој збор се користи кога се прашува или кажува колку чини нешто, а не кога некое лице врши плаќање.\",\"Въпросите за цената на немски често започват с думите Was kostet...?\",\"В този контекст латвийската дума за „плащане“ би била правилна: Das kostet 5 евро. = Струва 5 евро.\",\"Когато човек дава пари за стока или услуга, на немски се използва bezahlen или zahlen.\"]","study.examples":"[{\"de\":\"Das kostet 5 Euro.\",\"lv\":\"Stane 5 evrov.\"},{\"de\":\"Was kostet das?\",\"lv\":\"Колко струва\"},{\"de\":\"Wie viel kostet der Pullover?\",\"lv\":\"Koliko stane pulover?\"},{\"de\":\"Das Essen kostet nicht viel.\",\"lv\":\"Храната не чини многу.\"},{\"de\":\"Ich bezahle die Rechnung.\",\"lv\":\"Аз плащам сметката\"},{\"de\":\"Kann ich bar bezahlen?\",\"lv\":\"Ali lahko plačam z gotovino?\"},{\"de\":\"Er zahlt mit Karte.\",\"lv\":\"Плати со картичка.\"},{\"de\":\"Ich zahle gleich.\",\"lv\":\"Сега ще платя\"}]","study.comparison":"[{\"word\":\"kosten\",\"meaning\":\"Плаќање (цена) • Колку\",\"example\":\"Das kostet 5 Euro. = То кошта 5 еура.\"},{\"word\":\"bezahlen\",\"meaning\":\"Плащане • Плащане (пари)\",\"example\":\"Ich bezahle die Rechnung. = Плаћам рачун.\"},{\"word\":\"zahlen\",\"meaning\":\"Plaćanje • Plaćanje\",\"example\":\"Kann ich bar zahlen? = Да ли могу да плаћам готовином?\"},{\"word\":\"Was kostet...?\",\"meaning\":\"Koliko košta...?\",\"example\":\"Was kostet das Buch? = Колико кошта књига?\"}]","study.tip":"[\"Запомнете: въпрос относно цената → kosten (Имаше ли kosten das?).\",\"Запомнете: извършване на плащане → bezahlen (Ich bezahle die Rechnung.).\"]","study.important":"[\"Костен и безахлен не се синоними: костен = колку чини • Безахлен = плаќам пари.\",\"На латвийски език плащането често се използва и в двата случая, но на немски изборът трябва да се направи според ситуацията.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “kosten” (lv, study) against Latvian “maksāt”. Production begins “{"lv":"Plaćanje","study.translation":"Plaćanje","study.explanation":"[\"Главна идеја: Костен значи да платиш така и так…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"коштати","study":{"id":"a1-kosten","layout":"standardStudy","translation":"коштати","explanation":["Главна идеја: kosten означава цену нечега, односно колико нешто кошта.","Када особа врши плаћање, користе се bezahlen или zahlen."],"examples":[{"de":"Das kostet 5 Euro.","lv":"То кошта пет евра."},{"de":"Was kostet das?","lv":"Колико то кошта?"},{"de":"Wie viel kostet der Pullover?","lv":"Колико кошта џемпер?"},{"de":"Das Essen kostet nicht viel.","lv":"Храна не кошта много."},{"de":"Ich bezahle die Rechnung.","lv":"Плаћам рачун."},{"de":"Kann ich bar bezahlen?","lv":"Могу ли да платим готовином?"},{"de":"Er zahlt mit Karte.","lv":"Он плаћа картицом."},{"de":"Ich zahle gleich.","lv":"Одмах ћу платити."}],"comparison":[{"word":"kosten","meaning":"коштати; имати цену","example":"Das kostet 5 Euro. – То кошта пет евра."},{"word":"bezahlen","meaning":"платити новац","example":"Ich bezahle die Rechnung. – Плаћам рачун."},{"word":"zahlen","meaning":"платити","example":"Kann ich bar zahlen? – Могу ли да платим готовином?"},{"word":"Was kostet...?","meaning":"колико кошта ...?","example":"Was kostet das Buch? – Колико кошта књига?"}],"tip":["Питање о цени → kosten: Was kostet das?","Извршење плаћања → bezahlen / zahlen."],"important":["kosten и bezahlen нису синоними: kosten = имати цену; bezahlen = платити.","У српском су такође различити глаголи: коштати и платити."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: kosten: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "kosten",
+  "lv": "коштати",
+  "level": "A1",
+  "study": {
+    "id": "a1-kosten",
+    "layout": "standardStudy",
+    "translation": "коштати",
+    "explanation": [
+      "Главна идеја: kosten означава цену нечега, односно колико нешто кошта.",
+      "Када особа врши плаћање, користе се bezahlen или zahlen."
+    ],
+    "examples": [
+      {
+        "de": "Das kostet 5 Euro.",
+        "lv": "То кошта пет евра."
+      },
+      {
+        "de": "Was kostet das?",
+        "lv": "Колико то кошта?"
+      },
+      {
+        "de": "Wie viel kostet der Pullover?",
+        "lv": "Колико кошта џемпер?"
+      },
+      {
+        "de": "Das Essen kostet nicht viel.",
+        "lv": "Храна не кошта много."
+      },
+      {
+        "de": "Ich bezahle die Rechnung.",
+        "lv": "Плаћам рачун."
+      },
+      {
+        "de": "Kann ich bar bezahlen?",
+        "lv": "Могу ли да платим готовином?"
+      },
+      {
+        "de": "Er zahlt mit Karte.",
+        "lv": "Он плаћа картицом."
+      },
+      {
+        "de": "Ich zahle gleich.",
+        "lv": "Одмах ћу платити."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "kosten",
+        "meaning": "коштати; имати цену",
+        "example": "Das kostet 5 Euro. – То кошта пет евра."
+      },
+      {
+        "word": "bezahlen",
+        "meaning": "платити новац",
+        "example": "Ich bezahle die Rechnung. – Плаћам рачун."
+      },
+      {
+        "word": "zahlen",
+        "meaning": "платити",
+        "example": "Kann ich bar zahlen? – Могу ли да платим готовином?"
+      },
+      {
+        "word": "Was kostet...?",
+        "meaning": "колико кошта ...?",
+        "example": "Was kostet das Buch? – Колико кошта књига?"
+      }
+    ],
+    "tip": [
+      "Питање о цени → kosten: Was kostet das?",
+      "Извршење плаћања → bezahlen / zahlen."
+    ],
+    "important": [
+      "kosten и bezahlen нису синоними: kosten = имати цену; bezahlen = платити.",
+      "У српском су такође различити глаголи: коштати и платити."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5318,26 +8531,101 @@
 
 **Audit ID:** `LRB097-0035`
 **Finding Stable ID:** `g2/a1/sr|Laden|idx:349|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `Laden|idx:349`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** veikals
-**DE reference (read-only):** Laden
 **CURRENT (captured scope):** {"lv":"Shop","study.translation":"Shop","study.explanation":"[\"Основна идея: der Laden се пише с главна буква, членът der е съществително име - малък магазин.\",\"Laden – глагол с малка буква – за зареждане или зареждане.\",\"Der Laden често се отнася до малък магазин в ежедневието (im Laden einkaufen = пазаруване в магазин).\",\"Множествено число: die Läden.\"]","study.examples":"[{\"de\":\"Ich gehe in den Laden.\",\"lv\":\"Отивам до магазина\"},{\"de\":\"Der Laden ist geschlossen.\",\"lv\":\"Prodavnica je zatvorena.\"},{\"de\":\"Es gibt viele Läden hier.\",\"lv\":\"Ovdje ima mnogo trgovina.\"},{\"de\":\"Ich muss mein Handy laden.\",\"lv\":\"Треба да го наполнам телефонот.\"}]","study.tip":"[\"Der Laden s velikim slovom e sʺŝestvenitelʹno (magazin).\",\"Мала буква натоварена - глагол (да се вчита/полни).\"]","study.important":"[\"Дер Ладен = продавница (имн.).\",\"Učitano = učitavanje/učitavanje (glagol).\",\"Множествено число: die Läden.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Laden” (lv, study) against Latvian “veikals”. Production begins “{"lv":"Shop","study.translation":"Shop","study.explanation":"[\"Основна идея: der Laden се пише с главна буква, членът …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"продавница","study":{"id":"a1-laden-study","layout":"standardStudy","translation":"продавница","explanation":["Главна идеја: der Laden с великим словом је именица и значи мала продавница.","laden с малим словом је глагол и значи товарити или пунити.","Множина је die Läden."],"examples":[{"de":"Ich gehe in den Laden.","lv":"Идем у продавницу."},{"de":"Der Laden ist geschlossen.","lv":"Продавница је затворена."},{"de":"Es gibt viele Läden hier.","lv":"Овде има много продавница."},{"de":"Ich muss mein Handy laden.","lv":"Морам да напуним телефон."}],"tip":["der Laden = продавница.","laden = товарити или пунити."],"important":["der Laden је именица.","laden је глагол.","Множина: die Läden."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** OWNER approved override: Laden: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Laden",
+  "de_article": "der",
+  "de_plural": "die Läden",
+  "lv": "продавница",
+  "level": "A1",
+  "study": {
+    "id": "a1-laden-study",
+    "layout": "standardStudy",
+    "translation": "продавница",
+    "explanation": [
+      "Главна идеја: der Laden с великим словом је именица и значи мала продавница.",
+      "laden с малим словом је глагол и значи товарити или пунити.",
+      "Множина је die Läden."
+    ],
+    "examples": [
+      {
+        "de": "Ich gehe in den Laden.",
+        "lv": "Идем у продавницу."
+      },
+      {
+        "de": "Der Laden ist geschlossen.",
+        "lv": "Продавница је затворена."
+      },
+      {
+        "de": "Es gibt viele Läden hier.",
+        "lv": "Овде има много продавница."
+      },
+      {
+        "de": "Ich muss mein Handy laden.",
+        "lv": "Морам да напуним телефон."
+      }
+    ],
+    "tip": [
+      "der Laden = продавница.",
+      "laden = товарити или пунити."
+    ],
+    "important": [
+      "der Laden је именица.",
+      "laden је глагол.",
+      "Множина: die Läden."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5458,26 +8746,137 @@
 
 **Audit ID:** `LRB097-0036`
 **Finding Stable ID:** `g2/a1/sr|Land|idx:351|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `Land|idx:351`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** valsts • zeme
-**DE reference (read-only):** Land
 **CURRENT (captured scope):** {"lv":"Земја • Земја","study.translation":"Земја • Земја","study.explanation":"[\"Glavna ideja: das Land večinoma pomeni zemljišče ali zemljišče zunaj mesta.\",\"Če govorimo o Nemčiji, Latviji ali drugem ozemlju z mejami, potem to pomeni državo.\",\"Kada se govori o provinciji ili zemlji, a ne gradu, prevedite to kao provincija ili zemlja.\",\"Контекстот одредува дали мислиме на земја, провинција или земја.\"]","study.examples":"[{\"de\":\"Deutschland ist ein schönes Land.\",\"lv\":\"Германия е прекрасна страна.\"},{\"de\":\"Ich komme aus einem kleinen Land.\",\"lv\":\"Ja sam iz male zemlje.\"},{\"de\":\"Wir fahren aufs Land.\",\"lv\":\"Одиме во селото.\"},{\"de\":\"Auf dem Land ist es ruhig.\",\"lv\":\"Селото е тихо.\"}]","study.comparison":"[{\"word\":\"das Land\",\"meaning\":\"Държава/земя/селски район\",\"example\":\"Немачка је земља.\"},{\"word\":\"die Stadt\",\"meaning\":\"Град\",\"example\":\"Живим у граду.\"},{\"word\":\"das Dorf\",\"meaning\":\"Село\",\"example\":\"Он живи у селу.\"},{\"word\":\"die Erde\",\"meaning\":\"Земја/планета\",\"example\":\"Земља је округла.\"}]","study.tip":"{\"text\":\"Запомнете: земја → das Land • Град → die Stadt.\"}","study.important":"[\"Aufs Land означава „към провинцията“, а не „към селото“.\",\"Das Land не е същото като die Stadt.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Land” (lv, study) against Latvian “valsts • zeme”. Production begins “{"lv":"Земја • Земја","study.translation":"Земја • Земја","study.explanation":"[\"Glavna ideja: das Land večinoma pomen…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"земља • унутрашњост","study":{"id":"a1-land","layout":"standardStudy","translation":"земља • унутрашњост","explanation":["Главна идеја: das Land може значити држава/земља или рурална унутрашњост насупрот граду.","Контекст показује да ли је реч о држави, земљи или руралном подручју."],"examples":[{"de":"Deutschland ist ein schönes Land.","lv":"Немачка је лепа земља."},{"de":"Ich komme aus einem kleinen Land.","lv":"Долазим из мале земље."},{"de":"Wir fahren aufs Land.","lv":"Идемо на село."},{"de":"Auf dem Land ist es ruhig.","lv":"На селу је мирно."}],"comparison":[{"word":"das Land","meaning":"држава / земља / унутрашњост","example":"Deutschland ist ein Land. – Немачка је једна земља."},{"word":"die Stadt","meaning":"град","example":"Ich wohne in der Stadt. – Живим у граду."},{"word":"das Dorf","meaning":"село / насеље","example":"Er lebt in einem Dorf. – Он живи у селу."},{"word":"die Erde","meaning":"Земља / планета","example":"Die Erde ist rund. – Земља је округла."}],"tip":{"text":"Држава или рурална унутрашњост → das Land; град → die Stadt."},"important":["aufs Land значи „на село“ или „у унутрашњост“, а не „у државу“.","das Land није исто што и das Dorf или die Stadt."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: Land: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Land",
+  "de_article": "das",
+  "de_plural": "die Länder",
+  "lv": "земља • унутрашњост",
+  "level": "A1",
+  "study": {
+    "id": "a1-land",
+    "layout": "standardStudy",
+    "translation": "земља • унутрашњост",
+    "explanation": [
+      "Главна идеја: das Land може значити држава/земља или рурална унутрашњост насупрот граду.",
+      "Контекст показује да ли је реч о држави, земљи или руралном подручју."
+    ],
+    "examples": [
+      {
+        "de": "Deutschland ist ein schönes Land.",
+        "lv": "Немачка је лепа земља."
+      },
+      {
+        "de": "Ich komme aus einem kleinen Land.",
+        "lv": "Долазим из мале земље."
+      },
+      {
+        "de": "Wir fahren aufs Land.",
+        "lv": "Идемо на село."
+      },
+      {
+        "de": "Auf dem Land ist es ruhig.",
+        "lv": "На селу је мирно."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "das Land",
+        "meaning": "држава / земља / унутрашњост",
+        "example": "Deutschland ist ein Land. – Немачка је једна земља."
+      },
+      {
+        "word": "die Stadt",
+        "meaning": "град",
+        "example": "Ich wohne in der Stadt. – Живим у граду."
+      },
+      {
+        "word": "das Dorf",
+        "meaning": "село / насеље",
+        "example": "Er lebt in einem Dorf. – Он живи у селу."
+      },
+      {
+        "word": "die Erde",
+        "meaning": "Земља / планета",
+        "example": "Die Erde ist rund. – Земља је округла."
+      }
+    ],
+    "tip": {
+      "text": "Држава или рурална унутрашњост → das Land; град → die Stadt."
+    },
+    "important": [
+      "aufs Land значи „на село“ или „у унутрашњост“, а не „у државу“.",
+      "das Land није исто што и das Dorf или die Stadt."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5677,26 +9076,111 @@
 
 **Audit ID:** `LRB097-0037`
 **Finding Stable ID:** `g2/a1/sr|lang|idx:352|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `lang|idx:352`
 **Field / path:** `lv, study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** garš • ilgs
-**DE reference (read-only):** lang
 **CURRENT (captured scope):** {"lv":"Долг • Долг","study.translation":"Долг • Долг","study.explanation":"[\"Ключова идея: lang пространствено означава „дълъг“, „дълъг във времето“.\",\"Когато говорим за размер или разстояние, lang = дълга (ein langer Tisch = дълга маса).\",\"Когато става въпрос за продължителност на времето, lang = дълъг (ein langer Tag = дълъг ден).\",\"Във фразата den ganzen Tag lang означава цял ден (по дължина).\",\"Латвийските \\\"garsh\\\" и \\\"ilgs\\\" са две различни думи, но немският покрива и двете значения.\"]","study.examples":"[{\"de\":\"Der Tisch ist sehr lang.\",\"lv\":\"Miza je zelo dolga.\"},{\"de\":\"Der Film war sehr lang.\",\"lv\":\"Филмът беше много дълъг.\"},{\"de\":\"Wie lange dauert es?\",\"lv\":\"Koliko dugo treba\"},{\"de\":\"Sie hat lange Haare.\",\"lv\":\"Ima dolge lase.\"},{\"de\":\"Ich warte schon lange.\",\"lv\":\"Dolgo sem čakal.\"},{\"de\":\"Den ganzen Tag lang.\",\"lv\":\"Ves dan (trajanje).\"}]","study.tip":"[\"По размер или разстояние (коса, път, маса) → дълъг.\",\"За времето (ден, чекање, филм) → долго.\"]","study.important":"[\"Lang = дълго (размер) ИЛИ дълго (време) - в зависимост от контекста.\",\"Wie lange = колко дълго (въпрос на време, не на размер).\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “lang” (lv, study) against Latvian “garš • ilgs”. Production begins “{"lv":"Долг • Долг","study.translation":"Долг • Долг","study.explanation":"[\"Ключова идея: lang пространствено означав…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"дуг","study":{"id":"a1-lang","layout":"standardStudy","translation":"дуг","explanation":["Главна идеја: lang за простор значи дуг, а за време такође дуг или дуготрајан.","У српском један придев покрива обе употребе; контекст показује да ли је реч о дужини или трајању."],"examples":[{"de":"Der Tisch ist sehr lang.","lv":"Сто је веома дуг."},{"de":"Der Film war sehr lang.","lv":"Филм је био веома дуг."},{"de":"Wie lange dauert es?","lv":"Колико то траје?"},{"de":"Sie hat lange Haare.","lv":"Она има дугу косу."},{"de":"Ich warte schon lange.","lv":"Већ дуго чекам."},{"de":"Den ganzen Tag lang.","lv":"Цео дан."}],"tip":["Величина или растојање → дуг.","Време или трајање → дуг/дуго."],"important":["lang описује дужину или трајање.","wie lange = колико дуго."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: lang: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "lang",
+  "lv": "дуг",
+  "level": "A1",
+  "study": {
+    "id": "a1-lang",
+    "layout": "standardStudy",
+    "translation": "дуг",
+    "explanation": [
+      "Главна идеја: lang за простор значи дуг, а за време такође дуг или дуготрајан.",
+      "У српском један придев покрива обе употребе; контекст показује да ли је реч о дужини или трајању."
+    ],
+    "examples": [
+      {
+        "de": "Der Tisch ist sehr lang.",
+        "lv": "Сто је веома дуг."
+      },
+      {
+        "de": "Der Film war sehr lang.",
+        "lv": "Филм је био веома дуг."
+      },
+      {
+        "de": "Wie lange dauert es?",
+        "lv": "Колико то траје?"
+      },
+      {
+        "de": "Sie hat lange Haare.",
+        "lv": "Она има дугу косу."
+      },
+      {
+        "de": "Ich warte schon lange.",
+        "lv": "Већ дуго чекам."
+      },
+      {
+        "de": "Den ganzen Tag lang.",
+        "lv": "Цео дан."
+      }
+    ],
+    "tip": [
+      "Величина или растојање → дуг.",
+      "Време или трајање → дуг/дуго."
+    ],
+    "important": [
+      "lang описује дужину или трајање.",
+      "wie lange = колико дуго."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -5827,26 +9311,135 @@
 
 **Audit ID:** `LRB097-0038`
 **Finding Stable ID:** `g2/a1/sr|lassen|idx:356|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `lassen|idx:356`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** atstāt • ļaut
-**DE reference (read-only):** lassen
 **CURRENT (captured scope):** {"lv":"Оставете • Нека","study.translation":"Оставете • Нека","study.explanation":"[\"Glavna ideja: Lasen znači dopustiti da se nešto dogodi ili dopustiti da se nešto dogodi.\",\"Ако нещо остане на мястото си, lassen се превежда като „да пуснеш“.\",\"Ако дадете разрешение на някого, lassen се превежда като „разрешаване“.\",\"Многу честа форма во разговорот е Lass mic! = Остави ме на мира! или Дозволете!\"]","study.examples":"[{\"de\":\"Ich lasse die Tasche hier.\",\"lv\":\"Оставих чантата си тук\"},{\"de\":\"Lass das bitte auf dem Tisch.\",\"lv\":\"Ostavite to na stolu, molim.\"},{\"de\":\"Meine Eltern lassen mich gehen.\",\"lv\":\"Родителите ми ме пуснаха.\"},{\"de\":\"Lass mich in Ruhe!\",\"lv\":\"Остави ме на мира!\"}]","study.comparison":"[{\"word\":\"lassen\",\"meaning\":\"Оставете / разрешите\",\"example\":\"Остављам ово овде.\"},{\"word\":\"bleiben\",\"meaning\":\"Остани\",\"example\":\"Остајем овде.\"},{\"word\":\"erlauben\",\"meaning\":\"Pusti to\",\"example\":\"Она ми то дозвољава.\"},{\"word\":\"geben\",\"meaning\":\"Дайте\",\"example\":\"Дај ми књигу.\"}]","study.tip":"{\"text\":\"Zapomnite: časte me → lasen • Na nikun mi je nastavak → lasen.\"}","study.important":"[\"Lassen не е само за „бягване“. Също така често означава „да се позволи“.\",\"Моето момиче е в Рю! Има много често срещана фраза: „Оставете ме на мира!“\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “lassen” (lv; study) against Latvian “atstāt • ļaut”. Production begins “{"lv":"Оставете • Нека","study.translation":"Оставете • Нека","study.explanation":"[\"Glavna ideja: Lasen znači dopusti…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"оставити • пустити","study":{"id":"a1-lassen","layout":"standardStudy","translation":"оставити • пустити","explanation":["Главна идеја: lassen значи оставити нешто или пустити/дозволити да се нешто догоди.","Када нешто остаје на месту, преводи се оставити; када некоме дајемо дозволу, пустити или дозволити."],"examples":[{"de":"Ich lasse die Tasche hier.","lv":"Остављам торбу овде."},{"de":"Lass das bitte auf dem Tisch.","lv":"Остави то на столу, молим те."},{"de":"Meine Eltern lassen mich gehen.","lv":"Родитељи ме пуштају да идем."},{"de":"Lass mich in Ruhe!","lv":"Остави ме на миру!"}],"comparison":[{"word":"lassen","meaning":"оставити / пустити","example":"Ich lasse das hier. – Остављам то овде."},{"word":"bleiben","meaning":"остати","example":"Ich bleibe hier. – Остајем овде."},{"word":"erlauben","meaning":"дозволити","example":"Sie erlaubt mir das. – Она ми то дозвољава."},{"word":"geben","meaning":"дати","example":"Gib mir das Buch. – Дај ми књигу."}],"tip":{"text":"Нешто остаје → lassen; некоме се допушта → lassen."},"important":["lassen не значи само оставити, већ често и пустити или дозволити.","Lass mich in Ruhe! = Остави ме на миру!"],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: lassen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "lassen",
+  "lv": "оставити • пустити",
+  "level": "A1",
+  "study": {
+    "id": "a1-lassen",
+    "layout": "standardStudy",
+    "translation": "оставити • пустити",
+    "explanation": [
+      "Главна идеја: lassen значи оставити нешто или пустити/дозволити да се нешто догоди.",
+      "Када нешто остаје на месту, преводи се оставити; када некоме дајемо дозволу, пустити или дозволити."
+    ],
+    "examples": [
+      {
+        "de": "Ich lasse die Tasche hier.",
+        "lv": "Остављам торбу овде."
+      },
+      {
+        "de": "Lass das bitte auf dem Tisch.",
+        "lv": "Остави то на столу, молим те."
+      },
+      {
+        "de": "Meine Eltern lassen mich gehen.",
+        "lv": "Родитељи ме пуштају да идем."
+      },
+      {
+        "de": "Lass mich in Ruhe!",
+        "lv": "Остави ме на миру!"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "lassen",
+        "meaning": "оставити / пустити",
+        "example": "Ich lasse das hier. – Остављам то овде."
+      },
+      {
+        "word": "bleiben",
+        "meaning": "остати",
+        "example": "Ich bleibe hier. – Остајем овде."
+      },
+      {
+        "word": "erlauben",
+        "meaning": "дозволити",
+        "example": "Sie erlaubt mir das. – Она ми то дозвољава."
+      },
+      {
+        "word": "geben",
+        "meaning": "дати",
+        "example": "Gib mir das Buch. – Дај ми књигу."
+      }
+    ],
+    "tip": {
+      "text": "Нешто остаје → lassen; некоме се допушта → lassen."
+    },
+    "important": [
+      "lassen не значи само оставити, већ често и пустити или дозволити.",
+      "Lass mich in Ruhe! = Остави ме на миру!"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6031,26 +9624,135 @@
 
 **Audit ID:** `LRB097-0039`
 **Finding Stable ID:** `g2/a1/sr|laufen|idx:357|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `laufen|idx:357`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** skriet • darboties
-**DE reference (read-only):** laufen
 **CURRENT (captured scope):** {"lv":"Run • Work","study.translation":"Run • Work","study.explanation":"[\"Ključna ideja: laufen pomeni \\\"teči\\\", v primeru naprav pa lahko pomeni \\\"teči\\\".\",\"За човек или животно лауфен често означава бягане или ходене с бързо темпо.\",\"За филм, машина или програма laufen означава, че се изпълнява или се случва.\",\"По отношение на движението на краката на ниво А1 най-често се сравняват Gehen и Laufen.\"]","study.examples":"[{\"de\":\"Er läuft sehr schnell.\",\"lv\":\"Той бяга много бързо.\"},{\"de\":\"Die Kinder laufen im Park.\",\"lv\":\"Деца тичат в парка.\"},{\"de\":\"Der Film läuft schon.\",\"lv\":\"Филмът вече е пуснат.\"},{\"de\":\"Die Maschine läuft gut.\",\"lv\":\"Машината работи добре.\"}]","study.comparison":"[{\"word\":\"laufen\",\"meaning\":\"Бягай/работи\",\"example\":\"Он трчи брзо.\"},{\"word\":\"gehen\",\"meaning\":\"Прошетка\",\"example\":\"Идем кући.\"},{\"word\":\"fahren\",\"meaning\":\"Vožnja sa prevozom\",\"example\":\"Вожим се аутобусом.\"},{\"word\":\"funktionieren\",\"meaning\":\"Действайте\",\"example\":\"То добро функционише.\"}]","study.tip":"{\"text\":\"Запомнете: бързи крака → laufen • Транспорт → Фарен.\"}","study.important":"[\"Laufen ni samo \\\"tek\\\". Za film ali napravo lahko pomeni \\\"pojdi\\\" ali \\\"ukrepaj\\\".\",\"Ič lafe znači putovati pješice, a ne automobilom.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “laufen” (lv; study) against Latvian “skriet • darboties”. Production begins “{"lv":"Run • Work","study.translation":"Run • Work","study.explanation":"[\"Ključna ideja: laufen pomeni \\\"teči\\\", …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"трчати • радити","study":{"id":"a1-laufen","layout":"standardStudy","translation":"трчати • радити","explanation":["Главна идеја: laufen значи трчати, али за филм, машину или програм може значити радити, ићи или бити у току.","За кретање пешке упореди gehen и laufen."],"examples":[{"de":"Er läuft sehr schnell.","lv":"Он трчи веома брзо."},{"de":"Die Kinder laufen im Park.","lv":"Деца трче у парку."},{"de":"Der Film läuft schon.","lv":"Филм се већ приказује."},{"de":"Die Maschine läuft gut.","lv":"Машина добро ради."}],"comparison":[{"word":"laufen","meaning":"трчати / радити","example":"Er läuft schnell. – Он брзо трчи."},{"word":"gehen","meaning":"ићи пешке","example":"Ich gehe nach Hause. – Идем кући."},{"word":"fahren","meaning":"возити се","example":"Ich fahre mit dem Bus. – Возим се аутобусом."},{"word":"funktionieren","meaning":"радити / функционисати","example":"Das funktioniert gut. – То добро ради."}],"tip":{"text":"Брзо кретање ногама → laufen; превоз → fahren."},"important":["laufen не значи само трчати; за филм или уређај може значити бити у току или радити.","Ich laufe означава кретање пешке, не вожњу."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: laufen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "laufen",
+  "lv": "трчати • радити",
+  "level": "A1",
+  "study": {
+    "id": "a1-laufen",
+    "layout": "standardStudy",
+    "translation": "трчати • радити",
+    "explanation": [
+      "Главна идеја: laufen значи трчати, али за филм, машину или програм може значити радити, ићи или бити у току.",
+      "За кретање пешке упореди gehen и laufen."
+    ],
+    "examples": [
+      {
+        "de": "Er läuft sehr schnell.",
+        "lv": "Он трчи веома брзо."
+      },
+      {
+        "de": "Die Kinder laufen im Park.",
+        "lv": "Деца трче у парку."
+      },
+      {
+        "de": "Der Film läuft schon.",
+        "lv": "Филм се већ приказује."
+      },
+      {
+        "de": "Die Maschine läuft gut.",
+        "lv": "Машина добро ради."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "laufen",
+        "meaning": "трчати / радити",
+        "example": "Er läuft schnell. – Он брзо трчи."
+      },
+      {
+        "word": "gehen",
+        "meaning": "ићи пешке",
+        "example": "Ich gehe nach Hause. – Идем кући."
+      },
+      {
+        "word": "fahren",
+        "meaning": "возити се",
+        "example": "Ich fahre mit dem Bus. – Возим се аутобусом."
+      },
+      {
+        "word": "funktionieren",
+        "meaning": "радити / функционисати",
+        "example": "Das funktioniert gut. – То добро ради."
+      }
+    ],
+    "tip": {
+      "text": "Брзо кретање ногама → laufen; превоз → fahren."
+    },
+    "important": [
+      "laufen не значи само трчати; за филм или уређај може значити бити у току или радити.",
+      "Ich laufe означава кретање пешке, не вожњу."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6234,26 +9936,115 @@
 
 **Audit ID:** `LRB097-0040`
 **Finding Stable ID:** `g2/a1/sr|laut|idx:358|lv; study.translation|TRANSLATION_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `laut|idx:358`
 **Field / path:** `lv; study.translation`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** SEMANTIC_OR_MEANING_ERROR
-**Raw category:** TRANSLATION_ERROR
-**LV source (read-only):** skaļš
-**DE reference (read-only):** laut
 **CURRENT (captured scope):** {"lv":"Lepo!","study.translation":"Lepo!"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “laut” (lv; study.translation) against Latvian “skaļš”. Production begins “{"lv":"Lepo!","study.translation":"Lepo!"}”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"гласан • гласно","study":{"id":"a1-laut","layout":"standardStudy","translation":"гласан • гласно","explanation":["Главна идеја: laut с малим словом је придев или прилог и описује јачину звука.","der Laut с великим словом је именица и означава звук или глас као појаву."],"examples":[{"de":"Die Musik ist laut.","lv":"Музика је гласна."},{"de":"Die Musik ist laut.","lv":"Музика је гласна."},{"de":"Sprich nicht so laut!","lv":"Не говори тако гласно!"},{"de":"Das ist sehr laut.","lv":"То је веома гласно."},{"de":"Der Laut ist schön.","lv":"Звук је леп."},{"de":"Ich höre einen Laut.","lv":"Чујем неки звук."}],"tip":["laut = гласан/гласно; der Laut = звук.","Обрати пажњу на велико слово и члан."],"important":["laut је придев или прилог без члана.","der Laut је именица.","Множина: die Laute.","Нетачно: Der Laut ist sehr. → тачно: Das ist sehr laut."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}}
+**Note:** OWNER approved override: laut: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "laut",
+  "lv": "гласан • гласно",
+  "level": "A1",
+  "study": {
+    "id": "a1-laut",
+    "layout": "standardStudy",
+    "translation": "гласан • гласно",
+    "explanation": [
+      "Главна идеја: laut с малим словом је придев или прилог и описује јачину звука.",
+      "der Laut с великим словом је именица и означава звук или глас као појаву."
+    ],
+    "examples": [
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "Музика је гласна."
+      },
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "Музика је гласна."
+      },
+      {
+        "de": "Sprich nicht so laut!",
+        "lv": "Не говори тако гласно!"
+      },
+      {
+        "de": "Das ist sehr laut.",
+        "lv": "То је веома гласно."
+      },
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "Звук је леп."
+      },
+      {
+        "de": "Ich höre einen Laut.",
+        "lv": "Чујем неки звук."
+      }
+    ],
+    "tip": [
+      "laut = гласан/гласно; der Laut = звук.",
+      "Обрати пажњу на велико слово и члан."
+    ],
+    "important": [
+      "laut је придев или прилог без члана.",
+      "der Laut је именица.",
+      "Множина: die Laute.",
+      "Нетачно: Der Laut ist sehr. → тачно: Das ist sehr laut."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6393,26 +10184,117 @@
 
 **Audit ID:** `LRB097-0041`
 **Finding Stable ID:** `g2/a1/sr|Laut|idx:359|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `Laut|idx:359`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** skaņa
-**DE reference (read-only):** Laut
 **CURRENT (captured scope):** {"lv":"Звук","study.translation":"Звук","study.explanation":"[\"Основна идея: Съществително с член е подходящо и с главна буква. Означава звук като нещо, сигнал или звук на езика.\",\"Der Laut v bistvu pomeni: glasen zvok.\",\"Често опишува: придавка.\",\"Der Laut основно означава: звуков сигнал.\",\"Често опишува: именка (der).\",\"Laut с малка буква е прилагателно, описващо силата на звука (Die Musik ist laut = музиката е силна).\",\"Der Laut с главна буква и член der - съществително - означава звук като нещо или сигнал (Der Laut ist schön = красив звук).\",\"Množina: die Laute.\"]","study.examples":"[{\"de\":\"Der Laut ist schön.\",\"lv\":\"Звукот е прекрасен.\"},{\"de\":\"Die Musik ist laut.\",\"lv\":\"Glasba je glasna.\"},{\"de\":\"Sprich nicht so laut!\",\"lv\":\"Не говори толкова високо!\"},{\"de\":\"Das ist sehr laut.\",\"lv\":\"Много е шумно.\"},{\"de\":\"Der Laut ist schön.\",\"lv\":\"Звукот е прекрасен.\"},{\"de\":\"Ich höre einen Laut.\",\"lv\":\"Чувам звук\"}]","study.tip":"[\"Mali laut = jak (pridjev: prvi laut). der Laut s glavno slovo = zvuk (sʺŝestveni: ein Laut, der Laut).\",\"Der Laut = zvok\"]","study.important":"[\"Laut се пише с малки букви и няма член - това е прилагателно.\",\"Der Laut с главна буква и член der е съществително име.\",\"Множествено число: die Laute (звуци на езика, звукови сигнали).\",\"Неправилно: Der Laut ist sehr. → Правилно: Das ist sehr laut.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Laut” (lv; study) against Latvian “skaņa”. Production begins “{"lv":"Звук","study.translation":"Звук","study.explanation":"[\"Основна идея: Съществително с член е подходящо и с глав…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"звук","study":{"id":"a1-laut-study","layout":"standardStudy","translation":"звук","explanation":["Главна идеја: der Laut је именица мушког рода и означава звук, глас или језички глас.","laut с малим словом је придев или прилог и значи гласан/гласно."],"examples":[{"de":"Der Laut ist schön.","lv":"Звук је леп."},{"de":"Die Musik ist laut.","lv":"Музика је гласна."},{"de":"Sprich nicht so laut!","lv":"Не говори тако гласно!"},{"de":"Das ist sehr laut.","lv":"То је веома гласно."},{"de":"Der Laut ist schön.","lv":"Звук је леп."},{"de":"Ich höre einen Laut.","lv":"Чујем неки звук."}],"tip":["laut = гласан/гласно; der Laut = звук.","der Laut је именица с чланом der."],"important":["laut је придев или прилог.","der Laut је именица.","Множина: die Laute.","Нетачно: Der Laut ist sehr. → тачно: Das ist sehr laut."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}}
+**Note:** OWNER approved override: Laut: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Laut",
+  "de_article": "der",
+  "de_plural": "die Laute",
+  "lv": "звук",
+  "level": "A1",
+  "study": {
+    "id": "a1-laut-study",
+    "layout": "standardStudy",
+    "translation": "звук",
+    "explanation": [
+      "Главна идеја: der Laut је именица мушког рода и означава звук, глас или језички глас.",
+      "laut с малим словом је придев или прилог и значи гласан/гласно."
+    ],
+    "examples": [
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "Звук је леп."
+      },
+      {
+        "de": "Die Musik ist laut.",
+        "lv": "Музика је гласна."
+      },
+      {
+        "de": "Sprich nicht so laut!",
+        "lv": "Не говори тако гласно!"
+      },
+      {
+        "de": "Das ist sehr laut.",
+        "lv": "То је веома гласно."
+      },
+      {
+        "de": "Der Laut ist schön.",
+        "lv": "Звук је леп."
+      },
+      {
+        "de": "Ich höre einen Laut.",
+        "lv": "Чујем неки звук."
+      }
+    ],
+    "tip": [
+      "laut = гласан/гласно; der Laut = звук.",
+      "der Laut је именица с чланом der."
+    ],
+    "important": [
+      "laut је придев или прилог.",
+      "der Laut је именица.",
+      "Множина: die Laute.",
+      "Нетачно: Der Laut ist sehr. → тачно: Das ist sehr laut."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6551,26 +10433,135 @@
 
 **Audit ID:** `LRB097-0042`
 **Finding Stable ID:** `g2/a1/sr|legen|idx:363|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `legen|idx:363`
 **Field / path:** `lv; study`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** LANGUAGE_MISMATCH
-**LV source (read-only):** nolikt
-**DE reference (read-only):** legen
 **CURRENT (captured scope):** {"lv":"Поставете","study.translation":"Поставете","study.explanation":"[\"Основна идея: legen означава да поставиш нещо надолу или хоризонтално.\",\"Леген се користи кога самите поместувате предмет и го ставате на маса, кревет или друга површина.\",\"Razlikuje se od \\\"liegen\\\", što znači da nešto već laže ili laže.\",\"На ниво A1 най-важната разлика е: legen = легни, liegen = легни.\"]","study.examples":"[{\"de\":\"Ich lege das Buch auf den Tisch.\",\"lv\":\"Ја ставив книгата на масата.\"},{\"de\":\"Leg den Schlüssel hierhin.\",\"lv\":\"Поставете ключа тук.\"},{\"de\":\"Sie legt das Kind ins Bett.\",\"lv\":\"Тя слага детето в леглото.\"},{\"de\":\"Das Buch liegt auf dem Tisch.\",\"lv\":\"Книгата е на маса.\"}]","study.comparison":"[{\"word\":\"legen\",\"meaning\":\"Поставете\",\"example\":\"Стављам књигу на сто.\"},{\"word\":\"liegen\",\"meaning\":\"Бъди/спи\",\"example\":\"Књига лежи на столу.\"},{\"word\":\"stellen\",\"meaning\":\"Поставете вертикално\",\"example\":\"Стављам боцу на сто.\"},{\"word\":\"setzen\",\"meaning\":\"On je sjeo/sjeo\",\"example\":\"Седам.\"}]","study.tip":"{\"text\":\"Запомнете: вие лежите → legen • Нещото вече е там → Ligen.\"}","study.important":"[\"Леген и лиген не са едно и също нещо.\",\"Ich lege das Buch = оставих книгата. Das Buchliegt = книгата лъже.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “legen” (lv; study) against Latvian “nolikt”. Production begins “{"lv":"Поставете","study.translation":"Поставете","study.explanation":"[\"Основна идея: legen означава да поставиш нещо…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"положити • ставити","study":{"id":"a1-legen","layout":"standardStudy","translation":"положити • ставити","explanation":["Главна идеја: legen значи положити или ставити нешто у водораван положај.","Описује радњу, за разлику од liegen, које описује већ постојећи положај."],"examples":[{"de":"Ich lege das Buch auf den Tisch.","lv":"Стављам књигу на сто."},{"de":"Leg den Schlüssel hierhin.","lv":"Стави кључ овде."},{"de":"Sie legt das Kind ins Bett.","lv":"Она ставља дете у кревет."},{"de":"Das Buch liegt auf dem Tisch.","lv":"Књига лежи на столу."}],"comparison":[{"word":"legen","meaning":"положити / ставити","example":"Ich lege das Buch auf den Tisch. – Стављам књигу на сто."},{"word":"liegen","meaning":"лежати / налазити се","example":"Das Buch liegt auf dem Tisch. – Књига лежи на столу."},{"word":"stellen","meaning":"ставити усправно","example":"Ich stelle die Flasche auf den Tisch. – Стављам флашу на сто."},{"word":"setzen","meaning":"посадити / сести","example":"Ich setze mich. – Седам."}],"tip":{"text":"Ти нешто стављаш → legen; ствар већ лежи → liegen."},"important":["legen и liegen нису исто.","Ich lege das Buch = стављам књигу; Das Buch liegt = књига лежи."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: legen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "legen",
+  "lv": "положити • ставити",
+  "level": "A1",
+  "study": {
+    "id": "a1-legen",
+    "layout": "standardStudy",
+    "translation": "положити • ставити",
+    "explanation": [
+      "Главна идеја: legen значи положити или ставити нешто у водораван положај.",
+      "Описује радњу, за разлику од liegen, које описује већ постојећи положај."
+    ],
+    "examples": [
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "lv": "Стављам књигу на сто."
+      },
+      {
+        "de": "Leg den Schlüssel hierhin.",
+        "lv": "Стави кључ овде."
+      },
+      {
+        "de": "Sie legt das Kind ins Bett.",
+        "lv": "Она ставља дете у кревет."
+      },
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "lv": "Књига лежи на столу."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "legen",
+        "meaning": "положити / ставити",
+        "example": "Ich lege das Buch auf den Tisch. – Стављам књигу на сто."
+      },
+      {
+        "word": "liegen",
+        "meaning": "лежати / налазити се",
+        "example": "Das Buch liegt auf dem Tisch. – Књига лежи на столу."
+      },
+      {
+        "word": "stellen",
+        "meaning": "ставити усправно",
+        "example": "Ich stelle die Flasche auf den Tisch. – Стављам флашу на сто."
+      },
+      {
+        "word": "setzen",
+        "meaning": "посадити / сести",
+        "example": "Ich setze mich. – Седам."
+      }
+    ],
+    "tip": {
+      "text": "Ти нешто стављаш → legen; ствар већ лежи → liegen."
+    },
+    "important": [
+      "legen и liegen нису исто.",
+      "Ich lege das Buch = стављам књигу; Das Buch liegt = књига лежи."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6778,26 +10769,95 @@
 
 **Audit ID:** `LRB097-0043`
 **Finding Stable ID:** `g2/a1/sr|leise|idx:368|lv; study.explanation; study.examples; study.tip; study.important|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0001`
 **Lang:** sr
 **Card:** `leise|idx:368`
 **Field / path:** `lv; study.explanation; study.examples; study.tip; study.important`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** kluss
-**DE reference (read-only):** leise
 **CURRENT (captured scope):** {"lv":"Tiho","study.explanation":"[\"Ključna ideja: tih ili tih zvuk.\",\"Leise основно означава: нисък обем.\",\"Често описва: звук/глас/музика.\",\"Leise описва тих или тих глас/звук.\"]","study.examples":"[{\"de\":\"Bitte sei leise.\",\"lv\":\"Ве молам замолчете.\"},{\"de\":\"Bitte sei leise.\",\"lv\":\"Prosimo, utihnite\"},{\"de\":\"Die Musik ist leise.\",\"lv\":\"Музиката е тиха.\"},{\"de\":\"Sprich bitte leise.\",\"lv\":\"Те молам зборувај тивко.\"}]","study.tip":"[\"Leise = тихо\",\"Koristite slobodno vrijeme kada kontekst odgovara ovom značenju.\"]","study.important":"[\"Leise = тих звук.\",\"Leise = обем.\",\"Tivko ili slab zvuk.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “leise” (lv; study.explanation; study.examples; study.tip; study.important) against Latvian “kluss”. Production begins “{"lv":"Tiho","study.explanation":"[\"Ključna ideja: tih ili tih zvuk.\",\"Leise основно означава: нисък обем.\",\"Често…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"тих • тихо","study":{"id":"a1-leise-study","layout":"standardStudy","translation":"тих • тихо","explanation":["Главна идеја: leise значи тих или тихо, односно с малом јачином звука.","Описује тих глас, звук или музику."],"examples":[{"de":"Bitte sei leise.","lv":"Молим те, буди тих."},{"de":"Bitte sei leise.","lv":"Молим те, буди тих."},{"de":"Die Musik ist leise.","lv":"Музика је тиха."},{"de":"Sprich bitte leise.","lv":"Говори тихо, молим те."}],"tip":["leise = тих/тихо.","Користи leise за малу јачину звука."],"important":["leise описује тих звук.","Може бити придев или прилог."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: leise: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "leise",
+  "lv": "тих • тихо",
+  "level": "A1",
+  "study": {
+    "id": "a1-leise-study",
+    "layout": "standardStudy",
+    "translation": "тих • тихо",
+    "explanation": [
+      "Главна идеја: leise значи тих или тихо, односно с малом јачином звука.",
+      "Описује тих глас, звук или музику."
+    ],
+    "examples": [
+      {
+        "de": "Bitte sei leise.",
+        "lv": "Молим те, буди тих."
+      },
+      {
+        "de": "Bitte sei leise.",
+        "lv": "Молим те, буди тих."
+      },
+      {
+        "de": "Die Musik ist leise.",
+        "lv": "Музика је тиха."
+      },
+      {
+        "de": "Sprich bitte leise.",
+        "lv": "Говори тихо, молим те."
+      }
+    ],
+    "tip": [
+      "leise = тих/тихо.",
+      "Користи leise за малу јачину звука."
+    ],
+    "important": [
+      "leise описује тих звук.",
+      "Може бити придев или прилог."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -6906,26 +10966,137 @@
 
 **Audit ID:** `LRB097-0044`
 **Finding Stable ID:** `g2/a1/sr|liegen|idx:377|lv; study.explanation; study.examples; study.comparison; study.important|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0002`
 **Lang:** sr
 **Card:** `liegen|idx:377`
 **Field / path:** `lv; study.explanation; study.examples; study.comparison; study.important`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** atrasties • gulēt
-**DE reference (read-only):** liegen
 **CURRENT (captured scope):** {"lv":"Бъдете • Спете","study.explanation":"[\"Основна идея: Liegen означава да легнете или да лежите хоризонтално.\",\"За човек, лежењето често значи спиење.\",\"Za neke, \\\"lige\\\" znači da je negdje.\",\"Тя е различна от думата legen, която означава „да оставиш нещо“.\"]","study.examples":"[{\"de\":\"Das Buch liegt auf dem Tisch.\",\"lv\":\"Книгата е на маса.\"},{\"de\":\"Mein Handy liegt im Auto.\",\"lv\":\"Телефонът ми е в колата.\"},{\"de\":\"Er liegt im Bett.\",\"lv\":\"Той спи в леглото.\"},{\"de\":\"Ich lege das Buch auf den Tisch.\",\"lv\":\"Ја ставив книгата на масата.\"}]","study.comparison":"[{\"word\":\"liegen\",\"meaning\":\"Бъди/спи\",\"example\":\"Књига лежи овде.\"},{\"word\":\"legen\",\"meaning\":\"Поставете\",\"example\":\"Стављам књигу овде.\"},{\"word\":\"stehen\",\"meaning\":\"Застанете / застанете\",\"example\":\"Боца стоји на столу.\"},{\"word\":\"sein\",\"meaning\":\"Бъди\",\"example\":\"Ја сам овде.\"}]","study.important":"[\"Liegen показва състояние или местоположение.\",\"Legenda kaže dejanje: nekdo nekaj pusti za seboj.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “liegen” (lv; study.explanation; study.examples; study.comparison; study.important) against Latvian “atrasties • gulēt”. Production begins “{"lv":"Бъдете • Спете","study.explanation":"[\"Основна идея: Liegen означава да легнете или да лежите хоризонтално.\",\…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"лежати • налазити се","study":{"id":"a1-liegen","layout":"standardStudy","translation":"лежати • налазити се","explanation":["Главна идеја: liegen значи лежати или налазити се у водоравном положају.","За човека обично значи лежати, а за предмет да се налази негде.","legen означава радњу стављања."],"examples":[{"de":"Das Buch liegt auf dem Tisch.","lv":"Књига лежи на столу."},{"de":"Mein Handy liegt im Auto.","lv":"Мој телефон је у аутомобилу."},{"de":"Er liegt im Bett.","lv":"Он лежи у кревету."},{"de":"Ich lege das Buch auf den Tisch.","lv":"Стављам књигу на сто."}],"comparison":[{"word":"liegen","meaning":"лежати / налазити се","example":"Das Buch liegt hier. – Књига лежи овде."},{"word":"legen","meaning":"положити / ставити","example":"Ich lege das Buch hierhin. – Стављам књигу овде."},{"word":"stehen","meaning":"стајати / налазити се усправно","example":"Die Flasche steht auf dem Tisch. – Флаша стоји на столу."},{"word":"sein","meaning":"бити","example":"Ich bin hier. – Овде сам."}],"tip":{"text":"Ствар већ лежи → liegen; ти је стављаш → legen."},"important":["liegen описује положај или место.","legen описује радњу: неко нешто ставља."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: liegen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "liegen",
+  "lv": "лежати • налазити се",
+  "level": "A1",
+  "study": {
+    "id": "a1-liegen",
+    "layout": "standardStudy",
+    "translation": "лежати • налазити се",
+    "explanation": [
+      "Главна идеја: liegen значи лежати или налазити се у водоравном положају.",
+      "За човека обично значи лежати, а за предмет да се налази негде.",
+      "legen означава радњу стављања."
+    ],
+    "examples": [
+      {
+        "de": "Das Buch liegt auf dem Tisch.",
+        "lv": "Књига лежи на столу."
+      },
+      {
+        "de": "Mein Handy liegt im Auto.",
+        "lv": "Мој телефон је у аутомобилу."
+      },
+      {
+        "de": "Er liegt im Bett.",
+        "lv": "Он лежи у кревету."
+      },
+      {
+        "de": "Ich lege das Buch auf den Tisch.",
+        "lv": "Стављам књигу на сто."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "liegen",
+        "meaning": "лежати / налазити се",
+        "example": "Das Buch liegt hier. – Књига лежи овде."
+      },
+      {
+        "word": "legen",
+        "meaning": "положити / ставити",
+        "example": "Ich lege das Buch hierhin. – Стављам књигу овде."
+      },
+      {
+        "word": "stehen",
+        "meaning": "стајати / налазити се усправно",
+        "example": "Die Flasche steht auf dem Tisch. – Флаша стоји на столу."
+      },
+      {
+        "word": "sein",
+        "meaning": "бити",
+        "example": "Ich bin hier. – Овде сам."
+      }
+    ],
+    "tip": {
+      "text": "Ствар већ лежи → liegen; ти је стављаш → legen."
+    },
+    "important": [
+      "liegen описује положај или место.",
+      "legen описује радњу: неко нешто ставља."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7128,26 +11299,91 @@
 
 **Audit ID:** `LRB097-0045`
 **Finding Stable ID:** `g2/a1/sr|machen|idx:386|lv; study.explanation; study.examples; study.important|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `machen|idx:386`
 **Field / path:** `lv; study.explanation; study.examples; study.important`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** darīt • taisīt
-**DE reference (read-only):** machen
 **CURRENT (captured scope):** {"lv":"Ranjen sem!","study.explanation":"[\"Клучна идеја: махен е многу вообичаен збор што значи да се направи или направи.\",\"Ако говорим за действие като цяло, тогава имаме предвид как да го направим.\",\"Ако нещо се прави или приготвя, то се превежда като правене или приготвяне.\",\"В много фрази machen се превежда естествено, според латвийския език, а не буквално.\"]","study.examples":"[{\"de\":\"Was machst du?\",\"lv\":\"Šta radiš\"},{\"de\":\"Ich mache Hausaufgaben.\",\"lv\":\"Пиша си домашното\"},{\"de\":\"Wir machen Pizza.\",\"lv\":\"Ние правиме пица.\"},{\"de\":\"Das macht Spaß.\",\"lv\":\"In še zabavno je.\"}]","study.important":"[\"Machen je vrlo široka ideja, ali latvijski se često mora prevoditi prirodno, ovisno o situaciji.\",\"Das macht Spaß значи „ова е забавно“, а не буквално „ова е забавно“.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “machen” (lv; study.explanation; study.examples; study.important) against Latvian “darīt • taisīt”. Production begins “{"lv":"Ranjen sem!","study.explanation":"[\"Клучна идеја: махен е многу вообичаен збор што значи да се направи или напр…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"радити • правити","study":{"id":"a1-machen","layout":"standardStudy","translation":"радити • правити","explanation":["Главна идеја: machen је веома чест глагол и значи радити или правити.","За општу радњу преводи се радити, а за стварање или припрему правити; у устаљеним изразима превод мора бити природан."],"examples":[{"de":"Was machst du?","lv":"Шта радиш?"},{"de":"Ich mache Hausaufgaben.","lv":"Радим домаће задатке."},{"de":"Wir machen Pizza.","lv":"Правимо пицу."},{"de":"Das macht Spaß.","lv":"То је забавно."}],"tip":{"text":"Was machst du? = Шта радиш?"},"important":["machen је широк глагол и преводи се према ситуацији.","Das macht Spaß значи „то је забавно“, а не дословно „то прави забаву“."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":{},"important":[{},{}]}}}
+**Note:** OWNER approved override: machen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "machen",
+  "lv": "радити • правити",
+  "level": "A1",
+  "study": {
+    "id": "a1-machen",
+    "layout": "standardStudy",
+    "translation": "радити • правити",
+    "explanation": [
+      "Главна идеја: machen је веома чест глагол и значи радити или правити.",
+      "За општу радњу преводи се радити, а за стварање или припрему правити; у устаљеним изразима превод мора бити природан."
+    ],
+    "examples": [
+      {
+        "de": "Was machst du?",
+        "lv": "Шта радиш?"
+      },
+      {
+        "de": "Ich mache Hausaufgaben.",
+        "lv": "Радим домаће задатке."
+      },
+      {
+        "de": "Wir machen Pizza.",
+        "lv": "Правимо пицу."
+      },
+      {
+        "de": "Das macht Spaß.",
+        "lv": "То је забавно."
+      }
+    ],
+    "tip": {
+      "text": "Was machst du? = Шта радиш?"
+    },
+    "important": [
+      "machen је широк глагол и преводи се према ситуацији.",
+      "Das macht Spaß значи „то је забавно“, а не дословно „то прави забаву“."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7283,26 +11519,97 @@
 
 **Audit ID:** `LRB097-0046`
 **Finding Stable ID:** `g2/a1/sr|Mal|idx:390|lv; study.explanation; study.examples; study.important|WRONG_LANGUAGE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `Mal|idx:390`
 **Field / path:** `lv; study.explanation; study.examples; study.important`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** WRONG_LANGUAGE
-**LV source (read-only):** reize
-**DE reference (read-only):** Mal
 **CURRENT (captured scope):** {"lv":"Време","study.explanation":"[\"Ključna ideja: das Mal znači \\\"jednom\\\" kao događaj ili prilika.\",\"Pogosto se uporablja s številkami: ein Mal, zwei Mal, drei Mal.\",\"Със сериен номер: das erste Mal, das zweite Mal.\",\"Ne govori s razvoznata častiča mal (Comm mali kurac!) – ovo ima drugačije značenje.\"]","study.examples":"[{\"de\":\"Das erste Mal war schwer.\",\"lv\":\"Първият път беше трудно.\"},{\"de\":\"Ich war schon zwei Mal in Berlin.\",\"lv\":\"Вече бях два пъти в Берлин.\"},{\"de\":\"Ein Mal reicht.\",\"lv\":\"Доволно е еднаш.\"},{\"de\":\"Noch ein Mal, bitte!\",\"lv\":\"Още веднъж моля!\"}]","study.important":"[\"Das Mal/die Male е съществително с член.\",\"Jedan mal, dva mal – jednom.\",\"Mal bez člana (Komm Mal Her!) nije isto što i das Mal.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Mal” (lv; study.explanation; study.examples; study.important) against Latvian “reize”. Production begins “{"lv":"Време","study.explanation":"[\"Ključna ideja: das Mal znači \\\"jednom\\\" kao događaj ili prilika.\",\"Pogosto …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"пут","study":{"id":"a1-mal","layout":"standardStudy","translation":"пут","explanation":["Главна идеја: das Mal означава пут, односно један случај или догађај.","Често се користи с бројевима: ein Mal, zwei Mal, drei Mal и с редним бројевима: das erste Mal.","Не мешај с разговорном честицом mal у Komm mal her!"],"examples":[{"de":"Das erste Mal war schwer.","lv":"Први пут је било тешко."},{"de":"Ich war schon zwei Mal in Berlin.","lv":"Већ сам два пута био у Берлину."},{"de":"Ein Mal reicht.","lv":"Један пут је довољан."},{"de":"Noch ein Mal, bitte!","lv":"Још једном, молим!"}],"tip":{"text":"das Mal = пут као именица; mal без члана = разговорна честица."},"important":["das Mal / die Male је именица с чланом.","ein Mal, zwei Mal означава број понављања.","mal без члана није исто што и das Mal."],"sectionAccents":{"explanation":[{},{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":{},"important":[{},{},{}]}}}
+**Note:** OWNER approved override: Mal: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Mal",
+  "de_article": "das",
+  "de_plural": "die Male",
+  "lv": "пут",
+  "level": "A1",
+  "study": {
+    "id": "a1-mal",
+    "layout": "standardStudy",
+    "translation": "пут",
+    "explanation": [
+      "Главна идеја: das Mal означава пут, односно један случај или догађај.",
+      "Често се користи с бројевима: ein Mal, zwei Mal, drei Mal и с редним бројевима: das erste Mal.",
+      "Не мешај с разговорном честицом mal у Komm mal her!"
+    ],
+    "examples": [
+      {
+        "de": "Das erste Mal war schwer.",
+        "lv": "Први пут је било тешко."
+      },
+      {
+        "de": "Ich war schon zwei Mal in Berlin.",
+        "lv": "Већ сам два пута био у Берлину."
+      },
+      {
+        "de": "Ein Mal reicht.",
+        "lv": "Један пут је довољан."
+      },
+      {
+        "de": "Noch ein Mal, bitte!",
+        "lv": "Још једном, молим!"
+      }
+    ],
+    "tip": {
+      "text": "das Mal = пут као именица; mal без члана = разговорна честица."
+    },
+    "important": [
+      "das Mal / die Male је именица с чланом.",
+      "ein Mal, zwei Mal означава број понављања.",
+      "mal без члана није исто што и das Mal."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7424,26 +11731,115 @@
 
 **Audit ID:** `LRB097-0047`
 **Finding Stable ID:** `g2/a1/sr|morgen|idx:417|lv/study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `morgen|idx:417`
 **Field / path:** `lv/study.examples`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** rīt
-**DE reference (read-only):** morgen
 **CURRENT (captured scope):** {"lv":"Утре","study.examples":"[{\"de\":\"Ich komme morgen.\",\"lv\":\"Jutri zjutraj.\"},{\"de\":\"Bis morgen!\",\"lv\":\"Ще се видим утре!\"},{\"de\":\"Ich komme morgen.\",\"lv\":\"Jutri zjutraj.\"},{\"de\":\"Morgen ist Montag.\",\"lv\":\"Jutri je ponedeljek\"},{\"de\":\"Guten Morgen!\",\"lv\":\"Dobro jutro\"},{\"de\":\"Der Morgen ist schön.\",\"lv\":\"Prelepo je jutro.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “morgen” (lv/study.examples) against Latvian “rīt”. Production begins “{"lv":"Утре","study.examples":"[{\"de\":\"Ich komme morgen.\",\"lv\":\"Jutri zjutraj.\"},{\"de\":\"Bis morgen!\",\"lv\"…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"сутра","study":{"id":"a1-morgen","layout":"standardStudy","translation":"сутра","explanation":["Главна идеја: morgen с малим словом је прилог и значи сутра, следећег дана.","der Morgen с великим словом је именица и значи јутро."],"examples":[{"de":"Ich komme morgen.","lv":"Долазим сутра."},{"de":"Bis morgen!","lv":"Видимо се сутра!"},{"de":"Ich komme morgen.","lv":"Долазим сутра."},{"de":"Morgen ist Montag.","lv":"Сутра је понедељак."},{"de":"Guten Morgen!","lv":"Добро јутро!"},{"de":"Der Morgen ist schön.","lv":"Јутро је лепо."}],"tip":["morgen = сутра; der Morgen = јутро.","Обрати пажњу на велико слово."],"important":["morgen се пише малим словом када значи сутра.","der Morgen је именица.","Guten Morgen! увек има велико M.","Нетачно: Guten morgen! → тачно: Guten Morgen!"],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}}
+**Note:** OWNER approved override: morgen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "morgen",
+  "lv": "сутра",
+  "level": "A1",
+  "study": {
+    "id": "a1-morgen",
+    "layout": "standardStudy",
+    "translation": "сутра",
+    "explanation": [
+      "Главна идеја: morgen с малим словом је прилог и значи сутра, следећег дана.",
+      "der Morgen с великим словом је именица и значи јутро."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme morgen.",
+        "lv": "Долазим сутра."
+      },
+      {
+        "de": "Bis morgen!",
+        "lv": "Видимо се сутра!"
+      },
+      {
+        "de": "Ich komme morgen.",
+        "lv": "Долазим сутра."
+      },
+      {
+        "de": "Morgen ist Montag.",
+        "lv": "Сутра је понедељак."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "Добро јутро!"
+      },
+      {
+        "de": "Der Morgen ist schön.",
+        "lv": "Јутро је лепо."
+      }
+    ],
+    "tip": [
+      "morgen = сутра; der Morgen = јутро.",
+      "Обрати пажњу на велико слово."
+    ],
+    "important": [
+      "morgen се пише малим словом када значи сутра.",
+      "der Morgen је именица.",
+      "Guten Morgen! увек има велико M.",
+      "Нетачно: Guten morgen! → тачно: Guten Morgen!"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7583,26 +11979,116 @@
 
 **Audit ID:** `LRB097-0048`
 **Finding Stable ID:** `g2/a1/sr|Morgen|idx:418|lv/study.examples|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0005`
 **Lang:** sr
 **Card:** `Morgen|idx:418`
 **Field / path:** `lv/study.examples`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ISSUE
-**LV source (read-only):** rīts
-**DE reference (read-only):** Morgen
 **CURRENT (captured scope):** {"lv":"-Takoj zjutraj.","study.examples":"[{\"de\":\"Guten Morgen!\",\"lv\":\"Dobro jutro\"},{\"de\":\"Bis morgen!\",\"lv\":\"Ще се видим утре!\"},{\"de\":\"Ich komme morgen.\",\"lv\":\"Jutri zjutraj.\"},{\"de\":\"Morgen ist Montag.\",\"lv\":\"Jutri je ponedeljek\"},{\"de\":\"Guten Morgen!\",\"lv\":\"Dobro jutro\"},{\"de\":\"Der Morgen ist schön.\",\"lv\":\"Prelepo je jutro.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Morgen” (lv/study.examples) against Latvian “rīts”. Production begins “{"lv":"-Takoj zjutraj.","study.examples":"[{\"de\":\"Guten Morgen!\",\"lv\":\"Dobro jutro\"},{\"de\":\"Bis morgen!\",\"…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"јутро","study":{"id":"a1-morgen-study","layout":"standardStudy","translation":"јутро","explanation":["Главна идеја: der Morgen је именица мушког рода и означава јутро.","morgen с малим словом је прилог и значи сутра."],"examples":[{"de":"Guten Morgen!","lv":"Добро јутро!"},{"de":"Bis morgen!","lv":"Видимо се сутра!"},{"de":"Ich komme morgen.","lv":"Долазим сутра."},{"de":"Morgen ist Montag.","lv":"Сутра је понедељак."},{"de":"Guten Morgen!","lv":"Добро јутро!"},{"de":"Der Morgen ist schön.","lv":"Јутро је лепо."}],"tip":["morgen = сутра; der Morgen = јутро.","der Morgen је именица с великим словом."],"important":["morgen с малим словом значи сутра.","der Morgen с великим словом значи јутро.","Guten Morgen! увек има велико M.","Нетачно: Guten morgen! → тачно: Guten Morgen!"],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}}
+**Note:** OWNER approved override: Morgen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Morgen",
+  "de_article": "der",
+  "lv": "јутро",
+  "level": "A1",
+  "study": {
+    "id": "a1-morgen-study",
+    "layout": "standardStudy",
+    "translation": "јутро",
+    "explanation": [
+      "Главна идеја: der Morgen је именица мушког рода и означава јутро.",
+      "morgen с малим словом је прилог и значи сутра."
+    ],
+    "examples": [
+      {
+        "de": "Guten Morgen!",
+        "lv": "Добро јутро!"
+      },
+      {
+        "de": "Bis morgen!",
+        "lv": "Видимо се сутра!"
+      },
+      {
+        "de": "Ich komme morgen.",
+        "lv": "Долазим сутра."
+      },
+      {
+        "de": "Morgen ist Montag.",
+        "lv": "Сутра је понедељак."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "Добро јутро!"
+      },
+      {
+        "de": "Der Morgen ist schön.",
+        "lv": "Јутро је лепо."
+      }
+    ],
+    "tip": [
+      "morgen = сутра; der Morgen = јутро.",
+      "der Morgen је именица с великим словом."
+    ],
+    "important": [
+      "morgen с малим словом значи сутра.",
+      "der Morgen с великим словом значи јутро.",
+      "Guten Morgen! увек има велико M.",
+      "Нетачно: Guten morgen! → тачно: Guten Morgen!"
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7738,26 +12224,83 @@
 
 **Audit ID:** `LRB097-0049`
 **Finding Stable ID:** `g2/a1/sr|noch mal|idx:701|lv; study.examples; study.*|CONTENT_CONTAMINATION|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0004`
 **Lang:** sr
 **Card:** `noch mal|idx:701`
 **Field / path:** `lv; study.examples; study.*`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** CRITICAL
 **Category:** CONTENT_CORRUPTION_OR_UNRELATED
-**Raw category:** CONTENT_CONTAMINATION
-**LV source (read-only):** vēlreiz
-**DE reference (read-only):** noch mal
 **CURRENT (captured scope):** {"lv":"Opet","study.examples":"[{\"de\":\"Noch mal, bitte.\",\"lv\":\"Уште еднаш ве молам.\"},{\"de\":\"Noch mal, bitte.\",\"lv\":\"Още веднъж моля\"},{\"de\":\"Sag das noch mal.\",\"lv\":\"-Ja. Pizda, ja! Nič mi ne more do živega.\"}]","study.translation":"Opet","study.explanation":"[\"Glavna ideja: Ponavljanje znači - ponovite radnju ili tražite da se ponovi.\"]","study.tip":"[\"Koristite nochmal kada kontekst odgovara ovom značenju.\",\"Koristite nochmal kada kontekst odgovara ovom značenju.\"]","study.important":"[\"Ponavljanje znači ponoviti radnju ili zatražiti ponavljanje.\",\"Noch Mal: ​​​​Проверете контекста преди употреба.\"]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “noch mal” (lv; study.examples; study.*) against Latvian “vēlreiz”. Production begins “{"lv":"Opet","study.examples":"[{\"de\":\"Noch mal, bitte.\",\"lv\":\"Уште еднаш ве молам.\"},{\"de\":\"Noch mal, bitte…”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"још једном","study":{"id":"a1-noch-mal","layout":"standardStudy","translation":"још једном","explanation":["Главна идеја: noch mal значи још једном и користи се за понављање радње или молбу да се нешто понови."],"examples":[{"de":"Noch mal, bitte.","lv":"Још једном, молим."},{"de":"Noch mal, bitte.","lv":"Још једном, молим."},{"de":"Sag das noch mal.","lv":"Реци то још једном."}],"tip":["noch mal = још једном.","Користи га када тражиш или описујеш понављање."],"important":["noch mal означава понављање радње или исказа."],"sectionAccents":{"explanation":[{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{}]}}}
+**Note:** OWNER approved override: noch mal: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "noch mal",
+  "lv": "још једном",
+  "level": "A1",
+  "study": {
+    "id": "a1-noch-mal",
+    "layout": "standardStudy",
+    "translation": "још једном",
+    "explanation": [
+      "Главна идеја: noch mal значи још једном и користи се за понављање радње или молбу да се нешто понови."
+    ],
+    "examples": [
+      {
+        "de": "Noch mal, bitte.",
+        "lv": "Још једном, молим."
+      },
+      {
+        "de": "Noch mal, bitte.",
+        "lv": "Још једном, молим."
+      },
+      {
+        "de": "Sag das noch mal.",
+        "lv": "Реци то још једном."
+      }
+    ],
+    "tip": [
+      "noch mal = још једном.",
+      "Користи га када тражиш или описујеш понављање."
+    ],
+    "important": [
+      "noch mal означава понављање радње или исказа."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
@@ -7841,26 +12384,104 @@
 
 **Audit ID:** `LRB097-0050`
 **Finding Stable ID:** `g2/a1/sr|Obst|idx:693|lv; study.translation; study.explanation; study.examples|TARGET_LANGUAGE_ERROR|gpt-5.6-luna`
-**Finding Member ID:** `DISC-G2-A1-SR-L0003`
 **Lang:** sr
 **Card:** `Obst|idx:693`
 **Field / path:** `lv; study.translation; study.explanation; study.examples`
-**Production file:** `crowdin-staging/g2/sr-a1.json`
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
-**Raw category:** TARGET_LANGUAGE_ERROR
-**LV source (read-only):** augļi
-**DE reference (read-only):** Obst
 **CURRENT (captured scope):** {"lv":"Плодове","study.translation":"Плодове","study.explanation":"[\"Основна идея: Плодовете като цяло. В немски няма форма за множествено число *die Obsts.\",\"Das Obst основно означава: плодове като цяло.\",\"Често се опишува: во кој било род (само еднина).\"]","study.examples":"[{\"de\":\"Wir essen viel Obst.\",\"lv\":\"Ядем много плодове.\"},{\"de\":\"Wir essen viel Obst.\",\"lv\":\"Ядем много плодове.\"},{\"de\":\"Obst ist gesund.\",\"lv\":\"Плодовите се здрави.\"},{\"de\":\"Ich mag Obst und Gemüse.\",\"lv\":\"Обичам плодове и зеленчуци.\"},{\"de\":\"Wir essen Obst.\",\"lv\":\"Ядем плодове.\"}]"}
-**PROPOSED:** —
-**Problem:** 
-**Pending note:** Individually reviewed sr composite row for “Obst” (lv; study.translation; study.explanation; study.examples) against Latvian “augļi”. Production begins “{"lv":"Плодове","study.translation":"Плодове","study.explanation":"[\"Основна идея: Плодовете като цяло. В немски няма …”. The row spans several independently editable fields, so one scalar owner_new would be unsafe; keep PENDING until the listed subfields are reviewed and represented separately.
-**Unresolved category:** COMPOSITE_SCOPE_REQUIRES_FIELD_LEVEL_OWNER
-**OWNER STATUS:** PENDING
-**OWNER_DECISION:** 
-**NEW:** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"воће","study":{"id":"a1-obst","layout":"standardStudy","translation":"воће","explanation":["Главна идеја: das Obst означава воће уопштено и у немачком нема редовну множину *die Obsts.","То је именица средњег рода која се у овом значењу употребљава у једнини."],"examples":[{"de":"Wir essen viel Obst.","lv":"Једемо много воћа."},{"de":"Wir essen viel Obst.","lv":"Једемо много воћа."},{"de":"Obst ist gesund.","lv":"Воће је здраво."},{"de":"Ich mag Obst und Gemüse.","lv":"Волим воће и поврће."},{"de":"Wir essen Obst.","lv":"Једемо воће."}],"tip":["das Obst = воће.","Користи једнину за воће као целину."],"important":["Нетачно: die Obsts → тачно: das Obst.","das Obst = воће уопштено."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** OWNER approved override: Obst: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.
 
-### Gala card (full composite snapshot)
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Obst",
+  "de_article": "das",
+  "lv": "воће",
+  "level": "A1",
+  "study": {
+    "id": "a1-obst",
+    "layout": "standardStudy",
+    "translation": "воће",
+    "explanation": [
+      "Главна идеја: das Obst означава воће уопштено и у немачком нема редовну множину *die Obsts.",
+      "То је именица средњег рода која се у овом значењу употребљава у једнини."
+    ],
+    "examples": [
+      {
+        "de": "Wir essen viel Obst.",
+        "lv": "Једемо много воћа."
+      },
+      {
+        "de": "Wir essen viel Obst.",
+        "lv": "Једемо много воћа."
+      },
+      {
+        "de": "Obst ist gesund.",
+        "lv": "Воће је здраво."
+      },
+      {
+        "de": "Ich mag Obst und Gemüse.",
+        "lv": "Волим воће и поврће."
+      },
+      {
+        "de": "Wir essen Obst.",
+        "lv": "Једемо воће."
+      }
+    ],
+    "tip": [
+      "das Obst = воће.",
+      "Користи једнину за воће као целину."
+    ],
+    "important": [
+      "Нетачно: die Obsts → тачно: das Obst.",
+      "das Obst = воће уопштено."
+    ],
+    "sectionAccents": {
+      "explanation": [
+        {},
+        {}
+      ],
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+### Gala card (previous CURRENT composite — full production card)
 
 ```json
 {
