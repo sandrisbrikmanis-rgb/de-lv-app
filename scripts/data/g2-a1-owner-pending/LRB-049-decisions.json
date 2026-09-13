@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Ostern|idx:467|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pääsiäinen\"}",
+    "owner_note": "FI Ostern / lv: individuāli pārbaudīta LRB-049 rinda 1/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Paar|idx:468|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pari\"}",
+    "owner_note": "FI Paar / lv: individuāli pārbaudīta LRB-049 rinda 2/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Papier|idx:469|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Paperi\"}",
+    "owner_note": "FI Papier / lv: individuāli pārbaudīta LRB-049 rinda 3/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Park|idx:470|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Puisto\"}",
+    "owner_note": "FI Park / lv: individuāli pārbaudīta LRB-049 rinda 4/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|passen|idx:471|lv; study.explanation; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sopia • Istua hyvin\",\"study.translation\":\"Sopia • Istua hyvin\",\"study.explanation\":\"[\\\"Pääajatus: passen tarkoittaa sopia, istua hyvin tai olla sopiva.\\\",\\\"Vaatteista puhuttaessa passen tarkoittaa usein, että vaate on sopivan kokoinen.\\\",\\\"Väreistä tai tyylistä puhuttaessa passen tarkoittaa sopia tai näyttää hyvältä jonkun yllä.\\\",\\\"Hyvin tavallinen ilmaus on Das passt. = Se sopii.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Die Jacke passt mir.\\\",\\\"lv\\\":\\\"Takki sopii minulle.\\\"},{\\\"de\\\":\\\"Das Kleid passt gut.\\\",\\\"lv\\\":\\\"Mekko istuu hyvin.\\\"},{\\\"de\\\":\\\"Die Farbe passt zu dir.\\\",\\\"lv\\\":\\\"Väri sopii sinulle.\\\"},{\\\"de\\\":\\\"Das passt.\\\",\\\"lv\\\":\\\"Se sopii.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"passen\\\",\\\"meaning\\\":\\\"sopia • istua hyvin\\\",\\\"example\\\":\\\"Die Jacke passt mir. – Takki sopii minulle.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"sopia ulkonäöltään • seistä\\\",\\\"example\\\":\\\"Rot steht dir gut. – Punainen sopii sinulle hyvin.\\\"},{\\\"word\\\":\\\"geeignet sein\\\",\\\"meaning\\\":\\\"olla sopiva\\\",\\\"example\\\":\\\"Das ist geeignet. – Se on sopiva.\\\"},{\\\"word\\\":\\\"funktionieren\\\",\\\"meaning\\\":\\\"toimia\\\",\\\"example\\\":\\\"Das funktioniert. – Se toimii.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: Das passt. = Se sopii.\\\"}\",\"study.important\":\"[\\\"passen ei liity vain vaatteisiin.\\\",\\\"Se voi tarkoittaa myös, että aika, suunnitelma tai ratkaisu sopii.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"passen\\\",\\\"Das passt\\\"],\\\"purple\\\":[\\\"sopia\\\",\\\"istua hyvin\\\",\\\"sopiva\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sopii\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"istuu hyvin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sopii\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Das passt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Se sopii\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"passen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sopia\\\",\\\"istua hyvin\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"passt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sopia ulkonäöltään\\\",\\\"seistä\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"steht\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"geeignet sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"olla sopiva\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"geeignet\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"funktionieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"toimia\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"funktioniert\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Das passt\\\"],\\\"purple\\\":[\\\"Se sopii\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"passen\\\"],\\\"purple\\\":[\\\"vaatteisiin\\\"]},{\\\"purple\\\":[\\\"aika\\\",\\\"suunnitelma\\\",\\\"ratkaisu\\\",\\\"sopii\\\"]}]}\"}",
+    "owner_note": "FI passen / lv; study.explanation; study.important: individuāli pārbaudīta LRB-049 rinda 5/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Pause|idx:472|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tauko\"}",
+    "owner_note": "FI Pause / lv: individuāli pārbaudīta LRB-049 rinda 6/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Person|idx:473|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Henkilö\"}",
+    "owner_note": "FI Person / lv: individuāli pārbaudīta LRB-049 rinda 7/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Pferd|idx:474|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Hevonen\"}",
+    "owner_note": "FI Pferd / lv: individuāli pārbaudīta LRB-049 rinda 8/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Pflanze|idx:475|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kasvi\"}",
+    "owner_note": "FI Pflanze / lv: individuāli pārbaudīta LRB-049 rinda 9/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Pizza|idx:476|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Pizza / lv: individuāli pārbaudīta LRB-049 rinda 10/50; esošā production_current vērtība jau ir pareiza somu valoda, tādēļ izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|Plan|idx:477|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Suunnitelma\"}",
+    "owner_note": "FI Plan / lv: individuāli pārbaudīta LRB-049 rinda 11/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Platz|idx:478|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Paikka\"}",
+    "owner_note": "FI Platz / lv: individuāli pārbaudīta LRB-049 rinda 12/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Polizei|idx:479|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Poliisi\"}",
+    "owner_note": "FI Polizei / lv: individuāli pārbaudīta LRB-049 rinda 13/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Post|idx:480|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Posti\"}",
+    "owner_note": "FI Post / lv: individuāli pārbaudīta LRB-049 rinda 14/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Preis|idx:481|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Hinta\"}",
+    "owner_note": "FI Preis / lv: individuāli pārbaudīta LRB-049 rinda 15/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|probieren|idx:482|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kokeilla • Maistaa\",\"study.translation\":\"Kokeilla • Maistaa\",\"study.explanation\":\"[\\\"Pääajatus: probieren tarkoittaa kokeilla tai maistaa.\\\",\\\"Ruoasta tai juomasta puhuttaessa probieren tarkoittaa usein maistaa.\\\",\\\"Toiminnasta, menetelmästä tai esineestä puhuttaessa probieren tarkoittaa kokeilla.\\\",\\\"Se ei ole sama kuin prüfen, joka tarkoittaa perusteellisempaa tarkistamista.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Probier mal die Suppe!\\\",\\\"lv\\\":\\\"Maista keittoa!\\\"},{\\\"de\\\":\\\"Ich möchte den Kuchen probieren.\\\",\\\"lv\\\":\\\"Haluaisin maistaa kakkua.\\\"},{\\\"de\\\":\\\"Wir probieren eine neue Methode.\\\",\\\"lv\\\":\\\"Kokeilemme uutta menetelmää.\\\"},{\\\"de\\\":\\\"Kann ich die Jacke anprobieren?\\\",\\\"lv\\\":\\\"Voinko sovittaa takkia?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"probieren\\\",\\\"meaning\\\":\\\"kokeilla • maistaa\\\",\\\"example\\\":\\\"Probier mal die Suppe! – Maista keittoa!\\\"},{\\\"word\\\":\\\"versuchen\\\",\\\"meaning\\\":\\\"yrittää\\\",\\\"example\\\":\\\"Ich versuche es. – Yritän sitä.\\\"},{\\\"word\\\":\\\"prüfen\\\",\\\"meaning\\\":\\\"tarkistaa\\\",\\\"example\\\":\\\"Ich prüfe die Rechnung. – Tarkistan laskun.\\\"},{\\\"word\\\":\\\"anprobieren\\\",\\\"meaning\\\":\\\"sovittaa\\\",\\\"example\\\":\\\"Ich probiere die Jacke an. – Sovitan takkia.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: ruoka → probieren = maistaa.\\\"}\",\"study.important\":\"[\\\"probieren ei ole ensisijainen verbi viralliselle tarkastamiselle.\\\",\\\"Asiakirjan tai laskun tarkistamisesta käytetään tavallisesti verbiä prüfen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"probieren\\\",\\\"prüfen\\\"],\\\"purple\\\":[\\\"kokeilla\\\",\\\"maistaa\\\",\\\"tarkistamista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Probier\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Maista\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"probieren\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maistaa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"probieren\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Kokeilemme\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"anprobieren\\\"]},\\\"lv\\\":{\\\"green\\\":[\\\"sovittaa\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"probieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kokeilla\\\",\\\"maistaa\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Probier\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"versuchen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"yrittää\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"versuche\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"prüfen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tarkistaa\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"prüfe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"anprobieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sovittaa\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"probiere\\\",\\\"an\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"probieren\\\"],\\\"purple\\\":[\\\"maistaa\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"probieren\\\"],\\\"purple\\\":[\\\"tarkastamiselle\\\"]},{\\\"red\\\":[\\\"prüfen\\\"],\\\"purple\\\":[\\\"tarkistamisesta\\\"]}]}\"}",
+    "owner_note": "FI probieren / lv: individuāli pārbaudīta LRB-049 rinda 16/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Problem|idx:483|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ongelma\"}",
+    "owner_note": "FI Problem / lv: individuāli pārbaudīta LRB-049 rinda 17/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Programm|idx:484|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ohjelma\"}",
+    "owner_note": "FI Programm / lv: individuāli pārbaudīta LRB-049 rinda 18/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Pullover|idx:485|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Villapaita\"}",
+    "owner_note": "FI Pullover / lv: individuāli pārbaudīta LRB-049 rinda 19/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Punkt|idx:486|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Piste\"}",
+    "owner_note": "FI Punkt / lv: individuāli pārbaudīta LRB-049 rinda 20/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|putzen|idx:487|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Puhdistaa\"}",
+    "owner_note": "FI putzen / lv: individuāli pārbaudīta LRB-049 rinda 21/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Rad fahren|idx:488|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pyöräillä\"}",
+    "owner_note": "FI Rad fahren / lv: individuāli pārbaudīta LRB-049 rinda 22/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Radiergummi|idx:489|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pyyhekumi\"}",
+    "owner_note": "FI Radiergummi / lv: individuāli pārbaudīta LRB-049 rinda 23/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|rauchen|idx:490|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tupakoida\"}",
+    "owner_note": "FI rauchen / lv: individuāli pārbaudīta LRB-049 rinda 24/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|rechts|idx:491|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Oikealle • Oikea\"}",
+    "owner_note": "FI rechts / lv: individuāli pārbaudīta LRB-049 rinda 25/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|reden|idx:492|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Puhua\"}",
+    "owner_note": "FI reden / lv: individuāli pārbaudīta LRB-049 rinda 26/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Regen|idx:493|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sade\"}",
+    "owner_note": "FI Regen / lv: individuāli pārbaudīta LRB-049 rinda 27/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Regenschirm|idx:494|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sateenvarjo\"}",
+    "owner_note": "FI Regenschirm / lv: individuāli pārbaudīta LRB-049 rinda 28/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|regnen|idx:495|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sataa\"}",
+    "owner_note": "FI regnen / lv: individuāli pārbaudīta LRB-049 rinda 29/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Reis|idx:496|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Riisi\",\"study.translation\":\"Riisi\",\"study.explanation\":\"\\\"Saksassa der Reis on vain yksikössä, joten verbikin on yksikössä (esimerkiksi ist, ei sind). Myös suomessa riisi on tavallisesti yksiköllinen ainesana.\\\"\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Reis ist fertig.\\\",\\\"lv\\\":\\\"Riisi on valmista.\\\"},{\\\"de\\\":\\\"Ich esse Reis.\\\",\\\"lv\\\":\\\"Syön riisiä.\\\"},{\\\"de\\\":\\\"Kochst du Reis?\\\",\\\"lv\\\":\\\"Keitätkö riisiä?\\\"},{\\\"de\\\":\\\"Der Reis schmeckt gut.\\\",\\\"lv\\\":\\\"Riisi maistuu hyvältä.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: der Reis on saksassa yksikkö, ja myös suomen riisi on tavallisesti yksiköllinen ainesana.\\\"}\",\"study.important\":\"[\\\"der Reis on saksassa vain yksikössä: Der Reis ist..., ei *sind.\\\",\\\"Suomessa riisi on tavallisesti yksiköllinen ainesana: riisi on valmista.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Reis\\\",\\\"ist\\\"],\\\"purple\\\":[\\\"yksikössä\\\",\\\"riisi\\\"],\\\"red\\\":[\\\"sind\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Reis\\\",\\\"ist\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Riisi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Reis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"riisiä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Reis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"riisiä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Reis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Riisi\\\"]}}],\\\"tip\\\":{\\\"blue\\\":[\\\"der Reis\\\"],\\\"purple\\\":[\\\"yksikkö\\\",\\\"riisi\\\"]},\\\"important\\\":[{\\\"blue\\\":[\\\"der Reis\\\",\\\"ist\\\"],\\\"red\\\":[\\\"sind\\\"]},{\\\"purple\\\":[\\\"riisi\\\",\\\"yksiköllinen ainesana\\\"]}]}\"}",
+    "owner_note": "FI Reis / lv: individuāli pārbaudīta LRB-049 rinda 30/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|richtig|idx:497|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Oikea\"}",
+    "owner_note": "FI richtig / lv: individuāli pārbaudīta LRB-049 rinda 31/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|rosa|idx:498|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vaaleanpunainen\"}",
+    "owner_note": "FI rosa / lv: individuāli pārbaudīta LRB-049 rinda 32/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|rot|idx:499|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Punainen\"}",
+    "owner_note": "FI rot / lv: individuāli pārbaudīta LRB-049 rinda 33/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|rufen|idx:500|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kutsua • Huutaa\"}",
+    "owner_note": "FI rufen / lv: individuāli pārbaudīta LRB-049 rinda 34/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|rund|idx:501|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pyöreä\"}",
+    "owner_note": "FI rund / lv: individuāli pārbaudīta LRB-049 rinda 35/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Rose|idx:502|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ruusu\"}",
+    "owner_note": "FI Rose / lv: individuāli pārbaudīta LRB-049 rinda 36/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Sache|idx:503|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Sache / lv: individuāli pārbaudīta LRB-049 rinda 37/50; esošā production_current vērtība jau ir pareiza somu valoda, tādēļ izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|Saft|idx:504|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Mehu\"}",
+    "owner_note": "FI Saft / lv: individuāli pārbaudīta LRB-049 rinda 38/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sagen|idx:505|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sanoa\",\"study.translation\":\"Sanoa\",\"study.explanation\":\"[\\\"Pääajatus: sagen tarkoittaa konkreettisen ajatuksen, sanan tai lauseen sanomista.\\\",\\\"sagen tarkoittaa ensisijaisesti jonkin tietyn asian sanomista.\\\",\\\"Sitä käytetään usein sanoista ja lauseista.\\\",\\\"sagen viittaa konkreettisesti sanottuun sisältöön.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was hast du gesagt?\\\",\\\"lv\\\":\\\"Mitä sanoit?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sagen\\\",\\\"meaning\\\":\\\"sanoa (konkreettinen sisältö)\\\",\\\"example\\\":\\\"Was hast du gesagt? – Mitä sanoit?\\\"},{\\\"word\\\":\\\"sprechen\\\",\\\"meaning\\\":\\\"puhua (kieltä tai keskustella)\\\",\\\"example\\\":\\\"Ich spreche Deutsch. – Puhun saksaa.\\\"}]\",\"study.tip\":\"[\\\"sagen = sanoa\\\",\\\"Käytä sagen-verbiä, kun tarkoitat konkreettisen asian sanomista.\\\"]\",\"study.important\":\"[\\\"sagen = sanoa.\\\",\\\"Sillä ilmaistaan konkreettinen ajatus, sana tai lause.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sagen\\\"],\\\"purple\\\":[\\\"sanomista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"gesagt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sanoit\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sagen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sanoa\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"gesagt\\\"],\\\"purple\\\":[\\\"sanoit\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sprechen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"puhua\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"spreche\\\"],\\\"purple\\\":[\\\"Puhun\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"sagen\\\"],\\\"purple\\\":[\\\"sanoa\\\"]},{\\\"blue\\\":[\\\"sagen\\\"],\\\"purple\\\":[\\\"sanomista\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"sagen\\\"],\\\"purple\\\":[\\\"sanoa\\\"]},{\\\"purple\\\":[\\\"ajatus\\\",\\\"sana\\\",\\\"lause\\\"]}]}\"}",
+    "owner_note": "FI sagen / lv: individuāli pārbaudīta LRB-049 rinda 39/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Salat|idx:506|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Salaatti\"}",
+    "owner_note": "FI Salat / lv: individuāli pārbaudīta LRB-049 rinda 40/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Salz|idx:507|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Suola\"}",
+    "owner_note": "FI Salz / lv: individuāli pārbaudīta LRB-049 rinda 41/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sauber|idx:508|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Puhdas\"}",
+    "owner_note": "FI sauber / lv: individuāli pārbaudīta LRB-049 rinda 42/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schaf|idx:509|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Schaf / lv: individuāli pārbaudīta LRB-049 rinda 43/50; esošā production_current vērtība jau ir pareiza somu valoda, tādēļ izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|schauen|idx:510|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Katsoa\",\"study.translation\":\"Katsoa\",\"study.explanation\":\"[\\\"Pääajatus: schauen tarkoittaa aktiivisesti katsomista tai vilkaisemista.\\\",\\\"schauen tarkoittaa ensisijaisesti aktiivista katsomista.\\\",\\\"Se kuvaa tarkoituksellista toimintaa.\\\",\\\"schauen tarkoittaa, että katsoja suuntaa huomionsa johonkin.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich schaue fern.\\\",\\\"lv\\\":\\\"Katson televisiota.\\\"},{\\\"de\\\":\\\"Wir schauen aus dem Fenster.\\\",\\\"lv\\\":\\\"Katsomme ulos ikkunasta.\\\"},{\\\"de\\\":\\\"Ich schaue fern.\\\",\\\"lv\\\":\\\"Katson televisiota.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"schauen\\\",\\\"meaning\\\":\\\"katsoa (tarkoituksellisesti)\\\",\\\"example\\\":\\\"Ich schaue aus dem Fenster. – Katson ulos ikkunasta.\\\"},{\\\"word\\\":\\\"sehen\\\",\\\"meaning\\\":\\\"nähdä (ilman tarkoitusta)\\\",\\\"example\\\":\\\"Ich sehe dich. – Näen sinut.\\\"}]\",\"study.tip\":\"[\\\"schauen = katsoa\\\",\\\"Käytä schauen-verbiä, kun tarkoitat aktiivista katsomista.\\\"]\",\"study.important\":\"[\\\"schauen = katsoa.\\\",\\\"Se tarkoittaa aktiivista katsomista tai vilkaisemista.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"schauen\\\"],\\\"purple\\\":[\\\"katsomista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"schaue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Katson\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"schauen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Katsomme\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"schaue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Katson\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"schauen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"katsoa\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"schaue\\\"],\\\"purple\\\":[\\\"Katson\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"nähdä\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"sehe\\\"],\\\"purple\\\":[\\\"Näen\\\"]}}],\\\"tip\\\":[{\\\"green\\\":[\\\"schauen\\\"],\\\"purple\\\":[\\\"katsoa\\\"]},{\\\"green\\\":[\\\"schauen\\\"],\\\"purple\\\":[\\\"katsomista\\\"]}],\\\"important\\\":[{\\\"green\\\":[\\\"schauen\\\"],\\\"purple\\\":[\\\"katsoa\\\"]},{\\\"purple\\\":[\\\"katsomista\\\",\\\"vilkaisemista\\\"]}]}\"}",
+    "owner_note": "FI schauen / lv: individuāli pārbaudīta LRB-049 rinda 44/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schicken|idx:511|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Lähettää\"}",
+    "owner_note": "FI schicken / lv: individuāli pārbaudīta LRB-049 rinda 45/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schlafen|idx:512|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Nukkua\"}",
+    "owner_note": "FI schlafen / lv: individuāli pārbaudīta LRB-049 rinda 46/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schlecht|idx:513|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Huono\"}",
+    "owner_note": "FI schlecht / lv: individuāli pārbaudīta LRB-049 rinda 47/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schlüssel|idx:514|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Avain\"}",
+    "owner_note": "FI Schlüssel / lv: individuāli pārbaudīta LRB-049 rinda 48/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schmecken|idx:515|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Maistua\"}",
+    "owner_note": "FI schmecken / lv: individuāli pārbaudīta LRB-049 rinda 49/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schmutzig|idx:516|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Likainen\"}",
+    "owner_note": "FI schmutzig / lv: individuāli pārbaudīta LRB-049 rinda 50/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  }
+}
