@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|hören|idx:287|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuulla • Kuunnella\",\"study.translation\":\"Kuulla • Kuunnella\",\"study.explanation\":\"[\\\"Pääajatus: hören tarkoittaa äänen kuulemista tai musiikin ja puheen kuuntelemista.\\\",\\\"Kun ääni havaitaan, hören voidaan kääntää verbillä kuulla.\\\",\\\"Kun huomio kohdistetaan musiikkiin, tarinaan tai puheeseen, suomeksi käytetään usein verbiä kuunnella.\\\",\\\"Asiayhteys ratkaisee, tarkoittaako hören kuulemista vai kuuntelemista.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich höre Musik.\\\",\\\"lv\\\":\\\"Kuuntelen musiikkia.\\\"},{\\\"de\\\":\\\"Die Kinder hören eine Geschichte.\\\",\\\"lv\\\":\\\"Lapset kuuntelevat tarinaa.\\\"},{\\\"de\\\":\\\"Ich höre dich.\\\",\\\"lv\\\":\\\"Kuulen sinut.\\\"}]\",\"study.tip\":\"[\\\"hören + musiikki tai tarina = kuunnella.\\\",\\\"hören + havaittu ääni = kuulla.\\\"]\",\"study.important\":\"[\\\"hören voi tarkoittaa sekä kuulla että kuunnella.\\\",\\\"Valitse suomen verbi asiayhteyden mukaan.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"hören\\\"],\\\"purple\\\":[\\\"kuulemista\\\",\\\"kuuntelemista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"höre\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Kuuntelen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"hören\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kuuntelevat\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"höre\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Kuulen\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"hören\\\"],\\\"purple\\\":[\\\"kuunnella\\\"]},{\\\"blue\\\":[\\\"hören\\\"],\\\"purple\\\":[\\\"kuulla\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"hören\\\"],\\\"purple\\\":[\\\"kuulla\\\",\\\"kuunnella\\\"]},{\\\"purple\\\":[\\\"asiayhteyden\\\"]}]}\"}",
+    "owner_note": "FI hören / lv/study: individuāli pārbaudīta LRB-046 rinda 1/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|hübsch|idx:288|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sievä\",\"study.translation\":\"Sievä\",\"study.explanation\":\"[\\\"Pääajatus: hübsch tarkoittaa ulkonäöltään sievää, nättiä tai viehättävää.\\\",\\\"hübsch kuvaa usein ihmisen, vaatteen, huoneen tai esineen ulkonäköä.\\\",\\\"Suomen mukava on useimmissa yhteyksissä liian laaja hübsch-sanan päävastineeksi.\\\",\\\"Luonnetta tai ystävällistä käytöstä kuvataan saksaksi tavallisesti sanalla nett.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie trägt ein hübsches Kleid.\\\",\\\"lv\\\":\\\"Hänellä on yllään sievä mekko.\\\"},{\\\"de\\\":\\\"Das Zimmer ist hübsch.\\\",\\\"lv\\\":\\\"Huone on viehättävä.\\\"},{\\\"de\\\":\\\"Das ist ein hübsches Bild.\\\",\\\"lv\\\":\\\"Se on sievä kuva.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"hübsch\\\",\\\"meaning\\\":\\\"sievä • viehättävän näköinen\\\",\\\"example\\\":\\\"Das ist ein hübsches Kleid. – Se on sievä mekko.\\\"},{\\\"word\\\":\\\"schön\\\",\\\"meaning\\\":\\\"kaunis • miellyttävä\\\",\\\"example\\\":\\\"Der Garten ist schön. – Puutarha on kaunis.\\\"},{\\\"word\\\":\\\"nett\\\",\\\"meaning\\\":\\\"mukava • ystävällinen\\\",\\\"example\\\":\\\"Sie ist sehr nett. – Hän on hyvin mukava.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: hübsch kuvaa ensisijaisesti sievää ulkonäköä, mutta nett kuvaa useammin mukavaa ihmistä tai käytöstä.\\\"}\",\"study.important\":\"[\\\"hübsch ei ole yleinen vastine suomen sanalle mukava.\\\",\\\"Luonnetta tai ystävällistä käytöstä kuvaa tavallisesti paremmin nett.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"hübsch\\\"],\\\"purple\\\":[\\\"sievää\\\",\\\"nättiä\\\",\\\"viehättävää\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"hübsches\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sievä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"hübsch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"viehättävä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"hübsches\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sievä\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"hübsch\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sievä • viehättävän näköinen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schön\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kaunis • miellyttävä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nett\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mukava • ystävällinen\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"hübsch\\\"],\\\"purple\\\":[\\\"sievää ulkonäköä\\\"],\\\"yellow\\\":[\\\"nett\\\"],\\\"green\\\":[\\\"mukavaa ihmistä\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"hübsch\\\"],\\\"purple\\\":[\\\"mukava\\\"]},{\\\"yellow\\\":[\\\"nett\\\"],\\\"purple\\\":[\\\"ystävällistä\\\"]}]}\"}",
+    "owner_note": "FI hübsch / lv/study: individuāli pārbaudīta LRB-046 rinda 2/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|hundert|idx:289|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sata",
+    "owner_note": "FI hundert / lv: individuāli pārbaudīta LRB-046 rinda 3/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|hungrig|idx:290|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nälkäinen",
+    "owner_note": "FI hungrig / lv: individuāli pārbaudīta LRB-046 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|ich|idx:291|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Minä",
+    "owner_note": "FI ich / lv: individuāli pārbaudīta LRB-046 rinda 5/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|ihr|idx:292|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Te • Hänelle • Hänen\",\"study.translation\":\"Te • Hänelle • Hänen\",\"study.explanation\":\"[\\\"Pääajatus: ihr voi tarkoittaa monikon te-pronominia, hänelle tai hänen.\\\",\\\"Kun ihr on monikon puhuttelumuoto, siihen liittyvä verbi on monikon toisessa persoonassa: Kommt ihr mit? – Tuletteko te mukaan?\\\",\\\"Omistuspronominina ihr tarkoittaa hänen: ihr Buch – hänen kirjansa.\\\",\\\"sie-pronominin datiivimuotona ihr tarkoittaa hänelle: Ich gebe ihr das Buch. – Annan hänelle kirjan.\\\",\\\"Verbimuodot kommt ja habt osoittavat, että ihr tarkoittaa monikon te-pronominia.\\\",\\\"Kohtelias puhuttelu kirjoitetaan aina isolla Sie, ei ihr.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Kommt ihr heute Abend?\\\",\\\"lv\\\":\\\"Tuletteko te tänä iltana?\\\"},{\\\"de\\\":\\\"Ich gebe ihr das Buch.\\\",\\\"lv\\\":\\\"Annan hänelle kirjan.\\\"},{\\\"de\\\":\\\"Wo wohnt ihr?\\\",\\\"lv\\\":\\\"Missä te asutte?\\\"},{\\\"de\\\":\\\"Er schreibt ihr einen Brief.\\\",\\\"lv\\\":\\\"Hän kirjoittaa hänelle kirjeen.\\\"},{\\\"de\\\":\\\"Habt ihr Zeit?\\\",\\\"lv\\\":\\\"Onko teillä aikaa?\\\"},{\\\"de\\\":\\\"Das ist ihr Auto.\\\",\\\"lv\\\":\\\"Se on hänen autonsa.\\\"}]\",\"study.tip\":\"[\\\"ihr + monikon toisen persoonan verbi (kommt, habt) = te.\\\",\\\"ihr datiivina tai omistuspronominina = hänelle tai hänen.\\\"]\",\"study.important\":\"[\\\"ihr = te, hänelle tai hänen asiayhteyden mukaan.\\\",\\\"Kohtelias puhuttelu on aina isolla kirjoitettu Sie.\\\",\\\"Väärin kohteliaassa puhuttelussa: Ihr. Oikein: Sie.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"ihr\\\"],\\\"purple\\\":[\\\"te-pronominia\\\",\\\"hänelle\\\",\\\"hänen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"ihr\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"te\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ihr\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hänelle\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ihr\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"te\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ihr\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hänelle\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ihr\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"teillä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ihr\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hänen\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"ihr\\\"],\\\"purple\\\":[\\\"te\\\"]},{\\\"blue\\\":[\\\"ihr\\\"],\\\"purple\\\":[\\\"hänelle\\\",\\\"hänen\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"ihr\\\"],\\\"purple\\\":[\\\"te\\\",\\\"hänelle\\\",\\\"hänen\\\"]},{\\\"blue\\\":[\\\"Sie\\\"]},{\\\"red\\\":[\\\"Ihr\\\"],\\\"blue\\\":[\\\"Sie\\\"]}]}\"}",
+    "owner_note": "FI ihr / lv/study: individuāli pārbaudīta LRB-046 rinda 6/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|im|idx:293|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-ssa/-ssä • Missä?\",\"study.translation\":\"-ssa/-ssä • Missä?\",\"study.explanation\":\"[\\\"Pääajatus: im on preposition in ja artikkelin dem sulautunut muoto.\\\",\\\"Täysi muoto on in dem, ja sitä seuraava substantiivi on datiivissa.\\\",\\\"im-muotoa käytetään maskuliini- ja neutrisukuisten substantiivien kanssa, kun ilmaistaan sijaintia ja vastataan kysymykseen missä.\\\",\\\"Ajanilmauksissa im esiintyy kuukausien ja vuodenaikojen kanssa: im Januar, im Sommer, im Winter.\\\",\\\"Käytännössä käytetään lähes aina muotoa im eikä täyttä muotoa in dem.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin im Park.\\\",\\\"lv\\\":\\\"Olen puistossa.\\\"},{\\\"de\\\":\\\"Wir wohnen im Zentrum.\\\",\\\"lv\\\":\\\"Asumme keskustassa.\\\"},{\\\"de\\\":\\\"Im Sommer ist es warm.\\\",\\\"lv\\\":\\\"Kesällä on lämmintä.\\\"},{\\\"de\\\":\\\"Er arbeitet im Büro.\\\",\\\"lv\\\":\\\"Hän työskentelee toimistossa.\\\"},{\\\"de\\\":\\\"Das Kind spielt im Garten.\\\",\\\"lv\\\":\\\"Lapsi leikkii puutarhassa.\\\"},{\\\"de\\\":\\\"Im Januar fahre ich nach Wien.\\\",\\\"lv\\\":\\\"Tammikuussa matkustan Wieniin.\\\"},{\\\"de\\\":\\\"Sie ist im Kino.\\\",\\\"lv\\\":\\\"Hän on elokuvateatterissa.\\\"},{\\\"de\\\":\\\"Wir treffen uns im Restaurant.\\\",\\\"lv\\\":\\\"Tapaamme ravintolassa.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"im\\\",\\\"meaning\\\":\\\"-ssa/-ssä • missä? (datiivi)\\\",\\\"example\\\":\\\"im Park – puistossa\\\"},{\\\"word\\\":\\\"ins\\\",\\\"meaning\\\":\\\"sisään • mihin? (akkusatiivi)\\\",\\\"example\\\":\\\"ins Kino – elokuvateatteriin\\\"},{\\\"word\\\":\\\"in\\\",\\\"meaning\\\":\\\"-ssa/-ssä • sisään (ilman artikkelia)\\\",\\\"example\\\":\\\"in Berlin – Berliinissä\\\"},{\\\"word\\\":\\\"am\\\",\\\"meaning\\\":\\\"luona • ääressä • missä? (datiivi)\\\",\\\"example\\\":\\\"am Fenster – ikkunan ääressä\\\"},{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"päällä • pinnalla\\\",\\\"example\\\":\\\"auf dem Tisch – pöydällä\\\"}]\",\"study.tip\":\"[\\\"Muista: in + dem = im, kun vastataan kysymykseen missä.\\\",\\\"Mihin? = ins; missä? = im. Älä sekoita näitä muotoja.\\\"]\",\"study.important\":\"[\\\"im = in dem ja sitä käytetään maskuliini- tai neutrisukuisen substantiivin kanssa datiivissa.\\\",\\\"im ilmaisee sijaintia ja vastaa kysymykseen missä, ei mihin.\\\",\\\"Kuukausien ja vuodenaikojen kanssa: im März, im Herbst.\\\",\\\"Feminiinin kanssa käytetään in der Schule, ei *im Schule.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"im\\\",\\\"in dem\\\"],\\\"purple\\\":[\\\"missä\\\",\\\"datiivissa\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"im\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"puistossa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"im\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"keskustassa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Im\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Kesällä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"im\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"toimistossa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"im\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"puutarhassa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Im\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Tammikuussa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"im\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"elokuvateatterissa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"im\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ravintolassa\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"im\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"-ssa/-ssä • missä? (datiivi)\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ins\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sisään • mihin? (akkusatiivi)\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"in\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"-ssa/-ssä • sisään (ilman artikkelia)\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"am\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"luona • ääressä • missä? (datiivi)\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"auf\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"päällä • pinnalla\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"im\\\"],\\\"purple\\\":[\\\"missä\\\"]},{\\\"red\\\":[\\\"ins\\\"],\\\"blue\\\":[\\\"im\\\"],\\\"purple\\\":[\\\"Mihin\\\",\\\"missä\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"im\\\",\\\"in dem\\\"],\\\"purple\\\":[\\\"datiivissa\\\"]},{\\\"blue\\\":[\\\"im\\\"],\\\"purple\\\":[\\\"missä\\\",\\\"mihin\\\"]},{\\\"green\\\":[\\\"im März\\\",\\\"im Herbst\\\"]},{\\\"yellow\\\":[\\\"in der Schule\\\"],\\\"red\\\":[\\\"im Schule\\\"]}]}\"}",
+    "owner_note": "FI im / lv/study: individuāli pārbaudīta LRB-046 rinda 7/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|immer|idx:294|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aina",
+    "owner_note": "FI immer / lv: individuāli pārbaudīta LRB-046 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|in|idx:295|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sisällä • Sisään\",\"study.translation\":\"Sisällä • Sisään\",\"study.explanation\":\"[\\\"Pääajatus: in ilmaisee tavallisesti sijaintia sisällä tai liikettä jonkin sisään.\\\",\\\"Kun ilmaistaan sijaintia, in liittyy datiiviin: in Berlin – Berliinissä.\\\",\\\"Kun ilmaistaan liikettä sisään, in liittyy akkusatiiviin: ins Kino – elokuvateatteriin.\\\",\\\"Suomen vastine määräytyy paikan ja liikkeen mukaan.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin in Berlin.\\\",\\\"lv\\\":\\\"Olen Berliinissä.\\\"},{\\\"de\\\":\\\"Ich gehe in die Schule.\\\",\\\"lv\\\":\\\"Menen kouluun.\\\"},{\\\"de\\\":\\\"Das Buch ist in der Tasche.\\\",\\\"lv\\\":\\\"Kirja on laukussa.\\\"},{\\\"de\\\":\\\"Wir gehen ins Kino.\\\",\\\"lv\\\":\\\"Menemme elokuvateatteriin.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: sijainti sisällä tai liike sisään ilmaistaan prepositiolla in.\\\"}\",\"study.important\":\"[\\\"in ei tarkoita suomeksi aina kirjaimellisesti sisällä; vastine voi olla esimerkiksi Berliinissä, koulussa tai elokuvateatteriin.\\\",\\\"Pinnasta puhuttaessa käytetään usein prepositiota auf, ei in.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"in\\\"],\\\"purple\\\":[\\\"sisällä\\\",\\\"sisään\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"in\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Berliinissä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"in\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kouluun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"in\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"laukussa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ins\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"elokuvateatteriin\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"in\\\"],\\\"purple\\\":[\\\"sisällä\\\",\\\"sisään\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"in\\\"],\\\"purple\\\":[\\\"Berliinissä\\\",\\\"koulussa\\\",\\\"elokuvateatteriin\\\"]},{\\\"yellow\\\":[\\\"auf\\\"],\\\"red\\\":[\\\"in\\\"],\\\"purple\\\":[\\\"Pinnasta\\\"]}]}\"}",
+    "owner_note": "FI in / lv/study: individuāli pārbaudīta LRB-046 rinda 9/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|ja|idx:297|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kyllä",
+    "owner_note": "FI ja / lv: individuāli pārbaudīta LRB-046 rinda 10/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Januar|idx:298|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tammikuu",
+    "owner_note": "FI Januar / lv: individuāli pārbaudīta LRB-046 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|jawohl|idx:299|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Juuri niin",
+    "owner_note": "FI jawohl / lv: individuāli pārbaudīta LRB-046 rinda 12/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|jeder|idx:300|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jokainen",
+    "owner_note": "FI jeder / lv: individuāli pārbaudīta LRB-046 rinda 13/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|jemand|idx:301|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Joku",
+    "owner_note": "FI jemand / lv: individuāli pārbaudīta LRB-046 rinda 14/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|jetzt|idx:302|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nyt • Tällä hetkellä",
+    "owner_note": "FI jetzt / lv: individuāli pārbaudīta LRB-046 rinda 15/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Juli|idx:303|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Heinäkuu",
+    "owner_note": "FI Juli / lv: individuāli pārbaudīta LRB-046 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Juni|idx:305|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kesäkuu",
+    "owner_note": "FI Juni / lv: individuāli pārbaudīta LRB-046 rinda 17/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Jeans|idx:306|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Farkut",
+    "owner_note": "FI Jeans / lv: individuāli pārbaudīta LRB-046 rinda 18/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|können|idx:319|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Voida • Osata\",\"study.translation\":\"Voida • Osata\",\"study.explanation\":\"[\\\"Pääajatus: können tarkoittaa voida tai osata tehdä jotakin.\\\",\\\"Kyvystä tai taidosta puhuttaessa suomeksi käytetään usein verbiä osata.\\\",\\\"Mahdollisuudesta puhuttaessa käytetään usein verbiä voida.\\\",\\\"können on modaaliverbi, joten toinen verbi on saksankielisen lauseen lopussa.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich kann Deutsch sprechen.\\\",\\\"lv\\\":\\\"Osaan puhua saksaa.\\\"},{\\\"de\\\":\\\"Kannst du mir helfen?\\\",\\\"lv\\\":\\\"Voitko auttaa minua?\\\"},{\\\"de\\\":\\\"Wir können heute kommen.\\\",\\\"lv\\\":\\\"Voimme tulla tänään.\\\"},{\\\"de\\\":\\\"Er kann gut schwimmen.\\\",\\\"lv\\\":\\\"Hän osaa uida hyvin.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"können\\\",\\\"meaning\\\":\\\"voida • osata\\\",\\\"example\\\":\\\"Ich kann schwimmen. – Osaan uida.\\\"},{\\\"word\\\":\\\"dürfen\\\",\\\"meaning\\\":\\\"saada • olla lupa\\\",\\\"example\\\":\\\"Darf ich gehen? – Saanko lähteä?\\\"},{\\\"word\\\":\\\"müssen\\\",\\\"meaning\\\":\\\"täytyä\\\",\\\"example\\\":\\\"Ich muss lernen. – Minun täytyy opiskella.\\\"},{\\\"word\\\":\\\"wissen\\\",\\\"meaning\\\":\\\"tietää\\\",\\\"example\\\":\\\"Ich weiß das. – Tiedän sen.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: kyky tai taito sekä mahdollisuus ilmaistaan verbillä können.\\\"}\",\"study.important\":\"[\\\"können ei ole sama kuin dürfen: können = voida tai osata, dürfen = saada tai olla lupa.\\\",\\\"können-verbin kanssa toinen verbi on usein lopussa: Ich kann schwimmen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"können\\\"],\\\"purple\\\":[\\\"voida\\\",\\\"osata\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"kann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Osaan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Kannst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Voitko\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"können\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Voimme\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"kann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"osaa\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"können\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"voida • osata\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dürfen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"saada • olla lupa\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"müssen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"täytyä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wissen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tietää\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"können\\\"],\\\"purple\\\":[\\\"kyky\\\",\\\"taito\\\",\\\"mahdollisuus\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"können\\\"],\\\"red\\\":[\\\"dürfen\\\"],\\\"purple\\\":[\\\"voida\\\",\\\"osata\\\",\\\"saada\\\"]},{\\\"blue\\\":[\\\"können\\\",\\\"Ich kann schwimmen\\\"]}]}\"}",
+    "owner_note": "FI können / lv, study: individuāli pārbaudīta LRB-046 rinda 19/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|kosten|idx:320|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Maksaa\",\"study.translation\":\"Maksaa\",\"study.explanation\":\"[\\\"Pääajatus: kosten kertoo, minkä hintainen jokin on eli kuinka paljon se maksaa.\\\",\\\"kosten-verbiä käytetään esineen tai palvelun hinnasta, ei siitä, että henkilö suorittaa maksun.\\\",\\\"Hintakysymys alkaa saksaksi usein sanoilla Was kostet ...?\\\",\\\"Das kostet 5 Euro tarkoittaa Se maksaa 5 euroa.\\\",\\\"Kun henkilö maksaa tavarasta tai palvelusta, käytetään verbiä bezahlen tai zahlen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das kostet 5 Euro.\\\",\\\"lv\\\":\\\"Se maksaa 5 euroa.\\\"},{\\\"de\\\":\\\"Was kostet das?\\\",\\\"lv\\\":\\\"Paljonko se maksaa?\\\"},{\\\"de\\\":\\\"Wie viel kostet der Pullover?\\\",\\\"lv\\\":\\\"Paljonko villapaita maksaa?\\\"},{\\\"de\\\":\\\"Das Essen kostet nicht viel.\\\",\\\"lv\\\":\\\"Ruoka ei maksa paljon.\\\"},{\\\"de\\\":\\\"Ich bezahle die Rechnung.\\\",\\\"lv\\\":\\\"Maksan laskun.\\\"},{\\\"de\\\":\\\"Kann ich bar bezahlen?\\\",\\\"lv\\\":\\\"Voinko maksaa käteisellä?\\\"},{\\\"de\\\":\\\"Er zahlt mit Karte.\\\",\\\"lv\\\":\\\"Hän maksaa kortilla.\\\"},{\\\"de\\\":\\\"Ich zahle gleich.\\\",\\\"lv\\\":\\\"Maksan kohta.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"kosten\\\",\\\"meaning\\\":\\\"maksaa hinnaltaan • paljonko maksaa\\\",\\\"example\\\":\\\"Das kostet 5 Euro. – Se maksaa 5 euroa.\\\"},{\\\"word\\\":\\\"bezahlen\\\",\\\"meaning\\\":\\\"maksaa • suorittaa maksu\\\",\\\"example\\\":\\\"Ich bezahle die Rechnung. – Maksan laskun.\\\"},{\\\"word\\\":\\\"zahlen\\\",\\\"meaning\\\":\\\"maksaa\\\",\\\"example\\\":\\\"Kann ich bar zahlen? – Voinko maksaa käteisellä?\\\"},{\\\"word\\\":\\\"Was kostet ...?\\\",\\\"meaning\\\":\\\"Paljonko ... maksaa?\\\",\\\"example\\\":\\\"Was kostet das Buch? – Paljonko kirja maksaa?\\\"}]\",\"study.tip\":\"[\\\"Hinnasta kysyttäessä käytetään kosten-verbiä: Was kostet das?\\\",\\\"Maksun suorittamisesta käytetään bezahlen- tai zahlen-verbiä.\\\"]\",\"study.important\":\"[\\\"kosten ja bezahlen eivät ole synonyymejä: kosten kertoo hinnan, bezahlen tarkoittaa maksun suorittamista.\\\",\\\"Suomen maksaa voi vastata kumpaakin verbiä, mutta saksaksi verbi valitaan tilanteen mukaan.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"kosten\\\",\\\"Was kostet\\\",\\\"bezahlen\\\",\\\"zahlen\\\"],\\\"purple\\\":[\\\"hinnasta\\\",\\\"maksaa\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"kostet\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maksaa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"kostet\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maksaa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"kostet\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maksaa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"kostet\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maksa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bezahle\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Maksan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bezahlen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maksaa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zahlt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maksaa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zahle\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Maksan\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"kosten\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"maksaa hinnaltaan • paljonko maksaa\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bezahlen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"maksaa • suorittaa maksu\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zahlen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"maksaa\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"Was kostet ...?\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Paljonko ... maksaa?\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"kosten\\\",\\\"Was kostet\\\"],\\\"purple\\\":[\\\"Hinnasta\\\"]},{\\\"yellow\\\":[\\\"bezahlen\\\",\\\"zahlen\\\"],\\\"purple\\\":[\\\"Maksun\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"kosten\\\"],\\\"yellow\\\":[\\\"bezahlen\\\"],\\\"purple\\\":[\\\"hinnan\\\",\\\"maksun\\\"]},{\\\"purple\\\":[\\\"maksaa\\\"],\\\"blue\\\":[\\\"saksaksi\\\"]}]}\"}",
+    "owner_note": "FI kosten / lv, study: individuāli pārbaudīta LRB-046 rinda 20/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Kleid|idx:337|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mekko",
+    "owner_note": "FI Kleid / lv: individuāli pārbaudīta LRB-046 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Kleidung|idx:338|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vaatteet",
+    "owner_note": "FI Kleidung / lv: individuāli pārbaudīta LRB-046 rinda 22/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Knoblauch|idx:339|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Valkosipuli",
+    "owner_note": "FI Knoblauch / lv: individuāli pārbaudīta LRB-046 rinda 23/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Koch|idx:340|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kokki",
+    "owner_note": "FI Koch / lv: individuāli pārbaudīta LRB-046 rinda 24/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Köchin|idx:341|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Naiskokki",
+    "owner_note": "FI Köchin / lv: individuāli pārbaudīta LRB-046 rinda 25/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Kopf|idx:342|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pää",
+    "owner_note": "FI Kopf / lv: individuāli pārbaudīta LRB-046 rinda 26/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Kraftwagen|idx:343|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Kraftwagen / lv: individuāli pārbaudīta LRB-046 rinda 27/50; production_current “Auto” ir pareiza somu vērtība un precīzi atbilst LV→DE semantikai; izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|Küche|idx:344|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Keittiö",
+    "owner_note": "FI Küche / lv: individuāli pārbaudīta LRB-046 rinda 28/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Kuchen|idx:345|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kakku",
+    "owner_note": "FI Kuchen / lv: individuāli pārbaudīta LRB-046 rinda 29/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Kuh|idx:346|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lehmä",
+    "owner_note": "FI Kuh / lv: individuāli pārbaudīta LRB-046 rinda 30/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Kühlschrank|idx:347|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jääkaappi",
+    "owner_note": "FI Kühlschrank / lv: individuāli pārbaudīta LRB-046 rinda 31/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Kuss|idx:348|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Suudelma",
+    "owner_note": "FI Kuss / lv: individuāli pārbaudīta LRB-046 rinda 32/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Laden|idx:349|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kauppa\",\"study.translation\":\"Kauppa\",\"study.explanation\":\"[\\\"Pääajatus: der Laden isolla alkukirjaimella ja der-artikkelilla on substantiivi, joka tarkoittaa pientä kauppaa.\\\",\\\"laden pienellä alkukirjaimella on verbi, joka tarkoittaa lastata tai ladata.\\\",\\\"der Laden tarkoittaa arkikielessä usein pientä kauppaa: im Laden einkaufen – tehdä ostoksia kaupassa.\\\",\\\"Monikko on die Läden.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe in den Laden.\\\",\\\"lv\\\":\\\"Menen kauppaan.\\\"},{\\\"de\\\":\\\"Der Laden ist geschlossen.\\\",\\\"lv\\\":\\\"Kauppa on suljettu.\\\"},{\\\"de\\\":\\\"Es gibt viele Läden hier.\\\",\\\"lv\\\":\\\"Täällä on paljon kauppoja.\\\"},{\\\"de\\\":\\\"Ich muss mein Handy laden.\\\",\\\"lv\\\":\\\"Minun täytyy ladata matkapuhelimeni.\\\"}]\",\"study.tip\":\"[\\\"der Laden isolla alkukirjaimella = kauppa.\\\",\\\"laden pienellä alkukirjaimella = lastata tai ladata.\\\"]\",\"study.important\":\"[\\\"der Laden = kauppa (substantiivi).\\\",\\\"laden = lastata tai ladata (verbi).\\\",\\\"Monikko: die Läden.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Laden\\\",\\\"laden\\\"],\\\"purple\\\":[\\\"kauppaa\\\",\\\"lastata\\\",\\\"ladata\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Laden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kauppaan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Kauppa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Läden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kauppoja\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ladata\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"der Laden\\\"],\\\"purple\\\":[\\\"kauppa\\\"]},{\\\"green\\\":[\\\"laden\\\"],\\\"purple\\\":[\\\"lastata\\\",\\\"ladata\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"der Laden\\\"],\\\"purple\\\":[\\\"kauppa\\\"]},{\\\"green\\\":[\\\"laden\\\"],\\\"purple\\\":[\\\"lastata\\\",\\\"ladata\\\"]},{\\\"blue\\\":[\\\"die Läden\\\"]}]}\"}",
+    "owner_note": "FI Laden / lv, study: individuāli pārbaudīta LRB-046 rinda 33/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Lampe|idx:350|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lamppu",
+    "owner_note": "FI Lampe / lv: individuāli pārbaudīta LRB-046 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Land|idx:351|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Maa • Maaseutu\",\"study.translation\":\"Maa • Maaseutu\",\"study.explanation\":\"[\\\"Pääajatus: das Land tarkoittaa tavallisimmin maata valtiona tai maaseutua kaupungin vastakohtana.\\\",\\\"Saksasta, Suomesta tai muusta rajatusta valtiosta puhuttaessa suomen vastine on maa.\\\",\\\"Kaupungin ulkopuolisesta alueesta puhuttaessa vastine on maaseutu.\\\",\\\"Asiayhteys ratkaisee, tarkoittaako Land maata vai maaseutua.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Deutschland ist ein schönes Land.\\\",\\\"lv\\\":\\\"Saksa on kaunis maa.\\\"},{\\\"de\\\":\\\"Ich komme aus einem kleinen Land.\\\",\\\"lv\\\":\\\"Olen kotoisin pienestä maasta.\\\"},{\\\"de\\\":\\\"Wir fahren aufs Land.\\\",\\\"lv\\\":\\\"Matkustamme maaseudulle.\\\"},{\\\"de\\\":\\\"Auf dem Land ist es ruhig.\\\",\\\"lv\\\":\\\"Maaseudulla on rauhallista.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"das Land\\\",\\\"meaning\\\":\\\"maa • maaseutu\\\",\\\"example\\\":\\\"Deutschland ist ein Land. – Saksa on maa.\\\"},{\\\"word\\\":\\\"die Stadt\\\",\\\"meaning\\\":\\\"kaupunki\\\",\\\"example\\\":\\\"Ich wohne in der Stadt. – Asun kaupungissa.\\\"},{\\\"word\\\":\\\"das Dorf\\\",\\\"meaning\\\":\\\"kylä\\\",\\\"example\\\":\\\"Er lebt in einem Dorf. – Hän asuu kylässä.\\\"},{\\\"word\\\":\\\"die Erde\\\",\\\"meaning\\\":\\\"maa • maapallo\\\",\\\"example\\\":\\\"Die Erde ist rund. – Maapallo on pyöreä.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: valtio tai maa = das Land; kaupunki = die Stadt.\\\"}\",\"study.important\":\"[\\\"aufs Land tarkoittaa maaseudulle, ei valtioon.\\\",\\\"das Land ei tarkoita samaa kuin die Stadt.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"das Land\\\",\\\"Land\\\"],\\\"purple\\\":[\\\"maata\\\",\\\"maaseutua\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Land\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Land\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maasta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Land\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maaseudulle\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Land\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Maaseudulla\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"das Land\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"maa • maaseutu\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"die Stadt\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kaupunki\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"das Dorf\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kylä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"die Erde\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"maa • maapallo\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"das Land\\\"],\\\"purple\\\":[\\\"valtio\\\",\\\"maa\\\"],\\\"yellow\\\":[\\\"die Stadt\\\"],\\\"green\\\":[\\\"kaupunki\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"aufs Land\\\"],\\\"purple\\\":[\\\"maaseudulle\\\",\\\"valtioon\\\"]},{\\\"blue\\\":[\\\"das Land\\\"],\\\"yellow\\\":[\\\"die Stadt\\\"]}]}\"}",
+    "owner_note": "FI Land / lv, study: individuāli pārbaudīta LRB-046 rinda 35/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|lang|idx:352|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pitkä\",\"study.translation\":\"Pitkä\",\"study.explanation\":\"[\\\"Pääajatus: lang tarkoittaa pitkää sekä tilan että ajan suhteen.\\\",\\\"Koosta tai etäisyydestä puhuttaessa lang = pitkä: ein langer Tisch – pitkä pöytä.\\\",\\\"Ajallisesta kestosta puhuttaessa lang = pitkä: ein langer Tag – pitkä päivä.\\\",\\\"Ilmauksessa den ganzen Tag lang merkitys on koko päivän.\\\",\\\"Adverbimuoto lange vastaa usein suomen sanaa kauan.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Tisch ist sehr lang.\\\",\\\"lv\\\":\\\"Pöytä on hyvin pitkä.\\\"},{\\\"de\\\":\\\"Der Film war sehr lang.\\\",\\\"lv\\\":\\\"Elokuva oli hyvin pitkä.\\\"},{\\\"de\\\":\\\"Wie lange dauert es?\\\",\\\"lv\\\":\\\"Kuinka kauan se kestää?\\\"},{\\\"de\\\":\\\"Sie hat lange Haare.\\\",\\\"lv\\\":\\\"Hänellä on pitkät hiukset.\\\"},{\\\"de\\\":\\\"Ich warte schon lange.\\\",\\\"lv\\\":\\\"Olen odottanut jo kauan.\\\"},{\\\"de\\\":\\\"Den ganzen Tag lang.\\\",\\\"lv\\\":\\\"Koko päivän.\\\"}]\",\"study.tip\":\"[\\\"Koosta tai etäisyydestä puhuttaessa lang = pitkä.\\\",\\\"Ajasta puhuttaessa lang voi tarkoittaa pitkää ja lange kauan.\\\"]\",\"study.important\":\"[\\\"lang = pitkä sekä koon että ajan yhteydessä.\\\",\\\"wie lange = kuinka kauan eli kysymys ajallisesta kestosta.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"lang\\\",\\\"lange\\\"],\\\"purple\\\":[\\\"pitkää\\\",\\\"kauan\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"lang\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pitkä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lang\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pitkä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lange\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kauan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lange\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pitkät\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lange\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kauan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lang\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Koko päivän\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"lang\\\"],\\\"purple\\\":[\\\"pitkä\\\"]},{\\\"blue\\\":[\\\"lang\\\",\\\"lange\\\"],\\\"purple\\\":[\\\"pitkää\\\",\\\"kauan\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"lang\\\"],\\\"purple\\\":[\\\"pitkä\\\"]},{\\\"green\\\":[\\\"wie lange\\\"],\\\"purple\\\":[\\\"kuinka kauan\\\"]}]}\"}",
+    "owner_note": "FI lang / lv, study: individuāli pārbaudīta LRB-046 rinda 36/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|lange|idx:353|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kauan",
+    "owner_note": "FI lange / lv: individuāli pārbaudīta LRB-046 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|langsam|idx:354|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hidas",
+    "owner_note": "FI langsam / lv: individuāli pārbaudīta LRB-046 rinda 38/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|langweilig|idx:355|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tylsä",
+    "owner_note": "FI langweilig / lv: individuāli pārbaudīta LRB-046 rinda 39/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|lassen|idx:356|study.translation; study.explanation; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Jättää • Antaa\",\"study.translation\":\"Jättää • Antaa\",\"study.explanation\":\"[\\\"Pääajatus: lassen tarkoittaa jättää jotakin paikalleen tai antaa jonkin tapahtua.\\\",\\\"Kun jokin jätetään tiettyyn paikkaan, lassen käännetään verbillä jättää.\\\",\\\"Kun jollekulle annetaan lupa tehdä jotakin, lassen käännetään rakenteella antaa jonkun tehdä.\\\",\\\"Puhekielessä tavallinen ilmaus Lass mich in Ruhe! tarkoittaa Jätä minut rauhaan!\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich lasse die Tasche hier.\\\",\\\"lv\\\":\\\"Jätän laukun tähän.\\\"},{\\\"de\\\":\\\"Lass das bitte auf dem Tisch.\\\",\\\"lv\\\":\\\"Jätä se pöydälle, ole hyvä.\\\"},{\\\"de\\\":\\\"Meine Eltern lassen mich gehen.\\\",\\\"lv\\\":\\\"Vanhempani antavat minun lähteä.\\\"},{\\\"de\\\":\\\"Lass mich in Ruhe!\\\",\\\"lv\\\":\\\"Jätä minut rauhaan!\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"lassen\\\",\\\"meaning\\\":\\\"jättää • antaa\\\",\\\"example\\\":\\\"Ich lasse das hier. – Jätän tämän tähän.\\\"},{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"jäädä\\\",\\\"example\\\":\\\"Ich bleibe hier. – Jään tänne.\\\"},{\\\"word\\\":\\\"erlauben\\\",\\\"meaning\\\":\\\"sallia\\\",\\\"example\\\":\\\"Sie erlaubt mir das. – Hän sallii sen minulle.\\\"},{\\\"word\\\":\\\"geben\\\",\\\"meaning\\\":\\\"antaa\\\",\\\"example\\\":\\\"Gib mir das Buch. – Anna minulle kirja.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: jättää jokin paikalleen tai antaa jonkun tehdä jotakin = lassen.\\\"}\",\"study.important\":\"[\\\"lassen ei tarkoita vain jättää, vaan usein myös antaa jonkun tehdä.\\\",\\\"Lass mich in Ruhe! on tavallinen ilmaus: Jätä minut rauhaan!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"lassen\\\",\\\"Lass mich in Ruhe\\\"],\\\"purple\\\":[\\\"jättää\\\",\\\"antaa\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"lasse\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Jätän\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Lass\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Jätä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lassen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"antavat\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Lass mich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Jätä minut\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"lassen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"jättää • antaa\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bleiben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"jäädä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"erlauben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sallia\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"geben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"antaa\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"lassen\\\"],\\\"purple\\\":[\\\"jättää\\\",\\\"antaa\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"lassen\\\"],\\\"purple\\\":[\\\"jättää\\\",\\\"antaa\\\"]},{\\\"blue\\\":[\\\"Lass mich in Ruhe\\\"],\\\"purple\\\":[\\\"Jätä minut rauhaan\\\"]}]}\"}",
+    "owner_note": "FI lassen / study.translation; study.explanation; study.important: individuāli pārbaudīta LRB-046 rinda 40/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|laufen|idx:357|study.translation; study.explanation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Juosta • Toimia\",\"study.translation\":\"Juosta • Toimia\",\"study.explanation\":\"[\\\"Pääajatus: laufen tarkoittaa juosta, mutta laitteesta tai ohjelmasta puhuttaessa se voi tarkoittaa toimia.\\\",\\\"Ihmisestä tai eläimestä laufen tarkoittaa usein juosta tai liikkua nopeasti jalan.\\\",\\\"Elokuvasta, koneesta tai ohjelmasta laufen tarkoittaa, että se on käynnissä tai toimii.\\\",\\\"Jalan liikkumisessa tärkeä ero on gehen = kävellä tai mennä jalan ja laufen = juosta.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er läuft sehr schnell.\\\",\\\"lv\\\":\\\"Hän juoksee hyvin nopeasti.\\\"},{\\\"de\\\":\\\"Die Kinder laufen im Park.\\\",\\\"lv\\\":\\\"Lapset juoksevat puistossa.\\\"},{\\\"de\\\":\\\"Der Film läuft schon.\\\",\\\"lv\\\":\\\"Elokuva on jo käynnissä.\\\"},{\\\"de\\\":\\\"Die Maschine läuft gut.\\\",\\\"lv\\\":\\\"Kone toimii hyvin.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"laufen\\\",\\\"meaning\\\":\\\"juosta • toimia\\\",\\\"example\\\":\\\"Er läuft schnell. – Hän juoksee nopeasti.\\\"},{\\\"word\\\":\\\"gehen\\\",\\\"meaning\\\":\\\"kävellä • mennä jalan\\\",\\\"example\\\":\\\"Ich gehe nach Hause. – Menen kotiin jalan.\\\"},{\\\"word\\\":\\\"fahren\\\",\\\"meaning\\\":\\\"ajaa • matkustaa kulkuneuvolla\\\",\\\"example\\\":\\\"Ich fahre mit dem Bus. – Matkustan bussilla.\\\"},{\\\"word\\\":\\\"funktionieren\\\",\\\"meaning\\\":\\\"toimia\\\",\\\"example\\\":\\\"Das funktioniert gut. – Se toimii hyvin.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: nopea liike jalan = laufen; kulkuneuvolla liikkuminen = fahren.\\\"}\",\"study.important\":\"[\\\"laufen ei tarkoita vain juosta; elokuvasta tai laitteesta puhuttaessa se voi tarkoittaa olla käynnissä tai toimia.\\\",\\\"Ich laufe ilmaisee liikkumista jalan, ei kulkuneuvolla matkustamista.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"laufen\\\"],\\\"purple\\\":[\\\"juosta\\\",\\\"toimia\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"läuft\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"juoksee\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laufen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"juoksevat\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"läuft\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"käynnissä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"läuft\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"toimii\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"laufen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"juosta • toimia\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"gehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kävellä • mennä jalan\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"fahren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ajaa • matkustaa kulkuneuvolla\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"funktionieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"toimia\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"laufen\\\"],\\\"purple\\\":[\\\"jalan\\\"],\\\"red\\\":[\\\"fahren\\\"],\\\"green\\\":[\\\"kulkuneuvolla\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"laufen\\\"],\\\"purple\\\":[\\\"juosta\\\",\\\"käynnissä\\\",\\\"toimia\\\"]},{\\\"blue\\\":[\\\"Ich laufe\\\"],\\\"purple\\\":[\\\"jalan\\\"],\\\"red\\\":[\\\"kulkuneuvolla\\\"]}]}\"}",
+    "owner_note": "FI laufen / study.translation; study.explanation; study.examples; study.comparison; study.important: individuāli pārbaudīta LRB-046 rinda 41/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|laut|idx:358|study.translation; study.explanation; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kovaääninen • Kovaa\",\"study.translation\":\"Kovaääninen • Kovaa\",\"study.explanation\":\"[\\\"Pääajatus: laut pienellä alkukirjaimella on adjektiivi tai adverbi, joka kuvaa äänen voimakkuutta.\\\",\\\"Adjektiivina laut tarkoittaa kovaäänistä tai kovaa: Die Musik ist laut.\\\",\\\"Adverbina laut tarkoittaa kovaa: Sprich nicht so laut!\\\",\\\"der Laut isolla alkukirjaimella ja der-artikkelilla on eri sana: ääni tai äänne.\\\",\\\"der Laut -sanan monikko on die Laute.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Die Musik ist laut.\\\",\\\"lv\\\":\\\"Musiikki on kovalla.\\\"},{\\\"de\\\":\\\"Die Musik ist laut.\\\",\\\"lv\\\":\\\"Musiikki on kovalla.\\\"},{\\\"de\\\":\\\"Sprich nicht so laut!\\\",\\\"lv\\\":\\\"Älä puhu niin kovaa!\\\"},{\\\"de\\\":\\\"Das ist sehr laut.\\\",\\\"lv\\\":\\\"Se on hyvin äänekästä.\\\"},{\\\"de\\\":\\\"Der Laut ist schön.\\\",\\\"lv\\\":\\\"Ääni on kaunis.\\\"},{\\\"de\\\":\\\"Ich höre einen Laut.\\\",\\\"lv\\\":\\\"Kuulen äänen.\\\"}]\",\"study.tip\":\"[\\\"laut pienellä alkukirjaimella = kovaääninen tai kovaa.\\\",\\\"der Laut isolla alkukirjaimella = ääni tai äänne.\\\"]\",\"study.important\":\"[\\\"laut kirjoitetaan pienellä ja ilman artikkelia, kun se on adjektiivi tai adverbi.\\\",\\\"der Laut kirjoitetaan isolla ja siihen liittyy der-artikkeli, koska se on substantiivi.\\\",\\\"Monikko on die Laute.\\\",\\\"Väärin: Der Laut ist sehr. Oikein: Das ist sehr laut.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"laut\\\",\\\"der Laut\\\"],\\\"purple\\\":[\\\"kovaäänistä\\\",\\\"kovaa\\\",\\\"ääni\\\",\\\"äänne\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kovalla\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kovalla\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kovaa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"äänekästä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ääni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"äänen\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"laut\\\"],\\\"purple\\\":[\\\"kovaääninen\\\",\\\"kovaa\\\"]},{\\\"green\\\":[\\\"der Laut\\\"],\\\"purple\\\":[\\\"ääni\\\",\\\"äänne\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"laut\\\"],\\\"purple\\\":[\\\"adjektiivi\\\",\\\"adverbi\\\"]},{\\\"green\\\":[\\\"der Laut\\\"],\\\"purple\\\":[\\\"substantiivi\\\"]},{\\\"green\\\":[\\\"die Laute\\\"]},{\\\"red\\\":[\\\"Der Laut ist sehr\\\"],\\\"blue\\\":[\\\"Das ist sehr laut\\\"]}]}\"}",
+    "owner_note": "FI laut / study.translation; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-046 rinda 42/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Laut|idx:359|study.translation; study.explanation; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ääni • Äänne\",\"study.translation\":\"Ääni • Äänne\",\"study.explanation\":\"[\\\"Pääajatus: der Laut on substantiivi, joka tarkoittaa yksittäistä ääntä, äänimerkkiä tai kielen äännettä.\\\",\\\"der Laut kirjoitetaan isolla alkukirjaimella ja siihen kuuluu der-artikkeli.\\\",\\\"laut pienellä alkukirjaimella on adjektiivi tai adverbi ja tarkoittaa kovaäänistä tai kovaa.\\\",\\\"der Laut -sanan monikko on die Laute.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Laut ist schön.\\\",\\\"lv\\\":\\\"Ääni on kaunis.\\\"},{\\\"de\\\":\\\"Die Musik ist laut.\\\",\\\"lv\\\":\\\"Musiikki on kovalla.\\\"},{\\\"de\\\":\\\"Sprich nicht so laut!\\\",\\\"lv\\\":\\\"Älä puhu niin kovaa!\\\"},{\\\"de\\\":\\\"Das ist sehr laut.\\\",\\\"lv\\\":\\\"Se on hyvin äänekästä.\\\"},{\\\"de\\\":\\\"Der Laut ist schön.\\\",\\\"lv\\\":\\\"Ääni on kaunis.\\\"},{\\\"de\\\":\\\"Ich höre einen Laut.\\\",\\\"lv\\\":\\\"Kuulen äänen.\\\"}]\",\"study.tip\":\"[\\\"der Laut isolla alkukirjaimella = ääni tai äänne.\\\",\\\"laut pienellä alkukirjaimella = kovaääninen tai kovaa.\\\"]\",\"study.important\":\"[\\\"laut pienellä alkukirjaimella on adjektiivi tai adverbi.\\\",\\\"der Laut isolla alkukirjaimella ja der-artikkelilla on substantiivi.\\\",\\\"Monikko on die Laute.\\\",\\\"Väärin: Der Laut ist sehr. Oikein: Das ist sehr laut.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Laut\\\",\\\"laut\\\"],\\\"purple\\\":[\\\"ääntä\\\",\\\"äänimerkkiä\\\",\\\"äännettä\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ääni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kovalla\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kovaa\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"äänekästä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ääni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"äänen\\\"]}}],\\\"tip\\\":[{\\\"green\\\":[\\\"der Laut\\\"],\\\"purple\\\":[\\\"ääni\\\",\\\"äänne\\\"]},{\\\"blue\\\":[\\\"laut\\\"],\\\"purple\\\":[\\\"kovaääninen\\\",\\\"kovaa\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"laut\\\"],\\\"purple\\\":[\\\"adjektiivi\\\",\\\"adverbi\\\"]},{\\\"green\\\":[\\\"der Laut\\\"],\\\"purple\\\":[\\\"substantiivi\\\"]},{\\\"green\\\":[\\\"die Laute\\\"]},{\\\"red\\\":[\\\"Der Laut ist sehr\\\"],\\\"blue\\\":[\\\"Das ist sehr laut\\\"]}]}\"}",
+    "owner_note": "FI Laut / study.translation; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-046 rinda 43/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|leben|idx:360|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Elää",
+    "owner_note": "FI leben / lv: individuāli pārbaudīta LRB-046 rinda 44/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|lecker|idx:361|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Herkullinen",
+    "owner_note": "FI lecker / lv: individuāli pārbaudīta LRB-046 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|leer|idx:362|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tyhjä",
+    "owner_note": "FI leer / lv: individuāli pārbaudīta LRB-046 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|legen|idx:363|study.translation; study.explanation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Asettaa\",\"study.translation\":\"Asettaa\",\"study.explanation\":\"[\\\"Pääajatus: legen tarkoittaa asettaa tai panna jotakin vaaka-asentoon.\\\",\\\"legen ilmaisee liikettä: henkilö siirtää esineen esimerkiksi pöydälle, vuoteeseen tai muulle pinnalle.\\\",\\\"liegen ilmaisee sijaintia: jokin on jo vaakatasossa tai makaa paikallaan.\\\",\\\"Tärkeä ero on legen = asettaa ja liegen = olla tai maata.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich lege das Buch auf den Tisch.\\\",\\\"lv\\\":\\\"Asetan kirjan pöydälle.\\\"},{\\\"de\\\":\\\"Leg den Schlüssel hierhin.\\\",\\\"lv\\\":\\\"Pane avain tähän.\\\"},{\\\"de\\\":\\\"Sie legt das Kind ins Bett.\\\",\\\"lv\\\":\\\"Hän panee lapsen vuoteeseen.\\\"},{\\\"de\\\":\\\"Das Buch liegt auf dem Tisch.\\\",\\\"lv\\\":\\\"Kirja on pöydällä.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"legen\\\",\\\"meaning\\\":\\\"asettaa • panna\\\",\\\"example\\\":\\\"Ich lege das Buch auf den Tisch. – Asetan kirjan pöydälle.\\\"},{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"olla • maata\\\",\\\"example\\\":\\\"Das Buch liegt auf dem Tisch. – Kirja on pöydällä.\\\"},{\\\"word\\\":\\\"stellen\\\",\\\"meaning\\\":\\\"asettaa pystyasentoon\\\",\\\"example\\\":\\\"Ich stelle die Flasche auf den Tisch. – Asetan pullon pystyasentoon pöydälle.\\\"},{\\\"word\\\":\\\"setzen\\\",\\\"meaning\\\":\\\"panna istumaan • istuutua\\\",\\\"example\\\":\\\"Ich setze mich. – Istun alas.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: joku asettaa esineen = legen; esine on jo paikallaan = liegen.\\\"}\",\"study.important\":\"[\\\"legen ja liegen eivät tarkoita samaa.\\\",\\\"Ich lege das Buch = asetan kirjan. Das Buch liegt = kirja on paikallaan.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"legen\\\",\\\"liegen\\\"],\\\"purple\\\":[\\\"asettaa\\\",\\\"panna\\\",\\\"sijaintia\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"lege\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Asetan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Leg\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Pane\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"legt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"panee\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pöydällä\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"legen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"asettaa • panna\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"liegen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"olla • maata\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stellen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"asettaa pystyasentoon\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"setzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"panna istumaan • istuutua\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"legen\\\"],\\\"purple\\\":[\\\"asettaa\\\"],\\\"red\\\":[\\\"liegen\\\"],\\\"green\\\":[\\\"paikallaan\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"legen\\\"],\\\"red\\\":[\\\"liegen\\\"]},{\\\"blue\\\":[\\\"lege\\\"],\\\"purple\\\":[\\\"asetan\\\"],\\\"red\\\":[\\\"liegt\\\"],\\\"green\\\":[\\\"paikallaan\\\"]}]}\"}",
+    "owner_note": "FI legen / study.translation; study.explanation; study.examples; study.comparison; study.important: individuāli pārbaudīta LRB-046 rinda 47/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Lehrer|idx:364|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Opettaja",
+    "owner_note": "FI Lehrer / lv: individuāli pārbaudīta LRB-046 rinda 48/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Lehrerin|idx:365|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Naisopettaja",
+    "owner_note": "FI Lehrerin / lv: individuāli pārbaudīta LRB-046 rinda 49/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|leicht|idx:366|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Helppo • Kevyt",
+    "owner_note": "FI leicht / lv: individuāli pārbaudīta LRB-046 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  }
+}

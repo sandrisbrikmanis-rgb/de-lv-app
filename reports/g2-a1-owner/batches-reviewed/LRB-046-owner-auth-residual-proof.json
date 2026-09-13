@@ -1,0 +1,29 @@
+{
+  "batch_id": "LRB-046",
+  "classification": "LRB_046_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "reviewer": "owner-prep-pipeline",
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 49,
+  "nelabot": 1,
+  "pending": 0,
+  "unique_cards": 50,
+  "fi_rows": 50,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "49/49",
+    "NELABOT": 1,
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0
+  },
+  "languages": {
+    "fi": 50
+  },
+  "failures": [],
+  "verdict": "LRB_046_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-13T12:56:02.944Z"
+}
