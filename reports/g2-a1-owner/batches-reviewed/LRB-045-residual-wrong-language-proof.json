@@ -1,11 +1,11 @@
 {
   "batch_id": "LRB-045",
-  "classification": "LRB_045_OWNER_PREP_BLOCKED",
+  "classification": "LRB_045_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
   "pdf_reaudit": true,
   "post_repair_merge": true,
   "paste_source": "gpt-5.6-luna-copy-paste",
   "recalculated_from_production": true,
-  "pass": false,
+  "pass": true,
   "row_count": 50,
   "labot": 48,
   "nelabot": 2,
@@ -19,12 +19,12 @@
     "NELABOT": 2,
     "FI_ROWS": "50/50",
     "UNIQUE_CARDS": "50/50",
-    "wrong_language_residue": 7,
+    "wrong_language_residue": 0,
     "semantic_alignment_violations": 0,
-    "merged_card_failures": 7,
+    "merged_card_failures": 0,
     "section_accent_mismatches": 0,
     "section_accent_semantic_violations": 0,
-    "full_composite_completeness": "FAIL",
+    "full_composite_completeness": "PASS",
     "anti_bulk": "PASS"
   },
   "productionSource": "data/fi/a1.js",
@@ -83,57 +83,7 @@
     "fi:hoch",
     "fi:höflich"
   ],
-  "failures": [
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "haben",
-      "lang": "fi",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_FI"
-        },
-        {
-          "type": "ET_LEAK_IN_FI"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "halten",
-      "lang": "fi",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_FI"
-        },
-        {
-          "type": "ET_LEAK_IN_FI"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "heißen",
-      "lang": "fi",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_FI"
-        },
-        {
-          "type": "ET_LEAK_IN_FI"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "hoch",
-      "lang": "fi",
-      "failures": [
-        {
-          "type": "ET_LEAK_IN_FI"
-        }
-      ]
-    }
-  ],
-  "verdict": "LRB_045_OWNER_PREP_BLOCKED",
-  "updatedAt": "2026-09-13T12:31:58.861Z"
+  "failures": [],
+  "verdict": "LRB_045_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-13T12:41:13.031Z"
 }

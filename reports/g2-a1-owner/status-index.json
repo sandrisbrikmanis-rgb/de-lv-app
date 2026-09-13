@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T12:32:00.000Z",
+  "updatedAt": "2026-09-13T12:42:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -99,7 +99,7 @@
     "batchSize": 50,
     "batchesTotal": 103,
     "batchesReviewed": 45,
-    "batchesAntiBulkPass": 44,
+    "batchesAntiBulkPass": 45,
     "batchesSpotCheckPass": 44,
     "linguisticVerdicts": {
       "LRB-001": {
@@ -1106,6 +1106,12 @@
       "LRB-045": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
+        "labot": 48,
+        "nelabot": 2,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": false,
         "ownerAuthorization": "APPROVED",
         "reviewer": "pending-gpt-5.6-luna",
         "languages": {
@@ -1113,23 +1119,34 @@
         },
         "uniqueCards": 50,
         "rowCount": 50,
+        "compositeRepairs": 4,
         "batchNote": "FI batch 4: gesund..höflich (50 FI rows by idx, continuing after LRB-044)",
         "productionSource": "data/fi/a1.js",
-        "inputPath": "reports/g2-a1-owner/batches-pending/LRB-045-input.csv",
-        "manifestPath": "reports/g2-a1-owner/manifests/LRB-045-start.json",
-        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-045-owner-authorization-proof.json"
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-045-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-045-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-045-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-045-owner-authorization-proof.json",
+        "pasteRepairs": "GPT-5.6 Luna copy/paste (48 LABOT / 2 NELABOT / 50 unique FI cards: 4 composite + 44 scalar) — PDF BLOCKED (haben, halten, heißen, hoch)",
+        "pasteSha256": "98353a63afdc32c5270f27d5dbe295eff9447d0a4033ce25fe07799083775995"
       }
     },
     "lastBatch": {
       "batch_id": "LRB-045",
+      "labot": 48,
+      "nelabot": 2,
+      "pending": 0,
+      "antiBulkPass": true,
+      "residualAuditPass": true,
+      "pdfReauditPass": false,
       "ownerAuthorization": "APPROVED",
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
       "rowCount": 50,
       "uniqueCards": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-045-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-045-start.json",
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-045-decisions.csv",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-045-anti-bulk-proof.json",
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-045-residual-wrong-language-proof.json",
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-045-owner-authorization-proof.json"
     }
   },
