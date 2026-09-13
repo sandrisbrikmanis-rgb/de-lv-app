@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-057",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T16:28:58.392Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 5,
+  "languages": {
+    "es": 5
+  },
+  "unique_cards": 5,
+  "scope": "Essen..Urlaub (5 ES rows, 5 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/es/a1.js",
+  "input_csv_sha256": "7615ebcc7e3b6c98a3aee96b11dfc34fc2e98943f21a6e5a14f515a652802c65",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-057-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-057-input.csv",
+  "note": "Owner authorization APPROVED. ES batch 2 (final mop-up post LRB-056). Last 5 ES rows from 7737 pool. GPT-5.6 Luna linguistic review pending. NOT LRB_057_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
