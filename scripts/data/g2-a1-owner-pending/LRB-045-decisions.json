@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|gesund|idx:237|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI gesund / lv: individuāli pārbaudīta LRB-045 rinda 1/50; production_current “Terve” ir pareiza somu vērtība un precīzi atbilst LV→DE semantikai; izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|Gesundheit|idx:238|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Terveys",
+    "owner_note": "FI Gesundheit / lv: individuāli pārbaudīta LRB-045 rinda 2/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Getränk|idx:239|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Juoma",
+    "owner_note": "FI Getränk / lv: individuāli pārbaudīta LRB-045 rinda 3/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Giraffe|idx:240|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kirahvi",
+    "owner_note": "FI Giraffe / lv: individuāli pārbaudīta LRB-045 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Glas|idx:241|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lasi",
+    "owner_note": "FI Glas / lv: individuāli pārbaudīta LRB-045 rinda 5/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|glauben|idx:242|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Uskoa",
+    "owner_note": "FI glauben / lv: individuāli pārbaudīta LRB-045 rinda 6/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|gleich|idx:243|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kohta • Sama\",\"study.translation\":\"Kohta • Sama\",\"study.explanation\":\"[\\\"Pääajatus: aikaan viitatessaan gleich tarkoittaa kohta tai pian; vertailussa se tarkoittaa samaa tai samanlaista.\\\",\\\"Ajan yhteydessä gleich = kohta tai pian: Ich komme gleich. – Tulen kohta.\\\",\\\"Vertailussa gleich = sama tai samanlainen: die gleiche Farbe – sama väri.\\\",\\\"Asiayhteys osoittaa, onko kyse ajasta vai samanlaisuudesta.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme gleich.\\\",\\\"lv\\\":\\\"Tulen kohta.\\\"},{\\\"de\\\":\\\"Wir haben die gleiche Farbe.\\\",\\\"lv\\\":\\\"Meillä on sama väri.\\\"},{\\\"de\\\":\\\"Das Essen ist gleich fertig.\\\",\\\"lv\\\":\\\"Ruoka on kohta valmis.\\\"},{\\\"de\\\":\\\"Beide Wege sind gleich lang.\\\",\\\"lv\\\":\\\"Molemmat tiet ovat yhtä pitkiä.\\\"},{\\\"de\\\":\\\"Bis gleich!\\\",\\\"lv\\\":\\\"Nähdään pian!\\\"},{\\\"de\\\":\\\"Sie sind gleich groß.\\\",\\\"lv\\\":\\\"He ovat yhtä pitkiä.\\\"}]\",\"study.tip\":\"[\\\"Ajan yhteydessä gleich tarkoittaa kohta tai pian.\\\",\\\"Vertailussa gleich tarkoittaa samaa tai yhtä samanlaista.\\\"]\",\"study.important\":\"[\\\"gleich = kohta tai pian (aika) TAI sama tai yhtä (vertailu).\\\",\\\"Bis gleich! = Nähdään pian! – tavallinen hyvästelyilmaus.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"gleich\\\"],\\\"purple\\\":[\\\"kohta\\\",\\\"pian\\\",\\\"samaa\\\",\\\"samanlaista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kohta\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"gleiche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sama\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kohta\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"yhtä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pian\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"yhtä\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"gleich\\\"],\\\"purple\\\":[\\\"kohta\\\",\\\"pian\\\"]},{\\\"green\\\":[\\\"gleich\\\"],\\\"purple\\\":[\\\"samaa\\\",\\\"samanlaista\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"gleich\\\"],\\\"purple\\\":[\\\"kohta\\\",\\\"pian\\\",\\\"sama\\\",\\\"yhtä\\\"]},{\\\"blue\\\":[\\\"Bis gleich!\\\"],\\\"purple\\\":[\\\"Nähdään pian!\\\"]}]}\"}",
+    "owner_note": "FI gleich / lv/study: individuāli pārbaudīta LRB-045 rinda 7/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Glück|idx:244|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Onni",
+    "owner_note": "FI Glück / lv: individuāli pārbaudīta LRB-045 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|glücklich|idx:245|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Onnellinen",
+    "owner_note": "FI glücklich / lv: individuāli pārbaudīta LRB-045 rinda 9/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Gramm|idx:246|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Gramm / lv: individuāli pārbaudīta LRB-045 rinda 10/50; production_current “Gramm” ir pareiza somu vērtība un precīzi atbilst LV→DE semantikai; izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|Grammatik|idx:247|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kielioppi",
+    "owner_note": "FI Grammatik / lv: individuāli pārbaudīta LRB-045 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Gras|idx:248|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ruoho",
+    "owner_note": "FI Gras / lv: individuāli pārbaudīta LRB-045 rinda 12/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|grau|idx:249|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Harmaa",
+    "owner_note": "FI grau / lv: individuāli pārbaudīta LRB-045 rinda 13/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|groß|idx:250|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Suuri • Pitkä\",\"study.translation\":\"Suuri • Pitkä\",\"study.explanation\":\"[\\\"Pääajatus: groß tarkoittaa suurta, mutta ihmisestä puhuttaessa se tarkoittaa tavallisesti pitkää tai pitkäkasvuista.\\\",\\\"groß kuvaa esineiden, paikkojen ja tilojen kokoa.\\\",\\\"Ihmisen pituudesta groß tarkoittaa pitkää, ei leveää tai lihavaa.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das Haus ist groß.\\\",\\\"lv\\\":\\\"Talo on suuri.\\\"},{\\\"de\\\":\\\"Berlin ist eine große Stadt.\\\",\\\"lv\\\":\\\"Berliini on suuri kaupunki.\\\"},{\\\"de\\\":\\\"Er ist groß.\\\",\\\"lv\\\":\\\"Hän on pitkä.\\\"},{\\\"de\\\":\\\"Das Zimmer ist groß.\\\",\\\"lv\\\":\\\"Huone on suuri.\\\"}]\",\"study.tip\":\"[\\\"Esineestä tai paikasta groß = suuri.\\\",\\\"Ihmisestä groß = pitkä tai pitkäkasvuinen.\\\"]\",\"study.important\":\"[\\\"Ihmisestä Er ist groß tarkoittaa: hän on pitkä.\\\",\\\"Esineestä tai paikasta groß tarkoittaa tavallisesti suurta.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"suurta\\\",\\\"pitkää\\\",\\\"pitkäkasvuista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"groß\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"suuri\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"große\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"suuri\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"groß\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pitkä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"groß\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"suuri\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"suuri\\\"]},{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"pitkä\\\",\\\"pitkäkasvuinen\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"pitkä\\\"]},{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"suurta\\\"]}]}\"}",
+    "owner_note": "FI groß / lv/study: individuāli pārbaudīta LRB-045 rinda 14/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Großeltern|idx:251|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Isovanhemmat\",\"study.translation\":\"Isovanhemmat\",\"study.explanation\":\"[\\\"Pääajatus: Großeltern tarkoittaa isoäitiä ja isoisää yhdessä.\\\",\\\"Sanaa käytetään monikossa.\\\",\\\"Yhdestä henkilöstä käytetään sanaa Großmutter tai Großvater.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Meine Großeltern wohnen auf dem Land.\\\",\\\"lv\\\":\\\"Isovanhempani asuvat maalla.\\\"},{\\\"de\\\":\\\"Ich besuche meine Großeltern.\\\",\\\"lv\\\":\\\"Käyn isovanhempieni luona.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"Großeltern\\\",\\\"meaning\\\":\\\"isovanhemmat\\\",\\\"example\\\":\\\"meine Großeltern – isovanhempani\\\"},{\\\"word\\\":\\\"Großmutter\\\",\\\"meaning\\\":\\\"isoäiti\\\",\\\"example\\\":\\\"meine Großmutter – isoäitini\\\"},{\\\"word\\\":\\\"Großvater\\\",\\\"meaning\\\":\\\"isoisä\\\",\\\"example\\\":\\\"mein Großvater – isoisäni\\\"}]\",\"study.tip\":\"[\\\"Großeltern on monikollinen sana.\\\",\\\"Yhdestä henkilöstä käytetään sanaa Großmutter tai Großvater.\\\"]\",\"study.important\":\"[\\\"die Großeltern = isovanhemmat.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Großeltern\\\"],\\\"purple\\\":[\\\"isoäitiä\\\",\\\"isoisää\\\",\\\"monikossa\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Großeltern\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Isovanhempani\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Großeltern\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"isovanhempieni\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"blue\\\":[\\\"Großeltern\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"isovanhemmat\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"Großmutter\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"isoäiti\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"Großvater\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"isoisä\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"Großeltern\\\"],\\\"purple\\\":[\\\"monikollinen\\\"]},{\\\"green\\\":[\\\"Großmutter\\\",\\\"Großvater\\\"],\\\"purple\\\":[\\\"Yhdestä henkilöstä\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"die Großeltern\\\"],\\\"purple\\\":[\\\"isovanhemmat\\\"]}]}\"}",
+    "owner_note": "FI Großeltern / lv/study: individuāli pārbaudīta LRB-045 rinda 15/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Großmutter|idx:252|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Isoäiti",
+    "owner_note": "FI Großmutter / lv: individuāli pārbaudīta LRB-045 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Großvater|idx:253|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Isoisä",
+    "owner_note": "FI Großvater / lv: individuāli pārbaudīta LRB-045 rinda 17/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|grün|idx:254|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vihreä",
+    "owner_note": "FI grün / lv: individuāli pārbaudīta LRB-045 rinda 18/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Gruppe|idx:255|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ryhmä",
+    "owner_note": "FI Gruppe / lv: individuāli pārbaudīta LRB-045 rinda 19/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Gruß|idx:256|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tervehdys",
+    "owner_note": "FI Gruß / lv: individuāli pārbaudīta LRB-045 rinda 20/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|grüßen|idx:257|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tervehtiä",
+    "owner_note": "FI grüßen / lv: individuāli pārbaudīta LRB-045 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Gurke|idx:258|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kurkku",
+    "owner_note": "FI Gurke / lv: individuāli pārbaudīta LRB-045 rinda 22/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|gut|idx:259|lv/study|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Hyvä • Hyvin\",\"study.translation\":\"Hyvä • Hyvin\",\"study.explanation\":\"[\\\"Pääajatus: gut on adjektiivi tai adverbi ja tarkoittaa hyvä, hyvin tai kunnossa.\\\",\\\"gut kuvaa laatua, vointia tai sitä, miten jokin sujuu: Es geht mir gut. – Minulle kuuluu hyvää.\\\",\\\"Tervehdyksissä Guten Morgen!, Guten Tag! ja Guten Abend! adjektiivi gut saa päätteen -en.\\\",\\\"Kun gut määrittää verbiä, se toimii adverbina: gut schwimmen = uida hyvin.\\\",\\\"Älä sekoita sanaan das Gut: isolla alkukirjaimella ja artikkelin kanssa se on substantiivi, joka tarkoittaa omaisuutta tai kartanoa.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das Essen ist gut.\\\",\\\"lv\\\":\\\"Ruoka on hyvää.\\\"},{\\\"de\\\":\\\"Wie geht es dir? – Gut, danke!\\\",\\\"lv\\\":\\\"Mitä kuuluu? – Hyvää, kiitos!\\\"},{\\\"de\\\":\\\"Er spricht gut Deutsch.\\\",\\\"lv\\\":\\\"Hän puhuu hyvin saksaa.\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Hyvää huomenta!\\\"},{\\\"de\\\":\\\"Das ist eine gute Idee.\\\",\\\"lv\\\":\\\"Se on hyvä idea.\\\"},{\\\"de\\\":\\\"Alles ist gut.\\\",\\\"lv\\\":\\\"Kaikki on hyvin.\\\"}]\",\"study.tip\":\"[\\\"gut ilman artikkelia on adjektiivi tai adverbi: hyvä tai hyvin.\\\",\\\"das Gut isolla alkukirjaimella ja artikkelilla das on eri sana: omaisuus tai kartano.\\\"]\",\"study.important\":\"[\\\"gut = hyvä tai hyvin (adjektiivi tai adverbi).\\\",\\\"das Gut = omaisuus tai kartano (substantiivi); älä sekoita sitä sanaan gut.\\\",\\\"Guten Morgen / Guten Tag / Guten Abend: gut saa päätteen -en.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"gut\\\"],\\\"purple\\\":[\\\"hyvä\\\",\\\"hyvin\\\",\\\"kunnossa\\\"],\\\"green\\\":[\\\"das Gut\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"gut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hyvää\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Gut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hyvää\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"gut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hyvin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Guten\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hyvää huomenta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"gute\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hyvä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"gut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hyvin\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"gut\\\"],\\\"purple\\\":[\\\"hyvä\\\",\\\"hyvin\\\"]},{\\\"green\\\":[\\\"das Gut\\\"],\\\"purple\\\":[\\\"omaisuus\\\",\\\"kartano\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"gut\\\"],\\\"purple\\\":[\\\"hyvä\\\",\\\"hyvin\\\"]},{\\\"green\\\":[\\\"das Gut\\\"],\\\"purple\\\":[\\\"omaisuus\\\",\\\"kartano\\\"]},{\\\"blue\\\":[\\\"Guten Morgen\\\",\\\"Guten Tag\\\",\\\"Guten Abend\\\"],\\\"purple\\\":[\\\"päätteen -en\\\"]}]}\"}",
+    "owner_note": "FI gut / lv/study: individuāli pārbaudīta LRB-045 rinda 23/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Haar|idx:260|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hius",
+    "owner_note": "FI Haar / lv: individuāli pārbaudīta LRB-045 rinda 24/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|haben|idx:261|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Minulla on\",\"study.translation\":\"Minulla on\",\"study.explanation\":\"[\\\"Pääajatus: haben on verbi, jolla ilmaistaan, että jollakulla on jotakin.\\\",\\\"Suomen omistusrakenne minulla on, sinulla on tai hänellä on ilmaistaan saksaksi nominatiivilla ja haben-verbillä: Ich habe ..., Du hast ..., Er hat ... – ei *mir habe.\\\",\\\"haben-verbin jälkeen käytetään akkusatiivia: Ich habe ein Auto. – Minulla on auto.\\\",\\\"haben toimii myös apuverbinä perfektissä: Ich habe gelernt. – Olen opiskellut.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich habe ein Auto.\\\",\\\"lv\\\":\\\"Minulla on auto.\\\"},{\\\"de\\\":\\\"Hast du Zeit?\\\",\\\"lv\\\":\\\"Onko sinulla aikaa?\\\"},{\\\"de\\\":\\\"Wir haben Hunger.\\\",\\\"lv\\\":\\\"Meillä on nälkä.\\\"},{\\\"de\\\":\\\"Ich habe das gemacht.\\\",\\\"lv\\\":\\\"Olen tehnyt sen.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"haben\\\",\\\"meaning\\\":\\\"olla jollakulla\\\",\\\"example\\\":\\\"Ich habe Zeit. – Minulla on aikaa.\\\"},{\\\"word\\\":\\\"sein\\\",\\\"meaning\\\":\\\"olla\\\",\\\"example\\\":\\\"Ich bin hier. – Olen täällä.\\\"},{\\\"word\\\":\\\"bekommen\\\",\\\"meaning\\\":\\\"saada\\\",\\\"example\\\":\\\"Ich bekomme ein Geschenk. – Saan lahjan.\\\"},{\\\"word\\\":\\\"machen\\\",\\\"meaning\\\":\\\"tehdä\\\",\\\"example\\\":\\\"Ich mache das. – Teen sen.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: Ich habe tarkoittaa minulla on.\\\"}\",\"study.important\":\"[\\\"Suomen minulla on ilmaistaan saksaksi rakenteella Ich habe + akkusatiivi; muoto *mir habe on väärin.\\\",\\\"Mir ist kalt. – Minulla on kylmä. Tässä käytetään sein-verbiä, ei haben-verbiä.\\\",\\\"Perfektissä Ich habe gelernt tarkoittaa olen opiskellut.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"haben\\\",\\\"Ich habe\\\"],\\\"purple\\\":[\\\"minulla on\\\",\\\"sinulla on\\\",\\\"hänellä on\\\"],\\\"yellow\\\":[\\\"apuverbinä\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"habe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Minulla on\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Hast\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sinulla\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"haben\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Meillä on\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"habe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Olen tehnyt\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"haben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"olla jollakulla\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"habe\\\"],\\\"purple\\\":[\\\"Minulla on\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"olla\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"bin\\\"],\\\"purple\\\":[\\\"Olen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bekommen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"saada\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"bekomme\\\"],\\\"purple\\\":[\\\"Saan\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"machen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tehdä\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"mache\\\"],\\\"purple\\\":[\\\"Teen\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Ich habe\\\"],\\\"purple\\\":[\\\"minulla on\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"Ich habe\\\"],\\\"purple\\\":[\\\"minulla on\\\"]},{\\\"blue\\\":[\\\"Mir ist kalt\\\"],\\\"purple\\\":[\\\"Minulla on kylmä\\\"]},{\\\"blue\\\":[\\\"Ich habe gelernt\\\"],\\\"purple\\\":[\\\"olen opiskellut\\\"]}]}\"}",
+    "owner_note": "FI haben / lv: LRB-045 Gala atlikuma pārbaudē pilnā production_current + owner_new kartīte individuāli pārskatīta; scalar labojums aizvietots ar pilnu FI kompozītkartītes remontu, saglabājot visus DE piemērus un LV avota semantiku."
+  },
+  "g2/a1/fi|halb|idx:262|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puoli",
+    "owner_note": "FI halb / lv: individuāli pārbaudīta LRB-045 rinda 26/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Hälfte|idx:263|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Puolikas",
+    "owner_note": "FI Hälfte / lv: individuāli pārbaudīta LRB-045 rinda 27/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Hals|idx:264|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaula",
+    "owner_note": "FI Hals / lv: individuāli pārbaudīta LRB-045 rinda 28/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|halten|idx:265|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pitää\",\"study.translation\":\"Pitää\",\"study.explanation\":\"[\\\"Pääajatus: halten tarkoittaa useimmiten pitää tai pidellä.\\\",\\\"Bussista, junasta tai muusta kulkuneuvosta puhuttaessa halten voi tarkoittaa pysähtyä.\\\",\\\"Erotettava verbi anhalten tarkoittaa pysähtyä tai pysäyttää.\\\",\\\"Rakenne etwas für ... halten tarkoittaa pitää jotakin jonakin.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich halte die Tasche.\\\",\\\"lv\\\":\\\"Pidän laukkua.\\\"},{\\\"de\\\":\\\"Der Bus hält hier.\\\",\\\"lv\\\":\\\"Bussi pysähtyy täällä.\\\"},{\\\"de\\\":\\\"Bitte halten Sie an.\\\",\\\"lv\\\":\\\"Pysähtykää, olkaa hyvä.\\\"},{\\\"de\\\":\\\"Ich halte das für richtig.\\\",\\\"lv\\\":\\\"Pidän sitä oikeana.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"halten\\\",\\\"meaning\\\":\\\"pitää • kulkuneuvosta pysähtyä\\\",\\\"example\\\":\\\"Der Bus hält. – Bussi pysähtyy.\\\"},{\\\"word\\\":\\\"nehmen\\\",\\\"meaning\\\":\\\"ottaa\\\",\\\"example\\\":\\\"Ich nehme die Tasche. – Otan laukun.\\\"},{\\\"word\\\":\\\"anhalten\\\",\\\"meaning\\\":\\\"pysähtyä • pysäyttää\\\",\\\"example\\\":\\\"Bitte halten Sie an. – Pysähtykää, olkaa hyvä.\\\"},{\\\"word\\\":\\\"denken\\\",\\\"meaning\\\":\\\"ajatella\\\",\\\"example\\\":\\\"Ich denke, das ist richtig. – Ajattelen, että se on oikein.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: esinettä pidetään – halten; kulkuneuvo pysähtyy – hält; pysähtyä tai pysäyttää – anhalten.\\\"}\",\"study.important\":\"[\\\"halten tarkoittaa useimmiten pitää tai pidellä.\\\",\\\"Der Bus hält tarkoittaa, että bussi pysähtyy.\\\",\\\"Ilmauksessa Bitte halten Sie an käytetään erotettavaa verbiä anhalten.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"halten\\\"],\\\"purple\\\":[\\\"pitää\\\",\\\"pidellä\\\",\\\"pysähtyä\\\",\\\"pitää jotakin jonakin\\\"],\\\"green\\\":[\\\"anhalten\\\",\\\"kulkuneuvosta\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"halte\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Pidän\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"hält\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pysähtyy\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"halten\\\"],\\\"green\\\":[\\\"an\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Pysähtykää\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"halte\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Pidän\\\",\\\"oikeana\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"halten\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"pitää\\\",\\\"pysähtyä\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"hält\\\"],\\\"purple\\\":[\\\"pysähtyy\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nehmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ottaa\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"nehme\\\"],\\\"purple\\\":[\\\"Otan\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"anhalten\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"pysähtyä\\\",\\\"pysäyttää\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"halten\\\"],\\\"green\\\":[\\\"an\\\"],\\\"purple\\\":[\\\"Pysähtykää\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"denken\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ajatella\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"denke\\\"],\\\"purple\\\":[\\\"Ajattelen\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"halten\\\",\\\"hält\\\",\\\"anhalten\\\"],\\\"purple\\\":[\\\"pidetään\\\",\\\"pysähtyy\\\",\\\"pysähtyä\\\",\\\"pysäyttää\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"halten\\\"],\\\"purple\\\":[\\\"pitää\\\",\\\"pidellä\\\"]},{\\\"blue\\\":[\\\"hält\\\"],\\\"purple\\\":[\\\"pysähtyy\\\"]},{\\\"blue\\\":[\\\"halten\\\"],\\\"green\\\":[\\\"anhalten\\\"]}]}\"}",
+    "owner_note": "FI halten / lv: LRB-045 Gala atlikuma pārbaudē pilnā production_current + owner_new kartīte individuāli pārskatīta; scalar labojums aizvietots ar pilnu FI kompozītkartītes remontu, saglabājot visus DE piemērus un LV avota semantiku."
+  },
+  "g2/a1/fi|Haltestelle|idx:266|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pysäkki",
+    "owner_note": "FI Haltestelle / lv: individuāli pārbaudīta LRB-045 rinda 30/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Hand|idx:267|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Käsi",
+    "owner_note": "FI Hand / lv: individuāli pārbaudīta LRB-045 rinda 31/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Handschuh|idx:268|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Käsine",
+    "owner_note": "FI Handschuh / lv: individuāli pārbaudīta LRB-045 rinda 32/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Handtasche|idx:269|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Käsilaukku",
+    "owner_note": "FI Handtasche / lv: individuāli pārbaudīta LRB-045 rinda 33/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Handtuch|idx:270|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pyyhe",
+    "owner_note": "FI Handtuch / lv: individuāli pārbaudīta LRB-045 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Handy|idx:271|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Matkapuhelin",
+    "owner_note": "FI Handy / lv: individuāli pārbaudīta LRB-045 rinda 35/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Hauptstadt|idx:272|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pääkaupunki",
+    "owner_note": "FI Hauptstadt / lv: individuāli pārbaudīta LRB-045 rinda 36/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Heft|idx:273|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vihko",
+    "owner_note": "FI Heft / lv: individuāli pārbaudīta LRB-045 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|heiraten|idx:274|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mennä naimisiin",
+    "owner_note": "FI heiraten / lv: individuāli pārbaudīta LRB-045 rinda 38/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|heiß|idx:275|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuuma",
+    "owner_note": "FI heiß / lv: individuāli pārbaudīta LRB-045 rinda 39/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|heißen|idx:276|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Olla nimeltään • Tarkoittaa\",\"study.translation\":\"Olla nimeltään • Tarkoittaa\",\"study.explanation\":\"[\\\"Pääajatus: heißen-verbiä käytetään tavallisimmin kertomaan, mikä jonkun nimi on.\\\",\\\"Ilmaus Ich heiße ... tarkoittaa olen nimeltäni ... tai nimeni on ...\\\",\\\"Sanoista ja ilmauksista puhuttaessa heißen voi tarkoittaa myös tarkoittaa.\\\",\\\"A1-tasolla tärkein kysymys on Wie heißt du? – Mikä sinun nimesi on?\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich heiße Anna.\\\",\\\"lv\\\":\\\"Olen nimeltäni Anna.\\\"},{\\\"de\\\":\\\"Wie heißt du?\\\",\\\"lv\\\":\\\"Mikä sinun nimesi on?\\\"},{\\\"de\\\":\\\"Wie heißt das auf Deutsch?\\\",\\\"lv\\\":\\\"Mikä tämä on saksaksi?\\\"},{\\\"de\\\":\\\"Was heißt das?\\\",\\\"lv\\\":\\\"Mitä se tarkoittaa?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"heißen\\\",\\\"meaning\\\":\\\"olla nimeltään • tarkoittaa\\\",\\\"example\\\":\\\"Ich heiße Anna. – Olen nimeltäni Anna.\\\"},{\\\"word\\\":\\\"nennen\\\",\\\"meaning\\\":\\\"kutsua • nimetä\\\",\\\"example\\\":\\\"Er nennt mich Tom. – Hän kutsuu minua Tomiksi.\\\"},{\\\"word\\\":\\\"bedeuten\\\",\\\"meaning\\\":\\\"tarkoittaa\\\",\\\"example\\\":\\\"Was bedeutet das? – Mitä se tarkoittaa?\\\"},{\\\"word\\\":\\\"rufen\\\",\\\"meaning\\\":\\\"kutsua • huutaa\\\",\\\"example\\\":\\\"Ich rufe dich. – Kutsun sinua.\\\"},{\\\"word\\\":\\\"anrufen\\\",\\\"meaning\\\":\\\"soittaa\\\",\\\"example\\\":\\\"Ich rufe dich an. – Soitan sinulle.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: Ich heiße ... tarkoittaa olen nimeltäni ...\\\"}\",\"study.important\":\"[\\\"Wie heißt du? tarkoittaa Mikä sinun nimesi on?\\\",\\\"Was heißt das? tarkoittaa usein Mitä se tarkoittaa?\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"heißen\\\",\\\"Ich heiße\\\",\\\"Wie heißt du\\\"],\\\"purple\\\":[\\\"nimi\\\",\\\"nimeltäni\\\",\\\"tarkoittaa\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"heiße\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nimeltäni\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"heißt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nimesi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"heißt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"saksaksi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"heißt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"tarkoittaa\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"heißen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"olla nimeltään\\\",\\\"tarkoittaa\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"heiße\\\"],\\\"purple\\\":[\\\"nimeltäni\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nennen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kutsua\\\",\\\"nimetä\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"nennt\\\"],\\\"purple\\\":[\\\"kutsuu\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bedeuten\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tarkoittaa\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"bedeutet\\\"],\\\"purple\\\":[\\\"tarkoittaa\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"rufen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kutsua\\\",\\\"huutaa\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"rufe\\\"],\\\"purple\\\":[\\\"Kutsun\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"anrufen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"soittaa\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"rufe\\\",\\\"an\\\"],\\\"purple\\\":[\\\"Soitan\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Ich heiße\\\"],\\\"purple\\\":[\\\"olen nimeltäni\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"Wie heißt du\\\"],\\\"purple\\\":[\\\"Mikä sinun nimesi on\\\"]},{\\\"blue\\\":[\\\"Was heißt das\\\"],\\\"purple\\\":[\\\"Mitä se tarkoittaa\\\"]}]}\"}",
+    "owner_note": "FI heißen / lv: LRB-045 Gala atlikuma pārbaudē pilnā production_current + owner_new kartīte individuāli pārskatīta; scalar labojums aizvietots ar pilnu FI kompozītkartītes remontu, saglabājot visus DE piemērus un LV avota semantiku."
+  },
+  "g2/a1/fi|helfen|idx:277|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Auttaa",
+    "owner_note": "FI helfen / lv: individuāli pārbaudīta LRB-045 rinda 41/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Hemd|idx:278|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Paita",
+    "owner_note": "FI Hemd / lv: individuāli pārbaudīta LRB-045 rinda 42/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Herbst|idx:279|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Syksy",
+    "owner_note": "FI Herbst / lv: individuāli pārbaudīta LRB-045 rinda 43/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Herr|idx:280|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Herra",
+    "owner_note": "FI Herr / lv: individuāli pārbaudīta LRB-045 rinda 44/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|heute|idx:281|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tänään",
+    "owner_note": "FI heute / lv: individuāli pārbaudīta LRB-045 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|hier|idx:282|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Täällä",
+    "owner_note": "FI hier / lv: individuāli pārbaudīta LRB-045 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Hilfe|idx:283|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Apu",
+    "owner_note": "FI Hilfe / lv: individuāli pārbaudīta LRB-045 rinda 47/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|hinter|idx:284|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Takana",
+    "owner_note": "FI hinter / lv: individuāli pārbaudīta LRB-045 rinda 48/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|hoch|idx:285|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Korkea\",\"study.translation\":\"Korkea\",\"study.explanation\":\"[\\\"Pääajatus: hoch tarkoittaa korkea tai korkealla.\\\",\\\"hoch kuvaa pystysuuntaista korkeutta tai korkeaa tasoa.\\\",\\\"Sanaa käytetään esimerkiksi vuoresta, muurista, hinnasta, lämpötilasta tai luvusta.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Berg ist hoch.\\\",\\\"lv\\\":\\\"Vuori on korkea.\\\"},{\\\"de\\\":\\\"Das Regal ist zwei Meter hoch.\\\",\\\"lv\\\":\\\"Hylly on kaksi metriä korkea.\\\"},{\\\"de\\\":\\\"Die Miete ist hoch.\\\",\\\"lv\\\":\\\"Vuokra on korkea.\\\"},{\\\"de\\\":\\\"Die Mauer ist hoch.\\\",\\\"lv\\\":\\\"Muuri on korkea.\\\"},{\\\"de\\\":\\\"Die Preise sind hoch.\\\",\\\"lv\\\":\\\"Hinnat ovat korkeat.\\\"}]\",\"study.tip\":\"[\\\"Pystysuuntainen korkeus tai korkea taso ilmaistaan sanalla hoch.\\\",\\\"Ihmisen pituudesta käytetään tavallisesti sanaa groß.\\\"]\",\"study.important\":\"[\\\"Der Berg ist hoch tarkoittaa, että vuori on korkea.\\\",\\\"Er ist groß tarkoittaa, että hän on pitkä.\\\",\\\"Ihmisen pituudesta ei tavallisesti käytetä sanaa hoch.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"hoch\\\"],\\\"purple\\\":[\\\"korkea\\\",\\\"korkealla\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"hoch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"korkea\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"hoch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"korkea\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"hoch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"korkea\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"hoch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"korkea\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"hoch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"korkeat\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"korkeus\\\",\\\"korkea\\\"],\\\"green\\\":[\\\"hoch\\\"]},{\\\"purple\\\":[\\\"pituudesta\\\"],\\\"green\\\":[\\\"groß\\\"]}],\\\"important\\\":[{\\\"green\\\":[\\\"hoch\\\"],\\\"purple\\\":[\\\"korkea\\\"]},{\\\"green\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"pitkä\\\"]},{\\\"green\\\":[\\\"hoch\\\"],\\\"purple\\\":[\\\"pituudesta\\\"]}]}\"}",
+    "owner_note": "FI hoch / lv: LRB-045 Gala atlikuma pārbaudē pilnā production_current + owner_new kartīte individuāli pārskatīta; scalar labojums aizvietots ar pilnu FI kompozītkartītes remontu, saglabājot visus DE piemērus un LV avota semantiku."
+  },
+  "g2/a1/fi|höflich|idx:286|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kohtelias",
+    "owner_note": "FI höflich / lv: individuāli pārbaudīta LRB-045 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  }
+}

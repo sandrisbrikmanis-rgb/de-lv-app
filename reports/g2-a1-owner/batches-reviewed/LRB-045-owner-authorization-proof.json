@@ -1,0 +1,43 @@
+{
+  "batch_id": "LRB-045",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T12:42:00.000Z",
+  "linguisticVerdict": "LRB_045_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReauditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "paste_file": "LRB-045-ROUND-2-CORRECTIONS-COPY-PASTE.json",
+  "paste_sha256": "fd50525a248936920c09d983947b7523667c1b009540b55b016085f122d5c723",
+  "languages": {
+    "fi": 50
+  },
+  "unique_cards": 50,
+  "fi_composite_repairs": 8,
+  "fi_scalar_repairs": 40,
+  "scope": "gesund..höflich (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste (round 2 composite fix)",
+  "productionSource": "data/fi/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "48/48",
+    "NELABOT": 2,
+    "FI_ROWS": "50/50",
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-045-residual-wrong-language-proof.json",
+  "note": "GPT-5.6 Luna round-2 copy/paste applied. 48 LABOT / 2 NELABOT / 0 PENDING (gesund, Gramm). Round-2 composite fix: haben, halten, heißen, hoch. PDF paste-mode PASS. NOT LRB_045_FULL_50_50_LINGUISTIC_REVIEW_PASS — pending Gala. DE/production/Crowdin/ingest/apply unchanged."
+}
