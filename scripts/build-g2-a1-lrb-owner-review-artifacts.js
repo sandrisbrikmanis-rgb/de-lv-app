@@ -33,6 +33,7 @@ const LANG_DATA_FILES = {
   uk: "data/uk/a1.js",
   sv: "data/sv/a1.js",
   sr: "data/sr/a1.js",
+  sq: "data/sq/a1.js",
   fr: "data/fr/a1.js",
   gr: "data/gr/a1.js",
   fi: "data/fi/a1.js",
