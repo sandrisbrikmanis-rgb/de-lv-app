@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|leise|idx:368|lv, study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"hljóðlátur • lágt\",\"study.translation\":\"hljóðlátur • lágt\",\"study.explanation\":\"[\\\"Meginhugmynd: leise lýsir litlum hljóðstyrk eða því að vera hljóðlátur.\\\",\\\"leise merkir fyrst og fremst að hljóðstyrkurinn sé lágur.\\\",\\\"Orðið lýsir oft hljóði, rödd eða tónlist.\\\",\\\"Sem atviksorð getur leise merkt að tala lágt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Bitte sei leise.\\\",\\\"lv\\\":\\\"Hafðu hljótt, vinsamlegast.\\\"},{\\\"de\\\":\\\"Bitte sei leise.\\\",\\\"lv\\\":\\\"Hafðu hljótt, vinsamlegast.\\\"},{\\\"de\\\":\\\"Die Musik ist leise.\\\",\\\"lv\\\":\\\"Tónlistin er lágvær.\\\"},{\\\"de\\\":\\\"Sprich bitte leise.\\\",\\\"lv\\\":\\\"Talaðu lágt, vinsamlegast.\\\"}]\",\"study.tip\":\"[\\\"leise = hljóðlátur eða lágt, eftir setningarhlutverki.\\\",\\\"Notaðu leise þegar átt er við lítinn hljóðstyrk.\\\"]\",\"study.important\":\"[\\\"leise lýsir hljóðstyrk, ekki endilega algerri þögn.\\\",\\\"Með sein er leise lýsingarorð; með sprechen er það notað sem atviksorð.\\\",\\\"Meginmerkingin er lítill hljóðstyrkur.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"leise\\\"],\\\"purple\\\":[\\\"hljóðstyrk\\\",\\\"hljóðlátur\\\",\\\"lágt\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"leise\\\",\\\"leise\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hljótt\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"leise\\\",\\\"leise\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hljótt\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"leise\\\",\\\"leise\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"lágvær\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"leise\\\",\\\"leise\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"lágt\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"leise\\\"],\\\"purple\\\":[\\\"hljóðlátur\\\",\\\"lágt\\\"]},{\\\"blue\\\":[\\\"leise\\\"],\\\"purple\\\":[\\\"hljóðstyrk\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"leise\\\"],\\\"purple\\\":[\\\"hljóðstyrk\\\"]},{\\\"blue\\\":[\\\"leise\\\"],\\\"green\\\":[\\\"lýsingarorð\\\",\\\"atviksorð\\\"]},{\\\"purple\\\":[\\\"hljóðstyrkur\\\"]}]}\"}",
+    "owner_note": "IS leise / lv, study: individuāli pārbaudīta LRB-035 rinda 1/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|lernen|idx:4|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "læra",
+    "owner_note": "IS lernen / lv: individuāli pārbaudīta LRB-035 rinda 2/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|lesen|idx:369|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lesa",
+    "owner_note": "IS lesen / lv: individuāli pārbaudīta LRB-035 rinda 3/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|letzte|idx:370|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "síðasti",
+    "owner_note": "IS letzte / lv: individuāli pārbaudīta LRB-035 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Licht|idx:372|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ljós",
+    "owner_note": "IS Licht / lv: individuāli pārbaudīta LRB-035 rinda 5/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|lieb|idx:373|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "kær",
+    "owner_note": "IS lieb / lv: individuāli pārbaudīta LRB-035 rinda 6/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Liebe|idx:374|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ást",
+    "owner_note": "IS Liebe / lv: individuāli pārbaudīta LRB-035 rinda 7/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|lieben|idx:375|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "elska",
+    "owner_note": "IS lieben / lv: individuāli pārbaudīta LRB-035 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Lied|idx:376|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lag",
+    "owner_note": "IS Lied / lv: individuāli pārbaudīta LRB-035 rinda 9/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|liegen|idx:377|lv, study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"liggja • vera staðsettur\",\"study.translation\":\"liggja • vera staðsettur\",\"study.explanation\":\"[\\\"Meginhugmynd: liegen merkir að liggja eða vera staðsettur í láréttri stöðu.\\\",\\\"Um manneskju merkir liegen oft að liggja.\\\",\\\"Um hlut merkir liegen að hann liggi eða sé staðsettur einhvers staðar.\\\",\\\"liegen er ekki legen: legen merkir að leggja eða setja eitthvað niður.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das Buch liegt auf dem Tisch.\\\",\\\"lv\\\":\\\"Bókin liggur á borðinu.\\\"},{\\\"de\\\":\\\"Mein Handy liegt im Auto.\\\",\\\"lv\\\":\\\"Síminn minn liggur í bílnum.\\\"},{\\\"de\\\":\\\"Er liegt im Bett.\\\",\\\"lv\\\":\\\"Hann liggur í rúminu.\\\"},{\\\"de\\\":\\\"Ich lege das Buch auf den Tisch.\\\",\\\"lv\\\":\\\"Ég legg bókina á borðið.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: hluturinn er þegar á staðnum → liegen; einhver leggur hann þangað → legen.\\\"}\",\"study.important\":\"[\\\"liegen lýsir stöðu eða staðsetningu.\\\",\\\"legen lýsir athöfn: einhver leggur eitthvað niður.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"liegen\\\",\\\"legen\\\"],\\\"purple\\\":[\\\"liggja\\\",\\\"staðsettur\\\",\\\"leggja\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"liegt\\\"],\\\"yellow\\\":[\\\"Buch\\\",\\\"Tisch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"liggur\\\"],\\\"yellow\\\":[\\\"Bókin\\\",\\\"borðinu\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"liegt\\\"],\\\"yellow\\\":[\\\"Handy\\\",\\\"Auto\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"liggur\\\"],\\\"yellow\\\":[\\\"Síminn\\\",\\\"bílnum\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"liegt\\\"],\\\"green\\\":[\\\"Bett\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"liggur\\\"],\\\"green\\\":[\\\"rúminu\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"lege\\\"],\\\"yellow\\\":[\\\"Buch\\\",\\\"Tisch\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"legg\\\"],\\\"yellow\\\":[\\\"bókina\\\",\\\"borðið\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"liegen\\\",\\\"legen\\\"],\\\"purple\\\":[\\\"á staðnum\\\"],\\\"red\\\":[\\\"leggur\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"liegen\\\"],\\\"purple\\\":[\\\"stöðu\\\",\\\"staðsetningu\\\"]},{\\\"red\\\":[\\\"legen\\\"],\\\"purple\\\":[\\\"athöfn\\\",\\\"leggur\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"liegen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"liggja\\\",\\\"staðsettur\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"liegt\\\",\\\"liggur\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"legen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"leggja\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"lege\\\",\\\"legg\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"standa\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"steht\\\",\\\"stendur\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vera\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bin\\\",\\\"er\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"liggja • vera staðsettur\\\",\\\"example\\\":\\\"Das Buch liegt hier. – Bókin liggur hér.\\\"},{\\\"word\\\":\\\"legen\\\",\\\"meaning\\\":\\\"leggja\\\",\\\"example\\\":\\\"Ich lege das Buch hierhin. – Ég legg bókina hingað.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"standa • vera uppréttur\\\",\\\"example\\\":\\\"Die Flasche steht auf dem Tisch. – Flaskan stendur á borðinu.\\\"},{\\\"word\\\":\\\"sein\\\",\\\"meaning\\\":\\\"vera\\\",\\\"example\\\":\\\"Ich bin hier. – Ég er hér.\\\"}]\"}",
+    "owner_note": "IS liegen / lv, study: individuāli pārbaudīta LRB-035 rinda 10/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Limonade|idx:378|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "límonaði",
+    "owner_note": "IS Limonade / lv: individuāli pārbaudīta LRB-035 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Lineal|idx:379|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "reglustika",
+    "owner_note": "IS Lineal / lv: individuāli pārbaudīta LRB-035 rinda 12/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "til vinstri • vinstri",
+    "owner_note": "IS links / a1.card.links.native: individuāli pārbaudīta LRB-035 rinda 13/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|links|idx:380|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "til vinstri • vinstri",
+    "owner_note": "IS links / lv: individuāli pārbaudīta LRB-035 rinda 14/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Liste|idx:381|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "listi",
+    "owner_note": "IS Liste / lv: individuāli pārbaudīta LRB-035 rinda 15/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Löffel|idx:383|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "skeið",
+    "owner_note": "IS Löffel / lv: individuāli pārbaudīta LRB-035 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Luft|idx:384|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "loft",
+    "owner_note": "IS Luft / lv: individuāli pārbaudīta LRB-035 rinda 17/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|lustig|idx:385|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "glaðvær",
+    "owner_note": "IS lustig / lv: individuāli pārbaudīta LRB-035 rinda 18/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|machen|idx:386|lv, study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gera • búa til\",\"study.translation\":\"gera • búa til\",\"study.explanation\":\"[\\\"Meginhugmynd: machen er mjög algeng sögn og merkir að gera eða búa eitthvað til.\\\",\\\"Þegar átt er við athöfn almennt samsvarar machen oft gera.\\\",\\\"Þegar eitthvað er búið til eða matreitt samsvarar machen oft búa til.\\\",\\\"Í mörgum orðasamböndum þarf að þýða machen eðlilega eftir samhengi, ekki orðrétt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was machst du?\\\",\\\"lv\\\":\\\"Hvað ertu að gera?\\\"},{\\\"de\\\":\\\"Ich mache Hausaufgaben.\\\",\\\"lv\\\":\\\"Ég geri heimavinnuna mína.\\\"},{\\\"de\\\":\\\"Wir machen Pizza.\\\",\\\"lv\\\":\\\"Við búum til pítsu.\\\"},{\\\"de\\\":\\\"Das macht Spaß.\\\",\\\"lv\\\":\\\"Þetta er gaman.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: Was machst du? = Hvað ertu að gera?\\\"}\",\"study.important\":\"[\\\"machen hefur víða merkingu, svo íslenska þýðingin ræðst af samhengi.\\\",\\\"Das macht Spaß merkir „Þetta er gaman“, ekki orðrétt „Þetta býr til gaman“.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"machen\\\"],\\\"purple\\\":[\\\"gera\\\",\\\"búa til\\\"],\\\"green\\\":[\\\"athöfn\\\",\\\"samhengi\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"machst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gera\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mache\\\"],\\\"yellow\\\":[\\\"Hausaufgaben\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"geri\\\"],\\\"yellow\\\":[\\\"heimavinnuna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"machen\\\"],\\\"yellow\\\":[\\\"Pizza\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"búum til\\\"],\\\"yellow\\\":[\\\"pítsu\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"macht Spaß\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"er gaman\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Was machst du\\\"],\\\"purple\\\":[\\\"Hvað ertu að gera\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"machen\\\"],\\\"purple\\\":[\\\"samhengi\\\"]},{\\\"blue\\\":[\\\"Das macht Spaß\\\"],\\\"purple\\\":[\\\"Þetta er gaman\\\"],\\\"red\\\":[\\\"ekki orðrétt\\\"]}]}\"}",
+    "owner_note": "IS machen / lv, study: individuāli pārbaudīta LRB-035 rinda 19/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mädchen|idx:387|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "stúlka",
+    "owner_note": "IS Mädchen / lv: individuāli pārbaudīta LRB-035 rinda 20/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mahlzeit|idx:388|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "máltíð",
+    "owner_note": "IS Mahlzeit / lv: individuāli pārbaudīta LRB-035 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mai|idx:389|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "maí",
+    "owner_note": "IS Mai / lv: individuāli pārbaudīta LRB-035 rinda 22/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mal|idx:390|lv, study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"skipti\",\"study.translation\":\"skipti\",\"study.explanation\":\"[\\\"Meginhugmynd: das Mal merkir skipti sem atburð eða tilvik.\\\",\\\"Það er oft notað með tölum: ein Mal, zwei Mal, drei Mal.\\\",\\\"Með raðtölu er sagt das erste Mal eða das zweite Mal.\\\",\\\"Ekki rugla das Mal saman við áhersluögnina mal í talmáli, eins og í Komm mal her!; þar hefur mal aðra notkun.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das erste Mal war schwer.\\\",\\\"lv\\\":\\\"Fyrsta skiptið var erfitt.\\\"},{\\\"de\\\":\\\"Ich war schon zwei Mal in Berlin.\\\",\\\"lv\\\":\\\"Ég hef þegar verið tvisvar í Berlín.\\\"},{\\\"de\\\":\\\"Ein Mal reicht.\\\",\\\"lv\\\":\\\"Eitt skipti nægir.\\\"},{\\\"de\\\":\\\"Noch ein Mal, bitte!\\\",\\\"lv\\\":\\\"Einu sinni enn, takk!\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: das Mal = skipti sem nafnorð; mal án greinis getur verið áhersluögn í talmáli.\\\"}\",\"study.important\":\"[\\\"das Mal og die Male eru nafnorðsmyndir með greini.\\\",\\\"ein Mal og zwei Mal eru notuð þegar skiptin eru talin.\\\",\\\"mal án greinis í Komm mal her! er ekki sama notkun og das Mal.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"das Mal\\\",\\\"mal\\\"],\\\"purple\\\":[\\\"skipti\\\",\\\"atburð\\\",\\\"tilvik\\\"],\\\"red\\\":[\\\"Ekki rugla\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"erste Mal\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"skiptið\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zwei Mal\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"tvisvar\\\"],\\\"yellow\\\":[\\\"Berlín\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Ein Mal\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"skipti\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ein Mal\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Einu sinni enn\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"das Mal\\\",\\\"mal\\\"],\\\"purple\\\":[\\\"skipti\\\",\\\"nafnorð\\\"],\\\"red\\\":[\\\"áhersluögn\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"das Mal\\\",\\\"die Male\\\"],\\\"purple\\\":[\\\"nafnorðsmyndir\\\"]},{\\\"blue\\\":[\\\"ein Mal\\\",\\\"zwei Mal\\\"],\\\"purple\\\":[\\\"skiptin\\\"]},{\\\"blue\\\":[\\\"mal\\\",\\\"das Mal\\\"],\\\"red\\\":[\\\"ekki sama\\\"]}]}\"}",
+    "owner_note": "IS Mal / lv, study: individuāli pārbaudīta LRB-035 rinda 23/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mála • lita",
+    "owner_note": "IS malen / a1.card.malen.native: individuāli pārbaudīta LRB-035 rinda 24/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|malen|idx:391|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mála • lita",
+    "owner_note": "IS malen / lv: individuāli pārbaudīta LRB-035 rinda 25/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|manchmal|idx:392|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "stundum",
+    "owner_note": "IS manchmal / lv: individuāli pārbaudīta LRB-035 rinda 26/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mandarine|idx:393|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mandarína",
+    "owner_note": "IS Mandarine / lv: individuāli pārbaudīta LRB-035 rinda 27/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mann|idx:394|lv; study|TARGET_LANGUAGE_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"karlmaður • eiginmaður\",\"study.translation\":\"karlmaður • eiginmaður\",\"study.explanation\":\"[\\\"Meginhugmynd: der Mann getur merkt karlmann eða eiginmann.\\\",\\\"Þegar rætt er um kyn eða persónu merkir der Mann karlmaður.\\\",\\\"Þegar rætt er um maka merkir der Mann eiginmaður: mein Mann = eiginmaðurinn minn.\\\",\\\"Með eignarfornafni, til dæmis mein, dein eða ihr Mann, er venjulega átt við eiginmann.\\\",\\\"Fleirtalan er die Männer.\\\",\\\"die Frau hefur sambærilega tvíþætta merkingu: kona eða eiginkona.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er ist ein netter Mann.\\\",\\\"lv\\\":\\\"Hann er vingjarnlegur karlmaður.\\\"},{\\\"de\\\":\\\"Das ist mein Mann.\\\",\\\"lv\\\":\\\"Þetta er eiginmaðurinn minn.\\\"},{\\\"de\\\":\\\"Wie viele Männer sind hier?\\\",\\\"lv\\\":\\\"Hvað eru margir karlmenn hér?\\\"},{\\\"de\\\":\\\"Mein Mann arbeitet in Berlin.\\\",\\\"lv\\\":\\\"Eiginmaðurinn minn vinnur í Berlín.\\\"},{\\\"de\\\":\\\"Der Mann trägt einen Anzug.\\\",\\\"lv\\\":\\\"Karlmaðurinn klæðist jakkafötum.\\\"},{\\\"de\\\":\\\"Ihr Mann ist Arzt.\\\",\\\"lv\\\":\\\"Eiginmaður hennar er læknir.\\\"}]\",\"study.tip\":\"[\\\"Með eignarfornafni, til dæmis mein, dein eða ihr Mann, er venjulega átt við eiginmann.\\\",\\\"Án eignarfornafns, til dæmis der Mann eða ein Mann, er venjulega átt við karlmann.\\\"]\",\"study.important\":\"[\\\"der Mann = karlmaður eða eiginmaður, eftir samhengi.\\\",\\\"mein Mann = eiginmaðurinn minn, ekki „karlmaðurinn minn“.\\\",\\\"Fleirtalan er die Männer.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Mann\\\",\\\"mein Mann\\\",\\\"die Männer\\\",\\\"die Frau\\\"],\\\"purple\\\":[\\\"karlmann\\\",\\\"eiginmann\\\",\\\"eiginkona\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"karlmaður\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"mein Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eiginmaðurinn\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Männer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"karlmenn\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Mein Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Eiginmaðurinn\\\"],\\\"yellow\\\":[\\\"Berlín\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"klæðist\\\"],\\\"yellow\\\":[\\\"jakkafötum\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Ihr Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Eiginmaður\\\"],\\\"green\\\":[\\\"læknir\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"mein\\\",\\\"dein\\\",\\\"ihr Mann\\\"],\\\"purple\\\":[\\\"eiginmann\\\"]},{\\\"blue\\\":[\\\"der Mann\\\",\\\"ein Mann\\\"],\\\"purple\\\":[\\\"karlmann\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"der Mann\\\"],\\\"purple\\\":[\\\"karlmaður\\\",\\\"eiginmaður\\\"]},{\\\"blue\\\":[\\\"mein Mann\\\"],\\\"purple\\\":[\\\"eiginmaðurinn minn\\\"],\\\"red\\\":[\\\"ekki\\\"]},{\\\"blue\\\":[\\\"die Männer\\\"]}]}\"}",
+    "owner_note": "IS Mann / lv; study: individuāli pārbaudīta LRB-035 rinda 28/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Marmelade|idx:395|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sulta",
+    "owner_note": "IS Marmelade / lv: individuāli pārbaudīta LRB-035 rinda 29/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|März|idx:396|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mars",
+    "owner_note": "IS März / lv: individuāli pārbaudīta LRB-035 rinda 30/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Maus|idx:397|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mús",
+    "owner_note": "IS Maus / lv: individuāli pārbaudīta LRB-035 rinda 31/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Meer|idx:398|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sjór",
+    "owner_note": "IS Meer / lv: individuāli pārbaudīta LRB-035 rinda 32/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mehl|idx:399|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mjöl",
+    "owner_note": "IS Mehl / lv: individuāli pārbaudīta LRB-035 rinda 33/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|mehr|idx:400|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "meira",
+    "owner_note": "IS mehr / lv: individuāli pārbaudīta LRB-035 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|mein|idx:401|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "minn",
+    "owner_note": "IS mein / lv: individuāli pārbaudīta LRB-035 rinda 35/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mensch|idx:402|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "manneskja",
+    "owner_note": "IS Mensch / lv: individuāli pārbaudīta LRB-035 rinda 36/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Messer|idx:403|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hnífur",
+    "owner_note": "IS Messer / lv: individuāli pārbaudīta LRB-035 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Meter|idx:404|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "metri",
+    "owner_note": "IS Meter / lv: individuāli pārbaudīta LRB-035 rinda 38/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Milch|idx:405|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mjólk",
+    "owner_note": "IS Milch / lv: individuāli pārbaudīta LRB-035 rinda 39/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Million|idx:406|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "milljón",
+    "owner_note": "IS Million / lv: individuāli pārbaudīta LRB-035 rinda 40/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Minute|idx:407|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mínúta",
+    "owner_note": "IS Minute / lv: individuāli pārbaudīta LRB-035 rinda 41/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|mit|idx:408|lv; study.explanation; study.important|TARGET_LANGUAGE_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"með\",\"study.translation\":\"með\",\"study.explanation\":\"[\\\"Meginhugmynd: mit merkir oftast með.\\\",\\\"mit er notað þegar einhver er með annarri manneskju eða gerir eitthvað með hlut.\\\",\\\"Með ferðamáta er mit notað í samböndum eins og mit dem Bus og mit dem Auto.\\\",\\\"Á A1-stigi eru mit dem Bus, mit dem Auto og mit dir mjög algeng orðasambönd.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme mit dir.\\\",\\\"lv\\\":\\\"Ég kem með þér.\\\"},{\\\"de\\\":\\\"Ich fahre mit dem Bus.\\\",\\\"lv\\\":\\\"Ég fer með strætó.\\\"},{\\\"de\\\":\\\"Sie schreibt mit dem Stift.\\\",\\\"lv\\\":\\\"Hún skrifar með penna.\\\"},{\\\"de\\\":\\\"Kommst du mit?\\\",\\\"lv\\\":\\\"Kemurðu með?\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: félagsskapur, tæki eða ferðamáti → mit.\\\"}\",\"study.important\":\"[\\\"mit stýrir þágufalli í þýsku: mit dem Bus, mit der Mutter, mit dir.\\\",\\\"Kommst du mit? merkir „Kemurðu með?“\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"mit\\\",\\\"mit dem Bus\\\",\\\"mit dem Auto\\\",\\\"mit dir\\\"],\\\"purple\\\":[\\\"með\\\"],\\\"green\\\":[\\\"ferðamáta\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"mit dir\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"með þér\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mit dem Bus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"með strætó\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mit dem Stift\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"með penna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mit\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"með\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"mit\\\"],\\\"purple\\\":[\\\"félagsskapur\\\",\\\"ferðamáti\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"mit\\\"],\\\"purple\\\":[\\\"þágufalli\\\"],\\\"yellow\\\":[\\\"dem Bus\\\",\\\"der Mutter\\\",\\\"dir\\\"]},{\\\"blue\\\":[\\\"Kommst du mit\\\"],\\\"purple\\\":[\\\"Kemurðu með\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"mit\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"með\\\",\\\"í fylgd með\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"mit dir\\\",\\\"með þér\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ohne\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"án\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"ohne dich\\\",\\\"án þín\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bei\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hjá\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bei Anna\\\",\\\"hjá Önnu\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"til\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"zum Arzt\\\",\\\"til læknisins\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"mit\\\",\\\"meaning\\\":\\\"með • í fylgd með\\\",\\\"example\\\":\\\"Ich komme mit dir. – Ég kem með þér.\\\"},{\\\"word\\\":\\\"ohne\\\",\\\"meaning\\\":\\\"án\\\",\\\"example\\\":\\\"Ich komme ohne dich. – Ég kem án þín.\\\"},{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"hjá\\\",\\\"example\\\":\\\"Ich bin bei Anna. – Ég er hjá Önnu.\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"til\\\",\\\"example\\\":\\\"Ich gehe zum Arzt. – Ég fer til læknisins.\\\"}]\"}",
+    "owner_note": "IS mit / lv; study.explanation; study.important: individuāli pārbaudīta LRB-035 rinda 42/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|mitnehmen|idx:409|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "taka með",
+    "owner_note": "IS mitnehmen / lv: individuāli pārbaudīta LRB-035 rinda 43/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mittag|idx:410|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hádegi",
+    "owner_note": "IS Mittag / lv: individuāli pārbaudīta LRB-035 rinda 44/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mittagessen|idx:411|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hádegismatur",
+    "owner_note": "IS Mittagessen / lv: individuāli pārbaudīta LRB-035 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Mittwoch|idx:412|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "miðvikudagur",
+    "owner_note": "IS Mittwoch / lv: individuāli pārbaudīta LRB-035 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|mögen|idx:413|lv; study|TARGET_LANGUAGE_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"líka við\",\"study.translation\":\"líka við\",\"study.explanation\":\"[\\\"Meginhugmynd: mögen merkir oftast að líka við einhvern eða eitthvað.\\\",\\\"Ich mag ... er á íslensku oft Mér líkar ... eða Ég kann vel við ....\\\",\\\"möchte er sérstök mynd sem er notuð til að tjá kurteislega ósk: mig langar eða ég vildi.\\\",\\\"Á A1-stigi er „Ich mag das.“ mikilvægt grunnsamband.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich mag Musik.\\\",\\\"lv\\\":\\\"Mér líkar vel við tónlist.\\\"},{\\\"de\\\":\\\"Magst du Kaffee?\\\",\\\"lv\\\":\\\"Finnst þér kaffi gott?\\\"},{\\\"de\\\":\\\"Sie mag Kinder.\\\",\\\"lv\\\":\\\"Henni líkar vel við börn.\\\"},{\\\"de\\\":\\\"Ich möchte einen Kaffee.\\\",\\\"lv\\\":\\\"Mig langar í kaffi.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: Ich mag ... = Mér líkar ... eða Ég kann vel við ....\\\"}\",\"study.important\":\"[\\\"mögen er venjulega ekki notað til að tjá kurteislega ósk; þá er möchte notað.\\\",\\\"Ich mag Kaffee merkir að manni líki kaffi eða finnist það gott.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"mögen\\\",\\\"Ich mag\\\",\\\"möchte\\\"],\\\"purple\\\":[\\\"líka við\\\",\\\"Mér líkar\\\",\\\"mig langar\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"mag\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"líkar vel við\\\"],\\\"yellow\\\":[\\\"tónlist\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Magst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Finnst þér\\\"],\\\"yellow\\\":[\\\"kaffi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mag\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"líkar vel við\\\"],\\\"green\\\":[\\\"börn\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"möchte\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"langar\\\"],\\\"yellow\\\":[\\\"kaffi\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Ich mag\\\"],\\\"purple\\\":[\\\"Mér líkar\\\",\\\"kann vel við\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"mögen\\\",\\\"möchte\\\"],\\\"purple\\\":[\\\"kurteislega ósk\\\"]},{\\\"blue\\\":[\\\"Ich mag Kaffee\\\"],\\\"purple\\\":[\\\"líki\\\",\\\"finnist\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"mögen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"líka við\\\",\\\"kunna vel við\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"mag\\\",\\\"líkar vel við\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"möchte\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"langar í\\\",\\\"vildi\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"möchte\\\",\\\"langar í\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vilja\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"will\\\",\\\"vil fara\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"lieben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"elska\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"liebe\\\",\\\"elska\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"mögen\\\",\\\"meaning\\\":\\\"líka við • kunna vel við\\\",\\\"example\\\":\\\"Ich mag Musik. – Mér líkar vel við tónlist.\\\"},{\\\"word\\\":\\\"möchte\\\",\\\"meaning\\\":\\\"langar í • vildi\\\",\\\"example\\\":\\\"Ich möchte Kaffee. – Mig langar í kaffi.\\\"},{\\\"word\\\":\\\"wollen\\\",\\\"meaning\\\":\\\"vilja\\\",\\\"example\\\":\\\"Ich will nach Hause. – Ég vil fara heim.\\\"},{\\\"word\\\":\\\"lieben\\\",\\\"meaning\\\":\\\"elska\\\",\\\"example\\\":\\\"Ich liebe dich. – Ég elska þig.\\\"}]\"}",
+    "owner_note": "IS mögen / lv; study: individuāli pārbaudīta LRB-035 rinda 47/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Möhre|idx:414|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gulrót",
+    "owner_note": "IS Möhre / lv: individuāli pārbaudīta LRB-035 rinda 48/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Monat|idx:415|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mánuður",
+    "owner_note": "IS Monat / lv: individuāli pārbaudīta LRB-035 rinda 49/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Montag|idx:416|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mánudagur",
+    "owner_note": "IS Montag / lv: individuāli pārbaudīta LRB-035 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  }
+}
