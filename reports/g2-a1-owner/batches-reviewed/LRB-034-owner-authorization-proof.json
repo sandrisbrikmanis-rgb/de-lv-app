@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-034",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T09:26:36.000Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "is": 50
+  },
+  "unique_cards": 50,
+  "scope": "Kartoffel..leider (50 IS rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/is/a1.js",
+  "input_csv_sha256": "c148b1570fad9707e7677832642d4d77b96fbc7a1201cb9147ce47c316601fa1",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-034-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-034-input.csv",
+  "note": "Owner authorization APPROVED. GPT-5.6 Luna linguistic review pending. NOT LRB_034_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
