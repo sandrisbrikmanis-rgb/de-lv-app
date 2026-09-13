@@ -4,7 +4,7 @@
   "scope": "Wasser..Augenfarbe",
   "rows": 50,
   "uniqueCards": 50,
-  "paste_sha256": "5607dc02cd91566053da64743cb25d07e7bf16146401cf4fc7c4d8a318c1a303",
+  "paste_sha256": "8fe50f45da6deb7bafaadd747c6c1921b7b2496fa894526b1b725cafd4cf3ec2",
   "full_card_replacements": 10,
   "full_card_object_ids": [
     "aber|idx:21",
@@ -18,7 +18,7 @@
     "klein|idx:6",
     "sprechen|idx:5"
   ],
-  "classification": "LRB_058_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "classification": "LRB_058_COPY_PASTE_CORRECTED_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "Wasser|idx:2",
@@ -93,7 +93,7 @@
           ],
           "tip": [
             "sprechen = schwätzen",
-            "Benotz sprechen, wann de Kontext bei dës Bedeitung passt."
+            "Benotz sprechen, wann de Kontext dëser Bedeitung entsprécht."
           ],
           "important": [
             "sprechen = schwätzen.",
@@ -186,7 +186,7 @@
           ],
           "tip": [
             "klein = kleng",
-            "Benotz klein, wann de Kontext bei dës Bedeitung passt."
+            "Benotz klein, wann de Kontext dëser Bedeitung entsprécht."
           ],
           "important": [
             "klein bedeit meeschtens kleng.",
@@ -281,7 +281,7 @@
           "id": "a1-an",
           "layout": "standardStudy",
           "translation": "un",
-          "explanation": "\"Haaptiddi: an weist dacks eng Positioun un enger Mauer, enger Fënster, enger Dier, engem Floss, dem Mier oder engem anere Rand beziehungsweise enger Uewerfläch un.\"",
+          "explanation": "Haaptiddi: an weist dacks eng Positioun un enger Mauer, enger Fënster, enger Dier, engem Floss, dem Mier oder engem anere Rand beziehungsweise enger Uewerfläch un.",
           "examples": [
             {
               "de": "an der Wand",
@@ -427,7 +427,7 @@
           "id": "a1-ab",
           "layout": "standardStudy",
           "translation": "vun ... un",
-          "explanation": "\"Haaptiddi: ab weist un, datt eppes bei enger bestëmmter Zäit, Plaz oder engem bestëmmte Punkt ufänkt. Et bedeit dacks „vun ... un“.\"",
+          "explanation": "Haaptiddi: ab weist un, datt eppes bei enger bestëmmter Zäit, Plaz oder engem bestëmmte Punkt ufänkt. Et bedeit dacks „vun ... un“.",
           "examples": [
             {
               "de": "ab heute",
@@ -570,7 +570,7 @@
           "id": "a1-aber",
           "layout": "standardStudy",
           "translation": "awer",
-          "explanation": "\"Haaptiddi: aber féiert e Géigesaz oder en Asproch an. Et bedeit dacks „awer“, „allerdéngs“ oder „trotzdeem“.\"",
+          "explanation": "Haaptiddi: aber féiert e Géigesaz oder en Asproch an. Et bedeit dacks „awer“, „allerdéngs“ oder „trotzdeem“.",
           "examples": [
             {
               "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
@@ -720,7 +720,7 @@
           "id": "a1-also",
           "layout": "standardStudy",
           "translation": "also • deemno",
-          "explanation": "\"Haaptiddi: also zitt eng Konklusioun oder weist e Resultat. Et bedeit „also“ oder „deemno“.\"",
+          "explanation": "Haaptiddi: also zitt eng Konklusioun oder weist e Resultat. Et bedeit „also“ oder „deemno“.",
           "examples": [
             {
               "de": "Es regnet, also bleibe ich zu Hause.",
@@ -1160,7 +1160,7 @@
           "id": "a1-auf",
           "layout": "standardStudy",
           "translation": "op",
-          "explanation": "\"Haaptiddi: auf weist eng Richtung op eng Plaz oder op d'Uewerfläch vun eppes un.\"",
+          "explanation": "Haaptiddi: auf weist eng Richtung op eng Plaz oder op d'Uewerfläch vun eppes un.",
           "examples": [
             {
               "de": "Ich stelle das Buch auf den Tisch.",
@@ -1307,7 +1307,7 @@
           "id": "a1-aus",
           "layout": "standardStudy",
           "translation": "aus",
-          "explanation": "\"Haaptiddi: aus weist, datt eppes aus engem Banneraum kënnt, erausgeet oder seng Hierkonft ugëtt.\"",
+          "explanation": "Haaptiddi: aus weist, datt eppes aus engem Banneraum kënnt, erausgeet oder seng Hierkonft ugëtt.",
           "examples": [
             {
               "de": "Ich komme aus Deutschland.",
@@ -1418,8 +1418,8 @@
           "explanation": [
             "Haaptiddi: aufs ass d’Kontraktioun vun der däitscher Präpositioun auf an dem Artikel das.",
             "Déi voll Form ass auf das. Si gëtt mat Neutrum-Substantiver benotzt, fir eng Beweegung op eng Uewerfläch, eng Plaz oder en Evenement unzeweisen.",
-            "aufs beäntwert déi däitsch Fro wohin? an net wo?.",
-            "Am normalen Däitsch gëtt aufs meeschtens éischter benotzt wéi déi voll Form auf das."
+            "aufs beäntwert am Däitschen d'Fro „wohin?“ an net „wo?“",
+            "Am normalen Däitsch gëtt d’Kontraktioun aufs dacks benotzt."
           ],
           "examples": [
             {
@@ -1478,7 +1478,7 @@
             },
             {
               "word": "zum",
-              "meaning": "bei eng Persoun oder Institutioun",
+              "meaning": "bei enger Persoun oder enger Institutioun",
               "example": "zum Arzt – bei den Dokter"
             }
           ],

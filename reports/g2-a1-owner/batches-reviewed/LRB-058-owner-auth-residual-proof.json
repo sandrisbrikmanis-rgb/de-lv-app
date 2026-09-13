@@ -10,7 +10,7 @@
   "nelabot": 3,
   "pending": 0,
   "unique_cards": 50,
-  "lb_rows": 0,
+  "lb_rows": 50,
   "gates": {
     "ROWS": "50/50",
     "PENDING": 0,
@@ -25,5 +25,5 @@
   },
   "failures": [],
   "verdict": "LRB_058_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
-  "updatedAt": "2026-09-13T17:25:59.405Z"
+  "updatedAt": "2026-09-13T17:43:08.822Z"
 }

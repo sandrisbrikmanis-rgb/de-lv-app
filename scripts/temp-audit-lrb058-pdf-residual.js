@@ -34,6 +34,30 @@ const NESTED_BY_LANG = {
   lb: buildNestedMap(loadA1("lb")),
 };
 
+const DE_NESTED = buildNestedMap(
+  (() => {
+    const ctx = { window: {} };
+    vm.runInNewContext(
+      fs.readFileSync(path.join(__dirname, "../data/a1.js"), "utf8"),
+      ctx
+    );
+    return ctx.window.A1_WORDS;
+  })()
+);
+
+const COMPOSITE_REPAIR_CARDS = new Set([
+  "lb:ab",
+  "lb:aber",
+  "lb:also",
+  "lb:an",
+  "lb:auch",
+  "lb:auf",
+  "lb:aufs",
+  "lb:aus",
+  "lb:klein",
+  "lb:sprechen",
+]);
+
 const BATCH = "LRB-058";
 const EXPECTED_ROWS = 50;
 const EXPECTED_LABOT = 47;
@@ -136,7 +160,11 @@ function highlightMatchesCompareWord(term, wordField, sideText) {
 function parseMaybeJson(v) {
   if (typeof v !== "string") return v;
   const t = v.trim();
-  if ((t.startsWith("[") && t.endsWith("]")) || (t.startsWith("{") && t.endsWith("}"))) {
+  if (
+    (t.startsWith("[") && t.endsWith("]")) ||
+    (t.startsWith("{") && t.endsWith("}")) ||
+    (t.startsWith('"') && t.endsWith('"'))
+  ) {
     try {
       return JSON.parse(t);
     } catch {
@@ -377,21 +405,73 @@ function nestedForCard(lang, cardKey) {
   );
 }
 
-function validateMergedCard(lang, cardKey, merged) {
+function nestedDeForCard(cardKey) {
+  const resolved = LB_CARD_ALIASES[cardKey] || cardKey;
+  return (
+    DE_NESTED[resolved] ||
+    DE_NESTED[cardKey] ||
+    DE_NESTED[`a1-${resolved}`] ||
+    DE_NESTED[`a1-${cardKey}`] ||
+    Object.values(DE_NESTED).find(
+      (entry) =>
+        entry?.study?.id === resolved ||
+        entry?.study?.id === cardKey ||
+        entry?.study?.id === `a1-${resolved}` ||
+        entry?.study?.id === `a1-${cardKey}`
+    )
+  );
+}
+
+function asExampleArray(v) {
+  if (Array.isArray(v)) return v;
+  if (typeof v === "string") return parseMaybeJson(v);
+  return [];
+}
+
+function validateLbLeaks(allText) {
+  const failures = [];
+  if (LV_LEAK.test(allText)) failures.push({ type: "LV_LEAK_IN_LB" });
+  if (ET_LEAK.test(allText)) failures.push({ type: "ET_LEAK_IN_LB" });
+  if (HU_IN_IS.test(allText)) failures.push({ type: "HU_LEAK_IN_LB" });
+  if (NO_IN_IS.test(allText)) failures.push({ type: "NO_LEAK_IN_LB" });
+  if (/CAA\s*-/.test(allText)) failures.push({ type: "CAA_PLACEHOLDER_RESIDUE" });
+  if (/QShortcut/.test(allText)) failures.push({ type: "QSHORTCUT_RESIDUE" });
+  return failures;
+}
+
+function validateDeExampleAlignment(cardKey, merged) {
+  const failures = [];
+  const deBase = nestedDeForCard(cardKey);
+  const deExamples = asExampleArray(deBase?.study?.examples);
+  const mergedExamples = asExampleArray(merged.study?.examples);
+  if (!deExamples.length) return failures;
+  for (let i = 0; i < deExamples.length; i += 1) {
+    const expected = deExamples[i]?.de || "";
+    const got = mergedExamples[i]?.de || "";
+    if (expected !== got) {
+      failures.push({
+        type: "DE_TARGET_ALIGNMENT_VIOLATION",
+        card: cardKey,
+        index: i,
+        expected,
+        got,
+      });
+    }
+  }
+  return failures;
+}
+
+function validateScalarCard(lang, cardKey, merged) {
   const failures = [];
   const allText = flattenStrings(merged).join(" ");
-  if (lang === "hu") {
-    if (LV_LEAK.test(allText)) failures.push({ type: "LV_LEAK_IN_HU" });
-    if (HR_IN_HU.test(allText)) failures.push({ type: "HR_LEAK_IN_HU" });
-    if (/[\u0370-\u03FF]/.test(allText)) failures.push({ type: "GR_LEAK_IN_HU" });
-    if (/[\u0400-\u04FF]/.test(allText)) failures.push({ type: "CYR_LEAK_IN_HU" });
-  }
-  if (lang === "lb") {
-    if (LV_LEAK.test(allText)) failures.push({ type: "LV_LEAK_IN_LB" });
-    if (ET_LEAK.test(allText)) failures.push({ type: "ET_LEAK_IN_LB" });
-    if (HU_IN_IS.test(allText)) failures.push({ type: "HU_LEAK_IN_LB" });
-    if (NO_IN_IS.test(allText)) failures.push({ type: "NO_LEAK_IN_LB" });
-  }
+  if (lang === "lb") failures.push(...validateLbLeaks(allText));
+  return failures;
+}
+
+function validateCompositeCard(lang, cardKey, merged) {
+  const failures = [];
+  const allText = flattenStrings(merged).join(" ");
+  if (lang === "lb") failures.push(...validateLbLeaks(allText));
   failures.push(
     ...validateSectionAccents(merged.study || {}, merged.study?.sectionAccents, cardKey)
   );
@@ -405,6 +485,11 @@ function validateMergedCard(lang, cardKey, merged) {
   );
   for (const field of ["examples", "tip", "important", "sectionAccents"]) {
     if (!merged.study?.[field]) failures.push({ type: "INCOMPLETE_COMPOSITE", field });
+  }
+  failures.push(...validateDeExampleAlignment(cardKey, merged));
+  const expl = merged.study?.explanation;
+  if (typeof expl === "string" && /^".*"$/.test(expl.trim())) {
+    failures.push({ type: "DOUBLE_QUOTED_EXPLANATION", card: cardKey });
   }
   return failures;
 }
@@ -485,6 +570,7 @@ for (const row of rows) {
 }
 
 const validatedCards = new Set();
+const compositeValidated = new Set();
 for (const [key, { lang, card }] of UNIQUE_CARDS) {
   if (NELABOT_CARDS.has(key)) {
     validatedCards.add(key);
@@ -503,22 +589,24 @@ for (const [key, { lang, card }] of UNIQUE_CARDS) {
     continue;
   }
   const merged = applyPatches(nestedBase, composite);
-  const failures = validateMergedCard(lang, card, merged).filter(
-    (f) =>
-      !/SECTION_ACCENT_/i.test(f.type) &&
-      f.type !== "INCOMPLETE_COMPOSITE"
-  );
+  const isCompositeRepair = COMPOSITE_REPAIR_CARDS.has(key);
+  const failures = isCompositeRepair
+    ? validateCompositeCard(lang, card, merged)
+    : validateScalarCard(lang, card, merged);
   if (failures.length) {
     cardMergeFailures += failures.length;
     issues.push({ type: "MERGED_CARD_FAIL", card, lang, failures: failures.slice(0, 5) });
     for (const f of failures) {
-      if (/LEAK/i.test(f.type)) {
-        wrongLanguage++;
-      }
+      if (/LEAK|CAA_|QSHORTCUT/i.test(f.type)) wrongLanguage++;
+      if (f.type === "SECTION_ACCENT_MISMATCH") sectionAccentMismatches++;
+      if (/SECTION_ACCENT_.*SEMANTIC/i.test(f.type)) sectionAccentSemanticViolations++;
     }
   }
+  if (isCompositeRepair && failures.length === 0) compositeValidated.add(key);
   validatedCards.add(key);
 }
+
+const fullCompositePass = compositeValidated.size === COMPOSITE_REPAIR_CARDS.size;
 
 const pass =
   issues.length === 0 &&
@@ -530,7 +618,8 @@ const pass =
   cardMergeFailures === 0 &&
   sectionAccentMismatches === 0 &&
   sectionAccentSemanticViolations === 0 &&
-  validatedCards.size === EXPECTED_UNIQUE_CARDS;
+  validatedCards.size === EXPECTED_UNIQUE_CARDS &&
+  fullCompositePass;
 
 const proof = {
   batch_id: BATCH,
@@ -547,7 +636,7 @@ const proof = {
   nelabot,
   pending,
   unique_cards: UNIQUE_CARDS.size,
-  lb_rows: rows.filter((r) => r.languages === "es").length,
+  lb_rows: rows.filter((r) => r.languages === "lb").length,
   gates: {
     ROWS: `${rows.length}/${EXPECTED_ROWS}`,
     PENDING: pending,
@@ -560,12 +649,12 @@ const proof = {
     merged_card_failures: cardMergeFailures,
     section_accent_mismatches: sectionAccentMismatches,
     section_accent_semantic_violations: sectionAccentSemanticViolations,
-    full_composite_completeness: cardMergeFailures === 0 ? "PASS" : "FAIL",
+    full_composite_completeness: fullCompositePass && cardMergeFailures === 0 ? "PASS" : "FAIL",
     anti_bulk: "PASS",
   },
   productionSource: "data/lb/a1.js",
   languages: { lb: 50 },
-  composite_repairs: [...UNIQUE_CARDS.keys()].sort(),
+  composite_repairs: [...COMPOSITE_REPAIR_CARDS].sort(),
   failures: issues,
   verdict: pass
     ? "LRB_058_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW"

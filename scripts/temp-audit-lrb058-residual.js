@@ -226,7 +226,7 @@ const proof = {
   nelabot,
   pending,
   unique_cards: uniqueCards.size,
-  lb_rows: rows.filter((r) => r.languages === "es").length,
+  lb_rows: rows.filter((r) => r.languages === "lb").length,
   gates: {
     ROWS: `${rows.length}/${EXPECTED_ROWS}`,
     PENDING: pending,

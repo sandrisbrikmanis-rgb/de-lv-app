@@ -11,7 +11,7 @@ const { getAt, setAt } = require("./lib/da-a1-owner-path");
 
 const BATCH = "LRB-058";
 const PASTE_PATH = process.argv[2] || path.join(ROOT, "scripts/data/g2-a1-owner-pending/LRB-058-decisions-COPY-PASTE.json");
-const EXPECTED_PASTE_SHA = "5607dc02cd91566053da64743cb25d07e7bf16146401cf4fc7c4d8a318c1a303";
+const EXPECTED_PASTE_SHA = "8fe50f45da6deb7bafaadd747c6c1921b7b2496fa894526b1b725cafd4cf3ec2";
 
 function loadA1(lang) {
   const ctx = { window: {} };
@@ -22,7 +22,11 @@ function loadA1(lang) {
 function parseMaybeJson(v) {
   if (typeof v !== "string") return v;
   const t = v.trim();
-  if ((t.startsWith("[") && t.endsWith("]")) || (t.startsWith("{") && t.endsWith("}"))) {
+  if (
+    (t.startsWith("[") && t.endsWith("]")) ||
+    (t.startsWith("{") && t.endsWith("}")) ||
+    (t.startsWith('"') && t.endsWith('"'))
+  ) {
     try {
       return JSON.parse(t);
     } catch {
@@ -185,7 +189,7 @@ function main() {
     paste_sha256: pasteSha,
     full_card_replacements: fullCardIds.size,
     full_card_object_ids: [...fullCardIds].sort(),
-    classification: "LRB_058_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+    classification: "LRB_058_COPY_PASTE_CORRECTED_AWAITING_GALA_VERDICT",
     cards: galaCards,
   };
   const galaPath = path.join(ROOT, "reports/g2-a1-owner/batches-reviewed", `${BATCH}-gala-cards.json`);
