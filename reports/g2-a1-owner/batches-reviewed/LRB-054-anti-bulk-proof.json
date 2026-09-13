@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "classification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "baseline_sha256": "10bb68d2e8531513d966fa45b0211f86b7a21af633d927d0b1372df4ee4dae98",
+  "output_sha256": "1f62270481254978cf4287bd3926edecd3782e5c66b99f576b364f9fbb415cac",
+  "manifest_sha256": "0decaed45300064623adc014680d8d4c487284dc53a45b4b5be9a2519edcdae9",
+  "row_count": 50,
+  "prefix_only_nelabot": 0,
+  "single_rule_labot_pattern": false,
+  "single_rule_name": "CUSTOM:e4b96268",
+  "reproducible_bulk_transform": false,
+  "unproven_provenance": 0,
+  "individual_linguistic": 50,
+  "decided_without_note": 0,
+  "duplicate_note_collisions": 0,
+  "manifest_independence": "PASS",
+  "labot_without_changed_owner_new": 0,
+  "nelabot_with_owner_new": 0
+}
