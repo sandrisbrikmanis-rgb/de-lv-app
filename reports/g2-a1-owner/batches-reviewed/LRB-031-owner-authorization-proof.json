@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-031",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T08:40:00.000Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "is": 50
+  },
+  "unique_cards": 50,
+  "scope": "Blume..er (50 IS rows, 50 unique cards: 4 study composite + 46 scalar lv) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/is/a1.js",
+  "input_csv_sha256": "d7479e27c030e32118c5afb59f3fd8ccc050d176329cf310cb425a3a45487a4d",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-031-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-031-input.csv",
+  "note": "Owner authorization APPROVED. GPT-5.6 Luna linguistic review pending. NOT LRB_031_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
