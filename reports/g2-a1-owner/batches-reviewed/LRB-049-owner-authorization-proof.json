@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-049",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T13:35:14.767Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "unique_cards": 50,
+  "scope": "Ostern..schmutzig (50 FI rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/fi/a1.js",
+  "input_csv_sha256": "fcf463f8d174cde06b67e2342620587e0783bc710ef4c7d8a45209d7bf40c202",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-049-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-049-input.csv",
+  "note": "Owner authorization APPROVED. FI batch 8 (post LRB-048). GPT-5.6 Luna linguistic review pending. NOT LRB_049_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
