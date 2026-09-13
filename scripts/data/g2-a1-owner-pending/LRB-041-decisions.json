@@ -1,0 +1,68 @@
+{
+  "g2/a1/is|Wasser|idx:2|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "vatn",
+    "owner_note": "IS Wasser / lv: individuāli pārbaudīta LRB-041 rinda 1/11; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sprechen|idx:5|lv and study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"tala\",\"study.translation\":\"tala\",\"study.explanation\":\"[\\\"Meginhugmynd: sprechen merkir að tala, ræða saman eða nota tungumál.\\\",\\\"sprechen merkir fyrst og fremst að tala eða eiga samtal.\\\",\\\"Sögnin er oft notuð með tungumáli eða umræðuefni.\\\",\\\"sprechen lýsir talferlinu en sagen því að segja tiltekin orð.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich spreche Deutsch.\\\",\\\"lv\\\":\\\"Ég tala þýsku.\\\"},{\\\"de\\\":\\\"Wir sprechen über die Arbeit.\\\",\\\"lv\\\":\\\"Við tölum um vinnuna.\\\"},{\\\"de\\\":\\\"Sie spricht mit ihrer Lehrerin.\\\",\\\"lv\\\":\\\"Hún talar við kennarann sinn.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sprechen\\\",\\\"meaning\\\":\\\"tala (ferli, tungumál)\\\",\\\"example\\\":\\\"Wir sprechen über die Arbeit. – Við tölum um vinnuna.\\\"},{\\\"word\\\":\\\"sagen\\\",\\\"meaning\\\":\\\"segja (tiltekin orð)\\\",\\\"example\\\":\\\"Sag mir die Wahrheit. – Segðu mér sannleikann.\\\"}]\",\"study.tip\":\"[\\\"sprechen = tala\\\",\\\"Notaðu sprechen þegar átt er við tal, samtal eða tungumál.\\\"]\",\"study.important\":\"[\\\"sprechen = tala.\\\",\\\"Sögnin getur merkt að tala, ræða saman eða nota tungumál.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"sprechen\\\",\\\"sagen\\\"],\\\"purple\\\":[\\\"tala\\\",\\\"ræða saman\\\",\\\"tungumál\\\"],\\\"red\\\":[\\\"segja\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"spreche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"tala\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sprechen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"tölum\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"spricht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"talar\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"tala\\\"]},{\\\"green\\\":[\\\"sprechen\\\"],\\\"purple\\\":[\\\"tal\\\",\\\"samtal\\\",\\\"tungumál\\\"]}],\\\"important\\\":[{\\\"green\\\":[\\\"sprechen\\\"],\\\"purple\\\":[\\\"tala\\\"]},{\\\"purple\\\":[\\\"tala\\\",\\\"ræða saman\\\",\\\"tungumál\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sprechen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tala\\\",\\\"tungumál\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"sagen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"segja\\\",\\\"tiltekin orð\\\"]},\\\"example\\\":{}}]}\"}",
+    "owner_note": "IS sprechen / lv and study: individuāli pārbaudīta LRB-041 rinda 2/11; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schwimmbad|idx:66|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sundlaug",
+    "owner_note": "IS Schwimmbad / lv: individuāli pārbaudīta LRB-041 rinda 3/11; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sauna|idx:67|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gufubað",
+    "owner_note": "IS Sauna / lv: individuāli pārbaudīta LRB-041 rinda 4/11; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Wochenende|idx:181|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "helgi",
+    "owner_note": "IS Wochenende / lv: individuāli pārbaudīta LRB-041 rinda 5/11; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|wissen|idx:311|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vita\",\"study.translation\":\"vita\",\"study.explanation\":\"[\\\"Meginhugmynd: wissen merkir að vita staðreynd, svar eða upplýsingar.\\\",\\\"wissen er notað þegar um upplýsingar eða staðreyndir er að ræða.\\\",\\\"Sögnin kemur oft fyrir með svörum, gögnum og aukasetningum.\\\",\\\"wissen er ekki það sama og kennen: wissen = vita, kennen = þekkja.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich weiß, wo er wohnt.\\\",\\\"lv\\\":\\\"Ég veit hvar hann býr.\\\"},{\\\"de\\\":\\\"Woher wissen Sie das?\\\",\\\"lv\\\":\\\"Hvaðan veistu það?\\\"},{\\\"de\\\":\\\"Ich weiß die Antwort.\\\",\\\"lv\\\":\\\"Ég veit svarið.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"wissen\\\",\\\"meaning\\\":\\\"vita (staðreynd, upplýsingar)\\\",\\\"example\\\":\\\"Ich weiß, wo er wohnt. – Ég veit hvar hann býr.\\\"},{\\\"word\\\":\\\"kennen\\\",\\\"meaning\\\":\\\"þekkja (manneskju, stað eða hlut)\\\",\\\"example\\\":\\\"Ich kenne die Stadt. – Ég þekki borgina.\\\"}]\",\"study.tip\":\"[\\\"wissen = vita\\\",\\\"Notaðu wissen um staðreynd, svar eða upplýsingar.\\\"]\",\"study.important\":\"[\\\"wissen = vita staðreynd.\\\",\\\"wissen merkir vita, ekki þekkja.\\\",\\\"Notaðu wissen um staðreynd, svar eða upplýsingar.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"wissen\\\",\\\"kennen\\\"],\\\"purple\\\":[\\\"vita\\\",\\\"þekkja\\\"],\\\"blue\\\":[\\\"staðreynd\\\",\\\"upplýsingar\\\"]},\\\"examples\\\":[{\\\"de\\\":{},\\\"lv\\\":{\\\"purple\\\":[\\\"veit\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"wissen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"veistu\\\"]}},{\\\"de\\\":{},\\\"lv\\\":{\\\"purple\\\":[\\\"veit\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"vita\\\"]},{\\\"green\\\":[\\\"wissen\\\"],\\\"purple\\\":[\\\"staðreynd\\\",\\\"svar\\\",\\\"upplýsingar\\\"]}],\\\"important\\\":[{\\\"green\\\":[\\\"wissen\\\"],\\\"purple\\\":[\\\"vita staðreynd\\\"]},{\\\"green\\\":[\\\"wissen\\\"],\\\"purple\\\":[\\\"vita\\\"],\\\"red\\\":[\\\"þekkja\\\"]},{\\\"green\\\":[\\\"wissen\\\"],\\\"purple\\\":[\\\"staðreynd\\\",\\\"svar\\\",\\\"upplýsingar\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"wissen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vita\\\",\\\"staðreynd\\\",\\\"upplýsingar\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"kennen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"þekkja\\\",\\\"manneskju\\\",\\\"stað\\\",\\\"hlut\\\"]},\\\"example\\\":{}}]}\"}",
+    "owner_note": "IS wissen / lv, study: individuāli pārbaudīta LRB-041 rinda 6/11; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|zwölfte|idx:686|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tólfti",
+    "owner_note": "IS zwölfte / lv: individuāli pārbaudīta LRB-041 rinda 7/11; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Urlaub|idx:695|lv; study.translation; study.explanation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"orlof\",\"study.translation\":\"orlof\",\"study.explanation\":\"[\\\"Meginhugmynd: der Urlaub merkir orlof eða frí frá vinnu og er í þýsku yfirleitt notað í eintölu.\\\",\\\"der Urlaub vísar fyrst og fremst til frítíma frá vinnu.\\\",\\\"Í þessari merkingu er þýska orðið notað í eintölu.\\\",\\\"Algeng sambönd eru im Urlaub sein og Urlaub machen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Mein Vater ist im Urlaub.\\\",\\\"lv\\\":\\\"Faðir minn er í orlofi.\\\"},{\\\"de\\\":\\\"Mein Vater ist im Urlaub.\\\",\\\"lv\\\":\\\"Faðir minn er í orlofi.\\\"},{\\\"de\\\":\\\"Nächste Woche habe ich Urlaub.\\\",\\\"lv\\\":\\\"Ég verð í orlofi í næstu viku.\\\"},{\\\"de\\\":\\\"Wir machen Urlaub in Spanien.\\\",\\\"lv\\\":\\\"Við verðum í orlofi á Spáni.\\\"},{\\\"de\\\":\\\"im Urlaub\\\",\\\"lv\\\":\\\"í orlofi.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"der Urlaub\\\",\\\"meaning\\\":\\\"orlof frá vinnu (þýska: eintala)\\\",\\\"example\\\":\\\"Mein Vater ist im Urlaub. – Faðir minn er í orlofi.\\\"},{\\\"word\\\":\\\"die Ferien\\\",\\\"meaning\\\":\\\"skólafrí (þýska: fleirtala)\\\",\\\"example\\\":\\\"Die Kinder haben Ferien. – Börnin eru í skólafríi.\\\"}]\",\"study.tip\":\"[\\\"der Urlaub er notað um orlof eða frí frá vinnu og stendur yfirleitt í eintölu.\\\",\\\"Notaðu der Urlaub þegar átt er við frí frá vinnu.\\\"]\",\"study.important\":\"[\\\"Rangt á A1-stigi: die Ferie, der Urlaube.\\\",\\\"Algeng sambönd: im Urlaub sein og Urlaub machen.\\\",\\\"Rangt: die Urlaube → Rétt: der Urlaub.\\\",\\\"Vinna: der Urlaub (eintala); skóli: die Ferien (fleirtala).\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"der Urlaub\\\",\\\"Urlaub\\\",\\\"im Urlaub sein\\\",\\\"Urlaub machen\\\"],\\\"purple\\\":[\\\"orlof\\\",\\\"frí frá vinnu\\\"],\\\"yellow\\\":[\\\"eintölu\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"urlaub\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"í orlofi\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"urlaub\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"í orlofi\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"urlaub\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"í orlofi\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"urlaub\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"í orlofi\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"urlaub\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"í orlofi\\\"]}}],\\\"tip\\\":[{\\\"green\\\":[\\\"der Urlaub\\\"],\\\"purple\\\":[\\\"orlof\\\",\\\"frí frá vinnu\\\"],\\\"yellow\\\":[\\\"eintölu\\\"]},{\\\"green\\\":[\\\"der Urlaub\\\"],\\\"purple\\\":[\\\"frí frá vinnu\\\"]}],\\\"important\\\":[{\\\"red\\\":[\\\"die Ferie\\\",\\\"der Urlaube\\\"]},{\\\"green\\\":[\\\"im Urlaub sein\\\",\\\"Urlaub machen\\\"]},{\\\"red\\\":[\\\"die Urlaube\\\"],\\\"green\\\":[\\\"der Urlaub\\\"]},{\\\"green\\\":[\\\"der Urlaub\\\",\\\"die Ferien\\\"],\\\"purple\\\":[\\\"Vinna\\\",\\\"skóli\\\"],\\\"yellow\\\":[\\\"eintala\\\",\\\"fleirtala\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"der Urlaub\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"orlof frá vinnu\\\",\\\"eintala\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"die Ferien\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"skólafrí\\\",\\\"fleirtala\\\"]},\\\"example\\\":{}}]}\"}",
+    "owner_note": "IS Urlaub / lv; study.translation; study.explanation; study.examples[].lv: individuāli pārbaudīta LRB-041 rinda 8/11; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Stadt|idx:696|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "borg",
+    "owner_note": "IS Stadt / lv: individuāli pārbaudīta LRB-041 rinda 9/11; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Staat|idx:697|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ríki",
+    "owner_note": "IS Staat / lv: individuāli pārbaudīta LRB-041 rinda 10/11; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "til hægri • hægri",
+    "owner_note": "IS rechts / a1.card.rechts.native: individuāli pārbaudīta LRB-041 rinda 11/11; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  }
+}

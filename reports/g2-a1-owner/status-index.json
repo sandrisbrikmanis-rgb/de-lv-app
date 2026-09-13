@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T11:25:00.000Z",
+  "updatedAt": "2026-09-13T11:30:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -95,7 +95,7 @@
     "batchSize": 50,
     "batchesTotal": 103,
     "batchesReviewed": 41,
-    "batchesAntiBulkPass": 40,
+    "batchesAntiBulkPass": 41,
     "batchesSpotCheckPass": 40,
     "linguisticVerdicts": {
       "LRB-001": {
@@ -994,6 +994,12 @@
       "LRB-041": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
+        "labot": 11,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "pending-gpt-5.6-luna",
         "languages": {
@@ -1001,23 +1007,34 @@
         },
         "uniqueCards": 11,
         "rowCount": 11,
+        "compositeRepairs": 3,
         "batchNote": "Final IS mop-up: all 11 remaining unused IS escalations from 7737 pool",
         "productionSource": "data/is/a1.js",
-        "inputPath": "reports/g2-a1-owner/batches-pending/LRB-041-input.csv",
-        "manifestPath": "reports/g2-a1-owner/manifests/LRB-041-start.json",
-        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-owner-authorization-proof.json"
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-041-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-residual-wrong-language-proof.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-owner-authorization-proof.json",
+        "pasteRepairs": "GPT-5.6 Luna copy/paste (11 LABOT / 11 unique IS findings: 3 composite + 8 scalar) — final IS mop-up — pending ChatGPT PDF re-review",
+        "pasteSha256": "bb3877518b5f8e43488ef4d6bb8b6e35fe1e3c111b8ae1b7c5410dc6f37d57d1"
       }
     },
     "lastBatch": {
       "batch_id": "LRB-041",
+      "labot": 11,
+      "nelabot": 0,
+      "pending": 0,
+      "antiBulkPass": true,
+      "residualAuditPass": true,
+      "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
       "rowCount": 11,
       "uniqueCards": 11,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-041-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-041-start.json",
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-041-decisions.csv",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-anti-bulk-proof.json",
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-residual-wrong-language-proof.json",
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-041-owner-authorization-proof.json"
     }
   },

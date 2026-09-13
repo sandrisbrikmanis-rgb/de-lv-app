@@ -1,0 +1,50 @@
+{
+  "batch_id": "LRB-041",
+  "classification": "LRB_041_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 11,
+  "labot": 11,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 11,
+  "is_rows": 11,
+  "gates": {
+    "ROWS": "11/11",
+    "PENDING": 0,
+    "LABOT": "11/11",
+    "NELABOT": 0,
+    "IS_ROWS": "11/11",
+    "UNIQUE_CARDS": "11/11",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "section_accent_mismatches": 0,
+    "section_accent_semantic_violations": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "productionSource": "data/is/a1.js",
+  "languages": {
+    "is": 11
+  },
+  "composite_repairs": [
+    "is:Sauna",
+    "is:Schwimmbad",
+    "is:Staat",
+    "is:Stadt",
+    "is:Urlaub",
+    "is:Wasser",
+    "is:Wochenende",
+    "is:rechts",
+    "is:sprechen",
+    "is:wissen",
+    "is:zwölfte"
+  ],
+  "failures": [],
+  "verdict": "LRB_041_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-13T11:25:52.916Z"
+}
