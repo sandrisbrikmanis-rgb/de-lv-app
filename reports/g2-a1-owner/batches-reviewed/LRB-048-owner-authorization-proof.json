@@ -1,0 +1,43 @@
+{
+  "batch_id": "LRB-048",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T13:28:00.000Z",
+  "linguisticVerdict": "LRB_048_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 47,
+  "nelabot": 3,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReauditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "paste_file": "LRB-048-decisions-COPY-PASTE.json",
+  "paste_sha256": "5249c78a096bac6ce8757bd32fabc9262815584b9a3ef0059b5f8798d23a11b1",
+  "languages": {
+    "fi": 50
+  },
+  "unique_cards": 50,
+  "fi_composite_repairs": 11,
+  "fi_scalar_repairs": 36,
+  "scope": "morgen..Orange (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+  "productionSource": "data/fi/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "47/47",
+    "NELABOT": 3,
+    "FI_ROWS": "50/50",
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-048-residual-wrong-language-proof.json",
+  "note": "Gala verdict LRB_048_FULL_50_50_LINGUISTIC_REVIEW_PASS. 47 LABOT / 3 NELABOT / 0 PENDING (Mund, nein, nicht). DE/production/Crowdin/ingest/apply unchanged."
+}
