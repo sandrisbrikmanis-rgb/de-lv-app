@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-092",
-  "phase": "OWNER_APPROVED_OVERRIDES_APPLIED",
+  "phase": "GALA_PASS",
   "input_csv_sha256": "b5b54d5e6ea2951418e1e77a44b0e55b489f7c7f70b34e76724110bff01e6960",
   "input_row_count": 50,
   "finding_stable_ids": [
@@ -18,9 +18,9 @@
     "g2/a1/sk|Mal|idx:390|translation; study.tip; study.sectionAccents|TRANSLATION_ERROR|gpt-5.6-luna",
     "g2/a1/sk|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
     "g2/a1/sk|malen|idx:391|lv|DUPLICATION|gpt-5.6-luna",
-    "g2/a1/sk|müssen|idx:423|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/sk|m\u00fcssen|idx:423|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
     "g2/a1/sk|nach|idx:426|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
-    "g2/a1/sk|natürlich|idx:433|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
+    "g2/a1/sk|nat\u00fcrlich|idx:433|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
     "g2/a1/sk|neben|idx:434|lv|TRANSLATION_ERROR|gpt-5.6-luna",
     "g2/a1/sk|nehmen|idx:435|lv, study|WRONG_LANGUAGE|gpt-5.6-luna",
     "g2/a1/sk|nennen|idx:437|lv|TRANSLATION_ERROR|gpt-5.6-luna",
@@ -39,7 +39,7 @@
     "g2/a1/sk|oben|idx:458|lv|TRANSLATION_ERROR|gpt-5.6-luna",
     "g2/a1/sk|Obst|idx:693|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna",
     "g2/a1/sk|oder|idx:459|lv, study.translation, study.explanation, study.tip, study.important|LANGUAGE_MISMATCH|gpt-5.6-luna",
-    "g2/a1/sk|öffnen|idx:460|lv|TRANSLATION_ERROR|gpt-5.6-luna",
+    "g2/a1/sk|\u00f6ffnen|idx:460|lv|TRANSLATION_ERROR|gpt-5.6-luna",
     "g2/a1/sk|Ohr|idx:463|lv|TRANSLATION_ERROR|gpt-5.6-luna",
     "g2/a1/sk|passen|idx:471|lv, study.translation, study.explanation, study.comparison|LANGUAGE_MISMATCH|gpt-5.6-luna",
     "g2/a1/sk|probieren|idx:482|lv and study LV fields|WRONG_TARGET_LANGUAGE|gpt-5.6-luna",
@@ -62,7 +62,11 @@
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "overrides_sha256": "ac474c64eb79afccbb83a0e06653fd38af8f0e23927bd322c446f58c477deb5d",
-  "gala_pass": false,
-  "updated_at": "2026-09-13T09:40:54.104Z",
-  "source_commit": "fc8a099e22bbab23d0aaf4a34faa70444a499b2a"
+  "gala_pass": true,
+  "updated_at": "2026-09-13T09:50:13.365Z",
+  "source_commit": "84672c3b383a465cca2bb344e8198da5c6aaccc7",
+  "linguistic_verdict": "LRB_092_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "verdict": "LRB_092_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "verified_commit": "84672c3b383a465cca2bb344e8198da5c6aaccc7",
+  "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-092/LRB-092-owner-approved-overrides.json"
 }

@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-092",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T09:40:54.104Z",
-  "sourceCommit": "fc8a099e22bbab23d0aaf4a34faa70444a499b2a",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-13T09:50:13.365Z",
+  "sourceCommit": "84672c3b383a465cca2bb344e8198da5c6aaccc7",
   "branch": "cursor/lrb-092-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -68,8 +68,12 @@
     "overrides": "reports/g2-a1-owner/batches-owner-review/LRB-092/LRB-092-owner-approved-overrides.json",
     "manifest": "reports/g2-a1-owner/manifests/LRB-092-start.json",
     "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
-    "input": "reports/g2-a1-owner/batches-pending/LRB-092-input.csv"
+    "input": "reports/g2-a1-owner/batches-pending/LRB-092-input.csv",
+    "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-092-owner-authorization-proof.json"
   },
-  "note": "OWNER-approved overrides applied (copy/paste). 50 LABOT / 0 NELABOT / 0 PENDING (SK 50). DE/production/Crowdin/ingest/apply unchanged. Pending independent post-review.",
-  "galaPass": false
+  "note": "Gala verdict LRB_092_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 84672c3b383a465cca2bb344e8198da5c6aaccc7 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50). DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
+  "verifiedCommit": "84672c3b383a465cca2bb344e8198da5c6aaccc7",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_092_FULL_50_50_LINGUISTIC_REVIEW_PASS"
 }
