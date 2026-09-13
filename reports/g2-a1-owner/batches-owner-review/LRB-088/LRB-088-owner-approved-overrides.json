@@ -1,6 +1,6 @@
 {
   "batchId": "LRB-088",
-  "sourceCommit": "5fb7555f4230b5dd77a530000de25ca5fb9722a5",
+  "sourceCommit": "ecc92b2dc2fef84d2f1d23b6818e8e50c6807641",
   "reviewer": "GPT-5.6 Luna",
   "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
   "cards": [
@@ -8,14 +8,14 @@
       "auditId": "LRB088-0001",
       "cardId": "a1-einmal",
       "status": "LABOT",
-      "reason": "Pilná karta odstraňuje chybný opis počasia a zachováva významy „raz“ a „jedenkrát“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
-        "lv": "Raz • Jedenkrát",
+        "lv": "Raz",
         "study": {
-          "translation": "Raz • Jedenkrát",
+          "translation": "Raz",
           "explanation": [
             "Hlavná myšlienka: einmal označuje jeden výskyt deja alebo neurčitú chvíľu v minulosti.",
-            "Podľa kontextu sa prekladá ako raz alebo jedenkrát.",
+            "Pri počte opakovaní einmal znamená, že sa niečo stane raz.",
             "V rozprávaní môže einmal uvádzať udalosť, ktorá sa kedysi stala."
           ],
           "examples": [
@@ -29,11 +29,11 @@
             }
           ],
           "tip": [
-            "einmal = raz alebo jedenkrát.",
+            "einmal = raz.",
             "Kontext ukazuje, či ide o jeden výskyt alebo neurčitú chvíľu v minulosti."
           ],
           "important": [
-            "einmal môže znamenať raz aj jedenkrát.",
+            "Pri počte opakovaní einmal znamená raz.",
             "V rozprávaní môže einmal odkazovať na neurčitú minulosť."
           ],
           "id": "a1-einmal",
@@ -45,7 +45,7 @@
       "auditId": "LRB088-0002",
       "cardId": "a1-eis",
       "status": "LABOT",
-      "reason": "Pilná karta presne rozlišuje významy „ľad“ a „zmrzlina“ a opravuje všetky príklady aj vysvetlenia.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Ľad • Zmrzlina",
         "study": {
@@ -117,7 +117,7 @@
       "auditId": "LRB088-0003",
       "cardId": "a1-eis",
       "status": "LABOT",
-      "reason": "Pilná karta presne rozlišuje významy „ľad“ a „zmrzlina“ a opravuje všetky príklady aj vysvetlenia.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Ľad • Zmrzlina",
         "study": {
@@ -189,7 +189,7 @@
       "auditId": "LRB088-0004",
       "cardId": "a1-erst",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje časové „až/iba“ od postupnosti „najprv“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Až • Iba • Najprv",
         "study": {
@@ -258,7 +258,7 @@
       "auditId": "LRB088-0005",
       "cardId": "a1-erst",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje časové „až/iba“ od postupnosti „najprv“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Až • Iba • Najprv",
         "study": {
@@ -327,7 +327,7 @@
       "auditId": "LRB088-0006",
       "cardId": "a1-erst",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje časové „až/iba“ od postupnosti „najprv“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Až • Iba • Najprv",
         "study": {
@@ -396,7 +396,7 @@
       "auditId": "LRB088-0007",
       "cardId": "a1-erst",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje časové „až/iba“ od postupnosti „najprv“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Až • Iba • Najprv",
         "study": {
@@ -465,7 +465,7 @@
       "auditId": "LRB088-0008",
       "cardId": "a1-es",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje zámeno „es“ aj jeho použitie v neosobných vetách bez zámeny s nemeckým „ich“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "To • Ono • Neosobná forma",
         "study": {
@@ -525,7 +525,7 @@
       "auditId": "LRB088-0009",
       "cardId": "a1-es",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje zámeno „es“ aj jeho použitie v neosobných vetách bez zámeny s nemeckým „ich“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "To • Ono • Neosobná forma",
         "study": {
@@ -585,7 +585,7 @@
       "auditId": "LRB088-0010",
       "cardId": "a1-es",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje zámeno „es“ aj jeho použitie v neosobných vetách bez zámeny s nemeckým „ich“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "To • Ono • Neosobná forma",
         "study": {
@@ -645,7 +645,7 @@
       "auditId": "LRB088-0011",
       "cardId": "a1-es",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje zámeno „es“ aj jeho použitie v neosobných vetách bez zámeny s nemeckým „ich“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "To • Ono • Neosobná forma",
         "study": {
@@ -705,13 +705,13 @@
       "auditId": "LRB088-0012",
       "cardId": "a1-essen-study",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje podstatné meno „das Essen“ od slovesa „essen“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
-        "lv": "Jedlo • Pokrm",
+        "lv": "Jedlo",
         "study": {
-          "translation": "Jedlo • Pokrm",
+          "translation": "Jedlo",
           "explanation": [
-            "Hlavná myšlienka: das Essen je podstatné meno a znamená jedlo, pokrm alebo celú stravu.",
+            "Hlavná myšlienka: das Essen je podstatné meno a znamená jedlo.",
             "Sloveso essen znamená jesť.",
             "Podstatné meno das Essen sa píše s veľkým E a používa sa s členom.",
             "Význam podstatného mena alebo slovesa ukazuje pravopis a vetný kontext."
@@ -743,14 +743,14 @@
             }
           ],
           "tip": [
-            "das Essen = jedlo alebo pokrm.",
+            "das Essen = jedlo.",
             "essen = jesť."
           ],
           "important": [
             "essen je sloveso bez člena.",
             "das Essen je podstatné meno a nie je to isté ako essen.",
             "Činnosť: essen.",
-            "Jedlo alebo pokrm: das Essen."
+            "Podstatné meno: das Essen."
           ],
           "id": "a1-essen-study",
           "layout": "standardStudy"
@@ -761,13 +761,13 @@
       "auditId": "LRB088-0013",
       "cardId": "a1-essen-study",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje podstatné meno „das Essen“ od slovesa „essen“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
-        "lv": "Jedlo • Pokrm",
+        "lv": "Jedlo",
         "study": {
-          "translation": "Jedlo • Pokrm",
+          "translation": "Jedlo",
           "explanation": [
-            "Hlavná myšlienka: das Essen je podstatné meno a znamená jedlo, pokrm alebo celú stravu.",
+            "Hlavná myšlienka: das Essen je podstatné meno a znamená jedlo.",
             "Sloveso essen znamená jesť.",
             "Podstatné meno das Essen sa píše s veľkým E a používa sa s členom.",
             "Význam podstatného mena alebo slovesa ukazuje pravopis a vetný kontext."
@@ -799,14 +799,14 @@
             }
           ],
           "tip": [
-            "das Essen = jedlo alebo pokrm.",
+            "das Essen = jedlo.",
             "essen = jesť."
           ],
           "important": [
             "essen je sloveso bez člena.",
             "das Essen je podstatné meno a nie je to isté ako essen.",
             "Činnosť: essen.",
-            "Jedlo alebo pokrm: das Essen."
+            "Podstatné meno: das Essen."
           ],
           "id": "a1-essen-study",
           "layout": "standardStudy"
@@ -817,7 +817,7 @@
       "auditId": "LRB088-0014",
       "cardId": "a1-etwas",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje „niečo“ od stupňovacieho „trochu“ a opravuje úplný obsah.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Niečo • Trochu",
         "study": {
@@ -888,7 +888,7 @@
       "auditId": "LRB088-0015",
       "cardId": "a1-etwas",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje „niečo“ od stupňovacieho „trochu“ a opravuje úplný obsah.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Niečo • Trochu",
         "study": {
@@ -959,7 +959,7 @@
       "auditId": "LRB088-0016",
       "cardId": "a1-euch",
       "status": "LABOT",
-      "reason": "Pilná karta zachováva množné číslo a presne rozlišuje akuzatívne „vás“ od datívneho „vám“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Vás • Vám",
         "study": {
@@ -1022,7 +1022,7 @@
       "auditId": "LRB088-0017",
       "cardId": "a1-euch",
       "status": "LABOT",
-      "reason": "Pilná karta zachováva množné číslo a presne rozlišuje akuzatívne „vás“ od datívneho „vám“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Vás • Vám",
         "study": {
@@ -1085,7 +1085,7 @@
       "auditId": "LRB088-0018",
       "cardId": "a1-fahren",
       "status": "LABOT",
-      "reason": "Pilná karta zachováva význam jazdy dopravou aj význam viezť alebo odviezť osobu.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Ísť dopravou • Viezť",
         "study": {
@@ -1161,7 +1161,7 @@
       "auditId": "LRB088-0019",
       "cardId": "a1-fahren",
       "status": "LABOT",
-      "reason": "Pilná karta zachováva význam jazdy dopravou aj význam viezť alebo odviezť osobu.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Ísť dopravou • Viezť",
         "study": {
@@ -1237,7 +1237,7 @@
       "auditId": "LRB088-0020",
       "cardId": "a1-finden",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje nájdenie veci od vyjadrenia názoru.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Nájsť • Myslieť si",
         "study": {
@@ -1285,7 +1285,7 @@
       "auditId": "LRB088-0021",
       "cardId": "a1-finden",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje nájdenie veci od vyjadrenia názoru.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Nájsť • Myslieť si",
         "study": {
@@ -1333,7 +1333,7 @@
       "auditId": "LRB088-0022",
       "cardId": "a1-frau",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje ženu ako osobu od manželky a opravuje všetky príklady.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Žena • Manželka",
         "study": {
@@ -1349,7 +1349,7 @@
           "examples": [
             {
               "de": "Sie ist eine nette Frau.",
-              "lv": "Je to milá žena."
+              "lv": "Ona je milá žena."
             },
             {
               "de": "Das ist meine Frau.",
@@ -1390,7 +1390,7 @@
       "auditId": "LRB088-0023",
       "cardId": "a1-frau",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje ženu ako osobu od manželky a opravuje všetky príklady.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Žena • Manželka",
         "study": {
@@ -1406,7 +1406,7 @@
           "examples": [
             {
               "de": "Sie ist eine nette Frau.",
-              "lv": "Je to milá žena."
+              "lv": "Ona je milá žena."
             },
             {
               "de": "Das ist meine Frau.",
@@ -1447,7 +1447,7 @@
       "auditId": "LRB088-0024",
       "cardId": "a1-fuer",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje slovenské „pre“ a „za“ a zachováva väzbu s akuzatívom.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Pre • Za",
         "study": {
@@ -1501,7 +1501,7 @@
       "auditId": "LRB088-0025",
       "cardId": "a1-fuer",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje slovenské „pre“ a „za“ a zachováva väzbu s akuzatívom.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Pre • Za",
         "study": {
@@ -1555,7 +1555,7 @@
       "auditId": "LRB088-0026",
       "cardId": "a1-fuer",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje slovenské „pre“ a „za“ a zachováva väzbu s akuzatívom.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Pre • Za",
         "study": {
@@ -1609,7 +1609,7 @@
       "auditId": "LRB088-0027",
       "cardId": "a1-ganz-study",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje „celý“, „úplne“ a „celkom“ od zámena „alles“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Celý • Úplne • Celkom",
         "study": {
@@ -1666,7 +1666,7 @@
       "auditId": "LRB088-0028",
       "cardId": "a1-gefallen-study",
       "status": "LABOT",
-      "reason": "Pilná karta opravuje konštrukciu „gefallen“: páčiaca sa vec je podmet a osoba je v datíve.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Páčiť sa",
         "study": {
@@ -1719,7 +1719,7 @@
       "auditId": "LRB088-0029",
       "cardId": "a1-gleich",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje časové „hneď“ od porovnávacieho „rovnaký“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Hneď • Rovnaký",
         "study": {
@@ -1773,7 +1773,7 @@
       "auditId": "LRB088-0030",
       "cardId": "a1-gleich",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje časové „hneď“ od porovnávacieho „rovnaký“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Hneď • Rovnaký",
         "study": {
@@ -1827,7 +1827,7 @@
       "auditId": "LRB088-0031",
       "cardId": "a1-halten",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje držanie, zastavenie dopravného prostriedku, „anhalten“ a konštrukciu „für ... halten“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Držať • Zastaviť",
         "study": {
@@ -1895,7 +1895,7 @@
       "auditId": "LRB088-0032",
       "cardId": "a1-halten",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje držanie, zastavenie dopravného prostriedku, „anhalten“ a konštrukciu „für ... halten“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Držať • Zastaviť",
         "study": {
@@ -1963,7 +1963,7 @@
       "auditId": "LRB088-0033",
       "cardId": "a1-heissen",
       "status": "LABOT",
-      "reason": "Pilná karta zachováva významy „volať sa“ a „znamenať“ a opravuje porovnania.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Volať sa • Znamenať",
         "study": {
@@ -2035,7 +2035,7 @@
       "auditId": "LRB088-0034",
       "cardId": "a1-heissen",
       "status": "LABOT",
-      "reason": "Pilná karta zachováva významy „volať sa“ a „znamenať“ a opravuje porovnania.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Volať sa • Znamenať",
         "study": {
@@ -2107,7 +2107,7 @@
       "auditId": "LRB088-0035",
       "cardId": "a1-hoeren-study",
       "status": "LABOT",
-      "reason": "Pilná karta prirodzene rozlišuje „počuť“ od „počúvať“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Počuť • Počúvať",
         "study": {
@@ -2148,7 +2148,7 @@
       "auditId": "LRB088-0036",
       "cardId": "a1-hoeren-study",
       "status": "LABOT",
-      "reason": "Pilná karta prirodzene rozlišuje „počuť“ od „počúvať“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Počuť • Počúvať",
         "study": {
@@ -2189,11 +2189,11 @@
       "auditId": "LRB088-0037",
       "cardId": "a1-huebsch",
       "status": "LABOT",
-      "reason": "Pilná karta presne vysvetľuje vzhľadový význam „hübsch“ a opravuje gramatiku príkladov.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
-        "lv": "Pekný • Pôvabný",
+        "lv": "Pekný",
         "study": {
-          "translation": "Pekný • Pôvabný",
+          "translation": "Pekný",
           "explanation": [
             "Hlavná myšlienka: hübsch znamená pekný, pôvabný alebo vzhľadovo príťažlivý.",
             "hübsch často opisuje vzhľad človeka, oblečenia, miestnosti alebo predmetu.",
@@ -2247,7 +2247,7 @@
       "auditId": "LRB088-0038",
       "cardId": "a1-ihr",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje množné „vy“, datívne „jej“ a privlastňovacie „jej“ bez zmeny osoby.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Vy • Jej",
         "study": {
@@ -2304,7 +2304,7 @@
       "auditId": "LRB088-0039",
       "cardId": "a1-ihr",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje množné „vy“, datívne „jej“ a privlastňovacie „jej“ bez zmeny osoby.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Vy • Jej",
         "study": {
@@ -2361,7 +2361,7 @@
       "auditId": "LRB088-0040",
       "cardId": "a1-ihr",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje množné „vy“, datívne „jej“ a privlastňovacie „jej“ bez zmeny osoby.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Vy • Jej",
         "study": {
@@ -2418,7 +2418,7 @@
       "auditId": "LRB088-0041",
       "cardId": "a1-im",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje „im = in dem“, datív a polohu na otázku „kde?“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "V • Kde?",
         "study": {
@@ -2510,7 +2510,7 @@
       "auditId": "LRB088-0042",
       "cardId": "a1-im",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje „im = in dem“, datív a polohu na otázku „kde?“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "V • Kde?",
         "study": {
@@ -2602,7 +2602,7 @@
       "auditId": "LRB088-0043",
       "cardId": "a1-im",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje „im = in dem“, datív a polohu na otázku „kde?“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "V • Kde?",
         "study": {
@@ -2694,7 +2694,7 @@
       "auditId": "LRB088-0044",
       "cardId": "a1-in",
       "status": "LABOT",
-      "reason": "Pilná karta rozlišuje polohu „v“ od smeru „do“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "V • Do",
         "study": {
@@ -2739,7 +2739,7 @@
       "auditId": "LRB088-0045",
       "cardId": "a1-ins",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje „ins = in das“, akuzatív a smer na otázku „kam?“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Do • Kam?",
         "study": {
@@ -2831,7 +2831,7 @@
       "auditId": "LRB088-0046",
       "cardId": "a1-ins",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje „ins = in das“, akuzatív a smer na otázku „kam?“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Do • Kam?",
         "study": {
@@ -2923,7 +2923,7 @@
       "auditId": "LRB088-0047",
       "cardId": "a1-ins",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje „ins = in das“, akuzatív a smer na otázku „kam?“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Do • Kam?",
         "study": {
@@ -3015,7 +3015,7 @@
       "auditId": "LRB088-0048",
       "cardId": "a1-ins",
       "status": "LABOT",
-      "reason": "Pilná karta vysvetľuje „ins = in das“, akuzatív a smer na otázku „kam?“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
         "lv": "Do • Kam?",
         "study": {
@@ -3107,11 +3107,11 @@
       "auditId": "LRB088-0049",
       "cardId": "a1-kein",
       "status": "LABOT",
-      "reason": "Pilná karta prirodzene vysvetľuje záporný člen „kein“ a jeho rozdiel od „nicht“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
-        "lv": "Nijaký • Žiadny",
+        "lv": "Žiadny",
         "study": {
-          "translation": "Nijaký • Žiadny",
+          "translation": "Žiadny",
           "explanation": [
             "Hlavná myšlienka: kein je záporný člen, ktorý neguje podstatné meno; po slovensky podľa kontextu znamená nijaký, žiadny alebo sa vyjadrí slovesným záporom.",
             "kein sa skloňuje podobne ako ein, napríklad kein, keine, keinen, a stojí pred podstatným menom.",
@@ -3126,7 +3126,7 @@
             },
             {
               "de": "Es gibt keine Milch mehr.",
-              "lv": "Už nie je nijaké mlieko."
+              "lv": "Mlieko už nie je."
             },
             {
               "de": "Kein Mensch war da.",
@@ -3162,11 +3162,11 @@
       "auditId": "LRB088-0050",
       "cardId": "a1-kein",
       "status": "LABOT",
-      "reason": "Pilná karta prirodzene vysvetľuje záporný člen „kein“ a jeho rozdiel od „nicht“.",
+      "reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
       "new": {
-        "lv": "Nijaký • Žiadny",
+        "lv": "Žiadny",
         "study": {
-          "translation": "Nijaký • Žiadny",
+          "translation": "Žiadny",
           "explanation": [
             "Hlavná myšlienka: kein je záporný člen, ktorý neguje podstatné meno; po slovensky podľa kontextu znamená nijaký, žiadny alebo sa vyjadrí slovesným záporom.",
             "kein sa skloňuje podobne ako ein, napríklad kein, keine, keinen, a stojí pred podstatným menom.",
@@ -3181,7 +3181,7 @@
             },
             {
               "de": "Es gibt keine Milch mehr.",
-              "lv": "Už nie je nijaké mlieko."
+              "lv": "Mlieko už nie je."
             },
             {
               "de": "Kein Mensch war da.",

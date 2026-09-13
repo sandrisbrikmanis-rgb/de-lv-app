@@ -12,5 +12,5 @@
 - [Parallel checkpoint](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-088-owner-authorization-ed35/reports/g2-a1-owner/parallel-checkpoint.json)
 
 **Branch:** `cursor/lrb-088-owner-authorization-ed35`
-**Source commit:** `5fb7555f4230b5dd77a530000de25ca5fb9722a5`
-**Overrides SHA256:** `32679adee07fbb635b82a04ea73aac2af39e4d0bad91994a049830144f8489c4`
+**Source commit:** `ecc92b2dc2fef84d2f1d23b6818e8e50c6807641`
+**Overrides SHA256:** `d3da4dc065da97dd1b699c4eda96025c6df23e875d16aaf7e0a86d2cb0cb6219`
