@@ -1,0 +1,302 @@
+{
+  "g2/a1/ru|sagen|idx:505|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Сказать\",\"study.translation\":\"Сказать\",\"study.explanation\":\"[\\\"Основная идея: сообщить мысль, информацию или слова.\\\",\\\"Sagen в основном означает: сказать или сообщить что-либо.\\\",\\\"Часто описывает: слова, предложения или информацию.\\\",\\\"Sagen используется, когда нужно передать конкретную мысль или высказывание.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was hast du gesagt?\\\",\\\"lv\\\":\\\"Что ты сказал?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sagen\\\",\\\"meaning\\\":\\\"Сказать или сообщить что-либо\\\",\\\"example\\\":\\\"Что ты сказал?\\\"},{\\\"word\\\":\\\"sprechen\\\",\\\"meaning\\\":\\\"Говорить, разговаривать\\\",\\\"example\\\":\\\"Я говорю по-немецки.\\\"}]\",\"study.tip\":\"[\\\"Sagen = сказать\\\",\\\"Используйте sagen, когда сообщаете конкретную мысль, информацию или слова.\\\"]\",\"study.important\":\"[\\\"Sagen = сказать.\\\",\\\"Глагол обозначает передачу конкретной мысли, слова или информации.\\\"]\"}",
+    "owner_note": "Для DE sagen исправлены неестественные формулировки и латышский фрагмент в примере; русское значение передаёт «сказать» или «сообщить»."
+  },
+  "g2/a1/ru|schauen|idx:510|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Смотреть\",\"study.translation\":\"Смотреть\",\"study.explanation\":\"[\\\"Основная идея: смотреть или наблюдать.\\\",\\\"Schauen прежде всего означает: намеренно смотреть на что-либо.\\\",\\\"Часто описывает: действие, направленное на объект.\\\",\\\"Schauen означает сознательно смотреть или наблюдать.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich schaue fern.\\\",\\\"lv\\\":\\\"Я смотрю телевизор.\\\"},{\\\"de\\\":\\\"Wir schauen aus dem Fenster.\\\",\\\"lv\\\":\\\"Мы смотрим в окно.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"schauen\\\",\\\"meaning\\\":\\\"Смотреть, наблюдать\\\",\\\"example\\\":\\\"Я смотрю в окно.\\\"},{\\\"word\\\":\\\"sehen\\\",\\\"meaning\\\":\\\"Видеть\\\",\\\"example\\\":\\\"Я вижу тебя.\\\"}]\",\"study.tip\":\"[\\\"Schauen = смотреть\\\",\\\"Используйте schauen, когда вы намеренно смотрите или наблюдаете.\\\"]\",\"study.important\":\"[\\\"Schauen = смотреть.\\\",\\\"Глагол обозначает намеренное наблюдение или взгляд.\\\"]\"}",
+    "owner_note": "Для DE schauen устранены смешанные языковые остатки и уточнено отличие от sehen: schauen обозначает намеренный взгляд или наблюдение."
+  },
+  "g2/a1/ru|schmecken|idx:515|lv|MEANING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Быть вкусным",
+    "owner_note": "Для DE schmecken заменено ошибочное «по вкусу» на естественное русское значение «быть вкусным»."
+  },
+  "g2/a1/ru|schon|idx:521|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Уже\",\"study.translation\":\"Уже\",\"study.explanation\":\"[\\\"Основная идея: что-то произошло или началось раньше определённого момента.\\\",\\\"Schon главным образом означает: уже.\\\",\\\"Часто описывает: действие, которое уже произошло, или состояние, которое уже существует.\\\",\\\"Schon указывает, что событие произошло раньше, чем ожидалось или чем другой момент.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin schon zu Hause.\\\",\\\"lv\\\":\\\"Я уже дома.\\\"}]\",\"study.tip\":\"[\\\"Schon = уже.\\\",\\\"Используйте schon, когда действие уже произошло или состояние уже существует.\\\"]\",\"study.important\":\"[\\\"Schon = уже.\\\",\\\"Слово показывает, что что-то произошло или существует к определённому моменту.\\\"]\"}",
+    "owner_note": "Для DE schon исправлены смешанные и неестественные формулировки; значение «уже» и пример состояния сохранены в нормативном русском виде."
+  },
+  "g2/a1/ru|Schuh|idx:525|lv|SEMANTIC NARROWING|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Обувь",
+    "owner_note": "Для DE Schuh заменено слишком узкое «туфля» на общее русское значение «обувь», соответствующее немецкому слову."
+  },
+  "g2/a1/ru|Schüler|idx:527|lv|MEANING MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ученик",
+    "owner_note": "Для DE Schüler исправлено «студент»: слово обозначает ученика, обычно школьника, а не учащегося вуза."
+  },
+  "g2/a1/ru|schwimmen|idx:531|lv, study.translation, study.explanation, study.examples, study.comparison|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Плавать\",\"study.translation\":\"Плавать\",\"study.explanation\":\"[\\\"Основная идея: schwimmen означает плавать в воде.\\\",\\\"Schwimmen используется, когда человек перемещается в воде плавательными движениями.\\\",\\\"Для отдыха в воде или купания часто используют baden.\\\",\\\"На уровне А1 важно различать: schwimmen = плавать, baden = купаться.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich schwimme gern.\\\",\\\"lv\\\":\\\"Я люблю плавать.\\\"},{\\\"de\\\":\\\"Er schwimmt sehr gut.\\\",\\\"lv\\\":\\\"Он очень хорошо плавает.\\\"},{\\\"de\\\":\\\"Wir schwimmen im Schwimmbad.\\\",\\\"lv\\\":\\\"Мы плаваем в бассейне.\\\"},{\\\"de\\\":\\\"Ich gehe baden.\\\",\\\"lv\\\":\\\"Я иду купаться.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"schwimmen\\\",\\\"meaning\\\":\\\"Плавать\\\",\\\"example\\\":\\\"Он очень хорошо плавает.\\\"},{\\\"word\\\":\\\"baden\\\",\\\"meaning\\\":\\\"Купаться\\\",\\\"example\\\":\\\"Я иду купаться.\\\"},{\\\"word\\\":\\\"schwimmen gehen\\\",\\\"meaning\\\":\\\"Идти плавать\\\",\\\"example\\\":\\\"Мы идём плавать.\\\"},{\\\"word\\\":\\\"duschen\\\",\\\"meaning\\\":\\\"Принимать душ\\\",\\\"example\\\":\\\"Я принимаю душ по утрам.\\\"}]\"}",
+    "owner_note": "Для DE schwimmen исправлены языковые остатки и уточнено различие с baden: schwimmen — плавать, а baden — купаться."
+  },
+  "g2/a1/ru|sehen|idx:539|lv, study.translation, study.explanation, study.comparison|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Видеть\",\"study.translation\":\"Видеть\",\"study.explanation\":\"[\\\"Основная идея: sehen означает видеть глазами.\\\",\\\"Когда речь идёт о зрительном восприятии, используется sehen.\\\",\\\"Сознательное наблюдение часто передаётся словами schauen или ansehen.\\\",\\\"Очень распространённая фраза: Ich sehe dich. = Я вижу тебя.\\\"]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sehen\\\",\\\"meaning\\\":\\\"Видеть\\\",\\\"example\\\":\\\"Я вижу тебя.\\\"},{\\\"word\\\":\\\"schauen\\\",\\\"meaning\\\":\\\"Смотреть\\\",\\\"example\\\":\\\"Я смотрю на картину.\\\"},{\\\"word\\\":\\\"ansehen\\\",\\\"meaning\\\":\\\"Смотреть, рассматривать\\\",\\\"example\\\":\\\"Я смотрю фильм.\\\"},{\\\"word\\\":\\\"hören\\\",\\\"meaning\\\":\\\"Слышать\\\",\\\"example\\\":\\\"Я слушаю музыку.\\\"}]\"}",
+    "owner_note": "Для DE sehen исправлены ошибочные «чтобы увидеть» и транслитерация; добавлено нормативное русское значение «видеть» и отличие от schauen."
+  },
+  "g2/a1/ru|sein|idx:542|lv, study.translation, study.explanation, study.comparison|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Быть\",\"study.translation\":\"Быть\",\"study.explanation\":\"[\\\"Основная идея: sein означает быть.\\\",\\\"Sein — один из важнейших немецких глаголов.\\\",\\\"На уровне А1 особенно важны формы ich bin, du bist, er ist и wir sind.\\\",\\\"Sein также используется в предложениях о местонахождении и характеристиках.\\\"]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sein\\\",\\\"meaning\\\":\\\"Быть\\\",\\\"example\\\":\\\"Я здесь.\\\"},{\\\"word\\\":\\\"haben\\\",\\\"meaning\\\":\\\"Иметь, у кого-либо есть\\\",\\\"example\\\":\\\"У меня есть время.\\\"},{\\\"word\\\":\\\"werden\\\",\\\"meaning\\\":\\\"Становиться\\\",\\\"example\\\":\\\"Я становлюсь врачом.\\\"},{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"Оставаться\\\",\\\"example\\\":\\\"Я остаюсь здесь.\\\"}]\"}",
+    "owner_note": "Для DE sein исправлены языковые остатки и ошибочный пример для werden; русские значения глаголов теперь грамматически и семантически точны."
+  },
+  "g2/a1/ru|Seite|idx:544|lv, study.translation, study.explanation, study.tip|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Страница • Сторона\",\"study.translation\":\"Страница • Сторона\",\"study.explanation\":\"[\\\"Основная идея: die Seite может означать страницу книги или документа, а также сторону чего-либо.\\\",\\\"В книге, журнале или на сайте die Seite означает страницу: Seite 5 — страница 5.\\\",\\\"В пространственном смысле die Seite означает сторону: auf der linken Seite — слева.\\\",\\\"В переносном смысле die Seite может обозначать сторону в конфликте или чью-либо позицию: auf meiner Seite — на моей стороне.\\\",\\\"Контекст книги, направления или отношений помогает определить значение.\\\",\\\"Множественное число: die Seiten.\\\"]\",\"study.tip\":\"[\\\"Если речь о книге или чтении, переводите как «страница»; если о позиции, направлении или отношениях — как «сторона».\\\",\\\"В контексте сайта Seite может означать веб-страницу, а не половину.\\\"]\"}",
+    "owner_note": "Для DE Seite исправлены смешанные языковые фрагменты и неудачный совет о сайте; сохранены оба значения «страница» и «сторона»."
+  },
+  "g2/a1/ru|sich|idx:547|lv, study.translation, study.explanation, study.examples, study.comparison|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"себя • себе\",\"study.translation\":\"себя • себе\",\"study.explanation\":\"[\\\"Основная идея: sich показывает, что действие направлено на самого деятеля.\\\",\\\"В русском языке sich часто переводится возвратным местоимением «себя» или с помощью возвратного глагола.\\\",\\\"В некоторых немецких глаголах sich является обязательной частью, например в sich waschen.\\\",\\\"На уровне A1 важно заметить: ich wasche mich — я моюсь, er wäscht sich — он моется.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er wäscht sich.\\\",\\\"lv\\\":\\\"Он моется.\\\"},{\\\"de\\\":\\\"Ich setze mich.\\\",\\\"lv\\\":\\\"Я сажусь.\\\"},{\\\"de\\\":\\\"Sie freut sich.\\\",\\\"lv\\\":\\\"Она радуется.\\\"},{\\\"de\\\":\\\"Ich wasche das Auto.\\\",\\\"lv\\\":\\\"Я мою машину.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sich\\\",\\\"meaning\\\":\\\"себя / себе\\\",\\\"example\\\":\\\"Он моется.\\\"},{\\\"word\\\":\\\"mich\\\",\\\"meaning\\\":\\\"меня / себе, форма для ich\\\",\\\"example\\\":\\\"Я моюсь.\\\"},{\\\"word\\\":\\\"dich\\\",\\\"meaning\\\":\\\"тебя / себе, форма для du\\\",\\\"example\\\":\\\"Ты моешься.\\\"},{\\\"word\\\":\\\"ihn\\\",\\\"meaning\\\":\\\"его\\\",\\\"example\\\":\\\"Я вижу его.\\\"}]\"}",
+    "owner_note": "В DE-слове «sich» были смешаны латышские подписи и неверные русские значения; исправлены возвратные значения и примеры."
+  },
+  "g2/a1/ru|sicher|idx:548|study|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"безопасный • уверенный; наверняка\",\"study.explanation\":\"[\\\"Основная идея: sicher может быть прилагательным «безопасный, надёжный» или наречием «наверняка, точно».\\\",\\\"О месте, ситуации или человеке sicher означает «безопасный» или «в безопасности»: ein sicherer Ort — безопасное место.\\\",\\\"В утверждении sicher означает «точно, наверняка»: Das ist sicher wahr. — Это точно правда.\\\",\\\"В качестве отдельного ответа Sicher! обычно означает «Конечно!» или «Точно!».\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ist das Wasser sicher?\\\",\\\"lv\\\":\\\"Вода безопасна?\\\"},{\\\"de\\\":\\\"Kommst du morgen? – Sicher!\\\",\\\"lv\\\":\\\"Ты придёшь завтра? — Конечно!\\\"},{\\\"de\\\":\\\"Er ist sicher zu Hause.\\\",\\\"lv\\\":\\\"Он, вероятно, дома.\\\"},{\\\"de\\\":\\\"Das ist eine sichere Lösung.\\\",\\\"lv\\\":\\\"Это безопасное решение.\\\"},{\\\"de\\\":\\\"Ich bin mir sicher.\\\",\\\"lv\\\":\\\"Я уверен.\\\"},{\\\"de\\\":\\\"Fahr sicher!\\\",\\\"lv\\\":\\\"Езжай осторожно!\\\"}]\",\"study.tip\":\"[\\\"О безопасности → безопасный, в безопасности.\\\",\\\"О степени уверенности → точно, наверняка; в некоторых контекстах — вероятно.\\\"]\",\"study.important\":\"[\\\"Sicher может означать «безопасный» или «наверняка, точно».\\\",\\\"Sich sicher sein означает «быть уверенным», а не «конечно».\\\"]\"}",
+    "owner_note": "В DE-слове «sicher» смешивались значения безопасности и уверенности; исправлены части речи, оттенки значения и русские переводы примеров."
+  },
+  "g2/a1/ru|sie|idx:549|study|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"она • они • Вы\",\"study.explanation\":\"[\\\"sie со строчной буквы может означать «она» или «они»; значение определяется формой глагола и контекстом.\\\",\\\"sie kocht означает «она готовит»: глагол стоит в форме 3-го лица единственного числа.\\\",\\\"sie kochen означает «они готовят»: глагол стоит в форме 3-го лица множественного числа.\\\",\\\"Sie с прописной буквы означает вежливое «Вы» и употребляется с глаголом во множественном числе.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"Они готовят.\\\"},{\\\"de\\\":\\\"Sie kocht.\\\",\\\"lv\\\":\\\"Она готовит.\\\"},{\\\"de\\\":\\\"Sie isst.\\\",\\\"lv\\\":\\\"Она ест.\\\"},{\\\"de\\\":\\\"sie kochen.\\\",\\\"lv\\\":\\\"Они готовят.\\\"},{\\\"de\\\":\\\"Sie spielen Fußball.\\\",\\\"lv\\\":\\\"Они играют в футбол.\\\"},{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Вы готовите, пожалуйста.\\\"}]\",\"study.tip\":\"[\\\"sie kocht — она готовит; sie kochen — они готовят.\\\",\\\"Sie с прописной буквы — вежливое обращение «Вы».\\\"]\",\"study.important\":\"[\\\"Она: sie kocht. Они: sie kochen. Вы: Sie kochen.\\\",\\\"Форма глагола помогает различать «она» и «они», если контекст неясен.\\\"]\"}",
+    "owner_note": "В DE-слове «sie» были перепутаны регистр, местоимения и формы глагола; исправлено различие «она», «они» и вежливого «Вы»."
+  },
+  "g2/a1/ru|Sie|idx:550|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Вы",
+    "owner_note": "Для DE-слова «Sie» с прописной буквы нужен русский эквивалент вежливого обращения «Вы», а не «Ты»."
+  },
+  "g2/a1/ru|sitzen|idx:558|study|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"сидеть\",\"study.explanation\":\"[\\\"Основная идея: sitzen означает «сидеть».\\\",\\\"Sitzen используется для описания человека или животного в сидячем положении.\\\",\\\"Иногда sitzen также означает находиться в определённом месте, но на уровне A1 основное значение — «сидеть».\\\",\\\"Важно различать: sitzen — сидеть, stehen — стоять, liegen — лежать.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich sitze am Tisch.\\\",\\\"lv\\\":\\\"Я сижу за столом.\\\"},{\\\"de\\\":\\\"Die Kinder sitzen im Bus.\\\",\\\"lv\\\":\\\"Дети сидят в автобусе.\\\"},{\\\"de\\\":\\\"Er steht an der Tür.\\\",\\\"lv\\\":\\\"Он стоит у двери.\\\"},{\\\"de\\\":\\\"Die Katze liegt auf dem Sofa.\\\",\\\"lv\\\":\\\"Кошка лежит на диване.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sitzen\\\",\\\"meaning\\\":\\\"сидеть\\\",\\\"example\\\":\\\"Я сижу за столом.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"стоять\\\",\\\"example\\\":\\\"Он стоит у двери.\\\"},{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"лежать\\\",\\\"example\\\":\\\"Кошка лежит там.\\\"},{\\\"word\\\":\\\"sich setzen\\\",\\\"meaning\\\":\\\"сесть / садиться\\\",\\\"example\\\":\\\"Я сажусь.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"sitzen — сидеть; stehen — стоять; liegen — лежать.\\\"}\",\"study.important\":\"[\\\"Sitzen обозначает состояние «сидеть».\\\",\\\"Сесть или садиться — это sich setzen, а не sitzen.\\\"]\"}",
+    "owner_note": "В DE-слове «sitzen» была опечатка «сидю» и искажённая подсказка; исправлены русская грамматика и противопоставление sitzen/sich setzen."
+  },
+  "g2/a1/ru|sollen|idx:564|study|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"должен; следует\",\"study.explanation\":\"[\\\"Основная идея: sollen выражает обязанность, требование или рекомендацию, часто исходящую от другого человека.\\\",\\\"Sollen часто используется, когда кто-то говорит вам, что нужно сделать.\\\",\\\"Sollen обычно мягче, чем müssen, которое выражает необходимость или обязательность.\\\",\\\"Очень распространённая фраза: Was soll ich machen? — Что мне делать?\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was soll ich machen?\\\",\\\"lv\\\":\\\"Что мне делать?\\\"},{\\\"de\\\":\\\"Du sollst kommen.\\\",\\\"lv\\\":\\\"Ты должен прийти.\\\"},{\\\"de\\\":\\\"Ich soll zu Hause bleiben.\\\",\\\"lv\\\":\\\"Мне велено остаться дома.\\\"},{\\\"de\\\":\\\"Ich muss jetzt gehen.\\\",\\\"lv\\\":\\\"Я должен сейчас идти.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sollen\\\",\\\"meaning\\\":\\\"должен; следует по чьему-то указанию\\\",\\\"example\\\":\\\"Что мне делать?\\\"},{\\\"word\\\":\\\"müssen\\\",\\\"meaning\\\":\\\"быть вынужденным; быть обязанным\\\",\\\"example\\\":\\\"Я должен идти.\\\"},{\\\"word\\\":\\\"können\\\",\\\"meaning\\\":\\\"мочь; быть в состоянии\\\",\\\"example\\\":\\\"Я могу прийти.\\\"},{\\\"word\\\":\\\"wollen\\\",\\\"meaning\\\":\\\"хотеть\\\",\\\"example\\\":\\\"Я хочу остаться.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Кто-то говорит, что нужно сделать → sollen; это необходимо самому говорящему → müssen.\\\"}\",\"study.important\":\"[\\\"Was soll ich machen? — очень распространённая фраза «Что мне делать?».\\\",\\\"Sollen и müssen выражают разные виды обязанности: указание или внешнее требование против необходимости.\\\"]\"}",
+    "owner_note": "В DE-слове «sollen» были искажены примеры и подсказка; исправлены значение обязанности по указанию и различие с müssen."
+  },
+  "g2/a1/ru|Staat|idx:697|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "государство",
+    "owner_note": "DE-существительное «Staat» означает «государство», тогда как «страна» обычно соответствует другому понятию и здесь слишком неточно."
+  },
+  "g2/a1/ru|stehen|idx:576|study.explanation, study.comparison, study.important|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation\":\"[\\\"Основная идея: stehen означает «стоять» или «находиться в вертикальном положении».\\\",\\\"О человеке stehen означает «стоять».\\\",\\\"О предмете stehen может означать, что он стоит вертикально или находится в определённом месте.\\\",\\\"Важно различать: stehen — стоять, sitzen — сидеть, liegen — лежать.\\\"]\",\"study.comparison\":\"[{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"стоять\\\",\\\"example\\\":\\\"Я стою здесь.\\\"},{\\\"word\\\":\\\"sitzen\\\",\\\"meaning\\\":\\\"сидеть\\\",\\\"example\\\":\\\"Он сидит за столом.\\\"},{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"лежать\\\",\\\"example\\\":\\\"Книга лежит там.\\\"},{\\\"word\\\":\\\"stellen\\\",\\\"meaning\\\":\\\"ставить вертикально\\\",\\\"example\\\":\\\"Я ставлю бутылку.\\\"}]\",\"study.important\":\"[\\\"Stehen обозначает состояние или положение, а не действие.\\\",\\\"Поставить предмет вертикально — это stellen, а не stehen.\\\"]\"}",
+    "owner_note": "В DE-слове «stehen» повторялось значение «стоять», а важное замечание содержало бессмысленную замену; исправлены естественные русские формулировки."
+  },
+  "g2/a1/ru|über|idx:608|study.translation, study.explanation, study.examples, study.comparison|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.translation\":\"над • о, об\",\"study.explanation\":\"[\\\"Основная идея: über может означать «над» в пространстве или «о, об» при разговоре о теме.\\\",\\\"В значении местоположения über обычно означает «над»: Die Lampe hängt über dem Tisch. — Лампа висит над столом.\\\",\\\"В разговоре о теме über означает «о, об»: Wir sprechen über das Wetter. — Мы говорим о погоде.\\\",\\\"При движении über может означать «через» или «по»: Das Kind läuft über die Straße. — Ребёнок перебегает через улицу.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Die Lampe hängt über dem Tisch.\\\",\\\"lv\\\":\\\"Лампа висит над столом.\\\"},{\\\"de\\\":\\\"Wir sprechen über das Wetter.\\\",\\\"lv\\\":\\\"Мы говорим о погоде.\\\"},{\\\"de\\\":\\\"Das Kind läuft über die Straße.\\\",\\\"lv\\\":\\\"Ребёнок перебегает через улицу.\\\"},{\\\"de\\\":\\\"Ich freue mich über das Geschenk.\\\",\\\"lv\\\":\\\"Я радуюсь подарку.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"über\\\",\\\"meaning\\\":\\\"над / о, об / через\\\",\\\"example\\\":\\\"Мы говорим о погоде.\\\"},{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"на поверхности\\\",\\\"example\\\":\\\"Книга лежит на столе.\\\"},{\\\"word\\\":\\\"unter\\\",\\\"meaning\\\":\\\"под\\\",\\\"example\\\":\\\"Сумка находится под столом.\\\"},{\\\"word\\\":\\\"von\\\",\\\"meaning\\\":\\\"от; из\\\",\\\"example\\\":\\\"Я слышу это от тебя.\\\"}]\"}",
+    "owner_note": "В DE-предлоге «über» были ошибки «более», «за», «около» и «конец»; исправлены значения «над», «о/об» и «через» с соответствующими примерами."
+  },
+  "g2/a1/ru|um|idx:611|study.explanation, study.important|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation\":\"[\\\"Основная идея: um часто означает «в» при указании точного времени или «вокруг» при указании места.\\\",\\\"С точным временем um означает «в»: um acht Uhr — в восемь часов.\\\",\\\"В значении места um означает «вокруг» или «около».\\\",\\\"В конструкции um ... zu um выражает цель и переводится как «чтобы».\\\"]\",\"study.important\":\"[\\\"С точным временем um означает «в»: um sieben Uhr — в семь часов.\\\",\\\"В конструкции um ... zu ум выражает цель: «чтобы».\\\"]\"}",
+    "owner_note": "В DE-предлоге «um» исходный текст был заменён бессмысленными звукоподражаниями; восстановлены значения времени, места и конструкции um ... zu."
+  },
+  "g2/a1/ru|unter|idx:615|study.examples, study.comparison|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples\":\"[{\\\"de\\\":\\\"Die Tasche ist unter dem Tisch.\\\",\\\"lv\\\":\\\"Сумка находится под столом.\\\"},{\\\"de\\\":\\\"Die Katze liegt unter dem Stuhl.\\\",\\\"lv\\\":\\\"Кошка лежит под стулом.\\\"},{\\\"de\\\":\\\"Unter Freunden sagt man das so.\\\",\\\"lv\\\":\\\"Среди друзей так говорят.\\\"},{\\\"de\\\":\\\"Die Lampe hängt über dem Tisch.\\\",\\\"lv\\\":\\\"Лампа висит над столом.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"unter\\\",\\\"meaning\\\":\\\"под • среди\\\",\\\"example\\\":\\\"Сумка находится под столом.\\\"},{\\\"word\\\":\\\"über\\\",\\\"meaning\\\":\\\"над • о\\\",\\\"example\\\":\\\"Лампа висит над столом.\\\"},{\\\"word\\\":\\\"zwischen\\\",\\\"meaning\\\":\\\"между двумя предметами\\\",\\\"example\\\":\\\"Между домами.\\\"},{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"на поверхности\\\",\\\"example\\\":\\\"На столе.\\\"}]\"}",
+    "owner_note": "Для DE unter исправлены переводы пространственного значения «под» и значения «среди»; в сравнении убрано ошибочное «между»."
+  },
+  "g2/a1/ru|verstehen|idx:621|study.explanation, study.comparison, study.important|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation\":\"[\\\"Основная идея: verstehen означает «понимать».\\\",\\\"Это слово употребляется, когда вы понимаете язык, человека, текст или ситуацию.\\\",\\\"Здесь обычно не нужно использовать «знать» или «уметь»: эти значения чаще передаются словом können.\\\",\\\"Очень распространённая фраза — Ich verstehe. = Я понимаю.\\\"]\",\"study.comparison\":\"[{\\\"word\\\":\\\"verstehen\\\",\\\"meaning\\\":\\\"понимать\\\",\\\"example\\\":\\\"Я тебя понимаю.\\\"},{\\\"word\\\":\\\"können\\\",\\\"meaning\\\":\\\"уметь • мочь\\\",\\\"example\\\":\\\"Я умею плавать.\\\"},{\\\"word\\\":\\\"wissen\\\",\\\"meaning\\\":\\\"знать факт\\\",\\\"example\\\":\\\"Я знаю это.\\\"},{\\\"word\\\":\\\"kennen\\\",\\\"meaning\\\":\\\"знать кого-то или быть знакомым с чем-то\\\",\\\"example\\\":\\\"Я его знаю.\\\"}]\",\"study.important\":\"[\\\"Verstehen означает «понимать», а не «знать» или «уметь».\\\",\\\"Ich verstehe Deutsch означает «Я понимаю немецкий».\\\"]\"}",
+    "owner_note": "Для DE verstehen исправлено значение «понимать» и устранены ошибочные упоминания латышского языка и утверждение о корне слова."
+  },
+  "g2/a1/ru|Wetter|idx:658|study.examples[0].lv; study.examples[4].lv; study.tip|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.examples[0].lv\":null,\"study.examples[4].lv\":null,\"study.tip\":\"[\\\"Говоря о солнце, дожде или температуре на улице, используйте das Wetter.\\\",\\\"Помните: Wie ist das Wetter? = Какая сейчас погода? (это не вопрос о времени).\\\"]\"}",
+    "owner_note": "Для DE Wetter исправлено значение вопроса «Wie ist das Wetter?» с ошибочного «Сколько сейчас времени?» на «Какая сейчас погода?»."
+  },
+  "g2/a1/ru|wie|idx:660|study.explanation; study.examples[0].lv; study.important|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation\":\"[\\\"Основная идея: wie спрашивает о способе или качестве («как»), а в некоторых сочетаниях — о количестве («сколько»).\\\",\\\"В вопросе Wie geht's? слово wie означает «как»: Как дела?\\\",\\\"В сочетаниях wie viel, wie alt и wie lange слово wie участвует в вопросах о количестве, возрасте и продолжительности.\\\",\\\"Wie viel(e) означает «сколько» • Wie alt означает «сколько лет» • Wie lange означает «как долго».\\\",\\\"В сравнении wie означает «как»: groß wie означает «такой же большой, как».\\\"]\",\"study.examples[0].lv\":null,\"study.important\":\"[\\\"Wie viel(e) = сколько • Wie alt = сколько лет • Wie lange = как долго.\\\",\\\"В самостоятельном вопросе wie обычно означает «как», а не «сколько».\\\",\\\"Правильно: Wie geht's? = Как дела?; Wie alt sind Sie? = Сколько вам лет?\\\"]\"}",
+    "owner_note": "Для DE wie исправлены смешанные английские и латышские фрагменты, а также противопоставлены вопросы «как» и «сколько»."
+  },
+  "g2/a1/ru|zu viel|idx:676|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Слишком много",
+    "owner_note": "Для DE zu viel исправлен перевод с неполного «Слишком» на выражение количества «слишком много»."
+  },
+  "g2/a1/ru|zu|idx:668|study.explanation; study.important|GRAMMAR_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"study.explanation\":\"[\\\"Основная идея: zu часто означает «к» или «у», а также употребляется перед инфинитивом.\\\",\\\"С людьми и учреждениями zu часто означает направление «к» или нахождение «у».\\\",\\\"С прилагательными zu означает «слишком»: zu teuer — слишком дорого.\\\",\\\"В конструкции zu + Infinitiv частица zu помогает образовать инфинитив: zu lernen, zu gehen.\\\"]\",\"study.important\":\"[\\\"У слова zu несколько употреблений, поэтому всегда учитывайте конструкцию.\\\",\\\"Zu teuer означает «слишком дорого», а не просто «дорого».\\\"]}",
+    "owner_note": "Для DE zu исправлены грамматическое объяснение инфинитива, значение «слишком» перед прилагательным и ошибочная фраза о «zu teuer»."
+  },
+  "g2/a1/ru|zum|idx:672|lv; study.translation; study.explanation; study.examples[].lv; study.comparison; study.tip; study.important|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"К • у\",\"study.translation\":\"К • у\",\"study.explanation\":\"[\\\"Zum — это сокращение предлога zu и артикля dem.\\\",\\\"Полная форма: zu dem.\\\",\\\"Zum употребляется с существительными мужского и среднего рода в дательном падеже, обычно для обозначения направления, цели или места.\\\",\\\"Например, zum Arzt означает «к врачу», а zum Bahnhof — «на вокзал».\\\",\\\"Вместо полной формы zu dem обычно используется сокращённая форма zum.\\\"]\",\"study.examples[].lv\":null,\"study.comparison\":\"[{\\\"word\\\":\\\"zum\\\",\\\"meaning\\\":\\\"к • у\\\",\\\"example\\\":\\\"zum Arzt — к врачу\\\"},{\\\"word\\\":\\\"zur\\\",\\\"meaning\\\":\\\"к • у\\\",\\\"example\\\":\\\"zur Schule — в школу\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"к • у\\\",\\\"example\\\":\\\"zu Hause — дома\\\"},{\\\"word\\\":\\\"nach\\\",\\\"meaning\\\":\\\"в (с городами и странами без артикля)\\\",\\\"example\\\":\\\"nach Berlin — в Берлин\\\"},{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"у • при нахождении в месте\\\",\\\"example\\\":\\\"beim Arzt — у врача\\\"}]\",\"study.tip\":\"[\\\"zu + dem → zum\\\",\\\"Для существительных женского рода используется zu + der → zur.\\\"]\",\"study.important\":\"[\\\"Zum = zu dem; форма употребляется с существительными мужского и среднего рода в дательном падеже.\\\",\\\"Zum может обозначать направление или цель: к врачу, на вокзал, к другу.\\\",\\\"Для существительных женского рода используется zur: zur Bank, zur Post.\\\",\\\"Не путайте zum с bei («у кого-то или в каком-то месте») и nach («в город или страну» без артикля).\\\"]\"}",
+    "owner_note": "Для DE zum исправлены разбор zu + dem, русские переводы и примеры; удалены ошибочные «К», «В», латышский текст и неверное значение bei."
+  },
+  "g2/a1/ru|zumachen|idx:673|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Закрывать",
+    "owner_note": "Для DE zumachen исправлен ошибочный перевод «Крупный план» на глагол действия «закрывать»."
+  },
+  "g2/a1/sk|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri nemeckom slove „ab“ sú významy „Od niekoho/niečoho“ a „Pôvod“ v slovenčine prirodzené a významovo správne."
+  },
+  "g2/a1/sk|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kontrast • Námietka • Avšak",
+    "owner_note": "Nemecké „aber“ vyjadruje kontrast, námietku alebo význam „avšak“; „Proti“ nie je v tomto zozname správnym prekladom."
+  },
+  "g2/a1/sk|a1-also|a1.card.a1-also.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri nemeckom slove „also“ sú „Takže“ a „Preto“ prirodzené slovenské ekvivalenty významu „teda“ alebo „v dôsledku toho“."
+  },
+  "g2/a1/sk|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pri • Na • K",
+    "owner_note": "Nemecké „an“ znamená podľa väzby najmä „pri“, „na“ alebo „k“; „Od“, „Do“ a „Aktuálne“ sú nesprávne významy."
+  },
+  "g2/a1/sk|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri nemeckom „an“ sú spojenia „Na povrchu“ a „Na okraji“ správne situačné slovenské preklady; uvedené „Na“ je tiež gramaticky možné."
+  },
+  "g2/a1/sk|a1-auf|a1.card.a1-auf.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ak je niečo pri zvislom povrchu, často treba použiť „an“ • Ak je niečo vo vnútri, treba použiť „in“.",
+    "owner_note": "Vysvetlenie k nemeckému „auf“ musí rozlišovať použitie „an“ pri zvislom povrchu a „in“ vo vnútri; pôvodná druhá časť nesprávne hovorí o vstupe."
+  },
+  "g2/a1/sk|a1-aufs|a1.card.a1-aufs.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Na • Na to • Hore",
+    "owner_note": "Nemecké „aufs“ je skrátené „auf das“ a vyjadruje smer alebo umiestnenie „na“, prípadne pohyb „hore“; opakované „Kam?“ nie je slovenský preklad."
+  },
+  "g2/a1/sk|a1-aufs|a1.card.a1-aufs.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Na • Na to • Hore",
+    "owner_note": "Pri nemeckom „aufs“ treba uviesť slovenské predložkové významy „na“ a „na to“, ako aj smerový význam „hore“, nie iba otázku „Kam?“."
+  },
+  "g2/a1/sk|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Z • Zvnútra",
+    "owner_note": "Nemecké „aus“ znamená pôvod alebo pohyb smerom von, čo sa po slovensky vyjadruje „z“ alebo „zvnútra“; „S“ označuje iný význam a „Vonku“ znamená miesto, nie pôvod."
+  },
+  "g2/a1/sk|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Z • Zvnútra",
+    "owner_note": "Pre nemecké „aus“ sú v slovenčine správne významy „z“ a „zvnútra“; pôvodné „S“ a „Vonku“ nezodpovedajú jeho predložkovému významu."
+  },
+  "g2/a1/sk|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "návšteva • návšteva • vizita",
+    "owner_note": "Pri nemeckom podstatnom mene „Besuch“ je potrebný základný slovenský tvar „návšteva“, nie inštrumentál „návštevou“."
+  },
+  "g2/a1/sk|a1-besuchen|a1.card.a1-besuchen.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "navštíviť miesto alebo podujatie • navštíviť osobu",
+    "owner_note": "Sloveso „besuchen“ sa pri udalosti prirodzene prekladá ako „navštíviť podujatie“; „navštíviť osobu“ je správne."
+  },
+  "g2/a1/sk|a1-bis|a1.card.a1-bis.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri spojke a predložke „bis“ sú príklady „Bis jetzt = doteraz“ a „Bis dass = kým“ v slovenčine prijateľné."
+  },
+  "g2/a1/sk|a1-bleiben|a1.card.a1-bleiben.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ich bleibe hier = zostávam tu • Ich warte hier = čakám tu.",
+    "owner_note": "Pri slovese „bleiben“ je v druhom príklade preklep „worth“; správne nemecké sloveso je „warte“ a slovenský význam je „čakám tu“."
+  },
+  "g2/a1/sk|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Priniesť • Doniesť",
+    "owner_note": "Sloveso „bringen“ znamená „priniesť“ alebo „doniesť“; „odniesť“ zodpovedá skôr nemeckému „wegbringen“."
+  },
+  "g2/a1/sk|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Priniesť • Doniesť",
+    "owner_note": "Pri nemeckom slovese „bringen“ je druhý slovenský ekvivalent „doniesť“, nie „odniesť“, ktoré vyjadruje opačný smer."
+  },
+  "g2/a1/sk|a1-da|a1.card.a1-da.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tam • Tam • Tu (všeobecne)",
+    "owner_note": "Nemecké príslovkové zámeno „da“ môže znamenať „tam“ aj „tu“; druhé „Tu“ v aktuálnom texte má byť „Tam“."
+  },
+  "g2/a1/sk|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ktorý • Ktorá • Ktorú",
+    "owner_note": "Pri nemeckom slove „das“ je v tomto porovnaní nesprávne „Kto“ a „Koho“; slovenské tvary pre význam „ktorý/kura/kuru“ sú „Ktorý • Ktorá • Ktorú“."
+  },
+  "g2/a1/sk|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lebo • Pretože",
+    "owner_note": "Spojka „dass“ je v slovenčine významovo reprezentovaná výrazmi „lebo“ a „pretože“; duplicitné „Pretože“ treba odstrániť."
+  },
+  "g2/a1/sk|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Neurčitý člen • Jeden • Nejaký",
+    "owner_note": "Nemecké „ein“ znamená neurčitý člen, „jeden“ alebo „nejaký“; „niekto“ je nesprávny preklad a zodpovedá skôr slovu „jemand“."
+  },
+  "g2/a1/sk|a1-ein|a1.card.a1-ein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pri nemeckom slove „ein“ sú slovenské významy „neurčitý člen“, „jeden“ a „niekto“ správne a prirodzené."
+  },
+  "g2/a1/sk|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Raz • Jedenkrát",
+    "owner_note": "Nemecké „einmal“ znamená „raz“ alebo „jedenkrát“; aktuálne opakovanie „Raz“ neposkytuje dve odlišné slovenské ekvivalencie."
+  }
+}

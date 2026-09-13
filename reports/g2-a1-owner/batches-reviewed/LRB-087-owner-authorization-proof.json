@@ -1,0 +1,26 @@
+{
+  "batch_id": "LRB-087",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T13:35:00.000Z",
+  "linguisticVerdict": "LRB_087_FULL_50_45_5_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 45,
+  "nelabot": 5,
+  "pending": 0,
+  "antiBulkPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "ru": 28,
+    "sk": 22
+  },
+  "unique_cards": 38,
+  "scope": "sagen..zumachen (28 RU) + ab..einmal (22 SK) — semantic, grammar, wrong-language, multi-translation, composite-scope fixes",
+  "productionSource": "data/ru/a1.js + data/sk/a1.js (read-only review)",
+  "lunaAuditScript": "scripts/temp-audit-lrb087-luna.js",
+  "lunaModel": "gpt-5.6-luna",
+  "lunaTokens": 30779,
+  "note": "OWNER_AUTHORIZATION_STATUS=APPROVED. 45 LABOT / 5 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+}
