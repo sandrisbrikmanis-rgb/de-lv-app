@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-092",
-  "phase": "PENDING_5125_REVIEW",
+  "phase": "GALA_PASS",
   "input_csv_sha256": "b5b54d5e6ea2951418e1e77a44b0e55b489f7c7f70b34e76724110bff01e6960",
   "input_row_count": 50,
   "finding_stable_ids": [
@@ -60,5 +60,10 @@
   "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
   "owner_authorization_status": "APPROVED",
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
-  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv"
+  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "linguistic_verdict": "LRB_092_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "overrides_sha256": "e755e57c0d3f255dd9090663087839a8e1723de0d1a4a66f21fe49b1bc1483d4",
+  "gala_pass": true,
+  "updated_at": "2026-09-13T09:23:23.060Z",
+  "source_commit": "07aa224bd4bc4f4d86f23901adf2ee0a84d89266"
 }
