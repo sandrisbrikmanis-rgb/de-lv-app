@@ -3,7 +3,7 @@
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-13T11:46:00.000Z",
-  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "linguisticVerdict": "LRB_042_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 48,
   "nelabot": 2,
@@ -39,5 +39,5 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-042-residual-wrong-language-proof.json",
-  "note": "GPT-5.6 Luna copy/paste applied. 48 LABOT / 2 NELABOT / 0 PENDING (Wasser, Baum). NOT LRB_042_FULL_50_50_LINGUISTIC_REVIEW_PASS — pending ChatGPT PDF re-review. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Gala verdict LRB_042_FULL_50_50_LINGUISTIC_REVIEW_PASS. 48 LABOT / 2 NELABOT / 0 PENDING (Wasser, Baum). DE/production/Crowdin/ingest/apply unchanged."
 }
