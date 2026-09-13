@@ -1,0 +1,95 @@
+{
+  "batch_id": "LRB-088",
+  "base_commit": "e6d50f6081d4a7eb85f44c4c984b11c518ccfae1",
+  "verdict": "FAIL_REPAIR_REQUIRED",
+  "round": 3,
+  "mode": "EXACT_COPY_PASTE_ONLY",
+  "instructions": [
+    "Do not perform linguistic analysis.",
+    "Do not change any card content value.",
+    "Apply the owner-note mapping to every duplicate of each card_id.",
+    "Regenerate only LRB-088 OWNER artifacts and recompute gates."
+  ],
+  "expected_generic_reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
+  "owner_note_by_card": {
+    "a1-einmal": "Slovenské „raz“ pokrýva jeden výskyt aj neurčitú minulosť; synonymné „jedenkrát“ sa v hesle neduplikuje.",
+    "a1-eis": "Pilná karta presne rozlišuje významy „ľad“ a „zmrzlina“ a opravuje všetky príklady aj vysvetlenia.",
+    "a1-erst": "Pilná karta rozlišuje časové „až/iba“ od postupnosti „najprv“.",
+    "a1-es": "Pilná karta vysvetľuje zámeno „es“ aj jeho použitie v neosobných vetách bez zámeny s nemeckým „ich“.",
+    "a1-essen-study": "Pilná karta rozlišuje podstatné meno „das Essen“ od slovesa „essen“.",
+    "a1-etwas": "Pilná karta rozlišuje „niečo“ od stupňovacieho „trochu“ a opravuje úplný obsah.",
+    "a1-euch": "Pilná karta zachováva množné číslo a presne rozlišuje akuzatívne „vás“ od datívneho „vám“.",
+    "a1-fahren": "Pilná karta zachováva význam jazdy dopravou aj význam viezť alebo odviezť osobu.",
+    "a1-finden": "Pilná karta rozlišuje nájdenie veci od vyjadrenia názoru.",
+    "a1-frau": "Pilná karta rozlišuje ženu ako osobu od manželky a opravuje všetky príklady.",
+    "a1-fuer": "Pilná karta rozlišuje slovenské „pre“ a „za“ a zachováva väzbu s akuzatívom.",
+    "a1-ganz-study": "Pilná karta rozlišuje „celý“, „úplne“ a „celkom“ od zámena „alles“.",
+    "a1-gefallen-study": "Pilná karta opravuje konštrukciu „gefallen“: páčiaca sa vec je podmet a osoba je v datíve.",
+    "a1-gleich": "Pilná karta rozlišuje časové „hneď“ od porovnávacieho „rovnaký“.",
+    "a1-halten": "Pilná karta rozlišuje držanie, zastavenie dopravného prostriedku, „anhalten“ a konštrukciu „für ... halten“.",
+    "a1-heissen": "Pilná karta zachováva významy „volať sa“ a „znamenať“ a opravuje porovnania.",
+    "a1-hoeren-study": "Pilná karta prirodzene rozlišuje „počuť“ od „počúvať“.",
+    "a1-huebsch": "Pilná karta presne vysvetľuje vzhľadový význam „hübsch“ a opravuje gramatiku príkladov.",
+    "a1-ihr": "Pilná karta rozlišuje množné „vy“, datívne „jej“ a privlastňovacie „jej“ bez zmeny osoby.",
+    "a1-im": "Pilná karta vysvetľuje „im = in dem“, datív a polohu na otázku „kde?“.",
+    "a1-in": "Pilná karta rozlišuje polohu „v“ od smeru „do“.",
+    "a1-ins": "Pilná karta vysvetľuje „ins = in das“, akuzatív a smer na otázku „kam?“.",
+    "a1-kein": "Pilná karta prirodzene vysvetľuje záporný člen „kein“ a jeho rozdiel od „nicht“."
+  },
+  "artifact_operations": [
+    {
+      "files": [
+        "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-gala-cards.json",
+        "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-approved-overrides.json"
+      ],
+      "selector": "all 50 rows",
+      "operation": "replace reason with owner_note_by_card[cardId]",
+      "expected_result": "OWNER_NOTE_ALIGNMENT=50/50; OWNER_NOTE_DRIFT=0; OWNER_NOTE_UNIQUE=23"
+    },
+    {
+      "file": "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-gala-cards.json",
+      "selector": "all 50 cards",
+      "operation": "delete sourceCard property",
+      "expected_result": "SOURCE_CARD_FIELDS=0"
+    },
+    {
+      "files": [
+        "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-view.md",
+        "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-corrections.md"
+      ],
+      "selector": "all 50 rows",
+      "operation": "replace generic reason with owner_note_by_card[card_id]"
+    },
+    {
+      "file": "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-review-proof.json",
+      "path": "note",
+      "expected_old": "OWNER copy/paste corrections applied. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=27). DE/production/Crowdin/ingest/apply unchanged.",
+      "new": "OWNER copy/paste corrections applied. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=23). DE/production/Crowdin/ingest/apply unchanged."
+    }
+  ],
+  "must_remain_unchanged": {
+    "card_content": "all native/lv/study/comparison values",
+    "decisions_owner_notes": "reports/g2-a1-owner/batches-reviewed/LRB-088-decisions.csv and scripts/data/g2-a1-owner-pending/LRB-088-decisions.json",
+    "restricted_zones": [
+      "data/**",
+      "www/data/**",
+      "DE source",
+      "Crowdin",
+      "ingest/apply",
+      "scripts",
+      "other LRB batches"
+    ]
+  },
+  "required_fresh_gates": {
+    "ROWS": "50/50",
+    "UNIQUE_CARDS": 23,
+    "OWNER_NOTE_ALIGNMENT": "50/50",
+    "OWNER_NOTE_DRIFT": 0,
+    "OWNER_NOTE_UNIQUE": 23,
+    "SOURCE_CARD_FIELDS": 0,
+    "OWNER_NEW_DRIFT": 0,
+    "ANTI_BULK": "PASS",
+    "pass": true
+  },
+  "gala_pass": false
+}
