@@ -39,5 +39,5 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-046-residual-wrong-language-proof.json",
-  "note": "GPT-5.6 Luna copy/paste applied. 49 LABOT / 1 NELABOT / 0 PENDING (Kraftwagen). NOT LRB_046_FULL_50_50_LINGUISTIC_REVIEW_PASS — pending ChatGPT PDF re-review. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Gala verdict LRB_046_FULL_50_50_LINGUISTIC_REVIEW_PASS. 49 LABOT / 1 NELABOT / 0 PENDING (Kraftwagen). DE/production/Crowdin/ingest/apply unchanged."
 }

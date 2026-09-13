@@ -39,5 +39,5 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-044-residual-wrong-language-proof.json",
-  "note": "GPT-5.6 Luna copy/paste applied. 48 LABOT / 2 NELABOT / 0 PENDING (Erde, Geld). NOT LRB_044_FULL_50_50_LINGUISTIC_REVIEW_PASS — pending ChatGPT PDF re-review. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Gala verdict LRB_044_FULL_50_50_LINGUISTIC_REVIEW_PASS. 48 LABOT / 2 NELABOT / 0 PENDING (Erde, Geld). DE/production/Crowdin/ingest/apply unchanged."
 }

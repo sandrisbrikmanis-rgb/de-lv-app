@@ -39,5 +39,5 @@
     "anti_bulk": "PASS"
   },
   "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-045-residual-wrong-language-proof.json",
-  "note": "GPT-5.6 Luna round-2 copy/paste applied. 48 LABOT / 2 NELABOT / 0 PENDING (gesund, Gramm). Round-2 composite fix: haben, halten, heißen, hoch. PDF paste-mode PASS. NOT LRB_045_FULL_50_50_LINGUISTIC_REVIEW_PASS — pending Gala. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Gala verdict LRB_045_FULL_50_50_LINGUISTIC_REVIEW_PASS. 48 LABOT / 2 NELABOT / 0 PENDING (gesund, Gramm). Round-2 composite fix: haben, halten, heißen, hoch. DE/production/Crowdin/ingest/apply unchanged."
 }
