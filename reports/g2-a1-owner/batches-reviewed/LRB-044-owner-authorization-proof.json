@@ -3,7 +3,7 @@
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-13T12:20:00.000Z",
-  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "linguisticVerdict": "LRB_044_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "labot": 48,
   "nelabot": 2,
