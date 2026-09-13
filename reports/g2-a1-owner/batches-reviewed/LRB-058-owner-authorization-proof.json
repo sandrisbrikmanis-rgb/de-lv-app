@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-058",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T17:01:18.678Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "lb": 50
+  },
+  "unique_cards": 50,
+  "scope": "Wasser..Augenfarbe (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/lb/a1.js",
+  "input_csv_sha256": "d6a242072144dbc89bd80404452ed9445e0ed0250d6ecbd4def5ef74ebd76a09",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-058-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-058-input.csv",
+  "note": "Owner authorization APPROVED. LB batch 1 (post ES LRB-057). First LB slice from 7737 pool (659 LB rows remain). GPT-5.6 Luna linguistic review pending. NOT LRB_058_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
