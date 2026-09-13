@@ -1,6 +1,6 @@
 {
   "batchId": "LRB-089",
-  "sourceCommit": "9ed06ae33df62be7f68279bd26dc90b6f89882f9",
+  "sourceCommit": "841eff8829636c6a866fbf03286e51b38cea8e4a",
   "reviewer": "GPT-5.6 Luna",
   "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
   "cards": [
@@ -3664,7 +3664,7 @@
             },
             {
               "de": "Das ist ganz natürlich.",
-              "lv": "To je úplne prirodzené alebo normálne."
+              "lv": "To je úplne prirodzené."
             }
           ],
           "tip": [
@@ -3787,7 +3787,7 @@
             },
             {
               "de": "Das ist ganz natürlich.",
-              "lv": "To je úplne prirodzené alebo normálne."
+              "lv": "To je úplne prirodzené."
             }
           ],
           "tip": [

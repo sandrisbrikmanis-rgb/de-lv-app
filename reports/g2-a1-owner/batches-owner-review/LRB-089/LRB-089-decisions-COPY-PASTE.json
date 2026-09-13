@@ -1,8 +1,9 @@
 {
   "batch_id": "LRB-089",
-  "base_commit": "9ed06ae33df62be7f68279bd26dc90b6f89882f9",
+  "base_commit": "841eff8829636c6a866fbf03286e51b38cea8e4a",
   "verdict": "FAIL_REPAIR_REQUIRED",
   "mode": "OWNER_EXACT_COPY_PASTE_ONLY",
+  "round": 3,
   "instructions": {
     "linguistic_reanalysis": false,
     "require_expected_old_match": true,
@@ -11,35 +12,29 @@
     "rebuild_owner_artifacts_after_apply": true
   },
   "content_replacements": [
-    {"card_id":"a1-koennen","path":"study.comparison[3].meaning","expected_old":"Vedieť","new":"Vedieť (fakt)"},
-    {"card_id":"a1-lang","path":"study.important[0]","expected_old":"lang = dlhý pri rozmere ALEBO dlhý/dlho pri trvaní – rozhoduje kontext.","new":"lang = dlhý pri rozmere ALEBO dlhý či dlho pri trvaní – rozhoduje kontext."},
-    {"card_id":"a1-mann","path":"study.explanation[1]","expected_old":"Ak je to jednoducho záležitosť pohlavia alebo osoby, Mann = muž.","new":"Keď ide o osobu mužského pohlavia, Mann znamená „muž“."},
-    {"card_id":"a1-mann","path":"study.explanation[3]","expected_old":"Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.","new":"Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela."},
-    {"card_id":"a1-mann","path":"study.explanation[5]","expected_old":"Ženský tvar die Frau má podobný dvojitý význam: žena AJ manželka.","new":"Ženský tvar die Frau má podobný dvojitý význam: žena aj manželka."},
-    {"card_id":"a1-mann","path":"study.examples[0].lv","expected_old":"Je to milý muž.","new":"On je milý muž."},
-    {"card_id":"a1-mann","path":"study.tip[0]","expected_old":"Privlastňovacie zámeno (mein/dein/ihr Mann) takmer vždy označuje manžela.","new":"Privlastňovacie zámeno (mein, dein alebo ihr Mann) takmer vždy označuje manžela."},
-    {"card_id":"a1-nach","path":"study.comparison[1].meaning","expected_old":"K • Ku","new":"K • Do"},
-    {"card_id":"a1-natuerlich","path":"study.explanation[3]","expected_old":"Kontext (odpoveď/potvrdenie alebo popis) označuje správny význam.","new":"Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."},
-    {"card_id":"a1-natuerlich","path":"study.tip[0]","expected_old":"Ako samostatné slovo, potvrdzujúce alebo zodpovedajúce → samozrejme.","new":"Ako samostatná potvrdzujúca odpoveď → samozrejme."},
-    {"card_id":"a1-seite","path":"study.examples[0].lv","expected_old":"Otvorte si stranu dvadsať.","new":"Otvorte si dvadsiatu stranu."},
-    {"card_id":"a1-sich","path":"lv","expected_old":"Seba • Sebe","new":"Sa • Si • Seba • Sebe"},
-    {"card_id":"a1-sich","path":"study.translation","expected_old":"Seba • Sebe","new":"Sa • Si • Seba • Sebe"},
-    {"card_id":"a1-sich","path":"study.explanation[1]","expected_old":"V slovenčine sa často prekladá ako „seba“ alebo „sebe“.","new":"V slovenčine sa podľa kontextu prekladá ako „sa“, „si“, „seba“ alebo „sebe“."},
-    {"card_id":"a1-sich","path":"study.comparison[0].meaning","expected_old":"Seba • Sebe","new":"Sa • Si • Seba • Sebe"},
-    {"card_id":"a1-sich","path":"study.comparison[1].meaning","expected_old":"Mňa • Seba pri ich","new":"Ma • Mňa • Sa • Seba (pri ich)"},
-    {"card_id":"a1-sich","path":"study.comparison[2].meaning","expected_old":"Teba • Seba pri du","new":"Ťa • Teba • Sa • Seba (pri du)"},
-    {"card_id":"a1-sich","path":"study.comparison[3].meaning","expected_old":"Jeho","new":"Ho • Jeho"},
-    {"card_id":"a1-sich","path":"study.tip.text","expected_old":"Pamätaj: činnosť zameraná na seba → sich/mich/dich.","new":"Pamätaj: reflexívny tvar sa mení podľa osoby → mich, dich alebo sich."},
-    {"card_id":"a1-sich","path":"study.important[1]","expected_old":"Líši sa v závislosti od osoby: ich → mich, du → dich, er/sie/es → sich.","new":"Tvar sa mení podľa osoby: ich → mich, du → dich, er, sie alebo es → sich."},
-    {"card_id":"a1-uhr","path":"lv","expected_old":"Hodiny","new":"Hodiny • Hodinky"},
-    {"card_id":"a1-uhr","path":"study.translation","expected_old":"Hodiny","new":"Hodiny • Hodinky"},
-    {"card_id":"a1-uhr","path":"study.examples[5].lv","expected_old":"Hodiny","new":"Hodiny • Hodinky"},
-    {"card_id":"a1-was","path":"study.important[2]","expected_old":"was für (ein/eine) znamená „aký/aká/aké“ alebo „čo za“ a pýta sa na druh či vlastnosť (Was für ein Film ist das? = Aký je to film?).","new":"was für (ein alebo eine) znamená „aký, aká alebo aké“ či „čo za“ a pýta sa na druh alebo vlastnosť (Was für ein Film ist das? = Aký je to film?)."}
+    {
+      "card_id": "a1-natuerlich",
+      "path": "study.examples[5].lv",
+      "expected_old": "To je úplne prirodzené alebo normálne.",
+      "new": "To je úplne prirodzené."
+    }
   ],
   "row_note_replacements": [
-    {"finding_member_id":"G2A1P3-SK-0118","card_id":"a1-sich","expected_old":"DE „sich“ sa podľa pádu prekladá ako „seba“ alebo „sebe“; „pre seba“ je predložkové spojenie s významom „für sich“, nie základný datívny tvar.","new":"DE „sich“ sa v slovenčine podľa kontextu vyjadruje krátkymi tvarmi „sa/si“ aj dlhými tvarmi „seba/sebe“; „pre seba“ by znamenalo „für sich“."},
-    {"finding_member_id":"G2A1P3-SK-0119","card_id":"a1-sich","expected_old":"Pri DE „sich“ treba rozlíšiť slovenské tvary „seba“ a „sebe“; aktuálne „pre seba“ mení význam na „für sich“.","new":"Pri DE „sich“ treba zachovať krátke aj dlhé reflexívne tvary „sa • si • seba • sebe“; spojenie „pre seba“ by zmenilo význam na „für sich“."},
-    {"finding_member_id":"G2A1P3-SK-0124","card_id":"a1-uhr","expected_old":"DE „Uhr“ sa po slovensky prekladá ako „hodiny“, preto prázdne pole treba doplniť.","new":"DE „Uhr“ podľa kontextu znamená „hodiny“ alebo „hodinky“, preto treba prázdne pole doplniť hodnotou „Hodiny • Hodinky“."}
+    {"finding_member_id":"G2A1P3-SK-0080","card_id":"a1-koennen","expected_old":"Pri nemeckom slove „können“ sú významy „byť schopný“ a „vedieť“ správne vystihnuté slovenskými prekladmi.","new":"DE „können“ vyjadruje možnosť aj schopnosť alebo zručnosť; presná slovenská heslová hodnota je „Môcť • Vedieť“."},
+    {"finding_member_id":"G2A1P3-SK-0081","card_id":"a1-koennen","expected_old":"Pre „können“ je dvojica „Byť schopný • Vedieť“ prirodzená a významovo zodpovedá schopnosti aj ovládaniu nejakej činnosti.","new":"V study.translation pre DE „können“ treba zachovať možnosť aj schopnosť alebo zručnosť; presná hodnota je „Môcť • Vedieť“."},
+    {"finding_member_id":"G2A1P3-SK-0088","card_id":"a1-lang","expected_old":"Nemecké „lang“ označuje dĺžku aj časové trvanie; opakovanie „Dlhý“ nerozlišuje druhý význam, ktorý lepšie vyjadruje „dlho trvajúci“.","new":"DE „lang“ označuje rozmer aj časové trvanie; hodnota „Dlhý (rozmer) • Dlhý (trvanie)“ oba významy rozlišuje bez pridania cudzieho významu."},
+    {"finding_member_id":"G2A1P3-SK-0089","card_id":"a1-lang","expected_old":"Pri „lang“ treba okrem priestorovej dĺžky uviesť aj význam dlhého trvania, preto druhý preklad nahrádza duplicitné „Dlhý“.","new":"V study.translation pre DE „lang“ hodnota „Dlhý (rozmer) • Dlhý (trvanie)“ presne odlišuje priestorovú dĺžku od časového trvania."},
+    {"finding_member_id":"G2A1P3-SK-0094","card_id":"a1-liegen","expected_old":"Nemecké „liegen“ vyjadruje polohu „nachádzať sa“ alebo „ležať“; „Buďte“ je český imperatív a „Spať“ významovo nezodpovedá slovu.","new":"DE „liegen“ vyjadruje polohu „nachádzať sa“ alebo „ležať“; „Buďte“ je imperatív slovesa „byť“ a „Spať“ znamená schlafen, preto oba pôvodné tvary boli nesprávne."},
+    {"finding_member_id":"G2A1P3-SK-0096","card_id":"a1-machen","expected_old":"Nemecké „machen“ znamená všeobecne „robiť“ a v zmysle tvorby či výroby aj „vyrábať“; opakované „Robiť“ neposkytuje druhý význam.","new":"DE „machen“ znamená všeobecne „robiť“ a pri tvorbe aj „vytvárať“; hodnota „Robiť • Vytvárať“ odstraňuje pôvodný duplicitný preklad."},
+    {"finding_member_id":"G2A1P3-SK-0097","card_id":"a1-machen","expected_old":"Pri slove „machen“ treba rozlíšiť slovenské významy „robiť“ a „vyrábať“, pretože súčasné „Robiť • Robiť“ je duplicitné.","new":"V study.translation pre DE „machen“ treba rozlíšiť všeobecnú činnosť od tvorby; presná hodnota je „Robiť • Vytvárať“."},
+    {"finding_member_id":"G2A1P3-SK-0116","card_id":"a1-seite","expected_old":"DE „Seite“ môže znamenať „strana“ v zmysle strany textu aj strany alebo boku; „Strana • Strana“ je v slovenčine správne.","new":"DE „Seite“ označuje stránku textu alebo webu aj stranu či bok; hodnota „Stránka • Strana“ tieto významy rozlišuje a odstraňuje pôvodné mechanické opakovanie."},
+    {"finding_member_id":"G2A1P3-SK-0117","card_id":"a1-seite","expected_old":"Pre DE „Seite“ je opakovanie slovenského slova „strana“ odôvodnené, pretože pokrýva význam stránky aj strany alebo boku.","new":"V study.translation pre DE „Seite“ hodnota „Stránka • Strana“ zachováva význam stránky aj strany alebo boku bez duplicitnej heslovej hodnoty."},
+    {"finding_member_id":"G2A1P3-SK-0120","card_id":"a1-sicher","expected_old":"DE „sicher“ znamená „bezpečný“ alebo „istý“; „Určite“ je slovenská príslovka, nie zodpovedajúci prídavný tvar.","new":"DE „sicher“ je podľa kontextu prídavné meno „bezpečný“ alebo príslovka „určite“; hodnota „Bezpečný • Určite“ zachováva obe slovné druhy zo zdroja."},
+    {"finding_member_id":"G2A1P3-SK-0121","card_id":"a1-sicher","expected_old":"Pre DE „sicher“ sú potrebné prídavné mená „bezpečný“ a „istý“; súčasné „Bezpečné • Určite“ obsahuje nesprávny rod a nesprávny slovný druh.","new":"V study.translation pre DE „sicher“ hodnota „Bezpečný • Určite“ opravuje rod prvého tvaru a správne zachováva príslovkový druhý význam."},
+    {"finding_member_id":"G2A1P3-SK-0125","card_id":"a1-um","expected_old":"DE „um“ vyjadruje približný čas alebo časový údaj, preto sú vhodné preklady „okolo • o“, nie „približne • hodiny“.","new":"DE „um“ pri presnom čase znamená „o“ a pri mieste „okolo“; približný čas v tejto karte vyjadruje „gegen“, preto je presná hodnota „Okolo • O“."},
+    {"finding_member_id":"G2A1P3-SK-0128","card_id":"a1-vor","expected_old":"DE „vor“ má význam „pred“ pri časovom určení a „vpredu“ pri polohe; opakovanie „predtým“ druhý význam nevyjadruje.","new":"DE predložka „vor“ znamená „pred“ pri čase aj mieste; hodnota „Pred (čas) • Pred (miesto)“ odlišuje oba kontexty, kým „predtým“ je príslovka."},
+    {"finding_member_id":"G2A1P3-SK-0130","card_id":"a1-vor","expected_old":"Pre DE „vor“ treba rozlíšiť časový význam „pred“ od miestneho významu „vpredu“, nie uvádzať dvakrát „predtým“.","new":"V study.translation pre DE predložku „vor“ presná hodnota „Pred (čas) • Pred (miesto)“ zachováva časový aj miestny význam."},
+    {"finding_member_id":"G2A1P3-SK-0131","card_id":"a1-was","expected_old":"DE „was“ znamená „čo“ alebo zvolacie „čože“; „kto“ patrí k nemeckému slovu wer.","new":"DE opytovacie zámeno „was“ v tejto karte znamená „čo“; na osoby sa používa „wer“, preto je presná heslová hodnota „Čo“."}
   ],
   "required_artifact_updates": [
     "reports/g2-a1-owner/batches-owner-review/LRB-089/LRB-089-decisions-COPY-PASTE.json",
@@ -55,5 +50,12 @@
     "reports/g2-a1-owner/manifests/LRB-089-start.json",
     "reports/g2-a1-owner/parallel-checkpoint.json"
   ],
-  "forbidden_changes": ["data/**","www/data/**","German source content","Crowdin","ingest/apply","scripts","LRB-090","LRB-091","LRB-092"]
+  "forbidden_changes": ["data/**","www/data/**","German source content","Crowdin","ingest/apply","scripts","LRB-090","LRB-091","LRB-092"],
+  "post_apply_requirements": [
+    "Recompute all gates from the post-repair owner_new merge.",
+    "Require ROWS=50/50, LABOT=50, NELABOT=0, PENDING=0 and UNIQUE_CARDS=27.",
+    "Require exact cross-artifact equality and zero owner_new drift.",
+    "Require no wrong-language, semantic, DE-target, duplicate or accent violations.",
+    "Do not claim GALA PASS; return the commit for independent verification."
+  ]
 }

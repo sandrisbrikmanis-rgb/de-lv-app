@@ -7,10 +7,10 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-13T12:17:02.438Z
-**Source commit:** `9ed06ae33df62be7f68279bd26dc90b6f89882f9`
+**Generated:** 2026-09-13T12:33:21.554Z
+**Source commit:** `841eff8829636c6a866fbf03286e51b38cea8e4a`
 **Branch:** `cursor/lrb-089-owner-authorization-ed35`
-**Overrides SHA256:** `31d01aca24eb18bb64572799b9c0899120c67eda9a0ec8f7799f51b05d3e508f`
+**Overrides SHA256:** `9b1a79e1d0d37c4ff58c303e8a021a7f8f9f2116e2df45ce0ef6ee429bdd783e`
 **Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
@@ -4015,7 +4015,7 @@
 **CURRENT (captured scope):** Samozrejme • Prirodzené
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Samozrejme • Prirodzený","study":{"id":"a1-natuerlich","layout":"standardStudy","translation":"Samozrejme • Prirodzený","explanation":["Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.","V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).","Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).","Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."],"examples":[{"de":"Kommst du mit? – Natürlich!","lv":"Ideš s nami? – Samozrejme!"},{"de":"Das ist eine natürliche Reaktion.","lv":"Je to prirodzená reakcia."},{"de":"Natürlich helfe ich dir.","lv":"Samozrejme ti pomôžem."},{"de":"Sie hat natürliche rote Haare.","lv":"Má prirodzené červené vlasy."},{"de":"Natürlich kann ich das machen.","lv":"Samozrejme to môžem urobiť."},{"de":"Das ist ganz natürlich.","lv":"To je úplne prirodzené alebo normálne."}],"tip":["Ako samostatná potvrdzujúca odpoveď → samozrejme.","Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."],"important":["natürlich = samozrejme ako príslovka ALEBO prirodzený ako prídavné meno.","Natürlich! ako samostatná odpoveď znamená „Samozrejme!“"],"sectionAccents":{"explanation":{"blue":["natürlich"]},"examples":[{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürlich"]},"lv":{}}],"tip":[{},{}],"important":[{},{"blue":["Natürlich"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Samozrejme • Prirodzený","study":{"id":"a1-natuerlich","layout":"standardStudy","translation":"Samozrejme • Prirodzený","explanation":["Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.","V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).","Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).","Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."],"examples":[{"de":"Kommst du mit? – Natürlich!","lv":"Ideš s nami? – Samozrejme!"},{"de":"Das ist eine natürliche Reaktion.","lv":"Je to prirodzená reakcia."},{"de":"Natürlich helfe ich dir.","lv":"Samozrejme ti pomôžem."},{"de":"Sie hat natürliche rote Haare.","lv":"Má prirodzené červené vlasy."},{"de":"Natürlich kann ich das machen.","lv":"Samozrejme to môžem urobiť."},{"de":"Das ist ganz natürlich.","lv":"To je úplne prirodzené."}],"tip":["Ako samostatná potvrdzujúca odpoveď → samozrejme.","Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."],"important":["natürlich = samozrejme ako príslovka ALEBO prirodzený ako prídavné meno.","Natürlich! ako samostatná odpoveď znamená „Samozrejme!“"],"sectionAccents":{"explanation":{"blue":["natürlich"]},"examples":[{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürlich"]},"lv":{}}],"tip":[{},{}],"important":[{},{"blue":["Natürlich"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -4058,7 +4058,7 @@
       },
       {
         "de": "Das ist ganz natürlich.",
-        "lv": "To je úplne prirodzené alebo normálne."
+        "lv": "To je úplne prirodzené."
       }
     ],
     "tip": [
@@ -4156,7 +4156,7 @@
 **CURRENT (captured scope):** Samozrejme • Prirodzené
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Samozrejme • Prirodzený","study":{"id":"a1-natuerlich","layout":"standardStudy","translation":"Samozrejme • Prirodzený","explanation":["Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.","V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).","Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).","Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."],"examples":[{"de":"Kommst du mit? – Natürlich!","lv":"Ideš s nami? – Samozrejme!"},{"de":"Das ist eine natürliche Reaktion.","lv":"Je to prirodzená reakcia."},{"de":"Natürlich helfe ich dir.","lv":"Samozrejme ti pomôžem."},{"de":"Sie hat natürliche rote Haare.","lv":"Má prirodzené červené vlasy."},{"de":"Natürlich kann ich das machen.","lv":"Samozrejme to môžem urobiť."},{"de":"Das ist ganz natürlich.","lv":"To je úplne prirodzené alebo normálne."}],"tip":["Ako samostatná potvrdzujúca odpoveď → samozrejme.","Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."],"important":["natürlich = samozrejme ako príslovka ALEBO prirodzený ako prídavné meno.","Natürlich! ako samostatná odpoveď znamená „Samozrejme!“"],"sectionAccents":{"explanation":{"blue":["natürlich"]},"examples":[{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürlich"]},"lv":{}}],"tip":[{},{}],"important":[{},{"blue":["Natürlich"]}]}}}
+**NEW (OWNER mapping):** {"lv":"Samozrejme • Prirodzený","study":{"id":"a1-natuerlich","layout":"standardStudy","translation":"Samozrejme • Prirodzený","explanation":["Hlavná myšlienka: natürlich ako príslovka znamená samozrejme, ako prídavné meno znamená prirodzený.","V rozhovore pri potvrdení natürlich znamená „samozrejme“ (Kommst du mit? – Natürlich! = Ideš s nami? – Samozrejme!).","Pri opise prírody, pôvodu alebo vlastností natürlich znamená „prirodzený“ (natürliche Schönheit = prirodzená krása).","Kontext (odpoveď alebo potvrdenie; prípadne opis) určuje správny význam."],"examples":[{"de":"Kommst du mit? – Natürlich!","lv":"Ideš s nami? – Samozrejme!"},{"de":"Das ist eine natürliche Reaktion.","lv":"Je to prirodzená reakcia."},{"de":"Natürlich helfe ich dir.","lv":"Samozrejme ti pomôžem."},{"de":"Sie hat natürliche rote Haare.","lv":"Má prirodzené červené vlasy."},{"de":"Natürlich kann ich das machen.","lv":"Samozrejme to môžem urobiť."},{"de":"Das ist ganz natürlich.","lv":"To je úplne prirodzené."}],"tip":["Ako samostatná potvrdzujúca odpoveď → samozrejme.","Pri podstatnom mene, keď opisuje pôvod alebo vlastnosť → prirodzený."],"important":["natürlich = samozrejme ako príslovka ALEBO prirodzený ako prídavné meno.","Natürlich! ako samostatná odpoveď znamená „Samozrejme!“"],"sectionAccents":{"explanation":{"blue":["natürlich"]},"examples":[{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürliche"]},"lv":{}},{"de":{"blue":["Natürlich"]},"lv":{}},{"de":{"green":["natürlich"]},"lv":{}}],"tip":[{},{}],"important":[{},{"blue":["Natürlich"]}]}}}
 **Note:** Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -4199,7 +4199,7 @@
       },
       {
         "de": "Das ist ganz natürlich.",
-        "lv": "To je úplne prirodzené alebo normálne."
+        "lv": "To je úplne prirodzené."
       }
     ],
     "tip": [
