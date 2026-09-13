@@ -1,16 +1,17 @@
 {
   "batchId": "LRB-083",
-  "generatedAt": "2026-09-13T16:28:14.917Z",
-  "sourceCommit": "aff88a14937f2297476e15ace4a3cd2d53455b6f",
+  "generatedAt": "2026-09-13T16:40:00.213Z",
+  "sourceCommit": "542ed4f7a9885141e7a89276bb3aeeb8874c7bb3",
   "reviewer": "GPT-5.6 Luna",
-  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
-  "overridesSha256": "7d9196dcf026352e98798b1df1ba253936d41f0399c093c8313342771b5d0070",
+  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
+  "correctionRound": 2,
+  "overridesSha256": "15ca7ca7815c06fb3baa55279bdc90cef1c6ae133418fa97d37f781e19b807f7",
   "uniqueCards": 35,
   "fullStudyCards": 35,
   "rowCount": 50,
   "languages": {
-    "ru": 38,
-    "sk": 0
+    "ro": 12,
+    "ru": 38
   },
   "cards": [
     {
@@ -256,6 +257,8 @@
         "index": 621
       },
       "ownerNew": {
+        "de": "verstehen",
+        "level": "A1",
         "lv": "A înțelege",
         "study": {
           "id": "a1-verstehen",
@@ -676,6 +679,8 @@
         "index": 634
       },
       "ownerNew": {
+        "de": "vom",
+        "level": "A1",
         "lv": "De la",
         "study": {
           "id": "a1-vom",
@@ -1020,6 +1025,8 @@
         "index": 636
       },
       "ownerNew": {
+        "de": "vor",
+        "level": "A1",
         "lv": "Înainte de • În fața",
         "study": {
           "id": "a1-vor",
@@ -1296,6 +1303,8 @@
         "index": 644
       },
       "ownerNew": {
+        "de": "was",
+        "level": "A1",
         "lv": "Ce",
         "study": {
           "id": "a1-was",
@@ -1601,6 +1610,8 @@
         "index": 655
       },
       "ownerNew": {
+        "de": "wenn",
+        "level": "A1",
         "lv": "Dacă • Când",
         "study": {
           "id": "a1-wenn",
@@ -1883,6 +1894,8 @@
         "index": 656
       },
       "ownerNew": {
+        "de": "wer",
+        "level": "A1",
         "lv": "Cine",
         "study": {
           "id": "a1-wer",
@@ -2204,6 +2217,8 @@
         "index": 657
       },
       "ownerNew": {
+        "de": "werden",
+        "level": "A1",
         "lv": "A deveni",
         "study": {
           "id": "a1-werden",
@@ -2559,6 +2574,9 @@
         "index": 658
       },
       "ownerNew": {
+        "de": "Wetter",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Vreme",
         "study": {
           "id": "a1-wetter",
@@ -2813,6 +2831,8 @@
         "index": 660
       },
       "ownerNew": {
+        "de": "wie",
+        "level": "A1",
         "lv": "Cum • Cât",
         "study": {
           "id": "a1-wie",
@@ -3117,6 +3137,8 @@
         "index": 668
       },
       "ownerNew": {
+        "de": "zu",
+        "level": "A1",
         "lv": "La • Către",
         "study": {
           "id": "a1-zu",
@@ -3448,6 +3470,10 @@
         "index": 671
       },
       "ownerNew": {
+        "de": "Zug",
+        "de_article": "der",
+        "de_plural": "die Züge",
+        "level": "A1",
         "lv": "Tren",
         "study": {
           "id": "a1-zug",
@@ -3866,6 +3892,8 @@
         "index": 672
       },
       "ownerNew": {
+        "de": "zum",
+        "level": "A1",
         "lv": "La • Către",
         "study": {
           "id": "a1-zum",
@@ -4178,6 +4206,8 @@
         "index": 17
       },
       "ownerNew": {
+        "de": "ab",
+        "level": "A1",
         "lv": "С • Начиная с",
         "study": {
           "id": "a1-ab",
@@ -4424,6 +4454,8 @@
         "index": 21
       },
       "ownerNew": {
+        "de": "aber",
+        "level": "A1",
         "lv": "Но • Однако",
         "study": {
           "id": "a1-aber",
@@ -4665,6 +4697,8 @@
         "index": 26
       },
       "ownerNew": {
+        "de": "also",
+        "level": "A1",
         "lv": "Итак • Поэтому",
         "study": {
           "id": "a1-also",
@@ -4916,6 +4950,8 @@
         "index": 12
       },
       "ownerNew": {
+        "de": "an",
+        "level": "A1",
         "lv": "У • На • К",
         "study": {
           "id": "a1-an",
@@ -5167,6 +5203,8 @@
         "index": 12
       },
       "ownerNew": {
+        "de": "an",
+        "level": "A1",
         "lv": "У • На • К",
         "study": {
           "id": "a1-an",
@@ -5409,6 +5447,8 @@
         "index": 49
       },
       "ownerNew": {
+        "de": "auf",
+        "level": "A1",
         "lv": "На",
         "study": {
           "id": "a1-auf",
@@ -5661,6 +5701,8 @@
         "index": 57
       },
       "ownerNew": {
+        "de": "aus",
+        "level": "A1",
         "lv": "Из • Изнутри",
         "study": {
           "id": "a1-aus",
@@ -5913,6 +5955,8 @@
         "index": 57
       },
       "ownerNew": {
+        "de": "aus",
+        "level": "A1",
         "lv": "Из • Изнутри",
         "study": {
           "id": "a1-aus",
@@ -6226,6 +6270,10 @@
         "index": 87
       },
       "ownerNew": {
+        "de": "Besuch",
+        "de_article": "der",
+        "de_plural": "die Besuche",
+        "level": "A1",
         "lv": "Посещение • Визит",
         "study": {
           "id": "a1-besuch",
@@ -6565,6 +6613,8 @@
         "index": 89
       },
       "ownerNew": {
+        "de": "besuchen",
+        "level": "A1",
         "lv": "Посещать • Навещать",
         "study": {
           "id": "a1-besuchen",
@@ -6821,6 +6871,8 @@
         "index": 91
       },
       "ownerNew": {
+        "de": "bis",
+        "level": "A1",
         "lv": "До • Пока не",
         "study": {
           "id": "a1-bis",
@@ -7135,6 +7187,8 @@
         "index": 101
       },
       "ownerNew": {
+        "de": "bleiben",
+        "level": "A1",
         "lv": "Оставаться",
         "study": {
           "id": "a1-bleiben",
@@ -7473,6 +7527,8 @@
         "index": 111
       },
       "ownerNew": {
+        "de": "bringen",
+        "level": "A1",
         "lv": "Приносить • Относить • Отвозить",
         "study": {
           "id": "a1-bringen",
@@ -7814,6 +7870,8 @@
         "index": 111
       },
       "ownerNew": {
+        "de": "bringen",
+        "level": "A1",
         "lv": "Приносить • Относить • Отвозить",
         "study": {
           "id": "a1-bringen",
@@ -8150,6 +8208,8 @@
         "index": 126
       },
       "ownerNew": {
+        "de": "da",
+        "level": "A1",
         "lv": "Там • Здесь",
         "study": {
           "id": "a1-da",
@@ -8419,6 +8479,8 @@
         "index": 129
       },
       "ownerNew": {
+        "de": "das",
+        "level": "A1",
         "lv": "Определённый артикль среднего рода • Это",
         "study": {
           "id": "a1-das",
@@ -8689,6 +8751,8 @@
         "index": 130
       },
       "ownerNew": {
+        "de": "dass",
+        "level": "A1",
         "lv": "Что",
         "study": {
           "id": "a1-dass",
@@ -8969,6 +9033,8 @@
         "index": 154
       },
       "ownerNew": {
+        "de": "ein",
+        "level": "A1",
         "lv": "Неопределённый артикль • Один",
         "study": {
           "id": "a1-ein",
@@ -9262,6 +9328,8 @@
         "index": 154
       },
       "ownerNew": {
+        "de": "ein",
+        "level": "A1",
         "lv": "Неопределённый артикль • Один",
         "study": {
           "id": "a1-ein",
@@ -9452,6 +9520,8 @@
         "index": 700
       },
       "ownerNew": {
+        "de": "einmal",
+        "level": "A1",
         "lv": "Однажды • Один раз",
         "study": {
           "id": "a1-einmal",
@@ -9609,6 +9679,8 @@
         "index": 700
       },
       "ownerNew": {
+        "de": "einmal",
+        "level": "A1",
         "lv": "Однажды • Один раз",
         "study": {
           "id": "a1-einmal",
@@ -9916,6 +9988,9 @@
         "index": 157
       },
       "ownerNew": {
+        "de": "Eis",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Лёд • Мороженое",
         "study": {
           "id": "a1-eis",
@@ -10257,6 +10332,9 @@
         "index": 157
       },
       "ownerNew": {
+        "de": "Eis",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Лёд • Мороженое",
         "study": {
           "id": "a1-eis",
@@ -10587,6 +10665,8 @@
         "index": 165
       },
       "ownerNew": {
+        "de": "erst",
+        "level": "A1",
         "lv": "Сначала • Только",
         "study": {
           "id": "a1-erst",
@@ -10914,6 +10994,8 @@
         "index": 165
       },
       "ownerNew": {
+        "de": "erst",
+        "level": "A1",
         "lv": "Сначала • Только",
         "study": {
           "id": "a1-erst",
@@ -11241,6 +11323,8 @@
         "index": 165
       },
       "ownerNew": {
+        "de": "erst",
+        "level": "A1",
         "lv": "Сначала • Только",
         "study": {
           "id": "a1-erst",
@@ -11568,6 +11652,8 @@
         "index": 165
       },
       "ownerNew": {
+        "de": "erst",
+        "level": "A1",
         "lv": "Сначала • Только",
         "study": {
           "id": "a1-erst",
@@ -11863,6 +11949,8 @@
         "index": 167
       },
       "ownerNew": {
+        "de": "es",
+        "level": "A1",
         "lv": "Оно • Это • Безличное местоимение",
         "study": {
           "id": "a1-es",
@@ -12149,6 +12237,8 @@
         "index": 167
       },
       "ownerNew": {
+        "de": "es",
+        "level": "A1",
         "lv": "Оно • Это • Безличное местоимение",
         "study": {
           "id": "a1-es",
@@ -12435,6 +12525,8 @@
         "index": 167
       },
       "ownerNew": {
+        "de": "es",
+        "level": "A1",
         "lv": "Оно • Это • Безличное местоимение",
         "study": {
           "id": "a1-es",
@@ -12721,6 +12813,8 @@
         "index": 167
       },
       "ownerNew": {
+        "de": "es",
+        "level": "A1",
         "lv": "Оно • Это • Безличное местоимение",
         "study": {
           "id": "a1-es",
@@ -12978,6 +13072,9 @@
         "index": 691
       },
       "ownerNew": {
+        "de": "Essen",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Еда • Приём пищи",
         "study": {
           "id": "a1-essen-study",
@@ -13234,6 +13331,9 @@
         "index": 691
       },
       "ownerNew": {
+        "de": "Essen",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Еда • Приём пищи",
         "study": {
           "id": "a1-essen-study",
@@ -13561,6 +13661,8 @@
         "index": 169
       },
       "ownerNew": {
+        "de": "etwas",
+        "level": "A1",
         "lv": "Что-то • Немного",
         "study": {
           "id": "a1-etwas",
@@ -13900,6 +14002,8 @@
         "index": 169
       },
       "ownerNew": {
+        "de": "etwas",
+        "level": "A1",
         "lv": "Что-то • Немного",
         "study": {
           "id": "a1-etwas",
@@ -14113,6 +14217,8 @@
         "index": 170
       },
       "ownerNew": {
+        "de": "euch",
+        "level": "A1",
         "lv": "Вас • Вам",
         "study": {
           "id": "a1-euch",
@@ -14318,6 +14424,8 @@
         "index": 170
       },
       "ownerNew": {
+        "de": "euch",
+        "level": "A1",
         "lv": "Вас • Вам",
         "study": {
           "id": "a1-euch",
@@ -14707,6 +14815,8 @@
         "index": 172
       },
       "ownerNew": {
+        "de": "fahren",
+        "level": "A1",
         "lv": "Ехать • Ездить • Везти",
         "study": {
           "id": "a1-fahren",

@@ -1,8 +1,9 @@
 {
   "batchId": "LRB-083",
-  "sourceCommit": "aff88a14937f2297476e15ace4a3cd2d53455b6f",
+  "sourceCommit": "542ed4f7a9885141e7a89276bb3aeeb8874c7bb3",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
+  "correctionRound": 2,
   "cards": [
     {
       "auditId": "LRB083-0001",
@@ -10,6 +11,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «verstehen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "verstehen",
+        "level": "A1",
         "lv": "A înțelege",
         "study": {
           "id": "a1-verstehen",
@@ -77,6 +80,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «vom»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "vom",
+        "level": "A1",
         "lv": "De la",
         "study": {
           "id": "a1-vom",
@@ -169,6 +174,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «vor»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "vor",
+        "level": "A1",
         "lv": "Înainte de • În fața",
         "study": {
           "id": "a1-vor",
@@ -236,6 +243,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «was»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "was",
+        "level": "A1",
         "lv": "Ce",
         "study": {
           "id": "a1-was",
@@ -298,6 +307,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «wenn»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "wenn",
+        "level": "A1",
         "lv": "Dacă • Când",
         "study": {
           "id": "a1-wenn",
@@ -365,6 +376,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «wer»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "wer",
+        "level": "A1",
         "lv": "Cine",
         "study": {
           "id": "a1-wer",
@@ -427,6 +440,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «werden»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "werden",
+        "level": "A1",
         "lv": "A deveni",
         "study": {
           "id": "a1-werden",
@@ -494,6 +509,9 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Wetter»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Wetter",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Vreme",
         "study": {
           "id": "a1-wetter",
@@ -571,6 +589,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «wie»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "wie",
+        "level": "A1",
         "lv": "Cum • Cât",
         "study": {
           "id": "a1-wie",
@@ -627,6 +647,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «zu»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "zu",
+        "level": "A1",
         "lv": "La • Către",
         "study": {
           "id": "a1-zu",
@@ -694,6 +716,10 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «Zug»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Zug",
+        "de_article": "der",
+        "de_plural": "die Züge",
+        "level": "A1",
         "lv": "Tren",
         "study": {
           "id": "a1-zug",
@@ -761,6 +787,8 @@
       "status": "LABOT",
       "reason": "Pilna RO kartīte «zum»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "zum",
+        "level": "A1",
         "lv": "La • Către",
         "study": {
           "id": "a1-zum",
@@ -853,6 +881,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «ab»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "ab",
+        "level": "A1",
         "lv": "С • Начиная с",
         "study": {
           "id": "a1-ab",
@@ -911,6 +941,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «aber»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "aber",
+        "level": "A1",
         "lv": "Но • Однако",
         "study": {
           "id": "a1-aber",
@@ -964,6 +996,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «also»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "also",
+        "level": "A1",
         "lv": "Итак • Поэтому",
         "study": {
           "id": "a1-also",
@@ -1017,6 +1051,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «an»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "an",
+        "level": "A1",
         "lv": "У • На • К",
         "study": {
           "id": "a1-an",
@@ -1070,6 +1106,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «an»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "an",
+        "level": "A1",
         "lv": "У • На • К",
         "study": {
           "id": "a1-an",
@@ -1123,6 +1161,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «auf»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "auf",
+        "level": "A1",
         "lv": "На",
         "study": {
           "id": "a1-auf",
@@ -1176,6 +1216,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «aus»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "aus",
+        "level": "A1",
         "lv": "Из • Изнутри",
         "study": {
           "id": "a1-aus",
@@ -1229,6 +1271,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «aus»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "aus",
+        "level": "A1",
         "lv": "Из • Изнутри",
         "study": {
           "id": "a1-aus",
@@ -1282,6 +1326,10 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Besuch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Besuch",
+        "de_article": "der",
+        "de_plural": "die Besuche",
+        "level": "A1",
         "lv": "Посещение • Визит",
         "study": {
           "id": "a1-besuch",
@@ -1340,6 +1388,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «besuchen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "besuchen",
+        "level": "A1",
         "lv": "Посещать • Навещать",
         "study": {
           "id": "a1-besuchen",
@@ -1398,6 +1448,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «bis»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "bis",
+        "level": "A1",
         "lv": "До • Пока не",
         "study": {
           "id": "a1-bis",
@@ -1456,6 +1508,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «bleiben»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "bleiben",
+        "level": "A1",
         "lv": "Оставаться",
         "study": {
           "id": "a1-bleiben",
@@ -1523,6 +1577,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «bringen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "bringen",
+        "level": "A1",
         "lv": "Приносить • Относить • Отвозить",
         "study": {
           "id": "a1-bringen",
@@ -1593,6 +1649,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «bringen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "bringen",
+        "level": "A1",
         "lv": "Приносить • Относить • Отвозить",
         "study": {
           "id": "a1-bringen",
@@ -1663,6 +1721,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «da»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "da",
+        "level": "A1",
         "lv": "Там • Здесь",
         "study": {
           "id": "a1-da",
@@ -1730,6 +1790,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «das»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "das",
+        "level": "A1",
         "lv": "Определённый артикль среднего рода • Это",
         "study": {
           "id": "a1-das",
@@ -1783,6 +1845,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «dass»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "dass",
+        "level": "A1",
         "lv": "Что",
         "study": {
           "id": "a1-dass",
@@ -1841,6 +1905,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «ein»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "ein",
+        "level": "A1",
         "lv": "Неопределённый артикль • Один",
         "study": {
           "id": "a1-ein",
@@ -1912,6 +1978,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «ein»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "ein",
+        "level": "A1",
         "lv": "Неопределённый артикль • Один",
         "study": {
           "id": "a1-ein",
@@ -1983,6 +2051,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «einmal»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "einmal",
+        "level": "A1",
         "lv": "Однажды • Один раз",
         "study": {
           "id": "a1-einmal",
@@ -2021,6 +2091,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «einmal»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "einmal",
+        "level": "A1",
         "lv": "Однажды • Один раз",
         "study": {
           "id": "a1-einmal",
@@ -2059,6 +2131,9 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Eis»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Eis",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Лёд • Мороженое",
         "study": {
           "id": "a1-eis",
@@ -2131,6 +2206,9 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Eis»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Eis",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Лёд • Мороженое",
         "study": {
           "id": "a1-eis",
@@ -2203,6 +2281,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «erst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "erst",
+        "level": "A1",
         "lv": "Сначала • Только",
         "study": {
           "id": "a1-erst",
@@ -2272,6 +2352,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «erst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "erst",
+        "level": "A1",
         "lv": "Сначала • Только",
         "study": {
           "id": "a1-erst",
@@ -2341,6 +2423,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «erst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "erst",
+        "level": "A1",
         "lv": "Сначала • Только",
         "study": {
           "id": "a1-erst",
@@ -2410,6 +2494,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «erst»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "erst",
+        "level": "A1",
         "lv": "Сначала • Только",
         "study": {
           "id": "a1-erst",
@@ -2479,6 +2565,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «es»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "es",
+        "level": "A1",
         "lv": "Оно • Это • Безличное местоимение",
         "study": {
           "id": "a1-es",
@@ -2539,6 +2627,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «es»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "es",
+        "level": "A1",
         "lv": "Оно • Это • Безличное местоимение",
         "study": {
           "id": "a1-es",
@@ -2599,6 +2689,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «es»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "es",
+        "level": "A1",
         "lv": "Оно • Это • Безличное местоимение",
         "study": {
           "id": "a1-es",
@@ -2659,6 +2751,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «es»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "es",
+        "level": "A1",
         "lv": "Оно • Это • Безличное местоимение",
         "study": {
           "id": "a1-es",
@@ -2719,6 +2813,9 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Essen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Essen",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Еда • Приём пищи",
         "study": {
           "id": "a1-essen-study",
@@ -2778,6 +2875,9 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Essen»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "Essen",
+        "de_article": "das",
+        "level": "A1",
         "lv": "Еда • Приём пищи",
         "study": {
           "id": "a1-essen-study",
@@ -2837,6 +2937,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «etwas»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "etwas",
+        "level": "A1",
         "lv": "Что-то • Немного",
         "study": {
           "id": "a1-etwas",
@@ -2908,6 +3010,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «etwas»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "etwas",
+        "level": "A1",
         "lv": "Что-то • Немного",
         "study": {
           "id": "a1-etwas",
@@ -2979,6 +3083,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «euch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "euch",
+        "level": "A1",
         "lv": "Вас • Вам",
         "study": {
           "id": "a1-euch",
@@ -3042,6 +3148,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «euch»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "euch",
+        "level": "A1",
         "lv": "Вас • Вам",
         "study": {
           "id": "a1-euch",
@@ -3105,6 +3213,8 @@
       "status": "LABOT",
       "reason": "Pilna RU kartīte «fahren»: individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, metadati un avota kompozīta struktūra.",
       "new": {
+        "de": "fahren",
+        "level": "A1",
         "lv": "Ехать • Ездить • Везти",
         "study": {
           "id": "a1-fahren",

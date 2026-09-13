@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-13T16:28:14.917Z",
+  "updatedAt": "2026-09-13T16:40:00.213Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -88,9 +88,10 @@
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-083-owner-authorization-proof.json",
       "proof": "reports/g2-a1-owner/batches-owner-review/LRB-083/LRB-083-owner-review-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-083-anti-bulk-proof.json",
-      "overridesSha256": "7d9196dcf026352e98798b1df1ba253936d41f0399c093c8313342771b5d0070",
-      "updatedAt": "2026-09-13T16:28:14.917Z",
-      "uniqueCards": 35
+      "overridesSha256": "15ca7ca7815c06fb3baa55279bdc90cef1c6ae133418fa97d37f781e19b807f7",
+      "updatedAt": "2026-09-13T16:40:00.213Z",
+      "uniqueCards": 35,
+      "correctionRound": 2
     },
     {
       "batchId": "LRB-084",
