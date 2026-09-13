@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T07:14:00.000Z",
+  "updatedAt": "2026-09-13T07:39:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -37,6 +37,7 @@
       "LRB-018",
       "LRB-019",
       "LRB-020",
+      "LRB-095",
       "LRB-096",
       "LRB-097",
       "LRB-098",
@@ -81,9 +82,9 @@
     "batchPrefix": "LRB",
     "batchSize": 50,
     "batchesTotal": 103,
-    "batchesReviewed": 21,
-    "batchesAntiBulkPass": 21,
-    "batchesSpotCheckPass": 21,
+    "batchesReviewed": 22,
+    "batchesAntiBulkPass": 22,
+    "batchesSpotCheckPass": 22,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -498,6 +499,30 @@
         "galaCards": "reports/g2-a1-owner/batches-owner-review/LRB-102/LRB-102-gala-cards.json",
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-102-owner-authorization-proof.json"
       },
+      "LRB-095": {
+        "verdict": "LRB_095_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
+        "labot": 50,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "0c2818e3",
+        "verifiedCommit": "0c2818e3b311032cf66c4f6fece1203f5da2b4ac",
+        "verificationStandard": "FULL_50_50_PDF",
+        "languages": {
+          "sq": 50
+        },
+        "uniqueSqCards": 50,
+        "compositeRepairs": 50,
+        "productionSource": "data/sq/a1.js",
+        "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-095/LRB-095-owner-decisions.md",
+        "proof": "reports/g2-a1-owner/batches-owner-review/LRB-095/LRB-095-owner-review-proof.json",
+        "galaCards": "reports/g2-a1-owner/batches-owner-review/LRB-095/LRB-095-gala-cards.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-095-owner-authorization-proof.json"
+      },
       "LRB-096": {
         "verdict": "LRB_096_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "status": "LINGUISTICALLY_CLOSED",
@@ -650,20 +675,19 @@
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-096",
+      "batch_id": "LRB-095",
       "labot": 50,
       "nelabot": 0,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "LRB_096_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-      "verifiedCommit": "e3dc9ab6c1c55a85f6aa81703394b24778886b6c",
+      "linguisticVerdict": "LRB_095_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "verifiedCommit": "0c2818e3b311032cf66c4f6fece1203f5da2b4ac",
       "languages": {
-        "sq": 35,
-        "sr": 15
+        "sq": 50
       },
-      "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-096/LRB-096-owner-decisions.md",
-      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-096/LRB-096-owner-review-proof.json",
-      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-096-owner-authorization-proof.json"
+      "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-095/LRB-095-owner-decisions.md",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-095/LRB-095-owner-review-proof.json",
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-095-owner-authorization-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",

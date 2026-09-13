@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-095",
-  "phase": "OWNER_APPROVED_OVERRIDES_APPLIED",
+  "phase": "GALA_PASS",
   "input_csv_sha256": "02a2e7f9b3d1eb37e004af5d9a558b7e217d30f6d36f771112b4616598f26ce8",
   "input_row_count": 50,
   "finding_stable_ids": [
@@ -56,7 +56,7 @@
     "g2/a1/sq|jung|idx:304|lv/study|WRONG_LANGUAGE|gpt-5.6-luna"
   ],
   "created_at": "2026-09-13T07:16:16.991Z",
-  "updated_at": "2026-09-13T07:34:17.750Z",
+  "updated_at": "2026-09-13T07:39:00.000Z",
   "reviewer": "CURSOR_AGENT",
   "linguistic_reviewer": "gpt-5.6-luna",
   "direction": "DESCENDING",
@@ -67,5 +67,8 @@
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "overrides_sha256": "af6341d169782f921cf9b06a029b2ab4895d9a3fb1ebd34b717a479fc11a0bda",
   "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-095/LRB-095-owner-approved-overrides.json",
-  "verdict": "50 LABOT / 0 NELABOT / 0 PENDING"
+  "verdict": "LRB_095_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "linguistic_verdict": "LRB_095_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "verified_commit": "0c2818e3b311032cf66c4f6fece1203f5da2b4ac",
+  "gala_pass": true
 }
