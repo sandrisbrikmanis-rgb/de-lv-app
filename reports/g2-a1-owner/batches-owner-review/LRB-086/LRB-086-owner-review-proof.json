@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-086",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T15:13:19.365Z",
-  "sourceCommit": "9e0eb0586143f143e911cba3082e71cf05b76173",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-13T15:19:00.000Z",
+  "sourceCommit": "122956031078d832a04bd4b86ee53d83accd4823",
   "branch": "cursor/lrb-086-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -81,7 +81,10 @@
     "copyPaste2": "reports/g2-a1-owner/batches-owner-review/LRB-086/LRB-086-decisions-COPY-PASTE-2.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-086-owner-authorization-proof.json"
   },
-  "note": "COPY-PASTE correction #2 applied: auditId LRB086- prefix (250/250), aus lv/translation fix, halb lv word-class fix. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
-  "galaPass": false,
-  "scriptChanges": 0
+  "note": "Gala verdict LRB_086_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 122956031078d832a04bd4b86ee53d83accd4823 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (RU 50, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=37). DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
+  "scriptChanges": 0,
+  "verifiedCommit": "122956031078d832a04bd4b86ee53d83accd4823",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_086_FULL_50_50_LINGUISTIC_REVIEW_PASS"
 }

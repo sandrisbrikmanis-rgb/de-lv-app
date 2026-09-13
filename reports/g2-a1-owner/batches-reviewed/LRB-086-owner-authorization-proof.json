@@ -3,10 +3,10 @@
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-13T14:50:00.000Z",
-  "linguisticVerdict": "LRB_086_FULL_50_47_3_LINGUISTIC_REVIEW_PASS",
+  "linguisticVerdict": "LRB_086_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
-  "labot": 47,
-  "nelabot": 3,
+  "labot": 50,
+  "nelabot": 0,
   "pending": 0,
   "antiBulkPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
@@ -21,5 +21,5 @@
   "lunaAuditScript": "scripts/temp-audit-lrb086-luna.js",
   "lunaModel": "gpt-5.6-luna",
   "lunaTokens": 33135,
-  "note": "OWNER_AUTHORIZATION_STATUS=APPROVED. 47 LABOT / 3 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "GALA PASS. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
 }
