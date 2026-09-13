@@ -1,0 +1,302 @@
+{
+  "g2/a1/ro|verstehen|idx:621|lv, study.*|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"A înțelege\",\"study.translation\":\"A înțelege\",\"study.explanation\":[\"Ideea principală: verstehen înseamnă a înțelege.\",\"Este folosit atunci când înțelegeți o limbă, o persoană, un text sau o situație.\",\"Nu trebuie confundat cu wissen sau kennen; acestea se referă la a ști sau a cunoaște.\",\"O expresie foarte comună este Ich verstehe. = Înțeleg.\"],\"study.examples\":[{\"de\":\"Ich verstehe dich.\",\"lv\":\"Te înțeleg.\"},{\"de\":\"Verstehst du Deutsch?\",\"lv\":\"Înțelegi germana?\"},{\"de\":\"Ich verstehe das nicht.\",\"lv\":\"Nu înțeleg asta.\"},{\"de\":\"Ich kann Deutsch sprechen.\",\"lv\":\"Pot să vorbesc germană.\"}],\"study.comparison\":[{\"word\":\"verstehen\",\"meaning\":\"A înțelege\",\"example\":\"Te înțeleg.\"},{\"word\":\"können\",\"meaning\":\"A putea / a ști să\",\"example\":\"Pot să înot.\"},{\"word\":\"wissen\",\"meaning\":\"A ști\",\"example\":\"Știu asta.\"},{\"word\":\"kennen\",\"meaning\":\"A cunoaște\",\"example\":\"Îl cunosc.\"}],\"study.tip\":{\"text\":\"Amintiți-vă: înțelegeți un text sau o persoană → verstehen • Știți să faceți ceva → können.\"},\"study.important\":[\"Verstehen înseamnă a înțelege, nu a ști sau a cunoaște.\",\"Ich verstehe Deutsch înseamnă „Înțeleg germana”.\"]}",
+    "owner_note": "Pentru DE „verstehen”, am corectat forma neaccentuată „A intelege” și am eliminat explicațiile amestecate cu letonă, păstrând sensul „a înțelege”."
+  },
+  "g2/a1/ro|vom|idx:634|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"De la\",\"study.translation\":\"De la\",\"study.explanation\":[\"Vom este forma prescurtată a prepoziției von și a articolului dem.\",\"Forma completă este von dem.\",\"Se folosește cu substantive masculine și neutre și poate indica originea, sursa sau proveniența.\",\"Răspunde, în funcție de context, la întrebări precum de la cine? sau de unde?\",\"În practică, vom este folosit foarte des în locul formei complete von dem.\"],\"study.examples\":[{\"de\":\"Ich komme vom Bahnhof.\",\"lv\":\"Vin de la gară.\"},{\"de\":\"Das Geschenk ist vom Vater.\",\"lv\":\"Cadoul este de la tata.\"},{\"de\":\"Er kommt vom Arzt.\",\"lv\":\"El vine de la medic.\"},{\"de\":\"Sie fährt vom Flughafen.\",\"lv\":\"Ea pleacă de la aeroport.\"},{\"de\":\"Das ist vom Markt.\",\"lv\":\"Acesta este de la piață.\"},{\"de\":\"Wir kommen vom Fest.\",\"lv\":\"Venim de la petrecere.\"},{\"de\":\"Er holt Milch vom Bauern.\",\"lv\":\"El ia lapte de la fermier.\"},{\"de\":\"Die Nachricht ist vom Chef.\",\"lv\":\"Mesajul este de la șef.\"}],\"study.comparison\":[{\"word\":\"vom\",\"meaning\":\"De la, dintr-un loc sau de la o persoană anume\",\"example\":\"vom Bahnhof – de la gară\"},{\"word\":\"von\",\"meaning\":\"De la / din, în sens general\",\"example\":\"von mir – de la mine\"},{\"word\":\"aus\",\"meaning\":\"Din interior sau dintr-o țară / localitate\",\"example\":\"aus Deutschland – din Germania\"},{\"word\":\"ab\",\"meaning\":\"Începând de la\",\"example\":\"ab Montag – de luni\"},{\"word\":\"zu\",\"meaning\":\"La, în direcția unei persoane sau a unui loc\",\"example\":\"zum Arzt – la medic\"}],\"study.tip\":[\"Amintiți-vă: von + dem → vom.\",\"În vorbirea obișnuită, vom este folosit frecvent în loc de von dem.\"],\"study.important\":[\"Vom = von dem și se folosește cu substantive masculine sau neutre.\",\"Poate indica originea, sursa sau proveniența.\",\"Pentru feminin se spune von der Mutter, nu vom Mutter.\",\"Nu confundați vom cu aus, care indică adesea originea dintr-o țară sau dintr-un spațiu interior.\"]}",
+    "owner_note": "Pentru DE „vom”, am înlocuit toate formulările și exemplele rămase în letonă sau engleză cu română naturală și am clarificat valoarea lui von + dem."
+  },
+  "g2/a1/ro|vor|idx:636|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Înainte de • În fața\",\"study.translation\":\"Înainte de • În fața\",\"study.explanation\":[\"Ideea principală: vor înseamnă înainte, în timp, sau în fața, ca poziție.\",\"Când se referă la timp, vor înseamnă înainte de.\",\"Când se referă la loc, vor înseamnă în fața.\",\"În exprimarea orei, vor indică minutele rămase până la ora următoare: fünf vor acht = cinci minute până la opt.\"],\"study.examples\":[{\"de\":\"Vor dem Essen wasche ich die Hände.\",\"lv\":\"Înainte de masă mă spăl pe mâini.\"},{\"de\":\"Das Auto steht vor dem Haus.\",\"lv\":\"Mașina este în fața casei.\"},{\"de\":\"Es ist fünf vor acht.\",\"lv\":\"Este opt fără cinci.\"},{\"de\":\"Nach dem Essen gehen wir spazieren.\",\"lv\":\"După masă mergem la plimbare.\"}],\"study.comparison\":[{\"word\":\"vor\",\"meaning\":\"Înainte de / în fața\",\"example\":\"Înainte de masă; în fața casei.\"},{\"word\":\"nach\",\"meaning\":\"După / spre\",\"example\":\"După masă.\"},{\"word\":\"neben\",\"meaning\":\"Lângă\",\"example\":\"Lângă casă.\"},{\"word\":\"hinter\",\"meaning\":\"În spatele\",\"example\":\"În spatele casei.\"}],\"study.important\":[\"Vor poate indica atât timpul, cât și locul.\",\"Vor dem Essen = înainte de masă • Vor dem Haus = în fața casei.\"]}",
+    "owner_note": "Pentru DE „vor”, am corectat traducerile și exemplele cu forme românești firești, inclusiv „în fața” și exprimarea orei „opt fără cinci”."
+  },
+  "g2/a1/ro|was|idx:644|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ce\",\"study.translation\":\"Ce\",\"study.explanation\":[\"Was este un cuvânt interogativ folosit pentru lucruri, evenimente și fapte, nu pentru persoane.\",\"În română, was se traduce de obicei prin ce.\",\"Forma germană was nu se schimbă după caz.\",\"Pentru persoane se folosește wer, adică cine.\",\"Was für ein/eine întreabă despre tipul sau caracteristica unui lucru: Ce fel de film este acesta?\"],\"study.examples\":[{\"de\":\"Was ist das?\",\"lv\":\"Ce este asta?\"},{\"de\":\"Was ist passiert?\",\"lv\":\"Ce s-a întâmplat?\"},{\"de\":\"Was machst du gerade?\",\"lv\":\"Ce faci acum?\"},{\"de\":\"Was möchtest du trinken?\",\"lv\":\"Ce vrei să bei?\"},{\"de\":\"Was bedeutet dieses Wort?\",\"lv\":\"Ce înseamnă acest cuvânt?\"},{\"de\":\"Was ist dein Lieblingsessen?\",\"lv\":\"Care este mâncarea ta preferată?\"},{\"de\":\"Was hast du gesagt?\",\"lv\":\"Ce ai spus?\"}],\"study.tip\":[\"Was întreabă despre lucruri și evenimente și se traduce prin ce.\",\"Pentru persoane se folosește wer, adică cine.\"],\"study.important\":[\"Was întreabă despre lucruri, evenimente și fapte, niciodată despre persoane.\",\"Persoanele sunt indicate prin wer, nu prin was.\",\"Was für ein/eine înseamnă ce fel de.\",\"Corect: Was ist passiert? = Ce s-a întâmplat?\"]}",
+    "owner_note": "Pentru DE „was”, am eliminat explicațiile și răspunsurile în letonă și am corectat sensul românesc la „ce”, nu „cine”."
+  },
+  "g2/a1/ro|wenn|idx:655|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Dacă • Când\",\"study.translation\":\"Dacă • Când\",\"study.explanation\":[\"Wenn înseamnă dacă atunci când exprimă o condiție și când atunci când exprimă un moment repetat sau general.\",\"După wenn, verbul se află de obicei la sfârșitul propoziției subordonate în germană.\",\"Pentru o întrebare directă despre moment se folosește wann, nu wenn.\"],\"study.examples\":[{\"de\":\"Wenn du Zeit hast, komm vorbei.\",\"lv\":\"Dacă ai timp, treci pe la mine.\"},{\"de\":\"Wenn es regnet, bleibe ich zu Hause.\",\"lv\":\"Dacă plouă, rămân acasă.\"},{\"de\":\"Wenn ich müde bin, trinke ich Kaffee.\",\"lv\":\"Când sunt obosit, beau cafea.\"},{\"de\":\"Ich weiß nicht, ob er kommt.\",\"lv\":\"Nu știu dacă vine.\"}],\"study.comparison\":[{\"word\":\"wenn\",\"meaning\":\"Dacă / când\",\"example\":\"Dacă ai timp...\"},{\"word\":\"ob\",\"meaning\":\"Dacă, într-o întrebare indirectă\",\"example\":\"Nu știu dacă...\"},{\"word\":\"wann\",\"meaning\":\"Când, într-o întrebare directă\",\"example\":\"Când vii?\"},{\"word\":\"weil\",\"meaning\":\"Deoarece / pentru că\",\"example\":\"Rămân pentru că sunt bolnav.\"}],\"study.important\":[\"Wenn și wann nu au aceeași utilizare.\",\"Când vii? se traduce prin Wann kommst du?, iar Wenn du kommst... exprimă o condiție sau o situație repetată.\"]}",
+    "owner_note": "Pentru DE „wenn”, am înlocuit explicațiile defectuoase și formularea „ca și cum” cu distincția românească corectă dintre „dacă”, „când” și „wann”."
+  },
+  "g2/a1/ro|wer|idx:656|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Cine • Care\",\"study.translation\":\"Cine • Care\",\"study.explanation\":[\"Wer este un cuvânt interogativ folosit pentru persoane.\",\"În română, wer se traduce de obicei prin cine; în expresii precum wer von euch poate însemna care dintre voi.\",\"Pentru lucruri și evenimente se folosește was, nu wer.\",\"Wer este forma de nominativ; formele sale sunt wen la acuzativ, wem la dativ și wessen la genitiv.\"],\"study.examples\":[{\"de\":\"Wer ist das?\",\"lv\":\"Cine este acesta?\"},{\"de\":\"Wer bist du?\",\"lv\":\"Cine ești?\"},{\"de\":\"Wer kommt heute?\",\"lv\":\"Cine vine astăzi?\"},{\"de\":\"Wer ist deine Lehrerin?\",\"lv\":\"Cine este profesoara ta?\"},{\"de\":\"Wer von euch spricht Deutsch?\",\"lv\":\"Cine dintre voi vorbește germană?\"},{\"de\":\"Wer hat das gesagt?\",\"lv\":\"Cine a spus asta?\"},{\"de\":\"Wer möchte Kaffee?\",\"lv\":\"Cine dorește cafea?\"}],\"study.tip\":[\"Wer întreabă despre persoane; despre lucruri și evenimente se folosește was.\",\"Pentru alegerea unei persoane dintr-un grup se poate folosi wer von... (cine dintre...).\"],\"study.important\":[\"Wer se referă la persoane, nu la lucruri.\",\"Lucrurile și evenimentele sunt indicate prin was.\",\"Formele de caz sunt wen, wem și wessen, iar wer este forma de bază.\",\"Wer ist passiert? este incorect; corect este Was ist passiert? = Ce s-a întâmplat?\"]}",
+    "owner_note": "Pentru DE „wer”, am corectat traducerea „cine”, exemplele deformate și toate explicațiile care conțineau letonă sau confuzia cu was."
+  },
+  "g2/a1/ro|werden|idx:657|lv/study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"A deveni\",\"study.translation\":\"A deveni\",\"study.explanation\":[\"La nivelul A1, werden înseamnă cel mai adesea a deveni.\",\"Se folosește când ceva se schimbă sau ajunge într-o altă stare.\",\"În germană, werden se folosește și pentru formarea viitorului și a diatezei pasive.\",\"O expresie importantă este Ich werde müde. = Obosesc / Devin obosit.\"],\"study.examples\":[{\"de\":\"Ich werde müde.\",\"lv\":\"Obosesc.\"},{\"de\":\"Es wird kalt.\",\"lv\":\"Se face frig.\"},{\"de\":\"Sie wird Ärztin.\",\"lv\":\"Ea devine medic.\"},{\"de\":\"Ich bin müde.\",\"lv\":\"Sunt obosit.\"}],\"study.comparison\":[{\"word\":\"werden\",\"meaning\":\"A deveni\",\"example\":\"Obosesc.\"},{\"word\":\"sein\",\"meaning\":\"A fi\",\"example\":\"Sunt obosit.\"},{\"word\":\"bleiben\",\"meaning\":\"A rămâne\",\"example\":\"Rămân aici.\"},{\"word\":\"machen\",\"meaning\":\"A face\",\"example\":\"Fac asta.\"}],\"study.tip\":{\"text\":\"Amintiți-vă: când o stare se schimbă, se folosește werden.\"},\"study.important\":[\"Werden nu are același sens ca sein.\",\"Ich werde müde = Obosesc / Devin obosit • Ich bin müde = Sunt obosit.\"]}",
+    "owner_note": "Pentru DE „werden”, am corectat comparațiile nenaturale și exemplele amestecate cu letonă, păstrând sensul de bază „a deveni”."
+  },
+  "g2/a1/ro|Wetter|idx:658|lv/study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vreme\",\"study.translation\":\"Vreme\",\"study.explanation\":[\"Das Wetter înseamnă vremea, adică starea vremii: însorită, ploioasă, rece sau caldă.\",\"În germană, das Wetter se referă la condițiile atmosferice, nu la ora indicată de ceas.\",\"Se folosește, de exemplu, în întrebarea Wie ist das Wetter heute? = Cum este vremea astăzi?\",\"Nu trebuie confundat cu die Zeit, care înseamnă timp.\"],\"study.examples\":[{\"de\":\"Wie ist das Wetter heute?\",\"lv\":\"Cum este vremea astăzi?\"},{\"de\":\"Das Wetter ist schön.\",\"lv\":\"Vremea este frumoasă.\"},{\"de\":\"Das Wetter ist schlecht.\",\"lv\":\"Vremea este rea.\"},{\"de\":\"Im Winter ist das Wetter oft kalt.\",\"lv\":\"Iarna, vremea este adesea rece.\"},{\"de\":\"Wir sprechen über das Wetter.\",\"lv\":\"Vorbim despre vreme.\"},{\"de\":\"Morgen wird das Wetter besser.\",\"lv\":\"Mâine vremea va fi mai bună.\"}],\"study.comparison\":[{\"word\":\"Wetter\",\"meaning\":\"Vreme / condiții meteorologice\",\"example\":\"Vremea este frumoasă.\"},{\"word\":\"Zeit\",\"meaning\":\"Timp\",\"example\":\"Nu am timp.\"},{\"word\":\"Regen\",\"meaning\":\"Ploaie\",\"example\":\"Plouă mult.\"},{\"word\":\"Sonne\",\"meaning\":\"Soare\",\"example\":\"Soarele strălucește.\"}],\"study.tip\":[\"Pentru soare, ploaie sau temperatura de afară se folosește das Wetter.\",\"Wie ist das Wetter? înseamnă Cum este vremea?, nu Cât este ceasul?\"],\"study.important\":[\"Das Wetter = vremea, nu ora indicată de ceas.\",\"Die Zeit = timpul, ca durată sau moment.\"]}",
+    "owner_note": "Pentru DE „Wetter”, am corectat traducerea „Timp (vreme)” și exemplul „Wie ist das Wetter heute?”, care fusese tradus greșit ca întrebare despre oră."
+  },
+  "g2/a1/ro|wie|idx:660|lv/study|CONTENT_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Cum • Cât\",\"study.translation\":\"Cum • Cât\",\"study.explanation\":[\"Wie întreabă de obicei despre felul în care se desfășoară ceva sau despre o caracteristică.\",\"În combinații precum wie viel, wie alt și wie lange, se traduce prin cât, câți sau cât timp.\",\"Wie viel(e) întreabă despre cantitate, wie alt despre vârstă, iar wie lange despre durată.\",\"În comparații, wie poate însemna ca: so groß wie = la fel de înalt ca.\"],\"study.examples\":[{\"de\":\"Wie geht es dir?\",\"lv\":\"Ce mai faci?\"},{\"de\":\"Wie heißt du?\",\"lv\":\"Cum te cheamă?\"},{\"de\":\"Wie viel kostet das?\",\"lv\":\"Cât costă asta?\"},{\"de\":\"Wie alt bist du?\",\"lv\":\"Câți ani ai?\"},{\"de\":\"Wie lange dauert der Film?\",\"lv\":\"Cât durează filmul?\"},{\"de\":\"Er ist so groß wie sein Vater.\",\"lv\":\"Este la fel de înalt ca tatăl său.\"}],\"study.tip\":[\"Wie folosit singur înseamnă de obicei cum.\",\"Wie + viel/alt/lange se traduce prin cât, câți ani sau cât timp.\",\"În comparații, wie înseamnă ca.\"],\"study.important\":[\"Wie viel(e) = cât / câți • Wie alt = câți ani • Wie lange = cât timp.\",\"Wie? înseamnă de obicei cum; nu trebuie confundat cu cât.\",\"Wie geht's? = Ce mai faci?; Wie alt bist du? = Câți ani ai?\"]}",
+    "owner_note": "Pentru DE „wie”, am corectat explicația cu „Wie alone”, exemplele și nota finală, astfel încât „cum”, „cât” și întrebarea despre vârstă să fie distincte."
+  },
+  "g2/a1/ro|zu|idx:668|lv/study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"La • Spre\",\"study.translation\":\"La • Spre\",\"study.explanation\":[\"Zu poate însemna la sau spre, mai ales cu persoane și instituții.\",\"Cu articol hotărât, zu formează contracții precum zum = zu dem și zur = zu der.\",\"În combinația zu + infinitiv, zu marchează infinitivul: zu lernen, zu gehen.\",\"În expresii precum zu teuer, zu înseamnă prea.\"],\"study.examples\":[{\"de\":\"Ich gehe zum Arzt.\",\"lv\":\"Mă duc la medic.\"},{\"de\":\"Wir gehen zur Schule.\",\"lv\":\"Mergem la școală.\"},{\"de\":\"Das ist zu teuer.\",\"lv\":\"Este prea scump.\"},{\"de\":\"Ich habe keine Zeit zu lernen.\",\"lv\":\"Nu am timp să învăț.\"}],\"study.comparison\":[{\"word\":\"zu\",\"meaning\":\"La / spre / prea / marcă a infinitivului\",\"example\":\"Merg la medic.\"},{\"word\":\"nach\",\"meaning\":\"Spre, cu orașe și țări fără articol\",\"example\":\"Merg la Berlin.\"},{\"word\":\"in\",\"meaning\":\"În / într-un loc\",\"example\":\"Merg la școală.\"},{\"word\":\"bei\",\"meaning\":\"La cineva / la locul de muncă\",\"example\":\"Sunt la Anna.\"}],\"study.tip\":{\"text\":\"Amintiți-vă: la medic → zum Arzt • prea scump → zu teuer.\"},\"study.important\":[\"Zu are mai multe utilizări; sensul depinde de construcție.\",\"Zu teuer înseamnă „prea scump”, nu doar „scump”.\"]}",
+    "owner_note": "Pentru DE „zu”, am eliminat fragmentele în engleză și letonă și am corectat explicația despre direcție, infinitiv și sensul „prea”."
+  },
+  "g2/a1/ro|Zug|idx:671|lv/study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pentru DE „Zug”, toate valorile actuale sunt în română și redau corect sensul A1 „tren”, inclusiv exemplele și explicațiile; nu există un rest de limbă străină care să necesite înlocuire."
+  },
+  "g2/a1/ro|zum|idx:672|lv / study.translation / study.*.lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Pentru DE „zum”, forma românească actuală „La • La” este corectă pentru cele două utilizări indicate și respectă formatul cu separator bullet; nu este prezentă o traducere în altă limbă."
+  },
+  "g2/a1/ru|a1-ab|a1.card.a1-ab.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого слова «ab» текущие варианты «От кого-то/чего-то • Происхождение» естественно передают значения источника и происхождения."
+  },
+  "g2/a1/ru|a1-aber|a1.card.a1-aber.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Но • Возражение • Однако",
+    "owner_note": "Для немецкого «aber» слово «Противоположное» не является естественным переводом союза; исправлено на союз и связанные значения возражения и противопоставления."
+  },
+  "g2/a1/ru|a1-also|a1.card.a1-also.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого «also» варианты «Итак • Поэтому» корректно передают значения вывода и следствия."
+  },
+  "g2/a1/ru|a1-an|a1.card.a1-an.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "У • На • К",
+    "owner_note": "Для немецкого предлога «an» вариант «В» и значение «Настоящее время» некорректны; заменены на естественные русские соответствия положения и направления."
+  },
+  "g2/a1/ru|a1-an|a1.card.a1-an.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого «an» варианты «На • На поверхности • На краю» естественно описывают употребление у поверхности и края."
+  },
+  "g2/a1/ru|a1-auf|a1.card.a1-auf.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Если что-то находится у вертикальной поверхности, часто используется an • Если что-то находится внутри, используется in",
+    "owner_note": "В пояснении к немецкому «auf» исправлены смешение обращений «вам/тебе», неестественное «понадобится» и ошибочное «нужно войти»; сохранено противопоставление an и in."
+  },
+  "g2/a1/ru|a1-aus|a1.card.a1-aus.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Из • Изнутри",
+    "owner_note": "Для немецкого «aus» повтор «Из • Из» не различает значения происхождения и выхода изнутри; второе значение уточнено как «Изнутри»."
+  },
+  "g2/a1/ru|a1-aus|a1.card.a1-aus.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Из • Изнутри",
+    "owner_note": "Для немецкого «aus» в поле перевода устранено дублирование; «Изнутри» передаёт значение выхода из внутреннего пространства."
+  },
+  "g2/a1/ru|a1-besuch|a1.card.a1-besuch.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Посещение • Визит • Приход в гости",
+    "owner_note": "Для немецкого существительного «Besuch» слово «гость» ошибочно обозначает человека, а не посещение; заменено на естественное значение визита в гости."
+  },
+  "g2/a1/ru|a1-besuchen|a1.card.a1-besuchen.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого глагола «besuchen» текущие варианты корректно различают посещение места или события и навещение человека."
+  },
+  "g2/a1/ru|a1-bis|a1.card.a1-bis.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого bis обе конструкции переведены естественно: bis jetzt — «до сих пор», bis dass — «до тех пор, пока»."
+  },
+  "g2/a1/ru|a1-bleiben|a1.card.a1-bleiben.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Немецкое bleiben в примере Ich bleibe hier корректно передано как «Я остаюсь здесь», а warten — как «Я жду здесь»."
+  },
+  "g2/a1/ru|a1-bringen|a1.card.a1-bringen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Приносить • Приводить",
+    "owner_note": "Для немецкого bringen значение «Забрать» неверно; нужны значения «приносить» и «приводить»."
+  },
+  "g2/a1/ru|a1-bringen|a1.card.a1-bringen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Приносить • Приводить",
+    "owner_note": "В переводе немецкого bringen вариант «Забрать» обозначает другое действие; исправлены основные значения «приносить» и «приводить»."
+  },
+  "g2/a1/ru|a1-da|a1.card.a1-da.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Там • Здесь • Здесь (в общем смысле)",
+    "owner_note": "Для немецкого da варианты «Там» и «Здесь» подходят, но «Здесь (общий)» грамматически неестественно; исправлено на «Здесь (в общем смысле)»."
+  },
+  "g2/a1/ru|a1-das|a1.card.a1-das.study.comparison[2].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Который • Которая • Которое",
+    "owner_note": "Немецкое das в данном сравнении относится к местоименным формам «который/которая/которое»; «Кто» и «Кого» имеют другое значение."
+  },
+  "g2/a1/ru|a1-dass|a1.card.a1-dass.study.comparison[1].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Что • То, что",
+    "owner_note": "Немецкое dass означает союз «что»; повтор «Потому что» ошибочно передаёт значение weil."
+  },
+  "g2/a1/ru|a1-ein|a1.card.a1-ein.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Неопределённый артикль • Один",
+    "owner_note": "Для немецкого ein корректны значения «неопределённый артикль» и «один»; «Кто-то» соответствует не ein, а jemand."
+  },
+  "g2/a1/ru|a1-ein|a1.card.a1-ein.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Неопределённый артикль • Один",
+    "owner_note": "В записи для немецкого ein удалено ошибочное значение «Кто-то» и исправлено написание «Неопределённый»."
+  },
+  "g2/a1/ru|a1-einmal|a1.card.a1-einmal.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Однажды • Один раз",
+    "owner_note": "Немецкое einmal имеет значения «однажды» и «один раз»; два одинаковых варианта не отражают разные русские переводы."
+  },
+  "g2/a1/ru|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Один раз • Раз",
+    "owner_note": "Для немецкого einmal нужны два естественных русских варианта без повтора: «один раз» и «раз»."
+  },
+  "g2/a1/ru|a1-eis|a1.card.a1-eis.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Лёд • Мороженое",
+    "owner_note": "Немецкое Eis означает «лёд» или «мороженое»; исправлена нормативная русская орфография с буквой «ё»."
+  },
+  "g2/a1/ru|a1-eis|a1.card.a1-eis.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Лёд • Мороженое",
+    "owner_note": "В переводе немецкого Eis исправлено написание «Лед» на нормативное «Лёд», при этом сохранены оба значения."
+  },
+  "g2/a1/ru|a1-erst|a1.card.a1-erst.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого erst варианты «сначала» и «только» являются корректными русскими соответствиями в разных контекстах."
+  },
+  "g2/a1/ru|a1-erst|a1.card.a1-erst.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Сравнение значений немецкого erst корректно передано вариантами «сначала» и «только»."
+  },
+  "g2/a1/ru|a1-erst|a1.card.a1-erst.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "«Erst» часто обозначает время, последовательность или достижение определённого момента • «Nur» ограничивает количество",
+    "owner_note": "Исходный текст ошибочно содержит «Первый» и немецкий фрагмент «Nur»; для немецкого erst нужно объяснение его временного и последовательного значения, а Nur следует перевести как «только»."
+  },
+  "g2/a1/ru|a1-erst|a1.card.a1-erst.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Перевод немецкого erst вариантами «сначала» и «только» естественен и соответствует двум указанным значениям."
+  },
+  "g2/a1/ru|a1-es|a1.card.a1-es.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого es корректны варианты «это», «оно» и пояснение «безличная форма»."
+  },
+  "g2/a1/ru|a1-es|a1.card.a1-es.study.comparison[0].meaning|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Значения немецкого es корректно сопоставлены с русскими «оно» и «безличная форма»."
+  },
+  "g2/a1/ru|a1-es|a1.card.a1-es.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Немецкое «es» — не латышское «я» • Немецкое «es» часто означает «это» или «оно», либо не переводится",
+    "owner_note": "Для немецкого es исходная фраза ошибочно утверждает, что латышское «я» есть в немецком; исправлено противопоставление и естественно описаны значения «это», «оно» и нулевой перевод."
+  },
+  "g2/a1/ru|a1-es|a1.card.a1-es.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Это • Оно • Безличное местоимение",
+    "owner_note": "Для немецкого es нужны эквиваленты «это» и «оно», а «безличное местоимение» точнее передаёт его грамматическую функцию, чем «безличная форма»."
+  },
+  "g2/a1/ru|a1-essen-study|a1.card.a1-essen-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Еда • Приём пищи",
+    "owner_note": "Немецкое Essen обозначает как «еду», так и «приём пищи»; повтор «Еда • Еда» не отражает два разных значения."
+  },
+  "g2/a1/ru|a1-essen-study|a1.card.a1-essen-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Еда • Приём пищи",
+    "owner_note": "Для Essen следует различить значение продукта питания и значение принятия пищи; поэтому вместо дублирования нужна пара «Еда • Приём пищи»."
+  },
+  "g2/a1/ru|a1-etwas|a1.card.a1-etwas.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "У немецкого etwas корректны оба русских эквивалента: «что-то» как неопределённое местоимение и «немного» как значение небольшой степени или количества."
+  },
+  "g2/a1/ru|a1-etwas|a1.card.a1-etwas.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Перевод немецкого etwas как «Что-то • Немного» естественен и передаёт его основные местоименное и количественное значения."
+  },
+  "g2/a1/ru|a1-euch|a1.card.a1-euch.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Вас • Вам",
+    "owner_note": "Немецкое euch — форма множественного числа для винительного и дательного падежей, поэтому «Ты • Ты» должно быть заменено на «Вас • Вам»."
+  },
+  "g2/a1/ru|a1-euch|a1.card.a1-euch.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Вас • Вам",
+    "owner_note": "Для euch необходимы русские формы «вас» в винительном и «вам» в дательном падеже; единственное число «ты» семантически неверно."
+  },
+  "g2/a1/ru|a1-fahren|a1.card.a1-fahren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ехать • Ездить • Водить",
+    "owner_note": "Немецкое fahren означает перемещение или управление транспортом; «ехать», «ездить» и «водить» точнее, тогда как «вести» и «забирать» здесь не соответствуют значению."
+  }
+}
