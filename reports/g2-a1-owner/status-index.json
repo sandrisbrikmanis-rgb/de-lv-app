@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T07:50:00.000Z",
+  "updatedAt": "2026-09-13T07:55:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -44,7 +44,8 @@
       "LRB-025",
       "LRB-026",
       "LRB-027",
-      "LRB-028"
+      "LRB-028",
+      "LRB-029"
     ],
     "ingestApproved": false,
     "applyApproved": false
@@ -81,7 +82,7 @@
     "batchPrefix": "LRB",
     "batchSize": 50,
     "batchesTotal": 103,
-    "batchesReviewed": 28,
+    "batchesReviewed": 29,
     "batchesAntiBulkPass": 28,
     "batchesSpotCheckPass": 28,
     "linguisticVerdicts": {
@@ -666,18 +667,35 @@
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-028-owner-authorization-proof.json",
         "pasteRepairs": "GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT / 27 unique IS cards)",
         "pasteSha256": "c5695624bc2ffe614dabf751e2559d8f7fdf3da4e542fabd4d4df5cf11c91db4"
+      },
+      "LRB-029": {
+        "verdict": "PENDING_LINGUISTIC_REVIEW",
+        "status": "OWNER_PREP_READY",
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "pending-gpt-5.6-luna",
+        "languages": {
+          "is": 50
+        },
+        "uniqueCards": 38,
+        "rowCount": 50,
+        "productionSource": "data/is/a1.js",
+        "inputPath": "reports/g2-a1-owner/batches-pending/LRB-029-input.csv",
+        "manifestPath": "reports/g2-a1-owner/manifests/LRB-029-start.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-029-owner-authorization-proof.json"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-028",
-      "labot": 50,
-      "nelabot": 0,
-      "pending": 0,
-      "antiBulkPass": true,
-      "linguisticVerdict": "LRB_028_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-028-decisions.csv",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-028-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-028-anti-bulk-proof.json"
+      "batch_id": "LRB-029",
+      "status": "OWNER_PREP_READY",
+      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+      "ownerAuthorization": "APPROVED",
+      "rowCount": 50,
+      "languages": {
+        "is": 50
+      },
+      "uniqueCards": 38,
+      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-029-input.csv",
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-029-owner-authorization-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
