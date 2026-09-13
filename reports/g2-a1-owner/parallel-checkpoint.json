@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-13T13:25:47.943Z",
+  "updatedAt": "2026-09-13T13:30:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,12 +40,11 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": "LRB-088",
+    "activeBatch": null,
     "reservedBatches": [],
-    "inProgressBatches": [
-      "LRB-088"
-    ],
+    "inProgressBatches": [],
     "completedBatches": [
+      "LRB-088",
       "LRB-089",
       "LRB-090",
       "LRB-091",
@@ -69,7 +68,7 @@
       "batchId": "LRB-088",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "OWNER_APPROVED_OVERRIDES_APPLIED",
+      "status": "GALA_PASS",
       "branch": "cursor/lrb-088-owner-authorization-ed35",
       "reservedAt": "2026-09-13T12:42:00.000Z",
       "rows": 50,
@@ -78,14 +77,18 @@
       },
       "ownerAuthorizationStatus": "APPROVED",
       "linguisticReviewer": "gpt-5.6-luna",
+      "overridesSha256": "acff3efdfa6dd8236ad753b6a21728b57ad7161845cc799d6eb5ea9ade678911",
+      "appliedAt": "2026-09-13T13:04:11.669Z",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-review-proof.json",
       "labot": 50,
       "nelabot": 0,
       "pending": 0,
-      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-088-owner-authorization-proof.json",
-      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-review-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-088-anti-bulk-proof.json",
-      "overridesSha256": "acff3efdfa6dd8236ad753b6a21728b57ad7161845cc799d6eb5ea9ade678911",
-      "updatedAt": "2026-09-13T13:25:47.943Z"
+      "uniqueCards": 23,
+      "completedAt": "2026-09-13T13:30:00.000Z",
+      "verifiedCommit": "ac036ff9422e4b5e7c9a0e72849794d1312adc2b",
+      "linguisticVerdict": "LRB_088_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "galaPassAt": "2026-09-13T13:30:00.000Z",
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-088-owner-authorization-proof.json"
     },
     {
       "batchId": "LRB-089",
