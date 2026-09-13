@@ -92,8 +92,8 @@
   "g2/a1/fi|Liter|idx:382|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "Litra",
-    "owner_note": "FI Liter / lv: individuāli pārbaudīta LRB-047 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+    "owner_new": "{\"lv\":\"Litra\",\"study.translation\":\"Litra\",\"study.explanation\":\"Saksassa sanotaan tavallisesti der Liter, mutta Itävallassa ja Sveitsissä voi kuulla myös muodon das Liter. Monikkomuoto pysyy muuttumattomana: die Liter.\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"der Liter\\\"],\\\"blue\\\":[\\\"das Liter\\\"],\\\"purple\\\":[\\\"die Liter\\\"]}}\"}",
+    "owner_note": "FI Liter / lv: individuāli atkārtoti pārbaudīta LRB-047 rinda; pilnā gala kartīte aizvietota ar somu saturu visos oriģinālajā LV→DE kartītē esošajos study laukos, saglabājot der Liter / das Liter / die Liter gramatikas mācību un nemainot DE avotu."
   },
   "g2/a1/fi|Löffel|idx:383|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
     "owner_status": "DECIDED",
