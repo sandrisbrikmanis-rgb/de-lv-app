@@ -7,17 +7,17 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-13T15:04:23.563Z
-**Source commit:** `d92186da26cb12504f1d427b284c705b4c91497a`
+**Generated:** 2026-09-13T15:13:19.365Z
+**Source commit:** `9e0eb0586143f143e911cba3082e71cf05b76173`
 **Branch:** `cursor/lrb-086-owner-authorization-ed35`
-**Overrides SHA256:** `dbf0cb8fe65d06768ef807028bdf9011a8258c15cfc58f40ae2218af17b589bb`
+**Overrides SHA256:** `86b17df481bc34f79fe355d7246c1c2c793c86d37b5924fc6edbad0a7956c7e3`
 **Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
 ## Finding 1
 
-**Audit ID:** `LRB087-0001`
+**Audit ID:** `LRB086-0001`
 **Finding Stable ID:** `g2/a1/ru|aufs|idx:60|lv; study.translation; study.explanation; study.important; study.examples.lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `aufs|idx:60`
@@ -128,7 +128,7 @@
 
 ## Finding 2
 
-**Audit ID:** `LRB087-0002`
+**Audit ID:** `LRB086-0002`
 **Finding Stable ID:** `g2/a1/ru|aus|idx:57|lv; study.translation; study.examples.lv; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `aus|idx:57`
@@ -138,7 +138,7 @@
 **CURRENT (captured scope):** {"lv":"Из • Из","study.translation":"Из • Из","study.examples.lv":null,"study.comparison":"[{\"word\":\"aus\",\"meaning\":\"Изнутри, из\",\"example\":\"aus dem Haus – Из дома\"},{\"word\":\"von\",\"meaning\":\"От человека, места, поверхности\",\"example\":\"от моего друга – no mana drauga\"},{\"word\":\"ab\",\"meaning\":\"Начиная с момента или времени\",\"example\":\"ab Montag – С понедельника\"}]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Из • Изнутри","study":{"id":"a1-aus","layout":"standardStudy","translation":"Из • Изнутри","explanation":"Основная идея: aus указывает на движение изнутри наружу или на происхождение.","examples":[{"de":"Ich komme aus Deutschland.","lv":"Я из Германии."},{"de":"Er geht aus dem Haus.","lv":"Он выходит из дома."},{"de":"Ich nehme das Buch aus der Tasche.","lv":"Я достаю книгу из сумки."}],"comparison":[{"word":"aus","meaning":"Изнутри, из","example":"aus dem Haus – из дома"},{"word":"von","meaning":"От человека, места или поверхности","example":"von meinem Freund – от моего друга"},{"word":"ab","meaning":"Начиная с момента или времени","example":"ab Montag – с понедельника"}],"tip":{"text":"Запомните: движение изнутри наружу → aus."},"important":["Aus обычно указывает на движение изнутри или на происхождение.","Для начальной точки во времени или месте часто употребляется ab."]}}
+**NEW (OWNER mapping):** {"lv":"Из","study":{"id":"a1-aus","layout":"standardStudy","translation":"Из","explanation":"Основная идея: aus указывает на движение изнутри наружу или на происхождение.","examples":[{"de":"Ich komme aus Deutschland.","lv":"Я из Германии."},{"de":"Er geht aus dem Haus.","lv":"Он выходит из дома."},{"de":"Ich nehme das Buch aus der Tasche.","lv":"Я достаю книгу из сумки."}],"comparison":[{"word":"aus","meaning":"Изнутри, из","example":"aus dem Haus – из дома"},{"word":"von","meaning":"От человека, места или поверхности","example":"von meinem Freund – от моего друга"},{"word":"ab","meaning":"Начиная с момента или времени","example":"ab Montag – с понедельника"}],"tip":{"text":"Запомните: движение изнутри наружу → aus."},"important":["Aus обычно указывает на движение изнутри или на происхождение.","Для начальной точки во времени или месте часто употребляется ab."]}}
 **Note:** Pilna RU kartīte «aus»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -146,12 +146,12 @@
 ```json
 {
   "de": "aus",
-  "lv": "Из • Изнутри",
+  "lv": "Из",
   "level": "A1",
   "study": {
     "id": "a1-aus",
     "layout": "standardStudy",
-    "translation": "Из • Изнутри",
+    "translation": "Из",
     "explanation": "Основная идея: aus указывает на движение изнутри наружу или на происхождение.",
     "examples": [
       {
@@ -200,7 +200,7 @@
 
 ## Finding 3
 
-**Audit ID:** `LRB087-0003`
+**Audit ID:** `LRB086-0003`
 **Finding Stable ID:** `g2/a1/ru|bitte|idx:93|lv; study.examples; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `bitte|idx:93`
@@ -272,7 +272,7 @@
 
 ## Finding 4
 
-**Audit ID:** `LRB087-0004`
+**Audit ID:** `LRB086-0004`
 **Finding Stable ID:** `g2/a1/ru|Bitte|idx:94|lv; study.examples; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Bitte|idx:94`
@@ -347,7 +347,7 @@
 
 ## Finding 5
 
-**Audit ID:** `LRB087-0005`
+**Audit ID:** `LRB086-0005`
 **Finding Stable ID:** `g2/a1/ru|bitten|idx:98|lv|MISTRANSLATION|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `bitten|idx:98`
@@ -375,7 +375,7 @@
 
 ## Finding 6
 
-**Audit ID:** `LRB087-0006`
+**Audit ID:** `LRB086-0006`
 **Finding Stable ID:** `g2/a1/ru|bleiben|idx:101|lv; study.examples; study.explanation; study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `bleiben|idx:101`
@@ -461,7 +461,7 @@
 
 ## Finding 7
 
-**Audit ID:** `LRB087-0007`
+**Audit ID:** `LRB086-0007`
 **Finding Stable ID:** `g2/a1/ru|blond|idx:103|lv|MISTRANSLATION|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `blond|idx:103`
@@ -489,7 +489,7 @@
 
 ## Finding 8
 
-**Audit ID:** `LRB087-0008`
+**Audit ID:** `LRB086-0008`
 **Finding Stable ID:** `g2/a1/ru|bringen|idx:111|lv; study.examples; study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `bringen|idx:111`
@@ -578,7 +578,7 @@
 
 ## Finding 9
 
-**Audit ID:** `LRB087-0009`
+**Audit ID:** `LRB086-0009`
 **Finding Stable ID:** `g2/a1/ru|Buchstabe|idx:117|lv|MISTRANSLATION|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Buchstabe|idx:117`
@@ -608,7 +608,7 @@
 
 ## Finding 10
 
-**Audit ID:** `LRB087-0010`
+**Audit ID:** `LRB086-0010`
 **Finding Stable ID:** `g2/a1/ru|Cousine|idx:125|lv|MEANING_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Cousine|idx:125`
@@ -638,7 +638,7 @@
 
 ## Finding 11
 
-**Audit ID:** `LRB087-0011`
+**Audit ID:** `LRB086-0011`
 **Finding Stable ID:** `g2/a1/ru|da|idx:126|lv; study.examples; study.explanation; study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `da|idx:126`
@@ -724,7 +724,7 @@
 
 ## Finding 12
 
-**Audit ID:** `LRB087-0012`
+**Audit ID:** `LRB086-0012`
 **Finding Stable ID:** `g2/a1/ru|das|idx:129|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `das|idx:129`
@@ -796,7 +796,7 @@
 
 ## Finding 13
 
-**Audit ID:** `LRB087-0013`
+**Audit ID:** `LRB086-0013`
 **Finding Stable ID:** `g2/a1/ru|dass|idx:130|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `dass|idx:130`
@@ -873,7 +873,7 @@
 
 ## Finding 14
 
-**Audit ID:** `LRB087-0014`
+**Audit ID:** `LRB086-0014`
 **Finding Stable ID:** `g2/a1/ru|der|idx:134|lv; study.translation; study.examples; study.important|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `der|idx:134`
@@ -928,7 +928,7 @@
 
 ## Finding 15
 
-**Audit ID:** `LRB087-0015`
+**Audit ID:** `LRB086-0015`
 **Finding Stable ID:** `g2/a1/ru|die|idx:137|lv; study.translation; study.examples; study.important|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `die|idx:137`
@@ -983,7 +983,7 @@
 
 ## Finding 16
 
-**Audit ID:** `LRB087-0016`
+**Audit ID:** `LRB086-0016`
 **Finding Stable ID:** `g2/a1/ru|dieser|idx:139|lv; study.translation; study.examples; study.important|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `dieser|idx:139`
@@ -1038,7 +1038,7 @@
 
 ## Finding 17
 
-**Audit ID:** `LRB087-0017`
+**Audit ID:** `LRB086-0017`
 **Finding Stable ID:** `g2/a1/ru|essen|idx:690|lv; study.translation; study.explanation; study.tip; study.important; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `essen|idx:690`
@@ -1111,7 +1111,7 @@
 
 ## Finding 18
 
-**Audit ID:** `LRB087-0018`
+**Audit ID:** `LRB086-0018`
 **Finding Stable ID:** `g2/a1/ru|euer|idx:171|lv|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `euer|idx:171`
@@ -1139,7 +1139,7 @@
 
 ## Finding 19
 
-**Audit ID:** `LRB087-0019`
+**Audit ID:** `LRB086-0019`
 **Finding Stable ID:** `g2/a1/ru|Ferien|idx:694|study.examples[0].lv|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Ferien|idx:694`
@@ -1225,7 +1225,7 @@
 
 ## Finding 20
 
-**Audit ID:** `LRB087-0020`
+**Audit ID:** `LRB086-0020`
 **Finding Stable ID:** `g2/a1/ru|fernsehen|idx:687|lv; study.translation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `fernsehen|idx:687`
@@ -1300,7 +1300,7 @@
 
 ## Finding 21
 
-**Audit ID:** `LRB087-0021`
+**Audit ID:** `LRB086-0021`
 **Finding Stable ID:** `g2/a1/ru|Fernsehen|idx:688|lv; study.translation; study.explanation; study.tip; study.important; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Fernsehen|idx:688`
@@ -1374,7 +1374,7 @@
 
 ## Finding 22
 
-**Audit ID:** `LRB087-0022`
+**Audit ID:** `LRB086-0022`
 **Finding Stable ID:** `g2/a1/ru|Fußball|idx:218|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Fußball|idx:218`
@@ -1448,7 +1448,7 @@
 
 ## Finding 23
 
-**Audit ID:** `LRB087-0023`
+**Audit ID:** `LRB086-0023`
 **Finding Stable ID:** `g2/a1/ru|ganz|idx:219|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `ganz|idx:219`
@@ -1524,7 +1524,7 @@
 
 ## Finding 24
 
-**Audit ID:** `LRB087-0024`
+**Audit ID:** `LRB086-0024`
 **Finding Stable ID:** `g2/a1/ru|geben|idx:223|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `geben|idx:223`
@@ -1610,7 +1610,7 @@
 
 ## Finding 25
 
-**Audit ID:** `LRB087-0025`
+**Audit ID:** `LRB086-0025`
 **Finding Stable ID:** `g2/a1/ru|gefallen|idx:225|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `gefallen|idx:225`
@@ -1682,7 +1682,7 @@
 
 ## Finding 26
 
-**Audit ID:** `LRB087-0026`
+**Audit ID:** `LRB086-0026`
 **Finding Stable ID:** `g2/a1/ru|Geschichte|idx:233|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Geschichte|idx:233`
@@ -1756,7 +1756,7 @@
 
 ## Finding 27
 
-**Audit ID:** `LRB087-0027`
+**Audit ID:** `LRB086-0027`
 **Finding Stable ID:** `g2/a1/ru|groß|idx:250|study.examples[1].lv|MEANING_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `groß|idx:250`
@@ -1820,7 +1820,7 @@
 
 ## Finding 28
 
-**Audit ID:** `LRB087-0028`
+**Audit ID:** `LRB086-0028`
 **Finding Stable ID:** `g2/a1/ru|gut|idx:259|study.explanation, study.tip, study.important, lv|MEANING_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `gut|idx:259`
@@ -1895,7 +1895,7 @@
 
 ## Finding 29
 
-**Audit ID:** `LRB087-0029`
+**Audit ID:** `LRB086-0029`
 **Finding Stable ID:** `g2/a1/ru|halb|idx:262|lv|MEANING_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `halb|idx:262`
@@ -1905,7 +1905,7 @@
 **CURRENT (captured scope):** Сторона
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"lv":"Половина"}
+**NEW (OWNER mapping):** {"lv":"Половинный • Наполовину"}
 **Note:** Pilna RU kartīte «halb»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1913,7 +1913,7 @@
 ```json
 {
   "de": "halb",
-  "lv": "Половина",
+  "lv": "Половинный • Наполовину",
   "level": "A1",
   "index": 262
 }
@@ -1923,7 +1923,7 @@
 
 ## Finding 30
 
-**Audit ID:** `LRB087-0030`
+**Audit ID:** `LRB086-0030`
 **Finding Stable ID:** `g2/a1/ru|Haltestelle|idx:266|lv|MEANING_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Haltestelle|idx:266`
@@ -1953,7 +1953,7 @@
 
 ## Finding 31
 
-**Audit ID:** `LRB087-0031`
+**Audit ID:** `LRB086-0031`
 **Finding Stable ID:** `g2/a1/ru|hören|idx:287|lv; study.translation; study.explanation; study.examples; study.tip; study.important|LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `hören|idx:287`
@@ -2014,7 +2014,7 @@
 
 ## Finding 32
 
-**Audit ID:** `LRB087-0032`
+**Audit ID:** `LRB086-0032`
 **Finding Stable ID:** `g2/a1/ru|hübsch|idx:288|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `hübsch|idx:288`
@@ -2090,7 +2090,7 @@
 
 ## Finding 33
 
-**Audit ID:** `LRB087-0033`
+**Audit ID:** `LRB086-0033`
 **Finding Stable ID:** `g2/a1/ru|ihr|idx:292|lv; study.translation; study.examples|MEANING_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `ihr|idx:292`
@@ -2166,7 +2166,7 @@
 
 ## Finding 34
 
-**Audit ID:** `LRB087-0034`
+**Audit ID:** `LRB086-0034`
 **Finding Stable ID:** `g2/a1/ru|im|idx:293|lv; study.translation; study.explanation; study.examples; study.important|MEANING_ERROR|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `im|idx:293`
@@ -2277,7 +2277,7 @@
 
 ## Finding 35
 
-**Audit ID:** `LRB087-0035`
+**Audit ID:** `LRB086-0035`
 **Finding Stable ID:** `g2/a1/ru|in|idx:295|lv; study.translation; study.explanation; study.examples|LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `in|idx:295`
@@ -2341,7 +2341,7 @@
 
 ## Finding 36
 
-**Audit ID:** `LRB087-0036`
+**Audit ID:** `LRB086-0036`
 **Finding Stable ID:** `g2/a1/ru|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation`
 **Lang:** ru
 **Card:** `jetzt`
@@ -2369,7 +2369,7 @@
 
 ## Finding 37
 
-**Audit ID:** `LRB087-0037`
+**Audit ID:** `LRB086-0037`
 **Finding Stable ID:** `g2/a1/ru|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation`
 **Lang:** ru
 **Card:** `links`
@@ -2397,7 +2397,7 @@
 
 ## Finding 38
 
-**Audit ID:** `LRB087-0038`
+**Audit ID:** `LRB086-0038`
 **Finding Stable ID:** `g2/a1/ru|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation`
 **Lang:** ru
 **Card:** `malen`
@@ -2425,7 +2425,7 @@
 
 ## Finding 39
 
-**Audit ID:** `LRB087-0039`
+**Audit ID:** `LRB086-0039`
 **Finding Stable ID:** `g2/a1/ru|Mann|idx:394|lv; study.*.lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Mann|idx:394`
@@ -2502,7 +2502,7 @@
 
 ## Finding 40
 
-**Audit ID:** `LRB087-0040`
+**Audit ID:** `LRB086-0040`
 **Finding Stable ID:** `g2/a1/ru|mit|idx:408|lv; study.*.lv; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `mit|idx:408`
@@ -2588,7 +2588,7 @@
 
 ## Finding 41
 
-**Audit ID:** `LRB087-0041`
+**Audit ID:** `LRB086-0041`
 **Finding Stable ID:** `g2/a1/ru|mögen|idx:413|lv; study.*.lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `mögen|idx:413`
@@ -2674,7 +2674,7 @@
 
 ## Finding 42
 
-**Audit ID:** `LRB087-0042`
+**Audit ID:** `LRB086-0042`
 **Finding Stable ID:** `g2/a1/ru|morgen|idx:417|lv; study.explanation; study.examples|DE_SOURCE_ISSUE|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `morgen|idx:417`
@@ -2747,7 +2747,7 @@
 
 ## Finding 43
 
-**Audit ID:** `LRB087-0043`
+**Audit ID:** `LRB086-0043`
 **Finding Stable ID:** `g2/a1/ru|Morgen|idx:418|lv; study.examples; study.sectionAccents|DE_SOURCE_ISSUE|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Morgen|idx:418`
@@ -2822,7 +2822,7 @@
 
 ## Finding 44
 
-**Audit ID:** `LRB087-0044`
+**Audit ID:** `LRB086-0044`
 **Finding Stable ID:** `g2/a1/ru|nach|idx:426|lv|MISTRANSLATION|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `nach|idx:426`
@@ -2908,7 +2908,7 @@
 
 ## Finding 45
 
-**Audit ID:** `LRB087-0045`
+**Audit ID:** `LRB086-0045`
 **Finding Stable ID:** `g2/a1/ru|neu|idx:439|study.explanation|INTERNAL_CONTRADICTION|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `neu|idx:439`
@@ -2988,7 +2988,7 @@
 
 ## Finding 46
 
-**Audit ID:** `LRB087-0046`
+**Audit ID:** `LRB086-0046`
 **Finding Stable ID:** `g2/a1/ru|probieren|idx:482|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `probieren|idx:482`
@@ -3074,7 +3074,7 @@
 
 ## Finding 47
 
-**Audit ID:** `LRB087-0047`
+**Audit ID:** `LRB086-0047`
 **Finding Stable ID:** `g2/a1/ru|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation`
 **Lang:** ru
 **Card:** `rechts`
@@ -3102,7 +3102,7 @@
 
 ## Finding 48
 
-**Audit ID:** `LRB087-0048`
+**Audit ID:** `LRB086-0048`
 **Finding Stable ID:** `g2/a1/ru|rechts|idx:491|lv|STYLE_ONLY|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `rechts|idx:491`
@@ -3130,7 +3130,7 @@
 
 ## Finding 49
 
-**Audit ID:** `LRB087-0049`
+**Audit ID:** `LRB086-0049`
 **Finding Stable ID:** `g2/a1/ru|Reis|idx:496|lv, study.translation, study.explanation, study.examples, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `Reis|idx:496`
@@ -3190,7 +3190,7 @@
 
 ## Finding 50
 
-**Audit ID:** `LRB087-0050`
+**Audit ID:** `LRB086-0050`
 **Finding Stable ID:** `g2/a1/ru|rufen|idx:500|lv|MEANING_NARROWING|gpt-5.6-luna`
 **Lang:** ru
 **Card:** `rufen|idx:500`

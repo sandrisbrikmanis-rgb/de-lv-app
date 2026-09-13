@@ -8,7 +8,7 @@
   "g2/a1/ru|aus|idx:57|lv; study.translation; study.examples.lv; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Из • Изнутри\",\"study\":{\"id\":\"a1-aus\",\"layout\":\"standardStudy\",\"translation\":\"Из • Изнутри\",\"explanation\":\"Основная идея: aus указывает на движение изнутри наружу или на происхождение.\",\"examples\":[{\"de\":\"Ich komme aus Deutschland.\",\"lv\":\"Я из Германии.\"},{\"de\":\"Er geht aus dem Haus.\",\"lv\":\"Он выходит из дома.\"},{\"de\":\"Ich nehme das Buch aus der Tasche.\",\"lv\":\"Я достаю книгу из сумки.\"}],\"comparison\":[{\"word\":\"aus\",\"meaning\":\"Изнутри, из\",\"example\":\"aus dem Haus – из дома\"},{\"word\":\"von\",\"meaning\":\"От человека, места или поверхности\",\"example\":\"von meinem Freund – от моего друга\"},{\"word\":\"ab\",\"meaning\":\"Начиная с момента или времени\",\"example\":\"ab Montag – с понедельника\"}],\"tip\":{\"text\":\"Запомните: движение изнутри наружу → aus.\"},\"important\":[\"Aus обычно указывает на движение изнутри или на происхождение.\",\"Для начальной точки во времени или месте часто употребляется ab.\"]}}",
+    "owner_new": "{\"lv\":\"Из\",\"study\":{\"id\":\"a1-aus\",\"layout\":\"standardStudy\",\"translation\":\"Из\",\"explanation\":\"Основная идея: aus указывает на движение изнутри наружу или на происхождение.\",\"examples\":[{\"de\":\"Ich komme aus Deutschland.\",\"lv\":\"Я из Германии.\"},{\"de\":\"Er geht aus dem Haus.\",\"lv\":\"Он выходит из дома.\"},{\"de\":\"Ich nehme das Buch aus der Tasche.\",\"lv\":\"Я достаю книгу из сумки.\"}],\"comparison\":[{\"word\":\"aus\",\"meaning\":\"Изнутри, из\",\"example\":\"aus dem Haus – из дома\"},{\"word\":\"von\",\"meaning\":\"От человека, места или поверхности\",\"example\":\"von meinem Freund – от моего друга\"},{\"word\":\"ab\",\"meaning\":\"Начиная с момента или времени\",\"example\":\"ab Montag – с понедельника\"}],\"tip\":{\"text\":\"Запомните: движение изнутри наружу → aus.\"},\"important\":[\"Aus обычно указывает на движение изнутри или на происхождение.\",\"Для начальной точки во времени или месте часто употребляется ab.\"]}}",
     "owner_note": "Pilna RU kartīte «aus»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem."
   },
   "g2/a1/ru|bitte|idx:93|lv; study.examples; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna": {
@@ -170,7 +170,7 @@
   "g2/a1/ru|halb|idx:262|lv|MEANING_ERROR|gpt-5.6-luna": {
     "owner_status": "DECIDED",
     "owner_decision": "LABOT",
-    "owner_new": "{\"lv\":\"Половина\"}",
+    "owner_new": "{\"lv\":\"Половинный • Наполовину\"}",
     "owner_note": "Pilna RU kartīte «halb»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem."
   },
   "g2/a1/ru|Haltestelle|idx:266|lv|MEANING_ERROR|gpt-5.6-luna": {

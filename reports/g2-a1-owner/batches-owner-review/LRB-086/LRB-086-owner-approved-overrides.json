@@ -1,11 +1,11 @@
 {
   "batchId": "LRB-086",
-  "sourceCommit": "d92186da26cb12504f1d427b284c705b4c91497a",
+  "sourceCommit": "9e0eb0586143f143e911cba3082e71cf05b76173",
   "reviewer": "GPT-5.6 Luna",
   "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
   "cards": [
     {
-      "auditId": "LRB087-0001",
+      "auditId": "LRB086-0001",
       "cardId": "aufs|idx:60",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «aufs»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -97,16 +97,16 @@
       }
     },
     {
-      "auditId": "LRB087-0002",
+      "auditId": "LRB086-0002",
       "cardId": "aus|idx:57",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «aus»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
       "new": {
-        "lv": "Из • Изнутри",
+        "lv": "Из",
         "study": {
           "id": "a1-aus",
           "layout": "standardStudy",
-          "translation": "Из • Изнутри",
+          "translation": "Из",
           "explanation": "Основная идея: aus указывает на движение изнутри наружу или на происхождение.",
           "examples": [
             {
@@ -150,7 +150,7 @@
       }
     },
     {
-      "auditId": "LRB087-0003",
+      "auditId": "LRB086-0003",
       "cardId": "bitte|idx:93",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «bitte»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -203,7 +203,7 @@
       }
     },
     {
-      "auditId": "LRB087-0004",
+      "auditId": "LRB086-0004",
       "cardId": "Bitte|idx:94",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Bitte»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -257,7 +257,7 @@
       }
     },
     {
-      "auditId": "LRB087-0005",
+      "auditId": "LRB086-0005",
       "cardId": "bitten|idx:98",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «bitten»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -266,7 +266,7 @@
       }
     },
     {
-      "auditId": "LRB087-0006",
+      "auditId": "LRB086-0006",
       "cardId": "bleiben|idx:101",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «bleiben»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -333,7 +333,7 @@
       }
     },
     {
-      "auditId": "LRB087-0007",
+      "auditId": "LRB086-0007",
       "cardId": "blond|idx:103",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «blond»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -342,7 +342,7 @@
       }
     },
     {
-      "auditId": "LRB087-0008",
+      "auditId": "LRB086-0008",
       "cardId": "bringen|idx:111",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «bringen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -412,7 +412,7 @@
       }
     },
     {
-      "auditId": "LRB087-0009",
+      "auditId": "LRB086-0009",
       "cardId": "Buchstabe|idx:117",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Buchstabe»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -421,7 +421,7 @@
       }
     },
     {
-      "auditId": "LRB087-0010",
+      "auditId": "LRB086-0010",
       "cardId": "Cousine|idx:125",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Cousine»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -430,7 +430,7 @@
       }
     },
     {
-      "auditId": "LRB087-0011",
+      "auditId": "LRB086-0011",
       "cardId": "da|idx:126",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «da»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -497,7 +497,7 @@
       }
     },
     {
-      "auditId": "LRB087-0012",
+      "auditId": "LRB086-0012",
       "cardId": "das|idx:129",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «das»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -550,7 +550,7 @@
       }
     },
     {
-      "auditId": "LRB087-0013",
+      "auditId": "LRB086-0013",
       "cardId": "dass|idx:130",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «dass»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -608,7 +608,7 @@
       }
     },
     {
-      "auditId": "LRB087-0014",
+      "auditId": "LRB086-0014",
       "cardId": "der|idx:134",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «der»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -644,7 +644,7 @@
       }
     },
     {
-      "auditId": "LRB087-0015",
+      "auditId": "LRB086-0015",
       "cardId": "die|idx:137",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «die»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -680,7 +680,7 @@
       }
     },
     {
-      "auditId": "LRB087-0016",
+      "auditId": "LRB086-0016",
       "cardId": "dieser|idx:139",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «dieser»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -716,7 +716,7 @@
       }
     },
     {
-      "auditId": "LRB087-0017",
+      "auditId": "LRB086-0017",
       "cardId": "essen|idx:690",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «essen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -770,7 +770,7 @@
       }
     },
     {
-      "auditId": "LRB087-0018",
+      "auditId": "LRB086-0018",
       "cardId": "euer|idx:171",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «euer»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -779,7 +779,7 @@
       }
     },
     {
-      "auditId": "LRB087-0019",
+      "auditId": "LRB086-0019",
       "cardId": "Ferien|idx:694",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Ferien»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -845,7 +845,7 @@
       }
     },
     {
-      "auditId": "LRB087-0020",
+      "auditId": "LRB086-0020",
       "cardId": "fernsehen|idx:687",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «fernsehen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -901,7 +901,7 @@
       }
     },
     {
-      "auditId": "LRB087-0021",
+      "auditId": "LRB086-0021",
       "cardId": "Fernsehen|idx:688",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Fernsehen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -955,7 +955,7 @@
       }
     },
     {
-      "auditId": "LRB087-0022",
+      "auditId": "LRB086-0022",
       "cardId": "Fußball|idx:218",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Fußball»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1008,7 +1008,7 @@
       }
     },
     {
-      "auditId": "LRB087-0023",
+      "auditId": "LRB086-0023",
       "cardId": "ganz|idx:219",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «ganz»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1065,7 +1065,7 @@
       }
     },
     {
-      "auditId": "LRB087-0024",
+      "auditId": "LRB086-0024",
       "cardId": "geben|idx:223",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «geben»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1132,7 +1132,7 @@
       }
     },
     {
-      "auditId": "LRB087-0025",
+      "auditId": "LRB086-0025",
       "cardId": "gefallen|idx:225",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «gefallen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1185,7 +1185,7 @@
       }
     },
     {
-      "auditId": "LRB087-0026",
+      "auditId": "LRB086-0026",
       "cardId": "Geschichte|idx:233",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Geschichte»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1238,7 +1238,7 @@
       }
     },
     {
-      "auditId": "LRB087-0027",
+      "auditId": "LRB086-0027",
       "cardId": "groß|idx:250",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «groß»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1283,7 +1283,7 @@
       }
     },
     {
-      "auditId": "LRB087-0028",
+      "auditId": "LRB086-0028",
       "cardId": "gut|idx:259",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «gut»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1339,16 +1339,16 @@
       }
     },
     {
-      "auditId": "LRB087-0029",
+      "auditId": "LRB086-0029",
       "cardId": "halb|idx:262",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «halb»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
       "new": {
-        "lv": "Половина"
+        "lv": "Половинный • Наполовину"
       }
     },
     {
-      "auditId": "LRB087-0030",
+      "auditId": "LRB086-0030",
       "cardId": "Haltestelle|idx:266",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Haltestelle»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1357,7 +1357,7 @@
       }
     },
     {
-      "auditId": "LRB087-0031",
+      "auditId": "LRB086-0031",
       "cardId": "hören|idx:287",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «hören»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1399,7 +1399,7 @@
       }
     },
     {
-      "auditId": "LRB087-0032",
+      "auditId": "LRB086-0032",
       "cardId": "hübsch|idx:288",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «hübsch»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1456,7 +1456,7 @@
       }
     },
     {
-      "auditId": "LRB087-0033",
+      "auditId": "LRB086-0033",
       "cardId": "ihr|idx:292",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «ihr»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1513,7 +1513,7 @@
       }
     },
     {
-      "auditId": "LRB087-0034",
+      "auditId": "LRB086-0034",
       "cardId": "im|idx:293",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «im»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1605,7 +1605,7 @@
       }
     },
     {
-      "auditId": "LRB087-0035",
+      "auditId": "LRB086-0035",
       "cardId": "in|idx:295",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «in»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1650,7 +1650,7 @@
       }
     },
     {
-      "auditId": "LRB087-0036",
+      "auditId": "LRB086-0036",
       "cardId": "jetzt",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «jetzt»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1659,7 +1659,7 @@
       }
     },
     {
-      "auditId": "LRB087-0037",
+      "auditId": "LRB086-0037",
       "cardId": "links",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «links»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1668,7 +1668,7 @@
       }
     },
     {
-      "auditId": "LRB087-0038",
+      "auditId": "LRB086-0038",
       "cardId": "malen",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «malen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1677,7 +1677,7 @@
       }
     },
     {
-      "auditId": "LRB087-0039",
+      "auditId": "LRB086-0039",
       "cardId": "Mann|idx:394",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Mann»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1733,7 +1733,7 @@
       }
     },
     {
-      "auditId": "LRB087-0040",
+      "auditId": "LRB086-0040",
       "cardId": "mit|idx:408",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «mit»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1800,7 +1800,7 @@
       }
     },
     {
-      "auditId": "LRB087-0041",
+      "auditId": "LRB086-0041",
       "cardId": "mögen|idx:413",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «mögen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1867,7 +1867,7 @@
       }
     },
     {
-      "auditId": "LRB087-0042",
+      "auditId": "LRB086-0042",
       "cardId": "morgen|idx:417",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «morgen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1921,7 +1921,7 @@
       }
     },
     {
-      "auditId": "LRB087-0043",
+      "auditId": "LRB086-0043",
       "cardId": "Morgen|idx:418",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Morgen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -1976,7 +1976,7 @@
       }
     },
     {
-      "auditId": "LRB087-0044",
+      "auditId": "LRB086-0044",
       "cardId": "nach|idx:426",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «nach»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -2043,7 +2043,7 @@
       }
     },
     {
-      "auditId": "LRB087-0045",
+      "auditId": "LRB086-0045",
       "cardId": "neu|idx:439",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «neu»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -2104,7 +2104,7 @@
       }
     },
     {
-      "auditId": "LRB087-0046",
+      "auditId": "LRB086-0046",
       "cardId": "probieren|idx:482",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «probieren»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -2171,7 +2171,7 @@
       }
     },
     {
-      "auditId": "LRB087-0047",
+      "auditId": "LRB086-0047",
       "cardId": "rechts",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «rechts»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -2180,7 +2180,7 @@
       }
     },
     {
-      "auditId": "LRB087-0048",
+      "auditId": "LRB086-0048",
       "cardId": "rechts|idx:491",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «rechts»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -2189,7 +2189,7 @@
       }
     },
     {
-      "auditId": "LRB087-0049",
+      "auditId": "LRB086-0049",
       "cardId": "Reis|idx:496",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «Reis»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -2229,7 +2229,7 @@
       }
     },
     {
-      "auditId": "LRB087-0050",
+      "auditId": "LRB086-0050",
       "cardId": "rufen|idx:500",
       "status": "LABOT",
       "reason": "Pilna RU kartīte «rufen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",

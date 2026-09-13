@@ -1,10 +1,10 @@
 {
   "batchId": "LRB-086",
-  "generatedAt": "2026-09-13T15:04:23.563Z",
-  "sourceCommit": "d92186da26cb12504f1d427b284c705b4c91497a",
+  "generatedAt": "2026-09-13T15:13:19.365Z",
+  "sourceCommit": "9e0eb0586143f143e911cba3082e71cf05b76173",
   "reviewer": "GPT-5.6 Luna",
   "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
-  "overridesSha256": "dbf0cb8fe65d06768ef807028bdf9011a8258c15cfc58f40ae2218af17b589bb",
+  "overridesSha256": "86b17df481bc34f79fe355d7246c1c2c793c86d37b5924fc6edbad0a7956c7e3",
   "uniqueCards": 50,
   "fullStudyCards": 37,
   "rowCount": 50,
@@ -14,7 +14,7 @@
   },
   "cards": [
     {
-      "auditId": "LRB087-0001",
+      "auditId": "LRB086-0001",
       "lang": "ru",
       "cardId": "aufs|idx:60",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -465,7 +465,7 @@
       "capturedScope": "{\"lv\":\"К *на*куда?\",\"study.translation\":\"К *на*куда?\",\"study.explanation\":\"[\\\"Aufs — аббревиатура предлога auf и артикля das.\\\",\\\"Полная форма: auf das (где?).\\\",\\\"Употребляется, когда действие указывает направление к определенной вещи или поверхности – отвечает на вопрос куда?\\\",\\\"Часто употребляется при движении: залезть, сесть, положить, подъехать к чему-то.\\\",\\\"В разговорной и повседневной речи почти всегда вместо полного auf das употребляется aufs.\\\"]\",\"study.important\":\"[\\\"Aufs = auf das, только с существительным любого рода, где? в перегибе.\\\",\\\"Ответить куда? — перемещение к определенному месту или поверхности.\\\",\\\"На горизонтальной поверхности вместо ауфс часто используют ауф ден.\\\",\\\"Не путать с «in» (на стене) или «ins» (внутри комнаты).\\\"]\",\"study.examples.lv\":null}"
     },
     {
-      "auditId": "LRB087-0002",
+      "auditId": "LRB086-0002",
       "lang": "ru",
       "cardId": "aus|idx:57",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -613,12 +613,12 @@
       },
       "approvedGalaCard": {
         "de": "aus",
-        "lv": "Из • Изнутри",
+        "lv": "Из",
         "level": "A1",
         "study": {
           "id": "a1-aus",
           "layout": "standardStudy",
-          "translation": "Из • Изнутри",
+          "translation": "Из",
           "explanation": "Основная идея: aus указывает на движение изнутри наружу или на происхождение.",
           "examples": [
             {
@@ -662,11 +662,11 @@
         "index": 57
       },
       "ownerNew": {
-        "lv": "Из • Изнутри",
+        "lv": "Из",
         "study": {
           "id": "a1-aus",
           "layout": "standardStudy",
-          "translation": "Из • Изнутри",
+          "translation": "Из",
           "explanation": "Основная идея: aus указывает на движение изнутри наружу или на происхождение.",
           "examples": [
             {
@@ -717,7 +717,7 @@
       "capturedScope": "{\"lv\":\"Из • Из\",\"study.translation\":\"Из • Из\",\"study.examples.lv\":null,\"study.comparison\":\"[{\\\"word\\\":\\\"aus\\\",\\\"meaning\\\":\\\"Изнутри, из\\\",\\\"example\\\":\\\"aus dem Haus – Из дома\\\"},{\\\"word\\\":\\\"von\\\",\\\"meaning\\\":\\\"От человека, места, поверхности\\\",\\\"example\\\":\\\"от моего друга – no mana drauga\\\"},{\\\"word\\\":\\\"ab\\\",\\\"meaning\\\":\\\"Начиная с момента или времени\\\",\\\"example\\\":\\\"ab Montag – С понедельника\\\"}]\"}"
     },
     {
-      "auditId": "LRB087-0003",
+      "auditId": "LRB086-0003",
       "lang": "ru",
       "cardId": "bitte|idx:93",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -951,7 +951,7 @@
       "capturedScope": "{\"lv\":\"Пожалуйста\",\"study.examples\":\"[{\\\"de\\\":\\\"Eine Tasse Kaffee, bitte.\\\",\\\"lv\\\":\\\"Пожалуйста!\\\"},{\\\"de\\\":\\\"Komm bitte herein.\\\",\\\"lv\\\":\\\"Пожалуйста!\\\"},{\\\"de\\\":\\\"Bitte schön!\\\",\\\"lv\\\":\\\"Одну чашку кофе, пожалуйста.\\\"},{\\\"de\\\":\\\"Kann ich bitte fragen?\\\",\\\"lv\\\":\\\"Могу я спросить, пожалуйста\\\"},{\\\"de\\\":\\\"Ich habe eine Bitte.\\\",\\\"lv\\\":\\\"У меня есть одна просьба.\\\"},{\\\"de\\\":\\\"Die Bitte ist wichtig.\\\",\\\"lv\\\":\\\"Запрос важен.\\\"}]\",\"study.explanation\":\"[\\\"Основная идея: Вежливое слово в нижнем регистре. Раньше было вежливо - пожалуйста.\\\",\\\"Bitte в основном означает: вежливость.\\\",\\\"Часто описывает: вежливое слово.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0004",
+      "auditId": "LRB086-0004",
       "lang": "ru",
       "cardId": "Bitte|idx:94",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -1192,7 +1192,7 @@
       "capturedScope": "{\"lv\":\"Запрос\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich habe eine Bitte.\\\",\\\"lv\\\":\\\"У меня есть одна просьба.\\\"},{\\\"de\\\":\\\"Er erfüllt meine Bitte.\\\",\\\"lv\\\":\\\"Пожалуйста!\\\"},{\\\"de\\\":\\\"Sie hat zwei Bitten.\\\",\\\"lv\\\":\\\"Одну чашку кофе, пожалуйста.\\\"},{\\\"de\\\":\\\"Kann ich bitte fragen?\\\",\\\"lv\\\":\\\"Могу я спросить, пожалуйста\\\"},{\\\"de\\\":\\\"Ich habe eine Bitte.\\\",\\\"lv\\\":\\\"У меня есть одна просьба.\\\"},{\\\"de\\\":\\\"Die Bitte ist wichtig.\\\",\\\"lv\\\":\\\"Запрос важен.\\\"}]\",\"study.explanation\":\"[\\\"Основная идея: существительное с артиклем die и заглавной буквой. Конкретный запрос или запрос.\\\",\\\"Die Bitte в основном означает: вежливость.\\\",\\\"Часто описывает: вежливое слово.\\\",\\\"Die Bitte в основном означает: запрос/просьба.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0005",
+      "auditId": "LRB086-0005",
       "lang": "ru",
       "cardId": "bitten|idx:98",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -1224,7 +1224,7 @@
       "capturedScope": "Спросить"
     },
     {
-      "auditId": "LRB087-0006",
+      "auditId": "LRB086-0006",
       "lang": "ru",
       "cardId": "bleiben|idx:101",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -1547,7 +1547,7 @@
       "capturedScope": "{\"lv\":\"Оставаться\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bleibe zu Hause.\\\",\\\"lv\\\":\\\"Я остаюсь дома\\\"},{\\\"de\\\":\\\"Bleib hier!\\\",\\\"lv\\\":\\\"Оставайся здесь!\\\"},{\\\"de\\\":\\\"Wir bleiben noch eine Stunde.\\\",\\\"lv\\\":\\\"Мы останемся еще на час.\\\"},{\\\"de\\\":\\\"Ich gehe nach Hause.\\\",\\\"lv\\\":\\\"Я иду домой\\\"}]\",\"study.explanation\":\"[\\\"Основная идея: bleiben означает остаться.\\\",\\\"Bleiben употребляется, когда человек или вещь не уходит и остается в том же месте или состоянии.\\\",\\\"Когда дело доходит до ухода, это противоположность геен и фарен.\\\",\\\"Очень распространенная фраза — Ich bleibe zu Hause.\\\"]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"Оставаться\\\",\\\"example\\\":\\\"Я остаюсь здесь.\\\"},{\\\"word\\\":\\\"gehen\\\",\\\"meaning\\\":\\\"Идти/уходить пешком\\\",\\\"example\\\":\\\"Я иду домой.\\\"},{\\\"word\\\":\\\"fahren\\\",\\\"meaning\\\":\\\"Ехать/ехать на транспорте\\\",\\\"example\\\":\\\"Я еду домой.\\\"},{\\\"word\\\":\\\"warten\\\",\\\"meaning\\\":\\\"Ждать\\\",\\\"example\\\":\\\"Я жду здесь.\\\"}]\"}"
     },
     {
-      "auditId": "LRB087-0007",
+      "auditId": "LRB086-0007",
       "lang": "ru",
       "cardId": "blond|idx:103",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -1579,7 +1579,7 @@
       "capturedScope": "Блондинка"
     },
     {
-      "auditId": "LRB087-0008",
+      "auditId": "LRB086-0008",
       "lang": "ru",
       "cardId": "bringen|idx:111",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -1920,7 +1920,7 @@
       "capturedScope": "{\"lv\":\"Принести • Забрать\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bringe dir ein Buch.\\\",\\\"lv\\\":\\\"Принеси мне воды, пожалуйста\\\"},{\\\"de\\\":\\\"Ich bringe das Paket zur Post.\\\",\\\"lv\\\":\\\"Я отвезу тебя домой\\\"},{\\\"de\\\":\\\"Ich bringe die Kinder zur Schule.\\\",\\\"lv\\\":\\\"Он берет книгу в школу.\\\"},{\\\"de\\\":\\\"Ich nehme das Buch.\\\",\\\"lv\\\":\\\"Я беру книгу\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"Принести/взять/доставить\\\",\\\"example\\\":\\\"Ich bringe dir ein Buch. – Bring mir Wasser.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"Взять / взять\\\",\\\"example\\\":\\\"Ich bringe das Paket zur Post. – Ich nehme das Buch.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"Пойти за / принести\\\",\\\"example\\\":\\\"Ich bringe die Kinder zur Schule. – Ich hole Wasser.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"Забери и принеси\\\",\\\"example\\\":\\\"Ich bringe dir ein Buch. – Bringst du Brot mit?\\\"},{\\\"word\\\":\\\"nehmen\\\",\\\"meaning\\\":\\\"брать\\\",\\\"example\\\":\\\"Я беру книгу. – Es paņemu grāmatu.\\\"}]\"}"
     },
     {
-      "auditId": "LRB087-0009",
+      "auditId": "LRB086-0009",
       "lang": "ru",
       "cardId": "Buchstabe|idx:117",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -1956,7 +1956,7 @@
       "capturedScope": "Письмо"
     },
     {
-      "auditId": "LRB087-0010",
+      "auditId": "LRB086-0010",
       "lang": "ru",
       "cardId": "Cousine|idx:125",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -1992,7 +1992,7 @@
       "capturedScope": "Двоюродный брат"
     },
     {
-      "auditId": "LRB087-0011",
+      "auditId": "LRB086-0011",
       "lang": "ru",
       "cardId": "da|idx:126",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -2325,7 +2325,7 @@
       "capturedScope": "{\"lv\":\"Там\",\"study.examples\":\"[{\\\"de\\\":\\\"Da ist mein Auto.\\\",\\\"lv\\\":\\\"Есть моя машина.\\\"},{\\\"de\\\":\\\"Ich war da.\\\",\\\"lv\\\":\\\"Я был там\\\"},{\\\"de\\\":\\\"Da kommt er.\\\",\\\"lv\\\":\\\"Вот он приходит.\\\"},{\\\"de\\\":\\\"Komm mal da her!\\\",\\\"lv\\\":\\\"Идите сюда!\\\"}]\",\"study.explanation\":\"[\\\"Основная идея: да на уровне А1 чаще всего означает там.\\\",\\\"Да указывает место или относится к чему-то уже упомянутому.\\\",\\\"В зависимости от ситуации его также можно перевести как здесь или здесь.\\\",\\\"На уровне А1 мы в основном изучаем да как слово общего назначения.\\\"]\",\"study.comparison\":\"[{\\\"word\\\":\\\"da\\\",\\\"meaning\\\":\\\"Там • Здесь • Здесь (общий)\\\",\\\"example\\\":\\\"Вот моя машина.\\\"},{\\\"word\\\":\\\"hier\\\",\\\"meaning\\\":\\\"Здесь (в определенном месте)\\\",\\\"example\\\":\\\"Здесь моя машина.\\\"},{\\\"word\\\":\\\"dort\\\",\\\"meaning\\\":\\\"Там (дальше)\\\",\\\"example\\\":\\\"Там моя машина.\\\"},{\\\"word\\\":\\\"dann\\\",\\\"meaning\\\":\\\"Затем\\\",\\\"example\\\":\\\"Тогда мы идём домой.\\\"}]\"}"
     },
     {
-      "auditId": "LRB087-0012",
+      "auditId": "LRB086-0012",
       "lang": "ru",
       "cardId": "das|idx:129",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -2580,7 +2580,7 @@
       "capturedScope": "{\"lv\":\"Средний определенный артикль\",\"study.translation\":\"Средний определенный артикль\",\"study.examples\":\"[{\\\"de\\\":\\\"Das ist mein Auto.\\\",\\\"lv\\\":\\\"Это моя машина\\\"},{\\\"de\\\":\\\"Das ist gut.\\\",\\\"lv\\\":\\\"Это хорошо.\\\"},{\\\"de\\\":\\\"Das Buch, das ich lese, ist interessant.\\\",\\\"lv\\\":\\\"Книга, которую я читаю, интересна.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"das\\\",\\\"meaning\\\":\\\"Это (артикль / местоимение)\\\",\\\"example\\\":\\\"Это моя машина. – Tas ir mans auto.\\\"},{\\\"word\\\":\\\"dies\\\",\\\"meaning\\\":\\\"Вот этот\\\",\\\"example\\\":\\\"Dies ist mein Auto. – Это моя машина.\\\"},{\\\"word\\\":\\\"welches\\\",\\\"meaning\\\":\\\"Кто • Который • Кого\\\",\\\"example\\\":\\\"Das ist das Buch, welches ich lese. – Это книга, которую я читаю.\\\"}]\",\"study.important\":\"[\\\"На уровне А1 das сначала изучается как артикль среднего рода.\\\",\\\"Das — это не то же самое, что dass: das может быть артиклем или местоимением, dass означает «это».\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0013",
+      "auditId": "LRB086-0013",
       "lang": "ru",
       "cardId": "dass|idx:130",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -2855,7 +2855,7 @@
       "capturedScope": "{\"lv\":\"Что\",\"study.translation\":\"Что\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich weiß, dass du müde bist.\\\",\\\"lv\\\":\\\"Я знаю, что ты устал.\\\"},{\\\"de\\\":\\\"Er sagt, dass er kommt.\\\",\\\"lv\\\":\\\"Он говорит, что придет.\\\"},{\\\"de\\\":\\\"Ich glaube, dass das stimmt.\\\",\\\"lv\\\":\\\"Я думаю, это правильно.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"dass\\\",\\\"meaning\\\":\\\"Что\\\",\\\"example\\\":\\\"Ich weiß, dass er kommt. – Я знаю, что он придет.\\\"},{\\\"word\\\":\\\"weil\\\",\\\"meaning\\\":\\\"Потому что • Потому что\\\",\\\"example\\\":\\\"Ich bleibe zu Hause, weil es regnet. – Я остаюсь дома, потому что идет дождь.\\\"},{\\\"word\\\":\\\"damit\\\",\\\"meaning\\\":\\\"К\\\",\\\"example\\\":\\\"Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Я учу немецкий, чтобы иметь возможность работать в Германии.\\\"},{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"Или\\\",\\\"example\\\":\\\"Ich weiß nicht, ob er kommt. – Я не знаю, придет ли он.\\\"}]\",\"study.important\":\"[\\\"Dass означает «это» и вводит вспомогательное предложение.\\\",\\\"Не путать с das, который может быть артиклем или «то».\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0014",
+      "auditId": "LRB086-0014",
       "lang": "ru",
       "cardId": "der|idx:134",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -3012,7 +3012,7 @@
       "capturedScope": "{\"lv\":\"Определенный артикль мужского рода\",\"study.translation\":\"Определенный артикль мужского рода\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Mann ist hier.\\\",\\\"lv\\\":\\\"Мужчина здесь.\\\"},{\\\"de\\\":\\\"Der Bus kommt.\\\",\\\"lv\\\":\\\"Автобус идет.\\\"},{\\\"de\\\":\\\"Der Lehrer spricht.\\\",\\\"lv\\\":\\\"Учитель говорит.\\\"}]\",\"study.important\":\"[\\\"На уровне А1 сначала следует выучить артикль мужского рода.\\\",\\\"Местоимение и относительное употребление появятся позже.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0015",
+      "auditId": "LRB086-0015",
       "lang": "ru",
       "cardId": "die|idx:137",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -3181,7 +3181,7 @@
       "capturedScope": "{\"lv\":\"Определенный артикль женского рода\",\"study.translation\":\"Определенный артикль женского рода\",\"study.examples\":\"[{\\\"de\\\":\\\"Die Frau ist hier.\\\",\\\"lv\\\":\\\"Женщина здесь.\\\"},{\\\"de\\\":\\\"Die Katze schläft.\\\",\\\"lv\\\":\\\"Котенок спит.\\\"},{\\\"de\\\":\\\"Die Lehrerin erklärt.\\\",\\\"lv\\\":\\\"Объясняет учитель.\\\"}]\",\"study.important\":\"[\\\"На уровне А1 кубик сначала изучается как предмет женского рода.\\\",\\\"Кубик множественного числа также используется для всех полов.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0016",
+      "auditId": "LRB086-0016",
       "lang": "ru",
       "cardId": "dieser|idx:139",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -3365,7 +3365,7 @@
       "capturedScope": "{\"lv\":\"Вот этот\",\"study.translation\":\"Вот этот\",\"study.examples\":\"[{\\\"de\\\":\\\"Dieser Mann ist nett.\\\",\\\"lv\\\":\\\"Этот мужчина хорош.\\\"},{\\\"de\\\":\\\"Ich sehe diesen Hund.\\\",\\\"lv\\\":\\\"Мне нравится эта собака\\\"},{\\\"de\\\":\\\"Dieser Stift ist neu.\\\",\\\"lv\\\":\\\"Эта ручка новая.\\\"}]\",\"study.important\":\"[\\\"Dieser, diese и dieses меняются в зависимости от пола.\\\",\\\"Форма множественного числа снова diese.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0017",
+      "auditId": "LRB086-0017",
       "lang": "ru",
       "cardId": "essen|idx:690",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -3614,7 +3614,7 @@
       "capturedScope": "{\"lv\":\"Есть\",\"study.translation\":\"Есть\",\"study.explanation\":\"[\\\"Основная мысль: Глагол – есть пищу.\\\",\\\"Essen прежде всего означает: потреблять пищу.\\\",\\\"Часто описывает: действие.\\\",\\\"Эссен в основном означает: еда или еда.\\\",\\\"Часто описывает: дождь.\\\",\\\"Эссен означает есть.\\\",\\\"Das Essen может означать еду или еду в целом.\\\"]\",\"study.tip\":\"[\\\"Эссен = есть\\\",\\\"Используйте essen, когда контекст соответствует этому значению.\\\"]\",\"study.important\":\"[\\\"Essen — глагол без артикля.\\\",\\\"Дас Эссен — это не то же самое, что эссен.\\\",\\\"Действие: эссен.\\\",\\\"Случай/еда: das Essen.\\\"]\",\"study.examples[].lv\":null}"
     },
     {
-      "auditId": "LRB087-0018",
+      "auditId": "LRB086-0018",
       "lang": "ru",
       "cardId": "euer|idx:171",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -3646,7 +3646,7 @@
       "capturedScope": "Твой"
     },
     {
-      "auditId": "LRB087-0019",
+      "auditId": "LRB086-0019",
       "lang": "ru",
       "cardId": "Ferien|idx:694",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -3920,7 +3920,7 @@
       "capturedScope": ""
     },
     {
-      "auditId": "LRB087-0020",
+      "auditId": "LRB086-0020",
       "lang": "ru",
       "cardId": "fernsehen|idx:687",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -4134,7 +4134,7 @@
       "capturedScope": "{\"lv\":\"Смотреть телевизор\",\"study.translation\":\"Смотреть телевизор\",\"study.examples[].lv\":null}"
     },
     {
-      "auditId": "LRB087-0021",
+      "auditId": "LRB086-0021",
       "lang": "ru",
       "cardId": "Fernsehen|idx:688",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -4379,7 +4379,7 @@
       "capturedScope": "{\"lv\":\"Телевидение\",\"study.translation\":\"Телевидение\",\"study.explanation\":\"[\\\"Основная идея: существительное, только в единственном числе. Описывает телевидение как средство массовой информации или вещание в целом.\\\",\\\"Das Fernsehen по сути означает: смотреть трансляцию.\\\",\\\"Часто описывает: действие.\\\",\\\"Das Fernsehen в первую очередь означает: телевидение как средство массовой информации.\\\",\\\"Часто описывает: существительное (только в единственном числе).\\\",\\\"Fernsehen — это глагол, который можно разделить: ich sehe папоротник, du siehst папоротник.\\\",\\\"Das Fernsehen — существительное только в единственном числе, у него нет формы множественного числа.\\\"]\",\"study.tip\":\"[\\\"Говоря о действии, используйте «fernsehen» (ich sehe папоротник). Говоря о телепрограмме или средствах массовой информации, используйте das Fernsehen.\\\",\\\"Существительное, только в единственном числе. Описывает телевидение как средство массовой информации или вещание в целом.\\\"]\",\"study.important\":\"[\\\"Fernsehen делится на: sehen + папоротник.\\\",\\\"Das Fernsehen — это не множественное число, а не *die Fernsehen.\\\",\\\"Неправильно: die Fernsehen → Правильно: das Fernsehen.\\\",\\\"Действие: папоротник → ich sehe папоротник.\\\"]\",\"study.examples[].lv\":null}"
     },
     {
-      "auditId": "LRB087-0022",
+      "auditId": "LRB086-0022",
       "lang": "ru",
       "cardId": "Fußball|idx:218",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -4547,7 +4547,7 @@
       "capturedScope": "{\"lv\":\"футбол\",\"study.translation\":\"футбол\",\"study.explanation\":\"[\\\"Основная идея: Fußball часто означает футбол как вид спорта.\\\",\\\"С артиклем и в счётной форме der Fußball может также означать футбольный мяч.\\\",\\\"Множественное число die Fußbälle означает футбольные мячи, а не несколько видов спорта.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich spiele Fußball.\\\",\\\"lv\\\":\\\"я играю в футбол.\\\"},{\\\"de\\\":\\\"Der Fußball liegt im Garten.\\\",\\\"lv\\\":\\\"футбольный мяч находится в саду.\\\"},{\\\"de\\\":\\\"Wir kaufen zwei Fußbälle.\\\",\\\"lv\\\":\\\"мы покупаем два футбольных мяча.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"Fußball\\\",\\\"meaning\\\":\\\"футбол как вид спорта\\\",\\\"example\\\":\\\"Я играю в футбол. – Es spēlēju futbolu.\\\"},{\\\"word\\\":\\\"der Fußball\\\",\\\"meaning\\\":\\\"футбольный мяч\\\",\\\"example\\\":\\\"Футбольный мяч новый. – Futbola bumba ir jauna.\\\"}]\",\"study.tip\":\"[\\\"Без артикля spielen Fußball обычно означает играть в футбол.\\\",\\\"В счётной форме ein Fußball и die Fußbälle — это футбольный мяч и футбольные мячи.\\\"]\",\"study.important\":\"[\\\"die Fußbälle означает футбольные мячи.\\\",\\\"Вид спорта Fußball обычно используется в единственном числе.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0023",
+      "auditId": "LRB086-0023",
       "lang": "ru",
       "cardId": "ganz|idx:219",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -4723,7 +4723,7 @@
       "capturedScope": "{\"lv\":\"Здоровый\",\"study.translation\":\"Здоровый\",\"study.explanation\":\"[\\\"Основная идея: ganz вместе с существительным означает целый или полностью.\\\",\\\"Перед прилагательным или наречием ganz может означать совсем, совершенно или довольно.\\\",\\\"ganz — это не то же самое, что местоимение alles.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich arbeite den ganzen Tag.\\\",\\\"lv\\\":\\\"я работаю весь день.\\\"},{\\\"de\\\":\\\"Das ganze Haus ist sauber.\\\",\\\"lv\\\":\\\"весь дом чистый.\\\"},{\\\"de\\\":\\\"Das ist ganz sicher.\\\",\\\"lv\\\":\\\"это совершенно безопасно.\\\"},{\\\"de\\\":\\\"Das Essen ist ganz gut.\\\",\\\"lv\\\":\\\"еда довольно хорошая.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"ganz\\\",\\\"meaning\\\":\\\"целый • полностью • совсем\\\",\\\"example\\\":\\\"весь день – visa diena\\\"},{\\\"word\\\":\\\"alles\\\",\\\"meaning\\\":\\\"Все\\\",\\\"example\\\":\\\"Всё хорошо. – Viss ir kārtībā.\\\"}]\",\"study.tip\":\"[\\\"Перед существительным ganz часто означает весь или целый.\\\",\\\"Перед прилагательным ganz часто означает совсем или довольно.\\\"]\",\"study.important\":\"[\\\"der ganze Tag = весь день.\\\",\\\"alles = всё как местоимение.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0024",
+      "auditId": "LRB086-0024",
       "lang": "ru",
       "cardId": "geben|idx:223",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -5046,7 +5046,7 @@
       "capturedScope": "{\"lv\":\"Дать\",\"study.translation\":\"Дать\",\"study.explanation\":\"[\\\"Основная идея: гебен означает давать.\\\",\\\"Geben используется, когда кто-то дает что-то другому человеку.\\\",\\\"Это противоположное направление немана.\\\",\\\"Bekommen означает получать, то есть быть тем, кто что-то получает.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Gib mir bitte das Buch.\\\",\\\"lv\\\":\\\"Дай мне книгу, пожалуйста\\\"},{\\\"de\\\":\\\"Ich gebe dir meine Nummer.\\\",\\\"lv\\\":\\\"Я даю тебе свой номер\\\"},{\\\"de\\\":\\\"Ich nehme das Buch.\\\",\\\"lv\\\":\\\"Я беру книгу\\\"},{\\\"de\\\":\\\"Ich bekomme ein Geschenk.\\\",\\\"lv\\\":\\\"Я получу подарок\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"geben\\\",\\\"meaning\\\":\\\"Дать\\\",\\\"example\\\":\\\"Дай мне книгу.\\\"},{\\\"word\\\":\\\"nehmen\\\",\\\"meaning\\\":\\\"Взять / взять\\\",\\\"example\\\":\\\"Я беру книгу.\\\"},{\\\"word\\\":\\\"bekommen\\\",\\\"meaning\\\":\\\"Получить / получить\\\",\\\"example\\\":\\\"Я получаю подарок.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"Принести / доставить\\\",\\\"example\\\":\\\"Я приносу тебе книгу.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Помните: отдать → гебен • Возьми себе → нехмен.\\\"}\",\"study.important\":\"[\\\"Гебен и немен — противоположные направления.\\\",\\\"Бекоммен означает получать, а не отдавать.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0025",
+      "auditId": "LRB086-0025",
       "lang": "ru",
       "cardId": "gefallen|idx:225",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -5210,7 +5210,7 @@
       "capturedScope": "{\"lv\":\"Нравиться\",\"study.translation\":\"Нравиться\",\"study.explanation\":\"[\\\"Основная идея: gefallen означает нравиться, но структура немецкого предложения отличается от латышской.\\\",\\\"Вещь, которая нравится, в немецком языке является подлежащим.\\\",\\\"Лицо, которому что-то нравится, находится в дательном падеже: mir, dir, ihm, ihr, uns, euch, ihnen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das gefällt mir.\\\",\\\"lv\\\":\\\"мне это нравится.\\\"},{\\\"de\\\":\\\"Gefällt dir das Kleid?\\\",\\\"lv\\\":\\\"тебе нравится платье?\\\"},{\\\"de\\\":\\\"Der Film gefällt uns.\\\",\\\"lv\\\":\\\"нам нравится фильм.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"gefallen\\\",\\\"meaning\\\":\\\"нравиться • лицо в дательном падеже\\\",\\\"example\\\":\\\"Мне это нравится. – Man tas patīk.\\\"},{\\\"word\\\":\\\"mögen\\\",\\\"meaning\\\":\\\"нравиться • охотно выбирать\\\",\\\"example\\\":\\\"Мне это нравится. – Man tas patīk.\\\"}]\",\"study.tip\":\"[\\\"Запомни конструкцию: Das gefällt mir.\\\",\\\"Не используй буквальный латышский порядок слов.\\\"]\",\"study.important\":\"[\\\"gefallen используется с дательным падежом: mir, dir, ihm, ihr.\\\",\\\"Das gefällt mir = мне это нравится.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0026",
+      "auditId": "LRB086-0026",
       "lang": "ru",
       "cardId": "Geschichte|idx:233",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -5378,7 +5378,7 @@
       "capturedScope": "{\"lv\":\"история\",\"study.translation\":\"история\",\"study.explanation\":\"[\\\"Основная идея: Geschichte может означать историю или историю.\\\",\\\"Множественное число die Geschichten обычно означает истории.\\\",\\\"Когда bedeutet значит история, слово Geschichte обычно используется в единственном числе.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er erzählt eine Geschichte.\\\",\\\"lv\\\":\\\"он рассказывает историю.\\\"},{\\\"de\\\":\\\"Ich lerne Geschichte.\\\",\\\"lv\\\":\\\"я учу историю.\\\"},{\\\"de\\\":\\\"Das ist die Geschichte Deutschlands.\\\",\\\"lv\\\":\\\"это история Германии.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"eine Geschichte\\\",\\\"meaning\\\":\\\"история\\\",\\\"example\\\":\\\"интересная история – interesants stāsts\\\"},{\\\"word\\\":\\\"Geschichte\\\",\\\"meaning\\\":\\\"история\\\",\\\"example\\\":\\\"Geschichte lernen – учить историю\\\"}]\",\"study.tip\":\"[\\\"С eine и во множественном числе обычно речь идёт об истории.\\\",\\\"Как учебный предмет Geschichte означает историю.\\\"]\",\"study.important\":\"[\\\"die Geschichten = истории.\\\",\\\"Geschichte как история обычно имеет единственное число.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0027",
+      "auditId": "LRB086-0027",
       "lang": "ru",
       "cardId": "groß|idx:250",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -5569,7 +5569,7 @@
       "capturedScope": ""
     },
     {
-      "auditId": "LRB087-0028",
+      "auditId": "LRB086-0028",
       "lang": "ru",
       "cardId": "gut|idx:259",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -5829,7 +5829,7 @@
       "capturedScope": "{\"study.explanation\":\"[\\\"Основная идея: Gut — прилагательное/наречие, хорошее, успешное, окей.\\\",\\\"Gut описывает качество, здоровье или состояние дел (Es geht mir Gut. = У меня все хорошо).\\\",\\\"В вежливой фразе «guten Tag/Abend/Morgen Gut» меняет окончание после перегиба.\\\",\\\"Если Gut описывает глагол, то это наречие (gut schwimmen = хорошо плавать).\\\",\\\"Не путать с das Gut — это существительное (собственность, поместье) с заглавной буквы и артикля.\\\"]\",\"study.tip\":\"[\\\"Гут без артикля – прилагательное/наречие – хорошо/хорошо.\\\",\\\"Das Gut с большой буквы и артикля — это совсем другое слово — существительное (собственность, поместье).\\\"]\",\"study.important\":\"[\\\"Кишка = хорошо/хорошо (прилагательное/прилагательное).\\\",\\\"Das Gut = собственность/поместье (существительное) – не путать с гут.\\\",\\\"Guten Tag/Morgen/Abend – изменения кишки, заканчивающиеся после перегиба.\\\"]\",\"lv\":\"Хороший\"}"
     },
     {
-      "auditId": "LRB087-0029",
+      "auditId": "LRB086-0029",
       "lang": "ru",
       "cardId": "halb|idx:262",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -5845,12 +5845,12 @@
       },
       "approvedGalaCard": {
         "de": "halb",
-        "lv": "Половина",
+        "lv": "Половинный • Наполовину",
         "level": "A1",
         "index": 262
       },
       "ownerNew": {
-        "lv": "Половина"
+        "lv": "Половинный • Наполовину"
       },
       "accentTerms": null,
       "reason": "Pilna RU kartīte «halb»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.",
@@ -5861,7 +5861,7 @@
       "capturedScope": "Сторона"
     },
     {
-      "auditId": "LRB087-0030",
+      "auditId": "LRB086-0030",
       "lang": "ru",
       "cardId": "Haltestelle|idx:266",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -5897,7 +5897,7 @@
       "capturedScope": "Останавливаться"
     },
     {
-      "auditId": "LRB087-0031",
+      "auditId": "LRB086-0031",
       "lang": "ru",
       "cardId": "hören|idx:287",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -6073,7 +6073,7 @@
       "capturedScope": "{\"lv\":\"Слышать • Слушать\",\"study.translation\":\"Слышать • Слушать\",\"study.explanation\":\"[\\\"Основная идея: услышать звук или послушать музыку.\\\",\\\"Hören в первую очередь означает: воспринимать звук.\\\",\\\"Часто характеризуются: звуками.\\\",\\\"Hören используется для обозначения звуков, музыки и того, что слышно.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich höre Musik.\\\",\\\"lv\\\":\\\"Я слушаю музыку.\\\"},{\\\"de\\\":\\\"Die Kinder hören eine Geschichte.\\\",\\\"lv\\\":\\\"Дети слушают рассказ.\\\"},{\\\"de\\\":\\\"Ich höre dich.\\\",\\\"lv\\\":\\\"Я слышу тебя\\\"}]\",\"study.tip\":\"[\\\"Услышьте звук или послушайте музыку.\\\",\\\"Используйте hören, когда контекст соответствует этому значению.\\\"]\",\"study.important\":\"[\\\"Hören = слышать/слушать звук.\\\",\\\"Услышьте звук или послушайте музыку.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0032",
+      "auditId": "LRB086-0032",
       "lang": "ru",
       "cardId": "hübsch|idx:288",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -6396,7 +6396,7 @@
       "capturedScope": "{\"lv\":\"красивый\",\"study.translation\":\"красивый\",\"study.explanation\":\"[\\\"Основная идея: hübsch означает красивый, привлекательный или симпатичный внешне.\\\",\\\"hübsch часто описывает внешность человека, одежды, комнаты или предмета.\\\",\\\"Латышское jauku в некоторых контекстах возможно, но оно слишком широко для основного перевода.\\\",\\\"Характер или вежливое поведение в немецком языке чаще описываются словом nett.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie trägt ein hübsches Kleid.\\\",\\\"lv\\\":\\\"У неё красивое платье.\\\"},{\\\"de\\\":\\\"Das Zimmer ist hübsch.\\\",\\\"lv\\\":\\\"Комната красивая.\\\"},{\\\"de\\\":\\\"Das ist ein hübsches Bild.\\\",\\\"lv\\\":\\\"Это красивая картина.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"hübsch\\\",\\\"meaning\\\":\\\"красивый • привлекательный внешне\\\",\\\"example\\\":\\\"Это красивое платье. – Tā ir glīta kleita.\\\"},{\\\"word\\\":\\\"schön\\\",\\\"meaning\\\":\\\"красивый • приятный\\\",\\\"example\\\":\\\"Сад красивый. – Dārzs ir skaists.\\\"},{\\\"word\\\":\\\"nett\\\",\\\"meaning\\\":\\\"добрый • вежливый\\\",\\\"example\\\":\\\"Она очень добрая. – Viņa ir ļoti jauka.\\\"}]\",\"study.important\":\"[\\\"hübsch — это не универсальный перевод слова jauku.\\\",\\\"Для характера человека или вежливого поведения обычно больше подходит nett.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0033",
+      "auditId": "LRB086-0033",
       "lang": "ru",
       "cardId": "ihr|idx:292",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -6657,7 +6657,7 @@
       "capturedScope": "{\"lv\":\"Ты • Она\",\"study.translation\":\"Ты • Она\",\"study.examples\":\"[{\\\"de\\\":\\\"Kommt ihr heute Abend?\\\",\\\"lv\\\":\\\"Ты придешь сегодня вечером?\\\"},{\\\"de\\\":\\\"Ich gebe ihr das Buch.\\\",\\\"lv\\\":\\\"Я даю ей книгу.\\\"},{\\\"de\\\":\\\"Wo wohnt ihr?\\\",\\\"lv\\\":\\\"Где вы живете?\\\"},{\\\"de\\\":\\\"Er schreibt ihr einen Brief.\\\",\\\"lv\\\":\\\"Он пишет ей письмо.\\\"},{\\\"de\\\":\\\"Habt ihr Zeit?\\\",\\\"lv\\\":\\\"У тебя есть время?\\\"},{\\\"de\\\":\\\"Das ist ihr Auto.\\\",\\\"lv\\\":\\\"Это ее машина.\\\"}]\"}"
     },
     {
-      "auditId": "LRB087-0034",
+      "auditId": "LRB086-0034",
       "lang": "ru",
       "cardId": "im|idx:293",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -7116,7 +7116,7 @@
       "capturedScope": "{\"lv\":\"В • Где?\",\"study.translation\":\"В • Где?\",\"study.explanation\":\"[\\\"Im — это сокращение от предлога in и артикля dem.\\\",\\\"Полная форма: in dem (кому?).\\\",\\\"Употребляется с существительными мужского рода и существительными любого рода при ответе на вопрос где? - расположение.\\\",\\\"В зависимости от времени и времен года: я январь, я лето, я зима.\\\",\\\"На практике вместо полного in dem почти всегда используется im.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin im Park.\\\",\\\"lv\\\":\\\"Я в парке\\\"},{\\\"de\\\":\\\"Wir wohnen im Zentrum.\\\",\\\"lv\\\":\\\"Мы живем в центре.\\\"},{\\\"de\\\":\\\"Im Sommer ist es warm.\\\",\\\"lv\\\":\\\"Летом тепло.\\\"},{\\\"de\\\":\\\"Er arbeitet im Büro.\\\",\\\"lv\\\":\\\"Он работает в офисе.\\\"},{\\\"de\\\":\\\"Das Kind spielt im Garten.\\\",\\\"lv\\\":\\\"Ребенок играет в саду.\\\"},{\\\"de\\\":\\\"Im Januar fahre ich nach Wien.\\\",\\\"lv\\\":\\\"Я поехал в Вену в январе.\\\"},{\\\"de\\\":\\\"Sie ist im Kino.\\\",\\\"lv\\\":\\\"Она снимается в кино.\\\"},{\\\"de\\\":\\\"Wir treffen uns im Restaurant.\\\",\\\"lv\\\":\\\"Мы встречаемся в ресторане.\\\"}]\",\"study.important\":\"[\\\"Im = in dem, только с существительным мужского или среднего рода для кого? в перегибе.\\\",\\\"Ответы на вопрос где?, а не где? — местоположение, а не движение.\\\",\\\"С месяцами и сезонами: im März, im Herbst.\\\",\\\"Для женщин: in der Schule, а не im Schule.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0035",
+      "auditId": "LRB086-0035",
       "lang": "ru",
       "cardId": "in|idx:295",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -7337,7 +7337,7 @@
       "capturedScope": "{\"lv\":\"В\",\"study.translation\":\"В\",\"study.explanation\":\"[\\\"Основная идея: in обычно означает «в месте» или «в месте», когда речь идет о пространстве, стране, городе или здании.\\\",\\\"Что касается местоположения, in часто переводится как in или in: in Berlin = в Берлине.\\\",\\\"При движении in означает внутрь: ins Kino = в кино.\\\",\\\"Латышский перевод меняется в зависимости от контекста.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin in Berlin.\\\",\\\"lv\\\":\\\"Я в Берлине\\\"},{\\\"de\\\":\\\"Ich gehe in die Schule.\\\",\\\"lv\\\":\\\"Я хожу в школу\\\"},{\\\"de\\\":\\\"Das Buch ist in der Tasche.\\\",\\\"lv\\\":\\\"Книга в сумке.\\\"},{\\\"de\\\":\\\"Wir gehen ins Kino.\\\",\\\"lv\\\":\\\"Мы идем в кино.\\\"}]\"}"
     },
     {
-      "auditId": "LRB087-0036",
+      "auditId": "LRB086-0036",
       "lang": "ru",
       "cardId": "jetzt",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -7369,7 +7369,7 @@
       "capturedScope": "Сейчас • Сейчас"
     },
     {
-      "auditId": "LRB087-0037",
+      "auditId": "LRB086-0037",
       "lang": "ru",
       "cardId": "links",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -7401,7 +7401,7 @@
       "capturedScope": "Влево • Влево"
     },
     {
-      "auditId": "LRB087-0038",
+      "auditId": "LRB086-0038",
       "lang": "ru",
       "cardId": "malen",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -7433,7 +7433,7 @@
       "capturedScope": "Рисовать • Рисовать"
     },
     {
-      "auditId": "LRB087-0039",
+      "auditId": "LRB086-0039",
       "lang": "ru",
       "cardId": "Mann|idx:394",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -7697,7 +7697,7 @@
       "capturedScope": "{\"lv\":\"Мужчина • Муж\",\"study.*.lv\":null}"
     },
     {
-      "auditId": "LRB087-0040",
+      "auditId": "LRB086-0040",
       "lang": "ru",
       "cardId": "mit|idx:408",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -8020,7 +8020,7 @@
       "capturedScope": "{\"lv\":\"С\",\"study.*.lv\":null,\"study.important\":\"[\\\"Mit требует дательного падежа: mit dem Bus, mit der Mutter, mit dir.\\\",\\\"Где вы живете? означает «Ты пойдешь со мной?»\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0041",
+      "auditId": "LRB086-0041",
       "lang": "ru",
       "cardId": "mögen|idx:413",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -8345,7 +8345,7 @@
       "capturedScope": "{\"lv\":\"Нравиться\",\"study.*.lv\":null}"
     },
     {
-      "auditId": "LRB087-0042",
+      "auditId": "LRB086-0042",
       "lang": "ru",
       "cardId": "morgen|idx:417",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -8591,7 +8591,7 @@
       "capturedScope": "{\"lv\":\"Завтра\",\"study.explanation\":\"[\\\"Основная идея: Наречие времени пишется строчными буквами. Значит на следующий день - завтра.\\\",\\\"Morgen в основном означает: на следующий день.\\\",\\\"Часто характеризуются: погодой.\\\",\\\"Morgen прежде всего означает: часть дня.\\\",\\\"Часто описывает: существительное (der).\\\",\\\"Морген в основном означает: несколько утра.\\\",\\\"Часто характеризуется: существительным (мн.).\\\",\\\"Morgen с маленькой буквы означает завтра — следующий день (Ich komme morgen = я приду завтра, Bis morgen!\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Я приду завтра.\\\"},{\\\"de\\\":\\\"Bis morgen!\\\",\\\"lv\\\":\\\"До завтра!\\\"},{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Я приду завтра\\\"},{\\\"de\\\":\\\"Morgen ist Montag.\\\",\\\"lv\\\":\\\"Завтра понедельник\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Доброе утро!\\\"},{\\\"de\\\":\\\"Der Morgen ist schön.\\\",\\\"lv\\\":\\\"Утро прекрасное.\\\"}]\"}"
     },
     {
-      "auditId": "LRB087-0043",
+      "auditId": "LRB086-0043",
       "lang": "ru",
       "cardId": "Morgen|idx:418",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -8836,7 +8836,7 @@
       "capturedScope": "{\"lv\":\"Утро\",\"study.examples\":\"[{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Доброе утро!\\\"},{\\\"de\\\":\\\"Bis morgen!\\\",\\\"lv\\\":\\\"До завтра!\\\"},{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Я приду завтра\\\"},{\\\"de\\\":\\\"Morgen ist Montag.\\\",\\\"lv\\\":\\\"Завтра понедельник\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Доброе утро!\\\"},{\\\"de\\\":\\\"Der Morgen ist schön.\\\",\\\"lv\\\":\\\"Утро прекрасное.\\\"}]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"der Morgen\\\",\\\"morgen\\\"],\\\"yellow\\\":[\\\"Morgen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"green\\\":[\\\"morgen\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"green\\\":[\\\"der Morgen\\\",\\\"morgen\\\"]},\\\"lv\\\":{}}],\\\"tip\\\":[{}],\\\"important\\\":[{}]}\"}"
     },
     {
-      "auditId": "LRB087-0044",
+      "auditId": "LRB086-0044",
       "lang": "ru",
       "cardId": "nach|idx:426",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -9163,7 +9163,7 @@
       "capturedScope": "До • После"
     },
     {
-      "auditId": "LRB087-0045",
+      "auditId": "LRB086-0045",
       "lang": "ru",
       "cardId": "neu|idx:439",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -9460,7 +9460,7 @@
       "capturedScope": "[\"Основная идея: neu означает новую вещь — недавно созданную, купленную или использованную впервые.\",\"Neu описывает вещи, устройства, одежду, дома, идеи и т. д., а не возраст человека или животного.\",\"В латышском языке слово молодой имеет два значения: молодой по возрасту (jung) и молодой/недавно созданный (neu).\",\"Для возраста человека или животного используется Юнг, а не Ней.\",\"Neu также используется в переносном смысле: новая работа, новая информация, новое начало.\",\"Противоположностью является alt (старый) • Существительное das Neue означает новый.\"]"
     },
     {
-      "auditId": "LRB087-0046",
+      "auditId": "LRB086-0046",
       "lang": "ru",
       "cardId": "probieren|idx:482",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -9782,7 +9782,7 @@
       "capturedScope": "{\"lv\":\"Попробовать • Попробовать\",\"study.translation\":\"Попробовать • Попробовать\",\"study.explanation\":\"[\\\"Основная идея: probieren означает попробовать или попробовать.\\\",\\\"Когда речь идет о еде или питье, слово «пробиерен» часто означает «вкус».\\\",\\\"Когда речь идет о действии, методе или вещи, «пробиерен» означает «попробовать».\\\",\\\"Это не то же самое, что prüfen, что означает более тщательную проверку.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Probier mal die Suppe!\\\",\\\"lv\\\":\\\"Попробовать суп!\\\"},{\\\"de\\\":\\\"Ich möchte den Kuchen probieren.\\\",\\\"lv\\\":\\\"Я хочу попробовать торт.\\\"},{\\\"de\\\":\\\"Wir probieren eine neue Methode.\\\",\\\"lv\\\":\\\"Мы пробуем новый метод.\\\"},{\\\"de\\\":\\\"Kann ich die Jacke anprobieren?\\\",\\\"lv\\\":\\\"Могу ли я примерить куртку\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"probieren\\\",\\\"meaning\\\":\\\"Попробовать / попробовать\\\",\\\"example\\\":\\\"Попробуй суп!\\\"},{\\\"word\\\":\\\"versuchen\\\",\\\"meaning\\\":\\\"Попробовать\\\",\\\"example\\\":\\\"Я стараюсь.\\\"},{\\\"word\\\":\\\"prüfen\\\",\\\"meaning\\\":\\\"Проверить\\\",\\\"example\\\":\\\"Я проверяю счёт.\\\"},{\\\"word\\\":\\\"anprobieren\\\",\\\"meaning\\\":\\\"Примерить\\\",\\\"example\\\":\\\"Я примеряю куртку.\\\"}]\",\"study.important\":\"[\\\"Пробиерен не является основным словом для формального экзамена.\\\",\\\"Проверка документа или счета-фактуры обычно не вызывает затруднений.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0047",
+      "auditId": "LRB086-0047",
       "lang": "ru",
       "cardId": "rechts",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -9814,7 +9814,7 @@
       "capturedScope": "Вправо • Вправо"
     },
     {
-      "auditId": "LRB087-0048",
+      "auditId": "LRB086-0048",
       "lang": "ru",
       "cardId": "rechts|idx:491",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -9846,7 +9846,7 @@
       "capturedScope": "Вправо • Вправо"
     },
     {
-      "auditId": "LRB087-0049",
+      "auditId": "LRB086-0049",
       "lang": "ru",
       "cardId": "Reis|idx:496",
       "productionFile": "crowdin-staging/g2/ru-a1.json",
@@ -10008,7 +10008,7 @@
       "capturedScope": "{\"lv\":\"Рис\",\"study.translation\":\"Рис\",\"study.explanation\":\"В немецком языке слово «der Reis» употребляется только в единственном числе, поэтому глагол в предложении должен стоять в единственном числе (например, «ist», а не «sind»). Латыши, однако, часто говорят «рис».\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Reis ist fertig.\\\",\\\"lv\\\":\\\"Рис готов.\\\"},{\\\"de\\\":\\\"Ich esse Reis.\\\",\\\"lv\\\":\\\"Я ем рис\\\"},{\\\"de\\\":\\\"Kochst du Reis?\\\",\\\"lv\\\":\\\"Ты готовишь рис?\\\"},{\\\"de\\\":\\\"Der Reis schmeckt gut.\\\",\\\"lv\\\":\\\"Рис имеет приятный вкус.\\\"}]\",\"study.important\":\"[\\\"Der Reis - в немецком языке только единственное число (Der Reis ist..., nicht *sind).\\\",\\\"В латышском переводе часто используется множественное число: рис готов.\\\"]\"}"
     },
     {
-      "auditId": "LRB087-0050",
+      "auditId": "LRB086-0050",
       "lang": "ru",
       "cardId": "rufen|idx:500",
       "productionFile": "crowdin-staging/g2/ru-a1.json",

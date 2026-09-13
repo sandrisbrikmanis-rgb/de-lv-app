@@ -1,15 +1,15 @@
 {
   "batchId": "LRB-086",
   "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T15:04:23.563Z",
-  "sourceCommit": "d92186da26cb12504f1d427b284c705b4c91497a",
+  "generatedAt": "2026-09-13T15:13:19.365Z",
+  "sourceCommit": "9e0eb0586143f143e911cba3082e71cf05b76173",
   "branch": "cursor/lrb-086-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT-5.6 Luna",
   "linguisticReviewer": "gpt-5.6-luna",
   "ownerAuthorizationStatus": "APPROVED",
-  "overridesSha256": "dbf0cb8fe65d06768ef807028bdf9011a8258c15cfc58f40ae2218af17b589bb",
+  "overridesSha256": "86b17df481bc34f79fe355d7246c1c2c793c86d37b5924fc6edbad0a7956c7e3",
   "rows": "50/50",
   "languages": {
     "ru": 50,
@@ -61,6 +61,9 @@
     "GIT_DIFF_CHECK": "PASS",
     "SOURCE_ROW_IDENTITY_ALIGNMENT": "50/50",
     "SOURCE_ROW_IDENTITY_DRIFT": 0,
+    "AUDIT_ID_ALIGNMENT": "50/50",
+    "AUDIT_ID_PREFIX_DRIFT": 0,
+    "WORD_CLASS_ISSUES": 0,
     "pass": true
   },
   "files": {
@@ -75,9 +78,10 @@
     "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
     "input": "reports/g2-a1-owner/batches-pending/LRB-086-input.csv",
     "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-086/LRB-086-decisions-COPY-PASTE.json",
+    "copyPaste2": "reports/g2-a1-owner/batches-owner-review/LRB-086/LRB-086-decisions-COPY-PASTE-2.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-086-owner-authorization-proof.json"
   },
-  "note": "OWNER copy/paste full-card remonts applied. 50 LABOT / 0 NELABOT / 0 PENDING (RU 50, SK 0, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=37). DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "COPY-PASTE correction #2 applied: auditId LRB086- prefix (250/250), aus lv/translation fix, halb lv word-class fix. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
   "galaPass": false,
   "scriptChanges": 0
 }

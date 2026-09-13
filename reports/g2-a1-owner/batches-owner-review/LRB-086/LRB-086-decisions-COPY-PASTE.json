@@ -179,11 +179,11 @@
       "approved_card": {
         "de": "aus",
         "level": "A1",
-        "lv": "Из • Изнутри",
+        "lv": "Из",
         "study": {
           "id": "a1-aus",
           "layout": "standardStudy",
-          "translation": "Из • Изнутри",
+          "translation": "Из",
           "explanation": "Основная идея: aus указывает на движение изнутри наружу или на происхождение.",
           "examples": [
             {
@@ -1568,7 +1568,7 @@
       "approved_card": {
         "de": "halb",
         "level": "A1",
-        "lv": "Половина"
+        "lv": "Половинный • Наполовину"
       }
     },
     {
