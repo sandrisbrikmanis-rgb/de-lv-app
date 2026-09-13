@@ -1,0 +1,1904 @@
+{
+  "batch_id": "LRB-059",
+  "language": "lb",
+  "scope": "Bad..das",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "b8e774d26eab6460a9f1ce7206ccb7cae18e6a61f60af2f71991cb29c19237bb",
+  "full_card_replacements": 6,
+  "full_card_object_ids": [
+    "Bitte|idx:94",
+    "bitte|idx:93",
+    "bleiben|idx:101",
+    "bringen|idx:111",
+    "das|idx:129",
+    "da|idx:126"
+  ],
+  "classification": "LRB_059_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "Bad|idx:64",
+      "de_reference": "Bad",
+      "idx": 64,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Bad",
+        "de_article": "das",
+        "de_plural": "die Bäder",
+        "level": "A1",
+        "lv": "Buedzëmmer"
+      }
+    },
+    {
+      "card_object_id": "Badezimmer|idx:65",
+      "de_reference": "Badezimmer",
+      "idx": 65,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Badezimmer",
+        "de_article": "das",
+        "de_plural": "die Badezimmer",
+        "level": "A1",
+        "lv": "Buedzëmmer"
+      }
+    },
+    {
+      "card_object_id": "Schwimmbad|idx:66",
+      "de_reference": "Schwimmbad",
+      "idx": 66,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schwimmbad",
+        "de_article": "das",
+        "de_plural": "die Schwimmbäder",
+        "level": "A1",
+        "lv": "Schwämm"
+      }
+    },
+    {
+      "card_object_id": "Sauna|idx:67",
+      "de_reference": "Sauna",
+      "idx": 67,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Sauna",
+        "de_article": "die",
+        "de_plural": "die Saunen",
+        "level": "A1",
+        "lv": "Sauna"
+      }
+    },
+    {
+      "card_object_id": "Balkon|idx:70",
+      "de_reference": "Balkon",
+      "idx": 70,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Balkon",
+        "de_article": "der",
+        "de_plural": "die Balkons",
+        "level": "A1",
+        "lv": "Balkon"
+      }
+    },
+    {
+      "card_object_id": "Ball|idx:71",
+      "de_reference": "Ball",
+      "idx": 71,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Ball",
+        "de_article": "der",
+        "de_plural": "die Bälle",
+        "level": "A1",
+        "lv": "Ball"
+      }
+    },
+    {
+      "card_object_id": "Banane|idx:72",
+      "de_reference": "Banane",
+      "idx": 72,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Banane",
+        "de_article": "die",
+        "de_plural": "die Bananen",
+        "level": "A1",
+        "lv": "Banann"
+      }
+    },
+    {
+      "card_object_id": "Bauch|idx:73",
+      "de_reference": "Bauch",
+      "idx": 73,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Bauch",
+        "de_article": "der",
+        "de_plural": "die Bäuche",
+        "level": "A1",
+        "lv": "Bauch"
+      }
+    },
+    {
+      "card_object_id": "Baum|idx:74",
+      "de_reference": "Baum",
+      "idx": 74,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Baum",
+        "de_article": "der",
+        "de_plural": "die Bäume",
+        "level": "A1",
+        "lv": "Bam"
+      }
+    },
+    {
+      "card_object_id": "bedeuten|idx:75",
+      "de_reference": "bedeuten",
+      "idx": 75,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "bedeuten",
+        "level": "A1",
+        "lv": "bedeiten"
+      }
+    },
+    {
+      "card_object_id": "Erdbeere|idx:76",
+      "de_reference": "Erdbeere",
+      "idx": 76,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Erdbeere",
+        "de_article": "die",
+        "de_plural": "die Erdbeeren",
+        "level": "A1",
+        "lv": "Äerdbier"
+      }
+    },
+    {
+      "card_object_id": "beginnen|idx:77",
+      "de_reference": "beginnen",
+      "idx": 77,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "beginnen",
+        "level": "A1",
+        "lv": "ufänken"
+      }
+    },
+    {
+      "card_object_id": "beide|idx:79",
+      "de_reference": "beide",
+      "idx": 79,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "beide",
+        "level": "A1",
+        "lv": "béid"
+      }
+    },
+    {
+      "card_object_id": "Bein|idx:80",
+      "de_reference": "Bein",
+      "idx": 80,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Bein",
+        "de_article": "das",
+        "de_plural": "die Beine",
+        "level": "A1",
+        "lv": "Been"
+      }
+    },
+    {
+      "card_object_id": "benutzen|idx:83",
+      "de_reference": "benutzen",
+      "idx": 83,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "benutzen",
+        "level": "A1",
+        "lv": "benotzen"
+      }
+    },
+    {
+      "card_object_id": "Berg|idx:84",
+      "de_reference": "Berg",
+      "idx": 84,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Berg",
+        "de_article": "der",
+        "de_plural": "die Berge",
+        "level": "A1",
+        "lv": "Bierg"
+      }
+    },
+    {
+      "card_object_id": "besser|idx:85",
+      "de_reference": "besser",
+      "idx": 85,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "besser",
+        "level": "A1",
+        "lv": "besser"
+      }
+    },
+    {
+      "card_object_id": "beste|idx:86",
+      "de_reference": "beste",
+      "idx": 86,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "beste",
+        "level": "A1",
+        "lv": "dee beschten"
+      }
+    },
+    {
+      "card_object_id": "Besucher|idx:88",
+      "de_reference": "Besucher",
+      "idx": 88,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Besucher",
+        "de_article": "der",
+        "de_plural": "die Besucher",
+        "level": "A1",
+        "lv": "Visiteur"
+      }
+    },
+    {
+      "card_object_id": "bisschen|idx:92",
+      "de_reference": "bisschen",
+      "idx": 92,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "bisschen",
+        "level": "A1",
+        "lv": "bëssen"
+      }
+    },
+    {
+      "card_object_id": "bitte|idx:93",
+      "de_reference": "bitte",
+      "idx": 93,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "bitte",
+        "level": "A1",
+        "lv": "wann ech gelift",
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "wann ech gelift",
+          "explanation": [
+            "Haaptiddi: bitte mat klengem Ufanksbuschtaf ass en Héiflechkeetswuert a bedeit wann ech gelift.",
+            "Et gëtt bei Ufroen, Bestellungen an héiflechen Äntwerte benotzt.",
+            "D’Substantiv die Bitte mat groussem Ufanksbuschtaf bedeit Ufro."
+          ],
+          "examples": [
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Eng Taass Kaffi, wann ech gelift."
+            },
+            {
+              "de": "Komm bitte herein.",
+              "lv": "Komm eran, wann ech gelift."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Wann ech gelift!"
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: bitte mat klengem Buschtaf bedeit wann ech gelift; die Bitte mat groussem Buschtaf bedeit Ufro."
+          },
+          "important": [
+            "bitte ass en Héiflechkeetswuert.",
+            "die Bitte ass e Substantiv mam Artikel die.",
+            "Falsch: Die Bitte schön! Richteg: Bitte schön!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ],
+              "purple": [
+                "wann ech gelift"
+              ],
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "wann ech gelift"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "wann ech gelift"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wann ech gelift"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wann ech gelift"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Ufro"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "wann ech gelift"
+                ],
+                "green": [
+                  "die Bitte",
+                  "Ufro"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bitte"
+                ],
+                "purple": [
+                  "Héiflechkeetswuert"
+                ]
+              },
+              {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "Substantiv"
+                ]
+              }
+            ]
+          },
+          "comparison": [
+            {
+              "word": "bitte",
+              "meaning": "wann ech gelift",
+              "example": "Komm bitte herein. – Komm eran, wann ech gelift."
+            },
+            {
+              "word": "die Bitte",
+              "meaning": "Ufro",
+              "example": "Ich habe eine Bitte. – Ech hunn eng Ufro."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "Bitte|idx:94",
+      "de_reference": "Bitte",
+      "idx": 94,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Bitte",
+        "de_article": "die",
+        "de_plural": "die Bitten",
+        "level": "A1",
+        "lv": "Ufro",
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "Ufro",
+          "explanation": [
+            "Haaptiddi: die Bitte ass e Substantiv a bedeit Ufro.",
+            "D’Wuert gëtt mat groussem Ufanksbuschtaf geschriwwen a mam Artikel die benotzt.",
+            "De Pluriel ass die Bitten.",
+            "D’Héiflechkeetswuert bitte mat klengem Ufanksbuschtaf bedeit wann ech gelift."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Ech hunn eng Ufro."
+            },
+            {
+              "de": "Er erfüllt meine Bitte.",
+              "lv": "Hien erfëllt meng Ufro."
+            },
+            {
+              "de": "Sie hat zwei Bitten.",
+              "lv": "Si huet zwou Ufroen."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: die Bitte ass e Substantiv a bedeit Ufro; bitte ass en Héiflechkeetswuert a bedeit wann ech gelift."
+          },
+          "important": [
+            "Artikel: die Bitte.",
+            "Pluriel: die Bitten.",
+            "D’Substantiv gëtt mat groussem Ufanksbuschtaf geschriwwen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Bitte",
+                "die Bitten"
+              ],
+              "purple": [
+                "Ufro"
+              ],
+              "blue": [
+                "bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ufro"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ufro"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Bitten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ufroen"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Ufro"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wann ech gelift"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "green": [
+                  "die Bitte"
+                ],
+                "purple": [
+                  "Ufro"
+                ],
+                "blue": [
+                  "bitte",
+                  "wann ech gelift"
+                ]
+              }
+            },
+            "important": [
+              {
+                "green": [
+                  "die Bitte"
+                ]
+              },
+              {
+                "green": [
+                  "die Bitten"
+                ]
+              },
+              {
+                "purple": [
+                  "Substantiv",
+                  "groussem Ufanksbuschtaf"
+                ]
+              }
+            ]
+          },
+          "comparison": [
+            {
+              "word": "die Bitte",
+              "meaning": "Ufro",
+              "example": "Ich habe eine Bitte. – Ech hunn eng Ufro."
+            },
+            {
+              "word": "bitte",
+              "meaning": "wann ech gelift",
+              "example": "Komm bitte herein. – Komm eran, wann ech gelift."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "billig|idx:95",
+      "de_reference": "billig",
+      "idx": 95,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "billig",
+        "level": "A1",
+        "lv": "bëlleg"
+      }
+    },
+    {
+      "card_object_id": "Bier|idx:96",
+      "de_reference": "Bier",
+      "idx": 96,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Bier",
+        "de_article": "das",
+        "de_plural": "die Biere",
+        "level": "A1",
+        "lv": "Béier"
+      }
+    },
+    {
+      "card_object_id": "Bild|idx:97",
+      "de_reference": "Bild",
+      "idx": 97,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Bild",
+        "de_article": "das",
+        "de_plural": "die Bilder",
+        "level": "A1",
+        "lv": "Bild"
+      }
+    },
+    {
+      "card_object_id": "bitten|idx:98",
+      "de_reference": "bitten",
+      "idx": 98,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "bitten",
+        "level": "A1",
+        "lv": "bieden"
+      }
+    },
+    {
+      "card_object_id": "Blatt|idx:99",
+      "de_reference": "Blatt",
+      "idx": 99,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Blatt",
+        "de_article": "das",
+        "de_plural": "die Blätter",
+        "level": "A1",
+        "lv": "Blat"
+      }
+    },
+    {
+      "card_object_id": "blau|idx:100",
+      "de_reference": "blau",
+      "idx": 100,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "blau",
+        "level": "A1",
+        "lv": "blo"
+      }
+    },
+    {
+      "card_object_id": "bleiben|idx:101",
+      "de_reference": "bleiben",
+      "idx": 101,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "bleiben",
+        "level": "A1",
+        "lv": "bleiwen",
+        "study": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "bleiwen",
+          "explanation": [
+            "Haaptiddi: bleiben bedeit bleiwen.",
+            "bleiben gëtt benotzt, wann eng Persoun oder eng Saach net fortgeet an op där selwechter Plaz oder am selwechten Zoustand bleift.",
+            "Et ass de Géigendeel vu gehen a fahren, wann et drëm geet fortzegoen.",
+            "E ganz heefegen Ausdrock ass Ich bleibe zu Hause."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "Ech bleiwen doheem."
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "Bleif hei!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "Mir bleiwen nach eng Stonn."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "Ech ginn heem."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "bleiwen",
+              "example": "Ich bleibe hier. – Ech bleiwen hei."
+            },
+            {
+              "word": "gehen",
+              "meaning": "goen / zu Fouss fortgoen",
+              "example": "Ich gehe nach Hause. – Ech ginn heem."
+            },
+            {
+              "word": "fahren",
+              "meaning": "fueren / mat engem Transportmëttel fortgoen",
+              "example": "Ich fahre nach Hause. – Ech fueren heem."
+            },
+            {
+              "word": "warten",
+              "meaning": "waarden",
+              "example": "Ich warte hier. – Ech waarden hei."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: net fortgoen → bleiben; zu Fouss fortgoen → gehen."
+          },
+          "important": [
+            "bleiben bedeit bleiwen, net waarden.",
+            "Ich bleibe hier = Ech bleiwen hei; Ich warte hier = Ech waarden hei."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bleiben"
+              ],
+              "purple": [
+                "bleiwen",
+                "net fortgeet"
+              ],
+              "red": [
+                "gehen",
+                "fahren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bleibe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bleiwen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bleib"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Bleif"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bleiben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bleiwen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "gehe"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "ginn"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bleiwen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bleibe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "goen",
+                    "fortgoen"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "gehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "fueren",
+                    "Transportmëttel"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "fahre"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "warten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "waarden"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "warte"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bleiben"
+                ],
+                "purple": [
+                  "net fortgoen"
+                ],
+                "red": [
+                  "gehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "bleiben"
+                ],
+                "purple": [
+                  "bleiwen"
+                ],
+                "green": [
+                  "waarden"
+                ]
+              },
+              {
+                "blue": [
+                  "bleibe"
+                ],
+                "green": [
+                  "warte"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Bleistift|idx:102",
+      "de_reference": "Bleistift",
+      "idx": 102,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Bleistift",
+        "de_article": "der",
+        "de_plural": "die Bleistifte",
+        "level": "A1",
+        "lv": "Bläistëft"
+      }
+    },
+    {
+      "card_object_id": "blond|idx:103",
+      "de_reference": "blond",
+      "idx": 103,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "blond",
+        "level": "A1",
+        "lv": "blond"
+      }
+    },
+    {
+      "card_object_id": "Blume|idx:104",
+      "de_reference": "Blume",
+      "idx": 104,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Blume",
+        "de_article": "die",
+        "de_plural": "die Blumen",
+        "level": "A1",
+        "lv": "Blumm"
+      }
+    },
+    {
+      "card_object_id": "Boot|idx:105",
+      "de_reference": "Boot",
+      "idx": 105,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Boot",
+        "de_article": "das",
+        "de_plural": "die Boote",
+        "level": "A1",
+        "lv": "Boot"
+      }
+    },
+    {
+      "card_object_id": "brauchen|idx:106",
+      "de_reference": "brauchen",
+      "idx": 106,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "brauchen",
+        "level": "A1",
+        "lv": "brauchen"
+      }
+    },
+    {
+      "card_object_id": "braun|idx:107",
+      "de_reference": "braun",
+      "idx": 107,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "braun",
+        "level": "A1",
+        "lv": "brong"
+      }
+    },
+    {
+      "card_object_id": "bringen|idx:111",
+      "de_reference": "bringen",
+      "idx": 111,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "bringen",
+        "level": "A1",
+        "lv": "bréngen",
+        "study": {
+          "id": "a1-bringen",
+          "layout": "standardStudy",
+          "translation": "bréngen",
+          "explanation": [
+            "Haaptiddi: bringen bedeit virun allem, eppes bei eng aner Persoun oder op eng bestëmmte Plaz ze bréngen.",
+            "Op Lëtzebuergesch kann bringen jee no Kontext verschidde Formuléierungen hunn.",
+            "Am heefegsten: bréngen.",
+            "Jee no Situatioun: ewechbréngen, féieren oder liwweren.",
+            "D’Iwwersetzung gëtt vum Kontext bestëmmt."
+          ],
+          "examples": [
+            {
+              "de": "Ich bringe dir ein Buch.",
+              "lv": "Ech bréngen dir e Buch."
+            },
+            {
+              "de": "Ich bringe das Paket zur Post.",
+              "lv": "Ech bréngen de Pak op d’Post."
+            },
+            {
+              "de": "Ich bringe die Kinder zur Schule.",
+              "lv": "Ech bréngen d’Kanner an d’Schoul."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bringen",
+              "meaning": "bréngen",
+              "example": "Ich bringe dir ein Buch. – Ech bréngen dir e Buch."
+            },
+            {
+              "word": "bringen",
+              "meaning": "ewechbréngen",
+              "example": "Ich bringe das Paket zur Post. – Ech bréngen de Pak op d’Post."
+            },
+            {
+              "word": "bringen",
+              "meaning": "féieren",
+              "example": "Ich bringe die Kinder zur Schule. – Ech bréngen d’Kanner an d’Schoul."
+            },
+            {
+              "word": "bringen",
+              "meaning": "liwweren",
+              "example": "Ich bringe dir ein Buch. – Ech bréngen dir e Buch."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "huelen",
+              "example": "Ich nehme das Buch. – Ech huelen d’Buch."
+            }
+          ],
+          "tip": {
+            "text": "Wann en Objet bei eng aner Persoun oder op eng aner Plaz kënnt, gëtt am Däitsche ganz dacks bringen benotzt."
+          },
+          "important": [
+            "nehmen bedeit huelen.",
+            "bringen bedeit bréngen oder liwweren.",
+            "D’lëtzebuergesch Iwwersetzung hänkt vum Kontext of."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bringen"
+              ],
+              "purple": [
+                "bréngen",
+                "ewechbréngen",
+                "liwweren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bréngen"
+                  ],
+                  "yellow": [
+                    "Buch"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ],
+                  "yellow": [
+                    "Paket"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bréngen"
+                  ],
+                  "yellow": [
+                    "Pak"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ],
+                  "green": [
+                    "Kinder"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bréngen"
+                  ],
+                  "green": [
+                    "Kanner"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bréngen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bringe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ewechbréngen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bringe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "féieren"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bringe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "liwweren"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bringe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "huelen"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "nehme"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "bringen"
+                ],
+                "purple": [
+                  "aner Persoun",
+                  "aner Plaz"
+                ]
+              }
+            },
+            "important": [
+              {
+                "red": [
+                  "nehmen"
+                ],
+                "purple": [
+                  "huelen"
+                ]
+              },
+              {
+                "blue": [
+                  "bringen"
+                ],
+                "purple": [
+                  "bréngen",
+                  "liwweren"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Brötchen|idx:113",
+      "de_reference": "Brötchen",
+      "idx": 113,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Brötchen",
+        "de_article": "das",
+        "de_plural": "die Brötchen",
+        "level": "A1",
+        "lv": "Bréitchen"
+      }
+    },
+    {
+      "card_object_id": "Brücke|idx:114",
+      "de_reference": "Brücke",
+      "idx": 114,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Brücke",
+        "de_article": "die",
+        "de_plural": "die Brücken",
+        "level": "A1",
+        "lv": "Bréck"
+      }
+    },
+    {
+      "card_object_id": "Buch|idx:116",
+      "de_reference": "Buch",
+      "idx": 116,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Buch",
+        "de_article": "das",
+        "de_plural": "die Bücher",
+        "level": "A1",
+        "lv": "Buch"
+      }
+    },
+    {
+      "card_object_id": "Buchstabe|idx:117",
+      "de_reference": "Buchstabe",
+      "idx": 117,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Buchstabe",
+        "de_article": "der",
+        "de_plural": "die Buchstaben",
+        "level": "A1",
+        "lv": "Buschtaf"
+      }
+    },
+    {
+      "card_object_id": "Büro|idx:118",
+      "de_reference": "Büro",
+      "idx": 118,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Büro",
+        "de_article": "das",
+        "de_plural": "die Büros",
+        "level": "A1",
+        "lv": "Büro"
+      }
+    },
+    {
+      "card_object_id": "Bus|idx:119",
+      "de_reference": "Bus",
+      "idx": 119,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Bus",
+        "de_article": "der",
+        "de_plural": "die Busse",
+        "level": "A1",
+        "lv": "Bus"
+      }
+    },
+    {
+      "card_object_id": "Butter|idx:120",
+      "de_reference": "Butter",
+      "idx": 120,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Butter",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Botter"
+      }
+    },
+    {
+      "card_object_id": "CD|idx:122",
+      "de_reference": "CD",
+      "idx": 122,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "CD",
+        "de_article": "die",
+        "de_plural": "die CDs",
+        "level": "A1",
+        "lv": "CD"
+      }
+    },
+    {
+      "card_object_id": "Computer|idx:123",
+      "de_reference": "Computer",
+      "idx": 123,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Computer",
+        "de_article": "der",
+        "de_plural": "die Computer",
+        "level": "A1",
+        "lv": "Computer"
+      }
+    },
+    {
+      "card_object_id": "Cousin|idx:124",
+      "de_reference": "Cousin",
+      "idx": 124,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Cousin",
+        "de_article": "der",
+        "de_plural": "die Cousins",
+        "level": "A1",
+        "lv": "Cousin"
+      }
+    },
+    {
+      "card_object_id": "Cousine|idx:125",
+      "de_reference": "Cousine",
+      "idx": 125,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Cousine",
+        "de_article": "die",
+        "de_plural": "die Cousinen",
+        "level": "A1",
+        "lv": "Cousine"
+      }
+    },
+    {
+      "card_object_id": "da|idx:126",
+      "de_reference": "da",
+      "idx": 126,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "da",
+        "level": "A1",
+        "lv": "do",
+        "study": {
+          "id": "a1-da",
+          "layout": "standardStudy",
+          "translation": "do",
+          "explanation": [
+            "Haaptiddi: da bedeit um Niveau A1 meeschtens do.",
+            "da weist op eng Plaz hin oder bezitt sech op eppes, wat scho genannt gouf.",
+            "Jee no Situatioun kann et och mat hei iwwersat ginn.",
+            "Um Niveau A1 léiere mir da virun allem als allgemengt Uertswuert."
+          ],
+          "examples": [
+            {
+              "de": "Da ist mein Auto.",
+              "lv": "Do ass mäin Auto."
+            },
+            {
+              "de": "Ich war da.",
+              "lv": "Ech war do."
+            },
+            {
+              "de": "Da kommt er.",
+              "lv": "Do kënnt hien."
+            },
+            {
+              "de": "Komm mal da her!",
+              "lv": "Komm emol heihinner!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "da",
+              "meaning": "do • hei (allgemeng)",
+              "example": "Do ass mäin Auto."
+            },
+            {
+              "word": "hier",
+              "meaning": "hei (op enger bestëmmter Plaz)",
+              "example": "Hei ass mäin Auto."
+            },
+            {
+              "word": "dort",
+              "meaning": "do (méi wäit ewech)",
+              "example": "Do ass mäin Auto."
+            },
+            {
+              "word": "dann",
+              "meaning": "dann",
+              "example": "Da gi mir heem."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: eng allgemeng Plaz do/hei → da."
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "da"
+              ],
+              "purple": [
+                "do"
+              ],
+              "green": [
+                "hei"
+              ],
+              "yellow": [
+                "Plaz"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Da"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Do"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "da"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "do"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Da"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "Do"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "da"
+                  ]
+                },
+                "lv": {
+                  "green": [
+                    "heihinner"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "da"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "do",
+                    "hei"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Do"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hier"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "hei"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Hei"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dort"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "do"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Do"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dann"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dann"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Da"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "da"
+                ],
+                "purple": [
+                  "do"
+                ],
+                "green": [
+                  "hei"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "da"
+                ],
+                "purple": [
+                  "Uertswuert"
+                ]
+              },
+              {
+                "yellow": [
+                  "hier"
+                ],
+                "red": [
+                  "dort"
+                ],
+                "green": [
+                  "hei"
+                ],
+                "purple": [
+                  "do"
+                ]
+              }
+            ]
+          },
+          "accents": {
+            "blue": [
+              "da",
+              "Da"
+            ],
+            "purple": [
+              "do",
+              "Do"
+            ],
+            "green": [
+              "hei",
+              "Hei",
+              "heihinner"
+            ],
+            "yellow": [
+              "hier"
+            ],
+            "red": [
+              "dort",
+              "dann"
+            ]
+          },
+          "important": [
+            "da ass en allgemengt Uertswuert.",
+            "hier ass konkret „hei“, dort ass e méi wäiten „do“."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "dann|idx:128",
+      "de_reference": "dann",
+      "idx": 128,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "dann",
+        "level": "A1",
+        "lv": "dann"
+      }
+    },
+    {
+      "card_object_id": "das|idx:129",
+      "de_reference": "das",
+      "idx": 129,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "das",
+        "level": "A1",
+        "lv": "bestëmmten Artikel vum Neutrum",
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "bestëmmten Artikel vum Neutrum",
+          "explanation": "Gëtt bei Substantiver am Neutrum benotzt. A verschiddene Sätz kann „das“ och als Pronomen oder Relativpronomen fungéieren.",
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "Dat ass mäin Auto."
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "Dat ass gutt."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "D’Buch, dat ech liesen, ass interessant."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "dat (Artikel / Pronomen)",
+              "example": "Das ist mein Auto. – Dat ass mäin Auto."
+            },
+            {
+              "word": "dies",
+              "meaning": "dëst",
+              "example": "Dies ist mein Auto. – Dëst ass mäin Auto."
+            },
+            {
+              "word": "welches",
+              "meaning": "wat • dat",
+              "example": "Das ist das Buch, welches ich lese. – Dat ass d’Buch, dat ech liesen."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Neutrum → das; datt → dass."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "blue": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "blue": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ],
+                  "yellow": [
+                    "das"
+                  ]
+                },
+                "lv": {
+                  "blue": [
+                    "D’Buch"
+                  ],
+                  "yellow": [
+                    "dat"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das",
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dies"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dëst"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Dies",
+                    "Dëst"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "welches"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wat",
+                    "dat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das",
+                    "Dat"
+                  ],
+                  "yellow": [
+                    "welches"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "Neutrum"
+                ],
+                "red": [
+                  "dass",
+                  "datt"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "Artikel vum Neutrum"
+                ]
+              },
+              {
+                "blue": [
+                  "das"
+                ],
+                "purple": [
+                  "Artikel",
+                  "Pronomen"
+                ],
+                "red": [
+                  "dass"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Um Niveau A1 léiers de das fir d’éischt als Artikel vum Neutrum.",
+            "das ass net dat selwecht wéi dass — das kann en Artikel oder e Pronomen sinn, dass bedeit „datt“."
+          ]
+        }
+      }
+    }
+  ]
+}
