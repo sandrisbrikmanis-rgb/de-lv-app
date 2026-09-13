@@ -1,0 +1,43 @@
+{
+  "batch_id": "LRB-054",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T15:36:00.000Z",
+  "linguisticVerdict": "LRB_054_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReauditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "paste_file": "LRB-054-decisions-COPY-PASTE.json",
+  "paste_sha256": "4a00a54a67d46ef67b700ac0c134ecd0a2904ef93264ead3bcd32ff17c5b4dd7",
+  "languages": {
+    "fi": 50
+  },
+  "unique_cards": 27,
+  "fi_composite_repairs": 27,
+  "fi_scalar_repairs": 0,
+  "scope": "a1-huebsch..a1-ueber (50 FI rows, 27 unique cards) GPT-5.6 Luna FULL_50_50 paste — non-idx FI batch 13",
+  "productionSource": "data/fi/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "FI_ROWS": "50/50",
+    "UNIQUE_CARDS": "27/27",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-054-residual-wrong-language-proof.json",
+  "note": "Gala verdict LRB_054_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING (27 full composite cards, 50 composite row repairs). DE/production/Crowdin/ingest/apply unchanged."
+}
