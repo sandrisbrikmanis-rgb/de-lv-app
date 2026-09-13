@@ -9420,7 +9420,7 @@
 **Field / path:** `a1.card.a1-uhr.study.examples[5].native`
 **Severity:** MEDIUM
 **Category:** MULTI_TRANSLATION_REVIEW_REQUIRED
-**CURRENT (captured scope):** 
+**CURRENT (captured scope):**
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
 **NEW (OWNER mapping):** {"lv":"сат • време","study":{"id":"a1-uhr","layout":"standardStudy","translation":"сат • време","explanation":["Главна идеја: die Uhr означава сат као уређај, а употребљава се и за тачно време.","У Es ist acht Uhr означава време; у meine Uhr означава сат као предмет."],"examples":[{"de":"Es ist acht Uhr.","lv":"Осам је сати."},{"de":"Es ist acht Uhr.","lv":"Осам је сати."},{"de":"Meine Uhr ist kaputt.","lv":"Мој сат је покварен."},{"de":"Es ist acht Uhr.","lv":"Осам је сати."},{"de":"Es ist acht Uhr.","lv":"Осам је сати."},{"de":"die Uhr","lv":"сат"}],"tip":{"text":"die Uhr = сат као уређај или тачно време."},"important":["Es ist acht Uhr = Осам је сати."],"sectionAccents":{"explanation":[{},{}],"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"tip":{},"important":[{}]}}}
