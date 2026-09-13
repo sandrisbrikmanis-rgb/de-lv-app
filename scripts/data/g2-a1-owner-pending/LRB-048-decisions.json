@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|morgen|idx:417|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Huomenna\",\"study.translation\":\"Huomenna\",\"study.explanation\":\"[\\\"Pääajatus: pienellä alkukirjaimella kirjoitettu morgen on ajan adverbi ja tarkoittaa seuraavana päivänä eli huomenna.\\\",\\\"morgen tarkoittaa ensisijaisesti seuraavana päivänä.\\\",\\\"Se toimii lauseessa ajanilmauksena.\\\",\\\"Isolla alkukirjaimella kirjoitettu der Morgen tarkoittaa päivän osaa eli aamua.\\\",\\\"der Morgen on substantiivi.\\\",\\\"Monikkomuoto die Morgen tarkoittaa useita aamuja.\\\",\\\"die Morgen on substantiivin monikkomuoto.\\\",\\\"Pieni morgen tarkoittaa huomenna: Ich komme morgen. – Tulen huomenna; Bis morgen! – Huomiseen!\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Tulen huomenna.\\\"},{\\\"de\\\":\\\"Bis morgen!\\\",\\\"lv\\\":\\\"Huomiseen!\\\"},{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Tulen huomenna.\\\"},{\\\"de\\\":\\\"Morgen ist Montag.\\\",\\\"lv\\\":\\\"Huomenna on maanantai.\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Hyvää huomenta!\\\"},{\\\"de\\\":\\\"Der Morgen ist schön.\\\",\\\"lv\\\":\\\"Aamu on kaunis.\\\"}]\",\"study.tip\":\"[\\\"Pieni morgen = huomenna; der Morgen isolla alkukirjaimella = aamu.\\\",\\\"morgen = huomenna.\\\"]\",\"study.important\":\"[\\\"morgen kirjoitetaan pienellä, kun se on ajan adverbi ja tarkoittaa huomenna.\\\",\\\"der Morgen kirjoitetaan isolla ja on aamua tarkoittava substantiivi.\\\",\\\"Guten Morgen! kirjoitetaan aina isolla M-kirjaimella.\\\",\\\"Väärin: Guten morgen! → Oikein: Guten Morgen!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"morgen\\\",\\\"der Morgen\\\",\\\"die Morgen\\\"],\\\"purple\\\":[\\\"huomenna\\\",\\\"aamua\\\",\\\"aamuja\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"huomenna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Huomiseen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"huomenna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Huomenna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"huomenta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Aamu\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"morgen\\\",\\\"der Morgen\\\"],\\\"purple\\\":[\\\"huomenna\\\",\\\"aamu\\\"]},{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"huomenna\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"huomenna\\\"]},{\\\"blue\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"aamua\\\"]},{\\\"blue\\\":[\\\"Guten Morgen\\\"]},{\\\"red\\\":[\\\"Guten morgen\\\"],\\\"green\\\":[\\\"Guten Morgen\\\"]}]}\"}",
+    "owner_note": "FI morgen / lv; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-048 rinda 1/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Morgen|idx:418|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Aamu\",\"study.translation\":\"Aamu\",\"study.explanation\":\"[\\\"Pääajatus: isolla alkukirjaimella kirjoitettu der Morgen on substantiivi ja tarkoittaa päivän osaa eli aamua.\\\",\\\"Pienellä kirjoitettu morgen tarkoittaa seuraavana päivänä eli huomenna.\\\",\\\"Pieni morgen toimii ajan adverbina.\\\",\\\"der Morgen tarkoittaa päivän osaa eli aamua.\\\",\\\"der Morgen on der-artikkelin kanssa käytettävä substantiivi.\\\",\\\"Monikkomuoto die Morgen tarkoittaa useita aamuja.\\\",\\\"die Morgen on substantiivin monikkomuoto.\\\",\\\"Pieni morgen tarkoittaa huomenna: Ich komme morgen. – Tulen huomenna; Bis morgen! – Huomiseen!\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Hyvää huomenta!\\\"},{\\\"de\\\":\\\"Bis morgen!\\\",\\\"lv\\\":\\\"Huomiseen!\\\"},{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Tulen huomenna.\\\"},{\\\"de\\\":\\\"Morgen ist Montag.\\\",\\\"lv\\\":\\\"Huomenna on maanantai.\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Hyvää huomenta!\\\"},{\\\"de\\\":\\\"Der Morgen ist schön.\\\",\\\"lv\\\":\\\"Aamu on kaunis.\\\"}]\",\"study.tip\":\"[\\\"Pieni morgen = huomenna; der Morgen isolla alkukirjaimella = aamu.\\\",\\\"der Morgen = aamu.\\\"]\",\"study.important\":\"[\\\"morgen kirjoitetaan pienellä, kun se on ajan adverbi ja tarkoittaa huomenna.\\\",\\\"der Morgen kirjoitetaan isolla ja on aamua tarkoittava substantiivi.\\\",\\\"Guten Morgen! kirjoitetaan aina isolla M-kirjaimella.\\\",\\\"Väärin: Guten morgen! → Oikein: Guten Morgen!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Morgen\\\",\\\"morgen\\\",\\\"die Morgen\\\"],\\\"purple\\\":[\\\"aamua\\\",\\\"huomenna\\\",\\\"aamuja\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"huomenta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Huomiseen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"huomenna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Huomenna\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"huomenta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Aamu\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"morgen\\\",\\\"der Morgen\\\"],\\\"purple\\\":[\\\"huomenna\\\",\\\"aamu\\\"]},{\\\"blue\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"aamu\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"huomenna\\\"]},{\\\"blue\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"aamua\\\"]},{\\\"blue\\\":[\\\"Guten Morgen\\\"]},{\\\"red\\\":[\\\"Guten morgen\\\"],\\\"green\\\":[\\\"Guten Morgen\\\"]}]}\"}",
+    "owner_note": "FI Morgen / lv; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-048 rinda 2/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|morgens|idx:419|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Aamuisin",
+    "owner_note": "FI morgens / lv: individuāli pārbaudīta LRB-048 rinda 3/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|müde|idx:420|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Väsynyt",
+    "owner_note": "FI müde / lv: individuāli pārbaudīta LRB-048 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Mund|idx:421|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Mund / lv: individuāli pārbaudīta LRB-048 rinda 5/50; production_current “Suu” ir pareiza somu vērtība un precīzi atbilst LV→DE semantikai; izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|Musik|idx:422|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Musiikki",
+    "owner_note": "FI Musik / lv: individuāli pārbaudīta LRB-048 rinda 6/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|müssen|idx:423|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Täytyä • Pitää\",\"study.translation\":\"Täytyä • Pitää\",\"study.explanation\":\"[\\\"Pääajatus: müssen ilmaisee, että jotakin on välttämätöntä tehdä.\\\",\\\"Suomeksi müssen käännetään usein rakenteella minun täytyy, sinun täytyy tai meidän täytyy, tai puhekielisemmin verbillä pitää.\\\",\\\"Saksankielisessä lauseessa toinen verbi on tavallisesti lopussa.\\\",\\\"A1-tasolla tärkeä muoto on Ich muss ...\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich muss gehen.\\\",\\\"lv\\\":\\\"Minun täytyy lähteä.\\\"},{\\\"de\\\":\\\"Du musst warten.\\\",\\\"lv\\\":\\\"Sinun täytyy odottaa.\\\"},{\\\"de\\\":\\\"Wir müssen lernen.\\\",\\\"lv\\\":\\\"Meidän täytyy opiskella.\\\"},{\\\"de\\\":\\\"Ich muss heute arbeiten.\\\",\\\"lv\\\":\\\"Minun täytyy työskennellä tänään.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"müssen\\\",\\\"meaning\\\":\\\"täytyä • olla pakko\\\",\\\"example\\\":\\\"Ich muss gehen. – Minun täytyy lähteä.\\\"},{\\\"word\\\":\\\"können\\\",\\\"meaning\\\":\\\"voida • osata\\\",\\\"example\\\":\\\"Ich kann kommen. – Voin tulla.\\\"},{\\\"word\\\":\\\"wollen\\\",\\\"meaning\\\":\\\"haluta\\\",\\\"example\\\":\\\"Ich will nach Hause. – Haluan kotiin.\\\"},{\\\"word\\\":\\\"dürfen\\\",\\\"meaning\\\":\\\"saada • olla lupa\\\",\\\"example\\\":\\\"Darf ich gehen? – Saanko lähteä?\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: Ich muss ... = Minun täytyy ...\\\"}\",\"study.important\":\"[\\\"müssen on modaaliverbi.\\\",\\\"Toinen verbi on tavallisesti lauseen lopussa: Ich muss heute arbeiten.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"müssen\\\"],\\\"purple\\\":[\\\"välttämätöntä\\\",\\\"täytyy\\\",\\\"pitää\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"muss\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"täytyy\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"musst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"täytyy\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"müssen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"täytyy\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"muss\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"täytyy\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"müssen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"täytyä • olla pakko\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"können\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"voida • osata\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"haluta\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dürfen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"saada • olla lupa\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Ich muss\\\"],\\\"purple\\\":[\\\"Minun täytyy\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"müssen\\\"],\\\"purple\\\":[\\\"modaaliverbi\\\"]},{\\\"blue\\\":[\\\"muss\\\",\\\"arbeiten\\\"],\\\"purple\\\":[\\\"lopussa\\\"]}]}\"}",
+    "owner_note": "FI müssen / lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important: individuāli pārbaudīta LRB-048 rinda 7/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Mutter|idx:424|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Äiti",
+    "owner_note": "FI Mutter / lv: individuāli pārbaudīta LRB-048 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Mütze|idx:425|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pipo",
+    "owner_note": "FI Mütze / lv: individuāli pārbaudīta LRB-048 rinda 9/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nach|idx:426|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-iin/-lle • Jälkeen\",\"study.translation\":\"-iin/-lle • Jälkeen\",\"study.explanation\":\"[\\\"Pääajatus: paikan yhteydessä nach ilmaisee suuntaa, ja ajan tai järjestyksen yhteydessä se tarkoittaa jälkeen.\\\",\\\"Kaupunkien ja artikkelittomien maiden kanssa nach vastaa suomessa tavallisesti illatiivisijaa: nach Berlin – Berliiniin.\\\",\\\"Ajan yhteydessä nach tarkoittaa jälkeen.\\\",\\\"Ilmauksessa nach Hause se tarkoittaa kotiin.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich fahre nach Berlin.\\\",\\\"lv\\\":\\\"Matkustan Berliiniin.\\\"},{\\\"de\\\":\\\"Wir gehen nach Hause.\\\",\\\"lv\\\":\\\"Menemme kotiin.\\\"},{\\\"de\\\":\\\"Nach dem Essen gehen wir spazieren.\\\",\\\"lv\\\":\\\"Ruokailun jälkeen menemme kävelylle.\\\"},{\\\"de\\\":\\\"Es ist zehn nach acht.\\\",\\\"lv\\\":\\\"Kello on kymmentä yli kahdeksan.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"nach\\\",\\\"meaning\\\":\\\"-iin/-lle • jälkeen\\\",\\\"example\\\":\\\"Ich fahre nach Berlin. – Matkustan Berliiniin.\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"luo • johonkin\\\",\\\"example\\\":\\\"Ich gehe zum Arzt. – Menen lääkäriin.\\\"},{\\\"word\\\":\\\"in\\\",\\\"meaning\\\":\\\"sisään • paikkaan, jolla on artikkeli\\\",\\\"example\\\":\\\"Ich gehe in die Schule. – Menen kouluun.\\\"},{\\\"word\\\":\\\"vor\\\",\\\"meaning\\\":\\\"ennen • edessä\\\",\\\"example\\\":\\\"Vor dem Essen wasche ich die Hände. – Pesen kädet ennen ruokailua.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: nach Hause = kotiin; nach Berlin = Berliiniin; nach dem Essen = ruokailun jälkeen.\\\"}\",\"study.important\":\"[\\\"nach-prepositiota ei käytetä kaikkien paikkojen kanssa.\\\",\\\"Kouluun on tavallisesti in die Schule, ei nach Schule.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nach\\\",\\\"nach Hause\\\"],\\\"purple\\\":[\\\"suuntaa\\\",\\\"jälkeen\\\",\\\"kotiin\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"nach\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Berliiniin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nach Hause\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"kotiin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Nach\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"jälkeen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nach\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"yli\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"nach\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"-iin/-lle • jälkeen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"luo • johonkin\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"in\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sisään • paikkaan, jolla on artikkeli\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"vor\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ennen • edessä\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"nach Hause\\\",\\\"nach Berlin\\\",\\\"nach dem Essen\\\"],\\\"purple\\\":[\\\"kotiin\\\",\\\"Berliiniin\\\",\\\"jälkeen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"nach\\\"],\\\"purple\\\":[\\\"paikkojen\\\"]},{\\\"green\\\":[\\\"in die Schule\\\"],\\\"red\\\":[\\\"nach Schule\\\"]}]}\"}",
+    "owner_note": "FI nach / lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important: individuāli pārbaudīta LRB-048 rinda 10/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Nachmittag|idx:427|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Iltapäivä",
+    "owner_note": "FI Nachmittag / lv: individuāli pārbaudīta LRB-048 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nachmittags|idx:428|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Iltapäivisin",
+    "owner_note": "FI nachmittags / lv: individuāli pārbaudīta LRB-048 rinda 12/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Nacht|idx:429|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yö",
+    "owner_note": "FI Nacht / lv: individuāli pārbaudīta LRB-048 rinda 13/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Nase|idx:430|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nenä",
+    "owner_note": "FI Nase / lv: individuāli pārbaudīta LRB-048 rinda 14/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nass|idx:431|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Märkä",
+    "owner_note": "FI nass / lv: individuāli pārbaudīta LRB-048 rinda 15/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Natur|idx:432|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Luonto",
+    "owner_note": "FI Natur / lv: individuāli pārbaudīta LRB-048 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|natürlich|idx:433|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tietysti • Luonnollinen\",\"study.translation\":\"Tietysti • Luonnollinen\",\"study.explanation\":\"[\\\"Pääajatus: adverbina natürlich tarkoittaa tietysti ja adjektiivina luonnollista.\\\",\\\"Keskustelussa vahvistavana vastauksena natürlich tarkoittaa tietysti: Kommst du mit? – Natürlich!\\\",\\\"Luonnosta, alkuperästä tai ominaisuudesta puhuttaessa natürlich tarkoittaa luonnollista: natürliche Schönheit – luonnollinen kauneus.\\\",\\\"Asiayhteys osoittaa, onko kyse vahvistuksesta vai kuvauksesta.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Kommst du mit? – Natürlich!\\\",\\\"lv\\\":\\\"Tuletko mukaan? – Tietysti!\\\"},{\\\"de\\\":\\\"Das ist eine natürliche Reaktion.\\\",\\\"lv\\\":\\\"Se on luonnollinen reaktio.\\\"},{\\\"de\\\":\\\"Natürlich helfe ich dir.\\\",\\\"lv\\\":\\\"Tietysti autan sinua.\\\"},{\\\"de\\\":\\\"Sie hat natürliche rote Haare.\\\",\\\"lv\\\":\\\"Hänellä on luonnostaan punaiset hiukset.\\\"},{\\\"de\\\":\\\"Natürlich kann ich das machen.\\\",\\\"lv\\\":\\\"Tietysti voin tehdä sen.\\\"},{\\\"de\\\":\\\"Das ist ganz natürlich.\\\",\\\"lv\\\":\\\"Se on aivan luonnollista eli normaalia.\\\"}]\",\"study.tip\":\"[\\\"Erillisenä vahvistuksena tai vastauksena → tietysti.\\\",\\\"Substantiivin yhteydessä alkuperää tai ominaisuutta kuvattaessa → luonnollinen.\\\"]\",\"study.important\":\"[\\\"natürlich = tietysti adverbina tai luonnollinen adjektiivina.\\\",\\\"Natürlich! erillisenä huudahduksena tarkoittaa aina tietysti!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"natürlich\\\"],\\\"purple\\\":[\\\"tietysti\\\",\\\"luonnollista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Tietysti\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"natürliche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"luonnollinen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Tietysti\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"natürliche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"luonnostaan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Tietysti\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"luonnollista\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"tietysti\\\"]},{\\\"green\\\":[\\\"luonnollinen\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"natürlich\\\"],\\\"purple\\\":[\\\"tietysti\\\",\\\"luonnollinen\\\"]},{\\\"blue\\\":[\\\"Natürlich\\\"],\\\"purple\\\":[\\\"tietysti\\\"]}]}\"}",
+    "owner_note": "FI natürlich / lv, study.translation, study.explanation, study.examples, study.tip, study.important: individuāli pārbaudīta LRB-048 rinda 17/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neben|idx:434|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Vieressä",
+    "owner_note": "FI neben / lv: individuāli pārbaudīta LRB-048 rinda 18/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nehmen|idx:435|lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ottaa\",\"study.translation\":\"Ottaa\",\"study.explanation\":\"[\\\"Pääajatus: nehmen tarkoittaa ottaa tai valita jotakin.\\\",\\\"nehmen-verbiä käytetään, kun otetaan jotakin itselle tai valitaan jokin vaihtoehto.\\\",\\\"Se ei ole sama kuin bringen, joka tarkoittaa jonkin tuomista, viemistä tai toimittamista jollekulle.\\\",\\\"holen tarkoittaa käydä hakemassa ja tuoda tai ottaa mukaan.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich nehme den Bus.\\\",\\\"lv\\\":\\\"Menen bussilla.\\\"},{\\\"de\\\":\\\"Nimm das Buch!\\\",\\\"lv\\\":\\\"Ota kirja!\\\"},{\\\"de\\\":\\\"Ich bringe dir das Buch.\\\",\\\"lv\\\":\\\"Tuon sinulle kirjan.\\\"},{\\\"de\\\":\\\"Ich hole dich ab.\\\",\\\"lv\\\":\\\"Haen sinut.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"nehmen\\\",\\\"meaning\\\":\\\"ottaa\\\",\\\"example\\\":\\\"Nimm das Buch! – Ota kirja!\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"tuoda • viedä • toimittaa\\\",\\\"example\\\":\\\"Ich bringe dir das Buch. – Tuon sinulle kirjan.\\\"},{\\\"word\\\":\\\"holen\\\",\\\"meaning\\\":\\\"hakea • käydä hakemassa\\\",\\\"example\\\":\\\"Ich hole Wasser. – Haen vettä.\\\"},{\\\"word\\\":\\\"mitnehmen\\\",\\\"meaning\\\":\\\"ottaa mukaan\\\",\\\"example\\\":\\\"Ich nehme dich mit. – Otan sinut mukaan.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: otat itsellesi → nehmen; tuot jollekulle → bringen.\\\"}\",\"study.important\":\"[\\\"Ich nehme den Bus tarkoittaa suomeksi ”Menen bussilla”.\\\",\\\"nehmen ei tarkoita samaa kuin bringen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nehmen\\\",\\\"bringen\\\",\\\"holen\\\"],\\\"purple\\\":[\\\"ottaa\\\",\\\"tuomista\\\",\\\"hakemassa\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"nehme\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bussilla\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Nimm\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ota\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bringe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Tuon\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"hole\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Haen\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"nehmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ottaa\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tuoda • viedä • toimittaa\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"holen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hakea • käydä hakemassa\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"mitnehmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ottaa mukaan\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"nehmen\\\"],\\\"purple\\\":[\\\"otat itsellesi\\\"],\\\"red\\\":[\\\"bringen\\\"],\\\"green\\\":[\\\"tuot jollekulle\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"nehme den Bus\\\"],\\\"purple\\\":[\\\"Menen bussilla\\\"]},{\\\"blue\\\":[\\\"nehmen\\\"],\\\"red\\\":[\\\"bringen\\\"]}]}\"}",
+    "owner_note": "FI nehmen / lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important: individuāli pārbaudīta LRB-048 rinda 19/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nein|idx:436|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI nein / lv: individuāli pārbaudīta LRB-048 rinda 20/50; production_current “Ei” ir pareiza somu vērtība un precīzi atbilst LV→DE semantikai; izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|nennen|idx:437|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nimetä",
+    "owner_note": "FI nennen / lv: individuāli pārbaudīta LRB-048 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nett|idx:438|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mukava",
+    "owner_note": "FI nett / lv: individuāli pārbaudīta LRB-048 rinda 22/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neu|idx:439|lv, study.translation, study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Uusi (esineistä ja asioista)\",\"study.translation\":\"Uusi (esineistä ja asioista)\",\"study.explanation\":\"[\\\"Pääajatus: neu tarkoittaa uutta esinettä tai asiaa, joka on äskettäin luotu, hankittu tai otettu käyttöön.\\\",\\\"neu kuvaa esineitä, laitteita, vaatteita, taloa, ajatusta ja muita asioita, ei ihmisen tai eläimen nuorta ikää.\\\",\\\"Suomessa uusi tarkoittaa uutuutta, kun taas nuori vastaa ikää kuvaavaa sanaa jung.\\\",\\\"Ihmisen tai eläimen iästä käytetään sanaa jung, ei neu.\\\",\\\"neu voi esiintyä myös abstraktien asioiden yhteydessä: uusi työ, uusi tieto, uusi alku.\\\",\\\"Vastakohta on alt eli vanha; substantiivi das Neue tarkoittaa jotakin uutta.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Mein Handy ist neu.\\\",\\\"lv\\\":\\\"Puhelimeni on uusi.\\\"},{\\\"de\\\":\\\"Wir haben ein neues Auto.\\\",\\\"lv\\\":\\\"Meillä on uusi auto.\\\"},{\\\"de\\\":\\\"Das ist meine neue Wohnung.\\\",\\\"lv\\\":\\\"Se on uusi asuntoni.\\\"},{\\\"de\\\":\\\"Ich habe neue Schuhe gekauft.\\\",\\\"lv\\\":\\\"Ostin uudet kengät.\\\"},{\\\"de\\\":\\\"Das ist eine neue Idee.\\\",\\\"lv\\\":\\\"Se on uusi ajatus.\\\"},{\\\"de\\\":\\\"Er hat einen neuen Job.\\\",\\\"lv\\\":\\\"Hänellä on uusi työ.\\\"},{\\\"de\\\":\\\"Was gibt es Neues?\\\",\\\"lv\\\":\\\"Mitä uutta?\\\"}]\",\"study.tip\":\"[\\\"neu kuvaa esineitä, asioita ja uutuutta; ihmisen iästä käytetään jung.\\\",\\\"Vastakohdat: neu ↔ alt eli uusi ↔ vanha.\\\"]\",\"study.important\":\"[\\\"neu kuvaa esineitä, asioita ja uutuutta, ei ihmisen tai eläimen ikää.\\\",\\\"Ihmisen tai eläimen iästä käytetään jung, ei neu.\\\",\\\"Väärin: Meine Schwester ist neu. → Oikein: Meine Schwester ist jung.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"neu\\\",\\\"jung\\\",\\\"alt\\\",\\\"das Neue\\\"],\\\"purple\\\":[\\\"uutta\\\",\\\"uusi\\\",\\\"nuori\\\",\\\"vanha\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"neu\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uusi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neues\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uusi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uusi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uudet\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uusi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neuen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uusi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Neues\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uutta\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"neu\\\"],\\\"green\\\":[\\\"jung\\\"]},{\\\"blue\\\":[\\\"neu\\\"],\\\"red\\\":[\\\"alt\\\"],\\\"purple\\\":[\\\"uusi\\\",\\\"vanha\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"neu\\\"],\\\"purple\\\":[\\\"uutuutta\\\"]},{\\\"green\\\":[\\\"jung\\\"],\\\"blue\\\":[\\\"neu\\\"]},{\\\"red\\\":[\\\"neu\\\"],\\\"green\\\":[\\\"jung\\\"]}]}\"}",
+    "owner_note": "FI neu / lv, study.translation, study.explanation, study.examples, study.tip, study.important: individuāli pārbaudīta LRB-048 rinda 23/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neun|idx:440|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksän",
+    "owner_note": "FI neun / lv: individuāli pārbaudīta LRB-048 rinda 24/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neunhundert|idx:441|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksänsataa",
+    "owner_note": "FI neunhundert / lv: individuāli pārbaudīta LRB-048 rinda 25/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neunte|idx:442|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksäs",
+    "owner_note": "FI neunte / lv: individuāli pārbaudīta LRB-048 rinda 26/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neunzehn|idx:443|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksäntoista",
+    "owner_note": "FI neunzehn / lv: individuāli pārbaudīta LRB-048 rinda 27/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neunzehnte|idx:444|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksästoista",
+    "owner_note": "FI neunzehnte / lv: individuāli pārbaudīta LRB-048 rinda 28/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neunzig|idx:445|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksänkymmentä",
+    "owner_note": "FI neunzig / lv: individuāli pārbaudīta LRB-048 rinda 29/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|neunzigste|idx:446|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Yhdeksäskymmenes",
+    "owner_note": "FI neunzigste / lv: individuāli pārbaudīta LRB-048 rinda 30/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nicht|idx:447|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI nicht / lv: individuāli pārbaudīta LRB-048 rinda 31/50; production_current “Ei” ir pareiza somu vērtība un precīzi atbilst LV→DE semantikai; izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|nichts|idx:448|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ei mitään",
+    "owner_note": "FI nichts / lv: individuāli pārbaudīta LRB-048 rinda 32/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nie|idx:449|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ei koskaan",
+    "owner_note": "FI nie / lv: individuāli pārbaudīta LRB-048 rinda 33/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|niemand|idx:450|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ei kukaan",
+    "owner_note": "FI niemand / lv: individuāli pārbaudīta LRB-048 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|noch|idx:451|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vielä\",\"study.translation\":\"Vielä\",\"study.explanation\":\"[\\\"Pääajatus: noch ilmaisee, että jokin jatkuu edelleen tai ei ole vielä päättynyt.\\\",\\\"noch tarkoittaa tässä yhteydessä, että jokin jatkuu yhä.\\\",\\\"Se kuvaa jatkumista tai keskeneräistä tilannetta.\\\",\\\"noch tarkoittaa vielä: jokin jatkuu edelleen tai ei ole vielä ohi.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin noch zu Hause.\\\",\\\"lv\\\":\\\"Olen vielä kotona.\\\"},{\\\"de\\\":\\\"Ich bin noch zu Hause.\\\",\\\"lv\\\":\\\"Olen vielä kotona.\\\"},{\\\"de\\\":\\\"Bist du noch da?\\\",\\\"lv\\\":\\\"Oletko vielä siellä?\\\"}]\",\"study.tip\":\"[\\\"Jokin jatkuu edelleen tai ei ole vielä ohi.\\\",\\\"Käytä sanaa noch, kun haluat ilmaista tämän merkityksen.\\\"]\",\"study.important\":\"[\\\"noch = vielä.\\\",\\\"Jokin jatkuu edelleen tai ei ole vielä ohi.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"jatkuu\\\",\\\"vielä\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vielä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vielä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vielä\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"vielä\\\"]},{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"merkityksen\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"vielä\\\"]},{\\\"purple\\\":[\\\"vielä\\\"]}]}\"}",
+    "owner_note": "FI noch / lv; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-048 rinda 35/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|normal|idx:452|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Normaali",
+    "owner_note": "FI normal / lv: individuāli pārbaudīta LRB-048 rinda 36/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|November|idx:453|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Marraskuu",
+    "owner_note": "FI November / lv: individuāli pārbaudīta LRB-048 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Null|idx:454|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nolla",
+    "owner_note": "FI Null / lv: individuāli pārbaudīta LRB-048 rinda 38/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Nummer|idx:455|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Numero",
+    "owner_note": "FI Nummer / lv: individuāli pārbaudīta LRB-048 rinda 39/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|nur|idx:456|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vain • Ainoastaan\",\"study.translation\":\"Vain • Ainoastaan\",\"study.explanation\":\"[\\\"Pääajatus: nur rajoittaa määrää, henkilöiden lukumäärää, valintaa tai mahdollisuuksia.\\\",\\\"nur tarkoittaa rajallista määrää tai valintaa.\\\",\\\"Se ilmaisee, kuinka paljon, mikä tarkalleen tai kuka ainoana.\\\",\\\"nur tarkoittaa vain tai ainoastaan, ei enempää; se rajoittaa määrää tai valintaa.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich habe nur zehn Euro.\\\",\\\"lv\\\":\\\"Minulla on vain kymmenen euroa.\\\"},{\\\"de\\\":\\\"Ich habe nur zehn Euro.\\\",\\\"lv\\\":\\\"Minulla on vain kymmenen euroa.\\\"},{\\\"de\\\":\\\"Nur du kannst mir helfen.\\\",\\\"lv\\\":\\\"Vain sinä voit auttaa minua.\\\"},{\\\"de\\\":\\\"Ich möchte nur Kaffee.\\\",\\\"lv\\\":\\\"Haluaisin vain kahvia.\\\"},{\\\"de\\\":\\\"Ich habe nur acht Euro.\\\",\\\"lv\\\":\\\"Minulla on vain kahdeksan euroa.\\\"}]\",\"study.tip\":\"[\\\"nur rajoittaa määrää, henkilöiden lukumäärää, valintaa tai mahdollisuuksia.\\\",\\\"Käytä sanaa nur, kun asiayhteys vastaa tätä merkitystä.\\\"]\",\"study.important\":\"[\\\"Suomen vain ei vastaa saksaksi aina sanaa nur.\\\",\\\"nur = vain tai ainoastaan.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"rajoittaa\\\",\\\"vain\\\",\\\"ainoastaan\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vain\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vain\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Vain\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vain\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vain\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"rajoittaa\\\"]},{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"merkitystä\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"vain\\\"]},{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"vain\\\",\\\"ainoastaan\\\"]}]}\"}",
+    "owner_note": "FI nur / lv; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-048 rinda 40/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|ob|idx:457|lv; study.explanation; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-ko/-kö (epäsuora kysymys)\",\"study.translation\":\"-ko/-kö (epäsuora kysymys)\",\"study.explanation\":\"[\\\"Pääajatus: ob aloittaa epäsuoran kyllä–ei-kysymyksen; suomessa sen merkitys ilmaistaan tavallisesti kysyvällä liitteellä -ko tai -kö.\\\",\\\"ob esiintyy esimerkiksi verbien fragen, wissen, sehen ja sagen jälkeen, kun kyse ei ole suorasta kysymyksestä.\\\",\\\"Suorassa saksankielisessä kysymyksessä ob-sanaa ei tavallisesti käytetä.\\\",\\\"A1-tasolla on tärkeää erottaa ob sanasta oder.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich weiß nicht, ob er kommt.\\\",\\\"lv\\\":\\\"En tiedä, tuleeko hän.\\\"},{\\\"de\\\":\\\"Sie fragt, ob du Zeit hast.\\\",\\\"lv\\\":\\\"Hän kysyy, onko sinulla aikaa.\\\"},{\\\"de\\\":\\\"Sag mir, ob das stimmt.\\\",\\\"lv\\\":\\\"Kerro minulle, pitääkö se paikkansa.\\\"},{\\\"de\\\":\\\"Kommst du heute oder morgen?\\\",\\\"lv\\\":\\\"Tuletko tänään vai huomenna?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"-ko/-kö epäsuorassa kysymyksessä\\\",\\\"example\\\":\\\"Ich weiß nicht, ob er kommt. – En tiedä, tuleeko hän.\\\"},{\\\"word\\\":\\\"oder\\\",\\\"meaning\\\":\\\"vai vaihtoehtojen välillä\\\",\\\"example\\\":\\\"Kaffee oder Tee? – Kahvia vai teetä?\\\"},{\\\"word\\\":\\\"wenn\\\",\\\"meaning\\\":\\\"jos • kun\\\",\\\"example\\\":\\\"Wenn du Zeit hast ... – Jos sinulla on aikaa ...\\\"},{\\\"word\\\":\\\"dass\\\",\\\"meaning\\\":\\\"että\\\",\\\"example\\\":\\\"Ich weiß, dass er kommt. – Tiedän, että hän tulee.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: epäsuora kyllä–ei-kysymys → ob; kahvi vai tee → oder.\\\"}\",\"study.important\":\"[\\\"ob ei ole tavallinen kahden vaihtoehdon välissä käytettävä vai-sana.\\\",\\\"Kaffee oder Tee? -kysymyksessä käytetään oder, ei ob.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"ob\\\",\\\"oder\\\"],\\\"purple\\\":[\\\"epäsuoran\\\",\\\"-ko\\\",\\\"-kö\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"tuleeko\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"onko\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pitääkö\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vai\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"ob\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"-ko/-kö epäsuorassa kysymyksessä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"oder\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vai vaihtoehtojen välillä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wenn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"jos • kun\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dass\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"että\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"ob\\\"],\\\"purple\\\":[\\\"epäsuora\\\"],\\\"red\\\":[\\\"oder\\\"],\\\"green\\\":[\\\"vai\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"ob\\\"],\\\"purple\\\":[\\\"vai-sana\\\"]},{\\\"red\\\":[\\\"oder\\\"],\\\"blue\\\":[\\\"ob\\\"]}]}\"}",
+    "owner_note": "FI ob / lv; study.explanation; study.important: individuāli pārbaudīta LRB-048 rinda 41/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|oben|idx:458|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ylhäällä",
+    "owner_note": "FI oben / lv: individuāli pārbaudīta LRB-048 rinda 42/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|oder|idx:459|lv; study.explanation; study.important|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Vai\",\"study.translation\":\"Vai\",\"study.explanation\":\"[\\\"Pääajatus: oder-sanaa käytetään, kun valitaan kahden tai useamman vaihtoehdon välillä.\\\",\\\"Suomeksi oder tarkoittaa tavallisesti vai.\\\",\\\"Se ei ole sama kuin ob, joka aloittaa epäsuoran kysymyksen.\\\",\\\"Puhekielessä oder voi esiintyä myös lauseen lopussa: Du kommst, oder?\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Kaffee oder Tee?\\\",\\\"lv\\\":\\\"Kahvia vai teetä?\\\"},{\\\"de\\\":\\\"Heute oder morgen?\\\",\\\"lv\\\":\\\"Tänään vai huomenna?\\\"},{\\\"de\\\":\\\"Willst du Pizza oder Salat?\\\",\\\"lv\\\":\\\"Haluatko pizzaa vai salaattia?\\\"},{\\\"de\\\":\\\"Du kommst, oder?\\\",\\\"lv\\\":\\\"Sinä tulet, vai mitä?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"oder\\\",\\\"meaning\\\":\\\"vai vaihtoehtojen välillä\\\",\\\"example\\\":\\\"Kaffee oder Tee? – Kahvia vai teetä?\\\"},{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"-ko/-kö epäsuorassa kysymyksessä\\\",\\\"example\\\":\\\"Ich weiß nicht, ob er kommt. – En tiedä, tuleeko hän.\\\"},{\\\"word\\\":\\\"und\\\",\\\"meaning\\\":\\\"ja\\\",\\\"example\\\":\\\"Kaffee und Kuchen. – Kahvia ja kakkua.\\\"},{\\\"word\\\":\\\"aber\\\",\\\"meaning\\\":\\\"mutta\\\",\\\"example\\\":\\\"Ich komme, aber später. – Tulen, mutta myöhemmin.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: vaihtoehtojen välinen valinta → oder.\\\"}\",\"study.important\":\"[\\\"oder ilmaisee valintaa: Kaffee oder Tee.\\\",\\\"Epäsuorassa kyllä–ei-kysymyksessä käytetään tavallisesti ob-sanaa.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"oder\\\",\\\"ob\\\"],\\\"purple\\\":[\\\"vai\\\",\\\"valitaan\\\",\\\"epäsuoran\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vai\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vai\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vai\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"vai mitä\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"oder\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vai vaihtoehtojen välillä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ob\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"-ko/-kö epäsuorassa kysymyksessä\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"und\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ja\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"aber\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mutta\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"oder\\\"],\\\"purple\\\":[\\\"valinta\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"oder\\\"],\\\"purple\\\":[\\\"valintaa\\\"]},{\\\"red\\\":[\\\"ob\\\"],\\\"purple\\\":[\\\"Epäsuorassa\\\"]}]}\"}",
+    "owner_note": "FI oder / lv; study.explanation; study.important: individuāli pārbaudīta LRB-048 rinda 43/50; precīzā pilnās gala kartītes vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|öffnen|idx:460|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Avata",
+    "owner_note": "FI öffnen / lv: individuāli pārbaudīta LRB-048 rinda 44/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|oft|idx:461|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Usein",
+    "owner_note": "FI oft / lv: individuāli pārbaudīta LRB-048 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|ohne|idx:462|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ilman",
+    "owner_note": "FI ohne / lv: individuāli pārbaudīta LRB-048 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Ohr|idx:463|lv|TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Korva",
+    "owner_note": "FI Ohr / lv: individuāli pārbaudīta LRB-048 rinda 47/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Oktober|idx:464|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lokakuu",
+    "owner_note": "FI Oktober / lv: individuāli pārbaudīta LRB-048 rinda 48/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Onkel|idx:465|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Setä • Eno",
+    "owner_note": "FI Onkel / lv: individuāli pārbaudīta LRB-048 rinda 49/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Orange|idx:466|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Appelsiini",
+    "owner_note": "FI Orange / lv: individuāli pārbaudīta LRB-048 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  }
+}
