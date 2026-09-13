@@ -1,0 +1,302 @@
+{
+  "g2/a1/ru|a1-natuerlich|a1.card.a1-natuerlich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Конечно • Естественный",
+    "owner_note": "Для немецкого natürlich нужны значения «конечно» и «естественный»; «натуральный» здесь менее точен как второй перевод."
+  },
+  "g2/a1/ru|a1-natuerlich|a1.card.a1-natuerlich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Конечно • Естественный",
+    "owner_note": "В немецком natürlich сочетаются значения «конечно» и «естественный», поэтому второй перевод исправлен с «натуральный»."
+  },
+  "g2/a1/ru|a1-nehmen|a1.card.a1-nehmen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Брать • Взять",
+    "owner_note": "Немецкий глагол nehmen передаётся русскими видами «брать» и «взять», а не повтором «взять»."
+  },
+  "g2/a1/ru|a1-nehmen|a1.card.a1-nehmen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Брать • Взять",
+    "owner_note": "Для nehmen нужны несовершенный и совершенный русские эквиваленты «брать • взять»; текущий дубликат не различает вид."
+  },
+  "g2/a1/ru|a1-neu|a1.card.a1-neu.study.explanation[5]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Противоположностью является alt (старый) • Существительное das Neue означает что-то новое.",
+    "owner_note": "В пояснении к neu слово das Neue означает «что-то новое» или «новизну», а не прилагательное «новый»."
+  },
+  "g2/a1/ru|a1-nur-study|a1.card.a1-nur-study.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Только • Лишь",
+    "owner_note": "Немецкое nur имеет близкие русские варианты «только» и «лишь»; повтор «только» не даёт второго перевода."
+  },
+  "g2/a1/ru|a1-nur-study|a1.card.a1-nur-study.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Только • Лишь",
+    "owner_note": "Для nur естественная русская пара переводов — «только • лишь», а не два одинаковых варианта."
+  },
+  "g2/a1/ru|a1-oder|a1.card.a1-oder.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Или • Либо",
+    "owner_note": "Немецкий союз oder переводится как «или» и «либо»; второй вариант должен быть отличным синонимом."
+  },
+  "g2/a1/ru|a1-oder|a1.card.a1-oder.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Или • Либо",
+    "owner_note": "Для oder нужны русские варианты «или • либо», поскольку повтор «или» не отражает многовариантный перевод."
+  },
+  "g2/a1/ru|a1-passen|a1.card.a1-passen.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Подходит • Идёт",
+    "owner_note": "Немецкое passen означает «подходить» и в значении соответствия человеку или одежде — «идти»; повтор «подходит» избыточен."
+  },
+  "g2/a1/ru|a1-passen|a1.card.a1-passen.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Подходить • Идти",
+    "owner_note": "Для немецкого слова «passen» нужны разные русские значения: «подходить» в значении соответствия и «идти» в значении подходить по внешнему виду."
+  },
+  "g2/a1/ru|a1-probieren|a1.card.a1-probieren.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Пробовать • Пробовать на вкус",
+    "owner_note": "У немецкого «probieren» различаются общее значение «пробовать» и значение «пробовать на вкус», поэтому повтор «Попробовать» нужно устранить."
+  },
+  "g2/a1/ru|a1-probieren|a1.card.a1-probieren.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Пробовать • Пробовать на вкус",
+    "owner_note": "Для «probieren» требуется разграничить значение попытки и значение дегустации; «Пробовать на вкус» точнее передаёт второе значение."
+  },
+  "g2/a1/ru|a1-sehen|a1.card.a1-sehen.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Примеры с немецкими глаголами «sehen» и «schauen» естественно переведены как «Я вижу тебя» и «Я смотрю фильм»; текущий русский текст корректен."
+  },
+  "g2/a1/ru|a1-seite|a1.card.a1-seite.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Немецкое слово «Seite» корректно передано двумя русскими значениями: «страница» и «сторона»."
+  },
+  "g2/a1/ru|a1-seite|a1.card.a1-seite.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для «Seite» варианты «Страница» и «Сторона» семантически точны и грамматически естественны в русском."
+  },
+  "g2/a1/ru|a1-sich|a1.card.a1-sich.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Себя • Себе",
+    "owner_note": "Немецкое возвратное местоимение «sich» передаётся как «себя» в винительном и «себе» в дательном; «Для себя» не является соответствующей формой местоимения."
+  },
+  "g2/a1/ru|a1-sich|a1.card.a1-sich.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Себя • Себе",
+    "owner_note": "Для «sich» нужна пара русских форм «себя» и «себе»; замена «Для себя» на «Себе» устраняет неточный предложный вариант."
+  },
+  "g2/a1/ru|a1-sicher|a1.card.a1-sicher.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Немецкое «sicher» корректно передано в двух употреблениях: «Безопасно» означает отсутствие опасности, а «Конечно» — уверенное подтверждение."
+  },
+  "g2/a1/ru|a1-sicher|a1.card.a1-sicher.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для слова «sicher» текущая пара «Безопасно • Конечно» естественна по-русски и соответствует значениям безопасности и уверенности."
+  },
+  "g2/a1/ru|a1-ueber|a1.card.a1-ueber.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Над • О",
+    "owner_note": "Для немецкого предлога «über» нужны естественные русские значения «над» и «о», а «более» здесь не является переводом предлога."
+  },
+  "g2/a1/ru|a1-ueber|a1.card.a1-ueber.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Над • О",
+    "owner_note": "В переводе немецкого «über» исправлены значения: предлог означает «над» или «о», но не «более»."
+  },
+  "g2/a1/ru|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Немецкое существительное «Uhr» корректно передано русским словом «часы»; форма естественна для обозначения часов или времени."
+  },
+  "g2/a1/ru|a1-um|a1.card.a1-um.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Около • В",
+    "owner_note": "Для немецкого «um» нужны значения «около» и «в» при указании времени; сочетание «около часов» грамматически некорректно."
+  },
+  "g2/a1/ru|a1-um|a1.card.a1-um.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Около • В",
+    "owner_note": "Перевод немецкого «um» исправлен на естественные русские варианты для приблизительного времени и точного времени: «около» и «в»."
+  },
+  "g2/a1/ru|a1-verstehen|a1.card.a1-verstehen.study.explanation[2]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "В латышском здесь обычно не нужны «уметь» или «мочь» • Чаще для этого используется können",
+    "owner_note": "В пояснении к немецкому «verstehen» удалены ошибочные русско-латышские искажения; «уметь» и «мочь» относятся к können, а не к значению «понимать»."
+  },
+  "g2/a1/ru|a1-vor|a1.card.a1-vor.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Немецкое «vor» корректно передано вариантами «до» для временного значения и «перед» для пространственного значения."
+  },
+  "g2/a1/ru|a1-vor|a1.card.a1-vor.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Оба примера с немецким «vor» переведены естественно: «vor dem Essen» — «перед едой», «vor dem Haus» — «перед домом»."
+  },
+  "g2/a1/ru|a1-vor|a1.card.a1-vor.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для немецкого «vor» пара «до • перед» корректно отражает его временное и пространственное употребление."
+  },
+  "g2/a1/ru|a1-was|a1.card.a1-was.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Что • Что именно",
+    "owner_note": "Немецкое вопросительное слово «was» означает «что»; вариант «кто» относится к wer и должен быть удалён."
+  },
+  "g2/a1/ru|a1-was|a1.card.a1-was.study.tip[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Само слово «was» не изменяется — в немецком оно всегда остаётся «was» • По-русски обычно переводите его как «что», выбирая нужную форму по роли в предложении.",
+    "owner_note": "Для DE «was» исправлено ошибочное «было» и уточнено русское значение «что»."
+  },
+  "g2/a1/ru|a1-was|a1.card.a1-was.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Что",
+    "owner_note": "DE «was» означает «что», а не «кто»; удалён неверный первый вариант перевода."
+  },
+  "g2/a1/ru|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Оба варианта «если» и «когда» корректно передают разные значения DE «wenn»."
+  },
+  "g2/a1/ru|a1-wenn|a1.card.a1-wenn.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Переводы «если» и «когда» естественно соответствуют двум употреблениям DE «wenn»."
+  },
+  "g2/a1/ru|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Кто",
+    "owner_note": "DE «wer» имеет единственный нормативный русский эквивалент «кто»; дублирование в карточке устранено."
+  },
+  "g2/a1/ru|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Кто",
+    "owner_note": "Для DE «wer» нужен один русский перевод «кто», поэтому повторяющийся вариант удалён."
+  },
+  "g2/a1/ru|a1-werden|a1.card.a1-werden.study.important[1]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "В примере с DE «werden» перевод «Я устаю» естественно передаёт значение становления, а «Я устал» корректно передаёт состояние с «bin müde»."
+  },
+  "g2/a1/ru|a1-wie|a1.card.a1-wie.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Для DE «wie» варианты «как» и «сколько» корректно отражают его основные значения в карточке."
+  },
+  "g2/a1/ru|a1-wie|a1.card.a1-wie.study.explanation[3]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Объяснение сочетаний с DE «wie» семантически верно: «wie viel(e)» — «сколько», «wie alt» — «сколько лет», «wie lange» — «как долго»."
+  },
+  "g2/a1/ru|a1-wie|a1.card.a1-wie.study.important[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Переводы сочетаний с DE «wie» корректны и естественны: количество, возраст и длительность переданы без смысловых ошибок."
+  },
+  "g2/a1/ru|a1-wie|a1.card.a1-wie.study.tip[0]|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Wie само по себе = как (способ) • Wie + прилагательное (viel/alt/lange) = насколько (степень).",
+    "owner_note": "Для немецкого wie исправлено ошибочное «путь», а сочетание wie с viel, alt и lange передано как вопрос о степени или количестве."
+  },
+  "g2/a1/ru|a1-wie|a1.card.a1-wie.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Перевод немецкого wie как «Как • Сколько» корректно отражает его основные значения в данном учебном материале."
+  },
+  "g2/a1/ru|a1-zu|a1.card.a1-zu.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "К • У",
+    "owner_note": "Для немецкого zu исправлено ошибочное «В»: в указанных значениях русские соответствия — «к» и «у»."
+  },
+  "g2/a1/ru|a1-zu|a1.card.a1-zu.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "К • У",
+    "owner_note": "В переводе немецкого zu заменено неверное «В» на естественные русские соответствия «к» и «у»."
+  },
+  "g2/a1/ru|a1-zum|a1.card.a1-zum.native|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "К • У",
+    "owner_note": "Для формы немецкого zum исправлено неверное «В»: по смыслу здесь нужны русские варианты «к» и «у»."
+  },
+  "g2/a1/ru|a1-zum|a1.card.a1-zum.study.translation|MULTI_TRANSLATION|deterministic/multi-translation": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "К • У",
+    "owner_note": "Перевод немецкого zum приведён к естественным русским соответствиям «к» и «у» вместо ошибочного «В»."
+  },
+  "g2/a1/ru|also|idx:26|lv; study.translation; study.examples.lv; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Итак\",\"study.translation\":\"Итак\",\"study.examples.lv\":null,\"study.important\":\"[\\\"Показывает вывод: следующая мысль вытекает из сказанного выше.\\\",\\\"Немецкое also означает «итак», «значит» или «следовательно»; это не английское so и не немецкое deshalb.\\\"]\"}",
+    "owner_note": "Для немецкого also заменено менее точное «Поэтому» на «Итак», а пояснение очищено от смешения с английским so и словом deshalb."
+  },
+  "g2/a1/ru|Appetit|idx:689|lv; study.translation; study.explanation; study.tip; study.important; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Аппетит\",\"study.translation\":\"Аппетит\",\"study.explanation\":\"[\\\"Основное значение: желание есть или чувство голода.\\\",\\\"Der Appetit означает аппетит, желание есть.\\\",\\\"Обычно это существительное употребляется в единственном числе.\\\",\\\"На уровне A1 оно часто встречается в выражении Guten Appetit! — «Приятного аппетита!».\\\"]\",\"study.tip\":\"[\\\"Der Appetit = аппетит.\\\",\\\"Используйте der Appetit, когда говорите об аппетите или желании есть.\\\"]\",\"study.important\":\"[\\\"Der Appetit обычно употребляется в единственном числе.\\\",\\\"Неправильно: die Appetite → правильно: der Appetit.\\\",\\\"Неправильно: Ich bin Appetit. → правильно: Ich habe Appetit.\\\",\\\"Запомните: der Appetit.\\\"]\",\"study.examples[].lv\":null}",
+    "owner_note": "Материал для немецкого Appetit переписан: устранены неграмотные формулировки, ложное утверждение о значении и смешение русского с немецким; сохранено пояснение рода и употребления."
+  },
+  "g2/a1/ru|auch|idx:48|lv; study.translation; study.examples.lv; study.explanation|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Все значения для немецкого auch уже написаны по-русски и корректно передают основное значение «тоже» или «также»."
+  },
+  "g2/a1/ru|auf|idx:49|lv; study.translation; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"На\",\"study.translation\":\"На\",\"study.comparison\":\"[{\\\"word\\\":\\\"auf\\\",\\\"meaning\\\":\\\"На (на поверхность или вверх)\\\",\\\"example\\\":\\\"Ich stelle das Glas auf den Tisch. – Я ставлю стакан на стол.\\\"},{\\\"word\\\":\\\"an\\\",\\\"meaning\\\":\\\"На (вертикальную поверхность)\\\",\\\"example\\\":\\\"Ich hänge das Bild an die Wand. – Я вешаю картину на стену.\\\"},{\\\"word\\\":\\\"in\\\",\\\"meaning\\\":\\\"Внутрь или в\\\",\\\"example\\\":\\\"Ich lege das Buch in die Tasche. – Я кладу книгу в сумку.\\\"}]\"}",
+    "owner_note": "Для немецкого auf исправлено значение «К» на «На», а сравнительная таблица очищена от латышского фрагмента и приведена к грамматичным русским примерам."
+  }
+}

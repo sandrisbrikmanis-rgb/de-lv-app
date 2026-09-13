@@ -1,0 +1,25 @@
+{
+  "batch_id": "LRB-085",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T15:25:00.000Z",
+  "linguisticVerdict": "LRB_085_FULL_50_33_17_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 33,
+  "nelabot": 17,
+  "pending": 0,
+  "antiBulkPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "ru": 50
+  },
+  "unique_cards": 27,
+  "scope": "natürlich..auf (50 RU) — wrong-language, semantic, grammar, composite-scope, translation fixes",
+  "productionSource": "data/ru/a1.js (read-only review)",
+  "lunaAuditScript": "scripts/temp-audit-lrb085-luna.js",
+  "lunaModel": "gpt-5.6-luna",
+  "lunaTokens": 17415,
+  "note": "OWNER_AUTHORIZATION_STATUS=APPROVED. 33 LABOT / 17 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged."
+}
