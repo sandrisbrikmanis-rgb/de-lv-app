@@ -1,0 +1,3218 @@
+# G2/A1 LRB LRB-086 — OWNER VIEW
+
+**Batch:** LRB-086
+**Rows:** 50/50
+**Languages:** RU 50, SK 0
+**Direction:** DESCENDING
+**Reserved for:** PC2
+**OWNER_AUTHORIZATION_STATUS:** APPROVED
+**Linguistic reviewer:** gpt-5.6-luna
+**Generated:** 2026-09-13T15:13:19.365Z
+**Source commit:** `9e0eb0586143f143e911cba3082e71cf05b76173`
+**Branch:** `cursor/lrb-086-owner-authorization-ed35`
+**Overrides SHA256:** `86b17df481bc34f79fe355d7246c1c2c793c86d37b5924fc6edbad0a7956c7e3`
+**Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
+
+**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
+
+## Finding 1
+
+**Audit ID:** `LRB086-0001`
+**Finding Stable ID:** `g2/a1/ru|aufs|idx:60|lv; study.translation; study.explanation; study.important; study.examples.lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `aufs|idx:60`
+**Field / path:** `lv; study.translation; study.explanation; study.important; study.examples.lv`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"К *на*куда?","study.translation":"К *на*куда?","study.explanation":"[\"Aufs — аббревиатура предлога auf и артикля das.\",\"Полная форма: auf das (где?).\",\"Употребляется, когда действие указывает направление к определенной вещи или поверхности – отвечает на вопрос куда?\",\"Часто употребляется при движении: залезть, сесть, положить, подъехать к чему-то.\",\"В разговорной и повседневной речи почти всегда вместо полного auf das употребляется aufs.\"]","study.important":"[\"Aufs = auf das, только с существительным любого рода, где? в перегибе.\",\"Ответить куда? — перемещение к определенному месту или поверхности.\",\"На горизонтальной поверхности вместо ауфс часто используют ауф ден.\",\"Не путать с «in» (на стене) или «ins» (внутри комнаты).\"]","study.examples.lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"На (куда?)","study":{"id":"a1-aufs","layout":"standardStudy","translation":"На (куда?)","explanation":["Основная идея: aufs — сокращение предлога auf и артикля das.","Полная форма — auf das.","Употребляется при направлении на предмет или поверхность и отвечает на вопрос «куда?».","Часто используется с глаголами движения.","Сокращение употребляется с существительными среднего рода в винительном падеже."],"examples":[{"de":"Ich gehe aufs Dach.","lv":"Я иду на крышу."},{"de":"Sie setzt sich aufs Sofa.","lv":"Она садится на диван."},{"de":"Wir fahren aufs Land.","lv":"Мы едем за город."},{"de":"Stell die Tasche aufs Bett.","lv":"Положи сумку на кровать."},{"de":"Er springt aufs Pferd.","lv":"Он запрыгивает на лошадь."},{"de":"Leg das Buch aufs Regal.","lv":"Положи книгу на полку."},{"de":"Komm schnell aufs Boot!","lv":"Быстро садись в лодку!"},{"de":"Wir gehen aufs Fest.","lv":"Мы идём на праздник."}],"comparison":[{"word":"aufs","meaning":"На конкретный предмет, винительный падеж","example":"aufs Dach – на крышу"},{"word":"auf","meaning":"На поверхность или вверх","example":"auf den Tisch – на стол"},{"word":"an","meaning":"К вертикальной поверхности","example":"an die Wand – к стене"},{"word":"ins","meaning":"Внутрь помещения","example":"ins Zimmer – в комнату"},{"word":"zum","meaning":"К человеку или месту","example":"zum Arzt – к врачу"}],"tip":["Запомните: auf + das → aufs.","Aufs отвечает на вопрос «куда?» и обозначает направление."],"important":["Aufs = auf das.","Это форма винительного падежа среднего рода при направлении.","Для мужского рода употребляется auf den.","Не путайте aufs с im или ins."]}}
+**Note:** Pilna RU kartīte «aufs»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "aufs",
+  "lv": "На (куда?)",
+  "level": "A1",
+  "study": {
+    "id": "a1-aufs",
+    "layout": "standardStudy",
+    "translation": "На (куда?)",
+    "explanation": [
+      "Основная идея: aufs — сокращение предлога auf и артикля das.",
+      "Полная форма — auf das.",
+      "Употребляется при направлении на предмет или поверхность и отвечает на вопрос «куда?».",
+      "Часто используется с глаголами движения.",
+      "Сокращение употребляется с существительными среднего рода в винительном падеже."
+    ],
+    "examples": [
+      {
+        "de": "Ich gehe aufs Dach.",
+        "lv": "Я иду на крышу."
+      },
+      {
+        "de": "Sie setzt sich aufs Sofa.",
+        "lv": "Она садится на диван."
+      },
+      {
+        "de": "Wir fahren aufs Land.",
+        "lv": "Мы едем за город."
+      },
+      {
+        "de": "Stell die Tasche aufs Bett.",
+        "lv": "Положи сумку на кровать."
+      },
+      {
+        "de": "Er springt aufs Pferd.",
+        "lv": "Он запрыгивает на лошадь."
+      },
+      {
+        "de": "Leg das Buch aufs Regal.",
+        "lv": "Положи книгу на полку."
+      },
+      {
+        "de": "Komm schnell aufs Boot!",
+        "lv": "Быстро садись в лодку!"
+      },
+      {
+        "de": "Wir gehen aufs Fest.",
+        "lv": "Мы идём на праздник."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "aufs",
+        "meaning": "На конкретный предмет, винительный падеж",
+        "example": "aufs Dach – на крышу"
+      },
+      {
+        "word": "auf",
+        "meaning": "На поверхность или вверх",
+        "example": "auf den Tisch – на стол"
+      },
+      {
+        "word": "an",
+        "meaning": "К вертикальной поверхности",
+        "example": "an die Wand – к стене"
+      },
+      {
+        "word": "ins",
+        "meaning": "Внутрь помещения",
+        "example": "ins Zimmer – в комнату"
+      },
+      {
+        "word": "zum",
+        "meaning": "К человеку или месту",
+        "example": "zum Arzt – к врачу"
+      }
+    ],
+    "tip": [
+      "Запомните: auf + das → aufs.",
+      "Aufs отвечает на вопрос «куда?» и обозначает направление."
+    ],
+    "important": [
+      "Aufs = auf das.",
+      "Это форма винительного падежа среднего рода при направлении.",
+      "Для мужского рода употребляется auf den.",
+      "Не путайте aufs с im или ins."
+    ]
+  },
+  "index": 60
+}
+```
+
+---
+
+## Finding 2
+
+**Audit ID:** `LRB086-0002`
+**Finding Stable ID:** `g2/a1/ru|aus|idx:57|lv; study.translation; study.examples.lv; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `aus|idx:57`
+**Field / path:** `lv; study.translation; study.examples.lv; study.comparison`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Из • Из","study.translation":"Из • Из","study.examples.lv":null,"study.comparison":"[{\"word\":\"aus\",\"meaning\":\"Изнутри, из\",\"example\":\"aus dem Haus – Из дома\"},{\"word\":\"von\",\"meaning\":\"От человека, места, поверхности\",\"example\":\"от моего друга – no mana drauga\"},{\"word\":\"ab\",\"meaning\":\"Начиная с момента или времени\",\"example\":\"ab Montag – С понедельника\"}]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Из","study":{"id":"a1-aus","layout":"standardStudy","translation":"Из","explanation":"Основная идея: aus указывает на движение изнутри наружу или на происхождение.","examples":[{"de":"Ich komme aus Deutschland.","lv":"Я из Германии."},{"de":"Er geht aus dem Haus.","lv":"Он выходит из дома."},{"de":"Ich nehme das Buch aus der Tasche.","lv":"Я достаю книгу из сумки."}],"comparison":[{"word":"aus","meaning":"Изнутри, из","example":"aus dem Haus – из дома"},{"word":"von","meaning":"От человека, места или поверхности","example":"von meinem Freund – от моего друга"},{"word":"ab","meaning":"Начиная с момента или времени","example":"ab Montag – с понедельника"}],"tip":{"text":"Запомните: движение изнутри наружу → aus."},"important":["Aus обычно указывает на движение изнутри или на происхождение.","Для начальной точки во времени или месте часто употребляется ab."]}}
+**Note:** Pilna RU kartīte «aus»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "aus",
+  "lv": "Из",
+  "level": "A1",
+  "study": {
+    "id": "a1-aus",
+    "layout": "standardStudy",
+    "translation": "Из",
+    "explanation": "Основная идея: aus указывает на движение изнутри наружу или на происхождение.",
+    "examples": [
+      {
+        "de": "Ich komme aus Deutschland.",
+        "lv": "Я из Германии."
+      },
+      {
+        "de": "Er geht aus dem Haus.",
+        "lv": "Он выходит из дома."
+      },
+      {
+        "de": "Ich nehme das Buch aus der Tasche.",
+        "lv": "Я достаю книгу из сумки."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "aus",
+        "meaning": "Изнутри, из",
+        "example": "aus dem Haus – из дома"
+      },
+      {
+        "word": "von",
+        "meaning": "От человека, места или поверхности",
+        "example": "von meinem Freund – от моего друга"
+      },
+      {
+        "word": "ab",
+        "meaning": "Начиная с момента или времени",
+        "example": "ab Montag – с понедельника"
+      }
+    ],
+    "tip": {
+      "text": "Запомните: движение изнутри наружу → aus."
+    },
+    "important": [
+      "Aus обычно указывает на движение изнутри или на происхождение.",
+      "Для начальной точки во времени или месте часто употребляется ab."
+    ]
+  },
+  "index": 57
+}
+```
+
+---
+
+## Finding 3
+
+**Audit ID:** `LRB086-0003`
+**Finding Stable ID:** `g2/a1/ru|bitte|idx:93|lv; study.examples; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `bitte|idx:93`
+**Field / path:** `lv; study.examples; study.explanation`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Пожалуйста","study.examples":"[{\"de\":\"Eine Tasse Kaffee, bitte.\",\"lv\":\"Пожалуйста!\"},{\"de\":\"Komm bitte herein.\",\"lv\":\"Пожалуйста!\"},{\"de\":\"Bitte schön!\",\"lv\":\"Одну чашку кофе, пожалуйста.\"},{\"de\":\"Kann ich bitte fragen?\",\"lv\":\"Могу я спросить, пожалуйста\"},{\"de\":\"Ich habe eine Bitte.\",\"lv\":\"У меня есть одна просьба.\"},{\"de\":\"Die Bitte ist wichtig.\",\"lv\":\"Запрос важен.\"}]","study.explanation":"[\"Основная идея: Вежливое слово в нижнем регистре. Раньше было вежливо - пожалуйста.\",\"Bitte в основном означает: вежливость.\",\"Часто описывает: вежливое слово.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Пожалуйста","study":{"id":"a1-bitte","layout":"standardStudy","translation":"Пожалуйста","explanation":["Основная идея: bitte с маленькой буквы — вежливое слово со значением «пожалуйста».","Его употребляют в просьбах, заказах и вежливых ответах.","Существительное die Bitte с большой буквы означает «просьба»."],"examples":[{"de":"Eine Tasse Kaffee, bitte.","lv":"Одну чашку кофе, пожалуйста."},{"de":"Komm bitte herein.","lv":"Войди, пожалуйста."},{"de":"Bitte schön!","lv":"Пожалуйста!"}],"comparison":[{"word":"bitte","meaning":"Пожалуйста","example":"Komm bitte herein. – Войди, пожалуйста."},{"word":"die Bitte","meaning":"Просьба","example":"Ich habe eine Bitte. – У меня есть просьба."}],"tip":{"text":"Запомните: bitte — «пожалуйста»; die Bitte — «просьба»."},"important":["Bitte с маленькой буквы — вежливое слово.","Die Bitte — существительное женского рода.","Правильно: Bitte schön!, а не Die Bitte schön!"]}}
+**Note:** Pilna RU kartīte «bitte»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "bitte",
+  "lv": "Пожалуйста",
+  "level": "A1",
+  "study": {
+    "id": "a1-bitte",
+    "layout": "standardStudy",
+    "translation": "Пожалуйста",
+    "explanation": [
+      "Основная идея: bitte с маленькой буквы — вежливое слово со значением «пожалуйста».",
+      "Его употребляют в просьбах, заказах и вежливых ответах.",
+      "Существительное die Bitte с большой буквы означает «просьба»."
+    ],
+    "examples": [
+      {
+        "de": "Eine Tasse Kaffee, bitte.",
+        "lv": "Одну чашку кофе, пожалуйста."
+      },
+      {
+        "de": "Komm bitte herein.",
+        "lv": "Войди, пожалуйста."
+      },
+      {
+        "de": "Bitte schön!",
+        "lv": "Пожалуйста!"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "bitte",
+        "meaning": "Пожалуйста",
+        "example": "Komm bitte herein. – Войди, пожалуйста."
+      },
+      {
+        "word": "die Bitte",
+        "meaning": "Просьба",
+        "example": "Ich habe eine Bitte. – У меня есть просьба."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: bitte — «пожалуйста»; die Bitte — «просьба»."
+    },
+    "important": [
+      "Bitte с маленькой буквы — вежливое слово.",
+      "Die Bitte — существительное женского рода.",
+      "Правильно: Bitte schön!, а не Die Bitte schön!"
+    ]
+  },
+  "index": 93
+}
+```
+
+---
+
+## Finding 4
+
+**Audit ID:** `LRB086-0004`
+**Finding Stable ID:** `g2/a1/ru|Bitte|idx:94|lv; study.examples; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Bitte|idx:94`
+**Field / path:** `lv; study.examples; study.explanation`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Запрос","study.examples":"[{\"de\":\"Ich habe eine Bitte.\",\"lv\":\"У меня есть одна просьба.\"},{\"de\":\"Er erfüllt meine Bitte.\",\"lv\":\"Пожалуйста!\"},{\"de\":\"Sie hat zwei Bitten.\",\"lv\":\"Одну чашку кофе, пожалуйста.\"},{\"de\":\"Kann ich bitte fragen?\",\"lv\":\"Могу я спросить, пожалуйста\"},{\"de\":\"Ich habe eine Bitte.\",\"lv\":\"У меня есть одна просьба.\"},{\"de\":\"Die Bitte ist wichtig.\",\"lv\":\"Запрос важен.\"}]","study.explanation":"[\"Основная идея: существительное с артиклем die и заглавной буквой. Конкретный запрос или запрос.\",\"Die Bitte в основном означает: вежливость.\",\"Часто описывает: вежливое слово.\",\"Die Bitte в основном означает: запрос/просьба.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Просьба","study":{"id":"a1-bitte-study","layout":"standardStudy","translation":"Просьба","explanation":["Основная идея: die Bitte — существительное со значением «просьба».","Оно пишется с большой буквы и употребляется с артиклем die.","Множественное число — die Bitten.","Bitte с маленькой буквы означает «пожалуйста»."],"examples":[{"de":"Ich habe eine Bitte.","lv":"У меня есть просьба."},{"de":"Er erfüllt meine Bitte.","lv":"Он выполняет мою просьбу."},{"de":"Sie hat zwei Bitten.","lv":"У неё две просьбы."}],"comparison":[{"word":"die Bitte","meaning":"Просьба","example":"Ich habe eine Bitte. – У меня есть просьба."},{"word":"bitte","meaning":"Пожалуйста","example":"Komm bitte herein. – Войди, пожалуйста."}],"tip":{"text":"Запомните: die Bitte — просьба; bitte — пожалуйста."},"important":["Артикль: die Bitte.","Множественное число: die Bitten.","Существительное пишется с большой буквы."]}}
+**Note:** Pilna RU kartīte «Bitte»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Bitte",
+  "de_article": "die",
+  "de_plural": "die Bitten",
+  "lv": "Просьба",
+  "level": "A1",
+  "study": {
+    "id": "a1-bitte-study",
+    "layout": "standardStudy",
+    "translation": "Просьба",
+    "explanation": [
+      "Основная идея: die Bitte — существительное со значением «просьба».",
+      "Оно пишется с большой буквы и употребляется с артиклем die.",
+      "Множественное число — die Bitten.",
+      "Bitte с маленькой буквы означает «пожалуйста»."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe eine Bitte.",
+        "lv": "У меня есть просьба."
+      },
+      {
+        "de": "Er erfüllt meine Bitte.",
+        "lv": "Он выполняет мою просьбу."
+      },
+      {
+        "de": "Sie hat zwei Bitten.",
+        "lv": "У неё две просьбы."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "die Bitte",
+        "meaning": "Просьба",
+        "example": "Ich habe eine Bitte. – У меня есть просьба."
+      },
+      {
+        "word": "bitte",
+        "meaning": "Пожалуйста",
+        "example": "Komm bitte herein. – Войди, пожалуйста."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: die Bitte — просьба; bitte — пожалуйста."
+    },
+    "important": [
+      "Артикль: die Bitte.",
+      "Множественное число: die Bitten.",
+      "Существительное пишется с большой буквы."
+    ]
+  },
+  "index": 94
+}
+```
+
+---
+
+## Finding 5
+
+**Audit ID:** `LRB086-0005`
+**Finding Stable ID:** `g2/a1/ru|bitten|idx:98|lv|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `bitten|idx:98`
+**Field / path:** `lv`
+**Severity:** MEDIUM
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** Спросить
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Просить"}
+**Note:** Pilna RU kartīte «bitten»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "bitten",
+  "lv": "Просить",
+  "level": "A1",
+  "index": 98
+}
+```
+
+---
+
+## Finding 6
+
+**Audit ID:** `LRB086-0006`
+**Finding Stable ID:** `g2/a1/ru|bleiben|idx:101|lv; study.examples; study.explanation; study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `bleiben|idx:101`
+**Field / path:** `lv; study.examples; study.explanation; study.comparison`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Оставаться","study.examples":"[{\"de\":\"Ich bleibe zu Hause.\",\"lv\":\"Я остаюсь дома\"},{\"de\":\"Bleib hier!\",\"lv\":\"Оставайся здесь!\"},{\"de\":\"Wir bleiben noch eine Stunde.\",\"lv\":\"Мы останемся еще на час.\"},{\"de\":\"Ich gehe nach Hause.\",\"lv\":\"Я иду домой\"}]","study.explanation":"[\"Основная идея: bleiben означает остаться.\",\"Bleiben употребляется, когда человек или вещь не уходит и остается в том же месте или состоянии.\",\"Когда дело доходит до ухода, это противоположность геен и фарен.\",\"Очень распространенная фраза — Ich bleibe zu Hause.\"]","study.comparison":"[{\"word\":\"bleiben\",\"meaning\":\"Оставаться\",\"example\":\"Я остаюсь здесь.\"},{\"word\":\"gehen\",\"meaning\":\"Идти/уходить пешком\",\"example\":\"Я иду домой.\"},{\"word\":\"fahren\",\"meaning\":\"Ехать/ехать на транспорте\",\"example\":\"Я еду домой.\"},{\"word\":\"warten\",\"meaning\":\"Ждать\",\"example\":\"Я жду здесь.\"}]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Оставаться","study":{"id":"a1-bleiben","layout":"standardStudy","translation":"Оставаться","explanation":["Основная идея: bleiben означает «оставаться».","Bleiben употребляется, когда человек или предмет не уходит и остаётся на месте или в том же состоянии.","При разговоре об уходе это противоположность gehen и fahren.","Частая фраза: Ich bleibe zu Hause."],"examples":[{"de":"Ich bleibe zu Hause.","lv":"Я остаюсь дома."},{"de":"Bleib hier!","lv":"Останься здесь!"},{"de":"Wir bleiben noch eine Stunde.","lv":"Мы останемся ещё на час."},{"de":"Ich gehe nach Hause.","lv":"Я иду домой."}],"comparison":[{"word":"bleiben","meaning":"Оставаться","example":"Ich bleibe hier. – Я остаюсь здесь."},{"word":"gehen","meaning":"Идти • Уходить пешком","example":"Ich gehe nach Hause. – Я иду домой."},{"word":"fahren","meaning":"Ехать на транспорте","example":"Ich fahre nach Hause. – Я еду домой."},{"word":"warten","meaning":"Ждать","example":"Ich warte hier. – Я жду здесь."}],"tip":{"text":"Запомните: не уходить → bleiben; уходить пешком → gehen."},"important":["Bleiben означает «оставаться», а не «ждать».","Ich bleibe hier = я остаюсь здесь; Ich warte hier = я жду здесь."]}}
+**Note:** Pilna RU kartīte «bleiben»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "bleiben",
+  "lv": "Оставаться",
+  "level": "A1",
+  "study": {
+    "id": "a1-bleiben",
+    "layout": "standardStudy",
+    "translation": "Оставаться",
+    "explanation": [
+      "Основная идея: bleiben означает «оставаться».",
+      "Bleiben употребляется, когда человек или предмет не уходит и остаётся на месте или в том же состоянии.",
+      "При разговоре об уходе это противоположность gehen и fahren.",
+      "Частая фраза: Ich bleibe zu Hause."
+    ],
+    "examples": [
+      {
+        "de": "Ich bleibe zu Hause.",
+        "lv": "Я остаюсь дома."
+      },
+      {
+        "de": "Bleib hier!",
+        "lv": "Останься здесь!"
+      },
+      {
+        "de": "Wir bleiben noch eine Stunde.",
+        "lv": "Мы останемся ещё на час."
+      },
+      {
+        "de": "Ich gehe nach Hause.",
+        "lv": "Я иду домой."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "bleiben",
+        "meaning": "Оставаться",
+        "example": "Ich bleibe hier. – Я остаюсь здесь."
+      },
+      {
+        "word": "gehen",
+        "meaning": "Идти • Уходить пешком",
+        "example": "Ich gehe nach Hause. – Я иду домой."
+      },
+      {
+        "word": "fahren",
+        "meaning": "Ехать на транспорте",
+        "example": "Ich fahre nach Hause. – Я еду домой."
+      },
+      {
+        "word": "warten",
+        "meaning": "Ждать",
+        "example": "Ich warte hier. – Я жду здесь."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: не уходить → bleiben; уходить пешком → gehen."
+    },
+    "important": [
+      "Bleiben означает «оставаться», а не «ждать».",
+      "Ich bleibe hier = я остаюсь здесь; Ich warte hier = я жду здесь."
+    ]
+  },
+  "index": 101
+}
+```
+
+---
+
+## Finding 7
+
+**Audit ID:** `LRB086-0007`
+**Finding Stable ID:** `g2/a1/ru|blond|idx:103|lv|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `blond|idx:103`
+**Field / path:** `lv`
+**Severity:** MEDIUM
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** Блондинка
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Светловолосый"}
+**Note:** Pilna RU kartīte «blond»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "blond",
+  "lv": "Светловолосый",
+  "level": "A1",
+  "index": 103
+}
+```
+
+---
+
+## Finding 8
+
+**Audit ID:** `LRB086-0008`
+**Finding Stable ID:** `g2/a1/ru|bringen|idx:111|lv; study.examples; study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `bringen|idx:111`
+**Field / path:** `lv; study.examples; study.comparison`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Принести • Забрать","study.examples":"[{\"de\":\"Ich bringe dir ein Buch.\",\"lv\":\"Принеси мне воды, пожалуйста\"},{\"de\":\"Ich bringe das Paket zur Post.\",\"lv\":\"Я отвезу тебя домой\"},{\"de\":\"Ich bringe die Kinder zur Schule.\",\"lv\":\"Он берет книгу в школу.\"},{\"de\":\"Ich nehme das Buch.\",\"lv\":\"Я беру книгу\"}]","study.comparison":"[{\"word\":\"bringen\",\"meaning\":\"Принести/взять/доставить\",\"example\":\"Ich bringe dir ein Buch. – Bring mir Wasser.\"},{\"word\":\"bringen\",\"meaning\":\"Взять / взять\",\"example\":\"Ich bringe das Paket zur Post. – Ich nehme das Buch.\"},{\"word\":\"bringen\",\"meaning\":\"Пойти за / принести\",\"example\":\"Ich bringe die Kinder zur Schule. – Ich hole Wasser.\"},{\"word\":\"bringen\",\"meaning\":\"Забери и принеси\",\"example\":\"Ich bringe dir ein Buch. – Bringst du Brot mit?\"},{\"word\":\"nehmen\",\"meaning\":\"брать\",\"example\":\"Я беру книгу. – Es paņemu grāmatu.\"}]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Приносить • Доставлять","study":{"id":"a1-bringen","layout":"standardStudy","translation":"Приносить • Доставлять","explanation":["Основная идея: bringen означает доставить что-либо человеку или в определённое место.","В зависимости от направления переводится как «принести», «отнести», «отвезти» или «доставить».","Bringen отличается от nehmen — «брать».","Точный перевод определяется контекстом.","Основное значение — «приносить»."],"examples":[{"de":"Ich bringe dir ein Buch.","lv":"Я принесу тебе книгу."},{"de":"Ich bringe das Paket zur Post.","lv":"Я отнесу посылку на почту."},{"de":"Ich bringe die Kinder zur Schule.","lv":"Я отвезу детей в школу."}],"comparison":[{"word":"bringen","meaning":"Принести","example":"Ich bringe dir ein Buch. – Я принесу тебе книгу."},{"word":"bringen","meaning":"Отнести","example":"Ich bringe das Paket zur Post. – Я отнесу посылку на почту."},{"word":"bringen","meaning":"Отвезти","example":"Ich bringe die Kinder zur Schule. – Я отвезу детей в школу."},{"word":"bringen","meaning":"Доставить","example":"Ich bringe dir ein Buch. – Я доставлю тебе книгу."},{"word":"nehmen","meaning":"Брать","example":"Ich nehme das Buch. – Я беру книгу."}],"tip":{"text":"Если предмет перемещают к человеку или в другое место, часто употребляют bringen."},"important":["Nehmen означает «брать».","Bringen означает «приносить» или «доставлять».","Точный перевод зависит от направления и контекста."]}}
+**Note:** Pilna RU kartīte «bringen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "bringen",
+  "lv": "Приносить • Доставлять",
+  "level": "A1",
+  "study": {
+    "id": "a1-bringen",
+    "layout": "standardStudy",
+    "translation": "Приносить • Доставлять",
+    "explanation": [
+      "Основная идея: bringen означает доставить что-либо человеку или в определённое место.",
+      "В зависимости от направления переводится как «принести», «отнести», «отвезти» или «доставить».",
+      "Bringen отличается от nehmen — «брать».",
+      "Точный перевод определяется контекстом.",
+      "Основное значение — «приносить»."
+    ],
+    "examples": [
+      {
+        "de": "Ich bringe dir ein Buch.",
+        "lv": "Я принесу тебе книгу."
+      },
+      {
+        "de": "Ich bringe das Paket zur Post.",
+        "lv": "Я отнесу посылку на почту."
+      },
+      {
+        "de": "Ich bringe die Kinder zur Schule.",
+        "lv": "Я отвезу детей в школу."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "bringen",
+        "meaning": "Принести",
+        "example": "Ich bringe dir ein Buch. – Я принесу тебе книгу."
+      },
+      {
+        "word": "bringen",
+        "meaning": "Отнести",
+        "example": "Ich bringe das Paket zur Post. – Я отнесу посылку на почту."
+      },
+      {
+        "word": "bringen",
+        "meaning": "Отвезти",
+        "example": "Ich bringe die Kinder zur Schule. – Я отвезу детей в школу."
+      },
+      {
+        "word": "bringen",
+        "meaning": "Доставить",
+        "example": "Ich bringe dir ein Buch. – Я доставлю тебе книгу."
+      },
+      {
+        "word": "nehmen",
+        "meaning": "Брать",
+        "example": "Ich nehme das Buch. – Я беру книгу."
+      }
+    ],
+    "tip": {
+      "text": "Если предмет перемещают к человеку или в другое место, часто употребляют bringen."
+    },
+    "important": [
+      "Nehmen означает «брать».",
+      "Bringen означает «приносить» или «доставлять».",
+      "Точный перевод зависит от направления и контекста."
+    ]
+  },
+  "index": 111
+}
+```
+
+---
+
+## Finding 9
+
+**Audit ID:** `LRB086-0009`
+**Finding Stable ID:** `g2/a1/ru|Buchstabe|idx:117|lv|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Buchstabe|idx:117`
+**Field / path:** `lv`
+**Severity:** MEDIUM
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** Письмо
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Буква"}
+**Note:** Pilna RU kartīte «Buchstabe»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Buchstabe",
+  "de_article": "der",
+  "de_plural": "die Buchstaben",
+  "lv": "Буква",
+  "level": "A1",
+  "index": 117
+}
+```
+
+---
+
+## Finding 10
+
+**Audit ID:** `LRB086-0010`
+**Finding Stable ID:** `g2/a1/ru|Cousine|idx:125|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Cousine|idx:125`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** Двоюродный брат
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Двоюродная сестра"}
+**Note:** Pilna RU kartīte «Cousine»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Cousine",
+  "de_article": "die",
+  "de_plural": "die Cousinen",
+  "lv": "Двоюродная сестра",
+  "level": "A1",
+  "index": 125
+}
+```
+
+---
+
+## Finding 11
+
+**Audit ID:** `LRB086-0011`
+**Finding Stable ID:** `g2/a1/ru|da|idx:126|lv; study.examples; study.explanation; study.comparison|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `da|idx:126`
+**Field / path:** `lv; study.examples; study.explanation; study.comparison`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Там","study.examples":"[{\"de\":\"Da ist mein Auto.\",\"lv\":\"Есть моя машина.\"},{\"de\":\"Ich war da.\",\"lv\":\"Я был там\"},{\"de\":\"Da kommt er.\",\"lv\":\"Вот он приходит.\"},{\"de\":\"Komm mal da her!\",\"lv\":\"Идите сюда!\"}]","study.explanation":"[\"Основная идея: да на уровне А1 чаще всего означает там.\",\"Да указывает место или относится к чему-то уже упомянутому.\",\"В зависимости от ситуации его также можно перевести как здесь или здесь.\",\"На уровне А1 мы в основном изучаем да как слово общего назначения.\"]","study.comparison":"[{\"word\":\"da\",\"meaning\":\"Там • Здесь • Здесь (общий)\",\"example\":\"Вот моя машина.\"},{\"word\":\"hier\",\"meaning\":\"Здесь (в определенном месте)\",\"example\":\"Здесь моя машина.\"},{\"word\":\"dort\",\"meaning\":\"Там (дальше)\",\"example\":\"Там моя машина.\"},{\"word\":\"dann\",\"meaning\":\"Затем\",\"example\":\"Тогда мы идём домой.\"}]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Там • Здесь","study":{"id":"a1-da","layout":"standardStudy","translation":"Там • Здесь","explanation":["Основная идея: da на уровне A1 чаще всего означает «там».","Da указывает на место или отсылает к уже упомянутому.","По контексту может переводиться как «здесь» или «вот».","На уровне A1 это прежде всего общее указание места."],"examples":[{"de":"Da ist mein Auto.","lv":"Там моя машина."},{"de":"Ich war da.","lv":"Я был там."},{"de":"Da kommt er.","lv":"Вот он идёт."},{"de":"Komm mal da her!","lv":"Иди сюда!"}],"comparison":[{"word":"da","meaning":"Там • Здесь (в общем смысле)","example":"Da ist mein Auto. – Там моя машина."},{"word":"hier","meaning":"Здесь (в конкретном месте)","example":"Hier ist mein Auto. – Здесь моя машина."},{"word":"dort","meaning":"Там (вдалеке)","example":"Dort ist mein Auto. – Там моя машина."},{"word":"dann","meaning":"Тогда • Затем","example":"Dann gehen wir nach Hause. – Затем мы идём домой."}],"tip":{"text":"Запомните: общее указание «там» или «здесь» → da."},"important":["Da — общее указание места.","Hier означает конкретное «здесь», а dort — более удалённое «там»."]}}
+**Note:** Pilna RU kartīte «da»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "da",
+  "lv": "Там • Здесь",
+  "level": "A1",
+  "study": {
+    "id": "a1-da",
+    "layout": "standardStudy",
+    "translation": "Там • Здесь",
+    "explanation": [
+      "Основная идея: da на уровне A1 чаще всего означает «там».",
+      "Da указывает на место или отсылает к уже упомянутому.",
+      "По контексту может переводиться как «здесь» или «вот».",
+      "На уровне A1 это прежде всего общее указание места."
+    ],
+    "examples": [
+      {
+        "de": "Da ist mein Auto.",
+        "lv": "Там моя машина."
+      },
+      {
+        "de": "Ich war da.",
+        "lv": "Я был там."
+      },
+      {
+        "de": "Da kommt er.",
+        "lv": "Вот он идёт."
+      },
+      {
+        "de": "Komm mal da her!",
+        "lv": "Иди сюда!"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "da",
+        "meaning": "Там • Здесь (в общем смысле)",
+        "example": "Da ist mein Auto. – Там моя машина."
+      },
+      {
+        "word": "hier",
+        "meaning": "Здесь (в конкретном месте)",
+        "example": "Hier ist mein Auto. – Здесь моя машина."
+      },
+      {
+        "word": "dort",
+        "meaning": "Там (вдалеке)",
+        "example": "Dort ist mein Auto. – Там моя машина."
+      },
+      {
+        "word": "dann",
+        "meaning": "Тогда • Затем",
+        "example": "Dann gehen wir nach Hause. – Затем мы идём домой."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: общее указание «там» или «здесь» → da."
+    },
+    "important": [
+      "Da — общее указание места.",
+      "Hier означает конкретное «здесь», а dort — более удалённое «там»."
+    ]
+  },
+  "index": 126
+}
+```
+
+---
+
+## Finding 12
+
+**Audit ID:** `LRB086-0012`
+**Finding Stable ID:** `g2/a1/ru|das|idx:129|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `das|idx:129`
+**Field / path:** `lv; study.translation; study.examples; study.comparison; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Средний определенный артикль","study.translation":"Средний определенный артикль","study.examples":"[{\"de\":\"Das ist mein Auto.\",\"lv\":\"Это моя машина\"},{\"de\":\"Das ist gut.\",\"lv\":\"Это хорошо.\"},{\"de\":\"Das Buch, das ich lese, ist interessant.\",\"lv\":\"Книга, которую я читаю, интересна.\"}]","study.comparison":"[{\"word\":\"das\",\"meaning\":\"Это (артикль / местоимение)\",\"example\":\"Это моя машина. – Tas ir mans auto.\"},{\"word\":\"dies\",\"meaning\":\"Вот этот\",\"example\":\"Dies ist mein Auto. – Это моя машина.\"},{\"word\":\"welches\",\"meaning\":\"Кто • Который • Кого\",\"example\":\"Das ist das Buch, welches ich lese. – Это книга, которую я читаю.\"}]","study.important":"[\"На уровне А1 das сначала изучается как артикль среднего рода.\",\"Das — это не то же самое, что dass: das может быть артиклем или местоимением, dass означает «это».\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Определённый артикль среднего рода","study":{"id":"a1-das","layout":"standardStudy","translation":"Определённый артикль среднего рода","explanation":"Основная идея: das употребляется с существительными среднего рода и может быть также указательным или относительным местоимением.","examples":[{"de":"Das ist mein Auto.","lv":"Это моя машина."},{"de":"Das ist gut.","lv":"Это хорошо."},{"de":"Das Buch, das ich lese, ist interessant.","lv":"Книга, которую я читаю, интересна."}],"comparison":[{"word":"das","meaning":"Это • Артикль или местоимение","example":"Das ist mein Auto. – Это моя машина."},{"word":"dies","meaning":"Это • Этот","example":"Dies ist mein Auto. – Это моя машина."},{"word":"welches","meaning":"Относительное местоимение «который»","example":"Das ist das Buch, welches ich lese. – Это книга, которую я читаю."}],"tip":{"text":"Запомните: средний род → das; союз «что» → dass."},"important":["На уровне A1 das прежде всего изучают как определённый артикль среднего рода.","Das может быть артиклем или местоимением; dass — союз со значением «что»."]}}
+**Note:** Pilna RU kartīte «das»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "das",
+  "lv": "Определённый артикль среднего рода",
+  "level": "A1",
+  "study": {
+    "id": "a1-das",
+    "layout": "standardStudy",
+    "translation": "Определённый артикль среднего рода",
+    "explanation": "Основная идея: das употребляется с существительными среднего рода и может быть также указательным или относительным местоимением.",
+    "examples": [
+      {
+        "de": "Das ist mein Auto.",
+        "lv": "Это моя машина."
+      },
+      {
+        "de": "Das ist gut.",
+        "lv": "Это хорошо."
+      },
+      {
+        "de": "Das Buch, das ich lese, ist interessant.",
+        "lv": "Книга, которую я читаю, интересна."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "das",
+        "meaning": "Это • Артикль или местоимение",
+        "example": "Das ist mein Auto. – Это моя машина."
+      },
+      {
+        "word": "dies",
+        "meaning": "Это • Этот",
+        "example": "Dies ist mein Auto. – Это моя машина."
+      },
+      {
+        "word": "welches",
+        "meaning": "Относительное местоимение «который»",
+        "example": "Das ist das Buch, welches ich lese. – Это книга, которую я читаю."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: средний род → das; союз «что» → dass."
+    },
+    "important": [
+      "На уровне A1 das прежде всего изучают как определённый артикль среднего рода.",
+      "Das может быть артиклем или местоимением; dass — союз со значением «что»."
+    ]
+  },
+  "index": 129
+}
+```
+
+---
+
+## Finding 13
+
+**Audit ID:** `LRB086-0013`
+**Finding Stable ID:** `g2/a1/ru|dass|idx:130|lv; study.translation; study.examples; study.comparison; study.important|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `dass|idx:130`
+**Field / path:** `lv; study.translation; study.examples; study.comparison; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Что","study.translation":"Что","study.examples":"[{\"de\":\"Ich weiß, dass du müde bist.\",\"lv\":\"Я знаю, что ты устал.\"},{\"de\":\"Er sagt, dass er kommt.\",\"lv\":\"Он говорит, что придет.\"},{\"de\":\"Ich glaube, dass das stimmt.\",\"lv\":\"Я думаю, это правильно.\"}]","study.comparison":"[{\"word\":\"dass\",\"meaning\":\"Что\",\"example\":\"Ich weiß, dass er kommt. – Я знаю, что он придет.\"},{\"word\":\"weil\",\"meaning\":\"Потому что • Потому что\",\"example\":\"Ich bleibe zu Hause, weil es regnet. – Я остаюсь дома, потому что идет дождь.\"},{\"word\":\"damit\",\"meaning\":\"К\",\"example\":\"Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Я учу немецкий, чтобы иметь возможность работать в Германии.\"},{\"word\":\"ob\",\"meaning\":\"Или\",\"example\":\"Ich weiß nicht, ob er kommt. – Я не знаю, придет ли он.\"}]","study.important":"[\"Dass означает «это» и вводит вспомогательное предложение.\",\"Не путать с das, который может быть артиклем или «то».\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Что","study":{"id":"a1-dass","layout":"standardStudy","translation":"Что","explanation":"Основная идея: dass вводит придаточное предложение, выражающее факт, мысль или содержание высказывания.","examples":[{"de":"Ich weiß, dass du müde bist.","lv":"Я знаю, что ты устал."},{"de":"Er sagt, dass er kommt.","lv":"Он говорит, что придёт."},{"de":"Ich glaube, dass das stimmt.","lv":"Я думаю, что это верно."}],"comparison":[{"word":"dass","meaning":"Что","example":"Ich weiß, dass er kommt. – Я знаю, что он придёт."},{"word":"weil","meaning":"Потому что","example":"Ich bleibe zu Hause, weil es regnet. – Я остаюсь дома, потому что идёт дождь."},{"word":"damit","meaning":"Чтобы","example":"Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Я учу немецкий, чтобы работать в Германии."},{"word":"ob","meaning":"Ли","example":"Ich weiß nicht, ob er kommt. – Я не знаю, придёт ли он."}],"tip":{"text":"Запомните: союз «что» → dass."},"important":["Dass означает «что» и вводит придаточное предложение.","Не путайте dass с das — артиклем или местоимением."]}}
+**Note:** Pilna RU kartīte «dass»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "dass",
+  "lv": "Что",
+  "level": "A1",
+  "study": {
+    "id": "a1-dass",
+    "layout": "standardStudy",
+    "translation": "Что",
+    "explanation": "Основная идея: dass вводит придаточное предложение, выражающее факт, мысль или содержание высказывания.",
+    "examples": [
+      {
+        "de": "Ich weiß, dass du müde bist.",
+        "lv": "Я знаю, что ты устал."
+      },
+      {
+        "de": "Er sagt, dass er kommt.",
+        "lv": "Он говорит, что придёт."
+      },
+      {
+        "de": "Ich glaube, dass das stimmt.",
+        "lv": "Я думаю, что это верно."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "dass",
+        "meaning": "Что",
+        "example": "Ich weiß, dass er kommt. – Я знаю, что он придёт."
+      },
+      {
+        "word": "weil",
+        "meaning": "Потому что",
+        "example": "Ich bleibe zu Hause, weil es regnet. – Я остаюсь дома, потому что идёт дождь."
+      },
+      {
+        "word": "damit",
+        "meaning": "Чтобы",
+        "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Я учу немецкий, чтобы работать в Германии."
+      },
+      {
+        "word": "ob",
+        "meaning": "Ли",
+        "example": "Ich weiß nicht, ob er kommt. – Я не знаю, придёт ли он."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: союз «что» → dass."
+    },
+    "important": [
+      "Dass означает «что» и вводит придаточное предложение.",
+      "Не путайте dass с das — артиклем или местоимением."
+    ]
+  },
+  "index": 130
+}
+```
+
+---
+
+## Finding 14
+
+**Audit ID:** `LRB086-0014`
+**Finding Stable ID:** `g2/a1/ru|der|idx:134|lv; study.translation; study.examples; study.important|TARGET_LANGUAGE_WRONG_LANGUAGE|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `der|idx:134`
+**Field / path:** `lv; study.translation; study.examples; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Определенный артикль мужского рода","study.translation":"Определенный артикль мужского рода","study.examples":"[{\"de\":\"Der Mann ist hier.\",\"lv\":\"Мужчина здесь.\"},{\"de\":\"Der Bus kommt.\",\"lv\":\"Автобус идет.\"},{\"de\":\"Der Lehrer spricht.\",\"lv\":\"Учитель говорит.\"}]","study.important":"[\"На уровне А1 сначала следует выучить артикль мужского рода.\",\"Местоимение и относительное употребление появятся позже.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Определённый артикль мужского рода","study":{"id":"a1-der","layout":"standardStudy","translation":"Определённый артикль мужского рода","explanation":"Основная идея: der употребляется с существительными мужского рода; он также может быть местоимением или относительным местоимением.","examples":[{"de":"Der Mann ist hier.","lv":"Мужчина здесь."},{"de":"Der Bus kommt.","lv":"Автобус подъезжает."},{"de":"Der Lehrer spricht.","lv":"Учитель говорит."}],"tip":{"text":"Запомните: мужской род → der."},"important":["На уровне A1 der прежде всего изучают как определённый артикль мужского рода.","Употребление в роли местоимения изучается позже."]}}
+**Note:** Pilna RU kartīte «der»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "der",
+  "lv": "Определённый артикль мужского рода",
+  "level": "A1",
+  "study": {
+    "id": "a1-der",
+    "layout": "standardStudy",
+    "translation": "Определённый артикль мужского рода",
+    "explanation": "Основная идея: der употребляется с существительными мужского рода; он также может быть местоимением или относительным местоимением.",
+    "examples": [
+      {
+        "de": "Der Mann ist hier.",
+        "lv": "Мужчина здесь."
+      },
+      {
+        "de": "Der Bus kommt.",
+        "lv": "Автобус подъезжает."
+      },
+      {
+        "de": "Der Lehrer spricht.",
+        "lv": "Учитель говорит."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: мужской род → der."
+    },
+    "important": [
+      "На уровне A1 der прежде всего изучают как определённый артикль мужского рода.",
+      "Употребление в роли местоимения изучается позже."
+    ]
+  },
+  "index": 134
+}
+```
+
+---
+
+## Finding 15
+
+**Audit ID:** `LRB086-0015`
+**Finding Stable ID:** `g2/a1/ru|die|idx:137|lv; study.translation; study.examples; study.important|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `die|idx:137`
+**Field / path:** `lv; study.translation; study.examples; study.important`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Определенный артикль женского рода","study.translation":"Определенный артикль женского рода","study.examples":"[{\"de\":\"Die Frau ist hier.\",\"lv\":\"Женщина здесь.\"},{\"de\":\"Die Katze schläft.\",\"lv\":\"Котенок спит.\"},{\"de\":\"Die Lehrerin erklärt.\",\"lv\":\"Объясняет учитель.\"}]","study.important":"[\"На уровне А1 кубик сначала изучается как предмет женского рода.\",\"Кубик множественного числа также используется для всех полов.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Определённый артикль женского рода","study":{"id":"a1-die","layout":"standardStudy","translation":"Определённый артикль женского рода","explanation":"Основная идея: die употребляется с существительными женского рода; она также может быть местоимением или относительным местоимением.","examples":[{"de":"Die Frau ist hier.","lv":"Женщина здесь."},{"de":"Die Katze schläft.","lv":"Кошка спит."},{"de":"Die Lehrerin erklärt.","lv":"Учительница объясняет."}],"tip":{"text":"Запомните: женский род → die."},"important":["На уровне A1 die прежде всего изучают как определённый артикль женского рода.","Во множественном числе die употребляется с существительными всех родов."]}}
+**Note:** Pilna RU kartīte «die»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "die",
+  "lv": "Определённый артикль женского рода",
+  "level": "A1",
+  "study": {
+    "id": "a1-die",
+    "layout": "standardStudy",
+    "translation": "Определённый артикль женского рода",
+    "explanation": "Основная идея: die употребляется с существительными женского рода; она также может быть местоимением или относительным местоимением.",
+    "examples": [
+      {
+        "de": "Die Frau ist hier.",
+        "lv": "Женщина здесь."
+      },
+      {
+        "de": "Die Katze schläft.",
+        "lv": "Кошка спит."
+      },
+      {
+        "de": "Die Lehrerin erklärt.",
+        "lv": "Учительница объясняет."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: женский род → die."
+    },
+    "important": [
+      "На уровне A1 die прежде всего изучают как определённый артикль женского рода.",
+      "Во множественном числе die употребляется с существительными всех родов."
+    ]
+  },
+  "index": 137
+}
+```
+
+---
+
+## Finding 16
+
+**Audit ID:** `LRB086-0016`
+**Finding Stable ID:** `g2/a1/ru|dieser|idx:139|lv; study.translation; study.examples; study.important|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `dieser|idx:139`
+**Field / path:** `lv; study.translation; study.examples; study.important`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Вот этот","study.translation":"Вот этот","study.examples":"[{\"de\":\"Dieser Mann ist nett.\",\"lv\":\"Этот мужчина хорош.\"},{\"de\":\"Ich sehe diesen Hund.\",\"lv\":\"Мне нравится эта собака\"},{\"de\":\"Dieser Stift ist neu.\",\"lv\":\"Эта ручка новая.\"}]","study.important":"[\"Dieser, diese и dieses меняются в зависимости от пола.\",\"Форма множественного числа снова diese.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Этот","study":{"id":"a1-dieser","layout":"standardStudy","translation":"Этот","explanation":"Основная идея: dieser указывает на конкретное или особо выделенное лицо либо предмет мужского рода.","examples":[{"de":"Dieser Mann ist nett.","lv":"Этот мужчина приятный."},{"de":"Ich sehe diesen Hund.","lv":"Я вижу эту собаку."},{"de":"Dieser Stift ist neu.","lv":"Эта ручка новая."}],"tip":{"text":"Запомните: «этот» с существительным мужского рода → dieser."},"important":["Формы dieser, diese и dieses зависят от рода.","Во множественном числе употребляется diese."]}}
+**Note:** Pilna RU kartīte «dieser»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "dieser",
+  "lv": "Этот",
+  "level": "A1",
+  "study": {
+    "id": "a1-dieser",
+    "layout": "standardStudy",
+    "translation": "Этот",
+    "explanation": "Основная идея: dieser указывает на конкретное или особо выделенное лицо либо предмет мужского рода.",
+    "examples": [
+      {
+        "de": "Dieser Mann ist nett.",
+        "lv": "Этот мужчина приятный."
+      },
+      {
+        "de": "Ich sehe diesen Hund.",
+        "lv": "Я вижу эту собаку."
+      },
+      {
+        "de": "Dieser Stift ist neu.",
+        "lv": "Эта ручка новая."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: «этот» с существительным мужского рода → dieser."
+    },
+    "important": [
+      "Формы dieser, diese и dieses зависят от рода.",
+      "Во множественном числе употребляется diese."
+    ]
+  },
+  "index": 139
+}
+```
+
+---
+
+## Finding 17
+
+**Audit ID:** `LRB086-0017`
+**Finding Stable ID:** `g2/a1/ru|essen|idx:690|lv; study.translation; study.explanation; study.tip; study.important; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `essen|idx:690`
+**Field / path:** `lv; study.translation; study.explanation; study.tip; study.important; study.examples[].lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Есть","study.translation":"Есть","study.explanation":"[\"Основная мысль: Глагол – есть пищу.\",\"Essen прежде всего означает: потреблять пищу.\",\"Часто описывает: действие.\",\"Эссен в основном означает: еда или еда.\",\"Часто описывает: дождь.\",\"Эссен означает есть.\",\"Das Essen может означать еду или еду в целом.\"]","study.tip":"[\"Эссен = есть\",\"Используйте essen, когда контекст соответствует этому значению.\"]","study.important":"[\"Essen — глагол без артикля.\",\"Дас Эссен — это не то же самое, что эссен.\",\"Действие: эссен.\",\"Случай/еда: das Essen.\"]","study.examples[].lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Есть","study":{"id":"a1-essen","layout":"standardStudy","translation":"Есть","explanation":["Основная идея: essen — глагол со значением «есть, принимать пищу».","Essen обычно обозначает действие.","Das Essen — существительное со значением «еда» или «приём пищи».","Не путайте essen и das Essen."],"examples":[{"de":"Ich esse gern Pizza.","lv":"Я люблю есть пиццу."},{"de":"Was wollt ihr essen?","lv":"Что вы хотите есть?"},{"de":"Wir essen um 12 Uhr.","lv":"Мы едим в 12 часов."},{"de":"Das Essen ist fertig.","lv":"Еда готова."},{"de":"Das Essen schmeckt sehr gut.","lv":"Еда очень вкусная."},{"de":"Das Essen schmeckt gut.","lv":"Еда вкусная."}],"tip":["essen = есть.","Употребляйте essen, когда речь идёт о приёме пищи."],"important":["Essen — глагол без артикля.","Das Essen — существительное, а essen — действие."]}}
+**Note:** Pilna RU kartīte «essen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "essen",
+  "lv": "Есть",
+  "level": "A1",
+  "study": {
+    "id": "a1-essen",
+    "layout": "standardStudy",
+    "translation": "Есть",
+    "explanation": [
+      "Основная идея: essen — глагол со значением «есть, принимать пищу».",
+      "Essen обычно обозначает действие.",
+      "Das Essen — существительное со значением «еда» или «приём пищи».",
+      "Не путайте essen и das Essen."
+    ],
+    "examples": [
+      {
+        "de": "Ich esse gern Pizza.",
+        "lv": "Я люблю есть пиццу."
+      },
+      {
+        "de": "Was wollt ihr essen?",
+        "lv": "Что вы хотите есть?"
+      },
+      {
+        "de": "Wir essen um 12 Uhr.",
+        "lv": "Мы едим в 12 часов."
+      },
+      {
+        "de": "Das Essen ist fertig.",
+        "lv": "Еда готова."
+      },
+      {
+        "de": "Das Essen schmeckt sehr gut.",
+        "lv": "Еда очень вкусная."
+      },
+      {
+        "de": "Das Essen schmeckt gut.",
+        "lv": "Еда вкусная."
+      }
+    ],
+    "tip": [
+      "essen = есть.",
+      "Употребляйте essen, когда речь идёт о приёме пищи."
+    ],
+    "important": [
+      "Essen — глагол без артикля.",
+      "Das Essen — существительное, а essen — действие."
+    ]
+  },
+  "index": 690
+}
+```
+
+---
+
+## Finding 18
+
+**Audit ID:** `LRB086-0018`
+**Finding Stable ID:** `g2/a1/ru|euer|idx:171|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `euer|idx:171`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** Твой
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Ваш"}
+**Note:** Pilna RU kartīte «euer»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "euer",
+  "lv": "Ваш",
+  "level": "A1",
+  "index": 171
+}
+```
+
+---
+
+## Finding 19
+
+**Audit ID:** `LRB086-0019`
+**Finding Stable ID:** `g2/a1/ru|Ferien|idx:694|study.examples[0].lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Ferien|idx:694`
+**Field / path:** `study.examples[0].lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Каникулы","study":{"id":"a1-ferien","layout":"standardStudy","translation":"Каникулы","explanation":["Основная идея: die Ferien — школьные или студенческие каникулы; слово употребляется только во множественном числе.","Частая форма: in den Ferien.","Для отпуска с работы обычно употребляется der Urlaub."],"examples":[{"de":"In den Ferien fahren wir ans Meer.","lv":"На каникулах мы едем к морю."},{"de":"In den Ferien habe ich viel Zeit.","lv":"На каникулах у меня много времени."},{"de":"Was macht ihr in den Ferien?","lv":"Что вы делаете на каникулах?"},{"de":"Die Schule ist in den Ferien zu.","lv":"На каникулах школа закрыта."},{"de":"In den Ferien fahren wir ans Meer.","lv":"На каникулах мы едем к морю."},{"de":"In den Ferien","lv":"На каникулах."}],"comparison":[{"word":"die Ferien","meaning":"Школьные или студенческие каникулы, только мн. ч.","example":"In den Ferien fahren wir weg. – На каникулах мы уезжаем."},{"word":"der Urlaub","meaning":"Отпуск с работы, ед. ч.","example":"Ich habe zwei Wochen Urlaub. – У меня двухнедельный отпуск."}],"tip":["Die Ferien = школьные или студенческие каникулы.","Запомните: in den Ferien."],"important":["Ferien употребляется только во множественном числе.","Правильно: in den Ferien, а не in der Ferien.","Отпуск с работы обычно называется Urlaub."]}}
+**Note:** Pilna RU kartīte «Ferien»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Ferien",
+  "de_article": "die",
+  "lv": "Каникулы",
+  "level": "A1",
+  "study": {
+    "id": "a1-ferien",
+    "layout": "standardStudy",
+    "translation": "Каникулы",
+    "explanation": [
+      "Основная идея: die Ferien — школьные или студенческие каникулы; слово употребляется только во множественном числе.",
+      "Частая форма: in den Ferien.",
+      "Для отпуска с работы обычно употребляется der Urlaub."
+    ],
+    "examples": [
+      {
+        "de": "In den Ferien fahren wir ans Meer.",
+        "lv": "На каникулах мы едем к морю."
+      },
+      {
+        "de": "In den Ferien habe ich viel Zeit.",
+        "lv": "На каникулах у меня много времени."
+      },
+      {
+        "de": "Was macht ihr in den Ferien?",
+        "lv": "Что вы делаете на каникулах?"
+      },
+      {
+        "de": "Die Schule ist in den Ferien zu.",
+        "lv": "На каникулах школа закрыта."
+      },
+      {
+        "de": "In den Ferien fahren wir ans Meer.",
+        "lv": "На каникулах мы едем к морю."
+      },
+      {
+        "de": "In den Ferien",
+        "lv": "На каникулах."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "die Ferien",
+        "meaning": "Школьные или студенческие каникулы, только мн. ч.",
+        "example": "In den Ferien fahren wir weg. – На каникулах мы уезжаем."
+      },
+      {
+        "word": "der Urlaub",
+        "meaning": "Отпуск с работы, ед. ч.",
+        "example": "Ich habe zwei Wochen Urlaub. – У меня двухнедельный отпуск."
+      }
+    ],
+    "tip": [
+      "Die Ferien = школьные или студенческие каникулы.",
+      "Запомните: in den Ferien."
+    ],
+    "important": [
+      "Ferien употребляется только во множественном числе.",
+      "Правильно: in den Ferien, а не in der Ferien.",
+      "Отпуск с работы обычно называется Urlaub."
+    ]
+  },
+  "index": 694
+}
+```
+
+---
+
+## Finding 20
+
+**Audit ID:** `LRB086-0020`
+**Finding Stable ID:** `g2/a1/ru|fernsehen|idx:687|lv; study.translation; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `fernsehen|idx:687`
+**Field / path:** `lv; study.translation; study.examples[].lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Смотреть телевизор","study.translation":"Смотреть телевизор","study.examples[].lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Смотреть телевизор","study":{"id":"a1-fernsehen","layout":"standardStudy","translation":"Смотреть телевизор","explanation":"Основная идея: fernsehen — отделяемый глагол со значением «смотреть телевизор»: ich sehe fern, du siehst fern. Не путайте его с существительным das Fernsehen.","examples":[{"de":"Ich sehe heute Abend fern.","lv":"Сегодня вечером я смотрю телевизор."},{"de":"Siehst du oft fern?","lv":"Ты часто смотришь телевизор?"},{"de":"Die Kinder sehen am Nachmittag fern.","lv":"Дети смотрят телевизор после обеда."}],"comparison":[{"word":"fernsehen","meaning":"Смотреть телевизор","example":"Ich sehe fern. – Я смотрю телевизор."},{"word":"das Fernsehen","meaning":"Телевидение как средство или программа","example":"Im Fernsehen läuft ein Film. – По телевизору идёт фильм."},{"word":"sehen","meaning":"Видеть","example":"Ich sehe einen Film. – Я вижу фильм."}],"tip":{"leftBlocks":[{"text":"Действие обозначается fernsehen; телевидение как средство или программа — das Fernsehen."}]},"important":{"text":"fernsehen — отделяемый глагол; das Fernsehen — существительное."}}}
+**Note:** Pilna RU kartīte «fernsehen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "fernsehen",
+  "lv": "Смотреть телевизор",
+  "level": "A1",
+  "study": {
+    "id": "a1-fernsehen",
+    "layout": "standardStudy",
+    "translation": "Смотреть телевизор",
+    "explanation": "Основная идея: fernsehen — отделяемый глагол со значением «смотреть телевизор»: ich sehe fern, du siehst fern. Не путайте его с существительным das Fernsehen.",
+    "examples": [
+      {
+        "de": "Ich sehe heute Abend fern.",
+        "lv": "Сегодня вечером я смотрю телевизор."
+      },
+      {
+        "de": "Siehst du oft fern?",
+        "lv": "Ты часто смотришь телевизор?"
+      },
+      {
+        "de": "Die Kinder sehen am Nachmittag fern.",
+        "lv": "Дети смотрят телевизор после обеда."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "fernsehen",
+        "meaning": "Смотреть телевизор",
+        "example": "Ich sehe fern. – Я смотрю телевизор."
+      },
+      {
+        "word": "das Fernsehen",
+        "meaning": "Телевидение как средство или программа",
+        "example": "Im Fernsehen läuft ein Film. – По телевизору идёт фильм."
+      },
+      {
+        "word": "sehen",
+        "meaning": "Видеть",
+        "example": "Ich sehe einen Film. – Я вижу фильм."
+      }
+    ],
+    "tip": {
+      "leftBlocks": [
+        {
+          "text": "Действие обозначается fernsehen; телевидение как средство или программа — das Fernsehen."
+        }
+      ]
+    },
+    "important": {
+      "text": "fernsehen — отделяемый глагол; das Fernsehen — существительное."
+    }
+  },
+  "index": 687
+}
+```
+
+---
+
+## Finding 21
+
+**Audit ID:** `LRB086-0021`
+**Finding Stable ID:** `g2/a1/ru|Fernsehen|idx:688|lv; study.translation; study.explanation; study.tip; study.important; study.examples[].lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Fernsehen|idx:688`
+**Field / path:** `lv; study.translation; study.explanation; study.tip; study.important; study.examples[].lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Телевидение","study.translation":"Телевидение","study.explanation":"[\"Основная идея: существительное, только в единственном числе. Описывает телевидение как средство массовой информации или вещание в целом.\",\"Das Fernsehen по сути означает: смотреть трансляцию.\",\"Часто описывает: действие.\",\"Das Fernsehen в первую очередь означает: телевидение как средство массовой информации.\",\"Часто описывает: существительное (только в единственном числе).\",\"Fernsehen — это глагол, который можно разделить: ich sehe папоротник, du siehst папоротник.\",\"Das Fernsehen — существительное только в единственном числе, у него нет формы множественного числа.\"]","study.tip":"[\"Говоря о действии, используйте «fernsehen» (ich sehe папоротник). Говоря о телепрограмме или средствах массовой информации, используйте das Fernsehen.\",\"Существительное, только в единственном числе. Описывает телевидение как средство массовой информации или вещание в целом.\"]","study.important":"[\"Fernsehen делится на: sehen + папоротник.\",\"Das Fernsehen — это не множественное число, а не *die Fernsehen.\",\"Неправильно: die Fernsehen → Правильно: das Fernsehen.\",\"Действие: папоротник → ich sehe папоротник.\"]","study.examples[].lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Телевидение","study":{"id":"a1-fernsehen-study","layout":"standardStudy","translation":"Телевидение","explanation":["Основная идея: das Fernsehen — телевидение как средство массовой информации или вещание.","Это существительное среднего рода и обычно употребляется только в единственном числе.","Глагол fernsehen означает «смотреть телевизор».","Глагол отделяемый: ich sehe fern."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Что сегодня показывают по телевизору?"},{"de":"Was gibt es heute im Fernsehen?","lv":"Что сегодня показывают по телевизору?"},{"de":"Im Fernsehen läuft ein Film.","lv":"По телевизору идёт фильм."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Сегодня телевизионная программа скучная."},{"de":"Ich sehe heute Abend fern.","lv":"Сегодня вечером я смотрю телевизор."},{"de":"Was gibt es im Fernsehen?","lv":"Что показывают по телевизору?"}],"tip":["Средство или программа → das Fernsehen.","Действие → fernsehen."],"important":["Das Fernsehen = телевидение; fernsehen = смотреть телевизор.","Правильно: das Fernsehen, а не die Fernsehen."]}}
+**Note:** Pilna RU kartīte «Fernsehen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Fernsehen",
+  "de_article": "das",
+  "lv": "Телевидение",
+  "level": "A1",
+  "study": {
+    "id": "a1-fernsehen-study",
+    "layout": "standardStudy",
+    "translation": "Телевидение",
+    "explanation": [
+      "Основная идея: das Fernsehen — телевидение как средство массовой информации или вещание.",
+      "Это существительное среднего рода и обычно употребляется только в единственном числе.",
+      "Глагол fernsehen означает «смотреть телевизор».",
+      "Глагол отделяемый: ich sehe fern."
+    ],
+    "examples": [
+      {
+        "de": "Was gibt es heute im Fernsehen?",
+        "lv": "Что сегодня показывают по телевизору?"
+      },
+      {
+        "de": "Was gibt es heute im Fernsehen?",
+        "lv": "Что сегодня показывают по телевизору?"
+      },
+      {
+        "de": "Im Fernsehen läuft ein Film.",
+        "lv": "По телевизору идёт фильм."
+      },
+      {
+        "de": "Das Fernsehen ist heute langweilig.",
+        "lv": "Сегодня телевизионная программа скучная."
+      },
+      {
+        "de": "Ich sehe heute Abend fern.",
+        "lv": "Сегодня вечером я смотрю телевизор."
+      },
+      {
+        "de": "Was gibt es im Fernsehen?",
+        "lv": "Что показывают по телевизору?"
+      }
+    ],
+    "tip": [
+      "Средство или программа → das Fernsehen.",
+      "Действие → fernsehen."
+    ],
+    "important": [
+      "Das Fernsehen = телевидение; fernsehen = смотреть телевизор.",
+      "Правильно: das Fernsehen, а не die Fernsehen."
+    ]
+  },
+  "index": 688
+}
+```
+
+---
+
+## Finding 22
+
+**Audit ID:** `LRB086-0022`
+**Finding Stable ID:** `g2/a1/ru|Fußball|idx:218|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Fußball|idx:218`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"футбол","study.translation":"футбол","study.explanation":"[\"Основная идея: Fußball часто означает футбол как вид спорта.\",\"С артиклем и в счётной форме der Fußball может также означать футбольный мяч.\",\"Множественное число die Fußbälle означает футбольные мячи, а не несколько видов спорта.\"]","study.examples":"[{\"de\":\"Ich spiele Fußball.\",\"lv\":\"я играю в футбол.\"},{\"de\":\"Der Fußball liegt im Garten.\",\"lv\":\"футбольный мяч находится в саду.\"},{\"de\":\"Wir kaufen zwei Fußbälle.\",\"lv\":\"мы покупаем два футбольных мяча.\"}]","study.comparison":"[{\"word\":\"Fußball\",\"meaning\":\"футбол как вид спорта\",\"example\":\"Я играю в футбол. – Es spēlēju futbolu.\"},{\"word\":\"der Fußball\",\"meaning\":\"футбольный мяч\",\"example\":\"Футбольный мяч новый. – Futbola bumba ir jauna.\"}]","study.tip":"[\"Без артикля spielen Fußball обычно означает играть в футбол.\",\"В счётной форме ein Fußball и die Fußbälle — это футбольный мяч и футбольные мячи.\"]","study.important":"[\"die Fußbälle означает футбольные мячи.\",\"Вид спорта Fußball обычно используется в единственном числе.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Футбол • Футбольный мяч","study":{"id":"a1-fussball-study","layout":"standardStudy","translation":"Футбол • Футбольный мяч","explanation":["Основная идея: Fußball чаще всего означает футбол как вид спорта.","С артиклем der Fußball может означать футбольный мяч.","Множественное число die Fußbälle означает футбольные мячи."],"examples":[{"de":"Ich spiele Fußball.","lv":"Я играю в футбол."},{"de":"Der Fußball liegt im Garten.","lv":"Футбольный мяч лежит в саду."},{"de":"Wir kaufen zwei Fußbälle.","lv":"Мы покупаем два футбольных мяча."}],"comparison":[{"word":"Fußball","meaning":"Футбол как вид спорта","example":"Ich spiele Fußball. – Я играю в футбол."},{"word":"der Fußball","meaning":"Футбольный мяч","example":"Der Fußball ist neu. – Футбольный мяч новый."}],"tip":["Без артикля Fußball обычно означает вид спорта.","Ein Fußball и die Fußbälle обозначают мяч и мячи."],"important":["Die Fußbälle означает футбольные мячи.","Название вида спорта Fußball обычно употребляется в единственном числе."]}}
+**Note:** Pilna RU kartīte «Fußball»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Fußball",
+  "de_article": "der",
+  "de_plural": "die Fußbälle",
+  "lv": "Футбол • Футбольный мяч",
+  "level": "A1",
+  "study": {
+    "id": "a1-fussball-study",
+    "layout": "standardStudy",
+    "translation": "Футбол • Футбольный мяч",
+    "explanation": [
+      "Основная идея: Fußball чаще всего означает футбол как вид спорта.",
+      "С артиклем der Fußball может означать футбольный мяч.",
+      "Множественное число die Fußbälle означает футбольные мячи."
+    ],
+    "examples": [
+      {
+        "de": "Ich spiele Fußball.",
+        "lv": "Я играю в футбол."
+      },
+      {
+        "de": "Der Fußball liegt im Garten.",
+        "lv": "Футбольный мяч лежит в саду."
+      },
+      {
+        "de": "Wir kaufen zwei Fußbälle.",
+        "lv": "Мы покупаем два футбольных мяча."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Fußball",
+        "meaning": "Футбол как вид спорта",
+        "example": "Ich spiele Fußball. – Я играю в футбол."
+      },
+      {
+        "word": "der Fußball",
+        "meaning": "Футбольный мяч",
+        "example": "Der Fußball ist neu. – Футбольный мяч новый."
+      }
+    ],
+    "tip": [
+      "Без артикля Fußball обычно означает вид спорта.",
+      "Ein Fußball и die Fußbälle обозначают мяч и мячи."
+    ],
+    "important": [
+      "Die Fußbälle означает футбольные мячи.",
+      "Название вида спорта Fußball обычно употребляется в единственном числе."
+    ]
+  },
+  "index": 218
+}
+```
+
+---
+
+## Finding 23
+
+**Audit ID:** `LRB086-0023`
+**Finding Stable ID:** `g2/a1/ru|ganz|idx:219|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `ganz|idx:219`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Здоровый","study.translation":"Здоровый","study.explanation":"[\"Основная идея: ganz вместе с существительным означает целый или полностью.\",\"Перед прилагательным или наречием ganz может означать совсем, совершенно или довольно.\",\"ganz — это не то же самое, что местоимение alles.\"]","study.examples":"[{\"de\":\"Ich arbeite den ganzen Tag.\",\"lv\":\"я работаю весь день.\"},{\"de\":\"Das ganze Haus ist sauber.\",\"lv\":\"весь дом чистый.\"},{\"de\":\"Das ist ganz sicher.\",\"lv\":\"это совершенно безопасно.\"},{\"de\":\"Das Essen ist ganz gut.\",\"lv\":\"еда довольно хорошая.\"}]","study.comparison":"[{\"word\":\"ganz\",\"meaning\":\"целый • полностью • совсем\",\"example\":\"весь день – visa diena\"},{\"word\":\"alles\",\"meaning\":\"Все\",\"example\":\"Всё хорошо. – Viss ir kārtībā.\"}]","study.tip":"[\"Перед существительным ganz часто означает весь или целый.\",\"Перед прилагательным ganz часто означает совсем или довольно.\"]","study.important":"[\"der ganze Tag = весь день.\",\"alles = всё как местоимение.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Целый • Весь • Совсем","study":{"id":"a1-ganz-study","layout":"standardStudy","translation":"Целый • Весь • Совсем","explanation":["Основная идея: ganz с существительным означает «целый» или «весь».","Перед прилагательным или наречием ganz может означать «совсем», «полностью» или «довольно».","Ganz не является местоимением и отличается от alles."],"examples":[{"de":"Ich arbeite den ganzen Tag.","lv":"Я работаю весь день."},{"de":"Das ganze Haus ist sauber.","lv":"Весь дом чистый."},{"de":"Das ist ganz sicher.","lv":"Это совершенно точно."},{"de":"Das Essen ist ganz gut.","lv":"Еда довольно хорошая."}],"comparison":[{"word":"ganz","meaning":"Целый • Весь • Совсем","example":"der ganze Tag – весь день"},{"word":"alles","meaning":"Всё","example":"Alles ist gut. – Всё хорошо."}],"tip":["Перед существительным ganz часто означает «весь» или «целый».","Перед прилагательным — «совсем» или «довольно»."],"important":["Der ganze Tag = весь день.","Alles = всё; это местоимение."]}}
+**Note:** Pilna RU kartīte «ganz»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ganz",
+  "lv": "Целый • Весь • Совсем",
+  "level": "A1",
+  "study": {
+    "id": "a1-ganz-study",
+    "layout": "standardStudy",
+    "translation": "Целый • Весь • Совсем",
+    "explanation": [
+      "Основная идея: ganz с существительным означает «целый» или «весь».",
+      "Перед прилагательным или наречием ganz может означать «совсем», «полностью» или «довольно».",
+      "Ganz не является местоимением и отличается от alles."
+    ],
+    "examples": [
+      {
+        "de": "Ich arbeite den ganzen Tag.",
+        "lv": "Я работаю весь день."
+      },
+      {
+        "de": "Das ganze Haus ist sauber.",
+        "lv": "Весь дом чистый."
+      },
+      {
+        "de": "Das ist ganz sicher.",
+        "lv": "Это совершенно точно."
+      },
+      {
+        "de": "Das Essen ist ganz gut.",
+        "lv": "Еда довольно хорошая."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "ganz",
+        "meaning": "Целый • Весь • Совсем",
+        "example": "der ganze Tag – весь день"
+      },
+      {
+        "word": "alles",
+        "meaning": "Всё",
+        "example": "Alles ist gut. – Всё хорошо."
+      }
+    ],
+    "tip": [
+      "Перед существительным ganz часто означает «весь» или «целый».",
+      "Перед прилагательным — «совсем» или «довольно»."
+    ],
+    "important": [
+      "Der ganze Tag = весь день.",
+      "Alles = всё; это местоимение."
+    ]
+  },
+  "index": 219
+}
+```
+
+---
+
+## Finding 24
+
+**Audit ID:** `LRB086-0024`
+**Finding Stable ID:** `g2/a1/ru|geben|idx:223|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `geben|idx:223`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Дать","study.translation":"Дать","study.explanation":"[\"Основная идея: гебен означает давать.\",\"Geben используется, когда кто-то дает что-то другому человеку.\",\"Это противоположное направление немана.\",\"Bekommen означает получать, то есть быть тем, кто что-то получает.\"]","study.examples":"[{\"de\":\"Gib mir bitte das Buch.\",\"lv\":\"Дай мне книгу, пожалуйста\"},{\"de\":\"Ich gebe dir meine Nummer.\",\"lv\":\"Я даю тебе свой номер\"},{\"de\":\"Ich nehme das Buch.\",\"lv\":\"Я беру книгу\"},{\"de\":\"Ich bekomme ein Geschenk.\",\"lv\":\"Я получу подарок\"}]","study.comparison":"[{\"word\":\"geben\",\"meaning\":\"Дать\",\"example\":\"Дай мне книгу.\"},{\"word\":\"nehmen\",\"meaning\":\"Взять / взять\",\"example\":\"Я беру книгу.\"},{\"word\":\"bekommen\",\"meaning\":\"Получить / получить\",\"example\":\"Я получаю подарок.\"},{\"word\":\"bringen\",\"meaning\":\"Принести / доставить\",\"example\":\"Я приносу тебе книгу.\"}]","study.tip":"{\"text\":\"Помните: отдать → гебен • Возьми себе → нехмен.\"}","study.important":"[\"Гебен и немен — противоположные направления.\",\"Бекоммен означает получать, а не отдавать.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Давать","study":{"id":"a1-geben","layout":"standardStudy","translation":"Давать","explanation":["Основная идея: geben означает «давать».","Geben используется, когда кто-то передаёт что-то другому человеку.","Geben и nehmen обозначают противоположные направления: давать и брать.","Bekommen означает «получать», то есть быть тем, кто что-то получает."],"examples":[{"de":"Gib mir bitte das Buch.","lv":"Дай мне, пожалуйста, книгу."},{"de":"Ich gebe dir meine Nummer.","lv":"Я даю тебе свой номер."},{"de":"Ich nehme das Buch.","lv":"Я беру книгу."},{"de":"Ich bekomme ein Geschenk.","lv":"Я получаю подарок."}],"comparison":[{"word":"geben","meaning":"Давать","example":"Gib mir das Buch. – Дай мне книгу."},{"word":"nehmen","meaning":"Брать","example":"Ich nehme das Buch. – Я беру книгу."},{"word":"bekommen","meaning":"Получать","example":"Ich bekomme ein Geschenk. – Я получаю подарок."},{"word":"bringen","meaning":"Приносить • Доставлять","example":"Ich bringe dir das Buch. – Я приношу тебе книгу."}],"tip":{"text":"Запомните: geben — давать • nehmen — брать."},"important":["Geben и nehmen обозначают противоположные действия: давать и брать.","Bekommen означает «получать», а не «отдавать»."]}}
+**Note:** Pilna RU kartīte «geben»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "geben",
+  "lv": "Давать",
+  "level": "A1",
+  "study": {
+    "id": "a1-geben",
+    "layout": "standardStudy",
+    "translation": "Давать",
+    "explanation": [
+      "Основная идея: geben означает «давать».",
+      "Geben используется, когда кто-то передаёт что-то другому человеку.",
+      "Geben и nehmen обозначают противоположные направления: давать и брать.",
+      "Bekommen означает «получать», то есть быть тем, кто что-то получает."
+    ],
+    "examples": [
+      {
+        "de": "Gib mir bitte das Buch.",
+        "lv": "Дай мне, пожалуйста, книгу."
+      },
+      {
+        "de": "Ich gebe dir meine Nummer.",
+        "lv": "Я даю тебе свой номер."
+      },
+      {
+        "de": "Ich nehme das Buch.",
+        "lv": "Я беру книгу."
+      },
+      {
+        "de": "Ich bekomme ein Geschenk.",
+        "lv": "Я получаю подарок."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "geben",
+        "meaning": "Давать",
+        "example": "Gib mir das Buch. – Дай мне книгу."
+      },
+      {
+        "word": "nehmen",
+        "meaning": "Брать",
+        "example": "Ich nehme das Buch. – Я беру книгу."
+      },
+      {
+        "word": "bekommen",
+        "meaning": "Получать",
+        "example": "Ich bekomme ein Geschenk. – Я получаю подарок."
+      },
+      {
+        "word": "bringen",
+        "meaning": "Приносить • Доставлять",
+        "example": "Ich bringe dir das Buch. – Я приношу тебе книгу."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: geben — давать • nehmen — брать."
+    },
+    "important": [
+      "Geben и nehmen обозначают противоположные действия: давать и брать.",
+      "Bekommen означает «получать», а не «отдавать»."
+    ]
+  },
+  "index": 223
+}
+```
+
+---
+
+## Finding 25
+
+**Audit ID:** `LRB086-0025`
+**Finding Stable ID:** `g2/a1/ru|gefallen|idx:225|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `gefallen|idx:225`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Нравиться","study.translation":"Нравиться","study.explanation":"[\"Основная идея: gefallen означает нравиться, но структура немецкого предложения отличается от латышской.\",\"Вещь, которая нравится, в немецком языке является подлежащим.\",\"Лицо, которому что-то нравится, находится в дательном падеже: mir, dir, ihm, ihr, uns, euch, ihnen.\"]","study.examples":"[{\"de\":\"Das gefällt mir.\",\"lv\":\"мне это нравится.\"},{\"de\":\"Gefällt dir das Kleid?\",\"lv\":\"тебе нравится платье?\"},{\"de\":\"Der Film gefällt uns.\",\"lv\":\"нам нравится фильм.\"}]","study.comparison":"[{\"word\":\"gefallen\",\"meaning\":\"нравиться • лицо в дательном падеже\",\"example\":\"Мне это нравится. – Man tas patīk.\"},{\"word\":\"mögen\",\"meaning\":\"нравиться • охотно выбирать\",\"example\":\"Мне это нравится. – Man tas patīk.\"}]","study.tip":"[\"Запомни конструкцию: Das gefällt mir.\",\"Не используй буквальный латышский порядок слов.\"]","study.important":"[\"gefallen используется с дательным падежом: mir, dir, ihm, ihr.\",\"Das gefällt mir = мне это нравится.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Нравиться","study":{"id":"a1-gefallen-study","layout":"standardStudy","translation":"Нравиться","explanation":["Основная идея: gefallen означает «нравиться».","Вещь, которая нравится, является подлежащим немецкого предложения.","Лицо, которому что-то нравится, выражается дательным падежом: mir, dir, ihm, ihr, uns, euch, ihnen."],"examples":[{"de":"Das gefällt mir.","lv":"Мне это нравится."},{"de":"Gefällt dir das Kleid?","lv":"Тебе нравится это платье?"},{"de":"Der Film gefällt uns.","lv":"Нам нравится этот фильм."}],"comparison":[{"word":"gefallen","meaning":"Нравиться; лицо в дательном падеже","example":"Das gefällt mir. – Мне это нравится."},{"word":"mögen","meaning":"Любить • Нравиться","example":"Ich mag das. – Мне это нравится."}],"tip":["Запомните конструкцию: Das gefällt mir.","При gefallen лицо, которому что-то нравится, ставится в дательный падеж."],"important":["gefallen используется с дательным падежом: mir, dir, ihm, ihr.","Das gefällt mir = мне это нравится."]}}
+**Note:** Pilna RU kartīte «gefallen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gefallen",
+  "lv": "Нравиться",
+  "level": "A1",
+  "study": {
+    "id": "a1-gefallen-study",
+    "layout": "standardStudy",
+    "translation": "Нравиться",
+    "explanation": [
+      "Основная идея: gefallen означает «нравиться».",
+      "Вещь, которая нравится, является подлежащим немецкого предложения.",
+      "Лицо, которому что-то нравится, выражается дательным падежом: mir, dir, ihm, ihr, uns, euch, ihnen."
+    ],
+    "examples": [
+      {
+        "de": "Das gefällt mir.",
+        "lv": "Мне это нравится."
+      },
+      {
+        "de": "Gefällt dir das Kleid?",
+        "lv": "Тебе нравится это платье?"
+      },
+      {
+        "de": "Der Film gefällt uns.",
+        "lv": "Нам нравится этот фильм."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "gefallen",
+        "meaning": "Нравиться; лицо в дательном падеже",
+        "example": "Das gefällt mir. – Мне это нравится."
+      },
+      {
+        "word": "mögen",
+        "meaning": "Любить • Нравиться",
+        "example": "Ich mag das. – Мне это нравится."
+      }
+    ],
+    "tip": [
+      "Запомните конструкцию: Das gefällt mir.",
+      "При gefallen лицо, которому что-то нравится, ставится в дательный падеж."
+    ],
+    "important": [
+      "gefallen используется с дательным падежом: mir, dir, ihm, ihr.",
+      "Das gefällt mir = мне это нравится."
+    ]
+  },
+  "index": 225
+}
+```
+
+---
+
+## Finding 26
+
+**Audit ID:** `LRB086-0026`
+**Finding Stable ID:** `g2/a1/ru|Geschichte|idx:233|lv, study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Geschichte|idx:233`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"история","study.translation":"история","study.explanation":"[\"Основная идея: Geschichte может означать историю или историю.\",\"Множественное число die Geschichten обычно означает истории.\",\"Когда bedeutet значит история, слово Geschichte обычно используется в единственном числе.\"]","study.examples":"[{\"de\":\"Er erzählt eine Geschichte.\",\"lv\":\"он рассказывает историю.\"},{\"de\":\"Ich lerne Geschichte.\",\"lv\":\"я учу историю.\"},{\"de\":\"Das ist die Geschichte Deutschlands.\",\"lv\":\"это история Германии.\"}]","study.comparison":"[{\"word\":\"eine Geschichte\",\"meaning\":\"история\",\"example\":\"интересная история – interesants stāsts\"},{\"word\":\"Geschichte\",\"meaning\":\"история\",\"example\":\"Geschichte lernen – учить историю\"}]","study.tip":"[\"С eine и во множественном числе обычно речь идёт об истории.\",\"Как учебный предмет Geschichte означает историю.\"]","study.important":"[\"die Geschichten = истории.\",\"Geschichte как история обычно имеет единственное число.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"История • Рассказ","study":{"id":"a1-geschichte-study","layout":"standardStudy","translation":"История • Рассказ","explanation":["Основная идея: Geschichte может означать «история» или «рассказ».","Множественное число die Geschichten обычно означает истории или рассказы.","Как учебный предмет Geschichte означает историю и обычно употребляется в единственном числе."],"examples":[{"de":"Er erzählt eine Geschichte.","lv":"Он рассказывает историю."},{"de":"Ich lerne Geschichte.","lv":"Я изучаю историю."},{"de":"Das ist die Geschichte Deutschlands.","lv":"Это история Германии."}],"comparison":[{"word":"eine Geschichte","meaning":"История • Рассказ","example":"eine interessante Geschichte – интересная история"},{"word":"Geschichte","meaning":"История как учебный предмет","example":"Geschichte lernen – изучать историю"}],"tip":["С eine Geschichte и во множественном числе обычно речь идёт об истории или рассказе.","Как учебный предмет Geschichte означает «история»."],"important":["Die Geschichten = истории или рассказы.","Geschichte как учебный предмет обычно употребляется в единственном числе."]}}
+**Note:** Pilna RU kartīte «Geschichte»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Geschichte",
+  "de_article": "die",
+  "de_plural": "die Geschichten",
+  "lv": "История • Рассказ",
+  "level": "A1",
+  "study": {
+    "id": "a1-geschichte-study",
+    "layout": "standardStudy",
+    "translation": "История • Рассказ",
+    "explanation": [
+      "Основная идея: Geschichte может означать «история» или «рассказ».",
+      "Множественное число die Geschichten обычно означает истории или рассказы.",
+      "Как учебный предмет Geschichte означает историю и обычно употребляется в единственном числе."
+    ],
+    "examples": [
+      {
+        "de": "Er erzählt eine Geschichte.",
+        "lv": "Он рассказывает историю."
+      },
+      {
+        "de": "Ich lerne Geschichte.",
+        "lv": "Я изучаю историю."
+      },
+      {
+        "de": "Das ist die Geschichte Deutschlands.",
+        "lv": "Это история Германии."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "eine Geschichte",
+        "meaning": "История • Рассказ",
+        "example": "eine interessante Geschichte – интересная история"
+      },
+      {
+        "word": "Geschichte",
+        "meaning": "История как учебный предмет",
+        "example": "Geschichte lernen – изучать историю"
+      }
+    ],
+    "tip": [
+      "С eine Geschichte и во множественном числе обычно речь идёт об истории или рассказе.",
+      "Как учебный предмет Geschichte означает «история»."
+    ],
+    "important": [
+      "Die Geschichten = истории или рассказы.",
+      "Geschichte как учебный предмет обычно употребляется в единственном числе."
+    ]
+  },
+  "index": 233
+}
+```
+
+---
+
+## Finding 27
+
+**Audit ID:** `LRB086-0027`
+**Finding Stable ID:** `g2/a1/ru|groß|idx:250|study.examples[1].lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `groß|idx:250`
+**Field / path:** `study.examples[1].lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** 
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Большой • Высокий","study":{"id":"a1-gross-study","layout":"standardStudy","translation":"Большой • Высокий","explanation":["Основная идея: groß означает «большой», а о росте человека — «высокий».","Groß описывает размер предметов и мест.","О человеке groß означает высокий рост."],"examples":[{"de":"Das Haus ist groß.","lv":"Дом большой."},{"de":"Berlin ist eine große Stadt.","lv":"Берлин — большой город."},{"de":"Er ist groß.","lv":"Он высокого роста."},{"de":"Das Zimmer ist groß.","lv":"Комната большая."}],"tip":["О предмете groß = большой.","О человеке groß = высокий."],"important":["Er ist groß = он высокий.","О предмете groß обычно означает «большой»."]}}
+**Note:** Pilna RU kartīte «groß»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "groß",
+  "lv": "Большой • Высокий",
+  "level": "A1",
+  "study": {
+    "id": "a1-gross-study",
+    "layout": "standardStudy",
+    "translation": "Большой • Высокий",
+    "explanation": [
+      "Основная идея: groß означает «большой», а о росте человека — «высокий».",
+      "Groß описывает размер предметов и мест.",
+      "О человеке groß означает высокий рост."
+    ],
+    "examples": [
+      {
+        "de": "Das Haus ist groß.",
+        "lv": "Дом большой."
+      },
+      {
+        "de": "Berlin ist eine große Stadt.",
+        "lv": "Берлин — большой город."
+      },
+      {
+        "de": "Er ist groß.",
+        "lv": "Он высокого роста."
+      },
+      {
+        "de": "Das Zimmer ist groß.",
+        "lv": "Комната большая."
+      }
+    ],
+    "tip": [
+      "О предмете groß = большой.",
+      "О человеке groß = высокий."
+    ],
+    "important": [
+      "Er ist groß = он высокий.",
+      "О предмете groß обычно означает «большой»."
+    ]
+  },
+  "index": 250
+}
+```
+
+---
+
+## Finding 28
+
+**Audit ID:** `LRB086-0028`
+**Finding Stable ID:** `g2/a1/ru|gut|idx:259|study.explanation, study.tip, study.important, lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `gut|idx:259`
+**Field / path:** `study.explanation, study.tip, study.important, lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"study.explanation":"[\"Основная идея: Gut — прилагательное/наречие, хорошее, успешное, окей.\",\"Gut описывает качество, здоровье или состояние дел (Es geht mir Gut. = У меня все хорошо).\",\"В вежливой фразе «guten Tag/Abend/Morgen Gut» меняет окончание после перегиба.\",\"Если Gut описывает глагол, то это наречие (gut schwimmen = хорошо плавать).\",\"Не путать с das Gut — это существительное (собственность, поместье) с заглавной буквы и артикля.\"]","study.tip":"[\"Гут без артикля – прилагательное/наречие – хорошо/хорошо.\",\"Das Gut с большой буквы и артикля — это совсем другое слово — существительное (собственность, поместье).\"]","study.important":"[\"Кишка = хорошо/хорошо (прилагательное/прилагательное).\",\"Das Gut = собственность/поместье (существительное) – не путать с гут.\",\"Guten Tag/Morgen/Abend – изменения кишки, заканчивающиеся после перегиба.\"]","lv":"Хороший"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Хороший • Хорошо","study":{"id":"a1-gut-study","layout":"standardStudy","translation":"Хороший • Хорошо","explanation":["Основная идея: gut — прилагательное или наречие со значениями «хороший», «хорошо», «успешный», «в порядке».","Gut описывает качество, состояние здоровья или то, как что-то происходит: Es geht mir gut. = У меня всё хорошо.","В приветствиях Guten Morgen!, Guten Tag! и Guten Abend! прилагательное gut получает окончание -en.","Если gut относится к глаголу, это наречие: gut schwimmen = хорошо плавать.","Не путайте das Gut — существительное со значениями «имущество» или «поместье»."],"examples":[{"de":"Das Essen ist gut.","lv":"Еда хорошая."},{"de":"Wie geht es dir? – Gut, danke!","lv":"Как у тебя дела? — Хорошо, спасибо!"},{"de":"Er spricht gut Deutsch.","lv":"Он хорошо говорит по-немецки."},{"de":"Guten Morgen!","lv":"Доброе утро!"},{"de":"Das ist eine gute Idee.","lv":"Это хорошая идея."},{"de":"Alles ist gut.","lv":"Всё хорошо."}],"tip":["Gut без артикля может быть прилагательным или наречием: хороший или хорошо.","Das Gut с заглавной буквы и артиклем означает «имущество» или «поместье»."],"important":["gut = хороший • хорошо.","Das Gut = имущество • поместье; это другое слово.","В Guten Tag, Guten Morgen и Guten Abend у gut появляется окончание -en."]}}
+**Note:** Pilna RU kartīte «gut»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gut",
+  "lv": "Хороший • Хорошо",
+  "level": "A1",
+  "study": {
+    "id": "a1-gut-study",
+    "layout": "standardStudy",
+    "translation": "Хороший • Хорошо",
+    "explanation": [
+      "Основная идея: gut — прилагательное или наречие со значениями «хороший», «хорошо», «успешный», «в порядке».",
+      "Gut описывает качество, состояние здоровья или то, как что-то происходит: Es geht mir gut. = У меня всё хорошо.",
+      "В приветствиях Guten Morgen!, Guten Tag! и Guten Abend! прилагательное gut получает окончание -en.",
+      "Если gut относится к глаголу, это наречие: gut schwimmen = хорошо плавать.",
+      "Не путайте das Gut — существительное со значениями «имущество» или «поместье»."
+    ],
+    "examples": [
+      {
+        "de": "Das Essen ist gut.",
+        "lv": "Еда хорошая."
+      },
+      {
+        "de": "Wie geht es dir? – Gut, danke!",
+        "lv": "Как у тебя дела? — Хорошо, спасибо!"
+      },
+      {
+        "de": "Er spricht gut Deutsch.",
+        "lv": "Он хорошо говорит по-немецки."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "Доброе утро!"
+      },
+      {
+        "de": "Das ist eine gute Idee.",
+        "lv": "Это хорошая идея."
+      },
+      {
+        "de": "Alles ist gut.",
+        "lv": "Всё хорошо."
+      }
+    ],
+    "tip": [
+      "Gut без артикля может быть прилагательным или наречием: хороший или хорошо.",
+      "Das Gut с заглавной буквы и артиклем означает «имущество» или «поместье»."
+    ],
+    "important": [
+      "gut = хороший • хорошо.",
+      "Das Gut = имущество • поместье; это другое слово.",
+      "В Guten Tag, Guten Morgen и Guten Abend у gut появляется окончание -en."
+    ]
+  },
+  "index": 259
+}
+```
+
+---
+
+## Finding 29
+
+**Audit ID:** `LRB086-0029`
+**Finding Stable ID:** `g2/a1/ru|halb|idx:262|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `halb|idx:262`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** Сторона
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Половинный • Наполовину"}
+**Note:** Pilna RU kartīte «halb»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "halb",
+  "lv": "Половинный • Наполовину",
+  "level": "A1",
+  "index": 262
+}
+```
+
+---
+
+## Finding 30
+
+**Audit ID:** `LRB086-0030`
+**Finding Stable ID:** `g2/a1/ru|Haltestelle|idx:266|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Haltestelle|idx:266`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** Останавливаться
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Остановка"}
+**Note:** Pilna RU kartīte «Haltestelle»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Haltestelle",
+  "de_article": "die",
+  "de_plural": "die Haltestellen",
+  "lv": "Остановка",
+  "level": "A1",
+  "index": 266
+}
+```
+
+---
+
+## Finding 31
+
+**Audit ID:** `LRB086-0031`
+**Finding Stable ID:** `g2/a1/ru|hören|idx:287|lv; study.translation; study.explanation; study.examples; study.tip; study.important|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `hören|idx:287`
+**Field / path:** `lv; study.translation; study.explanation; study.examples; study.tip; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Слышать • Слушать","study.translation":"Слышать • Слушать","study.explanation":"[\"Основная идея: услышать звук или послушать музыку.\",\"Hören в первую очередь означает: воспринимать звук.\",\"Часто характеризуются: звуками.\",\"Hören используется для обозначения звуков, музыки и того, что слышно.\"]","study.examples":"[{\"de\":\"Ich höre Musik.\",\"lv\":\"Я слушаю музыку.\"},{\"de\":\"Die Kinder hören eine Geschichte.\",\"lv\":\"Дети слушают рассказ.\"},{\"de\":\"Ich höre dich.\",\"lv\":\"Я слышу тебя\"}]","study.tip":"[\"Услышьте звук или послушайте музыку.\",\"Используйте hören, когда контекст соответствует этому значению.\"]","study.important":"[\"Hören = слышать/слушать звук.\",\"Услышьте звук или послушайте музыку.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Слышать • Слушать","study":{"id":"a1-hoeren-study","layout":"standardStudy","translation":"Слышать • Слушать","explanation":["Основная идея: hören означает воспринимать звуки или слушать что-либо.","Hören употребляется, когда речь идёт о звуках, музыке, рассказах или речи.","В зависимости от контекста hören переводится как «слышать» или «слушать».","Например, hören Musik — слушать музыку, а hören dich — слышать тебя."],"examples":[{"de":"Ich höre Musik.","lv":"Я слушаю музыку."},{"de":"Die Kinder hören eine Geschichte.","lv":"Дети слушают рассказ."},{"de":"Ich höre dich.","lv":"Я слышу тебя."}],"tip":["Используйте hören, когда речь идёт о восприятии звука или о слушании.","Перевод выбирается по контексту: «слышать» или «слушать»."],"important":["Hören = слышать или слушать.","С музыкой, рассказами и речью обычно используется перевод «слушать», а с воспринимаемым звуком — «слышать»."]}}
+**Note:** Pilna RU kartīte «hören»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hören",
+  "lv": "Слышать • Слушать",
+  "level": "A1",
+  "study": {
+    "id": "a1-hoeren-study",
+    "layout": "standardStudy",
+    "translation": "Слышать • Слушать",
+    "explanation": [
+      "Основная идея: hören означает воспринимать звуки или слушать что-либо.",
+      "Hören употребляется, когда речь идёт о звуках, музыке, рассказах или речи.",
+      "В зависимости от контекста hören переводится как «слышать» или «слушать».",
+      "Например, hören Musik — слушать музыку, а hören dich — слышать тебя."
+    ],
+    "examples": [
+      {
+        "de": "Ich höre Musik.",
+        "lv": "Я слушаю музыку."
+      },
+      {
+        "de": "Die Kinder hören eine Geschichte.",
+        "lv": "Дети слушают рассказ."
+      },
+      {
+        "de": "Ich höre dich.",
+        "lv": "Я слышу тебя."
+      }
+    ],
+    "tip": [
+      "Используйте hören, когда речь идёт о восприятии звука или о слушании.",
+      "Перевод выбирается по контексту: «слышать» или «слушать»."
+    ],
+    "important": [
+      "Hören = слышать или слушать.",
+      "С музыкой, рассказами и речью обычно используется перевод «слушать», а с воспринимаемым звуком — «слышать»."
+    ]
+  },
+  "index": 287
+}
+```
+
+---
+
+## Finding 32
+
+**Audit ID:** `LRB086-0032`
+**Finding Stable ID:** `g2/a1/ru|hübsch|idx:288|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `hübsch|idx:288`
+**Field / path:** `lv; study.translation; study.explanation; study.examples; study.comparison; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"красивый","study.translation":"красивый","study.explanation":"[\"Основная идея: hübsch означает красивый, привлекательный или симпатичный внешне.\",\"hübsch часто описывает внешность человека, одежды, комнаты или предмета.\",\"Латышское jauku в некоторых контекстах возможно, но оно слишком широко для основного перевода.\",\"Характер или вежливое поведение в немецком языке чаще описываются словом nett.\"]","study.examples":"[{\"de\":\"Sie trägt ein hübsches Kleid.\",\"lv\":\"У неё красивое платье.\"},{\"de\":\"Das Zimmer ist hübsch.\",\"lv\":\"Комната красивая.\"},{\"de\":\"Das ist ein hübsches Bild.\",\"lv\":\"Это красивая картина.\"}]","study.comparison":"[{\"word\":\"hübsch\",\"meaning\":\"красивый • привлекательный внешне\",\"example\":\"Это красивое платье. – Tā ir glīta kleita.\"},{\"word\":\"schön\",\"meaning\":\"красивый • приятный\",\"example\":\"Сад красивый. – Dārzs ir skaists.\"},{\"word\":\"nett\",\"meaning\":\"добрый • вежливый\",\"example\":\"Она очень добрая. – Viņa ir ļoti jauka.\"}]","study.important":"[\"hübsch — это не универсальный перевод слова jauku.\",\"Для характера человека или вежливого поведения обычно больше подходит nett.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Красивый","study":{"id":"a1-huebsch","layout":"standardStudy","translation":"Красивый","explanation":["Основная идея: hübsch означает «красивый» или «симпатичный» внешне.","Слово часто описывает внешность, одежду, помещение или предмет.","Для характера или любезного поведения чаще употребляют nett."],"examples":[{"de":"Sie trägt ein hübsches Kleid.","lv":"На ней красивое платье."},{"de":"Das Zimmer ist hübsch.","lv":"Комната красивая."},{"de":"Das ist ein hübsches Bild.","lv":"Это красивая картина."}],"comparison":[{"word":"hübsch","meaning":"Красивый • Симпатичный внешне","example":"Das ist ein hübsches Kleid. – Это красивое платье."},{"word":"schön","meaning":"Красивый • Прекрасный","example":"Der Garten ist schön. – Сад красивый."},{"word":"nett","meaning":"Приятный • Любезный","example":"Sie ist sehr nett. – Она очень приятная."}],"tip":{"text":"Hübsch описывает привлекательную внешность; nett чаще описывает приятного человека или поведение."},"important":["Hübsch относится прежде всего к внешнему виду.","Для характера или любезного поведения обычно подходит nett."]}}
+**Note:** Pilna RU kartīte «hübsch»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hübsch",
+  "lv": "Красивый",
+  "level": "A1",
+  "study": {
+    "id": "a1-huebsch",
+    "layout": "standardStudy",
+    "translation": "Красивый",
+    "explanation": [
+      "Основная идея: hübsch означает «красивый» или «симпатичный» внешне.",
+      "Слово часто описывает внешность, одежду, помещение или предмет.",
+      "Для характера или любезного поведения чаще употребляют nett."
+    ],
+    "examples": [
+      {
+        "de": "Sie trägt ein hübsches Kleid.",
+        "lv": "На ней красивое платье."
+      },
+      {
+        "de": "Das Zimmer ist hübsch.",
+        "lv": "Комната красивая."
+      },
+      {
+        "de": "Das ist ein hübsches Bild.",
+        "lv": "Это красивая картина."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "hübsch",
+        "meaning": "Красивый • Симпатичный внешне",
+        "example": "Das ist ein hübsches Kleid. – Это красивое платье."
+      },
+      {
+        "word": "schön",
+        "meaning": "Красивый • Прекрасный",
+        "example": "Der Garten ist schön. – Сад красивый."
+      },
+      {
+        "word": "nett",
+        "meaning": "Приятный • Любезный",
+        "example": "Sie ist sehr nett. – Она очень приятная."
+      }
+    ],
+    "tip": {
+      "text": "Hübsch описывает привлекательную внешность; nett чаще описывает приятного человека или поведение."
+    },
+    "important": [
+      "Hübsch относится прежде всего к внешнему виду.",
+      "Для характера или любезного поведения обычно подходит nett."
+    ]
+  },
+  "index": 288
+}
+```
+
+---
+
+## Finding 33
+
+**Audit ID:** `LRB086-0033`
+**Finding Stable ID:** `g2/a1/ru|ihr|idx:292|lv; study.translation; study.examples|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `ihr|idx:292`
+**Field / path:** `lv; study.translation; study.examples`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Ты • Она","study.translation":"Ты • Она","study.examples":"[{\"de\":\"Kommt ihr heute Abend?\",\"lv\":\"Ты придешь сегодня вечером?\"},{\"de\":\"Ich gebe ihr das Buch.\",\"lv\":\"Я даю ей книгу.\"},{\"de\":\"Wo wohnt ihr?\",\"lv\":\"Где вы живете?\"},{\"de\":\"Er schreibt ihr einen Brief.\",\"lv\":\"Он пишет ей письмо.\"},{\"de\":\"Habt ihr Zeit?\",\"lv\":\"У тебя есть время?\"},{\"de\":\"Das ist ihr Auto.\",\"lv\":\"Это ее машина.\"}]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Вы (мн. ч.) • Ей • Её","study":{"id":"a1-ihr","layout":"standardStudy","translation":"Вы (мн. ч.) • Ей • Её","explanation":["Основная идея: ihr означает «вы» при обращении к нескольким людям, «ей» в дательном падеже или «её» как притяжательное местоимение.","С формой глагола во множественном числе ihr означает «вы».","Перед существительным ihr может означать «её».","Как дательная форма от sie оно означает «ей».","Форма глагола помогает определить значение.","Вежливое обращение — Sie с большой буквы, а не ihr."],"examples":[{"de":"Kommt ihr heute Abend?","lv":"Вы придёте сегодня вечером?"},{"de":"Ich gebe ihr das Buch.","lv":"Я даю ей книгу."},{"de":"Wo wohnt ihr?","lv":"Где вы живёте?"},{"de":"Er schreibt ihr einen Brief.","lv":"Он пишет ей письмо."},{"de":"Habt ihr Zeit?","lv":"У вас есть время?"},{"de":"Das ist ihr Auto.","lv":"Это её машина."}],"tip":["Kommt ihr...? = вы; Ich gebe ihr... = ей; ihr Buch = её книга.","Определяйте значение по контексту."],"important":["Ihr = вы, ей или её — в зависимости от контекста.","Вежливое обращение пишется Sie.","Не употребляйте ihr как вежливое обращение к одному человеку."]}}
+**Note:** Pilna RU kartīte «ihr»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ihr",
+  "lv": "Вы (мн. ч.) • Ей • Её",
+  "level": "A1",
+  "study": {
+    "id": "a1-ihr",
+    "layout": "standardStudy",
+    "translation": "Вы (мн. ч.) • Ей • Её",
+    "explanation": [
+      "Основная идея: ihr означает «вы» при обращении к нескольким людям, «ей» в дательном падеже или «её» как притяжательное местоимение.",
+      "С формой глагола во множественном числе ihr означает «вы».",
+      "Перед существительным ihr может означать «её».",
+      "Как дательная форма от sie оно означает «ей».",
+      "Форма глагола помогает определить значение.",
+      "Вежливое обращение — Sie с большой буквы, а не ihr."
+    ],
+    "examples": [
+      {
+        "de": "Kommt ihr heute Abend?",
+        "lv": "Вы придёте сегодня вечером?"
+      },
+      {
+        "de": "Ich gebe ihr das Buch.",
+        "lv": "Я даю ей книгу."
+      },
+      {
+        "de": "Wo wohnt ihr?",
+        "lv": "Где вы живёте?"
+      },
+      {
+        "de": "Er schreibt ihr einen Brief.",
+        "lv": "Он пишет ей письмо."
+      },
+      {
+        "de": "Habt ihr Zeit?",
+        "lv": "У вас есть время?"
+      },
+      {
+        "de": "Das ist ihr Auto.",
+        "lv": "Это её машина."
+      }
+    ],
+    "tip": [
+      "Kommt ihr...? = вы; Ich gebe ihr... = ей; ihr Buch = её книга.",
+      "Определяйте значение по контексту."
+    ],
+    "important": [
+      "Ihr = вы, ей или её — в зависимости от контекста.",
+      "Вежливое обращение пишется Sie.",
+      "Не употребляйте ihr как вежливое обращение к одному человеку."
+    ]
+  },
+  "index": 292
+}
+```
+
+---
+
+## Finding 34
+
+**Audit ID:** `LRB086-0034`
+**Finding Stable ID:** `g2/a1/ru|im|idx:293|lv; study.translation; study.explanation; study.examples; study.important|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `im|idx:293`
+**Field / path:** `lv; study.translation; study.explanation; study.examples; study.important`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"В • Где?","study.translation":"В • Где?","study.explanation":"[\"Im — это сокращение от предлога in и артикля dem.\",\"Полная форма: in dem (кому?).\",\"Употребляется с существительными мужского рода и существительными любого рода при ответе на вопрос где? - расположение.\",\"В зависимости от времени и времен года: я январь, я лето, я зима.\",\"На практике вместо полного in dem почти всегда используется im.\"]","study.examples":"[{\"de\":\"Ich bin im Park.\",\"lv\":\"Я в парке\"},{\"de\":\"Wir wohnen im Zentrum.\",\"lv\":\"Мы живем в центре.\"},{\"de\":\"Im Sommer ist es warm.\",\"lv\":\"Летом тепло.\"},{\"de\":\"Er arbeitet im Büro.\",\"lv\":\"Он работает в офисе.\"},{\"de\":\"Das Kind spielt im Garten.\",\"lv\":\"Ребенок играет в саду.\"},{\"de\":\"Im Januar fahre ich nach Wien.\",\"lv\":\"Я поехал в Вену в январе.\"},{\"de\":\"Sie ist im Kino.\",\"lv\":\"Она снимается в кино.\"},{\"de\":\"Wir treffen uns im Restaurant.\",\"lv\":\"Мы встречаемся в ресторане.\"}]","study.important":"[\"Im = in dem, только с существительным мужского или среднего рода для кого? в перегибе.\",\"Ответы на вопрос где?, а не где? — местоположение, а не движение.\",\"С месяцами и сезонами: im März, im Herbst.\",\"Для женщин: in der Schule, а не im Schule.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"В • На (где?)","study":{"id":"a1-im","layout":"standardStudy","translation":"В • На (где?)","explanation":["Основная идея: im — сокращение in dem.","Употребляется с существительными мужского и среднего рода в дательном падеже.","Отвечает на вопрос «где?» и обозначает местоположение.","Также употребляется с месяцами и временами года.","Обычно используется сокращённая форма im."],"examples":[{"de":"Ich bin im Park.","lv":"Я в парке."},{"de":"Wir wohnen im Zentrum.","lv":"Мы живём в центре."},{"de":"Im Sommer ist es warm.","lv":"Летом тепло."},{"de":"Er arbeitet im Büro.","lv":"Он работает в офисе."},{"de":"Das Kind spielt im Garten.","lv":"Ребёнок играет в саду."},{"de":"Im Januar fahre ich nach Wien.","lv":"В январе я еду в Вену."},{"de":"Sie ist im Kino.","lv":"Она в кино."},{"de":"Wir treffen uns im Restaurant.","lv":"Мы встречаемся в ресторане."}],"comparison":[{"word":"im","meaning":"В • На, где? (дат. п.)","example":"im Park – в парке"},{"word":"ins","meaning":"Внутрь, куда? (вин. п.)","example":"ins Kino – в кино"},{"word":"in","meaning":"В • На (без артикля)","example":"in Berlin – в Берлине"},{"word":"am","meaning":"У • Возле, где? (дат. п.)","example":"am Fenster – у окна"},{"word":"auf","meaning":"На поверхности","example":"auf dem Tisch – на столе"}],"tip":["Запомните: in + dem → im.","Где? → im; куда? → ins."],"important":["Im = in dem.","Im отвечает на вопрос «где?», а не «куда?».","С месяцами и временами года: im März, im Herbst.","С женским родом: in der Schule."]}}
+**Note:** Pilna RU kartīte «im»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "im",
+  "lv": "В • На (где?)",
+  "level": "A1",
+  "study": {
+    "id": "a1-im",
+    "layout": "standardStudy",
+    "translation": "В • На (где?)",
+    "explanation": [
+      "Основная идея: im — сокращение in dem.",
+      "Употребляется с существительными мужского и среднего рода в дательном падеже.",
+      "Отвечает на вопрос «где?» и обозначает местоположение.",
+      "Также употребляется с месяцами и временами года.",
+      "Обычно используется сокращённая форма im."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin im Park.",
+        "lv": "Я в парке."
+      },
+      {
+        "de": "Wir wohnen im Zentrum.",
+        "lv": "Мы живём в центре."
+      },
+      {
+        "de": "Im Sommer ist es warm.",
+        "lv": "Летом тепло."
+      },
+      {
+        "de": "Er arbeitet im Büro.",
+        "lv": "Он работает в офисе."
+      },
+      {
+        "de": "Das Kind spielt im Garten.",
+        "lv": "Ребёнок играет в саду."
+      },
+      {
+        "de": "Im Januar fahre ich nach Wien.",
+        "lv": "В январе я еду в Вену."
+      },
+      {
+        "de": "Sie ist im Kino.",
+        "lv": "Она в кино."
+      },
+      {
+        "de": "Wir treffen uns im Restaurant.",
+        "lv": "Мы встречаемся в ресторане."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "im",
+        "meaning": "В • На, где? (дат. п.)",
+        "example": "im Park – в парке"
+      },
+      {
+        "word": "ins",
+        "meaning": "Внутрь, куда? (вин. п.)",
+        "example": "ins Kino – в кино"
+      },
+      {
+        "word": "in",
+        "meaning": "В • На (без артикля)",
+        "example": "in Berlin – в Берлине"
+      },
+      {
+        "word": "am",
+        "meaning": "У • Возле, где? (дат. п.)",
+        "example": "am Fenster – у окна"
+      },
+      {
+        "word": "auf",
+        "meaning": "На поверхности",
+        "example": "auf dem Tisch – на столе"
+      }
+    ],
+    "tip": [
+      "Запомните: in + dem → im.",
+      "Где? → im; куда? → ins."
+    ],
+    "important": [
+      "Im = in dem.",
+      "Im отвечает на вопрос «где?», а не «куда?».",
+      "С месяцами и временами года: im März, im Herbst.",
+      "С женским родом: in der Schule."
+    ]
+  },
+  "index": 293
+}
+```
+
+---
+
+## Finding 35
+
+**Audit ID:** `LRB086-0035`
+**Finding Stable ID:** `g2/a1/ru|in|idx:295|lv; study.translation; study.explanation; study.examples|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `in|idx:295`
+**Field / path:** `lv; study.translation; study.explanation; study.examples`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"В","study.translation":"В","study.explanation":"[\"Основная идея: in обычно означает «в месте» или «в месте», когда речь идет о пространстве, стране, городе или здании.\",\"Что касается местоположения, in часто переводится как in или in: in Berlin = в Берлине.\",\"При движении in означает внутрь: ins Kino = в кино.\",\"Латышский перевод меняется в зависимости от контекста.\"]","study.examples":"[{\"de\":\"Ich bin in Berlin.\",\"lv\":\"Я в Берлине\"},{\"de\":\"Ich gehe in die Schule.\",\"lv\":\"Я хожу в школу\"},{\"de\":\"Das Buch ist in der Tasche.\",\"lv\":\"Книга в сумке.\"},{\"de\":\"Wir gehen ins Kino.\",\"lv\":\"Мы идем в кино.\"}]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"В • Внутрь","study":{"id":"a1-in","layout":"standardStudy","translation":"В • Внутрь","explanation":["Основная идея: in обозначает нахождение внутри места или движение внутрь.","При местоположении переводится как «в»: in Berlin.","При движении обозначает направление внутрь: ins Kino.","Перевод зависит от падежа и контекста."],"examples":[{"de":"Ich bin in Berlin.","lv":"Я в Берлине."},{"de":"Ich gehe in die Schule.","lv":"Я иду в школу."},{"de":"Das Buch ist in der Tasche.","lv":"Книга в сумке."},{"de":"Wir gehen ins Kino.","lv":"Мы идём в кино."}],"tip":{"text":"Запомните: внутри или внутрь → in."},"important":["In не всегда переводится одним словом; значение определяется контекстом.","Для поверхности часто употребляется auf, а не in."]}}
+**Note:** Pilna RU kartīte «in»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "in",
+  "lv": "В • Внутрь",
+  "level": "A1",
+  "study": {
+    "id": "a1-in",
+    "layout": "standardStudy",
+    "translation": "В • Внутрь",
+    "explanation": [
+      "Основная идея: in обозначает нахождение внутри места или движение внутрь.",
+      "При местоположении переводится как «в»: in Berlin.",
+      "При движении обозначает направление внутрь: ins Kino.",
+      "Перевод зависит от падежа и контекста."
+    ],
+    "examples": [
+      {
+        "de": "Ich bin in Berlin.",
+        "lv": "Я в Берлине."
+      },
+      {
+        "de": "Ich gehe in die Schule.",
+        "lv": "Я иду в школу."
+      },
+      {
+        "de": "Das Buch ist in der Tasche.",
+        "lv": "Книга в сумке."
+      },
+      {
+        "de": "Wir gehen ins Kino.",
+        "lv": "Мы идём в кино."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: внутри или внутрь → in."
+    },
+    "important": [
+      "In не всегда переводится одним словом; значение определяется контекстом.",
+      "Для поверхности часто употребляется auf, а не in."
+    ]
+  },
+  "index": 295
+}
+```
+
+---
+
+## Finding 36
+
+**Audit ID:** `LRB086-0036`
+**Finding Stable ID:** `g2/a1/ru|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation`
+**Lang:** ru
+**Card:** `jetzt`
+**Field / path:** `a1.card.jetzt.native`
+**Severity:** MEDIUM
+**Category:** MULTI_TRANSLATION_REVIEW_REQUIRED
+**CURRENT (captured scope):** Сейчас • Сейчас
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Сейчас"}
+**Note:** Pilna RU kartīte «jetzt»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "jetzt",
+  "lv": "Сейчас",
+  "level": "A1",
+  "index": 302
+}
+```
+
+---
+
+## Finding 37
+
+**Audit ID:** `LRB086-0037`
+**Finding Stable ID:** `g2/a1/ru|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation`
+**Lang:** ru
+**Card:** `links`
+**Field / path:** `a1.card.links.native`
+**Severity:** MEDIUM
+**Category:** MULTI_TRANSLATION_REVIEW_REQUIRED
+**CURRENT (captured scope):** Влево • Влево
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Слева • Левый"}
+**Note:** Pilna RU kartīte «links»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "links",
+  "lv": "Слева • Левый",
+  "level": "A1",
+  "index": 380
+}
+```
+
+---
+
+## Finding 38
+
+**Audit ID:** `LRB086-0038`
+**Finding Stable ID:** `g2/a1/ru|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation`
+**Lang:** ru
+**Card:** `malen`
+**Field / path:** `a1.card.malen.native`
+**Severity:** MEDIUM
+**Category:** MULTI_TRANSLATION_REVIEW_REQUIRED
+**CURRENT (captured scope):** Рисовать • Рисовать
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Рисовать • Красить"}
+**Note:** Pilna RU kartīte «malen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "malen",
+  "lv": "Рисовать • Красить",
+  "level": "A1",
+  "index": 391
+}
+```
+
+---
+
+## Finding 39
+
+**Audit ID:** `LRB086-0039`
+**Finding Stable ID:** `g2/a1/ru|Mann|idx:394|lv; study.*.lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Mann|idx:394`
+**Field / path:** `lv; study.*.lv`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Мужчина • Муж","study.*.lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Мужчина • Муж","study":{"id":"a1-mann","layout":"standardStudy","translation":"Мужчина • Муж","explanation":["Основная идея: der Mann означает «мужчина» или «муж».","Без указания на супруга это обычно мужчина.","С mein, dein или ihr обычно имеется в виду муж.","Множественное число — die Männer.","Die Frau аналогично может означать женщину или жену."],"examples":[{"de":"Er ist ein netter Mann.","lv":"Он приятный мужчина."},{"de":"Das ist mein Mann.","lv":"Это мой муж."},{"de":"Wie viele Männer sind hier?","lv":"Сколько здесь мужчин?"},{"de":"Mein Mann arbeitet in Berlin.","lv":"Мой муж работает в Берлине."},{"de":"Der Mann trägt einen Anzug.","lv":"Мужчина носит костюм."},{"de":"Ihr Mann ist Arzt.","lv":"Её муж — врач."}],"tip":["Mein Mann обычно означает «мой муж».","Der Mann или ein Mann обычно означает «мужчина»."],"important":["Der Mann = мужчина или муж по контексту.","Mein Mann = мой муж.","Множественное число: die Männer."]}}
+**Note:** Pilna RU kartīte «Mann»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Mann",
+  "de_article": "der",
+  "de_plural": "die Männer",
+  "lv": "Мужчина • Муж",
+  "level": "A1",
+  "study": {
+    "id": "a1-mann",
+    "layout": "standardStudy",
+    "translation": "Мужчина • Муж",
+    "explanation": [
+      "Основная идея: der Mann означает «мужчина» или «муж».",
+      "Без указания на супруга это обычно мужчина.",
+      "С mein, dein или ihr обычно имеется в виду муж.",
+      "Множественное число — die Männer.",
+      "Die Frau аналогично может означать женщину или жену."
+    ],
+    "examples": [
+      {
+        "de": "Er ist ein netter Mann.",
+        "lv": "Он приятный мужчина."
+      },
+      {
+        "de": "Das ist mein Mann.",
+        "lv": "Это мой муж."
+      },
+      {
+        "de": "Wie viele Männer sind hier?",
+        "lv": "Сколько здесь мужчин?"
+      },
+      {
+        "de": "Mein Mann arbeitet in Berlin.",
+        "lv": "Мой муж работает в Берлине."
+      },
+      {
+        "de": "Der Mann trägt einen Anzug.",
+        "lv": "Мужчина носит костюм."
+      },
+      {
+        "de": "Ihr Mann ist Arzt.",
+        "lv": "Её муж — врач."
+      }
+    ],
+    "tip": [
+      "Mein Mann обычно означает «мой муж».",
+      "Der Mann или ein Mann обычно означает «мужчина»."
+    ],
+    "important": [
+      "Der Mann = мужчина или муж по контексту.",
+      "Mein Mann = мой муж.",
+      "Множественное число: die Männer."
+    ]
+  },
+  "index": 394
+}
+```
+
+---
+
+## Finding 40
+
+**Audit ID:** `LRB086-0040`
+**Finding Stable ID:** `g2/a1/ru|mit|idx:408|lv; study.*.lv; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `mit|idx:408`
+**Field / path:** `lv; study.*.lv; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"С","study.*.lv":null,"study.important":"[\"Mit требует дательного падежа: mit dem Bus, mit der Mutter, mit dir.\",\"Где вы живете? означает «Ты пойдешь со мной?»\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"С • При помощи","study":{"id":"a1-mit","layout":"standardStudy","translation":"С • При помощи","explanation":["Основная идея: mit чаще всего означает «с».","Mit употребляется для совместности или обозначения средства.","С транспортом перевод меняется: mit dem Bus = на автобусе.","Частые выражения: mit dem Bus, mit dem Auto, mit dir."],"examples":[{"de":"Ich komme mit dir.","lv":"Я иду с тобой."},{"de":"Ich fahre mit dem Bus.","lv":"Я еду на автобусе."},{"de":"Sie schreibt mit dem Stift.","lv":"Она пишет ручкой."},{"de":"Kommst du mit?","lv":"Ты идёшь с нами?"}],"comparison":[{"word":"mit","meaning":"С • Вместе с","example":"Ich komme mit dir. – Я иду с тобой."},{"word":"ohne","meaning":"Без","example":"Ich komme ohne dich. – Я иду без тебя."},{"word":"bei","meaning":"У • У кого-либо","example":"Ich bin bei Anna. – Я у Анны."},{"word":"zu","meaning":"К","example":"Ich gehe zum Arzt. – Я иду к врачу."}],"tip":{"text":"Запомните: вместе с кем-либо или при помощи чего-либо → mit."},"important":["Mit требует дательного падежа: mit dem Bus, mit der Mutter, mit dir.","Kommst du mit? означает «Ты идёшь с нами?» или «Ты идёшь тоже?»."]}}
+**Note:** Pilna RU kartīte «mit»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "mit",
+  "lv": "С • При помощи",
+  "level": "A1",
+  "study": {
+    "id": "a1-mit",
+    "layout": "standardStudy",
+    "translation": "С • При помощи",
+    "explanation": [
+      "Основная идея: mit чаще всего означает «с».",
+      "Mit употребляется для совместности или обозначения средства.",
+      "С транспортом перевод меняется: mit dem Bus = на автобусе.",
+      "Частые выражения: mit dem Bus, mit dem Auto, mit dir."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme mit dir.",
+        "lv": "Я иду с тобой."
+      },
+      {
+        "de": "Ich fahre mit dem Bus.",
+        "lv": "Я еду на автобусе."
+      },
+      {
+        "de": "Sie schreibt mit dem Stift.",
+        "lv": "Она пишет ручкой."
+      },
+      {
+        "de": "Kommst du mit?",
+        "lv": "Ты идёшь с нами?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "mit",
+        "meaning": "С • Вместе с",
+        "example": "Ich komme mit dir. – Я иду с тобой."
+      },
+      {
+        "word": "ohne",
+        "meaning": "Без",
+        "example": "Ich komme ohne dich. – Я иду без тебя."
+      },
+      {
+        "word": "bei",
+        "meaning": "У • У кого-либо",
+        "example": "Ich bin bei Anna. – Я у Анны."
+      },
+      {
+        "word": "zu",
+        "meaning": "К",
+        "example": "Ich gehe zum Arzt. – Я иду к врачу."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: вместе с кем-либо или при помощи чего-либо → mit."
+    },
+    "important": [
+      "Mit требует дательного падежа: mit dem Bus, mit der Mutter, mit dir.",
+      "Kommst du mit? означает «Ты идёшь с нами?» или «Ты идёшь тоже?»."
+    ]
+  },
+  "index": 408
+}
+```
+
+---
+
+## Finding 41
+
+**Audit ID:** `LRB086-0041`
+**Finding Stable ID:** `g2/a1/ru|mögen|idx:413|lv; study.*.lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `mögen|idx:413`
+**Field / path:** `lv; study.*.lv`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Нравиться","study.*.lv":null}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Нравиться • Любить","study":{"id":"a1-mögen","layout":"standardStudy","translation":"Нравиться • Любить","explanation":["Основная идея: mögen означает, что кто-либо или что-либо нравится.","Ich mag... переводится как «мне нравится...» или «я люблю...».","Möchte выражает вежливое желание: «я хотел бы».","Важная фраза: Ich mag das."],"examples":[{"de":"Ich mag Musik.","lv":"Мне нравится музыка."},{"de":"Magst du Kaffee?","lv":"Тебе нравится кофе?"},{"de":"Sie mag Kinder.","lv":"Она любит детей."},{"de":"Ich möchte einen Kaffee.","lv":"Я хотел бы кофе."}],"comparison":[{"word":"mögen","meaning":"Нравиться • Любить","example":"Ich mag Musik. – Мне нравится музыка."},{"word":"möchte","meaning":"Хотел бы","example":"Ich möchte Kaffee. – Я хотел бы кофе."},{"word":"wollen","meaning":"Хотеть","example":"Ich will nach Hause. – Я хочу домой."},{"word":"lieben","meaning":"Любить","example":"Ich liebe dich. – Я люблю тебя."}],"tip":{"text":"Ich mag... = мне нравится... или я люблю..."},"important":["Для вежливого «я хотел бы» обычно употребляется möchte.","Ich mag Kaffee = мне нравится кофе."]}}
+**Note:** Pilna RU kartīte «mögen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "mögen",
+  "lv": "Нравиться • Любить",
+  "level": "A1",
+  "study": {
+    "id": "a1-mögen",
+    "layout": "standardStudy",
+    "translation": "Нравиться • Любить",
+    "explanation": [
+      "Основная идея: mögen означает, что кто-либо или что-либо нравится.",
+      "Ich mag... переводится как «мне нравится...» или «я люблю...».",
+      "Möchte выражает вежливое желание: «я хотел бы».",
+      "Важная фраза: Ich mag das."
+    ],
+    "examples": [
+      {
+        "de": "Ich mag Musik.",
+        "lv": "Мне нравится музыка."
+      },
+      {
+        "de": "Magst du Kaffee?",
+        "lv": "Тебе нравится кофе?"
+      },
+      {
+        "de": "Sie mag Kinder.",
+        "lv": "Она любит детей."
+      },
+      {
+        "de": "Ich möchte einen Kaffee.",
+        "lv": "Я хотел бы кофе."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "mögen",
+        "meaning": "Нравиться • Любить",
+        "example": "Ich mag Musik. – Мне нравится музыка."
+      },
+      {
+        "word": "möchte",
+        "meaning": "Хотел бы",
+        "example": "Ich möchte Kaffee. – Я хотел бы кофе."
+      },
+      {
+        "word": "wollen",
+        "meaning": "Хотеть",
+        "example": "Ich will nach Hause. – Я хочу домой."
+      },
+      {
+        "word": "lieben",
+        "meaning": "Любить",
+        "example": "Ich liebe dich. – Я люблю тебя."
+      }
+    ],
+    "tip": {
+      "text": "Ich mag... = мне нравится... или я люблю..."
+    },
+    "important": [
+      "Для вежливого «я хотел бы» обычно употребляется möchte.",
+      "Ich mag Kaffee = мне нравится кофе."
+    ]
+  },
+  "index": 413
+}
+```
+
+---
+
+## Finding 42
+
+**Audit ID:** `LRB086-0042`
+**Finding Stable ID:** `g2/a1/ru|morgen|idx:417|lv; study.explanation; study.examples|DE_SOURCE_ISSUE|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `morgen|idx:417`
+**Field / path:** `lv; study.explanation; study.examples`
+**Severity:** HIGH
+**Category:** OTHER_REVIEW_REQUIRED
+**CURRENT (captured scope):** {"lv":"Завтра","study.explanation":"[\"Основная идея: Наречие времени пишется строчными буквами. Значит на следующий день - завтра.\",\"Morgen в основном означает: на следующий день.\",\"Часто характеризуются: погодой.\",\"Morgen прежде всего означает: часть дня.\",\"Часто описывает: существительное (der).\",\"Морген в основном означает: несколько утра.\",\"Часто характеризуется: существительным (мн.).\",\"Morgen с маленькой буквы означает завтра — следующий день (Ich komme morgen = я приду завтра, Bis morgen!\"]","study.examples":"[{\"de\":\"Ich komme morgen.\",\"lv\":\"Я приду завтра.\"},{\"de\":\"Bis morgen!\",\"lv\":\"До завтра!\"},{\"de\":\"Ich komme morgen.\",\"lv\":\"Я приду завтра\"},{\"de\":\"Morgen ist Montag.\",\"lv\":\"Завтра понедельник\"},{\"de\":\"Guten Morgen!\",\"lv\":\"Доброе утро!\"},{\"de\":\"Der Morgen ist schön.\",\"lv\":\"Утро прекрасное.\"}]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Завтра","study":{"id":"a1-morgen","layout":"standardStudy","translation":"Завтра","explanation":["Основная идея: morgen с маленькой буквы означает «завтра».","Это обстоятельство времени, обозначающее следующий день.","Morgen с большой буквы может означать существительное «утро»."],"examples":[{"de":"Ich komme morgen.","lv":"Я приду завтра."},{"de":"Bis morgen!","lv":"До завтра!"},{"de":"Ich komme morgen.","lv":"Я приду завтра."},{"de":"Morgen ist Montag.","lv":"Завтра понедельник."},{"de":"Guten Morgen!","lv":"Доброе утро!"},{"de":"Der Morgen ist schön.","lv":"Утро прекрасное."}],"tip":["morgen = завтра.","der Morgen = утро."],"important":["В начале предложения Morgen пишется с большой буквы и может означать «завтра».","Der Morgen — существительное «утро».","Guten Morgen! пишется с большой буквы."]}}
+**Note:** Pilna RU kartīte «morgen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "morgen",
+  "lv": "Завтра",
+  "level": "A1",
+  "study": {
+    "id": "a1-morgen",
+    "layout": "standardStudy",
+    "translation": "Завтра",
+    "explanation": [
+      "Основная идея: morgen с маленькой буквы означает «завтра».",
+      "Это обстоятельство времени, обозначающее следующий день.",
+      "Morgen с большой буквы может означать существительное «утро»."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme morgen.",
+        "lv": "Я приду завтра."
+      },
+      {
+        "de": "Bis morgen!",
+        "lv": "До завтра!"
+      },
+      {
+        "de": "Ich komme morgen.",
+        "lv": "Я приду завтра."
+      },
+      {
+        "de": "Morgen ist Montag.",
+        "lv": "Завтра понедельник."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "Доброе утро!"
+      },
+      {
+        "de": "Der Morgen ist schön.",
+        "lv": "Утро прекрасное."
+      }
+    ],
+    "tip": [
+      "morgen = завтра.",
+      "der Morgen = утро."
+    ],
+    "important": [
+      "В начале предложения Morgen пишется с большой буквы и может означать «завтра».",
+      "Der Morgen — существительное «утро».",
+      "Guten Morgen! пишется с большой буквы."
+    ]
+  },
+  "index": 417
+}
+```
+
+---
+
+## Finding 43
+
+**Audit ID:** `LRB086-0043`
+**Finding Stable ID:** `g2/a1/ru|Morgen|idx:418|lv; study.examples; study.sectionAccents|DE_SOURCE_ISSUE|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Morgen|idx:418`
+**Field / path:** `lv; study.examples; study.sectionAccents`
+**Severity:** HIGH
+**Category:** OTHER_REVIEW_REQUIRED
+**CURRENT (captured scope):** {"lv":"Утро","study.examples":"[{\"de\":\"Guten Morgen!\",\"lv\":\"Доброе утро!\"},{\"de\":\"Bis morgen!\",\"lv\":\"До завтра!\"},{\"de\":\"Ich komme morgen.\",\"lv\":\"Я приду завтра\"},{\"de\":\"Morgen ist Montag.\",\"lv\":\"Завтра понедельник\"},{\"de\":\"Guten Morgen!\",\"lv\":\"Доброе утро!\"},{\"de\":\"Der Morgen ist schön.\",\"lv\":\"Утро прекрасное.\"}]","study.sectionAccents":"{\"explanation\":{\"green\":[\"der Morgen\",\"morgen\"],\"yellow\":[\"Morgen\"]},\"examples\":[{\"de\":{\"green\":[\"morgen\"]},\"lv\":{}},{\"de\":{\"green\":[\"morgen\"]},\"lv\":{}},{\"de\":{\"green\":[\"morgen\"]},\"lv\":{}},{\"de\":{\"green\":[\"morgen\"]},\"lv\":{}},{\"de\":{\"green\":[\"morgen\"]},\"lv\":{}},{\"de\":{\"green\":[\"der Morgen\",\"morgen\"]},\"lv\":{}}],\"tip\":[{}],\"important\":[{}]}"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Утро","study":{"id":"a1-morgen-study","layout":"standardStudy","translation":"Утро","explanation":["Основная идея: der Morgen — существительное со значением «утро».","Оно пишется с большой буквы и употребляется с артиклем der.","Morgen в начале предложения может также означать «завтра».","Внутри предложения morgen с маленькой буквы означает «завтра»."],"examples":[{"de":"Guten Morgen!","lv":"Доброе утро!"},{"de":"Bis morgen!","lv":"До завтра!"},{"de":"Ich komme morgen.","lv":"Я приду завтра."},{"de":"Morgen ist Montag.","lv":"Завтра понедельник."},{"de":"Guten Morgen!","lv":"Доброе утро!"},{"de":"Der Morgen ist schön.","lv":"Утро прекрасное."}],"tip":["morgen = завтра.","der Morgen = утро."],"important":["Der Morgen — существительное.","Morgen в начале предложения может означать «завтра».","Guten Morgen! пишется с большой буквы."]}}
+**Note:** Pilna RU kartīte «Morgen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Morgen",
+  "de_article": "der",
+  "lv": "Утро",
+  "level": "A1",
+  "study": {
+    "id": "a1-morgen-study",
+    "layout": "standardStudy",
+    "translation": "Утро",
+    "explanation": [
+      "Основная идея: der Morgen — существительное со значением «утро».",
+      "Оно пишется с большой буквы и употребляется с артиклем der.",
+      "Morgen в начале предложения может также означать «завтра».",
+      "Внутри предложения morgen с маленькой буквы означает «завтра»."
+    ],
+    "examples": [
+      {
+        "de": "Guten Morgen!",
+        "lv": "Доброе утро!"
+      },
+      {
+        "de": "Bis morgen!",
+        "lv": "До завтра!"
+      },
+      {
+        "de": "Ich komme morgen.",
+        "lv": "Я приду завтра."
+      },
+      {
+        "de": "Morgen ist Montag.",
+        "lv": "Завтра понедельник."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "Доброе утро!"
+      },
+      {
+        "de": "Der Morgen ist schön.",
+        "lv": "Утро прекрасное."
+      }
+    ],
+    "tip": [
+      "morgen = завтра.",
+      "der Morgen = утро."
+    ],
+    "important": [
+      "Der Morgen — существительное.",
+      "Morgen в начале предложения может означать «завтра».",
+      "Guten Morgen! пишется с большой буквы."
+    ]
+  },
+  "index": 418
+}
+```
+
+---
+
+## Finding 44
+
+**Audit ID:** `LRB086-0044`
+**Finding Stable ID:** `g2/a1/ru|nach|idx:426|lv|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `nach|idx:426`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** До • После
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"В • На • После","study":{"id":"a1-nach","layout":"standardStudy","translation":"В • На • После","explanation":["Основная идея: nach означает «в» или «на» с географическими названиями без артикля и «после» во времени.","С городами и странами без артикля nach указывает направление.","Во временном значении nach означает «после».","Nach Hause означает «домой»."],"examples":[{"de":"Ich fahre nach Berlin.","lv":"Я еду в Берлин."},{"de":"Wir gehen nach Hause.","lv":"Мы идём домой."},{"de":"Nach dem Essen gehen wir spazieren.","lv":"После еды мы идём гулять."},{"de":"Es ist zehn nach acht.","lv":"Сейчас десять минут девятого."}],"comparison":[{"word":"nach","meaning":"В • На • После","example":"Ich fahre nach Berlin. – Я еду в Берлин."},{"word":"zu","meaning":"К","example":"Ich gehe zum Arzt. – Я иду к врачу."},{"word":"in","meaning":"Внутрь • В место с артиклем","example":"Ich gehe in die Schule. – Я иду в школу."},{"word":"vor","meaning":"До • Перед","example":"Vor dem Essen wasche ich die Hände. – Перед едой я мою руки."}],"tip":{"text":"Запомните: nach Hause; nach Berlin; nach dem Essen."},"important":["Nach употребляется не со всеми местами.","Обычно говорят in die Schule, а не nach Schule."]}}
+**Note:** Pilna RU kartīte «nach»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "nach",
+  "lv": "В • На • После",
+  "level": "A1",
+  "study": {
+    "id": "a1-nach",
+    "layout": "standardStudy",
+    "translation": "В • На • После",
+    "explanation": [
+      "Основная идея: nach означает «в» или «на» с географическими названиями без артикля и «после» во времени.",
+      "С городами и странами без артикля nach указывает направление.",
+      "Во временном значении nach означает «после».",
+      "Nach Hause означает «домой»."
+    ],
+    "examples": [
+      {
+        "de": "Ich fahre nach Berlin.",
+        "lv": "Я еду в Берлин."
+      },
+      {
+        "de": "Wir gehen nach Hause.",
+        "lv": "Мы идём домой."
+      },
+      {
+        "de": "Nach dem Essen gehen wir spazieren.",
+        "lv": "После еды мы идём гулять."
+      },
+      {
+        "de": "Es ist zehn nach acht.",
+        "lv": "Сейчас десять минут девятого."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "nach",
+        "meaning": "В • На • После",
+        "example": "Ich fahre nach Berlin. – Я еду в Берлин."
+      },
+      {
+        "word": "zu",
+        "meaning": "К",
+        "example": "Ich gehe zum Arzt. – Я иду к врачу."
+      },
+      {
+        "word": "in",
+        "meaning": "Внутрь • В место с артиклем",
+        "example": "Ich gehe in die Schule. – Я иду в школу."
+      },
+      {
+        "word": "vor",
+        "meaning": "До • Перед",
+        "example": "Vor dem Essen wasche ich die Hände. – Перед едой я мою руки."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: nach Hause; nach Berlin; nach dem Essen."
+    },
+    "important": [
+      "Nach употребляется не со всеми местами.",
+      "Обычно говорят in die Schule, а не nach Schule."
+    ]
+  },
+  "index": 426
+}
+```
+
+---
+
+## Finding 45
+
+**Audit ID:** `LRB086-0045`
+**Finding Stable ID:** `g2/a1/ru|neu|idx:439|study.explanation|INTERNAL_CONTRADICTION|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `neu|idx:439`
+**Field / path:** `study.explanation`
+**Severity:** MEDIUM
+**Category:** OTHER_REVIEW_REQUIRED
+**CURRENT (captured scope):** ["Основная идея: neu означает новую вещь — недавно созданную, купленную или использованную впервые.","Neu описывает вещи, устройства, одежду, дома, идеи и т. д., а не возраст человека или животного.","В латышском языке слово молодой имеет два значения: молодой по возрасту (jung) и молодой/недавно созданный (neu).","Для возраста человека или животного используется Юнг, а не Ней.","Neu также используется в переносном смысле: новая работа, новая информация, новое начало.","Противоположностью является alt (старый) • Существительное das Neue означает новый."]
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Новый","study":{"id":"a1-neu","layout":"standardStudy","translation":"Новый","explanation":["Основная идея: neu означает «новый» — недавно созданный, купленный или впервые использованный.","Neu описывает вещи, устройства, одежду, дома и идеи, а не возраст.","О возрасте человека или животного говорят jung.","Neu также употребляется переносно: новая работа, информация или начало.","Противоположное слово — alt.","Das Neue означает «новое»."],"examples":[{"de":"Mein Handy ist neu.","lv":"Мой телефон новый."},{"de":"Wir haben ein neues Auto.","lv":"У нас новая машина."},{"de":"Das ist meine neue Wohnung.","lv":"Это моя новая квартира."},{"de":"Ich habe neue Schuhe gekauft.","lv":"Я купил новые туфли."},{"de":"Das ist eine neue Idee.","lv":"Это новая идея."},{"de":"Er hat einen neuen Job.","lv":"У него новая работа."},{"de":"Was gibt es Neues?","lv":"Что нового?"}],"tip":["Neu относится к вещам и новому; о возрасте говорят jung.","Противоположность: neu ↔ alt."],"important":["Neu описывает вещи и новое, а не возраст.","О возрасте человека или животного употребляют jung.","Неправильно: Meine Schwester ist neu. Правильно: Meine Schwester ist jung."]}}
+**Note:** Pilna RU kartīte «neu»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "neu",
+  "lv": "Новый",
+  "level": "A1",
+  "study": {
+    "id": "a1-neu",
+    "layout": "standardStudy",
+    "translation": "Новый",
+    "explanation": [
+      "Основная идея: neu означает «новый» — недавно созданный, купленный или впервые использованный.",
+      "Neu описывает вещи, устройства, одежду, дома и идеи, а не возраст.",
+      "О возрасте человека или животного говорят jung.",
+      "Neu также употребляется переносно: новая работа, информация или начало.",
+      "Противоположное слово — alt.",
+      "Das Neue означает «новое»."
+    ],
+    "examples": [
+      {
+        "de": "Mein Handy ist neu.",
+        "lv": "Мой телефон новый."
+      },
+      {
+        "de": "Wir haben ein neues Auto.",
+        "lv": "У нас новая машина."
+      },
+      {
+        "de": "Das ist meine neue Wohnung.",
+        "lv": "Это моя новая квартира."
+      },
+      {
+        "de": "Ich habe neue Schuhe gekauft.",
+        "lv": "Я купил новые туфли."
+      },
+      {
+        "de": "Das ist eine neue Idee.",
+        "lv": "Это новая идея."
+      },
+      {
+        "de": "Er hat einen neuen Job.",
+        "lv": "У него новая работа."
+      },
+      {
+        "de": "Was gibt es Neues?",
+        "lv": "Что нового?"
+      }
+    ],
+    "tip": [
+      "Neu относится к вещам и новому; о возрасте говорят jung.",
+      "Противоположность: neu ↔ alt."
+    ],
+    "important": [
+      "Neu описывает вещи и новое, а не возраст.",
+      "О возрасте человека или животного употребляют jung.",
+      "Неправильно: Meine Schwester ist neu. Правильно: Meine Schwester ist jung."
+    ]
+  },
+  "index": 439
+}
+```
+
+---
+
+## Finding 46
+
+**Audit ID:** `LRB086-0046`
+**Finding Stable ID:** `g2/a1/ru|probieren|idx:482|lv, study.translation, study.explanation, study.examples, study.comparison, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `probieren|idx:482`
+**Field / path:** `lv, study.translation, study.explanation, study.examples, study.comparison, study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Попробовать • Попробовать","study.translation":"Попробовать • Попробовать","study.explanation":"[\"Основная идея: probieren означает попробовать или попробовать.\",\"Когда речь идет о еде или питье, слово «пробиерен» часто означает «вкус».\",\"Когда речь идет о действии, методе или вещи, «пробиерен» означает «попробовать».\",\"Это не то же самое, что prüfen, что означает более тщательную проверку.\"]","study.examples":"[{\"de\":\"Probier mal die Suppe!\",\"lv\":\"Попробовать суп!\"},{\"de\":\"Ich möchte den Kuchen probieren.\",\"lv\":\"Я хочу попробовать торт.\"},{\"de\":\"Wir probieren eine neue Methode.\",\"lv\":\"Мы пробуем новый метод.\"},{\"de\":\"Kann ich die Jacke anprobieren?\",\"lv\":\"Могу ли я примерить куртку\"}]","study.comparison":"[{\"word\":\"probieren\",\"meaning\":\"Попробовать / попробовать\",\"example\":\"Попробуй суп!\"},{\"word\":\"versuchen\",\"meaning\":\"Попробовать\",\"example\":\"Я стараюсь.\"},{\"word\":\"prüfen\",\"meaning\":\"Проверить\",\"example\":\"Я проверяю счёт.\"},{\"word\":\"anprobieren\",\"meaning\":\"Примерить\",\"example\":\"Я примеряю куртку.\"}]","study.important":"[\"Пробиерен не является основным словом для формального экзамена.\",\"Проверка документа или счета-фактуры обычно не вызывает затруднений.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Пробовать • Пробовать на вкус","study":{"id":"a1-probieren","layout":"standardStudy","translation":"Пробовать • Пробовать на вкус","explanation":["Основная идея: probieren означает «пробовать» или «пробовать на вкус».","С едой и напитками это обычно «пробовать на вкус».","С действием, методом или предметом — «пробовать».","Prüfen означает более тщательную проверку."],"examples":[{"de":"Probier mal die Suppe!","lv":"Попробуй суп!"},{"de":"Ich möchte den Kuchen probieren.","lv":"Я хочу попробовать торт."},{"de":"Wir probieren eine neue Methode.","lv":"Мы пробуем новый метод."},{"de":"Kann ich die Jacke anprobieren?","lv":"Можно я примерю куртку?"}],"comparison":[{"word":"probieren","meaning":"Пробовать • Пробовать на вкус","example":"Probier mal die Suppe! – Попробуй суп!"},{"word":"versuchen","meaning":"Пытаться • Пробовать","example":"Ich versuche es. – Я пытаюсь это сделать."},{"word":"prüfen","meaning":"Проверять","example":"Ich prüfe die Rechnung. – Я проверяю счёт."},{"word":"anprobieren","meaning":"Примерять","example":"Ich probiere die Jacke an. – Я примеряю куртку."}],"tip":{"text":"Запомните: еда → probieren = пробовать на вкус."},"important":["Probieren не является основным словом для официальной проверки.","Документ или счёт обычно проверяют с prüfen."]}}
+**Note:** Pilna RU kartīte «probieren»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "probieren",
+  "lv": "Пробовать • Пробовать на вкус",
+  "level": "A1",
+  "study": {
+    "id": "a1-probieren",
+    "layout": "standardStudy",
+    "translation": "Пробовать • Пробовать на вкус",
+    "explanation": [
+      "Основная идея: probieren означает «пробовать» или «пробовать на вкус».",
+      "С едой и напитками это обычно «пробовать на вкус».",
+      "С действием, методом или предметом — «пробовать».",
+      "Prüfen означает более тщательную проверку."
+    ],
+    "examples": [
+      {
+        "de": "Probier mal die Suppe!",
+        "lv": "Попробуй суп!"
+      },
+      {
+        "de": "Ich möchte den Kuchen probieren.",
+        "lv": "Я хочу попробовать торт."
+      },
+      {
+        "de": "Wir probieren eine neue Methode.",
+        "lv": "Мы пробуем новый метод."
+      },
+      {
+        "de": "Kann ich die Jacke anprobieren?",
+        "lv": "Можно я примерю куртку?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "probieren",
+        "meaning": "Пробовать • Пробовать на вкус",
+        "example": "Probier mal die Suppe! – Попробуй суп!"
+      },
+      {
+        "word": "versuchen",
+        "meaning": "Пытаться • Пробовать",
+        "example": "Ich versuche es. – Я пытаюсь это сделать."
+      },
+      {
+        "word": "prüfen",
+        "meaning": "Проверять",
+        "example": "Ich prüfe die Rechnung. – Я проверяю счёт."
+      },
+      {
+        "word": "anprobieren",
+        "meaning": "Примерять",
+        "example": "Ich probiere die Jacke an. – Я примеряю куртку."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: еда → probieren = пробовать на вкус."
+    },
+    "important": [
+      "Probieren не является основным словом для официальной проверки.",
+      "Документ или счёт обычно проверяют с prüfen."
+    ]
+  },
+  "index": 482
+}
+```
+
+---
+
+## Finding 47
+
+**Audit ID:** `LRB086-0047`
+**Finding Stable ID:** `g2/a1/ru|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation`
+**Lang:** ru
+**Card:** `rechts`
+**Field / path:** `a1.card.rechts.native`
+**Severity:** MEDIUM
+**Category:** MULTI_TRANSLATION_REVIEW_REQUIRED
+**CURRENT (captured scope):** Вправо • Вправо
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Справа • Правый"}
+**Note:** Pilna RU kartīte «rechts»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "rechts",
+  "lv": "Справа • Правый",
+  "level": "A1",
+  "index": 491
+}
+```
+
+---
+
+## Finding 48
+
+**Audit ID:** `LRB086-0048`
+**Finding Stable ID:** `g2/a1/ru|rechts|idx:491|lv|STYLE_ONLY|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `rechts|idx:491`
+**Field / path:** `lv`
+**Severity:** LOW
+**Category:** STYLE_FLUENCY_OR_REGISTER
+**CURRENT (captured scope):** Вправо • Вправо
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Справа • Правый"}
+**Note:** Pilna RU kartīte «rechts»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "rechts",
+  "lv": "Справа • Правый",
+  "level": "A1",
+  "index": 491
+}
+```
+
+---
+
+## Finding 49
+
+**Audit ID:** `LRB086-0049`
+**Finding Stable ID:** `g2/a1/ru|Reis|idx:496|lv, study.translation, study.explanation, study.examples, study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `Reis|idx:496`
+**Field / path:** `lv, study.translation, study.explanation, study.examples, study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Рис","study.translation":"Рис","study.explanation":"В немецком языке слово «der Reis» употребляется только в единственном числе, поэтому глагол в предложении должен стоять в единственном числе (например, «ist», а не «sind»). Латыши, однако, часто говорят «рис».","study.examples":"[{\"de\":\"Der Reis ist fertig.\",\"lv\":\"Рис готов.\"},{\"de\":\"Ich esse Reis.\",\"lv\":\"Я ем рис\"},{\"de\":\"Kochst du Reis?\",\"lv\":\"Ты готовишь рис?\"},{\"de\":\"Der Reis schmeckt gut.\",\"lv\":\"Рис имеет приятный вкус.\"}]","study.important":"[\"Der Reis - в немецком языке только единственное число (Der Reis ist..., nicht *sind).\",\"В латышском переводе часто используется множественное число: рис готов.\"]"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Рис","study":{"id":"a1-reis","layout":"standardStudy","translation":"Рис","explanation":"Основная идея: der Reis в немецком языке обычно употребляется только в единственном числе, поэтому сказуемое ставится в единственном числе: Der Reis ist fertig, а не *Der Reis sind fertig.","examples":[{"de":"Der Reis ist fertig.","lv":"Рис готов."},{"de":"Ich esse Reis.","lv":"Я ем рис."},{"de":"Kochst du Reis?","lv":"Ты готовишь рис?"},{"de":"Der Reis schmeckt gut.","lv":"Рис вкусный."}],"tip":{"text":"Запомните: der Reis в немецком языке употребляется в единственном числе."},"important":["Der Reis обычно употребляется только в единственном числе.","В русском языке «рис» также обычно употребляется в единственном числе."]}}
+**Note:** Pilna RU kartīte «Reis»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Reis",
+  "de_article": "der",
+  "lv": "Рис",
+  "level": "A1",
+  "study": {
+    "id": "a1-reis",
+    "layout": "standardStudy",
+    "translation": "Рис",
+    "explanation": "Основная идея: der Reis в немецком языке обычно употребляется только в единственном числе, поэтому сказуемое ставится в единственном числе: Der Reis ist fertig, а не *Der Reis sind fertig.",
+    "examples": [
+      {
+        "de": "Der Reis ist fertig.",
+        "lv": "Рис готов."
+      },
+      {
+        "de": "Ich esse Reis.",
+        "lv": "Я ем рис."
+      },
+      {
+        "de": "Kochst du Reis?",
+        "lv": "Ты готовишь рис?"
+      },
+      {
+        "de": "Der Reis schmeckt gut.",
+        "lv": "Рис вкусный."
+      }
+    ],
+    "tip": {
+      "text": "Запомните: der Reis в немецком языке употребляется в единственном числе."
+    },
+    "important": [
+      "Der Reis обычно употребляется только в единственном числе.",
+      "В русском языке «рис» также обычно употребляется в единственном числе."
+    ]
+  },
+  "index": 496
+}
+```
+
+---
+
+## Finding 50
+
+**Audit ID:** `LRB086-0050`
+**Finding Stable ID:** `g2/a1/ru|rufen|idx:500|lv|MEANING_NARROWING|gpt-5.6-luna`
+**Lang:** ru
+**Card:** `rufen|idx:500`
+**Field / path:** `lv`
+**Severity:** MEDIUM
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** Позвонить
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"Звать"}
+**Note:** Pilna RU kartīte «rufen»: atjaunota precīza nozīme, avota DE piemēri un pilns gala kompozīts bez svešvalodu atlikumiem.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "rufen",
+  "lv": "Звать",
+  "level": "A1",
+  "index": 500
+}
+```
+
+---
+
