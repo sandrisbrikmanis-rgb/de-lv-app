@@ -1,9 +1,9 @@
 {
   "batchId": "LRB-081",
-  "sourceCommit": "48eb78ed06146dd34026ba158eb068d4a76ddd80",
+  "sourceCommit": "e3fbba943700eb892628ed0e38cacba7c5e7c27b",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_3",
-  "correctionRound": 3,
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_4",
+  "correctionRound": 4,
   "cards": [
     {
       "auditId": "LRB081-0001",
@@ -761,7 +761,7 @@
             },
             {
               "de": "Er springt aufs Pferd.",
-              "lv": "El urcă pe cal."
+              "lv": "El sare pe cal."
             },
             {
               "de": "Leg das Buch aufs Regal.",
@@ -935,7 +935,7 @@
           },
           "important": [
             "Baden și schwimmen nu sunt sinonime.",
-            "În română se poate spune adesea simplu «a înota», dar în germană alegerea depinde de situație."
+            "Baden pune accentul mai degrabă pe faptul de a sta sau de a se recrea în apă, iar schwimmen pe mișcarea de înot."
           ]
         }
       }
@@ -1011,8 +1011,8 @@
           "layout": "standardStudy",
           "translation": "vizită",
           "explanation": [
-            "Ideea principală: der Besuch înseamnă o vizită sau vizitarea unei persoane, a unui loc ori a unui eveniment.",
-            "Pentru un loc sau un eveniment, der Besuch desemnează vizitarea acestuia.",
+            "Ideea principală: der Besuch înseamnă o vizită sau vizitarea unei persoane ori a unui loc; pentru un eveniment poate desemna participarea la acesta.",
+            "Pentru un loc, der Besuch desemnează vizitarea lui; pentru un eveniment, participarea la acesta.",
             "Pentru o persoană, der Besuch desemnează o vizită.",
             "Pluralul este die Besuche."
           ],
@@ -1051,7 +1051,7 @@
             "text": "Reține: Besuch este vizita, iar Besucher este persoana care vizitează."
           },
           "important": [
-            "Der Besuch înseamnă „vizită” și poate desemna vizitarea unei persoane, a unui loc sau a unui eveniment.",
+            "Der Besuch înseamnă „vizită” și poate desemna vizitarea unei persoane ori a unui loc sau participarea la un eveniment.",
             "Pluralul este die Besuche."
           ]
         }
@@ -1071,9 +1071,9 @@
           "layout": "standardStudy",
           "translation": "a vizita",
           "explanation": [
-            "Ideea principală: besuchen se folosește pentru a vizita un loc, un eveniment sau o persoană.",
-            "De obicei se vizitează un loc, un eveniment sau un curs.",
-            "Când besuchen se referă la o persoană, în română se spune în mod firesc «a vizita». ",
+            "Ideea principală: besuchen înseamnă de obicei «a vizita»; cu un curs sau un eveniment poate însemna «a frecventa» ori «a participa la».",
+            "Cu un loc sau o persoană, besuchen se traduce de obicei prin «a vizita».",
+            "Cu un curs sau un eveniment, româna cere adesea «a frecventa» sau «a participa la».",
             "În germană, besuchen se folosește fără prepoziție și cu acuzativul."
           ],
           "examples": [
@@ -1112,7 +1112,7 @@
           },
           "important": [
             "Besuchen se folosește fără prepoziție: Ich besuche meine Freundin.",
-            "Traducerea românească este «a vizita», indiferent dacă obiectul este un loc, un eveniment sau o persoană."
+            "Traducerea românească depinde de obiect: a vizita o persoană sau un loc, a frecventa un curs, a participa la un eveniment."
           ]
         }
       }
@@ -1876,7 +1876,7 @@
           },
           "important": {
             "text": "Fahren nu înseamnă numai «a conduce».",
-            "example": "În funcție de construcție, fahren poate însemna «a merge cu un vehicul», «a duce» sau «a transporta». "
+            "example": "În funcție de construcție, fahren poate însemna «a merge cu un vehicul», «a duce» sau «a transporta»."
           }
         }
       }
@@ -2140,8 +2140,8 @@
           "explanation": [
             "Ideea principală: die Frau poate însemna «femeie» sau «soție».",
             "Dacă este vorba pur și simplu despre gen sau despre o persoană, die Frau înseamnă «femeie».",
-            "În contextul unui soț, die Frau înseamnă «soție»; meine Frau înseamnă «soția mea». ",
-            "Pronumele posesive meine Frau, deine Frau și seine Frau înseamnă aproape întotdeauna «soția mea», «soția ta» și «soția lui». ",
+            "În contextul unui soț, die Frau înseamnă «soție»; meine Frau înseamnă «soția mea».",
+            "Pronumele posesive meine Frau, deine Frau și seine Frau înseamnă aproape întotdeauna «soția mea», «soția ta» și «soția lui».",
             "Pluralul este die Frauen.",
             "Forma masculină der Mann are același dublu sens: «bărbat» și «soț»."
           ],
@@ -2310,7 +2310,7 @@
           "layout": "standardStudy",
           "translation": "întreg • complet",
           "explanation": [
-            "Ideea principală: ganz alături de un substantiv înseamnă «întreg» sau «tot». ",
+            "Ideea principală: ganz alături de un substantiv înseamnă «întreg» sau «tot».",
             "Înaintea unui adjectiv sau adverb, ganz poate însemna «complet» sau «destul de».",
             "Ganz nu este același lucru cu pronumele alles."
           ],
@@ -2551,7 +2551,7 @@
           "layout": "standardStudy",
           "translation": "poveste",
           "explanation": [
-            "Ideea principală: Geschichte poate însemna «poveste» sau «istorie». ",
+            "Ideea principală: Geschichte poate însemna «poveste» sau «istorie».",
             "Pluralul die Geschichten înseamnă de obicei «povești».",
             "Când înseamnă «istorie» ca materie, Geschichte se folosește de obicei la singular."
           ],
@@ -2927,7 +2927,7 @@
             "text": "Reține: Ich habe = eu am."
           },
           "important": [
-            "Germanul Ich habe înseamnă «eu am» și este urmat adesea de un complement în acuzativ.",
+            "În germană, Ich habe înseamnă «eu am» și este urmat adesea de un complement în acuzativ.",
             "Cu sein și dativ se spune Mir ist kalt. = Mi-e frig., nu se folosește haben.",
             "La perfect, Ich habe gelernt înseamnă «am învățat»."
           ]
