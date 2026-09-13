@@ -1,179 +1,95 @@
 {
   "batch_id": "LRB-088",
-  "base_commit": "ecc92b2dc2fef84d2f1d23b6818e8e50c6807641",
+  "base_commit": "e6d50f6081d4a7eb85f44c4c984b11c518ccfae1",
   "verdict": "FAIL_REPAIR_REQUIRED",
-  "round": 2,
-  "mode": "OWNER_EXACT_COPY_PASTE_ONLY",
-  "instructions": {
-    "linguistic_reanalysis": false,
-    "require_exact_base_commit": true,
-    "require_expected_old_match": true,
-    "apply_every_replacement_exactly": true,
-    "apply_to_every_duplicate_of_card": true,
-    "rebuild_full_owner_new_after_apply": true,
-    "rebuild_owner_artifacts_after_apply": true
+  "round": 3,
+  "mode": "EXACT_COPY_PASTE_ONLY",
+  "instructions": [
+    "Do not perform linguistic analysis.",
+    "Do not change any card content value.",
+    "Apply the owner-note mapping to every duplicate of each card_id.",
+    "Regenerate only LRB-088 OWNER artifacts and recompute gates."
+  ],
+  "expected_generic_reason": "Kartītes pilnais gala saturs remontēts saskaņā ar OWNER copy/paste remontiem; aizvietojums saskaņots ar LV→DE avotu.",
+  "owner_note_by_card": {
+    "a1-einmal": "Slovenské „raz“ pokrýva jeden výskyt aj neurčitú minulosť; synonymné „jedenkrát“ sa v hesle neduplikuje.",
+    "a1-eis": "Pilná karta presne rozlišuje významy „ľad“ a „zmrzlina“ a opravuje všetky príklady aj vysvetlenia.",
+    "a1-erst": "Pilná karta rozlišuje časové „až/iba“ od postupnosti „najprv“.",
+    "a1-es": "Pilná karta vysvetľuje zámeno „es“ aj jeho použitie v neosobných vetách bez zámeny s nemeckým „ich“.",
+    "a1-essen-study": "Pilná karta rozlišuje podstatné meno „das Essen“ od slovesa „essen“.",
+    "a1-etwas": "Pilná karta rozlišuje „niečo“ od stupňovacieho „trochu“ a opravuje úplný obsah.",
+    "a1-euch": "Pilná karta zachováva množné číslo a presne rozlišuje akuzatívne „vás“ od datívneho „vám“.",
+    "a1-fahren": "Pilná karta zachováva význam jazdy dopravou aj význam viezť alebo odviezť osobu.",
+    "a1-finden": "Pilná karta rozlišuje nájdenie veci od vyjadrenia názoru.",
+    "a1-frau": "Pilná karta rozlišuje ženu ako osobu od manželky a opravuje všetky príklady.",
+    "a1-fuer": "Pilná karta rozlišuje slovenské „pre“ a „za“ a zachováva väzbu s akuzatívom.",
+    "a1-ganz-study": "Pilná karta rozlišuje „celý“, „úplne“ a „celkom“ od zámena „alles“.",
+    "a1-gefallen-study": "Pilná karta opravuje konštrukciu „gefallen“: páčiaca sa vec je podmet a osoba je v datíve.",
+    "a1-gleich": "Pilná karta rozlišuje časové „hneď“ od porovnávacieho „rovnaký“.",
+    "a1-halten": "Pilná karta rozlišuje držanie, zastavenie dopravného prostriedku, „anhalten“ a konštrukciu „für ... halten“.",
+    "a1-heissen": "Pilná karta zachováva významy „volať sa“ a „znamenať“ a opravuje porovnania.",
+    "a1-hoeren-study": "Pilná karta prirodzene rozlišuje „počuť“ od „počúvať“.",
+    "a1-huebsch": "Pilná karta presne vysvetľuje vzhľadový význam „hübsch“ a opravuje gramatiku príkladov.",
+    "a1-ihr": "Pilná karta rozlišuje množné „vy“, datívne „jej“ a privlastňovacie „jej“ bez zmeny osoby.",
+    "a1-im": "Pilná karta vysvetľuje „im = in dem“, datív a polohu na otázku „kde?“.",
+    "a1-in": "Pilná karta rozlišuje polohu „v“ od smeru „do“.",
+    "a1-ins": "Pilná karta vysvetľuje „ins = in das“, akuzatív a smer na otázku „kam?“.",
+    "a1-kein": "Pilná karta prirodzene vysvetľuje záporný člen „kein“ a jeho rozdiel od „nicht“."
   },
-  "content_replacements": [
+  "artifact_operations": [
     {
-      "card_id": "a1-einmal",
-      "path": "native",
-      "expected_old": "Raz • Jedenkrát",
-      "new": "Raz"
+      "files": [
+        "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-gala-cards.json",
+        "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-approved-overrides.json"
+      ],
+      "selector": "all 50 rows",
+      "operation": "replace reason with owner_note_by_card[cardId]",
+      "expected_result": "OWNER_NOTE_ALIGNMENT=50/50; OWNER_NOTE_DRIFT=0; OWNER_NOTE_UNIQUE=23"
     },
     {
-      "card_id": "a1-einmal",
-      "path": "study.translation",
-      "expected_old": "Raz • Jedenkrát",
-      "new": "Raz"
+      "file": "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-gala-cards.json",
+      "selector": "all 50 cards",
+      "operation": "delete sourceCard property",
+      "expected_result": "SOURCE_CARD_FIELDS=0"
     },
     {
-      "card_id": "a1-einmal",
-      "path": "study.explanation[1]",
-      "expected_old": "Podľa kontextu sa prekladá ako raz alebo jedenkrát.",
-      "new": "Pri počte opakovaní einmal znamená, že sa niečo stane raz."
+      "files": [
+        "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-view.md",
+        "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-corrections.md"
+      ],
+      "selector": "all 50 rows",
+      "operation": "replace generic reason with owner_note_by_card[card_id]"
     },
     {
-      "card_id": "a1-einmal",
-      "path": "study.tip[0]",
-      "expected_old": "einmal = raz alebo jedenkrát.",
-      "new": "einmal = raz."
-    },
-    {
-      "card_id": "a1-einmal",
-      "path": "study.important[0]",
-      "expected_old": "einmal môže znamenať raz aj jedenkrát.",
-      "new": "Pri počte opakovaní einmal znamená raz."
-    },
-    {
-      "card_id": "a1-essen-study",
-      "path": "native",
-      "expected_old": "Jedlo • Pokrm",
-      "new": "Jedlo"
-    },
-    {
-      "card_id": "a1-essen-study",
-      "path": "study.translation",
-      "expected_old": "Jedlo • Pokrm",
-      "new": "Jedlo"
-    },
-    {
-      "card_id": "a1-essen-study",
-      "path": "study.explanation[0]",
-      "expected_old": "Hlavná myšlienka: das Essen je podstatné meno a znamená jedlo, pokrm alebo celú stravu.",
-      "new": "Hlavná myšlienka: das Essen je podstatné meno a znamená jedlo."
-    },
-    {
-      "card_id": "a1-essen-study",
-      "path": "study.tip[0]",
-      "expected_old": "das Essen = jedlo alebo pokrm.",
-      "new": "das Essen = jedlo."
-    },
-    {
-      "card_id": "a1-essen-study",
-      "path": "study.important[3]",
-      "expected_old": "Jedlo alebo pokrm: das Essen.",
-      "new": "Podstatné meno: das Essen."
-    },
-    {
-      "card_id": "a1-huebsch",
-      "path": "native",
-      "expected_old": "Pekný • Pôvabný",
-      "new": "Pekný"
-    },
-    {
-      "card_id": "a1-huebsch",
-      "path": "study.translation",
-      "expected_old": "Pekný • Pôvabný",
-      "new": "Pekný"
-    },
-    {
-      "card_id": "a1-kein",
-      "path": "native",
-      "expected_old": "Nijaký • Žiadny",
-      "new": "Žiadny"
-    },
-    {
-      "card_id": "a1-kein",
-      "path": "study.translation",
-      "expected_old": "Nijaký • Žiadny",
-      "new": "Žiadny"
-    },
-    {
-      "card_id": "a1-kein",
-      "path": "study.examples[1].lv",
-      "expected_old": "Už nie je nijaké mlieko.",
-      "new": "Mlieko už nie je."
-    },
-    {
-      "card_id": "a1-frau",
-      "path": "study.examples[0].lv",
-      "expected_old": "Je to milá žena.",
-      "new": "Ona je milá žena."
+      "file": "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-review-proof.json",
+      "path": "note",
+      "expected_old": "OWNER copy/paste corrections applied. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=27). DE/production/Crowdin/ingest/apply unchanged.",
+      "new": "OWNER copy/paste corrections applied. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=23). DE/production/Crowdin/ingest/apply unchanged."
     }
   ],
-  "row_note_replacements": [
-    {
-      "finding_stable_id": "g2/a1/sk|a1-einmal|a1.card.a1-einmal.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
-      "card_id": "a1-einmal",
-      "expected_old": "Pilná karta odstraňuje chybný opis počasia a zachováva významy „raz“ a „jedenkrát“.",
-      "new": "Slovenské „raz“ pokrýva jeden výskyt aj neurčitú minulosť; synonymné „jedenkrát“ sa v hesle neduplikuje."
-    }
-  ],
-  "proof_metric_corrections": [
-    {
-      "path": "gates.DE_EXAMPLE_INDEX_ALIGNMENT",
-      "expected_old": "256/266",
-      "new": "256/256",
-      "method": "Compare approvedGalaCard study.examples index-by-index with the exact LV-DE source card in data/a1.js. Do not count extra entries from the pre-repair SK card."
-    },
-    {
-      "path": "gates.COMPARISON_ALIGNMENT",
-      "expected_old": "118/124",
-      "new": "118/118",
-      "method": "Compare comparison word and German example segment index-by-index with the exact LV-DE source card in data/a1.js. Do not count extra entries from the pre-repair SK card."
-    }
-  ],
-  "diagnosis": [
-    "a1-einmal repeats two Slovak synonyms for one meaning.",
-    "a1-essen-study repeats Jedlo and Pokrm instead of using one Slovak headword that covers the source contexts.",
-    "a1-huebsch adds a synonym to the headword although the source headword has one core target value.",
-    "a1-kein repeats near-synonymous negative determiners and contains an unnatural milk example.",
-    "a1-frau study.examples[0].lv changes explicit subject Sie to demonstrative Je to.",
-    "The proof alignment denominators are calculated against the old defective SK card rather than the authoritative LV-DE source."
-  ],
-  "required_artifact_updates": [
-    "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-decisions-COPY-PASTE.json",
-    "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-gala-cards.json",
-    "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-approved-overrides.json",
-    "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-view.md",
-    "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-decisions.md",
-    "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-corrections.md",
-    "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-review-proof.json",
-    "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-review-GITHUB.md",
-    "reports/g2-a1-owner/batches-reviewed/LRB-088-decisions.csv",
-    "scripts/data/g2-a1-owner-pending/LRB-088-decisions.json",
-    "reports/g2-a1-owner/manifests/LRB-088-start.json",
-    "reports/g2-a1-owner/parallel-checkpoint.json"
-  ],
-  "forbidden_changes": [
-    "data/**",
-    "www/data/**",
-    "German source content",
-    "Crowdin",
-    "ingest/apply",
-    "scripts",
-    "other LRB batches"
-  ],
-  "post_apply_requirements": [
-    "Apply 16/16 content replacements and 1/1 owner_note replacement.",
-    "Propagate every content replacement to approved_cards, every gala-card duplicate, every override and every full owner_new for the affected card.",
-    "Keep ROWS=50/50, LABOT=50, NELABOT=0, PENDING=0 and UNIQUE_CARDS=23.",
-    "Require exact cross-artifact equality and OWNER_NEW_DRIFT=0.",
-    "Recompute DE_EXAMPLE_INDEX_ALIGNMENT against data/a1.js and require 256/256.",
-    "Recompute COMPARISON_ALIGNMENT against data/a1.js and require 118/118.",
-    "Require DUPLICATE_MEANINGS=0, DE_TARGET_ALIGNMENT_VIOLATIONS=0, INTERNAL_CARD_CONTRADICTIONS=0 and WRONG_LANGUAGE_RESIDUE=0.",
-    "Require production, DE, Crowdin, ingest/apply, scripts and other-batch diffs to be zero.",
-    "Keep classification G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED.",
-    "Do not claim GALA PASS; return the commit for independent verification."
-  ]
+  "must_remain_unchanged": {
+    "card_content": "all native/lv/study/comparison values",
+    "decisions_owner_notes": "reports/g2-a1-owner/batches-reviewed/LRB-088-decisions.csv and scripts/data/g2-a1-owner-pending/LRB-088-decisions.json",
+    "restricted_zones": [
+      "data/**",
+      "www/data/**",
+      "DE source",
+      "Crowdin",
+      "ingest/apply",
+      "scripts",
+      "other LRB batches"
+    ]
+  },
+  "required_fresh_gates": {
+    "ROWS": "50/50",
+    "UNIQUE_CARDS": 23,
+    "OWNER_NOTE_ALIGNMENT": "50/50",
+    "OWNER_NOTE_DRIFT": 0,
+    "OWNER_NOTE_UNIQUE": 23,
+    "SOURCE_CARD_FIELDS": 0,
+    "OWNER_NEW_DRIFT": 0,
+    "ANTI_BULK": "PASS",
+    "pass": true
+  },
+  "gala_pass": false
 }

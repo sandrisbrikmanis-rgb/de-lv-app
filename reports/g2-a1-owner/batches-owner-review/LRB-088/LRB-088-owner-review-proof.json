@@ -1,15 +1,15 @@
 {
   "batchId": "LRB-088",
   "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T13:17:00.557Z",
-  "sourceCommit": "ecc92b2dc2fef84d2f1d23b6818e8e50c6807641",
+  "generatedAt": "2026-09-13T13:25:47.943Z",
+  "sourceCommit": "e6d50f6081d4a7eb85f44c4c984b11c518ccfae1",
   "branch": "cursor/lrb-088-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT-5.6 Luna",
   "linguisticReviewer": "gpt-5.6-luna",
   "ownerAuthorizationStatus": "APPROVED",
-  "overridesSha256": "d3da4dc065da97dd1b699c4eda96025c6df23e875d16aaf7e0a86d2cb0cb6219",
+  "overridesSha256": "acff3efdfa6dd8236ad753b6a21728b57ad7161845cc799d6eb5ea9ade678911",
   "rows": "50/50",
   "languages": {
     "sk": 50
@@ -57,7 +57,11 @@
     "GIT_DIFF_CHECK": "PASS",
     "SOURCE_ROW_IDENTITY_ALIGNMENT": "50/50",
     "SOURCE_ROW_IDENTITY_DRIFT": 0,
-    "pass": true
+    "pass": true,
+    "OWNER_NOTE_ALIGNMENT": "50/50",
+    "OWNER_NOTE_DRIFT": 0,
+    "OWNER_NOTE_UNIQUE": 23,
+    "SOURCE_CARD_FIELDS": 0
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-owner-view.md",
@@ -72,7 +76,7 @@
     "input": "reports/g2-a1-owner/batches-pending/LRB-088-input.csv",
     "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-088/LRB-088-decisions-COPY-PASTE.json"
   },
-  "note": "OWNER copy/paste corrections applied. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=27). DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "OWNER copy/paste corrections applied. 50 LABOT / 0 NELABOT / 0 PENDING (SK 50, UNIQUE_CARDS=23). DE/production/Crowdin/ingest/apply unchanged.",
   "galaPass": false,
   "scriptChanges": 0
 }
