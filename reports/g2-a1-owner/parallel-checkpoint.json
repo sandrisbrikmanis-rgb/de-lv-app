@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-13T10:34:16.969Z",
+  "updatedAt": "2026-09-13T10:57:58.932Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -67,21 +67,23 @@
       "batchId": "LRB-090",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "LINGUISTIC_REVIEW_COMPLETE",
-      "branch": "cursor/lrb-090-owner-authorization-ed35",
-      "reservedAt": "2026-09-13T10:34:16.969Z",
+      "status": "OWNER_APPROVED_OVERRIDES_APPLIED",
+      "branch": "cursor/lrb-090-owner-review-pc2-3db2",
+      "reservedAt": "2026-09-13T10:31:37.304Z",
       "rows": 50,
       "languages": {
         "sk": 50
       },
       "ownerAuthorizationStatus": "APPROVED",
       "linguisticReviewer": "gpt-5.6-luna",
-      "labot": 45,
-      "nelabot": 5,
+      "overridesSha256": "1465c3c97fc4fe98f2365ac0a0a8498c6c61168f69a26e9fe82b7e9b54b3f7d1",
+      "appliedAt": "2026-09-13T10:57:58.932Z",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-090/LRB-090-owner-review-proof.json",
+      "labot": 50,
+      "nelabot": 0,
       "pending": 0,
-      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-090-owner-authorization-proof.json",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-090-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-090-anti-bulk-proof.json"
+      "uniqueCards": 41,
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-090-owner-authorization-proof.json"
     },
     {
       "batchId": "LRB-091",
