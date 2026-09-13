@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Telefon|idx:593|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Puhelin\"}",
+    "owner_note": "FI Telefon / lv: individuāli pārbaudīta LRB-051 rinda 1/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|telefonieren|idx:594|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Soittaa puhelimella\"}",
+    "owner_note": "FI telefonieren / lv: individuāli pārbaudīta LRB-051 rinda 2/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Teller|idx:595|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Lautanen\"}",
+    "owner_note": "FI Teller / lv: individuāli pārbaudīta LRB-051 rinda 3/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|teuer|idx:596|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI teuer / lv: individuāli pārbaudīta LRB-051 rinda 4/50; production_current jau ir pareiza somu vērtība, tādēļ labojums nav vajadzīgs."
+  },
+  "g2/a1/fi|Text|idx:597|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Teksti\"}",
+    "owner_note": "FI Text / lv: individuāli pārbaudīta LRB-051 rinda 5/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tier|idx:598|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Eläin\"}",
+    "owner_note": "FI Tier / lv: individuāli pārbaudīta LRB-051 rinda 6/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tisch|idx:599|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pöytä\"}",
+    "owner_note": "FI Tisch / lv: individuāli pārbaudīta LRB-051 rinda 7/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tochter|idx:600|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tytär\"}",
+    "owner_note": "FI Tochter / lv: individuāli pārbaudīta LRB-051 rinda 8/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Toilette|idx:601|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"WC\"}",
+    "owner_note": "FI Toilette / lv: individuāli pārbaudīta LRB-051 rinda 9/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tomate|idx:602|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tomaatti\"}",
+    "owner_note": "FI Tomate / lv: individuāli pārbaudīta LRB-051 rinda 10/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Treppe|idx:603|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Portaat\"}",
+    "owner_note": "FI Treppe / lv: individuāli pārbaudīta LRB-051 rinda 11/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|trinken|idx:604|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Juoda\"}",
+    "owner_note": "FI trinken / lv: individuāli pārbaudīta LRB-051 rinda 12/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|tun|idx:605|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tehdä\"}",
+    "owner_note": "FI tun / lv: individuāli pārbaudīta LRB-051 rinda 13/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tür|idx:606|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ovi\"}",
+    "owner_note": "FI Tür / lv: individuāli pārbaudīta LRB-051 rinda 14/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|U-Bahn|idx:607|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Metro\"}",
+    "owner_note": "FI U-Bahn / lv: individuāli pārbaudīta LRB-051 rinda 15/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|überall|idx:609|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kaikkialla\"}",
+    "owner_note": "FI überall / lv: individuāli pārbaudīta LRB-051 rinda 16/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|übermorgen|idx:610|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ylihuomenna\"}",
+    "owner_note": "FI übermorgen / lv: individuāli pārbaudīta LRB-051 rinda 17/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|und|idx:612|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI und / lv: individuāli pārbaudīta LRB-051 rinda 18/50; production_current jau ir pareiza somu vērtība, tādēļ labojums nav vajadzīgs."
+  },
+  "g2/a1/fi|unser|idx:613|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Meidän\"}",
+    "owner_note": "FI unser / lv: individuāli pārbaudīta LRB-051 rinda 19/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|unten|idx:614|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Alhaalla\"}",
+    "owner_note": "FI unten / lv: individuāli pārbaudīta LRB-051 rinda 20/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Vase|idx:616|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Maljakko\"}",
+    "owner_note": "FI Vase / lv: individuāli pārbaudīta LRB-051 rinda 21/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Vater|idx:617|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Isä\"}",
+    "owner_note": "FI Vater / lv: individuāli pārbaudīta LRB-051 rinda 22/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|verheiratet|idx:618|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Naimisissa\"}",
+    "owner_note": "FI verheiratet / lv: individuāli pārbaudīta LRB-051 rinda 23/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|verkaufen|idx:619|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Myydä\"}",
+    "owner_note": "FI verkaufen / lv: individuāli pārbaudīta LRB-051 rinda 24/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|verlieren|idx:620|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Menettää\"}",
+    "owner_note": "FI verlieren / lv: individuāli pārbaudīta LRB-051 rinda 25/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|versuchen|idx:622|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Yrittää\"}",
+    "owner_note": "FI versuchen / lv: individuāli pārbaudīta LRB-051 rinda 26/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|viel|idx:623|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Paljon\"}",
+    "owner_note": "FI viel / lv: individuāli pārbaudīta LRB-051 rinda 27/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vielleicht|idx:624|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ehkä\"}",
+    "owner_note": "FI vielleicht / lv: individuāli pārbaudīta LRB-051 rinda 28/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vier|idx:625|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Neljä\"}",
+    "owner_note": "FI vier / lv: individuāli pārbaudīta LRB-051 rinda 29/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vierhundert|idx:626|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Neljäsataa\"}",
+    "owner_note": "FI vierhundert / lv: individuāli pārbaudīta LRB-051 rinda 30/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vierte|idx:627|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Neljäs\"}",
+    "owner_note": "FI vierte / lv: individuāli pārbaudīta LRB-051 rinda 31/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vierzehn|idx:628|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Neljätoista\"}",
+    "owner_note": "FI vierzehn / lv: individuāli pārbaudīta LRB-051 rinda 32/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vierzehnte|idx:629|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Neljästoista\"}",
+    "owner_note": "FI vierzehnte / lv: individuāli pārbaudīta LRB-051 rinda 33/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vierzig|idx:630|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Neljäkymmentä\"}",
+    "owner_note": "FI vierzig / lv: individuāli pārbaudīta LRB-051 rinda 34/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vierzigste|idx:631|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Neljäskymmenes\"}",
+    "owner_note": "FI vierzigste / lv: individuāli pārbaudīta LRB-051 rinda 35/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Vogel|idx:632|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Lintu\"}",
+    "owner_note": "FI Vogel / lv: individuāli pārbaudīta LRB-051 rinda 36/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|voll|idx:633|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Täysi\"}",
+    "owner_note": "FI voll / lv: individuāli pārbaudīta LRB-051 rinda 37/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vom|idx:634|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-sta/-stä • -lta/-ltä\",\"study.translation\":\"-sta/-stä • -lta/-ltä\",\"study.explanation\":\"[\\\"Pääajatus: vom on preposition von ja artikkelin dem lyhenne.\\\",\\\"Täysi muoto on von dem (datiivi).\\\",\\\"Sitä käytetään maskuliini- ja neutrisukuisten substantiivien kanssa, kun ilmaistaan alkuperää, lähtöä tai suuntaa jostakin poispäin.\\\",\\\"Se vastaa asiayhteyden mukaan kysymyksiin keneltä? tai mistä?\\\",\\\"Tavallisesti käytetään yhdistynyttä muotoa vom eikä erillistä muotoa von dem.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme vom Bahnhof.\\\",\\\"lv\\\":\\\"Tulen rautatieasemalta.\\\"},{\\\"de\\\":\\\"Das Geschenk ist vom Vater.\\\",\\\"lv\\\":\\\"Lahja on isältä.\\\"},{\\\"de\\\":\\\"Er kommt vom Arzt.\\\",\\\"lv\\\":\\\"Hän tulee lääkäriltä.\\\"},{\\\"de\\\":\\\"Sie fährt vom Flughafen.\\\",\\\"lv\\\":\\\"Hän ajaa lentokentältä.\\\"},{\\\"de\\\":\\\"Das ist vom Markt.\\\",\\\"lv\\\":\\\"Se on torilta.\\\"},{\\\"de\\\":\\\"Wir kommen vom Fest.\\\",\\\"lv\\\":\\\"Tulemme juhlista.\\\"},{\\\"de\\\":\\\"Er holt Milch vom Bauern.\\\",\\\"lv\\\":\\\"Hän hakee maitoa maanviljelijältä.\\\"},{\\\"de\\\":\\\"Die Nachricht ist vom Chef.\\\",\\\"lv\\\":\\\"Viesti on päälliköltä.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"vom\\\",\\\"meaning\\\":\\\"-sta/-stä, -lta/-ltä (maskuliini tai neutri, datiivi)\\\",\\\"example\\\":\\\"vom Bahnhof – Rautatieasemalta\\\"},{\\\"word\\\":\\\"von\\\",\\\"meaning\\\":\\\"Jostakin / joltain (yleisesti)\\\",\\\"example\\\":\\\"von mir – Minulta\\\"},{\\\"word\\\":\\\"aus\\\",\\\"meaning\\\":\\\"Sisältä / alkuperä\\\",\\\"example\\\":\\\"aus Deutschland – Saksasta\\\"},{\\\"word\\\":\\\"ab\\\",\\\"meaning\\\":\\\"Alkaen (aika/paikka)\\\",\\\"example\\\":\\\"ab Montag – Maanantaista lähtien\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"-lle / luo (vastakkainen suunta)\\\",\\\"example\\\":\\\"zum Arzt – Lääkärille\\\"}]\",\"study.tip\":\"[\\\"Muista: von + dem → vom.\\\",\\\"Tavallisessa käytössä yhdistynyt muoto vom korvaa muodon von dem.\\\"]\",\"study.important\":\"[\\\"vom = von dem; sitä käytetään maskuliini- ja neutrisukuisten substantiivien kanssa datiivissa.\\\",\\\"Se ilmaisee alkuperää, lähtöä tai suuntaa jostakin konkreettisesta paikasta tai lähteestä.\\\",\\\"Feminiinin kanssa käytetään muotoa von der Mutter, ei vom Mutter.\\\",\\\"Älä sekoita sitä aus-sanaan (sisältä tai alkuperä) tai ab-sanaan (alkupiste).\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"vom\\\",\\\"von dem\\\"],\\\"purple\\\":[\\\"preposition\\\",\\\"lyhenne\\\"],\\\"green\\\":[\\\"maskuliini\\\",\\\"neutrisukuisten\\\",\\\"datiivi\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"rautatieasemalta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"isältä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"lääkäriltä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"lentokentältä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"torilta\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"juhlista\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maanviljelijältä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vom\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"päälliköltä\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"vom\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"-sta/-stä\\\",\\\"-lta/-ltä\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"vom Bahnhof\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"von\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Jostakin\\\",\\\"joltain\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"von mir\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"aus\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Sisältä\\\",\\\"alkuperä\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"aus Deutschland\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ab\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Alkaen\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"ab Montag\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"-lle\\\",\\\"luo\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"zum Arzt\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"von\\\",\\\"dem\\\",\\\"vom\\\"]},{\\\"purple\\\":[\\\"vom\\\",\\\"von dem\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"vom\\\",\\\"von dem\\\"],\\\"green\\\":[\\\"maskuliini\\\",\\\"neutrisukuisten\\\",\\\"datiivissa\\\"]},{\\\"purple\\\":[\\\"alkuperää\\\",\\\"lähtöä\\\"]},{\\\"yellow\\\":[\\\"von der Mutter\\\"],\\\"red\\\":[\\\"vom Mutter\\\"]},{\\\"green\\\":[\\\"aus\\\"],\\\"red\\\":[\\\"ab\\\"]}]}\"}",
+    "owner_note": "FI vom / study: individuāli pārbaudīta LRB-051 rinda 38/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|von|idx:635|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-sta/-stä • -lta/-ltä\"}",
+    "owner_note": "FI von / lv: individuāli pārbaudīta LRB-051 rinda 39/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|vor|idx:636|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Ennen • Edessä\",\"study.translation\":\"Ennen • Edessä\",\"study.explanation\":\"[\\\"Pääajatus: vor tarkoittaa ajassa ennen tai paikassa edessä.\\\",\\\"Kun puhutaan ajasta, vor tarkoittaa ennen.\\\",\\\"Kun puhutaan paikasta, vor tarkoittaa edessä.\\\",\\\"Kellonajassa vor tarkoittaa vaille: fünf vor acht = viisi vaille kahdeksan.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Vor dem Essen wasche ich die Hände.\\\",\\\"lv\\\":\\\"Ennen ruokailua pesen kädet.\\\"},{\\\"de\\\":\\\"Das Auto steht vor dem Haus.\\\",\\\"lv\\\":\\\"Auto seisoo talon edessä.\\\"},{\\\"de\\\":\\\"Es ist fünf vor acht.\\\",\\\"lv\\\":\\\"Kello on viisi vaille kahdeksan.\\\"},{\\\"de\\\":\\\"Nach dem Essen gehen wir spazieren.\\\",\\\"lv\\\":\\\"Ruokailun jälkeen menemme kävelylle.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"vor\\\",\\\"meaning\\\":\\\"Ennen / edessä\\\",\\\"example\\\":\\\"Vor dem Essen...\\\"},{\\\"word\\\":\\\"nach\\\",\\\"meaning\\\":\\\"Jälkeen\\\",\\\"example\\\":\\\"Nach dem Essen...\\\"},{\\\"word\\\":\\\"neben\\\",\\\"meaning\\\":\\\"Vieressä\\\",\\\"example\\\":\\\"Neben dem Haus.\\\"},{\\\"word\\\":\\\"hinter\\\",\\\"meaning\\\":\\\"Takana\\\",\\\"example\\\":\\\"Hinter dem Haus.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: ajassa ennen, paikassa edessä → vor.\\\"}\",\"study.important\":\"[\\\"vor voi ilmaista sekä aikaa että paikkaa.\\\",\\\"vor dem Essen = ennen ruokailua; vor dem Haus = talon edessä.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"vor\\\",\\\"fünf vor acht\\\"],\\\"purple\\\":[\\\"ennen\\\",\\\"edessä\\\",\\\"vaille\\\"],\\\"green\\\":[\\\"ajasta\\\",\\\"paikasta\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Vor\\\"],\\\"yellow\\\":[\\\"Essen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Ennen\\\"],\\\"yellow\\\":[\\\"ruokailua\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vor\\\"],\\\"yellow\\\":[\\\"Haus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"edessä\\\"],\\\"yellow\\\":[\\\"talon\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"vor\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"viisi vaille kahdeksan\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"Nach\\\"],\\\"yellow\\\":[\\\"Essen\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"jälkeen\\\"],\\\"yellow\\\":[\\\"Ruokailun\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"vor\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Ennen\\\",\\\"edessä\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Vor\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nach\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Jälkeen\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Nach\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"neben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Vieressä\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"Neben\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"hinter\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Takana\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"Hinter\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"vor\\\"],\\\"purple\\\":[\\\"ennen\\\",\\\"edessä\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"vor\\\"],\\\"purple\\\":[\\\"aikaa\\\",\\\"paikkaa\\\"]},{\\\"blue\\\":[\\\"vor dem Essen\\\",\\\"vor dem Haus\\\"],\\\"purple\\\":[\\\"ennen ruokailua\\\",\\\"talon edessä\\\"]}]}\"}",
+    "owner_note": "FI vor / study: individuāli pārbaudīta LRB-051 rinda 40/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Vorname|idx:637|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Etunimi\"}",
+    "owner_note": "FI Vorname / lv: individuāli pārbaudīta LRB-051 rinda 41/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Wald|idx:638|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Metsä\"}",
+    "owner_note": "FI Wald / lv: individuāli pārbaudīta LRB-051 rinda 42/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Wand|idx:639|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Seinä\"}",
+    "owner_note": "FI Wand / lv: individuāli pārbaudīta LRB-051 rinda 43/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|wann|idx:640|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Milloin\"}",
+    "owner_note": "FI wann / lv: individuāli pārbaudīta LRB-051 rinda 44/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|warm|idx:641|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Lämmin\"}",
+    "owner_note": "FI warm / lv: individuāli pārbaudīta LRB-051 rinda 45/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|warten|idx:642|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Odottaa\"}",
+    "owner_note": "FI warten / lv: individuāli pārbaudīta LRB-051 rinda 46/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|warum|idx:643|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Miksi\"}",
+    "owner_note": "FI warum / lv: individuāli pārbaudīta LRB-051 rinda 47/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|was|idx:644|study|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Mikä • Mitä\",\"study.translation\":\"Mikä • Mitä\",\"study.explanation\":\"[\\\"Pääajatus: was on asioita, tapahtumia ja tosiasioita koskeva kysymyssana; suomeksi se on tavallisesti mikä tai mitä.\\\",\\\"Was ei kysy ihmisistä. Ihmisistä kysytään sanalla wer.\\\",\\\"Saksassa was ei taivu sijamuodoissa, vaan sen muoto pysyy samana.\\\",\\\"Suomen muoto valitaan kysymyksen rakenteen mukaan: Was ist das? = Mikä se on?, mutta Was ist passiert? = Mitä tapahtui?\\\",\\\"Toiminnan kohteesta kysyttäessä käytetään usein mitä: Was machst du? = Mitä teet?\\\",\\\"Wer tarkoittaa ihmisestä kysyttäessä kuka, ei mikä tai mitä.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was ist das?\\\",\\\"lv\\\":\\\"Mikä se on?\\\"},{\\\"de\\\":\\\"Was ist passiert?\\\",\\\"lv\\\":\\\"Mitä tapahtui?\\\"},{\\\"de\\\":\\\"Was machst du gerade?\\\",\\\"lv\\\":\\\"Mitä teet juuri nyt?\\\"},{\\\"de\\\":\\\"Was möchtest du trinken?\\\",\\\"lv\\\":\\\"Mitä haluat juoda?\\\"},{\\\"de\\\":\\\"Was bedeutet dieses Wort?\\\",\\\"lv\\\":\\\"Mitä tämä sana tarkoittaa?\\\"},{\\\"de\\\":\\\"Was ist dein Lieblingsessen?\\\",\\\"lv\\\":\\\"Mikä on lempiruokasi?\\\"},{\\\"de\\\":\\\"Was hast du gesagt?\\\",\\\"lv\\\":\\\"Mitä sanoit?\\\"}]\",\"study.tip\":\"[\\\"was ei muutu saksassa; suomeksi valitaan mikä tai mitä kysymyksen rakenteen mukaan.\\\",\\\"Opettele tavalliset vastineet esimerkeistä: mikä se on?, mitä tapahtui? ja mitä teet?\\\"]\",\"study.important\":\"[\\\"was kysyy asioista, tapahtumista ja tosiasioista, ei ihmisistä.\\\",\\\"Ihmisistä kysytään sanalla wer (kuka), ei was.\\\",\\\"was für (ein/eine) tarkoittaa millainen tai minkälainen ja kysyy ominaisuudesta tai tyypistä.\\\",\\\"Väärin: Wer ist passiert? → Oikein: Was ist passiert?\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"was\\\",\\\"wer\\\"],\\\"purple\\\":[\\\"mikä\\\",\\\"mitä\\\",\\\"kuka\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mikä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mitä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mitä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mitä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mitä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mikä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Was\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mitä\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"was\\\"],\\\"purple\\\":[\\\"mikä\\\",\\\"mitä\\\"]},{\\\"purple\\\":[\\\"mikä se on\\\",\\\"mitä tapahtui\\\",\\\"mitä teet\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"was\\\"],\\\"purple\\\":[\\\"asioista\\\",\\\"tapahtumista\\\",\\\"tosiasioista\\\"]},{\\\"blue\\\":[\\\"wer\\\"],\\\"purple\\\":[\\\"kuka\\\"]},{\\\"blue\\\":[\\\"was für\\\"],\\\"purple\\\":[\\\"millainen\\\",\\\"minkälainen\\\"]},{\\\"red\\\":[\\\"Wer ist passiert\\\"],\\\"green\\\":[\\\"Was ist passiert\\\"]}]}\"}",
+    "owner_note": "FI was / study: individuāli pārbaudīta LRB-051 rinda 48/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|waschen|idx:645|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pestä\"}",
+    "owner_note": "FI waschen / lv: individuāli pārbaudīta LRB-051 rinda 49/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sich waschen|idx:646|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Peseytyä\"}",
+    "owner_note": "FI sich waschen / lv: individuāli pārbaudīta LRB-051 rinda 50/50; norādīta precīza dabiska somu gala vērtība, saglabājot LV→DE semantiku un nemainot DE avotu."
+  }
+}
