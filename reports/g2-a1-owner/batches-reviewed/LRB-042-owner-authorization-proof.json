@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-042",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-13T11:30:49.150Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "unique_cards": 50,
+  "scope": "Apfel..Bein (50 FI rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/fi/a1.js",
+  "input_csv_sha256": "c77fd83a8f925ed50616adf2c4d7c6e4d79d7e4ae867feea44803d3aef8bbb38",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-042-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-042-input.csv",
+  "note": "Owner authorization APPROVED. First FI batch in 7737 pool sequence (post-IS). GPT-5.6 Luna linguistic review pending. NOT LRB_042_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
