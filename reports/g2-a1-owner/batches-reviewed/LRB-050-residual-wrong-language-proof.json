@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-050",
-  "classification": "LRB_050_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "classification": "LRB_050_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "pdf_reaudit": true,
   "post_repair_merge": true,
   "paste_source": "gpt-5.6-luna-copy-paste",
@@ -84,6 +84,6 @@
     "fi:tanzen"
   ],
   "failures": [],
-  "verdict": "LRB_050_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
-  "updatedAt": "2026-09-13T13:57:00.636Z"
+  "verdict": "LRB_050_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-13T14:01:00.000Z"
 }
