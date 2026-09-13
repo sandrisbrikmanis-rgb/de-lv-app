@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-13T17:05:00.000Z",
+  "updatedAt": "2026-09-13T17:30:22.164Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -73,7 +73,7 @@
       "batchId": "LRB-082",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "LINGUISTIC_REVIEW_COMPLETE",
+      "status": "OWNER_APPROVED_OVERRIDES_APPLIED",
       "branch": "cursor/lrb-082-owner-authorization-ed35",
       "reservedAt": "2026-09-13T17:05:00.000Z",
       "rows": 50,
@@ -82,13 +82,15 @@
       },
       "ownerAuthorizationStatus": "APPROVED",
       "linguisticReviewer": "gpt-5.6-luna",
-      "labot": 46,
-      "nelabot": 4,
+      "labot": 50,
+      "nelabot": 0,
       "pending": 0,
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-082-owner-authorization-proof.json",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-082-proof.json",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-082/LRB-082-owner-review-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-082-anti-bulk-proof.json",
-      "uniqueCards": 50
+      "uniqueCards": 50,
+      "overridesSha256": "4467ab3a652adafcda05226c85633de3cdbc02cc024e607d8a6379740bb95765",
+      "updatedAt": "2026-09-13T17:30:22.164Z"
     },
     {
       "batchId": "LRB-083",
