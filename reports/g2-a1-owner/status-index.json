@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T08:00:00.000Z",
+  "updatedAt": "2026-09-13T08:05:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -83,8 +83,8 @@
     "batchSize": 50,
     "batchesTotal": 103,
     "batchesReviewed": 29,
-    "batchesAntiBulkPass": 28,
-    "batchesSpotCheckPass": 28,
+    "batchesAntiBulkPass": 29,
+    "batchesSpotCheckPass": 29,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -669,8 +669,8 @@
         "pasteSha256": "c5695624bc2ffe614dabf751e2559d8f7fdf3da4e542fabd4d4df5cf11c91db4"
       },
       "LRB-029": {
-        "verdict": "PENDING_LINGUISTIC_REVIEW",
-        "status": "OWNER_PREP_READY",
+        "verdict": "LRB_029_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
         "labot": 50,
         "nelabot": 0,
         "pending": 0,
@@ -678,7 +678,8 @@
         "residualAuditPass": true,
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
-        "reviewer": "pending-gpt-5.6-luna",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "2298040a",
         "languages": {
           "is": 50
         },
@@ -690,7 +691,7 @@
         "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-029-anti-bulk-proof.json",
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-029-residual-wrong-language-proof.json",
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-029-owner-authorization-proof.json",
-        "pasteRepairs": "GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT / 38 unique IS cards: 17 composite + 21 scalar) — pending ChatGPT PDF re-review",
+        "pasteRepairs": "GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT / 38 unique IS cards: 17 composite + 21 scalar)",
         "pasteSha256": "b6d7c72fe868f399bc44b997ca04e097f7289aa6ac86bcda877b98e2a12cce23"
       }
     },
@@ -700,7 +701,7 @@
       "nelabot": 0,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+      "linguisticVerdict": "LRB_029_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-029-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-029-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-029-anti-bulk-proof.json"
