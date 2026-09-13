@@ -55,17 +55,20 @@
     "g2/a1/sr|die|idx:137|study.examples[2].lv; study|MISTRANSLATION|gpt-5.6-luna"
   ],
   "created_at": "2026-09-13T06:51:08.261Z",
-  "updated_at": "2026-09-13T07:07:15.040Z",
+  "updated_at": "2026-09-13T07:14:00.000Z",
   "reviewer": "CURSOR_AGENT",
   "linguistic_reviewer": "gpt-5.6-luna",
   "direction": "DESCENDING",
   "reserved_for": "PC2",
   "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
   "owner_authorization_status": "APPROVED",
-  "phase": "OWNER_APPROVED_OVERRIDES_APPLIED",
+  "phase": "GALA_PASS",
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "overrides_sha256": "b2981491b6e0cb5997f25ffc3cec0c256688f7be01826ae0313e6e9ec12bd69d",
   "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-096/LRB-096-owner-approved-overrides.json",
-  "verdict": "50 LABOT / 0 NELABOT / 0 PENDING"
+  "verdict": "LRB_096_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "linguistic_verdict": "LRB_096_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "verified_commit": "e3dc9ab6c1c55a85f6aa81703394b24778886b6c",
+  "gala_pass": true
 }

@@ -11,5 +11,7 @@
 
 **Branch:** `cursor/lrb-096-owner-review-pc2-3db2`
 **Overrides SHA256:** `b2981491b6e0cb5997f25ffc3cec0c256688f7be01826ae0313e6e9ec12bd69d`
-**Status:** 50 LABOT applied — awaiting OWNER/GPT final verdict
+**Verified commit:** `e3dc9ab6c1c55a85f6aa81703394b24778886b6c`
+**GALA PASS:** `LRB_096_FULL_50_50_LINGUISTIC_REVIEW_PASS` (50/50 — SQ 35 + SR 15)
+- [Owner authorization proof](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-096-owner-review-pc2-3db2/reports/g2-a1-owner/batches-reviewed/LRB-096-owner-authorization-proof.json)
 
