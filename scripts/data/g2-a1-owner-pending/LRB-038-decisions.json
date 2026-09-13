@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|schnell|idx:519|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fljótur",
+    "owner_note": "IS schnell / lv: individuāli pārbaudīta LRB-038 rinda 1/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schokolade|idx:520|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "súkkulaði",
+    "owner_note": "IS Schokolade / lv: individuāli pārbaudīta LRB-038 rinda 2/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schon|idx:521|lv, study|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þegar\",\"study.translation\":\"þegar\",\"study.explanation\":\"[\\\"Meginhugmynd: schon sýnir að eitthvað hefur þegar gerst eða er þegar í gildi.\\\",\\\"Orðið lýsir oft staðreynd sem hefur þegar átt sér stað eða ástandi sem er þegar fyrir hendi.\\\",\\\"Í þessari merkingu samsvarar schon íslenska orðinu þegar.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin schon zu Hause.\\\",\\\"lv\\\":\\\"Ég er þegar heima.\\\"}]\",\"study.tip\":\"[\\\"Eitthvað hefur þegar gerst eða er þegar í gildi.\\\",\\\"Notaðu schon þegar samhengi hefur þessa merkingu.\\\"]\",\"study.important\":\"[\\\"schon = þegar.\\\",\\\"Það sýnir að eitthvað hefur þegar gerst eða er þegar í gildi.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"schon\\\"],\\\"purple\\\":[\\\"þegar\\\"],\\\"green\\\":[\\\"gerst\\\",\\\"í gildi\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"schon\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"þegar\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"þegar\\\"]},{\\\"blue\\\":[\\\"schon\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"schon\\\"],\\\"purple\\\":[\\\"þegar\\\"]},{\\\"purple\\\":[\\\"þegar\\\"]}]}\"}",
+    "owner_note": "IS schon / lv, study: individuāli pārbaudīta LRB-038 rinda 3/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schön|idx:522|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fallegur",
+    "owner_note": "IS schön / lv: individuāli pārbaudīta LRB-038 rinda 4/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schrank|idx:523|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "skápur",
+    "owner_note": "IS Schrank / lv: individuāli pārbaudīta LRB-038 rinda 5/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schreiben|idx:524|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "skrifa",
+    "owner_note": "IS schreiben / lv: individuāli pārbaudīta LRB-038 rinda 6/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schuh|idx:525|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "skór",
+    "owner_note": "IS Schuh / lv: individuāli pārbaudīta LRB-038 rinda 7/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schüler|idx:527|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "skólanemi",
+    "owner_note": "IS Schüler / lv: individuāli pārbaudīta LRB-038 rinda 8/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schwarz|idx:528|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "svartur",
+    "owner_note": "IS schwarz / lv: individuāli pārbaudīta LRB-038 rinda 9/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schwein|idx:529|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "svín",
+    "owner_note": "IS Schwein / lv: individuāli pārbaudīta LRB-038 rinda 10/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Schwester|idx:530|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "systir",
+    "owner_note": "IS Schwester / lv: individuāli pārbaudīta LRB-038 rinda 11/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|schwimmen|idx:531|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"synda\",\"study.translation\":\"synda\",\"study.explanation\":\"[\\\"Meginhugmynd: schwimmen merkir að synda sem hreyfingu eða íþrótt.\\\",\\\"schwimmen er notað þegar maður hreyfir sig í vatni með sundtökum.\\\",\\\"Þegar átt er við að baða sig, dvelja í vatni eða fara í vatn sér til ánægju er baden oft notað.\\\",\\\"Á A1-stigi er mikilvægt að greina á milli: schwimmen = synda, baden = baða sig eða dvelja í vatni.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich schwimme gern.\\\",\\\"lv\\\":\\\"Mér finnst gaman að synda.\\\"},{\\\"de\\\":\\\"Er schwimmt sehr gut.\\\",\\\"lv\\\":\\\"Hann syndir mjög vel.\\\"},{\\\"de\\\":\\\"Wir schwimmen im Schwimmbad.\\\",\\\"lv\\\":\\\"Við syndum í sundlauginni.\\\"},{\\\"de\\\":\\\"Ich gehe baden.\\\",\\\"lv\\\":\\\"Ég fer að baða mig.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: sundhreyfing → schwimmen; að baða sig eða dvelja í vatni → baden.\\\"}\",\"study.important\":\"[\\\"schwimmen og baden merkja ekki alveg það sama.\\\",\\\"Veldu eftir því hvort átt er við sundhreyfingu eða að baða sig og dvelja í vatni.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"schwimmen\\\"],\\\"purple\\\":[\\\"synda\\\",\\\"sundtökum\\\"],\\\"red\\\":[\\\"baden\\\",\\\"baða sig\\\",\\\"dvelja í vatni\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"schwimme\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"synda\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"schwimmt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"syndir\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"schwimmen\\\"],\\\"green\\\":[\\\"Schwimmbad\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"syndum\\\",\\\"sundlauginni\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"baden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"baða mig\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"schwimmen\\\"],\\\"purple\\\":[\\\"sundhreyfing\\\"],\\\"red\\\":[\\\"baden\\\",\\\"baða sig\\\",\\\"dvelja í vatni\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"schwimmen\\\"],\\\"red\\\":[\\\"baden\\\"]},{\\\"purple\\\":[\\\"sundhreyfingu\\\"],\\\"red\\\":[\\\"baða sig\\\",\\\"dvelja í vatni\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"synda\\\",\\\"hreyfing\\\",\\\"íþrótt\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"schwimmt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"baden\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"baða sig\\\",\\\"dvelja í vatni\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"baden\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen gehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fara að synda\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"schwimmen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"duschen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fara í sturtu\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"dusche\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"schwimmen\\\",\\\"meaning\\\":\\\"synda sem hreyfing eða íþrótt\\\",\\\"example\\\":\\\"Er schwimmt sehr gut. – Hann syndir mjög vel.\\\"},{\\\"word\\\":\\\"baden\\\",\\\"meaning\\\":\\\"baða sig • dvelja í vatni\\\",\\\"example\\\":\\\"Ich gehe baden. – Ég fer að baða mig.\\\"},{\\\"word\\\":\\\"schwimmen gehen\\\",\\\"meaning\\\":\\\"fara að synda\\\",\\\"example\\\":\\\"Wir gehen schwimmen. – Við förum að synda.\\\"},{\\\"word\\\":\\\"duschen\\\",\\\"meaning\\\":\\\"fara í sturtu\\\",\\\"example\\\":\\\"Ich dusche morgens. – Ég fer í sturtu á morgnana.\\\"}]\"}",
+    "owner_note": "IS schwimmen / lv, study: individuāli pārbaudīta LRB-038 rinda 12/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sechs|idx:532|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sex",
+    "owner_note": "IS sechs / lv: individuāli pārbaudīta LRB-038 rinda 13/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sechshundert|idx:533|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sex hundruð",
+    "owner_note": "IS sechshundert / lv: individuāli pārbaudīta LRB-038 rinda 14/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sechste|idx:534|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sjötti",
+    "owner_note": "IS sechste / lv: individuāli pārbaudīta LRB-038 rinda 15/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sechzehnte|idx:536|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sextándi",
+    "owner_note": "IS sechzehnte / lv: individuāli pārbaudīta LRB-038 rinda 16/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sechzig|idx:537|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sextíu",
+    "owner_note": "IS sechzig / lv: individuāli pārbaudīta LRB-038 rinda 17/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sechzigste|idx:538|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sextugasti",
+    "owner_note": "IS sechzigste / lv: individuāli pārbaudīta LRB-038 rinda 18/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sehen|idx:539|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sjá\",\"study.translation\":\"sjá\",\"study.explanation\":\"[\\\"Meginhugmynd: sehen merkir að sjá með augunum.\\\",\\\"Þegar átt er við það sem augun skynja er sehen notað.\\\",\\\"Að horfa eða líta viljandi er oft schauen eða ansehen.\\\",\\\"Mjög algengt orðasamband er Ich sehe dich. = Ég sé þig.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich sehe dich.\\\",\\\"lv\\\":\\\"Ég sé þig.\\\"},{\\\"de\\\":\\\"Siehst du das Auto?\\\",\\\"lv\\\":\\\"Sérðu bílinn?\\\"},{\\\"de\\\":\\\"Ich sehe nichts.\\\",\\\"lv\\\":\\\"Ég sé ekkert.\\\"},{\\\"de\\\":\\\"Wir schauen einen Film.\\\",\\\"lv\\\":\\\"Við horfum á kvikmynd.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: augun skynja → sehen; þú horfir viljandi → schauen eða ansehen.\\\"}\",\"study.important\":\"[\\\"sehen er ekki það sama og anschauen.\\\",\\\"Ich sehe dich = Ég sé þig; Ich schaue den Film = Ég horfi á kvikmyndina.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sehen\\\",\\\"Ich sehe\\\"],\\\"purple\\\":[\\\"sjá\\\",\\\"augunum\\\"],\\\"red\\\":[\\\"schauen\\\",\\\"ansehen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sehe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sé\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Siehst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Sérðu\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sehe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sé ekkert\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"schauen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"horfum\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sehen\\\"],\\\"purple\\\":[\\\"augun skynja\\\"],\\\"red\\\":[\\\"schauen\\\",\\\"ansehen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sehen\\\"],\\\"red\\\":[\\\"anschauen\\\"]},{\\\"blue\\\":[\\\"Ich sehe\\\",\\\"Ég sé\\\"],\\\"red\\\":[\\\"Ich schaue\\\",\\\"Ég horfi\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sjá\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sehe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schauen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"horfa\\\",\\\"líta\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"schaue\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ansehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"skoða\\\",\\\"horfa á\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"sehe\\\",\\\"an\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"hören\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"heyra\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"höre\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"sehen\\\",\\\"meaning\\\":\\\"sjá\\\",\\\"example\\\":\\\"Ich sehe dich. – Ég sé þig.\\\"},{\\\"word\\\":\\\"schauen\\\",\\\"meaning\\\":\\\"horfa • líta\\\",\\\"example\\\":\\\"Ich schaue auf das Bild. – Ég horfi á myndina.\\\"},{\\\"word\\\":\\\"ansehen\\\",\\\"meaning\\\":\\\"skoða • horfa á\\\",\\\"example\\\":\\\"Ich sehe mir den Film an. – Ég horfi á kvikmyndina.\\\"},{\\\"word\\\":\\\"hören\\\",\\\"meaning\\\":\\\"heyra\\\",\\\"example\\\":\\\"Ich höre Musik. – Ég heyri tónlist.\\\"}]\"}",
+    "owner_note": "IS sehen / lv, study: individuāli pārbaudīta LRB-038 rinda 19/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sehr|idx:540|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mjög",
+    "owner_note": "IS sehr / lv: individuāli pārbaudīta LRB-038 rinda 20/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Seife|idx:541|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sápa",
+    "owner_note": "IS Seife / lv: individuāli pārbaudīta LRB-038 rinda 21/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sein|idx:542|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"vera\",\"study.translation\":\"vera\",\"study.explanation\":\"[\\\"Meginhugmynd: sein merkir að vera.\\\",\\\"sein er ein mikilvægasta sögnin í þýsku.\\\",\\\"Á A1-stigi eru myndirnar ich bin, du bist, er ist og wir sind sérstaklega mikilvægar.\\\",\\\"sein er einnig notað í mörgum setningum um staðsetningu eða eiginleika.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin hier.\\\",\\\"lv\\\":\\\"Ég er hér.\\\"},{\\\"de\\\":\\\"Du bist müde.\\\",\\\"lv\\\":\\\"Þú ert þreyttur.\\\"},{\\\"de\\\":\\\"Er ist Lehrer.\\\",\\\"lv\\\":\\\"Hann er kennari.\\\"},{\\\"de\\\":\\\"Wir sind zu Hause.\\\",\\\"lv\\\":\\\"Við erum heima.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: ich bin = ég er; du bist = þú ert.\\\"}\",\"study.important\":\"[\\\"Læra þarf myndir sein sérstaklega: bin, bist, ist, sind.\\\",\\\"Ich bin merkir „ég er“, ekki „ég vera“.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sein\\\",\\\"ich bin\\\",\\\"du bist\\\",\\\"er ist\\\",\\\"wir sind\\\"],\\\"purple\\\":[\\\"vera\\\",\\\"staðsetningu\\\",\\\"eiginleika\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bin\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"er\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bist\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ert\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ist\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"er\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sind\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"erum\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"ich bin\\\",\\\"du bist\\\"],\\\"purple\\\":[\\\"ég er\\\",\\\"þú ert\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sein\\\",\\\"bin\\\",\\\"bist\\\",\\\"ist\\\",\\\"sind\\\"]},{\\\"blue\\\":[\\\"Ich bin\\\"],\\\"purple\\\":[\\\"ég er\\\"],\\\"red\\\":[\\\"ég vera\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vera\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bin\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"haben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hafa\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"habe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"werden\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"verða\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"werde\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bleiben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vera áfram\\\",\\\"dvelja\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"bleibe\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"sein\\\",\\\"meaning\\\":\\\"vera\\\",\\\"example\\\":\\\"Ich bin hier. – Ég er hér.\\\"},{\\\"word\\\":\\\"haben\\\",\\\"meaning\\\":\\\"hafa\\\",\\\"example\\\":\\\"Ich habe Zeit. – Ég hef tíma.\\\"},{\\\"word\\\":\\\"werden\\\",\\\"meaning\\\":\\\"verða\\\",\\\"example\\\":\\\"Ich werde müde. – Ég verð þreyttur.\\\"},{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"vera áfram • dvelja\\\",\\\"example\\\":\\\"Ich bleibe hier. – Ég verð hér áfram.\\\"}]\"}",
+    "owner_note": "IS sein / lv, study: individuāli pārbaudīta LRB-038 rinda 22/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|seit|idx:543|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "síðan",
+    "owner_note": "IS seit / lv: individuāli pārbaudīta LRB-038 rinda 23/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Seite|idx:544|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"síða • hlið\",\"study.translation\":\"síða • hlið\",\"study.explanation\":\"[\\\"Meginhugmynd: die Seite getur merkt síðu í bók eða skjali, eða hlið einhvers.\\\",\\\"Í bók, tímariti eða á vef merkir die Seite síðu (Seite 5 = síða 5).\\\",\\\"Í rúmlegri merkingu merkir die Seite hlið (auf der linken Seite = vinstra megin).\\\",\\\"Í yfirfærðri merkingu getur die Seite einnig merkt afstöðu eða lið í deilu (auf meiner Seite = mér megin).\\\",\\\"Samhengið — bók og lestur eða staðsetning og afstaða — sýnir rétta merkingu.\\\",\\\"Þýska fleirtalan fyrir báðar merkingar er die Seiten.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Schlagt die Seite zwanzig auf.\\\",\\\"lv\\\":\\\"Flettið upp á síðu tuttugu.\\\"},{\\\"de\\\":\\\"Auf der linken Seite ist ein Park.\\\",\\\"lv\\\":\\\"Vinstra megin er almenningsgarður.\\\"},{\\\"de\\\":\\\"Die Webseite lädt langsam.\\\",\\\"lv\\\":\\\"Vefsíðan hleðst hægt.\\\"},{\\\"de\\\":\\\"Er steht auf meiner Seite.\\\",\\\"lv\\\":\\\"Hann er mér megin.\\\"},{\\\"de\\\":\\\"Das Buch hat 200 Seiten.\\\",\\\"lv\\\":\\\"Bókin er 200 blaðsíður.\\\"},{\\\"de\\\":\\\"Auf der anderen Seite der Straße.\\\",\\\"lv\\\":\\\"Hinum megin við götuna.\\\"}]\",\"study.tip\":\"[\\\"Bók eða lestur → síða. Staðsetning, stefna eða afstaða → hlið.\\\",\\\"Seite X í bók merkir alltaf síðu, ekki hlið.\\\"]\",\"study.important\":\"[\\\"die Seite = síða EÐA hlið — samhengið ræður.\\\",\\\"Þýska fleirtalan fyrir báðar merkingar er die Seiten.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"die Seite\\\",\\\"Seite\\\",\\\"die Seiten\\\"],\\\"purple\\\":[\\\"síðu\\\",\\\"hlið\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"síðu\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Vinstra megin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Webseite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Vefsíðan\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mér megin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Seiten\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"blaðsíður\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hinum megin\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"síða\\\"],\\\"green\\\":[\\\"hlið\\\"]},{\\\"blue\\\":[\\\"Seite\\\"],\\\"purple\\\":[\\\"síðu\\\"],\\\"red\\\":[\\\"hlið\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"síða\\\",\\\"hlið\\\"]},{\\\"blue\\\":[\\\"die Seiten\\\"]}]}\"}",
+    "owner_note": "IS Seite / lv, study: individuāli pārbaudīta LRB-038 rinda 24/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sekunde|idx:545|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sekúnda",
+    "owner_note": "IS Sekunde / lv: individuāli pārbaudīta LRB-038 rinda 25/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|September|idx:546|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "september",
+    "owner_note": "IS September / lv: individuāli pārbaudīta LRB-038 rinda 26/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sich|idx:547|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sig • sér\",\"study.translation\":\"sig • sér\",\"study.explanation\":\"[\\\"Meginhugmynd: sich sýnir að athöfnin beinist aftur að gerandanum sjálfum.\\\",\\\"Á íslensku er það oft þýtt með sig eða sér, eða með afturbeygðri sögn.\\\",\\\"Með sumum þýskum sögnum er sich nauðsynlegur hluti, til dæmis sich waschen.\\\",\\\"Á A1-stigi er mikilvægt að taka eftir: ich wasche mich, er wäscht sich.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er wäscht sich.\\\",\\\"lv\\\":\\\"Hann þvær sér.\\\"},{\\\"de\\\":\\\"Ich setze mich.\\\",\\\"lv\\\":\\\"Ég sest niður.\\\"},{\\\"de\\\":\\\"Sie freut sich.\\\",\\\"lv\\\":\\\"Hún gleðst.\\\"},{\\\"de\\\":\\\"Ich wasche das Auto.\\\",\\\"lv\\\":\\\"Ég þvæ bílinn.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: athöfn sem beinist að gerandanum sjálfum → sich, mich eða dich.\\\"}\",\"study.important\":\"[\\\"sich er ekki nafnorð heldur afturbeygt fornafn.\\\",\\\"Myndin breytist eftir persónu: ich → mich, du → dich, er/sie/es → sich.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sich\\\",\\\"ich wasche mich\\\",\\\"er wäscht sich\\\"],\\\"purple\\\":[\\\"sig\\\",\\\"sér\\\",\\\"gerandanum sjálfum\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"þvær sér\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"mich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sest niður\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gleðst\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"wasche\\\"],\\\"yellow\\\":[\\\"Auto\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"þvæ\\\",\\\"bílinn\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sich\\\",\\\"mich\\\",\\\"dich\\\"],\\\"purple\\\":[\\\"gerandanum sjálfum\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sich\\\"],\\\"red\\\":[\\\"nafnorð\\\"],\\\"purple\\\":[\\\"afturbeygt fornafn\\\"]},{\\\"green\\\":[\\\"mich\\\",\\\"dich\\\"],\\\"blue\\\":[\\\"sich\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sig\\\",\\\"sér\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"mich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mig\\\",\\\"mér\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"mich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"þig\\\",\\\"þér\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"dich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ihn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hann\\\",\\\"andlag\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"ihn\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"sich\\\",\\\"meaning\\\":\\\"sig • sér\\\",\\\"example\\\":\\\"Er wäscht sich. – Hann þvær sér.\\\"},{\\\"word\\\":\\\"mich\\\",\\\"meaning\\\":\\\"mig • mér með ich\\\",\\\"example\\\":\\\"Ich wasche mich. – Ég þvæ mér.\\\"},{\\\"word\\\":\\\"dich\\\",\\\"meaning\\\":\\\"þig • þér með du\\\",\\\"example\\\":\\\"Du wäschst dich. – Þú þværð þér.\\\"},{\\\"word\\\":\\\"ihn\\\",\\\"meaning\\\":\\\"hann sem andlag\\\",\\\"example\\\":\\\"Ich sehe ihn. – Ég sé hann.\\\"}]\"}",
+    "owner_note": "IS sich / lv, study: individuāli pārbaudīta LRB-038 rinda 27/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sicher|idx:548|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"öruggur • vissulega\",\"study.translation\":\"öruggur • vissulega\",\"study.explanation\":\"[\\\"Meginhugmynd: sicher merkir öruggur sem lýsingarorð en vissulega, örugglega eða líklega sem atviksorð eftir samhengi.\\\",\\\"Um stað, aðstæður eða manneskju merkir sicher öruggur (ein sicherer Ort = öruggur staður).\\\",\\\"Sem staðfesting eða fullvissa í setningu merkir sicher vissulega eða örugglega.\\\",\\\"Sicher! sem sjálfstætt svar merkir auðvitað! eða vissulega!\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ist das Wasser sicher?\\\",\\\"lv\\\":\\\"Er vatnið öruggt?\\\"},{\\\"de\\\":\\\"Kommst du morgen? – Sicher!\\\",\\\"lv\\\":\\\"Kemurðu á morgun? – Auðvitað!\\\"},{\\\"de\\\":\\\"Er ist sicher zu Hause.\\\",\\\"lv\\\":\\\"Hann er líklega heima.\\\"},{\\\"de\\\":\\\"Das ist eine sichere Lösung.\\\",\\\"lv\\\":\\\"Þetta er örugg lausn.\\\"},{\\\"de\\\":\\\"Ich bin mir sicher.\\\",\\\"lv\\\":\\\"Ég er viss.\\\"},{\\\"de\\\":\\\"Fahr sicher!\\\",\\\"lv\\\":\\\"Keyrðu varlega!\\\"}]\",\"study.tip\":\"[\\\"Um stað eða aðstæður og öryggi → öruggur.\\\",\\\"Sem fullvissa eða staðfesting → vissulega, örugglega eða líklega eftir samhengi.\\\"]\",\"study.important\":\"[\\\"sicher = öruggur sem lýsingarorð EÐA vissulega, örugglega eða líklega sem atviksorð.\\\",\\\"sich sicher sein = vera viss.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sicher\\\"],\\\"purple\\\":[\\\"öruggur\\\",\\\"vissulega\\\",\\\"örugglega\\\",\\\"líklega\\\"],\\\"green\\\":[\\\"lýsingarorð\\\",\\\"atviksorð\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"öruggt\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Auðvitað\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"líklega\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sichere\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"örugg\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"viss\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"varlega\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"öruggur\\\"]},{\\\"green\\\":[\\\"vissulega\\\",\\\"örugglega\\\",\\\"líklega\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"öruggur\\\",\\\"vissulega\\\",\\\"örugglega\\\",\\\"líklega\\\"]},{\\\"green\\\":[\\\"sich sicher sein\\\"],\\\"purple\\\":[\\\"vera viss\\\"]}]}\"}",
+    "owner_note": "IS sicher / lv: individuāli pārbaudīta LRB-038 rinda 28/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sie|idx:549|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þeir • þær\",\"study.translation\":\"þeir • þær\",\"study.explanation\":\"[\\\"Meginhugmynd: sie með fleirtölusögn vísar til fleiri en einnar manneskju; sögnin endar oft á -en, til dæmis kochen, essen eða gehen.\\\",\\\"sie með eintölusögn í þriðju persónu merkir hún og sögnin endar oft á -t.\\\",\\\"sie með fleirtölusögn merkir þeir, þær eða þau.\\\",\\\"Formlega ávarpsfornafnið Sie merkir þér, er alltaf skrifað með stóru S og tekur fleirtölusagnmynd.\\\",\\\"Í upphafi setningar er einnig skrifað Sie þegar merkingin er hún eða þau; sagnmyndin og samhengið sýna merkinguna.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"Þau elda.\\\"},{\\\"de\\\":\\\"Sie kocht.\\\",\\\"lv\\\":\\\"Hún eldar.\\\"},{\\\"de\\\":\\\"Sie isst.\\\",\\\"lv\\\":\\\"Hún borðar.\\\"},{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"Þau elda.\\\"},{\\\"de\\\":\\\"Sie spielen Fußball.\\\",\\\"lv\\\":\\\"Þau spila fótbolta.\\\"},{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Eldið, vinsamlegast.\\\"}]\",\"study.tip\":\"[\\\"Fleirtölumerkingin vísar til fleiri en einnar manneskju og sögnin endar oft á -en.\\\",\\\"Notaðu sagnmyndina og samhengið til að greina sie = hún frá sie = þau.\\\"]\",\"study.important\":\"[\\\"Formlegt ávarp er alltaf skrifað með stóru S: Sie, ekki sie.\\\",\\\"hún: sie kocht; þau: sie kochen; þér: Sie kochen.\\\",\\\"Merkingin hún tekur eintölusögn, en þau og formlegt Sie taka fleirtölusögn.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sie\\\"],\\\"green\\\":[\\\"-en\\\",\\\"kochen\\\",\\\"essen\\\",\\\"gehen\\\"],\\\"purple\\\":[\\\"hún\\\",\\\"þeir\\\",\\\"þær\\\",\\\"þau\\\"],\\\"yellow\\\":[\\\"Sie\\\",\\\"þér\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Þau\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hún\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hún\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Þau\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Þau\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Eldið\\\"]}}],\\\"tip\\\":[{\\\"green\\\":[\\\"fleiri en einnar\\\",\\\"-en\\\"]},{\\\"blue\\\":[\\\"sie\\\"],\\\"purple\\\":[\\\"hún\\\",\\\"þau\\\"]}],\\\"important\\\":[{\\\"yellow\\\":[\\\"Sie\\\"],\\\"red\\\":[\\\"sie\\\"]},{\\\"blue\\\":[\\\"sie kocht\\\",\\\"sie kochen\\\"],\\\"yellow\\\":[\\\"Sie kochen\\\"]},{\\\"purple\\\":[\\\"hún\\\",\\\"þau\\\"],\\\"green\\\":[\\\"eintölusögn\\\",\\\"fleirtölusögn\\\"],\\\"yellow\\\":[\\\"Sie\\\"]}]}\"}",
+    "owner_note": "IS sie / lv: individuāli pārbaudīta LRB-038 rinda 29/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sie|idx:550|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þér\",\"study.translation\":\"þér\",\"study.explanation\":\"[\\\"Meginhugmynd: Sie er formlegt ávarpsfornafn og er alltaf skrifað með stóru S; á íslensku samsvarar það þér.\\\",\\\"sie með eintölusögn í þriðju persónu merkir hún og sögnin endar oft á -t.\\\",\\\"sie með fleirtölusögn getur merkt þeir, þær eða þau og sögnin endar oft á -en.\\\",\\\"Sie með stóru S tekur sömu sagnmynd og þriðja persóna fleirtölu.\\\",\\\"Í upphafi setningar sýna sagnmyndin og samhengið hvort Sie merkir hún, þau eða formlegt þér.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Eldið, vinsamlegast.\\\"},{\\\"de\\\":\\\"Sie kocht.\\\",\\\"lv\\\":\\\"Hún eldar.\\\"},{\\\"de\\\":\\\"Sie isst.\\\",\\\"lv\\\":\\\"Hún borðar.\\\"},{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"Þau elda.\\\"},{\\\"de\\\":\\\"Sie spielen Fußball.\\\",\\\"lv\\\":\\\"Þau spila fótbolta.\\\"},{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Eldið, vinsamlegast.\\\"}]\",\"study.tip\":\"[\\\"Formlegt ávarp er alltaf skrifað með stóru S og tekur fleirtölusagnmynd.\\\",\\\"Notaðu Sie þegar þú ávarpar einhvern formlega.\\\"]\",\"study.important\":\"[\\\"Formlegt ávarp er alltaf skrifað með stóru S: Sie, ekki sie.\\\",\\\"Formlegt Sie tekur fleirtölusögn: Sie kochen, ekki Sie kocht.\\\",\\\"Lágstafað sie getur merkt hún eða þau; sagnmyndin sýnir merkinguna.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"yellow\\\":[\\\"Sie\\\"],\\\"purple\\\":[\\\"þér\\\"],\\\"blue\\\":[\\\"sie\\\"],\\\"green\\\":[\\\"-t\\\",\\\"-en\\\",\\\"fleirtölu\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Eldið\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hún\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hún\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Þau\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Þau\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"sie\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Eldið\\\"]}}],\\\"tip\\\":[{\\\"yellow\\\":[\\\"stóru S\\\"],\\\"green\\\":[\\\"fleirtölusagnmynd\\\"]},{\\\"yellow\\\":[\\\"Sie\\\"],\\\"purple\\\":[\\\"formlega\\\"]}],\\\"important\\\":[{\\\"yellow\\\":[\\\"Sie\\\"],\\\"red\\\":[\\\"sie\\\"]},{\\\"yellow\\\":[\\\"Sie\\\"],\\\"green\\\":[\\\"fleirtölusögn\\\",\\\"Sie kochen\\\"],\\\"red\\\":[\\\"Sie kocht\\\"]},{\\\"blue\\\":[\\\"sie\\\"],\\\"purple\\\":[\\\"hún\\\",\\\"þau\\\"],\\\"green\\\":[\\\"sagnmyndin\\\"]}]}\"}",
+    "owner_note": "IS Sie / lv: individuāli pārbaudīta LRB-038 rinda 30/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|siebenhundert|idx:551|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sjö hundruð",
+    "owner_note": "IS siebenhundert / lv: individuāli pārbaudīta LRB-038 rinda 31/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|siebente|idx:552|lv|LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sjöundi",
+    "owner_note": "IS siebente / lv: individuāli pārbaudīta LRB-038 rinda 32/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|siebzehn|idx:553|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sautján",
+    "owner_note": "IS siebzehn / lv: individuāli pārbaudīta LRB-038 rinda 33/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|siebzehnte|idx:554|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sautjándi",
+    "owner_note": "IS siebzehnte / lv: individuāli pārbaudīta LRB-038 rinda 34/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|siebzig|idx:555|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sjötíu",
+    "owner_note": "IS siebzig / lv: individuāli pārbaudīta LRB-038 rinda 35/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|siebzigste|idx:556|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sjötugasti",
+    "owner_note": "IS siebzigste / lv: individuāli pārbaudīta LRB-038 rinda 36/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|singen|idx:557|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "syngja",
+    "owner_note": "IS singen / lv: individuāli pārbaudīta LRB-038 rinda 37/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sitzen|idx:558|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sitja\",\"study.translation\":\"sitja\",\"study.explanation\":\"[\\\"Meginhugmynd: sitzen merkir að sitja.\\\",\\\"sitzen er notað um manneskju eða dýr sem situr.\\\",\\\"Stundum merkir sitzen einnig að vera á ákveðnum stað, en á A1-stigi er meginmerkingin að sitja.\\\",\\\"Mikilvægt er að greina: sitzen = sitja, stehen = standa, liegen = liggja.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich sitze am Tisch.\\\",\\\"lv\\\":\\\"Ég sit við borðið.\\\"},{\\\"de\\\":\\\"Die Kinder sitzen im Bus.\\\",\\\"lv\\\":\\\"Börnin sitja í strætó.\\\"},{\\\"de\\\":\\\"Er steht an der Tür.\\\",\\\"lv\\\":\\\"Hann stendur við dyrnar.\\\"},{\\\"de\\\":\\\"Die Katze liegt auf dem Sofa.\\\",\\\"lv\\\":\\\"Kötturinn liggur í sófanum.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: sitjandi → sitzen; standandi → stehen; liggjandi → liegen.\\\"}\",\"study.important\":\"[\\\"sitzen lýsir stöðunni að sitja.\\\",\\\"Að setjast er sich setzen, ekki sitzen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"sitja\\\",\\\"situr\\\"],\\\"red\\\":[\\\"stehen\\\",\\\"liegen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sitze\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sit\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sitzen\\\"],\\\"green\\\":[\\\"Kinder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sitja\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"steht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"stendur\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"liggur\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"sitjandi\\\"],\\\"red\\\":[\\\"stehen\\\"],\\\"yellow\\\":[\\\"liegen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"sitja\\\"]},{\\\"green\\\":[\\\"sich setzen\\\"],\\\"blue\\\":[\\\"sitzen\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sitzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sitja\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sitze\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"standa\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"steht\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"liegen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"liggja\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"liegt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"setzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"setjast\\\",\\\"setja\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"setze\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"sitzen\\\",\\\"meaning\\\":\\\"sitja\\\",\\\"example\\\":\\\"Ich sitze am Tisch. – Ég sit við borðið.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"standa\\\",\\\"example\\\":\\\"Er steht an der Tür. – Hann stendur við dyrnar.\\\"},{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"liggja\\\",\\\"example\\\":\\\"Die Katze liegt dort. – Kötturinn liggur þar.\\\"},{\\\"word\\\":\\\"setzen\\\",\\\"meaning\\\":\\\"setjast • setja\\\",\\\"example\\\":\\\"Ich setze mich. – Ég sest niður.\\\"}]\"}",
+    "owner_note": "IS sitzen / lv: individuāli pārbaudīta LRB-038 rinda 38/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|so|idx:559|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þannig",
+    "owner_note": "IS so / lv: individuāli pārbaudīta LRB-038 rinda 39/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Socke|idx:560|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sokkur",
+    "owner_note": "IS Socke / lv: individuāli pārbaudīta LRB-038 rinda 40/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sofa|idx:561|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sófi",
+    "owner_note": "IS Sofa / lv: individuāli pārbaudīta LRB-038 rinda 41/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sofort|idx:562|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "strax",
+    "owner_note": "IS sofort / lv: individuāli pārbaudīta LRB-038 rinda 42/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sohn|idx:563|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sonur",
+    "owner_note": "IS Sohn / lv: individuāli pārbaudīta LRB-038 rinda 43/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|sollen|idx:564|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eiga að • ætti að\",\"study.translation\":\"eiga að • ætti að\",\"study.explanation\":\"[\\\"Meginhugmynd: sollen merkir að einhver eigi eða ætti að gera eitthvað samkvæmt fyrirmælum eða ráðleggingu.\\\",\\\"sollen er oft notað þegar einhver annar segir hvað eigi að gera.\\\",\\\"Það lýsir yfirleitt ekki jafn sterkri nauðsyn og müssen.\\\",\\\"Mjög algengt orðasamband er Was soll ich machen? = Hvað á ég að gera?\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was soll ich machen?\\\",\\\"lv\\\":\\\"Hvað á ég að gera?\\\"},{\\\"de\\\":\\\"Du sollst kommen.\\\",\\\"lv\\\":\\\"Þú átt að koma.\\\"},{\\\"de\\\":\\\"Ich soll zu Hause bleiben.\\\",\\\"lv\\\":\\\"Ég á að vera heima.\\\"},{\\\"de\\\":\\\"Ich muss jetzt gehen.\\\",\\\"lv\\\":\\\"Ég verð að fara núna.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: einhver segir hvað eigi að gera → sollen; brýn nauðsyn → müssen.\\\"}\",\"study.important\":\"[\\\"Was soll ich machen? er mjög algengt orðasamband.\\\",\\\"sollen og müssen merkja ekki alveg það sama.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sollen\\\",\\\"Was soll ich machen\\\"],\\\"purple\\\":[\\\"eigi\\\",\\\"ætti\\\",\\\"fyrirmælum\\\",\\\"ráðleggingu\\\"],\\\"red\\\":[\\\"müssen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"soll\\\",\\\"machen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á ég að gera\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sollst\\\",\\\"kommen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"átt að koma\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"soll\\\",\\\"bleiben\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"á að vera\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"muss\\\",\\\"gehen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verð að fara\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sollen\\\"],\\\"purple\\\":[\\\"eigi að gera\\\"],\\\"red\\\":[\\\"müssen\\\",\\\"brýn nauðsyn\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"Was soll ich machen\\\"]},{\\\"blue\\\":[\\\"sollen\\\"],\\\"red\\\":[\\\"müssen\\\"]}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"eiga að\\\",\\\"ætti að\\\",\\\"fyrirmælum\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"soll\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"müssen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"verða að\\\",\\\"þurfa\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"muss\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"können\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"geta\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"kann\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"vilja\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"will\\\"]}}]}\",\"study.comparison\":\"[{\\\"word\\\":\\\"sollen\\\",\\\"meaning\\\":\\\"eiga að • ætti að samkvæmt fyrirmælum\\\",\\\"example\\\":\\\"Was soll ich machen? – Hvað á ég að gera?\\\"},{\\\"word\\\":\\\"müssen\\\",\\\"meaning\\\":\\\"verða að • þurfa\\\",\\\"example\\\":\\\"Ich muss gehen. – Ég verð að fara.\\\"},{\\\"word\\\":\\\"können\\\",\\\"meaning\\\":\\\"geta\\\",\\\"example\\\":\\\"Ich kann kommen. – Ég get komið.\\\"},{\\\"word\\\":\\\"wollen\\\",\\\"meaning\\\":\\\"vilja\\\",\\\"example\\\":\\\"Ich will bleiben. – Ég vil vera áfram.\\\"}]\"}",
+    "owner_note": "IS sollen / lv: individuāli pārbaudīta LRB-038 rinda 44/50; pilnā composite kartīte aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sommer|idx:565|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sumar",
+    "owner_note": "IS Sommer / lv: individuāli pārbaudīta LRB-038 rinda 45/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Samstag|idx:566|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "laugardagur",
+    "owner_note": "IS Samstag / lv: individuāli pārbaudīta LRB-038 rinda 46/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sonne|idx:567|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sól",
+    "owner_note": "IS Sonne / lv: individuāli pārbaudīta LRB-038 rinda 47/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|Sonntag|idx:568|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sunnudagur",
+    "owner_note": "IS Sonntag / lv: individuāli pārbaudīta LRB-038 rinda 48/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|spät|idx:569|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "seinn",
+    "owner_note": "IS spät / lv: individuāli pārbaudīta LRB-038 rinda 49/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  },
+  "g2/a1/is|spazieren gehen|idx:570|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fara í göngutúr",
+    "owner_note": "IS spazieren gehen / lv: individuāli pārbaudīta LRB-038 rinda 50/50; precīzā scalar vērtība aizvietota ar dabisku islandiešu saturu, DE avots nemainīts."
+  }
+}
