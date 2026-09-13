@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-093",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-13T08:29:45.194Z",
-  "sourceCommit": "a765928f2ed9ea1405e2d8c1fe88fe8be72746d3",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-13T08:41:00.000Z",
+  "sourceCommit": "e58df34f9695792e8c3f182555a533ef841b7489",
   "branch": "cursor/lrb-093-owner-review-pc2-3db2",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -68,7 +68,12 @@
     "github": "reports/g2-a1-owner/batches-owner-review/LRB-093/LRB-093-owner-review-GITHUB.md",
     "overrides": "reports/g2-a1-owner/batches-owner-review/LRB-093/LRB-093-owner-approved-overrides.json",
     "manifest": "reports/g2-a1-owner/manifests/LRB-093-start.json",
-    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json"
+    "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
+    "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-093-owner-authorization-proof.json"
   },
-  "note": "OWNER approved overrides applied mechanically. Not declaring final PASS — awaiting independent OWNER/GPT verification."
+  "note": "Gala verdict LRB_093_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit e58df34f9695792e8c3f182555a533ef841b7489 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (SK 18 + SL 32). DE/production/Crowdin/ingest/apply unchanged.",
+  "verifiedCommit": "e58df34f9695792e8c3f182555a533ef841b7489",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_093_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPass": true
 }

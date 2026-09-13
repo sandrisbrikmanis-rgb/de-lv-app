@@ -1,7 +1,7 @@
 {
   "batchId": "LRB-093",
-  "generatedAt": "2026-09-13T08:29:45.194Z",
-  "sourceCommit": "a765928f2ed9ea1405e2d8c1fe88fe8be72746d3",
+  "generatedAt": "2026-09-13T08:41:00.000Z",
+  "sourceCommit": "e58df34f9695792e8c3f182555a533ef841b7489",
   "reviewer": "OWNER/GPT",
   "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
   "overridesSha256": "4e2cf2bb724477709496a156efabcb130270ce9cf4f9b05d1380eeca2159fb4c",
@@ -16262,5 +16262,8 @@
       },
       "accentTerms": null
     }
-  ]
+  ],
+  "verifiedCommit": "e58df34f9695792e8c3f182555a533ef841b7489",
+  "linguisticVerdict": "LRB_093_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPass": true
 }

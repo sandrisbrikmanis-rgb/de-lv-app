@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T08:01:00.000Z",
+  "updatedAt": "2026-09-13T08:41:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -37,6 +37,7 @@
       "LRB-018",
       "LRB-019",
       "LRB-020",
+      "LRB-093",
       "LRB-094",
       "LRB-095",
       "LRB-096",
@@ -83,9 +84,9 @@
     "batchPrefix": "LRB",
     "batchSize": 50,
     "batchesTotal": 103,
-    "batchesReviewed": 23,
-    "batchesAntiBulkPass": 23,
-    "batchesSpotCheckPass": 23,
+    "batchesReviewed": 24,
+    "batchesAntiBulkPass": 24,
+    "batchesSpotCheckPass": 24,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -697,22 +698,49 @@
         "proof": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-owner-review-proof.json",
         "galaCards": "reports/g2-a1-owner/batches-owner-review/LRB-101/LRB-101-gala-cards.json",
         "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-101-owner-authorization-proof.json"
+      },
+      "LRB-093": {
+        "verdict": "LRB_093_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
+        "labot": 50,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "e58df34f",
+        "verifiedCommit": "e58df34f9695792e8c3f182555a533ef841b7489",
+        "verificationStandard": "FULL_50_50_PDF",
+        "languages": {
+          "sk": 18,
+          "sl": 32
+        },
+        "uniqueSkCards": 18,
+        "uniqueSlCards": 32,
+        "compositeRepairs": 50,
+        "productionSource": "data/sk/a1.js + data/sl/a1.js",
+        "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-093/LRB-093-owner-decisions.md",
+        "proof": "reports/g2-a1-owner/batches-owner-review/LRB-093/LRB-093-owner-review-proof.json",
+        "galaCards": "reports/g2-a1-owner/batches-owner-review/LRB-093/LRB-093-gala-cards.json",
+        "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-093-owner-authorization-proof.json"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-094",
+      "batch_id": "LRB-093",
       "labot": 50,
       "nelabot": 0,
       "pending": 0,
       "antiBulkPass": true,
-      "linguisticVerdict": "LRB_094_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-      "verifiedCommit": "0cd450cea8f83058844c721c58c574f247110720",
+      "linguisticVerdict": "LRB_093_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "verifiedCommit": "e58df34f9695792e8c3f182555a533ef841b7489",
       "languages": {
-        "sl": 50
+        "sk": 18,
+        "sl": 32
       },
-      "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-094/LRB-094-owner-decisions.md",
-      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-094/LRB-094-owner-review-proof.json",
-      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-094-owner-authorization-proof.json"
+      "decisions": "reports/g2-a1-owner/batches-owner-review/LRB-093/LRB-093-owner-decisions.md",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-093/LRB-093-owner-review-proof.json",
+      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-093-owner-authorization-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
