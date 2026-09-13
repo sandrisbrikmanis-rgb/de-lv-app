@@ -1,0 +1,302 @@
+{
+  "g2/a1/fi|Schnee|idx:517|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Schnee / lv: individuāli pārbaudīta LRB-050 rinda 1/50; esošā production_current vērtība jau ir pareiza somu valoda, tādēļ izmaiņa nav vajadzīga."
+  },
+  "g2/a1/fi|schneien|idx:518|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sataa lunta\"}",
+    "owner_note": "FI schneien / lv: individuāli pārbaudīta LRB-050 rinda 2/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schnell|idx:519|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Nopea\"}",
+    "owner_note": "FI schnell / lv: individuāli pārbaudīta LRB-050 rinda 3/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schokolade|idx:520|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Suklaa\"}",
+    "owner_note": "FI Schokolade / lv: individuāli pārbaudīta LRB-050 rinda 4/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schon|idx:521|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Jo\",\"study.translation\":\"Jo\",\"study.explanation\":\"[\\\"Pääajatus: schon ilmaisee, että jokin on jo tapahtunut tai tila on jo voimassa.\\\",\\\"Sanaa käytetään tapahtuneesta tosiasiasta tai olemassa olevasta tilasta.\\\",\\\"Tässä merkityksessä schon = jo; tapahtuma tai tila edeltää puhehetkeä.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin schon zu Hause.\\\",\\\"lv\\\":\\\"Olen jo kotona.\\\"}]\",\"study.tip\":\"[\\\"Jokin on jo tapahtunut tai on jo voimassa.\\\",\\\"Käytä schon-sanaa, kun asiayhteys vastaa tätä merkitystä.\\\"]\",\"study.important\":\"[\\\"schon = jo.\\\",\\\"Jokin on jo tapahtunut tai on jo voimassa.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"schon\\\"],\\\"purple\\\":[\\\"jo\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"schon\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"jo\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"jo\\\"]},{\\\"blue\\\":[\\\"schon\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"schon\\\"],\\\"purple\\\":[\\\"jo\\\"]},{\\\"purple\\\":[\\\"jo\\\"]}]}\"}",
+    "owner_note": "FI schon / lv: individuāli pārbaudīta LRB-050 rinda 5/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schön|idx:522|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kaunis\"}",
+    "owner_note": "FI schön / lv: individuāli pārbaudīta LRB-050 rinda 6/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schrank|idx:523|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kaappi\"}",
+    "owner_note": "FI Schrank / lv: individuāli pārbaudīta LRB-050 rinda 7/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schreiben|idx:524|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kirjoittaa\"}",
+    "owner_note": "FI schreiben / lv: individuāli pārbaudīta LRB-050 rinda 8/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schuh|idx:525|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kenkä\"}",
+    "owner_note": "FI Schuh / lv: individuāli pārbaudīta LRB-050 rinda 9/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schule|idx:526|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Koulu\"}",
+    "owner_note": "FI Schule / lv: individuāli pārbaudīta LRB-050 rinda 10/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schüler|idx:527|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Oppilas\"}",
+    "owner_note": "FI Schüler / lv: individuāli pārbaudīta LRB-050 rinda 11/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schwarz|idx:528|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Musta\"}",
+    "owner_note": "FI schwarz / lv: individuāli pārbaudīta LRB-050 rinda 12/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schwein|idx:529|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sika\"}",
+    "owner_note": "FI Schwein / lv: individuāli pārbaudīta LRB-050 rinda 13/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Schwester|idx:530|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sisko\"}",
+    "owner_note": "FI Schwester / lv: individuāli pārbaudīta LRB-050 rinda 14/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|schwimmen|idx:531|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Uida\",\"study.translation\":\"Uida\",\"study.explanation\":\"[\\\"Pääajatus: schwimmen tarkoittaa uintia liikkeenä tai urheiluna.\\\",\\\"Schwimmen käytetään, kun ihminen ui vedessä uintiliikkeillä.\\\",\\\"Kun kyse on vedessä oleskelusta tai uimisesta huviksi, käytetään usein baden.\\\",\\\"A1-tasolla on tärkeää erottaa: schwimmen = uida, baden = kylpeä/uida huviksi.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich schwimme gern.\\\",\\\"lv\\\":\\\"Minä uin mielelläni.\\\"},{\\\"de\\\":\\\"Er schwimmt sehr gut.\\\",\\\"lv\\\":\\\"Hän ui erittäin hyvin.\\\"},{\\\"de\\\":\\\"Wir schwimmen im Schwimmbad.\\\",\\\"lv\\\":\\\"Me uimme uimahallissa.\\\"},{\\\"de\\\":\\\"Ich gehe baden.\\\",\\\"lv\\\":\\\"Menen kylpemään.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"schwimmen\\\",\\\"meaning\\\":\\\"Uida liikkeenä tai urheiluna\\\",\\\"example\\\":\\\"Er schwimmt sehr gut.\\\"},{\\\"word\\\":\\\"baden\\\",\\\"meaning\\\":\\\"Kylpeä / olla vedessä\\\",\\\"example\\\":\\\"Ich gehe baden.\\\"},{\\\"word\\\":\\\"schwimmen gehen\\\",\\\"meaning\\\":\\\"Mennä uimaan\\\",\\\"example\\\":\\\"Wir gehen schwimmen.\\\"},{\\\"word\\\":\\\"duschen\\\",\\\"meaning\\\":\\\"Käydä suihkussa\\\",\\\"example\\\":\\\"Ich dusche morgens.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: uintiliike → schwimmen; lepo vedessä → baden.\\\"}\",\"study.important\":\"[\\\"schwimmen ja baden eivät ole sama asia.\\\",\\\"Suomeksi sanotaan usein uida, mutta saksaksi on tarkistettava, onko kyse uintiliikkeestä vai vedessä oleskelusta tai uimisesta huviksi.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"schwimmen\\\"],\\\"purple\\\":[\\\"uida\\\",\\\"uintiliikkeillä\\\"],\\\"red\\\":[\\\"baden\\\",\\\"kylpeä\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"schwimme\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"schwimmt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ui\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"schwimmen\\\"],\\\"green\\\":[\\\"Schwimmbad\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"uimme\\\"],\\\"green\\\":[\\\"uimahallissa\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"baden\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"kylpemään\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"uida\\\",\\\"liikkeenä\\\",\\\"urheiluna\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"schwimmt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"baden\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kylpeä\\\",\\\"vedessä\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"baden\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schwimmen gehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mennä\\\",\\\"uimaan\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"schwimmen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"duschen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"käydä\\\",\\\"suihkussa\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"dusche\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"schwimmen\\\"],\\\"purple\\\":[\\\"Muista\\\"],\\\"red\\\":[\\\"baden\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"schwimmen\\\"],\\\"red\\\":[\\\"baden\\\"]},{\\\"purple\\\":[\\\"Suomeksi\\\"],\\\"blue\\\":[\\\"uida\\\"]}]}\"}",
+    "owner_note": "FI schwimmen / lv; study.explanation; study.examples; study.important: individuāli pārbaudīta LRB-050 rinda 15/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sechs|idx:532|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuusi\"}",
+    "owner_note": "FI sechs / lv: individuāli pārbaudīta LRB-050 rinda 16/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sechshundert|idx:533|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuusisataa\"}",
+    "owner_note": "FI sechshundert / lv: individuāli pārbaudīta LRB-050 rinda 17/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sechste|idx:534|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuudes\"}",
+    "owner_note": "FI sechste / lv: individuāli pārbaudīta LRB-050 rinda 18/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sechzehn|idx:535|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuusitoista\"}",
+    "owner_note": "FI sechzehn / lv: individuāli pārbaudīta LRB-050 rinda 19/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sechzehnte|idx:536|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuudestoista\"}",
+    "owner_note": "FI sechzehnte / lv: individuāli pārbaudīta LRB-050 rinda 20/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sechzig|idx:537|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuusikymmentä\"}",
+    "owner_note": "FI sechzig / lv: individuāli pārbaudīta LRB-050 rinda 21/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sechzigste|idx:538|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuudeskymmenes\"}",
+    "owner_note": "FI sechzigste / lv: individuāli pārbaudīta LRB-050 rinda 22/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sehen|idx:539|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Nähdä\",\"study.translation\":\"Nähdä\",\"study.explanation\":\"[\\\"Pääajatus: sehen tarkoittaa näkemistä silmillä.\\\",\\\"Kun kyse on siitä, mitä silmät havaitsevat, käytetään sehen.\\\",\\\"Tarkoituksellinen katselu on usein schauen tai ansehen.\\\",\\\"Hyvin yleinen fraasi on Ich sehe dich. = Näen sinut.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich sehe dich.\\\",\\\"lv\\\":\\\"Näen sinut.\\\"},{\\\"de\\\":\\\"Siehst du das Auto?\\\",\\\"lv\\\":\\\"Näetkö sen auton?\\\"},{\\\"de\\\":\\\"Ich sehe nichts.\\\",\\\"lv\\\":\\\"En näe mitään.\\\"},{\\\"de\\\":\\\"Wir schauen einen Film.\\\",\\\"lv\\\":\\\"Katsomme elokuvaa.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sehen\\\",\\\"meaning\\\":\\\"Nähdä\\\",\\\"example\\\":\\\"Ich sehe dich.\\\"},{\\\"word\\\":\\\"schauen\\\",\\\"meaning\\\":\\\"Katsoa\\\",\\\"example\\\":\\\"Ich schaue auf das Bild.\\\"},{\\\"word\\\":\\\"ansehen\\\",\\\"meaning\\\":\\\"Katsoa / tarkastella\\\",\\\"example\\\":\\\"Ich sehe mir den Film an.\\\"},{\\\"word\\\":\\\"hören\\\",\\\"meaning\\\":\\\"Kuulla\\\",\\\"example\\\":\\\"Ich höre Musik.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: silmät havaitsevat → sehen; tarkoituksellinen katselu → schauen/ansehen.\\\"}\",\"study.important\":\"[\\\"sehen ei ole sama kuin anschauen.\\\",\\\"Ich sehe dich = näen sinut; Ich schaue den Film = katson elokuvan.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sehen\\\",\\\"Ich sehe\\\"],\\\"purple\\\":[\\\"näkemistä\\\",\\\"silmillä\\\"],\\\"red\\\":[\\\"schauen\\\",\\\"ansehen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sehe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"näen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Siehst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"näet\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sehe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"näe\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"schauen\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"katsomme\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"nähdä\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sehe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schauen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"katsoa\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"schaue\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ansehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"katsoa\\\",\\\"tarkastella\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"sehe\\\",\\\"an\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"hören\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kuulla\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"höre\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sehen\\\"],\\\"purple\\\":[\\\"Muista\\\"],\\\"red\\\":[\\\"schauen\\\",\\\"ansehen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sehen\\\"],\\\"red\\\":[\\\"anschauen\\\"]},{\\\"blue\\\":[\\\"sehe\\\"],\\\"purple\\\":[\\\"näen\\\"],\\\"red\\\":[\\\"schaue\\\"]}]}\"}",
+    "owner_note": "FI sehen / lv; study.explanation; study.examples; study.important: individuāli pārbaudīta LRB-050 rinda 23/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sehr|idx:540|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Erittäin\"}",
+    "owner_note": "FI sehr / lv: individuāli pārbaudīta LRB-050 rinda 24/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Seife|idx:541|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Saippua\"}",
+    "owner_note": "FI Seife / lv: individuāli pārbaudīta LRB-050 rinda 25/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sein|idx:542|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Olla\",\"study.translation\":\"Olla\",\"study.explanation\":\"[\\\"Pääajatus: sein tarkoittaa olemista.\\\",\\\"Sein on yksi tärkeimmistä saksan verbeistä.\\\",\\\"A1-tasolla erityisen tärkeitä ovat muodot ich bin, du bist, er ist ja wir sind.\\\",\\\"Sein käytetään myös monissa lauseissa sijainnin tai ominaisuuden kanssa.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin hier.\\\",\\\"lv\\\":\\\"Olen täällä.\\\"},{\\\"de\\\":\\\"Du bist müde.\\\",\\\"lv\\\":\\\"Olet väsynyt.\\\"},{\\\"de\\\":\\\"Er ist Lehrer.\\\",\\\"lv\\\":\\\"Hän on opettaja.\\\"},{\\\"de\\\":\\\"Wir sind zu Hause.\\\",\\\"lv\\\":\\\"Olemme kotona.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sein\\\",\\\"meaning\\\":\\\"Olla\\\",\\\"example\\\":\\\"Ich bin hier.\\\"},{\\\"word\\\":\\\"haben\\\",\\\"meaning\\\":\\\"Minulla on\\\",\\\"example\\\":\\\"Ich habe Zeit.\\\"},{\\\"word\\\":\\\"werden\\\",\\\"meaning\\\":\\\"Tulla\\\",\\\"example\\\":\\\"Ich werde müde.\\\"},{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"Jäädä\\\",\\\"example\\\":\\\"Ich bleibe hier.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: ich bin = olen; du bist = olet.\\\"}\",\"study.important\":\"[\\\"sein-muodot on opittava erikseen: bin, bist, ist, sind.\\\",\\\"Ich bin on olen, ei olla.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sein\\\",\\\"ich bin\\\",\\\"du bist\\\",\\\"er ist\\\",\\\"wir sind\\\"],\\\"purple\\\":[\\\"olemista\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bin\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"olen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bist\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"olet\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ist\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"on\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sind\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"olemme\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"olla\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bin\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"haben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"minulla\\\",\\\"on\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"habe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"werden\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"tulla\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"werde\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bleiben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"jäädä\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"bleibe\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"ich bin\\\",\\\"du bist\\\"],\\\"purple\\\":[\\\"olen\\\",\\\"olet\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"bin\\\",\\\"bist\\\",\\\"ist\\\",\\\"sind\\\"]},{\\\"blue\\\":[\\\"Ich bin\\\"],\\\"purple\\\":[\\\"olen\\\"],\\\"red\\\":[\\\"olla\\\"]}]}\"}",
+    "owner_note": "FI sein / lv; study.explanation; study.examples; study.important: individuāli pārbaudīta LRB-050 rinda 26/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|seit|idx:543|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"-sta/-stä lähtien\"}",
+    "owner_note": "FI seit / lv: individuāli pārbaudīta LRB-050 rinda 27/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Seite|idx:544|lv; study.explanation; study.examples; study.tip; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sivu • Puoli\",\"study.translation\":\"Sivu • Puoli\",\"study.explanation\":\"[\\\"Pääajatus: die Seite voi tarkoittaa kirjan/dokumentin sivua tai jonkin asian reunaa/puolta.\\\",\\\"Kirjassa, lehdessä tai verkkosivulla die Seite = sivu (Seite 5 = 5. sivu).\\\",\\\"Paikallisessa merkityksessä die Seite = puoli (auf der linken Seite = vasemmalla puolella).\\\",\\\"Siirretyssä merkityksessä die Seite voi tarkoittaa myös puolta konfliktissa tai ajatuksissa (auf meiner Seite = minun puolellani).\\\",\\\"Konteksti (kirja/lukeminen tai sijainti/suhteet) osoittaa oikean merkityksen.\\\",\\\"Monikossa molemmissa merkityksissä: die Seiten.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Schlagt die Seite zwanzig auf.\\\",\\\"lv\\\":\\\"Avatkaa sivu kaksikymmentä.\\\"},{\\\"de\\\":\\\"Auf der linken Seite ist ein Park.\\\",\\\"lv\\\":\\\"Vasemmalla puolella on puisto.\\\"},{\\\"de\\\":\\\"Die Webseite lädt langsam.\\\",\\\"lv\\\":\\\"Verkkosivu latautuu hitaasti.\\\"},{\\\"de\\\":\\\"Er steht auf meiner Seite.\\\",\\\"lv\\\":\\\"Hän on minun puolellani.\\\"},{\\\"de\\\":\\\"Das Buch hat 200 Seiten.\\\",\\\"lv\\\":\\\"Kirjassa on 200 sivua.\\\"},{\\\"de\\\":\\\"Auf der anderen Seite der Straße.\\\",\\\"lv\\\":\\\"Kadun toisella puolella.\\\"}]\",\"study.tip\":\"[\\\"Puhutaan kirjasta tai lukemisesta → sivu. Puhutaan sijainnista, suunnasta tai suhteista → puoli.\\\",\\\"Sivu X kirjassa on aina sivu, ei puoli.\\\"]\",\"study.important\":\"[\\\"die Seite = sivu TAI puoli — konteksti ratkaisee.\\\",\\\"Monikossa molemmissa merkityksissä: die Seiten.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"die Seite\\\",\\\"Seite\\\"],\\\"purple\\\":[\\\"sivu\\\",\\\"puoli\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sivu\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"puolella\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Webseite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"verkkosivu\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"puolellani\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Seiten\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sivua\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"puolella\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"kirjasta\\\"],\\\"green\\\":[\\\"sivu\\\"]},{\\\"blue\\\":[\\\"Sivu\\\"],\\\"purple\\\":[\\\"sivu\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"sivu\\\",\\\"puoli\\\"]},{\\\"blue\\\":[\\\"die Seiten\\\"]}]}\"}",
+    "owner_note": "FI Seite / lv; study.explanation; study.examples; study.tip; study.important: individuāli pārbaudīta LRB-050 rinda 28/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Sekunde|idx:545|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Sekunti\"}",
+    "owner_note": "FI Sekunde / lv: individuāli pārbaudīta LRB-050 rinda 29/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|September|idx:546|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Syyskuu\"}",
+    "owner_note": "FI September / lv: individuāli pārbaudīta LRB-050 rinda 30/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sich|idx:547|lv; study.explanation; study.examples; study.important|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Itseään • Itselleen\",\"study.translation\":\"Itseään • Itselleen\",\"study.explanation\":\"[\\\"Pääajatus: sich on heijempronomeni — toiminta kohdistuu tekijään itseensä.\\\",\\\"Suomeksi käännetään usein itseään (akkusatiivi) tai itselleen (datiivi) kontekstin mukaan.\\\",\\\"Joissakin saksan verbeissä sich on pakollinen osa, esimerkiksi sich waschen.\\\",\\\"A1-tasolla: ich wasche mich, du wäschst dich, er wäscht sich.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er wäscht sich.\\\",\\\"lv\\\":\\\"Hän peseytyy.\\\"},{\\\"de\\\":\\\"Ich setze mich.\\\",\\\"lv\\\":\\\"Istun alas.\\\"},{\\\"de\\\":\\\"Sie freut sich.\\\",\\\"lv\\\":\\\"Hän iloitsee.\\\"},{\\\"de\\\":\\\"Ich wasche das Auto.\\\",\\\"lv\\\":\\\"Pesen auton.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sich\\\",\\\"meaning\\\":\\\"Itseään / itselleen\\\",\\\"example\\\":\\\"Er wäscht sich.\\\"},{\\\"word\\\":\\\"mich\\\",\\\"meaning\\\":\\\"itseäni (minua)\\\",\\\"example\\\":\\\"Ich wasche mich.\\\"},{\\\"word\\\":\\\"dich\\\",\\\"meaning\\\":\\\"itseäsi (sinua)\\\",\\\"example\\\":\\\"Du wäschst dich.\\\"},{\\\"word\\\":\\\"ihn\\\",\\\"meaning\\\":\\\"Hänet\\\",\\\"example\\\":\\\"Ich sehe ihn.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: toiminta itseen → sich/mich/dich.\\\"}\",\"study.important\":\"[\\\"sich ei ole itsenäinen substantiivi.\\\",\\\"Muoto muuttuu: ich → mich, du → dich, er/sie/es → sich.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sich\\\",\\\"ich wasche mich\\\",\\\"er wäscht sich\\\"],\\\"purple\\\":[\\\"itseään\\\",\\\"itselleen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"peseytyy\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"mich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"istun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"iloitsee\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"wasche\\\"],\\\"yellow\\\":[\\\"Auto\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"pesen\\\"],\\\"yellow\\\":[\\\"auton\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"itseään\\\",\\\"itselleen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"mich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"itseäni\\\",\\\"minua\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"mich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"itseäsi\\\",\\\"sinua\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"dich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ihn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hänet\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"ihn\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sich\\\"],\\\"purple\\\":[\\\"Muista\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sich\\\"],\\\"red\\\":[\\\"sich\\\"]},{\\\"green\\\":[\\\"mich\\\",\\\"dich\\\"],\\\"blue\\\":[\\\"sich\\\"]}]}\"}",
+    "owner_note": "FI sich / lv; study.explanation; study.examples; study.important: individuāli pārbaudīta LRB-050 rinda 31/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sicher|idx:548|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Turvallinen • Varmasti\",\"study.translation\":\"Turvallinen • Varmasti\",\"study.explanation\":\"[\\\"Pääajatus: sicher tarkoittaa adjektiivina turvallista, adverbiaalisena varmasti.\\\",\\\"Paikasta, tilanteesta tai ihmisestä puhuttaessa sicher = turvallinen (ein sicherer Ort = turvallinen paikka).\\\",\\\"Vahvistuksena tai vakuutuksena lauseessa sicher = varmasti/tietysti (Das ist sicher wahr. = Se on varmasti totta.).\\\",\\\"Sicher! erillisenä vastauksena tarkoittaa tietysti!\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ist das Wasser sicher?\\\",\\\"lv\\\":\\\"Onko vesi turvallinen?\\\"},{\\\"de\\\":\\\"Kommst du morgen? – Sicher!\\\",\\\"lv\\\":\\\"Tuletko huomenna? – Tietysti!\\\"},{\\\"de\\\":\\\"Er ist sicher zu Hause.\\\",\\\"lv\\\":\\\"Hän on varmaan kotona.\\\"},{\\\"de\\\":\\\"Das ist eine sichere Lösung.\\\",\\\"lv\\\":\\\"Se on turvallinen ratkaisu.\\\"},{\\\"de\\\":\\\"Ich bin mir sicher.\\\",\\\"lv\\\":\\\"Olen varma.\\\"},{\\\"de\\\":\\\"Fahr sicher!\\\",\\\"lv\\\":\\\"Aja turvallisesti!\\\"}]\",\"study.tip\":\"[\\\"Paikasta tai tilanteesta (turvallisuus) → turvallinen.\\\",\\\"Kun vakuutus tai vahvistus lauseessa → varmasti/tietysti.\\\"]\",\"study.important\":\"[\\\"sicher = turvallinen (adjektiivi) TAI varmasti/tietysti (adverbi).\\\",\\\"sich sicher sein = olla vakuuttunut.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sicher\\\"],\\\"purple\\\":[\\\"turvallinen\\\",\\\"varmasti\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"turvallinen\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"tietysti\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"varmaan\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sichere\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"turvallinen\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"varma\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"turvallisesti\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"turvallinen\\\"]},{\\\"green\\\":[\\\"varmasti\\\",\\\"tietysti\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"turvallinen\\\",\\\"varmasti\\\",\\\"tietysti\\\"]},{\\\"green\\\":[\\\"sich sicher sein\\\"]}]}\"}",
+    "owner_note": "FI sicher / lv; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-050 rinda 32/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sie|idx:549|lv; study.explanation; study.examples|MEANING_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"He\",\"study.translation\":\"He\",\"study.explanation\":\"[\\\"Pääajatus: Monikon muoto — kyse on useasta ihmisestä. Verbi päättyy -en: kochen, essen, gehen.\\\",\\\"Pienellä sie monikossa tarkoittaa he (sie kochen = he keittävät).\\\",\\\"Pienellä sie yksikössä verbin kanssa (-t) tarkoittaa häntä naisena (sie kocht = hän keittää).\\\",\\\"Verbin muoto (-en vs -t) osoittaa, onko kyse heistä vai hänestä.\\\",\\\"Iso Sie tarkoittaa kohteliasta te-puhuttelua — ei sekoiteta pienen sie kanssa.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"He keittävät.\\\"},{\\\"de\\\":\\\"Sie kocht.\\\",\\\"lv\\\":\\\"Hän keittää.\\\"},{\\\"de\\\":\\\"Sie isst.\\\",\\\"lv\\\":\\\"Hän syö.\\\"},{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"He keittävät.\\\"},{\\\"de\\\":\\\"Sie spielen Fußball.\\\",\\\"lv\\\":\\\"He pelaavat jalkapalloa.\\\"},{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Keittäkää, olkaa hyvä.\\\"}]\",\"study.tip\":\"[\\\"Monikon muoto — puhutaan useista ihmisistä. Verbi päättyy -en: kochen, essen, gehen.\\\",\\\"Käytä sie, kun konteksti vastaa tätä merkitystä.\\\"]\",\"study.important\":\"[\\\"Kohtelias puhuttelu aina isolla S: Sie, ei sie.\\\",\\\"Hän: sie kocht. He: sie kochen. Te: Sie kochen.\\\",\\\"He-merkityksessä väärin: sie kocht → oikein: sie kochen.\\\",\\\"Te-merkityksessä oikein: Sie kochen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"sie\\\",\\\"kochen\\\"],\\\"purple\\\":[\\\"he\\\",\\\"hän\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"He\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sie\\\",\\\"kocht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hän\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sie\\\",\\\"isst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hän\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"He\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sie\\\",\\\"spielen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"He\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Keittäkää\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"Monikon\\\"],\\\"blue\\\":[\\\"kochen\\\",\\\"essen\\\",\\\"gehen\\\"]},{\\\"blue\\\":[\\\"sie\\\"],\\\"purple\\\":[\\\"merkitystä\\\"]}],\\\"important\\\":[{\\\"yellow\\\":[\\\"Sie\\\"],\\\"green\\\":[\\\"sie\\\"]},{\\\"blue\\\":[\\\"sie kocht\\\"],\\\"green\\\":[\\\"sie kochen\\\"],\\\"yellow\\\":[\\\"Sie kochen\\\"]},{\\\"red\\\":[\\\"sie kocht\\\"],\\\"green\\\":[\\\"sie kochen\\\"]},{\\\"yellow\\\":[\\\"Sie kochen\\\"]}]}\"}",
+    "owner_note": "FI sie / lv; study.explanation; study.examples: individuāli pārbaudīta LRB-050 rinda 33/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Sie|idx:550|lv; study.explanation; study.tip; study.important; study.examples|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Te\",\"study.translation\":\"Te\",\"study.explanation\":\"[\\\"Pääajatus: Kohtelias puhuttelu — aina isolla S-kirjaimella. Suomeksi: te.\\\",\\\"Formaalinen Sie käyttää aina 3. persoonan monikon verbiä: Sie sind, Sie haben, Sie kochen.\\\",\\\"Pieni sie yksikössä tarkoittaa häntä (sie kocht = hän keittää).\\\",\\\"Pieni sie monikossa tarkoittaa heitä (sie kochen = he keittävät).\\\",\\\"Erota: Sie kochen (te) vs sie kochen (he) vs sie kocht (hän).\\\",\\\"Esimerkkejä: Sie sind hier. = Olette täällä.; Sie haben Zeit. = Teillä on aikaa.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Keittäkää, olkaa hyvä.\\\"},{\\\"de\\\":\\\"Sie kocht.\\\",\\\"lv\\\":\\\"Hän keittää.\\\"},{\\\"de\\\":\\\"Sie isst.\\\",\\\"lv\\\":\\\"Hän syö.\\\"},{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"He keittävät.\\\"},{\\\"de\\\":\\\"Sie spielen Fußball.\\\",\\\"lv\\\":\\\"He pelaavat jalkapalloa.\\\"},{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Keittäkää, olkaa hyvä.\\\"}]\",\"study.tip\":\"[\\\"Kohtelias puhuttelu — aina isolla S. Suomeksi: te. Verbi 3. persoonan monikossa: Sie kochen.\\\",\\\"Käytä Sie, kun konteksti on kohtelias te-puhuttelu.\\\"]\",\"study.important\":\"[\\\"Kohtelias puhuttelu aina isolla S: Sie, ei sie.\\\",\\\"Hän: sie kocht. He: sie kochen. Te: Sie kochen (3. pers. monikko).\\\",\\\"Väärin: sie kocht (te) → Oikein: Sie kochen\\\",\\\"Väärin: Sie kocht (he) → Oikein: sie kochen\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"kochen\\\"],\\\"purple\\\":[\\\"te\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Keittäkää\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"kocht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hän\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"isst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hän\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"He\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"sie\\\",\\\"spielen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"He\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Keittäkää\\\"]}}],\\\"tip\\\":[{\\\"yellow\\\":[\\\"Sie kochen\\\"],\\\"purple\\\":[\\\"te\\\"]},{\\\"yellow\\\":[\\\"Sie\\\"],\\\"purple\\\":[\\\"te-puhuttelu\\\"]}],\\\"important\\\":[{\\\"yellow\\\":[\\\"Sie\\\"],\\\"blue\\\":[\\\"sie\\\"]},{\\\"blue\\\":[\\\"sie kocht\\\"],\\\"green\\\":[\\\"sie kochen\\\"],\\\"yellow\\\":[\\\"Sie kochen\\\"]},{\\\"red\\\":[\\\"sie kocht\\\"],\\\"green\\\":[\\\"Sie kochen\\\"]},{\\\"red\\\":[\\\"Sie kocht\\\"],\\\"green\\\":[\\\"sie kochen\\\"]}]}\"}",
+    "owner_note": "FI Sie / lv; study.explanation; study.tip; study.important; study.examples: individuāli pārbaudīta LRB-050 rinda 34/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|siebenhundert|idx:551|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Seitsemänsataa\"}",
+    "owner_note": "FI siebenhundert / lv: individuāli pārbaudīta LRB-050 rinda 35/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|siebente|idx:552|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Seitsemäs\"}",
+    "owner_note": "FI siebente / lv: individuāli pārbaudīta LRB-050 rinda 36/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sitzen|idx:558|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Istua\",\"study.translation\":\"Istua\",\"study.explanation\":\"[\\\"Pääajatus: sitzen tarkoittaa istumista tuolilla tai penkillä.\\\",\\\"Sitzen kuvaa sitä, että joku istuu — esimerkiksi tuolissa tai penkillä.\\\",\\\"A1-tasolla tärkein merkitys on istua; välillä sitzen voi kuvata myös paikalla olemista.\\\",\\\"Muista erottaa: sitzen = istua, stehen = seistä, liegen = maata.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich sitze am Tisch.\\\",\\\"lv\\\":\\\"Istun pöydän ääressä.\\\"},{\\\"de\\\":\\\"Die Kinder sitzen im Bus.\\\",\\\"lv\\\":\\\"Lapset istuvat bussissa.\\\"},{\\\"de\\\":\\\"Er steht an der Tür.\\\",\\\"lv\\\":\\\"Hän seisoo oven vieressä.\\\"},{\\\"de\\\":\\\"Die Katze liegt auf dem Sofa.\\\",\\\"lv\\\":\\\"Kissa makaa sohvalla.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sitzen\\\",\\\"meaning\\\":\\\"Istua\\\",\\\"example\\\":\\\"Ich sitze am Tisch.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"Seistä\\\",\\\"example\\\":\\\"Er steht an der Tür.\\\"},{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"Maata / olla makuulla\\\",\\\"example\\\":\\\"Die Katze liegt dort.\\\"},{\\\"word\\\":\\\"setzen\\\",\\\"meaning\\\":\\\"Istuutua / istua alas\\\",\\\"example\\\":\\\"Ich setze mich.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: kun istuu → sitzen; kun seisoo → stehen; kun makaa → liegen.\\\"}\",\"study.important\":\"[\\\"sitzen kuvaa istumisasentoa.\\\",\\\"Istuutua (sich setzen) ≠ istua (sitzen).\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"istua\\\",\\\"istuu\\\"],\\\"red\\\":[\\\"stehen\\\",\\\"liegen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sitze\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"istun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sitzen\\\"],\\\"green\\\":[\\\"Kinder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"istuvat\\\"],\\\"green\\\":[\\\"Lapset\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"steht\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"seisoo\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"yellow\\\":[\\\"makaa\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sitzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"istua\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sitze\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"seistä\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"steht\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"liegen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"maata\\\",\\\"makuulla\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"liegt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"setzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"istuutua\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"setze\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"Muista\\\"],\\\"red\\\":[\\\"stehen\\\"],\\\"yellow\\\":[\\\"liegen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"istumisasentoa\\\"]},{\\\"green\\\":[\\\"sich setzen\\\"],\\\"blue\\\":[\\\"sitzen\\\"]}]}\"}",
+    "owner_note": "FI sitzen / lv; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-050 rinda 37/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|sollen|idx:564|lv; study.explanation; study.tip; study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Pitäisi • Kuuluisi\",\"study.translation\":\"Pitäisi • Kuuluisi\",\"study.explanation\":\"[\\\"Pääajatus: sollen tarkoittaa, että jonkun pitäisi tehdä jotain tai hänen kuuluisi tehdä jotain ohjeen mukaan.\\\",\\\"Sollen käytetään usein, kun joku muu sanoo, mitä tehdä.\\\",\\\"Se ei ole yhtä vahva kuin müssen.\\\",\\\"Hyvin yleinen fraasi on Was soll ich machen? = Mitä minun pitäisi tehdä?\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was soll ich machen?\\\",\\\"lv\\\":\\\"Mitä minun pitäisi tehdä?\\\"},{\\\"de\\\":\\\"Du sollst kommen.\\\",\\\"lv\\\":\\\"Sinun pitäisi tulla.\\\"},{\\\"de\\\":\\\"Ich soll zu Hause bleiben.\\\",\\\"lv\\\":\\\"Minun pitäisi jäädä kotiin.\\\"},{\\\"de\\\":\\\"Ich muss jetzt gehen.\\\",\\\"lv\\\":\\\"Minun täytyy lähteä nyt.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sollen\\\",\\\"meaning\\\":\\\"Pitäisi / ohjeen mukaan\\\",\\\"example\\\":\\\"Was soll ich machen?\\\"},{\\\"word\\\":\\\"müssen\\\",\\\"meaning\\\":\\\"Täytyy / pakko\\\",\\\"example\\\":\\\"Ich muss gehen.\\\"},{\\\"word\\\":\\\"können\\\",\\\"meaning\\\":\\\"Osata / pystyä\\\",\\\"example\\\":\\\"Ich kann kommen.\\\"},{\\\"word\\\":\\\"wollen\\\",\\\"meaning\\\":\\\"Haluta\\\",\\\"example\\\":\\\"Ich will bleiben.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Muista: joku sanoo mitä tehdä → sollen; pakko tehdä → müssen.\\\"}\",\"study.important\":\"[\\\"Was soll ich machen? on hyvin yleinen ilmaus.\\\",\\\"sollen ja müssen eivät ole täysin identtisiä.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sollen\\\",\\\"Was soll ich machen\\\"],\\\"purple\\\":[\\\"pitäisi\\\",\\\"ohjeen\\\"],\\\"red\\\":[\\\"müssen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"soll\\\",\\\"machen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pitäisi\\\",\\\"tehdä\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sollst\\\",\\\"kommen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pitäisi\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"soll\\\",\\\"bleiben\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"pitäisi\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"muss\\\",\\\"gehen\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"täytyy\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"pitäisi\\\",\\\"ohjeen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"soll\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"müssen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"täytyy\\\",\\\"pakko\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"muss\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"können\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"osata\\\",\\\"pystyä\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"kann\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"haluta\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"will\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sollen\\\"],\\\"purple\\\":[\\\"Muista\\\"],\\\"red\\\":[\\\"müssen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"Was soll ich machen\\\"]},{\\\"red\\\":[\\\"müssen\\\"]}]}\"}",
+    "owner_note": "FI sollen / lv; study.explanation; study.tip; study.important: individuāli pārbaudīta LRB-050 rinda 38/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Student|idx:581|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Opiskelija\"}",
+    "owner_note": "FI Student / lv: individuāli pārbaudīta LRB-050 rinda 39/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Stuhl|idx:582|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tuoli\"}",
+    "owner_note": "FI Stuhl / lv: individuāli pārbaudīta LRB-050 rinda 40/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Stunde|idx:583|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tunti\"}",
+    "owner_note": "FI Stunde / lv: individuāli pārbaudīta LRB-050 rinda 41/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|suchen|idx:584|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Etsiä\"}",
+    "owner_note": "FI suchen / lv: individuāli pārbaudīta LRB-050 rinda 42/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|süß|idx:585|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Makea\"}",
+    "owner_note": "FI süß / lv: individuāli pārbaudīta LRB-050 rinda 43/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tag|idx:586|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Päivä\"}",
+    "owner_note": "FI Tag / lv: individuāli pārbaudīta LRB-050 rinda 44/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tante|idx:587|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Täti\"}",
+    "owner_note": "FI Tante / lv: individuāli pārbaudīta LRB-050 rinda 45/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|tanzen|idx:588|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Tanssia\"}",
+    "owner_note": "FI tanzen / lv: individuāli pārbaudīta LRB-050 rinda 46/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tasche|idx:589|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Laukku\"}",
+    "owner_note": "FI Tasche / lv: individuāli pārbaudīta LRB-050 rinda 47/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tasse|idx:590|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kuppi\"}",
+    "owner_note": "FI Tasse / lv: individuāli pārbaudīta LRB-050 rinda 48/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Taxi|idx:591|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Taksi\"}",
+    "owner_note": "FI Taxi / lv: individuāli pārbaudīta LRB-050 rinda 49/50; precīzā gala vērtība aizvietota ar dabisku somu saturu, saglabājot LV→DE semantiku un nemainot DE avotu."
+  },
+  "g2/a1/fi|Tee|idx:592|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "FI Tee / lv: individuāli pārbaudīta LRB-050 rinda 50/50; esošā production_current vērtība jau ir pareiza somu valoda, tādēļ izmaiņa nav vajadzīga."
+  }
+}
