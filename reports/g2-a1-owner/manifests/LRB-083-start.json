@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-083",
-  "phase": "OWNER_APPROVED_OVERRIDES_APPLIED",
+  "phase": "GALA_PASS",
   "input_csv_sha256": "4b666c36fa15b7de063f2b0dd20ee627a474444d7d8a57383f4a4d7f0197c972",
   "input_row_count": 50,
   "finding_stable_ids": [
@@ -62,7 +62,12 @@
   "source_pool_sha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "overrides_sha256": "15ca7ca7815c06fb3baa55279bdc90cef1c6ae133418fa97d37f781e19b807f7",
-  "updated_at": "2026-09-13T16:40:00.213Z",
-  "source_commit": "542ed4f7a9885141e7a89276bb3aeeb8874c7bb3",
-  "correction_round": 2
+  "updated_at": "2026-09-13T16:47:00.000Z",
+  "source_commit": "8cffb872f96f5d2d9f1f9246c9ecd08bb3791e85",
+  "correction_round": 2,
+  "gala_pass": true,
+  "linguistic_verdict": "LRB_083_FULL_50_50_OWNER_GALA_PASS",
+  "verdict": "LRB_083_FULL_50_50_OWNER_GALA_PASS",
+  "verified_commit": "8cffb872f96f5d2d9f1f9246c9ecd08bb3791e85",
+  "overrides_file": "reports/g2-a1-owner/batches-owner-review/LRB-083/LRB-083-owner-approved-overrides.json"
 }
