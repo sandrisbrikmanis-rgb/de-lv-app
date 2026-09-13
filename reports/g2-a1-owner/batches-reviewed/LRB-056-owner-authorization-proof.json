@@ -1,0 +1,43 @@
+{
+  "batch_id": "LRB-056",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-13T16:16:00.000Z",
+  "linguisticVerdict": "LRB_056_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "pdfReauditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "paste_file": "LRB-056-decisions-COPY-PASTE.json",
+  "paste_sha256": "51fd8ba0db189320312ea19c3e4d3fe6830ec01c450023a4f68e0095bf302c54",
+  "languages": {
+    "es": 50
+  },
+  "unique_cards": 50,
+  "es_composite_repairs": 50,
+  "es_scalar_repairs": 0,
+  "scope": "Appetit..zum (50 ES rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste — ES batch 1",
+  "productionSource": "data/es/a1.js",
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "ES_ROWS": "50/50",
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-056-residual-wrong-language-proof.json",
+  "note": "Gala verdict LRB_056_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING (50 full composite cards). ES batch 1 complete. DE/production/Crowdin/ingest/apply unchanged."
+}
