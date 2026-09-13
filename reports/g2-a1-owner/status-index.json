@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-13T15:18:00.000Z",
+  "updatedAt": "2026-09-13T15:22:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -108,7 +108,7 @@
     "batchesTotal": 103,
     "batchesReviewed": 53,
     "batchesAntiBulkPass": 53,
-    "batchesSpotCheckPass": 52,
+    "batchesSpotCheckPass": 53,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -1328,8 +1328,8 @@
         "pasteSha256": "682856c5bd614fdddf783618f60c0f3dd7676e33fb12a7682b386298369aec54"
       },
       "LRB-053": {
-        "verdict": "PENDING_LINGUISTIC_REVIEW",
-        "status": "OWNER_PREP_READY",
+        "verdict": "LRB_053_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
         "labot": 50,
         "nelabot": 0,
         "pending": 0,
@@ -1337,7 +1337,8 @@
         "residualAuditPass": true,
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
-        "reviewer": "pending-gpt-5.6-luna",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "f76d0e39",
         "languages": {
           "fi": 50
         },
@@ -1361,18 +1362,13 @@
       "pending": 0,
       "antiBulkPass": true,
       "residualAuditPass": true,
-      "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
-      "reviewer": "pending-gpt-5.6-luna",
-      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
-      "status": "OWNER_PREP_READY",
-      "rowCount": 50,
-      "uniqueCards": 29,
+      "reviewer": "gpt-5.6-luna",
+      "linguisticVerdict": "LRB_053_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-053-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-053-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-053-anti-bulk-proof.json",
-      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-053-residual-wrong-language-proof.json",
-      "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-053-owner-authorization-proof.json"
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-053-residual-wrong-language-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
