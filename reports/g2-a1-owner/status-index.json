@@ -114,7 +114,7 @@
     "batchesTotal": 103,
     "batchesReviewed": 59,
     "batchesAntiBulkPass": 59,
-    "batchesSpotCheckPass": 58,
+    "batchesSpotCheckPass": 59,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -1496,9 +1496,8 @@
         "pasteSha256": "8fe50f45da6deb7bafaadd747c6c1921b7b2496fa894526b1b725cafd4cf3ec2"
       },
       "LRB-059": {
-        "verdict": "PENDING_LINGUISTIC_REVIEW",
-        "status": "OWNER_PREP_READY",
-        "classification": "LRB_059_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+        "verdict": "LRB_059_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
         "labot": 50,
         "nelabot": 0,
         "pending": 0,
@@ -1506,7 +1505,8 @@
         "residualAuditPass": true,
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
-        "reviewer": "pending-gpt-5.6-luna",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "3eaa4497",
         "languages": {
           "lb": 50
         },
@@ -1532,20 +1532,13 @@
       "pending": 0,
       "antiBulkPass": true,
       "residualAuditPass": true,
-      "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
-      "reviewer": "pending-gpt-5.6-luna",
-      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
-      "status": "OWNER_PREP_READY",
-      "classification": "LRB_059_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
-      "rowCount": 50,
-      "uniqueCards": 50,
+      "reviewer": "gpt-5.6-luna",
+      "linguisticVerdict": "LRB_059_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-059-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-059-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-059-anti-bulk-proof.json",
-      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-059-residual-wrong-language-proof.json",
-      "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-059-owner-auth-residual-proof.json",
-      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-059-gala-cards.json"
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-059-residual-wrong-language-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
