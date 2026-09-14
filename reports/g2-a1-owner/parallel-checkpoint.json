@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-14T15:14:14.540Z",
+  "updatedAt": "2026-09-14T15:20:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -93,8 +93,8 @@
       "uniqueCards": 50,
       "overridesSha256": "eb0f34733299a8dc28ce6ae8cf1cbce3c913b0175158b3a74a234b9dff12e709",
       "appliedAt": "2026-09-13T18:48:28.635Z",
-      "updatedAt": "2026-09-14T15:14:14.540Z",
-      "correctionRound": 5
+      "updatedAt": "2026-09-14T15:20:00.000Z",
+      "correctionRound": 6
     },
     {
       "batchId": "LRB-082",

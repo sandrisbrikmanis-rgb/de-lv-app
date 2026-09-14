@@ -1,10 +1,10 @@
 {
   "batchId": "LRB-081",
   "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-14T15:14:14.540Z",
-  "sourceCommit": "912bd0b7acc7e4dd83bb4a497a37595434c8833e",
+  "generatedAt": "2026-09-14T15:20:00.000Z",
+  "sourceCommit": "329493a17eb2875467a109c5608e63eac0f6b9bc",
   "branch": "cursor/lrb-081-owner-authorization-ed35",
-  "correctionRound": 5,
+  "correctionRound": 6,
   "overridesSha256": "eb0f34733299a8dc28ce6ae8cf1cbce3c913b0175158b3a74a234b9dff12e709",
   "rows": "50/50",
   "languages": {
@@ -39,6 +39,9 @@
     "DE_TARGET_ALIGNMENT_VIOLATIONS": 0,
     "INTERNAL_CARD_CONTRADICTIONS": 0,
     "GRAMMATICAL_FACT_VIOLATIONS": 0,
+    "WRONG_LANGUAGE_RESIDUE": 0,
+    "DUPLICATE_MEANINGS": 0,
+    "DEGENERATE_EXAMPLE_PAIRS": 0,
     "FULL_COMPOSITE_COMPLETENESS": "PASS",
     "ANTI_BULK": "PASS",
     "PRODUCTION_CHANGES": 0,
@@ -60,9 +63,10 @@
     "manifest": "reports/g2-a1-owner/manifests/LRB-081-start.json",
     "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
     "copyPaste5": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-5.json",
+    "copyPaste6": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-6.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-owner-authorization-proof.json"
   },
-  "note": "OWNER copy/paste correction #5 applied. CONTENT_REPLACEMENTS=5/5, ROW_NOTE_REPLACEMENTS=3/3.",
+  "note": "OWNER copy/paste correction #6 (technical proof completion). Added WRONG_LANGUAGE_RESIDUE, DUPLICATE_MEANINGS, DEGENERATE_EXAMPLE_PAIRS gates (0). Card content and owner notes unchanged.",
   "galaPass": false,
   "scriptChanges": 0
 }
