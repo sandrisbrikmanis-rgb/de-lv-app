@@ -6,11 +6,11 @@
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "batches": [
     {
-      "batchId": "LRB-061",
+      "batchId": "LRB-062",
       "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-061-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-061-start.json",
-      "inputSha256": "ea1d4b5faca9a1391b741d4da574b66bd8895480a3a0599dd437a5811286d90f"
+      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-062-input.csv",
+      "manifestPath": "reports/g2-a1-owner/manifests/LRB-062-start.json",
+      "inputSha256": "0096772a0f6f2615468de5a5b889845ddf9b0ba163e4b1ef16aff708eb583b82"
     }
   ]
 }
