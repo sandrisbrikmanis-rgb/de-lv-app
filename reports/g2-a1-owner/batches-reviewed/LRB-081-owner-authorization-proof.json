@@ -21,8 +21,10 @@
   "lunaAuditScript": "scripts/temp-audit-lrb081-luna.js",
   "lunaModel": "gpt-5.6-luna",
   "lunaTokens": 44349,
-  "note": "COPY-PASTE #8 technical repair (ownerNew.id). OWNER_AUTHORIZATION_STATUS=APPROVED. AWAITING_OWNER_GALA_REVIEW.",
+  "note": "GALA PASS. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
   "overridesSha256": "0cfa0dd55f71d6fdc49738367290936d09ba49c951e494383d25867bd5e454b3",
   "correctionRound": 8,
-  "appliedAt": "2026-09-14T16:34:50.187Z"
+  "appliedAt": "2026-09-14T16:52:00.000Z",
+  "galaPassAt": "2026-09-14T16:52:00.000Z",
+  "verifiedCommit": "af1c064ac7d6cbf55ee4085469d8d3162b226104"
 }

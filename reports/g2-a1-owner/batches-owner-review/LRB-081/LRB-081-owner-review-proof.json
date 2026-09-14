@@ -1,9 +1,8 @@
 {
   "batchId": "LRB-081",
-  "classification": "OWNER_COPY_PASTE_CORRECTION_8_APPLIED_AWAITING_GALA_REVIEW",
-  "generatedAt": "2026-09-14T16:42:00.000Z",
-  "sourceCommit": "95c024f241fe9cee190b138d6de771b5ca0c359d",
-  "proofRefreshId": "8A",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-14T16:52:00.000Z",
+  "sourceCommit": "af1c064ac7d6cbf55ee4085469d8d3162b226104",
   "branch": "cursor/lrb-081-owner-authorization-ed35",
   "correctionRound": 8,
   "overridesSha256": "0cfa0dd55f71d6fdc49738367290936d09ba49c951e494383d25867bd5e454b3",
@@ -69,11 +68,14 @@
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-owner-authorization-proof.json",
     "copyPaste8": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-8.json",
     "copyPaste8A": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-8A.json",
+    "copyPaste8B": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-8B.json",
     "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-anti-bulk-proof.json"
   },
-  "note": "COPY-PASTE 8A: anti-bulk proof refresh (output_sha256 + manifest_sha256 + derived single_rule_name). ANTI_BULK PASS. Overrides/content unchanged.",
-  "galaPass": false,
-  "linguisticVerdict": null,
+  "note": "Gala verdict LRB_081_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit af1c064ac7d6cbf55ee4085469d8d3162b226104 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (PT 4, RO 46, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50). DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
   "scriptChanges": 0,
+  "verifiedCommit": "af1c064ac7d6cbf55ee4085469d8d3162b226104",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_081_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "mismatchReport": []
 }

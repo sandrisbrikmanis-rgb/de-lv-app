@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-14T16:34:50.187Z",
+  "updatedAt": "2026-09-14T16:52:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,10 +40,11 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": "LRB-081",
+    "activeBatch": null,
     "reservedBatches": [],
     "inProgressBatches": [],
     "completedBatches": [
+      "LRB-081",
       "LRB-082",
       "LRB-083",
       "LRB-084",
@@ -74,7 +75,7 @@
       "batchId": "LRB-081",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "OWNER_COPY_PASTE_CORRECTION_8_APPLIED_AWAITING_GALA_REVIEW",
+      "status": "GALA_PASS",
       "branch": "cursor/lrb-081-owner-authorization-ed35",
       "reservedAt": "2026-09-13T17:55:00.000Z",
       "rows": 50,
@@ -92,8 +93,12 @@
       "pending": 0,
       "uniqueCards": 50,
       "correctionRound": 8,
+      "completedAt": "2026-09-14T16:52:00.000Z",
+      "verifiedCommit": "af1c064ac7d6cbf55ee4085469d8d3162b226104",
+      "linguisticVerdict": "LRB_081_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "galaPassAt": "2026-09-14T16:52:00.000Z",
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-owner-authorization-proof.json",
-      "updatedAt": "2026-09-14T16:34:50.187Z"
+      "updatedAt": "2026-09-14T16:52:00.000Z"
     },
     {
       "batchId": "LRB-082",
