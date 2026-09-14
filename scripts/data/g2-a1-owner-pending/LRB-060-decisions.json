@@ -1,0 +1,302 @@
+{
+  "g2/a1/lb|dass|idx:130|study.translation|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"datt\",\"study.translation\":\"datt\",\"study.explanation\":\"Féiert en Niewesaz an, deen e Fakt, e Gedanken oder eppes Gesotes ausdréckt.\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich weiß, dass du müde bist.\\\",\\\"lv\\\":\\\"Ech weess, datt s du midd bass.\\\"},{\\\"de\\\":\\\"Er sagt, dass er kommt.\\\",\\\"lv\\\":\\\"Hie seet, datt hie kënnt.\\\"},{\\\"de\\\":\\\"Ich glaube, dass das stimmt.\\\",\\\"lv\\\":\\\"Ech mengen, datt dat stëmmt.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"dass\\\",\\\"meaning\\\":\\\"datt\\\",\\\"example\\\":\\\"Ich weiß, dass er kommt. – Ech weess, datt hien kënnt.\\\"},{\\\"word\\\":\\\"weil\\\",\\\"meaning\\\":\\\"well\\\",\\\"example\\\":\\\"Ich bleibe zu Hause, weil es regnet. – Ech bleiwen doheem, well et reent.\\\"},{\\\"word\\\":\\\"damit\\\",\\\"meaning\\\":\\\"fir datt\\\",\\\"example\\\":\\\"Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Ech léieren Däitsch, fir datt ech an Däitschland schaffe kann.\\\"},{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"ob\\\",\\\"example\\\":\\\"Ich weiß nicht, ob er kommt. – Ech weess net, ob hie kënnt.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: dass → datt.\\\"}\",\"study.important\":\"[\\\"dass bedeit „datt“ a féiert en Niewesaz an.\\\",\\\"Net mat das verwiesselen: das kann en Artikel oder e Pronome sinn.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"dass\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"datt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"dass\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"datt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"dass\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"datt\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"dass\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"dass\\\"],\\\"purple\\\":[\\\"datt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"weil\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"weil\\\"],\\\"purple\\\":[\\\"well\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"damit\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"damit\\\"],\\\"purple\\\":[\\\"fir datt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ob\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"ob\\\"],\\\"purple\\\":[\\\"ob\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"dass\\\",\\\"datt\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"dass\\\"]},{\\\"blue\\\":[\\\"das\\\"]}]}\"}",
+    "owner_note": "Pilnā dass|idx:130 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|denken|idx:133|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "denken",
+    "owner_note": "Individuāli pārbaudīts: denken → denken. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|der|idx:134|study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bestëmmten Artikel vum Maskulinum\",\"study.translation\":\"bestëmmten Artikel vum Maskulinum\",\"study.explanation\":\"Gëtt bei Substantiver am Maskulinum benotzt. A verschiddene Sätz kann „der“ och als Pronomen oder Relativpronome fungéieren.\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Mann ist hier.\\\",\\\"lv\\\":\\\"De Mann ass hei.\\\"},{\\\"de\\\":\\\"Der Bus kommt.\\\",\\\"lv\\\":\\\"De Bus kënnt.\\\"},{\\\"de\\\":\\\"Der Lehrer spricht.\\\",\\\"lv\\\":\\\"Den Enseignant schwätzt.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Maskulinum → der.\\\"}\",\"study.important\":\"[\\\"Um Niveau A1 léiers de der fir d’éischt als Artikel vum Maskulinum.\\\",\\\"D’Benotzung als Pronomen a Relativpronome kënnt méi spéit.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Der\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"De\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Der\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"De\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Der\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Den\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"der\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"der\\\"]},{\\\"blue\\\":[\\\"Pronomen\\\"]}]}\"}",
+    "owner_note": "Pilnā der|idx:134 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|die|idx:137|study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"bestëmmten Artikel vum Femininum\",\"study.translation\":\"bestëmmten Artikel vum Femininum\",\"study.explanation\":\"Gëtt bei Substantiver am Femininum benotzt. A verschiddene Sätz kann „die“ och als Pronomen oder Relativpronome fungéieren.\",\"study.examples\":\"[{\\\"de\\\":\\\"Die Frau ist hier.\\\",\\\"lv\\\":\\\"D’Fra ass hei.\\\"},{\\\"de\\\":\\\"Die Katze schläft.\\\",\\\"lv\\\":\\\"D’Kaz schléift.\\\"},{\\\"de\\\":\\\"Die Lehrerin erklärt.\\\",\\\"lv\\\":\\\"D’Léierin erkläert.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Femininum → die.\\\"}\",\"study.important\":\"[\\\"Um Niveau A1 léiers de die fir d’éischt als Artikel vum Femininum.\\\",\\\"Am Pluriel gëtt die fir all Geschlechter benotzt.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Die\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"D’\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Die\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"D’\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Die\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"D’\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"die\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"die\\\"]},{\\\"blue\\\":[\\\"Pluriel\\\"]}]}\"}",
+    "owner_note": "Pilnā die|idx:137 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|dieser|idx:139|study.translation|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"dësen\",\"study.translation\":\"dësen\",\"study.explanation\":\"Weist op eng bestëmmten oder ervirgehuewe Persoun oder Saach hin. Dës Form gëtt mat engem Substantiv am Maskulinum benotzt.\",\"study.examples\":\"[{\\\"de\\\":\\\"Dieser Mann ist nett.\\\",\\\"lv\\\":\\\"Dëse Mann ass léif.\\\"},{\\\"de\\\":\\\"Ich sehe diesen Hund.\\\",\\\"lv\\\":\\\"Ech gesinn dësen Hond.\\\"},{\\\"de\\\":\\\"Dieser Stift ist neu.\\\",\\\"lv\\\":\\\"Dëse Bic ass nei.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Maskulinum → dieser.\\\"}\",\"study.important\":\"[\\\"dieser, diese an dieses ännere sech nom Geschlecht.\\\",\\\"Am Pluriel ass d’Form diese.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Dieser\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Dëse\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"diesen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"dësen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Dieser\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Dëse\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"dieser\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"dieser\\\"]},{\\\"blue\\\":[\\\"diese\\\"]}]}\"}",
+    "owner_note": "Pilnā dieser|idx:139 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|Ding|idx:140|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Saach",
+    "owner_note": "Individuāli pārbaudīts: Ding → Saach. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|dreihundert|idx:144|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dräihonnert",
+    "owner_note": "Individuāli pārbaudīts: dreihundert → dräihonnert. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|dreizehn|idx:147|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dräizéng",
+    "owner_note": "Individuāli pārbaudīts: dreizehn → dräizéng. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|dritte|idx:148|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "drëtten",
+    "owner_note": "Individuāli pārbaudīts: dritte → drëtten. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|du|idx:149|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "du",
+    "owner_note": "Individuāli pārbaudīts: du → du. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|dürfen|idx:150|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "däerfen",
+    "owner_note": "Individuāli pārbaudīts: dürfen → däerfen. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Ecke|idx:152|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Eck",
+    "owner_note": "Individuāli pārbaudīts: Ecke → Eck. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|ein|idx:154|lv; study.explanation; study.examples; study.comparison|LANGUAGE_MIX_AND_CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"onbestëmmten Artikel\",\"study.translation\":\"onbestëmmten Artikel\",\"study.explanation\":\"[\\\"Haaptiddi: ein ass den onbestëmmten Artikel.\\\",\\\"ein gëtt am Däitsche bei Substantiver am Maskulinum an am Neutrum am Nominativ benotzt.\\\",\\\"Beim Maskulinum: ein Mann.\\\",\\\"Beim Neutrum: ein Buch.\\\",\\\"Beim Femininum: eine.\\\",\\\"Am Akkusativ beim Maskulinum: einen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ein Mann wartet draußen.\\\",\\\"lv\\\":\\\"E Mann waart dobaussen.\\\"},{\\\"de\\\":\\\"Ich habe ein Buch.\\\",\\\"lv\\\":\\\"Ech hunn e Buch.\\\"},{\\\"de\\\":\\\"Er sucht einen Stift.\\\",\\\"lv\\\":\\\"Hie sicht e Bic.\\\"},{\\\"de\\\":\\\"Ein Kind spielt.\\\",\\\"lv\\\":\\\"E Kand spillt.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"ein Mann\\\",\\\"meaning\\\":\\\"Maskulinum\\\",\\\"example\\\":\\\"Ein Mann wartet. – E Mann waart.\\\"},{\\\"word\\\":\\\"eine Frau\\\",\\\"meaning\\\":\\\"Femininum\\\",\\\"example\\\":\\\"Eine Frau wartet. – Eng Fra waart.\\\"},{\\\"word\\\":\\\"ein Buch\\\",\\\"meaning\\\":\\\"Neutrum\\\",\\\"example\\\":\\\"Ich habe ein Buch. – Ech hunn e Buch.\\\"},{\\\"word\\\":\\\"einen Mann\\\",\\\"meaning\\\":\\\"Akkusativ\\\",\\\"example\\\":\\\"Ich sehe einen Mann. – Ech gesinn e Mann.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: ein bedeit net nëmmen „eent“; et ass dacks en onbestëmmten Artikel.\\\"}\",\"study.important\":\"[\\\"ein ass keen bestëmmten Artikel.\\\",\\\"Wann d’Saach scho bestëmmt ass, brauch een dacks der, die oder das.\\\",\\\"eine — Femininum.\\\",\\\"einen — Akkusativ.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"ein\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Ein\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mann\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ein\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Buch\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"einen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Bic\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Ein\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Kand\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"ein Mann\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Ein Mann\\\"],\\\"purple\\\":[\\\"E Mann\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"eine Frau\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Eine Frau\\\"],\\\"purple\\\":[\\\"Eng Fra\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ein Buch\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"ein Buch\\\"],\\\"purple\\\":[\\\"e Buch\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"einen Mann\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"einen Mann\\\"],\\\"purple\\\":[\\\"e Mann\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"ein\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"ein\\\"]},{\\\"blue\\\":[\\\"der\\\"]}]}\"}",
+    "owner_note": "Pilnā ein|idx:154 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|einfach|idx:155|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "einfach",
+    "owner_note": "Individuāli pārbaudīts: einfach → einfach. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|eins|idx:156|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "eent",
+    "owner_note": "Individuāli pārbaudīts: eins → eent. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Eis|idx:157|study.explanation; study.examples; study.comparison|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Äis • Glace\",\"study.translation\":\"Äis • Glace\",\"study.explanation\":\"[\\\"Haaptiddi: das Eis kann „Äis“ oder „Glace“ bedeiten.\\\",\\\"Bei gefruerem Waasser seet een Äis.\\\",\\\"Bei engem Iessen oder Dessert seet een Glace.\\\",\\\"De Kontext weist normalerweis, wéi eng Bedeitung gemengt ass.\\\",\\\"Um Niveau A1 sinn Ausdréck mat Äis a Glace besonnesch wichteg.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich esse ein Eis.\\\",\\\"lv\\\":\\\"Ech iessen eng Glace.\\\"},{\\\"de\\\":\\\"Möchtest du ein Eis?\\\",\\\"lv\\\":\\\"Wëlls du eng Glace?\\\"},{\\\"de\\\":\\\"Im Winter liegt Eis auf dem See.\\\",\\\"lv\\\":\\\"Am Wanter läit Äis um Séi.\\\"},{\\\"de\\\":\\\"Das Eis ist kalt.\\\",\\\"lv\\\":\\\"D’Äis ass kal.\\\"},{\\\"de\\\":\\\"Ich nehme ein Eis mit Schokolade.\\\",\\\"lv\\\":\\\"Ech huelen eng Glace mat Schockela.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"das Eis\\\",\\\"meaning\\\":\\\"Äis / Glace\\\",\\\"example\\\":\\\"Ich esse ein Eis. – Ech iessen eng Glace.\\\"},{\\\"word\\\":\\\"der Schnee\\\",\\\"meaning\\\":\\\"Schnéi\\\",\\\"example\\\":\\\"Der Schnee ist weiß. – De Schnéi ass wäiss.\\\"},{\\\"word\\\":\\\"kalt\\\",\\\"meaning\\\":\\\"kal\\\",\\\"example\\\":\\\"Das Wasser ist kalt. – D’Waasser ass kal.\\\"},{\\\"word\\\":\\\"das Dessert\\\",\\\"meaning\\\":\\\"Dessert\\\",\\\"example\\\":\\\"Eis ist ein Dessert. – Glace ass en Dessert.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Iessen → Glace; Wanter oder Waasser → Äis.\\\"}\",\"study.important\":\"[\\\"Am Däitsche kann Eis souwuel gefruerent Waasser wéi och Glace bedeiten.\\\",\\\"Am Lëtzebuergesche gi meeschtens zwou verschidde Wierder benotzt: Äis a Glace.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Eis\\\",\\\"Äis\\\",\\\"Glace\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Glace\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Glace\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Äis\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Äis\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Glace\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"das Eis\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Eis\\\"],\\\"purple\\\":[\\\"Glace\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"der Schnee\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Schnee\\\"],\\\"purple\\\":[\\\"Schnéi\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"kalt\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"kalt\\\"],\\\"purple\\\":[\\\"kal\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"das Dessert\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Dessert\\\"],\\\"purple\\\":[\\\"Dessert\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Glace\\\",\\\"Äis\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"Eis\\\"]},{\\\"blue\\\":[\\\"Äis\\\"]}]}\"}",
+    "owner_note": "Pilnā Eis|idx:157 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|elf|idx:158|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "eelef",
+    "owner_note": "Individuāli pārbaudīts: elf → eelef. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|E-Mail|idx:159|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "E-Mail",
+    "owner_note": "Individuāli pārbaudīts: E-Mail → E-Mail. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Eltern|idx:160|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Elteren",
+    "owner_note": "Individuāli pārbaudīts: Eltern → Elteren. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Ende|idx:161|lv|CORRUPTED_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Enn",
+    "owner_note": "Individuāli pārbaudīts: Ende → Enn. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|er|idx:162|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hien",
+    "owner_note": "Individuāli pārbaudīts: er → hien. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Erbse|idx:163|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ierbes",
+    "owner_note": "Individuāli pārbaudīts: Erbse → Ierbes. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Erde|idx:164|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Äerd",
+    "owner_note": "Individuāli pārbaudīts: Erde → Äerd. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|erst|idx:165|lv; study.examples; study.comparison|LANGUAGE_MIX_AND_CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eréischt • fir d’éischt\",\"study.translation\":\"eréischt • fir d’éischt\",\"study.explanation\":\"[\\\"Haaptiddi: erst bedeit meeschtens „eréischt“; jee no Kontext kann et och „fir d’éischt“ bedeiten.\\\",\\\"Mat enger Zäit oder engem Zäitpunkt weist erst dacks, datt eppes méi spéit geschitt wéi erwaart.\\\",\\\"An enger Reiefolleg kann erst „fir d’éischt“ bedeiten.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Erst lernen, dann spielen.\\\",\\\"lv\\\":\\\"Fir d’éischt léieren, da spillen.\\\"},{\\\"de\\\":\\\"Ich komme erst morgen.\\\",\\\"lv\\\":\\\"Ech kommen eréischt muer.\\\"},{\\\"de\\\":\\\"Er ist erst 18 Jahre alt.\\\",\\\"lv\\\":\\\"Hien ass eréischt 18 Joer al.\\\"},{\\\"de\\\":\\\"Wir essen erst um acht Uhr.\\\",\\\"lv\\\":\\\"Mir iessen eréischt um aacht Auer.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"erst\\\",\\\"meaning\\\":\\\"eréischt • fir d’éischt\\\",\\\"example\\\":\\\"Ich komme erst morgen. – Ech kommen eréischt muer.\\\"},{\\\"word\\\":\\\"zuerst\\\",\\\"meaning\\\":\\\"fir d’éischt • am Ufank\\\",\\\"example\\\":\\\"Zuerst lernen wir. – Fir d’éischt léiere mir.\\\"},{\\\"word\\\":\\\"nur\\\",\\\"meaning\\\":\\\"nëmmen\\\",\\\"example\\\":\\\"Ich habe nur fünf Euro. – Ech hunn nëmme fënnef Euro.\\\"},{\\\"word\\\":\\\"dann\\\",\\\"meaning\\\":\\\"dann • duerno\\\",\\\"example\\\":\\\"Dann gehen wir nach Hause. – Da gi mir heem.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Zäit oder Zäitpunkt → erst; Quantitéit → nur.\\\"}\",\"study.important\":\"[\\\"erst dréckt dacks aus, datt eppes méi spéit geschitt wéi erwaart.\\\",\\\"Fir eng Quantitéit benotzt een am Däitschen normalerweis nur, net erst.\\\"]\",\"study.accents\":\"{\\\"blue\\\":[\\\"erst\\\"],\\\"purple\\\":[\\\"eréischt\\\",\\\"fir d’éischt\\\"],\\\"green\\\":[\\\"Zäitpunkt\\\"],\\\"yellow\\\":[\\\"zuerst\\\"],\\\"red\\\":[\\\"nur\\\"]}\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"erst\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Erst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Fir d’éischt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"erst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eréischt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"erst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eréischt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"erst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eréischt\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"erst\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"erst\\\"],\\\"purple\\\":[\\\"eréischt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zuerst\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"zuerst\\\"],\\\"purple\\\":[\\\"fir d’éischt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nur\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"nëmme\\\",\\\"fënnef\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dann\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"dann\\\"],\\\"purple\\\":[\\\"Da\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"erst\\\",\\\"nur\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"erst\\\"]},{\\\"blue\\\":[\\\"nur\\\"]}]}\"}",
+    "owner_note": "Pilnā erst|idx:165 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|erste|idx:166|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "éischten",
+    "owner_note": "Individuāli pārbaudīts: erste → éischten. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|es|idx:167|lv; study.examples; study.comparison|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"et • onperséinlech Form\",\"study.translation\":\"et • onperséinlech Form\",\"study.explanation\":\"es ass am Däitschen e Pronomen. Am Lëtzebuergesche entsprécht et dacks „et“ oder gëtt an enger onperséinlecher Konstruktioun erëmgi.\",\"study.examples\":\"[{\\\"de\\\":\\\"Es regnet.\\\",\\\"lv\\\":\\\"Et reent.\\\"},{\\\"de\\\":\\\"Es ist kalt.\\\",\\\"lv\\\":\\\"Et ass kal.\\\"},{\\\"de\\\":\\\"Das Kind schläft.\\\",\\\"lv\\\":\\\"D’Kand schléift.\\\"},{\\\"de\\\":\\\"Es ist müde.\\\",\\\"lv\\\":\\\"Et ass midd.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"es\\\",\\\"meaning\\\":\\\"et • onperséinlech Form\\\",\\\"example\\\":\\\"Es regnet. – Et reent.\\\"},{\\\"word\\\":\\\"ich\\\",\\\"meaning\\\":\\\"ech • Persoun\\\",\\\"example\\\":\\\"Ich bin müde. – Ech si midd.\\\"}]\",\"study.info\":\"[\\\"Lëtzebuergescht „ech“ = däitscht „ich“.\\\",\\\"Däitscht „es“ = lëtzebuergesch „et“ oder eng onperséinlech Form.\\\"]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Bei Wieder an onperséinleche Sätz gëtt es meeschtens mat et erëmgi.\\\"}\",\"study.important\":\"[\\\"es gëtt net ëmmer mat engem perséinleche Pronome fir eng Persoun iwwersat.\\\",\\\"De Kontext entscheet, ob „et“ oder eng onperséinlech Form passt.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Es\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Et\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Es\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Et\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Das Kind\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"D’Kand\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Es\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Et\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"es\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Es\\\"],\\\"purple\\\":[\\\"Et\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ich\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Ich\\\"],\\\"purple\\\":[\\\"Ech\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"es\\\",\\\"et\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"es\\\"]},{\\\"blue\\\":[\\\"et\\\"]}]}\"}",
+    "owner_note": "Pilnā es|idx:167 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|Esslöffel|idx:168|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Essläffel",
+    "owner_note": "Individuāli pārbaudīts: Esslöffel → Essläffel. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|etwas|idx:169|study.explanation; study.examples; study.comparison|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"eppes • e bëssen\",\"study.translation\":\"eppes • e bëssen\",\"study.explanation\":\"[\\\"Haaptiddi: etwas bedeit meeschtens „eppes“.\\\",\\\"Virun engem Adjektiv kann etwas och „e bëssen“ bedeiten.\\\",\\\"De Kontext weist, ob eng Saach oder e Grad gemengt ass.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich möchte etwas trinken.\\\",\\\"lv\\\":\\\"Ech géif gär eppes drénken.\\\"},{\\\"de\\\":\\\"Hast du etwas Zeit?\\\",\\\"lv\\\":\\\"Hues du e bëssen Zäit?\\\"},{\\\"de\\\":\\\"Ich bin etwas müde.\\\",\\\"lv\\\":\\\"Ech sinn e bëssen midd.\\\"},{\\\"de\\\":\\\"Ich habe etwas für dich.\\\",\\\"lv\\\":\\\"Ech hunn eppes fir dech.\\\"},{\\\"de\\\":\\\"Das ist etwas teuer.\\\",\\\"lv\\\":\\\"Dat ass e bëssen deier.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"etwas\\\",\\\"meaning\\\":\\\"eppes • e bëssen\\\",\\\"example\\\":\\\"Ich möchte etwas trinken. – Ech géif gär eppes drénken.\\\"},{\\\"word\\\":\\\"was\\\",\\\"meaning\\\":\\\"eppes\\\",\\\"example\\\":\\\"Willst du was trinken? – Wëlls du eppes drénken?\\\"},{\\\"word\\\":\\\"ein bisschen\\\",\\\"meaning\\\":\\\"e bëssen\\\",\\\"example\\\":\\\"Ich bin ein bisschen müde. – Ech sinn e bëssen midd.\\\"},{\\\"word\\\":\\\"nichts\\\",\\\"meaning\\\":\\\"näischt\\\",\\\"example\\\":\\\"Ich sehe nichts. – Ech gesinn näischt.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: eng Saach → eppes; e Grad → e bëssen.\\\"}\",\"study.important\":\"[\\\"etwas kann „eppes“ oder „e bëssen“ bedeiten.\\\",\\\"De Saz weist, wéi eng Bedeitung richteg ass.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"etwas\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"etwas\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eppes\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"etwas\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"e bëssen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"etwas\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"e bëssen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"etwas\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eppes\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"etwas\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"e bëssen\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"etwas\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"etwas\\\"],\\\"purple\\\":[\\\"eppes\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"was\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"was\\\"],\\\"purple\\\":[\\\"eppes\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ein bisschen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"ein bisschen\\\"],\\\"purple\\\":[\\\"e bëssen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"nichts\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"nichts\\\"],\\\"purple\\\":[\\\"näischt\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"eppes\\\",\\\"e bëssen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"etwas\\\"]},{\\\"purple\\\":[\\\"Saz\\\",\\\"Bedeitung\\\"]}]}\"}",
+    "owner_note": "Pilnā etwas|idx:169 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|euch|idx:170|study.examples, study.comparison|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"iech\",\"study.translation\":\"iech\",\"study.explanation\":\"euch ass am Däitschen de Pronome vun der zweeter Persoun Pluriel am Akkusativ an am Dativ. Am Lëtzebuergesche steet a béide Fäll „iech“.\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich sehe euch.\\\",\\\"lv\\\":\\\"Ech gesinn iech.\\\"},{\\\"de\\\":\\\"Ich helfe euch.\\\",\\\"lv\\\":\\\"Ech hëllefen iech.\\\"},{\\\"de\\\":\\\"Ich gebe euch das Buch.\\\",\\\"lv\\\":\\\"Ech ginn iech d’Buch.\\\"},{\\\"de\\\":\\\"Ich danke euch.\\\",\\\"lv\\\":\\\"Ech soen iech Merci.\\\"},{\\\"de\\\":\\\"Ihr erinnert euch.\\\",\\\"lv\\\":\\\"Dir erënnert iech.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"ihr\\\",\\\"meaning\\\":\\\"dir\\\",\\\"example\\\":\\\"Ihr seid freundlich. – Dir sidd frëndlech.\\\"},{\\\"word\\\":\\\"euch\\\",\\\"meaning\\\":\\\"iech\\\",\\\"example\\\":\\\"Ich helfe euch. – Ech hëllefen iech.\\\"},{\\\"word\\\":\\\"euer\\\",\\\"meaning\\\":\\\"ären / är / äert\\\",\\\"example\\\":\\\"Das ist euer Haus. – Dat ass äert Haus.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: euch gëtt am Lëtzebuergesche mat iech erëmgi.\\\",\\\"example\\\":\\\"Ich helfe euch. – Ech hëllefen iech. Ich sehe euch. – Ech gesinn iech.\\\"}\",\"study.accents\":\"{\\\"blue\\\":[\\\"ihr\\\"],\\\"yellow\\\":[\\\"euch\\\"],\\\"green\\\":[\\\"euer\\\"],\\\"purple\\\":[\\\"dir\\\",\\\"iech\\\",\\\"ären\\\",\\\"är\\\",\\\"äert\\\"]}\",\"study.important\":\"[\\\"ihr = dir, d’Form vum Sujet.\\\",\\\"euch = iech, d’Form vum Akkusativ oder Dativ.\\\",\\\"euer = ären / är / äert, d’Possessivform.\\\"]\",\"study.sectionAccents\":\"{\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"euch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"iech\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"euch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"iech\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"ihr\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Ihr\\\"],\\\"purple\\\":[\\\"Dir\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"euch\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"euch\\\"],\\\"purple\\\":[\\\"iech\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"euch\\\"],\\\"purple\\\":[\\\"iech\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"ihr\\\"],\\\"purple\\\":[\\\"dir\\\"]},{\\\"blue\\\":[\\\"euch\\\"],\\\"purple\\\":[\\\"iech\\\"]}]}\"}",
+    "owner_note": "Pilnā euch|idx:170 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|euer|idx:171|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ären",
+    "owner_note": "Individuāli pārbaudīts: euer → ären. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|fahren|idx:172|study.explanation, study.examples, study.comparison|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fueren • féieren\",\"study.translation\":\"fueren • féieren\",\"study.explanation\":\"[\\\"Haaptiddi: fahren bedeit mat engem Transportmëttel fueren; mat enger Persoun als Objet kann et och féieren oder heembréngen bedeiten.\\\",\\\"Bei engem Auto, Bus, Zuch, Vëlo oder engem aneren Transportmëttel benotzt een am Lëtzebuergesche meeschtens fueren.\\\",\\\"Wann eng Persoun den Objet ass, passt dacks féieren oder heembréngen.\\\",\\\"Fir Beweegung zu Fouss benotzt een goen oder lafen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich fahre nach Berlin.\\\",\\\"lv\\\":\\\"Ech fueren op Berlin.\\\"},{\\\"de\\\":\\\"Ich fahre mit dem Auto.\\\",\\\"lv\\\":\\\"Ech fuere mam Auto.\\\"},{\\\"de\\\":\\\"Ich fahre meine Tochter zur Schule.\\\",\\\"lv\\\":\\\"Ech féiere meng Duechter an d’Schoul.\\\"},{\\\"de\\\":\\\"Ich fahre dich nach Hause.\\\",\\\"lv\\\":\\\"Ech féieren dech heem.\\\"},{\\\"de\\\":\\\"Wir fahren morgen nach München.\\\",\\\"lv\\\":\\\"Mir fuere muer op München.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"fahren\\\",\\\"meaning\\\":\\\"mat engem Transportmëttel fueren\\\",\\\"example\\\":\\\"Ich fahre mit dem Bus. – Ech fuere mam Bus.\\\"},{\\\"word\\\":\\\"gehen\\\",\\\"meaning\\\":\\\"zu Fouss goen\\\",\\\"example\\\":\\\"Ich gehe nach Hause. – Ech ginn heem.\\\"},{\\\"word\\\":\\\"laufen\\\",\\\"meaning\\\":\\\"lafen\\\",\\\"example\\\":\\\"Er läuft schnell. – Hie leeft séier.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"bréngen • op eng Plaz bréngen\\\",\\\"example\\\":\\\"Ich bringe das Buch. – Ech bréngen d’Buch.\\\"},{\\\"word\\\":\\\"mitnehmen\\\",\\\"meaning\\\":\\\"mathuelen\\\",\\\"example\\\":\\\"Ich nehme dich mit. – Ech huelen dech mat.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Transportmëttel → fahren; zu Fouss → gehen.\\\"}\",\"study.important\":\"[\\\"fahren gëtt jee no Kontext mat fueren oder féieren erëmgi.\\\",\\\"Mat engem Transportmëttel: fueren. Eng Persoun op eng Plaz bréngen: féieren.\\\"]\",\"study.accents\":\"{\\\"blue\\\":[\\\"fahren\\\"],\\\"purple\\\":[\\\"fueren\\\",\\\"féieren\\\"],\\\"green\\\":[\\\"Transportmëttel\\\"],\\\"yellow\\\":[\\\"gehen\\\",\\\"laufen\\\"],\\\"red\\\":[\\\"bringen\\\",\\\"mitnehmen\\\"]}\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"fahren\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"fahre\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fueren\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"fahre\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fuere\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"fahre\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"féiere\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"fahre\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"féieren\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"fahren\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fuere\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"fahren\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"fahre\\\"],\\\"purple\\\":[\\\"fuere\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"gehen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"gehe\\\"],\\\"purple\\\":[\\\"ginn\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"laufen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"läuft\\\"],\\\"purple\\\":[\\\"leeft\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bringe\\\"],\\\"purple\\\":[\\\"bréngen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"mitnehmen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"nehme\\\"],\\\"purple\\\":[\\\"huelen\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"fahren\\\",\\\"gehen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"fahren\\\"],\\\"purple\\\":[\\\"fueren\\\",\\\"féieren\\\"]},{\\\"purple\\\":[\\\"Transportmëttel\\\",\\\"féieren\\\",\\\"fueren\\\"]}]}\"}",
+    "owner_note": "Pilnā fahren|idx:172 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|falsch|idx:173|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "falsch",
+    "owner_note": "Individuāli pārbaudīts: falsch → falsch. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Familie|idx:174|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Famill",
+    "owner_note": "Individuāli pārbaudīts: Familie → Famill. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|fast|idx:177|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bal",
+    "owner_note": "Individuāli pārbaudīts: fast → bal. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Fehler|idx:179|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Feeler",
+    "owner_note": "Individuāli pārbaudīts: Fehler → Feeler. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Fenster|idx:180|lv|UNRELATED_CONTENT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Fënster",
+    "owner_note": "Individuāli pārbaudīts: Fenster → Fënster. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Wochenende|idx:181|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Weekend",
+    "owner_note": "Individuāli pārbaudīts: Wochenende → Weekend. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Fernseher|idx:182|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tëlee",
+    "owner_note": "Individuāli pārbaudīts: Fernseher → Tëlee. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|fertig|idx:183|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fäerdeg",
+    "owner_note": "Individuāli pārbaudīts: fertig → fäerdeg. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|fett|idx:184|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fett",
+    "owner_note": "Individuāli pārbaudīts: fett → fett. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Film|idx:185|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Individuāli pārbaudīts: Luxembourgish un German lietvārds ir “Film”; pašreizējā vērtība jau ir precīza."
+  },
+  "g2/a1/lb|Filzstift|idx:186|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Filzstëft",
+    "owner_note": "Individuāli pārbaudīts: Filzstift → Filzstëft. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|finden|idx:187|lv, study.examples, study.explanation|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fannen\",\"study.translation\":\"fannen\",\"study.explanation\":\"[\\\"Haaptiddi: finden bedeit meeschtens „fannen“.\\\",\\\"Bei enger Meenung gëtt finden och mat fannen am Sënn vun „eng Meenung hunn“ benotzt.\\\",\\\"Bei enger verluerener Saach bedeit et, datt een d’Saach erëm fënnt.\\\",\\\"De Kontext ënnerscheet tëscht enger Saach fannen an enger Meenung ausdrécken.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich finde meinen Schlüssel.\\\",\\\"lv\\\":\\\"Ech fannen mäi Schlëssel.\\\"},{\\\"de\\\":\\\"Ich finde das gut.\\\",\\\"lv\\\":\\\"Ech fannen dat gutt.\\\"},{\\\"de\\\":\\\"Wie findest du den Film?\\\",\\\"lv\\\":\\\"Wéi fënns du de Film?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"finden\\\",\\\"meaning\\\":\\\"fannen • eng Meenung hunn\\\",\\\"example\\\":\\\"Ich finde das gut. – Ech fannen dat gutt.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: verluer Saach → finden; Meenung → ich finde …\\\"}\",\"study.important\":\"[\\\"finden kann eng Saach fannen oder eng Meenung ausdrécken.\\\",\\\"Ich finde das gut bedeit „Ech fannen dat gutt“.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"finden\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"finde\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fannen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"finde\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fannen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"findest\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fënns\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"finden\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"finde\\\"],\\\"purple\\\":[\\\"fannen\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"finden\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"finden\\\"]},{\\\"blue\\\":[\\\"finde\\\"]}]}\"}",
+    "owner_note": "Pilnā finden|idx:187 mērķvalodas kartīte individuāli pārbaudīta: aizvietot visus norādītos laukus ar gatavajām luksemburgiešu vērtībām; DE laukus nemainīt."
+  },
+  "g2/a1/lb|Fisch|idx:189|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Fësch",
+    "owner_note": "Individuāli pārbaudīts: Fisch → Fësch. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Flasche|idx:190|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Fläsch",
+    "owner_note": "Individuāli pārbaudīts: Flasche → Fläsch. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Fleisch|idx:191|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Fleesch",
+    "owner_note": "Individuāli pārbaudīts: Fleisch → Fleesch. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|fliegen|idx:192|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fléien",
+    "owner_note": "Individuāli pārbaudīts: fliegen → fléien. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Fluss|idx:194|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Floss",
+    "owner_note": "Individuāli pārbaudīts: Fluss → Floss. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|Frage|idx:196|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Fro",
+    "owner_note": "Individuāli pārbaudīts: Frage → Fro. Precīzi aizvietot tikai lv."
+  },
+  "g2/a1/lb|fragen|idx:197|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "froen",
+    "owner_note": "Individuāli pārbaudīts: fragen → froen. Precīzi aizvietot tikai lv."
+  }
+}
