@@ -53,7 +53,7 @@
     "pass": true,
     "ARTIFACT_REPLACEMENTS": "6/6",
     "APPROVED_OVERRIDE_CHANGES": 0,
-    "PROOF_REFRESH_REPLACEMENTS": "2/2"
+    "PROOF_REFRESH_REPLACEMENTS": "3/3"
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-view.md",
@@ -71,7 +71,7 @@
     "copyPaste8A": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-8A.json",
     "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-anti-bulk-proof.json"
   },
-  "note": "COPY-PASTE 8A: anti-bulk proof hash refresh (output_sha256 + manifest_sha256). ANTI_BULK PASS. Overrides/content unchanged.",
+  "note": "COPY-PASTE 8A: anti-bulk proof refresh (output_sha256 + manifest_sha256 + derived single_rule_name). ANTI_BULK PASS. Overrides/content unchanged.",
   "galaPass": false,
   "linguisticVerdict": null,
   "scriptChanges": 0,

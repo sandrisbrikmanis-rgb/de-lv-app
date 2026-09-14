@@ -16,6 +16,7 @@
 - [Copy/paste correction #7](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-7.json)
 - [Copy/paste correction #8](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-8.json)
 - [Copy/paste proof refresh 8A](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-8A.json)
+- [Copy/paste proof reconciliation 8B](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-8B.json)
 - [Parallel checkpoint](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/parallel-checkpoint.json)
 
 **Status:** `OWNER_COPY_PASTE_CORRECTION_7_APPLIED_AWAITING_GALA_REVIEW` (galaPass: false)
