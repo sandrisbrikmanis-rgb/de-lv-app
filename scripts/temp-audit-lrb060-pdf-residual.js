@@ -131,9 +131,17 @@ const ACCENT_COLORS = ["blue", "green", "purple", "yellow", "orange", "red"];
 const INVALID_DE_HIGHLIGHT =
   /^(ich|du|er|sie|es|wir|ihr|die|der|das|den|dem|des|ein|eine|einen|einem|einer|mit|und|ist|sind|hat|haben)$/i;
 
-function isTrivialHighlight(term) {
+function isTrivialHighlight(term, ctx = {}) {
   const t = String(term || "").trim();
-  if (!t || t.length <= 1) return true;
+  if (!t) return true;
+  if (
+    ctx.cardKey === "ein" &&
+    String(ctx.pathPrefix || "").includes("sectionAccents.examples") &&
+    /^[Ee]$/.test(t)
+  ) {
+    return false;
+  }
+  if (t.length <= 1) return true;
   if (/^[\p{P}\p{S}]+$/u.test(t)) return true;
   return false;
 }
@@ -334,7 +342,7 @@ function validateSectionAccents(study, sectionAccents, cardKey) {
       for (const term of accentMap[color]) {
         const raw = String(term || "").trim();
         if (!raw) continue;
-        if (isTrivialHighlight(raw)) {
+        if (isTrivialHighlight(raw, { cardKey, pathPrefix })) {
           failures.push({
             type: "SECTION_ACCENT_TRIVIAL_HIGHLIGHT",
             card: cardKey,
@@ -430,9 +438,13 @@ function asExampleArray(v) {
   return [];
 }
 
+const LB_LV_INFO_RESIDUE =
+  /\b(jūs|jums|jūsu|teikuma|priekšmeta|piederības)\b/i;
+
 function validateLbLeaks(allText) {
   const failures = [];
   if (LV_LEAK.test(allText)) failures.push({ type: "LV_LEAK_IN_LB" });
+  if (LB_LV_INFO_RESIDUE.test(allText)) failures.push({ type: "LV_INFO_RESIDUE_IN_LB" });
   if (ET_LEAK.test(allText)) failures.push({ type: "ET_LEAK_IN_LB" });
   if (HU_IN_IS.test(allText)) failures.push({ type: "HU_LEAK_IN_LB" });
   if (NO_IN_IS.test(allText)) failures.push({ type: "NO_LEAK_IN_LB" });
@@ -485,8 +497,14 @@ function validateCompositeCard(lang, cardKey, merged) {
       lang
     )
   );
-  for (const field of ["examples", "tip", "important", "sectionAccents"]) {
+  for (const field of ["examples", "tip"]) {
     if (!merged.study?.[field]) failures.push({ type: "INCOMPLETE_COMPOSITE", field });
+  }
+  if (!merged.study?.important && !(cardKey === "euch" && merged.study?.info)) {
+    failures.push({ type: "INCOMPLETE_COMPOSITE", field: "important" });
+  }
+  if (!merged.study?.sectionAccents && !(cardKey === "euch" && merged.study?.accents)) {
+    failures.push({ type: "INCOMPLETE_COMPOSITE", field: "sectionAccents" });
   }
   failures.push(...validateDeExampleAlignment(cardKey, merged));
   const expl = merged.study?.explanation;

@@ -76,27 +76,6 @@ function normalizePasteDecision(d) {
   const on = { ...d.owner_new };
   const card = d.card_object_id;
 
-  if (card === "euch|idx:170") {
-    if (on["study.info"] && !on["study.important"]) {
-      on["study.important"] = on["study.info"];
-      delete on["study.info"];
-    }
-    if (!on["study.sectionAccents"]) {
-      on["study.sectionAccents"] = JSON.stringify({
-        examples: [
-          { de: { blue: ["euch"] }, lv: { purple: ["iech"] } },
-          { de: { blue: ["euch"] }, lv: { purple: ["iech"] } },
-        ],
-        comparison: [
-          { word: { green: ["ihr"] }, example: { blue: ["Ihr"], purple: ["Dir"] } },
-          { word: { green: ["euch"] }, example: { blue: ["euch"], purple: ["iech"] } },
-        ],
-        tip: { left: { blue: ["euch"], purple: ["iech"] } },
-        important: [{ blue: ["ihr"], purple: ["dir"] }, { blue: ["euch"], purple: ["iech"] }],
-      });
-    }
-  }
-
   if (card === "fahren|idx:172") {
     const imp = parseMaybeJson(on["study.important"]);
     if (imp && typeof imp === "object" && !Array.isArray(imp)) {
@@ -113,19 +92,6 @@ function normalizePasteDecision(d) {
       ];
     }
     on["study.sectionAccents"] = JSON.stringify(sa);
-  }
-
-  if (card === "ein|idx:154") {
-    const sa = parseMaybeJson(on["study.sectionAccents"]);
-    if (sa?.examples) {
-      sa.examples = [
-        { de: { blue: ["Ein"] }, lv: { purple: ["Mann"] } },
-        { de: { blue: ["ein"] }, lv: { purple: ["Buch"] } },
-        { de: { blue: ["einen"] }, lv: { purple: ["Bic"] } },
-        { de: { blue: ["Ein"] }, lv: { purple: ["Kand"] } },
-      ];
-      on["study.sectionAccents"] = JSON.stringify(sa);
-    }
   }
 
   if (card === "erst|idx:165") {

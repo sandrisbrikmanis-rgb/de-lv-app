@@ -657,7 +657,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "Mann"
+                    "E"
                   ]
                 }
               },
@@ -669,7 +669,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "Buch"
+                    "e"
                   ]
                 }
               },
@@ -681,7 +681,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "Bic"
+                    "e"
                   ]
                 }
               },
@@ -693,7 +693,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "Kand"
+                    "E"
                   ]
                 }
               }
@@ -1852,9 +1852,9 @@
             }
           ],
           "info": [
-            "ihr = jūs (teikuma priekšmeta forma)",
-            "euch = jūs (kurp? forma) / jums (kam? forma)",
-            "euer = jūsu (piederības forma)"
+            "ihr = dir, d’Form vum Sujet.",
+            "euch = iech, d’Form vum Akkusativ oder Dativ.",
+            "euer = ären / är / äert, d’Possessivform."
           ],
           "tip": {
             "text": "Denk drun: euch gëtt am Lëtzebuergesche mat iech erëmgi.",
@@ -1876,99 +1876,6 @@
               "ären",
               "är",
               "äert"
-            ]
-          },
-          "important": [
-            "ihr = dir, d’Form vum Sujet.",
-            "euch = iech, d’Form vum Akkusativ oder Dativ.",
-            "euer = ären / är / äert, d’Possessivform."
-          ],
-          "sectionAccents": {
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "euch"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "iech"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "euch"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "iech"
-                  ]
-                }
-              }
-            ],
-            "comparison": [
-              {
-                "word": {
-                  "green": [
-                    "ihr"
-                  ]
-                },
-                "example": {
-                  "blue": [
-                    "Ihr"
-                  ],
-                  "purple": [
-                    "Dir"
-                  ]
-                }
-              },
-              {
-                "word": {
-                  "green": [
-                    "euch"
-                  ]
-                },
-                "example": {
-                  "blue": [
-                    "euch"
-                  ],
-                  "purple": [
-                    "iech"
-                  ]
-                }
-              }
-            ],
-            "tip": {
-              "left": {
-                "blue": [
-                  "euch"
-                ],
-                "purple": [
-                  "iech"
-                ]
-              }
-            },
-            "important": [
-              {
-                "blue": [
-                  "ihr"
-                ],
-                "purple": [
-                  "dir"
-                ]
-              },
-              {
-                "blue": [
-                  "euch"
-                ],
-                "purple": [
-                  "iech"
-                ]
-              }
             ]
           }
         }

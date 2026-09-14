@@ -1,0 +1,66 @@
+{
+  "schema": "LRB_OWNER_GALA_CORRECTION_COPY_PASTE_V1",
+  "batch_id": "LRB-060",
+  "reviewed_commit": "8af6058de825f1528251bfcac84ae84b2f1d6160",
+  "verdict_before_apply": "GALA_BLOCKED",
+  "copy_paste_source_sha256": "d24ec1d85d49e93c63fbc5eb0d44641b0af4b0d2bbf1dba17f1dc24070e6d592",
+  "counts": {
+    "corrections": 2,
+    "affected_cards": 2
+  },
+  "corrections": [
+    {
+      "number": 1,
+      "card_object_id": "euch|idx:170",
+      "field_path": "study.info",
+      "current": [
+        "ihr = jūs (teikuma priekšmeta forma)",
+        "euch = jūs (kurp? forma) / jums (kam? forma)",
+        "euer = jūsu (piederības forma)"
+      ],
+      "new": [
+        "ihr = dir, d’Form vum Sujet.",
+        "euch = iech, d’Form vum Akkusativ oder Dativ.",
+        "euer = ären / är / äert, d’Possessivform."
+      ],
+      "reason": "The approved COPY-PASTE mapping already contains these three Luxembourgish lines, but the build omitted study.info and the gala card retained Latvian text."
+    },
+    {
+      "number": 2,
+      "card_object_id": "ein|idx:154",
+      "field_path": "study.sectionAccents.examples",
+      "current": [
+        { "de": { "blue": ["Ein"] }, "lv": { "purple": ["Mann"] } },
+        { "de": { "blue": ["ein"] }, "lv": { "purple": ["Buch"] } },
+        { "de": { "blue": ["einen"] }, "lv": { "purple": ["Bic"] } },
+        { "de": { "blue": ["Ein"] }, "lv": { "purple": ["Kand"] } }
+      ],
+      "new": [
+        { "de": { "blue": ["Ein"] }, "lv": { "purple": ["E"] } },
+        { "de": { "blue": ["ein"] }, "lv": { "purple": ["e"] } },
+        { "de": { "blue": ["einen"] }, "lv": { "purple": ["e"] } },
+        { "de": { "blue": ["Ein"] }, "lv": { "purple": ["E"] } }
+      ],
+      "reason": "The card teaches the indefinite article. The build-time normalization changed the approved learning-critical target highlights from the articles E/e to unrelated nouns."
+    }
+  ],
+  "required_gate_patch": {
+    "file": "scripts/temp-audit-lrb060-pdf-residual.js",
+    "action": "Extend the Luxembourgish target LV residue detector so the omitted euch study.info cannot pass again.",
+    "add_exact_tokens": [
+      "jūs",
+      "jums",
+      "jūsu",
+      "teikuma",
+      "priekšmeta",
+      "piederības"
+    ]
+  },
+  "restrictions": [
+    "Exact Copy/Paste only",
+    "No new linguistic analysis",
+    "Do not modify the authorized COPY-PASTE file",
+    "No DE, production, Crowdin, ingest or apply changes",
+    "Do not grant GALA PASS or LINGUISTICALLY_CLOSED"
+  ]
+}
