@@ -11,7 +11,7 @@ const { getAt, setAt } = require("./lib/da-a1-owner-path");
 
 const BATCH = "LRB-062";
 const PASTE_PATH = process.argv[2] || path.join(ROOT, "scripts/data/g2-a1-owner-pending/LRB-062-decisions-COPY-PASTE.json");
-const EXPECTED_PASTE_SHA = "13d99569fc4b33fbaf76bc746190e760c958e5bfbbe134d0ac59153b8fe8c7ec";
+const EXPECTED_PASTE_SHA = "57378b3280ba986e8ea7f41266565345faf977def1b3efe781f90434a27a93c0";
 
 function loadA1(lang) {
   const ctx = { window: {} };
@@ -201,7 +201,7 @@ function main() {
     paste_sha256: pasteSha,
     full_card_replacements: fullCardIds.size,
     full_card_object_ids: [...fullCardIds].sort(),
-    classification: "LRB_062_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+    classification: "LRB_062_GALA_CORRECTION_1_APPLIED_AWAITING_GALA_VERDICT",
     cards: galaCards,
   };
   const galaPath = path.join(ROOT, "reports/g2-a1-owner/batches-reviewed", `${BATCH}-gala-cards.json`);

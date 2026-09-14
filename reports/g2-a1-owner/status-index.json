@@ -1594,7 +1594,7 @@
       "LRB-062": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
-        "classification": "LRB_062_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+        "classification": "LRB_062_GALA_CORRECTION_1_APPLIED_AWAITING_GALA_VERDICT",
         "labot": 50,
         "nelabot": 0,
         "pending": 0,
@@ -1618,7 +1618,9 @@
         "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-062-gala-cards.json",
         "pasteRepairs": "GPT-5.6 Luna copy/paste (50 LABOT / 0 NELABOT / 50 unique LB cards: 18 full composite + 32 scalar)",
         "pasteSha256": "13d99569fc4b33fbaf76bc746190e760c958e5bfbbe134d0ac59153b8fe8c7ec",
-        "decisionsSha256": "7c199f3d6b4419e38aff7465620f1e9557ab1b4a61d5ca94d4efb7f14099349a"
+        "decisionsSha256": "a092cbbd6292c24148de4f5cbe5289bf3756adec352ef0f3b71b39cd05edafef",
+        "galaCorrection1": "GALA_CORRECTION_1_APPLIED",
+        "galaCorrection1Sha256": "ae2af0925a1382ed9734913ea396981cfba6c7617198e504da9e6fe9e1f1387a"
       }
     },
     "lastBatch": {
@@ -1633,7 +1635,7 @@
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
-      "classification": "LRB_062_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+      "classification": "LRB_062_GALA_CORRECTION_1_APPLIED_AWAITING_GALA_VERDICT",
       "rowCount": 50,
       "uniqueCards": 50,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-062-decisions.csv",
@@ -1641,7 +1643,8 @@
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-062-anti-bulk-proof.json",
       "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-062-residual-wrong-language-proof.json",
       "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-062-owner-auth-residual-proof.json",
-      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-062-gala-cards.json"
+      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-062-gala-cards.json",
+      "galaCorrection1": "GALA_CORRECTION_1_APPLIED"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",

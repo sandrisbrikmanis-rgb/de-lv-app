@@ -3,7 +3,7 @@
   "language": "lb",
   "rows": 50,
   "uniqueCards": 50,
-  "paste_sha256": "13d99569fc4b33fbaf76bc746190e760c958e5bfbbe134d0ac59153b8fe8c7ec",
+  "paste_sha256": "57378b3280ba986e8ea7f41266565345faf977def1b3efe781f90434a27a93c0",
   "full_card_replacements": 18,
   "full_card_object_ids": [
     "Hand|idx:267",
@@ -60,7 +60,7 @@
             "gut beschreift Qualitéit, Gesondheet oder wéi eppes verleeft: Es geht mir gut. = Et geet mir gutt.",
             "An de Begréissunge Guten Morgen!, Guten Tag! a Guten Abend! kritt gut d’Endung -en.",
             "Wann gut e Verb beschreift, ass et en Adverb: gut schwimmen = gutt schwammen.",
-            "Net mat das Gut verwiesselen: mat groussem Buschtaf an Artikel ass et e Substantiv, zum Beispill Besëtz oder Landgut."
+            "Net mat das Gut verwiesselen: mat groussem Buschtaf an Artikel ass et e Substantiv, zum Beispill Besëtz oder Domaine."
           ],
           "examples": [
             {
@@ -94,7 +94,7 @@
           ],
           "important": [
             "gut = gutt als Adjektiv oder Adverb.",
-            "das Gut = Besëtz oder Landgut; net mat gut verwiesselen.",
+            "das Gut = Besëtz oder Domaine; net mat gut verwiesselen.",
             "Bei Guten Morgen, Guten Tag a Guten Abend huet gut d’Endung -en."
           ],
           "sectionAccents": {
@@ -1411,8 +1411,8 @@
           "layout": "standardStudy",
           "translation": "héieren • lauschteren",
           "explanation": [
-            "Haaptiddi: hören kann eng Tounwahrnehmung oder bewosst Nolauschtere bezeechnen.",
-            "Fir eng Tounwahrnehmung steet op Lëtzebuergesch héieren.",
+            "Haaptiddi: hören kann d’Wouerhuele vun engem Toun oder bewosst Nolauschtere bezeechnen.",
+            "Fir en Toun, deen een héiert, steet op Lëtzebuergesch héieren.",
             "Bei Musek oder enger Geschicht kann op Lëtzebuergesch lauschteren oder nolauschteren stoen.",
             "De Kontext entscheet tëscht héieren a lauschteren."
           ],
@@ -1431,12 +1431,12 @@
             }
           ],
           "tip": [
-            "Eng Tounwahrnehmung: héieren.",
-            "Bewosst Musek oder enger Geschicht nolauschteren: lauschteren oder nolauschteren."
+            "En Toun héieren: héieren.",
+            "Bewosst Musek lauschteren oder enger Geschicht nolauschteren: lauschteren oder nolauschteren."
           ],
           "important": [
             "hören kann jee no Kontext héieren oder lauschteren bedeiten.",
-            "De Saz weist, ob et ëm Wahrnehmung oder bewosst Nolauschtere geet."
+            "De Saz weist, ob et ëm d’Héiere vun engem Toun oder ëm bewosst Nolauschtere geet."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1488,7 +1488,7 @@
             "tip": [
               {
                 "purple": [
-                  "Eng"
+                  "En"
                 ]
               },
               {
@@ -2186,7 +2186,7 @@
           "layout": "standardStudy",
           "translation": "an • zu",
           "explanation": [
-            "Haaptiddi: déi däitsch Präpositioun in kann eng Plaz oder eng Richtung an en Innenraum bezeechnen.",
+            "Haaptiddi: déi däitsch Präpositioun in kann eng Plaz oder eng Richtung no bannen bezeechnen.",
             "Bei enger fester Plaz gëtt in op Lëtzebuergesch jee no Kontext mat an, am oder zu ausgedréckt.",
             "Bei enger Bewegung no bannen gëtt in op Lëtzebuergesch meeschtens mat an ausgedréckt.",
             "Déi genee lëtzebuergesch Präpositioun hänkt vum Substantiv a vum Kontext of."
@@ -2210,7 +2210,7 @@
             }
           ],
           "tip": {
-            "text": "Denk drun: in bezeechent dacks eng Plaz oder eng Bewegung an en Innenraum; d’lëtzebuergesch Präpositioun ass kontextofhängeg."
+            "text": "Denk drun: in bezeechent dacks eng Plaz oder eng Bewegung no bannen; d’lëtzebuergesch Präpositioun ass kontextofhängeg."
           },
           "important": [
             "in gëtt net an all Kontext mam selwechte lëtzebuergesche Wuert iwwersat.",
@@ -2896,8 +2896,8 @@
           "explanation": [
             "Haaptiddi: kein ass en däitschen Negatiounsartikel, deen e Substantiv verneint.",
             "kein gëtt wéi ein deklinéiert: kein, keine, keinen an aner Formen; et steet virum Substantiv.",
-            "Bei zielbare Persoune kann kein dem lëtzebuergesche keen oder keng entspriechen.",
-            "Bei Stoff- oder abstrakte Substantiver gëtt kein op Lëtzebuergesch dacks duerch keen oder keng an eng negativ Verbform ausgedréckt.",
+            "Bei Persounen entsprécht kein jee no Genus dem lëtzebuergesche keen oder keng.",
+            "Bei Stoff- oder abstrakte Substantiver entsprécht kein jee no Genus an Numerus dem lëtzebuergesche keen oder keng.",
             "kein verneint e Substantiv; nicht verneint jee no Kontext en anert Element oder de ganze Saz."
           ],
           "examples": [

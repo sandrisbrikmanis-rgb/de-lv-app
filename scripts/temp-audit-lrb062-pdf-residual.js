@@ -454,10 +454,13 @@ function asExampleArray(v) {
 const LB_LV_INFO_RESIDUE =
   /\b(jūs|jums|jūsu|teikuma|priekšmeta|piederības)\b/i;
 
+const LB_GALA_CORR1_RESIDUE = /\b(Tounwahrnehmung|Wahrnehmung|Innenraum)\b/;
+
 function validateLbLeaks(allText) {
   const failures = [];
   if (LV_LEAK.test(allText)) failures.push({ type: "LV_LEAK_IN_LB" });
   if (LB_LV_INFO_RESIDUE.test(allText)) failures.push({ type: "LV_INFO_RESIDUE_IN_LB" });
+  if (LB_GALA_CORR1_RESIDUE.test(allText)) failures.push({ type: "GALA_CORR1_RESIDUE_IN_LB" });
   if (ET_LEAK.test(allText)) failures.push({ type: "ET_LEAK_IN_LB" });
   if (HU_IN_IS.test(allText)) failures.push({ type: "HU_LEAK_IN_LB" });
   if (NO_IN_IS.test(allText)) failures.push({ type: "NO_LEAK_IN_LB" });
