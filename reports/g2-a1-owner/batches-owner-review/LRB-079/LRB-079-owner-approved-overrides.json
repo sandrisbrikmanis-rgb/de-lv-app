@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-079",
-  "sourceCommit": "2b415f1f4a0cb6459eb6aae7370f54076bdf0ada",
+  "sourceCommit": "eb69411de5e95b0d7e237dc2a75113b0c398de8e",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_2",
+  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_3_TECHNICAL",
   "cards": [
     {
       "auditId": "LRB079-0001",
@@ -304,8 +304,7 @@
             "Os usos de der como pronome e pronome relativo podem ser estudados posteriormente."
           ],
           "id": "a1-der",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -347,8 +346,7 @@
             "No plural, die é usado para os três gêneros."
           ],
           "id": "a1-die",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -390,8 +388,7 @@
             "No plural, a forma nominativa é diese."
           ],
           "id": "a1-dieser",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -589,22 +586,22 @@
             {
               "word": "erst",
               "meaning": "apenas • primeiro",
-              "example": "Erst lernen, dann spielen. – Primeiro estudar, depois brincar."
+              "example": "Erst lernen, dann spielen. = Primeiro estudar, depois brincar."
             },
             {
               "word": "zuerst",
               "meaning": "primeiro",
-              "example": "Zuerst frühstücken wir. – Primeiro, tomamos café da manhã."
+              "example": "Zuerst frühstücken wir. = Primeiro, tomamos café da manhã."
             },
             {
               "word": "nur",
               "meaning": "apenas • somente",
-              "example": "Ich habe nur 5 Euro. – Eu tenho apenas 5 euros."
+              "example": "Ich habe nur 5 Euro. = Eu tenho apenas 5 euros."
             },
             {
               "word": "dann",
               "meaning": "então • depois",
-              "example": "Dann gehen wir nach Hause. – Então vamos para casa."
+              "example": "Dann gehen wir nach Hause. = Então vamos para casa."
             }
           ],
           "tip": {
@@ -658,12 +655,12 @@
             {
               "word": "es",
               "meaning": "ele • ela • isso • pronome impessoal",
-              "example": "Es regnet. – Está chovendo."
+              "example": "Es regnet. = Está chovendo."
             },
             {
               "word": "ich",
               "meaning": "eu",
-              "example": "Ich lerne Deutsch. – Eu estudo alemão."
+              "example": "Ich lerne Deutsch. = Eu estudo alemão."
             }
           ],
           "tip": {
@@ -732,8 +729,7 @@
             "Ação: essen. Coisa ou refeição: das Essen."
           ],
           "id": "a1-essen",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -780,7 +776,6 @@
               "lv": "A comida está saborosa."
             }
           ],
-          "comparison": [],
           "tip": {
             "text": "Substantivo: das Essen; verbo: essen."
           },
@@ -836,22 +831,22 @@
             {
               "word": "etwas",
               "meaning": "algo • um pouco",
-              "example": "Ich brauche etwas. – Preciso de algo."
+              "example": "Ich brauche etwas. = Preciso de algo."
             },
             {
               "word": "was",
               "meaning": "algo (informal)",
-              "example": "Willst du was trinken? – Você quer beber algo?"
+              "example": "Willst du was trinken? = Você quer beber algo?"
             },
             {
               "word": "ein bisschen",
               "meaning": "um pouco",
-              "example": "Ich bin ein bisschen müde. – Estou um pouco cansado."
+              "example": "Ich bin ein bisschen müde. = Estou um pouco cansado."
             },
             {
               "word": "nichts",
               "meaning": "nada",
-              "example": "Ich brauche nichts. – Não preciso de nada."
+              "example": "Ich brauche nichts. = Não preciso de nada."
             }
           ],
           "tip": {
@@ -908,17 +903,17 @@
             {
               "word": "ihr",
               "meaning": "vocês",
-              "example": "Ihr seid freundlich. – Vocês são gentis."
+              "example": "Ihr seid freundlich. = Vocês são gentis."
             },
             {
               "word": "euch",
               "meaning": "vocês • a vocês",
-              "example": "Ich helfe euch. – Eu ajudo vocês."
+              "example": "Ich helfe euch. = Eu ajudo vocês."
             },
             {
               "word": "euer",
               "meaning": "seu • de vocês",
-              "example": "Das ist euer Haus. – Essa é a casa de vocês."
+              "example": "Das ist euer Haus. = Essa é a casa de vocês."
             }
           ],
           "tip": {
@@ -976,27 +971,27 @@
             {
               "word": "fahren",
               "meaning": "viajar • dirigir",
-              "example": "Ich fahre mit dem Bus. – Vou de ônibus."
+              "example": "Ich fahre mit dem Bus. = Vou de ônibus."
             },
             {
               "word": "gehen",
               "meaning": "ir a pé",
-              "example": "Ich gehe nach Hause. – Vou para casa a pé."
+              "example": "Ich gehe nach Hause. = Vou para casa a pé."
             },
             {
               "word": "laufen",
               "meaning": "correr • caminhar",
-              "example": "Er läuft schnell. – Ele corre rápido."
+              "example": "Er läuft schnell. = Ele corre rápido."
             },
             {
               "word": "bringen",
               "meaning": "levar • trazer",
-              "example": "Ich bringe das Buch. – Eu levo o livro."
+              "example": "Ich bringe das Buch. = Eu levo o livro."
             },
             {
               "word": "mitnehmen",
               "meaning": "levar consigo",
-              "example": "Ich nehme dich mit. – Levo você comigo."
+              "example": "Ich nehme dich mit. = Levo você comigo."
             }
           ],
           "tip": {
@@ -1110,17 +1105,17 @@
             {
               "word": "fernsehen",
               "meaning": "assistir televisão",
-              "example": "Ich sehe fern. – Eu assisto televisão."
+              "example": "Ich sehe fern. = Eu assisto televisão."
             },
             {
               "word": "das Fernsehen",
               "meaning": "a televisão como meio de comunicação",
-              "example": "Im Fernsehen läuft ein Film. – Está passando um filme na televisão."
+              "example": "Im Fernsehen läuft ein Film. = Está passando um filme na televisão."
             },
             {
               "word": "sehen",
               "meaning": "ver",
-              "example": "Ich sehe einen Film. – Eu vejo um filme."
+              "example": "Ich sehe einen Film. = Eu vejo um filme."
             }
           ],
           "tip": {
@@ -1191,8 +1186,7 @@
             "Ação: fernsehen — ich sehe fern. Meio ou programação: das Fernsehen."
           ],
           "id": "a1-fernsehen-study",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -1290,7 +1284,6 @@
               "lv": "A esposa dele é médica."
             }
           ],
-          "comparison": [],
           "tip": [
             "Com meine Frau ou seine Frau, geralmente o significado é esposa."
           ],
@@ -1345,7 +1338,6 @@
               "lv": "Por hoje isso é suficiente."
             }
           ],
-          "comparison": [],
           "tip": [
             "für sempre rege o acusativo, independentemente da tradução.",
             "Destinatário ou finalidade → para; agradecimento, preço, troca ou motivo → por, pelo ou pela."
@@ -1642,7 +1634,6 @@
               "lv": "Eu como legumes."
             }
           ],
-          "comparison": [],
           "tip": [
             "Use das Gemüse para falar de legumes e verduras em geral."
           ],
@@ -1820,8 +1811,7 @@
             "Bis gleich! significa ‘Até daqui a pouco!’."
           ],
           "id": "a1-gleich",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -1867,8 +1857,7 @@
             "groß = grande; para pessoas, geralmente ‘alto’. "
           ],
           "id": "a1-gross-study",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -1981,8 +1970,7 @@
             "Guten Tag, Guten Morgen e Guten Abend mostram a flexão de gut."
           ],
           "id": "a1-gut-study",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -2025,22 +2013,22 @@
             {
               "word": "haben",
               "meaning": "ter",
-              "example": "Ich habe Zeit. – Eu tenho tempo."
+              "example": "Ich habe Zeit. = Eu tenho tempo."
             },
             {
               "word": "sein",
               "meaning": "ser/estar",
-              "example": "Ich bin hier. – Eu estou aqui."
+              "example": "Ich bin hier. = Eu estou aqui."
             },
             {
               "word": "bekommen",
               "meaning": "receber",
-              "example": "Ich bekomme ein Geschenk. – Eu recebo um presente."
+              "example": "Ich bekomme ein Geschenk. = Eu recebo um presente."
             },
             {
               "word": "machen",
               "meaning": "fazer",
-              "example": "Ich mache das. – Eu faço isso."
+              "example": "Ich mache das. = Eu faço isso."
             }
           ],
           "tip": {
@@ -2095,22 +2083,22 @@
             {
               "word": "halten",
               "meaning": "segurar / parar",
-              "example": "Der Bus hält. – O ônibus para."
+              "example": "Der Bus hält. = O ônibus para."
             },
             {
               "word": "nehmen",
               "meaning": "pegar",
-              "example": "Ich nehme die Tasche. – Eu pego a bolsa."
+              "example": "Ich nehme die Tasche. = Eu pego a bolsa."
             },
             {
               "word": "anhalten",
               "meaning": "parar",
-              "example": "Bitte halten Sie an. – Por favor, pare."
+              "example": "Bitte halten Sie an. = Por favor, pare."
             },
             {
               "word": "denken",
               "meaning": "pensar/achar",
-              "example": "Ich denke, das ist richtig. – Eu acho que isso está certo."
+              "example": "Ich denke, das ist richtig. = Eu acho que isso está certo."
             }
           ],
           "tip": {
@@ -2220,27 +2208,27 @@
             {
               "word": "heißen",
               "meaning": "chamar-se / significar",
-              "example": "Ich heiße Anna. – Eu me chamo Anna."
+              "example": "Ich heiße Anna. = Eu me chamo Anna."
             },
             {
               "word": "nennen",
               "meaning": "chamar, dar um nome",
-              "example": "Er nennt mich Tom. – Ele me chama de Tom."
+              "example": "Er nennt mich Tom. = Ele me chama de Tom."
             },
             {
               "word": "bedeuten",
               "meaning": "significar",
-              "example": "Was bedeutet das? – O que isso significa?"
+              "example": "Was bedeutet das? = O que isso significa?"
             },
             {
               "word": "rufen",
               "meaning": "chamar em voz alta",
-              "example": "Ich rufe dich. – Eu chamo você."
+              "example": "Ich rufe dich. = Eu chamo você."
             },
             {
               "word": "anrufen",
               "meaning": "telefonar",
-              "example": "Ich rufe dich an. – Eu telefono para você."
+              "example": "Ich rufe dich an. = Eu telefono para você."
             }
           ],
           "tip": {
@@ -2302,8 +2290,7 @@
             "Para a altura de uma pessoa, normalmente não se usa hoch."
           ],
           "id": "a1-hoch-study",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -2346,8 +2333,7 @@
             "O contexto determina se a melhor tradução é ‘ouvir’ ou ‘escutar’. "
           ],
           "id": "a1-hoeren-study",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -2501,8 +2487,7 @@
             "Incorreto: Mein Handy ist jung. Correto: Mein Handy ist neu."
           ],
           "id": "a1-jung",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -2559,8 +2544,7 @@
             "Incorreto: Ich habe nicht ein Geld. Correto: Ich habe kein Geld."
           ],
           "id": "a1-kein",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -2666,8 +2650,7 @@
             "Ao falar de uma criança, klein também pode indicar pouca idade."
           ],
           "id": "a1-klein-study",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -2870,8 +2853,7 @@
             "O plural de Laden é Läden."
           ],
           "id": "a1-laden-study",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     },
@@ -2997,11 +2979,10 @@
             "Wie lange significa quanto tempo e pergunta sobre duração, não sobre medida."
           ],
           "id": "a1-lang",
-          "layout": "standardStudy",
-          "comparison": []
+          "layout": "standardStudy"
         }
       }
     }
   ],
-  "correctionRound": 2
+  "correctionRound": 3
 }
