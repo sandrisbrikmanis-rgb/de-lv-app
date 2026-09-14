@@ -1,0 +1,3950 @@
+{
+  "batch_id": "LRB-062",
+  "language": "lb",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "13d99569fc4b33fbaf76bc746190e760c958e5bfbbe134d0ac59153b8fe8c7ec",
+  "full_card_replacements": 18,
+  "full_card_object_ids": [
+    "Hand|idx:267",
+    "gut|idx:259",
+    "haben|idx:261",
+    "halten|idx:265",
+    "heißen|idx:276",
+    "hoch|idx:285",
+    "hören|idx:287",
+    "hübsch|idx:288",
+    "ihr|idx:292",
+    "im|idx:293",
+    "ins|idx:296",
+    "in|idx:295",
+    "jung|idx:304",
+    "kein|idx:308",
+    "kennen|idx:310",
+    "kosten|idx:320",
+    "können|idx:319",
+    "wissen|idx:311"
+  ],
+  "classification": "LRB_062_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "Gurke|idx:258",
+      "de_reference": "Gurke",
+      "idx": 258,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Gurke",
+        "de_article": "die",
+        "de_plural": "die Gurken",
+        "level": "A1",
+        "lv": "Kornischong"
+      }
+    },
+    {
+      "card_object_id": "gut|idx:259",
+      "de_reference": "gut",
+      "idx": 259,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "gut",
+        "level": "A1",
+        "lv": "gutt",
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "gutt",
+          "explanation": [
+            "Haaptiddi: gut ass en Adjektiv oder Adverb a bedeit jee no Kontext gutt, erfollegräich oder an der Rei.",
+            "gut beschreift Qualitéit, Gesondheet oder wéi eppes verleeft: Es geht mir gut. = Et geet mir gutt.",
+            "An de Begréissunge Guten Morgen!, Guten Tag! a Guten Abend! kritt gut d’Endung -en.",
+            "Wann gut e Verb beschreift, ass et en Adverb: gut schwimmen = gutt schwammen.",
+            "Net mat das Gut verwiesselen: mat groussem Buschtaf an Artikel ass et e Substantiv, zum Beispill Besëtz oder Landgut."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "D’Iessen ass gutt."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Wéi geet et dir? – Gutt, merci!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "Hie schwätzt gutt Däitsch."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Gudde Moien!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "Dat ass eng gutt Iddi."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Alles ass gutt."
+            }
+          ],
+          "tip": [
+            "gut ouni Artikel ass en Adjektiv oder Adverb: gutt.",
+            "das Gut mat Artikel a groussem Buschtaf ass e Substantiv an en anert Wuert."
+          ],
+          "important": [
+            "gut = gutt als Adjektiv oder Adverb.",
+            "das Gut = Besëtz oder Landgut; net mat gut verwiesselen.",
+            "Bei Guten Morgen, Guten Tag a Guten Abend huet gut d’Endung -en."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gut"
+              ],
+              "purple": [
+                "gutt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gutt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Gutt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gutt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Guten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Gudde"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gute"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gutt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gutt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "gut"
+                ]
+              },
+              {
+                "purple": [
+                  "das"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "gut"
+                ]
+              },
+              {
+                "purple": [
+                  "das"
+                ]
+              },
+              {
+                "purple": [
+                  "Bei"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Haar|idx:260",
+      "de_reference": "Haar",
+      "idx": 260,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Haar",
+        "de_article": "das",
+        "de_plural": "die Haare",
+        "level": "A1",
+        "lv": "Hoer"
+      }
+    },
+    {
+      "card_object_id": "haben|idx:261",
+      "de_reference": "haben",
+      "idx": 261,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "haben",
+        "level": "A1",
+        "lv": "hunn",
+        "study": {
+          "id": "a1-haben",
+          "layout": "standardStudy",
+          "translation": "hunn",
+          "explanation": [
+            "Haaptiddi: haben ass dat däitscht Verb fir Besëtz oder Zoustand; op Lëtzebuergesch ass dat hunn.",
+            "Am Däitsche steet de Besëtzer am Nominativ: Ich habe ..., Du hast ..., Er hat ....",
+            "Nom Verb haben steet den Objet am Akkusativ: Ich habe ein Auto.",
+            "haben gëtt och als Hëllefsverb am Perfekt gebraucht: Ich habe gelernt."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe ein Auto.",
+              "lv": "Ech hunn en Auto."
+            },
+            {
+              "de": "Hast du Zeit?",
+              "lv": "Hues du Zäit?"
+            },
+            {
+              "de": "Wir haben Hunger.",
+              "lv": "Mir hunn Honger."
+            },
+            {
+              "de": "Ich habe das gemacht.",
+              "lv": "Ech hunn dat gemaach."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "haben",
+              "meaning": "hunn",
+              "example": "Ich habe Zeit. = Ech hunn Zäit."
+            },
+            {
+              "word": "sein",
+              "meaning": "sinn",
+              "example": "Ich bin hier. = Ech sinn hei."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "kréien",
+              "example": "Ich bekomme ein Geschenk. = Ech kréien e Kaddo."
+            },
+            {
+              "word": "machen",
+              "meaning": "maachen",
+              "example": "Ich mache das. = Ech maachen dat."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Ich habe entsprécht Ech hunn."
+          },
+          "important": [
+            "Am Däitschen: Ich habe + Akkusativ, net *mir habe.",
+            "Mir ist kalt benotzt sein an den Dativ; dat ass net haben.",
+            "Am Perfekt: Ich habe gelernt = Ech hu geléiert."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "haben"
+              ],
+              "purple": [
+                "hunn"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "habe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hunn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Hast"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hues"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "haben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hunn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "habe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hunn"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "Am"
+                ]
+              },
+              {
+                "purple": [
+                  "Mir"
+                ]
+              },
+              {
+                "purple": [
+                  "Am"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "haben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "hunn"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sinn"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bekommen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kréien"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "machen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "maachen"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "halb|idx:262",
+      "de_reference": "halb",
+      "idx": 262,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "halb",
+        "level": "A1",
+        "lv": "hallef"
+      }
+    },
+    {
+      "card_object_id": "Hälfte|idx:263",
+      "de_reference": "Hälfte",
+      "idx": 263,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Hälfte",
+        "de_article": "die",
+        "de_plural": "die Hälften",
+        "level": "A1",
+        "lv": "Hallschent"
+      }
+    },
+    {
+      "card_object_id": "Hals|idx:264",
+      "de_reference": "Hals",
+      "idx": 264,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Hals",
+        "de_article": "der",
+        "de_plural": "die Hälse",
+        "level": "A1",
+        "lv": "Hals"
+      }
+    },
+    {
+      "card_object_id": "halten|idx:265",
+      "de_reference": "halten",
+      "idx": 265,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "halten",
+        "level": "A1",
+        "lv": "halen",
+        "study": {
+          "id": "a1-halten",
+          "layout": "standardStudy",
+          "translation": "halen",
+          "explanation": [
+            "Haaptiddi: halten bedeit meeschtens eppes halen.",
+            "Bei engem Bus, Zuch oder aneren Transportmëttel kann halten och stoe bleiwen oder eng Haltestell maachen bedeiten.",
+            "Dat trennbaart Verb anhalten bedeit unhalen oder stoppen.",
+            "D’Konstruktioun etwas für ... halten bedeit eppes fir eppes halen."
+          ],
+          "examples": [
+            {
+              "de": "Ich halte die Tasche.",
+              "lv": "Ech halen d’Täsch."
+            },
+            {
+              "de": "Der Bus hält hier.",
+              "lv": "De Bus hält hei."
+            },
+            {
+              "de": "Bitte halten Sie an.",
+              "lv": "Haalt wgl. un."
+            },
+            {
+              "de": "Ich halte das für richtig.",
+              "lv": "Ech halen dat fir richteg."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "halten",
+              "meaning": "halen • beim Transport och stoe bleiwen",
+              "example": "Der Bus hält. = De Bus hält."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "huelen",
+              "example": "Ich nehme die Tasche. = Ech huelen d’Täsch."
+            },
+            {
+              "word": "anhalten",
+              "meaning": "unhalen • stoppen",
+              "example": "Bitte halten Sie an. = Haalt wgl. un."
+            },
+            {
+              "word": "denken",
+              "meaning": "denken",
+              "example": "Ich denke, das ist richtig. = Ech denken, dat ass richteg."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: en Objet halen; e Gefier hält; fir aktiv ze stoppen, anhalten."
+          },
+          "important": [
+            "halten bedeit meeschtens halen.",
+            "Der Bus hält bedeit: De Bus bleift stoen.",
+            "A Bitte halten Sie an gëtt dat trennbaart Verb anhalten gebraucht."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "halten"
+              ],
+              "purple": [
+                "halen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "halte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "halen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hält"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hält"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "halten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Haalt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "halte"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "halen"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "halten"
+                ]
+              },
+              {
+                "purple": [
+                  "Der"
+                ]
+              },
+              {
+                "purple": [
+                  "A"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "halten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "halen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "huelen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "anhalten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "unhalen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "denken"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "denken"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Hand|idx:267",
+      "de_reference": "Hand",
+      "idx": 267,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Hand",
+        "de_article": "die",
+        "de_plural": "die Hände",
+        "level": "A1",
+        "lv": "Hand",
+        "study": {
+          "id": "a1-hand-study",
+          "layout": "standardStudy",
+          "translation": "Hand",
+          "explanation": [
+            "Haaptiddi: die Hand bedeit Hand.",
+            "Am Däitschen an am Lëtzebuergesche sinn Arm an Hand zwee verschidde Wierder.",
+            "D’Hand ass den Deel vum Aarm mat der Handfläch an de Fangeren."
+          ],
+          "examples": [
+            {
+              "de": "Ich wasche meine Hände.",
+              "lv": "Ech wäschen meng Hänn."
+            },
+            {
+              "de": "Sie hält das Glas in der Hand.",
+              "lv": "Si hält d’Glas an der Hand."
+            },
+            {
+              "de": "Mein Arm tut weh.",
+              "lv": "Mäin Aarm deet wéi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Hand",
+              "meaning": "Hand",
+              "example": "in der Hand – an der Hand"
+            },
+            {
+              "word": "der Arm",
+              "meaning": "Aarm",
+              "example": "Mein Arm tut weh. – Mäin Aarm deet wéi."
+            }
+          ],
+          "tip": [
+            "Hand = Handfläch a Fangeren.",
+            "Arm = Kierperdeel vun der Schëller bis bei d’Hand."
+          ],
+          "important": [
+            "Hand an Arm sinn am Däitschen net dat selwecht Wuert."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Hand"
+              ],
+              "purple": [
+                "Hand"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Hände"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hänn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Hand"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hand"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Arm"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Aarm"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Hand"
+                ]
+              },
+              {
+                "purple": [
+                  "Arm"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "Hand"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Hand"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Hand"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Arm"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Aarm"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Handschuh|idx:268",
+      "de_reference": "Handschuh",
+      "idx": 268,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Handschuh",
+        "de_article": "der",
+        "de_plural": "die Handschuhe",
+        "level": "A1",
+        "lv": "Händsch"
+      }
+    },
+    {
+      "card_object_id": "Handtasche|idx:269",
+      "de_reference": "Handtasche",
+      "idx": 269,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Handtasche",
+        "de_article": "die",
+        "de_plural": "die Handtaschen",
+        "level": "A1",
+        "lv": "Handtäsch"
+      }
+    },
+    {
+      "card_object_id": "Handtuch|idx:270",
+      "de_reference": "Handtuch",
+      "idx": 270,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Handtuch",
+        "de_article": "das",
+        "de_plural": "die Handtücher",
+        "level": "A1",
+        "lv": "Handduch"
+      }
+    },
+    {
+      "card_object_id": "Hauptstadt|idx:272",
+      "de_reference": "Hauptstadt",
+      "idx": 272,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Hauptstadt",
+        "de_article": "die",
+        "de_plural": "die Hauptstädte",
+        "level": "A1",
+        "lv": "Haaptstad"
+      }
+    },
+    {
+      "card_object_id": "Heft|idx:273",
+      "de_reference": "Heft",
+      "idx": 273,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Heft",
+        "de_article": "das",
+        "de_plural": "die Hefte",
+        "level": "A1",
+        "lv": "Heft"
+      }
+    },
+    {
+      "card_object_id": "heiraten|idx:274",
+      "de_reference": "heiraten",
+      "idx": 274,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "heiraten",
+        "level": "A1",
+        "lv": "bestueden"
+      }
+    },
+    {
+      "card_object_id": "heiß|idx:275",
+      "de_reference": "heiß",
+      "idx": 275,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "heiß",
+        "level": "A1",
+        "lv": "waarm"
+      }
+    },
+    {
+      "card_object_id": "heißen|idx:276",
+      "de_reference": "heißen",
+      "idx": 276,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "heißen",
+        "level": "A1",
+        "lv": "heeschen",
+        "study": {
+          "id": "a1-heißen",
+          "layout": "standardStudy",
+          "translation": "heeschen",
+          "explanation": [
+            "Haaptiddi: heißen gëtt meeschtens gebraucht, fir ze soen, wéi een heescht.",
+            "Ich heiße ... bedeit Ech heeschen ....",
+            "Bei Wierder oder Ausdréck kann heißen och bedeiten heeschen oder bedeiten.",
+            "Um Niveau A1 ass Wie heißt du? déi wichtegst Fro."
+          ],
+          "examples": [
+            {
+              "de": "Ich heiße Anna.",
+              "lv": "Ech heeschen Anna."
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Wéi heeschs du?"
+            },
+            {
+              "de": "Wie heißt das auf Deutsch?",
+              "lv": "Wéi heescht dat op Däitsch?"
+            },
+            {
+              "de": "Was heißt das?",
+              "lv": "Wat heescht dat?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "heißen",
+              "meaning": "heeschen • bedeiten",
+              "example": "Ich heiße Anna. = Ech heeschen Anna."
+            },
+            {
+              "word": "nennen",
+              "meaning": "nennen",
+              "example": "Er nennt mich Tom. = Hie nennt mech Tom."
+            },
+            {
+              "word": "bedeuten",
+              "meaning": "bedeiten",
+              "example": "Was bedeutet das? = Wat bedeit dat?"
+            },
+            {
+              "word": "rufen",
+              "meaning": "ruffen",
+              "example": "Ich rufe dich. = Ech ruffen dech."
+            },
+            {
+              "word": "anrufen",
+              "meaning": "uruffen",
+              "example": "Ich rufe dich an. = Ech ruffen dech un."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Ich heiße ... = Ech heeschen ...."
+          },
+          "important": [
+            "Wie heißt du? freet nom Numm.",
+            "Was heißt das? freet dacks no der Bedeitung."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "heißen"
+              ],
+              "purple": [
+                "heeschen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "heiße"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "heeschen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "heeschs"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "heescht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "heißt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "heescht"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "Wie"
+                ]
+              },
+              {
+                "purple": [
+                  "Was"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "heißen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "heeschen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "nennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "nennen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bedeuten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bedeiten"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "rufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ruffen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "anrufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uruffen"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "helfen|idx:277",
+      "de_reference": "helfen",
+      "idx": 277,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "helfen",
+        "level": "A1",
+        "lv": "hëllefen"
+      }
+    },
+    {
+      "card_object_id": "Hemd|idx:278",
+      "de_reference": "Hemd",
+      "idx": 278,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Hemd",
+        "de_article": "das",
+        "de_plural": "die Hemden",
+        "level": "A1",
+        "lv": "Hiem"
+      }
+    },
+    {
+      "card_object_id": "Herbst|idx:279",
+      "de_reference": "Herbst",
+      "idx": 279,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Herbst",
+        "de_article": "der",
+        "de_plural": "die Herbste",
+        "level": "A1",
+        "lv": "Hierscht"
+      }
+    },
+    {
+      "card_object_id": "Herr|idx:280",
+      "de_reference": "Herr",
+      "idx": 280,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Herr",
+        "de_article": "der",
+        "de_plural": "die Herren",
+        "level": "A1",
+        "lv": "Här"
+      }
+    },
+    {
+      "card_object_id": "hier|idx:282",
+      "de_reference": "hier",
+      "idx": 282,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "hier",
+        "level": "A1",
+        "lv": "hei"
+      }
+    },
+    {
+      "card_object_id": "hinter|idx:284",
+      "de_reference": "hinter",
+      "idx": 284,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "hinter",
+        "level": "A1",
+        "lv": "hannert"
+      }
+    },
+    {
+      "card_object_id": "hoch|idx:285",
+      "de_reference": "hoch",
+      "idx": 285,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "hoch",
+        "level": "A1",
+        "lv": "héich",
+        "study": {
+          "id": "a1-hoch-study",
+          "layout": "standardStudy",
+          "translation": "héich",
+          "explanation": [
+            "Haaptiddi: hoch bedeit héich.",
+            "hoch beschreift eng vertikal Héicht oder en héijen Niveau.",
+            "Et gëtt zum Beispill fir e Bierg, eng Mauer, e Präis, eng Temperatur oder eng Zuel gebraucht."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "De Bierg ass héich."
+            },
+            {
+              "de": "Das Regal ist zwei Meter hoch.",
+              "lv": "D’Regal ass zwee Meter héich."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "De Loyer ass héich."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "D’Mauer ass héich."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "D’Präisser sinn héich."
+            }
+          ],
+          "tip": [
+            "Vertikal Héicht oder héijen Niveau: hoch.",
+            "Fir d’Kierpergréisst vun enger Persoun gëtt normalerweis groß gebraucht."
+          ],
+          "important": [
+            "Der Berg ist hoch = De Bierg ass héich.",
+            "Er ist groß = Hien ass grouss.",
+            "Fir d’Kierpergréisst vun enger Persoun gëtt normalerweis net hoch gebraucht."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "hoch"
+              ],
+              "purple": [
+                "héich"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "héich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "héich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "héich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "héich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hoch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "héich"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Vertikal"
+                ]
+              },
+              {
+                "purple": [
+                  "Fir"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "Der"
+                ]
+              },
+              {
+                "purple": [
+                  "Er"
+                ]
+              },
+              {
+                "purple": [
+                  "Fir"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "höflich|idx:286",
+      "de_reference": "höflich",
+      "idx": 286,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "höflich",
+        "level": "A1",
+        "lv": "héiflech"
+      }
+    },
+    {
+      "card_object_id": "hören|idx:287",
+      "de_reference": "hören",
+      "idx": 287,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "hören",
+        "level": "A1",
+        "lv": "héieren • lauschteren",
+        "study": {
+          "id": "a1-hoeren-study",
+          "layout": "standardStudy",
+          "translation": "héieren • lauschteren",
+          "explanation": [
+            "Haaptiddi: hören kann eng Tounwahrnehmung oder bewosst Nolauschtere bezeechnen.",
+            "Fir eng Tounwahrnehmung steet op Lëtzebuergesch héieren.",
+            "Bei Musek oder enger Geschicht kann op Lëtzebuergesch lauschteren oder nolauschteren stoen.",
+            "De Kontext entscheet tëscht héieren a lauschteren."
+          ],
+          "examples": [
+            {
+              "de": "Ich höre Musik.",
+              "lv": "Ech lauschtere Musek."
+            },
+            {
+              "de": "Die Kinder hören eine Geschichte.",
+              "lv": "D’Kanner lauschteren enger Geschicht no."
+            },
+            {
+              "de": "Ich höre dich.",
+              "lv": "Ech héieren dech."
+            }
+          ],
+          "tip": [
+            "Eng Tounwahrnehmung: héieren.",
+            "Bewosst Musek oder enger Geschicht nolauschteren: lauschteren oder nolauschteren."
+          ],
+          "important": [
+            "hören kann jee no Kontext héieren oder lauschteren bedeiten.",
+            "De Saz weist, ob et ëm Wahrnehmung oder bewosst Nolauschtere geet."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "hören"
+              ],
+              "purple": [
+                "héieren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "höre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lauschtere"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hören"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lauschteren"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "höre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "héieren"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Eng"
+                ]
+              },
+              {
+                "purple": [
+                  "Bewosst"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "hören"
+                ]
+              },
+              {
+                "purple": [
+                  "De"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "hübsch|idx:288",
+      "de_reference": "hübsch",
+      "idx": 288,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "hübsch",
+        "level": "A1",
+        "lv": "schéin",
+        "study": {
+          "id": "a1-huebsch",
+          "layout": "standardStudy",
+          "translation": "schéin",
+          "explanation": [
+            "Haaptiddi: hübsch beschreift en attraktivt oder agreabelt Ausgesinn.",
+            "hübsch gëtt dacks fir d’Ausgesi vun enger Persoun, engem Kleed, engem Raum oder engem Géigestand gebraucht.",
+            "Am Lëtzebuergesche gëtt dat an dëse Kontexter meeschtens mat schéin ausgedréckt.",
+            "Fir e léiwe Charakter oder frëndlecht Verhalen ass am Däitschen nett meeschtens méi passend."
+          ],
+          "examples": [
+            {
+              "de": "Sie trägt ein hübsches Kleid.",
+              "lv": "Si huet e schéint Kleed un."
+            },
+            {
+              "de": "Das Zimmer ist hübsch.",
+              "lv": "D’Zëmmer ass schéin."
+            },
+            {
+              "de": "Das ist ein hübsches Bild.",
+              "lv": "Dat ass e schéint Bild."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "hübsch",
+              "meaning": "schéin • attraktiv vum Ausgesinn",
+              "example": "Das ist ein hübsches Kleid. – Dat ass e schéint Kleed."
+            },
+            {
+              "word": "schön",
+              "meaning": "schéin • agreabel",
+              "example": "Der Garten ist schön. – De Gaart ass schéin."
+            },
+            {
+              "word": "nett",
+              "meaning": "léif • frëndlech",
+              "example": "Sie ist sehr nett. – Si ass ganz léif."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: hübsch beschreift virun allem e schéint Ausgesinn; nett éischter e léiwe Mënsch oder frëndlecht Verhalen."
+          },
+          "important": [
+            "hübsch ass net fir all Bedeitung vu léif oder flott passend.",
+            "Fir Charakter oder frëndlecht Verhalen ass nett normalerweis méi passend."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "hübsch"
+              ],
+              "purple": [
+                "schéin"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "hübsches"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schéint"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hübsch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schéin"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "hübsches"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schéint"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "hübsch"
+                ]
+              },
+              {
+                "purple": [
+                  "Fir"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "hübsch"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "schéin"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "schön"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "schéin"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "nett"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "léif"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "hungrig|idx:290",
+      "de_reference": "hungrig",
+      "idx": 290,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "hungrig",
+        "level": "A1",
+        "lv": "hongereg"
+      }
+    },
+    {
+      "card_object_id": "ihr|idx:292",
+      "de_reference": "ihr",
+      "idx": 292,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "ihr",
+        "level": "A1",
+        "lv": "dir • hir",
+        "study": {
+          "id": "a1-ihr",
+          "layout": "standardStudy",
+          "translation": "dir • hir",
+          "explanation": [
+            "Haaptiddi: ihr huet am Däitschen dräi heefeg Funktiounen: Usprooch vu méi Leit, Dativ vu sie a Possessivartikel.",
+            "Als Usprooch vu méi Leit entsprécht ihr dem lëtzebuergeschen dir.",
+            "Als Dativform vu sie entsprécht ihr dem lëtzebuergeschen hir.",
+            "Als Possessivartikel bedeit ihr jee no Form hir, hiren oder hiert.",
+            "D’Verbform kommt oder habt weist op d’Usprooch vu méi Leit hin.",
+            "Déi héiflech Usprooch ass am Däitschen ëmmer Sie mat groussem Buschtaf, net ihr."
+          ],
+          "examples": [
+            {
+              "de": "Kommt ihr heute Abend?",
+              "lv": "Kommt dir den Owend?"
+            },
+            {
+              "de": "Ich gebe ihr das Buch.",
+              "lv": "Ech ginn hir d’Buch."
+            },
+            {
+              "de": "Wo wohnt ihr?",
+              "lv": "Wou wunnt dir?"
+            },
+            {
+              "de": "Er schreibt ihr einen Brief.",
+              "lv": "Hie schreift hir e Bréif."
+            },
+            {
+              "de": "Habt ihr Zeit?",
+              "lv": "Hutt dir Zäit?"
+            },
+            {
+              "de": "Das ist ihr Auto.",
+              "lv": "Dat ass hiren Auto."
+            }
+          ],
+          "tip": [
+            "ihr mat enger Verbform wéi kommt oder habt = dir, Usprooch vu méi Leit.",
+            "Ich gebe ihr ... = hir; ihr Buch oder ihr Auto weist Besëtz un."
+          ],
+          "important": [
+            "ihr = dir ODER hir/hiren/hiert; de Kontext entscheet.",
+            "Déi héiflech däitsch Usprooch ass Sie mat groussem Buschtaf.",
+            "Fir eng héiflech Usprooch ass Ihr eleng net déi richteg Perséinlechpronomform."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ihr"
+              ],
+              "purple": [
+                "dir"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hiren"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "ihr"
+                ]
+              },
+              {
+                "purple": [
+                  "Ich"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "ihr"
+                ]
+              },
+              {
+                "purple": [
+                  "Déi"
+                ]
+              },
+              {
+                "purple": [
+                  "Fir"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "im|idx:293",
+      "de_reference": "im",
+      "idx": 293,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "im",
+        "level": "A1",
+        "lv": "am • wou?",
+        "study": {
+          "id": "a1-im",
+          "layout": "standardStudy",
+          "translation": "am • wou?",
+          "explanation": [
+            "im ass d’Zesummenzéiung vun der däitscher Präpositioun in an dem Artikel dem.",
+            "Déi voll Form ass in dem.",
+            "im steet bei engem maskulinen oder neutrale Substantiv am Dativ a bezeechent meeschtens eng Plaz: wou?",
+            "Et gëtt och bei Méint a Joreszäite gebraucht: im Januar, im Sommer, im Winter.",
+            "Am Däitsche gëtt bal ëmmer im amplaz vun in dem gebraucht."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin im Park.",
+              "lv": "Ech sinn am Park."
+            },
+            {
+              "de": "Wir wohnen im Zentrum.",
+              "lv": "Mir wunnen am Zentrum."
+            },
+            {
+              "de": "Im Sommer ist es warm.",
+              "lv": "Am Summer ass et waarm."
+            },
+            {
+              "de": "Er arbeitet im Büro.",
+              "lv": "Hie schafft am Büro."
+            },
+            {
+              "de": "Das Kind spielt im Garten.",
+              "lv": "D’Kand spillt am Gaart."
+            },
+            {
+              "de": "Im Januar fahre ich nach Wien.",
+              "lv": "Am Januar fueren ech op Wien."
+            },
+            {
+              "de": "Sie ist im Kino.",
+              "lv": "Si ass am Kino."
+            },
+            {
+              "de": "Wir treffen uns im Restaurant.",
+              "lv": "Mir treffen eis am Restaurant."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "im",
+              "meaning": "am • Plaz, wou?",
+              "example": "im Park – am Park"
+            },
+            {
+              "word": "ins",
+              "meaning": "an • Richtung, wouhin?",
+              "example": "ins Kino – an de Kino"
+            },
+            {
+              "word": "in",
+              "meaning": "zu oder an • ouni Zesummenzéiung",
+              "example": "in Berlin – zu Berlin"
+            },
+            {
+              "word": "am",
+              "meaning": "bei • däitsch an dem",
+              "example": "am Fenster – bei der Fënster"
+            },
+            {
+              "word": "auf",
+              "meaning": "op • Uewerfläch",
+              "example": "auf dem Tisch – um Dësch"
+            }
+          ],
+          "tip": [
+            "Denk drun: Däitsch in + dem gëtt im a beäntwert bei enger Plaz wou?.",
+            "Richtung: ins; fest Plaz: im."
+          ],
+          "important": [
+            "im = in dem; et steet bei engem maskulinen oder neutrale Substantiv am Dativ.",
+            "im bezeechent eng Plaz, net eng Richtung.",
+            "Bei Méint a Joreszäiten: im März, im Herbst.",
+            "Bei engem feminine Wuert: in der Schule, net *im Schule."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "im"
+              ],
+              "purple": [
+                "am"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "am"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "am"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Am"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "am"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "am"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Am"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "am"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "am"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Denk"
+                ]
+              },
+              {
+                "purple": [
+                  "Richtung"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "im"
+                ]
+              },
+              {
+                "purple": [
+                  "im"
+                ]
+              },
+              {
+                "purple": [
+                  "Bei"
+                ]
+              },
+              {
+                "purple": [
+                  "Bei"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "am"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "an"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zu"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "in|idx:295",
+      "de_reference": "in",
+      "idx": 295,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "in",
+        "level": "A1",
+        "lv": "an • zu",
+        "study": {
+          "id": "a1-in",
+          "layout": "standardStudy",
+          "translation": "an • zu",
+          "explanation": [
+            "Haaptiddi: déi däitsch Präpositioun in kann eng Plaz oder eng Richtung an en Innenraum bezeechnen.",
+            "Bei enger fester Plaz gëtt in op Lëtzebuergesch jee no Kontext mat an, am oder zu ausgedréckt.",
+            "Bei enger Bewegung no bannen gëtt in op Lëtzebuergesch meeschtens mat an ausgedréckt.",
+            "Déi genee lëtzebuergesch Präpositioun hänkt vum Substantiv a vum Kontext of."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin in Berlin.",
+              "lv": "Ech sinn zu Berlin."
+            },
+            {
+              "de": "Ich gehe in die Schule.",
+              "lv": "Ech ginn an d’Schoul."
+            },
+            {
+              "de": "Das Buch ist in der Tasche.",
+              "lv": "D’Buch ass an der Täsch."
+            },
+            {
+              "de": "Wir gehen ins Kino.",
+              "lv": "Mir ginn an de Kino."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: in bezeechent dacks eng Plaz oder eng Bewegung an en Innenraum; d’lëtzebuergesch Präpositioun ass kontextofhängeg."
+          },
+          "important": [
+            "in gëtt net an all Kontext mam selwechte lëtzebuergesche Wuert iwwersat.",
+            "Bei enger Uewerfläch steet am Däitschen dacks auf amplaz vun in."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "in"
+              ],
+              "purple": [
+                "an"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "in"
+                ]
+              },
+              {
+                "purple": [
+                  "Bei"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "ins|idx:296",
+      "de_reference": "ins",
+      "idx": 296,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "ins",
+        "level": "A1",
+        "lv": "an • wouhin?",
+        "study": {
+          "id": "a1-ins",
+          "layout": "standardStudy",
+          "translation": "an • wouhin?",
+          "explanation": [
+            "ins ass d’Zesummenzéiung vun der däitscher Präpositioun in an dem Artikel das.",
+            "Déi voll Form ass in das.",
+            "ins steet bei engem neutrale Substantiv am Akkusativ a bezeechent eng Bewegung no bannen: wouhin?",
+            "Et steet dacks mat Verbe wéi gehen, fahren, kommen, legen a stecken.",
+            "Am Däitsche gëtt bal ëmmer ins amplaz vun in das gebraucht."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe ins Kino.",
+              "lv": "Ech ginn an de Kino."
+            },
+            {
+              "de": "Sie geht ins Bett.",
+              "lv": "Si geet an d’Bett."
+            },
+            {
+              "de": "Wir fahren ins Ausland.",
+              "lv": "Mir fueren an d’Ausland."
+            },
+            {
+              "de": "Komm ins Haus!",
+              "lv": "Komm an d’Haus!"
+            },
+            {
+              "de": "Er steckt das Geld in den Geldbeutel.",
+              "lv": "Hie stécht d’Suen an de Portmonni."
+            },
+            {
+              "de": "Wir gehen ins Museum.",
+              "lv": "Mir ginn an de Musée."
+            },
+            {
+              "de": "Sie legt die Blumen ins Wasser.",
+              "lv": "Si leet d’Blummen an d’Waasser."
+            },
+            {
+              "de": "Fahr bitte ins Zentrum.",
+              "lv": "Fuer wgl. an den Zentrum."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ins",
+              "meaning": "an • Richtung, wouhin?",
+              "example": "ins Kino – an de Kino"
+            },
+            {
+              "word": "im",
+              "meaning": "am • Plaz, wou?",
+              "example": "im Kino – am Kino"
+            },
+            {
+              "word": "in",
+              "meaning": "an • mat eegestännegem Artikel",
+              "example": "in die Stadt – an d’Stad"
+            },
+            {
+              "word": "aufs",
+              "meaning": "op • op eng Uewerfläch",
+              "example": "aufs Dach – op den Daach"
+            },
+            {
+              "word": "zum",
+              "meaning": "bei • zu enger Persoun",
+              "example": "zum Arzt – bei den Dokter"
+            }
+          ],
+          "tip": [
+            "Denk drun: Däitsch in + das gëtt ins a weist eng Richtung un.",
+            "Richtung: ins; fest Plaz: im."
+          ],
+          "important": [
+            "ins = in das; et steet bei engem neutrale Substantiv am Akkusativ.",
+            "ins bezeechent eng Bewegung, net eng fest Plaz.",
+            "Maskulin: in den Wald; feminin: in die Schule.",
+            "ins Kino gehen ass Richtung; im Kino sein ass eng fest Plaz."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ins"
+              ],
+              "purple": [
+                "an"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "in den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an de"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ins"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "an den"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Denk"
+                ]
+              },
+              {
+                "purple": [
+                  "Richtung"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "ins"
+                ]
+              },
+              {
+                "purple": [
+                  "ins"
+                ]
+              },
+              {
+                "purple": [
+                  "Maskulin"
+                ]
+              },
+              {
+                "purple": [
+                  "ins"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "an"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "am"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "an"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "ja|idx:297",
+      "de_reference": "ja",
+      "idx": 297,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "ja",
+        "level": "A1",
+        "lv": "jo"
+      }
+    },
+    {
+      "card_object_id": "Januar|idx:298",
+      "de_reference": "Januar",
+      "idx": 298,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Januar",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Januar"
+      }
+    },
+    {
+      "card_object_id": "jemand|idx:301",
+      "de_reference": "jemand",
+      "idx": 301,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "jemand",
+        "level": "A1",
+        "lv": "een"
+      }
+    },
+    {
+      "card_object_id": "Juli|idx:303",
+      "de_reference": "Juli",
+      "idx": 303,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Juli",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Juli"
+      }
+    },
+    {
+      "card_object_id": "jung|idx:304",
+      "de_reference": "jung",
+      "idx": 304,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "jung",
+        "level": "A1",
+        "lv": "jonk",
+        "study": {
+          "id": "a1-jung",
+          "layout": "standardStudy",
+          "translation": "jonk",
+          "explanation": [
+            "Haaptiddi: jung bedeit jonk am Alter a gëtt fir Mënschen an Déiere gebraucht.",
+            "jung beschreift den Alter; de Géigendeel ass alt.",
+            "Dat däitscht jung ass net dat selwecht wéi neu fir eng nei oder rezent hiergestallt Saach.",
+            "Fir Saachen, déi nei kaaft oder nei hiergestallt sinn, gëtt neu gebraucht.",
+            "jung kann och am iwwerdroene Sënn stoen, zum Beispill jonk Generatioun oder jonkt Koppel.",
+            "Et gëtt och d’Substantiv die Jugend."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist noch jung.",
+              "lv": "Si ass nach jonk."
+            },
+            {
+              "de": "Der Hund ist jung.",
+              "lv": "Den Hond ass jonk."
+            },
+            {
+              "de": "Wir sind noch jung.",
+              "lv": "Mir sinn nach jonk."
+            },
+            {
+              "de": "Er sieht sehr jung aus.",
+              "lv": "Hie gesäit ganz jonk aus."
+            },
+            {
+              "de": "Das ist ein junges Paar.",
+              "lv": "Dat ass eng jonk Koppel."
+            },
+            {
+              "de": "Die junge Frau lächelt.",
+              "lv": "Déi jonk Fra laacht."
+            },
+            {
+              "de": "Mein Bruder ist jünger als ich.",
+              "lv": "Mäi Brudder ass méi jonk wéi ech."
+            }
+          ],
+          "tip": [
+            "jung ass fir den Alter vu Mënschen oder Déieren; fir eng nei Saach gëtt neu gebraucht.",
+            "Géigendeel: jung an alt."
+          ],
+          "important": [
+            "jung beschreift Alter, net d’Neiheet vun enger Saach.",
+            "Fir en neien Telefon, Auto oder Haus: neu, net jung.",
+            "Falsch: Mein Handy ist jung. Richteg: Mein Handy ist neu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "jung"
+              ],
+              "purple": [
+                "jonk"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "junges"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "junge"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jünger"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "méi jonk"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "jung"
+                ]
+              },
+              {
+                "purple": [
+                  "Géigendeel"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "jung"
+                ]
+              },
+              {
+                "purple": [
+                  "Fir"
+                ]
+              },
+              {
+                "purple": [
+                  "Falsch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Juni|idx:305",
+      "de_reference": "Juni",
+      "idx": 305,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Juni",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Juni"
+      }
+    },
+    {
+      "card_object_id": "Jeans|idx:306",
+      "de_reference": "Jeans",
+      "idx": 306,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Jeans",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Jeans"
+      }
+    },
+    {
+      "card_object_id": "kaufen|idx:307",
+      "de_reference": "kaufen",
+      "idx": 307,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "kaufen",
+        "level": "A1",
+        "lv": "kafen"
+      }
+    },
+    {
+      "card_object_id": "kein|idx:308",
+      "de_reference": "kein",
+      "idx": 308,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "kein",
+        "level": "A1",
+        "lv": "keen • keng",
+        "study": {
+          "id": "a1-kein",
+          "layout": "standardStudy",
+          "translation": "keen • keng",
+          "explanation": [
+            "Haaptiddi: kein ass en däitschen Negatiounsartikel, deen e Substantiv verneint.",
+            "kein gëtt wéi ein deklinéiert: kein, keine, keinen an aner Formen; et steet virum Substantiv.",
+            "Bei zielbare Persoune kann kein dem lëtzebuergesche keen oder keng entspriechen.",
+            "Bei Stoff- oder abstrakte Substantiver gëtt kein op Lëtzebuergesch dacks duerch keen oder keng an eng negativ Verbform ausgedréckt.",
+            "kein verneint e Substantiv; nicht verneint jee no Kontext en anert Element oder de ganze Saz."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe kein Geld.",
+              "lv": "Ech hu keng Suen."
+            },
+            {
+              "de": "Es gibt keine Milch mehr.",
+              "lv": "Et gëtt keng Mëllech méi."
+            },
+            {
+              "de": "Kein Mensch war da.",
+              "lv": "Kee Mënsch war do."
+            },
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "Ech hu keng Zäit."
+            },
+            {
+              "de": "Das ist kein Problem.",
+              "lv": "Dat ass kee Problem."
+            },
+            {
+              "de": "Wir haben keine Kinder.",
+              "lv": "Mir hu keng Kanner."
+            }
+          ],
+          "tip": [
+            "kein verneint e Substantiv; nicht huet aner Negatiounsfunktiounen.",
+            "Däitsch Formen: kein, keine, keinen, keiner."
+          ],
+          "important": [
+            "kein + Substantiv ass den däitschen Negatiounsartikel.",
+            "Falsch: Ich habe nicht ein Geld. Richteg: Ich habe kein Geld."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kein"
+              ],
+              "purple": [
+                "keen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "keng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "keng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "keng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "keng"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "kein"
+                ]
+              },
+              {
+                "purple": [
+                  "Däitsch"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "kein"
+                ]
+              },
+              {
+                "purple": [
+                  "Falsch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Keks|idx:309",
+      "de_reference": "Keks",
+      "idx": 309,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Keks",
+        "de_article": "der",
+        "de_plural": "die Kekse",
+        "level": "A1",
+        "lv": "Kichelchen"
+      }
+    },
+    {
+      "card_object_id": "kennen|idx:310",
+      "de_reference": "kennen",
+      "idx": 310,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "kennen",
+        "level": "A1",
+        "lv": "kennen",
+        "study": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "kennen",
+          "explanation": [
+            "Haaptiddi: kennen bedeit eng Persoun, Plaz oder Saach aus Erfarung kennen.",
+            "kennen gëtt fir perséinlech Bekanntschaft oder Vertrautheet gebraucht.",
+            "Et steet dacks bei Mënschen, Plazen oder Saachen.",
+            "Fir e Fakt oder eng Informatioun ze wëssen, gëtt am Däitschen wissen gebraucht."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Ech kennen hien."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "Kennt Dir dës Fra?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "Wou hutt dir iech kennegeléiert?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Ech kennen hien."
+            },
+            {
+              "de": "kennen",
+              "lv": "kennen, net wëssen"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "kennen: Persoun, Plaz oder Saach",
+              "example": "Ich kenne ihn. – Ech kennen hien."
+            },
+            {
+              "word": "wissen",
+              "meaning": "wëssen: Fakt oder Informatioun",
+              "example": "Ich weiß seinen Namen. – Ech weess säin Numm."
+            }
+          ],
+          "tip": [
+            "kennen gëtt fir eng Persoun, Plaz oder Saach aus Erfarung gebraucht.",
+            "Fir e Fakt oder eng Informatioun steet wissen."
+          ],
+          "important": [
+            "kennen = eng Persoun oder Plaz kennen.",
+            "kennen a wissen sinn net austauschbar.",
+            "Perséinlech Vertrautheet: kennen; Fakt oder Informatioun: wissen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kennen"
+              ],
+              "purple": [
+                "kennen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kennen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kennen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kennt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennengelernt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kennegeléiert"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kenne"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kennen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kennen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kennen"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "kennen"
+                ]
+              },
+              {
+                "purple": [
+                  "Fir"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "kennen"
+                ]
+              },
+              {
+                "purple": [
+                  "kennen"
+                ]
+              },
+              {
+                "purple": [
+                  "Perséinlech"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "kennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kennen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wëssen"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "wissen|idx:311",
+      "de_reference": "wissen",
+      "idx": 311,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "wissen",
+        "level": "A1",
+        "lv": "wëssen",
+        "study": {
+          "id": "a1-wissen-study",
+          "layout": "standardStudy",
+          "translation": "wëssen",
+          "explanation": [
+            "Haaptiddi: wissen bedeit e Fakt, eng Äntwert oder eng Informatioun wëssen.",
+            "wissen gëtt fir Wëssen iwwer Informatioun a Fakte gebraucht.",
+            "Et steet dacks bei Äntwerten, Daten oder Niewesätz mat Informatioun.",
+            "Fir eng Persoun, Plaz oder Saach aus Erfarung ze kennen, gëtt kennen gebraucht."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß, wo er wohnt.",
+              "lv": "Ech weess, wou hie wunnt."
+            },
+            {
+              "de": "Woher wissen Sie das?",
+              "lv": "Vu wou wësst Dir dat?"
+            },
+            {
+              "de": "Ich weiß die Antwort.",
+              "lv": "Ech weess d’Äntwert."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wissen",
+              "meaning": "wëssen: Fakt oder Informatioun",
+              "example": "Ich weiß, wo er wohnt. – Ech weess, wou hie wunnt."
+            },
+            {
+              "word": "kennen",
+              "meaning": "kennen: Persoun, Plaz oder Saach",
+              "example": "Ich kenne die Stadt. – Ech kennen d’Stad."
+            }
+          ],
+          "tip": [
+            "wissen gëtt fir e Fakt, eng Äntwert oder eng Informatioun gebraucht.",
+            "Fir eng Persoun oder Plaz aus Erfarung steet kennen."
+          ],
+          "important": [
+            "wissen = e Fakt oder eng Informatioun wëssen.",
+            "wissen a kennen sinn net austauschbar.",
+            "Fakt oder Informatioun: wissen; perséinlech Vertrautheet: kennen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wissen"
+              ],
+              "purple": [
+                "wëssen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "weiß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "weess"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wissen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "wësst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "weiß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "weess"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "wissen"
+                ]
+              },
+              {
+                "purple": [
+                  "Fir"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "wissen"
+                ]
+              },
+              {
+                "purple": [
+                  "wissen"
+                ]
+              },
+              {
+                "purple": [
+                  "Fakt"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wëssen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "kennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kennen"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Kindergarten|idx:315",
+      "de_reference": "Kindergarten",
+      "idx": 315,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kindergarten",
+        "de_article": "der",
+        "de_plural": "die Kindergärten",
+        "level": "A1",
+        "lv": "Spillschoul"
+      }
+    },
+    {
+      "card_object_id": "Kirche|idx:316",
+      "de_reference": "Kirche",
+      "idx": 316,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kirche",
+        "de_article": "die",
+        "de_plural": "die Kirchen",
+        "level": "A1",
+        "lv": "Kierch"
+      }
+    },
+    {
+      "card_object_id": "kochen|idx:317",
+      "de_reference": "kochen",
+      "idx": 317,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "kochen",
+        "level": "A1",
+        "lv": "kachen"
+      }
+    },
+    {
+      "card_object_id": "kommen|idx:318",
+      "de_reference": "kommen",
+      "idx": 318,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "kommen",
+        "level": "A1",
+        "lv": "kommen"
+      }
+    },
+    {
+      "card_object_id": "können|idx:319",
+      "de_reference": "können",
+      "idx": 319,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "können",
+        "level": "A1",
+        "lv": "kënnen",
+        "study": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "kënnen",
+          "explanation": [
+            "Haaptiddi: können bedeit eng Fäegkeet oder eng Méiglechkeet ze hunn.",
+            "Bei enger Fäegkeet entsprécht et dem lëtzebuergesche kënnen.",
+            "Bei enger Méiglechkeet gëtt och kënnen gebraucht.",
+            "können ass e Modalverb; dat zweet Verb steet am däitschen Haaptsaz normalerweis um Enn."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Ech kann Däitsch schwätzen."
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "Kanns du mir hëllefen?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "Mir kënnen haut kommen."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "Hie ka gutt schwammen."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "kënnen: Fäegkeet oder Méiglechkeet",
+              "example": "Ich kann schwimmen. = Ech ka schwammen."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "däerfen: Erlaabnis",
+              "example": "Darf ich gehen? = Däerf ech goen?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "mussen: Noutwendegkeet",
+              "example": "Ich muss lernen. = Ech muss léieren."
+            },
+            {
+              "word": "wissen",
+              "meaning": "wëssen: Fakt oder Informatioun",
+              "example": "Ich weiß das. = Ech weess dat."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Fäegkeet oder Méiglechkeet ass können."
+          },
+          "important": [
+            "können ass net dat selwecht wéi dürfen: Fäegkeet oder Méiglechkeet géint Erlaabnis.",
+            "Mat können steet dat zweet Verb am däitschen Haaptsaz normalerweis um Enn: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "können"
+              ],
+              "purple": [
+                "kënnen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kannst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kanns"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "können"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kënnen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ka"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "können"
+                ]
+              },
+              {
+                "purple": [
+                  "Mat"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kënnen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "däerfen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mussen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wëssen"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "kosten|idx:320",
+      "de_reference": "kosten",
+      "idx": 320,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "kosten",
+        "level": "A1",
+        "lv": "kaschten",
+        "study": {
+          "id": "a1-kosten",
+          "layout": "standardStudy",
+          "translation": "kaschten",
+          "explanation": [
+            "Haaptiddi: kosten seet, wéi héich de Präis vun enger Saach ass; op Lëtzebuergesch steet dofir kaschten.",
+            "Et gëtt gebraucht, wann ee freet oder seet, wéi vill eppes kascht; et beschreift net d’Handlung vun enger Persoun, déi bezilt.",
+            "Eng däitsch Fro nom Präis fänkt dacks mat Was kostet ...? un.",
+            "Das kostet 5 Euro entsprécht Dat kascht 5 Euro.",
+            "Wann eng Persoun Sue fir eng Wuer oder Déngschtleeschtung gëtt, steet am Däitschen bezahlen oder zahlen."
+          ],
+          "examples": [
+            {
+              "de": "Das kostet 5 Euro.",
+              "lv": "Dat kascht 5 Euro."
+            },
+            {
+              "de": "Was kostet das?",
+              "lv": "Wat kascht dat?"
+            },
+            {
+              "de": "Wie viel kostet der Pullover?",
+              "lv": "Wéi vill kascht de Pullover?"
+            },
+            {
+              "de": "Das Essen kostet nicht viel.",
+              "lv": "D’Iessen kascht net vill."
+            },
+            {
+              "de": "Ich bezahle die Rechnung.",
+              "lv": "Ech bezuelen d’Rechnung."
+            },
+            {
+              "de": "Kann ich bar bezahlen?",
+              "lv": "Kann ech boer bezuelen?"
+            },
+            {
+              "de": "Er zahlt mit Karte.",
+              "lv": "Hie bezilt mat Kaart."
+            },
+            {
+              "de": "Ich zahle gleich.",
+              "lv": "Ech bezuele gläich."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kosten",
+              "meaning": "kaschten: e Präis hunn",
+              "example": "Das kostet 5 Euro. = Dat kascht 5 Euro."
+            },
+            {
+              "word": "bezahlen",
+              "meaning": "bezuelen: eng Rechnung oder Wuer bezuelen",
+              "example": "Ich bezahle die Rechnung. = Ech bezuelen d’Rechnung."
+            },
+            {
+              "word": "zahlen",
+              "meaning": "bezuelen",
+              "example": "Kann ich bar zahlen? = Kann ech boer bezuelen?"
+            },
+            {
+              "word": "Was kostet...?",
+              "meaning": "Wat kascht ...?",
+              "example": "Was kostet das Buch? = Wat kascht d’Buch?"
+            }
+          ],
+          "tip": [
+            "Fro nom Präis: kosten, zum Beispill Was kostet das?",
+            "Handlung vum Bezuelen: bezahlen oder zahlen."
+          ],
+          "important": [
+            "kosten a bezahlen sinn net synonym: kosten beschreift de Präis; bezahlen d’Bezuelhandlung.",
+            "Am Lëtzebuergesche steet dofir kaschten géint bezuelen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kosten"
+              ],
+              "purple": [
+                "kaschten"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kascht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kascht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kascht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kostet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kascht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bezahle"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bezuelen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bezahlen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bezuelen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zahlt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bezilt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zahle"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bezuele"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Fro"
+                ]
+              },
+              {
+                "purple": [
+                  "Handlung"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "kosten"
+                ]
+              },
+              {
+                "purple": [
+                  "Am"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "kosten"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kaschten"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bezahlen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bezuelen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "zahlen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bezuelen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "Was kostet...?"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Wat"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
