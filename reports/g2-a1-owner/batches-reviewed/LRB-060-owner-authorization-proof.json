@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-060",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-14T14:57:20.646Z",
+  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "row_count": 50,
+  "languages": {
+    "lb": 50
+  },
+  "unique_cards": 50,
+  "scope": "dass..fragen (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "productionSource": "data/lb/a1.js",
+  "input_csv_sha256": "fe16424ff282cb92c4c807024fb92a924e248f122c3395dfa590de1fb04db95b",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-060-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-060-input.csv",
+  "note": "Owner authorization APPROVED. LB batch 3 (post LRB-059). Next LB slice from 7737 pool (559 LB rows remain). GPT-5.6 Luna linguistic review pending. NOT LRB_060_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+}
