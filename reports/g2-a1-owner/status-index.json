@@ -1528,6 +1528,7 @@
       "LRB-060": {
         "verdict": "LRB_060_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "status": "LINGUISTICALLY_CLOSED",
+        "classification": "LRB_060_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "labot": 49,
         "nelabot": 1,
         "pending": 0,
@@ -1564,13 +1565,20 @@
       "pending": 0,
       "antiBulkPass": true,
       "residualAuditPass": true,
+      "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "gpt-5.6-luna",
       "linguisticVerdict": "LRB_060_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "status": "LINGUISTICALLY_CLOSED",
+      "classification": "LRB_060_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "rowCount": 50,
+      "uniqueCards": 50,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-060-decisions.csv",
       "proof": "reports/g2-a1-owner/batches-reviewed/LRB-060-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-060-anti-bulk-proof.json",
-      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-060-residual-wrong-language-proof.json"
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-060-residual-wrong-language-proof.json",
+      "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-060-owner-auth-residual-proof.json",
+      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-060-gala-cards.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
