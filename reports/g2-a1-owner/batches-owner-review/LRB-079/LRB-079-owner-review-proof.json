@@ -1,15 +1,17 @@
 {
   "batchId": "LRB-079",
-  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_COMPLETE_AWAITING_OWNER_GALA",
-  "generatedAt": "2026-09-14T17:15:35.156Z",
-  "sourceCommit": "7ed87fece1926b5a6deed95231ddf910cb78838b",
+  "classification": "OWNER_COPY_PASTE_CORRECTION_1_APPLIED_AWAITING_GALA_REVIEW",
+  "correctionRound": 1,
+  "copyPasteSpec": "reports/g2-a1-owner/batches-owner-review/LRB-079/LRB-079-decisions-COPY-PASTE.json",
+  "generatedAt": "2026-09-14T17:29:42.538Z",
+  "sourceCommit": "46d1c25852501ef200ba76d01038c6ed476aae54",
   "branch": "cursor/lrb-079-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT-5.6 Luna",
   "linguisticReviewer": "gpt-5.6-luna",
   "ownerAuthorizationStatus": "APPROVED",
-  "overridesSha256": "c588491bfe1d31df8c2c32ab1f9720b66f6401442f9a87de1f0087c9ae20f5cb",
+  "overridesSha256": "53099a81927cace4f9ae5e0bba211eb4f8dd858b263ddde88ee465293473c247",
   "rows": "50/50",
   "languages": {
     "pt": 50
@@ -48,6 +50,10 @@
     "UNIQUE_AUDIT_IDS": 50,
     "UNIQUE_TARGET_CARDS": 50,
     "FULL_STUDY_CARDS": 50,
+    "CONTENT_REPLACEMENTS": "36/36",
+    "ROW_NOTE_REPLACEMENTS": "21/21",
+    "CURRENT_VALUE_MISMATCH": 0,
+    "FAILED": 0,
     "OWNER_NEW_PARSEABLE": "50/50",
     "OWNER_NEW_FULL_COMPOSITE_ALIGNMENT": "50/50",
     "OWNER_NEW_MISSING_IDENTITY_FIELDS": 0,
@@ -62,8 +68,8 @@
     "NEW_LUNA_CALLS": 0,
     "INGEST_APPLY": 0,
     "SCRIPT_CHANGES": 0,
-    "DE_EXAMPLE_INDEX_ALIGNMENT": "205/206",
-    "COMPARISON_ALIGNMENT": "97/103",
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "206/206",
+    "COMPARISON_ALIGNMENT": "95/103",
     "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
     "EXTRA_MEANING_NOT_IN_SOURCE": 0,
     "SEMANTIC_NARROWING_FROM_SOURCE": 0,
@@ -78,8 +84,8 @@
     "SOURCE_ROW_IDENTITY_ALIGNMENT": "50/50",
     "SOURCE_ROW_IDENTITY_DRIFT": 0,
     "pass": true,
-    "STRUCTURAL_DE_EXAMPLE_ALIGNMENT": "205/206",
-    "STRUCTURAL_COMPARISON_ALIGNMENT": "97/103"
+    "STRUCTURAL_DE_EXAMPLE_ALIGNMENT": "206/206",
+    "STRUCTURAL_COMPARISON_ALIGNMENT": "95/103"
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-079/LRB-079-owner-view.md",
@@ -95,9 +101,10 @@
     "decisionsCsv": "reports/g2-a1-owner/batches-reviewed/LRB-079-decisions.csv",
     "decisionsJson": "scripts/data/g2-a1-owner-pending/LRB-079-decisions.json",
     "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-079-anti-bulk-proof.json",
+    "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-079/LRB-079-decisions-COPY-PASTE.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-079-owner-authorization-proof.json"
   },
-  "note": "Phase 1 GPT-5.6 Luna individual linguistic review. 50 LABOT / 0 NELABOT / 0 PENDING (PT 50, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50). galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "COPY-PASTE correction #1 applied (36/36 content, 21/21 notes). 50 LABOT / 0 NELABOT / 0 PENDING. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
   "galaPass": false,
   "scriptChanges": 0
 }

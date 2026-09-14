@@ -7,10 +7,10 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-14T17:15:35.156Z
-**Source commit:** `7ed87fece1926b5a6deed95231ddf910cb78838b`
+**Generated:** 2026-09-14T17:29:42.538Z
+**Source commit:** `46d1c25852501ef200ba76d01038c6ed476aae54`
 **Branch:** `cursor/lrb-079-owner-authorization-ed35`
-**Overrides SHA256:** `c588491bfe1d31df8c2c32ab1f9720b66f6401442f9a87de1f0087c9ae20f5cb`
+**Overrides SHA256:** `53099a81927cace4f9ae5e0bba211eb4f8dd858b263ddde88ee465293473c247`
 **Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
@@ -27,8 +27,8 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Idéia principal: Carregar significa carregar, transportar ou entregar algo a alguém.\",\"Trazer é usado quando algo é movido para outro lugar ou para outra pessoa.\",\"Não é o mesmo que nehming, porque nehming significa tomar para si.\",\"Holen significa caçar e pesquisar ou procurar.\",\"A tradução é determinada pelo contexto.\"]","study.examples[].lv":null,"study.comparison":"[{\"word\":\"bringen\",\"meaning\":\"Atnest / aiznest / nogādāt\",\"example\":\"Ich bringe dir ein Buch. – Bring mir Wasser.\"},{\"word\":\"bringen\",\"meaning\":\"‹emt/ paņemt\",\"example\":\"Ich bringe das Paket zur Post. – Ich nehme das Buch.\"},{\"word\":\"bringen\",\"meaning\":\"Aiziet pakaų / atnest\",\"example\":\"Ich bringe die Kinder zur Schule. – Ich hole Wasser.\"},{\"word\":\"bringen\",\"meaning\":\"Para viagem e para viagem\",\"example\":\"Ich bringe dir ein Buch. – Bringst du Brot mit?\"},{\"word\":\"nehmen\",\"meaning\":\"pegar\",\"example\":\"Ich nehme das Buch. – Eu pego o livro.\"}]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"bringen","lv":"trazer • levar","level":"A1","study":{"translation":"trazer • levar","explanation":["Ideia principal: bringen significa trazer, levar ou entregar algo a alguém, dependendo do contexto.","Usamos bringen quando alguém transporta algo ou alguém até um destino ou até outra pessoa.","Bringen não é o mesmo que nehmen, que significa pegar ou levar consigo.","Holen significa buscar ou ir pegar algo e voltar com isso.","A tradução exata depende do contexto."],"examples":[{"de":"Ich bringe dir ein Buch.","lv":"Eu trago um livro para você."},{"de":"Ich bringe das Paket zur Post.","lv":"Traga-me água."},{"de":"Ich bringe die Kinder zur Schule.","lv":"Eu levo o pacote aos correios."},{"de":"Ich nehme das Buch.","lv":"Eu levo as crianças à escola."}],"comparison":[{"word":"bringen","meaning":"trazer • levar • entregar","example":"Ich bringe dir ein Buch. – Eu trago um livro para você."},{"word":"bringen","meaning":"pegar • levar consigo","example":"Ich nehme das Buch. – Eu pego o livro."},{"word":"bringen","meaning":"buscar • ir pegar","example":"Ich hole Wasser. – Eu vou buscar água."}],"tip":{"text":"Pense em bringen como transportar algo ou alguém até um destino ou até outra pessoa."},"important":["Bringen pode ser traduzido como trazer ou levar, conforme o ponto de vista e o contexto.","Não confunda bringen com holen: holen enfatiza ir buscar algo."],"id":"a1-bringen","layout":"standardStudy"}}
-**Note:** Corrijo o estudo de bringen para eliminar resíduos letões e distinguir claramente trazer/levar de nehmen e holen.
+**NEW (OWNER mapping):** {"de":"bringen","lv":"trazer • levar","level":"A1","study":{"translation":"trazer • levar","explanation":["Ideia principal: bringen significa trazer, levar ou entregar algo a alguém, dependendo do contexto.","Usamos bringen quando alguém transporta algo ou alguém até um destino ou até outra pessoa.","Bringen não é o mesmo que nehmen, que significa pegar ou levar consigo.","Holen significa buscar ou ir pegar algo e voltar com isso.","A tradução exata depende do contexto."],"examples":[{"de":"Ich bringe dir ein Buch.","lv":"Eu trago um livro para você."},{"de":"Ich bringe das Paket zur Post.","lv":"Eu levo o pacote aos correios."},{"de":"Ich bringe die Kinder zur Schule.","lv":"Eu levo as crianças à escola."},{"de":"Ich nehme das Buch.","lv":"Eu pego o livro."}],"comparison":[{"word":"bringen","meaning":"trazer • levar • entregar","example":"Ich bringe dir ein Buch. – Eu trago um livro para você."},{"word":"nehmen","meaning":"pegar • levar consigo","example":"Ich nehme das Buch. – Eu pego o livro."},{"word":"holen","meaning":"buscar • ir pegar","example":"Ich hole Wasser. – Eu vou buscar água."}],"tip":{"text":"Pense em bringen como transportar algo ou alguém até um destino ou até outra pessoa."},"important":["Bringen pode ser traduzido como trazer ou levar, conforme o ponto de vista e o contexto.","Não confunda bringen com holen: holen enfatiza ir buscar algo."],"id":"a1-bringen","layout":"standardStudy"}}
+**Note:** Corrijo os exemplos deslocados de bringen e identifico corretamente nehmen e holen na comparação.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -53,15 +53,15 @@
       },
       {
         "de": "Ich bringe das Paket zur Post.",
-        "lv": "Traga-me água."
-      },
-      {
-        "de": "Ich bringe die Kinder zur Schule.",
         "lv": "Eu levo o pacote aos correios."
       },
       {
-        "de": "Ich nehme das Buch.",
+        "de": "Ich bringe die Kinder zur Schule.",
         "lv": "Eu levo as crianças à escola."
+      },
+      {
+        "de": "Ich nehme das Buch.",
+        "lv": "Eu pego o livro."
       }
     ],
     "comparison": [
@@ -71,12 +71,12 @@
         "example": "Ich bringe dir ein Buch. – Eu trago um livro para você."
       },
       {
-        "word": "bringen",
+        "word": "nehmen",
         "meaning": "pegar • levar consigo",
         "example": "Ich nehme das Buch. – Eu pego o livro."
       },
       {
-        "word": "bringen",
+        "word": "holen",
         "meaning": "buscar • ir pegar",
         "example": "Ich hole Wasser. – Eu vou buscar água."
       }
@@ -109,8 +109,8 @@
 **CURRENT (captured scope):** {"lv":"- Está aí.","study.explanation":"[\"Idéia principal: até o nível A1 geralmente significa lá.\",\"Este é o caminho a seguir se você não sabe o que fazer.\",\"Atkarībā não está situado em var tulkot arī kā te vai šeit.\",\"No nível A1, aprendemos principalmente com uma palavra de lugar geral.\"]","study.examples[].lv":null}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"da","lv":"lá • aí","level":"A1","study":{"translation":"lá • aí","explanation":["Ideia principal: da indica um lugar ou uma posição, geralmente traduzido como lá ou aí.","Também pode apontar para algo que está presente ou situado em determinado lugar.","A tradução exata depende do contexto e da distância indicada."],"examples":[{"de":"Da ist mein Auto.","lv":"Meu livro está ali."},{"de":"Ich war da.","lv":"Estou aí."},{"de":"Da kommt er.","lv":"Há uma casa ali."}],"comparison":[{"word":"da","meaning":"lá • aí","example":"Da ist mein Buch. – Meu livro está ali."},{"word":"hier","meaning":"aqui","example":"Ich bin hier. – Estou aqui."},{"word":"dort","meaning":"lá • ali","example":"Dort steht ein Haus. – Há uma casa lá."}],"tip":{"text":"da normalmente aponta para um lugar ou algo que está ali ou aí."},"important":["Não confunda da com hier, que significa aqui.","O contexto determina se da é melhor traduzido como lá ou aí."],"id":"a1-da","layout":"standardStudy"}}
-**Note:** Corrijo da, cujo sentido espacial é lá/aí, substituindo a explicação contaminada por letão e exemplos em português.
+**NEW (OWNER mapping):** {"de":"da","lv":"lá • aí","level":"A1","study":{"translation":"lá • aí","explanation":["Ideia principal: da indica um lugar ou uma posição, geralmente traduzido como lá ou aí.","Também pode apontar para algo que está presente ou situado em determinado lugar.","A tradução exata depende do contexto e da distância indicada."],"examples":[{"de":"Da ist mein Auto.","lv":"Meu carro está ali."},{"de":"Ich war da.","lv":"Eu estive lá."},{"de":"Da kommt er.","lv":"Lá vem ele."}],"comparison":[{"word":"da","meaning":"lá • aí","example":"Da ist mein Buch. – Meu livro está ali."},{"word":"hier","meaning":"aqui","example":"Ich bin hier. – Estou aqui."},{"word":"dort","meaning":"lá • ali","example":"Dort steht ein Haus. – Há uma casa lá."}],"tip":{"text":"da normalmente aponta para um lugar ou algo que está ali ou aí."},"important":["Não confunda da com hier, que significa aqui.","O contexto determina se da é melhor traduzido como lá ou aí."],"id":"a1-da","layout":"standardStudy"}}
+**Note:** Corrijo as três traduções de exemplo de da para que correspondam exatamente às frases alemãs.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -129,15 +129,15 @@
     "examples": [
       {
         "de": "Da ist mein Auto.",
-        "lv": "Meu livro está ali."
+        "lv": "Meu carro está ali."
       },
       {
         "de": "Ich war da.",
-        "lv": "Estou aí."
+        "lv": "Eu estive lá."
       },
       {
         "de": "Da kommt er.",
-        "lv": "Há uma casa ali."
+        "lv": "Lá vem ele."
       }
     ],
     "comparison": [
@@ -185,18 +185,18 @@
 **CURRENT (captured scope):** {"id":"a1-das","layout":"standardStudy","translation":"Vidus dzimtes noteiktais artigos","explanation":"Feliz e piedoso vidus dzimtes Laatvārdiem. Dažos teikumos \"das\" var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.","examples":[{"de":"Das ist mein Auto.","lv":"Este carro é meu."},{"de":"Das ist gut.","lv":"Pila ir labi."},{"de":"Das Buch, das ich lese, ist interessant.","lv":"Gramata, kuru é lasu, é interessante."}],"comparison":[{"word":"das","meaning":"Ele (artigo/pronome)","example":"Das ist mein Auto. – Bolsa no carro do homem."},{"word":"dies","meaning":"SIS","example":"Dies ist mein Auto. – E esse é o meu carro."},{"word":"welches","meaning":"Kurš • Kura • Kuru","example":"Das ist das Buch, welches ich lese. – Tā ir gramata, kuru é lasu."}],"tip":{"text":"Atceries: vidus dzimte → das; ka → dass."},"sectionAccents":{"examples":[{"blue":["Das"]},{"blue":["Das"]},{"de":{"blue":["Das"],"yellow":["das"]}}],"comparison":[{"word":{"green":["das"]},"example":{"blue":["Das"]}},{"word":{"green":["dies"]},"example":{"green":["Dies"]}},{"word":{"green":["welches"]},"example":{"blue":["Das","das"],"yellow":["welches"]}}],"tip":{"left":{"blue":["das"],"purple":["vidus dzimte"],"red":["dass"]}},"important":[{"blue":["das"],"purple":["vidus dzimtes artikulu"]},{"blue":["das"],"purple":["artikuls","vietniekvārds"],"red":["dass"]}]},"important":["No nível A1, aprenda das primeiro como um artigo neutro.","das não é o mesmo que dass — das pode ser um artigo ou pronome, dass significa \"que\"."]}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"das","lv":"artigo definido neutro","level":"A1","study":{"translation":"artigo definido neutro","explanation":["Das é o artigo definido usado com substantivos de gênero neutro no nominativo e no acusativo.","Em algumas frases, das também funciona como pronome demonstrativo ou pronome relativo.","Como artigo, das normalmente corresponde a o ou a, conforme a tradução natural do português."],"examples":[{"de":"Das ist mein Auto.","lv":"O livro é interessante."},{"de":"Das ist gut.","lv":"Este é o meu carro."},{"de":"Das Buch, das ich lese, ist interessant.","lv":"O livro que estou lendo é interessante."}],"comparison":[{"word":"das","meaning":"o/a • isso/isto","example":"Das ist mein Auto. – Este é o meu carro."},{"word":"dies","meaning":"isto • este","example":"Dies ist mein Auto. – Este é o meu carro."},{"word":"welches","meaning":"que • o qual","example":"Das ist das Buch, welches ich lese. – Este é o livro que estou lendo."}],"tip":{"text":"Use das como artigo definido para substantivos neutros; não o confunda com dass, que significa que."},"important":["No nível A1, aprenda das primeiro como o artigo definido neutro.","Das pode ser artigo ou pronome; dass é uma conjunção que significa que."],"id":"a1-das","layout":"standardStudy"}}
-**Note:** Corrijo das para apresentar em português o artigo definido neutro e remover as frases letãs e portuguesas corrompidas.
+**NEW (OWNER mapping):** {"de":"das","lv":"artigo definido neutro • isso • isto","level":"A1","study":{"translation":"artigo definido neutro • isso • isto","explanation":["Das é o artigo definido usado com substantivos de gênero neutro no nominativo e no acusativo.","Em algumas frases, das também funciona como pronome demonstrativo ou pronome relativo.","Como artigo, das normalmente corresponde a o ou a, conforme a tradução natural do português."],"examples":[{"de":"Das ist mein Auto.","lv":"Este é o meu carro."},{"de":"Das ist gut.","lv":"Isso é bom."},{"de":"Das Buch, das ich lese, ist interessant.","lv":"O livro que estou lendo é interessante."}],"comparison":[{"word":"das","meaning":"o/a • isso/isto","example":"Das ist mein Auto. – Este é o meu carro."},{"word":"dies","meaning":"isto • este","example":"Dies ist mein Auto. – Este é o meu carro."},{"word":"welches","meaning":"que • o qual","example":"Das ist das Buch, welches ich lese. – Este é o livro que estou lendo."}],"tip":{"text":"Use das como artigo definido para substantivos neutros; não o confunda com dass, que significa que."},"important":["No nível A1, aprenda das primeiro como o artigo definido neutro.","Das pode ser artigo ou pronome; dass é uma conjunção que significa que."],"id":"a1-das","layout":"standardStudy"}}
+**Note:** Corrijo das como artigo e pronome e realinho as traduções dos exemplos alemães.
 
 ### Gala card (approved NEW composite — full materialized card)
 
 ```json
 {
   "de": "das",
-  "lv": "artigo definido neutro",
+  "lv": "artigo definido neutro • isso • isto",
   "level": "A1",
   "study": {
-    "translation": "artigo definido neutro",
+    "translation": "artigo definido neutro • isso • isto",
     "explanation": [
       "Das é o artigo definido usado com substantivos de gênero neutro no nominativo e no acusativo.",
       "Em algumas frases, das também funciona como pronome demonstrativo ou pronome relativo.",
@@ -205,11 +205,11 @@
     "examples": [
       {
         "de": "Das ist mein Auto.",
-        "lv": "O livro é interessante."
+        "lv": "Este é o meu carro."
       },
       {
         "de": "Das ist gut.",
-        "lv": "Este é o meu carro."
+        "lv": "Isso é bom."
       },
       {
         "de": "Das Buch, das ich lese, ist interessant.",
@@ -401,8 +401,8 @@
 **CURRENT (captured scope):** {"id":"a1-die","layout":"standardStudy","translation":"Sieviešu dzimtes noteiktais artigos","explanation":"Torta feliz sieviešu dzimtes Laatvārdiem. Dažos teikumos \"die\" var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.","examples":[{"de":"Die Frau ist hier.","lv":"Siviete ir seit."},{"de":"Die Katze schläft.","lv":"O gatinho está dormindo."},{"de":"Die Lehrerin erklärt.","lv":"Skolotaja skaidro."}],"tip":{"text":"Atceries: sieviešu dzimte → die."},"sectionAccents":{"examples":[{"blue":["Die"]},{"blue":["Die"]},{"blue":["Die"]}],"comparison":[{"word":{},"example":{}},{"word":{},"example":{}},{"word":{},"example":{}},{"word":{},"example":{}},{"word":{},"example":{}},{"word":{},"example":{}},{"word":{},"example":{}}],"tip":{"left":{"blue":["die"],"purple":["sieviešu dzimte"]}},"important":[{"blue":["die"],"purple":["sieviešu dzimtes artikulu"]},{"blue":["die"],"green":["Daudzskaitlī"],"purple":["visām dzimtēm"]}]},"important":["No nível A1, aprenda die primeiro como um artigo feminino.","No plural, use die para todos os gêneros."]}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"die","lv":"artigo definido feminino • artigo definido plural","level":"A1","study":{"translation":"artigo definido feminino • artigo definido plural","explanation":["Die é o artigo definido usado com substantivos de gênero feminino no nominativo e no acusativo.","Die também é usado no plural, independentemente do gênero do substantivo.","A tradução mais comum de die como artigo é a no singular feminino e os/as no plural."],"examples":[{"de":"Die Frau ist hier.","lv":"A mulher está aqui."},{"de":"Die Katze schläft.","lv":"A gata está dormindo."},{"de":"Die Lehrerin erklärt.","lv":"A professora explica a tarefa."}],"tip":{"text":"Use die para substantivos femininos no singular e para todos os substantivos no plural."},"important":["No nível A1, aprenda die como artigo definido feminino e plural.","No plural, die é usado para os três gêneros."],"id":"a1-die","layout":"standardStudy"}}
-**Note:** Corrijo die para cobrir corretamente os usos feminino e plural, eliminando os exemplos em letão e o erro de gênero.
+**NEW (OWNER mapping):** {"de":"die","lv":"artigo definido feminino • artigo definido plural","level":"A1","study":{"translation":"artigo definido feminino • artigo definido plural","explanation":["Die é o artigo definido usado com substantivos de gênero feminino no nominativo e no acusativo.","Die também é usado no plural, independentemente do gênero do substantivo.","A tradução mais comum de die como artigo é a no singular feminino e os/as no plural."],"examples":[{"de":"Die Frau ist hier.","lv":"A mulher está aqui."},{"de":"Die Katze schläft.","lv":"A gata está dormindo."},{"de":"Die Lehrerin erklärt.","lv":"A professora explica."}],"tip":{"text":"Use die para substantivos femininos no singular e para todos os substantivos no plural."},"important":["No nível A1, aprenda die como artigo definido feminino e plural.","No plural, die é usado para os três gêneros."],"id":"a1-die","layout":"standardStudy"}}
+**Note:** Mantenho os usos feminino e plural de die e retiro do terceiro exemplo o objeto que não existe na frase alemã.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -429,7 +429,7 @@
       },
       {
         "de": "Die Lehrerin erklärt.",
-        "lv": "A professora explica a tarefa."
+        "lv": "A professora explica."
       }
     ],
     "tip": {
@@ -460,8 +460,8 @@
 **CURRENT (captured scope):** {"id":"a1-dieser","layout":"standardStudy","translation":"SIS","explanation":"Rāda uz tuvumā esošu cilvēku, Laatu vai dzīvnieku. Feliz kopā ar Laatvārdu vīriešu dzimtē.","examples":[{"de":"Dieser Mann ist nett.","lv":"Sis vīrietis ir jauks."},{"de":"Ich sehe diesen Hund.","lv":"Man patīk šis soli."},{"de":"Dieser Stift ist neu.","lv":"Se você está com um pouco de sono."}],"tip":{"text":"Atceries: šis + vīriešu dzimte → dieser."},"sectionAccents":{"examples":[{"de":{"blue":["Dieser"]},"lv":{"purple":["šis"]}},{"de":{"blue":["diesen"]},"lv":{"purple":["šis"]}},{"de":{"blue":["Dieser"]},"lv":{"purple":["você"]}}],"comparison":[{"word":{},"example":{}},{"word":{},"example":{}},{"word":{},"example":{}},{"word":{},"example":{}}],"tip":{"left":{"blue":["dieser"],"purple":["šis"],"green":["vīriešu dzimte"]}},"important":[{"blue":["dieser"],"green":["diese"],"yellow":["dieses"],"purple":["dzimtes"]},{"red":["diese"],"green":["Daudzskaitlī"]}]},"important":["dieser, diese e dieses mudam de acordo com o gênero.","No plural, a forma é novamente diese."]}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"dieser","lv":"este • esse","level":"A1","study":{"translation":"este • esse","explanation":["Dieser é um pronome ou determinante demonstrativo que aponta para uma pessoa, coisa ou animal próximo ou destacado.","No nominativo masculino, usa-se dieser antes de um substantivo masculino.","As formas variam conforme o gênero, o caso e o número."],"examples":[{"de":"Dieser Mann ist nett.","lv":"Este homem é simpático."},{"de":"Ich sehe diesen Hund.","lv":"Eu vejo este cachorro."},{"de":"Dieser Stift ist neu.","lv":"Esta caneta é nova."}],"tip":{"text":"No nominativo masculino, šis corresponde a dieser: Dieser Mann."},"important":["Dieser, diese e dieses mudam conforme o gênero e o caso.","No plural, a forma nominativa é diese."],"id":"a1-dieser","layout":"standardStudy"}}
-**Note:** Corrijo dieser para o demonstrativo português este/esse e ajusto os exemplos para refletir corretamente suas formas e usos.
+**NEW (OWNER mapping):** {"de":"dieser","lv":"este • esse","level":"A1","study":{"translation":"este • esse","explanation":["Dieser é um pronome ou determinante demonstrativo que aponta para uma pessoa, coisa ou animal próximo ou destacado.","No nominativo masculino, usa-se dieser antes de um substantivo masculino.","As formas variam conforme o gênero, o caso e o número."],"examples":[{"de":"Dieser Mann ist nett.","lv":"Este homem é simpático."},{"de":"Ich sehe diesen Hund.","lv":"Eu vejo este cachorro."},{"de":"Dieser Stift ist neu.","lv":"Esta caneta é nova."}],"tip":{"text":"No nominativo masculino, este corresponde a dieser: Dieser Mann."},"important":["Dieser, diese e dieses mudam conforme o gênero e o caso.","No plural, a forma nominativa é diese."],"id":"a1-dieser","layout":"standardStudy"}}
+**Note:** Corrijo dieser e removo do padom a palavra letã residual šis, substituindo-a por este.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -492,7 +492,7 @@
       }
     ],
     "tip": {
-      "text": "No nominativo masculino, šis corresponde a dieser: Dieser Mann."
+      "text": "No nominativo masculino, este corresponde a dieser: Dieser Mann."
     },
     "important": [
       "Dieser, diese e dieses mudam conforme o gênero e o caso.",
@@ -812,21 +812,21 @@
 **CURRENT (captured scope):** {"lv":"Bolsa • Tā • Formulário Bezpersoniska","study.translation":"Bolsa • Tā • Formulário Bezpersoniska","study.explanation":"[\"Ideia principal: es é um pronome.\",\"Usado: isso, em construções impessoais.\"]","study.examples":"[{\"de\":\"Es regnet.\",\"lv\":\"Eu aprendo Teuesco.\"},{\"de\":\"Es ist kalt.\",\"lv\":\"Vite ir noguris.\"},{\"de\":\"Das Kind schläft.\",\"lv\":\"- Trabalhe aqui.\"},{\"de\":\"Es ist müde.\",\"lv\":\"Tā ir mana gramata.\"},{\"de\":\"Es regnet.\",\"lv\":\"Lista.\"},{\"de\":\"Es schneit.\",\"lv\":\"Sneg.\"}]","study.comparison":"[{\"word\":\"es\",\"meaning\":\"isso • forma impessoal\",\"example\":\"Es regnet. – Está chovendo.\"},{\"word\":\"ich\",\"meaning\":\"es (pessoa)\",\"example\":\"Ich lerne Deutsch. – Eu estudo alemão.\"}]","study.tip":"{\"text\":\"Atceries: latviešu “es” → ich, nevis vācu es.\"}","study.important":"[\"Vācu es nav latviešu “es”.\",\"Latviešu “es” vāciski ir ich; vācu es bieži nozīmē tas/tā vai netiek tulkots.\",\"O latviano \\\"es\\\" em alemão é ich; o alemão es frequentemente significa aquilo ou não é traduzido.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"es","lv":"isso • pronome impessoal","level":"A1","study":{"translation":"isso • pronome impessoal","explanation":["Ideia principal: es é um pronome alemão.","Pode significar isso ou ser usado em construções impessoais.","Em frases como Es regnet e Es schneit, normalmente não é traduzido diretamente."],"examples":[{"de":"Es regnet.","pt":"Está chovendo."},{"de":"Es ist kalt.","pt":"Está frio."},{"de":"Das Kind schläft.","pt":"A criança está dormindo. Ela está cansada."},{"de":"Es ist müde.","pt":"Está nevando."}],"comparison":[{"word":"es","meaning":"isso • pronome impessoal","example":"Es regnet. = Está chovendo."},{"word":"ich","meaning":"eu","example":"Ich lerne Deutsch. = Eu estudo alemão."}],"tip":{"text":"O alemão es não corresponde ao português “eu”; “eu” em alemão é ich."},"important":["Es pode significar “isso” ou funcionar como pronome impessoal.","Em frases sobre o clima, es geralmente não tem uma tradução direta.","Ich significa “eu”, enquanto es é uma palavra diferente."],"id":"a1-es","layout":"standardStudy"}}
-**Note:** Para o DE “es”, removi “Bolsa” e as frases letãs e expliquei corretamente o pronome pessoal e o uso impessoal em frases sobre o clima.
+**NEW (OWNER mapping):** {"de":"es","lv":"ele • ela • isso • pronome impessoal","level":"A1","study":{"translation":"ele • ela • isso • pronome impessoal","explanation":["Ideia principal: es é um pronome alemão.","Pode retomar um substantivo neutro, sendo traduzido como ele ou ela conforme o gênero da palavra em português; também pode significar isso ou ser usado em construções impessoais.","Em frases como Es regnet e Es schneit, normalmente não é traduzido diretamente."],"examples":[{"de":"Es regnet.","pt":"Está chovendo."},{"de":"Es ist kalt.","pt":"Está frio."},{"de":"Das Kind schläft.","pt":"A criança está dormindo.","lv":"A criança está dormindo."},{"de":"Es ist müde.","pt":"Ela está cansada.","lv":"Ela está cansada."}],"comparison":[{"word":"es","meaning":"isso • pronome impessoal","example":"Es regnet. = Está chovendo."},{"word":"ich","meaning":"eu","example":"Ich lerne Deutsch. = Eu estudo alemão."}],"tip":{"text":"O alemão es não corresponde ao português “eu”; “eu” em alemão é ich."},"important":["Es pode significar “isso” ou funcionar como pronome impessoal.","Em frases sobre o clima, es geralmente não tem uma tradução direta.","Ich significa “eu”, enquanto es é uma palavra diferente."],"id":"a1-es","layout":"standardStudy"}}
+**Note:** Corrijo es como pronome neutro e impessoal e realinho os exemplos Das Kind schläft e Es ist müde.
 
 ### Gala card (approved NEW composite — full materialized card)
 
 ```json
 {
   "de": "es",
-  "lv": "isso • pronome impessoal",
+  "lv": "ele • ela • isso • pronome impessoal",
   "level": "A1",
   "study": {
-    "translation": "isso • pronome impessoal",
+    "translation": "ele • ela • isso • pronome impessoal",
     "explanation": [
       "Ideia principal: es é um pronome alemão.",
-      "Pode significar isso ou ser usado em construções impessoais.",
+      "Pode retomar um substantivo neutro, sendo traduzido como ele ou ela conforme o gênero da palavra em português; também pode significar isso ou ser usado em construções impessoais.",
       "Em frases como Es regnet e Es schneit, normalmente não é traduzido diretamente."
     ],
     "examples": [
@@ -840,11 +840,13 @@
       },
       {
         "de": "Das Kind schläft.",
-        "pt": "A criança está dormindo. Ela está cansada."
+        "pt": "A criança está dormindo.",
+        "lv": "A criança está dormindo."
       },
       {
         "de": "Es ist müde.",
-        "pt": "Está nevando."
+        "pt": "Ela está cansada.",
+        "lv": "Ela está cansada."
       }
     ],
     "comparison": [
@@ -957,8 +959,8 @@
 **CURRENT (captured scope):** {"lv":"ˈhis • Maltīte","study.translation":"ˈhis • Maltīte","study.explanation":"[\"Ideia principal: Substantivo — comida ou refeição inteira.\",\"Das Essen galvenokārt nozīmē: patērēt partiku.\",\"Biezi raksturo: darbību.\",\"Das Essen galvenokārt nozīmē: partika vai maltīte.\",\"Biezi raksturo: lagu.\",\"Comida nozīmē est.\",\"Food var nozīmēt ēdienu vai maltīti kopumā.\"]","study.examples.lv":null}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Essen","lv":"comida • refeição","level":"A1","de_article":"das","study":{"translation":"comida • refeição","explanation":["Ideia principal: Essen é um substantivo que significa comida ou refeição.","Das Essen refere-se à comida em geral ou a uma refeição específica.","Não confunda das Essen, o substantivo, com essen, o verbo “comer”."],"examples":[{"de":"Das Essen schmeckt gut.","pt":"A comida está pronta."},{"de":"Was wollt ihr essen?","pt":"A comida está gostosa."},{"de":"Wir essen um 12 Uhr.","pt":"Nós preparamos a refeição."}],"comparison":[{"word":"das Essen","meaning":"a comida • a refeição","example":"Das Essen ist fertig. = A comida está pronta."},{"word":"essen","meaning":"comer","example":"Wir essen um zwölf Uhr. = Nós comemos ao meio-dia."}],"tip":{"text":"Substantivo: das Essen; verbo: essen."},"important":["Das Essen é um substantivo neutro e significa “a comida” ou “a refeição”.","Essen como substantivo é escrito com inicial maiúscula.","Essen não é normalmente usado no plural quando significa comida em geral."],"id":"a1-essen-study","layout":"standardStudy"}}
-**Note:** Para o DE “Essen”, corrigi a tradução ilegível e reconstruí o cartão nominal como “comida • refeição”, distinguindo-o claramente do verbo essen.
+**NEW (OWNER mapping):** {"de":"Essen","lv":"comida • refeição","level":"A1","de_article":"das","study":{"translation":"comida • refeição","explanation":["Ideia principal: Essen é um substantivo que significa comida ou refeição.","Das Essen refere-se à comida em geral ou a uma refeição específica.","Não confunda das Essen, o substantivo, com essen, o verbo “comer”."],"examples":[{"de":"Das Essen schmeckt gut.","lv":"A comida está saborosa.","pt":"A comida está saborosa."},{"de":"Was wollt ihr essen?","lv":"O que vocês querem comer?","pt":"O que vocês querem comer?"},{"de":"Wir essen um 12 Uhr.","lv":"Nós comemos ao meio-dia.","pt":"Nós comemos ao meio-dia."}],"comparison":[{"word":"das Essen","meaning":"a comida • a refeição","example":"Das Essen ist fertig. = A comida está pronta."},{"word":"essen","meaning":"comer","example":"Wir essen um zwölf Uhr. = Nós comemos ao meio-dia."}],"tip":{"text":"Substantivo: das Essen; verbo: essen."},"important":["Das Essen é um substantivo neutro e significa “a comida” ou “a refeição”.","Essen como substantivo é escrito com inicial maiúscula.","Essen não é normalmente usado no plural quando significa comida em geral."],"id":"a1-essen-study","layout":"standardStudy"}}
+**Note:** Corrijo as três traduções deslocadas do cartão nominal Essen e mantenho a distinção com o verbo essen.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -978,15 +980,18 @@
     "examples": [
       {
         "de": "Das Essen schmeckt gut.",
-        "pt": "A comida está pronta."
+        "lv": "A comida está saborosa.",
+        "pt": "A comida está saborosa."
       },
       {
         "de": "Was wollt ihr essen?",
-        "pt": "A comida está gostosa."
+        "lv": "O que vocês querem comer?",
+        "pt": "O que vocês querem comer?"
       },
       {
         "de": "Wir essen um 12 Uhr.",
-        "pt": "Nós preparamos a refeição."
+        "lv": "Nós comemos ao meio-dia.",
+        "pt": "Nós comemos ao meio-dia."
       }
     ],
     "comparison": [
@@ -1120,21 +1125,21 @@
 **CURRENT (captured scope):** {"study.translation":"Suco • Jumos","study.examples":"[{\"de\":\"Ich sehe euch.\",\"lv\":\"É suco de redzu.\"},{\"de\":\"Ich helfe euch.\",\"lv\":\"Eu vou te ajudar.\"},{\"de\":\"Ich gebe euch das Buch.\",\"lv\":\"É um gramatu gordinho.\"},{\"de\":\"Ich danke euch.\",\"lv\":\"É patético.\"},{\"de\":\"Ihr erinnert euch.\",\"lv\":\"Só parabéns.\"}]","study.comparison":"[{\"word\":\"ihr\",\"meaning\":\"SÓ\",\"example\":\"Ihr seid freundlich. = Vocês são amigáveis.\"},{\"word\":\"euch\",\"meaning\":\"Sucos/jumadas\",\"example\":\"Ich helfe euch. = Eu vos ajudo.\"},{\"word\":\"euer\",\"meaning\":\"Jusu\",\"example\":\"Das ist euer Haus. = Essa é a sua casa.\"}]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"euch","lv":"vocês • a vocês","level":"A1","study":{"translation":"vocês • a vocês","explanation":["Euch é a forma de acusativo ou dativo de ihr, usada para falar com várias pessoas de maneira informal.","Pode significar “vocês” como objeto direto ou “a vocês” como objeto indireto."],"examples":[{"de":"Ich sehe euch.","pt":"Eu vejo vocês."},{"de":"Ich helfe euch.","pt":"Eu ajudo vocês."},{"de":"Ich gebe euch das Buch.","pt":"Eu dou o livro a vocês."},{"de":"Ich danke euch.","pt":"Eu agradeço a vocês."},{"de":"Ihr erinnert euch.","pt":"Vocês se lembram."}],"comparison":[{"word":"ihr","meaning":"vocês","example":"Ihr seid freundlich. = Vocês são gentis."},{"word":"euch","meaning":"vocês • a vocês","example":"Ich helfe euch. = Eu ajudo vocês."},{"word":"euer","meaning":"seu • de vocês","example":"Das ist euer Haus. = Essa é a casa de vocês."}],"tip":{"text":"Euch é usado quando “vocês” recebe a ação ou é o destinatário dela."},"important":["Euch não significa suco nem qualquer outra palavra semelhante em português.","A tradução depende da função: “vocês” no acusativo e “a vocês” no dativo.","Ihr é o pronome sujeito; euch é a forma oblíqua correspondente."],"id":"a1-euch","layout":"standardStudy"}}
-**Note:** Para o DE “euch”, corrigi “Suco • Jumos” e exemplos corrompidos para as funções de objeto “vocês • a vocês”, contrastando-o com ihr e euer.
+**NEW (OWNER mapping):** {"de":"euch","lv":"vocês • a vocês • se","level":"A1","study":{"translation":"vocês • a vocês • se","explanation":["Euch é a forma de acusativo ou dativo de ihr, usada para falar com várias pessoas de maneira informal.","Pode significar “vocês” como objeto direto, “a vocês” como objeto indireto ou “se” quando é reflexivo."],"examples":[{"de":"Ich sehe euch.","pt":"Eu vejo vocês."},{"de":"Ich helfe euch.","pt":"Eu ajudo vocês."},{"de":"Ich gebe euch das Buch.","pt":"Eu dou o livro a vocês."},{"de":"Ich danke euch.","pt":"Eu agradeço a vocês."},{"de":"Ihr erinnert euch.","pt":"Vocês se lembram."}],"comparison":[{"word":"ihr","meaning":"vocês","example":"Ihr seid freundlich. = Vocês são gentis."},{"word":"euch","meaning":"vocês • a vocês","example":"Ich helfe euch. = Eu ajudo vocês."},{"word":"euer","meaning":"seu • de vocês","example":"Das ist euer Haus. = Essa é a casa de vocês."}],"tip":{"text":"Euch é usado quando “vocês” recebe a ação, é o destinatário dela ou aparece em uma construção reflexiva."},"important":["Euch não significa suco nem qualquer outra palavra semelhante em português.","A tradução depende da função: “vocês” no acusativo, “a vocês” no dativo e “se” no uso reflexivo.","Ihr é o pronome sujeito; euch é a forma oblíqua correspondente."],"id":"a1-euch","layout":"standardStudy"}}
+**Note:** Completo euch com o uso reflexivo se, além das funções de acusativo e dativo já registradas.
 
 ### Gala card (approved NEW composite — full materialized card)
 
 ```json
 {
   "de": "euch",
-  "lv": "vocês • a vocês",
+  "lv": "vocês • a vocês • se",
   "level": "A1",
   "study": {
-    "translation": "vocês • a vocês",
+    "translation": "vocês • a vocês • se",
     "explanation": [
       "Euch é a forma de acusativo ou dativo de ihr, usada para falar com várias pessoas de maneira informal.",
-      "Pode significar “vocês” como objeto direto ou “a vocês” como objeto indireto."
+      "Pode significar “vocês” como objeto direto, “a vocês” como objeto indireto ou “se” quando é reflexivo."
     ],
     "examples": [
       {
@@ -1176,11 +1181,11 @@
       }
     ],
     "tip": {
-      "text": "Euch é usado quando “vocês” recebe a ação ou é o destinatário dela."
+      "text": "Euch é usado quando “vocês” recebe a ação, é o destinatário dela ou aparece em uma construção reflexiva."
     },
     "important": [
       "Euch não significa suco nem qualquer outra palavra semelhante em português.",
-      "A tradução depende da função: “vocês” no acusativo e “a vocês” no dativo.",
+      "A tradução depende da função: “vocês” no acusativo, “a vocês” no dativo e “se” no uso reflexivo.",
       "Ihr é o pronome sujeito; euch é a forma oblíqua correspondente."
     ],
     "id": "a1-euch",
@@ -1299,8 +1304,8 @@
 **CURRENT (captured scope):** {"lv":"Brivdienas (Skola)","study.translation":"Brivdienas (Skola)","study.explanation":"[\"Adestramento Galvenā: tikai daudzskaitlis. Skolas vai studiju brivlaiks — vienmēr daudzskaitlī.\",\"Os feriados galvenokārt nozīmē: skolas brīvlaiiks.\",\"Biezi raksturo: tikai daudzskaitlis.\",\"Os feriados vão tikai daudzskaitlis - vienmēr daudzskaitlī (durante os feriados).\"]","study.examples.lv":null}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Ferien","lv":"férias escolares","level":"A1","de_article":"die","study":{"translation":"férias escolares","explanation":["Ferien é um substantivo usado normalmente apenas no plural.","Refere-se ao período de férias escolares ou universitárias.","Em português, a tradução natural é “férias escolares”."],"examples":[{"de":"In den Ferien fahren wir ans Meer.","pt":"As férias começam amanhã."},{"de":"In den Ferien habe ich viel Zeit.","pt":"Nas férias, vou para o litoral."},{"de":"Was macht ihr in den Ferien?","pt":"Quando são as férias de verão?"}],"comparison":[{"word":"die Ferien","meaning":"férias escolares","example":"Die Ferien sind lang. = As férias são longas."},{"word":"der Urlaub","meaning":"férias • licença","example":"Ich habe im August Urlaub. = Estou de férias em agosto."}],"tip":{"text":"Ferien costuma se referir às férias da escola; Urlaub é usado para férias ou licença do trabalho."},"important":["Ferien é normalmente usado no plural: die Ferien.","A palavra se refere principalmente às férias escolares ou universitárias.","Não confunda Ferien com feriados isolados, que são Feiertage."],"id":"a1-ferien","layout":"standardStudy"}}
-**Note:** Para o DE “Ferien”, corrigi “Brivdienas” e as explicações letãs para o português “férias escolares”, incluindo o uso obrigatório habitual no plural.
+**NEW (OWNER mapping):** {"de":"Ferien","lv":"férias escolares","level":"A1","de_article":"die","study":{"translation":"férias escolares","explanation":["Ferien é um substantivo usado normalmente apenas no plural.","Refere-se ao período de férias escolares ou universitárias.","Em português, a tradução natural é “férias escolares”."],"examples":[{"de":"In den Ferien fahren wir ans Meer.","lv":"Nas férias, vamos para o litoral.","pt":"Nas férias, vamos para o litoral."},{"de":"In den Ferien habe ich viel Zeit.","lv":"Nas férias, tenho muito tempo.","pt":"Nas férias, tenho muito tempo."},{"de":"Was macht ihr in den Ferien?","lv":"O que vocês fazem nas férias?","pt":"O que vocês fazem nas férias?"}],"comparison":[{"word":"die Ferien","meaning":"férias escolares","example":"Die Ferien sind lang. = As férias são longas."},{"word":"der Urlaub","meaning":"férias • licença","example":"Ich habe im August Urlaub. = Estou de férias em agosto."}],"tip":{"text":"Ferien costuma se referir às férias da escola; Urlaub é usado para férias ou licença do trabalho."},"important":["Ferien é normalmente usado no plural: die Ferien.","A palavra se refere principalmente às férias escolares ou universitárias.","Não confunda Ferien com feriados isolados, que são Feiertage."],"id":"a1-ferien","layout":"standardStudy"}}
+**Note:** Mantenho férias escolares no plural e realinho as três traduções dos exemplos alemães.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -1320,15 +1325,18 @@
     "examples": [
       {
         "de": "In den Ferien fahren wir ans Meer.",
-        "pt": "As férias começam amanhã."
+        "lv": "Nas férias, vamos para o litoral.",
+        "pt": "Nas férias, vamos para o litoral."
       },
       {
         "de": "In den Ferien habe ich viel Zeit.",
-        "pt": "Nas férias, vou para o litoral."
+        "lv": "Nas férias, tenho muito tempo.",
+        "pt": "Nas férias, tenho muito tempo."
       },
       {
         "de": "Was macht ihr in den Ferien?",
-        "pt": "Quando são as férias de verão?"
+        "lv": "O que vocês fazem nas férias?",
+        "pt": "O que vocês fazem nas férias?"
       }
     ],
     "comparison": [
@@ -1447,8 +1455,8 @@
 **CURRENT (captured scope):** {"id":"a1-fernsehen-study","layout":"standardStudy","translation":"Televisão","explanation":["Galvenā doma: Lietvārds, tikai venuskaitlis. Apraksta TV tem mais detalhes sobre a TV.","Televisão galvenokārt nozīmē: skatīties pārraidi.","Biezi raksturo: darbību.","Das Fernsehen significa principalmente: televisão como meio de comunicação.","Biezi raksturo: Laatvārdu (tikai venuskaitlī).","Fernsehen ir darbības vārds, ko var sadalīt: Eu vejo a samambaia, a samambaia mais linda.","Das Fernsehen ir latevārds un tikai venuskaitlis - tam nav daudzskaitļa formas."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Como você está assistindo televisão?"},{"de":"Was gibt es heute im Fernsehen?","lv":"Como você está assistindo televisão?"},{"de":"Im Fernsehen läuft ein Film.","lv":"Televīzijā tiek rādīta filma."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Programa de TV šodien ir garlaicīga."},{"de":"Ich sehe heute Abend fern.","lv":"Sovakar é um skatos televīziju."},{"de":"Was gibt es im Fernsehen?","lv":"Como está a televisão?"}],"tip":["Se falar sobre a ação, use fernsehen (ich sehe fern). Se falar sobre programas de TV ou mídia, use das Fernsehen.","Substantivo, apenas singular. Descreve a TV como mídia ou transmissão em geral."],"important":["fernsehen é separável: sehen + fern.","das Fernsehen não está no plural — não há *die Fernsehen.","Incorreto: die Fernsehen → Correto: das Fernsehen","Ação: fernsehen → ich sehe fern."],"sectionAccents":{"explanation":{"green":["Fernsehen"],"yellow":["Fernsehen"]},"examples":[{"de":{"green":["Fernsehen","fernsehen"]},"lv":{"purple":["Como"]}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{"purple":["Como"]}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{"purple":["televīzija"]}},{"de":{"green":["das Fernsehen","fernsehen"]},"lv":{"purple":["Programa"]}},{"de":{},"lv":{"purple":["televīziju"]}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{"purple":["Como"]}}],"tip":[{}],"important":[{"green":["fernsehen"]}]}}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Fernsehen","lv":"televisão","level":"A1","de_article":"das","study":{"translation":"televisão","explanation":["Das Fernsehen é um substantivo neutro que significa televisão como meio de comunicação ou programação televisiva.","É usado normalmente apenas no singular.","Não confunda das Fernsehen, o substantivo, com fernsehen, o verbo “assistir à televisão”."],"examples":[{"de":"Was gibt es heute im Fernsehen?","pt":"O que vai passar hoje na televisão?"},{"de":"Was gibt es heute im Fernsehen?","pt":"Está passando um filme na televisão."},{"de":"Im Fernsehen läuft ein Film.","pt":"A programação da televisão está chata hoje."}],"tip":["Para a ação, use fernsehen: Ich sehe fern.","Para a televisão como meio ou programação, use das Fernsehen."],"important":["Das Fernsehen é um substantivo neutro e normalmente não tem plural.","A forma correta é das Fernsehen, não die Fernsehen.","Ação: fernsehen — ich sehe fern. Meio ou programação: das Fernsehen."],"id":"a1-fernsehen-study","layout":"standardStudy"}}
-**Note:** Para o DE “Fernsehen”, corrigi as traduções letãs e a confusão com o verbo para apresentar corretamente o substantivo “televisão” como meio ou programação.
+**NEW (OWNER mapping):** {"de":"Fernsehen","lv":"televisão","level":"A1","de_article":"das","study":{"translation":"televisão","explanation":["Das Fernsehen é um substantivo neutro que significa televisão como meio de comunicação ou programação televisiva.","É usado normalmente apenas no singular.","Não confunda das Fernsehen, o substantivo, com fernsehen, o verbo “assistir à televisão”."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"O que vai passar hoje na televisão?","pt":"O que vai passar hoje na televisão?"},{"de":"Was gibt es heute im Fernsehen?","lv":"O que vai passar hoje na televisão?","pt":"O que vai passar hoje na televisão?"},{"de":"Im Fernsehen läuft ein Film.","lv":"Está passando um filme na televisão.","pt":"Está passando um filme na televisão."}],"tip":["Para a ação, use fernsehen: Ich sehe fern.","Para a televisão como meio ou programação, use das Fernsehen."],"important":["Das Fernsehen é um substantivo neutro e normalmente não tem plural.","A forma correta é das Fernsehen, não die Fernsehen.","Ação: fernsehen — ich sehe fern. Meio ou programação: das Fernsehen."],"id":"a1-fernsehen-study","layout":"standardStudy"}}
+**Note:** Corrijo as traduções deslocadas nos exemplos de Fernsehen, preservando o substantivo televisão.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -1468,15 +1476,18 @@
     "examples": [
       {
         "de": "Was gibt es heute im Fernsehen?",
+        "lv": "O que vai passar hoje na televisão?",
         "pt": "O que vai passar hoje na televisão?"
       },
       {
         "de": "Was gibt es heute im Fernsehen?",
-        "pt": "Está passando um filme na televisão."
+        "lv": "O que vai passar hoje na televisão?",
+        "pt": "O que vai passar hoje na televisão?"
       },
       {
         "de": "Im Fernsehen läuft ein Film.",
-        "pt": "A programação da televisão está chata hoje."
+        "lv": "Está passando um filme na televisão.",
+        "pt": "Está passando um filme na televisão."
       }
     ],
     "tip": [
@@ -1509,15 +1520,15 @@
 **CURRENT (captured scope):** {"study.translation":"Pesquisar • Considere","study.examples":"[{\"de\":\"Ich finde meinen Schlüssel.\",\"lv\":\"Es nevaru atrast savu atslēgu.\"},{\"de\":\"Ich finde das gut.\",\"lv\":\"Você encontrou seu telefone?\"},{\"de\":\"Wie findest du den Film?\",\"lv\":\"A bolsa masculina é um labirinto.\"},{\"de\":\"Wie findest du den Film?\",\"lv\":\"-Então, o que você acha do filme?\"}]","study.explanation":"[\"Adestramento Galvenā: finden visbiežāk nozīmē atrast.\",\"Sarunās encontra Уoti bieži nozīmē arī uzskatīt vai domāt par kaut ko.\",\"Ja runa ir par pazaudētu lagu, tulko kā atrast.\",\"Se isso acontecer com o viedokli, tulko kā uzskatīt vai šˈist.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"finden","lv":"encontrar","level":"A1","study":{"translation":"encontrar • achar","explanation":["A ideia principal de finden é encontrar algo ou alguém.","Em conversas, finden também pode significar achar ou considerar algo de determinada maneira.","Para algo perdido, traduza finden como encontrar.","Ao expressar uma opinião, traduza finden como achar ou considerar."],"examples":[{"de":"Ich finde meinen Schlüssel.","lv":"Eu encontro minha chave."},{"de":"Ich finde das gut.","lv":"Eu acho isso bom."},{"de":"Wie findest du den Film?","lv":"O que você acha do filme?"}],"comparison":[{"word":"finden","meaning":"encontrar • achar","example":"Ich finde meinen Schlüssel. – Eu encontro minha chave."}],"tip":["finden pode significar encontrar algo ou achar algo bom, ruim ou interessante."],"important":["finden = encontrar ou achar, dependendo do contexto."],"id":"a1-finden","layout":"standardStudy"}}
-**Note:** Para o verbo alemão finden, foram removidos remanescentes de letão e corrigidas as frases para distinguir encontrar de achar.
+**NEW (OWNER mapping):** {"de":"finden","lv":"encontrar • achar","level":"A1","study":{"translation":"encontrar • achar","explanation":["A ideia principal de finden é encontrar algo ou alguém.","Em conversas, finden também pode significar achar ou considerar algo de determinada maneira.","Para algo perdido, traduza finden como encontrar.","Ao expressar uma opinião, traduza finden como achar ou considerar."],"examples":[{"de":"Ich finde meinen Schlüssel.","lv":"Eu encontro minha chave."},{"de":"Ich finde das gut.","lv":"Eu acho isso bom."},{"de":"Wie findest du den Film?","lv":"O que você acha do filme?"}],"comparison":[{"word":"finden","meaning":"encontrar • achar","example":"Ich finde meinen Schlüssel. – Eu encontro minha chave."}],"tip":["finden pode significar encontrar algo ou achar algo bom, ruim ou interessante."],"important":["finden = encontrar ou achar, dependendo do contexto."],"id":"a1-finden","layout":"standardStudy"}}
+**Note:** Explicito no título os dois usos ensinados de finden: encontrar e achar.
 
 ### Gala card (approved NEW composite — full materialized card)
 
 ```json
 {
   "de": "finden",
-  "lv": "encontrar",
+  "lv": "encontrar • achar",
   "level": "A1",
   "study": {
     "translation": "encontrar • achar",
@@ -1575,8 +1586,8 @@
 **CURRENT (captured scope):** {"study.translation":"Sieva • Sieva","study.examples":"[{\"de\":\"Sie ist eine nette Frau.\",\"lv\":\"Você será capaz de fazer isso.\"},{\"de\":\"Das ist meine Frau.\",\"lv\":\"Pila ir mana peneira.\"},{\"de\":\"Wie viele Frauen sind hier?\",\"lv\":\"Se você está procurando por isso?\"},{\"de\":\"Meine Frau arbeitet in Berlin.\",\"lv\":\"Minha esposa trabalha em Berlim.\"},{\"de\":\"Die Frau trägt ein Kleid.\",\"lv\":\"Sete valka claytu.\"},{\"de\":\"Seine Frau ist Ärztin.\",\"lv\":\"Sua esposa é médica.\"}]","study.explanation":"[\"Galvenā tama: die Frau var nozīmēt sievieti (dzimums) vai sievu (laulātā).\",\"Se for simplesmente sobre gênero ou pessoa, então Frau = mulher.\",\"Sim, runa ir par laulāto Partneri, die Frau = sieva (meine Frau = mana sieva).\",\"Piederības vietniekvārds (minha/sua/sua esposa) gandrīz vienmēr nozīmē sievu—laulāto.\",\"Daudzskaitlī: Essas Frauen.\",\"Vīriešu formai o homem ir tāda pati divkārtēja nozīme: vīrietis UN vīrs.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Frau","lv":"mulher","level":"A1","de_article":"die","de_plural":"die Frauen","study":{"translation":"mulher • esposa","explanation":["die Frau pode significar mulher ou esposa, dependendo do contexto.","Quando se fala simplesmente de uma pessoa do sexo feminino, Frau significa mulher.","Quando aparece com um possessivo e se refere à cônjuge, Frau significa esposa.","No plural, Frauen significa mulheres ou esposas, conforme o contexto."],"examples":[{"de":"Sie ist eine nette Frau.","lv":"Ela é uma mulher simpática."},{"de":"Das ist meine Frau.","lv":"Esta é minha esposa."},{"de":"Wie viele Frauen sind hier?","lv":"Quantas mulheres estão aqui?"},{"de":"Meine Frau arbeitet in Berlin.","lv":"Minha esposa trabalha em Berlim."},{"de":"Die Frau trägt ein Kleid.","lv":"A mulher está usando um vestido."},{"de":"Seine Frau ist Ärztin.","lv":"A esposa dele é médica."}],"comparison":[{"word":"Frau","meaning":"mulher • esposa","example":"Das ist meine Frau. – Esta é minha esposa."},{"word":"Mann","meaning":"homem • marido","example":"Das ist mein Mann. – Este é meu marido."}],"tip":["Com meine Frau ou seine Frau, geralmente o significado é esposa."],"important":["die Frau = a mulher ou a esposa; Frauen = mulheres ou esposas."],"id":"a1-frau","layout":"standardStudy"}}
-**Note:** Para o substantivo alemão Frau, a tradução foi corrigida para mulher ou esposa e todos os exemplos e explicações foram naturalizados em português.
+**NEW (OWNER mapping):** {"de":"Frau","lv":"mulher • esposa","level":"A1","de_article":"die","de_plural":"die Frauen","study":{"translation":"mulher • esposa","explanation":["die Frau pode significar mulher ou esposa, dependendo do contexto.","Quando se fala simplesmente de uma pessoa do sexo feminino, Frau significa mulher.","Quando aparece com um possessivo e se refere à cônjuge, Frau significa esposa.","No plural, Frauen significa mulheres ou esposas, conforme o contexto."],"examples":[{"de":"Sie ist eine nette Frau.","lv":"Ela é uma mulher simpática."},{"de":"Das ist meine Frau.","lv":"Esta é minha esposa."},{"de":"Wie viele Frauen sind hier?","lv":"Quantas mulheres estão aqui?"},{"de":"Meine Frau arbeitet in Berlin.","lv":"Minha esposa trabalha em Berlim."},{"de":"Die Frau trägt ein Kleid.","lv":"A mulher está usando um vestido."},{"de":"Seine Frau ist Ärztin.","lv":"A esposa dele é médica."}],"comparison":[{"word":"Frau","meaning":"mulher • esposa","example":"Das ist meine Frau. – Esta é minha esposa."},{"word":"Mann","meaning":"homem • marido","example":"Das ist mein Mann. – Este é meu marido."}],"tip":["Com meine Frau ou seine Frau, geralmente o significado é esposa."],"important":["die Frau = a mulher ou a esposa; Frauen = mulheres ou esposas."],"id":"a1-frau","layout":"standardStudy"}}
+**Note:** Explicito no título os dois sentidos ensinados de Frau: mulher e esposa.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -1585,7 +1596,7 @@
   "de": "Frau",
   "de_article": "die",
   "de_plural": "die Frauen",
-  "lv": "mulher",
+  "lv": "mulher • esposa",
   "level": "A1",
   "study": {
     "translation": "mulher • esposa",
@@ -1738,8 +1749,8 @@
 **CURRENT (captured scope):** {"lv":"futebol","study.translation":"futebol","study.explanation":"[\"Ideia principal: Fußball frequentemente significa futebol como esporte.\",\"Com artigo e significado contável, der Fußball também pode significar bola de futebol.\",\"O plural die Fußbälle significa bolas de futebol, não vários esportes.\"]","study.examples":"[{\"de\":\"Ich spiele Fußball.\",\"lv\":\"eu jogo futebol.\"},{\"de\":\"Der Fußball liegt im Garten.\",\"lv\":\"a bola de futebol está no jardim.\"},{\"de\":\"Wir kaufen zwei Fußbälle.\",\"lv\":\"compramos duas bolas de futebol.\"}]","study.comparison":"[{\"word\":\"Fußball\",\"meaning\":\"futebol como esporte\",\"example\":\"Ich spiele Fußball. – Eu jogo futebol.\"},{\"word\":\"der Fußball\",\"meaning\":\"bola de futebol\",\"example\":\"Der Fußball ist neu. – A bola de futebol é nova.\"}]","study.tip":"[\"Sem artigo, spielen Fußball geralmente significa jogar futebol.\",\"No sentido contável, ein Fußball e die Fußbälle são bola de futebol e bolas de futebol.\"]","study.important":"[\"die Fußbälle significa bolas de futebol.\",\"Como esporte, Fußball é geralmente usado no singular.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Fußball","lv":"futebol","level":"A1","de_article":"der","de_plural":"die Fußbälle","study":{"translation":"futebol","explanation":["Fußball geralmente significa futebol como esporte.","Com artigo e em sentido contável, der Fußball também pode significar bola de futebol.","O plural die Fußbälle significa bolas de futebol, não vários esportes."],"examples":[{"de":"Ich spiele Fußball.","lv":"Eu jogo futebol."},{"de":"Der Fußball liegt im Garten.","lv":"A bola de futebol está no jardim."},{"de":"Wir kaufen zwei Fußbälle.","lv":"Compramos duas bolas de futebol."}],"comparison":[{"word":"Fußball","meaning":"futebol como esporte","example":"Ich spiele Fußball. – Eu jogo futebol."},{"word":"der Fußball","meaning":"bola de futebol","example":"Der Fußball ist neu. – A bola de futebol é nova."}],"tip":["Sem artigo, spielen Fußball geralmente significa jogar futebol.","No sentido contável, ein Fußball e die Fußbälle significam bola de futebol e bolas de futebol."],"important":["die Fußbälle significa bolas de futebol.","Como esporte, Fußball é geralmente usado no singular."],"id":"a1-fussball-study","layout":"standardStudy"}}
-**Note:** Para o alemão Fußball, o conteúdo já estava majoritariamente correto; corrigi a capitalização e a formulação portuguesa para manter futebol como esporte e bola como objeto.
+**NEW (OWNER mapping):** {"de":"Fußball","lv":"futebol • bola de futebol","level":"A1","de_article":"der","de_plural":"die Fußbälle","study":{"translation":"futebol","explanation":["Fußball geralmente significa futebol como esporte.","Com artigo e em sentido contável, der Fußball também pode significar bola de futebol.","O plural die Fußbälle significa bolas de futebol, não vários esportes."],"examples":[{"de":"Ich spiele Fußball.","lv":"Eu jogo futebol."},{"de":"Der Fußball liegt im Garten.","lv":"A bola de futebol está no jardim."},{"de":"Wir kaufen zwei Fußbälle.","lv":"Compramos duas bolas de futebol."}],"comparison":[{"word":"Fußball","meaning":"futebol como esporte","example":"Ich spiele Fußball. – Eu jogo futebol."},{"word":"der Fußball","meaning":"bola de futebol","example":"Der Fußball ist neu. – A bola de futebol é nova."}],"tip":["Sem artigo, spielen Fußball geralmente significa jogar futebol.","No sentido contável, ein Fußball e die Fußbälle significam bola de futebol e bolas de futebol."],"important":["die Fußbälle significa bolas de futebol.","Como esporte, Fußball é geralmente usado no singular."],"id":"a1-fussball-study","layout":"standardStudy"}}
+**Note:** Explicito no título os sentidos de Fußball como esporte e como bola de futebol.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -1748,7 +1759,7 @@
   "de": "Fußball",
   "de_article": "der",
   "de_plural": "die Fußbälle",
-  "lv": "futebol",
+  "lv": "futebol • bola de futebol",
   "level": "A1",
   "study": {
     "translation": "futebol",
@@ -1812,15 +1823,15 @@
 **CURRENT (captured scope):** {"lv":"Barcos","study.translation":"Barcos","study.explanation":"[\"Ideia principal: ganz junto com um substantivo significa inteiro ou tudo em geral.\",\"Antes de um adjetivo ou advérbio, ganz pode significar completamente, totalmente ou bastante.\",\"ganz não é o mesmo que o pronome alles.\"]","study.examples":"[{\"de\":\"Ich arbeite den ganzen Tag.\",\"lv\":\"eu trabalho o dia todo.\"},{\"de\":\"Das ganze Haus ist sauber.\",\"lv\":\"a casa inteira está limpa.\"},{\"de\":\"Das ist ganz sicher.\",\"lv\":\"isso é completamente seguro.\"},{\"de\":\"Das Essen ist ganz gut.\",\"lv\":\"a comida é bem boa.\"}]","study.comparison":"[{\"word\":\"ganz\",\"meaning\":\"inteiro • tudo em geral • completamente\",\"example\":\"der ganze Tag – todo o dia\"},{\"word\":\"alles\",\"meaning\":\"Parafuso\",\"example\":\"Alles ist gut. – Tudo bem.\"}]","study.tip":"[\"Antes de um substantivo, ganz frequentemente significa tudo ou inteiro.\",\"Antes de um adjetivo, ganz frequentemente significa completamente ou bastante.\"]","study.important":"[\"der ganze Tag = todo o dia.\",\"alles = tudo como pronome.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"ganz","lv":"inteiro","level":"A1","study":{"translation":"inteiro • completamente • bastante","explanation":["Com um substantivo, ganz significa inteiro ou todo.","Antes de um adjetivo ou advérbio, ganz pode significar completamente, totalmente ou bastante.","ganz não é o mesmo que o pronome alles."],"examples":[{"de":"Ich arbeite den ganzen Tag.","lv":"Eu trabalho o dia todo."},{"de":"Das ganze Haus ist sauber.","lv":"A casa inteira está limpa."},{"de":"Das ist ganz sicher.","lv":"Isso é completamente certo."},{"de":"Das Essen ist ganz gut.","lv":"A comida é bastante boa."}],"comparison":[{"word":"ganz","meaning":"inteiro • completamente • bastante","example":"der ganze Tag – o dia todo"},{"word":"alles","meaning":"tudo","example":"Alles ist gut. – Está tudo bem."}],"tip":["Antes de um substantivo, ganz frequentemente significa todo ou inteiro.","Antes de um adjetivo, ganz pode significar completamente ou bastante."],"important":["der ganze Tag = todo o dia.","alles = tudo como pronome."],"id":"a1-ganz-study","layout":"standardStudy"}}
-**Note:** Para o adjetivo alemão ganz, substituí o incorreto Barcos por inteiro e corrigi o contraste com alles, que significa tudo.
+**NEW (OWNER mapping):** {"de":"ganz","lv":"inteiro • completamente • bastante","level":"A1","study":{"translation":"inteiro • completamente • bastante","explanation":["Com um substantivo, ganz significa inteiro ou todo.","Antes de um adjetivo ou advérbio, ganz pode significar completamente, totalmente ou bastante.","ganz não é o mesmo que o pronome alles."],"examples":[{"de":"Ich arbeite den ganzen Tag.","lv":"Eu trabalho o dia todo."},{"de":"Das ganze Haus ist sauber.","lv":"A casa inteira está limpa."},{"de":"Das ist ganz sicher.","lv":"Isso é completamente certo."},{"de":"Das Essen ist ganz gut.","lv":"A comida é bastante boa."}],"comparison":[{"word":"ganz","meaning":"inteiro • completamente • bastante","example":"der ganze Tag – o dia todo"},{"word":"alles","meaning":"tudo","example":"Alles ist gut. – Está tudo bem."}],"tip":["Antes de um substantivo, ganz frequentemente significa todo ou inteiro.","Antes de um adjetivo, ganz pode significar completamente ou bastante."],"important":["der ganze Tag = todo o dia.","alles = tudo como pronome."],"id":"a1-ganz-study","layout":"standardStudy"}}
+**Note:** Alinho o título de ganz aos três usos ensinados: inteiro, completamente e bastante.
 
 ### Gala card (approved NEW composite — full materialized card)
 
 ```json
 {
   "de": "ganz",
-  "lv": "inteiro",
+  "lv": "inteiro • completamente • bastante",
   "level": "A1",
   "study": {
     "translation": "inteiro • completamente • bastante",
@@ -2046,8 +2057,8 @@
 **CURRENT (captured scope):** {"lv":"Darzeņi","study.explanation":"[\"Domação de Galvenā: Dārzeņi kopumā. Vācu valodā nav daudzskaitļa forma *die Gemüse.\",\"O vegetal galvenokārt nozīmē: dārzeņi kopumā.\",\"Bieži raksturo: nekatrā dzimtē (tikai venuskaitlī).\"]","study.examples.lv":null}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Gemüse","lv":"legumes","level":"A1","de_article":"das","study":{"translation":"legumes","explanation":["Gemüse significa legumes ou verduras em geral.","Em alemão, Gemüse é normalmente usado no singular e não tem um plural comum com o sentido geral de vegetais.","A palavra é um substantivo neutro: das Gemüse."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Eu gosto de comer legumes."},{"de":"Ich esse gern Gemüse.","lv":"Os legumes estão frescos."},{"de":"Das Gemüse ist frisch.","lv":"Nós compramos legumes no mercado."}],"comparison":[{"word":"das Gemüse","meaning":"legumes • verduras em geral","example":"Das Gemüse ist frisch. – Os legumes estão frescos."}],"tip":["Use das Gemüse para falar de legumes e verduras em geral."],"important":["das Gemüse é normalmente usado no singular em alemão."],"id":"a1-gemuese","layout":"standardStudy"}}
-**Note:** Para o substantivo alemão Gemüse, corrigi Darzeņi e as explicações em letão para legumes, com exemplos portugueses e a indicação correta do gênero neutro.
+**NEW (OWNER mapping):** {"de":"Gemüse","lv":"legumes","level":"A1","de_article":"das","study":{"translation":"legumes","explanation":["Gemüse significa legumes ou verduras em geral.","Em alemão, Gemüse é normalmente usado no singular e não tem um plural comum com o sentido geral de vegetais.","A palavra é um substantivo neutro: das Gemüse."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Eu gosto de comer legumes."},{"de":"Ich esse gern Gemüse.","lv":"Eu gosto de comer legumes."},{"de":"Das Gemüse ist frisch.","lv":"Os legumes estão frescos."}],"comparison":[{"word":"das Gemüse","meaning":"legumes • verduras em geral","example":"Das Gemüse ist frisch. – Os legumes estão frescos."}],"tip":["Use das Gemüse para falar de legumes e verduras em geral."],"important":["das Gemüse é normalmente usado no singular em alemão."],"id":"a1-gemuese","layout":"standardStudy"}}
+**Note:** Corrijo as traduções deslocadas e duplicadas nos exemplos de Gemüse.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -2071,11 +2082,11 @@
       },
       {
         "de": "Ich esse gern Gemüse.",
-        "lv": "Os legumes estão frescos."
+        "lv": "Eu gosto de comer legumes."
       },
       {
         "de": "Das Gemüse ist frisch.",
-        "lv": "Nós compramos legumes no mercado."
+        "lv": "Os legumes estão frescos."
       }
     ],
     "comparison": [
@@ -3005,18 +3016,18 @@
 **CURRENT (captured scope):** {"lv":"Em • Em • Onde?","study.translation":"Em • Em • Onde?","study.explanation":"[\"Ins é uma abreviatura da preposição in e do artigo das.\",\"Forma Pilnā: em gravata (kurp?).\",\"Happy ar nekatras dzimtes Laatvārdiem, kad atbild uz jautājumu kurp? —kustība uz iekšu.\",\"Bieži ar darbības vārdiem: gehen, fahren, kommen, vazio, stecken.\",\"Praksē gandrīz vienmēr aqui, Nevis pilno in das.\"]","study.examples":"[{\"de\":\"Ich gehe ins Kino.\",\"lv\":\"Bem, sim. Você sabe mais do que eu.\"},{\"de\":\"Sie geht ins Bett.\",\"lv\":\"Venha e veja.\"},{\"de\":\"Wir fahren ins Ausland.\",\"lv\":\"Mēs braucam uz ārzemēm.\"},{\"de\":\"Komm ins Haus!\",\"lv\":\"Eu nasci Maia!\"},{\"de\":\"Er steckt das Geld in den Geldbeutel.\",\"lv\":\"Ele coloca o dinheiro na carteira.\"},{\"de\":\"Wir gehen ins Museum.\",\"lv\":\"Mēs ejam uz muzeju.\"},{\"de\":\"Sie legt die Blumen ins Wasser.\",\"lv\":\"Viņa liek zeedus ūdenī.\"},{\"de\":\"Fahr bitte ins Zentrum.\",\"lv\":\"Lūdzu, brauc uz centru.\"}]","study.comparison":"[{\"word\":\"ins\",\"meaning\":\"Dentro, onde? (Continuação)\",\"example\":\"ins Kino – Cinema\"},{\"word\":\"im\",\"meaning\":\"Dentro de onde? (A quem?)\",\"example\":\"im Kino – Cinema\"},{\"word\":\"in\",\"meaning\":\"Iekšā / uz (ar patstāvīgu artikulu)\",\"example\":\"in die Stadt – Uz pilsētu\"},{\"word\":\"aufs\",\"meaning\":\"Na superfície (também conhecido como.)\",\"example\":\"aufs Dach – Ouz jumta\"},{\"word\":\"zum\",\"meaning\":\"Uz/torta (pente?)\",\"example\":\"zum Arzt – Bolo All'arsta\"}]","study.tip":"[\"Lembre-se: in + das → ins (para onde?, para onde?).\",\"Para onde? → ins; onde? → im — este é o ponto principal de diferença!\"]","study.important":"[\"ins = in das, apenas com substantivos neutros em acusativo.\",\"Responde para onde?, não onde? — movimento, não localização.\",\"Para gênero masculino: in den Wald; para feminino: in die Schule.\",\"Não confunda: ins Kino gehen (ir ao cinema) vs. im Kino sein (estar no cinema).\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"ins","lv":"Dentro • para dentro • para onde?","level":"A1","study":{"translation":"Dentro • para dentro • para onde?","explanation":["Ins é a contração de in e das.","Usa-se com substantivos neutros no acusativo, indicando movimento para dentro de algum lugar.","É comum com verbos como gehen, fahren, kommen e stecken.","Na prática, ins é muito mais comum do que a forma não contraída in das."],"examples":[{"de":"Ich gehe ins Kino.","lv":"Eu vou ao cinema."},{"de":"Sie geht ins Bett.","lv":"Ela vai para a cama."},{"de":"Wir fahren ins Ausland.","lv":"Nós viajamos para o exterior."},{"de":"Komm ins Haus!","lv":"Venha para dentro de casa!"},{"de":"Er steckt das Geld in den Geldbeutel.","lv":"Ele coloca o dinheiro na carteira."},{"de":"Wir gehen ins Museum.","lv":"Nós vamos ao museu."},{"de":"Sie legt die Blumen ins Wasser.","lv":"Ela coloca as flores na água."},{"de":"Fahr bitte ins Zentrum.","lv":"Por favor, vá de carro para o centro."}],"comparison":[{"word":"ins","meaning":"para dentro de; para onde?","example":"ins Kino – ao cinema"},{"word":"im","meaning":"dentro de; onde?","example":"im Kino – no cinema"},{"word":"in","meaning":"em/para dentro de, com o artigo separado","example":"in die Stadt – para a cidade"},{"word":"aufs","meaning":"para cima de; para onde?","example":"aufs Dach – para o telhado"},{"word":"zum","meaning":"para o; em direção ao","example":"zum Arzt – ao médico"}],"tip":["Lembre-se: in + das = ins.","Para onde? → ins; onde? → im. Esta é a principal diferença."],"important":["Ins = in das, usado com substantivos neutros no acusativo.","Ins responde a para onde? e indica movimento, não localização.","Com substantivos masculinos usa-se in den, e com femininos, in die.","Não confunda: ins Kino gehen = ir ao cinema; im Kino sein = estar no cinema."],"id":"a1-ins","layout":"standardStudy"}}
-**Note:** Corrijo a tradução de DE “ins” para a contração portuguesa correspondente ao sentido de movimento para dentro, eliminando os remanescentes em letão e os exemplos incoerentes.
+**NEW (OWNER mapping):** {"de":"ins","lv":"para dentro de","level":"A1","study":{"translation":"para dentro de","explanation":["Ins é a contração de in e das.","Usa-se com substantivos neutros no acusativo, indicando movimento para dentro de algum lugar.","É comum com verbos como gehen, fahren, kommen e stecken.","Na prática, ins é muito mais comum do que a forma não contraída in das."],"examples":[{"de":"Ich gehe ins Kino.","lv":"Eu vou ao cinema."},{"de":"Sie geht ins Bett.","lv":"Ela vai para a cama."},{"de":"Wir fahren ins Ausland.","lv":"Nós viajamos para o exterior."},{"de":"Komm ins Haus!","lv":"Venha para dentro de casa!"},{"de":"Er steckt das Geld in den Geldbeutel.","lv":"Ele coloca o dinheiro na carteira."},{"de":"Wir gehen ins Museum.","lv":"Nós vamos ao museu."},{"de":"Sie legt die Blumen ins Wasser.","lv":"Ela coloca as flores na água."},{"de":"Fahr bitte ins Zentrum.","lv":"Por favor, vá de carro para o centro."}],"comparison":[{"word":"ins","meaning":"para dentro de; para onde?","example":"ins Kino – ao cinema"},{"word":"im","meaning":"dentro de; onde?","example":"im Kino – no cinema"},{"word":"in","meaning":"em/para dentro de, com o artigo separado","example":"in die Stadt – para a cidade"},{"word":"aufs","meaning":"para cima de; para onde?","example":"aufs Dach – para o telhado"},{"word":"zum","meaning":"para o; em direção ao","example":"zum Arzt – ao médico"}],"tip":["Lembre-se: in + das = ins.","Para onde? → ins; onde? → im. Esta é a principal diferença."],"important":["Ins = in das, usado com substantivos neutros no acusativo.","Ins responde a para onde? e indica movimento, não localização.","Com substantivos masculinos usa-se in den, e com femininos, in die.","Não confunda: ins Kino gehen = ir ao cinema; im Kino sein = estar no cinema."],"id":"a1-ins","layout":"standardStudy"}}
+**Note:** Substituo o título não tradutório de ins pela equivalência semântica para dentro de.
 
 ### Gala card (approved NEW composite — full materialized card)
 
 ```json
 {
   "de": "ins",
-  "lv": "Dentro • para dentro • para onde?",
+  "lv": "para dentro de",
   "level": "A1",
   "study": {
-    "translation": "Dentro • para dentro • para onde?",
+    "translation": "para dentro de",
     "explanation": [
       "Ins é a contração de in e das.",
       "Usa-se com substantivos neutros no acusativo, indicando movimento para dentro de algum lugar.",
@@ -3115,15 +3126,15 @@
 **CURRENT (captured scope):** {"lv":"Amarelo (por cilvēkiem)","study.translation":"Amarelo (por cilvēkiem)","study.explanation":"[\"Galvenā doma: jung nozīmē jauns vecuma ziņā — lateo par cilvēkiem un dzīvniekiem, nem par Laatām.\",\"Jovem raksturo vecumu - estatísticas divertidas vão para alt (vecs).\",\"Latviešu valodā vārdam jauns ir divas nozīmes: jauns vecumā (jung) un jauns/nesen radits (neu).\",\"Para coisas recém-fabricadas ou adquiridas, use neu, ne jung.\",\"Jung Laato arī pārnestā nozīmē: jauna paaudze, jauns pāris, jauni cilvēki.\",\"Ir arī Laatvārds die Jugend (jaunatne, jaunība).\"]","study.examples":"[{\"de\":\"Sie ist noch jung.\",\"lv\":\"Ele ainda é jovem.\"},{\"de\":\"Der Hund ist jung.\",\"lv\":\"Os únicos são os jovens.\"},{\"de\":\"Wir sind noch jung.\",\"lv\":\"Até breve.\"},{\"de\":\"Er sieht sehr jung aus.\",\"lv\":\"Viņš izskatās ųoti amarelo.\"},{\"de\":\"Das ist ein junges Paar.\",\"lv\":\"Muita Paris amarela.\"},{\"de\":\"Die junge Frau lächelt.\",\"lv\":\"Giaunā sieviete smaida.\"},{\"de\":\"Mein Bruder ist jünger als ich.\",\"lv\":\"Mans brālis ir jaunāks nekā es.\"}]","study.tip":"[\"jung é para idade (pessoas, animais) — se falar sobre coisas recentemente criadas, use neu.\",\"Oposto: jung ↔ alt (jovem ↔ velho).\"]","study.important":"[\"jung descreve a idade, não a novidade de uma coisa.\",\"Para coisas novas (telefone, carro, casa), use neu, não jung.\",\"Incorreto: Mein Handy ist jung. → Correto: Mein Handy ist neu.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"jung","lv":"jovem (para pessoas e animais)","level":"A1","study":{"translation":"jovem","explanation":["Jung significa jovem em idade e é usado principalmente para pessoas e animais.","Para coisas recém-fabricadas ou adquiridas, usa-se neu, não jung.","Jung também aparece em expressões como jovem geração, jovem casal e jovens pessoas.","O substantivo die Jugend significa juventude."],"examples":[{"de":"Sie ist noch jung.","lv":"Ela ainda é jovem."},{"de":"Der Hund ist jung.","lv":"O cachorro é jovem."},{"de":"Wir sind noch jung.","lv":"Nós ainda somos jovens."},{"de":"Er sieht sehr jung aus.","lv":"Ele parece muito jovem."},{"de":"Das ist ein junges Paar.","lv":"Este é um casal jovem."},{"de":"Die junge Frau lächelt.","lv":"A jovem sorri."},{"de":"Mein Bruder ist jünger als ich.","lv":"Meu irmão é mais jovem do que eu."}],"tip":["Jung refere-se à idade de pessoas e animais; para coisas recentemente criadas, use neu.","O oposto de jung é alt: jovem ↔ velho."],"important":["Jung descreve a idade, não a novidade de uma coisa.","Para coisas novas, como um telefone, carro ou casa, use neu, não jung.","Incorreto: Mein Handy ist jung. Correto: Mein Handy ist neu."],"id":"a1-jung","layout":"standardStudy"}}
-**Note:** Corrijo DE “jung” de “amarelo” para “jovem”, distinguindo idade de novidade e substituindo todas as frases contaminadas por letão ou sem sentido.
+**NEW (OWNER mapping):** {"de":"jung","lv":"jovem","level":"A1","study":{"translation":"jovem","explanation":["Jung significa jovem em idade e é usado principalmente para pessoas e animais.","Para coisas recém-fabricadas ou adquiridas, usa-se neu, não jung.","Jung também aparece em expressões como jovem geração, jovem casal e jovens pessoas.","O substantivo die Jugend significa juventude."],"examples":[{"de":"Sie ist noch jung.","lv":"Ela ainda é jovem."},{"de":"Der Hund ist jung.","lv":"O cachorro é jovem."},{"de":"Wir sind noch jung.","lv":"Nós ainda somos jovens."},{"de":"Er sieht sehr jung aus.","lv":"Ele parece muito jovem."},{"de":"Das ist ein junges Paar.","lv":"Este é um casal jovem."},{"de":"Die junge Frau lächelt.","lv":"A jovem sorri."},{"de":"Mein Bruder ist jünger als ich.","lv":"Meu irmão é mais jovem do que eu."}],"tip":["Jung refere-se à idade de pessoas e animais; para coisas recentemente criadas, use neu.","O oposto de jung é alt: jovem ↔ velho."],"important":["Jung descreve a idade, não a novidade de uma coisa.","Para coisas novas, como um telefone, carro ou casa, use neu, não jung.","Incorreto: Mein Handy ist jung. Correto: Mein Handy ist neu."],"id":"a1-jung","layout":"standardStudy"}}
+**Note:** Simplifico o título de jung para jovem; a restrição pedagógica permanece na explicação.
 
 ### Gala card (approved NEW composite — full materialized card)
 
 ```json
 {
   "de": "jung",
-  "lv": "jovem (para pessoas e animais)",
+  "lv": "jovem",
   "level": "A1",
   "study": {
     "translation": "jovem",
@@ -3193,15 +3204,15 @@
 **CURRENT (captured scope):** {"lv":"Nevi • Nekads","study.translation":"Nevi • Nekads","study.explanation":"[\"Adestramento Galvenā: nenhum artigo nolieguma, kas noliedz lietvārdu — latviski atkarībā no konteksta neviens vai nekāds.\",\"Kein locījas tāpat kā ein (kein/keine/keinen...) un stāv latevārda priekšā.\",\"Ar skaitāmiem Laatvārdiem (cilvēkiem) kein bieži tulko kā neviens (kein Mensch = neviens cilvēks).\",\"Ar nesaitāmiem vai abstraktiem Laatvārdiem kein bieži tulko kā nekāds/nav vispār (kein Geld = nekādas naudas/nav naudas).\",\"Kein noliedz veselu Laatvārdu, ne tikai darbības vārdu (salīdzini ar nicht).\"]","study.examples":"[{\"de\":\"Ich habe kein Geld.\",\"lv\":\"Homem de navegação nu.\"},{\"de\":\"Es gibt keine Milch mehr.\",\"lv\":\"Navegação completa do Nemaz.\"},{\"de\":\"Kein Mensch war da.\",\"lv\":\"Nevi cilvēks tur nebija.\"},{\"de\":\"Ich habe keine Zeit.\",\"lv\":\"Homem de navegação Laika.\"},{\"de\":\"Das ist kein Problem.\",\"lv\":\"E tudo bem.\"},{\"de\":\"Wir haben keine Kinder.\",\"lv\":\"Mães nav bērnu.\"}]","study.tip":"[\"kein nega o substantivo (kein + substantivo), nicht nega o verbo ou a frase.\",\"kein se declina como ein: kein/keine/keinen/keiner.\"]","study.important":"[\"kein + substantivo = 'não há nenhum/nenhuma X', não 'não um X'.\",\"Incorreto: Ich habe nicht ein Geld. → Correto: Ich habe kein Geld.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"kein","lv":"nenhum • nenhum tipo de","level":"A1","study":{"translation":"nenhum • nenhuma","explanation":["Kein é um determinante negativo que nega um substantivo; em português, geralmente corresponde a nenhum ou nenhuma.","Kein declina como ein: kein, keine, keinen, keiner e outras formas.","Com substantivos contáveis, pode significar nenhum, como em kein Mensch = nenhuma pessoa.","Com substantivos incontáveis ou abstratos, pode significar nenhum ou não há, como em kein Geld = nenhum dinheiro ou não há dinheiro.","Kein nega um substantivo ou grupo nominal, enquanto nicht nega o verbo ou a frase inteira."],"examples":[{"de":"Ich habe kein Geld.","lv":"Eu não tenho dinheiro."},{"de":"Es gibt keine Milch mehr.","lv":"Não há mais leite."},{"de":"Kein Mensch war da.","lv":"Nenhuma pessoa estava lá."},{"de":"Ich habe keine Zeit.","lv":"Eu não tenho tempo."},{"de":"Das ist kein Problem.","lv":"Isso não é um problema."},{"de":"Wir haben keine Kinder.","lv":"Nós não temos filhos."}],"tip":["Kein nega o substantivo: kein + substantivo; nicht nega o verbo ou a frase.","Kein se declina como ein: kein, keine, keinen e keiner."],"important":["Kein + substantivo significa não há nenhum ou nenhuma coisa, e não simplesmente não um.","Incorreto: Ich habe nicht ein Geld. Correto: Ich habe kein Geld."],"id":"a1-kein","layout":"standardStudy"}}
-**Note:** Corrijo DE “kein” para “nenhum/nenhuma”, com exemplos que distinguem a negação de substantivos por kein da negação frasal por nicht.
+**NEW (OWNER mapping):** {"de":"kein","lv":"nenhum • nenhuma","level":"A1","study":{"translation":"nenhum • nenhuma","explanation":["Kein é um determinante negativo que nega um substantivo; em português, geralmente corresponde a nenhum ou nenhuma.","Kein declina como ein: kein, keine, keinen, keiner e outras formas.","Com substantivos contáveis, pode significar nenhum, como em kein Mensch = nenhuma pessoa.","Com substantivos incontáveis ou abstratos, pode significar nenhum ou não há, como em kein Geld = nenhum dinheiro ou não há dinheiro.","Kein nega um substantivo ou grupo nominal, enquanto nicht nega o verbo ou a frase inteira."],"examples":[{"de":"Ich habe kein Geld.","lv":"Eu não tenho dinheiro."},{"de":"Es gibt keine Milch mehr.","lv":"Não há mais leite."},{"de":"Kein Mensch war da.","lv":"Nenhuma pessoa estava lá."},{"de":"Ich habe keine Zeit.","lv":"Eu não tenho tempo."},{"de":"Das ist kein Problem.","lv":"Isso não é um problema."},{"de":"Wir haben keine Kinder.","lv":"Nós não temos filhos."}],"tip":["Kein nega o substantivo: kein + substantivo; nicht nega o verbo ou a frase.","Kein se declina como ein: kein, keine, keinen e keiner."],"important":["Kein + substantivo significa não há nenhum ou nenhuma coisa, e não simplesmente não um.","Incorreto: Ich habe nicht ein Geld. Correto: Ich habe kein Geld."],"id":"a1-kein","layout":"standardStudy"}}
+**Note:** Corrijo o título de kein para as formas portuguesas nenhum e nenhuma, sem a paráfrase redundante.
 
 ### Gala card (approved NEW composite — full materialized card)
 
 ```json
 {
   "de": "kein",
-  "lv": "nenhum • nenhum tipo de",
+  "lv": "nenhum • nenhuma",
   "level": "A1",
   "study": {
     "translation": "nenhum • nenhuma",
@@ -3267,8 +3278,8 @@
 **CURRENT (captured scope):** {"lv":"Pazit","study.translation":"Pazit","study.explanation":"[\"Galvenā doma: Pazīt cilvēku, vietu vai lagu no pieredzes.\",\"Conhecendo galvenokārt nozīmē: personīga pazīšana.\",\"Bieži raksturo: cilvēkus, proíbe.\",\"Kennen Laato, si pazīsti cilvēku, vietu vai Laatu no personīgās pieredzes.\"]","study.examples":"[{\"de\":\"Ich kenne ihn.\",\"lv\":\"É o verdadeiro pazīstu.\"},{\"de\":\"Kennen Sie diese Frau?\",\"lv\":\"Vá para a pazīstat šo sievieti?\"},{\"de\":\"Wo habt ihr euch kennengelernt?\",\"lv\":\"Você quer compartilhar seus pensamentos?\"},{\"de\":\"Ich kenne ihn.\",\"lv\":\"É o verdadeiro pazīstu.\"},{\"de\":\"kennen\",\"lv\":\"Pazit • Excluir\"}]","study.comparison":"[{\"word\":\"kennen\",\"meaning\":\"Pazīt (cilvēku, vietu, Laatu)\",\"example\":\"Ich kenne ihn. – É o verdadeiro pazīstu.\"},{\"word\":\"wissen\",\"meaning\":\"Zināt (fato, informação)\",\"example\":\"Ich weiß seinen Namen. – É zinu viņa vārdu.\"}]","study.tip":"[\"kennen = conhecer\",\"Use kennen quando o contexto corresponder a este significado.\"]","study.important":"[\"kennen = conhecer uma pessoa/lugar.\",\"kennen = conhecer.\",\"Conhecer uma pessoa, lugar ou coisa pela experiência.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"kennen","lv":"conhecer","level":"A1","study":{"translation":"conhecer","explanation":["Kennen significa conhecer uma pessoa, um lugar ou algo por experiência ou familiaridade.","Usa-se principalmente para pessoas, lugares e coisas que se conhecem, não para fatos ou informações isoladas.","Para fatos e informações, usa-se wissen."],"examples":[{"de":"Ich kenne ihn.","lv":"Eu o conheço."},{"de":"Kennen Sie diese Frau?","lv":"O senhor conhece esta mulher?"},{"de":"Wo habt ihr euch kennengelernt?","lv":"Onde vocês se conheceram?"},{"de":"Ich kenne ihn.","lv":"Eu o conheço bem."},{"de":"kennen","lv":"Eu conheço esta cidade."},{"de":"kennen","lv":"conhecer"}],"comparison":[{"word":"kennen","meaning":"conhecer uma pessoa, um lugar ou algo","example":"Ich kenne ihn. – Eu o conheço."},{"word":"wissen","meaning":"saber um fato ou uma informação","example":"Ich weiß seinen Namen. – Eu sei o nome dele."}],"tip":["Kennen = conhecer; use-o quando houver familiaridade com uma pessoa, lugar ou coisa.","Para saber um fato ou uma informação, use wissen."],"important":["Kennen significa conhecer uma pessoa, um lugar ou uma coisa por experiência.","Wissen significa saber um fato ou uma informação."],"id":"a1-kennen-study","layout":"standardStudy"}}
-**Note:** Corrijo DE “kennen” para “conhecer”, removendo as formas letãs e diferenciando corretamente kennen, ligado à familiaridade, de wissen, ligado a fatos.
+**NEW (OWNER mapping):** {"de":"kennen","lv":"conhecer","level":"A1","study":{"translation":"conhecer","explanation":["Kennen significa conhecer uma pessoa, um lugar ou algo por experiência ou familiaridade.","Usa-se principalmente para pessoas, lugares e coisas que se conhecem, não para fatos ou informações isoladas.","Para fatos e informações, usa-se wissen."],"examples":[{"de":"Ich kenne ihn.","lv":"Eu o conheço."},{"de":"Kennen Sie diese Frau?","lv":"O senhor conhece esta mulher?"},{"de":"Wo habt ihr euch kennengelernt?","lv":"Onde vocês se conheceram?"},{"de":"Ich kenne ihn.","lv":"Eu o conheço."},{"de":"kennen","lv":"conhecer"}],"comparison":[{"word":"kennen","meaning":"conhecer uma pessoa, um lugar ou algo","example":"Ich kenne ihn. – Eu o conheço."},{"word":"wissen","meaning":"saber um fato ou uma informação","example":"Ich weiß seinen Namen. – Eu sei o nome dele."}],"tip":["Kennen = conhecer; use-o quando houver familiaridade com uma pessoa, lugar ou coisa.","Para saber um fato ou uma informação, use wissen."],"important":["Kennen significa conhecer uma pessoa, um lugar ou uma coisa por experiência.","Wissen significa saber um fato ou uma informação."],"id":"a1-kennen-study","layout":"standardStudy"}}
+**Note:** Realinho os exemplos de kennen, removo a linha acrescentada e restauro a estrutura DE original de cinco exemplos.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -3300,11 +3311,7 @@
       },
       {
         "de": "Ich kenne ihn.",
-        "lv": "Eu o conheço bem."
-      },
-      {
-        "de": "kennen",
-        "lv": "Eu conheço esta cidade."
+        "lv": "Eu o conheço."
       },
       {
         "de": "kennen",
@@ -3352,8 +3359,8 @@
 **CURRENT (captured scope):** {"lv":"Labirintos","study.explanation":"[\"Idéia principal: tamanho ou escopo pequeno.\",\"Pequeno galvenokārt nozīmē: mazs izmērs.\",\"Bieži raksturo: lateas/personas izmēru.\"]","study.examples[].lv":null,"study.tip":"[\"klein = pequeno\",\"Use klein quando o contexto corresponder a este significado.\"]","study.important":"[\"klein = mazs izmērā.\",\"klein = mazs.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"klein","lv":"pequeno","level":"A1","study":{"translation":"pequeno","explanation":["Klein significa pequeno em tamanho, dimensão ou extensão.","Pode descrever objetos, lugares, animais e pessoas de baixa estatura."],"examples":[{"de":"Das Zimmer ist klein.","lv":"A casa é pequena."},{"de":"Das Kind ist noch klein.","lv":"O cachorro é pequeno."},{"de":"Ich habe eine kleine Tasche.","lv":"O quarto é muito pequeno."},{"de":"Ich habe eine kleine Tasche.","lv":"Ela tem mãos pequenas."}],"tip":["Klein = pequeno; use-o para tamanho ou extensão reduzida."],"important":["Klein significa pequeno em tamanho.","O antônimo de klein é groß: pequeno ↔ grande."],"id":"a1-klein-study","layout":"standardStudy"}}
-**Note:** Corrijo DE “klein” de “labirintos” para “pequeno” e completo os exemplos e explicações com português gramatical sobre tamanho reduzido.
+**NEW (OWNER mapping):** {"de":"klein","lv":"pequeno","level":"A1","study":{"translation":"pequeno","explanation":["Klein significa pequeno em tamanho, dimensão ou extensão.","Pode descrever objetos, lugares, animais e pessoas de baixa estatura."],"examples":[{"de":"Das Zimmer ist klein.","lv":"O quarto é pequeno."},{"de":"Das Kind ist noch klein.","lv":"A criança ainda é pequena."},{"de":"Ich habe eine kleine Tasche.","lv":"Eu tenho uma bolsa pequena."},{"de":"Ich habe eine kleine Tasche.","lv":"Eu tenho uma bolsa pequena."},{"de":"Das Kind ist klein.","lv":"A criança é pequena."}],"tip":["Klein = pequeno; use-o para tamanho ou extensão reduzida."],"important":["Klein significa pequeno em tamanho.","O antônimo de klein é groß: pequeno ↔ grande."],"id":"a1-klein-study","layout":"standardStudy"}}
+**Note:** Realinho todas as traduções de klein e restauro o quinto exemplo DE omitido.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -3371,19 +3378,23 @@
     "examples": [
       {
         "de": "Das Zimmer ist klein.",
-        "lv": "A casa é pequena."
+        "lv": "O quarto é pequeno."
       },
       {
         "de": "Das Kind ist noch klein.",
-        "lv": "O cachorro é pequeno."
+        "lv": "A criança ainda é pequena."
       },
       {
         "de": "Ich habe eine kleine Tasche.",
-        "lv": "O quarto é muito pequeno."
+        "lv": "Eu tenho uma bolsa pequena."
       },
       {
         "de": "Ich habe eine kleine Tasche.",
-        "lv": "Ela tem mãos pequenas."
+        "lv": "Eu tenho uma bolsa pequena."
+      },
+      {
+        "de": "Das Kind ist klein.",
+        "lv": "A criança é pequena."
       }
     ],
     "tip": [
@@ -3586,8 +3597,8 @@
 **CURRENT (captured scope):** {"lv":"Vekals","study.translation":"Vekals","study.explanation":"[\"Galvenā tama: der Laden ar lielo burtu an artikulu der ir Laatvārds — mazs veikals.\",\"Carregue o baralho burtu ir darbības vārds — iekraut vai uzlādēt.\",\"A loja ikdienā bieži apzīmē nelielu veikalu (loja dentro da loja = pirkties veikalā).\",\"Daudzskaitlī: estes Läden.\"]","study.examples":"[{\"de\":\"Ich gehe in den Laden.\",\"lv\":\"É você quem é veikalu.\"},{\"de\":\"Der Laden ist geschlossen.\",\"lv\":\"Veikals ir slēgts.\"},{\"de\":\"Es gibt viele Läden hier.\",\"lv\":\"Veja ir daudz veikalu.\"},{\"de\":\"Ich muss mein Handy laden.\",\"lv\":\"Telefones man jāuzlādē.\"}]","study.tip":"[\"der Laden com letra maiúscula — substantivo (loja).\",\"laden com letra minúscula — verbo (carregar/recarregar).\"]","study.important":"[\"der Laden = loja (substantivo).\",\"laden = carregar/recarregar (verbo).\",\"Daudzskaitlī: estes Läden.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Laden","lv":"loja","level":"A1","de_article":"der","de_plural":"die Läden","study":{"translation":"loja","explanation":["Der Laden, com inicial maiúscula e artigo der, é o substantivo que significa loja, geralmente uma loja pequena.","Laden, com inicial minúscula, é o verbo carregar ou recarregar, especialmente um telefone ou uma bateria.","O plural de der Laden é die Läden."],"examples":[{"de":"Ich gehe in den Laden.","lv":"Eu vou à loja."},{"de":"Der Laden ist geschlossen.","lv":"A loja está fechada."},{"de":"Es gibt viele Läden hier.","lv":"Há muitas lojas aqui."},{"de":"Ich muss mein Handy laden.","lv":"Preciso recarregar meu celular."}],"tip":["Der Laden, com letra maiúscula, é o substantivo loja.","Laden, com letra minúscula, é o verbo carregar ou recarregar."],"important":["Der Laden = a loja.","Laden = carregar ou recarregar.","O plural de Laden é Läden."],"id":"a1-laden-study","layout":"standardStudy"}}
-**Note:** Corrijo DE “Laden” para “loja” e esclareço a distinção ortográfica entre o substantivo der Laden e o verbo laden.
+**NEW (OWNER mapping):** {"de":"Laden","lv":"loja","level":"A1","de_article":"der","de_plural":"die Läden","study":{"translation":"loja","explanation":["Der Laden, com inicial maiúscula e artigo der, é o substantivo que significa loja, geralmente uma loja pequena.","laden, com inicial minúscula, é o verbo carregar ou recarregar, especialmente um telefone ou uma bateria.","O plural de der Laden é die Läden."],"examples":[{"de":"Ich gehe in den Laden.","lv":"Eu vou à loja."},{"de":"Der Laden ist geschlossen.","lv":"A loja está fechada."},{"de":"Es gibt viele Läden hier.","lv":"Há muitas lojas aqui."},{"de":"Ich muss mein Handy laden.","lv":"Preciso recarregar meu celular."}],"tip":["Der Laden, com letra maiúscula, é o substantivo loja.","laden, com letra minúscula, é o verbo carregar ou recarregar."],"important":["Der Laden = a loja.","laden = carregar ou recarregar.","O plural de Laden é Läden."],"id":"a1-laden-study","layout":"standardStudy"}}
+**Note:** Corrijo a capitalização do verbo laden nas três explicações que o descrevem como forma minúscula.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -3602,7 +3613,7 @@
     "translation": "loja",
     "explanation": [
       "Der Laden, com inicial maiúscula e artigo der, é o substantivo que significa loja, geralmente uma loja pequena.",
-      "Laden, com inicial minúscula, é o verbo carregar ou recarregar, especialmente um telefone ou uma bateria.",
+      "laden, com inicial minúscula, é o verbo carregar ou recarregar, especialmente um telefone ou uma bateria.",
       "O plural de der Laden é die Läden."
     ],
     "examples": [
@@ -3625,11 +3636,11 @@
     ],
     "tip": [
       "Der Laden, com letra maiúscula, é o substantivo loja.",
-      "Laden, com letra minúscula, é o verbo carregar ou recarregar."
+      "laden, com letra minúscula, é o verbo carregar ou recarregar."
     ],
     "important": [
       "Der Laden = a loja.",
-      "Laden = carregar ou recarregar.",
+      "laden = carregar ou recarregar.",
       "O plural de Laden é Läden."
     ],
     "id": "a1-laden-study",

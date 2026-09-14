@@ -1,14 +1,14 @@
 {
   "batchId": "LRB-079",
-  "sourceCommit": "7ed87fece1926b5a6deed95231ddf910cb78838b",
+  "sourceCommit": "46d1c25852501ef200ba76d01038c6ed476aae54",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC",
+  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_1",
   "cards": [
     {
       "auditId": "LRB079-0001",
       "cardId": "bringen|idx:111",
       "status": "LABOT",
-      "reason": "Corrijo o estudo de bringen para eliminar resíduos letões e distinguir claramente trazer/levar de nehmen e holen.",
+      "reason": "Corrijo os exemplos deslocados de bringen e identifico corretamente nehmen e holen na comparação.",
       "new": {
         "de": "bringen",
         "lv": "trazer • levar",
@@ -29,15 +29,15 @@
             },
             {
               "de": "Ich bringe das Paket zur Post.",
-              "lv": "Traga-me água."
-            },
-            {
-              "de": "Ich bringe die Kinder zur Schule.",
               "lv": "Eu levo o pacote aos correios."
             },
             {
-              "de": "Ich nehme das Buch.",
+              "de": "Ich bringe die Kinder zur Schule.",
               "lv": "Eu levo as crianças à escola."
+            },
+            {
+              "de": "Ich nehme das Buch.",
+              "lv": "Eu pego o livro."
             }
           ],
           "comparison": [
@@ -47,12 +47,12 @@
               "example": "Ich bringe dir ein Buch. – Eu trago um livro para você."
             },
             {
-              "word": "bringen",
+              "word": "nehmen",
               "meaning": "pegar • levar consigo",
               "example": "Ich nehme das Buch. – Eu pego o livro."
             },
             {
-              "word": "bringen",
+              "word": "holen",
               "meaning": "buscar • ir pegar",
               "example": "Ich hole Wasser. – Eu vou buscar água."
             }
@@ -73,7 +73,7 @@
       "auditId": "LRB079-0002",
       "cardId": "da|idx:126",
       "status": "LABOT",
-      "reason": "Corrijo da, cujo sentido espacial é lá/aí, substituindo a explicação contaminada por letão e exemplos em português.",
+      "reason": "Corrijo as três traduções de exemplo de da para que correspondam exatamente às frases alemãs.",
       "new": {
         "de": "da",
         "lv": "lá • aí",
@@ -88,15 +88,15 @@
           "examples": [
             {
               "de": "Da ist mein Auto.",
-              "lv": "Meu livro está ali."
+              "lv": "Meu carro está ali."
             },
             {
               "de": "Ich war da.",
-              "lv": "Estou aí."
+              "lv": "Eu estive lá."
             },
             {
               "de": "Da kommt er.",
-              "lv": "Há uma casa ali."
+              "lv": "Lá vem ele."
             }
           ],
           "comparison": [
@@ -132,13 +132,13 @@
       "auditId": "LRB079-0003",
       "cardId": "das|idx:129",
       "status": "LABOT",
-      "reason": "Corrijo das para apresentar em português o artigo definido neutro e remover as frases letãs e portuguesas corrompidas.",
+      "reason": "Corrijo das como artigo e pronome e realinho as traduções dos exemplos alemães.",
       "new": {
         "de": "das",
-        "lv": "artigo definido neutro",
+        "lv": "artigo definido neutro • isso • isto",
         "level": "A1",
         "study": {
-          "translation": "artigo definido neutro",
+          "translation": "artigo definido neutro • isso • isto",
           "explanation": [
             "Das é o artigo definido usado com substantivos de gênero neutro no nominativo e no acusativo.",
             "Em algumas frases, das também funciona como pronome demonstrativo ou pronome relativo.",
@@ -147,11 +147,11 @@
           "examples": [
             {
               "de": "Das ist mein Auto.",
-              "lv": "O livro é interessante."
+              "lv": "Este é o meu carro."
             },
             {
               "de": "Das ist gut.",
-              "lv": "Este é o meu carro."
+              "lv": "Isso é bom."
             },
             {
               "de": "Das Buch, das ich lese, ist interessant.",
@@ -297,7 +297,7 @@
       "auditId": "LRB079-0006",
       "cardId": "die|idx:137",
       "status": "LABOT",
-      "reason": "Corrijo die para cobrir corretamente os usos feminino e plural, eliminando os exemplos em letão e o erro de gênero.",
+      "reason": "Mantenho os usos feminino e plural de die e retiro do terceiro exemplo o objeto que não existe na frase alemã.",
       "new": {
         "de": "die",
         "lv": "artigo definido feminino • artigo definido plural",
@@ -320,7 +320,7 @@
             },
             {
               "de": "Die Lehrerin erklärt.",
-              "lv": "A professora explica a tarefa."
+              "lv": "A professora explica."
             }
           ],
           "tip": {
@@ -339,7 +339,7 @@
       "auditId": "LRB079-0007",
       "cardId": "dieser|idx:139",
       "status": "LABOT",
-      "reason": "Corrijo dieser para o demonstrativo português este/esse e ajusto os exemplos para refletir corretamente suas formas e usos.",
+      "reason": "Corrijo dieser e removo do padom a palavra letã residual šis, substituindo-a por este.",
       "new": {
         "de": "dieser",
         "lv": "este • esse",
@@ -366,7 +366,7 @@
             }
           ],
           "tip": {
-            "text": "No nominativo masculino, šis corresponde a dieser: Dieser Mann."
+            "text": "No nominativo masculino, este corresponde a dieser: Dieser Mann."
           },
           "important": [
             "Dieser, diese e dieses mudam conforme o gênero e o caso.",
@@ -606,16 +606,16 @@
       "auditId": "LRB079-0012",
       "cardId": "es|idx:167",
       "status": "LABOT",
-      "reason": "Para o DE “es”, removi “Bolsa” e as frases letãs e expliquei corretamente o pronome pessoal e o uso impessoal em frases sobre o clima.",
+      "reason": "Corrijo es como pronome neutro e impessoal e realinho os exemplos Das Kind schläft e Es ist müde.",
       "new": {
         "de": "es",
-        "lv": "isso • pronome impessoal",
+        "lv": "ele • ela • isso • pronome impessoal",
         "level": "A1",
         "study": {
-          "translation": "isso • pronome impessoal",
+          "translation": "ele • ela • isso • pronome impessoal",
           "explanation": [
             "Ideia principal: es é um pronome alemão.",
-            "Pode significar isso ou ser usado em construções impessoais.",
+            "Pode retomar um substantivo neutro, sendo traduzido como ele ou ela conforme o gênero da palavra em português; também pode significar isso ou ser usado em construções impessoais.",
             "Em frases como Es regnet e Es schneit, normalmente não é traduzido diretamente."
           ],
           "examples": [
@@ -629,11 +629,13 @@
             },
             {
               "de": "Das Kind schläft.",
-              "pt": "A criança está dormindo. Ela está cansada."
+              "pt": "A criança está dormindo.",
+              "lv": "A criança está dormindo."
             },
             {
               "de": "Es ist müde.",
-              "pt": "Está nevando."
+              "pt": "Ela está cansada.",
+              "lv": "Ela está cansada."
             }
           ],
           "comparison": [
@@ -717,7 +719,7 @@
       "auditId": "LRB079-0014",
       "cardId": "Essen|idx:691",
       "status": "LABOT",
-      "reason": "Para o DE “Essen”, corrigi a tradução ilegível e reconstruí o cartão nominal como “comida • refeição”, distinguindo-o claramente do verbo essen.",
+      "reason": "Corrijo as três traduções deslocadas do cartão nominal Essen e mantenho a distinção com o verbo essen.",
       "new": {
         "de": "Essen",
         "lv": "comida • refeição",
@@ -733,15 +735,18 @@
           "examples": [
             {
               "de": "Das Essen schmeckt gut.",
-              "pt": "A comida está pronta."
+              "lv": "A comida está saborosa.",
+              "pt": "A comida está saborosa."
             },
             {
               "de": "Was wollt ihr essen?",
-              "pt": "A comida está gostosa."
+              "lv": "O que vocês querem comer?",
+              "pt": "O que vocês querem comer?"
             },
             {
               "de": "Wir essen um 12 Uhr.",
-              "pt": "Nós preparamos a refeição."
+              "lv": "Nós comemos ao meio-dia.",
+              "pt": "Nós comemos ao meio-dia."
             }
           ],
           "comparison": [
@@ -846,16 +851,16 @@
       "auditId": "LRB079-0016",
       "cardId": "euch|idx:170",
       "status": "LABOT",
-      "reason": "Para o DE “euch”, corrigi “Suco • Jumos” e exemplos corrompidos para as funções de objeto “vocês • a vocês”, contrastando-o com ihr e euer.",
+      "reason": "Completo euch com o uso reflexivo se, além das funções de acusativo e dativo já registradas.",
       "new": {
         "de": "euch",
-        "lv": "vocês • a vocês",
+        "lv": "vocês • a vocês • se",
         "level": "A1",
         "study": {
-          "translation": "vocês • a vocês",
+          "translation": "vocês • a vocês • se",
           "explanation": [
             "Euch é a forma de acusativo ou dativo de ihr, usada para falar com várias pessoas de maneira informal.",
-            "Pode significar “vocês” como objeto direto ou “a vocês” como objeto indireto."
+            "Pode significar “vocês” como objeto direto, “a vocês” como objeto indireto ou “se” quando é reflexivo."
           ],
           "examples": [
             {
@@ -897,11 +902,11 @@
             }
           ],
           "tip": {
-            "text": "Euch é usado quando “vocês” recebe a ação ou é o destinatário dela."
+            "text": "Euch é usado quando “vocês” recebe a ação, é o destinatário dela ou aparece em uma construção reflexiva."
           },
           "important": [
             "Euch não significa suco nem qualquer outra palavra semelhante em português.",
-            "A tradução depende da função: “vocês” no acusativo e “a vocês” no dativo.",
+            "A tradução depende da função: “vocês” no acusativo, “a vocês” no dativo e “se” no uso reflexivo.",
             "Ihr é o pronome sujeito; euch é a forma oblíqua correspondente."
           ],
           "id": "a1-euch",
@@ -991,7 +996,7 @@
       "auditId": "LRB079-0018",
       "cardId": "Ferien|idx:694",
       "status": "LABOT",
-      "reason": "Para o DE “Ferien”, corrigi “Brivdienas” e as explicações letãs para o português “férias escolares”, incluindo o uso obrigatório habitual no plural.",
+      "reason": "Mantenho férias escolares no plural e realinho as três traduções dos exemplos alemães.",
       "new": {
         "de": "Ferien",
         "lv": "férias escolares",
@@ -1007,15 +1012,18 @@
           "examples": [
             {
               "de": "In den Ferien fahren wir ans Meer.",
-              "pt": "As férias começam amanhã."
+              "lv": "Nas férias, vamos para o litoral.",
+              "pt": "Nas férias, vamos para o litoral."
             },
             {
               "de": "In den Ferien habe ich viel Zeit.",
-              "pt": "Nas férias, vou para o litoral."
+              "lv": "Nas férias, tenho muito tempo.",
+              "pt": "Nas férias, tenho muito tempo."
             },
             {
               "de": "Was macht ihr in den Ferien?",
-              "pt": "Quando são as férias de verão?"
+              "lv": "O que vocês fazem nas férias?",
+              "pt": "O que vocês fazem nas férias?"
             }
           ],
           "comparison": [
@@ -1105,7 +1113,7 @@
       "auditId": "LRB079-0020",
       "cardId": "Fernsehen|idx:688",
       "status": "LABOT",
-      "reason": "Para o DE “Fernsehen”, corrigi as traduções letãs e a confusão com o verbo para apresentar corretamente o substantivo “televisão” como meio ou programação.",
+      "reason": "Corrijo as traduções deslocadas nos exemplos de Fernsehen, preservando o substantivo televisão.",
       "new": {
         "de": "Fernsehen",
         "lv": "televisão",
@@ -1121,15 +1129,18 @@
           "examples": [
             {
               "de": "Was gibt es heute im Fernsehen?",
+              "lv": "O que vai passar hoje na televisão?",
               "pt": "O que vai passar hoje na televisão?"
             },
             {
               "de": "Was gibt es heute im Fernsehen?",
-              "pt": "Está passando um filme na televisão."
+              "lv": "O que vai passar hoje na televisão?",
+              "pt": "O que vai passar hoje na televisão?"
             },
             {
               "de": "Im Fernsehen läuft ein Film.",
-              "pt": "A programação da televisão está chata hoje."
+              "lv": "Está passando um filme na televisão.",
+              "pt": "Está passando um filme na televisão."
             }
           ],
           "tip": [
@@ -1150,10 +1161,10 @@
       "auditId": "LRB079-0021",
       "cardId": "finden|idx:187",
       "status": "LABOT",
-      "reason": "Para o verbo alemão finden, foram removidos remanescentes de letão e corrigidas as frases para distinguir encontrar de achar.",
+      "reason": "Explicito no título os dois usos ensinados de finden: encontrar e achar.",
       "new": {
         "de": "finden",
-        "lv": "encontrar",
+        "lv": "encontrar • achar",
         "level": "A1",
         "study": {
           "translation": "encontrar • achar",
@@ -1199,10 +1210,10 @@
       "auditId": "LRB079-0022",
       "cardId": "Frau|idx:198",
       "status": "LABOT",
-      "reason": "Para o substantivo alemão Frau, a tradução foi corrigida para mulher ou esposa e todos os exemplos e explicações foram naturalizados em português.",
+      "reason": "Explicito no título os dois sentidos ensinados de Frau: mulher e esposa.",
       "new": {
         "de": "Frau",
-        "lv": "mulher",
+        "lv": "mulher • esposa",
         "level": "A1",
         "de_article": "die",
         "de_plural": "die Frauen",
@@ -1328,10 +1339,10 @@
       "auditId": "LRB079-0024",
       "cardId": "Fußball|idx:218",
       "status": "LABOT",
-      "reason": "Para o alemão Fußball, o conteúdo já estava majoritariamente correto; corrigi a capitalização e a formulação portuguesa para manter futebol como esporte e bola como objeto.",
+      "reason": "Explicito no título os sentidos de Fußball como esporte e como bola de futebol.",
       "new": {
         "de": "Fußball",
-        "lv": "futebol",
+        "lv": "futebol • bola de futebol",
         "level": "A1",
         "de_article": "der",
         "de_plural": "die Fußbälle",
@@ -1385,10 +1396,10 @@
       "auditId": "LRB079-0025",
       "cardId": "ganz|idx:219",
       "status": "LABOT",
-      "reason": "Para o adjetivo alemão ganz, substituí o incorreto Barcos por inteiro e corrigi o contraste com alles, que significa tudo.",
+      "reason": "Alinho o título de ganz aos três usos ensinados: inteiro, completamente e bastante.",
       "new": {
         "de": "ganz",
-        "lv": "inteiro",
+        "lv": "inteiro • completamente • bastante",
         "level": "A1",
         "study": {
           "translation": "inteiro • completamente • bastante",
@@ -1568,7 +1579,7 @@
       "auditId": "LRB079-0028",
       "cardId": "Gemüse|idx:692",
       "status": "LABOT",
-      "reason": "Para o substantivo alemão Gemüse, corrigi Darzeņi e as explicações em letão para legumes, com exemplos portugueses e a indicação correta do gênero neutro.",
+      "reason": "Corrijo as traduções deslocadas e duplicadas nos exemplos de Gemüse.",
       "new": {
         "de": "Gemüse",
         "lv": "legumes",
@@ -1588,11 +1599,11 @@
             },
             {
               "de": "Ich esse gern Gemüse.",
-              "lv": "Os legumes estão frescos."
+              "lv": "Eu gosto de comer legumes."
             },
             {
               "de": "Das Gemüse ist frisch.",
-              "lv": "Nós compramos legumes no mercado."
+              "lv": "Os legumes estão frescos."
             }
           ],
           "comparison": [
@@ -2306,13 +2317,13 @@
       "auditId": "LRB079-0041",
       "cardId": "ins|idx:296",
       "status": "LABOT",
-      "reason": "Corrijo a tradução de DE “ins” para a contração portuguesa correspondente ao sentido de movimento para dentro, eliminando os remanescentes em letão e os exemplos incoerentes.",
+      "reason": "Substituo o título não tradutório de ins pela equivalência semântica para dentro de.",
       "new": {
         "de": "ins",
-        "lv": "Dentro • para dentro • para onde?",
+        "lv": "para dentro de",
         "level": "A1",
         "study": {
-          "translation": "Dentro • para dentro • para onde?",
+          "translation": "para dentro de",
           "explanation": [
             "Ins é a contração de in e das.",
             "Usa-se com substantivos neutros no acusativo, indicando movimento para dentro de algum lugar.",
@@ -2399,10 +2410,10 @@
       "auditId": "LRB079-0042",
       "cardId": "jung|idx:304",
       "status": "LABOT",
-      "reason": "Corrijo DE “jung” de “amarelo” para “jovem”, distinguindo idade de novidade e substituindo todas as frases contaminadas por letão ou sem sentido.",
+      "reason": "Simplifico o título de jung para jovem; a restrição pedagógica permanece na explicação.",
       "new": {
         "de": "jung",
-        "lv": "jovem (para pessoas e animais)",
+        "lv": "jovem",
         "level": "A1",
         "study": {
           "translation": "jovem",
@@ -2460,10 +2471,10 @@
       "auditId": "LRB079-0043",
       "cardId": "kein|idx:308",
       "status": "LABOT",
-      "reason": "Corrijo DE “kein” para “nenhum/nenhuma”, com exemplos que distinguem a negação de substantivos por kein da negação frasal por nicht.",
+      "reason": "Corrijo o título de kein para as formas portuguesas nenhum e nenhuma, sem a paráfrase redundante.",
       "new": {
         "de": "kein",
-        "lv": "nenhum • nenhum tipo de",
+        "lv": "nenhum • nenhuma",
         "level": "A1",
         "study": {
           "translation": "nenhum • nenhuma",
@@ -2517,7 +2528,7 @@
       "auditId": "LRB079-0044",
       "cardId": "kennen|idx:310",
       "status": "LABOT",
-      "reason": "Corrijo DE “kennen” para “conhecer”, removendo as formas letãs e diferenciando corretamente kennen, ligado à familiaridade, de wissen, ligado a fatos.",
+      "reason": "Realinho os exemplos de kennen, removo a linha acrescentada e restauro a estrutura DE original de cinco exemplos.",
       "new": {
         "de": "kennen",
         "lv": "conhecer",
@@ -2544,11 +2555,7 @@
             },
             {
               "de": "Ich kenne ihn.",
-              "lv": "Eu o conheço bem."
-            },
-            {
-              "de": "kennen",
-              "lv": "Eu conheço esta cidade."
+              "lv": "Eu o conheço."
             },
             {
               "de": "kennen",
@@ -2584,7 +2591,7 @@
       "auditId": "LRB079-0045",
       "cardId": "klein|idx:6",
       "status": "LABOT",
-      "reason": "Corrijo DE “klein” de “labirintos” para “pequeno” e completo os exemplos e explicações com português gramatical sobre tamanho reduzido.",
+      "reason": "Realinho todas as traduções de klein e restauro o quinto exemplo DE omitido.",
       "new": {
         "de": "klein",
         "lv": "pequeno",
@@ -2598,19 +2605,23 @@
           "examples": [
             {
               "de": "Das Zimmer ist klein.",
-              "lv": "A casa é pequena."
+              "lv": "O quarto é pequeno."
             },
             {
               "de": "Das Kind ist noch klein.",
-              "lv": "O cachorro é pequeno."
+              "lv": "A criança ainda é pequena."
             },
             {
               "de": "Ich habe eine kleine Tasche.",
-              "lv": "O quarto é muito pequeno."
+              "lv": "Eu tenho uma bolsa pequena."
             },
             {
               "de": "Ich habe eine kleine Tasche.",
-              "lv": "Ela tem mãos pequenas."
+              "lv": "Eu tenho uma bolsa pequena."
+            },
+            {
+              "de": "Das Kind ist klein.",
+              "lv": "A criança é pequena."
             }
           ],
           "tip": [
@@ -2767,7 +2778,7 @@
       "auditId": "LRB079-0048",
       "cardId": "Laden|idx:349",
       "status": "LABOT",
-      "reason": "Corrijo DE “Laden” para “loja” e esclareço a distinção ortográfica entre o substantivo der Laden e o verbo laden.",
+      "reason": "Corrijo a capitalização do verbo laden nas três explicações que o descrevem como forma minúscula.",
       "new": {
         "de": "Laden",
         "lv": "loja",
@@ -2778,7 +2789,7 @@
           "translation": "loja",
           "explanation": [
             "Der Laden, com inicial maiúscula e artigo der, é o substantivo que significa loja, geralmente uma loja pequena.",
-            "Laden, com inicial minúscula, é o verbo carregar ou recarregar, especialmente um telefone ou uma bateria.",
+            "laden, com inicial minúscula, é o verbo carregar ou recarregar, especialmente um telefone ou uma bateria.",
             "O plural de der Laden é die Läden."
           ],
           "examples": [
@@ -2801,11 +2812,11 @@
           ],
           "tip": [
             "Der Laden, com letra maiúscula, é o substantivo loja.",
-            "Laden, com letra minúscula, é o verbo carregar ou recarregar."
+            "laden, com letra minúscula, é o verbo carregar ou recarregar."
           ],
           "important": [
             "Der Laden = a loja.",
-            "Laden = carregar ou recarregar.",
+            "laden = carregar ou recarregar.",
             "O plural de Laden é Läden."
           ],
           "id": "a1-laden-study",
@@ -2936,5 +2947,6 @@
         }
       }
     }
-  ]
+  ],
+  "correctionRound": 1
 }
