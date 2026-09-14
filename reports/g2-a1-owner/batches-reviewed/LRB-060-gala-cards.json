@@ -1,0 +1,2539 @@
+{
+  "batch_id": "LRB-060",
+  "language": "lb",
+  "scope": "dass..fragen (idx:130..197)",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "d24ec1d85d49e93c63fbc5eb0d44641b0af4b0d2bbf1dba17f1dc24070e6d592",
+  "full_card_replacements": 12,
+  "full_card_object_ids": [
+    "Eis|idx:157",
+    "dass|idx:130",
+    "der|idx:134",
+    "dieser|idx:139",
+    "die|idx:137",
+    "ein|idx:154",
+    "erst|idx:165",
+    "es|idx:167",
+    "etwas|idx:169",
+    "euch|idx:170",
+    "fahren|idx:172",
+    "finden|idx:187"
+  ],
+  "classification": "LRB_060_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "dass|idx:130",
+      "de_reference": "dass",
+      "idx": 130,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "dass",
+        "level": "A1",
+        "lv": "datt",
+        "study": {
+          "id": "a1-dass",
+          "layout": "standardStudy",
+          "translation": "datt",
+          "explanation": "Féiert en Niewesaz an, deen e Fakt, e Gedanken oder eppes Gesotes ausdréckt.",
+          "examples": [
+            {
+              "de": "Ich weiß, dass du müde bist.",
+              "lv": "Ech weess, datt s du midd bass."
+            },
+            {
+              "de": "Er sagt, dass er kommt.",
+              "lv": "Hie seet, datt hie kënnt."
+            },
+            {
+              "de": "Ich glaube, dass das stimmt.",
+              "lv": "Ech mengen, datt dat stëmmt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "dass",
+              "meaning": "datt",
+              "example": "Ich weiß, dass er kommt. – Ech weess, datt hien kënnt."
+            },
+            {
+              "word": "weil",
+              "meaning": "well",
+              "example": "Ich bleibe zu Hause, weil es regnet. – Ech bleiwen doheem, well et reent."
+            },
+            {
+              "word": "damit",
+              "meaning": "fir datt",
+              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Ech léieren Däitsch, fir datt ech an Däitschland schaffe kann."
+            },
+            {
+              "word": "ob",
+              "meaning": "ob",
+              "example": "Ich weiß nicht, ob er kommt. – Ech weess net, ob hie kënnt."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: dass → datt."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "datt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "datt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "dass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "datt"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "dass"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "dass"
+                  ],
+                  "purple": [
+                    "datt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "weil"
+                  ],
+                  "purple": [
+                    "well"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "damit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "damit"
+                  ],
+                  "purple": [
+                    "fir datt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ob"
+                  ],
+                  "purple": [
+                    "ob"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "dass",
+                  "datt"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "dass"
+                ]
+              },
+              {
+                "blue": [
+                  "das"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "dass bedeit „datt“ a féiert en Niewesaz an.",
+            "Net mat das verwiesselen: das kann en Artikel oder e Pronome sinn."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "denken|idx:133",
+      "de_reference": "denken",
+      "idx": 133,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "denken",
+        "level": "A1",
+        "lv": "denken"
+      }
+    },
+    {
+      "card_object_id": "der|idx:134",
+      "de_reference": "der",
+      "idx": 134,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "der",
+        "level": "A1",
+        "lv": "bestëmmten Artikel vum Maskulinum",
+        "study": {
+          "id": "a1-der",
+          "layout": "standardStudy",
+          "translation": "bestëmmten Artikel vum Maskulinum",
+          "explanation": "Gëtt bei Substantiver am Maskulinum benotzt. A verschiddene Sätz kann „der“ och als Pronomen oder Relativpronome fungéieren.",
+          "examples": [
+            {
+              "de": "Der Mann ist hier.",
+              "lv": "De Mann ass hei."
+            },
+            {
+              "de": "Der Bus kommt.",
+              "lv": "De Bus kënnt."
+            },
+            {
+              "de": "Der Lehrer spricht.",
+              "lv": "Den Enseignant schwätzt."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Maskulinum → der."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "De"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "De"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Den"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "der"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "der"
+                ]
+              },
+              {
+                "blue": [
+                  "Pronomen"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Um Niveau A1 léiers de der fir d’éischt als Artikel vum Maskulinum.",
+            "D’Benotzung als Pronomen a Relativpronome kënnt méi spéit."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "die|idx:137",
+      "de_reference": "die",
+      "idx": 137,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "die",
+        "level": "A1",
+        "lv": "bestëmmten Artikel vum Femininum",
+        "study": {
+          "id": "a1-die",
+          "layout": "standardStudy",
+          "translation": "bestëmmten Artikel vum Femininum",
+          "explanation": "Gëtt bei Substantiver am Femininum benotzt. A verschiddene Sätz kann „die“ och als Pronomen oder Relativpronome fungéieren.",
+          "examples": [
+            {
+              "de": "Die Frau ist hier.",
+              "lv": "D’Fra ass hei."
+            },
+            {
+              "de": "Die Katze schläft.",
+              "lv": "D’Kaz schléift."
+            },
+            {
+              "de": "Die Lehrerin erklärt.",
+              "lv": "D’Léierin erkläert."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Femininum → die."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Die"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Die"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Die"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "die"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "die"
+                ]
+              },
+              {
+                "blue": [
+                  "Pluriel"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "Um Niveau A1 léiers de die fir d’éischt als Artikel vum Femininum.",
+            "Am Pluriel gëtt die fir all Geschlechter benotzt."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "dieser|idx:139",
+      "de_reference": "dieser",
+      "idx": 139,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "dieser",
+        "level": "A1",
+        "lv": "dësen",
+        "study": {
+          "id": "a1-dieser",
+          "layout": "standardStudy",
+          "translation": "dësen",
+          "explanation": "Weist op eng bestëmmten oder ervirgehuewe Persoun oder Saach hin. Dës Form gëtt mat engem Substantiv am Maskulinum benotzt.",
+          "examples": [
+            {
+              "de": "Dieser Mann ist nett.",
+              "lv": "Dëse Mann ass léif."
+            },
+            {
+              "de": "Ich sehe diesen Hund.",
+              "lv": "Ech gesinn dësen Hond."
+            },
+            {
+              "de": "Dieser Stift ist neu.",
+              "lv": "Dëse Bic ass nei."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Maskulinum → dieser."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Dieser"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dëse"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "diesen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dësen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Dieser"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dëse"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "dieser"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "dieser"
+                ]
+              },
+              {
+                "blue": [
+                  "diese"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "dieser, diese an dieses ännere sech nom Geschlecht.",
+            "Am Pluriel ass d’Form diese."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "Ding|idx:140",
+      "de_reference": "Ding",
+      "idx": 140,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Ding",
+        "de_article": "das",
+        "de_plural": "die Dinge",
+        "level": "A1",
+        "lv": "Saach"
+      }
+    },
+    {
+      "card_object_id": "dreihundert|idx:144",
+      "de_reference": "dreihundert",
+      "idx": 144,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "dreihundert",
+        "level": "A1",
+        "lv": "dräihonnert"
+      }
+    },
+    {
+      "card_object_id": "dreizehn|idx:147",
+      "de_reference": "dreizehn",
+      "idx": 147,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "dreizehn",
+        "level": "A1",
+        "lv": "dräizéng"
+      }
+    },
+    {
+      "card_object_id": "dritte|idx:148",
+      "de_reference": "dritte",
+      "idx": 148,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "dritte",
+        "level": "A1",
+        "lv": "drëtten"
+      }
+    },
+    {
+      "card_object_id": "du|idx:149",
+      "de_reference": "du",
+      "idx": 149,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "du",
+        "level": "A1",
+        "lv": "du"
+      }
+    },
+    {
+      "card_object_id": "dürfen|idx:150",
+      "de_reference": "dürfen",
+      "idx": 150,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "dürfen",
+        "level": "A1",
+        "lv": "däerfen"
+      }
+    },
+    {
+      "card_object_id": "Ecke|idx:152",
+      "de_reference": "Ecke",
+      "idx": 152,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Ecke",
+        "de_article": "die",
+        "de_plural": "die Ecken",
+        "level": "A1",
+        "lv": "Eck"
+      }
+    },
+    {
+      "card_object_id": "ein|idx:154",
+      "de_reference": "ein",
+      "idx": 154,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "ein",
+        "level": "A1",
+        "lv": "onbestëmmten Artikel",
+        "study": {
+          "id": "a1-ein",
+          "layout": "standardStudy",
+          "translation": "onbestëmmten Artikel",
+          "explanation": [
+            "Haaptiddi: ein ass den onbestëmmten Artikel.",
+            "ein gëtt am Däitsche bei Substantiver am Maskulinum an am Neutrum am Nominativ benotzt.",
+            "Beim Maskulinum: ein Mann.",
+            "Beim Neutrum: ein Buch.",
+            "Beim Femininum: eine.",
+            "Am Akkusativ beim Maskulinum: einen."
+          ],
+          "examples": [
+            {
+              "de": "Ein Mann wartet draußen.",
+              "lv": "E Mann waart dobaussen."
+            },
+            {
+              "de": "Ich habe ein Buch.",
+              "lv": "Ech hunn e Buch."
+            },
+            {
+              "de": "Er sucht einen Stift.",
+              "lv": "Hie sicht e Bic."
+            },
+            {
+              "de": "Ein Kind spielt.",
+              "lv": "E Kand spillt."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: ein bedeit net nëmmen „eent“; et ass dacks en onbestëmmten Artikel."
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ein"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "E"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "e"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "einen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "e"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "E"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ein Mann"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ein Mann"
+                  ],
+                  "purple": [
+                    "E Mann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "eine Frau"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Eine Frau"
+                  ],
+                  "purple": [
+                    "Eng Fra"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ein Buch"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ein Buch"
+                  ],
+                  "purple": [
+                    "e Buch"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "einen Mann"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "einen Mann"
+                  ],
+                  "purple": [
+                    "e Mann"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ein"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ein"
+                ]
+              },
+              {
+                "blue": [
+                  "der"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "ein ass keen bestëmmten Artikel.",
+            "Wann d’Saach scho bestëmmt ass, brauch een dacks der, die oder das.",
+            "eine — Femininum.",
+            "einen — Akkusativ."
+          ],
+          "comparison": [
+            {
+              "word": "ein Mann",
+              "meaning": "Maskulinum",
+              "example": "Ein Mann wartet. – E Mann waart."
+            },
+            {
+              "word": "eine Frau",
+              "meaning": "Femininum",
+              "example": "Eine Frau wartet. – Eng Fra waart."
+            },
+            {
+              "word": "ein Buch",
+              "meaning": "Neutrum",
+              "example": "Ich habe ein Buch. – Ech hunn e Buch."
+            },
+            {
+              "word": "einen Mann",
+              "meaning": "Akkusativ",
+              "example": "Ich sehe einen Mann. – Ech gesinn e Mann."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "einfach|idx:155",
+      "de_reference": "einfach",
+      "idx": 155,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "einfach",
+        "level": "A1",
+        "lv": "einfach"
+      }
+    },
+    {
+      "card_object_id": "eins|idx:156",
+      "de_reference": "eins",
+      "idx": 156,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "eins",
+        "level": "A1",
+        "lv": "eent"
+      }
+    },
+    {
+      "card_object_id": "Eis|idx:157",
+      "de_reference": "Eis",
+      "idx": 157,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Eis",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Äis • Glace",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "Äis • Glace",
+          "explanation": [
+            "Haaptiddi: das Eis kann „Äis“ oder „Glace“ bedeiten.",
+            "Bei gefruerem Waasser seet een Äis.",
+            "Bei engem Iessen oder Dessert seet een Glace.",
+            "De Kontext weist normalerweis, wéi eng Bedeitung gemengt ass.",
+            "Um Niveau A1 sinn Ausdréck mat Äis a Glace besonnesch wichteg."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Ech iessen eng Glace."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "Wëlls du eng Glace?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "Am Wanter läit Äis um Séi."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "D’Äis ass kal."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Ech huelen eng Glace mat Schockela."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "Äis / Glace",
+              "example": "Ich esse ein Eis. – Ech iessen eng Glace."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "Schnéi",
+              "example": "Der Schnee ist weiß. – De Schnéi ass wäiss."
+            },
+            {
+              "word": "kalt",
+              "meaning": "kal",
+              "example": "Das Wasser ist kalt. – D’Waasser ass kal."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "Dessert",
+              "example": "Eis ist ein Dessert. – Glace ass en Dessert."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Iessen → Glace; Wanter oder Waasser → Äis."
+          },
+          "important": [
+            "Am Däitsche kann Eis souwuel gefruerent Waasser wéi och Glace bedeiten.",
+            "Am Lëtzebuergesche gi meeschtens zwou verschidde Wierder benotzt: Äis a Glace."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Eis",
+                "Äis",
+                "Glace"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Glace"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Glace"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Äis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Äis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Glace"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Eis"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Eis"
+                  ],
+                  "purple": [
+                    "Glace"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Schnee"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Schnee"
+                  ],
+                  "purple": [
+                    "Schnéi"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kalt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kalt"
+                  ],
+                  "purple": [
+                    "kal"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Dessert"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Dessert"
+                  ],
+                  "purple": [
+                    "Dessert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Glace",
+                  "Äis"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Eis"
+                ]
+              },
+              {
+                "blue": [
+                  "Äis"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "elf|idx:158",
+      "de_reference": "elf",
+      "idx": 158,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "elf",
+        "level": "A1",
+        "lv": "eelef"
+      }
+    },
+    {
+      "card_object_id": "E-Mail|idx:159",
+      "de_reference": "E-Mail",
+      "idx": 159,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "E-Mail",
+        "de_article": "die",
+        "de_plural": "die E-Mails",
+        "level": "A1",
+        "lv": "E-Mail"
+      }
+    },
+    {
+      "card_object_id": "Eltern|idx:160",
+      "de_reference": "Eltern",
+      "idx": 160,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Eltern",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Elteren"
+      }
+    },
+    {
+      "card_object_id": "Ende|idx:161",
+      "de_reference": "Ende",
+      "idx": 161,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Ende",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Enn"
+      }
+    },
+    {
+      "card_object_id": "er|idx:162",
+      "de_reference": "er",
+      "idx": 162,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "er",
+        "level": "A1",
+        "lv": "hien"
+      }
+    },
+    {
+      "card_object_id": "Erbse|idx:163",
+      "de_reference": "Erbse",
+      "idx": 163,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Erbse",
+        "de_article": "die",
+        "de_plural": "die Erbsen",
+        "level": "A1",
+        "lv": "Ierbes"
+      }
+    },
+    {
+      "card_object_id": "Erde|idx:164",
+      "de_reference": "Erde",
+      "idx": 164,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Erde",
+        "de_article": "die",
+        "de_plural": "die Erden",
+        "level": "A1",
+        "lv": "Äerd"
+      }
+    },
+    {
+      "card_object_id": "erst|idx:165",
+      "de_reference": "erst",
+      "idx": 165,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "erst",
+        "level": "A1",
+        "lv": "eréischt • fir d’éischt",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "eréischt • fir d’éischt",
+          "explanation": [
+            "Haaptiddi: erst bedeit meeschtens „eréischt“; jee no Kontext kann et och „fir d’éischt“ bedeiten.",
+            "Mat enger Zäit oder engem Zäitpunkt weist erst dacks, datt eppes méi spéit geschitt wéi erwaart.",
+            "An enger Reiefolleg kann erst „fir d’éischt“ bedeiten."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Fir d’éischt léieren, da spillen."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Ech kommen eréischt muer."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Hien ass eréischt 18 Joer al."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Mir iessen eréischt um aacht Auer."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "eréischt • fir d’éischt",
+              "example": "Ich komme erst morgen. – Ech kommen eréischt muer."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "fir d’éischt • am Ufank",
+              "example": "Zuerst lernen wir. – Fir d’éischt léiere mir."
+            },
+            {
+              "word": "nur",
+              "meaning": "nëmmen",
+              "example": "Ich habe nur fünf Euro. – Ech hunn nëmme fënnef Euro."
+            },
+            {
+              "word": "dann",
+              "meaning": "dann • duerno",
+              "example": "Dann gehen wir nach Hause. – Da gi mir heem."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Zäit oder Zäitpunkt → erst; Quantitéit → nur."
+          },
+          "accents": {
+            "blue": [
+              "erst"
+            ],
+            "purple": [
+              "eréischt",
+              "fir d’éischt"
+            ],
+            "green": [
+              "Zäitpunkt"
+            ],
+            "yellow": [
+              "zuerst"
+            ],
+            "red": [
+              "nur"
+            ]
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Erst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Fir d’éischt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "eréischt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "eréischt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "eréischt"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "erst"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "erst"
+                  ],
+                  "purple": [
+                    "eréischt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zuerst"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zuerst"
+                  ],
+                  "purple": [
+                    "fir d’éischt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nur"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nur"
+                  ],
+                  "purple": [
+                    "nëmme",
+                    "fënnef"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dann"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "dann"
+                  ],
+                  "purple": [
+                    "Da"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "erst",
+                  "nur"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "erst"
+                ]
+              },
+              {
+                "blue": [
+                  "nur"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "erst dréckt dacks aus, datt eppes méi spéit geschitt wéi erwaart.",
+            "Fir eng Quantitéit benotzt een am Däitschen normalerweis nur, net erst."
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "erste|idx:166",
+      "de_reference": "erste",
+      "idx": 166,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "erste",
+        "level": "A1",
+        "lv": "éischten"
+      }
+    },
+    {
+      "card_object_id": "es|idx:167",
+      "de_reference": "es",
+      "idx": 167,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "es",
+        "level": "A1",
+        "lv": "et • onperséinlech Form",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "et • onperséinlech Form",
+          "explanation": "es ass am Däitschen e Pronomen. Am Lëtzebuergesche entsprécht et dacks „et“ oder gëtt an enger onperséinlecher Konstruktioun erëmgi.",
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Et reent."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Et ass kal."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "D’Kand schléift."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Et ass midd."
+            }
+          ],
+          "info": [
+            "Lëtzebuergescht „ech“ = däitscht „ich“.",
+            "Däitscht „es“ = lëtzebuergesch „et“ oder eng onperséinlech Form."
+          ],
+          "tip": {
+            "text": "Denk drun: Bei Wieder an onperséinleche Sätz gëtt es meeschtens mat et erëmgi."
+          },
+          "sectionAccents": {
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Et"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Et"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das Kind"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Kand"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Et"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "es"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Es"
+                  ],
+                  "purple": [
+                    "Et"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ich"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ],
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "es",
+                  "et"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "es"
+                ]
+              },
+              {
+                "blue": [
+                  "et"
+                ]
+              }
+            ]
+          },
+          "important": [
+            "es gëtt net ëmmer mat engem perséinleche Pronome fir eng Persoun iwwersat.",
+            "De Kontext entscheet, ob „et“ oder eng onperséinlech Form passt."
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "et • onperséinlech Form",
+              "example": "Es regnet. – Et reent."
+            },
+            {
+              "word": "ich",
+              "meaning": "ech • Persoun",
+              "example": "Ich bin müde. – Ech si midd."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "card_object_id": "Esslöffel|idx:168",
+      "de_reference": "Esslöffel",
+      "idx": 168,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Esslöffel",
+        "de_article": "der",
+        "de_plural": "die Esslöffel",
+        "level": "A1",
+        "lv": "Essläffel"
+      }
+    },
+    {
+      "card_object_id": "etwas|idx:169",
+      "de_reference": "etwas",
+      "idx": 169,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "etwas",
+        "level": "A1",
+        "lv": "eppes • e bëssen",
+        "study": {
+          "id": "a1-etwas",
+          "layout": "standardStudy",
+          "translation": "eppes • e bëssen",
+          "explanation": [
+            "Haaptiddi: etwas bedeit meeschtens „eppes“.",
+            "Virun engem Adjektiv kann etwas och „e bëssen“ bedeiten.",
+            "De Kontext weist, ob eng Saach oder e Grad gemengt ass."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte etwas trinken.",
+              "lv": "Ech géif gär eppes drénken."
+            },
+            {
+              "de": "Hast du etwas Zeit?",
+              "lv": "Hues du e bëssen Zäit?"
+            },
+            {
+              "de": "Ich bin etwas müde.",
+              "lv": "Ech sinn e bëssen midd."
+            },
+            {
+              "de": "Ich habe etwas für dich.",
+              "lv": "Ech hunn eppes fir dech."
+            },
+            {
+              "de": "Das ist etwas teuer.",
+              "lv": "Dat ass e bëssen deier."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwas",
+              "meaning": "eppes • e bëssen",
+              "example": "Ich möchte etwas trinken. – Ech géif gär eppes drénken."
+            },
+            {
+              "word": "was",
+              "meaning": "eppes",
+              "example": "Willst du was trinken? – Wëlls du eppes drénken?"
+            },
+            {
+              "word": "ein bisschen",
+              "meaning": "e bëssen",
+              "example": "Ich bin ein bisschen müde. – Ech sinn e bëssen midd."
+            },
+            {
+              "word": "nichts",
+              "meaning": "näischt",
+              "example": "Ich sehe nichts. – Ech gesinn näischt."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: eng Saach → eppes; e Grad → e bëssen."
+          },
+          "important": [
+            "etwas kann „eppes“ oder „e bëssen“ bedeiten.",
+            "De Saz weist, wéi eng Bedeitung richteg ass."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "etwas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "eppes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "e bëssen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "e bëssen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "eppes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "e bëssen"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "etwas"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "etwas"
+                  ],
+                  "purple": [
+                    "eppes"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "was"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "was"
+                  ],
+                  "purple": [
+                    "eppes"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ein bisschen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ein bisschen"
+                  ],
+                  "purple": [
+                    "e bëssen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nichts"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nichts"
+                  ],
+                  "purple": [
+                    "näischt"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "eppes",
+                  "e bëssen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "etwas"
+                ]
+              },
+              {
+                "purple": [
+                  "Saz",
+                  "Bedeitung"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "euch|idx:170",
+      "de_reference": "euch",
+      "idx": 170,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "euch",
+        "level": "A1",
+        "lv": "iech",
+        "study": {
+          "id": "a1-euch",
+          "layout": "standardStudy",
+          "translation": "iech",
+          "explanation": "euch ass am Däitschen de Pronome vun der zweeter Persoun Pluriel am Akkusativ an am Dativ. Am Lëtzebuergesche steet a béide Fäll „iech“.",
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "Ech gesinn iech."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "Ech hëllefen iech."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "Ech ginn iech d’Buch."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "Ech soen iech Merci."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "Dir erënnert iech."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "dir",
+              "example": "Ihr seid freundlich. – Dir sidd frëndlech."
+            },
+            {
+              "word": "euch",
+              "meaning": "iech",
+              "example": "Ich helfe euch. – Ech hëllefen iech."
+            },
+            {
+              "word": "euer",
+              "meaning": "ären / är / äert",
+              "example": "Das ist euer Haus. – Dat ass äert Haus."
+            }
+          ],
+          "info": [
+            "ihr = dir, d’Form vum Sujet.",
+            "euch = iech, d’Form vum Akkusativ oder Dativ.",
+            "euer = ären / är / äert, d’Possessivform."
+          ],
+          "tip": {
+            "text": "Denk drun: euch gëtt am Lëtzebuergesche mat iech erëmgi.",
+            "example": "Ich helfe euch. – Ech hëllefen iech. Ich sehe euch. – Ech gesinn iech."
+          },
+          "accents": {
+            "blue": [
+              "ihr"
+            ],
+            "yellow": [
+              "euch"
+            ],
+            "green": [
+              "euer"
+            ],
+            "purple": [
+              "dir",
+              "iech",
+              "ären",
+              "är",
+              "äert"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "euer|idx:171",
+      "de_reference": "euer",
+      "idx": 171,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "euer",
+        "level": "A1",
+        "lv": "ären"
+      }
+    },
+    {
+      "card_object_id": "fahren|idx:172",
+      "de_reference": "fahren",
+      "idx": 172,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "fahren",
+        "level": "A1",
+        "lv": "fueren • féieren",
+        "study": {
+          "id": "a1-fahren",
+          "layout": "standardStudy",
+          "translation": "fueren • féieren",
+          "explanation": [
+            "Haaptiddi: fahren bedeit mat engem Transportmëttel fueren; mat enger Persoun als Objet kann et och féieren oder heembréngen bedeiten.",
+            "Bei engem Auto, Bus, Zuch, Vëlo oder engem aneren Transportmëttel benotzt een am Lëtzebuergesche meeschtens fueren.",
+            "Wann eng Persoun den Objet ass, passt dacks féieren oder heembréngen.",
+            "Fir Beweegung zu Fouss benotzt een goen oder lafen."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Ech fueren op Berlin."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "Ech fuere mam Auto."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "Ech féiere meng Duechter an d’Schoul."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "Ech féieren dech heem."
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "Mir fuere muer op München."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "mat engem Transportmëttel fueren",
+              "example": "Ich fahre mit dem Bus. – Ech fuere mam Bus."
+            },
+            {
+              "word": "gehen",
+              "meaning": "zu Fouss goen",
+              "example": "Ich gehe nach Hause. – Ech ginn heem."
+            },
+            {
+              "word": "laufen",
+              "meaning": "lafen",
+              "example": "Er läuft schnell. – Hie leeft séier."
+            },
+            {
+              "word": "bringen",
+              "meaning": "bréngen • op eng Plaz bréngen",
+              "example": "Ich bringe das Buch. – Ech bréngen d’Buch."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "mathuelen",
+              "example": "Ich nehme dich mit. – Ech huelen dech mat."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Transportmëttel → fahren; zu Fouss → gehen."
+          },
+          "important": [
+            "fahren gëtt jee no Kontext mat fueren oder féieren erëmgi.",
+            "Mat engem Transportmëttel: fueren. Eng Persoun op eng Plaz bréngen: féieren."
+          ],
+          "accents": {
+            "blue": [
+              "fahren"
+            ],
+            "purple": [
+              "fueren",
+              "féieren"
+            ],
+            "green": [
+              "Transportmëttel"
+            ],
+            "yellow": [
+              "gehen",
+              "laufen"
+            ],
+            "red": [
+              "bringen",
+              "mitnehmen"
+            ]
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fahren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fueren"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fuere"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "féiere"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "féieren"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahren"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fuere"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "fahre"
+                  ],
+                  "purple": [
+                    "fuere"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "gehe"
+                  ],
+                  "purple": [
+                    "ginn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "läuft"
+                  ],
+                  "purple": [
+                    "leeft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bringe"
+                  ],
+                  "purple": [
+                    "bréngen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitnehmen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nehme"
+                  ],
+                  "purple": [
+                    "huelen"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "fahren",
+                  "gehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "fahren"
+                ],
+                "purple": [
+                  "fueren",
+                  "féieren"
+                ]
+              },
+              {
+                "purple": [
+                  "Transportmëttel",
+                  "féieren",
+                  "fueren"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "falsch|idx:173",
+      "de_reference": "falsch",
+      "idx": 173,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "falsch",
+        "level": "A1",
+        "lv": "falsch"
+      }
+    },
+    {
+      "card_object_id": "Familie|idx:174",
+      "de_reference": "Familie",
+      "idx": 174,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Familie",
+        "de_article": "die",
+        "de_plural": "die Familien",
+        "level": "A1",
+        "lv": "Famill"
+      }
+    },
+    {
+      "card_object_id": "fast|idx:177",
+      "de_reference": "fast",
+      "idx": 177,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fast",
+        "level": "A1",
+        "lv": "bal"
+      }
+    },
+    {
+      "card_object_id": "Fehler|idx:179",
+      "de_reference": "Fehler",
+      "idx": 179,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Fehler",
+        "de_article": "der",
+        "de_plural": "die Fehler",
+        "level": "A1",
+        "lv": "Feeler"
+      }
+    },
+    {
+      "card_object_id": "Fenster|idx:180",
+      "de_reference": "Fenster",
+      "idx": 180,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Fenster",
+        "de_article": "das",
+        "de_plural": "die Fenster",
+        "level": "A1",
+        "lv": "Fënster"
+      }
+    },
+    {
+      "card_object_id": "Wochenende|idx:181",
+      "de_reference": "Wochenende",
+      "idx": 181,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Wochenende",
+        "de_article": "das",
+        "de_plural": "die Wochenenden",
+        "level": "A1",
+        "lv": "Weekend"
+      }
+    },
+    {
+      "card_object_id": "Fernseher|idx:182",
+      "de_reference": "Fernseher",
+      "idx": 182,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Fernseher",
+        "de_article": "der",
+        "de_plural": "die Fernseher",
+        "level": "A1",
+        "lv": "Tëlee"
+      }
+    },
+    {
+      "card_object_id": "fertig|idx:183",
+      "de_reference": "fertig",
+      "idx": 183,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fertig",
+        "level": "A1",
+        "lv": "fäerdeg"
+      }
+    },
+    {
+      "card_object_id": "fett|idx:184",
+      "de_reference": "fett",
+      "idx": 184,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fett",
+        "level": "A1",
+        "lv": "fett"
+      }
+    },
+    {
+      "card_object_id": "Film|idx:185",
+      "de_reference": "Film",
+      "idx": 185,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Film",
+        "de_article": "der",
+        "de_plural": "die Filme",
+        "level": "A1",
+        "lv": "Film"
+      }
+    },
+    {
+      "card_object_id": "Filzstift|idx:186",
+      "de_reference": "Filzstift",
+      "idx": 186,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Filzstift",
+        "de_article": "der",
+        "de_plural": "die Filzstifte",
+        "level": "A1",
+        "lv": "Filzstëft"
+      }
+    },
+    {
+      "card_object_id": "finden|idx:187",
+      "de_reference": "finden",
+      "idx": 187,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "finden",
+        "level": "A1",
+        "lv": "fannen",
+        "study": {
+          "id": "a1-finden",
+          "layout": "standardStudy",
+          "translation": "fannen",
+          "explanation": [
+            "Haaptiddi: finden bedeit meeschtens „fannen“.",
+            "Bei enger Meenung gëtt finden och mat fannen am Sënn vun „eng Meenung hunn“ benotzt.",
+            "Bei enger verluerener Saach bedeit et, datt een d’Saach erëm fënnt.",
+            "De Kontext ënnerscheet tëscht enger Saach fannen an enger Meenung ausdrécken."
+          ],
+          "examples": [
+            {
+              "de": "Ich finde meinen Schlüssel.",
+              "lv": "Ech fannen mäi Schlëssel."
+            },
+            {
+              "de": "Ich finde das gut.",
+              "lv": "Ech fannen dat gutt."
+            },
+            {
+              "de": "Wie findest du den Film?",
+              "lv": "Wéi fënns du de Film?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "finden",
+              "meaning": "fannen • eng Meenung hunn",
+              "example": "Ich finde das gut. – Ech fannen dat gutt."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: verluer Saach → finden; Meenung → ich finde …"
+          },
+          "important": [
+            "finden kann eng Saach fannen oder eng Meenung ausdrécken.",
+            "Ich finde das gut bedeit „Ech fannen dat gutt“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "finden"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "finde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fannen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "finde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fannen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "findest"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fënns"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "finden"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "finde"
+                  ],
+                  "purple": [
+                    "fannen"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "finden"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "finden"
+                ]
+              },
+              {
+                "blue": [
+                  "finde"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Fisch|idx:189",
+      "de_reference": "Fisch",
+      "idx": 189,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Fisch",
+        "de_article": "der",
+        "de_plural": "die Fische",
+        "level": "A1",
+        "lv": "Fësch"
+      }
+    },
+    {
+      "card_object_id": "Flasche|idx:190",
+      "de_reference": "Flasche",
+      "idx": 190,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Flasche",
+        "de_article": "die",
+        "de_plural": "die Flaschen",
+        "level": "A1",
+        "lv": "Fläsch"
+      }
+    },
+    {
+      "card_object_id": "Fleisch|idx:191",
+      "de_reference": "Fleisch",
+      "idx": 191,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Fleisch",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Fleesch"
+      }
+    },
+    {
+      "card_object_id": "fliegen|idx:192",
+      "de_reference": "fliegen",
+      "idx": 192,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fliegen",
+        "level": "A1",
+        "lv": "fléien"
+      }
+    },
+    {
+      "card_object_id": "Fluss|idx:194",
+      "de_reference": "Fluss",
+      "idx": 194,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Fluss",
+        "de_article": "der",
+        "de_plural": "die Flüsse",
+        "level": "A1",
+        "lv": "Floss"
+      }
+    },
+    {
+      "card_object_id": "Frage|idx:196",
+      "de_reference": "Frage",
+      "idx": 196,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Frage",
+        "de_article": "die",
+        "de_plural": "die Fragen",
+        "level": "A1",
+        "lv": "Fro"
+      }
+    },
+    {
+      "card_object_id": "fragen|idx:197",
+      "de_reference": "fragen",
+      "idx": 197,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fragen",
+        "level": "A1",
+        "lv": "froen"
+      }
+    }
+  ]
+}

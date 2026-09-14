@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-060",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-14T14:57:20.646Z",
+  "linguisticVerdict": "LRB_060_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "languages": {
+    "lb": 50
+  },
+  "unique_cards": 50,
+  "scope": "dass..fragen (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review complete",
+  "productionSource": "data/lb/a1.js",
+  "input_csv_sha256": "fe16424ff282cb92c4c807024fb92a924e248f122c3395dfa590de1fb04db95b",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-060-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-060-input.csv",
+  "note": "Gala verdict LRB_060_FULL_50_50_LINGUISTIC_REVIEW_PASS. 49 LABOT / 1 NELABOT / 0 PENDING (12 full composite + 37 scalar cards). LB batch 3 complete; 559 LB rows remain in 7737 pool. Gala correction #1 applied (euch study.info, ein E/e accents). DE/production/Crowdin/ingest/apply unchanged."
+}
