@@ -1,0 +1,2193 @@
+{
+  "batch_id": "LRB-063",
+  "language": "lb",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "b2b3983a62880ce5decac89ac6627db4b4e84828ac26cb7363f732f04a462e52",
+  "full_card_replacements": 9,
+  "full_card_object_ids": [
+    "Laden|idx:349",
+    "Land|idx:351",
+    "Laut|idx:359",
+    "lang|idx:352",
+    "lassen|idx:356",
+    "laufen|idx:357",
+    "laut|idx:358",
+    "legen|idx:363",
+    "leise|idx:368"
+  ],
+  "classification": "LRB_063_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "küssen|idx:321",
+      "de_reference": "küssen",
+      "idx": 321,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "küssen",
+        "level": "A1",
+        "lv": "kussen"
+      }
+    },
+    {
+      "card_object_id": "lächeln|idx:322",
+      "de_reference": "lächeln",
+      "idx": 322,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lächeln",
+        "level": "A1",
+        "lv": "laachen"
+      }
+    },
+    {
+      "card_object_id": "lachen|idx:323",
+      "de_reference": "lachen",
+      "idx": 323,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lachen",
+        "level": "A1",
+        "lv": "laachen"
+      }
+    },
+    {
+      "card_object_id": "Honig|idx:324",
+      "de_reference": "Honig",
+      "idx": 324,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Honig",
+        "de_article": "der",
+        "de_plural": "die Honige",
+        "level": "A1",
+        "lv": "Hunneg"
+      }
+    },
+    {
+      "card_object_id": "Hose|idx:325",
+      "de_reference": "Hose",
+      "idx": 325,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Hose",
+        "de_article": "die",
+        "de_plural": "die Hosen",
+        "level": "A1",
+        "lv": "Box"
+      }
+    },
+    {
+      "card_object_id": "Hund|idx:327",
+      "de_reference": "Hund",
+      "idx": 327,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Hund",
+        "de_article": "der",
+        "de_plural": "die Hunde",
+        "level": "A1",
+        "lv": "Hond"
+      }
+    },
+    {
+      "card_object_id": "Hut|idx:328",
+      "de_reference": "Hut",
+      "idx": 328,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Hut",
+        "de_article": "der",
+        "de_plural": "die Hüte",
+        "level": "A1",
+        "lv": "Hutt"
+      }
+    },
+    {
+      "card_object_id": "Jahr|idx:329",
+      "de_reference": "Jahr",
+      "idx": 329,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Jahr",
+        "de_article": "das",
+        "de_plural": "die Jahre",
+        "level": "A1",
+        "lv": "Joer"
+      }
+    },
+    {
+      "card_object_id": "Kaffee|idx:330",
+      "de_reference": "Kaffee",
+      "idx": 330,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kaffee",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Kaffi"
+      }
+    },
+    {
+      "card_object_id": "Karotte|idx:333",
+      "de_reference": "Karotte",
+      "idx": 333,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Karotte",
+        "de_article": "die",
+        "de_plural": "die Karotten",
+        "level": "A1",
+        "lv": "Muert"
+      }
+    },
+    {
+      "card_object_id": "Kartoffel|idx:334",
+      "de_reference": "Kartoffel",
+      "idx": 334,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kartoffel",
+        "de_article": "die",
+        "de_plural": "die Kartoffeln",
+        "level": "A1",
+        "lv": "Gromper"
+      }
+    },
+    {
+      "card_object_id": "Käse|idx:335",
+      "de_reference": "Käse",
+      "idx": 335,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Käse",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Kéis"
+      }
+    },
+    {
+      "card_object_id": "Katze|idx:336",
+      "de_reference": "Katze",
+      "idx": 336,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Katze",
+        "de_article": "die",
+        "de_plural": "die Katzen",
+        "level": "A1",
+        "lv": "Kaz"
+      }
+    },
+    {
+      "card_object_id": "Kleid|idx:337",
+      "de_reference": "Kleid",
+      "idx": 337,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kleid",
+        "de_article": "das",
+        "de_plural": "die Kleider",
+        "level": "A1",
+        "lv": "Kleed"
+      }
+    },
+    {
+      "card_object_id": "Kleidung|idx:338",
+      "de_reference": "Kleidung",
+      "idx": 338,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kleidung",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Kleeder"
+      }
+    },
+    {
+      "card_object_id": "Knoblauch|idx:339",
+      "de_reference": "Knoblauch",
+      "idx": 339,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Knoblauch",
+        "de_article": "der",
+        "de_plural": null,
+        "level": "A1",
+        "lv": "Knuewelek"
+      }
+    },
+    {
+      "card_object_id": "Koch|idx:340",
+      "de_reference": "Koch",
+      "idx": 340,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Koch",
+        "de_article": "der",
+        "de_plural": "die Köche",
+        "level": "A1",
+        "lv": "Kach"
+      }
+    },
+    {
+      "card_object_id": "Köchin|idx:341",
+      "de_reference": "Köchin",
+      "idx": 341,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Köchin",
+        "de_article": "die",
+        "de_plural": "die Köchinnen",
+        "level": "A1",
+        "lv": "Kächin"
+      }
+    },
+    {
+      "card_object_id": "Kopf|idx:342",
+      "de_reference": "Kopf",
+      "idx": 342,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kopf",
+        "de_article": "der",
+        "de_plural": "die Köpfe",
+        "level": "A1",
+        "lv": "Kapp"
+      }
+    },
+    {
+      "card_object_id": "Küche|idx:344",
+      "de_reference": "Küche",
+      "idx": 344,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Küche",
+        "de_article": "die",
+        "de_plural": "die Küchen",
+        "level": "A1",
+        "lv": "Kichen"
+      }
+    },
+    {
+      "card_object_id": "Kuchen|idx:345",
+      "de_reference": "Kuchen",
+      "idx": 345,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kuchen",
+        "de_article": "der",
+        "de_plural": "die Kuchen",
+        "level": "A1",
+        "lv": "Kuch"
+      }
+    },
+    {
+      "card_object_id": "Kuh|idx:346",
+      "de_reference": "Kuh",
+      "idx": 346,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kuh",
+        "de_article": "die",
+        "de_plural": "die Kühe",
+        "level": "A1",
+        "lv": "Kou"
+      }
+    },
+    {
+      "card_object_id": "Kühlschrank|idx:347",
+      "de_reference": "Kühlschrank",
+      "idx": 347,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kühlschrank",
+        "de_article": "der",
+        "de_plural": "die Kühlschränke",
+        "level": "A1",
+        "lv": "Frigo"
+      }
+    },
+    {
+      "card_object_id": "Kuss|idx:348",
+      "de_reference": "Kuss",
+      "idx": 348,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Kuss",
+        "de_article": "der",
+        "de_plural": "die Küsse",
+        "level": "A1",
+        "lv": "Kuss"
+      }
+    },
+    {
+      "card_object_id": "Laden|idx:349",
+      "de_reference": "Laden",
+      "idx": 349,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Laden",
+        "de_article": "der",
+        "de_plural": "die Läden",
+        "level": "A1",
+        "lv": "Buttek",
+        "study": {
+          "id": "a1-laden-study",
+          "layout": "standardStudy",
+          "translation": "Buttek",
+          "explanation": [
+            "Haaptiddi: der Laden mat groussem Buschtaf a mam Artikel der ass e Substantiv a bedeit e klenge Buttek.",
+            "laden mat klengem Buschtaf ass e Verb a bedeit lueden oder oplueden.",
+            "der Laden bezeechent am Alldag dacks e klenge Buttek: im Laden einkaufen = am Buttek akafen.",
+            "D’Pluralform ass die Läden."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe in den Laden.",
+              "lv": "Ech ginn an de Buttek."
+            },
+            {
+              "de": "Der Laden ist geschlossen.",
+              "lv": "De Buttek ass zou."
+            },
+            {
+              "de": "Es gibt viele Läden hier.",
+              "lv": "Et gi vill Butteker hei."
+            },
+            {
+              "de": "Ich muss mein Handy laden.",
+              "lv": "Ech muss mäin Handy oplueden."
+            }
+          ],
+          "tip": [
+            "der Laden mat groussem Buschtaf ass e Substantiv: Buttek.",
+            "laden mat klengem Buschtaf ass e Verb: lueden oder oplueden."
+          ],
+          "important": [
+            "der Laden = Buttek.",
+            "laden = lueden oder oplueden.",
+            "D’Pluralform ass die Läden."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Laden",
+                "laden"
+              ],
+              "purple": [
+                "Buttek",
+                "oplueden"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Buttek"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Buttek"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Läden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Butteker"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "oplueden"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "der Laden"
+                ]
+              },
+              {
+                "purple": [
+                  "laden"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "der Laden"
+                ]
+              },
+              {
+                "purple": [
+                  "laden"
+                ]
+              },
+              {
+                "purple": [
+                  "Pluralform"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Lampe|idx:350",
+      "de_reference": "Lampe",
+      "idx": 350,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Lampe",
+        "de_article": "die",
+        "de_plural": "die Lampen",
+        "level": "A1",
+        "lv": "Luucht"
+      }
+    },
+    {
+      "card_object_id": "Land|idx:351",
+      "de_reference": "Land",
+      "idx": 351,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Land",
+        "de_article": "das",
+        "de_plural": "die Länder",
+        "level": "A1",
+        "lv": "Land • ländlech Géigend",
+        "study": {
+          "id": "a1-land",
+          "layout": "standardStudy",
+          "translation": "Land • ländlech Géigend",
+          "explanation": [
+            "Haaptiddi: das Land bedeit meeschtens e Land als Staat oder d’Géigend baussent der Stad.",
+            "Wann et ëm Däitschland, Lettland oder en anert Territoire mat Grenze geet, bedeit Land e Staat oder e Land.",
+            "Wann et ëm d’Géigend am Géigesaz zu der Stad geet, bedeit Land d’Land oder eng ländlech Géigend.",
+            "De Kontext weist, ob e Staat, d’Land oder eng ländlech Géigend gemengt ass."
+          ],
+          "examples": [
+            {
+              "de": "Deutschland ist ein schönes Land.",
+              "lv": "Däitschland ass e schéint Land."
+            },
+            {
+              "de": "Ich komme aus einem kleinen Land.",
+              "lv": "Ech kommen aus engem klenge Land."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Mir fueren op d’Land."
+            },
+            {
+              "de": "Auf dem Land ist es ruhig.",
+              "lv": "Um Land ass et roueg."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Land",
+              "meaning": "Land / Staat / ländlech Géigend",
+              "example": "Deutschland ist ein Land."
+            },
+            {
+              "word": "die Stadt",
+              "meaning": "Stad",
+              "example": "Ich wohne in der Stadt."
+            },
+            {
+              "word": "das Dorf",
+              "meaning": "Duerf",
+              "example": "Er lebt in einem Dorf."
+            },
+            {
+              "word": "die Erde",
+              "meaning": "Äerd / Planéit",
+              "example": "Die Erde ist rund."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Staat oder Territoire → das Land; Stad → die Stadt."
+          },
+          "important": [
+            "aufs Land bedeit op d’Land, net an en anert Land.",
+            "das Land ass net dat selwecht wéi die Stadt."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Land"
+              ],
+              "purple": [
+                "Land",
+                "ländlech Géigend"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Land"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Land"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op d’Land"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Auf dem Land"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Um Land"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Land"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Land"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Stadt"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Stad"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Dorf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Duerf"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Erde"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Äerd"
+                  ]
+                },
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "aufs Land"
+                ]
+              },
+              {
+                "purple": [
+                  "das Land"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "lang|idx:352",
+      "de_reference": "lang",
+      "idx": 352,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "lang",
+        "level": "A1",
+        "lv": "laang",
+        "study": {
+          "id": "a1-lang",
+          "layout": "standardStudy",
+          "translation": "laang",
+          "explanation": [
+            "Haaptiddi: lang bedeit bei enger Distanz oder enger Gréisst laang an och bei enger Dauer laang.",
+            "Bei enger Gréisst oder Distanz bedeit lang laang: ein langer Tisch = e laangen Dësch.",
+            "Bei enger Zäitdauer bedeit lang och laang: ein langer Tag = e laangen Dag.",
+            "Am Ausdrock den ganzen Tag lang bedeit et de ganzen Dag laang.",
+            "Am Lëtzebuergesche gëtt fir béid Haaptbedeitungen d’Wuert laang benotzt."
+          ],
+          "examples": [
+            {
+              "de": "Der Tisch ist sehr lang.",
+              "lv": "Den Dësch ass ganz laang."
+            },
+            {
+              "de": "Der Film war sehr lang.",
+              "lv": "De Film war ganz laang."
+            },
+            {
+              "de": "Wie lange dauert es?",
+              "lv": "Wéi laang dauert et?"
+            },
+            {
+              "de": "Sie hat lange Haare.",
+              "lv": "Si huet laang Hoer."
+            },
+            {
+              "de": "Ich warte schon lange.",
+              "lv": "Ech waarden elo scho laang."
+            },
+            {
+              "de": "Den ganzen Tag lang.",
+              "lv": "De ganzen Dag laang."
+            }
+          ],
+          "tip": [
+            "Bei enger Gréisst oder Distanz, zum Beispill Hoer, Wee oder Dësch, steet laang.",
+            "Bei enger Zäitdauer, zum Beispill Dag, Waarden oder Film, steet och laang."
+          ],
+          "important": [
+            "lang = laang bei enger Gréisst oder enger Zäitdauer.",
+            "wie lange = wéi laang; et freet no enger Dauer."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "lang"
+              ],
+              "purple": [
+                "laang"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laang"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laang"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laang"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laang"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laang"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laang"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Gréisst"
+                ]
+              },
+              {
+                "purple": [
+                  "Zäitdauer"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "lang"
+                ]
+              },
+              {
+                "purple": [
+                  "wie lange"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "lange|idx:353",
+      "de_reference": "lange",
+      "idx": 353,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lange",
+        "level": "A1",
+        "lv": "laang"
+      }
+    },
+    {
+      "card_object_id": "langsam|idx:354",
+      "de_reference": "langsam",
+      "idx": 354,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "langsam",
+        "level": "A1",
+        "lv": "lues"
+      }
+    },
+    {
+      "card_object_id": "langweilig|idx:355",
+      "de_reference": "langweilig",
+      "idx": 355,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "langweilig",
+        "level": "A1",
+        "lv": "langweileg"
+      }
+    },
+    {
+      "card_object_id": "lassen|idx:356",
+      "de_reference": "lassen",
+      "idx": 356,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "lassen",
+        "level": "A1",
+        "lv": "loossen",
+        "study": {
+          "id": "a1-lassen",
+          "layout": "standardStudy",
+          "translation": "loossen",
+          "explanation": [
+            "Haaptiddi: lassen bedeit eppes loossen oder engem erlaben, eppes ze maachen.",
+            "Wann eppes op enger Plaz bleift, gëtt lassen mat loossen ausgedréckt.",
+            "Wann een enger Persoun d’Erlaabnis gëtt, gëtt och loossen benotzt.",
+            "Den Ausdrock Lass mich in Ruhe! bedeit Looss mech a Rou!"
+          ],
+          "examples": [
+            {
+              "de": "Ich lasse die Tasche hier.",
+              "lv": "Ech loossen d’Täsch hei."
+            },
+            {
+              "de": "Lass das bitte auf dem Tisch.",
+              "lv": "Looss dat wgl. um Dësch."
+            },
+            {
+              "de": "Meine Eltern lassen mich gehen.",
+              "lv": "Meng Eltere loosse mech goen."
+            },
+            {
+              "de": "Lass mich in Ruhe!",
+              "lv": "Looss mech a Rou!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "lassen",
+              "meaning": "loossen",
+              "example": "Ich lasse das hier."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "bleiwen",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "erlauben",
+              "meaning": "erlaben",
+              "example": "Sie erlaubt mir das."
+            },
+            {
+              "word": "geben",
+              "meaning": "ginn",
+              "example": "Gib mir das Buch."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: eppes bleift oder eng Handlung gëtt erlaabt → lassen beziehungsweise loossen."
+          },
+          "important": [
+            "lassen bedeit net nëmmen eppes op enger Plaz loossen; et kann och enger Persoun eppes erlaben.",
+            "Lass mich in Ruhe! ass eng heefeg Ausdrockweis: Looss mech a Rou!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "lassen"
+              ],
+              "purple": [
+                "loossen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lasse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "loossen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Lass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Looss"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lassen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "loosse"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Lass"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Looss"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "lassen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "loossen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bleiwen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "erlauben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "erlaben"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "geben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ginn"
+                  ]
+                },
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "lassen"
+                ]
+              },
+              {
+                "purple": [
+                  "Lass mich in Ruhe"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "laufen|idx:357",
+      "de_reference": "laufen",
+      "idx": 357,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "laufen",
+        "level": "A1",
+        "lv": "lafen • funktionéieren",
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "lafen • funktionéieren",
+          "explanation": [
+            "Haaptiddi: laufen bedeit bei enger Persoun oder engem Déier lafen; bei engem Film oder enger Maschinn kann et lafen oder funktionéieren bedeiten.",
+            "Bei enger Persoun oder engem Déier beschreift laufen dacks eng séier Beweegung zu Fouss.",
+            "Bei engem Film, enger Maschinn oder engem Programm weist laufen, datt eppes leeft oder funktionéiert.",
+            "Fir Beweegung zu Fouss ass den Haaptkontrast gehen = goen an laufen = lafen."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "Hie leeft ganz séier."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "D’Kanner lafen am Park."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "De Film leeft schonn."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "D’Maschinn leeft gutt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "lafen / lafen oder funktionéieren",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "gehen",
+              "meaning": "goen",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "fueren",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "funktionéieren",
+              "example": "Das funktioniert gut."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: séier zu Fouss → laufen; mat engem Transportmëttel → fahren."
+          },
+          "important": [
+            "laufen bedeit net nëmmen lafen; bei engem Film oder engem Apparat kann et och lafen oder funktionéieren heeschen.",
+            "Ich laufe beschreift eng Beweegung zu Fouss, net eng Faart."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "lafen",
+                "funktionéieren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "leeft"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laufen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lafen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "leeft"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "leeft"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lafen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "goen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "fueren"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "funktionéieren"
+                  ]
+                },
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "laufen"
+                ]
+              },
+              {
+                "purple": [
+                  "Ich laufe"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "laut|idx:358",
+      "de_reference": "laut",
+      "idx": 358,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "laut",
+        "level": "A1",
+        "lv": "haart",
+        "study": {
+          "id": "a1-laut",
+          "layout": "standardStudy",
+          "translation": "haart",
+          "explanation": [
+            "Haaptiddi: laut mat klengem Buschtaf ass en Adjektiv oder Adverb a beschreift eng héich Lautstäerkt.",
+            "laut beschreift, datt eng Musek, eng Stëmm oder en Toun haart ass.",
+            "Als Adverb weist laut, datt een haart schwätzt.",
+            "der Laut mat groussem Buschtaf a mam Artikel der ass e Substantiv a bedeit en Toun oder e Sproochlaut.",
+            "D’Pluralform vum Substantiv ass die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "D’Musek ass haart."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "D’Musek ass haart."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Schwätz net esou haart!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Dat ass ganz haart."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Den Toun ass schéin."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Ech héieren en Toun."
+            }
+          ],
+          "tip": [
+            "laut mat klengem Buschtaf = haart; et ass en Adjektiv oder Adverb.",
+            "der Laut mat groussem Buschtaf = Toun; et ass e Substantiv."
+          ],
+          "important": [
+            "laut ouni Artikel beschreift d’Lautstäerkt.",
+            "der Laut mat Artikel a groussem Buschtaf bedeit en Toun.",
+            "D’Pluralform ass die Laute.",
+            "Falsch: Der Laut ist sehr. Richteg: Das ist sehr laut."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laut",
+                "Laut"
+              ],
+              "purple": [
+                "haart",
+                "Toun"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "haart"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "haart"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "haart"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "haart"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Toun"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Toun"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "laut"
+                ]
+              },
+              {
+                "purple": [
+                  "der Laut"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "laut"
+                ]
+              },
+              {
+                "purple": [
+                  "der Laut"
+                ]
+              },
+              {
+                "purple": [
+                  "Pluralform"
+                ]
+              },
+              {
+                "purple": [
+                  "Falsch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Laut|idx:359",
+      "de_reference": "Laut",
+      "idx": 359,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Laut",
+        "de_article": "der",
+        "de_plural": "die Laute",
+        "level": "A1",
+        "lv": "Toun",
+        "study": {
+          "id": "a1-laut-study",
+          "layout": "standardStudy",
+          "translation": "Toun",
+          "explanation": [
+            "Haaptiddi: der Laut mat groussem Buschtaf a mam Artikel der ass e Substantiv a bedeit en Toun, e Signal oder e Sproochlaut.",
+            "der Laut bezeechent en héierbaren Toun als Saach.",
+            "laut mat klengem Buschtaf ass dogéint en Adjektiv oder Adverb a bedeit haart.",
+            "De Kontext an de grousse Buschtaf ënnerscheeden d'Substantiv der Laut vum Adjektiv laut.",
+            "D’Pluralform ass die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Den Toun ass schéin."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "D’Musek ass haart."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Schwätz net esou haart!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Dat ass ganz haart."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Den Toun ass schéin."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Ech héieren en Toun."
+            }
+          ],
+          "tip": [
+            "laut mat klengem Buschtaf = haart; et ass en Adjektiv oder Adverb.",
+            "der Laut mat groussem Buschtaf = Toun; et ass e Substantiv."
+          ],
+          "important": [
+            "laut ouni Artikel beschreift d’Lautstäerkt.",
+            "der Laut mat Artikel a groussem Buschtaf bedeit en Toun.",
+            "D’Pluralform ass die Laute.",
+            "Falsch: Der Laut ist sehr. Richteg: Das ist sehr laut."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Laut",
+                "laut"
+              ],
+              "purple": [
+                "Toun",
+                "haart"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Toun"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "haart"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "haart"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "haart"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Toun"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laut"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Toun"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "laut"
+                ]
+              },
+              {
+                "purple": [
+                  "der Laut"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "laut"
+                ]
+              },
+              {
+                "purple": [
+                  "der Laut"
+                ]
+              },
+              {
+                "purple": [
+                  "Pluralform"
+                ]
+              },
+              {
+                "purple": [
+                  "Falsch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "leben|idx:360",
+      "de_reference": "leben",
+      "idx": 360,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "leben",
+        "level": "A1",
+        "lv": "liewen"
+      }
+    },
+    {
+      "card_object_id": "lecker|idx:361",
+      "de_reference": "lecker",
+      "idx": 361,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lecker",
+        "level": "A1",
+        "lv": "lecker"
+      }
+    },
+    {
+      "card_object_id": "leer|idx:362",
+      "de_reference": "leer",
+      "idx": 362,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "leer",
+        "level": "A1",
+        "lv": "eidel"
+      }
+    },
+    {
+      "card_object_id": "legen|idx:363",
+      "de_reference": "legen",
+      "idx": 363,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "legen",
+        "level": "A1",
+        "lv": "leeën",
+        "study": {
+          "id": "a1-legen",
+          "layout": "standardStudy",
+          "translation": "leeën",
+          "explanation": [
+            "Haaptiddi: legen bedeit, eppes an eng horizontal Positioun ze bréngen oder op eng Fläch ze leeën.",
+            "legen gëtt benotzt, wann eng Persoun eng Saach beweegt an se op en Dësch, e Bett oder eng aner Fläch leet.",
+            "Dat ënnerscheet sech vu liegen: liegen bedeit, datt eppes schonn an enger horizontaler Positioun ass.",
+            "Den Haaptkontrast ass: legen = leeën; liegen = leien."
+          ],
+          "examples": [
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Ech leeën d’Buch op den Dësch."
+            },
+            {
+              "de": "Leg den Schlüssel hierhin.",
+              "lv": "Lee de Schlëssel heihinner."
+            },
+            {
+              "de": "Sie legt das Kind ins Bett.",
+              "lv": "Si leet d’Kand an d’Bett."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "D’Buch läit um Dësch."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "leeën",
+              "example": "Ich lege das Buch auf den Tisch."
+            },
+            {
+              "word": "liegen",
+              "meaning": "leien",
+              "example": "Das Buch liegt auf dem Tisch."
+            },
+            {
+              "word": "stellen",
+              "meaning": "stellen",
+              "example": "Ich stelle die Flasche auf den Tisch."
+            },
+            {
+              "word": "setzen",
+              "meaning": "setzen oder sech setzen",
+              "example": "Ich setze mich."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: du beweegs eppes a lees et néier → legen; d’Saach ass schonn do → liegen."
+          },
+          "important": [
+            "legen a liegen sinn net dat selwecht.",
+            "Ich lege das Buch = Ech leeën d’Buch. Das Buch liegt = D’Buch läit."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "legen",
+                "liegen"
+              ],
+              "purple": [
+                "leeën",
+                "leien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lege"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "leeën"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Leg"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Lee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "legt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "leet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "läit"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "legen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "leeën"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "leien"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "stellen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stellen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "setzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "setzen"
+                  ]
+                },
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "legen"
+                ]
+              },
+              {
+                "purple": [
+                  "Ich lege"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Lehrer|idx:364",
+      "de_reference": "Lehrer",
+      "idx": 364,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Lehrer",
+        "de_article": "der",
+        "de_plural": "die Lehrer",
+        "level": "A1",
+        "lv": "Enseignant"
+      }
+    },
+    {
+      "card_object_id": "Lehrerin|idx:365",
+      "de_reference": "Lehrerin",
+      "idx": 365,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Lehrerin",
+        "de_article": "die",
+        "de_plural": "die Lehrerinnen",
+        "level": "A1",
+        "lv": "Enseignante"
+      }
+    },
+    {
+      "card_object_id": "leicht|idx:366",
+      "de_reference": "leicht",
+      "idx": 366,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "leicht",
+        "level": "A1",
+        "lv": "liicht"
+      }
+    },
+    {
+      "card_object_id": "leider|idx:367",
+      "de_reference": "leider",
+      "idx": 367,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "leider",
+        "level": "A1",
+        "lv": "leider"
+      }
+    },
+    {
+      "card_object_id": "leise|idx:368",
+      "de_reference": "leise",
+      "idx": 368,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "leise",
+        "level": "A1",
+        "lv": "lues • roueg",
+        "study": {
+          "id": "a1-leise-study",
+          "layout": "standardStudy",
+          "translation": "lues • roueg",
+          "explanation": [
+            "Haaptiddi: leise bedeit mat niddreger Lautstäerkt oder roueg.",
+            "Bei Musek, enger Stëmm oder engem Toun gëtt leise dacks mat lues ausgedréckt.",
+            "Bei enger Persoun oder engem Verhalen kann leise och roueg bedeiten.",
+            "Als Adverb beschreift leise, datt een lues schwätzt.",
+            "Net mat langsam verwiesselen: leise bezitt sech op d’Lautstäerkt; langsam op d’Vitesse."
+          ],
+          "examples": [
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Sief wgl. roueg."
+            },
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Sief wgl. roueg."
+            },
+            {
+              "de": "Die Musik ist leise.",
+              "lv": "D’Musek ass lues."
+            },
+            {
+              "de": "Sprich bitte leise.",
+              "lv": "Schwätz wgl. lues."
+            }
+          ],
+          "tip": [
+            "Bei enger Persoun kann leise roueg bedeiten.",
+            "Bei Musek, enger Stëmm oder engem Toun bedeit leise dacks lues."
+          ],
+          "important": [
+            "leise = lues oder roueg bei der Lautstäerkt.",
+            "langsam = lues bei der Vitesse.",
+            "De Kontext weist, ob roueg oder lues méi passend ass."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "leise",
+                "langsam"
+              ],
+              "purple": [
+                "lues",
+                "roueg"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "roueg"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "roueg"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lues"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "leise"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lues"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Persoun"
+                ]
+              },
+              {
+                "purple": [
+                  "Musek"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "leise"
+                ]
+              },
+              {
+                "purple": [
+                  "langsam"
+                ]
+              },
+              {
+                "purple": [
+                  "Kontext"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "lesen|idx:369",
+      "de_reference": "lesen",
+      "idx": 369,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lesen",
+        "level": "A1",
+        "lv": "liesen"
+      }
+    },
+    {
+      "card_object_id": "letzte|idx:370",
+      "de_reference": "letzte",
+      "idx": 370,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "letzte",
+        "level": "A1",
+        "lv": "lescht"
+      }
+    },
+    {
+      "card_object_id": "Leute|idx:371",
+      "de_reference": "Leute",
+      "idx": 371,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Leute",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Leit"
+      }
+    },
+    {
+      "card_object_id": "Licht|idx:372",
+      "de_reference": "Licht",
+      "idx": 372,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Licht",
+        "de_article": "das",
+        "de_plural": "die Lichter",
+        "level": "A1",
+        "lv": "Liicht"
+      }
+    },
+    {
+      "card_object_id": "lieb|idx:373",
+      "de_reference": "lieb",
+      "idx": 373,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lieb",
+        "level": "A1",
+        "lv": "léif"
+      }
+    },
+    {
+      "card_object_id": "lieben|idx:375",
+      "de_reference": "lieben",
+      "idx": 375,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lieben",
+        "level": "A1",
+        "lv": "gär hunn"
+      }
+    }
+  ]
+}

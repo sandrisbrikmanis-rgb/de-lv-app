@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-14T17:15:59.498Z",
+  "updatedAt": "2026-09-14T17:32:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -78,7 +78,8 @@
       "LRB-059",
       "LRB-060",
       "LRB-061",
-      "LRB-062"
+      "LRB-062",
+      "LRB-063"
     ],
     "ingestApproved": false,
     "applyApproved": false
@@ -115,8 +116,8 @@
     "batchPrefix": "LRB",
     "batchSize": 50,
     "batchesTotal": 103,
-    "batchesReviewed": 62,
-    "batchesAntiBulkPass": 62,
+    "batchesReviewed": 63,
+    "batchesAntiBulkPass": 63,
     "batchesSpotCheckPass": 62,
     "linguisticVerdicts": {
       "LRB-001": {
@@ -1622,10 +1623,39 @@
         "decisionsSha256": "a092cbbd6292c24148de4f5cbe5289bf3756adec352ef0f3b71b39cd05edafef",
         "galaCorrection1": "GALA_CORRECTION_1_APPLIED",
         "galaCorrection1Sha256": "ae2af0925a1382ed9734913ea396981cfba6c7617198e504da9e6fe9e1f1387a"
+      },
+      "LRB-063": {
+        "verdict": "PENDING_LINGUISTIC_REVIEW",
+        "status": "OWNER_PREP_READY",
+        "classification": "LRB_063_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+        "labot": 50,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "pending-gpt-5.6-luna",
+        "languages": {
+          "lb": 50
+        },
+        "uniqueCards": 50,
+        "rowCount": 50,
+        "compositeRepairs": 9,
+        "batchNote": "LB batch 6: küssen..lieben (50 LB rows, 50 unique cards) — continuing after LRB-062",
+        "productionSource": "data/lb/a1.js",
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-063-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-063-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-063-residual-wrong-language-proof.json",
+        "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-063-owner-auth-residual-proof.json",
+        "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-063-gala-cards.json",
+        "pasteRepairs": "GPT-5.6 Luna copy/paste (50 LABOT / 0 NELABOT / 50 unique LB cards: 9 full composite + 41 scalar)",
+        "pasteSha256": "b2b3983a62880ce5decac89ac6627db4b4e84828ac26cb7363f732f04a462e52",
+        "decisionsSha256": "b670fb9ddfa6337a1fc5af6f56335eaff22e67476e1f71afdbe308749f9506ff"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-062",
+      "batch_id": "LRB-063",
       "labot": 50,
       "nelabot": 0,
       "pending": 0,
@@ -1633,18 +1663,18 @@
       "residualAuditPass": true,
       "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
-      "reviewer": "gpt-5.6-luna",
-      "linguisticVerdict": "LRB_062_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-      "status": "LINGUISTICALLY_CLOSED",
-      "classification": "LRB_062_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "reviewer": "pending-gpt-5.6-luna",
+      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+      "status": "OWNER_PREP_READY",
+      "classification": "LRB_063_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
       "rowCount": 50,
       "uniqueCards": 50,
-      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-062-decisions.csv",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-062-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-062-anti-bulk-proof.json",
-      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-062-residual-wrong-language-proof.json",
-      "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-062-owner-auth-residual-proof.json",
-      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-062-gala-cards.json"
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-063-decisions.csv",
+      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-063-proof.json",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-063-anti-bulk-proof.json",
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-063-residual-wrong-language-proof.json",
+      "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-063-owner-auth-residual-proof.json",
+      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-063-gala-cards.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
