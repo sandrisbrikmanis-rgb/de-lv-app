@@ -11,6 +11,7 @@
 - [Owner review proof](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-review-proof.json)
 - [Batch manifest](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/manifests/LRB-081-start.json)
 - [Batch input CSV](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-pending/LRB-081-input.csv)
+- [Copy/paste correction #5](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-5.json)
 - [Parallel checkpoint](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/parallel-checkpoint.json)
 
 **Branch:** `cursor/lrb-081-owner-authorization-ed35`

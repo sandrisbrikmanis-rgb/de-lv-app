@@ -1,11 +1,11 @@
 {
   "batchId": "LRB-081",
-  "generatedAt": "2026-09-13T18:48:28.635Z",
-  "sourceCommit": "e3fbba943700eb892628ed0e38cacba7c5e7c27b",
+  "generatedAt": "2026-09-14T15:14:14.540Z",
+  "sourceCommit": "912bd0b7acc7e4dd83bb4a497a37595434c8833e",
   "reviewer": "GPT-5.6 Luna",
-  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_4",
-  "correctionRound": 4,
-  "overridesSha256": "b2c2ba942eeb66671d1b72c43e7b14ddd1615638325377309df9dee1088600f7",
+  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_5",
+  "correctionRound": 5,
+  "overridesSha256": "eb0f34733299a8dc28ce6ae8cf1cbce3c913b0175158b3a74a234b9dff12e709",
   "uniqueCards": 50,
   "fullStudyCards": 50,
   "rowCount": 50,
@@ -2891,7 +2891,7 @@
           "translation": "poftă de mâncare",
           "explanation": [
             "Ideea principală: der Appetit este senzația sau dorința de a mânca.",
-            "Der Appetit se folosește numai la singular.",
+            "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
             "O expresie foarte frecventă este Guten Appetit!"
           ],
           "examples": [
@@ -2913,8 +2913,8 @@
             "Guten Appetit! = Poftă bună!"
           ],
           "important": [
-            "Der Appetit se folosește numai la singular.",
-            "Corect: der Appetit; incorect: die Appetite.",
+            "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
+            "Pluralul die Appetite este corect, dar rar.",
             "Se spune Ich habe Appetit, nu *Ich bin Appetit."
           ]
         },
@@ -2931,7 +2931,7 @@
           "translation": "poftă de mâncare",
           "explanation": [
             "Ideea principală: der Appetit este senzația sau dorința de a mânca.",
-            "Der Appetit se folosește numai la singular.",
+            "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
             "O expresie foarte frecventă este Guten Appetit!"
           ],
           "examples": [
@@ -2953,14 +2953,14 @@
             "Guten Appetit! = Poftă bună!"
           ],
           "important": [
-            "Der Appetit se folosește numai la singular.",
-            "Corect: der Appetit; incorect: die Appetite.",
+            "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
+            "Pluralul die Appetite este corect, dar rar.",
             "Se spune Ich habe Appetit, nu *Ich bin Appetit."
           ]
         }
       },
       "accentTerms": null,
-      "reason": "Pentru DE „Appetit”, am corectat ortografia românească și am folosit expresia firească „poftă de mâncare”.",
+      "reason": "Pentru DE „Appetit”, am folosit expresia românească firească „poftă de mâncare” și am precizat corect că pluralul die Appetite există, dar este rar.",
       "findingStableId": "g2/a1/ro|Appetit|idx:689|lv / study.translation / study.*.lv|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "fieldPath": "lv / study.translation / study.*.lv",
       "category": "WRONG_OR_MIXED_TARGET_LANGUAGE",
@@ -5241,7 +5241,7 @@
           "comparison": [
             {
               "word": "besuchen",
-              "meaning": "a vizita un loc, un eveniment sau o persoană",
+              "meaning": "a vizita un loc sau o persoană • a frecventa un curs • a participa la un eveniment",
               "example": "Ich besuche meine Großeltern. – Îmi vizitez bunicii."
             },
             {
@@ -5296,7 +5296,7 @@
           "comparison": [
             {
               "word": "besuchen",
-              "meaning": "a vizita un loc, un eveniment sau o persoană",
+              "meaning": "a vizita un loc sau o persoană • a frecventa un curs • a participa la un eveniment",
               "example": "Ich besuche meine Großeltern. – Îmi vizitez bunicii."
             },
             {
@@ -5320,7 +5320,7 @@
         }
       },
       "accentTerms": null,
-      "reason": "Pentru DE „besuchen”, am înlocuit explicațiile și exemplele cu română naturală și am eliminat expresiile letone „apciemot”, „Es apciemoju” și „Es eju”.",
+      "reason": "Pentru DE „besuchen”, am eliminat reziduurile letone și am aliniat toate sensurile: a vizita o persoană sau un loc, a frecventa un curs, a participa la un eveniment.",
       "findingStableId": "g2/a1/ro|besuchen|idx:89|lv; study.translation; study.explanation; study.examples; study.comparison; study.important|LANGUAGE_MISMATCH|gpt-5.6-luna",
       "fieldPath": "lv; study.translation; study.explanation; study.examples; study.comparison; study.important",
       "category": "WRONG_OR_MIXED_TARGET_LANGUAGE",
@@ -7476,7 +7476,7 @@
             },
             {
               "de": "Wir essen erst um acht Uhr.",
-              "lv": "Mâncăm doar la opt."
+              "lv": "Mâncăm abia la ora opt."
             }
           ],
           "comparison": [
@@ -7542,7 +7542,7 @@
             },
             {
               "de": "Wir essen erst um acht Uhr.",
-              "lv": "Mâncăm doar la opt."
+              "lv": "Mâncăm abia la ora opt."
             }
           ],
           "comparison": [
@@ -7578,7 +7578,7 @@
         }
       },
       "accentTerms": null,
-      "reason": "Pentru DE „erst”, traducerea corectă a sensului indicat este „doar”, nu o valoare goală sau neinterpretabilă.",
+      "reason": "Pentru DE „erst”, am păstrat sensurile „doar/abia/mai întâi” și am corectat exemplul temporal cu „abia la ora opt”.",
       "findingStableId": "g2/a1/ro|erst|idx:165|study.examples[0].lv|MISTRANSLATION|gpt-5.6-luna",
       "fieldPath": "study.examples[0].lv",
       "category": "SEMANTIC_OR_MEANING_ERROR",

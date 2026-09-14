@@ -1,9 +1,9 @@
 {
   "batchId": "LRB-081",
-  "sourceCommit": "e3fbba943700eb892628ed0e38cacba7c5e7c27b",
+  "sourceCommit": "912bd0b7acc7e4dd83bb4a497a37595434c8833e",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_4",
-  "correctionRound": 4,
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_5",
+  "correctionRound": 5,
   "cards": [
     {
       "auditId": "LRB081-0001",
@@ -582,7 +582,7 @@
       "auditId": "LRB081-0010",
       "cardId": "Appetit|idx:689",
       "status": "LABOT",
-      "reason": "Pentru DE „Appetit”, am corectat ortografia românească și am folosit expresia firească „poftă de mâncare”.",
+      "reason": "Pentru DE „Appetit”, am folosit expresia românească firească „poftă de mâncare” și am precizat corect că pluralul die Appetite există, dar este rar.",
       "new": {
         "de": "Appetit",
         "de_article": "der",
@@ -594,7 +594,7 @@
           "translation": "poftă de mâncare",
           "explanation": [
             "Ideea principală: der Appetit este senzația sau dorința de a mânca.",
-            "Der Appetit se folosește numai la singular.",
+            "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
             "O expresie foarte frecventă este Guten Appetit!"
           ],
           "examples": [
@@ -616,8 +616,8 @@
             "Guten Appetit! = Poftă bună!"
           ],
           "important": [
-            "Der Appetit se folosește numai la singular.",
-            "Corect: der Appetit; incorect: die Appetite.",
+            "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
+            "Pluralul die Appetite este corect, dar rar.",
             "Se spune Ich habe Appetit, nu *Ich bin Appetit."
           ]
         }
@@ -1061,7 +1061,7 @@
       "auditId": "LRB081-0018",
       "cardId": "besuchen|idx:89",
       "status": "LABOT",
-      "reason": "Pentru DE „besuchen”, am înlocuit explicațiile și exemplele cu română naturală și am eliminat expresiile letone „apciemot”, „Es apciemoju” și „Es eju”.",
+      "reason": "Pentru DE „besuchen”, am eliminat reziduurile letone și am aliniat toate sensurile: a vizita o persoană sau un loc, a frecventa un curs, a participa la un eveniment.",
       "new": {
         "de": "besuchen",
         "lv": "a vizita",
@@ -1093,7 +1093,7 @@
           "comparison": [
             {
               "word": "besuchen",
-              "meaning": "a vizita un loc, un eveniment sau o persoană",
+              "meaning": "a vizita un loc sau o persoană • a frecventa un curs • a participa la un eveniment",
               "example": "Ich besuche meine Großeltern. – Îmi vizitez bunicii."
             },
             {
@@ -1555,7 +1555,7 @@
       "auditId": "LRB081-0027",
       "cardId": "erst|idx:165",
       "status": "LABOT",
-      "reason": "Pentru DE „erst”, traducerea corectă a sensului indicat este „doar”, nu o valoare goală sau neinterpretabilă.",
+      "reason": "Pentru DE „erst”, am păstrat sensurile „doar/abia/mai întâi” și am corectat exemplul temporal cu „abia la ora opt”.",
       "new": {
         "de": "erst",
         "lv": "doar",
@@ -1586,7 +1586,7 @@
             },
             {
               "de": "Wir essen erst um acht Uhr.",
-              "lv": "Mâncăm doar la opt."
+              "lv": "Mâncăm abia la ora opt."
             }
           ],
           "comparison": [
