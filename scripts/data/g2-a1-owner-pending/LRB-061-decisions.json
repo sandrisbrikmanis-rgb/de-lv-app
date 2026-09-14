@@ -1,0 +1,302 @@
+{
+  "g2/a1/lb|Frau|idx:198|study.explanation, study.examples, study.tip, study.important|TARGET_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Fra\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie ist eine nette Frau.\\\",\\\"lv\\\":\\\"Si ass eng léif Fra.\\\"},{\\\"de\\\":\\\"Das ist meine Frau.\\\",\\\"lv\\\":\\\"Dat ass meng Fra.\\\"},{\\\"de\\\":\\\"Wie viele Frauen sind hier?\\\",\\\"lv\\\":\\\"Wéi vill Frae sinn hei?\\\"},{\\\"de\\\":\\\"Meine Frau arbeitet in Berlin.\\\",\\\"lv\\\":\\\"Meng Fra schafft zu Berlin.\\\"},{\\\"de\\\":\\\"Die Frau trägt ein Kleid.\\\",\\\"lv\\\":\\\"D’Fra huet e Kleed un.\\\"},{\\\"de\\\":\\\"Seine Frau ist Ärztin.\\\",\\\"lv\\\":\\\"Seng Fra ass Doktesch.\\\"}]\",\"study.explanation\":\"[\\\"Haaptiddi: die Frau kann allgemeng eng weiblech Persoun oder am Bestietnes d’Fra vun engem bedeiten.\\\",\\\"Wann et allgemeng ëm eng weiblech Persoun geet, bedeit die Frau „Fra“.\\\",\\\"Wann et ëm d’Persoun geet, mat där ee bestuet ass, bedeit die Frau och „Fra“: meine Frau = meng Fra.\\\",\\\"Mat engem Possessivartikel wéi meine, deine oder seine ass bal ëmmer d’Fra gemengt, mat där d’Persoun bestuet ass.\\\",\\\"De Pluriel ass die Frauen.\\\",\\\"Beim däitsche Wuert der Mann gëtt et déi selwecht Duebelbedeitung: Mann a Bestietnespartner.\\\"]\",\"study.important\":\"[\\\"die Frau = Fra als weiblech Persoun ODER als Fra, mat där ee bestuet ass; de Kontext entscheet.\\\",\\\"meine Frau = meng Fra.\\\",\\\"De Pluriel ass die Frauen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"die Frau\\\",\\\"Frau\\\"],\\\"purple\\\":[\\\"Fra\\\"],\\\"green\\\":[\\\"bestuet\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Frau\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Fra\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"meine Frau\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"meng Fra\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Frauen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Frae\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Meine Frau\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Meng Fra\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Frau\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"D’Fra\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seine Frau\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Seng Fra\\\"]}}],\\\"tip\\\":[{\\\"green\\\":[\\\"meine\\\",\\\"deine\\\",\\\"seine\\\"],\\\"purple\\\":[\\\"d’Fra\\\"]},{\\\"blue\\\":[\\\"die Frau\\\",\\\"eine Frau\\\"],\\\"purple\\\":[\\\"weiblech Persoun\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"die Frau\\\"],\\\"purple\\\":[\\\"Fra\\\"]},{\\\"green\\\":[\\\"meine Frau\\\"],\\\"purple\\\":[\\\"meng Fra\\\"]},{\\\"blue\\\":[\\\"die Frauen\\\"]}]}\",\"study.tip\":\"[\\\"Mat engem Possessivartikel wéi meine, deine oder seine ass bal ëmmer d’Fra gemengt, mat där d’Persoun bestuet ass.\\\",\\\"Ouni Possessivartikel bedeit die Frau oder eine Frau normalerweis eng weiblech Persoun.\\\"]\",\"study.translation\":\"Fra\"}",
+    "owner_note": "Pilnā Frau|idx:198 kartīte individuāli pārbaudīta: saglabāta atšķirība starp vispārīgu sievieti un sievu pēc konteksta; visas sešas DE–LB piemēru rindas izlīdzinātas."
+  },
+  "g2/a1/lb|frei|idx:199|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fräi",
+    "owner_note": "Vācu īpašības vārdam frei ar nozīmi “brīvs” precīzā luksemburgiešu pamatforma ir fräi."
+  },
+  "g2/a1/lb|Freitag|idx:200|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Freideg",
+    "owner_note": "Nedēļas diena Freitag luksemburgiešu valodā ir Freideg."
+  },
+  "g2/a1/lb|Freund|idx:201|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Frënd",
+    "owner_note": "Vācu lietvārdam Freund ar avota nozīmi “draugs” atbilst luksemburgiešu Frënd."
+  },
+  "g2/a1/lb|Freundin|idx:202|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Frëndin",
+    "owner_note": "Sieviešu dzimtes Freund(in) ar nozīmi “draudzene” precīzi atbilst Frëndin."
+  },
+  "g2/a1/lb|freundlich|idx:203|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "frëndlech",
+    "owner_note": "Īpašības vārdam freundlich ar nozīmi “laipns/draudzīgs” atbilst frëndlech."
+  },
+  "g2/a1/lb|frisch|idx:204|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "frësch",
+    "owner_note": "Vācu frisch ar avota nozīmi “svaigs” luksemburgiešu valodā ir frësch."
+  },
+  "g2/a1/lb|Frühling|idx:206|lv|INVALID_TEXT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Fréijoer",
+    "owner_note": "Gadalaikam Frühling precīzā luksemburgiešu pamatforma ir Fréijoer."
+  },
+  "g2/a1/lb|Frühstück|idx:207|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaffi",
+    "owner_note": "Luksemburgiešu etablētais ikdienas vārds brokastīm ir Kaffi; tas atbilst vācu Frühstück."
+  },
+  "g2/a1/lb|frühstücken|idx:208|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaffi drénken",
+    "owner_note": "Darbību “ēst brokastis / frühstücken” luksemburgiešu valodā dabiski izsaka Kaffi drénken."
+  },
+  "g2/a1/lb|fünfhundert|idx:210|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fënnefhonnert",
+    "owner_note": "Skaitlim fünfhundert precīzā luksemburgiešu forma ir fënnefhonnert."
+  },
+  "g2/a1/lb|fünfte|idx:211|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fënneften",
+    "owner_note": "Kārtas skaitlim fünfte avota nozīmē “piektais” atbilst luksemburgiešu pamatforma fënneften."
+  },
+  "g2/a1/lb|fünfzehn|idx:212|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fofzéng",
+    "owner_note": "Pamatskaitlim fünfzehn precīzā luksemburgiešu forma ir fofzéng."
+  },
+  "g2/a1/lb|fünfzehnte|idx:213|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fofzéngten",
+    "owner_note": "Kārtas skaitlim fünfzehnte avota nozīmē “piecpadsmitais” atbilst fofzéngten."
+  },
+  "g2/a1/lb|fünfzig|idx:214|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fofzeg",
+    "owner_note": "Pamatskaitlim fünfzig precīzā luksemburgiešu forma ir fofzeg."
+  },
+  "g2/a1/lb|fünfzigste|idx:215|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fofzegsten",
+    "owner_note": "Kārtas skaitlim fünfzigste avota nozīmē “piecdesmitais” atbilst fofzegsten."
+  },
+  "g2/a1/lb|für|idx:216|lv, study.explanation, study.examples, study.important|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"fir\",\"study.examples\":\"[{\\\"de\\\":\\\"Das ist für dich.\\\",\\\"lv\\\":\\\"Dat ass fir dech.\\\"},{\\\"de\\\":\\\"Danke für die Hilfe.\\\",\\\"lv\\\":\\\"Merci fir d’Hëllef.\\\"},{\\\"de\\\":\\\"Ich kaufe ein Geschenk für meine Mutter.\\\",\\\"lv\\\":\\\"Ech kafen e Kaddo fir meng Mamm.\\\"},{\\\"de\\\":\\\"Was bezahlst du für das Auto?\\\",\\\"lv\\\":\\\"Wéi vill bezils du fir den Auto?\\\"},{\\\"de\\\":\\\"Das Buch ist für Kinder.\\\",\\\"lv\\\":\\\"D’Buch ass fir Kanner.\\\"},{\\\"de\\\":\\\"Für heute ist das genug.\\\",\\\"lv\\\":\\\"Fir haut geet dat duer.\\\"}]\",\"study.explanation\":\"[\\\"Haaptiddi: für ass eng däitsch Präpositioun, déi ëmmer den Akkusativ verlaangt; op Lëtzebuergesch entsprécht se meeschtens fir.\\\",\\\"Bei engem Empfänger oder engem Zweck: für dich = fir dech.\\\",\\\"Bei engem Grond, enger Bezuelung oder enger Géigeleeschtung: Danke für die Hilfe = Merci fir d’Hëllef.\\\",\\\"für verlaangt onofhängeg vun der Bedeitung ëmmer den Akkusativ.\\\"]\",\"study.important\":\"[\\\"für + Akkusativ, zum Beispill für mich, für dich, für das Kind.\\\",\\\"danke für a bezahlen für ginn hei allebéid mat fir iwwersat.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"für\\\"],\\\"purple\\\":[\\\"fir\\\"],\\\"green\\\":[\\\"Akkusativ\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"für\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fir\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"für\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fir\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"für\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fir\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"für\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fir\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"für\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"fir\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Für\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Fir\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"für\\\"],\\\"green\\\":[\\\"Akkusativ\\\"]},{\\\"purple\\\":[\\\"fir\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"für\\\",\\\"Akkusativ\\\"]},{\\\"green\\\":[\\\"danke für\\\",\\\"bezahlen für\\\"],\\\"purple\\\":[\\\"fir\\\"]}]}\",\"study.tip\":\"[\\\"für steet am Däitschen ëmmer mam Akkusativ.\\\",\\\"Empfänger, Zweck, Grond oder Bezuelung ginn op Lëtzebuergesch meeschtens mat fir ausgedréckt.\\\"]\",\"study.translation\":\"fir\"}",
+    "owner_note": "Pilnā für|idx:216 kartīte individuāli pārbaudīta: saglabāta vācu Akkusativ rekcija un visas sešas nozīmes/lietojuma rindas precīzi atveidotas ar luksemburgiešu fir."
+  },
+  "g2/a1/lb|Fuß|idx:217|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Fouss",
+    "owner_note": "Ķermeņa daļai Fuß ar nozīmi “pēda” luksemburgiešu valodā ir Fouss."
+  },
+  "g2/a1/lb|ganz|idx:219|lv|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ganz\",\"study.comparison\":\"[{\\\"word\\\":\\\"ganz\\\",\\\"meaning\\\":\\\"ganz • dat Ganzt • komplett\\\",\\\"example\\\":\\\"der ganze Tag – de ganzen Dag\\\"},{\\\"word\\\":\\\"alles\\\",\\\"meaning\\\":\\\"alles\\\",\\\"example\\\":\\\"Alles ist gut. – Alles ass gutt.\\\"}]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich arbeite den ganzen Tag.\\\",\\\"lv\\\":\\\"Ech schaffen de ganzen Dag.\\\"},{\\\"de\\\":\\\"Das ganze Haus ist sauber.\\\",\\\"lv\\\":\\\"Dat ganzt Haus ass propper.\\\"},{\\\"de\\\":\\\"Das ist ganz sicher.\\\",\\\"lv\\\":\\\"Dat ass ganz sécher.\\\"},{\\\"de\\\":\\\"Das Essen ist ganz gut.\\\",\\\"lv\\\":\\\"D’Iessen ass ganz gutt.\\\"}]\",\"study.explanation\":\"[\\\"Haaptiddi: ganz bedeit zesumme mat engem Substantiv „ganz“ oder „dat Ganzt“.\\\",\\\"Virun engem Adjektiv oder Adverb kann ganz „komplett“, „ganz“ oder „zimlech“ bedeiten.\\\",\\\"ganz ass net datselwecht wéi de Pronomen alles.\\\"]\",\"study.important\":\"[\\\"der ganze Tag = de ganzen Dag.\\\",\\\"alles ass e Pronomen a bedeit „alles“.\\\"]\",\"study.tip\":\"[\\\"Virun engem Substantiv bedeit ganz dacks „dat Ganzt“.\\\",\\\"Virun engem Adjektiv oder Adverb bedeit ganz dacks komplett oder zimlech.\\\"]\",\"study.translation\":\"ganz\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"ganz\\\"],\\\"purple\\\":[\\\"dat Ganzt\\\",\\\"komplett\\\",\\\"zimlech\\\"],\\\"green\\\":[\\\"alles\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"ganzen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ganzen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ganze\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ganzt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ganz\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ganz\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ganz\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ganz\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"blue\\\":[\\\"ganz\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ganz\\\",\\\"dat Ganzt\\\",\\\"komplett\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"ganze\\\"],\\\"purple\\\":[\\\"ganzen\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"alles\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"alles\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Alles ist gut.\\\"],\\\"purple\\\":[\\\"Alles ass gutt.\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"ganz\\\"],\\\"purple\\\":[\\\"dat Ganzt\\\"]},{\\\"blue\\\":[\\\"ganz\\\"],\\\"purple\\\":[\\\"komplett\\\",\\\"zimlech\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"ganze\\\"],\\\"purple\\\":[\\\"ganzen\\\"]},{\\\"green\\\":[\\\"alles\\\",\\\"Pronomen\\\"]}]}\"}",
+    "owner_note": "Pilnā ganz|idx:219 kartīte individuāli pārbaudīta, lai gan finding norādīja tikai lv: izlabots arī bojātais salīdzinājums alles = Fësch un saglabāta atšķirība ganz pret alles."
+  },
+  "g2/a1/lb|Garage|idx:220|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Garage",
+    "owner_note": "Lietvārds Garage ar nozīmi “garāža” abās valodās ir Garage; pašreizējais placeholder jāaizvieto."
+  },
+  "g2/a1/lb|Garten|idx:221|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Gaart",
+    "owner_note": "Vācu Garten ar nozīmi “dārzs” precīzi atbilst luksemburgiešu Gaart."
+  },
+  "g2/a1/lb|Gast|idx:222|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Gaascht",
+    "owner_note": "Vācu Gast ar nozīmi “viesis” luksemburgiešu valodā ir Gaascht."
+  },
+  "g2/a1/lb|geboren|idx:224|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gebuer",
+    "owner_note": "Vācu divdabim geboren ar nozīmi “dzimis” atbilst luksemburgiešu gebuer."
+  },
+  "g2/a1/lb|gegen|idx:226|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "géint",
+    "owner_note": "Prievārdam gegen avota nozīmē “pret” precīzi atbilst luksemburgiešu géint."
+  },
+  "g2/a1/lb|gehen|idx:227|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "goen",
+    "owner_note": "Vācu darbības vārdam gehen ar nozīmi “iet” luksemburgiešu infinitīvs ir goen."
+  },
+  "g2/a1/lb|gelb|idx:228|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "giel",
+    "owner_note": "Krāsas īpašības vārdam gelb atbilst luksemburgiešu giel."
+  },
+  "g2/a1/lb|Geld|idx:229|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Individuāli pārbaudīts: vācu Geld un luksemburgiešu Geld sakrīt; pašreizējā vērtība jau ir precīza."
+  },
+  "g2/a1/lb|genug|idx:230|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "genuch",
+    "owner_note": "Vācu genug ar nozīmi “pietiekami” precīzi atbilst luksemburgiešu genuch."
+  },
+  "g2/a1/lb|geradeaus|idx:231|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "riichtaus",
+    "owner_note": "Virziena apstākļa vārdam geradeaus ar nozīmi “taisni uz priekšu” atbilst riichtaus."
+  },
+  "g2/a1/lb|gern|idx:232|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gär",
+    "owner_note": "Vācu gern ar nozīmi “labprāt” luksemburgiešu valodā ir gär."
+  },
+  "g2/a1/lb|Geschwister|idx:234|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Geschwëster\",\"study.comparison\":\"[{\\\"word\\\":\\\"Geschwister\\\",\\\"meaning\\\":\\\"Geschwëster\\\",\\\"example\\\":\\\"Meine Geschwister – meng Geschwëster\\\"},{\\\"word\\\":\\\"Bruder\\\",\\\"meaning\\\":\\\"Brudder\\\",\\\"example\\\":\\\"mein Bruder – mäi Brudder\\\"},{\\\"word\\\":\\\"Schwester\\\",\\\"meaning\\\":\\\"Schwëster\\\",\\\"example\\\":\\\"meine Schwester – meng Schwëster\\\"}]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich habe zwei Geschwister.\\\",\\\"lv\\\":\\\"Ech hunn zwee Geschwëster.\\\"},{\\\"de\\\":\\\"Meine Geschwister wohnen in Berlin.\\\",\\\"lv\\\":\\\"Meng Geschwëster wunnen zu Berlin.\\\"}]\",\"study.explanation\":\"[\\\"Haaptiddi: Geschwister bezeechent Bridder a Schwësteren zesummen.\\\",\\\"Dëst Wuert gëtt normalerweis am Pluriel gebraucht.\\\",\\\"Fir eng eenzel Persoun benotzt een Bruder oder Schwester.\\\"]\",\"study.important\":\"[\\\"ein Geschwister gëtt am normalen A1-Gebrauch net als regulär Singulierform benotzt.\\\"]\",\"study.tip\":\"[\\\"Geschwister gëtt normalerweis am Pluriel gebraucht.\\\",\\\"Fir eng eenzel Persoun wielt een Bruder oder Schwester.\\\"]\",\"study.translation\":\"Geschwëster\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Geschwister\\\",\\\"Bruder\\\",\\\"Schwester\\\"],\\\"purple\\\":[\\\"Bridder\\\",\\\"Schwësteren\\\"],\\\"green\\\":[\\\"Pluriel\\\",\\\"eenzel Persoun\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Geschwister\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Geschwëster\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Geschwister\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Geschwëster\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"blue\\\":[\\\"Geschwister\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Geschwëster\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Geschwister\\\"],\\\"purple\\\":[\\\"Geschwëster\\\"]}},{\\\"word\\\":{\\\"blue\\\":[\\\"Bruder\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Brudder\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Bruder\\\"],\\\"purple\\\":[\\\"Brudder\\\"]}},{\\\"word\\\":{\\\"blue\\\":[\\\"Schwester\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Schwëster\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Schwester\\\"],\\\"purple\\\":[\\\"Schwëster\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"Geschwister\\\"],\\\"green\\\":[\\\"Pluriel\\\"]},{\\\"blue\\\":[\\\"Bruder\\\",\\\"Schwester\\\"],\\\"green\\\":[\\\"eenzel Persoun\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"ein Geschwister\\\"],\\\"green\\\":[\\\"Singulierform\\\"]}]}\"}",
+    "owner_note": "Pilnā Geschwister|idx:234 kartīte individuāli pārbaudīta: kolektīvā daudzskaitļa nozīme un kontrasts ar Bruder/Schwester saglabāts visos laukos."
+  },
+  "g2/a1/lb|gesund|idx:237|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gesond",
+    "owner_note": "Īpašības vārdam gesund ar nozīmi “vesels” atbilst luksemburgiešu gesond."
+  },
+  "g2/a1/lb|Gesundheit|idx:238|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Gesondheet",
+    "owner_note": "Lietvārdam Gesundheit ar nozīmi “veselība” atbilst Gesondheet."
+  },
+  "g2/a1/lb|Giraffe|idx:240|lv|UNTRANSLATED|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Giraff",
+    "owner_note": "Dzīvnieka nosaukumam Giraffe precīzā luksemburgiešu forma ir Giraff."
+  },
+  "g2/a1/lb|Glas|idx:241|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Glas",
+    "owner_note": "Vācu Glas avota nozīmē “glāze” luksemburgiešu valodā saglabā formu Glas."
+  },
+  "g2/a1/lb|glauben|idx:242|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gleewen",
+    "owner_note": "Vācu darbības vārdam glauben ar nozīmi “ticēt” atbilst luksemburgiešu gleewen."
+  },
+  "g2/a1/lb|gleich|idx:243|lv, study|MEANING_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gläich\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme gleich.\\\",\\\"lv\\\":\\\"Ech kommen gläich.\\\"},{\\\"de\\\":\\\"Wir haben die gleiche Farbe.\\\",\\\"lv\\\":\\\"Mir hunn déi selwecht Faarf.\\\"},{\\\"de\\\":\\\"Das Essen ist gleich fertig.\\\",\\\"lv\\\":\\\"D’Iessen ass gläich fäerdeg.\\\"},{\\\"de\\\":\\\"Beide Wege sind gleich lang.\\\",\\\"lv\\\":\\\"Béid Weeër si gläich laang.\\\"},{\\\"de\\\":\\\"Bis gleich!\\\",\\\"lv\\\":\\\"Bis gläich!\\\"},{\\\"de\\\":\\\"Sie sind gleich groß.\\\",\\\"lv\\\":\\\"Si si gläich grouss.\\\"}]\",\"study.explanation\":\"[\\\"Haaptiddi: gleich bedeit bei enger Zäitangab „gläich“ oder „geschwënn“ an an engem Verglach „gläich“ oder „d’selwecht“.\\\",\\\"Bei enger Zäitangab: gleich = gläich oder an engem Ament, zum Beispill Ich komme gleich.\\\",\\\"Bei engem Verglach: gleich = gläich oder d’selwecht, zum Beispill die gleiche Farbe.\\\",\\\"De Kontext weist, ob eng Zäit oder e Verglach gemengt ass.\\\"]\",\"study.important\":\"[\\\"gleich = gläich oder geschwënn bei enger Zäit; gläich oder d’selwecht bei engem Verglach.\\\",\\\"Bis gleich! = Bis gläich! ass eng üblech Äddi-Formel.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"gleich\\\"],\\\"purple\\\":[\\\"gläich\\\",\\\"d’selwecht\\\"],\\\"green\\\":[\\\"Zäitangab\\\",\\\"Verglach\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gläich\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"gleiche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"selwecht\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gläich\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gläich\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gläich\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"gleich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gläich\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"gleich\\\"],\\\"purple\\\":[\\\"gläich\\\",\\\"geschwënn\\\"]},{\\\"green\\\":[\\\"gleich\\\"],\\\"purple\\\":[\\\"gläich\\\",\\\"d’selwecht\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"gleich\\\"],\\\"purple\\\":[\\\"gläich\\\",\\\"geschwënn\\\",\\\"d’selwecht\\\"]},{\\\"blue\\\":[\\\"Bis gleich!\\\"],\\\"purple\\\":[\\\"Bis gläich!\\\"]}]}\",\"study.tip\":\"[\\\"Bei enger Zäitangab bedeit gleich gläich oder geschwënn.\\\",\\\"Bei engem Verglach bedeit gleich gläich oder d’selwecht.\\\"]\",\"study.translation\":\"gläich\"}",
+    "owner_note": "Pilnā gleich|idx:243 kartīte individuāli pārbaudīta: saglabātas abas mācību nozīmes — laiks un salīdzinājums — un visas sešas DE–LB rindas izlīdzinātas."
+  },
+  "g2/a1/lb|Glück|idx:244|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Gléck",
+    "owner_note": "Vācu Glück ar nozīmi “laime” precīzi atbilst luksemburgiešu Gléck."
+  },
+  "g2/a1/lb|glücklich|idx:245|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "glécklech",
+    "owner_note": "Īpašības vārdam glücklich ar nozīmi “laimīgs” atbilst glécklech."
+  },
+  "g2/a1/lb|Gramm|idx:246|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Gramm",
+    "owner_note": "Mērvienība Gramm luksemburgiešu valodā rakstāma Gramm ar diviem m."
+  },
+  "g2/a1/lb|Gras|idx:248|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Gras",
+    "owner_note": "Vācu Gras ar nozīmi “zāle” luksemburgiešu valodā ir Gras."
+  },
+  "g2/a1/lb|grau|idx:249|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gro",
+    "owner_note": "Krāsas īpašības vārdam grau precīzā luksemburgiešu forma ir gro."
+  },
+  "g2/a1/lb|groß|idx:250|lv, study|MEANING_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"grouss\",\"study.examples\":\"[{\\\"de\\\":\\\"Das Haus ist groß.\\\",\\\"lv\\\":\\\"D’Haus ass grouss.\\\"},{\\\"de\\\":\\\"Berlin ist eine große Stadt.\\\",\\\"lv\\\":\\\"Berlin ass eng grouss Stad.\\\"},{\\\"de\\\":\\\"Er ist groß.\\\",\\\"lv\\\":\\\"Hien ass grouss.\\\"},{\\\"de\\\":\\\"Das Zimmer ist groß.\\\",\\\"lv\\\":\\\"D’Zëmmer ass grouss.\\\"}]\",\"study.explanation\":\"[\\\"Haaptiddi: groß bedeit grouss; bei enger Persoun bezitt et sech normalerweis op d’Kierpergréisst.\\\",\\\"groß beschreift Saachen, Plazen an hir allgemeng Gréisst.\\\",\\\"Bei enger Persoun bedeit groß grouss vu Kierpergréisst, net breet oder déck.\\\"]\",\"study.important\":\"[\\\"Er ist groß. bedeit bei enger Persoun: Hien ass grouss.\\\",\\\"Bei enger Saach oder enger Plaz bedeit groß normalerweis grouss.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"grouss\\\"],\\\"green\\\":[\\\"Kierpergréisst\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"groß\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"grouss\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"große\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"grouss\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"groß\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"grouss\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"groß\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"grouss\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"grouss\\\"]},{\\\"blue\\\":[\\\"groß\\\"],\\\"green\\\":[\\\"Kierpergréisst\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"grouss\\\"]},{\\\"blue\\\":[\\\"groß\\\"],\\\"purple\\\":[\\\"grouss\\\"]}]}\",\"study.tip\":\"[\\\"Bei enger Saach oder enger Plaz bedeit groß grouss.\\\",\\\"Bei enger Persoun bezitt groß sech op d’Kierpergréisst.\\\"]\",\"study.translation\":\"grouss\"}",
+    "owner_note": "Pilnā groß|idx:250 kartīte individuāli pārbaudīta: saglabāts mācību kontrasts starp lietas/vietas lielumu un cilvēka augumu; visas četras piemēru rindas salāgotas."
+  },
+  "g2/a1/lb|Großeltern|idx:251|lv, study|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Grousselteren\",\"study.comparison\":\"[{\\\"word\\\":\\\"Großeltern\\\",\\\"meaning\\\":\\\"Grousselteren\\\",\\\"example\\\":\\\"meine Großeltern – meng Grousselteren\\\"},{\\\"word\\\":\\\"Großmutter\\\",\\\"meaning\\\":\\\"Groussmamm\\\",\\\"example\\\":\\\"meine Großmutter – meng Groussmamm\\\"},{\\\"word\\\":\\\"Großvater\\\",\\\"meaning\\\":\\\"Grousspapp\\\",\\\"example\\\":\\\"mein Großvater – mäi Grousspapp\\\"}]\",\"study.examples\":\"[{\\\"de\\\":\\\"Meine Großeltern wohnen auf dem Land.\\\",\\\"lv\\\":\\\"Meng Grousseltere wunnen um Land.\\\"},{\\\"de\\\":\\\"Ich besuche meine Großeltern.\\\",\\\"lv\\\":\\\"Ech besiche meng Grousselteren.\\\"}]\",\"study.explanation\":\"[\\\"Haaptiddi: Großeltern bedeit Groussmamm a Grousspapp zesummen.\\\",\\\"Dëst Wuert gëtt am Pluriel gebraucht.\\\",\\\"Am Singulier benotzt een Großmutter oder Großvater.\\\"]\",\"study.important\":\"[\\\"die Großeltern = Grousselteren.\\\"]\",\"study.tip\":\"[\\\"Großeltern ass eng Plurielbezeechnung.\\\",\\\"Fir eng eenzel Persoun benotzt een Großmutter oder Großvater.\\\"]\",\"study.translation\":\"Grousselteren\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Großeltern\\\",\\\"Großmutter\\\",\\\"Großvater\\\"],\\\"purple\\\":[\\\"Groussmamm\\\",\\\"Grousspapp\\\"],\\\"green\\\":[\\\"Pluriel\\\",\\\"Singulier\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Großeltern\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Grousseltere\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Großeltern\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Grousselteren\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"blue\\\":[\\\"Großeltern\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Grousselteren\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Großeltern\\\"],\\\"purple\\\":[\\\"Grousselteren\\\"]}},{\\\"word\\\":{\\\"blue\\\":[\\\"Großmutter\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Groussmamm\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Großmutter\\\"],\\\"purple\\\":[\\\"Groussmamm\\\"]}},{\\\"word\\\":{\\\"blue\\\":[\\\"Großvater\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Grousspapp\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Großvater\\\"],\\\"purple\\\":[\\\"Grousspapp\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"Großeltern\\\"],\\\"green\\\":[\\\"Plurielbezeechnung\\\"]},{\\\"blue\\\":[\\\"Großmutter\\\",\\\"Großvater\\\"],\\\"green\\\":[\\\"eenzel Persoun\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"die Großeltern\\\"],\\\"purple\\\":[\\\"Grousselteren\\\"]}]}\"}",
+    "owner_note": "Pilnā Großeltern|idx:251 kartīte individuāli pārbaudīta: daudzskaitļa nozīme un kontrasts ar Großmutter/Großvater saglabāts visos laukos."
+  },
+  "g2/a1/lb|Großmutter|idx:252|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Groussmamm",
+    "owner_note": "Radniecības vārdam Großmutter atbilst luksemburgiešu Groussmamm."
+  },
+  "g2/a1/lb|Großvater|idx:253|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Grousspapp",
+    "owner_note": "Radniecības vārdam Großvater atbilst luksemburgiešu Grousspapp."
+  },
+  "g2/a1/lb|grün|idx:254|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gréng",
+    "owner_note": "Krāsas īpašības vārdam grün precīzā luksemburgiešu forma ir gréng."
+  },
+  "g2/a1/lb|Gruppe|idx:255|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Grupp",
+    "owner_note": "Vācu Gruppe ar nozīmi “grupa” luksemburgiešu valodā ir Grupp."
+  },
+  "g2/a1/lb|Gruß|idx:256|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Grouss",
+    "owner_note": "Vācu lietvārdam Gruß ar nozīmi “sveiciens” LOD tiešā atbilsme ir luksemburgiešu Grouss."
+  },
+  "g2/a1/lb|grüßen|idx:257|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gréissen",
+    "owner_note": "Vācu darbības vārdam grüßen ar nozīmi “sveicināt” LOD tiešā atbilsme ir luksemburgiešu gréissen."
+  }
+}

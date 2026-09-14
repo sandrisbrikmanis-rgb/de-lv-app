@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-061",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-14T16:10:58.155Z",
+  "linguisticVerdict": "LRB_061_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "languages": {
+    "lb": 50
+  },
+  "unique_cards": 50,
+  "scope": "Frau..grüßen (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review complete",
+  "productionSource": "data/lb/a1.js",
+  "input_csv_sha256": "ea1d4b5faca9a1391b741d4da574b66bd8895480a3a0599dd437a5811286d90f",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-061-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-061-input.csv",
+  "note": "Gala verdict LRB_061_FULL_50_50_LINGUISTIC_REVIEW_PASS. 49 LABOT / 1 NELABOT / 0 PENDING (7 full composite + 42 scalar cards). LB batch 4 complete; 459 LB rows remain in 7737 pool. Gala correction #1 applied (sectionAccents on ganz, Geschwister, Großeltern). DE/production/Crowdin/ingest/apply unchanged."
+}

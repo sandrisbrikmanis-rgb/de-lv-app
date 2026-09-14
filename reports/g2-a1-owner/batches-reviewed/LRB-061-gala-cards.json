@@ -1,0 +1,1868 @@
+{
+  "batch_id": "LRB-061",
+  "language": "lb",
+  "scope": {
+    "from": "Frau|idx:198",
+    "rows": 50,
+    "to": "grüßen|idx:257",
+    "unique_cards": 50
+  },
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "b7ea98296e04c89b082a551050c196f410a0bc4c4729133967475bff003b79af",
+  "full_card_replacements": 7,
+  "full_card_object_ids": [
+    "Frau|idx:198",
+    "Geschwister|idx:234",
+    "Großeltern|idx:251",
+    "für|idx:216",
+    "ganz|idx:219",
+    "gleich|idx:243",
+    "groß|idx:250"
+  ],
+  "classification": "LRB_061_GALA_CORRECTION_1_APPLIED_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "Frau|idx:198",
+      "de_reference": "Frau",
+      "idx": 198,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Frau",
+        "de_article": "die",
+        "de_plural": "die Frauen",
+        "level": "A1",
+        "lv": "Fra",
+        "study": {
+          "id": "a1-frau",
+          "layout": "standardStudy",
+          "translation": "Fra",
+          "explanation": [
+            "Haaptiddi: die Frau kann allgemeng eng weiblech Persoun oder am Bestietnes d’Fra vun engem bedeiten.",
+            "Wann et allgemeng ëm eng weiblech Persoun geet, bedeit die Frau „Fra“.",
+            "Wann et ëm d’Persoun geet, mat där ee bestuet ass, bedeit die Frau och „Fra“: meine Frau = meng Fra.",
+            "Mat engem Possessivartikel wéi meine, deine oder seine ass bal ëmmer d’Fra gemengt, mat där d’Persoun bestuet ass.",
+            "De Pluriel ass die Frauen.",
+            "Beim däitsche Wuert der Mann gëtt et déi selwecht Duebelbedeitung: Mann a Bestietnespartner."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist eine nette Frau.",
+              "lv": "Si ass eng léif Fra."
+            },
+            {
+              "de": "Das ist meine Frau.",
+              "lv": "Dat ass meng Fra."
+            },
+            {
+              "de": "Wie viele Frauen sind hier?",
+              "lv": "Wéi vill Frae sinn hei?"
+            },
+            {
+              "de": "Meine Frau arbeitet in Berlin.",
+              "lv": "Meng Fra schafft zu Berlin."
+            },
+            {
+              "de": "Die Frau trägt ein Kleid.",
+              "lv": "D’Fra huet e Kleed un."
+            },
+            {
+              "de": "Seine Frau ist Ärztin.",
+              "lv": "Seng Fra ass Doktesch."
+            }
+          ],
+          "tip": [
+            "Mat engem Possessivartikel wéi meine, deine oder seine ass bal ëmmer d’Fra gemengt, mat där d’Persoun bestuet ass.",
+            "Ouni Possessivartikel bedeit die Frau oder eine Frau normalerweis eng weiblech Persoun."
+          ],
+          "important": [
+            "die Frau = Fra als weiblech Persoun ODER als Fra, mat där ee bestuet ass; de Kontext entscheet.",
+            "meine Frau = meng Fra.",
+            "De Pluriel ass die Frauen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "die Frau",
+                "Frau"
+              ],
+              "purple": [
+                "Fra"
+              ],
+              "green": [
+                "bestuet"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Frau"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Fra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "meine Frau"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "meng Fra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Frauen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Frae"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Meine Frau"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Meng Fra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Frau"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Fra"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Seine Frau"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Seng Fra"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "green": [
+                  "meine",
+                  "deine",
+                  "seine"
+                ],
+                "purple": [
+                  "d’Fra"
+                ]
+              },
+              {
+                "blue": [
+                  "die Frau",
+                  "eine Frau"
+                ],
+                "purple": [
+                  "weiblech Persoun"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Frau"
+                ],
+                "purple": [
+                  "Fra"
+                ]
+              },
+              {
+                "green": [
+                  "meine Frau"
+                ],
+                "purple": [
+                  "meng Fra"
+                ]
+              },
+              {
+                "blue": [
+                  "die Frauen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "frei|idx:199",
+      "de_reference": "frei",
+      "idx": 199,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "frei",
+        "level": "A1",
+        "lv": "fräi"
+      }
+    },
+    {
+      "card_object_id": "Freitag|idx:200",
+      "de_reference": "Freitag",
+      "idx": 200,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Freitag",
+        "de_article": "der",
+        "de_plural": "die Freitage",
+        "level": "A1",
+        "lv": "Freideg"
+      }
+    },
+    {
+      "card_object_id": "Freund|idx:201",
+      "de_reference": "Freund",
+      "idx": 201,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Freund",
+        "de_article": "der",
+        "de_plural": "die Freunde",
+        "level": "A1",
+        "lv": "Frënd"
+      }
+    },
+    {
+      "card_object_id": "Freundin|idx:202",
+      "de_reference": "Freundin",
+      "idx": 202,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Freundin",
+        "de_article": "die",
+        "de_plural": "die Freundinnen",
+        "level": "A1",
+        "lv": "Frëndin"
+      }
+    },
+    {
+      "card_object_id": "freundlich|idx:203",
+      "de_reference": "freundlich",
+      "idx": 203,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "freundlich",
+        "level": "A1",
+        "lv": "frëndlech"
+      }
+    },
+    {
+      "card_object_id": "frisch|idx:204",
+      "de_reference": "frisch",
+      "idx": 204,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "frisch",
+        "level": "A1",
+        "lv": "frësch"
+      }
+    },
+    {
+      "card_object_id": "Frühling|idx:206",
+      "de_reference": "Frühling",
+      "idx": 206,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Frühling",
+        "de_article": "der",
+        "de_plural": "die Frühlinge",
+        "level": "A1",
+        "lv": "Fréijoer"
+      }
+    },
+    {
+      "card_object_id": "Frühstück|idx:207",
+      "de_reference": "Frühstück",
+      "idx": 207,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Frühstück",
+        "de_article": "das",
+        "de_plural": "die Frühstücke",
+        "level": "A1",
+        "lv": "Kaffi"
+      }
+    },
+    {
+      "card_object_id": "frühstücken|idx:208",
+      "de_reference": "frühstücken",
+      "idx": 208,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "frühstücken",
+        "level": "A1",
+        "lv": "Kaffi drénken"
+      }
+    },
+    {
+      "card_object_id": "fünfhundert|idx:210",
+      "de_reference": "fünfhundert",
+      "idx": 210,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fünfhundert",
+        "level": "A1",
+        "lv": "fënnefhonnert"
+      }
+    },
+    {
+      "card_object_id": "fünfte|idx:211",
+      "de_reference": "fünfte",
+      "idx": 211,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fünfte",
+        "level": "A1",
+        "lv": "fënneften"
+      }
+    },
+    {
+      "card_object_id": "fünfzehn|idx:212",
+      "de_reference": "fünfzehn",
+      "idx": 212,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fünfzehn",
+        "level": "A1",
+        "lv": "fofzéng"
+      }
+    },
+    {
+      "card_object_id": "fünfzehnte|idx:213",
+      "de_reference": "fünfzehnte",
+      "idx": 213,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fünfzehnte",
+        "level": "A1",
+        "lv": "fofzéngten"
+      }
+    },
+    {
+      "card_object_id": "fünfzig|idx:214",
+      "de_reference": "fünfzig",
+      "idx": 214,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fünfzig",
+        "level": "A1",
+        "lv": "fofzeg"
+      }
+    },
+    {
+      "card_object_id": "fünfzigste|idx:215",
+      "de_reference": "fünfzigste",
+      "idx": 215,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "fünfzigste",
+        "level": "A1",
+        "lv": "fofzegsten"
+      }
+    },
+    {
+      "card_object_id": "für|idx:216",
+      "de_reference": "für",
+      "idx": 216,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "für",
+        "level": "A1",
+        "lv": "fir",
+        "study": {
+          "id": "a1-fuer",
+          "layout": "standardStudy",
+          "translation": "fir",
+          "explanation": [
+            "Haaptiddi: für ass eng däitsch Präpositioun, déi ëmmer den Akkusativ verlaangt; op Lëtzebuergesch entsprécht se meeschtens fir.",
+            "Bei engem Empfänger oder engem Zweck: für dich = fir dech.",
+            "Bei engem Grond, enger Bezuelung oder enger Géigeleeschtung: Danke für die Hilfe = Merci fir d’Hëllef.",
+            "für verlaangt onofhängeg vun der Bedeitung ëmmer den Akkusativ."
+          ],
+          "examples": [
+            {
+              "de": "Das ist für dich.",
+              "lv": "Dat ass fir dech."
+            },
+            {
+              "de": "Danke für die Hilfe.",
+              "lv": "Merci fir d’Hëllef."
+            },
+            {
+              "de": "Ich kaufe ein Geschenk für meine Mutter.",
+              "lv": "Ech kafen e Kaddo fir meng Mamm."
+            },
+            {
+              "de": "Was bezahlst du für das Auto?",
+              "lv": "Wéi vill bezils du fir den Auto?"
+            },
+            {
+              "de": "Das Buch ist für Kinder.",
+              "lv": "D’Buch ass fir Kanner."
+            },
+            {
+              "de": "Für heute ist das genug.",
+              "lv": "Fir haut geet dat duer."
+            }
+          ],
+          "tip": [
+            "für steet am Däitschen ëmmer mam Akkusativ.",
+            "Empfänger, Zweck, Grond oder Bezuelung ginn op Lëtzebuergesch meeschtens mat fir ausgedréckt."
+          ],
+          "important": [
+            "für + Akkusativ, zum Beispill für mich, für dich, für das Kind.",
+            "danke für a bezahlen für ginn hei allebéid mat fir iwwersat."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "für"
+              ],
+              "purple": [
+                "fir"
+              ],
+              "green": [
+                "Akkusativ"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Für"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Fir"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "für"
+                ],
+                "green": [
+                  "Akkusativ"
+                ]
+              },
+              {
+                "purple": [
+                  "fir"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "für",
+                  "Akkusativ"
+                ]
+              },
+              {
+                "green": [
+                  "danke für",
+                  "bezahlen für"
+                ],
+                "purple": [
+                  "fir"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Fuß|idx:217",
+      "de_reference": "Fuß",
+      "idx": 217,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Fuß",
+        "de_article": "der",
+        "de_plural": "die Füße",
+        "level": "A1",
+        "lv": "Fouss"
+      }
+    },
+    {
+      "card_object_id": "ganz|idx:219",
+      "de_reference": "ganz",
+      "idx": 219,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "ganz",
+        "level": "A1",
+        "lv": "ganz",
+        "study": {
+          "id": "a1-ganz-study",
+          "layout": "standardStudy",
+          "translation": "ganz",
+          "explanation": [
+            "Haaptiddi: ganz bedeit zesumme mat engem Substantiv „ganz“ oder „dat Ganzt“.",
+            "Virun engem Adjektiv oder Adverb kann ganz „komplett“, „ganz“ oder „zimlech“ bedeiten.",
+            "ganz ass net datselwecht wéi de Pronomen alles."
+          ],
+          "examples": [
+            {
+              "de": "Ich arbeite den ganzen Tag.",
+              "lv": "Ech schaffen de ganzen Dag."
+            },
+            {
+              "de": "Das ganze Haus ist sauber.",
+              "lv": "Dat ganzt Haus ass propper."
+            },
+            {
+              "de": "Das ist ganz sicher.",
+              "lv": "Dat ass ganz sécher."
+            },
+            {
+              "de": "Das Essen ist ganz gut.",
+              "lv": "D’Iessen ass ganz gutt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ganz",
+              "meaning": "ganz • dat Ganzt • komplett",
+              "example": "der ganze Tag – de ganzen Dag"
+            },
+            {
+              "word": "alles",
+              "meaning": "alles",
+              "example": "Alles ist gut. – Alles ass gutt."
+            }
+          ],
+          "tip": [
+            "Virun engem Substantiv bedeit ganz dacks „dat Ganzt“.",
+            "Virun engem Adjektiv oder Adverb bedeit ganz dacks komplett oder zimlech."
+          ],
+          "important": [
+            "der ganze Tag = de ganzen Dag.",
+            "alles ass e Pronomen a bedeit „alles“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ganz"
+              ],
+              "purple": [
+                "dat Ganzt",
+                "komplett",
+                "zimlech"
+              ],
+              "green": [
+                "alles"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ganzen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ganzen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ganze"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ganzt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ganz"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ganz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ganz"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ganz"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "ganz"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ganz",
+                    "dat Ganzt",
+                    "komplett"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ganze"
+                  ],
+                  "purple": [
+                    "ganzen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "alles"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "alles"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Alles ist gut."
+                  ],
+                  "purple": [
+                    "Alles ass gutt."
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "ganz"
+                ],
+                "purple": [
+                  "dat Ganzt"
+                ]
+              },
+              {
+                "blue": [
+                  "ganz"
+                ],
+                "purple": [
+                  "komplett",
+                  "zimlech"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "ganze"
+                ],
+                "purple": [
+                  "ganzen"
+                ]
+              },
+              {
+                "green": [
+                  "alles",
+                  "Pronomen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Garage|idx:220",
+      "de_reference": "Garage",
+      "idx": 220,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Garage",
+        "de_article": "die",
+        "de_plural": "die Garagen",
+        "level": "A1",
+        "lv": "Garage"
+      }
+    },
+    {
+      "card_object_id": "Garten|idx:221",
+      "de_reference": "Garten",
+      "idx": 221,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Garten",
+        "de_article": "der",
+        "de_plural": "die Gärten",
+        "level": "A1",
+        "lv": "Gaart"
+      }
+    },
+    {
+      "card_object_id": "Gast|idx:222",
+      "de_reference": "Gast",
+      "idx": 222,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Gast",
+        "de_article": "der",
+        "de_plural": "die Gäste",
+        "level": "A1",
+        "lv": "Gaascht"
+      }
+    },
+    {
+      "card_object_id": "geboren|idx:224",
+      "de_reference": "geboren",
+      "idx": 224,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "geboren",
+        "level": "A1",
+        "lv": "gebuer"
+      }
+    },
+    {
+      "card_object_id": "gegen|idx:226",
+      "de_reference": "gegen",
+      "idx": 226,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "gegen",
+        "level": "A1",
+        "lv": "géint"
+      }
+    },
+    {
+      "card_object_id": "gehen|idx:227",
+      "de_reference": "gehen",
+      "idx": 227,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "gehen",
+        "level": "A1",
+        "lv": "goen"
+      }
+    },
+    {
+      "card_object_id": "gelb|idx:228",
+      "de_reference": "gelb",
+      "idx": 228,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "gelb",
+        "level": "A1",
+        "lv": "giel"
+      }
+    },
+    {
+      "card_object_id": "Geld|idx:229",
+      "de_reference": "Geld",
+      "idx": 229,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Geld",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Geld"
+      }
+    },
+    {
+      "card_object_id": "genug|idx:230",
+      "de_reference": "genug",
+      "idx": 230,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "genug",
+        "level": "A1",
+        "lv": "genuch"
+      }
+    },
+    {
+      "card_object_id": "geradeaus|idx:231",
+      "de_reference": "geradeaus",
+      "idx": 231,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "geradeaus",
+        "level": "A1",
+        "lv": "riichtaus"
+      }
+    },
+    {
+      "card_object_id": "gern|idx:232",
+      "de_reference": "gern",
+      "idx": 232,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "gern",
+        "level": "A1",
+        "lv": "gär"
+      }
+    },
+    {
+      "card_object_id": "Geschwister|idx:234",
+      "de_reference": "Geschwister",
+      "idx": 234,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Geschwister",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Geschwëster",
+        "study": {
+          "id": "a1-geschwister-study",
+          "layout": "standardStudy",
+          "translation": "Geschwëster",
+          "explanation": [
+            "Haaptiddi: Geschwister bezeechent Bridder a Schwësteren zesummen.",
+            "Dëst Wuert gëtt normalerweis am Pluriel gebraucht.",
+            "Fir eng eenzel Persoun benotzt een Bruder oder Schwester."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe zwei Geschwister.",
+              "lv": "Ech hunn zwee Geschwëster."
+            },
+            {
+              "de": "Meine Geschwister wohnen in Berlin.",
+              "lv": "Meng Geschwëster wunnen zu Berlin."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Geschwister",
+              "meaning": "Geschwëster",
+              "example": "Meine Geschwister – meng Geschwëster"
+            },
+            {
+              "word": "Bruder",
+              "meaning": "Brudder",
+              "example": "mein Bruder – mäi Brudder"
+            },
+            {
+              "word": "Schwester",
+              "meaning": "Schwëster",
+              "example": "meine Schwester – meng Schwëster"
+            }
+          ],
+          "tip": [
+            "Geschwister gëtt normalerweis am Pluriel gebraucht.",
+            "Fir eng eenzel Persoun wielt een Bruder oder Schwester."
+          ],
+          "important": [
+            "ein Geschwister gëtt am normalen A1-Gebrauch net als regulär Singulierform benotzt."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Geschwister",
+                "Bruder",
+                "Schwester"
+              ],
+              "purple": [
+                "Bridder",
+                "Schwësteren"
+              ],
+              "green": [
+                "Pluriel",
+                "eenzel Persoun"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Geschwister"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Geschwëster"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Geschwister"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Geschwëster"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "Geschwister"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Geschwëster"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Geschwister"
+                  ],
+                  "purple": [
+                    "Geschwëster"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "Bruder"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Brudder"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Bruder"
+                  ],
+                  "purple": [
+                    "Brudder"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "Schwester"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Schwëster"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Schwester"
+                  ],
+                  "purple": [
+                    "Schwëster"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Geschwister"
+                ],
+                "green": [
+                  "Pluriel"
+                ]
+              },
+              {
+                "blue": [
+                  "Bruder",
+                  "Schwester"
+                ],
+                "green": [
+                  "eenzel Persoun"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "ein Geschwister"
+                ],
+                "green": [
+                  "Singulierform"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "gesund|idx:237",
+      "de_reference": "gesund",
+      "idx": 237,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "gesund",
+        "level": "A1",
+        "lv": "gesond"
+      }
+    },
+    {
+      "card_object_id": "Gesundheit|idx:238",
+      "de_reference": "Gesundheit",
+      "idx": 238,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Gesundheit",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Gesondheet"
+      }
+    },
+    {
+      "card_object_id": "Giraffe|idx:240",
+      "de_reference": "Giraffe",
+      "idx": 240,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Giraffe",
+        "de_article": "die",
+        "de_plural": "die Giraffen",
+        "level": "A1",
+        "lv": "Giraff"
+      }
+    },
+    {
+      "card_object_id": "Glas|idx:241",
+      "de_reference": "Glas",
+      "idx": 241,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Glas",
+        "de_article": "das",
+        "de_plural": "die Gläser",
+        "level": "A1",
+        "lv": "Glas"
+      }
+    },
+    {
+      "card_object_id": "glauben|idx:242",
+      "de_reference": "glauben",
+      "idx": 242,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "glauben",
+        "level": "A1",
+        "lv": "gleewen"
+      }
+    },
+    {
+      "card_object_id": "gleich|idx:243",
+      "de_reference": "gleich",
+      "idx": 243,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "gleich",
+        "level": "A1",
+        "lv": "gläich",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "gläich",
+          "explanation": [
+            "Haaptiddi: gleich bedeit bei enger Zäitangab „gläich“ oder „geschwënn“ an an engem Verglach „gläich“ oder „d’selwecht“.",
+            "Bei enger Zäitangab: gleich = gläich oder an engem Ament, zum Beispill Ich komme gleich.",
+            "Bei engem Verglach: gleich = gläich oder d’selwecht, zum Beispill die gleiche Farbe.",
+            "De Kontext weist, ob eng Zäit oder e Verglach gemengt ass."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Ech kommen gläich."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Mir hunn déi selwecht Faarf."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "D’Iessen ass gläich fäerdeg."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Béid Weeër si gläich laang."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Bis gläich!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Si si gläich grouss."
+            }
+          ],
+          "tip": [
+            "Bei enger Zäitangab bedeit gleich gläich oder geschwënn.",
+            "Bei engem Verglach bedeit gleich gläich oder d’selwecht."
+          ],
+          "important": [
+            "gleich = gläich oder geschwënn bei enger Zäit; gläich oder d’selwecht bei engem Verglach.",
+            "Bis gleich! = Bis gläich! ass eng üblech Äddi-Formel."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gleich"
+              ],
+              "purple": [
+                "gläich",
+                "d’selwecht"
+              ],
+              "green": [
+                "Zäitangab",
+                "Verglach"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gläich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleiche"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "selwecht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gläich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gläich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gläich"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "gleich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gläich"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "gleich"
+                ],
+                "purple": [
+                  "gläich",
+                  "geschwënn"
+                ]
+              },
+              {
+                "green": [
+                  "gleich"
+                ],
+                "purple": [
+                  "gläich",
+                  "d’selwecht"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "gleich"
+                ],
+                "purple": [
+                  "gläich",
+                  "geschwënn",
+                  "d’selwecht"
+                ]
+              },
+              {
+                "blue": [
+                  "Bis gleich!"
+                ],
+                "purple": [
+                  "Bis gläich!"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Glück|idx:244",
+      "de_reference": "Glück",
+      "idx": 244,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Glück",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Gléck"
+      }
+    },
+    {
+      "card_object_id": "glücklich|idx:245",
+      "de_reference": "glücklich",
+      "idx": 245,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "glücklich",
+        "level": "A1",
+        "lv": "glécklech"
+      }
+    },
+    {
+      "card_object_id": "Gramm|idx:246",
+      "de_reference": "Gramm",
+      "idx": 246,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Gramm",
+        "de_article": "das",
+        "de_plural": "die Gramm",
+        "level": "A1",
+        "lv": "Gramm"
+      }
+    },
+    {
+      "card_object_id": "Gras|idx:248",
+      "de_reference": "Gras",
+      "idx": 248,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Gras",
+        "de_article": "das",
+        "de_plural": "die Gräser",
+        "level": "A1",
+        "lv": "Gras"
+      }
+    },
+    {
+      "card_object_id": "grau|idx:249",
+      "de_reference": "grau",
+      "idx": 249,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "grau",
+        "level": "A1",
+        "lv": "gro"
+      }
+    },
+    {
+      "card_object_id": "groß|idx:250",
+      "de_reference": "groß",
+      "idx": 250,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "groß",
+        "level": "A1",
+        "lv": "grouss",
+        "study": {
+          "id": "a1-gross-study",
+          "layout": "standardStudy",
+          "translation": "grouss",
+          "explanation": [
+            "Haaptiddi: groß bedeit grouss; bei enger Persoun bezitt et sech normalerweis op d’Kierpergréisst.",
+            "groß beschreift Saachen, Plazen an hir allgemeng Gréisst.",
+            "Bei enger Persoun bedeit groß grouss vu Kierpergréisst, net breet oder déck."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "D’Haus ass grouss."
+            },
+            {
+              "de": "Berlin ist eine große Stadt.",
+              "lv": "Berlin ass eng grouss Stad."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "Hien ass grouss."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "D’Zëmmer ass grouss."
+            }
+          ],
+          "tip": [
+            "Bei enger Saach oder enger Plaz bedeit groß grouss.",
+            "Bei enger Persoun bezitt groß sech op d’Kierpergréisst."
+          ],
+          "important": [
+            "Er ist groß. bedeit bei enger Persoun: Hien ass grouss.",
+            "Bei enger Saach oder enger Plaz bedeit groß normalerweis grouss."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "groß"
+              ],
+              "purple": [
+                "grouss"
+              ],
+              "green": [
+                "Kierpergréisst"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "grouss"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "große"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "grouss"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "grouss"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "grouss"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "groß"
+                ],
+                "purple": [
+                  "grouss"
+                ]
+              },
+              {
+                "blue": [
+                  "groß"
+                ],
+                "green": [
+                  "Kierpergréisst"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "groß"
+                ],
+                "purple": [
+                  "grouss"
+                ]
+              },
+              {
+                "blue": [
+                  "groß"
+                ],
+                "purple": [
+                  "grouss"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Großeltern|idx:251",
+      "de_reference": "Großeltern",
+      "idx": 251,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Großeltern",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Grousselteren",
+        "study": {
+          "id": "a1-grosseltern-study",
+          "layout": "standardStudy",
+          "translation": "Grousselteren",
+          "explanation": [
+            "Haaptiddi: Großeltern bedeit Groussmamm a Grousspapp zesummen.",
+            "Dëst Wuert gëtt am Pluriel gebraucht.",
+            "Am Singulier benotzt een Großmutter oder Großvater."
+          ],
+          "examples": [
+            {
+              "de": "Meine Großeltern wohnen auf dem Land.",
+              "lv": "Meng Grousseltere wunnen um Land."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Ech besiche meng Grousselteren."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Großeltern",
+              "meaning": "Grousselteren",
+              "example": "meine Großeltern – meng Grousselteren"
+            },
+            {
+              "word": "Großmutter",
+              "meaning": "Groussmamm",
+              "example": "meine Großmutter – meng Groussmamm"
+            },
+            {
+              "word": "Großvater",
+              "meaning": "Grousspapp",
+              "example": "mein Großvater – mäi Grousspapp"
+            }
+          ],
+          "tip": [
+            "Großeltern ass eng Plurielbezeechnung.",
+            "Fir eng eenzel Persoun benotzt een Großmutter oder Großvater."
+          ],
+          "important": [
+            "die Großeltern = Grousselteren."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Großeltern",
+                "Großmutter",
+                "Großvater"
+              ],
+              "purple": [
+                "Groussmamm",
+                "Grousspapp"
+              ],
+              "green": [
+                "Pluriel",
+                "Singulier"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Großeltern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Grousseltere"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Großeltern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Grousselteren"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "Großeltern"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Grousselteren"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Großeltern"
+                  ],
+                  "purple": [
+                    "Grousselteren"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "Großmutter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Groussmamm"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Großmutter"
+                  ],
+                  "purple": [
+                    "Groussmamm"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "Großvater"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Grousspapp"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Großvater"
+                  ],
+                  "purple": [
+                    "Grousspapp"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Großeltern"
+                ],
+                "green": [
+                  "Plurielbezeechnung"
+                ]
+              },
+              {
+                "blue": [
+                  "Großmutter",
+                  "Großvater"
+                ],
+                "green": [
+                  "eenzel Persoun"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Großeltern"
+                ],
+                "purple": [
+                  "Grousselteren"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Großmutter|idx:252",
+      "de_reference": "Großmutter",
+      "idx": 252,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Großmutter",
+        "de_article": "die",
+        "de_plural": "die Großmütter",
+        "level": "A1",
+        "lv": "Groussmamm"
+      }
+    },
+    {
+      "card_object_id": "Großvater|idx:253",
+      "de_reference": "Großvater",
+      "idx": 253,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Großvater",
+        "de_article": "der",
+        "de_plural": "die Großväter",
+        "level": "A1",
+        "lv": "Grousspapp"
+      }
+    },
+    {
+      "card_object_id": "grün|idx:254",
+      "de_reference": "grün",
+      "idx": 254,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "grün",
+        "level": "A1",
+        "lv": "gréng"
+      }
+    },
+    {
+      "card_object_id": "Gruppe|idx:255",
+      "de_reference": "Gruppe",
+      "idx": 255,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Gruppe",
+        "de_article": "die",
+        "de_plural": "die Gruppen",
+        "level": "A1",
+        "lv": "Grupp"
+      }
+    },
+    {
+      "card_object_id": "Gruß|idx:256",
+      "de_reference": "Gruß",
+      "idx": 256,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Gruß",
+        "de_article": "der",
+        "de_plural": "die Grüße",
+        "level": "A1",
+        "lv": "Grouss"
+      }
+    },
+    {
+      "card_object_id": "grüßen|idx:257",
+      "de_reference": "grüßen",
+      "idx": 257,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "grüßen",
+        "level": "A1",
+        "lv": "gréissen"
+      }
+    }
+  ]
+}
