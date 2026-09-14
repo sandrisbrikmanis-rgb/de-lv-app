@@ -13,9 +13,10 @@
 - [Batch input CSV](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-pending/LRB-081-input.csv)
 - [Copy/paste correction #5](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-5.json)
 - [Copy/paste correction #6](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-6.json)
+- [Copy/paste correction #7](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-7.json)
 - [Parallel checkpoint](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/parallel-checkpoint.json)
 
-**Gala verdict:** `LRB_081_FULL_50_50_LINGUISTIC_REVIEW_PASS`
-**Verified commit:** `3d8f46a0242b305f7c1abc00fc3f51625be88094`
-**Overrides SHA256:** `eb0f34733299a8dc28ce6ae8cf1cbce3c913b0175158b3a74a234b9dff12e709`
+**Status:** `OWNER_COPY_PASTE_CORRECTION_7_APPLIED_AWAITING_GALA_REVIEW` (galaPass: false)
+**Base commit (pre-#7):** `0fe02305a21c67dd7e9eff23c4d5de84a3a8f5fb`
+**Overrides SHA256:** `0cfa0dd55f71d6fdc49738367290936d09ba49c951e494383d25867bd5e454b3`
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING (PT 4, RO 46, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50)

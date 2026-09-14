@@ -1,15 +1,15 @@
 {
   "batchId": "LRB-081",
-  "sourceCommit": "912bd0b7acc7e4dd83bb4a497a37595434c8833e",
+  "sourceCommit": "0fe02305a21c67dd7e9eff23c4d5de84a3a8f5fb",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_5",
-  "correctionRound": 5,
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_7",
+  "correctionRound": 7,
   "cards": [
     {
       "auditId": "LRB081-0001",
       "cardId": "wissen|idx:311",
       "status": "LABOT",
-      "reason": "O DE wissen significa “saber”, não uma forma contaminada; corrigi a tradução, as explicações e todos os exemplos para português natural.",
+      "reason": "O DE wissen significa «saber»; a versão final distingue wissen de kennen e elimina os três pontos semanticamente repetidos.",
       "new": {
         "de": "wissen",
         "lv": "saber",
@@ -56,9 +56,9 @@
             "Use wissen quando o contexto se referir a um fato ou a uma informação conhecida."
           ],
           "important": [
-            "wissen = saber um fato.",
             "wissen = saber.",
-            "Significa saber um fato, uma resposta ou uma informação."
+            "Para pessoas, lugares e coisas familiares, usa-se kennen, não wissen.",
+            "Wissen é usado para fatos, respostas e informações."
           ]
         }
       }
@@ -582,7 +582,7 @@
       "auditId": "LRB081-0010",
       "cardId": "Appetit|idx:689",
       "status": "LABOT",
-      "reason": "Pentru DE „Appetit”, am folosit expresia românească firească „poftă de mâncare” și am precizat corect că pluralul die Appetite există, dar este rar.",
+      "reason": "Pentru DE „Appetit”, am păstrat sensul „poftă de mâncare”, am precizat utilizarea obișnuită la singular și am eliminat repetarea informației despre plural.",
       "new": {
         "de": "Appetit",
         "de_article": "der",
@@ -617,7 +617,7 @@
           ],
           "important": [
             "Der Appetit se folosește de obicei la singular; pluralul die Appetite există, dar este rar.",
-            "Pluralul die Appetite este corect, dar rar.",
+            "În urarea Guten Appetit!, substantivul apare fără articol.",
             "Se spune Ich habe Appetit, nu *Ich bin Appetit."
           ]
         }
@@ -820,7 +820,7 @@
       "auditId": "LRB081-0014",
       "cardId": "aus|idx:57",
       "status": "LABOT",
-      "reason": "Pentru DE „aus”, am înlocuit toate fragmentele letone și am corectat formularea românească despre ieșirea din interior și origine.",
+      "reason": "Pentru DE „aus”, am eliminat fragmentele letone și am formulat natural ideea de mișcare din interior spre exterior și de origine.",
       "new": {
         "de": "aus",
         "lv": "Din • Afară din",
@@ -862,7 +862,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: afară din interior → aus."
+            "text": "Reține: mișcare din interior spre exterior → aus."
           },
           "important": [
             "Aus indică de obicei mișcare din interior sau originea.",
@@ -1121,7 +1121,7 @@
       "auditId": "LRB081-0019",
       "cardId": "bis|idx:91",
       "status": "LABOT",
-      "reason": "Pentru DE „bis”, am reparat exemplele contradictorii și comparațiile, inclusiv traducerea „Bis jetzt” și diferența dintre „bis” și „bis zu”.",
+      "reason": "Pentru DE „bis”, am reparat exemplele și comparațiile și am formulat natural ideea de limită temporală sau condițională.",
       "new": {
         "de": "bis",
         "lv": "până",
@@ -1167,7 +1167,7 @@
             }
           ],
           "tip": {
-            "text": "Amintiți-vă: granița în timp/condiție → bis."
+            "text": "Reține: limită în timp sau într-o condiție → bis."
           },
           "important": [
             "Bis indică o limită sau un punct în timp.",
@@ -1372,7 +1372,7 @@
       "auditId": "LRB081-0024",
       "cardId": "dieser|idx:139",
       "status": "LABOT",
-      "reason": "Pentru DE „dieser”, am înlocuit singularul românesc incomplet „Aceasta” cu formele demonstrative „acesta • aceasta • acest” și am păstrat pluralul corect „diese”.",
+      "reason": "Pentru DE „dieser”, am eliminat restrângerea incorectă la apropierea fizică și am păstrat utilizarea cu un substantiv masculin concret ori evidențiat.",
       "new": {
         "de": "dieser",
         "lv": "acest • acesta",
@@ -1381,7 +1381,7 @@
           "id": "a1-dieser",
           "layout": "standardStudy",
           "translation": "acest • acesta",
-          "explanation": "Ideea principală: indică o persoană, un lucru sau un animal din apropiere. Folosit cu un substantiv masculin.",
+          "explanation": "Ideea principală: dieser indică o persoană, un lucru sau un animal concret ori evidențiat și se folosește aici cu un substantiv masculin.",
           "examples": [
             {
               "de": "Dieser Mann ist nett.",
@@ -1410,7 +1410,7 @@
       "auditId": "LRB081-0025",
       "cardId": "ein|idx:154",
       "status": "LABOT",
-      "reason": "Pentru DE „ein”, înlocuiesc valoarea incorectă cu termenul românesc natural „articolul nehotărât”.",
+      "reason": "Pentru exemplul Er sucht einen Stift., am înlocuit termenul prea îngust „stilou” cu „pix”, conform sensului sursă.",
       "new": {
         "de": "ein",
         "lv": "articol nehotărât",
@@ -1436,7 +1436,7 @@
             },
             {
               "de": "Er sucht einen Stift.",
-              "lv": "El caută un stilou."
+              "lv": "El caută un pix."
             },
             {
               "de": "Ein Kind spielt.",
@@ -2126,7 +2126,7 @@
       "auditId": "LRB081-0036",
       "cardId": "Frau|idx:198",
       "status": "LABOT",
-      "reason": "Pentru Frau, termenii românești «femeie» și «soție» și toate exemplele trebuie să redea cele două sensuri ale cuvântului german.",
+      "reason": "Pentru Frau, am păstrat sensurile «femeie» și «soție» și am înlocuit denumirea gramaticală incorectă «pronume posesiv» cu formularea neutră și corectă «formă posesivă».",
       "new": {
         "de": "Frau",
         "de_article": "die",
@@ -2141,7 +2141,7 @@
             "Ideea principală: die Frau poate însemna «femeie» sau «soție».",
             "Dacă este vorba pur și simplu despre gen sau despre o persoană, die Frau înseamnă «femeie».",
             "În contextul unui soț, die Frau înseamnă «soție»; meine Frau înseamnă «soția mea».",
-            "Pronumele posesive meine Frau, deine Frau și seine Frau înseamnă aproape întotdeauna «soția mea», «soția ta» și «soția lui».",
+            "Formele posesive din sintagmele meine Frau, deine Frau și seine Frau arată aproape întotdeauna că Frau înseamnă «soție».",
             "Pluralul este die Frauen.",
             "Forma masculină der Mann are același dublu sens: «bărbat» și «soț»."
           ],
@@ -2172,7 +2172,7 @@
             }
           ],
           "tip": [
-            "Pronumele posesiv (meine/deine/seine Frau) înseamnă aproape întotdeauna soție.",
+            "Cu o formă posesivă (meine/deine/seine Frau), Frau înseamnă aproape întotdeauna «soție».",
             "Fără un posesiv (die Frau, eine Frau) înseamnă de obicei o femeie."
           ],
           "important": [
@@ -2539,7 +2539,7 @@
       "auditId": "LRB081-0043",
       "cardId": "Geschichte|idx:233",
       "status": "LABOT",
-      "reason": "Pentru Geschichte, comparația trebuie să distingă clar sensurile germane «poveste» și «istorie» în română.",
+      "reason": "Pentru Geschichte, am păstrat contrastul «poveste»/«istorie» și am înlocuit formularea tautologică cu propoziția românească naturală «El spune o poveste.».",
       "new": {
         "de": "Geschichte",
         "de_article": "die",
@@ -2558,7 +2558,7 @@
           "examples": [
             {
               "de": "Er erzählt eine Geschichte.",
-              "lv": "El povestește o poveste."
+              "lv": "El spune o poveste."
             },
             {
               "de": "Ich lerne Geschichte.",
@@ -2868,7 +2868,7 @@
       "auditId": "LRB081-0049",
       "cardId": "haben|idx:261",
       "status": "LABOT",
-      "reason": "Pentru DE „haben”, am eliminat fragmentele letone din comparații și am corectat explicația despre acuzativ și auxiliarul de perfect.",
+      "reason": "Pentru DE „haben”, am completat ideea principală astfel încât să includă posesia, disponibilitatea și stările ilustrate de exemplele cu Zeit și Hunger.",
       "new": {
         "de": "haben",
         "lv": "a avea",
@@ -2878,7 +2878,7 @@
           "layout": "standardStudy",
           "translation": "a avea",
           "explanation": [
-            "Ideea principală: haben înseamnă «a avea» și exprimă posesia sau deținerea.",
+            "Ideea principală: haben înseamnă «a avea» și poate exprima posesia, disponibilitatea sau anumite stări, în funcție de construcție.",
             "În germană se spune Ich habe ..., Du hast ..., Er hat ...; nu se folosește construcția *mir habe.",
             "Haben este urmat de obicei de un complement în acuzativ: Ich habe ein Auto. = Am o mașină.",
             "Haben este folosit și ca verb auxiliar la perfect: Ich habe gelernt. = Am învățat."
