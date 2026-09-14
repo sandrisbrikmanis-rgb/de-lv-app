@@ -9,7 +9,7 @@
   },
   "rows": 50,
   "uniqueCards": 50,
-  "paste_sha256": "9f57bf2217203d0512b735e37eef0d9210dea146ed6406d24a49151f057a5ae8",
+  "paste_sha256": "b7ea98296e04c89b082a551050c196f410a0bc4c4729133967475bff003b79af",
   "full_card_replacements": 7,
   "full_card_object_ids": [
     "Frau|idx:198",
@@ -20,7 +20,7 @@
     "gleich|idx:243",
     "groß|idx:250"
   ],
-  "classification": "LRB_061_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "classification": "LRB_061_GALA_CORRECTION_1_APPLIED_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "Frau|idx:198",
@@ -652,7 +652,151 @@
           "important": [
             "der ganze Tag = de ganzen Dag.",
             "alles ass e Pronomen a bedeit „alles“."
-          ]
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ganz"
+              ],
+              "purple": [
+                "dat Ganzt",
+                "komplett",
+                "zimlech"
+              ],
+              "green": [
+                "alles"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ganzen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ganzen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ganze"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ganzt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ganz"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ganz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ganz"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ganz"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "ganz"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ganz",
+                    "dat Ganzt",
+                    "komplett"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ganze"
+                  ],
+                  "purple": [
+                    "ganzen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "alles"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "alles"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Alles ist gut."
+                  ],
+                  "purple": [
+                    "Alles ass gutt."
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "ganz"
+                ],
+                "purple": [
+                  "dat Ganzt"
+                ]
+              },
+              {
+                "blue": [
+                  "ganz"
+                ],
+                "purple": [
+                  "komplett",
+                  "zimlech"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "ganze"
+                ],
+                "purple": [
+                  "ganzen"
+                ]
+              },
+              {
+                "green": [
+                  "alles",
+                  "Pronomen"
+                ]
+              }
+            ]
+          }
         }
       }
     },
@@ -848,7 +992,141 @@
           ],
           "important": [
             "ein Geschwister gëtt am normalen A1-Gebrauch net als regulär Singulierform benotzt."
-          ]
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Geschwister",
+                "Bruder",
+                "Schwester"
+              ],
+              "purple": [
+                "Bridder",
+                "Schwësteren"
+              ],
+              "green": [
+                "Pluriel",
+                "eenzel Persoun"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Geschwister"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Geschwëster"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Geschwister"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Geschwëster"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "Geschwister"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Geschwëster"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Geschwister"
+                  ],
+                  "purple": [
+                    "Geschwëster"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "Bruder"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Brudder"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Bruder"
+                  ],
+                  "purple": [
+                    "Brudder"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "Schwester"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Schwëster"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Schwester"
+                  ],
+                  "purple": [
+                    "Schwëster"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Geschwister"
+                ],
+                "green": [
+                  "Pluriel"
+                ]
+              },
+              {
+                "blue": [
+                  "Bruder",
+                  "Schwester"
+                ],
+                "green": [
+                  "eenzel Persoun"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "ein Geschwister"
+                ],
+                "green": [
+                  "Singulierform"
+                ]
+              }
+            ]
+          }
         }
       }
     },
@@ -1368,7 +1646,141 @@
           ],
           "important": [
             "die Großeltern = Grousselteren."
-          ]
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Großeltern",
+                "Großmutter",
+                "Großvater"
+              ],
+              "purple": [
+                "Groussmamm",
+                "Grousspapp"
+              ],
+              "green": [
+                "Pluriel",
+                "Singulier"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Großeltern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Grousseltere"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Großeltern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Grousselteren"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "blue": [
+                    "Großeltern"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Grousselteren"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Großeltern"
+                  ],
+                  "purple": [
+                    "Grousselteren"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "Großmutter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Groussmamm"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Großmutter"
+                  ],
+                  "purple": [
+                    "Groussmamm"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "blue": [
+                    "Großvater"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Grousspapp"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Großvater"
+                  ],
+                  "purple": [
+                    "Grousspapp"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Großeltern"
+                ],
+                "green": [
+                  "Plurielbezeechnung"
+                ]
+              },
+              {
+                "blue": [
+                  "Großmutter",
+                  "Großvater"
+                ],
+                "green": [
+                  "eenzel Persoun"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Großeltern"
+                ],
+                "purple": [
+                  "Grousselteren"
+                ]
+              }
+            ]
+          }
         }
       }
     },

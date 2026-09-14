@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-14T16:28:00.000Z",
+  "updatedAt": "2026-09-14T16:35:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -1561,7 +1561,7 @@
       "LRB-061": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
-        "classification": "LRB_061_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+        "classification": "LRB_061_GALA_CORRECTION_1_APPLIED_AWAITING_GALA_VERDICT",
         "labot": 49,
         "nelabot": 1,
         "pending": 0,
@@ -1585,7 +1585,9 @@
         "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-061-gala-cards.json",
         "pasteRepairs": "GPT-5.6 Luna copy/paste (49 LABOT / 1 NELABOT / 50 unique LB cards: 7 full composite + 42 scalar)",
         "pasteSha256": "9f57bf2217203d0512b735e37eef0d9210dea146ed6406d24a49151f057a5ae8",
-        "decisionsSha256": "14269bae27769d030f8a4c7c56e30f48abd08ca079751f71398fe936f9bc6f42"
+        "decisionsSha256": "9efaf10c0feea75acaa7b3abe3de6edabd794dcb332c14ec4833552a866eebb5",
+        "galaCorrection1": "GALA_CORRECTION_1_APPLIED",
+        "galaCorrection1Sha256": "d41ddf0e66182e773f7156044366ce812cc81ab1b9ddca27392ed6a2ae7a74fd"
       }
     },
     "lastBatch": {
@@ -1600,7 +1602,7 @@
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
-      "classification": "LRB_061_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+      "classification": "LRB_061_GALA_CORRECTION_1_APPLIED_AWAITING_GALA_VERDICT",
       "rowCount": 50,
       "uniqueCards": 50,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-061-decisions.csv",
@@ -1608,7 +1610,8 @@
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-061-anti-bulk-proof.json",
       "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-061-residual-wrong-language-proof.json",
       "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-061-owner-auth-residual-proof.json",
-      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-061-gala-cards.json"
+      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-061-gala-cards.json",
+      "galaCorrection1": "GALA_CORRECTION_1_APPLIED"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",

@@ -310,7 +310,8 @@
         "study.explanation": "[\"Haaptiddi: ganz bedeit zesumme mat engem Substantiv „ganz“ oder „dat Ganzt“.\",\"Virun engem Adjektiv oder Adverb kann ganz „komplett“, „ganz“ oder „zimlech“ bedeiten.\",\"ganz ass net datselwecht wéi de Pronomen alles.\"]",
         "study.important": "[\"der ganze Tag = de ganzen Dag.\",\"alles ass e Pronomen a bedeit „alles“.\"]",
         "study.tip": "[\"Virun engem Substantiv bedeit ganz dacks „dat Ganzt“.\",\"Virun engem Adjektiv oder Adverb bedeit ganz dacks komplett oder zimlech.\"]",
-        "study.translation": "ganz"
+        "study.translation": "ganz",
+        "study.sectionAccents": "{\"explanation\":{\"blue\":[\"ganz\"],\"purple\":[\"dat Ganzt\",\"komplett\",\"zimlech\"],\"green\":[\"alles\"]},\"examples\":[{\"de\":{\"blue\":[\"ganzen\"]},\"lv\":{\"purple\":[\"ganzen\"]}},{\"de\":{\"blue\":[\"ganze\"]},\"lv\":{\"purple\":[\"ganzt\"]}},{\"de\":{\"blue\":[\"ganz\"]},\"lv\":{\"purple\":[\"ganz\"]}},{\"de\":{\"blue\":[\"ganz\"]},\"lv\":{\"purple\":[\"ganz\"]}}],\"comparison\":[{\"word\":{\"blue\":[\"ganz\"]},\"meaning\":{\"purple\":[\"ganz\",\"dat Ganzt\",\"komplett\"]},\"example\":{\"blue\":[\"ganze\"],\"purple\":[\"ganzen\"]}},{\"word\":{\"green\":[\"alles\"]},\"meaning\":{\"purple\":[\"alles\"]},\"example\":{\"blue\":[\"Alles ist gut.\"],\"purple\":[\"Alles ass gutt.\"]}}],\"tip\":[{\"blue\":[\"ganz\"],\"purple\":[\"dat Ganzt\"]},{\"blue\":[\"ganz\"],\"purple\":[\"komplett\",\"zimlech\"]}],\"important\":[{\"blue\":[\"ganze\"],\"purple\":[\"ganzen\"]},{\"green\":[\"alles\",\"Pronomen\"]}]}"
       },
       "owner_note": "Pilnā ganz|idx:219 kartīte individuāli pārbaudīta, lai gan finding norādīja tikai lv: izlabots arī bojātais salīdzinājums alles = Fësch un saglabāta atšķirība ganz pret alles.",
       "owner_status": "DECIDED",
@@ -498,7 +499,8 @@
         "study.explanation": "[\"Haaptiddi: Geschwister bezeechent Bridder a Schwësteren zesummen.\",\"Dëst Wuert gëtt normalerweis am Pluriel gebraucht.\",\"Fir eng eenzel Persoun benotzt een Bruder oder Schwester.\"]",
         "study.important": "[\"ein Geschwister gëtt am normalen A1-Gebrauch net als regulär Singulierform benotzt.\"]",
         "study.tip": "[\"Geschwister gëtt normalerweis am Pluriel gebraucht.\",\"Fir eng eenzel Persoun wielt een Bruder oder Schwester.\"]",
-        "study.translation": "Geschwëster"
+        "study.translation": "Geschwëster",
+        "study.sectionAccents": "{\"explanation\":{\"blue\":[\"Geschwister\",\"Bruder\",\"Schwester\"],\"purple\":[\"Bridder\",\"Schwësteren\"],\"green\":[\"Pluriel\",\"eenzel Persoun\"]},\"examples\":[{\"de\":{\"blue\":[\"Geschwister\"]},\"lv\":{\"purple\":[\"Geschwëster\"]}},{\"de\":{\"blue\":[\"Geschwister\"]},\"lv\":{\"purple\":[\"Geschwëster\"]}}],\"comparison\":[{\"word\":{\"blue\":[\"Geschwister\"]},\"meaning\":{\"purple\":[\"Geschwëster\"]},\"example\":{\"blue\":[\"Geschwister\"],\"purple\":[\"Geschwëster\"]}},{\"word\":{\"blue\":[\"Bruder\"]},\"meaning\":{\"purple\":[\"Brudder\"]},\"example\":{\"blue\":[\"Bruder\"],\"purple\":[\"Brudder\"]}},{\"word\":{\"blue\":[\"Schwester\"]},\"meaning\":{\"purple\":[\"Schwëster\"]},\"example\":{\"blue\":[\"Schwester\"],\"purple\":[\"Schwëster\"]}}],\"tip\":[{\"blue\":[\"Geschwister\"],\"green\":[\"Pluriel\"]},{\"blue\":[\"Bruder\",\"Schwester\"],\"green\":[\"eenzel Persoun\"]}],\"important\":[{\"blue\":[\"ein Geschwister\"],\"green\":[\"Singulierform\"]}]}"
       },
       "owner_note": "Pilnā Geschwister|idx:234 kartīte individuāli pārbaudīta: kolektīvā daudzskaitļa nozīme un kontrasts ar Bruder/Schwester saglabāts visos laukos.",
       "owner_status": "DECIDED",
@@ -717,7 +719,8 @@
         "study.explanation": "[\"Haaptiddi: Großeltern bedeit Groussmamm a Grousspapp zesummen.\",\"Dëst Wuert gëtt am Pluriel gebraucht.\",\"Am Singulier benotzt een Großmutter oder Großvater.\"]",
         "study.important": "[\"die Großeltern = Grousselteren.\"]",
         "study.tip": "[\"Großeltern ass eng Plurielbezeechnung.\",\"Fir eng eenzel Persoun benotzt een Großmutter oder Großvater.\"]",
-        "study.translation": "Grousselteren"
+        "study.translation": "Grousselteren",
+        "study.sectionAccents": "{\"explanation\":{\"blue\":[\"Großeltern\",\"Großmutter\",\"Großvater\"],\"purple\":[\"Groussmamm\",\"Grousspapp\"],\"green\":[\"Pluriel\",\"Singulier\"]},\"examples\":[{\"de\":{\"blue\":[\"Großeltern\"]},\"lv\":{\"purple\":[\"Grousseltere\"]}},{\"de\":{\"blue\":[\"Großeltern\"]},\"lv\":{\"purple\":[\"Grousselteren\"]}}],\"comparison\":[{\"word\":{\"blue\":[\"Großeltern\"]},\"meaning\":{\"purple\":[\"Grousselteren\"]},\"example\":{\"blue\":[\"Großeltern\"],\"purple\":[\"Grousselteren\"]}},{\"word\":{\"blue\":[\"Großmutter\"]},\"meaning\":{\"purple\":[\"Groussmamm\"]},\"example\":{\"blue\":[\"Großmutter\"],\"purple\":[\"Groussmamm\"]}},{\"word\":{\"blue\":[\"Großvater\"]},\"meaning\":{\"purple\":[\"Grousspapp\"]},\"example\":{\"blue\":[\"Großvater\"],\"purple\":[\"Grousspapp\"]}}],\"tip\":[{\"blue\":[\"Großeltern\"],\"green\":[\"Plurielbezeechnung\"]},{\"blue\":[\"Großmutter\",\"Großvater\"],\"green\":[\"eenzel Persoun\"]}],\"important\":[{\"blue\":[\"die Großeltern\"],\"purple\":[\"Grousselteren\"]}]}"
       },
       "owner_note": "Pilnā Großeltern|idx:251 kartīte individuāli pārbaudīta: daudzskaitļa nozīme un kontrasts ar Großmutter/Großvater saglabāts visos laukos.",
       "owner_status": "DECIDED",

@@ -477,38 +477,28 @@ function validateScalarCard(lang, cardKey, merged) {
   return failures;
 }
 
-function validateCompositeCard(lang, cardKey, merged, compositePatch = {}) {
+function validateCompositeCard(lang, cardKey, merged) {
   const failures = [];
   const allText = flattenStrings(merged).join(" ");
   if (lang === "lb") failures.push(...validateLbLeaks(allText));
-  const patchHasSectionAccents = Object.prototype.hasOwnProperty.call(
-    compositePatch,
-    "study.sectionAccents"
+  failures.push(
+    ...validateSectionAccents(merged.study || {}, merged.study?.sectionAccents, cardKey)
   );
-  if (merged.study?.sectionAccents || patchHasSectionAccents) {
-    failures.push(
-      ...validateSectionAccents(merged.study || {}, merged.study?.sectionAccents, cardKey)
-    );
-    failures.push(
-      ...validateComparisonAccentSemantics(
-        merged.study || {},
-        merged.study?.sectionAccents,
-        cardKey,
-        lang
-      )
-    );
-  }
+  failures.push(
+    ...validateComparisonAccentSemantics(
+      merged.study || {},
+      merged.study?.sectionAccents,
+      cardKey,
+      lang
+    )
+  );
   for (const field of ["examples", "tip"]) {
     if (!merged.study?.[field]) failures.push({ type: "INCOMPLETE_COMPOSITE", field });
   }
   if (!merged.study?.important && !(cardKey === "euch" && merged.study?.info)) {
     failures.push({ type: "INCOMPLETE_COMPOSITE", field: "important" });
   }
-  if (
-    patchHasSectionAccents &&
-    !merged.study?.sectionAccents &&
-    !(cardKey === "euch" && merged.study?.accents)
-  ) {
+  if (!merged.study?.sectionAccents && !(cardKey === "euch" && merged.study?.accents)) {
     failures.push({ type: "INCOMPLETE_COMPOSITE", field: "sectionAccents" });
   }
   failures.push(...validateDeExampleAlignment(cardKey, merged));
@@ -616,7 +606,7 @@ for (const [key, { lang, card }] of UNIQUE_CARDS) {
   const merged = applyPatches(nestedBase, composite);
   const isCompositeRepair = COMPOSITE_REPAIR_CARDS.has(key);
   const failures = isCompositeRepair
-    ? validateCompositeCard(lang, card, merged, composite)
+    ? validateCompositeCard(lang, card, merged)
     : validateScalarCard(lang, card, merged);
   if (failures.length) {
     cardMergeFailures += failures.length;

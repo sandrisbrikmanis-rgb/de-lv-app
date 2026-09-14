@@ -1,0 +1,204 @@
+{
+  "schema": "LRB_GALA_CORRECTION_COPY_PASTE_V1",
+  "batch_id": "LRB-061",
+  "correction_round": 1,
+  "reviewed_commit": "1db467527e9636f2565a2656b3ab470d42b29915",
+  "owner_verdict_before_apply": "GALA_BLOCKED",
+  "classification": "LRB_061_GALA_CORRECTION_1_COPY_PASTE_REQUIRED",
+  "correction_count": 3,
+  "restrictions": {
+    "linguistic_reanalysis": false,
+    "copy_paste_only": true,
+    "change_de_source": false,
+    "change_production": false,
+    "change_crowdin": false,
+    "run_ingest_or_apply": false
+  },
+  "corrections": [
+    {
+      "card_object_id": "ganz|idx:219",
+      "field_path": "study.sectionAccents",
+      "operation": "SET_EXACT",
+      "current": null,
+      "new": {
+        "explanation": {
+          "blue": ["ganz"],
+          "purple": ["dat Ganzt", "komplett", "zimlech"],
+          "green": ["alles"]
+        },
+        "examples": [
+          {
+            "de": {"blue": ["ganzen"]},
+            "lv": {"purple": ["ganzen"]}
+          },
+          {
+            "de": {"blue": ["ganze"]},
+            "lv": {"purple": ["ganzt"]}
+          },
+          {
+            "de": {"blue": ["ganz"]},
+            "lv": {"purple": ["ganz"]}
+          },
+          {
+            "de": {"blue": ["ganz"]},
+            "lv": {"purple": ["ganz"]}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {"blue": ["ganz"]},
+            "meaning": {"purple": ["ganz", "dat Ganzt", "komplett"]},
+            "example": {"blue": ["ganze"], "purple": ["ganzen"]}
+          },
+          {
+            "word": {"green": ["alles"]},
+            "meaning": {"purple": ["alles"]},
+            "example": {"blue": ["Alles ist gut."], "purple": ["Alles ass gutt."]}
+          }
+        ],
+        "tip": [
+          {
+            "blue": ["ganz"],
+            "purple": ["dat Ganzt"]
+          },
+          {
+            "blue": ["ganz"],
+            "purple": ["komplett", "zimlech"]
+          }
+        ],
+        "important": [
+          {
+            "blue": ["ganze"],
+            "purple": ["ganzen"]
+          },
+          {
+            "green": ["alles", "Pronomen"]
+          }
+        ]
+      },
+      "owner_note": "Pilnajai standardStudy kartītei trūka viss sectionAccents lauks; ievietot šo objektu precīzi, nemainot pārējo kartīti."
+    },
+    {
+      "card_object_id": "Geschwister|idx:234",
+      "field_path": "study.sectionAccents",
+      "operation": "SET_EXACT",
+      "current": null,
+      "new": {
+        "explanation": {
+          "blue": ["Geschwister", "Bruder", "Schwester"],
+          "purple": ["Bridder", "Schwësteren"],
+          "green": ["Pluriel", "eenzel Persoun"]
+        },
+        "examples": [
+          {
+            "de": {"blue": ["Geschwister"]},
+            "lv": {"purple": ["Geschwëster"]}
+          },
+          {
+            "de": {"blue": ["Geschwister"]},
+            "lv": {"purple": ["Geschwëster"]}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {"blue": ["Geschwister"]},
+            "meaning": {"purple": ["Geschwëster"]},
+            "example": {"blue": ["Geschwister"], "purple": ["Geschwëster"]}
+          },
+          {
+            "word": {"blue": ["Bruder"]},
+            "meaning": {"purple": ["Brudder"]},
+            "example": {"blue": ["Bruder"], "purple": ["Brudder"]}
+          },
+          {
+            "word": {"blue": ["Schwester"]},
+            "meaning": {"purple": ["Schwëster"]},
+            "example": {"blue": ["Schwester"], "purple": ["Schwëster"]}
+          }
+        ],
+        "tip": [
+          {
+            "blue": ["Geschwister"],
+            "green": ["Pluriel"]
+          },
+          {
+            "blue": ["Bruder", "Schwester"],
+            "green": ["eenzel Persoun"]
+          }
+        ],
+        "important": [
+          {
+            "blue": ["ein Geschwister"],
+            "green": ["Singulierform"]
+          }
+        ]
+      },
+      "owner_note": "Pilnajai standardStudy kartītei trūka viss sectionAccents lauks; ievietot šo objektu precīzi, nemainot pārējo kartīti."
+    },
+    {
+      "card_object_id": "Großeltern|idx:251",
+      "field_path": "study.sectionAccents",
+      "operation": "SET_EXACT",
+      "current": null,
+      "new": {
+        "explanation": {
+          "blue": ["Großeltern", "Großmutter", "Großvater"],
+          "purple": ["Groussmamm", "Grousspapp"],
+          "green": ["Pluriel", "Singulier"]
+        },
+        "examples": [
+          {
+            "de": {"blue": ["Großeltern"]},
+            "lv": {"purple": ["Grousseltere"]}
+          },
+          {
+            "de": {"blue": ["Großeltern"]},
+            "lv": {"purple": ["Grousselteren"]}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {"blue": ["Großeltern"]},
+            "meaning": {"purple": ["Grousselteren"]},
+            "example": {"blue": ["Großeltern"], "purple": ["Grousselteren"]}
+          },
+          {
+            "word": {"blue": ["Großmutter"]},
+            "meaning": {"purple": ["Groussmamm"]},
+            "example": {"blue": ["Großmutter"], "purple": ["Groussmamm"]}
+          },
+          {
+            "word": {"blue": ["Großvater"]},
+            "meaning": {"purple": ["Grousspapp"]},
+            "example": {"blue": ["Großvater"], "purple": ["Grousspapp"]}
+          }
+        ],
+        "tip": [
+          {
+            "blue": ["Großeltern"],
+            "green": ["Plurielbezeechnung"]
+          },
+          {
+            "blue": ["Großmutter", "Großvater"],
+            "green": ["eenzel Persoun"]
+          }
+        ],
+        "important": [
+          {
+            "blue": ["die Großeltern"],
+            "purple": ["Grousselteren"]
+          }
+        ]
+      },
+      "owner_note": "Pilnajai standardStudy kartītei trūka viss sectionAccents lauks; ievietot šo objektu precīzi, nemainot pārējo kartīti."
+    }
+  ],
+  "required_post_apply_checks": [
+    "All 7/7 standardStudy gala cards contain study.sectionAccents.",
+    "Every accent token occurs in its corresponding rendered section.",
+    "The original 50 owner decisions and all non-target fields remain byte-equivalent.",
+    "ROWS=50/50; PENDING=0; wrong_language_residue=0; section_accent_mismatches=0.",
+    "DE, production, Crowdin and ingest/apply remain unchanged."
+  ],
+  "gala_pass_after_this_file": false
+}
