@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-064",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-14T17:40:04.659Z",
+  "linguisticVerdict": "LRB_064_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "languages": {
+    "lb": 50
+  },
+  "unique_cards": 50,
+  "scope": "Lied..Natur (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review complete",
+  "productionSource": "data/lb/a1.js",
+  "input_csv_sha256": "0fd7a15e0a178e6c3af58ebf94b865f129e15b20850f38963e8237908f1b9f1b",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-064-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-064-input.csv",
+  "note": "Gala verdict LRB_064_FULL_50_50_LINGUISTIC_REVIEW_PASS. 48 LABOT / 2 NELABOT / 0 PENDING (10 full composite + 40 scalar cards; NELABOT: Meter, Monat). LB batch 7 complete; 259 LB rows remain in 7737 pool. DE/production/Crowdin/ingest/apply unchanged."
+}

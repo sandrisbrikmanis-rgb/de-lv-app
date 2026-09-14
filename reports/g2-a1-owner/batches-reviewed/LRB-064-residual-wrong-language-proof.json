@@ -1,0 +1,49 @@
+{
+  "batch_id": "LRB-064",
+  "classification": "LRB_064_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "unique_cards": 50,
+  "lb_rows": 50,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "48/48",
+    "NELABOT": 2,
+    "LB_ROWS": "50/50",
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "section_accent_mismatches": 0,
+    "section_accent_semantic_violations": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "productionSource": "data/lb/a1.js",
+  "languages": {
+    "lb": 50
+  },
+  "composite_repairs": [
+    "lb:Liter",
+    "lb:Mal",
+    "lb:Mann",
+    "lb:Morgen",
+    "lb:liegen",
+    "lb:machen",
+    "lb:mit",
+    "lb:morgen",
+    "lb:mögen",
+    "lb:nach"
+  ],
+  "failures": [],
+  "verdict": "LRB_064_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-14T18:00:00.000Z"
+}
