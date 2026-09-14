@@ -1,14 +1,14 @@
 {
   "batchId": "LRB-079",
-  "sourceCommit": "46d1c25852501ef200ba76d01038c6ed476aae54",
+  "sourceCommit": "2b415f1f4a0cb6459eb6aae7370f54076bdf0ada",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_1",
+  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_2",
   "cards": [
     {
       "auditId": "LRB079-0001",
       "cardId": "bringen|idx:111",
       "status": "LABOT",
-      "reason": "Corrijo os exemplos deslocados de bringen e identifico corretamente nehmen e holen na comparação.",
+      "reason": "Restauro os três exemplos e as cinco comparações do LV→DE source; removo os contrastes acrescentados com holen e preservo bringen versus nehmen.",
       "new": {
         "de": "bringen",
         "lv": "trazer • levar",
@@ -16,10 +16,9 @@
         "study": {
           "translation": "trazer • levar",
           "explanation": [
-            "Ideia principal: bringen significa trazer, levar ou entregar algo a alguém, dependendo do contexto.",
-            "Usamos bringen quando alguém transporta algo ou alguém até um destino ou até outra pessoa.",
-            "Bringen não é o mesmo que nehmen, que significa pegar ou levar consigo.",
-            "Holen significa buscar ou ir pegar algo e voltar com isso.",
+            "Ideia principal: bringen significa transportar ou levar algo ou alguém até outra pessoa ou destino.",
+            "Em português, pode corresponder a trazer, levar ou entregar, conforme o ponto de vista e o contexto.",
+            "Não confunda bringen com nehmen: nehmen significa pegar ou tomar algo para si.",
             "A tradução exata depende do contexto."
           ],
           "examples": [
@@ -34,35 +33,42 @@
             {
               "de": "Ich bringe die Kinder zur Schule.",
               "lv": "Eu levo as crianças à escola."
-            },
-            {
-              "de": "Ich nehme das Buch.",
-              "lv": "Eu pego o livro."
             }
           ],
           "comparison": [
             {
               "word": "bringen",
-              "meaning": "trazer • levar • entregar",
+              "meaning": "trazer",
+              "example": "Ich bringe dir ein Buch. – Eu trago um livro para você."
+            },
+            {
+              "word": "bringen",
+              "meaning": "levar um objeto",
+              "example": "Ich bringe das Paket zur Post. – Eu levo o pacote aos correios."
+            },
+            {
+              "word": "bringen",
+              "meaning": "levar uma pessoa",
+              "example": "Ich bringe die Kinder zur Schule. – Eu levo as crianças à escola."
+            },
+            {
+              "word": "bringen",
+              "meaning": "entregar • transportar até um destino",
               "example": "Ich bringe dir ein Buch. – Eu trago um livro para você."
             },
             {
               "word": "nehmen",
-              "meaning": "pegar • levar consigo",
+              "meaning": "pegar • tomar",
               "example": "Ich nehme das Buch. – Eu pego o livro."
-            },
-            {
-              "word": "holen",
-              "meaning": "buscar • ir pegar",
-              "example": "Ich hole Wasser. – Eu vou buscar água."
             }
           ],
           "tip": {
             "text": "Pense em bringen como transportar algo ou alguém até um destino ou até outra pessoa."
           },
           "important": [
-            "Bringen pode ser traduzido como trazer ou levar, conforme o ponto de vista e o contexto.",
-            "Não confunda bringen com holen: holen enfatiza ir buscar algo."
+            "nehmen significa pegar ou tomar.",
+            "bringen significa transportar, levar ou entregar até outra pessoa ou destino.",
+            "A tradução portuguesa depende do contexto."
           ],
           "id": "a1-bringen",
           "layout": "standardStudy"
@@ -73,7 +79,7 @@
       "auditId": "LRB079-0002",
       "cardId": "da|idx:126",
       "status": "LABOT",
-      "reason": "Corrijo as três traduções de exemplo de da para que correspondam exatamente às frases alemãs.",
+      "reason": "Restauro o quarto exemplo e a quarta comparação de da e mantenho exatamente os exemplos alemães do LV→DE source.",
       "new": {
         "de": "da",
         "lv": "lá • aí",
@@ -97,23 +103,32 @@
             {
               "de": "Da kommt er.",
               "lv": "Lá vem ele."
+            },
+            {
+              "de": "Komm mal da her!",
+              "lv": "Venha aqui!"
             }
           ],
           "comparison": [
             {
               "word": "da",
-              "meaning": "lá • aí",
-              "example": "Da ist mein Buch. – Meu livro está ali."
+              "meaning": "lá • aí • aqui, de modo geral",
+              "example": "Da ist mein Auto. – Meu carro está ali."
             },
             {
               "word": "hier",
-              "meaning": "aqui",
-              "example": "Ich bin hier. – Estou aqui."
+              "meaning": "aqui, num lugar específico",
+              "example": "Hier ist mein Auto. – Meu carro está aqui."
             },
             {
               "word": "dort",
-              "meaning": "lá • ali",
-              "example": "Dort steht ein Haus. – Há uma casa lá."
+              "meaning": "lá, mais distante",
+              "example": "Dort ist mein Auto. – Meu carro está lá."
+            },
+            {
+              "word": "dann",
+              "meaning": "então • depois",
+              "example": "Dann gehen wir nach Hause. – Depois vamos para casa."
             }
           ],
           "tip": {
@@ -289,7 +304,8 @@
             "Os usos de der como pronome e pronome relativo podem ser estudados posteriormente."
           ],
           "id": "a1-der",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -331,7 +347,8 @@
             "No plural, die é usado para os três gêneros."
           ],
           "id": "a1-die",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -373,7 +390,8 @@
             "No plural, a forma nominativa é diese."
           ],
           "id": "a1-dieser",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -392,7 +410,7 @@
       "auditId": "LRB079-0009",
       "cardId": "ein|idx:154",
       "status": "LABOT",
-      "reason": "Corrijo ein para artigo indefinido e substituo as traduções adulteradas por exemplos portugueses semanticamente fiéis.",
+      "reason": "Restauro os fragmentos alemães originais nas comparações de ein, eine e einen.",
       "new": {
         "de": "ein",
         "lv": "artigo indefinido",
@@ -426,23 +444,23 @@
           "comparison": [
             {
               "word": "ein Mann",
-              "meaning": "um homem",
+              "meaning": "gênero masculino",
               "example": "Ein Mann wartet draußen. – Um homem está esperando lá fora."
             },
             {
               "word": "eine Frau",
-              "meaning": "uma mulher",
-              "example": "Eine Frau wartet draußen. – Uma mulher está esperando lá fora."
+              "meaning": "gênero feminino",
+              "example": "eine Frau – uma mulher"
             },
             {
               "word": "ein Buch",
-              "meaning": "um livro",
+              "meaning": "gênero neutro",
               "example": "Ich habe ein Buch. – Eu tenho um livro."
             },
             {
               "word": "einen Mann",
-              "meaning": "um homem no acusativo",
-              "example": "Ich sehe einen Mann. – Eu vejo um homem."
+              "meaning": "acusativo masculino",
+              "example": "einen Mann – um homem no acusativo"
             }
           ],
           "tip": {
@@ -535,13 +553,13 @@
       "auditId": "LRB079-0011",
       "cardId": "erst|idx:165",
       "status": "LABOT",
-      "reason": "Para o DE “erst”, corrigi os resíduos letões e substituí a tradução corrompida por “apenas • primeiro”, com exemplos portugueses coerentes com os dois sentidos.",
+      "reason": "Normalizo o título e a tradução de erst em minúsculas.",
       "new": {
         "de": "erst",
-        "lv": "Apenas • primeiro",
+        "lv": "apenas • primeiro",
         "level": "A1",
         "study": {
-          "translation": "Apenas • primeiro",
+          "translation": "apenas • primeiro",
           "explanation": [
             "Ideia principal: erst geralmente significa apenas, mas também pode significar primeiro, dependendo do contexto.",
             "Erst pode indicar que algo acontece mais tarde do que o esperado ou que um ponto foi alcançado recentemente.",
@@ -571,22 +589,22 @@
             {
               "word": "erst",
               "meaning": "apenas • primeiro",
-              "example": "Erst lernen, dann spielen. = Primeiro estudar, depois brincar."
+              "example": "Erst lernen, dann spielen. – Primeiro estudar, depois brincar."
             },
             {
               "word": "zuerst",
               "meaning": "primeiro",
-              "example": "Zuerst frühstücken wir. = Primeiro, tomamos café da manhã."
+              "example": "Zuerst frühstücken wir. – Primeiro, tomamos café da manhã."
             },
             {
               "word": "nur",
               "meaning": "apenas • somente",
-              "example": "Ich habe nur 5 Euro. = Eu tenho apenas 5 euros."
+              "example": "Ich habe nur 5 Euro. – Eu tenho apenas 5 euros."
             },
             {
               "word": "dann",
               "meaning": "então • depois",
-              "example": "Dann gehen wir nach Hause. = Então vamos para casa."
+              "example": "Dann gehen wir nach Hause. – Então vamos para casa."
             }
           ],
           "tip": {
@@ -606,7 +624,7 @@
       "auditId": "LRB079-0012",
       "cardId": "es|idx:167",
       "status": "LABOT",
-      "reason": "Corrijo es como pronome neutro e impessoal e realinho os exemplos Das Kind schläft e Es ist müde.",
+      "reason": "Removo aliases técnicos não autorizados, alinho toda a matriz de exemplos e torno o sentido pronominal coerente em toda a carta.",
       "new": {
         "de": "es",
         "lv": "ele • ela • isso • pronome impessoal",
@@ -621,42 +639,41 @@
           "examples": [
             {
               "de": "Es regnet.",
-              "pt": "Está chovendo."
+              "lv": "Está chovendo."
             },
             {
               "de": "Es ist kalt.",
-              "pt": "Está frio."
+              "lv": "Está frio."
             },
             {
               "de": "Das Kind schläft.",
-              "pt": "A criança está dormindo.",
               "lv": "A criança está dormindo."
             },
             {
               "de": "Es ist müde.",
-              "pt": "Ela está cansada.",
               "lv": "Ela está cansada."
             }
           ],
           "comparison": [
             {
               "word": "es",
-              "meaning": "isso • pronome impessoal",
-              "example": "Es regnet. = Está chovendo."
+              "meaning": "ele • ela • isso • pronome impessoal",
+              "example": "Es regnet. – Está chovendo."
             },
             {
               "word": "ich",
               "meaning": "eu",
-              "example": "Ich lerne Deutsch. = Eu estudo alemão."
+              "example": "Ich lerne Deutsch. – Eu estudo alemão."
             }
           ],
           "tip": {
             "text": "O alemão es não corresponde ao português “eu”; “eu” em alemão é ich."
           },
           "important": [
-            "Es pode significar “isso” ou funcionar como pronome impessoal.",
-            "Em frases sobre o clima, es geralmente não tem uma tradução direta.",
-            "Ich significa “eu”, enquanto es é uma palavra diferente."
+            "Es pode retomar um substantivo neutro e ser traduzido como ele ou ela, conforme o gênero da palavra em português.",
+            "Es também pode significar isso ou funcionar como pronome impessoal.",
+            "Em frases sobre o clima, es geralmente não tem tradução direta.",
+            "Ich significa eu; es é uma palavra diferente."
           ],
           "id": "a1-es",
           "layout": "standardStudy"
@@ -667,7 +684,7 @@
       "auditId": "LRB079-0013",
       "cardId": "essen|idx:690",
       "status": "LABOT",
-      "reason": "Para o DE “essen”, corrigi “Esse” para o infinitivo português “comer” e substituí todas as explicações e exemplos contaminados por letão por conteúdo sobre a ação de comer.",
+      "reason": "Restauro o sexto exemplo, repetido no LV→DE source, e normalizo a chave do texto-alvo.",
       "new": {
         "de": "essen",
         "lv": "comer",
@@ -682,23 +699,27 @@
           "examples": [
             {
               "de": "Ich esse gern Pizza.",
-              "pt": "Gosto de comer pizza."
+              "lv": "Gosto de comer pizza."
             },
             {
               "de": "Was wollt ihr essen?",
-              "pt": "O que vocês querem comer?"
+              "lv": "O que vocês querem comer?"
             },
             {
               "de": "Wir essen um 12 Uhr.",
-              "pt": "Nós comemos ao meio-dia."
+              "lv": "Nós comemos ao meio-dia."
             },
             {
               "de": "Das Essen ist fertig.",
-              "pt": "A comida está pronta."
+              "lv": "A comida está pronta."
             },
             {
               "de": "Das Essen schmeckt sehr gut.",
-              "pt": "A comida está muito gostosa."
+              "lv": "A comida está muito gostosa."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "A comida está gostosa."
             }
           ],
           "tip": [
@@ -711,7 +732,8 @@
             "Ação: essen. Coisa ou refeição: das Essen."
           ],
           "id": "a1-essen",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -719,7 +741,7 @@
       "auditId": "LRB079-0014",
       "cardId": "Essen|idx:691",
       "status": "LABOT",
-      "reason": "Corrijo as três traduções deslocadas do cartão nominal Essen e mantenho a distinção com o verbo essen.",
+      "reason": "Restauro os seis exemplos do source, retiro uma seção comparison inexistente no source e preservo a distinção Essen versus essen.",
       "new": {
         "de": "Essen",
         "lv": "comida • refeição",
@@ -735,39 +757,37 @@
           "examples": [
             {
               "de": "Das Essen schmeckt gut.",
-              "lv": "A comida está saborosa.",
-              "pt": "A comida está saborosa."
+              "lv": "A comida está saborosa."
             },
             {
               "de": "Was wollt ihr essen?",
-              "lv": "O que vocês querem comer?",
-              "pt": "O que vocês querem comer?"
+              "lv": "O que vocês querem comer?"
             },
             {
               "de": "Wir essen um 12 Uhr.",
-              "lv": "Nós comemos ao meio-dia.",
-              "pt": "Nós comemos ao meio-dia."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "das Essen",
-              "meaning": "a comida • a refeição",
-              "example": "Das Essen ist fertig. = A comida está pronta."
+              "lv": "Nós comemos ao meio-dia."
             },
             {
-              "word": "essen",
-              "meaning": "comer",
-              "example": "Wir essen um zwölf Uhr. = Nós comemos ao meio-dia."
+              "de": "Das Essen ist fertig.",
+              "lv": "A comida está pronta."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "A comida está muito saborosa."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "A comida está saborosa."
             }
           ],
+          "comparison": [],
           "tip": {
             "text": "Substantivo: das Essen; verbo: essen."
           },
           "important": [
-            "Das Essen é um substantivo neutro e significa “a comida” ou “a refeição”.",
-            "Essen como substantivo é escrito com inicial maiúscula.",
-            "Essen não é normalmente usado no plural quando significa comida em geral."
+            "essen é um verbo e não leva artigo.",
+            "das Essen não é o mesmo que essen.",
+            "Ação: essen; comida ou refeição: das Essen."
           ],
           "id": "a1-essen-study",
           "layout": "standardStudy"
@@ -816,22 +836,22 @@
             {
               "word": "etwas",
               "meaning": "algo • um pouco",
-              "example": "Ich brauche etwas. = Preciso de algo."
+              "example": "Ich brauche etwas. – Preciso de algo."
             },
             {
               "word": "was",
               "meaning": "algo (informal)",
-              "example": "Willst du was trinken? = Você quer beber algo?"
+              "example": "Willst du was trinken? – Você quer beber algo?"
             },
             {
               "word": "ein bisschen",
               "meaning": "um pouco",
-              "example": "Ich bin ein bisschen müde. = Estou um pouco cansado."
+              "example": "Ich bin ein bisschen müde. – Estou um pouco cansado."
             },
             {
               "word": "nichts",
               "meaning": "nada",
-              "example": "Ich brauche nichts. = Não preciso de nada."
+              "example": "Ich brauche nichts. – Não preciso de nada."
             }
           ],
           "tip": {
@@ -888,17 +908,17 @@
             {
               "word": "ihr",
               "meaning": "vocês",
-              "example": "Ihr seid freundlich. = Vocês são gentis."
+              "example": "Ihr seid freundlich. – Vocês são gentis."
             },
             {
               "word": "euch",
               "meaning": "vocês • a vocês",
-              "example": "Ich helfe euch. = Eu ajudo vocês."
+              "example": "Ich helfe euch. – Eu ajudo vocês."
             },
             {
               "word": "euer",
               "meaning": "seu • de vocês",
-              "example": "Das ist euer Haus. = Essa é a casa de vocês."
+              "example": "Das ist euer Haus. – Essa é a casa de vocês."
             }
           ],
           "tip": {
@@ -956,27 +976,27 @@
             {
               "word": "fahren",
               "meaning": "viajar • dirigir",
-              "example": "Ich fahre mit dem Bus. = Vou de ônibus."
+              "example": "Ich fahre mit dem Bus. – Vou de ônibus."
             },
             {
               "word": "gehen",
               "meaning": "ir a pé",
-              "example": "Ich gehe nach Hause. = Vou para casa a pé."
+              "example": "Ich gehe nach Hause. – Vou para casa a pé."
             },
             {
               "word": "laufen",
               "meaning": "correr • caminhar",
-              "example": "Er läuft schnell. = Ele corre rápido."
+              "example": "Er läuft schnell. – Ele corre rápido."
             },
             {
               "word": "bringen",
               "meaning": "levar • trazer",
-              "example": "Ich bringe das Buch. = Eu levo o livro."
+              "example": "Ich bringe das Buch. – Eu levo o livro."
             },
             {
               "word": "mitnehmen",
               "meaning": "levar consigo",
-              "example": "Ich nehme dich mit. = Levo você comigo."
+              "example": "Ich nehme dich mit. – Levo você comigo."
             }
           ],
           "tip": {
@@ -996,7 +1016,7 @@
       "auditId": "LRB079-0018",
       "cardId": "Ferien|idx:694",
       "status": "LABOT",
-      "reason": "Mantenho férias escolares no plural e realinho as três traduções dos exemplos alemães.",
+      "reason": "Restauro os seis exemplos e os exemplos alemães originais da comparação Ferien versus Urlaub; retiro conteúdo extra e preservo o dativo plural.",
       "new": {
         "de": "Ferien",
         "lv": "férias escolares",
@@ -1012,39 +1032,48 @@
           "examples": [
             {
               "de": "In den Ferien fahren wir ans Meer.",
-              "lv": "Nas férias, vamos para o litoral.",
-              "pt": "Nas férias, vamos para o litoral."
+              "lv": "Nas férias, vamos para o litoral."
             },
             {
               "de": "In den Ferien habe ich viel Zeit.",
-              "lv": "Nas férias, tenho muito tempo.",
-              "pt": "Nas férias, tenho muito tempo."
+              "lv": "Nas férias, tenho muito tempo."
             },
             {
               "de": "Was macht ihr in den Ferien?",
-              "lv": "O que vocês fazem nas férias?",
-              "pt": "O que vocês fazem nas férias?"
+              "lv": "O que vocês fazem nas férias?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "A escola fica fechada durante as férias."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Nas férias, vamos para o litoral."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "nas férias escolares"
             }
           ],
           "comparison": [
             {
               "word": "die Ferien",
-              "meaning": "férias escolares",
-              "example": "Die Ferien sind lang. = As férias são longas."
+              "meaning": "férias escolares ou universitárias; somente plural",
+              "example": "In den Ferien fahren wir weg. – Nas férias, viajamos."
             },
             {
               "word": "der Urlaub",
-              "meaning": "férias • licença",
-              "example": "Ich habe im August Urlaub. = Estou de férias em agosto."
+              "meaning": "férias ou licença do trabalho; normalmente singular",
+              "example": "Ich habe zwei Wochen Urlaub. – Tenho duas semanas de férias."
             }
           ],
           "tip": {
             "text": "Ferien costuma se referir às férias da escola; Urlaub é usado para férias ou licença do trabalho."
           },
           "important": [
-            "Ferien é normalmente usado no plural: die Ferien.",
+            "Ferien é usado no plural: die Ferien.",
             "A palavra se refere principalmente às férias escolares ou universitárias.",
-            "Não confunda Ferien com feriados isolados, que são Feiertage."
+            "Usa-se in den Ferien, com dativo plural; não in der Ferien."
           ],
           "id": "a1-ferien",
           "layout": "standardStudy"
@@ -1081,17 +1110,17 @@
             {
               "word": "fernsehen",
               "meaning": "assistir televisão",
-              "example": "Ich sehe fern. = Eu assisto televisão."
+              "example": "Ich sehe fern. – Eu assisto televisão."
             },
             {
               "word": "das Fernsehen",
               "meaning": "a televisão como meio de comunicação",
-              "example": "Im Fernsehen läuft ein Film. = Está passando um filme na televisão."
+              "example": "Im Fernsehen läuft ein Film. – Está passando um filme na televisão."
             },
             {
               "word": "sehen",
               "meaning": "ver",
-              "example": "Ich sehe einen Film. = Eu vejo um filme."
+              "example": "Ich sehe einen Film. – Eu vejo um filme."
             }
           ],
           "tip": {
@@ -1113,7 +1142,7 @@
       "auditId": "LRB079-0020",
       "cardId": "Fernsehen|idx:688",
       "status": "LABOT",
-      "reason": "Corrijo as traduções deslocadas nos exemplos de Fernsehen, preservando o substantivo televisão.",
+      "reason": "Restauro os seis exemplos do LV→DE source para o substantivo Fernsehen.",
       "new": {
         "de": "Fernsehen",
         "lv": "televisão",
@@ -1129,18 +1158,27 @@
           "examples": [
             {
               "de": "Was gibt es heute im Fernsehen?",
-              "lv": "O que vai passar hoje na televisão?",
-              "pt": "O que vai passar hoje na televisão?"
+              "lv": "O que vai passar hoje na televisão?"
             },
             {
               "de": "Was gibt es heute im Fernsehen?",
-              "lv": "O que vai passar hoje na televisão?",
-              "pt": "O que vai passar hoje na televisão?"
+              "lv": "O que vai passar hoje na televisão?"
             },
             {
               "de": "Im Fernsehen läuft ein Film.",
-              "lv": "Está passando um filme na televisão.",
-              "pt": "Está passando um filme na televisão."
+              "lv": "Está passando um filme na televisão."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "A programação da televisão está entediante hoje."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Vou assistir à televisão hoje à noite."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "O que está passando na televisão?"
             }
           ],
           "tip": [
@@ -1153,7 +1191,8 @@
             "Ação: fernsehen — ich sehe fern. Meio ou programação: das Fernsehen."
           ],
           "id": "a1-fernsehen-study",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -1161,7 +1200,7 @@
       "auditId": "LRB079-0021",
       "cardId": "finden|idx:187",
       "status": "LABOT",
-      "reason": "Explicito no título os dois usos ensinados de finden: encontrar e achar.",
+      "reason": "Restauro o exemplo alemão original da comparação de finden.",
       "new": {
         "de": "finden",
         "lv": "encontrar • achar",
@@ -1192,7 +1231,7 @@
             {
               "word": "finden",
               "meaning": "encontrar • achar",
-              "example": "Ich finde meinen Schlüssel. – Eu encontro minha chave."
+              "example": "Ich finde das gut. – Eu acho isso bom."
             }
           ],
           "tip": [
@@ -1210,7 +1249,7 @@
       "auditId": "LRB079-0022",
       "cardId": "Frau|idx:198",
       "status": "LABOT",
-      "reason": "Explicito no título os dois sentidos ensinados de Frau: mulher e esposa.",
+      "reason": "Retiro a seção comparison acrescentada, inexistente no cartão LV→DE source.",
       "new": {
         "de": "Frau",
         "lv": "mulher • esposa",
@@ -1251,18 +1290,7 @@
               "lv": "A esposa dele é médica."
             }
           ],
-          "comparison": [
-            {
-              "word": "Frau",
-              "meaning": "mulher • esposa",
-              "example": "Das ist meine Frau. – Esta é minha esposa."
-            },
-            {
-              "word": "Mann",
-              "meaning": "homem • marido",
-              "example": "Das ist mein Mann. – Este é meu marido."
-            }
-          ],
+          "comparison": [],
           "tip": [
             "Com meine Frau ou seine Frau, geralmente o significado é esposa."
           ],
@@ -1278,18 +1306,18 @@
       "auditId": "LRB079-0023",
       "cardId": "für|idx:216",
       "status": "LABOT",
-      "reason": "Para a preposição alemã für, foram substituídos os falsos cognatos e trechos em letão por equivalentes portugueses coerentes com para.",
+      "reason": "Restauro para e por, retiro conteúdo extra e preservo acusativo, finalidade, preço, troca e motivo sem comparison acrescentada.",
       "new": {
         "de": "für",
-        "lv": "para",
+        "lv": "para • por",
         "level": "A1",
         "study": {
-          "translation": "para",
+          "translation": "para • por",
           "explanation": [
-            "für é uma preposição que geralmente significa para.",
-            "Usa-se für para indicar destinatário ou finalidade.",
-            "Também se usa für ao falar de preço, troca ou duração.",
-            "für rege o acusativo em alemão."
+            "Für é uma preposição que sempre rege o acusativo.",
+            "Para indicar destinatário ou finalidade, geralmente corresponde a para: für dich = para você.",
+            "Em contextos de agradecimento, preço, troca ou motivo, frequentemente corresponde a por, pelo ou pela: Danke für die Hilfe = Obrigado pela ajuda.",
+            "A tradução depende do contexto, mas o caso alemão continua sendo o acusativo."
           ],
           "examples": [
             {
@@ -1317,18 +1345,14 @@
               "lv": "Por hoje isso é suficiente."
             }
           ],
-          "comparison": [
-            {
-              "word": "für",
-              "meaning": "para",
-              "example": "Das ist für dich. – Isso é para você."
-            }
-          ],
+          "comparison": [],
           "tip": [
-            "für geralmente corresponde a para em português e sempre rege o acusativo."
+            "für sempre rege o acusativo, independentemente da tradução.",
+            "Destinatário ou finalidade → para; agradecimento, preço, troca ou motivo → por, pelo ou pela."
           ],
           "important": [
-            "für = para; não confunda com vor, que geralmente significa diante de ou há, no tempo."
+            "für + acusativo: für mich, für dich, für das Kind.",
+            "danke für e bezahlen für normalmente correspondem a agradecer por e pagar por."
           ],
           "id": "a1-fuer",
           "layout": "standardStudy"
@@ -1339,7 +1363,7 @@
       "auditId": "LRB079-0024",
       "cardId": "Fußball|idx:218",
       "status": "LABOT",
-      "reason": "Explicito no título os sentidos de Fußball como esporte e como bola de futebol.",
+      "reason": "Alinho study.translation com os dois sentidos já corretos do título: esporte e bola de futebol.",
       "new": {
         "de": "Fußball",
         "lv": "futebol • bola de futebol",
@@ -1347,7 +1371,7 @@
         "de_article": "der",
         "de_plural": "die Fußbälle",
         "study": {
-          "translation": "futebol",
+          "translation": "futebol • bola de futebol",
           "explanation": [
             "Fußball geralmente significa futebol como esporte.",
             "Com artigo e em sentido contável, der Fußball também pode significar bola de futebol.",
@@ -1579,7 +1603,7 @@
       "auditId": "LRB079-0028",
       "cardId": "Gemüse|idx:692",
       "status": "LABOT",
-      "reason": "Corrijo as traduções deslocadas e duplicadas nos exemplos de Gemüse.",
+      "reason": "Restauro os seis exemplos do source, retiro comparison acrescentada e preservo a regra de singular de das Gemüse.",
       "new": {
         "de": "Gemüse",
         "lv": "legumes",
@@ -1604,20 +1628,28 @@
             {
               "de": "Das Gemüse ist frisch.",
               "lv": "Os legumes estão frescos."
-            }
-          ],
-          "comparison": [
+            },
             {
-              "word": "das Gemüse",
-              "meaning": "legumes • verduras em geral",
-              "example": "Das Gemüse ist frisch. – Os legumes estão frescos."
+              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "lv": "Compramos legumes no mercado."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Gosto de frutas e legumes."
+            },
+            {
+              "de": "Ich esse Gemüse.",
+              "lv": "Eu como legumes."
             }
           ],
+          "comparison": [],
           "tip": [
             "Use das Gemüse para falar de legumes e verduras em geral."
           ],
           "important": [
-            "das Gemüse é normalmente usado no singular em alemão."
+            "das Gemüse é normalmente usado no singular em alemão.",
+            "Não se diz die Gemüse; a forma correta é das Gemüse.",
+            "das Gemüse refere-se a legumes e verduras em geral."
           ],
           "id": "a1-gemuese",
           "layout": "standardStudy"
@@ -1628,10 +1660,10 @@
       "auditId": "LRB079-0029",
       "cardId": "Geschichte|idx:233",
       "status": "LABOT",
-      "reason": "Para o substantivo alemão Geschichte, refinei a tradução para distinguir história, narrativa e disciplina, eliminando a duplicação semântica.",
+      "reason": "Alinho o título com os sentidos história e narrativa ensinados na carta.",
       "new": {
         "de": "Geschichte",
-        "lv": "história",
+        "lv": "história • narrativa",
         "level": "A1",
         "de_article": "die",
         "de_plural": "die Geschichten",
@@ -1788,7 +1820,8 @@
             "Bis gleich! significa ‘Até daqui a pouco!’."
           ],
           "id": "a1-gleich",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -1834,7 +1867,8 @@
             "groß = grande; para pessoas, geralmente ‘alto’. "
           ],
           "id": "a1-gross-study",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -1947,7 +1981,8 @@
             "Guten Tag, Guten Morgen e Guten Abend mostram a flexão de gut."
           ],
           "id": "a1-gut-study",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -1990,22 +2025,22 @@
             {
               "word": "haben",
               "meaning": "ter",
-              "example": "Ich habe Zeit. = Eu tenho tempo."
+              "example": "Ich habe Zeit. – Eu tenho tempo."
             },
             {
               "word": "sein",
               "meaning": "ser/estar",
-              "example": "Ich bin hier. = Eu estou aqui."
+              "example": "Ich bin hier. – Eu estou aqui."
             },
             {
               "word": "bekommen",
               "meaning": "receber",
-              "example": "Ich bekomme ein Geschenk. = Eu recebo um presente."
+              "example": "Ich bekomme ein Geschenk. – Eu recebo um presente."
             },
             {
               "word": "machen",
               "meaning": "fazer",
-              "example": "Ich mache das. = Eu faço isso."
+              "example": "Ich mache das. – Eu faço isso."
             }
           ],
           "tip": {
@@ -2060,22 +2095,22 @@
             {
               "word": "halten",
               "meaning": "segurar / parar",
-              "example": "Der Bus hält. = O ônibus para."
+              "example": "Der Bus hält. – O ônibus para."
             },
             {
               "word": "nehmen",
               "meaning": "pegar",
-              "example": "Ich nehme die Tasche. = Eu pego a bolsa."
+              "example": "Ich nehme die Tasche. – Eu pego a bolsa."
             },
             {
               "word": "anhalten",
               "meaning": "parar",
-              "example": "Bitte halten Sie an. = Por favor, pare."
+              "example": "Bitte halten Sie an. – Por favor, pare."
             },
             {
               "word": "denken",
               "meaning": "pensar/achar",
-              "example": "Ich denke, das ist richtig. = Eu acho que isso está certo."
+              "example": "Ich denke, das ist richtig. – Eu acho que isso está certo."
             }
           ],
           "tip": {
@@ -2185,27 +2220,27 @@
             {
               "word": "heißen",
               "meaning": "chamar-se / significar",
-              "example": "Ich heiße Anna. = Eu me chamo Anna."
+              "example": "Ich heiße Anna. – Eu me chamo Anna."
             },
             {
               "word": "nennen",
               "meaning": "chamar, dar um nome",
-              "example": "Er nennt mich Tom. = Ele me chama de Tom."
+              "example": "Er nennt mich Tom. – Ele me chama de Tom."
             },
             {
               "word": "bedeuten",
               "meaning": "significar",
-              "example": "Was bedeutet das? = O que isso significa?"
+              "example": "Was bedeutet das? – O que isso significa?"
             },
             {
               "word": "rufen",
               "meaning": "chamar em voz alta",
-              "example": "Ich rufe dich. = Eu chamo você."
+              "example": "Ich rufe dich. – Eu chamo você."
             },
             {
               "word": "anrufen",
               "meaning": "telefonar",
-              "example": "Ich rufe dich an. = Eu telefono para você."
+              "example": "Ich rufe dich an. – Eu telefono para você."
             }
           ],
           "tip": {
@@ -2224,7 +2259,7 @@
       "auditId": "LRB079-0039",
       "cardId": "hoch|idx:285",
       "status": "LABOT",
-      "reason": "DE “hoch” tinha a tradução portuguesa errada “Agosto” e vários exemplos em letão; corrigi para ‘alto’ e distingui altura física de preços e aluguel elevados.",
+      "reason": "Restauro o contraste obrigatório hoch versus groß para a altura de pessoas.",
       "new": {
         "de": "hoch",
         "lv": "alto",
@@ -2258,15 +2293,17 @@
             }
           ],
           "tip": [
-            "hoch = alto.",
-            "Use hoch para altura vertical, níveis e valores elevados."
+            "Use hoch para altura vertical ou para valores e níveis elevados.",
+            "Para a altura de uma pessoa, geralmente use groß, não hoch."
           ],
           "important": [
-            "hoch pode descrever altura, preços e outros níveis elevados.",
-            "hoch = alto/elevado."
+            "Der Berg ist hoch = A montanha é alta.",
+            "Er ist groß = Ele é alto.",
+            "Para a altura de uma pessoa, normalmente não se usa hoch."
           ],
           "id": "a1-hoch-study",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -2309,7 +2346,8 @@
             "O contexto determina se a melhor tradução é ‘ouvir’ ou ‘escutar’. "
           ],
           "id": "a1-hoeren-study",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -2463,7 +2501,8 @@
             "Incorreto: Mein Handy ist jung. Correto: Mein Handy ist neu."
           ],
           "id": "a1-jung",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -2520,7 +2559,8 @@
             "Incorreto: Ich habe nicht ein Geld. Correto: Ich habe kein Geld."
           ],
           "id": "a1-kein",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -2591,7 +2631,7 @@
       "auditId": "LRB079-0045",
       "cardId": "klein|idx:6",
       "status": "LABOT",
-      "reason": "Realinho todas as traduções de klein e restauro o quinto exemplo DE omitido.",
+      "reason": "Restauro exatamente os três exemplos do source e o sentido de pouca idade de klein; retiro exemplos e contraste acrescentados.",
       "new": {
         "de": "klein",
         "lv": "pequeno",
@@ -2599,8 +2639,9 @@
         "study": {
           "translation": "pequeno",
           "explanation": [
-            "Klein significa pequeno em tamanho, dimensão ou extensão.",
-            "Pode descrever objetos, lugares, animais e pessoas de baixa estatura."
+            "Klein significa pequeno em tamanho, extensão, quantidade ou idade.",
+            "Pode descrever um objeto, um ambiente, uma quantidade ou uma criança.",
+            "O sentido exato depende do substantivo e do contexto."
           ],
           "examples": [
             {
@@ -2614,25 +2655,19 @@
             {
               "de": "Ich habe eine kleine Tasche.",
               "lv": "Eu tenho uma bolsa pequena."
-            },
-            {
-              "de": "Ich habe eine kleine Tasche.",
-              "lv": "Eu tenho uma bolsa pequena."
-            },
-            {
-              "de": "Das Kind ist klein.",
-              "lv": "A criança é pequena."
             }
           ],
           "tip": [
-            "Klein = pequeno; use-o para tamanho ou extensão reduzida."
+            "klein = pequeno.",
+            "Quando descreve uma criança, klein também pode se referir à pouca idade."
           ],
           "important": [
-            "Klein significa pequeno em tamanho.",
-            "O antônimo de klein é groß: pequeno ↔ grande."
+            "Klein geralmente significa pequeno.",
+            "Ao falar de uma criança, klein também pode indicar pouca idade."
           ],
           "id": "a1-klein-study",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -2640,7 +2675,7 @@
       "auditId": "LRB079-0046",
       "cardId": "können|idx:319",
       "status": "LABOT",
-      "reason": "Corrijo DE “können” para “poder/saber fazer”, substituindo explicações contaminadas e mantendo a diferença entre capacidade, permissão, obrigação e conhecimento.",
+      "reason": "Restauro tip e important com a diferença können versus dürfen e a posição do infinitivo modal.",
       "new": {
         "de": "können",
         "lv": "poder • saber fazer",
@@ -2693,7 +2728,14 @@
             }
           ],
           "id": "a1-können",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "tip": {
+            "text": "Capacidade ou possibilidade → können."
+          },
+          "important": [
+            "können não é o mesmo que dürfen: können significa poder ou saber fazer; dürfen significa ter permissão.",
+            "Com können, o segundo verbo normalmente fica no final, no infinitivo: Ich kann schwimmen."
+          ]
         }
       }
     },
@@ -2701,7 +2743,7 @@
       "auditId": "LRB079-0047",
       "cardId": "kosten|idx:320",
       "status": "LABOT",
-      "reason": "Corrijo DE “kosten” para “custar”, separando o preço indicado por kosten do ato de pagar expresso por bezahlen ou zahlen.",
+      "reason": "Restauro tip e important com o contraste kosten versus bezahlen ou zahlen.",
       "new": {
         "de": "kosten",
         "lv": "custar",
@@ -2770,7 +2812,15 @@
             }
           ],
           "id": "a1-kosten",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "tip": [
+            "Para perguntar ou indicar um preço, use kosten: Was kostet das?",
+            "Para realizar um pagamento, use bezahlen ou zahlen: Ich bezahle die Rechnung."
+          ],
+          "important": [
+            "kosten e bezahlen não são sinônimos: kosten indica quanto algo custa; bezahlen indica pagar dinheiro.",
+            "Em português, custar e pagar também devem ser escolhidos conforme a situação."
+          ]
         }
       }
     },
@@ -2820,7 +2870,8 @@
             "O plural de Laden é Läden."
           ],
           "id": "a1-laden-study",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     },
@@ -2828,7 +2879,7 @@
       "auditId": "LRB079-0049",
       "cardId": "Land|idx:351",
       "status": "LABOT",
-      "reason": "Completo DE “Land” com os sentidos portugueses “país, terra e campo”, corrigindo exemplos e comparações que continham letão ou traduções inadequadas.",
+      "reason": "Restauro o tip do source com o contraste Land versus Stadt.",
       "new": {
         "de": "Land",
         "lv": "país • terra • campo",
@@ -2888,7 +2939,10 @@
             "Das Land não é o mesmo que die Stadt: país/campo não é cidade."
           ],
           "id": "a1-land",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "tip": {
+            "text": "Lembre-se: país ou campo → das Land; cidade → die Stadt."
+          }
         }
       }
     },
@@ -2943,10 +2997,11 @@
             "Wie lange significa quanto tempo e pergunta sobre duração, não sobre medida."
           ],
           "id": "a1-lang",
-          "layout": "standardStudy"
+          "layout": "standardStudy",
+          "comparison": []
         }
       }
     }
   ],
-  "correctionRound": 1
+  "correctionRound": 2
 }
