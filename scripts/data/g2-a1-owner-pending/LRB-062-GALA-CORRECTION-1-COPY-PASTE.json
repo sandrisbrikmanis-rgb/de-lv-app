@@ -1,0 +1,176 @@
+{
+  "schema": "LRB_OWNER_GALA_CORRECTION_COPY_PASTE_V1",
+  "batch_id": "LRB-062",
+  "reviewed_commit": "16df3bc77fc607113b86052a31e58d5885c1225e",
+  "verdict_before_apply": "GALA_BLOCKED",
+  "copy_paste_source_sha256": "13d99569fc4b33fbaf76bc746190e760c958e5bfbbe134d0ac59153b8fe8c7ec",
+  "counts": {
+    "corrections": 9,
+    "affected_cards": 4
+  },
+  "corrections": [
+    {
+      "number": 1,
+      "card_object_id": "gut|idx:259",
+      "field_path": "study.explanation",
+      "current": [
+        "Haaptiddi: gut ass en Adjektiv oder Adverb a bedeit jee no Kontext gutt, erfollegräich oder an der Rei.",
+        "gut beschreift Qualitéit, Gesondheet oder wéi eppes verleeft: Es geht mir gut. = Et geet mir gutt.",
+        "An de Begréissunge Guten Morgen!, Guten Tag! a Guten Abend! kritt gut d’Endung -en.",
+        "Wann gut e Verb beschreift, ass et en Adverb: gut schwimmen = gutt schwammen.",
+        "Net mat das Gut verwiesselen: mat groussem Buschtaf an Artikel ass et e Substantiv, zum Beispill Besëtz oder Landgut."
+      ],
+      "new": [
+        "Haaptiddi: gut ass en Adjektiv oder Adverb a bedeit jee no Kontext gutt, erfollegräich oder an der Rei.",
+        "gut beschreift Qualitéit, Gesondheet oder wéi eppes verleeft: Es geht mir gut. = Et geet mir gutt.",
+        "An de Begréissunge Guten Morgen!, Guten Tag! a Guten Abend! kritt gut d’Endung -en.",
+        "Wann gut e Verb beschreift, ass et en Adverb: gut schwimmen = gutt schwammen.",
+        "Net mat das Gut verwiesselen: mat groussem Buschtaf an Artikel ass et e Substantiv, zum Beispill Besëtz oder Domaine."
+      ],
+      "reason": "Landgut was left as an untranslated German meaning label inside the Luxembourgish target explanation. Domaine preserves the source meaning without target-language residue."
+    },
+    {
+      "number": 2,
+      "card_object_id": "gut|idx:259",
+      "field_path": "study.important",
+      "current": [
+        "gut = gutt als Adjektiv oder Adverb.",
+        "das Gut = Besëtz oder Landgut; net mat gut verwiesselen.",
+        "Bei Guten Morgen, Guten Tag a Guten Abend huet gut d’Endung -en."
+      ],
+      "new": [
+        "gut = gutt als Adjektiv oder Adverb.",
+        "das Gut = Besëtz oder Domaine; net mat gut verwiesselen.",
+        "Bei Guten Morgen, Guten Tag a Guten Abend huet gut d’Endung -en."
+      ],
+      "reason": "The same untranslated meaning label must not remain in study.important."
+    },
+    {
+      "number": 3,
+      "card_object_id": "hören|idx:287",
+      "field_path": "study.explanation",
+      "current": [
+        "Haaptiddi: hören kann eng Tounwahrnehmung oder bewosst Nolauschtere bezeechnen.",
+        "Fir eng Tounwahrnehmung steet op Lëtzebuergesch héieren.",
+        "Bei Musek oder enger Geschicht kann op Lëtzebuergesch lauschteren oder nolauschteren stoen.",
+        "De Kontext entscheet tëscht héieren a lauschteren."
+      ],
+      "new": [
+        "Haaptiddi: hören kann d’Wouerhuele vun engem Toun oder bewosst Nolauschtere bezeechnen.",
+        "Fir en Toun, deen een héiert, steet op Lëtzebuergesch héieren.",
+        "Bei Musek oder enger Geschicht kann op Lëtzebuergesch lauschteren oder nolauschteren stoen.",
+        "De Kontext entscheet tëscht héieren a lauschteren."
+      ],
+      "reason": "Tounwahrnehmung is a German-Luxembourgish hybrid. The replacement is natural Luxembourgish and preserves the hear/listen contrast."
+    },
+    {
+      "number": 4,
+      "card_object_id": "hören|idx:287",
+      "field_path": "study.tip",
+      "current": [
+        "Eng Tounwahrnehmung: héieren.",
+        "Bewosst Musek oder enger Geschicht nolauschteren: lauschteren oder nolauschteren."
+      ],
+      "new": [
+        "En Toun héieren: héieren.",
+        "Bewosst Musek lauschteren oder enger Geschicht nolauschteren: lauschteren oder nolauschteren."
+      ],
+      "reason": "Remove the hybrid term and repair the coordination so Musek and enger Geschicht have their own grammatically aligned constructions."
+    },
+    {
+      "number": 5,
+      "card_object_id": "hören|idx:287",
+      "field_path": "study.important",
+      "current": [
+        "hören kann jee no Kontext héieren oder lauschteren bedeiten.",
+        "De Saz weist, ob et ëm Wahrnehmung oder bewosst Nolauschtere geet."
+      ],
+      "new": [
+        "hören kann jee no Kontext héieren oder lauschteren bedeiten.",
+        "De Saz weist, ob et ëm d’Héiere vun engem Toun oder ëm bewosst Nolauschtere geet."
+      ],
+      "reason": "Wahrnehmung is untranslated German residue in the Luxembourgish target section."
+    },
+    {
+      "number": 6,
+      "card_object_id": "in|idx:295",
+      "field_path": "study.explanation",
+      "current": [
+        "Haaptiddi: déi däitsch Präpositioun in kann eng Plaz oder eng Richtung an en Innenraum bezeechnen.",
+        "Bei enger fester Plaz gëtt in op Lëtzebuergesch jee no Kontext mat an, am oder zu ausgedréckt.",
+        "Bei enger Bewegung no bannen gëtt in op Lëtzebuergesch meeschtens mat an ausgedréckt.",
+        "Déi genee lëtzebuergesch Präpositioun hänkt vum Substantiv a vum Kontext of."
+      ],
+      "new": [
+        "Haaptiddi: déi däitsch Präpositioun in kann eng Plaz oder eng Richtung no bannen bezeechnen.",
+        "Bei enger fester Plaz gëtt in op Lëtzebuergesch jee no Kontext mat an, am oder zu ausgedréckt.",
+        "Bei enger Bewegung no bannen gëtt in op Lëtzebuergesch meeschtens mat an ausgedréckt.",
+        "Déi genee lëtzebuergesch Präpositioun hänkt vum Substantiv a vum Kontext of."
+      ],
+      "reason": "Innenraum is unnecessary German residue. Richtung no bannen expresses the same teaching point naturally."
+    },
+    {
+      "number": 7,
+      "card_object_id": "in|idx:295",
+      "field_path": "study.tip",
+      "current": {
+        "text": "Denk drun: in bezeechent dacks eng Plaz oder eng Bewegung an en Innenraum; d’lëtzebuergesch Präpositioun ass kontextofhängeg."
+      },
+      "new": {
+        "text": "Denk drun: in bezeechent dacks eng Plaz oder eng Bewegung no bannen; d’lëtzebuergesch Präpositioun ass kontextofhängeg."
+      },
+      "reason": "Remove the same German residue from the tip."
+    },
+    {
+      "number": 8,
+      "card_object_id": "kein|idx:308",
+      "field_path": "study.explanation",
+      "current": [
+        "Haaptiddi: kein ass en däitschen Negatiounsartikel, deen e Substantiv verneint.",
+        "kein gëtt wéi ein deklinéiert: kein, keine, keinen an aner Formen; et steet virum Substantiv.",
+        "Bei zielbare Persoune kann kein dem lëtzebuergesche keen oder keng entspriechen.",
+        "Bei Stoff- oder abstrakte Substantiver gëtt kein op Lëtzebuergesch dacks duerch keen oder keng an eng negativ Verbform ausgedréckt.",
+        "kein verneint e Substantiv; nicht verneint jee no Kontext en anert Element oder de ganze Saz."
+      ],
+      "new": [
+        "Haaptiddi: kein ass en däitschen Negatiounsartikel, deen e Substantiv verneint.",
+        "kein gëtt wéi ein deklinéiert: kein, keine, keinen an aner Formen; et steet virum Substantiv.",
+        "Bei Persounen entsprécht kein jee no Genus dem lëtzebuergesche keen oder keng.",
+        "Bei Stoff- oder abstrakte Substantiver entsprécht kein jee no Genus an Numerus dem lëtzebuergesche keen oder keng.",
+        "kein verneint e Substantiv; nicht verneint jee no Kontext en anert Element oder de ganze Saz."
+      ],
+      "reason": "The current fourth line incorrectly requires a negative verb form; the card's own examples use hu/gëtt with the negative determiner keen/keng. The replacement states the determiner mapping without that contradiction."
+    },
+    {
+      "number": 9,
+      "card_object_id": "hören|idx:287",
+      "field_path": "study.sectionAccents.tip",
+      "current": [
+        { "purple": ["Eng"] },
+        { "purple": ["Bewosst"] }
+      ],
+      "new": [
+        { "purple": ["En"] },
+        { "purple": ["Bewosst"] }
+      ],
+      "reason": "Keep the first tip highlight aligned with the corrected first tip line."
+    }
+  ],
+  "required_gate_patch": {
+    "file": "scripts/temp-audit-lrb062-pdf-residual.js",
+    "action": "Reject these exact residues inside Luxembourgish target fields so this defect cannot pass again.",
+    "add_exact_tokens": [
+      "Tounwahrnehmung",
+      "Wahrnehmung",
+      "Innenraum"
+    ]
+  },
+  "restrictions": [
+    "Exact Copy/Paste only",
+    "No new linguistic analysis or paraphrasing",
+    "Apply every CURRENT -> NEW replacement to the COPY-PASTE source and resulting artifacts",
+    "Do not change any DE source example, study.id or study.layout",
+    "No production, Crowdin, ingest or apply changes",
+    "Do not grant GALA PASS or LINGUISTICALLY_CLOSED"
+  ]
+}
