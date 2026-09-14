@@ -15,8 +15,7 @@
 - [Copy/paste correction #6](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-6.json)
 - [Parallel checkpoint](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-081-owner-authorization-ed35/reports/g2-a1-owner/parallel-checkpoint.json)
 
-**Branch:** `cursor/lrb-081-owner-authorization-ed35`
-**Source commit:** `e3fbba943700eb892628ed0e38cacba7c5e7c27b`
-**Overrides SHA256:** `b2c2ba942eeb66671d1b72c43e7b14ddd1615638325377309df9dee1088600f7`
-
+**Gala verdict:** `LRB_081_FULL_50_50_LINGUISTIC_REVIEW_PASS`
+**Verified commit:** `3d8f46a0242b305f7c1abc00fc3f51625be88094`
+**Overrides SHA256:** `eb0f34733299a8dc28ce6ae8cf1cbce3c913b0175158b3a74a234b9dff12e709`
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING (PT 4, RO 46, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50)

@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-081",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-14T15:20:00.000Z",
-  "sourceCommit": "329493a17eb2875467a109c5608e63eac0f6b9bc",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-14T15:25:00.000Z",
+  "sourceCommit": "3d8f46a0242b305f7c1abc00fc3f51625be88094",
   "branch": "cursor/lrb-081-owner-authorization-ed35",
   "correctionRound": 6,
   "overridesSha256": "eb0f34733299a8dc28ce6ae8cf1cbce3c913b0175158b3a74a234b9dff12e709",
@@ -66,7 +66,10 @@
     "copyPaste6": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-6.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-owner-authorization-proof.json"
   },
-  "note": "OWNER copy/paste correction #6 (technical proof completion). Added WRONG_LANGUAGE_RESIDUE, DUPLICATE_MEANINGS, DEGENERATE_EXAMPLE_PAIRS gates (0). Card content and owner notes unchanged.",
-  "galaPass": false,
-  "scriptChanges": 0
+  "note": "Gala verdict LRB_081_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 3d8f46a0242b305f7c1abc00fc3f51625be88094 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (PT 4, RO 46, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50). DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
+  "scriptChanges": 0,
+  "verifiedCommit": "3d8f46a0242b305f7c1abc00fc3f51625be88094",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_081_FULL_50_50_LINGUISTIC_REVIEW_PASS"
 }
