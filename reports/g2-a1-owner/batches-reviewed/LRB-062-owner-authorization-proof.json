@@ -3,16 +3,16 @@
   "ownerAuthorizationStatus": "APPROVED",
   "reviewer": "owner-prep-pipeline",
   "authorizedAt": "2026-09-14T16:40:46.733Z",
-  "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+  "linguisticVerdict": "LRB_062_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "row_count": 50,
   "languages": {
     "lb": 50
   },
   "unique_cards": 50,
-  "scope": "Gurke..kosten (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review pending",
+  "scope": "Gurke..kosten (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review complete",
   "productionSource": "data/lb/a1.js",
   "input_csv_sha256": "0096772a0f6f2615468de5a5b889845ddf9b0ba163e4b1ef16aff708eb583b82",
   "manifestPath": "reports/g2-a1-owner/manifests/LRB-062-start.json",
   "inputPath": "reports/g2-a1-owner/batches-pending/LRB-062-input.csv",
-  "note": "Owner authorization APPROVED. LB batch 5 (post LRB-061). Next LB slice from 7737 pool (409 LB rows remain). GPT-5.6 Luna linguistic review pending. NOT LRB_062_FULL_50_50_LINGUISTIC_REVIEW_PASS. No repair-engine decisions — awaiting Luna copy/paste. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Gala verdict LRB_062_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING (18 full composite + 32 scalar cards). LB batch 5 complete; 359 LB rows remain in 7737 pool. Gala correction #1 applied (gut/hören/in/kein target-field fixes). DE/production/Crowdin/ingest/apply unchanged."
 }
