@@ -1,10 +1,10 @@
 {
   "batchId": "LRB-081",
-  "generatedAt": "2026-09-14T16:23:36.358Z",
-  "sourceCommit": "0fe02305a21c67dd7e9eff23c4d5de84a3a8f5fb",
+  "generatedAt": "2026-09-14T16:34:50.187Z",
+  "sourceCommit": "7d215b6610e4c094fc3788b223631dab178021d6",
   "reviewer": "GPT-5.6 Luna",
-  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_7",
-  "correctionRound": 7,
+  "repair": "OWNER_COPY_PASTE_TECHNICAL_CORRECTION_8",
+  "correctionRound": 8,
   "overridesSha256": "0cfa0dd55f71d6fdc49738367290936d09ba49c951e494383d25867bd5e454b3",
   "uniqueCards": 50,
   "fullStudyCards": 50,
@@ -180,6 +180,7 @@
         "de": "wissen",
         "lv": "saber",
         "level": "A1",
+        "id": "a1-wissen",
         "study": {
           "id": "a1-wissen-study",
           "layout": "standardStudy",

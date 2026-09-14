@@ -1,10 +1,10 @@
 {
   "batchId": "LRB-081",
-  "classification": "OWNER_COPY_PASTE_CORRECTION_7_APPLIED_AWAITING_GALA_REVIEW",
-  "generatedAt": "2026-09-14T16:23:36.358Z",
-  "sourceCommit": "0fe02305a21c67dd7e9eff23c4d5de84a3a8f5fb",
+  "classification": "OWNER_COPY_PASTE_CORRECTION_8_APPLIED_AWAITING_GALA_REVIEW",
+  "generatedAt": "2026-09-14T16:34:50.187Z",
+  "sourceCommit": "7d215b6610e4c094fc3788b223631dab178021d6",
   "branch": "cursor/lrb-081-owner-authorization-ed35",
-  "correctionRound": 7,
+  "correctionRound": 8,
   "overridesSha256": "0cfa0dd55f71d6fdc49738367290936d09ba49c951e494383d25867bd5e454b3",
   "rows": "50/50",
   "languages": {
@@ -49,7 +49,9 @@
     "NEW_LUNA_CALLS": 0,
     "INGEST_APPLY": 0,
     "SCRIPT_CHANGES": 0,
-    "pass": true
+    "pass": true,
+    "ARTIFACT_REPLACEMENTS": "6/6",
+    "APPROVED_OVERRIDE_CHANGES": 0
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-owner-view.md",
@@ -62,9 +64,10 @@
     "manifest": "reports/g2-a1-owner/manifests/LRB-081-start.json",
     "checkpoint": "reports/g2-a1-owner/parallel-checkpoint.json",
     "copyPaste7": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-7.json",
-    "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-owner-authorization-proof.json"
+    "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-081-owner-authorization-proof.json",
+    "copyPaste8": "reports/g2-a1-owner/batches-owner-review/LRB-081/LRB-081-decisions-COPY-PASTE-8.json"
   },
-  "note": "OWNER copy/paste correction #7. CONTENT_REPLACEMENTS=10/10, ROW_NOTE_REPLACEMENTS=9/9. AWAITING_OWNER_GALA_REVIEW.",
+  "note": "COPY-PASTE #8 technical repair: LRB081-0001 ownerNew.id=a1-wissen in 6 derived artifacts. Overrides unchanged.",
   "galaPass": false,
   "linguisticVerdict": null,
   "scriptChanges": 0,

@@ -1,12 +1,12 @@
 # G2/A1 LRB LRB-081 — OWNER VIEW
 
-**Correction round:** 7
+**Correction round:** 8
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
 ## Finding 1
 
 **Audit ID:** `LRB081-0001`
-**NEW:** {"de":"wissen","lv":"saber","level":"A1","study":{"id":"a1-wissen-study","layout":"standardStudy","translation":"saber","explanation":["Ideia principal: wissen significa saber um fato, uma resposta ou uma informação.","Refere-se principalmente a informações, fatos e respostas.","É usado frequentemente com respostas, dados e informações conhecidas.","Use wissen quando alguém sabe algo, como um fato, uma resposta ou uma informação."],"examples":[{"de":"Ich weiß, wo er wohnt.","lv":"Eu sei onde ele mora."},{"de":"Woher wissen Sie das?","lv":"Como sabe disso?"},{"de":"Ich weiß die Antwort.","lv":"Eu sei a resposta."}],"comparison":[{"word":"wissen","meaning":"saber um fato ou uma informação","example":"Ich weiß, wo er wohnt. – Eu sei onde ele mora."},{"word":"kennen","meaning":"conhecer uma pessoa, um lugar ou algo familiar","example":"Ich kenne die Stadt. – Eu conheço a cidade."}],"tip":["wissen = saber","Use wissen quando o contexto se referir a um fato ou a uma informação conhecida."],"important":["wissen = saber.","Para pessoas, lugares e coisas familiares, usa-se kennen, não wissen.","Wissen é usado para fatos, respostas e informações."]}}
+**NEW:** {"de":"wissen","lv":"saber","level":"A1","id":"a1-wissen","study":{"id":"a1-wissen-study","layout":"standardStudy","translation":"saber","explanation":["Ideia principal: wissen significa saber um fato, uma resposta ou uma informação.","Refere-se principalmente a informações, fatos e respostas.","É usado frequentemente com respostas, dados e informações conhecidas.","Use wissen quando alguém sabe algo, como um fato, uma resposta ou uma informação."],"examples":[{"de":"Ich weiß, wo er wohnt.","lv":"Eu sei onde ele mora."},{"de":"Woher wissen Sie das?","lv":"Como sabe disso?"},{"de":"Ich weiß die Antwort.","lv":"Eu sei a resposta."}],"comparison":[{"word":"wissen","meaning":"saber um fato ou uma informação","example":"Ich weiß, wo er wohnt. – Eu sei onde ele mora."},{"word":"kennen","meaning":"conhecer uma pessoa, um lugar ou algo familiar","example":"Ich kenne die Stadt. – Eu conheço a cidade."}],"tip":["wissen = saber","Use wissen quando o contexto se referir a um fato ou a uma informação conhecida."],"important":["wissen = saber.","Para pessoas, lugares e coisas familiares, usa-se kennen, não wissen.","Wissen é usado para fatos, respostas e informações."]}}
 **Note:** O DE wissen significa «saber»; a versão final distingue wissen de kennen e elimina os três pontos semanticamente repetidos.
 
 ## Finding 2
