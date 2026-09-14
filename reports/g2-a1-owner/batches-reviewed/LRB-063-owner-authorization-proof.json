@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-063",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-14T17:15:59.498Z",
+  "linguisticVerdict": "LRB_063_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "languages": {
+    "lb": 50
+  },
+  "unique_cards": 50,
+  "scope": "küssen..lieben (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review complete",
+  "productionSource": "data/lb/a1.js",
+  "input_csv_sha256": "373bc91c8b93a5d260be39586d79a7d8bb6f43b889ae5d8b96ed58060a64ba1f",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-063-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-063-input.csv",
+  "note": "Gala verdict LRB_063_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING (9 full composite + 41 scalar cards). LB batch 6 complete; 309 LB rows remain in 7737 pool. DE/production/Crowdin/ingest/apply unchanged."
+}

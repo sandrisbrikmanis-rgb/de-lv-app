@@ -1,0 +1,302 @@
+{
+  "g2/a1/lb|küssen|idx:321|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "kussen",
+    "owner_note": "küssen|idx:321 individuāli pārbaudīts: vācu “küssen” avota nozīmē “skūpstīt” precīzā luksemburgiešu aizvietojamā vērtība ir “kussen”."
+  },
+  "g2/a1/lb|lächeln|idx:322|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "laachen",
+    "owner_note": "lächeln|idx:322 individuāli pārbaudīts: vācu “lächeln” avota nozīmē “smaidīt” precīzā luksemburgiešu aizvietojamā vērtība ir “laachen”."
+  },
+  "g2/a1/lb|lachen|idx:323|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "laachen",
+    "owner_note": "lachen|idx:323 individuāli pārbaudīts: vācu “lachen” avota nozīmē “smieties” precīzā luksemburgiešu aizvietojamā vērtība ir “laachen”."
+  },
+  "g2/a1/lb|Honig|idx:324|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hunneg",
+    "owner_note": "Honig|idx:324 individuāli pārbaudīts: vācu “Honig” avota nozīmē “medus” precīzā luksemburgiešu aizvietojamā vērtība ir “Hunneg”."
+  },
+  "g2/a1/lb|Hose|idx:325|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Box",
+    "owner_note": "Hose|idx:325 individuāli pārbaudīts: vācu “Hose” avota nozīmē “bikses” precīzā luksemburgiešu aizvietojamā vērtība ir “Box”."
+  },
+  "g2/a1/lb|Hund|idx:327|lv|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hond",
+    "owner_note": "Hund|idx:327 individuāli pārbaudīts: vācu “Hund” avota nozīmē “suns” precīzā luksemburgiešu aizvietojamā vērtība ir “Hond”."
+  },
+  "g2/a1/lb|Hut|idx:328|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Hutt",
+    "owner_note": "Hut|idx:328 individuāli pārbaudīts: vācu “Hut” avota nozīmē “cepure” precīzā luksemburgiešu aizvietojamā vērtība ir “Hutt”."
+  },
+  "g2/a1/lb|Jahr|idx:329|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Joer",
+    "owner_note": "Jahr|idx:329 individuāli pārbaudīts: vācu “Jahr” avota nozīmē “gads” precīzā luksemburgiešu aizvietojamā vērtība ir “Joer”."
+  },
+  "g2/a1/lb|Kaffee|idx:330|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaffi",
+    "owner_note": "Kaffee|idx:330 individuāli pārbaudīts: vācu “Kaffee” avota nozīmē “kafija” precīzā luksemburgiešu aizvietojamā vērtība ir “Kaffi”."
+  },
+  "g2/a1/lb|Karotte|idx:333|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Muert",
+    "owner_note": "Karotte|idx:333 individuāli pārbaudīts: vācu “Karotte” avota nozīmē “burkāns” precīzā luksemburgiešu aizvietojamā vērtība ir “Muert”."
+  },
+  "g2/a1/lb|Kartoffel|idx:334|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Gromper",
+    "owner_note": "Kartoffel|idx:334 individuāli pārbaudīts: vācu “Kartoffel” avota nozīmē “kartupelis” precīzā luksemburgiešu aizvietojamā vērtība ir “Gromper”."
+  },
+  "g2/a1/lb|Käse|idx:335|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kéis",
+    "owner_note": "Käse|idx:335 individuāli pārbaudīts: vācu “Käse” avota nozīmē “siers” precīzā luksemburgiešu aizvietojamā vērtība ir “Kéis”."
+  },
+  "g2/a1/lb|Katze|idx:336|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kaz",
+    "owner_note": "Katze|idx:336 individuāli pārbaudīts: vācu “Katze” avota nozīmē “kaķis” precīzā luksemburgiešu aizvietojamā vērtība ir “Kaz”."
+  },
+  "g2/a1/lb|Kleid|idx:337|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kleed",
+    "owner_note": "Kleid|idx:337 individuāli pārbaudīts: vācu “Kleid” avota nozīmē “kleita” precīzā luksemburgiešu aizvietojamā vērtība ir “Kleed”."
+  },
+  "g2/a1/lb|Kleidung|idx:338|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kleeder",
+    "owner_note": "Kleidung|idx:338 individuāli pārbaudīts: vācu “Kleidung” avota nozīmē “apģērbs” precīzā luksemburgiešu aizvietojamā vērtība ir “Kleeder”."
+  },
+  "g2/a1/lb|Knoblauch|idx:339|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Knuewelek",
+    "owner_note": "Knoblauch|idx:339 individuāli pārbaudīts: vācu “Knoblauch” avota nozīmē “ķiploks” precīzā luksemburgiešu aizvietojamā vērtība ir “Knuewelek”."
+  },
+  "g2/a1/lb|Koch|idx:340|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kach",
+    "owner_note": "Koch|idx:340 individuāli pārbaudīts: vācu “Koch” avota nozīmē “pavārs” precīzā luksemburgiešu aizvietojamā vērtība ir “Kach”."
+  },
+  "g2/a1/lb|Köchin|idx:341|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kächin",
+    "owner_note": "Köchin|idx:341 individuāli pārbaudīts: vācu “Köchin” avota nozīmē “pavāre” precīzā luksemburgiešu aizvietojamā vērtība ir “Kächin”."
+  },
+  "g2/a1/lb|Kopf|idx:342|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kapp",
+    "owner_note": "Kopf|idx:342 individuāli pārbaudīts: vācu “Kopf” avota nozīmē “galva” precīzā luksemburgiešu aizvietojamā vērtība ir “Kapp”."
+  },
+  "g2/a1/lb|Küche|idx:344|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kichen",
+    "owner_note": "Küche|idx:344 individuāli pārbaudīts: vācu “Küche” avota nozīmē “virtuve” precīzā luksemburgiešu aizvietojamā vērtība ir “Kichen”."
+  },
+  "g2/a1/lb|Kuchen|idx:345|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuch",
+    "owner_note": "Kuchen|idx:345 individuāli pārbaudīts: vācu “Kuchen” avota nozīmē “kūka” precīzā luksemburgiešu aizvietojamā vērtība ir “Kuch”."
+  },
+  "g2/a1/lb|Kuh|idx:346|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kou",
+    "owner_note": "Kuh|idx:346 individuāli pārbaudīts: vācu “Kuh” avota nozīmē “govs” precīzā luksemburgiešu aizvietojamā vērtība ir “Kou”."
+  },
+  "g2/a1/lb|Kühlschrank|idx:347|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Frigo",
+    "owner_note": "Kühlschrank|idx:347 individuāli pārbaudīts: vācu “Kühlschrank” avota nozīmē “ledusskapis” precīzā luksemburgiešu aizvietojamā vērtība ir “Frigo”."
+  },
+  "g2/a1/lb|Kuss|idx:348|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Kuss",
+    "owner_note": "Kuss|idx:348 individuāli pārbaudīts: vācu “Kuss” avota nozīmē “skūpsts” precīzā luksemburgiešu aizvietojamā vērtība ir “Kuss”."
+  },
+  "g2/a1/lb|Laden|idx:349|study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Buttek\",\"study.translation\":\"Buttek\",\"study.explanation\":\"[\\\"Haaptiddi: der Laden mat groussem Buschtaf a mam Artikel der ass e Substantiv a bedeit e klenge Buttek.\\\",\\\"laden mat klengem Buschtaf ass e Verb a bedeit lueden oder oplueden.\\\",\\\"der Laden bezeechent am Alldag dacks e klenge Buttek: im Laden einkaufen = am Buttek akafen.\\\",\\\"D’Pluralform ass die Läden.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich gehe in den Laden.\\\",\\\"lv\\\":\\\"Ech ginn an de Buttek.\\\"},{\\\"de\\\":\\\"Der Laden ist geschlossen.\\\",\\\"lv\\\":\\\"De Buttek ass zou.\\\"},{\\\"de\\\":\\\"Es gibt viele Läden hier.\\\",\\\"lv\\\":\\\"Et gi vill Butteker hei.\\\"},{\\\"de\\\":\\\"Ich muss mein Handy laden.\\\",\\\"lv\\\":\\\"Ech muss mäin Handy oplueden.\\\"}]\",\"study.tip\":\"[\\\"der Laden mat groussem Buschtaf ass e Substantiv: Buttek.\\\",\\\"laden mat klengem Buschtaf ass e Verb: lueden oder oplueden.\\\"]\",\"study.important\":\"[\\\"der Laden = Buttek.\\\",\\\"laden = lueden oder oplueden.\\\",\\\"D’Pluralform ass die Läden.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Laden\\\",\\\"laden\\\"],\\\"purple\\\":[\\\"Buttek\\\",\\\"oplueden\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Laden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Buttek\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Buttek\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Läden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Butteker\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laden\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"oplueden\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"der Laden\\\"]},{\\\"purple\\\":[\\\"laden\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"der Laden\\\"]},{\\\"purple\\\":[\\\"laden\\\"]},{\\\"purple\\\":[\\\"Pluralform\\\"]}]}\"}",
+    "owner_note": "Pilnā Laden|idx:349 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Lampe|idx:350|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Luucht",
+    "owner_note": "Lampe|idx:350 individuāli pārbaudīts: vācu “Lampe” avota nozīmē “lampa” precīzā luksemburgiešu aizvietojamā vērtība ir “Luucht”."
+  },
+  "g2/a1/lb|Land|idx:351|study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Land • ländlech Géigend\",\"study.translation\":\"Land • ländlech Géigend\",\"study.explanation\":\"[\\\"Haaptiddi: das Land bedeit meeschtens e Land als Staat oder d’Géigend baussent der Stad.\\\",\\\"Wann et ëm Däitschland, Lettland oder en anert Territoire mat Grenze geet, bedeit Land e Staat oder e Land.\\\",\\\"Wann et ëm d’Géigend am Géigesaz zu der Stad geet, bedeit Land d’Land oder eng ländlech Géigend.\\\",\\\"De Kontext weist, ob e Staat, d’Land oder eng ländlech Géigend gemengt ass.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Deutschland ist ein schönes Land.\\\",\\\"lv\\\":\\\"Däitschland ass e schéint Land.\\\"},{\\\"de\\\":\\\"Ich komme aus einem kleinen Land.\\\",\\\"lv\\\":\\\"Ech kommen aus engem klenge Land.\\\"},{\\\"de\\\":\\\"Wir fahren aufs Land.\\\",\\\"lv\\\":\\\"Mir fueren op d’Land.\\\"},{\\\"de\\\":\\\"Auf dem Land ist es ruhig.\\\",\\\"lv\\\":\\\"Um Land ass et roueg.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"das Land\\\",\\\"meaning\\\":\\\"Land / Staat / ländlech Géigend\\\",\\\"example\\\":\\\"Deutschland ist ein Land.\\\"},{\\\"word\\\":\\\"die Stadt\\\",\\\"meaning\\\":\\\"Stad\\\",\\\"example\\\":\\\"Ich wohne in der Stadt.\\\"},{\\\"word\\\":\\\"das Dorf\\\",\\\"meaning\\\":\\\"Duerf\\\",\\\"example\\\":\\\"Er lebt in einem Dorf.\\\"},{\\\"word\\\":\\\"die Erde\\\",\\\"meaning\\\":\\\"Äerd / Planéit\\\",\\\"example\\\":\\\"Die Erde ist rund.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: Staat oder Territoire → das Land; Stad → die Stadt.\\\"}\",\"study.important\":\"[\\\"aufs Land bedeit op d’Land, net an en anert Land.\\\",\\\"das Land ass net dat selwecht wéi die Stadt.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Land\\\"],\\\"purple\\\":[\\\"Land\\\",\\\"ländlech Géigend\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Land\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Land\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Land\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Land\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"aufs Land\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op d’Land\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Auf dem Land\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Um Land\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"das Land\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Land\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"die Stadt\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Stad\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"das Dorf\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Duerf\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"die Erde\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Äerd\\\"]},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{\\\"purple\\\":[\\\"Denk\\\"]}},\\\"important\\\":[{\\\"purple\\\":[\\\"aufs Land\\\"]},{\\\"purple\\\":[\\\"das Land\\\"]}]}\"}",
+    "owner_note": "Pilnā Land|idx:351 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|lang|idx:352|study.examples|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"laang\",\"study.translation\":\"laang\",\"study.explanation\":\"[\\\"Haaptiddi: lang bedeit bei enger Distanz oder enger Gréisst laang an och bei enger Dauer laang.\\\",\\\"Bei enger Gréisst oder Distanz bedeit lang laang: ein langer Tisch = e laangen Dësch.\\\",\\\"Bei enger Zäitdauer bedeit lang och laang: ein langer Tag = e laangen Dag.\\\",\\\"Am Ausdrock den ganzen Tag lang bedeit et de ganzen Dag laang.\\\",\\\"Am Lëtzebuergesche gëtt fir béid Haaptbedeitungen d’Wuert laang benotzt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Tisch ist sehr lang.\\\",\\\"lv\\\":\\\"Den Dësch ass ganz laang.\\\"},{\\\"de\\\":\\\"Der Film war sehr lang.\\\",\\\"lv\\\":\\\"De Film war ganz laang.\\\"},{\\\"de\\\":\\\"Wie lange dauert es?\\\",\\\"lv\\\":\\\"Wéi laang dauert et?\\\"},{\\\"de\\\":\\\"Sie hat lange Haare.\\\",\\\"lv\\\":\\\"Si huet laang Hoer.\\\"},{\\\"de\\\":\\\"Ich warte schon lange.\\\",\\\"lv\\\":\\\"Ech waarden elo scho laang.\\\"},{\\\"de\\\":\\\"Den ganzen Tag lang.\\\",\\\"lv\\\":\\\"De ganzen Dag laang.\\\"}]\",\"study.tip\":\"[\\\"Bei enger Gréisst oder Distanz, zum Beispill Hoer, Wee oder Dësch, steet laang.\\\",\\\"Bei enger Zäitdauer, zum Beispill Dag, Waarden oder Film, steet och laang.\\\"]\",\"study.important\":\"[\\\"lang = laang bei enger Gréisst oder enger Zäitdauer.\\\",\\\"wie lange = wéi laang; et freet no enger Dauer.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"lang\\\"],\\\"purple\\\":[\\\"laang\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"lang\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"laang\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lang\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"laang\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lange\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"laang\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lange\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"laang\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lange\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"laang\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lang\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"laang\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"Gréisst\\\"]},{\\\"purple\\\":[\\\"Zäitdauer\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"lang\\\"]},{\\\"purple\\\":[\\\"wie lange\\\"]}]}\"}",
+    "owner_note": "Pilnā lang|idx:352 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|lange|idx:353|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "laang",
+    "owner_note": "lange|idx:353 individuāli pārbaudīts: vācu “lange” avota nozīmē “ilgi” precīzā luksemburgiešu aizvietojamā vērtība ir “laang”."
+  },
+  "g2/a1/lb|langsam|idx:354|lv|ORTHOGRAPHY|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lues",
+    "owner_note": "langsam|idx:354 individuāli pārbaudīts: vācu “langsam” avota nozīmē “lēns” precīzā luksemburgiešu aizvietojamā vērtība ir “lues”."
+  },
+  "g2/a1/lb|langweilig|idx:355|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "langweileg",
+    "owner_note": "langweilig|idx:355 individuāli pārbaudīts: vācu “langweilig” avota nozīmē “garlaicīgs” precīzā luksemburgiešu aizvietojamā vērtība ir “langweileg”."
+  },
+  "g2/a1/lb|lassen|idx:356|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"loossen\",\"study.translation\":\"loossen\",\"study.explanation\":\"[\\\"Haaptiddi: lassen bedeit eppes loossen oder engem erlaben, eppes ze maachen.\\\",\\\"Wann eppes op enger Plaz bleift, gëtt lassen mat loossen ausgedréckt.\\\",\\\"Wann een enger Persoun d’Erlaabnis gëtt, gëtt och loossen benotzt.\\\",\\\"Den Ausdrock Lass mich in Ruhe! bedeit Looss mech a Rou!\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich lasse die Tasche hier.\\\",\\\"lv\\\":\\\"Ech loossen d’Täsch hei.\\\"},{\\\"de\\\":\\\"Lass das bitte auf dem Tisch.\\\",\\\"lv\\\":\\\"Looss dat wgl. um Dësch.\\\"},{\\\"de\\\":\\\"Meine Eltern lassen mich gehen.\\\",\\\"lv\\\":\\\"Meng Eltere loosse mech goen.\\\"},{\\\"de\\\":\\\"Lass mich in Ruhe!\\\",\\\"lv\\\":\\\"Looss mech a Rou!\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"lassen\\\",\\\"meaning\\\":\\\"loossen\\\",\\\"example\\\":\\\"Ich lasse das hier.\\\"},{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"bleiwen\\\",\\\"example\\\":\\\"Ich bleibe hier.\\\"},{\\\"word\\\":\\\"erlauben\\\",\\\"meaning\\\":\\\"erlaben\\\",\\\"example\\\":\\\"Sie erlaubt mir das.\\\"},{\\\"word\\\":\\\"geben\\\",\\\"meaning\\\":\\\"ginn\\\",\\\"example\\\":\\\"Gib mir das Buch.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: eppes bleift oder eng Handlung gëtt erlaabt → lassen beziehungsweise loossen.\\\"}\",\"study.important\":\"[\\\"lassen bedeit net nëmmen eppes op enger Plaz loossen; et kann och enger Persoun eppes erlaben.\\\",\\\"Lass mich in Ruhe! ass eng heefeg Ausdrockweis: Looss mech a Rou!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"lassen\\\"],\\\"purple\\\":[\\\"loossen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"lasse\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"loossen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Lass\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Looss\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"lassen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"loosse\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Lass\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Looss\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"lassen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"loossen\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"bleiben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"bleiwen\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"erlauben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"erlaben\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"geben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ginn\\\"]},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{\\\"purple\\\":[\\\"Denk\\\"]}},\\\"important\\\":[{\\\"purple\\\":[\\\"lassen\\\"]},{\\\"purple\\\":[\\\"Lass mich in Ruhe\\\"]}]}\"}",
+    "owner_note": "Pilnā lassen|idx:356 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|laufen|idx:357|study.explanation|CORRUPTED_CONTENT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"lafen • funktionéieren\",\"study.translation\":\"lafen • funktionéieren\",\"study.explanation\":\"[\\\"Haaptiddi: laufen bedeit bei enger Persoun oder engem Déier lafen; bei engem Film oder enger Maschinn kann et lafen oder funktionéieren bedeiten.\\\",\\\"Bei enger Persoun oder engem Déier beschreift laufen dacks eng séier Beweegung zu Fouss.\\\",\\\"Bei engem Film, enger Maschinn oder engem Programm weist laufen, datt eppes leeft oder funktionéiert.\\\",\\\"Fir Beweegung zu Fouss ass den Haaptkontrast gehen = goen an laufen = lafen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er läuft sehr schnell.\\\",\\\"lv\\\":\\\"Hie leeft ganz séier.\\\"},{\\\"de\\\":\\\"Die Kinder laufen im Park.\\\",\\\"lv\\\":\\\"D’Kanner lafen am Park.\\\"},{\\\"de\\\":\\\"Der Film läuft schon.\\\",\\\"lv\\\":\\\"De Film leeft schonn.\\\"},{\\\"de\\\":\\\"Die Maschine läuft gut.\\\",\\\"lv\\\":\\\"D’Maschinn leeft gutt.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"laufen\\\",\\\"meaning\\\":\\\"lafen / lafen oder funktionéieren\\\",\\\"example\\\":\\\"Er läuft schnell.\\\"},{\\\"word\\\":\\\"gehen\\\",\\\"meaning\\\":\\\"goen\\\",\\\"example\\\":\\\"Ich gehe nach Hause.\\\"},{\\\"word\\\":\\\"fahren\\\",\\\"meaning\\\":\\\"fueren\\\",\\\"example\\\":\\\"Ich fahre mit dem Bus.\\\"},{\\\"word\\\":\\\"funktionieren\\\",\\\"meaning\\\":\\\"funktionéieren\\\",\\\"example\\\":\\\"Das funktioniert gut.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: séier zu Fouss → laufen; mat engem Transportmëttel → fahren.\\\"}\",\"study.important\":\"[\\\"laufen bedeit net nëmmen lafen; bei engem Film oder engem Apparat kann et och lafen oder funktionéieren heeschen.\\\",\\\"Ich laufe beschreift eng Beweegung zu Fouss, net eng Faart.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"laufen\\\"],\\\"purple\\\":[\\\"lafen\\\",\\\"funktionéieren\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"läuft\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"leeft\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laufen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"lafen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"läuft\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"leeft\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"läuft\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"leeft\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"laufen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"lafen\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"gehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"goen\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"fahren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"fueren\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"funktionieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"funktionéieren\\\"]},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{\\\"purple\\\":[\\\"Denk\\\"]}},\\\"important\\\":[{\\\"purple\\\":[\\\"laufen\\\"]},{\\\"purple\\\":[\\\"Ich laufe\\\"]}]}\"}",
+    "owner_note": "Pilnā laufen|idx:357 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|laut|idx:358|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"haart\",\"study.translation\":\"haart\",\"study.explanation\":\"[\\\"Haaptiddi: laut mat klengem Buschtaf ass en Adjektiv oder Adverb a beschreift eng héich Lautstäerkt.\\\",\\\"laut beschreift, datt eng Musek, eng Stëmm oder en Toun haart ass.\\\",\\\"Als Adverb weist laut, datt een haart schwätzt.\\\",\\\"der Laut mat groussem Buschtaf a mam Artikel der ass e Substantiv a bedeit en Toun oder e Sproochlaut.\\\",\\\"D’Pluralform vum Substantiv ass die Laute.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Die Musik ist laut.\\\",\\\"lv\\\":\\\"D’Musek ass haart.\\\"},{\\\"de\\\":\\\"Die Musik ist laut.\\\",\\\"lv\\\":\\\"D’Musek ass haart.\\\"},{\\\"de\\\":\\\"Sprich nicht so laut!\\\",\\\"lv\\\":\\\"Schwätz net esou haart!\\\"},{\\\"de\\\":\\\"Das ist sehr laut.\\\",\\\"lv\\\":\\\"Dat ass ganz haart.\\\"},{\\\"de\\\":\\\"Der Laut ist schön.\\\",\\\"lv\\\":\\\"Den Toun ass schéin.\\\"},{\\\"de\\\":\\\"Ich höre einen Laut.\\\",\\\"lv\\\":\\\"Ech héieren en Toun.\\\"}]\",\"study.tip\":\"[\\\"laut mat klengem Buschtaf = haart; et ass en Adjektiv oder Adverb.\\\",\\\"der Laut mat groussem Buschtaf = Toun; et ass e Substantiv.\\\"]\",\"study.important\":\"[\\\"laut ouni Artikel beschreift d’Lautstäerkt.\\\",\\\"der Laut mat Artikel a groussem Buschtaf bedeit en Toun.\\\",\\\"D’Pluralform ass die Laute.\\\",\\\"Falsch: Der Laut ist sehr. Richteg: Das ist sehr laut.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"laut\\\",\\\"Laut\\\"],\\\"purple\\\":[\\\"haart\\\",\\\"Toun\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"haart\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"haart\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"haart\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"haart\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Toun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Toun\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"laut\\\"]},{\\\"purple\\\":[\\\"der Laut\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"laut\\\"]},{\\\"purple\\\":[\\\"der Laut\\\"]},{\\\"purple\\\":[\\\"Pluralform\\\"]},{\\\"purple\\\":[\\\"Falsch\\\"]}]}\"}",
+    "owner_note": "Pilnā laut|idx:358 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Laut|idx:359|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Toun\",\"study.translation\":\"Toun\",\"study.explanation\":\"[\\\"Haaptiddi: der Laut mat groussem Buschtaf a mam Artikel der ass e Substantiv a bedeit en Toun, e Signal oder e Sproochlaut.\\\",\\\"der Laut bezeechent en héierbaren Toun als Saach.\\\",\\\"laut mat klengem Buschtaf ass dogéint en Adjektiv oder Adverb a bedeit haart.\\\",\\\"De Kontext an de grousse Buschtaf ënnerscheeden d'Substantiv der Laut vum Adjektiv laut.\\\",\\\"D’Pluralform ass die Laute.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Der Laut ist schön.\\\",\\\"lv\\\":\\\"Den Toun ass schéin.\\\"},{\\\"de\\\":\\\"Die Musik ist laut.\\\",\\\"lv\\\":\\\"D’Musek ass haart.\\\"},{\\\"de\\\":\\\"Sprich nicht so laut!\\\",\\\"lv\\\":\\\"Schwätz net esou haart!\\\"},{\\\"de\\\":\\\"Das ist sehr laut.\\\",\\\"lv\\\":\\\"Dat ass ganz haart.\\\"},{\\\"de\\\":\\\"Der Laut ist schön.\\\",\\\"lv\\\":\\\"Den Toun ass schéin.\\\"},{\\\"de\\\":\\\"Ich höre einen Laut.\\\",\\\"lv\\\":\\\"Ech héieren en Toun.\\\"}]\",\"study.tip\":\"[\\\"laut mat klengem Buschtaf = haart; et ass en Adjektiv oder Adverb.\\\",\\\"der Laut mat groussem Buschtaf = Toun; et ass e Substantiv.\\\"]\",\"study.important\":\"[\\\"laut ouni Artikel beschreift d’Lautstäerkt.\\\",\\\"der Laut mat Artikel a groussem Buschtaf bedeit en Toun.\\\",\\\"D’Pluralform ass die Laute.\\\",\\\"Falsch: Der Laut ist sehr. Richteg: Das ist sehr laut.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Laut\\\",\\\"laut\\\"],\\\"purple\\\":[\\\"Toun\\\",\\\"haart\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Toun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"haart\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"haart\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"haart\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Toun\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Laut\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Toun\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"laut\\\"]},{\\\"purple\\\":[\\\"der Laut\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"laut\\\"]},{\\\"purple\\\":[\\\"der Laut\\\"]},{\\\"purple\\\":[\\\"Pluralform\\\"]},{\\\"purple\\\":[\\\"Falsch\\\"]}]}\"}",
+    "owner_note": "Pilnā Laut|idx:359 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|leben|idx:360|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "liewen",
+    "owner_note": "leben|idx:360 individuāli pārbaudīts: vācu “leben” avota nozīmē “dzīvot” precīzā luksemburgiešu aizvietojamā vērtība ir “liewen”."
+  },
+  "g2/a1/lb|lecker|idx:361|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lecker",
+    "owner_note": "lecker|idx:361 individuāli pārbaudīts: vācu “lecker” avota nozīmē “gards” precīzā luksemburgiešu aizvietojamā vērtība ir “lecker”."
+  },
+  "g2/a1/lb|leer|idx:362|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "eidel",
+    "owner_note": "leer|idx:362 individuāli pārbaudīts: vācu “leer” avota nozīmē “tukšs” precīzā luksemburgiešu aizvietojamā vērtība ir “eidel”."
+  },
+  "g2/a1/lb|legen|idx:363|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"leeën\",\"study.translation\":\"leeën\",\"study.explanation\":\"[\\\"Haaptiddi: legen bedeit, eppes an eng horizontal Positioun ze bréngen oder op eng Fläch ze leeën.\\\",\\\"legen gëtt benotzt, wann eng Persoun eng Saach beweegt an se op en Dësch, e Bett oder eng aner Fläch leet.\\\",\\\"Dat ënnerscheet sech vu liegen: liegen bedeit, datt eppes schonn an enger horizontaler Positioun ass.\\\",\\\"Den Haaptkontrast ass: legen = leeën; liegen = leien.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich lege das Buch auf den Tisch.\\\",\\\"lv\\\":\\\"Ech leeën d’Buch op den Dësch.\\\"},{\\\"de\\\":\\\"Leg den Schlüssel hierhin.\\\",\\\"lv\\\":\\\"Lee de Schlëssel heihinner.\\\"},{\\\"de\\\":\\\"Sie legt das Kind ins Bett.\\\",\\\"lv\\\":\\\"Si leet d’Kand an d’Bett.\\\"},{\\\"de\\\":\\\"Das Buch liegt auf dem Tisch.\\\",\\\"lv\\\":\\\"D’Buch läit um Dësch.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"legen\\\",\\\"meaning\\\":\\\"leeën\\\",\\\"example\\\":\\\"Ich lege das Buch auf den Tisch.\\\"},{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"leien\\\",\\\"example\\\":\\\"Das Buch liegt auf dem Tisch.\\\"},{\\\"word\\\":\\\"stellen\\\",\\\"meaning\\\":\\\"stellen\\\",\\\"example\\\":\\\"Ich stelle die Flasche auf den Tisch.\\\"},{\\\"word\\\":\\\"setzen\\\",\\\"meaning\\\":\\\"setzen oder sech setzen\\\",\\\"example\\\":\\\"Ich setze mich.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: du beweegs eppes a lees et néier → legen; d’Saach ass schonn do → liegen.\\\"}\",\"study.important\":\"[\\\"legen a liegen sinn net dat selwecht.\\\",\\\"Ich lege das Buch = Ech leeën d’Buch. Das Buch liegt = D’Buch läit.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"legen\\\",\\\"liegen\\\"],\\\"purple\\\":[\\\"leeën\\\",\\\"leien\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"lege\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"leeën\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Leg\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Lee\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"legt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"leet\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"läit\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"legen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"leeën\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"liegen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"leien\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"stellen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"stellen\\\"]},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"setzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"setzen\\\"]},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{\\\"purple\\\":[\\\"Denk\\\"]}},\\\"important\\\":[{\\\"purple\\\":[\\\"legen\\\"]},{\\\"purple\\\":[\\\"Ich lege\\\"]}]}\"}",
+    "owner_note": "Pilnā legen|idx:363 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Lehrer|idx:364|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Enseignant",
+    "owner_note": "Lehrer|idx:364 individuāli pārbaudīts: vācu “Lehrer” avota nozīmē “skolotājs” precīzā luksemburgiešu aizvietojamā vērtība ir “Enseignant”."
+  },
+  "g2/a1/lb|Lehrerin|idx:365|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Enseignante",
+    "owner_note": "Lehrerin|idx:365 individuāli pārbaudīts: vācu “Lehrerin” avota nozīmē “skolotāja” precīzā luksemburgiešu aizvietojamā vērtība ir “Enseignante”."
+  },
+  "g2/a1/lb|leicht|idx:366|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "liicht",
+    "owner_note": "leicht|idx:366 individuāli pārbaudīts: vācu “leicht” avota nozīmē “viegls” precīzā luksemburgiešu aizvietojamā vērtība ir “liicht”."
+  },
+  "g2/a1/lb|leider|idx:367|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "leider",
+    "owner_note": "leider|idx:367 individuāli pārbaudīts: vācu “leider” avota nozīmē “diemžēl” precīzā luksemburgiešu aizvietojamā vērtība ir “leider”."
+  },
+  "g2/a1/lb|leise|idx:368|study|TARGET_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"lues • roueg\",\"study.translation\":\"lues • roueg\",\"study.explanation\":\"[\\\"Haaptiddi: leise bedeit mat niddreger Lautstäerkt oder roueg.\\\",\\\"Bei Musek, enger Stëmm oder engem Toun gëtt leise dacks mat lues ausgedréckt.\\\",\\\"Bei enger Persoun oder engem Verhalen kann leise och roueg bedeiten.\\\",\\\"Als Adverb beschreift leise, datt een lues schwätzt.\\\",\\\"Net mat langsam verwiesselen: leise bezitt sech op d’Lautstäerkt; langsam op d’Vitesse.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Bitte sei leise.\\\",\\\"lv\\\":\\\"Sief wgl. roueg.\\\"},{\\\"de\\\":\\\"Bitte sei leise.\\\",\\\"lv\\\":\\\"Sief wgl. roueg.\\\"},{\\\"de\\\":\\\"Die Musik ist leise.\\\",\\\"lv\\\":\\\"D’Musek ass lues.\\\"},{\\\"de\\\":\\\"Sprich bitte leise.\\\",\\\"lv\\\":\\\"Schwätz wgl. lues.\\\"}]\",\"study.tip\":\"[\\\"Bei enger Persoun kann leise roueg bedeiten.\\\",\\\"Bei Musek, enger Stëmm oder engem Toun bedeit leise dacks lues.\\\"]\",\"study.important\":\"[\\\"leise = lues oder roueg bei der Lautstäerkt.\\\",\\\"langsam = lues bei der Vitesse.\\\",\\\"De Kontext weist, ob roueg oder lues méi passend ass.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"leise\\\",\\\"langsam\\\"],\\\"purple\\\":[\\\"lues\\\",\\\"roueg\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"leise\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"roueg\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"leise\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"roueg\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"leise\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"lues\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"leise\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"lues\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"Persoun\\\"]},{\\\"purple\\\":[\\\"Musek\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"leise\\\"]},{\\\"purple\\\":[\\\"langsam\\\"]},{\\\"purple\\\":[\\\"Kontext\\\"]}]}\"}",
+    "owner_note": "Pilnā leise|idx:368 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, mācību kontrasti, study.id un layout, bet target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|lesen|idx:369|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "liesen",
+    "owner_note": "lesen|idx:369 individuāli pārbaudīts: vācu “lesen” avota nozīmē “lasīt” precīzā luksemburgiešu aizvietojamā vērtība ir “liesen”."
+  },
+  "g2/a1/lb|letzte|idx:370|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lescht",
+    "owner_note": "letzte|idx:370 individuāli pārbaudīts: vācu “letzte” avota nozīmē “pēdējais” precīzā luksemburgiešu aizvietojamā vērtība ir “lescht”."
+  },
+  "g2/a1/lb|Leute|idx:371|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Leit",
+    "owner_note": "Leute|idx:371 individuāli pārbaudīts: vācu “Leute” avota nozīmē “ļaudis” precīzā luksemburgiešu aizvietojamā vērtība ir “Leit”."
+  },
+  "g2/a1/lb|Licht|idx:372|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Liicht",
+    "owner_note": "Licht|idx:372 individuāli pārbaudīts: vācu “Licht” avota nozīmē “gaisma” precīzā luksemburgiešu aizvietojamā vērtība ir “Liicht”."
+  },
+  "g2/a1/lb|lieb|idx:373|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "léif",
+    "owner_note": "lieb|idx:373 individuāli pārbaudīts: vācu “lieb” avota nozīmē “mīļš” precīzā luksemburgiešu aizvietojamā vērtība ir “léif”."
+  },
+  "g2/a1/lb|lieben|idx:375|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "gär hunn",
+    "owner_note": "lieben|idx:375 individuāli pārbaudīts: vācu “lieben” avota nozīmē “mīlēt” precīzā luksemburgiešu aizvietojamā vērtība ir “gär hunn”."
+  }
+}
