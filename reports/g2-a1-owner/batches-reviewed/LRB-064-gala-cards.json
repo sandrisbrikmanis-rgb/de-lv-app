@@ -1,0 +1,2430 @@
+{
+  "batch_id": "LRB-064",
+  "language": "lb",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "9befb369c7968c0589547cab22859dbc6a5e489529db2afdae76db5c8420d740",
+  "full_card_replacements": 10,
+  "full_card_object_ids": [
+    "Liter|idx:382",
+    "Mal|idx:390",
+    "Mann|idx:394",
+    "Morgen|idx:418",
+    "liegen|idx:377",
+    "machen|idx:386",
+    "mit|idx:408",
+    "morgen|idx:417",
+    "mögen|idx:413",
+    "nach|idx:426"
+  ],
+  "classification": "LRB_064_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "Lied|idx:376",
+      "de_reference": "Lied",
+      "idx": 376,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Lied",
+        "de_article": "das",
+        "de_plural": "die Lieder",
+        "level": "A1",
+        "lv": "Lidd"
+      }
+    },
+    {
+      "card_object_id": "liegen|idx:377",
+      "de_reference": "liegen",
+      "idx": 377,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "liegen",
+        "level": "A1",
+        "lv": "leien • sech befannen",
+        "study": {
+          "id": "a1-liegen",
+          "layout": "standardStudy",
+          "translation": "leien • sech befannen",
+          "explanation": [
+            "Haaptiddi: liegen bedeit horizontal leien oder sech op enger Plaz befannen.",
+            "Bei enger Persoun bedeit liegen dacks leien.",
+            "Bei enger Saach weist liegen, wou se sech befënnt.",
+            "Et ënnerscheet sech vu legen, dat bedeit, eppes iergendwouhin ze leeën."
+          ],
+          "examples": [
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "D’Buch läit um Dësch."
+            },
+            {
+              "de": "Mein Handy liegt im Auto.",
+              "lv": "Mäin Handy läit am Auto."
+            },
+            {
+              "de": "Er liegt im Bett.",
+              "lv": "Hie läit am Bett."
+            },
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Ech leeën d’Buch op den Dësch."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "liegen",
+              "meaning": "leien / sech befannen",
+              "example": "Das Buch liegt hier."
+            },
+            {
+              "word": "legen",
+              "meaning": "leeën",
+              "example": "Ich lege das Buch hierhin."
+            },
+            {
+              "word": "stehen",
+              "meaning": "stoen / oprecht sinn",
+              "example": "Die Flasche steht auf dem Tisch."
+            },
+            {
+              "word": "sein",
+              "meaning": "sinn",
+              "example": "Ich bin hier."
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: d’Saach ass schonn op der Plaz → liegen; du lees se dohinner → legen."
+          },
+          "important": [
+            "liegen weist en Zoustand oder eng Lag un.",
+            "legen weist eng Handlung un: een leet eppes iergendwouhin."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "liegen",
+                "legen"
+              ],
+              "purple": [
+                "leien",
+                "befannen",
+                "leeën"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "läit"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "läit"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "läit"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "lege"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "leeën"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "leien",
+                    "sech befannen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "legen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "leeën"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "lege"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stoen"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "steht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sinn"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bin"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "liegen"
+                ],
+                "red": [
+                  "legen"
+                ],
+                "purple": [
+                  "schonn op der Plaz"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "liegen"
+                ],
+                "purple": [
+                  "Zoustand",
+                  "Lag"
+                ]
+              },
+              {
+                "red": [
+                  "legen"
+                ],
+                "purple": [
+                  "Handlung"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Limonade|idx:378",
+      "de_reference": "Limonade",
+      "idx": 378,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Limonade",
+        "de_article": "die",
+        "de_plural": "die Limonaden",
+        "level": "A1",
+        "lv": "Limonad"
+      }
+    },
+    {
+      "card_object_id": "Lineal|idx:379",
+      "de_reference": "Lineal",
+      "idx": 379,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Lineal",
+        "de_article": "das",
+        "de_plural": "die Lineale",
+        "level": "A1",
+        "lv": "Lineal"
+      }
+    },
+    {
+      "card_object_id": "Liste|idx:381",
+      "de_reference": "Liste",
+      "idx": 381,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Liste",
+        "de_article": "die",
+        "de_plural": "die Listen",
+        "level": "A1",
+        "lv": "Lëscht"
+      }
+    },
+    {
+      "card_object_id": "Liter|idx:382",
+      "de_reference": "Liter",
+      "idx": 382,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Liter",
+        "de_article": "der",
+        "de_plural": "die Liter",
+        "level": "A1",
+        "lv": "Liter",
+        "study": {
+          "id": "a1-liter",
+          "layout": "standardStudy",
+          "translation": "Liter",
+          "explanation": "An Däitschland seet een normalerweis „der Liter“, an Éisträich an an der Schwäiz héiert een och „das Liter“. D’Pluralform bleift onverännert: „die Liter“.",
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Liter"
+              ],
+              "blue": [
+                "das Liter"
+              ],
+              "purple": [
+                "die Liter"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Löffel|idx:383",
+      "de_reference": "Löffel",
+      "idx": 383,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Löffel",
+        "de_article": "der",
+        "de_plural": "die Löffel",
+        "level": "A1",
+        "lv": "Läffel"
+      }
+    },
+    {
+      "card_object_id": "Luft|idx:384",
+      "de_reference": "Luft",
+      "idx": 384,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Luft",
+        "de_article": "die",
+        "de_plural": "die Lüfte",
+        "level": "A1",
+        "lv": "Loft"
+      }
+    },
+    {
+      "card_object_id": "lustig|idx:385",
+      "de_reference": "lustig",
+      "idx": 385,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "lustig",
+        "level": "A1",
+        "lv": "lëschteg"
+      }
+    },
+    {
+      "card_object_id": "machen|idx:386",
+      "de_reference": "machen",
+      "idx": 386,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "machen",
+        "level": "A1",
+        "lv": "maachen",
+        "study": {
+          "id": "a1-machen",
+          "layout": "standardStudy",
+          "translation": "maachen",
+          "explanation": [
+            "Haaptiddi: machen ass e ganz heefegt däitscht Verb a bedeit meeschtens maachen.",
+            "Bei enger allgemenger Handlung gëtt machen dacks mat maachen iwwersat.",
+            "Wann eppes hiergestallt oder preparéiert gëtt, passt am Lëtzebuergeschen och maachen.",
+            "A ville feste Wendunge gëtt machen natierlech nom Kontext iwwersat an net Wuert fir Wuert."
+          ],
+          "examples": [
+            {
+              "de": "Was machst du?",
+              "lv": "Wat méchs du?"
+            },
+            {
+              "de": "Ich mache Hausaufgaben.",
+              "lv": "Ech maachen d’Hausaufgaben."
+            },
+            {
+              "de": "Wir machen Pizza.",
+              "lv": "Mir maachen eng Pizza."
+            },
+            {
+              "de": "Das macht Spaß.",
+              "lv": "Dat mécht Spaass."
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: Was machst du? = Wat méchs du?"
+          },
+          "important": [
+            "machen ass e breet Verb; am Lëtzebuergesche gëtt et dacks nom Kontext mat maachen ausgedréckt.",
+            "Das macht Spaß bedeit „Dat mécht Spaass“ an ass eng fest Wendung."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "machen"
+              ],
+              "purple": [
+                "maachen"
+              ],
+              "green": [
+                "Wendunge"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "machst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "méchs"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mache"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "maachen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "machen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "maachen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "macht Spaß"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mécht Spaass"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Was machst du"
+                ],
+                "purple": [
+                  "Wat méchs du"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "machen"
+                ],
+                "purple": [
+                  "maachen"
+                ]
+              },
+              {
+                "blue": [
+                  "Das macht Spaß"
+                ],
+                "purple": [
+                  "Dat mécht Spaass"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Mädchen|idx:387",
+      "de_reference": "Mädchen",
+      "idx": 387,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mädchen",
+        "de_article": "das",
+        "de_plural": "die Mädchen",
+        "level": "A1",
+        "lv": "Meedchen"
+      }
+    },
+    {
+      "card_object_id": "Mahlzeit|idx:388",
+      "de_reference": "Mahlzeit",
+      "idx": 388,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mahlzeit",
+        "de_article": "die",
+        "de_plural": "die Mahlzeiten",
+        "level": "A1",
+        "lv": "Moolzecht"
+      }
+    },
+    {
+      "card_object_id": "Mai|idx:389",
+      "de_reference": "Mai",
+      "idx": 389,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mai",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Mee"
+      }
+    },
+    {
+      "card_object_id": "Mal|idx:390",
+      "de_reference": "Mal",
+      "idx": 390,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Mal",
+        "de_article": "das",
+        "de_plural": "die Male",
+        "level": "A1",
+        "lv": "Kéier",
+        "study": {
+          "id": "a1-mal",
+          "layout": "standardStudy",
+          "translation": "Kéier",
+          "explanation": [
+            "Haaptiddi: das Mal bedeit eng Kéier als Evenement oder Geleeënheet.",
+            "Et steet dacks bei Zuelen: ein Mal, zwei Mal, drei Mal.",
+            "Bei enger Uerdnungszuel seet een das erste Mal oder das zweite Mal.",
+            "Verwiessel das Mal net mat der Ëmgangssproochpartikel mal an Komm mal her!; dat ass eng aner Bedeitung."
+          ],
+          "examples": [
+            {
+              "de": "Das erste Mal war schwer.",
+              "lv": "Déi éischt Kéier war schwéier."
+            },
+            {
+              "de": "Ich war schon zwei Mal in Berlin.",
+              "lv": "Ech war schonn zweemol zu Berlin."
+            },
+            {
+              "de": "Ein Mal reicht.",
+              "lv": "Eng Kéier geet duer."
+            },
+            {
+              "de": "Noch ein Mal, bitte!",
+              "lv": "Nach eng Kéier, wann ech gelift!"
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: das Mal = Kéier als Substantiv; mal ouni Artikel ass eng Ëmgangssproochpartikel."
+          },
+          "important": [
+            "das Mal / die Male ass e Substantiv mat Artikel.",
+            "ein Mal, zwei Mal zielt, wéi oft eppes geschitt.",
+            "mal ouni Artikel an Komm mal her! ass net datselwecht wéi das Mal."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Mal",
+                "ein Mal",
+                "zwei Mal",
+                "das erste Mal"
+              ],
+              "purple": [
+                "Kéier",
+                "Evenement",
+                "Geleeënheet"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "erste Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "éischt Kéier"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zwei Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "zweemol"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ein Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Eng Kéier"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ein Mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "eng Kéier"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "blue": [
+                "das Mal",
+                "mal"
+              ],
+              "purple": [
+                "Substantiv",
+                "Ëmgangssproochpartikel"
+              ]
+            },
+            "important": [
+              {
+                "blue": [
+                  "das Mal",
+                  "die Male"
+                ]
+              },
+              {
+                "blue": [
+                  "ein Mal",
+                  "zwei Mal"
+                ],
+                "purple": [
+                  "wéi oft"
+                ]
+              },
+              {
+                "blue": [
+                  "mal",
+                  "das Mal"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "manchmal|idx:392",
+      "de_reference": "manchmal",
+      "idx": 392,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "manchmal",
+        "level": "A1",
+        "lv": "heiansdo"
+      }
+    },
+    {
+      "card_object_id": "Mandarine|idx:393",
+      "de_reference": "Mandarine",
+      "idx": 393,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mandarine",
+        "de_article": "die",
+        "de_plural": "die Mandarinen",
+        "level": "A1",
+        "lv": "Mandarinn"
+      }
+    },
+    {
+      "card_object_id": "Mann|idx:394",
+      "de_reference": "Mann",
+      "idx": 394,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Mann",
+        "de_article": "der",
+        "de_plural": "die Männer",
+        "level": "A1",
+        "lv": "Mann",
+        "study": {
+          "id": "a1-mann",
+          "layout": "standardStudy",
+          "translation": "Mann",
+          "explanation": [
+            "Haaptiddi: der Mann kann e Mann als männlech Persoun oder de Mann als Ehepartner bedeiten.",
+            "Wann et allgemeng ëm d’Geschlecht oder eng Persoun geet, ass der Mann eng männlech Persoun.",
+            "Wann et ëm de bestuete Partner geet, bedeit der Mann den Ehepartner: mein Mann = mäi Mann.",
+            "Mat engem Possessivwuert wéi mein, dein oder ihr Mann ass bal ëmmer den Ehepartner gemengt.",
+            "D’Pluralform ass die Männer.",
+            "Och die Frau kann zwou Bedeitungen hunn: Fra als weiblech Persoun a Fra als Ehepartnerin."
+          ],
+          "examples": [
+            {
+              "de": "Er ist ein netter Mann.",
+              "lv": "Hien ass en nette Mann."
+            },
+            {
+              "de": "Das ist mein Mann.",
+              "lv": "Dat ass mäi Mann."
+            },
+            {
+              "de": "Wie viele Männer sind hier?",
+              "lv": "Wéi vill Männer sinn hei?"
+            },
+            {
+              "de": "Mein Mann arbeitet in Berlin.",
+              "lv": "Mäi Mann schafft zu Berlin."
+            },
+            {
+              "de": "Der Mann trägt einen Anzug.",
+              "lv": "De Mann huet e Kostüm un."
+            },
+            {
+              "de": "Ihr Mann ist Arzt.",
+              "lv": "Hire Mann ass Dokter."
+            }
+          ],
+          "tip": [
+            "Mat engem Possessivwuert wéi mein, dein oder ihr Mann ass bal ëmmer den Ehepartner gemengt.",
+            "Ouni Possessivwuert, wéi bei der Mann oder ein Mann, ass meeschtens eng männlech Persoun gemengt."
+          ],
+          "important": [
+            "der Mann kann eng männlech Persoun oder en Ehepartner bedeiten; de Kontext entscheet.",
+            "mein Mann bedeit mäi Mann als Ehepartner.",
+            "D’Pluralform ass die Männer."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Mann",
+                "Mann"
+              ],
+              "purple": [
+                "männlech Persoun",
+                "Ehepartner"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "mein Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mäi Mann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Männer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Männer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Mein Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mäi Mann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Ihr Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hire Mann"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "green": [
+                  "mein",
+                  "dein",
+                  "ihr Mann"
+                ],
+                "purple": [
+                  "Ehepartner"
+                ]
+              },
+              {
+                "blue": [
+                  "der Mann",
+                  "ein Mann"
+                ],
+                "purple": [
+                  "männlech Persoun"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "der Mann"
+                ],
+                "purple": [
+                  "männlech Persoun",
+                  "Ehepartner"
+                ]
+              },
+              {
+                "green": [
+                  "mein Mann"
+                ],
+                "purple": [
+                  "Ehepartner"
+                ]
+              },
+              {
+                "blue": [
+                  "die Männer"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Maus|idx:397",
+      "de_reference": "Maus",
+      "idx": 397,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Maus",
+        "de_article": "die",
+        "de_plural": "die Mäuse",
+        "level": "A1",
+        "lv": "Maus"
+      }
+    },
+    {
+      "card_object_id": "Meer|idx:398",
+      "de_reference": "Meer",
+      "idx": 398,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Meer",
+        "de_article": "das",
+        "de_plural": "die Meere",
+        "level": "A1",
+        "lv": "Mier"
+      }
+    },
+    {
+      "card_object_id": "Mehl|idx:399",
+      "de_reference": "Mehl",
+      "idx": 399,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mehl",
+        "de_article": "das",
+        "de_plural": "die Mehle",
+        "level": "A1",
+        "lv": "Miel"
+      }
+    },
+    {
+      "card_object_id": "mehr|idx:400",
+      "de_reference": "mehr",
+      "idx": 400,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "mehr",
+        "level": "A1",
+        "lv": "méi"
+      }
+    },
+    {
+      "card_object_id": "mein|idx:401",
+      "de_reference": "mein",
+      "idx": 401,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "mein",
+        "level": "A1",
+        "lv": "mäin"
+      }
+    },
+    {
+      "card_object_id": "Mensch|idx:402",
+      "de_reference": "Mensch",
+      "idx": 402,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mensch",
+        "de_article": "der",
+        "de_plural": "die Menschen",
+        "level": "A1",
+        "lv": "Mënsch"
+      }
+    },
+    {
+      "card_object_id": "Messer|idx:403",
+      "de_reference": "Messer",
+      "idx": 403,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Messer",
+        "de_article": "das",
+        "de_plural": "die Messer",
+        "level": "A1",
+        "lv": "Messer"
+      }
+    },
+    {
+      "card_object_id": "Meter|idx:404",
+      "de_reference": "Meter",
+      "idx": 404,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Meter",
+        "de_article": "der",
+        "de_plural": "die Meter",
+        "level": "A1",
+        "lv": "Meter"
+      }
+    },
+    {
+      "card_object_id": "Milch|idx:405",
+      "de_reference": "Milch",
+      "idx": 405,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Milch",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Mëllech"
+      }
+    },
+    {
+      "card_object_id": "Minute|idx:407",
+      "de_reference": "Minute",
+      "idx": 407,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Minute",
+        "de_article": "die",
+        "de_plural": "die Minuten",
+        "level": "A1",
+        "lv": "Minutt"
+      }
+    },
+    {
+      "card_object_id": "mit|idx:408",
+      "de_reference": "mit",
+      "idx": 408,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "mit",
+        "level": "A1",
+        "lv": "mat",
+        "study": {
+          "id": "a1-mit",
+          "layout": "standardStudy",
+          "translation": "mat",
+          "explanation": [
+            "Haaptiddi: mit bedeit meeschtens mat.",
+            "mit gëtt benotzt, wann eng Persoun zesumme mat engem ass oder eppes mat engem Géigestand mécht.",
+            "Bei Transportmëttel steet mit a Wendunge wéi mit dem Bus, mit dem Zug oder mit dem Auto.",
+            "Um Niveau A1 si mit dem Bus, mit dem Auto a mit dir besonnesch heefeg."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme mit dir.",
+              "lv": "Ech komme mat dir."
+            },
+            {
+              "de": "Ich fahre mit dem Bus.",
+              "lv": "Ech fuere mam Bus."
+            },
+            {
+              "de": "Sie schreibt mit dem Stift.",
+              "lv": "Si schreift mam Bic."
+            },
+            {
+              "de": "Kommst du mit?",
+              "lv": "Kënns du mat?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mit",
+              "meaning": "mat / zesumme mat",
+              "example": "Ich komme mit dir."
+            },
+            {
+              "word": "ohne",
+              "meaning": "ouni",
+              "example": "Ich komme ohne dich."
+            },
+            {
+              "word": "bei",
+              "meaning": "bei / bei engem",
+              "example": "Ich bin bei Anna."
+            },
+            {
+              "word": "zu",
+              "meaning": "bei / op",
+              "example": "Ich gehe zum Arzt."
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: zesumme mat engem oder mat engem Transportmëttel → mit."
+          },
+          "important": [
+            "mit steet am Däitsche mam Dativ: mit dem Bus, mit der Mutter, mit dir.",
+            "Kommst du mit? bedeit „Kënns du mat?“"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "mit",
+                "mit dem Bus",
+                "mit dem Auto",
+                "mit dir"
+              ],
+              "purple": [
+                "mat",
+                "zesumme mat"
+              ],
+              "green": [
+                "Transportmëttel"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "mit dir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mat dir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Bus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mam Bus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Stift"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mam Bic"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mat"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "mit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mat",
+                    "zesumme mat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "mit dir"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ohne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ouni"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ohne dich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bei Anna"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "mit"
+                ],
+                "purple": [
+                  "zesumme mat",
+                  "Transportmëttel"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "mit"
+                ],
+                "purple": [
+                  "Dativ"
+                ]
+              },
+              {
+                "blue": [
+                  "Kommst du mit"
+                ],
+                "purple": [
+                  "Kënns du mat"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "mitnehmen|idx:409",
+      "de_reference": "mitnehmen",
+      "idx": 409,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "mitnehmen",
+        "level": "A1",
+        "lv": "mathuelen"
+      }
+    },
+    {
+      "card_object_id": "Mittag|idx:410",
+      "de_reference": "Mittag",
+      "idx": 410,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mittag",
+        "de_article": "der",
+        "de_plural": "die Mittage",
+        "level": "A1",
+        "lv": "Mëtteg"
+      }
+    },
+    {
+      "card_object_id": "Mittagessen|idx:411",
+      "de_reference": "Mittagessen",
+      "idx": 411,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mittagessen",
+        "de_article": "das",
+        "de_plural": "die Mittagessen",
+        "level": "A1",
+        "lv": "Mëttegiessen"
+      }
+    },
+    {
+      "card_object_id": "Mittwoch|idx:412",
+      "de_reference": "Mittwoch",
+      "idx": 412,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mittwoch",
+        "de_article": "der",
+        "de_plural": "die Mittwoche",
+        "level": "A1",
+        "lv": "Mëttwoch"
+      }
+    },
+    {
+      "card_object_id": "mögen|idx:413",
+      "de_reference": "mögen",
+      "idx": 413,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "mögen",
+        "level": "A1",
+        "lv": "gär hunn",
+        "study": {
+          "id": "a1-mögen",
+          "layout": "standardStudy",
+          "translation": "gär hunn",
+          "explanation": [
+            "Haaptiddi: mögen bedeit meeschtens, datt een eppes gär huet.",
+            "Ich mag... gëtt am Lëtzebuergeschen normalerweis mat Ech hunn ... gär ausgedréckt.",
+            "möchte ass eng aner Form fir en héifleche Wonsch: Ech hätt gär.",
+            "Um Niveau A1 ass Ich mag das eng wichteg Basiswendung."
+          ],
+          "examples": [
+            {
+              "de": "Ich mag Musik.",
+              "lv": "Ech hu Musek gär."
+            },
+            {
+              "de": "Magst du Kaffee?",
+              "lv": "Hues du Kaffi gär?"
+            },
+            {
+              "de": "Sie mag Kinder.",
+              "lv": "Si huet Kanner gär."
+            },
+            {
+              "de": "Ich möchte einen Kaffee.",
+              "lv": "Ech hätt gär e Kaffi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mögen",
+              "meaning": "gär hunn",
+              "example": "Ich mag Musik."
+            },
+            {
+              "word": "möchte",
+              "meaning": "hätt gär",
+              "example": "Ich möchte Kaffee."
+            },
+            {
+              "word": "wollen",
+              "meaning": "wëllen",
+              "example": "Ich will nach Hause."
+            },
+            {
+              "word": "lieben",
+              "meaning": "léiwen",
+              "example": "Ich liebe dich."
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: Ich mag... = Ech hunn ... gär."
+          },
+          "important": [
+            "Fir den héiflechen Ausdrock „ech hätt gär“ benotzt een am Däitsche meeschtens möchte, net mögen.",
+            "Ich mag Kaffee bedeit „Ech hu Kaffi gär“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "mögen",
+                "Ich mag",
+                "möchte"
+              ],
+              "purple": [
+                "gär huet",
+                "Ech hunn",
+                "Ech hätt gär"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "mag"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hu Musek gär"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Magst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kaffi gär"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mag"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "huet Kanner gär"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "möchte"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "hätt gär"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "mögen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gär hunn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "mag"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "möchte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "hätt gär"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "möchte"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wëllen"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "lieben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "léiwen"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "liebe"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Ich mag"
+                ],
+                "purple": [
+                  "Ech hunn",
+                  "gär"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "möchte",
+                  "mögen"
+                ],
+                "purple": [
+                  "ech hätt gär"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich mag Kaffee"
+                ],
+                "purple": [
+                  "Ech hu Kaffi gär"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Möhre|idx:414",
+      "de_reference": "Möhre",
+      "idx": 414,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Möhre",
+        "de_article": "die",
+        "de_plural": "die Möhren",
+        "level": "A1",
+        "lv": "Muert"
+      }
+    },
+    {
+      "card_object_id": "Monat|idx:415",
+      "de_reference": "Monat",
+      "idx": 415,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Monat",
+        "de_article": "der",
+        "de_plural": "die Monate",
+        "level": "A1",
+        "lv": "Mount"
+      }
+    },
+    {
+      "card_object_id": "Montag|idx:416",
+      "de_reference": "Montag",
+      "idx": 416,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Montag",
+        "de_article": "der",
+        "de_plural": "die Montage",
+        "level": "A1",
+        "lv": "Méindeg"
+      }
+    },
+    {
+      "card_object_id": "morgen|idx:417",
+      "de_reference": "morgen",
+      "idx": 417,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "morgen",
+        "level": "A1",
+        "lv": "muer",
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "muer",
+          "explanation": [
+            "Haaptiddi: morgen mat klenge Buschtaf ass en Zäitadverb a bedeit den nächsten Dag: muer.",
+            "An Ich komme morgen bezitt morgen sech op den nächsten Dag.",
+            "der Morgen mat groussem Buschtaf an Artikel ass dogéint e Substantiv a bedeit Moien.",
+            "De grousse Buschtaf am Ufank vu Morgen ist Montag kënnt nëmme vun der Positioun am Saz; hei bedeit Morgen weiderhin muer."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Ech kommen muer."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Bis muer!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Ech kommen muer."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Muer ass Méindeg."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Gudde Moien!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "De Moien ass schéin."
+            }
+          ],
+          "tip": [
+            "morgen mat klenge Buschtaf = muer; der Morgen mat groussem Buschtaf = Moien.",
+            "morgen = muer"
+          ],
+          "important": [
+            "morgen ass en Zäitadverb a bedeit muer.",
+            "der Morgen mat Artikel ass e Substantiv a bedeit Moien.",
+            "Guten Morgen! gëtt ëmmer mat groussem M geschriwwen.",
+            "Falsch: Guten morgen! → Richteg: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "morgen",
+                "der Morgen"
+              ],
+              "purple": [
+                "muer",
+                "Moien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Der Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "morgen",
+                  "der Morgen"
+                ],
+                "purple": [
+                  "muer",
+                  "Moien"
+                ]
+              },
+              {
+                "blue": [
+                  "morgen"
+                ],
+                "purple": [
+                  "muer"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "morgen"
+                ],
+                "purple": [
+                  "muer"
+                ]
+              },
+              {
+                "green": [
+                  "der Morgen"
+                ],
+                "purple": [
+                  "Moien"
+                ]
+              },
+              {
+                "green": [
+                  "Guten Morgen"
+                ]
+              },
+              {
+                "red": [
+                  "Guten morgen"
+                ],
+                "green": [
+                  "Guten Morgen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Morgen|idx:418",
+      "de_reference": "Morgen",
+      "idx": 418,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Morgen",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Moien",
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "Moien",
+          "explanation": [
+            "Haaptiddi: der Morgen ass e Substantiv mat Artikel der a bedeit d’Dageszäit Moien.",
+            "der Morgen gëtt mat groussem M geschriwwen.",
+            "morgen mat klenge Buschtaf ass dogéint en Zäitadverb a bedeit muer.",
+            "Am Ausdrock Guten Morgen! ass Morgen dat Substantiv; a Bis morgen! ass morgen d’Zäitadverb."
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Gudde Moien!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Bis muer!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Ech kommen muer."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Muer ass Méindeg."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Gudde Moien!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "De Moien ass schéin."
+            }
+          ],
+          "tip": [
+            "morgen mat klenge Buschtaf = muer; der Morgen mat groussem Buschtaf = Moien.",
+            "der Morgen = Moien"
+          ],
+          "important": [
+            "morgen mat klenge Buschtaf ass en Zäitadverb a bedeit muer.",
+            "der Morgen mat Artikel a groussem M ass e Substantiv a bedeit Moien.",
+            "Guten Morgen! gëtt ëmmer mat groussem M geschriwwen.",
+            "Falsch: Guten morgen! → Richteg: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Morgen"
+              ],
+              "blue": [
+                "morgen"
+              ],
+              "purple": [
+                "Moien",
+                "muer"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Der Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "morgen"
+                ],
+                "green": [
+                  "der Morgen"
+                ],
+                "purple": [
+                  "muer",
+                  "Moien"
+                ]
+              },
+              {
+                "green": [
+                  "der Morgen"
+                ],
+                "purple": [
+                  "Moien"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "morgen"
+                ],
+                "purple": [
+                  "muer"
+                ]
+              },
+              {
+                "green": [
+                  "der Morgen"
+                ],
+                "purple": [
+                  "Moien"
+                ]
+              },
+              {
+                "green": [
+                  "Guten Morgen"
+                ]
+              },
+              {
+                "red": [
+                  "Guten morgen"
+                ],
+                "green": [
+                  "Guten Morgen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "müde|idx:420",
+      "de_reference": "müde",
+      "idx": 420,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "müde",
+        "level": "A1",
+        "lv": "midd"
+      }
+    },
+    {
+      "card_object_id": "Mund|idx:421",
+      "de_reference": "Mund",
+      "idx": 421,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mund",
+        "de_article": "der",
+        "de_plural": "die Münder",
+        "level": "A1",
+        "lv": "Mond"
+      }
+    },
+    {
+      "card_object_id": "Musik|idx:422",
+      "de_reference": "Musik",
+      "idx": 422,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Musik",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Musek"
+      }
+    },
+    {
+      "card_object_id": "Mutter|idx:424",
+      "de_reference": "Mutter",
+      "idx": 424,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mutter",
+        "de_article": "die",
+        "de_plural": "die Mütter",
+        "level": "A1",
+        "lv": "Mamm"
+      }
+    },
+    {
+      "card_object_id": "Mütze|idx:425",
+      "de_reference": "Mütze",
+      "idx": 425,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Mütze",
+        "de_article": "die",
+        "de_plural": "die Mützen",
+        "level": "A1",
+        "lv": "Mutz"
+      }
+    },
+    {
+      "card_object_id": "nach|idx:426",
+      "de_reference": "nach",
+      "idx": 426,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "nach",
+        "level": "A1",
+        "lv": "op • no",
+        "study": {
+          "id": "a1-nach",
+          "layout": "standardStudy",
+          "translation": "op • no",
+          "explanation": [
+            "Haaptiddi: nach bedeit bei Uertschaften a Länner ouni Artikel meeschtens op; bei Zäit oder Reiefolleg bedeit et no.",
+            "Mat Stied a Länner ouni Artikel gëtt nach dacks fir eng Richtung benotzt.",
+            "Bei engem Zäitpunkt oder enger Reiefolleg bedeit nach no; bei der Auerzäit entsprécht et am Lëtzebuergeschen dacks op.",
+            "An der fester Wendung nach Hause bedeit et heem."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Ech fueren op Berlin."
+            },
+            {
+              "de": "Wir gehen nach Hause.",
+              "lv": "Mir ginn heem."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Nom Iesse gi mir spadséieren."
+            },
+            {
+              "de": "Es ist zehn nach acht.",
+              "lv": "Et ass zéng op aacht."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nach",
+              "meaning": "op / no",
+              "example": "Ich fahre nach Berlin."
+            },
+            {
+              "word": "zu",
+              "meaning": "bei / op",
+              "example": "Ich gehe zum Arzt."
+            },
+            {
+              "word": "in",
+              "meaning": "an / op eng Plaz mat Artikel",
+              "example": "Ich gehe in die Schule."
+            },
+            {
+              "word": "vor",
+              "meaning": "virun",
+              "example": "Vor dem Essen wasche ich die Hände."
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: nach Hause; nach Berlin; nach dem Essen."
+          },
+          "important": [
+            "nach gëtt am Däitschen net mat all Uert benotzt.",
+            "Fir „an d’Schoul“ seet een am Däitschen normalerweis in die Schule, net nach Schule."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "nach",
+                "nach Hause"
+              ],
+              "purple": [
+                "op",
+                "no",
+                "heem"
+              ],
+              "green": [
+                "Stied",
+                "Länner",
+                "Zäit"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "nach"
+                  ],
+                  "green": [
+                    "Berlin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ],
+                  "green": [
+                    "Berlin"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nach Hause"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "heem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nom"
+                  ],
+                  "yellow": [
+                    "Iesse"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op",
+                    "no"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei",
+                    "op"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "an"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "virun"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Vor"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "nach Hause",
+                  "nach Berlin",
+                  "nach dem Essen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "nach"
+                ],
+                "red": [
+                  "net mat all Uert"
+                ]
+              },
+              {
+                "green": [
+                  "in die Schule"
+                ],
+                "red": [
+                  "nach Schule"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Nachmittag|idx:427",
+      "de_reference": "Nachmittag",
+      "idx": 427,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Nachmittag",
+        "de_article": "der",
+        "de_plural": "die Nachmittage",
+        "level": "A1",
+        "lv": "Nomëtteg"
+      }
+    },
+    {
+      "card_object_id": "nachmittags|idx:428",
+      "de_reference": "nachmittags",
+      "idx": 428,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "nachmittags",
+        "level": "A1",
+        "lv": "nomëttes"
+      }
+    },
+    {
+      "card_object_id": "Nacht|idx:429",
+      "de_reference": "Nacht",
+      "idx": 429,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Nacht",
+        "de_article": "die",
+        "de_plural": "die Nächte",
+        "level": "A1",
+        "lv": "Nuecht"
+      }
+    },
+    {
+      "card_object_id": "Nase|idx:430",
+      "de_reference": "Nase",
+      "idx": 430,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Nase",
+        "de_article": "die",
+        "de_plural": "die Nasen",
+        "level": "A1",
+        "lv": "Nues"
+      }
+    },
+    {
+      "card_object_id": "nass|idx:431",
+      "de_reference": "nass",
+      "idx": 431,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "nass",
+        "level": "A1",
+        "lv": "naass"
+      }
+    },
+    {
+      "card_object_id": "Natur|idx:432",
+      "de_reference": "Natur",
+      "idx": 432,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Natur",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Natur"
+      }
+    }
+  ]
+}

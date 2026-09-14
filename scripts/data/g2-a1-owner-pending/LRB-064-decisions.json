@@ -1,0 +1,302 @@
+{
+  "g2/a1/lb|Lied|idx:376|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lidd",
+    "owner_note": "Lied|idx:376 individuāli pārbaudīts: vācu “Lied” avota nozīmē “dziesma” precīzā luksemburgiešu aizvietojamā vērtība ir “Lidd”."
+  },
+  "g2/a1/lb|liegen|idx:377|study|TARGET_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"leien • sech befannen\",\"study.translation\":\"leien • sech befannen\",\"study.explanation\":\"[\\\"Haaptiddi: liegen bedeit horizontal leien oder sech op enger Plaz befannen.\\\",\\\"Bei enger Persoun bedeit liegen dacks leien.\\\",\\\"Bei enger Saach weist liegen, wou se sech befënnt.\\\",\\\"Et ënnerscheet sech vu legen, dat bedeit, eppes iergendwouhin ze leeën.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das Buch liegt auf dem Tisch.\\\",\\\"lv\\\":\\\"D’Buch läit um Dësch.\\\"},{\\\"de\\\":\\\"Mein Handy liegt im Auto.\\\",\\\"lv\\\":\\\"Mäin Handy läit am Auto.\\\"},{\\\"de\\\":\\\"Er liegt im Bett.\\\",\\\"lv\\\":\\\"Hie läit am Bett.\\\"},{\\\"de\\\":\\\"Ich lege das Buch auf den Tisch.\\\",\\\"lv\\\":\\\"Ech leeën d’Buch op den Dësch.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"leien / sech befannen\\\",\\\"example\\\":\\\"Das Buch liegt hier.\\\"},{\\\"word\\\":\\\"legen\\\",\\\"meaning\\\":\\\"leeën\\\",\\\"example\\\":\\\"Ich lege das Buch hierhin.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"stoen / oprecht sinn\\\",\\\"example\\\":\\\"Die Flasche steht auf dem Tisch.\\\"},{\\\"word\\\":\\\"sein\\\",\\\"meaning\\\":\\\"sinn\\\",\\\"example\\\":\\\"Ich bin hier.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: d’Saach ass schonn op der Plaz → liegen; du lees se dohinner → legen.\\\"}\",\"study.important\":\"[\\\"liegen weist en Zoustand oder eng Lag un.\\\",\\\"legen weist eng Handlung un: een leet eppes iergendwouhin.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"liegen\\\",\\\"legen\\\"],\\\"purple\\\":[\\\"leien\\\",\\\"befannen\\\",\\\"leeën\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"läit\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"läit\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"läit\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"lege\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"leeën\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"liegen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"leien\\\",\\\"sech befannen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"liegt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"legen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"leeën\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"lege\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"stoen\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"steht\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sinn\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"bin\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"liegen\\\"],\\\"red\\\":[\\\"legen\\\"],\\\"purple\\\":[\\\"schonn op der Plaz\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"liegen\\\"],\\\"purple\\\":[\\\"Zoustand\\\",\\\"Lag\\\"]},{\\\"red\\\":[\\\"legen\\\"],\\\"purple\\\":[\\\"Handlung\\\"]}]}\"}",
+    "owner_note": "Pilnā liegen|idx:377 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Limonade|idx:378|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Limonad",
+    "owner_note": "Limonade|idx:378 individuāli pārbaudīts: vācu “Limonade” avota nozīmē “limonāde” precīzā luksemburgiešu aizvietojamā vērtība ir “Limonad”."
+  },
+  "g2/a1/lb|Lineal|idx:379|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lineal",
+    "owner_note": "Lineal|idx:379 individuāli pārbaudīts: vācu “Lineal” avota nozīmē “lineāls” precīzā luksemburgiešu aizvietojamā vērtība ir “Lineal”."
+  },
+  "g2/a1/lb|Liste|idx:381|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Lëscht",
+    "owner_note": "Liste|idx:381 individuāli pārbaudīts: vācu “Liste” avota nozīmē “saraksts” precīzā luksemburgiešu aizvietojamā vērtība ir “Lëscht”."
+  },
+  "g2/a1/lb|Liter|idx:382|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Liter\",\"study.translation\":\"Liter\",\"study.explanation\":\"\\\"An Däitschland seet een normalerweis „der Liter“, an Éisträich an an der Schwäiz héiert een och „das Liter“. D’Pluralform bleift onverännert: „die Liter“.\\\"\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"der Liter\\\"],\\\"blue\\\":[\\\"das Liter\\\"],\\\"purple\\\":[\\\"die Liter\\\"]}}\"}",
+    "owner_note": "Pilnā Liter|idx:382 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Löffel|idx:383|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Läffel",
+    "owner_note": "Löffel|idx:383 individuāli pārbaudīts: vācu “Löffel” avota nozīmē “karote” precīzā luksemburgiešu aizvietojamā vērtība ir “Läffel”."
+  },
+  "g2/a1/lb|Luft|idx:384|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Loft",
+    "owner_note": "Luft|idx:384 individuāli pārbaudīts: vācu “Luft” avota nozīmē “gaiss” precīzā luksemburgiešu aizvietojamā vērtība ir “Loft”."
+  },
+  "g2/a1/lb|lustig|idx:385|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "lëschteg",
+    "owner_note": "lustig|idx:385 individuāli pārbaudīts: vācu “lustig” avota nozīmē “jautrs” precīzā luksemburgiešu aizvietojamā vērtība ir “lëschteg”."
+  },
+  "g2/a1/lb|machen|idx:386|study|TARGET_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"maachen\",\"study.translation\":\"maachen\",\"study.explanation\":\"[\\\"Haaptiddi: machen ass e ganz heefegt däitscht Verb a bedeit meeschtens maachen.\\\",\\\"Bei enger allgemenger Handlung gëtt machen dacks mat maachen iwwersat.\\\",\\\"Wann eppes hiergestallt oder preparéiert gëtt, passt am Lëtzebuergeschen och maachen.\\\",\\\"A ville feste Wendunge gëtt machen natierlech nom Kontext iwwersat an net Wuert fir Wuert.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was machst du?\\\",\\\"lv\\\":\\\"Wat méchs du?\\\"},{\\\"de\\\":\\\"Ich mache Hausaufgaben.\\\",\\\"lv\\\":\\\"Ech maachen d’Hausaufgaben.\\\"},{\\\"de\\\":\\\"Wir machen Pizza.\\\",\\\"lv\\\":\\\"Mir maachen eng Pizza.\\\"},{\\\"de\\\":\\\"Das macht Spaß.\\\",\\\"lv\\\":\\\"Dat mécht Spaass.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: Was machst du? = Wat méchs du?\\\"}\",\"study.important\":\"[\\\"machen ass e breet Verb; am Lëtzebuergesche gëtt et dacks nom Kontext mat maachen ausgedréckt.\\\",\\\"Das macht Spaß bedeit „Dat mécht Spaass“ an ass eng fest Wendung.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"machen\\\"],\\\"purple\\\":[\\\"maachen\\\"],\\\"green\\\":[\\\"Wendunge\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"machst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"méchs\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mache\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maachen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"machen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"maachen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"macht Spaß\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mécht Spaass\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Was machst du\\\"],\\\"purple\\\":[\\\"Wat méchs du\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"machen\\\"],\\\"purple\\\":[\\\"maachen\\\"]},{\\\"blue\\\":[\\\"Das macht Spaß\\\"],\\\"purple\\\":[\\\"Dat mécht Spaass\\\"]}]}\"}",
+    "owner_note": "Pilnā machen|idx:386 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Mädchen|idx:387|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Meedchen",
+    "owner_note": "Mädchen|idx:387 individuāli pārbaudīts: vācu “Mädchen” avota nozīmē “meitene” precīzā luksemburgiešu aizvietojamā vērtība ir “Meedchen”."
+  },
+  "g2/a1/lb|Mahlzeit|idx:388|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Moolzecht",
+    "owner_note": "Mahlzeit|idx:388 individuāli pārbaudīts: vācu “Mahlzeit” avota nozīmē “maltīte” precīzā luksemburgiešu aizvietojamā vērtība ir “Moolzecht”."
+  },
+  "g2/a1/lb|Mai|idx:389|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mee",
+    "owner_note": "Mai|idx:389 individuāli pārbaudīts: vācu “Mai” avota nozīmē “maijs” precīzā luksemburgiešu aizvietojamā vērtība ir “Mee”."
+  },
+  "g2/a1/lb|Mal|idx:390|study|TARGET_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Kéier\",\"study.translation\":\"Kéier\",\"study.explanation\":\"[\\\"Haaptiddi: das Mal bedeit eng Kéier als Evenement oder Geleeënheet.\\\",\\\"Et steet dacks bei Zuelen: ein Mal, zwei Mal, drei Mal.\\\",\\\"Bei enger Uerdnungszuel seet een das erste Mal oder das zweite Mal.\\\",\\\"Verwiessel das Mal net mat der Ëmgangssproochpartikel mal an Komm mal her!; dat ass eng aner Bedeitung.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Das erste Mal war schwer.\\\",\\\"lv\\\":\\\"Déi éischt Kéier war schwéier.\\\"},{\\\"de\\\":\\\"Ich war schon zwei Mal in Berlin.\\\",\\\"lv\\\":\\\"Ech war schonn zweemol zu Berlin.\\\"},{\\\"de\\\":\\\"Ein Mal reicht.\\\",\\\"lv\\\":\\\"Eng Kéier geet duer.\\\"},{\\\"de\\\":\\\"Noch ein Mal, bitte!\\\",\\\"lv\\\":\\\"Nach eng Kéier, wann ech gelift!\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: das Mal = Kéier als Substantiv; mal ouni Artikel ass eng Ëmgangssproochpartikel.\\\"}\",\"study.important\":\"[\\\"das Mal / die Male ass e Substantiv mat Artikel.\\\",\\\"ein Mal, zwei Mal zielt, wéi oft eppes geschitt.\\\",\\\"mal ouni Artikel an Komm mal her! ass net datselwecht wéi das Mal.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"das Mal\\\",\\\"ein Mal\\\",\\\"zwei Mal\\\",\\\"das erste Mal\\\"],\\\"purple\\\":[\\\"Kéier\\\",\\\"Evenement\\\",\\\"Geleeënheet\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"erste Mal\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"éischt Kéier\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"zwei Mal\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"zweemol\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Ein Mal\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Eng Kéier\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ein Mal\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"eng Kéier\\\"]}}],\\\"tip\\\":{\\\"blue\\\":[\\\"das Mal\\\",\\\"mal\\\"],\\\"purple\\\":[\\\"Substantiv\\\",\\\"Ëmgangssproochpartikel\\\"]},\\\"important\\\":[{\\\"blue\\\":[\\\"das Mal\\\",\\\"die Male\\\"]},{\\\"blue\\\":[\\\"ein Mal\\\",\\\"zwei Mal\\\"],\\\"purple\\\":[\\\"wéi oft\\\"]},{\\\"blue\\\":[\\\"mal\\\",\\\"das Mal\\\"]}]}\"}",
+    "owner_note": "Pilnā Mal|idx:390 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|manchmal|idx:392|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "heiansdo",
+    "owner_note": "manchmal|idx:392 individuāli pārbaudīts: vācu “manchmal” avota nozīmē “dažreiz” precīzā luksemburgiešu aizvietojamā vērtība ir “heiansdo”."
+  },
+  "g2/a1/lb|Mandarine|idx:393|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mandarinn",
+    "owner_note": "Mandarine|idx:393 individuāli pārbaudīts: vācu “Mandarine” avota nozīmē “mandarīns” precīzā luksemburgiešu aizvietojamā vērtība ir “Mandarinn”."
+  },
+  "g2/a1/lb|Mann|idx:394|study.explanation; study.examples.lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Mann\",\"study.translation\":\"Mann\",\"study.explanation\":\"[\\\"Haaptiddi: der Mann kann e Mann als männlech Persoun oder de Mann als Ehepartner bedeiten.\\\",\\\"Wann et allgemeng ëm d’Geschlecht oder eng Persoun geet, ass der Mann eng männlech Persoun.\\\",\\\"Wann et ëm de bestuete Partner geet, bedeit der Mann den Ehepartner: mein Mann = mäi Mann.\\\",\\\"Mat engem Possessivwuert wéi mein, dein oder ihr Mann ass bal ëmmer den Ehepartner gemengt.\\\",\\\"D’Pluralform ass die Männer.\\\",\\\"Och die Frau kann zwou Bedeitungen hunn: Fra als weiblech Persoun a Fra als Ehepartnerin.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er ist ein netter Mann.\\\",\\\"lv\\\":\\\"Hien ass en nette Mann.\\\"},{\\\"de\\\":\\\"Das ist mein Mann.\\\",\\\"lv\\\":\\\"Dat ass mäi Mann.\\\"},{\\\"de\\\":\\\"Wie viele Männer sind hier?\\\",\\\"lv\\\":\\\"Wéi vill Männer sinn hei?\\\"},{\\\"de\\\":\\\"Mein Mann arbeitet in Berlin.\\\",\\\"lv\\\":\\\"Mäi Mann schafft zu Berlin.\\\"},{\\\"de\\\":\\\"Der Mann trägt einen Anzug.\\\",\\\"lv\\\":\\\"De Mann huet e Kostüm un.\\\"},{\\\"de\\\":\\\"Ihr Mann ist Arzt.\\\",\\\"lv\\\":\\\"Hire Mann ass Dokter.\\\"}]\",\"study.tip\":\"[\\\"Mat engem Possessivwuert wéi mein, dein oder ihr Mann ass bal ëmmer den Ehepartner gemengt.\\\",\\\"Ouni Possessivwuert, wéi bei der Mann oder ein Mann, ass meeschtens eng männlech Persoun gemengt.\\\"]\",\"study.important\":\"[\\\"der Mann kann eng männlech Persoun oder en Ehepartner bedeiten; de Kontext entscheet.\\\",\\\"mein Mann bedeit mäi Mann als Ehepartner.\\\",\\\"D’Pluralform ass die Männer.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"der Mann\\\",\\\"Mann\\\"],\\\"purple\\\":[\\\"männlech Persoun\\\",\\\"Ehepartner\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mann\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"mein Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mäi Mann\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Männer\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Männer\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Mein Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mäi Mann\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Mann\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Ihr Mann\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Hire Mann\\\"]}}],\\\"tip\\\":[{\\\"green\\\":[\\\"mein\\\",\\\"dein\\\",\\\"ihr Mann\\\"],\\\"purple\\\":[\\\"Ehepartner\\\"]},{\\\"blue\\\":[\\\"der Mann\\\",\\\"ein Mann\\\"],\\\"purple\\\":[\\\"männlech Persoun\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"der Mann\\\"],\\\"purple\\\":[\\\"männlech Persoun\\\",\\\"Ehepartner\\\"]},{\\\"green\\\":[\\\"mein Mann\\\"],\\\"purple\\\":[\\\"Ehepartner\\\"]},{\\\"blue\\\":[\\\"die Männer\\\"]}]}\"}",
+    "owner_note": "Pilnā Mann|idx:394 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Maus|idx:397|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Maus",
+    "owner_note": "Maus|idx:397 individuāli pārbaudīts: vācu “Maus” avota nozīmē “pele” precīzā luksemburgiešu aizvietojamā vērtība ir “Maus”."
+  },
+  "g2/a1/lb|Meer|idx:398|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mier",
+    "owner_note": "Meer|idx:398 individuāli pārbaudīts: vācu “Meer” avota nozīmē “jūra” precīzā luksemburgiešu aizvietojamā vērtība ir “Mier”."
+  },
+  "g2/a1/lb|Mehl|idx:399|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Miel",
+    "owner_note": "Mehl|idx:399 individuāli pārbaudīts: vācu “Mehl” avota nozīmē “milti” precīzā luksemburgiešu aizvietojamā vērtība ir “Miel”."
+  },
+  "g2/a1/lb|mehr|idx:400|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "méi",
+    "owner_note": "mehr|idx:400 individuāli pārbaudīts: vācu “mehr” avota nozīmē “vairāk” precīzā luksemburgiešu aizvietojamā vērtība ir “méi”."
+  },
+  "g2/a1/lb|mein|idx:401|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mäin",
+    "owner_note": "mein|idx:401 individuāli pārbaudīts: vācu “mein” avota nozīmē “mans” precīzā luksemburgiešu aizvietojamā vērtība ir “mäin”."
+  },
+  "g2/a1/lb|Mensch|idx:402|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mënsch",
+    "owner_note": "Mensch|idx:402 individuāli pārbaudīts: vācu “Mensch” avota nozīmē “cilvēks” precīzā luksemburgiešu aizvietojamā vērtība ir “Mënsch”."
+  },
+  "g2/a1/lb|Messer|idx:403|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Messer",
+    "owner_note": "Messer|idx:403 individuāli pārbaudīts: vācu “Messer” avota nozīmē “nazis” precīzā luksemburgiešu aizvietojamā vērtība ir “Messer”."
+  },
+  "g2/a1/lb|Meter|idx:404|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Meter|idx:404 individuāli pārbaudīts: pašreizējā luksemburgiešu vērtība “Meter” jau precīzi atbilst avota nozīmei “metrs”; labojums nav vajadzīgs."
+  },
+  "g2/a1/lb|Milch|idx:405|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mëllech",
+    "owner_note": "Milch|idx:405 individuāli pārbaudīts: vācu “Milch” avota nozīmē “piens” precīzā luksemburgiešu aizvietojamā vērtība ir “Mëllech”."
+  },
+  "g2/a1/lb|Minute|idx:407|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Minutt",
+    "owner_note": "Minute|idx:407 individuāli pārbaudīts: vācu “Minute” avota nozīmē “minūte” precīzā luksemburgiešu aizvietojamā vērtība ir “Minutt”."
+  },
+  "g2/a1/lb|mit|idx:408|lv; study.explanation; study.examples.lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"mat\",\"study.translation\":\"mat\",\"study.explanation\":\"[\\\"Haaptiddi: mit bedeit meeschtens mat.\\\",\\\"mit gëtt benotzt, wann eng Persoun zesumme mat engem ass oder eppes mat engem Géigestand mécht.\\\",\\\"Bei Transportmëttel steet mit a Wendunge wéi mit dem Bus, mit dem Zug oder mit dem Auto.\\\",\\\"Um Niveau A1 si mit dem Bus, mit dem Auto a mit dir besonnesch heefeg.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme mit dir.\\\",\\\"lv\\\":\\\"Ech komme mat dir.\\\"},{\\\"de\\\":\\\"Ich fahre mit dem Bus.\\\",\\\"lv\\\":\\\"Ech fuere mam Bus.\\\"},{\\\"de\\\":\\\"Sie schreibt mit dem Stift.\\\",\\\"lv\\\":\\\"Si schreift mam Bic.\\\"},{\\\"de\\\":\\\"Kommst du mit?\\\",\\\"lv\\\":\\\"Kënns du mat?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"mit\\\",\\\"meaning\\\":\\\"mat / zesumme mat\\\",\\\"example\\\":\\\"Ich komme mit dir.\\\"},{\\\"word\\\":\\\"ohne\\\",\\\"meaning\\\":\\\"ouni\\\",\\\"example\\\":\\\"Ich komme ohne dich.\\\"},{\\\"word\\\":\\\"bei\\\",\\\"meaning\\\":\\\"bei / bei engem\\\",\\\"example\\\":\\\"Ich bin bei Anna.\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"bei / op\\\",\\\"example\\\":\\\"Ich gehe zum Arzt.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: zesumme mat engem oder mat engem Transportmëttel → mit.\\\"}\",\"study.important\":\"[\\\"mit steet am Däitsche mam Dativ: mit dem Bus, mit der Mutter, mit dir.\\\",\\\"Kommst du mit? bedeit „Kënns du mat?“\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"mit\\\",\\\"mit dem Bus\\\",\\\"mit dem Auto\\\",\\\"mit dir\\\"],\\\"purple\\\":[\\\"mat\\\",\\\"zesumme mat\\\"],\\\"green\\\":[\\\"Transportmëttel\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"mit dir\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mat dir\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mit dem Bus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mam Bus\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mit dem Stift\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mam Bic\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mit\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mat\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"mit\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mat\\\",\\\"zesumme mat\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"mit dir\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ohne\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ouni\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"ohne dich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bei\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"bei\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"bei Anna\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"op\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"zum Arzt\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"mit\\\"],\\\"purple\\\":[\\\"zesumme mat\\\",\\\"Transportmëttel\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"mit\\\"],\\\"purple\\\":[\\\"Dativ\\\"]},{\\\"blue\\\":[\\\"Kommst du mit\\\"],\\\"purple\\\":[\\\"Kënns du mat\\\"]}]}\"}",
+    "owner_note": "Pilnā mit|idx:408 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|mitnehmen|idx:409|lv|INCOMPLETE_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mathuelen",
+    "owner_note": "mitnehmen|idx:409 individuāli pārbaudīts: vācu “mitnehmen” avota nozīmē “ņemt līdzi” precīzā luksemburgiešu aizvietojamā vērtība ir “mathuelen”."
+  },
+  "g2/a1/lb|Mittag|idx:410|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mëtteg",
+    "owner_note": "Mittag|idx:410 individuāli pārbaudīts: vācu “Mittag” avota nozīmē “pusdiena” precīzā luksemburgiešu aizvietojamā vērtība ir “Mëtteg”."
+  },
+  "g2/a1/lb|Mittagessen|idx:411|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mëttegiessen",
+    "owner_note": "Mittagessen|idx:411 individuāli pārbaudīts: vācu “Mittagessen” avota nozīmē “pusdienas” precīzā luksemburgiešu aizvietojamā vērtība ir “Mëttegiessen”."
+  },
+  "g2/a1/lb|Mittwoch|idx:412|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mëttwoch",
+    "owner_note": "Mittwoch|idx:412 individuāli pārbaudīts: vācu “Mittwoch” avota nozīmē “trešdiena” precīzā luksemburgiešu aizvietojamā vērtība ir “Mëttwoch”."
+  },
+  "g2/a1/lb|mögen|idx:413|lv; study.explanation; study.examples.lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gär hunn\",\"study.translation\":\"gär hunn\",\"study.explanation\":\"[\\\"Haaptiddi: mögen bedeit meeschtens, datt een eppes gär huet.\\\",\\\"Ich mag... gëtt am Lëtzebuergeschen normalerweis mat Ech hunn ... gär ausgedréckt.\\\",\\\"möchte ass eng aner Form fir en héifleche Wonsch: Ech hätt gär.\\\",\\\"Um Niveau A1 ass Ich mag das eng wichteg Basiswendung.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich mag Musik.\\\",\\\"lv\\\":\\\"Ech hu Musek gär.\\\"},{\\\"de\\\":\\\"Magst du Kaffee?\\\",\\\"lv\\\":\\\"Hues du Kaffi gär?\\\"},{\\\"de\\\":\\\"Sie mag Kinder.\\\",\\\"lv\\\":\\\"Si huet Kanner gär.\\\"},{\\\"de\\\":\\\"Ich möchte einen Kaffee.\\\",\\\"lv\\\":\\\"Ech hätt gär e Kaffi.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"mögen\\\",\\\"meaning\\\":\\\"gär hunn\\\",\\\"example\\\":\\\"Ich mag Musik.\\\"},{\\\"word\\\":\\\"möchte\\\",\\\"meaning\\\":\\\"hätt gär\\\",\\\"example\\\":\\\"Ich möchte Kaffee.\\\"},{\\\"word\\\":\\\"wollen\\\",\\\"meaning\\\":\\\"wëllen\\\",\\\"example\\\":\\\"Ich will nach Hause.\\\"},{\\\"word\\\":\\\"lieben\\\",\\\"meaning\\\":\\\"léiwen\\\",\\\"example\\\":\\\"Ich liebe dich.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: Ich mag... = Ech hunn ... gär.\\\"}\",\"study.important\":\"[\\\"Fir den héiflechen Ausdrock „ech hätt gär“ benotzt een am Däitsche meeschtens möchte, net mögen.\\\",\\\"Ich mag Kaffee bedeit „Ech hu Kaffi gär“.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"mögen\\\",\\\"Ich mag\\\",\\\"möchte\\\"],\\\"purple\\\":[\\\"gär huet\\\",\\\"Ech hunn\\\",\\\"Ech hätt gär\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"mag\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"hu Musek gär\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Magst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Kaffi gär\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"mag\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"huet Kanner gär\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"möchte\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"hätt gär\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"mögen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"gär hunn\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"mag\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"möchte\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hätt gär\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"möchte\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"wëllen\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"will\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"lieben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"léiwen\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"liebe\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Ich mag\\\"],\\\"purple\\\":[\\\"Ech hunn\\\",\\\"gär\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"möchte\\\",\\\"mögen\\\"],\\\"purple\\\":[\\\"ech hätt gär\\\"]},{\\\"blue\\\":[\\\"Ich mag Kaffee\\\"],\\\"purple\\\":[\\\"Ech hu Kaffi gär\\\"]}]}\"}",
+    "owner_note": "Pilnā mögen|idx:413 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Möhre|idx:414|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Muert",
+    "owner_note": "Möhre|idx:414 individuāli pārbaudīts: vācu “Möhre” avota nozīmē “burkāns” precīzā luksemburgiešu aizvietojamā vērtība ir “Muert”."
+  },
+  "g2/a1/lb|Monat|idx:415|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "Monat|idx:415 individuāli pārbaudīts: pašreizējā luksemburgiešu vērtība “Mount” jau precīzi atbilst avota nozīmei “mēnesis”; labojums nav vajadzīgs."
+  },
+  "g2/a1/lb|Montag|idx:416|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Méindeg",
+    "owner_note": "Montag|idx:416 individuāli pārbaudīts: vācu “Montag” avota nozīmē “pirmdiena” precīzā luksemburgiešu aizvietojamā vērtība ir “Méindeg”."
+  },
+  "g2/a1/lb|morgen|idx:417|lv; study.explanation; study.examples.lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"muer\",\"study.translation\":\"muer\",\"study.explanation\":\"[\\\"Haaptiddi: morgen mat klenge Buschtaf ass en Zäitadverb a bedeit den nächsten Dag: muer.\\\",\\\"An Ich komme morgen bezitt morgen sech op den nächsten Dag.\\\",\\\"der Morgen mat groussem Buschtaf an Artikel ass dogéint e Substantiv a bedeit Moien.\\\",\\\"De grousse Buschtaf am Ufank vu Morgen ist Montag kënnt nëmme vun der Positioun am Saz; hei bedeit Morgen weiderhin muer.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Ech kommen muer.\\\"},{\\\"de\\\":\\\"Bis morgen!\\\",\\\"lv\\\":\\\"Bis muer!\\\"},{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Ech kommen muer.\\\"},{\\\"de\\\":\\\"Morgen ist Montag.\\\",\\\"lv\\\":\\\"Muer ass Méindeg.\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Gudde Moien!\\\"},{\\\"de\\\":\\\"Der Morgen ist schön.\\\",\\\"lv\\\":\\\"De Moien ass schéin.\\\"}]\",\"study.tip\":\"[\\\"morgen mat klenge Buschtaf = muer; der Morgen mat groussem Buschtaf = Moien.\\\",\\\"morgen = muer\\\"]\",\"study.important\":\"[\\\"morgen ass en Zäitadverb a bedeit muer.\\\",\\\"der Morgen mat Artikel ass e Substantiv a bedeit Moien.\\\",\\\"Guten Morgen! gëtt ëmmer mat groussem M geschriwwen.\\\",\\\"Falsch: Guten morgen! → Richteg: Guten Morgen!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"morgen\\\",\\\"der Morgen\\\"],\\\"purple\\\":[\\\"muer\\\",\\\"Moien\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"muer\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"muer\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"muer\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Muer\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Moien\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Der Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Moien\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"morgen\\\",\\\"der Morgen\\\"],\\\"purple\\\":[\\\"muer\\\",\\\"Moien\\\"]},{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"muer\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"muer\\\"]},{\\\"green\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"Moien\\\"]},{\\\"green\\\":[\\\"Guten Morgen\\\"]},{\\\"red\\\":[\\\"Guten morgen\\\"],\\\"green\\\":[\\\"Guten Morgen\\\"]}]}\"}",
+    "owner_note": "Pilnā morgen|idx:417 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Morgen|idx:418|lv; study.explanation; study.examples.lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Moien\",\"study.translation\":\"Moien\",\"study.explanation\":\"[\\\"Haaptiddi: der Morgen ass e Substantiv mat Artikel der a bedeit d’Dageszäit Moien.\\\",\\\"der Morgen gëtt mat groussem M geschriwwen.\\\",\\\"morgen mat klenge Buschtaf ass dogéint en Zäitadverb a bedeit muer.\\\",\\\"Am Ausdrock Guten Morgen! ass Morgen dat Substantiv; a Bis morgen! ass morgen d’Zäitadverb.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Gudde Moien!\\\"},{\\\"de\\\":\\\"Bis morgen!\\\",\\\"lv\\\":\\\"Bis muer!\\\"},{\\\"de\\\":\\\"Ich komme morgen.\\\",\\\"lv\\\":\\\"Ech kommen muer.\\\"},{\\\"de\\\":\\\"Morgen ist Montag.\\\",\\\"lv\\\":\\\"Muer ass Méindeg.\\\"},{\\\"de\\\":\\\"Guten Morgen!\\\",\\\"lv\\\":\\\"Gudde Moien!\\\"},{\\\"de\\\":\\\"Der Morgen ist schön.\\\",\\\"lv\\\":\\\"De Moien ass schéin.\\\"}]\",\"study.tip\":\"[\\\"morgen mat klenge Buschtaf = muer; der Morgen mat groussem Buschtaf = Moien.\\\",\\\"der Morgen = Moien\\\"]\",\"study.important\":\"[\\\"morgen mat klenge Buschtaf ass en Zäitadverb a bedeit muer.\\\",\\\"der Morgen mat Artikel a groussem M ass e Substantiv a bedeit Moien.\\\",\\\"Guten Morgen! gëtt ëmmer mat groussem M geschriwwen.\\\",\\\"Falsch: Guten morgen! → Richteg: Guten Morgen!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"green\\\":[\\\"der Morgen\\\"],\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"Moien\\\",\\\"muer\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Moien\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"muer\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"muer\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Muer\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Moien\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Der Morgen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Moien\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"morgen\\\"],\\\"green\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"muer\\\",\\\"Moien\\\"]},{\\\"green\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"Moien\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"morgen\\\"],\\\"purple\\\":[\\\"muer\\\"]},{\\\"green\\\":[\\\"der Morgen\\\"],\\\"purple\\\":[\\\"Moien\\\"]},{\\\"green\\\":[\\\"Guten Morgen\\\"]},{\\\"red\\\":[\\\"Guten morgen\\\"],\\\"green\\\":[\\\"Guten Morgen\\\"]}]}\"}",
+    "owner_note": "Pilnā Morgen|idx:418 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|müde|idx:420|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "midd",
+    "owner_note": "müde|idx:420 individuāli pārbaudīts: vācu “müde” avota nozīmē “noguris” precīzā luksemburgiešu aizvietojamā vērtība ir “midd”."
+  },
+  "g2/a1/lb|Mund|idx:421|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mond",
+    "owner_note": "Mund|idx:421 individuāli pārbaudīts: vācu “Mund” avota nozīmē “mute” precīzā luksemburgiešu aizvietojamā vērtība ir “Mond”."
+  },
+  "g2/a1/lb|Musik|idx:422|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Musek",
+    "owner_note": "Musik|idx:422 individuāli pārbaudīts: vācu “Musik” avota nozīmē “mūzika” precīzā luksemburgiešu aizvietojamā vērtība ir “Musek”."
+  },
+  "g2/a1/lb|Mutter|idx:424|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mamm",
+    "owner_note": "Mutter|idx:424 individuāli pārbaudīts: vācu “Mutter” avota nozīmē “māte” precīzā luksemburgiešu aizvietojamā vērtība ir “Mamm”."
+  },
+  "g2/a1/lb|Mütze|idx:425|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Mutz",
+    "owner_note": "Mütze|idx:425 individuāli pārbaudīts: vācu “Mütze” avota nozīmē “cepure” precīzā luksemburgiešu aizvietojamā vērtība ir “Mutz”."
+  },
+  "g2/a1/lb|nach|idx:426|study.explanation, study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"op • no\",\"study.translation\":\"op • no\",\"study.explanation\":\"[\\\"Haaptiddi: nach bedeit bei Uertschaften a Länner ouni Artikel meeschtens op; bei Zäit oder Reiefolleg bedeit et no.\\\",\\\"Mat Stied a Länner ouni Artikel gëtt nach dacks fir eng Richtung benotzt.\\\",\\\"Bei engem Zäitpunkt oder enger Reiefolleg bedeit nach no; bei der Auerzäit entsprécht et am Lëtzebuergeschen dacks op.\\\",\\\"An der fester Wendung nach Hause bedeit et heem.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich fahre nach Berlin.\\\",\\\"lv\\\":\\\"Ech fueren op Berlin.\\\"},{\\\"de\\\":\\\"Wir gehen nach Hause.\\\",\\\"lv\\\":\\\"Mir ginn heem.\\\"},{\\\"de\\\":\\\"Nach dem Essen gehen wir spazieren.\\\",\\\"lv\\\":\\\"Nom Iesse gi mir spadséieren.\\\"},{\\\"de\\\":\\\"Es ist zehn nach acht.\\\",\\\"lv\\\":\\\"Et ass zéng op aacht.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"nach\\\",\\\"meaning\\\":\\\"op / no\\\",\\\"example\\\":\\\"Ich fahre nach Berlin.\\\"},{\\\"word\\\":\\\"zu\\\",\\\"meaning\\\":\\\"bei / op\\\",\\\"example\\\":\\\"Ich gehe zum Arzt.\\\"},{\\\"word\\\":\\\"in\\\",\\\"meaning\\\":\\\"an / op eng Plaz mat Artikel\\\",\\\"example\\\":\\\"Ich gehe in die Schule.\\\"},{\\\"word\\\":\\\"vor\\\",\\\"meaning\\\":\\\"virun\\\",\\\"example\\\":\\\"Vor dem Essen wasche ich die Hände.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: nach Hause; nach Berlin; nach dem Essen.\\\"}\",\"study.important\":\"[\\\"nach gëtt am Däitschen net mat all Uert benotzt.\\\",\\\"Fir „an d’Schoul“ seet een am Däitschen normalerweis in die Schule, net nach Schule.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nach\\\",\\\"nach Hause\\\"],\\\"purple\\\":[\\\"op\\\",\\\"no\\\",\\\"heem\\\"],\\\"green\\\":[\\\"Stied\\\",\\\"Länner\\\",\\\"Zäit\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"nach\\\"],\\\"green\\\":[\\\"Berlin\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"],\\\"green\\\":[\\\"Berlin\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nach Hause\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"heem\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Nach\\\"],\\\"yellow\\\":[\\\"Essen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Nom\\\"],\\\"yellow\\\":[\\\"Iesse\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nach\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"op\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"nach\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"op\\\",\\\"no\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"nach\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"zu\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"bei\\\",\\\"op\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"zum Arzt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"in\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"an\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"in die Schule\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"vor\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"virun\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"Vor\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"nach Hause\\\",\\\"nach Berlin\\\",\\\"nach dem Essen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"nach\\\"],\\\"red\\\":[\\\"net mat all Uert\\\"]},{\\\"green\\\":[\\\"in die Schule\\\"],\\\"red\\\":[\\\"nach Schule\\\"]}]}\"}",
+    "owner_note": "Pilnā nach|idx:426 standardStudy kartīte individuāli pārbaudīta pret oriģinālo LV→DE kartīti; saglabāti visi DE piemēri, vācu mācību kontrasti, study.id un layout, bet visi target lauki aizvietoti ar pilnu saskaņotu luksemburgiešu saturu."
+  },
+  "g2/a1/lb|Nachmittag|idx:427|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nomëtteg",
+    "owner_note": "Nachmittag|idx:427 individuāli pārbaudīts: vācu “Nachmittag” avota nozīmē “pēcpusdiena” precīzā luksemburgiešu aizvietojamā vērtība ir “Nomëtteg”."
+  },
+  "g2/a1/lb|nachmittags|idx:428|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nomëttes",
+    "owner_note": "nachmittags|idx:428 individuāli pārbaudīts: vācu “nachmittags” avota nozīmē “pēcpusdienā” precīzā luksemburgiešu aizvietojamā vērtība ir “nomëttes”."
+  },
+  "g2/a1/lb|Nacht|idx:429|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nuecht",
+    "owner_note": "Nacht|idx:429 individuāli pārbaudīts: vācu “Nacht” avota nozīmē “nakts” precīzā luksemburgiešu aizvietojamā vērtība ir “Nuecht”."
+  },
+  "g2/a1/lb|Nase|idx:430|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nues",
+    "owner_note": "Nase|idx:430 individuāli pārbaudīts: vācu “Nase” avota nozīmē “deguns” precīzā luksemburgiešu aizvietojamā vērtība ir “Nues”."
+  },
+  "g2/a1/lb|nass|idx:431|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "naass",
+    "owner_note": "nass|idx:431 individuāli pārbaudīts: vācu “nass” avota nozīmē “slapjš” precīzā luksemburgiešu aizvietojamā vērtība ir “naass”."
+  },
+  "g2/a1/lb|Natur|idx:432|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Natur",
+    "owner_note": "Natur|idx:432 individuāli pārbaudīts: vācu “Natur” avota nozīmē “daba” precīzā luksemburgiešu aizvietojamā vērtība ir “Natur”."
+  }
+}
