@@ -4,7 +4,7 @@
   "scope": "natürlich..probieren (50 LB rows, 50 unique cards)",
   "rows": 50,
   "uniqueCards": 50,
-  "paste_sha256": "412e4bbf67e222dfad5b31210d4794fd4f33fa12edf0b2e5599cab81bdcaa7c1",
+  "paste_sha256": "5d3534ca146e57fffd70017a83ea60e3d5c91446208996f2dd466f6e1a2840d5",
   "full_card_replacements": 9,
   "full_card_object_ids": [
     "natürlich|idx:433",
@@ -17,7 +17,7 @@
     "passen|idx:471",
     "probieren|idx:482"
   ],
-  "classification": "LRB_065_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+  "classification": "LRB_065_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "natürlich|idx:433",
@@ -874,8 +874,8 @@
               "lv": "Ech sinn nach doheem."
             },
             {
-              "de": "Wir warten noch.",
-              "lv": "Mir waarden nach."
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Ech sinn nach ëmmer doheem."
             },
             {
               "de": "Bist du noch da?",
@@ -921,7 +921,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "nach"
+                    "nach ëmmer"
                   ]
                 }
               },
@@ -1051,8 +1051,8 @@
               "lv": "Ech hunn nëmmen zéng Euro."
             },
             {
-              "de": "Ich habe nur eine Frage.",
-              "lv": "Ech hunn nëmmen eng Fro."
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Ech hunn just zéng Euro."
             },
             {
               "de": "Nur du kannst mir helfen.",
@@ -1110,7 +1110,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "nëmmen"
+                    "just"
                   ]
                 }
               },

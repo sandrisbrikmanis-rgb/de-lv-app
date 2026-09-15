@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-15T15:15:00.000Z",
+  "updatedAt": "2026-09-15T15:37:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -1689,7 +1689,7 @@
       "LRB-065": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
-        "classification": "LRB_065_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+        "classification": "LRB_065_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
         "labot": 47,
         "nelabot": 3,
         "pending": 0,
@@ -1713,7 +1713,10 @@
         "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-065-gala-cards.json",
         "pasteRepairs": "GPT-5.6 Luna copy/paste (47 LABOT / 3 NELABOT / 50 unique LB cards: 9 full composite + 38 scalar)",
         "pasteSha256": "44eff77526808da6715ae1daf8c7ac46ed925ab2d54b9f0a133bce50de4a8f42",
-        "decisionsSha256": "9536e895bb8d4630c471843ecb6f778bdcf9c5117b3f6a25e95560ba629f7b38"
+        "decisionsSha256": "fd835c5defbc2c62048c86f6cf551fe9185c8b0b4eb17b8d04a31501a05c6fbd",
+        "copyPasteCorrection2": "COPY_PASTE_CORRECTION_2_APPLIED",
+        "copyPasteCorrection2Sha256": "007dc76f22abf38eb18d70bb501cd915fe5d395649fd6675acae9489685ebf60",
+        "mappingSha256AfterCorrection2": "412e4bbf67e222dfad5b31210d4794fd4f33fa12edf0b2e5599cab81bdcaa7c1"
       }
     },
     "lastBatch": {
@@ -1728,7 +1731,7 @@
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
-      "classification": "LRB_065_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+      "classification": "LRB_065_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
       "rowCount": 50,
       "uniqueCards": 50,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-065-decisions.csv",

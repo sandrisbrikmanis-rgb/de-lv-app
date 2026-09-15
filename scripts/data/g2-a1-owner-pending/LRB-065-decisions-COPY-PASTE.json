@@ -644,8 +644,8 @@
           "lv": "Ech sinn nach doheem."
         },
         {
-          "de": "Wir warten noch.",
-          "lv": "Mir waarden nach."
+          "de": "Ich bin noch zu Hause.",
+          "lv": "Ech sinn nach ëmmer doheem."
         },
         {
           "de": "Bist du noch da?",
@@ -691,7 +691,7 @@
             },
             "lv": {
               "purple": [
-                "nach"
+                "nach ëmmer"
               ]
             }
           },
@@ -755,8 +755,8 @@
           "lv": "Ech hunn nëmmen zéng Euro."
         },
         {
-          "de": "Ich habe nur eine Frage.",
-          "lv": "Ech hunn nëmmen eng Fro."
+          "de": "Ich habe nur zehn Euro.",
+          "lv": "Ech hunn just zéng Euro."
         },
         {
           "de": "Nur du kannst mir helfen.",
@@ -814,7 +814,7 @@
             },
             "lv": {
               "purple": [
-                "nëmmen"
+                "just"
               ]
             }
           },
@@ -1880,6 +1880,7 @@
     "Null|idx:454": "Null ir pareizais luksemburgiešu ekvivalents vācu Null un latviešu nulle; ražošanas vērtība nav jāmaina.",
     "Orange|idx:466": "Eng Orange ir dabiska luksemburgiešu nominatīvā frāze un pilnībā saglabā vācu Orange un latviešu apelsīns nozīmi; ražošanas vērtība nav jāmaina."
   },
-  "correction_round": 2,
-  "correction_2_sha256": "007dc76f22abf38eb18d70bb501cd915fe5d395649fd6675acae9489685ebf60"
+  "correction_round": 3,
+  "correction_2_sha256": "007dc76f22abf38eb18d70bb501cd915fe5d395649fd6675acae9489685ebf60",
+  "correction_3_sha256": "b5fa7f71a16fb8bd3cc9e14d78ff1122b570a69df8eca2c9fcc7353b993e1999"
 }
