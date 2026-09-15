@@ -1,0 +1,2311 @@
+{
+  "batch_id": "LRB-068",
+  "language": "lb",
+  "scope": "Tante..wann (50 LB rows, 50 unique cards)",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "0c2fa92ff747fb4a1769f2e90c2d1bbb54de42c737f08c99a13d029206545cde",
+  "full_card_replacements": 6,
+  "full_card_object_ids": [
+    "um|idx:611",
+    "unter|idx:615",
+    "verstehen|idx:621",
+    "vom|idx:634",
+    "vor|idx:636",
+    "über|idx:608"
+  ],
+  "classification": "LRB_068_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "Tante|idx:587",
+      "de_reference": "Tante",
+      "idx": 587,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tante",
+        "de_article": "die",
+        "de_plural": "die Tanten",
+        "level": "A1",
+        "lv": "Tatta"
+      }
+    },
+    {
+      "card_object_id": "tanzen|idx:588",
+      "de_reference": "tanzen",
+      "idx": 588,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "tanzen",
+        "level": "A1",
+        "lv": "danzen"
+      }
+    },
+    {
+      "card_object_id": "Tasche|idx:589",
+      "de_reference": "Tasche",
+      "idx": 589,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tasche",
+        "de_article": "die",
+        "de_plural": "die Taschen",
+        "level": "A1",
+        "lv": "Täsch"
+      }
+    },
+    {
+      "card_object_id": "Taxi|idx:591",
+      "de_reference": "Taxi",
+      "idx": 591,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Taxi",
+        "de_article": "das",
+        "de_plural": "die Taxis",
+        "level": "A1",
+        "lv": "Taxi"
+      }
+    },
+    {
+      "card_object_id": "Tee|idx:592",
+      "de_reference": "Tee",
+      "idx": 592,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tee",
+        "de_article": "der",
+        "de_plural": "die Tees",
+        "level": "A1",
+        "lv": "Téi"
+      }
+    },
+    {
+      "card_object_id": "Telefon|idx:593",
+      "de_reference": "Telefon",
+      "idx": 593,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Telefon",
+        "de_article": "das",
+        "de_plural": "die Telefone",
+        "level": "A1",
+        "lv": "Telefon"
+      }
+    },
+    {
+      "card_object_id": "Teller|idx:595",
+      "de_reference": "Teller",
+      "idx": 595,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Teller",
+        "de_article": "der",
+        "de_plural": "die Teller",
+        "level": "A1",
+        "lv": "Teller"
+      }
+    },
+    {
+      "card_object_id": "teuer|idx:596",
+      "de_reference": "teuer",
+      "idx": 596,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "teuer",
+        "level": "A1",
+        "lv": "deier"
+      }
+    },
+    {
+      "card_object_id": "Text|idx:597",
+      "de_reference": "Text",
+      "idx": 597,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Text",
+        "de_article": "der",
+        "de_plural": "die Texte",
+        "level": "A1",
+        "lv": "Text"
+      }
+    },
+    {
+      "card_object_id": "Tier|idx:598",
+      "de_reference": "Tier",
+      "idx": 598,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tier",
+        "de_article": "das",
+        "de_plural": "die Tiere",
+        "level": "A1",
+        "lv": "Déier"
+      }
+    },
+    {
+      "card_object_id": "Tisch|idx:599",
+      "de_reference": "Tisch",
+      "idx": 599,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tisch",
+        "de_article": "der",
+        "de_plural": "die Tische",
+        "level": "A1",
+        "lv": "Dësch"
+      }
+    },
+    {
+      "card_object_id": "Tochter|idx:600",
+      "de_reference": "Tochter",
+      "idx": 600,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tochter",
+        "de_article": "die",
+        "de_plural": "die Töchter",
+        "level": "A1",
+        "lv": "Duechter"
+      }
+    },
+    {
+      "card_object_id": "Toilette|idx:601",
+      "de_reference": "Toilette",
+      "idx": 601,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Toilette",
+        "de_article": "die",
+        "de_plural": "die Toiletten",
+        "level": "A1",
+        "lv": "Toilette"
+      }
+    },
+    {
+      "card_object_id": "Tomate|idx:602",
+      "de_reference": "Tomate",
+      "idx": 602,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tomate",
+        "de_article": "die",
+        "de_plural": "die Tomaten",
+        "level": "A1",
+        "lv": "Tomat"
+      }
+    },
+    {
+      "card_object_id": "Treppe|idx:603",
+      "de_reference": "Treppe",
+      "idx": 603,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Treppe",
+        "de_article": "die",
+        "de_plural": "die Treppen",
+        "level": "A1",
+        "lv": "Trap"
+      }
+    },
+    {
+      "card_object_id": "trinken|idx:604",
+      "de_reference": "trinken",
+      "idx": 604,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "trinken",
+        "level": "A1",
+        "lv": "drénken"
+      }
+    },
+    {
+      "card_object_id": "tun|idx:605",
+      "de_reference": "tun",
+      "idx": 605,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "tun",
+        "level": "A1",
+        "lv": "doen"
+      }
+    },
+    {
+      "card_object_id": "Tür|idx:606",
+      "de_reference": "Tür",
+      "idx": 606,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tür",
+        "de_article": "die",
+        "de_plural": "die Türen",
+        "level": "A1",
+        "lv": "Dier"
+      }
+    },
+    {
+      "card_object_id": "U-Bahn|idx:607",
+      "de_reference": "U-Bahn",
+      "idx": 607,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "U-Bahn",
+        "de_article": "die",
+        "de_plural": "die U-Bahnen",
+        "level": "A1",
+        "lv": "Metro"
+      }
+    },
+    {
+      "card_object_id": "über|idx:608",
+      "de_reference": "über",
+      "idx": 608,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "über",
+        "level": "A1",
+        "lv": "iwwer",
+        "study": {
+          "id": "a1-über",
+          "layout": "standardStudy",
+          "translation": "iwwer",
+          "explanation": [
+            "Haaptiddi: Dat däitscht Wuert über entsprécht am Lëtzebuergeschen an dëse Bedeitungen dem Wuert iwwer.",
+            "Bei enger Positioun weist iwwer, datt eppes méi héich wéi eppes anescht ass.",
+            "Bei engem Gespréich, Text oder Thema bedeit iwwer, datt eppes den Inhalt oder d’Thema ass.",
+            "Bei enger Beweegung kann iwwer ausdrécken, datt een oder eppes vun enger Säit op déi aner kënnt."
+          ],
+          "examples": [
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "D’Luucht hänkt iwwer dem Dësch."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Mir schwätzen iwwer d’Wieder."
+            },
+            {
+              "de": "Das Kind läuft über die Straße.",
+              "lv": "D’Kand leeft iwwer d’Strooss."
+            },
+            {
+              "de": "Ich freue mich über das Geschenk.",
+              "lv": "Ech freeë mech iwwer de Kaddo."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "über",
+              "meaning": "iwwer",
+              "example": "Wir sprechen über das Wetter. – Mir schwätzen iwwer d’Wieder."
+            },
+            {
+              "word": "auf",
+              "meaning": "op",
+              "example": "Das Buch liegt auf dem Tisch. – D’Buch läit um Dësch."
+            },
+            {
+              "word": "unter",
+              "meaning": "ënner",
+              "example": "Die Tasche ist unter dem Tisch. – D’Täsch ass ënner dem Dësch."
+            },
+            {
+              "word": "von",
+              "meaning": "vun",
+              "example": "Ich höre von dir. – Ech héiere vun dir."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: en Thema am Gespréich → iwwer; méi héich wéi den Dësch → iwwer."
+          },
+          "important": [
+            "iwwer ass net nëmmen eng Plazpräpositioun.",
+            "iwwer eppes schwätzen bedeit, eppes zum Thema ze hunn."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "über"
+              ],
+              "purple": [
+                "iwwer",
+                "méi héich",
+                "vun enger Säit op déi aner"
+              ],
+              "green": [
+                "Positioun",
+                "Gespréich",
+                "Text",
+                "Thema",
+                "Beweegung"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "iwwer"
+                  ],
+                  "yellow": [
+                    "Dësch"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "green": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "iwwer"
+                  ],
+                  "green": [
+                    "Wieder"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Straße"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "iwwer"
+                  ],
+                  "yellow": [
+                    "Strooss"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Geschenk"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "iwwer"
+                  ],
+                  "yellow": [
+                    "Kaddo"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "über"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iwwer"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "über"
+                  ],
+                  "purple": [
+                    "iwwer"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "auf"
+                  ],
+                  "purple": [
+                    "um"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "unter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ënner"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "unter"
+                  ],
+                  "purple": [
+                    "ënner"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vun"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "von"
+                  ],
+                  "purple": [
+                    "vun"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Thema"
+                ],
+                "purple": [
+                  "iwwer",
+                  "méi héich"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "iwwer"
+                ],
+                "purple": [
+                  "Plazpräpositioun"
+                ]
+              },
+              {
+                "blue": [
+                  "iwwer eppes schwätzen"
+                ],
+                "purple": [
+                  "Thema"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "überall|idx:609",
+      "de_reference": "überall",
+      "idx": 609,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "überall",
+        "level": "A1",
+        "lv": "iwwerall"
+      }
+    },
+    {
+      "card_object_id": "übermorgen|idx:610",
+      "de_reference": "übermorgen",
+      "idx": 610,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "übermorgen",
+        "level": "A1",
+        "lv": "iwwermuer"
+      }
+    },
+    {
+      "card_object_id": "um|idx:611",
+      "de_reference": "um",
+      "idx": 611,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "um",
+        "level": "A1",
+        "lv": "ëm • fir ... ze",
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "ëm • fir ... ze",
+          "explanation": [
+            "Haaptiddi: Dat däitscht um entsprécht bei Zäit a Plaz meeschtens dem lëtzebuergeschen ëm.",
+            "Mat enger geneeër Auerzäit bedeit um op Lëtzebuergesch ëm.",
+            "Bei enger Plaz kann um eng Positioun oder Beweegung ronderëm eppes ausdrécken.",
+            "An der Konstruktioun um ... zu dréckt Däitsch en Zweck aus; op Lëtzebuergesch benotzt een fir ... ze."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "Ech kommen ëm aacht Auer."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "Mir sëtze ronderëm den Dësch."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "Hie geet ëm den Eck."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "Ech léieren, fir Däitsch ze schwätzen."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "ëm • fir ... ze",
+              "example": "Ich komme um acht. – Ech kommen ëm aacht."
+            },
+            {
+              "word": "am",
+              "meaning": "um • e Méindeg",
+              "example": "Am Montag komme ich. – E Méindeg kommen ech."
+            },
+            {
+              "word": "gegen",
+              "meaning": "géint • ongeféier ëm",
+              "example": "Ich komme gegen acht. – Ech kommen ongeféier ëm aacht."
+            },
+            {
+              "word": "für",
+              "meaning": "fir",
+              "example": "Das ist für dich. – Dat ass fir dech."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: um acht = ëm aacht; um ... zu = fir ... ze."
+          },
+          "important": [
+            "um mat enger Auerzäit gëtt op Lëtzebuergesch meeschtens ëm.",
+            "Déi däitsch Konstruktioun um ... zu gëtt op Lëtzebuergesch mat fir ... ze ausgedréckt."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "um",
+                "um ... zu"
+              ],
+              "purple": [
+                "ëm",
+                "ronderëm",
+                "fir ... ze"
+              ],
+              "green": [
+                "Auerzäit",
+                "Plaz",
+                "Zweck"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "acht Uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ëm"
+                  ],
+                  "yellow": [
+                    "aacht Auer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ronderëm"
+                  ],
+                  "yellow": [
+                    "Dësch"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Ecke"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ëm"
+                  ],
+                  "yellow": [
+                    "Eck"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um",
+                    "zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fir",
+                    "ze"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "um"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ëm",
+                    "fir ... ze"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "um"
+                  ],
+                  "purple": [
+                    "ëm"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "um",
+                    "e Méindeg"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Am"
+                  ],
+                  "purple": [
+                    "Méindeg"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "géint",
+                    "ongeféier ëm"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gegen"
+                  ],
+                  "purple": [
+                    "ongeféier ëm"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "fir"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "für"
+                  ],
+                  "purple": [
+                    "fir"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "um acht",
+                  "um ... zu"
+                ],
+                "purple": [
+                  "ëm aacht",
+                  "fir ... ze"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "um"
+                ],
+                "purple": [
+                  "ëm"
+                ]
+              },
+              {
+                "blue": [
+                  "um ... zu"
+                ],
+                "purple": [
+                  "fir ... ze"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "unser|idx:613",
+      "de_reference": "unser",
+      "idx": 613,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "unser",
+        "level": "A1",
+        "lv": "eisen"
+      }
+    },
+    {
+      "card_object_id": "unten|idx:614",
+      "de_reference": "unten",
+      "idx": 614,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "unten",
+        "level": "A1",
+        "lv": "ënnen"
+      }
+    },
+    {
+      "card_object_id": "unter|idx:615",
+      "de_reference": "unter",
+      "idx": 615,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "unter",
+        "level": "A1",
+        "lv": "ënner",
+        "study": {
+          "id": "a1-unter",
+          "layout": "standardStudy",
+          "translation": "ënner",
+          "explanation": [
+            "Haaptiddi: Dat däitscht unter entsprécht am Lëtzebuergeschen dem Wuert ënner.",
+            "Wann eppes méi déif wéi en Dësch, e Stull oder en anere Géigestand ass, benotzt een ënner.",
+            "Bei enger Grupp vu Leit kann ënner och bedeiten, datt een Deel vun där Grupp ass.",
+            "Bei enger Plaz sinn ënner an iwwer Géigendeeler."
+          ],
+          "examples": [
+            {
+              "de": "Die Tasche ist unter dem Tisch.",
+              "lv": "D’Täsch ass ënner dem Dësch."
+            },
+            {
+              "de": "Die Katze liegt unter dem Stuhl.",
+              "lv": "D’Kaz läit ënner dem Stull."
+            },
+            {
+              "de": "Unter Freunden sagt man das so.",
+              "lv": "Ënner Frënn seet een dat esou."
+            },
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "D’Luucht hänkt iwwer dem Dësch."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "unter",
+              "meaning": "ënner",
+              "example": "Die Tasche ist unter dem Tisch. – D’Täsch ass ënner dem Dësch."
+            },
+            {
+              "word": "über",
+              "meaning": "iwwer",
+              "example": "Die Lampe hängt über dem Tisch. – D’Luucht hänkt iwwer dem Dësch."
+            },
+            {
+              "word": "zwischen",
+              "meaning": "tëscht",
+              "example": "Zwischen den Häusern. – Tëscht den Haiser."
+            },
+            {
+              "word": "auf",
+              "meaning": "op",
+              "example": "Auf dem Tisch. – Um Dësch."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: ënner dem Dësch = méi déif wéi den Dësch."
+          },
+          "important": [
+            "ënner kann och bei enger Grupp vu Leit benotzt ginn.",
+            "ënner an iwwer si bei enger Plaz dacks Géigendeeler."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "unter"
+              ],
+              "purple": [
+                "ënner",
+                "méi déif",
+                "Géigendeeler"
+              ],
+              "green": [
+                "Grupp vu Leit",
+                "Plaz"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "unter"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ënner"
+                  ],
+                  "yellow": [
+                    "Dësch"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "unter"
+                  ],
+                  "yellow": [
+                    "Stuhl"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ënner"
+                  ],
+                  "yellow": [
+                    "Stull"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Unter"
+                  ],
+                  "green": [
+                    "Freunden"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ënner"
+                  ],
+                  "green": [
+                    "Frënn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "über"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "iwwer"
+                  ],
+                  "yellow": [
+                    "Dësch"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "unter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ënner"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "unter"
+                  ],
+                  "purple": [
+                    "ënner"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "über"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iwwer"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "über"
+                  ],
+                  "purple": [
+                    "iwwer"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zwischen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "tëscht"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Zwischen"
+                  ],
+                  "purple": [
+                    "Tëscht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Auf"
+                  ],
+                  "purple": [
+                    "Um"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ënner dem Dësch"
+                ],
+                "purple": [
+                  "méi déif"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "ënner"
+                ],
+                "green": [
+                  "Grupp vu Leit"
+                ]
+              },
+              {
+                "blue": [
+                  "ënner"
+                ],
+                "red": [
+                  "iwwer"
+                ],
+                "purple": [
+                  "Géigendeeler"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Vase|idx:616",
+      "de_reference": "Vase",
+      "idx": 616,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Vase",
+        "de_article": "die",
+        "de_plural": "die Vasen",
+        "level": "A1",
+        "lv": "Vas"
+      }
+    },
+    {
+      "card_object_id": "Vater|idx:617",
+      "de_reference": "Vater",
+      "idx": 617,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Vater",
+        "de_article": "der",
+        "de_plural": "die Väter",
+        "level": "A1",
+        "lv": "Papp"
+      }
+    },
+    {
+      "card_object_id": "verheiratet|idx:618",
+      "de_reference": "verheiratet",
+      "idx": 618,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "verheiratet",
+        "level": "A1",
+        "lv": "bestuet"
+      }
+    },
+    {
+      "card_object_id": "verkaufen|idx:619",
+      "de_reference": "verkaufen",
+      "idx": 619,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "verkaufen",
+        "level": "A1",
+        "lv": "verkafen"
+      }
+    },
+    {
+      "card_object_id": "verlieren|idx:620",
+      "de_reference": "verlieren",
+      "idx": 620,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "verlieren",
+        "level": "A1",
+        "lv": "verléieren"
+      }
+    },
+    {
+      "card_object_id": "verstehen|idx:621",
+      "de_reference": "verstehen",
+      "idx": 621,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "verstehen",
+        "level": "A1",
+        "lv": "verstoen",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "verstoen",
+          "explanation": [
+            "Haaptiddi: Dat däitscht verstehen entsprécht dem lëtzebuergesche verstoen.",
+            "Et gëtt benotzt, wann een eng Sprooch, eng Persoun, en Text oder eng Situatioun begräift.",
+            "verstoen bedeit net dat selwecht wéi kënnen; kënnen dréckt eng Fäegkeet oder Méiglechkeet aus.",
+            "E ganz heefegen Ausdrock ass Ich verstehe. = Ech verstinn."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "Ech verstinn dech."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "Verstees du Däitsch?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "Ech verstinn dat net."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Ech kann Däitsch schwätzen."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "verstoen",
+              "example": "Ich verstehe dich. – Ech verstinn dech."
+            },
+            {
+              "word": "können",
+              "meaning": "kënnen • fäeg sinn",
+              "example": "Ich kann schwimmen. – Ech ka schwammen."
+            },
+            {
+              "word": "wissen",
+              "meaning": "wëssen",
+              "example": "Ich weiß das. – Ech weess dat."
+            },
+            {
+              "word": "kennen",
+              "meaning": "kennen",
+              "example": "Ich kenne ihn. – Ech kennen hien."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: en Text oder eng Persoun verstoen; eppes maache kënnen."
+          },
+          "important": [
+            "verstoen ass net dat selwecht wéi kënnen.",
+            "Ich verstehe Deutsch bedeit Ech verstinn Däitsch."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "verstehen",
+                "Ich verstehe"
+              ],
+              "purple": [
+                "verstoen",
+                "Ech verstinn",
+                "begräift"
+              ],
+              "red": [
+                "kënnen",
+                "Fäegkeet",
+                "Méiglechkeet"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "verstinn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Verstehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Verstees"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "verstinn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "kann"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "verstehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "verstoen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "verstehe"
+                  ],
+                  "purple": [
+                    "verstinn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kënnen",
+                    "fäeg sinn"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "kann"
+                  ],
+                  "purple": [
+                    "ka"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wëssen"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß"
+                  ],
+                  "purple": [
+                    "weess"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kennen"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "kenne"
+                  ],
+                  "purple": [
+                    "kennen"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "verstoen"
+                ],
+                "red": [
+                  "kënnen"
+                ],
+                "purple": [
+                  "Text",
+                  "Persoun"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "verstoen"
+                ],
+                "red": [
+                  "kënnen"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich verstehe Deutsch"
+                ],
+                "purple": [
+                  "Ech verstinn Däitsch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "versuchen|idx:622",
+      "de_reference": "versuchen",
+      "idx": 622,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "versuchen",
+        "level": "A1",
+        "lv": "probéieren"
+      }
+    },
+    {
+      "card_object_id": "viel|idx:623",
+      "de_reference": "viel",
+      "idx": 623,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "viel",
+        "level": "A1",
+        "lv": "vill"
+      }
+    },
+    {
+      "card_object_id": "vielleicht|idx:624",
+      "de_reference": "vielleicht",
+      "idx": 624,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "vielleicht",
+        "level": "A1",
+        "lv": "vläicht"
+      }
+    },
+    {
+      "card_object_id": "vier|idx:625",
+      "de_reference": "vier",
+      "idx": 625,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "vier",
+        "level": "A1",
+        "lv": "véier"
+      }
+    },
+    {
+      "card_object_id": "vierhundert|idx:626",
+      "de_reference": "vierhundert",
+      "idx": 626,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "vierhundert",
+        "level": "A1",
+        "lv": "véierhonnert"
+      }
+    },
+    {
+      "card_object_id": "vierte|idx:627",
+      "de_reference": "vierte",
+      "idx": 627,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "vierte",
+        "level": "A1",
+        "lv": "véierten"
+      }
+    },
+    {
+      "card_object_id": "vierzehnte|idx:629",
+      "de_reference": "vierzehnte",
+      "idx": 629,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "vierzehnte",
+        "level": "A1",
+        "lv": "véierzéngten"
+      }
+    },
+    {
+      "card_object_id": "vierzig|idx:630",
+      "de_reference": "vierzig",
+      "idx": 630,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "vierzig",
+        "level": "A1",
+        "lv": "véierzeg"
+      }
+    },
+    {
+      "card_object_id": "vierzigste|idx:631",
+      "de_reference": "vierzigste",
+      "idx": 631,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "vierzigste",
+        "level": "A1",
+        "lv": "véierzegsten"
+      }
+    },
+    {
+      "card_object_id": "Vogel|idx:632",
+      "de_reference": "Vogel",
+      "idx": 632,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Vogel",
+        "de_article": "der",
+        "de_plural": "die Vögel",
+        "level": "A1",
+        "lv": "Vugel"
+      }
+    },
+    {
+      "card_object_id": "voll|idx:633",
+      "de_reference": "voll",
+      "idx": 633,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "voll",
+        "level": "A1",
+        "lv": "voll"
+      }
+    },
+    {
+      "card_object_id": "vom|idx:634",
+      "de_reference": "vom",
+      "idx": 634,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "vom",
+        "level": "A1",
+        "lv": "vum",
+        "study": {
+          "id": "a1-vom",
+          "layout": "standardStudy",
+          "translation": "vum",
+          "explanation": [
+            "Haaptiddi: vom ass am Däitschen d’Zesummenzéiung vu von + dem.",
+            "Op Lëtzebuergesch entsprécht dat dacks vum, der Zesummenzéiung vu vun + dem.",
+            "D’Form kann Hierkonft, Quell oder eng Beweegung vun enger Plaz ewech ausdrécken.",
+            "Bei engem weibleche Substantiv steet vun der, zum Beispill vun der Gare.",
+            "Am Däitsche benotzt een normalerweis vom amplaz vu von dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme vom Bahnhof.",
+              "lv": "Ech komme vun der Gare."
+            },
+            {
+              "de": "Das Geschenk ist vom Vater.",
+              "lv": "De Kaddo ass vum Papp."
+            },
+            {
+              "de": "Er kommt vom Arzt.",
+              "lv": "Hie kënnt vum Dokter."
+            },
+            {
+              "de": "Sie fährt vom Flughafen.",
+              "lv": "Si fiert vum Fluchhafen."
+            },
+            {
+              "de": "Das ist vom Markt.",
+              "lv": "Dat ass vum Maart."
+            },
+            {
+              "de": "Wir kommen vom Fest.",
+              "lv": "Mir komme vum Fest."
+            },
+            {
+              "de": "Er holt Milch vom Bauern.",
+              "lv": "Hie geet Mëllech vum Bauer sichen."
+            },
+            {
+              "de": "Die Nachricht ist vom Chef.",
+              "lv": "D’Noriicht ass vum Chef."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vom",
+              "meaning": "vum • vun + dem",
+              "example": "vom Bahnhof – vun der Gare"
+            },
+            {
+              "word": "von",
+              "meaning": "vun",
+              "example": "von mir – vu mir"
+            },
+            {
+              "word": "aus",
+              "meaning": "aus • vun ... hier",
+              "example": "aus Deutschland – aus Däitschland"
+            },
+            {
+              "word": "ab",
+              "meaning": "vun ... un",
+              "example": "ab Montag – vu Méindeg un"
+            },
+            {
+              "word": "zu",
+              "meaning": "bei • zu",
+              "example": "zum Arzt – bei den Dokter"
+            }
+          ],
+          "tip": [
+            "Denk drun: von + dem → vom; op Lëtzebuergesch vun + dem → vum.",
+            "D’Form vum lëtzebuergeschen Ausdrock hänkt vum Geschlecht vum Substantiv of; dofir heescht et vun der Gare."
+          ],
+          "important": [
+            "vom steet am Däitschen nëmme bei Substantiver, déi männlech oder sächlech sinn, an zwar am Dativ.",
+            "Et kann Hierkonft, Quell oder eng Beweegung vun enger Plaz ewech uginn.",
+            "Bei engem weibleche Substantiv: von der Mutter, net vom Mutter.",
+            "vom däerf net mat aus oder ab verwiesselt ginn."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "vom",
+                "von + dem"
+              ],
+              "purple": [
+                "vum",
+                "vun + dem",
+                "vun der"
+              ],
+              "green": [
+                "Hierkonft",
+                "Quell",
+                "Beweegung"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "vom"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vun der Gare"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vom"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vum Papp"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vom"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vum Dokter"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vom"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vum Fluchhafen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vom"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vum Maart"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vom"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vum Fest"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vom"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vum Bauer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vom"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vum Chef"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "vom"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vum",
+                    "vun + dem"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "vom Bahnhof"
+                  ],
+                  "purple": [
+                    "vun der Gare"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vun"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "von mir"
+                  ],
+                  "purple": [
+                    "vu mir"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "aus",
+                    "vun ... hier"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "aus Deutschland"
+                  ],
+                  "purple": [
+                    "aus Däitschland"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ab"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vun ... un"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "ab Montag"
+                  ],
+                  "purple": [
+                    "vu Méindeg un"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei",
+                    "zu"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "zum Arzt"
+                  ],
+                  "purple": [
+                    "bei den Dokter"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "von + dem",
+                  "vom"
+                ],
+                "purple": [
+                  "vun + dem",
+                  "vum"
+                ]
+              },
+              {
+                "purple": [
+                  "vum",
+                  "vun der Gare"
+                ],
+                "green": [
+                  "Geschlecht"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "vom"
+                ],
+                "green": [
+                  "Dativ"
+                ]
+              },
+              {
+                "purple": [
+                  "Hierkonft",
+                  "Quell",
+                  "Beweegung"
+                ]
+              },
+              {
+                "yellow": [
+                  "von der Mutter"
+                ],
+                "red": [
+                  "vom Mutter"
+                ]
+              },
+              {
+                "green": [
+                  "aus"
+                ],
+                "red": [
+                  "ab"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "von|idx:635",
+      "de_reference": "von",
+      "idx": 635,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "von",
+        "level": "A1",
+        "lv": "vun"
+      }
+    },
+    {
+      "card_object_id": "vor|idx:636",
+      "de_reference": "vor",
+      "idx": 636,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "vor",
+        "level": "A1",
+        "lv": "virun • vir",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "virun • vir",
+          "explanation": [
+            "Haaptiddi: Dat däitscht vor kann Zäit oder Plaz ausdrécken; op Lëtzebuergesch steet meeschtens virun oder vir.",
+            "Virun enger Handlung oder engem Zäitpunkt bedeit et, datt eppes méi fréi geschitt.",
+            "Bei enger Plaz bedeit et, datt eppes op der viischter Säit vun eppes anescht ass.",
+            "Bei der Auerzäit benotzt een vir, zum Beispill fënnef vir aacht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Virum Iesse wäschen ech mir d’Hänn."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Den Auto steet virum Haus."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Et ass fënnef vir aacht."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Nom Iesse gi mir spadséieren."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "virun • vir",
+              "example": "Vor dem Essen... – Virum Iessen..."
+            },
+            {
+              "word": "nach",
+              "meaning": "no",
+              "example": "Nach dem Essen... – Nom Iessen..."
+            },
+            {
+              "word": "neben",
+              "meaning": "nieft",
+              "example": "Neben dem Haus. – Nieft dem Haus."
+            },
+            {
+              "word": "hinter",
+              "meaning": "hannert",
+              "example": "Hinter dem Haus. – Hannert dem Haus."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: virun bei Zäit a Plaz; vir bei der Auerzäit."
+          },
+          "important": [
+            "vor kann am Däitsche souwuel Zäit wéi och Plaz ausdrécken.",
+            "vor dem Essen = virum Iessen; vor dem Haus = virum Haus."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "vor"
+              ],
+              "purple": [
+                "virun",
+                "vir",
+                "fënnef vir aacht",
+                "méi fréi",
+                "viischter Säit"
+              ],
+              "green": [
+                "Zäit",
+                "Plaz",
+                "Auerzäit"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Vor"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Virum"
+                  ],
+                  "yellow": [
+                    "Iesse"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ],
+                  "yellow": [
+                    "Haus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "virum"
+                  ],
+                  "yellow": [
+                    "Haus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vir"
+                  ],
+                  "yellow": [
+                    "fënnef",
+                    "aacht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Nom"
+                  ],
+                  "yellow": [
+                    "Iesse"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "virun",
+                    "vir"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Vor"
+                  ],
+                  "purple": [
+                    "Virum"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "no"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Nach"
+                  ],
+                  "purple": [
+                    "Nom"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "neben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "nieft"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Neben"
+                  ],
+                  "purple": [
+                    "Nieft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hinter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "hannert"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Hinter"
+                  ],
+                  "purple": [
+                    "Hannert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Zäit",
+                  "Plaz",
+                  "Auerzäit"
+                ],
+                "purple": [
+                  "virun",
+                  "vir"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "Zäit",
+                  "Plaz"
+                ]
+              },
+              {
+                "blue": [
+                  "vor dem Essen",
+                  "vor dem Haus"
+                ],
+                "purple": [
+                  "virum Iessen",
+                  "virum Haus"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Vorname|idx:637",
+      "de_reference": "Vorname",
+      "idx": 637,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Vorname",
+        "de_article": "der",
+        "de_plural": "die Vornamen",
+        "level": "A1",
+        "lv": "Virnumm"
+      }
+    },
+    {
+      "card_object_id": "Wald|idx:638",
+      "de_reference": "Wald",
+      "idx": 638,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Wald",
+        "de_article": "der",
+        "de_plural": "die Wälder",
+        "level": "A1",
+        "lv": "Bësch"
+      }
+    },
+    {
+      "card_object_id": "Wand|idx:639",
+      "de_reference": "Wand",
+      "idx": 639,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Wand",
+        "de_article": "die",
+        "de_plural": "die Wände",
+        "level": "A1",
+        "lv": "Wand"
+      }
+    },
+    {
+      "card_object_id": "wann|idx:640",
+      "de_reference": "wann",
+      "idx": 640,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "wann",
+        "level": "A1",
+        "lv": "wéini"
+      }
+    }
+  ]
+}

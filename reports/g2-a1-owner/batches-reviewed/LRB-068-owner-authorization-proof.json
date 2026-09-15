@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-068",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-15T17:05:48.973Z",
+  "linguisticVerdict": "LRB_068_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "languages": {
+    "lb": 50
+  },
+  "unique_cards": 50,
+  "scope": "Tante..wann (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review complete",
+  "productionSource": "data/lb/a1.js",
+  "input_csv_sha256": "1b1e2fff72478e9f91a7951664143ba955fe3753182247c00ec0b4c7c8a978c1",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-068-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-068-input.csv",
+  "note": "Gala verdict LRB_068_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING (6 full composite + 44 scalar cards; composites: über, um, unter, verstehen, vom, vor). LB batch 11 complete; 9 LB rows remain in 7737 pool. DE/production/Crowdin/ingest/apply unchanged."
+}
