@@ -1,0 +1,87 @@
+{
+  "batch_id": "LRB-065",
+  "correction_round": 2,
+  "classification": "LRB_065_GALA_CORRECTION_2",
+  "authorized_pr": 815,
+  "authorized_branch": "cursor/lrb-065-owner-authorization-aa66",
+  "authorized_head": "1e3005a66a918eeacd32355f4e96b8acc9c628ae",
+  "source_mapping_sha256": "44eff77526808da6715ae1daf8c7ac46ed925ab2d54b9f0a133bce50de4a8f42",
+  "expected_counts_after_rebuild": {
+    "rows": 50,
+    "unique_cards": 50,
+    "LABOT": 47,
+    "NELABOT": 3,
+    "PENDING": 0,
+    "full_composite_repairs": 9
+  },
+  "changes": [
+    {
+      "card_object_id": "nehmen|idx:435",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/nehmen|idx:435/study.explanation/3",
+      "current_value": "holen bedeit, eppes siche ze goen an et matzebréngen oder eng Persoun ofzehuelen.",
+      "replacement_value": "holen bedeit, eppes sichen ze goen an et matzebréngen oder eng Persoun ofzehuelen.",
+      "reason": "Eifeler Reegel: de Schluss-n bleift virun z an der Konstruktioun sichen ze goen."
+    },
+    {
+      "card_object_id": "noch|idx:451",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/noch|idx:451/study.examples/1",
+      "current_value": {
+        "de": "Ich bin noch zu Hause.",
+        "lv": "Ech sinn nach doheem."
+      },
+      "replacement_value": {
+        "de": "Wir warten noch.",
+        "lv": "Mir waarden nach."
+      },
+      "reason": "Déi aktuell Beispillkoppel ass eng exakt Duplikatioun vun study.examples[0]."
+    },
+    {
+      "card_object_id": "nur|idx:456",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/nur|idx:456/study.examples/1",
+      "current_value": {
+        "de": "Ich habe nur zehn Euro.",
+        "lv": "Ech hunn nëmmen zéng Euro."
+      },
+      "replacement_value": {
+        "de": "Ich habe nur eine Frage.",
+        "lv": "Ech hunn nëmmen eng Fro."
+      },
+      "reason": "Déi aktuell Beispillkoppel ass eng exakt Duplikatioun vun study.examples[0]."
+    },
+    {
+      "card_object_id": "Paar|idx:468",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_scalar/Paar|idx:468",
+      "current_value": "Koppel",
+      "replacement_value": "Puer • Koppel",
+      "reason": "Koppel eleng deckt nëmmen d'Persounekoppel; Puer behält och d'Quellbedeitung vun zwee zesummegehéierende Saachen."
+    },
+    {
+      "card_object_id": "passen|idx:471",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/passen|idx:471/study.explanation/3",
+      "current_value": "Eng ganz heefeg Ausdrock ass Das passt. = Dat passt.",
+      "replacement_value": "E ganz heefegen Ausdrock ass Das passt. = Dat passt.",
+      "reason": "Ausdrock ass männlech; Artikel an Adjektivendung mussen E ... heefegen sinn."
+    }
+  ],
+  "section_accent_changes": [],
+  "nelabot_must_remain_unchanged": {
+    "nichts|idx:448": "Näischt",
+    "Null|idx:454": "Null",
+    "Orange|idx:466": "Eng Orange"
+  },
+  "nelabot_owner_note_replacements": {
+    "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+    "new_mapping_key": "nelabot_owner_notes",
+    "values": {
+      "nichts|idx:448": "Näischt ir pareizais luksemburgiešu ekvivalents vācu nichts un latviešu nekas; ražošanas vērtība nav jāmaina.",
+      "Null|idx:454": "Null ir pareizais luksemburgiešu ekvivalents vācu Null un latviešu nulle; ražošanas vērtība nav jāmaina.",
+      "Orange|idx:466": "Eng Orange ir dabiska luksemburgiešu nominatīvā frāze un pilnībā saglabā vācu Orange un latviešu apelsīns nozīmi; ražošanas vērtība nav jāmaina."
+    }
+  },
+  "final_state": "AWAITING_GALA_VERDICT"
+}

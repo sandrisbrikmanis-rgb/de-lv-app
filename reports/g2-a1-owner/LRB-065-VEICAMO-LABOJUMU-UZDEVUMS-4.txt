@@ -1,0 +1,33 @@
+LRB-065 — VEICAMO LABOJUMU UZDEVUMS 4
+
+STATUSS
+Tikai metadatu korekcija. Lingvistiskās vērtības ir pārbaudītas un pareizas, bet GALA PASS vēl netiek piešķirts, jo status-index.json joprojām norāda korekciju #2.
+
+IDENTITĀTES VĀRTI
+- PR: #815
+- Zars: cursor/lrb-065-owner-authorization-aa66
+- Sākuma HEAD: 39b3ec13858983924b8bb5243b38772f8bc4a86a
+- Mapping SHA-256: 5d3534ca146e57fffd70017a83ea60e3d5c91446208996f2dd466f6e1a2840d5
+- decisions.json SHA-256: d142052ea71af8d0e94d71245c10d94291ce1c2009d870a6bea709b4e2f41440
+- Labojumu fails: LRB-065-decisions-COPY-PASTE-4.json
+- Labojumu faila SHA-256: 667d1779fe5860508030e2cb61d2a7d717167738285cb029b158247dfcb76d50
+
+COPY/PASTE IZPILDE
+1. Mainīt tikai reports/g2-a1-owner/status-index.json.
+2. Precīzi piemērot visas sešas changes[] operācijas no JSON faila.
+3. Replace operācijās vispirms pārbaudīt current_value; add operācijās laukam jābūt neesošam.
+4. Pārbaudīt JSON sintaksi un to, ka LRB-065 un lastBatch classification abi norāda CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT.
+
+OBLIGĀTI NEMAINĪT
+- OWNER mapping un decisions.json;
+- decisions.csv un gala-cards.json;
+- visas lingvistiskās vērtības un NELABOT piezīmes;
+- data/a1.js, data/lb/a1.js, production, Crowdin un ingest/apply;
+- skaitļus 47 LABOT / 3 NELABOT / 0 PENDING un 50/50 rindas.
+
+ATBILDES FORMĀTS
+- Commitēt tajā pašā zarā un PR #815.
+- Norādīt jauno pilno HEAD un status-index.json SHA-256.
+- Apliecināt, ka mainīts tikai status-index.json un pievienoti abi korekcijas #4 uzdevuma faili.
+- Atgriezt precīzu klasifikāciju: LRB_065_METADATA_CORRECTION_4_COMPLETE_AWAITING_GALA_VERDICT
+- Nepiešķirt GALA PASS un nemainīt statusu uz LINGUISTICALLY_CLOSED.

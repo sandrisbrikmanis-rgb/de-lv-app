@@ -1,0 +1,88 @@
+{
+  "batch_id": "LRB-065",
+  "correction_round": 3,
+  "classification": "LRB_065_GALA_CORRECTION_3",
+  "authorized_pr": 815,
+  "authorized_branch": "cursor/lrb-065-owner-authorization-aa66",
+  "authorized_head": "c542c51b7136e239797bfd3af495d76856749e5a",
+  "source_mapping_sha256": "412e4bbf67e222dfad5b31210d4794fd4f33fa12edf0b2e5599cab81bdcaa7c1",
+  "correction_2_sha256": "007dc76f22abf38eb18d70bb501cd915fe5d395649fd6675acae9489685ebf60",
+  "expected_counts_after_rebuild": {
+    "rows": 50,
+    "unique_cards": 50,
+    "LABOT": 47,
+    "NELABOT": 3,
+    "PENDING": 0,
+    "full_composite_repairs": 9
+  },
+  "changes": [
+    {
+      "card_object_id": "noch|idx:451",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/noch|idx:451/study.examples/1",
+      "current_value": {
+        "de": "Wir warten noch.",
+        "lv": "Mir waarden nach."
+      },
+      "replacement_value": {
+        "de": "Ich bin noch zu Hause.",
+        "lv": "Ech sinn nach ëmmer doheem."
+      },
+      "reason": "Atjauno oriģinālā LV→DE avota vācu teikumu; atšķirīgais LB formulējums novērš precīzu DE+LB pāra dublikātu, nemainot nozīmi."
+    },
+    {
+      "card_object_id": "noch|idx:451",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/noch|idx:451/study.sectionAccents/examples/1/lv/purple",
+      "current_value": [
+        "nach"
+      ],
+      "replacement_value": [
+        "nach ëmmer"
+      ],
+      "reason": "Akcenta tokens precīzi jāsaskaņo ar jauno LB piemēru."
+    },
+    {
+      "card_object_id": "nur|idx:456",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/nur|idx:456/study.examples/1",
+      "current_value": {
+        "de": "Ich habe nur eine Frage.",
+        "lv": "Ech hunn nëmmen eng Fro."
+      },
+      "replacement_value": {
+        "de": "Ich habe nur zehn Euro.",
+        "lv": "Ech hunn just zéng Euro."
+      },
+      "reason": "Atjauno oriģinālā LV→DE avota vācu teikumu; atšķirīgais LB formulējums novērš precīzu DE+LB pāra dublikātu, nemainot nozīmi."
+    },
+    {
+      "card_object_id": "nur|idx:456",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/nur|idx:456/study.sectionAccents/examples/1/lv/purple",
+      "current_value": [
+        "nëmmen"
+      ],
+      "replacement_value": [
+        "just"
+      ],
+      "reason": "Akcenta tokens precīzi jāsaskaņo ar jauno LB piemēru."
+    }
+  ],
+  "required_post_repair_gates": {
+    "de_source_mismatches_across_9_full_composites": 0,
+    "duplicate_example_pairs": 0,
+    "section_accent_mismatches": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "nelabot_must_remain_unchanged": {
+    "nichts|idx:448": "Näischt",
+    "Null|idx:454": "Null",
+    "Orange|idx:466": "Eng Orange"
+  },
+  "final_state": "AWAITING_GALA_VERDICT"
+}
