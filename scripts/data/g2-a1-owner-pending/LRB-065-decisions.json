@@ -1,0 +1,302 @@
+{
+  "g2/a1/lb|natürlich|idx:433|study.explanation, study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"natierlech • selbstverständlech\",\"study.translation\":\"natierlech • selbstverständlech\",\"study.explanation\":\"[\\\"Haaptiddi: natürlich bedeit als Adverb natierlech oder selbstverständlech, an als Adjektiv natierlech.\\\",\\\"Am Gespréich, wann een eppes bestätegt, bedeit natürlich = natierlech oder selbstverständlech (Kommst du mit? – Natürlich! = Kënns du mat? – Natierlech!).\\\",\\\"Wann et ëm d’Natur, d’Hierkonft oder Eegeschafte geet, bedeit natürlich = natierlech (natürliche Schönheit = natierlech Schéinheet).\\\",\\\"De Kontext – eng Äntwert oder Bestätegung géintiwwer enger Beschreiwung – weist déi richteg Bedeitung.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Kommst du mit? – Natürlich!\\\",\\\"lv\\\":\\\"Kënns du mat? – Natierlech!\\\"},{\\\"de\\\":\\\"Das ist eine natürliche Reaktion.\\\",\\\"lv\\\":\\\"Dat ass eng natierlech Reaktioun.\\\"},{\\\"de\\\":\\\"Natürlich helfe ich dir.\\\",\\\"lv\\\":\\\"Natierlech hëllefen ech dir.\\\"},{\\\"de\\\":\\\"Sie hat natürliche rote Haare.\\\",\\\"lv\\\":\\\"Si huet natierlech rout Hoer.\\\"},{\\\"de\\\":\\\"Natürlich kann ich das machen.\\\",\\\"lv\\\":\\\"Natierlech kann ech dat maachen.\\\"},{\\\"de\\\":\\\"Das ist ganz natürlich.\\\",\\\"lv\\\":\\\"Dat ass ganz natierlech/normal.\\\"}]\",\"study.tip\":\"[\\\"Als eenzelt Wuert, fir eppes ze bestätegen oder ze äntweren → natierlech/selbstverständlech.\\\",\\\"Nieft engem Substantiv, fir d’Hierkonft oder eng Eegeschaft ze beschreiwen → natierlech.\\\"]\",\"study.important\":\"[\\\"natürlich = natierlech/selbstverständlech (Adverb, Bestätegung) ODER natierlech (Adjektiv).\\\",\\\"Natürlich! als eenzelt Ausruffwuert bedeit ëmmer natierlech oder selbstverständlech!\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"natürlich\\\"],\\\"purple\\\":[\\\"natierlech\\\",\\\"selbstverständlech\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Natierlech\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"natürliche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"natierlech\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Natierlech\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"natürliche\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"natierlech\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Natierlech\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"natürlich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"natierlech\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"natierlech\\\",\\\"selbstverständlech\\\"]},{\\\"green\\\":[\\\"natierlech\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"natierlech\\\",\\\"selbstverständlech\\\"]},{\\\"blue\\\":[\\\"Natürlich!\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: natürlich|idx:433."
+  },
+  "g2/a1/lb|neben|idx:434|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nieft",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: neben|idx:434."
+  },
+  "g2/a1/lb|nehmen|idx:435|lv, study|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"huelen\",\"study.translation\":\"huelen\",\"study.explanation\":\"[\\\"Haaptiddi: nehmen bedeit huelen.\\\",\\\"nehmen gëtt benotzt, wann een eppes hëlt oder auswielt.\\\",\\\"Dat ass net datselwecht wéi bringen, well bringen bedeit, enger Persoun eppes ze bréngen.\\\",\\\"holen bedeit, eppes siche ze goen an et matzebréngen oder eng Persoun ofzehuelen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich nehme den Bus.\\\",\\\"lv\\\":\\\"Ech huelen de Bus.\\\"},{\\\"de\\\":\\\"Nimm das Buch!\\\",\\\"lv\\\":\\\"Huel d’Buch!\\\"},{\\\"de\\\":\\\"Ich bringe dir das Buch.\\\",\\\"lv\\\":\\\"Ech bréngen dir d’Buch.\\\"},{\\\"de\\\":\\\"Ich hole dich ab.\\\",\\\"lv\\\":\\\"Ech huelen dech of.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"nehmen\\\",\\\"meaning\\\":\\\"huelen\\\",\\\"example\\\":\\\"Nimm das Buch!\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"bréngen / dohinnerbréngen\\\",\\\"example\\\":\\\"Ich bringe dir das Buch.\\\"},{\\\"word\\\":\\\"holen\\\",\\\"meaning\\\":\\\"siche goen / ofhuelen\\\",\\\"example\\\":\\\"Ich hole Wasser.\\\"},{\\\"word\\\":\\\"mitnehmen\\\",\\\"meaning\\\":\\\"mathuelen\\\",\\\"example\\\":\\\"Ich nehme dich mit.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: eppes fir sech huelen → nehmen; engem eppes bréngen → bringen.\\\"}\",\"study.important\":\"[\\\"Ich nehme den Bus bedeit op Lëtzebuergesch „Ech huelen de Bus“.\\\",\\\"nehmen ass net datselwecht wéi bringen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nehmen\\\"],\\\"purple\\\":[\\\"huelen\\\"],\\\"red\\\":[\\\"bringen\\\",\\\"holen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"nehme\\\"],\\\"yellow\\\":[\\\"Bus\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"huelen\\\"],\\\"yellow\\\":[\\\"Bus\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Nimm\\\"],\\\"yellow\\\":[\\\"Buch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Huel\\\"],\\\"yellow\\\":[\\\"Buch\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"bringe\\\"],\\\"yellow\\\":[\\\"Buch\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"bréngen\\\"],\\\"yellow\\\":[\\\"Buch\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"hole\\\"],\\\"green\\\":[\\\"dich\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"huelen\\\",\\\"of\\\"],\\\"green\\\":[\\\"dech\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"nehmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"huelen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Nimm\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"bréngen\\\",\\\"dohinnerbréngen\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"bringe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"holen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"siche goen\\\",\\\"ofhuelen\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"hole\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"mitnehmen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mathuelen\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"nehme\\\",\\\"mit\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"nehmen\\\"],\\\"purple\\\":[\\\"fir sech huelen\\\"],\\\"red\\\":[\\\"bringen\\\",\\\"engem eppes bréngen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"nehme den Bus\\\"],\\\"purple\\\":[\\\"huelen de Bus\\\"]},{\\\"blue\\\":[\\\"nehmen\\\"],\\\"red\\\":[\\\"bringen\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: nehmen|idx:435."
+  },
+  "g2/a1/lb|nein|idx:436|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nee",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: nein|idx:436."
+  },
+  "g2/a1/lb|nennen|idx:437|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nennen",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: nennen|idx:437."
+  },
+  "g2/a1/lb|nett|idx:438|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "léif",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: nett|idx:438."
+  },
+  "g2/a1/lb|neu|idx:439|study.explanation, study.examples|TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nei (fir Saachen)\",\"study.translation\":\"nei (fir Saachen)\",\"study.explanation\":\"[\\\"Haaptiddi: neu bedeit nei am Sënn vun enger Saach – viru Kuerzem hiergestallt, kaf oder fir d’éischt benotzt.\\\",\\\"neu beschreift Saachen, Apparater, Kleeder, Haiser, Iddien asw. – net den Alter vun enger Persoun oder engem Déier.\\\",\\\"Op Lëtzebuergesch ënnerscheet een tëscht jonk fir den Alter (jung) an nei fir eppes, wat viru Kuerzem entstanen ass (neu).\\\",\\\"Fir den Alter vun enger Persoun oder engem Déier benotzt een jung, net neu.\\\",\\\"neu gëtt och am iwwerdroene Sënn benotzt: eng nei Aarbecht, nei Informatiounen, en neien Ufank.\\\",\\\"De Géigendeel ass alt; d’Substantiv das Neue bedeit eppes Neies.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Mein Handy ist neu.\\\",\\\"lv\\\":\\\"Mäin Handy ass nei.\\\"},{\\\"de\\\":\\\"Wir haben ein neues Auto.\\\",\\\"lv\\\":\\\"Mir hunn en neien Auto.\\\"},{\\\"de\\\":\\\"Das ist meine neue Wohnung.\\\",\\\"lv\\\":\\\"Dat ass meng nei Wunneng.\\\"},{\\\"de\\\":\\\"Ich habe neue Schuhe gekauft.\\\",\\\"lv\\\":\\\"Ech hunn nei Schong kaf.\\\"},{\\\"de\\\":\\\"Das ist eine neue Idee.\\\",\\\"lv\\\":\\\"Dat ass eng nei Iddi.\\\"},{\\\"de\\\":\\\"Er hat einen neuen Job.\\\",\\\"lv\\\":\\\"Hien huet eng nei Aarbecht.\\\"},{\\\"de\\\":\\\"Was gibt es Neues?\\\",\\\"lv\\\":\\\"Wat gëtt et Neies?\\\"}]\",\"study.tip\":\"[\\\"neu bezitt sech op Saachen, Apparater an Neiegkeeten – fir den Alter vun enger Persoun benotzt een jung.\\\",\\\"Géigendeel: neu ↔ alt (nei ↔ al).\\\"]\",\"study.important\":\"[\\\"neu beschreift Saachen an Neiegkeeten, net den Alter vun enger Persoun oder engem Déier.\\\",\\\"Fir den Alter vun enger Persoun oder engem Déier benotzt een jung, net neu.\\\",\\\"Falsch: Meine Schwester ist neu. → Richteg: Meine Schwester ist jung.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"neu\\\"],\\\"purple\\\":[\\\"nei\\\"],\\\"green\\\":[\\\"jung\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"neu\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nei\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neues\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"neien\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nei\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nei\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neue\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nei\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"neuen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nei\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Neues\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Neies\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"neu\\\"],\\\"purple\\\":[\\\"Saachen\\\",\\\"Apparater\\\",\\\"Neiegkeeten\\\"],\\\"green\\\":[\\\"jung\\\"]},{\\\"blue\\\":[\\\"neu\\\"],\\\"red\\\":[\\\"alt\\\"],\\\"purple\\\":[\\\"nei\\\",\\\"al\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"neu\\\"],\\\"purple\\\":[\\\"Saachen\\\",\\\"Neiegkeeten\\\"]},{\\\"green\\\":[\\\"jung\\\"],\\\"red\\\":[\\\"neu\\\"]},{\\\"red\\\":[\\\"Meine Schwester ist neu\\\"],\\\"green\\\":[\\\"Meine Schwester ist jung\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: neu|idx:439."
+  },
+  "g2/a1/lb|neun|idx:440|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "néng",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: neun|idx:440."
+  },
+  "g2/a1/lb|neunhundert|idx:441|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nénghonnert",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: neunhundert|idx:441."
+  },
+  "g2/a1/lb|neunte|idx:442|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "néngten",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: neunte|idx:442."
+  },
+  "g2/a1/lb|neunzehn|idx:443|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nonzéng",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: neunzehn|idx:443."
+  },
+  "g2/a1/lb|neunzehnte|idx:444|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nonzéngten",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: neunzehnte|idx:444."
+  },
+  "g2/a1/lb|neunzig|idx:445|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nonzeg",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: neunzig|idx:445."
+  },
+  "g2/a1/lb|neunzigste|idx:446|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "nonzegsten",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: neunzigste|idx:446."
+  },
+  "g2/a1/lb|nicht|idx:447|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "net",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: nicht|idx:447."
+  },
+  "g2/a1/lb|nichts|idx:448|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "LRB-065 OWNER mapping NELABOT: preserve production for nichts|idx:448."
+  },
+  "g2/a1/lb|nie|idx:449|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ni",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: nie|idx:449."
+  },
+  "g2/a1/lb|niemand|idx:450|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "keen",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: niemand|idx:450."
+  },
+  "g2/a1/lb|noch|idx:451|lv; study.translation; study.explanation; study.examples|CORRUPTED_TEXT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nach • nach ëmmer\",\"study.translation\":\"nach • nach ëmmer\",\"study.explanation\":\"[\\\"Haaptiddi: Eppes dauert weider oder ass nach net eriwwer.\\\",\\\"noch bedeit meeschtens, datt eppes weider dauert.\\\",\\\"Et beschreift dacks eng Fortsetzung oder en Zoustand, deen nach net eriwwer ass.\\\",\\\"noch bedeit nach oder nach ëmmer: Eppes dauert weider oder ass nach net eriwwer.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin noch zu Hause.\\\",\\\"lv\\\":\\\"Ech sinn nach doheem.\\\"},{\\\"de\\\":\\\"Ich bin noch zu Hause.\\\",\\\"lv\\\":\\\"Ech sinn nach doheem.\\\"},{\\\"de\\\":\\\"Bist du noch da?\\\",\\\"lv\\\":\\\"Bass du nach do?\\\"}]\",\"study.tip\":\"[\\\"Eppes dauert weider oder ass nach net eriwwer.\\\",\\\"Benotz noch, wann de Kontext dëser Bedeitung entsprécht.\\\"]\",\"study.important\":\"[\\\"noch = nach / nach ëmmer.\\\",\\\"Eppes dauert weider oder ass nach net eriwwer.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"nach\\\",\\\"nach ëmmer\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nach\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nach\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"noch\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nach\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"dauert weider\\\",\\\"nach net eriwwer\\\"]},{\\\"blue\\\":[\\\"noch\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"noch\\\"],\\\"purple\\\":[\\\"nach\\\",\\\"nach ëmmer\\\"]},{\\\"purple\\\":[\\\"dauert weider\\\",\\\"nach net eriwwer\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: noch|idx:451."
+  },
+  "g2/a1/lb|normal|idx:452|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "normal",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: normal|idx:452."
+  },
+  "g2/a1/lb|November|idx:453|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "November",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: November|idx:453."
+  },
+  "g2/a1/lb|Null|idx:454|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "LRB-065 OWNER mapping NELABOT: preserve production for Null|idx:454."
+  },
+  "g2/a1/lb|Nummer|idx:455|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Nummer",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Nummer|idx:455."
+  },
+  "g2/a1/lb|nur|idx:456|lv; study.explanation; study.examples; study.tip; study.important|CORRUPTED_TEXT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"nëmmen • just\",\"study.translation\":\"nëmmen • just\",\"study.explanation\":\"[\\\"Haaptiddi: nur begrenzt eng Quantitéit, d’Zuel vu Persounen, eng Auswiel oder d’Méiglechkeeten.\\\",\\\"nur bedeit meeschtens, datt eng Quantitéit oder eng Auswiel begrenzt ass.\\\",\\\"Et weist dacks, wéi vill, wat genee oder wien déi eenzeg Persoun ass.\\\",\\\"nur bedeit nëmmen oder just, näischt méi: Et begrenzt eng Quantitéit oder eng Auswiel.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich habe nur zehn Euro.\\\",\\\"lv\\\":\\\"Ech hunn nëmmen zéng Euro.\\\"},{\\\"de\\\":\\\"Ich habe nur zehn Euro.\\\",\\\"lv\\\":\\\"Ech hunn nëmmen zéng Euro.\\\"},{\\\"de\\\":\\\"Nur du kannst mir helfen.\\\",\\\"lv\\\":\\\"Nëmmen du kanns mir hëllefen.\\\"},{\\\"de\\\":\\\"Ich möchte nur Kaffee.\\\",\\\"lv\\\":\\\"Ech wëll nëmme Kaffi.\\\"},{\\\"de\\\":\\\"Ich habe nur acht Euro.\\\",\\\"lv\\\":\\\"Ech hunn nëmmen aacht Euro.\\\"}]\",\"study.tip\":\"[\\\"nur begrenzt eng Quantitéit, d’Zuel vu Persounen, eng Auswiel oder d’Méiglechkeeten.\\\",\\\"Benotz nur, wann de Kontext dëser Bedeitung entsprécht.\\\"]\",\"study.important\":\"[\\\"Dat lëtzebuergescht „just“ gëtt am Däitschen net ëmmer mat nur iwwersat.\\\",\\\"nur = nëmmen / just.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"nëmmen\\\",\\\"just\\\"],\\\"yellow\\\":[\\\"Quantitéit\\\",\\\"Auswiel\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nëmmen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nëmmen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Nëmmen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nëmme\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"nur\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"nëmmen\\\"]}}],\\\"tip\\\":[{\\\"yellow\\\":[\\\"Quantitéit\\\",\\\"Auswiel\\\",\\\"Méiglechkeeten\\\"]},{\\\"blue\\\":[\\\"nur\\\"]}],\\\"important\\\":[{\\\"purple\\\":[\\\"just\\\"],\\\"blue\\\":[\\\"nur\\\"]},{\\\"blue\\\":[\\\"nur\\\"],\\\"purple\\\":[\\\"nëmmen\\\",\\\"just\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: nur|idx:456."
+  },
+  "g2/a1/lb|ob|idx:457|lv; study.explanation; study.examples|WRONG_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ob\",\"study.translation\":\"ob\",\"study.explanation\":\"[\\\"Haaptiddi: ob leet eng indirekt Fro an a bedeit op Lëtzebuergesch meeschtens ob.\\\",\\\"ob steet no Verbe wéi fragen, wissen, sehen a sagen, wann et keng direkt Fro ass.\\\",\\\"An enger direkter Fro gëtt ob am Däitschen normalerweis net benotzt.\\\",\\\"Um Niveau A1 ass et wichteg, ob vun oder z’ënnerscheeden.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich weiß nicht, ob er kommt.\\\",\\\"lv\\\":\\\"Ech weess net, ob hie kënnt.\\\"},{\\\"de\\\":\\\"Sie fragt, ob du Zeit hast.\\\",\\\"lv\\\":\\\"Si freet, ob s du Zäit hues.\\\"},{\\\"de\\\":\\\"Sag mir, ob das stimmt.\\\",\\\"lv\\\":\\\"So mir, ob dat stëmmt.\\\"},{\\\"de\\\":\\\"Kommst du heute oder morgen?\\\",\\\"lv\\\":\\\"Kënns du haut oder muer?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"ob an enger indirekter Fro\\\",\\\"example\\\":\\\"Ich weiß nicht, ob er kommt.\\\"},{\\\"word\\\":\\\"oder\\\",\\\"meaning\\\":\\\"oder bei enger Auswiel\\\",\\\"example\\\":\\\"Kaffee oder Tee?\\\"},{\\\"word\\\":\\\"wenn\\\",\\\"meaning\\\":\\\"wann / wa\\\",\\\"example\\\":\\\"Wenn du Zeit hast...\\\"},{\\\"word\\\":\\\"dass\\\",\\\"meaning\\\":\\\"datt\\\",\\\"example\\\":\\\"Ich weiß, dass er kommt.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: Ech weess net, ob ... → ob; Kaffee oder Tee → oder.\\\"}\",\"study.important\":\"[\\\"ob ass net déi normal Form fir eng Auswiel tëscht zwou Saachen.\\\",\\\"Bei Kaffee oder Tee? benotzt een oder, net ob.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"ob\\\"],\\\"purple\\\":[\\\"indirekt Fro\\\"],\\\"green\\\":[\\\"oder\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ob\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ob\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ob\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"green\\\":[\\\"oder\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"blue\\\":[\\\"ob\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"indirekter Fro\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"ob\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"oder\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Auswiel\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"oder\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wenn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"wann\\\",\\\"wa\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"Wenn\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dass\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"datt\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"dass\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"ob\\\"],\\\"green\\\":[\\\"oder\\\"],\\\"purple\\\":[\\\"Ech weess net\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"ob\\\"],\\\"purple\\\":[\\\"Auswiel\\\"]},{\\\"green\\\":[\\\"oder\\\"],\\\"red\\\":[\\\"ob\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: ob|idx:457."
+  },
+  "g2/a1/lb|oben|idx:458|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "uewen",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: oben|idx:458."
+  },
+  "g2/a1/lb|oder|idx:459|study.explanation; study.examples|CORRUPTED_TEXT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"oder\",\"study.translation\":\"oder\",\"study.explanation\":\"[\\\"Haaptiddi: oder gëtt benotzt, wann een tëscht zwou oder méi Méiglechkeete wielt.\\\",\\\"Op Lëtzebuergesch bedeit oder meeschtens oder.\\\",\\\"Dat ass net datselwecht wéi ob, dat eng indirekt Fro aleet.\\\",\\\"Am Gespréich kann oder och um Enn vun engem Saz stoen: Du kommst, oder?\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Kaffee oder Tee?\\\",\\\"lv\\\":\\\"Kaffi oder Téi?\\\"},{\\\"de\\\":\\\"Heute oder morgen?\\\",\\\"lv\\\":\\\"Haut oder muer?\\\"},{\\\"de\\\":\\\"Willst du Pizza oder Salat?\\\",\\\"lv\\\":\\\"Wëlls du Pizza oder Zalot?\\\"},{\\\"de\\\":\\\"Du kommst, oder?\\\",\\\"lv\\\":\\\"Du kënns, oder?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"oder\\\",\\\"meaning\\\":\\\"oder bei enger Auswiel\\\",\\\"example\\\":\\\"Kaffee oder Tee?\\\"},{\\\"word\\\":\\\"ob\\\",\\\"meaning\\\":\\\"ob an enger indirekter Fro\\\",\\\"example\\\":\\\"Ich weiß nicht, ob er kommt.\\\"},{\\\"word\\\":\\\"und\\\",\\\"meaning\\\":\\\"an\\\",\\\"example\\\":\\\"Kaffee und Kuchen.\\\"},{\\\"word\\\":\\\"aber\\\",\\\"meaning\\\":\\\"awer\\\",\\\"example\\\":\\\"Ich komme, aber später.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: eng Auswiel tëscht Méiglechkeeten → oder.\\\"}\",\"study.important\":\"[\\\"oder gëtt fir eng Auswiel benotzt: Kaffee oder Tee.\\\",\\\"An enger indirekter Fro entsprécht dem lëtzebuergeschen ob normalerweis dat däitscht ob.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"oder\\\"],\\\"purple\\\":[\\\"wielt\\\",\\\"Méiglechkeete\\\"],\\\"green\\\":[\\\"ob\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"oder\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"oder\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"oder\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"oder\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"blue\\\":[\\\"oder\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Auswiel\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"oder\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ob\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"indirekter Fro\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"ob\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"und\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"an\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"und\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"aber\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"awer\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"aber\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"oder\\\"],\\\"purple\\\":[\\\"Auswiel\\\",\\\"Méiglechkeeten\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"oder\\\"],\\\"purple\\\":[\\\"Auswiel\\\"]},{\\\"green\\\":[\\\"ob\\\"],\\\"purple\\\":[\\\"indirekter Fro\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: oder|idx:459."
+  },
+  "g2/a1/lb|öffnen|idx:460|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "opmaachen",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: öffnen|idx:460."
+  },
+  "g2/a1/lb|oft|idx:461|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dacks",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: oft|idx:461."
+  },
+  "g2/a1/lb|ohne|idx:462|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ouni",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: ohne|idx:462."
+  },
+  "g2/a1/lb|Ohr|idx:463|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ouer",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Ohr|idx:463."
+  },
+  "g2/a1/lb|Oktober|idx:464|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Oktober",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Oktober|idx:464."
+  },
+  "g2/a1/lb|Onkel|idx:465|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Monni",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Onkel|idx:465."
+  },
+  "g2/a1/lb|Orange|idx:466|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "NELABOT",
+    "owner_new": "",
+    "owner_note": "LRB-065 OWNER mapping NELABOT: preserve production for Orange|idx:466."
+  },
+  "g2/a1/lb|Ostern|idx:467|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Ouschteren",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Ostern|idx:467."
+  },
+  "g2/a1/lb|Paar|idx:468|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Koppel",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Paar|idx:468."
+  },
+  "g2/a1/lb|Papier|idx:469|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pabeier",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Papier|idx:469."
+  },
+  "g2/a1/lb|Park|idx:470|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Park",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Park|idx:470."
+  },
+  "g2/a1/lb|passen|idx:471|study.explanation; study.examples; study.comparison|CORRUPTED_TEXT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"passen • stoen\",\"study.translation\":\"passen • stoen\",\"study.explanation\":\"[\\\"Haaptiddi: passen bedeit passen, engem stoen oder gëeegent sinn.\\\",\\\"Bei Kleeder bedeit passen dacks, datt d’Gréisst richteg ass.\\\",\\\"Bei Faarwen oder engem Stil kann passen bedeiten, datt eppes enger Persoun gutt steet.\\\",\\\"Eng ganz heefeg Ausdrock ass Das passt. = Dat passt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Die Jacke passt mir.\\\",\\\"lv\\\":\\\"D’Jackett passt mir.\\\"},{\\\"de\\\":\\\"Das Kleid passt gut.\\\",\\\"lv\\\":\\\"D’Kleed passt gutt.\\\"},{\\\"de\\\":\\\"Die Farbe passt zu dir.\\\",\\\"lv\\\":\\\"D’Faarf passt bei dech.\\\"},{\\\"de\\\":\\\"Das passt.\\\",\\\"lv\\\":\\\"Dat passt.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"passen\\\",\\\"meaning\\\":\\\"passen / engem stoen\\\",\\\"example\\\":\\\"Die Jacke passt mir.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"engem stoen / stoen\\\",\\\"example\\\":\\\"Rot steht dir gut.\\\"},{\\\"word\\\":\\\"geeignet sein\\\",\\\"meaning\\\":\\\"gëeegent sinn\\\",\\\"example\\\":\\\"Das ist geeignet.\\\"},{\\\"word\\\":\\\"funktionieren\\\",\\\"meaning\\\":\\\"funktionéieren\\\",\\\"example\\\":\\\"Das funktioniert.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: Das passt. = Dat passt.\\\"}\",\"study.important\":\"[\\\"passen bezitt sech net nëmmen op Kleeder.\\\",\\\"Et kann och bedeiten, datt eng Zäit, e Plang oder eng Léisung passend ass.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"passen\\\",\\\"Das passt\\\"],\\\"purple\\\":[\\\"passen\\\",\\\"stoen\\\",\\\"gëeegent\\\"],\\\"yellow\\\":[\\\"Kleeder\\\",\\\"Faarwen\\\",\\\"Stil\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Jacke\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Jackett\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Kleid\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Kleed\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Farbe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"passt\\\"],\\\"yellow\\\":[\\\"Faarf\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Das passt\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Dat passt\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"passen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"passen\\\",\\\"stoen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"passt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"stoen\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"steht\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"geeignet sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"gëeegent sinn\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"geeignet\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"funktionieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"funktionéieren\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"funktioniert\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"Das passt\\\"],\\\"purple\\\":[\\\"Dat passt\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"passen\\\"],\\\"yellow\\\":[\\\"Kleeder\\\"]},{\\\"purple\\\":[\\\"Zäit\\\",\\\"Plang\\\",\\\"Léisung\\\",\\\"passend\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: passen|idx:471."
+  },
+  "g2/a1/lb|Pause|idx:472|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Paus",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Pause|idx:472."
+  },
+  "g2/a1/lb|Person|idx:473|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Persoun",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Person|idx:473."
+  },
+  "g2/a1/lb|Pferd|idx:474|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Päerd",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Pferd|idx:474."
+  },
+  "g2/a1/lb|Pflanze|idx:475|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Planz",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Pflanze|idx:475."
+  },
+  "g2/a1/lb|Pizza|idx:476|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Pizza",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Pizza|idx:476."
+  },
+  "g2/a1/lb|Plan|idx:477|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Plang",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Plan|idx:477."
+  },
+  "g2/a1/lb|Platz|idx:478|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Plaz",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Platz|idx:478."
+  },
+  "g2/a1/lb|Polizei|idx:479|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Police",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Polizei|idx:479."
+  },
+  "g2/a1/lb|Post|idx:480|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Post",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Post|idx:480."
+  },
+  "g2/a1/lb|Preis|idx:481|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Präis",
+    "owner_note": "LRB-065 OWNER mapping scalar lv: Preis|idx:481."
+  },
+  "g2/a1/lb|probieren|idx:482|lv/study|MIXED_LANGUAGE_CONTAMINATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"probéieren • schmaachen\",\"study.translation\":\"probéieren • schmaachen\",\"study.explanation\":\"[\\\"Haaptiddi: probieren bedeit probéieren oder schmaachen.\\\",\\\"Wann et ëm Iessen oder Gedrénks geet, bedeit probieren dacks probéieren oder schmaachen.\\\",\\\"Wann et ëm eng Handlung, eng Method oder eng Saach geet, bedeit probieren probéieren.\\\",\\\"Dat ass net datselwecht wéi prüfen, dat bedeit, eppes méi genee ze kontrolléieren.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Probier mal die Suppe!\\\",\\\"lv\\\":\\\"Probéier mol d’Zopp!\\\"},{\\\"de\\\":\\\"Ich möchte den Kuchen probieren.\\\",\\\"lv\\\":\\\"Ech wëll de Kuch probéieren.\\\"},{\\\"de\\\":\\\"Wir probieren eine neue Methode.\\\",\\\"lv\\\":\\\"Mir probéieren eng nei Method.\\\"},{\\\"de\\\":\\\"Kann ich die Jacke anprobieren?\\\",\\\"lv\\\":\\\"Kann ech d’Jackett uprobéieren?\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"probieren\\\",\\\"meaning\\\":\\\"probéieren / schmaachen\\\",\\\"example\\\":\\\"Probier mal die Suppe!\\\"},{\\\"word\\\":\\\"versuchen\\\",\\\"meaning\\\":\\\"probéieren\\\",\\\"example\\\":\\\"Ich versuche es.\\\"},{\\\"word\\\":\\\"prüfen\\\",\\\"meaning\\\":\\\"préiwen / kontrolléieren\\\",\\\"example\\\":\\\"Ich prüfe die Rechnung.\\\"},{\\\"word\\\":\\\"anprobieren\\\",\\\"meaning\\\":\\\"uprobéieren\\\",\\\"example\\\":\\\"Ich probiere die Jacke an.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Erënner dech: Iessen → probieren = probéieren oder schmaachen.\\\"}\",\"study.important\":\"[\\\"probieren ass net dat haaptsächlecht Wuert fir eng offiziell Iwwerpréiwung.\\\",\\\"Dokumenter oder eng Rechnung iwwerpréift een normalerweis mam Verb prüfen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"probieren\\\",\\\"prüfen\\\"],\\\"purple\\\":[\\\"probéieren\\\",\\\"schmaachen\\\",\\\"kontrolléieren\\\"],\\\"yellow\\\":[\\\"Iessen\\\",\\\"Gedrénks\\\",\\\"Method\\\",\\\"Saach\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Probier\\\"],\\\"yellow\\\":[\\\"Suppe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Probéier\\\"],\\\"yellow\\\":[\\\"Zopp\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"probieren\\\"],\\\"yellow\\\":[\\\"Kuchen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"probéieren\\\"],\\\"yellow\\\":[\\\"Kuch\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"probieren\\\"],\\\"yellow\\\":[\\\"Methode\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"probéieren\\\"],\\\"yellow\\\":[\\\"Method\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"anprobieren\\\"],\\\"yellow\\\":[\\\"Jacke\\\"]},\\\"lv\\\":{\\\"green\\\":[\\\"uprobéieren\\\"],\\\"yellow\\\":[\\\"Jackett\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"probieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"probéieren\\\",\\\"schmaachen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"Probier\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"versuchen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"probéieren\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"versuche\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"prüfen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"préiwen\\\",\\\"kontrolléieren\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"prüfe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"anprobieren\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"uprobéieren\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"probiere\\\",\\\"an\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"probieren\\\"],\\\"yellow\\\":[\\\"Iessen\\\"],\\\"purple\\\":[\\\"probéieren\\\",\\\"schmaachen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"probieren\\\"],\\\"red\\\":[\\\"offiziell Iwwerpréiwung\\\"]},{\\\"red\\\":[\\\"prüfen\\\"],\\\"purple\\\":[\\\"iwwerpréift\\\"]}]}\"}",
+    "owner_note": "LRB-065 OWNER mapping full_card_target_fields: probieren|idx:482."
+  }
+}
