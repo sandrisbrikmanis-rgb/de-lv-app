@@ -1,0 +1,477 @@
+{
+  "batchId": "LRB-079",
+  "decisionType": "OWNER_EXACT_COPY_PASTE_TECHNICAL",
+  "correctionRound": 3,
+  "sourceCommit": "eb69411de5e95b0d7e237dc2a75113b0c398de8e",
+  "ownerAuthorizationStatus": "APPROVED",
+  "linguisticVerdict": "FAIL_REQUIRES_COPY_PASTE_REPAIR",
+  "rowsReviewed": "50/50",
+  "fullGalaCardsReviewed": "50/50",
+  "affectedRowCount": 28,
+  "contentReplacementCount": 53,
+  "rowNoteReplacementCount": 0,
+  "findings": {
+    "unauthorizedSeparatorNormalizations": 34,
+    "emptyComparisonFieldsToRemove": 19,
+    "sourceExampleAlignment": "217/217",
+    "sourceComparisonAlignment": "100/100",
+    "linguisticChangesRequired": 0
+  },
+  "content_replacements": [
+    {
+      "auditId": "LRB079-0005",
+      "cardId": "der|idx:134",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0006",
+      "cardId": "die|idx:137",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0007",
+      "cardId": "dieser|idx:139",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0011",
+      "cardId": "erst|idx:165",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Erst lernen, dann spielen. – Primeiro estudar, depois brincar.",
+      "new": "Erst lernen, dann spielen. = Primeiro estudar, depois brincar."
+    },
+    {
+      "auditId": "LRB079-0011",
+      "cardId": "erst|idx:165",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Zuerst frühstücken wir. – Primeiro, tomamos café da manhã.",
+      "new": "Zuerst frühstücken wir. = Primeiro, tomamos café da manhã."
+    },
+    {
+      "auditId": "LRB079-0011",
+      "cardId": "erst|idx:165",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[2].example",
+      "current": "Ich habe nur 5 Euro. – Eu tenho apenas 5 euros.",
+      "new": "Ich habe nur 5 Euro. = Eu tenho apenas 5 euros."
+    },
+    {
+      "auditId": "LRB079-0011",
+      "cardId": "erst|idx:165",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[3].example",
+      "current": "Dann gehen wir nach Hause. – Então vamos para casa.",
+      "new": "Dann gehen wir nach Hause. = Então vamos para casa."
+    },
+    {
+      "auditId": "LRB079-0012",
+      "cardId": "es|idx:167",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Es regnet. – Está chovendo.",
+      "new": "Es regnet. = Está chovendo."
+    },
+    {
+      "auditId": "LRB079-0012",
+      "cardId": "es|idx:167",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Ich lerne Deutsch. – Eu estudo alemão.",
+      "new": "Ich lerne Deutsch. = Eu estudo alemão."
+    },
+    {
+      "auditId": "LRB079-0013",
+      "cardId": "essen|idx:690",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0014",
+      "cardId": "Essen|idx:691",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0015",
+      "cardId": "etwas|idx:169",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Ich brauche etwas. – Preciso de algo.",
+      "new": "Ich brauche etwas. = Preciso de algo."
+    },
+    {
+      "auditId": "LRB079-0015",
+      "cardId": "etwas|idx:169",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Willst du was trinken? – Você quer beber algo?",
+      "new": "Willst du was trinken? = Você quer beber algo?"
+    },
+    {
+      "auditId": "LRB079-0015",
+      "cardId": "etwas|idx:169",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[2].example",
+      "current": "Ich bin ein bisschen müde. – Estou um pouco cansado.",
+      "new": "Ich bin ein bisschen müde. = Estou um pouco cansado."
+    },
+    {
+      "auditId": "LRB079-0015",
+      "cardId": "etwas|idx:169",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[3].example",
+      "current": "Ich brauche nichts. – Não preciso de nada.",
+      "new": "Ich brauche nichts. = Não preciso de nada."
+    },
+    {
+      "auditId": "LRB079-0016",
+      "cardId": "euch|idx:170",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Ihr seid freundlich. – Vocês são gentis.",
+      "new": "Ihr seid freundlich. = Vocês são gentis."
+    },
+    {
+      "auditId": "LRB079-0016",
+      "cardId": "euch|idx:170",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Ich helfe euch. – Eu ajudo vocês.",
+      "new": "Ich helfe euch. = Eu ajudo vocês."
+    },
+    {
+      "auditId": "LRB079-0016",
+      "cardId": "euch|idx:170",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[2].example",
+      "current": "Das ist euer Haus. – Essa é a casa de vocês.",
+      "new": "Das ist euer Haus. = Essa é a casa de vocês."
+    },
+    {
+      "auditId": "LRB079-0017",
+      "cardId": "fahren|idx:172",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Ich fahre mit dem Bus. – Vou de ônibus.",
+      "new": "Ich fahre mit dem Bus. = Vou de ônibus."
+    },
+    {
+      "auditId": "LRB079-0017",
+      "cardId": "fahren|idx:172",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Ich gehe nach Hause. – Vou para casa a pé.",
+      "new": "Ich gehe nach Hause. = Vou para casa a pé."
+    },
+    {
+      "auditId": "LRB079-0017",
+      "cardId": "fahren|idx:172",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[2].example",
+      "current": "Er läuft schnell. – Ele corre rápido.",
+      "new": "Er läuft schnell. = Ele corre rápido."
+    },
+    {
+      "auditId": "LRB079-0017",
+      "cardId": "fahren|idx:172",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[3].example",
+      "current": "Ich bringe das Buch. – Eu levo o livro.",
+      "new": "Ich bringe das Buch. = Eu levo o livro."
+    },
+    {
+      "auditId": "LRB079-0017",
+      "cardId": "fahren|idx:172",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[4].example",
+      "current": "Ich nehme dich mit. – Levo você comigo.",
+      "new": "Ich nehme dich mit. = Levo você comigo."
+    },
+    {
+      "auditId": "LRB079-0019",
+      "cardId": "fernsehen|idx:687",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Ich sehe fern. – Eu assisto televisão.",
+      "new": "Ich sehe fern. = Eu assisto televisão."
+    },
+    {
+      "auditId": "LRB079-0019",
+      "cardId": "fernsehen|idx:687",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Im Fernsehen läuft ein Film. – Está passando um filme na televisão.",
+      "new": "Im Fernsehen läuft ein Film. = Está passando um filme na televisão."
+    },
+    {
+      "auditId": "LRB079-0019",
+      "cardId": "fernsehen|idx:687",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[2].example",
+      "current": "Ich sehe einen Film. – Eu vejo um filme.",
+      "new": "Ich sehe einen Film. = Eu vejo um filme."
+    },
+    {
+      "auditId": "LRB079-0020",
+      "cardId": "Fernsehen|idx:688",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0022",
+      "cardId": "Frau|idx:198",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0023",
+      "cardId": "für|idx:216",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0028",
+      "cardId": "Gemüse|idx:692",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0031",
+      "cardId": "gleich|idx:243",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0032",
+      "cardId": "groß|idx:250",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0034",
+      "cardId": "gut|idx:259",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0035",
+      "cardId": "haben|idx:261",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Ich habe Zeit. – Eu tenho tempo.",
+      "new": "Ich habe Zeit. = Eu tenho tempo."
+    },
+    {
+      "auditId": "LRB079-0035",
+      "cardId": "haben|idx:261",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Ich bin hier. – Eu estou aqui.",
+      "new": "Ich bin hier. = Eu estou aqui."
+    },
+    {
+      "auditId": "LRB079-0035",
+      "cardId": "haben|idx:261",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[2].example",
+      "current": "Ich bekomme ein Geschenk. – Eu recebo um presente.",
+      "new": "Ich bekomme ein Geschenk. = Eu recebo um presente."
+    },
+    {
+      "auditId": "LRB079-0035",
+      "cardId": "haben|idx:261",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[3].example",
+      "current": "Ich mache das. – Eu faço isso.",
+      "new": "Ich mache das. = Eu faço isso."
+    },
+    {
+      "auditId": "LRB079-0036",
+      "cardId": "halten|idx:265",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Der Bus hält. – O ônibus para.",
+      "new": "Der Bus hält. = O ônibus para."
+    },
+    {
+      "auditId": "LRB079-0036",
+      "cardId": "halten|idx:265",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Ich nehme die Tasche. – Eu pego a bolsa.",
+      "new": "Ich nehme die Tasche. = Eu pego a bolsa."
+    },
+    {
+      "auditId": "LRB079-0036",
+      "cardId": "halten|idx:265",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[2].example",
+      "current": "Bitte halten Sie an. – Por favor, pare.",
+      "new": "Bitte halten Sie an. = Por favor, pare."
+    },
+    {
+      "auditId": "LRB079-0036",
+      "cardId": "halten|idx:265",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[3].example",
+      "current": "Ich denke, das ist richtig. – Eu acho que isso está certo.",
+      "new": "Ich denke, das ist richtig. = Eu acho que isso está certo."
+    },
+    {
+      "auditId": "LRB079-0038",
+      "cardId": "heißen|idx:276",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[0].example",
+      "current": "Ich heiße Anna. – Eu me chamo Anna.",
+      "new": "Ich heiße Anna. = Eu me chamo Anna."
+    },
+    {
+      "auditId": "LRB079-0038",
+      "cardId": "heißen|idx:276",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[1].example",
+      "current": "Er nennt mich Tom. – Ele me chama de Tom.",
+      "new": "Er nennt mich Tom. = Ele me chama de Tom."
+    },
+    {
+      "auditId": "LRB079-0038",
+      "cardId": "heißen|idx:276",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[2].example",
+      "current": "Was bedeutet das? – O que isso significa?",
+      "new": "Was bedeutet das? = O que isso significa?"
+    },
+    {
+      "auditId": "LRB079-0038",
+      "cardId": "heißen|idx:276",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[3].example",
+      "current": "Ich rufe dich. – Eu chamo você.",
+      "new": "Ich rufe dich. = Eu chamo você."
+    },
+    {
+      "auditId": "LRB079-0038",
+      "cardId": "heißen|idx:276",
+      "operation": "REPLACE",
+      "path": "new.study.comparison[4].example",
+      "current": "Ich rufe dich an. – Eu telefono para você.",
+      "new": "Ich rufe dich an. = Eu telefono para você."
+    },
+    {
+      "auditId": "LRB079-0039",
+      "cardId": "hoch|idx:285",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0040",
+      "cardId": "hören|idx:287",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0042",
+      "cardId": "jung|idx:304",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0043",
+      "cardId": "kein|idx:308",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0045",
+      "cardId": "klein|idx:6",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0048",
+      "cardId": "Laden|idx:349",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    },
+    {
+      "auditId": "LRB079-0050",
+      "cardId": "lang|idx:352",
+      "operation": "REMOVE_FIELD",
+      "path": "new.study.comparison",
+      "current": [],
+      "newState": "FIELD_ABSENT"
+    }
+  ],
+  "row_note_replacements": [],
+  "constraints": {
+    "currentExactMatchRequired": true,
+    "onMismatch": "SKIP_TARGET_AND_REPORT",
+    "cursorLinguisticAnalysis": "FORBIDDEN",
+    "globalNormalization": "FORBIDDEN",
+    "aliasOrEmptyFieldInsertion": "FORBIDDEN",
+    "productionChanges": "FORBIDDEN",
+    "deSourceChanges": "FORBIDDEN",
+    "crowdinChanges": "FORBIDDEN",
+    "ingestApply": "FORBIDDEN",
+    "scriptChanges": "FORBIDDEN",
+    "otherBatchChanges": "FORBIDDEN",
+    "galaPass": "FORBIDDEN_BEFORE_OWNER_POST_REPAIR_REVIEW"
+  },
+  "proofCorrection": {
+    "currentClaim": "GIT_DIFF_CHECK=PASS",
+    "actualFinding": "IMMUTABLE_COPY_PASTE_2_MAPPING_HAS_ONE_TRAILING_BLANK_EOF_LINE",
+    "requiredReporting": "Do not claim an unqualified git diff --check PASS; report the immutable mapping exception explicitly and run the check on all other changed files."
+  },
+  "requiredPostApplyState": {
+    "decisions": "50 LABOT / 0 NELABOT / 0 PENDING",
+    "sourceExampleAlignment": "217/217",
+    "sourceComparisonAlignment": "100/100",
+    "ownerNewExactMappingDrift": 0,
+    "currentValueMismatch": 0,
+    "failed": 0,
+    "galaPass": false,
+    "linguisticVerdict": null,
+    "status": "OWNER_COPY_PASTE_CORRECTION_3_APPLIED_AWAITING_GALA_REVIEW"
+  }
+}
