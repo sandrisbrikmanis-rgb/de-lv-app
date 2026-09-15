@@ -1,0 +1,47 @@
+{
+  "batch_id": "LRB-068",
+  "classification": "LRB_068_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 50,
+  "lb_rows": 50,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "LABOT": "50/50",
+    "NELABOT": 0,
+    "LB_ROWS": "50/50",
+    "UNIQUE_CARDS": "50/50",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "section_accent_mismatches": 0,
+    "section_accent_semantic_violations": 0,
+    "duplicate_example_pairs": 0,
+    "de_source_mismatches_across_6_full_composites": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "productionSource": "data/lb/a1.js",
+  "languages": {
+    "lb": 50
+  },
+  "composite_repairs": [
+    "lb:um",
+    "lb:unter",
+    "lb:verstehen",
+    "lb:vom",
+    "lb:vor",
+    "lb:über"
+  ],
+  "failures": [],
+  "verdict": "LRB_068_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-15T17:29:54.622Z"
+}

@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-15T17:15:00.000Z",
+  "updatedAt": "2026-09-15T17:32:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -83,7 +83,8 @@
       "LRB-064",
       "LRB-065",
       "LRB-066",
-      "LRB-067"
+      "LRB-067",
+      "LRB-068"
     ],
     "ingestApproved": false,
     "applyApproved": false
@@ -120,8 +121,8 @@
     "batchPrefix": "LRB",
     "batchSize": 50,
     "batchesTotal": 103,
-    "batchesReviewed": 67,
-    "batchesAntiBulkPass": 67,
+    "batchesReviewed": 68,
+    "batchesAntiBulkPass": 68,
     "batchesSpotCheckPass": 67,
     "linguisticVerdicts": {
       "LRB-001": {
@@ -1788,10 +1789,39 @@
         "copyPasteCorrection2": "COPY_PASTE_CORRECTION_2_APPLIED",
         "copyPasteCorrection2Sha256": "1e87e3d7c3b1b25937ee6d0f7b900917c0a8a8ed620701e8a08f969857713e78",
         "mappingSha256AfterCorrection2": "66dd601df7f249b3318a5e15e03641667bccfa2ffe056bbb44f9dd51ef8454f4"
+      },
+      "LRB-068": {
+        "verdict": "PENDING_LINGUISTIC_REVIEW",
+        "status": "OWNER_PREP_READY",
+        "classification": "LRB_068_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+        "labot": 50,
+        "nelabot": 0,
+        "pending": 0,
+        "antiBulkPass": true,
+        "residualAuditPass": true,
+        "pdfReauditPass": true,
+        "ownerAuthorization": "APPROVED",
+        "reviewer": "pending-gpt-5.6-luna",
+        "languages": {
+          "lb": 50
+        },
+        "uniqueCards": 50,
+        "rowCount": 50,
+        "compositeRepairs": 6,
+        "batchNote": "LB batch 11: Tante..wann (50 LB rows, 50 unique cards) — continuing after LRB-067",
+        "productionSource": "data/lb/a1.js",
+        "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-068-decisions.csv",
+        "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-068-anti-bulk-proof.json",
+        "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-068-residual-wrong-language-proof.json",
+        "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-068-owner-auth-residual-proof.json",
+        "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-068-gala-cards.json",
+        "pasteRepairs": "GPT-5.6 Luna copy/paste (50 LABOT / 0 NELABOT / 50 unique LB cards: 6 full composite + 44 scalar)",
+        "pasteSha256": "0c2fa92ff747fb4a1769f2e90c2d1bbb54de42c737f08c99a13d029206545cde",
+        "decisionsSha256": "461592ea5c188c5f0ff37556524d12c35e2493e9afb053e268752e5401ac099a"
       }
     },
     "lastBatch": {
-      "batch_id": "LRB-067",
+      "batch_id": "LRB-068",
       "labot": 50,
       "nelabot": 0,
       "pending": 0,
@@ -1799,22 +1829,20 @@
       "residualAuditPass": true,
       "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
-      "reviewer": "gpt-5.6-luna",
-      "linguisticVerdict": "LRB_067_FULL_50_50_LINGUISTIC_REVIEW_PASS",
-      "status": "LINGUISTICALLY_CLOSED",
-      "classification": "LRB_067_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "reviewer": "pending-gpt-5.6-luna",
+      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
+      "status": "OWNER_PREP_READY",
+      "classification": "LRB_068_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
       "rowCount": 50,
       "uniqueCards": 50,
-      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-067-decisions.csv",
-      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-067-proof.json",
-      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-067-anti-bulk-proof.json",
-      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-067-residual-wrong-language-proof.json",
-      "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-067-owner-auth-residual-proof.json",
-      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-067-gala-cards.json",
-      "pasteSha256": "d44cb9c31746545d1cd9db4ce89a85d58eecc2bf09cc302860e2e7f47e26bf2c",
-      "decisionsSha256": "c7209fabc6ba184d73fdc3ef1edfa5ec51fc798e197db5fb3c511168c188cc0c",
-      "copyPasteCorrection2Sha256": "1e87e3d7c3b1b25937ee6d0f7b900917c0a8a8ed620701e8a08f969857713e78",
-      "mappingSha256AfterCorrection2": "66dd601df7f249b3318a5e15e03641667bccfa2ffe056bbb44f9dd51ef8454f4"
+      "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-068-decisions.csv",
+      "proof": "reports/g2-a1-owner/batches-reviewed/LRB-068-proof.json",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-068-anti-bulk-proof.json",
+      "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-068-residual-wrong-language-proof.json",
+      "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-068-owner-auth-residual-proof.json",
+      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-068-gala-cards.json",
+      "pasteSha256": "0c2fa92ff747fb4a1769f2e90c2d1bbb54de42c737f08c99a13d029206545cde",
+      "decisionsSha256": "461592ea5c188c5f0ff37556524d12c35e2493e9afb053e268752e5401ac099a"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
