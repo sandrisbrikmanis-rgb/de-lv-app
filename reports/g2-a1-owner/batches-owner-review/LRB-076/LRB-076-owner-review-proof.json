@@ -1,7 +1,7 @@
 {
   "batchId": "LRB-076",
-  "classification": "G2_A1_LRB_OWNER_COPY_PASTE_CORRECTION_2_APPLIED",
-  "generatedAt": "2026-09-15T16:49:29.834Z",
+  "classification": "G2_A1_LRB_OWNER_COPY_PASTE_CORRECTION_3_APPLIED",
+  "generatedAt": "2026-09-15T16:55:48.403Z",
   "sourceCommit": "df8674f87ac1d780a84de3d791cb44125aa9179a",
   "branch": "cursor/lrb-076-owner-authorization-ed35",
   "direction": "DESCENDING",
@@ -66,7 +66,8 @@
     "GIT_DIFF_CHECK": "PASS",
     "SOURCE_ROW_IDENTITY_ALIGNMENT": "50/50",
     "SOURCE_ROW_IDENTITY_DRIFT": 0,
-    "pass": true
+    "pass": true,
+    "OWNER_NOTE_DRIFT": 0
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-owner-view.md",
@@ -85,12 +86,15 @@
     "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-decisions-COPY-PASTE.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-076-owner-authorization-proof.json"
   },
-  "note": "COPY-PASTE correction #2: individual owner_note per row; removed unauthorized audit script from branch. Approved cards SHA unchanged. galaPass=false.",
+  "note": "COPY-PASTE correction #3: restored full LRB-076-owner-view.md (50 findings with Audit ID, CURRENT, NEW, Gala card JSON). Linguistic payloads unchanged. galaPass=false.",
   "copyPasteSpecSha256": "97525c1f8aaf196750379c347f1ccecf5812c82b0f441d71368c8e3fa47eea31",
   "galaPass": false,
   "scriptChanges": 0,
-  "correctionRound": 2,
+  "correctionRound": 3,
   "copyPaste2Spec": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-decisions-COPY-PASTE-2.json",
   "copyPaste2SpecSha256": "669071d54c58867db3dc60ba55b8b5ec42bc0edd9a9bb74fe42cd751e4bb6b88",
-  "approvedCardsSha256": "779f8894d968675d1253edbff777224a2e4136b6d42a432bb51b04fc78b593f8"
+  "approvedCardsSha256": "779f8894d968675d1253edbff777224a2e4136b6d42a432bb51b04fc78b593f8",
+  "copyPaste3Spec": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-decisions-COPY-PASTE-3.json",
+  "copyPaste3SpecSha256": "74dc3678235713cffca21a4195177abbfbae4ffd1253b44c0807601414a5b94e",
+  "ownerViewSha256": "ac3bc36842c225d161f61c1d92168584ea54886e07c034765a1b83b75cf53fdf"
 }
