@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-076",
-  "classification": "G2_A1_LRB_OWNER_COPY_PASTE_CORRECTION_3_APPLIED",
-  "generatedAt": "2026-09-15T16:55:48.403Z",
-  "sourceCommit": "df8674f87ac1d780a84de3d791cb44125aa9179a",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-15T17:03:00.000Z",
+  "sourceCommit": "7215b79105b04b026c9cff3afe6102101620afa8",
   "branch": "cursor/lrb-076-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -86,9 +86,9 @@
     "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-decisions-COPY-PASTE.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-076-owner-authorization-proof.json"
   },
-  "note": "COPY-PASTE correction #3: restored full LRB-076-owner-view.md (50 findings with Audit ID, CURRENT, NEW, Gala card JSON). Linguistic payloads unchanged. galaPass=false.",
+  "note": "Gala verdict LRB_076_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 7215b79105b04b026c9cff3afe6102101620afa8 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (NN 25, PL 25, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=46). DE/production/Crowdin/ingest/apply unchanged.",
   "copyPasteSpecSha256": "97525c1f8aaf196750379c347f1ccecf5812c82b0f441d71368c8e3fa47eea31",
-  "galaPass": false,
+  "galaPass": true,
   "scriptChanges": 0,
   "correctionRound": 3,
   "copyPaste2Spec": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-decisions-COPY-PASTE-2.json",
@@ -96,5 +96,9 @@
   "approvedCardsSha256": "779f8894d968675d1253edbff777224a2e4136b6d42a432bb51b04fc78b593f8",
   "copyPaste3Spec": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-decisions-COPY-PASTE-3.json",
   "copyPaste3SpecSha256": "74dc3678235713cffca21a4195177abbfbae4ffd1253b44c0807601414a5b94e",
-  "ownerViewSha256": "ac3bc36842c225d161f61c1d92168584ea54886e07c034765a1b83b75cf53fdf"
+  "ownerViewSha256": "ac3bc36842c225d161f61c1d92168584ea54886e07c034765a1b83b75cf53fdf",
+  "verifiedCommit": "7215b79105b04b026c9cff3afe6102101620afa8",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_076_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-15T17:03:00.000Z"
 }
