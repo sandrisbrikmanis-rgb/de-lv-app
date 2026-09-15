@@ -1,0 +1,2544 @@
+{
+  "batchId": "LRB-075",
+  "sourceCommit": "cd0c87b3bbff11094a84f32dbbf6ee1b3f127b23",
+  "reviewer": "GPT-5.6 Luna",
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
+  "cards": [
+    {
+      "auditId": "LRB075-0001",
+      "cardId": "Gras|idx:248",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Gras”: apstiprināta pilnā Nynorsk vērtība “gras”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Gras",
+        "lv": "gras",
+        "level": "A1",
+        "de_article": "das",
+        "de_plural": "die Gräser"
+      }
+    },
+    {
+      "auditId": "LRB075-0002",
+      "cardId": "groß|idx:250",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “groß”: apstiprināta pilnā Nynorsk vērtība “stor”; 4/4 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "groß",
+        "lv": "stor",
+        "level": "A1",
+        "study": {
+          "id": "a1-gross-study",
+          "layout": "standardStudy",
+          "translation": "stor",
+          "explanation": [
+            "Hovudidé: groß tyder stor, men om ein person tyder det vanlegvis høg eller høgvaksen.",
+            "groß skildrar ting, stader og samla storleik.",
+            "Om kroppshøgda til ein person tyder groß høg, ikkje brei eller tjukk."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "Huset er stort."
+            },
+            {
+              "de": "Berlin ist eine große Stadt.",
+              "lv": "Berlin er ein stor by."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "Han er høg."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "Rommet er stort."
+            }
+          ],
+          "tip": [
+            "For ein ting eller stad: groß = stor.",
+            "For ein person: groß = høg eller høgvaksen."
+          ],
+          "important": [
+            "Om ein person tyder Er ist groß: Han er høg.",
+            "Om ein ting eller stad tyder groß vanlegvis stor."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0003",
+      "cardId": "Großeltern|idx:251",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Großeltern”: apstiprināta pilnā Nynorsk vērtība “besteforeldre”; 2/2 DE piemēri un 3/3 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "Großeltern",
+        "lv": "besteforeldre",
+        "level": "A1",
+        "de_article": "die",
+        "study": {
+          "id": "a1-grosseltern-study",
+          "layout": "standardStudy",
+          "translation": "besteforeldre",
+          "explanation": [
+            "Hovudidé: Großeltern tyder bestemor og bestefar samla.",
+            "Ordet blir brukt i fleirtal.",
+            "I eintal bruker ein Großmutter eller Großvater."
+          ],
+          "examples": [
+            {
+              "de": "Meine Großeltern wohnen auf dem Land.",
+              "lv": "Besteforeldra mine bur på landet."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Eg vitjar besteforeldra mine."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Großeltern",
+              "meaning": "besteforeldre",
+              "example": "meine Großeltern – besteforeldra mine"
+            },
+            {
+              "word": "Großmutter",
+              "meaning": "bestemor",
+              "example": "meine Großmutter – bestemora mi"
+            },
+            {
+              "word": "Großvater",
+              "meaning": "bestefar",
+              "example": "mein Großvater – bestefaren min"
+            }
+          ],
+          "tip": [
+            "Großeltern er fleirtal.",
+            "For éin person bruker ein Großmutter eller Großvater."
+          ],
+          "important": [
+            "die Großeltern = besteforeldre."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0004",
+      "cardId": "gut|idx:259",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “gut”: apstiprināta pilnā Nynorsk vērtība “god • bra”; 6/6 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "gut",
+        "lv": "god • bra",
+        "level": "A1",
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "god • bra",
+          "explanation": [
+            "Hovudidé: gut er eit adjektiv eller adverb og tyder god, godt eller bra.",
+            "gut skildrar kvalitet, helse eller korleis noko går (Es geht mir gut. = Eg har det bra.).",
+            "I helsingane Guten Morgen!, Guten Tag! og Guten Abend! får adjektivet gut endinga -en.",
+            "Når gut skildrar eit verb, er det eit adverb (gut schwimmen = symje godt).",
+            "Ikkje bland det med das Gut, som med stor bokstav og artikkel er eit substantiv (gods eller eigedom)."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "Maten er god."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Korleis går det med deg? – Bra, takk!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "Han snakkar godt tysk."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "God morgon!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "Det er ein god idé."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Alt er bra."
+            }
+          ],
+          "tip": [
+            "gut utan artikkel er eit adjektiv eller adverb: god, godt eller bra.",
+            "das Gut med stor bokstav og artikkel er eit anna ord: eit gods eller ein eigedom."
+          ],
+          "important": [
+            "gut = god, godt eller bra (adjektiv/adverb).",
+            "das Gut = gods eller eigedom (substantiv); ikkje bland det med gut.",
+            "I Guten Morgen, Guten Tag og Guten Abend har gut endinga -en."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0005",
+      "cardId": "haben|idx:261",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “haben”: apstiprināta pilnā Nynorsk vērtība “ha”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "haben",
+        "lv": "ha",
+        "level": "A1",
+        "study": {
+          "id": "a1-haben",
+          "layout": "standardStudy",
+          "translation": "ha",
+          "explanation": [
+            "Hovudidé: haben er verbet ha og uttrykkjer at nokon eig eller har noko.",
+            "På tysk står den som har noko, i nominativ: Ich habe ..., Du hast ..., Er hat ... – ikkje *mir habe.",
+            "Etter haben kjem objektet i akkusativ: Ich habe ein Auto. = Eg har ein bil.",
+            "haben blir òg brukt som hjelpeverb i perfektum: Ich habe gelernt."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe ein Auto.",
+              "lv": "Eg har ein bil."
+            },
+            {
+              "de": "Hast du Zeit?",
+              "lv": "Har du tid?"
+            },
+            {
+              "de": "Wir haben Hunger.",
+              "lv": "Vi er svoltne."
+            },
+            {
+              "de": "Ich habe das gemacht.",
+              "lv": "Eg har gjort det."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "haben",
+              "meaning": "ha",
+              "example": "Ich habe Zeit. = Eg har tid."
+            },
+            {
+              "word": "sein",
+              "meaning": "vere",
+              "example": "Ich bin hier. = Eg er her."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "få",
+              "example": "Ich bekomme ein Geschenk. = Eg får ei gåve."
+            },
+            {
+              "word": "machen",
+              "meaning": "gjere / lage",
+              "example": "Ich mache das. = Eg gjer det."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: Ich habe = eg har."
+          },
+          "important": [
+            "På tysk er konstruksjonen Ich habe + akkusativ. Ikkje bruk dativ: *mir habe er feil.",
+            "Med sein og dativ: Mir ist kalt. = Eg frys. Dette er ikkje haben.",
+            "I perfektum: Ich habe gelernt = eg har lært."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0006",
+      "cardId": "Hals|idx:264",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Hals”: apstiprināta pilnā Nynorsk vērtība “hals”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Hals",
+        "lv": "hals",
+        "level": "A1",
+        "de_article": "der",
+        "de_plural": "die Hälse"
+      }
+    },
+    {
+      "auditId": "LRB075-0007",
+      "cardId": "halten|idx:265",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “halten”: apstiprināta pilnā Nynorsk vērtība “halde”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "halten",
+        "lv": "halde",
+        "level": "A1",
+        "study": {
+          "id": "a1-halten",
+          "layout": "standardStudy",
+          "translation": "halde",
+          "explanation": [
+            "Hovudidé: halten tyder oftast å halde.",
+            "Om buss, tog eller annan transport kan halten tyde å stoppe.",
+            "Det laust samansette verbet anhalten tyder å stoppe eller stanse noko.",
+            "Konstruksjonen etwas für ... halten tyder å rekne eller halde noko for å vere noko."
+          ],
+          "examples": [
+            {
+              "de": "Ich halte die Tasche.",
+              "lv": "Eg held veska."
+            },
+            {
+              "de": "Der Bus hält hier.",
+              "lv": "Bussen stoppar her."
+            },
+            {
+              "de": "Bitte halten Sie an.",
+              "lv": "Ver venleg og stopp."
+            },
+            {
+              "de": "Ich halte das für richtig.",
+              "lv": "Eg meiner at det er rett."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "halten",
+              "meaning": "halde; om transport òg stoppe",
+              "example": "Der Bus hält. = Bussen stoppar."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "ta",
+              "example": "Ich nehme die Tasche. = Eg tek veska."
+            },
+            {
+              "word": "anhalten",
+              "meaning": "stoppe / stanse",
+              "example": "Bitte halten Sie an. = Ver venleg og stopp."
+            },
+            {
+              "word": "denken",
+              "meaning": "tenkje / meine",
+              "example": "Ich denke, das ist richtig. = Eg meiner at det er rett."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: halde ein ting → halten; stoppe → anhalten; transporten stoppar → hält."
+          },
+          "important": [
+            "halten tyder oftast å halde.",
+            "Der Bus hält tyder at bussen stoppar.",
+            "I Bitte halten Sie an blir det laust samansette verbet anhalten brukt."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0008",
+      "cardId": "Hand|idx:267",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Hand”: apstiprināta pilnā Nynorsk vērtība “hand”; 3/3 DE piemēri un 2/2 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "Hand",
+        "lv": "hand",
+        "level": "A1",
+        "de_article": "die",
+        "de_plural": "die Hände",
+        "study": {
+          "id": "a1-hand-study",
+          "layout": "standardStudy",
+          "translation": "hand",
+          "explanation": [
+            "Hovudidé: die Hand tyder hand.",
+            "På tysk er Arm og Hand to ulike ord.",
+            "På norsk skil ein òg mellom arm og hand."
+          ],
+          "examples": [
+            {
+              "de": "Ich wasche meine Hände.",
+              "lv": "Eg vaskar hendene mine."
+            },
+            {
+              "de": "Sie hält das Glas in der Hand.",
+              "lv": "Ho held glaset i handa."
+            },
+            {
+              "de": "Mein Arm tut weh.",
+              "lv": "Armen min gjer vondt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Hand",
+              "meaning": "hand",
+              "example": "in der Hand – i handa"
+            },
+            {
+              "word": "der Arm",
+              "meaning": "arm",
+              "example": "Mein Arm tut weh. – Armen min gjer vondt."
+            }
+          ],
+          "tip": [
+            "Hand = hand.",
+            "Arm = arm frå skuldra til handa."
+          ],
+          "important": [
+            "På tysk er Hand og Arm ikkje det same ordet."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0009",
+      "cardId": "heißen|idx:276",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “heißen”: apstiprināta pilnā Nynorsk vērtība “heite • tyde”; 4/4 DE piemēri un 5/5 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "heißen",
+        "lv": "heite • tyde",
+        "level": "A1",
+        "study": {
+          "id": "a1-heißen",
+          "layout": "standardStudy",
+          "translation": "heite • tyde",
+          "explanation": [
+            "Hovudidé: heißen blir oftast brukt for å seie kva nokon heiter.",
+            "Uttrykket Ich heiße ... tyder «Eg heiter ...».",
+            "Om ord eller uttrykk kan heißen òg tyde å bety eller tyde.",
+            "På A1-nivå er Wie heißt du? det viktigaste uttrykket."
+          ],
+          "examples": [
+            {
+              "de": "Ich heiße Anna.",
+              "lv": "Eg heiter Anna."
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Kva heiter du?"
+            },
+            {
+              "de": "Wie heißt das auf Deutsch?",
+              "lv": "Kva heiter det på tysk?"
+            },
+            {
+              "de": "Was heißt das?",
+              "lv": "Kva tyder det?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "heißen",
+              "meaning": "heite / tyde",
+              "example": "Ich heiße Anna. = Eg heiter Anna."
+            },
+            {
+              "word": "nennen",
+              "meaning": "kalle / nemne",
+              "example": "Er nennt mich Tom. = Han kallar meg Tom."
+            },
+            {
+              "word": "bedeuten",
+              "meaning": "tyde",
+              "example": "Was bedeutet das? = Kva tyder det?"
+            },
+            {
+              "word": "rufen",
+              "meaning": "rope på / kalle",
+              "example": "Ich rufe dich. = Eg ropar på deg."
+            },
+            {
+              "word": "anrufen",
+              "meaning": "ringe",
+              "example": "Ich rufe dich an. = Eg ringjer deg."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: Ich heiße ... = Eg heiter ..."
+          },
+          "important": [
+            "Wie heißt du? tyder «Kva heiter du?».",
+            "Was heißt das? tyder ofte «Kva tyder det?»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0010",
+      "cardId": "Herr|idx:280",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Herr”: apstiprināta pilnā Nynorsk vērtība “herre”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Herr",
+        "lv": "herre",
+        "level": "A1",
+        "de_article": "der",
+        "de_plural": "die Herren"
+      }
+    },
+    {
+      "auditId": "LRB075-0011",
+      "cardId": "hoch|idx:285",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “hoch”: apstiprināta pilnā Nynorsk vērtība “høg”; 5/5 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "hoch",
+        "lv": "høg",
+        "level": "A1",
+        "study": {
+          "id": "a1-hoch-study",
+          "layout": "standardStudy",
+          "translation": "høg",
+          "explanation": [
+            "Hovudidé: hoch tyder høg eller høgt.",
+            "hoch skildrar vertikal høgd eller eit høgt nivå.",
+            "Det blir til dømes brukt om fjell, veggar, prisar, temperaturar og tal."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "Fjellet er høgt."
+            },
+            {
+              "de": "Das Regal ist zwei Meter hoch.",
+              "lv": "Hylla er to meter høg."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "Husleiga er høg."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "Muren er høg."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "Prisane er høge."
+            }
+          ],
+          "tip": [
+            "Vertikal høgd eller høgt nivå → hoch.",
+            "Om kroppshøgda til ein person bruker ein vanlegvis groß."
+          ],
+          "important": [
+            "Der Berg ist hoch = Fjellet er høgt.",
+            "Er ist groß = Han er høg.",
+            "Om kroppshøgda til ein person bruker ein vanlegvis ikkje hoch."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0012",
+      "cardId": "ins|idx:296",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “ins”: apstiprināta pilnā Nynorsk vērtība “inn i • til • kvar?”; 8/8 DE piemēri un 5/5 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "ins",
+        "lv": "inn i • til • kvar?",
+        "level": "A1",
+        "study": {
+          "id": "a1-ins",
+          "layout": "standardStudy",
+          "translation": "inn i • til • kvar?",
+          "explanation": [
+            "ins er ei samantrekking av preposisjonen in og artikkelen das.",
+            "Den fulle forma er in das (kvar?).",
+            "Det blir brukt med inkjekjønnsord når ein svarar på kvar? og uttrykkjer rørsle inn i noko.",
+            "Det står ofte med verba gehen, fahren, kommen, legen og stecken.",
+            "I praksis bruker ein nesten alltid ins, ikkje den fulle forma in das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe ins Kino.",
+              "lv": "Eg går på kino."
+            },
+            {
+              "de": "Sie geht ins Bett.",
+              "lv": "Ho går til sengs."
+            },
+            {
+              "de": "Wir fahren ins Ausland.",
+              "lv": "Vi reiser til utlandet."
+            },
+            {
+              "de": "Komm ins Haus!",
+              "lv": "Kom inn i huset!"
+            },
+            {
+              "de": "Er steckt das Geld in den Geldbeutel.",
+              "lv": "Han legg pengane i lommeboka."
+            },
+            {
+              "de": "Wir gehen ins Museum.",
+              "lv": "Vi går på museum."
+            },
+            {
+              "de": "Sie legt die Blumen ins Wasser.",
+              "lv": "Ho legg blomane i vatnet."
+            },
+            {
+              "de": "Fahr bitte ins Zentrum.",
+              "lv": "Køyr til sentrum, er du snill."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ins",
+              "meaning": "inn i / til, kvar? (akkusativ)",
+              "example": "ins Kino – på kino"
+            },
+            {
+              "word": "im",
+              "meaning": "i, kvar? (dativ)",
+              "example": "im Kino – på kino / i kinoen"
+            },
+            {
+              "word": "in",
+              "meaning": "i / inn i (med eigen artikkel)",
+              "example": "in die Stadt – inn til byen"
+            },
+            {
+              "word": "aufs",
+              "meaning": "opp på ei flate (akkusativ)",
+              "example": "aufs Dach – opp på taket"
+            },
+            {
+              "word": "zum",
+              "meaning": "til / bort til (dativ)",
+              "example": "zum Arzt – til legen"
+            }
+          ],
+          "tip": [
+            "Hugs: in + das → ins (kvar?).",
+            "Rørsle inn: ins; plassering inne: im. Dette er hovudskilnaden."
+          ],
+          "important": [
+            "ins = in das og blir brukt med inkjekjønnsord ved rørsle inn i noko.",
+            "Det svarar på kvar?, ikkje kvar er noko: rørsle, ikkje plassering.",
+            "Med hankjønn: in den Wald; med hokjønn: in die Schule.",
+            "Ikkje bland ins Kino gehen (gå på kino) med im Kino sein (vere på kino)."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0013",
+      "cardId": "Jeans|idx:306",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Jeans”: apstiprināta pilnā Nynorsk vērtība “jeans”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Jeans",
+        "lv": "jeans",
+        "level": "A1",
+        "de_article": "die"
+      }
+    },
+    {
+      "auditId": "LRB075-0014",
+      "cardId": "Juli|idx:303",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Juli”: apstiprināta pilnā Nynorsk vērtība “juli”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Juli",
+        "lv": "juli",
+        "level": "A1",
+        "de_article": "der"
+      }
+    },
+    {
+      "auditId": "LRB075-0015",
+      "cardId": "jung|idx:304",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “jung”: apstiprināta pilnā Nynorsk vērtība “ung (om menneske og dyr)”; 7/7 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "jung",
+        "lv": "ung (om menneske og dyr)",
+        "level": "A1",
+        "study": {
+          "id": "a1-jung",
+          "layout": "standardStudy",
+          "translation": "ung (om menneske og dyr)",
+          "explanation": [
+            "Hovudidé: jung tyder ung i alder og blir brukt om menneske og dyr, ikkje om ting.",
+            "jung skildrar alder; motsetnaden er alt (gammal).",
+            "På norsk skil ein mellom ung i alder (jung) og ny eller nyleg laga (neu).",
+            "Om ting som nyleg er laga eller kjøpte, bruker ein neu, ikkje jung.",
+            "jung blir òg brukt overført: ein ung generasjon, eit ungt par og unge menneske.",
+            "Substantivet die Jugend tyder ungdom eller ungdomstid."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist noch jung.",
+              "lv": "Ho er framleis ung."
+            },
+            {
+              "de": "Der Hund ist jung.",
+              "lv": "Hunden er ung."
+            },
+            {
+              "de": "Wir sind noch jung.",
+              "lv": "Vi er framleis unge."
+            },
+            {
+              "de": "Er sieht sehr jung aus.",
+              "lv": "Han ser svært ung ut."
+            },
+            {
+              "de": "Das ist ein junges Paar.",
+              "lv": "Det er eit ungt par."
+            },
+            {
+              "de": "Die junge Frau lächelt.",
+              "lv": "Den unge kvinna smiler."
+            },
+            {
+              "de": "Mein Bruder ist jünger als ich.",
+              "lv": "Bror min er yngre enn eg."
+            }
+          ],
+          "tip": [
+            "jung gjeld alder hos menneske og dyr; om nyleg laga ting bruker ein neu.",
+            "Motsetnad: jung ↔ alt (ung ↔ gammal)."
+          ],
+          "important": [
+            "jung skildrar alder, ikkje kor ny ein ting er.",
+            "Om nye ting som telefonar, bilar og hus bruker ein neu, ikkje jung.",
+            "Feil: Mein Handy ist jung. Rett: Mein Handy ist neu."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0016",
+      "cardId": "kein|idx:308",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “kein”: apstiprināta pilnā Nynorsk vērtība “ingen • ikkje noko”; 6/6 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "kein",
+        "lv": "ingen • ikkje noko",
+        "level": "A1",
+        "study": {
+          "id": "a1-kein",
+          "layout": "standardStudy",
+          "translation": "ingen • ikkje noko",
+          "explanation": [
+            "Hovudidé: kein er ein nektingsartikkel som nektar eit substantiv; på norsk blir det ofte ingen eller ikkje noko(n).",
+            "kein blir bøygd som ein (kein, keine, keinen ...) og står framfor substantivet.",
+            "Med teljelege substantiv om personar svarar kein ofte til ingen (kein Mensch = ingen menneske).",
+            "Med uteljelege eller abstrakte substantiv svarar kein ofte til ikkje noko eller ingen (kein Geld = ingen pengar).",
+            "kein nektar heile substantivfrasen, medan nicht vanlegvis nektar verbet, eigenskapen eller setninga."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe kein Geld.",
+              "lv": "Eg har ingen pengar."
+            },
+            {
+              "de": "Es gibt keine Milch mehr.",
+              "lv": "Det er ikkje meir mjølk."
+            },
+            {
+              "de": "Kein Mensch war da.",
+              "lv": "Ikkje eit einaste menneske var der."
+            },
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "Eg har ikkje tid."
+            },
+            {
+              "de": "Das ist kein Problem.",
+              "lv": "Det er ikkje noko problem."
+            },
+            {
+              "de": "Wir haben keine Kinder.",
+              "lv": "Vi har ingen barn."
+            }
+          ],
+          "tip": [
+            "kein nektar eit substantiv (kein + substantiv); nicht nektar vanlegvis verb, eigenskap eller setning.",
+            "kein blir bøygd som ein: kein, keine, keinen, keiner."
+          ],
+          "important": [
+            "kein + substantiv nektar at nokon eller noko finst.",
+            "Feil: Ich habe nicht ein Geld. Rett: Ich habe kein Geld."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0017",
+      "cardId": "kennen|idx:310",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “kennen”: apstiprināta pilnā Nynorsk vērtība “kjenne”; 5/5 DE piemēri un 2/2 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "kennen",
+        "lv": "kjenne",
+        "level": "A1",
+        "id": "a1-kennen",
+        "study": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "kjenne",
+          "explanation": [
+            "Hovudidé: kennen tyder å kjenne ein person, ein stad eller ein ting gjennom erfaring.",
+            "kennen handlar hovudsakleg om personleg kjennskap.",
+            "Det blir ofte brukt om menneske og stader.",
+            "Bruk kennen når du kjenner ein person, ein stad eller ein ting frå eiga erfaring."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Eg kjenner han."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "Kjenner De denne kvinna?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "Kvar vart de kjende?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Eg kjenner han."
+            },
+            {
+              "de": "kennen",
+              "lv": "kennen = kjenne; wissen = vite"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "kjenne (ein person, stad eller ting)",
+              "example": "Ich kenne ihn. – Eg kjenner han."
+            },
+            {
+              "word": "wissen",
+              "meaning": "vite (eit faktum eller informasjon)",
+              "example": "Ich weiß seinen Namen. – Eg veit namnet hans."
+            }
+          ],
+          "tip": [
+            "kennen = kjenne",
+            "Bruk kennen når samanhengen handlar om personleg kjennskap."
+          ],
+          "important": [
+            "kennen = kjenne ein person eller stad.",
+            "kennen tyder kjenne.",
+            "Å kjenne ein person, stad eller ting gjennom erfaring."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0018",
+      "cardId": "klein|idx:6",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “klein”: apstiprināta pilnā Nynorsk vērtība “liten”; 3/3 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "klein",
+        "lv": "liten",
+        "level": "A1",
+        "study": {
+          "id": "a1-klein-study",
+          "layout": "standardStudy",
+          "translation": "liten",
+          "explanation": [
+            "Hovudidé: klein tyder liten i storleik, omfang eller alder.",
+            "klein kan skildre ein ting, eit rom, ei mengd eller eit barn.",
+            "Den presise tydinga kjem an på substantivet og samanhengen."
+          ],
+          "examples": [
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "Rommet er lite."
+            },
+            {
+              "de": "Das Kind ist noch klein.",
+              "lv": "Barnet er framleis lite."
+            },
+            {
+              "de": "Ich habe eine kleine Tasche.",
+              "lv": "Eg har ei lita veske."
+            }
+          ],
+          "tip": [
+            "klein = liten",
+            "Bruk klein når samanhengen svarar til denne tydinga."
+          ],
+          "important": [
+            "klein tyder oftast liten.",
+            "Om eit barn kan klein òg vise til låg alder."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0019",
+      "cardId": "lassen|idx:356",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “lassen”: apstiprināta pilnā Nynorsk vērtība “late liggje • la”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "lassen",
+        "lv": "late liggje • la",
+        "level": "A1",
+        "study": {
+          "id": "a1-lassen",
+          "layout": "standardStudy",
+          "translation": "late liggje • la",
+          "explanation": [
+            "Hovudidé: lassen tyder å late noko liggje eller å la noko skje.",
+            "Når noko blir verande på ein stad, kan lassen tyde å la det liggje eller setje det att.",
+            "Når nokon får løyve, tyder lassen å la.",
+            "Eit svært vanleg uttrykk er Lass mich! = La meg vere! eller La meg!"
+          ],
+          "examples": [
+            {
+              "de": "Ich lasse die Tasche hier.",
+              "lv": "Eg lèt veska liggje her."
+            },
+            {
+              "de": "Lass das bitte auf dem Tisch.",
+              "lv": "La det liggje på bordet, er du snill."
+            },
+            {
+              "de": "Meine Eltern lassen mich gehen.",
+              "lv": "Foreldra mine lèt meg gå."
+            },
+            {
+              "de": "Lass mich in Ruhe!",
+              "lv": "La meg vere i fred!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "lassen",
+              "meaning": "late liggje / la",
+              "example": "Ich lasse das hier."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "bli verande",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "erlauben",
+              "meaning": "tillate",
+              "example": "Sie erlaubt mir das."
+            },
+            {
+              "word": "geben",
+              "meaning": "gje",
+              "example": "Gib mir das Buch."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: noko blir att → lassen; nokon får løyve → lassen."
+          },
+          "important": [
+            "lassen tyder ikkje berre å la noko liggje; det tyder ofte òg å la eller tillate.",
+            "Lass mich in Ruhe! er eit svært vanleg uttrykk: «La meg vere i fred!»"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0020",
+      "cardId": "laufen|idx:357",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “laufen”: apstiprināta pilnā Nynorsk vērtība “springe • vere i drift”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "laufen",
+        "lv": "springe • vere i drift",
+        "level": "A1",
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "springe • vere i drift",
+          "explanation": [
+            "Hovudidé: laufen tyder å springe, men om maskiner og medium kan det tyde å gå eller vere i drift.",
+            "Om menneske og dyr tyder laufen ofte å springe eller gå raskt.",
+            "Om ein film, ei maskin eller eit program tyder laufen at det går eller køyrer.",
+            "På A1-nivå er skiljet mellom gehen og laufen viktig når ein snakkar om rørsle til fots."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "Han spring svært fort."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "Barna spring i parken."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "Filmen går allereie."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "Maskina går godt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "springe / gå / vere i drift",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "gehen",
+              "meaning": "gå til fots",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "køyre / reise med transport",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "fungere",
+              "example": "Das funktioniert gut."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: rask rørsle med beina → laufen; transport → fahren."
+          },
+          "important": [
+            "laufen tyder ikkje berre å springe. Om ein film eller ei maskin kan det tyde å gå eller vere i drift.",
+            "Ich laufe uttrykkjer rørsle til fots, ikkje køyring."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0021",
+      "cardId": "laut|idx:358",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “laut”: apstiprināta pilnā Nynorsk vērtība “høg • høgt”; 6/6 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "laut",
+        "lv": "høg • høgt",
+        "level": "A1",
+        "study": {
+          "id": "a1-laut",
+          "layout": "standardStudy",
+          "translation": "høg • høgt",
+          "explanation": [
+            "Hovudidé: Adjektivet laut med liten forbokstav skildrar kor høg ein lyd eller ei røyst er.",
+            "laut tyder hovudsakleg høg i lydstyrke.",
+            "Det blir brukt som adjektiv eller adverb.",
+            "Substantivet der Laut med stor forbokstav tyder ein lyd eller språklyd.",
+            "Ikkje bland laut med der Laut.",
+            "laut med liten forbokstav skildrar lydstyrke (Die Musik ist laut = Musikken er høg).",
+            "der Laut med stor forbokstav og artikkelen der er eit substantiv (Der Laut ist schön = Lyden er fin).",
+            "Fleirtal: die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musikken er høg."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musikken er høg."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Ikkje snakk så høgt!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Det er svært høgt."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Lyden er fin."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Eg høyrer ein lyd."
+            }
+          ],
+          "tip": [
+            "laut med liten forbokstav = høg/høgt (adjektiv: ist laut). der Laut med stor forbokstav = lyd (substantiv: ein Laut, der Laut).",
+            "laut = høg eller høgt"
+          ],
+          "important": [
+            "laut står med liten forbokstav og utan artikkel; det er eit adjektiv eller adverb.",
+            "der Laut med stor forbokstav og artikkelen der er eit substantiv.",
+            "Fleirtal: die Laute (språklydar eller lydsignal).",
+            "Feil: Der Laut ist sehr. Rett: Das ist sehr laut."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0022",
+      "cardId": "Laut|idx:359",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Laut”: apstiprināta pilnā Nynorsk vērtība “lyd”; 6/6 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "Laut",
+        "lv": "lyd",
+        "level": "A1",
+        "de_article": "der",
+        "de_plural": "die Laute",
+        "study": {
+          "id": "a1-laut-study",
+          "layout": "standardStudy",
+          "translation": "lyd",
+          "explanation": [
+            "Hovudidé: Substantivet der Laut har stor forbokstav og tyder ein lyd, eit signal eller ein språklyd.",
+            "der Laut tyder hovudsakleg ein enkelt lyd.",
+            "Det er eit substantiv med artikkelen der.",
+            "Adjektivet laut med liten forbokstav tyder høg i lydstyrke.",
+            "Ikkje bland der Laut med laut.",
+            "laut med liten forbokstav skildrar lydstyrke (Die Musik ist laut = Musikken er høg).",
+            "der Laut med stor forbokstav og artikkelen der er eit substantiv (Der Laut ist schön = Lyden er fin).",
+            "Fleirtal: die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Lyden er fin."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musikken er høg."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Ikkje snakk så høgt!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Det er svært høgt."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Lyden er fin."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Eg høyrer ein lyd."
+            }
+          ],
+          "tip": [
+            "laut med liten forbokstav = høg/høgt (adjektiv: ist laut). der Laut med stor forbokstav = lyd (substantiv: ein Laut, der Laut).",
+            "der Laut = lyd"
+          ],
+          "important": [
+            "laut står med liten forbokstav og utan artikkel; det er eit adjektiv eller adverb.",
+            "der Laut med stor forbokstav og artikkelen der er eit substantiv.",
+            "Fleirtal: die Laute (språklydar eller lydsignal).",
+            "Feil: Der Laut ist sehr. Rett: Das ist sehr laut."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0023",
+      "cardId": "legen|idx:363",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “legen”: apstiprināta pilnā Nynorsk vērtība “leggje”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "legen",
+        "lv": "leggje",
+        "level": "A1",
+        "study": {
+          "id": "a1-legen",
+          "layout": "standardStudy",
+          "translation": "leggje",
+          "explanation": [
+            "Hovudidé: legen tyder å leggje noko ned eller vassrett.",
+            "legen blir brukt når du flyttar ein ting og legg han på eit bord, ei seng eller ei anna flate.",
+            "Det skil seg frå liegen, som tyder at noko allereie ligg eller er på ein stad.",
+            "På A1-nivå er hovudskiljet: legen = leggje; liegen = liggje."
+          ],
+          "examples": [
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Eg legg boka på bordet."
+            },
+            {
+              "de": "Leg den Schlüssel hierhin.",
+              "lv": "Legg nøkkelen her."
+            },
+            {
+              "de": "Sie legt das Kind ins Bett.",
+              "lv": "Ho legg barnet i senga."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Boka ligg på bordet."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "leggje",
+              "example": "Ich lege das Buch auf den Tisch."
+            },
+            {
+              "word": "liegen",
+              "meaning": "liggje / vere plassert",
+              "example": "Das Buch liegt auf dem Tisch."
+            },
+            {
+              "word": "stellen",
+              "meaning": "setje frå seg ståande",
+              "example": "Ich stelle die Flasche auf den Tisch."
+            },
+            {
+              "word": "setzen",
+              "meaning": "setje / setje seg",
+              "example": "Ich setze mich."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: du legg noko → legen; tingen ligg allereie → liegen."
+          },
+          "important": [
+            "legen og liegen er ikkje det same.",
+            "Ich lege das Buch = Eg legg boka. Das Buch liegt = Boka ligg."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0024",
+      "cardId": "leise|idx:368",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “leise”: apstiprināta pilnā Nynorsk vērtība “stille • lågt”; 4/4 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "leise",
+        "lv": "stille • lågt",
+        "level": "A1",
+        "study": {
+          "id": "a1-leise-study",
+          "layout": "standardStudy",
+          "translation": "stille • lågt",
+          "explanation": [
+            "Hovudidé: leise tyder stille eller med låg lydstyrke.",
+            "leise tyder hovudsakleg låg lydstyrke.",
+            "Det blir ofte brukt om lyd, røyst og musikk.",
+            "leise skildrar låg lydstyrke eller ei stille røyst eller ein stille lyd."
+          ],
+          "examples": [
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Ver stille, er du snill."
+            },
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Ver stille, er du snill."
+            },
+            {
+              "de": "Die Musik ist leise.",
+              "lv": "Musikken spelar lågt."
+            },
+            {
+              "de": "Sprich bitte leise.",
+              "lv": "Snakk lågt, er du snill."
+            }
+          ],
+          "tip": [
+            "leise = stille eller lågt",
+            "Bruk leise når samanhengen handlar om låg lydstyrke."
+          ],
+          "important": [
+            "leise tyder stille når det gjeld lyd.",
+            "leise skildrar lydstyrke.",
+            "Stille eller med låg lydstyrke."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0025",
+      "cardId": "liegen|idx:377",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “liegen”: apstiprināta pilnā Nynorsk vērtība “liggje • vere plassert”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "liegen",
+        "lv": "liggje • vere plassert",
+        "level": "A1",
+        "study": {
+          "id": "a1-liegen",
+          "layout": "standardStudy",
+          "translation": "liggje • vere plassert",
+          "explanation": [
+            "Hovudidé: liegen tyder å liggje eller vere plassert vassrett.",
+            "Om ein person tyder liegen ofte å liggje.",
+            "Om ein ting tyder liegen at han ligg eller er på ein stad.",
+            "Det skil seg frå legen, som tyder å leggje noko."
+          ],
+          "examples": [
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Boka ligg på bordet."
+            },
+            {
+              "de": "Mein Handy liegt im Auto.",
+              "lv": "Telefonen min ligg i bilen."
+            },
+            {
+              "de": "Er liegt im Bett.",
+              "lv": "Han ligg i senga."
+            },
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Eg legg boka på bordet."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "liegen",
+              "meaning": "liggje / vere plassert",
+              "example": "Das Buch liegt hier."
+            },
+            {
+              "word": "legen",
+              "meaning": "leggje",
+              "example": "Ich lege das Buch hierhin."
+            },
+            {
+              "word": "stehen",
+              "meaning": "stå / vere plassert ståande",
+              "example": "Die Flasche steht auf dem Tisch."
+            },
+            {
+              "word": "sein",
+              "meaning": "vere",
+              "example": "Ich bin hier."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: tingen ligg allereie → liegen; du legg han ned → legen."
+          },
+          "important": [
+            "liegen skildrar ein tilstand eller ei plassering.",
+            "legen skildrar ei handling: nokon legg noko ned."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0026",
+      "cardId": "Limonade|idx:378",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Limonade”: apstiprināta pilnā Nynorsk vērtība “limonade”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Limonade",
+        "lv": "limonade",
+        "level": "A1",
+        "de_article": "die",
+        "de_plural": "die Limonaden"
+      }
+    },
+    {
+      "auditId": "LRB075-0027",
+      "cardId": "Liste|idx:381",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Liste”: apstiprināta pilnā Nynorsk vērtība “liste”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Liste",
+        "lv": "liste",
+        "level": "A1",
+        "de_article": "die",
+        "de_plural": "die Listen"
+      }
+    },
+    {
+      "auditId": "LRB075-0028",
+      "cardId": "Luft|idx:384",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Luft”: apstiprināta pilnā Nynorsk vērtība “luft”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Luft",
+        "lv": "luft",
+        "level": "A1",
+        "de_article": "die",
+        "de_plural": "die Lüfte"
+      }
+    },
+    {
+      "auditId": "LRB075-0029",
+      "cardId": "machen|idx:386",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “machen”: apstiprināta pilnā Nynorsk vērtība “gjere • lage”; 4/4 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "machen",
+        "lv": "gjere • lage",
+        "level": "A1",
+        "study": {
+          "id": "a1-machen",
+          "layout": "standardStudy",
+          "translation": "gjere • lage",
+          "explanation": [
+            "Hovudidé: machen er eit svært vanleg verb som tyder å gjere eller lage.",
+            "Når det handlar om ei handling generelt, blir det omsett med gjere.",
+            "Når ein skaper eller lagar noko, blir det omsett med lage.",
+            "I mange uttrykk må machen omsetjast naturleg etter samanhengen, ikkje ordrett."
+          ],
+          "examples": [
+            {
+              "de": "Was machst du?",
+              "lv": "Kva gjer du?"
+            },
+            {
+              "de": "Ich mache Hausaufgaben.",
+              "lv": "Eg gjer lekser."
+            },
+            {
+              "de": "Wir machen Pizza.",
+              "lv": "Vi lagar pizza."
+            },
+            {
+              "de": "Das macht Spaß.",
+              "lv": "Det er moro."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: Was machst du? = Kva gjer du?"
+          },
+          "important": [
+            "machen har svært vid tyding, og må ofte omsetjast naturleg etter situasjonen.",
+            "Das macht Spaß tyder «Det er moro», ikkje ordrett «Det lagar moro»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0030",
+      "cardId": "Mal|idx:390",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Mal”: apstiprināta pilnā Nynorsk vērtība “gong”; 4/4 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "Mal",
+        "lv": "gong",
+        "level": "A1",
+        "de_article": "das",
+        "de_plural": "die Male",
+        "study": {
+          "id": "a1-mal",
+          "layout": "standardStudy",
+          "translation": "gong",
+          "explanation": [
+            "Hovudidé: das Mal tyder ein gong som ei hending eller eit tilfelle.",
+            "Det står ofte med tal: ein Mal, zwei Mal, drei Mal.",
+            "Med ordenstal: das erste Mal, das zweite Mal.",
+            "Ikkje bland det med samtalepartikkelen mal i Komm mal her!; der har ordet ei anna tyding."
+          ],
+          "examples": [
+            {
+              "de": "Das erste Mal war schwer.",
+              "lv": "Den første gongen var vanskeleg."
+            },
+            {
+              "de": "Ich war schon zwei Mal in Berlin.",
+              "lv": "Eg har allereie vore i Berlin to gonger."
+            },
+            {
+              "de": "Ein Mal reicht.",
+              "lv": "Éin gong er nok."
+            },
+            {
+              "de": "Noch ein Mal, bitte!",
+              "lv": "Ein gong til, er du snill!"
+            }
+          ],
+          "tip": {
+            "text": "Hugs: das Mal = gong (substantiv); mal utan artikkel = samtalepartikkel."
+          },
+          "important": [
+            "das Mal / die Male er eit substantiv med artikkel.",
+            "ein Mal, zwei Mal tel kor mange gonger.",
+            "mal utan artikkel i Komm mal her! er ikkje det same som das Mal."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0031",
+      "cardId": "Mann|idx:394",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Mann”: apstiprināta pilnā Nynorsk vērtība “mann • ektemann”; 6/6 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "Mann",
+        "lv": "mann • ektemann",
+        "level": "A1",
+        "de_article": "der",
+        "de_plural": "die Männer",
+        "study": {
+          "id": "a1-mann",
+          "layout": "standardStudy",
+          "translation": "mann • ektemann",
+          "explanation": [
+            "Hovudidé: der Mann kan tyde ein mann eller ein ektemann.",
+            "Når det berre handlar om kjønn eller ein person, er der Mann = mann.",
+            "Når det handlar om ektefellen, er der Mann = ektemann (mein Mann = mannen min).",
+            "Med eigedomsord (mein/dein/ihr Mann) tyder det nesten alltid ektemann.",
+            "Fleirtal: die Männer.",
+            "Hokjønnsordet die Frau har på same måte to tydingar: kvinne og kone."
+          ],
+          "examples": [
+            {
+              "de": "Er ist ein netter Mann.",
+              "lv": "Han er ein hyggeleg mann."
+            },
+            {
+              "de": "Das ist mein Mann.",
+              "lv": "Det er mannen min."
+            },
+            {
+              "de": "Wie viele Männer sind hier?",
+              "lv": "Kor mange menn er her?"
+            },
+            {
+              "de": "Mein Mann arbeitet in Berlin.",
+              "lv": "Mannen min arbeider i Berlin."
+            },
+            {
+              "de": "Der Mann trägt einen Anzug.",
+              "lv": "Mannen har på seg dress."
+            },
+            {
+              "de": "Ihr Mann ist Arzt.",
+              "lv": "Mannen hennar er lege."
+            }
+          ],
+          "tip": [
+            "Med eigedomsord (mein/dein/ihr Mann) meiner ein nesten alltid ektemann.",
+            "Utan eigedomsord (der Mann, ein Mann) meiner ein vanlegvis mann."
+          ],
+          "important": [
+            "der Mann = mann eller ektemann, avhengig av samanhengen.",
+            "mein Mann = mannen min / ektemannen min.",
+            "Fleirtal: die Männer."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0032",
+      "cardId": "Meter|idx:404",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Meter”: apstiprināta pilnā Nynorsk vērtība “meter”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Meter",
+        "lv": "meter",
+        "level": "A1",
+        "de_article": "der",
+        "de_plural": "die Meter"
+      }
+    },
+    {
+      "auditId": "LRB075-0033",
+      "cardId": "mit|idx:408",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “mit”: apstiprināta pilnā Nynorsk vērtība “med”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "mit",
+        "lv": "med",
+        "level": "A1",
+        "study": {
+          "id": "a1-mit",
+          "layout": "standardStudy",
+          "translation": "med",
+          "explanation": [
+            "Hovudidé: mit tyder oftast med.",
+            "mit blir brukt når ein er saman med nokon eller gjer noko med ein reiskap.",
+            "Med transportmiddel uttrykkjer mit ofte at ein reiser med buss, tog eller bil.",
+            "På A1-nivå er mit dem Bus, mit dem Auto og mit dir svært vanlege uttrykk."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme mit dir.",
+              "lv": "Eg kjem med deg."
+            },
+            {
+              "de": "Ich fahre mit dem Bus.",
+              "lv": "Eg tek bussen."
+            },
+            {
+              "de": "Sie schreibt mit dem Stift.",
+              "lv": "Ho skriv med pennen."
+            },
+            {
+              "de": "Kommst du mit?",
+              "lv": "Blir du med?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mit",
+              "meaning": "med / saman med",
+              "example": "Ich komme mit dir."
+            },
+            {
+              "word": "ohne",
+              "meaning": "utan",
+              "example": "Ich komme ohne dich."
+            },
+            {
+              "word": "bei",
+              "meaning": "hos / hjå",
+              "example": "Ich bin bei Anna."
+            },
+            {
+              "word": "zu",
+              "meaning": "til",
+              "example": "Ich gehe zum Arzt."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: saman med nokon eller med eit transportmiddel → mit."
+          },
+          "important": [
+            "mit styrer dativ: mit dem Bus, mit der Mutter, mit dir.",
+            "Kommst du mit? tyder «Blir du med?»"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0034",
+      "cardId": "mögen|idx:413",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “mögen”: apstiprināta pilnā Nynorsk vērtība “like”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "mögen",
+        "lv": "like",
+        "level": "A1",
+        "study": {
+          "id": "a1-mögen",
+          "layout": "standardStudy",
+          "translation": "like",
+          "explanation": [
+            "Hovudidé: mögen tyder oftast at ein likar noko.",
+            "Ich mag ... tyder vanlegvis «Eg likar ...».",
+            "möchte er ei anna form som blir brukt om eit høfleg ønske: eg vil gjerne.",
+            "På A1-nivå er Ich mag das. det viktigaste uttrykket."
+          ],
+          "examples": [
+            {
+              "de": "Ich mag Musik.",
+              "lv": "Eg likar musikk."
+            },
+            {
+              "de": "Magst du Kaffee?",
+              "lv": "Likar du kaffi?"
+            },
+            {
+              "de": "Sie mag Kinder.",
+              "lv": "Ho likar barn."
+            },
+            {
+              "de": "Ich möchte einen Kaffee.",
+              "lv": "Eg vil gjerne ha ein kaffi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mögen",
+              "meaning": "like",
+              "example": "Ich mag Musik."
+            },
+            {
+              "word": "möchte",
+              "meaning": "vil gjerne",
+              "example": "Ich möchte Kaffee."
+            },
+            {
+              "word": "wollen",
+              "meaning": "ville",
+              "example": "Ich will nach Hause."
+            },
+            {
+              "word": "lieben",
+              "meaning": "elske",
+              "example": "Ich liebe dich."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: Ich mag ... = Eg likar ..."
+          },
+          "important": [
+            "mögen er ikkje hovudforma for eit høfleg «eg vil gjerne»; då bruker ein vanlegvis möchte.",
+            "Ich mag Kaffee tyder «Eg likar kaffi»."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0035",
+      "cardId": "morgen|idx:417",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “morgen”: apstiprināta pilnā Nynorsk vērtība “i morgon”; 6/6 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "morgen",
+        "lv": "i morgon",
+        "level": "A1",
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "i morgon",
+          "explanation": [
+            "Hovudidé: Adverbet morgen med liten forbokstav tyder i morgon, altså neste dag.",
+            "morgen tyder hovudsakleg neste dag.",
+            "Det er eit tidsadverb.",
+            "Substantivet der Morgen med stor forbokstav tyder morgon.",
+            "I fleirtal viser Morgen til fleire morgonar.",
+            "morgen med liten forbokstav tyder i morgon (Ich komme morgen = Eg kjem i morgon; Bis morgen! = Vi sjåast i morgon!)."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Eg kjem i morgon."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Vi sjåast i morgon!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Eg kjem i morgon."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "I morgon er det måndag."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "God morgon!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Morgonen er fin."
+            }
+          ],
+          "tip": [
+            "morgen med liten forbokstav = i morgon (Ich komme morgen). der Morgen med stor forbokstav = morgon (Guten Morgen!, am Morgen).",
+            "morgen = i morgon"
+          ],
+          "important": [
+            "morgen med liten forbokstav er eit tidsadverb og tyder i morgon.",
+            "der Morgen med stor forbokstav og artikkelen der er eit substantiv og tyder morgon.",
+            "Guten Morgen! har alltid stor M fordi Morgen er eit substantiv.",
+            "Feil: Guten morgen! Rett: Guten Morgen!"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0036",
+      "cardId": "Morgen|idx:418",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Morgen”: apstiprināta pilnā Nynorsk vērtība “morgon”; 6/6 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "Morgen",
+        "lv": "morgon",
+        "level": "A1",
+        "de_article": "der",
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "morgon",
+          "explanation": [
+            "Hovudidé: Substantivet der Morgen har stor forbokstav og tyder morgon, ein del av dagen.",
+            "Adverbet morgen med liten forbokstav tyder neste dag.",
+            "morgen med liten forbokstav er eit tidsadverb.",
+            "der Morgen med stor forbokstav tyder delen av dagen som kjem før føremiddagen.",
+            "Fleirtal die Morgen viser til fleire morgonar.",
+            "Ikkje bland morgen (i morgon) med der Morgen (morgon)."
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "God morgon!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Vi sjåast i morgon!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Eg kjem i morgon."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "I morgon er det måndag."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "God morgon!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Morgonen er fin."
+            }
+          ],
+          "tip": [
+            "morgen med liten forbokstav = i morgon (Ich komme morgen). der Morgen med stor forbokstav = morgon (Guten Morgen!, am Morgen).",
+            "der Morgen = morgon"
+          ],
+          "important": [
+            "morgen med liten forbokstav er eit tidsadverb og tyder i morgon.",
+            "der Morgen med stor forbokstav og artikkelen der er eit substantiv og tyder morgon.",
+            "Guten Morgen! har alltid stor M fordi Morgen er eit substantiv.",
+            "Feil: Guten morgen! Rett: Guten Morgen!"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0037",
+      "cardId": "müssen|idx:423",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “müssen”: apstiprināta pilnā Nynorsk vērtība “måtte”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "müssen",
+        "lv": "måtte",
+        "level": "A1",
+        "study": {
+          "id": "a1-müssen",
+          "layout": "standardStudy",
+          "translation": "måtte",
+          "explanation": [
+            "Hovudidé: müssen tyder at noko må gjerast.",
+            "På norsk blir müssen vanlegvis omsett med må.",
+            "I den tyske setninga står det andre verbet vanlegvis til slutt.",
+            "På A1-nivå er Ich muss ... den viktigaste forma."
+          ],
+          "examples": [
+            {
+              "de": "Ich muss gehen.",
+              "lv": "Eg må gå."
+            },
+            {
+              "de": "Du musst warten.",
+              "lv": "Du må vente."
+            },
+            {
+              "de": "Wir müssen lernen.",
+              "lv": "Vi må lære."
+            },
+            {
+              "de": "Ich muss heute arbeiten.",
+              "lv": "Eg må arbeide i dag."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "müssen",
+              "meaning": "måtte",
+              "example": "Ich muss gehen."
+            },
+            {
+              "word": "können",
+              "meaning": "kunne",
+              "example": "Ich kann kommen."
+            },
+            {
+              "word": "wollen",
+              "meaning": "ville",
+              "example": "Ich will nach Hause."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "få lov til",
+              "example": "Darf ich gehen?"
+            }
+          ],
+          "tip": {
+            "text": "Hugs: Ich muss ... = Eg må ..."
+          },
+          "important": [
+            "müssen er eit modalverb.",
+            "Det andre verbet står vanlegvis sist: Ich muss heute arbeiten."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0038",
+      "cardId": "nach|idx:426",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “nach”: apstiprināta pilnā Nynorsk vērtība “til • etter”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "nach",
+        "lv": "til • etter",
+        "level": "A1",
+        "study": {
+          "id": "a1-nach",
+          "layout": "standardStudy",
+          "translation": "til • etter",
+          "explanation": [
+            "Hovudidé: nach tyder til med visse stadnamn og etter når det handlar om tid eller rekkjefølgje.",
+            "Med byar og land utan artikkel tyder nach ofte til.",
+            "Med tid tyder nach etter.",
+            "I uttrykket nach Hause tyder det heim."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Eg reiser til Berlin."
+            },
+            {
+              "de": "Wir gehen nach Hause.",
+              "lv": "Vi går heim."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Etter maten går vi ein tur."
+            },
+            {
+              "de": "Es ist zehn nach acht.",
+              "lv": "Klokka er ti over åtte."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nach",
+              "meaning": "til / etter",
+              "example": "Ich fahre nach Berlin."
+            },
+            {
+              "word": "zu",
+              "meaning": "til",
+              "example": "Ich gehe zum Arzt."
+            },
+            {
+              "word": "in",
+              "meaning": "i / inn i ein stad med artikkel",
+              "example": "Ich gehe in die Schule."
+            },
+            {
+              "word": "vor",
+              "meaning": "før / framfor",
+              "example": "Vor dem Essen wasche ich die Hände."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: nach Hause, nach Berlin, nach dem Essen."
+          },
+          "important": [
+            "nach blir ikkje brukt med alle stader.",
+            "Til skulen heiter vanlegvis in die Schule, ikkje nach Schule."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0039",
+      "cardId": "Natur|idx:432",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Natur”: apstiprināta pilnā Nynorsk vērtība “natur”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Natur",
+        "lv": "natur",
+        "level": "A1",
+        "de_article": "die"
+      }
+    },
+    {
+      "auditId": "LRB075-0040",
+      "cardId": "natürlich|idx:433",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “natürlich”: apstiprināta pilnā Nynorsk vērtība “sjølvsagt • naturleg”; 6/6 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "natürlich",
+        "lv": "sjølvsagt • naturleg",
+        "level": "A1",
+        "study": {
+          "id": "a1-natuerlich",
+          "layout": "standardStudy",
+          "translation": "sjølvsagt • naturleg",
+          "explanation": [
+            "Hovudidé: natürlich tyder sjølvsagt som adverb og naturleg som adjektiv.",
+            "Når ein stadfestar noko i ein samtale, er natürlich = sjølvsagt (Kommst du mit? – Natürlich! = Blir du med? – Sjølvsagt!).",
+            "Når ein snakkar om natur, opphav eller eigenskapar, er natürlich = naturleg (natürliche Schönheit = naturleg venleik).",
+            "Samanhengen viser om ordet er ei stadfesting eller ei skildring."
+          ],
+          "examples": [
+            {
+              "de": "Kommst du mit? – Natürlich!",
+              "lv": "Blir du med? – Sjølvsagt!"
+            },
+            {
+              "de": "Das ist eine natürliche Reaktion.",
+              "lv": "Det er ein naturleg reaksjon."
+            },
+            {
+              "de": "Natürlich helfe ich dir.",
+              "lv": "Sjølvsagt hjelper eg deg."
+            },
+            {
+              "de": "Sie hat natürliche rote Haare.",
+              "lv": "Ho har naturleg raudt hår."
+            },
+            {
+              "de": "Natürlich kann ich das machen.",
+              "lv": "Sjølvsagt kan eg gjere det."
+            },
+            {
+              "de": "Das ist ganz natürlich.",
+              "lv": "Det er heilt naturleg."
+            }
+          ],
+          "tip": [
+            "Som eit frittståande svar eller ei stadfesting → sjølvsagt.",
+            "Framfor eit substantiv, om opphav eller eigenskap → naturleg."
+          ],
+          "important": [
+            "natürlich = sjølvsagt (adverb/stadfesting) eller naturleg (adjektiv).",
+            "Natürlich! som eit frittståande utrop tyder alltid «Sjølvsagt!»"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0041",
+      "cardId": "nehmen|idx:435",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “nehmen”: apstiprināta pilnā Nynorsk vērtība “ta”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "nehmen",
+        "lv": "ta",
+        "level": "A1",
+        "study": {
+          "id": "a1-nehmen",
+          "layout": "standardStudy",
+          "translation": "ta",
+          "explanation": [
+            "Hovudidé: nehmen tyder å ta.",
+            "nehmen blir brukt når du tek noko til deg eller vel noko.",
+            "Det er ikkje det same som bringen, som tyder å ta med eller bringe noko til nokon.",
+            "holen tyder å gå og hente noko."
+          ],
+          "examples": [
+            {
+              "de": "Ich nehme den Bus.",
+              "lv": "Eg tek bussen."
+            },
+            {
+              "de": "Nimm das Buch!",
+              "lv": "Ta boka!"
+            },
+            {
+              "de": "Ich bringe dir das Buch.",
+              "lv": "Eg tek med boka til deg."
+            },
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "Eg hentar deg."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nehmen",
+              "meaning": "ta",
+              "example": "Nimm das Buch!"
+            },
+            {
+              "word": "bringen",
+              "meaning": "bringe / ta med til nokon",
+              "example": "Ich bringe dir das Buch."
+            },
+            {
+              "word": "holen",
+              "meaning": "hente",
+              "example": "Ich hole Wasser."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "ta med",
+              "example": "Ich nehme dich mit."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: ta til deg sjølv → nehmen; bringe til nokon → bringen."
+          },
+          "important": [
+            "Ich nehme den Bus tyder «Eg tek bussen».",
+            "nehmen er ikkje det same som bringen."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0042",
+      "cardId": "neu|idx:439",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “neu”: apstiprināta pilnā Nynorsk vērtība “ny (om ting)”; 7/7 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "neu",
+        "lv": "ny (om ting)",
+        "level": "A1",
+        "study": {
+          "id": "a1-neu",
+          "layout": "standardStudy",
+          "translation": "ny (om ting)",
+          "explanation": [
+            "Hovudidé: neu tyder ny om ein ting som nyleg er laga, kjøpt eller teken i bruk.",
+            "neu skildrar ting, apparat, klede, hus, idear og liknande, ikkje alderen til menneske eller dyr.",
+            "På norsk skil ein mellom ung i alder (jung) og ny eller nyleg laga (neu).",
+            "Om alderen til menneske og dyr bruker ein jung, ikkje neu.",
+            "neu blir òg brukt overført: ny jobb, ny informasjon og ny start.",
+            "Motsetnaden er alt (gammal); substantivet das Neue tyder det nye eller noko nytt."
+          ],
+          "examples": [
+            {
+              "de": "Mein Handy ist neu.",
+              "lv": "Telefonen min er ny."
+            },
+            {
+              "de": "Wir haben ein neues Auto.",
+              "lv": "Vi har ein ny bil."
+            },
+            {
+              "de": "Das ist meine neue Wohnung.",
+              "lv": "Det er den nye leilegheita mi."
+            },
+            {
+              "de": "Ich habe neue Schuhe gekauft.",
+              "lv": "Eg har kjøpt nye sko."
+            },
+            {
+              "de": "Das ist eine neue Idee.",
+              "lv": "Det er ein ny idé."
+            },
+            {
+              "de": "Er hat einen neuen Job.",
+              "lv": "Han har ein ny jobb."
+            },
+            {
+              "de": "Was gibt es Neues?",
+              "lv": "Kva nytt er det?"
+            }
+          ],
+          "tip": [
+            "neu gjeld ting, apparat og nyhende; om alderen til ein person bruker ein jung.",
+            "Motsetnad: neu ↔ alt (ny ↔ gammal)."
+          ],
+          "important": [
+            "neu skildrar ting og det som er nytt, ikkje alderen til menneske eller dyr.",
+            "Om alderen til menneske og dyr bruker ein jung, ikkje neu.",
+            "Feil: Meine Schwester ist neu. Rett: Meine Schwester ist jung."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0043",
+      "cardId": "noch mal|idx:701",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “noch mal”: apstiprināta pilnā Nynorsk vērtība “ein gong til”; 3/3 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "noch mal",
+        "lv": "ein gong til",
+        "level": "A1",
+        "study": {
+          "id": "a1-noch-mal",
+          "layout": "standardStudy",
+          "translation": "ein gong til",
+          "explanation": [
+            "Hovudidé: noch mal tyder ein gong til og blir brukt når ei handling skal takast opp att eller nokon skal gjenta noko."
+          ],
+          "examples": [
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Ein gong til, er du snill."
+            },
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Ein gong til, er du snill."
+            },
+            {
+              "de": "Sag das noch mal.",
+              "lv": "Sei det ein gong til."
+            }
+          ],
+          "tip": [
+            "Bruk noch mal når noko skal gjerast eller seiast ein gong til.",
+            "noch mal uttrykkjer gjentaking."
+          ],
+          "important": [
+            "noch mal tyder ein gong til: ei handling eller ytring blir gjenteken.",
+            "Kontroller samanhengen før du bruker noch mal."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0044",
+      "cardId": "noch|idx:451",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “noch”: apstiprināta pilnā Nynorsk vērtība “enno • framleis”; 3/3 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "noch",
+        "lv": "enno • framleis",
+        "level": "A1",
+        "study": {
+          "id": "a1-noch-study",
+          "layout": "standardStudy",
+          "translation": "enno • framleis",
+          "explanation": [
+            "Hovudidé: noch viser at noko framleis held fram eller enno ikkje er slutt.",
+            "noch tyder ofte framleis eller enno.",
+            "Det skildrar ein tilstand som held fram eller ikkje er fullført.",
+            "noch = framleis eller enno, avhengig av samanhengen."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Eg er framleis heime."
+            },
+            {
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Eg er framleis heime."
+            },
+            {
+              "de": "Bist du noch da?",
+              "lv": "Er du framleis der?"
+            }
+          ],
+          "tip": [
+            "Noko held fram eller er enno ikkje slutt.",
+            "Bruk noch når samanhengen tyder framleis eller enno."
+          ],
+          "important": [
+            "noch = enno eller framleis.",
+            "Ordet viser at noko held fram eller ikkje er slutt."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0045",
+      "cardId": "Nummer|idx:455",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Nummer”: apstiprināta pilnā Nynorsk vērtība “nummer”; vārdšķira, pamatforma un nozīme saskaņota ar LV→DE avotu.",
+      "new": {
+        "de": "Nummer",
+        "lv": "nummer",
+        "level": "A1",
+        "de_article": "die",
+        "de_plural": "die Nummern"
+      }
+    },
+    {
+      "auditId": "LRB075-0046",
+      "cardId": "nur|idx:456",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “nur”: apstiprināta pilnā Nynorsk vērtība “berre”; 5/5 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "nur",
+        "lv": "berre",
+        "level": "A1",
+        "study": {
+          "id": "a1-nur-study",
+          "layout": "standardStudy",
+          "translation": "berre",
+          "explanation": [
+            "Hovudidé: nur avgrensar mengd, talet på personar, val eller moglegheiter.",
+            "nur tyder hovudsakleg berre.",
+            "Det viser kor mykje, kva som er avgrensa, eller kven som er den einaste.",
+            "nur tyder berre og avgrensar mengda eller valet."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Eg har berre ti euro."
+            },
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Eg har berre ti euro."
+            },
+            {
+              "de": "Nur du kannst mir helfen.",
+              "lv": "Berre du kan hjelpe meg."
+            },
+            {
+              "de": "Ich möchte nur Kaffee.",
+              "lv": "Eg vil berre ha kaffi."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "Eg har berre åtte euro."
+            }
+          ],
+          "tip": [
+            "nur avgrensar mengd, personar, val eller moglegheiter.",
+            "Bruk nur når tydinga er berre."
+          ],
+          "important": [
+            "Det norske «berre» blir ikkje alltid omsett med nur utan omsyn til samanhengen.",
+            "nur = berre."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0047",
+      "cardId": "ob|idx:457",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “ob”: apstiprināta pilnā Nynorsk vērtība “om”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "ob",
+        "lv": "om",
+        "level": "A1",
+        "study": {
+          "id": "a1-ob",
+          "layout": "standardStudy",
+          "translation": "om",
+          "explanation": [
+            "Hovudidé: ob innleier eit indirekte spørsmål og tyder oftast om.",
+            "ob blir brukt etter verb som fragen, wissen, sehen og sagen når spørsmålet ikkje er direkte.",
+            "I eit direkte spørsmål bruker tysk vanlegvis ikkje ob.",
+            "På A1-nivå er det viktig å skilje ob frå oder."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Eg veit ikkje om han kjem."
+            },
+            {
+              "de": "Sie fragt, ob du Zeit hast.",
+              "lv": "Ho spør om du har tid."
+            },
+            {
+              "de": "Sag mir, ob das stimmt.",
+              "lv": "Sei meg om det stemmer."
+            },
+            {
+              "de": "Kommst du heute oder morgen?",
+              "lv": "Kjem du i dag eller i morgon?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ob",
+              "meaning": "om i eit indirekte spørsmål",
+              "example": "Ich weiß nicht, ob er kommt."
+            },
+            {
+              "word": "oder",
+              "meaning": "eller i eit val",
+              "example": "Kaffee oder Tee?"
+            },
+            {
+              "word": "wenn",
+              "meaning": "viss / når",
+              "example": "Wenn du Zeit hast ..."
+            },
+            {
+              "word": "dass",
+              "meaning": "at",
+              "example": "Ich weiß, dass er kommt."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: eg veit ikkje om ... → ob; kaffi eller te → oder."
+          },
+          "important": [
+            "ob er ikkje den vanlege forma for eit val mellom to ting.",
+            "I Kaffee oder Tee? bruker ein oder, ikkje ob."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0048",
+      "cardId": "Obst|idx:693",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “Obst”: apstiprināta pilnā Nynorsk vērtība “frukt”; 5/5 DE piemēri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "Obst",
+        "lv": "frukt",
+        "level": "A1",
+        "de_article": "das",
+        "study": {
+          "id": "a1-obst",
+          "layout": "standardStudy",
+          "translation": "frukt",
+          "explanation": [
+            "Hovudidé: Obst tyder frukt samla. På tysk finst ikkje fleirtalsforma *die Obsts.",
+            "das Obst tyder hovudsakleg frukt som ei samla mengd.",
+            "Det er eit inkjekjønnsord som vanlegvis berre blir brukt i eintal."
+          ],
+          "examples": [
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Vi et mykje frukt."
+            },
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Vi et mykje frukt."
+            },
+            {
+              "de": "Obst ist gesund.",
+              "lv": "Frukt er sunt."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Eg likar frukt og grønsaker."
+            },
+            {
+              "de": "Wir essen Obst.",
+              "lv": "Vi et frukt."
+            }
+          ],
+          "tip": [
+            "das Obst = frukt",
+            "Bruk das Obst om frukt samla."
+          ],
+          "important": [
+            "Feil: die Obsts. Rett: das Obst.",
+            "das Obst = frukt samla."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0049",
+      "cardId": "oder|idx:459",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “oder”: apstiprināta pilnā Nynorsk vērtība “eller”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "oder",
+        "lv": "eller",
+        "level": "A1",
+        "study": {
+          "id": "a1-oder",
+          "layout": "standardStudy",
+          "translation": "eller",
+          "explanation": [
+            "Hovudidé: oder blir brukt når ein vel mellom to eller fleire moglegheiter.",
+            "oder tyder oftast eller.",
+            "Det er ikkje det same som ob, som innleier eit indirekte spørsmål.",
+            "I samtale kan oder òg stå sist i setninga: Du kommst, oder?"
+          ],
+          "examples": [
+            {
+              "de": "Kaffee oder Tee?",
+              "lv": "Kaffi eller te?"
+            },
+            {
+              "de": "Heute oder morgen?",
+              "lv": "I dag eller i morgon?"
+            },
+            {
+              "de": "Willst du Pizza oder Salat?",
+              "lv": "Vil du ha pizza eller salat?"
+            },
+            {
+              "de": "Du kommst, oder?",
+              "lv": "Du kjem, ikkje sant?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "oder",
+              "meaning": "eller i eit val",
+              "example": "Kaffee oder Tee?"
+            },
+            {
+              "word": "ob",
+              "meaning": "om i eit indirekte spørsmål",
+              "example": "Ich weiß nicht, ob er kommt."
+            },
+            {
+              "word": "und",
+              "meaning": "og",
+              "example": "Kaffee und Kuchen."
+            },
+            {
+              "word": "aber",
+              "meaning": "men",
+              "example": "Ich komme, aber später."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: val mellom alternativ → oder."
+          },
+          "important": [
+            "oder blir brukt i val: Kaffee oder Tee.",
+            "I eit indirekte spørsmål bruker ein vanlegvis ob."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB075-0050",
+      "cardId": "passen|idx:471",
+      "status": "LABOT",
+      "reason": "Individuāli pārbaudīta NN gala kartīte “passen”: apstiprināta pilnā Nynorsk vērtība “passe • kle”; 4/4 DE piemēri un 4/4 comparison pāri saskaņoti ar pilno LV→DE mācību kontekstu.",
+      "new": {
+        "de": "passen",
+        "lv": "passe • kle",
+        "level": "A1",
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "passe • kle",
+          "explanation": [
+            "Hovudidé: passen tyder å passe, kle eller vere høveleg.",
+            "Om kle tyder passen ofte å passe i storleik.",
+            "Om fargar eller stil kan passen tyde å kle eller passe til.",
+            "Eit svært vanleg uttrykk er Das passt. = Det passar."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "Jakka passar meg."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "Kjolen passar godt."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "Fargen kler deg."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "Det passar."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "passe / kle",
+              "example": "Die Jacke passt mir."
+            },
+            {
+              "word": "stehen",
+              "meaning": "kle / stå",
+              "example": "Rot steht dir gut."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "vere eigna",
+              "example": "Das ist geeignet."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "fungere",
+              "example": "Das funktioniert."
+            }
+          ],
+          "tip": {
+            "text": "Hugs: Das passt. = Det passar."
+          },
+          "important": [
+            "passen blir ikkje berre brukt om kle.",
+            "Det kan òg tyde at eit tidspunkt, ein plan eller ei løysing passar."
+          ]
+        }
+      }
+    }
+  ]
+}
