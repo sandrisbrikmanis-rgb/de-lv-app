@@ -1,0 +1,18 @@
+{
+  "batch_id": "LRB-067",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "owner-prep-pipeline",
+  "authorizedAt": "2026-09-15T16:30:14.442Z",
+  "linguisticVerdict": "LRB_067_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "languages": {
+    "lb": 50
+  },
+  "unique_cards": 50,
+  "scope": "sechzehnte..Tag (50 LB rows, 50 unique cards) — GPT-5.6 Luna FULL_50_50 review complete",
+  "productionSource": "data/lb/a1.js",
+  "input_csv_sha256": "77a957543111ade0a69284997245a73a9e57681b09cc50cfaa9194f31dab4113",
+  "manifestPath": "reports/g2-a1-owner/manifests/LRB-067-start.json",
+  "inputPath": "reports/g2-a1-owner/batches-pending/LRB-067-input.csv",
+  "note": "Gala verdict LRB_067_FULL_50_50_LINGUISTIC_REVIEW_PASS. 50 LABOT / 0 NELABOT / 0 PENDING (10 full composite + 40 scalar cards). LB batch 10 complete; 109 LB rows remain in 7737 pool. DE/production/Crowdin/ingest/apply unchanged."
+}

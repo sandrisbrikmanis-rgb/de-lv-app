@@ -1,0 +1,53 @@
+{
+  "batch_id": "LRB-067",
+  "correction_round": 2,
+  "classification": "LRB_067_GALA_CORRECTION_2",
+  "authorized_pr": 820,
+  "authorized_branch": "cursor/lrb-067-owner-authorization-aa66",
+  "authorized_head": "088ab3a011c47a5cf1e7639fe1efcb634c23ab0d",
+  "source_mapping_sha256": "d44cb9c31746545d1cd9db4ce89a85d58eecc2bf09cc302860e2e7f47e26bf2c",
+  "source_decisions_sha256": "42d33cd37627b2eaaeeb29e3eaa13fdbc2541b4a737b5c12650d097711798f1e",
+  "expected_counts_after_rebuild": {
+    "rows": 50,
+    "unique_cards": 50,
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "full_composite_repairs": 10
+  },
+  "changes": [
+    {
+      "card_object_id": "sich|idx:547",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-067-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/sich|idx:547/study.examples/1/lv",
+      "current_value": "Ech setzen mech.",
+      "replacement_value": "Ech setze mech.",
+      "reason": "Eifeler Reegel: beim Verb setzen fält de Schluss-n virum Pronome mech ewech."
+    },
+    {
+      "card_object_id": "sie|idx:549",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-067-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/sie|idx:549/study.examples/4/lv",
+      "current_value": "Si spille Fussball.",
+      "replacement_value": "Si spille Futtball.",
+      "reason": "Fussball ass däitsch; an der lëtzebuergescher Zilzeil muss Futtball stoen."
+    },
+    {
+      "card_object_id": "Sie|idx:550",
+      "target_file": "scripts/data/g2-a1-owner-pending/LRB-067-decisions-COPY-PASTE.json",
+      "json_pointer": "/labot_full_composite/Sie|idx:550/study.examples/4/lv",
+      "current_value": "Si spille Fussball.",
+      "replacement_value": "Si spille Futtball.",
+      "reason": "Fussball ass däitsch; an der lëtzebuergescher Zilzeil muss Futtball stoen."
+    }
+  ],
+  "section_accent_changes": [],
+  "unchanged_requirements": {
+    "de_source": true,
+    "production": true,
+    "crowdin": true,
+    "ingest_apply": true,
+    "all_other_owner_values": true
+  },
+  "final_state": "AWAITING_GALA_VERDICT"
+}
