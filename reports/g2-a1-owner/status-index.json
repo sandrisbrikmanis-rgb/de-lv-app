@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-15T15:44:42.021Z",
+  "updatedAt": "2026-09-15T16:05:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -120,7 +120,7 @@
     "batchesTotal": 103,
     "batchesReviewed": 65,
     "batchesAntiBulkPass": 65,
-    "batchesSpotCheckPass": 64,
+    "batchesSpotCheckPass": 65,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -1687,9 +1687,9 @@
         "decisionsSha256": "4f7835cbf74eb6d559dadff8277f2c42018c0acf6ab6135d56da501bf7355950"
       },
       "LRB-065": {
-        "verdict": "PENDING_LINGUISTIC_REVIEW",
-        "status": "OWNER_PREP_READY",
-        "classification": "LRB_065_METADATA_CORRECTION_4_COMPLETE_AWAITING_GALA_VERDICT",
+        "verdict": "LRB_065_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
+        "classification": "LRB_065_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "labot": 47,
         "nelabot": 3,
         "pending": 0,
@@ -1697,7 +1697,8 @@
         "residualAuditPass": true,
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
-        "reviewer": "pending-gpt-5.6-luna",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "39b3ec13",
         "languages": {
           "lb": 50
         },
@@ -1733,10 +1734,10 @@
       "residualAuditPass": true,
       "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
-      "reviewer": "pending-gpt-5.6-luna",
-      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
-      "status": "OWNER_PREP_READY",
-      "classification": "LRB_065_METADATA_CORRECTION_4_COMPLETE_AWAITING_GALA_VERDICT",
+      "reviewer": "gpt-5.6-luna",
+      "linguisticVerdict": "LRB_065_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "status": "LINGUISTICALLY_CLOSED",
+      "classification": "LRB_065_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "rowCount": 50,
       "uniqueCards": 50,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-065-decisions.csv",
