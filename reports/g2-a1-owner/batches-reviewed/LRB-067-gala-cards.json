@@ -4,7 +4,7 @@
   "scope": "sechzehnte..Tag (50 LB rows, 50 unique cards)",
   "rows": 50,
   "uniqueCards": 50,
-  "paste_sha256": "d44cb9c31746545d1cd9db4ce89a85d58eecc2bf09cc302860e2e7f47e26bf2c",
+  "paste_sha256": "66dd601df7f249b3318a5e15e03641667bccfa2ffe056bbb44f9dd51ef8454f4",
   "full_card_replacements": 10,
   "full_card_object_ids": [
     "Seite|idx:544",
@@ -18,7 +18,7 @@
     "sollen|idx:564",
     "stehen|idx:576"
   ],
-  "classification": "LRB_067_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "classification": "LRB_067_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "sechzehnte|idx:536",
@@ -802,7 +802,7 @@
             },
             {
               "de": "Ich setze mich.",
-              "lv": "Ech setzen mech."
+              "lv": "Ech setze mech."
             },
             {
               "de": "Sie freut sich.",
@@ -1235,7 +1235,7 @@
             },
             {
               "de": "Sie spielen Fußball.",
-              "lv": "Si spille Fussball."
+              "lv": "Si spille Futtball."
             },
             {
               "de": "Sie kochen, bitte.",
@@ -1437,7 +1437,7 @@
             },
             {
               "de": "Sie spielen Fußball.",
-              "lv": "Si spille Fussball."
+              "lv": "Si spille Futtball."
             },
             {
               "de": "Sie kochen, bitte.",

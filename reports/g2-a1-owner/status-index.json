@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-15T16:48:00.000Z",
+  "updatedAt": "2026-09-15T17:05:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -1759,7 +1759,7 @@
       "LRB-067": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
-        "classification": "LRB_067_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+        "classification": "LRB_067_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
         "labot": 50,
         "nelabot": 0,
         "pending": 0,
@@ -1783,7 +1783,10 @@
         "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-067-gala-cards.json",
         "pasteRepairs": "GPT-5.6 Luna copy/paste (50 LABOT / 0 NELABOT / 50 unique LB cards: 10 full composite + 40 scalar)",
         "pasteSha256": "d44cb9c31746545d1cd9db4ce89a85d58eecc2bf09cc302860e2e7f47e26bf2c",
-        "decisionsSha256": "42d33cd37627b2eaaeeb29e3eaa13fdbc2541b4a737b5c12650d097711798f1e"
+        "decisionsSha256": "c7209fabc6ba184d73fdc3ef1edfa5ec51fc798e197db5fb3c511168c188cc0c",
+        "copyPasteCorrection2": "COPY_PASTE_CORRECTION_2_APPLIED",
+        "copyPasteCorrection2Sha256": "1e87e3d7c3b1b25937ee6d0f7b900917c0a8a8ed620701e8a08f969857713e78",
+        "mappingSha256AfterCorrection2": "66dd601df7f249b3318a5e15e03641667bccfa2ffe056bbb44f9dd51ef8454f4"
       }
     },
     "lastBatch": {
@@ -1798,7 +1801,7 @@
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
-      "classification": "LRB_067_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+      "classification": "LRB_067_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
       "rowCount": 50,
       "uniqueCards": 50,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-067-decisions.csv",
@@ -1806,7 +1809,11 @@
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-067-anti-bulk-proof.json",
       "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-067-residual-wrong-language-proof.json",
       "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-067-owner-auth-residual-proof.json",
-      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-067-gala-cards.json"
+      "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-067-gala-cards.json",
+      "pasteSha256": "d44cb9c31746545d1cd9db4ce89a85d58eecc2bf09cc302860e2e7f47e26bf2c",
+      "decisionsSha256": "c7209fabc6ba184d73fdc3ef1edfa5ec51fc798e197db5fb3c511168c188cc0c",
+      "copyPasteCorrection2Sha256": "1e87e3d7c3b1b25937ee6d0f7b900917c0a8a8ed620701e8a08f969857713e78",
+      "mappingSha256AfterCorrection2": "66dd601df7f249b3318a5e15e03641667bccfa2ffe056bbb44f9dd51ef8454f4"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
