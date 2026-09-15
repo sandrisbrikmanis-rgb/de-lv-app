@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-068",
-  "classification": "LRB_068_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "classification": "LRB_068_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "pdf_reaudit": true,
   "post_repair_merge": true,
   "paste_source": "gpt-5.6-luna-copy-paste",
@@ -42,6 +42,6 @@
     "lb:über"
   ],
   "failures": [],
-  "verdict": "LRB_068_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
-  "updatedAt": "2026-09-15T17:29:54.622Z"
+  "verdict": "LRB_068_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-15T17:38:00.000Z"
 }
