@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-077",
-  "phase": "OWNER_COPY_PASTE_CORRECTION_2_APPLIED",
+  "phase": "GALA_PASS",
   "input_csv_sha256": "2f1f52fe18ddf6fa4751951fc8a70f31a7a08bbc6b81ca83daf00da40e255aa9",
   "input_row_count": 50,
   "finding_stable_ids": [
@@ -63,8 +63,12 @@
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "authorized_at": "2026-09-15T15:43:00.000Z",
   "overrides_sha256": "8646863c6c5fea316b000fdc2e0ed44922afdbc14088f5f46d4bc2e520e68e03",
-  "updated_at": "2026-09-15T16:11:59.242Z",
-  "source_commit": "54181fb47d26d5fc3a0cd9d8ca024f292c4992c4",
+  "updated_at": "2026-09-15T16:16:00.000Z",
+  "source_commit": "c5ecc6cfbc776626bc50aa9f0928d3099a024643",
   "correction_round": 2,
-  "copy_paste_2_spec_sha256": "95316c13b85708707234ff663ac11cce7a7b3cce5370bf038571890904299fd1"
+  "copy_paste_2_spec_sha256": "95316c13b85708707234ff663ac11cce7a7b3cce5370bf038571890904299fd1",
+  "linguistic_verdict": "LRB_077_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "verdict": "LRB_077_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "gala_pass_at": "2026-09-15T16:16:00.000Z",
+  "verified_commit": "c5ecc6cfbc776626bc50aa9f0928d3099a024643"
 }
