@@ -1,15 +1,15 @@
 {
   "batchId": "LRB-076",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-15T16:39:56.443Z",
-  "sourceCommit": "720b0cf7574c8e11aa6802064a7dc60d80c6a0b9",
+  "classification": "G2_A1_LRB_OWNER_COPY_PASTE_CORRECTION_2_APPLIED",
+  "generatedAt": "2026-09-15T16:49:29.834Z",
+  "sourceCommit": "df8674f87ac1d780a84de3d791cb44125aa9179a",
   "branch": "cursor/lrb-076-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT-5.6 Luna",
   "linguisticReviewer": "gpt-5.6-luna",
   "ownerAuthorizationStatus": "APPROVED",
-  "overridesSha256": "cb324a4e0c1b7cff07d4b49afed8a4ddcacdb9d040eeb25bdcf0aefe64984a69",
+  "overridesSha256": "10a2bab3e6e476769126dcb79eb64a957d5bcadd14fce778fc2b26bb08573f79",
   "rows": "50/50",
   "languages": {
     "nn": 25,
@@ -85,8 +85,12 @@
     "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-decisions-COPY-PASTE.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-076-owner-authorization-proof.json"
   },
-  "note": "OWNER copy/paste full-card apply. 50 LABOT / 0 NELABOT / 0 PENDING (NN 25, PL 25). galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "COPY-PASTE correction #2: individual owner_note per row; removed unauthorized audit script from branch. Approved cards SHA unchanged. galaPass=false.",
   "copyPasteSpecSha256": "97525c1f8aaf196750379c347f1ccecf5812c82b0f441d71368c8e3fa47eea31",
   "galaPass": false,
-  "scriptChanges": 0
+  "scriptChanges": 0,
+  "correctionRound": 2,
+  "copyPaste2Spec": "reports/g2-a1-owner/batches-owner-review/LRB-076/LRB-076-decisions-COPY-PASTE-2.json",
+  "copyPaste2SpecSha256": "669071d54c58867db3dc60ba55b8b5ec42bc0edd9a9bb74fe42cd751e4bb6b88",
+  "approvedCardsSha256": "779f8894d968675d1253edbff777224a2e4136b6d42a432bb51b04fc78b593f8"
 }

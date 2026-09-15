@@ -2,13 +2,13 @@
   "batchId": "LRB-076",
   "sourceCommit": "720b0cf7574c8e11aa6802064a7dc60d80c6a0b9",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
   "cards": [
     {
       "auditId": "LRB076-0001",
       "cardId": "schwimmen|idx:531",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “schwimmen”: “symje” ir Nynorsk pamatforma, saglabāts kontrasts schwimmen = symje un baden = bade; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "schwimmen",
         "lv": "symje",
@@ -77,7 +77,7 @@
       "auditId": "LRB076-0002",
       "cardId": "sehen|idx:539",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “sehen”: “sjå” ir pareiza pamatforma, saglabāta atšķirība no schauen/ansehen; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "sehen",
         "lv": "sjå",
@@ -146,7 +146,7 @@
       "auditId": "LRB076-0003",
       "cardId": "sein|idx:542",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “sein”: “vere” un piemēru formas er ir pareizas, saglabāti kontrasti haben/werden/bleiben; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "sein",
         "lv": "vere",
@@ -215,7 +215,7 @@
       "auditId": "LRB076-0004",
       "cardId": "Seite|idx:544",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “Seite”: “side” saglabā grāmatas, vietas un pārnestās nozīmes, kā arī daudzskaitli die Seiten; 6/6 DE piemēri ir saskaņoti.",
       "new": {
         "de": "Seite",
         "lv": "side",
@@ -275,7 +275,7 @@
       "auditId": "LRB076-0005",
       "cardId": "sich|idx:547",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “sich”: “seg” un personu maiņa mich/dich/sich ir izskaidrota pareizi; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "sich",
         "lv": "seg",
@@ -344,7 +344,7 @@
       "auditId": "LRB076-0006",
       "cardId": "Sofa|idx:561",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN vocabulary-only kartīte “Sofa”: mērķvērtība “sofa” ir pareiza; saglabāti DE artikuls das, daudzskaitlis die Sofas un A1 metadati.",
       "new": {
         "de": "Sofa",
         "lv": "sofa",
@@ -357,7 +357,7 @@
       "auditId": "LRB076-0007",
       "cardId": "sprechen|idx:5",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “sprechen”: “snakke” ir pareiza pamatforma, saglabāts sprechen/sagen kontrasts; 3/3 DE piemēri un 2/2 comparison pāri ir saskaņoti.",
       "new": {
         "de": "sprechen",
         "lv": "snakke",
@@ -413,7 +413,7 @@
       "auditId": "LRB076-0008",
       "cardId": "Student|idx:581",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN vocabulary-only kartīte “Student”: mērķvērtība “student” ir pareiza; saglabāti DE artikuls der, daudzskaitlis die Studenten un A1 metadati.",
       "new": {
         "de": "Student",
         "lv": "student",
@@ -426,7 +426,7 @@
       "auditId": "LRB076-0009",
       "cardId": "Tante|idx:587",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN vocabulary-only kartīte “Tante”: mērķvērtība “tante” ir pareiza; saglabāti DE artikuls die, daudzskaitlis die Tanten un A1 metadati.",
       "new": {
         "de": "Tante",
         "lv": "tante",
@@ -439,7 +439,7 @@
       "auditId": "LRB076-0010",
       "cardId": "Uhr|idx:698",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “Uhr”: “klokke” aptver ierīci un klokkeslett lietojumu, bet die Zeit paliek “tid”; 6/6 DE piemēri ir saskaņoti.",
       "new": {
         "de": "Uhr",
         "lv": "klokke",
@@ -497,7 +497,7 @@
       "auditId": "LRB076-0011",
       "cardId": "Urlaub|idx:695",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “Urlaub”: “ferie” saglabā darba atvaļinājuma nozīmi un kontrastu ar die Ferien; 5/5 DE piemēri un 2/2 comparison pāri ir saskaņoti.",
       "new": {
         "de": "Urlaub",
         "lv": "ferie",
@@ -564,7 +564,7 @@
       "auditId": "LRB076-0012",
       "cardId": "Vase|idx:616",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN vocabulary-only kartīte “Vase”: mērķvērtība “vase” ir pareiza; saglabāti DE artikuls die, daudzskaitlis die Vasen un A1 metadati.",
       "new": {
         "de": "Vase",
         "lv": "vase",
@@ -577,7 +577,7 @@
       "auditId": "LRB076-0013",
       "cardId": "vom|idx:634",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “vom”: “frå” un von + dem konstrukcija ir izskaidrota pareizi, saglabāti von/aus/ab/zu kontrasti; 8/8 DE piemēri un 5/5 comparison pāri ir saskaņoti.",
       "new": {
         "de": "vom",
         "lv": "frå",
@@ -671,7 +671,7 @@
       "auditId": "LRB076-0014",
       "cardId": "vor|idx:636",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “vor”: “før • framfor” saglabā laika, vietas un pulksteņa lietojumu; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "vor",
         "lv": "før • framfor",
@@ -740,7 +740,7 @@
       "auditId": "LRB076-0015",
       "cardId": "was|idx:644",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “was”: “kva” pareizi jautā par lietām un notikumiem, saglabāts kontrasts ar wer; 7/7 DE piemēri ir saskaņoti.",
       "new": {
         "de": "was",
         "lv": "kva",
@@ -804,7 +804,7 @@
       "auditId": "LRB076-0016",
       "cardId": "wenn|idx:655",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “wenn”: “viss • når” saglabā nosacījuma un laika nozīmi, kā arī kontrastus ob/wann/weil; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "wenn",
         "lv": "viss • når",
@@ -873,7 +873,7 @@
       "auditId": "LRB076-0017",
       "cardId": "wer|idx:656",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “wer”: “kven” pareizi jautā par personu un saglabā wen/wem/wessen mācību; 7/7 DE piemēri ir saskaņoti.",
       "new": {
         "de": "wer",
         "lv": "kven",
@@ -937,7 +937,7 @@
       "auditId": "LRB076-0018",
       "cardId": "werden|idx:657",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “werden”: “bli” saglabā stāvokļa maiņu un kontrastu ar sein/bleiben; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "werden",
         "lv": "bli",
@@ -1006,7 +1006,7 @@
       "auditId": "LRB076-0019",
       "cardId": "Wetter|idx:658",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “Wetter”: “vêr” ir nošķirts no die Zeit = “tid”; 6/6 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "Wetter",
         "lv": "vêr",
@@ -1086,7 +1086,7 @@
       "auditId": "LRB076-0020",
       "cardId": "wie|idx:660",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “wie”: “korleis • kor” saglabā veida, apjoma un salīdzinājuma lietojumus; 6/6 DE piemēri ir saskaņoti.",
       "new": {
         "de": "wie",
         "lv": "korleis • kor",
@@ -1144,7 +1144,7 @@
       "auditId": "LRB076-0021",
       "cardId": "wissen|idx:311",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “wissen”: “vite” ir nošķirts no kennen = “kjenne”; saglabāti id “a1-wissen” un study.id “a1-wissen-study”, 3/3 DE piemēri un 2/2 comparison pāri.",
       "new": {
         "de": "wissen",
         "lv": "vite",
@@ -1202,7 +1202,7 @@
       "auditId": "LRB076-0022",
       "cardId": "Zeit|idx:699",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “Zeit”: “tid” saglabā brīža, iespējas un laika posma nozīmi un ir nošķirts no die Uhr; 4/4 DE piemēri ir saskaņoti.",
       "new": {
         "de": "Zeit",
         "lv": "tid",
@@ -1252,7 +1252,7 @@
       "auditId": "LRB076-0023",
       "cardId": "zu|idx:668",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “zu”: “til • for” saglabā virziena, pakāpes un infinitīva funkcijas; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "zu",
         "lv": "til • for",
@@ -1321,7 +1321,7 @@
       "auditId": "LRB076-0024",
       "cardId": "Zug|idx:671",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “Zug”: “tog” saglabā A1 pamatnozīmi un transporta kontrastus; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "Zug",
         "lv": "tog",
@@ -1392,7 +1392,7 @@
       "auditId": "LRB076-0025",
       "cardId": "zum|idx:672",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta NN pilnā kartīte “zum”: “til • hos” un zu + dem konstrukcija ir izskaidrota pareizi, saglabāts kontrasts ar zur/bei/nach; 8/8 DE piemēri un 5/5 comparison pāri ir saskaņoti.",
       "new": {
         "de": "zum",
         "lv": "til • hos",
@@ -1486,7 +1486,7 @@
       "auditId": "LRB076-0026",
       "cardId": "a1-uhr",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “Uhr”: “zegar • godzina” pareizi aptver ierīci un pulksteņa laiku, saglabāts kontrasts ar die Zeit; 6/6 DE piemēri ir saskaņoti.",
       "new": {
         "de": "Uhr",
         "lv": "zegar • godzina",
@@ -1544,7 +1544,7 @@
       "auditId": "LRB076-0027",
       "cardId": "ab|idx:17",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “ab”: “od” saglabā sākuma punkta nozīmi un kontrastus von/aus; 4/4 DE piemēri un 3/3 comparison pāri ir saskaņoti.",
       "new": {
         "de": "ab",
         "lv": "od",
@@ -1604,7 +1604,7 @@
       "auditId": "LRB076-0028",
       "cardId": "aber|idx:21",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “aber”: “ale” saglabā pretstata nozīmi un atšķirību no sondern/jedoch; 3/3 DE piemēri un 3/3 comparison pāri ir saskaņoti.",
       "new": {
         "de": "aber",
         "lv": "ale",
@@ -1659,7 +1659,7 @@
       "auditId": "LRB076-0029",
       "cardId": "also|idx:26",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “also”: “zatem • więc” pareizi izsaka secinājumu un ir nošķirts no auch/deshalb; 3/3 DE piemēri un 3/3 comparison pāri ir saskaņoti.",
       "new": {
         "de": "also",
         "lv": "zatem • więc",
@@ -1714,7 +1714,7 @@
       "auditId": "LRB076-0030",
       "cardId": "an|idx:12",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “an”: “przy • na” saglabā virsmas un malas lietojumu, kā arī kontrastus auf/bei; 3/3 DE piemēri un 3/3 comparison pāri ir saskaņoti.",
       "new": {
         "de": "an",
         "lv": "przy • na",
@@ -1769,7 +1769,7 @@
       "auditId": "LRB076-0031",
       "cardId": "Appetit|idx:689",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “Appetit”: “apetyt” saglabā sajūtas un vienskaitļa mācību, ieskaitot Guten Appetit!; 3/3 DE piemēri ir saskaņoti.",
       "new": {
         "de": "Appetit",
         "lv": "apetyt",
@@ -1817,7 +1817,7 @@
       "auditId": "LRB076-0032",
       "cardId": "auch|idx:48",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “auch”: “też • również” ir neitrāls papildinājuma apzīmējums ar pareizu vārdu kārtu; 3/3 DE piemēri ir saskaņoti.",
       "new": {
         "de": "auch",
         "lv": "też • również",
@@ -1862,7 +1862,7 @@
       "auditId": "LRB076-0033",
       "cardId": "auf|idx:49",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “auf”: “na” saglabā virzienu uz virsmu un kontrastus an/in; 3/3 DE piemēri un 3/3 comparison pāri ir saskaņoti.",
       "new": {
         "de": "auf",
         "lv": "na",
@@ -1917,7 +1917,7 @@
       "auditId": "LRB076-0034",
       "cardId": "aufs|idx:60",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “aufs”: “na” un auf + das konstrukcija ir izskaidrota pareizi, saglabāti kustības un vietas kontrasti; 8/8 DE piemēri un 5/5 comparison pāri ir saskaņoti.",
       "new": {
         "de": "aufs",
         "lv": "na",
@@ -2011,7 +2011,7 @@
       "auditId": "LRB076-0035",
       "cardId": "aus|idx:57",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “aus”: “z • ze” saglabā izcelsmes un kustības no iekšienes nozīmi; 3/3 DE piemēri un 3/3 comparison pāri ir saskaņoti.",
       "new": {
         "de": "aus",
         "lv": "z • ze",
@@ -2066,7 +2066,7 @@
       "auditId": "LRB076-0036",
       "cardId": "bitte|idx:93",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “bitte”: “proszę” ir pareizi nošķirts no lietvārda die Bitte = “prośba”; 3/3 DE piemēri un 2/2 comparison pāri ir saskaņoti.",
       "new": {
         "de": "bitte",
         "lv": "proszę",
@@ -2121,7 +2121,7 @@
       "auditId": "LRB076-0037",
       "cardId": "Bitte|idx:94",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “Bitte”: “prośba”, artikuls die un daudzskaitlis die Bitten ir saglabāti, kā arī kontrasts ar bitte; 3/3 DE piemēri un 2/2 comparison pāri ir saskaņoti.",
       "new": {
         "de": "Bitte",
         "lv": "prośba",
@@ -2179,7 +2179,7 @@
       "auditId": "LRB076-0038",
       "cardId": "bringen|idx:111",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “bringen”: “przynieść • zanieść • zawieźć” saglabā kontekstatkarīgās nozīmes un kontrastu ar nehmen; 3/3 DE piemēri un 5/5 comparison pāri ir saskaņoti.",
       "new": {
         "de": "bringen",
         "lv": "przynieść • zanieść • zawieźć",
@@ -2251,7 +2251,7 @@
       "auditId": "LRB076-0039",
       "cardId": "das|idx:129",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “das”: “rodzajnik określony rodzaju nijakiego” un zaimka lietojums ir nošķirts no dass; 3/3 DE piemēri un 3/3 comparison pāri ir saskaņoti.",
       "new": {
         "de": "das",
         "lv": "rodzajnik określony rodzaju nijakiego",
@@ -2306,7 +2306,7 @@
       "auditId": "LRB076-0040",
       "cardId": "dass|idx:130",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “dass”: “że” pareizi ievada palīgteikumu un ir nošķirts no das/weil/damit/ob; 3/3 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "dass",
         "lv": "że",
@@ -2366,7 +2366,7 @@
       "auditId": "LRB076-0041",
       "cardId": "der|idx:134",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “der”: mērķvērtība pareizi nosauc noteikto vīriešu dzimtes artikulu; 3/3 DE piemēri ir saskaņoti.",
       "new": {
         "de": "der",
         "lv": "rodzajnik określony rodzaju męskiego",
@@ -2404,7 +2404,7 @@
       "auditId": "LRB076-0042",
       "cardId": "die|idx:137",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “die”: mērķvērtība pareizi nosauc noteikto sieviešu dzimtes artikulu un saglabā daudzskaitļa piezīmi; 3/3 DE piemēri ir saskaņoti.",
       "new": {
         "de": "die",
         "lv": "rodzajnik określony rodzaju żeńskiego",
@@ -2442,7 +2442,7 @@
       "auditId": "LRB076-0043",
       "cardId": "dieser|idx:139",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “dieser”: “ten” saglabā vīriešu dzimtes un locījuma mācību, kā arī dieser/diese/dieses kontrastu; 3/3 DE piemēri ir saskaņoti.",
       "new": {
         "de": "dieser",
         "lv": "ten",
@@ -2480,7 +2480,7 @@
       "auditId": "LRB076-0044",
       "cardId": "einmal|idx:700",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “einmal”: “raz • kiedyś” saglabā vienas reizes un nenoteiktas pagātnes nozīmes; 2/2 DE piemēri ir saskaņoti.",
       "new": {
         "de": "einmal",
         "lv": "raz • kiedyś",
@@ -2520,7 +2520,7 @@
       "auditId": "LRB076-0045",
       "cardId": "erst|idx:165",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “erst”: “dopiero • najpierw” saglabā abas nozīmes un kontrastus zuerst/nur/dann; 4/4 DE piemēri un 4/4 comparison pāri ir saskaņoti.",
       "new": {
         "de": "erst",
         "lv": "dopiero • najpierw",
@@ -2591,7 +2591,7 @@
       "auditId": "LRB076-0046",
       "cardId": "es|idx:167",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “es”: “ono • to • forma bezosobowa” ir nošķirts no ich = “ja”; 4/4 DE piemēri un 2/2 comparison pāri ir saskaņoti.",
       "new": {
         "de": "es",
         "lv": "ono • to • forma bezosobowa",
@@ -2653,7 +2653,7 @@
       "auditId": "LRB076-0047",
       "cardId": "essen|idx:690",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “essen”: “jeść” ir darbības vārds un saglabāts kontrasts ar lietvārdu das Essen; 6/6 DE piemēri ir saskaņoti.",
       "new": {
         "de": "essen",
         "lv": "jeść",
@@ -2714,7 +2714,7 @@
       "auditId": "LRB076-0048",
       "cardId": "Essen|idx:691",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “Essen”: “jedzenie • posiłek”, artikuls das un lietvārda rakstība ir nošķirta no darbības vārda essen; 6/6 DE piemēri ir saskaņoti.",
       "new": {
         "de": "Essen",
         "lv": "jedzenie • posiłek",
@@ -2776,7 +2776,7 @@
       "auditId": "LRB076-0049",
       "cardId": "euch|idx:170",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “euch”: “was • wam” saglabā 2. personas daudzskaitļa akuzatīva un datīva funkcijas un kontrastu ar ihr/euer; 5/5 DE piemēri un 3/3 comparison pāri ir saskaņoti.",
       "new": {
         "de": "euch",
         "lv": "was • wam",
@@ -2841,7 +2841,7 @@
       "auditId": "LRB076-0050",
       "cardId": "fahren|idx:172",
       "status": "LABOT",
-      "reason": "Pilnā gala kartīte individuāli pārbaudīta pret PDF noteikumiem; aizstāt ar approved_card bez jaunas lingvistiskās analīzes.",
+      "reason": "Individuāli pārbaudīta PL pilnā kartīte “fahren”: “jechać • wozić • zawieźć” saglabā transporta un personas vešanas nozīmes, kā arī kontrastus gehen/laufen/bringen/mitnehmen; 5/5 DE piemēri un 5/5 comparison pāri ir saskaņoti.",
       "new": {
         "de": "fahren",
         "lv": "jechać • wozić • zawieźć",
@@ -2915,5 +2915,6 @@
         }
       }
     }
-  ]
+  ],
+  "correctionRound": 2
 }

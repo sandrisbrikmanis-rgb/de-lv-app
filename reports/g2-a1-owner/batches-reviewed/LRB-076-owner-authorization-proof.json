@@ -14,10 +14,11 @@
   "unique_cards": 50,
   "scope": "schwimmen..fahren (25 NN + 25 PL) — pending Phase 1 Luna linguistic review",
   "productionSource": "data/nn/a1.js + data/pl/a1.js (read-only review)",
-  "note": "OWNER copy/paste apply. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
-  "overridesSha256": "cb324a4e0c1b7cff07d4b49afed8a4ddcacdb9d040eeb25bdcf0aefe64984a69",
+  "note": "COPY-PASTE correction #2. Individual owner notes. ANTI_BULK PASS. galaPass=false.",
+  "overridesSha256": "10a2bab3e6e476769126dcb79eb64a957d5bcadd14fce778fc2b26bb08573f79",
   "antiBulkPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   "individual_linguistic": 50,
-  "provenance_individual_count": 50
+  "provenance_individual_count": 50,
+  "correctionRound": 2
 }
