@@ -1,10 +1,11 @@
 {
   "batchId": "LRB-077",
-  "generatedAt": "2026-09-15T16:01:45.206Z",
-  "sourceCommit": "0755e48fad886ccbe4ee5ee5d23e5bab490b9018",
+  "generatedAt": "2026-09-15T16:11:59.242Z",
+  "sourceCommit": "54181fb47d26d5fc3a0cd9d8ca024f292c4992c4",
   "reviewer": "GPT-5.6 Luna",
-  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
-  "overridesSha256": "73f30e6cef92ecc331119b7fb3b5ee73cbe5b42b68b017bce89394635003ecf7",
+  "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
+  "correctionRound": 2,
+  "overridesSha256": "8646863c6c5fea316b000fdc2e0ed44922afdbc14088f5f46d4bc2e520e68e03",
   "uniqueCards": 50,
   "fullStudyCards": 50,
   "rowCount": 50,
@@ -7582,6 +7583,7 @@
         "de": "kennen",
         "lv": "znać",
         "level": "A1",
+        "id": "a1-kennen",
         "study": {
           "id": "a1-kennen-study",
           "layout": "standardStudy",

@@ -7,11 +7,11 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-15T16:01:45.206Z
-**Source commit:** `0755e48fad886ccbe4ee5ee5d23e5bab490b9018`
+**Generated:** 2026-09-15T16:11:59.242Z
+**Source commit:** `54181fb47d26d5fc3a0cd9d8ca024f292c4992c4`
 **Branch:** `cursor/lrb-077-owner-authorization-ed35`
-**Overrides SHA256:** `73f30e6cef92ecc331119b7fb3b5ee73cbe5b42b68b017bce89394635003ecf7`
-**Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
+**Overrides SHA256:** `8646863c6c5fea316b000fdc2e0ed44922afdbc14088f5f46d4bc2e520e68e03`
+**Classification:** `G2_A1_LRB_OWNER_COPY_PASTE_CORRECTION_2_APPLIED`
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
@@ -2202,7 +2202,7 @@
 **CURRENT (captured scope):** {"lv":"Wiedzieć","study.translation":"Wiedzieć","study.explanation":"[\"Główna idea: poznać osobę, miejsce lub rzecz z doświadczenia.\",\"Kennen oznacza przede wszystkim: osobistą znajomość.\",\"Często opisuje: ludzi, miejsca.\",\"Kennen używamy, gdy znasz osobę, miejsce lub rzecz z własnego doświadczenia.\"]","study.examples":"[{\"de\":\"Ich kenne ihn.\",\"lv\":\"Znam go.\"},{\"de\":\"Kennen Sie diese Frau?\",\"lv\":\"Znasz tę kobietę?\"},{\"de\":\"Wo habt ihr euch kennengelernt?\",\"lv\":\"Gdzie się spotkaliście?\"},{\"de\":\"Ich kenne ihn.\",\"lv\":\"Znam go\"},{\"de\":\"kennen\",\"lv\":\"Poznać Wissena\"}]","study.comparison":"[{\"word\":\"kennen\",\"meaning\":\"Znać (osobę, miejsce, rzecz)\",\"example\":\"Ich kenne ihn. – Znam go.\"},{\"word\":\"wissen\",\"meaning\":\"Wiedzieć (fakt, informacja)\",\"example\":\"Ich weiß seinen Namen. – Znam jego imię.\"}]","study.tip":"[\"Kennen = wiedzieć\",\"Użyj Kennen, gdy kontekst pasuje do tego znaczenia.\"]","study.important":"[\"Kennen = znać osobę/miejsce.\",\"Kennen = wiedzieć.\",\"Poznanie osoby, miejsca lub rzeczy z doświadczenia.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"kennen","lv":"znać","level":"A1","study":{"id":"a1-kennen-study","layout":"standardStudy","translation":"znać","explanation":["Główna idea: kennen oznacza znać osobę, miejsce lub rzecz z doświadczenia.","Używa się go, gdy ktoś jest nam znajomy.","wissen oznacza wiedzieć jakiś fakt lub informację.","kennenlernen oznacza poznawać lub poznać kogoś."],"examples":[{"de":"Ich kenne ihn.","lv":"Znam go."},{"de":"Kennen Sie diese Frau?","lv":"Czy zna pan/pani tę kobietę?"},{"de":"Wo habt ihr euch kennengelernt?","lv":"Gdzie się poznaliście?"},{"de":"Ich kenne ihn.","lv":"Znam go."},{"de":"kennen","lv":"znać"}],"comparison":[{"word":"kennen","meaning":"znać","example":"Ich kenne ihn. – Znam go."},{"word":"wissen","meaning":"wiedzieć","example":"Ich weiß seinen Namen. – Wiem, jak ma na imię."}],"tip":["Osoba lub miejsce: kennen = znać.","Fakt lub informacja: wissen = wiedzieć."],"important":["kennen + osoba/rzecz; wissen + informacja.","kennenlernen = poznawać lub poznać."]}}
+**NEW (OWNER mapping):** {"de":"kennen","lv":"znać","level":"A1","id":"a1-kennen","study":{"id":"a1-kennen-study","layout":"standardStudy","translation":"znać","explanation":["Główna idea: kennen oznacza znać osobę, miejsce lub rzecz z doświadczenia.","Używa się go, gdy ktoś jest nam znajomy.","wissen oznacza wiedzieć jakiś fakt lub informację.","kennenlernen oznacza poznawać lub poznać kogoś."],"examples":[{"de":"Ich kenne ihn.","lv":"Znam go."},{"de":"Kennen Sie diese Frau?","lv":"Czy zna pan/pani tę kobietę?"},{"de":"Wo habt ihr euch kennengelernt?","lv":"Gdzie się poznaliście?"},{"de":"Ich kenne ihn.","lv":"Znam go."},{"de":"kennen","lv":"znać"}],"comparison":[{"word":"kennen","meaning":"znać","example":"Ich kenne ihn. – Znam go."},{"word":"wissen","meaning":"wiedzieć","example":"Ich weiß seinen Namen. – Wiem, jak ma na imię."}],"tip":["Osoba lub miejsce: kennen = znać.","Fakt lub informacja: wissen = wiedzieć."],"important":["kennen + osoba/rzecz; wissen + informacja.","kennenlernen = poznawać lub poznać."]}}
 **Note:** Pilna PL kartīte «kennen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.
 
 ### Gala card (approved NEW composite — full materialized card)

@@ -13,10 +13,11 @@
   "unique_cards": 50,
   "scope": "Ferien..Obst (50 PL) — pending Phase 1 Luna linguistic review",
   "productionSource": "data/pl/a1.js (read-only review)",
-  "note": "OWNER copy/paste apply. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
-  "overridesSha256": "73f30e6cef92ecc331119b7fb3b5ee73cbe5b42b68b017bce89394635003ecf7",
+  "note": "COPY-PASTE correction #2. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "overridesSha256": "8646863c6c5fea316b000fdc2e0ed44922afdbc14088f5f46d4bc2e520e68e03",
   "antiBulkPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   "individual_linguistic": 50,
-  "provenance_individual_count": 50
+  "provenance_individual_count": 50,
+  "correctionRound": 2
 }
