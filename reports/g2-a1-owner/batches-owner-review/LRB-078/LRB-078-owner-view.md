@@ -7,13 +7,13 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-15T15:16:27.775Z
-**Source commit:** `3a3391952c9c462e50d43608967a46499d4d6056`
+**Generated:** 2026-09-15T15:27:14.790Z
+**Source commit:** `e1279bb8109157e0e49016078a0456a61cf5a058`
 **Branch:** `cursor/lrb-078-owner-authorization-ed35`
-**Overrides SHA256:** `35c0c43a202bed76a50ce8badedb793c34863e4b70edbcb375060769f6572813`
+**Overrides SHA256:** `0949fac343451df59059e42d5831e29bf4d73a47c01f19e800d68e6a03d54b34`
 **Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
 
-**Summary:** 49 LABOT / 1 NELABOT / 0 PENDING
+**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
 ## Finding 1
 
@@ -309,10 +309,10 @@
 **Severity:** HIGH
 **Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
 **CURRENT (captured scope):** {"lv":"Już","study.translation":"Już","study.explanation":"[\"Główna idea: coś już się wydarzyło lub już obowiązuje.\",\"Schon oznacza głównie: coś już się wydarzyło lub obowiązuje.\",\"Często opisuje: fakt, który miał miejsce lub istniejący stan.\",\"Schon oznacza już: coś już się wydarzyło lub już obowiązuje.\"]","study.examples[].lv":null,"study.tip":"[\"Coś już się wydarzyło lub już obowiązuje.\",\"Użyj schon, gdy kontekst pasuje do tego znaczenia.\"]","study.important":"[\"Schon = już.\",\"Coś już się wydarzyło lub już obowiązuje.\"]"}
-**OWNER STATUS:** NELABOT
-**OWNER_DECISION:** NELABOT
-**NEW (OWNER mapping):** —
-**Note:** Pilna PL kartīte «schon» individuāli pārbaudīta pret oriģinālo LV→DE kartīti; semantika, gramatika, piemēru pāri un iekšējā konsekvence ir pieņemama.
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"de":"schon","lv":"Już","level":"A1","study":{"id":"a1-schon-study","layout":"standardStudy","translation":"Już","explanation":["Główna idea: coś już się wydarzyło lub już obowiązuje.","Schon oznacza głównie: coś już się wydarzyło lub obowiązuje.","Często opisuje: fakt, który miał miejsce lub istniejący stan.","Schon oznacza już: coś już się wydarzyło lub już obowiązuje."],"examples":[{"de":"Ich bin schon zu Hause.","lv":"Jestem już w domu."}],"tip":["Coś już się wydarzyło lub już obowiązuje.","Użyj schon, gdy kontekst pasuje do tego znaczenia."],"important":["Schon = już.","Coś już się wydarzyło lub już obowiązuje."]}}
+**Note:** LABOT: PL kartītes «schon» piemēra interpunkcija saskaņota ar pilno DE teikumu; pārējais pilnais kartītes kompozīts saglabāts.
 
 ### Gala card (approved NEW composite — full materialized card)
 
@@ -334,7 +334,7 @@
     "examples": [
       {
         "de": "Ich bin schon zu Hause.",
-        "lv": "Jestem już w domu"
+        "lv": "Jestem już w domu."
       }
     ],
     "tip": [
@@ -344,35 +344,7 @@
     "important": [
       "Schon = już.",
       "Coś już się wydarzyło lub już obowiązuje."
-    ],
-    "sectionAccents": {
-      "explanation": {
-        "blue": [
-          "schon"
-        ]
-      },
-      "examples": [
-        {
-          "de": {
-            "blue": [
-              "schon",
-              "schon"
-            ]
-          },
-          "lv": {}
-        }
-      ],
-      "tip": [
-        {}
-      ],
-      "important": [
-        {
-          "blue": [
-            "schon"
-          ]
-        }
-      ]
-    }
+    ]
   },
   "index": 521
 }
@@ -2159,7 +2131,7 @@
 **CURRENT (captured scope):** {"lv":"Wiedzieć","study.translation":"Wiedzieć","study.explanation":"[\"Główna idea: poznać fakt, odpowiedź lub informację.\",\"Wissen oznacza głównie: informację/fakt.\",\"Często charakteryzuje się: odpowiedziami, danymi.\",\"Wissen używamy, gdy znasz fakt, odpowiedź lub informację.\"]","study.examples":"[{\"de\":\"Ich weiß, wo er wohnt.\",\"lv\":\"Wiem, gdzie mieszka.\"},{\"de\":\"Woher wissen Sie das?\",\"lv\":\"Skąd to wiesz?\"},{\"de\":\"Ich weiß die Antwort.\",\"lv\":\"Znam odpowiedź.\"}]","study.comparison":"[{\"word\":\"wissen\",\"meaning\":\"Wiedzieć (fakt, informacja)\",\"example\":\"Ich weiß, wo er wohnt. – Wiem, gdzie mieszka.\"},{\"word\":\"kennen\",\"meaning\":\"Znać (osobę, miejsce, rzecz)\",\"example\":\"Ich kenne die Stadt. – Znam to miasto.\"}]","study.tip":"[\"Wissen = wiedzieć\",\"Użyj wissen, gdy kontekst pasuje do tego znaczenia.\"]","study.important":"[\"Wissen = znać fakt.\",\"Wissen = wiedzieć.\",\"Poznaj fakt, odpowiedź lub informację.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"wissen","lv":"wiedzieć","level":"A1","study":{"id":"a1-wissen-study","layout":"standardStudy","translation":"wiedzieć","explanation":["Główna idea: wiedzieć fakt, odpowiedź lub informację.","wissen odnosi się przede wszystkim do informacji lub faktu.","Często dotyczy odpowiedzi, danych i znanych informacji.","wissen używa się, gdy ktoś wie jakiś fakt, odpowiedź lub informację."],"examples":[{"de":"Ich weiß, wo er wohnt.","lv":"Wiem, gdzie on mieszka."},{"de":"Woher wissen Sie das?","lv":"Skąd Pan / Pani to wie?"},{"de":"Ich weiß die Antwort.","lv":"Znam odpowiedź."}],"comparison":[{"word":"wissen","meaning":"wiedzieć fakt lub informację","example":"Ich weiß, wo er wohnt. – Wiem, gdzie on mieszka."},{"word":"kennen","meaning":"znać osobę, miejsce lub rzecz","example":"Ich kenne die Stadt. – Znam to miasto."}],"tip":["wissen = wiedzieć","Użyj wissen, gdy chodzi o znany fakt lub informację."],"important":["wissen = wiedzieć fakt.","wissen = wiedzieć.","Oznacza wiedzieć fakt, odpowiedź lub informację."]}}
+**NEW (OWNER mapping):** {"de":"wissen","lv":"wiedzieć","level":"A1","id":"a1-wissen","study":{"id":"a1-wissen-study","layout":"standardStudy","translation":"wiedzieć","explanation":["Główna idea: wiedzieć fakt, odpowiedź lub informację.","wissen odnosi się przede wszystkim do informacji lub faktu.","Często dotyczy odpowiedzi, danych i znanych informacji.","wissen używa się, gdy ktoś wie jakiś fakt, odpowiedź lub informację."],"examples":[{"de":"Ich weiß, wo er wohnt.","lv":"Wiem, gdzie on mieszka."},{"de":"Woher wissen Sie das?","lv":"Skąd Pan / Pani to wie?"},{"de":"Ich weiß die Antwort.","lv":"Znam odpowiedź."}],"comparison":[{"word":"wissen","meaning":"wiedzieć fakt lub informację","example":"Ich weiß, wo er wohnt. – Wiem, gdzie on mieszka."},{"word":"kennen","meaning":"znać osobę, miejsce lub rzecz","example":"Ich kenne die Stadt. – Znam to miasto."}],"tip":["wissen = wiedzieć","Użyj wissen, gdy chodzi o znany fakt lub informację."],"important":["wissen = wiedzieć fakt.","wissen = wiedzieć.","Oznacza wiedzieć fakt, odpowiedź lub informację."]}}
 **Note:** Pilna PL kartīte «wissen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2586,7 +2558,7 @@
 **CURRENT (captured scope):** Pazit
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"kennen","lv":"conhecer","level":"A1","study":{"id":"a1-kennen-study","layout":"standardStudy","translation":"conhecer","explanation":["Ideia principal: conhecer uma pessoa, um lugar ou uma coisa por experiência.","kennen significa principalmente ter familiaridade pessoal.","É usado com frequência para pessoas e lugares.","Use kennen quando alguém conhece uma pessoa, um lugar ou uma coisa por experiência própria."],"examples":[{"de":"Ich kenne ihn.","lv":"Eu o conheço."},{"de":"Kennen Sie diese Frau?","lv":"O senhor / a senhora conhece esta mulher?"},{"de":"Wo habt ihr euch kennengelernt?","lv":"Onde vocês se conheceram?"},{"de":"Ich kenne ihn.","lv":"Eu o conheço."},{"de":"kennen","lv":"conhecer; wissen = saber"}],"comparison":[{"word":"kennen","meaning":"conhecer uma pessoa, um lugar ou uma coisa","example":"Ich kenne ihn. – Eu o conheço."},{"word":"wissen","meaning":"saber um fato ou uma informação","example":"Ich weiß seinen Namen. – Eu sei o nome dele."}],"tip":["kennen = conhecer","Use kennen quando o contexto se referir à familiaridade com alguém ou algo."],"important":["kennen = conhecer uma pessoa ou um lugar.","kennen = conhecer.","Significa conhecer uma pessoa, um lugar ou uma coisa por experiência."]}}
+**NEW (OWNER mapping):** {"de":"kennen","lv":"conhecer","level":"A1","id":"a1-kennen","study":{"id":"a1-kennen-study","layout":"standardStudy","translation":"conhecer","explanation":["Ideia principal: conhecer uma pessoa, um lugar ou uma coisa por experiência.","kennen significa principalmente ter familiaridade pessoal.","É usado com frequência para pessoas e lugares.","Use kennen quando alguém conhece uma pessoa, um lugar ou uma coisa por experiência própria."],"examples":[{"de":"Ich kenne ihn.","lv":"Eu o conheço."},{"de":"Kennen Sie diese Frau?","lv":"O senhor / a senhora conhece esta mulher?"},{"de":"Wo habt ihr euch kennengelernt?","lv":"Onde vocês se conheceram?"},{"de":"Ich kenne ihn.","lv":"Eu o conheço."},{"de":"kennen","lv":"conhecer; wissen = saber"}],"comparison":[{"word":"kennen","meaning":"conhecer uma pessoa, um lugar ou uma coisa","example":"Ich kenne ihn. – Eu o conheço."},{"word":"wissen","meaning":"saber um fato ou uma informação","example":"Ich weiß seinen Namen. – Eu sei o nome dele."}],"tip":["kennen = conhecer","Use kennen quando o contexto se referir à familiaridade com alguém ou algo."],"important":["kennen = conhecer uma pessoa ou um lugar.","kennen = conhecer.","Significa conhecer uma pessoa, um lugar ou uma coisa por experiência."]}}
 **Note:** Pilna PT kartīte «kennen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.
 
 ### Gala card (approved NEW composite — full materialized card)

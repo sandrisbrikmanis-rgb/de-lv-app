@@ -1,8 +1,9 @@
 {
   "batchId": "LRB-078",
-  "sourceCommit": "3a3391952c9c462e50d43608967a46499d4d6056",
+  "sourceCommit": "e1279bb8109157e0e49016078a0456a61cf5a058",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE_CORRECTION_2",
+  "correctionRound": 2,
   "cards": [
     {
       "auditId": "LRB078-0001",
@@ -223,8 +224,38 @@
     {
       "auditId": "LRB078-0005",
       "cardId": "schon|idx:521",
-      "status": "NELABOT",
-      "reason": "Pilna PL kartīte «schon» individuāli pārbaudīta pret oriģinālo LV→DE kartīti; semantika, gramatika, piemēru pāri un iekšējā konsekvence ir pieņemama."
+      "status": "LABOT",
+      "reason": "LABOT: PL kartītes «schon» piemēra interpunkcija saskaņota ar pilno DE teikumu; pārējais pilnais kartītes kompozīts saglabāts.",
+      "new": {
+        "de": "schon",
+        "lv": "Już",
+        "level": "A1",
+        "study": {
+          "id": "a1-schon-study",
+          "layout": "standardStudy",
+          "translation": "Już",
+          "explanation": [
+            "Główna idea: coś już się wydarzyło lub już obowiązuje.",
+            "Schon oznacza głównie: coś już się wydarzyło lub obowiązuje.",
+            "Często opisuje: fakt, który miał miejsce lub istniejący stan.",
+            "Schon oznacza już: coś już się wydarzyło lub już obowiązuje."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin schon zu Hause.",
+              "lv": "Jestem już w domu."
+            }
+          ],
+          "tip": [
+            "Coś już się wydarzyło lub już obowiązuje.",
+            "Użyj schon, gdy kontekst pasuje do tego znaczenia."
+          ],
+          "important": [
+            "Schon = już.",
+            "Coś już się wydarzyło lub już obowiązuje."
+          ]
+        }
+      }
     },
     {
       "auditId": "LRB078-0006",
@@ -1645,6 +1676,7 @@
         "de": "wissen",
         "lv": "wiedzieć",
         "level": "A1",
+        "id": "a1-wissen",
         "study": {
           "id": "a1-wissen-study",
           "layout": "standardStudy",
@@ -1986,6 +2018,7 @@
         "de": "kennen",
         "lv": "conhecer",
         "level": "A1",
+        "id": "a1-kennen",
         "study": {
           "id": "a1-kennen-study",
           "layout": "standardStudy",

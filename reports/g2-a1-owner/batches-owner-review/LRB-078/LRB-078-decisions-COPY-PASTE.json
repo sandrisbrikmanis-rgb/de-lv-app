@@ -3285,19 +3285,48 @@
           ]
         }
       }
-    }
-  ],
-  "unchanged_cards": [
+    },
     {
       "language": "PL",
       "card_id": "schon|idx:521",
       "row_numbers": [
         5
       ],
-      "owner_decision": "NELABOT",
-      "owner_note": "Pilna PL kartīte «schon» individuāli pārbaudīta pret oriģinālo LV→DE kartīti; semantika, gramatika, piemēru pāri un iekšējā konsekvence ir pieņemama."
+      "owner_decision": "LABOT",
+      "owner_note": "LABOT: PL kartītes «schon» piemēra interpunkcija saskaņota ar pilno DE teikumu; pārējais pilnais kartītes kompozīts saglabāts.",
+      "approved_card": {
+        "de": "schon",
+        "lv": "Już",
+        "level": "A1",
+        "study": {
+          "id": "a1-schon-study",
+          "layout": "standardStudy",
+          "translation": "Już",
+          "explanation": [
+            "Główna idea: coś już się wydarzyło lub już obowiązuje.",
+            "Schon oznacza głównie: coś już się wydarzyło lub obowiązuje.",
+            "Często opisuje: fakt, który miał miejsce lub istniejący stan.",
+            "Schon oznacza już: coś już się wydarzyło lub już obowiązuje."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin schon zu Hause.",
+              "lv": "Jestem już w domu."
+            }
+          ],
+          "tip": [
+            "Coś już się wydarzyło lub już obowiązuje.",
+            "Użyj schon, gdy kontekst pasuje do tego znaczenia."
+          ],
+          "important": [
+            "Schon = już.",
+            "Coś już się wydarzyło lub już obowiązuje."
+          ]
+        }
+      }
     }
   ],
+  "unchanged_cards": [],
   "blocking_findings": [],
   "required_fresh_gates": {
     "ROWS": "50/50",

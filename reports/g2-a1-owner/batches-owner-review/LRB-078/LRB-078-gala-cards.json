@@ -1,10 +1,10 @@
 {
   "batchId": "LRB-078",
-  "generatedAt": "2026-09-15T15:16:27.775Z",
-  "sourceCommit": "3a3391952c9c462e50d43608967a46499d4d6056",
+  "generatedAt": "2026-09-15T15:27:14.790Z",
+  "sourceCommit": "e1279bb8109157e0e49016078a0456a61cf5a058",
   "reviewer": "GPT-5.6 Luna",
   "repair": "OWNER_APPROVED_OVERRIDES_COPY_PASTE",
-  "overridesSha256": "35c0c43a202bed76a50ce8badedb793c34863e4b70edbcb375060769f6572813",
+  "overridesSha256": "0949fac343451df59059e42d5831e29bf4d73a47c01f19e800d68e6a03d54b34",
   "uniqueCards": 50,
   "fullStudyCards": 50,
   "rowCount": 50,
@@ -919,8 +919,8 @@
       "productionFile": "crowdin-staging/g2/pl-a1.json",
       "deReference": "schon",
       "lvSource": "jau",
-      "ownerStatus": "NELABOT",
-      "ownerDecision": "NELABOT",
+      "ownerStatus": "LABOT",
+      "ownerDecision": "LABOT",
       "currentGalaCard": {
         "de": "schon",
         "lv": "Już",
@@ -997,7 +997,7 @@
           "examples": [
             {
               "de": "Ich bin schon zu Hause.",
-              "lv": "Jestem już w domu"
+              "lv": "Jestem już w domu."
             }
           ],
           "tip": [
@@ -1007,41 +1007,42 @@
           "important": [
             "Schon = już.",
             "Coś już się wydarzyło lub już obowiązuje."
-          ],
-          "sectionAccents": {
-            "explanation": {
-              "blue": [
-                "schon"
-              ]
-            },
-            "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "schon",
-                    "schon"
-                  ]
-                },
-                "lv": {}
-              }
-            ],
-            "tip": [
-              {}
-            ],
-            "important": [
-              {
-                "blue": [
-                  "schon"
-                ]
-              }
-            ]
-          }
+          ]
         },
         "index": 521
       },
-      "ownerNew": null,
+      "ownerNew": {
+        "de": "schon",
+        "lv": "Już",
+        "level": "A1",
+        "study": {
+          "id": "a1-schon-study",
+          "layout": "standardStudy",
+          "translation": "Już",
+          "explanation": [
+            "Główna idea: coś już się wydarzyło lub już obowiązuje.",
+            "Schon oznacza głównie: coś już się wydarzyło lub obowiązuje.",
+            "Często opisuje: fakt, który miał miejsce lub istniejący stan.",
+            "Schon oznacza już: coś już się wydarzyło lub już obowiązuje."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin schon zu Hause.",
+              "lv": "Jestem już w domu."
+            }
+          ],
+          "tip": [
+            "Coś już się wydarzyło lub już obowiązuje.",
+            "Użyj schon, gdy kontekst pasuje do tego znaczenia."
+          ],
+          "important": [
+            "Schon = już.",
+            "Coś już się wydarzyło lub już obowiązuje."
+          ]
+        }
+      },
       "accentTerms": null,
-      "reason": "Pilna PL kartīte «schon» individuāli pārbaudīta pret oriģinālo LV→DE kartīti; semantika, gramatika, piemēru pāri un iekšējā konsekvence ir pieņemama.",
+      "reason": "LABOT: PL kartītes «schon» piemēra interpunkcija saskaņota ar pilno DE teikumu; pārējais pilnais kartītes kompozīts saglabāts.",
       "findingStableId": "g2/a1/pl|schon|idx:521|lv; study.translation; study.explanation; study.examples[].lv; study.tip; study.important|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna",
       "fieldPath": "lv; study.translation; study.explanation; study.examples[].lv; study.tip; study.important",
       "category": "WRONG_OR_MIXED_TARGET_LANGUAGE",
@@ -7658,6 +7659,7 @@
         "de": "wissen",
         "lv": "wiedzieć",
         "level": "A1",
+        "id": "a1-wissen",
         "study": {
           "id": "a1-wissen-study",
           "layout": "standardStudy",
@@ -9267,6 +9269,7 @@
         "de": "kennen",
         "lv": "conhecer",
         "level": "A1",
+        "id": "a1-kennen",
         "study": {
           "id": "a1-kennen-study",
           "layout": "standardStudy",
