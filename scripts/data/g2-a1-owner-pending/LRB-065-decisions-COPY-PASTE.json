@@ -181,7 +181,7 @@
         "Haaptiddi: nehmen bedeit huelen.",
         "nehmen gëtt benotzt, wann een eppes hëlt oder auswielt.",
         "Dat ass net datselwecht wéi bringen, well bringen bedeit, enger Persoun eppes ze bréngen.",
-        "holen bedeit, eppes siche ze goen an et matzebréngen oder eng Persoun ofzehuelen."
+        "holen bedeit, eppes sichen ze goen an et matzebréngen oder eng Persoun ofzehuelen."
       ],
       "study.examples": [
         {
@@ -644,8 +644,8 @@
           "lv": "Ech sinn nach doheem."
         },
         {
-          "de": "Ich bin noch zu Hause.",
-          "lv": "Ech sinn nach doheem."
+          "de": "Wir warten noch.",
+          "lv": "Mir waarden nach."
         },
         {
           "de": "Bist du noch da?",
@@ -755,8 +755,8 @@
           "lv": "Ech hunn nëmmen zéng Euro."
         },
         {
-          "de": "Ich habe nur zehn Euro.",
-          "lv": "Ech hunn nëmmen zéng Euro."
+          "de": "Ich habe nur eine Frage.",
+          "lv": "Ech hunn nëmmen eng Fro."
         },
         {
           "de": "Nur du kannst mir helfen.",
@@ -1339,7 +1339,7 @@
         "Haaptiddi: passen bedeit passen, engem stoen oder gëeegent sinn.",
         "Bei Kleeder bedeit passen dacks, datt d’Gréisst richteg ass.",
         "Bei Faarwen oder engem Stil kann passen bedeiten, datt eppes enger Persoun gutt steet.",
-        "Eng ganz heefeg Ausdrock ass Das passt. = Dat passt."
+        "E ganz heefegen Ausdrock ass Das passt. = Dat passt."
       ],
       "study.examples": [
         {
@@ -1856,7 +1856,7 @@
     "Oktober|idx:464": "Oktober",
     "Onkel|idx:465": "Monni",
     "Ostern|idx:467": "Ouschteren",
-    "Paar|idx:468": "Koppel",
+    "Paar|idx:468": "Puer • Koppel",
     "Papier|idx:469": "Pabeier",
     "Park|idx:470": "Park",
     "Pause|idx:472": "Paus",
@@ -1874,5 +1874,12 @@
     "nichts|idx:448": "Näischt",
     "Null|idx:454": "Null",
     "Orange|idx:466": "Eng Orange"
-  }
+  },
+  "nelabot_owner_notes": {
+    "nichts|idx:448": "Näischt ir pareizais luksemburgiešu ekvivalents vācu nichts un latviešu nekas; ražošanas vērtība nav jāmaina.",
+    "Null|idx:454": "Null ir pareizais luksemburgiešu ekvivalents vācu Null un latviešu nulle; ražošanas vērtība nav jāmaina.",
+    "Orange|idx:466": "Eng Orange ir dabiska luksemburgiešu nominatīvā frāze un pilnībā saglabā vācu Orange un latviešu apelsīns nozīmi; ražošanas vērtība nav jāmaina."
+  },
+  "correction_round": 2,
+  "correction_2_sha256": "007dc76f22abf38eb18d70bb501cd915fe5d395649fd6675acae9489685ebf60"
 }

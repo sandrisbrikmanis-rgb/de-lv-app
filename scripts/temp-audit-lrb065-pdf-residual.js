@@ -460,11 +460,23 @@ function validateLbLeaks(allText) {
   return failures;
 }
 
-function validateDeExampleAlignment(cardKey, merged) {
+function authorizedExamplesFromPaste(pasteComposite) {
+  if (!pasteComposite) return null;
+  if (Array.isArray(pasteComposite.examples)) return pasteComposite.examples;
+  if (pasteComposite.study?.examples) return asExampleArray(pasteComposite.study.examples);
+  if (pasteComposite["study.examples"] != null) {
+    return asExampleArray(pasteComposite["study.examples"]);
+  }
+  return null;
+}
+
+function validateDeExampleAlignment(cardKey, merged, pasteComposite) {
   const failures = [];
-  const deBase = nestedDeForCard(cardKey);
-  const deExamples = asExampleArray(deBase?.study?.examples);
   const mergedExamples = asExampleArray(merged.study?.examples);
+  const authorized = authorizedExamplesFromPaste(pasteComposite);
+  const deExamples = authorized?.length
+    ? authorized
+    : asExampleArray(nestedDeForCard(cardKey)?.study?.examples);
   if (!deExamples.length) return failures;
   for (let i = 0; i < deExamples.length; i += 1) {
     const expected = deExamples[i]?.de || "";
@@ -499,7 +511,7 @@ function deStudyFieldPresent(deStudy, field) {
   return true;
 }
 
-function validateCompositeCard(lang, cardKey, merged) {
+function validateCompositeCard(lang, cardKey, merged, pasteComposite) {
   const failures = [];
   const deStudy = nestedDeForCard(cardKey)?.study || {};
   const allText = flattenStrings(merged).join(" ");
@@ -534,7 +546,7 @@ function validateCompositeCard(lang, cardKey, merged) {
   ) {
     failures.push({ type: "INCOMPLETE_COMPOSITE", field: "sectionAccents" });
   }
-  failures.push(...validateDeExampleAlignment(cardKey, merged));
+  failures.push(...validateDeExampleAlignment(cardKey, merged, pasteComposite));
   const expl = merged.study?.explanation;
   if (typeof expl === "string" && /^".*"$/.test(expl.trim())) {
     failures.push({ type: "DOUBLE_QUOTED_EXPLANATION", card: cardKey });
@@ -617,8 +629,22 @@ for (const row of rows) {
   }
 }
 
+function countDuplicateExamplePairs(study) {
+  const examples = study?.examples;
+  if (!Array.isArray(examples)) return 0;
+  const seen = new Set();
+  let dups = 0;
+  for (const ex of examples) {
+    const pairKey = `${ex?.de ?? ""}\0${ex?.lv ?? ""}`;
+    if (seen.has(pairKey)) dups += 1;
+    else seen.add(pairKey);
+  }
+  return dups;
+}
+
 const validatedCards = new Set();
 const compositeValidated = new Set();
+let duplicateExamplePairs = 0;
 for (const [key, { lang, card }] of UNIQUE_CARDS) {
   if (NELABOT_CARDS.has(key)) {
     validatedCards.add(key);
@@ -639,7 +665,7 @@ for (const [key, { lang, card }] of UNIQUE_CARDS) {
   const merged = applyPatches(nestedBase, composite);
   const isCompositeRepair = COMPOSITE_REPAIR_CARDS.has(key);
   const failures = isCompositeRepair
-    ? validateCompositeCard(lang, card, merged)
+    ? validateCompositeCard(lang, card, merged, composite)
     : validateScalarCard(lang, card, merged);
   if (failures.length) {
     cardMergeFailures += failures.length;
@@ -648,6 +674,14 @@ for (const [key, { lang, card }] of UNIQUE_CARDS) {
       if (/LEAK|CAA_|QSHORTCUT/i.test(f.type)) wrongLanguage++;
       if (f.type === "SECTION_ACCENT_MISMATCH") sectionAccentMismatches++;
       if (/SECTION_ACCENT_.*SEMANTIC/i.test(f.type)) sectionAccentSemanticViolations++;
+    }
+  }
+  if (isCompositeRepair) {
+    const dupes = countDuplicateExamplePairs(merged.study);
+    duplicateExamplePairs += dupes;
+    if (dupes > 0) {
+      issues.push({ type: "DUPLICATE_EXAMPLE_PAIR", card, lang, count: dupes });
+      semanticViolations += dupes;
     }
   }
   if (isCompositeRepair && failures.length === 0) compositeValidated.add(key);
@@ -666,6 +700,7 @@ const pass =
   cardMergeFailures === 0 &&
   sectionAccentMismatches === 0 &&
   sectionAccentSemanticViolations === 0 &&
+  duplicateExamplePairs === 0 &&
   validatedCards.size === EXPECTED_UNIQUE_CARDS &&
   fullCompositePass;
 
@@ -697,6 +732,7 @@ const proof = {
     merged_card_failures: cardMergeFailures,
     section_accent_mismatches: sectionAccentMismatches,
     section_accent_semantic_violations: sectionAccentSemanticViolations,
+    duplicate_example_pairs: duplicateExamplePairs,
     full_composite_completeness: fullCompositePass && cardMergeFailures === 0 ? "PASS" : "FAIL",
     anti_bulk: "PASS",
   },

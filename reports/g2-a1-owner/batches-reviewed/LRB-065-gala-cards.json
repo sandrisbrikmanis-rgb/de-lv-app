@@ -4,7 +4,7 @@
   "scope": "natürlich..probieren (50 LB rows, 50 unique cards)",
   "rows": 50,
   "uniqueCards": 50,
-  "paste_sha256": "44eff77526808da6715ae1daf8c7ac46ed925ab2d54b9f0a133bce50de4a8f42",
+  "paste_sha256": "412e4bbf67e222dfad5b31210d4794fd4f33fa12edf0b2e5599cab81bdcaa7c1",
   "full_card_replacements": 9,
   "full_card_object_ids": [
     "natürlich|idx:433",
@@ -17,7 +17,7 @@
     "passen|idx:471",
     "probieren|idx:482"
   ],
-  "classification": "LRB_065_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "classification": "LRB_065_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "natürlich|idx:433",
@@ -217,7 +217,7 @@
             "Haaptiddi: nehmen bedeit huelen.",
             "nehmen gëtt benotzt, wann een eppes hëlt oder auswielt.",
             "Dat ass net datselwecht wéi bringen, well bringen bedeit, enger Persoun eppes ze bréngen.",
-            "holen bedeit, eppes siche ze goen an et matzebréngen oder eng Persoun ofzehuelen."
+            "holen bedeit, eppes sichen ze goen an et matzebréngen oder eng Persoun ofzehuelen."
           ],
           "examples": [
             {
@@ -874,8 +874,8 @@
               "lv": "Ech sinn nach doheem."
             },
             {
-              "de": "Ich bin noch zu Hause.",
-              "lv": "Ech sinn nach doheem."
+              "de": "Wir warten noch.",
+              "lv": "Mir waarden nach."
             },
             {
               "de": "Bist du noch da?",
@@ -1051,8 +1051,8 @@
               "lv": "Ech hunn nëmmen zéng Euro."
             },
             {
-              "de": "Ich habe nur zehn Euro.",
-              "lv": "Ech hunn nëmmen zéng Euro."
+              "de": "Ich habe nur eine Frage.",
+              "lv": "Ech hunn nëmmen eng Fro."
             },
             {
               "de": "Nur du kannst mir helfen.",
@@ -1782,7 +1782,7 @@
         "de_article": "das",
         "de_plural": "die Paare",
         "level": "A1",
-        "lv": "Koppel"
+        "lv": "Puer • Koppel"
       }
     },
     {
@@ -1831,7 +1831,7 @@
             "Haaptiddi: passen bedeit passen, engem stoen oder gëeegent sinn.",
             "Bei Kleeder bedeit passen dacks, datt d’Gréisst richteg ass.",
             "Bei Faarwen oder engem Stil kann passen bedeiten, datt eppes enger Persoun gutt steet.",
-            "Eng ganz heefeg Ausdrock ass Das passt. = Dat passt."
+            "E ganz heefegen Ausdrock ass Das passt. = Dat passt."
           ],
           "examples": [
             {

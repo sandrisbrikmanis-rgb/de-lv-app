@@ -14,7 +14,7 @@ const PASTE_PATH =
   process.argv[2] ||
   path.join(ROOT, "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json");
 const EXPECTED_PASTE_SHA =
-  "44eff77526808da6715ae1daf8c7ac46ed925ab2d54b9f0a133bce50de4a8f42";
+  "412e4bbf67e222dfad5b31210d4794fd4f33fa12edf0b2e5599cab81bdcaa7c1";
 
 function loadA1(lang) {
   const ctx = { window: {} };
@@ -102,11 +102,14 @@ function nestedFromProduction(entry) {
 
 function resolveCardDecision(mapping, cardObjectId) {
   if (mapping.nelabot && cardObjectId in mapping.nelabot) {
+    const nelabotNote =
+      mapping.nelabot_owner_notes?.[cardObjectId] ||
+      `LRB-065 OWNER mapping NELABOT: preserve production for ${cardObjectId}.`;
     return {
       owner_decision: "NELABOT",
       owner_new: "",
       replacement_scope: "finding_field_only",
-      owner_note: `LRB-065 OWNER mapping NELABOT: preserve production for ${cardObjectId}.`,
+      owner_note: nelabotNote,
     };
   }
   if (mapping.labot_full_composite && cardObjectId in mapping.labot_full_composite) {
@@ -284,7 +287,9 @@ function main() {
     paste_sha256: pasteSha,
     full_card_replacements: fullCardIds.size,
     full_card_object_ids: [...fullCardIds].sort(),
-    classification: "LRB_065_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+    classification: mapping.correction_round >= 2
+      ? "LRB_065_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT"
+      : "LRB_065_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
     cards: galaCards,
   };
   const galaPath = path.join(ROOT, "reports/g2-a1-owner/batches-reviewed", `${BATCH}-gala-cards.json`);

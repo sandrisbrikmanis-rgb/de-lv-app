@@ -24,6 +24,7 @@
     "merged_card_failures": 0,
     "section_accent_mismatches": 0,
     "section_accent_semantic_violations": 0,
+    "duplicate_example_pairs": 0,
     "full_composite_completeness": "PASS",
     "anti_bulk": "PASS"
   },
@@ -44,5 +45,5 @@
   ],
   "failures": [],
   "verdict": "LRB_065_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
-  "updatedAt": "2026-09-15T15:13:50.962Z"
+  "updatedAt": "2026-09-15T15:28:58.300Z"
 }
