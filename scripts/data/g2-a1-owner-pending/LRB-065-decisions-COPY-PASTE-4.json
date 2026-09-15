@@ -1,0 +1,70 @@
+{
+  "batch_id": "LRB-065",
+  "correction_round": 4,
+  "classification": "LRB_065_METADATA_CORRECTION_4",
+  "correction_type": "METADATA_ONLY",
+  "authorized_pr": 815,
+  "authorized_branch": "cursor/lrb-065-owner-authorization-aa66",
+  "authorized_head": "39b3ec13858983924b8bb5243b38772f8bc4a86a",
+  "verified_mapping_sha256": "5d3534ca146e57fffd70017a83ea60e3d5c91446208996f2dd466f6e1a2840d5",
+  "verified_decisions_sha256": "d142052ea71af8d0e94d71245c10d94291ce1c2009d870a6bea709b4e2f41440",
+  "correction_3_sha256": "b5fa7f71a16fb8bd3cc9e14d78ff1122b570a69df8eca2c9fcc7353b993e1999",
+  "target_file": "reports/g2-a1-owner/status-index.json",
+  "changes": [
+    {
+      "operation": "replace",
+      "json_pointer": "/batchedReview/linguisticVerdicts/LRB-065/classification",
+      "current_value": "LRB_065_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+      "replacement_value": "LRB_065_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT"
+    },
+    {
+      "operation": "replace",
+      "json_pointer": "/batchedReview/linguisticVerdicts/LRB-065/decisionsSha256",
+      "current_value": "fd835c5defbc2c62048c86f6cf551fe9185c8b0b4eb17b8d04a31501a05c6fbd",
+      "replacement_value": "d142052ea71af8d0e94d71245c10d94291ce1c2009d870a6bea709b4e2f41440"
+    },
+    {
+      "operation": "add",
+      "json_pointer": "/batchedReview/linguisticVerdicts/LRB-065/copyPasteCorrection3",
+      "current_value": "__ABSENT__",
+      "replacement_value": "COPY_PASTE_CORRECTION_3_APPLIED"
+    },
+    {
+      "operation": "add",
+      "json_pointer": "/batchedReview/linguisticVerdicts/LRB-065/copyPasteCorrection3Sha256",
+      "current_value": "__ABSENT__",
+      "replacement_value": "b5fa7f71a16fb8bd3cc9e14d78ff1122b570a69df8eca2c9fcc7353b993e1999"
+    },
+    {
+      "operation": "add",
+      "json_pointer": "/batchedReview/linguisticVerdicts/LRB-065/mappingSha256AfterCorrection3",
+      "current_value": "__ABSENT__",
+      "replacement_value": "5d3534ca146e57fffd70017a83ea60e3d5c91446208996f2dd466f6e1a2840d5"
+    },
+    {
+      "operation": "replace",
+      "json_pointer": "/batchedReview/lastBatch/classification",
+      "current_value": "LRB_065_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+      "replacement_value": "LRB_065_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT"
+    }
+  ],
+  "must_not_change": [
+    "scripts/data/g2-a1-owner-pending/LRB-065-decisions-COPY-PASTE.json",
+    "scripts/data/g2-a1-owner-pending/LRB-065-decisions.json",
+    "reports/g2-a1-owner/batches-reviewed/LRB-065-decisions.csv",
+    "reports/g2-a1-owner/batches-reviewed/LRB-065-gala-cards.json",
+    "data/a1.js",
+    "data/lb/a1.js",
+    "production",
+    "Crowdin",
+    "ingest/apply"
+  ],
+  "expected_counts": {
+    "LABOT": 47,
+    "NELABOT": 3,
+    "PENDING": 0,
+    "rows": 50,
+    "unique_cards": 50
+  },
+  "final_state": "AWAITING_GALA_VERDICT"
+}
