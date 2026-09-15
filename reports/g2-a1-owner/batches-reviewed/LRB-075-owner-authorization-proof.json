@@ -13,10 +13,14 @@
   "unique_cards": 50,
   "scope": "Gras..passen (50 NN) — pending Phase 1 Luna linguistic review",
   "productionSource": "data/nn/a1.js (read-only review)",
-  "note": "OWNER copy/paste apply. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "GALA PASS. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
   "overridesSha256": "dbd263a0984b47de63248456e12e435d7e40f9d01282b4e97b4cb52c0ad05c1f",
   "antiBulkPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   "individual_linguistic": 50,
-  "provenance_individual_count": 50
+  "provenance_individual_count": 50,
+  "linguisticVerdict": "LRB_075_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-15T17:33:00.000Z",
+  "verifiedCommit": "4991b0578da377aebfda2f5a2cf400f2d2063fa3",
+  "appliedAt": "2026-09-15T17:33:00.000Z"
 }

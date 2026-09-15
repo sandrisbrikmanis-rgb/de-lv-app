@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-075",
-  "classification": "G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED",
-  "generatedAt": "2026-09-15T17:25:29.789Z",
-  "sourceCommit": "cd0c87b3bbff11094a84f32dbbf6ee1b3f127b23",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-15T17:33:00.000Z",
+  "sourceCommit": "4991b0578da377aebfda2f5a2cf400f2d2063fa3",
   "branch": "cursor/lrb-075-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -85,8 +85,12 @@
     "copyPaste": "reports/g2-a1-owner/batches-owner-review/LRB-075/LRB-075-decisions-COPY-PASTE.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-075-owner-authorization-proof.json"
   },
-  "note": "OWNER copy/paste full-card apply. 50 LABOT / 0 NELABOT / 0 PENDING (NN 50). galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "Gala verdict LRB_075_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 4991b0578da377aebfda2f5a2cf400f2d2063fa3 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (NN 50, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=39). DE/production/Crowdin/ingest/apply unchanged.",
   "copyPasteSpecSha256": "608f6fc91cd524e0312bc61fb262ed82921e88ccd957f6e5d753e4caff8f732b",
-  "galaPass": false,
-  "scriptChanges": 0
+  "galaPass": true,
+  "scriptChanges": 0,
+  "verifiedCommit": "4991b0578da377aebfda2f5a2cf400f2d2063fa3",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_075_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-15T17:33:00.000Z"
 }
