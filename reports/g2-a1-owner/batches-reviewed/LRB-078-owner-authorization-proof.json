@@ -14,10 +14,15 @@
   "unique_cards": 50,
   "scope": "probieren..bleiben (31 PL + 19 PT) — pending Phase 1 Luna linguistic review",
   "productionSource": "data/pl/a1.js + data/pt/a1.js (read-only review)",
-  "note": "OWNER copy/paste apply. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "GALA PASS. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
   "overridesSha256": "0949fac343451df59059e42d5831e29bf4d73a47c01f19e800d68e6a03d54b34",
   "antiBulkPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   "individual_linguistic": 50,
-  "provenance_individual_count": 50
+  "provenance_individual_count": 50,
+  "linguisticVerdict": "LRB_078_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-15T15:40:00.000Z",
+  "verifiedCommit": "4cb27507868f2daa9e171a1135c1afe9da99f668",
+  "appliedAt": "2026-09-15T15:40:00.000Z",
+  "correctionRound": 3
 }

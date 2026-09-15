@@ -1,11 +1,11 @@
 {
   "batchId": "LRB-078",
-  "classification": "OWNER_COPY_PASTE_CORRECTION_3_APPLIED_AWAITING_GALA_REVIEW",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
   "correctionRound": 3,
   "copyPaste2Spec": "reports/g2-a1-owner/batches-owner-review/LRB-078/LRB-078-decisions-COPY-PASTE-2.json",
   "copyPaste2SpecSha256": "19932f0ca543c9c70c9c36ee380a51fa052eb6f3fd857c915f8bea2475d7b2ad",
-  "generatedAt": "2026-09-15T15:35:00.000Z",
-  "sourceCommit": "cd7036283bf968127d5301d66f54f52bf51247dd",
+  "generatedAt": "2026-09-15T15:40:00.000Z",
+  "sourceCommit": "4cb27507868f2daa9e171a1135c1afe9da99f668",
   "branch": "cursor/lrb-078-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -88,11 +88,15 @@
     "copyPaste2": "reports/g2-a1-owner/batches-owner-review/LRB-078/LRB-078-decisions-COPY-PASTE-2.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-078-owner-authorization-proof.json"
   },
-  "note": "COPY-PASTE correction #3 metadata only (COPY-PASTE.json gates 50/50). Card composites unchanged. galaPass=false.",
-  "galaPass": false,
+  "note": "Gala verdict LRB_078_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 4cb27507868f2daa9e171a1135c1afe9da99f668 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (PL 31, PT 19, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50). DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
   "scriptChanges": 0,
   "copyPaste3Spec": "reports/g2-a1-owner/batches-owner-review/LRB-078/LRB-078-decisions-COPY-PASTE-3.json",
   "copyPaste3SpecSha256": "901333cd2dd2a2748851d68703ec4b25ac51d1faa6eea10d271723d8b8551919",
   "copyPasteSpecSha256": "7c20024f6a1b3944b7644178039af23a00c092f8ece5afd48a352b199b79f678",
-  "metadataReplacementsApplied": 7
+  "metadataReplacementsApplied": 7,
+  "verifiedCommit": "4cb27507868f2daa9e171a1135c1afe9da99f668",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_078_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-15T15:40:00.000Z"
 }
