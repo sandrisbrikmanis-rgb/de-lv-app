@@ -1,0 +1,10 @@
+{
+  "batch_id": "LRB-066",
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "provenance_individual_count": 50,
+  "classification": "G2_A1_PENDING_BATCH_REVIEW_COMPLETE",
+  "paste_sha256": "1b3661b611e31cd44f77b3486ae96457221edece966ad82e4068ad5622367798"
+}

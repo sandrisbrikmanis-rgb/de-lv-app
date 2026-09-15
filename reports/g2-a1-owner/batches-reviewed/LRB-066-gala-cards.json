@@ -1,0 +1,1231 @@
+{
+  "batch_id": "LRB-066",
+  "language": "lb",
+  "scope": "Problem..sechzehn (50 LB rows, 50 unique cards)",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "1b3661b611e31cd44f77b3486ae96457221edece966ad82e4068ad5622367798",
+  "full_card_replacements": 5,
+  "full_card_object_ids": [
+    "Reis|idx:496",
+    "sagen|idx:505",
+    "schauen|idx:510",
+    "schon|idx:521",
+    "schwimmen|idx:531"
+  ],
+  "classification": "LRB_066_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "Problem|idx:483",
+      "de_reference": "Problem",
+      "idx": 483,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Problem",
+        "de_article": "das",
+        "de_plural": "die Probleme",
+        "level": "A1",
+        "lv": "Problem"
+      }
+    },
+    {
+      "card_object_id": "Programm|idx:484",
+      "de_reference": "Programm",
+      "idx": 484,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Programm",
+        "de_article": "das",
+        "de_plural": "die Programme",
+        "level": "A1",
+        "lv": "Programm"
+      }
+    },
+    {
+      "card_object_id": "Pullover|idx:485",
+      "de_reference": "Pullover",
+      "idx": 485,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Pullover",
+        "de_article": "der",
+        "de_plural": "die Pullover",
+        "level": "A1",
+        "lv": "Pullover"
+      }
+    },
+    {
+      "card_object_id": "Punkt|idx:486",
+      "de_reference": "Punkt",
+      "idx": 486,
+      "owner_decision": "NELABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Punkt",
+        "de_article": "der",
+        "de_plural": "die Punkte",
+        "level": "A1",
+        "lv": "Punkt"
+      }
+    },
+    {
+      "card_object_id": "putzen|idx:487",
+      "de_reference": "putzen",
+      "idx": 487,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "putzen",
+        "level": "A1",
+        "lv": "botzen"
+      }
+    },
+    {
+      "card_object_id": "rauchen|idx:490",
+      "de_reference": "rauchen",
+      "idx": 490,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "rauchen",
+        "level": "A1",
+        "lv": "fëmmen"
+      }
+    },
+    {
+      "card_object_id": "reden|idx:492",
+      "de_reference": "reden",
+      "idx": 492,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "reden",
+        "level": "A1",
+        "lv": "schwätzen"
+      }
+    },
+    {
+      "card_object_id": "Regen|idx:493",
+      "de_reference": "Regen",
+      "idx": 493,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Regen",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Reen"
+      }
+    },
+    {
+      "card_object_id": "Regenschirm|idx:494",
+      "de_reference": "Regenschirm",
+      "idx": 494,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Regenschirm",
+        "de_article": "der",
+        "de_plural": "die Regenschirme",
+        "level": "A1",
+        "lv": "Prabbeli"
+      }
+    },
+    {
+      "card_object_id": "regnen|idx:495",
+      "de_reference": "regnen",
+      "idx": 495,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "regnen",
+        "level": "A1",
+        "lv": "reenen"
+      }
+    },
+    {
+      "card_object_id": "Reis|idx:496",
+      "de_reference": "Reis",
+      "idx": 496,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Reis",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Räis",
+        "study": {
+          "id": "a1-reis",
+          "layout": "standardStudy",
+          "translation": "Räis",
+          "explanation": "Am Däitsche gëtt „der Reis“ nëmmen am Eenzuel benotzt, dofir muss d’Verb am Eenzuel stoen (zum Beispill „ist“, net „sind“). Och op Lëtzebuergesch gëtt normalerweis „de Räis“ am Eenzuel benotzt.",
+          "examples": [
+            {
+              "de": "Der Reis ist fertig.",
+              "lv": "De Räis ass fäerdeg."
+            },
+            {
+              "de": "Ich esse Reis.",
+              "lv": "Ech iesse Räis."
+            },
+            {
+              "de": "Kochst du Reis?",
+              "lv": "Kachs du Räis?"
+            },
+            {
+              "de": "Der Reis schmeckt gut.",
+              "lv": "De Räis schmaacht gutt."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: der Reis steet am Däitschen am Eenzuel; op Lëtzebuergesch seet een och normalerweis de Räis."
+          },
+          "important": [
+            "der Reis — am Däitschen nëmmen Eenzuel (Der Reis ist ..., net *sind).",
+            "Op Lëtzebuergesch gëtt de Räis normalerweis och am Eenzuel benotzt."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Reis",
+                "ist"
+              ],
+              "purple": [
+                "Eenzuel",
+                "de Räis"
+              ],
+              "red": [
+                "sind"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Reis",
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Räis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Reis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Räis"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "blue": [
+                "der Reis"
+              ],
+              "purple": [
+                "Eenzuel",
+                "de Räis"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "richtig|idx:497",
+      "de_reference": "richtig",
+      "idx": 497,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "richtig",
+        "level": "A1",
+        "lv": "richteg"
+      }
+    },
+    {
+      "card_object_id": "rosa|idx:498",
+      "de_reference": "rosa",
+      "idx": 498,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "rosa",
+        "level": "A1",
+        "lv": "rosa"
+      }
+    },
+    {
+      "card_object_id": "rot|idx:499",
+      "de_reference": "rot",
+      "idx": 499,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "rot",
+        "level": "A1",
+        "lv": "rout"
+      }
+    },
+    {
+      "card_object_id": "rufen|idx:500",
+      "de_reference": "rufen",
+      "idx": 500,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "rufen",
+        "level": "A1",
+        "lv": "ruffen"
+      }
+    },
+    {
+      "card_object_id": "rund|idx:501",
+      "de_reference": "rund",
+      "idx": 501,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "rund",
+        "level": "A1",
+        "lv": "ronn"
+      }
+    },
+    {
+      "card_object_id": "Rose|idx:502",
+      "de_reference": "Rose",
+      "idx": 502,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Rose",
+        "de_article": "die",
+        "de_plural": "die Rosen",
+        "level": "A1",
+        "lv": "Rous"
+      }
+    },
+    {
+      "card_object_id": "Sache|idx:503",
+      "de_reference": "Sache",
+      "idx": 503,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Sache",
+        "de_article": "die",
+        "de_plural": "die Sachen",
+        "level": "A1",
+        "lv": "Saach"
+      }
+    },
+    {
+      "card_object_id": "Saft|idx:504",
+      "de_reference": "Saft",
+      "idx": 504,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Saft",
+        "de_article": "der",
+        "de_plural": "die Säfte",
+        "level": "A1",
+        "lv": "Jus"
+      }
+    },
+    {
+      "card_object_id": "sagen|idx:505",
+      "de_reference": "sagen",
+      "idx": 505,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sagen",
+        "level": "A1",
+        "lv": "soen",
+        "study": {
+          "id": "a1-sagen-study",
+          "layout": "standardStudy",
+          "translation": "soen",
+          "explanation": [
+            "Haaptiddi: Eng konkret Iddi, e Wuert oder e Saz ausdrécken.",
+            "sagen bedeit virun allem, eppes Konkretes ze soen.",
+            "Dacks geet et ëm Wierder oder Sätz.",
+            "sagen gëtt fir eng konkret Ausso benotzt."
+          ],
+          "examples": [
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Wat hues du gesot?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sagen",
+              "meaning": "soen (e konkreten Text)",
+              "example": "Was hast du gesagt? – Wat hues du gesot?"
+            },
+            {
+              "word": "sprechen",
+              "meaning": "schwätzen (eng Sprooch schwätzen oder e Gespréich féieren)",
+              "example": "Ich spreche Deutsch. – Ech schwätzen Däitsch."
+            }
+          ],
+          "tip": [
+            "sagen = soen",
+            "Benotz sagen, wann et ëm e konkrete Gedanken, e Wuert oder e Saz geet."
+          ],
+          "important": [
+            "sagen = soen.",
+            "Et bedeit, eng konkret Iddi, e Wuert oder e Saz auszedrécken."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sagen"
+              ],
+              "purple": [
+                "soen"
+              ],
+              "green": [
+                "Ausso"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {
+                  "purple": [
+                    "gesot"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "soen"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "sagen"
+                ],
+                "purple": [
+                  "soen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Salat|idx:506",
+      "de_reference": "Salat",
+      "idx": 506,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Salat",
+        "de_article": "der",
+        "de_plural": "die Salate",
+        "level": "A1",
+        "lv": "Zalot"
+      }
+    },
+    {
+      "card_object_id": "Salz|idx:507",
+      "de_reference": "Salz",
+      "idx": 507,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Salz",
+        "de_article": "das",
+        "de_plural": "die Salze",
+        "level": "A1",
+        "lv": "Salz"
+      }
+    },
+    {
+      "card_object_id": "sauber|idx:508",
+      "de_reference": "sauber",
+      "idx": 508,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sauber",
+        "level": "A1",
+        "lv": "propper"
+      }
+    },
+    {
+      "card_object_id": "Schaf|idx:509",
+      "de_reference": "Schaf",
+      "idx": 509,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schaf",
+        "de_article": "das",
+        "de_plural": "die Schafe",
+        "level": "A1",
+        "lv": "Schof"
+      }
+    },
+    {
+      "card_object_id": "schauen|idx:510",
+      "de_reference": "schauen",
+      "idx": 510,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "schauen",
+        "level": "A1",
+        "lv": "kucken",
+        "study": {
+          "id": "a1-schauen-study",
+          "layout": "standardStudy",
+          "translation": "kucken",
+          "explanation": [
+            "Haaptiddi: Aktiv kucken oder e Bléck op eppes geheien.",
+            "schauen bedeit virun allem, aktiv ze kucken.",
+            "Dacks beschreift et eng bewosst Handlung.",
+            "schauen bedeit, de Bléck bewosst op eppes ze riichten."
+          ],
+          "examples": [
+            {
+              "de": "Ich schaue fern.",
+              "lv": "Ech kucken Tëlee."
+            },
+            {
+              "de": "Wir schauen aus dem Fenster.",
+              "lv": "Mir kucken zur Fënster eraus."
+            },
+            {
+              "de": "Ich schaue fern.",
+              "lv": "Ech kucken Tëlee."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "schauen",
+              "meaning": "kucken (aktiv)",
+              "example": "Ich schaue aus dem Fenster. – Ech kucken zur Fënster eraus."
+            },
+            {
+              "word": "sehen",
+              "meaning": "gesinn (ouni Absicht)",
+              "example": "Ich sehe dich. – Ech gesinn dech."
+            }
+          ],
+          "tip": [
+            "schauen = kucken",
+            "Benotz schauen, wann een de Bléck aktiv op eppes riicht."
+          ],
+          "important": [
+            "schauen = kucken.",
+            "Et bedeit, aktiv ze kucken oder e Bléck op eppes ze geheien."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "schauen"
+              ],
+              "purple": [
+                "kucken"
+              ],
+              "orange": [
+                "aktiv"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "schaue"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kucken"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "schauen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kucken"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "schaue"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kucken"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "kucken"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "schauen"
+                ],
+                "purple": [
+                  "kucken"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "schicken|idx:511",
+      "de_reference": "schicken",
+      "idx": 511,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schicken",
+        "level": "A1",
+        "lv": "schécken"
+      }
+    },
+    {
+      "card_object_id": "schlafen|idx:512",
+      "de_reference": "schlafen",
+      "idx": 512,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schlafen",
+        "level": "A1",
+        "lv": "schlofen"
+      }
+    },
+    {
+      "card_object_id": "schlecht|idx:513",
+      "de_reference": "schlecht",
+      "idx": 513,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schlecht",
+        "level": "A1",
+        "lv": "schlecht"
+      }
+    },
+    {
+      "card_object_id": "Schlüssel|idx:514",
+      "de_reference": "Schlüssel",
+      "idx": 514,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schlüssel",
+        "de_article": "der",
+        "de_plural": "die Schlüssel",
+        "level": "A1",
+        "lv": "Schlëssel"
+      }
+    },
+    {
+      "card_object_id": "schmecken|idx:515",
+      "de_reference": "schmecken",
+      "idx": 515,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schmecken",
+        "level": "A1",
+        "lv": "schmaachen"
+      }
+    },
+    {
+      "card_object_id": "schmutzig|idx:516",
+      "de_reference": "schmutzig",
+      "idx": 516,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schmutzig",
+        "level": "A1",
+        "lv": "knaschteg"
+      }
+    },
+    {
+      "card_object_id": "Schnee|idx:517",
+      "de_reference": "Schnee",
+      "idx": 517,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schnee",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Schnéi"
+      }
+    },
+    {
+      "card_object_id": "schneien|idx:518",
+      "de_reference": "schneien",
+      "idx": 518,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schneien",
+        "level": "A1",
+        "lv": "schneien"
+      }
+    },
+    {
+      "card_object_id": "schnell|idx:519",
+      "de_reference": "schnell",
+      "idx": 519,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schnell",
+        "level": "A1",
+        "lv": "séier"
+      }
+    },
+    {
+      "card_object_id": "Schokolade|idx:520",
+      "de_reference": "Schokolade",
+      "idx": 520,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schokolade",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Schockela"
+      }
+    },
+    {
+      "card_object_id": "schon|idx:521",
+      "de_reference": "schon",
+      "idx": 521,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "schon",
+        "level": "A1",
+        "lv": "schonn",
+        "study": {
+          "id": "a1-schon-study",
+          "layout": "standardStudy",
+          "translation": "schonn",
+          "explanation": [
+            "Haaptiddi: Eppes ass schonn geschitt oder ass schonn a Kraaft.",
+            "schon bedeit virun allem, datt eppes schonn geschitt oder gëlteg ass.",
+            "Dacks beschreift et e Fait, dee schonn geschitt ass, oder en Zoustand, dee schonn besteet.",
+            "schon weist, datt eppes net méi an der Zukunft läit, mee schonn Realitéit ass."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin schon zu Hause.",
+              "lv": "Ech si schonn doheem."
+            }
+          ],
+          "tip": [
+            "Eppes ass schonn geschitt oder ass schonn a Kraaft.",
+            "Benotz schon, wann eppes zu dësem Zäitpunkt schonn de Fall ass."
+          ],
+          "important": [
+            "schon = schonn.",
+            "Eppes ass schonn geschitt oder ass schonn a Kraaft."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "schon"
+              ],
+              "purple": [
+                "schonn"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "schon"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schonn"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "schonn"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "schon"
+                ],
+                "purple": [
+                  "schonn"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "schön|idx:522",
+      "de_reference": "schön",
+      "idx": 522,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schön",
+        "level": "A1",
+        "lv": "schéin"
+      }
+    },
+    {
+      "card_object_id": "Schrank|idx:523",
+      "de_reference": "Schrank",
+      "idx": 523,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schrank",
+        "de_article": "der",
+        "de_plural": "die Schränke",
+        "level": "A1",
+        "lv": "Schaf"
+      }
+    },
+    {
+      "card_object_id": "schreiben|idx:524",
+      "de_reference": "schreiben",
+      "idx": 524,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schreiben",
+        "level": "A1",
+        "lv": "schreiwen"
+      }
+    },
+    {
+      "card_object_id": "Schuh|idx:525",
+      "de_reference": "Schuh",
+      "idx": 525,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schuh",
+        "de_article": "der",
+        "de_plural": "die Schuhe",
+        "level": "A1",
+        "lv": "Schong"
+      }
+    },
+    {
+      "card_object_id": "Schule|idx:526",
+      "de_reference": "Schule",
+      "idx": 526,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schule",
+        "de_article": "die",
+        "de_plural": "die Schulen",
+        "level": "A1",
+        "lv": "Schoul"
+      }
+    },
+    {
+      "card_object_id": "Schüler|idx:527",
+      "de_reference": "Schüler",
+      "idx": 527,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schüler",
+        "de_article": "der",
+        "de_plural": "die Schüler",
+        "level": "A1",
+        "lv": "Schüler"
+      }
+    },
+    {
+      "card_object_id": "schwarz|idx:528",
+      "de_reference": "schwarz",
+      "idx": 528,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "schwarz",
+        "level": "A1",
+        "lv": "schwaarz"
+      }
+    },
+    {
+      "card_object_id": "Schwein|idx:529",
+      "de_reference": "Schwein",
+      "idx": 529,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schwein",
+        "de_article": "das",
+        "de_plural": "die Schweine",
+        "level": "A1",
+        "lv": "Schwäin"
+      }
+    },
+    {
+      "card_object_id": "Schwester|idx:530",
+      "de_reference": "Schwester",
+      "idx": 530,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Schwester",
+        "de_article": "die",
+        "de_plural": "die Schwestern",
+        "level": "A1",
+        "lv": "Schwëster"
+      }
+    },
+    {
+      "card_object_id": "schwimmen|idx:531",
+      "de_reference": "schwimmen",
+      "idx": 531,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "schwimmen",
+        "level": "A1",
+        "lv": "schwammen",
+        "study": {
+          "id": "a1-schwimmen",
+          "layout": "standardStudy",
+          "translation": "schwammen",
+          "explanation": [
+            "Haaptiddi: schwimmen bedeit, sech mat Schwammbeweegungen am Waasser fortzebeweegen oder Schwammen als Sport ze maachen.",
+            "schwimmen gëtt benotzt, wann eng Persoun mat Schwammbeweegungen duerch d’Waasser schwëmmt.",
+            "Wann et ëm Erhuelung am Waasser oder ëm Bueden geet, gëtt dacks baden benotzt.",
+            "Um Niveau A1 ass den Ënnerscheed wichteg: schwimmen = schwammen, baden = bueden."
+          ],
+          "examples": [
+            {
+              "de": "Ich schwimme gern.",
+              "lv": "Ech schwamme gär."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Hie schwëmmt ganz gutt."
+            },
+            {
+              "de": "Wir schwimmen im Schwimmbad.",
+              "lv": "Mir schwammen an der Schwämm."
+            },
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Ech gi bueden."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "schwimmen",
+              "meaning": "schwammen als Beweegung oder Sport",
+              "example": "Er schwimmt sehr gut."
+            },
+            {
+              "word": "baden",
+              "meaning": "bueden / sech am Waasser ophalen",
+              "example": "Ich gehe baden."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "schwamme goen",
+              "example": "Wir gehen schwimmen."
+            },
+            {
+              "word": "duschen",
+              "meaning": "sech duschen",
+              "example": "Ich dusche morgens."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Schwammbeweegung → schwimmen; Erhuelung am Waasser → baden."
+          },
+          "important": [
+            "schwimmen a baden sinn net datselwecht.",
+            "Op Lëtzebuergesch gëtt et den Ënnerscheed tëscht schwammen a bueden; am Däitsche muss ee genee op de Kontext oppassen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "schwimmen"
+              ],
+              "purple": [
+                "schwammen",
+                "Schwammbeweegungen"
+              ],
+              "red": [
+                "baden",
+                "bueden"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "schwimme"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schwamme"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "schwimmt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schwëmmt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "schwimmen"
+                  ],
+                  "green": [
+                    "Schwimmbad"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "schwammen"
+                  ],
+                  "green": [
+                    "Schwämm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "baden"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "bueden"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "schwammen",
+                    "Beweegung",
+                    "Sport"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "schwimmt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "baden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bueden",
+                    "Waasser"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "baden"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schwimmen gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "schwamme goen"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "schwimmen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "duschen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sech duschen"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "dusche"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "schwimmen"
+                ],
+                "purple": [
+                  "Schwammbeweegung"
+                ],
+                "red": [
+                  "baden",
+                  "Erhuelung am Waasser"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "schwimmen"
+                ],
+                "red": [
+                  "baden"
+                ]
+              },
+              {
+                "purple": [
+                  "schwammen"
+                ],
+                "red": [
+                  "bueden"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "sechs|idx:532",
+      "de_reference": "sechs",
+      "idx": 532,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sechs",
+        "level": "A1",
+        "lv": "sechs"
+      }
+    },
+    {
+      "card_object_id": "sechshundert|idx:533",
+      "de_reference": "sechshundert",
+      "idx": 533,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sechshundert",
+        "level": "A1",
+        "lv": "sechshonnert"
+      }
+    },
+    {
+      "card_object_id": "sechste|idx:534",
+      "de_reference": "sechste",
+      "idx": 534,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sechste",
+        "level": "A1",
+        "lv": "sechsten"
+      }
+    },
+    {
+      "card_object_id": "sechzehn|idx:535",
+      "de_reference": "sechzehn",
+      "idx": 535,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sechzehn",
+        "level": "A1",
+        "lv": "siechzéng"
+      }
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "batch_id": "LRB-066",
+  "language": "lb",
+  "scope": {
+    "from": "Problem",
+    "to": "sechzehn",
+    "idx_from": 483,
+    "idx_to": 535
+  },
+  "counts": {
+    "rows": 50,
+    "labot": 48,
+    "nelabot": 2,
+    "pending": 0
+  },
+  "instructions": {
+    "composite_values": "Each nested key is an exact owner_new replacement path. Serialize arrays/objects exactly as required by the decisions CSV format.",
+    "scalar_values": "Exact owner_new for field_path lv.",
+    "nelabot_values": "Keep production_current unchanged and leave owner_new empty."
+  },
+  "labot_full_composite": {
+    "Reis|idx:496": {
+      "lv": "Räis",
+      "study.translation": "Räis",
+      "study.explanation": "Am Däitsche gëtt „der Reis“ nëmmen am Eenzuel benotzt, dofir muss d’Verb am Eenzuel stoen (zum Beispill „ist“, net „sind“). Och op Lëtzebuergesch gëtt normalerweis „de Räis“ am Eenzuel benotzt.",
+      "study.examples": [
+        {
+          "de": "Der Reis ist fertig.",
+          "lv": "De Räis ass fäerdeg."
+        },
+        {
+          "de": "Ich esse Reis.",
+          "lv": "Ech iesse Räis."
+        },
+        {
+          "de": "Kochst du Reis?",
+          "lv": "Kachs du Räis?"
+        },
+        {
+          "de": "Der Reis schmeckt gut.",
+          "lv": "De Räis schmaacht gutt."
+        }
+      ],
+      "study.tip": {
+        "text": "Denk drun: der Reis steet am Däitschen am Eenzuel; op Lëtzebuergesch seet een och normalerweis de Räis."
+      },
+      "study.important": [
+        "der Reis — am Däitschen nëmmen Eenzuel (Der Reis ist ..., net *sind).",
+        "Op Lëtzebuergesch gëtt de Räis normalerweis och am Eenzuel benotzt."
+      ],
+      "study.sectionAccents": {
+        "explanation": {
+          "blue": [
+            "der Reis",
+            "ist"
+          ],
+          "purple": [
+            "Eenzuel",
+            "de Räis"
+          ],
+          "red": [
+            "sind"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Reis",
+                "ist"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Räis"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Reis"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Räis"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "blue": [
+            "der Reis"
+          ],
+          "purple": [
+            "Eenzuel",
+            "de Räis"
+          ]
+        }
+      }
+    },
+    "sagen|idx:505": {
+      "lv": "soen",
+      "study.translation": "soen",
+      "study.explanation": [
+        "Haaptiddi: Eng konkret Iddi, e Wuert oder e Saz ausdrécken.",
+        "sagen bedeit virun allem, eppes Konkretes ze soen.",
+        "Dacks geet et ëm Wierder oder Sätz.",
+        "sagen gëtt fir eng konkret Ausso benotzt."
+      ],
+      "study.examples": [
+        {
+          "de": "Was hast du gesagt?",
+          "lv": "Wat hues du gesot?"
+        }
+      ],
+      "study.comparison": [
+        {
+          "word": "sagen",
+          "meaning": "soen (e konkreten Text)",
+          "example": "Was hast du gesagt? – Wat hues du gesot?"
+        },
+        {
+          "word": "sprechen",
+          "meaning": "schwätzen (eng Sprooch schwätzen oder e Gespréich féieren)",
+          "example": "Ich spreche Deutsch. – Ech schwätzen Däitsch."
+        }
+      ],
+      "study.tip": [
+        "sagen = soen",
+        "Benotz sagen, wann et ëm e konkrete Gedanken, e Wuert oder e Saz geet."
+      ],
+      "study.important": [
+        "sagen = soen.",
+        "Et bedeit, eng konkret Iddi, e Wuert oder e Saz auszedrécken."
+      ],
+      "study.sectionAccents": {
+        "explanation": {
+          "blue": [
+            "sagen"
+          ],
+          "purple": [
+            "soen"
+          ],
+          "green": [
+            "Ausso"
+          ]
+        },
+        "examples": [
+          {
+            "de": {},
+            "lv": {
+              "purple": [
+                "gesot"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "soen"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "sagen"
+            ],
+            "purple": [
+              "soen"
+            ]
+          }
+        ]
+      }
+    },
+    "schauen|idx:510": {
+      "lv": "kucken",
+      "study.translation": "kucken",
+      "study.explanation": [
+        "Haaptiddi: Aktiv kucken oder e Bléck op eppes geheien.",
+        "schauen bedeit virun allem, aktiv ze kucken.",
+        "Dacks beschreift et eng bewosst Handlung.",
+        "schauen bedeit, de Bléck bewosst op eppes ze riichten."
+      ],
+      "study.examples": [
+        {
+          "de": "Ich schaue fern.",
+          "lv": "Ech kucken Tëlee."
+        },
+        {
+          "de": "Wir schauen aus dem Fenster.",
+          "lv": "Mir kucken zur Fënster eraus."
+        },
+        {
+          "de": "Ich schaue fern.",
+          "lv": "Ech kucken Tëlee."
+        }
+      ],
+      "study.comparison": [
+        {
+          "word": "schauen",
+          "meaning": "kucken (aktiv)",
+          "example": "Ich schaue aus dem Fenster. – Ech kucken zur Fënster eraus."
+        },
+        {
+          "word": "sehen",
+          "meaning": "gesinn (ouni Absicht)",
+          "example": "Ich sehe dich. – Ech gesinn dech."
+        }
+      ],
+      "study.tip": [
+        "schauen = kucken",
+        "Benotz schauen, wann een de Bléck aktiv op eppes riicht."
+      ],
+      "study.important": [
+        "schauen = kucken.",
+        "Et bedeit, aktiv ze kucken oder e Bléck op eppes ze geheien."
+      ],
+      "study.sectionAccents": {
+        "explanation": {
+          "green": [
+            "schauen"
+          ],
+          "purple": [
+            "kucken"
+          ],
+          "orange": [
+            "aktiv"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "green": [
+                "schaue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kucken"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schauen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kucken"
+              ]
+            }
+          },
+          {
+            "de": {
+              "green": [
+                "schaue"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "kucken"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "kucken"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "green": [
+              "schauen"
+            ],
+            "purple": [
+              "kucken"
+            ]
+          }
+        ]
+      }
+    },
+    "schon|idx:521": {
+      "lv": "schonn",
+      "study.translation": "schonn",
+      "study.explanation": [
+        "Haaptiddi: Eppes ass schonn geschitt oder ass schonn a Kraaft.",
+        "schon bedeit virun allem, datt eppes schonn geschitt oder gëlteg ass.",
+        "Dacks beschreift et e Fait, dee schonn geschitt ass, oder en Zoustand, dee schonn besteet.",
+        "schon weist, datt eppes net méi an der Zukunft läit, mee schonn Realitéit ass."
+      ],
+      "study.examples": [
+        {
+          "de": "Ich bin schon zu Hause.",
+          "lv": "Ech si schonn doheem."
+        }
+      ],
+      "study.tip": [
+        "Eppes ass schonn geschitt oder ass schonn a Kraaft.",
+        "Benotz schon, wann eppes zu dësem Zäitpunkt schonn de Fall ass."
+      ],
+      "study.important": [
+        "schon = schonn.",
+        "Eppes ass schonn geschitt oder ass schonn a Kraaft."
+      ],
+      "study.sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schon"
+          ],
+          "purple": [
+            "schonn"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schon"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "schonn"
+              ]
+            }
+          }
+        ],
+        "tip": [
+          {
+            "purple": [
+              "schonn"
+            ]
+          }
+        ],
+        "important": [
+          {
+            "blue": [
+              "schon"
+            ],
+            "purple": [
+              "schonn"
+            ]
+          }
+        ]
+      }
+    },
+    "schwimmen|idx:531": {
+      "lv": "schwammen",
+      "study.translation": "schwammen",
+      "study.explanation": [
+        "Haaptiddi: schwimmen bedeit, sech mat Schwammbeweegungen am Waasser fortzebeweegen oder Schwammen als Sport ze maachen.",
+        "schwimmen gëtt benotzt, wann eng Persoun mat Schwammbeweegungen duerch d’Waasser schwëmmt.",
+        "Wann et ëm Erhuelung am Waasser oder ëm Bueden geet, gëtt dacks baden benotzt.",
+        "Um Niveau A1 ass den Ënnerscheed wichteg: schwimmen = schwammen, baden = bueden."
+      ],
+      "study.examples": [
+        {
+          "de": "Ich schwimme gern.",
+          "lv": "Ech schwamme gär."
+        },
+        {
+          "de": "Er schwimmt sehr gut.",
+          "lv": "Hie schwëmmt ganz gutt."
+        },
+        {
+          "de": "Wir schwimmen im Schwimmbad.",
+          "lv": "Mir schwammen an der Schwämm."
+        },
+        {
+          "de": "Ich gehe baden.",
+          "lv": "Ech gi bueden."
+        }
+      ],
+      "study.comparison": [
+        {
+          "word": "schwimmen",
+          "meaning": "schwammen als Beweegung oder Sport",
+          "example": "Er schwimmt sehr gut."
+        },
+        {
+          "word": "baden",
+          "meaning": "bueden / sech am Waasser ophalen",
+          "example": "Ich gehe baden."
+        },
+        {
+          "word": "schwimmen gehen",
+          "meaning": "schwamme goen",
+          "example": "Wir gehen schwimmen."
+        },
+        {
+          "word": "duschen",
+          "meaning": "sech duschen",
+          "example": "Ich dusche morgens."
+        }
+      ],
+      "study.tip": {
+        "text": "Denk drun: Schwammbeweegung → schwimmen; Erhuelung am Waasser → baden."
+      },
+      "study.important": [
+        "schwimmen a baden sinn net datselwecht.",
+        "Op Lëtzebuergesch gëtt et den Ënnerscheed tëscht schwammen a bueden; am Däitsche muss ee genee op de Kontext oppassen."
+      ],
+      "study.sectionAccents": {
+        "explanation": {
+          "blue": [
+            "schwimmen"
+          ],
+          "purple": [
+            "schwammen",
+            "Schwammbeweegungen"
+          ],
+          "red": [
+            "baden",
+            "bueden"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "schwimme"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "schwamme"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwimmt"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "schwëmmt"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "schwimmen"
+              ],
+              "green": [
+                "Schwimmbad"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "schwammen"
+              ],
+              "green": [
+                "Schwämm"
+              ]
+            }
+          },
+          {
+            "de": {
+              "red": [
+                "baden"
+              ]
+            },
+            "lv": {
+              "red": [
+                "bueden"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "schwimmen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "schwammen",
+                "Beweegung",
+                "Sport"
+              ]
+            },
+            "example": {
+              "blue": [
+                "schwimmt"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "baden"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "bueden",
+                "Waasser"
+              ]
+            },
+            "example": {
+              "red": [
+                "baden"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "schwimmen gehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "schwamme goen"
+              ]
+            },
+            "example": {
+              "green": [
+                "schwimmen"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "duschen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "sech duschen"
+              ]
+            },
+            "example": {
+              "yellow": [
+                "dusche"
+              ]
+            }
+          }
+        ],
+        "tip": {
+          "left": {
+            "blue": [
+              "schwimmen"
+            ],
+            "purple": [
+              "Schwammbeweegung"
+            ],
+            "red": [
+              "baden",
+              "Erhuelung am Waasser"
+            ]
+          }
+        },
+        "important": [
+          {
+            "blue": [
+              "schwimmen"
+            ],
+            "red": [
+              "baden"
+            ]
+          },
+          {
+            "purple": [
+              "schwammen"
+            ],
+            "red": [
+              "bueden"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "labot_scalar": {
+    "Problem|idx:483": "Problem",
+    "Pullover|idx:485": "Pullover",
+    "putzen|idx:487": "botzen",
+    "rauchen|idx:490": "fëmmen",
+    "reden|idx:492": "schwätzen",
+    "Regen|idx:493": "Reen",
+    "Regenschirm|idx:494": "Prabbeli",
+    "regnen|idx:495": "reenen",
+    "richtig|idx:497": "richteg",
+    "rosa|idx:498": "rosa",
+    "rot|idx:499": "rout",
+    "rufen|idx:500": "ruffen",
+    "rund|idx:501": "ronn",
+    "Rose|idx:502": "Rous",
+    "Sache|idx:503": "Saach",
+    "Saft|idx:504": "Jus",
+    "Salat|idx:506": "Zalot",
+    "Salz|idx:507": "Salz",
+    "sauber|idx:508": "propper",
+    "Schaf|idx:509": "Schof",
+    "schicken|idx:511": "schécken",
+    "schlafen|idx:512": "schlofen",
+    "schlecht|idx:513": "schlecht",
+    "Schlüssel|idx:514": "Schlëssel",
+    "schmecken|idx:515": "schmaachen",
+    "schmutzig|idx:516": "knaschteg",
+    "Schnee|idx:517": "Schnéi",
+    "schneien|idx:518": "schneien",
+    "schnell|idx:519": "séier",
+    "Schokolade|idx:520": "Schockela",
+    "schön|idx:522": "schéin",
+    "Schrank|idx:523": "Schaf",
+    "schreiben|idx:524": "schreiwen",
+    "Schuh|idx:525": "Schong",
+    "Schule|idx:526": "Schoul",
+    "Schüler|idx:527": "Schüler",
+    "schwarz|idx:528": "schwaarz",
+    "Schwein|idx:529": "Schwäin",
+    "Schwester|idx:530": "Schwëster",
+    "sechs|idx:532": "sechs",
+    "sechshundert|idx:533": "sechshonnert",
+    "sechste|idx:534": "sechsten",
+    "sechzehn|idx:535": "siechzéng"
+  },
+  "nelabot": {
+    "Programm|idx:484": "Programm",
+    "Punkt|idx:486": "Punkt"
+  },
+  "nelabot_owner_notes": {
+    "Programm|idx:484": "Programm ir pareizais luksemburgiešu ekvivalents vācu Programm un latviešu programma; ražošanas vērtība nav jāmaina.",
+    "Punkt|idx:486": "Punkt ir pareizais luksemburgiešu ekvivalents vācu Punkt un latviešu punkts; ražošanas vērtība nav jāmaina."
+  }
+}
