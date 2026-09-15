@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-15T15:27:14.790Z",
+  "updatedAt": "2026-09-15T15:35:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -77,7 +77,7 @@
       "batchId": "LRB-078",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "OWNER_COPY_PASTE_CORRECTION_2_APPLIED_AWAITING_GALA_REVIEW",
+      "status": "OWNER_COPY_PASTE_CORRECTION_3_APPLIED_AWAITING_GALA_REVIEW",
       "branch": "cursor/lrb-078-owner-authorization-ed35",
       "reservedAt": "2026-09-15T14:48:00.000Z",
       "rows": 50,
@@ -94,9 +94,10 @@
       "uniqueCards": 50,
       "inputCsvSha256": "c615b282ab7b7c895e4efc68436afa06ce44b802b63f8e5c8f720bc1e580c738",
       "overridesSha256": "0949fac343451df59059e42d5831e29bf4d73a47c01f19e800d68e6a03d54b34",
-      "updatedAt": "2026-09-15T15:27:14.790Z",
+      "updatedAt": "2026-09-15T15:35:00.000Z",
       "proof": "reports/g2-a1-owner/batches-owner-review/LRB-078/LRB-078-owner-review-proof.json",
-      "correctionRound": 2
+      "correctionRound": 3,
+      "copyPasteSpecSha256": "7c20024f6a1b3944b7644178039af23a00c092f8ece5afd48a352b199b79f678"
     },
     {
       "batchId": "LRB-079",

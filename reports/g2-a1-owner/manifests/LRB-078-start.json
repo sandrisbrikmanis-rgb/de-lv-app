@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-078",
-  "phase": "OWNER_COPY_PASTE_CORRECTION_2_APPLIED_AWAITING_GALA_REVIEW",
+  "phase": "OWNER_COPY_PASTE_CORRECTION_3_APPLIED_AWAITING_GALA_REVIEW",
   "input_csv_sha256": "c615b282ab7b7c895e4efc68436afa06ce44b802b63f8e5c8f720bc1e580c738",
   "input_row_count": 50,
   "finding_stable_ids": [
@@ -63,7 +63,8 @@
   "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "authorized_at": "2026-09-15T14:48:00.000Z",
   "overrides_sha256": "0949fac343451df59059e42d5831e29bf4d73a47c01f19e800d68e6a03d54b34",
-  "updated_at": "2026-09-15T15:27:14.790Z",
-  "source_commit": "e1279bb8109157e0e49016078a0456a61cf5a058",
-  "correction_round": 2
+  "updated_at": "2026-09-15T15:35:00.000Z",
+  "source_commit": "cd7036283bf968127d5301d66f54f52bf51247dd",
+  "correction_round": 3,
+  "copy_paste_spec_sha256": "7c20024f6a1b3944b7644178039af23a00c092f8ece5afd48a352b199b79f678"
 }
