@@ -1,0 +1,2752 @@
+{
+  "batch_id": "LRB-067",
+  "language": "lb",
+  "scope": "sechzehnte..Tag (50 LB rows, 50 unique cards)",
+  "rows": 50,
+  "uniqueCards": 50,
+  "paste_sha256": "d44cb9c31746545d1cd9db4ce89a85d58eecc2bf09cc302860e2e7f47e26bf2c",
+  "full_card_replacements": 10,
+  "full_card_object_ids": [
+    "Seite|idx:544",
+    "Sie|idx:550",
+    "sehen|idx:539",
+    "sein|idx:542",
+    "sicher|idx:548",
+    "sich|idx:547",
+    "sie|idx:549",
+    "sitzen|idx:558",
+    "sollen|idx:564",
+    "stehen|idx:576"
+  ],
+  "classification": "LRB_067_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "sechzehnte|idx:536",
+      "de_reference": "sechzehnte",
+      "idx": 536,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sechzehnte",
+        "level": "A1",
+        "lv": "siechzéngten"
+      }
+    },
+    {
+      "card_object_id": "sechzig|idx:537",
+      "de_reference": "sechzig",
+      "idx": 537,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sechzig",
+        "level": "A1",
+        "lv": "siechzeg"
+      }
+    },
+    {
+      "card_object_id": "sechzigste|idx:538",
+      "de_reference": "sechzigste",
+      "idx": 538,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sechzigste",
+        "level": "A1",
+        "lv": "siechzegsten"
+      }
+    },
+    {
+      "card_object_id": "sehen|idx:539",
+      "de_reference": "sehen",
+      "idx": 539,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sehen",
+        "level": "A1",
+        "lv": "gesinn",
+        "study": {
+          "id": "a1-sehen",
+          "layout": "standardStudy",
+          "translation": "gesinn",
+          "explanation": [
+            "Haaptiddi: sehen bedeit, eppes mat den Aen ze gesinn.",
+            "Wann et ëm dat geet, wat d’Aen erfaassen, benotzt een sehen.",
+            "Fir bewosst ze kucken, benotzt een dacks schauen oder ansehen.",
+            "E ganz heefegen Ausdrock ass Ich sehe dich. = Ech gesinn dech."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe dich.",
+              "lv": "Ech gesinn dech."
+            },
+            {
+              "de": "Siehst du das Auto?",
+              "lv": "Gesäis du den Auto?"
+            },
+            {
+              "de": "Ich sehe nichts.",
+              "lv": "Ech gesinn näischt."
+            },
+            {
+              "de": "Wir schauen einen Film.",
+              "lv": "Mir kucken e Film."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sehen",
+              "meaning": "gesinn",
+              "example": "Ich sehe dich. – Ech gesinn dech."
+            },
+            {
+              "word": "schauen",
+              "meaning": "kucken",
+              "example": "Ich schaue auf das Bild. – Ech kucken op d’Bild."
+            },
+            {
+              "word": "ansehen",
+              "meaning": "ukucken",
+              "example": "Ich sehe mir den Film an. – Ech kucke mir de Film un."
+            },
+            {
+              "word": "hören",
+              "meaning": "héieren",
+              "example": "Ich höre Musik. – Ech héiere Musek."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: mat den Aen erfaassen → sehen; bewosst kucken → schauen oder ansehen."
+          },
+          "important": [
+            "sehen ass net dat selwecht wéi anschauen.",
+            "Ich sehe dich = Ech gesinn dech; Ich schaue den Film = Ech kucken de Film."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sehen",
+                "Ich sehe dich"
+              ],
+              "purple": [
+                "gesinn",
+                "Aen"
+              ],
+              "red": [
+                "schauen",
+                "ansehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gesinn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Gesäis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gesinn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "schauen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "kucken"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gesinn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "schauen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kucken"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "schaue"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ansehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ukucken"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "sehe",
+                    "an"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hören"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "héieren"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "höre"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sehen"
+                ],
+                "purple": [
+                  "Aen"
+                ],
+                "red": [
+                  "schauen",
+                  "ansehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sehen"
+                ],
+                "red": [
+                  "anschauen"
+                ]
+              },
+              {
+                "blue": [
+                  "sehe"
+                ],
+                "purple": [
+                  "gesinn"
+                ],
+                "red": [
+                  "schaue",
+                  "kucken"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "sehr|idx:540",
+      "de_reference": "sehr",
+      "idx": 540,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sehr",
+        "level": "A1",
+        "lv": "ganz"
+      }
+    },
+    {
+      "card_object_id": "Seife|idx:541",
+      "de_reference": "Seife",
+      "idx": 541,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Seife",
+        "de_article": "die",
+        "de_plural": "die Seifen",
+        "level": "A1",
+        "lv": "Seef"
+      }
+    },
+    {
+      "card_object_id": "sein|idx:542",
+      "de_reference": "sein",
+      "idx": 542,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sein",
+        "level": "A1",
+        "lv": "sinn",
+        "study": {
+          "id": "a1-sein",
+          "layout": "standardStudy",
+          "translation": "sinn",
+          "explanation": [
+            "Haaptiddi: sein bedeit sinn.",
+            "sein ass ee vun de wichtegsten däitsche Verben.",
+            "Um Niveau A1 si besonnesch d’Formen ich bin, du bist, er ist a wir sind wichteg.",
+            "sein gëtt och a ville Sätz iwwer eng Plaz oder eng Eegenschaft benotzt."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin hier.",
+              "lv": "Ech sinn hei."
+            },
+            {
+              "de": "Du bist müde.",
+              "lv": "Du bass midd."
+            },
+            {
+              "de": "Er ist Lehrer.",
+              "lv": "Hien ass Schoulmeeschter."
+            },
+            {
+              "de": "Wir sind zu Hause.",
+              "lv": "Mir sinn doheem."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sein",
+              "meaning": "sinn",
+              "example": "Ich bin hier. – Ech sinn hei."
+            },
+            {
+              "word": "haben",
+              "meaning": "hunn",
+              "example": "Ich habe Zeit. – Ech hunn Zäit."
+            },
+            {
+              "word": "werden",
+              "meaning": "ginn",
+              "example": "Ich werde müde. – Ech gi midd."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "bleiwen",
+              "example": "Ich bleibe hier. – Ech bleiwen hei."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: ich bin = ech sinn; du bist = du bass."
+          },
+          "important": [
+            "D’Forme vu sein muss een eenzel léieren: bin, bist, ist, sind.",
+            "Ich bin ass eng konjugéiert Form; sein ass den Infinitiv."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sein",
+                "ich bin",
+                "du bist",
+                "er ist",
+                "wir sind"
+              ],
+              "purple": [
+                "sinn",
+                "Plaz",
+                "Eegenschaft"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sinn"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bass"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ass"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sind"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sinn"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sinn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "haben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "hunn"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "habe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "werden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ginn"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "werde"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bleiwen"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bleibe"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "ich bin",
+                  "du bist"
+                ],
+                "purple": [
+                  "ech sinn",
+                  "du bass"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sein",
+                  "bin",
+                  "bist",
+                  "ist",
+                  "sind"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich bin",
+                  "sein"
+                ],
+                "purple": [
+                  "konjugéiert Form",
+                  "Infinitiv"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "seit|idx:543",
+      "de_reference": "seit",
+      "idx": 543,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "seit",
+        "level": "A1",
+        "lv": "zënter"
+      }
+    },
+    {
+      "card_object_id": "Seite|idx:544",
+      "de_reference": "Seite",
+      "idx": 544,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Seite",
+        "de_article": "die",
+        "de_plural": "die Seiten",
+        "level": "A1",
+        "lv": "Säit",
+        "study": {
+          "id": "a1-seite",
+          "layout": "standardStudy",
+          "translation": "Säit",
+          "explanation": [
+            "Haaptiddi: die Seite kann eng Säit an engem Buch oder Dokument an och eng Säit vun enger Saach bedeiten.",
+            "An engem Buch, Magazin oder op enger Websäit bedeit die Seite eng Säit (Seite 5 = Säit 5).",
+            "Bei enger Plaz bedeit die Seite och Säit (auf der linken Seite = op der lénker Säit).",
+            "Am iwwerdroene Sënn kann die Seite eng Säit an engem Sträit oder eng Ënnerstëtzung bezeechnen (auf meiner Seite = op menger Säit).",
+            "De Kontext — Buch a Liesen oder Plaz a Bezéiung — weist déi gemengte Bedeitung.",
+            "De Pluriel ass fir all dës Bedeitungen die Seiten; op Lëtzebuergesch: d'Säiten."
+          ],
+          "examples": [
+            {
+              "de": "Schlagt die Seite zwanzig auf.",
+              "lv": "Schlot d'Säit zwanzeg op."
+            },
+            {
+              "de": "Auf der linken Seite ist ein Park.",
+              "lv": "Op der lénker Säit ass e Park."
+            },
+            {
+              "de": "Die Webseite lädt langsam.",
+              "lv": "D’Websäit luet lues."
+            },
+            {
+              "de": "Er steht auf meiner Seite.",
+              "lv": "Hie steet op menger Säit."
+            },
+            {
+              "de": "Das Buch hat 200 Seiten.",
+              "lv": "D’Buch huet 200 Säiten."
+            },
+            {
+              "de": "Auf der anderen Seite der Straße.",
+              "lv": "Op där anerer Säit vun der Strooss."
+            }
+          ],
+          "tip": [
+            "Beim Däitsche weist de Kontext, ob Seite eng Buchsäit, eng räimlech Säit oder eng Säit an enger Meenungsverschiddenheet ass.",
+            "Seite X an engem Buch ass eng Säit am Buch."
+          ],
+          "important": [
+            "die Seite huet méi wéi eng Bedeitung; op Lëtzebuergesch deckt Säit dës Bedeitungen of.",
+            "De Pluriel ass die Seiten; op Lëtzebuergesch: d'Säiten."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "die Seite",
+                "Seite"
+              ],
+              "purple": [
+                "Säit",
+                "Säiten"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Seite"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Säit"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Seite"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Säit"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Webseite"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Websäit"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Seite"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Säit"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Seiten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Säiten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Seite"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Säit"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Seite"
+                ],
+                "purple": [
+                  "Buchsäit"
+                ],
+                "green": [
+                  "räimlech Säit"
+                ]
+              },
+              {
+                "blue": [
+                  "Seite X"
+                ],
+                "purple": [
+                  "Säit"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Seite"
+                ],
+                "purple": [
+                  "Säit"
+                ]
+              },
+              {
+                "blue": [
+                  "die Seiten"
+                ],
+                "purple": [
+                  "Säiten"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "September|idx:546",
+      "de_reference": "September",
+      "idx": 546,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "September",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "September"
+      }
+    },
+    {
+      "card_object_id": "sich|idx:547",
+      "de_reference": "sich",
+      "idx": 547,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sich",
+        "level": "A1",
+        "lv": "sech",
+        "study": {
+          "id": "a1-sich",
+          "layout": "standardStudy",
+          "translation": "sech",
+          "explanation": [
+            "Haaptiddi: sich weist, datt d’Handlung op déi Persoun zeréckgeet, déi se mécht.",
+            "Op Lëtzebuergesch entsprécht sich meeschtens sech.",
+            "Bei verschiddenen däitsche Verben ass sich en obligatoreschen Deel, zum Beispill sich waschen.",
+            "Um Niveau A1 ass wichteg: ich wasche mich, er wäscht sich; op Lëtzebuergesch: ech wäsche mech, hie wäscht sech."
+          ],
+          "examples": [
+            {
+              "de": "Er wäscht sich.",
+              "lv": "Hie wäscht sech."
+            },
+            {
+              "de": "Ich setze mich.",
+              "lv": "Ech setzen mech."
+            },
+            {
+              "de": "Sie freut sich.",
+              "lv": "Si freet sech."
+            },
+            {
+              "de": "Ich wasche das Auto.",
+              "lv": "Ech wäschen den Auto."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sich",
+              "meaning": "sech",
+              "example": "Er wäscht sich. – Hie wäscht sech."
+            },
+            {
+              "word": "mich",
+              "meaning": "mech bei ich",
+              "example": "Ich wasche mich. – Ech wäsche mech."
+            },
+            {
+              "word": "dich",
+              "meaning": "dech bei du",
+              "example": "Du wäschst dich. – Du wäschs dech."
+            },
+            {
+              "word": "ihn",
+              "meaning": "hien",
+              "example": "Ich sehe ihn. – Ech gesinn hien."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: d’Handlung geet op ee selwer zeréck → sich, mich oder dich, jee no Persoun."
+          },
+          "important": [
+            "sich ass kee Substantiv, mee e Reflexivpronomen.",
+            "D’Form ännert sech mat der Persoun: ich → mich, du → dich, er/sie/es → sich."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sich",
+                "ich wasche mich",
+                "er wäscht sich"
+              ],
+              "purple": [
+                "sech",
+                "mech"
+              ],
+              "red": [
+                "sich waschen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "wasche"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "wäschen"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sech"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mech"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "mich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "dich"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dech"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "dich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ihn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "hien"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ihn"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sich",
+                  "mich",
+                  "dich"
+                ],
+                "purple": [
+                  "ee selwer"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sich"
+                ],
+                "red": [
+                  "Substantiv"
+                ],
+                "purple": [
+                  "Reflexivpronomen"
+                ]
+              },
+              {
+                "green": [
+                  "mich",
+                  "dich"
+                ],
+                "blue": [
+                  "sich"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "sicher|idx:548",
+      "de_reference": "sicher",
+      "idx": 548,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sicher",
+        "level": "A1",
+        "lv": "sécher • bestëmmt",
+        "study": {
+          "id": "a1-sicher",
+          "layout": "standardStudy",
+          "translation": "sécher • bestëmmt",
+          "explanation": [
+            "Haaptiddi: sicher bedeit als Adjektiv sécher; als Adverb kann et bestëmmt oder sécherlech bedeiten.",
+            "Bei enger Plaz, enger Situatioun oder enger Persoun bedeit sicher sécher (ein sicherer Ort = eng sécher Plaz).",
+            "Als Bestätegung oder Ausdrock vu Gewëssheet bedeit sicher bestëmmt oder sécherlech (Das ist sicher wahr. = Dat ass bestëmmt wouer.).",
+            "Sicher! als eleng stoend Äntwert bedeit Bestëmmt! oder Sécher!"
+          ],
+          "examples": [
+            {
+              "de": "Ist das Wasser sicher?",
+              "lv": "Ass d’Waasser sécher?"
+            },
+            {
+              "de": "Kommst du morgen? – Sicher!",
+              "lv": "Kënns du muer? – Bestëmmt!"
+            },
+            {
+              "de": "Er ist sicher zu Hause.",
+              "lv": "Hien ass bestëmmt doheem."
+            },
+            {
+              "de": "Das ist eine sichere Lösung.",
+              "lv": "Dat ass eng sécher Léisung."
+            },
+            {
+              "de": "Ich bin mir sicher.",
+              "lv": "Ech si mer sécher."
+            },
+            {
+              "de": "Fahr sicher!",
+              "lv": "Fuer sécher!"
+            }
+          ],
+          "tip": [
+            "Bei enger Plaz oder Situatioun a Bezuch op Sécherheet → sécher.",
+            "Als Gewëssheet oder Bestätegung am Saz → bestëmmt oder sécherlech."
+          ],
+          "important": [
+            "sicher = sécher als Adjektiv, oder bestëmmt/sécherlech als Adverb.",
+            "sich sicher sein = sech sécher sinn."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sicher",
+                "ein sicherer Ort",
+                "Das ist sicher wahr"
+              ],
+              "purple": [
+                "sécher",
+                "bestëmmt",
+                "sécherlech"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sicher"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sécher"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Sicher"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Bestëmmt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "sicher"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bestëmmt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sichere"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sécher"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "sicher"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sécher"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sicher"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sécher"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "Sécherheet",
+                  "sécher"
+                ]
+              },
+              {
+                "purple": [
+                  "Gewëssheet",
+                  "bestëmmt",
+                  "sécherlech"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "sicher"
+                ],
+                "purple": [
+                  "sécher",
+                  "bestëmmt",
+                  "sécherlech"
+                ]
+              },
+              {
+                "blue": [
+                  "sich sicher sein"
+                ],
+                "purple": [
+                  "sech sécher sinn"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "sie|idx:549",
+      "de_reference": "sie",
+      "idx": 549,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sie",
+        "level": "A1",
+        "lv": "si",
+        "study": {
+          "id": "a1-sie-study",
+          "layout": "standardStudy",
+          "translation": "si",
+          "explanation": [
+            "Haaptiddi: sie mat engem Verb am Pluriel bezitt sech op méi Leit; op Lëtzebuergesch heescht et si.",
+            "sie mat engem Verb am Singulier kann eng eenzeg Fra bezeechnen; och do heescht et op Lëtzebuergesch si.",
+            "D’Verbform hëlleft z’ënnerscheeden: kocht oder isst ass Singulier, kochen oder spielen ass Pluriel.",
+            "Déi héiflech däitsch Uried Sie gëtt ëmmer mat groussem S geschriwwen an entsprécht dem lëtzebuergeschen Dir.",
+            "Um Ufank vum Saz steet och de Pronome sie automatesch mat groussem S; dofir sinn d’Verbform an de Kontext entscheedend."
+          ],
+          "examples": [
+            {
+              "de": "Sie kochen.",
+              "lv": "Si kachen."
+            },
+            {
+              "de": "Sie kocht.",
+              "lv": "Si kacht."
+            },
+            {
+              "de": "Sie isst.",
+              "lv": "Si ësst."
+            },
+            {
+              "de": "Sie kochen.",
+              "lv": "Si kachen."
+            },
+            {
+              "de": "Sie spielen Fußball.",
+              "lv": "Si spille Fussball."
+            },
+            {
+              "de": "Sie kochen, bitte.",
+              "lv": "Dir kacht, wann ech gelift."
+            }
+          ],
+          "tip": [
+            "Bei sie weist d’Verbform dacks d’Bedeitung: -t fir eng Fra, -en fir méi Leit.",
+            "Déi héiflech Uried ass am Däitschen Sie a gëtt op Lëtzebuergesch mat Dir iwwersat."
+          ],
+          "important": [
+            "sie am Pluriel = si; sie am weibleche Singulier = och si.",
+            "Héiflech Uried: Sie kochen. = Dir kacht. D’Verb an de Kontext ënnerscheeden d’Bedeitungen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sie",
+                "kochen",
+                "spielen"
+              ],
+              "yellow": [
+                "Sie",
+                "Dir"
+              ],
+              "purple": [
+                "si",
+                "Singulier",
+                "Pluriel"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Sie",
+                    "kochen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "kachen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Sie",
+                    "kocht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "kacht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Sie",
+                    "isst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "ësst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Sie",
+                    "kochen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "kachen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Sie",
+                    "spielen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "spille"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "Sie",
+                    "kochen"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "Dir",
+                    "kacht"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "sie"
+                ],
+                "purple": [
+                  "-t",
+                  "-en"
+                ]
+              },
+              {
+                "yellow": [
+                  "Sie",
+                  "Dir"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "sie"
+                ],
+                "purple": [
+                  "si",
+                  "Singulier",
+                  "Pluriel"
+                ]
+              },
+              {
+                "yellow": [
+                  "Sie kochen",
+                  "Dir kacht"
+                ],
+                "purple": [
+                  "Verb",
+                  "Kontext"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Sie|idx:550",
+      "de_reference": "Sie",
+      "idx": 550,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Sie",
+        "level": "A1",
+        "lv": "Dir",
+        "study": {
+          "id": "a1-sie-study-2",
+          "layout": "standardStudy",
+          "translation": "Dir",
+          "explanation": [
+            "Haaptiddi: Sie ass déi héiflech däitsch Uried a gëtt ëmmer mat groussem S geschriwwen; op Lëtzebuergesch entsprécht se Dir.",
+            "Déi héiflech Form Sie steet am Däitsche mat enger Verbform am Pluriel, zum Beispill Sie kochen.",
+            "D’Pronome sie kann och eng Fra oder méi Leit bezeechnen.",
+            "Bei enger Fra steet d’Verb am Singulier, zum Beispill Sie kocht oder Sie isst.",
+            "Bei méi Leit steet d’Verb am Pluriel, zum Beispill Sie kochen oder Sie spielen.",
+            "Um Ufank vum Saz kann een d’Bedeitung net eleng un der Groussschreiwung erkennen; d’Verbform an de Kontext entscheeden."
+          ],
+          "examples": [
+            {
+              "de": "Sie kochen, bitte.",
+              "lv": "Dir kacht, wann ech gelift."
+            },
+            {
+              "de": "Sie kocht.",
+              "lv": "Si kacht."
+            },
+            {
+              "de": "Sie isst.",
+              "lv": "Si ësst."
+            },
+            {
+              "de": "Sie kochen.",
+              "lv": "Si kachen."
+            },
+            {
+              "de": "Sie spielen Fußball.",
+              "lv": "Si spille Fussball."
+            },
+            {
+              "de": "Sie kochen, bitte.",
+              "lv": "Dir kacht, wann ech gelift."
+            }
+          ],
+          "tip": [
+            "Héiflech Uried: Sie mat groussem S; op Lëtzebuergesch: Dir.",
+            "Bei engem Sazufank weisen d’Verbform an de Kontext, ob Sie eng Fra, méi Leit oder déi héiflech Uried bedeit."
+          ],
+          "important": [
+            "Déi héiflech Uried gëtt am Däitschen ëmmer Sie geschriwwen.",
+            "Eng Fra: Sie kocht. Méi Leit: Sie kochen. Héiflech Uried: Sie kochen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "yellow": [
+                "Sie",
+                "Dir"
+              ],
+              "purple": [
+                "Singulier",
+                "Pluriel"
+              ],
+              "blue": [
+                "sie",
+                "Verbform",
+                "Kontext"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "yellow": [
+                    "Sie",
+                    "kochen"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "Dir",
+                    "kacht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Sie",
+                    "kocht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "kacht"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Sie",
+                    "isst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "ësst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Sie",
+                    "kochen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "kachen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Sie",
+                    "spielen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Si",
+                    "spille"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "Sie",
+                    "kochen"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "Dir",
+                    "kacht"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "yellow": [
+                  "Sie",
+                  "Dir"
+                ]
+              },
+              {
+                "blue": [
+                  "Verbform",
+                  "Kontext"
+                ],
+                "purple": [
+                  "Fra",
+                  "Leit"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "yellow": [
+                  "Sie"
+                ]
+              },
+              {
+                "blue": [
+                  "Sie kocht"
+                ],
+                "green": [
+                  "Sie kochen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "siebenhundert|idx:551",
+      "de_reference": "siebenhundert",
+      "idx": 551,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "siebenhundert",
+        "level": "A1",
+        "lv": "siwenhonnert"
+      }
+    },
+    {
+      "card_object_id": "siebente|idx:552",
+      "de_reference": "siebente",
+      "idx": 552,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "siebente",
+        "level": "A1",
+        "lv": "siwenten"
+      }
+    },
+    {
+      "card_object_id": "siebzehn|idx:553",
+      "de_reference": "siebzehn",
+      "idx": 553,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "siebzehn",
+        "level": "A1",
+        "lv": "siwwenzéng"
+      }
+    },
+    {
+      "card_object_id": "siebzehnte|idx:554",
+      "de_reference": "siebzehnte",
+      "idx": 554,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "siebzehnte",
+        "level": "A1",
+        "lv": "siwwenzéngten"
+      }
+    },
+    {
+      "card_object_id": "siebzig|idx:555",
+      "de_reference": "siebzig",
+      "idx": 555,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "siebzig",
+        "level": "A1",
+        "lv": "siwwenzeg"
+      }
+    },
+    {
+      "card_object_id": "siebzigste|idx:556",
+      "de_reference": "siebzigste",
+      "idx": 556,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "siebzigste",
+        "level": "A1",
+        "lv": "siwwenzegsten"
+      }
+    },
+    {
+      "card_object_id": "singen|idx:557",
+      "de_reference": "singen",
+      "idx": 557,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "singen",
+        "level": "A1",
+        "lv": "sangen"
+      }
+    },
+    {
+      "card_object_id": "sitzen|idx:558",
+      "de_reference": "sitzen",
+      "idx": 558,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sitzen",
+        "level": "A1",
+        "lv": "sëtzen",
+        "study": {
+          "id": "a1-sitzen",
+          "layout": "standardStudy",
+          "translation": "sëtzen",
+          "explanation": [
+            "Haaptiddi: sitzen bedeit sëtzen.",
+            "sitzen gëtt fir e Mënsch oder en Déier benotzt, deen oder dat sëtzt.",
+            "Heiansdo kann sitzen och bedeiten, op enger bestëmmter Plaz ze sinn; um Niveau A1 ass d’Haaptbedeitung sëtzen.",
+            "Wichteg ass den Ënnerscheed: sitzen = sëtzen, stehen = stoen, liegen = leien."
+          ],
+          "examples": [
+            {
+              "de": "Ich sitze am Tisch.",
+              "lv": "Ech sëtzen um Dësch."
+            },
+            {
+              "de": "Die Kinder sitzen im Bus.",
+              "lv": "D’Kanner sëtzen am Bus."
+            },
+            {
+              "de": "Er steht an der Tür.",
+              "lv": "Hie steet bei der Dier."
+            },
+            {
+              "de": "Die Katze liegt auf dem Sofa.",
+              "lv": "D’Kaz läit um Canapé."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sitzen",
+              "meaning": "sëtzen",
+              "example": "Ich sitze am Tisch. – Ech sëtzen um Dësch."
+            },
+            {
+              "word": "stehen",
+              "meaning": "stoen",
+              "example": "Er steht an der Tür. – Hie steet bei der Dier."
+            },
+            {
+              "word": "liegen",
+              "meaning": "leien",
+              "example": "Die Katze liegt dort. – D’Kaz läit do."
+            },
+            {
+              "word": "setzen",
+              "meaning": "sech setzen oder een eppes setzen",
+              "example": "Ich setze mich. – Ech setze mech."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: sëtzend → sitzen; stoend → stehen; leiend → liegen."
+          },
+          "important": [
+            "sitzen beschreift den Zoustand „sëtzen“.",
+            "Sech setzen heescht sich setzen, net sitzen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sitzen"
+              ],
+              "purple": [
+                "sëtzen",
+                "sëtzt"
+              ],
+              "red": [
+                "stehen",
+                "liegen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sitze"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sëtzen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sitzen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sëtzen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "steht"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "steet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "yellow": [
+                    "läit"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sitzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sëtzen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sitze"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stoen"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "steht"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "leien"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "setzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sech setzen"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "setze"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sitzen"
+                ],
+                "purple": [
+                  "sëtzend"
+                ],
+                "red": [
+                  "stehen"
+                ],
+                "yellow": [
+                  "liegen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "sitzen"
+                ],
+                "purple": [
+                  "sëtzen"
+                ]
+              },
+              {
+                "green": [
+                  "Sech setzen",
+                  "sich setzen"
+                ],
+                "blue": [
+                  "sitzen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "so|idx:559",
+      "de_reference": "so",
+      "idx": 559,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "so",
+        "level": "A1",
+        "lv": "esou"
+      }
+    },
+    {
+      "card_object_id": "Socke|idx:560",
+      "de_reference": "Socke",
+      "idx": 560,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Socke",
+        "de_article": "die",
+        "de_plural": "die Socken",
+        "level": "A1",
+        "lv": "Strëmp"
+      }
+    },
+    {
+      "card_object_id": "Sofa|idx:561",
+      "de_reference": "Sofa",
+      "idx": 561,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Sofa",
+        "de_article": "das",
+        "de_plural": "die Sofas",
+        "level": "A1",
+        "lv": "Canapé"
+      }
+    },
+    {
+      "card_object_id": "sofort|idx:562",
+      "de_reference": "sofort",
+      "idx": 562,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sofort",
+        "level": "A1",
+        "lv": "direkt"
+      }
+    },
+    {
+      "card_object_id": "Sohn|idx:563",
+      "de_reference": "Sohn",
+      "idx": 563,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Sohn",
+        "de_article": "der",
+        "de_plural": "die Söhne",
+        "level": "A1",
+        "lv": "Jong"
+      }
+    },
+    {
+      "card_object_id": "sollen|idx:564",
+      "de_reference": "sollen",
+      "idx": 564,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "sollen",
+        "level": "A1",
+        "lv": "sollen",
+        "study": {
+          "id": "a1-sollen",
+          "layout": "standardStudy",
+          "translation": "sollen",
+          "explanation": [
+            "Haaptiddi: sollen weist, datt een eppes no enger Uweisung oder Erwaardung maache soll.",
+            "sollen gëtt dacks benotzt, wann eng aner Persoun seet, wat ze maachen ass.",
+            "Et ass net esou staark wéi müssen.",
+            "E ganz heefegen Ausdrock ass Was soll ich machen? = Wat soll ech maachen?"
+          ],
+          "examples": [
+            {
+              "de": "Was soll ich machen?",
+              "lv": "Wat soll ech maachen?"
+            },
+            {
+              "de": "Du sollst kommen.",
+              "lv": "Du solls kommen."
+            },
+            {
+              "de": "Ich soll zu Hause bleiben.",
+              "lv": "Ech soll doheem bleiwen."
+            },
+            {
+              "de": "Ich muss jetzt gehen.",
+              "lv": "Ech muss elo goen."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sollen",
+              "meaning": "sollen; eppes no enger Uweisung maachen",
+              "example": "Was soll ich machen? – Wat soll ech maachen?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "mussen; eppes ass obligatoresch",
+              "example": "Ich muss gehen. – Ech muss goen."
+            },
+            {
+              "word": "können",
+              "meaning": "kënnen",
+              "example": "Ich kann kommen. – Ech ka kommen."
+            },
+            {
+              "word": "wollen",
+              "meaning": "wëllen",
+              "example": "Ich will bleiben. – Ech wëll bleiwen."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: eng Uweisung oder Erwaardung → sollen; eng Noutwendegkeet → müssen."
+          },
+          "important": [
+            "Was soll ich machen? ass e ganz heefegen Ausdrock.",
+            "sollen a müssen bedeiten net genee dat selwecht."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sollen",
+                "Was soll ich machen"
+              ],
+              "purple": [
+                "Uweisung",
+                "Erwaardung"
+              ],
+              "red": [
+                "müssen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "machen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "soll",
+                    "maachen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sollst",
+                    "kommen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "solls",
+                    "kommen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "soll",
+                    "bleiben"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "soll",
+                    "bleiwen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "muss",
+                    "gehen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "muss",
+                    "goen"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Uweisung"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "soll"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "obligatoresch"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "muss"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kënnen"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wëllen"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "sollen"
+                ],
+                "purple": [
+                  "Uweisung",
+                  "Erwaardung"
+                ],
+                "red": [
+                  "müssen",
+                  "Noutwendegkeet"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Was soll ich machen"
+                ]
+              },
+              {
+                "blue": [
+                  "sollen"
+                ],
+                "red": [
+                  "müssen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Sommer|idx:565",
+      "de_reference": "Sommer",
+      "idx": 565,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Sommer",
+        "de_article": "der",
+        "de_plural": "die Sommer",
+        "level": "A1",
+        "lv": "Summer"
+      }
+    },
+    {
+      "card_object_id": "Samstag|idx:566",
+      "de_reference": "Samstag",
+      "idx": 566,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Samstag",
+        "de_article": "der",
+        "de_plural": "die Samstage",
+        "level": "A1",
+        "lv": "Samschdeg"
+      }
+    },
+    {
+      "card_object_id": "Sonne|idx:567",
+      "de_reference": "Sonne",
+      "idx": 567,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Sonne",
+        "de_article": "die",
+        "de_plural": "die Sonnen",
+        "level": "A1",
+        "lv": "Sonn"
+      }
+    },
+    {
+      "card_object_id": "Sonntag|idx:568",
+      "de_reference": "Sonntag",
+      "idx": 568,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Sonntag",
+        "de_article": "der",
+        "de_plural": "die Sonntage",
+        "level": "A1",
+        "lv": "Sonndeg"
+      }
+    },
+    {
+      "card_object_id": "spät|idx:569",
+      "de_reference": "spät",
+      "idx": 569,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "spät",
+        "level": "A1",
+        "lv": "spéit"
+      }
+    },
+    {
+      "card_object_id": "spazieren gehen|idx:570",
+      "de_reference": "spazieren gehen",
+      "idx": 570,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "spazieren gehen",
+        "level": "A1",
+        "lv": "spadséiere goen"
+      }
+    },
+    {
+      "card_object_id": "Spiel|idx:571",
+      "de_reference": "Spiel",
+      "idx": 571,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Spiel",
+        "de_article": "das",
+        "de_plural": "die Spiele",
+        "level": "A1",
+        "lv": "Spill"
+      }
+    },
+    {
+      "card_object_id": "spielen|idx:572",
+      "de_reference": "spielen",
+      "idx": 572,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "spielen",
+        "level": "A1",
+        "lv": "spillen"
+      }
+    },
+    {
+      "card_object_id": "Spielzeug|idx:573",
+      "de_reference": "Spielzeug",
+      "idx": 573,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Spielzeug",
+        "de_article": "das",
+        "de_plural": "die Spielzeuge",
+        "level": "A1",
+        "lv": "Spillsaach"
+      }
+    },
+    {
+      "card_object_id": "Sprache|idx:574",
+      "de_reference": "Sprache",
+      "idx": 574,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Sprache",
+        "de_article": "die",
+        "de_plural": "die Sprachen",
+        "level": "A1",
+        "lv": "Sprooch"
+      }
+    },
+    {
+      "card_object_id": "stark|idx:575",
+      "de_reference": "stark",
+      "idx": 575,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "stark",
+        "level": "A1",
+        "lv": "staark"
+      }
+    },
+    {
+      "card_object_id": "stehen|idx:576",
+      "de_reference": "stehen",
+      "idx": 576,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "stehen",
+        "level": "A1",
+        "lv": "stoen",
+        "study": {
+          "id": "a1-stehen",
+          "layout": "standardStudy",
+          "translation": "stoen",
+          "explanation": [
+            "Haaptiddi: stehen bedeit stoen oder sech an enger oprechter Positioun befannen.",
+            "Bei engem Mënsch bedeit stehen stoen.",
+            "Bei engem Géigestand bedeit stehen, datt en oprecht oder op enger bestëmmter Plaz steet.",
+            "Wichteg ass den Ënnerscheed: stehen = stoen, sitzen = sëtzen, liegen = leien."
+          ],
+          "examples": [
+            {
+              "de": "Ich stehe an der Tür.",
+              "lv": "Ech sti bei der Dier."
+            },
+            {
+              "de": "Der Stuhl steht in der Küche.",
+              "lv": "De Stull steet an der Kichen."
+            },
+            {
+              "de": "Er sitzt am Tisch.",
+              "lv": "Hie sëtzt um Dësch."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "D’Buch läit um Dësch."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "stehen",
+              "meaning": "stoen",
+              "example": "Ich stehe hier. – Ech stinn hei."
+            },
+            {
+              "word": "sitzen",
+              "meaning": "sëtzen",
+              "example": "Er sitzt am Tisch. – Hie sëtzt um Dësch."
+            },
+            {
+              "word": "liegen",
+              "meaning": "leien",
+              "example": "Das Buch liegt dort. – D’Buch läit do."
+            },
+            {
+              "word": "stellen",
+              "meaning": "stellen; eppes opriichten oder dohinner stellen",
+              "example": "Ich stelle die Flasche hin. – Ech stellen d’Fläsch dohinner."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: oprecht → stehen; sëtzend → sitzen; leiend → liegen."
+          },
+          "important": [
+            "stehen beschreift en Zoustand, net d’Handlung „eppes dohinner stellen“.",
+            "E Géigestand opriichten oder dohinner stellen heescht stellen, net stehen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "stehen"
+              ],
+              "purple": [
+                "stoen",
+                "oprechter Positioun"
+              ],
+              "red": [
+                "sitzen",
+                "liegen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "stehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "sti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "steht"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "steet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "sitzt"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "sëtzt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "liegt"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "läit"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stoen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "stehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sitzen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sëtzen"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "sitzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "liegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "leien"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "liegt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "stellen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "stellen"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "stelle"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "stehen"
+                ],
+                "purple": [
+                  "oprecht"
+                ],
+                "red": [
+                  "sitzen"
+                ],
+                "yellow": [
+                  "liegen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "stehen"
+                ],
+                "purple": [
+                  "Zoustand"
+                ],
+                "green": [
+                  "stellen"
+                ]
+              },
+              {
+                "green": [
+                  "stellen"
+                ],
+                "blue": [
+                  "stehen"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Stern|idx:577",
+      "de_reference": "Stern",
+      "idx": 577,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Stern",
+        "de_article": "der",
+        "de_plural": "die Sterne",
+        "level": "A1",
+        "lv": "Stär"
+      }
+    },
+    {
+      "card_object_id": "Straße|idx:578",
+      "de_reference": "Straße",
+      "idx": 578,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Straße",
+        "de_article": "die",
+        "de_plural": "die Straßen",
+        "level": "A1",
+        "lv": "Strooss"
+      }
+    },
+    {
+      "card_object_id": "Straßenbahn|idx:579",
+      "de_reference": "Straßenbahn",
+      "idx": 579,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Straßenbahn",
+        "de_article": "die",
+        "de_plural": "die Straßenbahnen",
+        "level": "A1",
+        "lv": "Tram"
+      }
+    },
+    {
+      "card_object_id": "Stück|idx:580",
+      "de_reference": "Stück",
+      "idx": 580,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Stück",
+        "de_article": "das",
+        "de_plural": "die Stücke",
+        "level": "A1",
+        "lv": "Stéck"
+      }
+    },
+    {
+      "card_object_id": "Student|idx:581",
+      "de_reference": "Student",
+      "idx": 581,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Student",
+        "de_article": "der",
+        "de_plural": "die Studenten",
+        "level": "A1",
+        "lv": "Student"
+      }
+    },
+    {
+      "card_object_id": "Stuhl|idx:582",
+      "de_reference": "Stuhl",
+      "idx": 582,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Stuhl",
+        "de_article": "der",
+        "de_plural": "die Stühle",
+        "level": "A1",
+        "lv": "Stull"
+      }
+    },
+    {
+      "card_object_id": "Stunde|idx:583",
+      "de_reference": "Stunde",
+      "idx": 583,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Stunde",
+        "de_article": "die",
+        "de_plural": "die Stunden",
+        "level": "A1",
+        "lv": "Stonn"
+      }
+    },
+    {
+      "card_object_id": "suchen|idx:584",
+      "de_reference": "suchen",
+      "idx": 584,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "suchen",
+        "level": "A1",
+        "lv": "sichen"
+      }
+    },
+    {
+      "card_object_id": "süß|idx:585",
+      "de_reference": "süß",
+      "idx": 585,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "süß",
+        "level": "A1",
+        "lv": "séiss"
+      }
+    },
+    {
+      "card_object_id": "Tag|idx:586",
+      "de_reference": "Tag",
+      "idx": 586,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Tag",
+        "de_article": "der",
+        "de_plural": "die Tage",
+        "level": "A1",
+        "lv": "Dag"
+      }
+    }
+  ]
+}

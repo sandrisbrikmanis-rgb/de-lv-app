@@ -1,0 +1,302 @@
+{
+  "g2/a1/lb|sechzehnte|idx:536|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siechzéngten",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: sechzehnte|idx:536."
+  },
+  "g2/a1/lb|sechzig|idx:537|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siechzeg",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: sechzig|idx:537."
+  },
+  "g2/a1/lb|sechzigste|idx:538|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siechzegsten",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: sechzigste|idx:538."
+  },
+  "g2/a1/lb|sehen|idx:539|lv; study|CORRUPTED_CONTENT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"gesinn\",\"study.translation\":\"gesinn\",\"study.explanation\":\"[\\\"Haaptiddi: sehen bedeit, eppes mat den Aen ze gesinn.\\\",\\\"Wann et ëm dat geet, wat d’Aen erfaassen, benotzt een sehen.\\\",\\\"Fir bewosst ze kucken, benotzt een dacks schauen oder ansehen.\\\",\\\"E ganz heefegen Ausdrock ass Ich sehe dich. = Ech gesinn dech.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich sehe dich.\\\",\\\"lv\\\":\\\"Ech gesinn dech.\\\"},{\\\"de\\\":\\\"Siehst du das Auto?\\\",\\\"lv\\\":\\\"Gesäis du den Auto?\\\"},{\\\"de\\\":\\\"Ich sehe nichts.\\\",\\\"lv\\\":\\\"Ech gesinn näischt.\\\"},{\\\"de\\\":\\\"Wir schauen einen Film.\\\",\\\"lv\\\":\\\"Mir kucken e Film.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sehen\\\",\\\"meaning\\\":\\\"gesinn\\\",\\\"example\\\":\\\"Ich sehe dich. – Ech gesinn dech.\\\"},{\\\"word\\\":\\\"schauen\\\",\\\"meaning\\\":\\\"kucken\\\",\\\"example\\\":\\\"Ich schaue auf das Bild. – Ech kucken op d’Bild.\\\"},{\\\"word\\\":\\\"ansehen\\\",\\\"meaning\\\":\\\"ukucken\\\",\\\"example\\\":\\\"Ich sehe mir den Film an. – Ech kucke mir de Film un.\\\"},{\\\"word\\\":\\\"hören\\\",\\\"meaning\\\":\\\"héieren\\\",\\\"example\\\":\\\"Ich höre Musik. – Ech héiere Musek.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: mat den Aen erfaassen → sehen; bewosst kucken → schauen oder ansehen.\\\"}\",\"study.important\":\"[\\\"sehen ass net dat selwecht wéi anschauen.\\\",\\\"Ich sehe dich = Ech gesinn dech; Ich schaue den Film = Ech kucken de Film.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sehen\\\",\\\"Ich sehe dich\\\"],\\\"purple\\\":[\\\"gesinn\\\",\\\"Aen\\\"],\\\"red\\\":[\\\"schauen\\\",\\\"ansehen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sehe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gesinn\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Siehst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Gesäis\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sehe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"gesinn\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"schauen\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"kucken\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"gesinn\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sehe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"schauen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kucken\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"schaue\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ansehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ukucken\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"sehe\\\",\\\"an\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"hören\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"héieren\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"höre\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sehen\\\"],\\\"purple\\\":[\\\"Aen\\\"],\\\"red\\\":[\\\"schauen\\\",\\\"ansehen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sehen\\\"],\\\"red\\\":[\\\"anschauen\\\"]},{\\\"blue\\\":[\\\"sehe\\\"],\\\"purple\\\":[\\\"gesinn\\\"],\\\"red\\\":[\\\"schaue\\\",\\\"kucken\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: sehen|idx:539."
+  },
+  "g2/a1/lb|sehr|idx:540|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ganz",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: sehr|idx:540."
+  },
+  "g2/a1/lb|Seife|idx:541|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Seef",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Seife|idx:541."
+  },
+  "g2/a1/lb|sein|idx:542|lv; study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sinn\",\"study.translation\":\"sinn\",\"study.explanation\":\"[\\\"Haaptiddi: sein bedeit sinn.\\\",\\\"sein ass ee vun de wichtegsten däitsche Verben.\\\",\\\"Um Niveau A1 si besonnesch d’Formen ich bin, du bist, er ist a wir sind wichteg.\\\",\\\"sein gëtt och a ville Sätz iwwer eng Plaz oder eng Eegenschaft benotzt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bin hier.\\\",\\\"lv\\\":\\\"Ech sinn hei.\\\"},{\\\"de\\\":\\\"Du bist müde.\\\",\\\"lv\\\":\\\"Du bass midd.\\\"},{\\\"de\\\":\\\"Er ist Lehrer.\\\",\\\"lv\\\":\\\"Hien ass Schoulmeeschter.\\\"},{\\\"de\\\":\\\"Wir sind zu Hause.\\\",\\\"lv\\\":\\\"Mir sinn doheem.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sein\\\",\\\"meaning\\\":\\\"sinn\\\",\\\"example\\\":\\\"Ich bin hier. – Ech sinn hei.\\\"},{\\\"word\\\":\\\"haben\\\",\\\"meaning\\\":\\\"hunn\\\",\\\"example\\\":\\\"Ich habe Zeit. – Ech hunn Zäit.\\\"},{\\\"word\\\":\\\"werden\\\",\\\"meaning\\\":\\\"ginn\\\",\\\"example\\\":\\\"Ich werde müde. – Ech gi midd.\\\"},{\\\"word\\\":\\\"bleiben\\\",\\\"meaning\\\":\\\"bleiwen\\\",\\\"example\\\":\\\"Ich bleibe hier. – Ech bleiwen hei.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: ich bin = ech sinn; du bist = du bass.\\\"}\",\"study.important\":\"[\\\"D’Forme vu sein muss een eenzel léieren: bin, bist, ist, sind.\\\",\\\"Ich bin ass eng konjugéiert Form; sein ass den Infinitiv.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sein\\\",\\\"ich bin\\\",\\\"du bist\\\",\\\"er ist\\\",\\\"wir sind\\\"],\\\"purple\\\":[\\\"sinn\\\",\\\"Plaz\\\",\\\"Eegenschaft\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bin\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sinn\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"bist\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bass\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"ist\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"ass\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sind\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sinn\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sein\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sinn\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"bin\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"haben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hunn\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"habe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"werden\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"ginn\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"werde\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"bleiben\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"bleiwen\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"bleibe\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"ich bin\\\",\\\"du bist\\\"],\\\"purple\\\":[\\\"ech sinn\\\",\\\"du bass\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sein\\\",\\\"bin\\\",\\\"bist\\\",\\\"ist\\\",\\\"sind\\\"]},{\\\"blue\\\":[\\\"Ich bin\\\",\\\"sein\\\"],\\\"purple\\\":[\\\"konjugéiert Form\\\",\\\"Infinitiv\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: sein|idx:542."
+  },
+  "g2/a1/lb|seit|idx:543|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "zënter",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: seit|idx:543."
+  },
+  "g2/a1/lb|Seite|idx:544|study|CORRUPTED_CONTENT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Säit\",\"study.translation\":\"Säit\",\"study.explanation\":\"[\\\"Haaptiddi: die Seite kann eng Säit an engem Buch oder Dokument an och eng Säit vun enger Saach bedeiten.\\\",\\\"An engem Buch, Magazin oder op enger Websäit bedeit die Seite eng Säit (Seite 5 = Säit 5).\\\",\\\"Bei enger Plaz bedeit die Seite och Säit (auf der linken Seite = op der lénker Säit).\\\",\\\"Am iwwerdroene Sënn kann die Seite eng Säit an engem Sträit oder eng Ënnerstëtzung bezeechnen (auf meiner Seite = op menger Säit).\\\",\\\"De Kontext — Buch a Liesen oder Plaz a Bezéiung — weist déi gemengte Bedeitung.\\\",\\\"De Pluriel ass fir all dës Bedeitungen die Seiten; op Lëtzebuergesch: d'Säiten.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Schlagt die Seite zwanzig auf.\\\",\\\"lv\\\":\\\"Schlot d'Säit zwanzeg op.\\\"},{\\\"de\\\":\\\"Auf der linken Seite ist ein Park.\\\",\\\"lv\\\":\\\"Op der lénker Säit ass e Park.\\\"},{\\\"de\\\":\\\"Die Webseite lädt langsam.\\\",\\\"lv\\\":\\\"D’Websäit luet lues.\\\"},{\\\"de\\\":\\\"Er steht auf meiner Seite.\\\",\\\"lv\\\":\\\"Hie steet op menger Säit.\\\"},{\\\"de\\\":\\\"Das Buch hat 200 Seiten.\\\",\\\"lv\\\":\\\"D’Buch huet 200 Säiten.\\\"},{\\\"de\\\":\\\"Auf der anderen Seite der Straße.\\\",\\\"lv\\\":\\\"Op där anerer Säit vun der Strooss.\\\"}]\",\"study.tip\":\"[\\\"Beim Däitsche weist de Kontext, ob Seite eng Buchsäit, eng räimlech Säit oder eng Säit an enger Meenungsverschiddenheet ass.\\\",\\\"Seite X an engem Buch ass eng Säit am Buch.\\\"]\",\"study.important\":\"[\\\"die Seite huet méi wéi eng Bedeitung; op Lëtzebuergesch deckt Säit dës Bedeitungen of.\\\",\\\"De Pluriel ass die Seiten; op Lëtzebuergesch: d'Säiten.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"die Seite\\\",\\\"Seite\\\"],\\\"purple\\\":[\\\"Säit\\\",\\\"Säiten\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Säit\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Säit\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Webseite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Websäit\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Säit\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Seiten\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Säiten\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Seite\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Säit\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"Seite\\\"],\\\"purple\\\":[\\\"Buchsäit\\\"],\\\"green\\\":[\\\"räimlech Säit\\\"]},{\\\"blue\\\":[\\\"Seite X\\\"],\\\"purple\\\":[\\\"Säit\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"die Seite\\\"],\\\"purple\\\":[\\\"Säit\\\"]},{\\\"blue\\\":[\\\"die Seiten\\\"],\\\"purple\\\":[\\\"Säiten\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: Seite|idx:544."
+  },
+  "g2/a1/lb|September|idx:546|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "September",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: September|idx:546."
+  },
+  "g2/a1/lb|sich|idx:547|lv; study|CORRUPTED_CONTENT|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sech\",\"study.translation\":\"sech\",\"study.explanation\":\"[\\\"Haaptiddi: sich weist, datt d’Handlung op déi Persoun zeréckgeet, déi se mécht.\\\",\\\"Op Lëtzebuergesch entsprécht sich meeschtens sech.\\\",\\\"Bei verschiddenen däitsche Verben ass sich en obligatoreschen Deel, zum Beispill sich waschen.\\\",\\\"Um Niveau A1 ass wichteg: ich wasche mich, er wäscht sich; op Lëtzebuergesch: ech wäsche mech, hie wäscht sech.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Er wäscht sich.\\\",\\\"lv\\\":\\\"Hie wäscht sech.\\\"},{\\\"de\\\":\\\"Ich setze mich.\\\",\\\"lv\\\":\\\"Ech setzen mech.\\\"},{\\\"de\\\":\\\"Sie freut sich.\\\",\\\"lv\\\":\\\"Si freet sech.\\\"},{\\\"de\\\":\\\"Ich wasche das Auto.\\\",\\\"lv\\\":\\\"Ech wäschen den Auto.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sich\\\",\\\"meaning\\\":\\\"sech\\\",\\\"example\\\":\\\"Er wäscht sich. – Hie wäscht sech.\\\"},{\\\"word\\\":\\\"mich\\\",\\\"meaning\\\":\\\"mech bei ich\\\",\\\"example\\\":\\\"Ich wasche mich. – Ech wäsche mech.\\\"},{\\\"word\\\":\\\"dich\\\",\\\"meaning\\\":\\\"dech bei du\\\",\\\"example\\\":\\\"Du wäschst dich. – Du wäschs dech.\\\"},{\\\"word\\\":\\\"ihn\\\",\\\"meaning\\\":\\\"hien\\\",\\\"example\\\":\\\"Ich sehe ihn. – Ech gesinn hien.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: d’Handlung geet op ee selwer zeréck → sich, mich oder dich, jee no Persoun.\\\"}\",\"study.important\":\"[\\\"sich ass kee Substantiv, mee e Reflexivpronomen.\\\",\\\"D’Form ännert sech mat der Persoun: ich → mich, du → dich, er/sie/es → sich.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sich\\\",\\\"ich wasche mich\\\",\\\"er wäscht sich\\\"],\\\"purple\\\":[\\\"sech\\\",\\\"mech\\\"],\\\"red\\\":[\\\"sich waschen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sech\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"mich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"mech\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sich\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sech\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"wasche\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"wäschen\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sech\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"mich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"mech\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"mich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"dich\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"dech\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"dich\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"ihn\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"hien\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"ihn\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sich\\\",\\\"mich\\\",\\\"dich\\\"],\\\"purple\\\":[\\\"ee selwer\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sich\\\"],\\\"red\\\":[\\\"Substantiv\\\"],\\\"purple\\\":[\\\"Reflexivpronomen\\\"]},{\\\"green\\\":[\\\"mich\\\",\\\"dich\\\"],\\\"blue\\\":[\\\"sich\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: sich|idx:547."
+  },
+  "g2/a1/lb|sicher|idx:548|study|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sécher • bestëmmt\",\"study.translation\":\"sécher • bestëmmt\",\"study.explanation\":\"[\\\"Haaptiddi: sicher bedeit als Adjektiv sécher; als Adverb kann et bestëmmt oder sécherlech bedeiten.\\\",\\\"Bei enger Plaz, enger Situatioun oder enger Persoun bedeit sicher sécher (ein sicherer Ort = eng sécher Plaz).\\\",\\\"Als Bestätegung oder Ausdrock vu Gewëssheet bedeit sicher bestëmmt oder sécherlech (Das ist sicher wahr. = Dat ass bestëmmt wouer.).\\\",\\\"Sicher! als eleng stoend Äntwert bedeit Bestëmmt! oder Sécher!\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ist das Wasser sicher?\\\",\\\"lv\\\":\\\"Ass d’Waasser sécher?\\\"},{\\\"de\\\":\\\"Kommst du morgen? – Sicher!\\\",\\\"lv\\\":\\\"Kënns du muer? – Bestëmmt!\\\"},{\\\"de\\\":\\\"Er ist sicher zu Hause.\\\",\\\"lv\\\":\\\"Hien ass bestëmmt doheem.\\\"},{\\\"de\\\":\\\"Das ist eine sichere Lösung.\\\",\\\"lv\\\":\\\"Dat ass eng sécher Léisung.\\\"},{\\\"de\\\":\\\"Ich bin mir sicher.\\\",\\\"lv\\\":\\\"Ech si mer sécher.\\\"},{\\\"de\\\":\\\"Fahr sicher!\\\",\\\"lv\\\":\\\"Fuer sécher!\\\"}]\",\"study.tip\":\"[\\\"Bei enger Plaz oder Situatioun a Bezuch op Sécherheet → sécher.\\\",\\\"Als Gewëssheet oder Bestätegung am Saz → bestëmmt oder sécherlech.\\\"]\",\"study.important\":\"[\\\"sicher = sécher als Adjektiv, oder bestëmmt/sécherlech als Adverb.\\\",\\\"sich sicher sein = sech sécher sinn.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sicher\\\",\\\"ein sicherer Ort\\\",\\\"Das ist sicher wahr\\\"],\\\"purple\\\":[\\\"sécher\\\",\\\"bestëmmt\\\",\\\"sécherlech\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sécher\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Bestëmmt\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"bestëmmt\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sichere\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sécher\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sécher\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sicher\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sécher\\\"]}}],\\\"tip\\\":[{\\\"purple\\\":[\\\"Sécherheet\\\",\\\"sécher\\\"]},{\\\"purple\\\":[\\\"Gewëssheet\\\",\\\"bestëmmt\\\",\\\"sécherlech\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"sicher\\\"],\\\"purple\\\":[\\\"sécher\\\",\\\"bestëmmt\\\",\\\"sécherlech\\\"]},{\\\"blue\\\":[\\\"sich sicher sein\\\"],\\\"purple\\\":[\\\"sech sécher sinn\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: sicher|idx:548."
+  },
+  "g2/a1/lb|sie|idx:549|study|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"si\",\"study.translation\":\"si\",\"study.explanation\":\"[\\\"Haaptiddi: sie mat engem Verb am Pluriel bezitt sech op méi Leit; op Lëtzebuergesch heescht et si.\\\",\\\"sie mat engem Verb am Singulier kann eng eenzeg Fra bezeechnen; och do heescht et op Lëtzebuergesch si.\\\",\\\"D’Verbform hëlleft z’ënnerscheeden: kocht oder isst ass Singulier, kochen oder spielen ass Pluriel.\\\",\\\"Déi héiflech däitsch Uried Sie gëtt ëmmer mat groussem S geschriwwen an entsprécht dem lëtzebuergeschen Dir.\\\",\\\"Um Ufank vum Saz steet och de Pronome sie automatesch mat groussem S; dofir sinn d’Verbform an de Kontext entscheedend.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"Si kachen.\\\"},{\\\"de\\\":\\\"Sie kocht.\\\",\\\"lv\\\":\\\"Si kacht.\\\"},{\\\"de\\\":\\\"Sie isst.\\\",\\\"lv\\\":\\\"Si ësst.\\\"},{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"Si kachen.\\\"},{\\\"de\\\":\\\"Sie spielen Fußball.\\\",\\\"lv\\\":\\\"Si spille Fussball.\\\"},{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Dir kacht, wann ech gelift.\\\"}]\",\"study.tip\":\"[\\\"Bei sie weist d’Verbform dacks d’Bedeitung: -t fir eng Fra, -en fir méi Leit.\\\",\\\"Déi héiflech Uried ass am Däitschen Sie a gëtt op Lëtzebuergesch mat Dir iwwersat.\\\"]\",\"study.important\":\"[\\\"sie am Pluriel = si; sie am weibleche Singulier = och si.\\\",\\\"Héiflech Uried: Sie kochen. = Dir kacht. D’Verb an de Kontext ënnerscheeden d’Bedeitungen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sie\\\",\\\"kochen\\\",\\\"spielen\\\"],\\\"yellow\\\":[\\\"Sie\\\",\\\"Dir\\\"],\\\"purple\\\":[\\\"si\\\",\\\"Singulier\\\",\\\"Pluriel\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"green\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"kachen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Sie\\\",\\\"kocht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"kacht\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Sie\\\",\\\"isst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"ësst\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"kachen\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Sie\\\",\\\"spielen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"spille\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"yellow\\\":[\\\"Dir\\\",\\\"kacht\\\"]}}],\\\"tip\\\":[{\\\"blue\\\":[\\\"sie\\\"],\\\"purple\\\":[\\\"-t\\\",\\\"-en\\\"]},{\\\"yellow\\\":[\\\"Sie\\\",\\\"Dir\\\"]}],\\\"important\\\":[{\\\"blue\\\":[\\\"sie\\\"],\\\"purple\\\":[\\\"si\\\",\\\"Singulier\\\",\\\"Pluriel\\\"]},{\\\"yellow\\\":[\\\"Sie kochen\\\",\\\"Dir kacht\\\"],\\\"purple\\\":[\\\"Verb\\\",\\\"Kontext\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: sie|idx:549."
+  },
+  "g2/a1/lb|Sie|idx:550|study|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"Dir\",\"study.translation\":\"Dir\",\"study.explanation\":\"[\\\"Haaptiddi: Sie ass déi héiflech däitsch Uried a gëtt ëmmer mat groussem S geschriwwen; op Lëtzebuergesch entsprécht se Dir.\\\",\\\"Déi héiflech Form Sie steet am Däitsche mat enger Verbform am Pluriel, zum Beispill Sie kochen.\\\",\\\"D’Pronome sie kann och eng Fra oder méi Leit bezeechnen.\\\",\\\"Bei enger Fra steet d’Verb am Singulier, zum Beispill Sie kocht oder Sie isst.\\\",\\\"Bei méi Leit steet d’Verb am Pluriel, zum Beispill Sie kochen oder Sie spielen.\\\",\\\"Um Ufank vum Saz kann een d’Bedeitung net eleng un der Groussschreiwung erkennen; d’Verbform an de Kontext entscheeden.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Dir kacht, wann ech gelift.\\\"},{\\\"de\\\":\\\"Sie kocht.\\\",\\\"lv\\\":\\\"Si kacht.\\\"},{\\\"de\\\":\\\"Sie isst.\\\",\\\"lv\\\":\\\"Si ësst.\\\"},{\\\"de\\\":\\\"Sie kochen.\\\",\\\"lv\\\":\\\"Si kachen.\\\"},{\\\"de\\\":\\\"Sie spielen Fußball.\\\",\\\"lv\\\":\\\"Si spille Fussball.\\\"},{\\\"de\\\":\\\"Sie kochen, bitte.\\\",\\\"lv\\\":\\\"Dir kacht, wann ech gelift.\\\"}]\",\"study.tip\":\"[\\\"Héiflech Uried: Sie mat groussem S; op Lëtzebuergesch: Dir.\\\",\\\"Bei engem Sazufank weisen d’Verbform an de Kontext, ob Sie eng Fra, méi Leit oder déi héiflech Uried bedeit.\\\"]\",\"study.important\":\"[\\\"Déi héiflech Uried gëtt am Däitschen ëmmer Sie geschriwwen.\\\",\\\"Eng Fra: Sie kocht. Méi Leit: Sie kochen. Héiflech Uried: Sie kochen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"Dir\\\"],\\\"purple\\\":[\\\"Singulier\\\",\\\"Pluriel\\\"],\\\"blue\\\":[\\\"sie\\\",\\\"Verbform\\\",\\\"Kontext\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"yellow\\\":[\\\"Dir\\\",\\\"kacht\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Sie\\\",\\\"kocht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"kacht\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"Sie\\\",\\\"isst\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"ësst\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"kachen\\\"]}},{\\\"de\\\":{\\\"green\\\":[\\\"Sie\\\",\\\"spielen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"Si\\\",\\\"spille\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"Sie\\\",\\\"kochen\\\"]},\\\"lv\\\":{\\\"yellow\\\":[\\\"Dir\\\",\\\"kacht\\\"]}}],\\\"tip\\\":[{\\\"yellow\\\":[\\\"Sie\\\",\\\"Dir\\\"]},{\\\"blue\\\":[\\\"Verbform\\\",\\\"Kontext\\\"],\\\"purple\\\":[\\\"Fra\\\",\\\"Leit\\\"]}],\\\"important\\\":[{\\\"yellow\\\":[\\\"Sie\\\"]},{\\\"blue\\\":[\\\"Sie kocht\\\"],\\\"green\\\":[\\\"Sie kochen\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: Sie|idx:550."
+  },
+  "g2/a1/lb|siebenhundert|idx:551|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siwenhonnert",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: siebenhundert|idx:551."
+  },
+  "g2/a1/lb|siebente|idx:552|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siwenten",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: siebente|idx:552."
+  },
+  "g2/a1/lb|siebzehn|idx:553|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siwwenzéng",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: siebzehn|idx:553."
+  },
+  "g2/a1/lb|siebzehnte|idx:554|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siwwenzéngten",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: siebzehnte|idx:554."
+  },
+  "g2/a1/lb|siebzig|idx:555|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siwwenzeg",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: siebzig|idx:555."
+  },
+  "g2/a1/lb|siebzigste|idx:556|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "siwwenzegsten",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: siebzigste|idx:556."
+  },
+  "g2/a1/lb|singen|idx:557|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sangen",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: singen|idx:557."
+  },
+  "g2/a1/lb|sitzen|idx:558|study|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sëtzen\",\"study.translation\":\"sëtzen\",\"study.explanation\":\"[\\\"Haaptiddi: sitzen bedeit sëtzen.\\\",\\\"sitzen gëtt fir e Mënsch oder en Déier benotzt, deen oder dat sëtzt.\\\",\\\"Heiansdo kann sitzen och bedeiten, op enger bestëmmter Plaz ze sinn; um Niveau A1 ass d’Haaptbedeitung sëtzen.\\\",\\\"Wichteg ass den Ënnerscheed: sitzen = sëtzen, stehen = stoen, liegen = leien.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich sitze am Tisch.\\\",\\\"lv\\\":\\\"Ech sëtzen um Dësch.\\\"},{\\\"de\\\":\\\"Die Kinder sitzen im Bus.\\\",\\\"lv\\\":\\\"D’Kanner sëtzen am Bus.\\\"},{\\\"de\\\":\\\"Er steht an der Tür.\\\",\\\"lv\\\":\\\"Hie steet bei der Dier.\\\"},{\\\"de\\\":\\\"Die Katze liegt auf dem Sofa.\\\",\\\"lv\\\":\\\"D’Kaz läit um Canapé.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sitzen\\\",\\\"meaning\\\":\\\"sëtzen\\\",\\\"example\\\":\\\"Ich sitze am Tisch. – Ech sëtzen um Dësch.\\\"},{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"stoen\\\",\\\"example\\\":\\\"Er steht an der Tür. – Hie steet bei der Dier.\\\"},{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"leien\\\",\\\"example\\\":\\\"Die Katze liegt dort. – D’Kaz läit do.\\\"},{\\\"word\\\":\\\"setzen\\\",\\\"meaning\\\":\\\"sech setzen oder een eppes setzen\\\",\\\"example\\\":\\\"Ich setze mich. – Ech setze mech.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: sëtzend → sitzen; stoend → stehen; leiend → liegen.\\\"}\",\"study.important\":\"[\\\"sitzen beschreift den Zoustand „sëtzen“.\\\",\\\"Sech setzen heescht sich setzen, net sitzen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"sëtzen\\\",\\\"sëtzt\\\"],\\\"red\\\":[\\\"stehen\\\",\\\"liegen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"sitze\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sëtzen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sitzen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sëtzen\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"steht\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"steet\\\"]}},{\\\"de\\\":{\\\"yellow\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"yellow\\\":[\\\"läit\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sitzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sëtzen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"sitze\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"stoen\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"steht\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"liegen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"leien\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"liegt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"setzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sech setzen\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"setze\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"sëtzend\\\"],\\\"red\\\":[\\\"stehen\\\"],\\\"yellow\\\":[\\\"liegen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"sitzen\\\"],\\\"purple\\\":[\\\"sëtzen\\\"]},{\\\"green\\\":[\\\"Sech setzen\\\",\\\"sich setzen\\\"],\\\"blue\\\":[\\\"sitzen\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: sitzen|idx:558."
+  },
+  "g2/a1/lb|so|idx:559|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "esou",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: so|idx:559."
+  },
+  "g2/a1/lb|Socke|idx:560|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Strëmp",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Socke|idx:560."
+  },
+  "g2/a1/lb|Sofa|idx:561|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Canapé",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Sofa|idx:561."
+  },
+  "g2/a1/lb|sofort|idx:562|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "direkt",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: sofort|idx:562."
+  },
+  "g2/a1/lb|Sohn|idx:563|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Jong",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Sohn|idx:563."
+  },
+  "g2/a1/lb|sollen|idx:564|study|CONTENT_CORRUPTION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"sollen\",\"study.translation\":\"sollen\",\"study.explanation\":\"[\\\"Haaptiddi: sollen weist, datt een eppes no enger Uweisung oder Erwaardung maache soll.\\\",\\\"sollen gëtt dacks benotzt, wann eng aner Persoun seet, wat ze maachen ass.\\\",\\\"Et ass net esou staark wéi müssen.\\\",\\\"E ganz heefegen Ausdrock ass Was soll ich machen? = Wat soll ech maachen?\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Was soll ich machen?\\\",\\\"lv\\\":\\\"Wat soll ech maachen?\\\"},{\\\"de\\\":\\\"Du sollst kommen.\\\",\\\"lv\\\":\\\"Du solls kommen.\\\"},{\\\"de\\\":\\\"Ich soll zu Hause bleiben.\\\",\\\"lv\\\":\\\"Ech soll doheem bleiwen.\\\"},{\\\"de\\\":\\\"Ich muss jetzt gehen.\\\",\\\"lv\\\":\\\"Ech muss elo goen.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"sollen\\\",\\\"meaning\\\":\\\"sollen; eppes no enger Uweisung maachen\\\",\\\"example\\\":\\\"Was soll ich machen? – Wat soll ech maachen?\\\"},{\\\"word\\\":\\\"müssen\\\",\\\"meaning\\\":\\\"mussen; eppes ass obligatoresch\\\",\\\"example\\\":\\\"Ich muss gehen. – Ech muss goen.\\\"},{\\\"word\\\":\\\"können\\\",\\\"meaning\\\":\\\"kënnen\\\",\\\"example\\\":\\\"Ich kann kommen. – Ech ka kommen.\\\"},{\\\"word\\\":\\\"wollen\\\",\\\"meaning\\\":\\\"wëllen\\\",\\\"example\\\":\\\"Ich will bleiben. – Ech wëll bleiwen.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: eng Uweisung oder Erwaardung → sollen; eng Noutwendegkeet → müssen.\\\"}\",\"study.important\":\"[\\\"Was soll ich machen? ass e ganz heefegen Ausdrock.\\\",\\\"sollen a müssen bedeiten net genee dat selwecht.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"sollen\\\",\\\"Was soll ich machen\\\"],\\\"purple\\\":[\\\"Uweisung\\\",\\\"Erwaardung\\\"],\\\"red\\\":[\\\"müssen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"soll\\\",\\\"machen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"soll\\\",\\\"maachen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"sollst\\\",\\\"kommen\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"solls\\\",\\\"kommen\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"soll\\\",\\\"bleiben\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"soll\\\",\\\"bleiwen\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"muss\\\",\\\"gehen\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"muss\\\",\\\"goen\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"sollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"Uweisung\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"soll\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"müssen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"obligatoresch\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"muss\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"können\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"kënnen\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"kann\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"wollen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"wëllen\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"will\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"sollen\\\"],\\\"purple\\\":[\\\"Uweisung\\\",\\\"Erwaardung\\\"],\\\"red\\\":[\\\"müssen\\\",\\\"Noutwendegkeet\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"Was soll ich machen\\\"]},{\\\"blue\\\":[\\\"sollen\\\"],\\\"red\\\":[\\\"müssen\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: sollen|idx:564."
+  },
+  "g2/a1/lb|Sommer|idx:565|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Summer",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Sommer|idx:565."
+  },
+  "g2/a1/lb|Samstag|idx:566|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Samschdeg",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Samstag|idx:566."
+  },
+  "g2/a1/lb|Sonne|idx:567|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sonn",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Sonne|idx:567."
+  },
+  "g2/a1/lb|Sonntag|idx:568|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sonndeg",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Sonntag|idx:568."
+  },
+  "g2/a1/lb|spät|idx:569|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "spéit",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: spät|idx:569."
+  },
+  "g2/a1/lb|spazieren gehen|idx:570|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "spadséiere goen",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: spazieren gehen|idx:570."
+  },
+  "g2/a1/lb|Spiel|idx:571|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Spill",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Spiel|idx:571."
+  },
+  "g2/a1/lb|spielen|idx:572|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "spillen",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: spielen|idx:572."
+  },
+  "g2/a1/lb|Spielzeug|idx:573|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Spillsaach",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Spielzeug|idx:573."
+  },
+  "g2/a1/lb|Sprache|idx:574|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Sprooch",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Sprache|idx:574."
+  },
+  "g2/a1/lb|stark|idx:575|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "staark",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: stark|idx:575."
+  },
+  "g2/a1/lb|stehen|idx:576|lv, study|TARGET_TRANSLATION_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"stoen\",\"study.translation\":\"stoen\",\"study.explanation\":\"[\\\"Haaptiddi: stehen bedeit stoen oder sech an enger oprechter Positioun befannen.\\\",\\\"Bei engem Mënsch bedeit stehen stoen.\\\",\\\"Bei engem Géigestand bedeit stehen, datt en oprecht oder op enger bestëmmter Plaz steet.\\\",\\\"Wichteg ass den Ënnerscheed: stehen = stoen, sitzen = sëtzen, liegen = leien.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich stehe an der Tür.\\\",\\\"lv\\\":\\\"Ech sti bei der Dier.\\\"},{\\\"de\\\":\\\"Der Stuhl steht in der Küche.\\\",\\\"lv\\\":\\\"De Stull steet an der Kichen.\\\"},{\\\"de\\\":\\\"Er sitzt am Tisch.\\\",\\\"lv\\\":\\\"Hie sëtzt um Dësch.\\\"},{\\\"de\\\":\\\"Das Buch liegt auf dem Tisch.\\\",\\\"lv\\\":\\\"D’Buch läit um Dësch.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"stehen\\\",\\\"meaning\\\":\\\"stoen\\\",\\\"example\\\":\\\"Ich stehe hier. – Ech stinn hei.\\\"},{\\\"word\\\":\\\"sitzen\\\",\\\"meaning\\\":\\\"sëtzen\\\",\\\"example\\\":\\\"Er sitzt am Tisch. – Hie sëtzt um Dësch.\\\"},{\\\"word\\\":\\\"liegen\\\",\\\"meaning\\\":\\\"leien\\\",\\\"example\\\":\\\"Das Buch liegt dort. – D’Buch läit do.\\\"},{\\\"word\\\":\\\"stellen\\\",\\\"meaning\\\":\\\"stellen; eppes opriichten oder dohinner stellen\\\",\\\"example\\\":\\\"Ich stelle die Flasche hin. – Ech stellen d’Fläsch dohinner.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Denk drun: oprecht → stehen; sëtzend → sitzen; leiend → liegen.\\\"}\",\"study.important\":\"[\\\"stehen beschreift en Zoustand, net d’Handlung „eppes dohinner stellen“.\\\",\\\"E Géigestand opriichten oder dohinner stellen heescht stellen, net stehen.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"stehen\\\"],\\\"purple\\\":[\\\"stoen\\\",\\\"oprechter Positioun\\\"],\\\"red\\\":[\\\"sitzen\\\",\\\"liegen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"stehe\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"sti\\\"]}},{\\\"de\\\":{\\\"blue\\\":[\\\"steht\\\"]},\\\"lv\\\":{\\\"purple\\\":[\\\"steet\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"sitzt\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"sëtzt\\\"]}},{\\\"de\\\":{\\\"red\\\":[\\\"liegt\\\"]},\\\"lv\\\":{\\\"red\\\":[\\\"läit\\\"]}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"stehen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"stoen\\\"]},\\\"example\\\":{\\\"blue\\\":[\\\"stehe\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"sitzen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"sëtzen\\\"]},\\\"example\\\":{\\\"red\\\":[\\\"sitzt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"liegen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"leien\\\"]},\\\"example\\\":{\\\"yellow\\\":[\\\"liegt\\\"]}},{\\\"word\\\":{\\\"green\\\":[\\\"stellen\\\"]},\\\"meaning\\\":{\\\"purple\\\":[\\\"stellen\\\"]},\\\"example\\\":{\\\"green\\\":[\\\"stelle\\\"]}}],\\\"tip\\\":{\\\"left\\\":{\\\"blue\\\":[\\\"stehen\\\"],\\\"purple\\\":[\\\"oprecht\\\"],\\\"red\\\":[\\\"sitzen\\\"],\\\"yellow\\\":[\\\"liegen\\\"]}},\\\"important\\\":[{\\\"blue\\\":[\\\"stehen\\\"],\\\"purple\\\":[\\\"Zoustand\\\"],\\\"green\\\":[\\\"stellen\\\"]},{\\\"green\\\":[\\\"stellen\\\"],\\\"blue\\\":[\\\"stehen\\\"]}]}\"}",
+    "owner_note": "LRB-067 OWNER mapping full_card_target_fields: stehen|idx:576."
+  },
+  "g2/a1/lb|Stern|idx:577|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Stär",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Stern|idx:577."
+  },
+  "g2/a1/lb|Straße|idx:578|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Strooss",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Straße|idx:578."
+  },
+  "g2/a1/lb|Straßenbahn|idx:579|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Tram",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Straßenbahn|idx:579."
+  },
+  "g2/a1/lb|Stück|idx:580|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Stéck",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Stück|idx:580."
+  },
+  "g2/a1/lb|Student|idx:581|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Student",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Student|idx:581."
+  },
+  "g2/a1/lb|Stuhl|idx:582|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Stull",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Stuhl|idx:582."
+  },
+  "g2/a1/lb|Stunde|idx:583|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Stonn",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Stunde|idx:583."
+  },
+  "g2/a1/lb|suchen|idx:584|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sichen",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: suchen|idx:584."
+  },
+  "g2/a1/lb|süß|idx:585|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "séiss",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: süß|idx:585."
+  },
+  "g2/a1/lb|Tag|idx:586|lv|MISSING_TRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "Dag",
+    "owner_note": "LRB-067 OWNER mapping scalar lv: Tag|idx:586."
+  }
+}
