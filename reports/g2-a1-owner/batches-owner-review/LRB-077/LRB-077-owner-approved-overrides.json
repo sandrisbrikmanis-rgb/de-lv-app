@@ -1,0 +1,3038 @@
+{
+  "batchId": "LRB-077",
+  "sourceCommit": "0755e48fad886ccbe4ee5ee5d23e5bab490b9018",
+  "reviewer": "GPT-5.6 Luna",
+  "reviewType": "FULL_50_50_OWNER_APPROVED_OVERRIDES_COPY_PASTE",
+  "cards": [
+    {
+      "auditId": "LRB077-0001",
+      "cardId": "Ferien|idx:694",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Ferien» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Ferien",
+        "lv": "ferie szkolne • wakacje",
+        "level": "A1",
+        "de_article": "die",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "ferie szkolne • wakacje",
+          "explanation": [
+            "Główna idea: die Ferien oznacza ferie lub wakacje szkolne i występuje wyłącznie w liczbie mnogiej.",
+            "Wyrażenie die Ferien odnosi się przede wszystkim do przerwy w nauce w szkole lub na uczelni.",
+            "W konstrukcji in den Ferien używa się celownika liczby mnogiej.",
+            "Urlop pracownika to zwykle der Urlaub, natomiast przerwa szkolna to die Ferien."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "W czasie wakacji jedziemy nad morze."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "W czasie ferii mam dużo czasu."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Co robicie w czasie ferii?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "Szkoła jest zamknięta w czasie ferii."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "W czasie wakacji jedziemy nad morze."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "w czasie ferii szkolnych"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "ferie lub wakacje szkolne (tylko liczba mnoga)",
+              "example": "In den Ferien fahren wir weg. – W czasie ferii wyjeżdżamy."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "urlop od pracy (liczba pojedyncza)",
+              "example": "Ich habe zwei Wochen Urlaub. – Mam dwa tygodnie urlopu."
+            }
+          ],
+          "tip": [
+            "die Ferien występuje tylko w liczbie mnogiej.",
+            "Używaj die Ferien w kontekście przerwy szkolnej lub akademickiej."
+          ],
+          "important": [
+            "Poprawnie: in den Ferien.",
+            "Niepoprawnie: in der Ferien; poprawnie: in den Ferien.",
+            "Przerwa szkolna: die Ferien (tylko liczba mnoga).",
+            "Urlop od pracy to der Urlaub."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0002",
+      "cardId": "fernsehen|idx:687",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «fernsehen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "fernsehen",
+        "lv": "oglądać telewizję",
+        "level": "A1",
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "oglądać telewizję",
+          "explanation": "Główna idea: fernsehen to czasownik rozdzielnie złożony oznaczający oglądać telewizję: ich sehe fern, du siehst fern. Nie należy go mylić z rzeczownikiem das Fernsehen, czyli telewizją jako medium lub programem.",
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Dziś wieczorem oglądam telewizję."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Czy często oglądasz telewizję?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "Dzieci oglądają telewizję po południu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "oglądać telewizję",
+              "example": "Ich sehe fern. – Oglądam telewizję."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "telewizja jako medium lub program",
+              "example": "Im Fernsehen läuft ein Film. – W telewizji leci film."
+            },
+            {
+              "word": "sehen",
+              "meaning": "widzieć lub oglądać coś",
+              "example": "Ich sehe einen Film. – Oglądam film."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Czynność wyraża fernsehen (ich sehe fern), a medium lub program telewizyjny — das Fernsehen."
+              }
+            ]
+          },
+          "important": {
+            "text": "fernsehen jest czasownikiem rozdzielnie złożonym; das Fernsehen jest rzeczownikiem używanym tylko w liczbie pojedynczej."
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0003",
+      "cardId": "Fernsehen|idx:688",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Fernsehen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Fernsehen",
+        "lv": "telewizja",
+        "level": "A1",
+        "de_article": "das",
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "telewizja",
+          "explanation": [
+            "Główna idea: das Fernsehen to rzeczownik oznaczający telewizję jako medium lub program; używa się go tylko w liczbie pojedynczej.",
+            "W pytaniu Was gibt es heute im Fernsehen? chodzi o to, co jest dziś w telewizji.",
+            "Jako rzeczownik Fernsehen pisze się wielką literą i łączy z rodzajnikiem das.",
+            "Wyrażenie im Fernsehen oznacza w telewizji.",
+            "Czynność oglądania telewizji wyraża czasownik fernsehen.",
+            "Czasownik fernsehen jest rozdzielnie złożony: ich sehe fern, du siehst fern.",
+            "Rzeczownik das Fernsehen nie ma formy liczby mnogiej."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Co jest dziś w telewizji?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Co jest dziś w telewizji?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "W telewizji leci film."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "Program telewizyjny jest dziś nudny."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Dziś wieczorem oglądam telewizję."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Co jest w telewizji?"
+            }
+          ],
+          "tip": [
+            "Czynność: fernsehen (ich sehe fern). Medium lub program: das Fernsehen.",
+            "das Fernsehen jest rzeczownikiem używanym tylko w liczbie pojedynczej."
+          ],
+          "important": [
+            "fernsehen jest czasownikiem rozdzielnie złożonym: sehen + fern.",
+            "Nie ma formy *die Fernsehen.",
+            "Niepoprawnie: die Fernsehen; poprawnie: das Fernsehen.",
+            "Czynność: fernsehen → ich sehe fern."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0004",
+      "cardId": "finden|idx:187",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «finden» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "finden",
+        "lv": "znajdować • uważać",
+        "level": "A1",
+        "study": {
+          "id": "a1-finden",
+          "layout": "standardStudy",
+          "translation": "znajdować • uważać",
+          "explanation": [
+            "Główna idea: finden najczęściej oznacza znajdować lub znaleźć.",
+            "W wypowiedziach o opinii finden oznacza uważać, sądzić albo oceniać coś w określony sposób.",
+            "Przy zagubionej rzeczy tłumaczymy finden jako znaleźć.",
+            "W pytaniu Wie findest du ...? chodzi o opinię: Co sądzisz o ...?"
+          ],
+          "examples": [
+            {
+              "de": "Ich finde meinen Schlüssel.",
+              "lv": "Znajduję swój klucz."
+            },
+            {
+              "de": "Ich finde das gut.",
+              "lv": "Uważam, że to jest dobre."
+            },
+            {
+              "de": "Wie findest du den Film?",
+              "lv": "Co sądzisz o tym filmie?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "finden",
+              "meaning": "znajdować • uważać",
+              "example": "Ich finde das gut. – Uważam, że to jest dobre."
+            }
+          ],
+          "tip": {
+            "text": "Zapamiętaj: zagubiona rzecz → finden = znaleźć; opinia → ich finde ... = uważam, że ..."
+          },
+          "important": [
+            "finden nie oznacza wyłącznie „znajdować”.",
+            "Ich finde das gut znaczy „Uważam, że to jest dobre”, a nie dosłownie „Znajduję to dobrze”."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0005",
+      "cardId": "Frau|idx:198",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Frau» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Frau",
+        "lv": "kobieta • żona",
+        "level": "A1",
+        "de_article": "die",
+        "de_plural": "die Frauen",
+        "study": {
+          "id": "a1-frau",
+          "layout": "standardStudy",
+          "translation": "kobieta • żona",
+          "explanation": [
+            "Główna idea: die Frau może oznaczać kobietę albo żonę, zależnie od kontekstu.",
+            "Bez określenia dzierżawczego die Frau lub eine Frau zwykle oznacza kobietę.",
+            "Z określeniem dzierżawczym meine/deine/seine Frau rzeczownik zwykle oznacza żonę.",
+            "Konstrukcja meine Frau niemal zawsze odnosi się do małżonki.",
+            "Liczba mnoga brzmi die Frauen.",
+            "Podobnie der Mann może oznaczać mężczyznę albo męża."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist eine nette Frau.",
+              "lv": "Ona jest miłą kobietą."
+            },
+            {
+              "de": "Das ist meine Frau.",
+              "lv": "To jest moja żona."
+            },
+            {
+              "de": "Wie viele Frauen sind hier?",
+              "lv": "Ile kobiet jest tutaj?"
+            },
+            {
+              "de": "Meine Frau arbeitet in Berlin.",
+              "lv": "Moja żona pracuje w Berlinie."
+            },
+            {
+              "de": "Die Frau trägt ein Kleid.",
+              "lv": "Kobieta ma na sobie sukienkę."
+            },
+            {
+              "de": "Seine Frau ist Ärztin.",
+              "lv": "Jego żona jest lekarką."
+            }
+          ],
+          "tip": [
+            "Z określeniem dzierżawczym meine/deine/seine Frau zwykle chodzi o żonę.",
+            "Bez określenia dzierżawczego die Frau lub eine Frau zwykle oznacza kobietę."
+          ],
+          "important": [
+            "die Frau = kobieta albo żona, zależnie od kontekstu.",
+            "meine Frau = moja żona.",
+            "Liczba mnoga: die Frauen."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0006",
+      "cardId": "für|idx:216",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «für» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "für",
+        "lv": "dla • za",
+        "level": "A1",
+        "study": {
+          "id": "a1-fuer",
+          "layout": "standardStudy",
+          "translation": "dla • za",
+          "explanation": [
+            "Główna idea: für to przyimek zawsze łączący się z biernikiem; po polsku najczęściej oznacza dla lub za.",
+            "Przy odbiorcy albo przeznaczeniu für zwykle tłumaczymy jako dla: für dich = dla ciebie.",
+            "Przy podziękowaniu, opłacie lub wymianie für często oznacza za: Danke für die Hilfe.",
+            "Niezależnie od znaczenia für zawsze wymaga biernika."
+          ],
+          "examples": [
+            {
+              "de": "Das ist für dich.",
+              "lv": "To jest dla ciebie."
+            },
+            {
+              "de": "Danke für die Hilfe.",
+              "lv": "Dziękuję za pomoc."
+            },
+            {
+              "de": "Ich kaufe ein Geschenk für meine Mutter.",
+              "lv": "Kupuję prezent dla mojej mamy."
+            },
+            {
+              "de": "Was bezahlst du für das Auto?",
+              "lv": "Ile płacisz za samochód?"
+            },
+            {
+              "de": "Das Buch ist für Kinder.",
+              "lv": "Ta książka jest dla dzieci."
+            },
+            {
+              "de": "Für heute ist das genug.",
+              "lv": "Na dziś wystarczy."
+            }
+          ],
+          "tip": [
+            "für zawsze łączy się z biernikiem.",
+            "Odbiorca lub przeznaczenie → dla; podziękowanie, opłata lub wymiana → za."
+          ],
+          "important": [
+            "für + biernik, na przykład für mich, für dich, für das Kind.",
+            "Danke für i bezahlen für tłumaczymy jako za, nie dla."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0007",
+      "cardId": "ganz|idx:219",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «ganz» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "ganz",
+        "lv": "cały • całkiem",
+        "level": "A1",
+        "study": {
+          "id": "a1-ganz-study",
+          "layout": "standardStudy",
+          "translation": "cały • całkiem",
+          "explanation": [
+            "Główna idea: ganz z rzeczownikiem oznacza cały lub całość.",
+            "Przed przymiotnikiem albo przysłówkiem ganz może znaczyć całkiem, zupełnie lub dość.",
+            "ganz nie jest tym samym co zaimek alles, czyli wszystko."
+          ],
+          "examples": [
+            {
+              "de": "Ich arbeite den ganzen Tag.",
+              "lv": "Pracuję cały dzień."
+            },
+            {
+              "de": "Das ganze Haus ist sauber.",
+              "lv": "Cały dom jest czysty."
+            },
+            {
+              "de": "Das ist ganz sicher.",
+              "lv": "To jest zupełnie pewne."
+            },
+            {
+              "de": "Das Essen ist ganz gut.",
+              "lv": "Jedzenie jest całkiem dobre."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ganz",
+              "meaning": "cały • zupełnie • całkiem",
+              "example": "der ganze Tag – cały dzień"
+            },
+            {
+              "word": "alles",
+              "meaning": "wszystko",
+              "example": "Alles ist gut. – Wszystko jest w porządku."
+            }
+          ],
+          "tip": [
+            "Przy rzeczowniku ganz często oznacza cały.",
+            "Przed przymiotnikiem lub przysłówkiem ganz często oznacza zupełnie, całkiem albo dość."
+          ],
+          "important": [
+            "der ganze Tag = cały dzień.",
+            "alles = wszystko jako zaimek."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0008",
+      "cardId": "geben|idx:223",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «geben» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "geben",
+        "lv": "dawać",
+        "level": "A1",
+        "study": {
+          "id": "a1-geben",
+          "layout": "standardStudy",
+          "translation": "dawać",
+          "explanation": [
+            "Główna idea: geben oznacza dawać.",
+            "geben opisuje przekazywanie czegoś innej osobie.",
+            "geben opisuje kierunek przeciwny do nehmen, czyli brać.",
+            "bekommen oznacza otrzymywać, a więc być odbiorcą."
+          ],
+          "examples": [
+            {
+              "de": "Gib mir bitte das Buch.",
+              "lv": "Daj mi proszę książkę."
+            },
+            {
+              "de": "Ich gebe dir meine Nummer.",
+              "lv": "Daję ci mój numer."
+            },
+            {
+              "de": "Ich nehme das Buch.",
+              "lv": "Biorę książkę."
+            },
+            {
+              "de": "Ich bekomme ein Geschenk.",
+              "lv": "Dostaję prezent."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "geben",
+              "meaning": "dawać",
+              "example": "Gib mir das Buch. – Daj mi książkę."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "brać",
+              "example": "Ich nehme das Buch. – Biorę książkę."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "dostawać • otrzymywać",
+              "example": "Ich bekomme ein Geschenk. – Dostaję prezent."
+            },
+            {
+              "word": "bringen",
+              "meaning": "przynosić",
+              "example": "Ich bringe dir das Buch. – Przynoszę ci książkę."
+            }
+          ],
+          "tip": {
+            "text": "Zapamiętaj kierunek: geben = dawać komuś; nehmen = brać dla siebie."
+          },
+          "important": [
+            "geben i nehmen opisują przeciwne kierunki.",
+            "bekommen oznacza dostawać lub otrzymywać, nie dawać."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0009",
+      "cardId": "gefallen|idx:225",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «gefallen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "gefallen",
+        "lv": "podobać się",
+        "level": "A1",
+        "study": {
+          "id": "a1-gefallen-study",
+          "layout": "standardStudy",
+          "translation": "podobać się",
+          "explanation": [
+            "Główna idea: gefallen odpowiada polskiemu podobać się i łączy osobę z celownikiem.",
+            "Rzecz, która się podoba, jest w niemieckim podmiotem zdania.",
+            "Osoba, której coś się podoba, występuje w celowniku: mir, dir, ihm, ihr, uns, euch, ihnen."
+          ],
+          "examples": [
+            {
+              "de": "Das gefällt mir.",
+              "lv": "To mi się podoba."
+            },
+            {
+              "de": "Gefällt dir das Kleid?",
+              "lv": "Czy podoba ci się ta sukienka?"
+            },
+            {
+              "de": "Der Film gefällt uns.",
+              "lv": "Ten film nam się podoba."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "gefallen",
+              "meaning": "podobać się • osoba w celowniku",
+              "example": "Das gefällt mir. – To mi się podoba."
+            },
+            {
+              "word": "mögen",
+              "meaning": "lubić",
+              "example": "Ich mag das. – Lubię to."
+            }
+          ],
+          "tip": [
+            "Zapamiętaj konstrukcję: Das gefällt mir.",
+            "Nie układaj niemieckiego zdania według polskiego szyku „ja lubię to”."
+          ],
+          "important": [
+            "gefallen łączy się z osobą w celowniku: mir, dir, ihm, ihr.",
+            "Das gefällt mir = To mi się podoba."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0010",
+      "cardId": "Gemüse|idx:692",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Gemüse» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Gemüse",
+        "lv": "warzywa",
+        "level": "A1",
+        "de_article": "das",
+        "study": {
+          "id": "a1-gemuese",
+          "layout": "standardStudy",
+          "translation": "warzywa",
+          "explanation": [
+            "Główna idea: das Gemüse oznacza warzywa jako ogólną kategorię i w niemieckim jest rzeczownikiem zbiorowym.",
+            "das Gemüse oznacza warzywa jako całość.",
+            "To rzeczownik rodzaju nijakiego używany zwykle tylko w liczbie pojedynczej."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Lubię jeść warzywa."
+            },
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Lubię jeść warzywa."
+            },
+            {
+              "de": "Das Gemüse ist frisch.",
+              "lv": "Warzywa są świeże."
+            },
+            {
+              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "lv": "Kupujemy warzywa na targu."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Lubię owoce i warzywa."
+            },
+            {
+              "de": "Ich esse Gemüse.",
+              "lv": "Jem warzywa."
+            }
+          ],
+          "tip": [
+            "das Gemüse = warzywa.",
+            "Używaj das Gemüse, gdy mowa o warzywach jako ogólnej kategorii."
+          ],
+          "important": [
+            "Niepoprawnie: die Gemüse; poprawnie: das Gemüse.",
+            "das Gemüse ma rodzaj nijaki.",
+            "das Gemüse = warzywa jako całość."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0011",
+      "cardId": "Geschwister|idx:234",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Geschwister» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Geschwister",
+        "lv": "rodzeństwo",
+        "level": "A1",
+        "de_article": "die",
+        "study": {
+          "id": "a1-geschwister-study",
+          "layout": "standardStudy",
+          "translation": "rodzeństwo",
+          "explanation": [
+            "Główna idea: die Geschwister oznacza braci i siostry łącznie, czyli rodzeństwo.",
+            "W języku niemieckim Geschwister ma formę liczby mnogiej.",
+            "Po polsku rodzeństwo jest rzeczownikiem zbiorowym w liczbie pojedynczej."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe zwei Geschwister.",
+              "lv": "Mam dwoje rodzeństwa."
+            },
+            {
+              "de": "Meine Geschwister wohnen in Berlin.",
+              "lv": "Moje rodzeństwo mieszka w Berlinie."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Geschwister",
+              "meaning": "rodzeństwo",
+              "example": "Meine Geschwister – moje rodzeństwo"
+            },
+            {
+              "word": "Bruder",
+              "meaning": "brat",
+              "example": "mein Bruder – mój brat"
+            },
+            {
+              "word": "Schwester",
+              "meaning": "siostra",
+              "example": "meine Schwester – moja siostra"
+            }
+          ],
+          "tip": [
+            "die Geschwister obejmuje braci i siostry.",
+            "W polskim mówimy „dwoje rodzeństwa”."
+          ],
+          "important": [
+            "Geschwister jest po niemiecku liczbą mnogą.",
+            "Po polsku „rodzeństwo” ma gramatycznie liczbę pojedynczą."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0012",
+      "cardId": "gleich|idx:243",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «gleich» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "gleich",
+        "lv": "zaraz • taki sam",
+        "level": "A1",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "zaraz • taki sam",
+          "explanation": [
+            "Główna idea: gleich może oznaczać zaraz albo taki sam, zależnie od kontekstu.",
+            "W odniesieniu do czasu gleich znaczy zaraz lub za chwilę.",
+            "Przy porównywaniu osób lub rzeczy gleich znaczy taki sam albo równy.",
+            "Forma przymiotnikowa odmienia się: die gleiche Farbe, gleich groß."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Zaraz przyjdę."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Mamy taki sam kolor."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Jedzenie będzie zaraz gotowe."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Obie drogi są tak samo długie."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Do zobaczenia za chwilę!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Są tego samego wzrostu."
+            }
+          ],
+          "tip": [
+            "Czas: gleich = zaraz.",
+            "Porównanie: gleich = taki sam lub równy."
+          ],
+          "important": [
+            "Ich komme gleich = Zaraz przyjdę.",
+            "die gleiche Farbe = taki sam kolor."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0013",
+      "cardId": "groß|idx:250",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «groß» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "groß",
+        "lv": "duży • wysoki",
+        "level": "A1",
+        "study": {
+          "id": "a1-gross-study",
+          "layout": "standardStudy",
+          "translation": "duży • wysoki",
+          "explanation": [
+            "Główna idea: groß oznacza duży, a w odniesieniu do wzrostu człowieka — wysoki.",
+            "Przy rzeczach, budynkach lub miastach groß zwykle znaczy duży.",
+            "Przy osobach groß odnosi się do wzrostu.",
+            "Przymiotnik odmienia się przed rzeczownikiem: eine große Stadt."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "Dom jest duży."
+            },
+            {
+              "de": "Berlin ist eine große Stadt.",
+              "lv": "Berlin jest dużym miastem."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "On jest wysoki."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "Pokój jest duży."
+            }
+          ],
+          "tip": [
+            "Rzecz lub miejsce: groß = duży.",
+            "Osoba: groß = wysoki."
+          ],
+          "important": [
+            "eine große Stadt = duże miasto.",
+            "Przy osobach używa się zwykle groß, a nie hoch."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0014",
+      "cardId": "Großeltern|idx:251",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Großeltern» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Großeltern",
+        "lv": "dziadkowie",
+        "level": "A1",
+        "de_article": "die",
+        "study": {
+          "id": "a1-grosseltern-study",
+          "layout": "standardStudy",
+          "translation": "dziadkowie",
+          "explanation": [
+            "Główna idea: die Großeltern oznacza dziadków, czyli babcię i dziadka.",
+            "Rzeczownik Großeltern występuje w liczbie mnogiej.",
+            "Jedna osoba to die Großmutter albo der Großvater."
+          ],
+          "examples": [
+            {
+              "de": "Meine Großeltern wohnen auf dem Land.",
+              "lv": "Moi dziadkowie mieszkają na wsi."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Odwiedzam moich dziadków."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Großeltern",
+              "meaning": "dziadkowie",
+              "example": "meine Großeltern – moi dziadkowie"
+            },
+            {
+              "word": "Großmutter",
+              "meaning": "babcia",
+              "example": "meine Großmutter – moja babcia"
+            },
+            {
+              "word": "Großvater",
+              "meaning": "dziadek",
+              "example": "mein Großvater – mój dziadek"
+            }
+          ],
+          "tip": [
+            "die Großeltern = dziadkowie.",
+            "Dla jednej osoby użyj Großmutter albo Großvater."
+          ],
+          "important": [
+            "Großeltern jest liczbą mnogą.",
+            "Rodzajniki pojedynczych nazw to die Großmutter i der Großvater."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0015",
+      "cardId": "gut|idx:259",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «gut» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "gut",
+        "lv": "dobry • dobrze",
+        "level": "A1",
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "dobry • dobrze",
+          "explanation": [
+            "Główna idea: gut oznacza dobry jako przymiotnik albo dobrze jako przysłówek.",
+            "Przed rzeczownikiem gut odmienia się: eine gute Idee.",
+            "Przy czasowniku gut opisuje sposób wykonania: gut Deutsch sprechen.",
+            "W odpowiedzi na pytanie Wie geht es dir? forma Gut! znaczy Dobrze!"
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "Jedzenie jest dobre."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Jak się masz? – Dobrze, dziękuję!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "On dobrze mówi po niemiecku."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dzień dobry!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "To jest dobry pomysł."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Wszystko jest w porządku."
+            }
+          ],
+          "tip": [
+            "Przed rzeczownikiem: gut odmienia się, np. eine gute Idee.",
+            "Przy czasowniku: gut = dobrze."
+          ],
+          "important": [
+            "gut = dobry albo dobrze, zależnie od funkcji w zdaniu.",
+            "Guten Morgen! to stałe powitanie."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0016",
+      "cardId": "haben|idx:261",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «haben» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "haben",
+        "lv": "mieć",
+        "level": "A1",
+        "study": {
+          "id": "a1-haben",
+          "layout": "standardStudy",
+          "translation": "mieć",
+          "explanation": [
+            "Główna idea: haben oznacza mieć.",
+            "Czasownika haben używa się do wyrażania posiadania: Ich habe ein Auto.",
+            "W stałych wyrażeniach oznacza stan, np. Hunger haben lub Zeit haben.",
+            "haben jest też czasownikiem posiłkowym w czasie Perfekt: Ich habe das gemacht."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe ein Auto.",
+              "lv": "Mam samochód."
+            },
+            {
+              "de": "Hast du Zeit?",
+              "lv": "Masz czas?"
+            },
+            {
+              "de": "Wir haben Hunger.",
+              "lv": "Jesteśmy głodni."
+            },
+            {
+              "de": "Ich habe das gemacht.",
+              "lv": "Zrobiłem/Zrobiłam to."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "haben",
+              "meaning": "mieć",
+              "example": "Ich habe Zeit. – Mam czas."
+            },
+            {
+              "word": "sein",
+              "meaning": "być",
+              "example": "Ich bin hier. – Jestem tutaj."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "dostawać • otrzymywać",
+              "example": "Ich bekomme ein Geschenk. – Dostaję prezent."
+            },
+            {
+              "word": "machen",
+              "meaning": "robić",
+              "example": "Ich mache das. – Robię to."
+            }
+          ],
+          "tip": {
+            "text": "Zapamiętaj: haben = mieć; w czasie Perfekt haben może być czasownikiem posiłkowym."
+          },
+          "important": [
+            "Ich habe Hunger tłumaczymy naturalnie jako „Jestem głodny/głodna”.",
+            "W Perfekt haben nie oznacza samodzielnie „mieć”: Ich habe das gemacht = Zrobiłem/Zrobiłam to."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0017",
+      "cardId": "halten|idx:265",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «halten» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "halten",
+        "lv": "trzymać • zatrzymywać się",
+        "level": "A1",
+        "study": {
+          "id": "a1-halten",
+          "layout": "standardStudy",
+          "translation": "trzymać • zatrzymywać się",
+          "explanation": [
+            "Główna idea: halten może oznaczać trzymać albo zatrzymywać się.",
+            "Przy przedmiocie halten znaczy trzymać.",
+            "O pojeździe halten znaczy zatrzymywać się.",
+            "Konstrukcja etwas für ... halten oznacza uważać coś za jakieś."
+          ],
+          "examples": [
+            {
+              "de": "Ich halte die Tasche.",
+              "lv": "Trzymam torbę."
+            },
+            {
+              "de": "Der Bus hält hier.",
+              "lv": "Autobus zatrzymuje się tutaj."
+            },
+            {
+              "de": "Bitte halten Sie an.",
+              "lv": "Proszę się zatrzymać."
+            },
+            {
+              "de": "Ich halte das für richtig.",
+              "lv": "Uważam to za słuszne."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "halten",
+              "meaning": "trzymać • zatrzymywać się",
+              "example": "Der Bus hält. – Autobus się zatrzymuje."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "brać",
+              "example": "Ich nehme die Tasche. – Biorę torbę."
+            },
+            {
+              "word": "anhalten",
+              "meaning": "zatrzymywać się",
+              "example": "Bitte halten Sie an. – Proszę się zatrzymać."
+            },
+            {
+              "word": "denken",
+              "meaning": "myśleć",
+              "example": "Ich denke, das ist richtig. – Myślę, że to jest słuszne."
+            }
+          ],
+          "tip": {
+            "text": "Przedmiot → halten = trzymać; pojazd → halten = zatrzymywać się."
+          },
+          "important": [
+            "halten ma kilka podstawowych znaczeń zależnych od konstrukcji.",
+            "etwas für richtig halten = uważać coś za słuszne."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0018",
+      "cardId": "Hand|idx:267",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Hand» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Hand",
+        "lv": "dłoń",
+        "level": "A1",
+        "de_article": "die",
+        "de_plural": "die Hände",
+        "study": {
+          "id": "a1-hand-study",
+          "layout": "standardStudy",
+          "translation": "dłoń",
+          "explanation": [
+            "Główna idea: die Hand oznacza dłoń, czyli część ręki od nadgarstka do palców.",
+            "W liczbie mnogiej forma brzmi die Hände.",
+            "der Arm oznacza ramię lub całą rękę, a nie samą dłoń."
+          ],
+          "examples": [
+            {
+              "de": "Ich wasche meine Hände.",
+              "lv": "Myję ręce."
+            },
+            {
+              "de": "Sie hält das Glas in der Hand.",
+              "lv": "Ona trzyma szklankę w dłoni."
+            },
+            {
+              "de": "Mein Arm tut weh.",
+              "lv": "Boli mnie ramię."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Hand",
+              "meaning": "dłoń",
+              "example": "in der Hand – w dłoni"
+            },
+            {
+              "word": "der Arm",
+              "meaning": "ramię • ręka",
+              "example": "Mein Arm tut weh. – Boli mnie ramię."
+            }
+          ],
+          "tip": [
+            "Hand = dłoń; Arm = ramię lub ręka.",
+            "Liczba mnoga od Hand to Hände."
+          ],
+          "important": [
+            "Nie myl die Hand z der Arm.",
+            "in der Hand = w dłoni."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0019",
+      "cardId": "heißen|idx:276",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «heißen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "heißen",
+        "lv": "nazywać się • znaczyć",
+        "level": "A1",
+        "study": {
+          "id": "a1-heißen",
+          "layout": "standardStudy",
+          "translation": "nazywać się • znaczyć",
+          "explanation": [
+            "Główna idea: heißen oznacza nazywać się lub mieć na imię.",
+            "W pytaniu Wie heißt du? chodzi o imię.",
+            "W pytaniu Was heißt das? czasownik oznacza znaczyć.",
+            "heißen nie oznacza dzwonić; do tego służy anrufen."
+          ],
+          "examples": [
+            {
+              "de": "Ich heiße Anna.",
+              "lv": "Mam na imię Anna."
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Jak masz na imię?"
+            },
+            {
+              "de": "Wie heißt das auf Deutsch?",
+              "lv": "Jak to się nazywa po niemiecku?"
+            },
+            {
+              "de": "Was heißt das?",
+              "lv": "Co to znaczy?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "heißen",
+              "meaning": "nazywać się • znaczyć",
+              "example": "Ich heiße Anna. – Mam na imię Anna."
+            },
+            {
+              "word": "nennen",
+              "meaning": "nazywać kogoś",
+              "example": "Er nennt mich Tom. – Nazywa mnie Tomem."
+            },
+            {
+              "word": "bedeuten",
+              "meaning": "znaczyć",
+              "example": "Was bedeutet das? – Co to znaczy?"
+            },
+            {
+              "word": "rufen",
+              "meaning": "wołać",
+              "example": "Ich rufe dich. – Wołam cię."
+            },
+            {
+              "word": "anrufen",
+              "meaning": "dzwonić do kogoś",
+              "example": "Ich rufe dich an. – Dzwonię do ciebie."
+            }
+          ],
+          "tip": {
+            "text": "Wie heißt du? = Jak masz na imię?; Was heißt das? = Co to znaczy?"
+          },
+          "important": [
+            "heißen odmienia się nieregularnie: ich heiße, du heißt, er/sie heißt.",
+            "Nie myl heißen z anrufen, czyli dzwonić do kogoś."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0020",
+      "cardId": "hoch|idx:285",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «hoch» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "hoch",
+        "lv": "wysoki",
+        "level": "A1",
+        "study": {
+          "id": "a1-hoch-study",
+          "layout": "standardStudy",
+          "translation": "wysoki",
+          "explanation": [
+            "Główna idea: hoch oznacza wysoki albo wysoko.",
+            "Używa się go przy wysokości obiektów, poziomach, cenach i wartościach.",
+            "Przy wzroście człowieka najczęściej używa się groß, nie hoch.",
+            "Przed rzeczownikiem rdzeń zmienia się na hoh-: ein hohes Haus."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "Góra jest wysoka."
+            },
+            {
+              "de": "Das Regal ist zwei Meter hoch.",
+              "lv": "Regał ma dwa metry wysokości."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "Czynsz jest wysoki."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "Mur jest wysoki."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "Ceny są wysokie."
+            }
+          ],
+          "tip": [
+            "Obiekt, poziom lub cena: hoch = wysoki.",
+            "Wzrost człowieka: groß = wysoki."
+          ],
+          "important": [
+            "hoch opisuje wysokość, poziom lub wartość.",
+            "Przed rzeczownikiem: ein hohes Regal."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0021",
+      "cardId": "hören|idx:287",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «hören» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "hören",
+        "lv": "słyszeć • słuchać",
+        "level": "A1",
+        "study": {
+          "id": "a1-hoeren-study",
+          "layout": "standardStudy",
+          "translation": "słyszeć • słuchać",
+          "explanation": [
+            "Główna idea: hören może oznaczać słyszeć albo słuchać.",
+            "Gdy dźwięk dociera do uszu, hören znaczy słyszeć.",
+            "Przy świadomym odbiorze muzyki lub opowieści hören tłumaczymy jako słuchać."
+          ],
+          "examples": [
+            {
+              "de": "Ich höre Musik.",
+              "lv": "Słucham muzyki."
+            },
+            {
+              "de": "Die Kinder hören eine Geschichte.",
+              "lv": "Dzieci słuchają opowieści."
+            },
+            {
+              "de": "Ich höre dich.",
+              "lv": "Słyszę cię."
+            }
+          ],
+          "tip": [
+            "Musik hören = słuchać muzyki.",
+            "Ich höre dich = słyszę cię."
+          ],
+          "important": [
+            "Polski rozróżnia „słyszeć” i „słuchać”, ale niemiecki często używa w obu znaczeniach hören.",
+            "Kontekst wskazuje właściwe tłumaczenie."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0022",
+      "cardId": "hübsch|idx:288",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «hübsch» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "hübsch",
+        "lv": "ładny • śliczny",
+        "level": "A1",
+        "study": {
+          "id": "a1-huebsch",
+          "layout": "standardStudy",
+          "translation": "ładny • śliczny",
+          "explanation": [
+            "Główna idea: hübsch oznacza ładny, śliczny lub atrakcyjny wizualnie.",
+            "Często opisuje wygląd osoby, ubrania, pokoju albo obrazu.",
+            "schön ma szersze znaczenie, a nett częściej opisuje miły charakter."
+          ],
+          "examples": [
+            {
+              "de": "Sie trägt ein hübsches Kleid.",
+              "lv": "Ona ma na sobie ładną sukienkę."
+            },
+            {
+              "de": "Das Zimmer ist hübsch.",
+              "lv": "Pokój jest ładny."
+            },
+            {
+              "de": "Das ist ein hübsches Bild.",
+              "lv": "To jest ładny obraz."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "hübsch",
+              "meaning": "ładny • śliczny",
+              "example": "Das ist ein hübsches Kleid. – To jest ładna sukienka."
+            },
+            {
+              "word": "schön",
+              "meaning": "piękny • ładny",
+              "example": "Der Garten ist schön. – Ogród jest piękny."
+            },
+            {
+              "word": "nett",
+              "meaning": "miły",
+              "example": "Sie ist sehr nett. – Ona jest bardzo miła."
+            }
+          ],
+          "tip": {
+            "text": "hübsch opisuje przede wszystkim wygląd; nett częściej oznacza miły."
+          },
+          "important": [
+            "hübsch i schön mogą się częściowo pokrywać.",
+            "Przy charakterze osoby wybieraj zwykle nett, nie hübsch."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0023",
+      "cardId": "ihr|idx:292",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «ihr» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "ihr",
+        "lv": "wy • jej",
+        "level": "A1",
+        "study": {
+          "id": "a1-ihr",
+          "layout": "standardStudy",
+          "translation": "wy • jej",
+          "explanation": [
+            "Główna idea: ihr ma kilka funkcji zależnych od miejsca w zdaniu.",
+            "Jako zaimek osobowy ihr oznacza wy w nieformalnej liczbie mnogiej.",
+            "Jako celownik od sie oznacza jej: Ich gebe ihr das Buch.",
+            "Jako określenie dzierżawcze może znaczyć jej lub ich: ihr Auto.",
+            "Końcówka czasownika pomaga rozpoznać ihr = wy: ihr kommt, ihr wohnt, ihr habt."
+          ],
+          "examples": [
+            {
+              "de": "Kommt ihr heute Abend?",
+              "lv": "Przyjdziecie dziś wieczorem?"
+            },
+            {
+              "de": "Ich gebe ihr das Buch.",
+              "lv": "Daję jej książkę."
+            },
+            {
+              "de": "Wo wohnt ihr?",
+              "lv": "Gdzie mieszkacie?"
+            },
+            {
+              "de": "Er schreibt ihr einen Brief.",
+              "lv": "On pisze do niej list."
+            },
+            {
+              "de": "Habt ihr Zeit?",
+              "lv": "Macie czas?"
+            },
+            {
+              "de": "Das ist ihr Auto.",
+              "lv": "To jest jej samochód."
+            }
+          ],
+          "tip": [
+            "ihr + czasownik z końcówką -t zwykle oznacza wy.",
+            "Przed rzeczownikiem ihr może oznaczać jej lub ich."
+          ],
+          "important": [
+            "ihr nie zawsze ma to samo znaczenie.",
+            "Rozpoznaj funkcję po czasowniku i miejscu w zdaniu."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0024",
+      "cardId": "im|idx:293",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «im» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "im",
+        "lv": "w • we",
+        "level": "A1",
+        "study": {
+          "id": "a1-im",
+          "layout": "standardStudy",
+          "translation": "w • we",
+          "explanation": [
+            "Główna idea: im jest skrótem od in dem i oznacza zwykle w lub we.",
+            "im łączy przyimek in z celownikiem rodzaju męskiego albo nijakiego.",
+            "Używa się go przy miejscu bez ruchu: wo? — im Park, im Büro.",
+            "Występuje też w określeniach czasu: im Sommer, im Januar.",
+            "Ruch do środka wyraża często ins, nie im."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin im Park.",
+              "lv": "Jestem w parku."
+            },
+            {
+              "de": "Wir wohnen im Zentrum.",
+              "lv": "Mieszkamy w centrum."
+            },
+            {
+              "de": "Im Sommer ist es warm.",
+              "lv": "Latem jest ciepło."
+            },
+            {
+              "de": "Er arbeitet im Büro.",
+              "lv": "On pracuje w biurze."
+            },
+            {
+              "de": "Das Kind spielt im Garten.",
+              "lv": "Dziecko bawi się w ogrodzie."
+            },
+            {
+              "de": "Im Januar fahre ich nach Wien.",
+              "lv": "W styczniu jadę do Wiednia."
+            },
+            {
+              "de": "Sie ist im Kino.",
+              "lv": "Ona jest w kinie."
+            },
+            {
+              "de": "Wir treffen uns im Restaurant.",
+              "lv": "Spotykamy się w restauracji."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "im",
+              "meaning": "w (in dem)",
+              "example": "im Park – w parku"
+            },
+            {
+              "word": "ins",
+              "meaning": "do (in das)",
+              "example": "ins Kino – do kina"
+            },
+            {
+              "word": "in",
+              "meaning": "w • do",
+              "example": "in Berlin – w Berlinie"
+            },
+            {
+              "word": "am",
+              "meaning": "przy • na",
+              "example": "am Fenster – przy oknie"
+            },
+            {
+              "word": "auf",
+              "meaning": "na",
+              "example": "auf dem Tisch – na stole"
+            }
+          ],
+          "tip": [
+            "im = in dem.",
+            "Miejsce bez ruchu lub określenie czasu: im Park, im Sommer."
+          ],
+          "important": [
+            "im wymaga celownika.",
+            "Kierunek do wnętrza rodzaju nijakiego: ins, np. ins Kino."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0025",
+      "cardId": "in|idx:295",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «in» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "in",
+        "lv": "w • do",
+        "level": "A1",
+        "study": {
+          "id": "a1-in",
+          "layout": "standardStudy",
+          "translation": "w • do",
+          "explanation": [
+            "Główna idea: in oznacza w albo do, zależnie od tego, czy opisuje miejsce, czy kierunek.",
+            "Przy pytaniu wo? używa się celownika: in Berlin, in der Tasche.",
+            "Przy pytaniu wohin? używa się biernika: in die Schule.",
+            "Połączenie in das skraca się do ins."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin in Berlin.",
+              "lv": "Jestem w Berlinie."
+            },
+            {
+              "de": "Ich gehe in die Schule.",
+              "lv": "Idę do szkoły."
+            },
+            {
+              "de": "Das Buch ist in der Tasche.",
+              "lv": "Książka jest w torbie."
+            },
+            {
+              "de": "Wir gehen ins Kino.",
+              "lv": "Idziemy do kina."
+            }
+          ],
+          "tip": {
+            "text": "Miejsce — wo? + celownik; kierunek — wohin? + biernik."
+          },
+          "important": [
+            "in może łączyć się z celownikiem albo biernikiem.",
+            "ins = in das."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0026",
+      "cardId": "ins|idx:296",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «ins» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "ins",
+        "lv": "do • do środka",
+        "level": "A1",
+        "study": {
+          "id": "a1-ins",
+          "layout": "standardStudy",
+          "translation": "do • do środka",
+          "explanation": [
+            "Główna idea: ins jest skrótem od in das i wyraża kierunek do wnętrza.",
+            "ins łączy się z rzeczownikiem rodzaju nijakiego w bierniku.",
+            "Odpowiada na pytanie wohin?, czyli dokąd.",
+            "Miejsce bez ruchu wyraża im: im Kino.",
+            "Nie używa się ins przed rzeczownikami innego rodzaju."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe ins Kino.",
+              "lv": "Idę do kina."
+            },
+            {
+              "de": "Sie geht ins Bett.",
+              "lv": "Ona idzie do łóżka."
+            },
+            {
+              "de": "Wir fahren ins Ausland.",
+              "lv": "Jedziemy za granicę."
+            },
+            {
+              "de": "Komm ins Haus!",
+              "lv": "Wejdź do domu!"
+            },
+            {
+              "de": "Er steckt das Geld in den Geldbeutel.",
+              "lv": "On wkłada pieniądze do portfela."
+            },
+            {
+              "de": "Wir gehen ins Museum.",
+              "lv": "Idziemy do muzeum."
+            },
+            {
+              "de": "Sie legt die Blumen ins Wasser.",
+              "lv": "Ona wkłada kwiaty do wody."
+            },
+            {
+              "de": "Fahr bitte ins Zentrum.",
+              "lv": "Jedź proszę do centrum."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ins",
+              "meaning": "do (in das)",
+              "example": "ins Kino – do kina"
+            },
+            {
+              "word": "im",
+              "meaning": "w (in dem)",
+              "example": "im Kino – w kinie"
+            },
+            {
+              "word": "in",
+              "meaning": "do • w",
+              "example": "in die Stadt – do miasta"
+            },
+            {
+              "word": "aufs",
+              "meaning": "na (auf das)",
+              "example": "aufs Dach – na dach"
+            },
+            {
+              "word": "zum",
+              "meaning": "do (zu dem)",
+              "example": "zum Arzt – do lekarza"
+            }
+          ],
+          "tip": [
+            "ins = in das.",
+            "Kierunek do wnętrza: ins; miejsce bez ruchu: im."
+          ],
+          "important": [
+            "ins łączy się z biernikiem.",
+            "Używa się go z rzeczownikami rodzaju nijakiego."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0027",
+      "cardId": "jung|idx:304",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «jung» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "jung",
+        "lv": "młody",
+        "level": "A1",
+        "study": {
+          "id": "a1-jung",
+          "layout": "standardStudy",
+          "translation": "młody",
+          "explanation": [
+            "Główna idea: jung oznacza młody i odnosi się do wieku.",
+            "Może opisywać ludzi, zwierzęta oraz pary lub grupy.",
+            "Stopień wyższy brzmi jünger.",
+            "Nie myl jung z neu, które oznacza nowy."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist noch jung.",
+              "lv": "Ona jest jeszcze młoda."
+            },
+            {
+              "de": "Der Hund ist jung.",
+              "lv": "Pies jest młody."
+            },
+            {
+              "de": "Wir sind noch jung.",
+              "lv": "Jesteśmy jeszcze młodzi."
+            },
+            {
+              "de": "Er sieht sehr jung aus.",
+              "lv": "On wygląda bardzo młodo."
+            },
+            {
+              "de": "Das ist ein junges Paar.",
+              "lv": "To jest młoda para."
+            },
+            {
+              "de": "Die junge Frau lächelt.",
+              "lv": "Młoda kobieta się uśmiecha."
+            },
+            {
+              "de": "Mein Bruder ist jünger als ich.",
+              "lv": "Mój brat jest młodszy ode mnie."
+            }
+          ],
+          "tip": [
+            "jung = młody pod względem wieku.",
+            "neu = nowy, nie młody."
+          ],
+          "important": [
+            "Stopień wyższy: jünger.",
+            "ein junges Paar = młoda para."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0028",
+      "cardId": "kein|idx:308",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «kein» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "kein",
+        "lv": "żaden • żadna • żadne",
+        "level": "A1",
+        "study": {
+          "id": "a1-kein",
+          "layout": "standardStudy",
+          "translation": "żaden • żadna • żadne",
+          "explanation": [
+            "Główna idea: kein przeczy rzeczownikowi i oznacza żaden, żadna lub żadne.",
+            "kein odmienia się podobnie jak ein: kein Geld, keine Milch, keine Kinder.",
+            "Używa się go zamiast nicht przed rzeczownikiem bez rodzajnika określonego.",
+            "W liczbie mnogiej często występuje forma keine."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe kein Geld.",
+              "lv": "Nie mam pieniędzy."
+            },
+            {
+              "de": "Es gibt keine Milch mehr.",
+              "lv": "Nie ma już mleka."
+            },
+            {
+              "de": "Kein Mensch war da.",
+              "lv": "Nie było tam żadnego człowieka."
+            },
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "Nie mam czasu."
+            },
+            {
+              "de": "Das ist kein Problem.",
+              "lv": "To nie jest problem."
+            },
+            {
+              "de": "Wir haben keine Kinder.",
+              "lv": "Nie mamy dzieci."
+            }
+          ],
+          "tip": [
+            "kein przeczy rzeczownikowi.",
+            "Zwróć uwagę na końcówkę: kein, keine, keinen."
+          ],
+          "important": [
+            "kein nie oznacza „nikt” ani „nic” samodzielnie; przeczy rzeczownikowi.",
+            "Das ist kein Problem = To nie jest problem."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0029",
+      "cardId": "kennen|idx:310",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «kennen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "kennen",
+        "lv": "znać",
+        "level": "A1",
+        "study": {
+          "id": "a1-kennen-study",
+          "layout": "standardStudy",
+          "translation": "znać",
+          "explanation": [
+            "Główna idea: kennen oznacza znać osobę, miejsce lub rzecz z doświadczenia.",
+            "Używa się go, gdy ktoś jest nam znajomy.",
+            "wissen oznacza wiedzieć jakiś fakt lub informację.",
+            "kennenlernen oznacza poznawać lub poznać kogoś."
+          ],
+          "examples": [
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Znam go."
+            },
+            {
+              "de": "Kennen Sie diese Frau?",
+              "lv": "Czy zna pan/pani tę kobietę?"
+            },
+            {
+              "de": "Wo habt ihr euch kennengelernt?",
+              "lv": "Gdzie się poznaliście?"
+            },
+            {
+              "de": "Ich kenne ihn.",
+              "lv": "Znam go."
+            },
+            {
+              "de": "kennen",
+              "lv": "znać"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kennen",
+              "meaning": "znać",
+              "example": "Ich kenne ihn. – Znam go."
+            },
+            {
+              "word": "wissen",
+              "meaning": "wiedzieć",
+              "example": "Ich weiß seinen Namen. – Wiem, jak ma na imię."
+            }
+          ],
+          "tip": [
+            "Osoba lub miejsce: kennen = znać.",
+            "Fakt lub informacja: wissen = wiedzieć."
+          ],
+          "important": [
+            "kennen + osoba/rzecz; wissen + informacja.",
+            "kennenlernen = poznawać lub poznać."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0030",
+      "cardId": "klein|idx:6",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «klein» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "klein",
+        "lv": "mały",
+        "level": "A1",
+        "study": {
+          "id": "a1-klein-study",
+          "layout": "standardStudy",
+          "translation": "mały",
+          "explanation": [
+            "Główna idea: klein oznacza mały.",
+            "Może opisywać rozmiar pomieszczenia, przedmiotu albo wzrost czy wiek dziecka.",
+            "Przed rzeczownikiem przymiotnik się odmienia: eine kleine Tasche."
+          ],
+          "examples": [
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "Pokój jest mały."
+            },
+            {
+              "de": "Das Kind ist noch klein.",
+              "lv": "Dziecko jest jeszcze małe."
+            },
+            {
+              "de": "Ich habe eine kleine Tasche.",
+              "lv": "Mam małą torbę."
+            }
+          ],
+          "tip": [
+            "klein jest przeciwieństwem groß.",
+            "Przed rzeczownikiem użyj właściwej końcówki przymiotnika."
+          ],
+          "important": [
+            "eine kleine Tasche = mała torba.",
+            "Das Kind ist noch klein może odnosić się do wieku lub wzrostu."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0031",
+      "cardId": "können|idx:319",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «können» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "können",
+        "lv": "móc • umieć",
+        "level": "A1",
+        "study": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "móc • umieć",
+          "explanation": [
+            "Główna idea: können oznacza móc albo umieć.",
+            "Przy umiejętności tłumaczymy je jako umieć lub potrafić.",
+            "Przy możliwości oznacza móc.",
+            "können nie wyraża pozwolenia tak precyzyjnie jak dürfen."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Umiem mówić po niemiecku."
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "Możesz mi pomóc?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "Możemy dziś przyjść."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "On umie dobrze pływać."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "móc • umieć",
+              "example": "Ich kann schwimmen. – Umiem pływać."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "mieć pozwolenie • móc",
+              "example": "Darf ich gehen? – Czy mogę wyjść?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "musieć",
+              "example": "Ich muss lernen. – Muszę się uczyć."
+            },
+            {
+              "word": "wissen",
+              "meaning": "wiedzieć",
+              "example": "Ich weiß das. – Wiem to."
+            }
+          ],
+          "tip": {
+            "text": "Umiejętność lub możliwość → können; pozwolenie → dürfen."
+          },
+          "important": [
+            "Po czasowniku modalnym drugi czasownik stoi na końcu w bezokoliczniku.",
+            "Ich kann schwimmen = Umiem pływać."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0032",
+      "cardId": "kosten|idx:320",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «kosten» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "kosten",
+        "lv": "kosztować",
+        "level": "A1",
+        "study": {
+          "id": "a1-kosten",
+          "layout": "standardStudy",
+          "translation": "kosztować",
+          "explanation": [
+            "Główna idea: kosten oznacza kosztować i podaje cenę rzeczy lub usługi.",
+            "Rzecz, której cenę podajemy, jest podmiotem: Das kostet fünf Euro.",
+            "bezahlen i zahlen oznaczają płacić.",
+            "Pytanie o cenę brzmi Was kostet ...? albo Wie viel kostet ...?"
+          ],
+          "examples": [
+            {
+              "de": "Das kostet 5 Euro.",
+              "lv": "To kosztuje 5 euro."
+            },
+            {
+              "de": "Was kostet das?",
+              "lv": "Ile to kosztuje?"
+            },
+            {
+              "de": "Wie viel kostet der Pullover?",
+              "lv": "Ile kosztuje ten sweter?"
+            },
+            {
+              "de": "Das Essen kostet nicht viel.",
+              "lv": "Jedzenie nie kosztuje dużo."
+            },
+            {
+              "de": "Ich bezahle die Rechnung.",
+              "lv": "Płacę rachunek."
+            },
+            {
+              "de": "Kann ich bar bezahlen?",
+              "lv": "Czy mogę zapłacić gotówką?"
+            },
+            {
+              "de": "Er zahlt mit Karte.",
+              "lv": "On płaci kartą."
+            },
+            {
+              "de": "Ich zahle gleich.",
+              "lv": "Zaraz zapłacę."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kosten",
+              "meaning": "kosztować",
+              "example": "Das kostet 5 Euro. – To kosztuje 5 euro."
+            },
+            {
+              "word": "bezahlen",
+              "meaning": "płacić za coś",
+              "example": "Ich bezahle die Rechnung. – Płacę rachunek."
+            },
+            {
+              "word": "zahlen",
+              "meaning": "płacić",
+              "example": "Kann ich bar zahlen? – Czy mogę zapłacić gotówką?"
+            },
+            {
+              "word": "Was kostet...?",
+              "meaning": "ile kosztuje...?",
+              "example": "Was kostet das Buch? – Ile kosztuje książka?"
+            }
+          ],
+          "tip": [
+            "Rzecz kosztuje: kosten.",
+            "Osoba płaci: zahlen lub bezahlen."
+          ],
+          "important": [
+            "Das kostet ... = To kosztuje ...",
+            "Nie mów *Ich koste die Rechnung, gdy chodzi o płacenie."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0033",
+      "cardId": "Laden|idx:349",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Laden» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Laden",
+        "lv": "sklep",
+        "level": "A1",
+        "de_article": "der",
+        "de_plural": "die Läden",
+        "study": {
+          "id": "a1-laden-study",
+          "layout": "standardStudy",
+          "translation": "sklep",
+          "explanation": [
+            "Główna idea: der Laden oznacza sklep.",
+            "Liczba mnoga brzmi die Läden.",
+            "Czasownik laden oznacza ładować i jest innym wyrazem niż rzeczownik der Laden."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe in den Laden.",
+              "lv": "Idę do sklepu."
+            },
+            {
+              "de": "Der Laden ist geschlossen.",
+              "lv": "Sklep jest zamknięty."
+            },
+            {
+              "de": "Es gibt viele Läden hier.",
+              "lv": "Jest tutaj wiele sklepów."
+            },
+            {
+              "de": "Ich muss mein Handy laden.",
+              "lv": "Muszę naładować telefon."
+            }
+          ],
+          "tip": [
+            "der Laden = sklep.",
+            "laden = ładować."
+          ],
+          "important": [
+            "Rzeczownik Laden pisze się wielką literą.",
+            "Liczba mnoga: die Läden."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0034",
+      "cardId": "Land|idx:351",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Land» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Land",
+        "lv": "kraj • wieś",
+        "level": "A1",
+        "de_article": "das",
+        "de_plural": "die Länder",
+        "study": {
+          "id": "a1-land",
+          "layout": "standardStudy",
+          "translation": "kraj • wieś",
+          "explanation": [
+            "Główna idea: das Land może oznaczać kraj albo wieś jako obszar poza miastem.",
+            "Przy nazwach państw Land oznacza kraj.",
+            "Wyrażenia aufs Land i auf dem Land odnoszą się do wsi.",
+            "Liczba mnoga w znaczeniu kraj brzmi die Länder."
+          ],
+          "examples": [
+            {
+              "de": "Deutschland ist ein schönes Land.",
+              "lv": "Niemcy są pięknym krajem."
+            },
+            {
+              "de": "Ich komme aus einem kleinen Land.",
+              "lv": "Pochodzę z małego kraju."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Jedziemy na wieś."
+            },
+            {
+              "de": "Auf dem Land ist es ruhig.",
+              "lv": "Na wsi jest spokojnie."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Land",
+              "meaning": "kraj • wieś",
+              "example": "Deutschland ist ein Land. – Niemcy są krajem."
+            },
+            {
+              "word": "die Stadt",
+              "meaning": "miasto",
+              "example": "Ich wohne in der Stadt. – Mieszkam w mieście."
+            },
+            {
+              "word": "das Dorf",
+              "meaning": "wieś jako miejscowość",
+              "example": "Er lebt in einem Dorf. – On mieszka na wsi."
+            },
+            {
+              "word": "die Erde",
+              "meaning": "Ziemia",
+              "example": "Die Erde ist rund. – Ziemia jest okrągła."
+            }
+          ],
+          "tip": {
+            "text": "Państwo → das Land = kraj; auf dem Land → na wsi."
+          },
+          "important": [
+            "das Land ma dwa podstawowe znaczenia: kraj i wieś.",
+            "Liczba mnoga Länder odnosi się zwykle do krajów."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0035",
+      "cardId": "lang|idx:352",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «lang» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "lang",
+        "lv": "długi • długo",
+        "level": "A1",
+        "study": {
+          "id": "a1-lang",
+          "layout": "standardStudy",
+          "translation": "długi • długo",
+          "explanation": [
+            "Główna idea: lang oznacza długi albo długo.",
+            "Jako przymiotnik opisuje długość w przestrzeni lub czasie.",
+            "lange jako przysłówek oznacza długo.",
+            "W pytaniu Wie lange? chodzi o czas trwania."
+          ],
+          "examples": [
+            {
+              "de": "Der Tisch ist sehr lang.",
+              "lv": "Stół jest bardzo długi."
+            },
+            {
+              "de": "Der Film war sehr lang.",
+              "lv": "Film był bardzo długi."
+            },
+            {
+              "de": "Wie lange dauert es?",
+              "lv": "Jak długo to potrwa?"
+            },
+            {
+              "de": "Sie hat lange Haare.",
+              "lv": "Ona ma długie włosy."
+            },
+            {
+              "de": "Ich warte schon lange.",
+              "lv": "Czekam już długo."
+            },
+            {
+              "de": "Den ganzen Tag lang.",
+              "lv": "Przez cały dzień."
+            }
+          ],
+          "tip": [
+            "lang = długi; lange = długo.",
+            "Wie lange? = Jak długo?"
+          ],
+          "important": [
+            "Nie myl lang z groß.",
+            "den ganzen Tag lang = przez cały dzień."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0036",
+      "cardId": "lassen|idx:356",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «lassen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "lassen",
+        "lv": "zostawiać • pozwalać",
+        "level": "A1",
+        "study": {
+          "id": "a1-lassen",
+          "layout": "standardStudy",
+          "translation": "zostawiać • pozwalać",
+          "explanation": [
+            "Główna idea: lassen może oznaczać zostawiać albo pozwalać.",
+            "Gdy rzecz pozostaje w miejscu, lassen tłumaczymy jako zostawiać.",
+            "W konstrukcji lassen + osoba + bezokolicznik oznacza pozwalać komuś coś zrobić.",
+            "Rozkaz Lass mich in Ruhe! znaczy Zostaw mnie w spokoju!"
+          ],
+          "examples": [
+            {
+              "de": "Ich lasse die Tasche hier.",
+              "lv": "Zostawiam torbę tutaj."
+            },
+            {
+              "de": "Lass das bitte auf dem Tisch.",
+              "lv": "Zostaw to proszę na stole."
+            },
+            {
+              "de": "Meine Eltern lassen mich gehen.",
+              "lv": "Moi rodzice pozwalają mi wyjść."
+            },
+            {
+              "de": "Lass mich in Ruhe!",
+              "lv": "Zostaw mnie w spokoju!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "lassen",
+              "meaning": "zostawiać • pozwalać",
+              "example": "Ich lasse das hier. – Zostawiam to tutaj."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "zostawać",
+              "example": "Ich bleibe hier. – Zostaję tutaj."
+            },
+            {
+              "word": "erlauben",
+              "meaning": "pozwalać",
+              "example": "Sie erlaubt mir das. – Ona mi na to pozwala."
+            },
+            {
+              "word": "geben",
+              "meaning": "dawać",
+              "example": "Gib mir das Buch. – Daj mi książkę."
+            }
+          ],
+          "tip": {
+            "text": "Rzecz + lassen = zostawić; osoba + bezokolicznik = pozwolić komuś coś zrobić."
+          },
+          "important": [
+            "lassen odmienia się nieregularnie: ich lasse, du lässt.",
+            "lassen i bleiben nie są synonimami: lassen = zostawiać, bleiben = zostawać."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0037",
+      "cardId": "laufen|idx:357",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «laufen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "laufen",
+        "lv": "biegać • działać",
+        "level": "A1",
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "biegać • działać",
+          "explanation": [
+            "Główna idea: laufen oznacza biegać, a o urządzeniu lub programie — działać.",
+            "Przy osobie lub zwierzęciu opisuje ruch pieszo, często bieganie.",
+            "Przy filmie, maszynie lub programie oznacza, że coś jest wyświetlane albo działa.",
+            "gehen to iść, a fahren to jechać środkiem transportu."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "On biega bardzo szybko."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "Dzieci biegają w parku."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "Film już leci."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "Maszyna działa dobrze."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "biegać • działać",
+              "example": "Er läuft schnell. – On szybko biega."
+            },
+            {
+              "word": "gehen",
+              "meaning": "iść",
+              "example": "Ich gehe nach Hause. – Idę do domu."
+            },
+            {
+              "word": "fahren",
+              "meaning": "jechać",
+              "example": "Ich fahre mit dem Bus. – Jadę autobusem."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "działać • funkcjonować",
+              "example": "Das funktioniert gut. – To działa dobrze."
+            }
+          ],
+          "tip": {
+            "text": "Osoba → laufen = biegać; film lub maszyna → laufen = lecieć albo działać."
+          },
+          "important": [
+            "laufen ma znaczenie dosłowne i techniczne.",
+            "Die Maschine läuft oznacza, że maszyna działa."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0038",
+      "cardId": "laut|idx:358",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «laut» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "laut",
+        "lv": "głośny • głośno",
+        "level": "A1",
+        "study": {
+          "id": "a1-laut",
+          "layout": "standardStudy",
+          "translation": "głośny • głośno",
+          "explanation": [
+            "Główna idea: laut pisane małą literą jest przymiotnikiem lub przysłówkiem i oznacza głośny albo głośno.",
+            "Opisuje duże natężenie dźwięku.",
+            "der Laut pisane wielką literą jest rzeczownikiem i oznacza dźwięk lub głoskę.",
+            "Pisownia wielką lub małą literą zmienia funkcję i znaczenie."
+          ],
+          "examples": [
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Muzyka jest głośna."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Muzyka jest głośna."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Nie mów tak głośno!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "To jest bardzo głośne."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ten dźwięk jest ładny."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Słyszę jakiś dźwięk."
+            }
+          ],
+          "tip": [
+            "laut = głośny lub głośno.",
+            "der Laut = dźwięk lub głoska."
+          ],
+          "important": [
+            "Mała litera: laut — przymiotnik lub przysłówek.",
+            "Wielka litera: der Laut — rzeczownik."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0039",
+      "cardId": "Laut|idx:359",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Laut» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Laut",
+        "lv": "dźwięk • głoska",
+        "level": "A1",
+        "de_article": "der",
+        "de_plural": "die Laute",
+        "study": {
+          "id": "a1-laut-study",
+          "layout": "standardStudy",
+          "translation": "dźwięk • głoska",
+          "explanation": [
+            "Główna idea: der Laut jest rzeczownikiem oznaczającym dźwięk lub głoskę.",
+            "Liczba mnoga brzmi die Laute.",
+            "laut pisane małą literą oznacza głośny albo głośno.",
+            "Wielka litera wskazuje rzeczownik der Laut."
+          ],
+          "examples": [
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ten dźwięk jest ładny."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Muzyka jest głośna."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Nie mów tak głośno!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "To jest bardzo głośne."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ten dźwięk jest ładny."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Słyszę jakiś dźwięk."
+            }
+          ],
+          "tip": [
+            "der Laut = dźwięk lub głoska.",
+            "laut = głośny lub głośno."
+          ],
+          "important": [
+            "Rzeczownik Laut pisze się wielką literą.",
+            "Liczba mnoga: die Laute."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0040",
+      "cardId": "legen|idx:363",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «legen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "legen",
+        "lv": "kłaść • położyć",
+        "level": "A1",
+        "study": {
+          "id": "a1-legen",
+          "layout": "standardStudy",
+          "translation": "kłaść • położyć",
+          "explanation": [
+            "Główna idea: legen oznacza kłaść lub położyć coś w pozycji leżącej.",
+            "Czasownik opisuje zmianę miejsca i zwykle łączy się z biernikiem.",
+            "liegen oznacza leżeć i opisuje położenie bez ruchu.",
+            "stellen oznacza stawiać, a setzen — sadzać lub siadać."
+          ],
+          "examples": [
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Kładę książkę na stół."
+            },
+            {
+              "de": "Leg den Schlüssel hierhin.",
+              "lv": "Połóż klucz tutaj."
+            },
+            {
+              "de": "Sie legt das Kind ins Bett.",
+              "lv": "Ona kładzie dziecko do łóżka."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Książka leży na stole."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "kłaść",
+              "example": "Ich lege das Buch auf den Tisch. – Kładę książkę na stół."
+            },
+            {
+              "word": "liegen",
+              "meaning": "leżeć",
+              "example": "Das Buch liegt auf dem Tisch. – Książka leży na stole."
+            },
+            {
+              "word": "stellen",
+              "meaning": "stawiać",
+              "example": "Ich stelle die Flasche auf den Tisch. – Stawiam butelkę na stół."
+            },
+            {
+              "word": "setzen",
+              "meaning": "siadać",
+              "example": "Ich setze mich. – Siadam."
+            }
+          ],
+          "tip": {
+            "text": "Ruch i działanie → legen; położenie bez ruchu → liegen."
+          },
+          "important": [
+            "legen jest czasownikiem przechodnim: ktoś kładzie coś.",
+            "liegen opisuje stan: coś leży."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0041",
+      "cardId": "leise|idx:368",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «leise» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "leise",
+        "lv": "cichy • cicho",
+        "level": "A1",
+        "study": {
+          "id": "a1-leise-study",
+          "layout": "standardStudy",
+          "translation": "cichy • cicho",
+          "explanation": [
+            "Główna idea: leise oznacza cichy albo cicho.",
+            "Jako przymiotnik opisuje cichy dźwięk.",
+            "Jako przysłówek opisuje cichy sposób mówienia lub działania."
+          ],
+          "examples": [
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Proszę, bądź cicho."
+            },
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Proszę, bądź cicho."
+            },
+            {
+              "de": "Die Musik ist leise.",
+              "lv": "Muzyka jest cicha."
+            },
+            {
+              "de": "Sprich bitte leise.",
+              "lv": "Mów proszę cicho."
+            }
+          ],
+          "tip": [
+            "leise jest przeciwieństwem laut.",
+            "Przy czasowniku leise tłumaczymy zwykle jako cicho."
+          ],
+          "important": [
+            "leise może być przymiotnikiem lub przysłówkiem.",
+            "Bitte sei leise! = Proszę, bądź cicho!"
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0042",
+      "cardId": "liegen|idx:377",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «liegen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "liegen",
+        "lv": "leżeć • znajdować się",
+        "level": "A1",
+        "study": {
+          "id": "a1-liegen",
+          "layout": "standardStudy",
+          "translation": "leżeć • znajdować się",
+          "explanation": [
+            "Główna idea: liegen oznacza leżeć albo znajdować się w pozycji leżącej.",
+            "Opisuje stan i położenie bez ruchu.",
+            "legen oznacza kłaść i opisuje zmianę miejsca.",
+            "W odniesieniu do miejsca liegen może znaczyć znajdować się."
+          ],
+          "examples": [
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Książka leży na stole."
+            },
+            {
+              "de": "Mein Handy liegt im Auto.",
+              "lv": "Mój telefon leży w samochodzie."
+            },
+            {
+              "de": "Er liegt im Bett.",
+              "lv": "On leży w łóżku."
+            },
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Kładę książkę na stół."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "liegen",
+              "meaning": "leżeć • znajdować się",
+              "example": "Das Buch liegt hier. – Książka leży tutaj."
+            },
+            {
+              "word": "legen",
+              "meaning": "kłaść",
+              "example": "Ich lege das Buch hierhin. – Kładę książkę tutaj."
+            },
+            {
+              "word": "stehen",
+              "meaning": "stać",
+              "example": "Die Flasche steht auf dem Tisch. – Butelka stoi na stole."
+            },
+            {
+              "word": "sein",
+              "meaning": "być",
+              "example": "Ich bin hier. – Jestem tutaj."
+            }
+          ],
+          "tip": {
+            "text": "Stan bez ruchu → liegen; działanie i kierunek → legen."
+          },
+          "important": [
+            "liegen nie oznacza „kłamać”; kłamać to lügen.",
+            "liegen jest nieprzechodnie, a legen wymaga dopełnienia."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0043",
+      "cardId": "machen|idx:386",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «machen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "machen",
+        "lv": "robić • wykonywać",
+        "level": "A1",
+        "study": {
+          "id": "a1-machen",
+          "layout": "standardStudy",
+          "translation": "robić • wykonywać",
+          "explanation": [
+            "Główna idea: machen oznacza robić, wykonywać albo przygotowywać.",
+            "Jest bardzo częstym czasownikiem używanym w wielu stałych połączeniach.",
+            "Hausaufgaben machen oznacza odrabiać pracę domową.",
+            "Spaß machen oznacza sprawiać przyjemność lub być zabawnym."
+          ],
+          "examples": [
+            {
+              "de": "Was machst du?",
+              "lv": "Co robisz?"
+            },
+            {
+              "de": "Ich mache Hausaufgaben.",
+              "lv": "Odrabiam pracę domową."
+            },
+            {
+              "de": "Wir machen Pizza.",
+              "lv": "Robimy pizzę."
+            },
+            {
+              "de": "Das macht Spaß.",
+              "lv": "To sprawia przyjemność."
+            }
+          ],
+          "tip": {
+            "text": "Ucz się machen w stałych połączeniach: Hausaufgaben machen, Essen machen, Spaß machen."
+          },
+          "important": [
+            "machen ma szerokie znaczenie, ale tłumaczenie zależy od połączenia.",
+            "Das macht Spaß = To sprawia przyjemność / To jest fajne."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0044",
+      "cardId": "Mann|idx:394",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Mann» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Mann",
+        "lv": "mężczyzna • mąż",
+        "level": "A1",
+        "de_article": "der",
+        "de_plural": "die Männer",
+        "study": {
+          "id": "a1-mann",
+          "layout": "standardStudy",
+          "translation": "mężczyzna • mąż",
+          "explanation": [
+            "Główna idea: der Mann może oznaczać mężczyznę albo męża, zależnie od kontekstu.",
+            "Bez określenia dzierżawczego der Mann lub ein Mann zwykle oznacza mężczyznę.",
+            "Z określeniem dzierżawczym mein/dein/ihr Mann rzeczownik zwykle oznacza męża.",
+            "Konstrukcja mein Mann niemal zawsze odnosi się do małżonka.",
+            "Liczba mnoga brzmi die Männer.",
+            "Podobnie die Frau może oznaczać kobietę albo żonę."
+          ],
+          "examples": [
+            {
+              "de": "Er ist ein netter Mann.",
+              "lv": "On jest miłym mężczyzną."
+            },
+            {
+              "de": "Das ist mein Mann.",
+              "lv": "To jest mój mąż."
+            },
+            {
+              "de": "Wie viele Männer sind hier?",
+              "lv": "Ilu mężczyzn jest tutaj?"
+            },
+            {
+              "de": "Mein Mann arbeitet in Berlin.",
+              "lv": "Mój mąż pracuje w Berlinie."
+            },
+            {
+              "de": "Der Mann trägt einen Anzug.",
+              "lv": "Mężczyzna ma na sobie garnitur."
+            },
+            {
+              "de": "Ihr Mann ist Arzt.",
+              "lv": "Jej mąż jest lekarzem."
+            }
+          ],
+          "tip": [
+            "Z określeniem dzierżawczym mein/dein/ihr Mann zwykle chodzi o męża.",
+            "Bez określenia dzierżawczego der Mann lub ein Mann zwykle oznacza mężczyznę."
+          ],
+          "important": [
+            "der Mann = mężczyzna albo mąż, zależnie od kontekstu.",
+            "mein Mann = mój mąż.",
+            "Liczba mnoga: die Männer."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0045",
+      "cardId": "mit|idx:408",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «mit» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "mit",
+        "lv": "z • za pomocą",
+        "level": "A1",
+        "study": {
+          "id": "a1-mit",
+          "layout": "standardStudy",
+          "translation": "z • za pomocą",
+          "explanation": [
+            "Główna idea: mit oznacza z albo za pomocą i zawsze łączy się z celownikiem.",
+            "Przy osobie mit oznacza wspólnie z kimś.",
+            "Przy środku transportu lub narzędziu wskazuje sposób: mit dem Bus, mit dem Stift.",
+            "Samodzielne mitkommen oznacza iść lub jechać razem."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme mit dir.",
+              "lv": "Przyjdę z tobą."
+            },
+            {
+              "de": "Ich fahre mit dem Bus.",
+              "lv": "Jadę autobusem."
+            },
+            {
+              "de": "Sie schreibt mit dem Stift.",
+              "lv": "Ona pisze długopisem."
+            },
+            {
+              "de": "Kommst du mit?",
+              "lv": "Idziesz też?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mit",
+              "meaning": "z • za pomocą",
+              "example": "Ich komme mit dir. – Przyjdę z tobą."
+            },
+            {
+              "word": "ohne",
+              "meaning": "bez",
+              "example": "Ich komme ohne dich. – Przyjdę bez ciebie."
+            },
+            {
+              "word": "bei",
+              "meaning": "u • przy",
+              "example": "Ich bin bei Anna. – Jestem u Anny."
+            },
+            {
+              "word": "zu",
+              "meaning": "do",
+              "example": "Ich gehe zum Arzt. – Idę do lekarza."
+            }
+          ],
+          "tip": {
+            "text": "mit zawsze łączy się z celownikiem: mit mir, mit dir, mit dem Bus."
+          },
+          "important": [
+            "mit zawsze wymaga celownika.",
+            "Środek transportu lub narzędzie tłumaczymy często narzędnikiem: autobusem, długopisem."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0046",
+      "cardId": "mögen|idx:413",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «mögen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "mögen",
+        "lv": "lubić",
+        "level": "A1",
+        "study": {
+          "id": "a1-mögen",
+          "layout": "standardStudy",
+          "translation": "lubić",
+          "explanation": [
+            "Główna idea: mögen oznacza lubić osobę lub rzecz.",
+            "W czasie teraźniejszym formy są nieregularne: ich mag, du magst.",
+            "möchte jest formą grzecznego życzenia i znaczy chciałbym lub chciałabym.",
+            "lieben oznacza kochać i jest silniejsze niż mögen."
+          ],
+          "examples": [
+            {
+              "de": "Ich mag Musik.",
+              "lv": "Lubię muzykę."
+            },
+            {
+              "de": "Magst du Kaffee?",
+              "lv": "Lubisz kawę?"
+            },
+            {
+              "de": "Sie mag Kinder.",
+              "lv": "Ona lubi dzieci."
+            },
+            {
+              "de": "Ich möchte einen Kaffee.",
+              "lv": "Chciałbym kawę."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mögen",
+              "meaning": "lubić",
+              "example": "Ich mag Musik. – Lubię muzykę."
+            },
+            {
+              "word": "möchte",
+              "meaning": "chciałbym • chciałabym",
+              "example": "Ich möchte Kaffee. – Chciałbym kawę."
+            },
+            {
+              "word": "wollen",
+              "meaning": "chcieć",
+              "example": "Ich will nach Hause. – Chcę iść do domu."
+            },
+            {
+              "word": "lieben",
+              "meaning": "kochać",
+              "example": "Ich liebe dich. – Kocham cię."
+            }
+          ],
+          "tip": {
+            "text": "Sympatia → mögen; grzeczne życzenie → möchte; silna miłość → lieben."
+          },
+          "important": [
+            "Ich mag ... = Lubię ...",
+            "Ich möchte ... = Chciałbym/Chciałabym ..."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0047",
+      "cardId": "morgen|idx:417",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «morgen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "morgen",
+        "lv": "jutro",
+        "level": "A1",
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "jutro",
+          "explanation": [
+            "Główna idea: morgen pisane małą literą oznacza jutro.",
+            "Na początku zdania Morgen ma wielką literę tylko ze względu na pozycję.",
+            "der Morgen pisane jako rzeczownik oznacza poranek.",
+            "Zwrot Bis morgen! znaczy Do jutra!"
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Przyjdę jutro."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Do jutra!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Przyjdę jutro."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Jutro jest poniedziałek."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dzień dobry!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Poranek jest piękny."
+            }
+          ],
+          "tip": [
+            "morgen = jutro.",
+            "der Morgen = poranek."
+          ],
+          "important": [
+            "Znaczenie rozpoznaj po rodzajniku i kontekście.",
+            "Morgen ist Montag ma znaczenie „Jutro jest poniedziałek”."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0048",
+      "cardId": "Morgen|idx:418",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Morgen» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Morgen",
+        "lv": "poranek",
+        "level": "A1",
+        "de_article": "der",
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "poranek",
+          "explanation": [
+            "Główna idea: der Morgen jest rzeczownikiem i oznacza poranek.",
+            "W powitaniu Guten Morgen! chodzi o poranek.",
+            "morgen pisane małą literą oznacza jutro.",
+            "Na początku zdania Morgen może oznaczać jutro mimo wielkiej litery.",
+            "Rodzajnik der wskazuje znaczenie „poranek”."
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dzień dobry!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Do jutra!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Przyjdę jutro."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Jutro jest poniedziałek."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dzień dobry!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Poranek jest piękny."
+            }
+          ],
+          "tip": [
+            "der Morgen = poranek.",
+            "morgen = jutro."
+          ],
+          "important": [
+            "Rzeczownik der Morgen pisze się wielką literą.",
+            "W Morgen ist Montag wielka litera wynika z początku zdania; znaczenie to jutro."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0049",
+      "cardId": "noch mal|idx:701",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «noch mal» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "noch mal",
+        "lv": "jeszcze raz",
+        "level": "A1",
+        "study": {
+          "id": "a1-noch-mal",
+          "layout": "standardStudy",
+          "translation": "jeszcze raz",
+          "explanation": [
+            "Główna idea: noch mal oznacza jeszcze raz lub ponownie.",
+            "To potoczne połączenie używane w prośbach i poleceniach.",
+            "W zapisie spotyka się też łączną formę nochmal."
+          ],
+          "examples": [
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Jeszcze raz, proszę."
+            },
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Jeszcze raz, proszę."
+            },
+            {
+              "de": "Sag das noch mal.",
+              "lv": "Powiedz to jeszcze raz."
+            }
+          ],
+          "tip": [
+            "Noch mal, bitte. = Jeszcze raz, proszę.",
+            "noch mal i nochmal mają to samo znaczenie."
+          ],
+          "important": [
+            "noch mal jest wyrażeniem potocznym.",
+            "W staranniejszym stylu można użyć noch einmal."
+          ]
+        }
+      }
+    },
+    {
+      "auditId": "LRB077-0050",
+      "cardId": "Obst|idx:693",
+      "status": "LABOT",
+      "reason": "Pilna PL kartīte «Obst» individuāli pārbaudīta un pilnībā atjaunota; saglabāti DE piemēri, identitātes metadati un avota kompozīta struktūra.",
+      "new": {
+        "de": "Obst",
+        "lv": "owoce",
+        "level": "A1",
+        "de_article": "das",
+        "study": {
+          "id": "a1-obst",
+          "layout": "standardStudy",
+          "translation": "owoce",
+          "explanation": [
+            "Główna idea: das Obst oznacza owoce jako ogólną kategorię i w niemieckim jest rzeczownikiem zbiorowym.",
+            "das Obst oznacza owoce jako całość.",
+            "To rzeczownik rodzaju nijakiego używany zwykle tylko w liczbie pojedynczej."
+          ],
+          "examples": [
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Jemy dużo owoców."
+            },
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Jemy dużo owoców."
+            },
+            {
+              "de": "Obst ist gesund.",
+              "lv": "Owoce są zdrowe."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Lubię owoce i warzywa."
+            },
+            {
+              "de": "Wir essen Obst.",
+              "lv": "Jemy owoce."
+            }
+          ],
+          "tip": [
+            "das Obst = owoce.",
+            "Używaj das Obst, gdy mowa o owocach jako ogólnej kategorii."
+          ],
+          "important": [
+            "Niepoprawnie: die Obsts; poprawnie: das Obst.",
+            "das Obst ma rodzaj nijaki.",
+            "das Obst = owoce jako całość."
+          ]
+        }
+      }
+    }
+  ]
+}
