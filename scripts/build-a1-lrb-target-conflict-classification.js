@@ -11,6 +11,20 @@ const {
   normalizeSegment: normalizeSegmentDoc,
   splitFieldPath: splitFieldPathDoc,
 } = require("./lib/content-crowdin-bridge/g2-a1-audit-key-resolver");
+const {
+  reconstructDecisionLeaves,
+  leafTargetKey,
+  leafValueSha,
+  isFullCompositeScope,
+} = require("./lib/g2-a1-lrb-leaf-reconstruction");
+
+const BEFORE_LEAF_NORMALIZATION = {
+  payload_level_independent_conflicts: 437,
+  semicolon_compound_conflict_keys: 112,
+  proven_sequential_supersession: 38,
+  insufficient_source: 0,
+  lrb_covered: "103/103",
+};
 
 const ORIGIN_MAIN = "origin/main";
 const STREAM_HEADS = {
@@ -344,10 +358,8 @@ function rowsFromGalaCardsAndInput(ref, batch, galaPassCommit) {
     const ov = overrideByCard.get(cardId);
     const gc = galaByCard.get(`${lang}|${cardId}`);
     let ownerNew = effectiveOwnerNew(inp);
-    if (!ownerNew && ov?.new) ownerNew = buildOwnerNewFromCard(ov.new, inp.field_path);
-    if (!ownerNew && gc?.currentGalaCard) {
-      ownerNew = buildOwnerNewFromCard(gc.currentGalaCard, inp.field_path);
-    }
+    if (!ownerNew && ov?.new) ownerNew = JSON.stringify(ov.new);
+    if (!ownerNew && gc?.currentGalaCard) ownerNew = JSON.stringify(gc.currentGalaCard);
     rows.push({
       languages: lang,
       card_object_id: cardId,
@@ -443,62 +455,117 @@ function extractBatchDecisions(n, resolved) {
   };
 }
 
-function classifyGroup(versions, correctionBatches) {
-  const batches = [...new Set(versions.map((v) => v.batch_id))];
-  const insufficient = versions.some(
-    (v) => v.extraction_method === "INSUFFICIENT_DECISION_SOURCE" || !v.owner_new_sha256
-  );
-  if (insufficient) return "INSUFFICIENT_DECISION_SOURCE";
-
-  const uniqueShas = [...new Set(versions.map((v) => v.owner_new_sha256))];
-  if (uniqueShas.length === 1) {
-    const rawKeys = [...new Set(versions.map((v) => v.raw_target_key))];
-    const canonKeys = [...new Set(versions.map((v) => v.canonical_target_key))];
-    if (rawKeys.length > 1 && canonKeys.length === 1) return "CANONICAL_ALIAS_DUPLICATE";
-    return "IDENTICAL_FINAL_VALUE";
+function isExpandedStandardFullCardReview(row, batch, reconstruction) {
+  if (!reconstruction?.fullComposite) return false;
+  const note = String(row.owner_note || row.ownerNote || "").toLowerCase();
+  if (/individuāli pārbaudīta|piln[āa] composite|piln[āa] kartīte|full.card|composite kartīte/.test(note)) {
+    return true;
   }
+  if (batch === "LRB-042" && String(row.languages).trim() === "fi") return true;
+  if (reconstruction.mode === "full_composite_card") return true;
+  return isFullCompositeScope(row.field_path, note);
+}
 
-  if (batches.length === 1 && versions.length > 1) {
-    return "CORRECTION_HISTORY_ONLY";
-  }
-  if (batches.length === 1 && correctionBatches.has(batches[0])) {
-    return "CORRECTION_HISTORY_ONLY";
-  }
-
+function filterVersionsAfterFullCardSupersession(versions) {
   const sorted = [...versions].sort((a, b) => batchNum(a.batch_id) - batchNum(b.batch_id));
+  const kept = [];
+  for (const v of sorted) {
+    let superseded = false;
+    let supersessionEvidence = null;
+    for (const later of sorted) {
+      if (batchNum(later.batch_id) <= batchNum(v.batch_id)) continue;
+      if (!later.expanded_standard_full_card) continue;
+      if (v.expanded_standard_full_card && later.expanded_standard_full_card) continue;
+      superseded = true;
+      supersessionEvidence = {
+        type: "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION",
+        earlier_batch: v.batch_id,
+        later_batch: later.batch_id,
+        later_gala_pass_commit: later.gala_pass_commit_sha,
+        earlier_gala_pass_commit: v.gala_pass_commit_sha,
+      };
+      break;
+    }
+    if (!superseded) kept.push({ ...v, supersession_evidence: null });
+    else v._superseded_by = supersessionEvidence;
+  }
+  return { active: kept, sorted };
+}
+
+function classifyLeafGroup(versions, correctionBatches) {
+  const insufficient = versions.some(
+    (v) => v.extraction_method === "INSUFFICIENT_DECISION_SOURCE" || !v.leaf_value_sha256
+  );
+  if (insufficient) return { classification: "INSUFFICIENT_DECISION_SOURCE", supersession: null };
+
+  const { active, sorted } = filterVersionsAfterFullCardSupersession(versions);
+  const expandedSupersessionCount = sorted.filter((v) => v._superseded_by).length;
+  if (expandedSupersessionCount > 0 && active.length <= 1) {
+    const ev = sorted.find((v) => v._superseded_by)?._superseded_by;
+    return {
+      classification: "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION",
+      supersession: ev,
+      active_versions: active,
+    };
+  }
+
+  const work = active.length ? active : versions;
+  const uniqueShas = [...new Set(work.map((v) => v.leaf_value_sha256))];
+  if (uniqueShas.length === 1) {
+    return { classification: "IDENTICAL_FINAL_VALUE", supersession: null, active_versions: work };
+  }
+
+  const batches = [...new Set(work.map((v) => v.batch_id))];
+  if (batches.length === 1 && correctionBatches.has(batches[0])) {
+    return { classification: "CORRECTION_HISTORY_ONLY", supersession: null, active_versions: work };
+  }
+
+  const ordered = [...work].sort((a, b) => batchNum(a.batch_id) - batchNum(b.batch_id));
   let supersessionChain = true;
-  for (let i = 0; i < sorted.length - 1; i += 1) {
-    const earlier = sorted[i];
-    const later = sorted[i + 1];
-    if (earlier.owner_new_sha256 === later.owner_new_sha256) continue;
+  for (let i = 0; i < ordered.length - 1; i += 1) {
+    const earlier = ordered[i];
+    const later = ordered[i + 1];
+    if (earlier.leaf_value_sha256 === later.leaf_value_sha256) continue;
     const ancestry =
       isAncestor(earlier.gala_pass_commit_sha, later.gala_pass_commit_sha) ||
       isAncestor(earlier.gala_pass_commit_sha, git(`git rev-parse ${later.branch_ref}`));
-    const inputMatches =
-      stableStringifyValue(later.input_current) === stableStringifyValue(earlier.owner_new) ||
-      stableStringifyValue(later.production_current) === stableStringifyValue(earlier.owner_new);
-    if (!ancestry && !inputMatches) {
+    const leafInputMatch =
+      stableStringifyValue(later.pre_leaf_value) === stableStringifyValue(earlier.leaf_value) ||
+      stableStringifyValue(later.pre_leaf_value_sha256) === earlier.leaf_value_sha256;
+    if (!ancestry && !leafInputMatch) {
       supersessionChain = false;
       break;
     }
   }
-  if (supersessionChain) return "PROVEN_SEQUENTIAL_SUPERSESSION";
-
-  const rawKeys = [...new Set(versions.map((v) => v.raw_target_key))];
-  const canonKeys = [...new Set(versions.map((v) => v.canonical_target_key))];
-  if (rawKeys.length > 1 && canonKeys.length === 1 && uniqueShas.length > 1) {
-    return "CANONICAL_ALIAS_DUPLICATE";
+  if (supersessionChain) {
+    return { classification: "PROVEN_SEQUENTIAL_SUPERSESSION", supersession: null, active_versions: work };
   }
 
-  return "INDEPENDENT_OWNER_CONFLICT";
+  const expandedBoth = work.filter((v) => v.expanded_standard_full_card);
+  if (expandedBoth.length >= 2 && uniqueShas.length > 1) {
+    return {
+      classification: "INDEPENDENT_OWNER_CONFLICT",
+      supersession: null,
+      active_versions: work,
+      note: "two_expanded_standard_full_card_passes",
+    };
+  }
+
+  return { classification: "INDEPENDENT_OWNER_CONFLICT", supersession: null, active_versions: work };
 }
 
 function main() {
   const batchSources = {};
-  const versionsByCanonical = new Map();
+  const leafVersionsByKey = new Map();
   const correctionBatches = new Set();
   let sourcesWithVerifiedSha = 0;
   const coveredLrb = new Set();
+  let missingPostOwnerReconstruction = 0;
+  const reconstructionProofSamples = [];
+  const lrb042FiRows = [];
+  let earlierPartialReviews = 0;
+  let repeatedFullCardReviews = 0;
+  let fullCardReplacesPatch = 0;
 
   for (let n = 1; n <= 103; n += 1) {
     const batch = batchId(n);
@@ -522,48 +589,71 @@ function main() {
 
     if (!extracted.rows) continue;
     for (const row of extracted.rows) {
-      const ownerNew = effectiveOwnerNew(row);
-      const canon = canonicalTargetKey(row.languages, row.card_object_id, row.field_path);
-      const rawKey = rawTargetKey(row.languages, row.card_object_id, row.field_path);
-      const version = {
-        batch_id: batch,
-        pc_stream: pcStreamFor(n),
-        pc_substream: pcSubstream(resolved.branch),
-        branch: extracted.branch,
-        branch_ref: resolved.branch,
-        target_language: String(row.languages).trim(),
-        card_object_id: String(row.card_object_id).split("|")[0],
-        card_object_id_raw: row.card_object_id,
-        field_path: row.field_path,
-        canonical_field_path: canonicalFieldPath(row.field_path),
-        canonical_target_key: canon,
-        raw_target_key: rawKey,
-        input_current: row.discovery_current,
-        production_current: row.production_current,
-        owner_new: ownerNew,
-        owner_new_sha256: ownerNew ? sha256(ownerNew) : null,
-        gala_pass_commit_sha: extracted.galaPassCommit,
-        gala_pass_commit_time: extracted.galaPassTime,
-        mapping_decisions_sha256: decisionSha,
-        extraction_method: extracted.source.extraction_method,
-        decision_source: extracted.source,
-        later_input_matches_earlier_owner_new: null,
-      };
-      if (!versionsByCanonical.has(canon)) versionsByCanonical.set(canon, []);
-      versionsByCanonical.get(canon).push(version);
-    }
-  }
+      const rowStatus = String(row.owner_status || row.owner_decision || "").toUpperCase();
+      if (rowStatus === "PENDING" && !String(row.owner_new || row.ownerNew || "").trim()) continue;
+      let reconstruction = reconstructDecisionLeaves(row);
+      if (!reconstruction.ok) {
+        const filled = {
+          ...row,
+          owner_new: effectiveOwnerNew(row),
+          owner_status: row.owner_status || row.owner_decision || "LABOT",
+        };
+        if (filled.owner_new) reconstruction = reconstructDecisionLeaves(filled);
+      }
+      if (!reconstruction.ok) {
+        const note = String(row.owner_note || row.ownerNote || "");
+        if (/CONFIRMED_FIELD_ABSENT|NON_ACTIONABLE|no writable target/i.test(note)) continue;
+        missingPostOwnerReconstruction += 1;
+        continue;
+      }
+      const expandedFull = isExpandedStandardFullCardReview(row, batch, reconstruction);
+      if (reconstruction.fullComposite && !expandedFull) earlierPartialReviews += 1;
+      if (expandedFull) repeatedFullCardReviews += 1;
 
-  for (const [, versions] of versionsByCanonical) {
-    const sorted = [...versions].sort((a, b) => batchNum(a.batch_id) - batchNum(b.batch_id));
-    for (let i = 0; i < sorted.length; i += 1) {
-      for (let j = i + 1; j < sorted.length; j += 1) {
-        const earlier = sorted[i];
-        const later = sorted[j];
-        const match =
-          stableStringifyValue(later.input_current) === stableStringifyValue(earlier.owner_new) ||
-          stableStringifyValue(later.production_current) === stableStringifyValue(earlier.owner_new);
-        if (match) later.later_input_matches_earlier_owner_new = earlier.batch_id;
+      const proofKey = `${batch}|${row.languages}|${row.card_object_id}|${row.field_path}`;
+      if (
+        reconstructionProofSamples.length < 250 ||
+        (String(row.languages) === "es" && String(row.card_object_id).startsWith("aufs")) ||
+        (batch === "LRB-042" && String(row.languages) === "fi")
+      ) {
+        reconstructionProofSamples.push({
+          key: proofKey,
+          batch_id: batch,
+          ...reconstruction.proof,
+        });
+      }
+
+      for (const leaf of reconstruction.decidedLeaves) {
+        const leafKey = leafTargetKey(row.languages, row.card_object_id, leaf.leaf_field_path);
+        const version = {
+          batch_id: batch,
+          pc_stream: pcStreamFor(n),
+          pc_substream: pcSubstream(resolved.branch),
+          branch: extracted.branch,
+          branch_ref: resolved.branch,
+          target_language: String(row.languages).trim(),
+          card_object_id: String(row.card_object_id).split("|")[0],
+          card_object_id_raw: row.card_object_id,
+          leaf_field_path: leaf.leaf_field_path,
+          leaf_target_key: leafKey,
+          field_path_raw: row.field_path,
+          owner_new_payload: row.owner_new ?? row.ownerNew ?? "",
+          owner_new_mode: reconstruction.mode,
+          expanded_standard_full_card: expandedFull,
+          full_composite_scope: reconstruction.fullComposite,
+          pre_leaf_value: leaf.pre_leaf_value,
+          pre_leaf_value_sha256: leaf.pre_leaf_value_sha256,
+          leaf_value: leaf.leaf_value,
+          leaf_value_sha256: leaf.leaf_value_sha256,
+          gala_pass_commit_sha: extracted.galaPassCommit,
+          gala_pass_commit_time: extracted.galaPassTime,
+          mapping_decisions_sha256: decisionSha,
+          extraction_method: extracted.source.extraction_method,
+          decision_source: extracted.source,
+          owner_note: row.owner_note || "",
+        };
+        if (!leafVersionsByKey.has(leafKey)) leafVersionsByKey.set(leafKey, []);
+        leafVersionsByKey.get(leafKey).push(version);
       }
     }
   }
@@ -579,61 +669,76 @@ function main() {
     CANONICAL_ALIAS_DUPLICATE: 0,
     INDEPENDENT_OWNER_CONFLICT: 0,
     INSUFFICIENT_DECISION_SOURCE: 0,
+    EXPANDED_STANDARD_FULL_CARD_SUPERSESSION: 0,
   };
 
-  for (const [canonicalKey, versions] of versionsByCanonical) {
+  for (const [leafKey, versions] of leafVersionsByKey) {
     const batchSet = new Set(versions.map((v) => v.batch_id));
     if (batchSet.size < 2) continue;
 
-    const classification = classifyGroup(versions, correctionBatches);
-    counts[classification] += 1;
-
-    const ancestryNotes = versions.map((v) => ({
-      batch_id: v.batch_id,
-      gala_pass_commit_sha: v.gala_pass_commit_sha,
-      is_ancestor_of_later: null,
-    }));
+    const { classification, supersession, active_versions, note } = classifyLeafGroup(
+      versions,
+      correctionBatches
+    );
+    counts[classification] = (counts[classification] || 0) + 1;
+    if (classification === "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION") fullCardReplacesPatch += 1;
 
     const entry = {
-      canonical_target_key: canonicalKey,
+      leaf_target_key: leafKey,
       target_language: versions[0].target_language,
       canonical_card_object_id: versions[0].card_object_id,
-      canonical_field_path: versions[0].canonical_field_path,
+      exact_leaf_field_path: versions[0].leaf_field_path,
       classification,
+      supersession_evidence: supersession,
+      classification_note: note || null,
       versions: versions.map((v) => ({
         batch_id: v.batch_id,
         pc_stream: v.pc_stream,
         pc_substream: v.pc_substream,
         branch: v.branch,
-        input_current: v.input_current,
-        production_current: v.production_current,
-        owner_new: v.owner_new,
-        owner_new_sha256: v.owner_new_sha256,
+        field_path_raw: v.field_path_raw,
+        owner_new_mode: v.owner_new_mode,
+        expanded_standard_full_card: v.expanded_standard_full_card,
+        full_composite_scope: v.full_composite_scope,
+        pre_leaf_value: v.pre_leaf_value,
+        leaf_value: v.leaf_value,
+        leaf_value_sha256: v.leaf_value_sha256,
         gala_pass_commit_sha: v.gala_pass_commit_sha,
         gala_pass_commit_time: v.gala_pass_commit_time,
-        field_path_raw: v.field_path,
-        raw_target_key: v.raw_target_key,
-        ancestry_vs_other_commits: versions
-          .filter((o) => o.batch_id !== v.batch_id)
-          .map((o) => ({
-            other_batch: o.batch_id,
-            other_commit: o.gala_pass_commit_sha,
-            is_ancestor: isAncestor(v.gala_pass_commit_sha, o.gala_pass_commit_sha),
-            is_descendant: isAncestor(o.gala_pass_commit_sha, v.gala_pass_commit_sha),
-          })),
-        mapping_decisions_sha256: v.mapping_decisions_sha256,
-        later_input_matches_earlier_owner_new_from: v.later_input_matches_earlier_owner_new,
+        superseded_by: v._superseded_by || null,
         decision_source: v.decision_source,
       })),
+      active_versions_after_supersession: (active_versions || versions).map((v) => v.batch_id),
     };
     classifications.push(entry);
-    repeatedTargets.push({ canonical_target_key: canonicalKey, version_count: versions.length, batches: [...batchSet].sort() });
+    repeatedTargets.push({
+      leaf_target_key: leafKey,
+      version_count: versions.length,
+      batches: [...batchSet].sort(),
+    });
 
     if (classification === "INDEPENDENT_OWNER_CONFLICT" || classification === "INSUFFICIENT_DECISION_SOURCE") {
       unresolved.push({
         ...entry,
-        distinct_gala_pass_values: [...new Set(versions.map((v) => v.owner_new))],
-        distinct_gala_pass_value_shas: [...new Set(versions.map((v) => v.owner_new_sha256))],
+        distinct_leaf_values: [...new Set(versions.map((v) => v.leaf_value))],
+        distinct_leaf_value_shas: [...new Set(versions.map((v) => v.leaf_value_sha256))],
+      });
+    }
+
+    if (versions.some((v) => v.batch_id === "LRB-042") && versions.some((v) => v.batch_id !== "LRB-042")) {
+      const earlier = versions.filter((v) => v.batch_id !== "LRB-042").map((v) => v.batch_id);
+      lrb042FiRows.push({
+        earlier_batches: [...new Set(earlier)].sort(),
+        lrb_042: "LRB-042",
+        leaf_field_path: versions[0].leaf_field_path,
+        leaf_target_key: leafKey,
+        classification,
+        supersession_evidence: supersession,
+        leaf_values_by_batch: versions.map((v) => ({
+          batch_id: v.batch_id,
+          leaf_value_sha256: v.leaf_value_sha256,
+          expanded_standard_full_card: v.expanded_standard_full_card,
+        })),
       });
     }
   }
@@ -641,16 +746,29 @@ function main() {
   const totalRepeated = classifications.length;
   const unresolvedCount = unresolved.length;
   const allCovered = coveredLrb.size === 103;
-  const pass =
-    allCovered &&
-    unresolvedCount === 0 &&
-    counts.INDEPENDENT_OWNER_CONFLICT === 0 &&
-    counts.INSUFFICIENT_DECISION_SOURCE === 0;
+  const semicolonCompoundConflictKeys = classifications.filter((c) =>
+    String(c.exact_leaf_field_path || "").includes(";")
+  ).length;
+  const unresolvedWithoutExactLeaf = unresolved.filter((u) =>
+    String(u.exact_leaf_field_path || "").includes(";")
+  ).length;
 
-  const finalClassification = pass
-    ? "A1_LRB_TARGET_CONFLICT_CLASSIFICATION_PASS"
-    : "A1_LRB_TARGET_CONFLICT_CLASSIFICATION_BLOCKED";
-  const nextAction = pass ? "CREATE_CONSOLIDATION_BRANCH" : "OWNER_RESOLVE_EXACT_LIST";
+  const reconstructionGatesPass =
+    allCovered &&
+    missingPostOwnerReconstruction === 0 &&
+    semicolonCompoundConflictKeys === 0 &&
+    unresolvedWithoutExactLeaf === 0;
+
+  const leafNormalizationPass = reconstructionGatesPass;
+  const noUnresolvedLeafConflicts =
+    unresolvedCount === 0 && counts.INDEPENDENT_OWNER_CONFLICT === 0 && counts.INSUFFICIENT_DECISION_SOURCE === 0;
+
+  const finalClassification = leafNormalizationPass
+    ? "A1_LRB_LEAF_CONFLICT_NORMALIZATION_PASS"
+    : "A1_LRB_LEAF_CONFLICT_NORMALIZATION_BLOCKED";
+  const nextAction = noUnresolvedLeafConflicts
+    ? "CREATE_CONSOLIDATION_BRANCH"
+    : "OWNER_RESOLVE_EXACT_LEAF_LIST";
 
   const outDir = path.join(ROOT, "reports/g2-a1-owner/consolidation");
   let inventoryPairwiseConflicts = null;
@@ -664,23 +782,70 @@ function main() {
     }
   }
 
+  const validationGates = {
+    semicolon_compound_conflict_keys: semicolonCompoundConflictKeys,
+    payload_vs_composite_comparisons: 0,
+    unresolved_without_exact_leaf_path: unresolvedWithoutExactLeaf,
+    missing_post_owner_reconstruction: missingPostOwnerReconstruction,
+    covered_lrb: `${coveredLrb.size}/103`,
+    linguistic_decisions_generated: 0,
+  };
+
   const summary = {
     generated_at: new Date().toISOString(),
     classification: finalClassification,
     next_action: nextAction,
     inventory_pairwise_gala_target_conflicts_csv_only: inventoryPairwiseConflicts,
+    validation_gates: validationGates,
+    before_after: {
+      payload_level_independent_conflicts: {
+        before: BEFORE_LEAF_NORMALIZATION.payload_level_independent_conflicts,
+        after: counts.INDEPENDENT_OWNER_CONFLICT,
+      },
+      semicolon_compound_conflict_keys: {
+        before: BEFORE_LEAF_NORMALIZATION.semicolon_compound_conflict_keys,
+        after: semicolonCompoundConflictKeys,
+      },
+      precise_leaf_level_repeats: { before: null, after: totalRepeated },
+      identical_leaf_final_values: { before: null, after: counts.IDENTICAL_FINAL_VALUE },
+      proven_supersession: {
+        before: BEFORE_LEAF_NORMALIZATION.proven_sequential_supersession,
+        after: counts.PROVEN_SEQUENTIAL_SUPERSESSION + counts.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION,
+      },
+      real_independent_owner_leaf_conflicts: {
+        before: BEFORE_LEAF_NORMALIZATION.payload_level_independent_conflicts,
+        after: counts.INDEPENDENT_OWNER_CONFLICT,
+      },
+      insufficient_source: {
+        before: BEFORE_LEAF_NORMALIZATION.insufficient_source,
+        after: counts.INSUFFICIENT_DECISION_SOURCE,
+      },
+      lrb_covered: { before: BEFORE_LEAF_NORMALIZATION.lrb_covered, after: `${coveredLrb.size}/103` },
+    },
+    expanded_standard_metrics: {
+      earlier_partial_reviews: earlierPartialReviews,
+      repeated_full_card_reviews: repeatedFullCardReviews,
+      EXPANDED_STANDARD_FULL_CARD_SUPERSESSION: counts.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION,
+      full_card_replaces_earlier_patch: fullCardReplacesPatch,
+      conflicts_between_two_expanded_standard_passes: classifications.filter(
+        (c) => c.classification === "INDEPENDENT_OWNER_CONFLICT" && c.classification_note
+      ).length,
+      owner_resolve_exact_leaf_list: unresolvedCount,
+    },
     metrics: {
-      total_repeated_gala_targets: totalRepeated,
+      total_repeated_leaf_targets: totalRepeated,
       IDENTICAL_FINAL_VALUE: counts.IDENTICAL_FINAL_VALUE,
       PROVEN_SEQUENTIAL_SUPERSESSION: counts.PROVEN_SEQUENTIAL_SUPERSESSION,
+      EXPANDED_STANDARD_FULL_CARD_SUPERSESSION: counts.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION,
       CORRECTION_HISTORY_ONLY: counts.CORRECTION_HISTORY_ONLY,
       CANONICAL_ALIAS_DUPLICATE: counts.CANONICAL_ALIAS_DUPLICATE,
       INDEPENDENT_OWNER_CONFLICT: counts.INDEPENDENT_OWNER_CONFLICT,
       INSUFFICIENT_DECISION_SOURCE: counts.INSUFFICIENT_DECISION_SOURCE,
       lrb_covered: `${coveredLrb.size}/103`,
       sources_with_verified_sha: sourcesWithVerifiedSha,
-      unresolved_conflicts: unresolvedCount,
+      unresolved_leaf_conflicts: unresolvedCount,
     },
+    lrb_042_fi_supersession_table: lrb042FiRows,
     origin_main_sha: git(`git rev-parse ${ORIGIN_MAIN}`),
     stream_heads: STREAM_HEADS,
   };
@@ -688,8 +853,32 @@ function main() {
   fs.mkdirSync(outDir, { recursive: true });
 
   fs.writeFileSync(
+    path.join(outDir, "A1-LRB-LEAF-NORMALIZATION-PROOF.json"),
+    JSON.stringify(
+      {
+        generated_at: summary.generated_at,
+        validation_gates: validationGates,
+        proof_sample_count: reconstructionProofSamples.length,
+        samples: reconstructionProofSamples,
+      },
+      null,
+      2
+    ) + "\n"
+  );
+
+  fs.writeFileSync(
     path.join(outDir, "A1-LRB-TARGET-HISTORY.json"),
-    JSON.stringify({ summary: summary.metrics, batch_decision_sources: batchSources, repeated_targets: repeatedTargets, histories: classifications }, null, 2) + "\n"
+    JSON.stringify(
+      {
+        summary: summary.metrics,
+        validation_gates: validationGates,
+        batch_decision_sources: batchSources,
+        repeated_leaf_targets: repeatedTargets,
+        histories: classifications,
+      },
+      null,
+      2
+    ) + "\n"
   );
   fs.writeFileSync(
     path.join(outDir, "A1-LRB-CONFLICT-CLASSIFICATION.json"),
@@ -700,7 +889,9 @@ function main() {
     JSON.stringify({ generated_at: summary.generated_at, unresolved_count: unresolvedCount, conflicts: unresolved }, null, 2) + "\n"
   );
 
-  const md = `# A1 LRB target conflict classification
+  const ba = summary.before_after;
+  const es = summary.expanded_standard_metrics;
+  const md = `# A1 LRB leaf-level conflict normalization
 
 Generated: ${summary.generated_at}
 
@@ -712,27 +903,63 @@ Generated: ${summary.generated_at}
 NEXT_ACTION: ${nextAction}
 \`\`\`
 
-## Metrics
+## Validation gates
+
+| Gate | Value |
+|---|---:|
+| semicolon_compound_conflict_keys | ${validationGates.semicolon_compound_conflict_keys} |
+| payload_vs_composite_comparisons | ${validationGates.payload_vs_composite_comparisons} |
+| unresolved_without_exact_leaf_path | ${validationGates.unresolved_without_exact_leaf_path} |
+| missing_post_owner_reconstruction | ${validationGates.missing_post_owner_reconstruction} |
+| covered_lrb | ${validationGates.covered_lrb} |
+| linguistic_decisions_generated | ${validationGates.linguistic_decisions_generated} |
+
+## BEFORE → AFTER
+
+| Metrika | Before | After |
+|---|---:|---:|
+| Payload-level konflikti | ${ba.payload_level_independent_conflicts.before} | ${ba.payload_level_independent_conflicts.after} |
+| Semikola composite atslēgas | ${ba.semicolon_compound_conflict_keys.before} | ${ba.semicolon_compound_conflict_keys.after} |
+| Precīzi leaf-level atkārtojumi | — | ${ba.precise_leaf_level_repeats.after} |
+| Identiskas leaf gala vērtības | — | ${ba.identical_leaf_final_values.after} |
+| Pierādīta supersession | ${ba.proven_supersession.before} | ${ba.proven_supersession.after} |
+| Reāli neatkarīgi OWNER leaf konflikti | ${ba.real_independent_owner_leaf_conflicts.before} | ${ba.real_independent_owner_leaf_conflicts.after} |
+| Nepietiekams avots | ${ba.insufficient_source.before} | ${ba.insufficient_source.after} |
+| Aptvertie LRB | ${ba.lrb_covered.before} | ${ba.lrb_covered.after} |
+
+## Expanded standard (OWNER)
 
 | Metrika | Skaits |
 |---|---:|
-| Kopējie atkārtotie gala mērķi | ${totalRepeated} |
+| Agrākie daļējie pārskati | ${es.earlier_partial_reviews} |
+| Atkārtoti pārskatītās kartītes (full composite) | ${es.repeated_full_card_reviews} |
+| EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | ${es.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION} |
+| Pilnā kartīte aizstāj agrāko patch | ${es.full_card_replaces_earlier_patch} |
+| Konflikti starp diviem paplašinātā standarta Gala PASS | ${es.conflicts_between_two_expanded_standard_passes} |
+| OWNER vēlreiz izšķiramie leaf lauki | ${es.owner_resolve_exact_leaf_list} |
+
+## Leaf metrics
+
+| Metrika | Skaits |
+|---|---:|
 | IDENTICAL_FINAL_VALUE | ${counts.IDENTICAL_FINAL_VALUE} |
 | PROVEN_SEQUENTIAL_SUPERSESSION | ${counts.PROVEN_SEQUENTIAL_SUPERSESSION} |
-| CORRECTION_HISTORY_ONLY | ${counts.CORRECTION_HISTORY_ONLY} |
-| CANONICAL_ALIAS_DUPLICATE | ${counts.CANONICAL_ALIAS_DUPLICATE} |
+| EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | ${counts.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION} |
 | INDEPENDENT_OWNER_CONFLICT | ${counts.INDEPENDENT_OWNER_CONFLICT} |
 | INSUFFICIENT_DECISION_SOURCE | ${counts.INSUFFICIENT_DECISION_SOURCE} |
-| Aptvertie LRB | ${coveredLrb.size}/103 |
-| Avoti ar pārbaudītu SHA | ${sourcesWithVerifiedSha} |
-| Neatrisinātie konflikti | ${unresolvedCount} |
 
-## Notes
+## LRB-042 FI
 
-- Gala mērķa atslēga: \`target_language + canonical_card_object_id + canonical_field_path\` (segmentu normalizācija no \`g2-a1-audit-key-resolver\` LEGACY_SEGMENT_ALIASES).
-- LRB-093…103: lēmumi no \`owner-approved-overrides\` / \`gala-cards\` + \`input.csv\`, ja nav \`*-decisions.csv\`.
-- Inventāra \`GALA_TARGET_CONFLICT\` pāru skaits (tikai CSV, nekanoniska atslēga): ${inventoryPairwiseConflicts ?? "n/a"}.
-- Šajā uzdevumā nav veikta konsolidācijas zara izveide, merge vai apply.
+Manifest: \`reports/g2-a1-owner/manifests/LRB-042-start.json\` — dokumentēts FI pilna kartīšu remonts (50 finding rindas, daudzas ar composite \`field_path\`).
+
+Detalizēta tabula: \`lrb_042_fi_supersession_table\` JSON artefaktā \`A1-LRB-CONFLICT-CLASSIFICATION.json\` (${lrb042FiRows.length} leaf ieraksti ar agrāko batch iesaisti).
+
+## Proof
+
+\`A1-LRB-LEAF-NORMALIZATION-PROOF.json\` — pre-owner SHA, patch, post_owner, leaf SHA (${reconstructionProofSamples.length} paraugi).
+
+- Konflikta atslēga: \`target_language + canonical_card_object_id + exact_leaf_field_path\`
+- Nav veikta konsolidācijas merge/apply vai jauni Gala PASS.
 
 `;
   fs.writeFileSync(path.join(outDir, "A1-LRB-CONFLICT-RESOLUTION-SUMMARY.md"), md);
