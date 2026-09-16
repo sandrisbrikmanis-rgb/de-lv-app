@@ -1,0 +1,327 @@
+{
+  "batch_id": "LRB-070",
+  "language": "lb",
+  "classification": "LRB_070_OWNER_COPY_PASTE_REQUIRED",
+  "base": {
+    "pr": 825,
+    "branch": "cursor/lrb-070-owner-authorization-aa66",
+    "head": "921f0ef3",
+    "input_csv_sha256": "50bd863777a163de7d5c66fb367fb53d61b64022bb48482a37f6bd84d6fd7dd5"
+  },
+  "instructions": {
+    "mode": "COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+    "de_source": "DO_NOT_CHANGE",
+    "production": "DO_NOT_CHANGE",
+    "crowdin": "DO_NOT_CHANGE",
+    "ingest_apply": "DO_NOT_RUN"
+  },
+  "counts": {
+    "rows": 50,
+    "unique_cards": 29,
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0
+  },
+  "changes": [
+    {
+      "card_object_id": "a1-ab",
+      "field_path": "a1.card.a1-ab.study.comparison[1].meaning",
+      "current": "No kāda/kaut kā • Izcelsme",
+      "new": "vun eppes • Hierkonft"
+    },
+    {
+      "card_object_id": "a1-aber",
+      "field_path": "a1.card.a1-aber.study.comparison[0].meaning",
+      "current": "Pretstats • Iebilde • Tomēr",
+      "new": "Géigesaz • Asproch • awer"
+    },
+    {
+      "card_object_id": "a1-an",
+      "field_path": "a1.card.a1-an.native",
+      "current": "Von • Zu • Present",
+      "new": "bei"
+    },
+    {
+      "card_object_id": "a1-an",
+      "field_path": "a1.card.a1-an.study.translation",
+      "current": "Op • Op der Uewerfläch • Am Rand",
+      "new": "bei"
+    },
+    {
+      "card_object_id": "a1-aufs",
+      "field_path": "a1.card.a1-aufs.native",
+      "current": "Uz • Virsū • Kurp?",
+      "new": "op"
+    },
+    {
+      "card_object_id": "a1-aufs",
+      "field_path": "a1.card.a1-aufs.study.translation",
+      "current": "Uz • Virsū • Kurp?",
+      "new": "op"
+    },
+    {
+      "card_object_id": "a1-aus",
+      "field_path": "a1.card.a1-aus.native",
+      "current": "No • Ārā",
+      "new": "aus"
+    },
+    {
+      "card_object_id": "a1-aus",
+      "field_path": "a1.card.a1-aus.study.translation",
+      "current": "No • Ārā",
+      "new": "aus"
+    },
+    {
+      "card_object_id": "a1-besuch",
+      "field_path": "a1.card.a1-besuch.study.comparison[0].meaning",
+      "current": "Besuch • Visioun • Vizit",
+      "new": "Besuch • Visitt • Rendez-vous"
+    },
+    {
+      "card_object_id": "a1-besuchen",
+      "field_path": "a1.card.a1-besuchen.study.comparison[0].meaning",
+      "current": "eng Plaz oder eng Manifestatioun besuchen • eng Persoun besuchen",
+      "new": "eng Plaz oder eng Manifestatioun besichen • eng Persoun besichen"
+    },
+    {
+      "card_object_id": "a1-bringen",
+      "field_path": "a1.card.a1-bringen.native",
+      "current": "Atnest • Aiznest",
+      "new": "bréngen"
+    },
+    {
+      "card_object_id": "a1-bringen",
+      "field_path": "a1.card.a1-bringen.study.translation",
+      "current": "Atnest • Aiznest",
+      "new": "bréngen"
+    },
+    {
+      "card_object_id": "a1-da",
+      "field_path": "a1.card.a1-da.study.comparison[0].meaning",
+      "current": "Tur • Te • Šeit (vispārīgi)",
+      "new": "do • hei • am Allgemengen"
+    },
+    {
+      "card_object_id": "a1-das",
+      "field_path": "a1.card.a1-das.study.comparison[2].meaning",
+      "current": "Kurš • Kura • Kuru",
+      "new": "deen • déi • dat"
+    },
+    {
+      "card_object_id": "a1-dass",
+      "field_path": "a1.card.a1-dass.study.comparison[1].meaning",
+      "current": "Jo • Tāpēc ka",
+      "new": "datt"
+    },
+    {
+      "card_object_id": "a1-ein",
+      "field_path": "a1.card.a1-ein.native",
+      "current": "Indefinite Article • Eng • Someone",
+      "new": "onbestëmmten Artikel"
+    },
+    {
+      "card_object_id": "a1-ein",
+      "field_path": "a1.card.a1-ein.study.translation",
+      "current": "Indefinite Article • Eng • Someone",
+      "new": "onbestëmmten Artikel"
+    },
+    {
+      "card_object_id": "a1-einmal",
+      "field_path": "a1.card.a1-einmal.native",
+      "current": "Vienreiz • Reiz",
+      "new": "eemol • eng Kéier"
+    },
+    {
+      "card_object_id": "a1-einmal",
+      "field_path": "a1.card.a1-einmal.study.translation",
+      "current": "Vienreiz • Reiz",
+      "new": "eemol • eng Kéier"
+    },
+    {
+      "card_object_id": "a1-eis",
+      "field_path": "a1.card.a1-eis.native",
+      "current": "Ledus • Saldējums",
+      "new": "Äis • Glace"
+    },
+    {
+      "card_object_id": "a1-eis",
+      "field_path": "a1.card.a1-eis.study.translation",
+      "current": "Ledus • Saldējums",
+      "new": "Äis • Glace"
+    },
+    {
+      "card_object_id": "a1-erst",
+      "field_path": "a1.card.a1-erst.native",
+      "current": "Fesche Pirme • Tikai",
+      "new": "éischt"
+    },
+    {
+      "card_object_id": "a1-erst",
+      "field_path": "a1.card.a1-erst.study.comparison[0].meaning",
+      "current": "Fesche Pirme • Tikai",
+      "new": "éischt • nëmmen"
+    },
+    {
+      "card_object_id": "a1-erst",
+      "field_path": "a1.card.a1-erst.study.translation",
+      "current": "Fesche Pirme • Tikai",
+      "new": "éischt"
+    },
+    {
+      "card_object_id": "a1-es",
+      "field_path": "a1.card.a1-es.native",
+      "current": "Bag • Tā • Bezpersoniska Forma",
+      "new": "et"
+    },
+    {
+      "card_object_id": "a1-es",
+      "field_path": "a1.card.a1-es.study.comparison[0].meaning",
+      "current": "dat • ouni Persoun Form",
+      "new": "et • onperséinlech Form"
+    },
+    {
+      "card_object_id": "a1-es",
+      "field_path": "a1.card.a1-es.study.translation",
+      "current": "Bag • Tā • Bezpersoniska Forma",
+      "new": "et"
+    },
+    {
+      "card_object_id": "a1-essen-study",
+      "field_path": "a1.card.a1-essen-study.native",
+      "current": "Ēdiens • Maltīte",
+      "new": "Iessen • Moolzecht"
+    },
+    {
+      "card_object_id": "a1-essen-study",
+      "field_path": "a1.card.a1-essen-study.study.translation",
+      "current": "Ēdiens • Maltīte",
+      "new": "Iessen • Moolzecht"
+    },
+    {
+      "card_object_id": "a1-etwas",
+      "field_path": "a1.card.a1-etwas.native",
+      "current": "Kaut kas • Nedaudz",
+      "new": "eppes"
+    },
+    {
+      "card_object_id": "a1-etwas",
+      "field_path": "a1.card.a1-etwas.study.translation",
+      "current": "Kaut kas • Nedaudz",
+      "new": "eppes"
+    },
+    {
+      "card_object_id": "a1-euch",
+      "field_path": "a1.card.a1-euch.native",
+      "current": "Jūs • Jums",
+      "new": "iech • iech"
+    },
+    {
+      "card_object_id": "a1-euch",
+      "field_path": "a1.card.a1-euch.study.translation",
+      "current": "Jūs • Jums",
+      "new": "iech • iech"
+    },
+    {
+      "card_object_id": "a1-fahren",
+      "field_path": "a1.card.a1-fahren.native",
+      "current": "Braukt • Vest • Aizvest",
+      "new": "fueren"
+    },
+    {
+      "card_object_id": "a1-fahren",
+      "field_path": "a1.card.a1-fahren.study.translation",
+      "current": "Braukt • Vest • Aizvest",
+      "new": "fueren"
+    },
+    {
+      "card_object_id": "a1-finden",
+      "field_path": "a1.card.a1-finden.native",
+      "current": "Fannt • Betruecht",
+      "new": "fannen"
+    },
+    {
+      "card_object_id": "a1-finden",
+      "field_path": "a1.card.a1-finden.study.translation",
+      "current": "Fannt • Betruecht",
+      "new": "fannen"
+    },
+    {
+      "card_object_id": "a1-frau",
+      "field_path": "a1.card.a1-frau.native",
+      "current": "Sieviete • Sieva",
+      "new": "Fra"
+    },
+    {
+      "card_object_id": "a1-frau",
+      "field_path": "a1.card.a1-frau.study.translation",
+      "current": "Sieviete • Sieva",
+      "new": "Fra"
+    },
+    {
+      "card_object_id": "a1-fuer",
+      "field_path": "a1.card.a1-fuer.native",
+      "current": "Virun • Virun",
+      "new": "fir"
+    },
+    {
+      "card_object_id": "a1-fuer",
+      "field_path": "a1.card.a1-fuer.study.translation",
+      "current": "Virun • Virun",
+      "new": "fir"
+    },
+    {
+      "card_object_id": "a1-ganz-study",
+      "field_path": "a1.card.a1-ganz-study.study.comparison[0].meaning",
+      "current": "ganz • alles zesummen • komplett",
+      "new": "ganz • als Ganzt • komplett"
+    },
+    {
+      "card_object_id": "a1-gefallen-study",
+      "field_path": "a1.card.a1-gefallen-study.study.comparison[0].meaning",
+      "current": "gefall • Persoun am Dativ",
+      "new": "gefalen • Persoun am Dativ"
+    },
+    {
+      "card_object_id": "a1-gleich",
+      "field_path": "a1.card.a1-gleich.native",
+      "current": "Tūlīt • Vienāds",
+      "new": "gläich"
+    },
+    {
+      "card_object_id": "a1-gleich",
+      "field_path": "a1.card.a1-gleich.study.translation",
+      "current": "Tūlīt • Vienāds",
+      "new": "gläich"
+    },
+    {
+      "card_object_id": "a1-halten",
+      "field_path": "a1.card.a1-halten.native",
+      "current": "Turēt • Apturēt",
+      "new": "halen"
+    },
+    {
+      "card_object_id": "a1-halten",
+      "field_path": "a1.card.a1-halten.study.translation",
+      "current": "Turēt • Apturēt",
+      "new": "halen"
+    },
+    {
+      "card_object_id": "a1-heissen",
+      "field_path": "a1.card.a1-heissen.native",
+      "current": "Saukties • Nozīmēt",
+      "new": "heeschen"
+    },
+    {
+      "card_object_id": "a1-heissen",
+      "field_path": "a1.card.a1-heissen.study.translation",
+      "current": "Saukties • Nozīmēt",
+      "new": "heeschen"
+    },
+    {
+      "card_object_id": "a1-hoeren-study",
+      "field_path": "a1.card.a1-hoeren-study.native",
+      "current": "Dzirdēt • Klausīties",
+      "new": "héieren • nolauschteren"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# G2/A1 LRB LRB-070 — OWNER review GitHub index
+
+- [OWNER VIEW](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-070-owner-authorization-aa66/reports/g2-a1-owner/batches-owner-review/LRB-070/LRB-070-owner-view.md)
+- [OWNER DECISIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-070-owner-authorization-aa66/reports/g2-a1-owner/batches-owner-review/LRB-070/LRB-070-owner-decisions.md)
+- [OWNER CORRECTIONS](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-070-owner-authorization-aa66/reports/g2-a1-owner/batches-owner-review/LRB-070/LRB-070-owner-corrections.md)
+- [Gala cards JSON](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-070-owner-authorization-aa66/reports/g2-a1-owner/batches-owner-review/LRB-070/LRB-070-gala-cards.json)
+- [LV→DE source cards JSON](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-070-owner-authorization-aa66/reports/g2-a1-owner/batches-owner-review/LRB-070/LRB-070-lv-de-source-cards.json)
+- [Batch manifest](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-070-owner-authorization-aa66/reports/g2-a1-owner/manifests/LRB-070-start.json)
+- [Batch input CSV](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-070-owner-authorization-aa66/reports/g2-a1-owner/batches-pending/LRB-070-input.csv)
+
+**Branch:** `cursor/lrb-070-owner-authorization-aa66`
+**Source commit:** `921f0ef3c19e13f8511769a038b089625dad53a9`
+
