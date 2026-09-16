@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-070",
-  "classification": "LRB_070_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "classification": "LRB_070_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "reviewer": "owner-prep-pipeline",
   "paste_source": "gpt-5.6-luna-copy-paste",
   "recalculated_from_production": true,
@@ -24,6 +24,6 @@
     "fi": 50
   },
   "failures": [],
-  "verdict": "LRB_070_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
-  "updatedAt": "2026-09-16T17:00:58.772Z"
+  "verdict": "LRB_070_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-16T17:04:17.556Z"
 }

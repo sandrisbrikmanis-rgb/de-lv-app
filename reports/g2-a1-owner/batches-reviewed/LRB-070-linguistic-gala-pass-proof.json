@@ -1,0 +1,23 @@
+{
+  "batch_id": "LRB-070",
+  "verdict": "LRB_070_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "classification": "LRB_070_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "status": "LINGUISTICALLY_CLOSED",
+  "gala_pass_recorded": true,
+  "recorded_at": "2026-09-16T17:05:00.000Z",
+  "paste_head_sha256": "971b47d6",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 29,
+  "decisions_sha256": "ae037c2fbc53090192304f49bc52c672f7598afc9466a023c630c00a3d97817d",
+  "copy_paste_correction_4_sha256": "33ae22adf9b7e47521092474a58020676599f0a5cb41024778bf6e1a8005d33c",
+  "residual_audit_pass": true,
+  "pdf_reaudit_pass": true,
+  "anti_bulk_pass": true,
+  "production_changes": 0,
+  "de_changes": 0,
+  "ingest_apply": "NOT_STARTED",
+  "note": "Gala independent FULL_50_50 linguistic review PASS after COPY-PASTE corrections 2–4."
+}

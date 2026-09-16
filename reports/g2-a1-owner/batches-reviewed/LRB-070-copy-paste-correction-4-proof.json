@@ -1,7 +1,7 @@
 {
   "batch_id": "LRB-070",
-  "classification": "LRB_070_COPY_PASTE_CORRECTION_4_COMPLETE_AWAITING_GALA_VERDICT",
-  "status": "AWAITING_GALA_VERDICT",
+  "classification": "LRB_070_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "status": "LINGUISTICALLY_CLOSED",
   "copy_paste_correction_4": "COPY_PASTE_CORRECTION_4_APPLIED",
   "paste_sha256": "33ae22adf9b7e47521092474a58020676599f0a5cb41024778bf6e1a8005d33c",
   "base_correction_3_sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599",
@@ -33,8 +33,9 @@
     "anti_bulk": "PASS",
     "study_examples_de_vs_data_a1_js": "PASS"
   },
-  "gala_pass_recorded": false,
-  "linguistically_closed": false,
+  "gala_pass_recorded": true,
+  "linguistically_closed": true,
+  "linguistic_gala_pass_proof": "reports/g2-a1-owner/batches-reviewed/LRB-070-linguistic-gala-pass-proof.json",
   "apply_command": "node scripts/build-lrb070-correction-4-artifacts.js",
   "updatedAt": "2026-09-16T17:00:00.000Z"
 }

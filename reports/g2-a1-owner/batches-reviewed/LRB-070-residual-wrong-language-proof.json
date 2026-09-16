@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-070",
-  "classification": "LRB_070_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "classification": "LRB_070_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "pdf_reaudit": true,
   "post_repair_merge": true,
   "paste_source": "gpt-5.6-luna-copy-paste",
@@ -28,10 +28,11 @@
     "full_composite_completeness": "PASS",
     "anti_bulk": "PASS"
   },
-  "productionSource": "data/fi/a1.js",
+  "productionSource": "data/lb/a1.js",
   "languages": {
-    "fi": 50
+    "lb": 50
   },
+  "lb_rows": 50,
   "composite_repairs": [
     "lb:a1-ab",
     "lb:a1-aber",
@@ -64,6 +65,6 @@
     "lb:a1-hoeren-study"
   ],
   "failures": [],
-  "verdict": "LRB_070_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
-  "updatedAt": "2026-09-16T17:00:58.832Z"
+  "verdict": "LRB_070_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-16T17:04:17.616Z"
 }
