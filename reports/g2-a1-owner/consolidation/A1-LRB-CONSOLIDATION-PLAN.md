@@ -12,12 +12,12 @@ Prior inventory: `A1_LRB_CONSOLIDATION_INVENTORY_BLOCKED`
 
 | Metric | Before | After |
 |--------|--------|-------|
-| Missing LRB (no GitHub ref) | 0 () | 0 |
-| Linguistically closed | 103 | 103 |
-| finding_stable_id divergences (deprecated) | null | 0 |
-| Gala target conflicts (lang+card+field) | n/a | 475 |
+| Missing LRB (no GitHub ref) | 10 (LRB-093…102) | 0 |
+| Linguistically closed | 92 | 103 |
+| finding_stable_id divergences (deprecated) | 478 | 0 |
+| Gala target conflicts (lang+card+field) | 478 (mis-keyed) | 475 |
 | Correction-history notes (in-batch SHA drift) | n/a | 3 |
-| Artifacts `c_not_on_github` flags | n/a | 0 |
+| Artifacts `c_not_on_github` (false flags) | many | 0 |
 
 ## Stream heads
 
