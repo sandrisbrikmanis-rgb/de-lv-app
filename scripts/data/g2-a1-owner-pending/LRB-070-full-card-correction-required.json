@@ -1,0 +1,158 @@
+{
+  "batch_id": "LRB-070",
+  "classification": "LRB_070_FULL_CARD_CORRECTION_REQUIRED_BEFORE_GALA",
+  "status": "DO_NOT_CLOSE",
+  "verified_copy_paste": {
+    "applied_changes": 50,
+    "exact_matches": 50
+  },
+  "findings": [
+    {
+      "card_object_id": "a1-ab",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-aber",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-an",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-aufs",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-aus",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-besuch",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-besuchen",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-bringen",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-da",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-das",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-dass",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-ein",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-einmal",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-eis",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-erst",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-es",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-essen-study",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-etwas",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-euch",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-fahren",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-finden",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-frau",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-fuer",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-ganz-study",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-gefallen-study",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-gleich",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-halten",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-heissen",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    },
+    {
+      "card_object_id": "a1-hoeren-study",
+      "required_replacement_scope": "full_card_target_fields",
+      "reason": "Post-paste gala card still contains non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+    }
+  ],
+  "required_owner_action": "Provide complete, source-aligned Luxembourgish post_owner replacement objects for all listed cards. No placeholder values may be applied.",
+  "cursor_action": "DO_NOT_GENERATE_LINGUISTIC_CONTENT; await exact OWNER full-card values."
+}

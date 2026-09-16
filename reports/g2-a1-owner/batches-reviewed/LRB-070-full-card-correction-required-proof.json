@@ -1,0 +1,22 @@
+{
+  "batch_id": "LRB-070",
+  "classification": "LRB_070_FULL_CARD_CORRECTION_REQUIRED_BEFORE_GALA",
+  "status": "DO_NOT_CLOSE",
+  "verified_copy_paste_step_1": {
+    "applied_changes": 50,
+    "exact_matches": 50,
+    "paste_sha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9"
+  },
+  "gala_finding": {
+    "required_unique_cards": 29,
+    "required_replacement_scope": "full_card_target_fields",
+    "reason": "Post-paste gala cards still contain non-Luxembourgish or malformed study content outside the 50 applied decision paths."
+  },
+  "requirement_doc": "scripts/data/g2-a1-owner-pending/LRB-070-full-card-correction-required.json",
+  "requirement_doc_sha256": "d5bdad2bf1d12d4053adbc4861558af76284ec411f7093f9afbefdb244a234eb",
+  "copy_paste_2_scaffold": "scripts/data/g2-a1-owner-pending/LRB-070-decisions-COPY-PASTE-2.json",
+  "apply_script": "scripts/build-lrb070-correction-2-artifacts.js",
+  "required_owner_action": "Provide complete, source-aligned Luxembourgish post_owner replacement objects for all 29 listed cards. No placeholder values may be applied.",
+  "cursor_action": "DO_NOT_GENERATE_LINGUISTIC_CONTENT; await exact OWNER full-card values. No GALA PASS.",
+  "verdict": "BLOCKED_AWAITING_OWNER_FULL_CARD_COMPOSITES"
+}
