@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-074",
-  "sourceCommit": "d6c0816b8f51dd59178657c65beae44a46405649",
+  "sourceCommit": "fd62e5b6ef2ed1d7a992602dbc64de24717e9e8e",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC",
+  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_1",
   "cards": [
     {
       "auditId": "LRB074-0001",
@@ -103,7 +103,7 @@
             },
             {
               "de": "Es ist müde.",
-              "lv": "Det snør."
+              "lv": "Det er trøytt."
             }
           ],
           "comparison": [
@@ -1696,22 +1696,22 @@
             {
               "word": "ein Mann",
               "meaning": "hankjønn i nominativ",
-              "example": "Ein mann ventar ute."
+              "example": "Ein Mann wartet draußen. – Ein mann ventar ute."
             },
             {
               "word": "eine Frau",
               "meaning": "hokjønn i nominativ",
-              "example": "Ei kvinne ventar ute."
+              "example": "Eine Frau wartet draußen. – Ei kvinne ventar ute."
             },
             {
               "word": "ein Buch",
               "meaning": "inkjekjønn i nominativ",
-              "example": "Eg har ei bok."
+              "example": "Ich habe ein Buch. – Eg har ei bok."
             },
             {
               "word": "einen Mann",
               "meaning": "hankjønn i akkusativ",
-              "example": "Eg ser ein mann."
+              "example": "Ich sehe einen Mann. – Eg ser ein mann."
             }
           ]
         }
@@ -1939,10 +1939,6 @@
             {
               "de": "Es ist müde.",
               "lv": "Det er trøytt."
-            },
-            {
-              "de": "Es regnet.",
-              "lv": "Det snør."
             }
           ],
           "info": [
@@ -2052,7 +2048,7 @@
             },
             {
               "de": "Was wollt ihr essen?",
-              "lv": "Maten er ferdig."
+              "lv": "Kva vil de ete?"
             },
             {
               "de": "Wir essen um 12 Uhr.",
@@ -2060,7 +2056,7 @@
             },
             {
               "de": "Das Essen ist fertig.",
-              "lv": "Eg likar maten."
+              "lv": "Maten er ferdig."
             }
           ],
           "tip": [
@@ -2318,10 +2314,6 @@
             {
               "de": "Das Fernsehen ist heute langweilig.",
               "lv": "Eg ser på fjernsyn i kveld."
-            },
-            {
-              "de": "Ich sehe heute Abend fern.",
-              "lv": "Kva går på fjernsynet?"
             }
           ],
           "tip": [
@@ -2612,10 +2604,6 @@
             {
               "de": "Wir kaufen Gemüse auf dem Markt.",
               "lv": "Eg likar frukt og grønsaker."
-            },
-            {
-              "de": "Ich mag Obst und Gemüse.",
-              "lv": "Eg et grønsaker."
             }
           ],
           "tip": [
@@ -2813,5 +2801,7 @@
         }
       }
     }
-  ]
+  ],
+  "correctionRound": 1,
+  "copyPasteSpecSha256": "14dcf6306b413899bde882a2a0571f010f036660450eb78f269d00cf91c2e4dd"
 }

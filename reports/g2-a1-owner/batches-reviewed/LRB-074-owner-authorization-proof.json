@@ -17,7 +17,7 @@
   "lunaAuditScript": "scripts/temp-audit-lrb074-luna.js",
   "lunaModel": "gpt-5.6-luna",
   "lunaTokens": 73435,
-  "overridesSha256": "710caa94e10ca25ba3fc2004baa1bfe67837ddd139704597a75094b7244e76c8",
+  "overridesSha256": "77a85df065e20e47f177a3b0e34bf9da90646cb4cda66c2145bc49eb590f847d",
   "antiBulkPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   "individual_linguistic": 50,

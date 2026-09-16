@@ -7,11 +7,13 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-16T15:39:30.712Z
-**Source commit:** `d6c0816b8f51dd59178657c65beae44a46405649`
+**Generated:** 2026-09-16T15:52:43.414Z
+**Source commit:** `fd62e5b6ef2ed1d7a992602dbc64de24717e9e8e`
 **Branch:** `cursor/lrb-074-owner-authorization-ed35`
-**Overrides SHA256:** `710caa94e10ca25ba3fc2004baa1bfe67837ddd139704597a75094b7244e76c8`
-**Classification:** `G2_A1_LRB_OWNER_APPROVED_OVERRIDES_APPLIED`
+**Overrides SHA256:** `77a85df065e20e47f177a3b0e34bf9da90646cb4cda66c2145bc49eb590f847d`
+**Classification:** `G2_A1_LRB_COPY_PASTE_CORRECTION_1_APPLIED`
+**COPY/PASTE spec SHA-256:** `14dcf6306b413899bde882a2a0571f010f036660450eb78f269d00cf91c2e4dd`
+**UNIQUE_TARGET_CARDS (metadata):** 46
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
@@ -111,7 +113,7 @@
 **CURRENT (captured scope):** det • ikkje-personleg form
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"es","lv":"det • upersonleg pronomen","level":"A1","study":{"id":"a1-es","layout":"standardStudy","translation":"det • upersonleg pronomen","explanation":["Hovudidé: es er eit tysk pronomen som ofte svarar til det eller blir ståande utan direkte omsetjing i upersonlege setningar.","Det må ikkje blandast saman med norsk «eg»; «eg» heiter ich på tysk."],"examples":[{"de":"Es regnet.","lv":"Det regnar."},{"de":"Es ist kalt.","lv":"Det er kaldt."},{"de":"Das Kind schläft.","lv":"Barnet søv."},{"de":"Es ist müde.","lv":"Det snør."}],"comparison":[{"word":"es","meaning":"det • upersonleg pronomen","example":"Es regnet. – Det regnar."},{"word":"ich","meaning":"eg","example":"Ich lerne Deutsch. – Eg lærer tysk."}],"tip":{"text":"Tysk es betyr ofte «det» eller står i upersonlege uttrykk; norsk «eg» er ich."},"important":["Våre «eg» heiter ich på tysk.","I «Es regnet» blir es omsett med «det»."]}}
+**NEW (OWNER mapping):** {"de":"es","lv":"det • upersonleg pronomen","level":"A1","study":{"id":"a1-es","layout":"standardStudy","translation":"det • upersonleg pronomen","explanation":["Hovudidé: es er eit tysk pronomen som ofte svarar til det eller blir ståande utan direkte omsetjing i upersonlege setningar.","Det må ikkje blandast saman med norsk «eg»; «eg» heiter ich på tysk."],"examples":[{"de":"Es regnet.","lv":"Det regnar."},{"de":"Es ist kalt.","lv":"Det er kaldt."},{"de":"Das Kind schläft.","lv":"Barnet søv."},{"de":"Es ist müde.","lv":"Det er trøytt."}],"comparison":[{"word":"es","meaning":"det • upersonleg pronomen","example":"Es regnet. – Det regnar."},{"word":"ich","meaning":"eg","example":"Ich lerne Deutsch. – Eg lærer tysk."}],"tip":{"text":"Tysk es betyr ofte «det» eller står i upersonlege uttrykk; norsk «eg» er ich."},"important":["Våre «eg» heiter ich på tysk.","I «Es regnet» blir es omsett med «det»."]}}
 **Note:** For DE “es”, I removed Latvian and Estonian remnants and clarified the Nynorsk meaning “det” and the impersonal use.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -144,7 +146,7 @@
       },
       {
         "de": "Es ist müde.",
-        "lv": "Det snør."
+        "lv": "Det er trøytt."
       }
     ],
     "comparison": [
@@ -2162,7 +2164,7 @@
 **CURRENT (captured scope):** {"study.translation":"Umbmäärane artikkel • Üks • Mingi","study.explanation":"[\"Hovudidé: ein er ein ubestemt artikkel.\",\"ein er ein ubestemt artikkel for hankjønn og nøytraltkjønn substantiv i nominativ.\",\"ein brukar du i hankjønn: ein Mann.\",\"ein brukar du i nøytraltkjønn: ein Buch.\",\"I hokjønn brukar ein: eine.\",\"I akkusativ hankjønn: einen.\"]","study.examples[].lv":null,"study.comparison":"[{\"word\":\"ein Mann\",\"meaning\":\"hankjønn\",\"example\":\"Ein mann ventar ute.\"},{\"word\":\"eine Frau\",\"meaning\":\"hokjønn\",\"example\":\"ei kvinne\"},{\"word\":\"ein Buch\",\"meaning\":\"nøytraltkjønn\",\"example\":\"Eg har ei bok.\"},{\"word\":\"einen Mann\",\"meaning\":\"akkusativ\",\"example\":\"ein mann\"}]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"ein","lv":"ein / ein ubestemt artikkel","level":"A1","study":{"id":"a1-ein","layout":"standardStudy","translation":"ein / ein ubestemt artikkel","explanation":["ein er ein ubestemt artikkel.","I nominativ blir ein brukt med hankjønn og inkjekjønn: ein Mann og ein Buch.","I hokjønn brukar ein eine.","I akkusativ hankjønn brukar ein einen."],"examples":[{"de":"Ein Mann wartet draußen.","lv":"Ein mann ventar ute."},{"de":"Ich habe ein Buch.","lv":"Eg har ei bok."},{"de":"Er sucht einen Stift.","lv":"Han leitar etter ein penn."},{"de":"Ein Kind spielt.","lv":"Eit barn leikar."}],"tip":{"text":"Hugs: ein viser til éin eller ein ubestemt person eller ting."},"important":["ein er ikkje ein bestemt artikkel.","Når noko er konkret kjent, brukar ein ofte der, die eller das.","eine er forma for hokjønn.","einen er forma for hankjønn i akkusativ."],"comparison":[{"word":"ein Mann","meaning":"hankjønn i nominativ","example":"Ein mann ventar ute."},{"word":"eine Frau","meaning":"hokjønn i nominativ","example":"Ei kvinne ventar ute."},{"word":"ein Buch","meaning":"inkjekjønn i nominativ","example":"Eg har ei bok."},{"word":"einen Mann","meaning":"hankjønn i akkusativ","example":"Eg ser ein mann."}]}}
+**NEW (OWNER mapping):** {"de":"ein","lv":"ein / ein ubestemt artikkel","level":"A1","study":{"id":"a1-ein","layout":"standardStudy","translation":"ein / ein ubestemt artikkel","explanation":["ein er ein ubestemt artikkel.","I nominativ blir ein brukt med hankjønn og inkjekjønn: ein Mann og ein Buch.","I hokjønn brukar ein eine.","I akkusativ hankjønn brukar ein einen."],"examples":[{"de":"Ein Mann wartet draußen.","lv":"Ein mann ventar ute."},{"de":"Ich habe ein Buch.","lv":"Eg har ei bok."},{"de":"Er sucht einen Stift.","lv":"Han leitar etter ein penn."},{"de":"Ein Kind spielt.","lv":"Eit barn leikar."}],"tip":{"text":"Hugs: ein viser til éin eller ein ubestemt person eller ting."},"important":["ein er ikkje ein bestemt artikkel.","Når noko er konkret kjent, brukar ein ofte der, die eller das.","eine er forma for hokjønn.","einen er forma for hankjønn i akkusativ."],"comparison":[{"word":"ein Mann","meaning":"hankjønn i nominativ","example":"Ein Mann wartet draußen. – Ein mann ventar ute."},{"word":"eine Frau","meaning":"hokjønn i nominativ","example":"Eine Frau wartet draußen. – Ei kvinne ventar ute."},{"word":"ein Buch","meaning":"inkjekjønn i nominativ","example":"Ich habe ein Buch. – Eg har ei bok."},{"word":"einen Mann","meaning":"hankjønn i akkusativ","example":"Ich sehe einen Mann. – Eg ser ein mann."}]}}
 **Note:** For DE "ein" var omsetjinga feil og forklaringane inneheldt estisk, latvisk og språkblanding; eg har retta artikkelformene og laga naturlege nynorske døme.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2213,22 +2215,22 @@
       {
         "word": "ein Mann",
         "meaning": "hankjønn i nominativ",
-        "example": "Ein mann ventar ute."
+        "example": "Ein Mann wartet draußen. – Ein mann ventar ute."
       },
       {
         "word": "eine Frau",
         "meaning": "hokjønn i nominativ",
-        "example": "Ei kvinne ventar ute."
+        "example": "Eine Frau wartet draußen. – Ei kvinne ventar ute."
       },
       {
         "word": "ein Buch",
         "meaning": "inkjekjønn i nominativ",
-        "example": "Eg har ei bok."
+        "example": "Ich habe ein Buch. – Eg har ei bok."
       },
       {
         "word": "einen Mann",
         "meaning": "hankjønn i akkusativ",
-        "example": "Eg ser ein mann."
+        "example": "Ich sehe einen Mann. – Eg ser ein mann."
       }
     ]
   },
@@ -2488,7 +2490,7 @@
 **CURRENT (captured scope):** {"study.translation":"Se • Ta • Umbisikuline vorm","study.explanation":"[\"Hovudidé: es er eit pronomen.\",\"Det brukar ein: det, ikkje-personlege konstruksjonar.\"]","study.examples[].lv":null,"study.comparison":"[{\"word\":\"es\",\"meaning\":\"det • ikkje-personleg form\",\"example\":\"Es regnet. – Det regnar.\"},{\"word\":\"ich\",\"meaning\":\"es (person)\",\"example\":\"Ich lerne Deutsch. – Eg lær tysk.\"}]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"es","lv":"det • ikkje-personleg pronomen","level":"A1","id":"es","study":{"id":"a1-es","layout":"standardStudy","translation":"det • ikkje-personleg pronomen","explanation":["es er eit tysk pronomen.","Det kan vise til eit ting eller eit vesen, men blir òg brukt i upersonlege uttrykk.","I uttrykk som Es regnet blir es vanlegvis omsett med «det»."],"examples":[{"de":"Es regnet.","lv":"Det regnar."},{"de":"Es ist kalt.","lv":"Det er kaldt."},{"de":"Das Kind schläft.","lv":"Barnet søv."},{"de":"Es ist müde.","lv":"Det er trøytt."},{"de":"Es regnet.","lv":"Det snør."}],"info":["Tysk es tyder ofte «det» eller blir ikkje omsett.","Nynorsk «eg» heiter ich på tysk, ikkje es."],"tip":{"text":"Hugs: tysk es er ikkje det same som Nynorsk «eg»."},"important":["I «Es regnet» er es eit upersonleg subjekt og blir omsett med «det».","Nynorsk «eg» heiter ich på tysk; tysk es tyder ofte «det» eller blir ikkje omsett."],"comparison":[{"word":"es","meaning":"det • ikkje-personleg pronomen","example":"Es regnet. – Det regnar."},{"word":"ich","meaning":"eg","example":"Ich lerne Deutsch. – Eg lærer tysk."}]}}
+**NEW (OWNER mapping):** {"de":"es","lv":"det • ikkje-personleg pronomen","level":"A1","id":"es","study":{"id":"a1-es","layout":"standardStudy","translation":"det • ikkje-personleg pronomen","explanation":["es er eit tysk pronomen.","Det kan vise til eit ting eller eit vesen, men blir òg brukt i upersonlege uttrykk.","I uttrykk som Es regnet blir es vanlegvis omsett med «det»."],"examples":[{"de":"Es regnet.","lv":"Det regnar."},{"de":"Es ist kalt.","lv":"Det er kaldt."},{"de":"Das Kind schläft.","lv":"Barnet søv."},{"de":"Es ist müde.","lv":"Det er trøytt."}],"info":["Tysk es tyder ofte «det» eller blir ikkje omsett.","Nynorsk «eg» heiter ich på tysk, ikkje es."],"tip":{"text":"Hugs: tysk es er ikkje det same som Nynorsk «eg»."},"important":["I «Es regnet» er es eit upersonleg subjekt og blir omsett med «det».","Nynorsk «eg» heiter ich på tysk; tysk es tyder ofte «det» eller blir ikkje omsett."],"comparison":[{"word":"es","meaning":"det • ikkje-personleg pronomen","example":"Es regnet. – Det regnar."},{"word":"ich","meaning":"eg","example":"Ich lerne Deutsch. – Eg lærer tysk."}]}}
 **Note:** The German word es was confused with Latvian es and filled with unrelated translations; I corrected it to the Nynorsk pronoun det and its impersonal use.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2523,10 +2525,6 @@
       {
         "de": "Es ist müde.",
         "lv": "Det er trøytt."
-      },
-      {
-        "de": "Es regnet.",
-        "lv": "Det snør."
       }
     ],
     "info": [
@@ -2643,7 +2641,7 @@
 **CURRENT (captured scope):** {"lv":"Toalett","study.translation":"Toalett"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Essen","lv":"mat • måltid","level":"A1","id":"Essen","de_article":"das","study":{"id":"a1-essen-study","layout":"standardStudy","translation":"mat • måltid","explanation":["das Essen er eit substantiv som tyder mat eller eit måltid.","Det kan vise til maten generelt eller til eit bestemt måltid.","Ikkje bland substantivet das Essen med verbet essen, som tyder «å ete»."],"examples":[{"de":"Das Essen schmeckt gut.","lv":"Maten smakar godt."},{"de":"Was wollt ihr essen?","lv":"Maten er ferdig."},{"de":"Wir essen um 12 Uhr.","lv":"Vi et klokka tolv."},{"de":"Das Essen ist fertig.","lv":"Eg likar maten."}],"tip":["das Essen = maten eller måltidet","Bruk das Essen når du snakkar om maten eller måltidet, ikkje sjølve handlinga å ete."],"important":["essen er verbet «å ete».","das Essen er substantivet «mat» eller «måltid».","Handling: essen. Ting eller måltid: das Essen."]}}
+**NEW (OWNER mapping):** {"de":"Essen","lv":"mat • måltid","level":"A1","id":"Essen","de_article":"das","study":{"id":"a1-essen-study","layout":"standardStudy","translation":"mat • måltid","explanation":["das Essen er eit substantiv som tyder mat eller eit måltid.","Det kan vise til maten generelt eller til eit bestemt måltid.","Ikkje bland substantivet das Essen med verbet essen, som tyder «å ete»."],"examples":[{"de":"Das Essen schmeckt gut.","lv":"Maten smakar godt."},{"de":"Was wollt ihr essen?","lv":"Kva vil de ete?"},{"de":"Wir essen um 12 Uhr.","lv":"Vi et klokka tolv."},{"de":"Das Essen ist fertig.","lv":"Maten er ferdig."}],"tip":["das Essen = maten eller måltidet","Bruk das Essen når du snakkar om maten eller måltidet, ikkje sjølve handlinga å ete."],"important":["essen er verbet «å ete».","das Essen er substantivet «mat» eller «måltid».","Handling: essen. Ting eller måltid: das Essen."]}}
 **Note:** The German noun Essen was mistranslated as toalett; I replaced it with Nynorsk mat/måltid and corrected the examples to distinguish it from essen.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2670,7 +2668,7 @@
       },
       {
         "de": "Was wollt ihr essen?",
-        "lv": "Maten er ferdig."
+        "lv": "Kva vil de ete?"
       },
       {
         "de": "Wir essen um 12 Uhr.",
@@ -2678,7 +2676,7 @@
       },
       {
         "de": "Das Essen ist fertig.",
-        "lv": "Eg likar maten."
+        "lv": "Maten er ferdig."
       }
     ],
     "tip": [
@@ -2984,7 +2982,7 @@
 **CURRENT (captured scope):** {"lv":"Fjernsyn","study.translation":"Fjernsyn","study.explanation":"[\"Põhiidee: Nimisõna, sekke ainsus. Kirjeldab TV-d kui meediumi või saateid tervikuna.\",\"Das Fernsehen gejättättä: saadet vaatama.\",\"Sagelie speltab: aktivitet.\",\"Das Fernsehen geschätzliche: TV kui meedium.\",\"Sägeli ompretab: nimisõna (ainult ainsuses).\",\"Fernsehen on tegusõna, mida saab lahutada: ich sehe bregne, du siehst bregn.\",\"Das Fernsehen on nimisõna ja sekke ainsuses — sejl ei ole mitmuse vormi.\"]","study.examples":"[{\"de\":\"Was gibt es heute im Fernsehen?\",\"lv\":\"Hva er fjernsynet?\"},{\"de\":\"Was gibt es heute im Fernsehen?\",\"lv\":\"Hva er fjernsynet?\"},{\"de\":\"Im Fernsehen läuft ein Film.\",\"lv\":\"TV-show filmi.\"},{\"de\":\"Das Fernsehen ist heute langweilig.\",\"lv\":\"TV-program på täna igav.\"},{\"de\":\"Ich sehe heute Abend fern.\",\"lv\":\"Täna atala vaatan ma telerit.\"},{\"de\":\"Was gibt es im Fernsehen?\",\"lv\":\"Har du TV?\"}]","study.tip":"[\"Hvis du snakkar om handling, brukar du fernsehen (ich sehe fern). Hvis du snakkar om TV-program eller media, brukar du das Fernsehen.\",\"Substantiv, berre eintal. Skildrar TV som medium eller sending totalt sett.\"]","study.important":"[\"fernsehen er delbart: sehen + fern.\",\"das Fernsehen er ikkje i fleirtal — ikkje *die Fernsehen.\",\"Feil: die Fernsehen → Rett: das Fernsehen\",\"Handling: fernsehen → ich sehe fern.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Fernsehen","lv":"fjernsyn","level":"A1","de_article":"das","study":{"id":"a1-fernsehen-study","layout":"standardStudy","translation":"fjernsyn","explanation":["Hovudidé: Fernsehen er eit substantiv som skildrar fjernsyn som medium eller sendingar generelt.","Das Fernsehen er vanlegvis eit masseord og blir brukt i eintal.","Fernsehen kan òg vere eit verb: Ich sehe fern betyr Eg ser på fjernsyn.","Som verb er fernsehen delbart: sehen + fern.","Det finst vanlegvis ikkje ei fleirtalsform av das Fernsehen."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Kva går på fjernsynet i dag?"},{"de":"Was gibt es heute im Fernsehen?","lv":"Det går ein film på fjernsynet."},{"de":"Im Fernsehen läuft ein Film.","lv":"Fjernsynet er kjedeleg i dag."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Eg ser på fjernsyn i kveld."},{"de":"Ich sehe heute Abend fern.","lv":"Kva går på fjernsynet?"}],"tip":["Bruk das Fernsehen når du snakkar om fjernsyn som medium eller sendingar generelt.","Bruk fernsehen når du snakkar om handlinga å sjå på fjernsyn: Ich sehe fern."],"important":["das Fernsehen er eit substantiv og blir vanlegvis brukt berre i eintal.","fernsehen er eit delbart verb: Ich sehe fern.","Ikkje bruk *die Fernsehen som vanleg fleirtalsform."]}}
+**NEW (OWNER mapping):** {"de":"Fernsehen","lv":"fjernsyn","level":"A1","de_article":"das","study":{"id":"a1-fernsehen-study","layout":"standardStudy","translation":"fjernsyn","explanation":["Hovudidé: Fernsehen er eit substantiv som skildrar fjernsyn som medium eller sendingar generelt.","Das Fernsehen er vanlegvis eit masseord og blir brukt i eintal.","Fernsehen kan òg vere eit verb: Ich sehe fern betyr Eg ser på fjernsyn.","Som verb er fernsehen delbart: sehen + fern.","Det finst vanlegvis ikkje ei fleirtalsform av das Fernsehen."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Kva går på fjernsynet i dag?"},{"de":"Was gibt es heute im Fernsehen?","lv":"Det går ein film på fjernsynet."},{"de":"Im Fernsehen läuft ein Film.","lv":"Fjernsynet er kjedeleg i dag."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Eg ser på fjernsyn i kveld."}],"tip":["Bruk das Fernsehen når du snakkar om fjernsyn som medium eller sendingar generelt.","Bruk fernsehen når du snakkar om handlinga å sjå på fjernsyn: Ich sehe fern."],"important":["das Fernsehen er eit substantiv og blir vanlegvis brukt berre i eintal.","fernsehen er eit delbart verb: Ich sehe fern.","Ikkje bruk *die Fernsehen som vanleg fleirtalsform."]}}
 **Note:** For DE word Fernsehen, I replaced mixed-language text and corrected the noun/verb distinction in natural Nynorsk.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3022,10 +3020,6 @@
       {
         "de": "Das Fernsehen ist heute langweilig.",
         "lv": "Eg ser på fjernsyn i kveld."
-      },
-      {
-        "de": "Ich sehe heute Abend fern.",
-        "lv": "Kva går på fjernsynet?"
       }
     ],
     "tip": [
@@ -3365,7 +3359,7 @@
 **CURRENT (captured scope):** {"lv":"Kjøkken-elskende","study.translation":"Kjøkken-elskende"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Gemüse","lv":"grønsaker","level":"A1","de_article":"das","study":{"id":"a1-gemuese","layout":"standardStudy","translation":"grønsaker","explanation":["Hovudidé: Gemüse betyr grønsaker generelt.","Das Gemüse er eit masseord og har vanlegvis inga fleirtalsform.","Det tyske ordet blir brukt om grønsaker som heilskap."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Eg et gjerne grønsaker."},{"de":"Ich esse gern Gemüse.","lv":"Grønsakene er ferske."},{"de":"Das Gemüse ist frisch.","lv":"Vi kjøper grønsaker på marknaden."},{"de":"Wir kaufen Gemüse auf dem Markt.","lv":"Eg likar frukt og grønsaker."},{"de":"Ich mag Obst und Gemüse.","lv":"Eg et grønsaker."}],"tip":["das Gemüse = grønsaker.","Bruk das Gemüse når du snakkar om grønsaker som heilskap."],"important":["Det heiter ikkje vanlegvis *die Gemüse.","das Gemüse viser til grønsaker som masse eller heilskap."]}}
+**NEW (OWNER mapping):** {"de":"Gemüse","lv":"grønsaker","level":"A1","de_article":"das","study":{"id":"a1-gemuese","layout":"standardStudy","translation":"grønsaker","explanation":["Hovudidé: Gemüse betyr grønsaker generelt.","Das Gemüse er eit masseord og har vanlegvis inga fleirtalsform.","Det tyske ordet blir brukt om grønsaker som heilskap."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Eg et gjerne grønsaker."},{"de":"Ich esse gern Gemüse.","lv":"Grønsakene er ferske."},{"de":"Das Gemüse ist frisch.","lv":"Vi kjøper grønsaker på marknaden."},{"de":"Wir kaufen Gemüse auf dem Markt.","lv":"Eg likar frukt og grønsaker."}],"tip":["das Gemüse = grønsaker.","Bruk das Gemüse når du snakkar om grønsaker som heilskap."],"important":["Det heiter ikkje vanlegvis *die Gemüse.","das Gemüse viser til grønsaker som masse eller heilskap."]}}
 **Note:** For DE word Gemüse, I replaced the false translation Kjøkken-elskende and contaminated examples with grønsaker and correct Nynorsk sentences.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3401,10 +3395,6 @@
       {
         "de": "Wir kaufen Gemüse auf dem Markt.",
         "lv": "Eg likar frukt og grønsaker."
-      },
-      {
-        "de": "Ich mag Obst und Gemüse.",
-        "lv": "Eg et grønsaker."
       }
     ],
     "tip": [
