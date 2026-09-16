@@ -1,9 +1,9 @@
 {
   "batchId": "LRB-073",
-  "sourceCommit": "3a952628ab03df5e6dc3dc005024be9338fd94a9",
+  "sourceCommit": "2c26b6d8e1ccb57208136d7556eb277d775b2c67",
   "reviewer": "OWNER_COPY_PASTE",
   "reviewType": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
-  "copyPasteSpecSha256": "9bbfe2bc91d416a44a568fba8dbbe1ca60ab4152ab3178979075d7eea1892680",
+  "copyPasteSpecSha256": "b8e3419fd6ab3de7f5f669c357446801f54d71102e9b8a30ba45b6415cb0a01d",
   "cards": [
     {
       "auditId": "LRB073-0001",
@@ -481,7 +481,7 @@
           ],
           "tip": [
             "Gebruik noch mal als de context bij deze betekenis past.",
-            "Gebruik noch mal als de context bij deze betekenis past."
+            "Gebruik noch mal wanneer je om een herhaling vraagt."
           ],
           "important": [
             "Het betekent nogmaals — een actie herhalen of om herhaling vragen.",
@@ -556,11 +556,11 @@
           "examples": [
             {
               "de": "Ich habe nur zehn Euro.",
-              "lv": "Man ir tikai desmit eiro."
+              "lv": "Ik heb maar tien euro."
             },
             {
               "de": "Ich habe nur zehn Euro.",
-              "lv": "Man ir tikai desmit eiro."
+              "lv": "Ik heb maar tien euro."
             },
             {
               "de": "Nur du kannst mir helfen.",
@@ -568,7 +568,7 @@
             },
             {
               "de": "Ich möchte nur Kaffee.",
-              "lv": "Es gribu tikai kafiju."
+              "lv": "Ik wil alleen koffie."
             },
             {
               "de": "Ich habe nur acht Euro.",
@@ -598,7 +598,7 @@
         "study": {
           "id": "a1-ob",
           "layout": "standardStudy",
-          "translation": "Of",
+          "translation": "of",
           "explanation": [
             "Hoofdidee: ob leidt een indirecte vraag in en betekent in het Nederlands meestal of.",
             "Je gebruikt ob na werkwoorden als fragen, wissen, sehen en sagen wanneer er geen directe vraag is.",
@@ -668,7 +668,7 @@
         "study": {
           "id": "a1-obst",
           "layout": "standardStudy",
-          "translation": "Vruchten",
+          "translation": "fruit",
           "explanation": [
             "Hoofdidee: fruit in het algemeen. In het Duits is er geen meervoudsvorm *die Obsts.",
             "das Obst betekent vooral fruit in het algemeen.",
@@ -714,12 +714,12 @@
       "reason": "PENDING — On nl card oder|idx:459, the finding spans study.explanation; study.comparison; study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: oder gebruik je als je kiest tussen twee of meer opties.\\\",\\\"In het Nederlands betekent oder meestal of.\\\",\\\"Dit is niet hetzelfde als ob, dat een indire…”. Review the listed subfields separately against Latvian “vai • jeb” / German “oder” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "oder",
-        "lv": "Vai • Jeb",
+        "lv": "of • dan wel",
         "level": "A1",
         "study": {
           "id": "a1-oder",
           "layout": "standardStudy",
-          "translation": "Vai • Jeb",
+          "translation": "of • dan wel",
           "explanation": [
             "Hoofdidee: oder gebruik je als je kiest tussen twee of meer opties.",
             "In het Nederlands betekent oder meestal of.",
@@ -798,11 +798,11 @@
           "examples": [
             {
               "de": "Die Jacke passt mir.",
-              "lv": "Jaka man der."
+              "lv": "Het jasje past me."
             },
             {
               "de": "Das Kleid passt gut.",
-              "lv": "Kleita labi der."
+              "lv": "De jurk past goed."
             },
             {
               "de": "Die Farbe passt zu dir.",
@@ -810,7 +810,7 @@
             },
             {
               "de": "Das passt.",
-              "lv": "Tas der."
+              "lv": "Dat past."
             }
           ],
           "comparison": [
@@ -836,7 +836,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: Das passt. = Tas der."
+            "text": "Onthoud: Das passt. = Dat past."
           },
           "important": [
             "passen is niet alleen voor kleding.",
@@ -879,7 +879,7 @@
             },
             {
               "de": "Kann ich die Jacke anprobieren?",
-              "lv": "Vai es varu pielaikot jaku?"
+              "lv": "Mag ik het jasje passen?"
             }
           ],
           "comparison": [
@@ -932,12 +932,12 @@
       "reason": "PENDING — On nl card sagen|idx:505, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: Een bepaalde gedachte, woord of zin zeggen.\\\",\\\"Sagen galvenokārt nozīmē: pateikt konkrētu domu.\\\",\\\"Vaak gekenmerkt door: woorden/zinnen.\\\",\\\"Sagen liet…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: Pateikt konkrētu domu, vārdu vai teikumu.\",\"sagen galvenokārt nozīmē: pateikt konkrētu domu.\",\"Bieži raksturo: vārdus/teikumus.\",\"sagen lieto konkrētam pateiktam tekstam.\"]” / German “sagen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "sagen",
-        "lv": "Teikt",
+        "lv": "zeggen",
         "level": "A1",
         "study": {
           "id": "a1-sagen-study",
           "layout": "standardStudy",
-          "translation": "Teikt",
+          "translation": "zeggen",
           "explanation": [
             "Hoofdidee: een bepaalde gedachte, een woord of een zin zeggen.",
             "sagen betekent vooral een concrete gedachte uitspreken.",
@@ -947,7 +947,7 @@
           "examples": [
             {
               "de": "Was hast du gesagt?",
-              "lv": "Ko tu pateici?"
+              "lv": "Wat heb je gezegd?"
             }
           ],
           "comparison": [
@@ -995,7 +995,7 @@
           "examples": [
             {
               "de": "Ich schaue fern.",
-              "lv": "Es skatos televizoru."
+              "lv": "Ik kijk televisie."
             },
             {
               "de": "Wir schauen aus dem Fenster.",
@@ -1003,7 +1003,7 @@
             },
             {
               "de": "Ich schaue fern.",
-              "lv": "Es skatos televizoru."
+              "lv": "Ik kijk televisie."
             }
           ],
           "comparison": [
@@ -1036,12 +1036,12 @@
       "reason": "PENDING — On nl card schon|idx:521, the finding spans study.explanation, study.tip, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: Iets is al gebeurd of is al van kracht.\\\",\\\"Schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.\\\",\\\"Vaak gekenmerkt door: gebeurde feit of besta…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: Kaut kas jau ir noticis vai jau ir spēkā.\",\"schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.\",\"Bieži raksturo: notikušu faktu vai esošu stāvokli.\",\"schon nozīmē …” / German “schon” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "schon",
-        "lv": "Jau",
+        "lv": "al",
         "level": "A1",
         "study": {
           "id": "a1-schon-study",
           "layout": "standardStudy",
-          "translation": "Jau",
+          "translation": "al",
           "explanation": [
             "Hoofdidee: iets is al gebeurd of geldt al.",
             "schon betekent vooral dat iets al is gebeurd of al geldt.",
@@ -1156,7 +1156,7 @@
           "examples": [
             {
               "de": "Ich sehe dich.",
-              "lv": "Es tevi redzu."
+              "lv": "Ik zie je."
             },
             {
               "de": "Siehst du das Auto?",
@@ -1164,7 +1164,7 @@
             },
             {
               "de": "Ich sehe nichts.",
-              "lv": "Es neko neredzu."
+              "lv": "Ik zie niets."
             },
             {
               "de": "Wir schauen einen Film.",
@@ -1210,7 +1210,7 @@
       "reason": "PENDING — On nl card sein|idx:542, the cited path study.translation; study.examples[3].lv; study.comparison[].example; study.important does not exist. For the TARGET_LANGUAGE_CONTAMINATION claim concerning Latvian “būt” / German “sein”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "sein",
-        "lv": "Zijn",
+        "lv": "zijn",
         "level": "A1",
         "study": {
           "id": "a1-sein",
@@ -1229,7 +1229,7 @@
             },
             {
               "de": "Du bist müde.",
-              "lv": "Tu esi noguris."
+              "lv": "Jij bent moe."
             },
             {
               "de": "Er ist Lehrer.",
@@ -1263,7 +1263,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: ich bin = es esmu; du bist = tu esi."
+            "text": "Onthoud: ich bin = ik ben; du bist = jij bent."
           },
           "important": [
             "De vormen van sein moet je apart leren: bin, bist, ist, sind.",
@@ -1279,14 +1279,14 @@
       "reason": "PENDING — On nl card Seite|idx:544, the finding spans study.explanation; study.tip; study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: die Seite kan de pagina van een boek/document of de zijde/kant van iets betekenen.\\\",\\\"In een boek, tijdschrift of website is die Seite = pagina (pagina …”. Review the listed subfields separately against Latvian “lappuse • puse” / German “Seite” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "Seite",
-        "lv": "Lappuse • Puse",
+        "lv": "pagina • kant",
         "level": "A1",
         "de_article": "die",
         "de_plural": "die Seiten",
         "study": {
           "id": "a1-seite",
           "layout": "standardStudy",
-          "translation": "Lappuse • Puse",
+          "translation": "pagina • kant",
           "explanation": [
             "Hoofdidee: die Seite kan een pagina van een boek of document zijn, maar ook een zijde of kant van iets.",
             "In een boek, tijdschrift of op een website betekent die Seite pagina.",
@@ -1298,7 +1298,7 @@
           "examples": [
             {
               "de": "Schlagt die Seite zwanzig auf.",
-              "lv": "Atveriet divdesmito lappusi."
+              "lv": "Open pagina twintig."
             },
             {
               "de": "Auf der linken Seite ist ein Park.",
@@ -1339,12 +1339,12 @@
       "reason": "PENDING — On nl card sich|idx:547, the cited path study.explanation; study.comparison[].example; study.important does not exist. For the TARGET_LANGUAGE_CONTAMINATION claim concerning Latvian “sevi • sev” / German “sich”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "sich",
-        "lv": "Sevi • Sev",
+        "lv": "zichzelf • zich",
         "level": "A1",
         "study": {
           "id": "a1-sich",
           "layout": "standardStudy",
-          "translation": "Sevi • Sev",
+          "translation": "zichzelf • zich",
           "explanation": [
             "Hoofdidee: sich laat zien dat de actie verwijst naar de doener zelf.",
             "In het Nederlands vertaal je het vaak als jezelf of je.",
@@ -1536,12 +1536,12 @@
       "reason": "PENDING — On nl card über|idx:608, the finding spans study.explanation, study.important, study.comparison; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: über betekent boven of over, afhankelijk van de context.\\\",\\\"Als het gaat om locatie, betekent über vaak boven.\\\",\\\"Als het gaat om gesprek, tekst of ond…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: über nozīmē virs vai par atkarībā no konteksta.\",\"Ja runa ir par atrašanās vietu, über bieži nozīmē virs.\",\"Ja runa ir par sarunu, tekstu vai tēmu, über nozīmē par.\",\"Kustīb…” / German “über” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "über",
-        "lv": "Virs • Par",
+        "lv": "boven • over",
         "level": "A1",
         "study": {
           "id": "a1-über",
           "layout": "standardStudy",
-          "translation": "Virs • Par",
+          "translation": "boven • over",
           "explanation": [
             "Hoofdidee: über betekent boven of over, afhankelijk van de context.",
             "Als het gaat om locatie, betekent über vaak boven.",
@@ -1663,12 +1663,12 @@
       "reason": "PENDING — On nl card um|idx:611, the finding spans study.explanation, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: um betekent vaak het uur met tijd of om/rond met plaats.\\\",\\\"Met een exact tijdstip betekent um uur.\\\",\\\"Met een plaats betekent um om of rond.\\\",\\\"In de…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: um ļoti bieži nozīmē pulksten ar laiku vai ap/apkārt ar vietu.\",\"Ar precīzu laiku um nozīmē pulksten.\",\"Ar vietu um nozīmē ap vai apkārt.\",\"Frāzē um ... zu tas palīdz izteik…” / German “um” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "um",
-        "lv": "Ap • Pulksten",
+        "lv": "om • rondom",
         "level": "A1",
         "study": {
           "id": "a1-um",
           "layout": "standardStudy",
-          "translation": "Ap • Pulksten",
+          "translation": "om • rondom",
           "explanation": [
             "Hoofdidee: um betekent bij een tijdstip vaak om en bij een plaats om of rondom.",
             "Bij een exact tijdstip betekent um om.",
@@ -1732,12 +1732,12 @@
       "reason": "PENDING — On nl card unter|idx:615, the finding spans study.explanation, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: unter betekent onder of tussen, afhankelijk van de context.\\\",\\\"Als iets onder een tafel, stoel of ander voorwerp staat, gebruik je unter.\\\",\\\"Als het ga…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: unter nozīmē zem vai starp atkarībā no konteksta.\",\"Ja kaut kas atrodas zem galda, krēsla vai cita priekšmeta, lieto unter.\",\"Ja runa ir par cilvēku grupu, unter var nozīmēt…” / German “unter” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "unter",
-        "lv": "Zem",
+        "lv": "onder • tussen",
         "level": "A1",
         "study": {
           "id": "a1-unter",
           "layout": "standardStudy",
-          "translation": "Zem",
+          "translation": "onder • tussen",
           "explanation": [
             "Hoofdidee: unter betekent onder of tussen, afhankelijk van de context.",
             "Als iets zich onder een tafel, stoel of ander voorwerp bevindt, gebruik je unter.",
@@ -1747,7 +1747,7 @@
           "examples": [
             {
               "de": "Die Tasche ist unter dem Tisch.",
-              "lv": "Soma ir zem galda."
+              "lv": "De tas ligt onder de tafel."
             },
             {
               "de": "Die Katze liegt unter dem Stuhl.",
@@ -1785,7 +1785,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: zem galda → unter dem Tisch."
+            "text": "Onthoud: onder de tafel → unter dem Tisch."
           },
           "important": [
             "unter kan ook \"tussen\" betekenen, vooral met mensen of groepen.",
@@ -1868,12 +1868,12 @@
       "reason": "PENDING — On nl card verstehen|idx:621, the finding spans study.explanation, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: verstehen betekent begrijpen.\\\",\\\"Gebruik het wanneer je een taal, persoon, tekst of situatie begrijpt.\\\",\\\"Latviski šeit parasti nevajag “prast” vai “mā…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: verstehen nozīmē saprast.\",\"To lieto, ja saproti valodu, cilvēku, tekstu vai situāciju.\",\"Latviski šeit parasti nevajag “prast” vai “mācēt”; tie biežāk ir können.\",\"Ļoti bie…” / German “verstehen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "verstehen",
-        "lv": "Saprast",
+        "lv": "begrijpen",
         "level": "A1",
         "study": {
           "id": "a1-verstehen",
           "layout": "standardStudy",
-          "translation": "Saprast",
+          "translation": "begrijpen",
           "explanation": [
             "Hoofdidee: verstehen betekent begrijpen.",
             "Je gebruikt het wanneer je een taal, persoon, tekst of situatie begrijpt.",
@@ -1883,7 +1883,7 @@
           "examples": [
             {
               "de": "Ich verstehe dich.",
-              "lv": "Es tevi saprotu."
+              "lv": "Ik begrijp je."
             },
             {
               "de": "Verstehst du Deutsch?",
@@ -1891,7 +1891,7 @@
             },
             {
               "de": "Ich verstehe das nicht.",
-              "lv": "Es to nesaprotu."
+              "lv": "Ik begrijp het niet."
             },
             {
               "de": "Ich kann Deutsch sprechen.",
@@ -1937,12 +1937,12 @@
       "reason": "PENDING — On nl card vom|idx:634, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Vom ir prievārda von un artikula dem saīsinājums.\\\",\\\"Volledige vorm: van de (wie?).\\\",\\\"Gebruik het met mannelijke en neutrale zelfstandig naamwoorden, wanneer je …”. Review the listed subfields separately against Latvian “[\"vom ir prievārda von un artikula dem saīsinājums.\",\"Pilnā forma: von dem (kam?).\",\"Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda izcelsmi vai virzienu no kā.\",\"Atbild uz ja…” / German “vom” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "vom",
-        "lv": "No",
+        "lv": "van de • vanaf het",
         "level": "A1",
         "study": {
           "id": "a1-vom",
           "layout": "standardStudy",
-          "translation": "No",
+          "translation": "van de • vanaf het",
           "explanation": [
             "vom is de samentrekking van het voorzetsel von en het lidwoord dem.",
             "De volledige vorm is von dem.",
@@ -2012,11 +2012,11 @@
             }
           ],
           "tip": [
-            "Onthoud: von + dem → vom (wie?).",
-            "In colloquiale spraak zegt men bijna nooit von dem — gebruik vom."
+            "Onthoud: von + dem → vom.",
+            "In de omgangstaal zegt men bijna altijd vom in plaats van von dem."
           ],
           "important": [
-            "vom = van de, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.",
+            "vom = von dem; het wordt gebruikt bij mannelijke en onzijdige zelfstandige naamwoorden in de datief.",
             "Geeft afkomst, bron of richting van iets specifiek aan.",
             "Voor vrouwelijke geslacht: von der Mutter, niet vom Mutter.",
             "Niet verwarren met aus (afkomst uit land) of ab (startpunt)."
@@ -2100,12 +2100,12 @@
       "reason": "PENDING — On nl card was|idx:644, the finding spans study.explanation, study.examples, study.tip, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: was is het vraagwoord voor dingen en gebeurtenissen — in het Nederlands is dat wat of welke, afhankelijk van het zinsdeelstuk.\\\",\\\"Was jautā par lietām, …”. Review the listed subfields separately against Latvian “[\"Galvenā doma: was ir jautājamvārds par lietām un notikumiem — latviski tas ir kas vai ko, atkarībā no teikuma daļas.\",\"was jautā par lietām, notikumiem un faktiem, nevis par personām.\",\"V…” / German “was” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "was",
-        "lv": "Kas • Ko",
+        "lv": "wat",
         "level": "A1",
         "study": {
           "id": "a1-was",
           "layout": "standardStudy",
-          "translation": "Kas • Ko",
+          "translation": "wat",
           "explanation": [
             "Hoofdidee: was is het vraagwoord voor dingen en gebeurtenissen; in het Nederlands is dat wat.",
             "was vraagt naar dingen, gebeurtenissen en feiten, niet naar personen.",
@@ -2164,12 +2164,12 @@
       "reason": "PENDING — On nl card wenn|idx:655, the finding spans study.explanation, study.comparison, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: wenn betekent als of wanneer, afhankelijk van de situatie.\\\",\\\"Als het gaat om een voorwaarde, vertaal je het als als.\\\",\\\"Als het gaat om herhaalde of a…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: wenn nozīmē ja vai kad atkarībā no situācijas.\",\"Ja runa ir par nosacījumu, tulko kā ja.\",\"Ja runa ir par atkārtotu vai vispārīgu laiku, tulko kā kad.\",\"Pēc wenn darbības vā…” / German “wenn” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "wenn",
-        "lv": "Ja • Kad",
+        "lv": "als • wanneer",
         "level": "A1",
         "study": {
           "id": "a1-wenn",
           "layout": "standardStudy",
-          "translation": "Ja • Kad",
+          "translation": "als • wanneer",
           "explanation": [
             "Hoofdidee: wenn betekent als of wanneer, afhankelijk van de situatie.",
             "Als het gaat om een voorwaarde, vertaal je het als als.",
@@ -2179,7 +2179,7 @@
           "examples": [
             {
               "de": "Wenn du Zeit hast, komm vorbei.",
-              "lv": "Ja tev ir laiks, iegriezies."
+              "lv": "Als je tijd hebt, kom dan langs."
             },
             {
               "de": "Wenn es regnet, bleibe ich zu Hause.",
@@ -2187,7 +2187,7 @@
             },
             {
               "de": "Wenn ich müde bin, trinke ich Kaffee.",
-              "lv": "Kad esmu noguris, es dzeru kafiju."
+              "lv": "Als ik moe ben, drink ik koffie."
             },
             {
               "de": "Ich weiß nicht, ob er kommt.",
@@ -2392,8 +2392,8 @@
             "Gebruik die Zeit wanneer de context bij deze betekenis past."
           ],
           "important": [
-            "die Zeit: controleer de context vóór gebruik.",
-            "die Zeit: controleer de context vóór gebruik."
+            "die Zeit duidt tijd als abstract begrip of beschikbare tijd aan.",
+            "Voor een exact kloktijdstip gebruik je Uhr, bijvoorbeeld acht Uhr."
           ]
         }
       }
@@ -2405,12 +2405,12 @@
       "reason": "PENDING — On nl card zum|idx:672, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Zum ir prievārda zu un artikula dem saīsinājums.\\\",\\\"Volledige vorm: naar de (wie?).\\\",\\\"Gebruik het met mannelijke en neutrale zelfstandig naamwoorden, wanneer je …”. Review the listed subfields separately against Latvian “[\"zum ir prievārda zu un artikula dem saīsinājums.\",\"Pilnā forma: zu dem (kam?).\",\"Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda virzienu vai mērķi.\",\"Bieži nozīmē uz kaut ko…” / German “zum” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "zum",
-        "lv": "Uz • Pie",
+        "lv": "naar de • bij de",
         "level": "A1",
         "study": {
           "id": "a1-zum",
           "layout": "standardStudy",
-          "translation": "Uz • Pie",
+          "translation": "naar de • bij de",
           "explanation": [
             "zum is de samentrekking van het voorzetsel zu en het lidwoord dem.",
             "De volledige vorm is zu dem.",
@@ -2476,11 +2476,11 @@
             }
           ],
           "tip": [
-            "Onthoud: zu + dem → zum (wie?).",
-            "Voor vrouwelijke geslachtswekende woorden: zu + der → zur."
+            "Onthoud: zu + dem → zum.",
+            "Bij vrouwelijke zelfstandige naamwoorden: zu + der → zur."
           ],
           "important": [
-            "zum = zu dem, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.",
+            "zum = zu dem; het wordt gebruikt bij mannelijke en onzijdige zelfstandige naamwoorden in de datief.",
             "Geeft richting of doel aan: naar de dokter, naar het station, bij een vriend.",
             "Voor vrouwelijk geslacht gebruik je zur: zur Bank, zur Post.",
             "Niet verwarren met bei (zijn bij) of nach (naar steden zonder artikel)."
@@ -2543,7 +2543,7 @@
           },
           "important": [
             "ab viser startpunktet i tid eller stad.",
-            "Hvis tanken gjeld opphav eller retning ut frå innsida, brukar ein oftast von eller aus."
+            "Viss tanken gjeld opphav eller retning ut frå innsida, brukar ein oftast von eller aus."
           ]
         }
       }
@@ -2598,7 +2598,7 @@
           },
           "important": [
             "aber viser motsetnad eller innvending.",
-            "Hvis motsetnaden er \"ikkje..., men i staden...\" brukar ein vanleg sondern på tysk."
+            "Viss motsetnaden er «ikkje ..., men derimot ...», brukar ein vanlegvis sondern på tysk."
           ]
         }
       }
@@ -2734,10 +2734,10 @@
           "layout": "standardStudy",
           "translation": "besøkje",
           "explanation": [
-            "Hovudidé: besuchen bruker ein når ein besøkjer ein stad, eit arrangement eller ein person.",
+            "Hovudidé: besuchen brukar ein når ein besøkjer ein stad, eit arrangement eller ein person.",
             "Ein stad, eit arrangement eller eit kurs kan ein besøkje.",
             "Når besuchen gjeld ein person, er vitje eller besøkje naturlege norske ord.",
-            "På tysk bruker ein besuchen utan preposisjon og med akkusativ."
+            "På tysk brukar ein besuchen utan preposisjon og med akkusativ."
           ],
           "examples": [
             {
@@ -2856,12 +2856,12 @@
       "reason": "Individually reviewed nn exact field a1.card.a1-das.study.comparison[2].meaning for “das” against Latvian “kurš • kura • kuru” and production “Mis • Mille • Mida”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.",
       "new": {
         "de": "das",
-        "lv": "det • den nøytrale artikkelen",
+        "lv": "det • inkjekjønnsartikkelen",
         "level": "A1",
         "study": {
           "id": "a1-das",
           "layout": "standardStudy",
-          "translation": "det • den nøytrale artikkelen",
+          "translation": "det • inkjekjønnsartikkelen",
           "explanation": "Blir brukt som artikkel framfor substantiv i inkjekjønn. I nokre setningar kan das òg vere pronomen eller relativpronomen.",
           "examples": [
             {
@@ -2965,5 +2965,5 @@
       }
     }
   ],
-  "correctionRound": 2
+  "correctionRound": 3
 }

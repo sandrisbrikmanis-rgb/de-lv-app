@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-16T17:08:30.531Z",
+  "updatedAt": "2026-09-16T17:15:18.079Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -82,7 +82,7 @@
       "batchId": "LRB-073",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "LRB_073_COPY_PASTE_2_COMPLETE_AWAITING_GALA_VERDICT",
+      "status": "LRB_073_COPY_PASTE_3_COMPLETE_AWAITING_GALA_VERDICT",
       "branch": "cursor/lrb-073-owner-authorization-ed35",
       "reservedAt": "2026-09-16T16:18:00.000Z",
       "rows": 50,
@@ -98,8 +98,8 @@
       "pending": 0,
       "uniqueCards": 50,
       "inputCsvSha256": "df428a5bc75a97e2510133763a9bbb4cfd7076fe8453e2ff2ab6e46f90d3f51f",
-      "overridesSha256": "d08922d20ad4cfdcfcdac12aabb6319ff1a688aa82781b2f7500149ce59f88df",
-      "updatedAt": "2026-09-16T17:08:30.531Z",
+      "overridesSha256": "774d6b606d2e6d2fac9e9c716029b42a7171007aee48a6fd132e6b7efa51e0fe",
+      "updatedAt": "2026-09-16T17:15:18.079Z",
       "proof": "reports/g2-a1-owner/batches-owner-review/LRB-073/LRB-073-owner-review-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-073-anti-bulk-proof.json",
       "ownerReviewProof": "reports/g2-a1-owner/batches-owner-review/LRB-073/LRB-073-owner-review-proof.json"

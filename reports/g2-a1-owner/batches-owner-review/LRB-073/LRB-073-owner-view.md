@@ -7,12 +7,12 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-16T17:08:30.531Z
-**Source commit:** `3a952628ab03df5e6dc3dc005024be9338fd94a9`
+**Generated:** 2026-09-16T17:15:18.079Z
+**Source commit:** `2c26b6d8e1ccb57208136d7556eb277d775b2c67`
 **Branch:** `cursor/lrb-073-owner-authorization-ed35`
-**Overrides SHA256:** `d08922d20ad4cfdcfcdac12aabb6319ff1a688aa82781b2f7500149ce59f88df`
-**Classification:** `LRB_073_COPY_PASTE_2_COMPLETE_AWAITING_GALA_VERDICT`
-**COPY/PASTE spec SHA-256:** `9bbfe2bc91d416a44a568fba8dbbe1ca60ab4152ab3178979075d7eea1892680`
+**Overrides SHA256:** `774d6b606d2e6d2fac9e9c716029b42a7171007aee48a6fd132e6b7efa51e0fe`
+**Classification:** `LRB_073_COPY_PASTE_3_COMPLETE_AWAITING_GALA_VERDICT`
+**COPY/PASTE spec SHA-256:** `b8e3419fd6ab3de7f5f669c357446801f54d71102e9b8a30ba45b6415cb0a01d`
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
@@ -625,7 +625,7 @@
 **CURRENT (captured scope):** {"id":"a1-noch-mal","layout":"standardStudy","translation":"Vēlreiz","explanation":["Hoofdidee: Het betekent nogmaals — een actie herhalen of om herhaling vragen."],"examples":[{"de":"Noch mal, bitte.","lv":"Vēlreiz, lūdzu."},{"de":"Noch mal, bitte.","lv":"Vēlreiz, lūdzu."},{"de":"Sag das noch mal.","lv":"Pasaki to vēlreiz."}],"tip":["Gebruik noch mal als de context bij deze betekenis past.","Gebruik noch mal als de context bij deze betekenis past."],"important":["Het betekent nogmaals — een actie herhalen of om herhaling vragen.","noch mal: controleer de context voordat je het gebruikt."],"sectionAccents":{"explanation":{"purple":["vēlreiz"]},"examples":[{"de":{"yellow":["noch mal","noch mal"]},"lv":{"purple":["vēlreiz"]}},{"de":{"yellow":["noch mal","noch mal"]},"lv":{"purple":["vēlreiz"]}},{"de":{"yellow":["noch mal","noch mal"]},"lv":{"purple":["vēlreiz"]}}],"tip":[{}],"important":[{}]}}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"noch mal","lv":"nog eens • opnieuw","level":"A1","study":{"id":"a1-noch-mal","layout":"standardStudy","translation":"nog eens • opnieuw","explanation":["Hoofdidee: Het betekent nogmaals — een actie herhalen of om herhaling vragen."],"examples":[{"de":"Noch mal, bitte.","lv":"Nog eens, alstublieft."},{"de":"Noch mal, bitte.","lv":"Nog eens, alstublieft."},{"de":"Sag das noch mal.","lv":"Zeg dat nog eens."}],"tip":["Gebruik noch mal als de context bij deze betekenis past.","Gebruik noch mal als de context bij deze betekenis past."],"important":["Het betekent nogmaals — een actie herhalen of om herhaling vragen.","noch mal: controleer de context voordat je het gebruikt."]}}
+**NEW (OWNER mapping):** {"de":"noch mal","lv":"nog eens • opnieuw","level":"A1","study":{"id":"a1-noch-mal","layout":"standardStudy","translation":"nog eens • opnieuw","explanation":["Hoofdidee: Het betekent nogmaals — een actie herhalen of om herhaling vragen."],"examples":[{"de":"Noch mal, bitte.","lv":"Nog eens, alstublieft."},{"de":"Noch mal, bitte.","lv":"Nog eens, alstublieft."},{"de":"Sag das noch mal.","lv":"Zeg dat nog eens."}],"tip":["Gebruik noch mal als de context bij deze betekenis past.","Gebruik noch mal wanneer je om een herhaling vraagt."],"important":["Het betekent nogmaals — een actie herhalen of om herhaling vragen.","noch mal: controleer de context voordat je het gebruikt."]}}
 **Note:** PENDING — On nl card noch mal|idx:701, the finding spans study; the captured production value begins “{"study.translation":"Vēlreiz","study.explanation":"[\"Hoofdidee: Het betekent nogmaals — een actie herhalen of om herhaling vragen.\"]","study.examples":"[{\"de\":\"Noch mal, bitte.\",\"lv…”. Review the listed subfields separately against Latvian “vēlreiz” / German “noch mal” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -658,7 +658,7 @@
     ],
     "tip": [
       "Gebruik noch mal als de context bij deze betekenis past.",
-      "Gebruik noch mal als de context bij deze betekenis past."
+      "Gebruik noch mal wanneer je om een herhaling vraagt."
     ],
     "important": [
       "Het betekent nogmaals — een actie herhalen of om herhaling vragen.",
@@ -744,7 +744,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: Beperkt de hoeveelheid, aantal mensen, keuze of mogelijkheden.\",\"Nur galvenokārt nozīmē: ierobežots daudzums vai izvēle.\",\"Vaak gekenmerkt door: hoeveel, wat precies of wie alleen.\",\"Nur nozīmē tikai, vienīgi, nekas vairāk: tas ierobežo daudzumu vai izvēli.\"]","study.tip":"[\"Beperkt de hoeveelheid, aantal mensen, keuze of mogelijkheden.\",\"Gebruik nur als de context bij deze betekenis past.\"]","study.important":"[\"Het Nederlands 'alleen' is in het Duits niet altijd nur.\",\"nur = alleen / enkel.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"nur","lv":"alleen • slechts","level":"A1","study":{"id":"a1-nur-study","layout":"standardStudy","translation":"alleen • slechts","explanation":["Hoofdidee: beperkt de hoeveelheid, het aantal mensen, de keuze of de mogelijkheden.","nur betekent vooral: een beperkte hoeveelheid of keuze.","Het geeft vaak aan hoeveel, wat precies of wie alleen.","nur betekent alleen of slechts, niets meer: het beperkt de hoeveelheid of keuze."],"examples":[{"de":"Ich habe nur zehn Euro.","lv":"Man ir tikai desmit eiro."},{"de":"Ich habe nur zehn Euro.","lv":"Man ir tikai desmit eiro."},{"de":"Nur du kannst mir helfen.","lv":"Alleen jij kunt me helpen."},{"de":"Ich möchte nur Kaffee.","lv":"Es gribu tikai kafiju."},{"de":"Ich habe nur acht Euro.","lv":"Ik heb maar acht euro."}],"tip":["Het beperkt de hoeveelheid, het aantal mensen, de keuze of de mogelijkheden.","Gebruik nur wanneer je iets beperkt tot alleen datgene."],"important":["Het Nederlandse alleen is in het Duits niet altijd nur.","nur = alleen / slechts."]}}
+**NEW (OWNER mapping):** {"de":"nur","lv":"alleen • slechts","level":"A1","study":{"id":"a1-nur-study","layout":"standardStudy","translation":"alleen • slechts","explanation":["Hoofdidee: beperkt de hoeveelheid, het aantal mensen, de keuze of de mogelijkheden.","nur betekent vooral: een beperkte hoeveelheid of keuze.","Het geeft vaak aan hoeveel, wat precies of wie alleen.","nur betekent alleen of slechts, niets meer: het beperkt de hoeveelheid of keuze."],"examples":[{"de":"Ich habe nur zehn Euro.","lv":"Ik heb maar tien euro."},{"de":"Ich habe nur zehn Euro.","lv":"Ik heb maar tien euro."},{"de":"Nur du kannst mir helfen.","lv":"Alleen jij kunt me helpen."},{"de":"Ich möchte nur Kaffee.","lv":"Ik wil alleen koffie."},{"de":"Ich habe nur acht Euro.","lv":"Ik heb maar acht euro."}],"tip":["Het beperkt de hoeveelheid, het aantal mensen, de keuze of de mogelijkheden.","Gebruik nur wanneer je iets beperkt tot alleen datgene."],"important":["Het Nederlandse alleen is in het Duits niet altijd nur.","nur = alleen / slechts."]}}
 **Note:** PENDING — On nl card nur|idx:456, the finding spans study.explanation; study.tip; study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: Beperkt de hoeveelheid, aantal mensen, keuze of mogelijkheden.\",\"Nur galvenokārt nozīmē: ierobežots daudzums vai izvēle.\",\"Vaak gekenmerkt door: hoev…”. Review the listed subfields separately against Latvian “tikai • vienīgi” / German “nur” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -767,11 +767,11 @@
     "examples": [
       {
         "de": "Ich habe nur zehn Euro.",
-        "lv": "Man ir tikai desmit eiro."
+        "lv": "Ik heb maar tien euro."
       },
       {
         "de": "Ich habe nur zehn Euro.",
-        "lv": "Man ir tikai desmit eiro."
+        "lv": "Ik heb maar tien euro."
       },
       {
         "de": "Nur du kannst mir helfen.",
@@ -779,7 +779,7 @@
       },
       {
         "de": "Ich möchte nur Kaffee.",
-        "lv": "Es gribu tikai kafiju."
+        "lv": "Ik wil alleen koffie."
       },
       {
         "de": "Ich habe nur acht Euro.",
@@ -813,7 +813,7 @@
 **CURRENT (captured scope):** {"lv":"Of","study.explanation":"[\"Hoofdidee: ob leidt een indirecte vraag in en betekent in het Nederlands meestal of.\",\"Ob lieto pēc vārdiem kā fragen, wissen, sehen, sagen, ja nav tieša jautājuma.\",\"In een directe vraag gebruik je ob in het Duits meestal niet.\",\"Op A1-niveau is het belangrijk om ob van oder te onderscheiden.\"]","study.comparison":"[{\"word\":\"ob\",\"meaning\":\"Vai netiešā jautājumā\",\"example\":\"Ik weet niet of hij komt.\"},{\"word\":\"oder\",\"meaning\":\"Vai izvēlē starp variantiem\",\"example\":\"Koffie of thee?\"},{\"word\":\"wenn\",\"meaning\":\"Ja / kad\",\"example\":\"Als je tijd hebt...\"},{\"word\":\"dass\",\"meaning\":\"Ka\",\"example\":\"Ik weet dat hij komt.\"}]","study.important":"[\"ob is niet de normale 'of'-vorm tussen twee dingen.\",\"Kaffee oder Tee? gebruikt oder, niet ob.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"ob","lv":"of","level":"A1","study":{"id":"a1-ob","layout":"standardStudy","translation":"Of","explanation":["Hoofdidee: ob leidt een indirecte vraag in en betekent in het Nederlands meestal of.","Je gebruikt ob na werkwoorden als fragen, wissen, sehen en sagen wanneer er geen directe vraag is.","In een directe vraag gebruik je ob in het Duits meestal niet.","Op A1-niveau is het belangrijk ob van oder te onderscheiden."],"examples":[{"de":"Ich weiß nicht, ob er kommt.","lv":"Ik weet niet of hij komt."},{"de":"Sie fragt, ob du Zeit hast.","lv":"Zij vraagt of je tijd hebt."},{"de":"Sag mir, ob das stimmt.","lv":"Zeg me of dat klopt."},{"de":"Kommst du heute oder morgen?","lv":"Kom je vandaag of morgen?"}],"comparison":[{"word":"ob","meaning":"of in een indirecte vraag","example":"Ik weet niet of hij komt."},{"word":"oder","meaning":"of bij een keuze","example":"Koffie of thee?"},{"word":"wenn","meaning":"als / wanneer","example":"Als je tijd hebt..."},{"word":"dass","meaning":"dat","example":"Ik weet dat hij komt."}],"tip":{"text":"Onthoud: ik weet niet of... → ob; koffie of thee → oder."},"important":["ob is niet de normale 'of'-vorm tussen twee dingen.","Kaffee oder Tee? gebruikt oder, niet ob."]}}
+**NEW (OWNER mapping):** {"de":"ob","lv":"of","level":"A1","study":{"id":"a1-ob","layout":"standardStudy","translation":"of","explanation":["Hoofdidee: ob leidt een indirecte vraag in en betekent in het Nederlands meestal of.","Je gebruikt ob na werkwoorden als fragen, wissen, sehen en sagen wanneer er geen directe vraag is.","In een directe vraag gebruik je ob in het Duits meestal niet.","Op A1-niveau is het belangrijk ob van oder te onderscheiden."],"examples":[{"de":"Ich weiß nicht, ob er kommt.","lv":"Ik weet niet of hij komt."},{"de":"Sie fragt, ob du Zeit hast.","lv":"Zij vraagt of je tijd hebt."},{"de":"Sag mir, ob das stimmt.","lv":"Zeg me of dat klopt."},{"de":"Kommst du heute oder morgen?","lv":"Kom je vandaag of morgen?"}],"comparison":[{"word":"ob","meaning":"of in een indirecte vraag","example":"Ik weet niet of hij komt."},{"word":"oder","meaning":"of bij een keuze","example":"Koffie of thee?"},{"word":"wenn","meaning":"als / wanneer","example":"Als je tijd hebt..."},{"word":"dass","meaning":"dat","example":"Ik weet dat hij komt."}],"tip":{"text":"Onthoud: ik weet niet of... → ob; koffie of thee → oder."},"important":["ob is niet de normale 'of'-vorm tussen twee dingen.","Kaffee oder Tee? gebruikt oder, niet ob."]}}
 **Note:** PENDING — On nl card ob|idx:457, the finding spans lv; study.explanation; study.comparison; study.important; the captured production value begins “{"lv":"Of","study.explanation":"[\"Hoofdidee: ob leidt een indirecte vraag in en betekent in het Nederlands meestal of.\",\"Ob lieto pēc vārdiem kā fragen, wissen, sehen, sagen, ja nav tieš…”. Review the listed subfields separately against Latvian “vai” / German “ob” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -826,7 +826,7 @@
   "study": {
     "id": "a1-ob",
     "layout": "standardStudy",
-    "translation": "Of",
+    "translation": "of",
     "explanation": [
       "Hoofdidee: ob leidt een indirecte vraag in en betekent in het Nederlands meestal of.",
       "Je gebruikt ob na werkwoorden als fragen, wissen, sehen en sagen wanneer er geen directe vraag is.",
@@ -899,7 +899,7 @@
 **CURRENT (captured scope):** {"lv":"Vruchten","study.explanation":"[\"Hoofdidee: Fruit in het algemeen. In het Duits is er geen meervoudsvorm *die Obsts.\",\"Das Obst galvenokārt nozīmē: augļi kopumā.\",\"Vaak gekenmerkt door: geen geslachtsverschil (alleen enkelvoud).\"]","study.examples[4].lv":null}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Obst","lv":"fruit","level":"A1","de_article":"das","study":{"id":"a1-obst","layout":"standardStudy","translation":"Vruchten","explanation":["Hoofdidee: fruit in het algemeen. In het Duits is er geen meervoudsvorm *die Obsts.","das Obst betekent vooral fruit in het algemeen.","Het wordt alleen in het enkelvoud gebruikt."],"examples":[{"de":"Wir essen viel Obst.","lv":"Wij eten veel fruit."},{"de":"Wir essen viel Obst.","lv":"Wij eten veel fruit."},{"de":"Obst ist gesund.","lv":"Fruit is gezond."},{"de":"Ich mag Obst und Gemüse.","lv":"Ik hou van fruit en groenten."},{"de":"Wir essen Obst.","lv":"Wij eten fruit."}],"tip":["das Obst = fruit","Gebruik das Obst als de context bij deze betekenis past."],"important":["Verkeerd: die Obsts → Juist: das Obst","das Obst = fruit (in het algemeen)."]}}
+**NEW (OWNER mapping):** {"de":"Obst","lv":"fruit","level":"A1","de_article":"das","study":{"id":"a1-obst","layout":"standardStudy","translation":"fruit","explanation":["Hoofdidee: fruit in het algemeen. In het Duits is er geen meervoudsvorm *die Obsts.","das Obst betekent vooral fruit in het algemeen.","Het wordt alleen in het enkelvoud gebruikt."],"examples":[{"de":"Wir essen viel Obst.","lv":"Wij eten veel fruit."},{"de":"Wir essen viel Obst.","lv":"Wij eten veel fruit."},{"de":"Obst ist gesund.","lv":"Fruit is gezond."},{"de":"Ich mag Obst und Gemüse.","lv":"Ik hou van fruit en groenten."},{"de":"Wir essen Obst.","lv":"Wij eten fruit."}],"tip":["das Obst = fruit","Gebruik das Obst als de context bij deze betekenis past."],"important":["Verkeerd: die Obsts → Juist: das Obst","das Obst = fruit (in het algemeen)."]}}
 **Note:** PENDING — On nl card Obst|idx:693, the cited path lv; study.explanation; study.examples[4].lv does not exist. For the TARGET_LANGUAGE_ERROR claim concerning Latvian “augļi” / German “Obst”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -913,7 +913,7 @@
   "study": {
     "id": "a1-obst",
     "layout": "standardStudy",
-    "translation": "Vruchten",
+    "translation": "fruit",
     "explanation": [
       "Hoofdidee: fruit in het algemeen. In het Duits is er geen meervoudsvorm *die Obsts.",
       "das Obst betekent vooral fruit in het algemeen.",
@@ -968,7 +968,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: oder gebruik je als je kiest tussen twee of meer opties.\",\"In het Nederlands betekent oder meestal of.\",\"Dit is niet hetzelfde als ob, dat een indirecte vraag inleidt.\",\"In gesprekken kan oder ook aan het einde van de zin staan: Du kommst, oder?\"]","study.comparison":"[{\"word\":\"oder\",\"meaning\":\"Vai izvēlē\",\"example\":\"Koffie of thee?\"},{\"word\":\"ob\",\"meaning\":\"Vai netiešā jautājumā\",\"example\":\"Ik weet niet of hij komt.\"},{\"word\":\"und\",\"meaning\":\"Un\",\"example\":\"Koffie en taart.\"},{\"word\":\"aber\",\"meaning\":\"Bet\",\"example\":\"Ik kom, maar later.\"}]","study.important":"[\"oder gebruik je voor keuze: Kaffee oder Tee.\",\"In een indirecte vraag is 'of' meestal ob.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"oder","lv":"Vai • Jeb","level":"A1","study":{"id":"a1-oder","layout":"standardStudy","translation":"Vai • Jeb","explanation":["Hoofdidee: oder gebruik je als je kiest tussen twee of meer opties.","In het Nederlands betekent oder meestal of.","Dit is niet hetzelfde als ob, dat een indirecte vraag inleidt.","In gesprekken kan oder ook aan het einde van de zin staan: Du kommst, oder?"],"examples":[{"de":"Kaffee oder Tee?","lv":"Koffie of thee?"},{"de":"Heute oder morgen?","lv":"Vandaag of morgen?"},{"de":"Willst du Pizza oder Salat?","lv":"Wil je pizza of salade?"},{"de":"Du kommst, oder?","lv":"Je komt toch?"}],"comparison":[{"word":"oder","meaning":"of bij een keuze","example":"Koffie of thee?"},{"word":"ob","meaning":"of in een indirecte vraag","example":"Ik weet niet of hij komt."},{"word":"und","meaning":"en","example":"Koffie en taart."},{"word":"aber","meaning":"maar","example":"Ik kom, maar later."}],"tip":{"text":"Onthoud: een keuze tussen opties → oder."},"important":["oder gebruik je voor keuze: Kaffee oder Tee.","In een indirecte vraag is 'of' meestal ob."]}}
+**NEW (OWNER mapping):** {"de":"oder","lv":"of • dan wel","level":"A1","study":{"id":"a1-oder","layout":"standardStudy","translation":"of • dan wel","explanation":["Hoofdidee: oder gebruik je als je kiest tussen twee of meer opties.","In het Nederlands betekent oder meestal of.","Dit is niet hetzelfde als ob, dat een indirecte vraag inleidt.","In gesprekken kan oder ook aan het einde van de zin staan: Du kommst, oder?"],"examples":[{"de":"Kaffee oder Tee?","lv":"Koffie of thee?"},{"de":"Heute oder morgen?","lv":"Vandaag of morgen?"},{"de":"Willst du Pizza oder Salat?","lv":"Wil je pizza of salade?"},{"de":"Du kommst, oder?","lv":"Je komt toch?"}],"comparison":[{"word":"oder","meaning":"of bij een keuze","example":"Koffie of thee?"},{"word":"ob","meaning":"of in een indirecte vraag","example":"Ik weet niet of hij komt."},{"word":"und","meaning":"en","example":"Koffie en taart."},{"word":"aber","meaning":"maar","example":"Ik kom, maar later."}],"tip":{"text":"Onthoud: een keuze tussen opties → oder."},"important":["oder gebruik je voor keuze: Kaffee oder Tee.","In een indirecte vraag is 'of' meestal ob."]}}
 **Note:** PENDING — On nl card oder|idx:459, the finding spans study.explanation; study.comparison; study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: oder gebruik je als je kiest tussen twee of meer opties.\",\"In het Nederlands betekent oder meestal of.\",\"Dit is niet hetzelfde als ob, dat een indire…”. Review the listed subfields separately against Latvian “vai • jeb” / German “oder” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -976,12 +976,12 @@
 ```json
 {
   "de": "oder",
-  "lv": "Vai • Jeb",
+  "lv": "of • dan wel",
   "level": "A1",
   "study": {
     "id": "a1-oder",
     "layout": "standardStudy",
-    "translation": "Vai • Jeb",
+    "translation": "of • dan wel",
     "explanation": [
       "Hoofdidee: oder gebruik je als je kiest tussen twee of meer opties.",
       "In het Nederlands betekent oder meestal of.",
@@ -1054,7 +1054,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: passen betekent passen, staan of geschikt zijn.\",\"Bij kleding betekent passen meestal passen naar maat.\",\"Bij kleuren of stijl betekent passen goed staan.\",\"Een erg veel voorkomende uitdrukking is Das passt. = Dat past/goed.\"]","study.comparison":"[{\"word\":\"passen\",\"meaning\":\"Derēt / piestāvēt\",\"example\":\"Het jasje past me.\"},{\"word\":\"stehen\",\"meaning\":\"Piestāvēt / stāvēt\",\"example\":\"Rood staat je goed.\"},{\"word\":\"geeignet sein\",\"meaning\":\"Būt piemērotam\",\"example\":\"Dat is geschikt.\"},{\"word\":\"funktionieren\",\"meaning\":\"Darboties\",\"example\":\"Dat werkt.\"}]","study.important":"[\"passen is niet alleen voor kleding.\",\"Het kan ook betekenen dat het moment, plan of oplossing goed uitkomt.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"passen","lv":"passen • goed staan","level":"A1","study":{"id":"a1-passen","layout":"standardStudy","translation":"passen • goed staan","explanation":["Hoofdidee: passen betekent passen, staan of geschikt zijn.","Bij kleding betekent passen meestal passen naar maat.","Bij kleuren of stijl betekent passen goed staan.","Een erg veel voorkomende uitdrukking is Das passt. = Dat past/goed."],"examples":[{"de":"Die Jacke passt mir.","lv":"Jaka man der."},{"de":"Das Kleid passt gut.","lv":"Kleita labi der."},{"de":"Die Farbe passt zu dir.","lv":"Deze kleur staat je goed."},{"de":"Das passt.","lv":"Tas der."}],"comparison":[{"word":"passen","meaning":"passen / goed staan","example":"Het jasje past me."},{"word":"stehen","meaning":"goed staan / staan","example":"Rood staat je goed."},{"word":"geeignet sein","meaning":"geschikt zijn","example":"Dat is geschikt."},{"word":"funktionieren","meaning":"werken","example":"Dat werkt."}],"tip":{"text":"Atceries: Das passt. = Tas der."},"important":["passen is niet alleen voor kleding.","Het kan ook betekenen dat het moment, plan of oplossing goed uitkomt."]}}
+**NEW (OWNER mapping):** {"de":"passen","lv":"passen • goed staan","level":"A1","study":{"id":"a1-passen","layout":"standardStudy","translation":"passen • goed staan","explanation":["Hoofdidee: passen betekent passen, staan of geschikt zijn.","Bij kleding betekent passen meestal passen naar maat.","Bij kleuren of stijl betekent passen goed staan.","Een erg veel voorkomende uitdrukking is Das passt. = Dat past/goed."],"examples":[{"de":"Die Jacke passt mir.","lv":"Het jasje past me."},{"de":"Das Kleid passt gut.","lv":"De jurk past goed."},{"de":"Die Farbe passt zu dir.","lv":"Deze kleur staat je goed."},{"de":"Das passt.","lv":"Dat past."}],"comparison":[{"word":"passen","meaning":"passen / goed staan","example":"Het jasje past me."},{"word":"stehen","meaning":"goed staan / staan","example":"Rood staat je goed."},{"word":"geeignet sein","meaning":"geschikt zijn","example":"Dat is geschikt."},{"word":"funktionieren","meaning":"werken","example":"Dat werkt."}],"tip":{"text":"Onthoud: Das passt. = Dat past."},"important":["passen is niet alleen voor kleding.","Het kan ook betekenen dat het moment, plan of oplossing goed uitkomt."]}}
 **Note:** PENDING — On nl card passen|idx:471, the finding spans study.explanation; study.comparison; study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: passen betekent passen, staan of geschikt zijn.\",\"Bij kleding betekent passen meestal passen naar maat.\",\"Bij kleuren of stijl betekent passen goed s…”. Review the listed subfields separately against Latvian “derēt • piestāvēt” / German “passen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1077,11 +1077,11 @@
     "examples": [
       {
         "de": "Die Jacke passt mir.",
-        "lv": "Jaka man der."
+        "lv": "Het jasje past me."
       },
       {
         "de": "Das Kleid passt gut.",
-        "lv": "Kleita labi der."
+        "lv": "De jurk past goed."
       },
       {
         "de": "Die Farbe passt zu dir.",
@@ -1089,7 +1089,7 @@
       },
       {
         "de": "Das passt.",
-        "lv": "Tas der."
+        "lv": "Dat past."
       }
     ],
     "comparison": [
@@ -1115,7 +1115,7 @@
       }
     ],
     "tip": {
-      "text": "Atceries: Das passt. = Tas der."
+      "text": "Onthoud: Das passt. = Dat past."
     },
     "important": [
       "passen is niet alleen voor kleding.",
@@ -1140,7 +1140,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: probieren betekent proberen of proeven.\",\"Als het om voedsel of drank gaat, betekent probieren vaak proeven.\",\"Als het om een methode, activiteit of ding gaat, betekent probieren proberen.\",\"Dit is niet hetzelfde als prüfen, dat betekent zorgvuldiger controleren.\"]","study.comparison":"[{\"word\":\"probieren\",\"meaning\":\"Izmēģināt / nogaršot\",\"example\":\"Probeer de soep eens!\"},{\"word\":\"versuchen\",\"meaning\":\"Mēģināt\",\"example\":\"Ik probeer het.\"},{\"word\":\"prüfen\",\"meaning\":\"Pārbaudīt\",\"example\":\"Ik controleer de rekening.\"},{\"word\":\"anprobieren\",\"meaning\":\"Pielaikot\",\"example\":\"Ik pas het jasje.\"}]","study.important":"[\"probieren is niet het voornaamste woord voor officieel onderzoeken.\",\"Documenten of rekeningen controleren is meestal prüfen.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"probieren","lv":"proberen • proeven","level":"A1","study":{"id":"a1-probieren","layout":"standardStudy","translation":"proberen • proeven","explanation":["Hoofdidee: probieren betekent proberen of proeven.","Als het om voedsel of drank gaat, betekent probieren vaak proeven.","Als het om een methode, activiteit of ding gaat, betekent probieren proberen.","Dit is niet hetzelfde als prüfen, dat betekent zorgvuldiger controleren."],"examples":[{"de":"Probier mal die Suppe!","lv":"Proef de soep!"},{"de":"Ich möchte den Kuchen probieren.","lv":"Ik wil de taart proeven."},{"de":"Wir probieren eine neue Methode.","lv":"Wij proberen een nieuwe methode."},{"de":"Kann ich die Jacke anprobieren?","lv":"Vai es varu pielaikot jaku?"}],"comparison":[{"word":"probieren","meaning":"proberen / proeven","example":"Proef de soep eens!"},{"word":"versuchen","meaning":"proberen","example":"Ik probeer het."},{"word":"prüfen","meaning":"controleren","example":"Ik controleer de rekening."},{"word":"anprobieren","meaning":"passen","example":"Ik pas het jasje."}],"tip":{"text":"Onthoud: bij eten betekent probieren vaak proeven."},"important":["probieren is niet het voornaamste woord voor officieel onderzoeken.","Documenten of rekeningen controleren is meestal prüfen."]}}
+**NEW (OWNER mapping):** {"de":"probieren","lv":"proberen • proeven","level":"A1","study":{"id":"a1-probieren","layout":"standardStudy","translation":"proberen • proeven","explanation":["Hoofdidee: probieren betekent proberen of proeven.","Als het om voedsel of drank gaat, betekent probieren vaak proeven.","Als het om een methode, activiteit of ding gaat, betekent probieren proberen.","Dit is niet hetzelfde als prüfen, dat betekent zorgvuldiger controleren."],"examples":[{"de":"Probier mal die Suppe!","lv":"Proef de soep!"},{"de":"Ich möchte den Kuchen probieren.","lv":"Ik wil de taart proeven."},{"de":"Wir probieren eine neue Methode.","lv":"Wij proberen een nieuwe methode."},{"de":"Kann ich die Jacke anprobieren?","lv":"Mag ik het jasje passen?"}],"comparison":[{"word":"probieren","meaning":"proberen / proeven","example":"Proef de soep eens!"},{"word":"versuchen","meaning":"proberen","example":"Ik probeer het."},{"word":"prüfen","meaning":"controleren","example":"Ik controleer de rekening."},{"word":"anprobieren","meaning":"passen","example":"Ik pas het jasje."}],"tip":{"text":"Onthoud: bij eten betekent probieren vaak proeven."},"important":["probieren is niet het voornaamste woord voor officieel onderzoeken.","Documenten of rekeningen controleren is meestal prüfen."]}}
 **Note:** PENDING — On nl card probieren|idx:482, the finding spans study.explanation, study.comparison, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: probieren betekent proberen of proeven.\",\"Als het om voedsel of drank gaat, betekent probieren vaak proeven.\",\"Als het om een methode, activiteit of …”. Review the listed subfields separately against Latvian “["Galvenā doma: probieren nozīmē izmēģināt vai nogaršot.","Ja runa ir par ēdienu vai dzērienu, probieren bieži nozīmē nogaršot.","Ja runa ir par darbību, metodi vai lietu, probieren nozīmē …” / German “probieren” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1175,7 +1175,7 @@
       },
       {
         "de": "Kann ich die Jacke anprobieren?",
-        "lv": "Vai es varu pielaikot jaku?"
+        "lv": "Mag ik het jasje passen?"
       }
     ],
     "comparison": [
@@ -1254,7 +1254,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: Een bepaalde gedachte, woord of zin zeggen.\",\"Sagen galvenokārt nozīmē: pateikt konkrētu domu.\",\"Vaak gekenmerkt door: woorden/zinnen.\",\"Sagen lieto konkrētam pateiktam tekstam.\"]","study.comparison":"[{\"word\":\"sagen\",\"meaning\":\"Pasacīt (konkrētu tekstu)\",\"example\":\"Was hast du gesagt? – Wat zei je?\"},{\"word\":\"sprechen\",\"meaning\":\"Runāt (valodu, sarunāties)\",\"example\":\"Ich spreche Deutsch. – Ik spreek Duits.\"}]","study.tip":"[\"sagen = zeggen\",\"Gebruik sagen als de context bij deze betekenis past.\"]","study.important":"[\"sagen = zeggen.\",\"Een bepaalde gedachte, woord of zin zeggen.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"sagen","lv":"Teikt","level":"A1","study":{"id":"a1-sagen-study","layout":"standardStudy","translation":"Teikt","explanation":["Hoofdidee: een bepaalde gedachte, een woord of een zin zeggen.","sagen betekent vooral een concrete gedachte uitspreken.","Het gaat vaak om woorden of zinnen.","Je gebruikt sagen voor een concrete uitgesproken tekst."],"examples":[{"de":"Was hast du gesagt?","lv":"Ko tu pateici?"}],"comparison":[{"word":"sagen","meaning":"zeggen (concrete tekst)","example":"Was hast du gesagt? – Wat zei je?"},{"word":"sprechen","meaning":"spreken (een taal / een gesprek voeren)","example":"Ich spreche Deutsch. – Ik spreek Duits."}],"tip":["sagen = zeggen","Gebruik sagen als de context bij deze betekenis past."],"important":["sagen = zeggen.","Een bepaalde gedachte, woord of zin zeggen."]}}
+**NEW (OWNER mapping):** {"de":"sagen","lv":"zeggen","level":"A1","study":{"id":"a1-sagen-study","layout":"standardStudy","translation":"zeggen","explanation":["Hoofdidee: een bepaalde gedachte, een woord of een zin zeggen.","sagen betekent vooral een concrete gedachte uitspreken.","Het gaat vaak om woorden of zinnen.","Je gebruikt sagen voor een concrete uitgesproken tekst."],"examples":[{"de":"Was hast du gesagt?","lv":"Wat heb je gezegd?"}],"comparison":[{"word":"sagen","meaning":"zeggen (concrete tekst)","example":"Was hast du gesagt? – Wat zei je?"},{"word":"sprechen","meaning":"spreken (een taal / een gesprek voeren)","example":"Ich spreche Deutsch. – Ik spreek Duits."}],"tip":["sagen = zeggen","Gebruik sagen als de context bij deze betekenis past."],"important":["sagen = zeggen.","Een bepaalde gedachte, woord of zin zeggen."]}}
 **Note:** PENDING — On nl card sagen|idx:505, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: Een bepaalde gedachte, woord of zin zeggen.\",\"Sagen galvenokārt nozīmē: pateikt konkrētu domu.\",\"Vaak gekenmerkt door: woorden/zinnen.\",\"Sagen liet…”. Review the listed subfields separately against Latvian “["Galvenā doma: Pateikt konkrētu domu, vārdu vai teikumu.","sagen galvenokārt nozīmē: pateikt konkrētu domu.","Bieži raksturo: vārdus/teikumus.","sagen lieto konkrētam pateiktam tekstam."]” / German “sagen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1262,12 +1262,12 @@
 ```json
 {
   "de": "sagen",
-  "lv": "Teikt",
+  "lv": "zeggen",
   "level": "A1",
   "study": {
     "id": "a1-sagen-study",
     "layout": "standardStudy",
-    "translation": "Teikt",
+    "translation": "zeggen",
     "explanation": [
       "Hoofdidee: een bepaalde gedachte, een woord of een zin zeggen.",
       "sagen betekent vooral een concrete gedachte uitspreken.",
@@ -1277,7 +1277,7 @@
     "examples": [
       {
         "de": "Was hast du gesagt?",
-        "lv": "Ko tu pateici?"
+        "lv": "Wat heb je gezegd?"
       }
     ],
     "comparison": [
@@ -1319,7 +1319,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: kijken of actief kijken.\",\"Schauen galvenokārt nozīmē: aktīvi skatīties.\",\"Vaak gekenmerkt door: actie.\",\"Schauen nozīmē aktīvi skatīties.\"]","study.comparison":"[{\"word\":\"schauen\",\"meaning\":\"Skatīties (aktīvi)\",\"example\":\"Ich schaue aus dem Fenster. – Ik kijk uit het raam.\"},{\"word\":\"sehen\",\"meaning\":\"Redzēt (bez nodoma)\",\"example\":\"Ich sehe dich. – Ik zie je.\"}]","study.tip":"[\"schauen = kijken\",\"Gebruik schauen als de context bij deze betekenis past.\"]","study.important":"[\"schauen = kijken.\",\"Actief kijken of kijken.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"schauen","lv":"kijken","level":"A1","study":{"id":"a1-schauen-study","layout":"standardStudy","translation":"kijken","explanation":["Hoofdidee: actief kijken of even kijken.","schauen betekent vooral actief kijken.","Het beschrijft vaak een bewuste handeling.","schauen betekent actief kijken."],"examples":[{"de":"Ich schaue fern.","lv":"Es skatos televizoru."},{"de":"Wir schauen aus dem Fenster.","lv":"Wij kijken uit het raam."},{"de":"Ich schaue fern.","lv":"Es skatos televizoru."}],"comparison":[{"word":"schauen","meaning":"actief kijken","example":"Ich schaue aus dem Fenster. – Ik kijk uit het raam."},{"word":"sehen","meaning":"zien (zonder bedoeling)","example":"Ich sehe dich. – Ik zie je."}],"tip":["schauen = kijken","Gebruik schauen als de context bij deze betekenis past."],"important":["schauen = kijken.","Actief kijken of kijken."]}}
+**NEW (OWNER mapping):** {"de":"schauen","lv":"kijken","level":"A1","study":{"id":"a1-schauen-study","layout":"standardStudy","translation":"kijken","explanation":["Hoofdidee: actief kijken of even kijken.","schauen betekent vooral actief kijken.","Het beschrijft vaak een bewuste handeling.","schauen betekent actief kijken."],"examples":[{"de":"Ich schaue fern.","lv":"Ik kijk televisie."},{"de":"Wir schauen aus dem Fenster.","lv":"Wij kijken uit het raam."},{"de":"Ich schaue fern.","lv":"Ik kijk televisie."}],"comparison":[{"word":"schauen","meaning":"actief kijken","example":"Ich schaue aus dem Fenster. – Ik kijk uit het raam."},{"word":"sehen","meaning":"zien (zonder bedoeling)","example":"Ich sehe dich. – Ik zie je."}],"tip":["schauen = kijken","Gebruik schauen als de context bij deze betekenis past."],"important":["schauen = kijken.","Actief kijken of kijken."]}}
 **Note:** PENDING — On nl card schauen|idx:510, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: kijken of actief kijken.\",\"Schauen galvenokārt nozīmē: aktīvi skatīties.\",\"Vaak gekenmerkt door: actie.\",\"Schauen nozīmē aktīvi skatīties.\"]","stu…”. Review the listed subfields separately against Latvian “["Galvenā doma: Aktīvi skatīties vai palūkoties.","schauen galvenokārt nozīmē: aktīvi skatīties.","Bieži raksturo: darbību.","schauen nozīmē aktīvi skatīties."]” / German “schauen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1342,7 +1342,7 @@
     "examples": [
       {
         "de": "Ich schaue fern.",
-        "lv": "Es skatos televizoru."
+        "lv": "Ik kijk televisie."
       },
       {
         "de": "Wir schauen aus dem Fenster.",
@@ -1350,7 +1350,7 @@
       },
       {
         "de": "Ich schaue fern.",
-        "lv": "Es skatos televizoru."
+        "lv": "Ik kijk televisie."
       }
     ],
     "comparison": [
@@ -1392,7 +1392,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: Iets is al gebeurd of is al van kracht.\",\"Schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.\",\"Vaak gekenmerkt door: gebeurde feit of bestaande toestand.\",\"Schon nozīmē jau: kaut kas jau ir noticis vai jau ir spēkā.\"]","study.tip":"[\"Iets is al gebeurd of is al van kracht.\",\"Gebruik schon als de context bij deze betekenis past.\"]","study.important":"[\"schon = al.\",\"Iets is al gebeurd of is al van kracht.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"schon","lv":"Jau","level":"A1","study":{"id":"a1-schon-study","layout":"standardStudy","translation":"Jau","explanation":["Hoofdidee: iets is al gebeurd of geldt al.","schon betekent vooral dat iets al is gebeurd of al geldt.","Het beschrijft vaak een voltooid feit of een bestaande toestand.","schon betekent al: iets is al gebeurd of geldt al."],"examples":[{"de":"Ich bin schon zu Hause.","lv":"Ik ben al thuis."}],"tip":["Iets is al gebeurd of is al van kracht.","Gebruik schon als de context bij deze betekenis past."],"important":["schon = al.","Iets is al gebeurd of is al van kracht."]}}
+**NEW (OWNER mapping):** {"de":"schon","lv":"al","level":"A1","study":{"id":"a1-schon-study","layout":"standardStudy","translation":"al","explanation":["Hoofdidee: iets is al gebeurd of geldt al.","schon betekent vooral dat iets al is gebeurd of al geldt.","Het beschrijft vaak een voltooid feit of een bestaande toestand.","schon betekent al: iets is al gebeurd of geldt al."],"examples":[{"de":"Ich bin schon zu Hause.","lv":"Ik ben al thuis."}],"tip":["Iets is al gebeurd of is al van kracht.","Gebruik schon als de context bij deze betekenis past."],"important":["schon = al.","Iets is al gebeurd of is al van kracht."]}}
 **Note:** PENDING — On nl card schon|idx:521, the finding spans study.explanation, study.tip, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: Iets is al gebeurd of is al van kracht.\",\"Schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.\",\"Vaak gekenmerkt door: gebeurde feit of besta…”. Review the listed subfields separately against Latvian “["Galvenā doma: Kaut kas jau ir noticis vai jau ir spēkā.","schon galvenokārt nozīmē: kaut kas jau ir noticis vai spēkā.","Bieži raksturo: notikušu faktu vai esošu stāvokli.","schon nozīmē …” / German “schon” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1400,12 +1400,12 @@
 ```json
 {
   "de": "schon",
-  "lv": "Jau",
+  "lv": "al",
   "level": "A1",
   "study": {
     "id": "a1-schon-study",
     "layout": "standardStudy",
-    "translation": "Jau",
+    "translation": "al",
     "explanation": [
       "Hoofdidee: iets is al gebeurd of geldt al.",
       "schon betekent vooral dat iets al is gebeurd of al geldt.",
@@ -1531,7 +1531,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: sehen betekent zien met de ogen.\",\"Als het gaat om wat je ogen waarnemen, gebruik je sehen.\",\"Bewust kijken is vaak schauen of ansehen.\",\"Een veel gebruikte uitdrukking is Ich sehe dich. = Ik zie je.\"]","study.examples[1].lv":null,"study.comparison[].example":null,"study.important":"[\"sehen is niet hetzelfde als anschauen.\",\"Ich sehe dich = ik zie je; Ich schaue den Film = ik kijk naar de film.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"sehen","lv":"zien","level":"A1","study":{"id":"a1-sehen","layout":"standardStudy","translation":"zien","explanation":["Hoofdidee: sehen betekent zien met de ogen.","Als het gaat om wat je ogen waarnemen, gebruik je sehen.","Bewust kijken is vaak schauen of ansehen.","Een veel gebruikte uitdrukking is Ich sehe dich. = Ik zie je."],"examples":[{"de":"Ich sehe dich.","lv":"Es tevi redzu."},{"de":"Siehst du das Auto?","lv":"Zie je die auto?"},{"de":"Ich sehe nichts.","lv":"Es neko neredzu."},{"de":"Wir schauen einen Film.","lv":"Wij kijken naar een film."}],"comparison":[{"word":"sehen","meaning":"zien","example":"Ik zie je."},{"word":"schauen","meaning":"kijken","example":"Ik kijk naar de afbeelding."},{"word":"ansehen","meaning":"bekijken / kijken naar","example":"Ik kijk naar de film."},{"word":"hören","meaning":"horen","example":"Ik hoor muziek."}],"tip":{"text":"Onthoud: met de ogen waarnemen → sehen; bewust kijken → schauen/ansehen."},"important":["sehen is niet hetzelfde als anschauen.","Ich sehe dich = ik zie je; Ich schaue den Film = ik kijk naar de film."]}}
+**NEW (OWNER mapping):** {"de":"sehen","lv":"zien","level":"A1","study":{"id":"a1-sehen","layout":"standardStudy","translation":"zien","explanation":["Hoofdidee: sehen betekent zien met de ogen.","Als het gaat om wat je ogen waarnemen, gebruik je sehen.","Bewust kijken is vaak schauen of ansehen.","Een veel gebruikte uitdrukking is Ich sehe dich. = Ik zie je."],"examples":[{"de":"Ich sehe dich.","lv":"Ik zie je."},{"de":"Siehst du das Auto?","lv":"Zie je die auto?"},{"de":"Ich sehe nichts.","lv":"Ik zie niets."},{"de":"Wir schauen einen Film.","lv":"Wij kijken naar een film."}],"comparison":[{"word":"sehen","meaning":"zien","example":"Ik zie je."},{"word":"schauen","meaning":"kijken","example":"Ik kijk naar de afbeelding."},{"word":"ansehen","meaning":"bekijken / kijken naar","example":"Ik kijk naar de film."},{"word":"hören","meaning":"horen","example":"Ik hoor muziek."}],"tip":{"text":"Onthoud: met de ogen waarnemen → sehen; bewust kijken → schauen/ansehen."},"important":["sehen is niet hetzelfde als anschauen.","Ich sehe dich = ik zie je; Ich schaue den Film = ik kijk naar de film."]}}
 **Note:** PENDING — On nl card sehen|idx:539, the cited path study.explanation; study.examples[1].lv; study.comparison[].example; study.important does not exist. For the TARGET_LANGUAGE_CONTAMINATION claim concerning Latvian “redzēt” / German “sehen”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1554,7 +1554,7 @@
     "examples": [
       {
         "de": "Ich sehe dich.",
-        "lv": "Es tevi redzu."
+        "lv": "Ik zie je."
       },
       {
         "de": "Siehst du das Auto?",
@@ -1562,7 +1562,7 @@
       },
       {
         "de": "Ich sehe nichts.",
-        "lv": "Es neko neredzu."
+        "lv": "Ik zie niets."
       },
       {
         "de": "Wir schauen einen Film.",
@@ -1617,7 +1617,7 @@
 **CURRENT (captured scope):** {"study.translation":"Zijn","study.examples[3].lv":null,"study.comparison[].example":null,"study.important":"[\"vormen van sein moet je apart leren: bin, bist, ist, sind.\",\"Ich bin is 'ik ben', niet 'ik zullen zijn'.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"sein","lv":"Zijn","level":"A1","study":{"id":"a1-sein","layout":"standardStudy","translation":"zijn","explanation":["Hoofdidee: sein betekent zijn.","sein is een van de belangrijkste Duitse werkwoorden.","Op A1-niveau zijn bijzonder belangrijke vormen ik ben, jij bent, hij is en wij zijn.","sein wordt ook gebruikt in veel zinnen over een plaats of eigenschap."],"examples":[{"de":"Ich bin hier.","lv":"Ik ben hier."},{"de":"Du bist müde.","lv":"Tu esi noguris."},{"de":"Er ist Lehrer.","lv":"Hij is leraar."},{"de":"Wir sind zu Hause.","lv":"Wij zijn thuis."}],"comparison":[{"word":"sein","meaning":"zijn","example":"Ik ben hier."},{"word":"haben","meaning":"hebben","example":"Ik heb tijd."},{"word":"werden","meaning":"worden","example":"Ik word moe."},{"word":"bleiben","meaning":"blijven","example":"Ik blijf hier."}],"tip":{"text":"Atceries: ich bin = es esmu; du bist = tu esi."},"important":["De vormen van sein moet je apart leren: bin, bist, ist, sind.","Ich bin betekent 'ik ben', niet 'ik zal zijn'."]}}
+**NEW (OWNER mapping):** {"de":"sein","lv":"zijn","level":"A1","study":{"id":"a1-sein","layout":"standardStudy","translation":"zijn","explanation":["Hoofdidee: sein betekent zijn.","sein is een van de belangrijkste Duitse werkwoorden.","Op A1-niveau zijn bijzonder belangrijke vormen ik ben, jij bent, hij is en wij zijn.","sein wordt ook gebruikt in veel zinnen over een plaats of eigenschap."],"examples":[{"de":"Ich bin hier.","lv":"Ik ben hier."},{"de":"Du bist müde.","lv":"Jij bent moe."},{"de":"Er ist Lehrer.","lv":"Hij is leraar."},{"de":"Wir sind zu Hause.","lv":"Wij zijn thuis."}],"comparison":[{"word":"sein","meaning":"zijn","example":"Ik ben hier."},{"word":"haben","meaning":"hebben","example":"Ik heb tijd."},{"word":"werden","meaning":"worden","example":"Ik word moe."},{"word":"bleiben","meaning":"blijven","example":"Ik blijf hier."}],"tip":{"text":"Onthoud: ich bin = ik ben; du bist = jij bent."},"important":["De vormen van sein moet je apart leren: bin, bist, ist, sind.","Ich bin betekent 'ik ben', niet 'ik zal zijn'."]}}
 **Note:** PENDING — On nl card sein|idx:542, the cited path study.translation; study.examples[3].lv; study.comparison[].example; study.important does not exist. For the TARGET_LANGUAGE_CONTAMINATION claim concerning Latvian “būt” / German “sein”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1625,7 +1625,7 @@
 ```json
 {
   "de": "sein",
-  "lv": "Zijn",
+  "lv": "zijn",
   "level": "A1",
   "study": {
     "id": "a1-sein",
@@ -1644,7 +1644,7 @@
       },
       {
         "de": "Du bist müde.",
-        "lv": "Tu esi noguris."
+        "lv": "Jij bent moe."
       },
       {
         "de": "Er ist Lehrer.",
@@ -1678,7 +1678,7 @@
       }
     ],
     "tip": {
-      "text": "Atceries: ich bin = es esmu; du bist = tu esi."
+      "text": "Onthoud: ich bin = ik ben; du bist = jij bent."
     },
     "important": [
       "De vormen van sein moet je apart leren: bin, bist, ist, sind.",
@@ -1703,7 +1703,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: die Seite kan de pagina van een boek/document of de zijde/kant van iets betekenen.\",\"In een boek, tijdschrift of website is die Seite = pagina (pagina 5 = pagina 5).\",\"In ruimtelijke zin is die Seite = zijde (aan de linkerkant = aan de linkerkant).\",\"In overdrachtelijke zin kan die Seite ook de kant in een conflict of opvatting betekenen (aan mijn kant = aan mijn kant).\",\"Context (boek/lezen of positie/relaties) toont de juiste betekenis.\",\"Meervoud voor beide betekenissen: die Seiten.\"]","study.tip":"[\"Praten over een boek of lezen → pagina. Praten over positie, richting of relaties → zijde.\",\"Pagina X in een boek is altijd pagina, niet zijde.\"]","study.important":"[\"die Seite = pagina OF zijde — context maakt het onderscheid.\",\"Meervoud voor beide betekenissen: die Seiten.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Seite","lv":"Lappuse • Puse","level":"A1","de_article":"die","de_plural":"die Seiten","study":{"id":"a1-seite","layout":"standardStudy","translation":"Lappuse • Puse","explanation":["Hoofdidee: die Seite kan een pagina van een boek of document zijn, maar ook een zijde of kant van iets.","In een boek, tijdschrift of op een website betekent die Seite pagina.","In ruimtelijke zin betekent die Seite zijde of kant.","Figuurlijk kan die Seite ook een kant in een conflict of standpunt betekenen.","De context bepaalt de juiste betekenis.","Het meervoud voor beide betekenissen is die Seiten."],"examples":[{"de":"Schlagt die Seite zwanzig auf.","lv":"Atveriet divdesmito lappusi."},{"de":"Auf der linken Seite ist ein Park.","lv":"Aan de linkerkant ligt een park."},{"de":"Die Webseite lädt langsam.","lv":"De webpagina laadt langzaam."},{"de":"Er steht auf meiner Seite.","lv":"Hij staat aan mijn kant."},{"de":"Das Buch hat 200 Seiten.","lv":"Het boek heeft 200 pagina's."},{"de":"Auf der anderen Seite der Straße.","lv":"Aan de overkant van de straat."}],"tip":["Praten over een boek of lezen → pagina. Praten over positie, richting of relaties → zijde.","Pagina X in een boek is altijd pagina, niet zijde."],"important":["die Seite = pagina OF zijde — context maakt het onderscheid.","Meervoud voor beide betekenissen: die Seiten."]}}
+**NEW (OWNER mapping):** {"de":"Seite","lv":"pagina • kant","level":"A1","de_article":"die","de_plural":"die Seiten","study":{"id":"a1-seite","layout":"standardStudy","translation":"pagina • kant","explanation":["Hoofdidee: die Seite kan een pagina van een boek of document zijn, maar ook een zijde of kant van iets.","In een boek, tijdschrift of op een website betekent die Seite pagina.","In ruimtelijke zin betekent die Seite zijde of kant.","Figuurlijk kan die Seite ook een kant in een conflict of standpunt betekenen.","De context bepaalt de juiste betekenis.","Het meervoud voor beide betekenissen is die Seiten."],"examples":[{"de":"Schlagt die Seite zwanzig auf.","lv":"Open pagina twintig."},{"de":"Auf der linken Seite ist ein Park.","lv":"Aan de linkerkant ligt een park."},{"de":"Die Webseite lädt langsam.","lv":"De webpagina laadt langzaam."},{"de":"Er steht auf meiner Seite.","lv":"Hij staat aan mijn kant."},{"de":"Das Buch hat 200 Seiten.","lv":"Het boek heeft 200 pagina's."},{"de":"Auf der anderen Seite der Straße.","lv":"Aan de overkant van de straat."}],"tip":["Praten over een boek of lezen → pagina. Praten over positie, richting of relaties → zijde.","Pagina X in een boek is altijd pagina, niet zijde."],"important":["die Seite = pagina OF zijde — context maakt het onderscheid.","Meervoud voor beide betekenissen: die Seiten."]}}
 **Note:** PENDING — On nl card Seite|idx:544, the finding spans study.explanation; study.tip; study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: die Seite kan de pagina van een boek/document of de zijde/kant van iets betekenen.\",\"In een boek, tijdschrift of website is die Seite = pagina (pagina …”. Review the listed subfields separately against Latvian “lappuse • puse” / German “Seite” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1713,12 +1713,12 @@
   "de": "Seite",
   "de_article": "die",
   "de_plural": "die Seiten",
-  "lv": "Lappuse • Puse",
+  "lv": "pagina • kant",
   "level": "A1",
   "study": {
     "id": "a1-seite",
     "layout": "standardStudy",
-    "translation": "Lappuse • Puse",
+    "translation": "pagina • kant",
     "explanation": [
       "Hoofdidee: die Seite kan een pagina van een boek of document zijn, maar ook een zijde of kant van iets.",
       "In een boek, tijdschrift of op een website betekent die Seite pagina.",
@@ -1730,7 +1730,7 @@
     "examples": [
       {
         "de": "Schlagt die Seite zwanzig auf.",
-        "lv": "Atveriet divdesmito lappusi."
+        "lv": "Open pagina twintig."
       },
       {
         "de": "Auf der linken Seite ist ein Park.",
@@ -1780,7 +1780,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: sich laat zien dat de actie verwijst naar de doener zelf.\",\"In het Nederlands vertaal je het vaak als jezelf of je.\",\"In sommige Duitse werkwoorden is sich een verplicht onderdeel, bijvoorbeeld sich waschen.\",\"Op A1-niveau is het belangrijk op te merken: ik was me, hij wast zich.\"]","study.comparison[].example":null,"study.important":"[\"sich is geen zelfstandig woord.\",\"Het verandert per persoon: ik → me, jij → je, hij/zij/het → zich.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"sich","lv":"Sevi • Sev","level":"A1","study":{"id":"a1-sich","layout":"standardStudy","translation":"Sevi • Sev","explanation":["Hoofdidee: sich laat zien dat de actie verwijst naar de doener zelf.","In het Nederlands vertaal je het vaak als jezelf of je.","In sommige Duitse werkwoorden is sich een verplicht onderdeel, bijvoorbeeld sich waschen.","Op A1-niveau is het belangrijk op te merken: ik was me, hij wast zich."],"examples":[{"de":"Er wäscht sich.","lv":"Hij wast zich."},{"de":"Ich setze mich.","lv":"Ik ga zitten."},{"de":"Sie freut sich.","lv":"Zij is blij."},{"de":"Ich wasche das Auto.","lv":"Ik was de auto."}],"comparison":[{"word":"sich","meaning":"zichzelf","example":"Hij wast zich."},{"word":"mich","meaning":"mezelf / me bij ich","example":"Ik was me."},{"word":"dich","meaning":"jezelf / je bij du","example":"Jij wast je."},{"word":"ihn","meaning":"hem","example":"Ik zie hem."}],"tip":{"text":"Onthoud: een handeling op jezelf → sich/mich/dich."},"important":["sich is geen zelfstandig woord.","Het verandert per persoon: ik → me, jij → je, hij/zij/het → zich."]}}
+**NEW (OWNER mapping):** {"de":"sich","lv":"zichzelf • zich","level":"A1","study":{"id":"a1-sich","layout":"standardStudy","translation":"zichzelf • zich","explanation":["Hoofdidee: sich laat zien dat de actie verwijst naar de doener zelf.","In het Nederlands vertaal je het vaak als jezelf of je.","In sommige Duitse werkwoorden is sich een verplicht onderdeel, bijvoorbeeld sich waschen.","Op A1-niveau is het belangrijk op te merken: ik was me, hij wast zich."],"examples":[{"de":"Er wäscht sich.","lv":"Hij wast zich."},{"de":"Ich setze mich.","lv":"Ik ga zitten."},{"de":"Sie freut sich.","lv":"Zij is blij."},{"de":"Ich wasche das Auto.","lv":"Ik was de auto."}],"comparison":[{"word":"sich","meaning":"zichzelf","example":"Hij wast zich."},{"word":"mich","meaning":"mezelf / me bij ich","example":"Ik was me."},{"word":"dich","meaning":"jezelf / je bij du","example":"Jij wast je."},{"word":"ihn","meaning":"hem","example":"Ik zie hem."}],"tip":{"text":"Onthoud: een handeling op jezelf → sich/mich/dich."},"important":["sich is geen zelfstandig woord.","Het verandert per persoon: ik → me, jij → je, hij/zij/het → zich."]}}
 **Note:** PENDING — On nl card sich|idx:547, the cited path study.explanation; study.comparison[].example; study.important does not exist. For the TARGET_LANGUAGE_CONTAMINATION claim concerning Latvian “sevi • sev” / German “sich”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1788,12 +1788,12 @@
 ```json
 {
   "de": "sich",
-  "lv": "Sevi • Sev",
+  "lv": "zichzelf • zich",
   "level": "A1",
   "study": {
     "id": "a1-sich",
     "layout": "standardStudy",
-    "translation": "Sevi • Sev",
+    "translation": "zichzelf • zich",
     "explanation": [
       "Hoofdidee: sich laat zien dat de actie verwijst naar de doener zelf.",
       "In het Nederlands vertaal je het vaak als jezelf of je.",
@@ -2028,7 +2028,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: über betekent boven of over, afhankelijk van de context.\",\"Als het gaat om locatie, betekent über vaak boven.\",\"Als het gaat om gesprek, tekst of onderwerp, betekent über over.\",\"In beweging kan über over betekenen.\"]","study.important":"[\"über is niet alleen een plaatsaanduiding.\",\"sprechen über betekent \\\"praten over\\\".\"]","study.comparison":"[{\"word\":\"über\",\"meaning\":\"Virs / par / pāri\",\"example\":\"Wir sprechen über das Wetter.\"},{\"word\":\"auf\",\"meaning\":\"Uz virsmas\",\"example\":\"Das Buch liegt auf dem Tisch.\"},{\"word\":\"unter\",\"meaning\":\"Zem\",\"example\":\"Die Tasche ist unter dem Tisch.\"},{\"word\":\"von\",\"meaning\":\"Van/over uit een bepaalde bron\",\"example\":\"Ich höre von dir.\"}]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"über","lv":"Virs • Par","level":"A1","study":{"id":"a1-über","layout":"standardStudy","translation":"Virs • Par","explanation":["Hoofdidee: über betekent boven of over, afhankelijk van de context.","Als het gaat om locatie, betekent über vaak boven.","Als het gaat om gesprek, tekst of onderwerp, betekent über over.","In beweging kan über over betekenen."],"examples":[{"de":"Die Lampe hängt über dem Tisch.","lv":"De lamp hangt boven de tafel."},{"de":"Wir sprechen über das Wetter.","lv":"Wij praten over het weer."},{"de":"Das Kind läuft über die Straße.","lv":"Het kind rent de straat over."},{"de":"Ich freue mich über das Geschenk.","lv":"Ik ben blij met het cadeau."}],"comparison":[{"word":"über","meaning":"boven / over","example":"Wir sprechen über das Wetter."},{"word":"auf","meaning":"op een oppervlak","example":"Das Buch liegt auf dem Tisch."},{"word":"unter","meaning":"onder","example":"Die Tasche ist unter dem Tisch."},{"word":"von","meaning":"van / over vanuit een bron","example":"Ich höre von dir."}],"tip":{"text":"Onthoud: gespreksonderwerp → über; boven de tafel → über."},"important":["über is niet alleen een plaatsaanduiding.","sprechen über betekent \"praten over\"."]}}
+**NEW (OWNER mapping):** {"de":"über","lv":"boven • over","level":"A1","study":{"id":"a1-über","layout":"standardStudy","translation":"boven • over","explanation":["Hoofdidee: über betekent boven of over, afhankelijk van de context.","Als het gaat om locatie, betekent über vaak boven.","Als het gaat om gesprek, tekst of onderwerp, betekent über over.","In beweging kan über over betekenen."],"examples":[{"de":"Die Lampe hängt über dem Tisch.","lv":"De lamp hangt boven de tafel."},{"de":"Wir sprechen über das Wetter.","lv":"Wij praten over het weer."},{"de":"Das Kind läuft über die Straße.","lv":"Het kind rent de straat over."},{"de":"Ich freue mich über das Geschenk.","lv":"Ik ben blij met het cadeau."}],"comparison":[{"word":"über","meaning":"boven / over","example":"Wir sprechen über das Wetter."},{"word":"auf","meaning":"op een oppervlak","example":"Das Buch liegt auf dem Tisch."},{"word":"unter","meaning":"onder","example":"Die Tasche ist unter dem Tisch."},{"word":"von","meaning":"van / over vanuit een bron","example":"Ich höre von dir."}],"tip":{"text":"Onthoud: gespreksonderwerp → über; boven de tafel → über."},"important":["über is niet alleen een plaatsaanduiding.","sprechen über betekent \"praten over\"."]}}
 **Note:** PENDING — On nl card über|idx:608, the finding spans study.explanation, study.important, study.comparison; the captured production value begins “{"study.explanation":"[\"Hoofdidee: über betekent boven of over, afhankelijk van de context.\",\"Als het gaat om locatie, betekent über vaak boven.\",\"Als het gaat om gesprek, tekst of ond…”. Review the listed subfields separately against Latvian “["Galvenā doma: über nozīmē virs vai par atkarībā no konteksta.","Ja runa ir par atrašanās vietu, über bieži nozīmē virs.","Ja runa ir par sarunu, tekstu vai tēmu, über nozīmē par.","Kustīb…” / German “über” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2036,12 +2036,12 @@
 ```json
 {
   "de": "über",
-  "lv": "Virs • Par",
+  "lv": "boven • over",
   "level": "A1",
   "study": {
     "id": "a1-über",
     "layout": "standardStudy",
-    "translation": "Virs • Par",
+    "translation": "boven • over",
     "explanation": [
       "Hoofdidee: über betekent boven of over, afhankelijk van de context.",
       "Als het gaat om locatie, betekent über vaak boven.",
@@ -2189,7 +2189,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: um betekent vaak het uur met tijd of om/rond met plaats.\",\"Met een exact tijdstip betekent um uur.\",\"Met een plaats betekent um om of rond.\",\"In de uitdrukking um ... zu helpt het het doel uit te drukken: om.\"]","study.important":"[\"um met tijd betekent meestal \\\"uur\\\".\",\"um ... zu betekent vaak \\\"om ...\\\".\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"um","lv":"Ap • Pulksten","level":"A1","study":{"id":"a1-um","layout":"standardStudy","translation":"Ap • Pulksten","explanation":["Hoofdidee: um betekent bij een tijdstip vaak om en bij een plaats om of rondom.","Bij een exact tijdstip betekent um om.","Bij een plaats betekent um om of rondom.","In de constructie um ... zu helpt het een doel uit te drukken: om te."],"examples":[{"de":"Ich komme um acht Uhr.","lv":"Ik kom om acht uur."},{"de":"Wir sitzen um den Tisch.","lv":"Wij zitten rond de tafel."},{"de":"Er geht um die Ecke.","lv":"Hij gaat de hoek om."},{"de":"Ich lerne, um Deutsch zu sprechen.","lv":"Ik leer om Duits te spreken."}],"comparison":[{"word":"um","meaning":"om (tijd / rondom)","example":"Ich komme um acht."},{"word":"am","meaning":"op / bij","example":"Am Montag komme ich."},{"word":"gegen","meaning":"rondom","example":"Ich komme gegen acht."},{"word":"für","meaning":"voor / ten behoeve van","example":"Das ist für dich."}],"tip":{"text":"Onthoud: um acht = om acht uur."},"important":["um met tijd betekent meestal \"uur\".","um ... zu betekent vaak \"om ...\"."]}}
+**NEW (OWNER mapping):** {"de":"um","lv":"om • rondom","level":"A1","study":{"id":"a1-um","layout":"standardStudy","translation":"om • rondom","explanation":["Hoofdidee: um betekent bij een tijdstip vaak om en bij een plaats om of rondom.","Bij een exact tijdstip betekent um om.","Bij een plaats betekent um om of rondom.","In de constructie um ... zu helpt het een doel uit te drukken: om te."],"examples":[{"de":"Ich komme um acht Uhr.","lv":"Ik kom om acht uur."},{"de":"Wir sitzen um den Tisch.","lv":"Wij zitten rond de tafel."},{"de":"Er geht um die Ecke.","lv":"Hij gaat de hoek om."},{"de":"Ich lerne, um Deutsch zu sprechen.","lv":"Ik leer om Duits te spreken."}],"comparison":[{"word":"um","meaning":"om (tijd / rondom)","example":"Ich komme um acht."},{"word":"am","meaning":"op / bij","example":"Am Montag komme ich."},{"word":"gegen","meaning":"rondom","example":"Ich komme gegen acht."},{"word":"für","meaning":"voor / ten behoeve van","example":"Das ist für dich."}],"tip":{"text":"Onthoud: um acht = om acht uur."},"important":["um met tijd betekent meestal \"uur\".","um ... zu betekent vaak \"om ...\"."]}}
 **Note:** PENDING — On nl card um|idx:611, the finding spans study.explanation, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: um betekent vaak het uur met tijd of om/rond met plaats.\",\"Met een exact tijdstip betekent um uur.\",\"Met een plaats betekent um om of rond.\",\"In de…”. Review the listed subfields separately against Latvian “["Galvenā doma: um ļoti bieži nozīmē pulksten ar laiku vai ap/apkārt ar vietu.","Ar precīzu laiku um nozīmē pulksten.","Ar vietu um nozīmē ap vai apkārt.","Frāzē um ... zu tas palīdz izteik…” / German “um” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2197,12 +2197,12 @@
 ```json
 {
   "de": "um",
-  "lv": "Ap • Pulksten",
+  "lv": "om • rondom",
   "level": "A1",
   "study": {
     "id": "a1-um",
     "layout": "standardStudy",
-    "translation": "Ap • Pulksten",
+    "translation": "om • rondom",
     "explanation": [
       "Hoofdidee: um betekent bij een tijdstip vaak om en bij een plaats om of rondom.",
       "Bij een exact tijdstip betekent um om.",
@@ -2275,7 +2275,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: unter betekent onder of tussen, afhankelijk van de context.\",\"Als iets onder een tafel, stoel of ander voorwerp staat, gebruik je unter.\",\"Als het gaat om een groep mensen, kan unter tussen betekenen.\",\"Het is het tegenovergestelde van het woord über, wat betreft richting omhoog/omlaag.\"]","study.important":"[\"unter kan ook \\\"tussen\\\" betekenen, vooral met mensen of groepen.\",\"unter en über zijn vaak tegengesteld in ruimtelijke zin.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"unter","lv":"Zem","level":"A1","study":{"id":"a1-unter","layout":"standardStudy","translation":"Zem","explanation":["Hoofdidee: unter betekent onder of tussen, afhankelijk van de context.","Als iets zich onder een tafel, stoel of ander voorwerp bevindt, gebruik je unter.","Bij een groep mensen kan unter tussen betekenen.","Bij ruimtelijke richting is het het tegenovergestelde van über."],"examples":[{"de":"Die Tasche ist unter dem Tisch.","lv":"Soma ir zem galda."},{"de":"Die Katze liegt unter dem Stuhl.","lv":"De kat ligt onder de stoel."},{"de":"Unter Freunden sagt man das so.","lv":"Onder vrienden zeg je dat zo."},{"de":"Die Lampe hängt über dem Tisch.","lv":"De lamp hangt boven de tafel."}],"comparison":[{"word":"unter","meaning":"onder / tussen","example":"Die Tasche ist unter dem Tisch."},{"word":"über","meaning":"boven / over","example":"Die Lampe hängt über dem Tisch."},{"word":"zwischen","meaning":"tussen twee dingen","example":"Zwischen den Häusern."},{"word":"auf","meaning":"Uz virsmas","example":"Auf dem Tisch."}],"tip":{"text":"Atceries: zem galda → unter dem Tisch."},"important":["unter kan ook \"tussen\" betekenen, vooral met mensen of groepen.","unter en über zijn vaak tegengesteld in ruimtelijke zin."]}}
+**NEW (OWNER mapping):** {"de":"unter","lv":"onder • tussen","level":"A1","study":{"id":"a1-unter","layout":"standardStudy","translation":"onder • tussen","explanation":["Hoofdidee: unter betekent onder of tussen, afhankelijk van de context.","Als iets zich onder een tafel, stoel of ander voorwerp bevindt, gebruik je unter.","Bij een groep mensen kan unter tussen betekenen.","Bij ruimtelijke richting is het het tegenovergestelde van über."],"examples":[{"de":"Die Tasche ist unter dem Tisch.","lv":"De tas ligt onder de tafel."},{"de":"Die Katze liegt unter dem Stuhl.","lv":"De kat ligt onder de stoel."},{"de":"Unter Freunden sagt man das so.","lv":"Onder vrienden zeg je dat zo."},{"de":"Die Lampe hängt über dem Tisch.","lv":"De lamp hangt boven de tafel."}],"comparison":[{"word":"unter","meaning":"onder / tussen","example":"Die Tasche ist unter dem Tisch."},{"word":"über","meaning":"boven / over","example":"Die Lampe hängt über dem Tisch."},{"word":"zwischen","meaning":"tussen twee dingen","example":"Zwischen den Häusern."},{"word":"auf","meaning":"Uz virsmas","example":"Auf dem Tisch."}],"tip":{"text":"Onthoud: onder de tafel → unter dem Tisch."},"important":["unter kan ook \"tussen\" betekenen, vooral met mensen of groepen.","unter en über zijn vaak tegengesteld in ruimtelijke zin."]}}
 **Note:** PENDING — On nl card unter|idx:615, the finding spans study.explanation, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: unter betekent onder of tussen, afhankelijk van de context.\",\"Als iets onder een tafel, stoel of ander voorwerp staat, gebruik je unter.\",\"Als het ga…”. Review the listed subfields separately against Latvian “["Galvenā doma: unter nozīmē zem vai starp atkarībā no konteksta.","Ja kaut kas atrodas zem galda, krēsla vai cita priekšmeta, lieto unter.","Ja runa ir par cilvēku grupu, unter var nozīmēt…” / German “unter” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2283,12 +2283,12 @@
 ```json
 {
   "de": "unter",
-  "lv": "Zem",
+  "lv": "onder • tussen",
   "level": "A1",
   "study": {
     "id": "a1-unter",
     "layout": "standardStudy",
-    "translation": "Zem",
+    "translation": "onder • tussen",
     "explanation": [
       "Hoofdidee: unter betekent onder of tussen, afhankelijk van de context.",
       "Als iets zich onder een tafel, stoel of ander voorwerp bevindt, gebruik je unter.",
@@ -2298,7 +2298,7 @@
     "examples": [
       {
         "de": "Die Tasche ist unter dem Tisch.",
-        "lv": "Soma ir zem galda."
+        "lv": "De tas ligt onder de tafel."
       },
       {
         "de": "Die Katze liegt unter dem Stuhl.",
@@ -2336,7 +2336,7 @@
       }
     ],
     "tip": {
-      "text": "Atceries: zem galda → unter dem Tisch."
+      "text": "Onthoud: onder de tafel → unter dem Tisch."
     },
     "important": [
       "unter kan ook \"tussen\" betekenen, vooral met mensen of groepen.",
@@ -2445,7 +2445,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: verstehen betekent begrijpen.\",\"Gebruik het wanneer je een taal, persoon, tekst of situatie begrijpt.\",\"Latviski šeit parasti nevajag “prast” vai “mācēt” • Tie biežāk ir können.\",\"Een veel voorkomende uitdrukking is Ich verstehe. = Ik begrijp het.\"]","study.important":"[\"verstehen is niet het hoofdwoord voor de betekenis \\\"kunnen\\\".\",\"Ich verstehe Deutsch betekent \\\"ik spreek/begrijp Duits\\\".\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"verstehen","lv":"Saprast","level":"A1","study":{"id":"a1-verstehen","layout":"standardStudy","translation":"Saprast","explanation":["Hoofdidee: verstehen betekent begrijpen.","Je gebruikt het wanneer je een taal, persoon, tekst of situatie begrijpt.","Voor kunnen of in staat zijn gebruik je doorgaans können, niet verstehen.","Een veelgebruikte uitdrukking is Ich verstehe. = Ik begrijp het."],"examples":[{"de":"Ich verstehe dich.","lv":"Es tevi saprotu."},{"de":"Verstehst du Deutsch?","lv":"Begrijp je Duits?"},{"de":"Ich verstehe das nicht.","lv":"Es to nesaprotu."},{"de":"Ich kann Deutsch sprechen.","lv":"Ik kan Duits spreken."}],"comparison":[{"word":"verstehen","meaning":"begrijpen","example":"Ich verstehe dich."},{"word":"können","meaning":"kunnen","example":"Ich kann schwimmen."},{"word":"wissen","meaning":"een feit weten","example":"Ich weiß das."},{"word":"kennen","meaning":"kennen","example":"Ich kenne ihn."}],"tip":{"text":"Onthoud: een tekst of persoon begrijpen → verstehen; iets kunnen doen → können."},"important":["verstehen is niet het hoofdwoord voor de betekenis \"kunnen\".","Ich verstehe Deutsch betekent \"ik spreek/begrijp Duits\"."]}}
+**NEW (OWNER mapping):** {"de":"verstehen","lv":"begrijpen","level":"A1","study":{"id":"a1-verstehen","layout":"standardStudy","translation":"begrijpen","explanation":["Hoofdidee: verstehen betekent begrijpen.","Je gebruikt het wanneer je een taal, persoon, tekst of situatie begrijpt.","Voor kunnen of in staat zijn gebruik je doorgaans können, niet verstehen.","Een veelgebruikte uitdrukking is Ich verstehe. = Ik begrijp het."],"examples":[{"de":"Ich verstehe dich.","lv":"Ik begrijp je."},{"de":"Verstehst du Deutsch?","lv":"Begrijp je Duits?"},{"de":"Ich verstehe das nicht.","lv":"Ik begrijp het niet."},{"de":"Ich kann Deutsch sprechen.","lv":"Ik kan Duits spreken."}],"comparison":[{"word":"verstehen","meaning":"begrijpen","example":"Ich verstehe dich."},{"word":"können","meaning":"kunnen","example":"Ich kann schwimmen."},{"word":"wissen","meaning":"een feit weten","example":"Ich weiß das."},{"word":"kennen","meaning":"kennen","example":"Ich kenne ihn."}],"tip":{"text":"Onthoud: een tekst of persoon begrijpen → verstehen; iets kunnen doen → können."},"important":["verstehen is niet het hoofdwoord voor de betekenis \"kunnen\".","Ich verstehe Deutsch betekent \"ik spreek/begrijp Duits\"."]}}
 **Note:** PENDING — On nl card verstehen|idx:621, the finding spans study.explanation, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: verstehen betekent begrijpen.\",\"Gebruik het wanneer je een taal, persoon, tekst of situatie begrijpt.\",\"Latviski šeit parasti nevajag “prast” vai “mā…”. Review the listed subfields separately against Latvian “["Galvenā doma: verstehen nozīmē saprast.","To lieto, ja saproti valodu, cilvēku, tekstu vai situāciju.","Latviski šeit parasti nevajag “prast” vai “mācēt”; tie biežāk ir können.","Ļoti bie…” / German “verstehen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2453,12 +2453,12 @@
 ```json
 {
   "de": "verstehen",
-  "lv": "Saprast",
+  "lv": "begrijpen",
   "level": "A1",
   "study": {
     "id": "a1-verstehen",
     "layout": "standardStudy",
-    "translation": "Saprast",
+    "translation": "begrijpen",
     "explanation": [
       "Hoofdidee: verstehen betekent begrijpen.",
       "Je gebruikt het wanneer je een taal, persoon, tekst of situatie begrijpt.",
@@ -2468,7 +2468,7 @@
     "examples": [
       {
         "de": "Ich verstehe dich.",
-        "lv": "Es tevi saprotu."
+        "lv": "Ik begrijp je."
       },
       {
         "de": "Verstehst du Deutsch?",
@@ -2476,7 +2476,7 @@
       },
       {
         "de": "Ich verstehe das nicht.",
-        "lv": "Es to nesaprotu."
+        "lv": "Ik begrijp het niet."
       },
       {
         "de": "Ich kann Deutsch sprechen.",
@@ -2531,7 +2531,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Vom ir prievārda von un artikula dem saīsinājums.\",\"Volledige vorm: van de (wie?).\",\"Gebruik het met mannelijke en neutrale zelfstandig naamwoorden, wanneer je de afkomst of richting van iets aangeeft.\",\"Antwoordt op vragen van waar af? of van waar vandaan?\",\"In de praktijk wordt bijna altijd vom gebruikt in plaats van de volledige von dem.\"]","study.comparison":"[{\"word\":\"vom\",\"meaning\":\"No (konkrēta lieta, kam?)\",\"example\":\"vom Bahnhof – Vanaf het station\"},{\"word\":\"von\",\"meaning\":\"No (vispārīgi)\",\"example\":\"von mir – No manis\"},{\"word\":\"aus\",\"meaning\":\"No iekšienes / izcelsme\",\"example\":\"aus Deutschland – No Vācijas\"},{\"word\":\"ab\",\"meaning\":\"Sākot no (laiks/vieta)\",\"example\":\"ab Montag – Vanaf maandag\"},{\"word\":\"zu\",\"meaning\":\"Uz / pie (pretēja virzienam)\",\"example\":\"zum Arzt – Pie ārsta\"}]","study.tip":"[\"Onthoud: von + dem → vom (wie?).\",\"In colloquiale spraak zegt men bijna nooit von dem — gebruik vom.\"]","study.important":"[\"vom = van de, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.\",\"Geeft afkomst, bron of richting van iets specifiek aan.\",\"Voor vrouwelijke geslacht: von der Mutter, niet vom Mutter.\",\"Niet verwarren met aus (afkomst uit land) of ab (startpunt).\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"vom","lv":"No","level":"A1","study":{"id":"a1-vom","layout":"standardStudy","translation":"No","explanation":["vom is de samentrekking van het voorzetsel von en het lidwoord dem.","De volledige vorm is von dem.","Je gebruikt het bij mannelijke en onzijdige zelfstandige naamwoorden om herkomst of beweging vanaf iets aan te geven.","Het antwoordt vaak op de vraag: waarvan of waarvandaan?","In de praktijk gebruikt men bijna altijd vom in plaats van von dem."],"examples":[{"de":"Ich komme vom Bahnhof.","lv":"Ik kom van het station."},{"de":"Das Geschenk ist vom Vater.","lv":"Het cadeau is van vader."},{"de":"Er kommt vom Arzt.","lv":"Hij komt van de dokter."},{"de":"Sie fährt vom Flughafen.","lv":"Zij rijdt vanaf de luchthaven."},{"de":"Das ist vom Markt.","lv":"Wij komen van het feest."},{"de":"Wir kommen vom Fest.","lv":"Wij komen van het feest."},{"de":"Er holt Milch vom Bauern.","lv":"Hij haalt de melk bij de boer."},{"de":"Die Nachricht ist vom Chef.","lv":"Het bericht is van de baas."}],"comparison":[{"word":"vom","meaning":"van de / vanaf het (iets bepaalds)","example":"vom Bahnhof – vanaf het station"},{"word":"von","meaning":"van (algemeen)","example":"von mir – van mij"},{"word":"aus","meaning":"uit / herkomst uit","example":"aus Deutschland – uit Duitsland"},{"word":"ab","meaning":"vanaf (tijd of plaats)","example":"ab Montag – vanaf maandag"},{"word":"zu","meaning":"naar / bij (tegengestelde richting)","example":"zum Arzt – naar de dokter"}],"tip":["Onthoud: von + dem → vom (wie?).","In colloquiale spraak zegt men bijna nooit von dem — gebruik vom."],"important":["vom = van de, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.","Geeft afkomst, bron of richting van iets specifiek aan.","Voor vrouwelijke geslacht: von der Mutter, niet vom Mutter.","Niet verwarren met aus (afkomst uit land) of ab (startpunt)."]}}
+**NEW (OWNER mapping):** {"de":"vom","lv":"van de • vanaf het","level":"A1","study":{"id":"a1-vom","layout":"standardStudy","translation":"van de • vanaf het","explanation":["vom is de samentrekking van het voorzetsel von en het lidwoord dem.","De volledige vorm is von dem.","Je gebruikt het bij mannelijke en onzijdige zelfstandige naamwoorden om herkomst of beweging vanaf iets aan te geven.","Het antwoordt vaak op de vraag: waarvan of waarvandaan?","In de praktijk gebruikt men bijna altijd vom in plaats van von dem."],"examples":[{"de":"Ich komme vom Bahnhof.","lv":"Ik kom van het station."},{"de":"Das Geschenk ist vom Vater.","lv":"Het cadeau is van vader."},{"de":"Er kommt vom Arzt.","lv":"Hij komt van de dokter."},{"de":"Sie fährt vom Flughafen.","lv":"Zij rijdt vanaf de luchthaven."},{"de":"Das ist vom Markt.","lv":"Wij komen van het feest."},{"de":"Wir kommen vom Fest.","lv":"Wij komen van het feest."},{"de":"Er holt Milch vom Bauern.","lv":"Hij haalt de melk bij de boer."},{"de":"Die Nachricht ist vom Chef.","lv":"Het bericht is van de baas."}],"comparison":[{"word":"vom","meaning":"van de / vanaf het (iets bepaalds)","example":"vom Bahnhof – vanaf het station"},{"word":"von","meaning":"van (algemeen)","example":"von mir – van mij"},{"word":"aus","meaning":"uit / herkomst uit","example":"aus Deutschland – uit Duitsland"},{"word":"ab","meaning":"vanaf (tijd of plaats)","example":"ab Montag – vanaf maandag"},{"word":"zu","meaning":"naar / bij (tegengestelde richting)","example":"zum Arzt – naar de dokter"}],"tip":["Onthoud: von + dem → vom.","In de omgangstaal zegt men bijna altijd vom in plaats van von dem."],"important":["vom = von dem; het wordt gebruikt bij mannelijke en onzijdige zelfstandige naamwoorden in de datief.","Geeft afkomst, bron of richting van iets specifiek aan.","Voor vrouwelijke geslacht: von der Mutter, niet vom Mutter.","Niet verwarren met aus (afkomst uit land) of ab (startpunt)."]}}
 **Note:** PENDING — On nl card vom|idx:634, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{"study.explanation":"[\"Vom ir prievārda von un artikula dem saīsinājums.\",\"Volledige vorm: van de (wie?).\",\"Gebruik het met mannelijke en neutrale zelfstandig naamwoorden, wanneer je …”. Review the listed subfields separately against Latvian “["vom ir prievārda von un artikula dem saīsinājums.","Pilnā forma: von dem (kam?).","Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda izcelsmi vai virzienu no kā.","Atbild uz ja…” / German “vom” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2539,12 +2539,12 @@
 ```json
 {
   "de": "vom",
-  "lv": "No",
+  "lv": "van de • vanaf het",
   "level": "A1",
   "study": {
     "id": "a1-vom",
     "layout": "standardStudy",
-    "translation": "No",
+    "translation": "van de • vanaf het",
     "explanation": [
       "vom is de samentrekking van het voorzetsel von en het lidwoord dem.",
       "De volledige vorm is von dem.",
@@ -2614,11 +2614,11 @@
       }
     ],
     "tip": [
-      "Onthoud: von + dem → vom (wie?).",
-      "In colloquiale spraak zegt men bijna nooit von dem — gebruik vom."
+      "Onthoud: von + dem → vom.",
+      "In de omgangstaal zegt men bijna altijd vom in plaats van von dem."
     ],
     "important": [
-      "vom = van de, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.",
+      "vom = von dem; het wordt gebruikt bij mannelijke en onzijdige zelfstandige naamwoorden in de datief.",
       "Geeft afkomst, bron of richting van iets specifiek aan.",
       "Voor vrouwelijke geslacht: von der Mutter, niet vom Mutter.",
       "Niet verwarren met aus (afkomst uit land) of ab (startpunt)."
@@ -2728,7 +2728,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: was is het vraagwoord voor dingen en gebeurtenissen — in het Nederlands is dat wat of welke, afhankelijk van het zinsdeelstuk.\",\"Was jautā par lietām, notikumiem un faktiem, nevis par personām.\",\"In het Duits verandert was niet naar geval — het ziet er altijd hetzelfde uit: was.\",\"Als was het onderwerp (subject) is, vertaal je het in het Nederlands met wat (Was ist das? = Wat is het?).\",\"Als was het werkwoordscomplement (object) is, vertaal je het in het Nederlands met wat (Was machst du? = Wat doe je?).\",\"Over personen vraag je met wer (wie), niet was.\"]","study.examples":"[{\"de\":\"Was ist das?\",\"lv\":\"Wat is het?\"},{\"de\":\"Was ist passiert?\",\"lv\":\"Wat gebeurde er?\"},{\"de\":\"Was machst du gerade?\",\"lv\":\"Wat doe je nu?\"},{\"de\":\"Was möchtest du trinken?\",\"lv\":\"Wat wil je drinken?\"},{\"de\":\"Was bedeutet dieses Wort?\",\"lv\":\"Wat betekent dit woord?\"},{\"de\":\"Was ist dein Lieblingsessen?\",\"lv\":\"Wat is je favoriete gerecht?\"},{\"de\":\"Was hast du gesagt?\",\"lv\":\"Wat zei je?\"}]","study.tip":"[\"was verandert zelf niet — in het Duits is het altijd was; in het Nederlands kies je was of wat afhankelijk van het zinsdeelstuk.\",\"Snel truucje: als je op de vraag kunt antwoorden met 'Dat is ...', gebruik je was; als het antwoord na het werkwoord als complement komt, gebruik je wat.\"]","study.important":"[\"was vraagt naar dingen, gebeurtenissen en feiten — nooit over personen.\",\"Over personen vraag je met wer (wie), niet was.\",\"was für (ein/eine) betekent welk/wat voor en vraagt naar kwaliteit of soort (Was für ein Film ist das? = Wat voor film is het?).\",\"Onjuist: Wer ist passiert? → Juist: Was ist passiert?\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"was","lv":"Kas • Ko","level":"A1","study":{"id":"a1-was","layout":"standardStudy","translation":"Kas • Ko","explanation":["Hoofdidee: was is het vraagwoord voor dingen en gebeurtenissen; in het Nederlands is dat wat.","was vraagt naar dingen, gebeurtenissen en feiten, niet naar personen.","In het Duits verandert was niet van vorm per naamval.","Als was het onderwerp is, vertaal je het met wat: Was ist das? = Wat is dat?","Als was het lijdend voorwerp is, vertaal je het eveneens met wat: Was machst du? = Wat doe je?","Naar personen vraag je met wer, niet met was."],"examples":[{"de":"Was ist das?","lv":"Wat is het?"},{"de":"Was ist passiert?","lv":"Wat gebeurde er?"},{"de":"Was machst du gerade?","lv":"Wat doe je nu?"},{"de":"Was möchtest du trinken?","lv":"Wat wil je drinken?"},{"de":"Was bedeutet dieses Wort?","lv":"Wat betekent dit woord?"},{"de":"Was ist dein Lieblingsessen?","lv":"Wat is je favoriete gerecht?"},{"de":"Was hast du gesagt?","lv":"Wat zei je?"}],"tip":["was verandert niet van vorm; in het Nederlands is de vertaling doorgaans wat.","Onthoud: was voor dingen en gebeurtenissen, wer voor personen."],"important":["was vraagt naar dingen, gebeurtenissen en feiten — nooit over personen.","Over personen vraag je met wer (wie), niet was.","was für (ein/eine) betekent welk/wat voor en vraagt naar kwaliteit of soort (Was für ein Film ist das? = Wat voor film is het?).","Onjuist: Wer ist passiert? → Juist: Was ist passiert?"]}}
+**NEW (OWNER mapping):** {"de":"was","lv":"wat","level":"A1","study":{"id":"a1-was","layout":"standardStudy","translation":"wat","explanation":["Hoofdidee: was is het vraagwoord voor dingen en gebeurtenissen; in het Nederlands is dat wat.","was vraagt naar dingen, gebeurtenissen en feiten, niet naar personen.","In het Duits verandert was niet van vorm per naamval.","Als was het onderwerp is, vertaal je het met wat: Was ist das? = Wat is dat?","Als was het lijdend voorwerp is, vertaal je het eveneens met wat: Was machst du? = Wat doe je?","Naar personen vraag je met wer, niet met was."],"examples":[{"de":"Was ist das?","lv":"Wat is het?"},{"de":"Was ist passiert?","lv":"Wat gebeurde er?"},{"de":"Was machst du gerade?","lv":"Wat doe je nu?"},{"de":"Was möchtest du trinken?","lv":"Wat wil je drinken?"},{"de":"Was bedeutet dieses Wort?","lv":"Wat betekent dit woord?"},{"de":"Was ist dein Lieblingsessen?","lv":"Wat is je favoriete gerecht?"},{"de":"Was hast du gesagt?","lv":"Wat zei je?"}],"tip":["was verandert niet van vorm; in het Nederlands is de vertaling doorgaans wat.","Onthoud: was voor dingen en gebeurtenissen, wer voor personen."],"important":["was vraagt naar dingen, gebeurtenissen en feiten — nooit over personen.","Over personen vraag je met wer (wie), niet was.","was für (ein/eine) betekent welk/wat voor en vraagt naar kwaliteit of soort (Was für ein Film ist das? = Wat voor film is het?).","Onjuist: Wer ist passiert? → Juist: Was ist passiert?"]}}
 **Note:** PENDING — On nl card was|idx:644, the finding spans study.explanation, study.examples, study.tip, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: was is het vraagwoord voor dingen en gebeurtenissen — in het Nederlands is dat wat of welke, afhankelijk van het zinsdeelstuk.\",\"Was jautā par lietām, …”. Review the listed subfields separately against Latvian “["Galvenā doma: was ir jautājamvārds par lietām un notikumiem — latviski tas ir kas vai ko, atkarībā no teikuma daļas.","was jautā par lietām, notikumiem un faktiem, nevis par personām.","V…” / German “was” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2736,12 +2736,12 @@
 ```json
 {
   "de": "was",
-  "lv": "Kas • Ko",
+  "lv": "wat",
   "level": "A1",
   "study": {
     "id": "a1-was",
     "layout": "standardStudy",
-    "translation": "Kas • Ko",
+    "translation": "wat",
     "explanation": [
       "Hoofdidee: was is het vraagwoord voor dingen en gebeurtenissen; in het Nederlands is dat wat.",
       "was vraagt naar dingen, gebeurtenissen en feiten, niet naar personen.",
@@ -2809,7 +2809,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: wenn betekent als of wanneer, afhankelijk van de situatie.\",\"Als het gaat om een voorwaarde, vertaal je het als als.\",\"Als het gaat om herhaalde of algemene tijd, vertaal je het als wanneer.\",\"Na wenn staat het werkwoord meestal aan het einde van de Duitse zin.\"]","study.comparison":"[{\"word\":\"wenn\",\"meaning\":\"Ja / kad\",\"example\":\"Als je tijd hebt...\"},{\"word\":\"ob\",\"meaning\":\"Vai netiešā jautājumā\",\"example\":\"Ik weet niet of...\"},{\"word\":\"wann\",\"meaning\":\"Kad jautājumā\",\"example\":\"Wanneer kom je?\"},{\"word\":\"weil\",\"meaning\":\"Jo\",\"example\":\"Ik blijf, omdat ik ziek ben.\"}]","study.important":"[\"wenn en wann zijn niet hetzelfde.\",\"Wann kommst du? is een vraag. Wenn du kommst... is een voorwaarde/tijd.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"wenn","lv":"Ja • Kad","level":"A1","study":{"id":"a1-wenn","layout":"standardStudy","translation":"Ja • Kad","explanation":["Hoofdidee: wenn betekent als of wanneer, afhankelijk van de situatie.","Als het gaat om een voorwaarde, vertaal je het als als.","Als het gaat om herhaalde of algemene tijd, vertaal je het als wanneer.","Na wenn staat het werkwoord meestal aan het einde van de Duitse zin."],"examples":[{"de":"Wenn du Zeit hast, komm vorbei.","lv":"Ja tev ir laiks, iegriezies."},{"de":"Wenn es regnet, bleibe ich zu Hause.","lv":"Als het regent, blijf ik thuis."},{"de":"Wenn ich müde bin, trinke ich Kaffee.","lv":"Kad esmu noguris, es dzeru kafiju."},{"de":"Ich weiß nicht, ob er kommt.","lv":"Ik weet niet of hij komt."}],"comparison":[{"word":"wenn","meaning":"als / wanneer","example":"Als je tijd hebt..."},{"word":"ob","meaning":"of in een indirecte vraag","example":"Ik weet niet of..."},{"word":"wann","meaning":"wanneer in een vraag","example":"Wanneer kom je?"},{"word":"weil","meaning":"omdat","example":"Ik blijf thuis omdat ik ziek ben."}],"tip":{"text":"Onthoud: voorwaarde → wenn; vraag 'wanneer?' → wann."},"important":["wenn en wann zijn niet hetzelfde.","Wann kommst du? is een vraag. Wenn du kommst... is een voorwaarde/tijd."]}}
+**NEW (OWNER mapping):** {"de":"wenn","lv":"als • wanneer","level":"A1","study":{"id":"a1-wenn","layout":"standardStudy","translation":"als • wanneer","explanation":["Hoofdidee: wenn betekent als of wanneer, afhankelijk van de situatie.","Als het gaat om een voorwaarde, vertaal je het als als.","Als het gaat om herhaalde of algemene tijd, vertaal je het als wanneer.","Na wenn staat het werkwoord meestal aan het einde van de Duitse zin."],"examples":[{"de":"Wenn du Zeit hast, komm vorbei.","lv":"Als je tijd hebt, kom dan langs."},{"de":"Wenn es regnet, bleibe ich zu Hause.","lv":"Als het regent, blijf ik thuis."},{"de":"Wenn ich müde bin, trinke ich Kaffee.","lv":"Als ik moe ben, drink ik koffie."},{"de":"Ich weiß nicht, ob er kommt.","lv":"Ik weet niet of hij komt."}],"comparison":[{"word":"wenn","meaning":"als / wanneer","example":"Als je tijd hebt..."},{"word":"ob","meaning":"of in een indirecte vraag","example":"Ik weet niet of..."},{"word":"wann","meaning":"wanneer in een vraag","example":"Wanneer kom je?"},{"word":"weil","meaning":"omdat","example":"Ik blijf thuis omdat ik ziek ben."}],"tip":{"text":"Onthoud: voorwaarde → wenn; vraag 'wanneer?' → wann."},"important":["wenn en wann zijn niet hetzelfde.","Wann kommst du? is een vraag. Wenn du kommst... is een voorwaarde/tijd."]}}
 **Note:** PENDING — On nl card wenn|idx:655, the finding spans study.explanation, study.comparison, study.important; the captured production value begins “{"study.explanation":"[\"Hoofdidee: wenn betekent als of wanneer, afhankelijk van de situatie.\",\"Als het gaat om een voorwaarde, vertaal je het als als.\",\"Als het gaat om herhaalde of a…”. Review the listed subfields separately against Latvian “["Galvenā doma: wenn nozīmē ja vai kad atkarībā no situācijas.","Ja runa ir par nosacījumu, tulko kā ja.","Ja runa ir par atkārtotu vai vispārīgu laiku, tulko kā kad.","Pēc wenn darbības vā…” / German “wenn” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2817,12 +2817,12 @@
 ```json
 {
   "de": "wenn",
-  "lv": "Ja • Kad",
+  "lv": "als • wanneer",
   "level": "A1",
   "study": {
     "id": "a1-wenn",
     "layout": "standardStudy",
-    "translation": "Ja • Kad",
+    "translation": "als • wanneer",
     "explanation": [
       "Hoofdidee: wenn betekent als of wanneer, afhankelijk van de situatie.",
       "Als het gaat om een voorwaarde, vertaal je het als als.",
@@ -2832,7 +2832,7 @@
     "examples": [
       {
         "de": "Wenn du Zeit hast, komm vorbei.",
-        "lv": "Ja tev ir laiks, iegriezies."
+        "lv": "Als je tijd hebt, kom dan langs."
       },
       {
         "de": "Wenn es regnet, bleibe ich zu Hause.",
@@ -2840,7 +2840,7 @@
       },
       {
         "de": "Wenn ich müde bin, trinke ich Kaffee.",
-        "lv": "Kad esmu noguris, es dzeru kafiju."
+        "lv": "Als ik moe ben, drink ik koffie."
       },
       {
         "de": "Ich weiß nicht, ob er kommt.",
@@ -3051,7 +3051,7 @@
 **CURRENT (captured scope):** {"id":"a1-zeit","layout":"standardStudy","translation":"Laiks (brīdis / laika posms)","explanation":["Hoofdidee: Tijd als concept — moment, kans, tijdsperiode.","Die Zeit galvenokārt nozīmē: brīdis, iespēja.","Vaak gekenmerkt door: abstract concept.","Die Zeit ir abstrakts jēdziens — laiks, brīdis vai iespēja (Ich habe keine Zeit)."],"examples":[{"de":"Ich habe keine Zeit.","lv":"Man nav laika."},{"de":"Ich habe keine Zeit.","lv":"Man nav laika."},{"de":"Hast du Zeit?","lv":"Vai tev ir laiks?"},{"de":"Die Zeit vergeht schnell.","lv":"De tijd gaat snel voorbij."}],"tip":["Tijd als concept — moment, kans, tijdsperiode.","Gebruik die Zeit wanneer de context bij deze betekenis past."],"important":["die Zeit: controleer de context vóór gebruik.","die Zeit: controleer de context vóór gebruik."],"sectionAccents":{"explanation":{"green":["die Zeit","zeit"],"purple":["laiks"],"yellow":["Zeit"]},"examples":[{"de":{"green":["zeit"]},"lv":{"purple":["laika"]}},{"de":{"green":["zeit"]},"lv":{"purple":["laika"]}},{"de":{"green":["zeit"]},"lv":{"purple":["laiks"]}},{"de":{"green":["die Zeit","zeit"]},"lv":{"purple":["tijd"]}}],"tip":[{"purple":["laiks"]}],"important":[{"green":["die Zeit"]}]}}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Zeit","lv":"tijd (moment / tijdsperiode)","level":"A1","de_article":"die","de_plural":"die Zeiten","study":{"id":"a1-zeit","layout":"standardStudy","translation":"tijd (moment / tijdsperiode)","explanation":["Hoofdidee: tijd als begrip, moment of tijdsperiode.","die Zeit betekent vooral tijd of een moment.","Het is een abstract begrip.","die Zeit is het abstracte begrip tijd, een moment of beschikbare tijd, zoals in Ich habe keine Zeit."],"examples":[{"de":"Ich habe keine Zeit.","lv":"Ik heb geen tijd."},{"de":"Ich habe keine Zeit.","lv":"Ik heb geen tijd."},{"de":"Hast du Zeit?","lv":"Heb je tijd?"},{"de":"Die Zeit vergeht schnell.","lv":"De tijd gaat snel voorbij."}],"tip":["Tijd als concept — moment, kans, tijdsperiode.","Gebruik die Zeit wanneer de context bij deze betekenis past."],"important":["die Zeit: controleer de context vóór gebruik.","die Zeit: controleer de context vóór gebruik."]}}
+**NEW (OWNER mapping):** {"de":"Zeit","lv":"tijd (moment / tijdsperiode)","level":"A1","de_article":"die","de_plural":"die Zeiten","study":{"id":"a1-zeit","layout":"standardStudy","translation":"tijd (moment / tijdsperiode)","explanation":["Hoofdidee: tijd als begrip, moment of tijdsperiode.","die Zeit betekent vooral tijd of een moment.","Het is een abstract begrip.","die Zeit is het abstracte begrip tijd, een moment of beschikbare tijd, zoals in Ich habe keine Zeit."],"examples":[{"de":"Ich habe keine Zeit.","lv":"Ik heb geen tijd."},{"de":"Ich habe keine Zeit.","lv":"Ik heb geen tijd."},{"de":"Hast du Zeit?","lv":"Heb je tijd?"},{"de":"Die Zeit vergeht schnell.","lv":"De tijd gaat snel voorbij."}],"tip":["Tijd als concept — moment, kans, tijdsperiode.","Gebruik die Zeit wanneer de context bij deze betekenis past."],"important":["die Zeit duidt tijd als abstract begrip of beschikbare tijd aan.","Voor een exact kloktijdstip gebruik je Uhr, bijvoorbeeld acht Uhr."]}}
 **Note:** PENDING — On nl card Zeit|idx:699, the finding spans study; the captured production value begins “{"study.translation":"Laiks (brīdis / laika posms)","study.explanation":"[\"Hoofdidee: Tijd als concept — moment, kans, tijdsperiode.\",\"Die Zeit galvenokārt nozīmē: brīdis, iespēja.\",\"V…”. Review the listed subfields separately against Latvian “laiks (brīdis / laika posms)” / German “Zeit” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3096,8 +3096,8 @@
       "Gebruik die Zeit wanneer de context bij deze betekenis past."
     ],
     "important": [
-      "die Zeit: controleer de context vóór gebruik.",
-      "die Zeit: controleer de context vóór gebruik."
+      "die Zeit duidt tijd als abstract begrip of beschikbare tijd aan.",
+      "Voor een exact kloktijdstip gebruik je Uhr, bijvoorbeeld acht Uhr."
     ]
   },
   "index": 699
@@ -3118,7 +3118,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Zum ir prievārda zu un artikula dem saīsinājums.\",\"Volledige vorm: naar de (wie?).\",\"Gebruik het met mannelijke en neutrale zelfstandig naamwoorden, wanneer je richting of doel aangeeft.\",\"Betekent vaak naar iets of bij iemand — naar de dokter, naar het station, bij een vriend.\",\"In de praktijk gebruik je bijna altijd zum, niet de volledige zu der.\"]","study.comparison":"[{\"word\":\"zum\",\"meaning\":\"Uz / pie (kam?)\",\"example\":\"zum Arzt – Pie ārsta\"},{\"word\":\"zur\",\"meaning\":\"Aan / bij (familie van de vrouw)\",\"example\":\"zur Schule – Uz skolu\"},{\"word\":\"zu\",\"meaning\":\"Uz / pie / pārāk\",\"example\":\"zu Hause – Mājās\"},{\"word\":\"nach\",\"meaning\":\"Uz (pilsētas/valstis)\",\"example\":\"nach Berlin – Uz Berlīni\"},{\"word\":\"bei\",\"meaning\":\"Pie (atrašanās)\",\"example\":\"beim Arzt – Pie ārsta\"}]","study.tip":"[\"Onthoud: zu + dem → zum (wie?).\",\"Voor vrouwelijke geslachtswekende woorden: zu + der → zur.\"]","study.important":"[\"zum = zu dem, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.\",\"Geeft richting of doel aan: naar de dokter, naar het station, bij een vriend.\",\"Voor vrouwelijk geslacht gebruik je zur: zur Bank, zur Post.\",\"Niet verwarren met bei (zijn bij) of nach (naar steden zonder artikel).\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"zum","lv":"Uz • Pie","level":"A1","study":{"id":"a1-zum","layout":"standardStudy","translation":"Uz • Pie","explanation":["zum is de samentrekking van het voorzetsel zu en het lidwoord dem.","De volledige vorm is zu dem.","Je gebruikt het bij mannelijke en onzijdige zelfstandige naamwoorden om richting of doel aan te geven.","Het betekent vaak naar iets of naar iemand toe, bijvoorbeeld naar de dokter of naar het station.","In de praktijk gebruikt men bijna altijd zum, niet de volledige vorm zu dem."],"examples":[{"de":"Ich gehe zum Arzt.","lv":"Ik ga naar de dokter."},{"de":"Wir fahren zum Bahnhof.","lv":"Wij rijden naar het station."},{"de":"Sie geht zum Supermarkt.","lv":"Zij gaat naar de winkel."},{"de":"Komm zum Essen!","lv":"Kom eten!"},{"de":"Er fährt zum Flughafen.","lv":"Hij rijdt naar de luchthaven."},{"de":"Wir gehen zum Konzert.","lv":"Wij gaan naar het concert."},{"de":"Das Geschenk ist zum Geburtstag.","lv":"Het cadeau is voor de verjaardag."}],"comparison":[{"word":"zum","meaning":"naar / bij (mannelijk of onzijdig)","example":"zum Arzt – naar de dokter"},{"word":"zur","meaning":"naar / bij (vrouwelijk)","example":"zur Schule – naar school"},{"word":"zu","meaning":"naar / bij / te","example":"zu Hause – thuis"},{"word":"nach","meaning":"naar (steden en landen)","example":"nach Berlin – naar Berlijn"},{"word":"bei","meaning":"bij (verblijf)","example":"beim Arzt – bij de dokter"}],"tip":["Onthoud: zu + dem → zum (wie?).","Voor vrouwelijke geslachtswekende woorden: zu + der → zur."],"important":["zum = zu dem, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.","Geeft richting of doel aan: naar de dokter, naar het station, bij een vriend.","Voor vrouwelijk geslacht gebruik je zur: zur Bank, zur Post.","Niet verwarren met bei (zijn bij) of nach (naar steden zonder artikel)."]}}
+**NEW (OWNER mapping):** {"de":"zum","lv":"naar de • bij de","level":"A1","study":{"id":"a1-zum","layout":"standardStudy","translation":"naar de • bij de","explanation":["zum is de samentrekking van het voorzetsel zu en het lidwoord dem.","De volledige vorm is zu dem.","Je gebruikt het bij mannelijke en onzijdige zelfstandige naamwoorden om richting of doel aan te geven.","Het betekent vaak naar iets of naar iemand toe, bijvoorbeeld naar de dokter of naar het station.","In de praktijk gebruikt men bijna altijd zum, niet de volledige vorm zu dem."],"examples":[{"de":"Ich gehe zum Arzt.","lv":"Ik ga naar de dokter."},{"de":"Wir fahren zum Bahnhof.","lv":"Wij rijden naar het station."},{"de":"Sie geht zum Supermarkt.","lv":"Zij gaat naar de winkel."},{"de":"Komm zum Essen!","lv":"Kom eten!"},{"de":"Er fährt zum Flughafen.","lv":"Hij rijdt naar de luchthaven."},{"de":"Wir gehen zum Konzert.","lv":"Wij gaan naar het concert."},{"de":"Das Geschenk ist zum Geburtstag.","lv":"Het cadeau is voor de verjaardag."}],"comparison":[{"word":"zum","meaning":"naar / bij (mannelijk of onzijdig)","example":"zum Arzt – naar de dokter"},{"word":"zur","meaning":"naar / bij (vrouwelijk)","example":"zur Schule – naar school"},{"word":"zu","meaning":"naar / bij / te","example":"zu Hause – thuis"},{"word":"nach","meaning":"naar (steden en landen)","example":"nach Berlin – naar Berlijn"},{"word":"bei","meaning":"bij (verblijf)","example":"beim Arzt – bij de dokter"}],"tip":["Onthoud: zu + dem → zum.","Bij vrouwelijke zelfstandige naamwoorden: zu + der → zur."],"important":["zum = zu dem; het wordt gebruikt bij mannelijke en onzijdige zelfstandige naamwoorden in de datief.","Geeft richting of doel aan: naar de dokter, naar het station, bij een vriend.","Voor vrouwelijk geslacht gebruik je zur: zur Bank, zur Post.","Niet verwarren met bei (zijn bij) of nach (naar steden zonder artikel)."]}}
 **Note:** PENDING — On nl card zum|idx:672, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{"study.explanation":"[\"Zum ir prievārda zu un artikula dem saīsinājums.\",\"Volledige vorm: naar de (wie?).\",\"Gebruik het met mannelijke en neutrale zelfstandig naamwoorden, wanneer je …”. Review the listed subfields separately against Latvian “["zum ir prievārda zu un artikula dem saīsinājums.","Pilnā forma: zu dem (kam?).","Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda virzienu vai mērķi.","Bieži nozīmē uz kaut ko…” / German “zum” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3126,12 +3126,12 @@
 ```json
 {
   "de": "zum",
-  "lv": "Uz • Pie",
+  "lv": "naar de • bij de",
   "level": "A1",
   "study": {
     "id": "a1-zum",
     "layout": "standardStudy",
-    "translation": "Uz • Pie",
+    "translation": "naar de • bij de",
     "explanation": [
       "zum is de samentrekking van het voorzetsel zu en het lidwoord dem.",
       "De volledige vorm is zu dem.",
@@ -3197,11 +3197,11 @@
       }
     ],
     "tip": [
-      "Onthoud: zu + dem → zum (wie?).",
-      "Voor vrouwelijke geslachtswekende woorden: zu + der → zur."
+      "Onthoud: zu + dem → zum.",
+      "Bij vrouwelijke zelfstandige naamwoorden: zu + der → zur."
     ],
     "important": [
-      "zum = zu dem, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.",
+      "zum = zu dem; het wordt gebruikt bij mannelijke en onzijdige zelfstandige naamwoorden in de datief.",
       "Geeft richting of doel aan: naar de dokter, naar het station, bij een vriend.",
       "Voor vrouwelijk geslacht gebruik je zur: zur Bank, zur Post.",
       "Niet verwarren met bei (zijn bij) of nach (naar steden zonder artikel)."
@@ -3225,7 +3225,7 @@
 **CURRENT (captured scope):** Kellestki/millestki • Päritolu
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"ab","lv":"frå • frå og med","level":"A1","study":{"id":"a1-ab","layout":"standardStudy","translation":"frå • frå og med","explanation":"Blir brukt når noko tek til frå eit bestemt tidspunkt, ein stad eller eit punkt. Tyder ofte «frå og med».","examples":[{"de":"ab heute","lv":"frå og med i dag","level":"A1"},{"de":"ab Montag","lv":"frå og med måndag"},{"de":"ab 8 Uhr","lv":"frå klokka åtte"},{"de":"ab Bahnhof","lv":"frå stasjonen"}],"comparison":[{"word":"ab","meaning":"frå eit punkt eller tidspunkt","example":"ab Montag – frå og med måndag"},{"word":"von","meaning":"frå nokon/noko • opphav","example":"von mir – frå meg"},{"word":"aus","meaning":"ut frå innsida","example":"aus dem Haus – ut av huset"}],"tip":{"text":"Hugs: startpunkt i tid eller stad → ab."},"important":["ab viser startpunktet i tid eller stad.","Hvis tanken gjeld opphav eller retning ut frå innsida, brukar ein oftast von eller aus."]}}
+**NEW (OWNER mapping):** {"de":"ab","lv":"frå • frå og med","level":"A1","study":{"id":"a1-ab","layout":"standardStudy","translation":"frå • frå og med","explanation":"Blir brukt når noko tek til frå eit bestemt tidspunkt, ein stad eller eit punkt. Tyder ofte «frå og med».","examples":[{"de":"ab heute","lv":"frå og med i dag","level":"A1"},{"de":"ab Montag","lv":"frå og med måndag"},{"de":"ab 8 Uhr","lv":"frå klokka åtte"},{"de":"ab Bahnhof","lv":"frå stasjonen"}],"comparison":[{"word":"ab","meaning":"frå eit punkt eller tidspunkt","example":"ab Montag – frå og med måndag"},{"word":"von","meaning":"frå nokon/noko • opphav","example":"von mir – frå meg"},{"word":"aus","meaning":"ut frå innsida","example":"aus dem Haus – ut av huset"}],"tip":{"text":"Hugs: startpunkt i tid eller stad → ab."},"important":["ab viser startpunktet i tid eller stad.","Viss tanken gjeld opphav eller retning ut frå innsida, brukar ein oftast von eller aus."]}}
 **Note:** Individually reviewed nn exact field a1.card.a1-ab.study.comparison[1].meaning for “ab” against Latvian “no kāda/kaut kā • izcelsme” and production “Kellestki/millestki • Päritolu”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3281,7 +3281,7 @@
     },
     "important": [
       "ab viser startpunktet i tid eller stad.",
-      "Hvis tanken gjeld opphav eller retning ut frå innsida, brukar ein oftast von eller aus."
+      "Viss tanken gjeld opphav eller retning ut frå innsida, brukar ein oftast von eller aus."
     ]
   },
   "index": 17
@@ -3302,7 +3302,7 @@
 **CURRENT (captured scope):** Vastand • Vastuväide • Sikkät
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"aber","lv":"men","level":"A1","study":{"id":"a1-aber","layout":"standardStudy","translation":"men","explanation":"Blir brukt for å uttrykkje ei motsetning eller innvending. Tyder oftast «men».","examples":[{"de":"Ich möchte mitkommen, aber ich habe keine Zeit.","lv":"Eg vil gjerne vere med, men eg har ikkje tid."},{"de":"Das Essen war lecker, aber zu teuer.","lv":"Maten var god, men for dyr."},{"de":"Er hat recht, aber ich sehe das anders.","lv":"Han har rett, men eg ser annleis på det."}],"comparison":[{"word":"aber","meaning":"motsetnad • innvending • men","example":"Ich komme, aber später. – Eg kjem, men seinare."},{"word":"sondern","meaning":"ikkje ... men derimot","example":"Ich wollte keinen Tee, sondern Kaffee. – Eg ville ikkje ha te, men kaffi."},{"word":"jedoch","meaning":"likevel • derimot","example":"Es ist kalt, jedoch sonnig. – Det er kaldt, men solrikt."}],"tip":{"text":"Hugs: motsetnad eller innvending → aber."},"important":["aber viser motsetnad eller innvending.","Hvis motsetnaden er \"ikkje..., men i staden...\" brukar ein vanleg sondern på tysk."]}}
+**NEW (OWNER mapping):** {"de":"aber","lv":"men","level":"A1","study":{"id":"a1-aber","layout":"standardStudy","translation":"men","explanation":"Blir brukt for å uttrykkje ei motsetning eller innvending. Tyder oftast «men».","examples":[{"de":"Ich möchte mitkommen, aber ich habe keine Zeit.","lv":"Eg vil gjerne vere med, men eg har ikkje tid."},{"de":"Das Essen war lecker, aber zu teuer.","lv":"Maten var god, men for dyr."},{"de":"Er hat recht, aber ich sehe das anders.","lv":"Han har rett, men eg ser annleis på det."}],"comparison":[{"word":"aber","meaning":"motsetnad • innvending • men","example":"Ich komme, aber später. – Eg kjem, men seinare."},{"word":"sondern","meaning":"ikkje ... men derimot","example":"Ich wollte keinen Tee, sondern Kaffee. – Eg ville ikkje ha te, men kaffi."},{"word":"jedoch","meaning":"likevel • derimot","example":"Es ist kalt, jedoch sonnig. – Det er kaldt, men solrikt."}],"tip":{"text":"Hugs: motsetnad eller innvending → aber."},"important":["aber viser motsetnad eller innvending.","Viss motsetnaden er «ikkje ..., men derimot ...», brukar ein vanlegvis sondern på tysk."]}}
 **Note:** Individually reviewed nn exact field a1.card.a1-aber.study.comparison[0].meaning for “aber” against Latvian “pretstats • iebilde • tomēr” and production “Vastand • Vastuväide • Sikkät”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3353,7 +3353,7 @@
     },
     "important": [
       "aber viser motsetnad eller innvending.",
-      "Hvis motsetnaden er \"ikkje..., men i staden...\" brukar ein vanleg sondern på tysk."
+      "Viss motsetnaden er «ikkje ..., men derimot ...», brukar ein vanlegvis sondern på tysk."
     ]
   },
   "index": 21
@@ -3525,7 +3525,7 @@
 **CURRENT (captured scope):** besøkje stad eller arrangement • besøkje person
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"besuchen","lv":"besøkje","level":"A1","study":{"id":"a1-besuchen","layout":"standardStudy","translation":"besøkje","explanation":["Hovudidé: besuchen bruker ein når ein besøkjer ein stad, eit arrangement eller ein person.","Ein stad, eit arrangement eller eit kurs kan ein besøkje.","Når besuchen gjeld ein person, er vitje eller besøkje naturlege norske ord.","På tysk bruker ein besuchen utan preposisjon og med akkusativ."],"examples":[{"de":"Ich besuche das Museum.","lv":"Eg besøkjer museet."},{"de":"Wir besuchen einen Deutschkurs.","lv":"Vi går på eit tyskkurs."},{"de":"Ich besuche meine Großeltern.","lv":"Eg vitjar besteforeldra mine."}],"comparison":[{"word":"besuchen","meaning":"vitje ein stad eller eit arrangement • vitje ein person","example":"Ich besuche meine Großeltern. – Eg vitjar besteforeldra mine."},{"word":"treffen","meaning":"møte","example":"Ich treffe meinen Freund. – Eg møter vennen min."},{"word":"zu jemandem gehen","meaning":"gå til nokon","example":"Ich gehe zu meinem Freund. – Eg går til venen min."}],"tip":{"text":"Hugs: ein kan besøkje ein stad og vitje ein person."},"important":["besuchen brukar ein utan forsetning: Ich besuche meine Freundin.","Den norske omsetjinga kjem an på objektet: besøkje ein stad, vitje ein person."]}}
+**NEW (OWNER mapping):** {"de":"besuchen","lv":"besøkje","level":"A1","study":{"id":"a1-besuchen","layout":"standardStudy","translation":"besøkje","explanation":["Hovudidé: besuchen brukar ein når ein besøkjer ein stad, eit arrangement eller ein person.","Ein stad, eit arrangement eller eit kurs kan ein besøkje.","Når besuchen gjeld ein person, er vitje eller besøkje naturlege norske ord.","På tysk brukar ein besuchen utan preposisjon og med akkusativ."],"examples":[{"de":"Ich besuche das Museum.","lv":"Eg besøkjer museet."},{"de":"Wir besuchen einen Deutschkurs.","lv":"Vi går på eit tyskkurs."},{"de":"Ich besuche meine Großeltern.","lv":"Eg vitjar besteforeldra mine."}],"comparison":[{"word":"besuchen","meaning":"vitje ein stad eller eit arrangement • vitje ein person","example":"Ich besuche meine Großeltern. – Eg vitjar besteforeldra mine."},{"word":"treffen","meaning":"møte","example":"Ich treffe meinen Freund. – Eg møter vennen min."},{"word":"zu jemandem gehen","meaning":"gå til nokon","example":"Ich gehe zu meinem Freund. – Eg går til venen min."}],"tip":{"text":"Hugs: ein kan besøkje ein stad og vitje ein person."},"important":["besuchen brukar ein utan forsetning: Ich besuche meine Freundin.","Den norske omsetjinga kjem an på objektet: besøkje ein stad, vitje ein person."]}}
 **Note:** Individually reviewed nn exact field a1.card.a1-besuchen.study.comparison[0].meaning for “besuchen” against Latvian “apmeklēt vietu vai pasākumu • apciemot personu” and production “besøkje stad eller arrangement • besøkje person”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3540,10 +3540,10 @@
     "layout": "standardStudy",
     "translation": "besøkje",
     "explanation": [
-      "Hovudidé: besuchen bruker ein når ein besøkjer ein stad, eit arrangement eller ein person.",
+      "Hovudidé: besuchen brukar ein når ein besøkjer ein stad, eit arrangement eller ein person.",
       "Ein stad, eit arrangement eller eit kurs kan ein besøkje.",
       "Når besuchen gjeld ein person, er vitje eller besøkje naturlege norske ord.",
-      "På tysk bruker ein besuchen utan preposisjon og med akkusativ."
+      "På tysk brukar ein besuchen utan preposisjon og med akkusativ."
     ],
     "examples": [
       {
@@ -3688,7 +3688,7 @@
 **CURRENT (captured scope):** Mis • Mille • Mida
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"das","lv":"det • den nøytrale artikkelen","level":"A1","study":{"id":"a1-das","layout":"standardStudy","translation":"det • den nøytrale artikkelen","explanation":"Blir brukt som artikkel framfor substantiv i inkjekjønn. I nokre setningar kan das òg vere pronomen eller relativpronomen.","examples":[{"de":"Das ist mein Auto.","lv":"Det er bilen min."},{"de":"Das ist gut.","lv":"Det er bra."},{"de":"Das Buch, das ich lese, ist interessant.","lv":"Boka som eg les, er interessant."}],"comparison":[{"word":"das","meaning":"det (artikkel / pronomen)","example":"Das ist mein Auto. – Det er bilen min."},{"word":"dies","meaning":"dette","example":"Dies ist mein Auto. – Dette er bilen min."},{"word":"welches","meaning":"som • kva for eit","example":"Das ist das Buch, welches ich lese. – Det er boka som eg les."}],"tip":{"text":"Hugs: inkjekjønn → das; at → dass."},"important":["På A1-nivå lærer du først das som artikkel i inkjekjønn.","das er ikkje det same som dass — das kan vere artikkel eller pronomen, dass betyr \"at\"."]}}
+**NEW (OWNER mapping):** {"de":"das","lv":"det • inkjekjønnsartikkelen","level":"A1","study":{"id":"a1-das","layout":"standardStudy","translation":"det • inkjekjønnsartikkelen","explanation":"Blir brukt som artikkel framfor substantiv i inkjekjønn. I nokre setningar kan das òg vere pronomen eller relativpronomen.","examples":[{"de":"Das ist mein Auto.","lv":"Det er bilen min."},{"de":"Das ist gut.","lv":"Det er bra."},{"de":"Das Buch, das ich lese, ist interessant.","lv":"Boka som eg les, er interessant."}],"comparison":[{"word":"das","meaning":"det (artikkel / pronomen)","example":"Das ist mein Auto. – Det er bilen min."},{"word":"dies","meaning":"dette","example":"Dies ist mein Auto. – Dette er bilen min."},{"word":"welches","meaning":"som • kva for eit","example":"Das ist das Buch, welches ich lese. – Det er boka som eg les."}],"tip":{"text":"Hugs: inkjekjønn → das; at → dass."},"important":["På A1-nivå lærer du først das som artikkel i inkjekjønn.","das er ikkje det same som dass — das kan vere artikkel eller pronomen, dass betyr \"at\"."]}}
 **Note:** Individually reviewed nn exact field a1.card.a1-das.study.comparison[2].meaning for “das” against Latvian “kurš • kura • kuru” and production “Mis • Mille • Mida”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3696,12 +3696,12 @@
 ```json
 {
   "de": "das",
-  "lv": "det • den nøytrale artikkelen",
+  "lv": "det • inkjekjønnsartikkelen",
   "level": "A1",
   "study": {
     "id": "a1-das",
     "layout": "standardStudy",
-    "translation": "det • den nøytrale artikkelen",
+    "translation": "det • inkjekjønnsartikkelen",
     "explanation": "Blir brukt som artikkel framfor substantiv i inkjekjønn. I nokre setningar kan das òg vere pronomen eller relativpronomen.",
     "examples": [
       {
