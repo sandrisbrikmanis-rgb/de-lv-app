@@ -1,0 +1,146 @@
+{
+  "batch_id": "LRB-069",
+  "correction": 3,
+  "classification": "LRB_069_COPY_PASTE_CORRECTION_3_REQUIRED",
+  "reason": "Repair the two remaining DE-to-LB example-alignment violations after correction 2.",
+  "base_head": "f8b9b627",
+  "base_mapping_sha256": "f4c6a26f910e1c5bdc70005bd0b7f85bd2d24fac067fbc90c2b178869f2b878c",
+  "changes": {
+    "Uhr|idx:698": {
+      "study.examples": [
+        {
+          "de": "Es ist acht Uhr.",
+          "lv": "Et ass aacht Auer."
+        },
+        {
+          "de": "Es ist acht Uhr.",
+          "lv": "Et ass 8 Auer."
+        },
+        {
+          "de": "Meine Uhr ist kaputt.",
+          "lv": "Meng Auer ass futti."
+        },
+        {
+          "de": "Es ist acht Uhr.",
+          "lv": "Elo ass et aacht Auer."
+        },
+        {
+          "de": "Es ist acht Uhr.",
+          "lv": "Et ass elo aacht Auer."
+        },
+        {
+          "de": "die Uhr",
+          "lv": "die Uhr = Auer oder Auerzäit; die Zeit = Zäit."
+        }
+      ],
+      "study.sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Uhr"
+          ],
+          "purple": [
+            "Auer"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ist"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ass"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ist"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ass"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Meine"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Meng"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ist"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Elo"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "ist"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "ass"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "die"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "die"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "Urlaub|idx:695": {
+      "study.examples": [
+        {
+          "de": "Mein Vater ist im Urlaub.",
+          "lv": "Mäi Papp ass am Congé."
+        },
+        {
+          "de": "Mein Vater ist im Urlaub.",
+          "lv": "Mäi Papp ass an der Vakanz."
+        },
+        {
+          "de": "Nächste Woche habe ich Urlaub.",
+          "lv": "D’nächst Woch hunn ech Congé."
+        },
+        {
+          "de": "Wir machen Urlaub in Spanien.",
+          "lv": "Mir maachen a Spuenien Vakanz."
+        },
+        {
+          "de": "im Urlaub",
+          "lv": "Am Congé."
+        }
+      ]
+    }
+  }
+}

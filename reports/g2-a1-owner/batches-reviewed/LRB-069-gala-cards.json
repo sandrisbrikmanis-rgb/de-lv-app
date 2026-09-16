@@ -4,7 +4,7 @@
   "scope": "warm..noch mal (44 LB rows, 44 unique cards)",
   "rows": 44,
   "uniqueCards": 44,
-  "paste_sha256": "f4c6a26f910e1c5bdc70005bd0b7f85bd2d24fac067fbc90c2b178869f2b878c",
+  "paste_sha256": "735291c2ee41005d65a188d74ecd35a7c9b9b3e39cd37a43ade9e7157b0397cb",
   "full_card_replacements": 22,
   "full_card_object_ids": [
     "Appetit|idx:689",
@@ -30,7 +30,7 @@
     "zum|idx:672",
     "zu|idx:668"
   ],
-  "classification": "LRB_069_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+  "classification": "LRB_069_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "warm|idx:641",
@@ -3259,7 +3259,7 @@
             },
             {
               "de": "Mein Vater ist im Urlaub.",
-              "lv": "Mäi Papp huet Congé."
+              "lv": "Mäi Papp ass an der Vakanz."
             },
             {
               "de": "Nächste Woche habe ich Urlaub.",
@@ -3472,11 +3472,11 @@
             },
             {
               "de": "Es ist acht Uhr.",
-              "lv": "D’Auer weist aacht Auer."
+              "lv": "Elo ass et aacht Auer."
             },
             {
               "de": "Es ist acht Uhr.",
-              "lv": "D’Auer weist 8 Auer."
+              "lv": "Et ass elo aacht Auer."
             },
             {
               "de": "die Uhr",
@@ -3545,7 +3545,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "D’Auer"
+                    "Elo"
                   ]
                 }
               },
@@ -3557,7 +3557,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "D’Auer"
+                    "ass"
                   ]
                 }
               },

@@ -2755,7 +2755,7 @@
         },
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Mäi Papp huet Congé."
+          "lv": "Mäi Papp ass an der Vakanz."
         },
         {
           "de": "Nächste Woche habe ich Urlaub.",
@@ -2925,11 +2925,11 @@
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "D’Auer weist aacht Auer."
+          "lv": "Elo ass et aacht Auer."
         },
         {
           "de": "Es ist acht Uhr.",
-          "lv": "D’Auer weist 8 Auer."
+          "lv": "Et ass elo aacht Auer."
         },
         {
           "de": "die Uhr",
@@ -2998,7 +2998,7 @@
             },
             "lv": {
               "purple": [
-                "D’Auer"
+                "Elo"
               ]
             }
           },
@@ -3010,7 +3010,7 @@
             },
             "lv": {
               "purple": [
-                "D’Auer"
+                "ass"
               ]
             }
           },
@@ -3293,7 +3293,8 @@
   },
   "nelabot": {},
   "nelabot_owner_notes": {},
-  "correction_round": 2,
+  "correction_round": 3,
   "correction_2_sha256": "373669a974a8b05dea4ff55449d62217e05a619d8d8cc062509f223c9d6ccc08",
-  "base_mapping_sha256": "aae008399b19d12d340ea7a74fed025e4cc5ef9b165a7127919b37c5b346275f"
+  "base_mapping_sha256": "aae008399b19d12d340ea7a74fed025e4cc5ef9b165a7127919b37c5b346275f",
+  "correction_3_sha256": "1be2d3690d7556fb996787fdc4f3b03250158af2ac67519cc31e2166b18deb9d"
 }

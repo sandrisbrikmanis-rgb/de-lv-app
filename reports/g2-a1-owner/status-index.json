@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-16T15:50:00.000Z",
+  "updatedAt": "2026-09-16T15:55:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -1824,7 +1824,7 @@
       "LRB-069": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "OWNER_PREP_READY",
-        "classification": "LRB_069_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+        "classification": "LRB_069_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
         "labot": 44,
         "nelabot": 0,
         "pending": 0,
@@ -1848,10 +1848,13 @@
         "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-069-gala-cards.json",
         "pasteRepairs": "GPT-5.6 Luna copy/paste (44 LABOT / 0 NELABOT / 44 unique LB cards: 22 full composite + 22 scalar)",
         "pasteSha256": "aae008399b19d12d340ea7a74fed025e4cc5ef9b165a7127919b37c5b346275f",
-        "decisionsSha256": "74ad5098f623fab5f281d1d53c8db81025c81da9d715f9212ed11f97669107a1",
+        "decisionsSha256": "7409231fe37b7014d5d53a83a9e6d301387cd3fe0319362c318d75ec80a47b06",
         "copyPasteCorrection2": "COPY_PASTE_CORRECTION_2_APPLIED",
         "copyPasteCorrection2Sha256": "373669a974a8b05dea4ff55449d62217e05a619d8d8cc062509f223c9d6ccc08",
-        "mappingSha256AfterCorrection2": "f4c6a26f910e1c5bdc70005bd0b7f85bd2d24fac067fbc90c2b178869f2b878c"
+        "mappingSha256AfterCorrection2": "f4c6a26f910e1c5bdc70005bd0b7f85bd2d24fac067fbc90c2b178869f2b878c",
+        "copyPasteCorrection3": "COPY_PASTE_CORRECTION_3_APPLIED",
+        "copyPasteCorrection3Sha256": "1be2d3690d7556fb996787fdc4f3b03250158af2ac67519cc31e2166b18deb9d",
+        "mappingSha256AfterCorrection3": "735291c2ee41005d65a188d74ecd35a7c9b9b3e39cd37a43ade9e7157b0397cb"
       }
     },
     "lastBatch": {
@@ -1866,7 +1869,7 @@
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "OWNER_PREP_READY",
-      "classification": "LRB_069_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+      "classification": "LRB_069_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
       "rowCount": 44,
       "uniqueCards": 44,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-069-decisions.csv",
@@ -1876,9 +1879,11 @@
       "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-069-owner-auth-residual-proof.json",
       "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-069-gala-cards.json",
       "pasteSha256": "aae008399b19d12d340ea7a74fed025e4cc5ef9b165a7127919b37c5b346275f",
-      "decisionsSha256": "74ad5098f623fab5f281d1d53c8db81025c81da9d715f9212ed11f97669107a1",
+      "decisionsSha256": "7409231fe37b7014d5d53a83a9e6d301387cd3fe0319362c318d75ec80a47b06",
       "copyPasteCorrection2Sha256": "373669a974a8b05dea4ff55449d62217e05a619d8d8cc062509f223c9d6ccc08",
-      "mappingSha256AfterCorrection2": "f4c6a26f910e1c5bdc70005bd0b7f85bd2d24fac067fbc90c2b178869f2b878c"
+      "mappingSha256AfterCorrection2": "f4c6a26f910e1c5bdc70005bd0b7f85bd2d24fac067fbc90c2b178869f2b878c",
+      "copyPasteCorrection3Sha256": "1be2d3690d7556fb996787fdc4f3b03250158af2ac67519cc31e2166b18deb9d",
+      "mappingSha256AfterCorrection3": "735291c2ee41005d65a188d74ecd35a7c9b9b3e39cd37a43ade9e7157b0397cb"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
