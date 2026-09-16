@@ -1,0 +1,51 @@
+{
+  "batch_id": "LRB-072",
+  "classification": "LRB_072_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "paste_source": "gpt-5.6-luna-copy-paste",
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 15,
+  "labot": 15,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 11,
+  "lb_rows": 15,
+  "gates": {
+    "ROWS": "15/15",
+    "PENDING": 0,
+    "LABOT": "15/15",
+    "NELABOT": 0,
+    "LB_ROWS": "15/15",
+    "UNIQUE_CARDS": "11/11",
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "section_accent_mismatches": 0,
+    "section_accent_semantic_violations": 0,
+    "de_target_alignment_violations": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "productionSource": "data/lb/a1.js",
+  "languages": {
+    "lb": 15
+  },
+  "composite_repairs": [
+    "lb:a1-uhr",
+    "lb:a1-um",
+    "lb:a1-verstehen",
+    "lb:a1-vor",
+    "lb:a1-wenn",
+    "lb:a1-wer",
+    "lb:a1-wie",
+    "lb:jetzt",
+    "lb:links",
+    "lb:malen",
+    "lb:rechts"
+  ],
+  "failures": [],
+  "verdict": "LRB_072_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-16T17:26:52.694Z"
+}
