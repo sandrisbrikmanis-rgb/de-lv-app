@@ -1,10 +1,10 @@
 {
   "batchId": "LRB-074",
-  "classification": "G2_A1_LRB_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_OWNER_GALA",
-  "correctionRound": 2,
+  "classification": "G2_A1_LRB_PROOF_RECOMPUTE_CORRECTION_3_BLOCKED",
+  "correctionRound": 3,
   "copyPasteSpecSha256": "398de1f938dd17a630ecbba755d5565e90bad76c9d2bba39cb9d01811bfef0e2",
   "copyPasteNewMismatches": 0,
-  "generatedAt": "2026-09-16T15:56:18.074Z",
+  "generatedAt": "2026-09-16T16:01:57.155Z",
   "sourceCommit": "10414fee7562cb5ccc3da39976261115f17200f3",
   "branch": "cursor/lrb-074-owner-authorization-ed35",
   "direction": "DESCENDING",
@@ -70,7 +70,7 @@
     "INGEST_APPLY": 0,
     "SCRIPT_CHANGES": 0,
     "DE_EXAMPLE_INDEX_ALIGNMENT": "172/179",
-    "COMPARISON_ALIGNMENT": "110/110",
+    "COMPARISON_ALIGNMENT": "101/110",
     "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
     "EXTRA_MEANING_NOT_IN_SOURCE": 0,
     "SEMANTIC_NARROWING_FROM_SOURCE": 0,
@@ -87,9 +87,15 @@
     "EMPTY_COMPARISON_FIELDS": 0,
     "A1_ES_OWNER_ROW_EXAMPLE_CONFLICT": 0,
     "SEPARATOR_DRIFT": 0,
-    "pass": true,
+    "pass": false,
     "STRUCTURAL_DE_EXAMPLE_ALIGNMENT": "172/179",
-    "STRUCTURAL_COMPARISON_ALIGNMENT": "110/110"
+    "STRUCTURAL_COMPARISON_ALIGNMENT": "101/110",
+    "SOURCE_DE_EXAMPLE_INDEX_ALIGNMENT": "172/179",
+    "SOURCE_COMPARISON_ALIGNMENT": "101/110",
+    "CANONICAL_DE_SOURCE": "data/a1.js",
+    "PROOF_RECOMPUTE_CORRECTION": 3,
+    "PROOF_RECOMPUTE_SPEC_SHA256": "cfedd06c367a163bf3b3deccbb58bf24fbeb56d6865f3388c9c039256adfd22c",
+    "DE_EXAMPLE_MISMATCH_COUNT": 7
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-074/LRB-074-owner-view.md",
@@ -107,7 +113,125 @@
     "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-anti-bulk-proof.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-owner-authorization-proof.json"
   },
-  "note": "COPY/PASTE correction #2 (3 patches, spec 398de1f938dd…). 50 LABOT / 0 NELABOT / 0 PENDING (NN 50, UNIQUE_TARGET_CARDS=46). galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "Technical proof recompute #3 only — owner_new/DE/production unchanged. Canonical DE examples 172/179; comparison 101/110. galaPass=false.",
   "galaPass": false,
-  "scriptChanges": 0
+  "scriptChanges": 0,
+  "proofRecomputeSpecSha256": "cfedd06c367a163bf3b3deccbb58bf24fbeb56d6865f3388c9c039256adfd22c",
+  "proofRecomputeMode": "TECHNICAL_PROOF_RECOMPUTE_ONLY_NO_LINGUISTIC_CHANGES",
+  "canonicalDeSource": {
+    "path": "data/a1.js",
+    "commit": "036bac1f728516f6ce669dcb624cb554f87f63a0",
+    "note": "LV→DE canonical source card (not nn production snapshot)"
+  },
+  "deExampleAlignmentMismatches": [
+    {
+      "auditId": "LRB074-0031",
+      "cardId": "einmal|idx:700",
+      "exampleIndex": 1,
+      "approvedDe": "Ich möchte das einmal versuchen.",
+      "canonicalDe": "Ich war einmal in Berlin."
+    },
+    {
+      "auditId": "LRB074-0041",
+      "cardId": "Fernsehen|idx:688",
+      "exampleIndex": 1,
+      "approvedDe": "Im Fernsehen läuft ein Film.",
+      "canonicalDe": "Was gibt es heute im Fernsehen?"
+    },
+    {
+      "auditId": "LRB074-0041",
+      "cardId": "Fernsehen|idx:688",
+      "exampleIndex": 2,
+      "approvedDe": "Das Fernsehen ist heute langweilig.",
+      "canonicalDe": "Im Fernsehen läuft ein Film."
+    },
+    {
+      "auditId": "LRB074-0041",
+      "cardId": "Fernsehen|idx:688",
+      "exampleIndex": 3,
+      "approvedDe": "Ich sehe heute Abend fern.",
+      "canonicalDe": "Das Fernsehen ist heute langweilig."
+    },
+    {
+      "auditId": "LRB074-0046",
+      "cardId": "Gemüse|idx:692",
+      "exampleIndex": 1,
+      "approvedDe": "Das Gemüse ist frisch.",
+      "canonicalDe": "Ich esse gern Gemüse."
+    },
+    {
+      "auditId": "LRB074-0046",
+      "cardId": "Gemüse|idx:692",
+      "exampleIndex": 2,
+      "approvedDe": "Wir kaufen Gemüse auf dem Markt.",
+      "canonicalDe": "Das Gemüse ist frisch."
+    },
+    {
+      "auditId": "LRB074-0046",
+      "cardId": "Gemüse|idx:692",
+      "exampleIndex": 3,
+      "approvedDe": "Ich mag Obst und Gemüse.",
+      "canonicalDe": "Wir kaufen Gemüse auf dem Markt."
+    }
+  ],
+  "comparisonAlignmentMismatches": [
+    {
+      "auditId": "LRB074-0008",
+      "cardId": "a1-verstehen",
+      "comparisonIndex": 2,
+      "wordOk": true,
+      "deOk": false
+    },
+    {
+      "auditId": "LRB074-0009",
+      "cardId": "a1-wie",
+      "comparisonIndex": 0,
+      "kind": "word"
+    },
+    {
+      "auditId": "LRB074-0009",
+      "cardId": "a1-wie",
+      "comparisonIndex": 1,
+      "kind": "word"
+    },
+    {
+      "auditId": "LRB074-0009",
+      "cardId": "a1-wie",
+      "comparisonIndex": 2,
+      "kind": "word"
+    },
+    {
+      "auditId": "LRB074-0009",
+      "cardId": "a1-wie",
+      "comparisonIndex": 3,
+      "kind": "word"
+    },
+    {
+      "auditId": "LRB074-0020",
+      "cardId": "baden|idx:68",
+      "comparisonIndex": 3,
+      "wordOk": true,
+      "deOk": false
+    },
+    {
+      "auditId": "LRB074-0024",
+      "cardId": "bis|idx:91",
+      "comparisonIndex": 3,
+      "kind": "word"
+    },
+    {
+      "auditId": "LRB074-0030",
+      "cardId": "ein|idx:154",
+      "comparisonIndex": 1,
+      "wordOk": true,
+      "deOk": false
+    },
+    {
+      "auditId": "LRB074-0030",
+      "cardId": "ein|idx:154",
+      "comparisonIndex": 3,
+      "wordOk": true,
+      "deOk": false
+    }
+  ]
 }

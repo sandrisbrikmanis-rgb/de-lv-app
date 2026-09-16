@@ -16,4 +16,9 @@
 **Overrides SHA256:** `d1b2d3fdb4186172dfc374de608d50aa6e2ab6d8a5d191d7942c5f5edd2a9c65`
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING (NN 50, UNIQUE_TARGET_CARDS=46, FULL_STUDY_CARDS=50)
+**DE example alignment (canonical `data/a1.js`):** 172/179
+**Proof correction #3:** `cfedd06c367a163b…` | gates.pass: false
+
 **galaPass:** false — awaiting OWNER 50/50 review
+
+
