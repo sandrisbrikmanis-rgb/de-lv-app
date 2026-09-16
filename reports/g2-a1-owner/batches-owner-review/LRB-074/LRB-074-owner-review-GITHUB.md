@@ -12,8 +12,8 @@
 - [Parallel checkpoint](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-074-owner-authorization-ed35/reports/g2-a1-owner/parallel-checkpoint.json)
 
 **Branch:** `cursor/lrb-074-owner-authorization-ed35`
-**Source commit:** `fd62e5b6ef2ed1d7a992602dbc64de24717e9e8e`
-**Overrides SHA256:** `77a85df065e20e47f177a3b0e34bf9da90646cb4cda66c2145bc49eb590f847d`
+**Source commit:** `10414fee7562cb5ccc3da39976261115f17200f3`
+**Overrides SHA256:** `d1b2d3fdb4186172dfc374de608d50aa6e2ab6d8a5d191d7942c5f5edd2a9c65`
 
-**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING (NN 50, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50)
+**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING (NN 50, UNIQUE_TARGET_CARDS=46, FULL_STUDY_CARDS=50)
 **galaPass:** false — awaiting OWNER 50/50 review

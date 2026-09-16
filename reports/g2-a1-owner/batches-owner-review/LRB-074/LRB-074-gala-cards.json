@@ -1,11 +1,11 @@
 {
   "batchId": "LRB-074",
-  "generatedAt": "2026-09-16T15:52:43.414Z",
-  "sourceCommit": "fd62e5b6ef2ed1d7a992602dbc64de24717e9e8e",
+  "generatedAt": "2026-09-16T15:56:18.074Z",
+  "sourceCommit": "10414fee7562cb5ccc3da39976261115f17200f3",
   "reviewer": "GPT-5.6 Luna",
   "repair": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC",
-  "overridesSha256": "77a85df065e20e47f177a3b0e34bf9da90646cb4cda66c2145bc49eb590f847d",
-  "uniqueCards": 50,
+  "overridesSha256": "d1b2d3fdb4186172dfc374de608d50aa6e2ab6d8a5d191d7942c5f5edd2a9c65",
+  "uniqueCards": 46,
   "fullStudyCards": 50,
   "rowCount": 50,
   "languages": {
@@ -8782,7 +8782,7 @@
               "lv": "Eg var ein gong i Berlin."
             },
             {
-              "de": "Ich war einmal in Berlin.",
+              "de": "Ich möchte das einmal versuchen.",
               "lv": "Eg vil prøve dette éin gong."
             }
           ],
@@ -8819,7 +8819,7 @@
               "lv": "Eg var ein gong i Berlin."
             },
             {
-              "de": "Ich war einmal in Berlin.",
+              "de": "Ich möchte das einmal versuchen.",
               "lv": "Eg vil prøve dette éin gong."
             }
           ],
@@ -11678,15 +11678,15 @@
               "lv": "Kva går på fjernsynet i dag?"
             },
             {
-              "de": "Was gibt es heute im Fernsehen?",
+              "de": "Im Fernsehen läuft ein Film.",
               "lv": "Det går ein film på fjernsynet."
             },
             {
-              "de": "Im Fernsehen läuft ein Film.",
+              "de": "Das Fernsehen ist heute langweilig.",
               "lv": "Fjernsynet er kjedeleg i dag."
             },
             {
-              "de": "Das Fernsehen ist heute langweilig.",
+              "de": "Ich sehe heute Abend fern.",
               "lv": "Eg ser på fjernsyn i kveld."
             }
           ],
@@ -11724,15 +11724,15 @@
               "lv": "Kva går på fjernsynet i dag?"
             },
             {
-              "de": "Was gibt es heute im Fernsehen?",
+              "de": "Im Fernsehen läuft ein Film.",
               "lv": "Det går ein film på fjernsynet."
             },
             {
-              "de": "Im Fernsehen läuft ein Film.",
+              "de": "Das Fernsehen ist heute langweilig.",
               "lv": "Fjernsynet er kjedeleg i dag."
             },
             {
-              "de": "Das Fernsehen ist heute langweilig.",
+              "de": "Ich sehe heute Abend fern.",
               "lv": "Eg ser på fjernsyn i kveld."
             }
           ],
@@ -12867,15 +12867,15 @@
               "lv": "Eg et gjerne grønsaker."
             },
             {
-              "de": "Ich esse gern Gemüse.",
+              "de": "Das Gemüse ist frisch.",
               "lv": "Grønsakene er ferske."
             },
             {
-              "de": "Das Gemüse ist frisch.",
+              "de": "Wir kaufen Gemüse auf dem Markt.",
               "lv": "Vi kjøper grønsaker på marknaden."
             },
             {
-              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "de": "Ich mag Obst und Gemüse.",
               "lv": "Eg likar frukt og grønsaker."
             }
           ],
@@ -12910,15 +12910,15 @@
               "lv": "Eg et gjerne grønsaker."
             },
             {
-              "de": "Ich esse gern Gemüse.",
+              "de": "Das Gemüse ist frisch.",
               "lv": "Grønsakene er ferske."
             },
             {
-              "de": "Das Gemüse ist frisch.",
+              "de": "Wir kaufen Gemüse auf dem Markt.",
               "lv": "Vi kjøper grønsaker på marknaden."
             },
             {
-              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "de": "Ich mag Obst und Gemüse.",
               "lv": "Eg likar frukt og grønsaker."
             }
           ],

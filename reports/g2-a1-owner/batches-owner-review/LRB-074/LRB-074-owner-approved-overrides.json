@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-074",
-  "sourceCommit": "fd62e5b6ef2ed1d7a992602dbc64de24717e9e8e",
+  "sourceCommit": "10414fee7562cb5ccc3da39976261115f17200f3",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_1",
+  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_2",
   "cards": [
     {
       "auditId": "LRB074-0001",
@@ -1743,7 +1743,7 @@
               "lv": "Eg var ein gong i Berlin."
             },
             {
-              "de": "Ich war einmal in Berlin.",
+              "de": "Ich möchte das einmal versuchen.",
               "lv": "Eg vil prøve dette éin gong."
             }
           ],
@@ -2304,15 +2304,15 @@
               "lv": "Kva går på fjernsynet i dag?"
             },
             {
-              "de": "Was gibt es heute im Fernsehen?",
+              "de": "Im Fernsehen läuft ein Film.",
               "lv": "Det går ein film på fjernsynet."
             },
             {
-              "de": "Im Fernsehen läuft ein Film.",
+              "de": "Das Fernsehen ist heute langweilig.",
               "lv": "Fjernsynet er kjedeleg i dag."
             },
             {
-              "de": "Das Fernsehen ist heute langweilig.",
+              "de": "Ich sehe heute Abend fern.",
               "lv": "Eg ser på fjernsyn i kveld."
             }
           ],
@@ -2594,15 +2594,15 @@
               "lv": "Eg et gjerne grønsaker."
             },
             {
-              "de": "Ich esse gern Gemüse.",
+              "de": "Das Gemüse ist frisch.",
               "lv": "Grønsakene er ferske."
             },
             {
-              "de": "Das Gemüse ist frisch.",
+              "de": "Wir kaufen Gemüse auf dem Markt.",
               "lv": "Vi kjøper grønsaker på marknaden."
             },
             {
-              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "de": "Ich mag Obst und Gemüse.",
               "lv": "Eg likar frukt og grønsaker."
             }
           ],
@@ -2802,6 +2802,6 @@
       }
     }
   ],
-  "correctionRound": 1,
-  "copyPasteSpecSha256": "14dcf6306b413899bde882a2a0571f010f036660450eb78f269d00cf91c2e4dd"
+  "correctionRound": 2,
+  "copyPasteSpecSha256": "398de1f938dd17a630ecbba755d5565e90bad76c9d2bba39cb9d01811bfef0e2"
 }

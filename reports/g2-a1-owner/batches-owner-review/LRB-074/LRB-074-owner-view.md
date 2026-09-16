@@ -7,12 +7,12 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-16T15:52:43.414Z
-**Source commit:** `fd62e5b6ef2ed1d7a992602dbc64de24717e9e8e`
+**Generated:** 2026-09-16T15:56:18.074Z
+**Source commit:** `10414fee7562cb5ccc3da39976261115f17200f3`
 **Branch:** `cursor/lrb-074-owner-authorization-ed35`
-**Overrides SHA256:** `77a85df065e20e47f177a3b0e34bf9da90646cb4cda66c2145bc49eb590f847d`
-**Classification:** `G2_A1_LRB_COPY_PASTE_CORRECTION_1_APPLIED`
-**COPY/PASTE spec SHA-256:** `14dcf6306b413899bde882a2a0571f010f036660450eb78f269d00cf91c2e4dd`
+**Overrides SHA256:** `d1b2d3fdb4186172dfc374de608d50aa6e2ab6d8a5d191d7942c5f5edd2a9c65`
+**Classification:** `G2_A1_LRB_COPY_PASTE_CORRECTION_2_APPLIED`
+**COPY/PASTE spec SHA-256:** `398de1f938dd17a630ecbba755d5565e90bad76c9d2bba39cb9d01811bfef0e2`
 **UNIQUE_TARGET_CARDS (metadata):** 46
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
@@ -2252,7 +2252,7 @@
 **CURRENT (captured scope):** {"lv":"Üks kord • Kord","study.explanation":"[\"Põhiidee: Osutab özlele korale või korrale (kord ma olin...).\",\"Einmal jäytä säyätä: üks kord / körätäs.\",\"Sagelie speltab: ajamärust.\",\"Einmal yukta özlele korale või korrale (kord ma...).\"]","study.examples":"[{\"de\":\"Ich war einmal in Berlin.\",\"lv\":\"Ma olin kord Berlinis.\"},{\"de\":\"Ich war einmal in Berlin.\",\"lv\":\"Ma olin kord Berlinis.\"}]","study.tip":"[\"einmal = ein gong\",\"Bruk einmal når konteksten samsvarar med denne tydinga.\"]","study.important":"[\"einmal = ein gong eller ein gong i fortida.\",\"Peiker på ein gong eller fortida (ein gong var eg...).\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"einmal","lv":"éin gong • ein gong","level":"A1","id":"einmal","study":{"id":"a1-einmal","layout":"standardStudy","translation":"éin gong • ein gong","explanation":["Hovudidé: einmal tyder vanlegvis éin gong eller ein gong i fortida.","Det kan òg brukast om noko som skjer berre éin gong.","I forteljingar kan einmal tyde ein gong, som i «ein gong var det ...».","Ordet blir ofte brukt som eit tidsadverb."],"examples":[{"de":"Ich war einmal in Berlin.","lv":"Eg var ein gong i Berlin."},{"de":"Ich war einmal in Berlin.","lv":"Eg vil prøve dette éin gong."}],"tip":["einmal = éin gong eller ein gong i fortida.","Bruk einmal når noko skjer éin gong eller blir omtalt som noko som hende ein gong."],"important":["einmal kan tyde «éin gong» i tydinga éin enkelt gong.","I fortid kan einmal tyde «ein gong», som i «Eg var ein gong i Berlin». "]}}
+**NEW (OWNER mapping):** {"de":"einmal","lv":"éin gong • ein gong","level":"A1","id":"einmal","study":{"id":"a1-einmal","layout":"standardStudy","translation":"éin gong • ein gong","explanation":["Hovudidé: einmal tyder vanlegvis éin gong eller ein gong i fortida.","Det kan òg brukast om noko som skjer berre éin gong.","I forteljingar kan einmal tyde ein gong, som i «ein gong var det ...».","Ordet blir ofte brukt som eit tidsadverb."],"examples":[{"de":"Ich war einmal in Berlin.","lv":"Eg var ein gong i Berlin."},{"de":"Ich möchte das einmal versuchen.","lv":"Eg vil prøve dette éin gong."}],"tip":["einmal = éin gong eller ein gong i fortida.","Bruk einmal når noko skjer éin gong eller blir omtalt som noko som hende ein gong."],"important":["einmal kan tyde «éin gong» i tydinga éin enkelt gong.","I fortid kan einmal tyde «ein gong», som i «Eg var ein gong i Berlin». "]}}
 **Note:** The German word einmal was surrounded by Latvian, Estonian and malformed text; I replaced it with natural Nynorsk meanings and examples for one occurrence or once in the past.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -2278,7 +2278,7 @@
         "lv": "Eg var ein gong i Berlin."
       },
       {
-        "de": "Ich war einmal in Berlin.",
+        "de": "Ich möchte das einmal versuchen.",
         "lv": "Eg vil prøve dette éin gong."
       }
     ],
@@ -2982,7 +2982,7 @@
 **CURRENT (captured scope):** {"lv":"Fjernsyn","study.translation":"Fjernsyn","study.explanation":"[\"Põhiidee: Nimisõna, sekke ainsus. Kirjeldab TV-d kui meediumi või saateid tervikuna.\",\"Das Fernsehen gejättättä: saadet vaatama.\",\"Sagelie speltab: aktivitet.\",\"Das Fernsehen geschätzliche: TV kui meedium.\",\"Sägeli ompretab: nimisõna (ainult ainsuses).\",\"Fernsehen on tegusõna, mida saab lahutada: ich sehe bregne, du siehst bregn.\",\"Das Fernsehen on nimisõna ja sekke ainsuses — sejl ei ole mitmuse vormi.\"]","study.examples":"[{\"de\":\"Was gibt es heute im Fernsehen?\",\"lv\":\"Hva er fjernsynet?\"},{\"de\":\"Was gibt es heute im Fernsehen?\",\"lv\":\"Hva er fjernsynet?\"},{\"de\":\"Im Fernsehen läuft ein Film.\",\"lv\":\"TV-show filmi.\"},{\"de\":\"Das Fernsehen ist heute langweilig.\",\"lv\":\"TV-program på täna igav.\"},{\"de\":\"Ich sehe heute Abend fern.\",\"lv\":\"Täna atala vaatan ma telerit.\"},{\"de\":\"Was gibt es im Fernsehen?\",\"lv\":\"Har du TV?\"}]","study.tip":"[\"Hvis du snakkar om handling, brukar du fernsehen (ich sehe fern). Hvis du snakkar om TV-program eller media, brukar du das Fernsehen.\",\"Substantiv, berre eintal. Skildrar TV som medium eller sending totalt sett.\"]","study.important":"[\"fernsehen er delbart: sehen + fern.\",\"das Fernsehen er ikkje i fleirtal — ikkje *die Fernsehen.\",\"Feil: die Fernsehen → Rett: das Fernsehen\",\"Handling: fernsehen → ich sehe fern.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Fernsehen","lv":"fjernsyn","level":"A1","de_article":"das","study":{"id":"a1-fernsehen-study","layout":"standardStudy","translation":"fjernsyn","explanation":["Hovudidé: Fernsehen er eit substantiv som skildrar fjernsyn som medium eller sendingar generelt.","Das Fernsehen er vanlegvis eit masseord og blir brukt i eintal.","Fernsehen kan òg vere eit verb: Ich sehe fern betyr Eg ser på fjernsyn.","Som verb er fernsehen delbart: sehen + fern.","Det finst vanlegvis ikkje ei fleirtalsform av das Fernsehen."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Kva går på fjernsynet i dag?"},{"de":"Was gibt es heute im Fernsehen?","lv":"Det går ein film på fjernsynet."},{"de":"Im Fernsehen läuft ein Film.","lv":"Fjernsynet er kjedeleg i dag."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Eg ser på fjernsyn i kveld."}],"tip":["Bruk das Fernsehen når du snakkar om fjernsyn som medium eller sendingar generelt.","Bruk fernsehen når du snakkar om handlinga å sjå på fjernsyn: Ich sehe fern."],"important":["das Fernsehen er eit substantiv og blir vanlegvis brukt berre i eintal.","fernsehen er eit delbart verb: Ich sehe fern.","Ikkje bruk *die Fernsehen som vanleg fleirtalsform."]}}
+**NEW (OWNER mapping):** {"de":"Fernsehen","lv":"fjernsyn","level":"A1","de_article":"das","study":{"id":"a1-fernsehen-study","layout":"standardStudy","translation":"fjernsyn","explanation":["Hovudidé: Fernsehen er eit substantiv som skildrar fjernsyn som medium eller sendingar generelt.","Das Fernsehen er vanlegvis eit masseord og blir brukt i eintal.","Fernsehen kan òg vere eit verb: Ich sehe fern betyr Eg ser på fjernsyn.","Som verb er fernsehen delbart: sehen + fern.","Det finst vanlegvis ikkje ei fleirtalsform av das Fernsehen."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Kva går på fjernsynet i dag?"},{"de":"Im Fernsehen läuft ein Film.","lv":"Det går ein film på fjernsynet."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Fjernsynet er kjedeleg i dag."},{"de":"Ich sehe heute Abend fern.","lv":"Eg ser på fjernsyn i kveld."}],"tip":["Bruk das Fernsehen når du snakkar om fjernsyn som medium eller sendingar generelt.","Bruk fernsehen når du snakkar om handlinga å sjå på fjernsyn: Ich sehe fern."],"important":["das Fernsehen er eit substantiv og blir vanlegvis brukt berre i eintal.","fernsehen er eit delbart verb: Ich sehe fern.","Ikkje bruk *die Fernsehen som vanleg fleirtalsform."]}}
 **Note:** For DE word Fernsehen, I replaced mixed-language text and corrected the noun/verb distinction in natural Nynorsk.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3010,15 +3010,15 @@
         "lv": "Kva går på fjernsynet i dag?"
       },
       {
-        "de": "Was gibt es heute im Fernsehen?",
+        "de": "Im Fernsehen läuft ein Film.",
         "lv": "Det går ein film på fjernsynet."
       },
       {
-        "de": "Im Fernsehen läuft ein Film.",
+        "de": "Das Fernsehen ist heute langweilig.",
         "lv": "Fjernsynet er kjedeleg i dag."
       },
       {
-        "de": "Das Fernsehen ist heute langweilig.",
+        "de": "Ich sehe heute Abend fern.",
         "lv": "Eg ser på fjernsyn i kveld."
       }
     ],
@@ -3359,7 +3359,7 @@
 **CURRENT (captured scope):** {"lv":"Kjøkken-elskende","study.translation":"Kjøkken-elskende"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"Gemüse","lv":"grønsaker","level":"A1","de_article":"das","study":{"id":"a1-gemuese","layout":"standardStudy","translation":"grønsaker","explanation":["Hovudidé: Gemüse betyr grønsaker generelt.","Das Gemüse er eit masseord og har vanlegvis inga fleirtalsform.","Det tyske ordet blir brukt om grønsaker som heilskap."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Eg et gjerne grønsaker."},{"de":"Ich esse gern Gemüse.","lv":"Grønsakene er ferske."},{"de":"Das Gemüse ist frisch.","lv":"Vi kjøper grønsaker på marknaden."},{"de":"Wir kaufen Gemüse auf dem Markt.","lv":"Eg likar frukt og grønsaker."}],"tip":["das Gemüse = grønsaker.","Bruk das Gemüse når du snakkar om grønsaker som heilskap."],"important":["Det heiter ikkje vanlegvis *die Gemüse.","das Gemüse viser til grønsaker som masse eller heilskap."]}}
+**NEW (OWNER mapping):** {"de":"Gemüse","lv":"grønsaker","level":"A1","de_article":"das","study":{"id":"a1-gemuese","layout":"standardStudy","translation":"grønsaker","explanation":["Hovudidé: Gemüse betyr grønsaker generelt.","Das Gemüse er eit masseord og har vanlegvis inga fleirtalsform.","Det tyske ordet blir brukt om grønsaker som heilskap."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Eg et gjerne grønsaker."},{"de":"Das Gemüse ist frisch.","lv":"Grønsakene er ferske."},{"de":"Wir kaufen Gemüse auf dem Markt.","lv":"Vi kjøper grønsaker på marknaden."},{"de":"Ich mag Obst und Gemüse.","lv":"Eg likar frukt og grønsaker."}],"tip":["das Gemüse = grønsaker.","Bruk das Gemüse når du snakkar om grønsaker som heilskap."],"important":["Det heiter ikkje vanlegvis *die Gemüse.","das Gemüse viser til grønsaker som masse eller heilskap."]}}
 **Note:** For DE word Gemüse, I replaced the false translation Kjøkken-elskende and contaminated examples with grønsaker and correct Nynorsk sentences.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3385,15 +3385,15 @@
         "lv": "Eg et gjerne grønsaker."
       },
       {
-        "de": "Ich esse gern Gemüse.",
+        "de": "Das Gemüse ist frisch.",
         "lv": "Grønsakene er ferske."
       },
       {
-        "de": "Das Gemüse ist frisch.",
+        "de": "Wir kaufen Gemüse auf dem Markt.",
         "lv": "Vi kjøper grønsaker på marknaden."
       },
       {
-        "de": "Wir kaufen Gemüse auf dem Markt.",
+        "de": "Ich mag Obst und Gemüse.",
         "lv": "Eg likar frukt og grønsaker."
       }
     ],
