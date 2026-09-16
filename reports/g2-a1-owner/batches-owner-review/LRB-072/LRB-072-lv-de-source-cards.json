@@ -1,0 +1,4632 @@
+{
+  "batch_id": "LRB-072",
+  "generatedAt": "2026-09-16T17:19:52.335Z",
+  "sourceCommit": "34ba7bd82d0f6ae3c7326355faa6c0ca9a528001",
+  "direction": "LV_SOURCE_GLOSS_TO_DE_MASTER",
+  "rowCount": 15,
+  "uniqueCards": 11,
+  "cards": [
+    {
+      "lang": "lb",
+      "card_object_id": "a1-uhr",
+      "idx": 0,
+      "de_reference": "Uhr",
+      "lv_source_gloss": "pulkstenis",
+      "de_source_card": {
+        "de": "Uhr",
+        "de_article": "die",
+        "de_plural": "die Uhren",
+        "lv": "pulkstenis",
+        "level": "A1",
+        "study": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "pulkstenis",
+          "explanation": [
+            "Galvenā doma: Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
+            "die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.",
+            "Bieži raksturo: konkrēts laiks.",
+            "die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist acht Uhr, meine Uhr)."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "mans pulkstenis ir salūzis."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "ir astoņi."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten)."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "ierīce/laiks pulkstenī; die Zeit"
+            }
+          ],
+          "tip": [
+            "Pulkstenis vai rokas pulkstenis. Arī laiks pulkstenī: Es ist acht Uhr.",
+            "Izmanto die Uhr, kad konteksts atbilst šai nozīmei."
+          ],
+          "important": [
+            "die Uhr: ierīce (meine Uhr) vai laiks (acht Uhr).",
+            "die Uhr: pārbaudi kontekstu pirms lietošanas."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Uhr"
+              ],
+              "purple": [
+                "pulkstenis"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "die Uhr",
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenī"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "pulkstenis"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Uhr"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "lb_production_card": {
+        "de": "Uhr",
+        "de_article": "die",
+        "de_plural": "die Uhren",
+        "lv": "Pulsufuerderung",
+        "level": "A1",
+        "study": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "Pulsufuerderung",
+          "explanation": [
+            "Haaptsaach: Auer oder Armbanduhr. Och d'Zäit an der Auer: Es ist acht Uhr.",
+            "Die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.",
+            "Bieži raksturo: konkrēts wunscht.",
+            "Die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist acht Uhr, meine Uhr)."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "Mans pulkstenis ir salūzis."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoṅi (Pulstexten)."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "Ierīce/laiks pulkstenī • Die Zeit"
+            }
+          ],
+          "tip": [
+            "Auer oder Armbanduhr. Och d'Zäit an der Auer: Es ist acht Uhr.",
+            "Benotz die Uhr, wann de Kontext dëser Bedeitong entsprécht."
+          ],
+          "important": [
+            "die Uhr: Apparat (meine Uhr) oder Zäit (acht Uhr).",
+            "die Uhr: préift de Kontext virun der Notze."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Uhr"
+              ],
+              "purple": [
+                "pulkstenis"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "astoṅi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "die Uhr",
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenī"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "pulkstenis"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Uhr"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "gala_snapshot": {
+        "de": "Uhr",
+        "de_article": "die",
+        "de_plural": "die Uhren",
+        "lv": "Pulsufuerderung",
+        "level": "A1",
+        "study": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "Pulsufuerderung",
+          "explanation": [
+            "Haaptsaach: Auer oder Armbanduhr. Och d'Zäit an der Auer: Es ist acht Uhr.",
+            "Die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.",
+            "Bieži raksturo: konkrēts wunscht.",
+            "Die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist acht Uhr, meine Uhr)."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "Mans pulkstenis ir salūzis."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoṅi (Pulstexten)."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "Ierīce/laiks pulkstenī • Die Zeit"
+            }
+          ],
+          "tip": [
+            "Auer oder Armbanduhr. Och d'Zäit an der Auer: Es ist acht Uhr.",
+            "Benotz die Uhr, wann de Kontext dëser Bedeitong entsprécht."
+          ],
+          "important": [
+            "die Uhr: Apparat (meine Uhr) oder Zäit (acht Uhr).",
+            "die Uhr: préift de Kontext virun der Notze."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Uhr"
+              ],
+              "purple": [
+                "pulkstenis"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "astoṅi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "die Uhr",
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenī"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "pulkstenis"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Uhr"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "a1-um",
+      "idx": 0,
+      "de_reference": "um",
+      "lv_source_gloss": "ap • pulksten",
+      "de_source_card": {
+        "de": "um",
+        "lv": "ap • pulksten",
+        "level": "A1",
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "ap • pulksten",
+          "explanation": [
+            "Galvenā doma: um ļoti bieži nozīmē pulksten ar laiku vai ap/apkārt ar vietu.",
+            "Ar precīzu laiku um nozīmē pulksten.",
+            "Ar vietu um nozīmē ap vai apkārt.",
+            "Frāzē um ... zu tas palīdz izteikt nolūku: lai."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "es atnākšu pulksten astoņos."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "mēs sēžam ap galdu."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "viņš iet ap stūri."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "es mācos, lai runātu vāciski."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "pulksten / ap / lai",
+              "example": "Ich komme um acht."
+            },
+            {
+              "word": "am",
+              "meaning": "dienā / pie",
+              "example": "Am Montag komme ich."
+            },
+            {
+              "word": "gegen",
+              "meaning": "ap laiku / pret",
+              "example": "Ich komme gegen acht."
+            },
+            {
+              "word": "für",
+              "meaning": "priekš / par labu",
+              "example": "Das ist für dich."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: um acht = pulksten astoņos."
+          },
+          "important": [
+            "um ar laiku parasti ir “pulksten”.",
+            "um ... zu bieži nozīmē “lai ...”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "um",
+                "um ... zu"
+              ],
+              "purple": [
+                "pulksten",
+                "ap",
+                "apkārt",
+                "lai"
+              ],
+              "green": [
+                "laiku",
+                "vietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "acht Uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten astoņos"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ap"
+                  ],
+                  "yellow": [
+                    "galdu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Ecke"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ap"
+                  ],
+                  "yellow": [
+                    "stūri"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um",
+                    "zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lai"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "um"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pulksten",
+                    "ap",
+                    "lai"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "um"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "dienā",
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Am"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ap laiku",
+                    "pret"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gegen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "priekš"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "für"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "um acht"
+                ],
+                "purple": [
+                  "pulksten astoņos"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "um"
+                ],
+                "purple": [
+                  "pulksten"
+                ]
+              },
+              {
+                "blue": [
+                  "um ... zu"
+                ],
+                "purple": [
+                  "lai"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "lb_production_card": {
+        "de": "um",
+        "lv": "AP • Pulstexten",
+        "level": "A1",
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "AP • Pulstexten",
+          "explanation": [
+            "Galvenā doma: um Đoti bieži nozīmē pulksten ar laiku vai ap/apkārt ar vietu.",
+            "Произношение на no no no no [fr]",
+            "Abrëll ass et nees sou wäit.",
+            "An der Frase um ... zu hëlft et de Ziel auszedréckegen: fir datt."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "Dat huet den Astrophysiker matgedeelt."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "Kumm loss mer fiere."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "Просмотреть онлайн онлайн."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "Ìch dat verpa, dü datsch verpa, ar dat verpa, mìr datta verpa, mìr datta verpa..."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "Puls-Texter / ap / lai",
+              "example": "Ich komme um acht."
+            },
+            {
+              "word": "am",
+              "meaning": "CAA -",
+              "example": "Am Montag komme ich."
+            },
+            {
+              "word": "gegen",
+              "meaning": "Ap laiku / Fun",
+              "example": "Ich komme gegen acht."
+            },
+            {
+              "word": "für",
+              "meaning": "Priekš / par labu",
+              "example": "Das ist für dich."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: um acht = pulksten astoņos."
+          },
+          "important": [
+            "um ar laiku parasti ir \"pulksten\".",
+            "um ... zu bieži nozīmē \"lai ...\"."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "um",
+                "um ... zu"
+              ],
+              "purple": [
+                "pulksten",
+                "ap",
+                "apkārt",
+                "lai"
+              ],
+              "green": [
+                "laiku",
+                "vietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "acht Uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kumm"
+                  ],
+                  "yellow": [
+                    "Kumm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Ecke"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Просмотреть"
+                  ],
+                  "yellow": [
+                    "Просмотреть"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um",
+                    "zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ìch"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "um"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Puls",
+                    "ap",
+                    "lai"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "um"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA",
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Am"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ap laiku",
+                    "laiku"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gegen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "priekš"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "für"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "um acht"
+                ],
+                "purple": [
+                  "pulksten astoņos"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "um"
+                ],
+                "purple": [
+                  "pulksten"
+                ]
+              },
+              {
+                "blue": [
+                  "um ... zu"
+                ],
+                "purple": [
+                  "lai"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "gala_snapshot": {
+        "de": "um",
+        "lv": "AP • Pulstexten",
+        "level": "A1",
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "AP • Pulstexten",
+          "explanation": [
+            "Galvenā doma: um Đoti bieži nozīmē pulksten ar laiku vai ap/apkārt ar vietu.",
+            "Произношение на no no no no [fr]",
+            "Abrëll ass et nees sou wäit.",
+            "An der Frase um ... zu hëlft et de Ziel auszedréckegen: fir datt."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "Dat huet den Astrophysiker matgedeelt."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "Kumm loss mer fiere."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "Просмотреть онлайн онлайн."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "Ìch dat verpa, dü datsch verpa, ar dat verpa, mìr datta verpa, mìr datta verpa..."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "Puls-Texter / ap / lai",
+              "example": "Ich komme um acht."
+            },
+            {
+              "word": "am",
+              "meaning": "CAA -",
+              "example": "Am Montag komme ich."
+            },
+            {
+              "word": "gegen",
+              "meaning": "Ap laiku / Fun",
+              "example": "Ich komme gegen acht."
+            },
+            {
+              "word": "für",
+              "meaning": "Priekš / par labu",
+              "example": "Das ist für dich."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: um acht = pulksten astoņos."
+          },
+          "important": [
+            "um ar laiku parasti ir \"pulksten\".",
+            "um ... zu bieži nozīmē \"lai ...\"."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "um",
+                "um ... zu"
+              ],
+              "purple": [
+                "pulksten",
+                "ap",
+                "apkārt",
+                "lai"
+              ],
+              "green": [
+                "laiku",
+                "vietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "acht Uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Tisch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kumm"
+                  ],
+                  "yellow": [
+                    "Kumm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um"
+                  ],
+                  "yellow": [
+                    "Ecke"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Просмотреть"
+                  ],
+                  "yellow": [
+                    "Просмотреть"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "um",
+                    "zu"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ìch"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "um"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Puls",
+                    "ap",
+                    "lai"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "um"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA",
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Am"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gegen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ap laiku",
+                    "laiku"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "gegen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "für"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "priekš"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "für"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "um acht"
+                ],
+                "purple": [
+                  "pulksten astoņos"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "um"
+                ],
+                "purple": [
+                  "pulksten"
+                ]
+              },
+              {
+                "blue": [
+                  "um ... zu"
+                ],
+                "purple": [
+                  "lai"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "a1-verstehen",
+      "idx": 0,
+      "de_reference": "verstehen",
+      "lv_source_gloss": "Latviski šeit parasti nevajag “prast” vai “mācēt”; tie biežāk ir können.",
+      "de_source_card": {
+        "de": "verstehen",
+        "lv": "saprast",
+        "level": "A1",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "saprast",
+          "explanation": [
+            "Galvenā doma: verstehen nozīmē saprast.",
+            "To lieto, ja saproti valodu, cilvēku, tekstu vai situāciju.",
+            "Latviski šeit parasti nevajag “prast” vai “mācēt”; tie biežāk ir können.",
+            "Ļoti bieža frāze ir Ich verstehe. = Es saprotu."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "es tevi saprotu."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "vai tu saproti vāciski?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "es to nesaprotu."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "es protu runāt vāciski."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "saprast",
+              "example": "Ich verstehe dich."
+            },
+            {
+              "word": "können",
+              "meaning": "varēt / prast",
+              "example": "Ich kann schwimmen."
+            },
+            {
+              "word": "wissen",
+              "meaning": "zināt faktu",
+              "example": "Ich weiß das."
+            },
+            {
+              "word": "kennen",
+              "meaning": "pazīt",
+              "example": "Ich kenne ihn."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
+          },
+          "important": [
+            "verstehen nav galvenais vārds nozīmei “prast”.",
+            "Ich verstehe Deutsch nozīmē “es saprotu vāciski”."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "verstehen",
+                "Ich verstehe"
+              ],
+              "purple": [
+                "saprast",
+                "saproti"
+              ],
+              "red": [
+                "können",
+                "prast",
+                "mācēt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saprotu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Verstehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saproti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nesaprotu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "protu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "verstehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "saprast"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt",
+                    "prast"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "zināt"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pazīt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "kenne"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "verstehen"
+                ],
+                "purple": [
+                  "saprast"
+                ],
+                "red": [
+                  "können",
+                  "prast"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "verstehen"
+                ],
+                "red": [
+                  "prast"
+                ]
+              },
+              {
+                "blue": [
+                  "verstehe"
+                ],
+                "purple": [
+                  "saprotu"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "lb_production_card": {
+        "de": "verstehen",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Galvenā doma: verstoen nozīmē saprast.",
+            "To let, yes saproti valodu, cilvēku, tekstu vai situāciju.",
+            "Latviski šeit parasti nevajag \"prast\" vai \"mācēt\" • Tie biežāk ir kann.",
+            "Ech verstinn dat. - I understand. = Es saprotu."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "Es tevi saprotu."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "Vai tu saproti vāciski?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "Et ass nesaprotu."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Procès-verbaux du."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "CAA -",
+              "example": "Ich verstehe dich."
+            },
+            {
+              "word": "können",
+              "meaning": "Varēt/prast",
+              "example": "Ich kann schwimmen."
+            },
+            {
+              "word": "wissen",
+              "meaning": "CAA -",
+              "example": "Ich weiß das."
+            },
+            {
+              "word": "kennen",
+              "meaning": "CAA -",
+              "example": "Ich kenne ihn."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
+          },
+          "important": [
+            "verstehen nav galvenais vārds nozīmei \"prast\".",
+            "Ich verstehe Deutsch nozīmē \"es saprotu vāciski\"."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "verstoen",
+                "Ech verstinn"
+              ],
+              "purple": [
+                "saprast",
+                "saproti"
+              ],
+              "red": [
+                "Galvenā",
+                "prast",
+                "mācēt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saprotu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Verstehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saproti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nesaprotu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Procès"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "verstehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt",
+                    "prast"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "kenne"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "verstehen"
+                ],
+                "purple": [
+                  "saprast"
+                ],
+                "red": [
+                  "können",
+                  "prast"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "verstehen"
+                ],
+                "red": [
+                  "prast"
+                ]
+              },
+              {
+                "blue": [
+                  "verstehe"
+                ],
+                "purple": [
+                  "saprotu"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "gala_snapshot": {
+        "de": "verstehen",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Galvenā doma: verstoen nozīmē saprast.",
+            "To let, yes saproti valodu, cilvēku, tekstu vai situāciju.",
+            "Latviski šeit parasti nevajag \"prast\" vai \"mācēt\" • Tie biežāk ir kann.",
+            "Ech verstinn dat. - I understand. = Es saprotu."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "Es tevi saprotu."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "Vai tu saproti vāciski?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "Et ass nesaprotu."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Procès-verbaux du."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "CAA -",
+              "example": "Ich verstehe dich."
+            },
+            {
+              "word": "können",
+              "meaning": "Varēt/prast",
+              "example": "Ich kann schwimmen."
+            },
+            {
+              "word": "wissen",
+              "meaning": "CAA -",
+              "example": "Ich weiß das."
+            },
+            {
+              "word": "kennen",
+              "meaning": "CAA -",
+              "example": "Ich kenne ihn."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
+          },
+          "important": [
+            "verstehen nav galvenais vārds nozīmei \"prast\".",
+            "Ich verstehe Deutsch nozīmē \"es saprotu vāciski\"."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "verstoen",
+                "Ech verstinn"
+              ],
+              "purple": [
+                "saprast",
+                "saproti"
+              ],
+              "red": [
+                "Galvenā",
+                "prast",
+                "mācēt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saprotu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Verstehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "saproti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "nesaprotu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "kann"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Procès"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "verstehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "verstehe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "varēt",
+                    "prast"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "kann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weiß"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kennen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "kenne"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "verstehen"
+                ],
+                "purple": [
+                  "saprast"
+                ],
+                "red": [
+                  "können",
+                  "prast"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "verstehen"
+                ],
+                "red": [
+                  "prast"
+                ]
+              },
+              {
+                "blue": [
+                  "verstehe"
+                ],
+                "purple": [
+                  "saprotu"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "a1-vor",
+      "idx": 0,
+      "de_reference": "vor",
+      "lv_source_gloss": "pirms • priekšā",
+      "de_source_card": {
+        "de": "vor",
+        "lv": "pirms • priekšā",
+        "level": "A1",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "pirms • priekšā",
+          "explanation": [
+            "Galvenā doma: vor nozīmē pirms laikā vai priekšā vietā.",
+            "Ja runa ir par laiku, vor nozīmē pirms.",
+            "Ja runa ir par vietu, vor nozīmē priekšā vai pie.",
+            "Pulksteņa laikā vor nozīmē “līdz”, piemēram, fünf vor acht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "pirms ēšanas es mazgāju rokas."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "auto stāv mājas priekšā."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "ir bez piecām astoņi."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "pēc ēšanas mēs ejam pastaigāties."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "pirms / priekšā",
+              "example": "Vor dem Essen..."
+            },
+            {
+              "word": "nach",
+              "meaning": "pēc / uz",
+              "example": "Nach dem Essen..."
+            },
+            {
+              "word": "neben",
+              "meaning": "blakus",
+              "example": "Neben dem Haus."
+            },
+            {
+              "word": "hinter",
+              "meaning": "aiz",
+              "example": "Hinter dem Haus."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: pirms laikā, priekšā vietā → vor."
+          },
+          "important": [
+            "vor var būt gan laiks, gan vieta.",
+            "vor dem Essen = pirms ēšanas; vor dem Haus = mājas priekšā."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "vor",
+                "fünf vor acht"
+              ],
+              "purple": [
+                "pirms",
+                "priekšā",
+                "līdz"
+              ],
+              "green": [
+                "laiku",
+                "vietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Vor"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pirms"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ],
+                  "yellow": [
+                    "Haus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "priekšā"
+                  ],
+                  "yellow": [
+                    "mājas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "bez piecām"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Pēc"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pirms",
+                    "priekšā"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Vor"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pēc",
+                    "uz"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "neben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "blakus"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Neben"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hinter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "aiz"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Hinter"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "pirms",
+                  "priekšā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "laiks",
+                  "vieta"
+                ]
+              },
+              {
+                "blue": [
+                  "vor dem Essen",
+                  "vor dem Haus"
+                ],
+                "purple": [
+                  "pirms ēšanas",
+                  "mājas priekšā"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "lb_production_card": {
+        "de": "vor",
+        "lv": "Pirms • Priekšā",
+        "level": "A1",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "Pirms • Priekšā",
+          "explanation": [
+            "Haaptsaach: vor bedeit virun der Zäit oder vir am Plaz.",
+            "Yes runa ir par laiku, before nozīmē pirms.",
+            "Jo runa ir par vietu, vor nozīmē priekšā vai pie.",
+            "Pulksteņa laikā vor nozīmē \"līdz\", piemēram, Spaass fir aacht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Pirms ēšanas es mazgāju rokas."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Auto stāv mājas priekšā."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Et geet vu 5 bis 8."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Pēc ēšanas mēs ejam pastaigāties."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "Pirms / priekšā",
+              "example": "Vor dem Essen..."
+            },
+            {
+              "word": "nach",
+              "meaning": "Pēc / uz",
+              "example": "Nach dem Essen..."
+            },
+            {
+              "word": "neben",
+              "meaning": "CAA -",
+              "example": "Neben dem Haus."
+            },
+            {
+              "word": "hinter",
+              "meaning": "CAA -",
+              "example": "Hinter dem Haus."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: pirms laikā, priekšā vietā → vor."
+          },
+          "important": [
+            "vor kann souwuel Zäit wéi och Plaz sinn.",
+            "vor dem Essen = virun dem Iessen; vor dem Haus = virun dem Haus."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "vor",
+                "Galvenā"
+              ],
+              "purple": [
+                "pirms",
+                "priekšā",
+                "līdz"
+              ],
+              "green": [
+                "laiku",
+                "vietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Vor"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pirms"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ],
+                  "yellow": [
+                    "Haus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "priekšā"
+                  ],
+                  "yellow": [
+                    "mājas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Et"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Pēc"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pirms",
+                    "priekšā"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Vor"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pēc",
+                    "uz"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "neben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Neben"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hinter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Hinter"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "pirms",
+                  "priekšā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "laiks",
+                  "vieta"
+                ]
+              },
+              {
+                "blue": [
+                  "vor dem Essen",
+                  "vor dem Haus"
+                ],
+                "purple": [
+                  "pirms ēšanas",
+                  "mājas priekšā"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "gala_snapshot": {
+        "de": "vor",
+        "lv": "Pirms • Priekšā",
+        "level": "A1",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "Pirms • Priekšā",
+          "explanation": [
+            "Haaptsaach: vor bedeit virun der Zäit oder vir am Plaz.",
+            "Yes runa ir par laiku, before nozīmē pirms.",
+            "Jo runa ir par vietu, vor nozīmē priekšā vai pie.",
+            "Pulksteņa laikā vor nozīmē \"līdz\", piemēram, Spaass fir aacht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Pirms ēšanas es mazgāju rokas."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Auto stāv mājas priekšā."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Et geet vu 5 bis 8."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Pēc ēšanas mēs ejam pastaigāties."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "Pirms / priekšā",
+              "example": "Vor dem Essen..."
+            },
+            {
+              "word": "nach",
+              "meaning": "Pēc / uz",
+              "example": "Nach dem Essen..."
+            },
+            {
+              "word": "neben",
+              "meaning": "CAA -",
+              "example": "Neben dem Haus."
+            },
+            {
+              "word": "hinter",
+              "meaning": "CAA -",
+              "example": "Hinter dem Haus."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: pirms laikā, priekšā vietā → vor."
+          },
+          "important": [
+            "vor kann souwuel Zäit wéi och Plaz sinn.",
+            "vor dem Essen = virun dem Iessen; vor dem Haus = virun dem Haus."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "vor",
+                "Galvenā"
+              ],
+              "purple": [
+                "pirms",
+                "priekšā",
+                "līdz"
+              ],
+              "green": [
+                "laiku",
+                "vietu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Vor"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pirms"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ],
+                  "yellow": [
+                    "Haus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "priekšā"
+                  ],
+                  "yellow": [
+                    "mājas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "vor"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Et"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Pēc"
+                  ],
+                  "yellow": [
+                    "ēšanas"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pirms",
+                    "priekšā"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Vor"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pēc",
+                    "uz"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "neben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Neben"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "hinter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Hinter"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "pirms",
+                  "priekšā"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "vor"
+                ],
+                "purple": [
+                  "laiks",
+                  "vieta"
+                ]
+              },
+              {
+                "blue": [
+                  "vor dem Essen",
+                  "vor dem Haus"
+                ],
+                "purple": [
+                  "pirms ēšanas",
+                  "mājas priekšā"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "a1-wenn",
+      "idx": 0,
+      "de_reference": "wenn",
+      "lv_source_gloss": "ja • kad",
+      "de_source_card": {
+        "de": "wenn",
+        "lv": "ja • kad",
+        "level": "A1",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "ja • kad",
+          "explanation": [
+            "Galvenā doma: wenn nozīmē ja vai kad atkarībā no situācijas.",
+            "Ja runa ir par nosacījumu, tulko kā ja.",
+            "Ja runa ir par atkārtotu vai vispārīgu laiku, tulko kā kad.",
+            "Pēc wenn darbības vārds vācu teikumā parasti stāv beigās."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "ja tev ir laiks, iegriezies."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "ja līst, es palieku mājās."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "kad esmu noguris, es dzeru kafiju."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "es nezinu, vai viņš nāks."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "ja / kad",
+              "example": "Wenn du Zeit hast..."
+            },
+            {
+              "word": "ob",
+              "meaning": "vai netiešā jautājumā",
+              "example": "Ich weiß nicht, ob..."
+            },
+            {
+              "word": "wann",
+              "meaning": "kad jautājumā",
+              "example": "Wann kommst du?"
+            },
+            {
+              "word": "weil",
+              "meaning": "jo",
+              "example": "Ich bleibe, weil ich krank bin."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
+          },
+          "important": [
+            "wenn un wann nav viens un tas pats.",
+            "Wann kommst du? ir jautājums. Wenn du kommst... ir nosacījums/laiks."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wenn"
+              ],
+              "purple": [
+                "ja",
+                "kad",
+                "nosacījumu"
+              ],
+              "green": [
+                "beigās"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "hast"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ja"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "regnet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ja"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kad"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "vai"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ja",
+                    "kad"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wann"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kad"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "jo"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weil"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "wenn"
+                ],
+                "purple": [
+                  "nosacījums"
+                ],
+                "yellow": [
+                  "wann",
+                  "kad?"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "wenn"
+                ],
+                "yellow": [
+                  "wann"
+                ]
+              },
+              {
+                "yellow": [
+                  "Wann kommst du"
+                ],
+                "blue": [
+                  "Wenn du kommst"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "lb_production_card": {
+        "de": "wenn",
+        "lv": "Yes • Kad",
+        "level": "A1",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "Yes • Kad",
+          "explanation": [
+            "Galvenā doma: wann nozīmē ja vai kad atkarībā no situācijas.",
+            "Wann et ëm eng Bedéngung geet, iwwersat et op Lëtzebuergesh as wann.",
+            "Wann et ëm repetéiert oder allgemeng Zäit geet, iwwersat et op Lëtzebuergesh as wann.",
+            "Pēc wenn darbības vārds vācu teikumā parasti stāv bijās."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Jo, ir wëll, iegriezies."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Ja līst, es palieku mājās."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Kad esmu noguris, es dzeru kafiju."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Es nezinu, vai viếš nāks."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "CAA -",
+              "example": "Wenn du Zeit hast..."
+            },
+            {
+              "word": "ob",
+              "meaning": "Vai netiešā jautājumā",
+              "example": "Ich weiß nicht, ob..."
+            },
+            {
+              "word": "wann",
+              "meaning": "Kad jautājumā",
+              "example": "Wann kommst du?"
+            },
+            {
+              "word": "weil",
+              "meaning": "Jo",
+              "example": "Ich bleibe, weil ich krank bin."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
+          },
+          "important": [
+            "wenn an wann sinn net eenee an d'selb.",
+            "Wann kommst du? ass eng Fro. Wenn du kommst... ass eng Bedéngung/Zäit."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wenn"
+              ],
+              "purple": [
+                "ja",
+                "kad",
+                "nosacījumu"
+              ],
+              "green": [
+                "bijās"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "hast"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "wëll"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "regnet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ja"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kad"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "vai"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA",
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wann"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kad"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "jo"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weil"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "wenn"
+                ],
+                "purple": [
+                  "nosacījums"
+                ],
+                "yellow": [
+                  "wann",
+                  "kad?"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "wenn"
+                ],
+                "yellow": [
+                  "wann"
+                ]
+              },
+              {
+                "yellow": [
+                  "Wann kommst du"
+                ],
+                "blue": [
+                  "Wenn du kommst"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "gala_snapshot": {
+        "de": "wenn",
+        "lv": "Yes • Kad",
+        "level": "A1",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "Yes • Kad",
+          "explanation": [
+            "Galvenā doma: wann nozīmē ja vai kad atkarībā no situācijas.",
+            "Wann et ëm eng Bedéngung geet, iwwersat et op Lëtzebuergesh as wann.",
+            "Wann et ëm repetéiert oder allgemeng Zäit geet, iwwersat et op Lëtzebuergesh as wann.",
+            "Pēc wenn darbības vārds vācu teikumā parasti stāv bijās."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Jo, ir wëll, iegriezies."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Ja līst, es palieku mājās."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Kad esmu noguris, es dzeru kafiju."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Es nezinu, vai viếš nāks."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "CAA -",
+              "example": "Wenn du Zeit hast..."
+            },
+            {
+              "word": "ob",
+              "meaning": "Vai netiešā jautājumā",
+              "example": "Ich weiß nicht, ob..."
+            },
+            {
+              "word": "wann",
+              "meaning": "Kad jautājumā",
+              "example": "Wann kommst du?"
+            },
+            {
+              "word": "weil",
+              "meaning": "Jo",
+              "example": "Ich bleibe, weil ich krank bin."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
+          },
+          "important": [
+            "wenn an wann sinn net eenee an d'selb.",
+            "Wann kommst du? ass eng Fro. Wenn du kommst... ass eng Bedéngung/Zäit."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wenn"
+              ],
+              "purple": [
+                "ja",
+                "kad",
+                "nosacījumu"
+              ],
+              "green": [
+                "bijās"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "hast"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "wëll"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "regnet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ja"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kad"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "vai"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA",
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wann"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kad"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "jo"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weil"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "wenn"
+                ],
+                "purple": [
+                  "nosacījums"
+                ],
+                "yellow": [
+                  "wann",
+                  "kad?"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "wenn"
+                ],
+                "yellow": [
+                  "wann"
+                ]
+              },
+              {
+                "yellow": [
+                  "Wann kommst du"
+                ],
+                "blue": [
+                  "Wenn du kommst"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "a1-wer",
+      "idx": 0,
+      "de_reference": "wer",
+      "lv_source_gloss": "kas • kurš",
+      "de_source_card": {
+        "de": "wer",
+        "lv": "kas • kurš",
+        "level": "A1",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "kas • kurš",
+          "explanation": [
+            "Galvenā doma: wer ir jautājamvārds par personas identitāti — latviski tas ir kas vai kurš.",
+            "wer jautā par cilvēkiem, ne par lietām vai notikumiem.",
+            "Par lietām un notikumiem jautā ar was, ne wer.",
+            "wer vācu valodā parasti ir teikuma priekšmets (nominatīvā) — Wer ist das? = Kas tas ir?",
+            "Ja jautā, kurš tieši no vairākiem cilvēkiem, wer bieži lieto kopā ar von (wer von euch = kurš no jums).",
+            "wer maina formu pēc locījuma: wen (akuzatīvs), wem (datīvs), wessen (ģenitīvs) — A1 līmenī visbiežāk sastopama ir tieši forma wer."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Kas tas ir?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Kas tu esi?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Kas šodien nāk?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Kas ir tava skolotāja?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Kurš no jums runā vāciski?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Kas to teica?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Kurš vēlas kafiju?"
+            }
+          ],
+          "tip": [
+            "wer jautā par personām (kas/kurš) — par lietām un notikumiem lieto was.",
+            "Lai jautātu par izvēli starp vairākiem cilvēkiem, izmanto wer von... (kurš no...)."
+          ],
+          "important": [
+            "wer jautā tikai par personām, nekad par lietām.",
+            "Par lietām un notikumiem jautā ar was, nevis wer.",
+            "wer maina formu pēc locījuma: wen, wem, wessen — bet pamatforma ir wer.",
+            "Nepareizi: Wer ist passiert? → Pareizi: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wer"
+              ],
+              "purple": [
+                "kas",
+                "kurš"
+              ],
+              "green": [
+                "was"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wer"
+                ],
+                "green": [
+                  "was"
+                ]
+              },
+              {
+                "blue": [
+                  "wer von"
+                ],
+                "purple": [
+                  "kurš no"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "green": [
+                  "was"
+                ],
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "Wer"
+                ],
+                "green": [
+                  "Was"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "lb_production_card": {
+        "de": "wer",
+        "lv": "Kas • Kurš",
+        "level": "A1",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "Kas • Kurš",
+          "explanation": [
+            "Haaptsaach: wer ass de Frooswuert fir d'Persounidentitéit — auf Lëtzebuergesh ass dat wien oder ween.",
+            "Wer jautā par cilvēkiem, ne par lietām vai notikumiem.",
+            "Par lietām un notikumiem jautā ar war, no wen.",
+            "Wien ass vācu valodā parasti ir teikuma priekšmets (nominatīvā)? = Kassentasche ir?",
+            "Wann d'Fro ass wien genau vun méi Mënschene, benotz wer oft mat von (wer von euch = wien vun iech).",
+            "Wer maina formu pēc locījuma: wen (akuzatīvs), wem (datīvs), wessen (ģenitīvs) — A1 līmenī visbiežāk sastopama ir tieši forma wer."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Wéi vill kascht et?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Wéi Dir sidd?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Wat kënnt haut?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "¿Queréis ir tava skolotāja?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Wien vun iech spréchet Däitsch?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "¿Conocéis a Teica?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Wien wëllt Kaffi?"
+            }
+          ],
+          "tip": [
+            "wer freet iwwer Persoune (wien/ween) — iwwer Saachen an Geschechten benotz was.",
+            "Fir d'Fro iwwer Aswiel tëschent méi Mënschene, benotz wer von... (wien vun...)."
+          ],
+          "important": [
+            "wer freet nëmmen iwwer Persoune, aldot net iwwer Saachen.",
+            "Iwwer Saachen an Geschechten freet mat was, net wer.",
+            "wer ännert d'Form no Kasus: wen, wem, wessen — mä d'Haaptform ass wer.",
+            "Falsch: Wer ist passiert? → Richteg: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wer"
+              ],
+              "purple": [
+                "kas",
+                "kurš"
+              ],
+              "green": [
+                "tas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "¿Queréis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "¿Conocéis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wer"
+                ],
+                "green": [
+                  "was"
+                ]
+              },
+              {
+                "blue": [
+                  "wer von"
+                ],
+                "purple": [
+                  "kurš no"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "green": [
+                  "was"
+                ],
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "Wer"
+                ],
+                "green": [
+                  "Was"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "gala_snapshot": {
+        "de": "wer",
+        "lv": "Kas • Kurš",
+        "level": "A1",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "Kas • Kurš",
+          "explanation": [
+            "Haaptsaach: wer ass de Frooswuert fir d'Persounidentitéit — auf Lëtzebuergesh ass dat wien oder ween.",
+            "Wer jautā par cilvēkiem, ne par lietām vai notikumiem.",
+            "Par lietām un notikumiem jautā ar war, no wen.",
+            "Wien ass vācu valodā parasti ir teikuma priekšmets (nominatīvā)? = Kassentasche ir?",
+            "Wann d'Fro ass wien genau vun méi Mënschene, benotz wer oft mat von (wer von euch = wien vun iech).",
+            "Wer maina formu pēc locījuma: wen (akuzatīvs), wem (datīvs), wessen (ģenitīvs) — A1 līmenī visbiežāk sastopama ir tieši forma wer."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Wéi vill kascht et?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Wéi Dir sidd?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Wat kënnt haut?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "¿Queréis ir tava skolotāja?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Wien vun iech spréchet Däitsch?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "¿Conocéis a Teica?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Wien wëllt Kaffi?"
+            }
+          ],
+          "tip": [
+            "wer freet iwwer Persoune (wien/ween) — iwwer Saachen an Geschechten benotz was.",
+            "Fir d'Fro iwwer Aswiel tëschent méi Mënschene, benotz wer von... (wien vun...)."
+          ],
+          "important": [
+            "wer freet nëmmen iwwer Persoune, aldot net iwwer Saachen.",
+            "Iwwer Saachen an Geschechten freet mat was, net wer.",
+            "wer ännert d'Form no Kasus: wen, wem, wessen — mä d'Haaptform ass wer.",
+            "Falsch: Wer ist passiert? → Richteg: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wer"
+              ],
+              "purple": [
+                "kas",
+                "kurš"
+              ],
+              "green": [
+                "tas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "¿Queréis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "¿Conocéis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wer"
+                ],
+                "green": [
+                  "was"
+                ]
+              },
+              {
+                "blue": [
+                  "wer von"
+                ],
+                "purple": [
+                  "kurš no"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "green": [
+                  "was"
+                ],
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "Wer"
+                ],
+                "green": [
+                  "Was"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "a1-wie",
+      "idx": 0,
+      "de_reference": "wie",
+      "lv_source_gloss": "wie viel(e) nozīmē cik daudz; wie alt nozīmē cik vecs; wie lange nozīmē cik ilgi.",
+      "de_source_card": {
+        "de": "wie",
+        "lv": "kā • cik",
+        "level": "A1",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "kā • cik",
+          "explanation": [
+            "Galvenā doma: wie jautā par veidu vai īpašību (kā) un par apjomu vai skaitu (cik), atkarībā no konteksta.",
+            "wie viena pati (Wie geht's?) jautā par veidu — latviski kā.",
+            "wie + īpašības vārds (wie viel, wie alt, wie lange) jautā par apjomu, vecumu vai ilgumu — latviski cik.",
+            "wie viel(e) nozīmē cik daudz; wie alt nozīmē cik vecs; wie lange nozīmē cik ilgi.",
+            "Salīdzinājumos wie nozīmē tāpat kā (so groß wie = tikpat liels kā)."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "kā tev iet?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "kā tevi sauc?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "cik tas maksā?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "cik tev gadu?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "cik ilgi ilgst filma?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "viņš ir tikpat garš, kā viņa tēvs."
+            }
+          ],
+          "tip": [
+            "wie pati par sevi = kā (veids); wie + īpašības vārds (viel/alt/lange) = cik (apjoms).",
+            "Salīdzinājumā so ... wie = tikpat ... kā."
+          ],
+          "important": [
+            "wie viel(e) = cik daudz; wie alt = cik vecs; wie lange = cik ilgi.",
+            "wie viens pats (Wie...?) parasti = kā, ne cik.",
+            "Nepareizi: Cik tev iet? → Pareizi: Kā tev iet? (Wie geht's?)"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wie"
+              ],
+              "purple": [
+                "kā",
+                "cik"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kā"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wie"
+                ],
+                "purple": [
+                  "kā",
+                  "cik"
+                ]
+              },
+              {
+                "purple": [
+                  "tikpat",
+                  "kā"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "cik daudz",
+                  "cik vecs",
+                  "cik ilgi"
+                ]
+              },
+              {
+                "purple": [
+                  "kā"
+                ]
+              },
+              {
+                "red": [
+                  "Cik tev iet?"
+                ],
+                "blue": [
+                  "Kā tev iet?"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "lb_production_card": {
+        "de": "wie",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Haaptsaach: wie freet no der Aart oder Eegeschaft (wéi) an no der Quantitéit oder Unzuel (wéi vill), ofhängeg vum Kontext.",
+            "Wie viena pati (Wie geht's?) jautā par veidu — latviski kā.",
+            "Wéi + īpašības vārds (wéi vill, wéi al, wéi laang) jautā par apjomu, vecumu vai ilgumu — latviski cik.",
+            "Wéi vill(e) nozīmē cik daudz • Wéi al nozīmē cik vecs • Wéi laang nozīmē cik ilgi.",
+            "Salīdzinājumos wéi nozīmē tāpat kā (sou grouss wéi = tikpat liels kā)."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Wat ass et?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Kā tevi sauc?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Cik tas maxā?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Wài al bass du"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Cik ilgi ilgst Filma?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Выш из tikpat garš, как видео tēvs."
+            }
+          ],
+          "tip": [
+            "wie selber = wéi (Aart); wie + Eegeschaftswuert (viel/alt/lange) = wéi vill (Quantitéit).",
+            "An engem Verglach so ... wie = sou ... wéi."
+          ],
+          "important": [
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "wie alleng (Wie...?) normalerweis = wéi, net wéi vill.",
+            "Falsch: Wéi vill geet et dir? → Richteg: Wéi geet et dir? (Wie geht's?)"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wie"
+              ],
+              "purple": [
+                "kā",
+                "cik"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wài"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Выш"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wie"
+                ],
+                "purple": [
+                  "kā",
+                  "cik"
+                ]
+              },
+              {
+                "purple": [
+                  "tikpat",
+                  "kā"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "cik daudz",
+                  "cik vecs",
+                  "cik ilgi"
+                ]
+              },
+              {
+                "purple": [
+                  "kā"
+                ]
+              },
+              {
+                "red": [
+                  "Cik tev iet?"
+                ],
+                "blue": [
+                  "Kā tev iet?"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "gala_snapshot": {
+        "de": "wie",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Haaptsaach: wie freet no der Aart oder Eegeschaft (wéi) an no der Quantitéit oder Unzuel (wéi vill), ofhängeg vum Kontext.",
+            "Wie viena pati (Wie geht's?) jautā par veidu — latviski kā.",
+            "Wéi + īpašības vārds (wéi vill, wéi al, wéi laang) jautā par apjomu, vecumu vai ilgumu — latviski cik.",
+            "Wéi vill(e) nozīmē cik daudz • Wéi al nozīmē cik vecs • Wéi laang nozīmē cik ilgi.",
+            "Salīdzinājumos wéi nozīmē tāpat kā (sou grouss wéi = tikpat liels kā)."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Wat ass et?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Kā tevi sauc?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Cik tas maxā?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Wài al bass du"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Cik ilgi ilgst Filma?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Выш из tikpat garš, как видео tēvs."
+            }
+          ],
+          "tip": [
+            "wie selber = wéi (Aart); wie + Eegeschaftswuert (viel/alt/lange) = wéi vill (Quantitéit).",
+            "An engem Verglach so ... wie = sou ... wéi."
+          ],
+          "important": [
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "wie alleng (Wie...?) normalerweis = wéi, net wéi vill.",
+            "Falsch: Wéi vill geet et dir? → Richteg: Wéi geet et dir? (Wie geht's?)"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wie"
+              ],
+              "purple": [
+                "kā",
+                "cik"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wài"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Выш"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wie"
+                ],
+                "purple": [
+                  "kā",
+                  "cik"
+                ]
+              },
+              {
+                "purple": [
+                  "tikpat",
+                  "kā"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "cik daudz",
+                  "cik vecs",
+                  "cik ilgi"
+                ]
+              },
+              {
+                "purple": [
+                  "kā"
+                ]
+              },
+              {
+                "red": [
+                  "Cik tev iet?"
+                ],
+                "blue": [
+                  "Kā tev iet?"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "jetzt",
+      "idx": 0,
+      "de_reference": "jetzt",
+      "lv_source_gloss": "tagad • pašlaik",
+      "de_source_card": {
+        "de": "jetzt",
+        "lv": "tagad • pašlaik",
+        "level": "A1"
+      },
+      "lb_production_card": {
+        "de": "jetzt",
+        "lv": "Tagad • Pašlaik",
+        "level": "A1"
+      },
+      "gala_snapshot": {
+        "de": "jetzt",
+        "lv": "Tagad • Pašlaik",
+        "level": "A1"
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "links",
+      "idx": 0,
+      "de_reference": "links",
+      "lv_source_gloss": "pa kreisi • kreisais",
+      "de_source_card": {
+        "de": "links",
+        "lv": "pa kreisi • kreisais",
+        "level": "A1"
+      },
+      "lb_production_card": {
+        "de": "links",
+        "lv": "Pa Kreisi • Kreisais",
+        "level": "A1"
+      },
+      "gala_snapshot": {
+        "de": "links",
+        "lv": "Pa Kreisi • Kreisais",
+        "level": "A1"
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "malen",
+      "idx": 0,
+      "de_reference": "malen",
+      "lv_source_gloss": "gleznot • krāsot",
+      "de_source_card": {
+        "de": "malen",
+        "lv": "gleznot • krāsot",
+        "level": "A1"
+      },
+      "lb_production_card": {
+        "de": "malen",
+        "lv": "Gleznot • Krāsot",
+        "level": "A1"
+      },
+      "gala_snapshot": {
+        "de": "malen",
+        "lv": "Gleznot • Krāsot",
+        "level": "A1"
+      }
+    },
+    {
+      "lang": "lb",
+      "card_object_id": "rechts",
+      "idx": 0,
+      "de_reference": "rechts",
+      "lv_source_gloss": "pa labi • labais",
+      "de_source_card": {
+        "de": "rechts",
+        "lv": "pa labi • labais",
+        "level": "A1"
+      },
+      "lb_production_card": {
+        "de": "rechts",
+        "lv": "Pa labi • Labais",
+        "level": "A1"
+      },
+      "gala_snapshot": {
+        "de": "rechts",
+        "lv": "Pa labi • Labais",
+        "level": "A1"
+      }
+    }
+  ]
+}

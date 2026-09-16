@@ -1,0 +1,30 @@
+{
+  "batch_id": "LRB-072",
+  "phase": "PENDING_5125_REVIEW",
+  "input_csv_sha256": "138d8f6c230c4c329e3d6d94371a10de4445239fc6b0c283d3c9c4eccc89907e",
+  "input_row_count": 15,
+  "finding_stable_ids": [
+    "g2/a1/lb|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-um|a1.card.a1-um.native|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-um|a1.card.a1-um.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-verstehen|a1.card.a1-verstehen.study.explanation[2]|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-vor|a1.card.a1-vor.native|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-vor|a1.card.a1-vor.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-wenn|a1.card.a1-wenn.native|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-wenn|a1.card.a1-wenn.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-wer|a1.card.a1-wer.native|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-wer|a1.card.a1-wer.study.translation|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|a1-wie|a1.card.a1-wie.study.explanation[3]|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|links|a1.card.links.native|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|malen|a1.card.malen.native|MULTI_TRANSLATION|deterministic/multi-translation",
+    "g2/a1/lb|rechts|a1.card.rechts.native|MULTI_TRANSLATION|deterministic/multi-translation"
+  ],
+  "created_at": "2026-09-16T17:19:41.152Z",
+  "reviewer": "CURSOR_AGENT",
+  "provenance_policy": "INDIVIDUAL_LINGUISTIC_ONLY",
+  "owner_authorization_status": "APPROVED",
+  "source_pool_sha256": "f11fc09750529249d58584f7dba8622b4ce3ad5e3c07aed96b00a8104aaffa6f",
+  "source_file": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
+  "note": "LB batch 15 (non-idx mop-up): a1-uhr..rechts (15 LB rows, 11 unique cards, continuing after LRB-071)"
+}

@@ -1,0 +1,1424 @@
+{
+  "batch_id": "LRB-072",
+  "classification": "LRB_072_OWNER_COPY_PASTE_VALUES_READY",
+  "owner_authorization_status": "APPROVED",
+  "input_csv_sha256": "138d8f6c230c4c329e3d6d94371a10de4445239fc6b0c283d3c9c4eccc89907e",
+  "counts": {
+    "rows": 15,
+    "unique_cards": 11,
+    "labot": 15,
+    "nelabot": 0,
+    "pending": 0,
+    "full_composites": 7,
+    "scalar_cards": 4
+  },
+  "instructions": {
+    "mode": "COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+    "de_source": "DO_NOT_CHANGE",
+    "cursor_action": "APPLY_OWNER_VALUES_LITERAL_ONLY_AND_REBUILD_OWNER_ARTIFACTS",
+    "gala_pass": "DO_NOT_RECORD"
+  },
+  "reviewed_composite_provenance": {
+    "a1-uhr": "LRB-069:Uhr|idx:698",
+    "a1-um": "LRB-068:um|idx:611",
+    "a1-verstehen": "LRB-068:verstehen|idx:621",
+    "a1-vor": "LRB-068:vor|idx:636",
+    "a1-wenn": "LRB-069:wenn|idx:655",
+    "a1-wer": "LRB-069:wer|idx:656",
+    "a1-wie": "LRB-069:wie|idx:660"
+  },
+  "labot_full_composite": {
+    "a1-uhr": {
+      "lv": "Auer",
+      "study": {
+        "id": "a1-uhr",
+        "layout": "standardStudy",
+        "translation": "Auer",
+        "explanation": [
+          "Haaptiddi: die Uhr ass eng Auer als Apparat oder eng konkret Auerzäit.",
+          "Et kann eng Wandauer, Armbanduhr oder Zäitangab bezeechnen.",
+          "Bei enger konkreter Zäit steet zum Beispill acht Uhr.",
+          "die Uhr ass net dat selwecht wéi die Zeit."
+        ],
+        "examples": [
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Et ass aacht Auer."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Et ass 8 Auer."
+          },
+          {
+            "de": "Meine Uhr ist kaputt.",
+            "lv": "Meng Auer ass futti."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Elo ass et aacht Auer."
+          },
+          {
+            "de": "Es ist acht Uhr.",
+            "lv": "Et ass elo aacht Auer."
+          },
+          {
+            "de": "die Uhr",
+            "lv": "die Uhr = Auer oder Auerzäit; die Zeit = Zäit."
+          }
+        ],
+        "tip": [
+          "Auer als Apparat oder konkret Auerzäit → die Uhr / Auer.",
+          "Es ist acht Uhr. = Et ass aacht Auer."
+        ],
+        "important": [
+          "die Uhr kann Apparat oder konkret Auerzäit bezeechnen.",
+          "Fir Zäit als abstrakte Begrëff steet die Zeit / Zäit."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Uhr"
+            ],
+            "purple": [
+              "Auer"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ist"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ass"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ist"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ass"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Meine"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Meng"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ist"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Elo"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ist"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ass"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "die"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "die"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-um": {
+      "lv": "ëm • fir ... ze",
+      "study": {
+        "id": "a1-um",
+        "layout": "standardStudy",
+        "translation": "ëm • fir ... ze",
+        "explanation": [
+          "Haaptiddi: Dat däitscht um entsprécht bei Zäit a Plaz meeschtens dem lëtzebuergeschen ëm.",
+          "Mat enger geneeër Auerzäit bedeit um op Lëtzebuergesch ëm.",
+          "Bei enger Plaz kann um eng Positioun oder Beweegung ronderëm eppes ausdrécken.",
+          "An der Konstruktioun um ... zu dréckt Däitsch en Zweck aus; op Lëtzebuergesch benotzt een fir ... ze."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme um acht Uhr.",
+            "lv": "Ech kommen ëm aacht Auer."
+          },
+          {
+            "de": "Wir sitzen um den Tisch.",
+            "lv": "Mir sëtze ronderëm den Dësch."
+          },
+          {
+            "de": "Er geht um die Ecke.",
+            "lv": "Hie geet ëm den Eck."
+          },
+          {
+            "de": "Ich lerne, um Deutsch zu sprechen.",
+            "lv": "Ech léieren, fir Däitsch ze schwätzen."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "um",
+            "meaning": "ëm • fir ... ze",
+            "example": "Ich komme um acht. – Ech kommen ëm aacht."
+          },
+          {
+            "word": "am",
+            "meaning": "um • e Méindeg",
+            "example": "Am Montag komme ich. – E Méindeg kommen ech."
+          },
+          {
+            "word": "gegen",
+            "meaning": "géint • ongeféier ëm",
+            "example": "Ich komme gegen acht. – Ech kommen ongeféier ëm aacht."
+          },
+          {
+            "word": "für",
+            "meaning": "fir",
+            "example": "Das ist für dich. – Dat ass fir dech."
+          }
+        ],
+        "tip": {
+          "text": "Denk drun: um acht = ëm aacht; um ... zu = fir ... ze."
+        },
+        "important": [
+          "um mat enger Auerzäit gëtt op Lëtzebuergesch meeschtens ëm.",
+          "Déi däitsch Konstruktioun um ... zu gëtt op Lëtzebuergesch mat fir ... ze ausgedréckt."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "um",
+              "um ... zu"
+            ],
+            "purple": [
+              "ëm",
+              "ronderëm",
+              "fir ... ze"
+            ],
+            "green": [
+              "Auerzäit",
+              "Plaz",
+              "Zweck"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "um"
+                ],
+                "yellow": [
+                  "acht Uhr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ëm"
+                ],
+                "yellow": [
+                  "aacht Auer"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "um"
+                ],
+                "yellow": [
+                  "Tisch"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ronderëm"
+                ],
+                "yellow": [
+                  "Dësch"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "um"
+                ],
+                "yellow": [
+                  "Ecke"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "ëm"
+                ],
+                "yellow": [
+                  "Eck"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "um",
+                  "zu"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "fir",
+                  "ze"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "um"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "ëm",
+                  "fir ... ze"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "um"
+                ],
+                "purple": [
+                  "ëm"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "am"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "um",
+                  "e Méindeg"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Am"
+                ],
+                "purple": [
+                  "Méindeg"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "gegen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "géint",
+                  "ongeféier ëm"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "gegen"
+                ],
+                "purple": [
+                  "ongeféier ëm"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "für"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "fir"
+                ]
+              },
+              "example": {
+                "red": [
+                  "für"
+                ],
+                "purple": [
+                  "fir"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "um acht",
+                "um ... zu"
+              ],
+              "purple": [
+                "ëm aacht",
+                "fir ... ze"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "um"
+              ],
+              "purple": [
+                "ëm"
+              ]
+            },
+            {
+              "blue": [
+                "um ... zu"
+              ],
+              "purple": [
+                "fir ... ze"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "a1-verstehen": {
+      "lv": "verstoen",
+      "study": {
+        "id": "a1-verstehen",
+        "layout": "standardStudy",
+        "translation": "verstoen",
+        "explanation": [
+          "Haaptiddi: Dat däitscht verstehen entsprécht dem lëtzebuergesche verstoen.",
+          "Et gëtt benotzt, wann een eng Sprooch, eng Persoun, en Text oder eng Situatioun begräift.",
+          "verstoen bedeit net dat selwecht wéi kënnen; kënnen dréckt eng Fäegkeet oder Méiglechkeet aus.",
+          "E ganz heefegen Ausdrock ass Ich verstehe. = Ech verstinn."
+        ],
+        "examples": [
+          {
+            "de": "Ich verstehe dich.",
+            "lv": "Ech verstinn dech."
+          },
+          {
+            "de": "Verstehst du Deutsch?",
+            "lv": "Verstees du Däitsch?"
+          },
+          {
+            "de": "Ich verstehe das nicht.",
+            "lv": "Ech verstinn dat net."
+          },
+          {
+            "de": "Ich kann Deutsch sprechen.",
+            "lv": "Ech kann Däitsch schwätzen."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "verstehen",
+            "meaning": "verstoen",
+            "example": "Ich verstehe dich. – Ech verstinn dech."
+          },
+          {
+            "word": "können",
+            "meaning": "kënnen • fäeg sinn",
+            "example": "Ich kann schwimmen. – Ech ka schwammen."
+          },
+          {
+            "word": "wissen",
+            "meaning": "wëssen",
+            "example": "Ich weiß das. – Ech weess dat."
+          },
+          {
+            "word": "kennen",
+            "meaning": "kennen",
+            "example": "Ich kenne ihn. – Ech kennen hien."
+          }
+        ],
+        "tip": {
+          "text": "Denk drun: en Text oder eng Persoun verstoen; eppes maache kënnen."
+        },
+        "important": [
+          "verstoen ass net dat selwecht wéi kënnen.",
+          "Ich verstehe Deutsch bedeit Ech verstinn Däitsch."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "verstehen",
+              "Ich verstehe"
+            ],
+            "purple": [
+              "verstoen",
+              "Ech verstinn",
+              "begräift"
+            ],
+            "red": [
+              "kënnen",
+              "Fäegkeet",
+              "Méiglechkeet"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "verstehe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "verstinn"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Verstehst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Verstees"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "verstehe"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "verstinn"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "kann"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "kann"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "verstehen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "verstoen"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "verstehe"
+                ],
+                "purple": [
+                  "verstinn"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "können"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "kënnen",
+                  "fäeg sinn"
+                ]
+              },
+              "example": {
+                "red": [
+                  "kann"
+                ],
+                "purple": [
+                  "ka"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wissen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "wëssen"
+                ]
+              },
+              "example": {
+                "green": [
+                  "weiß"
+                ],
+                "purple": [
+                  "weess"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "kennen"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "kennen"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "kenne"
+                ],
+                "purple": [
+                  "kennen"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "verstoen"
+              ],
+              "red": [
+                "kënnen"
+              ],
+              "purple": [
+                "Text",
+                "Persoun"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "verstoen"
+              ],
+              "red": [
+                "kënnen"
+              ]
+            },
+            {
+              "blue": [
+                "Ich verstehe Deutsch"
+              ],
+              "purple": [
+                "Ech verstinn Däitsch"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "a1-vor": {
+      "lv": "virun • vir",
+      "study": {
+        "id": "a1-vor",
+        "layout": "standardStudy",
+        "translation": "virun • vir",
+        "explanation": [
+          "Haaptiddi: Dat däitscht vor kann Zäit oder Plaz ausdrécken; op Lëtzebuergesch steet meeschtens virun oder vir.",
+          "Virun enger Handlung oder engem Zäitpunkt bedeit et, datt eppes méi fréi geschitt.",
+          "Bei enger Plaz bedeit et, datt eppes op der viischter Säit vun eppes anescht ass.",
+          "Bei der Auerzäit benotzt een vir, zum Beispill fënnef vir aacht."
+        ],
+        "examples": [
+          {
+            "de": "Vor dem Essen wasche ich die Hände.",
+            "lv": "Virum Iesse wäschen ech mir d’Hänn."
+          },
+          {
+            "de": "Das Auto steht vor dem Haus.",
+            "lv": "Den Auto steet virum Haus."
+          },
+          {
+            "de": "Es ist fünf vor acht.",
+            "lv": "Et ass fënnef vir aacht."
+          },
+          {
+            "de": "Nach dem Essen gehen wir spazieren.",
+            "lv": "Nom Iesse gi mir spadséieren."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "vor",
+            "meaning": "virun • vir",
+            "example": "Vor dem Essen... – Virum Iessen..."
+          },
+          {
+            "word": "nach",
+            "meaning": "no",
+            "example": "Nach dem Essen... – Nom Iessen..."
+          },
+          {
+            "word": "neben",
+            "meaning": "nieft",
+            "example": "Neben dem Haus. – Nieft dem Haus."
+          },
+          {
+            "word": "hinter",
+            "meaning": "hannert",
+            "example": "Hinter dem Haus. – Hannert dem Haus."
+          }
+        ],
+        "tip": {
+          "text": "Denk drun: virun bei Zäit a Plaz; vir bei der Auerzäit."
+        },
+        "important": [
+          "vor kann am Däitsche souwuel Zäit wéi och Plaz ausdrécken.",
+          "vor dem Essen = virum Iessen; vor dem Haus = virum Haus."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "vor"
+            ],
+            "purple": [
+              "virun",
+              "vir",
+              "fënnef vir aacht",
+              "méi fréi",
+              "viischter Säit"
+            ],
+            "green": [
+              "Zäit",
+              "Plaz",
+              "Auerzäit"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Vor"
+                ],
+                "yellow": [
+                  "Essen"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Virum"
+                ],
+                "yellow": [
+                  "Iesse"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vor"
+                ],
+                "yellow": [
+                  "Haus"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "virum"
+                ],
+                "yellow": [
+                  "Haus"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "vor"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "vir"
+                ],
+                "yellow": [
+                  "fënnef",
+                  "aacht"
+                ]
+              }
+            },
+            {
+              "de": {
+                "red": [
+                  "Nach"
+                ],
+                "yellow": [
+                  "Essen"
+                ]
+              },
+              "lv": {
+                "red": [
+                  "Nom"
+                ],
+                "yellow": [
+                  "Iesse"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "vor"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "virun",
+                  "vir"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Vor"
+                ],
+                "purple": [
+                  "Virum"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "nach"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "no"
+                ]
+              },
+              "example": {
+                "red": [
+                  "Nach"
+                ],
+                "purple": [
+                  "Nom"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "neben"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "nieft"
+                ]
+              },
+              "example": {
+                "green": [
+                  "Neben"
+                ],
+                "purple": [
+                  "Nieft"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "hinter"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "hannert"
+                ]
+              },
+              "example": {
+                "yellow": [
+                  "Hinter"
+                ],
+                "purple": [
+                  "Hannert"
+                ]
+              }
+            }
+          ],
+          "tip": {
+            "left": {
+              "blue": [
+                "Zäit",
+                "Plaz",
+                "Auerzäit"
+              ],
+              "purple": [
+                "virun",
+                "vir"
+              ]
+            }
+          },
+          "important": [
+            {
+              "blue": [
+                "vor"
+              ],
+              "purple": [
+                "Zäit",
+                "Plaz"
+              ]
+            },
+            {
+              "blue": [
+                "vor dem Essen",
+                "vor dem Haus"
+              ],
+              "purple": [
+                "virum Iessen",
+                "virum Haus"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "a1-wenn": {
+      "lv": "wann",
+      "study": {
+        "id": "a1-wenn",
+        "layout": "standardStudy",
+        "translation": "wann",
+        "explanation": [
+          "Haaptiddi: wenn entsprécht jee nom Kontext dem Lëtzebuergeschen wann.",
+          "Bei enger Bedéngung steet wann.",
+          "Bei widderhuelter oder allgemenger Zäit steet och wann.",
+          "Am däitschen Niewesaz steet dat konjugéiert Verb no wenn meeschtens um Schluss."
+        ],
+        "examples": [
+          {
+            "de": "Wenn du Zeit hast, komm vorbei.",
+            "lv": "Wann s du Zäit hues, komm laanscht."
+          },
+          {
+            "de": "Wenn es regnet, bleibe ich zu Hause.",
+            "lv": "Wann et reent, bleiwen ech doheem."
+          },
+          {
+            "de": "Wenn ich müde bin, trinke ich Kaffee.",
+            "lv": "Wann ech midd sinn, drénken ech Kaffi."
+          },
+          {
+            "de": "Ich weiß nicht, ob er kommt.",
+            "lv": "Ech weess net, ob hien kënnt."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "wenn",
+            "meaning": "wann",
+            "example": "Wenn du Zeit hast... – Wann s du Zäit hues..."
+          },
+          {
+            "word": "ob",
+            "meaning": "ob",
+            "example": "Ich weiß nicht, ob... – Ech weess net, ob..."
+          },
+          {
+            "word": "wann",
+            "meaning": "wéini",
+            "example": "Wann kommst du? – Wéini kënns du?"
+          },
+          {
+            "word": "weil",
+            "meaning": "well",
+            "example": "Ich bleibe, weil ich krank bin. – Ech bleiwen, well ech krank sinn."
+          }
+        ],
+        "tip": {
+          "text": "Bedéngung oder widderholl Zäit → wenn / wann; direkt Zäitfro → wann / wéini."
+        },
+        "important": [
+          "wenn an wann hunn ënnerschiddlech Funktiounen.",
+          "Wann kommst du? ass eng Fro; Wenn du kommst... ass en Niewesaz."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "wenn"
+            ],
+            "purple": [
+              "wann"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Wenn"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wann"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wenn"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wann"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wenn"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wann"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ],
+          "comparison": [
+            {
+              "word": {
+                "green": [
+                  "wenn"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "wann"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Wenn"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "ob"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "ob"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Ich"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "wann"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "wéini"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Wann"
+                ]
+              }
+            },
+            {
+              "word": {
+                "green": [
+                  "weil"
+                ]
+              },
+              "meaning": {
+                "purple": [
+                  "well"
+                ]
+              },
+              "example": {
+                "blue": [
+                  "Ich"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-wer": {
+      "lv": "wien",
+      "study": {
+        "id": "a1-wer",
+        "layout": "standardStudy",
+        "translation": "wien",
+        "explanation": [
+          "Haaptiddi: wer freet no der Identitéit vun enger Persoun; op Lëtzebuergesch heescht et wien.",
+          "wer gëtt fir Mënsche benotzt, net fir Saachen oder Evenementer.",
+          "Fir Saachen an Evenementer steet was.",
+          "wer steet dacks als Sujet am Nominativ.",
+          "Wer von euch entsprécht Wie vun iech.",
+          "Déi däitsch Kasusforme si wer, wen, wem a wessen."
+        ],
+        "examples": [
+          {
+            "de": "Wer ist das?",
+            "lv": "Wien ass dat?"
+          },
+          {
+            "de": "Wer bist du?",
+            "lv": "Wie bass du?"
+          },
+          {
+            "de": "Wer kommt heute?",
+            "lv": "Wie kënnt haut?"
+          },
+          {
+            "de": "Wer ist deine Lehrerin?",
+            "lv": "Wien ass deng Léierin?"
+          },
+          {
+            "de": "Wer von euch spricht Deutsch?",
+            "lv": "Wie vun iech schwätzt Däitsch?"
+          },
+          {
+            "de": "Wer hat das gesagt?",
+            "lv": "Wien huet dat gesot?"
+          },
+          {
+            "de": "Wer möchte Kaffee?",
+            "lv": "Wie wëllt Kaffi?"
+          }
+        ],
+        "tip": [
+          "wer / wien fir Persounen; was / wat fir Saachen an Evenementer.",
+          "No der Eifeler Reegel fält de Schluss-n vu wien viru ville Konsonante fort."
+        ],
+        "important": [
+          "wer freet nëmmen no Persounen.",
+          "Fir Saachen an Evenementer steet was.",
+          "wer, wen, wem, wessen si Kasusforme vum däitsche Froewuert.",
+          "Falsch: Wer ist passiert? Richteg: Was ist passiert?"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "wer"
+            ],
+            "purple": [
+              "wien"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wien"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wie"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wie"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wien"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wie"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wien"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wer"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wie"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-wie": {
+      "lv": "wéi • wéi vill",
+      "study": {
+        "id": "a1-wie",
+        "layout": "standardStudy",
+        "translation": "wéi • wéi vill",
+        "explanation": [
+          "Haaptiddi: wie freet no Aart a Weis oder Eegenschaft; bei Quantitéite bedeit et wéi vill.",
+          "wie eleng entsprécht meeschtens wéi.",
+          "wie mat viel, alt oder lange freet no Quantitéit, Alter oder Dauer.",
+          "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+          "An engem Verglach entsprécht so ... wie dem Lëtzebuergeschen esou ... wéi."
+        ],
+        "examples": [
+          {
+            "de": "Wie geht es dir?",
+            "lv": "Wéi geet et dir?"
+          },
+          {
+            "de": "Wie heißt du?",
+            "lv": "Wéi heeschs du?"
+          },
+          {
+            "de": "Wie viel kostet das?",
+            "lv": "Wéi vill kascht dat?"
+          },
+          {
+            "de": "Wie alt bist du?",
+            "lv": "Wéi al bass du?"
+          },
+          {
+            "de": "Wie lange dauert der Film?",
+            "lv": "Wéi laang dauert de Film?"
+          },
+          {
+            "de": "Er ist so groß wie sein Vater.",
+            "lv": "Hien ass esou grouss wéi säi Papp."
+          }
+        ],
+        "tip": [
+          "wie eleng = wéi; wie viel = wéi vill.",
+          "so ... wie = esou ... wéi."
+        ],
+        "important": [
+          "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+          "Wie geet et dir? freet no engem Zoustand, net no enger Quantitéit.",
+          "Wie geht es dir? = Wéi geet et dir?"
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "wie"
+            ],
+            "purple": [
+              "wéi"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ist"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hien"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "labot_scalar": {
+    "jetzt": "elo • de Moment",
+    "links": "lénks • op der lénker Säit",
+    "malen": "molen • faarwen",
+    "rechts": "riets • op der rietser Säit"
+  }
+}
