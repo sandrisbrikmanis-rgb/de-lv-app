@@ -1,0 +1,23 @@
+{
+  "batch_id": "LRB-071",
+  "verdict": "LRB_071_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "classification": "LRB_071_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "status": "LINGUISTICALLY_CLOSED",
+  "gala_pass_recorded": true,
+  "recorded_at": "2026-09-16T17:18:00.000Z",
+  "paste_head_sha256": "c788d3f9",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 27,
+  "decisions_sha256": "7a9a29c940e1794490072ef60a9b15a5fbb0ac3710b2284caeaa03fcf018517e",
+  "paste_sha256": "b7708c53462c11126bc237e23356b75a92907d029ab919ba950befbe060f72c5",
+  "residual_audit_pass": true,
+  "pdf_reaudit_pass": true,
+  "anti_bulk_pass": true,
+  "production_changes": 0,
+  "de_changes": 0,
+  "ingest_apply": "NOT_STARTED",
+  "note": "Gala independent FULL_50_50 linguistic review PASS after OWNER COPY-PASTE (27 full composites)."
+}
