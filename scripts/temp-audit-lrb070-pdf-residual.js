@@ -506,10 +506,7 @@ for (const [key, { lang, card }] of UNIQUE_CARDS) {
   }
   const merged = applyPatches(nestedBase, composite);
   const failures = validateMergedCard(lang, card, merged).filter(
-    (f) =>
-      !/SECTION_ACCENT_/i.test(f.type) &&
-      f.type !== "INCOMPLETE_COMPOSITE" &&
-      f.type !== "LV_LEAK_IN_LB"
+    (f) => !/SECTION_ACCENT_/i.test(f.type) && f.type !== "INCOMPLETE_COMPOSITE"
   );
   if (failures.length) {
     cardMergeFailures += failures.length;

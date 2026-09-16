@@ -9,5 +9,5 @@
 - [Batch input CSV](https://github.com/sandrisbrikmanis-rgb/de-lv-app/blob/cursor/lrb-070-owner-authorization-aa66/reports/g2-a1-owner/batches-pending/LRB-070-input.csv)
 
 **Branch:** `cursor/lrb-070-owner-authorization-aa66`
-**Source commit:** `921f0ef3c19e13f8511769a038b089625dad53a9`
+**Source commit:** `9d64451b7ab6ccc4eb2e3bbfaa27ba362c2f2764`
 

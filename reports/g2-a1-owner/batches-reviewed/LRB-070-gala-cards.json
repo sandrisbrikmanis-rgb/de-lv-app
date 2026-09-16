@@ -1,12 +1,44 @@
 {
   "batch_id": "LRB-070",
   "language": "lb",
-  "scope": "a1-ab..a1-hoeren-study (50 LB rows, 29 unique cards, non-idx mop-up)",
+  "scope": "a1-ab..a1-hoeren-study (50 LB rows, 29 unique cards, correction 2 full composites)",
   "rows": 50,
   "uniqueCards": 29,
-  "paste_sha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9",
+  "paste_sha256": "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2",
+  "base_mapping_sha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9",
   "full_card_replacements": 29,
-  "classification": "LRB_070_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "full_card_object_ids": [
+    "a1-ab",
+    "a1-aber",
+    "a1-an",
+    "a1-aufs",
+    "a1-aus",
+    "a1-besuch",
+    "a1-besuchen",
+    "a1-bringen",
+    "a1-da",
+    "a1-das",
+    "a1-dass",
+    "a1-ein",
+    "a1-einmal",
+    "a1-eis",
+    "a1-erst",
+    "a1-es",
+    "a1-essen-study",
+    "a1-etwas",
+    "a1-euch",
+    "a1-fahren",
+    "a1-finden",
+    "a1-frau",
+    "a1-fuer",
+    "a1-ganz-study",
+    "a1-gefallen-study",
+    "a1-gleich",
+    "a1-halten",
+    "a1-heissen",
+    "a1-hoeren-study"
+  ],
+  "classification": "LRB_070_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "a1-ab",
@@ -14,7 +46,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "Nee",
+        "lv": "vun ... un",
         "study": {
           "id": "a1-ab",
           "layout": "standardStudy",
@@ -47,7 +79,7 @@
             },
             {
               "word": "von",
-              "meaning": "vun eppes • Hierkonft",
+              "meaning": "No kāda/kaut kā • Izcelsme",
               "example": "von mir – No manéis"
             },
             {
@@ -211,7 +243,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "CAA -",
+        "lv": "awer • mee",
         "study": {
           "id": "a1-aber",
           "layout": "standardStudy",
@@ -234,7 +266,7 @@
           "comparison": [
             {
               "word": "aber",
-              "meaning": "Géigesaz • Asproch • awer",
+              "meaning": "Pretstats • Iebilde • Tomēr",
               "example": "Ich komme, aber später. – Et ass besser, gutt."
             },
             {
@@ -382,11 +414,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "bei",
+        "lv": "un • bei",
         "study": {
           "id": "a1-an",
           "layout": "standardStudy",
-          "translation": "bei",
+          "translation": "Op • Op der Uewerfläch • Am Rand",
           "explanation": "Lieto, kaut kaut kas atrodas pie sienas, loga, durvīm, upes, jūras krasta vai citas malas/virsmas.",
           "examples": [
             {
@@ -562,11 +594,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "op",
+        "lv": "op den • op d’",
         "study": {
           "id": "a1-aufs",
           "layout": "standardStudy",
-          "translation": "op",
+          "translation": "Uz • Virsū • Kurp?",
           "explanation": [
             "Aufs ass eng Ofkierzung vun der Präpositioun AUF an dem Artikel DAS.",
             "Pilnā forma: op den (kurp?).",
@@ -913,7 +945,7 @@
         "study": {
           "id": "a1-aus",
           "layout": "standardStudy",
-          "translation": "aus",
+          "translation": "No • Ārā",
           "explanation": "Benotzt wann eppes vu bannen kënnt, kënnt eraus oder weist säin Urspronk.",
           "examples": [
             {
@@ -1078,7 +1110,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "Besuch",
+        "lv": "Besuch • Visitt",
         "study": {
           "id": "a1-besuch",
           "layout": "standardStudy",
@@ -1106,7 +1138,7 @@
           "comparison": [
             {
               "word": "der Besuch",
-              "meaning": "Besuch • Visitt • Rendez-vous",
+              "meaning": "Besuch • Visioun • Vizit",
               "example": "Danke für deinen Besuch. – Merci fir deng Besuch."
             },
             {
@@ -1271,7 +1303,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "besuchen",
+        "lv": "besichen",
         "study": {
           "id": "a1-besuchen",
           "layout": "standardStudy",
@@ -1299,7 +1331,7 @@
           "comparison": [
             {
               "word": "besuchen",
-              "meaning": "eng Plaz oder eng Manifestatioun besichen • eng Persoun besichen",
+              "meaning": "eng Plaz oder eng Manifestatioun besuchen • eng Persoun besuchen",
               "example": "Ich besuche meine Großeltern. – Ech besiche meng Groussälter."
             },
             {
@@ -1493,7 +1525,7 @@
         "study": {
           "id": "a1-bringen",
           "layout": "standardStudy",
-          "translation": "bréngen",
+          "translation": "Atnest • Aiznest",
           "explanation": [
             "Haaptiddi: Bréngt, dréit oder liwwert eppes un een.",
             "CAA-BHUA CAA-BHUB CAA-BHUC CAA-BHUD CAA-BHUE CAA-BHUF CAA-BHUG CAA-BHUH CAA-BHUI CAA-BHUJ CAA-BHUK CAA-BHUL CAA-BHUM CAA-BHUN CAA-BHUO CAA-BHUP CAA-BHUQ CAA-BHUR CAA-BHUS CAA-BHUT CAA-BHUU CAA-BHUV CAA-BHUW CAA-BHUX CAA-BHUY CAA-BHUZ CAA-BHU0 CAA-BHU1 CAA-BHU2 CAA-BHU3 CAA-BHU4 CAA-BHU5 CAA-BHU6 CAA-BHU7 CAA-BHU8 CAA-BHU9",
@@ -1757,7 +1789,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "Do",
+        "lv": "do • hei",
         "study": {
           "id": "a1-da",
           "layout": "standardStudy",
@@ -1789,7 +1821,7 @@
           "comparison": [
             {
               "word": "da",
-              "meaning": "do • hei • am Allgemengen",
+              "meaning": "Tur • Te • Šeit (vispārīgi)",
               "example": "Dërt ass mäin Auto."
             },
             {
@@ -2021,7 +2053,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "Vidus dzimtes noteiktais artikuls",
+        "lv": "dat • bestëmmten Artikel",
         "study": {
           "id": "a1-das",
           "layout": "standardStudy",
@@ -2054,7 +2086,7 @@
             },
             {
               "word": "welches",
-              "meaning": "deen • déi • dat",
+              "meaning": "Kurš • Kura • Kuru",
               "example": "Das ist das Buch, welches ich lese. – Произношение на kuerze kuerze kuerze [lb]"
             }
           ],
@@ -2175,7 +2207,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "CAA -",
+        "lv": "datt",
         "study": {
           "id": "a1-dass",
           "layout": "standardStudy",
@@ -2203,7 +2235,7 @@
             },
             {
               "word": "weil",
-              "meaning": "datt",
+              "meaning": "Jo • Tāpēc ka",
               "example": "Ich bleibe zu Hause, weil es regnet. – Ech bleiwe heem, well et lëscht."
             },
             {
@@ -2369,11 +2401,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "onbestëmmten Artikel",
+        "lv": "en • eent • onbestëmmten Artikel",
         "study": {
           "id": "a1-ein",
           "layout": "standardStudy",
-          "translation": "onbestëmmten Artikel",
+          "translation": "Indefinite Article • Eng • Someone",
           "explanation": [
             "Haaptidee: ein ass den onbestëmmten Artikel.",
             "ein ass den onbestëmmten Artikel fir Maskulinum a Neutrum Substantiver am Nominativ.",
@@ -2544,7 +2576,7 @@
         "study": {
           "id": "a1-einmal",
           "layout": "standardStudy",
-          "translation": "eemol • eng Kéier",
+          "translation": "Vienreiz • Reiz",
           "explanation": [
             "Haaptidee: Weist op eng Kéier oder d'Vergaangenheet hin (eng Kéier ech war...).",
             "Einmal galvenokārt nozīmē: vienu reizi / pagātnē.",
@@ -2639,7 +2671,7 @@
         "study": {
           "id": "a1-eis",
           "layout": "standardStudy",
-          "translation": "Äis • Glace",
+          "translation": "Ledus • Saldējums",
           "explanation": [
             "Galvenā doma: d'Äis war nozīmēt gan ledu, gan saldējumu.",
             "Jo runa ir par aukstu sasalušu ūdeni, latviski parasti saka ledus.",
@@ -2909,11 +2941,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "éischt",
+        "lv": "éischt • eréischt",
         "study": {
           "id": "a1-erst",
           "layout": "standardStudy",
-          "translation": "éischt",
+          "translation": "Fesche Pirme • Tikai",
           "explanation": [
             "Haaptidee: erst heescht meeschtens nëmmen. Mä a bestëmte Kontext ka et och éischt heeschen.",
             "erst weist dacks drop hin, datt eppes méi spéit passéiert, wéi erwaart.",
@@ -2942,7 +2974,7 @@
           "comparison": [
             {
               "word": "erst",
-              "meaning": "éischt • nëmmen",
+              "meaning": "Fesche Pirme • Tikai",
               "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Fispirms strādāt, tad pause."
             },
             {
@@ -3124,7 +3156,7 @@
         "study": {
           "id": "a1-es",
           "layout": "standardStudy",
-          "translation": "et",
+          "translation": "Bag • Tā • Bezpersoniska Forma",
           "explanation": [
             "Haaptidee: es ass e Pronomen.",
             "Et gëtt benotzt: dat, ouni Persoun Konstruktiounen."
@@ -3277,7 +3309,7 @@
           "comparison": [
             {
               "word": "es",
-              "meaning": "et • onperséinlech Form",
+              "meaning": "dat • ouni Persoun Form",
               "example": "Es regnet. – Lëscht."
             },
             {
@@ -3299,7 +3331,7 @@
         "study": {
           "id": "a1-essen-study",
           "layout": "standardStudy",
-          "translation": "Iessen • Moolzecht",
+          "translation": "Ēdiens • Maltīte",
           "explanation": [
             "Haaptidee: Substantiv — Iessen oder d'ganz Maz.",
             "Das Essen galvenokārt nozīmē: patērēt pārtiku.",
@@ -3446,11 +3478,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "eppes",
+        "lv": "eppes • e bëssen",
         "study": {
           "id": "a1-etwas",
           "layout": "standardStudy",
-          "translation": "eppes",
+          "translation": "Kaut kas • Nedaudz",
           "explanation": [
             "Galvenā doma: eppes nozīmē kaut kas vai nedaudz atkarībā no konteksta.",
             "CAA-BHUA CAA-BHUB CAA-BHUC CAA-BHUD CAA-BHUE CAA-BHUF CAA-BHUG CAA-BHUH CAA-BHUI CAA-BHUJ CAA-BHUK CAA-BHUL CAA-BHUM CAA-BHUN CAA-BHUO CAA-BHUP CAA-BHUQ CAA-BHUR CAA-BHUS CAA-BHUT CAA-BHUU CAA-BHUV CAA-BHUW CAA-BHUX CAA-BHUY CAA-BHUZ CAA-BHU0 CAA-BHU1 CAA-BHU2 CAA-BHU3 CAA-BHU4 CAA-BHU5 CAA-BHU6 CAA-BHU7 CAA-BHU8 CAA-BHU9",
@@ -3717,11 +3749,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "iech • iech",
+        "lv": "iech",
         "study": {
           "id": "a1-euch",
           "layout": "standardStudy",
-          "translation": "iech • iech",
+          "translation": "Jūs • Jums",
           "explanation": "\"euch\" ir vietniekvārds 2. personas daudzskaitlī. To Laato gan kā tiešo papildinājumu (kurp?) - \"jūs\", gan kā netiešo papildinājumu (kam?) - \"jums\".",
           "examples": [
             {
@@ -3795,7 +3827,7 @@
         "study": {
           "id": "a1-fahren",
           "layout": "standardStudy",
-          "translation": "fueren",
+          "translation": "Braukt • Vest • Aizvest",
           "explanation": [
             "Galvenā doma: fueren nozīmē braukt ar transportu un dažos teikumos arī vest vai aizvest kādu.",
             "Fuert Leto, jo pārvietošanās notiek ar auto, autobusu, vilcienu, velosipēdu vai citu transportlīdzekli.",
@@ -4138,11 +4170,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "fannen",
+        "lv": "fannen • mengen",
         "study": {
           "id": "a1-finden",
           "layout": "standardStudy",
-          "translation": "fannen",
+          "translation": "Fannt • Betruecht",
           "explanation": [
             "Galvenā doma: fënns visbiežāk nozīmē atrast.",
             "Sarunās fannen Ōoti bieži nozīmē arī uzskatīt vai domāt par kaut ko.",
@@ -4386,7 +4418,7 @@
         "study": {
           "id": "a1-frau",
           "layout": "standardStudy",
-          "translation": "Fra",
+          "translation": "Sieviete • Sieva",
           "explanation": [
             "Galvenā doma: la femme var nozīmēt sievieti (dzimums) vai sievu (laulātā).",
             "Wann et nëmmen eng Fro vu Geschlecht oder Persoun ass, datt Frau = Fra.",
@@ -4568,7 +4600,7 @@
         "study": {
           "id": "a1-fuer",
           "layout": "standardStudy",
-          "translation": "fir",
+          "translation": "Virun • Virun",
           "explanation": [
             "Galvenā doma: fir ir prievārds, kas vienmēr pārvalda akuzatīvu — latviski parasti priekš vai par.",
             "Runājot par saēēmēju vai nolūku, fir = priekš (for you = priekš tevis).",
@@ -4733,7 +4765,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "Schëffer",
+        "lv": "ganz • komplett",
         "study": {
           "id": "a1-ganz-study",
           "layout": "standardStudy",
@@ -4764,7 +4796,7 @@
           "comparison": [
             {
               "word": "ganz",
-              "meaning": "ganz • als Ganzt • komplett",
+              "meaning": "ganz • alles zesummen • komplett",
               "example": "der ganze Tag – de ganz Dag"
             },
             {
@@ -4790,7 +4822,7 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "CAA -",
+        "lv": "gefalen",
         "study": {
           "id": "a1-gefallen-study",
           "layout": "standardStudy",
@@ -4817,7 +4849,7 @@
           "comparison": [
             {
               "word": "gefallen",
-              "meaning": "gefalen • Persoun am Dativ",
+              "meaning": "gefall • Persoun am Dativ",
               "example": "Das gefällt mir. – Dat gefall mer."
             },
             {
@@ -4843,11 +4875,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "gläich",
+        "lv": "gläich • direkt",
         "study": {
           "id": "a1-gleich",
           "layout": "standardStudy",
-          "translation": "gläich",
+          "translation": "Tūlīt • Vienāds",
           "explanation": [
             "Galvenā doma: gläich wéi laika ziệā nozīmē tūlīt, salīdzinājumā nozīmē vienāds.",
             "Wann et op Zäit ukomm ass, gleich = sofort/sobald (Ich komme gleich. DA = I'll be right there).",
@@ -5007,11 +5039,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "halen",
+        "lv": "halen • stoppen",
         "study": {
           "id": "a1-halten",
           "layout": "standardStudy",
-          "translation": "halen",
+          "translation": "Turēt • Apturēt",
           "explanation": [
             "Haaptiddi: Holding heescht Holding, awer kann och beim Transport oder Bewegung ophalen oder ophalen.",
             "Den Haaptuert ass Sauvage.",
@@ -5253,11 +5285,11 @@
       "owner_decision": "LABOT",
       "replacement_scope": "full_card_target_fields",
       "post_owner": {
-        "lv": "heeschen",
+        "lv": "heeschen • bedeiten",
         "study": {
           "id": "a1-heißen",
           "layout": "standardStudy",
-          "translation": "heeschen",
+          "translation": "Saukties • Nozīmēt",
           "explanation": [
             "Galvenā doma: heißen visbiežāk dito, lai pateiktu, kā kādu sauc.",
             "Den Ausdrock Ich heiße... heescht \"mäin Numm ass...\".",
@@ -5504,7 +5536,7 @@
         "study": {
           "id": "a1-hoeren-study",
           "layout": "standardStudy",
-          "translation": "héieren • nolauschteren",
+          "translation": "Dzirdēt • Klausīties",
           "explanation": [
             "Galvenā doma: Dzirdēt skaếu vai klausīties mūziku.",
             "Virun allem heescht dat héieren: Sensibiliséiere vum Klang.",
