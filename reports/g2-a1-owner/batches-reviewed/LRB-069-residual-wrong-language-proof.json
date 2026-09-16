@@ -1,6 +1,6 @@
 {
   "batch_id": "LRB-069",
-  "classification": "LRB_069_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "classification": "LRB_069_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "pdf_reaudit": true,
   "post_repair_merge": true,
   "paste_source": "gpt-5.6-luna-copy-paste",
@@ -58,6 +58,6 @@
     "lb:zum"
   ],
   "failures": [],
-  "verdict": "LRB_069_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "verdict": "LRB_069_FULL_50_50_LINGUISTIC_REVIEW_PASS",
   "updatedAt": "2026-09-16T15:53:09.241Z"
 }
