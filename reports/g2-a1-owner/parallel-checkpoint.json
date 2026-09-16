@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-15T17:36:00.000Z",
+  "updatedAt": "2026-09-16T15:39:30.712Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -81,7 +81,7 @@
       "batchId": "LRB-074",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "OWNER_AUTHORIZATION_APPROVED",
+      "status": "LINGUISTIC_REVIEW_COMPLETE",
       "branch": "cursor/lrb-074-owner-authorization-ed35",
       "reservedAt": "2026-09-15T17:36:00.000Z",
       "rows": 50,
@@ -91,11 +91,16 @@
       "ownerAuthorizationStatus": "APPROVED",
       "linguisticReviewer": "gpt-5.6-luna",
       "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-owner-authorization-proof.json",
-      "labot": 0,
+      "labot": 50,
       "nelabot": 0,
-      "pending": 50,
+      "pending": 0,
       "uniqueCards": 50,
-      "inputCsvSha256": "b47ea8140559b79522c7afe80c41d107ffd8ea7d8b4df61ee87976857d7cd18e"
+      "inputCsvSha256": "b47ea8140559b79522c7afe80c41d107ffd8ea7d8b4df61ee87976857d7cd18e",
+      "overridesSha256": "710caa94e10ca25ba3fc2004baa1bfe67837ddd139704597a75094b7244e76c8",
+      "updatedAt": "2026-09-16T15:39:30.712Z",
+      "proof": "reports/g2-a1-owner/batches-owner-review/LRB-074/LRB-074-owner-review-proof.json",
+      "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-anti-bulk-proof.json",
+      "ownerReviewProof": "reports/g2-a1-owner/batches-owner-review/LRB-074/LRB-074-owner-review-proof.json"
     },
     {
       "batchId": "LRB-075",

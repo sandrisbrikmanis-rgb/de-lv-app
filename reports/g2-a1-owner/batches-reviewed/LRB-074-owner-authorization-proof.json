@@ -4,14 +4,22 @@
   "reviewer": "gpt-5.6-luna",
   "authorizedAt": "2026-09-15T17:36:00.000Z",
   "row_count": 50,
-  "labot": 0,
+  "labot": 50,
   "nelabot": 0,
-  "pending": 50,
+  "pending": 0,
   "languages": {
     "nn": 50
   },
   "unique_cards": 50,
   "scope": "erst..gleich (50 NN) — pending Phase 1 Luna linguistic review",
   "productionSource": "data/nn/a1.js (read-only review)",
-  "note": "OWNER_AUTHORIZATION_STATUS=APPROVED. 0 LABOT / 0 NELABOT / 50 PENDING. Awaiting Phase 1 GPT-5.6 Luna review. DE/production/Crowdin/ingest/apply unchanged."
+  "note": "Phase 1 Luna complete. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "lunaAuditScript": "scripts/temp-audit-lrb074-luna.js",
+  "lunaModel": "gpt-5.6-luna",
+  "lunaTokens": 73435,
+  "overridesSha256": "710caa94e10ca25ba3fc2004baa1bfe67837ddd139704597a75094b7244e76c8",
+  "antiBulkPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50
 }
