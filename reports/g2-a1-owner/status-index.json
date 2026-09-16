@@ -1,6 +1,6 @@
 {
   "classification": "G2_A1_RECHECK_350_REAL_INDIVIDUAL_REVIEW_COMPLETE",
-  "updatedAt": "2026-09-16T17:26:00.000Z",
+  "updatedAt": "2026-09-16T17:30:00.000Z",
   "architectureDoc": "reports/g2-a1-three-tier-architecture.md",
   "trustedIngestCommit": "1b2212f2",
   "ownerSourceHash": "a6881d7d449aa331661f4bac3c792e7ec71659cc7411e52590d757942cd63419",
@@ -127,7 +127,7 @@
     "batchesTotal": 103,
     "batchesReviewed": 72,
     "batchesAntiBulkPass": 72,
-    "batchesSpotCheckPass": 71,
+    "batchesSpotCheckPass": 72,
     "linguisticVerdicts": {
       "LRB-001": {
         "verdict": "LRB_001_LINGUISTIC_REPAIR_PASS",
@@ -1940,9 +1940,9 @@
         "note": "Gala verdict LRB_071_FULL_50_50_LINGUISTIC_REVIEW_PASS. LB batch 14 closed; 15 LB rows remain in 7737 pool for mop-up."
       },
       "LRB-072": {
-        "verdict": "PENDING_LINGUISTIC_REVIEW",
-        "status": "OWNER_PREP_READY",
-        "classification": "LRB_072_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+        "verdict": "LRB_072_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+        "status": "LINGUISTICALLY_CLOSED",
+        "classification": "LRB_072_FULL_50_50_LINGUISTIC_REVIEW_PASS",
         "labot": 15,
         "nelabot": 0,
         "pending": 0,
@@ -1950,7 +1950,8 @@
         "residualAuditPass": true,
         "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
-        "reviewer": "pending-gpt-5.6-luna",
+        "reviewer": "gpt-5.6-luna",
+        "headSha": "73c4b686",
         "rowCount": 15,
         "uniqueCards": 11,
         "compositeRepairs": 7,
@@ -1965,12 +1966,16 @@
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-072-residual-wrong-language-proof.json",
         "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-072-owner-auth-residual-proof.json",
         "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-072-gala-cards.json",
+        "pasteRepairs": "GPT-5.6 Luna OWNER COPY-PASTE (7 full composites + 4 scalar, 15 LABOT)",
         "pasteSha256": "cdec04333276175cca81605ac9e157660158e929a45e79f742542613c979d243",
         "decisionsSha256": "2cd51db7a662ad584afad8a3baa540543d9ae18ca81f836746958742ec0e0267",
         "inputCsvSha256": "138d8f6c230c4c329e3d6d94371a10de4445239fc6b0c283d3c9c4eccc89907e",
         "lbRowsRemainingAfterBatch": 0,
-        "galaPassRecorded": false,
-        "note": "COPY-PASTE complete (7 full composites + 4 scalar). Final LB mop-up; 0 rows remain in 7737 pool. Awaiting Gala FULL_50_50 verdict. NOT LRB_072_FULL_50_50_LINGUISTIC_REVIEW_PASS."
+        "copyPasteStep1Complete": true,
+        "linguisticGalaPassProof": "reports/g2-a1-owner/batches-reviewed/LRB-072-linguistic-gala-pass-proof.json",
+        "galaPassRecorded": true,
+        "linguisticallyClosed": true,
+        "note": "Gala verdict LRB_072_FULL_50_50_LINGUISTIC_REVIEW_PASS. Final LB mop-up batch 15 closed; 0 LB rows remain in 7737 pool."
       }
     },
     "lastBatch": {
@@ -1982,10 +1987,11 @@
       "residualAuditPass": true,
       "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
-      "reviewer": "pending-gpt-5.6-luna",
-      "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
-      "status": "OWNER_PREP_READY",
-      "classification": "LRB_072_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+      "reviewer": "gpt-5.6-luna",
+      "headSha": "73c4b686",
+      "linguisticVerdict": "LRB_072_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "status": "LINGUISTICALLY_CLOSED",
+      "classification": "LRB_072_FULL_50_50_LINGUISTIC_REVIEW_PASS",
       "rowCount": 15,
       "uniqueCards": 11,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-072-decisions.csv",
@@ -1995,7 +2001,8 @@
       "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-072-owner-auth-residual-proof.json",
       "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-072-gala-cards.json",
       "pasteSha256": "cdec04333276175cca81605ac9e157660158e929a45e79f742542613c979d243",
-      "decisionsSha256": "2cd51db7a662ad584afad8a3baa540543d9ae18ca81f836746958742ec0e0267"
+      "decisionsSha256": "2cd51db7a662ad584afad8a3baa540543d9ae18ca81f836746958742ec0e0267",
+      "linguisticGalaPassProof": "reports/g2-a1-owner/batches-reviewed/LRB-072-linguistic-gala-pass-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",
