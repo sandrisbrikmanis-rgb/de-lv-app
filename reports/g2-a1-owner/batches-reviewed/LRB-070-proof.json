@@ -1,0 +1,15 @@
+{
+  "batch_id": "LRB-070",
+  "row_count": 50,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "provenance_individual_count": 50,
+  "unique_cards": 29,
+  "classification": "G2_A1_PENDING_BATCH_REVIEW_COMPLETE",
+  "paste_sha256": "33ae22adf9b7e47521092474a58020676599f0a5cb41024778bf6e1a8005d33c",
+  "correction_round": 4,
+  "base_mapping_sha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9",
+  "base_correction_2_sha256": "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2",
+  "base_correction_3_sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599"
+}

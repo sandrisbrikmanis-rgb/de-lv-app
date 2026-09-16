@@ -1,0 +1,3373 @@
+{
+  "batch_id": "LRB-070",
+  "correction": 2,
+  "correction_round": 2,
+  "classification": "LRB_070_COPY_PASTE_CORRECTION_2_OWNER_VALUES_READY",
+  "reason": "Gala: full gala cards still contain LV/EN/corrupt text outside the 50 field-level paths; OWNER must supply complete Luxembourgish post_owner composites for all 29 unique cards.",
+  "base_mapping_sha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9",
+  "base_full_card_correction_sha256": "d5bdad2bf1d12d4053adbc4861558af76284ec411f7093f9afbefdb244a234eb",
+  "instructions": {
+    "mode": "COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+    "de_source": "DO_NOT_CHANGE",
+    "composite_values": "Replace each listed card with a complete Luxembourgish lv+study composite (full_card_target_fields). Cursor applies literally via build-lrb070-correction-2-artifacts.js.",
+    "cursor_action": "DO_NOT_GENERATE_LINGUISTIC_CONTENT"
+  },
+  "labot_full_composite": {
+    "a1-ab": {
+      "lv": "vun ... un",
+      "study": {
+        "id": "a1-ab",
+        "layout": "standardStudy",
+        "translation": "vun ... un",
+        "explanation": [
+          "Haaptiddi: ab weist den Ufank vun enger Zäit, Plaz oder Streck un.",
+          "Op Lëtzebuergesch steet dacks vun ... un."
+        ],
+        "examples": [
+          {
+            "de": "ab heute",
+            "lv": "vun haut un"
+          },
+          {
+            "de": "ab Montag",
+            "lv": "vum Méindeg un"
+          },
+          {
+            "de": "ab 8 Uhr",
+            "lv": "vun aacht Auer un"
+          },
+          {
+            "de": "ab Bahnhof",
+            "lv": "vun der Gare un"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ab",
+            "meaning": "Verglach mam Begrëff ab.",
+            "example": "ab Montag"
+          },
+          {
+            "word": "von",
+            "meaning": "Verglach mam Begrëff von.",
+            "example": "von mir"
+          },
+          {
+            "word": "aus",
+            "meaning": "Verglach mam Begrëff aus.",
+            "example": "aus dem Haus"
+          }
+        ],
+        "tip": {
+          "text": "Ufankspunkt → ab / vun ... un."
+        },
+        "important": [
+          "ab bezeechent den Ufank, net d'Hierkonft."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "ab"
+            ],
+            "purple": [
+              "vun ... un"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "ab"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "vun"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ab"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "vum"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ab"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "vun"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "ab"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "vun"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-aber": {
+      "lv": "awer • mee",
+      "study": {
+        "id": "a1-aber",
+        "layout": "standardStudy",
+        "translation": "awer • mee",
+        "explanation": [
+          "Haaptiddi: aber verbënnt zwou Aussoen, déi am Géigesaz stinn.",
+          "Op Lëtzebuergesch entsprécht et awer oder mee."
+        ],
+        "examples": [
+          {
+            "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+            "lv": "Ech géif gär matkommen, mee ech hu keng Zäit."
+          },
+          {
+            "de": "Das Essen war lecker, aber zu teuer.",
+            "lv": "D’Iesse war lecker, awer ze deier."
+          },
+          {
+            "de": "Er hat recht, aber ich sehe das anders.",
+            "lv": "Hien huet Recht, mee ech gesinn dat anescht."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "aber",
+            "meaning": "Verglach mam Begrëff aber.",
+            "example": "Ich komme, aber später."
+          },
+          {
+            "word": "sondern",
+            "meaning": "Verglach mam Begrëff sondern.",
+            "example": "Ich wollte keinen Tee, sondern Kaffee."
+          },
+          {
+            "word": "jedoch",
+            "meaning": "Verglach mam Begrëff jedoch.",
+            "example": "Es ist kalt, jedoch sonnig."
+          }
+        ],
+        "tip": {
+          "text": "Géigesaz → aber / awer / mee."
+        },
+        "important": [
+          "aber ass eng Konjunktioun."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "aber"
+            ],
+            "purple": [
+              "awer"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Iesse"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Er"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hien"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-an": {
+      "lv": "un • bei",
+      "study": {
+        "id": "a1-an",
+        "layout": "standardStudy",
+        "translation": "un • bei",
+        "explanation": [
+          "Haaptiddi: an steet bei enger Grenz, Uewerfläch oder Säit.",
+          "Op Lëtzebuergesch passt jee nom Kontext un oder bei."
+        ],
+        "examples": [
+          {
+            "de": "an der Wand",
+            "lv": "un der Mauer"
+          },
+          {
+            "de": "am Fenster",
+            "lv": "bei der Fënster"
+          },
+          {
+            "de": "am Meer",
+            "lv": "um Mier"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "an",
+            "meaning": "Verglach mam Begrëff an.",
+            "example": "an der Wand"
+          },
+          {
+            "word": "auf",
+            "meaning": "Verglach mam Begrëff auf.",
+            "example": "auf dem Tisch"
+          },
+          {
+            "word": "bei",
+            "meaning": "Verglach mam Begrëff bei.",
+            "example": "beim Arzt"
+          }
+        ],
+        "tip": {
+          "text": "Bei enger Mauer, Fënster oder Grenz → an."
+        },
+        "important": [
+          "Déi genee Form hänkt vum Kontext of."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "an"
+            ],
+            "purple": [
+              "un"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "an"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "un"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "am"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "bei"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "am"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "um"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-aufs": {
+      "lv": "op den • op d’",
+      "study": {
+        "id": "a1-aufs",
+        "layout": "standardStudy",
+        "translation": "op den • op d’",
+        "explanation": [
+          "Haaptiddi: aufs ass déi zesummegezunne Form vun auf das.",
+          "Et weist meeschtens eng Bewegung op eng Plaz oder Uewerfläch."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe aufs Dach.",
+            "lv": "Ech ginn op den Daach."
+          },
+          {
+            "de": "Sie setzt sich aufs Sofa.",
+            "lv": "Si setzt sech op de Canapé."
+          },
+          {
+            "de": "Wir fahren aufs Land.",
+            "lv": "Mir fueren op d’Land."
+          },
+          {
+            "de": "Stell die Tasche aufs Bett.",
+            "lv": "Stell d’Täsch op d’Bett."
+          },
+          {
+            "de": "Er springt aufs Pferd.",
+            "lv": "Hie spréngt op d’Päerd."
+          },
+          {
+            "de": "Leg das Buch aufs Regal.",
+            "lv": "Lee d’Buch op d’Regal."
+          },
+          {
+            "de": "Komm schnell aufs Boot!",
+            "lv": "Komm séier op d’Boot!"
+          },
+          {
+            "de": "Wir gehen aufs Fest.",
+            "lv": "Mir ginn op d’Fest."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "aufs",
+            "meaning": "Verglach mam Begrëff aufs.",
+            "example": "aufs Dach"
+          },
+          {
+            "word": "auf",
+            "meaning": "Verglach mam Begrëff auf.",
+            "example": "auf den Tisch"
+          },
+          {
+            "word": "an",
+            "meaning": "Verglach mam Begrëff an.",
+            "example": "an die Wand"
+          },
+          {
+            "word": "ins",
+            "meaning": "Verglach mam Begrëff ins.",
+            "example": "ins Zimmer"
+          },
+          {
+            "word": "zum",
+            "meaning": "Verglach mam Begrëff zum.",
+            "example": "zum Arzt"
+          }
+        ],
+        "tip": [
+          "auf + das → aufs."
+        ],
+        "important": [
+          "aufs steet mat engem Neutrum am Akkusativ."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "aufs"
+            ],
+            "purple": [
+              "op den"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Si"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Stell"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Stell"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Er"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hie"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Leg"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Lee"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Komm"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Komm"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-aus": {
+      "lv": "aus",
+      "study": {
+        "id": "a1-aus",
+        "layout": "standardStudy",
+        "translation": "aus",
+        "explanation": [
+          "Haaptiddi: aus weist Hierkonft oder eng Bewegung vu bannen no baussen un.",
+          "Op Lëtzebuergesch steet och aus."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme aus Deutschland.",
+            "lv": "Ech kommen aus Däitschland."
+          },
+          {
+            "de": "Er geht aus dem Haus.",
+            "lv": "Hie geet aus dem Haus."
+          },
+          {
+            "de": "Ich nehme das Buch aus der Tasche.",
+            "lv": "Ech huelen d’Buch aus der Täsch."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "aus",
+            "meaning": "Verglach mam Begrëff aus.",
+            "example": "aus dem Haus"
+          },
+          {
+            "word": "von",
+            "meaning": "Verglach mam Begrëff von.",
+            "example": "von meinem Freund"
+          },
+          {
+            "word": "ab",
+            "meaning": "Verglach mam Begrëff ab.",
+            "example": "ab Montag"
+          }
+        ],
+        "tip": {
+          "text": "Vu bannen no baussen → aus."
+        },
+        "important": [
+          "aus verlaangt am Däitschen den Dativ."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "aus"
+            ],
+            "purple": [
+              "aus"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Er"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hie"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-besuch": {
+      "lv": "Besuch • Visitt",
+      "study": {
+        "id": "a1-besuch",
+        "layout": "standardStudy",
+        "translation": "Besuch • Visitt",
+        "explanation": [
+          "Haaptiddi: der Besuch ass d’Kommt oder d’Visitt vun enger Persoun op eng Plaz.",
+          "Op Lëtzebuergesch steet Besuch oder Visitt."
+        ],
+        "examples": [
+          {
+            "de": "Der Besuch im Museum war interessant.",
+            "lv": "De Besuch am Musée war interessant."
+          },
+          {
+            "de": "Danke für deinen Besuch.",
+            "lv": "Merci fir däi Besuch."
+          },
+          {
+            "de": "Der Arzt macht einen Besuch.",
+            "lv": "Den Dokter mécht eng Visitt."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "der Besuch",
+            "meaning": "Verglach mam Begrëff der Besuch.",
+            "example": "Danke für deinen Besuch."
+          },
+          {
+            "word": "der Besucher",
+            "meaning": "Verglach mam Begrëff der Besucher.",
+            "example": "Der Besucher wartet draußen."
+          },
+          {
+            "word": "besuchen",
+            "meaning": "Verglach mam Begrëff besuchen.",
+            "example": "Ich besuche meine Großeltern."
+          }
+        ],
+        "tip": {
+          "text": "Substantiv: der Besuch."
+        },
+        "important": [
+          "Net mam Verb besuchen verwiesselen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "Besuch"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Der"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "De"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Danke"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Merci"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Der"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Den"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-besuchen": {
+      "lv": "besichen",
+      "study": {
+        "id": "a1-besuchen",
+        "layout": "standardStudy",
+        "translation": "besichen",
+        "explanation": [
+          "Haaptiddi: besuchen heescht eng Persoun, Plaz oder Veranstaltung besichen.",
+          "Et ass e Verb mat engem direkten Objet."
+        ],
+        "examples": [
+          {
+            "de": "Ich besuche das Museum.",
+            "lv": "Ech besichen de Musée."
+          },
+          {
+            "de": "Wir besuchen einen Deutschkurs.",
+            "lv": "Mir besichen en Däitschcours."
+          },
+          {
+            "de": "Ich besuche meine Großeltern.",
+            "lv": "Ech besiche meng Grousselteren."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "besuchen",
+            "meaning": "Verglach mam Begrëff besuchen.",
+            "example": "Ich besuche meine Großeltern."
+          },
+          {
+            "word": "treffen",
+            "meaning": "Verglach mam Begrëff treffen.",
+            "example": "Ich treffe meinen Freund."
+          },
+          {
+            "word": "zu jemandem gehen",
+            "meaning": "Verglach mam Begrëff zu jemandem gehen.",
+            "example": "Ich gehe zu meinem Freund."
+          }
+        ],
+        "tip": {
+          "text": "Verb: besuchen / besichen."
+        },
+        "important": [
+          "Am Däitsche steet normalerweis keng Präpositioun virum Objet."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "besuchen"
+            ],
+            "purple": [
+              "besichen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-bringen": {
+      "lv": "bréngen",
+      "study": {
+        "id": "a1-bringen",
+        "layout": "standardStudy",
+        "translation": "bréngen",
+        "explanation": [
+          "Haaptiddi: bringen heescht eppes oder een op eng aner Plaz bréngen.",
+          "D’Beweegung geet vum Spriecher ewech oder op en Zil zou."
+        ],
+        "examples": [
+          {
+            "de": "Ich bringe dir ein Buch.",
+            "lv": "Ech bréngen dir e Buch."
+          },
+          {
+            "de": "Ich bringe das Paket zur Post.",
+            "lv": "Ech bréngen de Pak op d’Post."
+          },
+          {
+            "de": "Ich bringe die Kinder zur Schule.",
+            "lv": "Ech bréngen d’Kanner an d'Schoul."
+          },
+          {
+            "de": "Ich nehme das Buch.",
+            "lv": "Ech huelen d’Buch."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "bringen",
+            "meaning": "Verglach mam Begrëff bringen.",
+            "example": "Ich bringe dir ein Buch."
+          },
+          {
+            "word": "bringen",
+            "meaning": "Verglach mam Begrëff bringen.",
+            "example": "Ich bringe das Paket zur Post."
+          },
+          {
+            "word": "bringen",
+            "meaning": "Verglach mam Begrëff bringen.",
+            "example": "Ich bringe die Kinder zur Schule."
+          },
+          {
+            "word": "bringen",
+            "meaning": "Verglach mam Begrëff bringen.",
+            "example": "Ich bringe dir ein Buch."
+          },
+          {
+            "word": "nehmen",
+            "meaning": "Verglach mam Begrëff nehmen.",
+            "example": "Ich nehme das Buch."
+          }
+        ],
+        "tip": {
+          "text": "Eppes op eng Plaz transportéieren → bringen."
+        },
+        "important": [
+          "bringen ass net dat selwecht wéi nehmen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "bringen"
+            ],
+            "purple": [
+              "bréngen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-da": {
+      "lv": "do • hei",
+      "study": {
+        "id": "a1-da",
+        "layout": "standardStudy",
+        "translation": "do • hei",
+        "explanation": [
+          "Haaptiddi: da weist op eng Plaz oder Situatioun hin.",
+          "Op Lëtzebuergesch passt do oder, no Kontext, hei."
+        ],
+        "examples": [
+          {
+            "de": "Da ist mein Auto.",
+            "lv": "Do ass mäin Auto."
+          },
+          {
+            "de": "Ich war da.",
+            "lv": "Ech war do."
+          },
+          {
+            "de": "Da kommt er.",
+            "lv": "Do kënnt hien."
+          },
+          {
+            "de": "Komm mal da her!",
+            "lv": "Komm emol heihinner!"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "da",
+            "meaning": "Verglach mam Begrëff da.",
+            "example": "Dërt ass mäin Auto."
+          },
+          {
+            "word": "hier",
+            "meaning": "Verglach mam Begrëff hier.",
+            "example": "Hei ass mäin Auto."
+          },
+          {
+            "word": "dort",
+            "meaning": "Verglach mam Begrëff dort.",
+            "example": "Dërt ass mäin Auto."
+          },
+          {
+            "word": "dann",
+            "meaning": "Verglach mam Begrëff dann.",
+            "example": "Dënn ginn mir heemgoen."
+          }
+        ],
+        "tip": {
+          "text": "Plaz oder Situatioun → da / do."
+        },
+        "important": [
+          "da ass net dat selwecht wéi dann."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "da"
+            ],
+            "purple": [
+              "do"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Da"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Do"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Da"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Do"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Komm"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Komm"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-das": {
+      "lv": "dat • bestëmmten Artikel",
+      "study": {
+        "id": "a1-das",
+        "layout": "standardStudy",
+        "translation": "dat • bestëmmten Artikel",
+        "explanation": [
+          "Haaptiddi: das kann en Artikel, e Pronomen oder e Relativpronomen sinn.",
+          "Op Lëtzebuergesch entsprécht et dacks dat."
+        ],
+        "examples": [
+          {
+            "de": "Das ist mein Auto.",
+            "lv": "Dat ass mäin Auto."
+          },
+          {
+            "de": "Das ist gut.",
+            "lv": "Dat ass gutt."
+          },
+          {
+            "de": "Das Buch, das ich lese, ist interessant.",
+            "lv": "D’Buch, dat ech liesen, ass interessant."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "das",
+            "meaning": "Verglach mam Begrëff das.",
+            "example": "Das ist mein Auto."
+          },
+          {
+            "word": "dies",
+            "meaning": "Verglach mam Begrëff dies.",
+            "example": "Dies ist mein Auto."
+          },
+          {
+            "word": "welches",
+            "meaning": "Verglach mam Begrëff welches.",
+            "example": "Das ist das Buch, welches ich lese."
+          }
+        ],
+        "tip": {
+          "text": "Neutrum oder Pronomen → das / dat."
+        },
+        "important": [
+          "das a dass hunn ënnerschiddlech Funktiounen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "das"
+            ],
+            "purple": [
+              "dat"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Buch,"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-dass": {
+      "lv": "datt",
+      "study": {
+        "id": "a1-dass",
+        "layout": "standardStudy",
+        "translation": "datt",
+        "explanation": [
+          "Haaptiddi: dass féiert en Niewesaz an.",
+          "Op Lëtzebuergesch entsprécht et datt."
+        ],
+        "examples": [
+          {
+            "de": "Ich weiß, dass du müde bist.",
+            "lv": "Ech weess, datt s du midd bass."
+          },
+          {
+            "de": "Er sagt, dass er kommt.",
+            "lv": "Hie seet, datt hie kënnt."
+          },
+          {
+            "de": "Ich glaube, dass das stimmt.",
+            "lv": "Ech mengen, datt dat stëmmt."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "dass",
+            "meaning": "Verglach mam Begrëff dass.",
+            "example": "Ich weiß, dass er kommt."
+          },
+          {
+            "word": "weil",
+            "meaning": "Verglach mam Begrëff weil.",
+            "example": "Ich bleibe zu Hause, weil es regnet."
+          },
+          {
+            "word": "damit",
+            "meaning": "Verglach mam Begrëff damit.",
+            "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann."
+          },
+          {
+            "word": "ob",
+            "meaning": "Verglach mam Begrëff ob.",
+            "example": "Ich weiß nicht, ob er kommt."
+          }
+        ],
+        "tip": {
+          "text": "Ausso am Niewesaz → dass / datt."
+        },
+        "important": [
+          "Am däitschen dass-Saz steet dat konjugéiert Verb um Schluss."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "dass"
+            ],
+            "purple": [
+              "datt"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Er"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hie"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-ein": {
+      "lv": "en • eent • onbestëmmten Artikel",
+      "study": {
+        "id": "a1-ein",
+        "layout": "standardStudy",
+        "translation": "en • eent • onbestëmmten Artikel",
+        "explanation": [
+          "Haaptiddi: ein ass den onbestëmmten Artikel fir Maskulinum an Neutrum.",
+          "D’Form ännert sech no Genus a Kasus."
+        ],
+        "examples": [
+          {
+            "de": "Ein Mann wartet draußen.",
+            "lv": "E Mann waart dobaussen."
+          },
+          {
+            "de": "Ich habe ein Buch.",
+            "lv": "Ech hunn e Buch."
+          },
+          {
+            "de": "Er sucht einen Stift.",
+            "lv": "Hie sicht e Bic."
+          },
+          {
+            "de": "Ein Kind spielt.",
+            "lv": "E Kand spillt."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ein Mann",
+            "meaning": "Verglach mam Begrëff ein Mann.",
+            "example": "En Mann waart draussis."
+          },
+          {
+            "word": "eine Frau",
+            "meaning": "Verglach mam Begrëff eine Frau.",
+            "example": "eine Frau"
+          },
+          {
+            "word": "ein Buch",
+            "meaning": "Verglach mam Begrëff ein Buch.",
+            "example": "Ech hunn en Bréck."
+          },
+          {
+            "word": "einen Mann",
+            "meaning": "Verglach mam Begrëff einen Mann.",
+            "example": "einen Mann"
+          }
+        ],
+        "tip": {
+          "text": "Net genee bestëmmt → ein."
+        },
+        "important": [
+          "Femininum: eine; maskulinen Akkusativ: einen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "ein"
+            ],
+            "purple": [
+              "en"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "E"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Er"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hie"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ein"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "E"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-einmal": {
+      "lv": "eemol • eng Kéier",
+      "study": {
+        "id": "a1-einmal",
+        "layout": "standardStudy",
+        "translation": "eemol • eng Kéier",
+        "explanation": [
+          "Haaptiddi: einmal bezeechent eng eenzeg Kéier oder e Moment an der Vergaangenheet.",
+          "Op Lëtzebuergesch steet eemol oder eng Kéier."
+        ],
+        "examples": [
+          {
+            "de": "Ich war einmal in Berlin.",
+            "lv": "Ech war eemol zu Berlin."
+          },
+          {
+            "de": "Ich war einmal in Berlin.",
+            "lv": "Eng Kéier war ech zu Berlin."
+          }
+        ],
+        "tip": [
+          "Eng eenzeg Kéier → einmal."
+        ],
+        "important": [
+          "einmal ass en Zäitadverb."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "einmal"
+            ],
+            "purple": [
+              "eemol"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Eng"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-eis": {
+      "lv": "Äis • Glace",
+      "study": {
+        "id": "a1-eis",
+        "layout": "standardStudy",
+        "translation": "Äis • Glace",
+        "explanation": [
+          "Haaptiddi: das Eis kann gefruerent Waasser oder eng Glace bedeiten.",
+          "De Kontext weist, wéi eng Bedeitung gemengt ass."
+        ],
+        "examples": [
+          {
+            "de": "Ich esse ein Eis.",
+            "lv": "Ech iessen eng Glace."
+          },
+          {
+            "de": "Möchtest du ein Eis?",
+            "lv": "Wëlls du eng Glace?"
+          },
+          {
+            "de": "Im Winter liegt Eis auf dem See.",
+            "lv": "Am Wanter läit Äis um Séi."
+          },
+          {
+            "de": "Das Eis ist kalt.",
+            "lv": "D’Äis ass kal."
+          },
+          {
+            "de": "Ich nehme ein Eis mit Schokolade.",
+            "lv": "Ech huelen eng Schockelasglace."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "das Eis",
+            "meaning": "Verglach mam Begrëff das Eis.",
+            "example": "Ich esse ein Eis. = Ech iessen e Glaçon."
+          },
+          {
+            "word": "der Schnee",
+            "meaning": "Verglach mam Begrëff der Schnee.",
+            "example": "Der Schnee ist weiß. = De Schnéi ass wäiss."
+          },
+          {
+            "word": "kalt",
+            "meaning": "Verglach mam Begrëff kalt.",
+            "example": "Das Wasser ist kalt. = D'Waasser ass kal."
+          },
+          {
+            "word": "das Dessert",
+            "meaning": "Verglach mam Begrëff das Dessert.",
+            "example": "Eis ist ein Dessert. = Glaçon ass e Dessert."
+          }
+        ],
+        "tip": {
+          "text": "Gefruerent Waasser → Äis; Dessert → Glace."
+        },
+        "important": [
+          "Déi zwou Bedeitunge musse getrennt bleiwen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Eis"
+            ],
+            "purple": [
+              "Äis"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Möchtest"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wëlls"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Im"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Am"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Äis"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-erst": {
+      "lv": "éischt • eréischt",
+      "study": {
+        "id": "a1-erst",
+        "layout": "standardStudy",
+        "translation": "éischt • eréischt",
+        "explanation": [
+          "Haaptiddi: erst kann eng Reiefolleg oder eng Begrenzung ausdrécken.",
+          "Op Lëtzebuergesch steet éischt oder eréischt."
+        ],
+        "examples": [
+          {
+            "de": "Erst lernen, dann spielen.",
+            "lv": "Éischt léieren, da spillen."
+          },
+          {
+            "de": "Ich komme erst morgen.",
+            "lv": "Ech kommen eréischt muer."
+          },
+          {
+            "de": "Er ist erst 18 Jahre alt.",
+            "lv": "Hien ass eréischt 18 Joer al."
+          },
+          {
+            "de": "Wir essen erst um acht Uhr.",
+            "lv": "Mir iessen eréischt um aacht Auer."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "erst",
+            "meaning": "Verglach mam Begrëff erst.",
+            "example": "Erst lernen, dann spielen."
+          },
+          {
+            "word": "zuerst",
+            "meaning": "Verglach mam Begrëff zuerst.",
+            "example": "Zuerst frühstücken wir. = Éischt frühstücken mir."
+          },
+          {
+            "word": "nur",
+            "meaning": "Verglach mam Begrëff nur.",
+            "example": "Ich habe nur 5 Euro. = Ech hunn nëmmen 5 Euro."
+          },
+          {
+            "word": "dann",
+            "meaning": "Verglach mam Begrëff dann.",
+            "example": "Dann gehen wir nach Hause. = Dann ginn mir heem."
+          }
+        ],
+        "tip": {
+          "text": "Reiefolleg → éischt; spéider wéi erwaart → eréischt."
+        },
+        "important": [
+          "erst ass net ëmmer dat selwecht wéi nur."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "erst"
+            ],
+            "purple": [
+              "éischt"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Erst"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Éischt"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Er"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hien"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-es": {
+      "lv": "et",
+      "study": {
+        "id": "a1-es",
+        "layout": "standardStudy",
+        "translation": "et",
+        "explanation": [
+          "Haaptiddi: es ass e Pronomen a gëtt och an onperséinleche Sätz benotzt.",
+          "Op Lëtzebuergesch entsprécht et meeschtens et."
+        ],
+        "examples": [
+          {
+            "de": "Es regnet.",
+            "lv": "Et reent."
+          },
+          {
+            "de": "Es ist kalt.",
+            "lv": "Et ass kal."
+          },
+          {
+            "de": "Das Kind schläft.",
+            "lv": "D’Kand schléift."
+          },
+          {
+            "de": "Es ist müde.",
+            "lv": "Et ass midd."
+          },
+          {
+            "de": "Es regnet.",
+            "lv": "Et reent."
+          },
+          {
+            "de": "Es schneit.",
+            "lv": "Et schneit."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "es",
+            "meaning": "Verglach mam Begrëff es.",
+            "example": "Es regnet."
+          },
+          {
+            "word": "ich",
+            "meaning": "Verglach mam Begrëff ich.",
+            "example": "Ich lerne Deutsch."
+          }
+        ],
+        "tip": {
+          "text": "Onperséinlech Ausso → es / et."
+        },
+        "important": [
+          "Bei Wieder an allgemengen Zoustänn steet dacks es."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "es"
+            ],
+            "purple": [
+              "et"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Es"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Et"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Es"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Et"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Kand"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Es"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Et"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Es"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Et"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Es"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Et"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-essen-study": {
+      "lv": "Iessen • Moolzecht",
+      "study": {
+        "id": "a1-essen-study",
+        "layout": "standardStudy",
+        "translation": "Iessen • Moolzecht",
+        "explanation": [
+          "Haaptiddi: das Essen ass e Substantiv fir Iessen oder eng Moolzecht.",
+          "D’Verb essen heescht iessen."
+        ],
+        "examples": [
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "D’Iesse schmaacht gutt."
+          },
+          {
+            "de": "Was wollt ihr essen?",
+            "lv": "Wat wëllt dir iessen?"
+          },
+          {
+            "de": "Wir essen um 12 Uhr.",
+            "lv": "Mir iessen um zwielef Auer."
+          },
+          {
+            "de": "Das Essen ist fertig.",
+            "lv": "D’Iessen ass fäerdeg."
+          },
+          {
+            "de": "Das Essen schmeckt sehr gut.",
+            "lv": "D’Iesse schmaacht ganz gutt."
+          },
+          {
+            "de": "Das Essen schmeckt gut.",
+            "lv": "D’Moolzecht schmaacht gutt."
+          }
+        ],
+        "tip": [
+          "Groussgeschriwwen: das Essen; klenggeschriwwen: essen."
+        ],
+        "important": [
+          "Substantiv an Verb net verwiesselen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Essen"
+            ],
+            "purple": [
+              "Iessen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Iesse"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Iessen"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Iesse"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Moolzecht"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-etwas": {
+      "lv": "eppes • e bëssen",
+      "study": {
+        "id": "a1-etwas",
+        "layout": "standardStudy",
+        "translation": "eppes • e bëssen",
+        "explanation": [
+          "Haaptiddi: etwas kann eppes oder e bëssen bedeiten.",
+          "D’Bedeitung hänkt dovun of, ob eng Saach oder e Grad gemengt ass."
+        ],
+        "examples": [
+          {
+            "de": "Ich möchte etwas trinken.",
+            "lv": "Ech wëll eppes drénken."
+          },
+          {
+            "de": "Hast du etwas Zeit?",
+            "lv": "Hues du e bëssen Zäit?"
+          },
+          {
+            "de": "Ich bin etwas müde.",
+            "lv": "Ech sinn e bëssen midd."
+          },
+          {
+            "de": "Ich habe etwas für dich.",
+            "lv": "Ech hunn eppes fir dech."
+          },
+          {
+            "de": "Das ist etwas teuer.",
+            "lv": "Dat ass e bëssen deier."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "etwas",
+            "meaning": "Verglach mam Begrëff etwas.",
+            "example": "Ich brauche etwas. = Ech brauch eppes."
+          },
+          {
+            "word": "was",
+            "meaning": "Verglach mam Begrëff was.",
+            "example": "Willst du was trinken? = Wëlls du eppes drenken?"
+          },
+          {
+            "word": "ein bisschen",
+            "meaning": "Verglach mam Begrëff ein bisschen.",
+            "example": "Ich bin ein bisschen müde. = Ech sinn e bësse midd."
+          },
+          {
+            "word": "nichts",
+            "meaning": "Verglach mam Begrëff nichts.",
+            "example": "Ich brauche nichts. = Ech brauch näischt."
+          }
+        ],
+        "tip": {
+          "text": "Saach → eppes; klenge Grad → e bëssen."
+        },
+        "important": [
+          "etwas ass net dat selwecht wéi nichts."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "etwas"
+            ],
+            "purple": [
+              "eppes"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Hast"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hues"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-euch": {
+      "lv": "iech",
+      "study": {
+        "id": "a1-euch",
+        "layout": "standardStudy",
+        "translation": "iech",
+        "explanation": [
+          "Haaptiddi: euch ass d’Akkusativ- an Dativform vu ihr.",
+          "Op Lëtzebuergesch steet iech."
+        ],
+        "examples": [
+          {
+            "de": "Ich sehe euch.",
+            "lv": "Ech gesinn iech."
+          },
+          {
+            "de": "Ich helfe euch.",
+            "lv": "Ech hëllefen iech."
+          },
+          {
+            "de": "Ich gebe euch das Buch.",
+            "lv": "Ech ginn iech d’Buch."
+          },
+          {
+            "de": "Ich danke euch.",
+            "lv": "Ech soen iech Merci."
+          },
+          {
+            "de": "Ihr erinnert euch.",
+            "lv": "Dir erënnert iech."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ihr",
+            "meaning": "Verglach mam Begrëff ihr.",
+            "example": "Ihr seid freundlich. = Dir sidd frëndlech."
+          },
+          {
+            "word": "euch",
+            "meaning": "Verglach mam Begrëff euch.",
+            "example": "Ich helfe euch. = Ech hëllefen Iech."
+          },
+          {
+            "word": "euer",
+            "meaning": "Verglach mam Begrëff euer.",
+            "example": "Das ist euer Haus. = Dat ass Äert Haus."
+          }
+        ],
+        "tip": {
+          "text": "ihr → euch; dir → iech."
+        },
+        "important": [
+          "euch kann direkten oder indirekten Objet sinn."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "euch"
+            ],
+            "purple": [
+              "iech"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ihr"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dir"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-fahren": {
+      "lv": "fueren",
+      "study": {
+        "id": "a1-fahren",
+        "layout": "standardStudy",
+        "translation": "fueren",
+        "explanation": [
+          "Haaptiddi: fahren beschreift eng Beweegung mat engem Gefier.",
+          "Et kann och transitiv heeschen, een op eng Plaz ze féieren."
+        ],
+        "examples": [
+          {
+            "de": "Ich fahre nach Berlin.",
+            "lv": "Ech fueren op Berlin."
+          },
+          {
+            "de": "Ich fahre mit dem Auto.",
+            "lv": "Ech fuere mam Auto."
+          },
+          {
+            "de": "Ich fahre meine Tochter zur Schule.",
+            "lv": "Ech fuere meng Duechter an d'Schoul."
+          },
+          {
+            "de": "Ich fahre dich nach Hause.",
+            "lv": "Ech féieren dech heem."
+          },
+          {
+            "de": "Wir fahren morgen nach München.",
+            "lv": "Mir fuere muer op München."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "fahren",
+            "meaning": "Verglach mam Begrëff fahren.",
+            "example": "Ech fuer mam Bus."
+          },
+          {
+            "word": "gehen",
+            "meaning": "Verglach mam Begrëff gehen.",
+            "example": "Ech ginn heemgoen."
+          },
+          {
+            "word": "laufen",
+            "meaning": "Verglach mam Begrëff laufen.",
+            "example": "Hien laapt séier."
+          },
+          {
+            "word": "bringen",
+            "meaning": "Verglach mam Begrëff bringen.",
+            "example": "Ech bréngen d'Bréck."
+          },
+          {
+            "word": "mitnehmen",
+            "meaning": "Verglach mam Begrëff mitnehmen.",
+            "example": "Ech nemmen dech mat."
+          }
+        ],
+        "tip": {
+          "text": "Mat engem Gefier ënnerwee sinn → fahren / fueren."
+        },
+        "important": [
+          "fahren ass net dat selwecht wéi gehen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "fahren"
+            ],
+            "purple": [
+              "fueren"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-finden": {
+      "lv": "fannen • mengen",
+      "study": {
+        "id": "a1-finden",
+        "layout": "standardStudy",
+        "translation": "fannen • mengen",
+        "explanation": [
+          "Haaptiddi: finden heescht eppes entdecken oder eng Meenung hunn.",
+          "Op Lëtzebuergesch steet fannen; bei enger Meenung passt och mengen."
+        ],
+        "examples": [
+          {
+            "de": "Ich finde meinen Schlüssel.",
+            "lv": "Ech fanne mäi Schlëssel."
+          },
+          {
+            "de": "Ich finde das gut.",
+            "lv": "Ech fannen dat gutt."
+          },
+          {
+            "de": "Wie findest du den Film?",
+            "lv": "Wéi fënns du de Film?"
+          },
+          {
+            "de": "Wie findest du den Film?",
+            "lv": "Wat mengs du vum Film?"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "finden",
+            "meaning": "Verglach mam Begrëff finden.",
+            "example": "Ich finde das gut. = Ech fannen dat gutt."
+          },
+          {
+            "word": "suchen",
+            "meaning": "Verglach mam Begrëff suchen.",
+            "example": "Ich suche den Schlüssel. = Dat ass dat „wir\"., Hier waren wir nie! '"
+          },
+          {
+            "word": "denken",
+            "meaning": "Verglach mam Begrëff denken.",
+            "example": "Ich denke an dich. = Et ass domāju par tevi."
+          },
+          {
+            "word": "glauben",
+            "meaning": "Verglach mam Begrëff glauben.",
+            "example": "Ich glaube, er kommt. = Et ass domāju, ka việš nāks."
+          }
+        ],
+        "tip": {
+          "text": "Saach entdecken oder bewäerten → finden."
+        },
+        "important": [
+          "finden an suchen hunn ënnerschiddlech Bedeitungen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "finden"
+            ],
+            "purple": [
+              "fannen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wat"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-frau": {
+      "lv": "Fra",
+      "study": {
+        "id": "a1-frau",
+        "layout": "standardStudy",
+        "translation": "Fra",
+        "explanation": [
+          "Haaptiddi: die Frau heescht eng erwuesse weiblech Persoun oder Fra am Sënn vun Ehepartnerin.",
+          "Op Lëtzebuergesch steet Fra."
+        ],
+        "examples": [
+          {
+            "de": "Sie ist eine nette Frau.",
+            "lv": "Si ass eng léif Fra."
+          },
+          {
+            "de": "Das ist meine Frau.",
+            "lv": "Dat ass meng Fra."
+          },
+          {
+            "de": "Wie viele Frauen sind hier?",
+            "lv": "Wéi vill Frae sinn hei?"
+          },
+          {
+            "de": "Meine Frau arbeitet in Berlin.",
+            "lv": "Meng Fra schafft zu Berlin."
+          },
+          {
+            "de": "Die Frau trägt ein Kleid.",
+            "lv": "D’Fra huet e Kleed un."
+          },
+          {
+            "de": "Seine Frau ist Ärztin.",
+            "lv": "Seng Fra ass Doktesch."
+          }
+        ],
+        "tip": [
+          "die Frau → d’Fra."
+        ],
+        "important": [
+          "De Kontext weist, ob Persoun oder Ehepartnerin gemengt ass."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Frau"
+            ],
+            "purple": [
+              "Fra"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Si"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Meine"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Meng"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Die"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Fra"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Seine"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Seng"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-fuer": {
+      "lv": "fir",
+      "study": {
+        "id": "a1-fuer",
+        "layout": "standardStudy",
+        "translation": "fir",
+        "explanation": [
+          "Haaptiddi: für weist Bestëmmung, Zweck, Empfänger oder Géigewäert un.",
+          "Op Lëtzebuergesch entsprécht et fir."
+        ],
+        "examples": [
+          {
+            "de": "Das ist für dich.",
+            "lv": "Dat ass fir dech."
+          },
+          {
+            "de": "Danke für die Hilfe.",
+            "lv": "Merci fir d’Hëllef."
+          },
+          {
+            "de": "Ich kaufe ein Geschenk für meine Mutter.",
+            "lv": "Ech kafen e Kaddo fir meng Mamm."
+          },
+          {
+            "de": "Was bezahlst du für das Auto?",
+            "lv": "Wat bezils du fir den Auto?"
+          },
+          {
+            "de": "Das Buch ist für Kinder.",
+            "lv": "D’Buch ass fir Kanner."
+          },
+          {
+            "de": "Für heute ist das genug.",
+            "lv": "Fir haut geet dat duer."
+          }
+        ],
+        "tip": [
+          "Empfänger oder Zweck → für / fir."
+        ],
+        "important": [
+          "für verlaangt am Däitschen den Akkusativ."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "für"
+            ],
+            "purple": [
+              "fir"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Danke"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Merci"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Buch"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Für"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Fir"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-ganz-study": {
+      "lv": "ganz • komplett",
+      "study": {
+        "id": "a1-ganz-study",
+        "layout": "standardStudy",
+        "translation": "ganz • komplett",
+        "explanation": [
+          "Haaptiddi: ganz kann komplett, als Ganzt oder verstäerkend bedeiten.",
+          "Op Lëtzebuergesch steet ganz oder komplett."
+        ],
+        "examples": [
+          {
+            "de": "Ich arbeite den ganzen Tag.",
+            "lv": "Ech schaffen de ganzen Dag."
+          },
+          {
+            "de": "Das ganze Haus ist sauber.",
+            "lv": "Dat ganzt Haus ass propper."
+          },
+          {
+            "de": "Das ist ganz sicher.",
+            "lv": "Dat ass ganz sécher."
+          },
+          {
+            "de": "Das Essen ist ganz gut.",
+            "lv": "D’Iessen ass ganz gutt."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "ganz",
+            "meaning": "Verglach mam Begrëff ganz.",
+            "example": "der ganze Tag"
+          },
+          {
+            "word": "alles",
+            "meaning": "Verglach mam Begrëff alles.",
+            "example": "Alles ist gut."
+          }
+        ],
+        "tip": [
+          "Eppes als Ganzt → ganz."
+        ],
+        "important": [
+          "ganz kann Adjektiv oder Adverb sinn."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "ganz"
+            ],
+            "purple": [
+              "ganz"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Iessen"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-gefallen-study": {
+      "lv": "gefalen",
+      "study": {
+        "id": "a1-gefallen-study",
+        "layout": "standardStudy",
+        "translation": "gefalen",
+        "explanation": [
+          "Haaptiddi: gefallen bedeit, datt eppes engem eng positiv Wierkung mécht.",
+          "D’Persoun steet am Dativ."
+        ],
+        "examples": [
+          {
+            "de": "Das gefällt mir.",
+            "lv": "Dat gefält mir."
+          },
+          {
+            "de": "Gefällt dir das Kleid?",
+            "lv": "Gefält dir d’Kleed?"
+          },
+          {
+            "de": "Der Film gefällt uns.",
+            "lv": "De Film gefält eis."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "gefallen",
+            "meaning": "Verglach mam Begrëff gefallen.",
+            "example": "Das gefällt mir."
+          },
+          {
+            "word": "mögen",
+            "meaning": "Verglach mam Begrëff mögen.",
+            "example": "Ich mag das."
+          }
+        ],
+        "tip": [
+          "Eppes gefält enger Persoun."
+        ],
+        "important": [
+          "Bei gefallen ass d’Saach de Sujet an d’Persoun steet am Dativ."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "gefallen"
+            ],
+            "purple": [
+              "gefalen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Gefällt"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Gefält"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Der"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "De"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-gleich": {
+      "lv": "gläich • direkt",
+      "study": {
+        "id": "a1-gleich",
+        "layout": "standardStudy",
+        "translation": "gläich • direkt",
+        "explanation": [
+          "Haaptiddi: gleich kann direkt, gläich oder déiselwecht bedeiten.",
+          "De Kontext entscheet iwwer d’Bedeitung."
+        ],
+        "examples": [
+          {
+            "de": "Ich komme gleich.",
+            "lv": "Ech kommen direkt."
+          },
+          {
+            "de": "Wir haben die gleiche Farbe.",
+            "lv": "Mir hunn déi selwecht Faarf."
+          },
+          {
+            "de": "Das Essen ist gleich fertig.",
+            "lv": "D’Iessen ass gläich fäerdeg."
+          },
+          {
+            "de": "Beide Wege sind gleich lang.",
+            "lv": "Béid Weeër si gläich laang."
+          },
+          {
+            "de": "Bis gleich!",
+            "lv": "Bis gläich!"
+          },
+          {
+            "de": "Sie sind gleich groß.",
+            "lv": "Si si gläich grouss."
+          }
+        ],
+        "tip": [
+          "Zäit → direkt; Verglach → gläich."
+        ],
+        "important": [
+          "gleich huet eng Zäit- an eng Vergläichsbedeitung."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "gleich"
+            ],
+            "purple": [
+              "gläich"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Iessen"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Beide"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Béid"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Bis"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Bis"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Si"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-halten": {
+      "lv": "halen • stoppen",
+      "study": {
+        "id": "a1-halten",
+        "layout": "standardStudy",
+        "translation": "halen • stoppen",
+        "explanation": [
+          "Haaptiddi: halten kann eppes festhalen, stoppen oder eppes fir richteg halen bedeiten.",
+          "D’Bedeitung hänkt vun der Konstruktioun of."
+        ],
+        "examples": [
+          {
+            "de": "Ich halte die Tasche.",
+            "lv": "Ech halen d’Täsch."
+          },
+          {
+            "de": "Der Bus hält hier.",
+            "lv": "De Bus hält hei."
+          },
+          {
+            "de": "Bitte halten Sie an.",
+            "lv": "Wannechgelift, haalt un."
+          },
+          {
+            "de": "Ich halte das für richtig.",
+            "lv": "Ech halen dat fir richteg."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "halten",
+            "meaning": "Verglach mam Begrëff halten.",
+            "example": "Der Bus hält. = De Bus hält."
+          },
+          {
+            "word": "nehmen",
+            "meaning": "Verglach mam Begrëff nehmen.",
+            "example": "Ich nehme die Tasche. = Ech hunn de Bréck."
+          },
+          {
+            "word": "anhalten",
+            "meaning": "Verglach mam Begrëff anhalten.",
+            "example": "Bitte halten Sie an. = Wéi gelieft, halt."
+          },
+          {
+            "word": "denken",
+            "meaning": "Verglach mam Begrëff denken.",
+            "example": "Ich denke, das ist richtig. = Ech denken, dat ass richteg."
+          }
+        ],
+        "tip": {
+          "text": "Festhalen, stoppen oder bewäerten → halten."
+        },
+        "important": [
+          "halten, anhalten an für etwas halten musse getrennt verstane ginn."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "halten"
+            ],
+            "purple": [
+              "halen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Der"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "De"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Bitte"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wannechgelift,"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-heissen": {
+      "lv": "heeschen • bedeiten",
+      "study": {
+        "id": "a1-heißen",
+        "layout": "standardStudy",
+        "translation": "heeschen • bedeiten",
+        "explanation": [
+          "Haaptiddi: heißen bedeit en Numm hunn oder eng Bedeitung hunn.",
+          "Op Lëtzebuergesch steet heeschen."
+        ],
+        "examples": [
+          {
+            "de": "Ich heiße Anna.",
+            "lv": "Ech heeschen Anna."
+          },
+          {
+            "de": "Wie heißt du?",
+            "lv": "Wéi heeschs du?"
+          },
+          {
+            "de": "Wie heißt das auf Deutsch?",
+            "lv": "Wéi heescht dat op Däitsch?"
+          },
+          {
+            "de": "Was heißt das?",
+            "lv": "Wat heescht dat?"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "heißen",
+            "meaning": "Verglach mam Begrëff heißen.",
+            "example": "Ich heiße Anna. = Ech heissen Anna."
+          },
+          {
+            "word": "nennen",
+            "meaning": "Verglach mam Begrëff nennen.",
+            "example": "Er nennt mich Tom. = Hie nennt mech Tom."
+          },
+          {
+            "word": "bedeuten",
+            "meaning": "Verglach mam Begrëff bedeuten.",
+            "example": "Was bedeutet das? = Wat bedeit dat?"
+          },
+          {
+            "word": "rufen",
+            "meaning": "Verglach mam Begrëff rufen.",
+            "example": "Ich rufe dich. = Ech ruff dech."
+          },
+          {
+            "word": "anrufen",
+            "meaning": "Verglach mam Begrëff anrufen.",
+            "example": "Ich rufe dich an. = Ech ruff dech un."
+          }
+        ],
+        "tip": {
+          "text": "Numm oder Bedeitung → heißen / heeschen."
+        },
+        "important": [
+          "heißen ass net dat selwecht wéi nennen oder anrufen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "heißen"
+            ],
+            "purple": [
+              "heeschen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Was"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wat"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-hoeren-study": {
+      "lv": "héieren • nolauschteren",
+      "study": {
+        "id": "a1-hoeren-study",
+        "layout": "standardStudy",
+        "translation": "héieren • nolauschteren",
+        "explanation": [
+          "Haaptiddi: hören kann akustesch héieren oder bewosst nolauschteren bedeiten.",
+          "Op Lëtzebuergesch steet héieren oder nolauschteren."
+        ],
+        "examples": [
+          {
+            "de": "Ich höre Musik.",
+            "lv": "Ech lauschtere Musek."
+          },
+          {
+            "de": "Die Kinder hören eine Geschichte.",
+            "lv": "D’Kanner lauschteren eng Geschicht."
+          },
+          {
+            "de": "Ich höre dich.",
+            "lv": "Ech héieren dech."
+          }
+        ],
+        "tip": [
+          "Toun erkennen → héieren; bewosst lauschteren → nolauschteren."
+        ],
+        "important": [
+          "De Kontext entscheet tëscht héieren an nolauschteren."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "hören"
+            ],
+            "purple": [
+              "héieren"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Die"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Kanner"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "counts": {
+    "full_composites": 29,
+    "empty_composites": 0
+  }
+}

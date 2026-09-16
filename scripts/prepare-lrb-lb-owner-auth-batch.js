@@ -9,13 +9,22 @@ const { ROOT } = require("./lib/audit-common");
 const { loadCsv, buildCsv } = require("./lib/g2-a1-phase3/batch-001-csv");
 
 const BATCH = process.argv[2];
-const AFTER_IDX = parseInt(process.argv[3], 10);
+const SLICE_ARG = process.argv[3];
 const PREV_BATCH = process.argv[4];
 const LB_BATCH_NUM = parseInt(process.argv[5], 10);
+const MOPUP_MODE = SLICE_ARG === "mopup";
+const AFTER_IDX = MOPUP_MODE ? null : parseInt(SLICE_ARG, 10);
 
-if (!BATCH || !Number.isFinite(AFTER_IDX) || !PREV_BATCH || !Number.isFinite(LB_BATCH_NUM)) {
+if (
+  !BATCH ||
+  !SLICE_ARG ||
+  !PREV_BATCH ||
+  !Number.isFinite(LB_BATCH_NUM) ||
+  (!MOPUP_MODE && !Number.isFinite(AFTER_IDX))
+) {
   console.error(
-    "Usage: node scripts/prepare-lrb-lb-owner-auth-batch.js LRB-068 586 LRB-067 11"
+    "Usage: node scripts/prepare-lrb-lb-owner-auth-batch.js LRB-068 586 LRB-067 11\n" +
+      "       node scripts/prepare-lrb-lb-owner-auth-batch.js LRB-070 mopup LRB-069 13"
   );
   process.exit(1);
 }
@@ -36,34 +45,74 @@ const poolSha = crypto.createHash("sha256").update(poolRaw).digest("hex");
 const poolTmp = path.join(require("os").tmpdir(), "g2-a1-7737-pool.csv");
 fs.writeFileSync(poolTmp, poolRaw);
 const { rows, header } = loadCsv(poolTmp);
-const lb = rows
-  .filter((r) => r.languages === "lb")
-  .sort((a, b) => {
+function sortLbRows(list) {
+  return list.sort((a, b) => {
     const ia = parseInt((a.finding_stable_ids.match(/idx:(\d+)/) || [0, 0])[1], 10);
     const ib = parseInt((b.finding_stable_ids.match(/idx:(\d+)/) || [0, 0])[1], 10);
     return ia - ib || a.finding_stable_ids.localeCompare(b.finding_stable_ids);
-  })
-  .filter((r) => parseInt((r.finding_stable_ids.match(/idx:(\d+)/) || [0, 0])[1], 10) > AFTER_IDX);
-
-const batch = lb.slice(0, 50);
-if (batch.length === 0) {
-  throw new Error(`No LB rows after idx ${AFTER_IDX}`);
+  });
 }
-if (batch.length < 50 && lb.length > batch.length) {
-  throw new Error(
-    `Expected 50 LB rows after idx ${AFTER_IDX}, got ${batch.length} (${lb.length} available)`
+
+function loadPriorManifestIds(upToBatch) {
+  const priorManifestIds = new Set();
+  const prevNum = parseInt(upToBatch.replace("LRB-", ""), 10);
+  for (let n = 58; n <= prevNum; n += 1) {
+    const manifestPath = path.join(
+      ROOT,
+      `reports/g2-a1-owner/manifests/LRB-${String(n).padStart(3, "0")}-start.json`
+    );
+    if (!fs.existsSync(manifestPath)) continue;
+    const prior = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+    for (const id of prior.finding_stable_ids || []) priorManifestIds.add(id);
+  }
+  return priorManifestIds;
+}
+
+let lb;
+let batch;
+let mopupNoteSuffix = "";
+if (MOPUP_MODE) {
+  const priorManifestIds = loadPriorManifestIds(PREV_BATCH);
+  const allLb = sortLbRows(rows.filter((r) => r.languages === "lb"));
+  lb = allLb.filter((r) => !priorManifestIds.has(r.finding_stable_ids));
+  batch = lb.slice(0, 50);
+  if (batch.length === 0) {
+    throw new Error(`No remaining LB rows for mop-up after ${PREV_BATCH}`);
+  }
+  if (batch.length < 50 && lb.length > batch.length) {
+    throw new Error(
+      `Expected 50 LB mop-up rows, got ${batch.length} (${lb.length} remaining in pool)`
+    );
+  }
+  const fromCard = batch[0].card_object_id.split("|")[0];
+  const toCard = batch[batch.length - 1].card_object_id.split("|")[0];
+  mopupNoteSuffix = ` (non-idx mop-up): ${fromCard}..${toCard}`;
+} else {
+  lb = sortLbRows(rows.filter((r) => r.languages === "lb")).filter(
+    (r) => parseInt((r.finding_stable_ids.match(/idx:(\d+)/) || [0, 0])[1], 10) > AFTER_IDX
   );
+  batch = lb.slice(0, 50);
+  if (batch.length === 0) {
+    throw new Error(`No LB rows after idx ${AFTER_IDX}`);
+  }
+  if (batch.length < 50 && lb.length > batch.length) {
+    throw new Error(
+      `Expected 50 LB rows after idx ${AFTER_IDX}, got ${batch.length} (${lb.length} available)`
+    );
+  }
 }
 
 const rowCount = batch.length;
 const uniqueCards = new Set(batch.map((r) => r.card_object_id.split("|")[0]));
-if (uniqueCards.size !== rowCount) {
+if (!MOPUP_MODE && uniqueCards.size !== rowCount) {
   throw new Error(`Expected ${rowCount} unique cards, got ${uniqueCards.size}`);
 }
 
 const fromDe = batch[0].de_reference;
 const toDe = batch[rowCount - 1].de_reference;
-const scopeLabel = `${fromDe}..${toDe}`;
+const fromCardKey = batch[0].card_object_id.split("|")[0];
+const toCardKey = batch[batch.length - 1].card_object_id.split("|")[0];
+const scopeLabel = MOPUP_MODE ? `${fromCardKey}..${toCardKey}` : `${fromDe}..${toDe}`;
 const authorizedAt = new Date().toISOString();
 
 const inputRel = `reports/g2-a1-owner/batches-pending/${BATCH}-input.csv`;
@@ -86,7 +135,9 @@ const manifest = {
   owner_authorization_status: "APPROVED",
   source_pool_sha256: poolSha,
   source_file: POOL_REL,
-  note: `LB batch ${LB_BATCH_NUM}: ${scopeLabel} (${rowCount} LB rows by idx, continuing after ${PREV_BATCH})`,
+  note: MOPUP_MODE
+    ? `LB batch ${LB_BATCH_NUM}${mopupNoteSuffix} (${rowCount} LB rows, ${uniqueCards.size} unique cards, continuing after ${PREV_BATCH})`
+    : `LB batch ${LB_BATCH_NUM}: ${scopeLabel} (${rowCount} LB rows by idx, continuing after ${PREV_BATCH})`,
 };
 
 const manifestRel = `reports/g2-a1-owner/manifests/${BATCH}-start.json`;
@@ -97,17 +148,7 @@ fs.writeFileSync(manifestAbs, manifestBody);
 
 const allLb = rows.filter((r) => r.languages === "lb");
 const usedInBatch = new Set(batch.map((r) => r.finding_stable_ids));
-const priorManifestIds = new Set();
-const prevNum = parseInt(PREV_BATCH.replace("LRB-", ""), 10);
-for (let n = 58; n <= prevNum; n += 1) {
-  const manifestPath = path.join(
-    ROOT,
-    `reports/g2-a1-owner/manifests/LRB-${String(n).padStart(3, "0")}-start.json`
-  );
-  if (!fs.existsSync(manifestPath)) continue;
-  const prior = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
-  for (const id of prior.finding_stable_ids || []) priorManifestIds.add(id);
-}
+const priorManifestIds = loadPriorManifestIds(PREV_BATCH);
 const remainingLb = allLb.filter(
   (r) => !priorManifestIds.has(r.finding_stable_ids) && !usedInBatch.has(r.finding_stable_ids)
 ).length;
@@ -119,8 +160,8 @@ const authProof = {
   linguisticVerdict: "PENDING_LINGUISTIC_REVIEW",
   row_count: rowCount,
   languages: { lb: rowCount },
-  unique_cards: rowCount,
-  scope: `${scopeLabel} (${rowCount} LB rows, ${rowCount} unique cards) — GPT-5.6 Luna FULL_50_50 review pending`,
+  unique_cards: uniqueCards.size,
+  scope: `${scopeLabel} (${rowCount} LB rows, ${uniqueCards.size} unique cards) — GPT-5.6 Luna FULL_50_50 review pending`,
   productionSource: "data/lb/a1.js",
   input_csv_sha256: inputSha,
   manifestPath: manifestRel,

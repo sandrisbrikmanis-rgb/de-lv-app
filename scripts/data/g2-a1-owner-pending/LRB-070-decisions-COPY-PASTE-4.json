@@ -1,0 +1,755 @@
+{
+  "batch_id": "LRB-070",
+  "correction": 4,
+  "correction_round": 4,
+  "classification": "LRB_070_COPY_PASTE_CORRECTION_4_OWNER_VALUES_READY",
+  "reason": "Independent Gala re-review found DE source-array mismatches in bringen, es and finden, plus incomplete teaching semantics in aufs, Besuch and Frau. Apply these six complete composites literally.",
+  "base_correction_3_sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599",
+  "instructions": {
+    "mode": "COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+    "de_source": "DO_NOT_CHANGE",
+    "cursor_action": "REPLACE_THE_SIX_LISTED_FULL_COMPOSITES_LITERAL_ONLY_AND_REBUILD_OWNER_ARTIFACTS",
+    "gala_pass": "DO_NOT_RECORD"
+  },
+  "labot_full_composite": {
+    "a1-aufs": {
+      "lv": "op den • op d’",
+      "study": {
+        "id": "a1-aufs",
+        "layout": "standardStudy",
+        "translation": "op den • op d’",
+        "explanation": [
+          "Kärpunkt: aufs ass déi zesummegezunne Form vun auf das.",
+          "Déi voll Form ass auf das a beäntwert bei enger Beweegung d’Fro wouhin.",
+          "Et weist eng Beweegung op eng bestëmmte Plaz oder Uewerfläch.",
+          "Et steet dacks bei Verbe wéi goen, sech setzen, leeën, sprangen oder fueren.",
+          "An der Alldagssprooch gëtt auf das dacks zu aufs zesummegezunn; déi voll Form bleift grammatesch richteg."
+        ],
+        "examples": [
+          {
+            "de": "Ich gehe aufs Dach.",
+            "lv": "Ech ginn op den Daach."
+          },
+          {
+            "de": "Sie setzt sich aufs Sofa.",
+            "lv": "Si setzt sech op de Canapé."
+          },
+          {
+            "de": "Wir fahren aufs Land.",
+            "lv": "Mir fueren op d’Land."
+          },
+          {
+            "de": "Stell die Tasche aufs Bett.",
+            "lv": "Stell d’Täsch op d’Bett."
+          },
+          {
+            "de": "Er springt aufs Pferd.",
+            "lv": "Hie spréngt op d’Päerd."
+          },
+          {
+            "de": "Leg das Buch aufs Regal.",
+            "lv": "Lee d’Buch op d’Regal."
+          },
+          {
+            "de": "Komm schnell aufs Boot!",
+            "lv": "Komm séier op d’Boot!"
+          },
+          {
+            "de": "Wir gehen aufs Fest.",
+            "lv": "Mir ginn op d’Fest."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "aufs",
+            "meaning": "Zesummenzéiung vun auf das.",
+            "example": "aufs Dach"
+          },
+          {
+            "word": "auf",
+            "meaning": "Präpositioun ouni Zesummenzéiung.",
+            "example": "auf den Tisch"
+          },
+          {
+            "word": "an",
+            "meaning": "Beweegung un eng Grenz oder vertikal Fläch.",
+            "example": "an die Wand"
+          },
+          {
+            "word": "ins",
+            "meaning": "Zesummenzéiung vun in das; Beweegung no bannen.",
+            "example": "ins Zimmer"
+          },
+          {
+            "word": "zum",
+            "meaning": "Zesummenzéiung vun zu dem; Beweegung bei eng Persoun oder Plaz.",
+            "example": "zum Arzt"
+          }
+        ],
+        "tip": [
+          "auf + das → aufs bei enger Beweegung wouhin.",
+          "An der Alldagssprooch gëtt auf das dacks zu aufs zesummegezunn."
+        ],
+        "important": [
+          "aufs = auf das a steet mat engem Neutrum am Akkusativ.",
+          "Et bezeechent eng Beweegung op eng bestëmmte Plaz oder Uewerfläch.",
+          "Bei engem maskulinen Akkusativ steet dacks auf den, net aufs.",
+          "Net mat an fir eng vertikal Fläch oder ins fir eng Beweegung no banne verwiesselen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "aufs"
+            ],
+            "purple": [
+              "op den"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Si"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Stell"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Stell"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Er"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Hie"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Leg"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Lee"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Komm"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Komm"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wir"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Mir"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-besuch": {
+      "lv": "Besuch • Visitt",
+      "study": {
+        "id": "a1-besuch",
+        "layout": "standardStudy",
+        "translation": "Besuch • Visitt",
+        "explanation": [
+          "Kärpunkt: der Besuch bezeechent e Besuch, eng Visitt oder d’Besiche vun enger Plaz.",
+          "Bei enger Plaz oder Manifestatioun geet et ëm d’Besiche vun där Plaz oder Manifestatioun.",
+          "Bei enger Persoun kann et e Besuch oder eng Visitt sinn.",
+          "D’Méizuel ass die Besuche."
+        ],
+        "examples": [
+          {
+            "de": "Der Besuch im Museum war interessant.",
+            "lv": "De Besuch am Musée war interessant."
+          },
+          {
+            "de": "Danke für deinen Besuch.",
+            "lv": "Merci fir däi Besuch."
+          },
+          {
+            "de": "Der Arzt macht einen Besuch.",
+            "lv": "Den Dokter mécht eng Visitt."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "der Besuch",
+            "meaning": "D'Visitt oder d'Kommt vun enger Persoun.",
+            "example": "Danke für deinen Besuch."
+          },
+          {
+            "word": "der Besucher",
+            "meaning": "D'Persoun, déi eng Plaz besicht.",
+            "example": "Der Besucher wartet draußen."
+          },
+          {
+            "word": "besuchen",
+            "meaning": "D'Verb fir bei eng Persoun, Plaz oder Manifestatioun ze goen.",
+            "example": "Ich besuche meine Großeltern."
+          }
+        ],
+        "tip": {
+          "text": "Substantiv: der Besuch."
+        },
+        "important": [
+          "der Besuch kann e Besuch bei enger Persoun oder d’Besiche vun enger Plaz bedeiten.",
+          "D’Méizuel ass die Besuche."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Besuch"
+            ],
+            "purple": [
+              "Besuch"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Der"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "De"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Danke"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Merci"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Der"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Den"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-bringen": {
+      "lv": "bréngen",
+      "study": {
+        "id": "a1-bringen",
+        "layout": "standardStudy",
+        "translation": "bréngen",
+        "explanation": [
+          "Kärpunkt: bringen bedeit, eppes oder een bei eng aner Persoun oder op eng bestëmmte Plaz ze transportéieren.",
+          "Op Lëtzebuergesch steet dofir meeschtens bréngen.",
+          "Je no Kontext kann et heeschen, eppes bei een ze bréngen.",
+          "Et kann och heeschen, eppes oder een op eng aner Plaz ze bréngen.",
+          "De konkrete Kontext bestëmmt d’Richtung an d’Zil."
+        ],
+        "examples": [
+          {
+            "de": "Ich bringe dir ein Buch.",
+            "lv": "Ech bréngen dir e Buch."
+          },
+          {
+            "de": "Ich bringe das Paket zur Post.",
+            "lv": "Ech bréngen de Pak op d’Post."
+          },
+          {
+            "de": "Ich bringe die Kinder zur Schule.",
+            "lv": "Ech bréngen d’Kanner an d'Schoul."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "bringen",
+            "meaning": "Eppes bei eng Persoun bréngen.",
+            "example": "Ich bringe dir ein Buch."
+          },
+          {
+            "word": "bringen",
+            "meaning": "Eppes op eng bestëmmte Plaz bréngen.",
+            "example": "Ich bringe das Paket zur Post."
+          },
+          {
+            "word": "bringen",
+            "meaning": "Eng Persoun op eng bestëmmte Plaz bréngen.",
+            "example": "Ich bringe die Kinder zur Schule."
+          },
+          {
+            "word": "bringen",
+            "meaning": "Eppes transportéieren oder ofliwweren.",
+            "example": "Ich bringe dir ein Buch."
+          },
+          {
+            "word": "nehmen",
+            "meaning": "Eppes huelen, net op en Zil bréngen.",
+            "example": "Ich nehme das Buch."
+          }
+        ],
+        "tip": {
+          "text": "Eppes op eng Plaz transportéieren → bringen."
+        },
+        "important": [
+          "nehmen bedeit huelen.",
+          "bringen bedeit eppes oder een op en Zil bréngen.",
+          "Déi genee Bedeitung gëtt vum Kontext bestëmmt."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "bringen"
+            ],
+            "purple": [
+              "bréngen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-es": {
+      "lv": "et",
+      "study": {
+        "id": "a1-es",
+        "layout": "standardStudy",
+        "translation": "et",
+        "explanation": [
+          "Kärpunkt: es ass e Pronomen a gëtt och an onperséinleche Sätz benotzt.",
+          "Op Lëtzebuergesch entsprécht et meeschtens et."
+        ],
+        "examples": [
+          {
+            "de": "Es regnet.",
+            "lv": "Et reent."
+          },
+          {
+            "de": "Es ist kalt.",
+            "lv": "Et ass kal."
+          },
+          {
+            "de": "Das Kind schläft.",
+            "lv": "D’Kand schléift."
+          },
+          {
+            "de": "Es ist müde.",
+            "lv": "Et ass midd."
+          }
+        ],
+        "comparison": [
+          {
+            "word": "es",
+            "meaning": "Pronomen oder formellt Sujet an onperséinleche Sätz.",
+            "example": "Es regnet."
+          },
+          {
+            "word": "ich",
+            "meaning": "Perséinlecht Pronomen fir de Spriecher.",
+            "example": "Ich lerne Deutsch."
+          }
+        ],
+        "tip": {
+          "text": "Däitscht es entsprécht dacks Lëtzebuergesch et; Lëtzebuergesch ech entsprécht Däitsch ich."
+        },
+        "important": [
+          "Däitscht ich an es sinn net dat selwecht.",
+          "Däitscht es ass net Lëtzebuergesch ech.",
+          "Däitscht es bedeit dacks et oder bleift an engem onperséinleche Saz ouni direkt Iwwersetzung."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "es"
+            ],
+            "purple": [
+              "et"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Es"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Et"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Es"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Et"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Kand"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Es"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Et"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-finden": {
+      "lv": "fannen • mengen",
+      "study": {
+        "id": "a1-finden",
+        "layout": "standardStudy",
+        "translation": "fannen • mengen",
+        "explanation": [
+          "Kärpunkt: finden heescht eppes entdecken oder eng Meenung hunn.",
+          "Op Lëtzebuergesch steet fannen; bei enger Meenung passt och mengen."
+        ],
+        "examples": [
+          {
+            "de": "Ich finde meinen Schlüssel.",
+            "lv": "Ech fanne mäi Schlëssel."
+          },
+          {
+            "de": "Ich finde das gut.",
+            "lv": "Ech fannen dat gutt."
+          },
+          {
+            "de": "Wie findest du den Film?",
+            "lv": "Wéi fënns du de Film?"
+          }
+        ],
+        "comparison": [
+          {
+            "word": "finden",
+            "meaning": "Eppes fannen oder eng Meenung ausdrécken.",
+            "example": "Ich finde das gut."
+          }
+        ],
+        "tip": {
+          "text": "Bei enger verluerener Saach heescht finden fannen; bei enger Meenung heescht ich finde... esou vill wéi ech fannen oder ech mengen."
+        },
+        "important": [
+          "finden bedeit net nëmme fannen.",
+          "Ich finde das gut dréckt eng Meenung aus an heescht Ech fannen dat gutt."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "finden"
+            ],
+            "purple": [
+              "fannen"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Ich"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Ech"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "a1-frau": {
+      "lv": "Fra",
+      "study": {
+        "id": "a1-frau",
+        "layout": "standardStudy",
+        "translation": "Fra",
+        "explanation": [
+          "Kärpunkt: die Frau kann eng erwuesse weiblech Persoun oder d’Ehefra bedeiten.",
+          "Bei enger Persoun allgemeng bedeit die Frau Fra.",
+          "Bei enger bestuetener Partnerin bedeit die Frau Ehefra.",
+          "Mat engem Possessivartikel wéi meine, deine oder seine Frau ass bal ëmmer d’Ehefra gemengt.",
+          "D’Méizuel ass die Frauen.",
+          "der Mann huet déi selwecht duebel Bedeitung: Mann als Persoun an Ehemann."
+        ],
+        "examples": [
+          {
+            "de": "Sie ist eine nette Frau.",
+            "lv": "Si ass eng léif Fra."
+          },
+          {
+            "de": "Das ist meine Frau.",
+            "lv": "Dat ass meng Fra."
+          },
+          {
+            "de": "Wie viele Frauen sind hier?",
+            "lv": "Wéi vill Frae sinn hei?"
+          },
+          {
+            "de": "Meine Frau arbeitet in Berlin.",
+            "lv": "Meng Fra schafft zu Berlin."
+          },
+          {
+            "de": "Die Frau trägt ein Kleid.",
+            "lv": "D’Fra huet e Kleed un."
+          },
+          {
+            "de": "Seine Frau ist Ärztin.",
+            "lv": "Seng Fra ass Doktesch."
+          }
+        ],
+        "tip": [
+          "Mat engem Possessivartikel wéi meine, deine oder seine Frau ass bal ëmmer d’Ehefra gemengt.",
+          "Ouni Possessivartikel bezeechent die Frau oder eine Frau meeschtens eng Fra allgemeng."
+        ],
+        "important": [
+          "die Frau kann Fra oder Ehefra bedeiten; de Kontext entscheet.",
+          "meine Frau bedeit meng Fra am Sënn vun Ehefra.",
+          "D’Méizuel ass die Frauen."
+        ],
+        "sectionAccents": {
+          "explanation": {
+            "blue": [
+              "Frau"
+            ],
+            "purple": [
+              "Fra"
+            ]
+          },
+          "examples": [
+            {
+              "de": {
+                "blue": [
+                  "Sie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Si"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Das"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Dat"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Wie"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Wéi"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Meine"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Meng"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Die"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "D’Fra"
+                ]
+              }
+            },
+            {
+              "de": {
+                "blue": [
+                  "Seine"
+                ]
+              },
+              "lv": {
+                "purple": [
+                  "Seng"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
