@@ -1,9 +1,9 @@
 {
   "batchId": "LRB-073",
-  "sourceCommit": "2c26b6d8e1ccb57208136d7556eb277d775b2c67",
+  "sourceCommit": "bc5eee231caf0dfbae4803c622b6b7970cc24425",
   "reviewer": "OWNER_COPY_PASTE",
   "reviewType": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
-  "copyPasteSpecSha256": "b8e3419fd6ab3de7f5f669c357446801f54d71102e9b8a30ba45b6415cb0a01d",
+  "copyPasteSpecSha256": "251967ec009ba2a4d03d2ca491909131d93cb31f5f43c9ef5c93b058cac39912",
   "cards": [
     {
       "auditId": "LRB073-0001",
@@ -1605,14 +1605,14 @@
       "reason": "PENDING — On nl card Uhr|idx:698, the finding spans study; the captured production value begins “{\"study.translation\":\"Pulkstenis\",\"study.explanation\":\"[\\\"Hoofdidee: Klok of horloge. Ook het uur aanduiden: Es ist acht Uhr.\\\",\\\"Die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.\\\",\\…”. Review the listed subfields separately against Latvian “pulkstenis” / German “Uhr” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "Uhr",
-        "lv": "klok • uur",
+        "lv": "klok • horloge • uur",
         "level": "A1",
         "de_article": "die",
         "de_plural": "die Uhren",
         "study": {
           "id": "a1-uhr",
           "layout": "standardStudy",
-          "translation": "klok • uur",
+          "translation": "klok • horloge • uur",
           "explanation": [
             "Hoofdidee: klok of horloge; ook voor de aanduiding van het uur, zoals Es ist acht Uhr.",
             "die Uhr betekent een klok of horloge, of een tijdstip op de klok.",
@@ -1780,7 +1780,7 @@
             },
             {
               "word": "auf",
-              "meaning": "Uz virsmas",
+              "meaning": "op een oppervlak",
               "example": "Auf dem Tisch."
             }
           ],
@@ -1829,7 +1829,7 @@
             },
             {
               "de": "Wir machen Urlaub in Spanien.",
-              "lv": "Wij vieren vakantie in Spanje."
+              "lv": "Wij gaan op vakantie in Spanje."
             },
             {
               "de": "im Urlaub",
@@ -1947,7 +1947,7 @@
             "vom is de samentrekking van het voorzetsel von en het lidwoord dem.",
             "De volledige vorm is von dem.",
             "Je gebruikt het bij mannelijke en onzijdige zelfstandige naamwoorden om herkomst of beweging vanaf iets aan te geven.",
-            "Het antwoordt vaak op de vraag: waarvan of waarvandaan?",
+            "Het beantwoordt vragen als: waarvan? of waarvandaan?",
             "In de praktijk gebruikt men bijna altijd vom in plaats van von dem."
           ],
           "examples": [
@@ -2038,9 +2038,9 @@
           "layout": "standardStudy",
           "translation": "vóór • voor",
           "explanation": [
-            "Hoofdidee: vor betekent voor in tijd of ervoor in plaats.",
+            "Hoofdidee: vor betekent vóór in de tijd of voor iets in de ruimte.",
             "Als het gaat om tijd, betekent vor voor/vóór.",
-            "Als het gaat om plaats, betekent vor ervoor of bij.",
+            "Bij een plaats betekent vor vóór of voor iets.",
             "Met de kloktijaanduiding betekent vor \"tot\", bijvoorbeeld vijf voor acht."
           ],
           "examples": [
@@ -2117,7 +2117,7 @@
           "examples": [
             {
               "de": "Was ist das?",
-              "lv": "Wat is het?"
+              "lv": "Wat is dat?"
             },
             {
               "de": "Was ist passiert?",
@@ -2279,7 +2279,7 @@
           ],
           "tip": [
             "wer vraagt naar personen (wie) — voor dingen en gebeurtenissen gebruik je was.",
-            "Om te vragen wie uit meerdere personen te kiezen, gebruik je wer von... (wie van...)."
+            "Om te vragen welke persoon uit een groep bedoeld wordt, gebruik je wer von... (wie van...)."
           ],
           "important": [
             "wer vraagt alleen naar personen, nooit naar dingen.",
@@ -2388,7 +2388,7 @@
             }
           ],
           "tip": [
-            "Tijd als concept — moment, kans, tijdsperiode.",
+            "Tijd als begrip — moment, beschikbare tijd of tijdsperiode.",
             "Gebruik die Zeit wanneer de context bij deze betekenis past."
           ],
           "important": [
@@ -2965,5 +2965,5 @@
       }
     }
   ],
-  "correctionRound": 3
+  "correctionRound": 4
 }
