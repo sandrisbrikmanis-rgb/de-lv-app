@@ -1,7 +1,7 @@
 {
   "batch_id": "LRB-070",
-  "generatedAt": "2026-09-16T16:42:54.164Z",
-  "sourceCommit": "9d64451b7ab6ccc4eb2e3bbfaa27ba362c2f2764",
+  "generatedAt": "2026-09-16T16:49:49.480Z",
+  "sourceCommit": "97d01993dc5d2a0519225c686b76fe2373a2bf4c",
   "direction": "LV_SOURCE_GLOSS_TO_DE_MASTER",
   "rowCount": 50,
   "uniqueCards": 29,

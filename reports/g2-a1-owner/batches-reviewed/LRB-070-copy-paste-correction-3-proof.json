@@ -1,0 +1,32 @@
+{
+  "batch_id": "LRB-070",
+  "classification": "LRB_070_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
+  "status": "AWAITING_GALA_VERDICT",
+  "copy_paste_correction_3": "COPY_PASTE_CORRECTION_3_APPLIED",
+  "paste_sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599",
+  "base_correction_2_sha256": "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2",
+  "decisions_sha256": "570e5ee77ff0ca7287bea7a5ac051ea75941c56afc18ad9215d915ca0699c33a",
+  "decisions_csv_sha256": "c0ae09a8de94f337da3bbc7df2df915488dcc3e8c3b3c55dbf9805209da14192",
+  "anti_bulk_output_sha256": "c0ae09a8de94f337da3bbc7df2df915488dcc3e8c3b3c55dbf9805209da14192",
+  "labot_full_composite_cards": 29,
+  "null_composites": 0,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "unique_cards": 29,
+  "residual_audit_pass": true,
+  "pdf_reaudit_pass": true,
+  "anti_bulk_pass": true,
+  "gates": {
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "gala_pass_recorded": false,
+  "linguistically_closed": false,
+  "apply_command": "node scripts/build-lrb070-correction-3-artifacts.js",
+  "builder_fix": "nested study object in labot_full_composite applied literally (full_card_target_fields)",
+  "updatedAt": "2026-09-16T16:50:00.000Z"
+}

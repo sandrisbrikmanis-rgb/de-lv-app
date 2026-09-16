@@ -1861,13 +1861,13 @@
       "LRB-070": {
         "verdict": "PENDING_LINGUISTIC_REVIEW",
         "status": "AWAITING_GALA_VERDICT",
-        "classification": "LRB_070_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+        "classification": "LRB_070_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
         "labot": 50,
         "nelabot": 0,
         "pending": 0,
         "antiBulkPass": true,
         "residualAuditPass": true,
-        "pdfReauditPass": false,
+        "pdfReauditPass": true,
         "ownerAuthorization": "APPROVED",
         "reviewer": "pending-gpt-5.6-luna",
         "languages": {
@@ -1883,17 +1883,18 @@
         "residualProof": "reports/g2-a1-owner/batches-reviewed/LRB-070-residual-wrong-language-proof.json",
         "ownerAuthResidualProof": "reports/g2-a1-owner/batches-reviewed/LRB-070-owner-auth-residual-proof.json",
         "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-070-gala-cards.json",
-        "pasteRepairs": "OWNER COPY-PASTE-2 full_card_target_fields (29/29 labot_full_composite, 50 LABOT rows)",
+        "pasteRepairs": "OWNER COPY-PASTE-3 full_card_target_fields (29/29 labot_full_composite, 50 LABOT rows)",
         "pasteSha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9",
-        "decisionsSha256": "63384ef1e8f4dd51133092cfa5a6906de1a91c04d0bf753fdcf974b21aedd3ad",
+        "decisionsSha256": "570e5ee77ff0ca7287bea7a5ac051ea75941c56afc18ad9215d915ca0699c33a",
         "copyPasteStep1Complete": true,
         "copyPasteCorrection2": "COPY_PASTE_CORRECTION_2_APPLIED",
         "copyPasteCorrection2Sha256": "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2",
-        "fullCardCorrectionRequiredSha256": "d5bdad2bf1d12d4053adbc4861558af76284ec411f7093f9afbefdb244a234eb",
-        "copyPasteCorrection2Proof": "reports/g2-a1-owner/batches-reviewed/LRB-070-copy-paste-correction-2-proof.json",
+        "copyPasteCorrection3": "COPY_PASTE_CORRECTION_3_APPLIED",
+        "copyPasteCorrection3Sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599",
+        "copyPasteCorrection3Proof": "reports/g2-a1-owner/batches-reviewed/LRB-070-copy-paste-correction-3-proof.json",
         "galaPassRecorded": false,
         "linguisticallyClosed": false,
-        "note": "Correction 2 literal OWNER paste applied. Strict PDF reaudit: LV_LEAK_IN_LB on 24/29 merged cards (heuristic). No GALA PASS."
+        "note": "Correction 3 literal OWNER paste; residual/PDF/anti-bulk PASS. No GALA PASS."
       }
     },
     "lastBatch": {
@@ -1903,12 +1904,12 @@
       "pending": 0,
       "antiBulkPass": true,
       "residualAuditPass": true,
-      "pdfReauditPass": false,
+      "pdfReauditPass": true,
       "ownerAuthorization": "APPROVED",
       "reviewer": "pending-gpt-5.6-luna",
       "linguisticVerdict": "PENDING_LINGUISTIC_REVIEW",
       "status": "AWAITING_GALA_VERDICT",
-      "classification": "LRB_070_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+      "classification": "LRB_070_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
       "rowCount": 50,
       "uniqueCards": 29,
       "decisions": "reports/g2-a1-owner/batches-reviewed/LRB-070-decisions.csv",
@@ -1919,9 +1920,10 @@
       "galaCards": "reports/g2-a1-owner/batches-reviewed/LRB-070-gala-cards.json",
       "pasteSha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9",
       "copyPasteCorrection2Sha256": "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2",
-      "decisionsSha256": "63384ef1e8f4dd51133092cfa5a6906de1a91c04d0bf753fdcf974b21aedd3ad",
-      "pdfReauditPass": false,
-      "copyPasteCorrection2Proof": "reports/g2-a1-owner/batches-reviewed/LRB-070-copy-paste-correction-2-proof.json"
+      "copyPasteCorrection3Sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599",
+      "decisionsSha256": "570e5ee77ff0ca7287bea7a5ac051ea75941c56afc18ad9215d915ca0699c33a",
+      "pdfReauditPass": true,
+      "copyPasteCorrection3Proof": "reports/g2-a1-owner/batches-reviewed/LRB-070-copy-paste-correction-3-proof.json"
     }
   },
   "consolidatedIngestStatus": "NOT_STARTED",

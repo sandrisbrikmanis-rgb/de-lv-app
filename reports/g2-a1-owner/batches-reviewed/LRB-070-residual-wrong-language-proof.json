@@ -1,11 +1,11 @@
 {
   "batch_id": "LRB-070",
-  "classification": "LRB_070_OWNER_PREP_BLOCKED",
+  "classification": "LRB_070_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
   "pdf_reaudit": true,
   "post_repair_merge": true,
   "paste_source": "gpt-5.6-luna-copy-paste",
   "recalculated_from_production": true,
-  "pass": false,
+  "pass": true,
   "row_count": 50,
   "labot": 50,
   "nelabot": 0,
@@ -19,12 +19,12 @@
     "NELABOT": 0,
     "LB_ROWS": "50/50",
     "UNIQUE_CARDS": "29/29",
-    "wrong_language_residue": 24,
+    "wrong_language_residue": 0,
     "semantic_alignment_violations": 0,
-    "merged_card_failures": 24,
+    "merged_card_failures": 0,
     "section_accent_mismatches": 0,
     "section_accent_semantic_violations": 0,
-    "full_composite_completeness": "FAIL",
+    "full_composite_completeness": "PASS",
     "anti_bulk": "PASS"
   },
   "productionSource": "data/fi/a1.js",
@@ -62,248 +62,7 @@
     "lb:a1-heissen",
     "lb:a1-hoeren-study"
   ],
-  "failures": [
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-ab",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-aber",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-an",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-aus",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-besuch",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-besuchen",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-bringen",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-da",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-das",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-dass",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-ein",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-einmal",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-eis",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-erst",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-es",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-etwas",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-fahren",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-finden",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-frau",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-fuer",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-gleich",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-halten",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-heissen",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    },
-    {
-      "type": "MERGED_CARD_FAIL",
-      "card": "a1-hoeren-study",
-      "lang": "lb",
-      "failures": [
-        {
-          "type": "LV_LEAK_IN_LB"
-        }
-      ]
-    }
-  ],
-  "verdict": "LRB_070_OWNER_PREP_BLOCKED",
-  "updatedAt": "2026-09-16T16:42:24.560Z"
+  "failures": [],
+  "verdict": "LRB_070_OWNER_PREP_READY_FOR_LINGUISTIC_REVIEW",
+  "updatedAt": "2026-09-16T16:49:44.130Z"
 }

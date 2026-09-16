@@ -152,6 +152,13 @@ function applyPatches(nested, composite) {
   const out = JSON.parse(JSON.stringify(nested));
   for (const [p, value] of Object.entries(composite)) {
     const parsedValue = parseMaybeJson(value);
+    if (p === "study" && parsedValue && typeof parsedValue === "object" && !Array.isArray(parsedValue)) {
+      out.study = JSON.parse(JSON.stringify(parsedValue));
+      if (out.lv == null && out.study?.translation != null) {
+        out.lv = out.study.translation;
+      }
+      continue;
+    }
     if (p === "lv") {
       out.lv = parsedValue;
       continue;

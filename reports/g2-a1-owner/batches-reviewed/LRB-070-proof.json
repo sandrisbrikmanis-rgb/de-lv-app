@@ -7,7 +7,8 @@
   "provenance_individual_count": 50,
   "unique_cards": 29,
   "classification": "G2_A1_PENDING_BATCH_REVIEW_COMPLETE",
-  "paste_sha256": "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2",
-  "correction_round": 2,
-  "base_mapping_sha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9"
+  "paste_sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599",
+  "correction_round": 3,
+  "base_mapping_sha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9",
+  "base_correction_2_sha256": "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2"
 }

@@ -26,6 +26,8 @@ const REQUIRED_FINDINGS_PATH = path.join(
 );
 const EXPECTED_REQUIRED_SHA =
   "d5bdad2bf1d12d4053adbc4861558af76284ec411f7093f9afbefdb244a234eb";
+const EXPECTED_CORRECTION_2_SHA =
+  "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2";
 
 const LB_CARD_ALIASES = {
   "a1-heissen": "a1-heißen",
@@ -95,6 +97,13 @@ function applyPatches(nested, composite) {
   const out = JSON.parse(JSON.stringify(nested));
   for (const [p, value] of Object.entries(composite)) {
     const parsedValue = parseMaybeJson(value);
+    if (p === "study" && parsedValue && typeof parsedValue === "object" && !Array.isArray(parsedValue)) {
+      out.study = JSON.parse(JSON.stringify(parsedValue));
+      if (out.lv == null && out.study?.translation != null) {
+        out.lv = out.study.translation;
+      }
+      continue;
+    }
     if (p === "lv") {
       out.lv = parsedValue;
       continue;
@@ -157,8 +166,19 @@ function main() {
   const pasteRaw = fs.readFileSync(PASTE_PATH, "utf8");
   const pasteSha = crypto.createHash("sha256").update(pasteRaw).digest("hex");
   const mapping = JSON.parse(pasteRaw);
+  const correctionRound = mapping.correction_round || mapping.correction || 2;
+  const expectedPasteSha = process.env.LRB070_EXPECTED_PASTE_SHA;
+  if (expectedPasteSha && pasteSha !== expectedPasteSha) {
+    throw new Error(`COPY-PASTE SHA mismatch: got ${pasteSha}, expected ${expectedPasteSha}`);
+  }
 
-  if (mapping.base_mapping_sha256 !== EXPECTED_BASE_PASTE_SHA) {
+  if (correctionRound >= 3) {
+    if (mapping.base_correction_2_sha256 !== EXPECTED_CORRECTION_2_SHA) {
+      throw new Error(
+        `base_correction_2_sha256 mismatch: got ${mapping.base_correction_2_sha256}, expected ${EXPECTED_CORRECTION_2_SHA}`
+      );
+    }
+  } else if (mapping.base_mapping_sha256 !== EXPECTED_BASE_PASTE_SHA) {
     throw new Error(
       `base_mapping_sha256 mismatch: got ${mapping.base_mapping_sha256}, expected ${EXPECTED_BASE_PASTE_SHA}`
     );
@@ -220,7 +240,7 @@ function main() {
       owner_status: "DECIDED",
       owner_decision: "LABOT",
       owner_new: ownerNew,
-      owner_note: `LB ${deRef} / ${row.field_path}: LRB-070 correction 2 rinda ${rowNum}/50; pilnā full_card_target_fields aizvietojums pēc OWNER COPY-PASTE-2.`,
+      owner_note: `LB ${deRef} / ${row.field_path}: LRB-070 correction ${correctionRound} rinda ${rowNum}/50; pilnā full_card_target_fields aizvietojums pēc OWNER COPY-PASTE-${correctionRound}.`,
     };
   }
 
@@ -257,8 +277,9 @@ function main() {
         unique_cards: mergedByCard.size,
         classification: "G2_A1_PENDING_BATCH_REVIEW_COMPLETE",
         paste_sha256: pasteSha,
-        correction_round: 2,
+        correction_round: correctionRound,
         base_mapping_sha256: EXPECTED_BASE_PASTE_SHA,
+        base_correction_2_sha256: correctionRound >= 3 ? EXPECTED_CORRECTION_2_SHA : undefined,
       },
       null,
       2
@@ -287,14 +308,17 @@ function main() {
   const galaOut = {
     batch_id: BATCH,
     language: "lb",
-    scope: "a1-ab..a1-hoeren-study (50 LB rows, 29 unique cards, correction 2 full composites)",
+    scope: `a1-ab..a1-hoeren-study (50 LB rows, 29 unique cards, correction ${correctionRound} full composites)`,
     rows: 50,
     uniqueCards: galaCards.length,
     paste_sha256: pasteSha,
     base_mapping_sha256: EXPECTED_BASE_PASTE_SHA,
     full_card_replacements: galaCards.length,
     full_card_object_ids: requiredIds,
-    classification: "LRB_070_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+    classification:
+      correctionRound >= 3
+        ? "LRB_070_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT"
+        : "LRB_070_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
     cards: galaCards,
   };
   const galaPath = path.join(ROOT, "reports/g2-a1-owner/batches-reviewed", `${BATCH}-gala-cards.json`);
@@ -330,3 +354,5 @@ function main() {
 }
 
 if (require.main === module) main();
+
+module.exports = { main, applyPatches, nestedToOwnerNewFlat };
