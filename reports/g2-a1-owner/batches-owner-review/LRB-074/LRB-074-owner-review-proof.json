@@ -1,11 +1,11 @@
 {
   "batchId": "LRB-074",
-  "classification": "G2_A1_LRB_COPY_PASTE_CORRECTION_4_COMPLETE_AWAITING_OWNER_GALA",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
   "correctionRound": 4,
   "copyPasteSpecSha256": "a01f6e073a514d336060004e3e8099ded1dbc12d794c5ae4c02910e6fba86d6e",
   "copyPasteNewMismatches": 0,
-  "generatedAt": "2026-09-16T16:13:33.267Z",
-  "sourceCommit": "1668add9148af444cc2239366a413b456aa490ec",
+  "generatedAt": "2026-09-16T16:16:00.000Z",
+  "sourceCommit": "97db014269ddcfa7be9b4efa2d44454241ef6f05",
   "branch": "cursor/lrb-074-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -112,13 +112,17 @@
     "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-anti-bulk-proof.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-owner-authorization-proof.json"
   },
-  "note": "COPY/PASTE correction #4 (3 patches, canonical DE order from data/a1.js). 50 LABOT / 0 NELABOT / 0 PENDING. DE 179/179, comparison 110/110. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
-  "galaPass": false,
+  "note": "Gala verdict LRB_074_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 97db014269ddcfa7be9b4efa2d44454241ef6f05 per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (NN 50, UNIQUE_TARGET_CARDS=46, FULL_STUDY_CARDS=50). DE examples 179/179, comparison 110/110. DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
   "scriptChanges": 0,
   "deExampleAlignmentMismatches": [],
   "comparisonAlignmentMismatches": [],
   "canonicalDeSource": {
     "path": "data/a1.js",
     "commit": "1668add9148af444cc2239366a413b456aa490ec"
-  }
+  },
+  "verifiedCommit": "97db014269ddcfa7be9b4efa2d44454241ef6f05",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_074_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-16T16:16:00.000Z"
 }

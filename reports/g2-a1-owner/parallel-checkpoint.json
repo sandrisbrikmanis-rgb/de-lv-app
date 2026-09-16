@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-16T16:13:33.267Z",
+  "updatedAt": "2026-09-16T16:16:00.000Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -40,10 +40,11 @@
   "pc2": {
     "owner": "PC2",
     "direction": "DESCENDING",
-    "activeBatch": "LRB-074",
+    "activeBatch": null,
     "reservedBatches": [],
     "inProgressBatches": [],
     "completedBatches": [
+      "LRB-074",
       "LRB-075",
       "LRB-076",
       "LRB-077",
@@ -81,7 +82,7 @@
       "batchId": "LRB-074",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "COPY_PASTE_CORRECTION_4_APPLIED",
+      "status": "GALA_PASS",
       "branch": "cursor/lrb-074-owner-authorization-ed35",
       "reservedAt": "2026-09-15T17:36:00.000Z",
       "rows": 50,
@@ -97,12 +98,17 @@
       "uniqueCards": 46,
       "inputCsvSha256": "b47ea8140559b79522c7afe80c41d107ffd8ea7d8b4df61ee87976857d7cd18e",
       "overridesSha256": "523de67155323c6b847151a30329cbf99b3aac594b83b3e2d4008970a3987534",
-      "updatedAt": "2026-09-16T16:13:33.267Z",
+      "updatedAt": "2026-09-16T16:16:00.000Z",
       "proof": "reports/g2-a1-owner/batches-owner-review/LRB-074/LRB-074-owner-review-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-anti-bulk-proof.json",
       "ownerReviewProof": "reports/g2-a1-owner/batches-owner-review/LRB-074/LRB-074-owner-review-proof.json",
       "correctionRound": 4,
-      "copyPasteSpecSha256": "a01f6e073a514d336060004e3e8099ded1dbc12d794c5ae4c02910e6fba86d6e"
+      "copyPasteSpecSha256": "a01f6e073a514d336060004e3e8099ded1dbc12d794c5ae4c02910e6fba86d6e",
+      "completedAt": "2026-09-16T16:16:00.000Z",
+      "galaPassAt": "2026-09-16T16:16:00.000Z",
+      "verifiedCommit": "97db014269ddcfa7be9b4efa2d44454241ef6f05",
+      "linguisticVerdict": "LRB_074_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+      "appliedAt": "2026-09-16T16:16:00.000Z"
     },
     {
       "batchId": "LRB-075",

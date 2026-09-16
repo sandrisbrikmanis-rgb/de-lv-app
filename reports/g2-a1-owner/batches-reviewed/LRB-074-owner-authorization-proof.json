@@ -13,7 +13,7 @@
   "unique_cards": 50,
   "scope": "erst..gleich (50 NN) — pending Phase 1 Luna linguistic review",
   "productionSource": "data/nn/a1.js (read-only review)",
-  "note": "Phase 1 Luna complete. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
+  "note": "GALA PASS LRB_074_FULL_50_50_LINGUISTIC_REVIEW_PASS. OWNER_AUTHORIZATION_STATUS=APPROVED. 50 LABOT / 0 NELABOT / 0 PENDING. DE/production/Crowdin/ingest/apply unchanged.",
   "lunaAuditScript": "scripts/temp-audit-lrb074-luna.js",
   "lunaModel": "gpt-5.6-luna",
   "lunaTokens": 73435,
@@ -21,5 +21,10 @@
   "antiBulkPass": true,
   "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
   "individual_linguistic": 50,
-  "provenance_individual_count": 50
+  "provenance_individual_count": 50,
+  "linguisticVerdict": "LRB_074_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-16T16:16:00.000Z",
+  "verifiedCommit": "97db014269ddcfa7be9b4efa2d44454241ef6f05",
+  "appliedAt": "2026-09-16T16:16:00.000Z",
+  "correctionRound": 4
 }
