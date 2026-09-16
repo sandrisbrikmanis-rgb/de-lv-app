@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-074",
-  "sourceCommit": "10414fee7562cb5ccc3da39976261115f17200f3",
+  "sourceCommit": "1668add9148af444cc2239366a413b456aa490ec",
   "reviewer": "GPT-5.6 Luna",
-  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_2",
+  "reviewType": "PHASE1_GPT_5_6_LUNA_INDIVIDUAL_LINGUISTIC_COPY_PASTE_4",
   "cards": [
     {
       "auditId": "LRB074-0001",
@@ -1743,8 +1743,8 @@
               "lv": "Eg var ein gong i Berlin."
             },
             {
-              "de": "Ich möchte das einmal versuchen.",
-              "lv": "Eg vil prøve dette éin gong."
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Eg var ein gong i Berlin."
             }
           ],
           "tip": [
@@ -2304,16 +2304,16 @@
               "lv": "Kva går på fjernsynet i dag?"
             },
             {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Kva går på fjernsynet i dag?"
+            },
+            {
               "de": "Im Fernsehen läuft ein Film.",
               "lv": "Det går ein film på fjernsynet."
             },
             {
               "de": "Das Fernsehen ist heute langweilig.",
               "lv": "Fjernsynet er kjedeleg i dag."
-            },
-            {
-              "de": "Ich sehe heute Abend fern.",
-              "lv": "Eg ser på fjernsyn i kveld."
             }
           ],
           "tip": [
@@ -2594,16 +2594,16 @@
               "lv": "Eg et gjerne grønsaker."
             },
             {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Eg et gjerne grønsaker."
+            },
+            {
               "de": "Das Gemüse ist frisch.",
               "lv": "Grønsakene er ferske."
             },
             {
               "de": "Wir kaufen Gemüse auf dem Markt.",
               "lv": "Vi kjøper grønsaker på marknaden."
-            },
-            {
-              "de": "Ich mag Obst und Gemüse.",
-              "lv": "Eg likar frukt og grønsaker."
             }
           ],
           "tip": [
@@ -2802,6 +2802,6 @@
       }
     }
   ],
-  "correctionRound": 2,
-  "copyPasteSpecSha256": "398de1f938dd17a630ecbba755d5565e90bad76c9d2bba39cb9d01811bfef0e2"
+  "correctionRound": 4,
+  "copyPasteSpecSha256": "a01f6e073a514d336060004e3e8099ded1dbc12d794c5ae4c02910e6fba86d6e"
 }

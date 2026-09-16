@@ -1,18 +1,18 @@
 {
   "batchId": "LRB-074",
-  "classification": "G2_A1_LRB_PROOF_RECOMPUTE_CORRECTION_3_BLOCKED",
-  "correctionRound": 3,
-  "copyPasteSpecSha256": "398de1f938dd17a630ecbba755d5565e90bad76c9d2bba39cb9d01811bfef0e2",
+  "classification": "G2_A1_LRB_COPY_PASTE_CORRECTION_4_COMPLETE_AWAITING_OWNER_GALA",
+  "correctionRound": 4,
+  "copyPasteSpecSha256": "a01f6e073a514d336060004e3e8099ded1dbc12d794c5ae4c02910e6fba86d6e",
   "copyPasteNewMismatches": 0,
-  "generatedAt": "2026-09-16T16:01:57.155Z",
-  "sourceCommit": "10414fee7562cb5ccc3da39976261115f17200f3",
+  "generatedAt": "2026-09-16T16:13:33.267Z",
+  "sourceCommit": "1668add9148af444cc2239366a413b456aa490ec",
   "branch": "cursor/lrb-074-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
   "reviewer": "GPT-5.6 Luna",
   "linguisticReviewer": "gpt-5.6-luna",
   "ownerAuthorizationStatus": "APPROVED",
-  "overridesSha256": "d1b2d3fdb4186172dfc374de608d50aa6e2ab6d8a5d191d7942c5f5edd2a9c65",
+  "overridesSha256": "523de67155323c6b847151a30329cbf99b3aac594b83b3e2d4008970a3987534",
   "rows": "50/50",
   "languages": {
     "nn": 50
@@ -48,7 +48,10 @@
     "UNIQUE_TARGET_CARDS_METADATA": 46,
     "COPY_PASTE_PATCHES": 3,
     "COPY_PASTE_NEW_MISMATCHES": 0,
-    "COPY_PASTE_SPEC_SHA256": "398de1f938dd17a630ecbba755d5565e90bad76c9d2bba39cb9d01811bfef0e2",
+    "CANONICAL_DE_SOURCE": "data/a1.js",
+    "DE_EXAMPLE_ALIGNMENT_MISMATCHES": 0,
+    "COMPARISON_ALIGNMENT_MISMATCHES": 0,
+    "COPY_PASTE_SPEC_SHA256": "a01f6e073a514d336060004e3e8099ded1dbc12d794c5ae4c02910e6fba86d6e",
     "LABOT": 50,
     "NELABOT": 0,
     "PENDING": 0,
@@ -69,8 +72,8 @@
     "NEW_LUNA_CALLS": 0,
     "INGEST_APPLY": 0,
     "SCRIPT_CHANGES": 0,
-    "DE_EXAMPLE_INDEX_ALIGNMENT": "172/179",
-    "COMPARISON_ALIGNMENT": "101/110",
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "179/179",
+    "COMPARISON_ALIGNMENT": "110/110",
     "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
     "EXTRA_MEANING_NOT_IN_SOURCE": 0,
     "SEMANTIC_NARROWING_FROM_SOURCE": 0,
@@ -87,15 +90,11 @@
     "EMPTY_COMPARISON_FIELDS": 0,
     "A1_ES_OWNER_ROW_EXAMPLE_CONFLICT": 0,
     "SEPARATOR_DRIFT": 0,
-    "pass": false,
-    "STRUCTURAL_DE_EXAMPLE_ALIGNMENT": "172/179",
-    "STRUCTURAL_COMPARISON_ALIGNMENT": "101/110",
-    "SOURCE_DE_EXAMPLE_INDEX_ALIGNMENT": "172/179",
-    "SOURCE_COMPARISON_ALIGNMENT": "101/110",
-    "CANONICAL_DE_SOURCE": "data/a1.js",
-    "PROOF_RECOMPUTE_CORRECTION": 3,
-    "PROOF_RECOMPUTE_SPEC_SHA256": "cfedd06c367a163bf3b3deccbb58bf24fbeb56d6865f3388c9c039256adfd22c",
-    "DE_EXAMPLE_MISMATCH_COUNT": 7
+    "pass": true,
+    "STRUCTURAL_DE_EXAMPLE_ALIGNMENT": "179/179",
+    "STRUCTURAL_COMPARISON_ALIGNMENT": "110/110",
+    "SOURCE_DE_EXAMPLE_INDEX_ALIGNMENT": "179/179",
+    "SOURCE_COMPARISON_ALIGNMENT": "110/110"
   },
   "files": {
     "view": "reports/g2-a1-owner/batches-owner-review/LRB-074/LRB-074-owner-view.md",
@@ -113,125 +112,13 @@
     "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-anti-bulk-proof.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-owner-authorization-proof.json"
   },
-  "note": "Technical proof recompute #3 only — owner_new/DE/production unchanged. Canonical DE examples 172/179; comparison 101/110. galaPass=false.",
+  "note": "COPY/PASTE correction #4 (3 patches, canonical DE order from data/a1.js). 50 LABOT / 0 NELABOT / 0 PENDING. DE 179/179, comparison 110/110. galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
   "galaPass": false,
   "scriptChanges": 0,
-  "proofRecomputeSpecSha256": "cfedd06c367a163bf3b3deccbb58bf24fbeb56d6865f3388c9c039256adfd22c",
-  "proofRecomputeMode": "TECHNICAL_PROOF_RECOMPUTE_ONLY_NO_LINGUISTIC_CHANGES",
+  "deExampleAlignmentMismatches": [],
+  "comparisonAlignmentMismatches": [],
   "canonicalDeSource": {
     "path": "data/a1.js",
-    "commit": "036bac1f728516f6ce669dcb624cb554f87f63a0",
-    "note": "LV→DE canonical source card (not nn production snapshot)"
-  },
-  "deExampleAlignmentMismatches": [
-    {
-      "auditId": "LRB074-0031",
-      "cardId": "einmal|idx:700",
-      "exampleIndex": 1,
-      "approvedDe": "Ich möchte das einmal versuchen.",
-      "canonicalDe": "Ich war einmal in Berlin."
-    },
-    {
-      "auditId": "LRB074-0041",
-      "cardId": "Fernsehen|idx:688",
-      "exampleIndex": 1,
-      "approvedDe": "Im Fernsehen läuft ein Film.",
-      "canonicalDe": "Was gibt es heute im Fernsehen?"
-    },
-    {
-      "auditId": "LRB074-0041",
-      "cardId": "Fernsehen|idx:688",
-      "exampleIndex": 2,
-      "approvedDe": "Das Fernsehen ist heute langweilig.",
-      "canonicalDe": "Im Fernsehen läuft ein Film."
-    },
-    {
-      "auditId": "LRB074-0041",
-      "cardId": "Fernsehen|idx:688",
-      "exampleIndex": 3,
-      "approvedDe": "Ich sehe heute Abend fern.",
-      "canonicalDe": "Das Fernsehen ist heute langweilig."
-    },
-    {
-      "auditId": "LRB074-0046",
-      "cardId": "Gemüse|idx:692",
-      "exampleIndex": 1,
-      "approvedDe": "Das Gemüse ist frisch.",
-      "canonicalDe": "Ich esse gern Gemüse."
-    },
-    {
-      "auditId": "LRB074-0046",
-      "cardId": "Gemüse|idx:692",
-      "exampleIndex": 2,
-      "approvedDe": "Wir kaufen Gemüse auf dem Markt.",
-      "canonicalDe": "Das Gemüse ist frisch."
-    },
-    {
-      "auditId": "LRB074-0046",
-      "cardId": "Gemüse|idx:692",
-      "exampleIndex": 3,
-      "approvedDe": "Ich mag Obst und Gemüse.",
-      "canonicalDe": "Wir kaufen Gemüse auf dem Markt."
-    }
-  ],
-  "comparisonAlignmentMismatches": [
-    {
-      "auditId": "LRB074-0008",
-      "cardId": "a1-verstehen",
-      "comparisonIndex": 2,
-      "wordOk": true,
-      "deOk": false
-    },
-    {
-      "auditId": "LRB074-0009",
-      "cardId": "a1-wie",
-      "comparisonIndex": 0,
-      "kind": "word"
-    },
-    {
-      "auditId": "LRB074-0009",
-      "cardId": "a1-wie",
-      "comparisonIndex": 1,
-      "kind": "word"
-    },
-    {
-      "auditId": "LRB074-0009",
-      "cardId": "a1-wie",
-      "comparisonIndex": 2,
-      "kind": "word"
-    },
-    {
-      "auditId": "LRB074-0009",
-      "cardId": "a1-wie",
-      "comparisonIndex": 3,
-      "kind": "word"
-    },
-    {
-      "auditId": "LRB074-0020",
-      "cardId": "baden|idx:68",
-      "comparisonIndex": 3,
-      "wordOk": true,
-      "deOk": false
-    },
-    {
-      "auditId": "LRB074-0024",
-      "cardId": "bis|idx:91",
-      "comparisonIndex": 3,
-      "kind": "word"
-    },
-    {
-      "auditId": "LRB074-0030",
-      "cardId": "ein|idx:154",
-      "comparisonIndex": 1,
-      "wordOk": true,
-      "deOk": false
-    },
-    {
-      "auditId": "LRB074-0030",
-      "cardId": "ein|idx:154",
-      "comparisonIndex": 3,
-      "wordOk": true,
-      "deOk": false
-    }
-  ]
+    "commit": "1668add9148af444cc2239366a413b456aa490ec"
+  }
 }

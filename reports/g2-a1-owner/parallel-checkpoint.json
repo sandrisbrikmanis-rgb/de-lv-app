@@ -1,6 +1,6 @@
 {
   "schemaVersion": "g2-a1-lrb-parallel-owner-review-v1",
-  "updatedAt": "2026-09-16T15:56:18.074Z",
+  "updatedAt": "2026-09-16T16:13:33.267Z",
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "sourcePoolSha256": "fc863176fe52d503ceaa64223c36bf81c00de83a5d2c9fcc7d807f9913a4262f",
   "batchPrefix": "LRB",
@@ -81,7 +81,7 @@
       "batchId": "LRB-074",
       "owner": "PC2",
       "direction": "DESCENDING",
-      "status": "COPY_PASTE_CORRECTION_2_APPLIED",
+      "status": "COPY_PASTE_CORRECTION_4_APPLIED",
       "branch": "cursor/lrb-074-owner-authorization-ed35",
       "reservedAt": "2026-09-15T17:36:00.000Z",
       "rows": 50,
@@ -96,13 +96,13 @@
       "pending": 0,
       "uniqueCards": 46,
       "inputCsvSha256": "b47ea8140559b79522c7afe80c41d107ffd8ea7d8b4df61ee87976857d7cd18e",
-      "overridesSha256": "d1b2d3fdb4186172dfc374de608d50aa6e2ab6d8a5d191d7942c5f5edd2a9c65",
-      "updatedAt": "2026-09-16T15:56:18.074Z",
+      "overridesSha256": "523de67155323c6b847151a30329cbf99b3aac594b83b3e2d4008970a3987534",
+      "updatedAt": "2026-09-16T16:13:33.267Z",
       "proof": "reports/g2-a1-owner/batches-owner-review/LRB-074/LRB-074-owner-review-proof.json",
       "antiBulkProof": "reports/g2-a1-owner/batches-reviewed/LRB-074-anti-bulk-proof.json",
       "ownerReviewProof": "reports/g2-a1-owner/batches-owner-review/LRB-074/LRB-074-owner-review-proof.json",
-      "correctionRound": 2,
-      "copyPasteSpecSha256": "398de1f938dd17a630ecbba755d5565e90bad76c9d2bba39cb9d01811bfef0e2"
+      "correctionRound": 4,
+      "copyPasteSpecSha256": "a01f6e073a514d336060004e3e8099ded1dbc12d794c5ae4c02910e6fba86d6e"
     },
     {
       "batchId": "LRB-075",
