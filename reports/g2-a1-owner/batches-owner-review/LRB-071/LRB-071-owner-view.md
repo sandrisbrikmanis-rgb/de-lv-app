@@ -6,8 +6,8 @@
 **Reserved for:** LB_OWNER_PREP
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-16T17:07:25.187Z
-**Source commit:** `cbd499e510c78d15ed1049971065bd4da3a2fc91`
+**Generated:** 2026-09-16T17:14:37.034Z
+**Source commit:** `d32180ec656d342f87c03e14c8cd552889ed23d8`
 **Branch:** `cursor/lrb-071-owner-authorization-aa66`
 **Input SHA256:** `2b6bdede8011f1d79965ceba80aa89e0e1ffb01480e4f015e0a162d1e4c728c2`
 **Manifest:** `reports/g2-a1-owner/manifests/LRB-071-start.json`
