@@ -6,60 +6,11 @@
   "sourceFile": "reports/g2-a1-owner-review-7737-escalations-remaining.csv",
   "batches": [
     {
-      "batchId": "LRB-074",
+      "batchId": "LRB-073",
       "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-074-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-074-start.json",
-      "inputSha256": "b47ea8140559b79522c7afe80c41d107ffd8ea7d8b4df61ee87976857d7cd18e"
-    },
-    {
-      "batchId": "LRB-075",
-      "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-075-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-075-start.json",
-      "inputSha256": "d74e095743d9c70f344e6a35fe60b84ae51cc3e7dd71a0e5ed201e71af603c55"
-    },
-    {
-      "batchId": "LRB-076",
-      "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-076-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-076-start.json",
-      "inputSha256": "b418b0ff2cf5aa99a4b3e8505a394b868d1b4b34d3d4bb22680eae72d31cccee"
-    },
-    {
-      "batchId": "LRB-077",
-      "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-077-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-077-start.json",
-      "inputSha256": "2f1f52fe18ddf6fa4751951fc8a70f31a7a08bbc6b81ca83daf00da40e255aa9"
-    },
-    {
-      "batchId": "LRB-078",
-      "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-078-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-078-start.json",
-      "inputSha256": "c615b282ab7b7c895e4efc68436afa06ce44b802b63f8e5c8f720bc1e580c738"
-    },
-    {
-      "batchId": "LRB-079",
-      "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-079-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-079-start.json",
-      "inputSha256": "28ebca455d544a5fdea76e3cc493f5404bb4164baff6c88397ef7b162d7b5718"
-    },
-    {
-      "batchId": "LRB-080",
-      "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-080-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-080-start.json",
-      "inputSha256": "eead3e917d6d126d020b0bbdb6f4d72f05140d081e3f7f1ccc0a6a03b6512e7d"
-    },
-    {
-      "batchId": "LRB-081",
-      "rows": 50,
-      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-081-input.csv",
-      "manifestPath": "reports/g2-a1-owner/manifests/LRB-081-start.json",
-      "inputSha256": "eb06bedf6ebe6dd32fbed9469cf5dea66f06083829061f7c629eca49ef6c175a"
+      "inputPath": "reports/g2-a1-owner/batches-pending/LRB-073-input.csv",
+      "manifestPath": "reports/g2-a1-owner/manifests/LRB-073-start.json",
+      "inputSha256": "df428a5bc75a97e2510133763a9bbb4cfd7076fe8453e2ff2ab6e46f90d3f51f"
     }
   ]
 }
