@@ -1,251 +1,79 @@
 {
-  "generated_at": "2026-09-16T17:45:41.422Z",
+  "generated_at": "2026-09-16T17:53:46.579Z",
+  "inventory_pass": "A1_LRB_BLOCKERS_REFINED_PASS",
+  "prior_inventory_classification": "A1_LRB_CONSOLIDATION_INVENTORY_BLOCKED",
   "repository": "sandrisbrikmanis-rgb/de-lv-app",
   "origin_main_sha": "f36014e0d77a9a43740b3ad114ab845a64e11ebf",
-  "lrb_000_found": false,
   "factual_range": "LRB-001…LRB-103",
   "lrb_000_note": "LRB-000_NOT_FOUND — faktiskais diapazons ir LRB-001…LRB-103",
   "total_lrb_batches": 103,
-  "inventory_entries": 103,
-  "total_rows": 4468,
-  "total_unique_card_estimate": "sum per-batch unique_cards (not deduped across batches)",
-  "total_labot": 4219,
-  "total_nelabot": 249,
+  "linguistically_closed_count": 103,
   "total_pending": 0,
-  "linguistically_closed_count": 92,
-  "missing_batch_branches": [
-    "LRB-093",
-    "LRB-094",
-    "LRB-095",
-    "LRB-096",
-    "LRB-097",
-    "LRB-098",
-    "LRB-099",
-    "LRB-100",
-    "LRB-101",
-    "LRB-102"
-  ],
-  "batches_with_blockers": [
-    {
-      "batch_id": "LRB-070",
-      "blockers": [
-        "GALA_PROOF_DECISION_SHA_MISMATCH"
-      ]
+  "missing_github_batch_refs": [],
+  "no_gala_pass_evidence": [],
+  "gala_target_conflicts": 475,
+  "correction_history_notes": 3,
+  "finding_stable_id_divergence_count_deprecated": null,
+  "before_after": {
+    "missing_lrb_batches": {
+      "before": [
+        "LRB-093",
+        "LRB-094",
+        "LRB-095",
+        "LRB-096",
+        "LRB-097",
+        "LRB-098",
+        "LRB-099",
+        "LRB-100",
+        "LRB-101",
+        "LRB-102"
+      ],
+      "after": []
     },
-    {
-      "batch_id": "LRB-071",
-      "blockers": [
-        "GALA_PROOF_DECISION_SHA_MISMATCH"
-      ]
+    "linguistically_closed": {
+      "before": 92,
+      "after": 103
     },
-    {
-      "batch_id": "LRB-072",
-      "blockers": [
-        "GALA_PROOF_DECISION_SHA_MISMATCH"
-      ]
+    "finding_stable_id_divergences": {
+      "before": 478,
+      "after": 0,
+      "note": "Deprecated; replaced by GALA_TARGET_CONFLICT on language|card|field_path"
     },
-    {
-      "batch_id": "LRB-081",
-      "blockers": [
-        "MISSING_GALA_EVIDENCE",
-        "LINGUISTIC_STATUS_UNKNOWN"
-      ]
+    "gala_target_conflicts": {
+      "before": 478,
+      "after": 475,
+      "note": "Refined key (lang|card|field); excludes in-batch correction chains"
     },
-    {
-      "batch_id": "LRB-093",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
+    "correction_history_only": {
+      "before": null,
+      "after": 3
     },
-    {
-      "batch_id": "LRB-094",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-095",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-096",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-097",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-098",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-099",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-100",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-101",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-102",
-      "blockers": [
-        "BATCH_BRANCH_NOT_FOUND_ON_GITHUB"
-      ]
-    },
-    {
-      "batch_id": "LRB-103",
-      "blockers": [
-        "MISSING_DECISIONS_CSV"
-      ]
+    "artifacts_not_on_github": {
+      "before": null,
+      "after": 0
     }
-  ],
-  "missing_linguistic_gala_pass_proof_file": [
-    "LRB-001",
-    "LRB-002",
-    "LRB-003",
-    "LRB-004",
-    "LRB-005",
-    "LRB-006",
-    "LRB-007",
-    "LRB-008",
-    "LRB-009",
-    "LRB-010",
-    "LRB-011",
-    "LRB-012",
-    "LRB-013",
-    "LRB-014",
-    "LRB-015",
-    "LRB-016",
-    "LRB-017",
-    "LRB-018",
-    "LRB-019",
-    "LRB-020",
-    "LRB-021",
-    "LRB-022",
-    "LRB-023",
-    "LRB-024",
-    "LRB-025",
-    "LRB-026",
-    "LRB-027",
-    "LRB-028",
-    "LRB-029",
-    "LRB-030",
-    "LRB-031",
-    "LRB-032",
-    "LRB-033",
-    "LRB-034",
-    "LRB-035",
-    "LRB-036",
-    "LRB-037",
-    "LRB-038",
-    "LRB-039",
-    "LRB-040",
-    "LRB-041",
-    "LRB-042",
-    "LRB-043",
-    "LRB-044",
-    "LRB-045",
-    "LRB-046",
-    "LRB-047",
-    "LRB-048",
-    "LRB-049",
-    "LRB-050",
-    "LRB-051",
-    "LRB-052",
-    "LRB-053",
-    "LRB-054",
-    "LRB-055",
-    "LRB-056",
-    "LRB-057",
-    "LRB-058",
-    "LRB-059",
-    "LRB-060",
-    "LRB-061",
-    "LRB-062",
-    "LRB-063",
-    "LRB-064",
-    "LRB-065",
-    "LRB-066",
-    "LRB-067",
-    "LRB-068",
-    "LRB-069",
-    "LRB-070",
-    "LRB-071",
-    "LRB-072",
-    "LRB-073",
-    "LRB-074",
-    "LRB-075",
-    "LRB-076",
-    "LRB-077",
-    "LRB-078",
-    "LRB-079",
-    "LRB-080",
-    "LRB-081",
-    "LRB-082",
-    "LRB-083",
-    "LRB-084",
-    "LRB-085",
-    "LRB-086",
-    "LRB-087",
-    "LRB-088",
-    "LRB-089",
-    "LRB-090",
-    "LRB-091",
-    "LRB-092",
-    "LRB-103"
-  ],
-  "finding_stable_id_divergence_count": 475,
-  "overlapping_card_field_pairs_note": "Cross-batch card+field overlap requires consolidated CSV merge; not computed in this pass (finding_stable_ids are unique per row).",
+  },
   "streams": {
     "PC1": {
-      "lrb_range": "LRB-001…LRB-032",
+      "range": "LRB-001…LRB-032",
       "cumulative_branch": "cursor/lrb-032-owner-authorization-6530",
-      "cumulative_head_sha": "ce559ac31478e7738a6c9a8b95a3c9c478575f0d",
-      "proof": "Stacked: bdda LRB-001…031 → 6530 LRB-032; 032-6530 is ancestor of 033-aa66"
+      "cumulative_head_sha": "ce559ac31478e7738a6c9a8b95a3c9c478575f0d"
     },
-    "PC2": {
-      "lrb_range": "LRB-033…LRB-103",
-      "segment_aa66": {
-        "range": "LRB-033…LRB-072",
-        "cumulative_branch": "cursor/lrb-072-owner-authorization-aa66",
-        "cumulative_head_sha": "03937a5149ac020ed24968f2e5d5438c85112a4f"
-      },
-      "segment_ed35": {
-        "range": "LRB-073…LRB-103",
-        "cumulative_branch": "cursor/lrb-103-owner-review-pc2",
-        "cumulative_head_sha": "26c4acec768b05cd3348fa4bd14e865574c4cfa1",
-        "note": "ed35 per-batch branches exist for LRB-073…092; LRB-093…102 branches absent on GitHub; LRB-103 on lrb-103-owner-review-pc2"
-      }
+    "PC2_aa66": {
+      "range": "LRB-033…LRB-072",
+      "cumulative_branch": "cursor/lrb-072-owner-authorization-aa66",
+      "cumulative_head_sha": "03937a5149ac020ed24968f2e5d5438c85112a4f"
+    },
+    "PC2_pc2_parallel": {
+      "range": "LRB-073…LRB-103",
+      "note": "LRB-073…092 ed35 and/or owner-review-pc2-3db2 per-batch tips; stacked pc2 history on lrb-102-3db2 / lrb-103-pc2",
+      "cumulative_3db2_tip": "cursor/lrb-102-owner-review-pc2-3db2",
+      "cumulative_3db2_head_sha": "126aa7fb08577f68c10f2be6471fc1c830e24301",
+      "cumulative_103_branch": "cursor/lrb-103-owner-review-pc2",
+      "cumulative_103_head_sha": "26c4acec768b05cd3348fa4bd14e865574c4cfa1"
     }
   },
-  "merge_bases": {
-    "PC1_vs_PC2_aa66": "ce559ac31478e7738a6c9a8b95a3c9c478575f0d",
-    "PC2_aa66_vs_PC2_ed35": "f36014e0d77a9a43740b3ad114ab845a64e11ebf",
-    "PC1_vs_PC2_ed35": "f36014e0d77a9a43740b3ad114ab845a64e11ebf",
-    "PC2_aa66_stacked_on_PC1": true,
-    "PC2_ed35_stacked_on_PC2_aa66": false,
-    "PC2_ed35_stacked_on_PC1": false
-  },
-  "meeting_boundary": "LRB-032 (PC1/6530) → LRB-033 (PC2/aa66): sequential. LRB-072 (aa66) vs LRB-073 (ed35): parallel from origin/main (not git-stacked).",
-  "classification": "A1_LRB_CONSOLIDATION_INVENTORY_BLOCKED",
+  "classification": "A1_LRB_BLOCKERS_REFINED_PASS",
+  "consolidation_inventory_classification": "A1_LRB_BLOCKERS_REFINED_PASS",
   "next_action": "RESOLVE_LISTED_BLOCKERS"
 }

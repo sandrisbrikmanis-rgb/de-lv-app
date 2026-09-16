@@ -1,45 +1,52 @@
-# A1 LRB consolidation plan (inventory only)
+# A1 LRB consolidation plan (blockers refined)
 
-Generated: 2026-09-16T17:45:41.422Z
+Generated: 2026-09-16T17:53:46.579Z
 
-## Stream heads (GitHub)
+## Refinement classification
 
-| Stream | Range | Cumulative branch | HEAD SHA |
-|--------|-------|-------------------|----------|
-| PC1 | LRB-001…032 | `cursor/lrb-032-owner-authorization-6530` | `ce559ac31478e7738a6c9a8b95a3c9c478575f0d` |
-| PC2 (aa66) | LRB-033…072 | `cursor/lrb-072-owner-authorization-aa66` | `03937a5149ac020ed24968f2e5d5438c85112a4f` |
-| PC2 (ed35) | LRB-073…103 | `cursor/lrb-103-owner-review-pc2` | `26c4acec768b05cd3348fa4bd14e865574c4cfa1` |
+**`A1_LRB_BLOCKERS_REFINED_PASS`**
 
-`origin/main`: `f36014e0d77a9a43740b3ad114ab845a64e11ebf`
+Prior inventory: `A1_LRB_CONSOLIDATION_INVENTORY_BLOCKED`
 
-### Merge-base / topology
+## BEFORE → AFTER
 
-- PC1 → PC2 aa66: **stacked** (`032-6530` ancestor of `072-aa66`); merge-base = `ce559ac31478e7738a6c9a8b95a3c9c478575f0d`
-- PC2 aa66 → PC2 ed35: **not stacked**; merge-base = `f36014e0d77a9a43740b3ad114ab845a64e11ebf` (= `origin/main`)
-- LRB-032 (PC1/6530) → LRB-033 (PC2/aa66): sequential. LRB-072 (aa66) vs LRB-073 (ed35): parallel from origin/main (not git-stacked).
+| Metric | Before | After |
+|--------|--------|-------|
+| Missing LRB (no GitHub ref) | 0 () | 0 |
+| Linguistically closed | 103 | 103 |
+| finding_stable_id divergences (deprecated) | null | 0 |
+| Gala target conflicts (lang+card+field) | n/a | 475 |
+| Correction-history notes (in-batch SHA drift) | n/a | 3 |
+| Artifacts `c_not_on_github` flags | n/a | 0 |
 
-## Inventory classification
+## Stream heads
 
-**`A1_LRB_CONSOLIDATION_INVENTORY_BLOCKED`**
+| Segment | Branch | HEAD |
+|---------|--------|------|
+| PC1 | `cursor/lrb-032-owner-authorization-6530` | `ce559ac31478e7738a6c9a8b95a3c9c478575f0d` |
+| PC2 aa66 | `cursor/lrb-072-owner-authorization-aa66` | `03937a5149ac020ed24968f2e5d5438c85112a4f` |
+| PC2 pc2 tip | `cursor/lrb-102-owner-review-pc2-3db2` | `126aa7fb08577f68c10f2be6471fc1c830e24301` |
+| PC2 LRB-103 | `cursor/lrb-103-owner-review-pc2` | `26c4acec768b05cd3348fa4bd14e865574c4cfa1` |
 
-## Recommended integration order (no execution in this phase)
+## LRB-093…102 discovery
 
-1. Freeze-read PC1 cumulative head `cursor/lrb-032-owner-authorization-6530` (`ce559ac31478e7738a6c9a8b95a3c9c478575f0d`).
-2. Rebase/cherry-pick stack onto consolidation branch following per-batch tips `LRB-001…032` (bdda/6530) — verify each `*-decisions.csv` + gala evidence.
-3. Apply PC2 aa66 segment `LRB-033…072` from `cursor/lrb-072-owner-authorization-aa66` (`03937a5149ac020ed24968f2e5d5438c85112a4f`) — sequential on top of PC1.
-4. Integrate PC2 ed35 segment `LRB-073…103` from per-batch `ed35` tips (073–092) plus `cursor/lrb-103-owner-review-pc2` for LRB-103 — **requires new git stack** bridging `072-aa66` and `073-ed35` (currently parallel from main).
-5. Run consolidated anti-bulk + residual gates before any ingest/apply.
+Per-batch branches `cursor/lrb-NNN-owner-review-pc2-3db2` exist on GitHub. Gala PASS is recorded on each tip commit (owner-authorization-proof / commit message). Decisions CSV may be absent; gala cards live under `batches-owner-review/LRB-NNN/`.
 
-## Blockers summary
+## LRB-081
 
-- Missing batch branches: LRB-093, LRB-094, LRB-095, LRB-096, LRB-097, LRB-098, LRB-099, LRB-100, LRB-101, LRB-102
-- Batches with blockers: 15
-- Field-target divergences (cross-batch): undefined
-- Missing `*-linguistic-gala-pass-proof.json` (legacy batches use owner-auth proof): 93 batches
+Gala PASS on `cursor/lrb-081-owner-authorization-ed35` @ `fbb70677` via `galaPassAt` + note in owner-authorization-proof (no separate `*-linguistic-gala-pass-proof.json`).
+
+## Conflict policy (refined)
+
+- Key: `target_language + card_object_id + field_path`
+- Only **linguistically closed** batches with `*-decisions.csv` participate in cross-batch gala target conflicts.
+- In-batch correction SHA drift → `CORRECTION_HISTORY_DECISION_SHA_DRIFT` (not auto-resolved).
 
 ## Next action
 
 ```text
 NEXT_ACTION: RESOLVE_LISTED_BLOCKERS
 ```
+
+(No `CREATE_CONSOLIDATION_BRANCH` in this task.)
 
