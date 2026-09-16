@@ -7,12 +7,12 @@
 **Reserved for:** PC2
 **OWNER_AUTHORIZATION_STATUS:** APPROVED
 **Linguistic reviewer:** gpt-5.6-luna
-**Generated:** 2026-09-16T17:24:35.796Z
-**Source commit:** `bc5eee231caf0dfbae4803c622b6b7970cc24425`
+**Generated:** 2026-09-16T17:29:23.400Z
+**Source commit:** `b56b3ea08f418fffc5c0315e58fcbdb3b9f02e90`
 **Branch:** `cursor/lrb-073-owner-authorization-ed35`
-**Overrides SHA256:** `a0cae0d86d8b9efc92cefa043ec4ecaa51cd0facbb1fa121f7822f8bda99aa74`
-**Classification:** `LRB_073_COPY_PASTE_4_COMPLETE_AWAITING_GALA_VERDICT`
-**COPY/PASTE spec SHA-256:** `251967ec009ba2a4d03d2ca491909131d93cb31f5f43c9ef5c93b058cac39912`
+**Overrides SHA256:** `3e4e06a2e2100fb66f32295ac21a3592b5671cd3c7b17a3163fc052b815fb92a`
+**Classification:** `LRB_073_COPY_PASTE_5_COMPLETE_AWAITING_GALA_VERDICT`
+**COPY/PASTE spec SHA-256:** `cf0c5de4d219b84af0e7408cfdce96191493267c4cf90ca6972f214842e10d59`
 
 **Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
 
@@ -1866,7 +1866,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Hoofdidee: Spreken, converseren of taal gebruiken.\",\"Sprechen betekent vooral: spreken of converseren.\",\"Vaak gekenmerkt door: taal/conversatie.\",\"Sprechen raksturo runāšanu vai valodas lietošanu.\"]","study.examples.lv":null,"study.comparison":"[{\"word\":\"sprechen\",\"meaning\":\"Runāt (process, valoda)\",\"example\":\"Wir sprechen über die Arbeit. – We hebben het over werk.\"},{\"word\":\"sagen\",\"meaning\":\"Pasacīt (konkrētu tekstu)\",\"example\":\"Sag mir die Wahrheit. – Vertel me de waarheid.\"}]","study.tip":"[\"sprechen = spreken\",\"Gebruik sprechen als de context bij deze betekenis past.\"]","study.important":"[\"sprechen = spreken.\",\"Spreken, converseren of taal gebruiken.\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"sprechen","lv":"spreken","level":"A1","study":{"id":"a1-sprechen-study","layout":"standardStudy","translation":"spreken","explanation":["Hoofdidee: spreken, een gesprek voeren of een taal gebruiken.","sprechen betekent vooral spreken of een gesprek voeren.","Het gaat vaak om taal of een gesprek.","sprechen beschrijft spreken of taalgebruik."],"examples":[{"de":"Ich spreche Deutsch.","lv":"Ik spreek Duits."},{"de":"Wir sprechen über die Arbeit.","lv":"Wij spreken over het werk."},{"de":"Sie spricht mit ihrer Lehrerin.","lv":"Spreek je Engels?"},{"lv":"Hij spreekt met zijn leraar."}],"comparison":[{"word":"sprechen","meaning":"spreken (proces / taal)","example":"Wir sprechen über die Arbeit. – We praten over het werk."},{"word":"sagen","meaning":"zeggen (concrete tekst)","example":"Sag mir die Wahrheit. – Zeg me de waarheid."}],"tip":["sprechen = spreken","Gebruik sprechen als de context bij deze betekenis past."],"important":["sprechen = spreken.","Spreken, converseren of taal gebruiken."]}}
+**NEW (OWNER mapping):** {"de":"sprechen","lv":"spreken","level":"A1","study":{"id":"a1-sprechen-study","layout":"standardStudy","translation":"spreken","explanation":["Hoofdidee: spreken, een gesprek voeren of een taal gebruiken.","sprechen betekent vooral spreken of een gesprek voeren.","Het gaat vaak om taal of een gesprek.","sprechen beschrijft spreken of taalgebruik."],"examples":[{"de":"Ich spreche Deutsch.","lv":"Ik spreek Duits."},{"de":"Wir sprechen über die Arbeit.","lv":"Wij spreken over het werk."},{"de":"Sie spricht mit ihrer Lehrerin.","lv":"Zij praat met haar lerares."}],"comparison":[{"word":"sprechen","meaning":"spreken (proces / taal)","example":"Wir sprechen über die Arbeit. – We praten over het werk."},{"word":"sagen","meaning":"zeggen (concrete tekst)","example":"Sag mir die Wahrheit. – Zeg me de waarheid."}],"tip":["sprechen = spreken","Gebruik sprechen als de context bij deze betekenis past."],"important":["sprechen = spreken.","Spreken, converseren of taal gebruiken."]}}
 **Note:** PENDING — On nl card sprechen|idx:5, the cited path study.explanation, study.examples.lv, study.comparison, study.tip, study.important does not exist. For the LV_TRANSLATION_ERROR claim concerning Latvian “["Galvenā doma: Runāt, sarunāties vai lietot valodu.","sprechen galvenokārt nozīmē: runāt vai sarunāties.","Bieži raksturo: valodu/sarunu.","sprechen raksturo runāšanu vai valodas lietošanu…” / German “sprechen”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -1897,10 +1897,7 @@
       },
       {
         "de": "Sie spricht mit ihrer Lehrerin.",
-        "lv": "Spreek je Engels?"
-      },
-      {
-        "lv": "Hij spreekt met zijn leraar."
+        "lv": "Zij praat met haar lerares."
       }
     ],
     "comparison": [
@@ -3118,7 +3115,7 @@
 **CURRENT (captured scope):** {"study.explanation":"[\"Zum ir prievārda zu un artikula dem saīsinājums.\",\"Volledige vorm: naar de (wie?).\",\"Gebruik het met mannelijke en neutrale zelfstandig naamwoorden, wanneer je richting of doel aangeeft.\",\"Betekent vaak naar iets of bij iemand — naar de dokter, naar het station, bij een vriend.\",\"In de praktijk gebruik je bijna altijd zum, niet de volledige zu der.\"]","study.comparison":"[{\"word\":\"zum\",\"meaning\":\"Uz / pie (kam?)\",\"example\":\"zum Arzt – Pie ārsta\"},{\"word\":\"zur\",\"meaning\":\"Aan / bij (familie van de vrouw)\",\"example\":\"zur Schule – Uz skolu\"},{\"word\":\"zu\",\"meaning\":\"Uz / pie / pārāk\",\"example\":\"zu Hause – Mājās\"},{\"word\":\"nach\",\"meaning\":\"Uz (pilsētas/valstis)\",\"example\":\"nach Berlin – Uz Berlīni\"},{\"word\":\"bei\",\"meaning\":\"Pie (atrašanās)\",\"example\":\"beim Arzt – Pie ārsta\"}]","study.tip":"[\"Onthoud: zu + dem → zum (wie?).\",\"Voor vrouwelijke geslachtswekende woorden: zu + der → zur.\"]","study.important":"[\"zum = zu dem, alleen met mannelijke of neutrale zelfstandig naamwoorden in wie?-geval.\",\"Geeft richting of doel aan: naar de dokter, naar het station, bij een vriend.\",\"Voor vrouwelijk geslacht gebruik je zur: zur Bank, zur Post.\",\"Niet verwarren met bei (zijn bij) of nach (naar steden zonder artikel).\"]"}
 **OWNER STATUS:** LABOT
 **OWNER_DECISION:** LABOT
-**NEW (OWNER mapping):** {"de":"zum","lv":"naar de • bij de","level":"A1","study":{"id":"a1-zum","layout":"standardStudy","translation":"naar de • bij de","explanation":["zum is de samentrekking van het voorzetsel zu en het lidwoord dem.","De volledige vorm is zu dem.","Je gebruikt het bij mannelijke en onzijdige zelfstandige naamwoorden om richting of doel aan te geven.","Het betekent vaak naar iets of naar iemand toe, bijvoorbeeld naar de dokter of naar het station.","In de praktijk gebruikt men bijna altijd zum, niet de volledige vorm zu dem."],"examples":[{"de":"Ich gehe zum Arzt.","lv":"Ik ga naar de dokter."},{"de":"Wir fahren zum Bahnhof.","lv":"Wij rijden naar het station."},{"de":"Sie geht zum Supermarkt.","lv":"Zij gaat naar de winkel."},{"de":"Komm zum Essen!","lv":"Kom eten!"},{"de":"Er fährt zum Flughafen.","lv":"Hij rijdt naar de luchthaven."},{"de":"Wir gehen zum Konzert.","lv":"Wij gaan naar het concert."},{"de":"Das Geschenk ist zum Geburtstag.","lv":"Het cadeau is voor de verjaardag."}],"comparison":[{"word":"zum","meaning":"naar / bij (mannelijk of onzijdig)","example":"zum Arzt – naar de dokter"},{"word":"zur","meaning":"naar / bij (vrouwelijk)","example":"zur Schule – naar school"},{"word":"zu","meaning":"naar / bij / te","example":"zu Hause – thuis"},{"word":"nach","meaning":"naar (steden en landen)","example":"nach Berlin – naar Berlijn"},{"word":"bei","meaning":"bij (verblijf)","example":"beim Arzt – bij de dokter"}],"tip":["Onthoud: zu + dem → zum.","Bij vrouwelijke zelfstandige naamwoorden: zu + der → zur."],"important":["zum = zu dem; het wordt gebruikt bij mannelijke en onzijdige zelfstandige naamwoorden in de datief.","Geeft richting of doel aan: naar de dokter, naar het station, bij een vriend.","Voor vrouwelijk geslacht gebruik je zur: zur Bank, zur Post.","Niet verwarren met bei (zijn bij) of nach (naar steden zonder artikel)."]}}
+**NEW (OWNER mapping):** {"de":"zum","lv":"naar de • bij de","level":"A1","study":{"id":"a1-zum","layout":"standardStudy","translation":"naar de • bij de","explanation":["zum is de samentrekking van het voorzetsel zu en het lidwoord dem.","De volledige vorm is zu dem.","Je gebruikt het bij mannelijke en onzijdige zelfstandige naamwoorden om richting of doel aan te geven.","Het betekent vaak naar iets of naar iemand toe, bijvoorbeeld naar de dokter of naar het station.","In de praktijk gebruikt men bijna altijd zum, niet de volledige vorm zu dem."],"examples":[{"de":"Ich gehe zum Arzt.","lv":"Ik ga naar de dokter."},{"de":"Wir fahren zum Bahnhof.","lv":"Wij rijden naar het station."},{"de":"Sie geht zum Supermarkt.","lv":"Zij gaat naar de supermarkt."},{"de":"Komm zum Essen!","lv":"Kom eten!"},{"de":"Er fährt zum Flughafen.","lv":"Hij rijdt naar de luchthaven."},{"de":"Wir gehen zum Konzert.","lv":"Wij gaan naar het concert."},{"de":"Das Geschenk ist zum Geburtstag.","lv":"Het cadeau is voor de verjaardag."},{"de":"Ich gehe zum Friseur.","lv":"Ik ga naar de kapper."}],"comparison":[{"word":"zum","meaning":"naar / bij (mannelijk of onzijdig)","example":"zum Arzt – naar de dokter"},{"word":"zur","meaning":"naar / bij (vrouwelijk)","example":"zur Schule – naar school"},{"word":"zu","meaning":"naar / bij / te","example":"zu Hause – thuis"},{"word":"nach","meaning":"naar (steden en landen)","example":"nach Berlin – naar Berlijn"},{"word":"bei","meaning":"bij (verblijf)","example":"beim Arzt – bij de dokter"}],"tip":["Onthoud: zu + dem → zum.","Bij vrouwelijke zelfstandige naamwoorden: zu + der → zur."],"important":["zum = zu dem; het wordt gebruikt bij mannelijke en onzijdige zelfstandige naamwoorden in de datief.","Geeft richting of doel aan: naar de dokter, naar het station, bij een vriend.","Voor vrouwelijk geslacht gebruik je zur: zur Bank, zur Post.","Niet verwarren met bei (zijn bij) of nach (naar steden zonder artikel)."]}}
 **Note:** PENDING — On nl card zum|idx:672, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{"study.explanation":"[\"Zum ir prievārda zu un artikula dem saīsinājums.\",\"Volledige vorm: naar de (wie?).\",\"Gebruik het met mannelijke en neutrale zelfstandig naamwoorden, wanneer je …”. Review the listed subfields separately against Latvian “["zum ir prievārda zu un artikula dem saīsinājums.","Pilnā forma: zu dem (kam?).","Lieto ar vīriešu un nekatras dzimtes lietvārdiem, kad norāda virzienu vai mērķi.","Bieži nozīmē uz kaut ko…” / German “zum” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.
 
 ### Gala card (approved NEW composite — full materialized card)
@@ -3150,7 +3147,7 @@
       },
       {
         "de": "Sie geht zum Supermarkt.",
-        "lv": "Zij gaat naar de winkel."
+        "lv": "Zij gaat naar de supermarkt."
       },
       {
         "de": "Komm zum Essen!",
@@ -3167,6 +3164,10 @@
       {
         "de": "Das Geschenk ist zum Geburtstag.",
         "lv": "Het cadeau is voor de verjaardag."
+      },
+      {
+        "de": "Ich gehe zum Friseur.",
+        "lv": "Ik ga naar de kapper."
       }
     ],
     "comparison": [

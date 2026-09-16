@@ -1,0 +1,23 @@
+{
+  "batch_id": "LRB-073",
+  "correction": 5,
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "changes": {
+    "nl:sprechen|idx:5.study.examples": [
+      {"de":"Ich spreche Deutsch.","lv":"Ik spreek Duits."},
+      {"de":"Wir sprechen über die Arbeit.","lv":"Wij spreken over het werk."},
+      {"de":"Sie spricht mit ihrer Lehrerin.","lv":"Zij praat met haar lerares."}
+    ],
+    "nl:zum|idx:672.study.examples": [
+      {"de":"Ich gehe zum Arzt.","lv":"Ik ga naar de dokter."},
+      {"de":"Wir fahren zum Bahnhof.","lv":"Wij rijden naar het station."},
+      {"de":"Sie geht zum Supermarkt.","lv":"Zij gaat naar de supermarkt."},
+      {"de":"Komm zum Essen!","lv":"Kom eten!"},
+      {"de":"Er fährt zum Flughafen.","lv":"Hij rijdt naar de luchthaven."},
+      {"de":"Wir gehen zum Konzert.","lv":"Wij gaan naar het concert."},
+      {"de":"Das Geschenk ist zum Geburtstag.","lv":"Het cadeau is voor de verjaardag."},
+      {"de":"Ich gehe zum Friseur.","lv":"Ik ga naar de kapper."}
+    ]
+  },
+  "metadata": {"rows_checked":"50/50","full_example_arrays":2,"gala_pass":false}
+}

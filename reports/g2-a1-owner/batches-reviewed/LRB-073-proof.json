@@ -5,7 +5,7 @@
   "nelabot": 0,
   "pending": 0,
   "provenance_individual_count": 50,
-  "classification": "LRB_073_COPY_PASTE_4_COMPLETE_AWAITING_GALA_VERDICT",
-  "copyPasteSpecSha256": "251967ec009ba2a4d03d2ca491909131d93cb31f5f43c9ef5c93b058cac39912",
+  "classification": "LRB_073_COPY_PASTE_5_COMPLETE_AWAITING_GALA_VERDICT",
+  "copyPasteSpecSha256": "cf0c5de4d219b84af0e7408cfdce96191493267c4cf90ca6972f214842e10d59",
   "galaPass": false
 }

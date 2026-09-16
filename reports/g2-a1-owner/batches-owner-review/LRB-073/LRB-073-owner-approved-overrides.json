@@ -1,9 +1,9 @@
 {
   "batchId": "LRB-073",
-  "sourceCommit": "bc5eee231caf0dfbae4803c622b6b7970cc24425",
+  "sourceCommit": "b56b3ea08f418fffc5c0315e58fcbdb3b9f02e90",
   "reviewer": "OWNER_COPY_PASTE",
   "reviewType": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
-  "copyPasteSpecSha256": "251967ec009ba2a4d03d2ca491909131d93cb31f5f43c9ef5c93b058cac39912",
+  "copyPasteSpecSha256": "cf0c5de4d219b84af0e7408cfdce96191493267c4cf90ca6972f214842e10d59",
   "cards": [
     {
       "auditId": "LRB073-0001",
@@ -1431,10 +1431,7 @@
             },
             {
               "de": "Sie spricht mit ihrer Lehrerin.",
-              "lv": "Spreek je Engels?"
-            },
-            {
-              "lv": "Hij spreekt met zijn leraar."
+              "lv": "Zij praat met haar lerares."
             }
           ],
           "comparison": [
@@ -2429,7 +2426,7 @@
             },
             {
               "de": "Sie geht zum Supermarkt.",
-              "lv": "Zij gaat naar de winkel."
+              "lv": "Zij gaat naar de supermarkt."
             },
             {
               "de": "Komm zum Essen!",
@@ -2446,6 +2443,10 @@
             {
               "de": "Das Geschenk ist zum Geburtstag.",
               "lv": "Het cadeau is voor de verjaardag."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Ik ga naar de kapper."
             }
           ],
           "comparison": [
@@ -2965,5 +2966,5 @@
       }
     }
   ],
-  "correctionRound": 4
+  "correctionRound": 5
 }
