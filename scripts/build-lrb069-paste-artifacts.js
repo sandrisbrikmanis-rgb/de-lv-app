@@ -14,7 +14,7 @@ const PASTE_PATH =
   process.argv[2] ||
   path.join(ROOT, "scripts/data/g2-a1-owner-pending/LRB-069-decisions-COPY-PASTE.json");
 const EXPECTED_PASTE_SHA =
-  "aae008399b19d12d340ea7a74fed025e4cc5ef9b165a7127919b37c5b346275f";
+  "f4c6a26f910e1c5bdc70005bd0b7f85bd2d24fac067fbc90c2b178869f2b878c";
 
 function loadA1(lang) {
   const ctx = { window: {} };
@@ -287,7 +287,10 @@ function main() {
     paste_sha256: pasteSha,
     full_card_replacements: fullCardIds.size,
     full_card_object_ids: [...fullCardIds].sort(),
-    classification: "LRB_069_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+    classification:
+      mapping.correction_round >= 2
+        ? "LRB_069_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT"
+        : "LRB_069_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
     cards: galaCards,
   };
   const galaPath = path.join(ROOT, "reports/g2-a1-owner/batches-reviewed", `${BATCH}-gala-cards.json`);

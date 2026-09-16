@@ -4,7 +4,7 @@
   "scope": "warm..noch mal (44 LB rows, 44 unique cards)",
   "rows": 44,
   "uniqueCards": 44,
-  "paste_sha256": "aae008399b19d12d340ea7a74fed025e4cc5ef9b165a7127919b37c5b346275f",
+  "paste_sha256": "f4c6a26f910e1c5bdc70005bd0b7f85bd2d24fac067fbc90c2b178869f2b878c",
   "full_card_replacements": 22,
   "full_card_object_ids": [
     "Appetit|idx:689",
@@ -30,7 +30,7 @@
     "zum|idx:672",
     "zu|idx:668"
   ],
-  "classification": "LRB_069_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
+  "classification": "LRB_069_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "warm|idx:641",
@@ -83,8 +83,12 @@
           "layout": "standardStudy",
           "translation": "wat",
           "explanation": [
-            "Haaptiddi: was entsprécht an dëser Kaart dem Lëtzebuergeschen wat.",
-            "was freet no Saachen, Evenementer oder Fakten; fir Persoune steet wer / wien."
+            "Haaptiddi: was ass e Froewuert fir Saachen an Evenementer; op Lëtzebuergesch heescht et wat.",
+            "was freet no Saachen, Fakten an Evenementer, net no Persounen.",
+            "Déi däitsch Form was bleift onverännert.",
+            "Als Sujet entsprécht was dem Lëtzebuergesche wat: Was ist das? – Wat ass dat?",
+            "Als Objet entsprécht was och wat: Was machst du? – Wat méchs du?",
+            "Fir Persoune benotzt een wer, op Lëtzebuergesch wien."
           ],
           "examples": [
             {
@@ -117,12 +121,14 @@
             }
           ],
           "tip": [
-            "was = wat.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "was bleift am Däitschen onverännert; op Lëtzebuergesch steet wat.",
+            "Saach oder Evenement → wat; Persoun → wien."
           ],
           "important": [
-            "was an wat sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "was freet ni no Persounen.",
+            "Fir Persoune steet wer / wien.",
+            "was für (ein/eine) entsprécht wat fir (een/eng).",
+            "Falsch: Wer ist passiert? Richteg: Was ist passiert?"
           ],
           "sectionAccents": {
             "explanation": {
@@ -314,8 +320,10 @@
           "layout": "standardStudy",
           "translation": "wann",
           "explanation": [
-            "Haaptiddi: wenn entsprécht an dëser Kaart dem Lëtzebuergeschen wann.",
-            "wenn bezeechent eng Bedéngung oder eng widderholl Zäit; eng direkt Fro no der Zäit benotzt wann / wéini."
+            "Haaptiddi: wenn entsprécht jee nom Kontext dem Lëtzebuergeschen wann.",
+            "Bei enger Bedéngung steet wann.",
+            "Bei widderhuelter oder allgemenger Zäit steet och wann.",
+            "Am däitschen Niewesaz steet dat konjugéiert Verb no wenn meeschtens um Schluss."
           ],
           "examples": [
             {
@@ -339,30 +347,30 @@
             {
               "word": "wenn",
               "meaning": "wann",
-              "example": "wenn – wann"
+              "example": "Wenn du Zeit hast... – Wann s du Zäit hues..."
             },
             {
               "word": "ob",
               "meaning": "ob",
-              "example": "ob – ob"
+              "example": "Ich weiß nicht, ob... – Ech weess net, ob..."
             },
             {
               "word": "wann",
               "meaning": "wéini",
-              "example": "wann – wéini"
+              "example": "Wann kommst du? – Wéini kënns du?"
             },
             {
               "word": "weil",
               "meaning": "well",
-              "example": "weil – well"
+              "example": "Ich bleibe, weil ich krank bin. – Ech bleiwen, well ech krank sinn."
             }
           ],
           "tip": {
-            "text": "Denk drun: wenn → wann."
+            "text": "Bedéngung oder widderholl Zäit → wenn / wann; direkt Zäitfro → wann / wéini."
           },
           "important": [
-            "wenn an wann sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "wenn an wann hunn ënnerschiddlech Funktiounen.",
+            "Wann kommst du? ass eng Fro; Wenn du kommst... ass en Niewesaz."
           ],
           "sectionAccents": {
             "explanation": {
@@ -437,7 +445,7 @@
                 },
                 "example": {
                   "blue": [
-                    "wenn"
+                    "Wenn"
                   ]
                 }
               },
@@ -454,7 +462,7 @@
                 },
                 "example": {
                   "blue": [
-                    "ob"
+                    "Ich"
                   ]
                 }
               },
@@ -471,7 +479,7 @@
                 },
                 "example": {
                   "blue": [
-                    "wann"
+                    "Wann"
                   ]
                 }
               },
@@ -488,7 +496,7 @@
                 },
                 "example": {
                   "blue": [
-                    "weil"
+                    "Ich"
                   ]
                 }
               }
@@ -512,8 +520,12 @@
           "layout": "standardStudy",
           "translation": "wien",
           "explanation": [
-            "Haaptiddi: wer entsprécht an dëser Kaart dem Lëtzebuergeschen wien.",
-            "wer freet no enger Persoun; viru ville Konsonante fält de Schluss-n nom Eifeler Reegel ewech."
+            "Haaptiddi: wer freet no der Identitéit vun enger Persoun; op Lëtzebuergesch heescht et wien.",
+            "wer gëtt fir Mënsche benotzt, net fir Saachen oder Evenementer.",
+            "Fir Saachen an Evenementer steet was.",
+            "wer steet dacks als Sujet am Nominativ.",
+            "Wer von euch entsprécht Wie vun iech.",
+            "Déi däitsch Kasusforme si wer, wen, wem a wessen."
           ],
           "examples": [
             {
@@ -546,12 +558,14 @@
             }
           ],
           "tip": [
-            "wer = wien.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "wer / wien fir Persounen; was / wat fir Saachen an Evenementer.",
+            "No der Eifeler Reegel fält de Schluss-n vu wien viru ville Konsonante fort."
           ],
           "important": [
-            "wer an wien sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "wer freet nëmmen no Persounen.",
+            "Fir Saachen an Evenementer steet was.",
+            "wer, wen, wem, wessen si Kasusforme vum däitsche Froewuert.",
+            "Falsch: Wer ist passiert? Richteg: Was ist passiert?"
           ],
           "sectionAccents": {
             "explanation": {
@@ -667,8 +681,10 @@
           "layout": "standardStudy",
           "translation": "ginn",
           "explanation": [
-            "Haaptiddi: werden entsprécht an dëser Kaart dem Lëtzebuergeschen ginn.",
-            "werden beschreift eng Verännerung oder en neien Zoustand; et ass net dat selwecht wéi sein / sinn."
+            "Haaptiddi: werden bedeit um A1-Niveau meeschtens ginn.",
+            "Et beschreift eng Verännerung oder en neien Zoustand.",
+            "Am Däitschen déngt werden och fir Zukunft a Passiv.",
+            "Ich werde müde. entsprécht Ech gi midd."
           ],
           "examples": [
             {
@@ -692,30 +708,30 @@
             {
               "word": "werden",
               "meaning": "ginn",
-              "example": "werden – ginn"
+              "example": "Ich werde müde. – Ech gi midd."
             },
             {
               "word": "sein",
               "meaning": "sinn",
-              "example": "sein – sinn"
+              "example": "Ich bin müde. – Ech si midd."
             },
             {
               "word": "bleiben",
               "meaning": "bleiwen",
-              "example": "bleiben – bleiwen"
+              "example": "Ich bleibe hier. – Ech bleiwen hei."
             },
             {
               "word": "machen",
               "meaning": "maachen",
-              "example": "machen – maachen"
+              "example": "Ich mache das. – Ech maachen dat."
             }
           ],
           "tip": {
-            "text": "Denk drun: werden → ginn."
+            "text": "Eng Verännerung oder en neien Zoustand → werden / ginn."
           },
           "important": [
-            "werden an ginn sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "werden ass net dat selwecht wéi sein.",
+            "Ich werde müde. = Ech gi midd.; Ich bin müde. = Ech si midd."
           ],
           "sectionAccents": {
             "explanation": {
@@ -790,7 +806,7 @@
                 },
                 "example": {
                   "blue": [
-                    "werden"
+                    "Ich"
                   ]
                 }
               },
@@ -807,7 +823,7 @@
                 },
                 "example": {
                   "blue": [
-                    "sein"
+                    "Ich"
                   ]
                 }
               },
@@ -824,7 +840,7 @@
                 },
                 "example": {
                   "blue": [
-                    "bleiben"
+                    "Ich"
                   ]
                 }
               },
@@ -841,7 +857,7 @@
                 },
                 "example": {
                   "blue": [
-                    "machen"
+                    "Ich"
                   ]
                 }
               }
@@ -866,8 +882,11 @@
           "layout": "standardStudy",
           "translation": "Wieder (Meteo)",
           "explanation": [
-            "Haaptiddi: Wetter entsprécht an dëser Kaart dem Lëtzebuergeschen Wieder (Meteo).",
-            "Wetter bezeechent d’meteorologesch Verhältnisser; net mat Zeit / Zäit verwiesselen."
+            "Haaptiddi: das Wetter heescht d’Wieder, also Sonn, Reen, Keelt oder Hëtzt.",
+            "D’Wuert Wieder bezitt sech op meteorologesch Verhältnisser.",
+            "Fir d’Wieder dobausse freet een: Wie ist das Wetter heute?",
+            "Wieder kënnt dacks mat Adjektiver wéi waarm oder kal vir.",
+            "Net mat die Zeit verwiesselen: Zäit ass en abstrakte Begrëff."
           ],
           "examples": [
             {
@@ -899,31 +918,31 @@
             {
               "word": "Wetter",
               "meaning": "Wieder",
-              "example": "Wetter – Wieder"
+              "example": "Das Wetter ist schön. – D’Wieder ass schéin."
             },
             {
               "word": "Zeit",
               "meaning": "Zäit",
-              "example": "Zeit – Zäit"
+              "example": "Ich habe keine Zeit. – Ech hu keng Zäit."
             },
             {
               "word": "Regen",
               "meaning": "Reen",
-              "example": "Regen – Reen"
+              "example": "Es gibt viel Regen. – Et gëtt vill Reen."
             },
             {
               "word": "Sonne",
               "meaning": "Sonn",
-              "example": "Sonne – Sonn"
+              "example": "Die Sonne scheint. – D’Sonn schéngt."
             }
           ],
           "tip": [
-            "Wetter = Wieder (Meteo).",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "Fir Sonn, Reen oder Temperatur dobausse steet das Wetter / d’Wieder.",
+            "Wie ist das Wetter? = Wéi ass d’Wieder?"
           ],
           "important": [
-            "Wetter an Wieder (Meteo) sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "das Wetter = d’Wieder, net d’Auerzäit.",
+            "die Zeit = Zäit als Moment oder Geleeënheet."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1022,7 +1041,7 @@
                 },
                 "example": {
                   "blue": [
-                    "Wetter"
+                    "Das"
                   ]
                 }
               },
@@ -1039,7 +1058,7 @@
                 },
                 "example": {
                   "blue": [
-                    "Zeit"
+                    "Ich"
                   ]
                 }
               },
@@ -1056,7 +1075,7 @@
                 },
                 "example": {
                   "blue": [
-                    "Regen"
+                    "gibt"
                   ]
                 }
               },
@@ -1073,7 +1092,7 @@
                 },
                 "example": {
                   "blue": [
-                    "Sonne"
+                    "Die"
                   ]
                 }
               }
@@ -1109,8 +1128,11 @@
           "layout": "standardStudy",
           "translation": "wéi • wéi vill",
           "explanation": [
-            "Haaptiddi: wie entsprécht an dëser Kaart dem Lëtzebuergeschen wéi • wéi vill.",
-            "wie freet no enger Aart a Weis, Eegenschaft oder Quantitéit; am Verglach steet esou ... wéi."
+            "Haaptiddi: wie freet no Aart a Weis oder Eegenschaft; bei Quantitéite bedeit et wéi vill.",
+            "wie eleng entsprécht meeschtens wéi.",
+            "wie mat viel, alt oder lange freet no Quantitéit, Alter oder Dauer.",
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "An engem Verglach entsprécht so ... wie dem Lëtzebuergeschen esou ... wéi."
           ],
           "examples": [
             {
@@ -1139,12 +1161,13 @@
             }
           ],
           "tip": [
-            "wie = wéi • wéi vill.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "wie eleng = wéi; wie viel = wéi vill.",
+            "so ... wie = esou ... wéi."
           ],
           "important": [
-            "wie an wéi • wéi vill sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "Wie geet et dir? freet no engem Zoustand, net no enger Quantitéit.",
+            "Wie geht es dir? = Wéi geet et dir?"
           ],
           "sectionAccents": {
             "explanation": {
@@ -1288,8 +1311,10 @@
           "layout": "standardStudy",
           "translation": "bei • an • ze",
           "explanation": [
-            "Haaptiddi: zu entsprécht an dëser Kaart dem Lëtzebuergeschen bei • an • ze.",
-            "zu huet jee no Konstruktioun eng Richtung, ze vill oder en Infinitiv mat ze als Bedeitung."
+            "Haaptiddi: zu entsprécht no der Konstruktioun bei, an oder ze.",
+            "Bei Persounen an Institutioune weist zu dacks eng Richtung oder e Zil un.",
+            "Virun engem Adjektiv kann zu ze vill bedeiten.",
+            "Bei engem Infinitiv entsprécht zu dem Lëtzebuergesche ze."
           ],
           "examples": [
             {
@@ -1313,30 +1338,30 @@
             {
               "word": "zu",
               "meaning": "bei • an • ze",
-              "example": "zu – bei • an • ze"
+              "example": "Ich gehe zum Arzt. – Ech gi bei den Dokter."
             },
             {
               "word": "nach",
               "meaning": "op",
-              "example": "nach – op"
+              "example": "Ich fahre nach Berlin. – Ech fueren op Berlin."
             },
             {
               "word": "in",
               "meaning": "an",
-              "example": "in – an"
+              "example": "Ich gehe in die Schule. – Ech ginn an d’Schoul."
             },
             {
               "word": "bei",
               "meaning": "bei",
-              "example": "bei – bei"
+              "example": "Ich bin bei Anna. – Ech si bei der Anna."
             }
           ],
           "tip": {
-            "text": "Denk drun: zu → bei • an • ze."
+            "text": "zum Arzt → bei den Dokter; zu teuer → ze deier; zu lernen → ze léieren."
           },
           "important": [
-            "zu an bei • an • ze sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "D’Entspriechung vu zu hänkt vun der Konstruktioun of.",
+            "zu teuer bedeit ze deier, keng Richtung."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1411,7 +1436,7 @@
                 },
                 "example": {
                   "blue": [
-                    "zu"
+                    "Ich"
                   ]
                 }
               },
@@ -1428,7 +1453,7 @@
                 },
                 "example": {
                   "blue": [
-                    "nach"
+                    "Ich"
                   ]
                 }
               },
@@ -1445,7 +1470,7 @@
                 },
                 "example": {
                   "blue": [
-                    "in"
+                    "Ich"
                   ]
                 }
               },
@@ -1462,7 +1487,7 @@
                 },
                 "example": {
                   "blue": [
-                    "bei"
+                    "Ich"
                   ]
                 }
               }
@@ -1513,8 +1538,10 @@
           "layout": "standardStudy",
           "translation": "Zuch",
           "explanation": [
-            "Haaptiddi: Zug entsprécht an dëser Kaart dem Lëtzebuergeschen Zuch.",
-            "Zug bezeechent hei dat konkret Gefier op der Schinn."
+            "Haaptiddi: der Zug heescht um A1-Niveau den Zuch.",
+            "Et gëtt bei Reesen, Arrivéeën an Departen benotzt.",
+            "Aner Bedeitunge vu Zug si fir dës Kaart net zentral.",
+            "Heefeg Verbindunge sinn mit dem Zug fahren an Der Zug kommt."
           ],
           "examples": [
             {
@@ -1538,30 +1565,30 @@
             {
               "word": "der Zug",
               "meaning": "Zuch",
-              "example": "der Zug – Zuch"
+              "example": "Der Zug kommt. – Den Zuch kënnt."
             },
             {
               "word": "die Bahn",
               "meaning": "Eisebunn",
-              "example": "die Bahn – Eisebunn"
+              "example": "Ich fahre mit der Bahn. – Ech fuere mat der Eisebunn."
             },
             {
               "word": "der Bus",
               "meaning": "Bus",
-              "example": "der Bus – Bus"
+              "example": "Der Bus kommt. – De Bus kënnt."
             },
             {
               "word": "die Straßenbahn",
               "meaning": "Tram",
-              "example": "die Straßenbahn – Tram"
+              "example": "Die Straßenbahn ist hier. – Den Tram ass hei."
             }
           ],
           "tip": {
-            "text": "Denk drun: Zug → Zuch."
+            "text": "Dat konkret Gefier op der Schinn → der Zug / den Zuch."
           },
           "important": [
-            "Zug an Zuch sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "der Zug huet hei d’Bedeitung Zuch.",
+            "Aner Bedeitunge sinn net d’Haaptbedeitung vun dëser A1-Kaart."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1636,7 +1663,7 @@
                 },
                 "example": {
                   "blue": [
-                    "der Zug"
+                    "Der"
                   ]
                 }
               },
@@ -1653,7 +1680,7 @@
                 },
                 "example": {
                   "blue": [
-                    "die Bahn"
+                    "Ich"
                   ]
                 }
               },
@@ -1670,7 +1697,7 @@
                 },
                 "example": {
                   "blue": [
-                    "der Bus"
+                    "Der"
                   ]
                 }
               },
@@ -1687,7 +1714,7 @@
                 },
                 "example": {
                   "blue": [
-                    "die Straßenbahn"
+                    "Die"
                   ]
                 }
               }
@@ -1711,8 +1738,11 @@
           "layout": "standardStudy",
           "translation": "bei • op • an • fir",
           "explanation": [
-            "Haaptiddi: zum entsprécht an dëser Kaart dem Lëtzebuergeschen bei • op • an • fir.",
-            "zum ass déi zesummegezunne Form vu zu dem; déi lëtzebuergesch Entspriechung hänkt vum Zil of."
+            "zum ass déi zesummegezunne Form vu zu dem.",
+            "Déi voll Form ass zu dem.",
+            "zum steet viru männlechen an neutrale Substantiven am Dativ.",
+            "Jee nom Zil entsprécht et bei, op, an oder fir.",
+            "Am normalen Däitsche steet meeschtens zum amplaz vun zu dem."
           ],
           "examples": [
             {
@@ -1752,36 +1782,38 @@
             {
               "word": "zum",
               "meaning": "bei • op • an • fir",
-              "example": "zum – bei • op • an • fir"
+              "example": "zum Arzt – bei den Dokter"
             },
             {
               "word": "zur",
               "meaning": "an • op • bei",
-              "example": "zur – an • op • bei"
+              "example": "zur Schule – an d’Schoul"
             },
             {
               "word": "zu",
               "meaning": "bei • an • ze",
-              "example": "zu – bei • an • ze"
+              "example": "zu Hause – doheem"
             },
             {
               "word": "nach",
               "meaning": "op",
-              "example": "nach – op"
+              "example": "nach Berlin – op Berlin"
             },
             {
               "word": "bei",
               "meaning": "bei",
-              "example": "bei – bei"
+              "example": "beim Arzt – beim Dokter"
             }
           ],
           "tip": [
-            "zum = bei • op • an • fir.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "zu + dem gëtt zum.",
+            "Bei feminine Substantive gëtt zu + der zu zur."
           ],
           "important": [
-            "zum an bei • op • an • fir sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "zum = zu dem bei engem männlechen oder neutrale Substantiv am Dativ.",
+            "Et bezeechent dacks e Richtung oder Zil.",
+            "Bei feminine Substantive steet zur.",
+            "Bei = Plaz; nach = Stied a Länner ouni Artikel."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1938,7 +1970,7 @@
                 },
                 "example": {
                   "blue": [
-                    "zu"
+                    "Hause"
                   ]
                 }
               },
@@ -1972,7 +2004,7 @@
                 },
                 "example": {
                   "blue": [
-                    "bei"
+                    "beim"
                   ]
                 }
               }
@@ -2057,10 +2089,7 @@
           "id": "a1-fernsehen",
           "layout": "standardStudy",
           "translation": "Tëlee kucken",
-          "explanation": [
-            "Haaptiddi: fernsehen entsprécht an dëser Kaart dem Lëtzebuergeschen Tëlee kucken.",
-            "fernsehen ass en trennbaart Verb fir d’Aktivitéit; das Fernsehen / Tëlee ass de Substantiv."
-          ],
+          "explanation": "Haaptiddi: fernsehen ass e trennbaart Verb: ich sehe fern, du siehst fern. Et heescht Tëlee kucken. Net mam Substantiv das Fernsehen / Tëlee verwiesselen.",
           "examples": [
             {
               "de": "Ich sehe heute Abend fern.",
@@ -2079,24 +2108,28 @@
             {
               "word": "fernsehen",
               "meaning": "Tëlee kucken",
-              "example": "fernsehen – Tëlee kucken"
+              "example": "Ich sehe fern. – Ech kucken Tëlee."
             },
             {
               "word": "das Fernsehen",
               "meaning": "Tëlee",
-              "example": "das Fernsehen – Tëlee"
+              "example": "Im Fernsehen läuft ein Film. – Op der Tëlee leeft e Film."
             },
             {
               "word": "sehen",
               "meaning": "gesinn",
-              "example": "sehen – gesinn"
+              "example": "Ich sehe einen Film. – Ech gesinn e Film."
             }
           ],
           "tip": {
-            "text": "Denk drun: fernsehen → Tëlee kucken."
+            "leftBlocks": [
+              {
+                "text": "Fir d’Aktivitéit steet fernsehen / Tëlee kucken; fir Medium oder Programm steet das Fernsehen / Tëlee."
+              }
+            ]
           },
           "important": {
-            "text": "fernsehen an Tëlee kucken sinn an dëser Kaart semantesch ausgeriicht."
+            "text": "fernsehen ass e Verb; das Fernsehen ass e Substantiv am Eenzuel."
           },
           "sectionAccents": {
             "explanation": {
@@ -2159,7 +2192,7 @@
                 },
                 "example": {
                   "blue": [
-                    "fernsehen"
+                    "Ich"
                   ]
                 }
               },
@@ -2176,7 +2209,7 @@
                 },
                 "example": {
                   "blue": [
-                    "das Fernsehen"
+                    "Fernsehen"
                   ]
                 }
               },
@@ -2193,7 +2226,7 @@
                 },
                 "example": {
                   "blue": [
-                    "sehen"
+                    "Ich"
                   ]
                 }
               }
@@ -2218,8 +2251,13 @@
           "layout": "standardStudy",
           "translation": "Tëlee",
           "explanation": [
-            "Haaptiddi: Fernsehen entsprécht an dëser Kaart dem Lëtzebuergeschen Tëlee.",
-            "Fernsehen ass e Substantiv am Eenzuel fir de Medium oder Programm; d’Aktivitéit heescht fernsehen / Tëlee kucken."
+            "Haaptiddi: das Fernsehen ass e Substantiv am Eenzuel fir Tëlee als Medium oder Programm.",
+            "Et kann eng Sendung oder dat allgemengt Medium bezeechnen.",
+            "Et ass e Substantiv, keng Aktivitéit.",
+            "das Fernsehen entsprécht Tëlee.",
+            "Am Däitsche gëtt et nëmmen am Eenzuel gebraucht.",
+            "fernsehen ass dat trennbaart Verb fir Tëlee kucken.",
+            "das Fernsehen huet keng regulär Pluralform."
           ],
           "examples": [
             {
@@ -2248,12 +2286,14 @@
             }
           ],
           "tip": [
-            "Fernsehen = Tëlee.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "Fir d’Aktivitéit steet fernsehen; fir Medium oder Programm steet das Fernsehen.",
+            "das Fernsehen gëtt am Däitschen nëmmen am Eenzuel benotzt."
           ],
           "important": [
-            "Fernsehen an Tëlee sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "fernsehen ass trennbaart: sehen + fern.",
+            "das Fernsehen huet keng Pluralform.",
+            "Falsch: die Fernsehen; richteg: das Fernsehen.",
+            "Aktivitéit: fernsehen; Medium: das Fernsehen."
           ],
           "sectionAccents": {
             "explanation": {
@@ -2358,8 +2398,11 @@
           "layout": "standardStudy",
           "translation": "Appetit",
           "explanation": [
-            "Haaptiddi: Appetit entsprécht an dëser Kaart dem Lëtzebuergeschen Appetit.",
-            "Appetit bezeechent d’Loscht ze iessen a steet hei am Eenzuel."
+            "Haaptiddi: der Appetit heescht Appetit oder Loscht ze iessen.",
+            "Et bezeechent de Wonsch ze iessen.",
+            "D’Wuert steet hei am Eenzuel.",
+            "der Appetit = Appetit.",
+            "Eng heefeg Wendung ass Guten Appetit!"
           ],
           "examples": [
             {
@@ -2376,12 +2419,14 @@
             }
           ],
           "tip": [
-            "Appetit = Appetit.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "der Appetit = Appetit.",
+            "Benotz Appetit fir d’Loscht ze iessen."
           ],
           "important": [
-            "Appetit an Appetit sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "der Appetit steet hei am Eenzuel.",
+            "Falsch: die Appetite; richteg: der Appetit.",
+            "Falsch: Ich bin Appetit.; richteg: Ich habe Appetit.",
+            "Et geet ëm d’Loscht ze iessen."
           ],
           "sectionAccents": {
             "explanation": {
@@ -2449,8 +2494,13 @@
           "layout": "standardStudy",
           "translation": "iessen",
           "explanation": [
-            "Haaptiddi: essen entsprécht an dëser Kaart dem Lëtzebuergeschen iessen.",
-            "essen ass d’Verb fir d’Aktivitéit; das Essen ass de Substantiv fir Iessen oder eng Moolzecht."
+            "Haaptiddi: essen ass d’Verb fir iessen.",
+            "Et bezeechent d’Aktivitéit, Liewensmëttel ze konsuméieren.",
+            "Als Verb huet essen keen Artikel.",
+            "Das Essen ass dovun z’ënnerscheeden.",
+            "das Essen bezeechent Iessen oder eng Moolzecht.",
+            "essen = iessen.",
+            "das Essen = Iessen oder Moolzecht."
           ],
           "examples": [
             {
@@ -2480,11 +2530,13 @@
           ],
           "tip": [
             "essen = iessen.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "Benotz essen fir d’Aktivitéit."
           ],
           "important": [
-            "essen an iessen sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "essen ass e Verb ouni Artikel.",
+            "das Essen ass net dat selwecht wéi essen.",
+            "Aktivitéit: essen / iessen.",
+            "Saach oder Moolzecht: das Essen / Iessen."
           ],
           "sectionAccents": {
             "explanation": {
@@ -2589,8 +2641,13 @@
           "layout": "standardStudy",
           "translation": "Iessen • Moolzecht",
           "explanation": [
-            "Haaptiddi: Essen entsprécht an dëser Kaart dem Lëtzebuergeschen Iessen • Moolzecht.",
-            "Essen ass e Substantiv fir d’Iessen als Saach oder fir eng ganz Moolzecht; d’Verb heescht essen / iessen."
+            "Haaptiddi: das Essen ass e Substantiv fir Iessen oder eng Moolzecht.",
+            "Et bezeechent d’Iessen als Saach, net d’Aktivitéit.",
+            "Als Substantiv gëtt et groussgeschriwwen.",
+            "das Essen = Iessen oder Moolzecht.",
+            "Et kann e Plat oder eng ganz Moolzecht bezeechnen.",
+            "D’Verb essen heescht iessen.",
+            "Substantiv a Verb ënnerscheede sech duerch Grouss- a Klengschreiwung."
           ],
           "examples": [
             {
@@ -2619,12 +2676,14 @@
             }
           ],
           "tip": [
-            "Essen = Iessen • Moolzecht.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "das Essen = Iessen oder Moolzecht.",
+            "D’Verb essen heescht iessen."
           ],
           "important": [
-            "Essen an Iessen • Moolzecht sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "essen ass e Verb ouni Artikel.",
+            "das Essen ass e Substantiv.",
+            "Aktivitéit: essen / iessen.",
+            "Saach oder Moolzecht: das Essen / Iessen."
           ],
           "sectionAccents": {
             "explanation": {
@@ -2729,8 +2788,9 @@
           "layout": "standardStudy",
           "translation": "Geméis",
           "explanation": [
-            "Haaptiddi: Gemüse entsprécht an dëser Kaart dem Lëtzebuergeschen Geméis.",
-            "Gemüse ass eng Sammelbezeechnung a gëtt am Däitschen an dëser Bedeitung am Eenzuel gebraucht."
+            "Haaptiddi: das Gemüse ass Geméis als Sammelbezeechnung.",
+            "Am Däitsche gëtt et an dëser Bedeitung am Eenzuel gebraucht.",
+            "Et bezeechent Geméis am Allgemengen."
           ],
           "examples": [
             {
@@ -2759,12 +2819,13 @@
             }
           ],
           "tip": [
-            "Gemüse = Geméis.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "das Gemüse = Geméis.",
+            "Benotz Geméis als Sammelbezeechnung."
           ],
           "important": [
-            "Gemüse an Geméis sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "Net die Gemüse, mee das Gemüse.",
+            "Falsch: die Gemüse; richteg: das Gemüse.",
+            "das Gemüse = Geméis am Allgemengen."
           ],
           "sectionAccents": {
             "explanation": {
@@ -2869,8 +2930,9 @@
           "layout": "standardStudy",
           "translation": "Uebst",
           "explanation": [
-            "Haaptiddi: Obst entsprécht an dëser Kaart dem Lëtzebuergeschen Uebst.",
-            "Obst ass eng Sammelbezeechnung a gëtt am Däitschen an dëser Bedeitung am Eenzuel gebraucht."
+            "Haaptiddi: das Obst ass Uebst als Sammelbezeechnung.",
+            "Am Däitsche gëtt et an dëser Bedeitung am Eenzuel gebraucht.",
+            "Et bezeechent Uebst am Allgemengen."
           ],
           "examples": [
             {
@@ -2895,12 +2957,12 @@
             }
           ],
           "tip": [
-            "Obst = Uebst.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "das Obst = Uebst.",
+            "Benotz Uebst als Sammelbezeechnung."
           ],
           "important": [
-            "Obst an Uebst sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "Falsch: die Obsts; richteg: das Obst.",
+            "das Obst = Uebst am Allgemengen."
           ],
           "sectionAccents": {
             "explanation": {
@@ -2993,8 +3055,10 @@
           "layout": "standardStudy",
           "translation": "Vakanzen",
           "explanation": [
-            "Haaptiddi: Ferien entsprécht an dëser Kaart dem Lëtzebuergeschen Vakanzen.",
-            "Ferien bezeechent Schoul- oder Studievakanzen a steet am Däitschen nëmmen am Pluriel."
+            "Haaptiddi: die Ferien si Schoul- oder Studievakanzen a stinn ëmmer am Pluriel.",
+            "Et geet ëm fräi Zäit vun der Schoul oder dem Studium.",
+            "Am Däitsche gëtt Ferien nëmmen am Pluriel gebraucht.",
+            "in den Ferien entsprécht an de Vakanzen."
           ],
           "examples": [
             {
@@ -3026,21 +3090,23 @@
             {
               "word": "die Ferien",
               "meaning": "Vakanzen (Schoul oder Studium)",
-              "example": "die Ferien – Vakanzen (Schoul oder Studium)"
+              "example": "In den Ferien fahren wir weg. – An de Vakanze fuere mir fort."
             },
             {
               "word": "der Urlaub",
               "meaning": "Congé oder Vakanz (Aarbecht)",
-              "example": "der Urlaub – Congé oder Vakanz (Aarbecht)"
+              "example": "Ich habe zwei Wochen Urlaub. – Ech hunn zwou Woche Congé."
             }
           ],
           "tip": [
-            "Ferien = Vakanzen.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "die Ferien steet am Däitschen nëmmen am Pluriel.",
+            "Fir Schoul oder Studium steet Ferien / Vakanzen."
           ],
           "important": [
-            "Ferien an Vakanzen sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "Däitsch: in den Ferien.",
+            "Falsch: in der Ferien; richteg: in den Ferien.",
+            "Schoul: die Ferien / Vakanzen.",
+            "Ferien gëtt am Däitschen nëmmen am Pluriel benotzt."
           ],
           "sectionAccents": {
             "explanation": {
@@ -3139,7 +3205,7 @@
                 },
                 "example": {
                   "blue": [
-                    "die Ferien"
+                    "den"
                   ]
                 }
               },
@@ -3156,7 +3222,7 @@
                 },
                 "example": {
                   "blue": [
-                    "der Urlaub"
+                    "Ich"
                   ]
                 }
               }
@@ -3181,8 +3247,10 @@
           "layout": "standardStudy",
           "translation": "Congé • Vakanz",
           "explanation": [
-            "Haaptiddi: Urlaub entsprécht an dëser Kaart dem Lëtzebuergeschen Congé • Vakanz.",
-            "Urlaub bezeechent fräi Zäit vun der Aarbecht; Congé betount d’Aarbechtsfräizäit, Vakanz d’Rees oder d’Erliefnis."
+            "Haaptiddi: der Urlaub heescht fräi Zäit vun der Aarbecht.",
+            "Op Lëtzebuergesch steet no Kontext Congé oder Vakanz.",
+            "Am Däitsche gëtt Urlaub hei am Eenzuel gebraucht.",
+            "Heefeg Verbindunge sinn im Urlaub sein an Urlaub machen."
           ],
           "examples": [
             {
@@ -3210,21 +3278,23 @@
             {
               "word": "der Urlaub",
               "meaning": "Congé oder Vakanz (Aarbecht)",
-              "example": "der Urlaub – Congé oder Vakanz (Aarbecht)"
+              "example": "Mein Vater ist im Urlaub. – Mäi Papp ass am Congé."
             },
             {
               "word": "die Ferien",
               "meaning": "Vakanzen (Schoul oder Studium)",
-              "example": "die Ferien – Vakanzen (Schoul oder Studium)"
+              "example": "Die Kinder haben Ferien. – D’Kanner hu Vakanzen."
             }
           ],
           "tip": [
-            "Urlaub = Congé • Vakanz.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "Fir Aarbechtsfräizäit steet Urlaub / Congé.",
+            "Vakanz passt, wann d’Rees oder d’Erliefnis am Mëttelpunkt steet."
           ],
           "important": [
-            "Urlaub an Congé • Vakanz sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "Urlaub steet am A1-Kontext am Däitschen am Eenzuel.",
+            "Heefeg: im Urlaub sein oder Urlaub machen.",
+            "Fir Schoulfräizäit steet die Ferien.",
+            "Aarbecht: der Urlaub / Congé."
           ],
           "sectionAccents": {
             "explanation": {
@@ -3311,7 +3381,7 @@
                 },
                 "example": {
                   "blue": [
-                    "der Urlaub"
+                    "Mein"
                   ]
                 }
               },
@@ -3328,7 +3398,7 @@
                 },
                 "example": {
                   "blue": [
-                    "die Ferien"
+                    "Die"
                   ]
                 }
               }
@@ -3382,8 +3452,10 @@
           "layout": "standardStudy",
           "translation": "Auer",
           "explanation": [
-            "Haaptiddi: Uhr entsprécht an dëser Kaart dem Lëtzebuergeschen Auer.",
-            "Uhr bezeechent en Apparat oder eng konkret Auerzäit; die Zeit / Zäit ass den abstrakte Begrëff."
+            "Haaptiddi: die Uhr ass eng Auer als Apparat oder eng konkret Auerzäit.",
+            "Et kann eng Wandauer, Armbanduhr oder Zäitangab bezeechnen.",
+            "Bei enger konkreter Zäit steet zum Beispill acht Uhr.",
+            "die Uhr ass net dat selwecht wéi die Zeit."
           ],
           "examples": [
             {
@@ -3392,7 +3464,7 @@
             },
             {
               "de": "Es ist acht Uhr.",
-              "lv": "Mir hunn aacht Auer."
+              "lv": "Et ass 8 Auer."
             },
             {
               "de": "Meine Uhr ist kaputt.",
@@ -3400,11 +3472,11 @@
             },
             {
               "de": "Es ist acht Uhr.",
-              "lv": "D’Auer weist aacht."
+              "lv": "D’Auer weist aacht Auer."
             },
             {
               "de": "Es ist acht Uhr.",
-              "lv": "Et ass elo aacht Auer."
+              "lv": "D’Auer weist 8 Auer."
             },
             {
               "de": "die Uhr",
@@ -3412,12 +3484,12 @@
             }
           ],
           "tip": [
-            "Uhr = Auer.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "Auer als Apparat oder konkret Auerzäit → die Uhr / Auer.",
+            "Es ist acht Uhr. = Et ass aacht Auer."
           ],
           "important": [
-            "Uhr an Auer sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "die Uhr kann Apparat oder konkret Auerzäit bezeechnen.",
+            "Fir Zäit als abstrakte Begrëff steet die Zeit / Zäit."
           ],
           "sectionAccents": {
             "explanation": {
@@ -3449,7 +3521,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "Mir"
+                    "ass"
                   ]
                 }
               },
@@ -3485,7 +3557,7 @@
                 },
                 "lv": {
                   "purple": [
-                    "ass"
+                    "D’Auer"
                   ]
                 }
               },
@@ -3523,8 +3595,10 @@
           "layout": "standardStudy",
           "translation": "Zäit",
           "explanation": [
-            "Haaptiddi: Zeit entsprécht an dëser Kaart dem Lëtzebuergeschen Zäit.",
-            "Zeit bezeechent Zäit als abstrakte Begrëff, Moment oder Zäitraum; net den Apparat oder eng exakt Auerzäit."
+            "Haaptiddi: die Zeit ass Zäit als abstrakte Begrëff, Moment oder Zäitraum.",
+            "Et kann eng Geleeënheet oder verfügbar Zäit bezeechnen.",
+            "Am Géigesaz zu Uhr geet et net ëm en Apparat oder eng exakt Auerzäit.",
+            "Ich habe keine Zeit. = Ech hu keng Zäit."
           ],
           "examples": [
             {
@@ -3545,12 +3619,12 @@
             }
           ],
           "tip": [
-            "Zeit = Zäit.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "Zäit als Begrëff, Moment oder Zäitraum → die Zeit / Zäit.",
+            "Fir konkret Auerzäit steet die Uhr / Auer."
           ],
           "important": [
-            "Zeit an Zäit sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "die Zeit bezeechent Zäit als abstrakte Begrëff.",
+            "Net mat die Uhr / Auer verwiesselen."
           ],
           "sectionAccents": {
             "explanation": {
@@ -3630,8 +3704,10 @@
           "layout": "standardStudy",
           "translation": "eemol • eng Kéier",
           "explanation": [
-            "Haaptiddi: einmal entsprécht an dëser Kaart dem Lëtzebuergeschen eemol • eng Kéier.",
-            "einmal bezeechent eng eenzeg Kéier oder e Moment an der Vergaangenheet."
+            "Haaptiddi: einmal bezeechent eng eenzeg Kéier oder e Moment an der Vergaangenheet.",
+            "Et entsprécht jee nom Kontext eemol oder eng Kéier.",
+            "Et gëtt als Zäitadverb gebraucht.",
+            "An enger Erzielung kann einmal e fréiere Moment aféieren."
           ],
           "examples": [
             {
@@ -3644,12 +3720,12 @@
             }
           ],
           "tip": [
-            "einmal = eemol • eng Kéier.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "einmal = eemol oder eng Kéier.",
+            "Benotz et fir eng eenzeg Kéier oder e fréiere Moment."
           ],
           "important": [
-            "einmal an eemol • eng Kéier sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "einmal kann eemol oder eng Kéier bedeiten.",
+            "Et bezeechent eng eenzeg Kéier oder e Moment an der Vergaangenheet."
           ],
           "sectionAccents": {
             "explanation": {
@@ -3705,8 +3781,7 @@
           "layout": "standardStudy",
           "translation": "nach eng Kéier • nach eemol",
           "explanation": [
-            "Haaptiddi: noch mal entsprécht an dëser Kaart dem Lëtzebuergeschen nach eng Kéier • nach eemol.",
-            "noch mal freet no enger Widderhuelung oder beschreift, datt eppes widderholl gëtt."
+            "Haaptiddi: noch mal heescht nach eng Kéier oder nach eemol. Et freet no enger Widderhuelung oder beschreift se."
           ],
           "examples": [
             {
@@ -3723,12 +3798,12 @@
             }
           ],
           "tip": [
-            "noch mal = nach eng Kéier • nach eemol.",
-            "Wiel d’Bedeitung ëmmer nom konkrete Kontext."
+            "noch mal = nach eng Kéier oder nach eemol.",
+            "Benotz et, wann eppes widderholl gëtt."
           ],
           "important": [
-            "noch mal an nach eng Kéier • nach eemol sinn an dëser Kaart semantesch ausgeriicht.",
-            "Déi däitsch Beispiller bleiwen onverännert."
+            "D’Ausdrock freet no enger Widderhuelung oder beschreift se.",
+            "noch mal ass eng alldeeglech däitsch Form."
           ],
           "sectionAccents": {
             "explanation": {
