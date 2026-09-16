@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-073",
-  "classification": "LRB_073_COPY_PASTE_5_COMPLETE_AWAITING_GALA_VERDICT",
-  "generatedAt": "2026-09-16T17:29:23.400Z",
-  "sourceCommit": "b56b3ea08f418fffc5c0315e58fcbdb3b9f02e90",
+  "classification": "G2_A1_LRB_LINGUISTIC_REVIEW_PASS",
+  "generatedAt": "2026-09-16T17:33:00.000Z",
+  "sourceCommit": "86a14230e119c130455bcf27c030c23e57d61b9a",
   "branch": "cursor/lrb-073-owner-authorization-ed35",
   "direction": "DESCENDING",
   "reservedFor": "PC2",
@@ -94,7 +94,11 @@
     "batchProof": "reports/g2-a1-owner/batches-reviewed/LRB-073-proof.json",
     "ownerAuthorizationProof": "reports/g2-a1-owner/batches-reviewed/LRB-073-owner-authorization-proof.json"
   },
-  "note": "COPY-PASTE correction 5 (canonical DE example array alignment). 2 full example arrays. 50 LABOT / 0 NELABOT / 0 PENDING (NL 42, NN 8). galaPass=false. DE/production/Crowdin/ingest/apply unchanged.",
-  "galaPass": false,
-  "scriptChanges": 0
+  "note": "Gala verdict LRB_073_FULL_50_50_LINGUISTIC_REVIEW_PASS. Independently verified commit 86a14230e119c130455bcf27c030c23e57d61b9a per FULL_50_50 PDF standard. 50 LABOT / 0 NELABOT / 0 PENDING (NL 42, NN 8, UNIQUE_TARGET_CARDS=50, FULL_STUDY_CARDS=50). DE examples 192/192, comparison 122/122. DE/production/Crowdin/ingest/apply unchanged.",
+  "galaPass": true,
+  "scriptChanges": 0,
+  "verifiedCommit": "86a14230e119c130455bcf27c030c23e57d61b9a",
+  "verificationStandard": "FULL_50_50_PDF",
+  "linguisticVerdict": "LRB_073_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "galaPassAt": "2026-09-16T17:33:00.000Z"
 }
