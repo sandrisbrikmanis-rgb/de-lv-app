@@ -1,9 +1,9 @@
 {
   "batchId": "LRB-073",
-  "sourceCommit": "ed805f9c3d60b5f36e64f0d728cf32fe00da5704",
+  "sourceCommit": "3a952628ab03df5e6dc3dc005024be9338fd94a9",
   "reviewer": "OWNER_COPY_PASTE",
   "reviewType": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
-  "copyPasteSpecSha256": "bf7aa8e132cf914e17f6df1fe75518a16d10ab8bfa24d27ad04f055528f27756",
+  "copyPasteSpecSha256": "9bbfe2bc91d416a44a568fba8dbbe1ca60ab4152ab3178979075d7eea1892680",
   "cards": [
     {
       "auditId": "LRB073-0001",
@@ -12,7 +12,7 @@
       "reason": "PENDING — On nl card legen|idx:363, the cited path study.explanation, study.examples[1].lv, study.comparison[].example does not exist. For the UNTRANSLATED_TEXT claim concerning Latvian “[\"Galvenā doma: legen nozīmē nolikt kaut ko guļus vai horizontāli.\",\"legen lieto, ja tu pats pārvieto lietu un noliec to uz galda, gultas vai citas virsmas.\",\"Tas atšķiras no liegen, kas no…” / German “legen”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "legen",
-        "lv": "Nolikt",
+        "lv": "neerleggen",
         "level": "A1",
         "study": {
           "id": "a1-legen",
@@ -81,7 +81,7 @@
       "reason": "PENDING — On nl card leise|idx:368, the finding spans study; the captured production value begins “{\"study.translation\":\"Kluss\",\"study.explanation\":\"[\\\"Hoofdidee: Stil of zacht in volume.\\\",\\\"Leise galvenokārt nozīmē: mazs skaļums.\\\",\\\"Omschrijft vaak: geluid/stem/muziek.\\\",\\\"Leise rakst…”. Review the listed subfields separately against Latvian “kluss” / German “leise” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "leise",
-        "lv": "Kluss",
+        "lv": "stil • zacht",
         "level": "A1",
         "study": {
           "id": "a1-leise-study",
@@ -130,7 +130,7 @@
       "reason": "PENDING — On nl card liegen|idx:377, the finding spans study; the captured production value begins “{\"study.translation\":\"Atrasties • Gulēt\",\"study.explanation\":\"[\\\"Hoofdidee: liegen betekent liggen of zich bevinden in een horizontale positie.\\\",\\\"Over een mens betekent liegen vaak liggen…”. Review the listed subfields separately against Latvian “atrasties • gulēt” / German “liegen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "liegen",
-        "lv": "Atrasties • Gulēt",
+        "lv": "liggen • zich bevinden",
         "level": "A1",
         "study": {
           "id": "a1-liegen",
@@ -210,7 +210,7 @@
       "reason": "PENDING — On nl card machen|idx:386, the finding spans study; the captured production value begins “{\"study.translation\":\"Darīt • Taisīt\",\"study.explanation\":\"[\\\"Hoofdidee: machen is een erg veel voorkomend woord dat doen of maken betekent.\\\",\\\"Als het over een actie gaat in het algemeen,…”. Review the listed subfields separately against Latvian “darīt • taisīt” / German “machen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "machen",
-        "lv": "Darīt • Taisīt",
+        "lv": "doen • maken",
         "level": "A1",
         "study": {
           "id": "a1-machen",
@@ -257,7 +257,7 @@
       "reason": "PENDING — On nl card Mal|idx:390, the finding spans study; the captured production value begins “{\"study.translation\":\"Reize\",\"study.explanation\":\"[\\\"Hoofdidee: das Mal betekent een keer als een gelegenheid of case.\\\",\\\"Je gebruikt het vaak met getallen: ein Mal, zwei Mal, drei Mal.\\\",…”. Review the listed subfields separately against Latvian “reize” / German “Mal” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "Mal",
-        "lv": "Reize",
+        "lv": "keer",
         "level": "A1",
         "de_article": "das",
         "de_plural": "die Male",
@@ -318,16 +318,16 @@
       "reason": "PENDING — On nl card mögen|idx:413, the cited path study.examples[0].lv does not exist. For the WRONG_LANGUAGE claim concerning Latvian “patikt” / German “mögen”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "mögen",
-        "lv": "Patikt",
+        "lv": "leuk vinden • houden van",
         "level": "A1",
         "study": {
           "id": "a1-mögen",
           "layout": "standardStudy",
-          "translation": "Patikt",
+          "translation": "leuk vinden • houden van",
           "explanation": [
             "Hoofdidee: mögen betekent meestal dat iets je bevalt.",
             "Ich mag... is in het Nederlands meestal 'ik hou van...' of 'ik vind... lekker'.",
-            "Möchte ir cita forma, ko lieto pieklājīgai vēlmei: es gribētu.",
+            "möchte is een andere vorm die voor een beleefde wens wordt gebruikt: ik zou graag willen.",
             "Op A1-niveau is de belangrijkste uitdrukking Ich mag das."
           ],
           "examples": [
@@ -337,41 +337,41 @@
             },
             {
               "de": "Magst du Kaffee?",
-              "lv": "Vai tev garšo kafija?"
+              "lv": "Hou je van koffie?"
             },
             {
               "de": "Sie mag Kinder.",
-              "lv": "Viņai patīk bērni."
+              "lv": "Zij houdt van kinderen."
             },
             {
               "de": "Ich möchte einen Kaffee.",
-              "lv": "Es gribētu kafiju."
+              "lv": "Ik zou graag koffie willen."
             }
           ],
           "comparison": [
             {
               "word": "mögen",
-              "meaning": "Patikt",
+              "meaning": "leuk vinden • houden van",
               "example": "Ik hou van muziek."
             },
             {
               "word": "möchte",
-              "meaning": "Gribētu",
+              "meaning": "zou graag willen",
               "example": "Ik wil koffie."
             },
             {
               "word": "wollen",
-              "meaning": "Gribēt",
+              "meaning": "willen",
               "example": "Ik wil naar huis."
             },
             {
               "word": "lieben",
-              "meaning": "Mīlēt",
+              "meaning": "liefhebben",
               "example": "Ik hou van je."
             }
           ],
           "tip": {
-            "text": "Atceries: Ich mag... = man patīk..."
+            "text": "Onthoud: Ich mag... = ik vind ... leuk / ik hou van..."
           },
           "important": [
             "mögen is niet het voornaamste woord voor beleefd 'ik wil'. Daarvoor gebruik je meestal möchte.",
@@ -387,12 +387,12 @@
       "reason": "PENDING — On nl card nach|idx:426, the cited path study.examples[1].lv does not exist. For the UNTRANSLATED claim concerning Latvian “uz • pēc” / German “nach”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "nach",
-        "lv": "Uz • Pēc",
+        "lv": "naar • na",
         "level": "A1",
         "study": {
           "id": "a1-nach",
           "layout": "standardStudy",
-          "translation": "Uz • Pēc",
+          "translation": "naar • na",
           "explanation": [
             "Hoofdidee: nach betekent naar voor plaatsen en na voor tijd of volgorde.",
             "Met steden en landen zonder artikel betekent nach vaak naar.",
@@ -402,7 +402,7 @@
           "examples": [
             {
               "de": "Ich fahre nach Berlin.",
-              "lv": "Es braucu uz Berlīni."
+              "lv": "Ik reis naar Berlijn."
             },
             {
               "de": "Wir gehen nach Hause.",
@@ -410,37 +410,37 @@
             },
             {
               "de": "Nach dem Essen gehen wir spazieren.",
-              "lv": "Pēc ēšanas mēs ejam pastaigāties."
+              "lv": "Na het eten gaan we wandelen."
             },
             {
               "de": "Es ist zehn nach acht.",
-              "lv": "Ir desmit pāri astoņiem."
+              "lv": "Het is tien over acht."
             }
           ],
           "comparison": [
             {
               "word": "nach",
-              "meaning": "Uz / pēc",
+              "meaning": "naar / na",
               "example": "Ik rij naar Berlijn."
             },
             {
               "word": "zu",
-              "meaning": "Uz / pie",
+              "meaning": "naar / bij",
               "example": "Ik ga naar de dokter."
             },
             {
               "word": "in",
-              "meaning": "Iekšā / uz vietu ar artikulu",
+              "meaning": "naar binnen / naar een plaats met lidwoord",
               "example": "Ik ga naar school."
             },
             {
               "word": "vor",
-              "meaning": "Pirms / priekšā",
+              "meaning": "vóór / voor",
               "example": "Vóór het eten was ik mijn handen."
             }
           ],
           "tip": {
-            "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
+            "text": "Onthoud: nach Hause; nach Berlin; na het eten."
           },
           "important": [
             "nach gebruik je niet met alle plaatsen.",
@@ -456,7 +456,7 @@
       "reason": "PENDING — On nl card noch mal|idx:701, the finding spans study; the captured production value begins “{\"study.translation\":\"Vēlreiz\",\"study.explanation\":\"[\\\"Hoofdidee: Het betekent nogmaals — een actie herhalen of om herhaling vragen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Noch mal, bitte.\\\",\\\"lv…”. Review the listed subfields separately against Latvian “vēlreiz” / German “noch mal” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "noch mal",
-        "lv": "Vēlreiz",
+        "lv": "nog eens • opnieuw",
         "level": "A1",
         "study": {
           "id": "a1-noch-mal",
@@ -497,12 +497,12 @@
       "reason": "PENDING — On nl card noch|idx:451, the cited path study.examples[0].lv; study.explanation; study.tip; study.important does not exist. For the LANGUAGE_MIXUP claim concerning Latvian “vēl” / German “noch”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "noch",
-        "lv": "Vēl",
+        "lv": "nog",
         "level": "A1",
         "study": {
           "id": "a1-noch-study",
           "layout": "standardStudy",
-          "translation": "Vēl",
+          "translation": "nog",
           "explanation": [
             "Hoofdidee: iets gaat nog door of is nog niet afgelopen.",
             "noch betekent vooral dat iets nog steeds doorgaat.",
@@ -516,11 +516,11 @@
             },
             {
               "de": "Ich bin noch zu Hause.",
-              "lv": "Es vēl esmu mājās."
+              "lv": "Ik ben nog thuis."
             },
             {
               "de": "Bist du noch da?",
-              "lv": "Vai tu vēl esi šeit?"
+              "lv": "Ben je nog hier?"
             }
           ],
           "tip": [
@@ -541,12 +541,12 @@
       "reason": "PENDING — On nl card nur|idx:456, the finding spans study.explanation; study.tip; study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: Beperkt de hoeveelheid, aantal mensen, keuze of mogelijkheden.\\\",\\\"Nur galvenokārt nozīmē: ierobežots daudzums vai izvēle.\\\",\\\"Vaak gekenmerkt door: hoev…”. Review the listed subfields separately against Latvian “tikai • vienīgi” / German “nur” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "nur",
-        "lv": "Tikai • Vienīgi",
+        "lv": "alleen • slechts",
         "level": "A1",
         "study": {
           "id": "a1-nur-study",
           "layout": "standardStudy",
-          "translation": "Tikai • Vienīgi",
+          "translation": "alleen • slechts",
           "explanation": [
             "Hoofdidee: beperkt de hoeveelheid, het aantal mensen, de keuze of de mogelijkheden.",
             "nur betekent vooral: een beperkte hoeveelheid of keuze.",
@@ -564,7 +564,7 @@
             },
             {
               "de": "Nur du kannst mir helfen.",
-              "lv": "Tikai tu vari man palīdzēt."
+              "lv": "Alleen jij kunt me helpen."
             },
             {
               "de": "Ich möchte nur Kaffee.",
@@ -572,7 +572,7 @@
             },
             {
               "de": "Ich habe nur acht Euro.",
-              "lv": "Man ir tikai astoņi eiro."
+              "lv": "Ik heb maar acht euro."
             }
           ],
           "tip": [
@@ -608,19 +608,19 @@
           "examples": [
             {
               "de": "Ich weiß nicht, ob er kommt.",
-              "lv": "Es nezinu, vai viņš nāks."
+              "lv": "Ik weet niet of hij komt."
             },
             {
               "de": "Sie fragt, ob du Zeit hast.",
-              "lv": "Viņa jautā, vai tev ir laiks."
+              "lv": "Zij vraagt of je tijd hebt."
             },
             {
               "de": "Sag mir, ob das stimmt.",
-              "lv": "Pasaki man, vai tā ir taisnība."
+              "lv": "Zeg me of dat klopt."
             },
             {
               "de": "Kommst du heute oder morgen?",
-              "lv": "Vai tu nāksi šodien vai rīt?"
+              "lv": "Kom je vandaag of morgen?"
             }
           ],
           "comparison": [
@@ -646,7 +646,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: nezinu, vai... → ob; kafija vai tēja → oder."
+            "text": "Onthoud: ik weet niet of... → ob; koffie of thee → oder."
           },
           "important": [
             "ob is niet de normale 'of'-vorm tussen twee dingen.",
@@ -677,19 +677,19 @@
           "examples": [
             {
               "de": "Wir essen viel Obst.",
-              "lv": "Mēs ēdam daudz augļu."
+              "lv": "Wij eten veel fruit."
             },
             {
               "de": "Wir essen viel Obst.",
-              "lv": "Mēs ēdam daudz augļu."
+              "lv": "Wij eten veel fruit."
             },
             {
               "de": "Obst ist gesund.",
-              "lv": "Augļi ir veselīgi."
+              "lv": "Fruit is gezond."
             },
             {
               "de": "Ich mag Obst und Gemüse.",
-              "lv": "Man patīk augļi un dārzeņi."
+              "lv": "Ik hou van fruit en groenten."
             },
             {
               "de": "Wir essen Obst.",
@@ -729,19 +729,19 @@
           "examples": [
             {
               "de": "Kaffee oder Tee?",
-              "lv": "Kafiju vai tēju?"
+              "lv": "Koffie of thee?"
             },
             {
               "de": "Heute oder morgen?",
-              "lv": "Šodien vai rīt?"
+              "lv": "Vandaag of morgen?"
             },
             {
               "de": "Willst du Pizza oder Salat?",
-              "lv": "Vai tu gribi picu vai salātus?"
+              "lv": "Wil je pizza of salade?"
             },
             {
               "de": "Du kommst, oder?",
-              "lv": "Tu nāksi, vai ne?"
+              "lv": "Je komt toch?"
             }
           ],
           "comparison": [
@@ -767,7 +767,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: izvēle starp variantiem → oder."
+            "text": "Onthoud: een keuze tussen opties → oder."
           },
           "important": [
             "oder gebruik je voor keuze: Kaffee oder Tee.",
@@ -783,12 +783,12 @@
       "reason": "PENDING — On nl card passen|idx:471, the finding spans study.explanation; study.comparison; study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: passen betekent passen, staan of geschikt zijn.\\\",\\\"Bij kleding betekent passen meestal passen naar maat.\\\",\\\"Bij kleuren of stijl betekent passen goed s…”. Review the listed subfields separately against Latvian “derēt • piestāvēt” / German “passen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "passen",
-        "lv": "Derēt • Piestāvēt",
+        "lv": "passen • goed staan",
         "level": "A1",
         "study": {
           "id": "a1-passen",
           "layout": "standardStudy",
-          "translation": "Derēt • Piestāvēt",
+          "translation": "passen • goed staan",
           "explanation": [
             "Hoofdidee: passen betekent passen, staan of geschikt zijn.",
             "Bij kleding betekent passen meestal passen naar maat.",
@@ -806,7 +806,7 @@
             },
             {
               "de": "Die Farbe passt zu dir.",
-              "lv": "Šī krāsa tev piestāv."
+              "lv": "Deze kleur staat je goed."
             },
             {
               "de": "Das passt.",
@@ -852,12 +852,12 @@
       "reason": "PENDING — On nl card probieren|idx:482, the finding spans study.explanation, study.comparison, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: probieren betekent proberen of proeven.\\\",\\\"Als het om voedsel of drank gaat, betekent probieren vaak proeven.\\\",\\\"Als het om een methode, activiteit of …”. Review the listed subfields separately against Latvian “[\"Galvenā doma: probieren nozīmē izmēģināt vai nogaršot.\",\"Ja runa ir par ēdienu vai dzērienu, probieren bieži nozīmē nogaršot.\",\"Ja runa ir par darbību, metodi vai lietu, probieren nozīmē …” / German “probieren” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "probieren",
-        "lv": "Izmēģināt • Nogaršot",
+        "lv": "proberen • proeven",
         "level": "A1",
         "study": {
           "id": "a1-probieren",
           "layout": "standardStudy",
-          "translation": "Izmēģināt • Nogaršot",
+          "translation": "proberen • proeven",
           "explanation": [
             "Hoofdidee: probieren betekent proberen of proeven.",
             "Als het om voedsel of drank gaat, betekent probieren vaak proeven.",
@@ -867,15 +867,15 @@
           "examples": [
             {
               "de": "Probier mal die Suppe!",
-              "lv": "Pagaršo zupu!"
+              "lv": "Proef de soep!"
             },
             {
               "de": "Ich möchte den Kuchen probieren.",
-              "lv": "Es gribu nogaršot kūku."
+              "lv": "Ik wil de taart proeven."
             },
             {
               "de": "Wir probieren eine neue Methode.",
-              "lv": "Mēs izmēģinām jaunu metodi."
+              "lv": "Wij proberen een nieuwe methode."
             },
             {
               "de": "Kann ich die Jacke anprobieren?",
@@ -905,7 +905,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: ēdiens → probieren = nogaršot."
+            "text": "Onthoud: bij eten betekent probieren vaak proeven."
           },
           "important": [
             "probieren is niet het voornaamste woord voor officieel onderzoeken.",
@@ -980,12 +980,12 @@
       "reason": "PENDING — On nl card schauen|idx:510, the finding spans study.explanation, study.comparison, study.tip, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: kijken of actief kijken.\\\",\\\"Schauen galvenokārt nozīmē: aktīvi skatīties.\\\",\\\"Vaak gekenmerkt door: actie.\\\",\\\"Schauen nozīmē aktīvi skatīties.\\\"]\",\"stu…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: Aktīvi skatīties vai palūkoties.\",\"schauen galvenokārt nozīmē: aktīvi skatīties.\",\"Bieži raksturo: darbību.\",\"schauen nozīmē aktīvi skatīties.\"]” / German “schauen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "schauen",
-        "lv": "Skatīties",
+        "lv": "kijken",
         "level": "A1",
         "study": {
           "id": "a1-schauen-study",
           "layout": "standardStudy",
-          "translation": "Skatīties",
+          "translation": "kijken",
           "explanation": [
             "Hoofdidee: actief kijken of even kijken.",
             "schauen betekent vooral actief kijken.",
@@ -999,7 +999,7 @@
             },
             {
               "de": "Wir schauen aus dem Fenster.",
-              "lv": "Mēs skatāmies pa logu."
+              "lv": "Wij kijken uit het raam."
             },
             {
               "de": "Ich schaue fern.",
@@ -1051,7 +1051,7 @@
           "examples": [
             {
               "de": "Ich bin schon zu Hause.",
-              "lv": "Es jau esmu mājās."
+              "lv": "Ik ben al thuis."
             }
           ],
           "tip": [
@@ -1072,12 +1072,12 @@
       "reason": "PENDING — On nl card schwimmen|idx:531, the cited path study.explanation; study.comparison[].example; study.important does not exist. For the TARGET_LANGUAGE_CONTAMINATION claim concerning Latvian “peldēt” / German “schwimmen”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "schwimmen",
-        "lv": "Peldēt",
+        "lv": "zwemmen",
         "level": "A1",
         "study": {
           "id": "a1-schwimmen",
           "layout": "standardStudy",
-          "translation": "Peldēt",
+          "translation": "zwemmen",
           "explanation": [
             "Hoofdidee: schwimmen betekent zwemmen als beweging of sport.",
             "Je gebruikt schwimmen wanneer iemand zich met zwembewegingen door het water beweegt.",
@@ -1087,45 +1087,45 @@
           "examples": [
             {
               "de": "Ich schwimme gern.",
-              "lv": "Man patīk peldēt."
+              "lv": "Ik zwem graag."
             },
             {
               "de": "Er schwimmt sehr gut.",
-              "lv": "Viņš ļoti labi peld."
+              "lv": "Hij zwemt heel goed."
             },
             {
               "de": "Wir schwimmen im Schwimmbad.",
-              "lv": "Mēs peldam baseinā."
+              "lv": "Wij zwemmen in het zwembad."
             },
             {
               "de": "Ich gehe baden.",
-              "lv": "Es eju peldēties."
+              "lv": "Ik ga baden."
             }
           ],
           "comparison": [
             {
               "word": "schwimmen",
-              "meaning": "Peldēt kā kustība vai sports",
+              "meaning": "zwemmen als beweging of sport",
               "example": "Hij zwemt erg goed."
             },
             {
               "word": "baden",
-              "meaning": "Peldēties / atrasties ūdenī",
+              "meaning": "baden / in het water zijn",
               "example": "Ik ga baden."
             },
             {
               "word": "schwimmen gehen",
-              "meaning": "Iet peldēt",
+              "meaning": "gaan zwemmen",
               "example": "Wij gaan zwemmen."
             },
             {
               "word": "duschen",
-              "meaning": "Mazgāties dušā",
+              "meaning": "douchen",
               "example": "Ik douche 's ochtends."
             }
           ],
           "tip": {
-            "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
+            "text": "Onthoud: zwembeweging → schwimmen; baden of ontspannen in water → baden."
           },
           "important": [
             "schwimmen en baden zijn niet hetzelfde.",
@@ -1141,12 +1141,12 @@
       "reason": "PENDING — On nl card sehen|idx:539, the cited path study.explanation; study.examples[1].lv; study.comparison[].example; study.important does not exist. For the TARGET_LANGUAGE_CONTAMINATION claim concerning Latvian “redzēt” / German “sehen”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "sehen",
-        "lv": "Redzēt",
+        "lv": "zien",
         "level": "A1",
         "study": {
           "id": "a1-sehen",
           "layout": "standardStudy",
-          "translation": "Redzēt",
+          "translation": "zien",
           "explanation": [
             "Hoofdidee: sehen betekent zien met de ogen.",
             "Als het gaat om wat je ogen waarnemen, gebruik je sehen.",
@@ -1168,33 +1168,33 @@
             },
             {
               "de": "Wir schauen einen Film.",
-              "lv": "Mēs skatāmies filmu."
+              "lv": "Wij kijken naar een film."
             }
           ],
           "comparison": [
             {
               "word": "sehen",
-              "meaning": "Redzēt",
+              "meaning": "zien",
               "example": "Ik zie je."
             },
             {
               "word": "schauen",
-              "meaning": "Skatīties",
+              "meaning": "kijken",
               "example": "Ik kijk naar de afbeelding."
             },
             {
               "word": "ansehen",
-              "meaning": "Apskatīt / skatīties",
+              "meaning": "bekijken / kijken naar",
               "example": "Ik kijk naar de film."
             },
             {
               "word": "hören",
-              "meaning": "Dzirdēt",
+              "meaning": "horen",
               "example": "Ik hoor muziek."
             }
           ],
           "tip": {
-            "text": "Atceries: acis uztver → sehen; apzināti skaties → schauen/ansehen."
+            "text": "Onthoud: met de ogen waarnemen → sehen; bewust kijken → schauen/ansehen."
           },
           "important": [
             "sehen is niet hetzelfde als anschauen.",
@@ -1218,14 +1218,14 @@
           "translation": "zijn",
           "explanation": [
             "Hoofdidee: sein betekent zijn.",
-            "Sein ir viens no svarīgākajiem vācu darbības vārdiem.",
+            "sein is een van de belangrijkste Duitse werkwoorden.",
             "Op A1-niveau zijn bijzonder belangrijke vormen ik ben, jij bent, hij is en wij zijn.",
-            "Sein lieto arī daudzos teikumos ar atrašanās vietu vai īpašību."
+            "sein wordt ook gebruikt in veel zinnen over een plaats of eigenschap."
           ],
           "examples": [
             {
               "de": "Ich bin hier.",
-              "lv": "Es esmu šeit."
+              "lv": "Ik ben hier."
             },
             {
               "de": "Du bist müde.",
@@ -1233,7 +1233,7 @@
             },
             {
               "de": "Er ist Lehrer.",
-              "lv": "Viņš ir skolotājs."
+              "lv": "Hij is leraar."
             },
             {
               "de": "Wir sind zu Hause.",
@@ -1243,22 +1243,22 @@
           "comparison": [
             {
               "word": "sein",
-              "meaning": "Zijn",
+              "meaning": "zijn",
               "example": "Ik ben hier."
             },
             {
               "word": "haben",
-              "meaning": "Ik heb",
+              "meaning": "hebben",
               "example": "Ik heb tijd."
             },
             {
               "word": "werden",
-              "meaning": "Kļūt",
+              "meaning": "worden",
               "example": "Ik word moe."
             },
             {
               "word": "bleiben",
-              "meaning": "Palikt",
+              "meaning": "blijven",
               "example": "Ik blijf hier."
             }
           ],
@@ -1302,23 +1302,23 @@
             },
             {
               "de": "Auf der linken Seite ist ein Park.",
-              "lv": "Kreisajā pusē ir parks."
+              "lv": "Aan de linkerkant ligt een park."
             },
             {
               "de": "Die Webseite lädt langsam.",
-              "lv": "Tīmekļa lappuse ielādējas lēni."
+              "lv": "De webpagina laadt langzaam."
             },
             {
               "de": "Er steht auf meiner Seite.",
-              "lv": "Viņš ir manā pusē."
+              "lv": "Hij staat aan mijn kant."
             },
             {
               "de": "Das Buch hat 200 Seiten.",
-              "lv": "Grāmatai ir 200 lappuses."
+              "lv": "Het boek heeft 200 pagina's."
             },
             {
               "de": "Auf der anderen Seite der Straße.",
-              "lv": "Otrā ielas pusē."
+              "lv": "Aan de overkant van de straat."
             }
           ],
           "tip": [
@@ -1354,45 +1354,45 @@
           "examples": [
             {
               "de": "Er wäscht sich.",
-              "lv": "Viņš mazgājas."
+              "lv": "Hij wast zich."
             },
             {
               "de": "Ich setze mich.",
-              "lv": "Es apsēžos."
+              "lv": "Ik ga zitten."
             },
             {
               "de": "Sie freut sich.",
-              "lv": "Viņa priecājas."
+              "lv": "Zij is blij."
             },
             {
               "de": "Ich wasche das Auto.",
-              "lv": "Es mazgāju auto."
+              "lv": "Ik was de auto."
             }
           ],
           "comparison": [
             {
               "word": "sich",
-              "meaning": "Sevi / sev",
+              "meaning": "zichzelf",
               "example": "Hij wast zich."
             },
             {
               "word": "mich",
-              "meaning": "Mani / sevi pie ich",
+              "meaning": "mezelf / me bij ich",
               "example": "Ik was me."
             },
             {
               "word": "dich",
-              "meaning": "Tevi / sevi pie du",
+              "meaning": "jezelf / je bij du",
               "example": "Jij wast je."
             },
             {
               "word": "ihn",
-              "meaning": "Viņu",
+              "meaning": "hem",
               "example": "Ik zie hem."
             }
           ],
           "tip": {
-            "text": "Atceries: darbība uz sevi → sich/mich/dich."
+            "text": "Onthoud: een handeling op jezelf → sich/mich/dich."
           },
           "important": [
             "sich is geen zelfstandig woord.",
@@ -1408,12 +1408,12 @@
       "reason": "PENDING — On nl card sprechen|idx:5, the cited path study.explanation, study.examples.lv, study.comparison, study.tip, study.important does not exist. For the LV_TRANSLATION_ERROR claim concerning Latvian “[\"Galvenā doma: Runāt, sarunāties vai lietot valodu.\",\"sprechen galvenokārt nozīmē: runāt vai sarunāties.\",\"Bieži raksturo: valodu/sarunu.\",\"sprechen raksturo runāšanu vai valodas lietošanu…” / German “sprechen”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "sprechen",
-        "lv": "Runāt",
+        "lv": "spreken",
         "level": "A1",
         "study": {
           "id": "a1-sprechen-study",
           "layout": "standardStudy",
-          "translation": "Runāt",
+          "translation": "spreken",
           "explanation": [
             "Hoofdidee: spreken, een gesprek voeren of een taal gebruiken.",
             "sprechen betekent vooral spreken of een gesprek voeren.",
@@ -1467,12 +1467,12 @@
       "reason": "PENDING — On nl card stehen|idx:576, the finding spans study.explanation, study.examples, study.comparison, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: stehen betekent staan of zich staande bevinden.\\\",\\\"Voor een persoon betekent stehen staan.\\\",\\\"Voor een voorwerp betekent stehen dat het staand is of op…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: stehen nozīmē stāvēt vai atrasties stāvus.\",\"Par cilvēku stehen nozīmē stāvēt.\",\"Par priekšmetu stehen nozīmē, ka tas atrodas stāvus vai noteiktā vietā.\",\"Svarīgi nošķirt: s…” / German “stehen” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "stehen",
-        "lv": "Stāvēt",
+        "lv": "staan",
         "level": "A1",
         "study": {
           "id": "a1-stehen",
           "layout": "standardStudy",
-          "translation": "Stāvēt",
+          "translation": "staan",
           "explanation": [
             "Hoofdidee: stehen betekent staan of zich staande bevinden.",
             "Voor een persoon betekent stehen staan.",
@@ -1520,7 +1520,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: stāvus → stehen; sēdus → sitzen; guļus → liegen."
+            "text": "Onthoud: rechtop → stehen; zittend → sitzen; liggend → liegen."
           },
           "important": [
             "stehen toont een toestand, niet de actie \"neerzetten\".",
@@ -1551,19 +1551,19 @@
           "examples": [
             {
               "de": "Die Lampe hängt über dem Tisch.",
-              "lv": "Lampa karājas virs galda."
+              "lv": "De lamp hangt boven de tafel."
             },
             {
               "de": "Wir sprechen über das Wetter.",
-              "lv": "Mēs runājam par laiku."
+              "lv": "Wij praten over het weer."
             },
             {
               "de": "Das Kind läuft über die Straße.",
-              "lv": "Bērns skrien pāri ielai."
+              "lv": "Het kind rent de straat over."
             },
             {
               "de": "Ich freue mich über das Geschenk.",
-              "lv": "Es priecājos par dāvanu."
+              "lv": "Ik ben blij met het cadeau."
             }
           ],
           "comparison": [
@@ -1589,7 +1589,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: tēma sarunā → über; virs galda → über."
+            "text": "Onthoud: gespreksonderwerp → über; boven de tafel → über."
           },
           "important": [
             "über is niet alleen een plaatsaanduiding.",
@@ -1605,7 +1605,7 @@
       "reason": "PENDING — On nl card Uhr|idx:698, the finding spans study; the captured production value begins “{\"study.translation\":\"Pulkstenis\",\"study.explanation\":\"[\\\"Hoofdidee: Klok of horloge. Ook het uur aanduiden: Es ist acht Uhr.\\\",\\\"Die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.\\\",\\…”. Review the listed subfields separately against Latvian “pulkstenis” / German “Uhr” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "Uhr",
-        "lv": "Pulkstenis",
+        "lv": "klok • uur",
         "level": "A1",
         "de_article": "die",
         "de_plural": "die Uhren",
@@ -1678,45 +1678,45 @@
           "examples": [
             {
               "de": "Ich komme um acht Uhr.",
-              "lv": "Es atnākšu pulksten astoņos."
+              "lv": "Ik kom om acht uur."
             },
             {
               "de": "Wir sitzen um den Tisch.",
-              "lv": "Mēs sēžam ap galdu."
+              "lv": "Wij zitten rond de tafel."
             },
             {
               "de": "Er geht um die Ecke.",
-              "lv": "Viņš iet ap stūri."
+              "lv": "Hij gaat de hoek om."
             },
             {
               "de": "Ich lerne, um Deutsch zu sprechen.",
-              "lv": "Es mācos, lai runātu vāciski."
+              "lv": "Ik leer om Duits te spreken."
             }
           ],
           "comparison": [
             {
               "word": "um",
-              "meaning": "Pulksten / ap / lai",
+              "meaning": "om (tijd / rondom)",
               "example": "Ich komme um acht."
             },
             {
               "word": "am",
-              "meaning": "Dienā / pie",
+              "meaning": "op / bij",
               "example": "Am Montag komme ich."
             },
             {
               "word": "gegen",
-              "meaning": "Ap laiku / pret",
+              "meaning": "rondom",
               "example": "Ich komme gegen acht."
             },
             {
               "word": "für",
-              "meaning": "Priekš / par labu",
+              "meaning": "voor / ten behoeve van",
               "example": "Das ist für dich."
             }
           ],
           "tip": {
-            "text": "Atceries: um acht = pulksten astoņos."
+            "text": "Onthoud: um acht = om acht uur."
           },
           "important": [
             "um met tijd betekent meestal \"uur\".",
@@ -1751,31 +1751,31 @@
             },
             {
               "de": "Die Katze liegt unter dem Stuhl.",
-              "lv": "Kaķis guļ zem krēsla."
+              "lv": "De kat ligt onder de stoel."
             },
             {
               "de": "Unter Freunden sagt man das so.",
-              "lv": "Draugu starpā tā saka."
+              "lv": "Onder vrienden zeg je dat zo."
             },
             {
               "de": "Die Lampe hängt über dem Tisch.",
-              "lv": "Lampa karājas virs galda."
+              "lv": "De lamp hangt boven de tafel."
             }
           ],
           "comparison": [
             {
               "word": "unter",
-              "meaning": "Zem / starp",
+              "meaning": "onder / tussen",
               "example": "Die Tasche ist unter dem Tisch."
             },
             {
               "word": "über",
-              "meaning": "Virs / par",
+              "meaning": "boven / over",
               "example": "Die Lampe hängt über dem Tisch."
             },
             {
               "word": "zwischen",
-              "meaning": "Starp divām lietām",
+              "meaning": "tussen twee dingen",
               "example": "Zwischen den Häusern."
             },
             {
@@ -1801,13 +1801,13 @@
       "reason": "PENDING — On nl card Urlaub|idx:695, the finding spans study.explanation; study.tip; study.important; study.comparison; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: alleen enkelvoud. Vakantie van werk — altijd enkelvoud.\\\",\\\"Der Urlaub galvenokārt nozīmē: brīvais laiks no darba.\\\",\\\"Vaak gekenmerkt door: alleen enkel…”. Review the listed subfields separately against Latvian “atvaļinājums” / German “Urlaub” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "Urlaub",
-        "lv": "Atvaļinājums",
+        "lv": "vakantie • verlof",
         "level": "A1",
         "de_article": "der",
         "study": {
           "id": "a1-urlaub",
           "layout": "standardStudy",
-          "translation": "Atvaļinājums",
+          "translation": "vakantie • verlof",
           "explanation": [
             "Hoofdidee: vakantie of verlof van het werk; in deze betekenis alleen enkelvoud.",
             "der Urlaub betekent vooral vrije tijd van het werk.",
@@ -1817,23 +1817,23 @@
           "examples": [
             {
               "de": "Mein Vater ist im Urlaub.",
-              "lv": "Mans tēvs ir atvaļinājumā."
+              "lv": "Mijn vader is met vakantie."
             },
             {
               "de": "Mein Vater ist im Urlaub.",
-              "lv": "Mans tēvs ir atvaļinājumā."
+              "lv": "Mijn vader is met vakantie."
             },
             {
               "de": "Nächste Woche habe ich Urlaub.",
-              "lv": "Nākamnedēļ man ir atvaļinājums."
+              "lv": "Volgende week heb ik vakantie."
             },
             {
               "de": "Wir machen Urlaub in Spanien.",
-              "lv": "Mēs pavadām atvaļinājumu Spānijā."
+              "lv": "Wij vieren vakantie in Spanje."
             },
             {
               "de": "im Urlaub",
-              "lv": "Atvaļinājumā (darbs)."
+              "lv": "met vakantie / met verlof"
             }
           ],
           "comparison": [
@@ -1887,7 +1887,7 @@
             },
             {
               "de": "Verstehst du Deutsch?",
-              "lv": "Vai tu saproti vāciski?"
+              "lv": "Begrijp je Duits?"
             },
             {
               "de": "Ich verstehe das nicht.",
@@ -1895,33 +1895,33 @@
             },
             {
               "de": "Ich kann Deutsch sprechen.",
-              "lv": "Es protu runāt vāciski."
+              "lv": "Ik kan Duits spreken."
             }
           ],
           "comparison": [
             {
               "word": "verstehen",
-              "meaning": "Saprast",
+              "meaning": "begrijpen",
               "example": "Ich verstehe dich."
             },
             {
               "word": "können",
-              "meaning": "Varēt / prast",
+              "meaning": "kunnen",
               "example": "Ich kann schwimmen."
             },
             {
               "word": "wissen",
-              "meaning": "Zināt faktu",
+              "meaning": "een feit weten",
               "example": "Ich weiß das."
             },
             {
               "word": "kennen",
-              "meaning": "Pazīt",
+              "meaning": "kennen",
               "example": "Ich kenne ihn."
             }
           ],
           "tip": {
-            "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
+            "text": "Onthoud: een tekst of persoon begrijpen → verstehen; iets kunnen doen → können."
           },
           "important": [
             "verstehen is niet het hoofdwoord voor de betekenis \"kunnen\".",
@@ -1953,35 +1953,35 @@
           "examples": [
             {
               "de": "Ich komme vom Bahnhof.",
-              "lv": "Es nāku no stacijas."
+              "lv": "Ik kom van het station."
             },
             {
               "de": "Das Geschenk ist vom Vater.",
-              "lv": "Dāvana ir no tēva."
+              "lv": "Het cadeau is van vader."
             },
             {
               "de": "Er kommt vom Arzt.",
-              "lv": "Viņš nāk no ārsta."
+              "lv": "Hij komt van de dokter."
             },
             {
               "de": "Sie fährt vom Flughafen.",
-              "lv": "Viņa brauc no lidostas."
+              "lv": "Zij rijdt vanaf de luchthaven."
             },
             {
               "de": "Das ist vom Markt.",
-              "lv": "Tas ir no tirgus."
+              "lv": "Wij komen van het feest."
             },
             {
               "de": "Wir kommen vom Fest.",
-              "lv": "Mēs nākam no svinībām."
+              "lv": "Wij komen van het feest."
             },
             {
               "de": "Er holt Milch vom Bauern.",
-              "lv": "Viņš paņem pienu no zemnieka."
+              "lv": "Hij haalt de melk bij de boer."
             },
             {
               "de": "Die Nachricht ist vom Chef.",
-              "lv": "Ziņa ir no priekšnieka."
+              "lv": "Het bericht is van de baas."
             }
           ],
           "comparison": [
@@ -2031,12 +2031,12 @@
       "reason": "PENDING — On nl card vor|idx:636, the finding spans study.explanation, study.examples, study.comparison, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: vor betekent voor in tijd of ervoor in plaats.\\\",\\\"Als het gaat om tijd, betekent vor voor/vóór.\\\",\\\"Als het gaat om plaats, betekent vor ervoor of bij.\\…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: vor nozīmē pirms laikā vai priekšā vietā.\",\"Ja runa ir par laiku, vor nozīmē pirms.\",\"Ja runa ir par vietu, vor nozīmē priekšā vai pie.\",\"Pulksteņa laikā vor nozīmē “līdz”, …” / German “vor” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "vor",
-        "lv": "Pirms • Priekšā",
+        "lv": "vóór • voor",
         "level": "A1",
         "study": {
           "id": "a1-vor",
           "layout": "standardStudy",
-          "translation": "Pirms • Priekšā",
+          "translation": "vóór • voor",
           "explanation": [
             "Hoofdidee: vor betekent voor in tijd of ervoor in plaats.",
             "Als het gaat om tijd, betekent vor voor/vóór.",
@@ -2084,7 +2084,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: pirms laikā, priekšā vietā → vor."
+            "text": "Onthoud: vóór in de tijd, voor bij een plaats → vor."
           },
           "important": [
             "vor kan zowel tijd als plaats zijn.",
@@ -2183,7 +2183,7 @@
             },
             {
               "de": "Wenn es regnet, bleibe ich zu Hause.",
-              "lv": "Ja līst, es palieku mājās."
+              "lv": "Als het regent, blijf ik thuis."
             },
             {
               "de": "Wenn ich müde bin, trinke ich Kaffee.",
@@ -2191,7 +2191,7 @@
             },
             {
               "de": "Ich weiß nicht, ob er kommt.",
-              "lv": "Es nezinu, vai viņš nāks."
+              "lv": "Ik weet niet of hij komt."
             }
           ],
           "comparison": [
@@ -2217,7 +2217,7 @@
             }
           ],
           "tip": {
-            "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
+            "text": "Onthoud: voorwaarde → wenn; vraag 'wanneer?' → wann."
           },
           "important": [
             "wenn en wann zijn niet hetzelfde.",
@@ -2233,12 +2233,12 @@
       "reason": "PENDING — On nl card wer|idx:656, the finding spans study.explanation, study.examples, study.tip, study.important; the captured production value begins “{\"study.explanation\":\"[\\\"Hoofdidee: wer is het vraagwoord voor personen — in het Nederlands is dat wie of welke.\\\",\\\"Wer jautā par cilvēkiem, ne par lietām vai notikumiem.\\\",\\\"Over dingen e…”. Review the listed subfields separately against Latvian “[\"Galvenā doma: wer ir jautājamvārds par personas identitāti — latviski tas ir kas vai kurš.\",\"wer jautā par cilvēkiem, ne par lietām vai notikumiem.\",\"Par lietām un notikumiem jautā ar was…” / German “wer” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "wer",
-        "lv": "Kas • Kurš",
+        "lv": "wie",
         "level": "A1",
         "study": {
           "id": "a1-wer",
           "layout": "standardStudy",
-          "translation": "Kas • Kurš",
+          "translation": "wie",
           "explanation": [
             "Hoofdidee: wer is het vraagwoord voor personen; in het Nederlands is dat wie.",
             "wer vraagt naar mensen, niet naar dingen of gebeurtenissen.",
@@ -2297,13 +2297,13 @@
       "reason": "PENDING — On nl card wissen|idx:311, the cited path study.explanation; study.examples[].lv; study.comparison; study.tip; study.important does not exist. For the TRANSLATION_ERROR claim concerning Latvian “zināt” / German “wissen”, identify the exact existing target field (or approve a schema addition) and its complete nl wording.",
       "new": {
         "de": "wissen",
-        "lv": "Zināt",
+        "lv": "weten",
         "level": "A1",
         "id": "a1-wissen",
         "study": {
           "id": "a1-wissen-study",
           "layout": "standardStudy",
-          "translation": "Zināt",
+          "translation": "weten",
           "explanation": [
             "Hoofdidee: feiten, antwoorden of informatie weten.",
             "wissen betekent vooral een feit of informatie weten.",
@@ -2355,7 +2355,7 @@
       "reason": "PENDING — On nl card Zeit|idx:699, the finding spans study; the captured production value begins “{\"study.translation\":\"Laiks (brīdis / laika posms)\",\"study.explanation\":\"[\\\"Hoofdidee: Tijd als concept — moment, kans, tijdsperiode.\\\",\\\"Die Zeit galvenokārt nozīmē: brīdis, iespēja.\\\",\\\"V…”. Review the listed subfields separately against Latvian “laiks (brīdis / laika posms)” / German “Zeit” and name each exact field-level replacement; one scalar owner_new cannot safely encode this composite change.",
       "new": {
         "de": "Zeit",
-        "lv": "Laiks (brīdis / laika posms)",
+        "lv": "tijd (moment / tijdsperiode)",
         "level": "A1",
         "de_article": "die",
         "de_plural": "die Zeiten",
@@ -2421,35 +2421,31 @@
           "examples": [
             {
               "de": "Ich gehe zum Arzt.",
-              "lv": "Es eju pie ārsta."
+              "lv": "Ik ga naar de dokter."
             },
             {
               "de": "Wir fahren zum Bahnhof.",
-              "lv": "Mēs braucam uz staciju."
+              "lv": "Wij rijden naar het station."
             },
             {
               "de": "Sie geht zum Supermarkt.",
-              "lv": "Viņa iet uz veikalu."
+              "lv": "Zij gaat naar de winkel."
             },
             {
               "de": "Komm zum Essen!",
-              "lv": "Nāc ēst!"
+              "lv": "Kom eten!"
             },
             {
               "de": "Er fährt zum Flughafen.",
-              "lv": "Viņš brauc uz lidostu."
+              "lv": "Hij rijdt naar de luchthaven."
             },
             {
               "de": "Wir gehen zum Konzert.",
-              "lv": "Mēs ejam uz koncertu."
+              "lv": "Wij gaan naar het concert."
             },
             {
               "de": "Das Geschenk ist zum Geburtstag.",
-              "lv": "Dāvana ir dzimšanas dienai."
-            },
-            {
-              "de": "Ich gehe zum Friseur.",
-              "lv": "Es eju pie friziera."
+              "lv": "Het cadeau is voor de verjaardag."
             }
           ],
           "comparison": [
@@ -2499,51 +2495,51 @@
       "reason": "Individually reviewed nn exact field a1.card.a1-ab.study.comparison[1].meaning for “ab” against Latvian “no kāda/kaut kā • izcelsme” and production “Kellestki/millestki • Päritolu”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.",
       "new": {
         "de": "ab",
-        "lv": "-st",
+        "lv": "frå • frå og med",
         "level": "A1",
         "study": {
           "id": "a1-ab",
           "layout": "standardStudy",
-          "translation": "-st",
-          "explanation": "Kasutatakse, kui miski algab kindlast ajast, koestat või punkst. Betyr ofte \"alates\".",
+          "translation": "frå • frå og med",
+          "explanation": "Blir brukt når noko tek til frå eit bestemt tidspunkt, ein stad eller eit punkt. Tyder ofte «frå og med».",
           "examples": [
             {
               "de": "ab heute",
-              "lv": "Alates tänasest",
+              "lv": "frå og med i dag",
               "level": "A1"
             },
             {
               "de": "ab Montag",
-              "lv": "God påske"
+              "lv": "frå og med måndag"
             },
             {
               "de": "ab 8 Uhr",
-              "lv": "Alates kjele 8 stk"
+              "lv": "frå klokka åtte"
             },
             {
               "de": "ab Bahnhof",
-              "lv": "Faktisk"
+              "lv": "frå stasjonen"
             }
           ],
           "comparison": [
             {
               "word": "ab",
-              "meaning": "Alates punktlig/ajast",
-              "example": "ab Montag – God påske"
+              "meaning": "frå eit punkt eller tidspunkt",
+              "example": "ab Montag – frå og med måndag"
             },
             {
               "word": "von",
               "meaning": "frå nokon/noko • opphav",
-              "example": "von mir – Minutt"
+              "example": "von mir – frå meg"
             },
             {
               "word": "aus",
-              "meaning": "Seest velge",
-              "example": "aus dem Haus – Kanskje / kanskje velge"
+              "meaning": "ut frå innsida",
+              "example": "aus dem Haus – ut av huset"
             }
           ],
           "tip": {
-            "text": "Atceries: sākuma punkts laikā/vietā → ab."
+            "text": "Hugs: startpunkt i tid eller stad → ab."
           },
           "important": [
             "ab viser startpunktet i tid eller stad.",
@@ -2559,46 +2555,46 @@
       "reason": "Individually reviewed nn exact field a1.card.a1-aber.study.comparison[0].meaning for “aber” against Latvian “pretstats • iebilde • tomēr” and production “Vastand • Vastuväide • Sikkät”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.",
       "new": {
         "de": "aber",
-        "lv": "Aga",
+        "lv": "men",
         "level": "A1",
         "study": {
           "id": "a1-aber",
           "layout": "standardStudy",
-          "translation": "Aga",
-          "explanation": "Kasutatakse vastanduse sissetoomiseks või vastuväite ekspretamiseks. Betyr ofte \"igjen\", \"siiski\" eller \"ometi\".",
+          "translation": "men",
+          "explanation": "Blir brukt for å uttrykkje ei motsetning eller innvending. Tyder oftast «men».",
           "examples": [
             {
               "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-              "lv": "Ma tahan kaasa tulla, aga mul ei ole aega."
+              "lv": "Eg vil gjerne vere med, men eg har ikkje tid."
             },
             {
               "de": "Das Essen war lecker, aber zu teuer.",
-              "lv": "Toit oli maitsev, aga liiga kallis."
+              "lv": "Maten var god, men for dyr."
             },
             {
               "de": "Er hat recht, aber ich sehe das anders.",
-              "lv": "Tal on égis, aga ma arvan teisiti."
+              "lv": "Han har rett, men eg ser annleis på det."
             }
           ],
           "comparison": [
             {
               "word": "aber",
               "meaning": "motsetnad • innvending • men",
-              "example": "Ich komme, aber später. – Ma tulen, aga laim."
+              "example": "Ich komme, aber später. – Eg kjem, men seinare."
             },
             {
               "word": "sondern",
-              "meaning": "Senter • Ugyldig",
-              "example": "Ich wollte keinen Tee, sondern Kaffee. – Ma tahtsin teed, mitte kaffi."
+              "meaning": "ikkje ... men derimot",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. – Eg ville ikkje ha te, men kaffi."
             },
             {
               "word": "jedoch",
-              "meaning": "Imidlertid",
-              "example": "Es ist kalt, jedoch sonnig. – På kõr, säyää säääline."
+              "meaning": "likevel • derimot",
+              "example": "Es ist kalt, jedoch sonnig. – Det er kaldt, men solrikt."
             }
           ],
           "tip": {
-            "text": "Atceries: pretstats/iebilde → aber."
+            "text": "Hugs: motsetnad eller innvending → aber."
           },
           "important": [
             "aber viser motsetnad eller innvending.",
@@ -2614,50 +2610,50 @@
       "reason": "Individually reviewed nn exact field a1.card.a1-also.study.comparison[0].meaning for “also” against Latvian “tātad • līdz ar to” and production “Seega • Järelikult”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.",
       "new": {
         "de": "also",
-        "lv": "Seega",
+        "lv": "altså • dermed",
         "level": "A1",
         "study": {
           "id": "a1-also",
           "layout": "standardStudy",
-          "translation": "Seega",
-          "explanation": "Kasutatakse täätäse täätää või tunuse täämämiseks. Betyr \"seega\", \"järelikult\".",
+          "translation": "altså • dermed",
+          "explanation": "Blir brukt for å uttrykkje ei slutning eller ein konsekvens. Tyder «altså» eller «dermed».",
           "examples": [
             {
               "de": "Es regnet, also bleibe ich zu Hause.",
-              "lv": "Sajab wimhna, seepåråt jään ma koju."
+              "lv": "Det regnar, så eg blir heime."
             },
             {
               "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-              "lv": "Sa oled haige, seepårät sa ei ähä yobelle."
+              "lv": "Du er sjuk, så du går ikkje på jobb."
             },
             {
               "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-              "lv": "Ma olen palju säytanud, seega saan nüüd aru."
+              "lv": "Eg har lært mykje, så no forstår eg det."
             }
           ],
           "comparison": [
             {
               "word": "also",
               "meaning": "altså • dermed",
-              "example": "Es regnet, also bleibe ich zu Hause. – Sajab wimhna, ösnikult jään koju."
+              "example": "Es regnet, also bleibe ich zu Hause. – Det regnar, så eg blir heime."
             },
             {
               "word": "auch",
-              "meaning": "Ka",
-              "example": "Ich komme auch. – Ma tulen ka."
+              "meaning": "òg • også",
+              "example": "Ich komme auch. – Eg kjem òg."
             },
             {
               "word": "deshalb",
-              "meaning": "Derfor",
-              "example": "Es regnet, deshalb bleibe ich zu Hause. – Sajab wimhna, seepåråt jään koju."
+              "meaning": "difor",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Det regnar, difor blir eg heime."
             }
           ],
           "tip": {
-            "text": "Atceries: secinājums → also."
+            "text": "Hugs: slutning → also."
           },
           "important": [
             "also viser slutning: frå det som er sagt før følgjer neste tanke.",
-            "Det latviske \"tāpēc\" kan ofte vere deshalb òg."
+            "Ordet som svarar til «difor», kan ofte vere deshalb òg."
           ]
         }
       }
@@ -2678,9 +2674,9 @@
           "layout": "standardStudy",
           "translation": "besøk",
           "explanation": [
-            "Hovudidé: der Besuch betyr besøk, besøk eller oppsøk.",
-            "Hvis det gjeld ein stad eller arrangement, er besøk gjerne passande på norsk.",
-            "Hvis det gjeld å besøkje ein person, kan ein seie besøk eller oppsøk på norsk.",
+            "Hovudidé: der Besuch tyder besøk, vitjing eller visitt.",
+            "Når det gjeld ein stad eller eit arrangement, passar besøk ofte godt på norsk.",
+            "Når det gjeld ein person, kan ein seie besøk eller vitjing.",
             "Fleirtal er die Besuche."
           ],
           "examples": [
@@ -2694,7 +2690,7 @@
             },
             {
               "de": "Der Arzt macht einen Besuch.",
-              "lv": "Legen gjer ein besøksrunde."
+              "lv": "Legen dreg på sjukebesøk."
             }
           ],
           "comparison": [
@@ -2705,20 +2701,20 @@
             },
             {
               "word": "der Besucher",
-              "meaning": "Külastaja",
+              "meaning": "besøkjar",
               "example": "Der Besucher wartet draußen. – Besøkjaren ventar ute."
             },
             {
               "word": "besuchen",
-              "meaning": "besøkje • besøkje",
-              "example": "Ich besuche meine Großeltern. – Eg besøkjer oldeforeldrene mine."
+              "meaning": "besøkje • vitje",
+              "example": "Ich besuche meine Großeltern. – Eg vitjar besteforeldra mine."
             }
           ],
           "tip": {
-            "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+            "text": "Hugs: Besuch er eit besøk eller ei vitjing, medan Besucher er ein person."
           },
           "important": [
-            "der Besuch er ikkje berre besøk; det kan og vere oppsøk eller besøk.",
+            "der Besuch kan vere eit besøk, ei vitjing eller ein visitt.",
             "Fleirtal: die Besuche."
           ]
         }
@@ -2738,10 +2734,10 @@
           "layout": "standardStudy",
           "translation": "besøkje",
           "explanation": [
-            "Hovudidé: besuchen brukar ein når ein besøkjer ein stad, arrangement eller person.",
-            "Stad, arrangement eller kurs blir vanleg besøkt på norsk.",
-            "Hvis besuchen gjeld ein person, er det ofte naturlegare å seie besøkje på norsk.",
-            "På tysk brukar ein besuchen utan forsetning og med akkusativ."
+            "Hovudidé: besuchen bruker ein når ein besøkjer ein stad, eit arrangement eller ein person.",
+            "Ein stad, eit arrangement eller eit kurs kan ein besøkje.",
+            "Når besuchen gjeld ein person, er vitje eller besøkje naturlege norske ord.",
+            "På tysk bruker ein besuchen utan preposisjon og med akkusativ."
           ],
           "examples": [
             {
@@ -2750,18 +2746,18 @@
             },
             {
               "de": "Wir besuchen einen Deutschkurs.",
-              "lv": "Vi besøkjer tyskkursen."
+              "lv": "Vi går på eit tyskkurs."
             },
             {
               "de": "Ich besuche meine Großeltern.",
-              "lv": "Eg besøkjer oldeforeldrene mine."
+              "lv": "Eg vitjar besteforeldra mine."
             }
           ],
           "comparison": [
             {
               "word": "besuchen",
               "meaning": "vitje ein stad eller eit arrangement • vitje ein person",
-              "example": "Ich besuche meine Großeltern. – Eg besøkjer oldeforeldrene mine."
+              "example": "Ich besuche meine Großeltern. – Eg vitjar besteforeldra mine."
             },
             {
               "word": "treffen",
@@ -2771,15 +2767,15 @@
             {
               "word": "zu jemandem gehen",
               "meaning": "gå til nokon",
-              "example": "Ich gehe zu meinem Freund. – Bring vennene dine nærmere."
+              "example": "Ich gehe zu meinem Freund. – Eg går til venen min."
             }
           ],
           "tip": {
-            "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+            "text": "Hugs: ein kan besøkje ein stad og vitje ein person."
           },
           "important": [
             "besuchen brukar ein utan forsetning: Ich besuche meine Freundin.",
-            "Den norske omsetjinga heng saman med objektet: besøkje stad, besøkje person."
+            "Den norske omsetjinga kjem an på objektet: besøkje ein stad, vitje ein person."
           ]
         }
       }
@@ -2791,30 +2787,30 @@
       "reason": "Individually reviewed nn exact field a1.card.a1-da.study.comparison[0].meaning for “da” against Latvian “tur • te • šeit (vispārīgi)” and production “Sel • Siin • Siinsamas (üldiselt)”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.",
       "new": {
         "de": "da",
-        "lv": "Forsegle",
+        "lv": "der • her",
         "level": "A1",
         "study": {
           "id": "a1-da",
           "layout": "standardStudy",
-          "translation": "Forsegle",
+          "translation": "der • her",
           "explanation": [
-            "Hovedidé: det betyr at på A1-nivå oftest forsegle.",
-            "Da utstab dukke või ikkem kumelgi juba mainitule.",
-            "Olenevalt tilstitusst säda seda terekada ka kui siin või segl.",
-            "På A1-nivå, Łúmime sőna da szőtő szőlő kohamäörsőnana."
+            "Hovudidé: da viser på A1-nivå oftast til ein stad: der eller her.",
+            "da kan vise til ein stad eller noko som alt er nemnt.",
+            "Avhengig av samanhengen kan det omsetjast med der eller her.",
+            "På A1-nivå lærer ein da først og fremst som eit stadadverb."
           ],
           "examples": [
             {
               "de": "Da ist mein Auto.",
-              "lv": "Forsegl på bilen min."
+              "lv": "Der er bilen min."
             },
             {
               "de": "Ich war da.",
-              "lv": "Ma olin segl."
+              "lv": "Eg var der."
             },
             {
               "de": "Da kommt er.",
-              "lv": "Siin ta tulb."
+              "lv": "Der kjem han."
             },
             {
               "de": "Komm mal da her!",
@@ -2824,30 +2820,30 @@
           "comparison": [
             {
               "word": "da",
-              "meaning": "der • her • der (generelt)",
+              "meaning": "der • her (generelt)",
               "example": "Der er bilen min."
             },
             {
               "word": "hier",
-              "meaning": "Siin (kindlas kois)",
+              "meaning": "her (på denne staden)",
               "example": "Her er bilen min."
             },
             {
               "word": "dort",
-              "meaning": "Forsegle",
-              "example": "Dort er bilen min."
+              "meaning": "der (lenger borte)",
+              "example": "Der borte er bilen min."
             },
             {
               "word": "dann",
-              "meaning": "Sis",
+              "meaning": "då • så",
               "example": "Så går vi heim."
             }
           ],
           "tip": {
-            "text": "Atceries: vispārīgs tur/te → da."
+            "text": "Hugs: generelt der eller her → da."
           },
           "important": [
-            "da er ein generell stadsordet.",
+            "da er eit generelt stadadverb.",
             "hier betyr konkret \"her\", dort betyr litt lengre bort \"der\"."
           ]
         }
@@ -2860,49 +2856,49 @@
       "reason": "Individually reviewed nn exact field a1.card.a1-das.study.comparison[2].meaning for “das” against Latvian “kurš • kura • kuru” and production “Mis • Mille • Mida”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.",
       "new": {
         "de": "das",
-        "lv": "Kesksoo skrev om artikkelen",
+        "lv": "det • den nøytrale artikkelen",
         "level": "A1",
         "study": {
           "id": "a1-das",
           "layout": "standardStudy",
-          "translation": "Kesksoo skrev om artikkelen",
-          "explanation": "Kasutatakse kesksoost nimisvärnte kureus. Noen lauser kan \"das\" toimida ka asesõnana või siduva asesõnana.",
+          "translation": "det • den nøytrale artikkelen",
+          "explanation": "Blir brukt som artikkel framfor substantiv i inkjekjønn. I nokre setningar kan das òg vere pronomen eller relativpronomen.",
           "examples": [
             {
               "de": "Das ist mein Auto.",
-              "lv": "Se på bilen min."
+              "lv": "Det er bilen min."
             },
             {
               "de": "Das ist gut.",
-              "lv": "Se her."
+              "lv": "Det er bra."
             },
             {
               "de": "Das Buch, das ich lese, ist interessant.",
-              "lv": "Raamat, mida ma loen, på interesab."
+              "lv": "Boka som eg les, er interessant."
             }
           ],
           "comparison": [
             {
               "word": "das",
-              "meaning": "Se (artikkel / asesõna)",
-              "example": "Das ist mein Auto. – Se på bilen min."
+              "meaning": "det (artikkel / pronomen)",
+              "example": "Das ist mein Auto. – Det er bilen min."
             },
             {
               "word": "dies",
-              "meaning": "Se",
-              "example": "Dies ist mein Auto. – Se på bilen min."
+              "meaning": "dette",
+              "example": "Dies ist mein Auto. – Dette er bilen min."
             },
             {
               "word": "welches",
-              "meaning": "kven • kva for ei • som",
-              "example": "Das ist das Buch, welches ich lese. – Se på raamat, mida ma loen."
+              "meaning": "som • kva for eit",
+              "example": "Das ist das Buch, welches ich lese. – Det er boka som eg les."
             }
           ],
           "tip": {
-            "text": "Atceries: vidus dzimte → das; ka → dass."
+            "text": "Hugs: inkjekjønn → das; at → dass."
           },
           "important": [
-            "På A1-nivå lær du først das som nøytraltkjønn artikkel.",
+            "På A1-nivå lærer du først das som artikkel i inkjekjønn.",
             "das er ikkje det same som dass — das kan vere artikkel eller pronomen, dass betyr \"at\"."
           ]
         }
@@ -2915,58 +2911,59 @@
       "reason": "Individually reviewed nn exact field a1.card.a1-dass.study.comparison[1].meaning for “dass” against Latvian “jo • tāpēc ka” and production “Sest • Det er derfor et”. The full idiomatic nn sentence or structured value cannot be established with sufficient confidence from this row alone; keep PENDING for a native-speaker formulation.",
       "new": {
         "de": "dass",
-        "lv": "En",
+        "lv": "at",
         "level": "A1",
         "study": {
           "id": "a1-dass",
           "layout": "standardStudy",
-          "translation": "En",
-          "explanation": "Juhatab sisse bistillause, mis expressb fakti, mästt või öeldut.",
+          "translation": "at",
+          "explanation": "Innleier ei leddsetning som uttrykkjer eit faktum, ei meining eller noko som er sagt.",
           "examples": [
             {
               "de": "Ich weiß, dass du müde bist.",
-              "lv": "Ma tean, et sa oled väsinud."
+              "lv": "Eg veit at du er trøytt."
             },
             {
               "de": "Er sagt, dass er kommt.",
-              "lv": "Ta ütleb, et ta tülb."
+              "lv": "Han seier at han kjem."
             },
             {
               "de": "Ich glaube, dass das stimmt.",
-              "lv": "Ma arvan, et see on utta."
+              "lv": "Eg trur at det stemmer."
             }
           ],
           "comparison": [
             {
               "word": "dass",
-              "meaning": "En",
-              "example": "Ich weiß, dass er kommt. – Ma tean, et ta tulb."
+              "meaning": "at",
+              "example": "Ich weiß, dass er kommt. – Eg veit at han kjem."
             },
             {
               "word": "weil",
               "meaning": "fordi • av di",
-              "example": "Ich bleibe zu Hause, weil es regnet. – Ma jään koju, sest sajab wimga."
+              "example": "Ich bleibe zu Hause, weil es regnet. – Eg blir heime fordi det regnar."
             },
             {
               "word": "damit",
-              "meaning": "En",
-              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Ma õubin saksa keelt, et saaksin Sämääsal mitbättää."
+              "meaning": "slik at • for at",
+              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Eg lærer tysk for at eg skal kunne arbeide i Tyskland."
             },
             {
               "word": "ob",
-              "meaning": "Cas",
-              "example": "Ich weiß nicht, ob er kommt. – Ma ei te, kas ta tulb."
+              "meaning": "om",
+              "example": "Ich weiß nicht, ob er kommt. – Eg veit ikkje om han kjem."
             }
           ],
           "tip": {
-            "text": "Atceries: ka → dass."
+            "text": "Hugs: at → dass."
           },
           "important": [
-            "dass betyr \"at\" og innleier ein hjelpeteikn.",
-            "Ikkje forveksla med das, som kan vere artikkel eller \"det\"."
+            "dass tyder «at» og innleier ei leddsetning.",
+            "Ikkje forveksle dass med das, som kan vere artikkel eller pronomen."
           ]
         }
       }
     }
-  ]
+  ],
+  "correctionRound": 2
 }
