@@ -1,8 +1,8 @@
 {
   "batchId": "LRB-070",
   "classification": "G2_A1_LRB_OWNER_REVIEW_ARTIFACTS_READY",
-  "generatedAt": "2026-09-16T16:49:49.480Z",
-  "sourceCommit": "97d01993dc5d2a0519225c686b76fe2373a2bf4c",
+  "generatedAt": "2026-09-16T17:01:05.161Z",
+  "sourceCommit": "e73c59d0f1bb1cebaab81daf4269ac7502a83ae2",
   "branch": "cursor/lrb-070-owner-authorization-aa66",
   "direction": "DESCENDING",
   "reservedFor": "LB_OWNER_PREP",

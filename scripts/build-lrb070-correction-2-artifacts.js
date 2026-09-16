@@ -28,6 +28,12 @@ const EXPECTED_REQUIRED_SHA =
   "d5bdad2bf1d12d4053adbc4861558af76284ec411f7093f9afbefdb244a234eb";
 const EXPECTED_CORRECTION_2_SHA =
   "bb674f5351ed611addbde29615286df5878ef75229d208557313c840da2e52c2";
+const EXPECTED_CORRECTION_3_SHA =
+  "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599";
+const COPY_PASTE_3_PATH = path.join(
+  ROOT,
+  "scripts/data/g2-a1-owner-pending/LRB-070-decisions-COPY-PASTE-3.json"
+);
 
 const LB_CARD_ALIASES = {
   "a1-heissen": "a1-heißen",
@@ -152,14 +158,53 @@ function loadRequiredCardIds() {
   return ids;
 }
 
-function validateOwnerPending(mapping, requiredIds) {
+function validateOwnerPending(mapping, requiredIds, correctionRound) {
+  const idsToCheck =
+    correctionRound >= 4 ? Object.keys(mapping.labot_full_composite || {}).sort() : requiredIds;
   const missing = [];
   const empty = [];
-  for (const id of requiredIds) {
+  for (const id of idsToCheck) {
     if (!(id in mapping.labot_full_composite)) missing.push(id);
     else if (!compositeIsPopulated(mapping.labot_full_composite[id])) empty.push(id);
   }
   return { missing, empty, blocked: missing.length > 0 || empty.length > 0 };
+}
+
+function buildCompositeByCard(mapping, correctionRound, requiredIds) {
+  if (correctionRound < 4) {
+    const compositeByCard = {};
+    for (const cardId of requiredIds) {
+      compositeByCard[cardId] = mapping.labot_full_composite[cardId];
+    }
+    return compositeByCard;
+  }
+  const corr3Raw = fs.readFileSync(COPY_PASTE_3_PATH, "utf8");
+  const corr3Sha = crypto.createHash("sha256").update(corr3Raw).digest("hex");
+  if (corr3Sha !== EXPECTED_CORRECTION_3_SHA) {
+    throw new Error(`COPY-PASTE-3 SHA mismatch: got ${corr3Sha}, expected ${EXPECTED_CORRECTION_3_SHA}`);
+  }
+  const corr3 = JSON.parse(corr3Raw);
+  const compositeByCard = {};
+  for (const cardId of requiredIds) {
+    if (!(cardId in corr3.labot_full_composite)) {
+      throw new Error(`COPY-PASTE-3 missing composite for ${cardId}`);
+    }
+    compositeByCard[cardId] = corr3.labot_full_composite[cardId];
+  }
+  for (const [cardId, composite] of Object.entries(mapping.labot_full_composite)) {
+    compositeByCard[cardId] = composite;
+  }
+  return compositeByCard;
+}
+
+function classificationForRound(correctionRound) {
+  if (correctionRound >= 4) {
+    return "LRB_070_COPY_PASTE_CORRECTION_4_COMPLETE_AWAITING_GALA_VERDICT";
+  }
+  if (correctionRound >= 3) {
+    return "LRB_070_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT";
+  }
+  return "LRB_070_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT";
 }
 
 function main() {
@@ -172,7 +217,13 @@ function main() {
     throw new Error(`COPY-PASTE SHA mismatch: got ${pasteSha}, expected ${expectedPasteSha}`);
   }
 
-  if (correctionRound >= 3) {
+  if (correctionRound >= 4) {
+    if (mapping.base_correction_3_sha256 !== EXPECTED_CORRECTION_3_SHA) {
+      throw new Error(
+        `base_correction_3_sha256 mismatch: got ${mapping.base_correction_3_sha256}, expected ${EXPECTED_CORRECTION_3_SHA}`
+      );
+    }
+  } else if (correctionRound >= 3) {
     if (mapping.base_correction_2_sha256 !== EXPECTED_CORRECTION_2_SHA) {
       throw new Error(
         `base_correction_2_sha256 mismatch: got ${mapping.base_correction_2_sha256}, expected ${EXPECTED_CORRECTION_2_SHA}`
@@ -185,7 +236,7 @@ function main() {
   }
 
   const requiredIds = loadRequiredCardIds();
-  const pending = validateOwnerPending(mapping, requiredIds);
+  const pending = validateOwnerPending(mapping, requiredIds, correctionRound);
 
   if (pending.blocked) {
     const out = {
@@ -217,13 +268,14 @@ function main() {
     throw new Error(`Input CSV SHA mismatch: got ${inputSha}`);
   }
 
+  const compositeByCard = buildCompositeByCard(mapping, correctionRound, requiredIds);
   const mergedByCard = new Map();
   for (const cardId of requiredIds) {
     const base = nestedForCard("lb", cardId);
     if (!base) throw new Error(`No production nested card for ${cardId}`);
     mergedByCard.set(
       cardId,
-      applyPatches(JSON.parse(JSON.stringify(base)), mapping.labot_full_composite[cardId])
+      applyPatches(JSON.parse(JSON.stringify(base)), compositeByCard[cardId])
     );
   }
 
@@ -280,6 +332,7 @@ function main() {
         correction_round: correctionRound,
         base_mapping_sha256: EXPECTED_BASE_PASTE_SHA,
         base_correction_2_sha256: correctionRound >= 3 ? EXPECTED_CORRECTION_2_SHA : undefined,
+        base_correction_3_sha256: correctionRound >= 4 ? EXPECTED_CORRECTION_3_SHA : undefined,
       },
       null,
       2
@@ -315,10 +368,7 @@ function main() {
     base_mapping_sha256: EXPECTED_BASE_PASTE_SHA,
     full_card_replacements: galaCards.length,
     full_card_object_ids: requiredIds,
-    classification:
-      correctionRound >= 3
-        ? "LRB_070_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT"
-        : "LRB_070_COPY_PASTE_CORRECTION_2_COMPLETE_AWAITING_GALA_VERDICT",
+    classification: classificationForRound(correctionRound),
     cards: galaCards,
   };
   const galaPath = path.join(ROOT, "reports/g2-a1-owner/batches-reviewed", `${BATCH}-gala-cards.json`);

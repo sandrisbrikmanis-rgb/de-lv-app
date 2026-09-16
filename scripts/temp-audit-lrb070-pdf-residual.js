@@ -10,10 +10,11 @@ const PASTE_SOURCE = "gpt-5.6-luna-copy-paste";
 
 function loadA1(lang) {
   const ctx = { window: {} };
-  vm.runInNewContext(
-    fs.readFileSync(path.join(__dirname, `../data/${lang}/a1.js`), "utf8"),
-    ctx
-  );
+  const file =
+    lang === "de"
+      ? path.join(__dirname, "../data/a1.js")
+      : path.join(__dirname, `../data/${lang}/a1.js`);
+  vm.runInNewContext(fs.readFileSync(file, "utf8"), ctx);
   return ctx.window.A1_WORDS;
 }
 
@@ -33,6 +34,7 @@ function buildNestedMap(words) {
 const NESTED_BY_LANG = {
   lb: buildNestedMap(loadA1("lb")),
 };
+const DE_NESTED = buildNestedMap(loadA1("de"));
 
 const BATCH = "LRB-070";
 const EXPECTED_ROWS = 50;
@@ -366,6 +368,61 @@ function validateSectionAccents(study, sectionAccents, cardKey) {
   return failures;
 }
 
+function asExampleArray(v) {
+  if (Array.isArray(v)) return v;
+  if (typeof v === "string") return parseMaybeJson(v);
+  return [];
+}
+
+function nestedDeForCard(cardKey) {
+  const resolved = LB_CARD_ALIASES[cardKey] || cardKey;
+  return (
+    DE_NESTED[resolved] ||
+    DE_NESTED[cardKey] ||
+    DE_NESTED[`a1-${resolved}`] ||
+    DE_NESTED[`a1-${cardKey}`] ||
+    Object.values(DE_NESTED).find(
+      (entry) =>
+        entry?.study?.id === resolved ||
+        entry?.study?.id === cardKey ||
+        entry?.study?.id === `a1-${resolved}` ||
+        entry?.study?.id === `a1-${cardKey}`
+    )
+  );
+}
+
+function validateDeExampleAlignment(cardKey, merged) {
+  const failures = [];
+  const deBase = nestedDeForCard(cardKey);
+  const deExamples = asExampleArray(deBase?.study?.examples);
+  const mergedExamples = asExampleArray(merged.study?.examples);
+  if (!deExamples.length) return failures;
+  if (mergedExamples.length !== deExamples.length) {
+    failures.push({
+      type: "DE_TARGET_ALIGNMENT_VIOLATION",
+      card: cardKey,
+      reason: "example_count_mismatch",
+      expected: deExamples.length,
+      got: mergedExamples.length,
+    });
+    return failures;
+  }
+  for (let i = 0; i < deExamples.length; i += 1) {
+    const expected = deExamples[i]?.de || "";
+    const got = mergedExamples[i]?.de || "";
+    if (expected !== got) {
+      failures.push({
+        type: "DE_TARGET_ALIGNMENT_VIOLATION",
+        card: cardKey,
+        index: i,
+        expected,
+        got,
+      });
+    }
+  }
+  return failures;
+}
+
 function nestedForCard(lang, cardKey) {
   const map = NESTED_BY_LANG[lang];
   const resolved = LB_CARD_ALIASES[cardKey] || cardKey;
@@ -427,6 +484,7 @@ let semanticViolations = 0;
 let cardMergeFailures = 0;
 let sectionAccentMismatches = 0;
 let sectionAccentSemanticViolations = 0;
+let deSourceMismatchesAcrossFullComposites = 0;
 
 for (const row of rows) {
   const id = row.finding_stable_ids;
@@ -515,6 +573,9 @@ for (const [key, { lang, card }] of UNIQUE_CARDS) {
   const failures = validateMergedCard(lang, card, merged).filter(
     (f) => !/SECTION_ACCENT_/i.test(f.type) && f.type !== "INCOMPLETE_COMPOSITE"
   );
+  failures.push(...validateDeExampleAlignment(card, merged));
+  const deMis = failures.filter((f) => f.type === "DE_TARGET_ALIGNMENT_VIOLATION").length;
+  deSourceMismatchesAcrossFullComposites += deMis;
   if (failures.length) {
     cardMergeFailures += failures.length;
     issues.push({ type: "MERGED_CARD_FAIL", card, lang, failures: failures.slice(0, 5) });
@@ -537,6 +598,7 @@ const pass =
   cardMergeFailures === 0 &&
   sectionAccentMismatches === 0 &&
   sectionAccentSemanticViolations === 0 &&
+  deSourceMismatchesAcrossFullComposites === 0 &&
   validatedCards.size === EXPECTED_UNIQUE_CARDS;
 
 const proof = {
@@ -567,6 +629,7 @@ const proof = {
     merged_card_failures: cardMergeFailures,
     section_accent_mismatches: sectionAccentMismatches,
     section_accent_semantic_violations: sectionAccentSemanticViolations,
+    de_target_alignment_violations: deSourceMismatchesAcrossFullComposites,
     full_composite_completeness: cardMergeFailures === 0 ? "PASS" : "FAIL",
     anti_bulk: "PASS",
   },

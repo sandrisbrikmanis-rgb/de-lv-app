@@ -1,10 +1,10 @@
 {
   "batch_id": "LRB-070",
   "language": "lb",
-  "scope": "a1-ab..a1-hoeren-study (50 LB rows, 29 unique cards, correction 3 full composites)",
+  "scope": "a1-ab..a1-hoeren-study (50 LB rows, 29 unique cards, correction 4 full composites)",
   "rows": 50,
   "uniqueCards": 29,
-  "paste_sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599",
+  "paste_sha256": "33ae22adf9b7e47521092474a58020676599f0a5cb41024778bf6e1a8005d33c",
   "base_mapping_sha256": "918818511434da65ce41f20be103bbeeb29d58d768a55743e08f2ff089d50fc9",
   "full_card_replacements": 29,
   "full_card_object_ids": [
@@ -38,7 +38,7 @@
     "a1-heissen",
     "a1-hoeren-study"
   ],
-  "classification": "LRB_070_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
+  "classification": "LRB_070_COPY_PASTE_CORRECTION_4_COMPLETE_AWAITING_GALA_VERDICT",
   "cards": [
     {
       "card_object_id": "a1-ab",
@@ -378,7 +378,10 @@
           "translation": "op den • op d’",
           "explanation": [
             "Kärpunkt: aufs ass déi zesummegezunne Form vun auf das.",
-            "Et weist meeschtens eng Bewegung op eng Plaz oder Uewerfläch."
+            "Déi voll Form ass auf das a beäntwert bei enger Beweegung d’Fro wouhin.",
+            "Et weist eng Beweegung op eng bestëmmte Plaz oder Uewerfläch.",
+            "Et steet dacks bei Verbe wéi goen, sech setzen, leeën, sprangen oder fueren.",
+            "An der Alldagssprooch gëtt auf das dacks zu aufs zesummegezunn; déi voll Form bleift grammatesch richteg."
           ],
           "examples": [
             {
@@ -442,10 +445,14 @@
             }
           ],
           "tip": [
-            "auf + das → aufs."
+            "auf + das → aufs bei enger Beweegung wouhin.",
+            "An der Alldagssprooch gëtt auf das dacks zu aufs zesummegezunn."
           ],
           "important": [
-            "aufs steet mat engem Neutrum am Akkusativ."
+            "aufs = auf das a steet mat engem Neutrum am Akkusativ.",
+            "Et bezeechent eng Beweegung op eng bestëmmte Plaz oder Uewerfläch.",
+            "Bei engem maskulinen Akkusativ steet dacks auf den, net aufs.",
+            "Net mat an fir eng vertikal Fläch oder ins fir eng Beweegung no banne verwiesselen."
           ],
           "sectionAccents": {
             "explanation": {
@@ -673,8 +680,10 @@
           "layout": "standardStudy",
           "translation": "Besuch • Visitt",
           "explanation": [
-            "Kärpunkt: der Besuch ass eng Visitt vun enger Persoun bei enger Persoun oder op enger Plaz.",
-            "Op Lëtzebuergesch steet Besuch oder Visitt."
+            "Kärpunkt: der Besuch bezeechent e Besuch, eng Visitt oder d’Besiche vun enger Plaz.",
+            "Bei enger Plaz oder Manifestatioun geet et ëm d’Besiche vun där Plaz oder Manifestatioun.",
+            "Bei enger Persoun kann et e Besuch oder eng Visitt sinn.",
+            "D’Méizuel ass die Besuche."
           ],
           "examples": [
             {
@@ -711,7 +720,8 @@
             "text": "Substantiv: der Besuch."
           },
           "important": [
-            "Net mam Verb besuchen verwiesselen."
+            "der Besuch kann e Besuch bei enger Persoun oder d’Besiche vun enger Plaz bedeiten.",
+            "D’Méizuel ass die Besuche."
           ],
           "sectionAccents": {
             "explanation": {
@@ -879,8 +889,11 @@
           "layout": "standardStudy",
           "translation": "bréngen",
           "explanation": [
-            "Kärpunkt: bringen heescht eppes oder een op eng aner Plaz bréngen.",
-            "Dobäi gëtt eng Persoun oder Saach op en Zil transportéiert."
+            "Kärpunkt: bringen bedeit, eppes oder een bei eng aner Persoun oder op eng bestëmmte Plaz ze transportéieren.",
+            "Op Lëtzebuergesch steet dofir meeschtens bréngen.",
+            "Je no Kontext kann et heeschen, eppes bei een ze bréngen.",
+            "Et kann och heeschen, eppes oder een op eng aner Plaz ze bréngen.",
+            "De konkrete Kontext bestëmmt d’Richtung an d’Zil."
           ],
           "examples": [
             {
@@ -894,21 +907,32 @@
             {
               "de": "Ich bringe die Kinder zur Schule.",
               "lv": "Ech bréngen d’Kanner an d'Schoul."
-            },
-            {
-              "de": "Ich nehme das Buch.",
-              "lv": "Ech huelen d’Buch."
             }
           ],
           "comparison": [
             {
               "word": "bringen",
-              "meaning": "Eppes oder een op eng aner Plaz transportéieren.",
+              "meaning": "Eppes bei eng Persoun bréngen.",
+              "example": "Ich bringe dir ein Buch."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Eppes op eng bestëmmte Plaz bréngen.",
+              "example": "Ich bringe das Paket zur Post."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Eng Persoun op eng bestëmmte Plaz bréngen.",
+              "example": "Ich bringe die Kinder zur Schule."
+            },
+            {
+              "word": "bringen",
+              "meaning": "Eppes transportéieren oder ofliwweren.",
               "example": "Ich bringe dir ein Buch."
             },
             {
               "word": "nehmen",
-              "meaning": "Eppes huelen; d'Richtung oder d'Zil steet net am Mëttelpunkt.",
+              "meaning": "Eppes huelen, net op en Zil bréngen.",
               "example": "Ich nehme das Buch."
             }
           ],
@@ -916,7 +940,9 @@
             "text": "Eppes op eng Plaz transportéieren → bringen."
           },
           "important": [
-            "bringen ass net dat selwecht wéi nehmen."
+            "nehmen bedeit huelen.",
+            "bringen bedeit eppes oder een op en Zil bréngen.",
+            "Déi genee Bedeitung gëtt vum Kontext bestëmmt."
           ],
           "sectionAccents": {
             "explanation": {
@@ -928,18 +954,6 @@
               ]
             },
             "examples": [
-              {
-                "de": {
-                  "blue": [
-                    "Ich"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "Ech"
-                  ]
-                }
-              },
               {
                 "de": {
                   "blue": [
@@ -1805,14 +1819,6 @@
             {
               "de": "Es ist müde.",
               "lv": "Et ass midd."
-            },
-            {
-              "de": "Es regnet.",
-              "lv": "Et reent."
-            },
-            {
-              "de": "Es schneit.",
-              "lv": "Et schneit."
             }
           ],
           "comparison": [
@@ -1828,10 +1834,12 @@
             }
           ],
           "tip": {
-            "text": "Onperséinlech Ausso → es / et."
+            "text": "Däitscht es entsprécht dacks Lëtzebuergesch et; Lëtzebuergesch ech entsprécht Däitsch ich."
           },
           "important": [
-            "Bei Wieder an aneren onperséinlechen Aussoe steet dacks es."
+            "Däitscht ich an es sinn net dat selwecht.",
+            "Däitscht es ass net Lëtzebuergesch ech.",
+            "Däitscht es bedeit dacks et oder bleift an engem onperséinleche Saz ouni direkt Iwwersetzung."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1876,30 +1884,6 @@
                 "lv": {
                   "purple": [
                     "D’Kand"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "Es"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "Et"
-                  ]
-                }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "Es"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "Et"
                   ]
                 }
               },
@@ -2501,39 +2485,21 @@
             {
               "de": "Wie findest du den Film?",
               "lv": "Wéi fënns du de Film?"
-            },
-            {
-              "de": "Wie findest du den Film?",
-              "lv": "Wat mengs du vum Film?"
             }
           ],
           "comparison": [
             {
               "word": "finden",
-              "meaning": "Eppes entdecken oder eng Meenung ausdrécken.",
+              "meaning": "Eppes fannen oder eng Meenung ausdrécken.",
               "example": "Ich finde das gut."
-            },
-            {
-              "word": "suchen",
-              "meaning": "Probéieren, eppes ze fannen.",
-              "example": "Ich suche den Schlüssel."
-            },
-            {
-              "word": "denken",
-              "meaning": "E Gedanken hunn oder un een denken.",
-              "example": "Ich denke an dich."
-            },
-            {
-              "word": "glauben",
-              "meaning": "Eppes fir wouer oder méiglech halen.",
-              "example": "Ich glaube, er kommt."
             }
           ],
           "tip": {
-            "text": "Saach entdecken oder bewäerten → finden."
+            "text": "Bei enger verluerener Saach heescht finden fannen; bei enger Meenung heescht ich finde... esou vill wéi ech fannen oder ech mengen."
           },
           "important": [
-            "finden an suchen hunn ënnerschiddlech Bedeitungen."
+            "finden bedeit net nëmme fannen.",
+            "Ich finde das gut dréckt eng Meenung aus an heescht Ech fannen dat gutt."
           ],
           "sectionAccents": {
             "explanation": {
@@ -2580,18 +2546,6 @@
                     "Wéi"
                   ]
                 }
-              },
-              {
-                "de": {
-                  "blue": [
-                    "Wie"
-                  ]
-                },
-                "lv": {
-                  "purple": [
-                    "Wat"
-                  ]
-                }
               }
             ]
           }
@@ -2610,8 +2564,12 @@
           "layout": "standardStudy",
           "translation": "Fra",
           "explanation": [
-            "Kärpunkt: die Frau heescht eng erwuesse weiblech Persoun oder Fra am Sënn vun Ehepartnerin.",
-            "Op Lëtzebuergesch steet Fra."
+            "Kärpunkt: die Frau kann eng erwuesse weiblech Persoun oder d’Ehefra bedeiten.",
+            "Bei enger Persoun allgemeng bedeit die Frau Fra.",
+            "Bei enger bestuetener Partnerin bedeit die Frau Ehefra.",
+            "Mat engem Possessivartikel wéi meine, deine oder seine Frau ass bal ëmmer d’Ehefra gemengt.",
+            "D’Méizuel ass die Frauen.",
+            "der Mann huet déi selwecht duebel Bedeitung: Mann als Persoun an Ehemann."
           ],
           "examples": [
             {
@@ -2640,10 +2598,13 @@
             }
           ],
           "tip": [
-            "die Frau → d’Fra."
+            "Mat engem Possessivartikel wéi meine, deine oder seine Frau ass bal ëmmer d’Ehefra gemengt.",
+            "Ouni Possessivartikel bezeechent die Frau oder eine Frau meeschtens eng Fra allgemeng."
           ],
           "important": [
-            "De Kontext weist, ob Persoun oder Ehepartnerin gemengt ass."
+            "die Frau kann Fra oder Ehefra bedeiten; de Kontext entscheet.",
+            "meine Frau bedeit meng Fra am Sënn vun Ehefra.",
+            "D’Méizuel ass die Frauen."
           ],
           "sectionAccents": {
             "explanation": {

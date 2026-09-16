@@ -1,0 +1,40 @@
+{
+  "batch_id": "LRB-070",
+  "classification": "LRB_070_COPY_PASTE_CORRECTION_4_COMPLETE_AWAITING_GALA_VERDICT",
+  "status": "AWAITING_GALA_VERDICT",
+  "copy_paste_correction_4": "COPY_PASTE_CORRECTION_4_APPLIED",
+  "paste_sha256": "33ae22adf9b7e47521092474a58020676599f0a5cb41024778bf6e1a8005d33c",
+  "base_correction_3_sha256": "278f69b133146cddf2e91a7531eb8a0ccadba8b17090c0d1c9dd7194e82e3599",
+  "partial_overlay_cards": [
+    "a1-aufs",
+    "a1-besuch",
+    "a1-bringen",
+    "a1-es",
+    "a1-finden",
+    "a1-frau"
+  ],
+  "decisions_sha256": "ae037c2fbc53090192304f49bc52c672f7598afc9466a023c630c00a3d97817d",
+  "decisions_csv_sha256": "c456b8459d6ca4b849bfc7c092b958e05c4762f2ce8a86d78bf80fe90cd7cf38",
+  "anti_bulk_output_sha256": "c456b8459d6ca4b849bfc7c092b958e05c4762f2ce8a86d78bf80fe90cd7cf38",
+  "labot_full_composite_cards_in_paste": 6,
+  "unique_cards_total": 29,
+  "labot": 50,
+  "nelabot": 0,
+  "pending": 0,
+  "residual_audit_pass": true,
+  "pdf_reaudit_pass": true,
+  "anti_bulk_pass": true,
+  "gates": {
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "merged_card_failures": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS",
+    "study_examples_de_vs_data_a1_js": "PASS"
+  },
+  "gala_pass_recorded": false,
+  "linguistically_closed": false,
+  "apply_command": "node scripts/build-lrb070-correction-4-artifacts.js",
+  "updatedAt": "2026-09-16T17:00:00.000Z"
+}
