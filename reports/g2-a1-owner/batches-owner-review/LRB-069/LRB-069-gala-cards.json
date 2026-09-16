@@ -1,0 +1,4637 @@
+{
+  "batchId": "LRB-069",
+  "generatedAt": "2026-09-16T15:23:57.787Z",
+  "sourceCommit": "43766913e00ed918b0d3cd6eb96bc1e9ae98b08d",
+  "uniqueCards": 44,
+  "rowCount": 44,
+  "cards": [
+    {
+      "lang": "lb",
+      "cardId": "warm|idx:641",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "warm",
+      "lvSource": "silts",
+      "galaCard": {
+        "de": "warm",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0001",
+          "findingStableId": "g2/a1/lb|warm|idx:641|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "warten|idx:642",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "warten",
+      "lvSource": "gaidīt",
+      "galaCard": {
+        "de": "warten",
+        "lv": "Waarden",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0002",
+          "findingStableId": "g2/a1/lb|warten|idx:642|lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "warum|idx:643",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "warum",
+      "lvSource": "kāpēc",
+      "galaCard": {
+        "de": "warum",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0003",
+          "findingStableId": "g2/a1/lb|warum|idx:643|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "was|idx:644",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "was",
+      "lvSource": "kas • ko",
+      "galaCard": {
+        "de": "was",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Galvenā doma: war ir jautājamvārds par lietām un notikumiem — latviski tas ir kas vai ko, atkarībā no teikuma daṭas.",
+            "Wat jautā par lietām, notikumiem un factiem, nevis par personām.",
+            "Vācu valodā war nemainās pēc locījuma - tas vienmēr izskatās war.",
+            "Ja war ir teikuma priekšmets (Sujete), latviski zu tulko ar kas (Was ist das? = Kas tas ir?).",
+            "Wann was e Verbverbessernomem (Objet) ass, iwwersat et op Lëtzebuergesh as wat (Was machst du? = Wat mains du?).",
+            "Par personām jautā ar wer (kas/kurš), nevis war."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Wéi vill kascht et?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Cash Notiz?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Wousst Dir dat?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Ko du vēlies dzert?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Wat bedeit dëst Wuert?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Wat ass dein Liiblingskréizerei?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Ko du passacīji?"
+            }
+          ],
+          "tip": [
+            "was selbst ännert sech net — am Däitsche ass et ëmmer was; auf Lëtzebuergesh wielen Sie wat oder wien no der Satzuert.",
+            "Schnelle Trick: wann d'Äntwert op d'Fro \"Dat ass ...\" kann sinn, benotz wat; wann d'Äntwert no dem Verb komm wéi e Verbessernomem, benotz wien."
+          ],
+          "important": [
+            "was freet iwwer Saachen, Geschechten an Fakten — aldot net iwwer Persounen.",
+            "Par personām jautā ar wer (kas/kurš), nevis war.",
+            "was für (ein/eine) bedeit kéng/wat fir a freet no der Eegeschaft oder Aart (Was für ein Film ist das? = Wat fir e Film ass dat?).",
+            "Falsch: Wer ist passiert? → Richteg: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "was"
+              ],
+              "purple": [
+                "kas",
+                "ko"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Cash"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wousst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ko"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ko"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ko"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "was"
+                ]
+              },
+              {
+                "purple": [
+                  "kas",
+                  "ko"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "was"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "was für"
+                ]
+              },
+              {
+                "blue": [
+                  "was"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0004",
+          "findingStableId": "g2/a1/lb|was|idx:644|lv; study.explanation; study.examples|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv; study.explanation; study.examples",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "sich waschen|idx:646",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "sich waschen",
+      "lvSource": "mazgāties",
+      "galaCard": {
+        "de": "sich waschen",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0005",
+          "findingStableId": "g2/a1/lb|sich waschen|idx:646|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Weg|idx:647",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Weg",
+      "lvSource": "ceļš",
+      "galaCard": {
+        "de": "Weg",
+        "de_article": "der",
+        "de_plural": "die Wege",
+        "lv": "Regioun Road Yol",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0006",
+          "findingStableId": "g2/a1/lb|Weg|idx:647|lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Wein|idx:649",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Wein",
+      "lvSource": "vīns",
+      "galaCard": {
+        "de": "Wein",
+        "de_article": "der",
+        "de_plural": "die Weine",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0007",
+          "findingStableId": "g2/a1/lb|Wein|idx:649|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "weinen|idx:650",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "weinen",
+      "lvSource": "raudāt",
+      "galaCard": {
+        "de": "weinen",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0008",
+          "findingStableId": "g2/a1/lb|weinen|idx:650|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "weiß|idx:651",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "weiß",
+      "lvSource": "balts",
+      "galaCard": {
+        "de": "weiß",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0009",
+          "findingStableId": "g2/a1/lb|weiß|idx:651|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "wenig|idx:654",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "wenig",
+      "lvSource": "maz",
+      "galaCard": {
+        "de": "wenig",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0010",
+          "findingStableId": "g2/a1/lb|wenig|idx:654|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "wenn|idx:655",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "wenn",
+      "lvSource": "ja • kad",
+      "galaCard": {
+        "de": "wenn",
+        "lv": "Yes • Kad",
+        "level": "A1",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "Yes • Kad",
+          "explanation": [
+            "Galvenā doma: wann nozīmē ja vai kad atkarībā no situācijas.",
+            "Wann et ëm eng Bedéngung geet, iwwersat et op Lëtzebuergesh as wann.",
+            "Wann et ëm repetéiert oder allgemeng Zäit geet, iwwersat et op Lëtzebuergesh as wann.",
+            "Pēc wenn darbības vārds vācu teikumā parasti stāv bijās."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Jo, ir wëll, iegriezies."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Ja līst, es palieku mājās."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Kad esmu noguris, es dzeru kafiju."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Es nezinu, vai viếš nāks."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "CAA -",
+              "example": "Wenn du Zeit hast..."
+            },
+            {
+              "word": "ob",
+              "meaning": "Vai netiešā jautājumā",
+              "example": "Ich weiß nicht, ob..."
+            },
+            {
+              "word": "wann",
+              "meaning": "Kad jautājumā",
+              "example": "Wann kommst du?"
+            },
+            {
+              "word": "weil",
+              "meaning": "Jo",
+              "example": "Ich bleibe, weil ich krank bin."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: nosacījums → wenn; jautājums “kad?” → wann."
+          },
+          "important": [
+            "wenn an wann sinn net eenee an d'selb.",
+            "Wann kommst du? ass eng Fro. Wenn du kommst... ass eng Bedéngung/Zäit."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wenn"
+              ],
+              "purple": [
+                "ja",
+                "kad",
+                "nosacījumu"
+              ],
+              "green": [
+                "bijās"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "hast"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "wëll"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "regnet"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ja"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn",
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kad"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "ob"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "vai"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA",
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "vai"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ob"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wann"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "kad"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "jo"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "weil"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "wenn"
+                ],
+                "purple": [
+                  "nosacījums"
+                ],
+                "yellow": [
+                  "wann",
+                  "kad?"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "wenn"
+                ],
+                "yellow": [
+                  "wann"
+                ]
+              },
+              {
+                "yellow": [
+                  "Wann kommst du"
+                ],
+                "blue": [
+                  "Wenn du kommst"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0011",
+          "findingStableId": "g2/a1/lb|wenn|idx:655|lv; study.explanation; study.examples|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv; study.explanation; study.examples",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "wer|idx:656",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "wer",
+      "lvSource": "kas • kurš",
+      "galaCard": {
+        "de": "wer",
+        "lv": "Kas • Kurš",
+        "level": "A1",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "Kas • Kurš",
+          "explanation": [
+            "Haaptsaach: wer ass de Frooswuert fir d'Persounidentitéit — auf Lëtzebuergesh ass dat wien oder ween.",
+            "Wer jautā par cilvēkiem, ne par lietām vai notikumiem.",
+            "Par lietām un notikumiem jautā ar war, no wen.",
+            "Wien ass vācu valodā parasti ir teikuma priekšmets (nominatīvā)? = Kassentasche ir?",
+            "Wann d'Fro ass wien genau vun méi Mënschene, benotz wer oft mat von (wer von euch = wien vun iech).",
+            "Wer maina formu pēc locījuma: wen (akuzatīvs), wem (datīvs), wessen (ģenitīvs) — A1 līmenī visbiežāk sastopama ir tieši forma wer."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Wéi vill kascht et?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Wéi Dir sidd?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Wat kënnt haut?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "¿Queréis ir tava skolotāja?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Wien vun iech spréchet Däitsch?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "¿Conocéis a Teica?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Wien wëllt Kaffi?"
+            }
+          ],
+          "tip": [
+            "wer freet iwwer Persoune (wien/ween) — iwwer Saachen an Geschechten benotz was.",
+            "Fir d'Fro iwwer Aswiel tëschent méi Mënschene, benotz wer von... (wien vun...)."
+          ],
+          "important": [
+            "wer freet nëmmen iwwer Persoune, aldot net iwwer Saachen.",
+            "Iwwer Saachen an Geschechten freet mat was, net wer.",
+            "wer ännert d'Form no Kasus: wen, wem, wessen — mä d'Haaptform ass wer.",
+            "Falsch: Wer ist passiert? → Richteg: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wer"
+              ],
+              "purple": [
+                "kas",
+                "kurš"
+              ],
+              "green": [
+                "tas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kas"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "¿Queréis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "¿Conocéis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kurš"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wer"
+                ],
+                "green": [
+                  "was"
+                ]
+              },
+              {
+                "blue": [
+                  "wer von"
+                ],
+                "purple": [
+                  "kurš no"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "green": [
+                  "was"
+                ],
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "wer"
+                ]
+              },
+              {
+                "blue": [
+                  "Wer"
+                ],
+                "green": [
+                  "Was"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0012",
+          "findingStableId": "g2/a1/lb|wer|idx:656|study.explanation; study.examples|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "study.explanation; study.examples",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "werden|idx:657",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "werden",
+      "lvSource": "kļūt",
+      "galaCard": {
+        "de": "werden",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Haaptsaach: werden um A1-Niveau bedeit meescht ginn.",
+            "To lieto, yes chew kas mainās vai kĕūst citāds.",
+            "Méi spéit am Däitschen benotz werden och fir d'Zukunft a Passiv.",
+            "A1 līmenī replyīgākā frāze ir Ech ginn midd. = Es käschtūstu noguris."
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "Et ass nach net gewosst."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "D'Visiteuren hu sech dofir entscheet."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "Es esmu noguris."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "CAA -",
+              "example": "Ich werde müde."
+            },
+            {
+              "word": "sein",
+              "meaning": "Sinn",
+              "example": "Ich bin müde."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "CAA -",
+              "example": "Ich bleibe hier."
+            },
+            {
+              "word": "machen",
+              "meaning": "Darīt / taisīt",
+              "example": "Ich mache das."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
+          },
+          "important": [
+            "werden ass net dat selb wéi sein.",
+            "Ich werde müde = ech ginn midd; Ich bin müde = ech sinn midd."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "werden",
+                "Galvenā"
+              ],
+              "purple": [
+                "kļūt",
+                "mainās",
+                "kļūt"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "werde"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ass"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wird"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wird"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D'Visiteuren"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "bin"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "esmu"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "werden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "werde"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Sinn"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bleibe"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "machen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "darīt",
+                    "taisīt"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "mache"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "werden"
+                ],
+                "purple": [
+                  "izmaiņa",
+                  "kļūst"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "werden"
+                ],
+                "red": [
+                  "sein"
+                ]
+              },
+              {
+                "blue": [
+                  "werde"
+                ],
+                "purple": [
+                  "kļūstu"
+                ],
+                "red": [
+                  "bin",
+                  "esmu"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0013",
+          "findingStableId": "g2/a1/lb|werden|idx:657|lv; study.translation; study.examples[].lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv; study.translation; study.examples[].lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Wetter|idx:658",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Wetter",
+      "lvSource": "laiks (laikapstākļi)",
+      "galaCard": {
+        "de": "Wetter",
+        "de_article": "das",
+        "lv": "Spuerkeess (Wëllapstākṅi)",
+        "level": "A1",
+        "study": {
+          "id": "a1-wetter",
+          "layout": "standardStudy",
+          "translation": "Spuerkeess (Wëllapstākṅi)",
+          "explanation": [
+            "Galvenā doma: d'Wieder nozīmē laikapstākṅus - saulaini, lietaini, auksti vai silti.",
+            "Latviešu vārds „laiks“ war nozīmēt gan laikapstākļus, gan laiku pulkstenī — vāciski tas ir atšķirīgi.",
+            "Par laiku dabā runā ar d'Wieder: Wéi ass d'Wieder haut?",
+            "Am Saz benotz dacks das Wetter zesumme mat Wierder wéi warm oder kalt.",
+            "Nesajauc ar die Zeit — tā ir laiks kā brīdis vai iespēja (I habe keine Zeit)."
+          ],
+          "examples": [
+            {
+              "de": "Wie ist das Wetter heute?",
+              "lv": "Kāds wantss šodien?"
+            },
+            {
+              "de": "Das Wetter ist schön.",
+              "lv": "D'Wieder ass schéin."
+            },
+            {
+              "de": "Das Wetter ist schlecht.",
+              "lv": "Laiks ir slikts."
+            },
+            {
+              "de": "Im Winter ist das Wetter oft kalt.",
+              "lv": "Seemā laiks bieži ir auksts."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Même si ça peut servir."
+            },
+            {
+              "de": "Morgen wird das Wetter besser.",
+              "lv": "Et gëtt e Labyrinth."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Wetter",
+              "meaning": "Laikapstākļi",
+              "example": "Das Wetter ist schön."
+            },
+            {
+              "word": "Zeit",
+              "meaning": "Laiks (brīdis)",
+              "example": "Ich habe keine Zeit."
+            },
+            {
+              "word": "Regen",
+              "meaning": "CAA -",
+              "example": "Es gibt viel Regen."
+            },
+            {
+              "word": "Sonne",
+              "meaning": "Kolonn",
+              "example": "Die Sonne scheint."
+            }
+          ],
+          "tip": [
+            "Wann et ëm d'Sonn, Reen oder d'Temperatur dréisst — benotz das Wetter.",
+            "Denkt un: Wie ist das Wetter? = Wéi ass d'Wieder? (net d'Auer)."
+          ],
+          "important": [
+            "das Wetter = Wieder, net d'Zäit an der Auer.",
+            "die Zeit = Zäit wéi en Moment oder eng Geleeënheet — eng aner Kaart A1."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Wetter",
+                "Zeit"
+              ],
+              "purple": [
+                "laikapstākļus"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kāds"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D'Wieder"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laiks"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ],
+                  "yellow": [
+                    "Winter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "laiks"
+                  ],
+                  "yellow": [
+                    "Seemā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Même"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wetter"
+                  ],
+                  "green": [
+                    "besser"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gëtt"
+                  ],
+                  "green": [
+                    "gëtt"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "Wetter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "laikapstākļi"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wetter"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Zeit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "laiks"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Zeit"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Regen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Regen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Sonne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Kolonn"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Sonne"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "Wetter"
+                ]
+              },
+              {
+                "green": [
+                  "Zeit"
+                ],
+                "purple": [
+                  "laiks"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0014",
+          "findingStableId": "g2/a1/lb|Wetter|idx:658|lv; study.translation; study.examples[].lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv; study.translation; study.examples[].lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "wichtig|idx:659",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "wichtig",
+      "lvSource": "svarīgs",
+      "galaCard": {
+        "de": "wichtig",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0015",
+          "findingStableId": "g2/a1/lb|wichtig|idx:659|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "wie|idx:660",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "wie",
+      "lvSource": "kā • cik",
+      "galaCard": {
+        "de": "wie",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Haaptsaach: wie freet no der Aart oder Eegeschaft (wéi) an no der Quantitéit oder Unzuel (wéi vill), ofhängeg vum Kontext.",
+            "Wie viena pati (Wie geht's?) jautā par veidu — latviski kā.",
+            "Wéi + īpašības vārds (wéi vill, wéi al, wéi laang) jautā par apjomu, vecumu vai ilgumu — latviski cik.",
+            "Wéi vill(e) nozīmē cik daudz • Wéi al nozīmē cik vecs • Wéi laang nozīmē cik ilgi.",
+            "Salīdzinājumos wéi nozīmē tāpat kā (sou grouss wéi = tikpat liels kā)."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Wat ass et?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Kā tevi sauc?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Cik tas maxā?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Wài al bass du"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Cik ilgi ilgst Filma?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Выш из tikpat garš, как видео tēvs."
+            }
+          ],
+          "tip": [
+            "wie selber = wéi (Aart); wie + Eegeschaftswuert (viel/alt/lange) = wéi vill (Quantitéit).",
+            "An engem Verglach so ... wie = sou ... wéi."
+          ],
+          "important": [
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "wie alleng (Wie...?) normalerweis = wéi, net wéi vill.",
+            "Falsch: Wéi vill geet et dir? → Richteg: Wéi geet et dir? (Wie geht's?)"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wie"
+              ],
+              "purple": [
+                "kā",
+                "cik"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kā"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wài"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "cik"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Выш"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "wie"
+                ],
+                "purple": [
+                  "kā",
+                  "cik"
+                ]
+              },
+              {
+                "purple": [
+                  "tikpat",
+                  "kā"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "cik daudz",
+                  "cik vecs",
+                  "cik ilgi"
+                ]
+              },
+              {
+                "purple": [
+                  "kā"
+                ]
+              },
+              {
+                "red": [
+                  "Cik tev iet?"
+                ],
+                "blue": [
+                  "Kā tev iet?"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0016",
+          "findingStableId": "g2/a1/lb|wie|idx:660|lv; study.translation; study.examples[].lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv; study.translation; study.examples[].lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "wieder|idx:661",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "wieder",
+      "lvSource": "atkal",
+      "galaCard": {
+        "de": "wieder",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0017",
+          "findingStableId": "g2/a1/lb|wieder|idx:661|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Zigarette|idx:664",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Zigarette",
+      "lvSource": "cigarete",
+      "galaCard": {
+        "de": "Zigarette",
+        "de_article": "die",
+        "de_plural": "die Zigaretten",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0018",
+          "findingStableId": "g2/a1/lb|Zigarette|idx:664|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Zitrone|idx:666",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Zitrone",
+      "lvSource": "citrons",
+      "galaCard": {
+        "de": "Zitrone",
+        "de_article": "die",
+        "de_plural": "die Zitronen",
+        "lv": "Citroen",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0019",
+          "findingStableId": "g2/a1/lb|Zitrone|idx:666|lv|SPELLING_ERROR|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "ORTHOGRAPHY_SPELLING_OR_DIACRITICS",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "zu|idx:668",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "zu",
+      "lvSource": "uz • pie",
+      "galaCard": {
+        "de": "zu",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-zu",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Galvenā doma: zu Đoti bieži nozīmē uz vai pie, bet tam ir arī loma ar infinitīvu.",
+            "Mat Mënsche an Institutiounen zu dacks bedeit bei oder op.",
+            "Mat Eegeschaftswierder zu kann ze vill bedeit.",
+            "An der Konstruktioun zu + Infinitiv hëleft et d'Infinitiv ze bilden: zu lernen, zu gehen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Es eju pie ārsta."
+            },
+            {
+              "de": "Wir gehen zur Schule.",
+              "lv": "Mēs ejam uz skolu."
+            },
+            {
+              "de": "Das ist zu teuer.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Ich habe keine Zeit zu lernen.",
+              "lv": "Man nav laika mācīties."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zu",
+              "meaning": "Uz / pie / pārāk / infinitīvs",
+              "example": "Ich gehe zum Arzt."
+            },
+            {
+              "word": "nach",
+              "meaning": "Uz ar pilsētām/valstīm",
+              "example": "Ich fahre nach Berlin."
+            },
+            {
+              "word": "in",
+              "meaning": "Iekšā / uz vietu",
+              "example": "Ich gehe in die Schule."
+            },
+            {
+              "word": "bei",
+              "meaning": "PIE KADA / PIE DARBA",
+              "example": "Ich bin bei Anna."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
+          },
+          "important": [
+            "zu huet ganz vill Benotzungen, also schafft ëmmer op d'Konstruktioun.",
+            "zu teuer nozīmē \"pārāk dārgi\", nevis \"uz dārgi\"."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zu",
+                "zu lernen",
+                "zu gehen"
+              ],
+              "purple": [
+                "uz",
+                "pie",
+                "pārāk",
+                "nenoteiksmi"
+              ],
+              "green": [
+                "cilvēkiem",
+                "iestādēm"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pie ārsta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zur Schule"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz skolu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zu teuer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zu lernen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mācīties"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie",
+                    "pārāk",
+                    "infinitīvs"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "nach Berlin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "iekšā",
+                    "uz vietu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "bei Anna"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "zum Arzt",
+                  "zu teuer"
+                ],
+                "purple": [
+                  "pie ārsta",
+                  "pārāk dārgi"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "zu"
+                ],
+                "purple": [
+                  "konstrukciju"
+                ]
+              },
+              {
+                "blue": [
+                  "zu teuer"
+                ],
+                "purple": [
+                  "pārāk dārgi"
+                ],
+                "red": [
+                  "uz dārgi"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0020",
+          "findingStableId": "g2/a1/lb|zu|idx:668|lv; study.translation; study.examples[].lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv; study.translation; study.examples[].lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Zucker|idx:669",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Zucker",
+      "lvSource": "cukurs",
+      "galaCard": {
+        "de": "Zucker",
+        "de_article": "der",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0021",
+          "findingStableId": "g2/a1/lb|Zucker|idx:669|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "zuerst|idx:670",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "zuerst",
+      "lvSource": "vispirms",
+      "galaCard": {
+        "de": "zuerst",
+        "lv": "Fësch Pirmen",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0022",
+          "findingStableId": "g2/a1/lb|zuerst|idx:670|lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Zug|idx:671",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Zug",
+      "lvSource": "vilciens",
+      "galaCard": {
+        "de": "Zug",
+        "de_article": "der",
+        "de_plural": "die Züge",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-zug",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Haaptsaach: der Zug um A1-Niveau bedeit meescht Zuchter.",
+            "Fir dëst ze maachen situācijās par braukšanu, pienākšanu un atiešanu.",
+            "Dažās citās nozīmēs Zug war būt gājiens, caurvējš vai vaibsts, bet tās nav galvenās A1 nozīmes.",
+            "Ganz dacks Ausdrecker sinn mit dem Zug fahren an Der Zug kommt."
+          ],
+          "examples": [
+            {
+              "de": "Der Zug kommt um acht Uhr.",
+              "lv": "Villeciens pienāk pulséiert astoṅos."
+            },
+            {
+              "de": "Ich fahre mit dem Zug.",
+              "lv": "Es braucu ar vilcienu."
+            },
+            {
+              "de": "Der Zug ist voll.",
+              "lv": "Vilciens ir pilns."
+            },
+            {
+              "de": "Der Bus kommt später.",
+              "lv": "Autobuss pienāk vēlāk."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Zug",
+              "meaning": "CAA -",
+              "example": "Der Zug kommt."
+            },
+            {
+              "word": "die Bahn",
+              "meaning": "Dzelzceňš / braukšana ar vilcienu",
+              "example": "Ich fahre mit der Bahn."
+            },
+            {
+              "word": "der Bus",
+              "meaning": "CAA -",
+              "example": "Der Bus kommt."
+            },
+            {
+              "word": "die Straßenbahn",
+              "meaning": "CAA -",
+              "example": "Die Straßenbahn ist hier."
+            }
+          ],
+          "tip": {
+            "text": "Atceries: konkrēts vilciens → der Zug."
+          },
+          "important": [
+            "der Zug virsrakstā jāuztver kā \"vilciens\".",
+            "Rarer Bedeitunge sinn am Haaptkäertchen A1 net néideg."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Zug",
+                "Zug",
+                "mit dem Zug fahren"
+              ],
+              "purple": [
+                "vilciens",
+                "Vilciens"
+              ],
+              "red": [
+                "gājiens",
+                "caurvējš",
+                "vaibsts"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Zug"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Villeciens"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Zug"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ar vilcienu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Zug"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vilciens"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "Bus"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "Autobuss"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Zug"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Zug"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bahn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Dzelzceňš",
+                    "vilcienu"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "Bahn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Bus"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "Bus"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Straßenbahn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "CAA"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Straßenbahn"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "der Zug"
+                ],
+                "purple": [
+                  "konkrēts vilciens"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "der Zug"
+                ],
+                "purple": [
+                  "vilciens"
+                ]
+              },
+              {
+                "red": [
+                  "Retākās nozīmes"
+                ],
+                "purple": [
+                  "a1 virsrakstā"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0023",
+          "findingStableId": "g2/a1/lb|Zug|idx:671|lv; study.translation; study.examples[].lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv; study.translation; study.examples[].lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "zum|idx:672",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "zum",
+      "lvSource": "uz • pie",
+      "galaCard": {
+        "de": "zum",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Zu dem ir prievārda zu un artikula zu den saīsinājums.",
+            "Ganzt Form: zu dem (wen?).",
+            "Benotz mat Herrenwierder a Neutrum wann Dir Richtong oder Zil bezeechent.",
+            "Dacks bedeit op eppes oder bei wéi — bei der Dokter, op der Statioun, bei engem Frënd.",
+            "Praksē gandriz vienmēr dito zum, nevis pilno zu dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Es eju pie ārsta."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "Mēs braucam uz staciju."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "Nāc ēst!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "Viņš brauc uz lidostu."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "Mēs ejam uz koncertu."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "Dāvana ir dzimšanas dienai."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Es eju pie friziera."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "Uz /Péiteng (Kam?)",
+              "example": "zum Arzt – Pie äersta"
+            },
+            {
+              "word": "zur",
+              "meaning": "On / off (femme d'affaires)",
+              "example": "zur Schule – op d'Schoul"
+            },
+            {
+              "word": "zu",
+              "meaning": "Uz / pie / pārāk",
+              "example": "zu Hause – Mājās"
+            },
+            {
+              "word": "nach",
+              "meaning": "Us (pilsētas/valstis)",
+              "example": "nach Berlin – Uz Berlīni"
+            },
+            {
+              "word": "bei",
+              "meaning": "PIE (atrašanās)",
+              "example": "beim Arzt – Pie äersta"
+            }
+          ],
+          "tip": [
+            "Denkt un: zu + dem → zum (wen?).",
+            "Fir Frauenwierder: zu + der → zur."
+          ],
+          "important": [
+            "zum = zu dem, just mat Herrenwierder oder Neutrum Wierder am Dativ (wen?).",
+            "Bezeechent Richtong oder Zil: bei der Dokter, op der Statioun, bei engem Frënd.",
+            "Fir Frauenwierder benotz zur: zur Bank, zur Post.",
+            "Verwieselt net mat bei (Sëtzpunkt bei) oder nach (op Stied ouni Artikel)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zum",
+                "zu dem"
+              ],
+              "purple": [
+                "uz",
+                "pie"
+              ],
+              "green": [
+                "kam?",
+                "mērķi"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pie ārsta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz staciju"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz lidostu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "uz koncertu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dzimšanas dienai"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "zum"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pie friziera"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "/Péiteng"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zur"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "off",
+                    "off"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zur Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "uz",
+                    "pie",
+                    "pārāk"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "zu Hause"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pilsētas/valstis"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "nach Berlin"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "pie"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "beim Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "zum"
+                ]
+              },
+              {
+                "yellow": [
+                  "zur"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "zum"
+                ],
+                "purple": [
+                  "zu dem"
+                ],
+                "green": [
+                  "kam?"
+                ]
+              },
+              {
+                "purple": [
+                  "uz",
+                  "pie"
+                ],
+                "green": [
+                  "mērķi"
+                ]
+              },
+              {
+                "yellow": [
+                  "zur Bank",
+                  "zur Post"
+                ]
+              },
+              {
+                "green": [
+                  "bei"
+                ],
+                "red": [
+                  "nach"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0024",
+          "findingStableId": "g2/a1/lb|zum|idx:672|lv; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna",
+          "fieldPath": "lv; study.explanation",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "zusammen|idx:675",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "zusammen",
+      "lvSource": "kopā",
+      "galaCard": {
+        "de": "zusammen",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0025",
+          "findingStableId": "g2/a1/lb|zusammen|idx:675|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "zwanzig|idx:677",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "zwanzig",
+      "lvSource": "divdesmit",
+      "galaCard": {
+        "de": "zwanzig",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0026",
+          "findingStableId": "g2/a1/lb|zwanzig|idx:677|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "zweihundert|idx:680",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "zweihundert",
+      "lvSource": "divsimt",
+      "galaCard": {
+        "de": "zweihundert",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0027",
+          "findingStableId": "g2/a1/lb|zweihundert|idx:680|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "zweite|idx:682",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "zweite",
+      "lvSource": "otrais",
+      "galaCard": {
+        "de": "zweite",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0028",
+          "findingStableId": "g2/a1/lb|zweite|idx:682|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Zwiebel|idx:683",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Zwiebel",
+      "lvSource": "sīpols",
+      "galaCard": {
+        "de": "Zwiebel",
+        "de_article": "die",
+        "de_plural": "die Zwiebeln",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0029",
+          "findingStableId": "g2/a1/lb|Zwiebel|idx:683|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "fernsehen|idx:687",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "fernsehen",
+      "lvSource": "skatīties televizoru",
+      "galaCard": {
+        "de": "fernsehen",
+        "lv": "Skatties Televisioun",
+        "level": "A1",
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "Skatties Televisioun",
+          "explanation": "Galvenā doma: fernsehen ir sadalāms darbības vārds — ich sehe fern, du siehst fern. Tas nozīmē skatīties televīziju. Ne jaukt ar lietvārdu das Fernsehen (televīzija kā medijs).",
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Šovakar ass Skatos Televisioun."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Vai tu bieži skaties televīzoru?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "Bērni pēcpusdienā skatās televīzoru."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "Skatties Televisioun",
+              "example": "Ich sehe fern. = Ech gesinn Fernseh."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "Televīzija (Medijs)",
+              "example": "Im Fernsehen läuft ein Film. = Am Fernseh leeft e Film."
+            },
+            {
+              "word": "sehen",
+              "meaning": "CAA -",
+              "example": "Ich sehe einen Film. = Ech gesinn e Film."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Par darbību lieto fernsehen (ich sehe fern). Par TV programmu vai mediju lieto das Fernsehen."
+              }
+            ]
+          },
+          "important": {
+            "text": "Televisioun = darbības vārds (ech kucken Fernseh). televisioun = lietvārds, tikai vienskaitlis."
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fernsehen",
+                "sehe",
+                "fern"
+              ],
+              "purple": [
+                "skatīties televīziju"
+              ],
+              "green": [
+                "das Fernsehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Skatos Televisioun"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skaties televīzoru"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehen",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "skatās televīzoru"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0030",
+          "findingStableId": "g2/a1/lb|fernsehen|idx:687|lv; study.translation; study.examples[0].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+          "fieldPath": "lv; study.translation; study.examples[0].lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Fernsehen|idx:688",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Fernsehen",
+      "lvSource": "televīzija",
+      "galaCard": {
+        "de": "Fernsehen",
+        "de_article": "das",
+        "lv": "Televīzija",
+        "level": "A1",
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "Televīzija",
+          "explanation": [
+            "Haaptidee: Substantiv, nëmmen Eenzahl. Beschreift TV als Medium oder Iwwertraach am Ganzen.",
+            "Das Fernsehen galvenokārt nozīmē: skatīties pārraidi.",
+            "Bieži raksturo: DARBİBU.",
+            "Das Fernsehen betekent vooral: TV als medium.",
+            "Dacks charakteriséiert: Substantiv (nëmmen Eenzahl).",
+            "Fernseh ir darbības vārds, ko war sadalīt: Ech kucken Fernseh, Dir kuckt Fernseh.",
+            "Das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Ko šodien rāda televīzijā?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Ko šodien rāda televīzijā?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "Televīzijā tiek rādīta filma."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "Televīzijas programma šodien ir garlaicīga."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Šovakar ass Skatos Televisioun."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Wat ginn se am Fernseh?"
+            }
+          ],
+          "tip": [
+            "Wann iwwer d'Aktioun geschwat gëtt, benotzt fernsehen (ech gesinn fern). Wann iwwer d'TV Programm oder Medium geschwat gëtt, benotzt das Fernsehen.",
+            "Substantiv, nëmmen Eenzahl. Beschreift TV als Medium oder Iwwertraach am Ganzen."
+          ],
+          "important": [
+            "fernsehen ass separabel: sehen + fern.",
+            "das Fernsehen ass net a Mehrzahl — et gëtt keng *die Fernsehen.",
+            "Falsch: die Fernsehen → Richteg: das Fernsehen",
+            "Aktioun: fernsehen → ich sehe fern."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "Fernsehen"
+              ],
+              "yellow": [
+                "Fernsehen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "das Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              },
+              {
+                "de": {},
+                "lv": {
+                  "purple": [
+                    "Televisioun"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Fernsehen",
+                    "fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "televīzija"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {
+                "green": [
+                  "fernsehen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0031",
+          "findingStableId": "g2/a1/lb|Fernsehen|idx:688|study.explanation; study.examples[5].lv|TARGET_LANGUAGE_ISSUE|gpt-5.6-luna",
+          "fieldPath": "study.explanation; study.examples[5].lv",
+          "category": "WRONG_OR_MIXED_TARGET_LANGUAGE",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Appetit|idx:689",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Appetit",
+      "lvSource": "apetīte",
+      "galaCard": {
+        "de": "Appetit",
+        "de_article": "der",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-appetit",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Haaptidee: E Gefill, datt ee wëll iessen. nëmmen Eenzahl — keng Mehrzahl.",
+            "Der Appetit galvenokārt nozīmē: vēlme ēst.",
+            "Dacks charakteriséiert: en Uewerfläch (nëmmen Eenzahl).",
+            "Der Appetit ir tikai vienskaitlis — apetīte.",
+            "A1 līmenī tie bieži nāk kopā, piemēram: Gudden Appetit!"
+          ],
+          "examples": [
+            {
+              "de": "Guten Appetit!",
+              "lv": "Labu apetīti!"
+            },
+            {
+              "de": "Guten Appetit!",
+              "lv": "Labu apetīti!"
+            },
+            {
+              "de": "Ich habe keinen Appetit.",
+              "lv": "One nav apetītes."
+            }
+          ],
+          "tip": [
+            "der Appetit = Appetit",
+            "Benotzt der Appetit, wann de Kontext dëse Sënn entsprécht."
+          ],
+          "important": [
+            "der Appetit ass nëmmen an der Eenzahl.",
+            "Falsch: die Appetite → Richteg: der Appetit",
+            "Falsch: Ich bin Appetit. → Richteg: Ich habe Appetit.",
+            "E Gefill: der Appetit."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Appetit",
+                "appetit"
+              ],
+              "purple": [
+                "apetīte",
+                "Appetit"
+              ],
+              "yellow": [
+                "Appetit"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "appetit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apetīti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "appetit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apetīti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "appetit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "apetītes"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "apetīte"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "der Appetit"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0032",
+          "findingStableId": "g2/a1/lb|Appetit|idx:689|lv; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna",
+          "fieldPath": "lv; study.explanation",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "essen|idx:690",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "essen",
+      "lvSource": "ēst",
+      "galaCard": {
+        "de": "essen",
+        "lv": "Ēst",
+        "level": "A1",
+        "study": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "Ēst",
+          "explanation": [
+            "Haaptidee: Verb — Iesswaaren iessen.",
+            "Iessen galvenokārt nozīmē: patērēt pārtiku.",
+            "Bieži raksturo: DARBİBU.",
+            "Essen galvenokārt nozīmē: pārtika vai maltīte.",
+            "Bieži raksturo: latenu.",
+            "Essen nozīmē ēst.",
+            "Das Essen var nozīmēt ēdienu vai maltīti kopumā."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Ech iesse Gär Kiischt."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Wat wil je eten"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Mēs ēdam pulksten 12."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Ēdiens ir gatavs."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Ēdiens garšo labi."
+            }
+          ],
+          "tip": [
+            "essen = iessen",
+            "Benotzt essen, wann de Kontext dëse Sënn entsprécht."
+          ],
+          "important": [
+            "essen ass en Verb ouni Artikel.",
+            "das Essen ass net d'selwecht wéi essen.",
+            "Aktioun: essen.",
+            "Saach/Maz: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "essen",
+                "essen"
+              ],
+              "purple": [
+                "ēst"
+              ],
+              "blue": [
+                "essen",
+                "esse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "esse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "green": [
+                    "essen",
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "ēst"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "essen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0033",
+          "findingStableId": "g2/a1/lb|essen|idx:690|study.examples; study.explanation|TRANSLATION_ERROR|gpt-5.6-luna",
+          "fieldPath": "study.examples; study.explanation",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Essen|idx:691",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Essen",
+      "lvSource": "[{\"de\":\"Das Essen schmeckt gut.\",\"lv\":\"Ēdiens garšo labi.\"},{\"de\":\"Was wollt ihr essen?\",\"lv\":\"ko jūs gribat ēst?\"},{\"de\":\"Wir essen um 12 Uhr.\",\"lv\":\"mēs ēdam pulksten 12.\"},{\"de\":\"Das Essen ist fertig.\",\"lv\":\"ēdiens ir gatavs.\"},{\"de\":\"Das Essen schmeckt sehr gut.\",\"lv\":\"ēdiens ļoti labi garšo.\"},{\"de\":\"Das Essen schmeckt gut.\",\"lv\":\"ēdiens garšo labi.\"}]",
+      "galaCard": {
+        "de": "Essen",
+        "de_article": "das",
+        "lv": "Ēdiens • Maltīte",
+        "level": "A1",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "Ēdiens • Maltīte",
+          "explanation": [
+            "Haaptidee: Substantiv — Iessen oder d'ganz Maz.",
+            "Das Essen galvenokārt nozīmē: patērēt pārtiku.",
+            "Bieži raksturo: DARBİBU.",
+            "Das Essen galvenokārt nozīmē: pārtika vai maltīte.",
+            "Bieži raksturo: latenu.",
+            "Essen nozīmē ēst.",
+            "Das Essen var nozīmēt ēdienu vai maltīti kopumā."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Ēdiens garšo labi."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Wat wil je eten"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Mēs ēdam pulksten 12."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Ēdiens ir gatavs."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Ēdiens garšo labi."
+            }
+          ],
+          "tip": [
+            "das Essen = iessen",
+            "Benotzt das Essen, wann de Kontext dëse Sënn entsprécht."
+          ],
+          "important": [
+            "essen ass en Verb ouni Artikel.",
+            "das Essen ass net d'selwecht wéi essen.",
+            "Aktioun: essen.",
+            "Saach/Maz: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "yellow": [
+                "das Essen",
+                "essen"
+              ],
+              "purple": [
+                "ēdiens",
+                "maltīte"
+              ],
+              "green": [
+                "Essen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēdiens"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēdiens"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "das Essen",
+                    "essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ēdiens"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0034",
+          "findingStableId": "g2/a1/lb|Essen|idx:691|study.examples|CORRUPTED_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "study.examples",
+          "category": "CONTENT_CORRUPTION_OR_UNRELATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Gemüse|idx:692",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Gemüse",
+      "lvSource": "[{\"de\":\"Ich esse gern Gemüse.\",\"lv\":\"Es labprāt ēdu dārzeņus.\"},{\"de\":\"Ich esse gern Gemüse.\",\"lv\":\"es labprāt ēdu dārzeņus.\"},{\"de\":\"Das Gemüse ist frisch.\",\"lv\":\"dārzeņi ir svaigi.\"},{\"de\":\"Wir kaufen Gemüse auf dem Markt.\",\"lv\":\"mēs pērkam dārzeņus tirgū.\"},{\"de\":\"Ich mag Obst und Gemüse.\",\"lv\":\"man patīk augļi un dārzeņi.\"},{\"de\":\"Ich esse Gemüse.\",\"lv\":\"Es ēdu dārzeņus.\"}]",
+      "galaCard": {
+        "de": "Gemüse",
+        "de_article": "das",
+        "lv": "Dārzeņi",
+        "level": "A1",
+        "study": {
+          "id": "a1-gemuese",
+          "layout": "standardStudy",
+          "translation": "Dārzeņi",
+          "explanation": [
+            "Galvenā doma: Dārzeṇi kopumā. Vācu valodā nav daudzskaitệa formas *d'Geméis.",
+            "Das Gemüse galvenokārt nozīmē: dārzeņi kopumā.",
+            "Dacks charakteriséiert: bei kengem Geschlecht (nëmmen Eenzahl)."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Ech iesse gär Geméis."
+            },
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Ech iesse gär Geméis."
+            },
+            {
+              "de": "Das Gemüse ist frisch.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "lv": "Mēs pērkam dārzeņus tirgū."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Mann patīk augṅi un dārzeʁi."
+            },
+            {
+              "de": "Ich esse Gemüse.",
+              "lv": "Ech iessen Geméis."
+            }
+          ],
+          "tip": [
+            "das Gemüse = Geméis",
+            "Benotzt das Gemüse, wann de Kontext dëse Sënn entsprécht."
+          ],
+          "important": [
+            "Net richteg: die Gemüse, die Obsts.",
+            "Falsch: die Gemüse → Richteg: das Gemüse",
+            "das Gemüse = Geméis (insgesamt)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Gemüse",
+                "gemüse"
+              ],
+              "purple": [
+                "dārzeņi"
+              ],
+              "green": [
+                "Gemüse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gemüse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dārzeņu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gemüse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "das Gemüse",
+                    "gemüse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gemüse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dārzeņu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gemüse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dārzeʁi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gemüse"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dārzeņu"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "dārzeņi"
+                ]
+              }
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0035",
+          "findingStableId": "g2/a1/lb|Gemüse|idx:692|study.examples|CORRUPTED_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "study.examples",
+          "category": "CONTENT_CORRUPTION_OR_UNRELATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Obst|idx:693",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Obst",
+      "lvSource": "augļi",
+      "galaCard": {
+        "de": "Obst",
+        "de_article": "das",
+        "lv": "Uebst",
+        "level": "A1",
+        "study": {
+          "id": "a1-obst",
+          "layout": "standardStudy",
+          "translation": "Uebst",
+          "explanation": [
+            "Galvenā doma: Augṅi kopumā. Vācu valodā nav daudzskaitṇa formas *d'Fruucht.",
+            "D'Fruucht galvenokārt nozīmē: augṅi kopumā.",
+            "Dacks karakteriséiert: net a enger Geschlechtsform (nëmmen Eenzahl)."
+          ],
+          "examples": [
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Mēs ēdam daudz augļu."
+            },
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Mēs ēdam daudz augļu."
+            },
+            {
+              "de": "Obst ist gesund.",
+              "lv": "Augļi ir veselīgi."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Mann patīk augṅi un dārzeʁi."
+            },
+            {
+              "de": "Wir essen Obst.",
+              "lv": "Mir iessen Flecht."
+            }
+          ],
+          "tip": [
+            "das Obst = Flecht",
+            "Benotz das Obst, wann de Kontext dëser Bedeitong entsprécht."
+          ],
+          "important": [
+            "Falsch: die Obsts → Richteg: das Obst",
+            "das Obst = Flecht (uewerall)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "Galvenā",
+                "Galvenā"
+              ],
+              "purple": [
+                "Augṅi"
+              ],
+              "yellow": [
+                "Galvenā"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augļu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augļu"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augļi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augṅi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "augļu"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "augļi"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "das Obst"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0036",
+          "findingStableId": "g2/a1/lb|Obst|idx:693|lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Ferien|idx:694",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Ferien",
+      "lvSource": "[{\"word\":\"die Ferien\",\"meaning\":\"skolas/studiju brīvlaiks (tikai dsk.)\",\"example\":\"In den Ferien fahren wir weg. – Brīvdienās mēs braucam kaut kur.\"},{\"word\":\"der Urlaub\",\"meaning\":\"atvaļinājums no darba (tikai vsk.)\",\"example\":\"Ich habe zwei Wochen Urlaub. – Man ir divas nedēļas atvaļinājuma.\"}]",
+      "galaCard": {
+        "de": "Ferien",
+        "de_article": "die",
+        "lv": "Brīvdienas (skola)",
+        "level": "A1",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "Brīvdienas (skola)",
+          "explanation": [
+            "Haaptidee: nëmmen Mehrzahl. Schoul oder Studium Frëtzäit — ëmmer Mehrzahl.",
+            "D'Feierdeeg galvenokārt nozīmē: skolas brīvlaiiks.",
+            "Dacks charakteriséiert: nëmmen Mehrzahl.",
+            "Die Ferien ir tikai daudzskaitlis — vienmēr daudzskaitlī (in den Ferien)."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Brīvdienās mēs braucam pie jūras."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "Brīvdienās man ir daudz laika."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Ko jūs darāt brīvdienās?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "Skola brīvdienās ir slēgta."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Brīvdienās mēs braucam pie jūras."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "Brīvdienās (skola)."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "Skolas/studiju brīvlaiks (tikai dsk.)",
+              "example": "In den Ferien fahren wir weg. – An de Vakanze fueren mir fort."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "Atvaļinājums no darba (tikai vsk.)",
+              "example": "Ich habe zwei Wochen Urlaub. – Deemno ass et wichteg ze wëssen, wéi et ausgesäit."
+            }
+          ],
+          "tip": [
+            "nëmmen Mehrzahl. Schoul oder Studium Frëtzäit — ëmmer Mehrzahl.",
+            "Benotzt die Ferien, wann de Kontext dëse Sënn entsprécht."
+          ],
+          "important": [
+            "Ferien ëmmer mat Dativ: in den Ferien.",
+            "Falsch: in der Ferien → Richteg: in den Ferien",
+            "Schoul: die Ferien (nëmmen Mehrzahl).",
+            "nëmmen Mehrzahl. Schoul oder Studium Frëtzäit — ëmmer Mehrzahl."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "die Ferien",
+                "ferien"
+              ],
+              "purple": [
+                "skola"
+              ],
+              "green": [
+                "Ferien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ferien"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "brīvdienas (skola)"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0037",
+          "findingStableId": "g2/a1/lb|Ferien|idx:694|study.comparison|CORRUPTED_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "study.comparison",
+          "category": "CONTENT_CORRUPTION_OR_UNRELATED",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Urlaub|idx:695",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Urlaub",
+      "lvSource": "[{\"de\":\"Mein Vater ist im Urlaub.\",\"lv\":\"Mans tēvs ir atvaļinājumā.\"},{\"de\":\"Mein Vater ist im Urlaub.\",\"lv\":\"mans tēvs ir atvaļinājumā.\"},{\"de\":\"Nächste Woche habe ich Urlaub.\",\"lv\":\"nākamnedēļ man ir atvaļinājums.\"},{\"de\":\"Wir machen Urlaub in Spanien.\",\"lv\":\"mēs pavadām atvaļinājumu Spānijā.\"},{\"de\":\"im Urlaub\",\"lv\":\"atvaļinājumā (darbs).\"}]",
+      "galaCard": {
+        "de": "Urlaub",
+        "de_article": "der",
+        "lv": "Atvaļinājums",
+        "level": "A1",
+        "study": {
+          "id": "a1-urlaub",
+          "layout": "standardStudy",
+          "translation": "Atvaļinājums",
+          "explanation": [
+            "Haaptsaach: just Eenzahl. Aarbechtsferien — ëmmer an der Eenzahl.",
+            "Der Urlaub galvenokārt nozīmē: brīvais laiks no darba.",
+            "Dacks charakteriséiert duerch: eenzegaarteg.",
+            "Der Urlaub ir tikai vienskaitlis — atvaļinājums no darba (im Urlaub)."
+          ],
+          "examples": [
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Mënsche tēvs ər ər ər ər ər."
+            },
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Mënsche tēvs ər ər ər ər ər."
+            },
+            {
+              "de": "Nächste Woche habe ich Urlaub.",
+              "lv": "Nākamnedēļ man ir atvaļinājums."
+            },
+            {
+              "de": "Wir machen Urlaub in Spanien.",
+              "lv": "Произношение на просмотреть онлайн"
+            },
+            {
+              "de": "im Urlaub",
+              "lv": "Atvaļinājumā (darbs)."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Urlaub",
+              "meaning": "Atvaļinājums no darba (tikai vsk.)",
+              "example": "Mein Vater ist im Urlaub. – Mënsche tēvs ər ər ər ər ər."
+            },
+            {
+              "word": "die Ferien",
+              "meaning": "Skolas/studiju brīvlaiks (tikai dsk.)",
+              "example": "Die Kinder haben Ferien. – Déi Kanner hunn Ferien."
+            }
+          ],
+          "tip": [
+            "just Eenzahl. Aarbechtsferien — ëmmer an der Eenzahl.",
+            "Benotz der Urlaub, wann de Kontext dëser Bedeitong entsprécht."
+          ],
+          "important": [
+            "Net richteg: die Ferie, der Urlaube (A1-Niveau).",
+            "Urlaub: im Urlaub sein / Urlaub machen.",
+            "Falsch: die Urlaube → Richteg: der Urlaub",
+            "Aarbecht: der Urlaub (just Eenzahl)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Urlaub",
+                "urlaub"
+              ],
+              "purple": [
+                "atvaļinājums"
+              ],
+              "yellow": [
+                "Urlaub"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mënsche"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mënsche"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atvaļinājums"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Произношение"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "atvaļinājumā"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "atvaļinājums"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "der Urlaub"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0038",
+          "findingStableId": "g2/a1/lb|Urlaub|idx:695|study.examples|CORRUPTED_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "study.examples",
+          "category": "CONTENT_CORRUPTION_OR_UNRELATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Stadt|idx:696",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Stadt",
+      "lvSource": "pilsēta",
+      "galaCard": {
+        "de": "Stadt",
+        "de_article": "die",
+        "de_plural": "die Städte",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0039",
+          "findingStableId": "g2/a1/lb|Stadt|idx:696|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Staat|idx:697",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Staat",
+      "lvSource": "valsts",
+      "galaCard": {
+        "de": "Staat",
+        "de_article": "der",
+        "de_plural": "die Staaten",
+        "lv": "CAA -",
+        "level": "A1"
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0040",
+          "findingStableId": "g2/a1/lb|Staat|idx:697|lv|MISSING_TRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "MISSING_OR_UNTRANSLATED",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Uhr|idx:698",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Uhr",
+      "lvSource": "pulkstenis",
+      "galaCard": {
+        "de": "Uhr",
+        "de_article": "die",
+        "de_plural": "die Uhren",
+        "lv": "Pulsufuerderung",
+        "level": "A1",
+        "study": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "Pulsufuerderung",
+          "explanation": [
+            "Haaptsaach: Auer oder Armbanduhr. Och d'Zäit an der Auer: Es ist acht Uhr.",
+            "Die Uhr galvenokārt nozīmē: ierīce vai laiks pulkstenī.",
+            "Bieži raksturo: konkrēts wunscht.",
+            "Die Uhr nozīmē pulksteni — ierīci vai laiku pulkstenī (Es ist acht Uhr, meine Uhr)."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoņi (pulksten astoņi)."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "Mans pulkstenis ir salūzis."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Ir astoṅi (Pulstexten)."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "Ierīce/laiks pulkstenī • Die Zeit"
+            }
+          ],
+          "tip": [
+            "Auer oder Armbanduhr. Och d'Zäit an der Auer: Es ist acht Uhr.",
+            "Benotz die Uhr, wann de Kontext dëser Bedeitong entsprécht."
+          ],
+          "important": [
+            "die Uhr: Apparat (meine Uhr) oder Zäit (acht Uhr).",
+            "die Uhr: préift de Kontext virun der Notze."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Uhr"
+              ],
+              "purple": [
+                "pulkstenis"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulksten"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "astoṅi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "die Uhr",
+                    "uhr"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "pulkstenī"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "pulkstenis"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "die Uhr"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0041",
+          "findingStableId": "g2/a1/lb|Uhr|idx:698|lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "Zeit|idx:699",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "Zeit",
+      "lvSource": "laiks (brīdis / laika posms)",
+      "galaCard": {
+        "de": "Zeit",
+        "de_article": "die",
+        "de_plural": "die Zeiten",
+        "lv": "Larch (brīdis / laika posms)",
+        "level": "A1",
+        "study": {
+          "id": "a1-zeit",
+          "layout": "standardStudy",
+          "translation": "Larch (brīdis / laika posms)",
+          "explanation": [
+            "Haaptsaach: Zäit wéi e Konzept — en Moment, eng Geleeënheet, eng Zäit-Period.",
+            "Die Zeit galvenokārt nozīmē: brīdis, iespēja.",
+            "Dacks charakteriseiert: abstrakt Konzept.",
+            "Die Zeit ir abstrakts jēdziens — laiks, brīdis vai iespēja (Ich habe keine Zeit)."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "MAN NAV VILA."
+            },
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "MAN NAV VILA."
+            },
+            {
+              "de": "Hast du Zeit?",
+              "lv": "¿Queréis ir queréis?"
+            },
+            {
+              "de": "Die Zeit vergeht schnell.",
+              "lv": "Zäit vergeet schnell."
+            }
+          ],
+          "tip": [
+            "Zäit wéi e Konzept — en Moment, eng Geleeënheet, eng Zäit-Period.",
+            "Benotz die Zeit, wann de Kontext dëser Bedeitong entsprécht."
+          ],
+          "important": [
+            "die Zeit: préift de Kontext virun der Notze.",
+            "die Zeit: préift de Kontext virun der Notze."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "die Zeit",
+                "zeit"
+              ],
+              "purple": [
+                "laiks"
+              ],
+              "yellow": [
+                "Zeit"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "zeit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "MAN"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "zeit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "MAN"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "zeit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "¿Queréis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "die Zeit",
+                    "zeit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zäit"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "laiks"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "die Zeit"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0042",
+          "findingStableId": "g2/a1/lb|Zeit|idx:699|lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "HIGH"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "einmal|idx:700",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "einmal",
+      "lvSource": "vienreiz • reiz",
+      "galaCard": {
+        "de": "einmal",
+        "lv": "Vienreiz • Reiz",
+        "level": "A1",
+        "study": {
+          "id": "a1-einmal",
+          "layout": "standardStudy",
+          "translation": "Vienreiz • Reiz",
+          "explanation": [
+            "Haaptidee: Weist op eng Kéier oder d'Vergaangenheet hin (eng Kéier ech war...).",
+            "Einmal galvenokārt nozīmē: vienu reizi / pagātnē.",
+            "Dacks charakteriséiert: Zäitstënn.",
+            "Einmal norāda uz vienu reizi vai pagātni (reiz es...)."
+          ],
+          "examples": [
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Et reest mat Iech Berlīnē."
+            },
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Et reest mat Iech Berlīnē."
+            }
+          ],
+          "tip": [
+            "einmal = eng Kéier",
+            "Benotzt einmal, wann de Kontext dëse Sënn entsprécht."
+          ],
+          "important": [
+            "einmal = eng Kéier oder eng Kéier an der Vergaangenheet.",
+            "Weist op eng Kéier oder d'Vergaangenheet hin (eng Kéier ech war...)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "einmal"
+              ],
+              "purple": [
+                "reiz"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "einmal",
+                    "einmal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "reest"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "einmal",
+                    "einmal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "reest"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "vienreiz"
+                ]
+              },
+              {
+                "purple": [
+                  "reiz"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "einmal"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0043",
+          "findingStableId": "g2/a1/lb|einmal|idx:700|study.examples.lv|MISTRANSLATION|gpt-5.6-luna",
+          "fieldPath": "study.examples.lv",
+          "category": "SEMANTIC_OR_MEANING_ERROR",
+          "severity": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "lang": "lb",
+      "cardId": "noch mal|idx:701",
+      "productionFile": "crowdin-staging/g2/lb-a1.json",
+      "deReference": "noch mal",
+      "lvSource": "vēlreiz",
+      "galaCard": {
+        "de": "noch mal",
+        "lv": "CAA -",
+        "level": "A1",
+        "study": {
+          "id": "a1-noch-mal",
+          "layout": "standardStudy",
+          "translation": "CAA -",
+          "explanation": [
+            "Haaptidee: Bedeit nach emol — Aktioun widerhueelen oder Widderhuelegung froen."
+          ],
+          "examples": [
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Vēlreiz, lūdzu."
+            },
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Vēlreiz, lūdzu."
+            },
+            {
+              "de": "Sag das noch mal.",
+              "lv": "Pasaki to vēlreiz."
+            }
+          ],
+          "tip": [
+            "Benotz noch mal, wann de Kontext dëser Bedeitong entsprécht.",
+            "Benotz noch mal, wann de Kontext dëser Bedeitong entsprécht."
+          ],
+          "important": [
+            "Bedeit nach emol — Aktioun widerhueelen oder Widderhuelegung froen.",
+            "noch mal: iwwerpréif de Kontext virun der Notzong."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "purple": [
+                "vēlreiz"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "yellow": [
+                    "noch mal",
+                    "noch mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vēlreiz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "noch mal",
+                    "noch mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vēlreiz"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "yellow": [
+                    "noch mal",
+                    "noch mal"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "vēlreiz"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      },
+      "findings": [
+        {
+          "auditId": "LRB069-0044",
+          "findingStableId": "g2/a1/lb|noch mal|idx:701|lv|PLACEHOLDER|gpt-5.6-luna",
+          "fieldPath": "lv",
+          "category": "FORMAT_PLACEHOLDER_OR_ENCODING",
+          "severity": "HIGH"
+        }
+      ]
+    }
+  ]
+}

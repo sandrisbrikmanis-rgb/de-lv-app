@@ -1,0 +1,3860 @@
+{
+  "batch_id": "LRB-069",
+  "language": "lb",
+  "scope": "warm..noch mal (44 LB rows, 44 unique cards)",
+  "rows": 44,
+  "uniqueCards": 44,
+  "paste_sha256": "735291c2ee41005d65a188d74ecd35a7c9b9b3e39cd37a43ade9e7157b0397cb",
+  "full_card_replacements": 22,
+  "full_card_object_ids": [
+    "Appetit|idx:689",
+    "Essen|idx:691",
+    "Ferien|idx:694",
+    "Fernsehen|idx:688",
+    "Gemüse|idx:692",
+    "Obst|idx:693",
+    "Uhr|idx:698",
+    "Urlaub|idx:695",
+    "Wetter|idx:658",
+    "Zeit|idx:699",
+    "Zug|idx:671",
+    "einmal|idx:700",
+    "essen|idx:690",
+    "fernsehen|idx:687",
+    "noch mal|idx:701",
+    "was|idx:644",
+    "wenn|idx:655",
+    "werden|idx:657",
+    "wer|idx:656",
+    "wie|idx:660",
+    "zum|idx:672",
+    "zu|idx:668"
+  ],
+  "classification": "LRB_069_COPY_PASTE_CORRECTION_3_COMPLETE_AWAITING_GALA_VERDICT",
+  "cards": [
+    {
+      "card_object_id": "warm|idx:641",
+      "de_reference": "warm",
+      "idx": 641,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "warm",
+        "level": "A1",
+        "lv": "waarm"
+      }
+    },
+    {
+      "card_object_id": "warten|idx:642",
+      "de_reference": "warten",
+      "idx": 642,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "warten",
+        "level": "A1",
+        "lv": "waarden"
+      }
+    },
+    {
+      "card_object_id": "warum|idx:643",
+      "de_reference": "warum",
+      "idx": 643,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "warum",
+        "level": "A1",
+        "lv": "firwat"
+      }
+    },
+    {
+      "card_object_id": "was|idx:644",
+      "de_reference": "was",
+      "idx": 644,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "was",
+        "level": "A1",
+        "lv": "wat",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "wat",
+          "explanation": [
+            "Haaptiddi: was ass e Froewuert fir Saachen an Evenementer; op Lëtzebuergesch heescht et wat.",
+            "was freet no Saachen, Fakten an Evenementer, net no Persounen.",
+            "Déi däitsch Form was bleift onverännert.",
+            "Als Sujet entsprécht was dem Lëtzebuergesche wat: Was ist das? – Wat ass dat?",
+            "Als Objet entsprécht was och wat: Was machst du? – Wat méchs du?",
+            "Fir Persoune benotzt een wer, op Lëtzebuergesch wien."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Wat ass dat?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Wat ass geschitt?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Wat méchs du grad?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Wat wëlls du drénken?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Wat bedeit dëst Wuert?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Wat ass däi Liiblingsiessen?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Wat hues du gesot?"
+            }
+          ],
+          "tip": [
+            "was bleift am Däitschen onverännert; op Lëtzebuergesch steet wat.",
+            "Saach oder Evenement → wat; Persoun → wien."
+          ],
+          "important": [
+            "was freet ni no Persounen.",
+            "Fir Persoune steet wer / wien.",
+            "was für (ein/eine) entsprécht wat fir (een/eng).",
+            "Falsch: Wer ist passiert? Richteg: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "was"
+              ],
+              "purple": [
+                "wat"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "sich waschen|idx:646",
+      "de_reference": "sich waschen",
+      "idx": 646,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "sich waschen",
+        "level": "A1",
+        "lv": "sech wäschen"
+      }
+    },
+    {
+      "card_object_id": "Weg|idx:647",
+      "de_reference": "Weg",
+      "idx": 647,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Weg",
+        "de_article": "der",
+        "de_plural": "die Wege",
+        "level": "A1",
+        "lv": "Wee"
+      }
+    },
+    {
+      "card_object_id": "Wein|idx:649",
+      "de_reference": "Wein",
+      "idx": 649,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Wein",
+        "de_article": "der",
+        "de_plural": "die Weine",
+        "level": "A1",
+        "lv": "Wäin"
+      }
+    },
+    {
+      "card_object_id": "weinen|idx:650",
+      "de_reference": "weinen",
+      "idx": 650,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "weinen",
+        "level": "A1",
+        "lv": "kräischen"
+      }
+    },
+    {
+      "card_object_id": "weiß|idx:651",
+      "de_reference": "weiß",
+      "idx": 651,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "weiß",
+        "level": "A1",
+        "lv": "wäiss"
+      }
+    },
+    {
+      "card_object_id": "wenig|idx:654",
+      "de_reference": "wenig",
+      "idx": 654,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "wenig",
+        "level": "A1",
+        "lv": "wéineg"
+      }
+    },
+    {
+      "card_object_id": "wenn|idx:655",
+      "de_reference": "wenn",
+      "idx": 655,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "wenn",
+        "level": "A1",
+        "lv": "wann",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "wann",
+          "explanation": [
+            "Haaptiddi: wenn entsprécht jee nom Kontext dem Lëtzebuergeschen wann.",
+            "Bei enger Bedéngung steet wann.",
+            "Bei widderhuelter oder allgemenger Zäit steet och wann.",
+            "Am däitschen Niewesaz steet dat konjugéiert Verb no wenn meeschtens um Schluss."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Wann s du Zäit hues, komm laanscht."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Wann et reent, bleiwen ech doheem."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Wann ech midd sinn, drénken ech Kaffi."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Ech weess net, ob hien kënnt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "wann",
+              "example": "Wenn du Zeit hast... – Wann s du Zäit hues..."
+            },
+            {
+              "word": "ob",
+              "meaning": "ob",
+              "example": "Ich weiß nicht, ob... – Ech weess net, ob..."
+            },
+            {
+              "word": "wann",
+              "meaning": "wéini",
+              "example": "Wann kommst du? – Wéini kënns du?"
+            },
+            {
+              "word": "weil",
+              "meaning": "well",
+              "example": "Ich bleibe, weil ich krank bin. – Ech bleiwen, well ech krank sinn."
+            }
+          ],
+          "tip": {
+            "text": "Bedéngung oder widderholl Zäit → wenn / wann; direkt Zäitfro → wann / wéini."
+          },
+          "important": [
+            "wenn an wann hunn ënnerschiddlech Funktiounen.",
+            "Wann kommst du? ass eng Fro; Wenn du kommst... ass en Niewesaz."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wenn"
+              ],
+              "purple": [
+                "wann"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "wenn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wann"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wenn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ob"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wann"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wéini"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Wann"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "weil"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "well"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "wer|idx:656",
+      "de_reference": "wer",
+      "idx": 656,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "wer",
+        "level": "A1",
+        "lv": "wien",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "wien",
+          "explanation": [
+            "Haaptiddi: wer freet no der Identitéit vun enger Persoun; op Lëtzebuergesch heescht et wien.",
+            "wer gëtt fir Mënsche benotzt, net fir Saachen oder Evenementer.",
+            "Fir Saachen an Evenementer steet was.",
+            "wer steet dacks als Sujet am Nominativ.",
+            "Wer von euch entsprécht Wie vun iech.",
+            "Déi däitsch Kasusforme si wer, wen, wem a wessen."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Wien ass dat?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Wie bass du?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Wie kënnt haut?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Wien ass deng Léierin?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Wie vun iech schwätzt Däitsch?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Wien huet dat gesot?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Wie wëllt Kaffi?"
+            }
+          ],
+          "tip": [
+            "wer / wien fir Persounen; was / wat fir Saachen an Evenementer.",
+            "No der Eifeler Reegel fält de Schluss-n vu wien viru ville Konsonante fort."
+          ],
+          "important": [
+            "wer freet nëmmen no Persounen.",
+            "Fir Saachen an Evenementer steet was.",
+            "wer, wen, wem, wessen si Kasusforme vum däitsche Froewuert.",
+            "Falsch: Wer ist passiert? Richteg: Was ist passiert?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wer"
+              ],
+              "purple": [
+                "wien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wie"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wie"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wie"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wie"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "werden|idx:657",
+      "de_reference": "werden",
+      "idx": 657,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "werden",
+        "level": "A1",
+        "lv": "ginn",
+        "study": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "ginn",
+          "explanation": [
+            "Haaptiddi: werden bedeit um A1-Niveau meeschtens ginn.",
+            "Et beschreift eng Verännerung oder en neien Zoustand.",
+            "Am Däitschen déngt werden och fir Zukunft a Passiv.",
+            "Ich werde müde. entsprécht Ech gi midd."
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "Ech gi midd."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "Et gëtt kal."
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "Si gëtt Doktesch."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "Ech si midd."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "ginn",
+              "example": "Ich werde müde. – Ech gi midd."
+            },
+            {
+              "word": "sein",
+              "meaning": "sinn",
+              "example": "Ich bin müde. – Ech si midd."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "bleiwen",
+              "example": "Ich bleibe hier. – Ech bleiwen hei."
+            },
+            {
+              "word": "machen",
+              "meaning": "maachen",
+              "example": "Ich mache das. – Ech maachen dat."
+            }
+          ],
+          "tip": {
+            "text": "Eng Verännerung oder en neien Zoustand → werden / ginn."
+          },
+          "important": [
+            "werden ass net dat selwecht wéi sein.",
+            "Ich werde müde. = Ech gi midd.; Ich bin müde. = Ech si midd."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "werden"
+              ],
+              "purple": [
+                "ginn"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wird"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gëtt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gëtt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "werden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ginn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sinn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bleiwen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "machen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "maachen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Wetter|idx:658",
+      "de_reference": "Wetter",
+      "idx": 658,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Wetter",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Wieder (Meteo)",
+        "study": {
+          "id": "a1-wetter",
+          "layout": "standardStudy",
+          "translation": "Wieder (Meteo)",
+          "explanation": [
+            "Haaptiddi: das Wetter heescht d’Wieder, also Sonn, Reen, Keelt oder Hëtzt.",
+            "D’Wuert Wieder bezitt sech op meteorologesch Verhältnisser.",
+            "Fir d’Wieder dobausse freet een: Wie ist das Wetter heute?",
+            "Wieder kënnt dacks mat Adjektiver wéi waarm oder kal vir.",
+            "Net mat die Zeit verwiesselen: Zäit ass en abstrakte Begrëff."
+          ],
+          "examples": [
+            {
+              "de": "Wie ist das Wetter heute?",
+              "lv": "Wéi ass d’Wieder haut?"
+            },
+            {
+              "de": "Das Wetter ist schön.",
+              "lv": "D’Wieder ass schéin."
+            },
+            {
+              "de": "Das Wetter ist schlecht.",
+              "lv": "D’Wieder ass schlecht."
+            },
+            {
+              "de": "Im Winter ist das Wetter oft kalt.",
+              "lv": "Am Wanter ass d’Wieder dacks kal."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Mir schwätzen iwwer d’Wieder."
+            },
+            {
+              "de": "Morgen wird das Wetter besser.",
+              "lv": "Muer gëtt d’Wieder besser."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Wetter",
+              "meaning": "Wieder",
+              "example": "Das Wetter ist schön. – D’Wieder ass schéin."
+            },
+            {
+              "word": "Zeit",
+              "meaning": "Zäit",
+              "example": "Ich habe keine Zeit. – Ech hu keng Zäit."
+            },
+            {
+              "word": "Regen",
+              "meaning": "Reen",
+              "example": "Es gibt viel Regen. – Et gëtt vill Reen."
+            },
+            {
+              "word": "Sonne",
+              "meaning": "Sonn",
+              "example": "Die Sonne scheint. – D’Sonn schéngt."
+            }
+          ],
+          "tip": [
+            "Fir Sonn, Reen oder Temperatur dobausse steet das Wetter / d’Wieder.",
+            "Wie ist das Wetter? = Wéi ass d’Wieder?"
+          ],
+          "important": [
+            "das Wetter = d’Wieder, net d’Auerzäit.",
+            "die Zeit = Zäit als Moment oder Geleeënheet."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Wetter"
+              ],
+              "purple": [
+                "Wieder"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Wieder"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Wieder"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Winter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wanter"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Muer"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "Wetter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Wieder"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Zeit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zäit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Regen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Reen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "gibt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Sonne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Sonn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Die"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "wichtig|idx:659",
+      "de_reference": "wichtig",
+      "idx": 659,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "wichtig",
+        "level": "A1",
+        "lv": "wichteg"
+      }
+    },
+    {
+      "card_object_id": "wie|idx:660",
+      "de_reference": "wie",
+      "idx": 660,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "wie",
+        "level": "A1",
+        "lv": "wéi • wéi vill",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "wéi • wéi vill",
+          "explanation": [
+            "Haaptiddi: wie freet no Aart a Weis oder Eegenschaft; bei Quantitéite bedeit et wéi vill.",
+            "wie eleng entsprécht meeschtens wéi.",
+            "wie mat viel, alt oder lange freet no Quantitéit, Alter oder Dauer.",
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "An engem Verglach entsprécht so ... wie dem Lëtzebuergeschen esou ... wéi."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Wéi geet et dir?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Wéi heeschs du?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Wéi vill kascht dat?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Wéi al bass du?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Wéi laang dauert de Film?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Hien ass esou grouss wéi säi Papp."
+            }
+          ],
+          "tip": [
+            "wie eleng = wéi; wie viel = wéi vill.",
+            "so ... wie = esou ... wéi."
+          ],
+          "important": [
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "Wie geet et dir? freet no engem Zoustand, net no enger Quantitéit.",
+            "Wie geht es dir? = Wéi geet et dir?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wie"
+              ],
+              "purple": [
+                "wéi"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hien"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "wieder|idx:661",
+      "de_reference": "wieder",
+      "idx": 661,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "wieder",
+        "level": "A1",
+        "lv": "erëm"
+      }
+    },
+    {
+      "card_object_id": "Zigarette|idx:664",
+      "de_reference": "Zigarette",
+      "idx": 664,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Zigarette",
+        "de_article": "die",
+        "de_plural": "die Zigaretten",
+        "level": "A1",
+        "lv": "Zigarett"
+      }
+    },
+    {
+      "card_object_id": "Zitrone|idx:666",
+      "de_reference": "Zitrone",
+      "idx": 666,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Zitrone",
+        "de_article": "die",
+        "de_plural": "die Zitronen",
+        "level": "A1",
+        "lv": "Zitroun"
+      }
+    },
+    {
+      "card_object_id": "zu|idx:668",
+      "de_reference": "zu",
+      "idx": 668,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "zu",
+        "level": "A1",
+        "lv": "bei • an • ze",
+        "study": {
+          "id": "a1-zu",
+          "layout": "standardStudy",
+          "translation": "bei • an • ze",
+          "explanation": [
+            "Haaptiddi: zu entsprécht no der Konstruktioun bei, an oder ze.",
+            "Bei Persounen an Institutioune weist zu dacks eng Richtung oder e Zil un.",
+            "Virun engem Adjektiv kann zu ze vill bedeiten.",
+            "Bei engem Infinitiv entsprécht zu dem Lëtzebuergesche ze."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Ech gi bei den Dokter."
+            },
+            {
+              "de": "Wir gehen zur Schule.",
+              "lv": "Mir ginn an d’Schoul."
+            },
+            {
+              "de": "Das ist zu teuer.",
+              "lv": "Dat ass ze deier."
+            },
+            {
+              "de": "Ich habe keine Zeit zu lernen.",
+              "lv": "Ech hu keng Zäit ze léieren."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zu",
+              "meaning": "bei • an • ze",
+              "example": "Ich gehe zum Arzt. – Ech gi bei den Dokter."
+            },
+            {
+              "word": "nach",
+              "meaning": "op",
+              "example": "Ich fahre nach Berlin. – Ech fueren op Berlin."
+            },
+            {
+              "word": "in",
+              "meaning": "an",
+              "example": "Ich gehe in die Schule. – Ech ginn an d’Schoul."
+            },
+            {
+              "word": "bei",
+              "meaning": "bei",
+              "example": "Ich bin bei Anna. – Ech si bei der Anna."
+            }
+          ],
+          "tip": {
+            "text": "zum Arzt → bei den Dokter; zu teuer → ze deier; zu lernen → ze léieren."
+          },
+          "important": [
+            "D’Entspriechung vu zu hänkt vun der Konstruktioun of.",
+            "zu teuer bedeit ze deier, keng Richtung."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zu"
+              ],
+              "purple": [
+                "bei"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei • an • ze"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "an"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Zucker|idx:669",
+      "de_reference": "Zucker",
+      "idx": 669,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Zucker",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Zocker"
+      }
+    },
+    {
+      "card_object_id": "zuerst|idx:670",
+      "de_reference": "zuerst",
+      "idx": 670,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "zuerst",
+        "level": "A1",
+        "lv": "als éischt"
+      }
+    },
+    {
+      "card_object_id": "Zug|idx:671",
+      "de_reference": "Zug",
+      "idx": 671,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Zug",
+        "de_article": "der",
+        "de_plural": "die Züge",
+        "level": "A1",
+        "lv": "Zuch",
+        "study": {
+          "id": "a1-zug",
+          "layout": "standardStudy",
+          "translation": "Zuch",
+          "explanation": [
+            "Haaptiddi: der Zug heescht um A1-Niveau den Zuch.",
+            "Et gëtt bei Reesen, Arrivéeën an Departen benotzt.",
+            "Aner Bedeitunge vu Zug si fir dës Kaart net zentral.",
+            "Heefeg Verbindunge sinn mit dem Zug fahren an Der Zug kommt."
+          ],
+          "examples": [
+            {
+              "de": "Der Zug kommt um acht Uhr.",
+              "lv": "Den Zuch kënnt um aacht Auer."
+            },
+            {
+              "de": "Ich fahre mit dem Zug.",
+              "lv": "Ech fuere mam Zuch."
+            },
+            {
+              "de": "Der Zug ist voll.",
+              "lv": "Den Zuch ass voll."
+            },
+            {
+              "de": "Der Bus kommt später.",
+              "lv": "De Bus kënnt méi spéit."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Zug",
+              "meaning": "Zuch",
+              "example": "Der Zug kommt. – Den Zuch kënnt."
+            },
+            {
+              "word": "die Bahn",
+              "meaning": "Eisebunn",
+              "example": "Ich fahre mit der Bahn. – Ech fuere mat der Eisebunn."
+            },
+            {
+              "word": "der Bus",
+              "meaning": "Bus",
+              "example": "Der Bus kommt. – De Bus kënnt."
+            },
+            {
+              "word": "die Straßenbahn",
+              "meaning": "Tram",
+              "example": "Die Straßenbahn ist hier. – Den Tram ass hei."
+            }
+          ],
+          "tip": {
+            "text": "Dat konkret Gefier op der Schinn → der Zug / den Zuch."
+          },
+          "important": [
+            "der Zug huet hei d’Bedeitung Zuch.",
+            "Aner Bedeitunge sinn net d’Haaptbedeitung vun dëser A1-Kaart."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Zug"
+              ],
+              "purple": [
+                "Zuch"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Den"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Den"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Bus"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Zug"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zuch"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bahn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Eisebunn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Bus"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Bus"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Straßenbahn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Tram"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Die"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "zum|idx:672",
+      "de_reference": "zum",
+      "idx": 672,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "zum",
+        "level": "A1",
+        "lv": "bei • op • an • fir",
+        "study": {
+          "id": "a1-zum",
+          "layout": "standardStudy",
+          "translation": "bei • op • an • fir",
+          "explanation": [
+            "zum ass déi zesummegezunne Form vu zu dem.",
+            "Déi voll Form ass zu dem.",
+            "zum steet viru männlechen an neutrale Substantiven am Dativ.",
+            "Jee nom Zil entsprécht et bei, op, an oder fir.",
+            "Am normalen Däitsche steet meeschtens zum amplaz vun zu dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Ech gi bei den Dokter."
+            },
+            {
+              "de": "Wir fahren zum Bahnhof.",
+              "lv": "Mir fueren op d’Gare."
+            },
+            {
+              "de": "Sie geht zum Supermarkt.",
+              "lv": "Si geet an de Supermarché."
+            },
+            {
+              "de": "Komm zum Essen!",
+              "lv": "Komm iessen!"
+            },
+            {
+              "de": "Er fährt zum Flughafen.",
+              "lv": "Hie fiert op de Fluchhafen."
+            },
+            {
+              "de": "Wir gehen zum Konzert.",
+              "lv": "Mir ginn op de Concert."
+            },
+            {
+              "de": "Das Geschenk ist zum Geburtstag.",
+              "lv": "De Kaddo ass fir de Gebuertsdag."
+            },
+            {
+              "de": "Ich gehe zum Friseur.",
+              "lv": "Ech gi bei de Coiffeur."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zum",
+              "meaning": "bei • op • an • fir",
+              "example": "zum Arzt – bei den Dokter"
+            },
+            {
+              "word": "zur",
+              "meaning": "an • op • bei",
+              "example": "zur Schule – an d’Schoul"
+            },
+            {
+              "word": "zu",
+              "meaning": "bei • an • ze",
+              "example": "zu Hause – doheem"
+            },
+            {
+              "word": "nach",
+              "meaning": "op",
+              "example": "nach Berlin – op Berlin"
+            },
+            {
+              "word": "bei",
+              "meaning": "bei",
+              "example": "beim Arzt – beim Dokter"
+            }
+          ],
+          "tip": [
+            "zu + dem gëtt zum.",
+            "Bei feminine Substantive gëtt zu + der zu zur."
+          ],
+          "important": [
+            "zum = zu dem bei engem männlechen oder neutrale Substantiv am Dativ.",
+            "Et bezeechent dacks e Richtung oder Zil.",
+            "Bei feminine Substantive steet zur.",
+            "Bei = Plaz; nach = Stied a Länner ouni Artikel."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zum"
+              ],
+              "purple": [
+                "bei"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "geet"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Komm"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Komm"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fährt"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hie"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kaddo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei • op • an • fir"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zum"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zur"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "an • op • bei"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "zur"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei • an • ze"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Hause"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "beim"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "zusammen|idx:675",
+      "de_reference": "zusammen",
+      "idx": 675,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "zusammen",
+        "level": "A1",
+        "lv": "zesummen"
+      }
+    },
+    {
+      "card_object_id": "zwanzig|idx:677",
+      "de_reference": "zwanzig",
+      "idx": 677,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "zwanzig",
+        "level": "A1",
+        "lv": "zwanzeg"
+      }
+    },
+    {
+      "card_object_id": "zweihundert|idx:680",
+      "de_reference": "zweihundert",
+      "idx": 680,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "zweihundert",
+        "level": "A1",
+        "lv": "zweehonnert"
+      }
+    },
+    {
+      "card_object_id": "zweite|idx:682",
+      "de_reference": "zweite",
+      "idx": 682,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "zweite",
+        "level": "A1",
+        "lv": "zweeten"
+      }
+    },
+    {
+      "card_object_id": "Zwiebel|idx:683",
+      "de_reference": "Zwiebel",
+      "idx": 683,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Zwiebel",
+        "de_article": "die",
+        "de_plural": "die Zwiebeln",
+        "level": "A1",
+        "lv": "Ënn"
+      }
+    },
+    {
+      "card_object_id": "fernsehen|idx:687",
+      "de_reference": "fernsehen",
+      "idx": 687,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "fernsehen",
+        "level": "A1",
+        "lv": "Tëlee kucken",
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "Tëlee kucken",
+          "explanation": "Haaptiddi: fernsehen ass e trennbaart Verb: ich sehe fern, du siehst fern. Et heescht Tëlee kucken. Net mam Substantiv das Fernsehen / Tëlee verwiesselen.",
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Ech kucken den Owend Tëlee."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Kucks du dacks Tëlee?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "D’Kanner kucken am Nomëtteg Tëlee."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "Tëlee kucken",
+              "example": "Ich sehe fern. – Ech kucken Tëlee."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "Tëlee",
+              "example": "Im Fernsehen läuft ein Film. – Op der Tëlee leeft e Film."
+            },
+            {
+              "word": "sehen",
+              "meaning": "gesinn",
+              "example": "Ich sehe einen Film. – Ech gesinn e Film."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Fir d’Aktivitéit steet fernsehen / Tëlee kucken; fir Medium oder Programm steet das Fernsehen / Tëlee."
+              }
+            ]
+          },
+          "important": {
+            "text": "fernsehen ass e Verb; das Fernsehen ass e Substantiv am Eenzuel."
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fernsehen"
+              ],
+              "purple": [
+                "Tëlee"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kucks"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Die"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Kanner"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "fernsehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Tëlee kucken"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Fernsehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Tëlee"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Fernsehen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gesinn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Fernsehen|idx:688",
+      "de_reference": "Fernsehen",
+      "idx": 688,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Fernsehen",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Tëlee",
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "Tëlee",
+          "explanation": [
+            "Haaptiddi: das Fernsehen ass e Substantiv am Eenzuel fir Tëlee als Medium oder Programm.",
+            "Et kann eng Sendung oder dat allgemengt Medium bezeechnen.",
+            "Et ass e Substantiv, keng Aktivitéit.",
+            "das Fernsehen entsprécht Tëlee.",
+            "Am Däitsche gëtt et nëmmen am Eenzuel gebraucht.",
+            "fernsehen ass dat trennbaart Verb fir Tëlee kucken.",
+            "das Fernsehen huet keng regulär Pluralform."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Wat gëtt et haut op der Tëlee?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Wat kënnt haut op der Tëlee?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "Op der Tëlee leeft e Film."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "D’Tëlee ass haut langweileg."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Ech kucken den Owend Tëlee."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Wat gëtt et op der Tëlee?"
+            }
+          ],
+          "tip": [
+            "Fir d’Aktivitéit steet fernsehen; fir Medium oder Programm steet das Fernsehen.",
+            "das Fernsehen gëtt am Däitschen nëmmen am Eenzuel benotzt."
+          ],
+          "important": [
+            "fernsehen ass trennbaart: sehen + fern.",
+            "das Fernsehen huet keng Pluralform.",
+            "Falsch: die Fernsehen; richteg: das Fernsehen.",
+            "Aktivitéit: fernsehen; Medium: das Fernsehen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Fernsehen"
+              ],
+              "purple": [
+                "Tëlee"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "der"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Tëlee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Appetit|idx:689",
+      "de_reference": "Appetit",
+      "idx": 689,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Appetit",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Appetit",
+        "study": {
+          "id": "a1-appetit",
+          "layout": "standardStudy",
+          "translation": "Appetit",
+          "explanation": [
+            "Haaptiddi: der Appetit heescht Appetit oder Loscht ze iessen.",
+            "Et bezeechent de Wonsch ze iessen.",
+            "D’Wuert steet hei am Eenzuel.",
+            "der Appetit = Appetit.",
+            "Eng heefeg Wendung ass Guten Appetit!"
+          ],
+          "examples": [
+            {
+              "de": "Guten Appetit!",
+              "lv": "Gudden Appetit!"
+            },
+            {
+              "de": "Guten Appetit!",
+              "lv": "Loosst et iech schmaachen!"
+            },
+            {
+              "de": "Ich habe keinen Appetit.",
+              "lv": "Ech hu keen Appetit."
+            }
+          ],
+          "tip": [
+            "der Appetit = Appetit.",
+            "Benotz Appetit fir d’Loscht ze iessen."
+          ],
+          "important": [
+            "der Appetit steet hei am Eenzuel.",
+            "Falsch: die Appetite; richteg: der Appetit.",
+            "Falsch: Ich bin Appetit.; richteg: Ich habe Appetit.",
+            "Et geet ëm d’Loscht ze iessen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Appetit"
+              ],
+              "purple": [
+                "Appetit"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Guten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Gudden"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Guten"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Loosst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "essen|idx:690",
+      "de_reference": "essen",
+      "idx": 690,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "essen",
+        "level": "A1",
+        "lv": "iessen",
+        "study": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "iessen",
+          "explanation": [
+            "Haaptiddi: essen ass d’Verb fir iessen.",
+            "Et bezeechent d’Aktivitéit, Liewensmëttel ze konsuméieren.",
+            "Als Verb huet essen keen Artikel.",
+            "Das Essen ass dovun z’ënnerscheeden.",
+            "das Essen bezeechent Iessen oder eng Moolzecht.",
+            "essen = iessen.",
+            "das Essen = Iessen oder Moolzecht."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Ech iesse gär Pizza."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Wat wëllt dir iessen?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Mir iessen um zwielef Auer."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "D’Iessen ass fäerdeg."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "D’Iesse schmaacht ganz gutt."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "D’Moolzecht schmaacht gutt."
+            }
+          ],
+          "tip": [
+            "essen = iessen.",
+            "Benotz essen fir d’Aktivitéit."
+          ],
+          "important": [
+            "essen ass e Verb ouni Artikel.",
+            "das Essen ass net dat selwecht wéi essen.",
+            "Aktivitéit: essen / iessen.",
+            "Saach oder Moolzecht: das Essen / Iessen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "essen"
+              ],
+              "purple": [
+                "iessen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Iessen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Iesse"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Moolzecht"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Essen|idx:691",
+      "de_reference": "Essen",
+      "idx": 691,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Essen",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Iessen • Moolzecht",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "Iessen • Moolzecht",
+          "explanation": [
+            "Haaptiddi: das Essen ass e Substantiv fir Iessen oder eng Moolzecht.",
+            "Et bezeechent d’Iessen als Saach, net d’Aktivitéit.",
+            "Als Substantiv gëtt et groussgeschriwwen.",
+            "das Essen = Iessen oder Moolzecht.",
+            "Et kann e Plat oder eng ganz Moolzecht bezeechnen.",
+            "D’Verb essen heescht iessen.",
+            "Substantiv a Verb ënnerscheede sech duerch Grouss- a Klengschreiwung."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "D’Iesse schmaacht gutt."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Wat wëllt dir iessen?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Mir iessen um zwielef Auer."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "D’Iessen ass fäerdeg."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "D’Iesse schmaacht ganz gutt."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "D’Moolzecht schmaacht gutt."
+            }
+          ],
+          "tip": [
+            "das Essen = Iessen oder Moolzecht.",
+            "D’Verb essen heescht iessen."
+          ],
+          "important": [
+            "essen ass e Verb ouni Artikel.",
+            "das Essen ass e Substantiv.",
+            "Aktivitéit: essen / iessen.",
+            "Saach oder Moolzecht: das Essen / Iessen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Essen"
+              ],
+              "purple": [
+                "Iessen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Iesse"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Iessen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Iesse"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Moolzecht"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Gemüse|idx:692",
+      "de_reference": "Gemüse",
+      "idx": 692,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Gemüse",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Geméis",
+        "study": {
+          "id": "a1-gemuese",
+          "layout": "standardStudy",
+          "translation": "Geméis",
+          "explanation": [
+            "Haaptiddi: das Gemüse ass Geméis als Sammelbezeechnung.",
+            "Am Däitsche gëtt et an dëser Bedeitung am Eenzuel gebraucht.",
+            "Et bezeechent Geméis am Allgemengen."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Ech iesse gär Geméis."
+            },
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Geméis iessen ech gär."
+            },
+            {
+              "de": "Das Gemüse ist frisch.",
+              "lv": "D’Geméis ass frësch."
+            },
+            {
+              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "lv": "Mir kafe Geméis um Maart."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Ech hunn Uebst a Geméis gär."
+            },
+            {
+              "de": "Ich esse Gemüse.",
+              "lv": "Ech iesse Geméis."
+            }
+          ],
+          "tip": [
+            "das Gemüse = Geméis.",
+            "Benotz Geméis als Sammelbezeechnung."
+          ],
+          "important": [
+            "Net die Gemüse, mee das Gemüse.",
+            "Falsch: die Gemüse; richteg: das Gemüse.",
+            "das Gemüse = Geméis am Allgemengen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Gemüse"
+              ],
+              "purple": [
+                "Geméis"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Geméis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Geméis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Obst|idx:693",
+      "de_reference": "Obst",
+      "idx": 693,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Obst",
+        "de_article": "das",
+        "level": "A1",
+        "lv": "Uebst",
+        "study": {
+          "id": "a1-obst",
+          "layout": "standardStudy",
+          "translation": "Uebst",
+          "explanation": [
+            "Haaptiddi: das Obst ass Uebst als Sammelbezeechnung.",
+            "Am Däitsche gëtt et an dëser Bedeitung am Eenzuel gebraucht.",
+            "Et bezeechent Uebst am Allgemengen."
+          ],
+          "examples": [
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Mir iesse vill Uebst."
+            },
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Vill Uebst iesse mir."
+            },
+            {
+              "de": "Obst ist gesund.",
+              "lv": "Uebst ass gesond."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Ech hunn Uebst a Geméis gär."
+            },
+            {
+              "de": "Wir essen Obst.",
+              "lv": "Mir iessen Uebst."
+            }
+          ],
+          "tip": [
+            "das Obst = Uebst.",
+            "Benotz Uebst als Sammelbezeechnung."
+          ],
+          "important": [
+            "Falsch: die Obsts; richteg: das Obst.",
+            "das Obst = Uebst am Allgemengen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Obst"
+              ],
+              "purple": [
+                "Uebst"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vill"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Uebst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Ferien|idx:694",
+      "de_reference": "Ferien",
+      "idx": 694,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Ferien",
+        "de_article": "die",
+        "level": "A1",
+        "lv": "Vakanzen",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "Vakanzen",
+          "explanation": [
+            "Haaptiddi: die Ferien si Schoul- oder Studievakanzen a stinn ëmmer am Pluriel.",
+            "Et geet ëm fräi Zäit vun der Schoul oder dem Studium.",
+            "Am Däitsche gëtt Ferien nëmmen am Pluriel gebraucht.",
+            "in den Ferien entsprécht an de Vakanzen."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "An de Vakanze fuere mir un d’Mier."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "An de Vakanzen hunn ech vill Zäit."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Wat maacht dir an de Vakanzen?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "D’Schoul ass an de Vakanzen zou."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Mir fueren an de Vakanzen un d’Mier."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "An de Vakanzen."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "Vakanzen (Schoul oder Studium)",
+              "example": "In den Ferien fahren wir weg. – An de Vakanze fuere mir fort."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "Congé oder Vakanz (Aarbecht)",
+              "example": "Ich habe zwei Wochen Urlaub. – Ech hunn zwou Woche Congé."
+            }
+          ],
+          "tip": [
+            "die Ferien steet am Däitschen nëmmen am Pluriel.",
+            "Fir Schoul oder Studium steet Ferien / Vakanzen."
+          ],
+          "important": [
+            "Däitsch: in den Ferien.",
+            "Falsch: in der Ferien; richteg: in den Ferien.",
+            "Schoul: die Ferien / Vakanzen.",
+            "Ferien gëtt am Däitschen nëmmen am Pluriel benotzt."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Ferien"
+              ],
+              "purple": [
+                "Vakanzen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vakanze"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vakanzen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Was"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Die"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Schoul"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "den"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Vakanzen"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Ferien"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vakanzen (Schoul oder Studium)"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "den"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Urlaub"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Congé oder Vakanz (Aarbecht)"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Urlaub|idx:695",
+      "de_reference": "Urlaub",
+      "idx": 695,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Urlaub",
+        "de_article": "der",
+        "level": "A1",
+        "lv": "Congé • Vakanz",
+        "study": {
+          "id": "a1-urlaub",
+          "layout": "standardStudy",
+          "translation": "Congé • Vakanz",
+          "explanation": [
+            "Haaptiddi: der Urlaub heescht fräi Zäit vun der Aarbecht.",
+            "Op Lëtzebuergesch steet no Kontext Congé oder Vakanz.",
+            "Am Däitsche gëtt Urlaub hei am Eenzuel gebraucht.",
+            "Heefeg Verbindunge sinn im Urlaub sein an Urlaub machen."
+          ],
+          "examples": [
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Mäi Papp ass am Congé."
+            },
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Mäi Papp ass an der Vakanz."
+            },
+            {
+              "de": "Nächste Woche habe ich Urlaub.",
+              "lv": "D’nächst Woch hunn ech Congé."
+            },
+            {
+              "de": "Wir machen Urlaub in Spanien.",
+              "lv": "Mir maachen a Spuenien Vakanz."
+            },
+            {
+              "de": "im Urlaub",
+              "lv": "Am Congé."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Urlaub",
+              "meaning": "Congé oder Vakanz (Aarbecht)",
+              "example": "Mein Vater ist im Urlaub. – Mäi Papp ass am Congé."
+            },
+            {
+              "word": "die Ferien",
+              "meaning": "Vakanzen (Schoul oder Studium)",
+              "example": "Die Kinder haben Ferien. – D’Kanner hu Vakanzen."
+            }
+          ],
+          "tip": [
+            "Fir Aarbechtsfräizäit steet Urlaub / Congé.",
+            "Vakanz passt, wann d’Rees oder d’Erliefnis am Mëttelpunkt steet."
+          ],
+          "important": [
+            "Urlaub steet am A1-Kontext am Däitschen am Eenzuel.",
+            "Heefeg: im Urlaub sein oder Urlaub machen.",
+            "Fir Schoulfräizäit steet die Ferien.",
+            "Aarbecht: der Urlaub / Congé."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Urlaub"
+              ],
+              "purple": [
+                "Congé"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Mein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mäi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mäi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nächste"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’nächst"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Congé"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Urlaub"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Congé oder Vakanz (Aarbecht)"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Mein"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Ferien"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Vakanzen (Schoul oder Studium)"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Die"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Stadt|idx:696",
+      "de_reference": "Stadt",
+      "idx": 696,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Stadt",
+        "de_article": "die",
+        "de_plural": "die Städte",
+        "level": "A1",
+        "lv": "Stad"
+      }
+    },
+    {
+      "card_object_id": "Staat|idx:697",
+      "de_reference": "Staat",
+      "idx": 697,
+      "owner_decision": "LABOT",
+      "replacement_scope": "finding_field_only",
+      "post_owner": {
+        "de": "Staat",
+        "de_article": "der",
+        "de_plural": "die Staaten",
+        "level": "A1",
+        "lv": "Staat"
+      }
+    },
+    {
+      "card_object_id": "Uhr|idx:698",
+      "de_reference": "Uhr",
+      "idx": 698,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Uhr",
+        "de_article": "die",
+        "de_plural": "die Uhren",
+        "level": "A1",
+        "lv": "Auer",
+        "study": {
+          "id": "a1-uhr",
+          "layout": "standardStudy",
+          "translation": "Auer",
+          "explanation": [
+            "Haaptiddi: die Uhr ass eng Auer als Apparat oder eng konkret Auerzäit.",
+            "Et kann eng Wandauer, Armbanduhr oder Zäitangab bezeechnen.",
+            "Bei enger konkreter Zäit steet zum Beispill acht Uhr.",
+            "die Uhr ass net dat selwecht wéi die Zeit."
+          ],
+          "examples": [
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Et ass aacht Auer."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Et ass 8 Auer."
+            },
+            {
+              "de": "Meine Uhr ist kaputt.",
+              "lv": "Meng Auer ass futti."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Elo ass et aacht Auer."
+            },
+            {
+              "de": "Es ist acht Uhr.",
+              "lv": "Et ass elo aacht Auer."
+            },
+            {
+              "de": "die Uhr",
+              "lv": "die Uhr = Auer oder Auerzäit; die Zeit = Zäit."
+            }
+          ],
+          "tip": [
+            "Auer als Apparat oder konkret Auerzäit → die Uhr / Auer.",
+            "Es ist acht Uhr. = Et ass aacht Auer."
+          ],
+          "important": [
+            "die Uhr kann Apparat oder konkret Auerzäit bezeechnen.",
+            "Fir Zäit als abstrakte Begrëff steet die Zeit / Zäit."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Uhr"
+              ],
+              "purple": [
+                "Auer"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ass"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ass"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Meine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Meng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Elo"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ass"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "die"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "die"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "Zeit|idx:699",
+      "de_reference": "Zeit",
+      "idx": 699,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "Zeit",
+        "de_article": "die",
+        "de_plural": "die Zeiten",
+        "level": "A1",
+        "lv": "Zäit",
+        "study": {
+          "id": "a1-zeit",
+          "layout": "standardStudy",
+          "translation": "Zäit",
+          "explanation": [
+            "Haaptiddi: die Zeit ass Zäit als abstrakte Begrëff, Moment oder Zäitraum.",
+            "Et kann eng Geleeënheet oder verfügbar Zäit bezeechnen.",
+            "Am Géigesaz zu Uhr geet et net ëm en Apparat oder eng exakt Auerzäit.",
+            "Ich habe keine Zeit. = Ech hu keng Zäit."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "Ech hu keng Zäit."
+            },
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "Zäit hunn ech keng."
+            },
+            {
+              "de": "Hast du Zeit?",
+              "lv": "Hues du Zäit?"
+            },
+            {
+              "de": "Die Zeit vergeht schnell.",
+              "lv": "D’Zäit vergeet séier."
+            }
+          ],
+          "tip": [
+            "Zäit als Begrëff, Moment oder Zäitraum → die Zeit / Zäit.",
+            "Fir konkret Auerzäit steet die Uhr / Auer."
+          ],
+          "important": [
+            "die Zeit bezeechent Zäit als abstrakte Begrëff.",
+            "Net mat die Uhr / Auer verwiesselen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Zeit"
+              ],
+              "purple": [
+                "Zäit"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Zäit"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Hast"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hues"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Die"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Zäit"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "einmal|idx:700",
+      "de_reference": "einmal",
+      "idx": 700,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "einmal",
+        "level": "A1",
+        "lv": "eemol • eng Kéier",
+        "study": {
+          "id": "a1-einmal",
+          "layout": "standardStudy",
+          "translation": "eemol • eng Kéier",
+          "explanation": [
+            "Haaptiddi: einmal bezeechent eng eenzeg Kéier oder e Moment an der Vergaangenheet.",
+            "Et entsprécht jee nom Kontext eemol oder eng Kéier.",
+            "Et gëtt als Zäitadverb gebraucht.",
+            "An enger Erzielung kann einmal e fréiere Moment aféieren."
+          ],
+          "examples": [
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Ech war eemol zu Berlin."
+            },
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Eng Kéier war ech zu Berlin."
+            }
+          ],
+          "tip": [
+            "einmal = eemol oder eng Kéier.",
+            "Benotz et fir eng eenzeg Kéier oder e fréiere Moment."
+          ],
+          "important": [
+            "einmal kann eemol oder eng Kéier bedeiten.",
+            "Et bezeechent eng eenzeg Kéier oder e Moment an der Vergaangenheet."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "einmal"
+              ],
+              "purple": [
+                "eemol"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Eng"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "card_object_id": "noch mal|idx:701",
+      "de_reference": "noch mal",
+      "idx": 701,
+      "owner_decision": "LABOT",
+      "replacement_scope": "full_card_target_fields",
+      "post_owner": {
+        "de": "noch mal",
+        "level": "A1",
+        "lv": "nach eng Kéier • nach eemol",
+        "study": {
+          "id": "a1-noch-mal",
+          "layout": "standardStudy",
+          "translation": "nach eng Kéier • nach eemol",
+          "explanation": [
+            "Haaptiddi: noch mal heescht nach eng Kéier oder nach eemol. Et freet no enger Widderhuelung oder beschreift se."
+          ],
+          "examples": [
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Nach eng Kéier, wann ech gelift."
+            },
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Nach eemol, wann ech gelift."
+            },
+            {
+              "de": "Sag das noch mal.",
+              "lv": "So dat nach eng Kéier."
+            }
+          ],
+          "tip": [
+            "noch mal = nach eng Kéier oder nach eemol.",
+            "Benotz et, wann eppes widderholl gëtt."
+          ],
+          "important": [
+            "D’Ausdrock freet no enger Widderhuelung oder beschreift se.",
+            "noch mal ass eng alldeeglech däitsch Form."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "noch mal"
+              ],
+              "purple": [
+                "nach"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Noch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nach"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Noch"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nach"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Sag"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "dat"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
