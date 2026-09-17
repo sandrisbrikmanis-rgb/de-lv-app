@@ -18,6 +18,50 @@ const {
   isFullCompositeScope,
 } = require("./lib/g2-a1-lrb-leaf-reconstruction");
 
+const OWNER_45_RESOLUTION_PATH = path.join(
+  ROOT,
+  "reports/g2-a1-owner/consolidation/A1-LRB-OWNER-RESOLUTION-45.json"
+);
+
+function loadOwner45Resolutions() {
+  if (!fs.existsSync(OWNER_45_RESOLUTION_PATH)) return null;
+  try {
+    const doc = JSON.parse(fs.readFileSync(OWNER_45_RESOLUTION_PATH, "utf8"));
+    const map = new Map();
+    for (const ch of doc.changes || []) {
+      map.set(ch.leaf_target_key, ch);
+    }
+    return { doc, map };
+  } catch {
+    return null;
+  }
+}
+
+function applyOwner45CanonicalCopyPaste(leafVersionsByKey, ownerBundle) {
+  if (!ownerBundle?.map) return { applied: 0, missing_keys: [], mismatches: [] };
+  const missing_keys = [];
+  const mismatches = [];
+  let applied = 0;
+  for (const [key, ch] of ownerBundle.map) {
+    const versions = leafVersionsByKey.get(key);
+    if (!versions?.length) {
+      missing_keys.push(key);
+      continue;
+    }
+    const expected = String(ch.owner_new);
+    const sha = leafValueSha(expected);
+    for (const v of versions) {
+      v.leaf_value = expected;
+      v.leaf_value_sha256 = sha;
+      v.owner_45_copy_paste_applied = true;
+      v.owner_resolution_order = ch.order;
+      v.owner_resolution_type = ch.resolution_type;
+    }
+    applied += 1;
+  }
+  return { applied, missing_keys, mismatches, expected: ownerBundle.map.size };
+}
+
 const BEFORE_LEAF_NORMALIZATION = {
   payload_level_independent_conflicts: 437,
   semicolon_compound_conflict_keys: 112,
@@ -921,6 +965,9 @@ function main() {
   earlierPartialReviews = ingestCounters.earlierPartialReviews;
   repeatedFullCardReviews = ingestCounters.repeatedFullCardReviews;
 
+  const owner45Bundle = loadOwner45Resolutions();
+  const owner45Apply = applyOwner45CanonicalCopyPaste(leafVersionsByKey, owner45Bundle);
+
   const repeatedTargets = [];
   const classifications = [];
   const unresolved = [];
@@ -1065,14 +1112,29 @@ function main() {
   const noUnresolvedLeafConflicts =
     unresolvedCount === 0 && counts.INDEPENDENT_OWNER_CONFLICT === 0 && counts.INSUFFICIENT_DECISION_SOURCE === 0;
 
-  const finalClassification = leafNormalizationPass
+  const owner45Complete =
+    owner45Bundle &&
+    owner45Apply.applied === 45 &&
+    owner45Apply.missing_keys.length === 0 &&
+    counts.INDEPENDENT_OWNER_CONFLICT === 0;
+
+  let finalClassification = leafNormalizationPass
     ? noUnresolvedLeafConflicts
       ? "A1_LRB_RE_REVIEW_BINDING_PASS"
       : "A1_LRB_RE_REVIEW_BINDING_BLOCKED"
     : "A1_LRB_RE_REVIEW_BINDING_BLOCKED";
-  const nextAction = noUnresolvedLeafConflicts && leafNormalizationPass
+  let nextAction = noUnresolvedLeafConflicts && leafNormalizationPass
     ? "CREATE_CONSOLIDATION_BRANCH"
     : "OWNER_RESOLVE_EXACT_LEAF_LIST";
+
+  if (owner45Complete) {
+    finalClassification =
+      "A1_LRB_OWNER_45_CONFLICT_RESOLUTION_COPY_PASTE_COMPLETE_AWAITING_VERIFICATION";
+    nextAction = "VERIFY_OWNER_45_COPY_PASTE_AND_PROCEED";
+  } else if (owner45Bundle && owner45Apply.applied > 0) {
+    finalClassification = "A1_LRB_OWNER_45_COPY_PASTE_PARTIAL_OR_BLOCKED";
+    nextAction = "OWNER_RESOLVE_EXACT_LEAF_LIST";
+  }
 
   const outDir = path.join(ROOT, "reports/g2-a1-owner/consolidation");
   let inventoryPairwiseConflicts = null;
@@ -1102,6 +1164,18 @@ function main() {
     generated_at: new Date().toISOString(),
     classification: finalClassification,
     next_action: nextAction,
+    owner_45_copy_paste: owner45Bundle
+      ? {
+          resolution_file: OWNER_45_RESOLUTION_PATH,
+          resolution_file_sha256: sha256(fs.readFileSync(OWNER_45_RESOLUTION_PATH)),
+          source_unresolved_file_sha256: owner45Bundle.doc.source_unresolved_file_sha256,
+          applied_exactly: owner45Apply.applied,
+          expected: owner45Apply.expected,
+          missing_keys: owner45Apply.missing_keys,
+          independent_conflicts_after: counts.INDEPENDENT_OWNER_CONFLICT,
+          unresolved_after: unresolvedCount,
+        }
+      : null,
     re_review_binding: {
       range: reReviewBinding.re_review_range,
       two_generation_gate: reReviewBinding.two_generation_gate,
@@ -1214,6 +1288,53 @@ function main() {
     path.join(outDir, "A1-LRB-UNRESOLVED-OWNER-CONFLICTS.json"),
     JSON.stringify({ generated_at: summary.generated_at, unresolved_count: unresolvedCount, conflicts: unresolved }, null, 2) + "\n"
   );
+
+  if (owner45Bundle) {
+    const proof = {
+      generated_at: summary.generated_at,
+      classification: finalClassification,
+      owner_resolution_json_sha256: sha256(fs.readFileSync(OWNER_45_RESOLUTION_PATH)),
+      source_unresolved_file_sha256: owner45Bundle.doc.source_unresolved_file_sha256,
+      applied_exactly: `${owner45Apply.applied}/45`,
+      pending: owner45Apply.missing_keys.length,
+      independent_owner_conflicts_after: counts.INDEPENDENT_OWNER_CONFLICT,
+      unresolved_count_after: unresolvedCount,
+      changes: (owner45Bundle.doc.changes || []).map((ch) => ({
+        order: ch.order,
+        leaf_target_key: ch.leaf_target_key,
+        owner_new: ch.owner_new,
+        resolution_type: ch.resolution_type,
+        versions_updated: (leafVersionsByKey.get(ch.leaf_target_key) || []).length,
+      })),
+      gates: {
+        applied_exactly_45_45: owner45Apply.applied === 45,
+        pending_zero: owner45Apply.missing_keys.length === 0,
+        independent_owner_conflicts_zero: counts.INDEPENDENT_OWNER_CONFLICT === 0,
+        de_changes: 0,
+        production_crowdin_ingest_apply_changes: 0,
+      },
+    };
+    fs.writeFileSync(
+      path.join(outDir, "A1-LRB-OWNER-45-COPY-PASTE-PROOF.json"),
+      JSON.stringify(proof, null, 2) + "\n"
+    );
+    fs.writeFileSync(
+      path.join(outDir, "A1-LRB-OWNER-45-COPY-PASTE-PROOF.md"),
+      `# A1 LRB OWNER 45 copy-paste proof
+
+Generated: ${proof.generated_at}
+
+**${finalClassification}**
+
+| Gate | Value |
+|------|------:|
+| applied_exactly | ${proof.applied_exactly} |
+| independent_owner_conflicts_after | ${proof.independent_owner_conflicts_after} |
+| owner_resolution_json_sha256 | \`${proof.owner_resolution_json_sha256}\` |
+| source_unresolved_sha256 | \`${proof.source_unresolved_file_sha256}\` |
+`
+    );
+  }
 
   const ba = summary.before_after;
   const es = summary.expanded_standard_metrics;

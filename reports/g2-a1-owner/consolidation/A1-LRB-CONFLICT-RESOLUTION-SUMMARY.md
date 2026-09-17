@@ -1,13 +1,13 @@
 # A1 LRB RE_REVIEW binding + leaf conflict normalization
 
-Generated: 2026-09-17T14:38:09.734Z
+Generated: 2026-09-17T14:52:58.146Z
 
 ## Final classification
 
-**`A1_LRB_RE_REVIEW_BINDING_BLOCKED`**
+**`A1_LRB_OWNER_45_CONFLICT_RESOLUTION_COPY_PASTE_COMPLETE_AWAITING_VERIFICATION`**
 
 ```text
-NEXT_ACTION: OWNER_RESOLVE_EXACT_LEAF_LIST
+NEXT_ACTION: VERIFY_OWNER_45_COPY_PASTE_AND_PROCEED
 RE_REVIEW_RANGE: LRB-001…LRB-041
 ```
 
@@ -29,13 +29,13 @@ RE_REVIEW_RANGE: LRB-001…LRB-041
 
 | Metrika | Before | After |
 |---|---:|---:|
-| Payload-level konflikti | 437 | 45 |
+| Payload-level konflikti | 437 | 0 |
 | Semikola composite atslēgas | 112 | 0 |
 | Precīzi leaf-level atkārtojumi | — | 7682 |
-| Identiskas leaf gala vērtības | — | 2703 |
+| Identiskas leaf gala vērtības | — | 2748 |
 | Pierādīta secīga supersession | 38 | 44 |
 | EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | — | 4890 |
-| Reāli neatkarīgi OWNER leaf konflikti | 437 | 45 |
+| Reāli neatkarīgi OWNER leaf konflikti | 437 | 0 |
 | Nepietiekams avots | 0 | 0 |
 | Aptvertie LRB | 103/103 | 103/103 |
 
@@ -47,17 +47,17 @@ RE_REVIEW_RANGE: LRB-001…LRB-041
 | Atkārtoti pārskatītās kartītes (full composite) | 3034 |
 | EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | 4890 |
 | Pilnā kartīte aizstāj agrāko patch | 4890 |
-| Konflikti starp diviem paplašinātā standarta Gala PASS | 42 |
-| OWNER vēlreiz izšķiramie leaf lauki | 45 |
+| Konflikti starp diviem paplašinātā standarta Gala PASS | 0 |
+| OWNER vēlreiz izšķiramie leaf lauki | 0 |
 
 ## Leaf metrics
 
 | Metrika | Skaits |
 |---|---:|
-| IDENTICAL_FINAL_VALUE | 2703 |
+| IDENTICAL_FINAL_VALUE | 2748 |
 | PROVEN_SEQUENTIAL_SUPERSESSION | 44 |
 | EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | 4890 |
-| INDEPENDENT_OWNER_CONFLICT | 45 |
+| INDEPENDENT_OWNER_CONFLICT | 0 |
 | INSUFFICIENT_DECISION_SOURCE | 0 |
 
 ## LRB-042 FI

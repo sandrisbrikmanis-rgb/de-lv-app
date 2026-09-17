@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T14:38:10.584Z",
+  "generated_at": "2026-09-17T14:52:59.105Z",
   "gate": "A1_LRB_LEAF_CLASSIFICATION_COUNTS_PASS",
   "next_action": "OWNER_REVIEW_45_EXACT_LEAF_CONFLICTS",
   "total_unique_repeated_leaf_targets": 7682,
   "primary_classification_counts": {
     "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION": 4890,
-    "IDENTICAL_FINAL_VALUE": 2703,
+    "IDENTICAL_FINAL_VALUE": 2748,
     "PROVEN_SEQUENTIAL_SUPERSESSION": 44,
-    "INDEPENDENT_OWNER_CONFLICT": 45,
+    "INDEPENDENT_OWNER_CONFLICT": 0,
     "INSUFFICIENT_DECISION_SOURCE": 0
   },
   "primary_classification_sum": 7682,
@@ -22,7 +22,7 @@
     },
     "reported_sum": 8044,
     "phantom_overcount_vs_primary": 362,
-    "phantom_identical_slots": 355,
+    "phantom_identical_slots": 310,
     "phantom_proven_slots": 7
   },
   "erroneous_double_bucket_explanation": {
@@ -336,52 +336,7 @@
       "en|müssen|study.translation",
       "en|müssen|study.explanation",
       "en|müssen|study.comparison",
-      "en|nach|study.sectionAccents.examples[3].lv",
-      "en|natürlich|study.examples[4].lv",
-      "en|nehmen|study.examples[2].lv",
-      "en|nehmen|study.examples[3].lv",
-      "en|nehmen|study.important[0]",
-      "en|ob|lv",
-      "en|probieren|study.examples[3].lv",
-      "en|schauen|study.examples[2].lv",
-      "en|sprechen|lv; study.examples[2].lv",
-      "en|sprechen|lv",
-      "en|sprechen|study.examples[2].lv",
-      "en|über|study.examples[1].lv",
-      "en|unter|study.examples[1].lv",
-      "en|zum|study.explanation, study.comparison, study.important",
-      "es|Appetit|lv, study",
-      "es|aufs|study.explanation; study.comparison; study.important",
-      "es|aufs|study.explanation[0]",
-      "es|aufs|study.explanation[1]",
-      "es|aufs|study.explanation[2]",
-      "es|aufs|study.explanation[3]",
-      "es|aufs|study.explanation[4]",
-      "es|aufs|study.comparison[0].meaning",
-      "es|aufs|study.comparison[0].example",
-      "es|aufs|study.comparison[0].word",
-      "es|aufs|study.comparison[1].meaning",
-      "es|aufs|study.comparison[1].example",
-      "es|aufs|study.comparison[1].word",
-      "es|aufs|study.comparison[2].meaning",
-      "es|aufs|study.comparison[2].example",
-      "es|aufs|study.comparison[2].word",
-      "es|aufs|study.comparison[3].meaning",
-      "es|aufs|study.comparison[3].example",
-      "es|aufs|study.comparison[3].word",
-      "es|aufs|study.comparison[4].meaning",
-      "es|aufs|study.comparison[4].example",
-      "es|aufs|study.comparison[4].word",
-      "es|aufs|study.important[0]",
-      "es|aufs|study.important[1]",
-      "es|aufs|study.important[2]",
-      "es|aufs|study.important[3]",
-      "es|aufs|study.explanation",
-      "es|aufs|study.comparison",
-      "es|aufs|study.important",
-      "es|baden|lv",
-      "es|dass|study.comparison, study.important",
-      "es|Eis|lv"
+      "en|nach|study.sectionAccents.examples[3].lv"
     ],
     "phantom_proven_rollup_slots": [],
     "note": "362 phantom overcount = inflated summary totals (3058+51) minus primary-only counts (2703+44); not 362 leaf targets with two primary classes."
@@ -394,18 +349,18 @@
   "conflict_counts_before_after": {
     "independent_owner_conflicts": {
       "before_payload_level": 437,
-      "after_primary_independent": 45
+      "after_primary_independent": 0
     },
     "unresolved_list_unchanged": true
   },
   "unresolved_owner_conflicts_json_sha256": {
-    "before": "912ef5fe32607c0112bd24e81b87af41a42f1ce2415648ae2e178492991ea369",
-    "after": "912ef5fe32607c0112bd24e81b87af41a42f1ce2415648ae2e178492991ea369",
+    "before": "b817fdca3bae37d91c461975294110c652ddd1957d4aed3f277041a7bd5bbe59",
+    "after": "b817fdca3bae37d91c461975294110c652ddd1957d4aed3f277041a7bd5bbe59",
     "file_sha_unchanged": true
   },
   "unresolved_canonical_conflict_set_sha256": {
-    "before": "dd95d0dc4e5569487586ebfd3720cf49994181148795b7ee7480b5f2d77a3172",
-    "after": "dd95d0dc4e5569487586ebfd3720cf49994181148795b7ee7480b5f2d77a3172",
+    "before": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "after": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "unchanged": true
   },
   "per_target_primary": [
@@ -5465,12 +5420,13 @@
     },
     {
       "leaf_target_key": "es|da|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "es|da|study.translation",
@@ -5793,12 +5749,13 @@
     },
     {
       "leaf_target_key": "es|Essen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "es|Ferien|lv, study",
@@ -10007,12 +9964,13 @@
     },
     {
       "leaf_target_key": "es|machen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "es|machen|study.explanation",
@@ -11197,12 +11155,13 @@
     },
     {
       "leaf_target_key": "es|Obst|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "es|Obst|study.translation",
@@ -12035,21 +11994,23 @@
     },
     {
       "leaf_target_key": "es|sitzen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "es|sollen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "es|sollen|study.translation",
@@ -12293,12 +12254,13 @@
     },
     {
       "leaf_target_key": "es|Urlaub|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "es|Urlaub|study.translation",
@@ -26293,12 +26255,13 @@
     },
     {
       "leaf_target_key": "fi|an|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|an|study.translation",
@@ -26976,12 +26939,13 @@
     },
     {
       "leaf_target_key": "fi|baden|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|baden|study.translation",
@@ -27332,12 +27296,13 @@
     },
     {
       "leaf_target_key": "fi|bei|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|bei|study.translation",
@@ -28015,12 +27980,13 @@
     },
     {
       "leaf_target_key": "fi|bis|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|bis|study.translation",
@@ -28258,12 +28224,13 @@
     },
     {
       "leaf_target_key": "fi|bleiben|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|bleiben|study.translation",
@@ -29362,12 +29329,13 @@
     },
     {
       "leaf_target_key": "fi|ein|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|ein|study.translation",
@@ -29663,12 +29631,13 @@
     },
     {
       "leaf_target_key": "fi|einmal|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|einmal|study.translation",
@@ -30148,12 +30117,13 @@
     },
     {
       "leaf_target_key": "fi|erst|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|erst|study.translation",
@@ -30429,12 +30399,13 @@
     },
     {
       "leaf_target_key": "fi|es|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|es|study.examples[0].lv",
@@ -30510,12 +30481,13 @@
     },
     {
       "leaf_target_key": "fi|etwas|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|etwas|study.translation",
@@ -30769,12 +30741,13 @@
     },
     {
       "leaf_target_key": "fi|euch|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|euch|study.translation",
@@ -30940,12 +30913,13 @@
     },
     {
       "leaf_target_key": "fi|fahren|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|fahren|study.translation",
@@ -31282,12 +31256,13 @@
     },
     {
       "leaf_target_key": "fi|finden|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|finden|study.translation",
@@ -31675,12 +31650,13 @@
     },
     {
       "leaf_target_key": "fi|für|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|für|study.translation",
@@ -32024,12 +32000,13 @@
     },
     {
       "leaf_target_key": "fi|ganz|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|ganz|study.translation",
@@ -32511,12 +32488,13 @@
     },
     {
       "leaf_target_key": "fi|gefallen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|gefallen|study.translation",
@@ -33466,12 +33444,13 @@
     },
     {
       "leaf_target_key": "fi|groß|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|groß|study.translation",
@@ -33868,12 +33847,13 @@
     },
     {
       "leaf_target_key": "fi|gut|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|gut|study.translation",
@@ -34103,12 +34083,13 @@
     },
     {
       "leaf_target_key": "fi|halten|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|Haltestelle|lv",
@@ -34238,12 +34219,13 @@
     },
     {
       "leaf_target_key": "fi|heißen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|helfen|lv",
@@ -34739,12 +34721,13 @@
     },
     {
       "leaf_target_key": "fi|ihr|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|ihr|study.translation",
@@ -34928,12 +34911,13 @@
     },
     {
       "leaf_target_key": "fi|im|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|im|study.translation",
@@ -35713,12 +35697,13 @@
     },
     {
       "leaf_target_key": "fi|können|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|können|study.translation",
@@ -36768,12 +36753,13 @@
     },
     {
       "leaf_target_key": "fi|lang|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|lang|study.translation",
@@ -38003,12 +37989,13 @@
     },
     {
       "leaf_target_key": "fi|leise|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|leise|study.explanation[0]",
@@ -38288,12 +38275,13 @@
     },
     {
       "leaf_target_key": "fi|liegen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|liegen|study.explanation[0]",
@@ -39222,12 +39210,13 @@
     },
     {
       "leaf_target_key": "fi|mit|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|mit|study.explanation[0]",
@@ -39359,12 +39348,13 @@
     },
     {
       "leaf_target_key": "fi|mögen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|mögen|study.explanation[0]",
@@ -39891,12 +39881,13 @@
     },
     {
       "leaf_target_key": "fi|müssen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|müssen|study.translation",
@@ -40163,12 +40154,13 @@
     },
     {
       "leaf_target_key": "fi|nach|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|nach|study.translation",
@@ -40667,12 +40659,13 @@
     },
     {
       "leaf_target_key": "fi|nehmen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|nehmen|study.translation",
@@ -40951,12 +40944,13 @@
     },
     {
       "leaf_target_key": "fi|neu|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|neu|study.translation",
@@ -41280,12 +41274,13 @@
     },
     {
       "leaf_target_key": "fi|noch mal|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|noch mal|study.translation",
@@ -41667,12 +41662,13 @@
     },
     {
       "leaf_target_key": "fi|ob|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|ob|study.explanation[0]",
@@ -41768,12 +41764,13 @@
     },
     {
       "leaf_target_key": "fi|oder|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|oder|study.explanation[0]",
@@ -41988,12 +41985,13 @@
     },
     {
       "leaf_target_key": "fi|passen|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
       "evidence_flags": [
         "intra_batch_re_review_supersession",
-        "expanded_full_card_supersession_event"
+        "expanded_full_card_supersession_event",
+        "all_version_rows_share_leaf_sha"
       ],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|passen|study.explanation[0]",
@@ -46610,9 +46608,11 @@
     },
     {
       "leaf_target_key": "fi|werden|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
-      "evidence_flags": [],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
+      "evidence_flags": [
+        "all_version_rows_share_leaf_sha"
+      ],
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "fi|werden|study.translation",
@@ -85337,9 +85337,11 @@
     },
     {
       "leaf_target_key": "sk|a1-was|lv",
-      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
-      "evidence_flags": [],
-      "legacy_classification_field": "INDEPENDENT_OWNER_CONFLICT"
+      "primary_classification": "IDENTICAL_FINAL_VALUE",
+      "evidence_flags": [
+        "all_version_rows_share_leaf_sha"
+      ],
+      "legacy_classification_field": "IDENTICAL_FINAL_VALUE"
     },
     {
       "leaf_target_key": "sk|a1-wenn|lv",
