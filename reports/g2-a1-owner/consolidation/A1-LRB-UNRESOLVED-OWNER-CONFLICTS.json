@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:29:49.061Z",
+  "generated_at": "2026-09-17T14:38:09.734Z",
   "unresolved_count": 45,
   "conflicts": [
     {
@@ -8,6 +8,11 @@
       "canonical_card_object_id": "da",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -112,6 +117,11 @@
       "canonical_card_object_id": "Essen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -214,6 +224,11 @@
       "canonical_card_object_id": "machen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -316,6 +331,11 @@
       "canonical_card_object_id": "Obst",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -420,6 +440,11 @@
       "canonical_card_object_id": "sitzen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -524,6 +549,11 @@
       "canonical_card_object_id": "sollen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -628,6 +658,11 @@
       "canonical_card_object_id": "Urlaub",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -732,6 +767,11 @@
       "canonical_card_object_id": "an",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -836,6 +876,11 @@
       "canonical_card_object_id": "baden",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -940,6 +985,11 @@
       "canonical_card_object_id": "bei",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1042,6 +1092,11 @@
       "canonical_card_object_id": "bis",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1144,6 +1199,11 @@
       "canonical_card_object_id": "bleiben",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1246,6 +1306,11 @@
       "canonical_card_object_id": "ein",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1348,6 +1413,11 @@
       "canonical_card_object_id": "einmal",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1450,6 +1520,11 @@
       "canonical_card_object_id": "erst",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1552,6 +1627,11 @@
       "canonical_card_object_id": "es",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1654,6 +1734,11 @@
       "canonical_card_object_id": "etwas",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1756,6 +1841,11 @@
       "canonical_card_object_id": "euch",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1858,6 +1948,11 @@
       "canonical_card_object_id": "fahren",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -1960,6 +2055,11 @@
       "canonical_card_object_id": "finden",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -2062,6 +2162,11 @@
       "canonical_card_object_id": "für",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -2164,6 +2269,11 @@
       "canonical_card_object_id": "ganz",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -2266,6 +2376,11 @@
       "canonical_card_object_id": "gefallen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -2368,6 +2483,11 @@
       "canonical_card_object_id": "groß",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -2470,6 +2590,11 @@
       "canonical_card_object_id": "gut",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -2572,6 +2697,11 @@
       "canonical_card_object_id": "halten",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": null,
       "versions": [
@@ -2674,6 +2804,11 @@
       "canonical_card_object_id": "heißen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": null,
       "versions": [
@@ -2776,6 +2911,11 @@
       "canonical_card_object_id": "ihr",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -2878,6 +3018,11 @@
       "canonical_card_object_id": "im",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -2980,6 +3125,11 @@
       "canonical_card_object_id": "können",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3082,6 +3232,11 @@
       "canonical_card_object_id": "lang",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3184,6 +3339,11 @@
       "canonical_card_object_id": "leise",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3286,6 +3446,11 @@
       "canonical_card_object_id": "liegen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3388,6 +3553,11 @@
       "canonical_card_object_id": "mit",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3490,6 +3660,11 @@
       "canonical_card_object_id": "mögen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3592,6 +3767,11 @@
       "canonical_card_object_id": "müssen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3694,6 +3874,11 @@
       "canonical_card_object_id": "nach",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3796,6 +3981,11 @@
       "canonical_card_object_id": "nehmen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -3898,6 +4088,11 @@
       "canonical_card_object_id": "neu",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -4000,6 +4195,11 @@
       "canonical_card_object_id": "noch mal",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -4102,6 +4302,11 @@
       "canonical_card_object_id": "ob",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -4204,6 +4409,11 @@
       "canonical_card_object_id": "oder",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -4306,6 +4516,11 @@
       "canonical_card_object_id": "passen",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [
+        "intra_batch_re_review_supersession",
+        "expanded_full_card_supersession_event"
+      ],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -4408,6 +4623,8 @@
       "canonical_card_object_id": "werden",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [],
       "supersession_evidence": null,
       "classification_note": "two_expanded_standard_full_card_passes",
       "versions": [
@@ -4477,6 +4694,8 @@
       "canonical_card_object_id": "a1-was",
       "exact_leaf_field_path": "lv",
       "classification": "INDEPENDENT_OWNER_CONFLICT",
+      "primary_classification": "INDEPENDENT_OWNER_CONFLICT",
+      "evidence_flags": [],
       "supersession_evidence": null,
       "classification_note": null,
       "versions": [

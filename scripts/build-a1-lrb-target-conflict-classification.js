@@ -719,6 +719,28 @@ function classifyLeafGroup(versions, correctionBatches, reReviewMaxN) {
   return { classification: "INDEPENDENT_OWNER_CONFLICT", supersession: null, active_versions: work };
 }
 
+function deriveLeafEvidenceFlags(entry) {
+  const versions = entry.versions || [];
+  const activeBatches = new Set(entry.active_versions_after_supersession || []);
+  const activeVers = versions.filter((v) => activeBatches.has(v.batch_id));
+  const activeShas = new Set(activeVers.map((v) => v.leaf_value_sha256));
+  const allShas = new Set(versions.map((v) => v.leaf_value_sha256));
+  const flags = [];
+  if (versions.some((v) => v.superseded_by?.reason === "RE_REVIEW_RANGE_intra_batch_initial_to_expanded")) {
+    flags.push("intra_batch_re_review_supersession");
+  }
+  if (versions.some((v) => v.superseded_by)) flags.push("expanded_full_card_supersession_event");
+  if (activeShas.size === 1 && allShas.size > 1) {
+    flags.push("active_leaf_values_identical_after_supersession");
+  }
+  if (allShas.size === 1 && versions.length > 1) flags.push("all_version_rows_share_leaf_sha");
+  const primary = entry.primary_classification || entry.classification;
+  if (primary === "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION" && activeShas.size === 1) {
+    flags.push("secondary_naive_identical_if_only_active_compared");
+  }
+  return flags;
+}
+
 function ingestExtractedRows({
   extracted,
   batch,
@@ -925,12 +947,19 @@ function main() {
     counts[classification] = (counts[classification] || 0) + 1;
     if (classification === "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION") fullCardReplacesPatch += 1;
 
+    const primary_classification =
+      classification === "CORRECTION_HISTORY_ONLY" || classification === "CANONICAL_ALIAS_DUPLICATE"
+        ? "IDENTICAL_FINAL_VALUE"
+        : classification;
+
     const entry = {
       leaf_target_key: leafKey,
       target_language: versions[0].target_language,
       canonical_card_object_id: versions[0].card_object_id,
       exact_leaf_field_path: versions[0].leaf_field_path,
       classification,
+      primary_classification,
+      evidence_flags: [],
       supersession_evidence: supersession,
       classification_note: note || null,
       versions: versions.map((v) => ({
@@ -952,6 +981,7 @@ function main() {
       })),
       active_versions_after_supersession: (active_versions || versions).map((v) => v.batch_id),
     };
+    entry.evidence_flags = deriveLeafEvidenceFlags(entry);
     classifications.push(entry);
     repeatedTargets.push({
       leaf_target_key: leafKey,
@@ -993,6 +1023,21 @@ function main() {
       });
     }
   }
+
+  const PRIMARY_CLASSES = [
+    "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION",
+    "IDENTICAL_FINAL_VALUE",
+    "PROVEN_SEQUENTIAL_SUPERSESSION",
+    "INDEPENDENT_OWNER_CONFLICT",
+    "INSUFFICIENT_DECISION_SOURCE",
+  ];
+  const primaryClassificationCounts = {};
+  for (const k of PRIMARY_CLASSES) primaryClassificationCounts[k] = 0;
+  for (const entry of classifications) {
+    const p = entry.primary_classification || entry.classification;
+    if (primaryClassificationCounts[p] !== undefined) primaryClassificationCounts[p] += 1;
+  }
+  const primarySum = PRIMARY_CLASSES.reduce((s, k) => s + primaryClassificationCounts[k], 0);
 
   const totalRepeated = classifications.length;
   const unresolvedCount = unresolved.length;
@@ -1105,15 +1150,23 @@ function main() {
       ).length,
       owner_resolve_exact_leaf_list: unresolvedCount,
     },
+    leaf_classification_reconciliation: {
+      total_unique_repeated_leaf_targets: totalRepeated,
+      primary_classification_counts: primaryClassificationCounts,
+      primary_classification_sum: primarySum,
+      sum_equals_total: primarySum === totalRepeated,
+      legacy_classification_counts: counts,
+    },
     metrics: {
       total_repeated_leaf_targets: totalRepeated,
-      IDENTICAL_FINAL_VALUE: counts.IDENTICAL_FINAL_VALUE,
-      PROVEN_SEQUENTIAL_SUPERSESSION: counts.PROVEN_SEQUENTIAL_SUPERSESSION,
-      EXPANDED_STANDARD_FULL_CARD_SUPERSESSION: counts.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION,
+      IDENTICAL_FINAL_VALUE: primaryClassificationCounts.IDENTICAL_FINAL_VALUE,
+      PROVEN_SEQUENTIAL_SUPERSESSION: primaryClassificationCounts.PROVEN_SEQUENTIAL_SUPERSESSION,
+      EXPANDED_STANDARD_FULL_CARD_SUPERSESSION:
+        primaryClassificationCounts.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION,
       CORRECTION_HISTORY_ONLY: counts.CORRECTION_HISTORY_ONLY,
       CANONICAL_ALIAS_DUPLICATE: counts.CANONICAL_ALIAS_DUPLICATE,
-      INDEPENDENT_OWNER_CONFLICT: counts.INDEPENDENT_OWNER_CONFLICT,
-      INSUFFICIENT_DECISION_SOURCE: counts.INSUFFICIENT_DECISION_SOURCE,
+      INDEPENDENT_OWNER_CONFLICT: primaryClassificationCounts.INDEPENDENT_OWNER_CONFLICT,
+      INSUFFICIENT_DECISION_SOURCE: primaryClassificationCounts.INSUFFICIENT_DECISION_SOURCE,
       lrb_covered: `${coveredLrb.size}/103`,
       sources_with_verified_sha: sourcesWithVerifiedSha,
       unresolved_leaf_conflicts: unresolvedCount,
@@ -1241,6 +1294,15 @@ Detalizēta tabula: \`lrb_042_fi_supersession_table\` JSON artefaktā \`A1-LRB-C
 
 `;
   fs.writeFileSync(path.join(outDir, "A1-LRB-CONFLICT-RESOLUTION-SUMMARY.md"), md);
+
+  try {
+    require("child_process").execSync("node scripts/build-a1-lrb-leaf-classification-reconciliation.js", {
+      cwd: ROOT,
+      stdio: "inherit",
+    });
+  } catch {
+    /* reconciliation is best-effort after main artifact write */
+  }
 
   console.log(JSON.stringify({ ...summary, total_repeated: totalRepeated }, null, 2));
 }
