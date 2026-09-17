@@ -1,13 +1,14 @@
-# A1 LRB leaf-level conflict normalization
+# A1 LRB RE_REVIEW binding + leaf conflict normalization
 
-Generated: 2026-09-16T18:26:41.655Z
+Generated: 2026-09-17T14:29:49.061Z
 
 ## Final classification
 
-**`A1_LRB_LEAF_CONFLICT_NORMALIZATION_PASS`**
+**`A1_LRB_RE_REVIEW_BINDING_BLOCKED`**
 
 ```text
 NEXT_ACTION: OWNER_RESOLVE_EXACT_LEAF_LIST
+RE_REVIEW_RANGE: LRB-001…LRB-041
 ```
 
 ## Validation gates
@@ -19,6 +20,9 @@ NEXT_ACTION: OWNER_RESOLVE_EXACT_LEAF_LIST
 | unresolved_without_exact_leaf_path | 0 |
 | missing_post_owner_reconstruction | 0 |
 | covered_lrb | 103/103 |
+| re_review_range | LRB-001…LRB-041 |
+| two_generation_proven | 41/41 |
+| initial_vs_expanded_conflicts_001_041 | 0 |
 | linguistic_decisions_generated | 0 |
 
 ## BEFORE → AFTER
@@ -27,9 +31,10 @@ NEXT_ACTION: OWNER_RESOLVE_EXACT_LEAF_LIST
 |---|---:|---:|
 | Payload-level konflikti | 437 | 45 |
 | Semikola composite atslēgas | 112 | 0 |
-| Precīzi leaf-level atkārtojumi | — | 3238 |
-| Identiskas leaf gala vērtības | — | 2638 |
-| Pierādīta supersession | 38 | 555 |
+| Precīzi leaf-level atkārtojumi | — | 7682 |
+| Identiskas leaf gala vērtības | — | 2703 |
+| Pierādīta secīga supersession | 38 | 44 |
+| EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | — | 4890 |
 | Reāli neatkarīgi OWNER leaf konflikti | 437 | 45 |
 | Nepietiekams avots | 0 | 0 |
 | Aptvertie LRB | 103/103 | 103/103 |
@@ -38,10 +43,10 @@ NEXT_ACTION: OWNER_RESOLVE_EXACT_LEAF_LIST
 
 | Metrika | Skaits |
 |---|---:|
-| Agrākie daļējie pārskati | 0 |
+| Agrākie daļējie pārskati | 361 |
 | Atkārtoti pārskatītās kartītes (full composite) | 3034 |
-| EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | 512 |
-| Pilnā kartīte aizstāj agrāko patch | 512 |
+| EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | 4890 |
+| Pilnā kartīte aizstāj agrāko patch | 4890 |
 | Konflikti starp diviem paplašinātā standarta Gala PASS | 42 |
 | OWNER vēlreiz izšķiramie leaf lauki | 45 |
 
@@ -49,9 +54,9 @@ NEXT_ACTION: OWNER_RESOLVE_EXACT_LEAF_LIST
 
 | Metrika | Skaits |
 |---|---:|
-| IDENTICAL_FINAL_VALUE | 2638 |
-| PROVEN_SEQUENTIAL_SUPERSESSION | 43 |
-| EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | 512 |
+| IDENTICAL_FINAL_VALUE | 2703 |
+| PROVEN_SEQUENTIAL_SUPERSESSION | 44 |
+| EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | 4890 |
 | INDEPENDENT_OWNER_CONFLICT | 45 |
 | INSUFFICIENT_DECISION_SOURCE | 0 |
 

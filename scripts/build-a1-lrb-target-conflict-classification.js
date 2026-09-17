@@ -157,6 +157,51 @@ function gitShow(ref, filePath) {
   return git(`git show ${ref}:${filePath}`);
 }
 
+function gitShowAt(commit, filePath) {
+  if (!commit) return null;
+  return git(`git show ${commit}:${filePath}`);
+}
+
+function loadReReviewBinding() {
+  const outDir = path.join(ROOT, "reports/g2-a1-owner/consolidation");
+  const boundaryPath = path.join(outDir, "A1-LRB-RE-REVIEW-BOUNDARY.json");
+  const twoGenPath = path.join(outDir, "A1-LRB-TWO-GENERATION-PROOF.json");
+  let reReviewRange = null;
+  let boundaryNn = null;
+  let twoGenProven = 0;
+  let twoGenGate = null;
+  const byBatch = new Map();
+  if (fs.existsSync(boundaryPath)) {
+    try {
+      const b = JSON.parse(fs.readFileSync(boundaryPath, "utf8"));
+      reReviewRange = b.RE_REVIEW_RANGE || null;
+      boundaryNn = b.boundary_nn ? batchNum(b.boundary_nn) : null;
+    } catch {
+      /* ignore */
+    }
+  }
+  if (fs.existsSync(twoGenPath)) {
+    try {
+      const t = JSON.parse(fs.readFileSync(twoGenPath, "utf8"));
+      twoGenGate = t.gate || null;
+      twoGenProven = t.proven_subrange?.proven_count || 0;
+      for (const row of t.batches || []) {
+        byBatch.set(row.batch_id, row);
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+  const maxN = boundaryNn || 41;
+  return {
+    re_review_range: reReviewRange || `LRB-001…${batchId(maxN)}`,
+    re_review_max_n: maxN,
+    two_generation_proven: twoGenProven,
+    two_generation_gate: twoGenGate,
+    by_batch: byBatch,
+  };
+}
+
 function fileExistsAt(ref, filePath) {
   return git(`git cat-file -e ${ref}:${filePath} 2>/dev/null && echo yes`) === "yes";
 }
@@ -455,7 +500,81 @@ function extractBatchDecisions(n, resolved) {
   };
 }
 
-function isExpandedStandardFullCardReview(row, batch, reconstruction) {
+function extractBatchDecisionsAtCommit(n, ref, atCommit, generation) {
+  const batch = batchId(n);
+  const galaPassCommit = atCommit;
+  const galaPassTime = atCommit ? git(`git log -1 --format=%cI ${atCommit}`) : null;
+  const csvPath = `reports/g2-a1-owner/batches-reviewed/${batch}-decisions.csv`;
+  const csvRaw = gitShowAt(atCommit, csvPath);
+  if (csvRaw) {
+    return {
+      rows: loadCsvText(csvRaw),
+      source: {
+        file_path: csvPath,
+        file_sha256: sha256(csvRaw),
+        commit_sha: atCommit,
+        gala_pass_commit_sha: galaPassCommit,
+        extraction_method: `decisions_csv_at_${generation}`,
+        owner_review_generation: generation,
+      },
+      galaPassCommit,
+      galaPassTime,
+      ref,
+      branch: ref.replace(/^origin\//, ""),
+      owner_review_generation: generation,
+    };
+  }
+  const rel = `scripts/data/g2-a1-owner-pending/${batch}-decisions.json`;
+  const mapRaw = gitShowAt(atCommit, rel);
+  if (mapRaw) {
+    let data;
+    try {
+      data = JSON.parse(mapRaw);
+    } catch {
+      data = null;
+    }
+    const list = data && (Array.isArray(data) ? data : data.rows || data.decisions);
+    if (Array.isArray(list) && list.length) {
+      const rows = list.map((r) => ({
+        languages: r.languages || r.lang,
+        card_object_id: r.card_object_id || r.cardId,
+        field_path: r.field_path || r.fieldPath,
+        owner_new: r.owner_new ?? r.ownerNew ?? "",
+        discovery_current: r.discovery_current ?? r.discoveryCurrent ?? "",
+        production_current: r.production_current ?? r.productionCurrent ?? "",
+        owner_status: r.owner_status || r.ownerStatus || "",
+      }));
+      return {
+        rows,
+        source: {
+          file_path: rel,
+          file_sha256: sha256(mapRaw),
+          commit_sha: atCommit,
+          gala_pass_commit_sha: galaPassCommit,
+          extraction_method: `decisions_json_at_${generation}`,
+          owner_review_generation: generation,
+        },
+        galaPassCommit,
+        galaPassTime,
+        ref,
+        branch: ref.replace(/^origin\//, ""),
+        owner_review_generation: generation,
+      };
+    }
+  }
+  return null;
+}
+
+function isExpandedStandardFullCardReview(row, batch, reconstruction, ownerReviewGeneration, reReviewMaxN) {
+  if (ownerReviewGeneration === "initial") return false;
+  const bn = batchNum(batch);
+  if (bn >= 1 && bn <= reReviewMaxN && ownerReviewGeneration === "expanded") {
+    return (
+      reconstruction?.fullComposite ||
+      reconstruction?.mode === "full_composite_card" ||
+      isFullCompositeScope(row.field_path, row.owner_note || row.ownerNote || "")
+    );
+  }
   if (!reconstruction?.fullComposite) return false;
   const note = String(row.owner_note || row.ownerNote || "").toLowerCase();
   if (/individuāli pārbaudīta|piln[āa] composite|piln[āa] kartīte|full.card|composite kartīte/.test(note)) {
@@ -466,16 +585,62 @@ function isExpandedStandardFullCardReview(row, batch, reconstruction) {
   return isFullCompositeScope(row.field_path, note);
 }
 
-function filterVersionsAfterFullCardSupersession(versions) {
+function applyIntraBatchReReviewSupersession(versions, reReviewMaxN) {
+  const expandedInBatch = new Set(
+    versions
+      .filter((v) => v.owner_review_generation === "expanded" && batchNum(v.batch_id) <= reReviewMaxN)
+      .map((v) => v.batch_id)
+  );
+  for (const v of versions) {
+    if (v.owner_review_generation !== "initial") continue;
+    if (batchNum(v.batch_id) > reReviewMaxN) continue;
+    if (!expandedInBatch.has(v.batch_id)) continue;
+    v._superseded_by = {
+      type: "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION",
+      reason: "RE_REVIEW_RANGE_intra_batch_initial_to_expanded",
+      earlier_batch: v.batch_id,
+      later_batch: v.batch_id,
+      earlier_generation: "initial",
+      later_generation: "expanded",
+      earlier_gala_pass_commit: v.gala_pass_commit_sha,
+      later_gala_pass_commit: versions.find(
+        (x) => x.batch_id === v.batch_id && x.owner_review_generation === "expanded"
+      )?.gala_pass_commit_sha,
+    };
+  }
+}
+
+function filterVersionsAfterFullCardSupersession(versions, reReviewMaxN) {
+  applyIntraBatchReReviewSupersession(versions, reReviewMaxN);
   const sorted = [...versions].sort((a, b) => batchNum(a.batch_id) - batchNum(b.batch_id));
   const kept = [];
   for (const v of sorted) {
+    if (v._superseded_by?.reason === "RE_REVIEW_RANGE_intra_batch_initial_to_expanded") {
+      continue;
+    }
     let superseded = false;
     let supersessionEvidence = null;
     for (const later of sorted) {
-      if (batchNum(later.batch_id) <= batchNum(v.batch_id)) continue;
+      if (batchNum(later.batch_id) < batchNum(v.batch_id)) continue;
+      if (later.batch_id === v.batch_id && later.owner_review_generation !== "expanded") continue;
+      if (later.batch_id === v.batch_id && v.owner_review_generation === "initial") continue;
+      if (batchNum(later.batch_id) === batchNum(v.batch_id) && later.owner_review_generation === v.owner_review_generation) {
+        continue;
+      }
       if (!later.expanded_standard_full_card) continue;
       if (v.expanded_standard_full_card && later.expanded_standard_full_card) continue;
+      if (v.owner_review_generation === "initial" && batchNum(v.batch_id) <= reReviewMaxN) {
+        superseded = true;
+        supersessionEvidence = {
+          type: "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION",
+          earlier_batch: v.batch_id,
+          later_batch: later.batch_id,
+          later_gala_pass_commit: later.gala_pass_commit_sha,
+          earlier_gala_pass_commit: v.gala_pass_commit_sha,
+        };
+        break;
+      }
+      if (batchNum(later.batch_id) <= batchNum(v.batch_id)) continue;
       superseded = true;
       supersessionEvidence = {
         type: "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION",
@@ -492,13 +657,13 @@ function filterVersionsAfterFullCardSupersession(versions) {
   return { active: kept, sorted };
 }
 
-function classifyLeafGroup(versions, correctionBatches) {
+function classifyLeafGroup(versions, correctionBatches, reReviewMaxN) {
   const insufficient = versions.some(
     (v) => v.extraction_method === "INSUFFICIENT_DECISION_SOURCE" || !v.leaf_value_sha256
   );
   if (insufficient) return { classification: "INSUFFICIENT_DECISION_SOURCE", supersession: null };
 
-  const { active, sorted } = filterVersionsAfterFullCardSupersession(versions);
+  const { active, sorted } = filterVersionsAfterFullCardSupersession(versions, reReviewMaxN);
   const expandedSupersessionCount = sorted.filter((v) => v._superseded_by).length;
   if (expandedSupersessionCount > 0 && active.length <= 1) {
     const ev = sorted.find((v) => v._superseded_by)?._superseded_by;
@@ -554,7 +719,109 @@ function classifyLeafGroup(versions, correctionBatches) {
   return { classification: "INDEPENDENT_OWNER_CONFLICT", supersession: null, active_versions: work };
 }
 
+function ingestExtractedRows({
+  extracted,
+  batch,
+  n,
+  resolved,
+  reReviewMaxN,
+  leafVersionsByKey,
+  correctionBatches,
+  reconstructionProofSamples,
+  lrb042FiRows,
+  counters,
+}) {
+  const galaProof = parseJsonAt(resolved.branch, galaProofPath(batch));
+  const decJsonPath = `scripts/data/g2-a1-owner-pending/${batch}-decisions.json`;
+  const decRaw = gitShow(resolved.branch, decJsonPath);
+  const decisionSha = decRaw ? sha256(decRaw) : null;
+  if (galaProof?.decisions_sha256 && decisionSha && galaProof.decisions_sha256 !== decisionSha) {
+    correctionBatches.add(batch);
+  }
+  if (!extracted.rows) return;
+  for (const row of extracted.rows) {
+    const rowStatus = String(row.owner_status || row.owner_decision || "").toUpperCase();
+    if (rowStatus === "PENDING" && !String(row.owner_new || row.ownerNew || "").trim()) continue;
+    let reconstruction = reconstructDecisionLeaves(row);
+    if (!reconstruction.ok) {
+      const filled = {
+        ...row,
+        owner_new: effectiveOwnerNew(row),
+        owner_status: row.owner_status || row.owner_decision || "LABOT",
+      };
+      if (filled.owner_new) reconstruction = reconstructDecisionLeaves(filled);
+    }
+    if (!reconstruction.ok) {
+      const note = String(row.owner_note || row.ownerNote || "");
+      if (/CONFIRMED_FIELD_ABSENT|NON_ACTIONABLE|no writable target/i.test(note)) continue;
+      counters.missingPostOwnerReconstruction += 1;
+      continue;
+    }
+    const generation = extracted.owner_review_generation || "single";
+    const expandedFull = isExpandedStandardFullCardReview(
+      row,
+      batch,
+      reconstruction,
+      generation,
+      reReviewMaxN
+    );
+    if (reconstruction.fullComposite && !expandedFull) counters.earlierPartialReviews += 1;
+    if (expandedFull) counters.repeatedFullCardReviews += 1;
+
+    const proofKey = `${batch}|${row.languages}|${row.card_object_id}|${row.field_path}`;
+    if (
+      reconstructionProofSamples.length < 250 ||
+      (String(row.languages) === "es" && String(row.card_object_id).startsWith("aufs")) ||
+      (batch === "LRB-042" && String(row.languages) === "fi")
+    ) {
+      reconstructionProofSamples.push({
+        key: proofKey,
+        batch_id: batch,
+        owner_review_generation: generation,
+        ...reconstruction.proof,
+      });
+    }
+
+    for (const leaf of reconstruction.decidedLeaves) {
+      const leafKey = leafTargetKey(row.languages, row.card_object_id, leaf.leaf_field_path);
+      const version = {
+        batch_id: batch,
+        pc_stream: pcStreamFor(n),
+        pc_substream: pcSubstream(resolved.branch),
+        branch: extracted.branch,
+        branch_ref: resolved.branch,
+        target_language: String(row.languages).trim(),
+        card_object_id: String(row.card_object_id).split("|")[0],
+        card_object_id_raw: row.card_object_id,
+        leaf_field_path: leaf.leaf_field_path,
+        leaf_target_key: leafKey,
+        field_path_raw: row.field_path,
+        owner_new_payload: row.owner_new ?? row.ownerNew ?? "",
+        owner_new_mode: reconstruction.mode,
+        owner_review_generation: generation,
+        expanded_standard_full_card: expandedFull,
+        full_composite_scope: reconstruction.fullComposite,
+        pre_leaf_value: leaf.pre_leaf_value,
+        pre_leaf_value_sha256: leaf.pre_leaf_value_sha256,
+        leaf_value: leaf.leaf_value,
+        leaf_value_sha256: leaf.leaf_value_sha256,
+        gala_pass_commit_sha: extracted.galaPassCommit,
+        gala_pass_commit_time: extracted.galaPassTime,
+        mapping_decisions_sha256: decisionSha,
+        extraction_method: extracted.source.extraction_method,
+        decision_source: extracted.source,
+        owner_note: row.owner_note || "",
+      };
+      if (!leafVersionsByKey.has(leafKey)) leafVersionsByKey.set(leafKey, []);
+      leafVersionsByKey.get(leafKey).push(version);
+    }
+  }
+}
+
 function main() {
+  const reReviewBinding = loadReReviewBinding();
+  const reReviewMaxN = reReviewBinding.re_review_max_n;
+
   const batchSources = {};
   const leafVersionsByKey = new Map();
   const correctionBatches = new Set();
@@ -566,6 +833,13 @@ function main() {
   let earlierPartialReviews = 0;
   let repeatedFullCardReviews = 0;
   let fullCardReplacesPatch = 0;
+  let initialVsExpandedConflicts001041 = 0;
+
+  const ingestCounters = {
+    missingPostOwnerReconstruction: 0,
+    earlierPartialReviews: 0,
+    repeatedFullCardReviews: 0,
+  };
 
   for (let n = 1; n <= 103; n += 1) {
     const batch = batchId(n);
@@ -573,90 +847,57 @@ function main() {
     if (!resolved?.branch) continue;
     coveredLrb.add(batch);
     const extracted = extractBatchDecisions(n, resolved);
+    extracted.owner_review_generation = n <= reReviewMaxN ? "expanded" : "single";
     batchSources[batch] = extracted.source;
 
     if (extracted.source?.file_sha256 && extracted.source.extraction_method !== "INSUFFICIENT_DECISION_SOURCE") {
       sourcesWithVerifiedSha += 1;
     }
 
-    const galaProof = parseJsonAt(resolved.branch, galaProofPath(batch));
-    const decJsonPath = `scripts/data/g2-a1-owner-pending/${batch}-decisions.json`;
-    const decRaw = gitShow(resolved.branch, decJsonPath);
-    const decisionSha = decRaw ? sha256(decRaw) : null;
-    if (galaProof?.decisions_sha256 && decisionSha && galaProof.decisions_sha256 !== decisionSha) {
-      correctionBatches.add(batch);
-    }
-
-    if (!extracted.rows) continue;
-    for (const row of extracted.rows) {
-      const rowStatus = String(row.owner_status || row.owner_decision || "").toUpperCase();
-      if (rowStatus === "PENDING" && !String(row.owner_new || row.ownerNew || "").trim()) continue;
-      let reconstruction = reconstructDecisionLeaves(row);
-      if (!reconstruction.ok) {
-        const filled = {
-          ...row,
-          owner_new: effectiveOwnerNew(row),
-          owner_status: row.owner_status || row.owner_decision || "LABOT",
-        };
-        if (filled.owner_new) reconstruction = reconstructDecisionLeaves(filled);
-      }
-      if (!reconstruction.ok) {
-        const note = String(row.owner_note || row.ownerNote || "");
-        if (/CONFIRMED_FIELD_ABSENT|NON_ACTIONABLE|no writable target/i.test(note)) continue;
-        missingPostOwnerReconstruction += 1;
-        continue;
-      }
-      const expandedFull = isExpandedStandardFullCardReview(row, batch, reconstruction);
-      if (reconstruction.fullComposite && !expandedFull) earlierPartialReviews += 1;
-      if (expandedFull) repeatedFullCardReviews += 1;
-
-      const proofKey = `${batch}|${row.languages}|${row.card_object_id}|${row.field_path}`;
-      if (
-        reconstructionProofSamples.length < 250 ||
-        (String(row.languages) === "es" && String(row.card_object_id).startsWith("aufs")) ||
-        (batch === "LRB-042" && String(row.languages) === "fi")
-      ) {
-        reconstructionProofSamples.push({
-          key: proofKey,
-          batch_id: batch,
-          ...reconstruction.proof,
-        });
-      }
-
-      for (const leaf of reconstruction.decidedLeaves) {
-        const leafKey = leafTargetKey(row.languages, row.card_object_id, leaf.leaf_field_path);
-        const version = {
-          batch_id: batch,
-          pc_stream: pcStreamFor(n),
-          pc_substream: pcSubstream(resolved.branch),
-          branch: extracted.branch,
-          branch_ref: resolved.branch,
-          target_language: String(row.languages).trim(),
-          card_object_id: String(row.card_object_id).split("|")[0],
-          card_object_id_raw: row.card_object_id,
-          leaf_field_path: leaf.leaf_field_path,
-          leaf_target_key: leafKey,
-          field_path_raw: row.field_path,
-          owner_new_payload: row.owner_new ?? row.ownerNew ?? "",
-          owner_new_mode: reconstruction.mode,
-          expanded_standard_full_card: expandedFull,
-          full_composite_scope: reconstruction.fullComposite,
-          pre_leaf_value: leaf.pre_leaf_value,
-          pre_leaf_value_sha256: leaf.pre_leaf_value_sha256,
-          leaf_value: leaf.leaf_value,
-          leaf_value_sha256: leaf.leaf_value_sha256,
-          gala_pass_commit_sha: extracted.galaPassCommit,
-          gala_pass_commit_time: extracted.galaPassTime,
-          mapping_decisions_sha256: decisionSha,
-          extraction_method: extracted.source.extraction_method,
-          decision_source: extracted.source,
-          owner_note: row.owner_note || "",
-        };
-        if (!leafVersionsByKey.has(leafKey)) leafVersionsByKey.set(leafKey, []);
-        leafVersionsByKey.get(leafKey).push(version);
+    if (n <= reReviewMaxN) {
+      const twoGen = reReviewBinding.by_batch.get(batch);
+      const initialSha = twoGen?.initial?.commit_sha;
+      if (initialSha && initialSha !== extracted.galaPassCommit) {
+        const initialExtracted = extractBatchDecisionsAtCommit(
+          n,
+          resolved.branch,
+          initialSha,
+          "initial"
+        );
+        if (initialExtracted?.rows?.length) {
+          ingestExtractedRows({
+            extracted: initialExtracted,
+            batch,
+            n,
+            resolved,
+            reReviewMaxN,
+            leafVersionsByKey,
+            correctionBatches,
+            reconstructionProofSamples,
+            lrb042FiRows,
+            counters: ingestCounters,
+          });
+        }
       }
     }
+
+    ingestExtractedRows({
+      extracted,
+      batch,
+      n,
+      resolved,
+      reReviewMaxN,
+      leafVersionsByKey,
+      correctionBatches,
+      reconstructionProofSamples,
+      lrb042FiRows,
+      counters: ingestCounters,
+    });
   }
+
+  missingPostOwnerReconstruction = ingestCounters.missingPostOwnerReconstruction;
+  earlierPartialReviews = ingestCounters.earlierPartialReviews;
+  repeatedFullCardReviews = ingestCounters.repeatedFullCardReviews;
 
   const repeatedTargets = [];
   const classifications = [];
@@ -674,11 +915,12 @@ function main() {
 
   for (const [leafKey, versions] of leafVersionsByKey) {
     const batchSet = new Set(versions.map((v) => v.batch_id));
-    if (batchSet.size < 2) continue;
+    if (batchSet.size < 2 && versions.length < 2) continue;
 
     const { classification, supersession, active_versions, note } = classifyLeafGroup(
       versions,
-      correctionBatches
+      correctionBatches,
+      reReviewMaxN
     );
     counts[classification] = (counts[classification] || 0) + 1;
     if (classification === "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION") fullCardReplacesPatch += 1;
@@ -717,6 +959,15 @@ function main() {
       batches: [...batchSet].sort(),
     });
 
+    if (classification === "INDEPENDENT_OWNER_CONFLICT") {
+      const activeList = active_versions || versions;
+      for (const b of batchSet) {
+        if (batchNum(b) > reReviewMaxN) continue;
+        const gens = new Set(activeList.filter((v) => v.batch_id === b).map((v) => v.owner_review_generation));
+        if (gens.has("initial") && gens.has("expanded")) initialVsExpandedConflicts001041 += 1;
+      }
+    }
+
     if (classification === "INDEPENDENT_OWNER_CONFLICT" || classification === "INSUFFICIENT_DECISION_SOURCE") {
       unresolved.push({
         ...entry,
@@ -746,7 +997,7 @@ function main() {
   const totalRepeated = classifications.length;
   const unresolvedCount = unresolved.length;
   const allCovered = coveredLrb.size === 103;
-  const semicolonCompoundConflictKeys = classifications.filter((c) =>
+  const semicolonCompoundConflictKeys = unresolved.filter((c) =>
     String(c.exact_leaf_field_path || "").includes(";")
   ).length;
   const unresolvedWithoutExactLeaf = unresolved.filter((u) =>
@@ -759,14 +1010,22 @@ function main() {
     semicolonCompoundConflictKeys === 0 &&
     unresolvedWithoutExactLeaf === 0;
 
-  const leafNormalizationPass = reconstructionGatesPass;
+  const reReviewGatesPass =
+    reReviewBinding.re_review_range === "LRB-001…LRB-041" &&
+    reReviewBinding.two_generation_proven === 41 &&
+    reReviewBinding.two_generation_gate === "A1_LRB_TWO_GENERATION_BOUNDARY_PASS" &&
+    initialVsExpandedConflicts001041 === 0;
+
+  const leafNormalizationPass = reconstructionGatesPass && reReviewGatesPass;
   const noUnresolvedLeafConflicts =
     unresolvedCount === 0 && counts.INDEPENDENT_OWNER_CONFLICT === 0 && counts.INSUFFICIENT_DECISION_SOURCE === 0;
 
   const finalClassification = leafNormalizationPass
-    ? "A1_LRB_LEAF_CONFLICT_NORMALIZATION_PASS"
-    : "A1_LRB_LEAF_CONFLICT_NORMALIZATION_BLOCKED";
-  const nextAction = noUnresolvedLeafConflicts
+    ? noUnresolvedLeafConflicts
+      ? "A1_LRB_RE_REVIEW_BINDING_PASS"
+      : "A1_LRB_RE_REVIEW_BINDING_BLOCKED"
+    : "A1_LRB_RE_REVIEW_BINDING_BLOCKED";
+  const nextAction = noUnresolvedLeafConflicts && leafNormalizationPass
     ? "CREATE_CONSOLIDATION_BRANCH"
     : "OWNER_RESOLVE_EXACT_LEAF_LIST";
 
@@ -788,6 +1047,9 @@ function main() {
     unresolved_without_exact_leaf_path: unresolvedWithoutExactLeaf,
     missing_post_owner_reconstruction: missingPostOwnerReconstruction,
     covered_lrb: `${coveredLrb.size}/103`,
+    re_review_range: reReviewBinding.re_review_range,
+    two_generation_proven: `${reReviewBinding.two_generation_proven}/41`,
+    initial_vs_expanded_conflicts_001_041: initialVsExpandedConflicts001041,
     linguistic_decisions_generated: 0,
   };
 
@@ -795,6 +1057,13 @@ function main() {
     generated_at: new Date().toISOString(),
     classification: finalClassification,
     next_action: nextAction,
+    re_review_binding: {
+      range: reReviewBinding.re_review_range,
+      two_generation_gate: reReviewBinding.two_generation_gate,
+      two_generation_proven: reReviewBinding.two_generation_proven,
+      authority_rule:
+        "LRB-001…041 expanded generation supersedes initial (EXPANDED_STANDARD_FULL_CARD_SUPERSESSION); not INDEPENDENT_OWNER_CONFLICT",
+    },
     inventory_pairwise_gala_target_conflicts_csv_only: inventoryPairwiseConflicts,
     validation_gates: validationGates,
     before_after: {
@@ -810,7 +1079,11 @@ function main() {
       identical_leaf_final_values: { before: null, after: counts.IDENTICAL_FINAL_VALUE },
       proven_supersession: {
         before: BEFORE_LEAF_NORMALIZATION.proven_sequential_supersession,
-        after: counts.PROVEN_SEQUENTIAL_SUPERSESSION + counts.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION,
+        after: counts.PROVEN_SEQUENTIAL_SUPERSESSION,
+      },
+      expanded_standard_full_card_supersession: {
+        before: null,
+        after: counts.EXPANDED_STANDARD_FULL_CARD_SUPERSESSION,
       },
       real_independent_owner_leaf_conflicts: {
         before: BEFORE_LEAF_NORMALIZATION.payload_level_independent_conflicts,
@@ -891,7 +1164,7 @@ function main() {
 
   const ba = summary.before_after;
   const es = summary.expanded_standard_metrics;
-  const md = `# A1 LRB leaf-level conflict normalization
+  const md = `# A1 LRB RE_REVIEW binding + leaf conflict normalization
 
 Generated: ${summary.generated_at}
 
@@ -901,6 +1174,7 @@ Generated: ${summary.generated_at}
 
 \`\`\`text
 NEXT_ACTION: ${nextAction}
+RE_REVIEW_RANGE: ${reReviewBinding.re_review_range}
 \`\`\`
 
 ## Validation gates
@@ -912,6 +1186,9 @@ NEXT_ACTION: ${nextAction}
 | unresolved_without_exact_leaf_path | ${validationGates.unresolved_without_exact_leaf_path} |
 | missing_post_owner_reconstruction | ${validationGates.missing_post_owner_reconstruction} |
 | covered_lrb | ${validationGates.covered_lrb} |
+| re_review_range | ${validationGates.re_review_range} |
+| two_generation_proven | ${validationGates.two_generation_proven} |
+| initial_vs_expanded_conflicts_001_041 | ${validationGates.initial_vs_expanded_conflicts_001_041} |
 | linguistic_decisions_generated | ${validationGates.linguistic_decisions_generated} |
 
 ## BEFORE → AFTER
@@ -922,7 +1199,8 @@ NEXT_ACTION: ${nextAction}
 | Semikola composite atslēgas | ${ba.semicolon_compound_conflict_keys.before} | ${ba.semicolon_compound_conflict_keys.after} |
 | Precīzi leaf-level atkārtojumi | — | ${ba.precise_leaf_level_repeats.after} |
 | Identiskas leaf gala vērtības | — | ${ba.identical_leaf_final_values.after} |
-| Pierādīta supersession | ${ba.proven_supersession.before} | ${ba.proven_supersession.after} |
+| Pierādīta secīga supersession | ${ba.proven_supersession.before} | ${ba.proven_supersession.after} |
+| EXPANDED_STANDARD_FULL_CARD_SUPERSESSION | — | ${ba.expanded_standard_full_card_supersession.after} |
 | Reāli neatkarīgi OWNER leaf konflikti | ${ba.real_independent_owner_leaf_conflicts.before} | ${ba.real_independent_owner_leaf_conflicts.after} |
 | Nepietiekams avots | ${ba.insufficient_source.before} | ${ba.insufficient_source.after} |
 | Aptvertie LRB | ${ba.lrb_covered.before} | ${ba.lrb_covered.after} |

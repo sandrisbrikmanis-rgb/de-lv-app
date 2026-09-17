@@ -1,6 +1,6 @@
 # A1 LRB two-generation verification (LRB-001…041)
 
-Generated: 2026-09-17T14:23:31.497Z
+Generated: 2026-09-17T14:23:46.032Z
 
 ## Gate
 
