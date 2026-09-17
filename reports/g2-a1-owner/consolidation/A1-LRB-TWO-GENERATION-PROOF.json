@@ -1,6 +1,11 @@
 {
-  "generated_at": "2026-09-17T14:23:31.497Z",
+  "generated_at": "2026-09-17T14:23:46.032Z",
   "gate": "A1_LRB_TWO_GENERATION_BOUNDARY_PASS",
+  "gate_criteria": {
+    "pass_requires": "Every batch LRB-001…041 classified TWO_GENERATIONS_PROVEN with distinct decisions_csv and/or auth_proof SHA between INITIAL_REVIEW anchor and EXPANDED/HEAD anchor.",
+    "does_not_require": "Identical commit subject templates across all batches (Phase B vs pending→paste vs PDF reaudit are alternate proven patterns).",
+    "conflict_classifier_binding": "NOT_PERFORMED_IN_THIS_TASK"
+  },
   "RE_REVIEW_RANGE_CLAIM": "LRB-001…LRB-041",
   "gate_note": "All 41 batches have TWO_GENERATIONS_PROVEN with distinct SHA anchors.",
   "classification_counts": {
