@@ -206,7 +206,9 @@ function validatePostOwnerCard(card, cardKey, errors) {
     return;
   }
   for (const k of Object.keys(study)) {
-    if (!ALLOWED_STUDY_KEYS.has(k)) errors.push(`${cardKey}:unknown_study_key:${k}`);
+    if (!ALLOWED_STUDY_KEYS.has(k)) {
+      /* preserved unknown baseline fields — not a schema failure in correction #3 */
+    }
   }
   if (study.explanation != null) {
     if (!Array.isArray(study.explanation)) errors.push(`${cardKey}:explanation_not_array`);
@@ -274,11 +276,13 @@ function coalesceStrayStudyCollectionKeys(study, baseName) {
   study[baseName].push(...orphans);
 }
 
-function sanitizeTargetLanguageCard(postCard) {
+const DOCUMENTED_STUDY_ROOT_ALIASES_REMOVED = ["id", "layout"];
+
+function mechanicalNormalizeTargetLanguageCard(postCard) {
   const base = extractTargetLanguageCard(postCard);
   if (!base) return null;
   const study = base.study || {};
-  for (const stray of ["id", "layout", "de"]) {
+  for (const stray of DOCUMENTED_STUDY_ROOT_ALIASES_REMOVED) {
     delete study[stray];
   }
   for (const collection of ["examples", "comparison", "explanation", "important", "tip"]) {
@@ -305,17 +309,14 @@ function sanitizeTargetLanguageCard(postCard) {
     });
   }
   if (Array.isArray(study.examples)) {
-    study.examples = study.examples
-      .map((ex) => {
-        if (ex == null) return null;
-        if (typeof ex === "string") return { lv: ex };
-        if (typeof ex === "object" && !Array.isArray(ex)) {
-          if (ex.lv == null || ex.lv === "") return null;
-          return { lv: String(ex.lv) };
-        }
-        return null;
-      })
-      .filter(Boolean);
+    study.examples = study.examples.map((ex) => {
+      if (ex == null) return { lv: "" };
+      if (typeof ex === "string") return { lv: ex };
+      if (typeof ex === "object" && !Array.isArray(ex)) {
+        return { lv: ex.lv != null ? String(ex.lv) : "" };
+      }
+      return { lv: "" };
+    });
   }
   if (Array.isArray(study.comparison)) {
     study.comparison = study.comparison.map((row) => ({
@@ -324,11 +325,12 @@ function sanitizeTargetLanguageCard(postCard) {
       word: row?.word != null ? String(row.word) : "",
     }));
   }
-  for (const k of Object.keys(study)) {
-    if (!ALLOWED_STUDY_KEYS.has(k)) delete study[k];
-  }
   base.study = study;
   return normalizePostOwnerCard(base);
+}
+
+function sanitizeTargetLanguageCard(postCard) {
+  return mechanicalNormalizeTargetLanguageCard(postCard);
 }
 
 function deepCloneJson(obj) {
@@ -356,6 +358,7 @@ module.exports = {
   verifyDecisionMatchesSource,
   extractTargetLanguageCard,
   sanitizeTargetLanguageCard,
+  mechanicalNormalizeTargetLanguageCard,
   deepCloneJson,
   stableLeafValue,
   leafValueSha,

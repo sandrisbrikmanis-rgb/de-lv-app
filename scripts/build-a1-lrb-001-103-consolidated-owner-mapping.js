@@ -9,9 +9,18 @@ const { ROOT } = require("./lib/audit-common");
 const {
   buildA1LrbConflictClassificationState,
   batchNum,
+  batchId,
   classifyLeafGroup,
+  resolveGalaRef,
+  parseJsonAt,
 } = require("./build-a1-lrb-target-conflict-classification");
-const { leafValueSha, setByPath } = require("./lib/g2-a1-lrb-leaf-reconstruction");
+const { leafValueSha, flattenCardToLeaves } = require("./lib/g2-a1-lrb-leaf-reconstruction");
+const {
+  buildFullCardsWithBaseline,
+  pickFullCardBaseline,
+  createGalaCardsByBatchLoader,
+} = require("./lib/g2-a1-lrb-consolidation-full-cards");
+const { buildNotApplyMappedDecisions, CLASSIFICATIONS } = require("./lib/g2-a1-lrb-not-apply-mapped");
 const {
   isCanonicalLeafFieldPath,
   authorizeEmptyFinalValue,
@@ -20,7 +29,6 @@ const {
   verifyDecisionMatchesSource,
   normalizePostOwnerCard,
   extractTargetLanguageCard,
-  sanitizeTargetLanguageCard,
   deepCloneJson,
 } = require("./lib/g2-a1-lrb-consolidation-normalize");
 
@@ -152,155 +160,29 @@ function pickAuthoritativeDecision(versions, classificationEntry, owner45Map, co
   };
 }
 
-function applyLeafToCard(card, leafPath, value) {
-  let parsed = value;
-  if (typeof value === "string") {
-    const t = value.trim();
-    if ((t.startsWith("[") && t.endsWith("]")) || (t.startsWith("{") && t.endsWith("}"))) {
-      try {
-        parsed = JSON.parse(t);
-      } catch {
-        parsed = value;
-      }
-    }
-  }
-  if (leafPath === "lv") {
-    card.lv = parsed;
-    return;
-  }
-  setByPath(card, leafPath, parsed);
-}
-
-function buildFullCardsWithBaseline(leafDecisionsApply, batchRowRecords) {
-  const applyByCard = new Map();
-  for (const d of leafDecisionsApply) {
-    const ck = `${d.target_language}|${d.canonical_card_object_id}`;
-    if (!applyByCard.has(ck)) applyByCard.set(ck, []);
-    applyByCard.get(ck).push(d);
-  }
-
-  const recordsByCard = new Map();
-  for (const r of batchRowRecords) {
-    const ck = `${r.target_language}|${r.canonical_card_object_id}`;
-    if (!recordsByCard.has(ck)) recordsByCard.set(ck, []);
-    recordsByCard.get(ck).push(r);
-  }
-
-  const cardKeys = new Set(applyByCard.keys());
-  for (const [ck, records] of recordsByCard) {
-    if (records.some((r) => r.post_owner_card_target)) cardKeys.add(ck);
-  }
-  const cards = [];
-  const metrics = {
-    full_card_baseline_missing: 0,
-    full_card_overlay_failures: 0,
-    full_card_source_sha_failures: 0,
-    incomplete_full_cards: 0,
-  };
-
-  for (const ck of cardKeys) {
-    const [target_language, canonical_card_object_id] = ck.split("|");
-    const records = (recordsByCard.get(ck) || [])
-      .filter((r) => r.post_owner_card_target)
-      .sort((a, b) => batchNum(b.batch_id) - batchNum(a.batch_id));
-    const baselineRecord = records[0];
-    if (!baselineRecord?.post_owner_card_target) {
-      metrics.full_card_baseline_missing += 1;
-      metrics.incomplete_full_cards += 1;
-      cards.push({
-        target_language,
-        canonical_card_object_id,
-        status: "BLOCKED",
-        block_reason: "full_card_baseline_missing",
-        post_owner_card: null,
-      });
-      continue;
-    }
-
-    if (
-      baselineRecord.decision_source_sha256 &&
-      baselineRecord.post_owner_card_target_sha256 !==
-        sha256(JSON.stringify(baselineRecord.post_owner_card_target))
-    ) {
-      metrics.full_card_source_sha_failures += 1;
-    }
-
-    const postCard = sanitizeTargetLanguageCard(deepCloneJson(baselineRecord.post_owner_card_target));
-    const baselineLv = postCard.lv;
-    const applyList = applyByCard.get(ck) || [];
-    const contributing_batches = new Set([baselineRecord.batch_id]);
-
-    for (const d of applyList) {
-      applyLeafToCard(postCard, d.exact_leaf_field_path, d.owner_final_value);
-      contributing_batches.add(d.source_batch);
-    }
-
-    normalizePostOwnerCard(postCard);
-
-    let overlayFailed = false;
-    for (const d of applyList) {
-      if (String(d.owner_final_value) !== "") continue;
-      if (!d.explicit_intentional_deletion || !d.apply_eligible) {
-        overlayFailed = true;
-        break;
-      }
-    }
-    if (baselineLv && String(baselineLv).length && postCard.lv === "" && !applyList.some(
-      (d) => d.exact_leaf_field_path === "lv" && d.explicit_intentional_deletion
-    )) {
-      overlayFailed = true;
-    }
-    if (overlayFailed) {
-      metrics.full_card_overlay_failures += 1;
-      metrics.incomplete_full_cards += 1;
-      cards.push({
-        target_language,
-        canonical_card_object_id,
-        status: "BLOCKED",
-        block_reason: "full_card_overlay_failure",
-        post_owner_card: null,
-        full_card_source_sha256: baselineRecord.post_owner_card_target_sha256,
-      });
-      continue;
-    }
-
-    cards.push({
-      target_language,
-      canonical_card_object_id,
-      status: "READY",
-      post_owner_card: postCard,
-      full_card_source_sha256: baselineRecord.post_owner_card_target_sha256,
-      full_card_source_artifact_path: baselineRecord.decision_source_path,
-      full_card_source_artifact_sha256: baselineRecord.decision_source_sha256,
-      full_card_source_batch: baselineRecord.batch_id,
-      post_owner_card_sha256: sha256(JSON.stringify(postCard)),
-      contributing_batches: [...contributing_batches].sort(),
-      leaf_overlay_count: applyList.length,
-    });
-  }
-
-  return { cards, metrics };
-}
-
-function buildFindingRowReconciliation(batchRowRecords, leafDecisions, inventoryRowCount) {
+function buildFindingRowReconciliation(batchRowRecords, leafDecisions, inventoryRowCount, notApplyMapped) {
   const expandedRows = batchRowRecords.filter((r) => r.owner_review_generation !== "initial");
   const auditOnlyAbsent = expandedRows.filter((r) => r.audit_only && r.skip_reason);
   const applyKeys = new Set(
     leafDecisions.filter((d) => d.apply_eligible).map((d) => d.leaf_target_key)
   );
 
-  const notCountedInApply = expandedRows.filter((r) => {
+  const notCountedInApply = notApplyMapped?.rows?.length ?? expandedRows.filter((r) => {
     if (r.audit_only) return true;
     if (!r.leaf_target_keys?.length) return true;
     return !r.leaf_target_keys.some((k) => applyKeys.has(k));
-  });
+  }).length;
+
+  const auditOnlyLeafDecisions = leafDecisions.filter((d) => !d.apply_eligible).length;
 
   return {
     before_expanded_generation_finding_rows: inventoryRowCount,
     after_finding_rows_recorded: expandedRows.length,
     after_apply_eligible_leaf_keys: applyKeys.size,
+    audit_only_leaf_decisions: auditOnlyLeafDecisions,
     audit_only_finding_rows: auditOnlyAbsent.length,
-    finding_rows_not_in_apply_mapping: notCountedInApply.length,
+    finding_rows_not_in_apply_mapping: notCountedInApply,
+    not_apply_mapped_classification_counts: notApplyMapped?.classification_counts || null,
     missing_vs_inventory: inventoryRowCount - expandedRows.length,
     audit_only_rows: auditOnlyAbsent.map((r) => ({
       batch_id: r.batch_id,
@@ -308,15 +190,16 @@ function buildFindingRowReconciliation(batchRowRecords, leafDecisions, inventory
       field_path: r.field_path_raw,
       reason: r.skip_reason,
     })),
-    not_apply_mapped_rows: notCountedInApply
-      .filter((r) => !r.audit_only)
+    not_apply_mapped_rows: (notApplyMapped?.rows || [])
+      .filter((r) => r.classification !== "RECONSTRUCTION_FAILED" && r.classification !== "AUDIT_ONLY_NO_TARGET")
       .slice(0, 50)
       .map((r) => ({
         batch_id: r.batch_id,
         finding_stable_ids: r.finding_stable_ids,
-        field_path: r.field_path_raw,
+        field_path: r.field_path,
         owner_status: r.owner_status,
-        reason: "empty_or_audit_only_leaf_no_apply_target",
+        classification: r.classification,
+        reason: r.exclusion_reason,
       })),
   };
 }
@@ -464,15 +347,25 @@ function main() {
     (r) => r.owner_review_generation !== "initial"
   );
 
-  const findingReconciliation = buildFindingRowReconciliation(
+  const notApplyMapped = buildNotApplyMappedDecisions(
     state.batchRowRecords,
     leafDecisions,
     inventoryRowCount
   );
 
+  const findingReconciliation = buildFindingRowReconciliation(
+    state.batchRowRecords,
+    leafDecisions,
+    inventoryRowCount,
+    notApplyMapped
+  );
+
+  const galaLoaderCtx = { batchNum, resolveGalaRef, parseJsonAt, batchId };
   const { cards: fullCards, metrics: fullCardMetrics } = buildFullCardsWithBaseline(
     leafDecisionsApply,
-    batchRowTrace
+    batchRowTrace,
+    galaLoaderCtx,
+    leafDecisions
   );
   const cardSchemaErrors = [];
   for (const c of fullCards) {
@@ -587,6 +480,28 @@ function main() {
       batch_row_trace_gaps: traceMissing,
       initial_batch_finding_rows_traced: batchRowTrace.length,
       independent_owner_conflicts: state.counts.INDEPENDENT_OWNER_CONFLICT || 0,
+      silently_dropped_baseline_fields: fullCardMetrics.silently_dropped_baseline_fields,
+      unknown_baseline_fields_unresolved: fullCardMetrics.unknown_baseline_fields_unresolved,
+      ready_cards_with_empty_lv: fullCardMetrics.ready_cards_with_empty_lv,
+      ready_cards_with_unjustified_empty_study: fullCardMetrics.ready_cards_with_unjustified_empty_study,
+      ready_cards_without_full_baseline: fullCardMetrics.ready_cards_without_full_baseline,
+      dropped_baseline_leaf_fields: fullCardMetrics.dropped_baseline_leaf_fields,
+      owner_decisions_excluded_without_classification: notApplyMapped.equation_ok
+        ? 0
+        : notApplyMapped.finding_rows_not_in_apply_mapping,
+      owner_review_required: notApplyMapped.owner_review_required_count,
+      not_apply_mapped_rows_total: notApplyMapped.finding_rows_not_in_apply_mapping,
+      not_apply_mapped_classification_sum: notApplyMapped.classification_sum,
+    },
+    metrics_reconciliation: {
+      finding_rows_inventory: inventoryRowCount,
+      audit_leaf_decisions_total: leafDecisions.length,
+      apply_eligible_leaf_decisions: leafDecisionsApply.length,
+      audit_only_leaf_decision_delta: leafDecisions.length - leafDecisionsApply.length,
+      finding_rows_not_in_apply_mapping: notApplyMapped.finding_rows_not_in_apply_mapping,
+      reconstruction_failed_finding_rows:
+        notApplyMapped.classification_counts?.RECONSTRUCTION_FAILED ?? 0,
+      not_apply_mapped_classification_counts: notApplyMapped.classification_counts,
     },
     classification:
       missingValues === 0 &&
@@ -604,8 +519,19 @@ function main() {
       fullCardMetrics.full_card_baseline_missing === 0 &&
       fullCardMetrics.full_card_overlay_failures === 0 &&
       fullCardMetrics.full_card_source_sha_failures === 0 &&
+      fullCardMetrics.silently_dropped_baseline_fields === 0 &&
+      fullCardMetrics.unknown_baseline_fields_unresolved === 0 &&
+      fullCardMetrics.ready_cards_with_empty_lv === 0 &&
+      fullCardMetrics.ready_cards_with_unjustified_empty_study === 0 &&
+      fullCardMetrics.ready_cards_without_full_baseline === 0 &&
+      fullCardMetrics.dropped_baseline_leaf_fields === 0 &&
+      notApplyMapped.owner_review_required_count === 0 &&
+      notApplyMapped.finding_rows_not_in_apply_mapping === 186 &&
+      notApplyMapped.equation_ok &&
+      CLASSIFICATIONS.reduce((s, c) => s + (notApplyMapped.classification_counts[c] || 0), 0) ===
+        186 &&
       findingReconciliation.after_finding_rows_recorded === inventoryRowCount
-        ? "A1_LRB_001_103_CONSOLIDATION_CORRECTION_2_COMPLETE_AWAITING_OWNER_VERIFICATION"
+        ? "A1_LRB_001_103_CONSOLIDATION_CORRECTION_3_COMPLETE_AWAITING_OWNER_VERIFICATION"
         : "A1_LRB_001_103_CONSOLIDATION_BLOCKED",
     next_action: "OWNER_VERIFY_CONSOLIDATED_MAPPING",
     resolution_class_counts: leafDecisions.reduce((acc, d) => {
@@ -616,18 +542,84 @@ function main() {
     full_cards_total: fullCards.filter((c) => c.status === "READY").length,
     full_cards_blocked: fullCards.filter((c) => c.status === "BLOCKED").length,
     finding_row_reconciliation: findingReconciliation,
-    spotlight_cards: ["bg|a1-uhr", "bg|also", "bg|auch", "bg|auf", "bg|aufs"].map((ck) => {
+    spotlight_cards: ["bg|a1-uhr", "bg|also", "bg|auch", "bg|auf", "bg|aufs", "bg|das"].map((ck) => {
       const card = fullCards.find(
         (c) => `${c.target_language}|${c.canonical_card_object_id}` === ck
       );
+      if (card) {
+        return {
+          card_key: ck,
+          status: card.status,
+          post_owner_card_sha256: card.post_owner_card_sha256 || null,
+          baseline_card_sha256: card.baseline_card_sha256 || null,
+          baseline_source_path: card.baseline_source_path || null,
+          preserved_baseline_leaf_count: card.preserved_baseline_leaf_count ?? null,
+          dropped_baseline_leaf_count: card.dropped_baseline_leaf_count ?? null,
+        };
+      }
+      const [target_language, canonical_card_object_id] = ck.split("|");
+      const records = batchRowTrace.filter(
+        (r) =>
+          r.target_language === target_language &&
+          r.canonical_card_object_id === canonical_card_object_id
+      );
+      const leafPool = leafDecisions.filter(
+        (d) => `${d.target_language}|${d.canonical_card_object_id}` === ck
+      );
+      const loadGala = createGalaCardsByBatchLoader(galaLoaderCtx);
+      const galaCache = new Map();
+      const galaLoader = (b, l, c) => {
+        const k = `${b}|${l}|${c}`;
+        if (!galaCache.has(k)) galaCache.set(k, loadGala(b, l, c));
+        return galaCache.get(k);
+      };
+      const pick = pickFullCardBaseline(ck, records, galaLoader, leafPool);
       return {
         card_key: ck,
-        status: card?.status || "MISSING",
-        post_owner_card_sha256: card?.post_owner_card_sha256 || null,
-        full_card_source_sha256: card?.full_card_source_sha256 || null,
+        status: pick?.is_full_baseline ? "REFERENCE_BASELINE_ONLY" : "MISSING",
+        post_owner_card_sha256: null,
+        baseline_card_sha256: pick?.baseline_card_sha256 || null,
+        baseline_source_path: pick?.baseline_source_path || null,
+        preserved_baseline_leaf_count: pick
+          ? flattenCardToLeaves(pick.baselineCard).size
+          : null,
+        dropped_baseline_leaf_count: 0,
+        note: "No apply-eligible leaves on card; OWNER_CONFIRMED_NO_CHANGE finding rows",
       };
     }),
+    not_apply_mapped: {
+      path: `reports/g2-a1-owner/consolidation/final/${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`,
+      row_count: notApplyMapped.finding_rows_not_in_apply_mapping,
+      classification_counts: notApplyMapped.classification_counts,
+    },
   };
+  const notApplyPath = path.join(FINAL_DIR, `${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`);
+  fs.writeFileSync(notApplyPath, JSON.stringify(notApplyMapped, null, 2) + "\n");
+
+  const ownerReviewRequiredPayload = {
+    schema_version: 1,
+    generated_at: consolidatedPayload.generated_at,
+    mode: "OWNER_FILL_NEW_ONLY_NO_AGENT_TRANSLATION",
+    owner_review_required_count: notApplyMapped.owner_review_required_count,
+    rows: notApplyMapped.owner_review_required_rows.map((r) => ({
+      batch_id: r.batch_id,
+      finding_stable_ids: r.finding_stable_ids,
+      target_language: r.target_language,
+      card_object_id: r.card_object_id,
+      field_path: r.field_path,
+      owner_status: r.owner_status,
+      owner_new: "",
+      owner_note: "OWNER: supply mechanical NEW from source; agent did not invent value.",
+      source_artifact_path: r.source_artifact_path,
+      source_artifact_sha256: r.source_artifact_sha256,
+      classification: r.classification,
+    })),
+  };
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-OWNER-REVIEW-REQUIRED.json`),
+    JSON.stringify(ownerReviewRequiredPayload, null, 2) + "\n"
+  );
+
   const proofPath = path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-PROOF.json`);
   fs.writeFileSync(proofPath, JSON.stringify(proof, null, 2) + "\n");
 
@@ -687,6 +679,25 @@ NEXT_ACTION: ${proof.next_action}
 | duplicate_final_keys | ${proof.gates.duplicate_final_keys} |
 | missing_final_values | ${proof.gates.missing_final_values} |
 | DE change targets | ${proof.gates.de_change_targets} |
+| not_apply_mapped_rows_total | ${proof.gates.not_apply_mapped_rows_total} |
+| owner_review_required | ${proof.gates.owner_review_required} |
+| dropped_baseline_leaf_fields | ${proof.gates.dropped_baseline_leaf_fields} |
+
+## Metrics reconciliation
+
+| Metric | Count |
+|--------|------:|
+| Finding rows (inventory) | ${proof.metrics_reconciliation.finding_rows_inventory} |
+| Audit leaf decisions (total) | ${proof.metrics_reconciliation.audit_leaf_decisions_total} |
+| Apply-eligible leaf decisions | ${proof.metrics_reconciliation.apply_eligible_leaf_decisions} |
+| Audit-only leaf delta | ${proof.metrics_reconciliation.audit_only_leaf_decision_delta} |
+| Finding rows not in apply mapping | ${proof.metrics_reconciliation.finding_rows_not_in_apply_mapping} |
+| RECONSTRUCTION_FAILED finding rows | ${proof.metrics_reconciliation.reconstruction_failed_finding_rows} |
+| APPLY_ELIGIBLE (not-apply file) | ${notApplyMapped.classification_counts.APPLY_ELIGIBLE} |
+| OWNER_CONFIRMED_NO_CHANGE | ${notApplyMapped.classification_counts.OWNER_CONFIRMED_NO_CHANGE} |
+| AUDIT_ONLY_NO_TARGET | ${notApplyMapped.classification_counts.AUDIT_ONLY_NO_TARGET} |
+| RECONSTRUCTION_FAILED | ${notApplyMapped.classification_counts.RECONSTRUCTION_FAILED} |
+| OWNER_REVIEW_REQUIRED | ${notApplyMapped.classification_counts.OWNER_REVIEW_REQUIRED} |
 
 ## Artifacts
 
@@ -694,6 +705,8 @@ NEXT_ACTION: ${proof.next_action}
 - \`reports/g2-a1-owner/consolidation/final/${PREFIX}-CONSOLIDATED-OWNER-MANIFEST.json\`
 - \`reports/g2-a1-owner/consolidation/final/${PREFIX}-CONSOLIDATION-PROOF.json\`
 - \`reports/g2-a1-owner/consolidation/final/${PREFIX}-PRODUCTION-APPLY-PLAN.json\`
+- \`reports/g2-a1-owner/consolidation/final/${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json\`
+- \`reports/g2-a1-owner/consolidation/final/${PREFIX}-OWNER-REVIEW-REQUIRED.json\`
 
 Production apply **not executed** in this task.
 `;
@@ -745,7 +758,7 @@ Finding rows and unique leaf keys are distinct metrics; leaf deduplication does 
 
   if (
     proof.classification !==
-    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_2_COMPLETE_AWAITING_OWNER_VERIFICATION"
+    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_3_COMPLETE_AWAITING_OWNER_VERIFICATION"
   ) {
     process.exit(1);
   }

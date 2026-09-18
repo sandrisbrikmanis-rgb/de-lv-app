@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T15:55:43.728Z",
+  "generated_at": "2026-09-18T16:40:59.849Z",
   "gates": {
     "lrb_coverage": "103/103",
     "linguistically_closed": "103/103",
@@ -27,9 +27,34 @@
     "ingest_apply_changes": 0,
     "batch_row_trace_gaps": 0,
     "initial_batch_finding_rows_traced": 4968,
-    "independent_owner_conflicts": 0
+    "independent_owner_conflicts": 0,
+    "silently_dropped_baseline_fields": 0,
+    "unknown_baseline_fields_unresolved": 0,
+    "ready_cards_with_empty_lv": 0,
+    "ready_cards_with_unjustified_empty_study": 0,
+    "ready_cards_without_full_baseline": 0,
+    "dropped_baseline_leaf_fields": 0,
+    "owner_decisions_excluded_without_classification": 0,
+    "owner_review_required": 0,
+    "not_apply_mapped_rows_total": 186,
+    "not_apply_mapped_classification_sum": 186
   },
-  "classification": "A1_LRB_001_103_CONSOLIDATION_CORRECTION_2_COMPLETE_AWAITING_OWNER_VERIFICATION",
+  "metrics_reconciliation": {
+    "finding_rows_inventory": 4968,
+    "audit_leaf_decisions_total": 35345,
+    "apply_eligible_leaf_decisions": 34321,
+    "audit_only_leaf_decision_delta": 1024,
+    "finding_rows_not_in_apply_mapping": 186,
+    "reconstruction_failed_finding_rows": 7,
+    "not_apply_mapped_classification_counts": {
+      "APPLY_ELIGIBLE": 30,
+      "OWNER_CONFIRMED_NO_CHANGE": 149,
+      "AUDIT_ONLY_NO_TARGET": 0,
+      "RECONSTRUCTION_FAILED": 7,
+      "OWNER_REVIEW_REQUIRED": 0
+    }
+  },
+  "classification": "A1_LRB_001_103_CONSOLIDATION_CORRECTION_3_COMPLETE_AWAITING_OWNER_VERIFICATION",
   "next_action": "OWNER_VERIFY_CONSOLIDATED_MAPPING",
   "resolution_class_counts": {
     "EXPANDED_STANDARD_FULL_CARD": 4797,
@@ -45,13 +70,45 @@
       "status": "READY",
       "post_owner_card": {
         "lv": "До (накъде?)",
-        "study": {}
+        "study": {
+          "examples": [
+            {
+              "lv": ""
+            },
+            {
+              "lv": ""
+            },
+            {
+              "lv": ""
+            },
+            {
+              "lv": ""
+            },
+            {
+              "lv": ""
+            },
+            {
+              "lv": ""
+            },
+            {
+              "lv": ""
+            }
+          ]
+        }
       },
-      "full_card_source_sha256": "486c274503e0b82a683610d866d1181689309f22965123e5c2350239235b4c3d",
-      "full_card_source_artifact_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
-      "full_card_source_artifact_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
-      "full_card_source_batch": "LRB-001",
-      "post_owner_card_sha256": "a0e3c4e5258aed7b6a23f1b0ede8d5a9624396a20db456f44a93647e40ec7994",
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "baseline_source_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
+      "baseline_source_batch": "LRB-001",
+      "baseline_source_kind": "batch_row_post_owner",
+      "baseline_card_sha256": "a993b2e7bb02feea6021b980a2f95fa24f13c428f9e8e13904224524730d1b88",
+      "full_card_source_sha256": "a993b2e7bb02feea6021b980a2f95fa24f13c428f9e8e13904224524730d1b88",
+      "overlay_leaf_keys": [
+        "lv"
+      ],
+      "post_owner_card_sha256": "a993b2e7bb02feea6021b980a2f95fa24f13c428f9e8e13904224524730d1b88",
+      "preserved_baseline_leaf_count": 8,
+      "changed_leaf_count": 0,
+      "dropped_baseline_leaf_count": 0,
       "contributing_batches": [
         "LRB-001"
       ],
@@ -64,6 +121,17 @@
       "post_owner_card": {
         "lv": "",
         "study": {
+          "examples": [
+            {
+              "lv": ""
+            },
+            {
+              "lv": ""
+            },
+            {
+              "lv": ""
+            }
+          ],
           "comparison": [
             {
               "meaning": "Това (член/местоимение)",
@@ -92,11 +160,29 @@
           ]
         }
       },
-      "full_card_source_sha256": "9f1c88d2c034467037bd5777207110807ca03b359c4ea05a09a218e3cb5e13a7",
-      "full_card_source_artifact_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
-      "full_card_source_artifact_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
-      "full_card_source_batch": "LRB-001",
-      "post_owner_card_sha256": "ac2c62b08ee920f522db6d96ef0f2b568bcf0dab646b34366972258686e785fb",
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "baseline_source_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
+      "baseline_source_batch": "LRB-001",
+      "baseline_source_kind": "batch_row_post_owner",
+      "baseline_card_sha256": "a2a9d65e1ff7d3bb1e72539cd1466d2f4c1f42b143d24a043545506afaa656c6",
+      "full_card_source_sha256": "a2a9d65e1ff7d3bb1e72539cd1466d2f4c1f42b143d24a043545506afaa656c6",
+      "overlay_leaf_keys": [
+        "study.comparison[0].example",
+        "study.comparison[0].meaning",
+        "study.comparison[0].word",
+        "study.comparison[1].example",
+        "study.comparison[1].meaning",
+        "study.comparison[1].word",
+        "study.comparison[2].example",
+        "study.comparison[2].meaning",
+        "study.comparison[2].word",
+        "study.important[0]",
+        "study.important[1]"
+      ],
+      "post_owner_card_sha256": "c0d0953d0c432c096fa579174f13238ff6ea768d7200e1fb2753d3d19ba8c846",
+      "preserved_baseline_leaf_count": 15,
+      "changed_leaf_count": 2,
+      "dropped_baseline_leaf_count": 0,
       "contributing_batches": [
         "LRB-001"
       ],
@@ -138,11 +224,34 @@
           ]
         }
       },
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "baseline_source_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
+      "baseline_source_batch": "LRB-001",
+      "baseline_source_kind": "batch_row_post_owner",
+      "baseline_card_sha256": "ce7fa345720460777ad1c1a6c8ca6cf834a1894428ac5d516633718ef9dd763b",
       "full_card_source_sha256": "ce7fa345720460777ad1c1a6c8ca6cf834a1894428ac5d516633718ef9dd763b",
-      "full_card_source_artifact_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
-      "full_card_source_artifact_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
-      "full_card_source_batch": "LRB-001",
+      "overlay_leaf_keys": [
+        "lv",
+        "study.comparison[0].example",
+        "study.comparison[0].meaning",
+        "study.comparison[0].word",
+        "study.comparison[1].example",
+        "study.comparison[1].meaning",
+        "study.comparison[1].word",
+        "study.comparison[2].example",
+        "study.comparison[2].meaning",
+        "study.comparison[2].word",
+        "study.comparison[3].example",
+        "study.comparison[3].meaning",
+        "study.comparison[3].word",
+        "study.important[0]",
+        "study.important[1]",
+        "study.translation"
+      ],
       "post_owner_card_sha256": "ce7fa345720460777ad1c1a6c8ca6cf834a1894428ac5d516633718ef9dd763b",
+      "preserved_baseline_leaf_count": 16,
+      "changed_leaf_count": 0,
+      "dropped_baseline_leaf_count": 0,
       "contributing_batches": [
         "LRB-001"
       ],
@@ -211,11 +320,47 @@
           }
         }
       },
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "baseline_source_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
+      "baseline_source_batch": "LRB-001",
+      "baseline_source_kind": "batch_row_post_owner",
+      "baseline_card_sha256": "b3a419cdc2a29611a244930182796ed1b330acdf9d458ff0227ff949f37d853a",
       "full_card_source_sha256": "b3a419cdc2a29611a244930182796ed1b330acdf9d458ff0227ff949f37d853a",
-      "full_card_source_artifact_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
-      "full_card_source_artifact_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
-      "full_card_source_batch": "LRB-001",
+      "overlay_leaf_keys": [
+        "lv",
+        "study.comparison[0].example",
+        "study.comparison[0].meaning",
+        "study.comparison[0].word",
+        "study.comparison[1].example",
+        "study.comparison[1].meaning",
+        "study.comparison[1].word",
+        "study.comparison[2].example",
+        "study.comparison[2].meaning",
+        "study.comparison[2].word",
+        "study.comparison[3].example",
+        "study.comparison[3].meaning",
+        "study.comparison[3].word",
+        "study.examples[0].lv",
+        "study.examples[1].lv",
+        "study.examples[2].lv",
+        "study.examples[3].lv",
+        "study.explanation[0]",
+        "study.explanation[1]",
+        "study.explanation[2]",
+        "study.explanation[3]",
+        "study.explanation[4]",
+        "study.explanation[5]",
+        "study.important[0]",
+        "study.important[1]",
+        "study.important[2]",
+        "study.important[3]",
+        "study.tip.text",
+        "study.translation"
+      ],
       "post_owner_card_sha256": "cd59b3473dbd789f4ae5d419c1821a2bcc3a597a544e5b7d3c3d1e8801902d1e",
+      "preserved_baseline_leaf_count": 28,
+      "changed_leaf_count": 2,
+      "dropped_baseline_leaf_count": 0,
       "contributing_batches": [
         "LRB-001"
       ],
@@ -272,25 +417,41 @@
           ]
         }
       },
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "baseline_source_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
+      "baseline_source_batch": "LRB-001",
+      "baseline_source_kind": "batch_row_post_owner",
+      "baseline_card_sha256": "48806bcc10cf2fdf93886935b3b64399727aaccc1cc082d86ce1dac2869b1ca2",
       "full_card_source_sha256": "48806bcc10cf2fdf93886935b3b64399727aaccc1cc082d86ce1dac2869b1ca2",
-      "full_card_source_artifact_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
-      "full_card_source_artifact_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
-      "full_card_source_batch": "LRB-001",
+      "overlay_leaf_keys": [
+        "lv"
+      ],
       "post_owner_card_sha256": "50c00ddf2890dac886d64f5313109221211e493bde6cbe9b992ac22b86e46359",
+      "preserved_baseline_leaf_count": 20,
+      "changed_leaf_count": 1,
+      "dropped_baseline_leaf_count": 0,
       "contributing_batches": [
         "LRB-001"
       ],
       "leaf_overlay_count": 1
     }
   ],
-  "full_cards_total": 3869,
+  "full_cards_total": 3734,
   "full_cards_blocked": 0,
   "finding_row_reconciliation": {
     "before_expanded_generation_finding_rows": 4968,
     "after_finding_rows_recorded": 4968,
     "after_apply_eligible_leaf_keys": 34321,
+    "audit_only_leaf_decisions": 1024,
     "audit_only_finding_rows": 7,
     "finding_rows_not_in_apply_mapping": 186,
+    "not_apply_mapped_classification_counts": {
+      "APPLY_ELIGIBLE": 30,
+      "OWNER_CONFIRMED_NO_CHANGE": 149,
+      "AUDIT_ONLY_NO_TARGET": 0,
+      "RECONSTRUCTION_FAILED": 7,
+      "OWNER_REVIEW_REQUIRED": 0
+    },
     "missing_vs_inventory": 0,
     "audit_only_rows": [
       {
@@ -342,383 +503,472 @@
         "finding_stable_ids": "g2/a1/bg|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
         "field_path": "a1.card.a1-uhr.study.examples[5].native",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|also|idx:26|study.examples[1].lv; study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples[1].lv; study.examples[2].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|auch|idx:48|study.examples[1].lv; study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples[1].lv; study.examples[2].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|auf|idx:49|study.comparison[1]; study.examples[1].lv|CONTENT_ERROR|gpt-5.6-luna",
         "field_path": "study.comparison[1]; study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|das|idx:129|study.comparison, study.important, study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.comparison, study.important, study.examples[2].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|die|idx:137|study.examples[1].lv, study.examples[2].lv, study.important[0]|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples[1].lv, study.examples[2].lv, study.important[0]",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|dieser|idx:139|study.examples[1].lv, study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples[1].lv, study.examples[2].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|finden|idx:187|study.examples; study.explanation; study.comparison|SEMANTIC_MISMATCH|gpt-5.6-luna",
         "field_path": "study.examples; study.explanation; study.comparison",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|groß|idx:250|study.examples, study.explanation, study.tip|MEANING_ERROR|gpt-5.6-luna",
         "field_path": "study.examples, study.explanation, study.tip",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|ihr|idx:292|study.explanation, study.examples, study.tip|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.explanation, study.examples, study.tip",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bg|im|idx:293|study.explanation, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.explanation, study.examples, study.comparison",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
         "field_path": "a1.card.a1-uhr.study.examples[5].native",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|es|idx:167|study.examples[1].lv; study.examples[3].lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples[1].lv; study.examples[3].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|groß|idx:250|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|Großeltern|idx:251|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|halten|idx:265|study.examples[2].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[2].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|hoch|idx:285|study.examples[1].lv|MEANING_MISMATCH|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|Morgen|idx:418|study.explanation; study.tip|MEANING_ERROR|gpt-5.6-luna",
         "field_path": "study.explanation; study.tip",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|über|idx:608|study.examples[3].lv|SEMANTIC_MISMATCH|gpt-5.6-luna",
         "field_path": "study.examples[3].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|um|idx:611|study.examples[1].lv|SEMANTIC_MISMATCH|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|unter|idx:615|study.examples[1].lv|SEMANTIC_MISMATCH|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/bs|verstehen|idx:621|study.examples[0].lv, study.examples[1].lv|ORTHOGRAPHY|gpt-5.6-luna",
         "field_path": "study.examples[0].lv, study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/cs|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
         "field_path": "a1.card.a1-uhr.study.examples[5].native",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-001",
         "finding_stable_ids": "g2/a1/da|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
         "field_path": "a1.card.a1-uhr.study.examples[5].native",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/da|Laden|idx:349|study.explanation; study.tip|TARGET_LANGUAGE_GRAMMAR|gpt-5.6-luna",
         "field_path": "study.explanation; study.tip",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/da|Land|idx:351|study.examples; study.important|MEANING_AND_USAGE|gpt-5.6-luna",
         "field_path": "study.examples; study.important",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
         "field_path": "a1.card.a1-uhr.study.examples[5].native",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|bitte|idx:93|study.examples.lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples.lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|Bitte|idx:94|study.examples.lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples.lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|bringen|idx:111|study.examples.lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples.lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|die|idx:137|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|dieser|idx:139|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|essen|idx:690|study.explanation|DE_SOURCE_ISSUE|gpt-5.6-luna",
         "field_path": "study.explanation",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|euch|idx:170|study.examples[2].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[2].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|fahren|idx:172|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|Fernsehen|idx:688|study.explanation|DE_SOURCE_ISSUE|gpt-5.6-luna",
         "field_path": "study.explanation",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|Frau|idx:198|study.examples[4].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[4].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|für|idx:216|study.examples[3].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[3].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|groß|idx:250|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|hoch|idx:285|study.examples[1].lv|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|in|idx:295|study.examples[0].lv|ORTHOGRAPHY|gpt-5.6-luna",
         "field_path": "study.examples[0].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|natürlich|idx:433|study.examples[4].lv|STYLE_ONLY|gpt-5.6-luna",
         "field_path": "study.examples[4].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|nehmen|idx:435|study.examples[2].lv; study.examples[3].lv; study.important[0]|MEANING_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[2].lv; study.examples[3].lv; study.important[0]",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|probieren|idx:482|study.examples[3].lv|CAPITALIZATION|gpt-5.6-luna",
         "field_path": "study.examples[3].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|schauen|idx:510|study.examples[2].lv|CAPITALIZATION|gpt-5.6-luna",
         "field_path": "study.examples[2].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|stehen|idx:576|study.explanation, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.explanation, study.comparison",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|über|idx:608|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|unter|idx:615|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
         "field_path": "study.examples[1].lv",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/en|zum|idx:672|study.explanation, study.comparison, study.important|DE_SOURCE_ISSUE|gpt-5.6-luna",
         "field_path": "study.explanation, study.comparison, study.important",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       },
       {
         "batch_id": "LRB-002",
         "finding_stable_ids": "g2/a1/es|aufs|idx:60|study.explanation; study.comparison; study.important|MISTRANSLATION|gpt-5.6-luna",
         "field_path": "study.explanation; study.comparison; study.important",
         "owner_status": "DECIDED",
-        "reason": "empty_or_audit_only_leaf_no_apply_target"
+        "classification": "OWNER_CONFIRMED_NO_CHANGE",
+        "reason": "owner_decision_recorded; apply-eligible empty leaf values excluded (confirmed no production target or no change)"
       }
     ]
   },
   "spotlight_cards": [
     {
       "card_key": "bg|a1-uhr",
-      "status": "READY",
-      "post_owner_card_sha256": "29790a198f5f8d8f3675896e9a57a391177ce024762dbfd1e4c846221fd484cc",
-      "full_card_source_sha256": "29790a198f5f8d8f3675896e9a57a391177ce024762dbfd1e4c846221fd484cc"
+      "status": "MISSING",
+      "post_owner_card_sha256": null,
+      "baseline_card_sha256": "29790a198f5f8d8f3675896e9a57a391177ce024762dbfd1e4c846221fd484cc",
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "preserved_baseline_leaf_count": 0,
+      "dropped_baseline_leaf_count": 0,
+      "note": "No apply-eligible leaves on card; OWNER_CONFIRMED_NO_CHANGE finding rows"
     },
     {
       "card_key": "bg|also",
-      "status": "READY",
-      "post_owner_card_sha256": "29790a198f5f8d8f3675896e9a57a391177ce024762dbfd1e4c846221fd484cc",
-      "full_card_source_sha256": "af7128fb7a1c643c4104d209acbd589f59fa6032cadf230c3a604ed6422957ee"
+      "status": "REFERENCE_BASELINE_ONLY",
+      "post_owner_card_sha256": null,
+      "baseline_card_sha256": "b699711f4008d8561f5d9ebff0884767fbd93b349dfbc4532c52fc6b47b655d4",
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "preserved_baseline_leaf_count": 3,
+      "dropped_baseline_leaf_count": 0,
+      "note": "No apply-eligible leaves on card; OWNER_CONFIRMED_NO_CHANGE finding rows"
     },
     {
       "card_key": "bg|auch",
-      "status": "READY",
-      "post_owner_card_sha256": "29790a198f5f8d8f3675896e9a57a391177ce024762dbfd1e4c846221fd484cc",
-      "full_card_source_sha256": "af7128fb7a1c643c4104d209acbd589f59fa6032cadf230c3a604ed6422957ee"
+      "status": "REFERENCE_BASELINE_ONLY",
+      "post_owner_card_sha256": null,
+      "baseline_card_sha256": "b699711f4008d8561f5d9ebff0884767fbd93b349dfbc4532c52fc6b47b655d4",
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "preserved_baseline_leaf_count": 3,
+      "dropped_baseline_leaf_count": 0,
+      "note": "No apply-eligible leaves on card; OWNER_CONFIRMED_NO_CHANGE finding rows"
     },
     {
       "card_key": "bg|auf",
-      "status": "READY",
-      "post_owner_card_sha256": "29790a198f5f8d8f3675896e9a57a391177ce024762dbfd1e4c846221fd484cc",
-      "full_card_source_sha256": "af7128fb7a1c643c4104d209acbd589f59fa6032cadf230c3a604ed6422957ee"
+      "status": "REFERENCE_BASELINE_ONLY",
+      "post_owner_card_sha256": null,
+      "baseline_card_sha256": "d1173759bface53338f5bc0de762c0583be16490220869b209b67765725c88f4",
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "preserved_baseline_leaf_count": 2,
+      "dropped_baseline_leaf_count": 0,
+      "note": "No apply-eligible leaves on card; OWNER_CONFIRMED_NO_CHANGE finding rows"
     },
     {
       "card_key": "bg|aufs",
       "status": "READY",
-      "post_owner_card_sha256": "a0e3c4e5258aed7b6a23f1b0ede8d5a9624396a20db456f44a93647e40ec7994",
-      "full_card_source_sha256": "486c274503e0b82a683610d866d1181689309f22965123e5c2350239235b4c3d"
+      "post_owner_card_sha256": "a993b2e7bb02feea6021b980a2f95fa24f13c428f9e8e13904224524730d1b88",
+      "baseline_card_sha256": "a993b2e7bb02feea6021b980a2f95fa24f13c428f9e8e13904224524730d1b88",
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "preserved_baseline_leaf_count": 8,
+      "dropped_baseline_leaf_count": 0
+    },
+    {
+      "card_key": "bg|das",
+      "status": "READY",
+      "post_owner_card_sha256": "c0d0953d0c432c096fa579174f13238ff6ea768d7200e1fb2753d3d19ba8c846",
+      "baseline_card_sha256": "a2a9d65e1ff7d3bb1e72539cd1466d2f4c1f42b143d24a043545506afaa656c6",
+      "baseline_source_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-decisions.csv",
+      "preserved_baseline_leaf_count": 15,
+      "dropped_baseline_leaf_count": 0
     }
-  ]
+  ],
+  "not_apply_mapped": {
+    "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-NOT-APPLY-MAPPED-OWNER-DECISIONS.json",
+    "row_count": 186,
+    "classification_counts": {
+      "APPLY_ELIGIBLE": 30,
+      "OWNER_CONFIRMED_NO_CHANGE": 149,
+      "AUDIT_ONLY_NO_TARGET": 0,
+      "RECONSTRUCTION_FAILED": 7,
+      "OWNER_REVIEW_REQUIRED": 0
+    }
+  }
 }

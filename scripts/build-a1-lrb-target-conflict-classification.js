@@ -807,7 +807,7 @@ function ingestExtractedRows({
   }
   if (!extracted.rows) return;
 
-  const { sanitizeTargetLanguageCard } = require("./lib/g2-a1-lrb-consolidation-normalize");
+  const { mechanicalNormalizeTargetLanguageCard } = require("./lib/g2-a1-lrb-consolidation-normalize");
 
   function pushFindingRowRecord(row, extra) {
     if (!batchRowRecords) return;
@@ -818,6 +818,8 @@ function ingestExtractedRows({
       field_path_raw: row.field_path,
       finding_stable_ids: row.finding_stable_ids || row.finding_stable_id || "",
       owner_status: row.owner_status || row.owner_decision || "",
+      owner_new: row.owner_new ?? row.ownerNew ?? "",
+      owner_note: row.owner_note || row.ownerNote || "",
       owner_review_generation: extracted.owner_review_generation || "single",
       gala_pass_commit_sha: extracted.galaPassCommit,
       decision_source_path: extracted.source?.file_path || null,
@@ -923,7 +925,7 @@ function ingestExtractedRows({
       leafVersionsByKey.get(leafKey).push(version);
     }
     if (batchRowRecords) {
-      const targetCard = sanitizeTargetLanguageCard(reconstruction.postCard);
+      const targetCard = mechanicalNormalizeTargetLanguageCard(reconstruction.postCard);
       batchRowRecords.push({
         batch_id: batch,
         target_language: String(row.languages).trim(),
@@ -931,7 +933,11 @@ function ingestExtractedRows({
         field_path_raw: row.field_path,
         finding_stable_ids: row.finding_stable_ids || row.finding_stable_id || "",
         owner_status: row.owner_status || row.owner_decision || "",
+        owner_new: row.owner_new ?? row.ownerNew ?? "",
+        owner_note: row.owner_note || row.ownerNote || "",
         owner_review_generation: generation,
+        expanded_standard_full_card: expandedFull,
+        full_composite_scope: reconstruction.fullComposite,
         leaf_target_keys: rowLeafKeys,
         gala_pass_commit_sha: extracted.galaPassCommit,
         decision_source_path: extracted.source?.file_path || null,
@@ -1526,8 +1532,12 @@ function main() {
 module.exports = {
   buildA1LrbConflictClassificationState,
   batchNum,
+  batchId,
   classifyLeafGroup,
   filterVersionsAfterFullCardSupersession,
+  resolveGalaRef,
+  gitShow,
+  parseJsonAt,
 };
 
 if (require.main === module) main();

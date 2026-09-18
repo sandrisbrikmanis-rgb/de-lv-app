@@ -79,6 +79,8 @@ function main() {
     `${PREFIX}-CONSOLIDATION-SUMMARY.md`,
     `${PREFIX}-PRODUCTION-APPLY-PLAN.json`,
     `${PREFIX}-FINDING-ROW-RECONCILIATION.json`,
+    `${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`,
+    `${PREFIX}-OWNER-REVIEW-REQUIRED.json`,
   ]) {
     if (!fs.existsSync(path.join(FINAL_DIR, req))) blockers.push(`missing:${req}`);
   }
@@ -109,6 +111,14 @@ function main() {
     production_changes: 0,
     crowdin_changes: 0,
     ingest_apply_changes: 0,
+    silently_dropped_baseline_fields: 0,
+    unknown_baseline_fields_unresolved: 0,
+    ready_cards_with_empty_lv: 0,
+    ready_cards_with_unjustified_empty_study: 0,
+    ready_cards_without_full_baseline: 0,
+    dropped_baseline_leaf_fields: 0,
+    owner_review_required: 0,
+    not_apply_mapped_rows_total: 186,
   };
   for (const [k, v] of Object.entries(expectedGates)) {
     if (gates[k] !== v) blockers.push(`gate:${k}=${gates[k]} expected=${v}`);
@@ -116,10 +126,22 @@ function main() {
 
   if (
     proof.classification !==
-    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_2_COMPLETE_AWAITING_OWNER_VERIFICATION"
+    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_3_COMPLETE_AWAITING_OWNER_VERIFICATION"
   ) {
     blockers.push(`classification:${proof.classification}`);
   }
+
+  const notApply = JSON.parse(
+    fs.readFileSync(path.join(FINAL_DIR, `${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`), "utf8")
+  );
+  if (notApply.finding_rows_not_in_apply_mapping !== 186) {
+    blockers.push(`not_apply_mapped_count:${notApply.finding_rows_not_in_apply_mapping}`);
+  }
+  if ((notApply.owner_review_required_count || 0) !== 0) {
+    blockers.push(`owner_review_required:${notApply.owner_review_required_count}`);
+  }
+  const classSum = Object.values(notApply.classification_counts || {}).reduce((a, b) => a + b, 0);
+  if (classSum !== 186) blockers.push(`not_apply_class_sum:${classSum}`);
 
   if (!manifest.generation_base_sha) blockers.push("missing:generation_base_sha");
 
@@ -177,8 +199,11 @@ function main() {
       `${c.target_language}|${c.canonical_card_object_id}`,
       cardErrors
     );
-    if (!c.post_owner_card_sha256 || !c.full_card_source_sha256) {
+    if (!c.post_owner_card_sha256 || !c.baseline_card_sha256) {
       blockers.push(`missing_card_sha:${c.target_language}|${c.canonical_card_object_id}`);
+    }
+    if ((c.dropped_baseline_leaf_count || 0) !== 0) {
+      blockers.push(`dropped_baseline:${c.target_language}|${c.canonical_card_object_id}`);
     }
   }
   if (cardErrors.length) blockers.push(`invalid_card_schema_recheck:${cardErrors.length}`);
