@@ -1,0 +1,404 @@
+{
+  "before_expanded_generation_finding_rows": 4968,
+  "after_finding_rows_recorded": 4968,
+  "after_apply_eligible_leaf_keys": 34321,
+  "audit_only_finding_rows": 7,
+  "finding_rows_not_in_apply_mapping": 186,
+  "missing_vs_inventory": 0,
+  "audit_only_rows": [
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|gut|idx:259|study.sectionAccents.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.sectionAccents.examples[1].lv",
+      "reason": "RECONSTRUCTION_FAILED"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|klein|idx:6|study.examples[1-2].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1-2].lv",
+      "reason": "RECONSTRUCTION_FAILED"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|nach|idx:426|study.sectionAccents.examples[3].lv|MEANING_ERROR|gpt-5.6-luna",
+      "field_path": "study.sectionAccents.examples[3].lv",
+      "reason": "RECONSTRUCTION_FAILED"
+    },
+    {
+      "batch_id": "LRB-094",
+      "finding_stable_ids": "",
+      "field_path": "study.examples, study.comparison",
+      "reason": "RECONSTRUCTION_FAILED"
+    },
+    {
+      "batch_id": "LRB-097",
+      "finding_stable_ids": "",
+      "field_path": "lv/study.examples",
+      "reason": "RECONSTRUCTION_FAILED"
+    },
+    {
+      "batch_id": "LRB-097",
+      "finding_stable_ids": "",
+      "field_path": "lv/study.examples",
+      "reason": "RECONSTRUCTION_FAILED"
+    },
+    {
+      "batch_id": "LRB-101",
+      "finding_stable_ids": "",
+      "field_path": "study.examples, study.comparison",
+      "reason": "RECONSTRUCTION_FAILED"
+    }
+  ],
+  "not_apply_mapped_rows": [
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
+      "field_path": "a1.card.a1-uhr.study.examples[5].native",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|also|idx:26|study.examples[1].lv; study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv; study.examples[2].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|auch|idx:48|study.examples[1].lv; study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv; study.examples[2].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|auf|idx:49|study.comparison[1]; study.examples[1].lv|CONTENT_ERROR|gpt-5.6-luna",
+      "field_path": "study.comparison[1]; study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|das|idx:129|study.comparison, study.important, study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.comparison, study.important, study.examples[2].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|die|idx:137|study.examples[1].lv, study.examples[2].lv, study.important[0]|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv, study.examples[2].lv, study.important[0]",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|dieser|idx:139|study.examples[1].lv, study.examples[2].lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv, study.examples[2].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|finden|idx:187|study.examples; study.explanation; study.comparison|SEMANTIC_MISMATCH|gpt-5.6-luna",
+      "field_path": "study.examples; study.explanation; study.comparison",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|groß|idx:250|study.examples, study.explanation, study.tip|MEANING_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples, study.explanation, study.tip",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|ihr|idx:292|study.explanation, study.examples, study.tip|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.explanation, study.examples, study.tip",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bg|im|idx:293|study.explanation, study.examples, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.explanation, study.examples, study.comparison",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
+      "field_path": "a1.card.a1-uhr.study.examples[5].native",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|es|idx:167|study.examples[1].lv; study.examples[3].lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv; study.examples[3].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|groß|idx:250|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|Großeltern|idx:251|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|halten|idx:265|study.examples[2].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[2].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|hoch|idx:285|study.examples[1].lv|MEANING_MISMATCH|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|Morgen|idx:418|study.explanation; study.tip|MEANING_ERROR|gpt-5.6-luna",
+      "field_path": "study.explanation; study.tip",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|über|idx:608|study.examples[3].lv|SEMANTIC_MISMATCH|gpt-5.6-luna",
+      "field_path": "study.examples[3].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|um|idx:611|study.examples[1].lv|SEMANTIC_MISMATCH|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|unter|idx:615|study.examples[1].lv|SEMANTIC_MISMATCH|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/bs|verstehen|idx:621|study.examples[0].lv, study.examples[1].lv|ORTHOGRAPHY|gpt-5.6-luna",
+      "field_path": "study.examples[0].lv, study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/cs|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
+      "field_path": "a1.card.a1-uhr.study.examples[5].native",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-001",
+      "finding_stable_ids": "g2/a1/da|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
+      "field_path": "a1.card.a1-uhr.study.examples[5].native",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/da|Laden|idx:349|study.explanation; study.tip|TARGET_LANGUAGE_GRAMMAR|gpt-5.6-luna",
+      "field_path": "study.explanation; study.tip",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/da|Land|idx:351|study.examples; study.important|MEANING_AND_USAGE|gpt-5.6-luna",
+      "field_path": "study.examples; study.important",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|a1-uhr|a1.card.a1-uhr.study.examples[5].native|MULTI_TRANSLATION|deterministic/multi-translation",
+      "field_path": "a1.card.a1-uhr.study.examples[5].native",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|bitte|idx:93|study.examples.lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples.lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|Bitte|idx:94|study.examples.lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples.lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|bringen|idx:111|study.examples.lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples.lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|die|idx:137|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|dieser|idx:139|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|essen|idx:690|study.explanation|DE_SOURCE_ISSUE|gpt-5.6-luna",
+      "field_path": "study.explanation",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|euch|idx:170|study.examples[2].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[2].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|fahren|idx:172|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|Fernsehen|idx:688|study.explanation|DE_SOURCE_ISSUE|gpt-5.6-luna",
+      "field_path": "study.explanation",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|Frau|idx:198|study.examples[4].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[4].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|für|idx:216|study.examples[3].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[3].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|groß|idx:250|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|hoch|idx:285|study.examples[1].lv|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|in|idx:295|study.examples[0].lv|ORTHOGRAPHY|gpt-5.6-luna",
+      "field_path": "study.examples[0].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|natürlich|idx:433|study.examples[4].lv|STYLE_ONLY|gpt-5.6-luna",
+      "field_path": "study.examples[4].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|nehmen|idx:435|study.examples[2].lv; study.examples[3].lv; study.important[0]|MEANING_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[2].lv; study.examples[3].lv; study.important[0]",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|probieren|idx:482|study.examples[3].lv|CAPITALIZATION|gpt-5.6-luna",
+      "field_path": "study.examples[3].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|schauen|idx:510|study.examples[2].lv|CAPITALIZATION|gpt-5.6-luna",
+      "field_path": "study.examples[2].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|stehen|idx:576|study.explanation, study.comparison|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.explanation, study.comparison",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|über|idx:608|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|unter|idx:615|study.examples[1].lv|TRANSLATION_ERROR|gpt-5.6-luna",
+      "field_path": "study.examples[1].lv",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/en|zum|idx:672|study.explanation, study.comparison, study.important|DE_SOURCE_ISSUE|gpt-5.6-luna",
+      "field_path": "study.explanation, study.comparison, study.important",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    },
+    {
+      "batch_id": "LRB-002",
+      "finding_stable_ids": "g2/a1/es|aufs|idx:60|study.explanation; study.comparison; study.important|MISTRANSLATION|gpt-5.6-luna",
+      "field_path": "study.explanation; study.comparison; study.important",
+      "owner_status": "DECIDED",
+      "reason": "empty_or_audit_only_leaf_no_apply_target"
+    }
+  ]
+}

@@ -806,9 +806,36 @@ function ingestExtractedRows({
     correctionBatches.add(batch);
   }
   if (!extracted.rows) return;
+
+  const { sanitizeTargetLanguageCard } = require("./lib/g2-a1-lrb-consolidation-normalize");
+
+  function pushFindingRowRecord(row, extra) {
+    if (!batchRowRecords) return;
+    batchRowRecords.push({
+      batch_id: batch,
+      target_language: String(row.languages).trim(),
+      canonical_card_object_id: String(row.card_object_id).split("|")[0],
+      field_path_raw: row.field_path,
+      finding_stable_ids: row.finding_stable_ids || row.finding_stable_id || "",
+      owner_status: row.owner_status || row.owner_decision || "",
+      owner_review_generation: extracted.owner_review_generation || "single",
+      gala_pass_commit_sha: extracted.galaPassCommit,
+      decision_source_path: extracted.source?.file_path || null,
+      decision_source_sha256: extracted.source?.file_sha256 || null,
+      leaf_target_keys: [],
+      ...extra,
+    });
+  }
+
   for (const row of extracted.rows) {
     const rowStatus = String(row.owner_status || row.owner_decision || "").toUpperCase();
-    if (rowStatus === "PENDING" && !String(row.owner_new || row.ownerNew || "").trim()) continue;
+    if (rowStatus === "PENDING" && !String(row.owner_new || row.ownerNew || "").trim()) {
+      pushFindingRowRecord(row, {
+        audit_only: true,
+        skip_reason: "PENDING_NO_OWNER_NEW",
+      });
+      continue;
+    }
     let reconstruction = reconstructDecisionLeaves(row);
     if (!reconstruction.ok) {
       const filled = {
@@ -820,7 +847,17 @@ function ingestExtractedRows({
     }
     if (!reconstruction.ok) {
       const note = String(row.owner_note || row.ownerNote || "");
-      if (/CONFIRMED_FIELD_ABSENT|NON_ACTIONABLE|no writable target/i.test(note)) continue;
+      if (/CONFIRMED_FIELD_ABSENT|NON_ACTIONABLE|no writable target/i.test(note)) {
+        pushFindingRowRecord(row, {
+          audit_only: true,
+          skip_reason: "CONFIRMED_FIELD_ABSENT_NO_PRODUCTION_TARGET",
+        });
+        continue;
+      }
+      pushFindingRowRecord(row, {
+        audit_only: true,
+        skip_reason: "RECONSTRUCTION_FAILED",
+      });
       counters.missingPostOwnerReconstruction += 1;
       continue;
     }
@@ -886,17 +923,22 @@ function ingestExtractedRows({
       leafVersionsByKey.get(leafKey).push(version);
     }
     if (batchRowRecords) {
+      const targetCard = sanitizeTargetLanguageCard(reconstruction.postCard);
       batchRowRecords.push({
         batch_id: batch,
         target_language: String(row.languages).trim(),
         canonical_card_object_id: String(row.card_object_id).split("|")[0],
         field_path_raw: row.field_path,
+        finding_stable_ids: row.finding_stable_ids || row.finding_stable_id || "",
         owner_status: row.owner_status || row.owner_decision || "",
         owner_review_generation: generation,
         leaf_target_keys: rowLeafKeys,
         gala_pass_commit_sha: extracted.galaPassCommit,
         decision_source_path: extracted.source?.file_path || null,
         decision_source_sha256: extracted.source?.file_sha256 || null,
+        post_owner_card_target: targetCard,
+        post_owner_card_target_sha256: sha256(JSON.stringify(targetCard)),
+        pre_owner_card_sha256: reconstruction.proof?.pre_owner_state_sha256 || null,
       });
     }
   }

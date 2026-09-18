@@ -19,6 +19,9 @@ const {
   validatePostOwnerCard,
   verifyDecisionMatchesSource,
   normalizePostOwnerCard,
+  extractTargetLanguageCard,
+  sanitizeTargetLanguageCard,
+  deepCloneJson,
 } = require("./lib/g2-a1-lrb-consolidation-normalize");
 
 const FINAL_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/final");
@@ -135,7 +138,9 @@ function pickAuthoritativeDecision(versions, classificationEntry, owner45Map, co
     canonical_card_object_id: winner.card_object_id,
     exact_leaf_field_path: winner.leaf_field_path,
     owner_final_value: ownerFinalValue,
+    apply_eligible: emptyAuth.apply_eligible,
     explicit_intentional_deletion: emptyAuth.explicit_intentional_deletion,
+    implicit_deletion_authorization: emptyAuth.implicit_deletion_authorization,
     empty_value_evidence: emptyAuth.evidence,
     source_batch: winner.batch_id,
     source_gala_pass_commit: winner.gala_pass_commit_sha,
@@ -166,31 +171,154 @@ function applyLeafToCard(card, leafPath, value) {
   setByPath(card, leafPath, parsed);
 }
 
-function buildFullCards(leafDecisions) {
-  const byCard = new Map();
-  for (const d of leafDecisions) {
+function buildFullCardsWithBaseline(leafDecisionsApply, batchRowRecords) {
+  const applyByCard = new Map();
+  for (const d of leafDecisionsApply) {
     const ck = `${d.target_language}|${d.canonical_card_object_id}`;
-    if (!byCard.has(ck)) {
-      byCard.set(ck, {
-        target_language: d.target_language,
-        canonical_card_object_id: d.canonical_card_object_id,
-        post_owner_card: { lv: "", study: {} },
-        contributing_batches: new Set(),
-        leaf_count: 0,
-      });
-    }
-    const entry = byCard.get(ck);
-    applyLeafToCard(entry.post_owner_card, d.exact_leaf_field_path, d.owner_final_value);
-    entry.contributing_batches.add(d.source_batch);
-    entry.leaf_count += 1;
+    if (!applyByCard.has(ck)) applyByCard.set(ck, []);
+    applyByCard.get(ck).push(d);
   }
-  return [...byCard.values()].map((e) => ({
-    target_language: e.target_language,
-    canonical_card_object_id: e.canonical_card_object_id,
-    post_owner_card: normalizePostOwnerCard(e.post_owner_card),
-    contributing_batches: [...e.contributing_batches].sort(),
-    leaf_field_count: e.leaf_count,
-  }));
+
+  const recordsByCard = new Map();
+  for (const r of batchRowRecords) {
+    const ck = `${r.target_language}|${r.canonical_card_object_id}`;
+    if (!recordsByCard.has(ck)) recordsByCard.set(ck, []);
+    recordsByCard.get(ck).push(r);
+  }
+
+  const cardKeys = new Set(applyByCard.keys());
+  for (const [ck, records] of recordsByCard) {
+    if (records.some((r) => r.post_owner_card_target)) cardKeys.add(ck);
+  }
+  const cards = [];
+  const metrics = {
+    full_card_baseline_missing: 0,
+    full_card_overlay_failures: 0,
+    full_card_source_sha_failures: 0,
+    incomplete_full_cards: 0,
+  };
+
+  for (const ck of cardKeys) {
+    const [target_language, canonical_card_object_id] = ck.split("|");
+    const records = (recordsByCard.get(ck) || [])
+      .filter((r) => r.post_owner_card_target)
+      .sort((a, b) => batchNum(b.batch_id) - batchNum(a.batch_id));
+    const baselineRecord = records[0];
+    if (!baselineRecord?.post_owner_card_target) {
+      metrics.full_card_baseline_missing += 1;
+      metrics.incomplete_full_cards += 1;
+      cards.push({
+        target_language,
+        canonical_card_object_id,
+        status: "BLOCKED",
+        block_reason: "full_card_baseline_missing",
+        post_owner_card: null,
+      });
+      continue;
+    }
+
+    if (
+      baselineRecord.decision_source_sha256 &&
+      baselineRecord.post_owner_card_target_sha256 !==
+        sha256(JSON.stringify(baselineRecord.post_owner_card_target))
+    ) {
+      metrics.full_card_source_sha_failures += 1;
+    }
+
+    const postCard = sanitizeTargetLanguageCard(deepCloneJson(baselineRecord.post_owner_card_target));
+    const baselineLv = postCard.lv;
+    const applyList = applyByCard.get(ck) || [];
+    const contributing_batches = new Set([baselineRecord.batch_id]);
+
+    for (const d of applyList) {
+      applyLeafToCard(postCard, d.exact_leaf_field_path, d.owner_final_value);
+      contributing_batches.add(d.source_batch);
+    }
+
+    normalizePostOwnerCard(postCard);
+
+    let overlayFailed = false;
+    for (const d of applyList) {
+      if (String(d.owner_final_value) !== "") continue;
+      if (!d.explicit_intentional_deletion || !d.apply_eligible) {
+        overlayFailed = true;
+        break;
+      }
+    }
+    if (baselineLv && String(baselineLv).length && postCard.lv === "" && !applyList.some(
+      (d) => d.exact_leaf_field_path === "lv" && d.explicit_intentional_deletion
+    )) {
+      overlayFailed = true;
+    }
+    if (overlayFailed) {
+      metrics.full_card_overlay_failures += 1;
+      metrics.incomplete_full_cards += 1;
+      cards.push({
+        target_language,
+        canonical_card_object_id,
+        status: "BLOCKED",
+        block_reason: "full_card_overlay_failure",
+        post_owner_card: null,
+        full_card_source_sha256: baselineRecord.post_owner_card_target_sha256,
+      });
+      continue;
+    }
+
+    cards.push({
+      target_language,
+      canonical_card_object_id,
+      status: "READY",
+      post_owner_card: postCard,
+      full_card_source_sha256: baselineRecord.post_owner_card_target_sha256,
+      full_card_source_artifact_path: baselineRecord.decision_source_path,
+      full_card_source_artifact_sha256: baselineRecord.decision_source_sha256,
+      full_card_source_batch: baselineRecord.batch_id,
+      post_owner_card_sha256: sha256(JSON.stringify(postCard)),
+      contributing_batches: [...contributing_batches].sort(),
+      leaf_overlay_count: applyList.length,
+    });
+  }
+
+  return { cards, metrics };
+}
+
+function buildFindingRowReconciliation(batchRowRecords, leafDecisions, inventoryRowCount) {
+  const expandedRows = batchRowRecords.filter((r) => r.owner_review_generation !== "initial");
+  const auditOnlyAbsent = expandedRows.filter((r) => r.audit_only && r.skip_reason);
+  const applyKeys = new Set(
+    leafDecisions.filter((d) => d.apply_eligible).map((d) => d.leaf_target_key)
+  );
+
+  const notCountedInApply = expandedRows.filter((r) => {
+    if (r.audit_only) return true;
+    if (!r.leaf_target_keys?.length) return true;
+    return !r.leaf_target_keys.some((k) => applyKeys.has(k));
+  });
+
+  return {
+    before_expanded_generation_finding_rows: inventoryRowCount,
+    after_finding_rows_recorded: expandedRows.length,
+    after_apply_eligible_leaf_keys: applyKeys.size,
+    audit_only_finding_rows: auditOnlyAbsent.length,
+    finding_rows_not_in_apply_mapping: notCountedInApply.length,
+    missing_vs_inventory: inventoryRowCount - expandedRows.length,
+    audit_only_rows: auditOnlyAbsent.map((r) => ({
+      batch_id: r.batch_id,
+      finding_stable_ids: r.finding_stable_ids,
+      field_path: r.field_path_raw,
+      reason: r.skip_reason,
+    })),
+    not_apply_mapped_rows: notCountedInApply
+      .filter((r) => !r.audit_only)
+      .slice(0, 50)
+      .map((r) => ({
+        batch_id: r.batch_id,
+        finding_stable_ids: r.finding_stable_ids,
+        field_path: r.field_path_raw,
+        owner_status: r.owner_status,
+        reason: "empty_or_audit_only_leaf_no_apply_target",
+      })),
+  };
 }
 
 function writeJsonParts(baseName, payload) {
@@ -264,6 +392,8 @@ function main() {
   const seenKeys = new Set();
   let malformedLeafPaths = 0;
   let unauthorizedEmptyValues = 0;
+  let syntheticEmptyValues = 0;
+  let implicitDeletionAuthorizations = 0;
   let sourceVerifyFailures = 0;
   let supersededValuesSelected = 0;
 
@@ -290,8 +420,11 @@ function main() {
       malformedLeafPaths += 1;
       continue;
     }
-    if (String(decision.owner_final_value) === "" && !decision.explicit_intentional_deletion) {
-      unauthorizedEmptyValues += 1;
+    if (String(decision.owner_final_value) === "") {
+      if (decision.apply_eligible) {
+        if (decision.implicit_deletion_authorization) implicitDeletionAuthorizations += 1;
+        if (!decision.explicit_intentional_deletion) unauthorizedEmptyValues += 1;
+      }
     }
     const winner = pickLatestVersion(
       versions.filter((v) => v.leaf_field_path === decision.exact_leaf_field_path)
@@ -316,9 +449,34 @@ function main() {
     leafDecisions.filter((d) => d.owner_final_value == null || d.owner_final_value === undefined).length +
     unauthorizedEmptyValues;
 
-  const fullCards = buildFullCards(leafDecisions);
+  const leafDecisionsApply = leafDecisions.filter((d) => d.apply_eligible);
+  syntheticEmptyValues = leafDecisionsApply.filter(
+    (d) => String(d.owner_final_value) === "" && !d.explicit_intentional_deletion
+  ).length;
+  const inventoryRowCount = JSON.parse(
+    fs.readFileSync(
+      path.join(ROOT, "reports/g2-a1-owner/consolidation/A1-LRB-ALL-INVENTORY.json"),
+      "utf8"
+    )
+  ).reduce((s, b) => s + (b.rows || 0), 0);
+
+  const batchRowTrace = (state.batchRowRecords || []).filter(
+    (r) => r.owner_review_generation !== "initial"
+  );
+
+  const findingReconciliation = buildFindingRowReconciliation(
+    state.batchRowRecords,
+    leafDecisions,
+    inventoryRowCount
+  );
+
+  const { cards: fullCards, metrics: fullCardMetrics } = buildFullCardsWithBaseline(
+    leafDecisionsApply,
+    batchRowTrace
+  );
   const cardSchemaErrors = [];
   for (const c of fullCards) {
+    if (c.status !== "READY" || !c.post_owner_card) continue;
     validatePostOwnerCard(
       c.post_owner_card,
       `${c.target_language}|${c.canonical_card_object_id}`,
@@ -326,10 +484,9 @@ function main() {
     );
   }
   const invalidCardSchemaCount = cardSchemaErrors.length;
-  const batchRowTrace = (state.batchRowRecords || []).filter(
-    (r) => r.owner_review_generation !== "initial"
-  );
+
   function traceRowCovered(record) {
+    if (record.audit_only) return true;
     if (!record.leaf_target_keys?.length) return false;
     for (const k of record.leaf_target_keys) {
       const fp = k.split("|").slice(2).join("|");
@@ -412,10 +569,17 @@ function main() {
       duplicate_final_keys: duplicateKeys,
       missing_final_values: missingValues,
       unauthorized_empty_values: unauthorizedEmptyValues,
+      synthetic_empty_values: syntheticEmptyValues,
+      implicit_deletion_authorizations: implicitDeletionAuthorizations,
       malformed_leaf_paths: malformedLeafPaths,
       invalid_card_schema_count: invalidCardSchemaCount,
       source_verify_failures: sourceVerifyFailures,
       superseded_values_selected: supersededValuesSelected,
+      incomplete_full_cards: fullCardMetrics.incomplete_full_cards,
+      full_card_baseline_missing: fullCardMetrics.full_card_baseline_missing,
+      full_card_overlay_failures: fullCardMetrics.full_card_overlay_failures,
+      full_card_source_sha_failures: fullCardMetrics.full_card_source_sha_failures,
+      apply_eligible_leaf_decisions: leafDecisionsApply.length,
       de_change_targets: 0,
       production_changes: 0,
       crowdin_changes: 0,
@@ -432,17 +596,37 @@ function main() {
       state.coveredLrb.size === 103 &&
       malformedLeafPaths === 0 &&
       unauthorizedEmptyValues === 0 &&
+      syntheticEmptyValues === 0 &&
+      implicitDeletionAuthorizations === 0 &&
       invalidCardSchemaCount === 0 &&
-      sourceVerifyFailures === 0
-        ? "A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION"
+      sourceVerifyFailures === 0 &&
+      fullCardMetrics.incomplete_full_cards === 0 &&
+      fullCardMetrics.full_card_baseline_missing === 0 &&
+      fullCardMetrics.full_card_overlay_failures === 0 &&
+      fullCardMetrics.full_card_source_sha_failures === 0 &&
+      findingReconciliation.after_finding_rows_recorded === inventoryRowCount
+        ? "A1_LRB_001_103_CONSOLIDATION_CORRECTION_2_COMPLETE_AWAITING_OWNER_VERIFICATION"
         : "A1_LRB_001_103_CONSOLIDATION_BLOCKED",
     next_action: "OWNER_VERIFY_CONSOLIDATED_MAPPING",
     resolution_class_counts: leafDecisions.reduce((acc, d) => {
       acc[d.resolution_class] = (acc[d.resolution_class] || 0) + 1;
       return acc;
     }, {}),
-    full_cards_sample: fullCards.slice(0, 5),
-    full_cards_total: fullCards.length,
+    full_cards_sample: fullCards.filter((c) => c.status === "READY").slice(0, 5),
+    full_cards_total: fullCards.filter((c) => c.status === "READY").length,
+    full_cards_blocked: fullCards.filter((c) => c.status === "BLOCKED").length,
+    finding_row_reconciliation: findingReconciliation,
+    spotlight_cards: ["bg|a1-uhr", "bg|also", "bg|auch", "bg|auf", "bg|aufs"].map((ck) => {
+      const card = fullCards.find(
+        (c) => `${c.target_language}|${c.canonical_card_object_id}` === ck
+      );
+      return {
+        card_key: ck,
+        status: card?.status || "MISSING",
+        post_owner_card_sha256: card?.post_owner_card_sha256 || null,
+        full_card_source_sha256: card?.full_card_source_sha256 || null,
+      };
+    }),
   };
   const proofPath = path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-PROOF.json`);
   fs.writeFileSync(proofPath, JSON.stringify(proof, null, 2) + "\n");
@@ -458,7 +642,7 @@ function main() {
       crowdin_changes: 0,
       ingest_apply_changes: 0,
     },
-    targets: leafDecisions.map((d) => ({
+    targets: leafDecisionsApply.map((d) => ({
       target_language: d.target_language,
       canonical_card_object_id: d.canonical_card_object_id,
       exact_leaf_field_path: d.exact_leaf_field_path,
@@ -466,7 +650,8 @@ function main() {
       source_batch: d.source_batch,
       resolution_class: d.resolution_class,
     })),
-    full_cards: fullCards,
+    full_cards: fullCards.filter((c) => c.status === "READY"),
+    audit_leaf_decisions: leafDecisions.filter((d) => !d.apply_eligible),
   };
   const applyPath = path.join(FINAL_DIR, `${PREFIX}-PRODUCTION-APPLY-PLAN.json`);
   fs.writeFileSync(applyPath, JSON.stringify(applyPlan, null, 2) + "\n");
@@ -529,8 +714,38 @@ Production apply **not executed** in this task.
     )
   );
 
+  const reconMd = `# A1 LRB finding row reconciliation
+
+| Metric | Before | After |
+|--------|-------:|------:|
+| Expanded-generation finding rows (inventory) | ${findingReconciliation.before_expanded_generation_finding_rows} | ${findingReconciliation.after_finding_rows_recorded} |
+| Apply-eligible leaf keys | — | ${findingReconciliation.after_apply_eligible_leaf_keys} |
+| Audit-only finding rows (field absent) | — | ${findingReconciliation.audit_only_finding_rows} |
+| Finding rows not in apply mapping | — | ${findingReconciliation.finding_rows_not_in_apply_mapping} |
+
+## Audit-only / absent field rows (${findingReconciliation.audit_only_finding_rows})
+
+${findingReconciliation.audit_only_rows
+  .map(
+    (r) =>
+      `- **${r.batch_id}** \`${r.finding_stable_ids}\` \`${r.field_path}\` — ${r.reason}`
+  )
+  .join("\n")}
+
+Finding rows and unique leaf keys are distinct metrics; leaf deduplication does not drop finding rows.
+`;
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-FINDING-ROW-RECONCILIATION.md`),
+    reconMd
+  );
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-FINDING-ROW-RECONCILIATION.json`),
+    JSON.stringify(findingReconciliation, null, 2) + "\n"
+  );
+
   if (
-    proof.classification !== "A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION"
+    proof.classification !==
+    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_2_COMPLETE_AWAITING_OWNER_VERIFICATION"
   ) {
     process.exit(1);
   }

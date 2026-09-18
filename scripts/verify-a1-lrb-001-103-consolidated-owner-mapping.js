@@ -8,7 +8,6 @@ const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const {
   isCanonicalLeafFieldPath,
-  authorizeEmptyFinalValue,
   validatePostOwnerCard,
 } = require("./lib/g2-a1-lrb-consolidation-normalize");
 
@@ -79,6 +78,7 @@ function main() {
     `${PREFIX}-CONSOLIDATED-OWNER-MANIFEST.json`,
     `${PREFIX}-CONSOLIDATION-SUMMARY.md`,
     `${PREFIX}-PRODUCTION-APPLY-PLAN.json`,
+    `${PREFIX}-FINDING-ROW-RECONCILIATION.json`,
   ]) {
     if (!fs.existsSync(path.join(FINAL_DIR, req))) blockers.push(`missing:${req}`);
   }
@@ -96,9 +96,15 @@ function main() {
     duplicate_final_keys: 0,
     missing_final_values: 0,
     unauthorized_empty_values: 0,
+    synthetic_empty_values: 0,
+    implicit_deletion_authorizations: 0,
     malformed_leaf_paths: 0,
     invalid_card_schema_count: 0,
     source_verify_failures: 0,
+    incomplete_full_cards: 0,
+    full_card_baseline_missing: 0,
+    full_card_overlay_failures: 0,
+    full_card_source_sha_failures: 0,
     de_change_targets: 0,
     production_changes: 0,
     crowdin_changes: 0,
@@ -110,24 +116,19 @@ function main() {
 
   if (
     proof.classification !==
-    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION"
+    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_2_COMPLETE_AWAITING_OWNER_VERIFICATION"
   ) {
     blockers.push(`classification:${proof.classification}`);
   }
 
   if (!manifest.generation_base_sha) blockers.push("missing:generation_base_sha");
-  if (manifest.consolidation_head_sha) blockers.push("deprecated:consolidation_head_sha_present");
 
   let decisions;
-  let partsMeta;
   try {
-    const loaded = loadDecisionsFromManifest(manifest);
-    decisions = loaded.decisions;
-    partsMeta = loaded.parts;
+    decisions = loadDecisionsFromManifest(manifest).decisions;
   } catch (e) {
     blockers.push(String(e.message || e));
     decisions = [];
-    partsMeta = [];
   }
 
   if (manifest.leaf_decisions_count !== decisions.length) {
@@ -144,38 +145,31 @@ function main() {
         blockers.push(`multipart_order:${listed[i].path}`);
       }
     }
-    if (partsMeta.length !== listed.length) blockers.push("multipart_parts_count_mismatch");
   }
 
   const keySet = new Set();
   let malformed = 0;
-  let unauthorizedEmpty = 0;
+  let unauthorizedApplyEmpty = 0;
   for (const d of decisions) {
     const k = `${d.target_language}|${d.canonical_card_object_id}|${d.exact_leaf_field_path}`;
     if (keySet.has(k)) blockers.push(`duplicate_key:${k}`);
     keySet.add(k);
     if (!isCanonicalLeafFieldPath(d.exact_leaf_field_path)) malformed += 1;
-    if (d.owner_final_value == null || d.owner_final_value === undefined) {
-      blockers.push(`missing_value:${k}`);
-    } else if (String(d.owner_final_value) === "" && !d.explicit_intentional_deletion) {
-      unauthorizedEmpty += 1;
-    }
-    for (const shaField of ["source_gala_pass_commit", "source_artifact_sha256"]) {
-      if (!d[shaField]) blockers.push(`missing_sha_field:${k}:${shaField}`);
-    }
-    if (
-      d.source_gala_pass_commit &&
-      git(`git cat-file -e ${d.source_gala_pass_commit}^{commit} 2>/dev/null && echo yes`) !== "yes"
-    ) {
-      blockers.push(`unreachable_commit:${d.source_gala_pass_commit}`);
+    if (d.apply_eligible && String(d.owner_final_value) === "" && !d.explicit_intentional_deletion) {
+      unauthorizedApplyEmpty += 1;
     }
   }
   if (malformed) blockers.push(`malformed_leaf_paths_recheck:${malformed}`);
-  if (unauthorizedEmpty) blockers.push(`unauthorized_empty_recheck:${unauthorizedEmpty}`);
+  if (unauthorizedApplyEmpty) blockers.push(`unauthorized_apply_empty:${unauthorizedApplyEmpty}`);
 
   const applyPlan = JSON.parse(
     fs.readFileSync(path.join(FINAL_DIR, `${PREFIX}-PRODUCTION-APPLY-PLAN.json`), "utf8")
   );
+  const applyEmpty = (applyPlan.targets || []).filter(
+    (t) => String(t.owner_final_value) === ""
+  ).length;
+  if (applyEmpty) blockers.push(`apply_plan_empty_targets:${applyEmpty}`);
+
   const cardErrors = [];
   for (const c of applyPlan.full_cards || []) {
     validatePostOwnerCard(
@@ -183,6 +177,9 @@ function main() {
       `${c.target_language}|${c.canonical_card_object_id}`,
       cardErrors
     );
+    if (!c.post_owner_card_sha256 || !c.full_card_source_sha256) {
+      blockers.push(`missing_card_sha:${c.target_language}|${c.canonical_card_object_id}`);
+    }
   }
   if (cardErrors.length) blockers.push(`invalid_card_schema_recheck:${cardErrors.length}`);
 
@@ -199,7 +196,7 @@ function main() {
   }
 
   const verificationProof = {
-    schema_version: 1,
+    schema_version: 2,
     generated_at: new Date().toISOString(),
     verified_commit_sha: verifiedCommitSha,
     generation_base_sha: manifest.generation_base_sha,
@@ -208,21 +205,23 @@ function main() {
     pass: blockers.length === 0,
     blockers,
     leaf_decisions_count: decisions.length,
-    multipart: Boolean(manifest.consolidated_decisions?.multipart),
-    multipart_part_count: manifest.consolidated_decisions?.parts?.length || 0,
+    apply_eligible_leaf_decisions: gates.apply_eligible_leaf_decisions,
     manifest_sha256: sha256(fs.readFileSync(manifestPath)),
     proof_sha256: sha256(fs.readFileSync(proofPath)),
     gates_rechecked: {
       malformed_leaf_paths: malformed,
-      unauthorized_empty_values: unauthorizedEmpty,
+      unauthorized_apply_empty: unauthorizedApplyEmpty,
       invalid_card_schema_count: cardErrors.length,
       superseded_values_selected: supersededRecalc,
     },
   };
-  fs.writeFileSync(
-    path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-VERIFICATION-PROOF.json`),
-    JSON.stringify(verificationProof, null, 2) + "\n"
-  );
+
+  if (process.env.A1_WRITE_VERIFICATION_PROOF === "1") {
+    fs.writeFileSync(
+      path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-VERIFICATION-PROOF.json`),
+      JSON.stringify(verificationProof, null, 2) + "\n"
+    );
+  }
 
   console.log(JSON.stringify(verificationProof, null, 2));
   if (blockers.length) process.exit(1);

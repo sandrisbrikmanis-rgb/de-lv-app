@@ -1,10 +1,10 @@
 # A1 LRB-001…103 consolidated OWNER mapping
 
-Generated: 2026-09-18T15:24:51.842Z
+Generated: 2026-09-18T15:55:43.728Z
 
 ## Status
 
-**`A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION`**
+**`A1_LRB_001_103_CONSOLIDATION_CORRECTION_2_COMPLETE_AWAITING_OWNER_VERIFICATION`**
 
 ```text
 NEXT_ACTION: OWNER_VERIFY_CONSOLIDATED_MAPPING
@@ -13,7 +13,7 @@ NEXT_ACTION: OWNER_VERIFY_CONSOLIDATED_MAPPING
 | Gate | Value |
 |------|------:|
 | origin/main | `f36014e0d77a9a43740b3ad114ab845a64e11ebf` |
-| generation base SHA | `0d3baa4edad30d4cfdad86a8f9ea1881f2406cfa` |
+| generation base SHA | `8d63d0b6eed971c05da395476a4a6cfbbc8929b2` |
 | malformed_leaf_paths | 0 |
 | unauthorized_empty_values | 0 |
 | invalid_card_schema_count | 0 |
@@ -24,8 +24,8 @@ NEXT_ACTION: OWNER_VERIFY_CONSOLIDATED_MAPPING
 | unresolved_owner_conflicts | 0 |
 | owner_45_applied | 45/45 |
 | unique final leaf keys | 35345 |
-| full post-owner cards | 3857 |
-| initial batch rows traced | 4961 |
+| full post-owner cards | 3869 |
+| initial batch rows traced | 4968 |
 | duplicate_final_keys | 0 |
 | missing_final_values | 0 |
 | DE change targets | 0 |

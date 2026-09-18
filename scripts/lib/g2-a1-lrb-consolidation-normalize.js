@@ -25,28 +25,65 @@ function splitCompoundLeafFieldPath(path) {
 
 function authorizeEmptyFinalValue(version) {
   if (version.leaf_value != null && String(version.leaf_value) !== "") {
-    return { allowed: true, explicit_intentional_deletion: false, evidence: null };
+    return {
+      allowed: true,
+      apply_eligible: true,
+      explicit_intentional_deletion: false,
+      implicit_deletion_authorization: false,
+      evidence: null,
+    };
   }
-  const evidence = {};
-  if (version.owner_new_mode === "empty") {
-    evidence.owner_new_mode = "empty";
-    return { allowed: true, explicit_intentional_deletion: true, evidence };
-  }
+
+  const status = String(version.owner_status || "").toUpperCase();
   const note = String(version.owner_note || "");
+  const implicitReasons = [];
+
+  if (version.owner_new_mode === "empty") implicitReasons.push("owner_new_mode_empty");
+  if (version.pre_leaf_value == null || version.pre_leaf_value === "") {
+    implicitReasons.push("pre_leaf_absent");
+  }
   if (/CONFIRMED_FIELD_ABSENT|NON_ACTIONABLE|no writable target/i.test(note)) {
-    evidence.owner_note = note.slice(0, 200);
-    return { allowed: true, explicit_intentional_deletion: true, evidence };
+    implicitReasons.push("non_actionable_or_field_absent_note");
   }
-  const pre = version.pre_leaf_value;
-  if (pre == null || pre === "") {
-    evidence.unchanged_absent_in_reconstruction = true;
-    return { allowed: true, explicit_intentional_deletion: true, evidence };
+  if (status === "NELABOT" || status === "DECIDED") {
+    if (status === "NELABOT") implicitReasons.push("nelabot_status");
   }
-  if (/DELETE|DZĒST|REMOVE|ABSENT|Tīša|tīša/i.test(note)) {
-    evidence.owner_note = note.slice(0, 200);
-    return { allowed: true, explicit_intentional_deletion: true, evidence };
+
+  const hasExplicitDeleteNote = /DELETE|DZĒST|REMOVE/i.test(note);
+  const isLabot = status === "LABOT";
+
+  if (isLabot && hasExplicitDeleteNote && isCanonicalLeafFieldPath(version.leaf_field_path)) {
+    return {
+      allowed: true,
+      apply_eligible: true,
+      explicit_intentional_deletion: true,
+      implicit_deletion_authorization: false,
+      evidence: {
+        owner_status: status,
+        owner_note: note.slice(0, 300),
+        exact_leaf_field_path: version.leaf_field_path,
+        source_artifact_path: version.decision_source?.file_path || null,
+        source_artifact_sha256: version.decision_source?.file_sha256 || null,
+        pre_leaf_value: version.pre_leaf_value ?? null,
+        post_leaf_value: version.leaf_value ?? "",
+        source_gala_pass_commit: version.gala_pass_commit_sha || null,
+      },
+    };
   }
-  return { allowed: false, explicit_intentional_deletion: false, evidence: { reason: "unauthorized_empty" } };
+
+  return {
+    allowed: true,
+    apply_eligible: false,
+    explicit_intentional_deletion: false,
+    implicit_deletion_authorization: implicitReasons.length > 0,
+    evidence: {
+      audit_only_empty: true,
+      implicit_reasons: implicitReasons,
+      owner_status: status,
+      owner_note: note.slice(0, 200),
+      exact_leaf_field_path: version.leaf_field_path,
+    },
+  };
 }
 
 function rowFromVersion(v) {
@@ -211,6 +248,93 @@ function validatePostOwnerCard(card, cardKey, errors) {
   }
 }
 
+function extractTargetLanguageCard(postCard) {
+  if (!postCard || typeof postCard !== "object") return null;
+  const out = { lv: postCard.lv ?? "", study: {} };
+  if (postCard.study && typeof postCard.study === "object") {
+    out.study = JSON.parse(JSON.stringify(postCard.study));
+  }
+  return out;
+}
+
+function coalesceStrayStudyCollectionKeys(study, baseName) {
+  const re = new RegExp(`^${baseName}(\\[\\]|\\[\\*\\])?$`);
+  const orphans = [];
+  for (const k of Object.keys(study)) {
+    if (!re.test(k)) continue;
+    const v = study[k];
+    delete study[k];
+    if (v == null) continue;
+    if (Array.isArray(v)) orphans.push(...v);
+    else orphans.push(v);
+  }
+  if (!orphans.length) return;
+  if (!study[baseName]) study[baseName] = [];
+  if (!Array.isArray(study[baseName])) study[baseName] = [study[baseName]];
+  study[baseName].push(...orphans);
+}
+
+function sanitizeTargetLanguageCard(postCard) {
+  const base = extractTargetLanguageCard(postCard);
+  if (!base) return null;
+  const study = base.study || {};
+  for (const stray of ["id", "layout", "de"]) {
+    delete study[stray];
+  }
+  for (const collection of ["examples", "comparison", "explanation", "important", "tip"]) {
+    coalesceStrayStudyCollectionKeys(study, collection);
+  }
+  if (Array.isArray(study.explanation)) {
+    study.explanation = study.explanation.map((item) => {
+      if (item == null) return "";
+      if (typeof item === "string") return item;
+      if (typeof item === "object") {
+        if (item.lv != null) return String(item.lv);
+        if (item.explanation != null) return String(item.explanation);
+        if (item.de != null) return String(item.de);
+      }
+      return "";
+    });
+  }
+  if (Array.isArray(study.important)) {
+    study.important = study.important.map((item) => {
+      if (item == null) return "";
+      if (typeof item === "string") return item;
+      if (typeof item === "object" && item.lv != null) return String(item.lv);
+      return String(item);
+    });
+  }
+  if (Array.isArray(study.examples)) {
+    study.examples = study.examples
+      .map((ex) => {
+        if (ex == null) return null;
+        if (typeof ex === "string") return { lv: ex };
+        if (typeof ex === "object" && !Array.isArray(ex)) {
+          if (ex.lv == null || ex.lv === "") return null;
+          return { lv: String(ex.lv) };
+        }
+        return null;
+      })
+      .filter(Boolean);
+  }
+  if (Array.isArray(study.comparison)) {
+    study.comparison = study.comparison.map((row) => ({
+      meaning: row?.meaning != null ? String(row.meaning) : "",
+      example: row?.example != null ? String(row.example) : "",
+      word: row?.word != null ? String(row.word) : "",
+    }));
+  }
+  for (const k of Object.keys(study)) {
+    if (!ALLOWED_STUDY_KEYS.has(k)) delete study[k];
+  }
+  base.study = study;
+  return normalizePostOwnerCard(base);
+}
+
+function deepCloneJson(obj) {
+  return JSON.parse(JSON.stringify(obj ?? {}));
+}
+
 function verifyDecisionMatchesSource(decision, winner) {
   const expectedSha = leafValueSha(decision.owner_final_value);
   if (expectedSha !== decision.leaf_value_sha256) {
@@ -230,6 +354,9 @@ module.exports = {
   normalizePostOwnerCard,
   validatePostOwnerCard,
   verifyDecisionMatchesSource,
+  extractTargetLanguageCard,
+  sanitizeTargetLanguageCard,
+  deepCloneJson,
   stableLeafValue,
   leafValueSha,
   leafTargetKey,
