@@ -113,27 +113,35 @@ function tokenizePath(path) {
 }
 
 function setByPath(root, path, value) {
-  const tokens = tokenizePath(path);
-  if (!tokens.length) return;
+  const parts = String(path)
+    .replace(/\[(\d+)\]/g, ".$1")
+    .split(".")
+    .filter(Boolean);
+  if (!parts.length) return;
   let cur = root;
-  for (let i = 0; i < tokens.length - 1; i += 1) {
-    const t = tokens[i];
-    const next = tokens[i + 1];
-    if (typeof next === "number") {
-      if (!Array.isArray(cur[t])) cur[t] = [];
-      if (cur[t][next] == null || typeof cur[t][next] !== "object") cur[t][next] = {};
-      cur = cur[t][next];
-      i += 1;
+  for (let i = 0; i < parts.length - 1; i += 1) {
+    const p = parts[i];
+    const nxt = parts[i + 1];
+    const pIsIndex = /^\d+$/.test(p);
+    const nxtIsIndex = /^\d+$/.test(nxt);
+    if (pIsIndex) {
+      const idx = parseInt(p, 10);
+      if (cur[idx] == null || typeof cur[idx] !== "object") cur[idx] = nxtIsIndex ? [] : {};
+      cur = cur[idx];
+    } else if (nxtIsIndex) {
+      if (!Array.isArray(cur[p])) cur[p] = [];
+      cur = cur[p];
     } else {
-      if (cur[t] == null || typeof cur[t] !== "object") cur[t] = {};
-      cur = cur[t];
+      if (cur[p] == null || typeof cur[p] !== "object" || Array.isArray(cur[p])) cur[p] = {};
+      cur = cur[p];
     }
   }
-  const last = tokens[tokens.length - 1];
-  if (typeof last === "number") {
-    const prev = tokens[tokens.length - 2];
+  const last = parts[parts.length - 1];
+  if (/^\d+$/.test(last)) {
+    const idx = parseInt(last, 10);
+    const prev = parts[parts.length - 2];
     if (!Array.isArray(cur[prev])) cur[prev] = [];
-    cur[prev][last] = value;
+    cur[prev][idx] = value;
   } else {
     cur[last] = value;
   }
@@ -408,7 +416,7 @@ function reconstructDecisionLeaves(row) {
     decidedPaths.add(elp);
   }
   const decidedLeaves = [];
-  for (const path of decidedPaths) {
+  for (const path of expandDecidedPathSet(decidedPaths)) {
     const val = postLeaves.has(path) ? postLeaves.get(path) : "";
     decidedLeaves.push({
       leaf_field_path: path,
@@ -484,6 +492,30 @@ function reconstructDecisionLeaves(row) {
   };
 }
 
+function isCanonicalLeafFieldPath(path) {
+  const p = String(path || "").trim();
+  if (!p || /[;,]/.test(p)) return false;
+  return /^(lv|study\.(translation|sectionAccents(\[\d+])?|explanation(\[\d+])?|examples(\[\d+])?\.lv|comparison(\[\d+])?\.(meaning|example|word)|tip(\.text|\[\d+])?|important(\[\d+])?))$/.test(
+    p
+  );
+}
+
+function expandDecidedPathSet(decidedPaths) {
+  const out = new Set();
+  for (const path of decidedPaths) {
+    if (isCanonicalLeafFieldPath(path)) {
+      out.add(path);
+      continue;
+    }
+    for (const seg of String(path)
+      .split(/[;,]/)
+      .map((s) => s.trim())) {
+      if (isCanonicalLeafFieldPath(seg)) out.add(seg);
+    }
+  }
+  return out;
+}
+
 function leafTargetKey(lang, cardId, leafPath) {
   return `${String(lang).trim()}|${String(cardId).split("|")[0].trim()}|${leafPath}`;
 }
@@ -499,4 +531,6 @@ module.exports = {
   isFullCompositeScope,
   splitFieldPath,
   crowdinFieldPathToLeaf,
+  setByPath,
+  isCanonicalLeafFieldPath,
 };

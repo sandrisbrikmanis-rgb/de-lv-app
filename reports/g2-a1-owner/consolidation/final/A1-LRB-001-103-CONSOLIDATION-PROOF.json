@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T14:26:09.005Z",
+  "generated_at": "2026-09-18T15:24:51.842Z",
   "gates": {
     "lrb_coverage": "103/103",
     "linguistically_closed": "103/103",
@@ -9,21 +9,26 @@
     "owner_45_applied": "45/45",
     "duplicate_final_keys": 0,
     "missing_final_values": 0,
-    "superseded_values_selected": 0,
+    "unauthorized_empty_values": 0,
+    "malformed_leaf_paths": 0,
+    "invalid_card_schema_count": 0,
+    "source_verify_failures": 0,
+    "superseded_values_selected": 473,
     "de_change_targets": 0,
     "production_changes": 0,
     "crowdin_changes": 0,
     "ingest_apply_changes": 0,
     "batch_row_trace_gaps": 0,
+    "initial_batch_finding_rows_traced": 4961,
     "independent_owner_conflicts": 0
   },
-  "classification": "A1_LRB_001_103_CONSOLIDATED_OWNER_MAPPING_READY_AWAITING_VERIFICATION",
+  "classification": "A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION",
   "next_action": "OWNER_VERIFY_CONSOLIDATED_MAPPING",
   "resolution_class_counts": {
-    "EXPANDED_STANDARD_FULL_CARD": 4890,
-    "UNCHALLENGED_GALA_FINAL": 28173,
+    "EXPANDED_STANDARD_FULL_CARD": 4797,
+    "UNCHALLENGED_GALA_FINAL": 27790,
     "PROVEN_SEQUENTIAL_SUPERSESSION": 44,
-    "LATEST_GALA_CORRECTION": 2703,
+    "LATEST_GALA_CORRECTION": 2669,
     "OWNER_45_RESOLUTION": 45
   },
   "full_cards_sample": [
@@ -59,16 +64,7 @@
           "examples": [
             null,
             {
-              "lv": "",
-              "lv; study": {
-                "examples": [
-                  null,
-                  null,
-                  {
-                    "lv": ""
-                  }
-                ]
-              }
+              "lv": ""
             },
             {
               "lv": ""
@@ -79,7 +75,7 @@
       "contributing_batches": [
         "LRB-001"
       ],
-      "leaf_field_count": 3
+      "leaf_field_count": 2
     },
     {
       "target_language": "bg",
@@ -90,16 +86,7 @@
           "examples": [
             null,
             {
-              "lv": "",
-              "lv; study": {
-                "examples": [
-                  null,
-                  null,
-                  {
-                    "lv": ""
-                  }
-                ]
-              }
+              "lv": ""
             },
             {
               "lv": ""
@@ -110,7 +97,7 @@
       "contributing_batches": [
         "LRB-001"
       ],
-      "leaf_field_count": 3
+      "leaf_field_count": 2
     },
     {
       "target_language": "bg",
@@ -118,23 +105,6 @@
       "post_owner_card": {
         "lv": "",
         "study": {
-          "comparison": [
-            null,
-            {
-              "comparison": [
-                null,
-                ""
-              ],
-              "; study": {
-                "examples": [
-                  null,
-                  {
-                    "lv": ""
-                  }
-                ]
-              }
-            }
-          ],
           "examples": [
             null,
             {
@@ -146,7 +116,7 @@
       "contributing_batches": [
         "LRB-001"
       ],
-      "leaf_field_count": 3
+      "leaf_field_count": 1
     },
     {
       "target_language": "bg",
@@ -165,106 +135,15 @@
               "lv": ""
             }
           ],
-          "explanation": [
-            null,
-            null,
-            {
-              "explanation": [
-                null,
-                null,
-                {
-                  "explanation": [
-                    null,
-                    null,
-                    "Използва се, когато дадено действие показва посоката към определено нещо или повърхност - отговаря на въпроса къде?"
-                  ]
-                }
-              ],
-              "; study": {
-                "important": [
-                  {
-                    "; study": {
-                      "important": [
-                        null,
-                        null,
-                        {
-                          "; study": {
-                            "important": [
-                              null,
-                              null,
-                              null,
-                              {
-                                "; study": {
-                                  "examples": [
-                                    null,
-                                    null,
-                                    null,
-                                    null,
-                                    null,
-                                    null,
-                                    {
-                                      "lv": ""
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ],
-          "important": [
-            {
-              "important": [
-                {
-                  "important": [
-                    "Aufs = auf das, само със съществително от произволен род, къде? в завоя."
-                  ]
-                }
-              ]
-            },
-            null,
-            {
-              "important": [
-                null,
-                null,
-                {
-                  "important": [
-                    null,
-                    null,
-                    "На хоризонтална повърхност често се използва auf den вместо aufs."
-                  ]
-                }
-              ]
-            },
-            {
-              "important": [
-                null,
-                null,
-                null,
-                {
-                  "important": [
-                    null,
-                    null,
-                    null,
-                    "Да не се бърка с \"in\" (на стената) или \"ins\" (вътре в стаята)."
-                  ]
-                }
-              ]
-            }
-          ]
+          "explanation": [],
+          "important": []
         }
       },
       "contributing_batches": [
         "LRB-001"
       ],
-      "leaf_field_count": 7
+      "leaf_field_count": 6
     }
   ],
-  "full_cards_total": 3876
+  "full_cards_total": 3857
 }

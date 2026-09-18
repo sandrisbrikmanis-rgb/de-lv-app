@@ -11,11 +11,19 @@ const {
   batchNum,
   classifyLeafGroup,
 } = require("./build-a1-lrb-target-conflict-classification");
-const { stableLeafValue, leafValueSha } = require("./lib/g2-a1-lrb-leaf-reconstruction");
+const { leafValueSha, setByPath } = require("./lib/g2-a1-lrb-leaf-reconstruction");
+const {
+  isCanonicalLeafFieldPath,
+  authorizeEmptyFinalValue,
+  buildCanonicalVersionIndex,
+  validatePostOwnerCard,
+  verifyDecisionMatchesSource,
+  normalizePostOwnerCard,
+} = require("./lib/g2-a1-lrb-consolidation-normalize");
 
 const FINAL_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/final");
 const PREFIX = "A1-LRB-001-103";
-const MAX_PART_BYTES = 4 * 1024 * 1024;
+const MAX_PART_BYTES = 4_000_000;
 const EXPECTED_OWNER_45_SHA =
   "e99022a7ac75a860f1c901cd77311bb2aa728e82bddad25e1efb2e1aaa7d8839";
 
@@ -119,16 +127,16 @@ function pickAuthoritativeDecision(versions, classificationEntry, owner45Map, co
   const winner = pickLatestVersion(pool);
   const resolution_class = mapResolutionClass(classification, pool, winner, owner45Applied);
 
-  let ownerFinalValue = winner.leaf_value;
-  if (owner45Applied && owner45Change) {
-    ownerFinalValue = owner45Change.owner_new;
-  }
+  const ownerFinalValue = winner.leaf_value;
+  const emptyAuth = authorizeEmptyFinalValue(winner);
 
   return {
     target_language: winner.target_language,
     canonical_card_object_id: winner.card_object_id,
     exact_leaf_field_path: winner.leaf_field_path,
     owner_final_value: ownerFinalValue,
+    explicit_intentional_deletion: emptyAuth.explicit_intentional_deletion,
+    empty_value_evidence: emptyAuth.evidence,
     source_batch: winner.batch_id,
     source_gala_pass_commit: winner.gala_pass_commit_sha,
     source_artifact_path: winner.decision_source?.file_path || null,
@@ -137,45 +145,6 @@ function pickAuthoritativeDecision(versions, classificationEntry, owner45Map, co
     superseded_sources: buildSupersededSources(versions, winner),
     leaf_value_sha256: winner.leaf_value_sha256,
   };
-}
-
-function tokenizePath(pathStr) {
-  const tokens = [];
-  const re = /([^[.\]]+)|\[(\d+)\]/g;
-  let m;
-  const s = String(pathStr);
-  while ((m = re.exec(s)) !== null) {
-    if (m[1] != null) tokens.push(m[1]);
-    else if (m[2] != null) tokens.push(parseInt(m[2], 10));
-  }
-  return tokens;
-}
-
-function setByPath(root, pathStr, value) {
-  const tokens = tokenizePath(pathStr);
-  if (!tokens.length) return;
-  let cur = root;
-  for (let i = 0; i < tokens.length - 1; i += 1) {
-    const t = tokens[i];
-    const next = tokens[i + 1];
-    if (typeof next === "number") {
-      if (!Array.isArray(cur[t])) cur[t] = [];
-      if (cur[t][next] == null || typeof cur[t][next] !== "object") cur[t][next] = {};
-      cur = cur[t][next];
-      i += 1;
-    } else {
-      if (cur[t] == null || typeof cur[t] !== "object") cur[t] = {};
-      cur = cur[t];
-    }
-  }
-  const last = tokens[tokens.length - 1];
-  if (typeof last === "number") {
-    const prev = tokens[tokens.length - 2];
-    if (!Array.isArray(cur[prev])) cur[prev] = [];
-    cur[prev][last] = value;
-  } else {
-    cur[last] = value;
-  }
 }
 
 function applyLeafToCard(card, leafPath, value) {
@@ -218,7 +187,7 @@ function buildFullCards(leafDecisions) {
   return [...byCard.values()].map((e) => ({
     target_language: e.target_language,
     canonical_card_object_id: e.canonical_card_object_id,
-    post_owner_card: e.post_owner_card,
+    post_owner_card: normalizePostOwnerCard(e.post_owner_card),
     contributing_batches: [...e.contributing_batches].sort(),
     leaf_field_count: e.leaf_count,
   }));
@@ -274,6 +243,15 @@ function countInitialBatchRows(batchSources) {
   return total;
 }
 
+function purgeOldDecisionParts() {
+  if (!fs.existsSync(FINAL_DIR)) return;
+  for (const name of fs.readdirSync(FINAL_DIR)) {
+    if (name.startsWith(`${PREFIX}-CONSOLIDATED-OWNER-DECISIONS.part-`)) {
+      fs.unlinkSync(path.join(FINAL_DIR, name));
+    }
+  }
+}
+
 function main() {
   const identity = assertIdentityGates();
   const state = buildA1LrbConflictClassificationState({ writeArtifacts: false });
@@ -281,10 +259,21 @@ function main() {
     (state.owner45Bundle?.doc?.changes || []).map((ch) => [ch.leaf_target_key, ch])
   );
 
+  const canonicalIndex = buildCanonicalVersionIndex(state.leafVersionsByKey);
   const leafDecisions = [];
   const seenKeys = new Set();
-  for (const [leafKey, versions] of state.leafVersionsByKey) {
+  let malformedLeafPaths = 0;
+  let unauthorizedEmptyValues = 0;
+  let sourceVerifyFailures = 0;
+  let supersededValuesSelected = 0;
+
+  for (const [leafKey, versions] of canonicalIndex) {
     if (!versions?.length) continue;
+    const fieldPath = leafKey.split("|").slice(2).join("|");
+    if (!isCanonicalLeafFieldPath(fieldPath)) {
+      malformedLeafPaths += 1;
+      continue;
+    }
     const entry = state.classificationByKey.get(leafKey) || null;
     const decision = pickAuthoritativeDecision(
       versions,
@@ -293,22 +282,73 @@ function main() {
       state.correctionBatches,
       state.reReviewMaxN
     );
-    leafDecisions.push({ leaf_target_key: leafKey, ...decision });
+    if (!isCanonicalLeafFieldPath(decision.exact_leaf_field_path)) {
+      malformedLeafPaths += 1;
+      continue;
+    }
+    if (decision.owner_final_value == null) {
+      malformedLeafPaths += 1;
+      continue;
+    }
+    if (String(decision.owner_final_value) === "" && !decision.explicit_intentional_deletion) {
+      unauthorizedEmptyValues += 1;
+    }
+    const winner = pickLatestVersion(
+      versions.filter((v) => v.leaf_field_path === decision.exact_leaf_field_path)
+    ) || pickLatestVersion(versions);
+    const srcCheck = verifyDecisionMatchesSource(decision, winner);
+    if (!srcCheck.ok) sourceVerifyFailures += 1;
+
+    for (const s of decision.superseded_sources || []) {
+      if (s.leaf_value_sha256 && s.leaf_value_sha256 !== decision.leaf_value_sha256) {
+        supersededValuesSelected += 1;
+      }
+    }
+
+    leafDecisions.push({ leaf_target_key: leafKey, ...decision, source_verify: srcCheck.ok ? "PASS" : srcCheck.reason });
     seenKeys.add(leafKey);
   }
 
   leafDecisions.sort((a, b) => a.leaf_target_key.localeCompare(b.leaf_target_key));
 
   const duplicateKeys = leafDecisions.length - seenKeys.size;
-  const missingValues = leafDecisions.filter((d) => d.owner_final_value == null).length;
+  const missingValues =
+    leafDecisions.filter((d) => d.owner_final_value == null || d.owner_final_value === undefined).length +
+    unauthorizedEmptyValues;
 
   const fullCards = buildFullCards(leafDecisions);
+  const cardSchemaErrors = [];
+  for (const c of fullCards) {
+    validatePostOwnerCard(
+      c.post_owner_card,
+      `${c.target_language}|${c.canonical_card_object_id}`,
+      cardSchemaErrors
+    );
+  }
+  const invalidCardSchemaCount = cardSchemaErrors.length;
   const batchRowTrace = (state.batchRowRecords || []).filter(
     (r) => r.owner_review_generation !== "initial"
   );
-  const traceMissing = batchRowTrace.filter(
-    (r) => !r.leaf_target_keys?.length || r.leaf_target_keys.some((k) => !seenKeys.has(k))
-  ).length;
+  function traceRowCovered(record) {
+    if (!record.leaf_target_keys?.length) return false;
+    for (const k of record.leaf_target_keys) {
+      const fp = k.split("|").slice(2).join("|");
+      if (isCanonicalLeafFieldPath(fp)) {
+        if (!seenKeys.has(k)) return false;
+        continue;
+      }
+      const subs = fp
+        .split(/[;,]/)
+        .map((s) => s.trim())
+        .filter((p) => isCanonicalLeafFieldPath(p));
+      for (const p of subs) {
+        const ck = `${k.split("|")[0]}|${k.split("|")[1]}|${p}`;
+        if (!seenKeys.has(ck)) return false;
+      }
+    }
+    return true;
+  }
+  const traceMissing = batchRowTrace.filter((r) => !traceRowCovered(r)).length;
 
   let owner45Match = 0;
   for (const ch of state.owner45Bundle?.doc?.changes || []) {
@@ -322,14 +362,15 @@ function main() {
   }
 
   fs.mkdirSync(FINAL_DIR, { recursive: true });
+  purgeOldDecisionParts();
 
   const consolidatedPayload = {
-    schema_version: 1,
+    schema_version: 2,
     classification: "A1_LRB_001_103_CONSOLIDATED_OWNER_DECISIONS",
     generated_at: new Date().toISOString(),
     origin_main_sha: identity.originMainSha,
     consolidation_branch: git("git rev-parse --abbrev-ref HEAD"),
-    consolidation_head_sha: identity.head,
+    generation_base_sha: identity.head,
     lrb_range: "LRB-001…LRB-103",
     leaf_decisions: leafDecisions,
     metrics: {
@@ -345,10 +386,10 @@ function main() {
   const decisionsWrite = writeJsonParts(`${PREFIX}-CONSOLIDATED-OWNER-DECISIONS`, consolidatedPayload);
 
   const manifest = {
-    schema_version: 1,
+    schema_version: 2,
     generated_at: consolidatedPayload.generated_at,
     origin_main_sha: identity.originMainSha,
-    consolidation_head_sha: identity.head,
+    generation_base_sha: identity.head,
     owner_45_resolution_sha256: identity.ownerSha,
     consolidated_decisions: decisionsWrite.multipart
       ? { multipart: true, parts: decisionsWrite.parts }
@@ -370,7 +411,11 @@ function main() {
       owner_45_applied: `${owner45Match}/45`,
       duplicate_final_keys: duplicateKeys,
       missing_final_values: missingValues,
-      superseded_values_selected: 0,
+      unauthorized_empty_values: unauthorizedEmptyValues,
+      malformed_leaf_paths: malformedLeafPaths,
+      invalid_card_schema_count: invalidCardSchemaCount,
+      source_verify_failures: sourceVerifyFailures,
+      superseded_values_selected: supersededValuesSelected,
       de_change_targets: 0,
       production_changes: 0,
       crowdin_changes: 0,
@@ -384,8 +429,12 @@ function main() {
       duplicateKeys === 0 &&
       owner45Match === 45 &&
       state.unresolvedCount === 0 &&
-      state.coveredLrb.size === 103
-        ? "A1_LRB_001_103_CONSOLIDATED_OWNER_MAPPING_READY_AWAITING_VERIFICATION"
+      state.coveredLrb.size === 103 &&
+      malformedLeafPaths === 0 &&
+      unauthorizedEmptyValues === 0 &&
+      invalidCardSchemaCount === 0 &&
+      sourceVerifyFailures === 0
+        ? "A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION"
         : "A1_LRB_001_103_CONSOLIDATION_BLOCKED",
     next_action: "OWNER_VERIFY_CONSOLIDATED_MAPPING",
     resolution_class_counts: leafDecisions.reduce((acc, d) => {
@@ -437,7 +486,11 @@ NEXT_ACTION: ${proof.next_action}
 | Gate | Value |
 |------|------:|
 | origin/main | \`${identity.originMainSha}\` |
-| consolidation HEAD | \`${identity.head}\` |
+| generation base SHA | \`${identity.head}\` |
+| malformed_leaf_paths | ${proof.gates.malformed_leaf_paths} |
+| unauthorized_empty_values | ${proof.gates.unauthorized_empty_values} |
+| invalid_card_schema_count | ${proof.gates.invalid_card_schema_count} |
+| superseded_values_selected | ${proof.gates.superseded_values_selected} |
 | LRB coverage | ${proof.gates.lrb_coverage} |
 | linguistically_closed | ${proof.gates.linguistically_closed} |
 | PENDING | ${proof.gates.pending} |
@@ -476,7 +529,9 @@ Production apply **not executed** in this task.
     )
   );
 
-  if (proof.classification !== "A1_LRB_001_103_CONSOLIDATED_OWNER_MAPPING_READY_AWAITING_VERIFICATION") {
+  if (
+    proof.classification !== "A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION"
+  ) {
     process.exit(1);
   }
 }

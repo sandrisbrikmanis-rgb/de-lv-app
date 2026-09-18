@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-18T15:29:18.273Z",
+  "verified_commit_sha": "0d3baa4edad30d4cfdad86a8f9ea1881f2406cfa",
+  "generation_base_sha": "0d3baa4edad30d4cfdad86a8f9ea1881f2406cfa",
+  "origin_main_sha": "f36014e0d77a9a43740b3ad114ab845a64e11ebf",
+  "classification": "A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION",
+  "pass": true,
+  "blockers": [],
+  "leaf_decisions_count": 35345,
+  "multipart": true,
+  "multipart_part_count": 18,
+  "manifest_sha256": "2ebf37c410c1a4c39bb47e21f5e91583845172374e084c73b48f058fd7033f52",
+  "proof_sha256": "61975b693b972b10cc07a135a77f0c45a2227b15c1cbead7ecc06feaf0d688a1",
+  "gates_rechecked": {
+    "malformed_leaf_paths": 0,
+    "unauthorized_empty_values": 0,
+    "invalid_card_schema_count": 0,
+    "superseded_values_selected": 473
+  }
+}

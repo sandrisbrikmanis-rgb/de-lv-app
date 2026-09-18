@@ -880,6 +880,7 @@ function ingestExtractedRows({
         extraction_method: extracted.source.extraction_method,
         decision_source: extracted.source,
         owner_note: row.owner_note || "",
+        owner_status: row.owner_status || row.owner_decision || "",
       };
       if (!leafVersionsByKey.has(leafKey)) leafVersionsByKey.set(leafKey, []);
       leafVersionsByKey.get(leafKey).push(version);

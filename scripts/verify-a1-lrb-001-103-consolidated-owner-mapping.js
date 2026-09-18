@@ -6,9 +6,15 @@ const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
+const {
+  isCanonicalLeafFieldPath,
+  authorizeEmptyFinalValue,
+  validatePostOwnerCard,
+} = require("./lib/g2-a1-lrb-consolidation-normalize");
 
 const FINAL_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/final");
 const PREFIX = "A1-LRB-001-103";
+const MAX_PART_BYTES = 4_000_000;
 
 function sha256(buf) {
   return crypto.createHash("sha256").update(buf).digest("hex");
@@ -22,22 +28,39 @@ function git(cmd) {
   }
 }
 
-function loadDecisions(manifest) {
+function loadDecisionsFromManifest(manifest) {
   if (!manifest.consolidated_decisions?.multipart) {
     const p = path.join(ROOT, manifest.consolidated_decisions.path);
     const doc = JSON.parse(fs.readFileSync(p, "utf8"));
-    return doc.leaf_decisions || doc.decisions || [];
+    return { decisions: doc.leaf_decisions || doc.decisions || [], parts: [manifest.consolidated_decisions] };
   }
   const all = [];
-  for (const part of manifest.consolidated_decisions.parts) {
-    const doc = JSON.parse(fs.readFileSync(path.join(ROOT, part.path), "utf8"));
-    all.push(...(doc.leaf_decisions || doc.decisions || []));
+  const parts = manifest.consolidated_decisions.parts || [];
+  for (const part of parts) {
+    const abs = path.join(ROOT, part.path);
+    const raw = fs.readFileSync(abs);
+    if (sha256(raw) !== part.sha256) {
+      throw new Error(`multipart_sha_mismatch:${part.path}`);
+    }
+    if (part.byte_length != null && Buffer.byteLength(raw) !== part.byte_length) {
+      throw new Error(`multipart_size_mismatch:${part.path}`);
+    }
+    if (Buffer.byteLength(raw) > MAX_PART_BYTES) {
+      throw new Error(`multipart_oversize:${part.path}`);
+    }
+    const doc = JSON.parse(raw.toString("utf8"));
+    const rows = doc.leaf_decisions || doc.decisions || [];
+    if (part.row_count != null && part.row_count !== rows.length) {
+      throw new Error(`multipart_row_count_mismatch:${part.path}`);
+    }
+    all.push(...rows);
   }
-  return all;
+  return { decisions: all, parts };
 }
 
 function main() {
   const blockers = [];
+  const verifiedCommitSha = git("git rev-parse HEAD");
   const originMain = git("git rev-parse origin/main");
   const diffNames = git("git diff --name-only origin/main...HEAD")?.split("\n").filter(Boolean) || [];
   const allowedRe =
@@ -63,7 +86,8 @@ function main() {
   const proof = JSON.parse(fs.readFileSync(proofPath, "utf8"));
   const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
   const gates = proof.gates || {};
-  const expected = {
+
+  const expectedGates = {
     lrb_coverage: "103/103",
     linguistically_closed: "103/103",
     pending: 0,
@@ -71,41 +95,136 @@ function main() {
     owner_45_applied: "45/45",
     duplicate_final_keys: 0,
     missing_final_values: 0,
-    superseded_values_selected: 0,
+    unauthorized_empty_values: 0,
+    malformed_leaf_paths: 0,
+    invalid_card_schema_count: 0,
+    source_verify_failures: 0,
     de_change_targets: 0,
     production_changes: 0,
     crowdin_changes: 0,
     ingest_apply_changes: 0,
   };
-  for (const [k, v] of Object.entries(expected)) {
+  for (const [k, v] of Object.entries(expectedGates)) {
     if (gates[k] !== v) blockers.push(`gate:${k}=${gates[k]} expected=${v}`);
   }
 
-  const decisions = loadDecisions(manifest);
+  if (
+    proof.classification !==
+    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_COMPLETE_AWAITING_OWNER_VERIFICATION"
+  ) {
+    blockers.push(`classification:${proof.classification}`);
+  }
+
+  if (!manifest.generation_base_sha) blockers.push("missing:generation_base_sha");
+  if (manifest.consolidation_head_sha) blockers.push("deprecated:consolidation_head_sha_present");
+
+  let decisions;
+  let partsMeta;
+  try {
+    const loaded = loadDecisionsFromManifest(manifest);
+    decisions = loaded.decisions;
+    partsMeta = loaded.parts;
+  } catch (e) {
+    blockers.push(String(e.message || e));
+    decisions = [];
+    partsMeta = [];
+  }
+
+  if (manifest.leaf_decisions_count !== decisions.length) {
+    blockers.push(
+      `multipart_row_sum_mismatch:manifest=${manifest.leaf_decisions_count} actual=${decisions.length}`
+    );
+  }
+
+  if (manifest.consolidated_decisions?.multipart) {
+    const listed = manifest.consolidated_decisions.parts || [];
+    for (let i = 0; i < listed.length; i += 1) {
+      const expectedPart = i + 1;
+      if (!String(listed[i].path).includes(`.part-${String(expectedPart).padStart(3, "0")}.json`)) {
+        blockers.push(`multipart_order:${listed[i].path}`);
+      }
+    }
+    if (partsMeta.length !== listed.length) blockers.push("multipart_parts_count_mismatch");
+  }
+
   const keySet = new Set();
+  let malformed = 0;
+  let unauthorizedEmpty = 0;
   for (const d of decisions) {
     const k = `${d.target_language}|${d.canonical_card_object_id}|${d.exact_leaf_field_path}`;
     if (keySet.has(k)) blockers.push(`duplicate_key:${k}`);
     keySet.add(k);
+    if (!isCanonicalLeafFieldPath(d.exact_leaf_field_path)) malformed += 1;
+    if (d.owner_final_value == null || d.owner_final_value === undefined) {
+      blockers.push(`missing_value:${k}`);
+    } else if (String(d.owner_final_value) === "" && !d.explicit_intentional_deletion) {
+      unauthorizedEmpty += 1;
+    }
     for (const shaField of ["source_gala_pass_commit", "source_artifact_sha256"]) {
       if (!d[shaField]) blockers.push(`missing_sha_field:${k}:${shaField}`);
     }
-    if (d.source_gala_pass_commit && !git(`git cat-file -e ${d.source_gala_pass_commit}^{commit} 2>/dev/null && echo yes`)) {
+    if (
+      d.source_gala_pass_commit &&
+      git(`git cat-file -e ${d.source_gala_pass_commit}^{commit} 2>/dev/null && echo yes`) !== "yes"
+    ) {
       blockers.push(`unreachable_commit:${d.source_gala_pass_commit}`);
     }
   }
+  if (malformed) blockers.push(`malformed_leaf_paths_recheck:${malformed}`);
+  if (unauthorizedEmpty) blockers.push(`unauthorized_empty_recheck:${unauthorizedEmpty}`);
 
-  const out = {
+  const applyPlan = JSON.parse(
+    fs.readFileSync(path.join(FINAL_DIR, `${PREFIX}-PRODUCTION-APPLY-PLAN.json`), "utf8")
+  );
+  const cardErrors = [];
+  for (const c of applyPlan.full_cards || []) {
+    validatePostOwnerCard(
+      c.post_owner_card,
+      `${c.target_language}|${c.canonical_card_object_id}`,
+      cardErrors
+    );
+  }
+  if (cardErrors.length) blockers.push(`invalid_card_schema_recheck:${cardErrors.length}`);
+
+  let supersededRecalc = 0;
+  for (const d of decisions) {
+    for (const s of d.superseded_sources || []) {
+      if (s.leaf_value_sha256 && s.leaf_value_sha256 !== d.leaf_value_sha256) supersededRecalc += 1;
+    }
+  }
+  if (gates.superseded_values_selected !== supersededRecalc) {
+    blockers.push(
+      `superseded_values_selected_mismatch:proof=${gates.superseded_values_selected} recalc=${supersededRecalc}`
+    );
+  }
+
+  const verificationProof = {
+    schema_version: 1,
+    generated_at: new Date().toISOString(),
+    verified_commit_sha: verifiedCommitSha,
+    generation_base_sha: manifest.generation_base_sha,
+    origin_main_sha: originMain,
+    classification: proof.classification,
     pass: blockers.length === 0,
     blockers,
-    origin_main_sha: originMain,
-    consolidation_head_sha: git("git rev-parse HEAD"),
-    leaf_decisions: decisions.length,
+    leaf_decisions_count: decisions.length,
+    multipart: Boolean(manifest.consolidated_decisions?.multipart),
+    multipart_part_count: manifest.consolidated_decisions?.parts?.length || 0,
     manifest_sha256: sha256(fs.readFileSync(manifestPath)),
     proof_sha256: sha256(fs.readFileSync(proofPath)),
-    classification: proof.classification,
+    gates_rechecked: {
+      malformed_leaf_paths: malformed,
+      unauthorized_empty_values: unauthorizedEmpty,
+      invalid_card_schema_count: cardErrors.length,
+      superseded_values_selected: supersededRecalc,
+    },
   };
-  console.log(JSON.stringify(out, null, 2));
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-VERIFICATION-PROOF.json`),
+    JSON.stringify(verificationProof, null, 2) + "\n"
+  );
+
+  console.log(JSON.stringify(verificationProof, null, 2));
   if (blockers.length) process.exit(1);
 }
 
