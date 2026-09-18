@@ -1,0 +1,1991 @@
+{
+  "generated_at": "2026-09-16T18:35:07.005Z",
+  "RE_REVIEW_RANGE": "LRB-001…LRB-041",
+  "boundary_status": "MECHANICALLY_PROVEN_IS_MOP_UP_TERMINUS",
+  "boundary_nn": "LRB-041",
+  "boundary_reason": [
+    "LRB-041 owner-authorization-proof scope documents \"final IS mop-up\" (Wasser..rechts (11 IS rows, 11 unique findings) final IS mop-up GPT-5.6 Luna FULL paste)",
+    "LRB-041 gala commit: LRB-041: Gala verdict LRB_041_FULL_50_50_LINGUISTIC_REVIEW_PASS (11 LABOT, IS mop-up closed)",
+    "LRB-042 git: LRB-042: owner authorization APPROVED — first FI batch Apfel..Bein (50 rows)",
+    "Terminus LRB-041 lies within owner guidance interval LRB-040…LRB-050"
+  ],
+  "groups": {
+    "A_EARLY_INITIAL_REVIEW": {
+      "description": "Phase B / individual review first pass (narrower artifact generation)",
+      "batches": [
+        "LRB-001",
+        "LRB-002",
+        "LRB-003",
+        "LRB-004",
+        "LRB-005",
+        "LRB-006",
+        "LRB-007"
+      ]
+    },
+    "B_EXPANDED_STANDARD_RE_REVIEW": {
+      "description": "Later full-card pass for LRB-001…boundary_nn (supersedes A where present)",
+      "batches": [
+        "LRB-001",
+        "LRB-002",
+        "LRB-003",
+        "LRB-004",
+        "LRB-005",
+        "LRB-006",
+        "LRB-007",
+        "LRB-008",
+        "LRB-009",
+        "LRB-010",
+        "LRB-011",
+        "LRB-012",
+        "LRB-013",
+        "LRB-014",
+        "LRB-015",
+        "LRB-016",
+        "LRB-017",
+        "LRB-018",
+        "LRB-019",
+        "LRB-020",
+        "LRB-021",
+        "LRB-022",
+        "LRB-023",
+        "LRB-024",
+        "LRB-025",
+        "LRB-026",
+        "LRB-027",
+        "LRB-028",
+        "LRB-029",
+        "LRB-030",
+        "LRB-031",
+        "LRB-032",
+        "LRB-033",
+        "LRB-034",
+        "LRB-035",
+        "LRB-036",
+        "LRB-037",
+        "LRB-038",
+        "LRB-039",
+        "LRB-040",
+        "LRB-041"
+      ]
+    },
+    "C_EXPANDED_STANDARD_FIRST_REVIEW": {
+      "description": "Single expanded full-card cycle after boundary_nn (paste_source / FI pool first closure)",
+      "batches": [
+        "LRB-042",
+        "LRB-043",
+        "LRB-044",
+        "LRB-045",
+        "LRB-046",
+        "LRB-047",
+        "LRB-048",
+        "LRB-049",
+        "LRB-050",
+        "LRB-051",
+        "LRB-052",
+        "LRB-053",
+        "LRB-054",
+        "LRB-055"
+      ]
+    }
+  },
+  "boundary_continuity": "CONTINUOUS_001_TO_NN",
+  "transition_evidence": {
+    "last_proven_B_group_batch": "LRB-041",
+    "last_B_group_batch_in_040_050": "LRB-041",
+    "first_C_after_boundary": "LRB-042",
+    "first_batch_without_two_stages_after_boundary": "LRB-042",
+    "first_FI_pool_batch": "LRB-042"
+  },
+  "boundary_table_035_055": [
+    {
+      "LRB": "LRB-035",
+      "initial_pass_at": "2026-09-13T09:58:15+00:00",
+      "re_review_started_at": "2026-09-13T09:54:53+00:00",
+      "re_review_pass_at": "2026-09-13T09:58:15+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-035-owner-authorization-proof.json",
+      "commit_sha": "a092238d01d66803de57afeddadeee8cb38542bc",
+      "group": "B"
+    },
+    {
+      "LRB": "LRB-036",
+      "initial_pass_at": "2026-09-13T10:18:02+00:00",
+      "re_review_started_at": "2026-09-13T10:14:57+00:00",
+      "re_review_pass_at": "2026-09-13T10:18:02+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-036-owner-authorization-proof.json",
+      "commit_sha": "659c1ec97e1b20b833048c48f35bffc731dac342",
+      "group": "B"
+    },
+    {
+      "LRB": "LRB-037",
+      "initial_pass_at": "2026-09-13T10:33:27+00:00",
+      "re_review_started_at": "2026-09-13T10:28:11+00:00",
+      "re_review_pass_at": "2026-09-13T10:33:27+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-037-owner-authorization-proof.json",
+      "commit_sha": "0504c8d30da68acffe1ae4d2c1a8e274a8ac10a2",
+      "group": "B"
+    },
+    {
+      "LRB": "LRB-038",
+      "initial_pass_at": "2026-09-13T10:51:46+00:00",
+      "re_review_started_at": "2026-09-13T10:46:11+00:00",
+      "re_review_pass_at": "2026-09-13T10:51:46+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-038-owner-authorization-proof.json",
+      "commit_sha": "f4a263a9c710f0a74ed226d6729924b9f4b8dde1",
+      "group": "B"
+    },
+    {
+      "LRB": "LRB-039",
+      "initial_pass_at": "2026-09-13T11:03:39+00:00",
+      "re_review_started_at": "2026-09-13T11:01:11+00:00",
+      "re_review_pass_at": "2026-09-13T11:03:39+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-039-owner-authorization-proof.json",
+      "commit_sha": "65062f33e4a2b2fba02569e7e3888e21fb6a62cb",
+      "group": "B"
+    },
+    {
+      "LRB": "LRB-040",
+      "initial_pass_at": "2026-09-13T11:18:29+00:00",
+      "re_review_started_at": "2026-09-13T11:14:23+00:00",
+      "re_review_pass_at": "2026-09-13T11:18:29+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-040-owner-authorization-proof.json",
+      "commit_sha": "dc62ea3eaca5e66b24aebc23ff648082d0e7e4fe",
+      "group": "B"
+    },
+    {
+      "LRB": "LRB-041",
+      "initial_pass_at": "2026-09-13T11:29:02+00:00",
+      "re_review_started_at": "2026-09-13T11:26:12+00:00",
+      "re_review_pass_at": "2026-09-13T11:29:02+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (final mop-up)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-041-owner-authorization-proof.json",
+      "commit_sha": "cc2631af25e5f5e517deb9eee206edf7008d1290",
+      "group": "B"
+    },
+    {
+      "LRB": "LRB-042",
+      "initial_pass_at": "2026-09-13T11:51:30+00:00",
+      "re_review_started_at": "2026-09-13T11:47:30+00:00",
+      "re_review_pass_at": "2026-09-13T11:51:30+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (first FI pool batch)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-042-owner-authorization-proof.json",
+      "commit_sha": "e69e6306a6ce6c0f3d9b9f840e23b7aef0994880",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-043",
+      "initial_pass_at": "2026-09-13T12:09:08+00:00",
+      "re_review_started_at": "2026-09-13T12:03:23+00:00",
+      "re_review_pass_at": "2026-09-13T12:09:08+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-043-owner-authorization-proof.json",
+      "commit_sha": "0b5c5814bb991bdcbaaf2aa9468896e86b6be133",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-044",
+      "initial_pass_at": "2026-09-13T12:23:09+00:00",
+      "re_review_started_at": "2026-09-13T12:20:06+00:00",
+      "re_review_pass_at": "2026-09-13T12:23:09+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-044-owner-authorization-proof.json",
+      "commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-045",
+      "initial_pass_at": "2026-09-13T12:43:47+00:00",
+      "re_review_started_at": "2026-09-13T12:41:26+00:00",
+      "re_review_pass_at": "2026-09-13T12:43:47+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-045-owner-authorization-proof.json",
+      "commit_sha": "952cb8ecacc7c1609866044d43b8a3e63150dbd2",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-046",
+      "initial_pass_at": "2026-09-13T12:58:19+00:00",
+      "re_review_started_at": "2026-09-13T12:56:13+00:00",
+      "re_review_pass_at": "2026-09-13T12:58:47+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-046-owner-authorization-proof.json",
+      "commit_sha": "cc3fe938c46bb10a635e237a9552c7dc32956be0",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-047",
+      "initial_pass_at": "2026-09-13T13:21:05+00:00",
+      "re_review_started_at": "2026-09-13T13:15:32+00:00",
+      "re_review_pass_at": "2026-09-13T13:21:05+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-047-owner-authorization-proof.json",
+      "commit_sha": "29eabf26df096298b26de928c01b7af37ccbfe79",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-048",
+      "initial_pass_at": "2026-09-13T13:33:59+00:00",
+      "re_review_started_at": "2026-09-13T13:29:20+00:00",
+      "re_review_pass_at": "2026-09-13T13:33:59+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-048-owner-authorization-proof.json",
+      "commit_sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-049",
+      "initial_pass_at": "2026-09-13T13:46:59+00:00",
+      "re_review_started_at": "2026-09-13T13:43:02+00:00",
+      "re_review_pass_at": "2026-09-13T13:46:59+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-049-owner-authorization-proof.json",
+      "commit_sha": "413e81ef9064421a95b4fbe08527b9aab3fad119",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-050",
+      "initial_pass_at": "2026-09-13T14:01:43+00:00",
+      "re_review_started_at": "2026-09-13T13:57:17+00:00",
+      "re_review_pass_at": "2026-09-13T14:01:43+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-050-owner-authorization-proof.json",
+      "commit_sha": "eea4ddb610d0bedf579e961bb2be12bbb17777a0",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-051",
+      "initial_pass_at": "2026-09-13T14:36:28+00:00",
+      "re_review_started_at": "2026-09-13T14:15:15+00:00",
+      "re_review_pass_at": "2026-09-13T14:36:28+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-051-owner-authorization-proof.json",
+      "commit_sha": "197d542c9603baa08edb481ac0bd0d625f7c3986",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-052",
+      "initial_pass_at": "2026-09-13T15:01:25+00:00",
+      "re_review_started_at": "2026-09-13T14:49:21+00:00",
+      "re_review_pass_at": "2026-09-13T15:01:25+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-052-owner-authorization-proof.json",
+      "commit_sha": "9184860bb7734b7a092ec8c9d588787b58cba5ca",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-053",
+      "initial_pass_at": "2026-09-13T15:23:09+00:00",
+      "re_review_started_at": "2026-09-13T15:19:52+00:00",
+      "re_review_pass_at": "2026-09-13T15:23:09+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-053-owner-authorization-proof.json",
+      "commit_sha": "00c3cbe75ec869e68ae3ec8b71666effa873529a",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-054",
+      "initial_pass_at": "2026-09-13T15:41:58+00:00",
+      "re_review_started_at": "2026-09-13T15:37:52+00:00",
+      "re_review_pass_at": "2026-09-13T15:41:58+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-054-owner-authorization-proof.json",
+      "commit_sha": "5ca65957bf63404f14e81aac7af81e8a7b8d7b08",
+      "group": "C"
+    },
+    {
+      "LRB": "LRB-055",
+      "initial_pass_at": "2026-09-13T15:55:16+00:00",
+      "re_review_started_at": "2026-09-13T15:51:21+00:00",
+      "re_review_pass_at": "2026-09-13T15:55:16+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "evidence_path": "reports/g2-a1-owner/batches-reviewed/LRB-055-owner-authorization-proof.json",
+      "commit_sha": "97f7c461c91cf52898a2ce5b7b7c5a9ea8251748",
+      "group": "C"
+    }
+  ],
+  "batches_001_055": [
+    {
+      "batch_id": "LRB-001",
+      "branch": "cursor/lrb-001-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-11T10:38:58+00:00",
+      "re_review_started_at": "2026-09-12T07:21:58+00:00",
+      "re_review_pass_at": null,
+      "full_card_artifact": false,
+      "review_generation": "EARLY_INITIAL_REVIEW + EXPANDED_STANDARD_RE_REVIEW",
+      "group": "A+B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-001-owner-authorization-proof.json",
+        "auth_proof_sha256": "57162f47040da207964c00cdc8c1b09c3a2ba38d4feeef2103b021400af9325b",
+        "decisions_csv_sha256": "e192d1b8ac472c7fb25533dbfcb91519285c5252d337b16e1114bf2156ec1a45",
+        "commit_sha": "fb440a2db96155f6abbbf2575876bd8c6de063ac",
+        "paste_source": null,
+        "full_composite_completeness": null,
+        "gala_repair_flag": false,
+        "scope_excerpt": "Authorization metadata synced to gala final state (17 LABOT / 33 NELABOT). OWNER decisions unchanged. DE/production/Crow",
+        "phase_b_commit": "G2/A1 Phase B: complete LRB-001 individual OWNER review (50/5125)",
+        "gala_repair_commit": "LRB-001 gala repair: recalculate 17 LABOT / 33 NELABOT from scratch",
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-002",
+      "branch": "cursor/lrb-002-gala-repair-bdda",
+      "initial_pass_at": "2026-09-11T10:42:03+00:00",
+      "re_review_started_at": "2026-09-11T18:35:37+00:00",
+      "re_review_pass_at": null,
+      "full_card_artifact": false,
+      "review_generation": "EARLY_INITIAL_REVIEW + EXPANDED_STANDARD_RE_REVIEW",
+      "group": "A+B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-002-owner-authorization-proof.json",
+        "auth_proof_sha256": "f0e8eb3171679ed7f20f67e8b40e162ae59b78ce347ab762ec65a5935ba4ab96",
+        "decisions_csv_sha256": "af02895d4b88e262055111f11b375eba1fdc158208d5e711ea315ea255bac71e",
+        "commit_sha": "e7fbd35091466c771e101d1ad0669c97ebd181f7",
+        "paste_source": null,
+        "full_composite_completeness": null,
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization recorded after GPT-5.6 Luna gala repair and full 50/50 residual audit. DE/production/Crowdin/ingest/",
+        "phase_b_commit": "G2/A1 Phase B: complete LRB-002 individual OWNER review (100/5125)",
+        "gala_repair_commit": "LRB-002 gala repair: recalculate 24 LABOT / 26 NELABOT from scratch",
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-003",
+      "branch": "cursor/lrb-003-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-11T10:49:01+00:00",
+      "re_review_started_at": "2026-09-12T07:31:25+00:00",
+      "re_review_pass_at": null,
+      "full_card_artifact": false,
+      "review_generation": "EARLY_INITIAL_REVIEW + EXPANDED_STANDARD_RE_REVIEW",
+      "group": "A+B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-003-owner-authorization-proof.json",
+        "auth_proof_sha256": "f82e190989f950e90796cd62552f67f0d5100db70a1d9984e2a29b25434492e5",
+        "decisions_csv_sha256": "e8dd8e66583892e96ecc79e8d017b610f31065f7b150f2c257b906a015f4d94e",
+        "commit_sha": "2d105e40ceafe261b8e16dbb08dcab00041cc4cb",
+        "paste_source": null,
+        "full_composite_completeness": null,
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization recorded after GPT-5.6 Luna gala repair and full 50/50 residual audit. DE/production/Crowdin/ingest/",
+        "phase_b_commit": "G2/A1 Phase B: complete LRB-003 individual OWNER review (150/5125)",
+        "gala_repair_commit": "LRB-003: FULL 50/50 gala repair (22 LABOT / 28 NELABOT)",
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-004",
+      "branch": "cursor/lrb-004-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-11T10:55:19+00:00",
+      "re_review_started_at": "2026-09-12T07:38:20+00:00",
+      "re_review_pass_at": null,
+      "full_card_artifact": false,
+      "review_generation": "EARLY_INITIAL_REVIEW + EXPANDED_STANDARD_RE_REVIEW",
+      "group": "A+B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-004-owner-authorization-proof.json",
+        "auth_proof_sha256": "758e93dcb464110d078742d46bc1587b550b3fef62badb76bc20404d1b4bd8e5",
+        "decisions_csv_sha256": "7f73b2221ac2090326edec3e7df56ab5d610e48b652292b82379b297bf2729fc",
+        "commit_sha": "d7de39e007f565cb3d6bb631e2e47a13ee74ac63",
+        "paste_source": null,
+        "full_composite_completeness": null,
+        "gala_repair_flag": false,
+        "scope_excerpt": "LRB-004 PDF-standard reaudit repair: 13 FI ET-leak→FI LABOT; ET essen/Fernsehen/sollen/sie NELABOT→LABOT; baden explanat",
+        "phase_b_commit": "G2/A1 Phase B: LRB-004 individual review (50 rows, 5 LABOT / 45 NELABOT)",
+        "gala_repair_commit": "LRB-004: FULL 50/50 gala repair (13 LABOT / 37 NELABOT)",
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-005",
+      "branch": "cursor/lrb-005-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-11T11:00:32+00:00",
+      "re_review_started_at": "2026-09-12T07:43:59+00:00",
+      "re_review_pass_at": null,
+      "full_card_artifact": false,
+      "review_generation": "EARLY_INITIAL_REVIEW + EXPANDED_STANDARD_RE_REVIEW",
+      "group": "A+B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-005-owner-authorization-proof.json",
+        "auth_proof_sha256": "1bafa2f06fa23a5d20082fd25d5e863dd5adbeb3671812fd5d8f794b80b2395f",
+        "decisions_csv_sha256": "df9f7f397096129a96c9706fa092fde21e093380bd39ce1755b2ef45169b7d4e",
+        "commit_sha": "182e06a7cf6f0362681c76e621380363dbf9664a",
+        "paste_source": null,
+        "full_composite_completeness": null,
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization recorded after GPT-5.6 Luna gala repair and full 50/50 residual audit. DE/production/Crowdin/ingest/",
+        "phase_b_commit": "G2/A1 Phase B: LRB-005 individual review (50 FI MULTI_TRANSLATION, 0 LABOT / 50 NELABOT)",
+        "gala_repair_commit": "LRB-005: FULL 50/50 gala repair (46 LABOT / 4 NELABOT)",
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-006",
+      "branch": "cursor/lrb-006-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-11T11:16:07+00:00",
+      "re_review_started_at": "2026-09-12T07:53:36+00:00",
+      "re_review_pass_at": null,
+      "full_card_artifact": false,
+      "review_generation": "EARLY_INITIAL_REVIEW + EXPANDED_STANDARD_RE_REVIEW",
+      "group": "A+B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-006-owner-authorization-proof.json",
+        "auth_proof_sha256": "41be397a866cb7127882bd520404efcb7f8be85ad9c52c765b17f165809105a0",
+        "decisions_csv_sha256": "f3cab146d27c2e8a09c43f165c87a552be8bcc2d3be988a0b1e6147eda8a2ff2",
+        "commit_sha": "8c87c4f29c5d7e0d50d67c5a6cbe9ffe16fa9532",
+        "paste_source": null,
+        "full_composite_completeness": null,
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization recorded after GPT-5.6 Luna PDF-standard reaudit (passen/sich/wer/machen/nehmen repairs) and fresh 5",
+        "phase_b_commit": "G2/A1 Phase B: LRB-006 individual review (50 FI, 50 LABOT ET→FI / 0 NELABOT)",
+        "gala_repair_commit": "LRB-006 gala repair: recalculate 50/50 from production vs target FI",
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-007",
+      "branch": "cursor/lrb-007-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-11T11:27:04+00:00",
+      "re_review_started_at": "2026-09-12T08:02:55+00:00",
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EARLY_INITIAL_REVIEW + EXPANDED_STANDARD_RE_REVIEW",
+      "group": "A+B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-007-owner-authorization-proof.json",
+        "auth_proof_sha256": "13b80078b2eec562a20f34897f17003d19b51ccc24f459526a1a0d83d965d78f",
+        "decisions_csv_sha256": "7b0c8f1b4bfac0c5695c6fb381dbd5c0a3413ad793cb57b069ed315a0bccdf27",
+        "commit_sha": "a46ee647c8f4e19f770af977f10691af0f0f7595",
+        "paste_source": null,
+        "full_composite_completeness": null,
+        "gala_repair_flag": true,
+        "scope_excerpt": "OWNER authorization after LRB-007 aufs important[0] semantic repair and fresh 50-row residual audit. DE/production/Crowd",
+        "phase_b_commit": "G2/A1 Phase B: LRB-007 individual review (50 FI, 49 LABOT ET→FI / 1 NELABOT)",
+        "gala_repair_commit": "LRB-007 gala repair: full 50-row FI recalc with mandatory ab/an/baden/zu/zum/wie fixes",
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-008",
+      "branch": "cursor/lrb-008-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-008-owner-authorization-proof.json",
+        "auth_proof_sha256": "4dde3a5642b32c0313c82bb9ed5e148f3ca15d562ba90b2f01cb7d1287b18355",
+        "decisions_csv_sha256": "a724ace07efd2157745efc0794cfa3999b3696001ea2b3858e126dc3494cf6c9",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization APPROVED. PDF-standard reaudit repair (besuchen/bitte/Bitte) + fresh 50-row gates recalculated from ",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-009",
+      "branch": "cursor/lrb-009-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-009-owner-authorization-proof.json",
+        "auth_proof_sha256": "64b5ac6f7c59aa48981263585d398385d5a01274ad5fd8164b492ca4a42f1df0",
+        "decisions_csv_sha256": "d9a2cd1ab55468a69aedc47cb13ecf54c6f12f79f6b7783cb369890f5875925f",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization APPROVED. PDF-standard reaudit repair (erst/Geschichte) + fresh 50-row gates recalculated from produ",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-010",
+      "branch": "cursor/lrb-010-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-010-owner-authorization-proof.json",
+        "auth_proof_sha256": "f966029e29494cd58c85854839243f56950e1cb66cb8a07d4e175bff7063c403",
+        "decisions_csv_sha256": "933e2abcb2e1fc2b0195b8774a54cc83fe047e3a72f891ed4d69ec872edb736d",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization APPROVED. PDF-standard reaudit repair (Gesundheit ET Tervis→FI Terveys + composite verification) + f",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-011",
+      "branch": "cursor/lrb-011-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-011-owner-authorization-proof.json",
+        "auth_proof_sha256": "3ca4f0f83f0ae46b5e565a4ed2f8377dd2ce839299c7dd7b7a7a2709fdbc91b0",
+        "decisions_csv_sha256": "baf0fe6895ae1cc9ac67bd5c12a0571687ea1359191461a787ea26b358bc0183",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization APPROVED. PDF-standard reaudit repair (hübsch study.explanation[2] natural FI + 16-composite verific",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-012",
+      "branch": "cursor/lrb-012-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-012-owner-authorization-proof.json",
+        "auth_proof_sha256": "1890043848f222607bf84da1072e9c619368d640ba489c30110049ac69e20042",
+        "decisions_csv_sha256": "abff65c445cf8bed5b493467dc669d58603f2d76d4a9ae53d3ac7a97555a9801",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization APPROVED. PDF-standard reaudit repair (lieb ET Kallis→FI Rakas for mīļš dear/beloved + leise composi",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-013",
+      "branch": "cursor/lrb-013-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-013-owner-authorization-proof.json",
+        "auth_proof_sha256": "8e7266f597b1d4b525a24c2761ddedfa97b84bf15fdda96557750efcb58039be",
+        "decisions_csv_sha256": "0b115113566f6bdc8e39e490b18c644ccd3ebfbc094eeb4254e1f304a9c68c6c",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization APPROVED. Final PDF proof sync from POST-REPAIR production_current + owner_new merge. All 14 PDF gat",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-014",
+      "branch": "cursor/lrb-014-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-014-owner-authorization-proof.json",
+        "auth_proof_sha256": "192a1693a1a16c9a868bff3cd6b446c96dfa51ce7205a8c9799db5a0b5df8e7a",
+        "decisions_csv_sha256": "8d7e82ccc1e0f720fb31b852773270d4bd0ebeed8d58280656fa544358933054",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "OWNER authorization APPROVED. PDF-standard reaudit repair (passen verbal FI study: sopia/istua hyvin/sopia hyvin yhteen;",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-015",
+      "branch": "cursor/lrb-015-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-015-owner-authorization-proof.json",
+        "auth_proof_sha256": "7821da77b0f21247a31b930376b88db43b3d8ef53192f7e86ea7e5d2810a45b5",
+        "decisions_csv_sha256": "f773bfa6cb06ff99b4debdf2423cbe0d7e4b6a2f3b492bbe7c077fc7cb28b694",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Schaf..Staat",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-016",
+      "branch": "cursor/lrb-016-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-016-owner-authorization-proof.json",
+        "auth_proof_sha256": "079c83e75c87244b69a489c304615fb65826fa322f00716d2c3ccda397dc15f8",
+        "decisions_csv_sha256": "f383f6737dea70b96eebb872a5fb41528a010e464ecbd8fe350dc68d113dee70",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Stadt..Vogel",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-017",
+      "branch": "cursor/lrb-017-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": null,
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": false,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-017-owner-authorization-proof.json",
+        "auth_proof_sha256": "d7b5bb772605d7ccb116fea6126ee0e0ba9916a4be935214c9ef37213e42ffb2",
+        "decisions_csv_sha256": "3e394eae91b019e37ba4f32afb9a907913b282ad4b1fe6411555e5e3df54b5fa",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "voll..zweimal",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-018",
+      "branch": "cursor/lrb-018-owner-authorization-bdda",
+      "initial_pass_at": null,
+      "re_review_started_at": "2026-09-12T15:15:06+00:00",
+      "re_review_pass_at": null,
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-018-owner-authorization-proof.json",
+        "auth_proof_sha256": "a2b9ad62ffe4c8c3aa662652aacd760bab7b8de095025f58cea0a3cb8576627f",
+        "decisions_csv_sha256": "c06296704ab891b3efcc8251bf890a9470b30cbf0ca5d321a1d1872defd202d2",
+        "commit_sha": null,
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "zweite..zum (5 FI scalars + 45 FR full composite repairs from data/fr/a1.js)",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": null,
+        "gala_pass_commits": [],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-019",
+      "branch": "cursor/lrb-019-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-12T16:50:16+00:00",
+      "re_review_started_at": "2026-09-12T16:33:59+00:00",
+      "re_review_pass_at": "2026-09-12T16:50:16+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-019-owner-authorization-proof.json",
+        "auth_proof_sha256": "494b5c6a1348b06f6738892ccd5302b2586fbb573ae2b1323ed5c83d6bfde911",
+        "decisions_csv_sha256": "44cce78ac2262e6c9492fe46d7af79bbc02dd2301bf69b57b57116d916c201fd",
+        "commit_sha": "2c611cbf9ab2aa53755aadbc91f71f692fc9ec67",
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "einmal..stehen (50 FR full composite repairs from data/fr/a1.js)",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-019: Luna round-2 copy/paste repairs (33 cards)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-12T16:50:16+00:00",
+            "sha": "2c611cbf9ab2aa53755aadbc91f71f692fc9ec67",
+            "subject": "LRB-019: gala verdict LRB_019_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-020",
+      "branch": "cursor/lrb-020-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-12T18:14:57+00:00",
+      "re_review_started_at": "2026-09-12T17:29:56+00:00",
+      "re_review_pass_at": "2026-09-12T18:14:57+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (legacy full_composite without paste_source)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-020-owner-authorization-proof.json",
+        "auth_proof_sha256": "e449f14475924ea295bcdee1e7ad99167b7c6f36a0eb1f7bb7f6682b52031ddd",
+        "decisions_csv_sha256": "1f2dd2cb3484abae6823ba0d1c0482614245596466ddff11dcad48ae69e47d44",
+        "commit_sha": "b560d11fcda926a8af13566eb5874f5cfd0d1361",
+        "paste_source": null,
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "unter..zum (15 FR) + ab..laufen (35 GR) Luna copy/paste round 2",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-020 round 2: Luna copy/paste repairs for 50 cards (15 FR + 35 GR)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-12T18:14:57+00:00",
+            "sha": "b560d11fcda926a8af13566eb5874f5cfd0d1361",
+            "subject": "LRB-020: gala verdict LRB_020_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-021",
+      "branch": "cursor/lrb-021-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-12T19:25:22+00:00",
+      "re_review_started_at": "2026-09-12T19:16:50+00:00",
+      "re_review_pass_at": "2026-09-12T19:25:22+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-021-owner-authorization-proof.json",
+        "auth_proof_sha256": "2d05d3dde359b00e637518880894992e71a54d7fe8f068092f723b62e34ca4c2",
+        "decisions_csv_sha256": "69acbae1b4f59e09846754a6ea952dccb4a6c5275974ee52cc25bcb1673fb46a",
+        "commit_sha": "57b463eb36ca891ac848273d93f75726cd238f94",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "laut..Zug (26 GR) + a1-uhr..groß (24 HR) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-021: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-12T19:25:22+00:00",
+            "sha": "57b463eb36ca891ac848273d93f75726cd238f94",
+            "subject": "LRB-021: gala verdict LRB_021_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-022",
+      "branch": "cursor/lrb-022-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-12T19:53:07+00:00",
+      "re_review_started_at": "2026-09-12T19:48:46+00:00",
+      "re_review_pass_at": "2026-09-12T19:53:07+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-022-owner-authorization-proof.json",
+        "auth_proof_sha256": "2274af399f32b3f40a956e714f5d545255e704b8c9caa448e8452b557d6a3934",
+        "decisions_csv_sha256": "134e1d09ea17fc2f8ff23b65cc735c9daa6e93794283b9e3a500e37ce953673a",
+        "commit_sha": "c80613f959f4fd735167352fba13199306b34c89",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Großeltern..zusammen (48 HR) + a1-ab, a1-aber (2 HU) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-022: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-12T19:53:07+00:00",
+            "sha": "c80613f959f4fd735167352fba13199306b34c89",
+            "subject": "LRB-022: gala verdict LRB_022_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-023",
+      "branch": "cursor/lrb-023-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-12T20:29:15+00:00",
+      "re_review_started_at": "2026-09-12T20:10:47+00:00",
+      "re_review_pass_at": "2026-09-12T20:29:15+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-023-owner-authorization-proof.json",
+        "auth_proof_sha256": "aba437b40f4d4047a05db7dad71149110a6da40bb918b23ece95149f2f43b7be",
+        "decisions_csv_sha256": "fae2ff702abe94c78f7667de579eba855988078c22060600707b947636178a63",
+        "commit_sha": "f37cc4ed778ddd475a9dc3515584bb1e03827231",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "a1-also..a1-hoeren-study (50 HU rows, 28 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-023: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-12T20:29:15+00:00",
+            "sha": "f37cc4ed778ddd475a9dc3515584bb1e03827231",
+            "subject": "LRB-023: gala verdict LRB_023_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-024",
+      "branch": "cursor/lrb-024-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-13T06:29:54+00:00",
+      "re_review_started_at": "2026-09-13T06:26:55+00:00",
+      "re_review_pass_at": "2026-09-13T06:29:54+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-024-owner-authorization-proof.json",
+        "auth_proof_sha256": "946b05d46f6337e3497724e53486871d652f355f6e6477c866c2fe614e8a8fd9",
+        "decisions_csv_sha256": "566f1a4d00ea7712457c2d46c0b57ddadeea57166244ae3ee2eda71498c3f31d",
+        "commit_sha": "0867bd31d1c3011bf5adfc5098afeaf69b7be93d",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "a1-huebsch..a1-ueber (50 HU rows, 27 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-024: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T06:29:54+00:00",
+            "sha": "0867bd31d1c3011bf5adfc5098afeaf69b7be93d",
+            "subject": "LRB-024: gala verdict LRB_024_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-025",
+      "branch": "cursor/lrb-025-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-13T06:52:10+00:00",
+      "re_review_started_at": "2026-09-13T06:49:16+00:00",
+      "re_review_pass_at": "2026-09-13T06:52:10+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-025-owner-authorization-proof.json",
+        "auth_proof_sha256": "5e471200b21b02095890cf9d89216ff07bac70a6b13d8c1d0d6a1a969a9971f9",
+        "decisions_csv_sha256": "11b9aaa0bca1538c22c15d2a66c789d95130084f12703e546e9e91ffa8e2358d",
+        "commit_sha": "f429fbb6e0e6c1286a6e30a293c8f2b677cc954b",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Besuch..finden (50 HU rows, 41 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-025: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T06:52:10+00:00",
+            "sha": "f429fbb6e0e6c1286a6e30a293c8f2b677cc954b",
+            "subject": "LRB-025: gala verdict LRB_025_FULL_50_50_LINGUISTIC_REVIEW_PASS"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-026",
+      "branch": "cursor/lrb-026-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-13T07:08:35+00:00",
+      "re_review_started_at": "2026-09-13T07:05:48+00:00",
+      "re_review_pass_at": "2026-09-13T07:08:35+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-026-owner-authorization-proof.json",
+        "auth_proof_sha256": "192d7850f766d91d44f79ba6f04f400543362742a28f3e3011f31f03e420f680",
+        "decisions_csv_sha256": "316b4ba0a3d0060989ed7ce5d95761902d41fa42ba9801c74ca328a4a79fa7c2",
+        "commit_sha": "d2e8e95eb4a60784edb18f37daffc2a39f542813",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Gemüse..werden (50 HU rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-026: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T07:08:35+00:00",
+            "sha": "d2e8e95eb4a60784edb18f37daffc2a39f542813",
+            "subject": "LRB-026: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-027",
+      "branch": "cursor/lrb-027-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-13T07:25:04+00:00",
+      "re_review_started_at": "2026-09-13T07:21:34+00:00",
+      "re_review_pass_at": "2026-09-13T07:25:04+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-027-owner-authorization-proof.json",
+        "auth_proof_sha256": "1f4e5754f444825b9dab9420363fd6d36d0cdca8a5b232e2d0ffa82018ee36d2",
+        "decisions_csv_sha256": "f8c102606bec183d9bf7d2606f694a03d18ad06a22e881e0051a49c37ceab5a7",
+        "commit_sha": "ed09794bd8ae3274b2960d0a6cb2a30d8fb08516",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Wetter..Zug (5 HU) + a1-ab..a1-halten (45 IS, 27 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-027: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T07:25:04+00:00",
+            "sha": "ed09794bd8ae3274b2960d0a6cb2a30d8fb08516",
+            "subject": "LRB-027: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-028",
+      "branch": "cursor/lrb-028-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-13T07:45:59+00:00",
+      "re_review_started_at": "2026-09-13T07:42:37+00:00",
+      "re_review_pass_at": "2026-09-13T07:45:59+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-028-owner-authorization-proof.json",
+        "auth_proof_sha256": "b3a455a1e576c39a2fb411c4173d8f26556b8fd703f67cf49dc9b10ccd81c740",
+        "decisions_csv_sha256": "cb54616e4fc5bd80ceca0ebe2f63e8bafb7b90776e5f78e4c9936c84d341a024",
+        "commit_sha": "b7cb41222eeb824fbcf71e89ee5ecb313f978ae4",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "a1-halten..a1-seite (50 IS rows, 27 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-028: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T07:45:59+00:00",
+            "sha": "b7cb41222eeb824fbcf71e89ee5ecb313f978ae4",
+            "subject": "LRB-028: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-029",
+      "branch": "cursor/lrb-029-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-13T08:03:02+00:00",
+      "re_review_started_at": "2026-09-13T07:59:41+00:00",
+      "re_review_pass_at": "2026-09-13T08:03:02+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-029-owner-authorization-proof.json",
+        "auth_proof_sha256": "22879c370aea68e546ba73ee7437358b806b52d9428a844f6c91486450db1410",
+        "decisions_csv_sha256": "b01335ad73fcc6867335b19d2bcc48a73fff871574050128898e30e3a55f3f1d",
+        "commit_sha": "a07dcb16cc69ac5a6428b1648ac92642130732e8",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Abend..anziehen + a1-sich..a1-zum (50 IS rows, 38 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-029: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T08:03:02+00:00",
+            "sha": "a07dcb16cc69ac5a6428b1648ac92642130732e8",
+            "subject": "LRB-029: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-030",
+      "branch": "cursor/lrb-030-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-13T08:30:07+00:00",
+      "re_review_started_at": "2026-09-13T08:26:54+00:00",
+      "re_review_pass_at": "2026-09-13T08:30:07+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-030-owner-authorization-proof.json",
+        "auth_proof_sha256": "92e648f7e2b4cb9523cc345732d8da72e83429f95bc46b663026e9fd9eb659d1",
+        "decisions_csv_sha256": "cf71a582636c9888305a343ba84308faf4f14e298ef05a7a67bfafa431582a0d",
+        "commit_sha": "be03aadf8a364deffec3c20d786e2925247b9b01",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Arbeit..Ärztin (50 IS rows, 50 unique cards: 12 study composite + 38 scalar lv) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-030: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T08:30:07+00:00",
+            "sha": "be03aadf8a364deffec3c20d786e2925247b9b01",
+            "subject": "LRB-030: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-031",
+      "branch": "cursor/lrb-031-owner-authorization-bdda",
+      "initial_pass_at": "2026-09-13T08:45:06+00:00",
+      "re_review_started_at": "2026-09-13T08:41:08+00:00",
+      "re_review_pass_at": "2026-09-13T08:45:06+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-031-owner-authorization-proof.json",
+        "auth_proof_sha256": "30c89511f6a3a4b85270207bf30057ecf814b74b8e729c5e6c0dea6a46ea6422",
+        "decisions_csv_sha256": "63b1254957fe2f84bdf27ddeb06eaea093699d08834978419dcac7ac3b85465d",
+        "commit_sha": "51f227036ed005c877375226553f9742b482dda3",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Blume..er (50 IS rows, 50 unique cards: 4 study composite + 46 scalar lv) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-031: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T08:45:06+00:00",
+            "sha": "51f227036ed005c877375226553f9742b482dda3",
+            "subject": "LRB-031: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-032",
+      "branch": "cursor/lrb-032-owner-authorization-6530",
+      "initial_pass_at": "2026-09-13T09:07:36+00:00",
+      "re_review_started_at": "2026-09-13T09:04:17+00:00",
+      "re_review_pass_at": "2026-09-13T09:07:36+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-032-owner-authorization-proof.json",
+        "auth_proof_sha256": "b924d41805de8527d708531dadb44d4d2bdfe4da2288567480a277ddfffb0f6c",
+        "decisions_csv_sha256": "b864767aab39b8ad6b649adbc5a8a36c7ea2ba3655e571b9c848da009d4e81d1",
+        "commit_sha": "ce559ac31478e7738a6c9a8b95a3c9c478575f0d",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "erst..gleich (50 IS rows, 50 unique cards: 20 study composite + 30 scalar lv) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-032: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T09:07:36+00:00",
+            "sha": "ce559ac31478e7738a6c9a8b95a3c9c478575f0d",
+            "subject": "LRB-032: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-033",
+      "branch": "cursor/lrb-033-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T09:25:29+00:00",
+      "re_review_started_at": "2026-09-13T09:23:12+00:00",
+      "re_review_pass_at": "2026-09-13T09:25:29+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-033-owner-authorization-proof.json",
+        "auth_proof_sha256": "4017074a12e17e7eec6f730da23b6b599914eb3acb137c9e7def8343b6b75a69",
+        "decisions_csv_sha256": "be22bee8a5b0c1acf9012a39b0f5b5fad1b43d25799eeb34e2c108b8f9a7c99c",
+        "commit_sha": "9749d4d14bfc4b6b4a3ec76044212608c8d0b4dd",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Grammatik..Karotte (50 IS rows, 49 unique cards + jetzt multi-translation) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-033: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T09:25:29+00:00",
+            "sha": "9749d4d14bfc4b6b4a3ec76044212608c8d0b4dd",
+            "subject": "LRB-033: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-034",
+      "branch": "cursor/lrb-034-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T09:41:04+00:00",
+      "re_review_started_at": "2026-09-13T09:37:24+00:00",
+      "re_review_pass_at": "2026-09-13T09:41:04+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-034-owner-authorization-proof.json",
+        "auth_proof_sha256": "02ad3b2e21325bffe50891f309a483f8a5f62f490bdf506473a5c5623d12b27d",
+        "decisions_csv_sha256": "d9ac208886892b2c85cec75c6a143bbabdcc6993fed564175e375f75006c15d3",
+        "commit_sha": "233cd302e75ddd8d5b6bfb275a36c6ed771030fa",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Kartoffel..leider (50 IS rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-034: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T09:41:04+00:00",
+            "sha": "233cd302e75ddd8d5b6bfb275a36c6ed771030fa",
+            "subject": "LRB-034: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-035",
+      "branch": "cursor/lrb-035-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T09:58:15+00:00",
+      "re_review_started_at": "2026-09-13T09:54:53+00:00",
+      "re_review_pass_at": "2026-09-13T09:58:15+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-035-owner-authorization-proof.json",
+        "auth_proof_sha256": "ca78f375abb66601c7e3502a8695a3a582841c7f135013731ebb53d8935e4555",
+        "decisions_csv_sha256": "5cf04f2ee52549773ea22121e1459f61a4d3895df502a5aafab0534a5dc48f16",
+        "commit_sha": "a092238d01d66803de57afeddadeee8cb38542bc",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "leise..Montag (50 IS rows, 48 unique cards + links/malen multi-translation) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-035: apply GPT-5.6 Luna FULL_50_50 copy/paste (50 LABOT)",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T09:58:15+00:00",
+            "sha": "a092238d01d66803de57afeddadeee8cb38542bc",
+            "subject": "LRB-035: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-036",
+      "branch": "cursor/lrb-036-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T10:18:02+00:00",
+      "re_review_started_at": "2026-09-13T10:14:57+00:00",
+      "re_review_pass_at": "2026-09-13T10:18:02+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-036-owner-authorization-proof.json",
+        "auth_proof_sha256": "09c942a65e7e5524904ac2f9d1da890ad997b81de3a7fbf04167c08137658d13",
+        "decisions_csv_sha256": "23344d4b6a0136e9d631448005f349e44065dc39be34dd52d8c82375745562e2",
+        "commit_sha": "659c1ec97e1b20b833048c48f35bffc731dac342",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "morgen..Orange (50 IS rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-036: GPT-5.6 Luna COPY-PASTE — 50 LABOT, anti-bulk/residual/PDF PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T10:18:02+00:00",
+            "sha": "659c1ec97e1b20b833048c48f35bffc731dac342",
+            "subject": "LRB-036: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-037",
+      "branch": "cursor/lrb-037-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T10:33:27+00:00",
+      "re_review_started_at": "2026-09-13T10:28:11+00:00",
+      "re_review_pass_at": "2026-09-13T10:33:27+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-037-owner-authorization-proof.json",
+        "auth_proof_sha256": "91bade3ce2aec7d10c041f86553e3bcd71738521320937691ba3cbea06f84ea9",
+        "decisions_csv_sha256": "02cfc1d33148e08aa4f9f8927026f085161f85607d13ee1c9e58743013dc3494",
+        "commit_sha": "0504c8d30da68acffe1ae4d2c1a8e274a8ac10a2",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Ostern..schneien (50 IS rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-037: GPT-5.6 Luna COPY-PASTE — 50 LABOT, anti-bulk/residual/PDF PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T10:33:27+00:00",
+            "sha": "0504c8d30da68acffe1ae4d2c1a8e274a8ac10a2",
+            "subject": "LRB-037: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-038",
+      "branch": "cursor/lrb-038-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T10:51:46+00:00",
+      "re_review_started_at": "2026-09-13T10:46:11+00:00",
+      "re_review_pass_at": "2026-09-13T10:51:46+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-038-owner-authorization-proof.json",
+        "auth_proof_sha256": "6cd61ee5e8a2de798ce4066c9c85d71b4289bac80d55b3072546c5f59a399db8",
+        "decisions_csv_sha256": "386854f5ee5c7147cd6d03bf9de8688376e1c9fd4f5f156d7b61db7dcf2ac9e2",
+        "commit_sha": "f4a263a9c710f0a74ed226d6729924b9f4b8dde1",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "schnell..spazieren gehen (50 IS rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-038: GPT-5.6 Luna COPY-PASTE — 50 LABOT, anti-bulk/residual/PDF PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T10:51:46+00:00",
+            "sha": "f4a263a9c710f0a74ed226d6729924b9f4b8dde1",
+            "subject": "LRB-038: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-039",
+      "branch": "cursor/lrb-039-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T11:03:39+00:00",
+      "re_review_started_at": "2026-09-13T11:01:11+00:00",
+      "re_review_pass_at": "2026-09-13T11:03:39+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-039-owner-authorization-proof.json",
+        "auth_proof_sha256": "177811493fd8bdda571e1b5a45b91f3603f486671ddf15f3ddf2a0a7c280c650",
+        "decisions_csv_sha256": "869cb29cba125516adffaaa6e0ba1c5c881e20a57205a483688c5754408e490e",
+        "commit_sha": "65062f33e4a2b2fba02569e7e3888e21fb6a62cb",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Spiel..vierzigste (50 IS rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-039: GPT-5.6 Luna COPY-PASTE — 50 LABOT, anti-bulk/residual/PDF PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T11:03:39+00:00",
+            "sha": "65062f33e4a2b2fba02569e7e3888e21fb6a62cb",
+            "subject": "LRB-039: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-040",
+      "branch": "cursor/lrb-040-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T11:18:29+00:00",
+      "re_review_started_at": "2026-09-13T11:14:23+00:00",
+      "re_review_pass_at": "2026-09-13T11:18:29+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (pending→FULL_50_50 copy/paste)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-040-owner-authorization-proof.json",
+        "auth_proof_sha256": "4dea2ab7a24ceb59b5a3e8181a5ee32a5836a7ddbb2a316659adb99d65852e62",
+        "decisions_csv_sha256": "b1f07b3c298c8aa3745ab74d37242fc5c00a6264eea15a85c9e3f7b08f1a909b",
+        "commit_sha": "dc62ea3eaca5e66b24aebc23ff648082d0e7e4fe",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Vogel..zwölf (50 IS rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-040: GPT-5.6 Luna COPY-PASTE — 50 LABOT, anti-bulk/residual/PDF PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T11:18:29+00:00",
+            "sha": "dc62ea3eaca5e66b24aebc23ff648082d0e7e4fe",
+            "subject": "LRB-040: Gala FULL_50_50 linguistic review PASS — LINGUISTICALLY_CLOSED"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-041",
+      "branch": "cursor/lrb-041-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T11:29:02+00:00",
+      "re_review_started_at": "2026-09-13T11:26:12+00:00",
+      "re_review_pass_at": "2026-09-13T11:29:02+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_RE_REVIEW (final mop-up)",
+      "group": "B",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-041-owner-authorization-proof.json",
+        "auth_proof_sha256": "c6dfe369a010d9b9f639ab4f7258526ee498bdf856c33b778ad63b189a90bc8c",
+        "decisions_csv_sha256": "8f9075398ac13c2bcf2a107194a4b896e8da5aeaa97da4fb453ffe367d41a26e",
+        "commit_sha": "cc2631af25e5f5e517deb9eee206edf7008d1290",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Wasser..rechts (11 IS rows, 11 unique findings) final IS mop-up GPT-5.6 Luna FULL paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-041: GPT-5.6 Luna COPY-PASTE — 11 LABOT, anti-bulk/residual/PDF PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T11:29:02+00:00",
+            "sha": "cc2631af25e5f5e517deb9eee206edf7008d1290",
+            "subject": "LRB-041: Gala verdict LRB_041_FULL_50_50_LINGUISTIC_REVIEW_PASS (11 LABOT, IS mop-up closed)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-042",
+      "branch": "cursor/lrb-042-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T11:51:30+00:00",
+      "re_review_started_at": "2026-09-13T11:47:30+00:00",
+      "re_review_pass_at": "2026-09-13T11:51:30+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (first FI pool batch)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-042-owner-authorization-proof.json",
+        "auth_proof_sha256": "dc233d9764026941c2da141e881b4492a5d855ab58bd66016357c4327f0c0ba3",
+        "decisions_csv_sha256": "fc05f90bd870541babff987f61bafebc50f035033139c689989135f721a1e024",
+        "commit_sha": "e69e6306a6ce6c0f3d9b9f840e23b7aef0994880",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Apfel..Bein (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-042: GPT-5.6 Luna COPY-PASTE — 48 LABOT / 2 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T11:51:30+00:00",
+            "sha": "e69e6306a6ce6c0f3d9b9f840e23b7aef0994880",
+            "subject": "LRB-042: Gala verdict LRB_042_FULL_50_50_LINGUISTIC_REVIEW_PASS (48 LABOT, 2 NELABOT)"
+          }
+        ],
+        "first_fi_commit": "LRB-042: owner authorization APPROVED — first FI batch Apfel..Bein (50 rows)"
+      }
+    },
+    {
+      "batch_id": "LRB-043",
+      "branch": "cursor/lrb-043-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T12:09:08+00:00",
+      "re_review_started_at": "2026-09-13T12:03:23+00:00",
+      "re_review_pass_at": "2026-09-13T12:09:08+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-043-owner-authorization-proof.json",
+        "auth_proof_sha256": "b93cf0a5485a44d6086b628696adf02c335d9e457e25a6c433deaf685a223ef6",
+        "decisions_csv_sha256": "15c27844cc877e0925f4d57c96040a8635d7dcfced21384919848a19d444f175",
+        "commit_sha": "0b5c5814bb991bdcbaaf2aa9468896e86b6be133",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Beispiel..Ende (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-043: GPT-5.6 Luna COPY-PASTE — 48 LABOT / 2 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T12:09:08+00:00",
+            "sha": "0b5c5814bb991bdcbaaf2aa9468896e86b6be133",
+            "subject": "LRB-043: Gala verdict LRB_043_FULL_50_50_LINGUISTIC_REVIEW_PASS (48 LABOT, 2 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-044",
+      "branch": "cursor/lrb-044-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T12:23:09+00:00",
+      "re_review_started_at": "2026-09-13T12:20:06+00:00",
+      "re_review_pass_at": "2026-09-13T12:23:09+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-044-owner-authorization-proof.json",
+        "auth_proof_sha256": "890b419fcb10db4de33a598eb58b9409b615399b6065c66f2c39932ce8041d6f",
+        "decisions_csv_sha256": "f33f4ddd3d2bf7dfc75a246cbec0d98b0d92406d806bf7bc29c99b984ead4131",
+        "commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "er..gestern (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-044: GPT-5.6 Luna COPY-PASTE — 48 LABOT / 2 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T12:23:09+00:00",
+            "sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+            "subject": "LRB-044: Gala verdict LRB_044_FULL_50_50_LINGUISTIC_REVIEW_PASS (48 LABOT, 2 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-045",
+      "branch": "cursor/lrb-045-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T12:43:47+00:00",
+      "re_review_started_at": "2026-09-13T12:41:26+00:00",
+      "re_review_pass_at": "2026-09-13T12:43:47+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-045-owner-authorization-proof.json",
+        "auth_proof_sha256": "f8a89fa5886a83fec1c3eb139c819b7e59ef8e98cb4de2f08c74e3809ca52ed6",
+        "decisions_csv_sha256": "bbe8d7ac2c25acea8c9c88f67b4cc686aef630095f5fc69dbf2ade44046c2016",
+        "commit_sha": "952cb8ecacc7c1609866044d43b8a3e63150dbd2",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "gesund..höflich (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste (round 2 composite fix)",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-045: GPT-5.6 Luna COPY-PASTE — 48 LABOT / 2 NELABOT, PDF audit BLOCKED",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T12:43:47+00:00",
+            "sha": "952cb8ecacc7c1609866044d43b8a3e63150dbd2",
+            "subject": "LRB-045: Gala verdict LRB_045_FULL_50_50_LINGUISTIC_REVIEW_PASS (48 LABOT, 2 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-046",
+      "branch": "cursor/lrb-046-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T12:58:19+00:00",
+      "re_review_started_at": "2026-09-13T12:56:13+00:00",
+      "re_review_pass_at": "2026-09-13T12:58:47+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-046-owner-authorization-proof.json",
+        "auth_proof_sha256": "62605ebd80191dd4fcae8050c694b3a470ff631c1d8462c43aed884df5276fa3",
+        "decisions_csv_sha256": "c6b6f537be2a4af11c8b348b9a5f9180f96a484276cf51b2dea4ed7c1e59bfd5",
+        "commit_sha": "cc3fe938c46bb10a635e237a9552c7dc32956be0",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "hören..leicht (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-046: GPT-5.6 Luna COPY-PASTE — 49 LABOT / 1 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T12:58:19+00:00",
+            "sha": "0691afe973295591ab3138ebf0a474d2c06fbec2",
+            "subject": "LRB-046: Gala verdict LRB_046_FULL_50_50_LINGUISTIC_REVIEW_PASS (49 LABOT, 1 NELABOT)"
+          },
+          {
+            "at": "2026-09-13T12:58:47+00:00",
+            "sha": "cc3fe938c46bb10a635e237a9552c7dc32956be0",
+            "subject": "Gala: LRB-046 FULL_50_50 LINGUISTIC_REVIEW_PASS (49 LABOT / 1 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-047",
+      "branch": "cursor/lrb-047-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T13:21:05+00:00",
+      "re_review_started_at": "2026-09-13T13:15:32+00:00",
+      "re_review_pass_at": "2026-09-13T13:21:05+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-047-owner-authorization-proof.json",
+        "auth_proof_sha256": "5da5fa40f6323af0cf9d41fd9e008247eb25f8625e5caf1cd45b4f5b3b2f5b70",
+        "decisions_csv_sha256": "4fa23890d2314cf26fddbd4e5f944333e4cd428b57a50ac9da56db37ab1ac0d8",
+        "commit_sha": "29eabf26df096298b26de928c01b7af37ccbfe79",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "leider..Montag (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste (round 2 composite fix)",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-047: GPT-5.6 Luna COPY-PASTE — 49 LABOT / 1 NELABOT, PDF audit BLOCKED",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T13:21:05+00:00",
+            "sha": "29eabf26df096298b26de928c01b7af37ccbfe79",
+            "subject": "Gala: LRB-047 FULL_50_50 LINGUISTIC_REVIEW_PASS (49 LABOT / 1 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-048",
+      "branch": "cursor/lrb-048-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T13:33:59+00:00",
+      "re_review_started_at": "2026-09-13T13:29:20+00:00",
+      "re_review_pass_at": "2026-09-13T13:33:59+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-048-owner-authorization-proof.json",
+        "auth_proof_sha256": "15c0e6f62f14db9c1faa964c6aec35bb60bcb604a9d876c32e249b7afd738aa1",
+        "decisions_csv_sha256": "be24953e9b87f4a2e62dd5e6bb075672a0a0d531725463c3be12a7e1ce9997b5",
+        "commit_sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "morgen..Orange (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-048: GPT-5.6 Luna COPY-PASTE — 47 LABOT / 3 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T13:33:59+00:00",
+            "sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+            "subject": "Gala: LRB-048 FULL_50_50 LINGUISTIC_REVIEW_PASS (47 LABOT / 3 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-049",
+      "branch": "cursor/lrb-049-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T13:46:59+00:00",
+      "re_review_started_at": "2026-09-13T13:43:02+00:00",
+      "re_review_pass_at": "2026-09-13T13:46:59+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-049-owner-authorization-proof.json",
+        "auth_proof_sha256": "02d0c5273d8febc07583c721a9d54352c7af090de80bd2cc5bada548d9823417",
+        "decisions_csv_sha256": "4ba689cd8f84c3de4e5fc23a2dfc83f3f32ce138b9bda9a87f74011d01e1d5e1",
+        "commit_sha": "413e81ef9064421a95b4fbe08527b9aab3fad119",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Ostern..schmutzig (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-049: GPT-5.6 Luna COPY-PASTE — 47 LABOT / 3 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T13:46:59+00:00",
+            "sha": "413e81ef9064421a95b4fbe08527b9aab3fad119",
+            "subject": "Gala: LRB-049 FULL_50_50 LINGUISTIC_REVIEW_PASS (47 LABOT / 3 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-050",
+      "branch": "cursor/lrb-050-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T14:01:43+00:00",
+      "re_review_started_at": "2026-09-13T13:57:17+00:00",
+      "re_review_pass_at": "2026-09-13T14:01:43+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-050-owner-authorization-proof.json",
+        "auth_proof_sha256": "25e07708f107d4e8b824fa6a7f2d278b688bde9ace076e1107c120d16f3475cf",
+        "decisions_csv_sha256": "251d462a4632c7424c1527a33b9bac46abac2917e9c7c86b7477c8737d3668ae",
+        "commit_sha": "eea4ddb610d0bedf579e961bb2be12bbb17777a0",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Schnee..Tee (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-050: GPT-5.6 Luna COPY-PASTE — 48 LABOT / 2 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T14:01:43+00:00",
+            "sha": "eea4ddb610d0bedf579e961bb2be12bbb17777a0",
+            "subject": "Gala: LRB-050 FULL_50_50 LINGUISTIC_REVIEW_PASS (48 LABOT / 2 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-051",
+      "branch": "cursor/lrb-051-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T14:36:28+00:00",
+      "re_review_started_at": "2026-09-13T14:15:15+00:00",
+      "re_review_pass_at": "2026-09-13T14:36:28+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-051-owner-authorization-proof.json",
+        "auth_proof_sha256": "c5db67f9e8587da0202253eac3c8c3e1e3ade9b94298cd56e6d64eb5e5be2896",
+        "decisions_csv_sha256": "ac1de6b393bbeca07740bca1bf9adab73b3a8add2739054c2bc7fb65921803fd",
+        "commit_sha": "197d542c9603baa08edb481ac0bd0d625f7c3986",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Telefon..sich waschen (50 FI rows, 50 unique cards) GPT-5.6 Luna FULL_50_50 paste",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-051: GPT-5.6 Luna COPY-PASTE — 48 LABOT / 2 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T14:36:28+00:00",
+            "sha": "197d542c9603baa08edb481ac0bd0d625f7c3986",
+            "subject": "Gala: LRB-051 FULL_50_50 LINGUISTIC_REVIEW_PASS (48 LABOT / 2 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-052",
+      "branch": "cursor/lrb-052-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T15:01:25+00:00",
+      "re_review_started_at": "2026-09-13T14:49:21+00:00",
+      "re_review_pass_at": "2026-09-13T15:01:25+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-052-owner-authorization-proof.json",
+        "auth_proof_sha256": "e702cea7b6a2d6d733dd36b5c3a5eab679967de72e520fd6d1e8464137d74ecc",
+        "decisions_csv_sha256": "0508ad10b7211fa56b37a28e3146e72e0a6dcb270b5121679d75f4cbc1f9fd15",
+        "commit_sha": "9184860bb7734b7a092ec8c9d588787b58cba5ca",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "Weg..noch mal (45 FI rows, 45 unique cards) GPT-5.6 Luna FULL_50_50 paste — final 7737 FI pool mop-up",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-052: GPT-5.6 Luna COPY-PASTE — 45 LABOT / 0 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T15:01:25+00:00",
+            "sha": "9184860bb7734b7a092ec8c9d588787b58cba5ca",
+            "subject": "Gala: LRB-052 FULL_50_50 LINGUISTIC_REVIEW_PASS (45 LABOT / 0 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-053",
+      "branch": "cursor/lrb-053-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T15:23:09+00:00",
+      "re_review_started_at": "2026-09-13T15:19:52+00:00",
+      "re_review_pass_at": "2026-09-13T15:23:09+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-053-owner-authorization-proof.json",
+        "auth_proof_sha256": "cf92150aae47a58218c0b8e63af8e62e1830ee20ffe0dfbc862f1a69d1e32b50",
+        "decisions_csv_sha256": "937a8081b7ed87c1f58207e58bf05c1a737ca8bf6608fca83e47f448b06bc66d",
+        "commit_sha": "00c3cbe75ec869e68ae3ec8b71666effa873529a",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "a1-ab..a1-hoeren-study (50 FI rows, 29 unique cards) GPT-5.6 Luna FULL_50_50 paste — non-idx FI batch 12",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-053: GPT-5.6 Luna COPY-PASTE — 50 LABOT / 0 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T15:23:09+00:00",
+            "sha": "00c3cbe75ec869e68ae3ec8b71666effa873529a",
+            "subject": "Gala: LRB-053 FULL_50_50 LINGUISTIC_REVIEW_PASS (50 LABOT / 0 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-054",
+      "branch": "cursor/lrb-054-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T15:41:58+00:00",
+      "re_review_started_at": "2026-09-13T15:37:52+00:00",
+      "re_review_pass_at": "2026-09-13T15:41:58+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-054-owner-authorization-proof.json",
+        "auth_proof_sha256": "a62d1e129075b5e987e6545ee3e0fbd3b26f79b874062d3f2265ebf96ccc1437",
+        "decisions_csv_sha256": "f2a3ad7c712b0dcd22e7228c4c9182a669a43fb612f29e983e6e329030ffa817",
+        "commit_sha": "5ca65957bf63404f14e81aac7af81e8a7b8d7b08",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "a1-huebsch..a1-ueber (50 FI rows, 27 unique cards) GPT-5.6 Luna FULL_50_50 paste — non-idx FI batch 13",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-054: GPT-5.6 Luna COPY-PASTE — 50 LABOT / 0 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T15:41:58+00:00",
+            "sha": "5ca65957bf63404f14e81aac7af81e8a7b8d7b08",
+            "subject": "Gala: LRB-054 FULL_50_50 LINGUISTIC_REVIEW_PASS (50 LABOT / 0 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    },
+    {
+      "batch_id": "LRB-055",
+      "branch": "cursor/lrb-055-owner-authorization-aa66",
+      "initial_pass_at": "2026-09-13T15:55:16+00:00",
+      "re_review_started_at": "2026-09-13T15:51:21+00:00",
+      "re_review_pass_at": "2026-09-13T15:55:16+00:00",
+      "full_card_artifact": true,
+      "review_generation": "EXPANDED_STANDARD_FIRST_REVIEW (paste_source + FULL_50_50 scope)",
+      "group": "C",
+      "two_review_stages_on_git": true,
+      "evidence": {
+        "auth_proof_path": "reports/g2-a1-owner/batches-reviewed/LRB-055-owner-authorization-proof.json",
+        "auth_proof_sha256": "386192423bc6979f41c55fe9ce9a88d681b30b1427c0d7032f658674d909cdca",
+        "decisions_csv_sha256": "212fa7954784ccf483fbf20ce265b05f77d99c66e38a209af6e3277ede218c0a",
+        "commit_sha": "97f7c461c91cf52898a2ce5b7b7c5a9ea8251748",
+        "paste_source": "gpt-5.6-luna-copy-paste",
+        "full_composite_completeness": "PASS",
+        "gala_repair_flag": false,
+        "scope_excerpt": "a1-ueber..rechts (23 FI rows, 14 unique cards) GPT-5.6 Luna FULL_50_50 paste — final 7737 FI non-idx mop-up",
+        "phase_b_commit": null,
+        "gala_repair_commit": null,
+        "copy_paste_commit": "LRB-055: GPT-5.6 Luna COPY-PASTE — 23 LABOT / 0 NELABOT, audits PASS",
+        "gala_pass_commits": [
+          {
+            "at": "2026-09-13T15:55:16+00:00",
+            "sha": "97f7c461c91cf52898a2ce5b7b7c5a9ea8251748",
+            "subject": "Gala: LRB-055 FULL_50_50 LINGUISTIC_REVIEW_PASS (23 LABOT / 0 NELABOT)"
+          }
+        ],
+        "first_fi_commit": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-18T14:26:09.005Z",
+  "gates": {
+    "lrb_coverage": "103/103",
+    "linguistically_closed": "103/103",
+    "pending": 0,
+    "unresolved_owner_conflicts": 0,
+    "owner_45_applied": "45/45",
+    "duplicate_final_keys": 0,
+    "missing_final_values": 0,
+    "superseded_values_selected": 0,
+    "de_change_targets": 0,
+    "production_changes": 0,
+    "crowdin_changes": 0,
+    "ingest_apply_changes": 0,
+    "batch_row_trace_gaps": 0,
+    "independent_owner_conflicts": 0
+  },
+  "classification": "A1_LRB_001_103_CONSOLIDATED_OWNER_MAPPING_READY_AWAITING_VERIFICATION",
+  "next_action": "OWNER_VERIFY_CONSOLIDATED_MAPPING",
+  "resolution_class_counts": {
+    "EXPANDED_STANDARD_FULL_CARD": 4890,
+    "UNCHALLENGED_GALA_FINAL": 28173,
+    "PROVEN_SEQUENTIAL_SUPERSESSION": 44,
+    "LATEST_GALA_CORRECTION": 2703,
+    "OWNER_45_RESOLUTION": 45
+  },
+  "full_cards_sample": [
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "a1-uhr",
+      "post_owner_card": {
+        "lv": "",
+        "study": {
+          "examples": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+              "lv": ""
+            }
+          ]
+        }
+      },
+      "contributing_batches": [
+        "LRB-001"
+      ],
+      "leaf_field_count": 1
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "also",
+      "post_owner_card": {
+        "lv": "",
+        "study": {
+          "examples": [
+            null,
+            {
+              "lv": "",
+              "lv; study": {
+                "examples": [
+                  null,
+                  null,
+                  {
+                    "lv": ""
+                  }
+                ]
+              }
+            },
+            {
+              "lv": ""
+            }
+          ]
+        }
+      },
+      "contributing_batches": [
+        "LRB-001"
+      ],
+      "leaf_field_count": 3
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "auch",
+      "post_owner_card": {
+        "lv": "",
+        "study": {
+          "examples": [
+            null,
+            {
+              "lv": "",
+              "lv; study": {
+                "examples": [
+                  null,
+                  null,
+                  {
+                    "lv": ""
+                  }
+                ]
+              }
+            },
+            {
+              "lv": ""
+            }
+          ]
+        }
+      },
+      "contributing_batches": [
+        "LRB-001"
+      ],
+      "leaf_field_count": 3
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "auf",
+      "post_owner_card": {
+        "lv": "",
+        "study": {
+          "comparison": [
+            null,
+            {
+              "comparison": [
+                null,
+                ""
+              ],
+              "; study": {
+                "examples": [
+                  null,
+                  {
+                    "lv": ""
+                  }
+                ]
+              }
+            }
+          ],
+          "examples": [
+            null,
+            {
+              "lv": ""
+            }
+          ]
+        }
+      },
+      "contributing_batches": [
+        "LRB-001"
+      ],
+      "leaf_field_count": 3
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "aufs",
+      "post_owner_card": {
+        "lv": "До (накъде?)",
+        "study": {
+          "examples": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            {
+              "lv": ""
+            }
+          ],
+          "explanation": [
+            null,
+            null,
+            {
+              "explanation": [
+                null,
+                null,
+                {
+                  "explanation": [
+                    null,
+                    null,
+                    "Използва се, когато дадено действие показва посоката към определено нещо или повърхност - отговаря на въпроса къде?"
+                  ]
+                }
+              ],
+              "; study": {
+                "important": [
+                  {
+                    "; study": {
+                      "important": [
+                        null,
+                        null,
+                        {
+                          "; study": {
+                            "important": [
+                              null,
+                              null,
+                              null,
+                              {
+                                "; study": {
+                                  "examples": [
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    null,
+                                    {
+                                      "lv": ""
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "important": [
+            {
+              "important": [
+                {
+                  "important": [
+                    "Aufs = auf das, само със съществително от произволен род, къде? в завоя."
+                  ]
+                }
+              ]
+            },
+            null,
+            {
+              "important": [
+                null,
+                null,
+                {
+                  "important": [
+                    null,
+                    null,
+                    "На хоризонтална повърхност често се използва auf den вместо aufs."
+                  ]
+                }
+              ]
+            },
+            {
+              "important": [
+                null,
+                null,
+                null,
+                {
+                  "important": [
+                    null,
+                    null,
+                    null,
+                    "Да не се бърка с \"in\" (на стената) или \"ins\" (вътре в стаята)."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "contributing_batches": [
+        "LRB-001"
+      ],
+      "leaf_field_count": 7
+    }
+  ],
+  "full_cards_total": 3876
+}
