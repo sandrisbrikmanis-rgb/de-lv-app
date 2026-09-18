@@ -1,0 +1,1176 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_OWNER_FULL_CARD_REVIEW_REQUIRED",
+  "base_head": "7934d943e4240117fabcee58f7e91ff6f72b2375",
+  "cards": [
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "aufs",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "das",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "finden",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "gleich",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "groß",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "gut",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "ihr",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "im",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bs",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bs",
+      "canonical_card_object_id": "etwas",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bs",
+      "canonical_card_object_id": "gut",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "bs",
+      "canonical_card_object_id": "Morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "cs",
+      "canonical_card_object_id": "Mann",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "cs",
+      "canonical_card_object_id": "mit",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "cs",
+      "canonical_card_object_id": "mögen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "cs",
+      "canonical_card_object_id": "morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "cs",
+      "canonical_card_object_id": "Morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "da",
+      "canonical_card_object_id": "gleich",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "da",
+      "canonical_card_object_id": "können",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "da",
+      "canonical_card_object_id": "Laden",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "da",
+      "canonical_card_object_id": "Land",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "ab",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "aber",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "an",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "ein",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "Eis",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "es",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "essen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "etwas",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "ganz",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "klein",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "nach",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "nehmen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "ob",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "sprechen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "stehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "zum",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "aufs",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "dass",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "Eis",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "es",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "oder",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "passen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "bitte",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "Bitte",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "bleiben",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "bringen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "da",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-ab",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-aber",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-also",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-besuch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-besuchen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-fahren",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-nehmen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-passen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-sich",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "Bitte",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "nicht",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "Pizza",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "Sache",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "Besuch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "einmal",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "Essen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "Ferien",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "Gemüse",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "Morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "Obst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "fr",
+      "canonical_card_object_id": "Urlaub",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "gr",
+      "canonical_card_object_id": "noch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "gr",
+      "canonical_card_object_id": "nur",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "gr",
+      "canonical_card_object_id": "passen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "ab",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "aber",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "Essen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "gleich",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "klein",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "Laden",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "lang",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "is",
+      "canonical_card_object_id": "Essen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "is",
+      "canonical_card_object_id": "Ferien",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "is",
+      "canonical_card_object_id": "Gemüse",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "is",
+      "canonical_card_object_id": "Obst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "is",
+      "canonical_card_object_id": "Urlaub",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "Eis",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "etwas",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "fahren",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "fernsehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "Fernsehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "jung",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "kein",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "laufen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "Mann",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "mit",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "mögen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "Morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "nach",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "werden",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "Wetter",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "wie",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "zu",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "Zug",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "nl",
+      "canonical_card_object_id": "schwimmen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "nl",
+      "canonical_card_object_id": "sich",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "nn",
+      "canonical_card_object_id": "a1-neu",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "nn",
+      "canonical_card_object_id": "a1-verstehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "nn",
+      "canonical_card_object_id": "a1-wie",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "bitte",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "Bitte",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "bleiben",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "etwas",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "euch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "fahren",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "gleich",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "groß",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "Großeltern",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "gut",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "haben",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "halten",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "Hand",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "heißen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "hoch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "hören",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "a1-wie",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "aber",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "Appetit",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "leise",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "Liter",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "machen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "Mal",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "werden",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "wie",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sk",
+      "canonical_card_object_id": "Zug",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "ab",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "aber",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "an",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "auch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "aufs",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "bei",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "bleiben",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "da",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "das",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "ein",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "Eis",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "Ferien",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "gefallen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "gleich",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "klein",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "sprechen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sq",
+      "canonical_card_object_id": "baden",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sq",
+      "canonical_card_object_id": "Besuch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sq",
+      "canonical_card_object_id": "besuchen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "also",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "auch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "auf",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "aufs",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "aus",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "dass",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "der",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "die",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "Morgen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "oder",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "schwimmen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sein",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "Seite",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sich",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sicher",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sie",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "Sie",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sitzen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sollen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "vom",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "vor",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "was",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "wenn",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "wer",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "ab",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "aber",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "an",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "baden",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "bei",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "Besuch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "besuchen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "das",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "dass",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "der",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "die",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "dieser",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "fernsehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "Fernsehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "ganz",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "hoch",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "lassen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "laufen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "laut",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "Laut",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "legen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "sprechen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "stehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "über",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "um",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "unter",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "verstehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "vom",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "vor",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "was",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "wenn",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "wer",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "Appetit",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "besuchen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "das",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "dass",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "der",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "die",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "dieser",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "ein",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "Eis",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "es",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "essen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "fernsehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "Fernsehen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "sollen",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "zum",
+      "full_card_owner_new": null
+    },
+    {
+      "target_language": "uk",
+      "canonical_card_object_id": "ihr",
+      "full_card_owner_new": null
+    }
+  ]
+}

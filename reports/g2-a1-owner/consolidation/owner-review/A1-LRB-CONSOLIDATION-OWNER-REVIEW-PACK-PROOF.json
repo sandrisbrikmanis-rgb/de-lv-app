@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "classification": "A1_LRB_CONSOLIDATION_OWNER_REVIEW_PACK_READY",
+  "generated_at": "2026-09-18T17:30:49.415Z",
+  "base_head": "7934d943e4240117fabcee58f7e91ff6f72b2375",
+  "git_head": "7934d943e4240117fabcee58f7e91ff6f72b2375",
+  "read_only_selection": true,
+  "linguistic_changes_made": 0,
+  "consolidated_mapping_modified": false,
+  "problematic_finding_rows": 63,
+  "unique_problem_cards": 234,
+  "problem_type_counts_on_unique_cards": {
+    "RECONSTRUCTION_FAILED": 7,
+    "OWNER_REVIEW_REQUIRED": 0,
+    "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW": 49,
+    "READY_EMPTY_LV": 74,
+    "READY_EMPTY_EXAMPLE_LV": 105,
+    "READY_EMPTY_TRANSLATION_LEAF": 38,
+    "BASELINE_LEAF_DECISION_POOL": 1,
+    "BASELINE_PARTIAL": 0,
+    "GALA_FULL_BASELINE_NOT_PROVABLE": 4
+  },
+  "not_apply_mapped_total": 186,
+  "view_artifact": {
+    "multipart": true,
+    "parts": [
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-001.json",
+        "sha256": "221f69cd8478ac49e00990c928b15a4590f58d22c8f00c6ab52c07513b480251",
+        "byte_length": 212088,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-002.json",
+        "sha256": "b62e666976fd8339bd3c9dbd0ff517e8dbec2a453713dd3c70e011594bbbd254",
+        "byte_length": 252543,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-003.json",
+        "sha256": "31e47a9512747d794f06d9bb604e39734a4c1b09f6ec3cc607d0b7be072e081f",
+        "byte_length": 414310,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-004.json",
+        "sha256": "39b2ba87f224b4137a534f913806aae964c4b66898f5964a9242f0a39f19bb4a",
+        "byte_length": 489232,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-005.json",
+        "sha256": "bdf7f42e9f4d53cc5fdb04b11cb9ab5416e40387e750134391772da4e7b5a05e",
+        "byte_length": 455651,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-006.json",
+        "sha256": "688c158b445c459f6a067e9f09a5461135abd6ea109d9a95353430d912ed035c",
+        "byte_length": 433961,
+        "row_count": 34
+      }
+    ]
+  },
+  "copy_paste_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json",
+  "task_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-VEICAMO-LABOJUMU-UZDEVUMS-4.txt"
+}

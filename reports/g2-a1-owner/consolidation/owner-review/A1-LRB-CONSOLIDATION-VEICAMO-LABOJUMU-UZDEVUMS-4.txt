@@ -1,0 +1,23 @@
+A1 LRB-001…103 konsolidācija — OWNER pilno kartīšu manuālais labojums (4. raunds)
+
+Bāzes HEAD: 7934d943e4240117fabcee58f7e91ff6f72b2375
+Klasifikācija: A1_LRB_CONSOLIDATION_OWNER_FULL_CARD_REVIEW_REQUIRED
+
+Uzdevums:
+- Aizpildīt A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json laukā full_card_owner_new
+  ar pilnu mērķvalodas kartīti (COPY/PASTE no OWNER avota; bez DE izmaiņām).
+- Skatīt kontekstu: A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.json
+
+Unikālas kartītes: 234
+Problemātiskas finding rindas (not-apply kartītēs): 63
+
+Problēmu tipi (unikālas kartītes pa tipu):
+- READY_EMPTY_EXAMPLE_LV: 105
+- READY_EMPTY_LV: 74
+- OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW: 49
+- READY_EMPTY_TRANSLATION_LEAF: 38
+- RECONSTRUCTION_FAILED: 7
+- GALA_FULL_BASELINE_NOT_PROVABLE: 4
+- BASELINE_LEAF_DECISION_POOL: 1
+
+Aizliegts: automātiska tulkošana, production apply, DE labojumi.

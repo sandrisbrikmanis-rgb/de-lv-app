@@ -1538,6 +1538,7 @@ module.exports = {
   resolveGalaRef,
   gitShow,
   parseJsonAt,
+  extractBatchDecisions,
 };
 
 if (require.main === module) main();

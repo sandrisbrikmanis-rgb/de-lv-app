@@ -420,6 +420,7 @@ function buildFullCardsWithBaseline(
 module.exports = {
   buildFullCardsWithBaseline,
   isSyntheticCardSkeleton,
+  isPartialPatchBaseline,
   pickFullCardBaseline,
   createGalaCardsByBatchLoader,
 };
