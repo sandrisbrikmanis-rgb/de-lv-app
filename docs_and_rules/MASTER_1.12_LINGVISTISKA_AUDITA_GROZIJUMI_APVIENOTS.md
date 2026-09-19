@@ -49,6 +49,10 @@ Aizliegta ķēde:
 
 MASTER jāuztur viens autoritatīvs valodu avotu reģistrs.
 
+Pilns OWNER apstiprināts avotu komplekts (4 faili, primārie normatīvie avoti,
+vārdnīcas un papildu autoritatīvie avoti pa valodām): `docs_and_rules/official-language-sources/` —
+`Oficialie-valodu-avoti-1.txt`, `Oficialie-valodu-avoti-2.txt`, `Oficialie-valodu-avoti-3.txt`, `Oficialie-valodu-avoti-4.txt`.
+
 | # | Kods | Valoda | Primārais valodas normas / akadēmiskais avots | Oficiālā tīmekļa adrese |
 |---:|---|---|---|---|
 | 1 | `bs` | Bosniešu | Institut za jezik Univerziteta u Sarajevu | https://izj.unsa.ba/ |
