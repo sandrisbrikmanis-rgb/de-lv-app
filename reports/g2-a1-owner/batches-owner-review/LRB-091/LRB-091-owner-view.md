@@ -1,0 +1,4488 @@
+# G2/A1 LRB LRB-091 — OWNER VIEW
+
+**Batch:** LRB-091
+**Rows:** 50/50
+**Languages:** SK 50
+**Direction:** DESCENDING
+**Reserved for:** PC2
+**OWNER_AUTHORIZATION_STATUS:** APPROVED
+**Linguistic reviewer:** gpt-5.6-luna
+**Generated:** 2026-09-13T10:23:11.269Z
+**Source commit:** `904c22f2e33fe719653a5fe99cffa9ff83b042b4`
+**Branch:** `cursor/lrb-091-owner-authorization-ed35`
+**Overrides SHA256:** `4308eb55a890817b91344bd05df4e4b912381b9241dc44f668bf83109dc6a54c`
+
+**Summary:** 50 LABOT / 0 NELABOT / 0 PENDING
+
+## Finding 1
+
+**Audit ID:** `LRB091-0001`
+**Finding Stable ID:** `g2/a1/sk|Eis|idx:157|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Eis|idx:157`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Zmrzlina • Zmrzlina","study":{"id":"a1-eis","layout":"standardStudy","translation":"Zmrzlina • Zmrzlina","explanation":["Hlavná myšlienka: das Eis môže znamenať zmrzlinu aj gelato.","Keď sa hovorí o studenej, zamrznutej vode, lotyščina zvyčajne hovorí „ľad“.","Pokiaľ ide o jedlo alebo dezert, das Eis veľmi často znamená zmrzlinu v každodennom živote.","Kontext vám zvyčajne hneď povie, aký je zamýšľaný význam.","Na úrovni A1 sú najdôležitejšie frázy ein Eis essen a Eis im Glas."],"examples":[{"de":"Ich esse ein Eis.","lv":"Jem zmrzlinu"},{"de":"Möchtest du ein Eis?","lv":"Chceš zmrzlinu"},{"de":"Im Winter liegt Eis auf dem See.","lv":"V zime je na jazere ľad."},{"de":"Das Eis ist kalt.","lv":"Ľad je studený."},{"de":"Ich nehme ein Eis mit Schokolade.","lv":"Dal by som si čokoládovú zmrzlinu."}],"comparison":[{"word":"das Eis","meaning":"Zmrzlina / zmrzlina","example":"Ich esse ein Eis. = Jem zmrzlinu."},{"word":"der Schnee","meaning":"Bude sneh","example":"Der Schnee ist weiß. = Sneh je biely."},{"word":"kalt","meaning":"Studená","example":"Das Wasser ist kalt. = Voda je studená."},{"word":"das Dessert","meaning":"Dezert","example":"Eis ist ein Dessert. = Zmrzlina je dezert."}],"tip":{"text":"Pamätajte: jedlo → ľad • Zima/voda → ľad."},"important":["Zmrzlina a gelato sú dve rôzne slová v lotyštine, ale v nemeckom jazyku das Eis sa obe slová často používajú.","Kľúčový je kontext: jedlo znamená zmrzlinu, studený povrch alebo voda ľad."],"sectionAccents":{"explanation":{"blue":["das Eis","Eis"],"green":["dezert"]},"examples":[{"de":{"blue":["Eis"]},"lv":{}},{"de":{"blue":["Eis"]},"lv":{}},{"de":{"blue":["Eis"]},"lv":{}},{"de":{"blue":["Eis"]},"lv":{}},{"de":{"blue":["Eis"]},"lv":{}}],"comparison":[{"word":{"green":["das Eis"]},"meaning":{},"example":{"blue":["Eis"]}},{"word":{"green":["der Schnee"]},"meaning":{"purple":["Bude"]},"example":{"green":["Schnee","Der"]}},{"word":{"green":["kalt"]},"meaning":{},"example":{"yellow":["kalt"]}},{"word":{"green":["das Dessert"]},"meaning":{"purple":["Dezert"]},"example":{"red":["deser"]}}],"tip":{"left":{"purple":["Pamätajte"],"green":["Pamätajte"]}},"important":[{"blue":["das Eis"]},{}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ľad • zmrzlina","study":{"id":"a1-eis","layout":"standardStudy","translation":"ľad • zmrzlina","explanation":["Hlavná myšlienka: das Eis môže znamenať ľad aj zmrzlinu.","Keď ide o zamrznutú vodu, das Eis znamená ľad.","Keď ide o jedlo alebo dezert, das Eis znamená zmrzlinu.","Správny význam zvyčajne ukáže kontext.","Na úrovni A1 sú dôležité spojenia ein Eis essen a Eis im Glas."],"examples":[{"de":"Ich esse ein Eis.","lv":"Jem zmrzlinu."},{"de":"Möchtest du ein Eis?","lv":"Dáš si zmrzlinu?"},{"de":"Im Winter liegt Eis auf dem See.","lv":"V zime je na jazere ľad."},{"de":"Das Eis ist kalt.","lv":"Ľad je studený."},{"de":"Ich nehme ein Eis mit Schokolade.","lv":"Dám si zmrzlinu s čokoládou."}],"comparison":[{"word":"das Eis","meaning":"ľad • zmrzlina","example":"Ich esse ein Eis. = Jem zmrzlinu."},{"word":"der Schnee","meaning":"sneh","example":"Der Schnee ist weiß. = Sneh je biely."},{"word":"kalt","meaning":"studený","example":"Das Wasser ist kalt. = Voda je studená."},{"word":"das Dessert","meaning":"dezert","example":"Eis ist ein Dessert. = Zmrzlina je dezert."}],"tip":{"text":"Zapamätaj si: jedlo → zmrzlina; zima alebo voda → ľad."},"important":["Slovenčina používa dve slová, ľad a zmrzlina, ale nemčina pre oba významy často používa das Eis.","Rozhodujúci je kontext: jedlo znamená zmrzlinu, zamrznutá voda znamená ľad."],"sectionAccents":{"explanation":{"blue":["das Eis","Eis"]},"examples":[{"de":{"blue":["Eis"]},"lv":{}},{"de":{"blue":["Eis"]},"lv":{}},{"de":{"blue":["Eis"]},"lv":{}},{"de":{"blue":["Eis"]},"lv":{}},{"de":{"blue":["Eis"]},"lv":{}}],"comparison":[{"word":{"green":["das Eis"]},"meaning":{},"example":{"blue":["Eis"]}},{"word":{"green":["der Schnee"]},"meaning":{},"example":{"green":["Schnee"]}},{"word":{"green":["kalt"]},"meaning":{},"example":{"yellow":["kalt"]}},{"word":{"green":["das Dessert"]},"meaning":{},"example":{"blue":["Eis"]}}],"tip":{},"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Eis",
+  "de_article": "das",
+  "lv": "ľad • zmrzlina",
+  "level": "A1",
+  "study": {
+    "id": "a1-eis",
+    "layout": "standardStudy",
+    "translation": "ľad • zmrzlina",
+    "explanation": [
+      "Hlavná myšlienka: das Eis môže znamenať ľad aj zmrzlinu.",
+      "Keď ide o zamrznutú vodu, das Eis znamená ľad.",
+      "Keď ide o jedlo alebo dezert, das Eis znamená zmrzlinu.",
+      "Správny význam zvyčajne ukáže kontext.",
+      "Na úrovni A1 sú dôležité spojenia ein Eis essen a Eis im Glas."
+    ],
+    "examples": [
+      {
+        "de": "Ich esse ein Eis.",
+        "lv": "Jem zmrzlinu."
+      },
+      {
+        "de": "Möchtest du ein Eis?",
+        "lv": "Dáš si zmrzlinu?"
+      },
+      {
+        "de": "Im Winter liegt Eis auf dem See.",
+        "lv": "V zime je na jazere ľad."
+      },
+      {
+        "de": "Das Eis ist kalt.",
+        "lv": "Ľad je studený."
+      },
+      {
+        "de": "Ich nehme ein Eis mit Schokolade.",
+        "lv": "Dám si zmrzlinu s čokoládou."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "das Eis",
+        "meaning": "ľad • zmrzlina",
+        "example": "Ich esse ein Eis. = Jem zmrzlinu."
+      },
+      {
+        "word": "der Schnee",
+        "meaning": "sneh",
+        "example": "Der Schnee ist weiß. = Sneh je biely."
+      },
+      {
+        "word": "kalt",
+        "meaning": "studený",
+        "example": "Das Wasser ist kalt. = Voda je studená."
+      },
+      {
+        "word": "das Dessert",
+        "meaning": "dezert",
+        "example": "Eis ist ein Dessert. = Zmrzlina je dezert."
+      }
+    ],
+    "tip": {
+      "text": "Zapamätaj si: jedlo → zmrzlina; zima alebo voda → ľad."
+    },
+    "important": [
+      "Slovenčina používa dve slová, ľad a zmrzlina, ale nemčina pre oba významy často používa das Eis.",
+      "Rozhodujúci je kontext: jedlo znamená zmrzlinu, zamrznutá voda znamená ľad."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "das Eis",
+          "Eis"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "Eis"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Eis"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Eis"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Eis"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Eis"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {
+            "green": [
+              "das Eis"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "Eis"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "der Schnee"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "green": [
+              "Schnee"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "kalt"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "yellow": [
+              "kalt"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "das Dessert"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "Eis"
+            ]
+          }
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 2
+
+**Audit ID:** `LRB091-0002`
+**Finding Stable ID:** `g2/a1/sk|erst|idx:165|lv, study.examples[0].lv, study.comparison[0].example|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `erst|idx:165`
+**Field / path:** `lv, study.examples[0].lv, study.comparison[0].example`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Prvý • Len"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"iba","study":{"id":"a1-erst","layout":"standardStudy","translation":"až • iba • najprv","explanation":["Hlavná myšlienka: erst podľa kontextu znamená až, iba alebo najprv.","Erst často vyjadruje, že sa niečo deje neskôr, než sa očakávalo.","Ich bin erst 18. znamená Mám iba 18 rokov.","Es ist erst Montag. znamená Je iba pondelok.","Erst lernen, dann spielen. znamená Najprv sa učiť, potom sa hrať."],"examples":[{"de":"Erst lernen, dann spielen.","lv":"Najprv sa uč, potom sa hraj."},{"de":"Ich komme erst morgen.","lv":"Prídem až zajtra."},{"de":"Er ist erst 18 Jahre alt.","lv":"Má iba 18 rokov."},{"de":"Wir essen erst um acht Uhr.","lv":"Budeme jesť až o ôsmej."}],"comparison":[{"word":"erst","meaning":"až • iba • najprv","example":"Erst lernen, dann spielen. – Najprv sa uč, potom sa hraj."},{"word":"zuerst","meaning":"najprv • na začiatku","example":"Zuerst frühstücken wir. = Najprv raňajkujeme."},{"word":"nur","meaning":"iba • len","example":"Ich habe nur 5 Euro. = Mám iba 5 eur."},{"word":"dann","meaning":"potom","example":"Dann gehen wir nach Hause. = Potom ideme domov."}],"tip":{"text":"Zapamätaj si: čas alebo poradie → erst; obmedzenie množstva → nur."},"important":["Erst a zuerst nie sú úplné synonymá.","Erst často znamená až alebo iba.","Zuerst zvyčajne znamená najprv."],"accents":{"blue":["erst","Erst"],"green":["zuerst","Zuerst"],"yellow":["nur"],"red":["dann","Dann"]},"sectionAccents":{"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{"green":["erst"]},"meaning":{},"example":{"blue":["Erst"],"red":["dann"]}},{"word":{"green":["zuerst"]},"meaning":{},"example":{"green":["Zuerst"]}},{"word":{"green":["nur"]},"meaning":{},"example":{"yellow":["nur"]}},{"word":{"green":["dann"]},"meaning":{},"example":{"red":["Dann"]}}],"tip":{},"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "erst",
+  "lv": "iba",
+  "level": "A1",
+  "study": {
+    "id": "a1-erst",
+    "layout": "standardStudy",
+    "translation": "až • iba • najprv",
+    "explanation": [
+      "Hlavná myšlienka: erst podľa kontextu znamená až, iba alebo najprv.",
+      "Erst často vyjadruje, že sa niečo deje neskôr, než sa očakávalo.",
+      "Ich bin erst 18. znamená Mám iba 18 rokov.",
+      "Es ist erst Montag. znamená Je iba pondelok.",
+      "Erst lernen, dann spielen. znamená Najprv sa učiť, potom sa hrať."
+    ],
+    "examples": [
+      {
+        "de": "Erst lernen, dann spielen.",
+        "lv": "Najprv sa uč, potom sa hraj."
+      },
+      {
+        "de": "Ich komme erst morgen.",
+        "lv": "Prídem až zajtra."
+      },
+      {
+        "de": "Er ist erst 18 Jahre alt.",
+        "lv": "Má iba 18 rokov."
+      },
+      {
+        "de": "Wir essen erst um acht Uhr.",
+        "lv": "Budeme jesť až o ôsmej."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "erst",
+        "meaning": "až • iba • najprv",
+        "example": "Erst lernen, dann spielen. – Najprv sa uč, potom sa hraj."
+      },
+      {
+        "word": "zuerst",
+        "meaning": "najprv • na začiatku",
+        "example": "Zuerst frühstücken wir. = Najprv raňajkujeme."
+      },
+      {
+        "word": "nur",
+        "meaning": "iba • len",
+        "example": "Ich habe nur 5 Euro. = Mám iba 5 eur."
+      },
+      {
+        "word": "dann",
+        "meaning": "potom",
+        "example": "Dann gehen wir nach Hause. = Potom ideme domov."
+      }
+    ],
+    "tip": {
+      "text": "Zapamätaj si: čas alebo poradie → erst; obmedzenie množstva → nur."
+    },
+    "important": [
+      "Erst a zuerst nie sú úplné synonymá.",
+      "Erst často znamená až alebo iba.",
+      "Zuerst zvyčajne znamená najprv."
+    ],
+    "accents": {
+      "blue": [
+        "erst",
+        "Erst"
+      ],
+      "green": [
+        "zuerst",
+        "Zuerst"
+      ],
+      "yellow": [
+        "nur"
+      ],
+      "red": [
+        "dann",
+        "Dann"
+      ]
+    },
+    "sectionAccents": {
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {
+            "green": [
+              "erst"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "Erst"
+            ],
+            "red": [
+              "dann"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "zuerst"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "green": [
+              "Zuerst"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "nur"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "yellow": [
+              "nur"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "dann"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "red": [
+              "Dann"
+            ]
+          }
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 3
+
+**Audit ID:** `LRB091-0003`
+**Finding Stable ID:** `g2/a1/sk|erste|idx:166|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `erste|idx:166`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Po prvé"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"prvý"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "erste",
+  "lv": "prvý",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 4
+
+**Audit ID:** `LRB091-0004`
+**Finding Stable ID:** `g2/a1/sk|es|idx:167|lv, study.examples|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `es|idx:167`
+**Field / path:** `lv, study.examples`
+**Severity:** CRITICAL
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Do • Do • Neosobná forma","study.examples":[{"de":"Es regnet.","lv":"Učím sa nemčinu."},{"de":"Es ist kalt.","lv":"Je unavený."},{"de":"Das Kind schläft.","lv":"Pracuje tu."},{"de":"Es ist müde.","lv":"Toto je moja kniha."},{"de":"Es regnet.","lv":"Prší"},{"de":"Es schneit.","lv":"Sneží"}]}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"to","study":{"id":"a1-es","layout":"standardStudy","translation":"to • bezosobná forma","explanation":["Hlavná myšlienka: es je nemecké zámeno.","Používa sa vo význame to a v bezosobných konštrukciách, kde sa do slovenčiny často osobitne neprekladá."],"examples":[{"de":"Es regnet.","lv":"Prší."},{"de":"Es ist kalt.","lv":"Je chladno."},{"de":"Das Kind schläft.","lv":"Dieťa spí."},{"de":"Es ist müde.","lv":"Je unavené."}],"comparison":[{"word":"es","meaning":"to • bezosobná forma","example":"Es regnet. – Prší."},{"word":"ich","meaning":"ja","example":"Ich lerne Deutsch. – Učím sa po nemecky."}],"info":["Slovenské „ja“ = nemecké „ich“","Nemecké „es“ = „to“ alebo bezosobná forma"],"tip":{"text":"Zapamätaj si: slovenské ja je po nemecky ich, nie es."},"important":["Ich a es nie sú to isté.","Nemecké es často znamená to alebo sa v bezosobnej vete do slovenčiny osobitne neprekladá.","Slovenské ja je po nemecky ich."],"sectionAccents":{"examples":[{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}},{"de":{},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":[{},{},{}],"info":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "es",
+  "lv": "to",
+  "level": "A1",
+  "study": {
+    "id": "a1-es",
+    "layout": "standardStudy",
+    "translation": "to • bezosobná forma",
+    "explanation": [
+      "Hlavná myšlienka: es je nemecké zámeno.",
+      "Používa sa vo význame to a v bezosobných konštrukciách, kde sa do slovenčiny často osobitne neprekladá."
+    ],
+    "examples": [
+      {
+        "de": "Es regnet.",
+        "lv": "Prší."
+      },
+      {
+        "de": "Es ist kalt.",
+        "lv": "Je chladno."
+      },
+      {
+        "de": "Das Kind schläft.",
+        "lv": "Dieťa spí."
+      },
+      {
+        "de": "Es ist müde.",
+        "lv": "Je unavené."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "es",
+        "meaning": "to • bezosobná forma",
+        "example": "Es regnet. – Prší."
+      },
+      {
+        "word": "ich",
+        "meaning": "ja",
+        "example": "Ich lerne Deutsch. – Učím sa po nemecky."
+      }
+    ],
+    "info": [
+      "Slovenské „ja“ = nemecké „ich“",
+      "Nemecké „es“ = „to“ alebo bezosobná forma"
+    ],
+    "tip": {
+      "text": "Zapamätaj si: slovenské ja je po nemecky ich, nie es."
+    },
+    "important": [
+      "Ich a es nie sú to isté.",
+      "Nemecké es často znamená to alebo sa v bezosobnej vete do slovenčiny osobitne neprekladá.",
+      "Slovenské ja je po nemecky ich."
+    ],
+    "sectionAccents": {
+      "examples": [
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ],
+      "info": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 5
+
+**Audit ID:** `LRB091-0005`
+**Finding Stable ID:** `g2/a1/sk|essen|idx:690|lv / study|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `essen|idx:690`
+**Field / path:** `lv / study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"jesť","study":{"id":"a1-essen","layout":"standardStudy","translation":"jesť","explanation":["Hlavná myšlienka: essen je sloveso a znamená jesť.","Opisuje činnosť prijímania jedla.","Das Essen je podstatné meno a znamená jedlo alebo pokrm.","Sloveso essen sa píše s malým začiatočným písmenom.","Podstatné meno das Essen sa píše s veľkým začiatočným písmenom.","Význam určuje veľké písmeno, člen a vetný kontext.","Essen znamená jesť; das Essen znamená jedlo alebo pokrm."],"examples":[{"de":"Ich esse gern Pizza.","lv":"Rád jem pizzu."},{"de":"Was wollt ihr essen?","lv":"Čo chcete jesť?"},{"de":"Wir essen um 12 Uhr.","lv":"Jeme o dvanástej."},{"de":"Das Essen ist fertig.","lv":"Jedlo je hotové."},{"de":"Das Essen schmeckt sehr gut.","lv":"Jedlo chutí veľmi dobre."},{"de":"Das Essen schmeckt gut.","lv":"Jedlo chutí dobre."}],"tip":["essen = jesť","Sloveso essen používaj, keď ide o činnosť."],"important":["Essen bez člena je sloveso.","Das Essen nie je to isté ako essen.","Činnosť: essen.","Jedlo alebo pokrm: das Essen."],"sectionAccents":{"explanation":{"green":["essen","essen"],"blue":["essen","esse"]},"examples":[{"de":{"green":["esse"]},"lv":{}},{"de":{"green":["essen","essen"]},"lv":{}},{"de":{"green":["essen","essen"]},"lv":{}},{"de":{"green":["essen","essen"]},"lv":{}},{"de":{"green":["essen","essen"]},"lv":{}},{"de":{"green":["essen","essen"]},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "essen",
+  "lv": "jesť",
+  "level": "A1",
+  "study": {
+    "id": "a1-essen",
+    "layout": "standardStudy",
+    "translation": "jesť",
+    "explanation": [
+      "Hlavná myšlienka: essen je sloveso a znamená jesť.",
+      "Opisuje činnosť prijímania jedla.",
+      "Das Essen je podstatné meno a znamená jedlo alebo pokrm.",
+      "Sloveso essen sa píše s malým začiatočným písmenom.",
+      "Podstatné meno das Essen sa píše s veľkým začiatočným písmenom.",
+      "Význam určuje veľké písmeno, člen a vetný kontext.",
+      "Essen znamená jesť; das Essen znamená jedlo alebo pokrm."
+    ],
+    "examples": [
+      {
+        "de": "Ich esse gern Pizza.",
+        "lv": "Rád jem pizzu."
+      },
+      {
+        "de": "Was wollt ihr essen?",
+        "lv": "Čo chcete jesť?"
+      },
+      {
+        "de": "Wir essen um 12 Uhr.",
+        "lv": "Jeme o dvanástej."
+      },
+      {
+        "de": "Das Essen ist fertig.",
+        "lv": "Jedlo je hotové."
+      },
+      {
+        "de": "Das Essen schmeckt sehr gut.",
+        "lv": "Jedlo chutí veľmi dobre."
+      },
+      {
+        "de": "Das Essen schmeckt gut.",
+        "lv": "Jedlo chutí dobre."
+      }
+    ],
+    "tip": [
+      "essen = jesť",
+      "Sloveso essen používaj, keď ide o činnosť."
+    ],
+    "important": [
+      "Essen bez člena je sloveso.",
+      "Das Essen nie je to isté ako essen.",
+      "Činnosť: essen.",
+      "Jedlo alebo pokrm: das Essen."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "green": [
+          "essen",
+          "essen"
+        ],
+        "blue": [
+          "essen",
+          "esse"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "green": [
+              "esse"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 6
+
+**Audit ID:** `LRB091-0006`
+**Finding Stable ID:** `g2/a1/sk|Essen|idx:691|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Essen|idx:691`
+**Field / path:** `lv, study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Jedlo • Jedlo","study":{"id":"a1-essen-study","layout":"standardStudy","translation":"Jedlo • Jedlo","explanation":["Hlavná myšlienka: Podstatné meno - jedlo alebo celé jedlo.","Das Essen znamená predovšetkým: jesť jedlo.","Často opisuje: akcia.","Das Essen v podstate znamená: jedlo alebo jedlo.","Často opisuje: dážď.","Essen znamená jesť.","Das Essen môže znamenať jedlo alebo jedlo vo všeobecnosti."],"examples":[{"de":"Das Essen schmeckt gut.","lv":"Jedlo chutí dobre."},{"de":"Was wollt ihr essen?","lv":"Čo chceš jesť"},{"de":"Wir essen um 12 Uhr.","lv":"Jeme o 12:00."},{"de":"Das Essen ist fertig.","lv":"Jedlo je hotové."},{"de":"Das Essen schmeckt sehr gut.","lv":"Jedlo chutí veľmi dobre."},{"de":"Das Essen schmeckt gut.","lv":"Jedlo chutí dobre."}],"tip":["Das Essen = jesť","Použite da Essen, keď kontext zodpovedá tomuto významu."],"important":["Essen je sloveso bez člena.","Das Essen nie je to isté ako Essen.","Akcia: essen.","Prípad/jedlo: das Essen."],"sectionAccents":{"explanation":{"yellow":["das Essen","essen"],"green":["Essen"]},"examples":[{"de":{"yellow":["das Essen","essen"]},"lv":{}},{"de":{"yellow":["essen"]},"lv":{}},{"de":{"yellow":["essen"]},"lv":{}},{"de":{"yellow":["das Essen","essen"]},"lv":{}},{"de":{"yellow":["das Essen","essen"]},"lv":{}},{"de":{"yellow":["das Essen","essen"]},"lv":{}}],"tip":[{},{}],"important":[{}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"jedlo • pokrm","study":{"id":"a1-essen-study","layout":"standardStudy","translation":"jedlo • pokrm","explanation":["Hlavná myšlienka: das Essen je podstatné meno a znamená jedlo alebo pokrm.","Sloveso essen znamená jesť.","Das Essen pomenúva jedlo alebo pokrm ako vec.","Sloveso essen sa píše s malým začiatočným písmenom.","Podstatné meno das Essen sa píše s veľkým začiatočným písmenom a používa sa s členom.","Essen znamená jesť; das Essen znamená jedlo alebo pokrm.","Kontext ukáže, či ide o činnosť alebo podstatné meno."],"examples":[{"de":"Das Essen schmeckt gut.","lv":"Jedlo chutí dobre."},{"de":"Was wollt ihr essen?","lv":"Čo chcete jesť?"},{"de":"Wir essen um 12 Uhr.","lv":"Jeme o dvanástej."},{"de":"Das Essen ist fertig.","lv":"Jedlo je hotové."},{"de":"Das Essen schmeckt sehr gut.","lv":"Jedlo chutí veľmi dobre."},{"de":"Das Essen schmeckt gut.","lv":"Jedlo chutí dobre."}],"tip":["das Essen = jedlo alebo pokrm","Das Essen používaj, keď ide o jedlo ako vec."],"important":["Essen bez člena je sloveso.","Das Essen nie je to isté ako essen.","Činnosť: essen.","Jedlo alebo pokrm: das Essen."],"sectionAccents":{"explanation":{"yellow":["das Essen","essen"],"green":["Essen"]},"examples":[{"de":{"yellow":["das Essen","essen"]},"lv":{}},{"de":{"yellow":["essen"]},"lv":{}},{"de":{"yellow":["essen"]},"lv":{}},{"de":{"yellow":["das Essen","essen"]},"lv":{}},{"de":{"yellow":["das Essen","essen"]},"lv":{}},{"de":{"yellow":["das Essen","essen"]},"lv":{}}],"tip":[{},{}],"important":[{},{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Essen",
+  "de_article": "das",
+  "lv": "jedlo • pokrm",
+  "level": "A1",
+  "study": {
+    "id": "a1-essen-study",
+    "layout": "standardStudy",
+    "translation": "jedlo • pokrm",
+    "explanation": [
+      "Hlavná myšlienka: das Essen je podstatné meno a znamená jedlo alebo pokrm.",
+      "Sloveso essen znamená jesť.",
+      "Das Essen pomenúva jedlo alebo pokrm ako vec.",
+      "Sloveso essen sa píše s malým začiatočným písmenom.",
+      "Podstatné meno das Essen sa píše s veľkým začiatočným písmenom a používa sa s členom.",
+      "Essen znamená jesť; das Essen znamená jedlo alebo pokrm.",
+      "Kontext ukáže, či ide o činnosť alebo podstatné meno."
+    ],
+    "examples": [
+      {
+        "de": "Das Essen schmeckt gut.",
+        "lv": "Jedlo chutí dobre."
+      },
+      {
+        "de": "Was wollt ihr essen?",
+        "lv": "Čo chcete jesť?"
+      },
+      {
+        "de": "Wir essen um 12 Uhr.",
+        "lv": "Jeme o dvanástej."
+      },
+      {
+        "de": "Das Essen ist fertig.",
+        "lv": "Jedlo je hotové."
+      },
+      {
+        "de": "Das Essen schmeckt sehr gut.",
+        "lv": "Jedlo chutí veľmi dobre."
+      },
+      {
+        "de": "Das Essen schmeckt gut.",
+        "lv": "Jedlo chutí dobre."
+      }
+    ],
+    "tip": [
+      "das Essen = jedlo alebo pokrm",
+      "Das Essen používaj, keď ide o jedlo ako vec."
+    ],
+    "important": [
+      "Essen bez člena je sloveso.",
+      "Das Essen nie je to isté ako essen.",
+      "Činnosť: essen.",
+      "Jedlo alebo pokrm: das Essen."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "yellow": [
+          "das Essen",
+          "essen"
+        ],
+        "green": [
+          "Essen"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "yellow": [
+              "das Essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "yellow": [
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "yellow": [
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "yellow": [
+              "das Essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "yellow": [
+              "das Essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "yellow": [
+              "das Essen",
+              "essen"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 7
+
+**Audit ID:** `LRB091-0007`
+**Finding Stable ID:** `g2/a1/sk|Esslöffel|idx:168|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Esslöffel|idx:168`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Lyžica"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"polievková lyžica"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Esslöffel",
+  "de_article": "der",
+  "de_plural": "die Esslöffel",
+  "lv": "polievková lyžica",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 8
+
+**Audit ID:** `LRB091-0008`
+**Finding Stable ID:** `g2/a1/sk|etwas|idx:169|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `etwas|idx:169`
+**Field / path:** `lv, study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Niečo • Trochu","study":{"id":"a1-etwas","layout":"standardStudy","translation":"Niečo • Trochu","explanation":["Hlavná myšlienka: etwas znamená niečo alebo trochu, v závislosti od kontextu.","Ak etwas nahrádza neznámu vec, lotyština zvyčajne niečo povie.","Keď je etwas pred prídavným menom alebo kvantitou, často to znamená málo."],"examples":[{"de":"Ich möchte etwas trinken.","lv":"Chcel by som niečo na pitie."},{"de":"Hast du etwas Zeit?","lv":"Máš čas?"},{"de":"Ich bin etwas müde.","lv":"Som trochu unavený"},{"de":"Ich habe etwas für dich.","lv":"Niečo pre teba mám"},{"de":"Das ist etwas teuer.","lv":"Je to trochu drahé."}],"comparison":[{"word":"etwas","meaning":"Niečo/trochu","example":"Ich brauche etwas. = Potrebujem niečo."},{"word":"was","meaning":"Niečo (hovorové)","example":"Willst du was trinken? = Chceš si niečo piť?"},{"word":"ein bisschen","meaning":"Trochu","example":"Ich bin ein bisschen müde. = Som trochu unavený."},{"word":"nichts","meaning":"Niť","example":"Ich brauche nichts. = Nepotrebujem nič."}],"tip":{"text":"Pamätajte: vec → niečo • Stupeň → mierne."},"important":["Etwas nie je to isté ako nichts: etwas znamená niečo, ale nichts neznamená nič.","V lotyštine niečo znie lepšie ako niečo, napríklad: etwas trinken = niečo vypiť.","V slovenčine niekedy lepšie znie niečo, ako niečo, napríklad: etwas trinken = piť si niečo."],"sectionAccents":{"explanation":{"blue":["etwas"],"purple":["kaufen"],"green":["kontextu"]},"examples":[{"de":{"blue":["etwas"]},"lv":{}},{"de":{"blue":["etwas"]},"lv":{}},{"de":{"blue":["etwas"]},"lv":{}},{"de":{"blue":["etwas"]},"lv":{}},{"de":{"blue":["etwas"]},"lv":{}}],"comparison":[{"word":{"green":["etwas"]},"meaning":{},"example":{}},{"word":{"green":["was"]},"meaning":{},"example":{}},{"word":{"green":["ein bisschen"]},"meaning":{},"example":{"yellow":["ein bisschen"]}},{"word":{"green":["nichts"]},"meaning":{},"example":{"red":["niczego"]}}],"tip":{"left":{"green":["Pamätajte"]}},"important":[{"blue":["etwas"],"red":["nichts"]},{"blue":["etwas"]}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"niečo","study":{"id":"a1-etwas","layout":"standardStudy","translation":"niečo • trochu","explanation":["Hlavná myšlienka: etwas najčastejšie znamená niečo; pred prídavným menom môže znamenať trochu.","Ich habe etwas gesehen. znamená Niečo som videl.","Das ist etwas teuer. znamená Je to trochu drahé."],"examples":[{"de":"Ich möchte etwas trinken.","lv":"Chcel by som sa niečoho napiť."},{"de":"Hast du etwas Zeit?","lv":"Máš trochu času?"},{"de":"Ich bin etwas müde.","lv":"Som trochu unavený."},{"de":"Ich habe etwas für dich.","lv":"Mám pre teba niečo."},{"de":"Das ist etwas teuer.","lv":"Je to trochu drahé."}],"comparison":[{"word":"etwas","meaning":"niečo • trochu","example":"Ich brauche etwas. = Niečo potrebujem."},{"word":"was","meaning":"niečo (hovorovo)","example":"Willst du was trinken? = Chceš sa niečoho napiť?"},{"word":"ein bisschen","meaning":"trochu","example":"Ich spreche ein bisschen Deutsch. = Hovorím trochu po nemecky."},{"word":"nichts","meaning":"nič","example":"Ich brauche nichts. = Nič nepotrebujem."}],"tip":{"text":"Zapamätaj si: samostatne → niečo; pred prídavným menom → trochu."},"important":["Etwas môže znamenať niečo aj trochu.","Význam určuje kontext."],"sectionAccents":{"explanation":{"blue":["etwas"]},"examples":[{"de":{"blue":["etwas"]},"lv":{}},{"de":{"blue":["etwas"]},"lv":{}},{"de":{"blue":["etwas"]},"lv":{}},{"de":{"blue":["etwas"]},"lv":{}},{"de":{"blue":["etwas"]},"lv":{}}],"comparison":[{"word":{"green":["etwas"]},"meaning":{},"example":{"blue":["etwas"]}},{"word":{"green":["was"]},"meaning":{},"example":{"green":["was"]}},{"word":{"green":["ein bisschen"]},"meaning":{},"example":{"yellow":["ein bisschen"]}},{"word":{"green":["nichts"]},"meaning":{},"example":{"red":["nichts"]}}],"tip":{},"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "etwas",
+  "lv": "niečo",
+  "level": "A1",
+  "study": {
+    "id": "a1-etwas",
+    "layout": "standardStudy",
+    "translation": "niečo • trochu",
+    "explanation": [
+      "Hlavná myšlienka: etwas najčastejšie znamená niečo; pred prídavným menom môže znamenať trochu.",
+      "Ich habe etwas gesehen. znamená Niečo som videl.",
+      "Das ist etwas teuer. znamená Je to trochu drahé."
+    ],
+    "examples": [
+      {
+        "de": "Ich möchte etwas trinken.",
+        "lv": "Chcel by som sa niečoho napiť."
+      },
+      {
+        "de": "Hast du etwas Zeit?",
+        "lv": "Máš trochu času?"
+      },
+      {
+        "de": "Ich bin etwas müde.",
+        "lv": "Som trochu unavený."
+      },
+      {
+        "de": "Ich habe etwas für dich.",
+        "lv": "Mám pre teba niečo."
+      },
+      {
+        "de": "Das ist etwas teuer.",
+        "lv": "Je to trochu drahé."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "etwas",
+        "meaning": "niečo • trochu",
+        "example": "Ich brauche etwas. = Niečo potrebujem."
+      },
+      {
+        "word": "was",
+        "meaning": "niečo (hovorovo)",
+        "example": "Willst du was trinken? = Chceš sa niečoho napiť?"
+      },
+      {
+        "word": "ein bisschen",
+        "meaning": "trochu",
+        "example": "Ich spreche ein bisschen Deutsch. = Hovorím trochu po nemecky."
+      },
+      {
+        "word": "nichts",
+        "meaning": "nič",
+        "example": "Ich brauche nichts. = Nič nepotrebujem."
+      }
+    ],
+    "tip": {
+      "text": "Zapamätaj si: samostatne → niečo; pred prídavným menom → trochu."
+    },
+    "important": [
+      "Etwas môže znamenať niečo aj trochu.",
+      "Význam určuje kontext."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "etwas"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "etwas"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "etwas"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "etwas"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "etwas"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "etwas"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {
+            "green": [
+              "etwas"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "etwas"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "was"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "green": [
+              "was"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "ein bisschen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "yellow": [
+              "ein bisschen"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "nichts"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "red": [
+              "nichts"
+            ]
+          }
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 9
+
+**Audit ID:** `LRB091-0009`
+**Finding Stable ID:** `g2/a1/sk|euer|idx:171|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `euer|idx:171`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Váš"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"váš"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "euer",
+  "lv": "váš",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 10
+
+**Audit ID:** `LRB091-0010`
+**Finding Stable ID:** `g2/a1/sk|Februar|idx:178|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Februar|idx:178`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Februára"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"február"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Februar",
+  "de_article": "der",
+  "lv": "február",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 11
+
+**Audit ID:** `LRB091-0011`
+**Finding Stable ID:** `g2/a1/sk|Ferien|idx:694|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Ferien|idx:694`
+**Field / path:** `lv, study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Prázdniny (škola)","study":{"id":"a1-ferien","layout":"standardStudy","translation":"Prázdniny (škola)","explanation":["Hlavná myšlienka: iba množné číslo. Školské či študijné prázdniny – vždy v množnom čísle.","Die Ferien v podstate znamená: školské prázdniny.","Často charakterizované: iba množné číslo.","Die Ferien sa objavuje len v množnom čísle – vždy v množnom čísle (in den Ferien)."],"examples":[{"de":"In den Ferien fahren wir ans Meer.","lv":"Cez víkendy chodíme k moru."},{"de":"In den Ferien habe ich viel Zeit.","lv":"Cez prázdniny mám veľa času."},{"de":"Was macht ihr in den Ferien?","lv":"Čo robíš na dovolenke?"},{"de":"Die Schule ist in den Ferien zu.","lv":"Škola je cez prázdniny zatvorená."},{"de":"In den Ferien fahren wir ans Meer.","lv":"Ideme na dovolenku k moru."},{"de":"In den Ferien","lv":"Na prázdninách (v škole)."}],"comparison":[{"word":"die Ferien","meaning":"Prestávka zo školy/učenia (iba na stole)","example":"In den Ferien fahren wir weg. – Cez víkendy niekam chodíme."},{"word":"der Urlaub","meaning":"Odísť z práce (iba všetci)","example":"Ich habe zwei Wochen Urlaub. – Mám dva týždne voľno."}],"tip":["Iba množné číslo. Školské alebo študijné prázdniny – vždy v množnom čísle.","Použite die Ferien, keď kontext zodpovedá tomuto významu."],"important":["Ferien vždy s datívom: in den Ferien.","Nesprávne: in der Ferien → Správne: in den Ferien","Škola: die Ferien (iba množné číslo).","Iba množné číslo. Školské alebo študijné prázdniny – vždy v množnom čísle."],"sectionAccents":{"explanation":{"blue":["die Ferien","ferien"],"green":["Ferien"]},"examples":[{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}}],"tip":[{}],"important":[{}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"prázdniny (v škole)","study":{"id":"a1-ferien","layout":"standardStudy","translation":"prázdniny (v škole)","explanation":["Hlavná myšlienka: iba množné číslo. Školské alebo študijné prázdniny sa používajú vždy v množnom čísle.","Die Ferien v podstate znamená školské prázdniny.","Die Ferien sa objavuje len v množnom čísle, napríklad in den Ferien.","Výraz die Ferien sa používa najmä pri školských prázdninách alebo voľne od vyučovania."],"examples":[{"de":"In den Ferien fahren wir ans Meer.","lv":"Cez prázdniny chodíme k moru."},{"de":"In den Ferien habe ich viel Zeit.","lv":"Cez prázdniny mám veľa času."},{"de":"Was macht ihr in den Ferien?","lv":"Čo robíte cez prázdniny?"},{"de":"Die Schule ist in den Ferien zu.","lv":"Škola je cez prázdniny zatvorená."},{"de":"In den Ferien fahren wir ans Meer.","lv":"Cez prázdniny ideme k moru."},{"de":"In den Ferien","lv":"Cez prázdniny."}],"comparison":[{"word":"die Ferien","meaning":"školské prázdniny alebo voľno od školy, iba v množnom čísle","example":"In den Ferien fahren wir weg. – Cez prázdniny niekam odchádzame."},{"word":"der Urlaub","meaning":"voľno z práce alebo dovolenka","example":"Ich habe zwei Wochen Urlaub. – Mám dva týždne dovolenky."}],"tip":["Použite die Ferien, keď hovoríte o školských prázdninách alebo voľne od školy.","Die Ferien sa používajú iba v množnom čísle."],"important":["V spojení in den Ferien je podstatné meno v datíve množného čísla.","Nesprávne: in der Ferien → Správne: in den Ferien.","Die Ferien sa používajú iba v množnom čísle."],"sectionAccents":{"explanation":{"blue":["die Ferien","ferien"],"green":["Ferien"]},"examples":[{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}},{"de":{"blue":["ferien"]},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Ferien",
+  "de_article": "die",
+  "lv": "prázdniny (v škole)",
+  "level": "A1",
+  "study": {
+    "id": "a1-ferien",
+    "layout": "standardStudy",
+    "translation": "prázdniny (v škole)",
+    "explanation": [
+      "Hlavná myšlienka: iba množné číslo. Školské alebo študijné prázdniny sa používajú vždy v množnom čísle.",
+      "Die Ferien v podstate znamená školské prázdniny.",
+      "Die Ferien sa objavuje len v množnom čísle, napríklad in den Ferien.",
+      "Výraz die Ferien sa používa najmä pri školských prázdninách alebo voľne od vyučovania."
+    ],
+    "examples": [
+      {
+        "de": "In den Ferien fahren wir ans Meer.",
+        "lv": "Cez prázdniny chodíme k moru."
+      },
+      {
+        "de": "In den Ferien habe ich viel Zeit.",
+        "lv": "Cez prázdniny mám veľa času."
+      },
+      {
+        "de": "Was macht ihr in den Ferien?",
+        "lv": "Čo robíte cez prázdniny?"
+      },
+      {
+        "de": "Die Schule ist in den Ferien zu.",
+        "lv": "Škola je cez prázdniny zatvorená."
+      },
+      {
+        "de": "In den Ferien fahren wir ans Meer.",
+        "lv": "Cez prázdniny ideme k moru."
+      },
+      {
+        "de": "In den Ferien",
+        "lv": "Cez prázdniny."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "die Ferien",
+        "meaning": "školské prázdniny alebo voľno od školy, iba v množnom čísle",
+        "example": "In den Ferien fahren wir weg. – Cez prázdniny niekam odchádzame."
+      },
+      {
+        "word": "der Urlaub",
+        "meaning": "voľno z práce alebo dovolenka",
+        "example": "Ich habe zwei Wochen Urlaub. – Mám dva týždne dovolenky."
+      }
+    ],
+    "tip": [
+      "Použite die Ferien, keď hovoríte o školských prázdninách alebo voľne od školy.",
+      "Die Ferien sa používajú iba v množnom čísle."
+    ],
+    "important": [
+      "V spojení in den Ferien je podstatné meno v datíve množného čísla.",
+      "Nesprávne: in der Ferien → Správne: in den Ferien.",
+      "Die Ferien sa používajú iba v množnom čísle."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "die Ferien",
+          "ferien"
+        ],
+        "green": [
+          "Ferien"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "ferien"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "ferien"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "ferien"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "ferien"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "ferien"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "ferien"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 12
+
+**Audit ID:** `LRB091-0012`
+**Finding Stable ID:** `g2/a1/sk|fernsehen|idx:687|lv / study.translation|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `fernsehen|idx:687`
+**Field / path:** `lv / study.translation`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"pozerať televíziu","study":{"id":"a1-fernsehen","layout":"standardStudy","translation":"pozerať televíziu","explanation":"Hlavná myšlienka: fernsehen je odlučiteľné sloveso: ich sehe fern, du siehst fern. Znamená pozerať televíziu. Nezamieňaj ho s podstatným menom das Fernsehen, teda televízia ako médium.","examples":[{"de":"Ich sehe heute Abend fern.","lv":"Dnes večer pozerám televíziu."},{"de":"Siehst du oft fern?","lv":"Pozeráš často televíziu?"},{"de":"Die Kinder sehen am Nachmittag fern.","lv":"Deti popoludní pozerajú televíziu."}],"comparison":[{"word":"fernsehen","meaning":"pozerať televíziu","example":"Ich sehe fern. = Pozerám televíziu."},{"word":"das Fernsehen","meaning":"televízia ako médium","example":"Im Fernsehen läuft ein Film. = V televízii dávajú film."},{"word":"sehen","meaning":"vidieť • pozerať","example":"Ich sehe einen Film. = Pozerám film."}],"tip":{"leftBlocks":[{"text":"Pre činnosť používaj fernsehen (ich sehe fern). Pre televízny program alebo médium používaj das Fernsehen."}]},"important":{"text":"fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné meno používané iba v jednotnom čísle."},"sectionAccents":{"explanation":{"blue":["fernsehen","sehe","fern"],"green":["das Fernsehen"]},"examples":[{"de":{"blue":["sehe","fern"]},"lv":{}},{"de":{"blue":["Siehst","fern"]},"lv":{}},{"de":{"blue":["sehen","fern"]},"lv":{}}],"comparison":[{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}},{"word":{},"meaning":{},"example":{}}],"tip":{},"important":{}}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "fernsehen",
+  "lv": "pozerať televíziu",
+  "level": "A1",
+  "study": {
+    "id": "a1-fernsehen",
+    "layout": "standardStudy",
+    "translation": "pozerať televíziu",
+    "explanation": "Hlavná myšlienka: fernsehen je odlučiteľné sloveso: ich sehe fern, du siehst fern. Znamená pozerať televíziu. Nezamieňaj ho s podstatným menom das Fernsehen, teda televízia ako médium.",
+    "examples": [
+      {
+        "de": "Ich sehe heute Abend fern.",
+        "lv": "Dnes večer pozerám televíziu."
+      },
+      {
+        "de": "Siehst du oft fern?",
+        "lv": "Pozeráš často televíziu?"
+      },
+      {
+        "de": "Die Kinder sehen am Nachmittag fern.",
+        "lv": "Deti popoludní pozerajú televíziu."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "fernsehen",
+        "meaning": "pozerať televíziu",
+        "example": "Ich sehe fern. = Pozerám televíziu."
+      },
+      {
+        "word": "das Fernsehen",
+        "meaning": "televízia ako médium",
+        "example": "Im Fernsehen läuft ein Film. = V televízii dávajú film."
+      },
+      {
+        "word": "sehen",
+        "meaning": "vidieť • pozerať",
+        "example": "Ich sehe einen Film. = Pozerám film."
+      }
+    ],
+    "tip": {
+      "leftBlocks": [
+        {
+          "text": "Pre činnosť používaj fernsehen (ich sehe fern). Pre televízny program alebo médium používaj das Fernsehen."
+        }
+      ]
+    },
+    "important": {
+      "text": "fernsehen = sloveso (ich sehe fern). das Fernsehen = podstatné meno používané iba v jednotnom čísle."
+    },
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "fernsehen",
+          "sehe",
+          "fern"
+        ],
+        "green": [
+          "das Fernsehen"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "sehe",
+              "fern"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Siehst",
+              "fern"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "sehen",
+              "fern"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        },
+        {
+          "word": {},
+          "meaning": {},
+          "example": {}
+        }
+      ],
+      "tip": {},
+      "important": {}
+    }
+  }
+}
+```
+
+---
+
+## Finding 13
+
+**Audit ID:** `LRB091-0013`
+**Finding Stable ID:** `g2/a1/sk|Fernsehen|idx:688|study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Fernsehen|idx:688`
+**Field / path:** `study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"study":{"id":"a1-fernsehen-study","layout":"standardStudy","translation":"TV","explanation":["Hlavná myšlienka: Podstatné meno, iba jednotné číslo. Opisuje televíziu ako médium alebo vysielanie vo všeobecnosti.","Das Fernsehen v podstate znamená: sledujte vysielanie.","Často opisuje: akcia.","Das Fernsehen je predovšetkým televízia ako médium.","Často opisuje: podstatné meno (iba jednotné číslo).","Fernsehen je sloveso, ktoré možno rozdeliť na: ich sehe fern, du siehst fern.","Das Fernsehen je podstatné meno a má iba tvar jednotného čísla – nemá tvar množného čísla."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Čo je dnes v televízii?"},{"de":"Was gibt es heute im Fernsehen?","lv":"Čo je dnes v televízii?"},{"de":"Im Fernsehen läuft ein Film.","lv":"V televízii je film."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Dnešný televízny program je nudný."},{"de":"Ich sehe heute Abend fern.","lv":"Dnes večer pozerám televíziu."},{"de":"Was gibt es im Fernsehen?","lv":"Čo sa zobrazuje v televízii?"}],"tip":["Keď hovoríte o činnosti, použite fernsehen (ich sehe fern). Keď hovoríte o televíznom programe alebo médiách, použite das Fernsehen.","Podstatné meno, iba jednotné číslo. Opisuje televíziu ako médium alebo vysielanie vo všeobecnosti."],"important":["Fernsehen je deliteľné: sehen + papraď.","Das Fernsehen nie je množné číslo – nie *die Fernsehen.","Nesprávne: die Fernsehen → Správne: das Fernsehen","Akcia: fernsehen → ich sehe fern."],"sectionAccents":{"explanation":{"green":["Fernsehen"],"yellow":["Fernsehen"]},"examples":[{"de":{"green":["Fernsehen","fernsehen"]},"lv":{"purple":["televízii"]}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{"purple":["televízii"]}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{"purple":["televízii"]}},{"de":{"green":["das Fernsehen","fernsehen"]},"lv":{"purple":["Dnešný"]}},{"de":{},"lv":{"purple":["Dnes"]}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{"purple":["televízii"]}}],"tip":[{}],"important":[{"green":["fernsehen"]}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"televízia","study":{"id":"a1-fernsehen-study","layout":"standardStudy","translation":"televízia","explanation":["Hlavná myšlienka: das Fernsehen je podstatné meno používané iba v jednotnom čísle a označuje televíziu ako médium alebo vysielanie.","Das Fernsehen môže označovať sledovanie televízneho vysielania.","V tomto význame ide o činnosť alebo médium podľa kontextu.","Das Fernsehen označuje televíziu ako médium.","Ako podstatné meno sa používa iba v jednotnom čísle.","Fernsehen je aj odlučiteľné sloveso: ich sehe fern, du siehst fern.","Podstatné meno das Fernsehen nemá množné číslo."],"examples":[{"de":"Was gibt es heute im Fernsehen?","lv":"Čo je dnes v televízii?"},{"de":"Was gibt es heute im Fernsehen?","lv":"Čo je dnes v televízii?"},{"de":"Im Fernsehen läuft ein Film.","lv":"V televízii dávajú film."},{"de":"Das Fernsehen ist heute langweilig.","lv":"Dnešný televízny program je nudný."},{"de":"Ich sehe heute Abend fern.","lv":"Dnes večer pozerám televíziu."},{"de":"Was gibt es im Fernsehen?","lv":"Čo je v televízii?"}],"tip":["Ak hovoríš o činnosti, použi sloveso fernsehen: ich sehe fern.","Ak hovoríš o televíznom programe alebo médiu, použi das Fernsehen."],"important":["Fernsehen je odlučiteľné sloveso: sehen + fern.","Das Fernsehen nemá množné číslo.","Činnosť: fernsehen → ich sehe fern."],"sectionAccents":{"explanation":{"green":["Fernsehen"],"yellow":["Fernsehen"]},"examples":[{"de":{"green":["Fernsehen","fernsehen"]},"lv":{}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{}},{"de":{"green":["das Fernsehen","fernsehen"]},"lv":{}},{"de":{},"lv":{}},{"de":{"green":["Fernsehen","fernsehen"]},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Fernsehen",
+  "de_article": "das",
+  "lv": "televízia",
+  "level": "A1",
+  "study": {
+    "id": "a1-fernsehen-study",
+    "layout": "standardStudy",
+    "translation": "televízia",
+    "explanation": [
+      "Hlavná myšlienka: das Fernsehen je podstatné meno používané iba v jednotnom čísle a označuje televíziu ako médium alebo vysielanie.",
+      "Das Fernsehen môže označovať sledovanie televízneho vysielania.",
+      "V tomto význame ide o činnosť alebo médium podľa kontextu.",
+      "Das Fernsehen označuje televíziu ako médium.",
+      "Ako podstatné meno sa používa iba v jednotnom čísle.",
+      "Fernsehen je aj odlučiteľné sloveso: ich sehe fern, du siehst fern.",
+      "Podstatné meno das Fernsehen nemá množné číslo."
+    ],
+    "examples": [
+      {
+        "de": "Was gibt es heute im Fernsehen?",
+        "lv": "Čo je dnes v televízii?"
+      },
+      {
+        "de": "Was gibt es heute im Fernsehen?",
+        "lv": "Čo je dnes v televízii?"
+      },
+      {
+        "de": "Im Fernsehen läuft ein Film.",
+        "lv": "V televízii dávajú film."
+      },
+      {
+        "de": "Das Fernsehen ist heute langweilig.",
+        "lv": "Dnešný televízny program je nudný."
+      },
+      {
+        "de": "Ich sehe heute Abend fern.",
+        "lv": "Dnes večer pozerám televíziu."
+      },
+      {
+        "de": "Was gibt es im Fernsehen?",
+        "lv": "Čo je v televízii?"
+      }
+    ],
+    "tip": [
+      "Ak hovoríš o činnosti, použi sloveso fernsehen: ich sehe fern.",
+      "Ak hovoríš o televíznom programe alebo médiu, použi das Fernsehen."
+    ],
+    "important": [
+      "Fernsehen je odlučiteľné sloveso: sehen + fern.",
+      "Das Fernsehen nemá množné číslo.",
+      "Činnosť: fernsehen → ich sehe fern."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "green": [
+          "Fernsehen"
+        ],
+        "yellow": [
+          "Fernsehen"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "green": [
+              "Fernsehen",
+              "fernsehen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "Fernsehen",
+              "fernsehen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "Fernsehen",
+              "fernsehen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "das Fernsehen",
+              "fernsehen"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "Fernsehen",
+              "fernsehen"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 14
+
+**Audit ID:** `LRB091-0014`
+**Finding Stable ID:** `g2/a1/sk|Film|idx:185|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Film|idx:185`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Rodina"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"film"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Film",
+  "de_article": "der",
+  "de_plural": "die Filme",
+  "lv": "film",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 15
+
+**Audit ID:** `LRB091-0015`
+**Finding Stable ID:** `g2/a1/sk|finden|idx:187|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `finden|idx:187`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Nájsť • Zvážiť"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"nájsť","study":{"id":"a1-finden","layout":"standardStudy","translation":"nájsť • považovať","explanation":["Hlavná myšlienka: finden najčastejšie znamená nájsť.","V rozhovore môže finden vyjadrovať aj názor: považovať niečo za určité alebo myslieť si o niečom niečo.","Pri stratenej veci znamená finden nájsť.","Pri názore sa prekladá podľa kontextu ako považovať alebo myslieť si."],"examples":[{"de":"Ich finde meinen Schlüssel.","lv":"Nachádzam svoj kľúč."},{"de":"Ich finde das gut.","lv":"Považujem to za dobré."},{"de":"Wie findest du den Film?","lv":"Čo si myslíš o tom filme?"}],"comparison":[{"word":"finden","meaning":"nájsť • považovať","example":"Ich finde das gut. = Považujem to za dobré."}],"tip":{"text":"Zapamätaj si: stratená vec → finden; názor → ich finde ..."},"important":["Finden neznamená iba nájsť.","Ich finde das gut znamená Považujem to za dobré, nie doslovné nájdenie."],"sectionAccents":{"explanation":{"blue":["finden"]},"examples":[{"de":{"blue":["finde"]},"lv":{}},{"de":{},"lv":{}},{"de":{"blue":["finde"]},"lv":{}}],"comparison":[{"word":{"green":["finden"]},"meaning":{},"example":{"blue":["finde"]}}],"tip":{},"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "finden",
+  "lv": "nájsť",
+  "level": "A1",
+  "study": {
+    "id": "a1-finden",
+    "layout": "standardStudy",
+    "translation": "nájsť • považovať",
+    "explanation": [
+      "Hlavná myšlienka: finden najčastejšie znamená nájsť.",
+      "V rozhovore môže finden vyjadrovať aj názor: považovať niečo za určité alebo myslieť si o niečom niečo.",
+      "Pri stratenej veci znamená finden nájsť.",
+      "Pri názore sa prekladá podľa kontextu ako považovať alebo myslieť si."
+    ],
+    "examples": [
+      {
+        "de": "Ich finde meinen Schlüssel.",
+        "lv": "Nachádzam svoj kľúč."
+      },
+      {
+        "de": "Ich finde das gut.",
+        "lv": "Považujem to za dobré."
+      },
+      {
+        "de": "Wie findest du den Film?",
+        "lv": "Čo si myslíš o tom filme?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "finden",
+        "meaning": "nájsť • považovať",
+        "example": "Ich finde das gut. = Považujem to za dobré."
+      }
+    ],
+    "tip": {
+      "text": "Zapamätaj si: stratená vec → finden; názor → ich finde ..."
+    },
+    "important": [
+      "Finden neznamená iba nájsť.",
+      "Ich finde das gut znamená Považujem to za dobré, nie doslovné nájdenie."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "finden"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "finde"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {},
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "finde"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {
+            "green": [
+              "finden"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "finde"
+            ]
+          }
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 16
+
+**Audit ID:** `LRB091-0016`
+**Finding Stable ID:** `g2/a1/sk|Foto|idx:195|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Foto|idx:195`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Fotografovanie"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"fotografia"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Foto",
+  "de_article": "das",
+  "de_plural": "die Fotos",
+  "lv": "fotografia",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 17
+
+**Audit ID:** `LRB091-0017`
+**Finding Stable ID:** `g2/a1/sk|fragen|idx:197|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `fragen|idx:197`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Opýtajte sa"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"pýtať sa"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "fragen",
+  "lv": "pýtať sa",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 18
+
+**Audit ID:** `LRB091-0018`
+**Finding Stable ID:** `g2/a1/sk|frei|idx:199|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `frei|idx:199`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Zadarmo"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"voľný"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "frei",
+  "lv": "voľný",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 19
+
+**Audit ID:** `LRB091-0019`
+**Finding Stable ID:** `g2/a1/sk|Freundin|idx:202|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Freundin|idx:202`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Priateľ"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"priateľka"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Freundin",
+  "de_article": "die",
+  "de_plural": "die Freundinnen",
+  "lv": "priateľka",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 20
+
+**Audit ID:** `LRB091-0020`
+**Finding Stable ID:** `g2/a1/sk|freundlich|idx:203|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `freundlich|idx:203`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Zdvorilý"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"priateľský"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "freundlich",
+  "lv": "priateľský",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 21
+
+**Audit ID:** `LRB091-0021`
+**Finding Stable ID:** `g2/a1/sk|für|idx:216|lv|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `für|idx:216`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Pro • Pro"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"pre","study":{"id":"a1-fuer","layout":"standardStudy","translation":"pre • za","explanation":["Hlavná myšlienka: für je predložka, ktorá sa vždy spája s akuzatívom; po slovensky zvyčajne znamená pre alebo za.","Pri príjemcovi alebo účele znamená für zvyčajne pre: für dich = pre teba.","Pri platbe, výmene alebo dôvode môže znamenať za: danke für das Geschenk = ďakujem za darček.","Für vždy vyžaduje akuzatív bez ohľadu na význam."],"examples":[{"de":"Das ist für dich.","lv":"To je pre teba."},{"de":"Danke für die Hilfe.","lv":"Ďakujem za pomoc."},{"de":"Ich kaufe ein Geschenk für meine Mutter.","lv":"Kupujem darček pre svoju mamu."},{"de":"Was bezahlst du für das Auto?","lv":"Koľko zaplatíš za auto?"},{"de":"Das Buch ist für Kinder.","lv":"Tá kniha je pre deti."},{"de":"Für heute ist das genug.","lv":"Na dnes to stačí."}],"tip":["Für sa vždy spája s akuzatívom.","Príjemca alebo účel → pre; platba alebo dôvod → za."],"important":["Für + akuzatív: für mich, für dich, für das Kind.","Danke für a bezahlen für sa prekladajú so za, nie s pre."],"sectionAccents":{"explanation":{"blue":["für"]},"examples":[{"de":{"blue":["für"]},"lv":{}},{"de":{"green":["für"]},"lv":{}},{"de":{"blue":["für"]},"lv":{}},{"de":{"green":["für"]},"lv":{}},{"de":{"blue":["für"]},"lv":{}},{"de":{"blue":["Für"]},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "für",
+  "lv": "pre",
+  "level": "A1",
+  "study": {
+    "id": "a1-fuer",
+    "layout": "standardStudy",
+    "translation": "pre • za",
+    "explanation": [
+      "Hlavná myšlienka: für je predložka, ktorá sa vždy spája s akuzatívom; po slovensky zvyčajne znamená pre alebo za.",
+      "Pri príjemcovi alebo účele znamená für zvyčajne pre: für dich = pre teba.",
+      "Pri platbe, výmene alebo dôvode môže znamenať za: danke für das Geschenk = ďakujem za darček.",
+      "Für vždy vyžaduje akuzatív bez ohľadu na význam."
+    ],
+    "examples": [
+      {
+        "de": "Das ist für dich.",
+        "lv": "To je pre teba."
+      },
+      {
+        "de": "Danke für die Hilfe.",
+        "lv": "Ďakujem za pomoc."
+      },
+      {
+        "de": "Ich kaufe ein Geschenk für meine Mutter.",
+        "lv": "Kupujem darček pre svoju mamu."
+      },
+      {
+        "de": "Was bezahlst du für das Auto?",
+        "lv": "Koľko zaplatíš za auto?"
+      },
+      {
+        "de": "Das Buch ist für Kinder.",
+        "lv": "Tá kniha je pre deti."
+      },
+      {
+        "de": "Für heute ist das genug.",
+        "lv": "Na dnes to stačí."
+      }
+    ],
+    "tip": [
+      "Für sa vždy spája s akuzatívom.",
+      "Príjemca alebo účel → pre; platba alebo dôvod → za."
+    ],
+    "important": [
+      "Für + akuzatív: für mich, für dich, für das Kind.",
+      "Danke für a bezahlen für sa prekladajú so za, nie s pre."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "für"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "für"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "für"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "für"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "für"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "für"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Für"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 22
+
+**Audit ID:** `LRB091-0022`
+**Finding Stable ID:** `g2/a1/sk|Fußball|idx:218|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Fußball|idx:218`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"futbal","study":{"id":"a1-fussball-study","layout":"standardStudy","translation":"futbal","explanation":["Hlavná myšlienka: Fußball najčastejšie znamená futbal ako druh športu.","S článkom a v počitateľnom zmysle der Fußball môže znamenať aj futbalovú loptu.","Množné číslo die Fußbälle znamená futbalové lopty, nie viacerých typov športov."],"examples":[{"de":"Ich spiele Fußball.","lv":"es spēlēju futbolu."},{"de":"Der Fußball liegt im Garten.","lv":"futbola bumba atrodas dārzā."},{"de":"Wir kaufen zwei Fußbälle.","lv":"mēs pērkam divas futbola bumbas."}],"comparison":[{"word":"Fußball","meaning":"futbal ako druh športu","example":"Ich spiele Fußball. – Hrám futbal."},{"word":"der Fußball","meaning":"futbalová lopta","example":"Der Fußball ist neu. – Futbalová lopta je nová."}],"tip":["Bez článku spielen Fußball zvyčajne znamená hrať futbal.","V počitateľnom zmysle ein Fußball a die Fußbälle sú futbalová lopta a futbalové lopty."],"important":["die Fußbälle znamená futbalové lopty.","Druh športu Fußball sa zvyčajne používa v jednotnom čísle."]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"futbal","study":{"id":"a1-fussball-study","layout":"standardStudy","translation":"futbal","explanation":["Hlavná myšlienka: Fußball najčastejšie znamená futbal ako druh športu.","S členom a v počítateľnom význame der Fußball môže znamenať aj futbalovú loptu.","Množné číslo die Fußbälle znamená futbalové lopty, nie viacero druhov športu."],"examples":[{"de":"Ich spiele Fußball.","lv":"Hrám futbal."},{"de":"Der Fußball liegt im Garten.","lv":"Futbalová lopta je v záhrade."},{"de":"Wir kaufen zwei Fußbälle.","lv":"Kupujeme dve futbalové lopty."}],"comparison":[{"word":"Fußball","meaning":"futbal ako druh športu","example":"Ich spiele Fußball. – Hrám futbal."},{"word":"der Fußball","meaning":"futbalová lopta","example":"Der Fußball ist neu. – Futbalová lopta je nová."}],"tip":["Bez člena spielen Fußball zvyčajne znamená hrať futbal.","V počítateľnom význame ein Fußball a die Fußbälle znamenajú futbalová lopta a futbalové lopty."],"important":["die Fußbälle znamená futbalové lopty.","Význam Fußball ako šport sa zvyčajne používa v jednotnom čísle."]}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Fußball",
+  "de_article": "der",
+  "de_plural": "die Fußbälle",
+  "lv": "futbal",
+  "level": "A1",
+  "study": {
+    "id": "a1-fussball-study",
+    "layout": "standardStudy",
+    "translation": "futbal",
+    "explanation": [
+      "Hlavná myšlienka: Fußball najčastejšie znamená futbal ako druh športu.",
+      "S členom a v počítateľnom význame der Fußball môže znamenať aj futbalovú loptu.",
+      "Množné číslo die Fußbälle znamená futbalové lopty, nie viacero druhov športu."
+    ],
+    "examples": [
+      {
+        "de": "Ich spiele Fußball.",
+        "lv": "Hrám futbal."
+      },
+      {
+        "de": "Der Fußball liegt im Garten.",
+        "lv": "Futbalová lopta je v záhrade."
+      },
+      {
+        "de": "Wir kaufen zwei Fußbälle.",
+        "lv": "Kupujeme dve futbalové lopty."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Fußball",
+        "meaning": "futbal ako druh športu",
+        "example": "Ich spiele Fußball. – Hrám futbal."
+      },
+      {
+        "word": "der Fußball",
+        "meaning": "futbalová lopta",
+        "example": "Der Fußball ist neu. – Futbalová lopta je nová."
+      }
+    ],
+    "tip": [
+      "Bez člena spielen Fußball zvyčajne znamená hrať futbal.",
+      "V počítateľnom význame ein Fußball a die Fußbälle znamenajú futbalová lopta a futbalové lopty."
+    ],
+    "important": [
+      "die Fußbälle znamená futbalové lopty.",
+      "Význam Fußball ako šport sa zvyčajne používa v jednotnom čísle."
+    ]
+  }
+}
+```
+
+---
+
+## Finding 23
+
+**Audit ID:** `LRB091-0023`
+**Finding Stable ID:** `g2/a1/sk|ganz|idx:219|lv; study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `ganz|idx:219`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Zdravý","study":{"id":"a1-ganz-study","layout":"standardStudy","translation":"Zdravý","explanation":["Hlavná myšlienka: ganz spolu s podstatným menom znamená celý alebo všetko dohromady.","Pred prídavným menom alebo adverbiom ganz môže znamenať úplne, vôbec alebo dosť.","ganz nie je to isté ako zámeno alles."],"examples":[{"de":"Ich arbeite den ganzen Tag.","lv":"es strādāju visu dienu."},{"de":"Das ganze Haus ist sauber.","lv":"visa māja ir tīra."},{"de":"Das ist ganz sicher.","lv":"tas ir pilnīgi droši."},{"de":"Das Essen ist ganz gut.","lv":"ēdiens ir diezgan labs."}],"comparison":[{"word":"ganz","meaning":"celý • všetko dohromady • úplne","example":"der ganze Tag – celý deň"},{"word":"alles","meaning":"Všetky","example":"Alles ist gut. – Všetko je v poriadku."}],"tip":["Pred podstatným menom ganz často znamená všetko alebo celý.","Pred prídavným menom ganz často znamená úplne alebo dosť."],"important":["der ganze Tag = celý deň.","alles = všetko ako zámeno."]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"celý","study":{"id":"a1-ganz-study","layout":"standardStudy","translation":"celý • úplne","explanation":["Hlavná myšlienka: ganz spolu s podstatným menom znamená celý alebo všetko dohromady.","Pred prídavným menom alebo príslovkou môže ganz znamenať úplne alebo dosť.","Ganz nie je to isté ako zámeno alles."],"examples":[{"de":"Ich arbeite den ganzen Tag.","lv":"Pracujem celý deň."},{"de":"Das ganze Haus ist sauber.","lv":"Celý dom je čistý."},{"de":"Das ist ganz sicher.","lv":"To je úplne isté."},{"de":"Das Essen ist ganz gut.","lv":"Jedlo je celkom dobré."}],"comparison":[{"word":"ganz","meaning":"celý • všetko dohromady • úplne","example":"der ganze Tag – celý deň"},{"word":"alles","meaning":"všetko","example":"Alles ist gut. – Všetko je v poriadku."}],"tip":["Pred podstatným menom ganz často znamená celý alebo všetok.","Pred prídavným menom ganz často znamená úplne alebo celkom."],"important":["der ganze Tag = celý deň.","alles = všetko ako zámeno."]}}
+**Note:** Vonkajšie „veselý“ bolo významovo nesprávne; ganz tu znamená celý alebo úplne.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "ganz",
+  "lv": "celý",
+  "level": "A1",
+  "study": {
+    "id": "a1-ganz-study",
+    "layout": "standardStudy",
+    "translation": "celý • úplne",
+    "explanation": [
+      "Hlavná myšlienka: ganz spolu s podstatným menom znamená celý alebo všetko dohromady.",
+      "Pred prídavným menom alebo príslovkou môže ganz znamenať úplne alebo dosť.",
+      "Ganz nie je to isté ako zámeno alles."
+    ],
+    "examples": [
+      {
+        "de": "Ich arbeite den ganzen Tag.",
+        "lv": "Pracujem celý deň."
+      },
+      {
+        "de": "Das ganze Haus ist sauber.",
+        "lv": "Celý dom je čistý."
+      },
+      {
+        "de": "Das ist ganz sicher.",
+        "lv": "To je úplne isté."
+      },
+      {
+        "de": "Das Essen ist ganz gut.",
+        "lv": "Jedlo je celkom dobré."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "ganz",
+        "meaning": "celý • všetko dohromady • úplne",
+        "example": "der ganze Tag – celý deň"
+      },
+      {
+        "word": "alles",
+        "meaning": "všetko",
+        "example": "Alles ist gut. – Všetko je v poriadku."
+      }
+    ],
+    "tip": [
+      "Pred podstatným menom ganz často znamená celý alebo všetok.",
+      "Pred prídavným menom ganz často znamená úplne alebo celkom."
+    ],
+    "important": [
+      "der ganze Tag = celý deň.",
+      "alles = všetko ako zámeno."
+    ]
+  }
+}
+```
+
+---
+
+## Finding 24
+
+**Audit ID:** `LRB091-0024`
+**Finding Stable ID:** `g2/a1/sk|geben|idx:223|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `geben|idx:223`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Dávať","study":{"id":"a1-geben","layout":"standardStudy","translation":"Dávať","explanation":["Hlavná myšlienka: geben znamená dávať.","Geben používame, keď niekto niečo dáva inej osobe.","Toto je opačný smer ako nehmen.","Bekommen znamená prijímať, teda byť tým, kto niečo prijíma."],"examples":[{"de":"Gib mir bitte das Buch.","lv":"Dajte mi knihu, prosím"},{"de":"Ich gebe dir meine Nummer.","lv":"Dávam ti svoje číslo"},{"de":"Ich nehme das Buch.","lv":"Beriem knihu"},{"de":"Ich bekomme ein Geschenk.","lv":"Dostávam darček"}],"comparison":[{"word":"geben","meaning":"Dávať","example":"Gib mir das Buch."},{"word":"nehmen","meaning":"Vezmi / zober","example":"Ich nehme das Buch."},{"word":"bekommen","meaning":"Prijať/dostať","example":"Ich bekomme ein Geschenk."},{"word":"bringen","meaning":"Priniesť/doručiť","example":"Ich bringe dir das Buch."}],"tip":{"text":"Pamätaj: rozdať → geben • Brať pre seba → nehmen."},"important":["Geben a nehmen sú opačné smery.","Bekommen znamená prijímať, nie dávať."],"sectionAccents":{"explanation":{"blue":["geben"],"red":["nehmen","bekommen"]},"examples":[{"de":{"blue":["Gib"],"yellow":["Buch"]},"lv":{}},{"de":{"blue":["gebe"],"yellow":["Nummer"]},"lv":{"yellow":["Dávam"]}},{"de":{"red":["nehme"],"yellow":["Buch"]},"lv":{}},{"de":{"red":["bekomme"],"yellow":["Geschenk"]},"lv":{}}],"comparison":[{"word":{"green":["geben"]},"meaning":{},"example":{"blue":["Gib"]}},{"word":{"green":["nehmen"]},"meaning":{},"example":{"red":["nehme"]}},{"word":{"green":["bekommen"]},"meaning":{},"example":{}},{"word":{"green":["bringen"]},"meaning":{},"example":{"green":["bringe"]}}],"tip":{"left":{"blue":["geben"],"red":["nehmen","Pamätaj"]}},"important":[{"blue":["geben"],"red":["nehmen"]},{"yellow":["bekommen"]}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"dať","study":{"id":"a1-geben","layout":"standardStudy","translation":"dať","explanation":["Hlavná myšlienka: geben znamená dávať.","Geben používame, keď niekto niečo dáva inej osobe.","Je to opačný smer ako nehmen.","Bekommen znamená dostať alebo prijímať, teda byť tým, kto niečo prijíma."],"examples":[{"de":"Gib mir bitte das Buch.","lv":"Daj mi, prosím, tú knihu."},{"de":"Ich gebe dir meine Nummer.","lv":"Dávam ti svoje číslo."},{"de":"Ich nehme das Buch.","lv":"Beriem knihu."},{"de":"Ich bekomme ein Geschenk.","lv":"Dostávam darček."}],"comparison":[{"word":"geben","meaning":"dávať","example":"Gib mir das Buch. – Daj mi tú knihu."},{"word":"nehmen","meaning":"vziať • zobrať","example":"Ich nehme das Buch. – Beriem knihu."},{"word":"bekommen","meaning":"dostať • prijímať","example":"Ich bekomme ein Geschenk. – Dostávam darček."},{"word":"bringen","meaning":"priniesť • doručiť","example":"Ich bringe dir das Buch. – Prinesiem ti knihu."}],"tip":{"text":"Pamätaj: dať → geben • vziať pre seba → nehmen."},"important":["Geben a nehmen označujú opačné smery.","Bekommen znamená dostať alebo prijímať, nie dávať."],"sectionAccents":{"explanation":{"blue":["geben"],"red":["nehmen","bekommen"]},"examples":[{"de":{"blue":["Gib"],"yellow":["Buch"]},"lv":{}},{"de":{"blue":["gebe"],"yellow":["Nummer"]},"lv":{}},{"de":{"red":["nehme"],"yellow":["Buch"]},"lv":{}},{"de":{"red":["bekomme"],"yellow":["Geschenk"]},"lv":{}}],"comparison":[{"word":{"green":["geben"]},"meaning":{},"example":{"blue":["Gib"]}},{"word":{"green":["nehmen"]},"meaning":{},"example":{"red":["nehme"]}},{"word":{"green":["bekommen"]},"meaning":{},"example":{"yellow":["bekomme"]}},{"word":{"green":["bringen"]},"meaning":{},"example":{"green":["bringe"]}}],"tip":{},"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "geben",
+  "lv": "dať",
+  "level": "A1",
+  "study": {
+    "id": "a1-geben",
+    "layout": "standardStudy",
+    "translation": "dať",
+    "explanation": [
+      "Hlavná myšlienka: geben znamená dávať.",
+      "Geben používame, keď niekto niečo dáva inej osobe.",
+      "Je to opačný smer ako nehmen.",
+      "Bekommen znamená dostať alebo prijímať, teda byť tým, kto niečo prijíma."
+    ],
+    "examples": [
+      {
+        "de": "Gib mir bitte das Buch.",
+        "lv": "Daj mi, prosím, tú knihu."
+      },
+      {
+        "de": "Ich gebe dir meine Nummer.",
+        "lv": "Dávam ti svoje číslo."
+      },
+      {
+        "de": "Ich nehme das Buch.",
+        "lv": "Beriem knihu."
+      },
+      {
+        "de": "Ich bekomme ein Geschenk.",
+        "lv": "Dostávam darček."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "geben",
+        "meaning": "dávať",
+        "example": "Gib mir das Buch. – Daj mi tú knihu."
+      },
+      {
+        "word": "nehmen",
+        "meaning": "vziať • zobrať",
+        "example": "Ich nehme das Buch. – Beriem knihu."
+      },
+      {
+        "word": "bekommen",
+        "meaning": "dostať • prijímať",
+        "example": "Ich bekomme ein Geschenk. – Dostávam darček."
+      },
+      {
+        "word": "bringen",
+        "meaning": "priniesť • doručiť",
+        "example": "Ich bringe dir das Buch. – Prinesiem ti knihu."
+      }
+    ],
+    "tip": {
+      "text": "Pamätaj: dať → geben • vziať pre seba → nehmen."
+    },
+    "important": [
+      "Geben a nehmen označujú opačné smery.",
+      "Bekommen znamená dostať alebo prijímať, nie dávať."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "geben"
+        ],
+        "red": [
+          "nehmen",
+          "bekommen"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "Gib"
+            ],
+            "yellow": [
+              "Buch"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gebe"
+            ],
+            "yellow": [
+              "Nummer"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "red": [
+              "nehme"
+            ],
+            "yellow": [
+              "Buch"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "red": [
+              "bekomme"
+            ],
+            "yellow": [
+              "Geschenk"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {
+            "green": [
+              "geben"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "Gib"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "nehmen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "red": [
+              "nehme"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "bekommen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "yellow": [
+              "bekomme"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "bringen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "green": [
+              "bringe"
+            ]
+          }
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 25
+
+**Audit ID:** `LRB091-0025`
+**Finding Stable ID:** `g2/a1/sk|gefallen|idx:225|lv; study|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `gefallen|idx:225`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Ako","study":{"id":"a1-gefallen-study","layout":"standardStudy","translation":"Ako","explanation":["Hlavná myšlienka: gefallen znamená páčiť sa, ale nemecká vetná konštrukcia sa líši od slovenskej.","Vec, ktorá sa páči, je v nemčine predmetom vety.","Osoba, ktorej sa niečo páči, je v datíve: mir, dir, ihm, ihr, uns, euch, ihnen."],"examples":[{"de":"Das gefällt mir.","lv":"man tas patīk."},{"de":"Gefällt dir das Kleid?","lv":"vai tev patīk kleita?"},{"de":"Der Film gefällt uns.","lv":"mums patīk filma."}],"comparison":[{"word":"gefallen","meaning":"páčiť sa • osoba v datíve","example":"Das gefällt mir. – To sa mi páči."},{"word":"mögen","meaning":"páčiť sa • radi si vybrať","example":"Ich mag das. – To sa mi páči."}],"tip":["Zapamätaj si konštrukciu: Das gefällt mir.","Neformuj doslovno slovenskú slovoslednosť."],"important":["gefallen sa používa s datívom: mir, dir, ihm, ihr.","Das gefällt mir = to sa mi páči."]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"páčiť sa","study":{"id":"a1-gefallen-study","layout":"standardStudy","translation":"páčiť sa","explanation":["Hlavná myšlienka: gefallen znamená páčiť sa, ale nemecká vetná konštrukcia sa líši od slovenskej.","Vec, ktorá sa páči, je v nemčine podmetom vety.","Osoba, ktorej sa niečo páči, je v datíve: mir, dir, ihm, ihr, uns, euch, ihnen."],"examples":[{"de":"Das gefällt mir.","lv":"To sa mi páči."},{"de":"Gefällt dir das Kleid?","lv":"Páčia sa ti tie šaty?"},{"de":"Der Film gefällt uns.","lv":"Film sa nám páči."}],"comparison":[{"word":"gefallen","meaning":"páčiť sa • osoba v datíve","example":"Das gefällt mir. – To sa mi páči."},{"word":"mögen","meaning":"mať rád • obľubovať","example":"Ich mag das. – Mám to rád."}],"tip":["Zapamätaj si konštrukciu: Das gefällt mir.","Nepoužívaj doslovný slovenský slovosled."],"important":["Gefallen sa používa s datívom: mir, dir, ihm, ihr.","Das gefällt mir = To sa mi páči."]}}
+**Note:** Opravený význam Kleid na šaty a odstránený skrytý znak v slove Gefallen.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gefallen",
+  "lv": "páčiť sa",
+  "level": "A1",
+  "study": {
+    "id": "a1-gefallen-study",
+    "layout": "standardStudy",
+    "translation": "páčiť sa",
+    "explanation": [
+      "Hlavná myšlienka: gefallen znamená páčiť sa, ale nemecká vetná konštrukcia sa líši od slovenskej.",
+      "Vec, ktorá sa páči, je v nemčine podmetom vety.",
+      "Osoba, ktorej sa niečo páči, je v datíve: mir, dir, ihm, ihr, uns, euch, ihnen."
+    ],
+    "examples": [
+      {
+        "de": "Das gefällt mir.",
+        "lv": "To sa mi páči."
+      },
+      {
+        "de": "Gefällt dir das Kleid?",
+        "lv": "Páčia sa ti tie šaty?"
+      },
+      {
+        "de": "Der Film gefällt uns.",
+        "lv": "Film sa nám páči."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "gefallen",
+        "meaning": "páčiť sa • osoba v datíve",
+        "example": "Das gefällt mir. – To sa mi páči."
+      },
+      {
+        "word": "mögen",
+        "meaning": "mať rád • obľubovať",
+        "example": "Ich mag das. – Mám to rád."
+      }
+    ],
+    "tip": [
+      "Zapamätaj si konštrukciu: Das gefällt mir.",
+      "Nepoužívaj doslovný slovenský slovosled."
+    ],
+    "important": [
+      "Gefallen sa používa s datívom: mir, dir, ihm, ihr.",
+      "Das gefällt mir = To sa mi páči."
+    ]
+  }
+}
+```
+
+---
+
+## Finding 26
+
+**Audit ID:** `LRB091-0026`
+**Finding Stable ID:** `g2/a1/sk|Gemüse|idx:692|lv, study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Gemüse|idx:692`
+**Field / path:** `lv, study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Zelenina","study":{"id":"a1-gemuese","layout":"standardStudy","translation":"Zelenina","explanation":["Hlavná myšlienka: O zelenine všeobecne. Pre *die Gemüse v nemčine neexistuje množné číslo.","Das Gemüse znamená hlavne: zelenina všeobecne.","Často opísané: v akomkoľvek pohlaví (iba v jednotnom čísle)."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Rada jem zeleninu."},{"de":"Ich esse gern Gemüse.","lv":"Rada jem zeleninu."},{"de":"Das Gemüse ist frisch.","lv":"Zelenina je čerstvá."},{"de":"Wir kaufen Gemüse auf dem Markt.","lv":"Zeleninu kupujeme na trhu."},{"de":"Ich mag Obst und Gemüse.","lv":"Mám rád ovocie a zeleninu."},{"de":"Ich esse Gemüse.","lv":"Jem zeleninu."}],"tip":["Das Gemüse = zelenina","Ak kontext zodpovedá tomuto významu, použite das Gemüse."],"important":["Nesprávne: die Gemüse, die Obsts.","Nesprávne: die Gemüse → Správne: das Gemüse","Das Gemüse = zelenina (vo všeobecnosti)."],"sectionAccents":{"explanation":{"blue":["das Gemüse","gemüse"],"green":["Gemüse"]},"examples":[{"de":{"blue":["gemüse"]},"lv":{}},{"de":{"blue":["gemüse"]},"lv":{}},{"de":{"blue":["das Gemüse","gemüse"]},"lv":{}},{"de":{"blue":["gemüse"]},"lv":{}},{"de":{"blue":["gemüse"]},"lv":{}},{"de":{"blue":["gemüse"]},"lv":{}}],"tip":[{}],"important":[{}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"zelenina","study":{"id":"a1-gemuese","layout":"standardStudy","translation":"zelenina","explanation":["Hlavná myšlienka: Gemüse znamená zelenina všeobecne.","Das Gemüse sa používa najmä v jednotnom čísle.","V nemčine sa pre tento všeobecný význam bežne nepoužíva množné číslo die Gemüse."],"examples":[{"de":"Ich esse gern Gemüse.","lv":"Rád jem zeleninu."},{"de":"Ich esse gern Gemüse.","lv":"Rada jem zeleninu."},{"de":"Das Gemüse ist frisch.","lv":"Zelenina je čerstvá."},{"de":"Wir kaufen Gemüse auf dem Markt.","lv":"Kupujeme zeleninu na trhu."},{"de":"Ich mag Obst und Gemüse.","lv":"Mám rád ovocie a zeleninu."},{"de":"Ich esse Gemüse.","lv":"Jem zeleninu."}],"tip":["Das Gemüse = zelenina.","Ak kontext zodpovedá tomuto významu, použite das Gemüse."],"important":["Nesprávne: die Gemüse, die Obsts.","Správne: das Gemüse.","Das Gemüse = zelenina všeobecne."],"sectionAccents":{"explanation":{"blue":["das Gemüse","gemüse"],"green":["Gemüse"]},"examples":[{"de":{"blue":["gemüse"]},"lv":{}},{"de":{"blue":["gemüse"]},"lv":{}},{"de":{"blue":["das Gemüse","gemüse"]},"lv":{}},{"de":{"blue":["gemüse"]},"lv":{}},{"de":{"blue":["gemüse"]},"lv":{}},{"de":{"blue":["gemüse"]},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Gemüse",
+  "de_article": "das",
+  "lv": "zelenina",
+  "level": "A1",
+  "study": {
+    "id": "a1-gemuese",
+    "layout": "standardStudy",
+    "translation": "zelenina",
+    "explanation": [
+      "Hlavná myšlienka: Gemüse znamená zelenina všeobecne.",
+      "Das Gemüse sa používa najmä v jednotnom čísle.",
+      "V nemčine sa pre tento všeobecný význam bežne nepoužíva množné číslo die Gemüse."
+    ],
+    "examples": [
+      {
+        "de": "Ich esse gern Gemüse.",
+        "lv": "Rád jem zeleninu."
+      },
+      {
+        "de": "Ich esse gern Gemüse.",
+        "lv": "Rada jem zeleninu."
+      },
+      {
+        "de": "Das Gemüse ist frisch.",
+        "lv": "Zelenina je čerstvá."
+      },
+      {
+        "de": "Wir kaufen Gemüse auf dem Markt.",
+        "lv": "Kupujeme zeleninu na trhu."
+      },
+      {
+        "de": "Ich mag Obst und Gemüse.",
+        "lv": "Mám rád ovocie a zeleninu."
+      },
+      {
+        "de": "Ich esse Gemüse.",
+        "lv": "Jem zeleninu."
+      }
+    ],
+    "tip": [
+      "Das Gemüse = zelenina.",
+      "Ak kontext zodpovedá tomuto významu, použite das Gemüse."
+    ],
+    "important": [
+      "Nesprávne: die Gemüse, die Obsts.",
+      "Správne: das Gemüse.",
+      "Das Gemüse = zelenina všeobecne."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "das Gemüse",
+          "gemüse"
+        ],
+        "green": [
+          "Gemüse"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "gemüse"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gemüse"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "das Gemüse",
+              "gemüse"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gemüse"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gemüse"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gemüse"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 27
+
+**Audit ID:** `LRB091-0027`
+**Finding Stable ID:** `g2/a1/sk|Geschichte|idx:233|lv; study|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Geschichte|idx:233`
+**Field / path:** `lv; study`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"príbeh","study":{"id":"a1-geschichte-study","layout":"standardStudy","translation":"príbeh","explanation":["Hlavná myšlienka: Geschichte môže znamenať príbeh alebo dejiny.","Množné číslo die Geschichten zvyčajne znamená príbehy.","Zmysel dejín sa zvyčajne používa v jednotnom čísle."],"examples":[{"de":"Er erzählt eine Geschichte.","lv":"viņš stāsta stāstu."},{"de":"Ich lerne Geschichte.","lv":"es mācos vēsturi."},{"de":"Das ist die Geschichte Deutschlands.","lv":"tā ir Vācijas vēsture."}],"comparison":[{"word":"eine Geschichte","meaning":"príbeh","example":"eine interessante Geschichte – zaujímavý príbeh"},{"word":"Geschichte","meaning":"dejiny","example":"Geschichte lernen – učiť sa dejiny"}],"tip":["S eine a v množnom čísle sa zvyčajne hovorí o príbehu.","Ako vyučovací predmet Geschichte znamená dejiny."],"important":["die Geschichten = príbehy.","Geschichte ako dejiny sa zvyčajne používa v jednotnom čísle."]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"príbeh","study":{"id":"a1-geschichte-study","layout":"standardStudy","translation":"príbeh • dejiny","explanation":["Hlavná myšlienka: Geschichte môže znamenať príbeh alebo dejiny.","Množné číslo die Geschichten zvyčajne znamená príbehy.","Nemecké Geschichte sa vo význame dejiny zvyčajne používa v jednotnom čísle."],"examples":[{"de":"Er erzählt eine Geschichte.","lv":"Rozpráva príbeh."},{"de":"Ich lerne Geschichte.","lv":"Učím sa dejiny."},{"de":"Das ist die Geschichte Deutschlands.","lv":"Toto sú dejiny Nemecka."}],"comparison":[{"word":"eine Geschichte","meaning":"príbeh","example":"eine interessante Geschichte – zaujímavý príbeh"},{"word":"Geschichte","meaning":"dejiny","example":"Geschichte lernen – učiť sa dejiny"}],"tip":["So členom eine a v množnom čísle sa zvyčajne hovorí o príbehu.","Ako vyučovací predmet Geschichte znamená dejiny."],"important":["die Geschichten = príbehy.","Nemecké Geschichte sa vo význame dejiny zvyčajne používa v jednotnom čísle."]}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Geschichte",
+  "de_article": "die",
+  "de_plural": "die Geschichten",
+  "lv": "príbeh",
+  "level": "A1",
+  "study": {
+    "id": "a1-geschichte-study",
+    "layout": "standardStudy",
+    "translation": "príbeh • dejiny",
+    "explanation": [
+      "Hlavná myšlienka: Geschichte môže znamenať príbeh alebo dejiny.",
+      "Množné číslo die Geschichten zvyčajne znamená príbehy.",
+      "Nemecké Geschichte sa vo význame dejiny zvyčajne používa v jednotnom čísle."
+    ],
+    "examples": [
+      {
+        "de": "Er erzählt eine Geschichte.",
+        "lv": "Rozpráva príbeh."
+      },
+      {
+        "de": "Ich lerne Geschichte.",
+        "lv": "Učím sa dejiny."
+      },
+      {
+        "de": "Das ist die Geschichte Deutschlands.",
+        "lv": "Toto sú dejiny Nemecka."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "eine Geschichte",
+        "meaning": "príbeh",
+        "example": "eine interessante Geschichte – zaujímavý príbeh"
+      },
+      {
+        "word": "Geschichte",
+        "meaning": "dejiny",
+        "example": "Geschichte lernen – učiť sa dejiny"
+      }
+    ],
+    "tip": [
+      "So členom eine a v množnom čísle sa zvyčajne hovorí o príbehu.",
+      "Ako vyučovací predmet Geschichte znamená dejiny."
+    ],
+    "important": [
+      "die Geschichten = príbehy.",
+      "Nemecké Geschichte sa vo význame dejiny zvyčajne používa v jednotnom čísle."
+    ]
+  }
+}
+```
+
+---
+
+## Finding 28
+
+**Audit ID:** `LRB091-0028`
+**Finding Stable ID:** `g2/a1/sk|Geschwister|idx:234|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Geschwister|idx:234`
+**Field / path:** `lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"bratia a sestry","study.translation":"bratia a sestry","study.explanation":["Hlavná myšlienka: Geschwister znamená bratov a sestry dohromady.","Toto slovo sa zvyčajne používa iba v množnom čísle.","Pre jednu osobu sa používa Bruder alebo Schwester."],"study.examples":[{"de":"Ich habe zwei Geschwister.","lv":"man ir divi brāļi vai māsas."},{"de":"Meine Geschwister wohnen in Berlin.","lv":"mani brāļi un māsas dzīvo Berlīnē."}],"study.comparison":[{"word":"Geschwister","meaning":"bratia a sestry","example":"Meine Geschwister – moji bratia a sestry"},{"word":"Bruder","meaning":"Súrodenec","example":"mein Bruder – môj brat"},{"word":"Schwester","meaning":"Sestra","example":"meine Schwester – moja sestra"}],"study.tip":["Geschwister sa zvyčajne používa v množnom čísle.","Pre jednu osobu si vyberi Bruder alebo Schwester."],"study.important":["Nepoužívaj ein Geschwister ako obvykľu singulárnu formu A1."]}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"súrodenci","study":{"id":"a1-geschwister-study","layout":"standardStudy","translation":"súrodenci","explanation":["Hlavná myšlienka: Geschwister znamená bratov a sestry dohromady.","Toto slovo sa zvyčajne používa iba v množnom čísle.","Pre jednu osobu sa používa Bruder alebo Schwester."],"examples":[{"de":"Ich habe zwei Geschwister.","lv":"Mám dvoch súrodencov."},{"de":"Meine Geschwister wohnen in Berlin.","lv":"Moji súrodenci bývajú v Berlíne."}],"comparison":[{"word":"Geschwister","meaning":"súrodenci","example":"Meine Geschwister – moji súrodenci"},{"word":"Bruder","meaning":"brat","example":"mein Bruder – môj brat"},{"word":"Schwester","meaning":"sestra","example":"meine Schwester – moja sestra"}],"tip":["Geschwister sa zvyčajne používa v množnom čísle.","Pre jednu osobu si vyber Bruder alebo Schwester."],"important":["Ein Geschwister sa v bežnej nemčine nepoužíva ako obvyklý jednotný tvar."]}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Geschwister",
+  "de_article": "die",
+  "lv": "súrodenci",
+  "level": "A1",
+  "study": {
+    "id": "a1-geschwister-study",
+    "layout": "standardStudy",
+    "translation": "súrodenci",
+    "explanation": [
+      "Hlavná myšlienka: Geschwister znamená bratov a sestry dohromady.",
+      "Toto slovo sa zvyčajne používa iba v množnom čísle.",
+      "Pre jednu osobu sa používa Bruder alebo Schwester."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe zwei Geschwister.",
+        "lv": "Mám dvoch súrodencov."
+      },
+      {
+        "de": "Meine Geschwister wohnen in Berlin.",
+        "lv": "Moji súrodenci bývajú v Berlíne."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Geschwister",
+        "meaning": "súrodenci",
+        "example": "Meine Geschwister – moji súrodenci"
+      },
+      {
+        "word": "Bruder",
+        "meaning": "brat",
+        "example": "mein Bruder – môj brat"
+      },
+      {
+        "word": "Schwester",
+        "meaning": "sestra",
+        "example": "meine Schwester – moja sestra"
+      }
+    ],
+    "tip": [
+      "Geschwister sa zvyčajne používa v množnom čísle.",
+      "Pre jednu osobu si vyber Bruder alebo Schwester."
+    ],
+    "important": [
+      "Ein Geschwister sa v bežnej nemčine nepoužíva ako obvyklý jednotný tvar."
+    ]
+  }
+}
+```
+
+---
+
+## Finding 29
+
+**Audit ID:** `LRB091-0029`
+**Finding Stable ID:** `g2/a1/sk|gleich|idx:243|lv; study.translation; study.explanation; study.examples; study.tip; study.important|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `gleich|idx:243`
+**Field / path:** `lv; study.translation; study.explanation; study.examples; study.tip; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Okamžite • Rovnaký","study.translation":"Okamžite • Rovnaký","study.explanation":["Hlavná myšlienka: gleich dočasne znamená okamžite, relatívne rovnomerne.","Z časového hľadiska gleich = okamžite/o chvíľu (Ich komme gleich. = prídem čoskoro.).","Pokiaľ ide o porovnanie, gleich = rovnaký/rovnaký (die gleiche Farbe = rovnaká farba).","Gleich možno použiť aj ako datívnu predložku s významom ako (gleich mir = ako ja)."],"study.examples":[{"de":"Ich komme gleich.","lv":"Čoskoro tam budem."},{"de":"Wir haben die gleiche Farbe.","lv":"Máme rovnakú farbu."},{"de":"Das Essen ist gleich fertig.","lv":"Jedlo bude čoskoro hotové."},{"de":"Beide Wege sind gleich lang.","lv":"Obe cesty majú rovnakú dĺžku."},{"de":"Bis gleich!","lv":"Do skorého videnia!"},{"de":"Sie sind gleich groß.","lv":"Sú rovnako vysoké."}],"study.tip":["O chvíľu (o chvíľu) → hneď.","Na porovnanie (to isté) → to isté."],"study.important":["Gleich = okamžite (čas) ALEBO rovný (porovnanie).","Pridajte sa! = do skorého videnia! – obľúbená fráza na rozlúčku."]}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"hneď","study":{"id":"a1-gleich","layout":"standardStudy","translation":"hneď • rovnaký","explanation":["Hlavná myšlienka: gleich môže znamenať hneď alebo rovnaký.","Z časového hľadiska gleich znamená hneď alebo o chvíľu: Ich komme gleich. = Prídem o chvíľu.","Pri porovnávaní gleich znamená rovnaký: die gleiche Farbe = rovnaká farba.","Gleich sa používa aj vo význame rovnako, napríklad gleich groß = rovnako veľký."],"examples":[{"de":"Ich komme gleich.","lv":"Prídem o chvíľu."},{"de":"Wir haben die gleiche Farbe.","lv":"Máme rovnakú farbu."},{"de":"Das Essen ist gleich fertig.","lv":"Jedlo bude o chvíľu hotové."},{"de":"Beide Wege sind gleich lang.","lv":"Obe cesty sú rovnako dlhé."},{"de":"Bis gleich!","lv":"Uvidíme sa o chvíľu!"},{"de":"Sie sind gleich groß.","lv":"Sú rovnako vysokí."}],"tip":["Pri čase: gleich = o chvíľu alebo hneď.","Pri porovnaní: gleich = rovnaký alebo rovnako."],"important":["Gleich môže znamenať hneď, rovnaký alebo rovnako.","Bis gleich! = Uvidíme sa o chvíľu!"],"sectionAccents":{"explanation":{"blue":["gleich"]},"examples":[{"de":{"blue":["gleich"]},"lv":{}},{"de":{"green":["gleiche"]},"lv":{}},{"de":{"blue":["gleich"]},"lv":{}},{"de":{"green":["gleich"]},"lv":{}},{"de":{"blue":["gleich"]},"lv":{}},{"de":{"green":["gleich"]},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gleich",
+  "lv": "hneď",
+  "level": "A1",
+  "study": {
+    "id": "a1-gleich",
+    "layout": "standardStudy",
+    "translation": "hneď • rovnaký",
+    "explanation": [
+      "Hlavná myšlienka: gleich môže znamenať hneď alebo rovnaký.",
+      "Z časového hľadiska gleich znamená hneď alebo o chvíľu: Ich komme gleich. = Prídem o chvíľu.",
+      "Pri porovnávaní gleich znamená rovnaký: die gleiche Farbe = rovnaká farba.",
+      "Gleich sa používa aj vo význame rovnako, napríklad gleich groß = rovnako veľký."
+    ],
+    "examples": [
+      {
+        "de": "Ich komme gleich.",
+        "lv": "Prídem o chvíľu."
+      },
+      {
+        "de": "Wir haben die gleiche Farbe.",
+        "lv": "Máme rovnakú farbu."
+      },
+      {
+        "de": "Das Essen ist gleich fertig.",
+        "lv": "Jedlo bude o chvíľu hotové."
+      },
+      {
+        "de": "Beide Wege sind gleich lang.",
+        "lv": "Obe cesty sú rovnako dlhé."
+      },
+      {
+        "de": "Bis gleich!",
+        "lv": "Uvidíme sa o chvíľu!"
+      },
+      {
+        "de": "Sie sind gleich groß.",
+        "lv": "Sú rovnako vysokí."
+      }
+    ],
+    "tip": [
+      "Pri čase: gleich = o chvíľu alebo hneď.",
+      "Pri porovnaní: gleich = rovnaký alebo rovnako."
+    ],
+    "important": [
+      "Gleich môže znamenať hneď, rovnaký alebo rovnako.",
+      "Bis gleich! = Uvidíme sa o chvíľu!"
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "gleich"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "gleich"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "gleiche"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gleich"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "gleich"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gleich"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "gleich"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 30
+
+**Audit ID:** `LRB091-0030`
+**Finding Stable ID:** `g2/a1/sk|groß|idx:250|lv; study.translation; study.explanation; study.examples|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `groß|idx:250`
+**Field / path:** `lv; study.translation; study.explanation; study.examples`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Veľký","study.translation":"Veľký","study.explanation":["Hlavná myšlienka: Veľká veľkosť alebo na osobu - vysoká výška.","Groß znamená predovšetkým: veľké rozmery.","Často charakterizované: celkovou veľkosťou."],"study.examples":[{"de":"Das Haus ist groß.","lv":"Dom je veľký."},{"de":"Berlin ist eine große Stadt.","lv":"Dom je veľký."},{"de":"Er ist groß.","lv":"Je vysoký."},{"de":"Das Zimmer ist groß.","lv":"Izba je veľká."}]}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"veľký","study":{"id":"a1-gross-study","layout":"standardStudy","translation":"veľký","explanation":["Hlavná myšlienka: groß označuje veľkosť; pri osobe často znamená vysoký.","Groß znamená predovšetkým veľký alebo rozmerný.","Pri človeku môže groß označovať telesnú výšku."],"examples":[{"de":"Das Haus ist groß.","lv":"Dom je veľký."},{"de":"Berlin ist eine große Stadt.","lv":"Berlín je veľké mesto."},{"de":"Er ist groß.","lv":"Je vysoký."},{"de":"Das Zimmer ist groß.","lv":"Izba je veľká."}],"tip":["Groß = veľký.","Použite groß, keď kontext zodpovedá tomuto významu."],"important":["Pri osobe Er ist groß znamená Je vysoký.","Groß = veľký."],"sectionAccents":{"explanation":{"blue":["groß"]},"examples":[{"de":{"blue":["groß"]},"lv":{}},{"de":{"blue":["große"]},"lv":{}},{"de":{"blue":["groß"]},"lv":{}},{"de":{"blue":["groß"]},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "groß",
+  "lv": "veľký",
+  "level": "A1",
+  "study": {
+    "id": "a1-gross-study",
+    "layout": "standardStudy",
+    "translation": "veľký",
+    "explanation": [
+      "Hlavná myšlienka: groß označuje veľkosť; pri osobe často znamená vysoký.",
+      "Groß znamená predovšetkým veľký alebo rozmerný.",
+      "Pri človeku môže groß označovať telesnú výšku."
+    ],
+    "examples": [
+      {
+        "de": "Das Haus ist groß.",
+        "lv": "Dom je veľký."
+      },
+      {
+        "de": "Berlin ist eine große Stadt.",
+        "lv": "Berlín je veľké mesto."
+      },
+      {
+        "de": "Er ist groß.",
+        "lv": "Je vysoký."
+      },
+      {
+        "de": "Das Zimmer ist groß.",
+        "lv": "Izba je veľká."
+      }
+    ],
+    "tip": [
+      "Groß = veľký.",
+      "Použite groß, keď kontext zodpovedá tomuto významu."
+    ],
+    "important": [
+      "Pri osobe Er ist groß znamená Je vysoký.",
+      "Groß = veľký."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "groß"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "groß"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "große"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "groß"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "groß"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 31
+
+**Audit ID:** `LRB091-0031`
+**Finding Stable ID:** `g2/a1/sk|Großeltern|idx:251|lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important|LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Großeltern|idx:251`
+**Field / path:** `lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"starí rodičia","study.translation":"starí rodičia","study.explanation":["Hlavná myšlienka: Großeltern znamená stará mama a starý otec dohromady.","Toto slovo sa používa v množnom čísle.","V jednotnom čísle sa používa Großmutter alebo Großvater."],"study.examples":[{"de":"Meine Großeltern wohnen auf dem Land.","lv":"mani vecvecāki dzīvo laukos."},{"de":"Ich besuche meine Großeltern.","lv":"es apciemoju savus vecvecākus."}],"study.comparison":[{"word":"Großeltern","meaning":"starí rodičia","example":"meine Großeltern – moji starí rodičia"},{"word":"Großmutter","meaning":"Babička","example":"meine Großmutter – moja stará mama"},{"word":"Großvater","meaning":"Dedko","example":"mein Großvater – môj starý otec"}],"study.tip":["Großeltern je množné číslo.","Pre jednu osobu použi Großmutter alebo Großvater."],"study.important":["die Großeltern = starí rodičia."]}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"starí rodičia","study":{"id":"a1-grosseltern-study","layout":"standardStudy","translation":"starí rodičia","explanation":["Hlavná myšlienka: Großeltern znamená starí rodičia, teda stará mama a starý otec dohromady.","Toto slovo sa používa v množnom čísle.","V jednotnom čísle sa používa Großmutter alebo Großvater."],"examples":[{"de":"Meine Großeltern wohnen auf dem Land.","lv":"Moji starí rodičia bývajú na vidieku."},{"de":"Ich besuche meine Großeltern.","lv":"Navštevujem svojich starých rodičov."}],"comparison":[{"word":"Großeltern","meaning":"starí rodičia","example":"meine Großeltern – moji starí rodičia"},{"word":"Großmutter","meaning":"stará mama","example":"meine Großmutter – moja stará mama"},{"word":"Großvater","meaning":"starý otec","example":"mein Großvater – môj starý otec"}],"tip":["Großeltern je množné číslo.","Pre jednu osobu použi Großmutter alebo Großvater."],"important":["die Großeltern = starí rodičia."]}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Großeltern",
+  "de_article": "die",
+  "lv": "starí rodičia",
+  "level": "A1",
+  "study": {
+    "id": "a1-grosseltern-study",
+    "layout": "standardStudy",
+    "translation": "starí rodičia",
+    "explanation": [
+      "Hlavná myšlienka: Großeltern znamená starí rodičia, teda stará mama a starý otec dohromady.",
+      "Toto slovo sa používa v množnom čísle.",
+      "V jednotnom čísle sa používa Großmutter alebo Großvater."
+    ],
+    "examples": [
+      {
+        "de": "Meine Großeltern wohnen auf dem Land.",
+        "lv": "Moji starí rodičia bývajú na vidieku."
+      },
+      {
+        "de": "Ich besuche meine Großeltern.",
+        "lv": "Navštevujem svojich starých rodičov."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "Großeltern",
+        "meaning": "starí rodičia",
+        "example": "meine Großeltern – moji starí rodičia"
+      },
+      {
+        "word": "Großmutter",
+        "meaning": "stará mama",
+        "example": "meine Großmutter – moja stará mama"
+      },
+      {
+        "word": "Großvater",
+        "meaning": "starý otec",
+        "example": "mein Großvater – môj starý otec"
+      }
+    ],
+    "tip": [
+      "Großeltern je množné číslo.",
+      "Pre jednu osobu použi Großmutter alebo Großvater."
+    ],
+    "important": [
+      "die Großeltern = starí rodičia."
+    ]
+  }
+}
+```
+
+---
+
+## Finding 32
+
+**Audit ID:** `LRB091-0032`
+**Finding Stable ID:** `g2/a1/sk|Gruß|idx:256|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Gruß|idx:256`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Vitajte"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"pozdrav"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Gruß",
+  "de_article": "der",
+  "de_plural": "die Grüße",
+  "lv": "pozdrav",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 33
+
+**Audit ID:** `LRB091-0033`
+**Finding Stable ID:** `g2/a1/sk|grüßen|idx:257|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `grüßen|idx:257`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Pozdravte sa"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"pozdraviť"}
+**Note:** Infinitív grüßen znamená pozdraviť; „pozdravovať“ tu nie je prirodzená A1 ekvivalencia.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "grüßen",
+  "lv": "pozdraviť",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 34
+
+**Audit ID:** `LRB091-0034`
+**Finding Stable ID:** `g2/a1/sk|gut|idx:259|lv; study.translation; study.explanation; study.tip; study.important|TRANSLATION_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `gut|idx:259`
+**Field / path:** `lv; study.translation; study.explanation; study.tip; study.important`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Dobre","study.translation":"Dobre","study.explanation":["Hlavná myšlienka: črevo je prídavné meno/príslovka – dobrý, úspešný, OK.","Črevo opisuje kvalitu, zdravie alebo to, ako sa niečo deje (Es geht mir gut. = Som v poriadku.).","V zdvorilostnom výraze guten Tag/Abend/Morgen gut mení po skloňovaní koncovku.","Ak gut opisuje sloveso, ide o príslovku (gut schwimmen = dobre plávať).","Nezamieňať s das Gut – ide o podstatné meno (majetok, panstvo) písané s veľkým začiatočným písmenom a členom."],"study.tip":["Črevo bez článku je prídavné meno/príslovka – dobrý/dobrý.","Das Gut s veľkým písmenom a členom je úplne iné slovo – podstatné meno (majetok, panstvo)."],"study.important":["Črevo = dobrý/dobrý (prídavné meno/prídavné meno).","Das Gut = panstvo/panstvo (podstatné meno) – nezamieňať s črevom.","Guten Tag/Morgen/Abend – črevné zmeny končiace po skloňovaní."]}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"dobrý • dobre","study":{"id":"a1-gut-study","layout":"standardStudy","translation":"dobrý • dobre","explanation":["Hlavná myšlienka: gut je prídavné meno alebo príslovka s významom dobrý alebo dobre.","Gut opisuje kvalitu, zdravotný stav alebo spôsob, akým sa niečo deje (Es geht mir gut. = Som v poriadku.).","V zdvorilostných výrazoch guten Tag, guten Abend a guten Morgen sa koncovka slova gut mení podľa skloňovania.","Ak gut opisuje sloveso, ide o príslovku (gut schwimmen = dobre plávať).","Nezamieňaj si gut s podstatným menom das Gut, ktoré znamená majetok alebo panstvo."],"examples":[{"de":"Das Essen ist gut.","lv":"Jedlo je dobré."},{"de":"Wie geht es dir? – Gut, danke!","lv":"Ako sa máš? – Dobre, ďakujem!"},{"de":"Er spricht gut Deutsch.","lv":"Hovorí dobre po nemecky."},{"de":"Guten Morgen!","lv":"Dobré ráno!"},{"de":"Das ist eine gute Idee.","lv":"To je dobrý nápad."},{"de":"Alles ist gut.","lv":"Všetko je v poriadku."}],"tip":["Gut bez člena môže byť prídavné meno alebo príslovka – dobrý alebo dobre.","Das Gut s veľkým začiatočným písmenom a členom je iné slovo – podstatné meno s významom majetok alebo panstvo."],"important":["Gut = dobrý alebo dobre.","Das Gut = majetok alebo panstvo – nezamieňaj si ho so slovom gut.","Guten Tag, guten Morgen a guten Abend majú zmenenú koncovku podľa skloňovania."],"sectionAccents":{"explanation":{"blue":["gut"],"green":["das Gut"]},"examples":[{"de":{"blue":["gut"]},"lv":{}},{"de":{"blue":["Gut"]},"lv":{}},{"de":{"blue":["gut"]},"lv":{}},{"de":{"blue":["Guten"]},"lv":{}},{"de":{"blue":["gute"]},"lv":{}},{"de":{"blue":["gut"]},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "gut",
+  "lv": "dobrý • dobre",
+  "level": "A1",
+  "study": {
+    "id": "a1-gut-study",
+    "layout": "standardStudy",
+    "translation": "dobrý • dobre",
+    "explanation": [
+      "Hlavná myšlienka: gut je prídavné meno alebo príslovka s významom dobrý alebo dobre.",
+      "Gut opisuje kvalitu, zdravotný stav alebo spôsob, akým sa niečo deje (Es geht mir gut. = Som v poriadku.).",
+      "V zdvorilostných výrazoch guten Tag, guten Abend a guten Morgen sa koncovka slova gut mení podľa skloňovania.",
+      "Ak gut opisuje sloveso, ide o príslovku (gut schwimmen = dobre plávať).",
+      "Nezamieňaj si gut s podstatným menom das Gut, ktoré znamená majetok alebo panstvo."
+    ],
+    "examples": [
+      {
+        "de": "Das Essen ist gut.",
+        "lv": "Jedlo je dobré."
+      },
+      {
+        "de": "Wie geht es dir? – Gut, danke!",
+        "lv": "Ako sa máš? – Dobre, ďakujem!"
+      },
+      {
+        "de": "Er spricht gut Deutsch.",
+        "lv": "Hovorí dobre po nemecky."
+      },
+      {
+        "de": "Guten Morgen!",
+        "lv": "Dobré ráno!"
+      },
+      {
+        "de": "Das ist eine gute Idee.",
+        "lv": "To je dobrý nápad."
+      },
+      {
+        "de": "Alles ist gut.",
+        "lv": "Všetko je v poriadku."
+      }
+    ],
+    "tip": [
+      "Gut bez člena môže byť prídavné meno alebo príslovka – dobrý alebo dobre.",
+      "Das Gut s veľkým začiatočným písmenom a členom je iné slovo – podstatné meno s významom majetok alebo panstvo."
+    ],
+    "important": [
+      "Gut = dobrý alebo dobre.",
+      "Das Gut = majetok alebo panstvo – nezamieňaj si ho so slovom gut.",
+      "Guten Tag, guten Morgen a guten Abend majú zmenenú koncovku podľa skloňovania."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "gut"
+        ],
+        "green": [
+          "das Gut"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "gut"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Gut"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gut"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Guten"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gute"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "gut"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 35
+
+**Audit ID:** `LRB091-0035`
+**Finding Stable ID:** `g2/a1/sk|haben|idx:261|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `haben|idx:261`
+**Field / path:** `lv, study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Mám","study":{"id":"a1-haben","layout":"standardStudy","translation":"Mám","explanation":["Hlavná myšlienka: haben znamená, že niekto má alebo má k niečomu prístup.","Lotyšská datívová konštrukcia „mám/máš“ je v nemčine nominatív + haben: Ich habe…, Du hast…, Er hat… — nie *mir habe.","Po Habenovi nasleduje akuzatív: Ich habe ein Auto. = Mám auto.","Haben sa používa aj ako pomocné sloveso v dokonalom čase: Ich habe gelernt."],"examples":[{"de":"Ich habe ein Auto.","lv":"Mám auto"},{"de":"Hast du Zeit?","lv":"Máš čas?"},{"de":"Wir haben Hunger.","lv":"Sme hladní."},{"de":"Ich habe das gemacht.","lv":"Urobil som to"}],"comparison":[{"word":"haben","meaning":"Mám","example":"Ich habe Zeit. = Mám čas."},{"word":"sein","meaning":"Byť","example":"Ich bin hier. = Som tu."},{"word":"bekommen","meaning":"Prijímať","example":"Ich bekomme ein Geschenk. = Dostanem dar."},{"word":"machen","meaning":"Urobiť/urobiť","example":"Ich mache das. = To robím."}],"tip":{"text":"Atceries: Ich habe → man ir."},"important":["Lotyšské „mám“ = nemčina Ich habe + akuzatív. Nepoužívajte datív: nesprávne *mir habe.","So seinom a datívom: Mir ist kalt. = Je mi zima. (toto nie je haben!)","Dokonalé: Ich habe gelernt = naučil som sa."],"sectionAccents":{"explanation":{"blue":["haben","Ich habe"]},"examples":[{"de":{"blue":["habe"]},"lv":{}},{"de":{"blue":["Hast"]},"lv":{}},{"de":{"blue":["haben"]},"lv":{}},{"de":{"blue":["habe"]},"lv":{}}],"comparison":[{"word":{"green":["haben"]},"meaning":{},"example":{}},{"word":{"green":["sein"]},"meaning":{},"example":{}},{"word":{"green":["bekommen"]},"meaning":{},"example":{}},{"word":{"green":["machen"]},"meaning":{},"example":{"red":["mache"]}}],"tip":{"left":{"blue":["Ich habe"],"purple":["man ir"]}},"important":[{"blue":["habe"]},{"blue":["haben"]}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"mať","study":{"id":"a1-haben","layout":"standardStudy","translation":"mať","explanation":["Hlavná myšlienka: haben znamená mať alebo vlastniť.","V nemčine sa konštrukcia slovenského „mám“ vyjadruje osobným zámenom v nominatíve a slovesom haben: Ich habe, Du hast, Er hat.","Po slovese haben často nasleduje akuzatív: Ich habe ein Auto. = Mám auto.","Haben sa používa aj ako pomocné sloveso v perfekte: Ich habe gelernt. = Učil som sa."],"examples":[{"de":"Ich habe ein Auto.","lv":"Mám auto."},{"de":"Hast du Zeit?","lv":"Máš čas?"},{"de":"Wir haben Hunger.","lv":"Sme hladní."},{"de":"Ich habe das gemacht.","lv":"Urobil som to."}],"comparison":[{"word":"haben","meaning":"mať","example":"Ich habe Zeit. = Mám čas."},{"word":"sein","meaning":"byť","example":"Ich bin hier. = Som tu."},{"word":"bekommen","meaning":"dostať","example":"Ich bekomme ein Geschenk. = Dostanem darček."},{"word":"machen","meaning":"robiť","example":"Ich mache das. = Robím to."}],"tip":{"text":"Zapamätaj si: Ich habe = mám."},"important":["Slovenské „mám“ sa v nemčine vyjadruje slovesom haben, napríklad Ich habe.","So slovesom sein a datívom: Mir ist kalt. = Je mi zima. Toto nie je sloveso haben.","Perfektum: Ich habe gelernt = Učil som sa."],"sectionAccents":{"explanation":{"blue":["haben","Ich habe"]},"examples":[{"de":{"blue":["habe"]},"lv":{}},{"de":{"blue":["Hast"]},"lv":{}},{"de":{"blue":["haben"]},"lv":{}},{"de":{"blue":["habe"]},"lv":{}}],"comparison":[{"word":{"green":["haben"]},"meaning":{},"example":{"blue":["habe"]}},{"word":{"green":["sein"]},"meaning":{},"example":{"green":["bin"]}},{"word":{"green":["bekommen"]},"meaning":{},"example":{"yellow":["bekomme"]}},{"word":{"green":["machen"]},"meaning":{},"example":{"red":["mache"]}}],"tip":{},"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "haben",
+  "lv": "mať",
+  "level": "A1",
+  "study": {
+    "id": "a1-haben",
+    "layout": "standardStudy",
+    "translation": "mať",
+    "explanation": [
+      "Hlavná myšlienka: haben znamená mať alebo vlastniť.",
+      "V nemčine sa konštrukcia slovenského „mám“ vyjadruje osobným zámenom v nominatíve a slovesom haben: Ich habe, Du hast, Er hat.",
+      "Po slovese haben často nasleduje akuzatív: Ich habe ein Auto. = Mám auto.",
+      "Haben sa používa aj ako pomocné sloveso v perfekte: Ich habe gelernt. = Učil som sa."
+    ],
+    "examples": [
+      {
+        "de": "Ich habe ein Auto.",
+        "lv": "Mám auto."
+      },
+      {
+        "de": "Hast du Zeit?",
+        "lv": "Máš čas?"
+      },
+      {
+        "de": "Wir haben Hunger.",
+        "lv": "Sme hladní."
+      },
+      {
+        "de": "Ich habe das gemacht.",
+        "lv": "Urobil som to."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "haben",
+        "meaning": "mať",
+        "example": "Ich habe Zeit. = Mám čas."
+      },
+      {
+        "word": "sein",
+        "meaning": "byť",
+        "example": "Ich bin hier. = Som tu."
+      },
+      {
+        "word": "bekommen",
+        "meaning": "dostať",
+        "example": "Ich bekomme ein Geschenk. = Dostanem darček."
+      },
+      {
+        "word": "machen",
+        "meaning": "robiť",
+        "example": "Ich mache das. = Robím to."
+      }
+    ],
+    "tip": {
+      "text": "Zapamätaj si: Ich habe = mám."
+    },
+    "important": [
+      "Slovenské „mám“ sa v nemčine vyjadruje slovesom haben, napríklad Ich habe.",
+      "So slovesom sein a datívom: Mir ist kalt. = Je mi zima. Toto nie je sloveso haben.",
+      "Perfektum: Ich habe gelernt = Učil som sa."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "haben",
+          "Ich habe"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "habe"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "Hast"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "haben"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "habe"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {
+            "green": [
+              "haben"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "habe"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "sein"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "green": [
+              "bin"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "bekommen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "yellow": [
+              "bekomme"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "machen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "red": [
+              "mache"
+            ]
+          }
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 36
+
+**Audit ID:** `LRB091-0036`
+**Finding Stable ID:** `g2/a1/sk|halb|idx:262|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `halb|idx:262`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Side"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"pol"}
+**Note:** halb je príslovkové/prídavné „pol“, kým podstatné meno „polovica“ patrí ku karte Hälfte.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "halb",
+  "lv": "pol",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 37
+
+**Audit ID:** `LRB091-0037`
+**Finding Stable ID:** `g2/a1/sk|Hälfte|idx:263|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Hälfte|idx:263`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Side"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"polovica"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Hälfte",
+  "de_article": "die",
+  "de_plural": "die Hälften",
+  "lv": "polovica",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 38
+
+**Audit ID:** `LRB091-0038`
+**Finding Stable ID:** `g2/a1/sk|halten|idx:265|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `halten|idx:265`
+**Field / path:** `lv, study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Podržať • Zastaviť","study":{"id":"a1-halten","layout":"standardStudy","translation":"Podržať • Zastaviť","explanation":["Hlavná myšlienka: halten znamená držať, ale v prípade prepravy alebo pohybu to môže znamenať zastavenie alebo zastavenie.","S predmetom v ruke by ste mali zvyčajne držať halten.","V autobuse, vlaku alebo aute halten často znamená zastavenie.","Vo vete ich halte das für... znamená považovať za."],"examples":[{"de":"Ich halte die Tasche.","lv":"Držím tašku"},{"de":"Der Bus hält hier.","lv":"Autobus tu zastavuje."},{"de":"Bitte halten Sie an.","lv":"Prosím prestaň"},{"de":"Ich halte das für richtig.","lv":"Myslím, že je to správne."}],"comparison":[{"word":"halten","meaning":"Podržať/zastaviť","example":"Der Bus hält. = Autobus zastavuje."},{"word":"nehmen","meaning":"Zobrať","example":"Ich nehme die Tasche. = Beriem si tašku."},{"word":"anhalten","meaning":"Stop","example":"Bitte halten Sie an. = Prosím ťa, zastav sa."},{"word":"denken","meaning":"Premýšľajte","example":"Ich denke, das ist richtig. = Myslím si, že je to správne."}],"tip":{"text":"Pamätajte: v ruke → zastaviť • Preprava → zastavenie/zastavenie."},"important":["Halten nie je len o „držaní“. V doprave to často znamená zastavenie.","Ich halte das für... je vyjadrením názoru: „Toto považujem za...“.","Bitte halten Sie an sa používa oddeliteľné sloveso anhalten."],"sectionAccents":{"explanation":{"blue":["halten"],"green":["Hlavná"]},"examples":[{"de":{"blue":["halte"]},"lv":{}},{"de":{"blue":["hält"]},"lv":{}},{"de":{"blue":["halten"]},"lv":{}},{"de":{"blue":["halte"]},"lv":{}}],"comparison":[{"word":{"green":["halten"]},"meaning":{},"example":{}},{"word":{"green":["nehmen"]},"meaning":{},"example":{"yellow":["nehme"]}},{"word":{"green":["anhalten"]},"meaning":{},"example":{}},{"word":{"green":["denken"]},"meaning":{},"example":{}}],"tip":{"left":{"blue":["Pamätajte"],"purple":["Pamätajte"],"green":["Pamätajte"]}},"important":[{"blue":["halten"]},{"blue":["halte"]}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"držať","study":{"id":"a1-halten","layout":"standardStudy","translation":"držať • zastaviť","explanation":["Hlavná myšlienka: halten znamená držať; v súvislosti s dopravou môže znamenať aj zastaviť alebo stáť.","Ak držíš predmet v ruke, použiješ halten.","Pri autobuse, vlaku alebo aute halten často znamená zastaviť alebo stáť.","Vo vete Ich halte das für ... znamená halten považovať za."],"examples":[{"de":"Ich halte die Tasche.","lv":"Držím tašku."},{"de":"Der Bus hält hier.","lv":"Autobus tu zastavuje."},{"de":"Bitte halten Sie an.","lv":"Prosím, zastavte."},{"de":"Ich halte das für richtig.","lv":"Považujem to za správne."}],"comparison":[{"word":"halten","meaning":"držať alebo zastaviť","example":"Der Bus hält. = Autobus zastavuje."},{"word":"nehmen","meaning":"vziať","example":"Ich nehme die Tasche. = Beriem tašku."},{"word":"anhalten","meaning":"zastaviť","example":"Bitte halten Sie an. = Prosím, zastavte."},{"word":"denken","meaning":"myslieť","example":"Ich denke, das ist richtig. = Myslím si, že je to správne."}],"tip":{"text":"Pri predmete v ruke znamená halten držať; pri doprave môže znamenať zastaviť alebo stáť."},"important":["Halten neznamená iba držať; v doprave často znamená zastaviť alebo stáť.","Ich halte das für ... vyjadruje názor: Považujem to za ... .","Bitte halten Sie an obsahuje odlučiteľné sloveso anhalten."],"sectionAccents":{"explanation":{"blue":["halten"]},"examples":[{"de":{"blue":["halte"]},"lv":{}},{"de":{"blue":["hält"]},"lv":{}},{"de":{"blue":["halten"]},"lv":{}},{"de":{"blue":["halte"]},"lv":{}}],"comparison":[{"word":{"green":["halten"]},"meaning":{},"example":{"blue":["hält"]}},{"word":{"green":["nehmen"]},"meaning":{},"example":{"yellow":["nehme"]}},{"word":{"green":["anhalten"]},"meaning":{},"example":{"blue":["halten","an"]}},{"word":{"green":["denken"]},"meaning":{},"example":{"green":["denke"]}}],"tip":{},"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "halten",
+  "lv": "držať",
+  "level": "A1",
+  "study": {
+    "id": "a1-halten",
+    "layout": "standardStudy",
+    "translation": "držať • zastaviť",
+    "explanation": [
+      "Hlavná myšlienka: halten znamená držať; v súvislosti s dopravou môže znamenať aj zastaviť alebo stáť.",
+      "Ak držíš predmet v ruke, použiješ halten.",
+      "Pri autobuse, vlaku alebo aute halten často znamená zastaviť alebo stáť.",
+      "Vo vete Ich halte das für ... znamená halten považovať za."
+    ],
+    "examples": [
+      {
+        "de": "Ich halte die Tasche.",
+        "lv": "Držím tašku."
+      },
+      {
+        "de": "Der Bus hält hier.",
+        "lv": "Autobus tu zastavuje."
+      },
+      {
+        "de": "Bitte halten Sie an.",
+        "lv": "Prosím, zastavte."
+      },
+      {
+        "de": "Ich halte das für richtig.",
+        "lv": "Považujem to za správne."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "halten",
+        "meaning": "držať alebo zastaviť",
+        "example": "Der Bus hält. = Autobus zastavuje."
+      },
+      {
+        "word": "nehmen",
+        "meaning": "vziať",
+        "example": "Ich nehme die Tasche. = Beriem tašku."
+      },
+      {
+        "word": "anhalten",
+        "meaning": "zastaviť",
+        "example": "Bitte halten Sie an. = Prosím, zastavte."
+      },
+      {
+        "word": "denken",
+        "meaning": "myslieť",
+        "example": "Ich denke, das ist richtig. = Myslím si, že je to správne."
+      }
+    ],
+    "tip": {
+      "text": "Pri predmete v ruke znamená halten držať; pri doprave môže znamenať zastaviť alebo stáť."
+    },
+    "important": [
+      "Halten neznamená iba držať; v doprave často znamená zastaviť alebo stáť.",
+      "Ich halte das für ... vyjadruje názor: Považujem to za ... .",
+      "Bitte halten Sie an obsahuje odlučiteľné sloveso anhalten."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "halten"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "halte"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "hält"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "halten"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "halte"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {
+            "green": [
+              "halten"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "hält"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "nehmen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "yellow": [
+              "nehme"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "anhalten"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "halten",
+              "an"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "denken"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "green": [
+              "denke"
+            ]
+          }
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 39
+
+**Audit ID:** `LRB091-0039`
+**Finding Stable ID:** `g2/a1/sk|Hand|idx:267|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Hand|idx:267`
+**Field / path:** `lv, study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"dlaň","study":{"id":"a1-hand-study","layout":"standardStudy","translation":"dlaň","explanation":["Hlavná myšlienka: die Hand znamená dlaň.","V nemčine sú Arm a Hand dva samostatné slová.","V slovenskej každodennej reči slovo ruka často može označovať aj Arm aj Hand."],"examples":[{"de":"Ich wasche meine Hände.","lv":"es mazgāju rokas."},{"de":"Sie hält das Glas in der Hand.","lv":"viņa tur glāzi plaukstā."},{"de":"Mein Arm tut weh.","lv":"man sāp roka."}],"comparison":[{"word":"die Hand","meaning":"dlaň","example":"in der Hand – v dlani"},{"word":"der Arm","meaning":"Ruka","example":"Mein Arm tut weh. – Bolí ma ruka."}],"tip":["Hand = dlaň.","Arm = ruka od ramena po dlaň."],"important":["V nemčine Hand a Arm nie sú jedno a to isté slovo."]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"ruka","study":{"id":"a1-hand-study","layout":"standardStudy","translation":"ruka","explanation":["Hlavná myšlienka: die Hand znamená ruka alebo dlaň podľa kontextu.","V nemčine sú Arm a Hand dve samostatné slová.","V slovenskej každodennej reči slovo ruka často označuje celú hornú končatinu aj jej časť."],"examples":[{"de":"Ich wasche meine Hände.","lv":"Umývam si ruky."},{"de":"Sie hält das Glas in der Hand.","lv":"Drží pohár v ruke."},{"de":"Mein Arm tut weh.","lv":"Bolí ma ruka."}],"comparison":[{"word":"die Hand","meaning":"ruka alebo dlaň","example":"in der Hand – v ruke"},{"word":"der Arm","meaning":"rameno a predlaktie","example":"Mein Arm tut weh. – Bolí ma ruka."}],"tip":["Hand = ruka alebo dlaň.","Arm = horná končatina od ramena po zápästie."],"important":["V nemčine Hand a Arm nie sú to isté slovo."]}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Hand",
+  "de_article": "die",
+  "de_plural": "die Hände",
+  "lv": "ruka",
+  "level": "A1",
+  "study": {
+    "id": "a1-hand-study",
+    "layout": "standardStudy",
+    "translation": "ruka",
+    "explanation": [
+      "Hlavná myšlienka: die Hand znamená ruka alebo dlaň podľa kontextu.",
+      "V nemčine sú Arm a Hand dve samostatné slová.",
+      "V slovenskej každodennej reči slovo ruka často označuje celú hornú končatinu aj jej časť."
+    ],
+    "examples": [
+      {
+        "de": "Ich wasche meine Hände.",
+        "lv": "Umývam si ruky."
+      },
+      {
+        "de": "Sie hält das Glas in der Hand.",
+        "lv": "Drží pohár v ruke."
+      },
+      {
+        "de": "Mein Arm tut weh.",
+        "lv": "Bolí ma ruka."
+      }
+    ],
+    "comparison": [
+      {
+        "word": "die Hand",
+        "meaning": "ruka alebo dlaň",
+        "example": "in der Hand – v ruke"
+      },
+      {
+        "word": "der Arm",
+        "meaning": "rameno a predlaktie",
+        "example": "Mein Arm tut weh. – Bolí ma ruka."
+      }
+    ],
+    "tip": [
+      "Hand = ruka alebo dlaň.",
+      "Arm = horná končatina od ramena po zápästie."
+    ],
+    "important": [
+      "V nemčine Hand a Arm nie sú to isté slovo."
+    ]
+  }
+}
+```
+
+---
+
+## Finding 40
+
+**Audit ID:** `LRB091-0040`
+**Finding Stable ID:** `g2/a1/sk|Handtasche|idx:269|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Handtasche|idx:269`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Taška"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"kabelka"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Handtasche",
+  "de_article": "die",
+  "de_plural": "die Handtaschen",
+  "lv": "kabelka",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 41
+
+**Audit ID:** `LRB091-0041`
+**Finding Stable ID:** `g2/a1/sk|Hauptstadt|idx:272|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Hauptstadt|idx:272`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Kapitál"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"hlavné mesto"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Hauptstadt",
+  "de_article": "die",
+  "de_plural": "die Hauptstädte",
+  "lv": "hlavné mesto",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 42
+
+**Audit ID:** `LRB091-0042`
+**Finding Stable ID:** `g2/a1/sk|heißen|idx:276|lv, study|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `heißen|idx:276`
+**Field / path:** `lv, study`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Hovorte si • Zmysel","study":{"id":"a1-heißen","layout":"standardStudy","translation":"Hovorte si • Zmysel","explanation":["Hlavná myšlienka: heißen sa najčastejšie používa na vyslovenie niekoho mena.","Fráza Ich heiße... znamená „volám sa...“.","So slovami alebo frázami môže heißen znamenať aj priemer.","Na úrovni A1 je najdôležitejšou frázou Wie heißt du?"],"examples":[{"de":"Ich heiße Anna.","lv":"Volám sa Anna."},{"de":"Wie heißt du?","lv":"Ako sa voláš?"},{"de":"Wie heißt das auf Deutsch?","lv":"Ako sa to volá po nemecky?"},{"de":"Was heißt das?","lv":"Čo to znamená"}],"comparison":[{"word":"heißen","meaning":"Na zavolanie/označenie","example":"Ich heiße Anna. = Volám sa Anna."},{"word":"nennen","meaning":"Volať/meno","example":"Er nennt mich Tom. = Volá ma Tom."},{"word":"bedeuten","meaning":"Majte na pamäti","example":"Was bedeutet das? = Čo to znamená?"},{"word":"rufen","meaning":"Volať / volať","example":"Ich rufe dich. = Volám ťa."},{"word":"anrufen","meaning":"Zavolajte","example":"Ich rufe dich an. = Volaním ti."}],"tip":{"text":"Atceries: Ich heiße... → mani sauc..."},"important":["Wie heißt du? znamená „Ako sa voláš?“, nie doslova „Ako sa voláš?“.","Bol heißt das? často znamená \"Čo to znamená?\""],"sectionAccents":{"explanation":{"blue":["heißen","Ich heiße","Wie heißt du"]},"examples":[{"de":{"blue":["heiße"]},"lv":{}},{"de":{"blue":["heißt"]},"lv":{}},{"de":{"blue":["heißt"]},"lv":{}},{"de":{"blue":["heißt"]},"lv":{}}],"comparison":[{"word":{"green":["heißen"]},"meaning":{},"example":{"blue":["heiße"]}},{"word":{"green":["nennen"]},"meaning":{},"example":{"green":["nennt"]}},{"word":{"green":["bedeuten"]},"meaning":{},"example":{"yellow":["Bedutet"]}},{"word":{"green":["rufen"]},"meaning":{},"example":{"red":["rufe"]}},{"word":{"green":["anrufen"]}}],"tip":{"left":{"blue":["Ich heiße"],"purple":["mani sauc"]}},"important":[{"blue":["Wie heißt du"]},{}]}}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"volať sa","study":{"id":"a1-heißen","layout":"standardStudy","translation":"volať sa • znamenať","explanation":["Hlavná myšlienka: heißen sa najčastejšie používa pri uvádzaní mena.","Fráza Ich heiße... znamená „volám sa...“.","V niektorých spojeniach môže heißen znamenať aj „znamenať“.","Na úrovni A1 je dôležitá otázka Wie heißt du? – Ako sa voláš?"],"examples":[{"de":"Ich heiße Anna.","lv":"Volám sa Anna."},{"de":"Wie heißt du?","lv":"Ako sa voláš?"},{"de":"Wie heißt das auf Deutsch?","lv":"Ako sa to povie po nemecky?"},{"de":"Was heißt das?","lv":"Čo to znamená?"}],"comparison":[{"word":"heißen","meaning":"volať sa alebo znamenať","example":"Ich heiße Anna. = Volám sa Anna."},{"word":"nennen","meaning":"nazývať • pomenovať","example":"Er nennt mich Tom. = Hovorí mi Tom."},{"word":"bedeuten","meaning":"znamenať","example":"Was bedeutet das? = Čo to znamená?"},{"word":"rufen","meaning":"volať na niekoho","example":"Ich rufe dich. = Volám na teba."},{"word":"anrufen","meaning":"zavolať niekomu telefonicky","example":"Ich rufe dich an. = Zavolám ti."}],"tip":{"text":"Pomôcka: Ich heiße... → volám sa..."},"important":["Wie heißt du? znamená „Ako sa voláš?“.","Was heißt das? často znamená „Čo to znamená?“."],"sectionAccents":{"explanation":{"blue":["heißen","Ich heiße","Wie heißt du"]},"examples":[{"de":{"blue":["heiße"]},"lv":{}},{"de":{"blue":["heißt"]},"lv":{}},{"de":{"blue":["heißt"]},"lv":{}},{"de":{"blue":["heißt"]},"lv":{}}],"comparison":[{"word":{"green":["heißen"]},"meaning":{},"example":{"blue":["heiße"]}},{"word":{"green":["nennen"]},"meaning":{},"example":{"green":["nennt"]}},{"word":{"green":["bedeuten"]},"meaning":{},"example":{"yellow":["bedeutet"]}},{"word":{"green":["rufen"]},"meaning":{},"example":{"red":["rufe"]}},{"word":{"green":["anrufen"]},"meaning":{},"example":{"red":["rufe","an"]}}],"tip":{},"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "heißen",
+  "lv": "volať sa",
+  "level": "A1",
+  "study": {
+    "id": "a1-heißen",
+    "layout": "standardStudy",
+    "translation": "volať sa • znamenať",
+    "explanation": [
+      "Hlavná myšlienka: heißen sa najčastejšie používa pri uvádzaní mena.",
+      "Fráza Ich heiße... znamená „volám sa...“.",
+      "V niektorých spojeniach môže heißen znamenať aj „znamenať“.",
+      "Na úrovni A1 je dôležitá otázka Wie heißt du? – Ako sa voláš?"
+    ],
+    "examples": [
+      {
+        "de": "Ich heiße Anna.",
+        "lv": "Volám sa Anna."
+      },
+      {
+        "de": "Wie heißt du?",
+        "lv": "Ako sa voláš?"
+      },
+      {
+        "de": "Wie heißt das auf Deutsch?",
+        "lv": "Ako sa to povie po nemecky?"
+      },
+      {
+        "de": "Was heißt das?",
+        "lv": "Čo to znamená?"
+      }
+    ],
+    "comparison": [
+      {
+        "word": "heißen",
+        "meaning": "volať sa alebo znamenať",
+        "example": "Ich heiße Anna. = Volám sa Anna."
+      },
+      {
+        "word": "nennen",
+        "meaning": "nazývať • pomenovať",
+        "example": "Er nennt mich Tom. = Hovorí mi Tom."
+      },
+      {
+        "word": "bedeuten",
+        "meaning": "znamenať",
+        "example": "Was bedeutet das? = Čo to znamená?"
+      },
+      {
+        "word": "rufen",
+        "meaning": "volať na niekoho",
+        "example": "Ich rufe dich. = Volám na teba."
+      },
+      {
+        "word": "anrufen",
+        "meaning": "zavolať niekomu telefonicky",
+        "example": "Ich rufe dich an. = Zavolám ti."
+      }
+    ],
+    "tip": {
+      "text": "Pomôcka: Ich heiße... → volám sa..."
+    },
+    "important": [
+      "Wie heißt du? znamená „Ako sa voláš?“.",
+      "Was heißt das? často znamená „Čo to znamená?“."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "heißen",
+          "Ich heiße",
+          "Wie heißt du"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "heiße"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "heißt"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "heißt"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "heißt"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "comparison": [
+        {
+          "word": {
+            "green": [
+              "heißen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "blue": [
+              "heiße"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "nennen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "green": [
+              "nennt"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "bedeuten"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "yellow": [
+              "bedeutet"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "rufen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "red": [
+              "rufe"
+            ]
+          }
+        },
+        {
+          "word": {
+            "green": [
+              "anrufen"
+            ]
+          },
+          "meaning": {},
+          "example": {
+            "red": [
+              "rufe",
+              "an"
+            ]
+          }
+        }
+      ],
+      "tip": {},
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 43
+
+**Audit ID:** `LRB091-0043`
+**Finding Stable ID:** `g2/a1/sk|hoch|idx:285|lv, study.examples|WRONG_TARGET_LANGUAGE|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `hoch|idx:285`
+**Field / path:** `lv, study.examples`
+**Severity:** CRITICAL
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"lv":"Vysoký","study.examples":[{"de":"Der Berg ist hoch.","lv":"Hora je vysoká."},{"de":"Das Regal ist zwei Meter hoch.","lv":"Hora je vysoká."},{"de":"Die Miete ist hoch.","lv":"Nájomné je vysoké."},{"de":"Die Mauer ist hoch.","lv":"Stena je vysoká."},{"de":"Die Preise sind hoch.","lv":"Ceny sú vysoké."}]}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"vysoký","study":{"id":"a1-hoch-study","layout":"standardStudy","translation":"vysoký • vysoko","explanation":["Hlavná myšlienka: hoch znamená vysoký alebo vysoko.","Hoch opisuje zvislú výšku alebo vysokú úroveň.","Používa sa napríklad pri hore, stene, cene, teplote alebo čísle."],"examples":[{"de":"Der Berg ist hoch.","lv":"Hora je vysoká."},{"de":"Das Regal ist zwei Meter hoch.","lv":"Polica je vysoká dva metre."},{"de":"Die Miete ist hoch.","lv":"Nájomné je vysoké."},{"de":"Die Mauer ist hoch.","lv":"Múr je vysoký."},{"de":"Die Preise sind hoch.","lv":"Ceny sú vysoké."}],"tip":["Zvislá výška alebo vysoká úroveň → hoch.","Pri telesnej výške človeka sa zvyčajne používa groß."],"important":["Der Berg ist hoch = Hora je vysoká.","Er ist groß = Je vysoký.","Pri telesnej výške človeka sa hoch zvyčajne nepoužíva."],"sectionAccents":{"explanation":{"green":["hoch"]},"examples":[{"de":{"green":["hoch"]},"lv":{}},{"de":{"green":["hoch"]},"lv":{}},{"de":{"green":["hoch"]},"lv":{}},{"de":{"green":["hoch"]},"lv":{}},{"de":{"green":["hoch"]},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "hoch",
+  "lv": "vysoký",
+  "level": "A1",
+  "study": {
+    "id": "a1-hoch-study",
+    "layout": "standardStudy",
+    "translation": "vysoký • vysoko",
+    "explanation": [
+      "Hlavná myšlienka: hoch znamená vysoký alebo vysoko.",
+      "Hoch opisuje zvislú výšku alebo vysokú úroveň.",
+      "Používa sa napríklad pri hore, stene, cene, teplote alebo čísle."
+    ],
+    "examples": [
+      {
+        "de": "Der Berg ist hoch.",
+        "lv": "Hora je vysoká."
+      },
+      {
+        "de": "Das Regal ist zwei Meter hoch.",
+        "lv": "Polica je vysoká dva metre."
+      },
+      {
+        "de": "Die Miete ist hoch.",
+        "lv": "Nájomné je vysoké."
+      },
+      {
+        "de": "Die Mauer ist hoch.",
+        "lv": "Múr je vysoký."
+      },
+      {
+        "de": "Die Preise sind hoch.",
+        "lv": "Ceny sú vysoké."
+      }
+    ],
+    "tip": [
+      "Zvislá výška alebo vysoká úroveň → hoch.",
+      "Pri telesnej výške človeka sa zvyčajne používa groß."
+    ],
+    "important": [
+      "Der Berg ist hoch = Hora je vysoká.",
+      "Er ist groß = Je vysoký.",
+      "Pri telesnej výške človeka sa hoch zvyčajne nepoužíva."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "green": [
+          "hoch"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "green": [
+              "hoch"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "hoch"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "hoch"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "hoch"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "hoch"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 44
+
+**Audit ID:** `LRB091-0044`
+**Finding Stable ID:** `g2/a1/sk|Honig|idx:324|lv|MEANING_ERROR|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Honig|idx:324`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Zlato"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"med"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Honig",
+  "de_article": "der",
+  "de_plural": "die Honige",
+  "lv": "med",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 45
+
+**Audit ID:** `LRB091-0045`
+**Finding Stable ID:** `g2/a1/sk|jetzt|a1.card.jetzt.native|MULTI_TRANSLATION|deterministic/multi-translation`
+**Lang:** sk
+**Card:** `jetzt`
+**Field / path:** `a1.card.jetzt.native`
+**Severity:** MEDIUM
+**Category:** MULTI_TRANSLATION_REVIEW_REQUIRED
+**CURRENT (captured scope):** Teraz • Aktuálne
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"teraz • momentálne"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "jetzt",
+  "lv": "teraz • momentálne",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 46
+
+**Audit ID:** `LRB091-0046`
+**Finding Stable ID:** `g2/a1/sk|klein|idx:6|lv; study.translation; study.examples|MEANING_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `klein|idx:6`
+**Field / path:** `lv; study.translation; study.examples`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Malý","study.translation":"Malý","study.examples":[{"de":"Das Zimmer ist klein.","lv":"Izba je malá."},{"de":"Das Kind ist noch klein.","lv":"Izba je malá."},{"de":"Ich habe eine kleine Tasche.","lv":"Bábätko je ešte malé."},{"de":"Ich habe eine kleine Tasche.","lv":"Mám malú tašku."},{"de":"Das Kind ist klein.","lv":"Bábätko je malé."}]}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"malý","study":{"id":"a1-klein-study","layout":"standardStudy","translation":"malý","explanation":["Hlavná myšlienka: klein znamená malý rozmerom, rozsahom alebo vekom.","Klein môže opisovať predmet, miestnosť, množstvo alebo dieťa.","Presný význam závisí od podstatného mena a kontextu."],"examples":[{"de":"Das Zimmer ist klein.","lv":"Izba je malá."},{"de":"Das Kind ist noch klein.","lv":"Dieťa je ešte malé."},{"de":"Ich habe eine kleine Tasche.","lv":"Mám malú tašku."}],"tip":["klein = malý","Použi klein, keď kontext vyjadruje malú veľkosť alebo nízky vek."],"important":["Klein najčastejšie znamená malý.","Pri dieťati môže klein vyjadrovať aj nízky vek."],"sectionAccents":{"explanation":{"blue":["klein"]},"examples":[{"de":{"blue":["klein"]},"lv":{}},{"de":{"blue":["klein"]},"lv":{}},{"de":{"blue":["kleine"]},"lv":{}}],"tip":[{},{}],"important":[{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "klein",
+  "lv": "malý",
+  "level": "A1",
+  "study": {
+    "id": "a1-klein-study",
+    "layout": "standardStudy",
+    "translation": "malý",
+    "explanation": [
+      "Hlavná myšlienka: klein znamená malý rozmerom, rozsahom alebo vekom.",
+      "Klein môže opisovať predmet, miestnosť, množstvo alebo dieťa.",
+      "Presný význam závisí od podstatného mena a kontextu."
+    ],
+    "examples": [
+      {
+        "de": "Das Zimmer ist klein.",
+        "lv": "Izba je malá."
+      },
+      {
+        "de": "Das Kind ist noch klein.",
+        "lv": "Dieťa je ešte malé."
+      },
+      {
+        "de": "Ich habe eine kleine Tasche.",
+        "lv": "Mám malú tašku."
+      }
+    ],
+    "tip": [
+      "klein = malý",
+      "Použi klein, keď kontext vyjadruje malú veľkosť alebo nízky vek."
+    ],
+    "important": [
+      "Klein najčastejšie znamená malý.",
+      "Pri dieťati môže klein vyjadrovať aj nízky vek."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "blue": [
+          "klein"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "blue": [
+              "klein"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "klein"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "blue": [
+              "kleine"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## Finding 47
+
+**Audit ID:** `LRB091-0047`
+**Finding Stable ID:** `g2/a1/sk|Lampe|idx:350|lv|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Lampe|idx:350`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Blesk"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"lampa"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Lampe",
+  "de_article": "die",
+  "de_plural": "die Lampen",
+  "lv": "lampa",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 48
+
+**Audit ID:** `LRB091-0048`
+**Finding Stable ID:** `g2/a1/sk|leben|idx:360|lv|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `leben|idx:360`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Žije"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"žiť"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "leben",
+  "lv": "žiť",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 49
+
+**Audit ID:** `LRB091-0049`
+**Finding Stable ID:** `g2/a1/sk|Lehrerin|idx:365|lv|MISTRANSLATION|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `Lehrerin|idx:365`
+**Field / path:** `lv`
+**Severity:** HIGH
+**Category:** SEMANTIC_OR_MEANING_ERROR
+**CURRENT (captured scope):** {"lv":"Učiteľ"}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"učiteľka"}
+**Note:** Aizvietota nepareiza vai nedabiska slovāku pamatvērtība ar precīzu ekvivalentu.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "Lehrerin",
+  "de_article": "die",
+  "de_plural": "die Lehrerinnen",
+  "lv": "učiteľka",
+  "level": "A1"
+}
+```
+
+---
+
+## Finding 50
+
+**Audit ID:** `LRB091-0050`
+**Finding Stable ID:** `g2/a1/sk|leise|idx:368|study.sectionAccents|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna`
+**Lang:** sk
+**Card:** `leise|idx:368`
+**Field / path:** `study.sectionAccents`
+**Severity:** HIGH
+**Category:** WRONG_OR_MIXED_TARGET_LANGUAGE
+**CURRENT (captured scope):** {"study.sectionAccents":{"explanation":{"green":["leise"]},"examples":[{"de":{"green":["leise","leise"]},"lv":{}},{"de":{"green":["leise","leise"]},"lv":{}},{"de":{"green":["leise","leise"]},"lv":{}},{"de":{"green":["leise","leise"]},"lv":{}}],"tip":[{}],"important":[{"green":["leise"]}]}}
+**OWNER STATUS:** LABOT
+**OWNER_DECISION:** LABOT
+**NEW (OWNER mapping):** {"lv":"tichý","study":{"id":"a1-leise-study","layout":"standardStudy","translation":"tichý • potichu","explanation":["Hlavná myšlienka: leise znamená tichý alebo potichu.","Leise opisuje nízku hlasitosť.","Často opisuje zvuk, hlas alebo hudbu.","Podľa vetnej funkcie môže byť prídavným menom alebo príslovkou."],"examples":[{"de":"Bitte sei leise.","lv":"Prosím, buď ticho."},{"de":"Bitte sei leise.","lv":"Prosím, buď ticho."},{"de":"Die Musik ist leise.","lv":"Hudba je tichá."},{"de":"Sprich bitte leise.","lv":"Hovor, prosím, potichu."}],"tip":["leise = tichý alebo potichu","Použi leise, keď ide o nízku hlasitosť."],"important":["Leise znamená tichý alebo potichu z hľadiska hlasitosti.","Leise opisuje nízku hlasitosť.","Význam určuje vetná funkcia."],"sectionAccents":{"explanation":{"green":["leise"]},"examples":[{"de":{"green":["leise","leise"]},"lv":{}},{"de":{"green":["leise","leise"]},"lv":{}},{"de":{"green":["leise","leise"]},"lv":{}},{"de":{"green":["leise","leise"]},"lv":{}}],"tip":[{},{}],"important":[{},{},{}]}}}
+**Note:** Pilnā slovāku gala kartīte individuāli izlabota un saskaņota ar LV→DE avota struktūru.
+
+### Gala card (approved NEW composite — full materialized card)
+
+```json
+{
+  "de": "leise",
+  "lv": "tichý",
+  "level": "A1",
+  "study": {
+    "id": "a1-leise-study",
+    "layout": "standardStudy",
+    "translation": "tichý • potichu",
+    "explanation": [
+      "Hlavná myšlienka: leise znamená tichý alebo potichu.",
+      "Leise opisuje nízku hlasitosť.",
+      "Často opisuje zvuk, hlas alebo hudbu.",
+      "Podľa vetnej funkcie môže byť prídavným menom alebo príslovkou."
+    ],
+    "examples": [
+      {
+        "de": "Bitte sei leise.",
+        "lv": "Prosím, buď ticho."
+      },
+      {
+        "de": "Bitte sei leise.",
+        "lv": "Prosím, buď ticho."
+      },
+      {
+        "de": "Die Musik ist leise.",
+        "lv": "Hudba je tichá."
+      },
+      {
+        "de": "Sprich bitte leise.",
+        "lv": "Hovor, prosím, potichu."
+      }
+    ],
+    "tip": [
+      "leise = tichý alebo potichu",
+      "Použi leise, keď ide o nízku hlasitosť."
+    ],
+    "important": [
+      "Leise znamená tichý alebo potichu z hľadiska hlasitosti.",
+      "Leise opisuje nízku hlasitosť.",
+      "Význam určuje vetná funkcia."
+    ],
+    "sectionAccents": {
+      "explanation": {
+        "green": [
+          "leise"
+        ]
+      },
+      "examples": [
+        {
+          "de": {
+            "green": [
+              "leise",
+              "leise"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "leise",
+              "leise"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "leise",
+              "leise"
+            ]
+          },
+          "lv": {}
+        },
+        {
+          "de": {
+            "green": [
+              "leise",
+              "leise"
+            ]
+          },
+          "lv": {}
+        }
+      ],
+      "tip": [
+        {},
+        {}
+      ],
+      "important": [
+        {},
+        {},
+        {}
+      ]
+    }
+  }
+}
+```
+
+---
