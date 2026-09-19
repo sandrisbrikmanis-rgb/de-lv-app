@@ -1,0 +1,1873 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_101_120_FULL_CARD_COPY_PASTE_READY",
+  "source_head": "497fac65d05a40e8adfafd18f13964c9208e6f83",
+  "scope": {
+    "start_ordinal": 101,
+    "end_ordinal": 120,
+    "cards": 20,
+    "full_composites": 20,
+    "scalar_cards": 0,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "cards": [
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "werden",
+      "full_card_owner_new": {
+        "lv": "ginn",
+        "study": {
+          "id": "a1-werden",
+          "layout": "standardStudy",
+          "translation": "ginn",
+          "explanation": [
+            "Haaptiddi: werden bedeit um A1-Niveau meeschtens ginn.",
+            "Et beschreift eng Verännerung oder en neien Zoustand.",
+            "Am Däitschen déngt werden och fir Zukunft a Passiv.",
+            "Ich werde müde. entsprécht Ech gi midd."
+          ],
+          "examples": [
+            {
+              "de": "Ich werde müde.",
+              "lv": "Ech gi midd."
+            },
+            {
+              "de": "Es wird kalt.",
+              "lv": "Et gëtt kal."
+            },
+            {
+              "de": "Sie wird Ärztin.",
+              "lv": "Si gëtt Doktesch."
+            },
+            {
+              "de": "Ich bin müde.",
+              "lv": "Ech si midd."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "werden",
+              "meaning": "ginn",
+              "example": "Ich werde müde. – Ech gi midd."
+            },
+            {
+              "word": "sein",
+              "meaning": "sinn",
+              "example": "Ich bin müde. – Ech si midd."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "bleiwen",
+              "example": "Ich bleibe hier. – Ech bleiwen hei."
+            },
+            {
+              "word": "machen",
+              "meaning": "maachen",
+              "example": "Ich mache das. – Ech maachen dat."
+            }
+          ],
+          "tip": {
+            "text": "Eng Verännerung oder en neien Zoustand → werden / ginn."
+          },
+          "important": [
+            "werden ass net dat selwecht wéi sein.",
+            "Ich werde müde. = Ech gi midd.; Ich bin müde. = Ech si midd."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "werden"
+              ],
+              "purple": [
+                "ginn"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "wird"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gëtt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Sie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "gëtt"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "werden"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ginn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sein"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "sinn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bleiwen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "machen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "maachen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "Wetter",
+      "full_card_owner_new": {
+        "lv": "Wieder (Meteo)",
+        "study": {
+          "id": "a1-wetter",
+          "layout": "standardStudy",
+          "translation": "Wieder (Meteo)",
+          "explanation": [
+            "Haaptiddi: das Wetter heescht d’Wieder, also Sonn, Reen, Keelt oder Hëtzt.",
+            "D’Wuert Wieder bezitt sech op meteorologesch Verhältnisser.",
+            "Fir d’Wieder dobausse freet een: Wie ist das Wetter heute?",
+            "Wieder kënnt dacks mat Adjektiver wéi waarm oder kal vir.",
+            "Net mat die Zeit verwiesselen: Zäit ass en abstrakte Begrëff."
+          ],
+          "examples": [
+            {
+              "de": "Wie ist das Wetter heute?",
+              "lv": "Wéi ass d’Wieder haut?"
+            },
+            {
+              "de": "Das Wetter ist schön.",
+              "lv": "D’Wieder ass schéin."
+            },
+            {
+              "de": "Das Wetter ist schlecht.",
+              "lv": "D’Wieder ass schlecht."
+            },
+            {
+              "de": "Im Winter ist das Wetter oft kalt.",
+              "lv": "Am Wanter ass d’Wieder dacks kal."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Mir schwätzen iwwer d’Wieder."
+            },
+            {
+              "de": "Morgen wird das Wetter besser.",
+              "lv": "Muer gëtt d’Wieder besser."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Wetter",
+              "meaning": "Wieder",
+              "example": "Das Wetter ist schön. – D’Wieder ass schéin."
+            },
+            {
+              "word": "Zeit",
+              "meaning": "Zäit",
+              "example": "Ich habe keine Zeit. – Ech hu keng Zäit."
+            },
+            {
+              "word": "Regen",
+              "meaning": "Reen",
+              "example": "Es gibt viel Regen. – Et gëtt vill Reen."
+            },
+            {
+              "word": "Sonne",
+              "meaning": "Sonn",
+              "example": "Die Sonne scheint. – D’Sonn schéngt."
+            }
+          ],
+          "tip": [
+            "Fir Sonn, Reen oder Temperatur dobausse steet das Wetter / d’Wieder.",
+            "Wie ist das Wetter? = Wéi ass d’Wieder?"
+          ],
+          "important": [
+            "das Wetter = d’Wieder, net d’Auerzäit.",
+            "die Zeit = Zäit als Moment oder Geleeënheet."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Wetter"
+              ],
+              "purple": [
+                "Wieder"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Wieder"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "D’Wieder"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Winter"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wanter"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Muer"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "Wetter"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Wieder"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Das"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Zeit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zäit"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Regen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Reen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "gibt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "Sonne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Sonn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Die"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "wie",
+      "full_card_owner_new": {
+        "lv": "wéi • wéi vill",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "wéi • wéi vill",
+          "explanation": [
+            "Haaptiddi: wie freet no Aart a Weis oder Eegenschaft; bei Quantitéite bedeit et wéi vill.",
+            "wie eleng entsprécht meeschtens wéi.",
+            "wie mat viel, alt oder lange freet no Quantitéit, Alter oder Dauer.",
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "An engem Verglach entsprécht so ... wie dem Lëtzebuergeschen esou ... wéi."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Wéi geet et dir?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Wéi heeschs du?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Wéi vill kascht dat?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Wéi al bass du?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Wéi laang dauert de Film?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Hien ass esou grouss wéi säi Papp."
+            }
+          ],
+          "tip": [
+            "wie eleng = wéi; wie viel = wéi vill.",
+            "so ... wie = esou ... wéi."
+          ],
+          "important": [
+            "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+            "Wéi geet et dir? freet no engem Zoustand, net no enger Quantitéit.",
+            "Wie geht es dir? = Wéi geet et dir?"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "wie"
+              ],
+              "purple": [
+                "wéi"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wie"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Wéi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ist"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hien"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "zu",
+      "full_card_owner_new": {
+        "lv": "bei • an • ze",
+        "study": {
+          "id": "a1-zu",
+          "layout": "standardStudy",
+          "translation": "bei • an • ze",
+          "explanation": [
+            "Haaptiddi: zu entsprécht no der Konstruktioun bei, an oder ze.",
+            "Bei Persounen an Institutioune weist zu dacks eng Richtung oder e Zil un.",
+            "Virun engem Adjektiv kann zu ze vill bedeiten.",
+            "Bei engem Infinitiv entsprécht zu dem Lëtzebuergesche ze."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe zum Arzt.",
+              "lv": "Ech gi bei den Dokter."
+            },
+            {
+              "de": "Wir gehen zur Schule.",
+              "lv": "Mir ginn an d’Schoul."
+            },
+            {
+              "de": "Das ist zu teuer.",
+              "lv": "Dat ass ze deier."
+            },
+            {
+              "de": "Ich habe keine Zeit zu lernen.",
+              "lv": "Ech hu keng Zäit ze léieren."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "zu",
+              "meaning": "bei • an • ze",
+              "example": "Ich gehe zum Arzt. – Ech gi bei den Dokter."
+            },
+            {
+              "word": "nach",
+              "meaning": "op",
+              "example": "Ich fahre nach Berlin. – Ech fueren op Berlin."
+            },
+            {
+              "word": "in",
+              "meaning": "an",
+              "example": "Ich gehe in die Schule. – Ech ginn an d’Schoul."
+            },
+            {
+              "word": "bei",
+              "meaning": "bei",
+              "example": "Ich bin bei Anna. – Ech si bei der Anna."
+            }
+          ],
+          "tip": {
+            "text": "zum Arzt → bei den Dokter; zu teuer → ze deier; zu lernen → ze léieren."
+          },
+          "important": [
+            "D’Entspriechung vu zu hänkt vun der Konstruktioun of.",
+            "zu teuer bedeit ze deier, keng Richtung."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "zu"
+              ],
+              "purple": [
+                "bei"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Wir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Dat"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei • an • ze"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "an"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "lb",
+      "canonical_card_object_id": "Zug",
+      "full_card_owner_new": {
+        "lv": "Zuch",
+        "study": {
+          "id": "a1-zug",
+          "layout": "standardStudy",
+          "translation": "Zuch",
+          "explanation": [
+            "Haaptiddi: der Zug heescht um A1-Niveau den Zuch.",
+            "Et gëtt bei Reesen, Arrivéeën an Departen benotzt.",
+            "Aner Bedeitunge vu Zug si fir dës Kaart net zentral.",
+            "Heefeg Verbindunge sinn mit dem Zug fahren an Der Zug kommt."
+          ],
+          "examples": [
+            {
+              "de": "Der Zug kommt um acht Uhr.",
+              "lv": "Den Zuch kënnt um aacht Auer."
+            },
+            {
+              "de": "Ich fahre mit dem Zug.",
+              "lv": "Ech fuere mam Zuch."
+            },
+            {
+              "de": "Der Zug ist voll.",
+              "lv": "Den Zuch ass voll."
+            },
+            {
+              "de": "Der Bus kommt später.",
+              "lv": "De Bus kënnt méi spéit."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Zug",
+              "meaning": "Zuch",
+              "example": "Der Zug kommt. – Den Zuch kënnt."
+            },
+            {
+              "word": "die Bahn",
+              "meaning": "Eisebunn",
+              "example": "Ich fahre mit der Bahn. – Ech fuere mat der Eisebunn."
+            },
+            {
+              "word": "der Bus",
+              "meaning": "Bus",
+              "example": "Der Bus kommt. – De Bus kënnt."
+            },
+            {
+              "word": "die Straßenbahn",
+              "meaning": "Tram",
+              "example": "Die Straßenbahn ist hier. – Den Tram ass hei."
+            }
+          ],
+          "tip": {
+            "text": "Dat konkret Gefier op der Schinn → der Zug / den Zuch."
+          },
+          "important": [
+            "der Zug huet hei d’Bedeitung Zuch.",
+            "Aner Bedeitunge sinn net d’Haaptbedeitung vun dëser A1-Kaart."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Zug"
+              ],
+              "purple": [
+                "Zuch"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Den"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ich"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ech"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Den"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Der"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Bus"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Zug"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Zuch"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bahn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Eisebunn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Ich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Bus"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Bus"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Der"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Straßenbahn"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Tram"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Die"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "nl",
+      "canonical_card_object_id": "schwimmen",
+      "full_card_owner_new": {
+        "lv": "zwemmen",
+        "study": {
+          "id": "a1-schwimmen",
+          "layout": "standardStudy",
+          "translation": "zwemmen",
+          "explanation": [
+            "Hoofdidee: schwimmen betekent zwemmen als beweging of sport.",
+            "Je gebruikt schwimmen wanneer iemand zich met zwembewegingen door het water beweegt.",
+            "Voor ontspannen in het water of baden gebruik je vaak baden.",
+            "Op A1-niveau is het belangrijke verschil: schwimmen = zwemmen, baden = baden."
+          ],
+          "examples": [
+            {
+              "de": "Ich schwimme gern.",
+              "lv": "Ik zwem graag."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Hij zwemt heel goed."
+            },
+            {
+              "de": "Wir schwimmen im Schwimmbad.",
+              "lv": "Wij zwemmen in het zwembad."
+            },
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Ik ga baden."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "schwimmen",
+              "meaning": "zwemmen als beweging of sport",
+              "example": "Hij zwemt erg goed."
+            },
+            {
+              "word": "baden",
+              "meaning": "baden / in het water zijn",
+              "example": "Ik ga baden."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "gaan zwemmen",
+              "example": "Wij gaan zwemmen."
+            },
+            {
+              "word": "duschen",
+              "meaning": "douchen",
+              "example": "Ik douche 's ochtends."
+            }
+          ],
+          "tip": {
+            "text": "Onthoud: zwembeweging → schwimmen; baden of ontspannen in water → baden."
+          },
+          "important": [
+            "schwimmen en baden zijn niet hetzelfde.",
+            "In het Nederlands zeg je vaak 'zwemmen', maar in het Duits moet je kijken of het beweging of baden is."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "nl",
+      "canonical_card_object_id": "sich",
+      "full_card_owner_new": {
+        "lv": "zichzelf • zich",
+        "study": {
+          "id": "a1-sich",
+          "layout": "standardStudy",
+          "translation": "zichzelf • zich",
+          "explanation": [
+            "Hoofdidee: sich laat zien dat de actie verwijst naar de doener zelf.",
+            "In het Nederlands vertaal je het vaak als jezelf of je.",
+            "In sommige Duitse werkwoorden is sich een verplicht onderdeel, bijvoorbeeld sich waschen.",
+            "Op A1-niveau is het belangrijk op te merken: ik was me, hij wast zich."
+          ],
+          "examples": [
+            {
+              "de": "Er wäscht sich.",
+              "lv": "Hij wast zich."
+            },
+            {
+              "de": "Ich setze mich.",
+              "lv": "Ik ga zitten."
+            },
+            {
+              "de": "Sie freut sich.",
+              "lv": "Zij is blij."
+            },
+            {
+              "de": "Ich wasche das Auto.",
+              "lv": "Ik was de auto."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sich",
+              "meaning": "zichzelf",
+              "example": "Hij wast zich."
+            },
+            {
+              "word": "mich",
+              "meaning": "mezelf / me bij ich",
+              "example": "Ik was me."
+            },
+            {
+              "word": "dich",
+              "meaning": "jezelf / je bij du",
+              "example": "Jij wast je."
+            },
+            {
+              "word": "ihn",
+              "meaning": "hem",
+              "example": "Ik zie hem."
+            }
+          ],
+          "tip": {
+            "text": "Onthoud: een handeling op jezelf → sich/mich/dich."
+          },
+          "important": [
+            "sich is geen zelfstandig woord.",
+            "Het verandert per persoon: ik → me, jij → je, hij/zij/het → zich."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "nn",
+      "canonical_card_object_id": "a1-neu",
+      "full_card_owner_new": {
+        "lv": "ny • nyoppdaga eller nyleg laga",
+        "study": {
+          "id": "a1-neu",
+          "layout": "standardStudy",
+          "translation": "ny • nyoppdaga eller nyleg laga",
+          "explanation": [
+            "Hovudidé: neu skildrar noko som er nytt, nyleg laga, kjøpt eller oppdaga.",
+            "Om alderen til ein person eller eit dyr bruker ein jung, ikkje neu.",
+            "Motsetnaden til neu er alt når alt betyr gammal."
+          ],
+          "examples": [
+            {
+              "de": "Mein Handy ist neu.",
+              "lv": "Mobiltelefonen min er ny."
+            },
+            {
+              "de": "Wir haben ein neues Auto.",
+              "lv": "Vi har ein ny bil."
+            },
+            {
+              "de": "Das ist meine neue Wohnung.",
+              "lv": "Dette er den nye leilegheita mi."
+            },
+            {
+              "de": "Ich habe neue Schuhe gekauft.",
+              "lv": "Eg har kjøpt nye sko."
+            },
+            {
+              "de": "Das ist eine neue Idee.",
+              "lv": "Dette er ein ny idé."
+            },
+            {
+              "de": "Er hat einen neuen Job.",
+              "lv": "Han har ein ny jobb."
+            },
+            {
+              "de": "Was gibt es Neues?",
+              "lv": "Kva er nytt?"
+            }
+          ],
+          "tip": [
+            "neu bruker vi om ting, idear og nyheiter.",
+            "Om alderen til ein person eller eit dyr bruker vi jung."
+          ],
+          "important": [
+            "neu skildrar ikkje alderen til personar eller dyr.",
+            "Motsetnad: neu ↔ alt = ny ↔ gammal."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "nn",
+      "canonical_card_object_id": "a1-verstehen",
+      "full_card_owner_new": {
+        "lv": "forstå",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "forstå",
+          "explanation": [
+            "Hovudidé: verstehen betyr å forstå språk, personar, tekstar eller situasjonar.",
+            "Det er vanlegvis ikkje ordet for å kunne eller meistre noko; då bruker ein ofte können."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "Eg forstår deg."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "Forstår du tysk?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "Eg forstår ikkje dette."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Eg kan snakke tysk."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "forstå",
+              "example": "Ich verstehe dich. – Eg forstår deg."
+            },
+            {
+              "word": "können",
+              "meaning": "kunne",
+              "example": "Ich kann schwimmen. – Eg kan symje."
+            },
+            {
+              "word": "wissen",
+              "meaning": "vite",
+              "example": "Ich weiß es. – Eg veit det."
+            },
+            {
+              "word": "kennen",
+              "meaning": "kjenne",
+              "example": "Ich kenne ihn. – Eg kjenner han."
+            }
+          ],
+          "tip": {
+            "text": "Forstå ein tekst eller ein person → verstehen; kunne eller meistre noko → können."
+          },
+          "important": [
+            "verstehen er ikkje hovudordet for tydinga «kunne».",
+            "Ich verstehe Deutsch betyr «eg forstår tysk»."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "nn",
+      "canonical_card_object_id": "a1-wie",
+      "full_card_owner_new": {
+        "lv": "korleis • kor",
+        "study": {
+          "id": "a1-wie",
+          "layout": "standardStudy",
+          "translation": "korleis • kor",
+          "explanation": [
+            "Hovudidé: wie spør vanlegvis om måte og betyr då korleis.",
+            "I uttrykk som wie viel, wie alt og wie lange spør ordet om mengd, alder eller varigheit og blir ofte omsett med kor."
+          ],
+          "examples": [
+            {
+              "de": "Wie geht es dir?",
+              "lv": "Korleis har du det?"
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Kva heiter du?"
+            },
+            {
+              "de": "Wie viel kostet das?",
+              "lv": "Kor mykje kostar det?"
+            },
+            {
+              "de": "Wie alt bist du?",
+              "lv": "Kor gammal er du?"
+            },
+            {
+              "de": "Wie lange dauert der Film?",
+              "lv": "Kor lenge varer filmen?"
+            },
+            {
+              "de": "Er ist so groß wie sein Vater.",
+              "lv": "Han er like høg som faren sin."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wie",
+              "meaning": "korleis • kor",
+              "example": "Wie geht es dir? – Korleis har du det?"
+            },
+            {
+              "word": "wie viel",
+              "meaning": "kor mykje",
+              "example": "Wie viel kostet das? – Kor mykje kostar det?"
+            },
+            {
+              "word": "wie alt",
+              "meaning": "kor gammal",
+              "example": "Wie alt bist du? – Kor gammal er du?"
+            },
+            {
+              "word": "wie lange",
+              "meaning": "kor lenge",
+              "example": "Wie lange dauert der Film? – Kor lenge varer filmen?"
+            }
+          ],
+          "tip": [
+            "wie åleine spør ofte om måte: korleis.",
+            "wie + adjektiv eller adverb kan spørje om omfang: kor mykje, kor gammal eller kor lenge."
+          ],
+          "important": [
+            "wie viel(e) = kor mykje eller kor mange.",
+            "wie alt = kor gammal; wie lange = kor lenge.",
+            "so ... wie = like ... som."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "bitte",
+      "full_card_owner_new": {
+        "lv": "por favor",
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "por favor",
+          "explanation": [
+            "Ideia principal: bitte com inicial minúscula é uma palavra de cortesia que significa por favor.",
+            "É usada em pedidos, encomendas e respostas educadas.",
+            "O substantivo die Bitte, com inicial maiúscula, significa pedido."
+          ],
+          "examples": [
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Uma xícara de café, por favor."
+            },
+            {
+              "de": "Komm bitte herein.",
+              "lv": "Por favor, entre."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "De nada!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bitte",
+              "meaning": "por favor / de nada",
+              "example": "Komm bitte herein. – Por favor, entre."
+            },
+            {
+              "word": "die Bitte",
+              "meaning": "pedido",
+              "example": "Ich habe eine Bitte. – Tenho um pedido."
+            }
+          ],
+          "tip": {
+            "text": "Lembre-se: bitte com minúscula = por favor; die Bitte com maiúscula = pedido."
+          },
+          "important": [
+            "bitte é uma palavra de cortesia.",
+            "die Bitte é um substantivo com o artigo die.",
+            "Incorreto: Die Bitte schön! → correto: Bitte schön!"
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "Bitte",
+      "full_card_owner_new": {
+        "lv": "pedido",
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "pedido",
+          "explanation": [
+            "Ideia principal: die Bitte é um substantivo que significa pedido.",
+            "É escrito com inicial maiúscula e usado com o artigo die.",
+            "O plural é die Bitten.",
+            "A palavra de cortesia bitte, com inicial minúscula, significa por favor."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Tenho um pedido."
+            },
+            {
+              "de": "Er erfüllt meine Bitte.",
+              "lv": "Ele atende ao meu pedido."
+            },
+            {
+              "de": "Sie hat zwei Bitten.",
+              "lv": "Ela tem dois pedidos."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Bitte",
+              "meaning": "pedido",
+              "example": "Ich habe eine Bitte. – Tenho um pedido."
+            },
+            {
+              "word": "bitte",
+              "meaning": "por favor",
+              "example": "Komm bitte herein. – Por favor, entre."
+            }
+          ],
+          "tip": {
+            "text": "Lembre-se: die Bitte é substantivo; bitte é palavra de cortesia."
+          },
+          "important": [
+            "Artigo: die Bitte.",
+            "Plural: die Bitten.",
+            "O substantivo é escrito com inicial maiúscula."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "bleiben",
+      "full_card_owner_new": {
+        "lv": "ficar • permanecer",
+        "study": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "ficar • permanecer",
+          "explanation": [
+            "Ideia principal: bleiben significa ficar ou permanecer.",
+            "É usado quando uma pessoa ou coisa não vai embora e permanece no mesmo lugar ou estado.",
+            "Nesse sentido, contrasta com gehen e fahren, que indicam ir embora.",
+            "Uma frase muito frequente é Ich bleibe zu Hause."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "Fico em casa."
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "Fique aqui!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "Ficamos mais uma hora."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "Vou para casa."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "ficar / permanecer",
+              "example": "Ich bleibe hier. – Fico aqui."
+            },
+            {
+              "word": "gehen",
+              "meaning": "ir embora a pé",
+              "example": "Ich gehe nach Hause. – Vou para casa a pé."
+            },
+            {
+              "word": "fahren",
+              "meaning": "ir de transporte",
+              "example": "Ich fahre nach Hause. – Vou para casa de carro."
+            },
+            {
+              "word": "warten",
+              "meaning": "esperar",
+              "example": "Ich warte hier. – Espero aqui."
+            }
+          ],
+          "tip": {
+            "text": "Lembre-se: não ir embora → bleiben; sair a pé → gehen."
+          },
+          "important": [
+            "bleiben significa ficar, não esperar.",
+            "Ich bleibe hier = fico aqui; Ich warte hier = espero aqui."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": {
+        "lv": "apenas • primeiro",
+        "study": {
+          "translation": "apenas • primeiro",
+          "explanation": [
+            "Ideia principal: erst geralmente significa apenas, mas também pode significar primeiro, dependendo do contexto.",
+            "Erst pode indicar que algo acontece mais tarde do que o esperado ou que um ponto foi alcançado recentemente.",
+            "Ich bin erst 18. — Eu tenho apenas 18 anos.",
+            "Es ist erst Montag. — É apenas segunda-feira.",
+            "Erst lernen, dann spielen. — Primeiro estudar, depois brincar."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Primeiro estudar, depois brincar."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Só venho amanhã."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Ele tem apenas 18 anos."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Só vamos comer às oito horas."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "apenas • primeiro",
+              "example": "Erst lernen, dann spielen. = Primeiro estudar, depois brincar."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "primeiro",
+              "example": "Zuerst frühstücken wir. = Primeiro, tomamos café da manhã."
+            },
+            {
+              "word": "nur",
+              "meaning": "apenas • somente",
+              "example": "Ich habe nur 5 Euro. = Eu tenho apenas 5 euros."
+            },
+            {
+              "word": "dann",
+              "meaning": "então • depois",
+              "example": "Dann gehen wir nach Hause. = Então vamos para casa."
+            }
+          ],
+          "tip": {
+            "text": "Tempo, idade ou sequência: erst; quantidade ou limitação: nur."
+          },
+          "important": [
+            "Erst e nur podem ser traduzidos como “apenas”, mas não têm exatamente o mesmo uso.",
+            "Erst costuma indicar tempo, sequência ou um ponto alcançado; nur limita quantidade ou escolha.",
+            "Zuerst significa “primeiro” e normalmente introduz a primeira etapa de uma sequência."
+          ],
+          "id": "a1-erst",
+          "layout": "standardStudy"
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "etwas",
+      "full_card_owner_new": {
+        "lv": "algo • um pouco",
+        "study": {
+          "translation": "algo • um pouco",
+          "explanation": [
+            "Ideia principal: etwas pode significar algo ou um pouco, dependendo do contexto.",
+            "Quando se refere a uma coisa indefinida, significa “algo”.",
+            "Antes de um adjetivo ou com uma ideia de quantidade, pode significar “um pouco”."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte etwas trinken.",
+              "lv": "Eu gostaria de beber algo."
+            },
+            {
+              "de": "Hast du etwas Zeit?",
+              "lv": "Você tem um pouco de tempo?"
+            },
+            {
+              "de": "Ich bin etwas müde.",
+              "lv": "Estou um pouco cansado."
+            },
+            {
+              "de": "Ich habe etwas für dich.",
+              "lv": "Eu tenho algo para você."
+            },
+            {
+              "de": "Das ist etwas teuer.",
+              "lv": "Isso é um pouco caro."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwas",
+              "meaning": "algo • um pouco",
+              "example": "Ich brauche etwas. = Preciso de algo."
+            },
+            {
+              "word": "was",
+              "meaning": "algo (informal)",
+              "example": "Willst du was trinken? = Você quer beber algo?"
+            },
+            {
+              "word": "ein bisschen",
+              "meaning": "um pouco",
+              "example": "Ich bin ein bisschen müde. = Estou um pouco cansado."
+            },
+            {
+              "word": "nichts",
+              "meaning": "nada",
+              "example": "Ich brauche nichts. = Não preciso de nada."
+            }
+          ],
+          "tip": {
+            "text": "Coisa indefinida: algo; grau ou quantidade pequena: um pouco."
+          },
+          "important": [
+            "Etwas não é o mesmo que nichts: etwas indica que há algo, enquanto nichts significa “nada”.",
+            "Em etwas trinken, a tradução natural é “beber algo”.",
+            "Etwas pode modificar um adjetivo, como em etwas teuer: “um pouco caro”."
+          ],
+          "id": "a1-etwas",
+          "layout": "standardStudy"
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "euch",
+      "full_card_owner_new": {
+        "lv": "vocês • a vocês • se",
+        "study": {
+          "translation": "vocês • a vocês • se",
+          "explanation": [
+            "Euch é a forma de acusativo ou dativo de ihr, usada para falar com várias pessoas de maneira informal.",
+            "Pode significar “vocês” como objeto direto, “a vocês” como objeto indireto ou “se” quando é reflexivo."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "Eu vejo vocês."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "Eu ajudo vocês."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "Eu dou o livro a vocês."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "Eu agradeço a vocês."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "Vocês se lembram."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "vocês",
+              "example": "Ihr seid freundlich. = Vocês são gentis."
+            },
+            {
+              "word": "euch",
+              "meaning": "vocês • a vocês",
+              "example": "Ich helfe euch. = Eu ajudo vocês."
+            },
+            {
+              "word": "euer",
+              "meaning": "seu • de vocês",
+              "example": "Das ist euer Haus. = Essa é a casa de vocês."
+            }
+          ],
+          "tip": {
+            "text": "Euch é usado quando “vocês” recebe a ação, é o destinatário dela ou aparece em uma construção reflexiva."
+          },
+          "important": [
+            "Euch não significa suco nem qualquer outra palavra semelhante em português.",
+            "A tradução depende da função: “vocês” no acusativo, “a vocês” no dativo e “se” no uso reflexivo.",
+            "Ihr é o pronome sujeito; euch é a forma oblíqua correspondente."
+          ],
+          "id": "a1-euch",
+          "layout": "standardStudy"
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "fahren",
+      "full_card_owner_new": {
+        "lv": "viajar • dirigir • levar",
+        "study": {
+          "translation": "viajar • dirigir • levar",
+          "explanation": [
+            "Fahren significa deslocar-se usando um veículo, viajar ou dirigir.",
+            "Com um destino, pode ser traduzido como “ir” ou “viajar”; com um veículo, como “dirigir” ou “andar de”.",
+            "Também pode significar levar alguém de veículo a algum lugar."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Eu vou para Berlim."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "Eu vou de carro."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "Levo minha filha à escola."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "Levo você para casa."
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "Amanhã vamos para Munique."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "viajar • dirigir",
+              "example": "Ich fahre mit dem Bus. = Vou de ônibus."
+            },
+            {
+              "word": "gehen",
+              "meaning": "ir a pé",
+              "example": "Ich gehe nach Hause. = Vou para casa a pé."
+            },
+            {
+              "word": "laufen",
+              "meaning": "correr • caminhar",
+              "example": "Er läuft schnell. = Ele corre rápido."
+            },
+            {
+              "word": "bringen",
+              "meaning": "levar • trazer",
+              "example": "Ich bringe das Buch. = Eu levo o livro."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "levar consigo",
+              "example": "Ich nehme dich mit. = Levo você comigo."
+            }
+          ],
+          "tip": {
+            "text": "Fahren normalmente envolve um veículo; para deslocamento a pé, use gehen ou laufen."
+          },
+          "important": [
+            "Fahren pode significar “viajar”, “dirigir” ou “levar”, conforme o contexto.",
+            "Ich fahre mit dem Auto significa “Eu vou de carro” ou “Eu dirijo”.",
+            "Com uma pessoa como objeto, fahren pode significar levá-la de veículo."
+          ],
+          "id": "a1-fahren",
+          "layout": "standardStudy"
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "gleich",
+      "full_card_owner_new": {
+        "lv": "logo • igual",
+        "study": {
+          "translation": "logo • igual",
+          "explanation": [
+            "gleich pode indicar proximidade no tempo, com o sentido de ‘logo’ ou ‘daqui a pouco’.",
+            "Também significa ‘igual’ ou ‘do mesmo tamanho’ em comparações.",
+            "A expressão gleich mir significa ‘igual a mim’, embora seja menos comum no alemão básico."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Eu já vou."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Temos a mesma cor."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "A comida estará pronta daqui a pouco."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Os dois caminhos têm o mesmo comprimento."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Até daqui a pouco!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Eles têm a mesma altura."
+            }
+          ],
+          "tip": [
+            "No contexto de tempo, gleich significa ‘logo’ ou ‘daqui a pouco’.",
+            "Em comparações, gleich significa ‘igual’ ou ‘do mesmo tamanho’."
+          ],
+          "important": [
+            "gleich pode significar ‘logo’ ou ‘igual’, dependendo do contexto.",
+            "Bis gleich! significa ‘Até daqui a pouco!’."
+          ],
+          "id": "a1-gleich",
+          "layout": "standardStudy"
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "groß",
+      "full_card_owner_new": {
+        "lv": "grande • alto",
+        "study": {
+          "translation": "grande • alto",
+          "explanation": [
+            "groß significa ‘grande’ quando se fala do tamanho de algo.",
+            "Para pessoas, groß geralmente significa ‘alto’.",
+            "A tradução depende do contexto: uma casa pode ser grande, enquanto uma pessoa é alta."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "A casa é grande."
+            },
+            {
+              "de": "Berlin ist eine große Stadt.",
+              "lv": "Berlim é uma cidade grande."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "Ele é alto."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "O quarto é grande."
+            }
+          ],
+          "tip": [
+            "Use groß para falar de tamanho ou altura.",
+            "Para uma pessoa, Er ist groß normalmente significa ‘Ele é alto’."
+          ],
+          "important": [
+            "groß = grande; para pessoas, geralmente ‘alto’. "
+          ],
+          "id": "a1-gross-study",
+          "layout": "standardStudy"
+        }
+      }
+    },
+    {
+      "target_language": "pt",
+      "canonical_card_object_id": "Großeltern",
+      "full_card_owner_new": {
+        "lv": "avós",
+        "study": {
+          "translation": "avós",
+          "explanation": [
+            "Großeltern significa ‘avós’, ou seja, a avó e o avô em conjunto.",
+            "Essa palavra é plural.",
+            "No singular, use Großmutter para ‘avó’ e Großvater para ‘avô’."
+          ],
+          "examples": [
+            {
+              "de": "Meine Großeltern wohnen auf dem Land.",
+              "lv": "Meus avós moram no campo."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Eu visito meus avós."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Großeltern",
+              "meaning": "avós",
+              "example": "meine Großeltern – meus avós"
+            },
+            {
+              "word": "Großmutter",
+              "meaning": "avó",
+              "example": "meine Großmutter – minha avó"
+            },
+            {
+              "word": "Großvater",
+              "meaning": "avô",
+              "example": "mein Großvater – meu avô"
+            }
+          ],
+          "tip": [
+            "Großeltern é uma palavra plural.",
+            "Para falar de uma só pessoa, use Großmutter ou Großvater."
+          ],
+          "important": [
+            "die Großeltern = os avós."
+          ],
+          "id": "a1-grosseltern-study",
+          "layout": "standardStudy"
+        }
+      }
+    }
+  ]
+}
