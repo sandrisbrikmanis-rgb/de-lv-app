@@ -19754,5 +19754,12 @@
       160,
       180
     ]
+  },
+  "cards_161_180_gala_pass": {
+    "classification": "A1_LRB_CONSOLIDATION_CARDS_161_180_GALA_PASS",
+    "recorded_at": "2026-09-19T10:24:32.117Z",
+    "git_head": "51768e86f55d229c9f77462fa1745ef2fe5ef49c",
+    "pass_proof_sha256": "14af3bb7889021264a0b6e274e68bb0d457747f952ed37b418c5a14f60da77d1",
+    "cards_161_180_payload_sha256": "da9f8c9ca8825a7075c1260b5cd9d280e9d282458f6dafe62612f11e66df17b4"
   }
 }
