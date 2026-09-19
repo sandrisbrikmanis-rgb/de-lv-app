@@ -10211,102 +10211,3729 @@
     {
       "target_language": "hu",
       "canonical_card_object_id": "lang",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "hosszú • sokáig",
+        "study": {
+          "id": "a1-lang",
+          "layout": "standardStudy",
+          "translation": "hosszú • sokáig",
+          "explanation": [
+            "A lang térben hosszút, időben hosszú ideig tartót jelent.",
+            "Méret vagy távolság esetén lang = hosszú: ein langer Tisch.",
+            "Időtartam esetén lang = hosszú, illetve sokáig: ein langer Tag.",
+            "A den ganzen Tag lang kifejezés jelentése: egész nap.",
+            "Magyarul a melléknévi hosszú és a határozói sokáig alakot a mondat szerepe szerint választjuk."
+          ],
+          "examples": [
+            {
+              "de": "Der Tisch ist sehr lang.",
+              "lv": "Az asztal nagyon hosszú."
+            },
+            {
+              "de": "Der Film war sehr lang.",
+              "lv": "A film nagyon hosszú volt."
+            },
+            {
+              "de": "Wie lange dauert es?",
+              "lv": "Mennyi ideig tart?"
+            },
+            {
+              "de": "Sie hat lange Haare.",
+              "lv": "Hosszú haja van."
+            },
+            {
+              "de": "Ich warte schon lange.",
+              "lv": "Már régóta várok."
+            },
+            {
+              "de": "Den ganzen Tag lang.",
+              "lv": "Egész nap."
+            }
+          ],
+          "tip": [
+            "Méret vagy távolság esetén → hosszú.",
+            "Időtartam esetén → hosszú ideig / sokáig."
+          ],
+          "important": [
+            "A lang méretnél hosszú, időnél hosszú ideig vagy sokáig.",
+            "wie lange = mennyi ideig; időtartamra kérdez."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "lang"
+              ],
+              "purple": [
+                "hosszú",
+                "sokáig"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hosszú"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hosszú"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mennyi ideig"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hosszú"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "lange"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "régóta"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "lang"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Egész nap"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "hosszú"
+                ]
+              },
+              {
+                "purple": [
+                  "hosszú",
+                  "sokáig"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "hosszú",
+                  "sokáig"
+                ]
+              },
+              {
+                "green": [
+                  "wie lange"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "is",
       "canonical_card_object_id": "Essen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "matur • máltíð",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "matur • máltíð",
+          "explanation": [
+            "Meginhugmynd: das Essen er nafnorð og merkir mat eða heila máltíð.",
+            "das Essen vísar til matarins sem er borðaður.",
+            "Orðið getur einnig táknað máltíð í heild.",
+            "essen með litlum staf er sögnin „að borða“.",
+            "das Essen með stórum staf er nafnorð.",
+            "essen = borða.",
+            "das Essen = matur eða máltíð."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Maturinn er bragðgóður."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Hvað viljið þið borða?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Við borðum klukkan tólf."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Maturinn er tilbúinn."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Maturinn er mjög bragðgóður."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Maturinn er bragðgóður."
+            }
+          ],
+          "tip": [
+            "das Essen = matur eða máltíð",
+            "essen = borða"
+          ],
+          "important": [
+            "essen er sögn án greinis.",
+            "das Essen er ekki það sama og essen.",
+            "Athöfn: essen.",
+            "Matur eða máltíð: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Essen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "is",
       "canonical_card_object_id": "Ferien",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "skólafrí",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "skólafrí",
+          "explanation": [
+            "Meginhugmynd: die Ferien er aðeins notað í fleirtölu og merkir frí frá skóla eða námi.",
+            "die Ferien merkir aðallega skólafrí eða námsfrí.",
+            "Orðið er aðeins notað í fleirtölu.",
+            "Rétt orðasamband er in den Ferien."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Í skólafríinu förum við til sjávar."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "Í skólafríinu hef ég mikinn tíma."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Hvað gerið þið í skólafríinu?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "Skólinn er lokaður í skólafríinu."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Í skólafríinu förum við til sjávar."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "í skólafríinu"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "skólafrí eða námsfrí (aðeins fleirtala)",
+              "example": "In den Ferien fahren wir weg. – Í skólafríinu förum við í ferðalag."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "orlof frá vinnu (eintala)",
+              "example": "Ich habe zwei Wochen Urlaub. – Ég er í tveggja vikna orlofi."
+            }
+          ],
+          "tip": [
+            "die Ferien er aðeins notað í fleirtölu og merkir skólafrí eða námsfrí.",
+            "Notaðu die Ferien um frí frá skóla eða námi."
+          ],
+          "important": [
+            "Í orðasambandinu in den Ferien stendur Ferien í þágufalli.",
+            "Rangt: in der Ferien. Rétt: in den Ferien.",
+            "Skóli: die Ferien, aðeins fleirtala.",
+            "Vinna: der Urlaub, eintala."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Ferien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Ferien"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Urlaub"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "is",
       "canonical_card_object_id": "Gemüse",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "grænmeti",
+        "study": {
+          "id": "a1-gemuese",
+          "layout": "standardStudy",
+          "translation": "grænmeti",
+          "explanation": [
+            "Meginhugmynd: das Gemüse merkir grænmeti almennt; þýska orðið hefur ekki fleirtölumyndina *die Gemüse.",
+            "das Gemüse táknar grænmeti í heild.",
+            "Orðið er hvorugkyns og venjulega aðeins notað í eintölu."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Mér finnst gott að borða grænmeti."
+            },
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Mér finnst gott að borða grænmeti."
+            },
+            {
+              "de": "Das Gemüse ist frisch.",
+              "lv": "Grænmetið er ferskt."
+            },
+            {
+              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "lv": "Við kaupum grænmeti á markaðnum."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Mér líkar vel við ávexti og grænmeti."
+            },
+            {
+              "de": "Ich esse Gemüse.",
+              "lv": "Ég borða grænmeti."
+            }
+          ],
+          "tip": [
+            "das Gemüse = grænmeti",
+            "Notaðu das Gemüse um grænmeti í heild."
+          ],
+          "important": [
+            "Ekki er sagt *die Gemüse eða *die Obsts.",
+            "Rangt: die Gemüse. Rétt: das Gemüse.",
+            "das Gemüse = grænmeti í heild."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Gemüse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "is",
       "canonical_card_object_id": "Obst",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ávextir",
+        "study": {
+          "id": "a1-obst",
+          "layout": "standardStudy",
+          "translation": "ávextir",
+          "explanation": [
+            "Meginhugmynd: das Obst vísar til ávaxta almennt; í þýsku er fleirtalan *die Obsts ekki notuð.",
+            "das Obst merkir ávexti sem safnheiti.",
+            "Orðið er hvorugkyns og er venjulega aðeins notað í eintölu."
+          ],
+          "examples": [
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Við borðum mikið af ávöxtum."
+            },
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Við borðum mikið af ávöxtum."
+            },
+            {
+              "de": "Obst ist gesund.",
+              "lv": "Ávextir eru hollir."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Mér líkar við ávexti og grænmeti."
+            },
+            {
+              "de": "Wir essen Obst.",
+              "lv": "Við borðum ávexti."
+            }
+          ],
+          "tip": [
+            "das Obst = ávextir",
+            "Notaðu das Obst þegar rætt er um ávexti almennt."
+          ],
+          "important": [
+            "Rangt: die Obsts → Rétt: das Obst",
+            "das Obst = ávextir sem safnheiti."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das Obst"
+              ],
+              "purple": [
+                "ávexti",
+                "ávaxta"
+              ],
+              "red": [
+                "die Obsts"
+              ],
+              "green": [
+                "eintölu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ávöxtum"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ávöxtum"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Ávextir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ávexti"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Obst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "ávexti"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "das Obst"
+                ],
+                "purple": [
+                  "ávextir"
+                ]
+              },
+              {
+                "blue": [
+                  "das Obst"
+                ],
+                "purple": [
+                  "ávexti"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "red": [
+                  "die Obsts"
+                ],
+                "green": [
+                  "das Obst"
+                ]
+              },
+              {
+                "blue": [
+                  "das Obst"
+                ],
+                "purple": [
+                  "ávextir"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "is",
       "canonical_card_object_id": "Urlaub",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "orlof",
+        "study": {
+          "id": "a1-urlaub",
+          "layout": "standardStudy",
+          "translation": "orlof",
+          "explanation": [
+            "Meginhugmynd: der Urlaub merkir orlof eða frí frá vinnu og er í þýsku yfirleitt notað í eintölu.",
+            "der Urlaub vísar fyrst og fremst til frítíma frá vinnu.",
+            "Í þessari merkingu er þýska orðið notað í eintölu.",
+            "Algeng sambönd eru im Urlaub sein og Urlaub machen."
+          ],
+          "examples": [
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Faðir minn er í orlofi."
+            },
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Faðir minn er í orlofi."
+            },
+            {
+              "de": "Nächste Woche habe ich Urlaub.",
+              "lv": "Ég verð í orlofi í næstu viku."
+            },
+            {
+              "de": "Wir machen Urlaub in Spanien.",
+              "lv": "Við verðum í orlofi á Spáni."
+            },
+            {
+              "de": "im Urlaub",
+              "lv": "í orlofi"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Urlaub",
+              "meaning": "orlof frá vinnu (þýska: eintala)",
+              "example": "Mein Vater ist im Urlaub. – Faðir minn er í orlofi."
+            },
+            {
+              "word": "die Ferien",
+              "meaning": "skólafrí (þýska: fleirtala)",
+              "example": "Die Kinder haben Ferien. – Börnin eru í skólafríi."
+            }
+          ],
+          "tip": [
+            "der Urlaub er notað um orlof eða frí frá vinnu og stendur yfirleitt í eintölu.",
+            "Notaðu der Urlaub þegar átt er við frí frá vinnu."
+          ],
+          "important": [
+            "Á A1-stigi er der Urlaub venjulega notað í eintölu.",
+            "Algeng sambönd eru im Urlaub sein og Urlaub machen.",
+            "Fleirtalan die Urlaube er til, en er sjaldgæfari og vísar til fleiri aðskildra orlofa.",
+            "Vinna: der Urlaub (eintala); skóli: die Ferien (fleirtala)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Urlaub",
+                "Urlaub",
+                "im Urlaub sein",
+                "Urlaub machen"
+              ],
+              "purple": [
+                "orlof",
+                "frí frá vinnu"
+              ],
+              "yellow": [
+                "eintölu"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "í orlofi"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "green": [
+                  "der Urlaub"
+                ],
+                "purple": [
+                  "orlof",
+                  "frí frá vinnu"
+                ],
+                "yellow": [
+                  "eintölu"
+                ]
+              },
+              {
+                "green": [
+                  "der Urlaub"
+                ],
+                "purple": [
+                  "frí frá vinnu"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "green": [
+                  "der Urlaub"
+                ],
+                "yellow": [
+                  "eintölu"
+                ]
+              },
+              {
+                "green": [
+                  "im Urlaub sein",
+                  "Urlaub machen"
+                ]
+              },
+              {
+                "green": [
+                  "die Urlaube"
+                ],
+                "yellow": [
+                  "sjaldgæfari"
+                ]
+              },
+              {
+                "green": [
+                  "der Urlaub",
+                  "die Ferien"
+                ],
+                "purple": [
+                  "Vinna",
+                  "skóli"
+                ],
+                "yellow": [
+                  "eintala",
+                  "fleirtala"
+                ]
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Urlaub"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "orlof frá vinnu",
+                    "eintala"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Ferien"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "skólafrí",
+                    "fleirtala"
+                  ]
+                },
+                "example": {}
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "Eis",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "Äis • Glace",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "Äis • Glace",
+          "explanation": [
+            "Haaptiddi: das Eis kann „Äis“ oder „Glace“ bedeiten.",
+            "Bei gefruerem Waasser seet een Äis.",
+            "Bei engem Iessen oder Dessert seet een Glace.",
+            "De Kontext weist normalerweis, wéi eng Bedeitung gemengt ass.",
+            "Um Niveau A1 sinn Ausdréck mat Äis a Glace besonnesch wichteg."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Ech iessen eng Glace."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "Wëlls du eng Glace?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "Am Wanter läit Äis um Séi."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "D’Äis ass kal."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Ech huelen eng Glace mat Schockela."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "Äis / Glace",
+              "example": "Ich esse ein Eis. – Ech iessen eng Glace."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "Schnéi",
+              "example": "Der Schnee ist weiß. – De Schnéi ass wäiss."
+            },
+            {
+              "word": "kalt",
+              "meaning": "kal",
+              "example": "Das Wasser ist kalt. – D’Waasser ass kal."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "Dessert",
+              "example": "Eis ist ein Dessert. – Glace ass en Dessert."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Iessen → Glace; Wanter oder Waasser → Äis."
+          },
+          "important": [
+            "Am Däitsche kann Eis souwuel gefruerent Waasser wéi och Glace bedeiten.",
+            "Am Lëtzebuergesche gi meeschtens zwou verschidde Wierder benotzt: Äis a Glace."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Eis",
+                "Äis",
+                "Glace"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Glace"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Glace"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Äis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Äis"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Glace"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Eis"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Eis"
+                  ],
+                  "purple": [
+                    "Glace"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Schnee"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Schnee"
+                  ],
+                  "purple": [
+                    "Schnéi"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "kalt"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "kalt"
+                  ],
+                  "purple": [
+                    "kal"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Dessert"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Dessert"
+                  ],
+                  "purple": [
+                    "Dessert"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Glace",
+                  "Äis"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "Eis"
+                ]
+              },
+              {
+                "blue": [
+                  "Äis"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "etwas",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "eppes • e bëssen",
+        "study": {
+          "id": "a1-etwas",
+          "layout": "standardStudy",
+          "translation": "eppes • e bëssen",
+          "explanation": [
+            "Haaptiddi: etwas bedeit meeschtens „eppes“.",
+            "Virun engem Adjektiv kann etwas och „e bëssen“ bedeiten.",
+            "De Kontext weist, ob eng Saach oder e Grad gemengt ass."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte etwas trinken.",
+              "lv": "Ech géif gär eppes drénken."
+            },
+            {
+              "de": "Hast du etwas Zeit?",
+              "lv": "Hues du e bëssen Zäit?"
+            },
+            {
+              "de": "Ich bin etwas müde.",
+              "lv": "Ech sinn e bëssen midd."
+            },
+            {
+              "de": "Ich habe etwas für dich.",
+              "lv": "Ech hunn eppes fir dech."
+            },
+            {
+              "de": "Das ist etwas teuer.",
+              "lv": "Dat ass e bëssen deier."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwas",
+              "meaning": "eppes • e bëssen",
+              "example": "Ich möchte etwas trinken. – Ech géif gär eppes drénken."
+            },
+            {
+              "word": "was",
+              "meaning": "eppes",
+              "example": "Willst du was trinken? – Wëlls du eppes drénken?"
+            },
+            {
+              "word": "ein bisschen",
+              "meaning": "e bëssen",
+              "example": "Ich bin ein bisschen müde. – Ech sinn e bëssen midd."
+            },
+            {
+              "word": "nichts",
+              "meaning": "näischt",
+              "example": "Ich sehe nichts. – Ech gesinn näischt."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: eng Saach → eppes; e Grad → e bëssen."
+          },
+          "important": [
+            "etwas kann „eppes“ oder „e bëssen“ bedeiten.",
+            "De Saz weist, wéi eng Bedeitung richteg ass."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "etwas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "eppes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "e bëssen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "e bëssen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "eppes"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "e bëssen"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "etwas"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "etwas"
+                  ],
+                  "purple": [
+                    "eppes"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "was"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "was"
+                  ],
+                  "purple": [
+                    "eppes"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ein bisschen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "ein bisschen"
+                  ],
+                  "purple": [
+                    "e bëssen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "nichts"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nichts"
+                  ],
+                  "purple": [
+                    "näischt"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "eppes",
+                  "e bëssen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "etwas"
+                ]
+              },
+              {
+                "purple": [
+                  "Saz",
+                  "Bedeitung"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "fahren",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "fueren • féieren",
+        "study": {
+          "id": "a1-fahren",
+          "layout": "standardStudy",
+          "translation": "fueren • féieren",
+          "explanation": [
+            "Haaptiddi: fahren bedeit mat engem Transportmëttel fueren; mat enger Persoun als Objet kann et och féieren oder heembréngen bedeiten.",
+            "Bei engem Auto, Bus, Zuch, Vëlo oder engem aneren Transportmëttel benotzt een am Lëtzebuergesche meeschtens fueren.",
+            "Wann eng Persoun den Objet ass, passt dacks féieren oder heembréngen.",
+            "Fir Beweegung zu Fouss benotzt een goen oder lafen."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Ech fueren op Berlin."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "Ech fuere mam Auto."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "Ech féiere meng Duechter an d’Schoul."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "Ech féieren dech heem."
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "Mir fuere muer op München."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "mat engem Transportmëttel fueren",
+              "example": "Ich fahre mit dem Bus. – Ech fuere mam Bus."
+            },
+            {
+              "word": "gehen",
+              "meaning": "zu Fouss goen",
+              "example": "Ich gehe nach Hause. – Ech ginn heem."
+            },
+            {
+              "word": "laufen",
+              "meaning": "lafen",
+              "example": "Er läuft schnell. – Hie leeft séier."
+            },
+            {
+              "word": "bringen",
+              "meaning": "bréngen • op eng Plaz bréngen",
+              "example": "Ich bringe das Buch. – Ech bréngen d’Buch."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "mathuelen",
+              "example": "Ich nehme dich mit. – Ech huelen dech mat."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: Transportmëttel → fahren; zu Fouss → gehen."
+          },
+          "important": [
+            "fahren gëtt jee no Kontext mat fueren oder féieren erëmgi.",
+            "Mat engem Transportmëttel: fueren. Eng Persoun op eng Plaz bréngen: féieren."
+          ],
+          "accents": {
+            "blue": [
+              "fahren"
+            ],
+            "purple": [
+              "fueren",
+              "féieren"
+            ],
+            "green": [
+              "Transportmëttel"
+            ],
+            "yellow": [
+              "gehen",
+              "laufen"
+            ],
+            "red": [
+              "bringen",
+              "mitnehmen"
+            ]
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fahren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fueren"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fuere"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "féiere"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahre"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "féieren"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahren"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "fuere"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "fahre"
+                  ],
+                  "purple": [
+                    "fuere"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "gehe"
+                  ],
+                  "purple": [
+                    "ginn"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "läuft"
+                  ],
+                  "purple": [
+                    "leeft"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "bringe"
+                  ],
+                  "purple": [
+                    "bréngen"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitnehmen"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nehme"
+                  ],
+                  "purple": [
+                    "huelen"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "fahren",
+                  "gehen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "fahren"
+                ],
+                "purple": [
+                  "fueren",
+                  "féieren"
+                ]
+              },
+              {
+                "purple": [
+                  "Transportmëttel",
+                  "féieren",
+                  "fueren"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "fernsehen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "Tëlee kucken",
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "Tëlee kucken",
+          "explanation": "Haaptiddi: fernsehen ass e trennbaart Verb: ich sehe fern, du siehst fern. Et heescht Tëlee kucken. Net mam Substantiv das Fernsehen / Tëlee verwiesselen.",
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Ech kucken den Owend Tëlee."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Kucks du dacks Tëlee?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "D’Kanner kucken am Nomëtteg Tëlee."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "Tëlee kucken",
+              "example": "Ich sehe fern. – Ech kucken Tëlee."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "Tëlee",
+              "example": "Im Fernsehen läuft ein Film. – Op der Tëlee leeft e Film."
+            },
+            {
+              "word": "sehen",
+              "meaning": "gesinn",
+              "example": "Ich sehe einen Film. – Ech gesinn e Film."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "Fir d’Aktivitéit steet fernsehen / Tëlee kucken; fir Medium oder Programm steet das Fernsehen / Tëlee."
+              }
+            ]
+          },
+          "important": {
+            "text": "fernsehen ass e Verb; das Fernsehen ass e Substantiv am Eenzuel."
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fernsehen"
+              ],
+              "purple": [
+                "Tëlee"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sehe",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kucken",
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Siehst",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kucks",
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehen",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kucken",
+                    "Tëlee"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "fernsehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Tëlee kucken"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sehe",
+                    "fern"
+                  ],
+                  "purple": [
+                    "kucken",
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Fernsehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "Tëlee"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "Fernsehen"
+                  ],
+                  "purple": [
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "sehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gesinn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "sehe"
+                  ],
+                  "purple": [
+                    "gesinn"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "Fernsehen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "Tëlee",
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "Tëlee",
+          "explanation": [
+            "Haaptiddi: das Fernsehen ass e Substantiv am Eenzuel fir Tëlee als Medium oder Programm.",
+            "Et kann eng Sendung oder dat allgemengt Medium bezeechnen.",
+            "Et ass e Substantiv, keng Aktivitéit.",
+            "das Fernsehen entsprécht Tëlee.",
+            "Am Däitsche gëtt et nëmmen am Eenzuel gebraucht.",
+            "fernsehen ass dat trennbaart Verb fir Tëlee kucken.",
+            "das Fernsehen huet keng regulär Pluralform."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Wat gëtt et haut op der Tëlee?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Wat kënnt haut op der Tëlee?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "Op der Tëlee leeft e Film."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "D’Tëlee ass haut langweileg."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Ech kucken den Owend Tëlee."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Wat gëtt et op der Tëlee?"
+            }
+          ],
+          "tip": [
+            "Fir d’Aktivitéit steet fernsehen; fir Medium oder Programm steet das Fernsehen.",
+            "das Fernsehen gëtt am Däitschen nëmmen am Eenzuel benotzt."
+          ],
+          "important": [
+            "fernsehen ass trennbaart: sehen + fern.",
+            "das Fernsehen huet keng Pluralform.",
+            "Falsch: die Fernsehen; richteg: das Fernsehen.",
+            "Aktivitéit: fernsehen; Medium: das Fernsehen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Fernsehen"
+              ],
+              "purple": [
+                "Tëlee"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sehe",
+                    "fern"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kucken",
+                    "Tëlee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Fernsehen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Tëlee"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "jung",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "jonk",
+        "study": {
+          "id": "a1-jung",
+          "layout": "standardStudy",
+          "translation": "jonk",
+          "explanation": [
+            "Haaptiddi: jung bedeit jonk am Alter a gëtt fir Mënschen an Déiere gebraucht.",
+            "jung beschreift den Alter; de Géigendeel ass alt.",
+            "Dat däitscht jung ass net dat selwecht wéi neu fir eng nei oder rezent hiergestallt Saach.",
+            "Fir Saachen, déi nei kaaft oder nei hiergestallt sinn, gëtt neu gebraucht.",
+            "jung kann och am iwwerdroene Sënn stoen, zum Beispill jonk Generatioun oder jonkt Koppel.",
+            "Et gëtt och d’Substantiv die Jugend."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist noch jung.",
+              "lv": "Si ass nach jonk."
+            },
+            {
+              "de": "Der Hund ist jung.",
+              "lv": "Den Hond ass jonk."
+            },
+            {
+              "de": "Wir sind noch jung.",
+              "lv": "Mir sinn nach jonk."
+            },
+            {
+              "de": "Er sieht sehr jung aus.",
+              "lv": "Hie gesäit ganz jonk aus."
+            },
+            {
+              "de": "Das ist ein junges Paar.",
+              "lv": "Dat ass eng jonk Koppel."
+            },
+            {
+              "de": "Die junge Frau lächelt.",
+              "lv": "Déi jonk Fra laacht."
+            },
+            {
+              "de": "Mein Bruder ist jünger als ich.",
+              "lv": "Mäi Brudder ass méi jonk wéi ech."
+            }
+          ],
+          "tip": [
+            "jung ass fir den Alter vu Mënschen oder Déieren; fir eng nei Saach gëtt neu gebraucht.",
+            "Géigendeel: jung an alt."
+          ],
+          "important": [
+            "jung beschreift Alter, net d’Neiheet vun enger Saach.",
+            "Fir en neien Telefon, Auto oder Haus: neu, net jung.",
+            "Falsch: Mein Handy ist jung. Richteg: Mein Handy ist neu."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "jung"
+              ],
+              "purple": [
+                "jonk"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jung"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "junges"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "junge"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "jonk"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "jünger"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "méi jonk"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "jung"
+                ]
+              },
+              {
+                "purple": [
+                  "Géigendeel"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "jung"
+                ]
+              },
+              {
+                "purple": [
+                  "Fir"
+                ]
+              },
+              {
+                "purple": [
+                  "Falsch"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "kein",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "keen • keng",
+        "study": {
+          "id": "a1-kein",
+          "layout": "standardStudy",
+          "translation": "keen • keng",
+          "explanation": [
+            "Haaptiddi: kein ass en däitschen Negatiounsartikel, deen e Substantiv verneint.",
+            "kein gëtt wéi ein deklinéiert: kein, keine, keinen an aner Formen; et steet virum Substantiv.",
+            "Bei Persounen entsprécht kein jee no Genus dem lëtzebuergesche keen oder keng.",
+            "Bei Stoff- oder abstrakte Substantiver entsprécht kein jee no Genus an Numerus dem lëtzebuergesche keen oder keng.",
+            "kein verneint e Substantiv; nicht verneint jee no Kontext en anert Element oder de ganze Saz."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe kein Geld.",
+              "lv": "Ech hu keng Suen."
+            },
+            {
+              "de": "Es gibt keine Milch mehr.",
+              "lv": "Et gëtt keng Mëllech méi."
+            },
+            {
+              "de": "Kein Mensch war da.",
+              "lv": "Kee Mënsch war do."
+            },
+            {
+              "de": "Ich habe keine Zeit.",
+              "lv": "Ech hu keng Zäit."
+            },
+            {
+              "de": "Das ist kein Problem.",
+              "lv": "Dat ass kee Problem."
+            },
+            {
+              "de": "Wir haben keine Kinder.",
+              "lv": "Mir hu keng Kanner."
+            }
+          ],
+          "tip": [
+            "kein verneint e Substantiv; nicht huet aner Negatiounsfunktiounen.",
+            "Däitsch Formen: kein, keine, keinen, keiner."
+          ],
+          "important": [
+            "kein + Substantiv ass den däitschen Negatiounsartikel.",
+            "Falsch: Ich habe nicht ein Geld. Richteg: Ich habe kein Geld."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "kein"
+              ],
+              "purple": [
+                "keen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "keng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "keng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "keng"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kein"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "kee"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "keine"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "keng"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "purple": [
+                  "kein"
+                ]
+              },
+              {
+                "purple": [
+                  "Däitsch"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "purple": [
+                  "kein"
+                ]
+              },
+              {
+                "purple": [
+                  "Falsch"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "laufen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "lafen • funktionéieren",
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "lafen • funktionéieren",
+          "explanation": [
+            "Haaptiddi: laufen bedeit bei enger Persoun oder engem Déier lafen; bei engem Film oder enger Maschinn kann et lafen oder funktionéieren bedeiten.",
+            "Bei enger Persoun oder engem Déier beschreift laufen dacks eng séier Beweegung zu Fouss.",
+            "Bei engem Film, enger Maschinn oder engem Programm weist laufen, datt eppes leeft oder funktionéiert.",
+            "Fir Beweegung zu Fouss ass den Haaptkontrast gehen = goen an laufen = lafen."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "Hie leeft ganz séier."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "D’Kanner lafen am Park."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "De Film leeft schonn."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "D’Maschinn leeft gutt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "lafen / lafen oder funktionéieren",
+              "example": "Er läuft schnell."
+            },
+            {
+              "word": "gehen",
+              "meaning": "goen",
+              "example": "Ich gehe nach Hause."
+            },
+            {
+              "word": "fahren",
+              "meaning": "fueren",
+              "example": "Ich fahre mit dem Bus."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "funktionéieren",
+              "example": "Das funktioniert gut."
+            }
+          ],
+          "tip": {
+            "text": "Denk drun: séier zu Fouss → laufen; mat engem Transportmëttel → fahren."
+          },
+          "important": [
+            "laufen bedeit net nëmmen lafen; bei engem Film oder engem Apparat kann et och lafen oder funktionéieren heeschen.",
+            "Ich laufe beschreift eng Beweegung zu Fouss, net eng Faart."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "laufen"
+              ],
+              "purple": [
+                "lafen",
+                "funktionéieren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "leeft"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laufen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "lafen"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "leeft"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "läuft"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "leeft"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "lafen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "goen"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "fueren"
+                  ]
+                },
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "funktionéieren"
+                  ]
+                },
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {
+                "purple": [
+                  "Denk"
+                ]
+              }
+            },
+            "important": [
+              {
+                "purple": [
+                  "laufen"
+                ]
+              },
+              {
+                "purple": [
+                  "Ich laufe"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "Mann",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "Mann",
+        "study": {
+          "id": "a1-mann",
+          "layout": "standardStudy",
+          "translation": "Mann",
+          "explanation": [
+            "Haaptiddi: der Mann kann e Mann als männlech Persoun oder de Mann als Ehepartner bedeiten.",
+            "Wann et allgemeng ëm d’Geschlecht oder eng Persoun geet, ass der Mann eng männlech Persoun.",
+            "Wann et ëm de bestuete Partner geet, bedeit der Mann den Ehepartner: mein Mann = mäi Mann.",
+            "Mat engem Possessivwuert wéi mein, dein oder ihr Mann ass bal ëmmer den Ehepartner gemengt.",
+            "D’Pluralform ass die Männer.",
+            "Och die Frau kann zwou Bedeitungen hunn: Fra als weiblech Persoun a Fra als Ehepartnerin."
+          ],
+          "examples": [
+            {
+              "de": "Er ist ein netter Mann.",
+              "lv": "Hien ass en nette Mann."
+            },
+            {
+              "de": "Das ist mein Mann.",
+              "lv": "Dat ass mäi Mann."
+            },
+            {
+              "de": "Wie viele Männer sind hier?",
+              "lv": "Wéi vill Männer sinn hei?"
+            },
+            {
+              "de": "Mein Mann arbeitet in Berlin.",
+              "lv": "Mäi Mann schafft zu Berlin."
+            },
+            {
+              "de": "Der Mann trägt einen Anzug.",
+              "lv": "De Mann huet e Kostüm un."
+            },
+            {
+              "de": "Ihr Mann ist Arzt.",
+              "lv": "Hire Mann ass Dokter."
+            }
+          ],
+          "tip": [
+            "Mat engem Possessivwuert wéi mein, dein oder ihr Mann ass bal ëmmer den Ehepartner gemengt.",
+            "Ouni Possessivwuert, wéi bei der Mann oder ein Mann, ass meeschtens eng männlech Persoun gemengt."
+          ],
+          "important": [
+            "der Mann kann eng männlech Persoun oder en Ehepartner bedeiten; de Kontext entscheet.",
+            "mein Mann bedeit mäi Mann als Ehepartner.",
+            "D’Pluralform ass die Männer."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "der Mann",
+                "Mann"
+              ],
+              "purple": [
+                "männlech Persoun",
+                "Ehepartner"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "mein Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mäi Mann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Männer"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Männer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Mein Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mäi Mann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Mann"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Ihr Mann"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Hire Mann"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "green": [
+                  "mein",
+                  "dein",
+                  "ihr Mann"
+                ],
+                "purple": [
+                  "Ehepartner"
+                ]
+              },
+              {
+                "blue": [
+                  "der Mann",
+                  "ein Mann"
+                ],
+                "purple": [
+                  "männlech Persoun"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "der Mann"
+                ],
+                "purple": [
+                  "männlech Persoun",
+                  "Ehepartner"
+                ]
+              },
+              {
+                "green": [
+                  "mein Mann"
+                ],
+                "purple": [
+                  "Ehepartner"
+                ]
+              },
+              {
+                "blue": [
+                  "die Männer"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "mit",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "mat",
+        "study": {
+          "id": "a1-mit",
+          "layout": "standardStudy",
+          "translation": "mat",
+          "explanation": [
+            "Haaptiddi: mit bedeit meeschtens mat.",
+            "mit gëtt benotzt, wann eng Persoun zesumme mat engem ass oder eppes mat engem Géigestand mécht.",
+            "Bei Transportmëttel steet mit a Wendunge wéi mit dem Bus, mit dem Zug oder mit dem Auto.",
+            "Um Niveau A1 si mit dem Bus, mit dem Auto a mit dir besonnesch heefeg."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme mit dir.",
+              "lv": "Ech komme mat dir."
+            },
+            {
+              "de": "Ich fahre mit dem Bus.",
+              "lv": "Ech fuere mam Bus."
+            },
+            {
+              "de": "Sie schreibt mit dem Stift.",
+              "lv": "Si schreift mat engem Stëft."
+            },
+            {
+              "de": "Kommst du mit?",
+              "lv": "Kënns du mat?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mit",
+              "meaning": "mat / zesumme mat",
+              "example": "Ich komme mit dir."
+            },
+            {
+              "word": "ohne",
+              "meaning": "ouni",
+              "example": "Ich komme ohne dich."
+            },
+            {
+              "word": "bei",
+              "meaning": "bei / bei engem",
+              "example": "Ich bin bei Anna."
+            },
+            {
+              "word": "zu",
+              "meaning": "bei / op",
+              "example": "Ich gehe zum Arzt."
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: zesumme mat engem oder mat engem Transportmëttel → mit."
+          },
+          "important": [
+            "mit steet am Däitsche mam Dativ: mit dem Bus, mit der Mutter, mit dir.",
+            "Kommst du mit? bedeit „Kënns du mat?“"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "mit",
+                "mit dem Bus",
+                "mit dem Auto",
+                "mit dir"
+              ],
+              "purple": [
+                "mat",
+                "zesumme mat"
+              ],
+              "green": [
+                "Transportmëttel"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "mit dir"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mat dir"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Bus"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mam Bus"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit dem Stift"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mat engem Stëft"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "mat"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "mit"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "mat",
+                    "zesumme mat"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "mit dir"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "ohne"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "ouni"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "ohne dich"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "bei Anna"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zum Arzt"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "mit"
+                ],
+                "purple": [
+                  "zesumme mat",
+                  "Transportmëttel"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "mit"
+                ],
+                "purple": [
+                  "Dativ"
+                ]
+              },
+              {
+                "blue": [
+                  "Kommst du mit"
+                ],
+                "purple": [
+                  "Kënns du mat"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "mögen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "gär hunn",
+        "study": {
+          "id": "a1-moegen",
+          "layout": "standardStudy",
+          "translation": "gär hunn",
+          "explanation": [
+            "Haaptiddi: mögen bedeit meeschtens, datt een eppes gär huet.",
+            "Ich mag... gëtt am Lëtzebuergeschen normalerweis mat Ech hunn ... gär ausgedréckt.",
+            "möchte ass eng aner Form fir en héifleche Wonsch: Ech hätt gär.",
+            "Um Niveau A1 ass Ich mag das eng wichteg Basiswendung."
+          ],
+          "examples": [
+            {
+              "de": "Ich mag Musik.",
+              "lv": "Ech hu Musek gär."
+            },
+            {
+              "de": "Magst du Kaffee?",
+              "lv": "Hues du Kaffi gär?"
+            },
+            {
+              "de": "Sie mag Kinder.",
+              "lv": "Si huet Kanner gär."
+            },
+            {
+              "de": "Ich möchte einen Kaffee.",
+              "lv": "Ech hätt gär e Kaffi."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mögen",
+              "meaning": "gär hunn",
+              "example": "Ich mag Musik."
+            },
+            {
+              "word": "möchte",
+              "meaning": "hätt gär",
+              "example": "Ich möchte Kaffee."
+            },
+            {
+              "word": "wollen",
+              "meaning": "wëllen",
+              "example": "Ich will nach Hause."
+            },
+            {
+              "word": "lieben",
+              "meaning": "léiwen",
+              "example": "Ich liebe dich."
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: Ich mag... = Ech hunn ... gär."
+          },
+          "important": [
+            "Fir den héiflechen Ausdrock „ech hätt gär“ benotzt een am Däitsche meeschtens möchte, net mögen.",
+            "Ich mag Kaffee bedeit „Ech hu Kaffi gär“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "mögen",
+                "Ich mag",
+                "möchte"
+              ],
+              "purple": [
+                "gär huet",
+                "Ech hunn",
+                "Ech hätt gär"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "mag"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "hu Musek gär"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Magst"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Kaffi gär"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mag"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "huet Kanner gär"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "red": [
+                    "möchte"
+                  ]
+                },
+                "lv": {
+                  "red": [
+                    "hätt gär"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "mögen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "gär hunn"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "mag"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "möchte"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "hätt gär"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "möchte"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "wëllen"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "will"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "lieben"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "léiwen"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "liebe"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "Ich mag"
+                ],
+                "purple": [
+                  "Ech hunn",
+                  "gär"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "möchte",
+                  "mögen"
+                ],
+                "purple": [
+                  "ech hätt gär"
+                ]
+              },
+              {
+                "blue": [
+                  "Ich mag Kaffee"
+                ],
+                "purple": [
+                  "Ech hu Kaffi gär"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "morgen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "muer",
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "muer",
+          "explanation": [
+            "Haaptiddi: morgen mat klenge Buschtaf ass en Zäitadverb a bedeit den nächsten Dag: muer.",
+            "An Ich komme morgen bezitt morgen sech op den nächsten Dag.",
+            "der Morgen mat groussem Buschtaf an Artikel ass dogéint e Substantiv a bedeit Moien.",
+            "De grousse Buschtaf am Ufank vu Morgen ist Montag kënnt nëmme vun der Positioun am Saz; hei bedeit Morgen weiderhin muer."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Ech kommen muer."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Bis muer!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Ech kommen muer."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Muer ass Méindeg."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Gudde Moien!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "De Moien ass schéin."
+            }
+          ],
+          "tip": [
+            "morgen mat klenge Buschtaf = muer; der Morgen mat groussem Buschtaf = Moien.",
+            "morgen = muer"
+          ],
+          "important": [
+            "morgen ass en Zäitadverb a bedeit muer.",
+            "der Morgen mat Artikel ass e Substantiv a bedeit Moien.",
+            "Guten Morgen! gëtt ëmmer mat groussem M geschriwwen.",
+            "Falsch: Guten morgen! → Richteg: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "morgen",
+                "der Morgen"
+              ],
+              "purple": [
+                "muer",
+                "Moien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Der Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "morgen",
+                  "der Morgen"
+                ],
+                "purple": [
+                  "muer",
+                  "Moien"
+                ]
+              },
+              {
+                "blue": [
+                  "morgen"
+                ],
+                "purple": [
+                  "muer"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "morgen"
+                ],
+                "purple": [
+                  "muer"
+                ]
+              },
+              {
+                "green": [
+                  "der Morgen"
+                ],
+                "purple": [
+                  "Moien"
+                ]
+              },
+              {
+                "green": [
+                  "Guten Morgen"
+                ]
+              },
+              {
+                "red": [
+                  "Guten morgen"
+                ],
+                "green": [
+                  "Guten Morgen"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "Morgen",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "Moien",
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "Moien",
+          "explanation": [
+            "Haaptiddi: der Morgen ass e Substantiv mat Artikel der a bedeit d’Dageszäit Moien.",
+            "der Morgen gëtt mat groussem M geschriwwen.",
+            "morgen mat klenge Buschtaf ass dogéint en Zäitadverb a bedeit muer.",
+            "Am Ausdrock Guten Morgen! ass Morgen dat Substantiv; a Bis morgen! ass morgen d’Zäitadverb."
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Gudde Moien!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Bis muer!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Ech kommen muer."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Muer ass Méindeg."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Gudde Moien!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "De Moien ass schéin."
+            }
+          ],
+          "tip": [
+            "morgen mat klenge Buschtaf = muer; der Morgen mat groussem Buschtaf = Moien.",
+            "der Morgen = Moien"
+          ],
+          "important": [
+            "morgen mat klenge Buschtaf ass en Zäitadverb a bedeit muer.",
+            "der Morgen mat Artikel a groussem M ass e Substantiv a bedeit Moien.",
+            "Guten Morgen! gëtt ëmmer mat groussem M geschriwwen.",
+            "Falsch: Guten morgen! → Richteg: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "green": [
+                "der Morgen"
+              ],
+              "blue": [
+                "morgen"
+              ],
+              "purple": [
+                "Moien",
+                "muer"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "green": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Muer"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "green": [
+                    "Der Morgen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Moien"
+                  ]
+                }
+              }
+            ],
+            "tip": [
+              {
+                "blue": [
+                  "morgen"
+                ],
+                "green": [
+                  "der Morgen"
+                ],
+                "purple": [
+                  "muer",
+                  "Moien"
+                ]
+              },
+              {
+                "green": [
+                  "der Morgen"
+                ],
+                "purple": [
+                  "Moien"
+                ]
+              }
+            ],
+            "important": [
+              {
+                "blue": [
+                  "morgen"
+                ],
+                "purple": [
+                  "muer"
+                ]
+              },
+              {
+                "green": [
+                  "der Morgen"
+                ],
+                "purple": [
+                  "Moien"
+                ]
+              },
+              {
+                "green": [
+                  "Guten Morgen"
+                ]
+              },
+              {
+                "red": [
+                  "Guten morgen"
+                ],
+                "green": [
+                  "Guten Morgen"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
       "canonical_card_object_id": "nach",
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "op • no",
+        "study": {
+          "id": "a1-nach",
+          "layout": "standardStudy",
+          "translation": "op • no",
+          "explanation": [
+            "Haaptiddi: nach bedeit bei Uertschaften a Länner ouni Artikel meeschtens op; bei Zäit oder Reiefolleg bedeit et no.",
+            "Mat Stied a Länner ouni Artikel gëtt nach dacks fir eng Richtung benotzt.",
+            "Bei engem Zäitpunkt oder enger Reiefolleg bedeit nach no; bei der Auerzäit entsprécht et am Lëtzebuergeschen dacks op.",
+            "An der fester Wendung nach Hause bedeit et heem."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Ech fueren op Berlin."
+            },
+            {
+              "de": "Wir gehen nach Hause.",
+              "lv": "Mir ginn heem."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Nom Iesse gi mir spadséieren."
+            },
+            {
+              "de": "Es ist zehn nach acht.",
+              "lv": "Et ass zéng op aacht."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nach",
+              "meaning": "op / no",
+              "example": "Ich fahre nach Berlin."
+            },
+            {
+              "word": "zu",
+              "meaning": "bei / op",
+              "example": "Ich gehe zum Arzt."
+            },
+            {
+              "word": "in",
+              "meaning": "an / op eng Plaz mat Artikel",
+              "example": "Ich gehe in die Schule."
+            },
+            {
+              "word": "vor",
+              "meaning": "virun",
+              "example": "Vor dem Essen wasche ich die Hände."
+            }
+          ],
+          "tip": {
+            "text": "Erënner dech: nach Hause; nach Berlin; nach dem Essen."
+          },
+          "important": [
+            "nach gëtt am Däitschen net mat all Uert benotzt.",
+            "Fir „an d’Schoul“ seet een am Däitschen normalerweis in die Schule, net nach Schule."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "nach",
+                "nach Hause"
+              ],
+              "purple": [
+                "op",
+                "no",
+                "heem"
+              ],
+              "green": [
+                "Stied",
+                "Länner",
+                "Zäit"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "nach"
+                  ],
+                  "green": [
+                    "Berlin"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ],
+                  "green": [
+                    "Berlin"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nach Hause"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "heem"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nach"
+                  ],
+                  "yellow": [
+                    "Essen"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "Nom"
+                  ],
+                  "yellow": [
+                    "Iesse"
+                  ]
+                }
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nach"
+                  ]
+                },
+                "lv": {
+                  "purple": [
+                    "op"
+                  ]
+                }
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "nach"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "op",
+                    "no"
+                  ]
+                },
+                "example": {
+                  "blue": [
+                    "nach"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "bei",
+                    "op"
+                  ]
+                },
+                "example": {
+                  "yellow": [
+                    "zum Arzt"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "an"
+                  ]
+                },
+                "example": {
+                  "green": [
+                    "in die Schule"
+                  ]
+                }
+              },
+              {
+                "word": {
+                  "green": [
+                    "vor"
+                  ]
+                },
+                "meaning": {
+                  "purple": [
+                    "virun"
+                  ]
+                },
+                "example": {
+                  "red": [
+                    "Vor"
+                  ]
+                }
+              }
+            ],
+            "tip": {
+              "left": {
+                "blue": [
+                  "nach Hause",
+                  "nach Berlin",
+                  "nach dem Essen"
+                ]
+              }
+            },
+            "important": [
+              {
+                "blue": [
+                  "nach"
+                ],
+                "red": [
+                  "net mat all Uert"
+                ]
+              },
+              {
+                "green": [
+                  "in die Schule"
+                ],
+                "red": [
+                  "nach Schule"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "lb",
@@ -11036,6 +14663,15 @@
       ],
       "source_sha256": "06681553aff4662d4422e270e279fabc16167cb40dc0b974918b8275961a50ae",
       "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_061_080_FULL_CARD_COPY_PASTE_READY"
+    },
+    {
+      "applied_at": "2026-09-19T08:43:07.584Z",
+      "slice": [
+        80,
+        100
+      ],
+      "source_sha256": "1e2c1eee89f377880a32202079f4abf4e12e1230528bc9671b9bf5189caa605f",
+      "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_081_100_FULL_CARD_COPY_PASTE_READY"
     }
   ],
   "gala_correction_1": {

@@ -1,0 +1,20 @@
+A1 LRB — kartīšu 081–100 OWNER COPY/PASTE (piemērots)
+
+Klasifikācija: A1_LRB_CONSOLIDATION_OWNER_CARDS_081_100_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT
+Sākuma HEAD (ref): 5220cc44fa7b902cc59f9ffad08cdff70c34aa83
+OWNER JSON SHA-256: 1e2c1eee89f377880a32202079f4abf4e12e1230528bc9671b9bf5189caa605f
+Git HEAD: ce6dbd27720473b4e322a487b15bb9798fc67e6c
+
+Vārti:
+- applied_exactly: 20/20
+- pending: 0
+- empty target fields: 0
+- wrong-language residue: 0
+- semantic/source-fidelity violations: 0
+- DE examples index alignment: 0
+- duplicate/degenerate pairs: 0
+- internal contradictions: 0
+- full composite completeness: PASS
+- schema/sectionAccents failures: 0
+
+Nav GALA PASS; nav merge/apply/production.
