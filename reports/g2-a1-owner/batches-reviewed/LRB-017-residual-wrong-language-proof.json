@@ -1,0 +1,351 @@
+{
+  "batch_id": "LRB-017",
+  "classification": "LRB_017_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "pdf_reaudit": true,
+  "post_repair_merge": true,
+  "recalculated_from_production": true,
+  "pass": true,
+  "row_count": 50,
+  "labot": 49,
+  "nelabot": 1,
+  "pending": 0,
+  "gates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "duplicate_meanings": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "de_target_alignment_violations": 0,
+    "degenerate_example_pairs": 0,
+    "internal_card_contradictions": 0,
+    "stale_highlights": 0,
+    "target_language_quality_errors": 0,
+    "full_composite_completeness": "PASS",
+    "target_language_grammar": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "productionSource": "data/fi/a1.js",
+  "nelabot_cards": [
+    "Wasser"
+  ],
+  "composite_repairs": [
+    "vom",
+    "vor",
+    "was",
+    "wenn",
+    "wer",
+    "werden",
+    "Wetter",
+    "wie",
+    "Zeit",
+    "zu",
+    "Zug"
+  ],
+  "row_audit": [
+    {
+      "card": "voll",
+      "lv_source": "pilns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vom",
+      "lv_source": "no",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "von",
+      "lv_source": "no",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "vor",
+      "lv_source": "pirms • priekšā",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Vorname",
+      "lv_source": "vārds",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Wald",
+      "lv_source": "mežs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Wand",
+      "lv_source": "siena",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "wann",
+      "lv_source": "kad",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "warm",
+      "lv_source": "silts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "warten",
+      "lv_source": "gaidīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "warum",
+      "lv_source": "kāpēc",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "was",
+      "lv_source": "kas • ko",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "waschen",
+      "lv_source": "mazgāt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Wasser",
+      "lv_source": "ūdens",
+      "decision": "NELABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Weg",
+      "lv_source": "ceļš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Weihnachten",
+      "lv_source": "Ziemassvētki",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Wein",
+      "lv_source": "vīns",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "weinen",
+      "lv_source": "raudāt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "weiß",
+      "lv_source": "balts",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "welcher",
+      "lv_source": "kurš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Welt",
+      "lv_source": "pasaule",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "wenig",
+      "lv_source": "maz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "wenn",
+      "lv_source": "ja • kad",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "wer",
+      "lv_source": "kas • kurš",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "werden",
+      "lv_source": "kļūt",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Wetter",
+      "lv_source": "laiks (laikapstākļi)",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "wichtig",
+      "lv_source": "svarīgs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "wie viel",
+      "lv_source": "cik",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "wie",
+      "lv_source": "kā • cik",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "wieder",
+      "lv_source": "atkal",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Wind",
+      "lv_source": "vējš",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Wochenende",
+      "lv_source": "nedēļas nogale",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Zeit",
+      "lv_source": "laiks (brīdis / laika posms)",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Zigarette",
+      "lv_source": "cigarete",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Zimmer",
+      "lv_source": "istaba",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Zitrone",
+      "lv_source": "citrons",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Zoo",
+      "lv_source": "zooloģiskais dārzs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zu viel",
+      "lv_source": "par daudz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zu",
+      "lv_source": "uz • pie",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "Zucker",
+      "lv_source": "cukurs",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zuerst",
+      "lv_source": "vispirms",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "Zug",
+      "lv_source": "vilciens",
+      "decision": "LABOT",
+      "segment_fidelity": "n/a"
+    },
+    {
+      "card": "zumachen",
+      "lv_source": "aiztaisīt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zurück",
+      "lv_source": "atpakaļ",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zusammen",
+      "lv_source": "kopā",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zwanzig",
+      "lv_source": "divdesmit",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zwanzigste",
+      "lv_source": "divdesmitais",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zwei",
+      "lv_source": "divi",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zweihundert",
+      "lv_source": "divsimt",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    },
+    {
+      "card": "zweimal",
+      "lv_source": "divreiz",
+      "decision": "LABOT",
+      "segment_fidelity": "1/1"
+    }
+  ],
+  "failures": [],
+  "verdict": "LRB_017_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "updatedAt": "2026-09-12T14:38:54.314Z"
+}
