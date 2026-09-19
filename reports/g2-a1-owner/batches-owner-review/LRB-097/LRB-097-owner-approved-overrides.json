@@ -1,0 +1,4955 @@
+{
+  "batchId": "LRB-097",
+  "sourceCommit": "2a120b534feb961cfd583990c5f0aa6fea0d31d7",
+  "reviewer": "OWNER_GPT_FULL_50_50",
+  "direction": "DESCENDING",
+  "reservedFor": "PC2",
+  "cards": [
+    {
+      "auditId": "LRB097-0001",
+      "cardId": "einmal|idx:700",
+      "status": "LABOT",
+      "reason": "einmal: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "једном • некада",
+        "study": {
+          "id": "a1-einmal",
+          "layout": "standardStudy",
+          "translation": "једном • некада",
+          "explanation": [
+            "Главна идеја: einmal означава да се нешто догодило једанпут или некада у прошлости.",
+            "Контекст показује да ли је реч о тачно једном догађају или неодређеном прошлом времену."
+          ],
+          "examples": [
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Једном сам био у Берлину."
+            },
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "Једном сам био у Берлину."
+            }
+          ],
+          "tip": [
+            "einmal = једном или некада.",
+            "Користи einmal за један догађај или неодређено време у прошлости."
+          ],
+          "important": [
+            "einmal може значити једном или некада у прошлости."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0002",
+      "cardId": "essen|idx:690",
+      "status": "LABOT",
+      "reason": "essen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "јести",
+        "study": {
+          "id": "a1-essen",
+          "layout": "standardStudy",
+          "translation": "јести",
+          "explanation": [
+            "Главна идеја: essen са малим почетним словом је глагол и значи јести.",
+            "Именица das Essen са великим словом значи храна или оброк."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Pizza.",
+              "lv": "Волим да једем пицу."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Шта желите да једете?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Једемо у дванаест сати."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Храна је готова."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Храна је веома укусна."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Храна је укусна."
+            }
+          ],
+          "tip": [
+            "essen = јести; das Essen = храна или оброк.",
+            "Обрати пажњу на велико слово и члан."
+          ],
+          "important": [
+            "essen је глагол без члана.",
+            "das Essen је именица.",
+            "Радња: essen. Храна или оброк: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0003",
+      "cardId": "Essen|idx:691",
+      "status": "LABOT",
+      "reason": "Essen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "храна • оброк",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "храна • оброк",
+          "explanation": [
+            "Главна идеја: das Essen је именица и значи храна или оброк.",
+            "Глагол essen са малим почетним словом значи јести."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Храна је укусна."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Шта желите да једете?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Једемо у дванаест сати."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Храна је готова."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Храна је веома укусна."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Храна је укусна."
+            }
+          ],
+          "tip": [
+            "das Essen = храна/оброк; essen = јести.",
+            "Обрати пажњу на велико слово и члан."
+          ],
+          "important": [
+            "essen је глагол без члана.",
+            "das Essen је именица.",
+            "Радња: essen. Храна или оброк: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0004",
+      "cardId": "euch|idx:170",
+      "status": "LABOT",
+      "reason": "euch: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "вас • вам",
+        "study": {
+          "id": "a1-euch",
+          "layout": "standardStudy",
+          "translation": "вас • вам",
+          "explanation": "Главна идеја: euch је неформални облик другог лица множине у акузативу или дативу и одговара облицима вас или вам.",
+          "examples": [
+            {
+              "de": "Ich sehe euch.",
+              "lv": "Видим вас."
+            },
+            {
+              "de": "Ich helfe euch.",
+              "lv": "Помажем вам."
+            },
+            {
+              "de": "Ich gebe euch das Buch.",
+              "lv": "Дајем вам књигу."
+            },
+            {
+              "de": "Ich danke euch.",
+              "lv": "Захваљујем вам."
+            },
+            {
+              "de": "Ihr erinnert euch.",
+              "lv": "Сећате се."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ihr",
+              "meaning": "ви",
+              "example": "Ihr seid freundlich. – Ви сте љубазни."
+            },
+            {
+              "word": "euch",
+              "meaning": "вас / вам",
+              "example": "Ich helfe euch. – Помажем вам."
+            },
+            {
+              "word": "euer",
+              "meaning": "ваш / ваша / ваше",
+              "example": "Das ist euer Haus. – То је ваша кућа."
+            }
+          ],
+          "tip": {
+            "text": "euch се користи као објекат: Ich sehe euch / Ich helfe euch."
+          },
+          "info": [
+            "ihr = ви (субјекат)",
+            "euch = вас (акузатив) / вам (датив)",
+            "euer = ваш (присвојни облик)"
+          ],
+          "accents": {
+            "blue": [
+              "ihr"
+            ],
+            "yellow": [
+              "euch"
+            ],
+            "green": [
+              "euer"
+            ]
+          },
+          "sectionAccents": {
+            "explanation": {},
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {}
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0005",
+      "cardId": "fahren|idx:172",
+      "status": "LABOT",
+      "reason": "fahren: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "возити се • возити",
+        "study": {
+          "id": "a1-fahren",
+          "layout": "standardStudy",
+          "translation": "возити се • возити",
+          "explanation": [
+            "Главна идеја: fahren значи путовати или возити превозно средство, а са особом као објектом може значити одвести или повести некога.",
+            "За кретање пешке обично се користе gehen или laufen."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Путујем у Берлин."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "Возим се аутомобилом."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "Возим ћерку у школу."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "Возим те кући."
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "Сутра путујемо у Минхен."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "путовати / возити се превозним средством",
+              "example": "Ich fahre mit dem Bus. – Возим се аутобусом."
+            },
+            {
+              "word": "gehen",
+              "meaning": "ићи пешке",
+              "example": "Ich gehe nach Hause. – Идем кући."
+            },
+            {
+              "word": "laufen",
+              "meaning": "трчати / ићи",
+              "example": "Er läuft schnell. – Он брзо трчи."
+            },
+            {
+              "word": "bringen",
+              "meaning": "донети / однети",
+              "example": "Ich bringe das Buch. – Доносим књигу."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "повести са собом",
+              "example": "Ich nehme dich mit. – Водим те са собом."
+            }
+          ],
+          "tip": {
+            "text": "Превозно средство → fahren; пешке → gehen."
+          },
+          "important": {
+            "text": "fahren не значи само возити се.",
+            "example": "Са особом као објектом може значити возити или одвести некога."
+          },
+          "accents": {
+            "blue": [
+              "fahren",
+              "fahre"
+            ],
+            "purple": [
+              "возити се",
+              "возити",
+              "путовати",
+              "одвести"
+            ],
+            "green": [
+              "превозно средство",
+              "аутомобил",
+              "аутобус",
+              "воз",
+              "бицикл"
+            ],
+            "yellow": [
+              "gehen",
+              "laufen"
+            ],
+            "red": [
+              "bringen",
+              "mitnehmen"
+            ]
+          },
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": {}
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0006",
+      "cardId": "Ferien|idx:694",
+      "status": "LABOT",
+      "reason": "Ferien: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "школски распуст",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "школски распуст",
+          "explanation": [
+            "Главна идеја: die Ferien означава школски или студентски распуст и у немачком се употребљава само у множини.",
+            "За одсуство са посла користи се der Urlaub."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "За време распуста путујемо на море."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "За време распуста имам много времена."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Шта радите за време распуста?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "Школа је затворена за време распуста."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "За време распуста путујемо на море."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "за време школског распуста"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "школски/студентски распуст; само множина",
+              "example": "In den Ferien fahren wir weg. – За време распуста путујемо."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "одмор са посла; једнина",
+              "example": "Ich habe zwei Wochen Urlaub. – Имам две недеље одмора."
+            }
+          ],
+          "tip": [
+            "die Ferien се користи само у множини.",
+            "Користи die Ferien за школски или студентски распуст."
+          ],
+          "important": [
+            "Каже се in den Ferien, јер је Ferien множина.",
+            "Нетачно: in der Ferien → тачно: in den Ferien.",
+            "Школа: die Ferien; посао: der Urlaub."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0007",
+      "cardId": "fernsehen|idx:687",
+      "status": "LABOT",
+      "reason": "fernsehen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "гледати телевизију",
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "гледати телевизију",
+          "explanation": "Главна идеја: fernsehen је раздвојив глагол: ich sehe fern, du siehst fern. Значи гледати телевизију и не треба га мешати са именицом das Fernsehen.",
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Вечерас гледам телевизију."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Гледаш ли често телевизију?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "Деца поподне гледају телевизију."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "гледати телевизију",
+              "example": "Ich sehe fern. – Гледам телевизију."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "телевизија као медиј",
+              "example": "Im Fernsehen läuft ein Film. – На телевизији се приказује филм."
+            },
+            {
+              "word": "sehen",
+              "meaning": "видети",
+              "example": "Ich sehe einen Film. – Видим филм."
+            }
+          ],
+          "tip": {
+            "leftBlocks": [
+              {
+                "text": "За радњу користи fernsehen (ich sehe fern), а за медиј или програм das Fernsehen."
+              }
+            ]
+          },
+          "important": {
+            "text": "fernsehen је глагол; das Fernsehen је именица која се користи само у једнини."
+          },
+          "sectionAccents": {
+            "explanation": {},
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": {}
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0008",
+      "cardId": "Fernsehen|idx:688",
+      "status": "LABOT",
+      "reason": "Fernsehen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "телевизија",
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "телевизија",
+          "explanation": [
+            "Главна идеја: das Fernsehen је именица која означава телевизију као медиј или програм и користи се само у једнини.",
+            "fernsehen је раздвојив глагол: ich sehe fern."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Шта има данас на телевизији?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Шта има данас на телевизији?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "На телевизији се приказује филм."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "Телевизијски програм је данас досадан."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Вечерас гледам телевизију."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Шта има на телевизији?"
+            }
+          ],
+          "tip": [
+            "За радњу користи fernsehen; за медиј или програм das Fernsehen.",
+            "das Fernsehen је именица само у једнини."
+          ],
+          "important": [
+            "fernsehen се раздваја: sehen + fern.",
+            "das Fernsehen нема множину.",
+            "Нетачно: die Fernsehen → тачно: das Fernsehen.",
+            "Радња: fernsehen → ich sehe fern."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0009",
+      "cardId": "finden|idx:187",
+      "status": "LABOT",
+      "reason": "finden: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "наћи • сматрати",
+        "study": {
+          "id": "a1-finden",
+          "layout": "standardStudy",
+          "translation": "наћи • сматрати",
+          "explanation": [
+            "Главна идеја: finden најчешће значи наћи, али у исказивању мишљења значи сматрати или мислити.",
+            "Контекст показује да ли је реч о проналажењу предмета или о оцени."
+          ],
+          "examples": [
+            {
+              "de": "Ich finde meinen Schlüssel.",
+              "lv": "Налазим свој кључ."
+            },
+            {
+              "de": "Ich finde das gut.",
+              "lv": "Мислим да је то добро."
+            },
+            {
+              "de": "Wie findest du den Film?",
+              "lv": "Шта мислиш о филму?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "finden",
+              "meaning": "наћи / сматрати",
+              "example": "Ich finde das gut. – Мислим да је то добро."
+            }
+          ],
+          "tip": {
+            "text": "Изгубљена ствар → finden; мишљење → ich finde ..."
+          },
+          "important": [
+            "finden не значи само наћи.",
+            "Ich finde das gut значи „мислим да је то добро“."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0010",
+      "cardId": "Frau|idx:198",
+      "status": "LABOT",
+      "reason": "Frau: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "жена • супруга",
+        "study": {
+          "id": "a1-frau",
+          "layout": "standardStudy",
+          "translation": "жена • супруга",
+          "explanation": [
+            "Главна идеја: die Frau може значити жена или супруга, зависно од контекста.",
+            "С присвојним обликом meine/deine/seine Frau готово увек значи супруга.",
+            "Множина је die Frauen."
+          ],
+          "examples": [
+            {
+              "de": "Sie ist eine nette Frau.",
+              "lv": "Она је љубазна жена."
+            },
+            {
+              "de": "Das ist meine Frau.",
+              "lv": "Ово је моја супруга."
+            },
+            {
+              "de": "Wie viele Frauen sind hier?",
+              "lv": "Колико је жена овде?"
+            },
+            {
+              "de": "Meine Frau arbeitet in Berlin.",
+              "lv": "Моја супруга ради у Берлину."
+            },
+            {
+              "de": "Die Frau trägt ein Kleid.",
+              "lv": "Жена носи хаљину."
+            },
+            {
+              "de": "Seine Frau ist Ärztin.",
+              "lv": "Његова супруга је лекарка."
+            }
+          ],
+          "tip": [
+            "С присвојним обликом Frau обично значи супруга.",
+            "Без присвојног облика обично значи жена."
+          ],
+          "important": [
+            "die Frau = жена или супруга, према контексту.",
+            "meine Frau = моја супруга.",
+            "Множина: die Frauen."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0011",
+      "cardId": "für|idx:216",
+      "status": "LABOT",
+      "reason": "für: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "за",
+        "study": {
+          "id": "a1-fuer",
+          "layout": "standardStudy",
+          "translation": "за",
+          "explanation": [
+            "Главна идеја: für је предлог који увек захтева акузатив и најчешће значи за.",
+            "Користи се за примаоца, сврху, разлог, накнаду или цену."
+          ],
+          "examples": [
+            {
+              "de": "Das ist für dich.",
+              "lv": "Ово је за тебе."
+            },
+            {
+              "de": "Danke für die Hilfe.",
+              "lv": "Хвала на помоћи."
+            },
+            {
+              "de": "Ich kaufe ein Geschenk für meine Mutter.",
+              "lv": "Купујем поклон за своју мајку."
+            },
+            {
+              "de": "Was bezahlst du für das Auto?",
+              "lv": "Колико плаћаш за аутомобил?"
+            },
+            {
+              "de": "Das Buch ist für Kinder.",
+              "lv": "Књига је за децу."
+            },
+            {
+              "de": "Für heute ist das genug.",
+              "lv": "За данас је то довољно."
+            }
+          ],
+          "tip": [
+            "für увек захтева акузатив.",
+            "Прималац, сврха, разлог или цена → für."
+          ],
+          "important": [
+            "für + Akkusativ: für mich, für dich, für das Kind.",
+            "danke für и bezahlen für природно се преводе према контексту."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0012",
+      "cardId": "Fußball|idx:218",
+      "status": "LABOT",
+      "reason": "Fußball: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "фудбал",
+        "study": {
+          "id": "a1-fussball-study",
+          "layout": "standardStudy",
+          "translation": "фудбал",
+          "explanation": [
+            "Главна идеја: Fußball најчешће означава фудбал као спорт.",
+            "С чланом и као бројива именица der Fußball може означавати фудбалску лопту.",
+            "Множина die Fußbälle значи фудбалске лопте."
+          ],
+          "examples": [
+            {
+              "de": "Ich spiele Fußball.",
+              "lv": "Играм фудбал."
+            },
+            {
+              "de": "Der Fußball liegt im Garten.",
+              "lv": "Фудбалска лопта је у башти."
+            },
+            {
+              "de": "Wir kaufen zwei Fußbälle.",
+              "lv": "Купујемо две фудбалске лопте."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Fußball",
+              "meaning": "фудбал као спорт",
+              "example": "Ich spiele Fußball. – Играм фудбал."
+            },
+            {
+              "word": "der Fußball",
+              "meaning": "фудбалска лопта",
+              "example": "Der Fußball ist neu. – Фудбалска лопта је нова."
+            }
+          ],
+          "tip": [
+            "Без члана Fußball обично значи спорт.",
+            "ein Fußball / die Fußbälle означава лопту / лопте."
+          ],
+          "important": [
+            "die Fußbälle значи фудбалске лопте.",
+            "Спорт Fußball обично се употребљава у једнини."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0013",
+      "cardId": "ganz|idx:219",
+      "status": "LABOT",
+      "reason": "ganz: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "цео • сасвим",
+        "study": {
+          "id": "a1-ganz-study",
+          "layout": "standardStudy",
+          "translation": "цео • сасвим",
+          "explanation": [
+            "Главна идеја: ganz уз именицу значи цео или сав, а испред придева и прилога може значити сасвим или прилично.",
+            "ganz није исто што и заменица alles."
+          ],
+          "examples": [
+            {
+              "de": "Ich arbeite den ganzen Tag.",
+              "lv": "Радим цео дан."
+            },
+            {
+              "de": "Das ganze Haus ist sauber.",
+              "lv": "Цела кућа је чиста."
+            },
+            {
+              "de": "Das ist ganz sicher.",
+              "lv": "То је сасвим сигурно."
+            },
+            {
+              "de": "Das Essen ist ganz gut.",
+              "lv": "Храна је прилично добра."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ganz",
+              "meaning": "цео / сав / сасвим",
+              "example": "der ganze Tag – цео дан"
+            },
+            {
+              "word": "alles",
+              "meaning": "све",
+              "example": "Alles ist gut. – Све је у реду."
+            }
+          ],
+          "tip": [
+            "Уз именицу ganz често значи цео или сав.",
+            "Испред придева често значи сасвим или прилично."
+          ],
+          "important": [
+            "der ganze Tag = цео дан.",
+            "alles = све као заменица."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0014",
+      "cardId": "geben|idx:223",
+      "status": "LABOT",
+      "reason": "geben: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "дати",
+        "study": {
+          "id": "a1-geben",
+          "layout": "standardStudy",
+          "translation": "дати",
+          "explanation": [
+            "Главна идеја: geben значи дати нешто другој особи.",
+            "Супротан смер изражава nehmen, а bekommen значи примити."
+          ],
+          "examples": [
+            {
+              "de": "Gib mir bitte das Buch.",
+              "lv": "Дај ми књигу, молим те."
+            },
+            {
+              "de": "Ich gebe dir meine Nummer.",
+              "lv": "Дајем ти свој број."
+            },
+            {
+              "de": "Ich nehme das Buch.",
+              "lv": "Узимам књигу."
+            },
+            {
+              "de": "Ich bekomme ein Geschenk.",
+              "lv": "Добијам поклон."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "geben",
+              "meaning": "дати",
+              "example": "Gib mir das Buch. – Дај ми књигу."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "узети",
+              "example": "Ich nehme das Buch. – Узимам књигу."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "добити / примити",
+              "example": "Ich bekomme ein Geschenk. – Добијам поклон."
+            },
+            {
+              "word": "bringen",
+              "meaning": "донети / доставити",
+              "example": "Ich bringe dir das Buch. – Доносим ти књигу."
+            }
+          ],
+          "tip": {
+            "text": "Дати некоме → geben; узети за себе → nehmen."
+          },
+          "important": [
+            "geben и nehmen означавају супротне смерове.",
+            "bekommen значи примити, а не дати."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0015",
+      "cardId": "gefallen|idx:225",
+      "status": "LABOT",
+      "reason": "gefallen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "допадати се",
+        "study": {
+          "id": "a1-gefallen-study",
+          "layout": "standardStudy",
+          "translation": "допадати се",
+          "explanation": [
+            "Главна идеја: gefallen значи допадати се, али је ствар која се допада субјекат немачке реченице.",
+            "Особа којој се нешто допада стоји у дативу: mir, dir, ihm, ihr, uns, euch, ihnen."
+          ],
+          "examples": [
+            {
+              "de": "Das gefällt mir.",
+              "lv": "То ми се допада."
+            },
+            {
+              "de": "Gefällt dir das Kleid?",
+              "lv": "Да ли ти се допада хаљина?"
+            },
+            {
+              "de": "Der Film gefällt uns.",
+              "lv": "Филм нам се допада."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "gefallen",
+              "meaning": "допадати се; особа у дативу",
+              "example": "Das gefällt mir. – То ми се допада."
+            },
+            {
+              "word": "mögen",
+              "meaning": "волети / свиђати се",
+              "example": "Ich mag das. – То волим."
+            }
+          ],
+          "tip": [
+            "Запамти конструкцију: Das gefällt mir.",
+            "Не пресликавај дословно ред речи из српског."
+          ],
+          "important": [
+            "gefallen се користи с дативом: mir, dir, ihm, ihr.",
+            "Das gefällt mir = то ми се допада."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0016",
+      "cardId": "Gemüse|idx:692",
+      "status": "LABOT",
+      "reason": "Gemüse: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "поврће",
+        "study": {
+          "id": "a1-gemuese",
+          "layout": "standardStudy",
+          "translation": "поврће",
+          "explanation": [
+            "Главна идеја: das Gemüse означава поврће уопштено и у немачком нема редовну множину *die Gemüse.",
+            "То је именица средњег рода која се у овом значењу употребљава у једнини."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Волим да једем поврће."
+            },
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "Волим да једем поврће."
+            },
+            {
+              "de": "Das Gemüse ist frisch.",
+              "lv": "Поврће је свеже."
+            },
+            {
+              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "lv": "Купујемо поврће на пијаци."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Волим воће и поврће."
+            },
+            {
+              "de": "Ich esse Gemüse.",
+              "lv": "Једем поврће."
+            }
+          ],
+          "tip": [
+            "das Gemüse = поврће.",
+            "Користи једнину за поврће као целину."
+          ],
+          "important": [
+            "Нетачно: die Gemüse → тачно: das Gemüse.",
+            "das Gemüse = поврће уопштено."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0017",
+      "cardId": "Geschichte|idx:233",
+      "status": "LABOT",
+      "reason": "Geschichte: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "прича • историја",
+        "study": {
+          "id": "a1-geschichte-study",
+          "layout": "standardStudy",
+          "translation": "прича • историја",
+          "explanation": [
+            "Главна идеја: Geschichte може значити прича или историја.",
+            "Множина die Geschichten обично означава приче, а као школски предмет Geschichte значи историја."
+          ],
+          "examples": [
+            {
+              "de": "Er erzählt eine Geschichte.",
+              "lv": "Он прича причу."
+            },
+            {
+              "de": "Ich lerne Geschichte.",
+              "lv": "Учим историју."
+            },
+            {
+              "de": "Das ist die Geschichte Deutschlands.",
+              "lv": "То је историја Немачке."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "eine Geschichte",
+              "meaning": "прича",
+              "example": "eine interessante Geschichte – занимљива прича"
+            },
+            {
+              "word": "Geschichte",
+              "meaning": "историја",
+              "example": "Geschichte lernen – учити историју"
+            }
+          ],
+          "tip": [
+            "С чланом eine и у множини обично значи прича.",
+            "Као предмет без члана значи историја."
+          ],
+          "important": [
+            "die Geschichten = приче.",
+            "Geschichte у значењу историје обично је у једнини."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0018",
+      "cardId": "Geschwister|idx:234",
+      "status": "LABOT",
+      "reason": "Geschwister: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "браћа и сестре",
+        "study": {
+          "id": "a1-geschwister-study",
+          "layout": "standardStudy",
+          "translation": "браћа и сестре",
+          "explanation": [
+            "Главна идеја: Geschwister означава браћу и сестре заједно и обично се употребљава само у множини.",
+            "За једну особу користи Bruder или Schwester."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe zwei Geschwister.",
+              "lv": "Имам двоје браће и сестара."
+            },
+            {
+              "de": "Meine Geschwister wohnen in Berlin.",
+              "lv": "Моја браћа и сестре живе у Берлину."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Geschwister",
+              "meaning": "браћа и сестре",
+              "example": "Meine Geschwister – моја браћа и сестре"
+            },
+            {
+              "word": "Bruder",
+              "meaning": "брат",
+              "example": "mein Bruder – мој брат"
+            },
+            {
+              "word": "Schwester",
+              "meaning": "сестра",
+              "example": "meine Schwester – моја сестра"
+            }
+          ],
+          "tip": [
+            "Geschwister се обично употребљава у множини.",
+            "За једну особу изабери Bruder или Schwester."
+          ],
+          "important": [
+            "Не користи ein Geschwister као уобичајену А1 једнину."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0019",
+      "cardId": "gleich|idx:243",
+      "status": "LABOT",
+      "reason": "gleich: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "одмах • исти",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "одмах • исти",
+          "explanation": [
+            "Главна идеја: gleich у временском контексту значи одмах или ускоро, а у поређењу исти или једнак.",
+            "Контекст показује које је значење потребно."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Одмах долазим."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Имамо исту боју."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Храна ће ускоро бити готова."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Оба пута су једнако дуга."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Видимо се ускоро!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Исте су висине."
+            }
+          ],
+          "tip": [
+            "Време → одмах/ускоро.",
+            "Поређење → исти/једнак."
+          ],
+          "important": [
+            "gleich = одмах/ускоро или исти/једнак.",
+            "Bis gleich! је уобичајен поздрав: видимо се ускоро!"
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0020",
+      "cardId": "groß|idx:250",
+      "status": "LABOT",
+      "reason": "groß: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "велик • висок",
+        "study": {
+          "id": "a1-gross-study",
+          "layout": "standardStudy",
+          "translation": "велик • висок",
+          "explanation": [
+            "Главна идеја: groß значи велик, а за висину особе обично висок.",
+            "Описује величину предмета, места или града; за човека не значи широк или дебео."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "Кућа је велика."
+            },
+            {
+              "de": "Berlin ist eine große Stadt.",
+              "lv": "Берлин је велики град."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "Он је висок."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "Соба је велика."
+            }
+          ],
+          "tip": [
+            "За предмет или место groß = велик.",
+            "За човека groß = висок."
+          ],
+          "important": [
+            "Er ist groß значи: он је висок.",
+            "За предмет или место groß обично значи велик."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0021",
+      "cardId": "Großeltern|idx:251",
+      "status": "LABOT",
+      "reason": "Großeltern: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "баке и деке",
+        "study": {
+          "id": "a1-grosseltern-study",
+          "layout": "standardStudy",
+          "translation": "баке и деке",
+          "explanation": [
+            "Главна идеја: Großeltern означава баку и деку заједно и употребљава се у множини.",
+            "За једну особу користи Großmutter или Großvater."
+          ],
+          "examples": [
+            {
+              "de": "Meine Großeltern wohnen auf dem Land.",
+              "lv": "Моје баке и деке живе на селу."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Посећујем своје баке и деке."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "Großeltern",
+              "meaning": "баке и деке",
+              "example": "meine Großeltern – моје баке и деке"
+            },
+            {
+              "word": "Großmutter",
+              "meaning": "бака",
+              "example": "meine Großmutter – моја бака"
+            },
+            {
+              "word": "Großvater",
+              "meaning": "дека",
+              "example": "mein Großvater – мој дека"
+            }
+          ],
+          "tip": [
+            "Großeltern је множина.",
+            "За једну особу користи Großmutter или Großvater."
+          ],
+          "important": [
+            "die Großeltern = баке и деке."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0022",
+      "cardId": "gut|idx:259",
+      "status": "LABOT",
+      "reason": "gut: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "добар • добро",
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "добар • добро",
+          "explanation": [
+            "Главна идеја: gut је придев или прилог и значи добар или добро.",
+            "Описује квалитет, стање или начин радње; у поздравима има облик Guten.",
+            "Не мешај га с именицом das Gut."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "Храна је добра."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Како си? – Добро, хвала!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "Он добро говори немачки."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Добро јутро!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "То је добра идеја."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Све је у реду."
+            }
+          ],
+          "tip": [
+            "gut без члана = добар/добро.",
+            "das Gut је друга реч: имање или добро."
+          ],
+          "important": [
+            "gut = добар/добро.",
+            "das Gut = имање/добро као именица.",
+            "Guten Morgen / Guten Tag / Guten Abend имају наставак -en."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0023",
+      "cardId": "haben|idx:261",
+      "status": "LABOT",
+      "reason": "haben: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "имати",
+        "study": {
+          "id": "a1-haben",
+          "layout": "standardStudy",
+          "translation": "имати",
+          "explanation": [
+            "Главна идеја: haben значи имати и гради се са субјектом у номинативу: Ich habe, du hast, er hat.",
+            "После haben предмет је у акузативу, а глагол се користи и као помоћни у перфекту."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe ein Auto.",
+              "lv": "Имам аутомобил."
+            },
+            {
+              "de": "Hast du Zeit?",
+              "lv": "Имаш ли времена?"
+            },
+            {
+              "de": "Wir haben Hunger.",
+              "lv": "Гладни смо."
+            },
+            {
+              "de": "Ich habe das gemacht.",
+              "lv": "Урадио сам то."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "haben",
+              "meaning": "имати",
+              "example": "Ich habe Zeit. – Имам времена."
+            },
+            {
+              "word": "sein",
+              "meaning": "бити",
+              "example": "Ich bin hier. – Овде сам."
+            },
+            {
+              "word": "bekommen",
+              "meaning": "добити",
+              "example": "Ich bekomme ein Geschenk. – Добијам поклон."
+            },
+            {
+              "word": "machen",
+              "meaning": "радити / правити",
+              "example": "Ich mache das. – Радим то."
+            }
+          ],
+          "tip": {
+            "text": "Ich habe = ја имам."
+          },
+          "important": [
+            "После haben предмет је у акузативу: Ich habe ein Auto.",
+            "Mir ist kalt користи sein и датив, а не haben.",
+            "У перфекту: Ich habe gelernt."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0024",
+      "cardId": "halten|idx:265",
+      "status": "LABOT",
+      "reason": "halten: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "држати • зауставити се",
+        "study": {
+          "id": "a1-halten",
+          "layout": "standardStudy",
+          "translation": "држати • зауставити се",
+          "explanation": [
+            "Главна идеја: halten најчешће значи држати.",
+            "За аутобус или воз може значити стати, а раздвојиви anhalten значи зауставити се или зауставити нешто.",
+            "etwas für ... halten значи сматрати нешто нечим."
+          ],
+          "examples": [
+            {
+              "de": "Ich halte die Tasche.",
+              "lv": "Држим торбу."
+            },
+            {
+              "de": "Der Bus hält hier.",
+              "lv": "Аутобус овде стаје."
+            },
+            {
+              "de": "Bitte halten Sie an.",
+              "lv": "Молим вас, зауставите се."
+            },
+            {
+              "de": "Ich halte das für richtig.",
+              "lv": "Сматрам да је то исправно."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "halten",
+              "meaning": "држати; за превоз и стати",
+              "example": "Der Bus hält. – Аутобус стаје."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "узети",
+              "example": "Ich nehme die Tasche. – Узимам торбу."
+            },
+            {
+              "word": "anhalten",
+              "meaning": "зауставити се / зауставити",
+              "example": "Bitte halten Sie an. – Молим вас, зауставите се."
+            },
+            {
+              "word": "denken",
+              "meaning": "мислити",
+              "example": "Ich denke, das ist richtig. – Мислим да је то исправно."
+            }
+          ],
+          "tip": {
+            "text": "Предмет држати → halten; зауставити се → anhalten; превоз стаје → hält."
+          },
+          "important": [
+            "halten најчешће значи држати.",
+            "Der Bus hält значи да аутобус стаје.",
+            "Bitte halten Sie an користи раздвојиви глагол anhalten."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0025",
+      "cardId": "Hand|idx:267",
+      "status": "LABOT",
+      "reason": "Hand: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "шака",
+        "study": {
+          "id": "a1-hand-study",
+          "layout": "standardStudy",
+          "translation": "шака",
+          "explanation": [
+            "Главна идеја: die Hand означава шаку, од ручног зглоба до прстију.",
+            "У немачком су Arm и Hand две различите речи; у српском се реч рука често користи шире."
+          ],
+          "examples": [
+            {
+              "de": "Ich wasche meine Hände.",
+              "lv": "Перем руке."
+            },
+            {
+              "de": "Sie hält das Glas in der Hand.",
+              "lv": "Она држи чашу у руци."
+            },
+            {
+              "de": "Mein Arm tut weh.",
+              "lv": "Боли ме рука."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Hand",
+              "meaning": "шака / рука",
+              "example": "in der Hand – у руци"
+            },
+            {
+              "word": "der Arm",
+              "meaning": "рука од рамена до шаке",
+              "example": "Mein Arm tut weh. – Боли ме рука."
+            }
+          ],
+          "tip": [
+            "Hand = шака или рука у ужем смислу.",
+            "Arm = рука од рамена до шаке."
+          ],
+          "important": [
+            "У немачком Hand и Arm нису иста реч."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0026",
+      "cardId": "heißen|idx:276",
+      "status": "LABOT",
+      "reason": "heißen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "звати се • значити",
+        "study": {
+          "id": "a1-heißen",
+          "layout": "standardStudy",
+          "translation": "звати се • значити",
+          "explanation": [
+            "Главна идеја: heißen се најчешће користи да се каже како се неко зове.",
+            "Ich heiße ... значи „зовем се ...“, а за реч или израз heißen може значити и значити."
+          ],
+          "examples": [
+            {
+              "de": "Ich heiße Anna.",
+              "lv": "Зовем се Ана."
+            },
+            {
+              "de": "Wie heißt du?",
+              "lv": "Како се зовеш?"
+            },
+            {
+              "de": "Wie heißt das auf Deutsch?",
+              "lv": "Како се то каже на немачком?"
+            },
+            {
+              "de": "Was heißt das?",
+              "lv": "Шта то значи?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "heißen",
+              "meaning": "звати се / значити",
+              "example": "Ich heiße Anna. – Зовем се Ана."
+            },
+            {
+              "word": "nennen",
+              "meaning": "назвати / звати",
+              "example": "Er nennt mich Tom. – Он ме зове Том."
+            },
+            {
+              "word": "bedeuten",
+              "meaning": "значити",
+              "example": "Was bedeutet das? – Шта то значи?"
+            },
+            {
+              "word": "rufen",
+              "meaning": "дозвати",
+              "example": "Ich rufe dich. – Дозивам те."
+            },
+            {
+              "word": "anrufen",
+              "meaning": "позвати телефоном",
+              "example": "Ich rufe dich an. – Зовем те телефоном."
+            }
+          ],
+          "tip": {
+            "text": "Ich heiße ... = зовем се ..."
+          },
+          "important": [
+            "Wie heißt du? значи „Како се зовеш?“",
+            "Was heißt das? често значи „Шта то значи?“"
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0027",
+      "cardId": "hoch|idx:285",
+      "status": "LABOT",
+      "reason": "hoch: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "висок • високо",
+        "study": {
+          "id": "a1-hoch-study",
+          "layout": "standardStudy",
+          "translation": "висок • високо",
+          "explanation": [
+            "Главна идеја: hoch значи висок или високо и описује вертикалну висину или висок ниво.",
+            "Користи се за планину, зид, цену, температуру или број; за висину човека обично се користи groß."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "Планина је висока."
+            },
+            {
+              "de": "Das Regal ist zwei Meter hoch.",
+              "lv": "Полица је висока два метра."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "Кирија је висока."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "Зид је висок."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "Цене су високе."
+            }
+          ],
+          "tip": [
+            "Вертикална висина или висок ниво → hoch.",
+            "За висину човека обично се користи groß."
+          ],
+          "important": [
+            "Der Berg ist hoch = планина је висока.",
+            "Er ist groß = он је висок.",
+            "За висину човека обично се не користи hoch."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0028",
+      "cardId": "hören|idx:287",
+      "status": "LABOT",
+      "reason": "hören: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "чути • слушати",
+        "study": {
+          "id": "a1-hoeren-study",
+          "layout": "standardStudy",
+          "translation": "чути • слушати",
+          "explanation": [
+            "Главна идеја: hören значи чути звук или слушати музику, причу или говор.",
+            "Контекст показује да ли је реч о опажању звука или намерном слушању."
+          ],
+          "examples": [
+            {
+              "de": "Ich höre Musik.",
+              "lv": "Слушам музику."
+            },
+            {
+              "de": "Die Kinder hören eine Geschichte.",
+              "lv": "Деца слушају причу."
+            },
+            {
+              "de": "Ich höre dich.",
+              "lv": "Чујем те."
+            }
+          ],
+          "tip": [
+            "hören = чути или слушати звук.",
+            "Користи hören за звук, музику и оно што се чује."
+          ],
+          "important": [
+            "hören може значити чути или слушати.",
+            "Субјекат и објекат морају остати у истим улогама."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0029",
+      "cardId": "hübsch|idx:288",
+      "status": "LABOT",
+      "reason": "hübsch: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "леп • привлачан",
+        "study": {
+          "id": "a1-huebsch",
+          "layout": "standardStudy",
+          "translation": "леп • привлачан",
+          "explanation": [
+            "Главна идеја: hübsch значи леп, привлачан или симпатичан по изгледу.",
+            "Најчешће описује изглед особе, одеће, просторије или предмета; за љубазан карактер чешће се користи nett."
+          ],
+          "examples": [
+            {
+              "de": "Sie trägt ein hübsches Kleid.",
+              "lv": "Она носи лепу хаљину."
+            },
+            {
+              "de": "Das Zimmer ist hübsch.",
+              "lv": "Соба је лепа."
+            },
+            {
+              "de": "Das ist ein hübsches Bild.",
+              "lv": "То је лепа слика."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "hübsch",
+              "meaning": "леп / привлачан по изгледу",
+              "example": "Das ist ein hübsches Kleid. – То је лепа хаљина."
+            },
+            {
+              "word": "schön",
+              "meaning": "леп / пријатан",
+              "example": "Der Garten ist schön. – Врт је леп."
+            },
+            {
+              "word": "nett",
+              "meaning": "љубазан / симпатичан",
+              "example": "Sie ist sehr nett. – Она је веома љубазна."
+            }
+          ],
+          "tip": {
+            "text": "hübsch најчешће описује леп изглед, а nett љубазну особу или понашање."
+          },
+          "important": [
+            "hübsch није универзалан превод за „симпатичан“.",
+            "За карактер или љубазно понашање обично је прикладнији nett."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0030",
+      "cardId": "ihr|idx:292",
+      "status": "LABOT",
+      "reason": "ihr: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "ви • њој • њен",
+        "study": {
+          "id": "a1-ihr",
+          "layout": "standardStudy",
+          "translation": "ви • њој • њен",
+          "explanation": [
+            "Главна идеја: ihr има више функција: неформално ви за више особа, датив њој и присвојно њен/њена/њено.",
+            "Глаголски облик kommt или habt показује да је ihr субјекат „ви“.",
+            "Учтива заменица је Sie с великим словом."
+          ],
+          "examples": [
+            {
+              "de": "Kommt ihr heute Abend?",
+              "lv": "Долазите ли вечерас?"
+            },
+            {
+              "de": "Ich gebe ihr das Buch.",
+              "lv": "Дајем јој књигу."
+            },
+            {
+              "de": "Wo wohnt ihr?",
+              "lv": "Где живите?"
+            },
+            {
+              "de": "Er schreibt ihr einen Brief.",
+              "lv": "Он јој пише писмо."
+            },
+            {
+              "de": "Habt ihr Zeit?",
+              "lv": "Имате ли времена?"
+            },
+            {
+              "de": "Das ist ihr Auto.",
+              "lv": "То је њен аутомобил."
+            }
+          ],
+          "tip": [
+            "ihr уз kommt/habt = ви; као датив или присвојни облик = њој/њен.",
+            "Habt ihr ...? / Kommt ihr ...? = ви; Ich gebe ihr ... / ihr Buch = њој/њен."
+          ],
+          "important": [
+            "ihr = ви, њој или њен, према контексту.",
+            "Учтива заменица је Sie, а не ihr.",
+            "Нетачно: Ihr као учтиво ви → тачно: Sie."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0031",
+      "cardId": "im|idx:293",
+      "status": "LABOT",
+      "reason": "im: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "у • где?",
+        "study": {
+          "id": "a1-im",
+          "layout": "standardStudy",
+          "translation": "у • где?",
+          "explanation": [
+            "Главна идеја: im је сажети облик in dem и означава место, односно одговара на питање где.",
+            "Користи се уз именице мушког и средњег рода у дативу, као и уз месеце и годишња доба."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin im Park.",
+              "lv": "У парку сам."
+            },
+            {
+              "de": "Wir wohnen im Zentrum.",
+              "lv": "Живимо у центру."
+            },
+            {
+              "de": "Im Sommer ist es warm.",
+              "lv": "Лети је топло."
+            },
+            {
+              "de": "Er arbeitet im Büro.",
+              "lv": "Он ради у канцеларији."
+            },
+            {
+              "de": "Das Kind spielt im Garten.",
+              "lv": "Дете се игра у башти."
+            },
+            {
+              "de": "Im Januar fahre ich nach Wien.",
+              "lv": "У јануару путујем у Беч."
+            },
+            {
+              "de": "Sie ist im Kino.",
+              "lv": "Она је у биоскопу."
+            },
+            {
+              "de": "Wir treffen uns im Restaurant.",
+              "lv": "Састајемо се у ресторану."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "im",
+              "meaning": "у; место и датив",
+              "example": "im Park – у парку"
+            },
+            {
+              "word": "ins",
+              "meaning": "у; смер и акузатив",
+              "example": "ins Kino – у биоскоп"
+            },
+            {
+              "word": "in",
+              "meaning": "у без члана",
+              "example": "in Berlin – у Берлину"
+            },
+            {
+              "word": "am",
+              "meaning": "код / на; место",
+              "example": "am Fenster – код прозора"
+            },
+            {
+              "word": "auf",
+              "meaning": "на површини",
+              "example": "auf dem Tisch – на столу"
+            }
+          ],
+          "tip": [
+            "in + dem → im: место, где.",
+            "Смер, куда → ins; место, где → im."
+          ],
+          "important": [
+            "im = in dem уз мушки или средњи род у дативу.",
+            "Означава место, а не кретање.",
+            "С месецима и годишњим добима: im März, im Herbst.",
+            "Женски род: in der Schule, не *im Schule."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0032",
+      "cardId": "in|idx:295",
+      "status": "LABOT",
+      "reason": "in: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "у",
+        "study": {
+          "id": "a1-in",
+          "layout": "standardStudy",
+          "translation": "у",
+          "explanation": [
+            "Главна идеја: in најчешће значи у, било да се говори о месту или кретању у унутрашњост.",
+            "За место се користи датив, а за правац акузатив; превод зависи од контекста."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin in Berlin.",
+              "lv": "У Берлину сам."
+            },
+            {
+              "de": "Ich gehe in die Schule.",
+              "lv": "Идем у школу."
+            },
+            {
+              "de": "Das Buch ist in der Tasche.",
+              "lv": "Књига је у торби."
+            },
+            {
+              "de": "Wir gehen ins Kino.",
+              "lv": "Идемо у биоскоп."
+            }
+          ],
+          "tip": {
+            "text": "Место или кретање у унутрашњост → in."
+          },
+          "important": [
+            "in не значи увек дословно „унутра“.",
+            "За површину је често потребно auf, а не in."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0033",
+      "cardId": "können|idx:319",
+      "status": "LABOT",
+      "reason": "können: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "моћи • умети",
+        "study": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "моћи • умети",
+          "explanation": [
+            "Главна идеја: können значи моћи или умети нешто да се уради.",
+            "За способност или вештину често се преводи умети, а за могућност моћи.",
+            "Као модални глагол, други глагол обично стоји на крају реченице."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Умем да говорим немачки."
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "Можеш ли да ми помогнеш?"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "Можемо данас да дођемо."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "Он уме добро да плива."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "моћи / умети",
+              "example": "Ich kann schwimmen. – Умем да пливам."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "смети",
+              "example": "Darf ich gehen? – Смем ли да идем?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "морати",
+              "example": "Ich muss lernen. – Морам да учим."
+            },
+            {
+              "word": "wissen",
+              "meaning": "знати",
+              "example": "Ich weiß das. – Знам то."
+            }
+          ],
+          "tip": {
+            "text": "Способност или могућност → können."
+          },
+          "important": [
+            "können није исто што и dürfen: können = моћи/умети, dürfen = смети.",
+            "Уз können други глагол стоји на крају: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0034",
+      "cardId": "kosten|idx:320",
+      "status": "LABOT",
+      "reason": "kosten: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "коштати",
+        "study": {
+          "id": "a1-kosten",
+          "layout": "standardStudy",
+          "translation": "коштати",
+          "explanation": [
+            "Главна идеја: kosten означава цену нечега, односно колико нешто кошта.",
+            "Када особа врши плаћање, користе се bezahlen или zahlen."
+          ],
+          "examples": [
+            {
+              "de": "Das kostet 5 Euro.",
+              "lv": "То кошта пет евра."
+            },
+            {
+              "de": "Was kostet das?",
+              "lv": "Колико то кошта?"
+            },
+            {
+              "de": "Wie viel kostet der Pullover?",
+              "lv": "Колико кошта џемпер?"
+            },
+            {
+              "de": "Das Essen kostet nicht viel.",
+              "lv": "Храна не кошта много."
+            },
+            {
+              "de": "Ich bezahle die Rechnung.",
+              "lv": "Плаћам рачун."
+            },
+            {
+              "de": "Kann ich bar bezahlen?",
+              "lv": "Могу ли да платим готовином?"
+            },
+            {
+              "de": "Er zahlt mit Karte.",
+              "lv": "Он плаћа картицом."
+            },
+            {
+              "de": "Ich zahle gleich.",
+              "lv": "Одмах ћу платити."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "kosten",
+              "meaning": "коштати; имати цену",
+              "example": "Das kostet 5 Euro. – То кошта пет евра."
+            },
+            {
+              "word": "bezahlen",
+              "meaning": "платити новац",
+              "example": "Ich bezahle die Rechnung. – Плаћам рачун."
+            },
+            {
+              "word": "zahlen",
+              "meaning": "платити",
+              "example": "Kann ich bar zahlen? – Могу ли да платим готовином?"
+            },
+            {
+              "word": "Was kostet...?",
+              "meaning": "колико кошта ...?",
+              "example": "Was kostet das Buch? – Колико кошта књига?"
+            }
+          ],
+          "tip": [
+            "Питање о цени → kosten: Was kostet das?",
+            "Извршење плаћања → bezahlen / zahlen."
+          ],
+          "important": [
+            "kosten и bezahlen нису синоними: kosten = имати цену; bezahlen = платити.",
+            "У српском су такође различити глаголи: коштати и платити."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0035",
+      "cardId": "Laden|idx:349",
+      "status": "LABOT",
+      "reason": "Laden: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "продавница",
+        "study": {
+          "id": "a1-laden-study",
+          "layout": "standardStudy",
+          "translation": "продавница",
+          "explanation": [
+            "Главна идеја: der Laden с великим словом је именица и значи мала продавница.",
+            "laden с малим словом је глагол и значи товарити или пунити.",
+            "Множина је die Läden."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe in den Laden.",
+              "lv": "Идем у продавницу."
+            },
+            {
+              "de": "Der Laden ist geschlossen.",
+              "lv": "Продавница је затворена."
+            },
+            {
+              "de": "Es gibt viele Läden hier.",
+              "lv": "Овде има много продавница."
+            },
+            {
+              "de": "Ich muss mein Handy laden.",
+              "lv": "Морам да напуним телефон."
+            }
+          ],
+          "tip": [
+            "der Laden = продавница.",
+            "laden = товарити или пунити."
+          ],
+          "important": [
+            "der Laden је именица.",
+            "laden је глагол.",
+            "Множина: die Läden."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0036",
+      "cardId": "Land|idx:351",
+      "status": "LABOT",
+      "reason": "Land: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "земља • унутрашњост",
+        "study": {
+          "id": "a1-land",
+          "layout": "standardStudy",
+          "translation": "земља • унутрашњост",
+          "explanation": [
+            "Главна идеја: das Land може значити држава/земља или рурална унутрашњост насупрот граду.",
+            "Контекст показује да ли је реч о држави, земљи или руралном подручју."
+          ],
+          "examples": [
+            {
+              "de": "Deutschland ist ein schönes Land.",
+              "lv": "Немачка је лепа земља."
+            },
+            {
+              "de": "Ich komme aus einem kleinen Land.",
+              "lv": "Долазим из мале земље."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Идемо на село."
+            },
+            {
+              "de": "Auf dem Land ist es ruhig.",
+              "lv": "На селу је мирно."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Land",
+              "meaning": "држава / земља / унутрашњост",
+              "example": "Deutschland ist ein Land. – Немачка је једна земља."
+            },
+            {
+              "word": "die Stadt",
+              "meaning": "град",
+              "example": "Ich wohne in der Stadt. – Живим у граду."
+            },
+            {
+              "word": "das Dorf",
+              "meaning": "село / насеље",
+              "example": "Er lebt in einem Dorf. – Он живи у селу."
+            },
+            {
+              "word": "die Erde",
+              "meaning": "Земља / планета",
+              "example": "Die Erde ist rund. – Земља је округла."
+            }
+          ],
+          "tip": {
+            "text": "Држава или рурална унутрашњост → das Land; град → die Stadt."
+          },
+          "important": [
+            "aufs Land значи „на село“ или „у унутрашњост“, а не „у државу“.",
+            "das Land није исто што и das Dorf или die Stadt."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0037",
+      "cardId": "lang|idx:352",
+      "status": "LABOT",
+      "reason": "lang: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "дуг",
+        "study": {
+          "id": "a1-lang",
+          "layout": "standardStudy",
+          "translation": "дуг",
+          "explanation": [
+            "Главна идеја: lang за простор значи дуг, а за време такође дуг или дуготрајан.",
+            "У српском један придев покрива обе употребе; контекст показује да ли је реч о дужини или трајању."
+          ],
+          "examples": [
+            {
+              "de": "Der Tisch ist sehr lang.",
+              "lv": "Сто је веома дуг."
+            },
+            {
+              "de": "Der Film war sehr lang.",
+              "lv": "Филм је био веома дуг."
+            },
+            {
+              "de": "Wie lange dauert es?",
+              "lv": "Колико то траје?"
+            },
+            {
+              "de": "Sie hat lange Haare.",
+              "lv": "Она има дугу косу."
+            },
+            {
+              "de": "Ich warte schon lange.",
+              "lv": "Већ дуго чекам."
+            },
+            {
+              "de": "Den ganzen Tag lang.",
+              "lv": "Цео дан."
+            }
+          ],
+          "tip": [
+            "Величина или растојање → дуг.",
+            "Време или трајање → дуг/дуго."
+          ],
+          "important": [
+            "lang описује дужину или трајање.",
+            "wie lange = колико дуго."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0038",
+      "cardId": "lassen|idx:356",
+      "status": "LABOT",
+      "reason": "lassen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "оставити • пустити",
+        "study": {
+          "id": "a1-lassen",
+          "layout": "standardStudy",
+          "translation": "оставити • пустити",
+          "explanation": [
+            "Главна идеја: lassen значи оставити нешто или пустити/дозволити да се нешто догоди.",
+            "Када нешто остаје на месту, преводи се оставити; када некоме дајемо дозволу, пустити или дозволити."
+          ],
+          "examples": [
+            {
+              "de": "Ich lasse die Tasche hier.",
+              "lv": "Остављам торбу овде."
+            },
+            {
+              "de": "Lass das bitte auf dem Tisch.",
+              "lv": "Остави то на столу, молим те."
+            },
+            {
+              "de": "Meine Eltern lassen mich gehen.",
+              "lv": "Родитељи ме пуштају да идем."
+            },
+            {
+              "de": "Lass mich in Ruhe!",
+              "lv": "Остави ме на миру!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "lassen",
+              "meaning": "оставити / пустити",
+              "example": "Ich lasse das hier. – Остављам то овде."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "остати",
+              "example": "Ich bleibe hier. – Остајем овде."
+            },
+            {
+              "word": "erlauben",
+              "meaning": "дозволити",
+              "example": "Sie erlaubt mir das. – Она ми то дозвољава."
+            },
+            {
+              "word": "geben",
+              "meaning": "дати",
+              "example": "Gib mir das Buch. – Дај ми књигу."
+            }
+          ],
+          "tip": {
+            "text": "Нешто остаје → lassen; некоме се допушта → lassen."
+          },
+          "important": [
+            "lassen не значи само оставити, већ често и пустити или дозволити.",
+            "Lass mich in Ruhe! = Остави ме на миру!"
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0039",
+      "cardId": "laufen|idx:357",
+      "status": "LABOT",
+      "reason": "laufen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "трчати • радити",
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "трчати • радити",
+          "explanation": [
+            "Главна идеја: laufen значи трчати, али за филм, машину или програм може значити радити, ићи или бити у току.",
+            "За кретање пешке упореди gehen и laufen."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "Он трчи веома брзо."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "Деца трче у парку."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "Филм се већ приказује."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "Машина добро ради."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "трчати / радити",
+              "example": "Er läuft schnell. – Он брзо трчи."
+            },
+            {
+              "word": "gehen",
+              "meaning": "ићи пешке",
+              "example": "Ich gehe nach Hause. – Идем кући."
+            },
+            {
+              "word": "fahren",
+              "meaning": "возити се",
+              "example": "Ich fahre mit dem Bus. – Возим се аутобусом."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "радити / функционисати",
+              "example": "Das funktioniert gut. – То добро ради."
+            }
+          ],
+          "tip": {
+            "text": "Брзо кретање ногама → laufen; превоз → fahren."
+          },
+          "important": [
+            "laufen не значи само трчати; за филм или уређај може значити бити у току или радити.",
+            "Ich laufe означава кретање пешке, не вожњу."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0040",
+      "cardId": "laut|idx:358",
+      "status": "LABOT",
+      "reason": "laut: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "гласан • гласно",
+        "study": {
+          "id": "a1-laut",
+          "layout": "standardStudy",
+          "translation": "гласан • гласно",
+          "explanation": [
+            "Главна идеја: laut с малим словом је придев или прилог и описује јачину звука.",
+            "der Laut с великим словом је именица и означава звук или глас као појаву."
+          ],
+          "examples": [
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Музика је гласна."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Музика је гласна."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Не говори тако гласно!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "То је веома гласно."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Звук је леп."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Чујем неки звук."
+            }
+          ],
+          "tip": [
+            "laut = гласан/гласно; der Laut = звук.",
+            "Обрати пажњу на велико слово и члан."
+          ],
+          "important": [
+            "laut је придев или прилог без члана.",
+            "der Laut је именица.",
+            "Множина: die Laute.",
+            "Нетачно: Der Laut ist sehr. → тачно: Das ist sehr laut."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0041",
+      "cardId": "Laut|idx:359",
+      "status": "LABOT",
+      "reason": "Laut: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "звук",
+        "study": {
+          "id": "a1-laut-study",
+          "layout": "standardStudy",
+          "translation": "звук",
+          "explanation": [
+            "Главна идеја: der Laut је именица мушког рода и означава звук, глас или језички глас.",
+            "laut с малим словом је придев или прилог и значи гласан/гласно."
+          ],
+          "examples": [
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Звук је леп."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Музика је гласна."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Не говори тако гласно!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "То је веома гласно."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Звук је леп."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Чујем неки звук."
+            }
+          ],
+          "tip": [
+            "laut = гласан/гласно; der Laut = звук.",
+            "der Laut је именица с чланом der."
+          ],
+          "important": [
+            "laut је придев или прилог.",
+            "der Laut је именица.",
+            "Множина: die Laute.",
+            "Нетачно: Der Laut ist sehr. → тачно: Das ist sehr laut."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0042",
+      "cardId": "legen|idx:363",
+      "status": "LABOT",
+      "reason": "legen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "положити • ставити",
+        "study": {
+          "id": "a1-legen",
+          "layout": "standardStudy",
+          "translation": "положити • ставити",
+          "explanation": [
+            "Главна идеја: legen значи положити или ставити нешто у водораван положај.",
+            "Описује радњу, за разлику од liegen, које описује већ постојећи положај."
+          ],
+          "examples": [
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Стављам књигу на сто."
+            },
+            {
+              "de": "Leg den Schlüssel hierhin.",
+              "lv": "Стави кључ овде."
+            },
+            {
+              "de": "Sie legt das Kind ins Bett.",
+              "lv": "Она ставља дете у кревет."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Књига лежи на столу."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "положити / ставити",
+              "example": "Ich lege das Buch auf den Tisch. – Стављам књигу на сто."
+            },
+            {
+              "word": "liegen",
+              "meaning": "лежати / налазити се",
+              "example": "Das Buch liegt auf dem Tisch. – Књига лежи на столу."
+            },
+            {
+              "word": "stellen",
+              "meaning": "ставити усправно",
+              "example": "Ich stelle die Flasche auf den Tisch. – Стављам флашу на сто."
+            },
+            {
+              "word": "setzen",
+              "meaning": "посадити / сести",
+              "example": "Ich setze mich. – Седам."
+            }
+          ],
+          "tip": {
+            "text": "Ти нешто стављаш → legen; ствар већ лежи → liegen."
+          },
+          "important": [
+            "legen и liegen нису исто.",
+            "Ich lege das Buch = стављам књигу; Das Buch liegt = књига лежи."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0043",
+      "cardId": "leise|idx:368",
+      "status": "LABOT",
+      "reason": "leise: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "тих • тихо",
+        "study": {
+          "id": "a1-leise-study",
+          "layout": "standardStudy",
+          "translation": "тих • тихо",
+          "explanation": [
+            "Главна идеја: leise значи тих или тихо, односно с малом јачином звука.",
+            "Описује тих глас, звук или музику."
+          ],
+          "examples": [
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Молим те, буди тих."
+            },
+            {
+              "de": "Bitte sei leise.",
+              "lv": "Молим те, буди тих."
+            },
+            {
+              "de": "Die Musik ist leise.",
+              "lv": "Музика је тиха."
+            },
+            {
+              "de": "Sprich bitte leise.",
+              "lv": "Говори тихо, молим те."
+            }
+          ],
+          "tip": [
+            "leise = тих/тихо.",
+            "Користи leise за малу јачину звука."
+          ],
+          "important": [
+            "leise описује тих звук.",
+            "Може бити придев или прилог."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0044",
+      "cardId": "liegen|idx:377",
+      "status": "LABOT",
+      "reason": "liegen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "лежати • налазити се",
+        "study": {
+          "id": "a1-liegen",
+          "layout": "standardStudy",
+          "translation": "лежати • налазити се",
+          "explanation": [
+            "Главна идеја: liegen значи лежати или налазити се у водоравном положају.",
+            "За човека обично значи лежати, а за предмет да се налази негде.",
+            "legen означава радњу стављања."
+          ],
+          "examples": [
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Књига лежи на столу."
+            },
+            {
+              "de": "Mein Handy liegt im Auto.",
+              "lv": "Мој телефон је у аутомобилу."
+            },
+            {
+              "de": "Er liegt im Bett.",
+              "lv": "Он лежи у кревету."
+            },
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Стављам књигу на сто."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "liegen",
+              "meaning": "лежати / налазити се",
+              "example": "Das Buch liegt hier. – Књига лежи овде."
+            },
+            {
+              "word": "legen",
+              "meaning": "положити / ставити",
+              "example": "Ich lege das Buch hierhin. – Стављам књигу овде."
+            },
+            {
+              "word": "stehen",
+              "meaning": "стајати / налазити се усправно",
+              "example": "Die Flasche steht auf dem Tisch. – Флаша стоји на столу."
+            },
+            {
+              "word": "sein",
+              "meaning": "бити",
+              "example": "Ich bin hier. – Овде сам."
+            }
+          ],
+          "tip": {
+            "text": "Ствар већ лежи → liegen; ти је стављаш → legen."
+          },
+          "important": [
+            "liegen описује положај или место.",
+            "legen описује радњу: неко нешто ставља."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {},
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0045",
+      "cardId": "machen|idx:386",
+      "status": "LABOT",
+      "reason": "machen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "радити • правити",
+        "study": {
+          "id": "a1-machen",
+          "layout": "standardStudy",
+          "translation": "радити • правити",
+          "explanation": [
+            "Главна идеја: machen је веома чест глагол и значи радити или правити.",
+            "За општу радњу преводи се радити, а за стварање или припрему правити; у устаљеним изразима превод мора бити природан."
+          ],
+          "examples": [
+            {
+              "de": "Was machst du?",
+              "lv": "Шта радиш?"
+            },
+            {
+              "de": "Ich mache Hausaufgaben.",
+              "lv": "Радим домаће задатке."
+            },
+            {
+              "de": "Wir machen Pizza.",
+              "lv": "Правимо пицу."
+            },
+            {
+              "de": "Das macht Spaß.",
+              "lv": "То је забавно."
+            }
+          ],
+          "tip": {
+            "text": "Was machst du? = Шта радиш?"
+          },
+          "important": [
+            "machen је широк глагол и преводи се према ситуацији.",
+            "Das macht Spaß значи „то је забавно“, а не дословно „то прави забаву“."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0046",
+      "cardId": "Mal|idx:390",
+      "status": "LABOT",
+      "reason": "Mal: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "пут",
+        "study": {
+          "id": "a1-mal",
+          "layout": "standardStudy",
+          "translation": "пут",
+          "explanation": [
+            "Главна идеја: das Mal означава пут, односно један случај или догађај.",
+            "Често се користи с бројевима: ein Mal, zwei Mal, drei Mal и с редним бројевима: das erste Mal.",
+            "Не мешај с разговорном честицом mal у Komm mal her!"
+          ],
+          "examples": [
+            {
+              "de": "Das erste Mal war schwer.",
+              "lv": "Први пут је било тешко."
+            },
+            {
+              "de": "Ich war schon zwei Mal in Berlin.",
+              "lv": "Већ сам два пута био у Берлину."
+            },
+            {
+              "de": "Ein Mal reicht.",
+              "lv": "Један пут је довољан."
+            },
+            {
+              "de": "Noch ein Mal, bitte!",
+              "lv": "Још једном, молим!"
+            }
+          ],
+          "tip": {
+            "text": "das Mal = пут као именица; mal без члана = разговорна честица."
+          },
+          "important": [
+            "das Mal / die Male је именица с чланом.",
+            "ein Mal, zwei Mal означава број понављања.",
+            "mal без члана није исто што и das Mal."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": {},
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0047",
+      "cardId": "morgen|idx:417",
+      "status": "LABOT",
+      "reason": "morgen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "сутра",
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "сутра",
+          "explanation": [
+            "Главна идеја: morgen с малим словом је прилог и значи сутра, следећег дана.",
+            "der Morgen с великим словом је именица и значи јутро."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Долазим сутра."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Видимо се сутра!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Долазим сутра."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Сутра је понедељак."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Добро јутро!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Јутро је лепо."
+            }
+          ],
+          "tip": [
+            "morgen = сутра; der Morgen = јутро.",
+            "Обрати пажњу на велико слово."
+          ],
+          "important": [
+            "morgen се пише малим словом када значи сутра.",
+            "der Morgen је именица.",
+            "Guten Morgen! увек има велико M.",
+            "Нетачно: Guten morgen! → тачно: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0048",
+      "cardId": "Morgen|idx:418",
+      "status": "LABOT",
+      "reason": "Morgen: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "јутро",
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "јутро",
+          "explanation": [
+            "Главна идеја: der Morgen је именица мушког рода и означава јутро.",
+            "morgen с малим словом је прилог и значи сутра."
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Добро јутро!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Видимо се сутра!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Долазим сутра."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Сутра је понедељак."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Добро јутро!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Јутро је лепо."
+            }
+          ],
+          "tip": [
+            "morgen = сутра; der Morgen = јутро.",
+            "der Morgen је именица с великим словом."
+          ],
+          "important": [
+            "morgen с малим словом значи сутра.",
+            "der Morgen с великим словом значи јутро.",
+            "Guten Morgen! увек има велико M.",
+            "Нетачно: Guten morgen! → тачно: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0049",
+      "cardId": "noch mal|idx:701",
+      "status": "LABOT",
+      "reason": "noch mal: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "још једном",
+        "study": {
+          "id": "a1-noch-mal",
+          "layout": "standardStudy",
+          "translation": "још једном",
+          "explanation": [
+            "Главна идеја: noch mal значи још једном и користи се за понављање радње или молбу да се нешто понови."
+          ],
+          "examples": [
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Још једном, молим."
+            },
+            {
+              "de": "Noch mal, bitte.",
+              "lv": "Још једном, молим."
+            },
+            {
+              "de": "Sag das noch mal.",
+              "lv": "Реци то још једном."
+            }
+          ],
+          "tip": [
+            "noch mal = још једном.",
+            "Користи га када тражиш или описујеш понављање."
+          ],
+          "important": [
+            "noch mal означава понављање радње или исказа."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "auditId": "LRB097-0050",
+      "cardId": "Obst|idx:693",
+      "status": "LABOT",
+      "reason": "Obst: individually reviewed full SR composite requires exact Serbian language, semantic and grammar repair; complete LV→DE teaching context preserved.",
+      "new": {
+        "lv": "воће",
+        "study": {
+          "id": "a1-obst",
+          "layout": "standardStudy",
+          "translation": "воће",
+          "explanation": [
+            "Главна идеја: das Obst означава воће уопштено и у немачком нема редовну множину *die Obsts.",
+            "То је именица средњег рода која се у овом значењу употребљава у једнини."
+          ],
+          "examples": [
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Једемо много воћа."
+            },
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Једемо много воћа."
+            },
+            {
+              "de": "Obst ist gesund.",
+              "lv": "Воће је здраво."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "Волим воће и поврће."
+            },
+            {
+              "de": "Wir essen Obst.",
+              "lv": "Једемо воће."
+            }
+          ],
+          "tip": [
+            "das Obst = воће.",
+            "Користи једнину за воће као целину."
+          ],
+          "important": [
+            "Нетачно: die Obsts → тачно: das Obst.",
+            "das Obst = воће уопштено."
+          ],
+          "sectionAccents": {
+            "explanation": [
+              {},
+              {}
+            ],
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
