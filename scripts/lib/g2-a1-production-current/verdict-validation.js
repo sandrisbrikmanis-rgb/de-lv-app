@@ -1,13 +1,16 @@
 #!/usr/bin/env node
 "use strict";
 
-const { AUDIT_VERDICTS, FINDING_REQUIRED_FIELDS } = require("./constants");
+const { AUDIT_VERDICTS, FORBIDDEN_AUDIT_VERDICTS, FINDING_REQUIRED_FIELDS } = require("./constants");
 const { nonEmptyString } = require("./evidence-schema");
 const { rejectBulkPassRationale } = require("./bulk-forbidden");
 
 function validateAuditVerdict(record) {
   const errors = [];
   const v = record.AUDIT_VERDICT;
+  if (FORBIDDEN_AUDIT_VERDICTS.includes(v) || v === "PENDING_HUMAN_REVIEW") {
+    errors.push("forbidden_verdict_label");
+  }
   if (!AUDIT_VERDICTS.includes(v)) errors.push("unknown_or_missing_verdict");
   const verdictCount = AUDIT_VERDICTS.filter((x) => record[x] === true).length;
   if (verdictCount > 0) errors.push("multiple_verdict_flags");
