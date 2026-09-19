@@ -1,0 +1,60 @@
+{
+  "classification": "G2_A1_FULL_LINGUISTIC_DISCOVERY_AUDIT_OWNER_AUTHORIZATION_TEMPLATE",
+  "artifactKind": "COMMITTED_SCHEMA_ONLY",
+  "description": "Stable schema for OWNER authorization. Runtime SHA values are NOT stored in Git. After syncing main (HEAD = origin/main, clean worktree), generate reports/temp/g2-a1-production-current/OWNER_AUTHORIZATION_PACKAGE.runtime.json via npm run build:g2-a1-production-current:owner-authorization-runtime",
+  "runtimeGenerationCommand": "npm run build:g2-a1-production-current:owner-authorization-runtime",
+  "runtimeOutputPath": "reports/temp/g2-a1-production-current/OWNER_AUTHORIZATION_PACKAGE.runtime.json",
+  "deprecatedTrackedPath": "reports/g2-a1-production-current/OWNER_AUTHORIZATION_PACKAGE.json",
+  "runtimeFieldsFilledAtGeneration": [
+    "generatedAt",
+    "headSha",
+    "originMainSha",
+    "headMatchesOriginMain",
+    "productionFileSetSha256",
+    "fileSetManifest",
+    "scope",
+    "batchPlan",
+    "fullAuditCommand",
+    "embeddedRegistryPass"
+  ],
+  "runtimeGenerationGates": [
+    "git fetch origin",
+    "HEAD === origin/main (full SHA)",
+    "clean worktree for data/www/data/crowdin production paths",
+    "no tracked stale OWNER_AUTHORIZATION_PACKAGE.json",
+    "MASTER preflight PASS",
+    "32 languages, 64 files, mirrors PASS"
+  ],
+  "requiredAuthorizationFlags": [
+    "--owner-authorize-full-audit",
+    "--expected-main-sha=<full origin/main SHA at authorized audit time>",
+    "--expected-production-file-set-sha=<64-file composite SHA at authorized audit time>"
+  ],
+  "fullAuditCommandShape": "node scripts/run-g2-a1-production-current-full-discovery.js --full --owner-authorize-full-audit --expected-main-sha=<SHA> --expected-production-file-set-sha=<SHA>",
+  "CURRENT_SOURCE": "data/a1.js (lv) | data/<lang>/a1.js",
+  "AUDIT_SOURCE": "production-current",
+  "expectedScope": {
+    "AUDIT_LANGUAGES": 32,
+    "CARDS_PER_LANGUAGE": 702,
+    "DATA_A1_FILES": 32,
+    "WWW_A1_FILES": 32,
+    "TOTAL_FILE_SET": 64
+  },
+  "expectedArtifactsAfterFullAudit": [
+    "reports/g2-a1-production-current/full-audit-evidence.json",
+    "reports/g2-a1-production-current/owner-view.json",
+    "reports/g2-a1-production-current/coverage-summary.json",
+    "reports/g2-a1-production-current/reproducibility-manifest.json",
+    "post-run verify PASS"
+  ],
+  "forbiddenDuringAudit": [
+    "modify production data/** or www/data/** without authorized COPY-ONLY apply",
+    "use crowdin-staging as CURRENT",
+    "commit runtime authorization package to Git"
+  ],
+  "MASTER_DOCUMENTS": [
+    "docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md",
+    "docs_and_rules/MASTER_1.12_BINDING_WORK_AGREEMENT.md",
+    "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md"
+  ]
+}

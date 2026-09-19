@@ -1,8 +1,8 @@
 {
   "classification": "G2_A1_PRODUCTION_CURRENT_LOCAL_MERGE_GATE",
-  "generatedAt": "2026-09-19T15:20:21.284Z",
-  "headSha": "3b17af87732a8dc1d0c6dc3e21eecbdec520e399",
-  "originMainSha": "3b17af87732a8dc1d0c6dc3e21eecbdec520e399",
+  "generatedAt": "2026-09-19T15:26:13.469Z",
+  "headSha": "4e93fb01c2ccf40b5e7bcf3fd9b7ee33ef28581d",
+  "originMainSha": "4e93fb01c2ccf40b5e7bcf3fd9b7ee33ef28581d",
   "ciInvestigation": {
     "workflowsDirectoryExists": false,
     "conclusion": "NO_APPLICABLE_GITHUB_CI_CONFIGURED",
@@ -51,6 +51,11 @@
     },
     {
       "cmd": "npm run audit:g2-a1:production-current:dry-run",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run test:g2-a1-production-current-owner-authorization-runtime",
       "exitCode": 0,
       "pass": true
     }
