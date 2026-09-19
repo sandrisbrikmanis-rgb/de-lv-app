@@ -1,0 +1,936 @@
+{
+  "pass": true,
+  "blockers": [],
+  "generated_at": "2026-09-19T12:42:38.118Z",
+  "authorized_apply_base_head": "169723c4de7e84c0fbc24787e2287afab5310eea",
+  "reconciliation_pr_head": "687495db5bd4fdc7dff3e342b5fff9fd7151f9ac",
+  "authorized_atomic_mapping_sha256": "33519482cfb327ba7eb062b69cd3b61d8718ca936cb4a8553fd36b0feb51c5f0",
+  "atomic_mapping_sha256": "33519482cfb327ba7eb062b69cd3b61d8718ca936cb4a8553fd36b0feb51c5f0",
+  "authorized_production_before_file_set_sha256": "ccd237adb9e2b9812901589c328d7ddd0225aca81fe1b986d13d9f2e4c510c56",
+  "production_file_set_sha256_after": "0a14ddc3a066cfe47bafb5e9b762d96ca66aca81ad77d7e20a5218dd234d543e",
+  "owner_keys_covered": 234,
+  "owner_keys_total": 234,
+  "applied_cards": 234,
+  "total_cards": 234,
+  "unique_production_slots": 233,
+  "changed_unique_production_cards": 233,
+  "proven_alias_groups": 1,
+  "alias_collapsed_owner_keys": 1,
+  "unresolved_alias_conflicts": 0,
+  "alias_analysis": {
+    "owner_target_keys": 234,
+    "unique_production_slots": 233,
+    "alias_collapsed_owner_keys": 1,
+    "proven_alias_groups": 1,
+    "unresolved_alias_conflicts": 0,
+    "proven_alias_group_details": [
+      {
+        "production_slot": "sk|data/sk/a1.js|660",
+        "production_language": "sk",
+        "production_file": "data/sk/a1.js",
+        "production_mirror_file": "www/data/sk/a1.js",
+        "production_array_index": 660,
+        "owner_card_keys": [
+          "sk|a1-wie",
+          "sk|wie"
+        ],
+        "production_current_entry_sha256": "29000b1d10c14ef2c50cb94a20fcb848d59c41d1e5f1fae4a4b392a19adc8fb1",
+        "production_planned_entry_sha256": "8a30cd8a24523fc4aa40a6d1c8a16f5e18875c1cb5cde8c0342580d3b8e892ce",
+        "owner_payload_sha256": "46687da008f696c3b5d1a70f1f73676aff0a0fd0da41d869e2fe666e5cc477bc",
+        "classification": "PROVEN_IDENTICAL_ALIAS"
+      }
+    ],
+    "per_card_classification": {
+      "bg|aufs": "UNIQUE_PRODUCTION_TARGET",
+      "bg|das": "UNIQUE_PRODUCTION_TARGET",
+      "bg|finden": "UNIQUE_PRODUCTION_TARGET",
+      "bg|gleich": "UNIQUE_PRODUCTION_TARGET",
+      "bg|groß": "UNIQUE_PRODUCTION_TARGET",
+      "bg|gut": "UNIQUE_PRODUCTION_TARGET",
+      "bg|ihr": "UNIQUE_PRODUCTION_TARGET",
+      "bg|im": "UNIQUE_PRODUCTION_TARGET",
+      "bs|erst": "UNIQUE_PRODUCTION_TARGET",
+      "bs|etwas": "UNIQUE_PRODUCTION_TARGET",
+      "bs|gut": "UNIQUE_PRODUCTION_TARGET",
+      "bs|Morgen": "UNIQUE_PRODUCTION_TARGET",
+      "cs|Mann": "UNIQUE_PRODUCTION_TARGET",
+      "cs|mit": "UNIQUE_PRODUCTION_TARGET",
+      "cs|mögen": "UNIQUE_PRODUCTION_TARGET",
+      "cs|morgen": "UNIQUE_PRODUCTION_TARGET",
+      "cs|Morgen": "UNIQUE_PRODUCTION_TARGET",
+      "da|gleich": "UNIQUE_PRODUCTION_TARGET",
+      "da|können": "UNIQUE_PRODUCTION_TARGET",
+      "da|Laden": "UNIQUE_PRODUCTION_TARGET",
+      "da|Land": "UNIQUE_PRODUCTION_TARGET",
+      "en|ab": "UNIQUE_PRODUCTION_TARGET",
+      "en|aber": "UNIQUE_PRODUCTION_TARGET",
+      "en|an": "UNIQUE_PRODUCTION_TARGET",
+      "en|ein": "UNIQUE_PRODUCTION_TARGET",
+      "en|Eis": "UNIQUE_PRODUCTION_TARGET",
+      "en|erst": "UNIQUE_PRODUCTION_TARGET",
+      "en|es": "UNIQUE_PRODUCTION_TARGET",
+      "en|essen": "UNIQUE_PRODUCTION_TARGET",
+      "en|etwas": "UNIQUE_PRODUCTION_TARGET",
+      "en|ganz": "UNIQUE_PRODUCTION_TARGET",
+      "en|klein": "UNIQUE_PRODUCTION_TARGET",
+      "en|nach": "UNIQUE_PRODUCTION_TARGET",
+      "en|nehmen": "UNIQUE_PRODUCTION_TARGET",
+      "en|ob": "UNIQUE_PRODUCTION_TARGET",
+      "en|sprechen": "UNIQUE_PRODUCTION_TARGET",
+      "en|stehen": "UNIQUE_PRODUCTION_TARGET",
+      "en|zum": "UNIQUE_PRODUCTION_TARGET",
+      "es|aufs": "UNIQUE_PRODUCTION_TARGET",
+      "es|dass": "UNIQUE_PRODUCTION_TARGET",
+      "es|Eis": "UNIQUE_PRODUCTION_TARGET",
+      "es|es": "UNIQUE_PRODUCTION_TARGET",
+      "es|oder": "UNIQUE_PRODUCTION_TARGET",
+      "es|passen": "UNIQUE_PRODUCTION_TARGET",
+      "et|bitte": "UNIQUE_PRODUCTION_TARGET",
+      "et|Bitte": "UNIQUE_PRODUCTION_TARGET",
+      "et|bleiben": "UNIQUE_PRODUCTION_TARGET",
+      "et|bringen": "UNIQUE_PRODUCTION_TARGET",
+      "et|da": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-ab": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-aber": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-also": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-besuch": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-besuchen": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-fahren": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-nehmen": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-passen": "UNIQUE_PRODUCTION_TARGET",
+      "fi|a1-sich": "UNIQUE_PRODUCTION_TARGET",
+      "fi|Bitte": "UNIQUE_PRODUCTION_TARGET",
+      "fi|nicht": "UNIQUE_PRODUCTION_TARGET",
+      "fi|Pizza": "UNIQUE_PRODUCTION_TARGET",
+      "fi|Sache": "UNIQUE_PRODUCTION_TARGET",
+      "fr|Besuch": "UNIQUE_PRODUCTION_TARGET",
+      "fr|einmal": "UNIQUE_PRODUCTION_TARGET",
+      "fr|Essen": "UNIQUE_PRODUCTION_TARGET",
+      "fr|Ferien": "UNIQUE_PRODUCTION_TARGET",
+      "fr|Gemüse": "UNIQUE_PRODUCTION_TARGET",
+      "fr|morgen": "UNIQUE_PRODUCTION_TARGET",
+      "fr|Morgen": "UNIQUE_PRODUCTION_TARGET",
+      "fr|Obst": "UNIQUE_PRODUCTION_TARGET",
+      "fr|Urlaub": "UNIQUE_PRODUCTION_TARGET",
+      "gr|noch": "UNIQUE_PRODUCTION_TARGET",
+      "gr|nur": "UNIQUE_PRODUCTION_TARGET",
+      "gr|passen": "UNIQUE_PRODUCTION_TARGET",
+      "hu|ab": "UNIQUE_PRODUCTION_TARGET",
+      "hu|aber": "UNIQUE_PRODUCTION_TARGET",
+      "hu|Essen": "UNIQUE_PRODUCTION_TARGET",
+      "hu|gleich": "UNIQUE_PRODUCTION_TARGET",
+      "hu|klein": "UNIQUE_PRODUCTION_TARGET",
+      "hu|Laden": "UNIQUE_PRODUCTION_TARGET",
+      "hu|lang": "UNIQUE_PRODUCTION_TARGET",
+      "is|Essen": "UNIQUE_PRODUCTION_TARGET",
+      "is|Ferien": "UNIQUE_PRODUCTION_TARGET",
+      "is|Gemüse": "UNIQUE_PRODUCTION_TARGET",
+      "is|Obst": "UNIQUE_PRODUCTION_TARGET",
+      "is|Urlaub": "UNIQUE_PRODUCTION_TARGET",
+      "lb|Eis": "UNIQUE_PRODUCTION_TARGET",
+      "lb|etwas": "UNIQUE_PRODUCTION_TARGET",
+      "lb|fahren": "UNIQUE_PRODUCTION_TARGET",
+      "lb|fernsehen": "UNIQUE_PRODUCTION_TARGET",
+      "lb|Fernsehen": "UNIQUE_PRODUCTION_TARGET",
+      "lb|jung": "UNIQUE_PRODUCTION_TARGET",
+      "lb|kein": "UNIQUE_PRODUCTION_TARGET",
+      "lb|laufen": "UNIQUE_PRODUCTION_TARGET",
+      "lb|Mann": "UNIQUE_PRODUCTION_TARGET",
+      "lb|mit": "UNIQUE_PRODUCTION_TARGET",
+      "lb|mögen": "UNIQUE_PRODUCTION_TARGET",
+      "lb|morgen": "UNIQUE_PRODUCTION_TARGET",
+      "lb|Morgen": "UNIQUE_PRODUCTION_TARGET",
+      "lb|nach": "UNIQUE_PRODUCTION_TARGET",
+      "lb|werden": "UNIQUE_PRODUCTION_TARGET",
+      "lb|Wetter": "UNIQUE_PRODUCTION_TARGET",
+      "lb|wie": "UNIQUE_PRODUCTION_TARGET",
+      "lb|zu": "UNIQUE_PRODUCTION_TARGET",
+      "lb|Zug": "UNIQUE_PRODUCTION_TARGET",
+      "nl|schwimmen": "UNIQUE_PRODUCTION_TARGET",
+      "nl|sich": "UNIQUE_PRODUCTION_TARGET",
+      "nn|a1-neu": "UNIQUE_PRODUCTION_TARGET",
+      "nn|a1-verstehen": "UNIQUE_PRODUCTION_TARGET",
+      "nn|a1-wie": "UNIQUE_PRODUCTION_TARGET",
+      "pt|bitte": "UNIQUE_PRODUCTION_TARGET",
+      "pt|Bitte": "UNIQUE_PRODUCTION_TARGET",
+      "pt|bleiben": "UNIQUE_PRODUCTION_TARGET",
+      "pt|erst": "UNIQUE_PRODUCTION_TARGET",
+      "pt|etwas": "UNIQUE_PRODUCTION_TARGET",
+      "pt|euch": "UNIQUE_PRODUCTION_TARGET",
+      "pt|fahren": "UNIQUE_PRODUCTION_TARGET",
+      "pt|gleich": "UNIQUE_PRODUCTION_TARGET",
+      "pt|groß": "UNIQUE_PRODUCTION_TARGET",
+      "pt|Großeltern": "UNIQUE_PRODUCTION_TARGET",
+      "pt|gut": "UNIQUE_PRODUCTION_TARGET",
+      "pt|haben": "UNIQUE_PRODUCTION_TARGET",
+      "pt|halten": "UNIQUE_PRODUCTION_TARGET",
+      "pt|Hand": "UNIQUE_PRODUCTION_TARGET",
+      "pt|heißen": "UNIQUE_PRODUCTION_TARGET",
+      "pt|hoch": "UNIQUE_PRODUCTION_TARGET",
+      "pt|hören": "UNIQUE_PRODUCTION_TARGET",
+      "sk|a1-wie": "PROVEN_IDENTICAL_ALIAS",
+      "sk|wie": "PROVEN_IDENTICAL_ALIAS",
+      "sk|aber": "UNIQUE_PRODUCTION_TARGET",
+      "sk|Appetit": "UNIQUE_PRODUCTION_TARGET",
+      "sk|erst": "UNIQUE_PRODUCTION_TARGET",
+      "sk|leise": "UNIQUE_PRODUCTION_TARGET",
+      "sk|Liter": "UNIQUE_PRODUCTION_TARGET",
+      "sk|machen": "UNIQUE_PRODUCTION_TARGET",
+      "sk|Mal": "UNIQUE_PRODUCTION_TARGET",
+      "sk|werden": "UNIQUE_PRODUCTION_TARGET",
+      "sk|Zug": "UNIQUE_PRODUCTION_TARGET",
+      "sl|ab": "UNIQUE_PRODUCTION_TARGET",
+      "sl|aber": "UNIQUE_PRODUCTION_TARGET",
+      "sl|an": "UNIQUE_PRODUCTION_TARGET",
+      "sl|auch": "UNIQUE_PRODUCTION_TARGET",
+      "sl|aufs": "UNIQUE_PRODUCTION_TARGET",
+      "sl|bei": "UNIQUE_PRODUCTION_TARGET",
+      "sl|bleiben": "UNIQUE_PRODUCTION_TARGET",
+      "sl|da": "UNIQUE_PRODUCTION_TARGET",
+      "sl|das": "UNIQUE_PRODUCTION_TARGET",
+      "sl|ein": "UNIQUE_PRODUCTION_TARGET",
+      "sl|Eis": "UNIQUE_PRODUCTION_TARGET",
+      "sl|erst": "UNIQUE_PRODUCTION_TARGET",
+      "sl|Ferien": "UNIQUE_PRODUCTION_TARGET",
+      "sl|gefallen": "UNIQUE_PRODUCTION_TARGET",
+      "sl|gleich": "UNIQUE_PRODUCTION_TARGET",
+      "sl|klein": "UNIQUE_PRODUCTION_TARGET",
+      "sl|sprechen": "UNIQUE_PRODUCTION_TARGET",
+      "sq|baden": "UNIQUE_PRODUCTION_TARGET",
+      "sq|Besuch": "UNIQUE_PRODUCTION_TARGET",
+      "sq|besuchen": "UNIQUE_PRODUCTION_TARGET",
+      "sr|also": "UNIQUE_PRODUCTION_TARGET",
+      "sr|auch": "UNIQUE_PRODUCTION_TARGET",
+      "sr|auf": "UNIQUE_PRODUCTION_TARGET",
+      "sr|aufs": "UNIQUE_PRODUCTION_TARGET",
+      "sr|aus": "UNIQUE_PRODUCTION_TARGET",
+      "sr|dass": "UNIQUE_PRODUCTION_TARGET",
+      "sr|der": "UNIQUE_PRODUCTION_TARGET",
+      "sr|die": "UNIQUE_PRODUCTION_TARGET",
+      "sr|morgen": "UNIQUE_PRODUCTION_TARGET",
+      "sr|Morgen": "UNIQUE_PRODUCTION_TARGET",
+      "sr|oder": "UNIQUE_PRODUCTION_TARGET",
+      "sr|schwimmen": "UNIQUE_PRODUCTION_TARGET",
+      "sr|sehen": "UNIQUE_PRODUCTION_TARGET",
+      "sr|sein": "UNIQUE_PRODUCTION_TARGET",
+      "sr|Seite": "UNIQUE_PRODUCTION_TARGET",
+      "sr|sich": "UNIQUE_PRODUCTION_TARGET",
+      "sr|sicher": "UNIQUE_PRODUCTION_TARGET",
+      "sr|sie": "UNIQUE_PRODUCTION_TARGET",
+      "sr|Sie": "UNIQUE_PRODUCTION_TARGET",
+      "sr|sitzen": "UNIQUE_PRODUCTION_TARGET",
+      "sr|sollen": "UNIQUE_PRODUCTION_TARGET",
+      "sr|vom": "UNIQUE_PRODUCTION_TARGET",
+      "sr|vor": "UNIQUE_PRODUCTION_TARGET",
+      "sr|was": "UNIQUE_PRODUCTION_TARGET",
+      "sr|wenn": "UNIQUE_PRODUCTION_TARGET",
+      "sr|wer": "UNIQUE_PRODUCTION_TARGET",
+      "sv|ab": "UNIQUE_PRODUCTION_TARGET",
+      "sv|aber": "UNIQUE_PRODUCTION_TARGET",
+      "sv|an": "UNIQUE_PRODUCTION_TARGET",
+      "sv|baden": "UNIQUE_PRODUCTION_TARGET",
+      "sv|bei": "UNIQUE_PRODUCTION_TARGET",
+      "sv|Besuch": "UNIQUE_PRODUCTION_TARGET",
+      "sv|besuchen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|das": "UNIQUE_PRODUCTION_TARGET",
+      "sv|dass": "UNIQUE_PRODUCTION_TARGET",
+      "sv|der": "UNIQUE_PRODUCTION_TARGET",
+      "sv|die": "UNIQUE_PRODUCTION_TARGET",
+      "sv|dieser": "UNIQUE_PRODUCTION_TARGET",
+      "sv|erst": "UNIQUE_PRODUCTION_TARGET",
+      "sv|fernsehen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|Fernsehen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|ganz": "UNIQUE_PRODUCTION_TARGET",
+      "sv|hoch": "UNIQUE_PRODUCTION_TARGET",
+      "sv|lassen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|laufen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|laut": "UNIQUE_PRODUCTION_TARGET",
+      "sv|Laut": "UNIQUE_PRODUCTION_TARGET",
+      "sv|legen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|sprechen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|stehen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|über": "UNIQUE_PRODUCTION_TARGET",
+      "sv|um": "UNIQUE_PRODUCTION_TARGET",
+      "sv|unter": "UNIQUE_PRODUCTION_TARGET",
+      "sv|verstehen": "UNIQUE_PRODUCTION_TARGET",
+      "sv|vom": "UNIQUE_PRODUCTION_TARGET",
+      "sv|vor": "UNIQUE_PRODUCTION_TARGET",
+      "sv|was": "UNIQUE_PRODUCTION_TARGET",
+      "sv|wenn": "UNIQUE_PRODUCTION_TARGET",
+      "sv|wer": "UNIQUE_PRODUCTION_TARGET",
+      "tr|Appetit": "UNIQUE_PRODUCTION_TARGET",
+      "tr|besuchen": "UNIQUE_PRODUCTION_TARGET",
+      "tr|das": "UNIQUE_PRODUCTION_TARGET",
+      "tr|dass": "UNIQUE_PRODUCTION_TARGET",
+      "tr|der": "UNIQUE_PRODUCTION_TARGET",
+      "tr|die": "UNIQUE_PRODUCTION_TARGET",
+      "tr|dieser": "UNIQUE_PRODUCTION_TARGET",
+      "tr|ein": "UNIQUE_PRODUCTION_TARGET",
+      "tr|Eis": "UNIQUE_PRODUCTION_TARGET",
+      "tr|erst": "UNIQUE_PRODUCTION_TARGET",
+      "tr|es": "UNIQUE_PRODUCTION_TARGET",
+      "tr|essen": "UNIQUE_PRODUCTION_TARGET",
+      "tr|fernsehen": "UNIQUE_PRODUCTION_TARGET",
+      "tr|Fernsehen": "UNIQUE_PRODUCTION_TARGET",
+      "tr|sollen": "UNIQUE_PRODUCTION_TARGET",
+      "tr|zum": "UNIQUE_PRODUCTION_TARGET",
+      "uk|ihr": "UNIQUE_PRODUCTION_TARGET"
+    },
+    "unique_production_target_count": 233
+  },
+  "owner_leaf_matches": 4787,
+  "owner_leaf_total": 4787,
+  "owner_leaf_trace_rows": 4787,
+  "unique_production_leaf_targets": 4771,
+  "collapsed_duplicate_leaf_trace_rows": 16,
+  "changed_production_files": 46,
+  "production_files_changed_vs_pr_head": 0,
+  "changed_non_target_cards": 0,
+  "data_www_mirror_mismatches": 0,
+  "de_changes": 0,
+  "syntax_failures": 0,
+  "unauthorized_file_changes": 0,
+  "card_sha_mismatches": 0,
+  "production_file_shas_before": [
+    {
+      "path": "data/bg/a1.js",
+      "sha256": "14b2f5279651200ba4308c3fc2091c350a60e4fc6f5ddfbcdd823d23032452a1"
+    },
+    {
+      "path": "www/data/bg/a1.js",
+      "sha256": "14b2f5279651200ba4308c3fc2091c350a60e4fc6f5ddfbcdd823d23032452a1"
+    },
+    {
+      "path": "data/bs/a1.js",
+      "sha256": "32932c21765f8eb0cca269164008d1a38c3012566fbbd41cb921dc422ee11eb7"
+    },
+    {
+      "path": "www/data/bs/a1.js",
+      "sha256": "32932c21765f8eb0cca269164008d1a38c3012566fbbd41cb921dc422ee11eb7"
+    },
+    {
+      "path": "data/cs/a1.js",
+      "sha256": "addfb18e0b73c729d3a8009412b12844405da97ea4ff885f2781a71130271955"
+    },
+    {
+      "path": "www/data/cs/a1.js",
+      "sha256": "addfb18e0b73c729d3a8009412b12844405da97ea4ff885f2781a71130271955"
+    },
+    {
+      "path": "data/da/a1.js",
+      "sha256": "69833785892f41b572d2ff715e6bf08c55d479ae1fa98498fdd13921d4d6b66c"
+    },
+    {
+      "path": "www/data/da/a1.js",
+      "sha256": "69833785892f41b572d2ff715e6bf08c55d479ae1fa98498fdd13921d4d6b66c"
+    },
+    {
+      "path": "data/en/a1.js",
+      "sha256": "bfd003bcf8193d64d47b3169ff97bd5e1034de8fb14165426fe230228874d3f0"
+    },
+    {
+      "path": "www/data/en/a1.js",
+      "sha256": "bfd003bcf8193d64d47b3169ff97bd5e1034de8fb14165426fe230228874d3f0"
+    },
+    {
+      "path": "data/es/a1.js",
+      "sha256": "5bc487c90d4ec9951c3d76f87b01c5b15ee0f14474a9c9478cac8b18f09af96c"
+    },
+    {
+      "path": "www/data/es/a1.js",
+      "sha256": "5bc487c90d4ec9951c3d76f87b01c5b15ee0f14474a9c9478cac8b18f09af96c"
+    },
+    {
+      "path": "data/et/a1.js",
+      "sha256": "898f3c5608bff10c760e164815d719157c140719a7046438e3efb88e87b379db"
+    },
+    {
+      "path": "www/data/et/a1.js",
+      "sha256": "898f3c5608bff10c760e164815d719157c140719a7046438e3efb88e87b379db"
+    },
+    {
+      "path": "data/fi/a1.js",
+      "sha256": "b90b8a4b09f9867aaa8c67bf576fd3bb002f1e7185a9e949e7ee4b60901d5250"
+    },
+    {
+      "path": "www/data/fi/a1.js",
+      "sha256": "b90b8a4b09f9867aaa8c67bf576fd3bb002f1e7185a9e949e7ee4b60901d5250"
+    },
+    {
+      "path": "data/fr/a1.js",
+      "sha256": "8a4f5c05be700146f7f4e8c4b4dc7964a2a6e24fdd656a24a93751257749f2e5"
+    },
+    {
+      "path": "www/data/fr/a1.js",
+      "sha256": "8a4f5c05be700146f7f4e8c4b4dc7964a2a6e24fdd656a24a93751257749f2e5"
+    },
+    {
+      "path": "data/gr/a1.js",
+      "sha256": "89ae1cdf68c192e03016ecddbce215c320d4364dde56ea079c34ffffa08f8f9e"
+    },
+    {
+      "path": "www/data/gr/a1.js",
+      "sha256": "89ae1cdf68c192e03016ecddbce215c320d4364dde56ea079c34ffffa08f8f9e"
+    },
+    {
+      "path": "data/hu/a1.js",
+      "sha256": "cc9995e30369d3c5245475e789b5c5d00f5327f2394ac3b97d6567f3e1d84642"
+    },
+    {
+      "path": "www/data/hu/a1.js",
+      "sha256": "cc9995e30369d3c5245475e789b5c5d00f5327f2394ac3b97d6567f3e1d84642"
+    },
+    {
+      "path": "data/is/a1.js",
+      "sha256": "a0c950a2c530b47b07b163d22a8bdb1f0e54e238008ae9e89d348b542dcfca32"
+    },
+    {
+      "path": "www/data/is/a1.js",
+      "sha256": "a0c950a2c530b47b07b163d22a8bdb1f0e54e238008ae9e89d348b542dcfca32"
+    },
+    {
+      "path": "data/lb/a1.js",
+      "sha256": "1aeff9b4718f1f24942b8c88a6cff4b5a5061892a883ae59525a6de81d9d54a1"
+    },
+    {
+      "path": "www/data/lb/a1.js",
+      "sha256": "1aeff9b4718f1f24942b8c88a6cff4b5a5061892a883ae59525a6de81d9d54a1"
+    },
+    {
+      "path": "data/nl/a1.js",
+      "sha256": "05598ea5dc9dab40d73a9131f5667a41821916e1234553eb3ff4d7aff6a86b7a"
+    },
+    {
+      "path": "www/data/nl/a1.js",
+      "sha256": "05598ea5dc9dab40d73a9131f5667a41821916e1234553eb3ff4d7aff6a86b7a"
+    },
+    {
+      "path": "data/nn/a1.js",
+      "sha256": "e858fbeccfa93f148ce09b2ef47326efdc44bb551ff4ca730f15b974f47db513"
+    },
+    {
+      "path": "www/data/nn/a1.js",
+      "sha256": "e858fbeccfa93f148ce09b2ef47326efdc44bb551ff4ca730f15b974f47db513"
+    },
+    {
+      "path": "data/pt/a1.js",
+      "sha256": "6258d85631f65b5aacc3be6cff0d95f2e99ff57d01491f9d0cc6c5d8a07bc4a1"
+    },
+    {
+      "path": "www/data/pt/a1.js",
+      "sha256": "6258d85631f65b5aacc3be6cff0d95f2e99ff57d01491f9d0cc6c5d8a07bc4a1"
+    },
+    {
+      "path": "data/sk/a1.js",
+      "sha256": "9e15ffb5e686691ca73638cd436b06f3ea9374e44a0c8e2528ae787fb3af6dc5"
+    },
+    {
+      "path": "www/data/sk/a1.js",
+      "sha256": "9e15ffb5e686691ca73638cd436b06f3ea9374e44a0c8e2528ae787fb3af6dc5"
+    },
+    {
+      "path": "data/sl/a1.js",
+      "sha256": "3fe7b349388b239160f5f5f570b36567a6398786175a9b5a15233364afa30837"
+    },
+    {
+      "path": "www/data/sl/a1.js",
+      "sha256": "3fe7b349388b239160f5f5f570b36567a6398786175a9b5a15233364afa30837"
+    },
+    {
+      "path": "data/sq/a1.js",
+      "sha256": "a6dd8e87da4fc800a680233f2d52aedbe0673fcd591835c1ffe9288fd445115d"
+    },
+    {
+      "path": "www/data/sq/a1.js",
+      "sha256": "a6dd8e87da4fc800a680233f2d52aedbe0673fcd591835c1ffe9288fd445115d"
+    },
+    {
+      "path": "data/sr/a1.js",
+      "sha256": "acc52b929a519402a782fd565812025c6c1fa60d23e89e3c1125ec0e1b3c8174"
+    },
+    {
+      "path": "www/data/sr/a1.js",
+      "sha256": "acc52b929a519402a782fd565812025c6c1fa60d23e89e3c1125ec0e1b3c8174"
+    },
+    {
+      "path": "data/sv/a1.js",
+      "sha256": "c2fd20afd7c54e91467955e5ffd67e499d3578220c2a12910b2c80675225b2d5"
+    },
+    {
+      "path": "www/data/sv/a1.js",
+      "sha256": "c2fd20afd7c54e91467955e5ffd67e499d3578220c2a12910b2c80675225b2d5"
+    },
+    {
+      "path": "data/tr/a1.js",
+      "sha256": "427c6161aa27b0c720bcaad903265e323c8b45b19f933b7fd2521f15933b691e"
+    },
+    {
+      "path": "www/data/tr/a1.js",
+      "sha256": "427c6161aa27b0c720bcaad903265e323c8b45b19f933b7fd2521f15933b691e"
+    },
+    {
+      "path": "data/uk/a1.js",
+      "sha256": "5440dbf12b06ef85bc34c382b4747c9436f5c1861e3f43ce7de102a98ce43606"
+    },
+    {
+      "path": "www/data/uk/a1.js",
+      "sha256": "5440dbf12b06ef85bc34c382b4747c9436f5c1861e3f43ce7de102a98ce43606"
+    }
+  ],
+  "production_file_shas_after": [
+    {
+      "path": "data/bg/a1.js",
+      "sha256": "547e7c48948f948f5a61f5e457ceba05cb58a7fb4061fde0770af8ee5271d889"
+    },
+    {
+      "path": "www/data/bg/a1.js",
+      "sha256": "547e7c48948f948f5a61f5e457ceba05cb58a7fb4061fde0770af8ee5271d889"
+    },
+    {
+      "path": "data/bs/a1.js",
+      "sha256": "d161085b1b9d6b2fed62e838cea167ae3d626c47ecf182e15568166f6d57e60e"
+    },
+    {
+      "path": "www/data/bs/a1.js",
+      "sha256": "d161085b1b9d6b2fed62e838cea167ae3d626c47ecf182e15568166f6d57e60e"
+    },
+    {
+      "path": "data/cs/a1.js",
+      "sha256": "d5754c861113128e9836b60d179b3c7a61e141db125cb10c2483e603c8287f78"
+    },
+    {
+      "path": "www/data/cs/a1.js",
+      "sha256": "d5754c861113128e9836b60d179b3c7a61e141db125cb10c2483e603c8287f78"
+    },
+    {
+      "path": "data/da/a1.js",
+      "sha256": "ade11202e272179a5b4970e817e5e94f1b3fb2f7bb834c3cced0b7c79357c678"
+    },
+    {
+      "path": "www/data/da/a1.js",
+      "sha256": "ade11202e272179a5b4970e817e5e94f1b3fb2f7bb834c3cced0b7c79357c678"
+    },
+    {
+      "path": "data/en/a1.js",
+      "sha256": "edcf401ca4f5606133eec439a72af25af8d6fd7d98582ac4d53e475ee012985c"
+    },
+    {
+      "path": "www/data/en/a1.js",
+      "sha256": "edcf401ca4f5606133eec439a72af25af8d6fd7d98582ac4d53e475ee012985c"
+    },
+    {
+      "path": "data/es/a1.js",
+      "sha256": "03a44921eeb59abcf75a6ec7e54e6f3e7a77fa8a8151a3df45b8c2aac2cb2556"
+    },
+    {
+      "path": "www/data/es/a1.js",
+      "sha256": "03a44921eeb59abcf75a6ec7e54e6f3e7a77fa8a8151a3df45b8c2aac2cb2556"
+    },
+    {
+      "path": "data/et/a1.js",
+      "sha256": "106dcbd199d59887759c8c46bfeec0da4b17420697655d67f18f958efe923b36"
+    },
+    {
+      "path": "www/data/et/a1.js",
+      "sha256": "106dcbd199d59887759c8c46bfeec0da4b17420697655d67f18f958efe923b36"
+    },
+    {
+      "path": "data/fi/a1.js",
+      "sha256": "0307777bfac2b6584e498009c5d6e823530c02dadec378edde9647c1c6885d19"
+    },
+    {
+      "path": "www/data/fi/a1.js",
+      "sha256": "0307777bfac2b6584e498009c5d6e823530c02dadec378edde9647c1c6885d19"
+    },
+    {
+      "path": "data/fr/a1.js",
+      "sha256": "3e0ed100a13289b61d874122835b08b9b07e5e7297044476329fc4ba02a7df77"
+    },
+    {
+      "path": "www/data/fr/a1.js",
+      "sha256": "3e0ed100a13289b61d874122835b08b9b07e5e7297044476329fc4ba02a7df77"
+    },
+    {
+      "path": "data/gr/a1.js",
+      "sha256": "28c5a23f5ff8a817e69d6fa27055a0090a1e3e16fd30f19f138d75b239a2bc3e"
+    },
+    {
+      "path": "www/data/gr/a1.js",
+      "sha256": "28c5a23f5ff8a817e69d6fa27055a0090a1e3e16fd30f19f138d75b239a2bc3e"
+    },
+    {
+      "path": "data/hu/a1.js",
+      "sha256": "f431cec7ac44460f17ea7c08cd874ff2dcfdc68639a419666e02dc317627a040"
+    },
+    {
+      "path": "www/data/hu/a1.js",
+      "sha256": "f431cec7ac44460f17ea7c08cd874ff2dcfdc68639a419666e02dc317627a040"
+    },
+    {
+      "path": "data/is/a1.js",
+      "sha256": "1e87fc3cec5cd6e1e852d2956032f6b0e041694733513c77f93536620a7be10c"
+    },
+    {
+      "path": "www/data/is/a1.js",
+      "sha256": "1e87fc3cec5cd6e1e852d2956032f6b0e041694733513c77f93536620a7be10c"
+    },
+    {
+      "path": "data/lb/a1.js",
+      "sha256": "9154bb2c7fed85f61c8cfd8b8f78bc5a4df485e9b310d672e0e07b57684c1fe0"
+    },
+    {
+      "path": "www/data/lb/a1.js",
+      "sha256": "9154bb2c7fed85f61c8cfd8b8f78bc5a4df485e9b310d672e0e07b57684c1fe0"
+    },
+    {
+      "path": "data/nl/a1.js",
+      "sha256": "7a6c9a8a9a3383a1ccb07931cc84b2a0f3090d79240671edb701674eefb85dad"
+    },
+    {
+      "path": "www/data/nl/a1.js",
+      "sha256": "7a6c9a8a9a3383a1ccb07931cc84b2a0f3090d79240671edb701674eefb85dad"
+    },
+    {
+      "path": "data/nn/a1.js",
+      "sha256": "946aefaf5c1edd13ee39faf827d6614e1ecca21ddee882fc6ca587ce5ec4f78b"
+    },
+    {
+      "path": "www/data/nn/a1.js",
+      "sha256": "946aefaf5c1edd13ee39faf827d6614e1ecca21ddee882fc6ca587ce5ec4f78b"
+    },
+    {
+      "path": "data/pt/a1.js",
+      "sha256": "19f36f0dcc639635471dc3e9d287c75d5c79a6ed9af4a7c89b734b93b902b244"
+    },
+    {
+      "path": "www/data/pt/a1.js",
+      "sha256": "19f36f0dcc639635471dc3e9d287c75d5c79a6ed9af4a7c89b734b93b902b244"
+    },
+    {
+      "path": "data/sk/a1.js",
+      "sha256": "7aaf728a2b1503a009e4c6d5786b7be767b76554f76f8a2595e9edd2a1829824"
+    },
+    {
+      "path": "www/data/sk/a1.js",
+      "sha256": "7aaf728a2b1503a009e4c6d5786b7be767b76554f76f8a2595e9edd2a1829824"
+    },
+    {
+      "path": "data/sl/a1.js",
+      "sha256": "8888b62789ff90965e7fbcb84b4b52a25ec1e7e86f75874c4915a6a9ddacdef2"
+    },
+    {
+      "path": "www/data/sl/a1.js",
+      "sha256": "8888b62789ff90965e7fbcb84b4b52a25ec1e7e86f75874c4915a6a9ddacdef2"
+    },
+    {
+      "path": "data/sq/a1.js",
+      "sha256": "3b1e7fdb40071317d709a00a20dfd086a3ebd591cd602acc718a56e81400762f"
+    },
+    {
+      "path": "www/data/sq/a1.js",
+      "sha256": "3b1e7fdb40071317d709a00a20dfd086a3ebd591cd602acc718a56e81400762f"
+    },
+    {
+      "path": "data/sr/a1.js",
+      "sha256": "c4d30a48fc0aa98bc2e91c2163290fd9d22e197aaf4a4807c42a157bc79e3ae3"
+    },
+    {
+      "path": "www/data/sr/a1.js",
+      "sha256": "c4d30a48fc0aa98bc2e91c2163290fd9d22e197aaf4a4807c42a157bc79e3ae3"
+    },
+    {
+      "path": "data/sv/a1.js",
+      "sha256": "a3a1c2dcaee3e6d79729f6b137fcf547a4eeb44ae38e9b267f27688423c3c924"
+    },
+    {
+      "path": "www/data/sv/a1.js",
+      "sha256": "a3a1c2dcaee3e6d79729f6b137fcf547a4eeb44ae38e9b267f27688423c3c924"
+    },
+    {
+      "path": "data/tr/a1.js",
+      "sha256": "e536a225d442590620644cfa791e81fb5e3c42c107295f3982a4b43231f59665"
+    },
+    {
+      "path": "www/data/tr/a1.js",
+      "sha256": "e536a225d442590620644cfa791e81fb5e3c42c107295f3982a4b43231f59665"
+    },
+    {
+      "path": "data/uk/a1.js",
+      "sha256": "d163acd8a78a301b1101d99d376d7a4c95296dd974b2d7d79d771c63654afb3b"
+    },
+    {
+      "path": "www/data/uk/a1.js",
+      "sha256": "d163acd8a78a301b1101d99d376d7a4c95296dd974b2d7d79d771c63654afb3b"
+    }
+  ],
+  "card_results_sample": [
+    {
+      "card_key": "bg|aufs",
+      "production_planned_entry_sha256": "075b3237f1f1d058dc25725c28ec89ffc3877fa74af91152034adf084f524c75",
+      "production_live_entry_sha256": "075b3237f1f1d058dc25725c28ec89ffc3877fa74af91152034adf084f524c75",
+      "match": true
+    },
+    {
+      "card_key": "bg|das",
+      "production_planned_entry_sha256": "71438e244614c8efce9cd2d0ec487f0f4d4838a4f6ac8d6a02525a8c33aaaaf3",
+      "production_live_entry_sha256": "71438e244614c8efce9cd2d0ec487f0f4d4838a4f6ac8d6a02525a8c33aaaaf3",
+      "match": true
+    },
+    {
+      "card_key": "bg|finden",
+      "production_planned_entry_sha256": "1fd905577d1913eb5869cdc4c9653f5a53536d4eb5d6c2d92d2defa2c359e2b3",
+      "production_live_entry_sha256": "1fd905577d1913eb5869cdc4c9653f5a53536d4eb5d6c2d92d2defa2c359e2b3",
+      "match": true
+    },
+    {
+      "card_key": "bg|gleich",
+      "production_planned_entry_sha256": "18081fa43b0f342fc7a5bb1111fa9f28520463a1e7a263a68715600956e553d3",
+      "production_live_entry_sha256": "18081fa43b0f342fc7a5bb1111fa9f28520463a1e7a263a68715600956e553d3",
+      "match": true
+    },
+    {
+      "card_key": "bg|groß",
+      "production_planned_entry_sha256": "f98bf92ec137ba8a2a706ed23a92cfc7cb4a92179f665b016a3fafdd062101a2",
+      "production_live_entry_sha256": "f98bf92ec137ba8a2a706ed23a92cfc7cb4a92179f665b016a3fafdd062101a2",
+      "match": true
+    }
+  ],
+  "per_card_target_classification": {
+    "bg|aufs": "UNIQUE_PRODUCTION_TARGET",
+    "bg|das": "UNIQUE_PRODUCTION_TARGET",
+    "bg|finden": "UNIQUE_PRODUCTION_TARGET",
+    "bg|gleich": "UNIQUE_PRODUCTION_TARGET",
+    "bg|groß": "UNIQUE_PRODUCTION_TARGET",
+    "bg|gut": "UNIQUE_PRODUCTION_TARGET",
+    "bg|ihr": "UNIQUE_PRODUCTION_TARGET",
+    "bg|im": "UNIQUE_PRODUCTION_TARGET",
+    "bs|erst": "UNIQUE_PRODUCTION_TARGET",
+    "bs|etwas": "UNIQUE_PRODUCTION_TARGET",
+    "bs|gut": "UNIQUE_PRODUCTION_TARGET",
+    "bs|Morgen": "UNIQUE_PRODUCTION_TARGET",
+    "cs|Mann": "UNIQUE_PRODUCTION_TARGET",
+    "cs|mit": "UNIQUE_PRODUCTION_TARGET",
+    "cs|mögen": "UNIQUE_PRODUCTION_TARGET",
+    "cs|morgen": "UNIQUE_PRODUCTION_TARGET",
+    "cs|Morgen": "UNIQUE_PRODUCTION_TARGET",
+    "da|gleich": "UNIQUE_PRODUCTION_TARGET",
+    "da|können": "UNIQUE_PRODUCTION_TARGET",
+    "da|Laden": "UNIQUE_PRODUCTION_TARGET",
+    "da|Land": "UNIQUE_PRODUCTION_TARGET",
+    "en|ab": "UNIQUE_PRODUCTION_TARGET",
+    "en|aber": "UNIQUE_PRODUCTION_TARGET",
+    "en|an": "UNIQUE_PRODUCTION_TARGET",
+    "en|ein": "UNIQUE_PRODUCTION_TARGET",
+    "en|Eis": "UNIQUE_PRODUCTION_TARGET",
+    "en|erst": "UNIQUE_PRODUCTION_TARGET",
+    "en|es": "UNIQUE_PRODUCTION_TARGET",
+    "en|essen": "UNIQUE_PRODUCTION_TARGET",
+    "en|etwas": "UNIQUE_PRODUCTION_TARGET",
+    "en|ganz": "UNIQUE_PRODUCTION_TARGET",
+    "en|klein": "UNIQUE_PRODUCTION_TARGET",
+    "en|nach": "UNIQUE_PRODUCTION_TARGET",
+    "en|nehmen": "UNIQUE_PRODUCTION_TARGET",
+    "en|ob": "UNIQUE_PRODUCTION_TARGET",
+    "en|sprechen": "UNIQUE_PRODUCTION_TARGET",
+    "en|stehen": "UNIQUE_PRODUCTION_TARGET",
+    "en|zum": "UNIQUE_PRODUCTION_TARGET",
+    "es|aufs": "UNIQUE_PRODUCTION_TARGET",
+    "es|dass": "UNIQUE_PRODUCTION_TARGET",
+    "es|Eis": "UNIQUE_PRODUCTION_TARGET",
+    "es|es": "UNIQUE_PRODUCTION_TARGET",
+    "es|oder": "UNIQUE_PRODUCTION_TARGET",
+    "es|passen": "UNIQUE_PRODUCTION_TARGET",
+    "et|bitte": "UNIQUE_PRODUCTION_TARGET",
+    "et|Bitte": "UNIQUE_PRODUCTION_TARGET",
+    "et|bleiben": "UNIQUE_PRODUCTION_TARGET",
+    "et|bringen": "UNIQUE_PRODUCTION_TARGET",
+    "et|da": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-ab": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-aber": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-also": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-besuch": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-besuchen": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-fahren": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-nehmen": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-passen": "UNIQUE_PRODUCTION_TARGET",
+    "fi|a1-sich": "UNIQUE_PRODUCTION_TARGET",
+    "fi|Bitte": "UNIQUE_PRODUCTION_TARGET",
+    "fi|nicht": "UNIQUE_PRODUCTION_TARGET",
+    "fi|Pizza": "UNIQUE_PRODUCTION_TARGET",
+    "fi|Sache": "UNIQUE_PRODUCTION_TARGET",
+    "fr|Besuch": "UNIQUE_PRODUCTION_TARGET",
+    "fr|einmal": "UNIQUE_PRODUCTION_TARGET",
+    "fr|Essen": "UNIQUE_PRODUCTION_TARGET",
+    "fr|Ferien": "UNIQUE_PRODUCTION_TARGET",
+    "fr|Gemüse": "UNIQUE_PRODUCTION_TARGET",
+    "fr|morgen": "UNIQUE_PRODUCTION_TARGET",
+    "fr|Morgen": "UNIQUE_PRODUCTION_TARGET",
+    "fr|Obst": "UNIQUE_PRODUCTION_TARGET",
+    "fr|Urlaub": "UNIQUE_PRODUCTION_TARGET",
+    "gr|noch": "UNIQUE_PRODUCTION_TARGET",
+    "gr|nur": "UNIQUE_PRODUCTION_TARGET",
+    "gr|passen": "UNIQUE_PRODUCTION_TARGET",
+    "hu|ab": "UNIQUE_PRODUCTION_TARGET",
+    "hu|aber": "UNIQUE_PRODUCTION_TARGET",
+    "hu|Essen": "UNIQUE_PRODUCTION_TARGET",
+    "hu|gleich": "UNIQUE_PRODUCTION_TARGET",
+    "hu|klein": "UNIQUE_PRODUCTION_TARGET",
+    "hu|Laden": "UNIQUE_PRODUCTION_TARGET",
+    "hu|lang": "UNIQUE_PRODUCTION_TARGET",
+    "is|Essen": "UNIQUE_PRODUCTION_TARGET",
+    "is|Ferien": "UNIQUE_PRODUCTION_TARGET",
+    "is|Gemüse": "UNIQUE_PRODUCTION_TARGET",
+    "is|Obst": "UNIQUE_PRODUCTION_TARGET",
+    "is|Urlaub": "UNIQUE_PRODUCTION_TARGET",
+    "lb|Eis": "UNIQUE_PRODUCTION_TARGET",
+    "lb|etwas": "UNIQUE_PRODUCTION_TARGET",
+    "lb|fahren": "UNIQUE_PRODUCTION_TARGET",
+    "lb|fernsehen": "UNIQUE_PRODUCTION_TARGET",
+    "lb|Fernsehen": "UNIQUE_PRODUCTION_TARGET",
+    "lb|jung": "UNIQUE_PRODUCTION_TARGET",
+    "lb|kein": "UNIQUE_PRODUCTION_TARGET",
+    "lb|laufen": "UNIQUE_PRODUCTION_TARGET",
+    "lb|Mann": "UNIQUE_PRODUCTION_TARGET",
+    "lb|mit": "UNIQUE_PRODUCTION_TARGET",
+    "lb|mögen": "UNIQUE_PRODUCTION_TARGET",
+    "lb|morgen": "UNIQUE_PRODUCTION_TARGET",
+    "lb|Morgen": "UNIQUE_PRODUCTION_TARGET",
+    "lb|nach": "UNIQUE_PRODUCTION_TARGET",
+    "lb|werden": "UNIQUE_PRODUCTION_TARGET",
+    "lb|Wetter": "UNIQUE_PRODUCTION_TARGET",
+    "lb|wie": "UNIQUE_PRODUCTION_TARGET",
+    "lb|zu": "UNIQUE_PRODUCTION_TARGET",
+    "lb|Zug": "UNIQUE_PRODUCTION_TARGET",
+    "nl|schwimmen": "UNIQUE_PRODUCTION_TARGET",
+    "nl|sich": "UNIQUE_PRODUCTION_TARGET",
+    "nn|a1-neu": "UNIQUE_PRODUCTION_TARGET",
+    "nn|a1-verstehen": "UNIQUE_PRODUCTION_TARGET",
+    "nn|a1-wie": "UNIQUE_PRODUCTION_TARGET",
+    "pt|bitte": "UNIQUE_PRODUCTION_TARGET",
+    "pt|Bitte": "UNIQUE_PRODUCTION_TARGET",
+    "pt|bleiben": "UNIQUE_PRODUCTION_TARGET",
+    "pt|erst": "UNIQUE_PRODUCTION_TARGET",
+    "pt|etwas": "UNIQUE_PRODUCTION_TARGET",
+    "pt|euch": "UNIQUE_PRODUCTION_TARGET",
+    "pt|fahren": "UNIQUE_PRODUCTION_TARGET",
+    "pt|gleich": "UNIQUE_PRODUCTION_TARGET",
+    "pt|groß": "UNIQUE_PRODUCTION_TARGET",
+    "pt|Großeltern": "UNIQUE_PRODUCTION_TARGET",
+    "pt|gut": "UNIQUE_PRODUCTION_TARGET",
+    "pt|haben": "UNIQUE_PRODUCTION_TARGET",
+    "pt|halten": "UNIQUE_PRODUCTION_TARGET",
+    "pt|Hand": "UNIQUE_PRODUCTION_TARGET",
+    "pt|heißen": "UNIQUE_PRODUCTION_TARGET",
+    "pt|hoch": "UNIQUE_PRODUCTION_TARGET",
+    "pt|hören": "UNIQUE_PRODUCTION_TARGET",
+    "sk|a1-wie": "PROVEN_IDENTICAL_ALIAS",
+    "sk|wie": "PROVEN_IDENTICAL_ALIAS",
+    "sk|aber": "UNIQUE_PRODUCTION_TARGET",
+    "sk|Appetit": "UNIQUE_PRODUCTION_TARGET",
+    "sk|erst": "UNIQUE_PRODUCTION_TARGET",
+    "sk|leise": "UNIQUE_PRODUCTION_TARGET",
+    "sk|Liter": "UNIQUE_PRODUCTION_TARGET",
+    "sk|machen": "UNIQUE_PRODUCTION_TARGET",
+    "sk|Mal": "UNIQUE_PRODUCTION_TARGET",
+    "sk|werden": "UNIQUE_PRODUCTION_TARGET",
+    "sk|Zug": "UNIQUE_PRODUCTION_TARGET",
+    "sl|ab": "UNIQUE_PRODUCTION_TARGET",
+    "sl|aber": "UNIQUE_PRODUCTION_TARGET",
+    "sl|an": "UNIQUE_PRODUCTION_TARGET",
+    "sl|auch": "UNIQUE_PRODUCTION_TARGET",
+    "sl|aufs": "UNIQUE_PRODUCTION_TARGET",
+    "sl|bei": "UNIQUE_PRODUCTION_TARGET",
+    "sl|bleiben": "UNIQUE_PRODUCTION_TARGET",
+    "sl|da": "UNIQUE_PRODUCTION_TARGET",
+    "sl|das": "UNIQUE_PRODUCTION_TARGET",
+    "sl|ein": "UNIQUE_PRODUCTION_TARGET",
+    "sl|Eis": "UNIQUE_PRODUCTION_TARGET",
+    "sl|erst": "UNIQUE_PRODUCTION_TARGET",
+    "sl|Ferien": "UNIQUE_PRODUCTION_TARGET",
+    "sl|gefallen": "UNIQUE_PRODUCTION_TARGET",
+    "sl|gleich": "UNIQUE_PRODUCTION_TARGET",
+    "sl|klein": "UNIQUE_PRODUCTION_TARGET",
+    "sl|sprechen": "UNIQUE_PRODUCTION_TARGET",
+    "sq|baden": "UNIQUE_PRODUCTION_TARGET",
+    "sq|Besuch": "UNIQUE_PRODUCTION_TARGET",
+    "sq|besuchen": "UNIQUE_PRODUCTION_TARGET",
+    "sr|also": "UNIQUE_PRODUCTION_TARGET",
+    "sr|auch": "UNIQUE_PRODUCTION_TARGET",
+    "sr|auf": "UNIQUE_PRODUCTION_TARGET",
+    "sr|aufs": "UNIQUE_PRODUCTION_TARGET",
+    "sr|aus": "UNIQUE_PRODUCTION_TARGET",
+    "sr|dass": "UNIQUE_PRODUCTION_TARGET",
+    "sr|der": "UNIQUE_PRODUCTION_TARGET",
+    "sr|die": "UNIQUE_PRODUCTION_TARGET",
+    "sr|morgen": "UNIQUE_PRODUCTION_TARGET",
+    "sr|Morgen": "UNIQUE_PRODUCTION_TARGET",
+    "sr|oder": "UNIQUE_PRODUCTION_TARGET",
+    "sr|schwimmen": "UNIQUE_PRODUCTION_TARGET",
+    "sr|sehen": "UNIQUE_PRODUCTION_TARGET",
+    "sr|sein": "UNIQUE_PRODUCTION_TARGET",
+    "sr|Seite": "UNIQUE_PRODUCTION_TARGET",
+    "sr|sich": "UNIQUE_PRODUCTION_TARGET",
+    "sr|sicher": "UNIQUE_PRODUCTION_TARGET",
+    "sr|sie": "UNIQUE_PRODUCTION_TARGET",
+    "sr|Sie": "UNIQUE_PRODUCTION_TARGET",
+    "sr|sitzen": "UNIQUE_PRODUCTION_TARGET",
+    "sr|sollen": "UNIQUE_PRODUCTION_TARGET",
+    "sr|vom": "UNIQUE_PRODUCTION_TARGET",
+    "sr|vor": "UNIQUE_PRODUCTION_TARGET",
+    "sr|was": "UNIQUE_PRODUCTION_TARGET",
+    "sr|wenn": "UNIQUE_PRODUCTION_TARGET",
+    "sr|wer": "UNIQUE_PRODUCTION_TARGET",
+    "sv|ab": "UNIQUE_PRODUCTION_TARGET",
+    "sv|aber": "UNIQUE_PRODUCTION_TARGET",
+    "sv|an": "UNIQUE_PRODUCTION_TARGET",
+    "sv|baden": "UNIQUE_PRODUCTION_TARGET",
+    "sv|bei": "UNIQUE_PRODUCTION_TARGET",
+    "sv|Besuch": "UNIQUE_PRODUCTION_TARGET",
+    "sv|besuchen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|das": "UNIQUE_PRODUCTION_TARGET",
+    "sv|dass": "UNIQUE_PRODUCTION_TARGET",
+    "sv|der": "UNIQUE_PRODUCTION_TARGET",
+    "sv|die": "UNIQUE_PRODUCTION_TARGET",
+    "sv|dieser": "UNIQUE_PRODUCTION_TARGET",
+    "sv|erst": "UNIQUE_PRODUCTION_TARGET",
+    "sv|fernsehen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|Fernsehen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|ganz": "UNIQUE_PRODUCTION_TARGET",
+    "sv|hoch": "UNIQUE_PRODUCTION_TARGET",
+    "sv|lassen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|laufen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|laut": "UNIQUE_PRODUCTION_TARGET",
+    "sv|Laut": "UNIQUE_PRODUCTION_TARGET",
+    "sv|legen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|sprechen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|stehen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|über": "UNIQUE_PRODUCTION_TARGET",
+    "sv|um": "UNIQUE_PRODUCTION_TARGET",
+    "sv|unter": "UNIQUE_PRODUCTION_TARGET",
+    "sv|verstehen": "UNIQUE_PRODUCTION_TARGET",
+    "sv|vom": "UNIQUE_PRODUCTION_TARGET",
+    "sv|vor": "UNIQUE_PRODUCTION_TARGET",
+    "sv|was": "UNIQUE_PRODUCTION_TARGET",
+    "sv|wenn": "UNIQUE_PRODUCTION_TARGET",
+    "sv|wer": "UNIQUE_PRODUCTION_TARGET",
+    "tr|Appetit": "UNIQUE_PRODUCTION_TARGET",
+    "tr|besuchen": "UNIQUE_PRODUCTION_TARGET",
+    "tr|das": "UNIQUE_PRODUCTION_TARGET",
+    "tr|dass": "UNIQUE_PRODUCTION_TARGET",
+    "tr|der": "UNIQUE_PRODUCTION_TARGET",
+    "tr|die": "UNIQUE_PRODUCTION_TARGET",
+    "tr|dieser": "UNIQUE_PRODUCTION_TARGET",
+    "tr|ein": "UNIQUE_PRODUCTION_TARGET",
+    "tr|Eis": "UNIQUE_PRODUCTION_TARGET",
+    "tr|erst": "UNIQUE_PRODUCTION_TARGET",
+    "tr|es": "UNIQUE_PRODUCTION_TARGET",
+    "tr|essen": "UNIQUE_PRODUCTION_TARGET",
+    "tr|fernsehen": "UNIQUE_PRODUCTION_TARGET",
+    "tr|Fernsehen": "UNIQUE_PRODUCTION_TARGET",
+    "tr|sollen": "UNIQUE_PRODUCTION_TARGET",
+    "tr|zum": "UNIQUE_PRODUCTION_TARGET",
+    "uk|ihr": "UNIQUE_PRODUCTION_TARGET"
+  },
+  "classification": "A1_LRB_001_103_PRODUCTION_APPLY_TARGET_ALIAS_RECONCILIATION_COMPLETE_AWAITING_OWNER_REVERIFICATION",
+  "next_action": "OWNER_REVERIFY_PRODUCTION_APPLY_AND_AUTHORIZE_MERGE"
+}

@@ -17353,199 +17353,55 @@ const A1_WORDS = [
   },
   {
     "de": "neu",
-    "lv": "Uus (asjade kohta)",
+    "lv": "ny • nyoppdaga eller nyleg laga",
     "level": "A1",
     "study": {
       "id": "a1-neu",
       "layout": "standardStudy",
-      "translation": "Uus (asjade kohta)",
+      "translation": "ny • nyoppdaga eller nyleg laga",
       "explanation": [
-        "Põhiidee: neu jähät uus asja tökäs — nylig opprettet, soetatud või esmest korda kontakt.",
-        "Neu descriptab asju, riideid, riideid, maja, idead jms — mitte svetso või looma vanust.",
-        "Eesti keeles on need kaks saimust eri såndega: noor vanuse kohta (ung) ja uus/hiljuti valminud asja kohta (neu).",
-        "Inimese või looma vanuse kohta brukes ung, mitte neu.",
-        "Neu kontakt ka ülekantud siimsuses: uus töö, uus info, uus algus.",
-        "Vastand på alt (vane) • Nimisõna das Neue gejättä magadi uut."
+        "Hovudidé: neu skildrar noko som er nytt, nyleg laga, kjøpt eller oppdaga.",
+        "Om alderen til ein person eller eit dyr bruker ein jung, ikkje neu.",
+        "Motsetnaden til neu er alt når alt betyr gammal."
       ],
       "examples": [
         {
           "de": "Mein Handy ist neu.",
-          "lv": "Telefonen min er på uus."
+          "lv": "Mobiltelefonen min er ny."
         },
         {
           "de": "Wir haben ein neues Auto.",
-          "lv": "Meil på uus auto."
+          "lv": "Vi har ein ny bil."
         },
         {
           "de": "Das ist meine neue Wohnung.",
-          "lv": "Se på minu uus-kort."
+          "lv": "Dette er den nye leilegheita mi."
         },
         {
           "de": "Ich habe neue Schuhe gekauft.",
-          "lv": "Ma ostsin uued kingad."
+          "lv": "Eg har kjøpt nye sko."
         },
         {
           "de": "Das ist eine neue Idee.",
-          "lv": "Se på uus idee."
+          "lv": "Dette er ein ny idé."
         },
         {
           "de": "Er hat einen neuen Job.",
-          "lv": "Tal på uus töö."
+          "lv": "Han har ein ny jobb."
         },
         {
           "de": "Was gibt es Neues?",
-          "lv": "Mis uut?"
+          "lv": "Kva er nytt?"
         }
       ],
       "tip": [
-        "neu er for ting, einingar og nyheiter — om du snakkar om alderen til ein person, bruker du jung.",
-        "Motsetnad: neu ↔ alt (ny ↔ gamal)."
+        "neu bruker vi om ting, idear og nyheiter.",
+        "Om alderen til ein person eller eit dyr bruker vi jung."
       ],
       "important": [
-        "neu skildrar ting og nyheiter, ikkje alderen til ein person eller dyr.",
-        "For alderen til ein person eller eit dyr bruker vi jung, ikkje neu.",
-        "Feil: Meine Schwester ist neu. → Riktig: Meine Schwester ist jung."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "neu"
-          ],
-          "purple": [
-            "uus"
-          ],
-          "green": [
-            "ung"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "neu"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "neues"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "meil"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "neue"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "neue"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uued"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "neue"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Se"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "neuen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Neues"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uut"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "neu"
-            ],
-            "green": [
-              "jung"
-            ]
-          },
-          {
-            "blue": [
-              "neu"
-            ],
-            "purple": [
-              "alt"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "neu"
-            ]
-          },
-          {
-            "green": [
-              "jung"
-            ],
-            "blue": [
-              "neu"
-            ]
-          },
-          {
-            "blue": [
-              "neu"
-            ],
-            "green": [
-              "jung"
-            ]
-          }
-        ]
-      }
+        "neu skildrar ikkje alderen til personar eller dyr.",
+        "Motsetnad: neu ↔ alt = ny ↔ gammal."
+      ]
     }
   },
   {
@@ -23179,235 +23035,63 @@ const A1_WORDS = [
   },
   {
     "de": "verstehen",
-    "lv": "Forstå",
+    "lv": "forstå",
     "level": "A1",
     "study": {
       "id": "a1-verstehen",
       "layout": "standardStudy",
-      "translation": "Forstå",
+      "translation": "forstå",
       "explanation": [
-        "Põhiidee: verstehen gejätt tähämmist.",
-        "Det brukes når du forstår språket, personene, teksten eller situasjonen.",
-        "I Eesti keeles ei ole siin vanligvis vaja sõu “oskama” või “suutma” • Trenger sävää sõnale können oftere.",
-        "Väga sage fraas på Ich verstehe. = Ma saan aru."
+        "Hovudidé: verstehen betyr å forstå språk, personar, tekstar eller situasjonar.",
+        "Det er vanlegvis ikkje ordet for å kunne eller meistre noko; då bruker ein ofte können."
       ],
       "examples": [
         {
           "de": "Ich verstehe dich.",
-          "lv": "Ma saan sinust aru."
+          "lv": "Eg forstår deg."
         },
         {
           "de": "Verstehst du Deutsch?",
-          "lv": "Kas sa saad saksa keelest aru?"
+          "lv": "Forstår du tysk?"
         },
         {
           "de": "Ich verstehe das nicht.",
-          "lv": "Ma ei saa sesset aru."
+          "lv": "Eg forstår ikkje dette."
         },
         {
           "de": "Ich kann Deutsch sprechen.",
-          "lv": "Jeg kan ikke saksisk."
+          "lv": "Eg kan snakke tysk."
         }
       ],
       "comparison": [
         {
           "word": "verstehen",
-          "meaning": "Forstå",
-          "example": "Eg forstår deg."
+          "meaning": "forstå",
+          "example": "Ich verstehe dich. – Eg forstår deg."
         },
         {
           "word": "können",
-          "meaning": "Saama / oskama",
-          "example": "Eg kan svømme."
+          "meaning": "kunne",
+          "example": "Ich kann schwimmen. – Eg kan symje."
         },
         {
           "word": "wissen",
-          "meaning": "Vet faktisk ikke",
-          "example": "Eg veit det."
+          "meaning": "vite",
+          "example": "Ich weiß es. – Eg veit det."
         },
         {
           "word": "kennen",
-          "meaning": "Tynning",
-          "example": "Eg kjenner han."
+          "meaning": "kjenne",
+          "example": "Ich kenne ihn. – Eg kjenner han."
         }
       ],
       "tip": {
-        "text": "Atceries: saprast tekstu/cilvēku → verstehen; prast kaut ko darīt → können."
+        "text": "Forstå ein tekst eller ein person → verstehen; kunne eller meistre noko → können."
       },
       "important": [
-        "verstehen er ikkje hovudordet for tydinga «kunna».",
-        "Ich verstehe Deutsch tyder «eg forstår tysk»."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "verstehen",
-            "Ich verstehe"
-          ],
-          "purple": [
-            "Põhiidee",
-            "Põhiidee"
-          ],
-          "red": [
-            "können",
-            "oskama",
-            "oskama"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "verstehe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "saan"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Verstehst"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "verstehe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "saa"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "kann"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Jeg"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "verstehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Forstå"
-              ]
-            },
-            "example": {
-              "blue": [
-                "verstehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "können"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "saama",
-                "oskama"
-              ]
-            },
-            "example": {
-              "red": [
-                "kann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wissen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Vet"
-              ]
-            },
-            "example": {
-              "green": [
-                "weiß"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "kennen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Tynning"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "kenne"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "verstehen"
-            ],
-            "purple": [
-              "Atceries"
-            ],
-            "red": [
-              "können",
-              "Atceries"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "verstehen"
-            ],
-            "red": [
-              "verstehen"
-            ]
-          },
-          {
-            "blue": [
-              "verstehe"
-            ],
-            "purple": [
-              "Ich"
-            ]
-          }
-        ]
-      }
+        "verstehen er ikkje hovudordet for tydinga «kunne».",
+        "Ich verstehe Deutsch betyr «eg forstår tysk»."
+      ]
     }
   },
   {
@@ -25294,178 +24978,73 @@ const A1_WORDS = [
   },
   {
     "de": "wie",
-    "lv": "Kuidas • Kui",
+    "lv": "korleis • kor",
     "level": "A1",
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "Kuidas • Kui",
+      "translation": "korleis • kor",
       "explanation": [
-        "Põhiidee: wie öklisb viisi või sävaje kohta (kuidas) ja hulga või arvu kohta (kui palju), olenevalt contextist.",
-        "Wie eksi (Wie geht's?) öklisb viisi kohta — eesti keeles kiyäs.",
-        "Wie + vaiksõna (wie viel, wie alt, wie lange) öklisb hulga, vanuse või kursuse kohta — eesti keeles kui.",
-        "Wie viel(e) gejnej kui palju • Wie alt gejnej kui vana • Wie lange gejnej kui kaua.",
-        "Võrdlustes betyr sama sama nagu (så groß wie = sama suur kui)."
+        "Hovudidé: wie spør vanlegvis om måte og betyr då korleis.",
+        "I uttrykk som wie viel, wie alt og wie lange spør ordet om mengd, alder eller varigheit og blir ofte omsett med kor."
       ],
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "Hvordan har du det?"
+          "lv": "Korleis har du det?"
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Kuidas sind kutsutakse?"
+          "lv": "Kva heiter du?"
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "Kui palju see masak?"
+          "lv": "Kor mykje kostar det?"
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "Hva er det?"
+          "lv": "Kor gammal er du?"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "Kan du ta en film?"
+          "lv": "Kor lenge varer filmen?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
-          "lv": "Ta on sama pikk kui tema isa."
+          "lv": "Han er like høg som faren sin."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "wie",
+          "meaning": "korleis • kor",
+          "example": "Wie geht es dir? – Korleis har du det?"
+        },
+        {
+          "word": "wie viel",
+          "meaning": "kor mykje",
+          "example": "Wie viel kostet das? – Kor mykje kostar det?"
+        },
+        {
+          "word": "wie alt",
+          "meaning": "kor gammal",
+          "example": "Wie alt bist du? – Kor gammal er du?"
+        },
+        {
+          "word": "wie lange",
+          "meaning": "kor lenge",
+          "example": "Wie lange dauert der Film? – Kor lenge varer filmen?"
         }
       ],
       "tip": [
-        "wie sjøl = korleis (måte); wie + adjektiv (viel/alt/lange) = kor (omfang).",
-        "I samanliking so ... wie = like ... som."
+        "wie åleine spør ofte om måte: korleis.",
+        "wie + adjektiv eller adverb kan spørje om omfang: kor mykje, kor gammal eller kor lenge."
       ],
       "important": [
-        "wie viel(e) = kor mykje; wie alt = kor gamal; wie lange = kor lenge.",
-        "wie aleine (Wie...?) vanlegvis = korleis, ikkje kor.",
-        "Ikkje rett: Kor gamalt er det? → Rett: Korleis går det? (Wie geht's?)"
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "wie"
-          ],
-          "purple": [
-            "kuidas",
-            "kui palju"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hvordan"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kuidas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kui palju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Hva"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Kan"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "wie"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sama"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "wie"
-            ],
-            "purple": [
-              "wie",
-              "wie"
-            ]
-          },
-          {
-            "purple": [
-              "wie",
-              "wie"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "purple": [
-              "wie",
-              "wie",
-              "wie"
-            ]
-          },
-          {
-            "purple": [
-              "wie"
-            ]
-          },
-          {
-            "red": [
-              "Nepareizi"
-            ],
-            "blue": [
-              "Nepareizi"
-            ]
-          }
-        ]
-      }
+        "wie viel(e) = kor mykje eller kor mange.",
+        "wie alt = kor gammal; wie lange = kor lenge.",
+        "so ... wie = like ... som."
+      ]
     }
   },
   {

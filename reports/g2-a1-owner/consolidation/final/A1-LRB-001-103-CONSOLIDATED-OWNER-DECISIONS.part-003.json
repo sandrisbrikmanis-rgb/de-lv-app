@@ -1,10 +1,11 @@
 {
   "schema_version": 3,
   "classification": "A1_LRB_001_103_CONSOLIDATED_OWNER_DECISIONS_FROM_234_GALA",
-  "generated_at": "2026-09-19T11:27:22.705Z",
+  "generated_at": "2026-09-19T11:50:22.595Z",
   "origin_main_sha": "f36014e0d77a9a43740b3ad114ab845a64e11ebf",
   "consolidation_branch": "cursor/a1-lrb-001-103-consolidation",
-  "generation_base_sha": "5c1195b3a0b389b3fb691bc7d79ea83c509b1b41",
+  "generation_base_sha": "a0eb7268b9e99204ee810affdac004a4b8b101c7",
+  "multipart_manifest_correction": true,
   "lrb_range": "LRB-001…LRB-103",
   "copy_paste_source": {
     "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json",
@@ -22564,8 +22565,8 @@
     "unique_final_leaf_keys": 4787,
     "full_post_owner_cards": 234,
     "gala_approved_cards_applied": 234,
-    "before_rebuild_leaf_decisions": 35345,
-    "before_rebuild_full_cards": 3734
+    "before_rebuild_leaf_decisions": 4787,
+    "before_rebuild_full_cards": 234
   },
   "part": 3,
   "decisions": [

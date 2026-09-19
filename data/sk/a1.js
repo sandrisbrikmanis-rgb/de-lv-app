@@ -573,17 +573,19 @@ const A1_WORDS = [
   },
   {
     "de": "aber",
-    "lv": "Ale",
+    "lv": "ale • avšak",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "Ale",
-      "explanation": "Používa sa na zavedenie kontrastu alebo vyjadrenie nesúhlasu. Často to znamená „ale“, „avšak“ alebo „ale“.",
+      "translation": "ale • avšak",
+      "explanation": [
+        "Používa sa na uvedenie protikladu alebo námietky. Najčastejšie znamená „ale“ alebo „avšak“."
+      ],
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "Chcem prísť, ale nemám čas."
+          "lv": "Chcem ísť s vami, ale nemám čas."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
@@ -591,121 +593,32 @@ const A1_WORDS = [
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "Má pravdu, ale ja si myslím opak."
+          "lv": "Má pravdu, ale ja to vidím inak."
         }
       ],
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Proti • Námietka • Avšak",
+          "meaning": "ale • avšak",
           "example": "Ich komme, aber später. – Prídem, ale neskôr."
         },
         {
           "word": "sondern",
-          "meaning": "Nie • Ale",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – Chcel som čaj, nie kávu."
+          "meaning": "ale • lež (po zápore)",
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Nechcel som čaj, ale kávu."
         },
         {
           "word": "jedoch",
-          "meaning": "Avšak",
-          "example": "Es ist kalt, jedoch sonnig. – Je chladno, ale slnečno."
+          "meaning": "avšak • predsa",
+          "example": "Es ist kalt, jedoch sonnig. – Je chladno, avšak slnečno."
         }
       ],
       "tip": {
-        "text": "Atceries: pretstats/iebilde → aber."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "aber"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aber"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aber"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "aber"
-              ]
-            },
-            "example": {
-              "green": [
-                "aber"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "sondern"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "sondern"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "jedoch"
-              ]
-            },
-            "example": {
-              "red": [
-                "jedoch"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "pretstats",
-              "iebilde"
-            ]
-          }
-        },
-        "important": [
-          {
-            "green": [
-              "aber"
-            ]
-          },
-          {
-            "yellow": [
-              "sondern"
-            ]
-          }
-        ]
+        "text": "Protiklad alebo námietka → aber; po zápore „nie..., ale...“ → sondern."
       },
       "important": [
-        "Aber ukazuje opak alebo opak.",
-        "Keď je opak „nie..., ale...“, v nemčine sa zvyčajne používa slovo sondern."
+        "aber vyjadruje protiklad alebo námietku.",
+        "V konštrukcii „nie..., ale...“ sa v nemčine zvyčajne používa sondern."
       ]
     }
   },
@@ -4828,23 +4741,22 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "Prvý • Len",
+    "lv": "až • iba • najprv",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "Prvý • Len",
+      "translation": "až • iba • najprv",
       "explanation": [
-        "Hlavná myšlienka: erst najčastejšie znamená iba. V určitom kontexte však môže znamenať aj najprv.",
-        "erst často naznačuje, že sa niečo stane neskôr, ako sa očakávalo.",
-        "Ich bin erst 18. — Mám iba 18 rokov.",
-        "Es ist erst Montag. — Je iba pondelok.",
-        "Erst lernen, dann spielen. — Najprv sa učiť, potom sa hrať."
+        "Hlavná myšlienka: erst často znamená „až“ alebo „iba“ a pri poradí môže znamenať „najprv“.",
+        "Pri čase erst často naznačuje, že sa niečo stane neskôr, než sa očakávalo.",
+        "Pri veku alebo dosiahnutom bode môže znamenať „iba“.",
+        "V spojení Erst ..., dann ... vyjadruje poradie: najprv ..., potom ..."
       ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
-          "lv": "Najprv pite, potom jedzte."
+          "lv": "Najprv sa učiť, potom sa hrať."
         },
         {
           "de": "Ich komme erst morgen.",
@@ -4852,160 +4764,41 @@ const A1_WORDS = [
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "Má len 18 rokov."
+          "lv": "Má iba 18 rokov."
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Jeme až o ôsmej."
+          "lv": "Budeme jesť až o ôsmej."
         }
       ],
       "comparison": [
         {
           "word": "erst",
-          "meaning": "Prvý • Len",
-          "example": "Erst lernen, dann spielen. – Najpierw wykonaj pauzę. = Najprv pracujte, potom pauza."
+          "meaning": "až • iba • najprv",
+          "example": "Erst lernen, dann spielen. – Najprv sa učiť, potom sa hrať."
         },
         {
           "word": "zuerst",
-          "meaning": "Prvý • Na začiatku",
-          "example": "Zuerst frühstücken wir. = Najprv raňajkujeme."
+          "meaning": "najprv • spočiatku",
+          "example": "Zuerst frühstücken wir. – Najprv raňajkujeme."
         },
         {
           "word": "nur",
-          "meaning": "Len",
-          "example": "Ich habe nur 5 Euro. = Mám iba 5 eur."
+          "meaning": "iba • len",
+          "example": "Ich habe nur 5 Euro. – Mám iba päť eur."
         },
         {
           "word": "dann",
-          "meaning": "Potom",
-          "example": "Dann gehen wir nach Hause. = Potom ideme domov."
+          "meaning": "potom",
+          "example": "Dann gehen wir nach Hause. – Potom ideme domov."
         }
       ],
       "tip": {
-        "text": "Atceries: laiks/skaits → erst • Daudzums → nur."
-      },
-      "accents": {
-        "blue": [
-          "erst",
-          "Erst"
-        ],
-        "green": [
-          "zuerst",
-          "Zuerst"
-        ],
-        "yellow": [
-          "nur"
-        ],
-        "red": [
-          "dann",
-          "Dann"
-        ]
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Erst"
-            ],
-            "red": [
-              "dann"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "erst"
-              ]
-            },
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "zuerst"
-              ]
-            },
-            "example": {
-              "green": [
-                "Zuerst"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "nur"
-              ]
-            },
-            "example": {}
-          },
-          {
-            "word": {
-              "green": [
-                "dann"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dann"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "green": [
-              "laiks",
-              "skaits"
-            ],
-            "purple": [
-              "daudzums"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ]
-          },
-          {
-            "yellow": [
-              "nur"
-            ]
-          }
-        ]
+        "text": "Čas alebo dosiahnutý bod → erst; obyčajné obmedzenie množstva → nur."
       },
       "important": [
-        "Erst a nur môžu znieť ako „len“, ale nie sú to isté.",
-        "Prvý často hovorí o čase, postupnosti alebo dosiahnutí bodu • Nur obmedzuje množstvo.",
-        "zuerst často znamená: najprv."
+        "erst a nur sa môžu prekladať ako „iba“, ale nepoužívajú sa rovnako.",
+        "zuerst znamená najmä „najprv“ na začiatku poradia."
       ]
     }
   },
@@ -11969,26 +11762,25 @@ const A1_WORDS = [
   },
   {
     "de": "leise",
-    "lv": "Ticho",
+    "lv": "tichý • ticho • potichu",
     "level": "A1",
     "study": {
       "id": "a1-leise-study",
       "layout": "standardStudy",
-      "translation": "Ticho",
+      "translation": "tichý • ticho • potichu",
       "explanation": [
-        "Hlavná myšlienka: Tichá alebo nízka hlasitosť.",
-        "Leise v podstate znamená: nízka hlasitosť.",
-        "Často popisuje: zvuk/hlas/hudba.",
-        "Leise popisuje nízku hlasitosť alebo tichý hlas/zvuk."
+        "Hlavná myšlienka: leise označuje malú hlasitosť alebo tichý zvuk.",
+        "Ako prídavné meno znamená „tichý“; ako príslovka „ticho“ alebo „potichu“.",
+        "Často opisuje hlas, hudbu alebo spôsob hovorenia."
       ],
       "examples": [
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosím, buďte ticho."
+          "lv": "Prosím, buď ticho."
         },
         {
           "de": "Bitte sei leise.",
-          "lv": "Prosím, buďte ticho"
+          "lv": "Prosím, buď ticho."
         },
         {
           "de": "Die Musik ist leise.",
@@ -11996,73 +11788,17 @@ const A1_WORDS = [
         },
         {
           "de": "Sprich bitte leise.",
-          "lv": "Prosím, hovorte potichu."
+          "lv": "Prosím, hovor potichu."
         }
       ],
       "tip": [
-        "Leise = ticho",
-        "Použite leise, keď kontext zodpovedá tomuto významu."
+        "leise = tichý / ticho / potichu",
+        "Používa sa pri malej hlasitosti."
       ],
       "important": [
-        "Leise = tichý zvuk.",
-        "Leise = objem.",
-        "Tichá alebo nízka hlasitosť."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "green": [
-            "leise"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "leise",
-                "leise"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "leise",
-                "leise"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "leise",
-                "leise"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "leise",
-                "leise"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {}
-        ],
-        "important": [
-          {
-            "green": [
-              "leise"
-            ]
-          }
-        ]
-      }
+        "leise opisuje hlasitosť zvuku.",
+        "Podľa vetnej funkcie môže byť preklad prídavné meno alebo príslovka."
+      ]
     }
   },
   {
@@ -12346,26 +12082,15 @@ const A1_WORDS = [
     "de": "Liter",
     "de_article": "der",
     "de_plural": "die Liter",
-    "lv": "Liter",
+    "lv": "liter",
     "level": "A1",
     "study": {
       "id": "a1-liter",
       "layout": "standardStudy",
-      "translation": "Liter",
-      "explanation": "V Nemecku sa zvyčajne hovorí „der Liter“, ale v Rakúsku a Švajčiarsku môžete počuť aj „das Liter“. Množné číslo zostáva nezmenené: „die Liter“.",
-      "sectionAccents": {
-        "explanation": {
-          "green": [
-            "der Liter"
-          ],
-          "blue": [
-            "das Liter"
-          ],
-          "purple": [
-            "die Liter"
-          ]
-        }
-      }
+      "translation": "liter",
+      "explanation": [
+        "V Nemecku sa zvyčajne používa der Liter; v Rakúsku a Švajčiarsku možno počuť aj das Liter. Množné číslo zostáva nezmenené: die Liter."
+      ]
     }
   },
   {
@@ -12389,134 +12114,43 @@ const A1_WORDS = [
   },
   {
     "de": "machen",
-    "lv": "Robiť • Robiť",
+    "lv": "robiť • vyrábať • pripravovať",
     "level": "A1",
     "study": {
       "id": "a1-machen",
       "layout": "standardStudy",
-      "translation": "Robiť • Robiť",
+      "translation": "robiť • vyrábať • pripravovať",
       "explanation": [
-        "Hlavná myšlienka: machen je veľmi bežné slovo, ktoré znamená robiť alebo robiť.",
-        "Pokiaľ ide o akciu vo všeobecnosti, teda ako to urobiť.",
-        "Ak sa niečo vyrába alebo pripravuje, prekladá sa to ako výroba alebo varenie.",
-        "V mnohých výrazoch sa machen prekladá prirodzene podľa lotyšského jazyka a nie doslovne."
+        "Hlavná myšlienka: machen je veľmi časté sloveso a znamená najmä robiť alebo vytvárať.",
+        "Pri všeobecnej činnosti sa prekladá ako „robiť“.",
+        "Pri výrobe alebo príprave niečoho môže znamenať „vyrábať“ alebo „pripravovať“.",
+        "V ustálených spojeniach sa prekladá prirodzene podľa významu, nie vždy doslovne."
       ],
       "examples": [
         {
           "de": "Was machst du?",
-          "lv": "Čo to robíš"
+          "lv": "Čo robíš?"
         },
         {
           "de": "Ich mache Hausaufgaben.",
-          "lv": "Robím si domácu úlohu."
+          "lv": "Robím si domáce úlohy."
         },
         {
           "de": "Wir machen Pizza.",
-          "lv": "Robíme pizzu."
+          "lv": "Pripravujeme pizzu."
         },
         {
           "de": "Das macht Spaß.",
-          "lv": "Je to skvelá zábava."
+          "lv": "Je to zábava."
         }
       ],
       "tip": {
-        "text": "Atceries: Bol machst du? = Kto sa sem darí?"
+        "text": "Was machst du? = Čo robíš?"
       },
       "important": [
-        "Machen je veľmi široké slovo, ale lotyštinu je často potrebné prekladať prirodzene, v závislosti od situácie.",
-        "Das macht Spaß znamená „je to zábava“, nie doslova „je to zábava“."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "machen"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "machst"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "mache"
-              ],
-              "yellow": [
-                "Hausaufgaben"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "machen"
-              ],
-              "yellow": [
-                "Pizza"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "macht Spaß"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "meaning": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Atceries"
-            ],
-            "purple": [
-              "Atceries"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "machen"
-            ]
-          },
-          {
-            "blue": [
-              "Das macht Spaß"
-            ]
-          }
-        ]
-      }
+        "machen má široký význam a preklad závisí od situácie.",
+        "Das macht Spaß znamená „Je to zábava“, nie doslovný preklad jednotlivých slov."
+      ]
     }
   },
   {
@@ -12543,26 +12177,26 @@ const A1_WORDS = [
     "de": "Mal",
     "de_article": "das",
     "de_plural": "die Male",
-    "lv": "Čas",
+    "lv": "raz",
     "level": "A1",
     "study": {
       "id": "a1-mal",
       "layout": "standardStudy",
-      "translation": "Čas",
+      "translation": "raz",
       "explanation": [
-        "Hlavná myšlienka: das Mal znamená raz ako udalosť alebo príležitosť.",
+        "Hlavná myšlienka: das Mal označuje jeden výskyt alebo jednu príležitosť.",
         "Často sa používa s číslami: ein Mal, zwei Mal, drei Mal.",
-        "S poradovým číslom: das erste Mal, das zweite Mal.",
-        "Nehovorte s hovorovou časticou mal (Komm mal her!) - má to iný význam."
+        "S radovou číslovkou: das erste Mal, das zweite Mal.",
+        "Nezamieňajte ho s hovorovou časticou mal v spojení Komm mal her!"
       ],
       "examples": [
         {
           "de": "Das erste Mal war schwer.",
-          "lv": "Prvýkrát to bolo ťažké."
+          "lv": "Prvý raz to bolo ťažké."
         },
         {
           "de": "Ich war schon zwei Mal in Berlin.",
-          "lv": "V Berlíne som bol už dvakrát."
+          "lv": "V Berlíne som už bol dvakrát."
         },
         {
           "de": "Ein Mal reicht.",
@@ -12570,93 +12204,17 @@ const A1_WORDS = [
         },
         {
           "de": "Noch ein Mal, bitte!",
-          "lv": "Ešte raz prosím!"
+          "lv": "Ešte raz, prosím!"
         }
       ],
       "tip": {
-        "text": "Pamätajte: das Mal = čas (podstatné meno) • Mal bez člena = hovorová častica."
+        "text": "das Mal = raz alebo príležitosť; mal bez člena môže byť hovorová častica."
       },
       "important": [
-        "Das Mal / die Male - podstatné meno s článkom.",
-        "Ein Mal, zwei Mal – počítajte časy.",
-        "Mal bez článku (Komm mal her!) nie je to isté ako das Mal."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "das Mal",
-            "ein Mal",
-            "zwei Mal",
-            "das erste Mal"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "erste Mal"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "zwei Mal"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Ein Mal"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ein Mal"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": {
-          "blue": [
-            "das Mal",
-            "mal"
-          ],
-          "purple": [
-            "Pamätajte",
-            "Pamätajte"
-          ]
-        },
-        "important": [
-          {
-            "blue": [
-              "das Mal",
-              "die Male"
-            ]
-          },
-          {
-            "blue": [
-              "ein Mal",
-              "zwei Mal"
-            ]
-          },
-          {
-            "blue": [
-              "mal"
-            ],
-            "purple": [
-              "das Mal"
-            ]
-          }
-        ]
-      }
+        "das Mal / die Male je podstatné meno.",
+        "ein Mal, zwei Mal vyjadruje počet opakovaní.",
+        "Hovorová častica mal nie je totožná s podstatným menom das Mal."
+      ]
     }
   },
   {
@@ -20351,190 +19909,65 @@ const A1_WORDS = [
   },
   {
     "de": "werden",
-    "lv": "Staňte sa",
+    "lv": "stať sa • začať byť",
     "level": "A1",
     "study": {
       "id": "a1-werden",
       "layout": "standardStudy",
-      "translation": "Staňte sa",
+      "translation": "stať sa • začať byť",
       "explanation": [
-        "Hlavná myšlienka: werden na A1 najčastejšie znamená zostať.",
-        "Používa sa, keď sa niečo zmení alebo zmení.",
-        "V neskoršej nemčine sa werden používa aj na označenie budúcnosti a trpného rodu.",
-        "Na úrovni A1 je najdôležitejšou frázou Ich werde müde. = Začínam byť unavený."
+        "Hlavná myšlienka: werden na úrovni A1 najčastejšie vyjadruje zmenu a znamená „stať sa“ alebo „začať byť“.",
+        "Používa sa, keď sa mení stav osoby alebo veci.",
+        "V nemčine sa werden používa aj na tvorenie budúceho času a trpného rodu, ale to nie je hlavný význam tejto karty.",
+        "Ich werde müde znamená „Začínam byť unavený.“"
       ],
       "examples": [
         {
           "de": "Ich werde müde.",
-          "lv": "Začínam byť unavená."
+          "lv": "Začínam byť unavený."
         },
         {
           "de": "Es wird kalt.",
-          "lv": "Začína byť zima."
+          "lv": "Začína byť chladno."
         },
         {
           "de": "Sie wird Ärztin.",
-          "lv": "Stáva sa lekárom."
+          "lv": "Stáva sa lekárkou."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "Som unavený"
+          "lv": "Som unavený."
         }
       ],
       "comparison": [
         {
           "word": "werden",
-          "meaning": "Staňte sa",
-          "example": "Počujem sa unavený."
+          "meaning": "stať sa • začať byť",
+          "example": "Ich werde müde. – Začínam byť unavený."
         },
         {
           "word": "sein",
-          "meaning": "Byť",
-          "example": "Som unavený."
+          "meaning": "byť",
+          "example": "Ich bin müde. – Som unavený."
         },
         {
           "word": "bleiben",
-          "meaning": "Zostaň",
-          "example": "Ostávam tu."
+          "meaning": "zostať",
+          "example": "Ich bleibe hier. – Zostávam tu."
         },
         {
           "word": "machen",
-          "meaning": "Urobiť/urobiť",
-          "example": "Robím to."
+          "meaning": "robiť • vytvárať",
+          "example": "Ich mache das. – Robím to."
         }
       ],
       "tip": {
-        "text": "Pamätajte: zmena/stav sa zmení → werden."
+        "text": "Zmena stavu → werden; existujúci stav → sein."
       },
       "important": [
-        "Werden nie je to isté ako sein.",
-        "Ich werde müde = začínam byť unavený • Ich bin müde = som unavený."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "werden",
-            "Ich werde"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "werde"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "wird"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "wird"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "bin"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "werden"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "werde"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "sein"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "bin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bleiben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "bleibe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "machen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "mache"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "werden"
-            ],
-            "purple": [
-              "Pamätajte",
-              "Pamätajte"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "werden"
-            ],
-            "red": [
-              "sein"
-            ]
-          },
-          {
-            "blue": [
-              "werde"
-            ],
-            "red": [
-              "bin"
-            ]
-          }
-        ]
-      }
+        "werden nie je to isté ako sein.",
+        "Ich werde müde = začínam byť unavený; Ich bin müde = som unavený."
+      ]
     }
   },
   {
@@ -20759,23 +20192,22 @@ const A1_WORDS = [
   },
   {
     "de": "wie",
-    "lv": "Ako • Koľko",
+    "lv": "ako • koľko",
     "level": "A1",
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "Ako • Koľko",
+      "translation": "ako • koľko",
       "explanation": [
-        "Hlavná myšlienka: vie sa pýta na druh alebo kvalitu (ako) a kvantitu alebo počet (koľko), v závislosti od kontextu.",
-        "Wie sam (Wie geht's?) sa pýta na cestu – v lotyštine ako.",
-        "Wie + prídavné meno (wie viel, wie alt, wie lange) sa pýta na množstvo, vek alebo trvanie – koľko v lotyštine.",
-        "Wie viel(e) znamená koľko • Wie alt znamená koľko rokov • Wie lange znamená ako dlho.",
-        "V prirovnaniach wie znamená podobný (so groß wie = taký veľký ako)."
+        "Hlavná myšlienka: wie sa pýta na spôsob alebo vlastnosť; v spojeniach s viel, alt a lange sa pýta na množstvo, vek alebo trvanie.",
+        "Samostatné wie zvyčajne znamená „ako“: Wie geht es dir? = Ako sa máš?",
+        "wie viel(e) = koľko; wie alt = koľko rokov; wie lange = ako dlho.",
+        "V prirovnaní so ... wie zodpovedá slovenskému taký ... ako."
       ],
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "Ako sa máš"
+          "lv": "Ako sa máš?"
         },
         {
           "de": "Wie heißt du?",
@@ -20783,100 +20215,29 @@ const A1_WORDS = [
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "Koľko to je"
+          "lv": "Koľko to stojí?"
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "Kolko mas rokov"
+          "lv": "Koľko máš rokov?"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "Ako dlho je tento film?"
+          "lv": "Ako dlho trvá film?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
-          "lv": "Je vysoký ako jeho otec."
+          "lv": "Je taký vysoký ako jeho otec."
         }
       ],
       "tip": [
-        "Vie sám o sebe = ako (spôsob) • Vie + prídavné meno (viel/alt/lange) = koľko (množstvo).",
-        "Pre porovnanie, tak... vie = ako... ako."
+        "Samostatné wie najčastejšie znamená „ako“.",
+        "wie + viel/alt/lange sa pýta na množstvo, vek alebo trvanie."
       ],
       "important": [
-        "Wie viel(e) = koľko • Wie alt = koľko rokov • Wie lange = ako dlho.",
-        "Pozná sám seba (Vieš...?) obyčajne = ako, nie koľko.",
-        "Nesprávne: Koľko máš rokov? → Správne: Ako sa máš? (Samozrejme?)"
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "wie"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "wie"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "Vie"
-            ]
-          },
-          {}
-        ],
-        "important": [
-          {},
-          {},
-          {}
-        ]
-      }
+        "wie viel(e) = koľko; wie alt = koľko rokov; wie lange = ako dlho.",
+        "so ... wie = taký ... ako."
+      ]
     }
   },
   {
@@ -21122,17 +20483,17 @@ const A1_WORDS = [
     "de": "Zug",
     "de_article": "der",
     "de_plural": "die Züge",
-    "lv": "Vlak",
+    "lv": "vlak",
     "level": "A1",
     "study": {
       "id": "a1-zug",
       "layout": "standardStudy",
-      "translation": "Vlak",
+      "translation": "vlak",
       "explanation": [
-        "Hlavná myšlienka: der Zug na úrovni A1 najčastejšie znamená vlak.",
-        "Používa sa pri každodennej jazde, pri príchode a odchode.",
-        "V iných významoch môže byť Zug pochod, prievan alebo funkcia, ale to nie sú hlavné významy A1.",
-        "Veľmi obľúbené frázy sú mit dem Zug fahren a Der Zug kommt."
+        "Hlavná myšlienka: der Zug na úrovni A1 znamená najmä vlak.",
+        "Používa sa pri cestovaní, príchode a odchode.",
+        "Zug má aj iné významy, tie však nie sú hlavnou témou tejto A1 karty.",
+        "Časté spojenia sú mit dem Zug fahren a Der Zug kommt."
       ],
       "examples": [
         {
@@ -21141,7 +20502,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich fahre mit dem Zug.",
-          "lv": "Cestujem vlakom"
+          "lv": "Cestujem vlakom."
         },
         {
           "de": "Der Zug ist voll.",
@@ -21155,159 +20516,32 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "der Zug",
-          "meaning": "Vlak",
-          "example": "Vlak prichádza."
+          "meaning": "vlak",
+          "example": "Der Zug kommt. – Vlak prichádza."
         },
         {
           "word": "die Bahn",
-          "meaning": "Cestovanie vlakom/vlakom",
-          "example": "Jazdím vlakom."
+          "meaning": "železnica • cestovanie vlakom",
+          "example": "Ich fahre mit der Bahn. – Cestujem vlakom."
         },
         {
           "word": "der Bus",
-          "meaning": "Autobus",
-          "example": "Autobus prichádza."
+          "meaning": "autobus",
+          "example": "Der Bus kommt. – Autobus prichádza."
         },
         {
           "word": "die Straßenbahn",
-          "meaning": "Električka",
-          "example": "Električka je tu."
+          "meaning": "električka",
+          "example": "Die Straßenbahn ist hier. – Električka je tu."
         }
       ],
       "tip": {
-        "text": "Pamätajte: konkrétny vlak → der Zug."
+        "text": "Konkrétny vlak → der Zug."
       },
       "important": [
-        "Der Zug v názve treba čítať ako „vlak“.",
-        "Menej bežné významy nie sú potrebné v hlavnom nadpise A1."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "der Zug",
-            "Zug",
-            "mit dem Zug fahren"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Zug"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "mit dem Zug"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Zug"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "Bus"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Autobus"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "der Zug"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "Zug"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Bahn"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "Bahn"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der Bus"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Autobus"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Bus"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Straßenbahn"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Električka"
-              ]
-            },
-            "example": {
-              "red": [
-                "Straßenbahn"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "der Zug"
-            ],
-            "purple": [
-              "Pamätajte"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "der Zug"
-            ]
-          },
-          {}
-        ]
-      }
+        "V tejto karte der Zug znamená vlak.",
+        "Menej časté významy slova Zug nepatria do hlavného A1 prekladu."
+      ]
     }
   },
   {
@@ -21898,18 +21132,18 @@ const A1_WORDS = [
   {
     "de": "Appetit",
     "de_article": "der",
-    "lv": "Chuť do jedla",
+    "lv": "chuť do jedla",
     "level": "A1",
     "study": {
       "id": "a1-appetit",
       "layout": "standardStudy",
-      "translation": "Chuť do jedla",
+      "translation": "chuť do jedla",
       "explanation": [
-        "Hlavná myšlienka: pocit chuti najesť sa. iba jednotné číslo – žiadne množné číslo.",
-        "Der Appetit v skratke znamená: chuť jesť.",
-        "Často opisuje: pocit (iba jednotné číslo).",
-        "Der Appetit je len jednotné číslo – apetít.",
-        "Na úrovni A1 sa medzi sebou často stretávajú napr. Dobrá chuť!"
+        "Hlavná myšlienka: der Appetit znamená chuť jesť alebo chuť do jedla.",
+        "Používa sa na pomenovanie pocitu, keď chceme jesť.",
+        "Der Appetit je podstatné meno mužského rodu.",
+        "V tomto význame sa Appetit zvyčajne používa v jednotnom čísle.",
+        "Bežné želanie pred jedlom je Guten Appetit!"
       ],
       "examples": [
         {
@@ -21918,7 +21152,7 @@ const A1_WORDS = [
         },
         {
           "de": "Guten Appetit!",
-          "lv": "Vychutnajte si jedlo!"
+          "lv": "Prajem dobrú chuť!"
         },
         {
           "de": "Ich habe keinen Appetit.",
@@ -21926,78 +21160,14 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Der Appetit = chuť do jedla",
-        "Používa der Appetit, keď kontext zodpovedá tomuto významu."
+        "der Appetit = chuť do jedla",
+        "Guten Appetit! = Dobrú chuť!"
       ],
       "important": [
-        "Der Appetit je len v jednotnom čísle.",
-        "Nesprávne: die Appetite → Správne: der Appetit",
-        "Nesprávne: Ich bin Appetit. → Správne: Ich habe Appetit.",
-        "Pocit: der Appetite."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "der Appetit",
-            "appetit"
-          ],
-          "purple": [
-            "Appetit",
-            "Appetit"
-          ],
-          "yellow": [
-            "Appetit"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "appetit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Dobrú"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "appetit"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "appetit"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Nemám"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "Appetit"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "der Appetit"
-            ]
-          }
-        ]
-      }
+        "V tomto význame sa Appetit zvyčajne používa v jednotnom čísle.",
+        "Správny člen je der: der Appetit.",
+        "Správne sa hovorí Ich habe Appetit, nie Ich bin Appetit."
+      ]
     }
   },
   {

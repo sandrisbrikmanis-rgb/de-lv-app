@@ -482,50 +482,67 @@ const A1_WORDS = [
   },
   {
     "de": "ab",
-    "lv": "-st",
+    "lv": "alkaen • lähtien",
     "level": "A1",
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "-st",
-      "explanation": "Kasutatakse, kui miski algab kindlast ajast, kohast või punktist. Sageli tähendab “alates”.",
+      "translation": "alkaen • lähtien",
+      "explanation": [
+        "Pääajatus: ab ilmaisee ajan tai paikan lähtöpisteen.",
+        "Ajanilmauksissa se tarkoittaa tavallisesti „alkaen” tai „lähtien”.",
+        "Paikan yhteydessä se voi tarkoittaa lähtöä tietystä pisteestä.",
+        "ab ei ole sama kuin von tai aus."
+      ],
       "examples": [
         {
           "de": "ab heute",
-          "lv": "Alates tänasest",
+          "lv": "tästä päivästä alkaen",
           "level": "A1"
         },
         {
           "de": "ab Montag",
-          "lv": "Alates esmaspäevast"
+          "lv": "maanantaista alkaen"
         },
         {
           "de": "ab 8 Uhr",
-          "lv": "Alates kella 8-st"
+          "lv": "kello kahdeksasta alkaen"
         },
         {
           "de": "ab Bahnhof",
-          "lv": "Jaamast"
+          "lv": "asemalta alkaen"
         }
       ],
       "comparison": [
         {
           "word": "ab",
-          "meaning": "Alates punktist/ajast",
-          "example": "ab Montag – Alates esmaspäevast"
+          "meaning": "alkaen / lähtien",
+          "example": "ab Montag – maanantaista alkaen"
         },
         {
           "word": "von",
-          "meaning": "Kellestki/millestki • Päritolu",
-          "example": "von mir – Minult"
+          "meaning": "joltakin / jostakin",
+          "example": "von mir – minulta"
         },
         {
           "word": "aus",
-          "meaning": "Seest välja",
-          "example": "aus dem Haus – Majast / majast välja"
+          "meaning": "jonkin sisältä",
+          "example": "aus dem Haus – talosta"
         }
       ],
+      "tip": {
+        "text": "Muista: ajan tai paikan lähtöpiste → ab."
+      },
+      "important": [
+        "ab osoittaa lähtöpistettä ajassa tai paikassa.",
+        "Alkuperää tai liikettä sisältä ilmaistaan usein sanoilla von tai aus."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ab"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -533,11 +550,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "alates"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -545,11 +558,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "alates"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -557,11 +566,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "-st"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -569,11 +574,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "jaamast"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -583,14 +584,8 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "example": {
-              "green": [
-                "ab"
-              ],
-              "purple": [
-                "Montag"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -598,14 +593,8 @@ const A1_WORDS = [
                 "von"
               ]
             },
-            "example": {
-              "yellow": [
-                "von"
-              ],
-              "purple": [
-                "von"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -613,64 +602,18 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "example": {
-              "blue": [
-                "aus"
-              ],
-              "purple": [
-                "aus"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "Atceries"
-            ],
-            "green": [
-              "Atceries",
-              "Atceries"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "rāda"
-            ],
-            "green": [
-              "rāda",
-              "rāda"
-            ]
-          },
-          {
-            "yellow": [
-              "von"
-            ],
-            "red": [
-              "aus"
-            ],
-            "purple": [
-              "doma",
-              "doma"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "tip": {
-        "text": "Atceries: sākuma punkts laikā/vietā → ab."
-      },
-      "important": [
-        "ab osoittaa lähtöpistettä ajassa tai paikassa.",
-        "Jos ajatus ilmaisee alkuperää tai suuntaa sisältä, käytetään usein von tai aus."
-      ]
+      }
     }
   },
   {
@@ -694,48 +637,62 @@ const A1_WORDS = [
   },
   {
     "de": "aber",
-    "lv": "Aga",
+    "lv": "mutta • kuitenkin",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "Aga",
-      "explanation": "Kasutatakse vastanduse sissetoomiseks või vastuväite väljendamiseks. Sageli tähendab “aga”, “siiski” või “ometi”.",
+      "translation": "mutta • kuitenkin",
+      "explanation": [
+        "Pääajatus: aber yhdistää vastakkaisia tai keskenään ristiriitaisia ajatuksia.",
+        "Suomeksi se tarkoittaa tavallisesti „mutta” tai joskus „kuitenkin”.",
+        "aber ei muuta saksan päälauseen normaalia sanajärjestystä.",
+        "Rakenteessa „ei … vaan …” käytetään yleensä sanaa sondern."
+      ],
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "Ma tahan kaasa tulla, aga mul ei ole aega."
+          "lv": "Haluaisin tulla mukaan, mutta minulla ei ole aikaa."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "Toit oli maitsev, aga liiga kallis."
+          "lv": "Ruoka oli herkullista, mutta liian kallista."
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "Tal on õigus, aga ma arvan teisiti."
+          "lv": "Hän on oikeassa, mutta minä näen asian toisin."
         }
       ],
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Vastand • Vastuväide • Siiski",
-          "example": "Ich komme, aber später. – Ma tulen, aga hiljem."
+          "meaning": "mutta / kuitenkin",
+          "example": "Ich komme, aber später. – Tulen, mutta myöhemmin."
         },
         {
           "word": "sondern",
-          "meaning": "Mitte • Vaid",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – Ma tahtsin teed, mitte kohvi."
+          "meaning": "vaan (kiellon jälkeen)",
+          "example": "Nicht Tee, sondern Kaffee. – Ei teetä vaan kahvia."
         },
         {
           "word": "jedoch",
-          "meaning": "Siiski",
-          "example": "Es ist kalt, jedoch sonnig. – On külm, siiski päikeseline."
+          "meaning": "kuitenkin",
+          "example": "Es ist kalt, jedoch sonnig. – On kylmä, mutta aurinkoista."
         }
       ],
       "tip": {
-        "text": "Atceries: pretstats/iebilde → aber."
+        "text": "Muista: tavallinen vastakohta → aber; „ei … vaan …” → sondern."
       },
+      "important": [
+        "aber ilmaisee vastakohtaa tai varausta.",
+        "aber ja sondern eivät ole täysin vaihdettavissa keskenään."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aber"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -743,11 +700,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "aga"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -755,11 +708,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "aga"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -767,11 +716,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "tal"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -781,14 +726,8 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "example": {
-              "green": [
-                "aber"
-              ],
-              "purple": [
-                "aga"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -796,14 +735,8 @@ const A1_WORDS = [
                 "sondern"
               ]
             },
-            "example": {
-              "yellow": [
-                "sondern"
-              ],
-              "purple": [
-                "mitte"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -811,52 +744,18 @@ const A1_WORDS = [
                 "jedoch"
               ]
             },
-            "example": {
-              "red": [
-                "jedoch"
-              ],
-              "purple": [
-                "siiski"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "Atceries",
-              "Atceries"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "aber",
-              "aber"
-            ]
-          },
-          {
-            "yellow": [
-              "sondern"
-            ],
-            "purple": [
-              "pretstats",
-              "pretstats"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "aber osoittaa vastakohtaa tai vastalausetta.",
-        "Jos vastakohtaa ilmaistaan muodolla \"ei..., vaan...\", saksassa käytetään yleensä sondern."
-      ]
+      }
     }
   },
   {
@@ -887,48 +786,62 @@ const A1_WORDS = [
   },
   {
     "de": "also",
-    "lv": "Seega",
+    "lv": "siis • näin ollen",
     "level": "A1",
     "study": {
       "id": "a1-also",
       "layout": "standardStudy",
-      "translation": "Seega",
-      "explanation": "Kasutatakse järelduse tegemiseks või tulemuse näitamiseks. Tähendab “seega”, “järelikult”.",
+      "translation": "siis • näin ollen",
+      "explanation": [
+        "Pääajatus: also ilmaisee johtopäätöksen tai seurauksen.",
+        "Suomeksi se tarkoittaa „siis”, „näin ollen” tai asiayhteydestä riippuen „joten”.",
+        "Saksan also ei yleensä tarkoita suomen sanaa „myös”.",
+        "Sana auch tarkoittaa „myös”."
+      ],
       "examples": [
         {
           "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "Sajab vihma, seepärast jään ma koju."
+          "lv": "Sataa, joten jään kotiin."
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Sa oled haige, seepärast sa ei lähe tööle."
+          "lv": "Olet sairas, joten et mene töihin."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-          "lv": "Ma olen palju õppinud, seega saan nüüd aru."
+          "lv": "Olen opiskellut paljon, joten ymmärrän sen nyt."
         }
       ],
       "comparison": [
         {
           "word": "also",
-          "meaning": "Seega • Järelikult",
-          "example": "Es regnet, also bleibe ich zu Hause. – Sajab vihma, järelikult jään koju."
+          "meaning": "siis / näin ollen",
+          "example": "Es regnet, also bleibe ich zu Hause. – Sataa, joten jään kotiin."
         },
         {
           "word": "auch",
-          "meaning": "Ka",
-          "example": "Ich komme auch. – Ma tulen ka."
+          "meaning": "myös",
+          "example": "Ich komme auch. – Minäkin tulen."
         },
         {
           "word": "deshalb",
-          "meaning": "Seepärast",
-          "example": "Es regnet, deshalb bleibe ich zu Hause. – Sajab vihma, seepärast jään koju."
+          "meaning": "siksi",
+          "example": "Es regnet, deshalb bleibe ich zu Hause. – Sataa, siksi jään kotiin."
         }
       ],
       "tip": {
-        "text": "Atceries: secinājums → also."
+        "text": "Muista: johtopäätös → also; „myös” → auch."
       },
+      "important": [
+        "also osoittaa, että seuraava ajatus on edellisen seuraus.",
+        "Suomen „siksi” voidaan usein ilmaista myös sanalla deshalb."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "also"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -936,11 +849,7 @@ const A1_WORDS = [
                 "also"
               ]
             },
-            "lv": {
-              "purple": [
-                "seepärast"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -948,11 +857,7 @@ const A1_WORDS = [
                 "also"
               ]
             },
-            "lv": {
-              "purple": [
-                "seepärast"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -960,11 +865,7 @@ const A1_WORDS = [
                 "also"
               ]
             },
-            "lv": {
-              "purple": [
-                "seega"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -974,14 +875,8 @@ const A1_WORDS = [
                 "also"
               ]
             },
-            "example": {
-              "green": [
-                "also"
-              ],
-              "purple": [
-                "regnet"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -989,14 +884,8 @@ const A1_WORDS = [
                 "auch"
               ]
             },
-            "example": {
-              "yellow": [
-                "auch"
-              ],
-              "purple": [
-                "ka"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -1004,49 +893,18 @@ const A1_WORDS = [
                 "deshalb"
               ]
             },
-            "example": {
-              "green": [
-                "deshalb"
-              ],
-              "purple": [
-                "seepärast"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "green": [
-              "also"
-            ],
-            "purple": [
-              "Atceries"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "green": [
-              "also"
-            ],
-            "purple": [
-              "also"
-            ]
-          },
-          {
-            "green": [
-              "deshalb"
-            ],
-            "purple": [
-              "Latviešu"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "also osoittaa johtopäätöstä: edeltävästä ajatuksesta seuraa seuraava.",
-        "Latvian \"tāpēc\" voidaan usein kääntää myös sanalla deshalb."
-      ]
+      }
     }
   },
   {
@@ -2576,22 +2434,22 @@ const A1_WORDS = [
     "de": "Besuch",
     "de_article": "der",
     "de_plural": "die Besuche",
-    "lv": "vierailu",
+    "lv": "vierailu • käynti",
     "level": "A1",
     "study": {
       "id": "a1-besuch",
       "layout": "standardStudy",
-      "translation": "vierailu",
+      "translation": "vierailu • käynti",
       "explanation": [
-        "Pääajatus: der Besuch tarkoittaa vierailua, käyntiä tai vierailua.",
-        "Jos puhutaan paikasta tai tapahtumasta, latviaksi sopiva on vierailu.",
-        "Jos Besuch koskee henkilöä, latviaksi voi sanoa vierailu tai käynti.",
+        "Pääajatus: der Besuch tarkoittaa vierailua tai käyntiä.",
+        "Sana voi viitata sekä vierailutapahtumaan että jonkun luona käymiseen.",
+        "Se ei tarkoita vierailijaa; vierailija on der Besucher.",
         "Monikko on die Besuche."
       ],
       "examples": [
         {
           "de": "Der Besuch im Museum war interessant.",
-          "lv": "Museon vierailu oli mielenkiintoinen."
+          "lv": "Museokäynti oli mielenkiintoinen."
         },
         {
           "de": "Danke für deinen Besuch.",
@@ -2599,43 +2457,37 @@ const A1_WORDS = [
         },
         {
           "de": "Der Arzt macht einen Besuch.",
-          "lv": "Lääkäri menee käynnille."
+          "lv": "Lääkäri tekee kotikäynnin."
         }
       ],
       "comparison": [
         {
           "word": "der Besuch",
-          "meaning": "vierailu • käynti • vierailu",
+          "meaning": "vierailu / käynti",
           "example": "Danke für deinen Besuch. – Kiitos vierailustasi."
         },
         {
           "word": "der Besucher",
-          "meaning": "Külastaja",
+          "meaning": "vierailija",
           "example": "Der Besucher wartet draußen. – Vierailija odottaa ulkona."
         },
         {
           "word": "besuchen",
-          "meaning": "vierailla • käydä",
-          "example": "Ich besuche meine Großeltern. – Käyn isoäidin ja isoisän luona."
+          "meaning": "vierailla / käydä",
+          "example": "Ich besuche meine Großeltern. – Käyn isovanhempieni luona."
         }
       ],
       "tip": {
-        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+        "text": "Muista: der Besuch = vierailu tai käynti; der Besucher = vierailija."
       },
       "important": [
-        "der Besuch ei ole pelkästään vierailu; se voi olla myös käynti tai vierailu.",
-        "Monikko: die Besuche."
+        "der Besuch voi tarkoittaa vierailua tai käyntiä.",
+        "Monikko on die Besuche."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Besuch",
-            "die Besuche"
-          ],
-          "purple": [
-            "apmeklējums",
-            "apciemojums",
-            "vizīte"
+            "Besuch"
           ]
         },
         "examples": [
@@ -2643,19 +2495,9 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Besuch"
-              ],
-              "green": [
-                "Museum"
               ]
             },
-            "lv": {
-              "purple": [
-                "apmeklējums"
-              ],
-              "green": [
-                "Muzeja"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2663,29 +2505,15 @@ const A1_WORDS = [
                 "Besuch"
               ]
             },
-            "lv": {
-              "purple": [
-                "apciemojumu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
                 "Besuch"
-              ],
-              "green": [
-                "Arzt"
               ]
             },
-            "lv": {
-              "purple": [
-                "vizītē"
-              ],
-              "green": [
-                "Ārsts"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -2695,13 +2523,8 @@ const A1_WORDS = [
                 "der Besuch"
               ]
             },
-            "meaning": {
-              "purple": [
-                "apmeklējums",
-                "apciemojums",
-                "vizīte"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -2709,11 +2532,8 @@ const A1_WORDS = [
                 "der Besucher"
               ]
             },
-            "meaning": {
-              "purple": [
-                "apmeklētājs"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -2721,44 +2541,16 @@ const A1_WORDS = [
                 "besuchen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "apmeklēt",
-                "apciemot"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "Besuch"
-            ],
-            "purple": [
-              "notikums",
-              "vizīte"
-            ],
-            "green": [
-              "Besucher"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "der Besuch"
-            ],
-            "purple": [
-              "apmeklējums",
-              "apciemojums",
-              "vizīte"
-            ]
-          },
-          {
-            "blue": [
-              "die Besuche"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -2772,17 +2564,17 @@ const A1_WORDS = [
   },
   {
     "de": "besuchen",
-    "lv": "vierailla",
+    "lv": "vierailla • käydä",
     "level": "A1",
     "study": {
       "id": "a1-besuchen",
       "layout": "standardStudy",
-      "translation": "vierailla",
+      "translation": "vierailla • käydä",
       "explanation": [
-        "Pääajatus: besuchen käytetään kun käydään paikalla, tapahtumassa tai henkilöllä.",
-        "Paikkaa, tapahtumaa tai kurssia latviaksi yleensä vieraillaan.",
-        "Jos besuchen koskee henkilöä, latviaksi usein luontevampaa on käydä jonkun luona.",
-        "Saksassa besuchen käytetään ilman esisijaa ja akkusatiivin kanssa."
+        "Pääajatus: besuchen tarkoittaa vierailla jossakin tai käydä jonkun luona.",
+        "Sitä käytetään paikoista, tapahtumista, kursseista ja ihmisistä.",
+        "Saksassa besuchen saa suoran akkusatiiviobjektin ilman prepositiota.",
+        "Luonteva suomennos riippuu objektista."
       ],
       "examples": [
         {
@@ -2791,106 +2583,59 @@ const A1_WORDS = [
         },
         {
           "de": "Wir besuchen einen Deutschkurs.",
-          "lv": "Osallistumme saksankielen kurssille."
+          "lv": "Käymme saksan kurssilla."
         },
         {
           "de": "Ich besuche meine Großeltern.",
-          "lv": "Käyn isoäidin ja isoisän luona."
+          "lv": "Käyn isovanhempieni luona."
         }
       ],
       "comparison": [
         {
           "word": "besuchen",
-          "meaning": "vierailla paikkaa tai tapahtumaa • käydä henkilöllä",
-          "example": "Ich besuche meine Großeltern. – Käyn isoäidin ja isoisän luona."
+          "meaning": "vierailla / käydä",
+          "example": "Ich besuche meine Großeltern. – Käyn isovanhempieni luona."
         },
         {
           "word": "treffen",
-          "meaning": "kohdata",
-          "example": "Ich treffe meinen Freund. – Kohtaan ystäväni."
+          "meaning": "tavata",
+          "example": "Ich treffe meinen Freund. – Tapaan ystäväni."
         },
         {
           "word": "zu jemandem gehen",
           "meaning": "mennä jonkun luo",
-          "example": "Ich gehe zu meinem Freund. – Ma lähen oma sõbra juurde."
+          "example": "Ich gehe zu meinem Freund. – Menen ystäväni luo."
         }
       ],
       "tip": {
-        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+        "text": "Muista: besuchen + akkusatiivi, ilman prepositiota."
       },
       "important": [
-        "besuchen käytetään ilman esisijaa: Ich besuche meine Freundin.",
-        "Latvian käännös riippuu objektista: vierailla paikalla, käydä henkilöllä."
+        "besuchen käytetään ilman prepositiota: Ich besuche meine Freundin.",
+        "Suomennos voi olla vierailla, käydä tai käydä jonkun luona."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "besuchen"
-          ],
-          "purple": [
-            "apmeklēt",
-            "apciemot"
-          ],
-          "green": [
-            "vietu",
-            "pasākumu",
-            "personu"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "besuche"
-              ],
-              "green": [
-                "Museum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apmeklēju"
-              ],
-              "green": [
-                "muzeju"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
               "blue": [
                 "besuchen"
-              ],
-              "green": [
-                "Deutschkurs"
               ]
             },
-            "lv": {
-              "purple": [
-                "apmeklējam"
-              ],
-              "green": [
-                "vācu valodas kursu"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "besuche"
-              ],
-              "green": [
-                "Großeltern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apciemoju"
-              ],
-              "green": [
-                "vecvecākus"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "comparison": [
@@ -2900,20 +2645,8 @@ const A1_WORDS = [
                 "besuchen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "apmeklēt",
-                "apciemot"
-              ]
-            },
-            "example": {
-              "blue": [
-                "besuche"
-              ],
-              "purple": [
-                "apciemoju"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -2921,16 +2654,8 @@ const A1_WORDS = [
                 "treffen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "satikt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "treffe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -2938,48 +2663,16 @@ const A1_WORDS = [
                 "zu jemandem gehen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "iet pie kāda"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gehe zu"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "besuchen"
-            ],
-            "purple": [
-              "apmeklēt",
-              "apciemot"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "besuchen"
-            ],
-            "purple": [
-              "bez prievārda"
-            ]
-          },
-          {
-            "green": [
-              "vietu",
-              "personu"
-            ],
-            "purple": [
-              "apmeklēt",
-              "apciemot"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -3278,30 +2971,30 @@ const A1_WORDS = [
     "de": "Bitte",
     "de_article": "die",
     "de_plural": "die Bitten",
-    "lv": "Palve",
+    "lv": "pyyntö",
     "level": "A1",
     "study": {
       "id": "a1-bitte-study",
       "layout": "standardStudy",
-      "translation": "Palve",
+      "translation": "pyyntö",
       "explanation": [
-        "Põhiidee: Nimisõna artikliga die ja suure algustähega. Konkreetne palve või taotlus.",
-        "Die Bitte tähendab peamiselt: viisakus.",
-        "Sageli kirjeldab: viisakussõna.",
-        "Die Bitte tähendab peamiselt: palve/soov."
+        "Pääajatus: die Bitte on substantiivi, joka tarkoittaa pyyntöä tai toivetta.",
+        "Substantiivina Bitte kirjoitetaan suurella alkukirjaimella ja sitä käytetään artikkelin die kanssa.",
+        "Monikko on die Bitten.",
+        "Pienellä kirjoitettu bitte on kohteliaisuussana ja tarkoittaa „ole hyvä” tai „kiitos”."
       ],
       "examples": [
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "Mul on üks palve."
+          "lv": "Minulla on pyyntö."
         },
         {
           "de": "Er erfüllt meine Bitte.",
-          "lv": "Palun!"
+          "lv": "Hän täyttää pyyntöni."
         },
         {
           "de": "Sie hat zwei Bitten.",
-          "lv": "Üks tass kohvi, palun."
+          "lv": "Hänellä on kaksi pyyntöä."
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -3316,74 +3009,55 @@ const A1_WORDS = [
           "lv": "Palve on tähtis."
         }
       ],
-      "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
+      "comparison": [
+        {
+          "word": "die Bitte",
+          "meaning": "pyyntö",
+          "example": "Ich habe eine Bitte. – Minulla on pyyntö."
+        },
+        {
+          "word": "bitte",
+          "meaning": "ole hyvä / kiitos",
+          "example": "Komm bitte herein. – Tule sisään, ole hyvä."
+        }
       ],
+      "tip": {
+        "text": "Muista: die Bitte = pyyntö; bitte = ole hyvä / kiitos."
+      },
       "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi)."
+        "die Bitte kirjoitetaan suurella alkukirjaimella.",
+        "Monikko on die Bitten."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "die Bitte",
-            "bitte"
-          ],
-          "purple": [
-            "palve",
-            "palve"
-          ],
-          "yellow": [
-            "Bitte",
-            "Bitten"
+          "blue": [
+            "Bitte"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
                 "Bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "palve"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "palun"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "Bitten"
+              "blue": [
+                "Bitte"
               ]
             },
-            "lv": {
-              "purple": [
-                "palun"
-              ]
-            }
-          }
-        ],
-        "tip": {},
-        "important": [
-          {
-            "green": [
-              "bitte"
-            ]
+            "lv": {}
           }
         ],
         "comparison": [
@@ -3392,29 +3066,28 @@ const A1_WORDS = [
               "green": [
                 "die Bitte"
               ]
-            }
+            },
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
-              "blue": [
+              "green": [
                 "bitte"
               ]
-            }
+            },
+            "meaning": {},
+            "example": {}
           }
-        ]
-      },
-      "comparison": [
-        {
-          "word": "die Bitte",
-          "meaning": "Palve",
-          "example": "Ich habe eine Bitte. – Minulla on pyyntö."
+        ],
+        "tip": {
+          "left": {}
         },
-        {
-          "word": "bitte",
-          "meaning": "Palun",
-          "example": "Komm bitte herein. – Tulisitko ystävällisesti sisään."
-        }
-      ]
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -6400,216 +6073,104 @@ const A1_WORDS = [
   },
   {
     "de": "fahren",
-    "lv": "Sõitma • Vedama • Ära viima",
+    "lv": "ajaa • matkustaa • kuljettaa",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Sõitma • Vedama • Ära viima",
+      "translation": "ajaa • matkustaa • kuljettaa",
       "explanation": [
-        "Põhiidee: fahren tähendab sõidukiga sõitma ja mõnes lauses ka kedagi sõidutama või ära viima.",
-        "Fahren kasutatakse, kui liikumine toimub autoga, bussiga, rongiga, jalgrattaga või muu sõidukiga.",
-        "Kui lauses on isik objektina, võib fahren tähendada sõidutama või ära viima.",
-        "Kui liikumine toimub jalgsi, kasutatakse tavaliselt gehen või laufen."
+        "Pääajatus: fahren tarkoittaa liikkumista ajoneuvolla.",
+        "Asiayhteydestä riippuen se voidaan suomentaa sanoilla ajaa, matkustaa, kuljettaa tai viedä.",
+        "Kun objektina on henkilö, fahren voi tarkoittaa hänen kuljettamistaan.",
+        "Jalkaisin liikkumisesta käytetään yleensä verbejä gehen tai laufen."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Ma sõidan Berliini."
+          "lv": "Matkustan Berliiniin."
         },
         {
           "de": "Ich fahre mit dem Auto.",
-          "lv": "Ma sõidan autoga."
+          "lv": "Ajan autolla."
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Ma viin oma tütre kooli."
+          "lv": "Kuljetan tyttäreni kouluun."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "Ma viin sind koju."
+          "lv": "Vien sinut kotiin."
         },
         {
           "de": "Wir fahren morgen nach München.",
-          "lv": "Me sõidame homme Münchenisse."
+          "lv": "Matkustamme huomenna Müncheniin."
         }
       ],
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "Sõidukiga sõitma",
-          "example": "Ich fahre mit dem Bus."
+          "meaning": "ajaa / matkustaa ajoneuvolla",
+          "example": "Ich fahre mit dem Bus. – Matkustan bussilla."
         },
         {
           "word": "gehen",
-          "meaning": "Jalgsi minema",
-          "example": "Ich gehe nach Hause."
+          "meaning": "mennä jalkaisin",
+          "example": "Ich gehe nach Hause. – Menen kotiin."
         },
         {
           "word": "laufen",
-          "meaning": "Jooksma / käima",
-          "example": "Er läuft schnell."
+          "meaning": "juosta / kävellä",
+          "example": "Er läuft schnell. – Hän juoksee nopeasti."
         },
         {
           "word": "bringen",
-          "meaning": "Tooma / kohale toimetama",
-          "example": "Ich bringe das Buch."
+          "meaning": "tuoda / viedä",
+          "example": "Ich bringe das Buch. – Tuon kirjan."
         },
         {
           "word": "mitnehmen",
-          "meaning": "Kaasa võtma",
-          "example": "Ich nehme dich mit."
+          "meaning": "ottaa mukaan",
+          "example": "Ich nehme dich mit. – Otan sinut mukaan."
         }
       ],
       "tip": {
-        "text": "Atceries: transportlīdzeklis → fahren; kājām → gehen."
+        "text": "Muista: ajoneuvolla → fahren; jalkaisin → gehen."
       },
-      "important": {
-        "text": "Fahren ≠ ainult “sõitma”",
-        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
-      },
-      "accents": {
-        "blue": [
-          "fahren",
-          "fahre"
-        ],
-        "purple": [
-          "sõitma",
-          "sõidan",
-          "viima",
-          "viin",
-          "ära viima"
-        ],
-        "green": [
-          "transporti",
-          "transpordivahendit",
-          "auto",
-          "bussi",
-          "rongiga",
-          "jalgratast"
-        ],
-        "yellow": [
-          "gehen",
-          "laufen"
-        ],
-        "red": [
-          "bringen",
-          "mitnehmen"
-        ]
-      },
+      "important": [
+        "fahren ei tarkoita vain auton ajamista.",
+        "Tarkka suomennos määräytyy kulkuvälineen ja lauseen rakenteen mukaan."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "fahren"
-          ],
-          "purple": [
-            "sõitma",
-            "viima",
-            "ära viima"
-          ],
-          "green": [
-            "autoga",
-            "bussiga",
-            "rongiga",
-            "jalgrattaga",
-            "Põhiidee"
-          ],
-          "yellow": [
-            "gehen",
-            "laufen"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "fahre"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sõidan"
-              ],
-              "green": [
-                "Berliini"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "Auto"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sõidan"
-              ],
-              "green": [
-                "autoga"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "Tochter",
-                "Schule"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viin"
-              ],
-              "green": [
-                "tütre",
-                "kooli"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "dich",
-                "Hause"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viin"
-              ],
-              "green": [
-                "sind",
-                "viin"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
               "blue": [
                 "fahren"
-              ],
-              "green": [
-                "München"
               ]
             },
-            "lv": {
-              "purple": [
-                "sõidame"
-              ],
-              "green": [
-                "Münchenisse"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -6619,16 +6180,8 @@ const A1_WORDS = [
                 "fahren"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sõidukiga"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fahre"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -6636,16 +6189,8 @@ const A1_WORDS = [
                 "gehen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "jalgsi minema"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gehe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -6653,17 +6198,8 @@ const A1_WORDS = [
                 "laufen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "jooksma",
-                "jooksma"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "läuft"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -6671,17 +6207,8 @@ const A1_WORDS = [
                 "bringen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "tooma",
-                "kohale toimetama"
-              ]
-            },
-            "example": {
-              "red": [
-                "bringe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -6689,54 +6216,16 @@ const A1_WORDS = [
                 "mitnehmen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "kaasa võtma"
-              ]
-            },
-            "example": {
-              "red": [
-                "nehme",
-                "mit"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "fahren"
-            ],
-            "yellow": [
-              "gehen"
-            ],
-            "green": [
-              "Atceries",
-              "Atceries"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "text": {
-              "blue": [
-                "fahren"
-              ],
-              "purple": [
-                "sõitma"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fahren"
-              ],
-              "purple": [
-                "sõitma",
-                "Fahren",
-                "Fahren"
-              ]
-            }
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17079,151 +16568,87 @@ const A1_WORDS = [
   },
   {
     "de": "nehmen",
-    "lv": "Võtma • Kätte võtma",
+    "lv": "ottaa",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "Võtma • Kätte võtma",
+      "translation": "ottaa",
       "explanation": [
-        "Põhiidee: nehmen tähendab võtma või kätte võtma.",
-        "Nehmen kasutatakse, kui sa võtad midagi endale või valid.",
-        "See ei ole sama mis bringen, sest bringen tähendab kellelegi tooma või viima.",
-        "Holen tähendab järele minema ja tooma/võtma."
+        "Pääajatus: nehmen tarkoittaa ottaa.",
+        "Sitä käytetään, kun otetaan, valitaan tai käytetään jotakin, esimerkiksi kulkuvälinettä.",
+        "bringen tarkoittaa tuoda tai viedä jollekulle.",
+        "holen tarkoittaa mennä hakemaan ja tuoda."
       ],
       "examples": [
         {
           "de": "Ich nehme den Bus.",
-          "lv": "Ma sõidan bussiga."
+          "lv": "Menen bussilla."
         },
         {
           "de": "Nimm das Buch!",
-          "lv": "Võta raamat!"
+          "lv": "Ota kirja!"
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "Ma toon sulle raamatu."
+          "lv": "Tuon sinulle kirjan."
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "Ma tulen sulle järele."
+          "lv": "Tulen hakemaan sinut."
         }
       ],
       "comparison": [
         {
           "word": "nehmen",
-          "meaning": "Võtma / kätte võtma",
-          "example": "Nimm das Buch!"
+          "meaning": "ottaa",
+          "example": "Nimm das Buch! – Ota kirja!"
         },
         {
           "word": "bringen",
-          "meaning": "Tooma / viima / kohale toimetama",
-          "example": "Ich bringe dir das Buch."
+          "meaning": "tuoda / viedä",
+          "example": "Ich bringe dir das Buch. – Tuon sinulle kirjan."
         },
         {
           "word": "holen",
-          "meaning": "Järele minema / tooma",
-          "example": "Ich hole Wasser."
+          "meaning": "hakea",
+          "example": "Ich hole Wasser. – Haen vettä."
         },
         {
           "word": "mitnehmen",
-          "meaning": "Kaasa võtma",
-          "example": "Ich nehme dich mit."
+          "meaning": "ottaa mukaan",
+          "example": "Ich nehme dich mit. – Otan sinut mukaan."
         }
       ],
       "tip": {
-        "text": "Atceries: paņem sev → nehmen; atnes kādam → bringen."
+        "text": "Muista: ottaa itselle → nehmen; tuoda jollekulle → bringen."
       },
       "important": [
-        "Ich nehme den Bus suomeksi tarkoittaa \"matkustan bussilla\".",
+        "Ich nehme den Bus tarkoittaa suomeksi „menen bussilla”.",
         "nehmen ei ole sama kuin bringen."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "nehmen"
-          ],
-          "purple": [
-            "võtma",
-            "võtma"
-          ],
-          "red": [
-            "bringen",
-            "holen"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "nehme"
-              ],
-              "yellow": [
-                "Bus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sõidan"
-              ],
-              "yellow": [
-                "bussiga"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "Nimm"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "võta"
-              ],
-              "yellow": [
-                "raamat"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "red": [
-                "bringe"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "toon"
-              ],
-              "yellow": [
-                "raamatu"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "red": [
-                "hole"
-              ],
-              "green": [
-                "dich"
-              ]
-            },
-            "lv": {
-              "red": [
-                "tulen"
-              ],
-              "green": [
-                "tulen"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "comparison": [
@@ -17233,17 +16658,8 @@ const A1_WORDS = [
                 "nehmen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "võtma",
-                "võtma"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Nimm"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -17251,18 +16667,8 @@ const A1_WORDS = [
                 "bringen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "tooma",
-                "viima",
-                "kohale toimetama"
-              ]
-            },
-            "example": {
-              "red": [
-                "bringe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -17270,17 +16676,8 @@ const A1_WORDS = [
                 "holen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "järele minema",
-                "tooma"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "hole"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -17288,50 +16685,16 @@ const A1_WORDS = [
                 "mitnehmen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "kaasa võtma"
-              ]
-            },
-            "example": {
-              "green": [
-                "nehme",
-                "mit"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "nehmen"
-            ],
-            "purple": [
-              "Atceries"
-            ],
-            "red": [
-              "bringen",
-              "Atceries"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "nehme den Bus"
-            ],
-            "purple": [
-              "Ich"
-            ]
-          },
-          {
-            "blue": [
-              "nehmen"
-            ],
-            "red": [
-              "bringen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -17585,8 +16948,9 @@ const A1_WORDS = [
   },
   {
     "de": "nicht",
-    "lv": "Ei",
-    "level": "A1"
+    "lv": "ei",
+    "level": "A1",
+    "study": {}
   },
   {
     "de": "nichts",
@@ -18444,148 +17808,87 @@ const A1_WORDS = [
   },
   {
     "de": "passen",
-    "lv": "Sobima • Hästi sobima",
+    "lv": "sopia • soveltua",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "Sobima • Hästi sobima",
+      "translation": "sopia • soveltua",
       "explanation": [
-        "Põhiidee: passen tähendab sobima, hästi istuma või paras olema.",
-        "Riiete puhul tähendab passen sageli suuruse järgi sobima.",
-        "Värvide või stiili kohta tähendab passen hästi sobima.",
-        "Väga sage fraas on Das passt. = See sobib."
+        "Pääajatus: passen tarkoittaa sopia, olla sopiva tai käydä.",
+        "Vaatteista puhuttaessa se ilmaisee usein koon sopivuutta.",
+        "Värien tai tyylin yhteydessä se voi tarkoittaa yhteensopivuutta.",
+        "Hyvin yleinen ilmaus on Das passt. = Se sopii."
       ],
       "examples": [
         {
           "de": "Die Jacke passt mir.",
-          "lv": "Jakk sobib mulle."
+          "lv": "Takki sopii minulle."
         },
         {
           "de": "Das Kleid passt gut.",
-          "lv": "Kleit sobib hästi."
+          "lv": "Mekko sopii hyvin."
         },
         {
           "de": "Die Farbe passt zu dir.",
-          "lv": "See värv sobib sulle."
+          "lv": "Tämä väri sopii sinulle."
         },
         {
           "de": "Das passt.",
-          "lv": "See sobib."
+          "lv": "Se sopii."
         }
       ],
       "comparison": [
         {
           "word": "passen",
-          "meaning": "Sobima / hästi sobima",
-          "example": "Die Jacke passt mir."
+          "meaning": "sopia / soveltua",
+          "example": "Die Jacke passt mir. – Takki sopii minulle."
         },
         {
           "word": "stehen",
-          "meaning": "Sobima / seisma",
-          "example": "Rot steht dir gut."
+          "meaning": "sopia ulkonäköön",
+          "example": "Rot steht dir gut. – Punainen sopii sinulle hyvin."
         },
         {
           "word": "geeignet sein",
-          "meaning": "Sobiv olema",
-          "example": "Das ist geeignet."
+          "meaning": "olla sopiva",
+          "example": "Das ist geeignet. – Se on sopiva."
         },
         {
           "word": "funktionieren",
-          "meaning": "Toimima",
-          "example": "Das funktioniert."
+          "meaning": "toimia",
+          "example": "Das funktioniert. – Se toimii."
         }
       ],
       "tip": {
-        "text": "Atceries: Das passt. = Tas der."
+        "text": "Muista: Das passt. = Se sopii."
       },
       "important": [
-        "passen ei ole vain vaatteista.",
-        "Se voi tarkoittaa myös sitä, että aika, suunnitelma tai ratkaisu sopii."
+        "passen ei tarkoita vain vaatteiden sopivuutta.",
+        "Myös aika, suunnitelma tai ratkaisu voi sopia."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "passen",
-            "Das passt"
-          ],
-          "purple": [
-            "sobima",
-            "sobima",
-            "Põhiidee"
-          ],
-          "yellow": [
-            "Riiete",
-            "Värvide",
-            "stiili"
+            "passen"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "passt"
-              ],
-              "yellow": [
-                "Jacke"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jakk"
-              ],
-              "yellow": [
-                "Jakk"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "passt"
-              ],
-              "yellow": [
-                "Kleid"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kleit"
-              ],
-              "yellow": [
-                "Kleit"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "passt"
-              ],
-              "yellow": [
-                "Farbe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "sobib"
-              ],
-              "yellow": [
-                "värv"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "Das passt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "see sobib"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "comparison": [
@@ -18595,17 +17898,8 @@ const A1_WORDS = [
                 "passen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sobima",
-                "sobima"
-              ]
-            },
-            "example": {
-              "blue": [
-                "passt"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -18613,17 +17907,8 @@ const A1_WORDS = [
                 "stehen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sobima",
-                "seisma"
-              ]
-            },
-            "example": {
-              "green": [
-                "steht"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -18631,16 +17916,8 @@ const A1_WORDS = [
                 "geeignet sein"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sobiv"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "geeignet"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -18648,45 +17925,16 @@ const A1_WORDS = [
                 "funktionieren"
               ]
             },
-            "meaning": {
-              "purple": [
-                "toimima"
-              ]
-            },
-            "example": {
-              "red": [
-                "funktioniert"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "Das passt"
-            ],
-            "purple": [
-              "Atceries"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "passen"
-            ],
-            "yellow": [
-              "passen"
-            ]
-          },
-          {
-            "purple": [
-              "Tas",
-              "Tas",
-              "Tas",
-              "Tas"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -18723,8 +17971,9 @@ const A1_WORDS = [
     "de": "Pizza",
     "de_article": "die",
     "de_plural": "die Pizzen",
-    "lv": "Pitsa",
-    "level": "A1"
+    "lv": "pitsa",
+    "level": "A1",
+    "study": {}
   },
   {
     "de": "Plan",
@@ -19231,8 +18480,9 @@ const A1_WORDS = [
     "de": "Sache",
     "de_article": "die",
     "de_plural": "die Sachen",
-    "lv": "Asi",
-    "level": "A1"
+    "lv": "asia",
+    "level": "A1",
+    "study": {}
   },
   {
     "de": "Saft",
@@ -20592,76 +19842,69 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "End • Endale",
+    "lv": "itseään • itselleen",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "End • Endale",
+      "translation": "itseään • itselleen",
       "explanation": [
-        "Põhiidee: sich näitab, et tegevus käib tegija enda kohta.",
-        "Eesti keeles tõlgitakse seda sageli kui ennast või endale.",
-        "Mõne saksa tegusõna puhul on sich kohustuslik osa, näiteks sich waschen.",
-        "A1 tasemel on oluline tähele panna: ich wasche mich, er wäscht sich."
+        "Pääajatus: sich osoittaa, että tekeminen kohdistuu tekijään itseensä.",
+        "Suomeksi se ilmaistaan usein refleksiiviverbillä tai sanoilla itseään ja itselleen.",
+        "Joissakin saksan verbeissä sich on pakollinen osa, esimerkiksi sich waschen.",
+        "Muoto vaihtuu persoonan mukaan: ich wasche mich, du wäschst dich, er wäscht sich."
       ],
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "Ta peseb end."
+          "lv": "Hän peseytyy."
         },
         {
           "de": "Ich setze mich.",
-          "lv": "Ma istun maha."
+          "lv": "Istun alas."
         },
         {
           "de": "Sie freut sich.",
-          "lv": "Ta rõõmustab."
+          "lv": "Hän iloitsee."
         },
         {
           "de": "Ich wasche das Auto.",
-          "lv": "Ma pesen autot."
+          "lv": "Pesen auton."
         }
       ],
       "comparison": [
         {
           "word": "sich",
-          "meaning": "End / endale",
-          "example": "Er wäscht sich."
+          "meaning": "itseään / itselleen",
+          "example": "Er wäscht sich. – Hän peseytyy."
         },
         {
           "word": "mich",
-          "meaning": "Mind / ennast ich puhul",
-          "example": "Ich wasche mich."
+          "meaning": "minua / itseäni",
+          "example": "Ich wasche mich. – Peseydyn."
         },
         {
           "word": "dich",
-          "meaning": "Sind / ennast du puhul",
-          "example": "Du wäschst dich."
+          "meaning": "sinua / itseäsi",
+          "example": "Du wäschst dich. – Peseydyt."
         },
         {
           "word": "ihn",
-          "meaning": "Teda",
-          "example": "Ich sehe ihn."
+          "meaning": "hänet / häntä",
+          "example": "Ich sehe ihn. – Näen hänet."
         }
       ],
       "tip": {
-        "text": "Atceries: darbība uz sevi → sich/mich/dich."
+        "text": "Muista: tekeminen kohdistuu tekijään itseensä → mich, dich tai sich."
       },
       "important": [
         "sich ei ole itsenäinen substantiivi.",
-        "Se muuttuu henkilön mukaan: ich → mich, du → dich, er/sie/es → sich."
+        "Refleksiivipronomini vaihtuu persoonan mukaan."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "sich",
-            "ich wasche mich",
-            "er wäscht sich"
-          ],
-          "purple": [
-            "end",
-            "endale",
-            "Põhiidee"
+            "sich"
           ]
         },
         "examples": [
@@ -20671,23 +19914,11 @@ const A1_WORDS = [
                 "sich"
               ]
             },
-            "lv": {
-              "purple": [
-                "peseb"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "green": [
-                "mich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "istun"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
@@ -20695,29 +19926,11 @@ const A1_WORDS = [
                 "sich"
               ]
             },
-            "lv": {
-              "purple": [
-                "rõõmustab"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "red": [
-                "wasche"
-              ],
-              "yellow": [
-                "Auto"
-              ]
-            },
-            "lv": {
-              "red": [
-                "pesen"
-              ],
-              "yellow": [
-                "autot"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "comparison": [
@@ -20727,17 +19940,8 @@ const A1_WORDS = [
                 "sich"
               ]
             },
-            "meaning": {
-              "purple": [
-                "end",
-                "endale"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -20745,17 +19949,8 @@ const A1_WORDS = [
                 "mich"
               ]
             },
-            "meaning": {
-              "purple": [
-                "mind",
-                "mind"
-              ]
-            },
-            "example": {
-              "green": [
-                "mich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -20763,17 +19958,8 @@ const A1_WORDS = [
                 "dich"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sind",
-                "sind"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "dich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -20781,46 +19967,16 @@ const A1_WORDS = [
                 "ihn"
               ]
             },
-            "meaning": {
-              "purple": [
-                "teda"
-              ]
-            },
-            "example": {
-              "red": [
-                "ihn"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "sich"
-            ],
-            "purple": [
-              "Atceries"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "sich"
-            ],
-            "red": [
-              "sich"
-            ]
-          },
-          {
-            "green": [
-              "mich",
-              "dich"
-            ],
-            "blue": [
-              "sich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }

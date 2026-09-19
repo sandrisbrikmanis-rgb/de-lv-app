@@ -19485,244 +19485,65 @@ const A1_WORDS = [
   },
   {
     "de": "schwimmen",
-    "lv": "Peldēt",
+    "lv": "zwemmen",
     "level": "A1",
     "study": {
       "id": "a1-schwimmen",
       "layout": "standardStudy",
-      "translation": "Peldēt",
+      "translation": "zwemmen",
       "explanation": [
         "Hoofdidee: schwimmen betekent zwemmen als beweging of sport.",
-        "Schwimmen lieto, ja cilvēks peld ūdenī ar peldēšanas kustībām.",
-        "Als het om ontspanning in water of zwemmen gaat, gebruik je vaak baden.",
-        "Op A1-niveau is het belangrijk onderscheid: schwimmen = zwemmen, baden = baden."
+        "Je gebruikt schwimmen wanneer iemand zich met zwembewegingen door het water beweegt.",
+        "Voor ontspannen in het water of baden gebruik je vaak baden.",
+        "Op A1-niveau is het belangrijke verschil: schwimmen = zwemmen, baden = baden."
       ],
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "Man patīk peldēt."
+          "lv": "Ik zwem graag."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Viņš ļoti labi peld."
+          "lv": "Hij zwemt heel goed."
         },
         {
           "de": "Wir schwimmen im Schwimmbad.",
-          "lv": "Mēs peldam baseinā."
+          "lv": "Wij zwemmen in het zwembad."
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "Es eju peldēties."
+          "lv": "Ik ga baden."
         }
       ],
       "comparison": [
         {
           "word": "schwimmen",
-          "meaning": "Peldēt kā kustība vai sports",
+          "meaning": "zwemmen als beweging of sport",
           "example": "Hij zwemt erg goed."
         },
         {
           "word": "baden",
-          "meaning": "Peldēties / atrasties ūdenī",
-          "example": "Ik ga zwemmen."
+          "meaning": "baden / in het water zijn",
+          "example": "Ik ga baden."
         },
         {
           "word": "schwimmen gehen",
-          "meaning": "Iet peldēt",
-          "example": "We gaan zwemmen."
+          "meaning": "gaan zwemmen",
+          "example": "Wij gaan zwemmen."
         },
         {
           "word": "duschen",
-          "meaning": "Mazgāties dušā",
+          "meaning": "douchen",
           "example": "Ik douche 's ochtends."
         }
       ],
       "tip": {
-        "text": "Atceries: peldēšanas kustība → schwimmen; atpūta ūdenī → baden."
+        "text": "Onthoud: zwembeweging → schwimmen; baden of ontspannen in water → baden."
       },
       "important": [
         "schwimmen en baden zijn niet hetzelfde.",
         "In het Nederlands zeg je vaak 'zwemmen', maar in het Duits moet je kijken of het beweging of baden is."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "schwimmen"
-          ],
-          "purple": [
-            "peldēt",
-            "peldēšanas kustībām"
-          ],
-          "red": [
-            "baden",
-            "peldēties"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "schwimme"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "peldēt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "schwimmt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "peld"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "schwimmen"
-              ],
-              "green": [
-                "Schwimmbad"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "peldam"
-              ],
-              "green": [
-                "baseinā"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "baden"
-              ]
-            },
-            "lv": {
-              "red": [
-                "peldēties"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "schwimmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "peldēt",
-                "kustība",
-                "sports"
-              ]
-            },
-            "example": {
-              "blue": [
-                "schwimmt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "baden"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "peldēties",
-                "ūdenī"
-              ]
-            },
-            "example": {
-              "red": [
-                "baden"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "schwimmen gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "iet peldēt"
-              ]
-            },
-            "example": {
-              "green": [
-                "schwimmen"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "duschen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mazgāties dušā"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "dusche"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "schwimmen"
-            ],
-            "purple": [
-              "peldēšanas kustība"
-            ],
-            "red": [
-              "baden",
-              "atpūta ūdenī"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "schwimmen"
-            ],
-            "red": [
-              "baden"
-            ]
-          },
-          {
-            "purple": [
-              "peldēt"
-            ],
-            "blue": [
-              "kustība"
-            ],
-            "red": [
-              "peldēšanās"
-            ]
-          }
-        ]
-      }
+      ]
     }
   },
   {
@@ -20432,12 +20253,12 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "Sevi • Sev",
+    "lv": "zichzelf • zich",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Sevi • Sev",
+      "translation": "zichzelf • zich",
       "explanation": [
         "Hoofdidee: sich laat zien dat de actie verwijst naar de doener zelf.",
         "In het Nederlands vertaal je het vaak als jezelf of je.",
@@ -20447,222 +20268,50 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "Viņš mazgājas."
+          "lv": "Hij wast zich."
         },
         {
           "de": "Ich setze mich.",
-          "lv": "Es apsēžos."
+          "lv": "Ik ga zitten."
         },
         {
           "de": "Sie freut sich.",
-          "lv": "Viņa priecājas."
+          "lv": "Zij is blij."
         },
         {
           "de": "Ich wasche das Auto.",
-          "lv": "Es mazgāju auto."
+          "lv": "Ik was de auto."
         }
       ],
       "comparison": [
         {
           "word": "sich",
-          "meaning": "Sevi / sev",
+          "meaning": "zichzelf",
           "example": "Hij wast zich."
         },
         {
           "word": "mich",
-          "meaning": "Mani / sevi pie ich",
+          "meaning": "mezelf / me bij ich",
           "example": "Ik was me."
         },
         {
           "word": "dich",
-          "meaning": "Tevi / sevi pie du",
-          "example": "Je wast je."
+          "meaning": "jezelf / je bij du",
+          "example": "Jij wast je."
         },
         {
           "word": "ihn",
-          "meaning": "Viņu",
+          "meaning": "hem",
           "example": "Ik zie hem."
         }
       ],
       "tip": {
-        "text": "Atceries: darbība uz sevi → sich/mich/dich."
+        "text": "Onthoud: een handeling op jezelf → sich/mich/dich."
       },
       "important": [
         "sich is geen zelfstandig woord.",
         "Het verandert per persoon: ik → me, jij → je, hij/zij/het → zich."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "sich",
-            "ich wasche mich",
-            "er wäscht sich"
-          ],
-          "purple": [
-            "sevi",
-            "sev",
-            "Hoofdidee"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "sich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mazgājas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "mich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apsēžos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "sich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "priecājas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "wasche"
-              ],
-              "yellow": [
-                "Auto"
-              ]
-            },
-            "lv": {
-              "red": [
-                "mazgāju"
-              ],
-              "yellow": [
-                "auto"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "sich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sevi",
-                "sev"
-              ]
-            },
-            "example": {
-              "blue": [
-                "sich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "mich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mani",
-                "sevi"
-              ]
-            },
-            "example": {
-              "green": [
-                "mich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dich"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tevi",
-                "sevi"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "dich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ihn"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "viņu"
-              ]
-            },
-            "example": {
-              "red": [
-                "ihn"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sich"
-            ],
-            "purple": [
-              "darbība uz sevi"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "sich"
-            ],
-            "red": [
-              "lietvārds"
-            ]
-          },
-          {
-            "green": [
-              "mich",
-              "dich"
-            ],
-            "blue": [
-              "sich"
-            ]
-          }
-        ]
-      }
+      ]
     }
   },
   {

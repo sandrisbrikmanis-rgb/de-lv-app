@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:19:10.643Z",
+  "correction": "TRANSACTION_CORRECTION_2",
+  "pass": true,
+  "unique_planned_files": 46,
+  "duplicate_pending_write_paths": 0,
+  "backup_file_count": 46,
+  "planned_validation_pass": true,
+  "classification": "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_TRANSACTION_CORRECTION_2_READY_AWAITING_OWNER_REVERIFICATION"
+}

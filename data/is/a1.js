@@ -26954,173 +26954,99 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "Toalett",
+    "lv": "matur • máltíð",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "Toalett",
+      "translation": "matur • máltíð",
       "explanation": [
-        "Põhiidee: Nimisõna — toit või terve söökord.",
-        "Das Essen gejättättä: toitu tarbima.",
-        "Sagelie speltab: aktivitet.",
-        "Das Essen gejättättää: toit või söökord.",
-        "Sagely speltab: asja.",
-        "Essen betyr sömmist.",
-        "Das Essen kan bety et tak eller et spisebord generelt."
+        "Meginhugmynd: das Essen er nafnorð og merkir mat eða heila máltíð.",
+        "das Essen vísar til matarins sem er borðaður.",
+        "Orðið getur einnig táknað máltíð í heild.",
+        "essen með litlum staf er sögnin „að borða“.",
+        "das Essen með stórum staf er nafnorð.",
+        "essen = borða.",
+        "das Essen = matur eða máltíð."
       ],
       "examples": [
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Toit maisab hest."
+          "lv": "Maturinn er bragðgóður."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Mida te tahate spise?"
+          "lv": "Hvað viljið þið borða?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Me some kell 12."
+          "lv": "Við borðum klukkan tólf."
         },
         {
           "de": "Das Essen ist fertig.",
-          "lv": "Toit på valmis."
+          "lv": "Maturinn er tilbúinn."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Toit maisab väga häst."
+          "lv": "Maturinn er mjög bragðgóður."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Toit maisab hest."
+          "lv": "Maturinn er bragðgóður."
         }
       ],
       "tip": [
-        "das Essen = borða",
-        "Notaðu das Essen þegar samhengið passar við þessa merkingu."
+        "das Essen = matur eða máltíð",
+        "essen = borða"
       ],
       "important": [
-        "essen er sagnaorð án greinis.",
+        "essen er sögn án greinis.",
         "das Essen er ekki það sama og essen.",
         "Athöfn: essen.",
-        "Hlutur/máltíð: das Essen."
+        "Matur eða máltíð: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
-          "yellow": [
-            "das Essen",
-            "essen"
-          ],
-          "purple": [
-            "toit",
-            "söökord"
-          ],
-          "green": [
+          "blue": [
             "Essen"
           ]
         },
         "examples": [
           {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "toit",
-                "Toit"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "yellow": [
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mida",
-                "mida"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "yellow": [
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "some",
-                "some"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "toit",
-                "toit"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "toit",
-                "toit"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "toit",
-                "toit"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
+        "comparison": [],
         "tip": [
-          {
-            "purple": [
-              "das"
-            ]
-          },
-          {
-            "purple": [
-              "das"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "yellow": [
-              "essen"
-            ]
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -27128,153 +27054,93 @@ const A1_WORDS = [
   {
     "de": "Gemüse",
     "de_article": "das",
-    "lv": "Kjøkken-elskende",
+    "lv": "grænmeti",
     "level": "A1",
     "study": {
       "id": "a1-gemuese",
       "layout": "standardStudy",
-      "translation": "Kjøkken-elskende",
+      "translation": "grænmeti",
       "explanation": [
-        "Põhiidee: Köögiviljad generelt. Saksa keeles ei ole mitmuse vormi *die Gemüse.",
-        "Das Gemüse geschäfte geschäfte: gemeuses generelt.",
-        "Sagely ekspetab: kesksoos (ainult ainsuses)."
+        "Meginhugmynd: das Gemüse merkir grænmeti almennt; þýska orðið hefur ekki fleirtölumyndina *die Gemüse.",
+        "das Gemüse táknar grænmeti í heild.",
+        "Orðið er hvorugkyns og venjulega aðeins notað í eintölu."
       ],
       "examples": [
         {
           "de": "Ich esse gern Gemüse.",
-          "lv": "Ma söen meelsasti küdüvilju."
+          "lv": "Mér finnst gott að borða grænmeti."
         },
         {
           "de": "Ich esse gern Gemüse.",
-          "lv": "Ma söen meelsasti küdüvilju."
+          "lv": "Mér finnst gott að borða grænmeti."
         },
         {
           "de": "Das Gemüse ist frisch.",
-          "lv": "Köögiviljad på fressed."
+          "lv": "Grænmetið er ferskt."
         },
         {
           "de": "Wir kaufen Gemüse auf dem Markt.",
-          "lv": "Me ostame turult kjøkken vil."
+          "lv": "Við kaupum grænmeti á markaðnum."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "Mulle palavad frukt og grønnsaker."
+          "lv": "Mér líkar vel við ávexti og grænmeti."
         },
         {
           "de": "Ich esse Gemüse.",
-          "lv": "Ma søt kjøkken vil."
+          "lv": "Ég borða grænmeti."
         }
       ],
       "tip": [
         "das Gemüse = grænmeti",
-        "Notaðu das Gemüse þegar samhengið passar við þessa merkingu."
+        "Notaðu das Gemüse um grænmeti í heild."
       ],
       "important": [
-        "Ekki rétt: die Gemüse, die Obsts.",
-        "Rangt: die Gemüse → Rétt: das Gemüse",
-        "das Gemüse = grænmeti (í heild)."
+        "Ekki er sagt *die Gemüse eða *die Obsts.",
+        "Rangt: die Gemüse. Rétt: das Gemüse.",
+        "das Gemüse = grænmeti í heild."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Gemüse",
-            "gemüse"
-          ],
-          "purple": [
-            "köögiviljad"
-          ],
-          "green": [
             "Gemüse"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "söen"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "söen"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "das Gemüse",
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "köögiviljad"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ostame"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mulle"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "gemüse"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "søt"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
+        "comparison": [],
         "tip": [
-          {
-            "purple": [
-              "das"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "Nav"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -27282,133 +27148,158 @@ const A1_WORDS = [
   {
     "de": "Obst",
     "de_article": "das",
-    "lv": "Uvillig",
+    "lv": "ávextir",
     "level": "A1",
     "study": {
       "id": "a1-obst",
       "layout": "standardStudy",
-      "translation": "Uvillig",
+      "translation": "ávextir",
       "explanation": [
-        "Põhiidee: Puuwiljad generelt. Saksa keeles ei ole mitmuse vormi *die Obsts.",
-        "Das Obst betyr geschäfte: frukt generelt.",
-        "Sagely ekspetab: kesksoos (ainult ainsuses)."
+        "Meginhugmynd: das Obst vísar til ávaxta almennt; í þýsku er fleirtalan *die Obsts ekki notuð.",
+        "das Obst merkir ávexti sem safnheiti.",
+        "Orðið er hvorugkyns og er venjulega aðeins notað í eintölu."
       ],
       "examples": [
         {
           "de": "Wir essen viel Obst.",
-          "lv": "Me söme palju puuvilju."
+          "lv": "Við borðum mikið af ávöxtum."
         },
         {
           "de": "Wir essen viel Obst.",
-          "lv": "Me söme palju puuvilju."
+          "lv": "Við borðum mikið af ávöxtum."
         },
         {
           "de": "Obst ist gesund.",
-          "lv": "Usunn"
+          "lv": "Ávextir eru hollir."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "Mulle palavad frukt og grønnsaker."
+          "lv": "Mér líkar við ávexti og grænmeti."
         },
         {
           "de": "Wir essen Obst.",
-          "lv": "Me söme puuvilju."
+          "lv": "Við borðum ávexti."
         }
       ],
       "tip": [
         "das Obst = ávextir",
-        "Notaðu das Obst þegar samhengið passar við þessa merkingu."
+        "Notaðu das Obst þegar rætt er um ávexti almennt."
       ],
       "important": [
         "Rangt: die Obsts → Rétt: das Obst",
-        "das Obst = ávextir (í heild)."
+        "das Obst = ávextir sem safnheiti."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "das Obst",
-            "obst"
+          "blue": [
+            "das Obst"
           ],
           "purple": [
-            "Puuwiljad"
+            "ávexti",
+            "ávaxta"
           ],
-          "yellow": [
-            "Obst"
+          "red": [
+            "die Obsts"
+          ],
+          "green": [
+            "eintölu"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "obst"
+                "Obst"
               ]
             },
             "lv": {
               "purple": [
-                "puuvilju"
+                "ávöxtum"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "obst"
+                "Obst"
               ]
             },
             "lv": {
               "purple": [
-                "puuvilju"
+                "ávöxtum"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "obst"
+                "Obst"
               ]
             },
             "lv": {
               "purple": [
-                "Usunn"
+                "Ávextir"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "obst"
+                "Obst"
               ]
             },
             "lv": {
               "purple": [
-                "Mulle"
+                "ávexti"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "obst"
+                "Obst"
               ]
             },
             "lv": {
               "purple": [
-                "puuvilju"
+                "ávexti"
               ]
             }
           }
         ],
         "tip": [
           {
+            "blue": [
+              "das Obst"
+            ],
             "purple": [
-              "das"
+              "ávextir"
+            ]
+          },
+          {
+            "blue": [
+              "das Obst"
+            ],
+            "purple": [
+              "ávexti"
             ]
           }
         ],
         "important": [
           {
+            "red": [
+              "die Obsts"
+            ],
             "green": [
               "das Obst"
+            ]
+          },
+          {
+            "blue": [
+              "das Obst"
+            ],
+            "purple": [
+              "ávextir"
             ]
           }
         ]
@@ -27418,167 +27309,127 @@ const A1_WORDS = [
   {
     "de": "Ferien",
     "de_article": "die",
-    "lv": "Vaheag (kul)",
+    "lv": "skólafrí",
     "level": "A1",
     "study": {
       "id": "a1-ferien",
       "layout": "standardStudy",
-      "translation": "Vaheag (kul)",
+      "translation": "skólafrí",
       "explanation": [
-        "Hovedidé: bare mitmus. Kooli- või päävaheag — alati mitmuses.",
-        "Die Ferien geschäfte geicht: koolivaheag.",
-        "Sagelie omprestab: sägele mitmus.",
-        "Die Ferien on mitke mitmuses — alati mitmuses (in den Ferien)."
+        "Meginhugmynd: die Ferien er aðeins notað í fleirtölu og merkir frí frá skóla eða námi.",
+        "die Ferien merkir aðallega skólafrí eða námsfrí.",
+        "Orðið er aðeins notað í fleirtölu.",
+        "Rétt orðasamband er in den Ferien."
       ],
       "examples": [
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Vaheajal sålaime me mere eärde."
+          "lv": "Í skólafríinu förum við til sjávar."
         },
         {
           "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "Vaheajal på mul palju aega."
+          "lv": "Í skólafríinu hef ég mikinn tíma."
         },
         {
           "de": "Was macht ihr in den Ferien?",
-          "lv": "Mida te vaheajal teete?"
+          "lv": "Hvað gerið þið í skólafríinu?"
         },
         {
           "de": "Die Schule ist in den Ferien zu.",
-          "lv": "Kool på vaehajal lukket."
+          "lv": "Skólinn er lokaður í skólafríinu."
         },
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Vaheajal sålaime me mere eärde."
+          "lv": "Í skólafríinu förum við til sjávar."
         },
         {
           "de": "In den Ferien",
-          "lv": "Vahejal (kul)."
+          "lv": "í skólafríinu"
         }
       ],
       "comparison": [
         {
           "word": "die Ferien",
-          "meaning": "Kooli/ülikooli vaheaeg (ainult mitmuses)",
-          "example": "In den Ferien fahren wir weg. – Vaheajal savlaime meg kuhugi ære."
+          "meaning": "skólafrí eða námsfrí (aðeins fleirtala)",
+          "example": "In den Ferien fahren wir weg. – Í skólafríinu förum við í ferðalag."
         },
         {
           "word": "der Urlaub",
-          "meaning": "Puhkus töolt (ainult ains.)",
-          "example": "Ich habe zwei Wochen Urlaub. – Mul on kaks veekt puhkust."
+          "meaning": "orlof frá vinnu (eintala)",
+          "example": "Ich habe zwei Wochen Urlaub. – Ég er í tveggja vikna orlofi."
         }
       ],
       "tip": [
-        "aðeins fleirtala. Skóla- eða námsorlofa — alltaf fleirtölu.",
-        "Notaðu die Ferien þegar samhengið passar við þessa merkingu."
+        "die Ferien er aðeins notað í fleirtölu og merkir skólafrí eða námsfrí.",
+        "Notaðu die Ferien um frí frá skóla eða námi."
       ],
       "important": [
-        "Ferien er alltaf með þolfalli: in den Ferien.",
-        "Rangt: in der Ferien → Rétt: in den Ferien",
-        "Skóli: die Ferien (aðeins fleirtala).",
-        "aðeins fleirtala. Skóla- eða námsorlofa — alltaf fleirtölu."
+        "Í orðasambandinu in den Ferien stendur Ferien í þágufalli.",
+        "Rangt: in der Ferien. Rétt: in den Ferien.",
+        "Skóli: die Ferien, aðeins fleirtala.",
+        "Vinna: der Urlaub, eintala."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "die Ferien",
-            "ferien"
-          ],
-          "purple": [
-            "Hovedidé",
-            "kool"
-          ],
-          "green": [
             "Ferien"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Vaheajal"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vaheajal"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mida"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kool"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vaheajal"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "ferien"
+            "de": {},
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Ferien"
               ]
             },
-            "lv": {
-              "purple": [
-                "Vahejal"
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "der Urlaub"
               ]
-            }
+            },
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "tikai"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "Ferien"
-            ]
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -27586,149 +27437,228 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
-    "lv": "Puhkus",
+    "lv": "orlof",
     "level": "A1",
     "study": {
       "id": "a1-urlaub",
       "layout": "standardStudy",
-      "translation": "Puhkus",
+      "translation": "orlof",
       "explanation": [
-        "Hovedidé: bare ainsus. Puhkus töolt — alati ainsuses.",
-        "Der Urlaub geichnätt geicht: vaba aeg töölt.",
-        "Sageli occertab: sagi ainsus.",
-        "Der Urlaub på bare ainsuses - puhkus töölt (im Urlaub)."
+        "Meginhugmynd: der Urlaub merkir orlof eða frí frá vinnu og er í þýsku yfirleitt notað í eintölu.",
+        "der Urlaub vísar fyrst og fremst til frítíma frá vinnu.",
+        "Í þessari merkingu er þýska orðið notað í eintölu.",
+        "Algeng sambönd eru im Urlaub sein og Urlaub machen."
       ],
       "examples": [
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Minu isa på ferie."
+          "lv": "Faðir minn er í orlofi."
         },
         {
           "de": "Mein Vater ist im Urlaub.",
-          "lv": "Minu isa på ferie."
+          "lv": "Faðir minn er í orlofi."
         },
         {
           "de": "Nächste Woche habe ich Urlaub.",
-          "lv": "Siekel vekkus på mul puhkus."
+          "lv": "Ég verð í orlofi í næstu viku."
         },
         {
           "de": "Wir machen Urlaub in Spanien.",
-          "lv": "Me veedame veidame Españas."
+          "lv": "Við erum í orlofi á Spáni."
         },
         {
           "de": "im Urlaub",
-          "lv": "Puhkusel (töö)."
+          "lv": "í orlofi"
         }
       ],
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "Puhkus töolt (ainult ains.)",
-          "example": "Mein Vater ist im Urlaub. – Minu isa på ferie."
+          "meaning": "orlof frá vinnu (þýska: eintala)",
+          "example": "Mein Vater ist im Urlaub. – Faðir minn er í orlofi."
         },
         {
           "word": "die Ferien",
-          "meaning": "Kooli/ülikooli vaheaeg (ainult mitmuses)",
-          "example": "Die Kinder haben Ferien. – Lastel på vaheheg."
+          "meaning": "skólafrí (þýska: fleirtala)",
+          "example": "Die Kinder haben Ferien. – Börnin eru í skólafríi."
         }
       ],
       "tip": [
-        "tikai vienskaitlis. Atvaļinājums no darba — vienmēr vienskaitlī.",
-        "Notaðu der Urlaub þegar samhengið passar við þessa merkingu."
+        "der Urlaub er notað um orlof eða frí frá vinnu og stendur yfirleitt í eintölu.",
+        "Notaðu der Urlaub þegar átt er við frí frá vinnu."
       ],
       "important": [
-        "Ekki rétt: die Ferie, der Urlaube (A1 stigi).",
-        "Urlaub: im Urlaub sein / Urlaub machen.",
-        "Ekki rétt: die Urlaube → Rétt: der Urlaub",
-        "Verkefni: der Urlaub (eingöngu eintölu)."
+        "Á A1-stigi er der Urlaub venjulega notað í eintölu.",
+        "Algeng sambönd eru im Urlaub sein og Urlaub machen.",
+        "Fleirtalan die Urlaube er til, en er sjaldgæfari og vísar til fleiri aðskildra orlofa.",
+        "Vinna: der Urlaub (eintala); skóli: die Ferien (fleirtala)."
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
             "der Urlaub",
-            "urlaub"
+            "Urlaub",
+            "im Urlaub sein",
+            "Urlaub machen"
           ],
           "purple": [
-            "puhkus"
+            "orlof",
+            "frí frá vinnu"
           ],
           "yellow": [
-            "Urlaub"
+            "eintölu"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "urlaub"
+                "Urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "Minu"
+                "í orlofi"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "urlaub"
+                "Urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "Minu"
+                "í orlofi"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "urlaub"
+                "Urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "puhkus"
+                "í orlofi"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "urlaub"
+                "Urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "veedame"
+                "í orlofi"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "urlaub"
+                "Urlaub"
               ]
             },
             "lv": {
               "purple": [
-                "puhkusel"
+                "í orlofi"
               ]
             }
           }
         ],
         "tip": [
           {
+            "green": [
+              "der Urlaub"
+            ],
             "purple": [
-              "tikai"
+              "orlof",
+              "frí frá vinnu"
+            ],
+            "yellow": [
+              "eintölu"
+            ]
+          },
+          {
+            "green": [
+              "der Urlaub"
+            ],
+            "purple": [
+              "frí frá vinnu"
             ]
           }
         ],
         "important": [
           {
             "green": [
-              "der Urlaube"
+              "der Urlaub"
+            ],
+            "yellow": [
+              "eintölu"
             ]
+          },
+          {
+            "green": [
+              "im Urlaub sein",
+              "Urlaub machen"
+            ]
+          },
+          {
+            "green": [
+              "die Urlaube"
+            ],
+            "yellow": [
+              "sjaldgæfari"
+            ]
+          },
+          {
+            "green": [
+              "der Urlaub",
+              "die Ferien"
+            ],
+            "purple": [
+              "Vinna",
+              "skóli"
+            ],
+            "yellow": [
+              "eintala",
+              "fleirtala"
+            ]
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Urlaub"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "orlof frá vinnu",
+                "eintala"
+              ]
+            },
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "die Ferien"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "skólafrí",
+                "fleirtala"
+              ]
+            },
+            "example": {}
           }
         ]
       }

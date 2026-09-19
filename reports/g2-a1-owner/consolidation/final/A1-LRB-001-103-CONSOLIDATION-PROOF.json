@@ -1,7 +1,15 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-19T11:28:03.878Z",
-  "generation_base_sha": "bb81af6f97e949b16ced353b9266b513bc50ef32",
+  "generated_at": "2026-09-19T11:50:22.595Z",
+  "generation_base_sha": "a0eb7268b9e99204ee810affdac004a4b8b101c7",
+  "multipart_manifest_correction": true,
+  "multipart_audit": {
+    "part_count": 11,
+    "multipart_sha_mismatches": 0,
+    "multipart_size_mismatches": 0,
+    "multipart_row_count_mismatches": 0,
+    "multipart_row_sum": 4787
+  },
   "copy_paste_source": {
     "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json",
     "sha256": "f8bee806aab17b8681b5177bb1bbb32b34c91ecb49a0660f69a66621eb31c2d2"
@@ -45,7 +53,7 @@
     "owner_review_required": 0,
     "missing_final_values": 0
   },
-  "classification": "A1_LRB_001_103_CONSOLIDATED_MAPPING_REBUILT_FROM_234_GALA_APPROVED_CARDS_AWAITING_OWNER_VERIFICATION",
+  "classification": "A1_LRB_001_103_CONSOLIDATED_MAPPING_MULTIPART_MANIFEST_CORRECTION_COMPLETE_AWAITING_OWNER_REVERIFICATION",
   "next_action": "OWNER_VERIFY_CONSOLIDATED_MAPPING",
   "resolution_class_counts": {
     "GALA_234_FULL_CARD_COPY_PASTE": 4787

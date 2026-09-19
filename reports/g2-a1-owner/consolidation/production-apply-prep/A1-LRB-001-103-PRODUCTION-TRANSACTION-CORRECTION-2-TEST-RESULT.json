@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:24:02.688Z",
+  "pass": true,
+  "rollback_test_failures": 0,
+  "post_write_test_failures": 0,
+  "tests": [
+    {
+      "name": "before_first_rename",
+      "pass": true,
+      "kind": "rollback"
+    },
+    {
+      "name": "after_first_rename",
+      "pass": true,
+      "kind": "rollback"
+    },
+    {
+      "name": "mid_write",
+      "pass": true,
+      "kind": "rollback"
+    },
+    {
+      "name": "before_last_rename",
+      "pass": true,
+      "kind": "rollback"
+    },
+    {
+      "name": "after_data_before_www",
+      "pass": true,
+      "kind": "rollback"
+    },
+    {
+      "name": "post_write_wrong_bytes",
+      "pass": true,
+      "kind": "post_write"
+    },
+    {
+      "name": "post_write_data_www_drift",
+      "pass": true,
+      "kind": "post_write"
+    },
+    {
+      "name": "post_write_bad_syntax",
+      "pass": true,
+      "kind": "post_write"
+    },
+    {
+      "name": "post_write_card_sha_mismatch",
+      "pass": true,
+      "kind": "post_write"
+    },
+    {
+      "name": "post_write_de_sequence_drift",
+      "pass": true,
+      "kind": "post_write"
+    },
+    {
+      "name": "success_no_fault",
+      "pass": true,
+      "kind": "success"
+    }
+  ],
+  "data_www_drift": 0,
+  "partial_modified_files": 0,
+  "production_file_set_sha_gate": "ccd237adb9e2b9812901589c328d7ddd0225aca81fe1b986d13d9f2e4c510c56",
+  "classification": "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_TRANSACTION_CORRECTION_2_READY_AWAITING_OWNER_REVERIFICATION",
+  "next_action": "OWNER_REVERIFY_POST_WRITE_TRANSACTION"
+}

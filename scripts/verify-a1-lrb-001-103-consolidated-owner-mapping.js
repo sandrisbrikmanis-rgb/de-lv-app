@@ -8,8 +8,10 @@ const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const {
   TARGET_CLASSIFICATION,
+  MULTIPART_MANIFEST_CORRECTION_COMPLETE_CLASSIFICATION,
   EXPECTED_CARD_COUNT,
   COPY_PASTE_REL,
+  auditMultipartManifestParts,
 } = require("./lib/g2-a1-lrb-consolidated-mapping-from-234-gala");
 const {
   isCanonicalLeafFieldPath,
@@ -127,8 +129,28 @@ function main() {
     if (gates[k] !== v) blockers.push(`gate:${k}=${JSON.stringify(gates[k])} expected=${JSON.stringify(v)}`);
   }
 
-  if (proof.classification !== TARGET_CLASSIFICATION) {
+  const allowedClassifications = new Set([
+    TARGET_CLASSIFICATION,
+    MULTIPART_MANIFEST_CORRECTION_COMPLETE_CLASSIFICATION,
+  ]);
+  if (!allowedClassifications.has(proof.classification)) {
     blockers.push(`classification:${proof.classification}`);
+  }
+
+  const multipartAudit = auditMultipartManifestParts(manifest);
+  if (multipartAudit.multipart_sha_mismatches) {
+    blockers.push(`multipart_sha_mismatches:${multipartAudit.multipart_sha_mismatches}`);
+  }
+  if (multipartAudit.multipart_size_mismatches) {
+    blockers.push(`multipart_size_mismatches:${multipartAudit.multipart_size_mismatches}`);
+  }
+  if (multipartAudit.multipart_row_count_mismatches) {
+    blockers.push(`multipart_row_count_mismatches:${multipartAudit.multipart_row_count_mismatches}`);
+  }
+  if (manifest.leaf_decisions_count !== multipartAudit.multipart_row_sum) {
+    blockers.push(
+      `multipart_row_sum_mismatch:manifest=${manifest.leaf_decisions_count} parts=${multipartAudit.multipart_row_sum}`
+    );
   }
 
   if (manifest.full_cards_count !== EXPECTED_CARD_COUNT) {
@@ -234,6 +256,9 @@ function main() {
     blockers,
     leaf_decisions_count: decisions.length,
     apply_eligible_leaf_decisions: gates.apply_eligible_leaf_decisions,
+    gala_approved_cards_applied: manifest.gala_approved_cards_applied,
+    owner_values_modified_during_rebuild: gates.owner_values_modified_during_rebuild,
+    multipart: multipartAudit,
     manifest_sha256: sha256(fs.readFileSync(manifestPath)),
     proof_sha256: sha256(fs.readFileSync(proofPath)),
     gates_rechecked: {

@@ -1565,23 +1565,23 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "a • sobre • en • ¿adónde?",
+    "lv": "al • a la • sobre (dirección)",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "a • sobre • en (contracción de «auf das»)",
+      "translation": "al • a la • sobre (contracción de auf das)",
       "explanation": [
-        "aufs es una abreviatura de la preposición auf y del artículo das.",
-        "Forma completa: auf das (¿dónde?).",
-        "Se utiliza cuando la acción indica la dirección hacia una cosa o superficie específica: responde a la pregunta ¿dónde?",
-        "A menudo se usa con movimiento: subir, sentarse, dejarse, conducir hacia algo.",
-        "En el habla coloquial y cotidiana, casi siempre se utiliza aufs en lugar del auf das completo."
+        "aufs es la contracción de la preposición auf y el artículo das.",
+        "La forma completa es auf das.",
+        "Se usa con sustantivos neutros para indicar movimiento hacia una superficie, un lugar o un acontecimiento.",
+        "Responde a wohin? (¿adónde?), no a wo? (¿dónde?).",
+        "En el uso corriente se prefiere aufs a la forma completa auf das."
       ],
       "examples": [
         {
           "de": "Ich gehe aufs Dach.",
-          "lv": "Voy al tejado."
+          "lv": "Subo al tejado."
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
@@ -1589,7 +1589,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Nos vamos al campo."
+          "lv": "Vamos al campo."
         },
         {
           "de": "Stell die Tasche aufs Bett.",
@@ -1597,62 +1597,60 @@ const A1_WORDS = [
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Él salta sobre el caballo."
+          "lv": "Él se sube de un salto al caballo."
         },
         {
           "de": "Leg das Buch aufs Regal.",
-          "lv": "Pon el libro en el estante."
+          "lv": "Pon el libro en la estantería."
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "¡Ven rápido al barco!"
+          "lv": "¡Sube rápido al barco!"
         },
         {
           "de": "Wir gehen aufs Fest.",
-          "lv": "Vamos a una fiesta."
+          "lv": "Vamos a la fiesta."
         }
       ],
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "a un caso específico (Akk.)",
-          "example": "aufs Dach – hacia el tejado"
+          "meaning": "al / a la / sobre, hacia una superficie o lugar neutro",
+          "example": "aufs Dach – al tejado"
         },
         {
           "word": "auf",
-          "meaning": "hacia la superficie o hacia arriba",
-          "example": "auf den Tisch – en la mesa"
+          "meaning": "a / sobre una superficie",
+          "example": "auf den Tisch – sobre la mesa"
         },
         {
           "word": "an",
-          "meaning": "sobre una superficie horizontal",
-          "example": "an die Wand – hacia la pared"
+          "meaning": "hacia una superficie vertical",
+          "example": "an die Wand – a la pared"
         },
         {
           "word": "ins",
-          "meaning": "hacia adentro",
-          "example": "ins Zimmer – en la habitación"
+          "meaning": "hacia el interior",
+          "example": "ins Zimmer – a la habitación"
         },
         {
           "word": "zum",
-          "meaning": "a / sobre (¿hacia dónde?)",
+          "meaning": "a una persona o institución",
           "example": "zum Arzt – al médico"
         }
       ],
       "tip": [
-        "Recuerda: auf + das → aufs (kurp?, kurp?).",
-        "El auf das completo casi nunca se habla coloquialmente: se utiliza aufs."
+        "auf + das → aufs; expresa destino o dirección.",
+        "Para una ubicación sin movimiento se usa auf + dativo."
       ],
       "important": [
-        "aufs = auf das, sólo con un sustantivo de cualquier género, ¿dónde? en inflexión.",
-        "¿Responder a dónde? — movimiento a un lugar o superficie específica.",
-        "En una superficie horizontal, a menudo se usa auf den en lugar de aufs.",
-        "No confundir con (en la pared) o ins (dentro de la habitación)."
+        "aufs solo contrae auf + das y se usa con sustantivos neutros.",
+        "No lo confundas con an para una superficie vertical ni con ins para entrar en un espacio."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "a"
+          "blue": [
+            "aufs"
           ]
         },
         "examples": [
@@ -1662,11 +1660,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "uz jumta"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1674,11 +1668,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "en el sofá"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1686,11 +1676,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "nos"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1698,11 +1684,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "uz gultas"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1710,11 +1692,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "monta"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1722,11 +1700,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "Pon"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1734,11 +1708,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "¡Ven"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -1746,11 +1716,7 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "lv": {
-              "purple": [
-                "vamos"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -1760,16 +1726,8 @@ const A1_WORDS = [
                 "aufs"
               ]
             },
-            "meaning": {
-              "purple": [
-                "a un caso específico"
-              ]
-            },
-            "example": {
-              "blue": [
-                "aufs Dach"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -1777,16 +1735,8 @@ const A1_WORDS = [
                 "auf"
               ]
             },
-            "meaning": {
-              "purple": [
-                "hacia"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "auf den Tisch"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -1794,16 +1744,8 @@ const A1_WORDS = [
                 "an"
               ]
             },
-            "meaning": {
-              "purple": [
-                "en"
-              ]
-            },
-            "example": {
-              "green": [
-                "an die Wand"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -1811,16 +1753,8 @@ const A1_WORDS = [
                 "ins"
               ]
             },
-            "meaning": {
-              "purple": [
-                "hacia adentro"
-              ]
-            },
-            "example": {
-              "green": [
-                "ins Zimmer"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -1828,33 +1762,17 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "meaning": {
-              "purple": [
-                "pie",
-                "pie"
-              ]
-            },
-            "example": {
-              "red": [
-                "zum Arzt"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "kurp?",
-              "auf das"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "auf das"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -4202,7 +4120,11 @@ const A1_WORDS = [
       "id": "a1-dass",
       "layout": "standardStudy",
       "translation": "que",
-      "explanation": "Introduce una cláusula auxiliar que expresa un hecho, pensamiento o afirmación.",
+      "explanation": [
+        "dass introduce una oración subordinada que expresa un hecho, un pensamiento o algo dicho.",
+        "En español suele corresponder a la conjunción «que».",
+        "En la subordinada alemana introducida por dass, el verbo conjugado va al final."
+      ],
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
@@ -4210,39 +4132,48 @@ const A1_WORDS = [
         },
         {
           "de": "Er sagt, dass er kommt.",
-          "lv": "Él dice que vendrá."
+          "lv": "Él dice que viene."
         },
         {
           "de": "Ich glaube, dass das stimmt.",
-          "lv": "Creo que eso es correcto."
+          "lv": "Creo que eso es verdad."
         }
       ],
       "comparison": [
         {
           "word": "dass",
           "meaning": "que",
-          "example": "Ich weiß, dass er kommt. – Sé que vendrá."
+          "example": "Ich weiß, dass er kommt. – Sé que viene."
         },
         {
           "word": "weil",
-          "meaning": "que",
-          "example": "Ich bleibe zu Hause, weil es regnet. – Me quedo en casa porque está lloviendo."
+          "meaning": "porque / ya que",
+          "example": "Ich bleibe zu Hause, weil es regnet. – Me quedo en casa porque llueve."
         },
         {
           "word": "damit",
-          "meaning": "que",
-          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Estoy aprendiendo alemán para poder trabajar en Alemania."
+          "meaning": "para que",
+          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Estudio alemán para poder trabajar en Alemania."
         },
         {
           "word": "ob",
-          "meaning": "que",
-          "example": "Ich weiß nicht, ob er kommt. – No sé si vendrá."
+          "meaning": "si, en una pregunta indirecta",
+          "example": "Ich weiß nicht, ob er kommt. – No sé si viene."
         }
       ],
       "tip": {
-        "text": "Recuerda: que → dass."
+        "text": "La conjunción «que» → dass; el verbo alemán va al final de la subordinada."
       },
+      "important": [
+        "dass significa «que» e introduce una subordinada.",
+        "No lo confundas con das, que puede ser artículo o pronombre."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "dass"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -4250,11 +4181,7 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {
-              "purple": [
-                "es"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4262,11 +4189,7 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {
-              "purple": [
-                "dice"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4274,11 +4197,7 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "lv": {
-              "purple": [
-                "eso"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -4288,14 +4207,8 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "example": {
-              "blue": [
-                "dass"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -4303,14 +4216,8 @@ const A1_WORDS = [
                 "weil"
               ]
             },
-            "example": {
-              "green": [
-                "weil"
-              ],
-              "purple": [
-                "porque"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -4318,14 +4225,8 @@ const A1_WORDS = [
                 "damit"
               ]
             },
-            "example": {
-              "yellow": [
-                "damit"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -4333,39 +4234,18 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "example": {
-              "red": [
-                "ob"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "dass"
-            ],
-            "purple": [
-              "Recuerda"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "eso",
-              "eso"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "dass significa \"eso\" e introduce una cláusula auxiliar.",
-        "No confundir con das, que puede ser un artículo o 'eso'."
-      ]
+      }
     }
   },
   {
@@ -4964,20 +4844,20 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "hielo • helado",
       "explanation": [
-        "Idea principal: das Eis puede significar tanto helado como helado.",
-        "Cuando se trata de agua fría y congelada, en español se suele decir hielo.",
-        "Cuando se trata de comida o postre, das Eis suele significar helado en la vida cotidiana.",
-        "El contexto suele indicar inmediatamente qué significado se pretende.",
-        "En el nivel A1, las frases más importantes son ein Eis essen y Eis im Glas."
+        "Idea principal: das Eis puede significar hielo o helado.",
+        "Cuando se habla de agua congelada, significa hielo.",
+        "Cuando se habla de comida o postre, significa helado.",
+        "El contexto permite distinguir las dos acepciones.",
+        "Expresiones frecuentes: ein Eis essen y Eis auf dem See."
       ],
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "yo como helado"
+          "lv": "Como un helado."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "¿Quieres helado?"
+          "lv": "¿Quieres un helado?"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
@@ -4989,7 +4869,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "Tomaré helado de chocolate."
+          "lv": "Tomo un helado de chocolate."
         }
       ],
       "comparison": [
@@ -5000,8 +4880,8 @@ const A1_WORDS = [
         },
         {
           "word": "der Schnee",
-          "meaning": "nevará",
-          "example": "Der Schnee ist weiß. = La nieve es blanca."
+          "meaning": "nieve",
+          "example": "Der Schnee ist weiß. – La nieve es blanca."
         },
         {
           "word": "kalt",
@@ -5015,16 +4895,16 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Recuerde: comida → helado; invierno/agua → hielo."
+        "text": "Recuerda: comida → helado; agua congelada → hielo."
       },
       "important": [
-        "En español, hielo y helado son dos palabras diferentes, pero en alemán, das Eis suele usarse para ambas.",
-        "El contexto es clave: comida significa helado, superficie fría o agua significa hielo."
+        "En español, hielo y helado son palabras distintas; el alemán usa das Eis para ambas ideas.",
+        "El contexto determina si se trata de hielo o de helado."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "helado"
+          "blue": [
+            "Eis"
           ]
         },
         "examples": [
@@ -5034,11 +4914,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "helado"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5046,11 +4922,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "helado"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5058,11 +4930,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "invierno"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5070,11 +4938,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "ledus"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5082,11 +4946,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "helado"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -5096,20 +4956,8 @@ const A1_WORDS = [
                 "das Eis"
               ]
             },
-            "meaning": {
-              "purple": [
-                "hielo",
-                "helado"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Eis"
-              ],
-              "purple": [
-                "helado"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5117,17 +4965,8 @@ const A1_WORDS = [
                 "der Schnee"
               ]
             },
-            "meaning": {
-              "purple": [
-                "nevará"
-              ]
-            },
-            "example": {
-              "green": [
-                "Schnee",
-                "Sniegs"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5135,17 +4974,8 @@ const A1_WORDS = [
                 "kalt"
               ]
             },
-            "meaning": {
-              "purple": [
-                "frío"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Das",
-                "fría"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5153,41 +4983,16 @@ const A1_WORDS = [
                 "das Dessert"
               ]
             },
-            "meaning": {
-              "purple": [
-                "postre"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Eis"
-              ],
-              "red": [
-                "postre"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "purple": [
-              "helado",
-              "Recuerde"
-            ],
-            "green": [
-              "Recuerde",
-              "Recuerde",
-              "agua"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "helado",
-              "helado"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -5428,32 +5233,33 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "eso • eso • forma impersonal",
+    "lv": "ello • pronombre impersonal",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "eso • ello • forma impersonal",
+      "translation": "ello • pronombre impersonal",
       "explanation": [
-        "Idea principal: es es un pronombre.",
-        "Se usa: eso, en construcciones impersonales."
+        "Idea principal: es es un pronombre neutro alemán.",
+        "Puede referirse a un sustantivo neutro o funcionar como sujeto formal en construcciones impersonales.",
+        "En español, muchas construcciones impersonales con es no traducen el pronombre de forma expresa."
       ],
       "examples": [
         {
           "de": "Es regnet.",
-          "lv": "Es importante aprender alemán."
+          "lv": "Llueve."
         },
         {
           "de": "Es ist kalt.",
-          "lv": "Es cansado esperar."
+          "lv": "Hace frío."
         },
         {
           "de": "Das Kind schläft.",
-          "lv": "Es necesario trabajar aquí."
+          "lv": "El niño duerme."
         },
         {
           "de": "Es ist müde.",
-          "lv": "Es mi libro."
+          "lv": "Está cansado."
         },
         {
           "de": "Es regnet.",
@@ -5464,122 +5270,93 @@ const A1_WORDS = [
           "lv": "Nieva."
         }
       ],
-      "info": [
-        "\"es\" letón = \"ich\" alemán",
-        "\"I\" alemán = eso; entonces; forma impersonal"
-      ],
-      "tip": {
-        "text": "Recuerda: el alemán «es» puede significar «eso» o formar construcciones impersonales; no significa «yo»."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Ich"
-            ]
-          },
-          {
-            "blue": [
-              "Er"
-            ]
-          },
-          {
-            "red": [
-              "Sie"
-            ]
-          },
-          {
-            "yellow": [
-              "Das"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          }
-        ],
-        "info": [
-          {
-            "blue": [
-              "ich"
-            ]
-          },
-          {
-            "green": [
-              "letón"
-            ]
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Recuerde"
-            ],
-            "red": [
-              "ich"
-            ],
-            "purple": [
-              "Recuerde"
-            ]
-          }
-        },
-        "important": [
-          {
-            "purple": [
-              "es"
-            ]
-          }
-        ]
-      },
-      "important": [
-        "El yo alemán no es el yo letón.",
-        "La \"yo\" letona es ich en alemán; El alemán es a menudo significa eso o no está traducido.",
-        "El \"es\" letón se traduce al alemán como ich; el es alemán frecuentemente significa eso o no se traduce."
-      ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "eso • forma impersonal",
+          "meaning": "ello / pronombre impersonal",
           "example": "Es regnet. – Llueve."
         },
         {
           "word": "ich",
-          "meaning": "él (persona)",
+          "meaning": "yo",
           "example": "Ich lerne Deutsch. – Estudio alemán."
         }
-      ]
+      ],
+      "tip": {
+        "text": "Recuerda: el alemán es puede ser neutro o impersonal; no equivale a ich."
+      },
+      "important": [
+        "es e ich no son el mismo pronombre.",
+        "En expresiones meteorológicas, es suele omitirse al traducir al español."
+      ],
+      "info": [
+        "es = pronombre neutro o sujeto formal",
+        "ich = yo"
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "es"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Es"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Es"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {},
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Es"
+              ]
+            },
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "es"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "ich"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          }
+        ],
+        "tip": {
+          "left": {}
+        },
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -16652,17 +16429,17 @@ const A1_WORDS = [
   },
   {
     "de": "oder",
-    "lv": "o • o",
+    "lv": "o",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "o • o",
+      "translation": "o",
       "explanation": [
-        "Idea principal: oder se utiliza cuando elegimos entre dos o más opciones.",
-        "En español, oder suele significar o.",
-        "No es lo mismo que ob, que introduce una pregunta indirecta.",
-        "En las conversaciones, oder también puede estar al final de la frase: Du kommst, oder?"
+        "Idea principal: oder une alternativas y significa o.",
+        "Se usa para elegir entre dos o más posibilidades.",
+        "No debe confundirse con ob, que introduce una pregunta indirecta.",
+        "Al final de una oración, oder? puede equivaler a ¿verdad? o ¿no?"
       ],
       "examples": [
         {
@@ -16679,43 +16456,42 @@ const A1_WORDS = [
         },
         {
           "de": "Du kommst, oder?",
-          "lv": "vendrás, ¿no?"
+          "lv": "Vienes, ¿no?"
         }
       ],
       "comparison": [
         {
           "word": "oder",
-          "meaning": "o elegir",
-          "example": "¿Café o té?"
+          "meaning": "o, entre alternativas",
+          "example": "Kaffee oder Tee? – ¿Café o té?"
         },
         {
           "word": "ob",
-          "meaning": "o en una pregunta indirecta",
-          "example": "Ich weiß nicht, ob er kommt."
+          "meaning": "si, en una pregunta indirecta",
+          "example": "Ich weiß nicht, ob er kommt. – No sé si viene."
         },
         {
           "word": "und",
           "meaning": "y",
-          "example": "Kaffee und Kuchen."
+          "example": "Kaffee und Kuchen. – Café y pastel."
         },
         {
           "word": "aber",
           "meaning": "pero",
-          "example": "Ich komme, aber später."
+          "example": "Ich komme, aber später. – Voy, pero más tarde."
         }
       ],
       "tip": {
-        "text": "Recuerda: elegir entre opciones → oder."
+        "text": "Recuerda: elección entre alternativas → oder; pregunta indirecta → ob."
       },
       "important": [
-        "Para la selección se utiliza el oder: Kaffee oder Tee.",
-        "En una pregunta indirecta, \"si\" suele ser ob."
+        "oder se usa para expresar una elección.",
+        "El si de una pregunta indirecta se expresa con ob."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "o",
-            "pregunta indirecta"
+          "blue": [
+            "oder"
           ]
         },
         "examples": [
@@ -16723,17 +16499,9 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "oder"
-              ],
-              "yellow": [
-                "Kaffee",
-                "Tee"
               ]
             },
-            "lv": {
-              "purple": [
-                "o"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16741,27 +16509,7 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {
-              "purple": [
-                "o"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "oder"
-              ],
-              "yellow": [
-                "Pizza",
-                "Salat"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "o"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16769,11 +16517,15 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "lv": {
-              "purple": [
-                "vendrás"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "oder"
               ]
-            }
+            },
+            "lv": {}
           }
         ],
         "comparison": [
@@ -16783,17 +16535,8 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "meaning": {
-              "purple": [
-                "o",
-                "elegir"
-              ]
-            },
-            "example": {
-              "blue": [
-                "oder"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -16801,17 +16544,8 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "meaning": {
-              "purple": [
-                "o",
-                "en una pregunta indirecta"
-              ]
-            },
-            "example": {
-              "red": [
-                "ob"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -16819,16 +16553,8 @@ const A1_WORDS = [
                 "und"
               ]
             },
-            "meaning": {
-              "purple": [
-                "y"
-              ]
-            },
-            "example": {
-              "green": [
-                "und"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -16836,36 +16562,16 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "meaning": {
-              "purple": [
-                "pero"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "aber"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "oder"
-            ],
-            "purple": [
-              "Recuerda",
-              "Recuerda"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "para la selección",
-              "Para"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -16940,17 +16646,17 @@ const A1_WORDS = [
   },
   {
     "de": "passen",
-    "lv": "encajar • encajar",
+    "lv": "quedar bien • servir",
     "level": "A1",
     "study": {
       "id": "a1-passen",
       "layout": "standardStudy",
-      "translation": "quedar bien • encajar",
+      "translation": "quedar bien • servir",
       "explanation": [
-        "Idea principal: passen significa encajar, adaptarse o ser adecuado.",
-        "En el caso de la ropa, passen a menudo significa ajustarse a la talla.",
-        "Para colores o estilo, passen significa encajar.",
-        "Una frase muy común es Das passt. = Encaja."
+        "Idea principal: passen significa servir, quedar bien o ser adecuado.",
+        "Con ropa suele indicar que la talla va bien.",
+        "Con colores o estilo puede significar combinar o quedar bien.",
+        "Das passt. significa «Eso sirve» o «Eso está bien»."
       ],
       "examples": [
         {
@@ -16963,105 +16669,64 @@ const A1_WORDS = [
         },
         {
           "de": "Die Farbe passt zu dir.",
-          "lv": "Este color te queda bien."
+          "lv": "El color te queda bien."
         },
         {
           "de": "Das passt.",
-          "lv": "Eso encaja."
+          "lv": "Eso está bien."
         }
       ],
       "comparison": [
         {
           "word": "passen",
-          "meaning": "encajar / encajar",
-          "example": "Die Jacke passt mir."
+          "meaning": "servir / quedar bien",
+          "example": "Die Jacke passt mir. – La chaqueta me queda bien."
         },
         {
           "word": "stehen",
-          "meaning": "estar de pie / estar de pie",
-          "example": "Rot steht dir gut."
+          "meaning": "sentar bien (color o estilo)",
+          "example": "Rot steht dir gut. – El rojo te sienta bien."
         },
         {
           "word": "geeignet sein",
           "meaning": "ser adecuado",
-          "example": "Das ist geeignet."
+          "example": "Das ist geeignet. – Eso es adecuado."
         },
         {
           "word": "funktionieren",
           "meaning": "funcionar",
-          "example": "Das funktioniert."
+          "example": "Das funktioniert. – Eso funciona."
         }
       ],
       "tip": {
-        "text": "Recuerda: Das passt. = Eso encaja."
+        "text": "Recuerda: Das passt. = Eso sirve / Eso está bien."
       },
       "important": [
-        "passen no se trata sólo de ropa.",
-        "También puede significar que el momento, el plan o la solución son los adecuados."
+        "passen no se limita a la ropa.",
+        "También puede indicar que una hora, un plan o una solución resultan adecuados."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "adecuado"
+          "blue": [
+            "passen"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "passt"
-              ],
-              "yellow": [
-                "Jacke"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "der"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "passt"
-              ],
-              "yellow": [
-                "Kleid"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "der"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "passt"
-              ],
-              "yellow": [
-                "Farbe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "este"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "Das passt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tas der"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "comparison": [
@@ -17071,17 +16736,8 @@ const A1_WORDS = [
                 "passen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "encajar",
-                "encajar"
-              ]
-            },
-            "example": {
-              "blue": [
-                "passt"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -17089,17 +16745,8 @@ const A1_WORDS = [
                 "stehen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "estar",
-                "estar de pie"
-              ]
-            },
-            "example": {
-              "green": [
-                "steht"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -17107,16 +16754,8 @@ const A1_WORDS = [
                 "geeignet sein"
               ]
             },
-            "meaning": {
-              "purple": [
-                "adecuado"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "geeignet"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -17124,35 +16763,16 @@ const A1_WORDS = [
                 "funktionieren"
               ]
             },
-            "meaning": {
-              "purple": [
-                "darboties"
-              ]
-            },
-            "example": {
-              "red": [
-                "funktioniert"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "Das passt"
-            ],
-            "purple": [
-              "tas der"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "passen",
-              "passen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }

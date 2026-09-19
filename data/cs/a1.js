@@ -15168,12 +15168,11 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "Muž • Manžel",
       "explanation": [
-        "Hlavní myšlenka: der Mann může znamenat muž (pohlaví) nebo manžel (manžel).",
-        "Pokud je to prostě záležitost pohlaví nebo osoby, der Mann = muž.",
-        "Pro manžela, der Mann = manžel (mein Mann = můj manžel).",
-        "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžela.",
-        "Množné číslo: die Männer.",
-        "Ženská forma die Frau má stejný dvojí význam: žena a manželka."
+        "der Mann může podle kontextu znamenat „muž“ nebo „manžel“.",
+        "Bez přivlastňovacího zájmena obvykle označuje dospělého muže.",
+        "Ve spojení mein Mann, dein Mann nebo ihr Mann obvykle znamená manžel.",
+        "Množné číslo je die Männer.",
+        "Podobně die Frau může znamenat žena i manželka."
       ],
       "examples": [
         {
@@ -15202,23 +15201,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy označuje manžela.",
-        "Bez přivlastňovacího (der Mann, ein Mann) obvykle znamená muž."
+        "Přivlastňovací zájmeno + Mann obvykle označuje manžela.",
+        "der Mann / ein Mann bez přivlastňovacího zájmena obvykle znamená muž."
       ],
       "important": [
-        "Der Mann = muž NEBO manžel – v závislosti na kontextu.",
-        "Mein Mann = můj manžel (nikoli 'můj muž').",
+        "der Mann = muž nebo manžel podle kontextu.",
+        "mein Mann = můj manžel.",
         "Množné číslo: die Männer."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Mann",
             "Mann"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
           ]
         },
         "examples": [
@@ -15228,47 +15222,7 @@ const A1_WORDS = [
                 "Mann"
               ]
             },
-            "lv": {
-              "purple": [
-                "milý"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "mein Mann"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Tohle"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Männer"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Kolik"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Mein Mann"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Můj"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15276,63 +15230,49 @@ const A1_WORDS = [
                 "Mann"
               ]
             },
-            "lv": {
-              "purple": [
-                "Muž"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "Ihr Mann"
+              "blue": [
+                "Männer"
               ]
             },
-            "lv": {
-              "purple": [
-                "Její"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Mann"
               ]
-            }
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Mann"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Mann"
+              ]
+            },
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "green": [
-              "mein",
-              "dein",
-              "ihr Mann"
-            ],
-            "purple": [
-              "Přivlastňovací"
-            ]
-          },
-          {
-            "blue": [
-              "der Mann",
-              "ein Mann"
-            ],
-            "purple": [
-              "Přivlastňovací"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "Der",
-              "Der"
-            ]
-          },
-          {
-            "green": [
-              "mein Mann"
-            ]
-          },
-          {
-            "blue": [
-              "die Männer"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -15424,12 +15364,12 @@ const A1_WORDS = [
   },
   {
     "de": "mit",
-    "lv": "S",
+    "lv": "s",
     "level": "A1",
     "study": {
       "id": "a1-mit",
       "layout": "standardStudy",
-      "translation": "S",
+      "translation": "s",
       "explanation": [
         "Hlavní myšlenka: mit nejčastěji znamená s.",
         "Mit se používá, když je člověk s někým nebo něco dělá s věcí.",
@@ -15458,22 +15398,22 @@ const A1_WORDS = [
         {
           "word": "mit",
           "meaning": "S / spolu s",
-          "example": "Jdu s tebou."
+          "example": "Ich komme mit dir. – Jdu s tebou."
         },
         {
           "word": "ohne",
           "meaning": "Bez",
-          "example": "Jdu bez tebe."
+          "example": "Ich komme ohne dich. – Jdu bez tebe."
         },
         {
           "word": "bei",
           "meaning": "U / u někoho",
-          "example": "Jsem u Anny."
+          "example": "Ich bin bei Anna. – Jsem u Anny."
         },
         {
           "word": "zu",
           "meaning": "K / ke",
-          "example": "Jdu k lékaři."
+          "example": "Ich gehe zum Arzt. – Jdu k lékaři."
         }
       ],
       "tip": {
@@ -15486,58 +15426,17 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "mit",
-            "mit dem Bus",
-            "mit dem Auto",
-            "mit dir"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "green": [
-            "Hlavní",
-            "autobusem",
-            "Hlavní",
-            "auto"
+            "mit"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "mit dir"
+                "mit"
               ]
             },
-            "lv": {
-              "purple": [
-                "Jdu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "mit dem Bus"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Jedu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "mit dem Stift"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Píše"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15545,11 +15444,23 @@ const A1_WORDS = [
                 "mit"
               ]
             },
-            "lv": {
-              "purple": [
-                "Půjdeš"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "mit"
               ]
-            }
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "mit"
+              ]
+            },
+            "lv": {}
           }
         ],
         "comparison": [
@@ -15559,17 +15470,8 @@ const A1_WORDS = [
                 "mit"
               ]
             },
-            "meaning": {
-              "purple": [
-                "spolu",
-                "spolu"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mit dir"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15577,16 +15479,8 @@ const A1_WORDS = [
                 "ohne"
               ]
             },
-            "meaning": {
-              "purple": [
-                "bez"
-              ]
-            },
-            "example": {
-              "red": [
-                "ohne dich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15594,16 +15488,8 @@ const A1_WORDS = [
                 "bei"
               ]
             },
-            "meaning": {
-              "purple": [
-                "někoho"
-              ]
-            },
-            "example": {
-              "green": [
-                "bei Anna"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15612,46 +15498,15 @@ const A1_WORDS = [
               ]
             },
             "meaning": {},
-            "example": {
-              "yellow": [
-                "zum Arzt"
-              ]
-            }
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "mit"
-            ],
-            "purple": [
-              "Pamatujte",
-              "Pamatujte"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "mit"
-            ],
-            "purple": [
-              "dativ"
-            ],
-            "yellow": [
-              "dem Bus",
-              "der Mutter",
-              "dir"
-            ]
-          },
-          {
-            "blue": [
-              "Kde"
-            ],
-            "purple": [
-              "Kde"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15718,22 +15573,22 @@ const A1_WORDS = [
         {
           "word": "mögen",
           "meaning": "Mít rád",
-          "example": "Mám ráda hudbu."
+          "example": "Ich mag Musik. – Mám rád hudbu."
         },
         {
           "word": "möchte",
           "meaning": "Chtěl bych",
-          "example": "Chci kávu."
+          "example": "Ich möchte Kaffee. – Chtěl/a bych kávu."
         },
         {
           "word": "wollen",
           "meaning": "Chtít",
-          "example": "Chci jít domů."
+          "example": "Ich will nach Hause. – Chci domů."
         },
         {
           "word": "lieben",
           "meaning": "Milovat",
-          "example": "Miluji tě."
+          "example": "Ich liebe dich. – Miluji tě."
         }
       ],
       "tip": {
@@ -15746,76 +15601,33 @@ const A1_WORDS = [
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "mögen",
-            "Ich mag",
-            "möchte"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní",
-            "Hlavní"
+            "mögen"
           ]
         },
         "examples": [
           {
             "de": {
-              "blue": [
-                "mag"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "Mám"
-              ],
-              "yellow": [
-                "Mám"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "blue": [
-                "Magst"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "Máš"
-              ],
-              "yellow": [
-                "Máš"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "blue": [
-                "mag"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "ráda"
-              ],
-              "green": [
-                "ráda"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "red": [
-                "möchte"
-              ]
+              "blue": []
             },
-            "lv": {
-              "red": [
-                "Chtěl"
-              ],
-              "yellow": [
-                "Chtěl"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -15825,16 +15637,8 @@ const A1_WORDS = [
                 "mögen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Mít"
-              ]
-            },
-            "example": {
-              "blue": [
-                "mag"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15842,16 +15646,8 @@ const A1_WORDS = [
                 "möchte"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Chtěl"
-              ]
-            },
-            "example": {
-              "red": [
-                "möchte"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15859,16 +15655,8 @@ const A1_WORDS = [
                 "wollen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Chtít"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "will"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15876,49 +15664,16 @@ const A1_WORDS = [
                 "lieben"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Milovat"
-              ]
-            },
-            "example": {
-              "green": [
-                "liebe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "Ich mag"
-            ],
-            "purple": [
-              "Pamatujte"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "mögen"
-            ],
-            "red": [
-              "möchte"
-            ],
-            "purple": [
-              "Mögen"
-            ]
-          },
-          {
-            "blue": [
-              "mag"
-            ],
-            "purple": [
-              "Ich",
-              "Ich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15946,21 +15701,17 @@ const A1_WORDS = [
   },
   {
     "de": "morgen",
-    "lv": "Zítra",
+    "lv": "zítra",
     "level": "A1",
     "study": {
       "id": "a1-morgen",
       "layout": "standardStudy",
-      "translation": "Zítra",
+      "translation": "zítra",
       "explanation": [
-        "Hlavní myšlenka: morgen s malým písmenem znamená zítra.",
-        "Morgen s velkým písmenem je podstatné jméno a znamená ráno.",
-        "Nezaměňujte morgen ve větě Ich komme morgen s Morgen ve spojení Guten Morgen!.",
-        "Ich komme morgen = Přijdu zítra. Guten Morgen! = Dobré ráno!",
-        "Der Laut je podstatné jméno. Laut je přídavné jméno.",
-        "morgen především znamená: více jiter.",
-        "Často popisuje: podstatné jméno (mn. č.).",
-        "morgen s malým počátečním písmenem znamená zítra — příští den (Ich komme morgen = přijdu zítra, Bis morgen!"
+        "morgen s malým písmenem znamená „zítra“.",
+        "Morgen s velkým písmenem je podstatné jméno „ráno“.",
+        "Ich komme morgen. = Přijdu zítra.",
+        "Guten Morgen! = Dobré ráno!"
       ],
       "examples": [
         {
@@ -15989,8 +15740,8 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Malý morgen = zítra (Ich komme morgen). der Morgen s velkým písmenem = ráno (Guten Morgen!, am Morgen).",
-        "Morgen = zítra"
+        "morgen = zítra; der Morgen = ráno.",
+        "Malé písmeno označuje příslovce."
       ],
       "important": [
         "Morgen je malé písmeno - je to časové příslovce (zítra).",
@@ -16002,104 +15753,67 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "morgen"
-          ],
-          "purple": [
-            "Hlavní"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Přijdu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "zítra"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Přijdu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Zítra"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Dobré"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Ráno"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Malý"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "morgen"
-            ]
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -16107,21 +15821,17 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
-    "lv": "Ráno",
+    "lv": "ráno",
     "level": "A1",
     "study": {
       "id": "a1-morgen-study",
       "layout": "standardStudy",
-      "translation": "Ráno",
+      "translation": "ráno",
       "explanation": [
-        "Hlavní myšlenka: Der Morgen je podstatné jméno, které znamená ráno.",
-        "Používá se s velkým písmenem: der Morgen, am Morgen.",
-        "Nezaměňujte ho s morgen s malým písmenem, které znamená zítra.",
-        "Guten Morgen! = Dobré ráno! Ich komme morgen = Přijdu zítra.",
-        "Der Laut je podstatné jméno. Laut je přídavné jméno.",
-        "der Morgen především znamená: více jiter.",
-        "Často popisuje: podstatné jméno (mn. č.).",
-        "morgen s malým počátečním písmenem znamená zítra — příští den (Ich komme morgen = přijdu zítra, Bis morgen!"
+        "Der Morgen je podstatné jméno „ráno“.",
+        "Píše se s velkým písmenem a používá se s členem der.",
+        "morgen s malým písmenem znamená „zítra“.",
+        "Guten Morgen! = Dobré ráno!; Ich komme morgen. = Přijdu zítra."
       ],
       "examples": [
         {
@@ -16150,8 +15860,8 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Malý morgen = zítra (Ich komme morgen). der Morgen s velkým písmenem = ráno (Guten Morgen!, am Morgen).",
-        "Der Morgen = ráno"
+        "morgen = zítra; der Morgen = ráno.",
+        "Velké M označuje podstatné jméno."
       ],
       "important": [
         "Morgen je malé písmeno - je to časové příslovce (zítra).",
@@ -16161,93 +15871,64 @@ const A1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Morgen",
-            "morgen"
-          ],
-          "purple": [
-            "Hlavní",
-            "Hlavní"
-          ],
-          "yellow": [
+          "blue": [
             "Morgen"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "morgen"
+              "blue": [
+                "Morgen"
               ]
             },
             "lv": {}
           },
           {
             "de": {
-              "green": [
-                "morgen"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "zítra"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "morgen"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "Přijdu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Zítra"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
+              "blue": [
+                "Morgen"
               ]
             },
             "lv": {}
           },
           {
             "de": {
-              "green": [
-                "der Morgen",
-                "morgen"
+              "blue": [
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Ráno"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
               ]
-            }
+            },
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Malý"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
+          {},
+          {},
           {}
         ]
       }

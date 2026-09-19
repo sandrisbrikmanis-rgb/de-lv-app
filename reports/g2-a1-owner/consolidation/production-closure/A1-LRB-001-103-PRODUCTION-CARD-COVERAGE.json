@@ -1,0 +1,1414 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T13:26:39.379Z",
+  "full_card_matches": "234/234",
+  "incomplete_cards": 0,
+  "schema_failures": 0,
+  "de_alignment_failures": 0,
+  "cards": [
+    {
+      "card_key": "bg|aufs",
+      "match": true,
+      "production_planned_entry_sha256": "075b3237f1f1d058dc25725c28ec89ffc3877fa74af91152034adf084f524c75",
+      "production_live_entry_sha256": "075b3237f1f1d058dc25725c28ec89ffc3877fa74af91152034adf084f524c75"
+    },
+    {
+      "card_key": "bg|das",
+      "match": true,
+      "production_planned_entry_sha256": "71438e244614c8efce9cd2d0ec487f0f4d4838a4f6ac8d6a02525a8c33aaaaf3",
+      "production_live_entry_sha256": "71438e244614c8efce9cd2d0ec487f0f4d4838a4f6ac8d6a02525a8c33aaaaf3"
+    },
+    {
+      "card_key": "bg|finden",
+      "match": true,
+      "production_planned_entry_sha256": "1fd905577d1913eb5869cdc4c9653f5a53536d4eb5d6c2d92d2defa2c359e2b3",
+      "production_live_entry_sha256": "1fd905577d1913eb5869cdc4c9653f5a53536d4eb5d6c2d92d2defa2c359e2b3"
+    },
+    {
+      "card_key": "bg|gleich",
+      "match": true,
+      "production_planned_entry_sha256": "18081fa43b0f342fc7a5bb1111fa9f28520463a1e7a263a68715600956e553d3",
+      "production_live_entry_sha256": "18081fa43b0f342fc7a5bb1111fa9f28520463a1e7a263a68715600956e553d3"
+    },
+    {
+      "card_key": "bg|groß",
+      "match": true,
+      "production_planned_entry_sha256": "f98bf92ec137ba8a2a706ed23a92cfc7cb4a92179f665b016a3fafdd062101a2",
+      "production_live_entry_sha256": "f98bf92ec137ba8a2a706ed23a92cfc7cb4a92179f665b016a3fafdd062101a2"
+    },
+    {
+      "card_key": "bg|gut",
+      "match": true,
+      "production_planned_entry_sha256": "a6f915000dc0300d34c3671c131b09de687162d73023fd7be3cb82932bdc2938",
+      "production_live_entry_sha256": "a6f915000dc0300d34c3671c131b09de687162d73023fd7be3cb82932bdc2938"
+    },
+    {
+      "card_key": "bg|ihr",
+      "match": true,
+      "production_planned_entry_sha256": "6580d1600bc80f38469c9ee5585273af7d140f6d5129622d6031fd13cd66020b",
+      "production_live_entry_sha256": "6580d1600bc80f38469c9ee5585273af7d140f6d5129622d6031fd13cd66020b"
+    },
+    {
+      "card_key": "bg|im",
+      "match": true,
+      "production_planned_entry_sha256": "c6eba9c9461148cf8dde640480e0474bc46fa49457362f9cd925251703b45861",
+      "production_live_entry_sha256": "c6eba9c9461148cf8dde640480e0474bc46fa49457362f9cd925251703b45861"
+    },
+    {
+      "card_key": "bs|erst",
+      "match": true,
+      "production_planned_entry_sha256": "882c855217389ec2473c96d71001020962b6ae31ca7980bef8443e9954216103",
+      "production_live_entry_sha256": "882c855217389ec2473c96d71001020962b6ae31ca7980bef8443e9954216103"
+    },
+    {
+      "card_key": "bs|etwas",
+      "match": true,
+      "production_planned_entry_sha256": "22d5f6d1834d4a9fa0ef9cd7affc38aac02d1388c50e0d08045f7ade08f3392a",
+      "production_live_entry_sha256": "22d5f6d1834d4a9fa0ef9cd7affc38aac02d1388c50e0d08045f7ade08f3392a"
+    },
+    {
+      "card_key": "bs|gut",
+      "match": true,
+      "production_planned_entry_sha256": "c56556035c4203f2aa99784b2a92a7a3bd9a4d9853d7cfe8225ef14e21437ea0",
+      "production_live_entry_sha256": "c56556035c4203f2aa99784b2a92a7a3bd9a4d9853d7cfe8225ef14e21437ea0"
+    },
+    {
+      "card_key": "bs|Morgen",
+      "match": true,
+      "production_planned_entry_sha256": "0a0abd2c3658a0733c4de9ee573bcd2b284626c2ee404c7ece9089b929120692",
+      "production_live_entry_sha256": "0a0abd2c3658a0733c4de9ee573bcd2b284626c2ee404c7ece9089b929120692"
+    },
+    {
+      "card_key": "cs|Mann",
+      "match": true,
+      "production_planned_entry_sha256": "e65541ec588cf87041a7ed7a9f365c03ac5b80b86967d50e5f9559e68b3764fd",
+      "production_live_entry_sha256": "e65541ec588cf87041a7ed7a9f365c03ac5b80b86967d50e5f9559e68b3764fd"
+    },
+    {
+      "card_key": "cs|mit",
+      "match": true,
+      "production_planned_entry_sha256": "9799a1d32eba7ad61362f99ce1ba7f015996071ae58e41d8ec22389a28c9f806",
+      "production_live_entry_sha256": "9799a1d32eba7ad61362f99ce1ba7f015996071ae58e41d8ec22389a28c9f806"
+    },
+    {
+      "card_key": "cs|mögen",
+      "match": true,
+      "production_planned_entry_sha256": "4508cf03386af2606a58f219d5481c4694765a7ec1a1f301003790c13b50cb45",
+      "production_live_entry_sha256": "4508cf03386af2606a58f219d5481c4694765a7ec1a1f301003790c13b50cb45"
+    },
+    {
+      "card_key": "cs|morgen",
+      "match": true,
+      "production_planned_entry_sha256": "870b92185cc94d7e9051ce8d0dbd873913b0fee46dc1242ddb40859e333e928d",
+      "production_live_entry_sha256": "870b92185cc94d7e9051ce8d0dbd873913b0fee46dc1242ddb40859e333e928d"
+    },
+    {
+      "card_key": "cs|Morgen",
+      "match": true,
+      "production_planned_entry_sha256": "bf9b73126f24a3a609d5f1e379f465cc71dedccf102ca77d4fe9f3ec2ab86877",
+      "production_live_entry_sha256": "bf9b73126f24a3a609d5f1e379f465cc71dedccf102ca77d4fe9f3ec2ab86877"
+    },
+    {
+      "card_key": "da|gleich",
+      "match": true,
+      "production_planned_entry_sha256": "84fd03f913c88e8e0acaae7d78b49567b13b310025b21fdd9bfdeb2ef6d2747e",
+      "production_live_entry_sha256": "84fd03f913c88e8e0acaae7d78b49567b13b310025b21fdd9bfdeb2ef6d2747e"
+    },
+    {
+      "card_key": "da|können",
+      "match": true,
+      "production_planned_entry_sha256": "64ae76619054811388110ee204ea8f624682dfe3b376045f854d683c45534f19",
+      "production_live_entry_sha256": "64ae76619054811388110ee204ea8f624682dfe3b376045f854d683c45534f19"
+    },
+    {
+      "card_key": "da|Laden",
+      "match": true,
+      "production_planned_entry_sha256": "cc98ef4490d1acfa4d5ac9bc21ad556813de89d107f2918c3808efaf4d59f79c",
+      "production_live_entry_sha256": "cc98ef4490d1acfa4d5ac9bc21ad556813de89d107f2918c3808efaf4d59f79c"
+    },
+    {
+      "card_key": "da|Land",
+      "match": true,
+      "production_planned_entry_sha256": "b8eb8858dba7096561e44549f7058148956062a23874ccd3f36cfb78cc32cb40",
+      "production_live_entry_sha256": "b8eb8858dba7096561e44549f7058148956062a23874ccd3f36cfb78cc32cb40"
+    },
+    {
+      "card_key": "en|ab",
+      "match": true,
+      "production_planned_entry_sha256": "ee8b68ea612e34e45ed6e5240acf3840f0177875e85cfea7b313e0b3aa5a9ade",
+      "production_live_entry_sha256": "ee8b68ea612e34e45ed6e5240acf3840f0177875e85cfea7b313e0b3aa5a9ade"
+    },
+    {
+      "card_key": "en|aber",
+      "match": true,
+      "production_planned_entry_sha256": "fa445dac6d203bceb4ed9bc0257cb5318e4a03558cfa37d53a9f1e802ec79b8c",
+      "production_live_entry_sha256": "fa445dac6d203bceb4ed9bc0257cb5318e4a03558cfa37d53a9f1e802ec79b8c"
+    },
+    {
+      "card_key": "en|an",
+      "match": true,
+      "production_planned_entry_sha256": "68963768fe66f9f3982f0555245f922486943604855284e608e124f404c8d6e4",
+      "production_live_entry_sha256": "68963768fe66f9f3982f0555245f922486943604855284e608e124f404c8d6e4"
+    },
+    {
+      "card_key": "en|ein",
+      "match": true,
+      "production_planned_entry_sha256": "9f91d5be0c2944fb325597613033486af93e40a301697daf19fb93733e47b63f",
+      "production_live_entry_sha256": "9f91d5be0c2944fb325597613033486af93e40a301697daf19fb93733e47b63f"
+    },
+    {
+      "card_key": "en|Eis",
+      "match": true,
+      "production_planned_entry_sha256": "5e3f7a01d8a8f58a3d43fe71e25d0c7e382e22fdd98aad78459f5c2b5753f287",
+      "production_live_entry_sha256": "5e3f7a01d8a8f58a3d43fe71e25d0c7e382e22fdd98aad78459f5c2b5753f287"
+    },
+    {
+      "card_key": "en|erst",
+      "match": true,
+      "production_planned_entry_sha256": "64ee3381fe1daa2d158886cbb6ac46871567fc6b403e1cf5de9e31eeda052194",
+      "production_live_entry_sha256": "64ee3381fe1daa2d158886cbb6ac46871567fc6b403e1cf5de9e31eeda052194"
+    },
+    {
+      "card_key": "en|es",
+      "match": true,
+      "production_planned_entry_sha256": "1e95037aaa7ca621de5a061430e645fa6ae400d1f7345d637335ad78f35647ac",
+      "production_live_entry_sha256": "1e95037aaa7ca621de5a061430e645fa6ae400d1f7345d637335ad78f35647ac"
+    },
+    {
+      "card_key": "en|essen",
+      "match": true,
+      "production_planned_entry_sha256": "56f5edb271edf7823cb219391f6a85551eebe78fc88c808ad394519eade48c3c",
+      "production_live_entry_sha256": "56f5edb271edf7823cb219391f6a85551eebe78fc88c808ad394519eade48c3c"
+    },
+    {
+      "card_key": "en|etwas",
+      "match": true,
+      "production_planned_entry_sha256": "bbecc9d42c088bf126e6fe37d7b7a4955899b6088e037ba9015af54e7d3959bd",
+      "production_live_entry_sha256": "bbecc9d42c088bf126e6fe37d7b7a4955899b6088e037ba9015af54e7d3959bd"
+    },
+    {
+      "card_key": "en|ganz",
+      "match": true,
+      "production_planned_entry_sha256": "4e85068b360cfec979315c72ee3be74cbe256b52352fe10f091bd60dd2e32864",
+      "production_live_entry_sha256": "4e85068b360cfec979315c72ee3be74cbe256b52352fe10f091bd60dd2e32864"
+    },
+    {
+      "card_key": "en|klein",
+      "match": true,
+      "production_planned_entry_sha256": "277a156b0080c8e8fd9b354590889518a4194e7ce716c169973c937c0ab46192",
+      "production_live_entry_sha256": "277a156b0080c8e8fd9b354590889518a4194e7ce716c169973c937c0ab46192"
+    },
+    {
+      "card_key": "en|nach",
+      "match": true,
+      "production_planned_entry_sha256": "dd7ccea6752e6e2441019a9c48fe828a5b8ab5e91d3869768fda94c176a82cb9",
+      "production_live_entry_sha256": "dd7ccea6752e6e2441019a9c48fe828a5b8ab5e91d3869768fda94c176a82cb9"
+    },
+    {
+      "card_key": "en|nehmen",
+      "match": true,
+      "production_planned_entry_sha256": "8d7563efd010af044a4bea66a3c3c2856d042cdf900db3e0f47ea8b7784e3644",
+      "production_live_entry_sha256": "8d7563efd010af044a4bea66a3c3c2856d042cdf900db3e0f47ea8b7784e3644"
+    },
+    {
+      "card_key": "en|ob",
+      "match": true,
+      "production_planned_entry_sha256": "7f6503a33dd4d61442979fa181735535fedf7d06e5d881e3d840921d4368f200",
+      "production_live_entry_sha256": "7f6503a33dd4d61442979fa181735535fedf7d06e5d881e3d840921d4368f200"
+    },
+    {
+      "card_key": "en|sprechen",
+      "match": true,
+      "production_planned_entry_sha256": "c47ae8214c96ea3247e35960f09f08baff32ee106c160b2e03b25e5ec305bc94",
+      "production_live_entry_sha256": "c47ae8214c96ea3247e35960f09f08baff32ee106c160b2e03b25e5ec305bc94"
+    },
+    {
+      "card_key": "en|stehen",
+      "match": true,
+      "production_planned_entry_sha256": "a70dd1ac36ea5deb1a7bf7cff5f579620725af172404aaf224500ecf1f2cc033",
+      "production_live_entry_sha256": "a70dd1ac36ea5deb1a7bf7cff5f579620725af172404aaf224500ecf1f2cc033"
+    },
+    {
+      "card_key": "en|zum",
+      "match": true,
+      "production_planned_entry_sha256": "1b6a422b90c6bee3680dd7e5652cf48495e26dd46a90a2c81c0b694583d4e620",
+      "production_live_entry_sha256": "1b6a422b90c6bee3680dd7e5652cf48495e26dd46a90a2c81c0b694583d4e620"
+    },
+    {
+      "card_key": "es|aufs",
+      "match": true,
+      "production_planned_entry_sha256": "b12c54cbbd54493451310e9f5408cfbc98cf173544d6562e0d67d8b7237597ca",
+      "production_live_entry_sha256": "b12c54cbbd54493451310e9f5408cfbc98cf173544d6562e0d67d8b7237597ca"
+    },
+    {
+      "card_key": "es|dass",
+      "match": true,
+      "production_planned_entry_sha256": "c35e86a1548dd0b52453a3a18f0d2a97121c3b2db54bd676e54f0a02bf58aaa9",
+      "production_live_entry_sha256": "c35e86a1548dd0b52453a3a18f0d2a97121c3b2db54bd676e54f0a02bf58aaa9"
+    },
+    {
+      "card_key": "es|Eis",
+      "match": true,
+      "production_planned_entry_sha256": "b0f13ebefe8560205114346e680d3ff60eb0050596de200d2f44b3fd7ce74175",
+      "production_live_entry_sha256": "b0f13ebefe8560205114346e680d3ff60eb0050596de200d2f44b3fd7ce74175"
+    },
+    {
+      "card_key": "es|es",
+      "match": true,
+      "production_planned_entry_sha256": "5179fcbd4d912741e3e6375c511b0a28d533177bedfc68d1d4df4d57584148f0",
+      "production_live_entry_sha256": "5179fcbd4d912741e3e6375c511b0a28d533177bedfc68d1d4df4d57584148f0"
+    },
+    {
+      "card_key": "es|oder",
+      "match": true,
+      "production_planned_entry_sha256": "10184d9a028ffafa85109817f171cbc183b3ea343143f993966fe756aeb3198c",
+      "production_live_entry_sha256": "10184d9a028ffafa85109817f171cbc183b3ea343143f993966fe756aeb3198c"
+    },
+    {
+      "card_key": "es|passen",
+      "match": true,
+      "production_planned_entry_sha256": "f9bb5537d699e99a09e2b5e2cae44aeb324c542098e9885606ff3bc0cef68128",
+      "production_live_entry_sha256": "f9bb5537d699e99a09e2b5e2cae44aeb324c542098e9885606ff3bc0cef68128"
+    },
+    {
+      "card_key": "et|bitte",
+      "match": true,
+      "production_planned_entry_sha256": "d229e426e466b7f69e09f734d5c347282bbbc4f76b30a68bd790d31a0f437d7a",
+      "production_live_entry_sha256": "d229e426e466b7f69e09f734d5c347282bbbc4f76b30a68bd790d31a0f437d7a"
+    },
+    {
+      "card_key": "et|Bitte",
+      "match": true,
+      "production_planned_entry_sha256": "e167a9bf4ec82f703ff978840971dbba058d97feae37a7429d077c030e566428",
+      "production_live_entry_sha256": "e167a9bf4ec82f703ff978840971dbba058d97feae37a7429d077c030e566428"
+    },
+    {
+      "card_key": "et|bleiben",
+      "match": true,
+      "production_planned_entry_sha256": "1387cc570831c16ade4c97c8cf0c20ac791b9aa7b973626b1e57b9461e032589",
+      "production_live_entry_sha256": "1387cc570831c16ade4c97c8cf0c20ac791b9aa7b973626b1e57b9461e032589"
+    },
+    {
+      "card_key": "et|bringen",
+      "match": true,
+      "production_planned_entry_sha256": "9f26b9af14cfe59fa79df556106ca959140c85f2edd5975458ca1303286515ff",
+      "production_live_entry_sha256": "9f26b9af14cfe59fa79df556106ca959140c85f2edd5975458ca1303286515ff"
+    },
+    {
+      "card_key": "et|da",
+      "match": true,
+      "production_planned_entry_sha256": "67ab2c2cce2da427276ce724899edb0f88c3c78517f90dfef52e980eca3785c5",
+      "production_live_entry_sha256": "67ab2c2cce2da427276ce724899edb0f88c3c78517f90dfef52e980eca3785c5"
+    },
+    {
+      "card_key": "fi|a1-ab",
+      "match": true,
+      "production_planned_entry_sha256": "a805d21ecac052e6d5bc0c77c631b1149dca1d8385bd0db49044d977691dc84a",
+      "production_live_entry_sha256": "a805d21ecac052e6d5bc0c77c631b1149dca1d8385bd0db49044d977691dc84a"
+    },
+    {
+      "card_key": "fi|a1-aber",
+      "match": true,
+      "production_planned_entry_sha256": "55f1d2d9ffafdb0db4cd3b0ffe5564fb3e46c7b7d9f08b198eef929aa7b4df76",
+      "production_live_entry_sha256": "55f1d2d9ffafdb0db4cd3b0ffe5564fb3e46c7b7d9f08b198eef929aa7b4df76"
+    },
+    {
+      "card_key": "fi|a1-also",
+      "match": true,
+      "production_planned_entry_sha256": "5e1cd418f7426398290d29027624493feeaa32bdb8df1995e48e7e11f980e3af",
+      "production_live_entry_sha256": "5e1cd418f7426398290d29027624493feeaa32bdb8df1995e48e7e11f980e3af"
+    },
+    {
+      "card_key": "fi|a1-besuch",
+      "match": true,
+      "production_planned_entry_sha256": "048086e8ab47dd834219eeb0a041d92e62ea5d9aec336895b43f67cd3eb80d54",
+      "production_live_entry_sha256": "048086e8ab47dd834219eeb0a041d92e62ea5d9aec336895b43f67cd3eb80d54"
+    },
+    {
+      "card_key": "fi|a1-besuchen",
+      "match": true,
+      "production_planned_entry_sha256": "a6920f1d5170bff0bb4c4e527edecc30e64c3f836588d4635d767b9df9054c78",
+      "production_live_entry_sha256": "a6920f1d5170bff0bb4c4e527edecc30e64c3f836588d4635d767b9df9054c78"
+    },
+    {
+      "card_key": "fi|a1-fahren",
+      "match": true,
+      "production_planned_entry_sha256": "04425d65a5d903d7c8ff0d0854acc1cb6f3b42859c33f8f05944c470514d28c6",
+      "production_live_entry_sha256": "04425d65a5d903d7c8ff0d0854acc1cb6f3b42859c33f8f05944c470514d28c6"
+    },
+    {
+      "card_key": "fi|a1-nehmen",
+      "match": true,
+      "production_planned_entry_sha256": "d292f6541628ef1906d409d28f7785c74c8a561b23f23b49ebe5fafb69850912",
+      "production_live_entry_sha256": "d292f6541628ef1906d409d28f7785c74c8a561b23f23b49ebe5fafb69850912"
+    },
+    {
+      "card_key": "fi|a1-passen",
+      "match": true,
+      "production_planned_entry_sha256": "50b4df6cc6553380016e02ece817b8dc02b7871a95105db56ba673d3208beaa4",
+      "production_live_entry_sha256": "50b4df6cc6553380016e02ece817b8dc02b7871a95105db56ba673d3208beaa4"
+    },
+    {
+      "card_key": "fi|a1-sich",
+      "match": true,
+      "production_planned_entry_sha256": "39b0bc58a4c83de1ee0b3fad64c94567ffe0785a6d28b8a60271a9a5634f512c",
+      "production_live_entry_sha256": "39b0bc58a4c83de1ee0b3fad64c94567ffe0785a6d28b8a60271a9a5634f512c"
+    },
+    {
+      "card_key": "fi|Bitte",
+      "match": true,
+      "production_planned_entry_sha256": "7c8d9fa96551434c63531d190d2efcab2fe699f7e69a61128d53f292675b4d75",
+      "production_live_entry_sha256": "7c8d9fa96551434c63531d190d2efcab2fe699f7e69a61128d53f292675b4d75"
+    },
+    {
+      "card_key": "fi|nicht",
+      "match": true,
+      "production_planned_entry_sha256": "9d9a91c69bfce83aa9f972f4ac297e4677ade46bc0c9c848c144d0a9b112019b",
+      "production_live_entry_sha256": "9d9a91c69bfce83aa9f972f4ac297e4677ade46bc0c9c848c144d0a9b112019b"
+    },
+    {
+      "card_key": "fi|Pizza",
+      "match": true,
+      "production_planned_entry_sha256": "d1d5a7677beac72d2ec73d7db11ae0d9fa9f1397cc6aa4a0fe69ed2b58e83850",
+      "production_live_entry_sha256": "d1d5a7677beac72d2ec73d7db11ae0d9fa9f1397cc6aa4a0fe69ed2b58e83850"
+    },
+    {
+      "card_key": "fi|Sache",
+      "match": true,
+      "production_planned_entry_sha256": "dce856bf5b1d2315aea35acf133aa21005a596e0ca4200efae9268599e75d5d9",
+      "production_live_entry_sha256": "dce856bf5b1d2315aea35acf133aa21005a596e0ca4200efae9268599e75d5d9"
+    },
+    {
+      "card_key": "fr|Besuch",
+      "match": true,
+      "production_planned_entry_sha256": "d92d8fec9dfb21eaaf0433970264fafdccda3c917d20580a130dca1f27f6c490",
+      "production_live_entry_sha256": "d92d8fec9dfb21eaaf0433970264fafdccda3c917d20580a130dca1f27f6c490"
+    },
+    {
+      "card_key": "fr|einmal",
+      "match": true,
+      "production_planned_entry_sha256": "6cdbdd701547633f936ba624161f13459e0ef517a7659d435b18b5151feae290",
+      "production_live_entry_sha256": "6cdbdd701547633f936ba624161f13459e0ef517a7659d435b18b5151feae290"
+    },
+    {
+      "card_key": "fr|Essen",
+      "match": true,
+      "production_planned_entry_sha256": "bf433aba02e18a7a9a4e41428a0c0f4e4e77d2e9fd799d77e33c8602eded5dfb",
+      "production_live_entry_sha256": "bf433aba02e18a7a9a4e41428a0c0f4e4e77d2e9fd799d77e33c8602eded5dfb"
+    },
+    {
+      "card_key": "fr|Ferien",
+      "match": true,
+      "production_planned_entry_sha256": "80506959070a7b36267caef68104f2c37e15633be2afec6183a4ffba69e17b8d",
+      "production_live_entry_sha256": "80506959070a7b36267caef68104f2c37e15633be2afec6183a4ffba69e17b8d"
+    },
+    {
+      "card_key": "fr|Gemüse",
+      "match": true,
+      "production_planned_entry_sha256": "d910b77d6ebbf9aa3512e7d6dbc935880f5de3a5a09eb158aa1300d9e9683668",
+      "production_live_entry_sha256": "d910b77d6ebbf9aa3512e7d6dbc935880f5de3a5a09eb158aa1300d9e9683668"
+    },
+    {
+      "card_key": "fr|morgen",
+      "match": true,
+      "production_planned_entry_sha256": "5b88708543857e74e653dbe26470db0829b19174424ce74c8ce1fb1c684fbf3a",
+      "production_live_entry_sha256": "5b88708543857e74e653dbe26470db0829b19174424ce74c8ce1fb1c684fbf3a"
+    },
+    {
+      "card_key": "fr|Morgen",
+      "match": true,
+      "production_planned_entry_sha256": "9616057828e46b9b45e3cdf5a7b900d816898a4ad8fee65cd4b3ae4365aa4ab3",
+      "production_live_entry_sha256": "9616057828e46b9b45e3cdf5a7b900d816898a4ad8fee65cd4b3ae4365aa4ab3"
+    },
+    {
+      "card_key": "fr|Obst",
+      "match": true,
+      "production_planned_entry_sha256": "4bca44e2c71e641924fe27db68c6db0a3d0534f3653011587172d4020a5ec43c",
+      "production_live_entry_sha256": "4bca44e2c71e641924fe27db68c6db0a3d0534f3653011587172d4020a5ec43c"
+    },
+    {
+      "card_key": "fr|Urlaub",
+      "match": true,
+      "production_planned_entry_sha256": "3742c31b43a5da98758d762483ceb8d8b25c5f81af69ca61ec274dbc750ef868",
+      "production_live_entry_sha256": "3742c31b43a5da98758d762483ceb8d8b25c5f81af69ca61ec274dbc750ef868"
+    },
+    {
+      "card_key": "gr|noch",
+      "match": true,
+      "production_planned_entry_sha256": "8ac1c1616b2d763f553a0c813923a8ed2650d7a4cf3fbc11843ab91cb6c28f3f",
+      "production_live_entry_sha256": "8ac1c1616b2d763f553a0c813923a8ed2650d7a4cf3fbc11843ab91cb6c28f3f"
+    },
+    {
+      "card_key": "gr|nur",
+      "match": true,
+      "production_planned_entry_sha256": "18fa9eddcf0b58a4422a6013127216b5340be4aec32b8ec4028b34ca2cb3d049",
+      "production_live_entry_sha256": "18fa9eddcf0b58a4422a6013127216b5340be4aec32b8ec4028b34ca2cb3d049"
+    },
+    {
+      "card_key": "gr|passen",
+      "match": true,
+      "production_planned_entry_sha256": "544021f47a2bd56e407ed4e251cf6e2dcbc47d62b70cf4e2a1eb8f139ae0d53e",
+      "production_live_entry_sha256": "544021f47a2bd56e407ed4e251cf6e2dcbc47d62b70cf4e2a1eb8f139ae0d53e"
+    },
+    {
+      "card_key": "hu|ab",
+      "match": true,
+      "production_planned_entry_sha256": "d9b531fc55d113399bcb5212b692e663d658773f32a49cac122a78ff8e562dc5",
+      "production_live_entry_sha256": "d9b531fc55d113399bcb5212b692e663d658773f32a49cac122a78ff8e562dc5"
+    },
+    {
+      "card_key": "hu|aber",
+      "match": true,
+      "production_planned_entry_sha256": "dcb2bc2ad0b808b1a3d86632b987f56b7777e4fd5b444f77a5bad8a78fe399e0",
+      "production_live_entry_sha256": "dcb2bc2ad0b808b1a3d86632b987f56b7777e4fd5b444f77a5bad8a78fe399e0"
+    },
+    {
+      "card_key": "hu|Essen",
+      "match": true,
+      "production_planned_entry_sha256": "6e7a3f65b101448fc43d8338d5275996502b24a581acad3261a47c416a7709c3",
+      "production_live_entry_sha256": "6e7a3f65b101448fc43d8338d5275996502b24a581acad3261a47c416a7709c3"
+    },
+    {
+      "card_key": "hu|gleich",
+      "match": true,
+      "production_planned_entry_sha256": "ae0f50219c05aa5722303b1f72907bf40eba8b2517d3a6c575d352351df92b00",
+      "production_live_entry_sha256": "ae0f50219c05aa5722303b1f72907bf40eba8b2517d3a6c575d352351df92b00"
+    },
+    {
+      "card_key": "hu|klein",
+      "match": true,
+      "production_planned_entry_sha256": "08ca52acfb580517b0b40830bcbb27054c1cc9b0981c99a595dd1824182609fa",
+      "production_live_entry_sha256": "08ca52acfb580517b0b40830bcbb27054c1cc9b0981c99a595dd1824182609fa"
+    },
+    {
+      "card_key": "hu|Laden",
+      "match": true,
+      "production_planned_entry_sha256": "62e8e38b776b587f9139477ad11b08b5756218acfb578c6bdc36219c4ab9644f",
+      "production_live_entry_sha256": "62e8e38b776b587f9139477ad11b08b5756218acfb578c6bdc36219c4ab9644f"
+    },
+    {
+      "card_key": "hu|lang",
+      "match": true,
+      "production_planned_entry_sha256": "779eb9cea2fa241b35736755f67082256e20860cadfe44a2a298efeb3c4c1032",
+      "production_live_entry_sha256": "779eb9cea2fa241b35736755f67082256e20860cadfe44a2a298efeb3c4c1032"
+    },
+    {
+      "card_key": "is|Essen",
+      "match": true,
+      "production_planned_entry_sha256": "8fc4b30537adf5e6034f3af7956846b50ac404be264fb18a93bdc28613c3366f",
+      "production_live_entry_sha256": "8fc4b30537adf5e6034f3af7956846b50ac404be264fb18a93bdc28613c3366f"
+    },
+    {
+      "card_key": "is|Ferien",
+      "match": true,
+      "production_planned_entry_sha256": "c3c659b555c6b4c913194d8ca2f48529c2a76f3cd3a4224cfe40ae01a526741d",
+      "production_live_entry_sha256": "c3c659b555c6b4c913194d8ca2f48529c2a76f3cd3a4224cfe40ae01a526741d"
+    },
+    {
+      "card_key": "is|Gemüse",
+      "match": true,
+      "production_planned_entry_sha256": "f887a6f5bc4868df50e60cc811917cbc3123dbd68b3521bf0f3caa3fd8ff186f",
+      "production_live_entry_sha256": "f887a6f5bc4868df50e60cc811917cbc3123dbd68b3521bf0f3caa3fd8ff186f"
+    },
+    {
+      "card_key": "is|Obst",
+      "match": true,
+      "production_planned_entry_sha256": "02e184a8110cc87cdae1a4b88ef4846af1a649bfbc5d99942a978542723bd8ab",
+      "production_live_entry_sha256": "02e184a8110cc87cdae1a4b88ef4846af1a649bfbc5d99942a978542723bd8ab"
+    },
+    {
+      "card_key": "is|Urlaub",
+      "match": true,
+      "production_planned_entry_sha256": "170abfe542ced9bb397efa198f2b2f6241f917bd21fd1d41b7b34846f3ca8621",
+      "production_live_entry_sha256": "170abfe542ced9bb397efa198f2b2f6241f917bd21fd1d41b7b34846f3ca8621"
+    },
+    {
+      "card_key": "lb|Eis",
+      "match": true,
+      "production_planned_entry_sha256": "634a14cf90c3694043c7198a99a496d62dbcae514a783bbe49f5591ad7b65763",
+      "production_live_entry_sha256": "634a14cf90c3694043c7198a99a496d62dbcae514a783bbe49f5591ad7b65763"
+    },
+    {
+      "card_key": "lb|etwas",
+      "match": true,
+      "production_planned_entry_sha256": "aaeb69d60e9c66ae16b03ada0223cf0ce14a66c3f902acf39cc9235f29799f7f",
+      "production_live_entry_sha256": "aaeb69d60e9c66ae16b03ada0223cf0ce14a66c3f902acf39cc9235f29799f7f"
+    },
+    {
+      "card_key": "lb|fahren",
+      "match": true,
+      "production_planned_entry_sha256": "6f8c7e93c76983d9ce25b8cffe804d25815febfc4aa8e793348dabda17901484",
+      "production_live_entry_sha256": "6f8c7e93c76983d9ce25b8cffe804d25815febfc4aa8e793348dabda17901484"
+    },
+    {
+      "card_key": "lb|fernsehen",
+      "match": true,
+      "production_planned_entry_sha256": "e58abe752e3daa2684b90ef771240c098cf5c5a5b1c9780c75a91cd0ae22bb30",
+      "production_live_entry_sha256": "e58abe752e3daa2684b90ef771240c098cf5c5a5b1c9780c75a91cd0ae22bb30"
+    },
+    {
+      "card_key": "lb|Fernsehen",
+      "match": true,
+      "production_planned_entry_sha256": "ca51b1391cf34dc479c5bb48ce9607daf726fd97da1f2bb004802dd928ad973b",
+      "production_live_entry_sha256": "ca51b1391cf34dc479c5bb48ce9607daf726fd97da1f2bb004802dd928ad973b"
+    },
+    {
+      "card_key": "lb|jung",
+      "match": true,
+      "production_planned_entry_sha256": "755760dbb723b5da7eec478455078c023519b5be6646b6427a1640da742b1c0a",
+      "production_live_entry_sha256": "755760dbb723b5da7eec478455078c023519b5be6646b6427a1640da742b1c0a"
+    },
+    {
+      "card_key": "lb|kein",
+      "match": true,
+      "production_planned_entry_sha256": "8c0565f72461899dcaf192da3b684a03c2b3c900fee94c724e9a45fe10baba70",
+      "production_live_entry_sha256": "8c0565f72461899dcaf192da3b684a03c2b3c900fee94c724e9a45fe10baba70"
+    },
+    {
+      "card_key": "lb|laufen",
+      "match": true,
+      "production_planned_entry_sha256": "8d599731b7573ff358b44b3ad004adab0b8706e8d0e0c578ddc5040982472aab",
+      "production_live_entry_sha256": "8d599731b7573ff358b44b3ad004adab0b8706e8d0e0c578ddc5040982472aab"
+    },
+    {
+      "card_key": "lb|Mann",
+      "match": true,
+      "production_planned_entry_sha256": "4bef70ce9b95497c0b23e4538b0ed0fc41411d880fd050886095d5c96b132957",
+      "production_live_entry_sha256": "4bef70ce9b95497c0b23e4538b0ed0fc41411d880fd050886095d5c96b132957"
+    },
+    {
+      "card_key": "lb|mit",
+      "match": true,
+      "production_planned_entry_sha256": "3c752059c00e79bece877e7ed4522a651f491b2069971e8ea5d6d57efd975451",
+      "production_live_entry_sha256": "3c752059c00e79bece877e7ed4522a651f491b2069971e8ea5d6d57efd975451"
+    },
+    {
+      "card_key": "lb|mögen",
+      "match": true,
+      "production_planned_entry_sha256": "9cb31c424db805342f7c06a185b2f12a1b68d16fdc5edbcf38608e393df7efee",
+      "production_live_entry_sha256": "9cb31c424db805342f7c06a185b2f12a1b68d16fdc5edbcf38608e393df7efee"
+    },
+    {
+      "card_key": "lb|morgen",
+      "match": true,
+      "production_planned_entry_sha256": "cca557b6e1d0149ff8aec308f460d62246f4afe9b8c12c761060e41f2309a421",
+      "production_live_entry_sha256": "cca557b6e1d0149ff8aec308f460d62246f4afe9b8c12c761060e41f2309a421"
+    },
+    {
+      "card_key": "lb|Morgen",
+      "match": true,
+      "production_planned_entry_sha256": "d187eac482edbdc83ce67cb5263ead548b04ff66d1d6a2fe3dd74f1391566776",
+      "production_live_entry_sha256": "d187eac482edbdc83ce67cb5263ead548b04ff66d1d6a2fe3dd74f1391566776"
+    },
+    {
+      "card_key": "lb|nach",
+      "match": true,
+      "production_planned_entry_sha256": "58ec35076b254eb5451f3d0cfacc30f9d50725b0395bd8b8034f2fd96dccba89",
+      "production_live_entry_sha256": "58ec35076b254eb5451f3d0cfacc30f9d50725b0395bd8b8034f2fd96dccba89"
+    },
+    {
+      "card_key": "lb|werden",
+      "match": true,
+      "production_planned_entry_sha256": "c7679d7cf043c2a178aafa16d9c18761ce74da750a907b01f11f2db0b35a3939",
+      "production_live_entry_sha256": "c7679d7cf043c2a178aafa16d9c18761ce74da750a907b01f11f2db0b35a3939"
+    },
+    {
+      "card_key": "lb|Wetter",
+      "match": true,
+      "production_planned_entry_sha256": "7fa5e0585a81769ec4a51b68ea62d3c3db183168e52801214d6b6a1ce41929aa",
+      "production_live_entry_sha256": "7fa5e0585a81769ec4a51b68ea62d3c3db183168e52801214d6b6a1ce41929aa"
+    },
+    {
+      "card_key": "lb|wie",
+      "match": true,
+      "production_planned_entry_sha256": "719130d663705596db0d00f057c8fba77fc457bf8ebdf07123bead997d9c54e2",
+      "production_live_entry_sha256": "719130d663705596db0d00f057c8fba77fc457bf8ebdf07123bead997d9c54e2"
+    },
+    {
+      "card_key": "lb|zu",
+      "match": true,
+      "production_planned_entry_sha256": "7c6d7385f462be3a380a68b124f276187c917a9f180996f6bb53d624326104c0",
+      "production_live_entry_sha256": "7c6d7385f462be3a380a68b124f276187c917a9f180996f6bb53d624326104c0"
+    },
+    {
+      "card_key": "lb|Zug",
+      "match": true,
+      "production_planned_entry_sha256": "b72c273ff7a52a3e03b399bd908189bc8fa4554c601f529bf555fa9e495cbb22",
+      "production_live_entry_sha256": "b72c273ff7a52a3e03b399bd908189bc8fa4554c601f529bf555fa9e495cbb22"
+    },
+    {
+      "card_key": "nl|schwimmen",
+      "match": true,
+      "production_planned_entry_sha256": "57c3aa3bea049689b96d6f581fa6caf1f6134820f88e978d50e73379f89d32b6",
+      "production_live_entry_sha256": "57c3aa3bea049689b96d6f581fa6caf1f6134820f88e978d50e73379f89d32b6"
+    },
+    {
+      "card_key": "nl|sich",
+      "match": true,
+      "production_planned_entry_sha256": "84e6b73ec0b1a316e8d20061be6b5b5ca1fd63dd3e3815d88e2e968c5e9ed27f",
+      "production_live_entry_sha256": "84e6b73ec0b1a316e8d20061be6b5b5ca1fd63dd3e3815d88e2e968c5e9ed27f"
+    },
+    {
+      "card_key": "nn|a1-neu",
+      "match": true,
+      "production_planned_entry_sha256": "bba23036b0e99d7a38a7bdfaf9b20fbe6e75470d17f8a0e9a2db036140966e22",
+      "production_live_entry_sha256": "bba23036b0e99d7a38a7bdfaf9b20fbe6e75470d17f8a0e9a2db036140966e22"
+    },
+    {
+      "card_key": "nn|a1-verstehen",
+      "match": true,
+      "production_planned_entry_sha256": "13e5270333e2d58b7e582dab8d59d3a98ee81e529402d87a8585fa5b7c293d9d",
+      "production_live_entry_sha256": "13e5270333e2d58b7e582dab8d59d3a98ee81e529402d87a8585fa5b7c293d9d"
+    },
+    {
+      "card_key": "nn|a1-wie",
+      "match": true,
+      "production_planned_entry_sha256": "6aeff89203ed94cd5e471fd8a7761b35a2ddb222c40512682d1ee3a0b52ce2e4",
+      "production_live_entry_sha256": "6aeff89203ed94cd5e471fd8a7761b35a2ddb222c40512682d1ee3a0b52ce2e4"
+    },
+    {
+      "card_key": "pt|bitte",
+      "match": true,
+      "production_planned_entry_sha256": "32ca484f07c46308e8393e5d523b59056d605a28717a3f9c5687b0d4644d8bb9",
+      "production_live_entry_sha256": "32ca484f07c46308e8393e5d523b59056d605a28717a3f9c5687b0d4644d8bb9"
+    },
+    {
+      "card_key": "pt|Bitte",
+      "match": true,
+      "production_planned_entry_sha256": "c62f46e4a20d47cf3192af52592ee3dad50b6c3c56b2ceb47613690a15ae6fad",
+      "production_live_entry_sha256": "c62f46e4a20d47cf3192af52592ee3dad50b6c3c56b2ceb47613690a15ae6fad"
+    },
+    {
+      "card_key": "pt|bleiben",
+      "match": true,
+      "production_planned_entry_sha256": "eb73c8fdc30cc27298a3983833752deec7d4d122b77b3d860a01995ab7c668ce",
+      "production_live_entry_sha256": "eb73c8fdc30cc27298a3983833752deec7d4d122b77b3d860a01995ab7c668ce"
+    },
+    {
+      "card_key": "pt|erst",
+      "match": true,
+      "production_planned_entry_sha256": "d4553e9943f0d5d3c7712bc88c202f92dbb077b5cab82cefcfc129f66576a85c",
+      "production_live_entry_sha256": "d4553e9943f0d5d3c7712bc88c202f92dbb077b5cab82cefcfc129f66576a85c"
+    },
+    {
+      "card_key": "pt|etwas",
+      "match": true,
+      "production_planned_entry_sha256": "23d6a26e2819b5e58517b8c826b3e105f114445dc75c04863d82f3e218c850e1",
+      "production_live_entry_sha256": "23d6a26e2819b5e58517b8c826b3e105f114445dc75c04863d82f3e218c850e1"
+    },
+    {
+      "card_key": "pt|euch",
+      "match": true,
+      "production_planned_entry_sha256": "208456f62fdda7feccd1f3f7c1fac7d14caf56d66585259f111f3223855ea727",
+      "production_live_entry_sha256": "208456f62fdda7feccd1f3f7c1fac7d14caf56d66585259f111f3223855ea727"
+    },
+    {
+      "card_key": "pt|fahren",
+      "match": true,
+      "production_planned_entry_sha256": "9857b81b8d1b95b343a551400ccbccb37268500ec36e049d0c6be07b0e53d598",
+      "production_live_entry_sha256": "9857b81b8d1b95b343a551400ccbccb37268500ec36e049d0c6be07b0e53d598"
+    },
+    {
+      "card_key": "pt|gleich",
+      "match": true,
+      "production_planned_entry_sha256": "db10f1a02bde014195fa7ef058b3dbb7ac8569de730ac39b38c2602753c43fc8",
+      "production_live_entry_sha256": "db10f1a02bde014195fa7ef058b3dbb7ac8569de730ac39b38c2602753c43fc8"
+    },
+    {
+      "card_key": "pt|groß",
+      "match": true,
+      "production_planned_entry_sha256": "604f5c3a7bd9c22f61e3a590c44ecff82ee187a01173989538c738ddc3cee822",
+      "production_live_entry_sha256": "604f5c3a7bd9c22f61e3a590c44ecff82ee187a01173989538c738ddc3cee822"
+    },
+    {
+      "card_key": "pt|Großeltern",
+      "match": true,
+      "production_planned_entry_sha256": "73fccc6dae103843376cc3ab724b4bd89be5c241cd87b737543e7b187b9d8be3",
+      "production_live_entry_sha256": "73fccc6dae103843376cc3ab724b4bd89be5c241cd87b737543e7b187b9d8be3"
+    },
+    {
+      "card_key": "pt|gut",
+      "match": true,
+      "production_planned_entry_sha256": "c27204b2a40940b0908226a96e1c56fae74ef4d231430004f9969953a2c4e8c4",
+      "production_live_entry_sha256": "c27204b2a40940b0908226a96e1c56fae74ef4d231430004f9969953a2c4e8c4"
+    },
+    {
+      "card_key": "pt|haben",
+      "match": true,
+      "production_planned_entry_sha256": "1d2d263742570cdc8585e37ce1d8cb095ffe22e063a2223bfc1f211c241281d8",
+      "production_live_entry_sha256": "1d2d263742570cdc8585e37ce1d8cb095ffe22e063a2223bfc1f211c241281d8"
+    },
+    {
+      "card_key": "pt|halten",
+      "match": true,
+      "production_planned_entry_sha256": "04d1072936d88d816234562c798cb942fea5686d20a5433e08803aaf50eaabc2",
+      "production_live_entry_sha256": "04d1072936d88d816234562c798cb942fea5686d20a5433e08803aaf50eaabc2"
+    },
+    {
+      "card_key": "pt|Hand",
+      "match": true,
+      "production_planned_entry_sha256": "dbf4e295935ace464e8b9f2ba01017eeef357ba14d6bb5ef7804d544e05a2549",
+      "production_live_entry_sha256": "dbf4e295935ace464e8b9f2ba01017eeef357ba14d6bb5ef7804d544e05a2549"
+    },
+    {
+      "card_key": "pt|heißen",
+      "match": true,
+      "production_planned_entry_sha256": "bb0d7522b8528349fbf93591e81a299289ad83053a0d6df1a380fdacb88f70b4",
+      "production_live_entry_sha256": "bb0d7522b8528349fbf93591e81a299289ad83053a0d6df1a380fdacb88f70b4"
+    },
+    {
+      "card_key": "pt|hoch",
+      "match": true,
+      "production_planned_entry_sha256": "12cf1216a9525c09cc7838ea781fa565accbbefe9f127ed2a5669d809ddc9105",
+      "production_live_entry_sha256": "12cf1216a9525c09cc7838ea781fa565accbbefe9f127ed2a5669d809ddc9105"
+    },
+    {
+      "card_key": "pt|hören",
+      "match": true,
+      "production_planned_entry_sha256": "18755736635f5c61f3d2a3f0feb66d865e508ca0d04320ee008a69e8fa64af70",
+      "production_live_entry_sha256": "18755736635f5c61f3d2a3f0feb66d865e508ca0d04320ee008a69e8fa64af70"
+    },
+    {
+      "card_key": "sk|a1-wie",
+      "match": true,
+      "production_planned_entry_sha256": "8a30cd8a24523fc4aa40a6d1c8a16f5e18875c1cb5cde8c0342580d3b8e892ce",
+      "production_live_entry_sha256": "8a30cd8a24523fc4aa40a6d1c8a16f5e18875c1cb5cde8c0342580d3b8e892ce"
+    },
+    {
+      "card_key": "sk|aber",
+      "match": true,
+      "production_planned_entry_sha256": "f0a984edead7c4030224566569d8ea5e2f611bf029c9a06af1b69c2994c212f2",
+      "production_live_entry_sha256": "f0a984edead7c4030224566569d8ea5e2f611bf029c9a06af1b69c2994c212f2"
+    },
+    {
+      "card_key": "sk|Appetit",
+      "match": true,
+      "production_planned_entry_sha256": "813d6e5c7cca004c80c383175d4ed8c7adb9e517f8547d3784e7d4d7f1682f70",
+      "production_live_entry_sha256": "813d6e5c7cca004c80c383175d4ed8c7adb9e517f8547d3784e7d4d7f1682f70"
+    },
+    {
+      "card_key": "sk|erst",
+      "match": true,
+      "production_planned_entry_sha256": "73d683b6b637a74392d629b4e0e5bfd4157ee106052673146e15c72c15b23428",
+      "production_live_entry_sha256": "73d683b6b637a74392d629b4e0e5bfd4157ee106052673146e15c72c15b23428"
+    },
+    {
+      "card_key": "sk|leise",
+      "match": true,
+      "production_planned_entry_sha256": "8f264a07fc52f1b4184ccaa2128f03a4ebb22787d098935e88f6bce44aee39c9",
+      "production_live_entry_sha256": "8f264a07fc52f1b4184ccaa2128f03a4ebb22787d098935e88f6bce44aee39c9"
+    },
+    {
+      "card_key": "sk|Liter",
+      "match": true,
+      "production_planned_entry_sha256": "d40a12fa7ff7da2b004452a010a4b22efad90090e12e6bfe4eed6f1e7819cf4f",
+      "production_live_entry_sha256": "d40a12fa7ff7da2b004452a010a4b22efad90090e12e6bfe4eed6f1e7819cf4f"
+    },
+    {
+      "card_key": "sk|machen",
+      "match": true,
+      "production_planned_entry_sha256": "c76de5d18154ed84035bd1316ac0f4c1316115797f95b737544f63505b44528f",
+      "production_live_entry_sha256": "c76de5d18154ed84035bd1316ac0f4c1316115797f95b737544f63505b44528f"
+    },
+    {
+      "card_key": "sk|Mal",
+      "match": true,
+      "production_planned_entry_sha256": "74b004fee3646cded91e1e20d176b39028223973f1393775d9fe80b9764e5c21",
+      "production_live_entry_sha256": "74b004fee3646cded91e1e20d176b39028223973f1393775d9fe80b9764e5c21"
+    },
+    {
+      "card_key": "sk|werden",
+      "match": true,
+      "production_planned_entry_sha256": "b0745e204970f0d5d388eef2f2cd343e967154b00323b168dcd5430dede81d10",
+      "production_live_entry_sha256": "b0745e204970f0d5d388eef2f2cd343e967154b00323b168dcd5430dede81d10"
+    },
+    {
+      "card_key": "sk|wie",
+      "match": true,
+      "production_planned_entry_sha256": "8a30cd8a24523fc4aa40a6d1c8a16f5e18875c1cb5cde8c0342580d3b8e892ce",
+      "production_live_entry_sha256": "8a30cd8a24523fc4aa40a6d1c8a16f5e18875c1cb5cde8c0342580d3b8e892ce"
+    },
+    {
+      "card_key": "sk|Zug",
+      "match": true,
+      "production_planned_entry_sha256": "2dabde0efaf0d0bc4619b5e87bd97c71d23f64c37feabc2e8a3d37b27c9f48bf",
+      "production_live_entry_sha256": "2dabde0efaf0d0bc4619b5e87bd97c71d23f64c37feabc2e8a3d37b27c9f48bf"
+    },
+    {
+      "card_key": "sl|ab",
+      "match": true,
+      "production_planned_entry_sha256": "2eb4ac756af7a43f4341499a4406a888e3b6598b73bf41859123e91263d26ac6",
+      "production_live_entry_sha256": "2eb4ac756af7a43f4341499a4406a888e3b6598b73bf41859123e91263d26ac6"
+    },
+    {
+      "card_key": "sl|aber",
+      "match": true,
+      "production_planned_entry_sha256": "e34db3bb4758ee1997873b3a2fd5e18de714b4a2ffde1553cc787bdc0589343d",
+      "production_live_entry_sha256": "e34db3bb4758ee1997873b3a2fd5e18de714b4a2ffde1553cc787bdc0589343d"
+    },
+    {
+      "card_key": "sl|an",
+      "match": true,
+      "production_planned_entry_sha256": "50641e5f37b5e7d526323fe7deba4047b167f30ef459b5225f2ba07fe726ceb6",
+      "production_live_entry_sha256": "50641e5f37b5e7d526323fe7deba4047b167f30ef459b5225f2ba07fe726ceb6"
+    },
+    {
+      "card_key": "sl|auch",
+      "match": true,
+      "production_planned_entry_sha256": "3c5b2ff47f481c5becae9a64b5a02cc068369057cae3c7a601102ceaaeaa93e1",
+      "production_live_entry_sha256": "3c5b2ff47f481c5becae9a64b5a02cc068369057cae3c7a601102ceaaeaa93e1"
+    },
+    {
+      "card_key": "sl|aufs",
+      "match": true,
+      "production_planned_entry_sha256": "c56b363df85a6da0d0bf680a6ad8e7ebd1b38ec8e642325376ef8e0754e53424",
+      "production_live_entry_sha256": "c56b363df85a6da0d0bf680a6ad8e7ebd1b38ec8e642325376ef8e0754e53424"
+    },
+    {
+      "card_key": "sl|bei",
+      "match": true,
+      "production_planned_entry_sha256": "43fb93c8d98c61afec3a6fc2b0a96d04c8c1e2044df012c51f470abf250c8186",
+      "production_live_entry_sha256": "43fb93c8d98c61afec3a6fc2b0a96d04c8c1e2044df012c51f470abf250c8186"
+    },
+    {
+      "card_key": "sl|bleiben",
+      "match": true,
+      "production_planned_entry_sha256": "c61e600610731057e4f91385239a77c265c70e0238f2ee07a038c193e2e0c77c",
+      "production_live_entry_sha256": "c61e600610731057e4f91385239a77c265c70e0238f2ee07a038c193e2e0c77c"
+    },
+    {
+      "card_key": "sl|da",
+      "match": true,
+      "production_planned_entry_sha256": "685eea5f8742e5aa335524141162d76cc225a3a885a3a705eb29db47e121101b",
+      "production_live_entry_sha256": "685eea5f8742e5aa335524141162d76cc225a3a885a3a705eb29db47e121101b"
+    },
+    {
+      "card_key": "sl|das",
+      "match": true,
+      "production_planned_entry_sha256": "e2447a57921f5076ae2866cac7ccd753c0c9e9afde42a1adcb26c8f008a757de",
+      "production_live_entry_sha256": "e2447a57921f5076ae2866cac7ccd753c0c9e9afde42a1adcb26c8f008a757de"
+    },
+    {
+      "card_key": "sl|ein",
+      "match": true,
+      "production_planned_entry_sha256": "ebcfd05bdb5a46c61a0afac6210970725ba21d1756e18b59dace54a4cae9bf37",
+      "production_live_entry_sha256": "ebcfd05bdb5a46c61a0afac6210970725ba21d1756e18b59dace54a4cae9bf37"
+    },
+    {
+      "card_key": "sl|Eis",
+      "match": true,
+      "production_planned_entry_sha256": "0f70d6c3e552c3fbcf11a9741df3c3c8350824757ccc8d22f11907ecbdd211d9",
+      "production_live_entry_sha256": "0f70d6c3e552c3fbcf11a9741df3c3c8350824757ccc8d22f11907ecbdd211d9"
+    },
+    {
+      "card_key": "sl|erst",
+      "match": true,
+      "production_planned_entry_sha256": "c58ac3a565edbd3ffc6aa43f530128fca493725fcef3cadeeb2c81a1f28eb9a9",
+      "production_live_entry_sha256": "c58ac3a565edbd3ffc6aa43f530128fca493725fcef3cadeeb2c81a1f28eb9a9"
+    },
+    {
+      "card_key": "sl|Ferien",
+      "match": true,
+      "production_planned_entry_sha256": "ecc595951c33aacb179f2fc5a3124a2efd8a371d4ab6bd5f9072f4d01fca83a2",
+      "production_live_entry_sha256": "ecc595951c33aacb179f2fc5a3124a2efd8a371d4ab6bd5f9072f4d01fca83a2"
+    },
+    {
+      "card_key": "sl|gefallen",
+      "match": true,
+      "production_planned_entry_sha256": "70c7355eb01f8f4377dcb0b6de315cb6d5755063e0c8c2431b3bdf244bbcf61e",
+      "production_live_entry_sha256": "70c7355eb01f8f4377dcb0b6de315cb6d5755063e0c8c2431b3bdf244bbcf61e"
+    },
+    {
+      "card_key": "sl|gleich",
+      "match": true,
+      "production_planned_entry_sha256": "ce73fc5c94a3353c32778f7ba4a5d46c676fa6100ad6f40169e71e99743a0dd7",
+      "production_live_entry_sha256": "ce73fc5c94a3353c32778f7ba4a5d46c676fa6100ad6f40169e71e99743a0dd7"
+    },
+    {
+      "card_key": "sl|klein",
+      "match": true,
+      "production_planned_entry_sha256": "41f61c0003e880908a956883d805383c318b346a8450efa65976bb6613e85d7d",
+      "production_live_entry_sha256": "41f61c0003e880908a956883d805383c318b346a8450efa65976bb6613e85d7d"
+    },
+    {
+      "card_key": "sl|sprechen",
+      "match": true,
+      "production_planned_entry_sha256": "8e7330232a0bd7078e1bc93810b60ff7de6079a857a6036a378132a4a20c51c7",
+      "production_live_entry_sha256": "8e7330232a0bd7078e1bc93810b60ff7de6079a857a6036a378132a4a20c51c7"
+    },
+    {
+      "card_key": "sq|baden",
+      "match": true,
+      "production_planned_entry_sha256": "4c0359e126f6fbba1bb890e87be9016030f3b3618273966748826354033316ca",
+      "production_live_entry_sha256": "4c0359e126f6fbba1bb890e87be9016030f3b3618273966748826354033316ca"
+    },
+    {
+      "card_key": "sq|Besuch",
+      "match": true,
+      "production_planned_entry_sha256": "9aba3327a614bc418a28c029abef68822ffb38bc13aa4d59e261cb4ee470abd4",
+      "production_live_entry_sha256": "9aba3327a614bc418a28c029abef68822ffb38bc13aa4d59e261cb4ee470abd4"
+    },
+    {
+      "card_key": "sq|besuchen",
+      "match": true,
+      "production_planned_entry_sha256": "ace90e502155af1ac9e271f79ccea55d1a9b84227690c0fa047befe7957f587c",
+      "production_live_entry_sha256": "ace90e502155af1ac9e271f79ccea55d1a9b84227690c0fa047befe7957f587c"
+    },
+    {
+      "card_key": "sr|also",
+      "match": true,
+      "production_planned_entry_sha256": "d36f87e5f13d126a26d9ff32ee15ba76afb9b5c50a952d5b9494561cbf8444fa",
+      "production_live_entry_sha256": "d36f87e5f13d126a26d9ff32ee15ba76afb9b5c50a952d5b9494561cbf8444fa"
+    },
+    {
+      "card_key": "sr|auch",
+      "match": true,
+      "production_planned_entry_sha256": "524714ec052e38b55ec0a721b8c758bcedc7ed31a762cc957fc2bf48b06f4f1e",
+      "production_live_entry_sha256": "524714ec052e38b55ec0a721b8c758bcedc7ed31a762cc957fc2bf48b06f4f1e"
+    },
+    {
+      "card_key": "sr|auf",
+      "match": true,
+      "production_planned_entry_sha256": "de380b0f8f9a9a088c2890f9fc8cd988bbcf2463aa1566f353da804c7cd15369",
+      "production_live_entry_sha256": "de380b0f8f9a9a088c2890f9fc8cd988bbcf2463aa1566f353da804c7cd15369"
+    },
+    {
+      "card_key": "sr|aufs",
+      "match": true,
+      "production_planned_entry_sha256": "5ba45ce9a2fe3017c8cbfbd59138f2b7d87e7759e125df132bd771e6f79cbb0a",
+      "production_live_entry_sha256": "5ba45ce9a2fe3017c8cbfbd59138f2b7d87e7759e125df132bd771e6f79cbb0a"
+    },
+    {
+      "card_key": "sr|aus",
+      "match": true,
+      "production_planned_entry_sha256": "8073247c97d2fa1a8dc20217e0226ffaec4a4ff6dba1b2fe6b43d2af28a8f4c8",
+      "production_live_entry_sha256": "8073247c97d2fa1a8dc20217e0226ffaec4a4ff6dba1b2fe6b43d2af28a8f4c8"
+    },
+    {
+      "card_key": "sr|dass",
+      "match": true,
+      "production_planned_entry_sha256": "be0df1eaee79290505f9e5ae0de6108381218457c22bca4f6f8fef5f0fe481c4",
+      "production_live_entry_sha256": "be0df1eaee79290505f9e5ae0de6108381218457c22bca4f6f8fef5f0fe481c4"
+    },
+    {
+      "card_key": "sr|der",
+      "match": true,
+      "production_planned_entry_sha256": "370a0993ca7f838f036701c6b4ae865a9446942ab7fc9ed2d57fdc44b90d8be8",
+      "production_live_entry_sha256": "370a0993ca7f838f036701c6b4ae865a9446942ab7fc9ed2d57fdc44b90d8be8"
+    },
+    {
+      "card_key": "sr|die",
+      "match": true,
+      "production_planned_entry_sha256": "f8c6632aeb906792084314071586e0343275600e214be4712b13514694db0e7d",
+      "production_live_entry_sha256": "f8c6632aeb906792084314071586e0343275600e214be4712b13514694db0e7d"
+    },
+    {
+      "card_key": "sr|morgen",
+      "match": true,
+      "production_planned_entry_sha256": "b795823d232af9c91df0fd775fd7af2fc36c7802dc6e10a33f7d426902cf4681",
+      "production_live_entry_sha256": "b795823d232af9c91df0fd775fd7af2fc36c7802dc6e10a33f7d426902cf4681"
+    },
+    {
+      "card_key": "sr|Morgen",
+      "match": true,
+      "production_planned_entry_sha256": "d6703bbb87ece132d5a6ca53b7b8085c37c5a5d3ae28521d72714f253b6ebf3b",
+      "production_live_entry_sha256": "d6703bbb87ece132d5a6ca53b7b8085c37c5a5d3ae28521d72714f253b6ebf3b"
+    },
+    {
+      "card_key": "sr|oder",
+      "match": true,
+      "production_planned_entry_sha256": "5b09745f6384e93179ed64cfed32bcd0a23df8df6b2e33300e816f91ff519494",
+      "production_live_entry_sha256": "5b09745f6384e93179ed64cfed32bcd0a23df8df6b2e33300e816f91ff519494"
+    },
+    {
+      "card_key": "sr|schwimmen",
+      "match": true,
+      "production_planned_entry_sha256": "dd42cacd897007dbcca0f425549b24b4dd07525faf657cb05d502fc6d0d037d4",
+      "production_live_entry_sha256": "dd42cacd897007dbcca0f425549b24b4dd07525faf657cb05d502fc6d0d037d4"
+    },
+    {
+      "card_key": "sr|sehen",
+      "match": true,
+      "production_planned_entry_sha256": "58f56d8beecc4fdc9d941852056232914a2f52f5edf3d639189badf03eec20a6",
+      "production_live_entry_sha256": "58f56d8beecc4fdc9d941852056232914a2f52f5edf3d639189badf03eec20a6"
+    },
+    {
+      "card_key": "sr|sein",
+      "match": true,
+      "production_planned_entry_sha256": "1348f5d378b2131396a01a4c989c41f210e6ba3d1c58fd4b374aab7f3418dd5e",
+      "production_live_entry_sha256": "1348f5d378b2131396a01a4c989c41f210e6ba3d1c58fd4b374aab7f3418dd5e"
+    },
+    {
+      "card_key": "sr|Seite",
+      "match": true,
+      "production_planned_entry_sha256": "912ba51bf52d44cb03e8ec31a46cc0ae39db8834a435407c7807e6befbe20f55",
+      "production_live_entry_sha256": "912ba51bf52d44cb03e8ec31a46cc0ae39db8834a435407c7807e6befbe20f55"
+    },
+    {
+      "card_key": "sr|sich",
+      "match": true,
+      "production_planned_entry_sha256": "fa4cdc6bdf27fc52c0be51d3e93c3c4d564e972bd47f9f04e33fb34b17046c23",
+      "production_live_entry_sha256": "fa4cdc6bdf27fc52c0be51d3e93c3c4d564e972bd47f9f04e33fb34b17046c23"
+    },
+    {
+      "card_key": "sr|sicher",
+      "match": true,
+      "production_planned_entry_sha256": "b27a991e2c9677794e882a243461148daaecd7012e79620cebf4d2dbb586be58",
+      "production_live_entry_sha256": "b27a991e2c9677794e882a243461148daaecd7012e79620cebf4d2dbb586be58"
+    },
+    {
+      "card_key": "sr|sie",
+      "match": true,
+      "production_planned_entry_sha256": "da6df5fc50447f7d806368ca995bc5d80a45a1493b085df2fcffdfc7fd076705",
+      "production_live_entry_sha256": "da6df5fc50447f7d806368ca995bc5d80a45a1493b085df2fcffdfc7fd076705"
+    },
+    {
+      "card_key": "sr|Sie",
+      "match": true,
+      "production_planned_entry_sha256": "2a145cf46bfb14b169227ff4cd476cd3c4a4d384054531b8c16217671d369a3b",
+      "production_live_entry_sha256": "2a145cf46bfb14b169227ff4cd476cd3c4a4d384054531b8c16217671d369a3b"
+    },
+    {
+      "card_key": "sr|sitzen",
+      "match": true,
+      "production_planned_entry_sha256": "065ef09b2d3fb84099782d301dfcebdef6b77842e9314eb84721c5e7b7edd15c",
+      "production_live_entry_sha256": "065ef09b2d3fb84099782d301dfcebdef6b77842e9314eb84721c5e7b7edd15c"
+    },
+    {
+      "card_key": "sr|sollen",
+      "match": true,
+      "production_planned_entry_sha256": "e2f88fd74d092c9f755d8d54cc169108846ac49666eafa6a1eecec973d09bb06",
+      "production_live_entry_sha256": "e2f88fd74d092c9f755d8d54cc169108846ac49666eafa6a1eecec973d09bb06"
+    },
+    {
+      "card_key": "sr|vom",
+      "match": true,
+      "production_planned_entry_sha256": "a706d2ae7da745ec52afa59881fba98d6148e933eebc5fafa735f7727371f792",
+      "production_live_entry_sha256": "a706d2ae7da745ec52afa59881fba98d6148e933eebc5fafa735f7727371f792"
+    },
+    {
+      "card_key": "sr|vor",
+      "match": true,
+      "production_planned_entry_sha256": "47d3c5fd4e2e5a15e64309460e63d27b488cb155c49ac6f1b6cee89712b10810",
+      "production_live_entry_sha256": "47d3c5fd4e2e5a15e64309460e63d27b488cb155c49ac6f1b6cee89712b10810"
+    },
+    {
+      "card_key": "sr|was",
+      "match": true,
+      "production_planned_entry_sha256": "e59b4e72018ac9c95e481ae426f4768db744783cfed63d793168ed77ddcd4a8b",
+      "production_live_entry_sha256": "e59b4e72018ac9c95e481ae426f4768db744783cfed63d793168ed77ddcd4a8b"
+    },
+    {
+      "card_key": "sr|wenn",
+      "match": true,
+      "production_planned_entry_sha256": "c77bfbed3e4f86a8c0a32966d9f285cc84d1fff35f76901d0fba8587fc85cb37",
+      "production_live_entry_sha256": "c77bfbed3e4f86a8c0a32966d9f285cc84d1fff35f76901d0fba8587fc85cb37"
+    },
+    {
+      "card_key": "sr|wer",
+      "match": true,
+      "production_planned_entry_sha256": "31a6440b88865e5a1e7309a524164eda03f491de0b94293755e2ad026076835f",
+      "production_live_entry_sha256": "31a6440b88865e5a1e7309a524164eda03f491de0b94293755e2ad026076835f"
+    },
+    {
+      "card_key": "sv|ab",
+      "match": true,
+      "production_planned_entry_sha256": "ef477fbb38e6a7f30876c42f7d9f87ede528d93a0919810bb01a9a6d1b81aeda",
+      "production_live_entry_sha256": "ef477fbb38e6a7f30876c42f7d9f87ede528d93a0919810bb01a9a6d1b81aeda"
+    },
+    {
+      "card_key": "sv|aber",
+      "match": true,
+      "production_planned_entry_sha256": "2c49eda48715a018bf50a0312e1e99088f3e011ac06a04dfb14e798ab45e01f4",
+      "production_live_entry_sha256": "2c49eda48715a018bf50a0312e1e99088f3e011ac06a04dfb14e798ab45e01f4"
+    },
+    {
+      "card_key": "sv|an",
+      "match": true,
+      "production_planned_entry_sha256": "5e1b02946230ee21d28f9423dcfa61c2ec96be32d879070a9f59531bf48382ac",
+      "production_live_entry_sha256": "5e1b02946230ee21d28f9423dcfa61c2ec96be32d879070a9f59531bf48382ac"
+    },
+    {
+      "card_key": "sv|baden",
+      "match": true,
+      "production_planned_entry_sha256": "e78036f6cf08210ac90c108febd56024410d6b4b3fcaaf8424bd7e6ad56eb8d0",
+      "production_live_entry_sha256": "e78036f6cf08210ac90c108febd56024410d6b4b3fcaaf8424bd7e6ad56eb8d0"
+    },
+    {
+      "card_key": "sv|bei",
+      "match": true,
+      "production_planned_entry_sha256": "444018f92369c9d8b1dd94293a77bff814a9b559b7d7621905a55a2a72cc062b",
+      "production_live_entry_sha256": "444018f92369c9d8b1dd94293a77bff814a9b559b7d7621905a55a2a72cc062b"
+    },
+    {
+      "card_key": "sv|Besuch",
+      "match": true,
+      "production_planned_entry_sha256": "d51d8ed8cb65fe63f05fb740d505733575c711519c15019042c3fb7d3553ddb8",
+      "production_live_entry_sha256": "d51d8ed8cb65fe63f05fb740d505733575c711519c15019042c3fb7d3553ddb8"
+    },
+    {
+      "card_key": "sv|besuchen",
+      "match": true,
+      "production_planned_entry_sha256": "3e7981d2e40ef3a44b62f3729c31dba2fa326c2cd8a55d8e943e65be80f4da83",
+      "production_live_entry_sha256": "3e7981d2e40ef3a44b62f3729c31dba2fa326c2cd8a55d8e943e65be80f4da83"
+    },
+    {
+      "card_key": "sv|das",
+      "match": true,
+      "production_planned_entry_sha256": "b337941549b6e4fb8796b1f484f68882b3ad84636d740bb8956e361fb4a35968",
+      "production_live_entry_sha256": "b337941549b6e4fb8796b1f484f68882b3ad84636d740bb8956e361fb4a35968"
+    },
+    {
+      "card_key": "sv|dass",
+      "match": true,
+      "production_planned_entry_sha256": "e0f58e1f0d7bff71a16e616f9bf6a1248e63616897cbe7018e375f76a9eab40a",
+      "production_live_entry_sha256": "e0f58e1f0d7bff71a16e616f9bf6a1248e63616897cbe7018e375f76a9eab40a"
+    },
+    {
+      "card_key": "sv|der",
+      "match": true,
+      "production_planned_entry_sha256": "3491212915627c40df471f657d5ddeee0301e62a90079a444325f1e708fd6299",
+      "production_live_entry_sha256": "3491212915627c40df471f657d5ddeee0301e62a90079a444325f1e708fd6299"
+    },
+    {
+      "card_key": "sv|die",
+      "match": true,
+      "production_planned_entry_sha256": "0be3fc13906f273c800dfb4b2949748172666257a98e619705d25a8817712aa4",
+      "production_live_entry_sha256": "0be3fc13906f273c800dfb4b2949748172666257a98e619705d25a8817712aa4"
+    },
+    {
+      "card_key": "sv|dieser",
+      "match": true,
+      "production_planned_entry_sha256": "ec412abd1af4d42506e26ec36c1affe68385a235d7527a1471ad348243a7d3f4",
+      "production_live_entry_sha256": "ec412abd1af4d42506e26ec36c1affe68385a235d7527a1471ad348243a7d3f4"
+    },
+    {
+      "card_key": "sv|erst",
+      "match": true,
+      "production_planned_entry_sha256": "7ccf6a315594b87a668f674ae7ba028233dc48bf2ce7b56066dbf67a211a6e23",
+      "production_live_entry_sha256": "7ccf6a315594b87a668f674ae7ba028233dc48bf2ce7b56066dbf67a211a6e23"
+    },
+    {
+      "card_key": "sv|fernsehen",
+      "match": true,
+      "production_planned_entry_sha256": "87113501aa53559fe26faba5b6c3e2c7c75c5f4a79778a1938921687c4591f80",
+      "production_live_entry_sha256": "87113501aa53559fe26faba5b6c3e2c7c75c5f4a79778a1938921687c4591f80"
+    },
+    {
+      "card_key": "sv|Fernsehen",
+      "match": true,
+      "production_planned_entry_sha256": "f4a906c97cc3d2bea34de4c58fe91e5b509452bede962b7d299c54be0ef2df8e",
+      "production_live_entry_sha256": "f4a906c97cc3d2bea34de4c58fe91e5b509452bede962b7d299c54be0ef2df8e"
+    },
+    {
+      "card_key": "sv|ganz",
+      "match": true,
+      "production_planned_entry_sha256": "b3f30cc6d9b1185aa5278acc9edcda5ef469d601475baa80a3b5b9ed96e32110",
+      "production_live_entry_sha256": "b3f30cc6d9b1185aa5278acc9edcda5ef469d601475baa80a3b5b9ed96e32110"
+    },
+    {
+      "card_key": "sv|hoch",
+      "match": true,
+      "production_planned_entry_sha256": "9b14251dc80893658f045727bfccfadd79be4d24d61dd8163e84cc8d83c1df0c",
+      "production_live_entry_sha256": "9b14251dc80893658f045727bfccfadd79be4d24d61dd8163e84cc8d83c1df0c"
+    },
+    {
+      "card_key": "sv|lassen",
+      "match": true,
+      "production_planned_entry_sha256": "69d591383bdc3ed3b361d2d6751e9eafdb9a12065fa638256b727c9ab2a72d4d",
+      "production_live_entry_sha256": "69d591383bdc3ed3b361d2d6751e9eafdb9a12065fa638256b727c9ab2a72d4d"
+    },
+    {
+      "card_key": "sv|laufen",
+      "match": true,
+      "production_planned_entry_sha256": "659cce7d4ae7a847cb7b9fcdde813d4d35498f0b6defe9ab0cc067345caec6dd",
+      "production_live_entry_sha256": "659cce7d4ae7a847cb7b9fcdde813d4d35498f0b6defe9ab0cc067345caec6dd"
+    },
+    {
+      "card_key": "sv|laut",
+      "match": true,
+      "production_planned_entry_sha256": "9081bcc92bbb9295cd8dc2d6b3966eb96c440dba8628989f73b4d6b839a036de",
+      "production_live_entry_sha256": "9081bcc92bbb9295cd8dc2d6b3966eb96c440dba8628989f73b4d6b839a036de"
+    },
+    {
+      "card_key": "sv|Laut",
+      "match": true,
+      "production_planned_entry_sha256": "ea3f122f60e10885db4ae7fd30392a699ca75b88d17a50b7d1a9a4d560694b25",
+      "production_live_entry_sha256": "ea3f122f60e10885db4ae7fd30392a699ca75b88d17a50b7d1a9a4d560694b25"
+    },
+    {
+      "card_key": "sv|legen",
+      "match": true,
+      "production_planned_entry_sha256": "ef2ec0a93b6cd9215b45fd2e3f9727cabca7a2fe9c00f48839a5876599657ded",
+      "production_live_entry_sha256": "ef2ec0a93b6cd9215b45fd2e3f9727cabca7a2fe9c00f48839a5876599657ded"
+    },
+    {
+      "card_key": "sv|sprechen",
+      "match": true,
+      "production_planned_entry_sha256": "4b2e945e7bdceafbc0ec42095beb6f1398b6ae3f588f8069e38c7f04e3bfd8df",
+      "production_live_entry_sha256": "4b2e945e7bdceafbc0ec42095beb6f1398b6ae3f588f8069e38c7f04e3bfd8df"
+    },
+    {
+      "card_key": "sv|stehen",
+      "match": true,
+      "production_planned_entry_sha256": "2c95cfac3f917e004e5628ece8180f3e270ee640c5fff499805cf24157c97903",
+      "production_live_entry_sha256": "2c95cfac3f917e004e5628ece8180f3e270ee640c5fff499805cf24157c97903"
+    },
+    {
+      "card_key": "sv|über",
+      "match": true,
+      "production_planned_entry_sha256": "e55a9c348f81d24393e336dafcf254350439dc0dc8ca084dfafd979e0a458ecd",
+      "production_live_entry_sha256": "e55a9c348f81d24393e336dafcf254350439dc0dc8ca084dfafd979e0a458ecd"
+    },
+    {
+      "card_key": "sv|um",
+      "match": true,
+      "production_planned_entry_sha256": "b3374e1b48fc9e0ec7ecc22fa4b09195da19aa097d3fe8584fc2888d101610aa",
+      "production_live_entry_sha256": "b3374e1b48fc9e0ec7ecc22fa4b09195da19aa097d3fe8584fc2888d101610aa"
+    },
+    {
+      "card_key": "sv|unter",
+      "match": true,
+      "production_planned_entry_sha256": "1c6bcd329ba534c97272e86cfbcd4b455564929c110365d4687816839af547ac",
+      "production_live_entry_sha256": "1c6bcd329ba534c97272e86cfbcd4b455564929c110365d4687816839af547ac"
+    },
+    {
+      "card_key": "sv|verstehen",
+      "match": true,
+      "production_planned_entry_sha256": "bdbd27a39e444d7072ea68eed1d6c65a280e050aa90805f399d5721dfbd3db61",
+      "production_live_entry_sha256": "bdbd27a39e444d7072ea68eed1d6c65a280e050aa90805f399d5721dfbd3db61"
+    },
+    {
+      "card_key": "sv|vom",
+      "match": true,
+      "production_planned_entry_sha256": "f5da0a194152078fb68b63058e9e2e2db46bc119e5b85866c977e3b35af24efd",
+      "production_live_entry_sha256": "f5da0a194152078fb68b63058e9e2e2db46bc119e5b85866c977e3b35af24efd"
+    },
+    {
+      "card_key": "sv|vor",
+      "match": true,
+      "production_planned_entry_sha256": "299d50ad09e6d752ad1eb5039727f2b691450e3706050ce3cedd85b38526dd4d",
+      "production_live_entry_sha256": "299d50ad09e6d752ad1eb5039727f2b691450e3706050ce3cedd85b38526dd4d"
+    },
+    {
+      "card_key": "sv|was",
+      "match": true,
+      "production_planned_entry_sha256": "d2535439db4e59f29e42ed76f8af463b2cb59379817414cc8adc9ad8b59f2f40",
+      "production_live_entry_sha256": "d2535439db4e59f29e42ed76f8af463b2cb59379817414cc8adc9ad8b59f2f40"
+    },
+    {
+      "card_key": "sv|wenn",
+      "match": true,
+      "production_planned_entry_sha256": "1e7fe5f91527f5384087ffa119f3f1f685754d68dbb9a532d11fee49a2eb70f9",
+      "production_live_entry_sha256": "1e7fe5f91527f5384087ffa119f3f1f685754d68dbb9a532d11fee49a2eb70f9"
+    },
+    {
+      "card_key": "sv|wer",
+      "match": true,
+      "production_planned_entry_sha256": "2e1d5ea1bf62d86b68372f57b0ed99d67ccd6bf04b38e379e98384d84904a790",
+      "production_live_entry_sha256": "2e1d5ea1bf62d86b68372f57b0ed99d67ccd6bf04b38e379e98384d84904a790"
+    },
+    {
+      "card_key": "tr|Appetit",
+      "match": true,
+      "production_planned_entry_sha256": "de0e1afbeb8240682bfe9af7ecacf95e72ec4c594e6e982f2975ef06cc19d3b9",
+      "production_live_entry_sha256": "de0e1afbeb8240682bfe9af7ecacf95e72ec4c594e6e982f2975ef06cc19d3b9"
+    },
+    {
+      "card_key": "tr|besuchen",
+      "match": true,
+      "production_planned_entry_sha256": "366c41680d7a8b77d5698e48c1c1ce893409f27e1f177bba5af57780306a5f4f",
+      "production_live_entry_sha256": "366c41680d7a8b77d5698e48c1c1ce893409f27e1f177bba5af57780306a5f4f"
+    },
+    {
+      "card_key": "tr|das",
+      "match": true,
+      "production_planned_entry_sha256": "11260eee6990404eaf149b4486775de9f37f282341bb4923c968bb0d6490aec3",
+      "production_live_entry_sha256": "11260eee6990404eaf149b4486775de9f37f282341bb4923c968bb0d6490aec3"
+    },
+    {
+      "card_key": "tr|dass",
+      "match": true,
+      "production_planned_entry_sha256": "952b59e70ba929a0e4ed8df333c63b8e0d604622584c68151e11cc3f9f753f72",
+      "production_live_entry_sha256": "952b59e70ba929a0e4ed8df333c63b8e0d604622584c68151e11cc3f9f753f72"
+    },
+    {
+      "card_key": "tr|der",
+      "match": true,
+      "production_planned_entry_sha256": "6f7ccd3be0900680a783ae1336ad86a9cd6b03e81a55058a1e56e6f818fcb30b",
+      "production_live_entry_sha256": "6f7ccd3be0900680a783ae1336ad86a9cd6b03e81a55058a1e56e6f818fcb30b"
+    },
+    {
+      "card_key": "tr|die",
+      "match": true,
+      "production_planned_entry_sha256": "76d93636a48ce051bf7d6ad9e78d1ebaa1456651b47e2aec11f8bbaeccdd1996",
+      "production_live_entry_sha256": "76d93636a48ce051bf7d6ad9e78d1ebaa1456651b47e2aec11f8bbaeccdd1996"
+    },
+    {
+      "card_key": "tr|dieser",
+      "match": true,
+      "production_planned_entry_sha256": "e3b5c50fd61a9a4c6738f8689d40515bd8fb954d3c55c90742da2c1c58ddf53f",
+      "production_live_entry_sha256": "e3b5c50fd61a9a4c6738f8689d40515bd8fb954d3c55c90742da2c1c58ddf53f"
+    },
+    {
+      "card_key": "tr|ein",
+      "match": true,
+      "production_planned_entry_sha256": "84e2bf17183fc4361f9ce9fb07d23e371644fb5acc4690e6f2f6d10687ec921e",
+      "production_live_entry_sha256": "84e2bf17183fc4361f9ce9fb07d23e371644fb5acc4690e6f2f6d10687ec921e"
+    },
+    {
+      "card_key": "tr|Eis",
+      "match": true,
+      "production_planned_entry_sha256": "ab4a3426510bcea695af96c2d0dad84888990917004d9f1b3fba6beaa182a002",
+      "production_live_entry_sha256": "ab4a3426510bcea695af96c2d0dad84888990917004d9f1b3fba6beaa182a002"
+    },
+    {
+      "card_key": "tr|erst",
+      "match": true,
+      "production_planned_entry_sha256": "ea1bcb51ec5b386c2293ee95e0dccc9d5ec81de07b7c8739ea689b33e1ae6cba",
+      "production_live_entry_sha256": "ea1bcb51ec5b386c2293ee95e0dccc9d5ec81de07b7c8739ea689b33e1ae6cba"
+    },
+    {
+      "card_key": "tr|es",
+      "match": true,
+      "production_planned_entry_sha256": "c34ab96a639c7d56bd74ca8fe4965ed73b838610c670efdae9b156236500486e",
+      "production_live_entry_sha256": "c34ab96a639c7d56bd74ca8fe4965ed73b838610c670efdae9b156236500486e"
+    },
+    {
+      "card_key": "tr|essen",
+      "match": true,
+      "production_planned_entry_sha256": "bde3a659ea4b6edf1b1078e5863be7abf51f982e2920b2060217177220a56d22",
+      "production_live_entry_sha256": "bde3a659ea4b6edf1b1078e5863be7abf51f982e2920b2060217177220a56d22"
+    },
+    {
+      "card_key": "tr|fernsehen",
+      "match": true,
+      "production_planned_entry_sha256": "f7fae0c5529788df4e9c5b6f1fb6c235a19f787297f37b685e5a309512cfcf67",
+      "production_live_entry_sha256": "f7fae0c5529788df4e9c5b6f1fb6c235a19f787297f37b685e5a309512cfcf67"
+    },
+    {
+      "card_key": "tr|Fernsehen",
+      "match": true,
+      "production_planned_entry_sha256": "db1b0d5ca0a93bb115e9e266f46c6f92e76c2f7b53b230948c0ecb8d435dd478",
+      "production_live_entry_sha256": "db1b0d5ca0a93bb115e9e266f46c6f92e76c2f7b53b230948c0ecb8d435dd478"
+    },
+    {
+      "card_key": "tr|sollen",
+      "match": true,
+      "production_planned_entry_sha256": "f864753321f9e4c8a27b16d58a8bff6f29394bf7c2109d457aba0a3e0910f237",
+      "production_live_entry_sha256": "f864753321f9e4c8a27b16d58a8bff6f29394bf7c2109d457aba0a3e0910f237"
+    },
+    {
+      "card_key": "tr|zum",
+      "match": true,
+      "production_planned_entry_sha256": "97918d03cbbfa0796c32733bc286a6f229977538922cb9bd56669070d99dfaa8",
+      "production_live_entry_sha256": "97918d03cbbfa0796c32733bc286a6f229977538922cb9bd56669070d99dfaa8"
+    },
+    {
+      "card_key": "uk|ihr",
+      "match": true,
+      "production_planned_entry_sha256": "b9c9cc1a5aac4de89bcc66f2de1c62d4437b39b64fd96d83d8ddb7b1bf7619ea",
+      "production_live_entry_sha256": "b9c9cc1a5aac4de89bcc66f2de1c62d4437b39b64fd96d83d8ddb7b1bf7619ea"
+    }
+  ]
+}

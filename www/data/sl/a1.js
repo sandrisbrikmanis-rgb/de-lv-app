@@ -40,106 +40,43 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "govoriti",
       "explanation": [
-        "Glavna ideja: Govoriti, pogovarjati se ali uporabljati jezik.",
-        "sprechen v glavnem pomeni: govoriti ali se pogovarjati.",
-        "Pogosto opisuje: jezik/pogovor.",
-        "sprechen opisuje govorjenje ali uporabo jezika."
+        "Glavna misel: sprechen pomeni govoriti, pogovarjati se ali uporabljati jezik.",
+        "Poudarja proces govorjenja ali sporazumevanje v določenem jeziku."
       ],
       "examples": [
         {
           "de": "Ich spreche Deutsch.",
-          "lv": "Jaz govorim nemščino."
+          "lv": "Govorim nemško."
         },
         {
           "de": "Wir sprechen über die Arbeit.",
-          "lv": "mēs runājam par darbu."
+          "lv": "Govorimo o delu."
         },
         {
           "de": "Sie spricht mit ihrer Lehrerin.",
-          "lv": "es runāju vāciski."
+          "lv": "Pogovarja se s svojo učiteljico."
         }
       ],
       "comparison": [
         {
           "word": "sprechen",
-          "meaning": "govoriti (proces, jezik)",
+          "meaning": "govoriti ali se pogovarjati; proces ali jezik",
           "example": "Wir sprechen über die Arbeit. – Govorimo o delu."
         },
         {
           "word": "sagen",
-          "meaning": "povedati (konkreten tekst)",
+          "meaning": "reči določeno sporočilo",
           "example": "Sag mir die Wahrheit. – Povej mi resnico."
         }
       ],
       "tip": [
         "sprechen = govoriti",
-        "Uporabite sprechen, kadar kontekst ustreza temu pomenu."
+        "Uporabi sprechen za proces govorjenja, pogovor ali jezik."
       ],
       "important": [
-        "sprechen = govoriti.",
-        "Govoriti, se pogovarjati ali uporabljati jezik."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "green": [
-            "sprechen"
-          ],
-          "purple": [
-            "runāt"
-          ],
-          "orange": [
-            "runāt"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "spreche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "runāju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "sprechen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "spricht"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "runāju"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "runāt"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "green": [
-              "sprechen"
-            ]
-          }
-        ]
-      }
+        "sprechen pomeni govoriti ali se pogovarjati.",
+        "Za določeno izrečeno sporočilo nemščina pogosto uporablja sagen."
+      ]
     }
   },
   {
@@ -151,9 +88,8 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "majhen",
       "explanation": [
-        "Galvenā doma: Mazs izmērā vai apjomā.",
-        "klein galvenokārt nozīmē: mazs izmērs.",
-        "Bieži raksturo: lietas/personas izmēru."
+        "Glavna misel: klein pomeni majhen po velikosti, obsegu ali starosti.",
+        "Lahko opisuje predmet, prostor, količino ali otroka; natančen pomen določa kontekst."
       ],
       "examples": [
         {
@@ -162,11 +98,11 @@ const A1_WORDS = [
         },
         {
           "de": "Das Kind ist noch klein.",
-          "lv": "istaba ir maza."
+          "lv": "Otrok je še majhen."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "bērns vēl ir mazs."
+          "lv": "Imam majhno torbo."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
@@ -179,77 +115,12 @@ const A1_WORDS = [
       ],
       "tip": [
         "klein = majhen",
-        "Uporabite klein, kadar kontekst ustreza tej pomenu."
+        "Uporabi klein, kadar gre za majhnost po velikosti, obsegu ali starosti."
       ],
       "important": [
-        "klein = mazs izmērā.",
-        "klein = mazs."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "klein"
-          ],
-          "purple": [
-            "mazs"
-          ],
-          "green": [
-            "Mazs"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "maza"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "klein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "maza"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "kleine"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "mazs"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "mazs"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "klein"
-            ]
-          }
-        ]
-      }
+        "klein najpogosteje pomeni »majhen«.",
+        "Pri otroku lahko označuje tudi nizko starost."
+      ]
     }
   },
   {
@@ -280,13 +151,15 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "pie • uz • klāt",
+    "lv": "ob • na",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "pie • pie virsmas • pie malas",
-      "explanation": "Lieto, kad kaut kas atrodas pie sienas, loga, durvīm, upes, jūras krasta vai citas malas/virsmas.",
+      "translation": "ob • na",
+      "explanation": [
+        "Uporablja se, kadar je nekaj ob steni, oknu, vratih, reki, morski obali ali drugi površini oziroma robu."
+      ],
       "examples": [
         {
           "de": "an der Wand",
@@ -314,143 +187,16 @@ const A1_WORDS = [
         },
         {
           "word": "bei",
-          "meaning": "pri osebi ali mestu",
+          "meaning": "pri osebi ali kraju",
           "example": "beim Arzt – pri zdravniku"
         }
       ],
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "an"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pie",
-                "uz"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "am"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pie"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "am"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "pie"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "an"
-              ]
-            },
-            "example": {
-              "green": [
-                "an"
-              ],
-              "purple": [
-                "pie"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "auf"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "auf"
-              ],
-              "purple": [
-                "uz"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bei"
-              ]
-            },
-            "example": {
-              "red": [
-                "beim"
-              ],
-              "purple": [
-                "pie"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "an"
-            ],
-            "purple": [
-              "pie"
-            ],
-            "green": [
-              "sienas",
-              "loga",
-              "malas"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "an"
-            ],
-            "purple": [
-              "pie"
-            ],
-            "green": [
-              "virsmas",
-              "sienas",
-              "loga",
-              "malas"
-            ]
-          },
-          {
-            "yellow": [
-              "auf"
-            ],
-            "purple": [
-              "uz horizontālas virsmas"
-            ]
-          }
-        ]
-      },
       "tip": {
-        "text": "Atceries: pie sienas/loga/malas → an."
+        "text": "Zapomni si: ob steni, oknu ali robu → an."
       },
       "important": [
-        "an ni vsakršen \"pri\". Pogosto pomeni ob površini, steni, oknu ali robu.",
-        "Na vodoravni površini ponavadi uporabite auf."
+        "an ne pomeni vsakega »pri«; pogosto označuje lego ob površini, steni, oknu ali robu.",
+        "Za lego na vodoravni površini navadno uporabimo auf."
       ]
     }
   },
@@ -478,13 +224,15 @@ const A1_WORDS = [
   },
   {
     "de": "ab",
-    "lv": "no • ārā",
+    "lv": "od • od ... naprej",
     "level": "A1",
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "no • ārā",
-      "explanation": "Lieto, kad kaut kas sākas no konkrēta laika, vietas vai punkta. Bieži nozīmē “sākot no”.",
+      "translation": "od • od ... naprej",
+      "explanation": [
+        "Uporablja se, kadar se nekaj začne ob določenem času, kraju ali točki. Pogosto pomeni »od« ali »od ... naprej«."
+      ],
       "examples": [
         {
           "de": "ab heute",
@@ -507,165 +255,26 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ab",
-          "meaning": "začenši od točke/časa",
-          "example": "od ponedeljka – od ponedeljka"
+          "meaning": "od določene točke ali časa",
+          "example": "ab Montag – od ponedeljka"
         },
         {
           "word": "von",
-          "meaning": "od nekoga/nečesa • izvor",
-          "example": "od mene – od mene"
+          "meaning": "od nekoga ali nečesa • izvor",
+          "example": "von mir – od mene"
         },
         {
           "word": "aus",
-          "meaning": "ven iz notranjosti",
-          "example": "iz hiše – iz hiše / ven iz hiše"
+          "meaning": "iz notranjosti",
+          "example": "aus dem Haus – iz hiše"
         }
       ],
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "no"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "no"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "no"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ab"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "no"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "ab"
-              ]
-            },
-            "example": {
-              "green": [
-                "ab"
-              ],
-              "purple": [
-                "no"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "von"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "von"
-              ],
-              "purple": [
-                "no"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "aus"
-              ]
-            },
-            "example": {
-              "blue": [
-                "aus"
-              ],
-              "purple": [
-                "no"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "sākuma punkts"
-            ],
-            "green": [
-              "laikā",
-              "vietā"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "sākuma punktu"
-            ],
-            "green": [
-              "laikā",
-              "vietā"
-            ]
-          },
-          {
-            "yellow": [
-              "von"
-            ],
-            "red": [
-              "aus"
-            ],
-            "purple": [
-              "izcelsme",
-              "ārā no iekšienes"
-            ]
-          }
-        ]
-      },
       "tip": {
-        "text": "Atceries: sākuma punkts laikā/vietā → ab."
+        "text": "Začetna točka v času ali kraju → ab."
       },
       "important": [
-        "ab kaže začetno točko v času ali kraju.",
-        "Če je misljeno izvor ali smer ven iz notranjosti, pogosteje uporabite von ali aus."
+        "ab označuje začetno točko v času ali kraju.",
+        "Za izvor ali smer iz notranjosti se pogosteje uporabljata von ali aus."
       ]
     }
   },
@@ -690,168 +299,52 @@ const A1_WORDS = [
   },
   {
     "de": "aber",
-    "lv": "toda",
+    "lv": "ampak • vendar",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "toda",
-      "explanation": "Lieto, lai ieviestu pretstatu vai izteiktu iebildi. Bieži nozīmē “bet”, “tomēr” vai “taču”.",
+      "translation": "ampak • vendar",
+      "explanation": [
+        "Uporablja se za uvedbo nasprotja ali ugovora. Najpogosteje pomeni »ampak« ali »vendar«."
+      ],
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "rad bi šel s seboj, toda nimam časa."
+          "lv": "Želim iti zraven, ampak nimam časa."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "hrana je bila okusna, toda predorga."
+          "lv": "Hrana je bila okusna, vendar predraga."
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "on ima prav, toda mislim drugače."
+          "lv": "Ima prav, ampak jaz na to gledam drugače."
         }
       ],
       "comparison": [
         {
           "word": "aber",
-          "meaning": "nasprotje • ugovor • vseeno",
-          "example": "Ich komme, aber später. – Pridem, toda kasneje."
+          "meaning": "ampak • vendar",
+          "example": "Ich komme, aber später. – Pridem, ampak pozneje."
         },
         {
           "word": "sondern",
-          "meaning": "ne • toda",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – Es gribēju tēju, nevis kafiju."
+          "meaning": "temveč (po zanikanju)",
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Nisem hotel čaja, temveč kavo."
         },
         {
           "word": "jedoch",
-          "meaning": "vseeno",
-          "example": "Es ist kalt, jedoch sonnig. – Mrzlo je, vendar sončno."
+          "meaning": "vendar • kljub temu",
+          "example": "Es ist kalt, jedoch sonnig. – Hladno je, vendar sončno."
         }
       ],
       "tip": {
-        "text": "Atceries: pretstats/iebilde → aber."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "aber"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "bet"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aber"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "bet"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aber"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "taču"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "aber"
-              ]
-            },
-            "example": {
-              "green": [
-                "aber"
-              ],
-              "purple": [
-                "bet"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "sondern"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "sondern"
-              ],
-              "purple": [
-                "nevis"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "jedoch"
-              ]
-            },
-            "example": {
-              "red": [
-                "jedoch"
-              ],
-              "purple": [
-                "tomēr"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "pretstats",
-              "iebilde"
-            ]
-          }
-        },
-        "important": [
-          {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "pretstatu",
-              "iebildi"
-            ]
-          },
-          {
-            "yellow": [
-              "sondern"
-            ],
-            "purple": [
-              "nevis",
-              "bet gan"
-            ]
-          }
-        ]
+        "text": "Nasprotje ali ugovor → aber; po zanikanju »ne ..., temveč ...« → sondern."
       },
       "important": [
-        "aber kaže nasprotje ali ugovor.",
-        "Če je nasprotje \"ne..., toda...\", nemščina ponavadi uporablja sondern."
+        "aber izraža nasprotje ali ugovor.",
+        "V zgradbi »ne ..., temveč ...« nemščina navadno uporablja sondern."
       ]
     }
   },
@@ -1184,10 +677,8 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "tudi",
       "explanation": [
-        "Glavna ideja: Najpogostejši in nevtralni \"tudi\".",
-        "auch predvsem pomeni: preprosto \"tudi\".",
-        "Pogosto opisuje: dodatek.",
-        "auch je najbolj pogost beseda \"tudi\"."
+        "Glavna misel: auch je najpogostejši in najbolj nevtralen nemški izraz za »tudi«.",
+        "Označuje, da nekaj velja še za dodatno osebo ali stvar."
       ],
       "examples": [
         {
@@ -1196,88 +687,21 @@ const A1_WORDS = [
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "es arī nāku."
+          "lv": "Tudi ona dela tukaj."
         },
         {
           "de": "Ich wünsche Ihnen auch einen schönen Tag.",
-          "lv": "viņa arī strādā šeit."
+          "lv": "Tudi vam želim lep dan."
         }
       ],
       "tip": [
         "auch = tudi",
-        "Uporabite auch, kadar kontekst ustreza temu pomenu."
+        "V nemškem stavku stoji auch ob delu, na katerega se nanaša."
       ],
       "important": [
-        "Ich auch wünsche Ihnen nav pareiza vārdu kārtība.",
-        "auch = arī.",
+        "Pravilno: Ich wünsche Ihnen auch einen schönen Tag.",
         "Napačno: Ich auch wünsche Ihnen einen schönen Tag."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "auch",
-            "auch"
-          ],
-          "purple": [
-            "arī"
-          ],
-          "green": [
-            "Arī"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "auch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "arī"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "auch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "arī"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "auch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "arī"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "arī"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "auch"
-            ]
-          }
-        ]
-      }
+      ]
     }
   },
   {
@@ -1668,57 +1092,56 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "uz • virsū • kurp?",
+    "lv": "na",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "uz • virsū • kurp?",
+      "translation": "na",
       "explanation": [
-        "aufs je kombinacija predloga auf in člena das.",
-        "Polna oblika: auf das (kam?).",
-        "Uporabite, kadar dejanje kaže smer na določeno stvar ali površino — odgovori na vprašanje kam?",
-        "Pogosto se uporablja z gibanjem: plezati, usesti, položiti, voziti se na kaj.",
-        "Sarunvalodā un ikdienā gandrīz vienmēr lieto aufs, nevis pilno auf das."
+        "aufs je skrajšana oblika predloga auf in člena das.",
+        "Polna oblika je auf das in pri gibanju odgovarja na vprašanje kam.",
+        "Uporablja se za smer na določeno stvar ali površino.",
+        "V nevtralnem vsakdanjem jeziku se auf das pogosto skrajša v aufs; tudi polna oblika je slovnično pravilna."
       ],
       "examples": [
         {
           "de": "Ich gehe aufs Dach.",
-          "lv": "es eju uz jumta."
+          "lv": "Grem na streho."
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
-          "lv": "sedi si na kavču."
+          "lv": "Sede na kavč."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "vozimo se na podeželje."
+          "lv": "Peljemo se na podeželje."
         },
         {
           "de": "Stell die Tasche aufs Bett.",
-          "lv": "torbo postavi na posteljo."
+          "lv": "Postavi torbo na posteljo."
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "viņš uzkāpj uz zirga."
+          "lv": "Skoči na konja."
         },
         {
           "de": "Leg das Buch aufs Regal.",
-          "lv": "ieliec grāmatu uz plaukta."
+          "lv": "Položi knjigo na polico."
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "nāc ātri uz laivas!"
+          "lv": "Hitro pridi na čoln!"
         },
         {
           "de": "Wir gehen aufs Fest.",
-          "lv": "gremo na proslavo."
+          "lv": "Gremo na praznovanje."
         }
       ],
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "na določeno stvar (Akk.)",
+          "meaning": "na določeno stvar (tožilnik)",
           "example": "aufs Dach – na streho"
         },
         {
@@ -1733,280 +1156,24 @@ const A1_WORDS = [
         },
         {
           "word": "ins",
-          "meaning": "v notranjost (znotraj prostora)",
+          "meaning": "v notranjost prostora",
           "example": "ins Zimmer – v sobo"
         },
         {
           "word": "zum",
-          "meaning": "na / pri (komu?)",
-          "example": "zum Arzt – pri zdravniku"
+          "meaning": "k osebi ali kraju",
+          "example": "zum Arzt – k zdravniku"
         }
       ],
       "tip": [
-        "Ne pozabite: auf + das → aufs (kam?, kam?).",
-        "Sarunvalodā gandrīz nekad nesaka pilno auf das — lieto aufs."
+        "Zapomni si: auf + das → aufs.",
+        "V vsakdanjem jeziku se auf das pogosto skrajša v aufs."
       ],
       "important": [
-        "aufs = auf das, samo pri srednjem spolu (das) kam? sklonu.",
-        "Odgovori na kam? — gibanje na določeno mesto ali površino.",
-        "Na vodoravni površini pogosto uporabite auf den, ne aufs.",
-        "Ne zmešajte z an (ob steni) ali ins (v sobo)."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "aufs",
-            "auf das"
-          ],
-          "purple": [
-            "uz",
-            "virsmu",
-            "kurp?"
-          ],
-          "green": [
-            "kurp?",
-            "kustību"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz jumta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz dīvāna"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz laukiem"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz gultas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz zirga"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz plaukta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz laivas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uz svinībām"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "aufs"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uz konkrētu lietu"
-              ]
-            },
-            "example": {
-              "blue": [
-                "aufs Dach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "auf"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uz virsmu"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "auf den Tisch"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "an"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "pie"
-              ]
-            },
-            "example": {
-              "green": [
-                "an die Wand"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ins"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uz iekšu"
-              ]
-            },
-            "example": {
-              "green": [
-                "ins Zimmer"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zum"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "uz",
-                "pie"
-              ]
-            },
-            "example": {
-              "red": [
-                "zum Arzt"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "aufs"
-            ],
-            "purple": [
-              "kurp?"
-            ]
-          },
-          {
-            "purple": [
-              "auf das"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "aufs"
-            ],
-            "purple": [
-              "auf das"
-            ],
-            "green": [
-              "kurp?"
-            ]
-          },
-          {
-            "purple": [
-              "kurp?"
-            ],
-            "green": [
-              "kustība"
-            ]
-          },
-          {
-            "yellow": [
-              "auf den"
-            ],
-            "red": [
-              "aufs"
-            ]
-          },
-          {
-            "green": [
-              "an"
-            ],
-            "red": [
-              "ins"
-            ]
-          }
-        ]
-      }
+        "aufs = auf das in se uporablja samo pred samostalnikom srednjega spola.",
+        "Pri smeri označuje gibanje na določeno mesto ali površino.",
+        "Ne zamenjuj ga z an ob navpični površini ali z ins za gibanje v notranjost."
+      ]
     }
   },
   {
@@ -2368,157 +1535,52 @@ const A1_WORDS = [
   },
   {
     "de": "bei",
-    "lv": "pie • uz • klāt",
+    "lv": "pri",
     "level": "A1",
     "study": {
       "id": "a1-bei",
       "layout": "standardStudy",
-      "translation": "pie • uz • klāt",
-      "explanation": "Lieto, ja kaut kas atrodas pie personas, organizācijas, vietas vai notiek kādos apstākļos.",
+      "translation": "pri",
+      "explanation": [
+        "Uporablja se, kadar je nekdo pri osebi, organizaciji ali kraju, pa tudi za okoliščine, v katerih se nekaj dogaja."
+      ],
       "examples": [
         {
           "de": "Ich bin bei meinem Freund.",
-          "lv": "sem pri svojem prijatelju."
+          "lv": "Sem pri svojem prijatelju."
         },
         {
           "de": "Sie arbeitet bei Siemens.",
-          "lv": "viņa strādā Siemens."
+          "lv": "Dela pri Siemensu."
         },
         {
           "de": "Bei Regen bleiben wir zu Hause.",
-          "lv": "v dežju ostanemo doma."
+          "lv": "Ob dežju ostanemo doma."
         }
       ],
       "comparison": [
         {
           "word": "bei",
-          "meaning": "pri osebi, podjetju ali v določenih okoliščinah",
+          "meaning": "pri osebi ali podjetju oziroma v določenih okoliščinah",
           "example": "Ich bin bei meiner Schwester. – Sem pri svoji sestri."
         },
         {
           "word": "an",
-          "meaning": "ob steni, robu, obali, robu površine",
-          "example": "Das Bild hängt an der Wand. – Slika visi ob steni."
+          "meaning": "ob steni, robu ali obali",
+          "example": "Das Bild hängt an der Wand. – Slika visi na steni."
         },
         {
           "word": "zu",
-          "meaning": "pri kom gre (smer)",
-          "example": "Ich gehe zu meinem Freund. – Grem pri svojega prijatelja."
+          "meaning": "gibanje k osebi",
+          "example": "Ich gehe zu meinem Freund. – Grem k svojemu prijatelju."
         }
       ],
       "tip": {
-        "text": "Atceries: pie cilvēka/vietas/uzņēmuma → bei."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "bei"
-            ],
-            "de": {
-              "blue": [
-                "bei"
-              ]
-            }
-          },
-          {
-            "blue": [
-              "bei"
-            ],
-            "de": {
-              "blue": [
-                "bei"
-              ]
-            }
-          },
-          {
-            "blue": [
-              "Bei"
-            ],
-            "de": {
-              "blue": [
-                "Bei"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "purple": [
-                "bei"
-              ]
-            },
-            "example": {
-              "purple": [
-                "bei"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "an"
-              ]
-            },
-            "example": {
-              "green": [
-                "an"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zu"
-              ]
-            },
-            "example": {
-              "red": [
-                "zu"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "purple": [
-              "bei"
-            ],
-            "green": [
-              "cilvēka",
-              "vietas",
-              "uzņēmuma"
-            ]
-          }
-        },
-        "important": [
-          {
-            "purple": [
-              "bei"
-            ],
-            "green": [
-              "cilvēka",
-              "vietas",
-              "uzņēmumā"
-            ]
-          },
-          {
-            "blue": [
-              "auf"
-            ],
-            "red": [
-              "bei"
-            ],
-            "purple": [
-              "uz virsmu"
-            ]
-          }
-        ]
+        "text": "Zapomni si: pri osebi, kraju ali podjetju → bei."
       },
       "important": [
-        "bei pogosto pomeni pri osebi, pri mestu ali pri podjetju.",
-        "Če gre za gibanje na površino, ponavadi potrebujete auf, ne bei."
+        "bei pogosto pomeni pri osebi, kraju ali podjetju.",
+        "Za gibanje na površino navadno uporabimo auf, ne bei."
       ]
     }
   },
@@ -3445,229 +2507,58 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "ostati",
       "explanation": [
-        "Glavna ideja: bleiben pomeni ostati.",
-        "bleiben se uporablja, kadar oseba ali reč ne gre in ostane na istem mestu ali stanju.",
-        "To je nasprotje besed gehen in fahren, kadar gre za odhod.",
-        "Zelo pogost stavek je Ich bleibe zu Hause."
+        "Glavna misel: bleiben pomeni ostati.",
+        "Uporablja se, kadar oseba ali stvar ne odide, temveč ostane na istem mestu ali v istem stanju.",
+        "Pri odhodu je nasprotje glagolov gehen in fahren.",
+        "Zelo pogosta zveza je Ich bleibe zu Hause."
       ],
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "ostamem doma."
+          "lv": "Ostanem doma."
         },
         {
           "de": "Bleib hier!",
-          "lv": "ostani tukaj!"
+          "lv": "Ostani tukaj!"
         },
         {
           "de": "Wir bleiben noch eine Stunde.",
-          "lv": "ostanemo še eno uro."
+          "lv": "Ostanemo še eno uro."
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "grem domov."
+          "lv": "Grem domov."
         }
       ],
       "comparison": [
         {
           "word": "bleiben",
           "meaning": "ostati",
-          "example": "Ostanem tukaj."
+          "example": "Ich bleibe hier. – Ostanem tukaj."
         },
         {
           "word": "gehen",
-          "meaning": "iti / oditi domov",
-          "example": "Grem domov."
+          "meaning": "iti oziroma oditi peš",
+          "example": "Ich gehe nach Hause. – Grem domov."
         },
         {
           "word": "fahren",
-          "meaning": "voziti se / oditi s transportom",
-          "example": "Vozim se domov."
+          "meaning": "peljati se oziroma oditi s prevoznim sredstvom",
+          "example": "Ich fahre nach Hause. – Peljem se domov."
         },
         {
           "word": "warten",
           "meaning": "čakati",
-          "example": "Čakam tukaj."
+          "example": "Ich warte hier. – Čakam tukaj."
         }
       ],
       "tip": {
-        "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
+        "text": "Zapomni si: ne oditi → bleiben; oditi peš → gehen."
       },
       "important": [
         "bleiben pomeni ostati, ne čakati.",
-        "Ich bleibe hier = ostamem tukaj; Ich warte hier = čakam tukaj."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "bleiben"
-          ],
-          "purple": [
-            "palikt",
-            "neiet prom"
-          ],
-          "red": [
-            "gehen",
-            "fahren"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "bleibe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palieku"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Bleib"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "paliec"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bleiben"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "paliekam"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "gehe"
-              ]
-            },
-            "lv": {
-              "red": [
-                "eju"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "bleiben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "palikt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bleibe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "iet",
-                "doties prom"
-              ]
-            },
-            "example": {
-              "red": [
-                "gehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "braukt",
-                "transportu"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "fahre"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "warten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "gaidīt"
-              ]
-            },
-            "example": {
-              "green": [
-                "warte"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "bleiben"
-            ],
-            "purple": [
-              "neiet prom"
-            ],
-            "red": [
-              "gehen"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "bleiben"
-            ],
-            "purple": [
-              "palikt"
-            ],
-            "green": [
-              "gaidīt"
-            ]
-          },
-          {
-            "blue": [
-              "bleibe"
-            ],
-            "green": [
-              "warte"
-            ]
-          }
-        ]
-      }
+        "Ich bleibe hier = ostanem tukaj; Ich warte hier = čakam tukaj."
+      ]
     }
   },
   {
@@ -4088,261 +2979,63 @@ const A1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "tam",
+    "lv": "tam • tu",
     "level": "A1",
     "study": {
       "id": "a1-da",
       "layout": "standardStudy",
-      "translation": "tam",
+      "translation": "tam • tu",
       "explanation": [
-        "Glavna ideja: da na ravni A1 najpogosteje pomeni tam.",
-        "da kaže na mesto ali se nanašo na kaj že omenjeno.",
-        "Glede na situacijo je lahko preveden tudi kot tukaj ali tu.",
-        "Na ravni A1 se da učimo kot splošno besedo za mesto."
+        "Glavna misel: da na ravni A1 najpogosteje pomeni »tam« ali »tu«.",
+        "Kaže na kraj ali se nanaša na nekaj, kar je bilo že omenjeno.",
+        "Natančen prevod je odvisen od položaja in konteksta."
       ],
       "examples": [
         {
           "de": "Da ist mein Auto.",
-          "lv": "tam je moj avto."
+          "lv": "Tam je moj avto."
         },
         {
           "de": "Ich war da.",
-          "lv": "tam sem bil."
+          "lv": "Bil sem tam oziroma bila sem tam."
         },
         {
           "de": "Da kommt er.",
-          "lv": "tu pride."
+          "lv": "Glej, prihaja."
         },
         {
           "de": "Komm mal da her!",
-          "lv": "pojdi sem!"
+          "lv": "Pridi sem!"
         }
       ],
       "comparison": [
         {
           "word": "da",
-          "meaning": "tam • tukaj • tu (na splošno)",
-          "example": "Tam je moj avto."
+          "meaning": "tam • tu (splošno)",
+          "example": "Da ist mein Auto. – Tam je moj avto."
         },
         {
           "word": "hier",
-          "meaning": "tukaj (na določenem mestu)",
-          "example": "Tukaj je moj avto."
+          "meaning": "tukaj (na konkretnem mestu)",
+          "example": "Hier ist mein Auto. – Tukaj je moj avto."
         },
         {
           "word": "dort",
-          "meaning": "tam (dlje)",
-          "example": "Tam je moj avto."
+          "meaning": "tam (bolj oddaljeno)",
+          "example": "Dort ist mein Auto. – Tam je moj avto."
         },
         {
           "word": "dann",
           "meaning": "potem",
-          "example": "Potem gremo domov."
+          "example": "Dann gehen wir nach Hause. – Potem gremo domov."
         }
       ],
       "tip": {
-        "text": "Atceries: vispārīgs tur/te → da."
-      },
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "da"
-          ],
-          "purple": [
-            "tur"
-          ],
-          "green": [
-            "te",
-            "šeit"
-          ],
-          "yellow": [
-            "vietu"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Da"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tur"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "da"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tur"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Da"
-              ]
-            },
-            "lv": {
-              "green": [
-                "Te"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "da"
-              ]
-            },
-            "lv": {
-              "green": [
-                "šeit"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "da"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "te",
-                "šeit"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Da"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "hier"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "šeit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Hier"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dort"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tur"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dort"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dann"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "tad"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dann"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "da"
-            ],
-            "purple": [
-              "tur"
-            ],
-            "green": [
-              "te"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "da"
-            ],
-            "purple": [
-              "vietas"
-            ]
-          },
-          {
-            "yellow": [
-              "hier"
-            ],
-            "red": [
-              "dort"
-            ],
-            "green": [
-              "šeit"
-            ],
-            "purple": [
-              "tur"
-            ]
-          }
-        ]
-      },
-      "accents": {
-        "blue": [
-          "da",
-          "Da"
-        ],
-        "purple": [
-          "tur",
-          "Tur"
-        ],
-        "green": [
-          "te",
-          "Te",
-          "šeit"
-        ],
-        "yellow": [
-          "hier"
-        ],
-        "red": [
-          "dort",
-          "dann"
-        ]
+        "text": "Zapomni si: splošni »tam/tu« → da."
       },
       "important": [
-        "da je splošna beseda za kraj.",
-        "hier je konkretno \"tukaj\", dort je bolj oddaljen \"tam\"."
+        "da je splošni krajevni prislov.",
+        "hier pomeni konkretno »tukaj«, dort pa bolj oddaljeni »tam«."
       ]
     }
   },
@@ -4358,151 +3051,52 @@ const A1_WORDS = [
   },
   {
     "de": "das",
-    "lv": "srednji spol določni člen",
+    "lv": "določni člen srednjega spola • to",
     "level": "A1",
     "study": {
       "id": "a1-das",
       "layout": "standardStudy",
-      "translation": "srednji spol določni člen",
-      "explanation": "Lieto pie vidus dzimtes lietvārdiem. Dažos teikumos “das” var darboties arī kā vietniekvārds vai relatīvais vietniekvārds.",
+      "translation": "določni člen srednjega spola • to",
+      "explanation": [
+        "das se uporablja kot določni člen pri samostalnikih srednjega spola. V stavku je lahko tudi kazalni ali oziralni zaimek."
+      ],
       "examples": [
         {
           "de": "Das ist mein Auto.",
-          "lv": "to je moj avto."
+          "lv": "To je moj avto."
         },
         {
           "de": "Das ist gut.",
-          "lv": "to je dobro."
+          "lv": "To je dobro."
         },
         {
           "de": "Das Buch, das ich lese, ist interessant.",
-          "lv": "knjiga, ki jo beremo, je zanimiva."
+          "lv": "Knjiga, ki jo berem, je zanimiva."
         }
       ],
       "comparison": [
         {
           "word": "das",
-          "meaning": "to (člen / zaimek)",
+          "meaning": "člen ali zaimek: to",
           "example": "Das ist mein Auto. – To je moj avto."
         },
         {
           "word": "dies",
-          "meaning": "to",
+          "meaning": "to oziroma tale",
           "example": "Dies ist mein Auto. – To je moj avto."
         },
         {
           "word": "welches",
-          "meaning": "ki • katero • katero",
-          "example": "Das ist das Buch, welches ich lese. – To je knjiga, ki jo beremo."
+          "meaning": "kateri oziroma ki",
+          "example": "Das ist das Buch, welches ich lese. – To je knjiga, ki jo berem."
         }
       ],
       "tip": {
-        "text": "Atceries: vidus dzimte → das; ka → dass."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Das"
-            ]
-          },
-          {
-            "blue": [
-              "Das"
-            ]
-          },
-          {
-            "de": {
-              "blue": [
-                "Das"
-              ],
-              "yellow": [
-                "das"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "das"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Das"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dies"
-              ]
-            },
-            "example": {
-              "green": [
-                "Dies"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "welches"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Das",
-                "das"
-              ],
-              "yellow": [
-                "welches"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "das"
-            ],
-            "purple": [
-              "vidus dzimte"
-            ],
-            "red": [
-              "dass"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "das"
-            ],
-            "purple": [
-              "vidus dzimtes artikulu"
-            ]
-          },
-          {
-            "blue": [
-              "das"
-            ],
-            "purple": [
-              "artikuls",
-              "vietniekvārds"
-            ],
-            "red": [
-              "dass"
-            ]
-          }
-        ]
+        "text": "Zapomni si: srednji spol → das; veznik »da« → dass."
       },
       "important": [
-        "Na ravni A1 se das učimo kot srednji spol člen.",
-        "das ni isto kot dass — das je lahko člen ali \"to\", dass pomeni \"da\"."
+        "Na ravni A1 se das najprej uči kot določni člen srednjega spola.",
+        "das ni isto kot dass: das je lahko člen ali zaimek, dass pa je veznik."
       ]
     }
   },
@@ -5147,168 +3741,65 @@ const A1_WORDS = [
   },
   {
     "de": "ein",
-    "lv": "nenoteiktais artikuls • viens • kāds",
+    "lv": "nedoločni člen",
     "level": "A1",
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "nenoteiktais artikuls • viens • kāds",
+      "translation": "nedoločni člen",
       "explanation": [
-        "Glavna ideja: ein je nedoločni člen.",
-        "ein je nedoločni člen za moške in srednje spola samostalnike v imenovalniku.",
-        "ein se uporablja pri moških: ein Mann.",
-        "ein se uporablja pri srednjem spolu: ein Buch.",
-        "Pri ženskem spolu se uporablja: eine.",
-        "V tožilniku pri moških: einen."
+        "Glavna misel: ein je nedoločni člen.",
+        "V imenovalniku se uporablja pri samostalnikih moškega in srednjega spola: ein Mann, ein Buch.",
+        "Pri ženskem spolu uporabimo eine.",
+        "V tožilniku moškega spola uporabimo einen."
       ],
       "examples": [
         {
           "de": "Ein Mann wartet draußen.",
-          "lv": "moški čaka zunaj."
+          "lv": "Neki moški čaka zunaj."
         },
         {
           "de": "Ich habe ein Buch.",
-          "lv": "imam eno knjigo."
+          "lv": "Imam knjigo."
         },
         {
           "de": "Er sucht einen Stift.",
-          "lv": "išče neko pisalo."
+          "lv": "Išče pisalo."
         },
         {
           "de": "Ein Kind spielt.",
           "lv": "Otrok se igra."
         }
       ],
-      "tip": {
-        "text": "Atceries: nekonkrēts viens/kāds → ein."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Ein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kāds"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "ein"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viena"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "einen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kādu"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "ein"
-            ],
-            "purple": [
-              "viens",
-              "kāds"
-            ],
-            "green": [
-              "nekonkrēts"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "ein"
-            ],
-            "red": [
-              "noteiktais artikuls"
-            ]
-          },
-          {
-            "blue": [
-              "der",
-              "die",
-              "das"
-            ],
-            "green": [
-              "konkrēti zināma"
-            ]
-          }
-        ]
-      },
-      "important": [
-        "ein nav noteiktais artikuls.",
-        "Ja lieta jau ir konkrēti zināma, bieži vajag der, die vai das.",
-        "eine — ženski spol.",
-        "einen — tožilnik."
-      ],
       "comparison": [
         {
           "word": "ein Mann",
           "meaning": "moški spol",
-          "example": "Zunaj čaka moški."
+          "example": "Ein Mann wartet draußen."
         },
         {
           "word": "eine Frau",
           "meaning": "ženski spol",
-          "example": "ena ženska"
+          "example": "eine Frau"
         },
         {
           "word": "ein Buch",
           "meaning": "srednji spol",
-          "example": "Imam knjigo."
+          "example": "Ich habe ein Buch."
         },
         {
           "word": "einen Mann",
-          "meaning": "tožilnik",
-          "example": "enega moža"
+          "meaning": "tožilnik moškega spola",
+          "example": "einen Mann"
         }
+      ],
+      "tip": {
+        "text": "Zapomni si: ein ne pomeni vedno števila »en«; pogosto je samo nedoločni člen."
+      },
+      "important": [
+        "ein: moški ali srednji spol v imenovalniku.",
+        "eine: ženski spol.",
+        "einen: moški spol v tožilniku."
       ]
     }
   },
@@ -5332,265 +3823,61 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "led • sladoled",
       "explanation": [
-        "Glavna ideja: das Eis je lahko led ali sladoled.",
-        "Če gre za hladen zmrznjeni vodo, slovensko običajno rečete led.",
-        "Če gre za hrano ali puding, das Eis pogosto pomeni sladoled.",
-        "Kontekst običajno takoj pove, kateri pomen je mišljen.",
-        "Na ravni A1 so najpomembnejši stavki ein Eis essen in Eis im Glas."
+        "Glavna misel: das Eis lahko pomeni led ali sladoled.",
+        "Pri zamrznjeni vodi pomeni led, pri jedi ali sladici pa navadno sladoled.",
+        "Kontekst praviloma jasno pokaže pravi pomen."
       ],
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "jem sladoled."
+          "lv": "Jem sladoled."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "hoču sladoled?"
+          "lv": "Ali želiš sladoled?"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "pozimi je na jezeru led."
+          "lv": "Pozimi je na jezeru led."
         },
         {
           "de": "Das Eis ist kalt.",
-          "lv": "led je mrz."
+          "lv": "Led je mrzel."
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "vzamem si sladoled s čokolado."
+          "lv": "Vzamem sladoled s čokolado."
         }
       ],
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "led / sladoled",
-          "example": "Ich esse ein Eis. = Jem sladoled."
+          "meaning": "led ali sladoled",
+          "example": "Ich esse ein Eis. – Jem sladoled."
         },
         {
           "word": "der Schnee",
           "meaning": "sneg",
-          "example": "Der Schnee ist weiß. = Sneg je bel."
+          "example": "Der Schnee ist weiß. – Sneg je bel."
         },
         {
           "word": "kalt",
-          "meaning": "mrzla",
-          "example": "Das Wasser ist kalt. = Voda je mrzla."
+          "meaning": "mrzel",
+          "example": "Das Wasser ist kalt. – Voda je mrzla."
         },
         {
           "word": "das Dessert",
-          "meaning": "puding",
-          "example": "Eis ist ein Dessert. = Sladoled je puding."
+          "meaning": "sladica",
+          "example": "Eis ist ein Dessert. – Sladoled je sladica."
         }
       ],
       "tip": {
-        "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
+        "text": "Zapomni si: jed ali sladica → sladoled; zima ali voda → led."
       },
       "important": [
-        "Slovensko led in sladoled sta dve različni besedi, vendar nemščina pogosto uporablja das Eis za oba.",
-        "Kontekst je ključen: hrana pomeni sladoled, mrzla površina ali voda pomeni led."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "das Eis",
-            "Eis"
-          ],
-          "purple": [
-            "ledu",
-            "ledus",
-            "saldējums"
-          ],
-          "green": [
-            "ēdienu",
-            "desertu"
-          ],
-          "yellow": [
-            "ūdeni"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Eis"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "saldējumu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Eis"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "saldējumu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Eis"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ledus"
-              ],
-              "green": [
-                "ezera"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Eis"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "ledus"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Eis"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "saldējumu"
-              ],
-              "yellow": [
-                "šokolādi"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "das Eis"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "ledus",
-                "saldējums"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Eis"
-              ],
-              "purple": [
-                "saldējumu"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der Schnee"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "sniegs"
-              ]
-            },
-            "example": {
-              "green": [
-                "Schnee",
-                "Sniegs"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "kalt"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "auksts"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "kalt",
-                "auksts"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "das Dessert"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "deserts"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Eis"
-              ],
-              "red": [
-                "deserts"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "purple": [
-              "saldējums",
-              "ledus"
-            ],
-            "green": [
-              "ēdiens",
-              "ziema",
-              "ūdens"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "das Eis"
-            ],
-            "purple": [
-              "ledus",
-              "saldējums"
-            ]
-          },
-          {
-            "purple": [
-              "saldējumu",
-              "ledu"
-            ],
-            "green": [
-              "ēdiens",
-              "auksta virsma",
-              "ūdens"
-            ]
-          }
-        ]
-      }
+        "Slovenščina uporablja različni besedi led in sladoled, nemščina pa za oba pomena pogosto uporablja das Eis.",
+        "Pravi pomen določa kontekst."
+      ]
     }
   },
   {
@@ -5638,208 +3925,62 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "vispirms • tikai",
+    "lv": "šele • najprej",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "vispirms • tikai",
+      "translation": "šele • najprej",
       "explanation": [
-        "Glavna ideja: erst najpogosteje pomeni samo. Vendar v določenem kontekstu lahko pomeni tudi najprej.",
-        "erst pogosto kaže, da se kaj zgodi kasneje, kot je pričakovano.",
-        "Ich bin erst 18. — Star sem samo 18 let.",
-        "Es ist erst Montag. — Je samo ponedeljek.",
-        "Erst lernen, dann spielen. — Najprej se učimo, potem se igramo."
+        "Glavna misel: erst pogosto pomeni »šele«, v določenem zaporedju pa tudi »najprej«.",
+        "Pogosto kaže, da se nekaj zgodi pozneje od pričakovanega ali da je količina oziroma starost manjša od pričakovane."
       ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
-          "lv": "vispirms dzert, tad braukt."
+          "lv": "Najprej se uči, potem se igraj."
         },
         {
           "de": "Ich komme erst morgen.",
-          "lv": "pridem šele jutri."
+          "lv": "Pridem šele jutri."
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "star je šele 18 let."
+          "lv": "Star je šele 18 let."
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "jedemo šele ob osmih."
+          "lv": "Jemo šele ob osmih."
         }
       ],
       "comparison": [
         {
           "word": "erst",
-          "meaning": "najprej • samo",
-          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Vispirms strādāt, tad pauze."
+          "meaning": "najprej • šele",
+          "example": "Erst lernen, dann spielen. – Najprej se uči, potem se igraj."
         },
         {
           "word": "zuerst",
           "meaning": "najprej • na začetku",
-          "example": "Zuerst frühstücken wir. = Najprej se zajtrknemo."
+          "example": "Zuerst frühstücken wir. – Najprej zajtrkujemo."
         },
         {
           "word": "nur",
-          "meaning": "vispirms • tikai",
-          "example": "Ich habe nur 5 Euro. = Imam samo 5 evrov."
+          "meaning": "samo",
+          "example": "Ich habe nur 5 Euro. – Imam samo 5 evrov."
         },
         {
           "word": "dann",
           "meaning": "potem",
-          "example": "Dann gehen wir nach Hause. = Potem gremo domov."
+          "example": "Dann gehen wir nach Hause. – Potem gremo domov."
         }
       ],
       "tip": {
-        "text": "Atceries: laiks/skaits → erst; daudzums → nur."
-      },
-      "accents": {
-        "blue": [
-          "erst",
-          "Erst"
-        ],
-        "green": [
-          "zuerst",
-          "Zuerst"
-        ],
-        "yellow": [
-          "nur"
-        ],
-        "red": [
-          "dann",
-          "Dann"
-        ]
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Erst"
-            ],
-            "red": [
-              "dann"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "erst"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Erst"
-              ],
-              "red": [
-                "dann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zuerst"
-              ]
-            },
-            "example": {
-              "green": [
-                "Zuerst"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "nur"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "nur"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dann"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dann"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "green": [
-              "laiks",
-              "skaits"
-            ],
-            "purple": [
-              "daudzums"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "purple": [
-              "tikai"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ],
-            "green": [
-              "laiku",
-              "secību"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "purple": [
-              "daudzumu"
-            ]
-          }
-        ]
+        "text": "Zapomni si: poznejši čas ali manjša starost → erst; omejena količina → nur."
       },
       "important": [
-        "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
-        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu.",
-        "zuerst pogosteje pomeni: najprej."
+        "erst in zuerst nista popolna sopomenki.",
+        "erst pogosto pomeni »šele«, zuerst pa praviloma »najprej«."
       ]
     }
   },
@@ -7953,43 +6094,43 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "biti všeč",
       "explanation": [
-        "Glavna ideja: gefallen pomeni biti všeč, vendar se nemška stavčna struktura razlikuje od slovenščine.",
-        "Stvar, ki se ji je všeč, je v nemščini predmet stavka.",
-        "Oseba, ki ji je kaj všeč, je v dajniku: mir, dir, ihm, ihr, uns, euch, ihnen."
+        "Glavna misel: gefallen pomeni »biti všeč«, vendar je nemška stavčna zgradba drugačna.",
+        "Stvar, ki je komu všeč, je osebek stavka.",
+        "Oseba, ki ji je nekaj všeč, stoji v dajalniku: mir, dir, ihm, ihr, uns, euch, ihnen."
       ],
       "examples": [
         {
           "de": "Das gefällt mir.",
-          "lv": "to se mi je všeč."
+          "lv": "To mi je všeč."
         },
         {
           "de": "Gefällt dir das Kleid?",
-          "lv": "ti je všeč obleka?"
+          "lv": "Ti je obleka všeč?"
         },
         {
           "de": "Der Film gefällt uns.",
-          "lv": "nam je všeč film."
+          "lv": "Film nam je všeč."
         }
       ],
       "comparison": [
         {
           "word": "gefallen",
-          "meaning": "biti všeč • oseba v dajniku",
-          "example": "Das gefällt mir. – To se mi je všeč."
+          "meaning": "biti všeč; oseba je v dajalniku",
+          "example": "Das gefällt mir. – To mi je všeč."
         },
         {
           "word": "mögen",
-          "meaning": "biti všeč • raje izbrati",
-          "example": "Ich mag das. – To se mi je všeč."
+          "meaning": "imeti rad oziroma marati",
+          "example": "Ich mag das. – To mi je všeč."
         }
       ],
       "tip": [
-        "Zapomnite si konstrukcijo: Das gefällt mir.",
-        "Ne ustvarjaj dobesednega slovenskega vrstnega reda."
+        "Zapomni si zgradbo: Das gefällt mir.",
+        "Nemške besedne zveze ne sestavljaj z dobesednim prevodom besednega reda."
       ],
       "important": [
-        "gefallen uporabljamo z dajnikom: mir, dir, ihm, ihr.",
-        "Das gefällt mir = to se mi je všeč."
+        "gefallen zahteva dajalnik osebe: mir, dir, ihm, ihr.",
+        "Das gefällt mir = To mi je všeč."
       ]
     }
   },
@@ -8181,162 +6322,50 @@ const A1_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "tūlīt • vienāds",
+    "lv": "takoj • enak",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "tūlīt • vienāds",
+      "translation": "takoj • enak",
       "explanation": [
-        "Glavna ideja: gleich v smislu časa pomeni takoj, v primerjavi pomeni enak.",
-        "Ko gre za čas, gleich = takoj/v trenutku (Ich komme gleich. = Takoj pridem.).",
-        "Če gre za primerjavo, gleich = enak/enak (die gleiche Farbe = enaka barva).",
-        "gleich var lietot arī kā prievārdu ar datīvu, nozīmē tāpat kā (gleich mir = tāpat kā man)."
+        "Glavna misel: glede na čas gleich pomeni »takoj« ali »čez trenutek«, pri primerjanju pa »enak«.",
+        "Kontekst pokaže, kateri pomen je pravi."
       ],
       "examples": [
         {
           "de": "Ich komme gleich.",
-          "lv": "takoj pridem."
+          "lv": "Takoj pridem."
         },
         {
           "de": "Wir haben die gleiche Farbe.",
-          "lv": "imamo enako barvo."
+          "lv": "Imamo enako barvo."
         },
         {
           "de": "Das Essen ist gleich fertig.",
-          "lv": "jed bo takoj pripravljena."
+          "lv": "Hrana bo takoj pripravljena."
         },
         {
           "de": "Beide Wege sind gleich lang.",
-          "lv": "oba pota sta enako dolga."
+          "lv": "Obe poti sta enako dolgi."
         },
         {
           "de": "Bis gleich!",
-          "lv": "līdz tūlīt!"
+          "lv": "Se vidimo čez trenutek!"
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "enake so višine."
+          "lv": "So enake velikosti."
         }
       ],
       "tip": [
-        "Za čas (kmalu) → takoj.",
-        "Za primerjavo (enak) → enak."
+        "Pri času pomeni »takoj« ali »čez trenutek«.",
+        "Pri primerjanju pomeni »enak« ali »enako«."
       ],
       "important": [
-        "gleich = takoj (čas) ALI enak (primerjava).",
-        "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "gleich"
-          ],
-          "purple": [
-            "tūlīt",
-            "vienāds"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tūlīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vienāda"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tūlīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vienādi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tūlīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vienāda"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "tūlīt"
-            ]
-          },
-          {
-            "green": [
-              "vienāds"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "purple": [
-              "tūlīt",
-              "vienāds"
-            ]
-          },
-          {
-            "blue": [
-              "Bis gleich!"
-            ]
-          }
-        ]
-      }
+        "gleich = takoj (čas) ali enak (primerjava).",
+        "Bis gleich! je običajen pozdrav ob kratkem slovesu."
+      ]
     }
   },
   {
@@ -27171,140 +25200,63 @@ const A1_WORDS = [
   {
     "de": "Ferien",
     "de_article": "die",
-    "lv": "počitnice (šola)",
+    "lv": "počitnice (šolske)",
     "level": "A1",
     "study": {
       "id": "a1-ferien",
       "layout": "standardStudy",
-      "translation": "počitnice (šola)",
+      "translation": "počitnice (šolske)",
       "explanation": [
-        "Glavna ideja: samo množina. Šolske ali študijske počitnice – vedno v množini.",
-        "die Ferien predvsem pomeni: šolske počitnice.",
-        "Pogosto označeno z: samo množina.",
-        "die Ferien so samo množina — vedno množina (in den Ferien)."
+        "Glavna misel: die Ferien pomenijo šolske ali študijske počitnice in se v nemščini uporabljajo samo v množini.",
+        "Zelo pogosta zveza je in den Ferien."
       ],
       "examples": [
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Ob vikendih gremo na morje."
+          "lv": "Med počitnicami se peljemo na morje."
         },
         {
           "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "med počitnicami imam veliko časa."
+          "lv": "Med počitnicami imam veliko časa."
         },
         {
           "de": "Was macht ihr in den Ferien?",
-          "lv": "kaj delaš med počitnicami?"
+          "lv": "Kaj počnete med počitnicami?"
         },
         {
           "de": "Die Schule ist in den Ferien zu.",
-          "lv": "šola je med počitnicami zaprta."
+          "lv": "Šola je med počitnicami zaprta."
         },
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "ob vikendih gremo na morje."
+          "lv": "Med počitnicami se peljemo na morje."
         },
         {
           "de": "In den Ferien",
-          "lv": "počitnice (šola)."
+          "lv": "med šolskimi počitnicami"
         }
       ],
       "comparison": [
         {
           "word": "die Ferien",
-          "meaning": "šolske/študijske dopuste (samo mno.)",
-          "example": "In den Ferien fahren wir weg. – Počitnic se odpravimo."
+          "meaning": "šolske ali študijske počitnice (samo množina)",
+          "example": "In den Ferien fahren wir weg. – Med počitnicami odpotujemo."
         },
         {
           "word": "der Urlaub",
-          "meaning": "delovni dopust (samo ednina.)",
+          "meaning": "dopust z dela (ednina)",
           "example": "Ich habe zwei Wochen Urlaub. – Imam dva tedna dopusta."
         }
       ],
       "tip": [
-        "samo množina. Šolske ali študijske počitnice — vedno množina.",
-        "Uporabite die Ferien, kadar kontekst ustreza temu pomenu."
+        "die Ferien se uporablja samo v množini.",
+        "Uporabi ga za šolske ali študijske počitnice."
       ],
       "important": [
-        "Ferien vedno z dativom: in den Ferien.",
-        "Napačno: in der Ferien → Pravilno: in den Ferien",
-        "Šola: die Ferien (samo množina).",
-        "samo množina. Šolske ali študijske počitnice — vedno množina."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "die Ferien",
-            "ferien"
-          ],
-          "purple": [
-            "skola"
-          ],
-          "green": [
-            "Ferien"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ferien"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "brīvdienas (skola)"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {}
-        ],
-        "important": [
-          {}
-        ]
-      }
+        "Pravilno: in den Ferien.",
+        "Napačno: in der Ferien.",
+        "Za dopust z dela nemščina uporablja der Urlaub."
+      ]
     }
   },
   {

@@ -2381,9 +2381,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "visite",
       "explanation": [
-        "Idée principale : der Besuch signifie visite, visite ou visite de courtoisie.",
-        "Si on parle d'un lieu ou d'un événement, en français le mot approprié est visite.",
-        "Si on parle de la visite d'une personne, en français on peut dire visite ou visite de courtoisie.",
+        "Idée principale : der Besuch désigne une visite, c'est-à-dire l'événement ou le fait de se rendre quelque part.",
+        "Pour un lieu ou un événement, on le traduit généralement par visite.",
+        "Pour une personne, il peut également désigner le fait de lui rendre visite.",
         "Le pluriel est die Besuche."
       ],
       "examples": [
@@ -2397,43 +2397,37 @@ const A1_WORDS = [
         },
         {
           "de": "Der Arzt macht einen Besuch.",
-          "lv": "Le médecin fait une visite."
+          "lv": "Le médecin effectue une visite."
         }
+      ],
+      "tip": {
+        "text": "Rappel : Besuch = visite ; Besucher = visiteur."
+      },
+      "important": [
+        "der Besuch peut désigner une visite chez quelqu'un ou la visite d'un lieu.",
+        "Le pluriel est die Besuche."
       ],
       "comparison": [
         {
           "word": "der Besuch",
-          "meaning": "visite • visite • visite",
-          "example": "Merci de ta visite. – Paldies par tavu apciemojumu."
+          "meaning": "visite",
+          "example": "Danke für deinen Besuch. – Merci de ta visite."
         },
         {
           "word": "der Besucher",
-          "meaning": "Visiteur",
-          "example": "Le visiteur attend dehors. – Apmeklētājs gaida ārā."
+          "meaning": "visiteur",
+          "example": "Der Besucher wartet draußen. – Le visiteur attend dehors."
         },
         {
           "word": "besuchen",
-          "meaning": "visiter • rendre visite",
-          "example": "Je visite mes grands-parents. – Es apciemoju savus vecvecākus."
+          "meaning": "visiter / rendre visite",
+          "example": "Ich besuche meine Großeltern. – Je rends visite à mes grands-parents."
         }
-      ],
-      "tip": {
-        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
-      },
-      "important": [
-        "der Besuch n'est pas seulement une visite de courtoisie ; c'est aussi une visite ou une visite officielle.",
-        "Pluriel : die Besuche."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Besuch",
-            "die Besuche"
-          ],
-          "purple": [
-            "apmeklējums",
-            "apciemojums",
-            "vizīte"
+            "Besuch"
           ]
         },
         "examples": [
@@ -2441,19 +2435,9 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Besuch"
-              ],
-              "green": [
-                "Museum"
               ]
             },
-            "lv": {
-              "purple": [
-                "apmeklējums"
-              ],
-              "green": [
-                "Muzeja"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -2461,29 +2445,15 @@ const A1_WORDS = [
                 "Besuch"
               ]
             },
-            "lv": {
-              "purple": [
-                "apciemojumu"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
                 "Besuch"
-              ],
-              "green": [
-                "Arzt"
               ]
             },
-            "lv": {
-              "purple": [
-                "vizītē"
-              ],
-              "green": [
-                "Ārsts"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -2493,13 +2463,8 @@ const A1_WORDS = [
                 "der Besuch"
               ]
             },
-            "meaning": {
-              "purple": [
-                "apmeklējums",
-                "apciemojums",
-                "vizīte"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -2507,11 +2472,8 @@ const A1_WORDS = [
                 "der Besucher"
               ]
             },
-            "meaning": {
-              "purple": [
-                "apmeklētājs"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -2519,44 +2481,16 @@ const A1_WORDS = [
                 "besuchen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "apmeklēt",
-                "apciemot"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "Besuch"
-            ],
-            "purple": [
-              "notikums",
-              "vizīte"
-            ],
-            "green": [
-              "Besucher"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "der Besuch"
-            ],
-            "purple": [
-              "apmeklējums",
-              "apciemojums",
-              "vizīte"
-            ]
-          },
-          {
-            "blue": [
-              "die Besuche"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -14710,21 +14644,17 @@ const A1_WORDS = [
   },
   {
     "de": "morgen",
-    "lv": "Demain",
+    "lv": "demain",
     "level": "A1",
     "study": {
       "id": "a1-morgen",
       "layout": "standardStudy",
-      "translation": "Demain",
+      "translation": "demain",
       "explanation": [
-        "Idée principale : L’adverbe de temps est en minuscule. Cela signifie le lendemain – demain.",
-        "Morgen signifie principalement : le lendemain.",
-        "Souvent caractérisé par : la météo.",
-        "Morgen signifie avant tout : une partie de la journée.",
-        "Décrit souvent : nom (der).",
-        "Morgen signifie essentiellement : plusieurs matins.",
-        "Souvent caractérisé par : nom (pl.).",
-        "Morgen avec une petite lettre initiale signifie demain - le lendemain (Ich komme morgen = je viens demain, Bis morgen !"
+        "Idée principale : morgen, avec une minuscule, est un adverbe qui signifie demain.",
+        "Il renvoie au jour suivant.",
+        "der Morgen, avec une majuscule, est le nom allemand pour le matin.",
+        "Dans Guten Morgen!, Morgen s'écrit donc avec une majuscule."
       ],
       "examples": [
         {
@@ -14733,134 +14663,100 @@ const A1_WORDS = [
         },
         {
           "de": "Bis morgen!",
-          "lv": "A demain !"
+          "lv": "À demain !"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Je viens demain"
+          "lv": "Je viens demain."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Demain c'est lundi"
+          "lv": "Demain, c'est lundi."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Bonjour!"
+          "lv": "Bonjour !"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "La matinée est belle."
+          "lv": "Le matin est beau."
         }
       ],
       "tip": [
-        "Little morgen = demain (Ich komme morgen). der Morgen avec une majuscule = matin (Guten Morgen !, am Morgen).",
-        "Morgen = demain"
+        "morgen = demain",
+        "der Morgen = le matin"
       ],
       "important": [
-        "Morgen est en minuscule - c'est un adverbe temporel (demain).",
-        "Der Morgen avec une majuscule et l'article der est un nom (matin).",
-        "Bonjour! — toujours avec un M majuscule (matin, pas demain).",
-        "Nepareizi : Guten morgen ! → Pareizi : Guten Morgen !"
+        "morgen s'écrit avec une minuscule lorsqu'il signifie demain.",
+        "der Morgen est un nom et s'écrit avec une majuscule.",
+        "Guten Morgen! s'écrit toujours avec un M majuscule.",
+        "Ne confondez pas demain et le matin."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Idée"
+          "blue": [
+            "morgen"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "viens"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "demain"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "viens"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Demain"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Bonjour"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "matinée"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Little"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "morgen"
-            ]
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -14868,68 +14764,72 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
-    "lv": "Le matin",
+    "lv": "matin",
     "level": "A1",
     "study": {
       "id": "a1-morgen-study",
       "layout": "standardStudy",
-      "translation": "Le matin",
+      "translation": "matin",
       "explanation": [
-        "Idée principale : Un nom avec un article s'adapte et prend une majuscule. Partie de la journée - matin.",
-        "Der Morgen signifie principalement : le lendemain.",
-        "Souvent caractérisé par : la météo.",
-        "Der Morgen signifie avant tout : une partie de la journée.",
-        "Décrit souvent : nom (der).",
-        "Der Morgen signifie essentiellement : plusieurs matinées.",
-        "Souvent caractérisé par : nom (pl.).",
-        "Morgen avec une petite lettre initiale signifie demain - le lendemain (Ich komme morgen = je viens demain, Bis morgen !"
+        "Idée principale : der Morgen est un nom qui signifie le matin.",
+        "Comme nom, Morgen s'écrit avec une majuscule et s'emploie avec l'article der.",
+        "morgen, avec une minuscule, signifie demain.",
+        "Dans Guten Morgen!, il s'agit du nom Morgen."
       ],
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "Bonjour!"
+          "lv": "Bonjour !"
         },
         {
           "de": "Bis morgen!",
-          "lv": "A demain !"
+          "lv": "À demain !"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Je viens demain"
+          "lv": "Je viens demain."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Demain c'est lundi"
+          "lv": "Demain, c'est lundi."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Bonjour!"
+          "lv": "Bonjour !"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "La matinée est belle."
+          "lv": "Le matin est beau."
         }
       ],
       "tip": [
-        "Little morgen = demain (Ich komme morgen). der Morgen avec une majuscule = matin (Guten Morgen !, am Morgen).",
-        "Der Morgen = demain"
+        "der Morgen = le matin",
+        "morgen = demain"
       ],
       "important": [
-        "Morgen est en minuscule - c'est un adverbe temporel (demain).",
-        "Der Morgen avec une majuscule et l'article der est un nom (matin).",
-        "Bonjour! — toujours avec un M majuscule (matin, pas demain).",
-        "Nepareizi : Guten morgen ! → Pareizi : Guten Morgen !"
+        "der Morgen est un nom : le matin.",
+        "morgen avec une minuscule est l'adverbe demain.",
+        "Guten Morgen! s'écrit avec un M majuscule.",
+        "Ne confondez pas Morgen et morgen."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Idée"
+          "blue": [
+            "Morgen"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
                 "morgen"
               ]
             },
@@ -14937,43 +14837,7 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "demain"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "viens"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Demain"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
+              "blue": [
                 "morgen"
               ]
             },
@@ -14981,26 +14845,37 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "der Morgen",
-                "morgen"
+              "blue": [
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "matinée"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
               ]
-            }
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Little"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
+          {},
+          {},
           {}
         ]
       }
@@ -24730,81 +24605,72 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "Alimentation • Repas",
+    "lv": "nourriture • repas",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "Alimentation • Repas",
+      "translation": "nourriture • repas",
       "explanation": [
-        "Idée principale : Nom - nourriture ou repas entier.",
-        "Das Essen signifie avant tout : consommer de la nourriture.",
-        "Décrit souvent : l'action.",
-        "Das Essen signifie essentiellement : nourriture ou repas.",
-        "Décrit souvent : la pluie.",
-        "Essen signifie manger.",
-        "Das Essen peut signifier de la nourriture ou un repas en général."
+        "Idée principale : das Essen est un nom qui désigne la nourriture ou un repas.",
+        "Il peut renvoyer à ce que l'on mange ou au repas dans son ensemble.",
+        "Comme nom, Essen s'écrit avec une majuscule et s'emploie souvent avec l'article das.",
+        "Le verbe essen, avec une minuscule, signifie manger."
       ],
       "examples": [
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "La nourriture est bonne."
+          "lv": "Le repas est bon."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Que veux-tu manger"
+          "lv": "Que voulez-vous manger ?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "Nous mangeons à 12 heures."
+          "lv": "Nous mangeons à midi."
         },
         {
           "de": "Das Essen ist fertig.",
-          "lv": "La nourriture est prête."
+          "lv": "Le repas est prêt."
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "La nourriture est très bonne."
+          "lv": "Le repas est très bon."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "La nourriture est bonne."
+          "lv": "Le repas est bon."
         }
       ],
       "tip": [
-        "Das Essen = manger",
-        "Utilisez das Essen lorsque le contexte convient à ce sens."
+        "das Essen = nourriture / repas",
+        "Utilisez das Essen pour parler de la nourriture ou du repas."
       ],
       "important": [
-        "Essen est un verbe sans article.",
-        "Das Essen nav tas pats, kas essen.",
+        "das Essen est un nom : nourriture ou repas.",
+        "essen est le verbe : manger.",
         "Action : essen.",
-        "Caisse/repas : das Essen."
+        "Nourriture ou repas : das Essen."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Idée",
-            "Idée"
+          "blue": [
+            "Essen"
           ]
         },
         "examples": [
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "nourriture"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "yellow": [
+              "blue": [
                 "essen"
               ]
             },
@@ -24812,7 +24678,7 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
+              "blue": [
                 "essen"
               ]
             },
@@ -24820,42 +24686,27 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "nourriture"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "nourriture"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "nourriture"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -24863,6 +24714,9 @@ const A1_WORDS = [
           {}
         ],
         "important": [
+          {},
+          {},
+          {},
           {}
         ]
       }
@@ -24871,16 +24725,16 @@ const A1_WORDS = [
   {
     "de": "Gemüse",
     "de_article": "das",
-    "lv": "Légumes",
+    "lv": "légumes",
     "level": "A1",
     "study": {
       "id": "a1-gemuese",
       "layout": "standardStudy",
-      "translation": "Légumes",
+      "translation": "légumes",
       "explanation": [
-        "Idée principale : Les légumes en général. L'allemand n'a pas de forme plurielle pour *die Gemüse.",
-        "Das Gemüse signifie principalement : les légumes en général.",
-        "Souvent décrit : dans n'importe quel genre (uniquement au singulier)."
+        "Idée principale : das Gemüse désigne les légumes en général.",
+        "En allemand standard, il s'emploie comme un nom collectif, généralement au singulier.",
+        "On ne forme pas un pluriel ordinaire *die Gemüse."
       ],
       "examples": [
         {
@@ -24901,7 +24755,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "J'aime les fruits et légumes."
+          "lv": "J'aime les fruits et les légumes."
         },
         {
           "de": "Ich esse Gemüse.",
@@ -24909,103 +24763,77 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Das Gemüse = légumes",
-        "Utilisez das Gemüse lorsque le contexte correspond à ce sens."
+        "das Gemüse = les légumes en général",
+        "Utilisez Gemüsesorten pour parler de différentes sortes de légumes."
       ],
       "important": [
-        "Nav pareizi : die Gemüse, die Obsts.",
-        "Nepareizi : die Gemüse → Pareizi : das Gemüse",
-        "Das Gemüse = légumes (en général)."
+        "On dit das Gemüse, et non die Gemüses.",
+        "Gemüse est généralement employé au singulier.",
+        "Pour les variétés, on peut dire Gemüsesorten."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Idée"
+          "blue": [
+            "Gemüse"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
-            "lv": {
-              "purple": [
-                "J'aime"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
-            "lv": {
-              "purple": [
-                "J'aime"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "das Gemüse",
-                "gemüse"
+                "Gemüse"
               ]
             },
-            "lv": {
-              "purple": [
-                "Les"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
-            "lv": {
-              "purple": [
-                "Nous"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
-            "lv": {
-              "purple": [
-                "J'aime"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "gemüse"
+                "Gemüse"
               ]
             },
-            "lv": {
-              "purple": [
-                "mange"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Das"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
+          {},
           {}
         ]
       }
@@ -25014,16 +24842,16 @@ const A1_WORDS = [
   {
     "de": "Obst",
     "de_article": "das",
-    "lv": "Fruits",
+    "lv": "fruits",
     "level": "A1",
     "study": {
       "id": "a1-obst",
       "layout": "standardStudy",
-      "translation": "Fruits",
+      "translation": "fruits",
       "explanation": [
-        "Idée principale : Les fruits en général. L'allemand n'a pas de forme plurielle *die Obsts.",
-        "Das Obst signifie principalement : les fruits en général.",
-        "Souvent décrit : dans n'importe quel genre (uniquement au singulier)."
+        "Idée principale : das Obst désigne les fruits en général.",
+        "C'est un nom collectif neutre, généralement employé au singulier.",
+        "On ne forme pas un pluriel ordinaire *die Obsts."
       ],
       "examples": [
         {
@@ -25036,11 +24864,11 @@ const A1_WORDS = [
         },
         {
           "de": "Obst ist gesund.",
-          "lv": "Les fruits sont sains."
+          "lv": "Les fruits sont bons pour la santé."
         },
         {
           "de": "Ich mag Obst und Gemüse.",
-          "lv": "J'aime les fruits et légumes."
+          "lv": "J'aime les fruits et les légumes."
         },
         {
           "de": "Wir essen Obst.",
@@ -25048,94 +24876,68 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Das Obst = fruits",
-        "Utilisez das Obst lorsque le contexte convient à ce sens."
+        "das Obst = les fruits en général",
+        "Utilisez Obstsorten pour parler de différentes sortes de fruits."
       ],
       "important": [
-        "Nepareizi : die Obsts → Pareizi : das Obst",
-        "Das Obst = fruits (en général)."
+        "On dit das Obst, et non die Obsts.",
+        "das Obst désigne les fruits comme ensemble."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "fruits"
+          "blue": [
+            "Obst"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
-            "lv": {
-              "purple": [
-                "fruit"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
-            "lv": {
-              "purple": [
-                "fruit"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
-            "lv": {
-              "purple": [
-                "fruits"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
-            "lv": {
-              "purple": [
-                "fruits"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "obst"
+              "blue": [
+                "Obst"
               ]
             },
-            "lv": {
-              "purple": [
-                "fruit"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "fruits"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "das Obst"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -25143,77 +24945,77 @@ const A1_WORDS = [
   {
     "de": "Ferien",
     "de_article": "die",
-    "lv": "Vacances (scolaires)",
+    "lv": "vacances scolaires",
     "level": "A1",
     "study": {
       "id": "a1-ferien",
       "layout": "standardStudy",
-      "translation": "Vacances (scolaires)",
+      "translation": "vacances scolaires",
       "explanation": [
-        "Idée principale : pluriel uniquement. Vacances scolaires ou d'études - toujours au pluriel.",
-        "Die Ferien signifie essentiellement : vacances scolaires.",
-        "Souvent caractérisé par : pluriel uniquement.",
-        "Die Ferien n'est qu'au pluriel – toujours au pluriel (in den Ferien)."
+        "Idée principale : die Ferien désigne les vacances scolaires ou universitaires.",
+        "Ce nom s'emploie toujours au pluriel.",
+        "L'expression courante est in den Ferien.",
+        "der Urlaub désigne plutôt les vacances ou le congé d'une personne par rapport au travail."
       ],
       "examples": [
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "Le week-end, nous allons à la mer."
+          "lv": "Pendant les vacances, nous allons au bord de la mer."
         },
         {
           "de": "In den Ferien habe ich viel Zeit.",
-          "lv": "J'ai beaucoup de temps pendant les vacances."
+          "lv": "Pendant les vacances, j'ai beaucoup de temps."
         },
         {
           "de": "Was macht ihr in den Ferien?",
-          "lv": "Que fais-tu en vacances"
+          "lv": "Que faites-vous pendant les vacances ?"
         },
         {
           "de": "Die Schule ist in den Ferien zu.",
-          "lv": "L'école est fermée les jours fériés."
+          "lv": "L'école est fermée pendant les vacances."
         },
         {
           "de": "In den Ferien fahren wir ans Meer.",
-          "lv": "En vacances, nous allons à la mer."
+          "lv": "Pendant les vacances, nous allons au bord de la mer."
         },
         {
           "de": "In den Ferien",
-          "lv": "En vacances (scolaires)."
+          "lv": "pendant les vacances scolaires"
         }
+      ],
+      "tip": [
+        "die Ferien s'emploie toujours au pluriel.",
+        "Utilisez die Ferien pour les vacances scolaires ou universitaires."
+      ],
+      "important": [
+        "On dit in den Ferien, et non in der Ferien.",
+        "die Ferien s'emploie toujours au pluriel.",
+        "École ou études : die Ferien.",
+        "Travail ou congé individuel : der Urlaub."
       ],
       "comparison": [
         {
           "word": "die Ferien",
-          "meaning": "Pause scolaire/études (dsk. uniquement)",
-          "example": "In den Ferien fahren wir weg. – end."
+          "meaning": "vacances scolaires ou universitaires (pluriel)",
+          "example": "In den Ferien fahren wir weg. – Pendant les vacances, nous partons."
         },
         {
           "word": "der Urlaub",
-          "meaning": "Congé du travail (uniquement tous)",
-          "example": "Ich habe zwei Wochen Urlaub. – J'ai deux semaines de vacances."
+          "meaning": "vacances ou congé d'une personne",
+          "example": "Ich habe zwei Wochen Urlaub. – J'ai deux semaines de congé."
         }
-      ],
-      "tip": [
-        "Pluriel seulement. Vacances scolaires ou d'études - toujours au pluriel.",
-        "Utilisez die Ferien lorsque le contexte correspond à ce sens."
-      ],
-      "important": [
-        "Ferien toujours avec le datif : in den Ferien.",
-        "Nepareizi : dans le Ferien → Pareizi : dans le Ferien",
-        "École : die Ferien (au pluriel seulement).",
-        "Pluriel seulement. Vacances scolaires ou d'études - toujours au pluriel."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Idée"
+          "blue": [
+            "Ferien"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "ferien"
+                "Ferien"
               ]
             },
             "lv": {}
@@ -25221,7 +25023,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ferien"
+                "Ferien"
               ]
             },
             "lv": {}
@@ -25229,7 +25031,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ferien"
+                "Ferien"
               ]
             },
             "lv": {}
@@ -25237,7 +25039,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ferien"
+                "Ferien"
               ]
             },
             "lv": {}
@@ -25245,7 +25047,7 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ferien"
+                "Ferien"
               ]
             },
             "lv": {}
@@ -25253,20 +25055,40 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "ferien"
+                "Ferien"
               ]
             },
-            "lv": {
-              "purple": [
-                "vacances"
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Ferien"
               ]
-            }
+            },
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "der Urlaub"
+              ]
+            },
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
+          {},
           {}
         ],
         "important": [
+          {},
+          {},
+          {},
           {}
         ]
       }
@@ -25275,17 +25097,17 @@ const A1_WORDS = [
   {
     "de": "Urlaub",
     "de_article": "der",
-    "lv": "Vacances",
+    "lv": "vacances • congé",
     "level": "A1",
     "study": {
       "id": "a1-urlaub",
       "layout": "standardStudy",
-      "translation": "Vacances",
+      "translation": "vacances • congé",
       "explanation": [
-        "Idée principale : singulier uniquement. Congé du travail - toujours singulier.",
-        "Der Urlaub signifie essentiellement : s'absenter du travail.",
-        "Souvent caractérisé par : singulier seulement.",
-        "Der Urlaub n'est qu'un singulier - vacances du travail (im Urlaub)."
+        "Idée principale : der Urlaub désigne les vacances ou le congé d'une personne, notamment par rapport au travail.",
+        "Il s'emploie généralement au singulier.",
+        "On dit im Urlaub sein pour être en vacances et Urlaub machen pour prendre ou passer des vacances.",
+        "die Ferien désigne surtout les vacances scolaires ou universitaires et s'emploie au pluriel."
       ],
       "examples": [
         {
@@ -25298,120 +25120,116 @@ const A1_WORDS = [
         },
         {
           "de": "Nächste Woche habe ich Urlaub.",
-          "lv": "J'ai des vacances la semaine prochaine."
+          "lv": "Je suis en congé la semaine prochaine."
         },
         {
           "de": "Wir machen Urlaub in Spanien.",
-          "lv": "Nous sommes en vacances en Espagne."
+          "lv": "Nous passons nos vacances en Espagne."
         },
         {
           "de": "im Urlaub",
-          "lv": "En vacances (travail)."
+          "lv": "en vacances"
         }
+      ],
+      "tip": [
+        "Urlaub s'emploie généralement au singulier.",
+        "Pour les vacances scolaires ou universitaires, utilisez die Ferien."
+      ],
+      "important": [
+        "Urlaub : im Urlaub sein / Urlaub machen.",
+        "On évite normalement le pluriel Urlaube au niveau A1.",
+        "Travail ou congé individuel : der Urlaub.",
+        "École ou études : die Ferien."
       ],
       "comparison": [
         {
           "word": "der Urlaub",
-          "meaning": "Congé du travail (uniquement tous)",
+          "meaning": "vacances ou congé d'une personne",
           "example": "Mein Vater ist im Urlaub. – Mon père est en vacances."
         },
         {
           "word": "die Ferien",
-          "meaning": "Pause scolaire/études (dsk. uniquement)",
-          "example": "Die Kinder haben Ferien. – Les enfants ont des vacances."
+          "meaning": "vacances scolaires ou universitaires",
+          "example": "Die Kinder haben Ferien. – Les enfants sont en vacances."
         }
-      ],
-      "tip": [
-        "Singulier seulement. Congé du travail - toujours singulier.",
-        "Utilisez der Urlaub lorsque le contexte correspond à ce sens."
-      ],
-      "important": [
-        "Incorrect : die Ferie, der Urlabe (au niveau A1).",
-        "Urlaub : im Urlaub sein / Urlaub machen.",
-        "Nepareizi : die Urlaube → Pareizi : der Urlaub",
-        "Oeuvre : der Urlaub (singulier uniquement)."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Idée"
+          "blue": [
+            "Urlaub"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
-            "lv": {
-              "purple": [
-                "Mon"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
-            "lv": {
-              "purple": [
-                "Mon"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
-            "lv": {
-              "purple": [
-                "J'ai"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
-            "lv": {
-              "purple": [
-                "Nous"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "urlaub"
+              "blue": [
+                "Urlaub"
               ]
             },
-            "lv": {
-              "purple": [
-                "vacances"
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "der Urlaub"
               ]
-            }
+            },
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "die Ferien"
+              ]
+            },
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Singulier"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "der Urlabe"
-            ]
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -25692,84 +25510,67 @@ const A1_WORDS = [
   },
   {
     "de": "einmal",
-    "lv": "Une fois • Une fois",
+    "lv": "une fois",
     "level": "A1",
     "study": {
       "id": "a1-einmal",
       "layout": "standardStudy",
-      "translation": "Une fois • Une fois",
+      "translation": "une fois",
       "explanation": [
-        "Idée principale : Fait référence à une époque ou à un passé (autrefois j'étais...).",
-        "Einmal signifie essentiellement : une fois / dans le passé.",
-        "Souvent caractérisé par : les conditions météorologiques.",
-        "Einmal fait référence à une époque ou au passé (une fois que je...)."
+        "Idée principale : einmal indique qu'une action se produit une seule fois ou renvoie à un moment du passé.",
+        "Il signifie principalement « une fois ».",
+        "Dans un récit, il peut aussi introduire une situation passée.",
+        "Le contexte permet de distinguer l'occurrence unique du souvenir passé."
       ],
       "examples": [
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "J'étais une fois à Berlin."
+          "lv": "J'ai été une fois à Berlin."
         },
         {
           "de": "Ich war einmal in Berlin.",
-          "lv": "J'étais une fois à Berlin."
+          "lv": "J'ai été une fois à Berlin."
         }
       ],
       "tip": [
-        "Einmal = vienreiz",
-        "Utilisez einmal lorsque le contexte correspond à ce sens."
+        "einmal = une fois",
+        "Dans un récit, einmal peut aussi signifier « autrefois / un jour » selon le contexte."
       ],
       "important": [
-        "Einmal = une ou une fois dans le passé.",
-        "Fait référence à une époque ou à un passé (une fois que j'étais...)."
+        "einmal indique une seule occurrence ou un moment du passé.",
+        "Il ne signifie pas automatiquement « encore une fois »."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Idée"
+          "blue": [
+            "einmal"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "einmal",
+              "blue": [
                 "einmal"
               ]
             },
-            "lv": {
-              "purple": [
-                "J'étais"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "einmal",
+              "blue": [
                 "einmal"
               ]
             },
-            "lv": {
-              "purple": [
-                "J'étais"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "vienreiz",
-              "reiz"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "einmal"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
