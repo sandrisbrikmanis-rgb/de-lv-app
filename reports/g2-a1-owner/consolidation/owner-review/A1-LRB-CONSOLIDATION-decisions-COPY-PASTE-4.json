@@ -21992,5 +21992,12 @@
       200,
       220
     ]
+  },
+  "cards_201_220_gala_pass": {
+    "classification": "A1_LRB_CONSOLIDATION_CARDS_201_220_GALA_PASS",
+    "recorded_at": "2026-09-19T11:09:54.203Z",
+    "git_head": "98f35c06e274815bb912c87d6c5b0a38461ca5cf",
+    "pass_proof_sha256": "0dfcf2cfbe0f48d43b1fd90ef15897b9868a88209e6b9e50264abf2a931f6190",
+    "cards_201_220_payload_sha256": "4f8c0aa410accea8775b2c83841aa68a1cff62e3e5dc7c06bbe8a5026630a87a"
   }
 }
