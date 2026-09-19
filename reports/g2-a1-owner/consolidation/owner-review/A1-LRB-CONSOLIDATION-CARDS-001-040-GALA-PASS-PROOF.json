@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "classification": "A1_LRB_CONSOLIDATION_CARDS_001_040_FULL_CARD_LINGUISTIC_REVIEW_PASS",
-  "recorded_at": "2026-09-19T07:52:51.084Z",
-  "git_head": "3c6ab972108b4fa8198317fa0e8ee59363c5b5d9",
+  "recorded_at": "2026-09-19T07:53:01.864Z",
+  "git_head": "a2ac98b2ad25d224b2feba1c36ac0562d4ca1311",
   "pre_pass_correction_proof_sha256": "9c2e317e7812c3956bc7e92a235207dc444a32891c2713766e7a7b9d979da952",
   "correction_sha256": "c99360cde959bc116ca757465e73bb7f445bf5d0d76b86c27e5fed2cf031a0c4",
   "cards_001_040_payload_sha256": "4d86c05e677e83b7751e374b640c2eae3ccf4f67a2ddc4a358ae6eedb638bbd1",
