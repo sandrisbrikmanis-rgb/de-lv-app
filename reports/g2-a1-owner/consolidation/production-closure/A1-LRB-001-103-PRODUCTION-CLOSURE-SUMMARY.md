@@ -2,9 +2,9 @@
 
 ## Classification
 
-`A1_LRB_001_103_PRODUCTION_CLOSURE_AUDIT_PASS_AWAITING_OWNER_VERIFICATION`
+`A1_LRB_001_103_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1_COMPLETE_AWAITING_OWNER_REVERIFICATION`
 
-**NEXT_ACTION:** `OWNER_VERIFY_A1_LRB_PRODUCTION_CLOSURE`
+**NEXT_ACTION:** `OWNER_REVERIFY_A1_LRB_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1`
 
 | Metric | Value |
 |--------|------:|
@@ -18,5 +18,8 @@
 | Full card matches | 234/234 |
 | Changed production files | 46 |
 | Unresolved alias conflicts | 0 |
+| PROVEN_IDENTICAL_ALIAS (finding rows) | 1 |
+
+Finding alias correction #1: repeated `primary_leaf_target_key` rows are no longer classified as alias; only reconciliation-proven dual–owner-card slots qualify.
 
 Read-only audit; production not modified.

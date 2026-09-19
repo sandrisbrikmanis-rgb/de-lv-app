@@ -45,10 +45,10 @@ function main() {
     if (!fs.existsSync(path.join(CLOSURE_DIR, name))) blockers.push(`missing_artifact:${name}`);
   }
 
-  const findingBase = path.join(CLOSURE_DIR, `${PREFIX}-FINDING-ROW-CLOSURE-RECONCILIATION.json`);
   const findingPartGlob = fs
     .readdirSync(CLOSURE_DIR)
     .filter((f) => f.startsWith(`${PREFIX}-FINDING-ROW-CLOSURE-RECONCILIATION.part-`));
+  const findingBase = path.join(CLOSURE_DIR, `${PREFIX}-FINDING-ROW-CLOSURE-RECONCILIATION.json`);
   if (!fs.existsSync(findingBase) && findingPartGlob.length === 0) {
     blockers.push("missing_finding_reconciliation");
   }
@@ -95,7 +95,18 @@ function main() {
     }
   }
 
-  const pass = blockers.length === 0 && live.pass;
+  let aliasIndependentPass = false;
+  try {
+    execSync("node scripts/verify-a1-lrb-001-103-production-closure-finding-alias.js", {
+      cwd: ROOT,
+      stdio: "pipe",
+    });
+    aliasIndependentPass = true;
+  } catch {
+    blockers.push("independent_finding_alias_verifier_fail");
+  }
+
+  const pass = blockers.length === 0 && live.pass && aliasIndependentPass;
   const out = {
     pass,
     closure_pass: pass,
@@ -110,9 +121,11 @@ function main() {
     trace_gaps: 0,
     de_changes: 0,
     classification: pass
-      ? "A1_LRB_001_103_PRODUCTION_CLOSURE_AUDIT_PASS_AWAITING_OWNER_VERIFICATION"
+      ? "A1_LRB_001_103_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1_COMPLETE_AWAITING_OWNER_REVERIFICATION"
       : "A1_LRB_001_103_PRODUCTION_CLOSURE_AUDIT_BLOCKED",
-    next_action: pass ? "OWNER_VERIFY_A1_LRB_PRODUCTION_CLOSURE" : "RESOLVE_EXACT_CLOSURE_BLOCKERS",
+    next_action: pass
+      ? "OWNER_REVERIFY_A1_LRB_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1"
+      : "RESOLVE_EXACT_CLOSURE_BLOCKERS",
   };
   console.log(JSON.stringify(out, null, 2));
   process.exit(pass ? 0 : 1);

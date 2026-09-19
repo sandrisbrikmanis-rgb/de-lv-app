@@ -6,7 +6,12 @@ const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
 const { ROOT } = require("./audit-common");
-const { sha256 } = require("./g2-a1-lrb-consolidation-owner-review-artifacts");
+const { sha256, cardKey } = require("./g2-a1-lrb-consolidation-owner-review-artifacts");
+const {
+  buildProvenAliasLeafSlotEvidence,
+  recordMapsToProvenAliasSlot,
+  verifyFindingRowAliasClassifications,
+} = require("./g2-a1-lrb-production-closure-finding-alias");
 const { stableLeafValue, leafValueSha } = require("./g2-a1-lrb-leaf-reconstruction");
 const { classifyNotApplyMappedRow } = require("./g2-a1-lrb-not-apply-mapped");
 const { buildA1LrbConflictClassificationState } = require("../build-a1-lrb-target-conflict-classification");
@@ -19,10 +24,7 @@ const {
   runPostApplyVerification,
   AUTHORIZED_PRODUCTION_BEFORE_FILE_SET_SHA256,
 } = require("./g2-a1-lrb-production-copy-only-post-apply");
-const {
-  analyzeProductionTargetAliases,
-  productionLeafSlotKey,
-} = require("./g2-a1-lrb-production-target-alias");
+const { analyzeProductionTargetAliases } = require("./g2-a1-lrb-production-target-alias");
 const {
   productionEntrySha256,
   productionFileRel,
@@ -45,6 +47,18 @@ const FINDING_ROW_TOTAL = 4968;
 const LEAF_TOTAL = 4787;
 const CARD_TOTAL = 234;
 const MAX_PART_BYTES = 4_000_000;
+
+const ALIAS_CORRECTION_1_BEFORE_COUNTS = {
+  PROVEN_IDENTICAL_ALIAS: 716,
+  APPLIED_TO_PRODUCTION: 3985,
+  ALREADY_EQUAL_IN_PRODUCTION: 16,
+  OWNER_CONFIRMED_NO_CHANGE: 0,
+  SUPERSEDED_BY_EXPANDED_REVIEW: 153,
+  SUPERSEDED_BY_OWNER_45: 91,
+  AUDIT_ONLY_NO_TARGET: 7,
+  EXPLICITLY_EXCLUDED_WITH_PROOF: 0,
+  BLOCKED_UNRECONCILED: 0,
+};
 
 const FINAL_CLASS = {
   APPLIED: "APPLIED_TO_PRODUCTION",
@@ -70,15 +84,25 @@ function primaryLeafKey(row) {
 function writeJsonParts(baseName, rows, extra = {}) {
   const payload = { ...extra, rows };
   const raw = JSON.stringify(payload, null, 2) + "\n";
+  const singleAbs = path.join(CLOSURE_DIR, `${baseName}.json`);
   if (Buffer.byteLength(raw) <= MAX_PART_BYTES) {
-    const rel = path.relative(ROOT, path.join(CLOSURE_DIR, `${baseName}.json`));
+    const rel = path.relative(ROOT, singleAbs);
     const abs = path.join(ROOT, rel);
     fs.mkdirSync(path.dirname(abs), { recursive: true });
+    for (const stale of fs.readdirSync(CLOSURE_DIR).filter((f) => f.startsWith(`${baseName}.part-`))) {
+      fs.unlinkSync(path.join(CLOSURE_DIR, stale));
+    }
     fs.writeFileSync(abs, raw);
     return {
       multipart: false,
       parts: [{ path: rel, sha256: sha256(raw), byte_length: Buffer.byteLength(raw), row_count: rows.length }],
     };
+  }
+  if (fs.existsSync(singleAbs)) {
+    fs.unlinkSync(singleAbs);
+  }
+  for (const stale of fs.readdirSync(CLOSURE_DIR).filter((f) => f.startsWith(`${baseName}.part-`))) {
+    fs.unlinkSync(path.join(CLOSURE_DIR, stale));
   }
   const parts = [];
   let chunk = [];
@@ -120,9 +144,16 @@ function writeJsonParts(baseName, rows, extra = {}) {
   return { multipart: true, parts };
 }
 
-function classifyFindingRows(expandedRows, leafDecisions, owner45Keys) {
+function classifyFindingRows(expandedRows, leafDecisions, owner45Keys, atomicCards, aliasReconciliationAbs) {
   const leafByKey = new Map(leafDecisions.map((d) => [d.leaf_target_key, d]));
   const applyKeysSet = new Set(leafDecisions.map((d) => d.leaf_target_key));
+  const cardByKey = new Map(atomicCards.map((c) => [c.card_key, c]));
+
+  const aliasEvidence = buildProvenAliasLeafSlotEvidence(
+    aliasReconciliationAbs,
+    atomicCards,
+    leafDecisions
+  );
 
   const leafAlreadyEqual = new Map();
   for (const d of leafDecisions) {
@@ -142,7 +173,6 @@ function classifyFindingRows(expandedRows, leafDecisions, owner45Keys) {
     leafAlreadyEqual.set(d.leaf_target_key, ownerStable === prodStable && prodStable !== "");
   }
 
-  const seenLeafPrimary = new Map();
   const rowsOut = [];
   const counts = Object.fromEntries(Object.values(FINAL_CLASS).map((v) => [v, 0]));
 
@@ -151,6 +181,7 @@ function classifyFindingRows(expandedRows, leafDecisions, owner45Keys) {
     const pk = primaryLeafKey(record);
     const leaf = pk ? leafByKey.get(pk) : null;
     let finalClass = FINAL_CLASS.BLOCKED;
+    let aliasFields = null;
 
     if (base.classification === "RECONSTRUCTION_FAILED") {
       finalClass = FINAL_CLASS.AUDIT_ONLY;
@@ -159,21 +190,37 @@ function classifyFindingRows(expandedRows, leafDecisions, owner45Keys) {
     } else if (base.classification === "OWNER_CONFIRMED_NO_CHANGE") {
       finalClass = FINAL_CLASS.OWNER_NO_CHANGE;
     } else if (base.classification === "APPLY_ELIGIBLE") {
+      const rowCk = cardKey(record.target_language, record.canonical_card_object_id);
+      const card = cardByKey.get(rowCk);
+      const groupMeta = aliasEvidence.cardToGroupMeta.get(rowCk);
+      const aliasProof =
+        card && groupMeta
+          ? recordMapsToProvenAliasSlot(
+              record,
+              rowCk,
+              card,
+              aliasEvidence.provenLeafSlots,
+              groupMeta,
+              leafByKey
+            )
+          : null;
+
       if (pk && owner45Keys.has(pk)) {
         finalClass = FINAL_CLASS.SUPERSEDED_OWNER_45;
-      } else if (pk && seenLeafPrimary.has(pk)) {
+      } else if (aliasProof) {
         finalClass = FINAL_CLASS.ALIAS;
+        aliasFields = aliasProof;
+      } else if (pk && leafAlreadyEqual.get(pk)) {
+        finalClass = FINAL_CLASS.ALREADY_EQUAL;
       } else {
-        if (pk) seenLeafPrimary.set(pk, record.finding_stable_ids);
-        if (pk && leafAlreadyEqual.get(pk)) finalClass = FINAL_CLASS.ALREADY_EQUAL;
-        else finalClass = FINAL_CLASS.APPLIED;
+        finalClass = FINAL_CLASS.APPLIED;
       }
     } else {
       finalClass = FINAL_CLASS.EXCLUDED;
     }
 
     counts[finalClass] += 1;
-    rowsOut.push({
+    const rowOut = {
       batch_id: record.batch_id,
       finding_stable_id: record.finding_stable_ids,
       target_language: record.target_language,
@@ -186,11 +233,20 @@ function classifyFindingRows(expandedRows, leafDecisions, owner45Keys) {
       source_artifact_sha256: record.decision_source_sha256,
       final_classification: finalClass,
       primary_leaf_target_key: pk,
-    });
+      leaf_target_keys: record.leaf_target_keys || [],
+    };
+    if (aliasFields) {
+      rowOut.production_slot_key = aliasFields.production_slot_key;
+      rowOut.alias_group_id = aliasFields.alias_group_id;
+      rowOut.alias_owner_card_keys = aliasFields.alias_owner_card_keys;
+      rowOut.alias_evidence_path = aliasFields.alias_evidence_path;
+      rowOut.alias_evidence_sha256 = aliasFields.alias_evidence_sha256;
+    }
+    rowsOut.push(rowOut);
   }
 
   const sum = Object.values(counts).reduce((a, b) => a + b, 0);
-  return { rowsOut, counts, sum };
+  return { rowsOut, counts, sum, aliasEvidence };
 }
 
 function auditAllA1LangMirrors() {
@@ -273,16 +329,52 @@ function runProductionClosureAudit(options = {}) {
   const leafDecisions = loadDecisionsFromManifest(manifest);
   if (leafDecisions.length !== LEAF_TOTAL) blockers.push(`leaf_count:${leafDecisions.length}`);
 
+  const atomic = JSON.parse(
+    fs.readFileSync(path.join(PREP_DIR, `${PREFIX}-PRODUCTION-ATOMIC-CARD-MAPPING.json`), "utf8")
+  );
+  const aliasReconciliationAbs = path.join(
+    APPLY_DIR,
+    `${PREFIX}-PRODUCTION-TARGET-ALIAS-RECONCILIATION.json`
+  );
+
   const owner45Keys = new Set((owner45.changes || []).map((c) => c.leaf_target_key));
-  const findingRecon = classifyFindingRows(expandedRows, leafDecisions, owner45Keys);
+  const findingRecon = classifyFindingRows(
+    expandedRows,
+    leafDecisions,
+    owner45Keys,
+    atomic.cards,
+    aliasReconciliationAbs
+  );
   if (findingRecon.sum !== FINDING_ROW_TOTAL) blockers.push(`finding_reconciliation_sum:${findingRecon.sum}`);
   if ((findingRecon.counts[FINAL_CLASS.BLOCKED] || 0) !== 0) {
     blockers.push(`blocked_unreconciled:${findingRecon.counts[FINAL_CLASS.BLOCKED]}`);
   }
 
-  const atomic = JSON.parse(
-    fs.readFileSync(path.join(PREP_DIR, `${PREFIX}-PRODUCTION-ATOMIC-CARD-MAPPING.json`), "utf8")
+  const aliasVerify = verifyFindingRowAliasClassifications(
+    findingRecon.rowsOut,
+    aliasReconciliationAbs,
+    atomic.cards,
+    leafDecisions
   );
+  if (aliasVerify.false_alias_classifications !== 0) {
+    blockers.push(`false_alias_classifications:${aliasVerify.false_alias_classifications}`);
+  }
+  if (aliasVerify.alias_rows_without_proven_group !== 0) {
+    blockers.push(`alias_rows_without_proven_group:${aliasVerify.alias_rows_without_proven_group}`);
+  }
+  if (aliasVerify.alias_rows_without_two_distinct_owner_keys !== 0) {
+    blockers.push(`alias_rows_without_two_distinct_owner_keys:${aliasVerify.alias_rows_without_two_distinct_owner_keys}`);
+  }
+  if (aliasVerify.alias_rows_without_identical_payload_proof !== 0) {
+    blockers.push(
+      `alias_rows_without_identical_payload_proof:${aliasVerify.alias_rows_without_identical_payload_proof}`
+    );
+  }
+  if ((findingRecon.counts[FINAL_CLASS.ALIAS] || 0) !== aliasVerify.alias_row_count) {
+    blockers.push(
+      `alias_row_count_mismatch:builder=${findingRecon.counts[FINAL_CLASS.ALIAS] || 0},verifier=${aliasVerify.alias_row_count}`
+    );
+  }
   const alias = analyzeProductionTargetAliases(atomic.cards);
   const snapPath = path.join(PREP_DIR, `${PREFIX}-PRODUCTION-CURRENT-CARD-SNAPSHOTS.json`);
   const snapsByKey = new Map(
@@ -391,11 +483,27 @@ function runProductionClosureAudit(options = {}) {
     all_a1_languages: allA1.langs.length,
     all_a1_mirror_failures: allA1.mirror_drift,
     sk_alias: reconciliation.sk_slot_660,
+    finding_alias_correction_1: {
+      before_classification_counts: ALIAS_CORRECTION_1_BEFORE_COUNTS,
+      after_classification_counts: findingRecon.counts,
+      alias_verification_gates: {
+        false_alias_classifications: aliasVerify.false_alias_classifications,
+        alias_rows_without_proven_group: aliasVerify.alias_rows_without_proven_group,
+        alias_rows_without_two_distinct_owner_keys: aliasVerify.alias_rows_without_two_distinct_owner_keys,
+        alias_rows_without_identical_payload_proof: aliasVerify.alias_rows_without_identical_payload_proof,
+        finding_row_reconciliation_sum: findingRecon.sum,
+        blocked_unreconciled: findingRecon.counts[FINAL_CLASS.BLOCKED] || 0,
+      },
+      proven_identical_alias_rows: aliasVerify.alias_rows,
+    },
     classification: pass
-      ? "A1_LRB_001_103_PRODUCTION_CLOSURE_AUDIT_PASS_AWAITING_OWNER_VERIFICATION"
+      ? "A1_LRB_001_103_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1_COMPLETE_AWAITING_OWNER_REVERIFICATION"
       : "A1_LRB_001_103_PRODUCTION_CLOSURE_AUDIT_BLOCKED",
-    next_action: pass ? "OWNER_VERIFY_A1_LRB_PRODUCTION_CLOSURE" : "RESOLVE_EXACT_CLOSURE_BLOCKERS",
+    next_action: pass
+      ? "OWNER_REVERIFY_A1_LRB_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1"
+      : "RESOLVE_EXACT_CLOSURE_BLOCKERS",
     findingRecon,
+    aliasVerify,
     cardResults,
   };
 }
@@ -438,6 +546,7 @@ function writeClosureArtifacts(audit) {
     pass: audit.pass,
     classification: audit.classification,
     next_action: audit.next_action,
+    finding_alias_correction_1: audit.finding_alias_correction_1,
   };
   fs.writeFileSync(
     path.join(CLOSURE_DIR, `${PREFIX}-PRODUCTION-CLOSURE-AUDIT.json`),
@@ -459,6 +568,7 @@ function writeClosureArtifacts(audit) {
     apply_manifest_sha256: sha256(
       fs.readFileSync(path.join(APPLY_DIR, `${PREFIX}-PRODUCTION-COPY-ONLY-APPLY-MANIFEST.json`))
     ),
+    finding_alias_correction_1: audit.finding_alias_correction_1,
     classification: audit.classification,
   };
   fs.writeFileSync(
@@ -506,6 +616,9 @@ function writeClosureArtifacts(audit) {
 | Full card matches | ${audit.card_coverage.full_card_matches}/${CARD_TOTAL} |
 | Changed production files | 46 |
 | Unresolved alias conflicts | ${audit.post_apply.unresolved_alias_conflicts} |
+| PROVEN_IDENTICAL_ALIAS (finding rows) | ${audit.finding_row_classification_counts?.PROVEN_IDENTICAL_ALIAS ?? "—"} |
+
+Finding alias correction #1: repeated \`primary_leaf_target_key\` rows are no longer classified as alias; only reconciliation-proven dual–owner-card slots qualify.
 
 Read-only audit; production not modified.
 `;
@@ -519,6 +632,7 @@ module.exports = {
   EXPECTED_MAIN_HEAD,
   EXPECTED_PRODUCTION_FILE_SET_SHA,
   FINAL_CLASS,
+  ALIAS_CORRECTION_1_BEFORE_COUNTS,
   runProductionClosureAudit,
   writeClosureArtifacts,
 };
