@@ -423,4 +423,7 @@ module.exports = {
   isPartialPatchBaseline,
   pickFullCardBaseline,
   createGalaCardsByBatchLoader,
+  applyLeafToCard,
+  countDroppedBaselineLeaves,
+  countChangedOverlayLeaves,
 };

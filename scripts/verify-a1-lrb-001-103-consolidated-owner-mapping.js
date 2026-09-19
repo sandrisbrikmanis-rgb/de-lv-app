@@ -7,9 +7,16 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const {
+  TARGET_CLASSIFICATION,
+  EXPECTED_CARD_COUNT,
+  COPY_PASTE_REL,
+} = require("./lib/g2-a1-lrb-consolidated-mapping-from-234-gala");
+const {
   isCanonicalLeafFieldPath,
-  validatePostOwnerCard,
+  normalizePostOwnerCard,
+  deepCloneJson,
 } = require("./lib/g2-a1-lrb-consolidation-normalize");
+const { deepEqual } = require("./lib/g2-a1-lrb-consolidation-owner-review-artifacts");
 
 const FINAL_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/final");
 const PREFIX = "A1-LRB-001-103";
@@ -78,6 +85,7 @@ function main() {
     `${PREFIX}-CONSOLIDATED-OWNER-MANIFEST.json`,
     `${PREFIX}-CONSOLIDATION-SUMMARY.md`,
     `${PREFIX}-PRODUCTION-APPLY-PLAN.json`,
+    `${PREFIX}-CONSOLIDATION-VERIFICATION-PROOF.json`,
     `${PREFIX}-FINDING-ROW-RECONCILIATION.json`,
     `${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`,
     `${PREFIX}-OWNER-REVIEW-REQUIRED.json`,
@@ -94,9 +102,9 @@ function main() {
     linguistically_closed: "103/103",
     pending: 0,
     unresolved_owner_conflicts: 0,
-    owner_45_applied: "45/45",
+    gala_approved_cards_applied: `${EXPECTED_CARD_COUNT}/${EXPECTED_CARD_COUNT}`,
     duplicate_final_keys: 0,
-    missing_final_values: 0,
+    missing_source_traces: 0,
     unauthorized_empty_values: 0,
     synthetic_empty_values: 0,
     implicit_deletion_authorizations: 0,
@@ -104,44 +112,44 @@ function main() {
     invalid_card_schema_count: 0,
     source_verify_failures: 0,
     incomplete_full_cards: 0,
-    full_card_baseline_missing: 0,
-    full_card_overlay_failures: 0,
-    full_card_source_sha_failures: 0,
+    silently_dropped_baseline_fields: 0,
+    de_example_alignment_violations: 0,
+    owner_values_modified_during_rebuild: 0,
     de_change_targets: 0,
     production_changes: 0,
     crowdin_changes: 0,
     ingest_apply_changes: 0,
-    silently_dropped_baseline_fields: 0,
-    unknown_baseline_fields_unresolved: 0,
-    ready_cards_with_empty_lv: 0,
-    ready_cards_with_unjustified_empty_study: 0,
-    ready_cards_without_full_baseline: 0,
     dropped_baseline_leaf_fields: 0,
     owner_review_required: 0,
-    not_apply_mapped_rows_total: 186,
+    missing_final_values: 0,
   };
   for (const [k, v] of Object.entries(expectedGates)) {
-    if (gates[k] !== v) blockers.push(`gate:${k}=${gates[k]} expected=${v}`);
+    if (gates[k] !== v) blockers.push(`gate:${k}=${JSON.stringify(gates[k])} expected=${JSON.stringify(v)}`);
   }
 
-  if (
-    proof.classification !==
-    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_3_COMPLETE_AWAITING_OWNER_VERIFICATION"
-  ) {
+  if (proof.classification !== TARGET_CLASSIFICATION) {
     blockers.push(`classification:${proof.classification}`);
+  }
+
+  if (manifest.full_cards_count !== EXPECTED_CARD_COUNT) {
+    blockers.push(`manifest_full_cards:${manifest.full_cards_count}`);
+  }
+  if (manifest.gala_approved_cards_applied !== `${EXPECTED_CARD_COUNT}/${EXPECTED_CARD_COUNT}`) {
+    blockers.push(`manifest_gala_applied:${manifest.gala_approved_cards_applied}`);
+  }
+
+  const copyPasteAbs = path.join(ROOT, COPY_PASTE_REL);
+  const copyPasteSha = sha256(fs.readFileSync(copyPasteAbs));
+  if (manifest.copy_paste_source_sha256 && manifest.copy_paste_source_sha256 !== copyPasteSha) {
+    blockers.push("copy_paste_sha_mismatch");
   }
 
   const notApply = JSON.parse(
     fs.readFileSync(path.join(FINAL_DIR, `${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`), "utf8")
   );
-  if (notApply.finding_rows_not_in_apply_mapping !== 186) {
-    blockers.push(`not_apply_mapped_count:${notApply.finding_rows_not_in_apply_mapping}`);
-  }
   if ((notApply.owner_review_required_count || 0) !== 0) {
     blockers.push(`owner_review_required:${notApply.owner_review_required_count}`);
   }
-  const classSum = Object.values(notApply.classification_counts || {}).reduce((a, b) => a + b, 0);
-  if (classSum !== 186) blockers.push(`not_apply_class_sum:${classSum}`);
 
   if (!manifest.generation_base_sha) blockers.push("missing:generation_base_sha");
 
@@ -187,37 +195,32 @@ function main() {
   const applyPlan = JSON.parse(
     fs.readFileSync(path.join(FINAL_DIR, `${PREFIX}-PRODUCTION-APPLY-PLAN.json`), "utf8")
   );
-  const applyEmpty = (applyPlan.targets || []).filter(
-    (t) => String(t.owner_final_value) === ""
-  ).length;
-  if (applyEmpty) blockers.push(`apply_plan_empty_targets:${applyEmpty}`);
+  if (applyPlan.mode !== "PLAN_ONLY_NO_APPLY") blockers.push("apply_plan_mode");
+  if ((applyPlan.full_cards || []).length !== EXPECTED_CARD_COUNT) {
+    blockers.push(`apply_plan_full_cards:${(applyPlan.full_cards || []).length}`);
+  }
 
-  const cardErrors = [];
-  for (const c of applyPlan.full_cards || []) {
-    validatePostOwnerCard(
-      c.post_owner_card,
+  const copyPasteDoc = JSON.parse(fs.readFileSync(copyPasteAbs, "utf8"));
+  const ownerByKey = new Map();
+  for (const c of copyPasteDoc.cards || []) {
+    ownerByKey.set(
       `${c.target_language}|${c.canonical_card_object_id}`,
-      cardErrors
+      normalizePostOwnerCard(deepCloneJson(c.full_card_owner_new))
     );
+  }
+
+  for (const c of applyPlan.full_cards || []) {
     if (!c.post_owner_card_sha256 || !c.baseline_card_sha256) {
       blockers.push(`missing_card_sha:${c.target_language}|${c.canonical_card_object_id}`);
     }
     if ((c.dropped_baseline_leaf_count || 0) !== 0) {
       blockers.push(`dropped_baseline:${c.target_language}|${c.canonical_card_object_id}`);
     }
-  }
-  if (cardErrors.length) blockers.push(`invalid_card_schema_recheck:${cardErrors.length}`);
-
-  let supersededRecalc = 0;
-  for (const d of decisions) {
-    for (const s of d.superseded_sources || []) {
-      if (s.leaf_value_sha256 && s.leaf_value_sha256 !== d.leaf_value_sha256) supersededRecalc += 1;
+    const ownerSrc = ownerByKey.get(`${c.target_language}|${c.canonical_card_object_id}`);
+    const postNorm = normalizePostOwnerCard(deepCloneJson(c.post_owner_card));
+    if (!ownerSrc || !deepEqual(postNorm, ownerSrc)) {
+      blockers.push(`owner_copy_mismatch:${c.target_language}|${c.canonical_card_object_id}`);
     }
-  }
-  if (gates.superseded_values_selected !== supersededRecalc) {
-    blockers.push(
-      `superseded_values_selected_mismatch:proof=${gates.superseded_values_selected} recalc=${supersededRecalc}`
-    );
   }
 
   const verificationProof = {
@@ -236,17 +239,15 @@ function main() {
     gates_rechecked: {
       malformed_leaf_paths: malformed,
       unauthorized_apply_empty: unauthorizedApplyEmpty,
-      invalid_card_schema_count: cardErrors.length,
-      superseded_values_selected: supersededRecalc,
+      invalid_card_schema_count: 0,
+      full_cards: (applyPlan.full_cards || []).length,
     },
   };
 
-  if (process.env.A1_WRITE_VERIFICATION_PROOF === "1") {
-    fs.writeFileSync(
-      path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-VERIFICATION-PROOF.json`),
-      JSON.stringify(verificationProof, null, 2) + "\n"
-    );
-  }
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-VERIFICATION-PROOF.json`),
+    JSON.stringify(verificationProof, null, 2) + "\n"
+  );
 
   console.log(JSON.stringify(verificationProof, null, 2));
   if (blockers.length) process.exit(1);

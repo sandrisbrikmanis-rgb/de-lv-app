@@ -1,134 +1,82 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-09-18T16:40:59.849Z",
+  "schema_version": 3,
+  "generated_at": "2026-09-19T11:27:22.705Z",
   "origin_main_sha": "f36014e0d77a9a43740b3ad114ab845a64e11ebf",
-  "generation_base_sha": "a6a8e8d1751aa017980d50fa6f65a626c07d22fd",
+  "generation_base_sha": "5c1195b3a0b389b3fb691bc7d79ea83c509b1b41",
   "owner_45_resolution_sha256": "e99022a7ac75a860f1c901cd77311bb2aa728e82bddad25e1efb2e1aaa7d8839",
+  "copy_paste_source_sha256": "f8bee806aab17b8681b5177bb1bbb32b34c91ecb49a0660f69a66621eb31c2d2",
   "consolidated_decisions": {
     "multipart": true,
     "parts": [
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-001.json",
-        "sha256": "7a4e763f8bfc6d70c49774b873e1a39811d2401a8b3f7cc7087414b85bde7f6b",
-        "byte_length": 3999190,
-        "row_count": 1332
+        "sha256": "68663048df51971cde2b55710661008660c077293b8f4f12ad88db39fcda5ff2",
+        "byte_length": 3995720,
+        "row_count": 596
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-002.json",
-        "sha256": "c35f7e815eae387a4c309261b0b451d4575601bdfa890ba31f5bb0e8887791ac",
-        "byte_length": 3999732,
-        "row_count": 1296
+        "sha256": "a5b45da5ec9074eb62454412161c85be0ee2ddaae409743b44c014046f7e376c",
+        "byte_length": 3997862,
+        "row_count": 406
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-003.json",
-        "sha256": "8b9f39694538aa884a16b9657556b0d5eabba356e867a5843bae3b8a890fd5ab",
-        "byte_length": 3997300,
-        "row_count": 1120
+        "sha256": "300c4f016dbae5636e3fdce7bbc3f2ca74228ca27b44796b7ac04506a7980156",
+        "byte_length": 3997900,
+        "row_count": 506
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-004.json",
-        "sha256": "14e918025d358e96471d5570edfc3febd66e421553fbb959b5eabf8b3925d873",
-        "byte_length": 3997776,
-        "row_count": 1213
+        "sha256": "366b9259e5d6c87d05ec0614567b4b3d2d00c8e23cd676461e48284124e09d11",
+        "byte_length": 3990064,
+        "row_count": 369
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-005.json",
-        "sha256": "649fcc6ca6ca0743498f52a79688a03bb039d017485ddde0da9b45a4f58d5597",
-        "byte_length": 3999942,
-        "row_count": 1435
+        "sha256": "bdcf6b32a0d0054c28eb512ecfe337a3c6ede4d5dcface0f75ec45084b6e0ad1",
+        "byte_length": 3999754,
+        "row_count": 384
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-006.json",
-        "sha256": "a23caba05db5a9b95b03ab8440940847924e7262474e6e26b8d2364ea59dad5b",
-        "byte_length": 3997674,
-        "row_count": 1563
+        "sha256": "41b369b312497c0bb72b66415b0bf1f5fad616dd92ad0a11d4877ed3d7b0e143",
+        "byte_length": 3996590,
+        "row_count": 412
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-007.json",
-        "sha256": "a12a7ee382d580e34bcf7412a99d2ee2185380fc52f9f3cfddcea0273ce4f396",
-        "byte_length": 3997866,
-        "row_count": 2117
+        "sha256": "f1ecb22d806a1c757e9ec7f7fb7cebb91e85266a29ec30126d5489ccfad9847f",
+        "byte_length": 3999112,
+        "row_count": 444
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-008.json",
-        "sha256": "185fe962ff4a6cd0a5e8925f53fc599e3d5da77b211d62942d616c103245ca0a",
-        "byte_length": 3999436,
-        "row_count": 1988
+        "sha256": "58e96422dc8dc802fcb2b94da362f3e23a26e28d08fc70816fd844bd453dc322",
+        "byte_length": 3999850,
+        "row_count": 485
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-009.json",
-        "sha256": "2990a3c7bb77ec068d1c97c71b6921ebbd10281c0c7408d7d0aaff559268cc3e",
-        "byte_length": 3998274,
-        "row_count": 2128
+        "sha256": "2f586a003d62ab2d23fc7de66f15092868ca2eeffdece98ad14c914911c69b20",
+        "byte_length": 3999740,
+        "row_count": 504
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-010.json",
-        "sha256": "883cbec6cc6a149b25d2b7bd8c39d6a6ef4aed145a96c365727bd8c5f3273976",
-        "byte_length": 3999399,
-        "row_count": 2121
+        "sha256": "9f5fcb7c56a260153e59d636580bf2574e6f97082b0e8d7e75e64ccb2d3f73b5",
+        "byte_length": 3993183,
+        "row_count": 402
       },
       {
         "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-011.json",
-        "sha256": "0752ffa23dafbedf097bcb9b15fe40df03dc3130b786338ab6a904d26991140f",
-        "byte_length": 3998781,
-        "row_count": 2119
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-012.json",
-        "sha256": "fb61a76173b6d97cca4e3d9ed5b05c8af07c5f77a41892fb06ce3a7867c2c7aa",
-        "byte_length": 3999633,
-        "row_count": 2110
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-013.json",
-        "sha256": "fdf31bf09c0ead084ec87b56c0d151dd2402cb3ac38e45200a75b05e36650e2a",
-        "byte_length": 3999759,
-        "row_count": 2110
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-014.json",
-        "sha256": "b7507bde30ebe7467159c1cb1ac6ae0d1170cd7213dd895eefcfcaf142a8d7e0",
-        "byte_length": 3998727,
-        "row_count": 2089
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-015.json",
-        "sha256": "a45e49419bfbac97f2466aeb2eceb5f804e9232d313d876dc4a050b8ce75d831",
-        "byte_length": 3998569,
-        "row_count": 2084
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-016.json",
-        "sha256": "973c4bc6894f44684f9362e1404d7213767db8a1721c78366b5c2eea4ff7a912",
-        "byte_length": 3998489,
-        "row_count": 2066
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-017.json",
-        "sha256": "c0c5c61d6bcc77eeba05a95ad3b5071bd3fbb28b69ed11063e0ccbf6d392adf5",
-        "byte_length": 3998155,
-        "row_count": 2042
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-018.json",
-        "sha256": "f9951fb7e67f02afc55f30092908d35039fb0dc8ae47e67c6e93e2c2d9bff09e",
-        "byte_length": 3998697,
-        "row_count": 2040
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-019.json",
-        "sha256": "73299289cb0ce68872adea4eded303d7a323e4820c0b114d9998c65a11d0a980",
-        "byte_length": 3998275,
-        "row_count": 2057
-      },
-      {
-        "path": "reports/g2-a1-owner/consolidation/final/A1-LRB-001-103-CONSOLIDATED-OWNER-DECISIONS.part-020.json",
-        "sha256": "8e756685009acc857de00668819229db896a952af86bbdde3a4d871589f3839b",
-        "byte_length": 619541,
-        "row_count": 315
+        "sha256": "fb8ca9e2ab266acfad7c17d3b39c21c397d999840dd64fc98f4b4a084591aa00",
+        "byte_length": 1901403,
+        "row_count": 279
       }
     ]
   },
-  "full_cards_count": 3734,
-  "leaf_decisions_count": 35345
+  "full_cards_count": 234,
+  "leaf_decisions_count": 4787,
+  "gala_approved_cards_applied": "234/234"
 }

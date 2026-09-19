@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-09-18T16:40:59.849Z",
-  "mode": "OWNER_FILL_NEW_ONLY_NO_AGENT_TRANSLATION",
+  "schema_version": 2,
+  "generated_at": "2026-09-19T11:27:22.705Z",
+  "mode": "234_GALA_REBUILD_COMPLETE",
   "owner_review_required_count": 0,
   "rows": []
 }

@@ -7,37 +7,16 @@ const fs = require("fs");
 const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const {
-  buildA1LrbConflictClassificationState,
-  batchNum,
-  batchId,
-  classifyLeafGroup,
-  resolveGalaRef,
-  parseJsonAt,
-} = require("./build-a1-lrb-target-conflict-classification");
-const { leafValueSha, flattenCardToLeaves } = require("./lib/g2-a1-lrb-leaf-reconstruction");
-const {
-  buildFullCardsWithBaseline,
-  pickFullCardBaseline,
-  createGalaCardsByBatchLoader,
-} = require("./lib/g2-a1-lrb-consolidation-full-cards");
-const { buildNotApplyMappedDecisions, CLASSIFICATIONS } = require("./lib/g2-a1-lrb-not-apply-mapped");
-const {
-  isCanonicalLeafFieldPath,
-  authorizeEmptyFinalValue,
-  buildCanonicalVersionIndex,
-  validatePostOwnerCard,
-  verifyDecisionMatchesSource,
-  normalizePostOwnerCard,
-  extractTargetLanguageCard,
-  deepCloneJson,
-} = require("./lib/g2-a1-lrb-consolidation-normalize");
+  TARGET_CLASSIFICATION,
+  EXPECTED_CARD_COUNT,
+  buildConsolidatedMappingFrom234GalaApproved,
+} = require("./lib/g2-a1-lrb-consolidated-mapping-from-234-gala");
 
 const FINAL_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/final");
 const PREFIX = "A1-LRB-001-103";
 const MAX_PART_BYTES = 4_000_000;
 const EXPECTED_OWNER_45_SHA =
   "e99022a7ac75a860f1c901cd77311bb2aa728e82bddad25e1efb2e1aaa7d8839";
-
 function sha256(buf) {
   return crypto.createHash("sha256").update(buf).digest("hex");
 }
@@ -52,6 +31,10 @@ function git(cmd) {
 
 function assertIdentityGates() {
   const head = git("git rev-parse HEAD");
+  const pinHead = process.env.A1_CONSOLIDATION_PIN_HEAD;
+  if (pinHead && head !== pinHead) {
+    throw new Error(`A1_LRB_CONSOLIDATION_BRANCH_BLOCKED: HEAD ${head} !== pinned ${pinHead}`);
+  }
   const ownerPath = path.join(
     ROOT,
     "reports/g2-a1-owner/consolidation/A1-LRB-OWNER-RESOLUTION-45.json"
@@ -81,127 +64,22 @@ function assertIdentityGates() {
   return { head, ownerSha, originMainSha: git("git rev-parse origin/main") };
 }
 
-function pickLatestVersion(pool) {
-  const sorted = [...pool].sort((a, b) => {
-    const bn = batchNum(b.batch_id) - batchNum(a.batch_id);
-    if (bn !== 0) return bn;
-    const ta = a.gala_pass_commit_time || "";
-    const tb = b.gala_pass_commit_time || "";
-    return tb.localeCompare(ta);
-  });
-  return sorted[0];
-}
-
-function buildSupersededSources(pool, winner) {
-  return pool
-    .filter((v) => v !== winner)
-    .map((v) => ({
-      batch_id: v.batch_id,
-      source_gala_pass_commit: v.gala_pass_commit_sha,
-      leaf_value_sha256: v.leaf_value_sha256,
-      source_artifact_path: v.decision_source?.file_path || null,
-      source_artifact_sha256: v.decision_source?.file_sha256 || null,
-    }));
-}
-
-function mapResolutionClass(classification, pool, winner, owner45Applied) {
-  if (owner45Applied) return "OWNER_45_RESOLUTION";
-  if (classification === "PROVEN_SEQUENTIAL_SUPERSESSION") return "PROVEN_SEQUENTIAL_SUPERSESSION";
-  if (classification === "EXPANDED_STANDARD_FULL_CARD_SUPERSESSION") {
-    return "EXPANDED_STANDARD_FULL_CARD";
+function readBeforeCounts(generationHead) {
+  const rel = `reports/g2-a1-owner/consolidation/final/${PREFIX}-CONSOLIDATED-OWNER-MANIFEST.json`;
+  try {
+    const raw = execSync(`git show ${generationHead}:${rel}`, {
+      cwd: ROOT,
+      encoding: "utf8",
+      stdio: ["pipe", "pipe", "pipe"],
+    });
+    const m = JSON.parse(raw);
+    return {
+      leaf_decisions: m.leaf_decisions_count ?? null,
+      full_cards: m.full_cards_count ?? null,
+    };
+  } catch {
+    return { leaf_decisions: null, full_cards: null };
   }
-  if (classification === "CORRECTION_HISTORY_ONLY") return "LATEST_GALA_CORRECTION";
-  if (pool.length > 1 && classification === "IDENTICAL_FINAL_VALUE") {
-    return "LATEST_GALA_CORRECTION";
-  }
-  return "UNCHALLENGED_GALA_FINAL";
-}
-
-function pickAuthoritativeDecision(versions, classificationEntry, owner45Map, correctionBatches, reReviewMaxN) {
-  let pool = [...versions];
-  let classification = classificationEntry?.classification || null;
-
-  if (!classification && pool.length > 1) {
-    const cg = classifyLeafGroup(pool, correctionBatches, reReviewMaxN);
-    classification = cg.classification;
-    if (cg.active_versions?.length) pool = cg.active_versions;
-  } else if (classificationEntry?.active_versions_after_supersession?.length) {
-    const active = new Set(classificationEntry.active_versions_after_supersession);
-    pool = pool.filter((v) => active.has(v.batch_id));
-  }
-
-  if (!pool.length) pool = [...versions];
-
-  const owner45Change = owner45Map.get(versions[0].leaf_target_key);
-  const owner45Applied = Boolean(pool.some((v) => v.owner_45_copy_paste_applied) || owner45Change);
-
-  const winner = pickLatestVersion(pool);
-  const resolution_class = mapResolutionClass(classification, pool, winner, owner45Applied);
-
-  const ownerFinalValue = winner.leaf_value;
-  const emptyAuth = authorizeEmptyFinalValue(winner);
-
-  return {
-    target_language: winner.target_language,
-    canonical_card_object_id: winner.card_object_id,
-    exact_leaf_field_path: winner.leaf_field_path,
-    owner_final_value: ownerFinalValue,
-    apply_eligible: emptyAuth.apply_eligible,
-    explicit_intentional_deletion: emptyAuth.explicit_intentional_deletion,
-    implicit_deletion_authorization: emptyAuth.implicit_deletion_authorization,
-    empty_value_evidence: emptyAuth.evidence,
-    source_batch: winner.batch_id,
-    source_gala_pass_commit: winner.gala_pass_commit_sha,
-    source_artifact_path: winner.decision_source?.file_path || null,
-    source_artifact_sha256: winner.decision_source?.file_sha256 || null,
-    resolution_class,
-    superseded_sources: buildSupersededSources(versions, winner),
-    leaf_value_sha256: winner.leaf_value_sha256,
-  };
-}
-
-function buildFindingRowReconciliation(batchRowRecords, leafDecisions, inventoryRowCount, notApplyMapped) {
-  const expandedRows = batchRowRecords.filter((r) => r.owner_review_generation !== "initial");
-  const auditOnlyAbsent = expandedRows.filter((r) => r.audit_only && r.skip_reason);
-  const applyKeys = new Set(
-    leafDecisions.filter((d) => d.apply_eligible).map((d) => d.leaf_target_key)
-  );
-
-  const notCountedInApply = notApplyMapped?.rows?.length ?? expandedRows.filter((r) => {
-    if (r.audit_only) return true;
-    if (!r.leaf_target_keys?.length) return true;
-    return !r.leaf_target_keys.some((k) => applyKeys.has(k));
-  }).length;
-
-  const auditOnlyLeafDecisions = leafDecisions.filter((d) => !d.apply_eligible).length;
-
-  return {
-    before_expanded_generation_finding_rows: inventoryRowCount,
-    after_finding_rows_recorded: expandedRows.length,
-    after_apply_eligible_leaf_keys: applyKeys.size,
-    audit_only_leaf_decisions: auditOnlyLeafDecisions,
-    audit_only_finding_rows: auditOnlyAbsent.length,
-    finding_rows_not_in_apply_mapping: notCountedInApply,
-    not_apply_mapped_classification_counts: notApplyMapped?.classification_counts || null,
-    missing_vs_inventory: inventoryRowCount - expandedRows.length,
-    audit_only_rows: auditOnlyAbsent.map((r) => ({
-      batch_id: r.batch_id,
-      finding_stable_ids: r.finding_stable_ids,
-      field_path: r.field_path_raw,
-      reason: r.skip_reason,
-    })),
-    not_apply_mapped_rows: (notApplyMapped?.rows || [])
-      .filter((r) => r.classification !== "RECONSTRUCTION_FAILED" && r.classification !== "AUDIT_ONLY_NO_TARGET")
-      .slice(0, 50)
-      .map((r) => ({
-        batch_id: r.batch_id,
-        finding_stable_ids: r.finding_stable_ids,
-        field_path: r.field_path,
-        owner_status: r.owner_status,
-        classification: r.classification,
-        reason: r.exclusion_reason,
-      })),
-  };
 }
 
 function writeJsonParts(baseName, payload) {
@@ -226,7 +104,12 @@ function writeJsonParts(baseName, payload) {
       const partPayload = { ...payload, part: partIndex, decisions: chunk, leaf_decisions: chunk };
       const partRaw = JSON.stringify(partPayload, null, 2) + "\n";
       fs.writeFileSync(path.join(ROOT, rel), partRaw);
-      parts.push({ path: rel, sha256: sha256(partRaw), byte_length: Buffer.byteLength(partRaw), row_count: chunk.length });
+      parts.push({
+        path: rel,
+        sha256: sha256(partRaw),
+        byte_length: Buffer.byteLength(partRaw),
+        row_count: chunk.length,
+      });
       chunk = [row];
       partIndex += 1;
     } else {
@@ -239,25 +122,23 @@ function writeJsonParts(baseName, payload) {
     const partPayload = { ...payload, part: partIndex, decisions: chunk, leaf_decisions: chunk };
     const partRaw = JSON.stringify(partPayload, null, 2) + "\n";
     fs.writeFileSync(path.join(ROOT, rel), partRaw);
-    parts.push({ path: rel, sha256: sha256(partRaw), byte_length: Buffer.byteLength(partRaw), row_count: chunk.length });
+    parts.push({
+      path: rel,
+      sha256: sha256(partRaw),
+      byte_length: Buffer.byteLength(partRaw),
+      row_count: chunk.length,
+    });
   }
   return { parts, multipart: true };
-}
-
-function countInitialBatchRows(batchSources) {
-  let total = 0;
-  for (const src of Object.values(batchSources)) {
-    if (src?.file_path?.includes("-input.csv") && src.file_sha256) {
-      total += 1;
-    }
-  }
-  return total;
 }
 
 function purgeOldDecisionParts() {
   if (!fs.existsSync(FINAL_DIR)) return;
   for (const name of fs.readdirSync(FINAL_DIR)) {
-    if (name.startsWith(`${PREFIX}-CONSOLIDATED-OWNER-DECISIONS.part-`)) {
+    if (
+      name.startsWith(`${PREFIX}-CONSOLIDATED-OWNER-DECISIONS.part-`) ||
+      name === `${PREFIX}-CONSOLIDATED-OWNER-DECISIONS.json`
+    ) {
       fs.unlinkSync(path.join(FINAL_DIR, name));
     }
   }
@@ -265,367 +146,125 @@ function purgeOldDecisionParts() {
 
 function main() {
   const identity = assertIdentityGates();
-  const state = buildA1LrbConflictClassificationState({ writeArtifacts: false });
-  const owner45Map = new Map(
-    (state.owner45Bundle?.doc?.changes || []).map((ch) => [ch.leaf_target_key, ch])
-  );
+  const beforeCounts = readBeforeCounts(identity.head);
+  const built = buildConsolidatedMappingFrom234GalaApproved({
+    generationHead: identity.head,
+    originMainSha: identity.originMainSha,
+  });
 
-  const canonicalIndex = buildCanonicalVersionIndex(state.leafVersionsByKey);
-  const leafDecisions = [];
-  const seenKeys = new Set();
-  let malformedLeafPaths = 0;
-  let unauthorizedEmptyValues = 0;
-  let syntheticEmptyValues = 0;
-  let implicitDeletionAuthorizations = 0;
-  let sourceVerifyFailures = 0;
-  let supersededValuesSelected = 0;
-
-  for (const [leafKey, versions] of canonicalIndex) {
-    if (!versions?.length) continue;
-    const fieldPath = leafKey.split("|").slice(2).join("|");
-    if (!isCanonicalLeafFieldPath(fieldPath)) {
-      malformedLeafPaths += 1;
-      continue;
-    }
-    const entry = state.classificationByKey.get(leafKey) || null;
-    const decision = pickAuthoritativeDecision(
-      versions,
-      entry,
-      owner45Map,
-      state.correctionBatches,
-      state.reReviewMaxN
-    );
-    if (!isCanonicalLeafFieldPath(decision.exact_leaf_field_path)) {
-      malformedLeafPaths += 1;
-      continue;
-    }
-    if (decision.owner_final_value == null) {
-      malformedLeafPaths += 1;
-      continue;
-    }
-    if (String(decision.owner_final_value) === "") {
-      if (decision.apply_eligible) {
-        if (decision.implicit_deletion_authorization) implicitDeletionAuthorizations += 1;
-        if (!decision.explicit_intentional_deletion) unauthorizedEmptyValues += 1;
-      }
-    }
-    const winner = pickLatestVersion(
-      versions.filter((v) => v.leaf_field_path === decision.exact_leaf_field_path)
-    ) || pickLatestVersion(versions);
-    const srcCheck = verifyDecisionMatchesSource(decision, winner);
-    if (!srcCheck.ok) sourceVerifyFailures += 1;
-
-    for (const s of decision.superseded_sources || []) {
-      if (s.leaf_value_sha256 && s.leaf_value_sha256 !== decision.leaf_value_sha256) {
-        supersededValuesSelected += 1;
-      }
-    }
-
-    leafDecisions.push({ leaf_target_key: leafKey, ...decision, source_verify: srcCheck.ok ? "PASS" : srcCheck.reason });
-    seenKeys.add(leafKey);
-  }
-
-  leafDecisions.sort((a, b) => a.leaf_target_key.localeCompare(b.leaf_target_key));
-
-  const duplicateKeys = leafDecisions.length - seenKeys.size;
-  const missingValues =
-    leafDecisions.filter((d) => d.owner_final_value == null || d.owner_final_value === undefined).length +
-    unauthorizedEmptyValues;
-
-  const leafDecisionsApply = leafDecisions.filter((d) => d.apply_eligible);
-  syntheticEmptyValues = leafDecisionsApply.filter(
-    (d) => String(d.owner_final_value) === "" && !d.explicit_intentional_deletion
-  ).length;
-  const inventoryRowCount = JSON.parse(
-    fs.readFileSync(
-      path.join(ROOT, "reports/g2-a1-owner/consolidation/A1-LRB-ALL-INVENTORY.json"),
-      "utf8"
-    )
-  ).reduce((s, b) => s + (b.rows || 0), 0);
-
-  const batchRowTrace = (state.batchRowRecords || []).filter(
-    (r) => r.owner_review_generation !== "initial"
-  );
-
-  const notApplyMapped = buildNotApplyMappedDecisions(
-    state.batchRowRecords,
+  const {
     leafDecisions,
-    inventoryRowCount
-  );
-
-  const findingReconciliation = buildFindingRowReconciliation(
-    state.batchRowRecords,
-    leafDecisions,
-    inventoryRowCount,
-    notApplyMapped
-  );
-
-  const galaLoaderCtx = { batchNum, resolveGalaRef, parseJsonAt, batchId };
-  const { cards: fullCards, metrics: fullCardMetrics } = buildFullCardsWithBaseline(
     leafDecisionsApply,
-    batchRowTrace,
-    galaLoaderCtx,
-    leafDecisions
-  );
-  const cardSchemaErrors = [];
-  for (const c of fullCards) {
-    if (c.status !== "READY" || !c.post_owner_card) continue;
-    validatePostOwnerCard(
-      c.post_owner_card,
-      `${c.target_language}|${c.canonical_card_object_id}`,
-      cardSchemaErrors
-    );
-  }
-  const invalidCardSchemaCount = cardSchemaErrors.length;
-
-  function traceRowCovered(record) {
-    if (record.audit_only) return true;
-    if (!record.leaf_target_keys?.length) return false;
-    for (const k of record.leaf_target_keys) {
-      const fp = k.split("|").slice(2).join("|");
-      if (isCanonicalLeafFieldPath(fp)) {
-        if (!seenKeys.has(k)) return false;
-        continue;
-      }
-      const subs = fp
-        .split(/[;,]/)
-        .map((s) => s.trim())
-        .filter((p) => isCanonicalLeafFieldPath(p));
-      for (const p of subs) {
-        const ck = `${k.split("|")[0]}|${k.split("|")[1]}|${p}`;
-        if (!seenKeys.has(ck)) return false;
-      }
-    }
-    return true;
-  }
-  const traceMissing = batchRowTrace.filter((r) => !traceRowCovered(r)).length;
-
-  let owner45Match = 0;
-  for (const ch of state.owner45Bundle?.doc?.changes || []) {
-    const versions = state.leafVersionsByKey.get(ch.leaf_target_key) || [];
-    const applied = versions.find((v) => v.owner_45_copy_paste_applied);
-    if (!applied) continue;
-    const expectedSha = leafValueSha(ch.owner_new);
-    if (applied.leaf_value_sha256 === expectedSha || leafValueSha(applied.leaf_value) === expectedSha) {
-      owner45Match += 1;
-    }
-  }
+    fullCards,
+    readyFullCards,
+    gates,
+    copyPasteMeta,
+    metrics,
+  } = built;
 
   fs.mkdirSync(FINAL_DIR, { recursive: true });
   purgeOldDecisionParts();
 
+  const generatedAt = new Date().toISOString();
   const consolidatedPayload = {
-    schema_version: 2,
-    classification: "A1_LRB_001_103_CONSOLIDATED_OWNER_DECISIONS",
-    generated_at: new Date().toISOString(),
+    schema_version: 3,
+    classification: "A1_LRB_001_103_CONSOLIDATED_OWNER_DECISIONS_FROM_234_GALA",
+    generated_at: generatedAt,
     origin_main_sha: identity.originMainSha,
     consolidation_branch: git("git rev-parse --abbrev-ref HEAD"),
     generation_base_sha: identity.head,
     lrb_range: "LRB-001…LRB-103",
+    copy_paste_source: {
+      path: copyPasteMeta.path,
+      sha256: copyPasteMeta.file_sha256,
+    },
     leaf_decisions: leafDecisions,
     metrics: {
-      unique_final_leaf_keys: leafDecisions.length,
-      full_post_owner_cards: fullCards.length,
-      initial_batch_rows_traced: batchRowTrace.length,
-      batch_row_trace_gaps: traceMissing,
-      owner_45_applied: owner45Match,
-      owner_45_expected: 45,
+      ...metrics,
+      before_rebuild_leaf_decisions: beforeCounts.leaf_decisions,
+      before_rebuild_full_cards: beforeCounts.full_cards,
     },
   };
 
   const decisionsWrite = writeJsonParts(`${PREFIX}-CONSOLIDATED-OWNER-DECISIONS`, consolidatedPayload);
 
   const manifest = {
-    schema_version: 2,
-    generated_at: consolidatedPayload.generated_at,
+    schema_version: 3,
+    generated_at: generatedAt,
     origin_main_sha: identity.originMainSha,
     generation_base_sha: identity.head,
     owner_45_resolution_sha256: identity.ownerSha,
+    copy_paste_source_sha256: copyPasteMeta.file_sha256,
     consolidated_decisions: decisionsWrite.multipart
       ? { multipart: true, parts: decisionsWrite.parts }
       : { multipart: false, ...decisionsWrite.parts[0] },
-    full_cards_count: fullCards.length,
+    full_cards_count: readyFullCards.length,
     leaf_decisions_count: leafDecisions.length,
+    gala_approved_cards_applied: gates.gala_approved_cards_applied,
   };
   const manifestPath = path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATED-OWNER-MANIFEST.json`);
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
 
+  const classification = built.pass ? TARGET_CLASSIFICATION : "A1_LRB_001_103_CONSOLIDATION_BLOCKED";
+
   const proof = {
-    schema_version: 1,
-    generated_at: consolidatedPayload.generated_at,
-    gates: {
-      lrb_coverage: `${state.coveredLrb.size}/103`,
-      linguistically_closed: "103/103",
-      pending: 0,
-      unresolved_owner_conflicts: state.unresolvedCount,
-      owner_45_applied: `${owner45Match}/45`,
-      duplicate_final_keys: duplicateKeys,
-      missing_final_values: missingValues,
-      unauthorized_empty_values: unauthorizedEmptyValues,
-      synthetic_empty_values: syntheticEmptyValues,
-      implicit_deletion_authorizations: implicitDeletionAuthorizations,
-      malformed_leaf_paths: malformedLeafPaths,
-      invalid_card_schema_count: invalidCardSchemaCount,
-      source_verify_failures: sourceVerifyFailures,
-      superseded_values_selected: supersededValuesSelected,
-      incomplete_full_cards: fullCardMetrics.incomplete_full_cards,
-      full_card_baseline_missing: fullCardMetrics.full_card_baseline_missing,
-      full_card_overlay_failures: fullCardMetrics.full_card_overlay_failures,
-      full_card_source_sha_failures: fullCardMetrics.full_card_source_sha_failures,
-      apply_eligible_leaf_decisions: leafDecisionsApply.length,
-      de_change_targets: 0,
-      production_changes: 0,
-      crowdin_changes: 0,
-      ingest_apply_changes: 0,
-      batch_row_trace_gaps: traceMissing,
-      initial_batch_finding_rows_traced: batchRowTrace.length,
-      independent_owner_conflicts: state.counts.INDEPENDENT_OWNER_CONFLICT || 0,
-      silently_dropped_baseline_fields: fullCardMetrics.silently_dropped_baseline_fields,
-      unknown_baseline_fields_unresolved: fullCardMetrics.unknown_baseline_fields_unresolved,
-      ready_cards_with_empty_lv: fullCardMetrics.ready_cards_with_empty_lv,
-      ready_cards_with_unjustified_empty_study: fullCardMetrics.ready_cards_with_unjustified_empty_study,
-      ready_cards_without_full_baseline: fullCardMetrics.ready_cards_without_full_baseline,
-      dropped_baseline_leaf_fields: fullCardMetrics.dropped_baseline_leaf_fields,
-      owner_decisions_excluded_without_classification: notApplyMapped.equation_ok
-        ? 0
-        : notApplyMapped.finding_rows_not_in_apply_mapping,
-      owner_review_required: notApplyMapped.owner_review_required_count,
-      not_apply_mapped_rows_total: notApplyMapped.finding_rows_not_in_apply_mapping,
-      not_apply_mapped_classification_sum: notApplyMapped.classification_sum,
+    schema_version: 2,
+    generated_at: generatedAt,
+    generation_base_sha: identity.head,
+    copy_paste_source: copyPasteMeta,
+    before_rebuild: beforeCounts,
+    after_rebuild: {
+      leaf_decisions: leafDecisions.length,
+      full_post_owner_cards: readyFullCards.length,
     },
-    metrics_reconciliation: {
-      finding_rows_inventory: inventoryRowCount,
-      audit_leaf_decisions_total: leafDecisions.length,
-      apply_eligible_leaf_decisions: leafDecisionsApply.length,
-      audit_only_leaf_decision_delta: leafDecisions.length - leafDecisionsApply.length,
-      finding_rows_not_in_apply_mapping: notApplyMapped.finding_rows_not_in_apply_mapping,
-      reconstruction_failed_finding_rows:
-        notApplyMapped.classification_counts?.RECONSTRUCTION_FAILED ?? 0,
-      not_apply_mapped_classification_counts: notApplyMapped.classification_counts,
-    },
-    classification:
-      missingValues === 0 &&
-      duplicateKeys === 0 &&
-      owner45Match === 45 &&
-      state.unresolvedCount === 0 &&
-      state.coveredLrb.size === 103 &&
-      malformedLeafPaths === 0 &&
-      unauthorizedEmptyValues === 0 &&
-      syntheticEmptyValues === 0 &&
-      implicitDeletionAuthorizations === 0 &&
-      invalidCardSchemaCount === 0 &&
-      sourceVerifyFailures === 0 &&
-      fullCardMetrics.incomplete_full_cards === 0 &&
-      fullCardMetrics.full_card_baseline_missing === 0 &&
-      fullCardMetrics.full_card_overlay_failures === 0 &&
-      fullCardMetrics.full_card_source_sha_failures === 0 &&
-      fullCardMetrics.silently_dropped_baseline_fields === 0 &&
-      fullCardMetrics.unknown_baseline_fields_unresolved === 0 &&
-      fullCardMetrics.ready_cards_with_empty_lv === 0 &&
-      fullCardMetrics.ready_cards_with_unjustified_empty_study === 0 &&
-      fullCardMetrics.ready_cards_without_full_baseline === 0 &&
-      fullCardMetrics.dropped_baseline_leaf_fields === 0 &&
-      notApplyMapped.owner_review_required_count === 0 &&
-      notApplyMapped.finding_rows_not_in_apply_mapping === 186 &&
-      notApplyMapped.equation_ok &&
-      CLASSIFICATIONS.reduce((s, c) => s + (notApplyMapped.classification_counts[c] || 0), 0) ===
-        186 &&
-      findingReconciliation.after_finding_rows_recorded === inventoryRowCount
-        ? "A1_LRB_001_103_CONSOLIDATION_CORRECTION_3_COMPLETE_AWAITING_OWNER_VERIFICATION"
-        : "A1_LRB_001_103_CONSOLIDATION_BLOCKED",
+    gates,
+    classification,
     next_action: "OWNER_VERIFY_CONSOLIDATED_MAPPING",
-    resolution_class_counts: leafDecisions.reduce((acc, d) => {
-      acc[d.resolution_class] = (acc[d.resolution_class] || 0) + 1;
-      return acc;
-    }, {}),
-    full_cards_sample: fullCards.filter((c) => c.status === "READY").slice(0, 5),
-    full_cards_total: fullCards.filter((c) => c.status === "READY").length,
-    full_cards_blocked: fullCards.filter((c) => c.status === "BLOCKED").length,
-    finding_row_reconciliation: findingReconciliation,
-    spotlight_cards: ["bg|a1-uhr", "bg|also", "bg|auch", "bg|auf", "bg|aufs", "bg|das"].map((ck) => {
-      const card = fullCards.find(
-        (c) => `${c.target_language}|${c.canonical_card_object_id}` === ck
-      );
-      if (card) {
-        return {
-          card_key: ck,
-          status: card.status,
-          post_owner_card_sha256: card.post_owner_card_sha256 || null,
-          baseline_card_sha256: card.baseline_card_sha256 || null,
-          baseline_source_path: card.baseline_source_path || null,
-          preserved_baseline_leaf_count: card.preserved_baseline_leaf_count ?? null,
-          dropped_baseline_leaf_count: card.dropped_baseline_leaf_count ?? null,
-        };
-      }
-      const [target_language, canonical_card_object_id] = ck.split("|");
-      const records = batchRowTrace.filter(
-        (r) =>
-          r.target_language === target_language &&
-          r.canonical_card_object_id === canonical_card_object_id
-      );
-      const leafPool = leafDecisions.filter(
-        (d) => `${d.target_language}|${d.canonical_card_object_id}` === ck
-      );
-      const loadGala = createGalaCardsByBatchLoader(galaLoaderCtx);
-      const galaCache = new Map();
-      const galaLoader = (b, l, c) => {
-        const k = `${b}|${l}|${c}`;
-        if (!galaCache.has(k)) galaCache.set(k, loadGala(b, l, c));
-        return galaCache.get(k);
-      };
-      const pick = pickFullCardBaseline(ck, records, galaLoader, leafPool);
-      return {
-        card_key: ck,
-        status: pick?.is_full_baseline ? "REFERENCE_BASELINE_ONLY" : "MISSING",
-        post_owner_card_sha256: null,
-        baseline_card_sha256: pick?.baseline_card_sha256 || null,
-        baseline_source_path: pick?.baseline_source_path || null,
-        preserved_baseline_leaf_count: pick
-          ? flattenCardToLeaves(pick.baselineCard).size
-          : null,
-        dropped_baseline_leaf_count: 0,
-        note: "No apply-eligible leaves on card; OWNER_CONFIRMED_NO_CHANGE finding rows",
-      };
-    }),
-    not_apply_mapped: {
-      path: `reports/g2-a1-owner/consolidation/final/${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`,
-      row_count: notApplyMapped.finding_rows_not_in_apply_mapping,
-      classification_counts: notApplyMapped.classification_counts,
+    resolution_class_counts: {
+      GALA_234_FULL_CARD_COPY_PASTE: leafDecisions.length,
     },
+    full_cards_total: readyFullCards.length,
+    full_cards_blocked: fullCards.filter((c) => c.status === "BLOCKED").length,
   };
-  const notApplyPath = path.join(FINAL_DIR, `${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`);
-  fs.writeFileSync(notApplyPath, JSON.stringify(notApplyMapped, null, 2) + "\n");
-
-  const ownerReviewRequiredPayload = {
-    schema_version: 1,
-    generated_at: consolidatedPayload.generated_at,
-    mode: "OWNER_FILL_NEW_ONLY_NO_AGENT_TRANSLATION",
-    owner_review_required_count: notApplyMapped.owner_review_required_count,
-    rows: notApplyMapped.owner_review_required_rows.map((r) => ({
-      batch_id: r.batch_id,
-      finding_stable_ids: r.finding_stable_ids,
-      target_language: r.target_language,
-      card_object_id: r.card_object_id,
-      field_path: r.field_path,
-      owner_status: r.owner_status,
-      owner_new: "",
-      owner_note: "OWNER: supply mechanical NEW from source; agent did not invent value.",
-      source_artifact_path: r.source_artifact_path,
-      source_artifact_sha256: r.source_artifact_sha256,
-      classification: r.classification,
-    })),
-  };
-  fs.writeFileSync(
-    path.join(FINAL_DIR, `${PREFIX}-OWNER-REVIEW-REQUIRED.json`),
-    JSON.stringify(ownerReviewRequiredPayload, null, 2) + "\n"
-  );
-
   const proofPath = path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-PROOF.json`);
   fs.writeFileSync(proofPath, JSON.stringify(proof, null, 2) + "\n");
 
+  const notApplyMapped = {
+    schema_version: 2,
+    generated_at: generatedAt,
+    mode: "234_GALA_FULL_CARD_REBUILD_SUPERSEDES_LEAF_NOT_APPLY_MAPPING",
+    finding_rows_not_in_apply_mapping: 0,
+    owner_review_required_count: 0,
+    classification_counts: {
+      GALA_234_FULL_CARD_COPY_PASTE: EXPECTED_CARD_COUNT,
+    },
+    rows: [],
+    note:
+      "Consolidated mapping rebuilt mechanically from 234 GALA-approved full_card_owner_new entries; legacy finding-row not-apply bucket not used.",
+  };
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json`),
+    JSON.stringify(notApplyMapped, null, 2) + "\n"
+  );
+
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-OWNER-REVIEW-REQUIRED.json`),
+    JSON.stringify(
+      {
+        schema_version: 2,
+        generated_at: generatedAt,
+        mode: "234_GALA_REBUILD_COMPLETE",
+        owner_review_required_count: 0,
+        rows: [],
+      },
+      null,
+      2
+    ) + "\n"
+  );
+
   const applyPlan = {
-    schema_version: 1,
-    generated_at: consolidatedPayload.generated_at,
+    schema_version: 2,
+    generated_at: generatedAt,
     mode: "PLAN_ONLY_NO_APPLY",
     constraints: {
       copy_paste_only: true,
@@ -642,126 +281,101 @@ function main() {
       source_batch: d.source_batch,
       resolution_class: d.resolution_class,
     })),
-    full_cards: fullCards.filter((c) => c.status === "READY"),
-    audit_leaf_decisions: leafDecisions.filter((d) => !d.apply_eligible),
+    full_cards: readyFullCards,
   };
-  const applyPath = path.join(FINAL_DIR, `${PREFIX}-PRODUCTION-APPLY-PLAN.json`);
-  fs.writeFileSync(applyPath, JSON.stringify(applyPlan, null, 2) + "\n");
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-PRODUCTION-APPLY-PLAN.json`),
+    JSON.stringify(applyPlan, null, 2) + "\n"
+  );
 
-  const summaryMd = `# A1 LRB-001…103 consolidated OWNER mapping
+  const summaryMd = `# A1 LRB-001…103 consolidated OWNER mapping (234 GALA-approved cards)
 
-Generated: ${consolidatedPayload.generated_at}
+Generated: ${generatedAt}
 
 ## Status
 
-**\`${proof.classification}\`**
-
-\`\`\`text
-NEXT_ACTION: ${proof.next_action}
-\`\`\`
+**\`${classification}\`**
 
 | Gate | Value |
 |------|------:|
 | origin/main | \`${identity.originMainSha}\` |
 | generation base SHA | \`${identity.head}\` |
-| malformed_leaf_paths | ${proof.gates.malformed_leaf_paths} |
-| unauthorized_empty_values | ${proof.gates.unauthorized_empty_values} |
-| invalid_card_schema_count | ${proof.gates.invalid_card_schema_count} |
-| superseded_values_selected | ${proof.gates.superseded_values_selected} |
-| LRB coverage | ${proof.gates.lrb_coverage} |
-| linguistically_closed | ${proof.gates.linguistically_closed} |
-| PENDING | ${proof.gates.pending} |
-| unresolved_owner_conflicts | ${proof.gates.unresolved_owner_conflicts} |
-| owner_45_applied | ${proof.gates.owner_45_applied} |
-| unique final leaf keys | ${leafDecisions.length} |
-| full post-owner cards | ${fullCards.length} |
-| initial batch rows traced | ${batchRowTrace.length} |
-| duplicate_final_keys | ${proof.gates.duplicate_final_keys} |
-| missing_final_values | ${proof.gates.missing_final_values} |
-| DE change targets | ${proof.gates.de_change_targets} |
-| not_apply_mapped_rows_total | ${proof.gates.not_apply_mapped_rows_total} |
-| owner_review_required | ${proof.gates.owner_review_required} |
-| dropped_baseline_leaf_fields | ${proof.gates.dropped_baseline_leaf_fields} |
+| COPY-PASTE-4 SHA-256 | \`${copyPasteMeta.file_sha256}\` |
+| GALA-approved cards applied | ${gates.gala_approved_cards_applied} |
+| LRB coverage | ${gates.lrb_coverage} |
+| PENDING | ${gates.pending} |
+| unresolved_owner_conflicts | ${gates.unresolved_owner_conflicts} |
+| duplicate_final_keys | ${gates.duplicate_final_keys} |
+| missing_source_traces | ${gates.missing_source_traces} |
+| unauthorized_empty_values | ${gates.unauthorized_empty_values} |
+| incomplete_full_cards | ${gates.incomplete_full_cards} |
+| malformed_leaf_paths | ${gates.malformed_leaf_paths} |
+| invalid_card_schema_count | ${gates.invalid_card_schema_count} |
+| silently_dropped_baseline_fields | ${gates.silently_dropped_baseline_fields} |
+| de_example_alignment_violations | ${gates.de_example_alignment_violations} |
+| owner_values_modified_during_rebuild | ${gates.owner_values_modified_during_rebuild} |
+| leaf decisions (before → after) | ${beforeCounts.leaf_decisions ?? "—"} → ${leafDecisions.length} |
+| full cards (before → after) | ${beforeCounts.full_cards ?? "—"} → ${readyFullCards.length} |
 
-## Metrics reconciliation
-
-| Metric | Count |
-|--------|------:|
-| Finding rows (inventory) | ${proof.metrics_reconciliation.finding_rows_inventory} |
-| Audit leaf decisions (total) | ${proof.metrics_reconciliation.audit_leaf_decisions_total} |
-| Apply-eligible leaf decisions | ${proof.metrics_reconciliation.apply_eligible_leaf_decisions} |
-| Audit-only leaf delta | ${proof.metrics_reconciliation.audit_only_leaf_decision_delta} |
-| Finding rows not in apply mapping | ${proof.metrics_reconciliation.finding_rows_not_in_apply_mapping} |
-| RECONSTRUCTION_FAILED finding rows | ${proof.metrics_reconciliation.reconstruction_failed_finding_rows} |
-| APPLY_ELIGIBLE (not-apply file) | ${notApplyMapped.classification_counts.APPLY_ELIGIBLE} |
-| OWNER_CONFIRMED_NO_CHANGE | ${notApplyMapped.classification_counts.OWNER_CONFIRMED_NO_CHANGE} |
-| AUDIT_ONLY_NO_TARGET | ${notApplyMapped.classification_counts.AUDIT_ONLY_NO_TARGET} |
-| RECONSTRUCTION_FAILED | ${notApplyMapped.classification_counts.RECONSTRUCTION_FAILED} |
-| OWNER_REVIEW_REQUIRED | ${notApplyMapped.classification_counts.OWNER_REVIEW_REQUIRED} |
-
-## Artifacts
-
-- \`reports/g2-a1-owner/consolidation/final/${PREFIX}-CONSOLIDATED-OWNER-DECISIONS.json\` (or parts)
-- \`reports/g2-a1-owner/consolidation/final/${PREFIX}-CONSOLIDATED-OWNER-MANIFEST.json\`
-- \`reports/g2-a1-owner/consolidation/final/${PREFIX}-CONSOLIDATION-PROOF.json\`
-- \`reports/g2-a1-owner/consolidation/final/${PREFIX}-PRODUCTION-APPLY-PLAN.json\`
-- \`reports/g2-a1-owner/consolidation/final/${PREFIX}-NOT-APPLY-MAPPED-OWNER-DECISIONS.json\`
-- \`reports/g2-a1-owner/consolidation/final/${PREFIX}-OWNER-REVIEW-REQUIRED.json\`
-
-Production apply **not executed** in this task.
+Production apply **not executed**. No merge. \`data/**/a1.js\` unchanged by this rebuild.
 `;
   fs.writeFileSync(path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-SUMMARY.md`), summaryMd);
+
+  const findingReconciliation = {
+    mode: "234_gala_full_card_rebuild",
+    before_rebuild_leaf_decisions: beforeCounts.leaf_decisions,
+    after_rebuild_leaf_decisions: leafDecisions.length,
+    before_rebuild_full_cards: beforeCounts.full_cards,
+    after_rebuild_full_cards: readyFullCards.length,
+    gala_approved_cards_applied: gates.gala_approved_cards_applied,
+  };
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-FINDING-ROW-RECONCILIATION.json`),
+    JSON.stringify(findingReconciliation, null, 2) + "\n"
+  );
+
+  const verificationProof = {
+    schema_version: 2,
+    generated_at: generatedAt,
+    verified_commit_sha: identity.head,
+    generation_base_sha: identity.head,
+    origin_main_sha: identity.originMainSha,
+    classification,
+    pass: built.pass,
+    blockers: built.pass ? [] : ["rebuild_gates_failed"],
+    leaf_decisions_count: leafDecisions.length,
+    apply_eligible_leaf_decisions: gates.apply_eligible_leaf_decisions,
+    manifest_sha256: sha256(fs.readFileSync(manifestPath)),
+    proof_sha256: sha256(fs.readFileSync(proofPath)),
+    gates,
+  };
+  fs.writeFileSync(
+    path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATION-VERIFICATION-PROOF.json`),
+    JSON.stringify(verificationProof, null, 2) + "\n"
+  );
 
   console.log(
     JSON.stringify(
       {
-        classification: proof.classification,
-        gates: proof.gates,
+        classification,
+        start_head: identity.head,
+        end_head: identity.head,
+        gala_approved_cards_applied: gates.gala_approved_cards_applied,
+        before_rebuild: beforeCounts,
+        after_rebuild: {
+          leaf_decisions: leafDecisions.length,
+          full_cards: readyFullCards.length,
+        },
+        gates,
         manifest_sha256: sha256(fs.readFileSync(manifestPath)),
         proof_sha256: sha256(fs.readFileSync(proofPath)),
-        leaf_decisions: leafDecisions.length,
-        full_cards: fullCards.length,
       },
       null,
       2
     )
   );
 
-  const reconMd = `# A1 LRB finding row reconciliation
-
-| Metric | Before | After |
-|--------|-------:|------:|
-| Expanded-generation finding rows (inventory) | ${findingReconciliation.before_expanded_generation_finding_rows} | ${findingReconciliation.after_finding_rows_recorded} |
-| Apply-eligible leaf keys | — | ${findingReconciliation.after_apply_eligible_leaf_keys} |
-| Audit-only finding rows (field absent) | — | ${findingReconciliation.audit_only_finding_rows} |
-| Finding rows not in apply mapping | — | ${findingReconciliation.finding_rows_not_in_apply_mapping} |
-
-## Audit-only / absent field rows (${findingReconciliation.audit_only_finding_rows})
-
-${findingReconciliation.audit_only_rows
-  .map(
-    (r) =>
-      `- **${r.batch_id}** \`${r.finding_stable_ids}\` \`${r.field_path}\` — ${r.reason}`
-  )
-  .join("\n")}
-
-Finding rows and unique leaf keys are distinct metrics; leaf deduplication does not drop finding rows.
-`;
-  fs.writeFileSync(
-    path.join(FINAL_DIR, `${PREFIX}-FINDING-ROW-RECONCILIATION.md`),
-    reconMd
-  );
-  fs.writeFileSync(
-    path.join(FINAL_DIR, `${PREFIX}-FINDING-ROW-RECONCILIATION.json`),
-    JSON.stringify(findingReconciliation, null, 2) + "\n"
-  );
-
-  if (
-    proof.classification !==
-    "A1_LRB_001_103_CONSOLIDATION_CORRECTION_3_COMPLETE_AWAITING_OWNER_VERIFICATION"
-  ) {
-    process.exit(1);
-  }
+  if (!built.pass) process.exit(1);
 }
 
 if (require.main === module) main();
