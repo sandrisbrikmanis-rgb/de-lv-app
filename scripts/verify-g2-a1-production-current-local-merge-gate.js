@@ -19,6 +19,7 @@ const COMMANDS = [
   "npm run audit:g2-a1:production-current:preflight",
   "npm run audit:g2-a1:production-current:inventory",
   "npm run audit:g2-a1:production-current:dry-run",
+  "npm run test:g2-a1-production-current-owner-authorization-runtime",
 ];
 
 function runStep(cmd) {
