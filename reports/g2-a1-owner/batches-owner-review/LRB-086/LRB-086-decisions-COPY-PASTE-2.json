@@ -1,0 +1,95 @@
+{
+  "batch_id": "LRB-086",
+  "reviewed_commit": "9e0eb0586143f143e911cba3082e71cf05b76173",
+  "owner_verdict": "FAIL_REQUIRES_COPY_PASTE_CORRECTION_2",
+  "apply_mode": "EXACT_COPY_PASTE_ONLY_NO_NEW_LINGUISTIC_ANALYSIS",
+  "findings": [
+    {
+      "type": "AUDIT_ID_PREFIX_DRIFT",
+      "scope": "50/50 cards in 5 artifacts",
+      "current": "LRB087-0001 … LRB087-0050",
+      "replacement": "LRB086-0001 … LRB086-0050",
+      "expected_replacements": 250,
+      "files": [
+        "reports/g2-a1-owner/batches-owner-review/LRB-086/LRB-086-gala-cards.json",
+        "reports/g2-a1-owner/batches-owner-review/LRB-086/LRB-086-owner-approved-overrides.json",
+        "reports/g2-a1-owner/batches-owner-review/LRB-086/LRB-086-owner-view.md",
+        "reports/g2-a1-owner/batches-owner-review/LRB-086/LRB-086-owner-decisions.md",
+        "reports/g2-a1-owner/batches-owner-review/LRB-086/LRB-086-owner-corrections.md"
+      ]
+    },
+    {
+      "type": "DUPLICATE_HEADWORD_MEANING",
+      "row_number": 2,
+      "card_id": "aus|idx:57",
+      "replacements": [
+        {
+          "path": "approved_card.lv",
+          "current": "Из • Изнутри",
+          "new": "Из"
+        },
+        {
+          "path": "approved_card.study.translation",
+          "current": "Из • Изнутри",
+          "new": "Из"
+        }
+      ]
+    },
+    {
+      "type": "WORD_CLASS_ALIGNMENT",
+      "row_number": 29,
+      "card_id": "halb|idx:262",
+      "replacements": [
+        {
+          "path": "approved_card.lv",
+          "current": "Половина",
+          "new": "Половинный • Наполовину"
+        }
+      ]
+    }
+  ],
+  "apply_instructions": [
+    "Vispirms precīzi atjaunot LRB-086-decisions-COPY-PASTE.json ar abām content replacements.",
+    "No atjaunotā spec precīzi reģenerēt visus LRB-086 OWNER artefaktus; nepārfrāzēt citas vērtības.",
+    "Visos piecos norādītajos artefaktos aizstāt tikai auditId prefiksu LRB087- ar LRB086-, saglabājot numurus 0001…0050.",
+    "Atjaunot overrides SHA-256 visos tā patērētājos.",
+    "Nemainīt source identity, DE piemērus, comparison DE puses, production, Crowdin, ingest/apply, skriptus vai citus batch.",
+    "Neveikt Luna vai citu jaunu lingvistisku analīzi."
+  ],
+  "required_after_apply": {
+    "ROWS": "50/50",
+    "RU": 50,
+    "LABOT": 50,
+    "NELABOT": 0,
+    "PENDING": 0,
+    "UNIQUE_TARGET_CARDS": 50,
+    "FULL_STUDY_CARDS": 37,
+    "AUDIT_ID_ALIGNMENT": "50/50",
+    "AUDIT_ID_PREFIX_DRIFT": 0,
+    "DE_EXAMPLE_INDEX_ALIGNMENT": "160/160",
+    "COMPARISON_ALIGNMENT": "73/73",
+    "OWNER_NEW_DRIFT": 0,
+    "APPROVED_COMPOSITE_DRIFT": 0,
+    "SOURCE_ROW_IDENTITY_ALIGNMENT": "50/50",
+    "WRONG_LANGUAGE_RESIDUE": 0,
+    "DUPLICATE_MEANINGS": 0,
+    "WORD_CLASS_ISSUES": 0,
+    "SEMANTIC_ALIGNMENT_VIOLATIONS": 0,
+    "EXTRA_MEANING_NOT_IN_SOURCE": 0,
+    "SEMANTIC_NARROWING_FROM_SOURCE": 0,
+    "DE_TARGET_ALIGNMENT_VIOLATIONS": 0,
+    "DEGENERATE_EXAMPLE_PAIRS": 0,
+    "INTERNAL_CARD_CONTRADICTIONS": 0,
+    "FULL_COMPOSITE_COMPLETENESS": "PASS",
+    "ANTI_BULK": "PASS",
+    "NEW_LUNA_CALLS": 0,
+    "PRODUCTION_CHANGES": 0,
+    "DE_CHANGES": 0,
+    "CROWDIN_CHANGES": 0,
+    "INGEST_APPLY": 0,
+    "SCRIPT_CHANGES": 0,
+    "pass": true
+  },
+  "final_status": "GALA PASS NOT CLAIMED; return for independent OWNER verification."
+}
+
