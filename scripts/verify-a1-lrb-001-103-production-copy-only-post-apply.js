@@ -11,9 +11,12 @@ const {
 } = require("./lib/g2-a1-lrb-production-copy-only-post-apply");
 
 const PREFIX = "A1-LRB-001-103";
+const RECONCILIATION_PR_HEAD = "687495db5bd4fdc7dff3e342b5fff9fd7151f9ac";
 
 function main() {
-  const verification = runPostApplyVerification();
+  const verification = runPostApplyVerification({
+    reconciliationPrHead: RECONCILIATION_PR_HEAD,
+  });
   const liveSummaryPath = path.join(
     ROOT,
     "reports/g2-a1-owner/consolidation/production-apply",
@@ -25,13 +28,21 @@ function main() {
   }
   writePostApplyArtifacts(verification, { exit_code: verification.pass ? 0 : 1, ...liveApplySummary });
 
-  const outPath = path.join(APPLY_DIR, `${PREFIX}-PRODUCTION-COPY-ONLY-POST-APPLY-VERIFICATION.json`);
   const publicOut = {
     pass: verification.pass,
     blockers: verification.blockers,
-    applied_cards: `${verification.applied_cards}/${verification.total_cards}`,
+    owner_keys_covered: `${verification.owner_keys_covered}/${verification.owner_keys_total}`,
+    unique_production_slots: verification.unique_production_slots,
+    changed_unique_production_cards: verification.changed_unique_production_cards,
+    proven_alias_groups: verification.proven_alias_groups,
+    alias_collapsed_owner_keys: verification.alias_collapsed_owner_keys,
+    unresolved_alias_conflicts: verification.unresolved_alias_conflicts,
     owner_leaf_matches: `${verification.owner_leaf_matches}/${verification.owner_leaf_total}`,
+    owner_leaf_trace_rows: verification.owner_leaf_trace_rows,
+    unique_production_leaf_targets: verification.unique_production_leaf_targets,
+    collapsed_duplicate_leaf_trace_rows: verification.collapsed_duplicate_leaf_trace_rows,
     changed_production_files: verification.changed_production_files,
+    production_files_changed_vs_pr_head: verification.production_files_changed_vs_pr_head,
     changed_non_target_cards: verification.changed_non_target_cards,
     data_www_mirror_mismatches: verification.data_www_mirror_mismatches,
     de_changes: verification.de_changes,

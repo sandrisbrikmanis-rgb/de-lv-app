@@ -19,10 +19,16 @@
   "production_files_changed": 46,
   "production_file_set_sha256_before": "ccd237adb9e2b9812901589c328d7ddd0225aca81fe1b986d13d9f2e4c510c56",
   "production_file_set_sha256_after": "0a14ddc3a066cfe47bafb5e9b762d96ca66aca81ad77d7e20a5218dd234d543e",
-  "applied_cards": 234,
-  "owner_leaf_matches": 4787,
+  "owner_keys_covered": "234/234",
+  "unique_production_slots": 233,
+  "changed_unique_production_cards": 233,
+  "proven_alias_groups": 1,
+  "alias_collapsed_owner_keys": 1,
+  "unresolved_alias_conflicts": 0,
+  "owner_leaf_matches": "4787/4787",
   "changed_production_files": 46,
   "changed_non_target_cards": 0,
   "de_changes": 0,
-  "pass": true
+  "pass": true,
+  "classification": "A1_LRB_001_103_PRODUCTION_APPLY_TARGET_ALIAS_RECONCILIATION_COMPLETE_AWAITING_OWNER_REVERIFICATION"
 }
