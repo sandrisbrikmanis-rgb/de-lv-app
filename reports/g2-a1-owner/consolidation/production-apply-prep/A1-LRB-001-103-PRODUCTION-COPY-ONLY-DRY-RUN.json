@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:04:25.166Z",
+  "mode": "DRY_RUN",
+  "origin_main_sha": "639440d63654bf0f10d7677fd74ce595eb9396cf",
+  "prep_branch_head_sha": "639440d63654bf0f10d7677fd74ce595eb9396cf",
+  "production_files_changed": 0,
+  "de_files_changed": 0,
+  "crowdin_files_changed": 0,
+  "ingest_apply_changes": 0,
+  "production_file_set_sha256_before": "ccd237adb9e2b9812901589c328d7ddd0225aca81fe1b986d13d9f2e4c510c56",
+  "production_file_set_sha256_after": "ccd237adb9e2b9812901589c328d7ddd0225aca81fe1b986d13d9f2e4c510c56",
+  "in_memory_data_files_changed": 22,
+  "simulated_full_cards_applied": 149,
+  "simulated_leaf_writes": 149,
+  "skipped_cards": 85,
+  "pass": true
+}

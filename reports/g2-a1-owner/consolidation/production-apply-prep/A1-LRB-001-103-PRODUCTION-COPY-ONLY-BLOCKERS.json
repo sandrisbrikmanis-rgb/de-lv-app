@@ -1,0 +1,2465 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:04:23.226Z",
+  "blocked_count": 409,
+  "blocked_by_classification": {
+    "BLOCKED_SCHEMA_MISMATCH": 117,
+    "BLOCKED_CURRENT_DRIFT": 292
+  },
+  "rows": [
+    {
+      "leaf_target_key": "bg|das|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/bg/a1.js"
+    },
+    {
+      "leaf_target_key": "en|ab|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/en/a1.js"
+    },
+    {
+      "leaf_target_key": "en|aber|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/en/a1.js"
+    },
+    {
+      "leaf_target_key": "en|an|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/en/a1.js"
+    },
+    {
+      "leaf_target_key": "es|dass|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/es/a1.js"
+    },
+    {
+      "leaf_target_key": "es|dass|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/es/a1.js"
+    },
+    {
+      "leaf_target_key": "es|dass|study.explanation[2]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/es/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-ab|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-aber|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-also|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuch|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-besuchen|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[3].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[3].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[3].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[4].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[4].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.comparison[4].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.examples[4].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-fahren|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[3].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[3].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.comparison[3].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-nehmen|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[3].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[3].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.comparison[3].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-passen|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[3].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[3].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.comparison[3].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|a1-sich|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "fi|Bitte|study.tip.text",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_object",
+      "production_file": "data/fi/a1.js"
+    },
+    {
+      "leaf_target_key": "hu|ab|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/hu/a1.js"
+    },
+    {
+      "leaf_target_key": "hu|aber|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/hu/a1.js"
+    },
+    {
+      "leaf_target_key": "lb|fahren|study.important[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/lb/a1.js"
+    },
+    {
+      "leaf_target_key": "lb|fahren|study.important[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/lb/a1.js"
+    },
+    {
+      "leaf_target_key": "lb|fernsehen|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/lb/a1.js"
+    },
+    {
+      "leaf_target_key": "lb|fernsehen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/lb/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.examples[4].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.examples[5].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.examples[6].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.tip[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.tip[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-neu|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[3].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[3].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.comparison[3].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.tip.text",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-verstehen|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[0].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[0].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[0].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[1].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[1].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[1].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[2].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[2].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[2].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[3].example",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[3].meaning",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.comparison[3].word",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.examples[4].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.examples[5].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.important[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.tip[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.tip[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "nn|a1-wie|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/nn/a1.js"
+    },
+    {
+      "leaf_target_key": "pt|bitte|study.tip.text",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_object",
+      "production_file": "data/pt/a1.js"
+    },
+    {
+      "leaf_target_key": "pt|Bitte|study.tip.text",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_object",
+      "production_file": "data/pt/a1.js"
+    },
+    {
+      "leaf_target_key": "pt|euch|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/pt/a1.js"
+    },
+    {
+      "leaf_target_key": "pt|euch|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/pt/a1.js"
+    },
+    {
+      "leaf_target_key": "pt|fahren|study.important[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/pt/a1.js"
+    },
+    {
+      "leaf_target_key": "pt|fahren|study.important[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/pt/a1.js"
+    },
+    {
+      "leaf_target_key": "pt|fahren|study.important[2]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/pt/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.examples[0].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.examples[1].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.examples[2].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.examples[3].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.examples[4].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.examples[5].lv",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.explanation[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.explanation[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.explanation[2]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.explanation[3]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.important[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.important[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.tip[0]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.tip[1]",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|a1-wie|study.translation",
+      "prep_classification": "BLOCKED_CURRENT_DRIFT",
+      "block_reason": "production_card_sha_differs_from_consolidation_baseline",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|aber|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sk|Liter|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sk/a1.js"
+    },
+    {
+      "leaf_target_key": "sl|ab|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sl/a1.js"
+    },
+    {
+      "leaf_target_key": "sl|aber|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sl/a1.js"
+    },
+    {
+      "leaf_target_key": "sl|an|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sl/a1.js"
+    },
+    {
+      "leaf_target_key": "sl|bei|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sl/a1.js"
+    },
+    {
+      "leaf_target_key": "sl|das|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sl/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|also|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|auf|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|auf|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|aus|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|aus|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|dass|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|dass|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|der|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|der|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|die|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|die|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|oder|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|schwimmen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|sehen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|sein|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|sich|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|sitzen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|sollen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|vor|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sr|wenn|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sr/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|ab|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|ab|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|aber|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|aber|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|an|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|an|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|baden|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|bei|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|bei|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|Besuch|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|besuchen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|das|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|das|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|dass|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|dass|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|der|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|der|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|die|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|die|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|dieser|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|dieser|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|erst|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|fernsehen|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|fernsehen|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|fernsehen|study.important[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|fernsehen|study.important[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|fernsehen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|lassen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|laufen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|legen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|stehen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|über|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|um|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|unter|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|verstehen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|vor|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "sv|wenn|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/sv/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|besuchen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|das|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|das|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|das|study.explanation[2]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|das|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|dass|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|dass|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|dass|study.explanation[2]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|dass|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|der|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|der|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|der|study.explanation[2]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|der|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|die|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|die|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|die|study.explanation[2]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|die|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|dieser|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|dieser|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|dieser|study.explanation[2]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|dieser|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|ein|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|Eis|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|erst|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|es|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|fernsehen|study.explanation[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|fernsehen|study.explanation[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|fernsehen|study.explanation[2]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|fernsehen|study.important[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|fernsehen|study.important[1]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|fernsehen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    },
+    {
+      "leaf_target_key": "tr|sollen|study.tip[0]",
+      "prep_classification": "BLOCKED_SCHEMA_MISMATCH",
+      "block_reason": "expected_array",
+      "production_file": "data/tr/a1.js"
+    }
+  ]
+}
