@@ -2,8 +2,7 @@
 "use strict";
 
 const { splitObjectsIntoBatches } = require("../phase1-luna-checkpoint/batch-split");
-const { LUNA_BATCH_LIMITS } = require("../luna-phase1-core");
-const { AUDIT_LANGUAGES } = require("./constants");
+const { AUDIT_LANGUAGES, G2_A1_BATCH_LIMITS } = require("./constants");
 const {
   loadG2ProductionObjects,
   splitObjectsByCardType,
@@ -38,13 +37,8 @@ function buildBatchManifest() {
   return {
     pass: oversizeBatch === 0 && splitCardViolations === 0,
     BATCH_LIMIT_CHANGES: 0,
-    limits: LUNA_BATCH_LIMITS,
-    g2A1Limits: {
-      ordinary: 25,
-      minimalStudy: 10,
-      standardStudy: 5,
-      comparisonStudyUsesStandardStudyLimit: 5,
-    },
+    limits: G2_A1_BATCH_LIMITS,
+    g2A1Limits: G2_A1_BATCH_LIMITS,
     totalBatches,
     oversizeBatch,
     splitCardViolations,

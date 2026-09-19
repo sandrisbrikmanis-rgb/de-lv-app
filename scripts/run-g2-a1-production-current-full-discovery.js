@@ -8,7 +8,7 @@
 const { runPreflight } = require("./lib/g2-a1-production-current/preflight");
 const { buildProductionFileSetInventory } = require("./lib/g2-a1-production-current/inventory");
 const { runDryRun } = require("./lib/g2-a1-production-current/dry-run");
-const { authorizeFullProductionCurrentAudit } = require("./lib/g2-a1-production-current/authorize-full-run");
+const { runFullDiscoveryAudit } = require("./lib/g2-a1-production-current/full-discovery-executor");
 const { writeJsonAtomic } = require("./lib/g2-a1-production-current/artifacts");
 const { AI_AUDIT_ROLE, AI_NOT_LANGUAGE_AUTHORITY } = require("./lib/g2-a1-production-current/constants");
 
@@ -18,6 +18,7 @@ function parseArgs(argv) {
     inventory: false,
     dryRun: false,
     full: false,
+    withLuna: false,
     help: false,
     baseRef: "origin/main",
     ownerAuthorizeFullAudit: false,
@@ -31,6 +32,7 @@ function parseArgs(argv) {
     else if (arg === "--inventory") args.inventory = true;
     else if (arg === "--dry-run") args.dryRun = true;
     else if (arg === "--full") args.full = true;
+    else if (arg === "--with-luna") args.withLuna = true;
     else if (arg === "--base-ref") args.baseRef = argv[++i];
     else if (arg === "--owner-authorize-full-audit") args.ownerAuthorizeFullAudit = true;
     else if (arg === "--expected-main-sha") args.expectedMainSha = argv[++i];
@@ -49,16 +51,19 @@ function printHelp() {
 Modes (production CURRENT from data/** only):
   --preflight   MASTER + embedded registry + 64-file inventory gates
   --inventory   Write production file-set inventory JSON
-  --dry-run     Preflight + technical inventory rows (no Luna / no AUDIT_VERDICT)
-  --full        OWNER-gated entry (does not run Luna in pipeline-completion task)
+  --dry-run     Preflight + technical inventory rows (no AUDIT_VERDICT)
+  --full        OWNER-gated FULL LINGUISTIC DISCOVERY (executor; add --with-luna to run Luna pass)
 
 Crowdin staging discovery remains:
   npm run phase3:g2-a1:discovery   # CROWDIN_STAGING_DISCOVERY
 
-Full mode requires (APVIENOTS authorized entry):
+Full mode requires:
   --owner-authorize-full-audit
   --expected-main-sha=<full origin/main SHA>
   --expected-production-file-set-sha=<64-file set SHA>
+
+Optional:
+  --with-luna     Execute Luna linguistic pass (requires OPENAI_API_KEY; not used in executor-only CI tests)
 
 AI role (APVIENOTS §15): ${AI_AUDIT_ROLE}; AI is NOT ${AI_NOT_LANGUAGE_AUTHORITY}.
 
@@ -72,7 +77,7 @@ function emitGateJson(label, payload) {
   console.log(JSON.stringify({ gate: label, ...payload }, null, 2));
 }
 
-function main() {
+async function main() {
   const args = parseArgs(process.argv);
   if (args.help) {
     printHelp();
@@ -131,25 +136,30 @@ function main() {
   }
 
   if (args.full) {
-    const auth = authorizeFullProductionCurrentAudit({
+    const result = await runFullDiscoveryAudit({
       ownerAuthorizeFullAudit: args.ownerAuthorizeFullAudit,
       expectedMainSha: args.expectedMainSha,
       expectedProductionFileSetSha: args.expectedProductionFileSetSha,
       baseRef: args.baseRef,
+      executeLuna: args.withLuna,
+      writeArtifacts: args.withLuna,
     });
-    const payload = {
-      pass: false,
-      phase: "full",
-      authorization: auth,
-      linguisticAuditsExecuted: 0,
-      message:
-        "Full linguistic discovery audit (Luna/LLM) is not executed in PR_836_MASTER_V1_18_PIPELINE_COMPLETION. " +
-        "Authorization gates only.",
-    };
-    writeJsonAtomic("full-blocked.json", payload);
-    emitGateJson("full", payload);
-    process.exit(auth.pass ? 3 : 2);
+    writeJsonAtomic("full-discovery-result.json", {
+      pass: result.pass,
+      phase: result.phase,
+      linguisticAuditsExecuted: result.linguisticAuditsExecuted || 0,
+      metadata: result.metadata || null,
+      blockers: result.blockers || [],
+      coverage: result.coverage || null,
+      postRun: result.postRun || null,
+    });
+    emitGateJson("full", result);
+    if (!result.pass) process.exit(2);
+    process.exit(result.phase === "full-discovery-ready" ? 0 : result.linguisticAuditsExecuted ? 0 : 3);
   }
 }
 
-main();
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

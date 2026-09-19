@@ -30,7 +30,18 @@ const FORBIDDEN_AUDIT_VERDICTS = Object.freeze([
   "PENDING",
   "FALSE_POSITIVE",
   "AUDIT_PASS",
+  "PENDING_HUMAN_REVIEW",
 ]);
+
+const G2_A1_BATCH_LIMITS = Object.freeze({
+  ordinary: 25,
+  minimalStudy: 10,
+  standardStudy: 5,
+  comparisonStudyUsesStandardStudyLimit: 5,
+});
+
+const AUDIT_MODE_FULL_DISCOVERY = "FULL_DISCOVERY";
+const SCOPE_LABEL = "G2/A1 production-current 32 languages";
 
 /** §13 — skaita kā AUDIT_PASS, nav atsevišķs lingvistiskais verdikts */
 const AUDIT_PASS_LABEL = "AUDIT_PASS";
@@ -122,4 +133,7 @@ module.exports = {
   AUDIT_SOURCE,
   FORBIDDEN_CURRENT_SOURCES,
   CSV_MAX_BYTES,
+  G2_A1_BATCH_LIMITS,
+  AUDIT_MODE_FULL_DISCOVERY,
+  SCOPE_LABEL,
 };

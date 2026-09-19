@@ -38,7 +38,8 @@
       "NELABOT",
       "PENDING",
       "FALSE_POSITIVE",
-      "AUDIT_PASS"
+      "AUDIT_PASS",
+      "PENDING_HUMAN_REVIEW"
     ],
     "linguisticVerdictsGenerated": 0,
     "equation": "TOTAL_CHECKED = AUDIT_PASS + FINDING + NEEDS_SOURCE_REVIEW + SOURCE_DE_ISSUE (not evaluated in dry-run)"
