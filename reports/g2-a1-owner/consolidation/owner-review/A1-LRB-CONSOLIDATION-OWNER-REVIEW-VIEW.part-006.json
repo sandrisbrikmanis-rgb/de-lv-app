@@ -15,6 +15,7 @@
   "gala_correction_1_cards_141_160": true,
   "gala_correction_1_cards_161_180": true,
   "gala_correction_1_cards_181_200": true,
+  "gala_correction_1_cards_201_220": true,
   "cards": [
     {
       "target_language": "sv",
@@ -1143,7 +1144,7 @@
             },
             {
               "de": "Der Film läuft schon.",
-              "lv": "Filmen har redan börjat."
+              "lv": "Filmen är redan igång."
             },
             {
               "de": "Die Maschine läuft gut.",
@@ -1506,7 +1507,7 @@
             },
             {
               "de": "Das ist sehr laut.",
-              "lv": "Det är mycket högt."
+              "lv": "Det är mycket högljutt."
             },
             {
               "de": "Der Laut ist schön.",
@@ -1854,7 +1855,7 @@
             },
             {
               "de": "Das ist sehr laut.",
-              "lv": "Det är mycket högt."
+              "lv": "Det är mycket högljutt."
             },
             {
               "de": "Der Laut ist schön.",

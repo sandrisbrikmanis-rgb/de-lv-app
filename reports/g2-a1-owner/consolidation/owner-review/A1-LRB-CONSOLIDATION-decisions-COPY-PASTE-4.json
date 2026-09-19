@@ -20488,7 +20488,7 @@
             },
             {
               "de": "Der Film läuft schon.",
-              "lv": "Filmen har redan börjat."
+              "lv": "Filmen är redan igång."
             },
             {
               "de": "Die Maschine läuft gut.",
@@ -20558,7 +20558,7 @@
             },
             {
               "de": "Das ist sehr laut.",
-              "lv": "Det är mycket högt."
+              "lv": "Det är mycket högljutt."
             },
             {
               "de": "Der Laut ist schön.",
@@ -20612,7 +20612,7 @@
             },
             {
               "de": "Das ist sehr laut.",
-              "lv": "Det är mycket högt."
+              "lv": "Det är mycket högljutt."
             },
             {
               "de": "Der Laut ist schön.",
@@ -21978,5 +21978,19 @@
     "git_head": "cdea6347985f13968a46870384408cabc4f1ad7d",
     "pass_proof_sha256": "620433d1025e757cf1436ff54421f1f4f2a37db5ee78c9f62db871271edefd55",
     "cards_181_200_payload_sha256": "033651f63f8f352fef08bded8c49656f29976fe9d05a2a935b6da45fecec60e3"
+  },
+  "gala_correction_1_cards_201_220": {
+    "applied_at": "2026-09-19T11:07:25.948Z",
+    "source_head": "5356338694b841191197ea6c9730241a25fef2d4",
+    "correction_sha256": "c05e3e5011a976be63fee4e4f413eb2700c0844da85c4474d6e73c9047ffe5cd",
+    "corrected_keys": [
+      "sv|Laut",
+      "sv|laufen",
+      "sv|laut"
+    ],
+    "slice": [
+      200,
+      220
+    ]
   }
 }
