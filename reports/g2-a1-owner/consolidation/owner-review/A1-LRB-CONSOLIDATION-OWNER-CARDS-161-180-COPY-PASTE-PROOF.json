@@ -82,5 +82,10 @@
         "row_count": 34
       }
     ]
+  },
+  "post_gala_correction_1": {
+    "correction_sha256": "b1a241f0b4bc6c951e3fbb3f4390dba4f3d8a880ceb412c873227688185c418b",
+    "owner_bundle_sha256_after": "2eb3224bae5e6f24afec07e81f84b8fe5fa81008fd4f74e59eaa324559208728",
+    "original_owner_upload_sha256": "30d1890626e1a70f713f2bf27c65af1c86b2695c86f22e0ea29d58abba9458eb"
   }
 }

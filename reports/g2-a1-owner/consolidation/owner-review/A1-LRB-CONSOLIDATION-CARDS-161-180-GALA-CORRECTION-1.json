@@ -1,74 +1,19 @@
 {
-  "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_161_180_FULL_CARD_COPY_PASTE_READY",
-  "source_head": "c399ca06d8bc50a0fa09ea0355834612e174c12b",
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_161_180_GALA_CORRECTION_1_READY",
+  "base_head": "962e6df5bb3625be129b51cc72b5938729acaad9",
+  "base_owner_bundle_sha256": "30d1890626e1a70f713f2bf27c65af1c86b2695c86f22e0ea29d58abba9458eb",
+  "cursor_action": "COPY_PASTE_ONLY",
   "scope": {
-    "start_ordinal": 161,
-    "end_ordinal": 180,
-    "cards": 20,
-    "full_composites": 20,
-    "scalar_cards": 0,
+    "cards_reviewed": 20,
+    "labot": 10,
+    "nelabot": 10,
     "pending": 0
   },
-  "cursor_action": "COPY_PASTE_ONLY",
-  "cards": [
-    {
-      "target_language": "sr",
-      "canonical_card_object_id": "auf",
-      "full_card_owner_new": {
-        "lv": "на",
-        "study": {
-          "id": "a1-auf",
-          "layout": "standardStudy",
-          "translation": "на",
-          "explanation": [
-            "Предлог auf овде означава кретање ка површини или навише. Уз питање куда? употребљава се акузатив."
-          ],
-          "examples": [
-            {
-              "de": "Ich stelle das Buch auf den Tisch.",
-              "lv": "Стављам књигу на сто."
-            },
-            {
-              "de": "Wir fahren auf den Berg.",
-              "lv": "Возимо се на планину."
-            },
-            {
-              "de": "Die Katze springt auf das Sofa.",
-              "lv": "Мачка скаче на кауч."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "auf",
-              "meaning": "на површину или навише",
-              "example": "auf den Tisch – на сто"
-            },
-            {
-              "word": "an",
-              "meaning": "уз усправну површину",
-              "example": "an die Wand – на зид"
-            },
-            {
-              "word": "in",
-              "meaning": "у унутрашњост",
-              "example": "in die Tasche – у торбу"
-            }
-          ],
-          "tip": [
-            {
-              "text": "Површина или кретање навише → auf."
-            }
-          ],
-          "important": [
-            "Не преводи се увек истом речју; значење зависи од места и смера.",
-            "За кретање у унутрашњост употребљава се in."
-          ]
-        }
-      }
-    },
+  "changes": [
     {
       "target_language": "sr",
       "canonical_card_object_id": "aufs",
+      "reason": "Pilnajā kartītē bija izlaisti avota mācītie auf/an kontrasti, pilnās formas gramatiskais statuss un vairāki lietojuma ierobežojumi.",
       "full_card_owner_new": {
         "lv": "на",
         "study": {
@@ -161,62 +106,8 @@
     },
     {
       "target_language": "sr",
-      "canonical_card_object_id": "aus",
-      "full_card_owner_new": {
-        "lv": "из • од",
-        "study": {
-          "id": "a1-aus",
-          "layout": "standardStudy",
-          "translation": "из • од",
-          "explanation": [
-            "aus означава порекло или кретање из унутрашњости неког простора или предмета."
-          ],
-          "examples": [
-            {
-              "de": "Ich komme aus Deutschland.",
-              "lv": "Ја сам из Немачке."
-            },
-            {
-              "de": "Er geht aus dem Haus.",
-              "lv": "Он излази из куће."
-            },
-            {
-              "de": "Ich nehme das Buch aus der Tasche.",
-              "lv": "Вадим књигу из торбе."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "aus",
-              "meaning": "из унутрашњости или порекло",
-              "example": "aus dem Haus – из куће"
-            },
-            {
-              "word": "von",
-              "meaning": "од особе, места или површине",
-              "example": "von meinem Freund – од мог пријатеља"
-            },
-            {
-              "word": "ab",
-              "meaning": "почев од времена или места",
-              "example": "ab Montag – од понедељка"
-            }
-          ],
-          "tip": [
-            {
-              "text": "Изнутра или порекло → aus."
-            }
-          ],
-          "important": [
-            "За излазак из затвореног простора употреби aus.",
-            "ab најчешће означава почетну тачку у времену или простору."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
       "canonical_card_object_id": "dass",
+      "reason": "Salīdzinājumā bija izlaists avota obligātais damit kontrasts.",
       "full_card_owner_new": {
         "lv": "да",
         "study": {
@@ -277,6 +168,7 @@
     {
       "target_language": "sr",
       "canonical_card_object_id": "der",
+      "reason": "Skaidrojumā bija izlaista avotā minētā vietniekvārda un relatīvā vietniekvārda funkcija.",
       "full_card_owner_new": {
         "lv": "одређени члан мушког рода",
         "study": {
@@ -315,6 +207,7 @@
     {
       "target_language": "sr",
       "canonical_card_object_id": "die",
+      "reason": "Skaidrojumā bija izlaista avotā minētā vietniekvārda un relatīvā vietniekvārda funkcija.",
       "full_card_owner_new": {
         "lv": "одређени члан женског рода",
         "study": {
@@ -352,131 +245,8 @@
     },
     {
       "target_language": "sr",
-      "canonical_card_object_id": "morgen",
-      "full_card_owner_new": {
-        "lv": "сутра",
-        "study": {
-          "id": "a1-morgen",
-          "layout": "standardStudy",
-          "translation": "сутра",
-          "explanation": [
-            "morgen написано малим словом најчешће је прилог и значи сутра. Morgen написано великим словом је именица и значи јутро."
-          ],
-          "examples": [
-            {
-              "de": "Ich komme morgen.",
-              "lv": "Долазим сутра."
-            },
-            {
-              "de": "Bis morgen!",
-              "lv": "Видимо се сутра!"
-            },
-            {
-              "de": "Ich komme morgen.",
-              "lv": "Долазим сутра."
-            },
-            {
-              "de": "Morgen ist Montag.",
-              "lv": "Сутра је понедељак."
-            },
-            {
-              "de": "Guten Morgen!",
-              "lv": "Добро јутро!"
-            },
-            {
-              "de": "Der Morgen ist schön.",
-              "lv": "Јутро је лепо."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "morgen",
-              "meaning": "сутра",
-              "example": "Ich komme morgen. – Долазим сутра."
-            },
-            {
-              "word": "Morgen",
-              "meaning": "јутро",
-              "example": "Der Morgen ist schön. – Јутро је лепо."
-            }
-          ],
-          "tip": [
-            {
-              "text": "Мало m: сутра. Велико M: јутро."
-            }
-          ],
-          "important": [
-            "На почетку реченице morgen се пише великим словом само због положаја.",
-            "У изразу Guten Morgen именица Morgen значи јутро."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
-      "canonical_card_object_id": "Morgen",
-      "full_card_owner_new": {
-        "lv": "јутро",
-        "study": {
-          "id": "a1-morgen-study",
-          "layout": "standardStudy",
-          "translation": "јутро",
-          "explanation": [
-            "Morgen написано великим словом је именица мушког рода и значи јутро. morgen малим словом најчешће значи сутра."
-          ],
-          "examples": [
-            {
-              "de": "Guten Morgen!",
-              "lv": "Добро јутро!"
-            },
-            {
-              "de": "Bis morgen!",
-              "lv": "Видимо се сутра!"
-            },
-            {
-              "de": "Ich komme morgen.",
-              "lv": "Долазим сутра."
-            },
-            {
-              "de": "Morgen ist Montag.",
-              "lv": "Сутра је понедељак."
-            },
-            {
-              "de": "Guten Morgen!",
-              "lv": "Добро јутро!"
-            },
-            {
-              "de": "Der Morgen ist schön.",
-              "lv": "Јутро је лепо."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "Morgen",
-              "meaning": "јутро",
-              "example": "Guten Morgen! – Добро јутро!"
-            },
-            {
-              "word": "morgen",
-              "meaning": "сутра",
-              "example": "Bis morgen! – Видимо се сутра!"
-            }
-          ],
-          "tip": [
-            {
-              "text": "Велико M: јутро. Мало m: сутра."
-            }
-          ],
-          "important": [
-            "der Morgen је именица мушког рода.",
-            "На почетку реченице прилог morgen такође почиње великим словом."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
       "canonical_card_object_id": "oder",
+      "reason": "Kartītē bija izlaists būtiskais oder un ob pretstatījums.",
       "full_card_owner_new": {
         "lv": "или",
         "study": {
@@ -543,6 +313,7 @@
     {
       "target_language": "sr",
       "canonical_card_object_id": "schwimmen",
+      "reason": "Kartītē bija izlaisti avota schwimmen gehen un duschen kontrasti.",
       "full_card_owner_new": {
         "lv": "пливати",
         "study": {
@@ -610,6 +381,7 @@
     {
       "target_language": "sr",
       "canonical_card_object_id": "sehen",
+      "reason": "Kartītē bija izlaisti avota ansehen un hören kontrasti.",
       "full_card_owner_new": {
         "lv": "видети",
         "study": {
@@ -677,6 +449,7 @@
     {
       "target_language": "sr",
       "canonical_card_object_id": "sein",
+      "reason": "Kartītē bija izlaisti avota haben, werden un bleiben kontrasti.",
       "full_card_owner_new": {
         "lv": "бити",
         "study": {
@@ -742,69 +515,8 @@
     },
     {
       "target_language": "sr",
-      "canonical_card_object_id": "Seite",
-      "full_card_owner_new": {
-        "lv": "страница • страна",
-        "study": {
-          "id": "a1-seite",
-          "layout": "standardStudy",
-          "translation": "страница • страна",
-          "explanation": [
-            "Seite може значити страницу књиге, страну у простору, веб-страницу или страну у расправи. Тачно значење одређује контекст."
-          ],
-          "examples": [
-            {
-              "de": "Schlagt die Seite zwanzig auf.",
-              "lv": "Отворите двадесету страницу."
-            },
-            {
-              "de": "Auf der linken Seite ist ein Park.",
-              "lv": "С леве стране је парк."
-            },
-            {
-              "de": "Die Webseite lädt langsam.",
-              "lv": "Веб-страница се споро учитава."
-            },
-            {
-              "de": "Er steht auf meiner Seite.",
-              "lv": "Он је на мојој страни."
-            },
-            {
-              "de": "Das Buch hat 200 Seiten.",
-              "lv": "Књига има 200 страница."
-            },
-            {
-              "de": "Auf der anderen Seite der Straße.",
-              "lv": "С друге стране улице."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "Seite",
-              "meaning": "страница или страна",
-              "example": "Seite zwanzig – двадесета страница"
-            },
-            {
-              "word": "Blatt",
-              "meaning": "лист папира",
-              "example": "ein Blatt Papier – лист папира"
-            }
-          ],
-          "tip": [
-            {
-              "text": "Књига, положај, интернет или став — контекст одређује значење речи Seite."
-            }
-          ],
-          "important": [
-            "die Seite је именица женског рода.",
-            "Множина је die Seiten."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
       "canonical_card_object_id": "sich",
+      "reason": "Kartītē bija izlaistas avota personu formas mich/dich un kontrasts ar ihn.",
       "full_card_owner_new": {
         "lv": "се • себе",
         "study": {
@@ -871,331 +583,8 @@
     },
     {
       "target_language": "sr",
-      "canonical_card_object_id": "sicher",
-      "full_card_owner_new": {
-        "lv": "сигуран • безбедан • сигурно",
-        "study": {
-          "id": "a1-sicher",
-          "layout": "standardStudy",
-          "translation": "сигуран • безбедан • сигурно",
-          "explanation": [
-            "sicher може значити безбедан, уверен или сигурно/засигурно. Улога и превод зависе од контекста."
-          ],
-          "examples": [
-            {
-              "de": "Ist das Wasser sicher?",
-              "lv": "Да ли је вода безбедна?"
-            },
-            {
-              "de": "Kommst du morgen? – Sicher!",
-              "lv": "Долазиш ли сутра? — Сигурно!"
-            },
-            {
-              "de": "Er ist sicher zu Hause.",
-              "lv": "Он је сигурно код куће."
-            },
-            {
-              "de": "Das ist eine sichere Lösung.",
-              "lv": "То је безбедно решење."
-            },
-            {
-              "de": "Ich bin mir sicher.",
-              "lv": "Сигуран/сигурна сам."
-            },
-            {
-              "de": "Fahr sicher!",
-              "lv": "Вози безбедно!"
-            }
-          ],
-          "comparison": [
-            {
-              "word": "sicher",
-              "meaning": "безбедан или уверен; сигурно",
-              "example": "Ich bin mir sicher. – Сигуран/сигурна сам."
-            },
-            {
-              "word": "bestimmt",
-              "meaning": "засигурно, извесно",
-              "example": "Er kommt bestimmt. – Он ће сигурно доћи."
-            }
-          ],
-          "tip": [
-            {
-              "text": "Провери контекст: безбедност, уверење или извесност."
-            }
-          ],
-          "important": [
-            "sicher као придев мења наставак: eine sichere Lösung.",
-            "Као прилог може значити сигурно или безбедно."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
-      "canonical_card_object_id": "sie",
-      "full_card_owner_new": {
-        "lv": "они • оне",
-        "study": {
-          "id": "a1-sie-study",
-          "layout": "standardStudy",
-          "translation": "они • оне",
-          "explanation": [
-            "sie написано малим словом може значити она или они/оне. Глагол и контекст показују значење: sie kocht = она кува; sie kochen = они/оне кувају. Облик Sie великим словом значи учтиво Ви."
-          ],
-          "examples": [
-            {
-              "de": "Sie kochen.",
-              "lv": "Они кувају."
-            },
-            {
-              "de": "Sie kocht.",
-              "lv": "Она кува."
-            },
-            {
-              "de": "Sie isst.",
-              "lv": "Она једе."
-            },
-            {
-              "de": "Sie kochen.",
-              "lv": "Они кувају."
-            },
-            {
-              "de": "Sie spielen Fußball.",
-              "lv": "Они играју фудбал."
-            },
-            {
-              "de": "Sie kochen, bitte.",
-              "lv": "Кувајте, молим Вас."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "sie + једнина",
-              "meaning": "она",
-              "example": "sie kocht – она кува"
-            },
-            {
-              "word": "sie + множина",
-              "meaning": "они/оне",
-              "example": "sie kochen – они/оне кувају"
-            },
-            {
-              "word": "Sie",
-              "meaning": "учтиво Ви",
-              "example": "Sie kochen, bitte. – Кувајте, молим Вас."
-            }
-          ],
-          "tip": [
-            {
-              "text": "Гледај велико слово и облик глагола."
-            }
-          ],
-          "important": [
-            "sie за они/оне иде са глаголом у множини.",
-            "Учтиво Sie увек се пише великим словом."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
-      "canonical_card_object_id": "Sie",
-      "full_card_owner_new": {
-        "lv": "Ви",
-        "study": {
-          "id": "a1-sie-study-2",
-          "layout": "standardStudy",
-          "translation": "Ви",
-          "explanation": [
-            "Sie написано великим словом је учтиво обраћање једној или више особа и преводи се као Ви. Глагол има исти облик као у трећем лицу множине. Примери са малим sie показују разлику између она и они/оне."
-          ],
-          "examples": [
-            {
-              "de": "Sie kochen, bitte.",
-              "lv": "Кувајте, молим Вас."
-            },
-            {
-              "de": "Sie kocht.",
-              "lv": "Она кува."
-            },
-            {
-              "de": "Sie isst.",
-              "lv": "Она једе."
-            },
-            {
-              "de": "Sie kochen.",
-              "lv": "Они кувају."
-            },
-            {
-              "de": "Sie spielen Fußball.",
-              "lv": "Они играју фудбал."
-            },
-            {
-              "de": "Sie kochen, bitte.",
-              "lv": "Кувајте, молим Вас."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "Sie",
-              "meaning": "учтиво Ви",
-              "example": "Sie kochen, bitte. – Кувајте, молим Вас."
-            },
-            {
-              "word": "sie + једнина",
-              "meaning": "она",
-              "example": "sie kocht – она кува"
-            },
-            {
-              "word": "sie + множина",
-              "meaning": "они/оне",
-              "example": "sie kochen – они/оне кувају"
-            }
-          ],
-          "tip": [
-            {
-              "text": "Учтиво обраћање → Sie великим словом."
-            }
-          ],
-          "important": [
-            "Sie у учтивом значењу увек се пише великим словом.",
-            "Значење sie/Sie одређују велико слово, глагол и контекст."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
-      "canonical_card_object_id": "sitzen",
-      "full_card_owner_new": {
-        "lv": "седети",
-        "study": {
-          "id": "a1-sitzen",
-          "layout": "standardStudy",
-          "translation": "седети",
-          "explanation": [
-            "sitzen описује стање седења. stehen значи стајати, liegen лежати, а sich setzen сести, односно прећи у седећи положај."
-          ],
-          "examples": [
-            {
-              "de": "Ich sitze am Tisch.",
-              "lv": "Седим за столом."
-            },
-            {
-              "de": "Die Kinder sitzen im Bus.",
-              "lv": "Деца седе у аутобусу."
-            },
-            {
-              "de": "Er steht an der Tür.",
-              "lv": "Он стоји на вратима."
-            },
-            {
-              "de": "Die Katze liegt auf dem Sofa.",
-              "lv": "Мачка лежи на каучу."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "sitzen",
-              "meaning": "седети",
-              "example": "Ich sitze am Tisch. – Седим за столом."
-            },
-            {
-              "word": "stehen",
-              "meaning": "стајати",
-              "example": "Er steht an der Tür. – Он стоји на вратима."
-            },
-            {
-              "word": "liegen",
-              "meaning": "лежати",
-              "example": "Die Katze liegt. – Мачка лежи."
-            },
-            {
-              "word": "sich setzen",
-              "meaning": "сести",
-              "example": "Ich setze mich. – Седам."
-            }
-          ],
-          "tip": [
-            {
-              "text": "Стање: sitzen. Промена положаја: sich setzen."
-            }
-          ],
-          "important": [
-            "sitzen није исто што и sich setzen.",
-            "За положај предмета често се користе stehen или liegen, зависно од положаја."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
-      "canonical_card_object_id": "sollen",
-      "full_card_owner_new": {
-        "lv": "требати",
-        "study": {
-          "id": "a1-sollen",
-          "layout": "standardStudy",
-          "translation": "требати",
-          "explanation": [
-            "sollen најчешће изражава упутство, очекивање или туђу препоруку. müssen изражава јачу нужност или обавезу."
-          ],
-          "examples": [
-            {
-              "de": "Was soll ich machen?",
-              "lv": "Шта треба да урадим?"
-            },
-            {
-              "de": "Du sollst kommen.",
-              "lv": "Треба да дођеш."
-            },
-            {
-              "de": "Ich soll zu Hause bleiben.",
-              "lv": "Треба да останем код куће."
-            },
-            {
-              "de": "Ich muss jetzt gehen.",
-              "lv": "Сада морам да идем."
-            }
-          ],
-          "comparison": [
-            {
-              "word": "sollen",
-              "meaning": "требати по упутству или очекивању",
-              "example": "Was soll ich machen? – Шта треба да урадим?"
-            },
-            {
-              "word": "müssen",
-              "meaning": "морати",
-              "example": "Ich muss gehen. – Морам да идем."
-            },
-            {
-              "word": "können",
-              "meaning": "моћи",
-              "example": "Ich kann kommen. – Могу да дођем."
-            },
-            {
-              "word": "wollen",
-              "meaning": "хтети",
-              "example": "Ich will bleiben. – Хоћу да останем."
-            }
-          ],
-          "tip": [
-            {
-              "text": "Туђе упутство или очекивање → sollen; нужност → müssen."
-            }
-          ],
-          "important": [
-            "Was soll ich machen? је врло чест израз.",
-            "sollen и müssen нису потпуно исто."
-          ]
-        }
-      }
-    },
-    {
-      "target_language": "sr",
       "canonical_card_object_id": "vom",
+      "reason": "Kartīte bija pārāk saīsināta: nebija pilnībā saglabāti von dem sarunvalodas, dzimtes un aus/ab lietojuma ierobežojumi.",
       "full_card_owner_new": {
         "lv": "од • са",
         "study": {

@@ -11,48 +11,45 @@ const {
   cardKey,
   loadOwnerReviewViewPayload,
 } = require("./lib/g2-a1-lrb-consolidation-owner-review-artifacts");
-const { runOwnerCopyPasteExtendedGates } = require("./lib/g2-a1-lrb-consolidation-owner-copy-paste-extended-gates");
+const { runGalaCorrection161180Gates } = require("./lib/g2-a1-lrb-consolidation-gala-correction-161-180-gates");
 
-const SLICE_START = 160;
-const SLICE_END = 180;
 const PROOF_PATH = path.join(
   OUT_DIR,
-  "A1-LRB-CONSOLIDATION-OWNER-CARDS-161-180-COPY-PASTE-PROOF.json"
+  "A1-LRB-CONSOLIDATION-CARDS-161-180-GALA-CORRECTION-1-PROOF.json"
 );
-const OWNER_BUNDLE = path.join(
+const CORRECTION_PATH = path.join(
   OUT_DIR,
-  "A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-CARDS-161-180.json"
+  "A1-LRB-CONSOLIDATION-CARDS-161-180-GALA-CORRECTION-1.json"
 );
 const COPY_PASTE_4 = path.join(OUT_DIR, "A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json");
 const PROOF_CLASSIFICATION =
-  "A1_LRB_CONSOLIDATION_OWNER_CARDS_161_180_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT";
-const EXPECTED_OWNER_SHA = "2eb3224bae5e6f24afec07e81f84b8fe5fa81008fd4f74e59eaa324559208728";
+  "A1_LRB_CONSOLIDATION_CARDS_161_180_GALA_CORRECTION_1_COMPLETE_AWAITING_GALA_VERDICT";
+const EXPECTED_CORRECTION_SHA =
+  "b1a241f0b4bc6c951e3fbb3f4390dba4f3d8a880ceb412c873227688185c418b";
 
 function main() {
   const blockers = [];
   if (!fs.existsSync(PROOF_PATH)) blockers.push("missing_proof");
-  if (!fs.existsSync(OWNER_BUNDLE)) blockers.push("missing_owner_bundle");
+  if (!fs.existsSync(CORRECTION_PATH)) blockers.push("missing_correction_json");
   if (!fs.existsSync(COPY_PASTE_4)) blockers.push("missing_copy_paste_4");
 
-  const ownerRaw = fs.readFileSync(OWNER_BUNDLE);
-  if (sha256(ownerRaw) !== EXPECTED_OWNER_SHA) {
-    blockers.push("owner_bundle_sha_mismatch");
+  const correctionRaw = fs.readFileSync(CORRECTION_PATH);
+  if (sha256(correctionRaw) !== EXPECTED_CORRECTION_SHA) {
+    blockers.push("correction_sha_mismatch");
   }
 
-  const proof = fs.existsSync(PROOF_PATH)
-    ? JSON.parse(fs.readFileSync(PROOF_PATH, "utf8"))
-    : null;
+  const proof = blockers.length ? null : JSON.parse(fs.readFileSync(PROOF_PATH, "utf8"));
   if (proof?.classification !== PROOF_CLASSIFICATION) {
     blockers.push(`classification:${proof?.classification || "missing"}`);
   }
 
-  const ownerBundle = JSON.parse(ownerRaw.toString("utf8"));
+  const correctionDoc = JSON.parse(correctionRaw.toString("utf8"));
   const copyPaste = JSON.parse(fs.readFileSync(COPY_PASTE_4, "utf8"));
-  const scopeCards = copyPaste.cards.slice(SLICE_START, SLICE_END);
+  const scopeCards = copyPaste.cards.slice(160, 180);
 
-  const sourceByKey = new Map();
-  for (const c of ownerBundle.cards || []) {
-    sourceByKey.set(cardKey(c.target_language, c.canonical_card_object_id), c);
+  const correctionByKey = new Map();
+  for (const ch of correctionDoc.changes || []) {
+    correctionByKey.set(cardKey(ch.target_language, ch.canonical_card_object_id), ch);
   }
 
   const appliedByKey = new Map();
@@ -66,13 +63,18 @@ function main() {
   if (fs.existsSync(path.join(OUT_DIR, "A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-001.json"))) {
     const view = loadOwnerReviewViewPayload();
     if (view.cards.length !== 234) blockers.push(`view_row_count:${view.cards.length}`);
-    for (const c of view.cards.slice(SLICE_START, SLICE_END)) {
+    for (const c of view.cards.slice(160, 180)) {
       const key = cardKey(c.target_language, c.canonical_card_object_id);
       if (c.full_card_owner_new != null) appliedByKey.set(key, c.full_card_owner_new);
     }
   }
 
-  const gates = runOwnerCopyPasteExtendedGates({ scopeCards, sourceByKey, appliedByKey });
+  const gates = runGalaCorrection161180Gates({
+    scopeCards,
+    appliedByKey,
+    correctionChanges: correctionDoc.changes || [],
+    correctionByKey,
+  });
   if (!gates.pass) blockers.push("gates_fail");
 
   const head = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
@@ -80,18 +82,10 @@ function main() {
     ok: blockers.length === 0 && gates.pass,
     blockers,
     git_head: head,
-    owner_bundle_sha256: sha256(ownerRaw),
+    correction_sha256: sha256(correctionRaw),
     proof_sha256: proof ? sha256(fs.readFileSync(PROOF_PATH)) : null,
-    gates: {
-      ...gates,
-      extra_meaning_not_in_source: gates.semantic_source_fidelity_violations ?? 0,
-      semantic_narrowing_from_source: 0,
-    },
+    gates,
     classification: PROOF_CLASSIFICATION,
-    checks_run: [
-      "verify-a1-lrb-consolidation-owner-copy-paste-4-cards-161-180.js",
-      "runOwnerCopyPasteExtendedGates",
-    ],
   };
   console.log(JSON.stringify(out, null, 2));
   if (!out.ok) process.exit(1);
