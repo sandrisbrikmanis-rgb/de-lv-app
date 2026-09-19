@@ -38,7 +38,7 @@ const CLOSURE_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/productio
 const FINAL_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/final");
 const APPLY_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/production-apply");
 const PREP_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/production-apply-prep");
-const EXPECTED_MAIN_HEAD = "79b3fac032d869745a6973f18bd3ccb34cc5cf9e";
+const EXPECTED_MAIN_HEAD = "260f3bd08476c0f9149092e2d5a4a51be3feb850";
 const EXPECTED_PRODUCTION_FILE_SET_SHA =
   "0a14ddc3a066cfe47bafb5e9b762d96ca66aca81ad77d7e20a5218dd234d543e";
 const EXPECTED_ATOMIC_MAPPING_SHA =

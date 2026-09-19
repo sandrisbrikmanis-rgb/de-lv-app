@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:06:21.892Z",
-  "origin_main_sha": "79b3fac032d869745a6973f18bd3ccb34cc5cf9e",
+  "generated_at": "2026-09-19T13:25:54.045Z",
+  "origin_main_sha": "260f3bd08476c0f9149092e2d5a4a51be3feb850",
   "production_file_set_sha256": "0a14ddc3a066cfe47bafb5e9b762d96ca66aca81ad77d7e20a5218dd234d543e",
   "atomic_mapping_sha256": "33519482cfb327ba7eb062b69cd3b61d8718ca936cb4a8553fd36b0feb51c5f0",
   "numbers_table": {
@@ -37,9 +37,9 @@
     "proven_alias_groups": 1,
     "unresolved_alias_conflicts": 0
   },
-  "pass": true,
-  "classification": "A1_LRB_001_103_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1_COMPLETE_AWAITING_OWNER_REVERIFICATION",
-  "next_action": "OWNER_REVERIFY_A1_LRB_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1",
+  "pass": false,
+  "classification": "A1_LRB_001_103_PRODUCTION_CLOSURE_AUDIT_BLOCKED",
+  "next_action": "RESOLVE_EXACT_CLOSURE_BLOCKERS",
   "finding_alias_correction_1": {
     "before_classification_counts": {
       "PROVEN_IDENTICAL_ALIAS": 716,
@@ -111,7 +111,7 @@
           "sk|wie"
         ],
         "alias_evidence_path": "reports/g2-a1-owner/consolidation/production-apply/A1-LRB-001-103-PRODUCTION-TARGET-ALIAS-RECONCILIATION.json",
-        "alias_evidence_sha256": "98613e1a9a19b226f067b9760128c909529ac7ffa1f0b84ae9c8c3c27b08d461"
+        "alias_evidence_sha256": "6b7a32c78d020539283090746655ffaec3a2e49e9f425736beed23f0da998bbb"
       }
     ]
   }
