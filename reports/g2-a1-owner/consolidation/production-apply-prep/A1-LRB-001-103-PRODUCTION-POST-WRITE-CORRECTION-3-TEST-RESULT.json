@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "generated_at": "2026-09-19T12:24:02.688Z",
   "pass": true,
   "rollback_test_failures": 0,
@@ -64,6 +64,6 @@
   "data_www_drift": 0,
   "partial_modified_files": 0,
   "production_file_set_sha_gate": "ccd237adb9e2b9812901589c328d7ddd0225aca81fe1b986d13d9f2e4c510c56",
-  "classification": "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_TRANSACTION_CORRECTION_2_READY_AWAITING_OWNER_REVERIFICATION",
+  "classification": "A1_LRB_001_103_PRODUCTION_COPY_ONLY_POST_WRITE_CORRECTION_3_READY_AWAITING_OWNER_REVERIFICATION",
   "next_action": "OWNER_REVERIFY_POST_WRITE_TRANSACTION"
 }

@@ -173,59 +173,258 @@ function rollbackFromBackups(root, backups, hashProductionFileSetFn, langs, expe
     }
   }
   if (hashProductionFileSetFn && langs && expectedFileSetSha) {
-    const after = hashProductionFileSetFn(langs);
+    const after = hashProductionFileSetFn(root, langs);
     if (after.composite_sha256 !== expectedFileSetSha) {
       throw new Error("ROLLBACK_INTEGRITY_FAILURE:file_set");
     }
   }
 }
 
-function commitPlannedWritesAtomic(root, pendingWritesByFile, backups, fault = null) {
+function verifyPostWrite(root, pendingWritesByFile, postWriteContext = {}) {
+  const {
+    atomicCards = [],
+    resolveTargetFromDisk,
+    resolveInitialTarget,
+    authorizedRelPaths,
+    baselineFileShas,
+  } = postWriteContext;
+
+  const metrics = {
+    post_write_file_sha_mismatches: 0,
+    post_write_card_sha_mismatches: 0,
+    post_write_data_www_drift: 0,
+    post_write_syntax_failures: 0,
+    post_write_de_changes: 0,
+    unauthorized_changed_files: 0,
+  };
+
+  const rels = [...pendingWritesByFile.keys()].sort();
+  const authorizedSet = new Set(authorizedRelPaths || rels);
+
+  for (const rel of rels) {
+    const abs = path.join(root, rel);
+    const bytes = fs.readFileSync(abs);
+    const plan = pendingWritesByFile.get(rel);
+    if (sha256Buffer(bytes) !== plan.serialized_sha256) {
+      metrics.post_write_file_sha_mismatches += 1;
+    }
+    try {
+      loadWordsFromSerialized(bytes.toString("utf8"));
+    } catch {
+      metrics.post_write_syntax_failures += 1;
+    }
+  }
+
+  const dataRels = rels.filter((r) => r.startsWith("data/"));
+  for (const dataRel of dataRels) {
+    const wwwRel = dataRel.replace(/^data\//, "www/data/");
+    const dataBytes = fs.readFileSync(path.join(root, dataRel));
+    const wwwBytes = fs.readFileSync(path.join(root, wwwRel));
+    if (!dataBytes.equals(wwwBytes)) {
+      metrics.post_write_data_www_drift += 1;
+    }
+  }
+
+  if (atomicCards.length && resolveTargetFromDisk) {
+    for (const card of atomicCards) {
+      if (card.atomic_status === "BLOCKED") continue;
+      let resolved;
+      try {
+        resolved = resolveTargetFromDisk(card.target_language, card.canonical_card_object_id);
+      } catch {
+        metrics.post_write_card_sha_mismatches += 1;
+        continue;
+      }
+      if (!resolved.ok) {
+        metrics.post_write_card_sha_mismatches += 1;
+        continue;
+      }
+      const liveSha = productionEntrySha256(resolved.entry);
+      if (card.atomic_status === "ATOMIC_READY_NOOP") {
+        if (liveSha !== card.production_current_entry_sha256) {
+          metrics.post_write_card_sha_mismatches += 1;
+        }
+      } else if (liveSha !== card.production_planned_entry_sha256) {
+        metrics.post_write_card_sha_mismatches += 1;
+      }
+      if (card.atomic_status === "ATOMIC_READY_APPLY" && resolveInitialTarget) {
+        const initialResolved = resolveInitialTarget(card.target_language, card.canonical_card_object_id);
+        if (initialResolved.ok) {
+          const deBefore = deExampleSequence(initialResolved.entry);
+          const deAfter = deExampleSequence(resolved.entry);
+          if (JSON.stringify(deBefore) !== JSON.stringify(deAfter)) {
+            metrics.post_write_de_changes += 1;
+          }
+        }
+      }
+    }
+  }
+
+  if (baselineFileShas && baselineFileShas.size) {
+    for (const [rel, beforeSha] of baselineFileShas) {
+      const abs = path.join(root, rel);
+      if (!fs.existsSync(abs)) continue;
+      const afterSha = sha256Buffer(fs.readFileSync(abs));
+      if (afterSha !== beforeSha && !authorizedSet.has(rel)) {
+        metrics.unauthorized_changed_files += 1;
+      }
+    }
+  }
+
+  const pass =
+    metrics.post_write_file_sha_mismatches === 0 &&
+    metrics.post_write_card_sha_mismatches === 0 &&
+    metrics.post_write_data_www_drift === 0 &&
+    metrics.post_write_syntax_failures === 0 &&
+    metrics.post_write_de_changes === 0 &&
+    metrics.unauthorized_changed_files === 0;
+
+  return { pass, ...metrics };
+}
+
+function applyPostWriteFault(root, inject) {
+  if (!inject || !inject.type) return;
+  const rel = inject.rel;
+  const abs = rel ? path.join(root, rel) : null;
+  switch (inject.type) {
+    case "wrong_bytes":
+      fs.writeFileSync(abs, Buffer.from(inject.payload || "CORRUPT_POST_WRITE_BYTES\n"));
+      break;
+    case "data_www_drift": {
+      const wwwRel = inject.wwwRel || rel.replace(/^data\//, "www/data/");
+      const wwwAbs = path.join(root, wwwRel);
+      fs.appendFileSync(wwwAbs, " ");
+      break;
+    }
+    case "bad_syntax":
+      fs.writeFileSync(abs, "const A1_WORDS = [{ broken");
+      break;
+    case "de_drift": {
+      const content = fs.readFileSync(abs, "utf8");
+      const words = loadWordsFromSerialized(content);
+      if (words[0]?.study?.examples?.[0]) {
+        words[0].study.examples[0].de = `${words[0].study.examples[0].de}-POST-WRITE-DRIFT`;
+      }
+      const serialized = serializeA1WordsFile(words);
+      fs.writeFileSync(abs, serialized);
+      const wwwRel = rel.replace(/^data\//, "www/data/");
+      fs.writeFileSync(path.join(root, wwwRel), serialized);
+      break;
+    }
+    case "card_entry_drift": {
+      const content = fs.readFileSync(abs, "utf8");
+      const words = loadWordsFromSerialized(content);
+      if (words[0]) words[0].lv = `${words[0].lv}-CARD-DRIFT`;
+      fs.writeFileSync(abs, serializeA1WordsFile(words));
+      const wwwRel = rel.replace(/^data\//, "www/data/");
+      fs.writeFileSync(path.join(root, wwwRel), serializeA1WordsFile(words));
+      break;
+    }
+    default:
+      break;
+  }
+}
+
+function renamePendingWritesAtomic(root, pendingWritesByFile, fault = null) {
   const rels = [...pendingWritesByFile.keys()].sort();
   const tmpPaths = [];
   let renameCount = 0;
-  try {
-    for (const rel of rels) {
-      const plan = pendingWritesByFile.get(rel);
-      const abs = path.join(root, rel);
-      const dir = path.dirname(abs);
-      fs.mkdirSync(dir, { recursive: true });
-      const tmp = path.join(dir, `.${path.basename(abs)}.txn-${process.pid}-${Date.now()}-${renameCount}.tmp`);
-      tmpPaths.push({ rel, abs, tmp });
+  for (const rel of rels) {
+    const plan = pendingWritesByFile.get(rel);
+    const abs = path.join(root, rel);
+    const dir = path.dirname(abs);
+    fs.mkdirSync(dir, { recursive: true });
+    const tmp = path.join(dir, `.${path.basename(abs)}.txn-${process.pid}-${Date.now()}-${renameCount}.tmp`);
+    tmpPaths.push({ rel, abs, tmp });
 
-      if (fault?.fail === "before_first_rename" && renameCount === 0) {
-        throw new Error(fault.message || "INJECT_FAIL_BEFORE_FIRST_RENAME");
-      }
-      if (fault?.fail === "before_last_rename" && renameCount === rels.length - 1) {
-        throw new Error(fault.message || "INJECT_FAIL_BEFORE_LAST_RENAME");
-      }
-      if (fault?.failAfterRename != null && renameCount === fault.failAfterRename) {
-        throw new Error(fault.message || `INJECT_FAIL_AFTER_RENAME_${renameCount}`);
-      }
-      if (fault?.failOnRel && fault.failOnRel === rel) {
-        throw new Error(fault.message || `INJECT_FAIL_ON_${rel}`);
-      }
-
-      fs.writeFileSync(tmp, plan.serialized);
-      loadWordsFromSerialized(plan.serialized);
-      fs.renameSync(tmp, abs);
-      renameCount += 1;
-
-      if (fault?.fail === "after_first_rename" && renameCount === 1) {
-        throw new Error(fault.message || "INJECT_FAIL_AFTER_FIRST_RENAME");
-      }
-      if (fault?.fail === "mid_write" && renameCount === Math.floor(rels.length / 2)) {
-        throw new Error(fault.message || "INJECT_FAIL_MID_WRITE");
-      }
+    if (fault?.fail === "before_first_rename" && renameCount === 0) {
+      throw new Error(fault.message || "INJECT_FAIL_BEFORE_FIRST_RENAME");
     }
-    return { renamed: renameCount };
+    if (fault?.fail === "before_last_rename" && renameCount === rels.length - 1) {
+      throw new Error(fault.message || "INJECT_FAIL_BEFORE_LAST_RENAME");
+    }
+    if (fault?.failAfterRename != null && renameCount === fault.failAfterRename) {
+      throw new Error(fault.message || `INJECT_FAIL_AFTER_RENAME_${renameCount}`);
+    }
+    if (fault?.failOnRel && fault.failOnRel === rel) {
+      throw new Error(fault.message || `INJECT_FAIL_ON_${rel}`);
+    }
+
+    fs.writeFileSync(tmp, plan.serialized);
+    loadWordsFromSerialized(plan.serialized);
+    fs.renameSync(tmp, abs);
+    renameCount += 1;
+
+    if (fault?.fail === "after_first_rename" && renameCount === 1) {
+      throw new Error(fault.message || "INJECT_FAIL_AFTER_FIRST_RENAME");
+    }
+    if (fault?.fail === "mid_write" && renameCount === Math.floor(rels.length / 2)) {
+      throw new Error(fault.message || "INJECT_FAIL_MID_WRITE");
+    }
+  }
+  return { renamed: renameCount, tmpPaths };
+}
+
+function runProductionCopyOnlyTransaction(root, pendingWritesByFile, backups, options = {}) {
+  const {
+    fault = null,
+    postWriteContext = {},
+    hashProductionFileSetFn = null,
+    langs = null,
+    expectedFileSetShaBefore = null,
+  } = options;
+
+  let tmpPaths = [];
+  try {
+    const renameResult = renamePendingWritesAtomic(root, pendingWritesByFile, fault);
+    tmpPaths = renameResult.tmpPaths;
+
+    if (fault?.postWriteInject) {
+      applyPostWriteFault(root, fault.postWriteInject);
+    }
+
+    const postWrite = verifyPostWrite(root, pendingWritesByFile, postWriteContext);
+    if (!postWrite.pass) {
+      rollbackFromBackups(root, backups, hashProductionFileSetFn, langs, expectedFileSetShaBefore);
+      const err = new Error("POST_WRITE_VERIFICATION_FAILED_ROLLED_BACK");
+      err.postWriteMetrics = postWrite;
+      throw err;
+    }
+
+    return { renamed: renameResult.renamed, postWrite };
   } catch (err) {
     for (const { tmp } of tmpPaths) {
       if (fs.existsSync(tmp)) fs.unlinkSync(tmp);
     }
-    rollbackFromBackups(root, backups);
+    if (err.message !== "POST_WRITE_VERIFICATION_FAILED_ROLLED_BACK") {
+      rollbackFromBackups(root, backups);
+    }
     throw err;
   }
+}
+
+function commitPlannedWritesAtomic(root, pendingWritesByFile, backups, fault = null, options = {}) {
+  return runProductionCopyOnlyTransaction(root, pendingWritesByFile, backups, {
+    fault,
+    postWriteContext: options.postWriteContext || {},
+    hashProductionFileSetFn: options.hashProductionFileSetFn,
+    langs: options.langs,
+    expectedFileSetShaBefore: options.expectedFileSetShaBefore,
+  });
+}
+
+function hashProductionFileSetInRoot(root, langs) {
+  const files = [];
+  for (const lang of [...langs].sort()) {
+    for (const rel of [`data/${lang}/a1.js`, `www/data/${lang}/a1.js`]) {
+      const abs = path.join(root, rel);
+      if (fs.existsSync(abs)) {
+        files.push({ path: rel, sha256: sha256Buffer(fs.readFileSync(abs)) });
+      }
+    }
+  }
+  const composite = sha256(JSON.stringify(files));
+  return { files, composite_sha256: composite };
 }
 
 module.exports = {
@@ -237,6 +436,11 @@ module.exports = {
   createFileBackups,
   buildPendingWritesByFile,
   validatePendingWritesByFile,
+  verifyPostWrite,
+  applyPostWriteFault,
   rollbackFromBackups,
+  renamePendingWritesAtomic,
+  runProductionCopyOnlyTransaction,
   commitPlannedWritesAtomic,
+  hashProductionFileSetInRoot,
 };

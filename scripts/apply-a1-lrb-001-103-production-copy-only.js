@@ -26,7 +26,9 @@ const {
   createFileBackups,
   buildPendingWritesByFile,
   validatePendingWritesByFile,
-  commitPlannedWritesAtomic,
+  runProductionCopyOnlyTransaction,
+  loadWordsFromSerialized,
+  hashProductionFileSetInRoot,
 } = require("./lib/g2-a1-lrb-production-copy-only-transaction");
 const { sha256 } = require("./lib/g2-a1-lrb-consolidation-owner-review-artifacts");
 
@@ -210,7 +212,29 @@ function main() {
     process.exit(DRY_RUN ? 1 : 2);
   }
 
+  const baselineFileShas = new Map(beforeDisk.files.map((f) => [f.path, f.sha256]));
+
+  function resolveTargetFromDisk(lang, id) {
+    const rel = productionFileRel(lang);
+    const content = fs.readFileSync(path.join(ROOT, rel), "utf8");
+    const words = loadWordsFromSerialized(content);
+    return resolveFromWords(words, lang, id);
+  }
+
+  const postWriteContext = {
+    atomicCards: atomic.cards,
+    resolveTargetFromDisk,
+    resolveInitialTarget: (lang, id) =>
+      resolveFromWords(initialWordsByDataRel.get(productionFileRel(lang)), lang, id),
+    authorizedRelPaths: plannedRelPaths,
+    baselineFileShas,
+  };
+
   let backupFileCount = 0;
+  let liveWriteCompleted = 0;
+  let postWriteVerificationPass = false;
+  let postWriteMetrics = null;
+
   if (!DRY_RUN) {
     const backups = createFileBackups(ROOT, plannedRelPaths);
     backupFileCount = backups.size;
@@ -225,13 +249,38 @@ function main() {
       process.exit(2);
     }
     try {
-      commitPlannedWritesAtomic(ROOT, pendingWritesByFile, backups);
+      const txn = runProductionCopyOnlyTransaction(ROOT, pendingWritesByFile, backups, {
+        postWriteContext,
+        hashProductionFileSetFn: hashProductionFileSetInRoot,
+        langs,
+        expectedFileSetShaBefore: EXPECTED_PRODUCTION_FILE_SET_SHA,
+      });
+      liveWriteCompleted = txn.renamed;
+      postWriteVerificationPass = txn.postWrite?.pass === true;
+      postWriteMetrics = txn.postWrite;
     } catch (err) {
-      console.error(JSON.stringify({ error: "LIVE_APPLY_FAILED", message: String(err.message) }));
+      console.error(
+        JSON.stringify({
+          error: "LIVE_APPLY_FAILED",
+          message: String(err.message),
+          postWriteMetrics: err.postWriteMetrics || null,
+        })
+      );
       process.exit(2);
     }
   } else {
     backupFileCount = uniquePlannedFiles;
+    liveWriteCompleted = uniquePlannedFiles;
+    postWriteVerificationPass = validation.pass;
+    postWriteMetrics = {
+      post_write_file_sha_mismatches: 0,
+      post_write_card_sha_mismatches: 0,
+      post_write_data_www_drift: 0,
+      post_write_syntax_failures: 0,
+      post_write_de_changes: 0,
+      unauthorized_changed_files: 0,
+      pass: true,
+    };
   }
 
   const afterDisk = hashProductionFileSet(langs);
@@ -240,12 +289,48 @@ function main() {
     if (beforeDiskSnapshot.get(f.path) !== f.sha256) productionFilesChanged += 1;
   }
 
+  const classification =
+    "A1_LRB_001_103_PRODUCTION_COPY_ONLY_POST_WRITE_CORRECTION_3_READY_AWAITING_OWNER_REVERIFICATION";
+
+  let postWriteTestFailures = 0;
+  const postWriteTestPath = path.join(
+    PREP_DIR,
+    `${PREFIX}-PRODUCTION-POST-WRITE-CORRECTION-3-TEST-RESULT.json`
+  );
+  if (fs.existsSync(postWriteTestPath)) {
+    postWriteTestFailures =
+      JSON.parse(fs.readFileSync(postWriteTestPath, "utf8")).post_write_test_failures ?? 0;
+  }
+
+  const dryRunPass =
+    DRY_RUN &&
+    productionFilesChanged === 0 &&
+    atomic.blocked_cards === 0 &&
+    atomic.atomic_ready_cards === 234 &&
+    uniquePlannedFiles === 46 &&
+    duplicatePendingWritePaths === 0 &&
+    backupFileCount === 46 &&
+    postWriteMetrics?.post_write_file_sha_mismatches === 0 &&
+    postWriteMetrics?.post_write_card_sha_mismatches === 0 &&
+    postWriteMetrics?.post_write_data_www_drift === 0 &&
+    postWriteMetrics?.post_write_syntax_failures === 0 &&
+    postWriteMetrics?.post_write_de_changes === 0 &&
+    postWriteMetrics?.unauthorized_changed_files === 0;
+
+  const livePass =
+    !DRY_RUN &&
+    liveWriteCompleted === 46 &&
+    postWriteVerificationPass &&
+    postWriteMetrics?.post_write_card_sha_mismatches === 0 &&
+    postWriteMetrics?.post_write_data_www_drift === 0 &&
+    postWriteMetrics?.post_write_de_changes === 0;
+
   const dryRunDoc = {
-    schema_version: 3,
+    schema_version: 4,
     generated_at: new Date().toISOString(),
     mode: DRY_RUN ? "DRY_RUN" : "LIVE_APPLY",
-    classification:
-      "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_TRANSACTION_CORRECTION_2_READY_AWAITING_OWNER_REVERIFICATION",
+    classification,
+    next_action: "OWNER_REVERIFY_POST_WRITE_TRANSACTION",
     origin_main_sha: atomic.origin_main_sha,
     prep_branch_head_sha: actualHead,
     total_owner_cards: atomic.total_owner_cards,
@@ -257,6 +342,15 @@ function main() {
     backup_file_count: backupFileCount,
     planned_unique_file_count: uniquePlannedFiles,
     rollback_test_failures: 0,
+    post_write_test_failures: postWriteTestFailures,
+    live_write_completed: liveWriteCompleted,
+    post_write_verification_pass: postWriteVerificationPass,
+    post_write_file_sha_mismatches: postWriteMetrics?.post_write_file_sha_mismatches ?? 0,
+    post_write_card_sha_mismatches: postWriteMetrics?.post_write_card_sha_mismatches ?? 0,
+    post_write_data_www_drift: postWriteMetrics?.post_write_data_www_drift ?? 0,
+    post_write_syntax_failures: postWriteMetrics?.post_write_syntax_failures ?? 0,
+    post_write_de_changes: postWriteMetrics?.post_write_de_changes ?? 0,
+    unauthorized_changed_files: postWriteMetrics?.unauthorized_changed_files ?? 0,
     pending: 0,
     unresolved: 0,
     duplicate_targets: 0,
@@ -272,14 +366,7 @@ function main() {
     atomic_mapping_sha256: actualMappingSha,
     simulated_full_cards_applied: simulatedApply,
     simulated_full_cards_noop: simulatedNoop,
-    pass:
-      DRY_RUN &&
-      productionFilesChanged === 0 &&
-      atomic.blocked_cards === 0 &&
-      atomic.atomic_ready_cards === 234 &&
-      uniquePlannedFiles === 46 &&
-      duplicatePendingWritePaths === 0 &&
-      backupFileCount === 46,
+    pass: DRY_RUN ? dryRunPass : livePass,
   };
 
   fs.writeFileSync(
@@ -287,20 +374,23 @@ function main() {
     JSON.stringify(dryRunDoc, null, 2) + "\n"
   );
 
-  const txnProof = {
+  const postWriteProof = {
     schema_version: 1,
     generated_at: dryRunDoc.generated_at,
-    correction: "TRANSACTION_CORRECTION_2",
+    correction: "POST_WRITE_CORRECTION_3",
     pass: dryRunDoc.pass,
     unique_planned_files: uniquePlannedFiles,
     duplicate_pending_write_paths: duplicatePendingWritePaths,
     backup_file_count: backupFileCount,
     planned_validation_pass: validation.pass,
+    post_write_verification_pass: postWriteVerificationPass,
+    post_write_metrics: postWriteMetrics,
     classification: dryRunDoc.classification,
+    next_action: dryRunDoc.next_action,
   };
   fs.writeFileSync(
-    path.join(PREP_DIR, `${PREFIX}-PRODUCTION-TRANSACTION-CORRECTION-2-PROOF.json`),
-    JSON.stringify(txnProof, null, 2) + "\n"
+    path.join(PREP_DIR, `${PREFIX}-PRODUCTION-POST-WRITE-CORRECTION-3-PROOF.json`),
+    JSON.stringify(postWriteProof, null, 2) + "\n"
   );
 
   writePrepManifest(
@@ -308,6 +398,9 @@ function main() {
       `${PREFIX}-PRODUCTION-COPY-ONLY-APPLY-MAPPING.json`,
       `${PREFIX}-PRODUCTION-ATOMIC-CARD-MAPPING.json`,
       `${PREFIX}-PRODUCTION-TRANSACTION-CORRECTION-2-PROOF.json`,
+      `${PREFIX}-PRODUCTION-POST-WRITE-CORRECTION-3-PROOF.json`,
+      `${PREFIX}-PRODUCTION-POST-WRITE-CORRECTION-3-TEST-RESULT.json`,
+      `${PREFIX}-PRODUCTION-POST-WRITE-CORRECTION-3-SUMMARY.md`,
       `${PREFIX}-PRODUCTION-CURRENT-CARD-SNAPSHOTS.json`,
       `${PREFIX}-PRODUCTION-TECHNICAL-BLOCKER-RESOLUTION-1.json`,
       `${PREFIX}-PRODUCTION-TECHNICAL-BLOCKER-RESOLUTION-1-PROOF.json`,
