@@ -1,0 +1,302 @@
+{
+  "g2/a1/is|Blume|idx:104|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "blóm",
+    "owner_note": "IS Blume / lv: individuāli pārbaudīta LRB-031 rinda 1/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Boot|idx:105|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bátur",
+    "owner_note": "IS Boot / lv: individuāli pārbaudīta LRB-031 rinda 2/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|brauchen|idx:106|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þurfa",
+    "owner_note": "IS brauchen / lv: individuāli pārbaudīta LRB-031 rinda 3/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|braun|idx:107|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "brúnn",
+    "owner_note": "IS braun / lv: individuāli pārbaudīta LRB-031 rinda 4/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|breit|idx:108|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "breiður",
+    "owner_note": "IS breit / lv: individuāli pārbaudīta LRB-031 rinda 5/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Brief|idx:109|lv|WRONG_TARGET_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bréf",
+    "owner_note": "IS Brief / lv: individuāli pārbaudīta LRB-031 rinda 6/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|bringen|idx:111|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"koma með • færa\",\"study.translation\":\"koma með • færa\",\"study.explanation\":\"[\\\"Meginhugmynd: bringen merkir að koma einhverju til manneskju eða færa það á ákveðinn stað.\\\",\\\"Það getur verið „koma með“, „færa“ eða „fara með“ eftir samhengi.\\\",\\\"Þýðingin ræðst af stefnu og samhengi.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich bringe dir ein Buch.\\\",\\\"lv\\\":\\\"Ég kem með bók handa þér.\\\"},{\\\"de\\\":\\\"Ich bringe das Paket zur Post.\\\",\\\"lv\\\":\\\"Ég fer með pakkann á pósthúsið.\\\"},{\\\"de\\\":\\\"Ich bringe die Kinder zur Schule.\\\",\\\"lv\\\":\\\"Ég fer með börnin í skólann.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"koma með\\\",\\\"example\\\":\\\"Ich bringe dir ein Buch. – Ég kem með bók handa þér.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"fara með\\\",\\\"example\\\":\\\"Ich bringe das Paket zur Post. – Ég fer með pakkann á pósthúsið.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"aka eða fylgja\\\",\\\"example\\\":\\\"Ich bringe die Kinder zur Schule. – Ég fer með börnin í skólann.\\\"},{\\\"word\\\":\\\"bringen\\\",\\\"meaning\\\":\\\"færa\\\",\\\"example\\\":\\\"Ich bringe dir ein Buch. – Ég færi þér bók.\\\"},{\\\"word\\\":\\\"nehmen\\\",\\\"meaning\\\":\\\"taka\\\",\\\"example\\\":\\\"Ich nehme das Buch. – Ég tek bókina.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Þegar hlutur færist til annarrar manneskju eða á annan stað er bringen oft notað.\\\"}\",\"study.important\":\"[\\\"nehmen merkir að taka.\\\",\\\"bringen merkir að koma með eða færa.\\\",\\\"Nákvæm íslensk þýðing ræðst af samhengi.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"bringen\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"bringe\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"bringe\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"bringe\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"bringen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"nehmen\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{},{},{}]}\"}",
+    "owner_note": "IS bringen / study: individuāli pārbaudīta LRB-031 rinda 7/50; pilnā composite kartīte aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Brot|idx:1|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "brauð",
+    "owner_note": "IS Brot / lv: individuāli pārbaudīta LRB-031 rinda 8/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Brötchen|idx:113|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "brauðbolla",
+    "owner_note": "IS Brötchen / lv: individuāli pārbaudīta LRB-031 rinda 9/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Bruder|idx:115|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bróðir",
+    "owner_note": "IS Bruder / lv: individuāli pārbaudīta LRB-031 rinda 10/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Buch|idx:116|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bók",
+    "owner_note": "IS Buch / lv: individuāli pārbaudīta LRB-031 rinda 11/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Buchstabe|idx:117|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "bókstafur",
+    "owner_note": "IS Buchstabe / lv: individuāli pārbaudīta LRB-031 rinda 12/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Büro|idx:118|lv|FORM_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "skrifstofa",
+    "owner_note": "IS Büro / lv: individuāli pārbaudīta LRB-031 rinda 13/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Bus|idx:119|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "strætisvagn",
+    "owner_note": "IS Bus / lv: individuāli pārbaudīta LRB-031 rinda 14/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Café|idx:121|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "kaffihús",
+    "owner_note": "IS Café / lv: individuāli pārbaudīta LRB-031 rinda 15/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Computer|idx:123|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "tölva",
+    "owner_note": "IS Computer / lv: individuāli pārbaudīta LRB-031 rinda 16/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Cousin|idx:124|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "frændi",
+    "owner_note": "IS Cousin / lv: individuāli pārbaudīta LRB-031 rinda 17/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Cousine|idx:125|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "frænka",
+    "owner_note": "IS Cousine / lv: individuāli pārbaudīta LRB-031 rinda 18/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|da|idx:126|study|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"þar • hér\",\"study.translation\":\"þar • hér\",\"study.explanation\":\"[\\\"Meginhugmynd: á A1-stigi merkir da oftast „þar“.\\\",\\\"da vísar til staðar eða einhvers sem hefur þegar verið nefnt.\\\",\\\"Eftir samhengi getur það einnig merkt „hér“.\\\",\\\"da er almennt staðaratviksorð.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Da ist mein Auto.\\\",\\\"lv\\\":\\\"Þarna er bíllinn minn.\\\"},{\\\"de\\\":\\\"Ich war da.\\\",\\\"lv\\\":\\\"Ég var þar.\\\"},{\\\"de\\\":\\\"Da kommt er.\\\",\\\"lv\\\":\\\"Þarna kemur hann.\\\"},{\\\"de\\\":\\\"Komm mal da her!\\\",\\\"lv\\\":\\\"Komdu hingað!\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"da\\\",\\\"meaning\\\":\\\"þar • hér (almennt)\\\",\\\"example\\\":\\\"Da ist mein Auto. – Þarna er bíllinn minn.\\\"},{\\\"word\\\":\\\"hier\\\",\\\"meaning\\\":\\\"hér (á tilteknum stað)\\\",\\\"example\\\":\\\"Hier ist mein Auto. – Hér er bíllinn minn.\\\"},{\\\"word\\\":\\\"dort\\\",\\\"meaning\\\":\\\"þar (fjær)\\\",\\\"example\\\":\\\"Dort ist mein Auto. – Þar er bíllinn minn.\\\"},{\\\"word\\\":\\\"dann\\\",\\\"meaning\\\":\\\"þá\\\",\\\"example\\\":\\\"Dann gehen wir nach Hause. – Þá förum við heim.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: almennt „þar/hér“ → da.\\\"}\",\"study.important\":\"[\\\"da er almennt staðaratviksorð.\\\",\\\"hier er „hér“ á tilteknum stað en dort er „þar“ fjær.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"da\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Da\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"da\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Da\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"da\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"da\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"hier\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"dort\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"dann\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{},{}]}\"}",
+    "owner_note": "IS da / study: individuāli pārbaudīta LRB-031 rinda 19/50; pilnā composite kartīte aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|danken|idx:127|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þakka",
+    "owner_note": "IS danken / lv: individuāli pārbaudīta LRB-031 rinda 20/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dann|idx:128|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þá",
+    "owner_note": "IS dann / lv: individuāli pārbaudīta LRB-031 rinda 21/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Datum|idx:131|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "dagsetning",
+    "owner_note": "IS Datum / lv: individuāli pārbaudīta LRB-031 rinda 22/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dein|idx:132|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þinn",
+    "owner_note": "IS dein / lv: individuāli pārbaudīta LRB-031 rinda 23/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|denken|idx:133|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hugsa",
+    "owner_note": "IS denken / lv: individuāli pārbaudīta LRB-031 rinda 24/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|deutsch|idx:135|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þýskur",
+    "owner_note": "IS deutsch / lv: individuāli pārbaudīta LRB-031 rinda 25/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Dezember|idx:136|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "desember",
+    "owner_note": "IS Dezember / lv: individuāli pārbaudīta LRB-031 rinda 26/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Dienstag|idx:138|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þriðjudagur",
+    "owner_note": "IS Dienstag / lv: individuāli pārbaudīta LRB-031 rinda 27/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Ding|idx:140|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hlutur",
+    "owner_note": "IS Ding / lv: individuāli pārbaudīta LRB-031 rinda 28/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Donnerstag|idx:141|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "fimmtudagur",
+    "owner_note": "IS Donnerstag / lv: individuāli pārbaudīta LRB-031 rinda 29/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dort|idx:142|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þar",
+    "owner_note": "IS dort / lv: individuāli pārbaudīta LRB-031 rinda 30/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|drei|idx:143|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þrír",
+    "owner_note": "IS drei / lv: individuāli pārbaudīta LRB-031 rinda 31/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dreihundert|idx:144|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þrjú hundruð",
+    "owner_note": "IS dreihundert / lv: individuāli pārbaudīta LRB-031 rinda 32/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dreimal|idx:145|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þrisvar",
+    "owner_note": "IS dreimal / lv: individuāli pārbaudīta LRB-031 rinda 33/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dreißig|idx:146|lv|MEANING_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þrjátíu",
+    "owner_note": "IS dreißig / lv: individuāli pārbaudīta LRB-031 rinda 34/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dreizehn|idx:147|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þrettán",
+    "owner_note": "IS dreizehn / lv: individuāli pārbaudīta LRB-031 rinda 35/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dritte|idx:148|lv|TARGET_LANGUAGE_ERROR|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "þriðji",
+    "owner_note": "IS dritte / lv: individuāli pārbaudīta LRB-031 rinda 36/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|dürfen|idx:150|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "mega",
+    "owner_note": "IS dürfen / lv: individuāli pārbaudīta LRB-031 rinda 37/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Dusche|idx:151|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "sturta",
+    "owner_note": "IS Dusche / lv: individuāli pārbaudīta LRB-031 rinda 38/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Ecke|idx:152|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "horn",
+    "owner_note": "IS Ecke / lv: individuāli pārbaudīta LRB-031 rinda 39/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Ei|idx:153|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "egg",
+    "owner_note": "IS Ei / lv: individuāli pārbaudīta LRB-031 rinda 40/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|ein|idx:154|lv; study.translation; study.explanation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"óákveðinn greinir\",\"study.translation\":\"óákveðinn greinir\",\"study.explanation\":\"[\\\"Meginhugmynd: ein er óákveðinn greinir.\\\",\\\"ein er notað með karlkyns- og hvorugkynsnafnorðum í nefnifalli.\\\",\\\"Karlkyn: ein Mann.\\\",\\\"Hvorugkyn: ein Buch.\\\",\\\"Kvenkyn: eine.\\\",\\\"Karlkyn í þolfalli: einen.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ein Mann wartet draußen.\\\",\\\"lv\\\":\\\"Maður bíður úti.\\\"},{\\\"de\\\":\\\"Ich habe ein Buch.\\\",\\\"lv\\\":\\\"Ég á bók.\\\"},{\\\"de\\\":\\\"Er sucht einen Stift.\\\",\\\"lv\\\":\\\"Hann leitar að penna.\\\"},{\\\"de\\\":\\\"Ein Kind spielt.\\\",\\\"lv\\\":\\\"Barn leikur sér.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"ein Mann\\\",\\\"meaning\\\":\\\"karlkyn\\\",\\\"example\\\":\\\"Ein Mann wartet draußen. – Maður bíður úti.\\\"},{\\\"word\\\":\\\"eine Frau\\\",\\\"meaning\\\":\\\"kvenkyn\\\",\\\"example\\\":\\\"eine Frau – kona\\\"},{\\\"word\\\":\\\"ein Buch\\\",\\\"meaning\\\":\\\"hvorugkyn\\\",\\\"example\\\":\\\"Ich habe ein Buch. – Ég á bók.\\\"},{\\\"word\\\":\\\"einen Mann\\\",\\\"meaning\\\":\\\"þolfall\\\",\\\"example\\\":\\\"einen Mann – mann\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: ein er oft óákveðinn greinir, ekki aðeins talan „einn“.\\\"}\",\"study.important\":\"[\\\"ein: karlkyn í nefnifalli.\\\",\\\"ein: hvorugkyn í nefnifalli og þolfalli.\\\",\\\"eine: kvenkyn.\\\",\\\"einen: karlkyn í þolfalli.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"ein\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Ein\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"ein\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"einen\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Ein\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"ein Mann\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"eine Frau\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"ein Buch\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"einen Mann\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{},{},{},{}]}\"}",
+    "owner_note": "IS ein / lv; study.translation; study.explanation; study.examples; study.comparison: individuāli pārbaudīta LRB-031 rinda 41/50; pilnā composite kartīte aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|einfach|idx:155|lv|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "einfaldur",
+    "owner_note": "IS einfach / lv: individuāli pārbaudīta LRB-031 rinda 42/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|eins|idx:156|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "einn",
+    "owner_note": "IS eins / lv: individuāli pārbaudīta LRB-031 rinda 43/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Eis|idx:157|lv; study.translation; study.explanation; study.examples; study.comparison|TARGET_LANGUAGE_MISMATCH|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "{\"lv\":\"ís\",\"study.translation\":\"ís\",\"study.explanation\":\"[\\\"Meginhugmynd: das Eis getur merkt bæði frosið vatn og rjómaís.\\\",\\\"Í íslensku er orðið ís einnig notað í báðum merkingum.\\\",\\\"Samhengið sýnir hvort átt er við frosið vatn eða eftirrétt.\\\"]\",\"study.examples\":\"[{\\\"de\\\":\\\"Ich esse ein Eis.\\\",\\\"lv\\\":\\\"Ég borða ís.\\\"},{\\\"de\\\":\\\"Möchtest du ein Eis?\\\",\\\"lv\\\":\\\"Viltu ís?\\\"},{\\\"de\\\":\\\"Im Winter liegt Eis auf dem See.\\\",\\\"lv\\\":\\\"Á veturna er ís á vatninu.\\\"},{\\\"de\\\":\\\"Das Eis ist kalt.\\\",\\\"lv\\\":\\\"Ísinn er kaldur.\\\"},{\\\"de\\\":\\\"Ich nehme ein Eis mit Schokolade.\\\",\\\"lv\\\":\\\"Ég fæ mér súkkulaðiís.\\\"}]\",\"study.comparison\":\"[{\\\"word\\\":\\\"das Eis\\\",\\\"meaning\\\":\\\"ís • rjómaís\\\",\\\"example\\\":\\\"Ich esse ein Eis. – Ég borða ís.\\\"},{\\\"word\\\":\\\"der Schnee\\\",\\\"meaning\\\":\\\"snjór\\\",\\\"example\\\":\\\"Der Schnee ist weiß. – Snjórinn er hvítur.\\\"},{\\\"word\\\":\\\"kalt\\\",\\\"meaning\\\":\\\"kaldur\\\",\\\"example\\\":\\\"Das Wasser ist kalt. – Vatnið er kalt.\\\"},{\\\"word\\\":\\\"das Dessert\\\",\\\"meaning\\\":\\\"eftirréttur\\\",\\\"example\\\":\\\"Eis ist ein Dessert. – Ís er eftirréttur.\\\"}]\",\"study.tip\":\"{\\\"text\\\":\\\"Mundu: samhengið greinir á milli frosins vatns og rjómaíss.\\\"}\",\"study.important\":\"[\\\"das Eis getur merkt ís sem frosið vatn eða ís sem eftirrétt.\\\",\\\"Samhengið ræður merkingunni.\\\"]\",\"study.sectionAccents\":\"{\\\"explanation\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"examples\\\":[{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{}},{\\\"de\\\":{\\\"blue\\\":[\\\"Eis\\\"]},\\\"lv\\\":{}}],\\\"comparison\\\":[{\\\"word\\\":{\\\"green\\\":[\\\"das Eis\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"der Schnee\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"kalt\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}},{\\\"word\\\":{\\\"green\\\":[\\\"das Dessert\\\"]},\\\"meaning\\\":{},\\\"example\\\":{}}],\\\"tip\\\":{\\\"left\\\":{}},\\\"important\\\":[{},{}]}\"}",
+    "owner_note": "IS Eis / lv; study.translation; study.explanation; study.examples; study.comparison: individuāli pārbaudīta LRB-031 rinda 44/50; pilnā composite kartīte aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|elf|idx:158|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "ellefu",
+    "owner_note": "IS elf / lv: individuāli pārbaudīta LRB-031 rinda 45/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Eltern|idx:160|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "foreldrar",
+    "owner_note": "IS Eltern / lv: individuāli pārbaudīta LRB-031 rinda 46/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Ende|idx:161|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "endir",
+    "owner_note": "IS Ende / lv: individuāli pārbaudīta LRB-031 rinda 47/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|er|idx:162|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "hann",
+    "owner_note": "IS er / lv: individuāli pārbaudīta LRB-031 rinda 48/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Erdbeere|idx:76|lv|WRONG_LANGUAGE|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "jarðarber",
+    "owner_note": "IS Erdbeere / lv: individuāli pārbaudīta LRB-031 rinda 49/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  },
+  "g2/a1/is|Erde|idx:164|lv|MISTRANSLATION|gpt-5.6-luna": {
+    "owner_status": "DECIDED",
+    "owner_decision": "LABOT",
+    "owner_new": "jörð",
+    "owner_note": "IS Erde / lv: individuāli pārbaudīta LRB-031 rinda 50/50; skalārā lv vērtība aizvietota ar precīzu islandiešu vērtību, DE avots nemainīts."
+  }
+}
