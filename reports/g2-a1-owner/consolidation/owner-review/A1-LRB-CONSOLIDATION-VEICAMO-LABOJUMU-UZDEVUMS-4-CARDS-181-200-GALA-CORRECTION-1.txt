@@ -1,0 +1,33 @@
+A1 LRB — GALA LABOJUMS #1 KARTĪTĒM 181–200
+
+STATUSS
+A1_LRB_CONSOLIDATION_CARDS_181_200_GALA_CORRECTION_1_READY
+
+IDENTITĀTE
+PR: #830
+Zars: cursor/a1-lrb-001-103-consolidation
+Base HEAD: 4971b7a891e73e8118bf28dc409cefba96aa65c5
+Base OWNER bundle SHA-256: d7aa7de5d9f521cc45917e25550a21ae8d9ff8ef9a46922abe50fd4286da095c
+Korekcijas JSON SHA-256: faaf3bc1f720d59e53802f6c9f85a1e3b58241946144bf1aa5b1e6e1c1b23e5e
+
+LĒMUMI
+LABOT: 2
+NELABOT: 18
+PENDING: 0
+
+LABOT ATSLĒGAS
+sr|vor
+sv|erst
+
+CURSOR DARBĪBA — TIKAI COPY-PASTE
+1. Pārbaudi PR, zaru, Base HEAD un Base OWNER bundle SHA-256.
+2. No A1-LRB-CONSOLIDATION-CARDS-181-200-GALA-CORRECTION-1.json precīzi aizstāj abas changes[].full_card_owner_new kartītes pēc target_language + canonical_card_object_id.
+3. Neveic jaunu lingvistisko analīzi un nepārfrāzē OWNER vērtības.
+4. Sinhronizē 181–200 bundle, galveno COPY-PASTE-4 failu un OWNER VIEW part-005.
+5. Izveido korekcijas proof un APPLIED artefaktu.
+6. Palaid svaigu 181–200 pārbaudi: applied_exactly 2/2; reviewed 20/20; pending 0; DE alignment 0; wrong-language residue 0; semantic/source-fidelity pārkāpumi 0; duplicate/degenerate pairs 0; internal contradictions 0; full composite PASS.
+7. Nemaini DE, production, Crowdin, ingest/apply, konsolidēto mapping vai kartītes ārpus 181–200.
+8. Neveic merge un nereģistrē GALA PASS.
+
+SAGAIDĀMAIS STATUSS
+A1_LRB_CONSOLIDATION_CARDS_181_200_GALA_CORRECTION_1_COMPLETE_AWAITING_GALA_VERDICT

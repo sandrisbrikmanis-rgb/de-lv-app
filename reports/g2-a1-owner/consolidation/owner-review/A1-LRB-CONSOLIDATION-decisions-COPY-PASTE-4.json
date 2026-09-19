@@ -19246,7 +19246,7 @@
             },
             {
               "de": "Es ist fünf vor acht.",
-              "lv": "Пет до осам је."
+              "lv": "Осам је без пет."
             },
             {
               "de": "Nach dem Essen gehen wir spazieren.",
@@ -20123,7 +20123,7 @@
           "examples": [
             {
               "de": "Erst lernen, dann spielen.",
-              "lv": "Först plugga, sedan leka."
+              "lv": "Först ska man plugga, sedan leka."
             },
             {
               "de": "Ich komme erst morgen.",
@@ -20142,7 +20142,7 @@
             {
               "word": "erst",
               "meaning": "först, inte förrän eller bara",
-              "example": "Erst lernen, dann spielen. – Först plugga, sedan leka."
+              "example": "Erst lernen, dann spielen. – Först ska man plugga, sedan leka."
             },
             {
               "word": "zuerst",
@@ -20792,5 +20792,18 @@
     "git_head": "51768e86f55d229c9f77462fa1745ef2fe5ef49c",
     "pass_proof_sha256": "14af3bb7889021264a0b6e274e68bb0d457747f952ed37b418c5a14f60da77d1",
     "cards_161_180_payload_sha256": "da9f8c9ca8825a7075c1260b5cd9d280e9d282458f6dafe62612f11e66df17b4"
+  },
+  "gala_correction_1_cards_181_200": {
+    "applied_at": "2026-09-19T10:39:10.033Z",
+    "source_head": "4971b7a891e73e8118bf28dc409cefba96aa65c5",
+    "correction_sha256": "faaf3bc1f720d59e53802f6c9f85a1e3b58241946144bf1aa5b1e6e1c1b23e5e",
+    "corrected_keys": [
+      "sr|vor",
+      "sv|erst"
+    ],
+    "slice": [
+      180,
+      200
+    ]
   }
 }
