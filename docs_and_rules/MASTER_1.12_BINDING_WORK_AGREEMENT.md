@@ -8,8 +8,6 @@ Ja šī dokumenta prasības ir pretrunā ar `PROJECT_LANGUAGE_MASTER_STANDARD.md
 
 **Lingvistiskais audits:** obligāti `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` + MASTER §7.153–§7.157 (avotu atbalstīts audits, 33 valodas, PASS slēgšana, OWNER tvērums).
 
-**Oficiālie valodu avoti (OWNER komplekts):** `docs_and_rules/official-language-sources/` — `Oficialie-valodu-avoti-1.txt` … `Oficialie-valodu-avoti-4.txt`.
-
 ------------------------------------------------------------------------
 
 ## 0. Konfliktu protokols (obligāts visiem aģentiem)

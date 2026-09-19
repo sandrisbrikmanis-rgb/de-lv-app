@@ -4,10 +4,7 @@
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
-const {
-  OFFICIAL_SOURCE_FILES,
-  verifyOfficialLanguageSources,
-} = require("./official-language-sources-registry");
+const { verifyEmbeddedLanguageRegistry } = require("./official-language-sources-registry");
 
 const ROOT = path.join(__dirname, "..", "..");
 const MASTER_PATH = path.join(ROOT, "docs_and_rules/PROJECT_LANGUAGE_MASTER_STANDARD.md");
@@ -254,26 +251,21 @@ function checkBatchTableUnchanged(doc) {
   };
 }
 
-function checkDocReferences() {
-  const requiredPath = "docs_and_rules/official-language-sources/";
-  const docs = [APVIENOTS_PATH, MASTER_PATH, BINDING_PATH].filter((p) => fs.existsSync(p));
+function checkApvienotsDocReferences() {
+  const apvienotsName = "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md";
+  const docs = [MASTER_PATH, BINDING_PATH].filter((p) => fs.existsSync(p));
   const missingIn = [];
   for (const p of docs) {
     const text = readUtf8(p);
-    if (!text.includes(requiredPath) && !text.includes("official-language-sources/")) {
+    if (!text.includes(apvienotsName)) {
       missingIn.push(path.relative(ROOT, p));
     }
   }
-  return { pass: missingIn.length === 0, missingIn, requiredPath };
+  return { pass: missingIn.length === 0, missingIn, apvienotsName };
 }
 
 function checkRequiredMasterFiles() {
-  const required = [
-    APVIENOTS_PATH,
-    MASTER_PATH,
-    BINDING_PATH,
-    ...OFFICIAL_SOURCE_FILES.map((rel) => path.join(ROOT, rel)),
-  ];
+  const required = [APVIENOTS_PATH, MASTER_PATH, BINDING_PATH];
   const missing = required.filter((p) => !fs.existsSync(p)).map((p) => path.relative(ROOT, p));
   return { pass: missing.length === 0, missing };
 }
@@ -304,9 +296,9 @@ function runMasterPremergeVerify(options = {}) {
   const refs = checkInternalRefs(doc);
   const rules = checkRules(doc);
   const batchTable = checkBatchTableUnchanged(doc);
-  const docRefs = checkDocReferences();
+  const docRefs = checkApvienotsDocReferences();
   const requiredFiles = checkRequiredMasterFiles();
-  const officialSources = verifyOfficialLanguageSources(ROOT);
+  const embeddedRegistry = verifyEmbeddedLanguageRegistry(ROOT);
   const tooling = checkTooling();
 
   const v10Pct = Math.round((rules.v10.retained / rules.v10.total) * 100);
@@ -325,7 +317,7 @@ function runMasterPremergeVerify(options = {}) {
     batchTable.pass &&
     docRefs.pass &&
     requiredFiles.pass &&
-    officialSources.pass;
+    embeddedRegistry.pass;
 
   const toolingPass =
     tooling.regressionPass &&
@@ -347,12 +339,12 @@ function runMasterPremergeVerify(options = {}) {
   if (prod.productionChanges > 0) blockers.push({ code: "PRODUCTION_DIFF", message: prod.prodHits.join(", ") });
   if (prod.deChanges > 0) blockers.push({ code: "DE_DIFF", message: prod.deHits.join(", ") });
   if (!batchTable.pass) blockers.push({ code: "BATCH_TABLE_CHANGED", message: batchTable.missing.join("; ") });
-  if (!docRefs.pass) blockers.push({ code: "DOC_REFS_OFFICIAL_SOURCES", message: docRefs.missingIn.join(", ") });
+  if (!docRefs.pass) blockers.push({ code: "DOC_REFS_APVIENOTS", message: docRefs.missingIn.join(", ") });
   if (!requiredFiles.pass) blockers.push({ code: "REQUIRED_FILES_MISSING", message: requiredFiles.missing.join(", ") });
-  if (!officialSources.pass) {
+  if (!embeddedRegistry.pass) {
     blockers.push({
-      code: officialSources.blockerCode || "OFFICIAL_LANGUAGE_SOURCES",
-      message: officialSources.blockerMessage || "Official language sources verification failed",
+      code: embeddedRegistry.blockerCode || "EMBEDDED_LANGUAGE_REGISTRY_FAIL",
+      message: embeddedRegistry.blockerMessage || "Embedded language registry verification failed",
     });
   }
 
@@ -369,8 +361,12 @@ function runMasterPremergeVerify(options = {}) {
     SECTION_NUMBER_COLLISIONS: collisions.count,
     BROKEN_INTERNAL_REFERENCES: refs.count,
     BATCH_TABLE_UNCHANGED: batchTable.pass ? "PASS" : "FAIL",
-    OFFICIAL_LANGUAGE_SOURCES: officialSources.pass ? "PASS" : "FAIL",
-    DOC_REFERENCES_OFFICIAL_SOURCES: docRefs.pass ? "PASS" : "FAIL",
+    EMBEDDED_LANGUAGE_REGISTRY: embeddedRegistry.pass ? "PASS" : "FAIL",
+    EMBEDDED_LANGUAGE_REGISTRY_COUNT: embeddedRegistry.EMBEDDED_LANGUAGE_REGISTRY_COUNT,
+    LANGUAGE_CODE_DUPLICATES: embeddedRegistry.LANGUAGE_CODE_DUPLICATES,
+    MISSING_LANGUAGE_CODES: embeddedRegistry.MISSING_LANGUAGE_CODES,
+    UNKNOWN_LANGUAGE_CODES: embeddedRegistry.UNKNOWN_LANGUAGE_CODES,
+    DOC_REFERENCES_APVIENOTS: docRefs.pass ? "PASS" : "FAIL",
     PRODUCTION_CHANGES: prod.productionChanges,
     DE_CHANGES: prod.deChanges,
     productionFilesChanged: prod.prodHits,
@@ -386,7 +382,7 @@ function runMasterPremergeVerify(options = {}) {
     batchTable,
     docRefs,
     requiredFiles,
-    officialSources,
+    embeddedRegistry,
     tooling,
     blockers,
   };

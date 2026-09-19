@@ -28,10 +28,6 @@ Lingvistiskā audita avotu atbalstīta metodika (33 valodas, PASS/OWNER
 tvērums, reģistrs): `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` — operatīvi
 iekļauta šajā MASTER dokumentā kā **§7.153–§7.157**.
 
-Detalizētais OWNER apstiprinātais oficiālo valodu avotu komplekts (4 faili,
-33 valodas, URL un avotu hierarhija): `docs_and_rules/official-language-sources/`
-(`Oficialie-valodu-avoti-1.txt` … `Oficialie-valodu-avoti-4.txt`).
-
 Iepriekšējie dokumenti drīkst palikt repozitorijā tikai kā
 vēsturiski/reference materiāli. Ja ir pretruna starp tiem un šo MASTER
 dokumentu, spēkā ir šis dokuments.
