@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "classification": "AWAITING_GALA_VERDICT",
-  "generated_at": "2026-09-19T07:28:48.896Z",
+  "generated_at": "2026-09-19T07:28:58.752Z",
   "source_review_pack_head": "56aa8ebd",
   "owner_bundle_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-FIRST-20.json",
   "owner_bundle_sha256": "97084d3d910bafb29608c6966a980c6bc41de6f7974c585820474f2c4ee49ae1",
-  "git_head": "56aa8ebd0e20945f3d3d8b05dc133b149a54fa29",
+  "git_head": "61df21592062f2373796056b0e2d1001f577724d",
   "consolidated_mapping_modified": false,
   "production_modified": false,
   "linguistic_changes_made": 0,
