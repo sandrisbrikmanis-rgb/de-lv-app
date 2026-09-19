@@ -1,0 +1,57 @@
+{
+  "batch_id": "LRB-015",
+  "ownerAuthorizationStatus": "APPROVED",
+  "reviewer": "gpt-5.6-luna",
+  "authorizedAt": "2026-09-12T13:35:00.000Z",
+  "linguisticVerdict": "LRB_015_FULL_50_50_LINGUISTIC_REVIEW_PASS",
+  "row_count": 50,
+  "labot": 48,
+  "nelabot": 2,
+  "pending": 0,
+  "antiBulkPass": true,
+  "residualAuditPass": true,
+  "antiBulkClassification": "G2_A1_OWNER_ANTI_BULK_AUDIT_PASS",
+  "individual_linguistic": 50,
+  "provenance_individual_count": 50,
+  "languages": {
+    "fi": 50
+  },
+  "nelabot_cards": ["Schaf", "Schnee"],
+  "composite_labot_cards": [
+    "schwimmen",
+    "sehen",
+    "sein",
+    "Seite",
+    "sich",
+    "sicher",
+    "sie",
+    "Sie",
+    "sitzen",
+    "sollen",
+    "sprechen"
+  ],
+  "scope": "Schaf..Staat",
+  "productionSource": "data/fi/a1.js",
+  "fullCompositeRepair": true,
+  "compositeMicroRepairs": ["sie", "Sie", "sitzen", "sein"],
+  "explanationDedupeRepairs": {
+    "sie": "full study.explanation array (5 items); removed semantic dupes at former [5]/[6]",
+    "Sie": "full study.explanation array (6 items); removed semantic dupe at former [4]"
+  },
+  "fullCompositeRepairAt": "2026-09-12T13:40:00.000Z",
+  "pdfProofPath": "reports/g2-a1-owner/batches-reviewed/LRB-015-residual-wrong-language-proof.json",
+  "postRepairMerge": true,
+  "pdfGates": {
+    "ROWS": "50/50",
+    "PENDING": 0,
+    "wrong_language_residue": 0,
+    "semantic_alignment_violations": 0,
+    "duplicate_meanings": 0,
+    "internal_card_contradictions": 0,
+    "target_language_quality_errors": 0,
+    "stale_highlights": 0,
+    "full_composite_completeness": "PASS",
+    "anti_bulk": "PASS"
+  },
+  "note": "OWNER authorization APPROVED. sie/Sie explanation dedupe via full study.explanation arrays (semantic duplicate gate). Fresh merge gates PASS. 48 LABOT / 2 NELABOT. DE/production/Crowdin/ingest/apply unchanged."
+}
