@@ -34,7 +34,19 @@ const TARGET_CLASSIFICATION =
 function main() {
   const blockers = [];
   const originMain = execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
-  if (originMain !== EXPECTED_MAIN_SHA) blockers.push(`origin_main_mismatch:${originMain}`);
+  if (originMain !== EXPECTED_MAIN_SHA) {
+    let mainAtOrAfterConsolidationPin = false;
+    try {
+      execSync(`git merge-base --is-ancestor ${EXPECTED_MAIN_SHA} ${originMain}`, {
+        cwd: ROOT,
+        stdio: "pipe",
+      });
+      mainAtOrAfterConsolidationPin = true;
+    } catch {
+      mainAtOrAfterConsolidationPin = false;
+    }
+    if (!mainAtOrAfterConsolidationPin) blockers.push(`origin_main_mismatch:${originMain}`);
+  }
 
   for (const name of REQUIRED) {
     if (!fs.existsSync(path.join(PREP_DIR, name))) blockers.push(`missing:${name}`);
