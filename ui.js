@@ -6306,15 +6306,23 @@ async function activateStudyCardTestMode(value) {
   const query = decodeCardQuery(value);
   if (!query) return false;
 
+  if (!window.flashcards?.length && typeof window.rebuildFlashcardCollections === "function") {
+    window.rebuildFlashcardCollections();
+  }
+  if (!allEntries().length) {
+    console.warn("[card-search] Flashcard data is not loaded yet for query:", query);
+    return false;
+  }
+
   await ensureMultilingualCardSearchIndex();
   const card = findCardByQuery(query);
   if (!card) {
-    console.warn("Study card not found:", query);
+    console.warn("[card-search] Study card not found:", query);
     showStudyCardNotFoundMessage();
     return false;
   }
 
-  console.log("Found study card:", card.id || card.study?.id || card.de);
+  console.log("[card-search] Found study card:", card.id || card.study?.id || card.de);
   clearSpellingAutoNextTimer();
   state.studyTestCard = card;
   state.group = card.level;
@@ -6330,6 +6338,8 @@ async function activateStudyCardTestMode(value) {
   render();
   return true;
 }
+
+window.activateStudyCardTestMode = activateStudyCardTestMode;
 
 function clampIndex(index, length) {
   if (length <= 0) {
@@ -8961,7 +8971,7 @@ window.refreshAppLanguageUi = refreshAppLanguageUi;
 
 let appUiBooted = false;
 
-function bootAppUi() {
+async function bootAppUi() {
   if (appUiBooted) return;
   appUiBooted = true;
   applyLocalizedStaticUi();
@@ -8973,22 +8983,22 @@ function bootAppUi() {
   const studyCardTestParam = new URLSearchParams(window.location.search).get("study")
     || new URLSearchParams(window.location.search).get("card");
 
-  activateStudyCardTestMode(studyCardTestParam).then((activated) => {
-    if (activated) return;
-    try {
-      if (state.navScreen === "detail") {
-        renderCard();
-      } else {
-        renderMainMenuButtons();
-      }
-    } catch (error) {
-      console.error("Render failed:", error);
-      renderGroupButtons();
-      if (elements.notice) {
-        elements.notice.textContent = t("notices.loadFailed");
-      }
+  const activated = await activateStudyCardTestMode(studyCardTestParam);
+  if (activated) return;
+
+  try {
+    if (state.navScreen === "detail") {
+      renderCard();
+    } else {
+      renderMainMenuButtons();
     }
-  });
+  } catch (error) {
+    console.error("Render failed:", error);
+    renderGroupButtons();
+    if (elements.notice) {
+      elements.notice.textContent = t("notices.loadFailed");
+    }
+  }
 }
 
 window.bootAppUi = bootAppUi;
