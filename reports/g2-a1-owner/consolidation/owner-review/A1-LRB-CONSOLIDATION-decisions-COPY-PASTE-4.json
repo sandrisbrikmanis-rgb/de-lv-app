@@ -17493,5 +17493,12 @@
       120,
       140
     ]
+  },
+  "cards_121_140_gala_pass": {
+    "classification": "A1_LRB_CONSOLIDATION_CARDS_121_140_FULL_LINGUISTIC_REVIEW_PASS",
+    "recorded_at": "2026-09-19T09:25:22.049Z",
+    "git_head": "a66237f4c558c19e0f7268a71b8dcb7ae3d5c134",
+    "pass_proof_sha256": "f9006bd8b0e98d4b83aac331fbbf8b92035521a9505d46da7f1d2029d216dce4",
+    "cards_121_140_payload_sha256": "0f26bb8d2c09b53ec4093a1e11287b4e0c8362185173bcfa795467f52acf4637"
   }
 }
