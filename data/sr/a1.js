@@ -714,127 +714,52 @@ const A1_WORDS = [
   },
   {
     "de": "also",
-    "lv": "Ето защо",
+    "lv": "дакле • према томе",
     "level": "A1",
     "study": {
       "id": "a1-also",
       "layout": "standardStudy",
-      "translation": "Ето защо",
-      "explanation": "Koristi se za izvođenje zaključaka ili prikazivanje rezultata. Toa znači \"zatoa\", \"zatoa\".",
+      "translation": "дакле • према томе",
+      "explanation": [
+        "Користи се за извођење закључка или приказивање резултата: „дакле“, „према томе“."
+      ],
       "examples": [
         {
           "de": "Es regnet, also bleibe ich zu Hause.",
-          "lv": "Врне дожд, затоа останувам дома."
+          "lv": "Пада киша, дакле остајем код куће."
         },
         {
           "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-          "lv": "Ti si bolestan, pa ne ideš na posao."
+          "lv": "Болестан/болесна си, дакле не идеш на посао."
         },
         {
           "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-          "lv": "Учев многу и сега разбирам."
+          "lv": "Много сам учио/учила, дакле сада то разумем."
         }
       ],
       "comparison": [
         {
           "word": "also",
-          "meaning": "Torej • Zato",
-          "example": "Es regnet, also bleibe ich zu Hause. – Врне дожд, затоа останувам дома."
+          "meaning": "дакле • према томе",
+          "example": "Es regnet, also bleibe ich zu Hause. – Пада киша, дакле остајем код куће."
         },
         {
           "word": "auch",
-          "meaning": "-Tudi tebe, tudi tebe.",
-          "example": "Ich komme auch. – Ќе дојдам и јас."
+          "meaning": "такође",
+          "example": "Ich komme auch. – И ја долазим."
         },
         {
           "word": "deshalb",
-          "meaning": "Ето защо",
-          "example": "Es regnet, deshalb bleibe ich zu Hause. – Врне дожд, затоа останувам дома."
+          "meaning": "зато",
+          "example": "Es regnet, deshalb bleibe ich zu Hause. – Пада киша, зато остајем код куће."
         }
       ],
       "tip": {
-        "text": "Запомнете: заклучок → исто така."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "also"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "also"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "also"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "also"
-              ]
-            },
-            "example": {
-              "green": [
-                "also"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "auch"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "auch"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "deshalb"
-              ]
-            },
-            "example": {
-              "green": [
-                "deshalb"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {
-            "green": [
-              "Летонското"
-            ]
-          }
-        ]
+        "text": "Запамти: закључак → also."
       },
       "important": [
-        "Iz tega izhaja tudi zaključek: iz navedenega izhaja naslednja misel.",
-        "Летонското „така“ често може да биде и дешалб."
+        "also уводи закључак који произлази из претходно реченог.",
+        "За значење „зато“ немачки често користи deshalb."
       ]
     }
   },
@@ -970,210 +895,90 @@ const A1_WORDS = [
   },
   {
     "de": "auch",
-    "lv": "-Tudi tebe, tudi tebe.",
+    "lv": "такође",
     "level": "A1",
     "study": {
       "id": "a1-auch-study",
       "layout": "standardStudy",
-      "translation": "-Tudi tebe, tudi tebe.",
+      "translation": "такође",
       "explanation": [
-        "Glavna ideja: Najčešći i neutralni \"također\".",
-        "Ouch v bistvu pomeni: preprosto \"preveč\".",
-        "Pogosto je značilno: dodajanje.",
-        "Auch е најчестиот збор што значи „исто така“."
+        "Главна идеја: auch је најчешћа и најнеутралнија немачка реч за „такође“.",
+        "Означава додавање још једне особе, ствари или радње."
       ],
       "examples": [
         {
           "de": "Ich komme auch.",
-          "lv": "Ќе дојдам и јас."
+          "lv": "И ја долазим."
         },
         {
           "de": "Sie arbeitet auch hier.",
-          "lv": "Ќе дојдам и јас"
+          "lv": "И она ради овде."
         },
         {
           "de": "Ich wünsche Ihnen auch einen schönen Tag.",
-          "lv": "Тя също работи тук."
+          "lv": "И вама желим пријатан дан."
         }
       ],
       "tip": [
-        "O = tudi",
-        "Uporabite auch, ko se kontekst ujema s to vrednostjo."
+        "auch = такође",
+        "У немачкој реченици auch стоји уз део на који се односи."
       ],
       "important": [
-        "Ich auch wünsche Ihnen - neispravan red riječi.",
-        "Ah = također.",
-        "Погрешно: Ich auch wünsche Ihnen einen schönen Tag."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "auch"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "auch"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "auch"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "auch"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {}
-        ],
-        "important": [
-          {
-            "blue": [
-              "auch"
-            ]
-          }
-        ]
-      }
+        "Правилно: Ich wünsche Ihnen auch einen schönen Tag.",
+        "Неправилно: Ich auch wünsche Ihnen einen schönen Tag."
+      ]
     }
   },
   {
     "de": "auf",
-    "lv": "ДО",
+    "lv": "на",
     "level": "A1",
     "study": {
       "id": "a1-auf",
       "layout": "standardStudy",
-      "translation": "ДО",
-      "explanation": "Koristi se za označavanje smjera prema lokaciji ili vrhu površine.",
+      "translation": "на",
+      "explanation": [
+        "Предлог auf овде означава кретање ка површини или навише. Уз питање куда? употребљава се акузатив."
+      ],
       "examples": [
         {
           "de": "Ich stelle das Buch auf den Tisch.",
-          "lv": "Ја ставив книгата на масата."
+          "lv": "Стављам књигу на сто."
         },
         {
           "de": "Wir fahren auf den Berg.",
-          "lv": "Одиме на планина."
+          "lv": "Возимо се на планину."
         },
         {
           "de": "Die Katze springt auf das Sofa.",
-          "lv": "Mačka skoči na kavč."
+          "lv": "Мачка скаче на кауч."
         }
       ],
       "comparison": [
         {
           "word": "auf",
-          "meaning": "До (на повърхността или нагоре)",
-          "example": "Ich stelle das Glas auf den Tisch. – Kozarec sem položila na mizo."
+          "meaning": "на површину или навише",
+          "example": "auf den Tisch – на сто"
         },
         {
           "word": "an",
-          "meaning": "Вклучено (вертикална површина)",
-          "example": "Ich hänge das Bild an die Wand. – Es carinu bildi pita sienas."
+          "meaning": "уз усправну површину",
+          "example": "an die Wand – на зид"
         },
         {
           "word": "in",
-          "meaning": "Unutra",
-          "example": "Ich lege das Buch in die Tasche. – Stavio sam knjigu u torbu."
+          "meaning": "у унутрашњост",
+          "example": "in die Tasche – у торбу"
         }
       ],
-      "tip": {
-        "text": "Zapamtite: na površini/iznad → auf."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "auf"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "auf"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "auf"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "auf"
-              ]
-            },
-            "example": {
-              "blue": [
-                "auf"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "an"
-              ]
-            },
-            "example": {
-              "green": [
-                "an",
-                "die"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "in"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "in"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {
-            "blue": [
-              "auf"
-            ]
-          },
-          {}
-        ]
-      },
+      "tip": [
+        {
+          "text": "Површина или кретање навише → auf."
+        }
+      ],
       "important": [
-        "Auf nije samo \"uključen\". To često znači kretanje ili boravak na/iznad površine.",
-        "Ako je nešto blizu vertikalne površine, trebat će vam • Ako je unutra, onda morate ući."
+        "Не преводи се увек истом речју; значење зависи од места и смера.",
+        "За кретање у унутрашњост употребљава се in."
       ]
     }
   },
@@ -1219,138 +1024,54 @@ const A1_WORDS = [
   },
   {
     "de": "aus",
-    "lv": "Од • Од",
+    "lv": "из • од",
     "level": "A1",
     "study": {
       "id": "a1-aus",
       "layout": "standardStudy",
-      "translation": "Од • Од",
-      "explanation": "Koristi se kada nešto dolazi iznutra, izlazi ili ukazuje na curenje.",
+      "translation": "из • од",
+      "explanation": [
+        "aus означава порекло или кретање из унутрашњости неког простора или предмета."
+      ],
       "examples": [
         {
           "de": "Ich komme aus Deutschland.",
-          "lv": "Ja sam iz Njemačke."
+          "lv": "Ја сам из Немачке."
         },
         {
           "de": "Er geht aus dem Haus.",
-          "lv": "Той напуска дома си."
+          "lv": "Он излази из куће."
         },
         {
           "de": "Ich nehme das Buch aus der Tasche.",
-          "lv": "Ја вадам книгата од торбата."
+          "lv": "Вадим књигу из торбе."
         }
       ],
       "comparison": [
         {
           "word": "aus",
-          "meaning": "Unutra, iz",
-          "example": "aus dem Haus – Од дома"
+          "meaning": "из унутрашњости или порекло",
+          "example": "aus dem Haus – из куће"
         },
         {
           "word": "von",
-          "meaning": "Од личност, место, површина",
-          "example": "von meinem Freund – Ali moj prijatelju"
+          "meaning": "од особе, места или површине",
+          "example": "von meinem Freund – од мог пријатеља"
         },
         {
           "word": "ab",
-          "meaning": "Почнувајќи од момент или време",
-          "example": "ab Montag – Od ponedeljka"
+          "meaning": "почев од времена или места",
+          "example": "ab Montag – од понедељка"
         }
       ],
-      "tip": {
-        "text": "Zapomnite: programi → aus."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "aus"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "aus"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "aus"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "aus"
-              ]
-            },
-            "example": {
-              "green": [
-                "aus"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "von"
-              ]
-            },
-            "example": {
-              "green": [
-                "von"
-              ],
-              "purple": [
-                "von"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ab"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ab"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "green": [
-              "aus"
-            ]
-          }
-        },
-        "important": [
-          {
-            "green": [
-              "au"
-            ]
-          },
-          {
-            "blue": [
-              "ab"
-            ]
-          }
-        ]
-      },
+      "tip": [
+        {
+          "text": "Изнутра или порекло → aus."
+        }
+      ],
       "important": [
-        "Au običajno pomeni premikanje od znotraj ali od začetka.",
-        "Kada se govori samo o početnoj tački u vremenu ili mjestu, često se koristi ab."
+        "За излазак из затвореног простора употреби aus.",
+        "ab најчешће означава почетну тачку у времену или простору."
       ]
     }
   },
@@ -1366,260 +1087,93 @@ const A1_WORDS = [
   },
   {
     "de": "aufs",
-    "lv": "До *къде*?",
+    "lv": "на",
     "level": "A1",
     "study": {
       "id": "a1-aufs",
       "layout": "standardStudy",
-      "translation": "До *къде*?",
+      "translation": "на",
       "explanation": [
-        "Aufs je okrajšava za predlog auf in člen das.",
-        "Polna oblika: auf das (kje?).",
-        "Се користи кога дејството укажува на насоката кон одредена работа или површина - одговара на прашањето каде?",
-        "Pogosto se uporablja na poti: za vzpenjanje, sedenje, spuščanje, vožnjo do nečesa.",
-        "Во разговорниот и секојдневниот говор, aufs речиси секогаш се користи наместо целосниот auf das."
+        "aufs је сажети облик предлога auf и члана das.",
+        "Пуни облик је auf das; и он је граматички правилан, али се у неутралном свакодневном језику често сажима у aufs.",
+        "У овим примерима aufs означава смер ка одређеном месту или површини и одговара на питање куда?",
+        "Често се употребљава уз кретање: попети се, сести, ставити или отпутовати на неко место."
       ],
       "examples": [
         {
           "de": "Ich gehe aufs Dach.",
-          "lv": "Idemo na krov"
+          "lv": "Идем на кров."
         },
         {
           "de": "Sie setzt sich aufs Sofa.",
-          "lv": "Таа седи на каучот."
+          "lv": "Она седа на кауч."
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Одиме во селото."
+          "lv": "Возимо се на село."
         },
         {
           "de": "Stell die Tasche aufs Bett.",
-          "lv": "Vrečko položite na posteljo."
+          "lv": "Стави торбу на кревет."
         },
         {
           "de": "Er springt aufs Pferd.",
-          "lv": "Се качува на коњот."
+          "lv": "Он скаче на коња."
         },
         {
           "de": "Leg das Buch aufs Regal.",
-          "lv": "Ставете ја книгата на полица."
+          "lv": "Стави књигу на полицу."
         },
         {
           "de": "Komm schnell aufs Boot!",
-          "lv": "Požurite na brod!"
+          "lv": "Брзо дођи на брод!"
         },
         {
           "de": "Wir gehen aufs Fest.",
-          "lv": "Na zabavo greva."
+          "lv": "Идемо на прославу."
         }
       ],
       "comparison": [
         {
           "word": "aufs",
-          "meaning": "За конкретен случај (според)",
-          "example": "aufs Dach – Уз џумта"
+          "meaning": "auf + das; на одређено место или површину",
+          "example": "aufs Dach – на кров"
         },
         {
           "word": "auf",
-          "meaning": "На површината или нагоре",
-          "example": "auf den Tisch – Sa galdom"
+          "meaning": "на површину или навише",
+          "example": "auf den Tisch – на сто"
         },
         {
           "word": "an",
-          "meaning": "Na okomitoj površini",
-          "example": "an die Wand – Pitta sienas"
+          "meaning": "уз усправну површину",
+          "example": "an die Wand – на зид"
         },
         {
           "word": "ins",
-          "meaning": "Unutra",
-          "example": "ins Zimmer – V sobi"
+          "meaning": "у унутрашњост простора",
+          "example": "ins Zimmer – у собу"
         },
         {
           "word": "zum",
-          "meaning": "Za/kome (kome?)",
-          "example": "zum Arzt – Посетете лекар"
+          "meaning": "ка особи или месту",
+          "example": "zum Arzt – код лекара"
         }
       ],
       "tip": [
-        "Запомнете: auf + das → aufs (каде?, каде?).",
-        "Polni auf das se v pogovoru skoraj nikoli ne izgovarja - auf se uporablja."
+        {
+          "text": "Запамти: auf + das → aufs."
+        },
+        {
+          "text": "У свакодневном језику auf das се често сажима у aufs."
+        }
       ],
       "important": [
-        "Aufs = auf das, samo so imenka od kog bilo roda, kade? u krivinama.",
-        "Odgovori kje? - Premik na določeno mesto ali območje.",
-        "На хоризонтална површина auf den често се користи наместо aufs.",
-        "Да не се меша со „in“ (на ѕидот) или „in“ (внатре во собата)."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "aufs",
-            "auf das"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "aufs"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "aufs"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "aufs Dach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "auf"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "auf den Tisch"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "an"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "an die Wand"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ins"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "ins Zimmer"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zum"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "zum Arzt"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "aufs"
-            ]
-          },
-          {
-            "purple": [
-              "auf das"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "aufs"
-            ],
-            "purple": [
-              "auf das"
-            ]
-          },
-          {},
-          {},
-          {
-            "red": [
-              "in"
-            ]
-          }
-        ]
-      }
+        "aufs = auf das и употребљава се уз именицу средњег рода.",
+        "Када означава смер, одговара на питање куда и описује кретање ка одређеном месту или површини.",
+        "Уз именице мушког рода употребљава се, на пример, auf den, а не aufs.",
+        "Не мешај aufs са an уз усправну површину или са ins за кретање у унутрашњост."
+      ]
     }
   },
   {
@@ -3778,151 +3332,59 @@ const A1_WORDS = [
   },
   {
     "de": "dass",
-    "lv": "Што",
+    "lv": "да",
     "level": "A1",
     "study": {
       "id": "a1-dass",
       "layout": "standardStudy",
-      "translation": "Што",
-      "explanation": "Uvodi prateću rečenicu koja izražava činjenicu, misao ili izjavu.",
+      "translation": "да",
+      "explanation": [
+        "dass уводи зависну реченицу која изражава чињеницу, мисао или изјаву. У немачкој зависној реченици глагол стоји на крају."
+      ],
       "examples": [
         {
           "de": "Ich weiß, dass du müde bist.",
-          "lv": "Знам, че си уморен."
+          "lv": "Знам да си уморан/уморна."
         },
         {
           "de": "Er sagt, dass er kommt.",
-          "lv": "Тој вели дека ќе дојде."
+          "lv": "Он каже да долази."
         },
         {
           "de": "Ich glaube, dass das stimmt.",
-          "lv": "Mislim, da ni ravno tako."
+          "lv": "Мислим да је то тачно."
         }
       ],
       "comparison": [
         {
           "word": "dass",
-          "meaning": "Што",
-          "example": "Ich weiß, dass er kommt. – Znam da će doći."
+          "meaning": "да; уводи тврдњу",
+          "example": "Ich weiß, dass er kommt. – Знам да долази."
         },
         {
           "word": "weil",
-          "meaning": "Бидејќи • Затоа што",
-          "example": "Ich bleibe zu Hause, weil es regnet. – Останувам дома затоа што врне."
+          "meaning": "јер; наводи разлог",
+          "example": "Ich bleibe zu Hause, weil es regnet. – Остајем код куће јер пада киша."
         },
         {
           "word": "damit",
-          "meaning": "ДО",
-          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Учам германски за да можам да работам во Германија."
+          "meaning": "да би; уводи сврху",
+          "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Учим немачки да бих могао/могла да радим у Немачкој."
         },
         {
           "word": "ob",
-          "meaning": "Или",
-          "example": "Ich weiß nicht, ob er kommt. – Не знам дали ќе дојде."
+          "meaning": "да ли; уводи индиректно питање",
+          "example": "Ich weiß nicht, ob er kommt. – Не знам да ли долази."
         }
       ],
-      "tip": {
-        "text": "Запомнете: ова е → да."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "dass"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "dass"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "dass"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "dass"
-              ]
-            },
-            "example": {
-              "blue": [
-                "dass"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "weil"
-              ]
-            },
-            "example": {
-              "green": [
-                "weil"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "damit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "damit"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ob"
-              ]
-            },
-            "example": {
-              "red": [
-                "ob"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {
-            "blue": [
-              "dass"
-            ]
-          },
-          {
-            "red": [
-              "das"
-            ],
-            "purple": [
-              "das"
-            ]
-          }
-        ]
-      },
+      "tip": [
+        {
+          "text": "После dass лични глагол иде на крај зависне реченице."
+        }
+      ],
       "important": [
-        "Dass pomeni \"to\" in uvaja pomožno klavzulo.",
-        "Да не се меша со das, што може да биде статија или „тоа“."
+        "dass је везник.",
+        "Не мешај dass са das, које може бити члан или заменица."
       ]
     }
   },
@@ -3945,77 +3407,37 @@ const A1_WORDS = [
   },
   {
     "de": "der",
-    "lv": "Определен член од машки род",
+    "lv": "одређени члан мушког рода",
     "level": "A1",
     "study": {
       "id": "a1-der",
       "layout": "standardStudy",
-      "translation": "Определен член од машки род",
-      "explanation": "Се употребува кај именките од машки род. Во некои реченици, „der“ може да дејствува и како заменка или релативна заменка.",
+      "translation": "одређени члан мушког рода",
+      "explanation": [
+        "der се употребљава уз именице мушког рода. У неким реченицама der може да буде и заменица или релативна заменица."
+      ],
       "examples": [
         {
           "de": "Der Mann ist hier.",
-          "lv": "Човекот е тука."
+          "lv": "Мушкарац је овде."
         },
         {
           "de": "Der Bus kommt.",
-          "lv": "Доаѓа автобусот."
+          "lv": "Аутобус долази."
         },
         {
           "de": "Der Lehrer spricht.",
-          "lv": "Наставникот зборува."
+          "lv": "Учитељ говори."
         }
       ],
-      "tip": {
-        "text": "Zapamtite: muško → prikladno."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Der"
-            ]
-          },
-          {
-            "blue": [
-              "Der"
-            ]
-          },
-          {
-            "blue": [
-              "Der"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {}
-        ]
-      },
+      "tip": [
+        {
+          "text": "Учи именицу заједно са чланом: der Mann, der Bus, der Lehrer."
+        }
+      ],
       "important": [
-        "На ниво А1 прво мора да го научите машкиот член.",
-        "Заменката и релативната употреба ќе дојдат подоцна."
+        "На нивоу А1 der се најпре учи као одређени члан мушког рода.",
+        "Заменичка и релативна употреба уче се касније."
       ]
     }
   },
@@ -4032,89 +3454,37 @@ const A1_WORDS = [
   },
   {
     "de": "die",
-    "lv": "Definitivni član ženskog roda",
+    "lv": "одређени члан женског рода",
     "level": "A1",
     "study": {
       "id": "a1-die",
       "layout": "standardStudy",
-      "translation": "Definitivni član ženskog roda",
-      "explanation": "Се користи со именки од женски род. Во некои реченици, зборот „умре“ може да дејствува и како заменка или релативна заменка.",
+      "translation": "одређени члан женског рода",
+      "explanation": [
+        "die се употребљава уз именице женског рода. У неким реченицама die може да буде и заменица или релативна заменица."
+      ],
       "examples": [
         {
           "de": "Die Frau ist hier.",
-          "lv": "Žena je ovdje."
+          "lv": "Жена је овде."
         },
         {
           "de": "Die Katze schläft.",
-          "lv": "Мачето спие."
+          "lv": "Мачка спава."
         },
         {
           "de": "Die Lehrerin erklärt.",
-          "lv": "Наставникот објаснува."
+          "lv": "Учитељица објашњава."
         }
       ],
-      "tip": {
-        "text": "Запомнете: женственост → умре."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Die"
-            ]
-          },
-          {
-            "blue": [
-              "Die"
-            ]
-          },
-          {
-            "blue": [
-              "Die"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {}
-        ]
-      },
+      "tip": [
+        {
+          "text": "Учи именицу заједно са чланом: die Frau, die Katze, die Lehrerin."
+        }
+      ],
       "important": [
-        "Na ravni A1 kocko najprej preučujemo kot ženski predmet.",
-        "Множината се користи и за сите родови."
+        "На нивоу А1 die се најпре учи као одређени члан женског рода.",
+        "У множини се die употребљава уз именице свих родова."
       ]
     }
   },
@@ -12963,256 +12333,123 @@ const A1_WORDS = [
   },
   {
     "de": "morgen",
-    "lv": "Утре",
+    "lv": "сутра",
     "level": "A1",
     "study": {
       "id": "a1-morgen",
       "layout": "standardStudy",
-      "translation": "Утре",
+      "translation": "сутра",
       "explanation": [
-        "Основна идея: Наречията за време се пишат с малки букви. Това означава вдругиден – утре.",
-        "Морген во основа значи: следниот ден.",
-        "Често се характеризира с: времето.",
-        "Morgen u osnovi znači: dio dana.",
-        "Често опишува: именка (der).",
-        "Morgen основно означава: няколко сутрини.",
-        "Често се характеризира със: съществително (множествено число).",
-        "Morgen с малка буква означава утре - вдругиден (Ich komme morgen = Ще дойда утре, Bis morgen!"
+        "morgen написано малим словом најчешће је прилог и значи сутра. Morgen написано великим словом је именица и значи јутро."
       ],
       "examples": [
         {
           "de": "Ich komme morgen.",
-          "lv": "Jutri zjutraj."
+          "lv": "Долазим сутра."
         },
         {
           "de": "Bis morgen!",
-          "lv": "Ще се видим утре!"
+          "lv": "Видимо се сутра!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Jutri zjutraj."
+          "lv": "Долазим сутра."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Jutri je ponedeljek"
+          "lv": "Сутра је понедељак."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Dobro jutro"
+          "lv": "Добро јутро!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "Prelepo je jutro."
+          "lv": "Јутро је лепо."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "morgen",
+          "meaning": "сутра",
+          "example": "Ich komme morgen. – Долазим сутра."
+        },
+        {
+          "word": "Morgen",
+          "meaning": "јутро",
+          "example": "Der Morgen ist schön. – Јутро је лепо."
         }
       ],
       "tip": [
-        "Little morgen = утре (Ich komme morgen). der Morgen с главна буква = сутрин (Guten Morgen!, am Morgen).",
-        "Морген = утре"
+        {
+          "text": "Мало m: сутра. Велико M: јутро."
+        }
       ],
       "important": [
-        "Morgen - малка буква - е наречие за време (утре).",
-        "Der Morgen со голема буква и членот der е именка (утро).",
-        "Добро утро - секогаш со голема буква (наутро, не утре).",
-        "Netačno: Guten morgen! → Tačno: Guten Morgen!"
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "morgen"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "morgen",
-                "morgen"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {}
-        ],
-        "important": [
-          {
-            "blue": [
-              "morgen"
-            ]
-          }
-        ]
-      }
+        "На почетку реченице morgen се пише великим словом само због положаја.",
+        "У изразу Guten Morgen именица Morgen значи јутро."
+      ]
     }
   },
   {
     "de": "Morgen",
     "de_article": "der",
-    "lv": "-Takoj zjutraj.",
+    "lv": "јутро",
     "level": "A1",
     "study": {
       "id": "a1-morgen-study",
       "layout": "standardStudy",
-      "translation": "-Takoj zjutraj.",
+      "translation": "јутро",
       "explanation": [
-        "Основна идея: Съществително с член е подходящо и с главна буква. Част от деня е сутринта.",
-        "Der Morgen u osnovi znači: sljedećeg dana.",
-        "Често се характеризира с: времето.",
-        "Der Morgen основно означава: част от деня.",
-        "Често опишува: именка (der).",
-        "Der Morgen u osnovi znači: nekoliko sati ujutro.",
-        "Често се характеризира със: съществително (множествено число).",
-        "Morgen с малка буква означава утре - вдругиден (Ich komme morgen = Ще дойда утре, Bis morgen!"
+        "Morgen написано великим словом је именица мушког рода и значи јутро. morgen малим словом најчешће значи сутра."
       ],
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "Dobro jutro"
+          "lv": "Добро јутро!"
         },
         {
           "de": "Bis morgen!",
-          "lv": "Ще се видим утре!"
+          "lv": "Видимо се сутра!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Jutri zjutraj."
+          "lv": "Долазим сутра."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Jutri je ponedeljek"
+          "lv": "Сутра је понедељак."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Dobro jutro"
+          "lv": "Добро јутро!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "Prelepo je jutro."
+          "lv": "Јутро је лепо."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Morgen",
+          "meaning": "јутро",
+          "example": "Guten Morgen! – Добро јутро!"
+        },
+        {
+          "word": "morgen",
+          "meaning": "сутра",
+          "example": "Bis morgen! – Видимо се сутра!"
         }
       ],
       "tip": [
-        "Little morgen = утре (Ich komme morgen). der Morgen с главна буква = сутрин (Guten Morgen!, am Morgen).",
-        "Der Morgen = утре"
+        {
+          "text": "Велико M: јутро. Мало m: сутра."
+        }
       ],
       "important": [
-        "Morgen - малка буква - е наречие за време (утре).",
-        "Der Morgen со голема буква и членот der е именка (утро).",
-        "Добро утро - секогаш со голема буква (наутро, не утре).",
-        "Netačno: Guten morgen! → Tačno: Guten Morgen!"
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "green": [
-            "der Morgen",
-            "morgen"
-          ],
-          "yellow": [
-            "Morgen"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "der Morgen",
-                "morgen"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {}
-        ],
-        "important": [
-          {}
-        ]
-      }
+        "der Morgen је именица мушког рода.",
+        "На почетку реченице прилог morgen такође почиње великим словом."
+      ]
     }
   },
   {
@@ -14584,180 +13821,66 @@ const A1_WORDS = [
   },
   {
     "de": "oder",
-    "lv": "Или • Или",
+    "lv": "или",
     "level": "A1",
     "study": {
       "id": "a1-oder",
       "layout": "standardStudy",
-      "translation": "Или • Или",
+      "translation": "или",
       "explanation": [
-        "Главна идеја: oder се користи кога избираме помеѓу две или повеќе опции.",
-        "V latvijščini oder najpogosteje pomeni oboje.",
-        "Ovo nije isto kao kada se postavlja indirektno pitanje.",
-        "В разговори oder може да се появи и в края на изречението: Du kommst, oder?"
+        "oder се употребљава када се бира између две или више могућности и најчешће значи или.",
+        "Није исто што и ob, које уводи индиректно питање.",
+        "У разговору oder може да стоји и на крају реченице и тада често значи зар не?"
       ],
       "examples": [
         {
           "de": "Kaffee oder Tee?",
-          "lv": "Кафе или чай?"
+          "lv": "Кафа или чај?"
         },
         {
           "de": "Heute oder morgen?",
-          "lv": "Днес или утре?"
+          "lv": "Данас или сутра?"
         },
         {
           "de": "Willst du Pizza oder Salat?",
-          "lv": "Искаш ли пица или салата?"
+          "lv": "Хоћеш ли пицу или салату?"
         },
         {
           "de": "Du kommst, oder?",
-          "lv": "Ще дойдеш, нали?"
+          "lv": "Долазиш, зар не?"
         }
       ],
       "comparison": [
         {
           "word": "oder",
-          "meaning": "Или изберете",
-          "example": "Кафа или чај?"
+          "meaning": "или; избор",
+          "example": "Kaffee oder Tee? – Кафа или чај?"
         },
         {
           "word": "ob",
-          "meaning": "Или в косвен въпрос",
-          "example": "Не знам да ли он долази."
+          "meaning": "да ли; индиректно питање",
+          "example": "Ich weiß nicht, ob er kommt. – Не знам да ли долази."
         },
         {
           "word": "und",
-          "meaning": "И",
-          "example": "Кафа и торта."
+          "meaning": "и; додавање",
+          "example": "Kaffee und Kuchen. – Кафа и колач."
         },
         {
           "word": "aber",
-          "meaning": "Ampak.",
-          "example": "Долазим, али касније."
+          "meaning": "али; супротност",
+          "example": "Ich komme, aber später. – Долазим, али касније."
         }
       ],
-      "tip": {
-        "text": "Ne pozabite: izbirajte med → možnostmi naročila."
-      },
-      "important": [
-        "Oder се използва за избор на: Kaffee oder Tee.",
-        "Во индиректно прашање, „дали“ обично значи том."
+      "tip": [
+        {
+          "text": "Избор између могућности → oder."
+        }
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "oder",
-            "Главна"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "oder"
-              ],
-              "yellow": [
-                "Kaffee",
-                "Tee"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "oder"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "oder"
-              ],
-              "yellow": [
-                "Pizza",
-                "Salat"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "oder"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "oder"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "oder"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ob"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "ob"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "und"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "und"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "aber"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "aber"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {
-            "blue": [
-              "oder"
-            ]
-          },
-          {}
-        ]
-      }
+      "important": [
+        "oder се употребљава за избор: Kaffee oder Tee?",
+        "За да ли у индиректном питању обично се употребљава ob."
+      ]
     }
   },
   {
@@ -15806,173 +14929,67 @@ const A1_WORDS = [
   },
   {
     "de": "schwimmen",
-    "lv": "Пливање",
+    "lv": "пливати",
     "level": "A1",
     "study": {
       "id": "a1-schwimmen",
       "layout": "standardStudy",
-      "translation": "Пливање",
+      "translation": "пливати",
       "explanation": [
-        "Главна идеја: schwimmen значи пливање како движење или спорт.",
-        "Schwimmen се користи кога се плива во вода користејќи пливачки движења.",
-        "Кога станува збор за опуштање во вода или пливање, Баден често се користи.",
-        "На ниво A1 е важно да се прави разлика: schwimmen = плуване, baden = къпане."
+        "schwimmen значи пливати као кретање или спорт.",
+        "Употребљава се када се човек креће кроз воду пливачким покретима.",
+        "За купање или боравак у води без нагласка на пливању често се употребљава baden.",
+        "На нивоу А1 важно је разликовати schwimmen = пливати и baden = купати се."
       ],
       "examples": [
         {
           "de": "Ich schwimme gern.",
-          "lv": "Обичам да плувам"
+          "lv": "Волим да пливам."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Vrlo dobro pliva."
+          "lv": "Он веома добро плива."
         },
         {
           "de": "Wir schwimmen im Schwimmbad.",
-          "lv": "Ние плуваме в басейна."
+          "lv": "Пливамо у базену."
         },
         {
           "de": "Ich gehe baden.",
-          "lv": "Одам на пливање"
+          "lv": "Идем да се купам."
         }
       ],
       "comparison": [
         {
           "word": "schwimmen",
-          "meaning": "Пливањето како движење или спорт",
-          "example": "Он врло добро плива."
+          "meaning": "пливати као кретање или спорт",
+          "example": "Er schwimmt sehr gut. – Он веома добро плива."
         },
         {
           "word": "baden",
-          "meaning": "Пливај/биди во вода",
-          "example": "Идем да пливам."
+          "meaning": "купати се или боравити у води",
+          "example": "Ich gehe baden. – Идем да се купам."
         },
         {
           "word": "schwimmen gehen",
-          "meaning": "Idi na plivanje",
-          "example": "Идемо да пливамо."
+          "meaning": "ићи на пливање",
+          "example": "Wir gehen schwimmen. – Идемо на пливање."
         },
         {
           "word": "duschen",
-          "meaning": "Istuširaj se i pojedi sendvič.",
-          "example": "Туширам се ујутру."
+          "meaning": "туширати се",
+          "example": "Ich dusche morgens. – Туширам се ујутру."
         }
       ],
-      "tip": {
-        "text": "Запомнете: плуване движение → плуване • Релаксация във водата → плуване."
-      },
-      "important": [
-        "Швимен и Баден не се иста работа.",
-        "На латвийски често казват „плуване“, но на немски трябва да проверите дали е движение или плуване."
+      "tip": [
+        {
+          "text": "Кретање кроз воду → schwimmen; купање → baden."
+        }
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "schwimmen"
-          ],
-          "red": [
-            "baden"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "schwimme"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "schwimmt"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "schwimmen"
-              ],
-              "green": [
-                "Schwimmbad"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "baden"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "schwimmen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "schwimmt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "baden"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "baden"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "schwimmen gehen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "schwimmen"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "duschen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "dusche"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {}
-        ]
-      }
+      "important": [
+        "За спорт и умеће пливања употреби schwimmen.",
+        "baden не значи нужно да особа плива."
+      ]
     }
   },
   {
@@ -16012,195 +15029,67 @@ const A1_WORDS = [
   },
   {
     "de": "sehen",
-    "lv": "Poglejmo",
+    "lv": "видети",
     "level": "A1",
     "study": {
       "id": "a1-sehen",
       "layout": "standardStudy",
-      "translation": "Poglejmo",
+      "translation": "видети",
       "explanation": [
-        "Osnovna ideja: sehen znači vidjeti očima.",
-        "Когато става въпрос за това, което очите възприемат, се използва сен.",
-        "Съзнателното наблюдение често означава schauen или ansehen.",
-        "Много често срещана фраза е Ich sehe dich. = Виждам те."
+        "sehen значи видети очима.",
+        "Када се говори о ономе што очи опажају, употребљава се sehen.",
+        "За намерно гледање често се употребљавају schauen или ansehen.",
+        "Врло чест израз је Ich sehe dich. = Видим те."
       ],
       "examples": [
         {
           "de": "Ich sehe dich.",
-          "lv": "Те гледам"
+          "lv": "Видим те."
         },
         {
           "de": "Siehst du das Auto?",
-          "lv": "Виждате ли тази кола?"
+          "lv": "Видиш ли ауто?"
         },
         {
           "de": "Ich sehe nichts.",
-          "lv": "Ne vidim ništa"
+          "lv": "Не видим ништа."
         },
         {
           "de": "Wir schauen einen Film.",
-          "lv": "Гледаме филм."
+          "lv": "Гледамо филм."
         }
       ],
       "comparison": [
         {
           "word": "sehen",
-          "meaning": "Poglejmo",
-          "example": "Видим те."
+          "meaning": "видети",
+          "example": "Ich sehe dich. – Видим те."
         },
         {
           "word": "schauen",
-          "meaning": "Pogledaj",
-          "example": "Гледам слику."
+          "meaning": "гледати",
+          "example": "Ich schaue auf das Bild. – Гледам слику."
         },
         {
           "word": "ansehen",
-          "meaning": "Pregled/Recenzija",
-          "example": "Гледам филм."
+          "meaning": "погледати или гледати",
+          "example": "Ich sehe mir den Film an. – Гледам филм."
         },
         {
           "word": "hören",
-          "meaning": "Чуйте",
-          "example": "Слушам музику."
+          "meaning": "чути",
+          "example": "Ich höre Musik. – Чујем музику."
         }
       ],
-      "tip": {
-        "text": "Zapomnite: očite doživljavat → sehen • Gladeajte sʺznatelʹno → schauen/ansehen."
-      },
-      "important": [
-        "Széchen ni isto kot Anshauen.",
-        "Ich sehe dich = Виждам те • Ich schaue den Film = Гледам филм."
+      "tip": [
+        {
+          "text": "Опажање очима → sehen; намерно гледање → schauen/ansehen."
+        }
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "sehen",
-            "Ich sehe"
-          ],
-          "red": [
-            "schauen",
-            "ansehen"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "sehe"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Siehst"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sehe"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "schauen"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "sehen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "sehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "schauen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "schaue"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ansehen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "sehe",
-                "an"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "hören"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "höre"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sehen"
-            ],
-            "red": [
-              "schauen",
-              "ansehen"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "Széchen"
-            ],
-            "red": [
-              "Széchen"
-            ]
-          },
-          {
-            "blue": [
-              "sehe"
-            ],
-            "red": [
-              "schaue"
-            ]
-          }
-        ]
-      }
+      "important": [
+        "sehen није исто што и anschauen.",
+        "Ich sehe dich значи Видим те; Ich schaue den Film значи Гледам филм."
+      ]
     }
   },
   {
@@ -16217,187 +15106,66 @@ const A1_WORDS = [
   },
   {
     "de": "sein",
-    "lv": "Бъди",
+    "lv": "бити",
     "level": "A1",
     "study": {
       "id": "a1-sein",
       "layout": "standardStudy",
-      "translation": "Бъди",
+      "translation": "бити",
       "explanation": [
-        "Osnovna ideja: sein znači biti.",
-        "Sein je jedan od najvažnijih njemačkih glagola.",
-        "Na ravni A1 so še posebej pomembni obrazci ich bin, du bist, er ist in wir sind.",
-        "Sein se također koristi u mnogim lokativnim ili karakterističnim rečenicama."
+        "sein значи бити и један је од најважнијих немачких глагола.",
+        "На нивоу А1 нарочито су важни облици ich bin, du bist, er/sie ist и wir sind.",
+        "sein се често употребљава уз место, особину или занимање."
       ],
       "examples": [
         {
           "de": "Ich bin hier.",
-          "lv": "Јас сум тука"
+          "lv": "Ја сам овде."
         },
         {
           "de": "Du bist müde.",
-          "lv": "Уморен ли си"
+          "lv": "Уморан/уморна си."
         },
         {
           "de": "Er ist Lehrer.",
-          "lv": "Тој е учител."
+          "lv": "Он је учитељ."
         },
         {
           "de": "Wir sind zu Hause.",
-          "lv": "Прибрахме се"
+          "lv": "Код куће смо."
         }
+      ],
+      "tip": [
+        {
+          "text": "Учи облике напамет: bin, bist, ist, sind, seid, sind."
+        }
+      ],
+      "important": [
+        "После sein често стоје особина, занимање или место.",
+        "Немачки назив занимања после sein обично стоји без члана."
       ],
       "comparison": [
         {
           "word": "sein",
-          "meaning": "Бъди",
-          "example": "Ја сам овде."
+          "meaning": "бити",
+          "example": "Ich bin hier. – Ја сам овде."
         },
         {
           "word": "haben",
-          "meaning": "Имам",
-          "example": "Имам време."
+          "meaning": "имати",
+          "example": "Ich habe Zeit. – Имам времена."
         },
         {
           "word": "werden",
-          "meaning": "Станете",
-          "example": "Постајем уморан."
+          "meaning": "постати",
+          "example": "Ich werde müde. – Постајем уморан/уморна."
         },
         {
           "word": "bleiben",
-          "meaning": "Остани",
-          "example": "Остајем овде."
+          "meaning": "остати",
+          "example": "Ich bleibe hier. – Остајем овде."
         }
-      ],
-      "tip": {
-        "text": "Zapamtite: ič bin = âs • Du bist = ti."
-      },
-      "important": [
-        "Oblike sej je treba preučevati ločeno: bin, bist, ist, sind.",
-        "Ich bin е „Аз съм“, а не „Аз съществувам“."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "sein",
-            "ich bin",
-            "du bist",
-            "er ist",
-            "wir sind"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "bin"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "bist"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "ist"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sind"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "sein"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "bin"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "haben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "habe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "werden"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "werde"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bleiben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "bleibe"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Zapamtite",
-              "Zapamtite"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "bin",
-              "bist",
-              "ist",
-              "sind"
-            ]
-          },
-          {
-            "blue": [
-              "Ich bin"
-            ]
-          }
-        ]
-      }
+      ]
     }
   },
   {
@@ -16409,124 +15177,62 @@ const A1_WORDS = [
     "de": "Seite",
     "de_article": "die",
     "de_plural": "die Seiten",
-    "lv": "Страница • Странично",
+    "lv": "страница • страна",
     "level": "A1",
     "study": {
       "id": "a1-seite",
       "layout": "standardStudy",
-      "translation": "Страница • Странично",
+      "translation": "страница • страна",
       "explanation": [
-        "Glavna ideja: die Seite može značiti stranicu iz knjige/dokumenta ili stranicu/stranicu nečega.",
-        "Во книга, списание или веб-локација die Seite = страница (Seite 5 = страница 5).",
-        "В пространствен смисъл die Seite = страна (auf der linken Seite = ляво).",
-        "Фигуративно, die Seite може да значи и страна во конфликт или мисла (auf meiner Seite = од моја страна).",
-        "Контекстът (книга/четене или позиция/връзка) разкрива правилното значение.",
-        "И двете значения са в множествено число: die Seiten."
+        "Seite може значити страницу књиге, страну у простору, веб-страницу или страну у расправи. Тачно значење одређује контекст."
       ],
       "examples": [
         {
           "de": "Schlagt die Seite zwanzig auf.",
-          "lv": "Сврти на страницата дваесет."
+          "lv": "Отворите двадесету страницу."
         },
         {
           "de": "Auf der linken Seite ist ein Park.",
-          "lv": "Otlâvo e parkut."
+          "lv": "С леве стране је парк."
         },
         {
           "de": "Die Webseite lädt langsam.",
-          "lv": "Spletna stran se počasi nalaga."
+          "lv": "Веб-страница се споро учитава."
         },
         {
           "de": "Er steht auf meiner Seite.",
-          "lv": "Na moji strani je."
+          "lv": "Он је на мојој страни."
         },
         {
           "de": "Das Buch hat 200 Seiten.",
-          "lv": "Книгата има 200 страници."
+          "lv": "Књига има 200 страница."
         },
         {
           "de": "Auf der anderen Seite der Straße.",
-          "lv": "От другата страна на улицата."
+          "lv": "С друге стране улице."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Seite",
+          "meaning": "страница или страна",
+          "example": "Seite zwanzig – двадесета страница"
+        },
+        {
+          "word": "Blatt",
+          "meaning": "лист папира",
+          "example": "ein Blatt Papier – лист папира"
         }
       ],
       "tip": [
-        "Говорим за книга или четене → страница. Говори за позиция, посока или връзка → страна.",
-        "Сайт X винаги е страница от книга, а не половината от нея."
+        {
+          "text": "Књига, положај, интернет или став — контекст одређује значење речи Seite."
+        }
       ],
       "important": [
-        "Die Seite = страница ИЛИ страна - одлучува контекстот.",
-        "И двете значения са в множествено число: die Seiten."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "die Seite",
-            "Seite"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Seite"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "Seite"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Webseite"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "Seite"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Seiten"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "Seite"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {},
-          {}
-        ],
-        "important": [
-          {},
-          {
-            "blue": [
-              "die Seiten"
-            ]
-          }
-        ]
-      }
+        "die Seite је именица женског рода.",
+        "Множина је die Seiten."
+      ]
     }
   },
   {
@@ -16544,566 +15250,257 @@ const A1_WORDS = [
   },
   {
     "de": "sich",
-    "lv": "Jaz • Jaz",
+    "lv": "се • себе",
     "level": "A1",
     "study": {
       "id": "a1-sich",
       "layout": "standardStudy",
-      "translation": "Jaz • Jaz",
+      "translation": "се • себе",
       "explanation": [
-        "Основна идея: sich показва, че действието се отнася до самия извършител.",
-        "На латвийски често се превежда като себе си или себе си.",
-        "Некои германски глаголи имаат sich како задолжителен дел, на пример sich waschen.",
-        "На ниво A1 е важно да се отбележи: ich wasche mich, er wäscht sich."
+        "sich показује да се радња односи на самог вршиоца радње.",
+        "У српском се често преводи као се или себе.",
+        "Код неких немачких глагола повратна заменица је обавезна, на пример sich waschen.",
+        "Облик зависи од лица: ich wasche mich, du wäschst dich, er wäscht sich."
       ],
       "examples": [
         {
           "de": "Er wäscht sich.",
-          "lv": "Kopa se."
+          "lv": "Он се пере."
         },
         {
           "de": "Ich setze mich.",
-          "lv": "Sedim."
+          "lv": "Седам."
         },
         {
           "de": "Sie freut sich.",
-          "lv": "Тя е щастлива"
+          "lv": "Она се радује."
         },
         {
           "de": "Ich wasche das Auto.",
-          "lv": "Си ја перам колата"
+          "lv": "Перем ауто."
         }
       ],
       "comparison": [
         {
           "word": "sich",
-          "meaning": "Јас/јас",
-          "example": "Он се пере."
+          "meaning": "се или себе уз er/sie/es и sie/Sie",
+          "example": "Er wäscht sich. – Он се пере."
         },
         {
           "word": "mich",
-          "meaning": "Аз/аз в ич",
-          "example": "Перем се."
+          "meaning": "ме или себе уз ich",
+          "example": "Ich wasche mich. – Перем се."
         },
         {
           "word": "dich",
-          "meaning": "Ти/аз съм в настроение",
-          "example": "Перешься."
+          "meaning": "те или себе уз du",
+          "example": "Du wäschst dich. – Переш се."
         },
         {
           "word": "ihn",
-          "meaning": "На него",
-          "example": "Видим га."
+          "meaning": "њега; није повратна заменица",
+          "example": "Ich sehe ihn. – Видим га."
         }
       ],
-      "tip": {
-        "text": "Запомнете: действие върху себе си → sich/mich/dich."
-      },
-      "important": [
-        "Sich не е самостоятелно съществително.",
-        "В зависимост от лицето се променя: ich → mich, du → dich, er/sie/es → sich."
+      "tip": [
+        {
+          "text": "Ако субјекат врши радњу на себи, потребна је повратна заменица."
+        }
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "sich",
-            "ich wasche mich",
-            "er wäscht sich"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "sich"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "mich"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sich"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "wasche"
-              ],
-              "yellow": [
-                "Auto"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "sich"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "sich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "mich"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "mich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dich"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "dich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ihn"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "ihn"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "sich"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "sich"
-            ]
-          },
-          {
-            "green": [
-              "mich",
-              "dich"
-            ],
-            "blue": [
-              "sich"
-            ]
-          }
-        ]
-      }
+      "important": [
+        "sich није самостална именица.",
+        "Повратна заменица се мења према лицу: ich → mich, du → dich, er/sie/es → sich."
+      ]
     }
   },
   {
     "de": "sicher",
-    "lv": "Безопасно • Разбира се",
+    "lv": "сигуран • безбедан • сигурно",
     "level": "A1",
     "study": {
       "id": "a1-sicher",
       "layout": "standardStudy",
-      "translation": "Безопасно • Разбира се",
+      "translation": "сигуран • безбедан • сигурно",
       "explanation": [
-        "Основна идея: sicher като прилагателно означава уверен, като наречие – сигурно/вероятно.",
-        "Когато говорим за място, ситуация или човек, sicher = безопасно (ein sicherer Ort = безопасно място).",
-        "Като потвърждение или уверение в изречение sicher = разбира се/със сигурност (Das ist sicher wahr. = Вярно е, разбира се).",
-        "Със сигурност! като отделен отговор означава разбира се!/вероятно!"
+        "sicher може значити безбедан, уверен или сигурно/засигурно. Улога и превод зависе од контекста."
       ],
       "examples": [
         {
           "de": "Ist das Wasser sicher?",
-          "lv": "Безопасна ли е водата?"
+          "lv": "Да ли је вода безбедна?"
         },
         {
           "de": "Kommst du morgen? – Sicher!",
-          "lv": "Утре ще дойдеш - със сигурност!"
+          "lv": "Долазиш ли сутра? — Сигурно!"
         },
         {
           "de": "Er ist sicher zu Hause.",
-          "lv": "Mora da je kod kuće."
+          "lv": "Он је сигурно код куће."
         },
         {
           "de": "Das ist eine sichere Lösung.",
-          "lv": "Това е безопасно решение."
+          "lv": "То је безбедно решење."
         },
         {
           "de": "Ich bin mir sicher.",
-          "lv": "Siguran sam"
+          "lv": "Сигуран/сигурна сам."
         },
         {
           "de": "Fahr sicher!",
-          "lv": "Шофирайте безопасно!"
+          "lv": "Вози безбедно!"
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sicher",
+          "meaning": "безбедан или уверен; сигурно",
+          "example": "Ich bin mir sicher. – Сигуран/сигурна сам."
+        },
+        {
+          "word": "bestimmt",
+          "meaning": "засигурно, извесно",
+          "example": "Er kommt bestimmt. – Он ће сигурно доћи."
         }
       ],
       "tip": [
-        "За място или ситуация (безопасност) → безопасно.",
-        "Kao uvjerenje ili potvrda u rečenici → izvjesno/vjerovatno."
+        {
+          "text": "Провери контекст: безбедност, уверење или извесност."
+        }
       ],
       "important": [
-        "Сихер = безбеден (придавка) ИЛИ сигурен/веројатен (прилог).",
-        "Sich sicher sein = разбира се."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "sicher"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "sicher"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "Sicher"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "sicher"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sichere"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "sicher"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sicher"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {},
-          {}
-        ],
-        "important": [
-          {},
-          {
-            "green": [
-              "sich sicher sein"
-            ]
-          }
-        ]
-      }
+        "sicher као придев мења наставак: eine sichere Lösung.",
+        "Као прилог може значити сигурно или безбедно."
+      ]
     }
   },
   {
     "de": "sie",
-    "lv": "Те/тя",
+    "lv": "они • оне",
     "level": "A1",
     "study": {
       "id": "a1-sie-study",
       "layout": "standardStudy",
-      "translation": "Те/тя",
+      "translation": "они • оне",
       "explanation": [
-        "Ključna ideja: Množina - govori se o više od jedne osobe. Glagolot se završava na -en: kočen, esen, gehen.",
-        "Sie основно означава: една жена.",
-        "Често се характеризира с: глагол в единствено число (-t).",
-        "Sie v bistvu pomeni: več ljudi.",
-        "Često je karakterističan: glagol u množini (-en).",
-        "Sie основно означава: учтив адрес.",
-        "Često se opisuje: uvijek sa glavnim S.",
-        "Small sie означава тя, когато глаголът е в единствено число (Sie kocht = тя готви)."
+        "sie написано малим словом може значити она или они/оне. Глагол и контекст показују значење: sie kocht = она кува; sie kochen = они/оне кувају. Облик Sie великим словом значи учтиво Ви."
       ],
       "examples": [
         {
           "de": "Sie kochen.",
-          "lv": "Те се готвят."
+          "lv": "Они кувају."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Тя готви."
+          "lv": "Она кува."
         },
         {
           "de": "Sie isst.",
-          "lv": "Таа јаде"
+          "lv": "Она једе."
         },
         {
           "de": "Sie kochen.",
-          "lv": "Те се готвят."
+          "lv": "Они кувају."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Oni igraju fudbal."
+          "lv": "Они играју фудбал."
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Prosimo, pripravite ga"
+          "lv": "Кувајте, молим Вас."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "sie + једнина",
+          "meaning": "она",
+          "example": "sie kocht – она кува"
+        },
+        {
+          "word": "sie + множина",
+          "meaning": "они/оне",
+          "example": "sie kochen – они/оне кувају"
+        },
+        {
+          "word": "Sie",
+          "meaning": "учтиво Ви",
+          "example": "Sie kochen, bitte. – Кувајте, молим Вас."
         }
       ],
       "tip": [
-        "Множина - се однесува на повеќе од една личност. Глаголот завршува на -ен: кочен, есен, гехен.",
-        "Използвайте sie, когато контекстът съответства на това значение."
+        {
+          "text": "Гледај велико слово и облик глагола."
+        }
       ],
       "important": [
-        "Učtivost se uvijek piše velikim slovom: Sie, a ne sie.",
-        "She: Sie kocht. They: sie kochen. Ti: Si kochen.",
-        "Неправилно: sie kocht → Правилно: Sie kocht",
-        "Неточно: Sie kocht (тим) → Точно: Sie kochen."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "green": [
-            "sie",
-            "kocht"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "sie"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {}
-        ],
-        "important": [
-          {
-            "green": [
-              "sie"
-            ]
-          }
-        ]
-      }
+        "sie за они/оне иде са глаголом у множини.",
+        "Учтиво Sie увек се пише великим словом."
+      ]
     }
   },
   {
     "de": "Sie",
-    "lv": "Вие",
+    "lv": "Ви",
     "level": "A1",
     "study": {
       "id": "a1-sie-study-2",
       "layout": "standardStudy",
-      "translation": "Вие",
+      "translation": "Ви",
       "explanation": [
-        "Основна идея: Добре дошли – винаги с главна буква S. Latviski: вие. Често с глагол в множествено число.",
-        "Sie основно означава: една жена.",
-        "Често се характеризира с: глагол в единствено число (-t).",
-        "Sie v bistvu pomeni: več ljudi.",
-        "Često je karakterističan: glagol u množini (-en).",
-        "Sie основно означава: учтив адрес.",
-        "Često se opisuje: uvijek sa glavnim S.",
-        "Small sie означава тя, когато глаголът е в единствено число (Sie kocht = тя готви)."
+        "Sie написано великим словом је учтиво обраћање једној или више особа и преводи се као Ви. Глагол има исти облик као у трећем лицу множине. Примери са малим sie показују разлику између она и они/оне."
       ],
       "examples": [
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Pripravite ga, prosim."
+          "lv": "Кувајте, молим Вас."
         },
         {
           "de": "Sie kocht.",
-          "lv": "Тя готви."
+          "lv": "Она кува."
         },
         {
           "de": "Sie isst.",
-          "lv": "Таа јаде"
+          "lv": "Она једе."
         },
         {
           "de": "Sie kochen.",
-          "lv": "Те се готвят."
+          "lv": "Они кувају."
         },
         {
           "de": "Sie spielen Fußball.",
-          "lv": "Oni igraju fudbal."
+          "lv": "Они играју фудбал."
         },
         {
           "de": "Sie kochen, bitte.",
-          "lv": "Prosimo, pripravite ga"
+          "lv": "Кувајте, молим Вас."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "Sie",
+          "meaning": "учтиво Ви",
+          "example": "Sie kochen, bitte. – Кувајте, молим Вас."
+        },
+        {
+          "word": "sie + једнина",
+          "meaning": "она",
+          "example": "sie kocht – она кува"
+        },
+        {
+          "word": "sie + множина",
+          "meaning": "они/оне",
+          "example": "sie kochen – они/оне кувају"
         }
       ],
       "tip": [
-        "Обратният адрес винаги е с главна буква S. Latviski: ти. Често с глагол в множествено число.",
-        "Използвайте Sie, когато контекстът съответства на това значение."
+        {
+          "text": "Учтиво обраћање → Sie великим словом."
+        }
       ],
       "important": [
-        "Učtivost se uvijek piše velikim slovom: Sie, a ne sie.",
-        "She: Sie kocht. They: sie kochen. Ti: Si kochen.",
-        "Неправилно: sie kocht → Правилно: Sie kocht",
-        "Неточно: Sie kocht (тим) → Точно: Sie kochen."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "yellow": [
-            "Sie",
-            "kocht"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "Sie",
-                "sie"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {}
-        ],
-        "important": [
-          {
-            "yellow": [
-              "Sie"
-            ]
-          }
-        ]
-      }
+        "Sie у учтивом значењу увек се пише великим словом.",
+        "Значење sie/Sie одређују велико слово, глагол и контекст."
+      ]
     }
   },
   {
@@ -17143,185 +15540,64 @@ const A1_WORDS = [
   },
   {
     "de": "sitzen",
-    "lv": "Sedi",
+    "lv": "седети",
     "level": "A1",
     "study": {
       "id": "a1-sitzen",
       "layout": "standardStudy",
-      "translation": "Sedi",
+      "translation": "седети",
       "explanation": [
-        "Glavna ideja: sitzen pomeni sedeti.",
-        "Sitzen се користи за да се однесува на седечка личност или животно.",
-        "Понякога sitzen също означава да бъдеш на определено място, но в A1 основното значение е да седиш.",
-        "Важно е да се прави разлика: sitzen = седя, stehen = стоя, liegen = лягам."
+        "sitzen описује стање седења. stehen значи стајати, liegen лежати, а sich setzen сести, односно прећи у седећи положај."
       ],
       "examples": [
         {
           "de": "Ich sitze am Tisch.",
-          "lv": "Аз седя на масата."
+          "lv": "Седим за столом."
         },
         {
           "de": "Die Kinder sitzen im Bus.",
-          "lv": "Во автобусот седат деца."
+          "lv": "Деца седе у аутобусу."
         },
         {
           "de": "Er steht an der Tür.",
-          "lv": "Той стои на вратата."
+          "lv": "Он стоји на вратима."
         },
         {
           "de": "Die Katze liegt auf dem Sofa.",
-          "lv": "Котката спи на дивана."
+          "lv": "Мачка лежи на каучу."
         }
       ],
       "comparison": [
         {
           "word": "sitzen",
-          "meaning": "Sedi",
-          "example": "Седим за столом."
+          "meaning": "седети",
+          "example": "Ich sitze am Tisch. – Седим за столом."
         },
         {
           "word": "stehen",
-          "meaning": "Стойка",
-          "example": "Он стоји на врата."
+          "meaning": "стајати",
+          "example": "Er steht an der Tür. – Он стоји на вратима."
         },
         {
           "word": "liegen",
-          "meaning": "Спи/легни",
-          "example": "Мачка лежи тамо."
+          "meaning": "лежати",
+          "example": "Die Katze liegt. – Мачка лежи."
         },
         {
-          "word": "setzen",
-          "meaning": "Седна/седна",
-          "example": "Седам."
+          "word": "sich setzen",
+          "meaning": "сести",
+          "example": "Ich setze mich. – Седам."
         }
       ],
-      "tip": {
-        "text": "Запомнете: седнете → седнете • Стойте → Стивън • Легнете → лъжете."
-      },
-      "important": [
-        "Sitzen показва състоянието \"седене\".",
-        "Sedeti je sich setzen, ne sitzen."
+      "tip": [
+        {
+          "text": "Стање: sitzen. Промена положаја: sich setzen."
+        }
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "sitzen"
-          ],
-          "red": [
-            "stehen",
-            "liegen"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "sitze"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sitzen"
-              ],
-              "green": [
-                "Kinder"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "steht"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "yellow": [
-                "liegt"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "sitzen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "sitze"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "stehen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "steht"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "liegen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "liegt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "setzen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "setze"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {
-            "blue": [
-              "sitzen"
-            ]
-          },
-          {
-            "green": [
-              "sich setzen"
-            ],
-            "blue": [
-              "sitzen"
-            ]
-          }
-        ]
-      }
+      "important": [
+        "sitzen није исто што и sich setzen.",
+        "За положај предмета често се користе stehen или liegen, зависно од положаја."
+      ]
     }
   },
   {
@@ -17357,172 +15633,64 @@ const A1_WORDS = [
   },
   {
     "de": "sollen",
-    "lv": "Mora",
+    "lv": "требати",
     "level": "A1",
     "study": {
       "id": "a1-sollen",
       "layout": "standardStudy",
-      "translation": "Mora",
+      "translation": "требати",
       "explanation": [
-        "Основна идея: Sollen означава, че някой трябва или е задължен да направи нещо според указанията.",
-        "Солен често се користи кога некој друг ви кажува што да правите.",
-        "Не е толкова силен, колкото мусена.",
-        "Много често срещана фраза: Was soll ich machen? = Какво трябва да направя?"
+        "sollen најчешће изражава упутство, очекивање или туђу препоруку. müssen изражава јачу нужност или обавезу."
       ],
       "examples": [
         {
           "de": "Was soll ich machen?",
-          "lv": "Šta da radim?"
+          "lv": "Шта треба да урадим?"
         },
         {
           "de": "Du sollst kommen.",
-          "lv": "Трябва да дойдеш"
+          "lv": "Треба да дођеш."
         },
         {
           "de": "Ich soll zu Hause bleiben.",
-          "lv": "Ще трябва да си остана вкъщи"
+          "lv": "Треба да останем код куће."
         },
         {
           "de": "Ich muss jetzt gehen.",
-          "lv": "Трябва да тръгвам сега"
+          "lv": "Сада морам да идем."
         }
       ],
       "comparison": [
         {
           "word": "sollen",
-          "meaning": "Трябва/трябва да се направи според указанията",
-          "example": "Шта да правим?"
+          "meaning": "требати по упутству или очекивању",
+          "example": "Was soll ich machen? – Шта треба да урадим?"
         },
         {
           "word": "müssen",
-          "meaning": "Апсолутно неопходно",
-          "example": "Морам да идем."
+          "meaning": "морати",
+          "example": "Ich muss gehen. – Морам да идем."
         },
         {
           "word": "können",
-          "meaning": "Бидете во можност да",
-          "example": "Могу да дођем."
+          "meaning": "моћи",
+          "example": "Ich kann kommen. – Могу да дођем."
         },
         {
           "word": "wollen",
-          "meaning": "Искам",
-          "example": "Желим да останем."
+          "meaning": "хтети",
+          "example": "Ich will bleiben. – Хоћу да останем."
         }
       ],
-      "tip": {
-        "text": "Запомнете: някой ви казва какво да правите → раздразнен • Трябва да направя → мусон."
-      },
-      "important": [
-        "Ali je soll ich machen? to je zelo pogosta fraza.",
-        "Солен и Мусен не са едно и също нещо."
+      "tip": [
+        {
+          "text": "Туђе упутство или очекивање → sollen; нужност → müssen."
+        }
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "sollen",
-            "Was soll ich machen"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "soll",
-                "machen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "sollst",
-                "kommen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "soll",
-                "bleiben"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "muss",
-                "gehen"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "sollen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "soll"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "müssen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "muss"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "können"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "kann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wollen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "will"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {}
-        ]
-      }
+      "important": [
+        "Was soll ich machen? је врло чест израз.",
+        "sollen и müssen нису потпуно исто."
+      ]
     }
   },
   {
@@ -18832,270 +17000,94 @@ const A1_WORDS = [
   },
   {
     "de": "vom",
-    "lv": "Од",
+    "lv": "од • са",
     "level": "A1",
     "study": {
       "id": "a1-vom",
       "layout": "standardStudy",
-      "translation": "Од",
+      "translation": "од • са",
       "explanation": [
-        "Vom е контракција на предлогот von и членот дем.",
-        "Целосна форма: von dem (на кого?).",
-        "Използва се със съществителни от мъжки и среден род, за да посочи произхода или посоката на нещо.",
-        "Отговаря на въпроси от кого? или откъде?",
-        "V praksi se vom skoraj vedno uporablja namesto polnega von dem."
+        "vom је сажети облик предлога von и члана dem.",
+        "Пуни облик је von dem.",
+        "Употребљава се уз именице мушког и средњег рода у дативу када означава порекло, полазиште или извор.",
+        "Одговара на питања од кога, од чега или одакле.",
+        "У пракси се најчешће употребљава vom уместо пуног облика von dem."
       ],
       "examples": [
         {
           "de": "Ich komme vom Bahnhof.",
-          "lv": "Dojdoh ot garata"
+          "lv": "Долазим са железничке станице."
         },
         {
           "de": "Das Geschenk ist vom Vater.",
-          "lv": "Poklon od mog oca."
+          "lv": "Поклон је од оца."
         },
         {
           "de": "Er kommt vom Arzt.",
-          "lv": "Доаѓа од докторот."
+          "lv": "Он долази од лекара."
         },
         {
           "de": "Sie fährt vom Flughafen.",
-          "lv": "Prihaja z letališča."
+          "lv": "Она се вози са аеродрома."
         },
         {
           "de": "Das ist vom Markt.",
-          "lv": "Ovo je sa tržišta."
+          "lv": "Ово је са пијаце."
         },
         {
           "de": "Wir kommen vom Fest.",
-          "lv": "Дојдовме од празникот."
+          "lv": "Долазимо са прославе."
         },
         {
           "de": "Er holt Milch vom Bauern.",
-          "lv": "Od kmeta vzame mleko."
+          "lv": "Он узима млеко од сељака."
         },
         {
           "de": "Die Nachricht ist vom Chef.",
-          "lv": "Съобщение от шефа."
+          "lv": "Порука је од шефа."
         }
       ],
       "comparison": [
         {
           "word": "vom",
-          "meaning": "От (конкретно нещо, за кого?)",
-          "example": "vom Bahnhof – Од станицата"
+          "meaning": "von + dem; од/са одређеног места или извора",
+          "example": "vom Bahnhof – са станице"
         },
         {
           "word": "von",
-          "meaning": "Од (вкупно)",
-          "example": "von mir – Нема мани"
+          "meaning": "од; општи облик",
+          "example": "von mir – од мене"
         },
         {
           "word": "aus",
-          "meaning": "Отвътре / произход",
-          "example": "aus Deutschland – От Германия"
+          "meaning": "из унутрашњости или земље порекла",
+          "example": "aus Deutschland – из Немачке"
         },
         {
           "word": "ab",
-          "meaning": "Počevši od (vrijeme/mjesto)",
-          "example": "ab Montag – Od ponedeljka"
+          "meaning": "почев од",
+          "example": "ab Montag – од понедељка"
         },
         {
           "word": "zu",
-          "meaning": "K/u (обратна посока)",
-          "example": "zum Arzt – Посетете лекар"
+          "meaning": "ка некоме/нечему",
+          "example": "zum Arzt – код лекара"
         }
       ],
       "tip": [
-        "Запомнете: позадина + dem → vom (за кого?).",
-        "U kolokvijalnom govoru gotovo nikada ne kažu von dem - koriste vom."
+        {
+          "text": "Запамти: von + dem → vom."
+        },
+        {
+          "text": "У свакодневном говору von dem се обично сажима у vom."
+        }
       ],
       "important": [
-        "Vom = von dem, само със съществително от мъжки или среден род за кого? в завоя.",
-        "Ukazuje na porijeklo, izvor ili smjer nečega specifičnog.",
-        "За жени: von der Mutter, а не vom Mutter.",
-        "Да не се меша со aus (земја на потекло) или ab (точка на потекло)."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "vom",
-            "von dem"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vom"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "vom"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "vom Bahnhof"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "von"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "von mir"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "aus"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "aus Deutschland"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ab"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "ab Montag"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zu"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "zum Arzt"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "vom"
-            ]
-          },
-          {
-            "purple": [
-              "von dem"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "vom"
-            ],
-            "purple": [
-              "von dem"
-            ]
-          },
-          {},
-          {
-            "yellow": [
-              "von der Mutter"
-            ],
-            "red": [
-              "vom Mutter"
-            ]
-          },
-          {
-            "green": [
-              "aus"
-            ],
-            "red": [
-              "ab"
-            ]
-          }
-        ]
-      }
+        "vom = von dem и употребљава се уз именице мушког или средњег рода у дативу.",
+        "Означава порекло, извор или кретање од нечег одређеног.",
+        "Уз именицу женског рода стоји von der, на пример von der Mutter, а не vom Mutter.",
+        "Не мешај vom са aus за кретање из унутрашњости или порекло из земље, нити са ab за почетну тачку."
+      ]
     }
   },
   {
@@ -19105,182 +17097,66 @@ const A1_WORDS = [
   },
   {
     "de": "vor",
-    "lv": "Преди • Преди",
+    "lv": "пре • испред",
     "level": "A1",
     "study": {
       "id": "a1-vor",
       "layout": "standardStudy",
-      "translation": "Преди • Преди",
+      "translation": "пре • испред",
       "explanation": [
-        "Ключова идея: „крадец“ означава „преди“ във времето или „преди място“.",
-        "Когато става въпрос за време, „крадец“ означава „преди“.",
-        "Когато става дума за място, vor означава „отпред“ или „на“.",
-        "V časova zona vor znači \"za sada\", na primer fünf vor acht."
+        "vor означава пре у времену или испред у простору.",
+        "Када се говори о времену, vor значи пре; када се говори о месту, значи испред или пред.",
+        "При исказивању времена на сату vor значи до, на пример fünf vor acht."
       ],
       "examples": [
         {
           "de": "Vor dem Essen wasche ich die Hände.",
-          "lv": "Ги мијам рацете пред јадење."
+          "lv": "Пре јела перем руке."
         },
         {
           "de": "Das Auto steht vor dem Haus.",
-          "lv": "Колата е паркирана пред къщата."
+          "lv": "Ауто стоји испред куће."
         },
         {
           "de": "Es ist fünf vor acht.",
-          "lv": "Сега е пет без осем."
+          "lv": "Осам је без пет."
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "След като се нахраним, излизаме на разходка."
+          "lv": "После јела идемо у шетњу."
         }
       ],
       "comparison": [
         {
           "word": "vor",
-          "meaning": "Пред/пред",
-          "example": "Пре јела..."
+          "meaning": "пре или испред",
+          "example": "Vor dem Essen... – Пре јела..."
         },
         {
           "word": "nach",
-          "meaning": "S strani/pred",
-          "example": "После јела..."
+          "meaning": "после или ка",
+          "example": "Nach dem Essen... – После јела..."
         },
         {
           "word": "neben",
-          "meaning": "До",
-          "example": "Поред куће."
+          "meaning": "поред",
+          "example": "Neben dem Haus. – Поред куће."
         },
         {
           "word": "hinter",
-          "meaning": "Отзад",
-          "example": "Иза куће."
+          "meaning": "иза",
+          "example": "Hinter dem Haus. – Иза куће."
         }
       ],
-      "tip": {
-        "text": "Zapamtite: prije vremena, prije mjesta → lopov."
-      },
-      "important": [
-        "Tat je lahko čas in kraj.",
-        "Vor dem Essen = pred obroki • Vor dem Haus = pred hišo."
+      "tip": [
+        {
+          "text": "Запамти: пре у времену, испред у простору → vor."
+        }
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "vor",
-            "fünf vor acht"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Vor"
-              ],
-              "yellow": [
-                "Essen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vor"
-              ],
-              "yellow": [
-                "Haus"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "vor"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "Nach"
-              ],
-              "yellow": [
-                "Essen"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "vor"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "Vor"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "nach"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "Nach"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "neben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "Neben"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "hinter"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "Hinter"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {},
-          {
-            "blue": [
-              "vor dem Essen",
-              "vor dem Haus"
-            ]
-          }
-        ]
-      }
+      "important": [
+        "vor може да означава и време и место.",
+        "vor dem Essen = пре јела; vor dem Haus = испред куће."
+      ]
     }
   },
   {
@@ -19326,151 +17202,60 @@ const A1_WORDS = [
   },
   {
     "de": "was",
-    "lv": "Кой • Какво",
+    "lv": "шта",
     "level": "A1",
     "study": {
       "id": "a1-was",
       "layout": "standardStudy",
-      "translation": "Кой • Какво",
+      "translation": "шта",
       "explanation": [
-        "Главна идеја: што е прашален збор за нештата и настаните - на латвиски е што или што, во зависност од делот на реченицата.",
-        "Питаха го за неща, събития и факти, а не за хора.",
-        "На германски, зборот нема да се промени по промена, секогаш изгледа како да бил.",
-        "Ако в изречението е имало подлог, той се превежда на латвийски като kas (Was ist das? = Какво е това?).",
-        "Ако was е обект (допълнение) на глагол, той се превежда на латвийски като ko (Was machst du? = Какво правиш?).",
-        "Хората питат с wer (кой/кой), но не беше."
+        "was је упитна реч за ствари, догађаје и чињенице, а не за особе.",
+        "У немачком се was не мења по падежима. У српском се најчешће преводи као шта, а у неким конструкцијама као које.",
+        "За особе се пита са wer, а не са was."
       ],
       "examples": [
         {
           "de": "Was ist das?",
-          "lv": "Какво е?"
+          "lv": "Шта је то?"
         },
         {
           "de": "Was ist passiert?",
-          "lv": "Какво е станало"
+          "lv": "Шта се догодило?"
         },
         {
           "de": "Was machst du gerade?",
-          "lv": "Šta radiš"
+          "lv": "Шта сада радиш?"
         },
         {
           "de": "Was möchtest du trinken?",
-          "lv": "Какво искаш да пиеш"
+          "lv": "Шта желиш да попијеш?"
         },
         {
           "de": "Was bedeutet dieses Wort?",
-          "lv": "Што значи овој збор?"
+          "lv": "Шта значи ова реч?"
         },
         {
           "de": "Was ist dein Lieblingsessen?",
-          "lv": "Која е вашата омилена храна?"
+          "lv": "Које је твоје омиљено јело?"
         },
         {
           "de": "Was hast du gesagt?",
-          "lv": "Какво каза"
+          "lv": "Шта си рекао/рекла?"
         }
       ],
       "tip": [
-        "Samo \"Beshe\" se ne menja - na nemačkom je uvek bilo.",
-        "Брз трик: Ако на прашањето може да се одговори со „Тоа е...“, употребете who • Ако одговорот доаѓа по глаголот како предмет, користете ko."
+        {
+          "text": "was пита о стварима, догађајима и чињеницама."
+        },
+        {
+          "text": "За особу употреби wer."
+        }
       ],
       "important": [
-        "Питаха го за неща, събития и факти, а не за хора.",
-        "Хората питат с wer (кой/кой), но не беше.",
-        "Was für (ein/eine) означава някой/за и пита за качество или тип (Was für ein Film ist das? = Какъв филм е това?).",
-        "Napačno: Wer ist passiert? → Pravilno: Je bil pasiven?"
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "was"
-          ],
-          "purple": [
-            "kas",
-            "ko"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Was"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {},
-          {
-            "purple": [
-              "ko"
-            ]
-          }
-        ],
-        "important": [
-          {},
-          {
-            "blue": [
-              "wer"
-            ]
-          },
-          {
-            "blue": [
-              "was für"
-            ]
-          },
-          {}
-        ]
-      }
+        "was се не употребљава за особе.",
+        "was für (ein/eine) значи какав или која врста.",
+        "Неправилно: Wer ist passiert? Правилно: Was ist passiert?"
+      ]
     }
   },
   {
@@ -19531,339 +17316,125 @@ const A1_WORDS = [
   },
   {
     "de": "wenn",
-    "lv": "Če • Kdaj",
+    "lv": "ако • када",
     "level": "A1",
     "study": {
       "id": "a1-wenn",
       "layout": "standardStudy",
-      "translation": "Če • Kdaj",
+      "translation": "ако • када",
       "explanation": [
-        "Ключова идея: wenn означава „ако“ или „когато“, в зависимост от ситуацията.",
-        "Ако е условие, преведете го така, сякаш.",
-        "Когато се говори за повтарящо се или общо време, преведете като „когато“.",
-        "Nakon wenn, glagol se obično završava njemačkom rečenicom."
+        "wenn значи ако или када, зависно од контекста.",
+        "За услов се преводи као ако, а за поновљено или опште време као када.",
+        "У зависној реченици са wenn лични глагол обично стоји на крају."
       ],
       "examples": [
         {
           "de": "Wenn du Zeit hast, komm vorbei.",
-          "lv": "Če imate čas, se oglasite."
+          "lv": "Ако имаш времена, сврати."
         },
         {
           "de": "Wenn es regnet, bleibe ich zu Hause.",
-          "lv": "Ако вали, си стоя вкъщи."
+          "lv": "Ако пада киша, остајем код куће."
         },
         {
           "de": "Wenn ich müde bin, trinke ich Kaffee.",
-          "lv": "Ko sem utrujena, pijem kavo."
+          "lv": "Када сам уморан/уморна, пијем кафу."
         },
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "Не знам дали ќе дојде."
+          "lv": "Не знам да ли ће он доћи."
         }
       ],
       "comparison": [
         {
           "word": "wenn",
-          "meaning": "Ако/кога",
-          "example": "Ако имаш време..."
+          "meaning": "ако или када",
+          "example": "Wenn du Zeit hast... – Ако имаш времена..."
         },
         {
           "word": "ob",
-          "meaning": "Или в косвен въпрос",
-          "example": "Не знам да ли..."
+          "meaning": "да ли у индиректном питању",
+          "example": "Ich weiß nicht, ob... – Не знам да ли..."
         },
         {
           "word": "wann",
-          "meaning": "При съмнение",
-          "example": "Када долазиш?"
+          "meaning": "када у питању",
+          "example": "Wann kommst du? – Када долазиш?"
         },
         {
           "word": "weil",
-          "meaning": "Защото",
-          "example": "Остајем јер сам болестан."
+          "meaning": "јер",
+          "example": "weil ich krank bin – јер сам болестан/болесна"
         }
       ],
-      "tip": {
-        "text": "Запомнете: състояние → venn • Въпрос „кога?“ → Искам."
-      },
-      "important": [
-        "Wenn и Wann не се иста работа.",
-        "Кога ще дойдеш имам един въпрос Wenn du kommst... - състояние/време."
+      "tip": [
+        {
+          "text": "Услов или поновљено време → wenn; питање када? → wann."
+        }
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "wenn"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Wenn",
-                "hast"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wenn",
-                "regnet"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wenn",
-                "bin"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "ob"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "wenn"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "Wenn"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ob"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "red": [
-                "ob"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "wann"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "Wann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "weil"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "weil"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {
-            "blue": [
-              "wenn"
-            ],
-            "yellow": [
-              "wann"
-            ]
-          },
-          {
-            "blue": [
-              "Wenn du kommst"
-            ]
-          }
-        ]
-      }
+      "important": [
+        "wenn и wann нису исто.",
+        "Wann kommst du? је питање; Wenn du kommst... уводи услов или време."
+      ]
     }
   },
   {
     "de": "wer",
-    "lv": "Кой • Кой",
+    "lv": "ко",
     "level": "A1",
     "study": {
       "id": "a1-wer",
       "layout": "standardStudy",
-      "translation": "Кой • Кой",
+      "translation": "ко",
       "explanation": [
-        "Главна идеја: wer е прашален збор за идентитетот на една личност - на латвиски е кој или кој.",
-        "Прашувавме за луѓе, а не за работи или настани.",
-        "Stvari i događaji su dati sa e bilo i ne e bilo.",
-        "Wer на германски обично е предмет на реченицата (номинативен случај) - Wer ist das? = Што е ова?",
-        "Kada pitate koi od nekoliko ljudi, wer se često koristi sa von (wer von euch = koi od vas).",
-        "Wer ја менува својата форма во зависност од деклинацијата: wen (падеж акузатив), wem (падеж на датив), wessen (падеж на генитив) - тоа е формата wer која е најчеста на ниво А1."
+        "wer је упитна реч за идентитет особе и значи ко.",
+        "Пита о људима, а не о стварима или догађајима; за њих се употребљава was.",
+        "wer је номинатив. Други падежни облици су wen, wem и wessen.",
+        "За избор између више особа употребљава се wer von..., на пример wer von euch."
       ],
       "examples": [
         {
           "de": "Wer ist das?",
-          "lv": "Какво е?"
+          "lv": "Ко је то?"
         },
         {
           "de": "Wer bist du?",
-          "lv": "Кой си ти"
+          "lv": "Ко си ти?"
         },
         {
           "de": "Wer kommt heute?",
-          "lv": "Kaj se bo zgodilo danes?"
+          "lv": "Ко долази данас?"
         },
         {
           "de": "Wer ist deine Lehrerin?",
-          "lv": "Кой е вашият учител"
+          "lv": "Ко је твоја наставница?"
         },
         {
           "de": "Wer von euch spricht Deutsch?",
-          "lv": "Колкумина од вас зборуваат германски?"
+          "lv": "Ко од вас говори немачки?"
         },
         {
           "de": "Wer hat das gesagt?",
-          "lv": "Кой каза това?"
+          "lv": "Ко је то рекао?"
         },
         {
           "de": "Wer möchte Kaffee?",
-          "lv": "Кой иска кафе?"
+          "lv": "Ко жели кафу?"
         }
       ],
       "tip": [
-        "Wer пита за хора (кой/кой) – за неща и събития, използваме was.",
-        "Če želite prositi za izbiro med več osebami, uporabite wer von… (katera od…)."
+        {
+          "text": "За особу → wer; за ствар или догађај → was."
+        },
+        {
+          "text": "Ко од... → wer von..."
+        }
       ],
       "important": [
-        "Sprašujemo samo o ljudeh in ne o stvareh.",
-        "Stvari i događaji su dati sa e bilo i ne e bilo.",
-        "Wer променя формата, като променя: wen, wem, wessen, но основната форма е wer.",
-        "Napačno: Wer ist passiert? → Pravilno: Je bil pasiven?"
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "wer"
-          ],
-          "purple": [
-            "das"
-          ],
-          "green": [
-            "das"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "Wer"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "wer"
-            ],
-            "green": [
-              "was"
-            ]
-          },
-          {
-            "blue": [
-              "wer von"
-            ]
-          }
-        ],
-        "important": [
-          {},
-          {},
-          {
-            "blue": [
-              "wer"
-            ]
-          },
-          {
-            "blue": [
-              "Wer"
-            ]
-          }
-        ]
-      }
+        "wer пита само о особама.",
+        "Падежни облици су wer, wen, wem и wessen.",
+        "Неправилно: Wer ist passiert? Правилно: Was ist passiert?"
+      ]
     }
   },
   {

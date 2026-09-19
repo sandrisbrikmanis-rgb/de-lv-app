@@ -144,16 +144,16 @@ const A1_WORDS = [
   },
   {
     "de": "klein",
-    "lv": "Kicsi",
+    "lv": "kicsi • kis",
     "level": "A1",
     "study": {
       "id": "a1-klein-study",
       "layout": "standardStudy",
-      "translation": "Kicsi",
+      "translation": "kicsi • kis",
       "explanation": [
-        "Fő ötlet: Kis méret vagy terjedelem.",
-        "Klein főként azt jelenti: kis méret.",
-        "Gyakran leírja: egy dolog/személy mérete."
+        "Fő gondolat: a klein kis méretet, terjedelmet vagy fiatal kort jelöl.",
+        "A klein tárgyat, helyiséget, mennyiséget vagy gyermeket írhat le.",
+        "A pontos jelentést a főnév és a szövegkörnyezet adja."
       ],
       "examples": [
         {
@@ -162,11 +162,11 @@ const A1_WORDS = [
         },
         {
           "de": "Das Kind ist noch klein.",
-          "lv": "Kicsi a szoba."
+          "lv": "A gyerek még kicsi."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "A gyerek még kicsi."
+          "lv": "Van egy kis táskám."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
@@ -178,23 +178,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "klein = kicsi",
-        "Használd a klein szót, ha a kontextus ezt az értelmet adja."
+        "klein = kicsi / kis.",
+        "A jelentést a főnév és a szövegkörnyezet pontosítja."
       ],
       "important": [
-        "klein = mazs izmērā.",
-        "klein = mazs."
+        "A klein leggyakrabban kis méretet jelöl.",
+        "Gyermeknél fiatal kort is kifejezhet."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "klein"
-          ],
-          "purple": [
-            "ötlet"
-          ],
-          "green": [
-            "ötlet"
           ]
         },
         "examples": [
@@ -204,11 +198,7 @@ const A1_WORDS = [
                 "klein"
               ]
             },
-            "lv": {
-              "purple": [
-                "szoba"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -216,11 +206,7 @@ const A1_WORDS = [
                 "klein"
               ]
             },
-            "lv": {
-              "purple": [
-                "Kicsi"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -228,26 +214,16 @@ const A1_WORDS = [
                 "kleine"
               ]
             },
-            "lv": {
-              "purple": [
-                "gyerek"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "mazs"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "klein"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -478,50 +454,60 @@ const A1_WORDS = [
   },
   {
     "de": "ab",
-    "lv": "-tól",
+    "lv": "-tól/-től kezdve",
     "level": "A1",
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "-tól",
-      "explanation": "Akkor használatos, ha valami egy adott időponttól, helytől vagy ponttól kezdődik. Gyakran azt jelenti, hogy \"kezdve\".",
+      "translation": "-tól/-től kezdve",
+      "explanation": [
+        "Akkor használjuk, ha valami egy meghatározott időponttól, helytől vagy ponttól kezdődik. Gyakori jelentése: „... kezdve”."
+      ],
       "examples": [
         {
           "de": "ab heute",
-          "lv": "Mától",
+          "lv": "mától",
           "level": "A1"
         },
         {
           "de": "ab Montag",
-          "lv": "Hétfőtől"
+          "lv": "hétfőtől"
         },
         {
           "de": "ab 8 Uhr",
-          "lv": "8-tól"
+          "lv": "8 órától"
         },
         {
           "de": "ab Bahnhof",
-          "lv": "Az állomásról"
+          "lv": "az állomástól kezdve"
         }
+      ],
+      "tip": {
+        "text": "Jegyezd meg: időbeli vagy térbeli kezdőpont → ab."
+      },
+      "important": [
+        "Az ab időbeli vagy térbeli kezdőpontot jelöl.",
+        "Eredet vagy belülről kifelé irányuló mozgás esetén inkább von vagy aus használatos."
       ],
       "comparison": [
         {
           "word": "ab",
-          "meaning": "Ponttól/időtől kezdve",
-          "example": "ab Montag – Hétfőtől"
+          "meaning": "egy időponttól vagy ponttól kezdve",
+          "example": "ab Montag – hétfőtől"
         },
         {
           "word": "von",
-          "meaning": "Valakitől/valamitől • Eredet",
-          "example": "von mir – Tőlem"
+          "meaning": "valakitől / valamitől; eredet",
+          "example": "von mir – tőlem"
         },
         {
           "word": "aus",
-          "meaning": "Belülről kifelé",
-          "example": "aus dem Haus – Házból / házon kívül"
+          "meaning": "belülről kifelé; származás",
+          "example": "aus dem Haus – a házból"
         }
       ],
       "sectionAccents": {
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -529,11 +515,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "Mától"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -541,11 +523,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "Hétfőtől"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -553,11 +531,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "tól"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -565,11 +539,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "állomásról"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -579,14 +549,8 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "example": {
-              "green": [
-                "ab"
-              ],
-              "purple": [
-                "Montag"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -594,14 +558,8 @@ const A1_WORDS = [
                 "von"
               ]
             },
-            "example": {
-              "yellow": [
-                "von"
-              ],
-              "purple": [
-                "von"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -609,64 +567,18 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "example": {
-              "blue": [
-                "aus"
-              ],
-              "purple": [
-                "aus"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "sākuma punkts"
-            ],
-            "green": [
-              "laikā",
-              "vietā"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "sākuma punktu"
-            ],
-            "green": [
-              "laikā",
-              "vietā"
-            ]
-          },
-          {
-            "yellow": [
-              "von"
-            ],
-            "red": [
-              "aus"
-            ],
-            "purple": [
-              "izcelsme",
-              "ārā no iekšienes"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "tip": {
-        "text": "Atceries: sākuma punkts laikā/vietā → ab."
-      },
-      "important": [
-        "az ab a kezdőpontot időben vagy helyen mutatja.",
-        "Ha a gondolat egy hely vagy irányból való kiindulás, gyakrabban használjuk a von vagy aus szót."
-      ]
+      }
     }
   },
   {
@@ -690,48 +602,55 @@ const A1_WORDS = [
   },
   {
     "de": "aber",
-    "lv": "De",
+    "lv": "de • azonban",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "De",
-      "explanation": "Kontraszt bevezetésére vagy ellenvetés kifejezésére szolgál. Gyakran azt jelenti, hogy \"de\", \"bár\" vagy \"de\".",
+      "translation": "de • azonban",
+      "explanation": [
+        "Ellentét vagy ellenvetés bevezetésére használjuk. Gyakori jelentése: „de”, „azonban” vagy „viszont”."
+      ],
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "Szeretnék jönni, de nincs időm."
+          "lv": "Szeretnék én is menni, de nincs időm."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "Az étel finom volt, de túlértékelt."
+          "lv": "Az étel finom volt, de túl drága."
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "Igaza van, de én másképp gondolom."
+          "lv": "Igaza van, de én ezt másképp látom."
         }
+      ],
+      "tip": {
+        "text": "Jegyezd meg: általános ellentét → aber; „nem ..., hanem ...” → sondern."
+      },
+      "important": [
+        "Az aber ellentétet vagy ellenvetést fejez ki.",
+        "A „nem ..., hanem ...” szerkezetben németül rendszerint sondern áll."
       ],
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Ellentétes • Ellenvetés • Azonban",
+          "meaning": "ellentét; de / azonban",
           "example": "Ich komme, aber später. – Jövök, de később."
         },
         {
           "word": "sondern",
-          "meaning": "Nem • Hanem",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – Teát akartam, nem kávét."
+          "meaning": "nem ..., hanem ...",
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – Nem teát akartam, hanem kávét."
         },
         {
           "word": "jedoch",
-          "meaning": "Viszont",
-          "example": "Es ist kalt, jedoch sonnig. – Hideg van, de süt a nap."
+          "meaning": "azonban / viszont",
+          "example": "Es ist kalt, jedoch sonnig. – Hideg van, azonban süt a nap."
         }
       ],
-      "tip": {
-        "text": "Atceries: pretstats/iebilde → aber."
-      },
       "sectionAccents": {
+        "explanation": {},
         "examples": [
           {
             "de": {
@@ -739,11 +658,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "Szeretnék"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -751,11 +666,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "étel"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -763,11 +674,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "Igaza"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -777,14 +684,8 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "example": {
-              "green": [
-                "aber"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -792,14 +693,8 @@ const A1_WORDS = [
                 "sondern"
               ]
             },
-            "example": {
-              "yellow": [
-                "sondern"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -807,52 +702,18 @@ const A1_WORDS = [
                 "jedoch"
               ]
             },
-            "example": {
-              "red": [
-                "jedoch"
-              ],
-              "purple": [
-                "ist"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "pretstats",
-              "iebilde"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "pretstatu",
-              "iebildi"
-            ]
-          },
-          {
-            "yellow": [
-              "sondern"
-            ],
-            "purple": [
-              "nevis",
-              "bet gan"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "de aber az ellentéteket vagy kifogásokat mutatja.",
-        "Ha az ellentét \"nem..., hanem...\" típusú, a német nyelvben általában a sondern szót használjuk."
-      ]
+      }
     }
   },
   {
@@ -8181,17 +8042,17 @@ const A1_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "Azonnal • Egyenlő",
+    "lv": "mindjárt • egyforma",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "Azonnal • Egyenlő",
+      "translation": "mindjárt • egyforma",
       "explanation": [
-        "Fő gondolat: a gleich időben azt jelenti, hogy azonnal, aránylag egyenlőt.",
-        "Ha időről van szó, gleich = azonnal/pillanatban (Ich komme gleich. = mindjárt jövök.).",
-        "Ha összehasonlításról van szó, a gleich = ugyanaz/ugyanaz (die gleiche Farbe = ugyanaz a szín).",
-        "A gleich elöljárószóként is használható a datívussal, azaz hasonló (gleich mir = mint én)."
+        "Időhatározóként a gleich jelentése mindjárt, összehasonlításban pedig egyforma vagy ugyanaz.",
+        "Időre utalva gleich = mindjárt / rövidesen.",
+        "Összehasonlításban gleich = egyforma / ugyanaz.",
+        "A szövegkörnyezet mutatja meg a helyes jelentést."
       ],
       "examples": [
         {
@@ -8204,11 +8065,11 @@ const A1_WORDS = [
         },
         {
           "de": "Das Essen ist gleich fertig.",
-          "lv": "Hamarosan elkészül az étel."
+          "lv": "Mindjárt kész az étel."
         },
         {
           "de": "Beide Wege sind gleich lang.",
-          "lv": "Mindkét út egyforma hosszú."
+          "lv": "Mindkét út ugyanolyan hosszú."
         },
         {
           "de": "Bis gleich!",
@@ -8216,25 +8077,21 @@ const A1_WORDS = [
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "Egyforma magasságúak."
+          "lv": "Ugyanolyan magasak."
         }
       ],
       "tip": [
-        "Időben (később) → azonnal.",
-        "Összehasonlítás (ugyanaz) → ugyanaz."
+        "Időre utalva → mindjárt.",
+        "Összehasonlításban → egyforma vagy ugyanaz."
       ],
       "important": [
-        "gleich = azonnal (idő) vagy ugyanaz (összehasonlítás) — a kontextustól függ.",
-        "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
+        "A gleich jelentése időben mindjárt, összehasonlításban egyforma.",
+        "Bis gleich! = Hamarosan találkozunk! – gyakori elköszönés."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gleich"
-          ],
-          "purple": [
-            "gondolat",
-            "gondolat"
           ]
         },
         "examples": [
@@ -8244,23 +8101,7 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {
-              "purple": [
-                "Mindjárt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Ugyanolyan"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8268,23 +8109,7 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {
-              "purple": [
-                "Hamarosan"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mindkét"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8292,49 +8117,40 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {
-              "purple": [
-                "Hamarosan"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "gleich"
               ]
             },
-            "lv": {
-              "purple": [
-                "Egyforma"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
               ]
-            }
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "tūlīt"
-            ]
-          },
-          {
-            "green": [
-              "vienāds"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "tūlīt",
-              "vienāds"
-            ]
-          },
-          {
-            "blue": [
-              "Bis gleich!"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -12611,30 +12427,30 @@ const A1_WORDS = [
     "de": "Laden",
     "de_article": "der",
     "de_plural": "die Läden",
-    "lv": "Üzlet",
+    "lv": "bolt • üzlet",
     "level": "A1",
     "study": {
       "id": "a1-laden-study",
       "layout": "standardStudy",
-      "translation": "Üzlet",
+      "translation": "bolt • üzlet",
       "explanation": [
-        "Fő gondolat: a der Laden nagybetűvel írható, a der szócikk pedig egy főnév – egy kis bolt.",
-        "A terhelt kisbetűs ige - betölt vagy tölt.",
-        "Der Laden a mindennapi életben gyakran utal egy kis boltra (im Laden einkaufen = boltban vásárolni).",
-        "Többes szám: die Läden."
+        "Fő gondolat: a der Laden nagy kezdőbetűvel és der névelővel főnév: kis bolt vagy üzlet.",
+        "A laden kis kezdőbetűvel ige: megrakni vagy feltölteni.",
+        "A der Laden a mindennapi nyelvben gyakran kis üzletet jelent: im Laden einkaufen = boltban vásárolni.",
+        "Többes száma: die Läden."
       ],
       "examples": [
         {
           "de": "Ich gehe in den Laden.",
-          "lv": "Megyek a boltba"
+          "lv": "Bemegyek a boltba."
         },
         {
           "de": "Der Laden ist geschlossen.",
-          "lv": "Az üzlet zárva van."
+          "lv": "A bolt zárva van."
         },
         {
           "de": "Es gibt viele Läden hier.",
-          "lv": "Sok üzlet van itt."
+          "lv": "Sok bolt van itt."
         },
         {
           "de": "Ich muss mein Handy laden.",
@@ -12642,24 +12458,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Laden nagybetűvel — főnév (bolt).",
-        "laden kisbetűvel — ige (betölteni/tölteni)."
+        "A der Laden nagy kezdőbetűvel főnév: bolt.",
+        "A laden kis kezdőbetűvel ige: megrakni vagy feltölteni."
       ],
       "important": [
         "der Laden = bolt (főnév).",
-        "laden = betölteni/tölteni (ige).",
+        "laden = megrakni vagy feltölteni (ige).",
         "Többes szám: die Läden."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Laden"
-          ],
-          "purple": [
-            "gondolat"
-          ],
-          "green": [
-            "laden"
+            "Laden"
           ]
         },
         "examples": [
@@ -12669,11 +12479,7 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {
-              "purple": [
-                "Megyek"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -12681,11 +12487,7 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {
-              "purple": [
-                "üzlet"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -12693,53 +12495,25 @@ const A1_WORDS = [
                 "Läden"
               ]
             },
-            "lv": {
-              "purple": [
-                "Sok"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "laden"
               ]
             },
-            "lv": {
-              "purple": [
-                "Fel"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "der Laden"
-            ]
-          },
-          {
-            "green": [
-              "laden"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "der Laden"
-            ]
-          },
-          {
-            "green": [
-              "laden"
-            ]
-          },
-          {
-            "blue": [
-              "die Läden"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -13001,18 +12775,18 @@ const A1_WORDS = [
   },
   {
     "de": "lang",
-    "lv": "Hosszú • Hosszú",
+    "lv": "hosszú • sokáig",
     "level": "A1",
     "study": {
       "id": "a1-lang",
       "layout": "standardStudy",
-      "translation": "Hosszú • Hosszú",
+      "translation": "hosszú • sokáig",
       "explanation": [
-        "Fő gondolat: lang térben azt jelenti, hogy hosszú, időben hosszú.",
-        "Ha a méretről vagy a távolságról van szó, lang = hosszú (ein langer Tisch = hosszú asztal).",
-        "Ha az időtartamról van szó, lang = hosszú (ein langer Tag = hosszú nap).",
-        "A den ganzen Tag lang kifejezésben az egész napot jelenti (hosszában).",
-        "A lett „garš” és „ilgs” két különböző szó, de a német lang mindkét jelentést lefedi."
+        "A lang térben hosszút, időben hosszú ideig tartót jelent.",
+        "Méret vagy távolság esetén lang = hosszú: ein langer Tisch.",
+        "Időtartam esetén lang = hosszú, illetve sokáig: ein langer Tag.",
+        "A den ganzen Tag lang kifejezés jelentése: egész nap.",
+        "Magyarul a melléknévi hosszú és a határozói sokáig alakot a mondat szerepe szerint választjuk."
       ],
       "examples": [
         {
@@ -13025,7 +12799,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie lange dauert es?",
-          "lv": "Meddig tart"
+          "lv": "Mennyi ideig tart?"
         },
         {
           "de": "Sie hat lange Haare.",
@@ -13037,16 +12811,16 @@ const A1_WORDS = [
         },
         {
           "de": "Den ganzen Tag lang.",
-          "lv": "Egész nap (hosszában)."
+          "lv": "Egész nap."
         }
       ],
       "tip": [
-        "Méretről vagy távolságról (haj, út, asztal) → hosszú.",
-        "Időről (nap, várakozás, film) → hosszú."
+        "Méret vagy távolság esetén → hosszú.",
+        "Időtartam esetén → hosszú ideig / sokáig."
       ],
       "important": [
-        "lang = hosszú (méret) vagy hosszú (idő) — a kontextustól függ.",
-        "wie lange = meddig (kérdés az időről, nem a méretről)."
+        "A lang méretnél hosszú, időnél hosszú ideig vagy sokáig.",
+        "wie lange = mennyi ideig; időtartamra kérdez."
       ],
       "sectionAccents": {
         "explanation": {
@@ -13054,8 +12828,8 @@ const A1_WORDS = [
             "lang"
           ],
           "purple": [
-            "garš",
-            "ilgs"
+            "hosszú",
+            "sokáig"
           ]
         },
         "examples": [
@@ -13067,7 +12841,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "asztal"
+                "hosszú"
               ]
             }
           },
@@ -13079,7 +12853,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "film"
+                "hosszú"
               ]
             }
           },
@@ -13091,7 +12865,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Meddig"
+                "Mennyi ideig"
               ]
             }
           },
@@ -13115,7 +12889,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Már"
+                "régóta"
               ]
             }
           },
@@ -13127,28 +12901,29 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Egész"
+                "Egész nap"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
-              "garš"
+            "purple": [
+              "hosszú"
             ]
           },
           {
-            "green": [
-              "ilgs"
+            "purple": [
+              "hosszú",
+              "sokáig"
             ]
           }
         ],
         "important": [
           {
             "purple": [
-              "garš",
-              "ilgs"
+              "hosszú",
+              "sokáig"
             ]
           },
           {
@@ -26715,33 +26490,30 @@ const A1_WORDS = [
   {
     "de": "Essen",
     "de_article": "das",
-    "lv": "Étel • Étkezés",
+    "lv": "étel • étkezés",
     "level": "A1",
     "study": {
       "id": "a1-essen-study",
       "layout": "standardStudy",
-      "translation": "Étel • Étkezés",
+      "translation": "étel • étkezés",
       "explanation": [
-        "Fő ötlet: Főnév - étel vagy az egész étkezés.",
-        "Das Essen elsősorban azt jelenti: ételt fogyasztani.",
-        "Gyakran leírja: cselekvés.",
-        "Das Essen alapvetően azt jelenti: étel vagy étkezés.",
-        "Gyakran leírja: eső.",
-        "Az essen azt jelenti, hogy enni.",
-        "Das Essen jelenthet ételt vagy általában étkezést."
+        "A das Essen főnév ételt vagy étkezést jelent.",
+        "Konkrét ételre és teljes étkezésre egyaránt utalhat.",
+        "Főnévként nagybetűvel és gyakran névelővel áll: das Essen.",
+        "A kisbetűs essen ige jelentése: enni."
       ],
       "examples": [
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Az étel jó ízű."
+          "lv": "Az étel finom."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "Mit akarsz enni"
+          "lv": "Mit szeretnétek enni?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "12 órakor eszünk."
+          "lv": "Tizenkét órakor eszünk."
         },
         {
           "de": "Das Essen ist fertig.",
@@ -26749,54 +26521,41 @@ const A1_WORDS = [
         },
         {
           "de": "Das Essen schmeckt sehr gut.",
-          "lv": "Az étel nagyon jó ízű."
+          "lv": "Nagyon finom az étel."
         },
         {
           "de": "Das Essen schmeckt gut.",
-          "lv": "Az étel jó ízű."
+          "lv": "Az étel finom."
         }
       ],
       "tip": [
-        "das Essen = enni",
-        "Használd a das Essen szót, ha a kontextus ezt az értelmet adja."
+        "das Essen = étel vagy étkezés",
+        "A das Essen alakot akkor használd, ha főnévről van szó."
       ],
       "important": [
-        "essen egy főnév nélküli ige.",
-        "das Essen nem ugyanaz, mint az essen.",
+        "Az essen kisbetűvel írt ige.",
+        "A das Essen nem ugyanaz, mint az essen.",
         "Cselekvés: essen.",
-        "Dolog/étkezés: das Essen."
+        "Étel vagy étkezés: das Essen."
       ],
       "sectionAccents": {
         "explanation": {
-          "yellow": [
-            "das Essen",
-            "essen"
-          ],
-          "purple": [
-            "ötlet",
-            "ötlet"
-          ],
-          "green": [
+          "blue": [
             "Essen"
           ]
         },
         "examples": [
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "étel"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "yellow": [
+              "blue": [
                 "essen"
               ]
             },
@@ -26804,7 +26563,7 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
+              "blue": [
                 "essen"
               ]
             },
@@ -26812,42 +26571,27 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Kész"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "étel"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "yellow": [
-                "das Essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
-            "lv": {
-              "purple": [
-                "étel"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
@@ -26855,6 +26599,9 @@ const A1_WORDS = [
           {}
         ],
         "important": [
+          {},
+          {},
+          {},
           {}
         ]
       }
