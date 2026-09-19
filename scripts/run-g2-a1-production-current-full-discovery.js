@@ -153,11 +153,16 @@ async function main() {
     writeJsonAtomic("full-discovery-result.json", {
       pass: result.pass,
       phase: result.phase,
+      lang: result.lang || null,
+      reason: result.reason || null,
+      mapErrors: result.mapErrors || null,
       linguisticAuditsExecuted: result.linguisticAuditsExecuted || 0,
       metadata: result.metadata || null,
       blockers: result.blockers || [],
       coverage: result.coverage || null,
       postRun: result.postRun || null,
+      partialRecords: result.partialRecords ?? null,
+      lunaCalls: result.lunaCalls ?? null,
     });
     emitGateJson("full", result);
     if (!result.pass) process.exit(2);

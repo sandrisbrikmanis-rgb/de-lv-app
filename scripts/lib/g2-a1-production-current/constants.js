@@ -40,6 +40,9 @@ const G2_A1_BATCH_LIMITS = Object.freeze({
   comparisonStudyUsesStandardStudyLimit: 5,
 });
 
+/** Luna batch wall clock for A1 card batches (APVIENOTS audit; does not change batch sizes). */
+const G2_A1_LUNA_BATCH_WALL_CLOCK_MS = 30 * 60 * 1000;
+
 const AUDIT_MODE_FULL_DISCOVERY = "FULL_DISCOVERY";
 const SCOPE_LABEL = "G2/A1 production-current 32 languages";
 
@@ -134,6 +137,7 @@ module.exports = {
   FORBIDDEN_CURRENT_SOURCES,
   CSV_MAX_BYTES,
   G2_A1_BATCH_LIMITS,
+  G2_A1_LUNA_BATCH_WALL_CLOCK_MS,
   AUDIT_MODE_FULL_DISCOVERY,
   SCOPE_LABEL,
 };
