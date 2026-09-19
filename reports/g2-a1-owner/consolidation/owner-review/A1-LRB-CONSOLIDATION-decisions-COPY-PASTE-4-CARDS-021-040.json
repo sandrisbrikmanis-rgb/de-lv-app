@@ -1059,8 +1059,8 @@
             "text": "German es = English it; German ich = English I."
           },
           "important": [
-            "Do not confuse German es with the Latvian pronoun es.",
-            "German es often means “it” or serves as an impersonal subject."
+            "German es usually means “it” or serves as an impersonal subject.",
+            "Do not confuse es with ich: es = it; ich = I."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1570,7 +1570,7 @@
           ],
           "important": [
             "klein describes small size, extent or young age.",
-            "It does not mean “a small amount”; dafür German often uses wenig."
+            "It does not mean “a small amount”; German often uses wenig for that."
           ],
           "sectionAccents": {
             "explanation": {
@@ -2571,7 +2571,7 @@
             },
             {
               "de": "Er springt aufs Pferd.",
-              "lv": "Él salta sobre el caballo."
+              "lv": "Él se sube de un salto al caballo."
             },
             {
               "de": "Leg das Buch aufs Regal.",
@@ -2893,4 +2893,3 @@
     }
   ]
 }
-

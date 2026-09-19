@@ -1,0 +1,1316 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_001_040_GALA_CORRECTION_REQUIRED",
+  "source_head": "841de1000c998337ac8c93710e15caf2e6626e7d",
+  "scope": {
+    "reviewed_cards": 40,
+    "correction_cards": 10,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "changes": [
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "aufs",
+      "full_card_owner_new": {
+        "lv": "към / върху (накъде?)",
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "към / върху (накъде?)",
+          "explanation": [
+            "aufs е съкращение от предлога auf и члена das.",
+            "Пълната форма е auf das.",
+            "Употребява се с неутрално съществително в единствено число при движение към място или повърхност и отговаря на Wohin? (накъде?).",
+            "Среща се често при качване, сядане, поставяне или пътуване към нещо.",
+            "В разговорната реч aufs е обичайно, но пълната форма auf das също е граматически правилна."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Отивам на покрива"
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Тя сяда на дивана."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Отиваме на село."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Сложи чантата си на леглото."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Качва се на коня."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Поставете книгата на рафта."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Качи се бързо на лодката!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Отиваме на купон."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "накъде? (Akkusativ, neuter sg.)",
+              "example": "aufs Dach – на покрива"
+            },
+            {
+              "word": "auf",
+              "meaning": "На повърхността или нагоре",
+              "example": "auf den Tisch – на масата"
+            },
+            {
+              "word": "an",
+              "meaning": "на вертикална повърхност",
+              "example": "an die Wand – на стената"
+            },
+            {
+              "word": "ins",
+              "meaning": "Вътрешности",
+              "example": "ins Zimmer – в стаята"
+            },
+            {
+              "word": "zum",
+              "meaning": "На/на (на кого?)",
+              "example": "zum Arzt – при лекаря"
+            }
+          ],
+          "tip": [
+            "Запомнете: auf + das → aufs (Wohin? = накъде?).",
+            "Пълният auf das почти никога не се произнася — използва се aufs."
+          ],
+          "important": [
+            "aufs = auf das и се използва с неутрално съществително в единствено число.",
+            "Формата обозначава движение към място или повърхност.",
+            "Изборът между aufs, an, ins и zum зависи от вида на мястото и посоката."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "gleich",
+      "full_card_owner_new": {
+        "lv": "веднага • еднакъв",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "веднага • еднакъв",
+          "explanation": [
+            "gleich означава „веднага / след малко“ или „еднакъв / същият“.",
+            "При време: Ich komme gleich. = Ще дойда веднага.",
+            "При сравнение: die gleiche Farbe = същият цвят.",
+            "Контекстът показва правилното значение."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Ще дойда веднага."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Имаме същия цвят."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Храната ще бъде готова скоро."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "И двата пътя са с еднаква дължина."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "До след малко!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Еднакви са на ръст."
+            }
+          ],
+          "tip": [
+            "За време → веднага / след малко.",
+            "При сравнение → еднакъв / същият."
+          ],
+          "important": [
+            "gleich има две значения според контекста.",
+            "Bis gleich! = „До след малко!“"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "groß",
+      "full_card_owner_new": {
+        "lv": "голям • висок",
+        "study": {
+          "id": "a1-gross-study",
+          "layout": "standardStudy",
+          "translation": "голям • висок",
+          "explanation": [
+            "groß означава „голям“, а за човек обикновено „висок“.",
+            "Думата описва размера на предмет, място или сграда.",
+            "Когато се говори за ръста на човек, groß означава „висок“."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "Къщата е голяма."
+            },
+            {
+              "de": "Berlin ist eine große Stadt.",
+              "lv": "Берлин е голям град."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "Той е висок."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "Стаята е голяма."
+            }
+          ],
+          "tip": [
+            "За предмет или място → голям.",
+            "За човек → висок."
+          ],
+          "important": [
+            "За човек Er ist groß означава „Той е висок“.",
+            "За предмет, място или сграда groß означава „голям“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "groß"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "gut",
+      "full_card_owner_new": {
+        "lv": "добър • добре",
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "добър • добре",
+          "explanation": [
+            "gut е прилагателно или наречие и означава „добър“ или „добре“.",
+            "Думата описва качество, състояние или начина, по който се извършва действие.",
+            "В поздравите Guten Morgen!, Guten Tag! и Guten Abend! прилагателното има окончание -en.",
+            "Когато описва глагол, gut е наречие: gut schwimmen = плувам добре.",
+            "Не го смесвайте с das Gut, което е съществително и означава имущество или имение."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "Храната е добра."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Как си? – Добре, благодаря!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "Той говори добре немски."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Добро утро!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "Това е добра идея."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Всичко е наред."
+            }
+          ],
+          "tip": [
+            "gut → добър / добре.",
+            "das Gut → имущество / имение."
+          ],
+          "important": [
+            "gut може да бъде прилагателно или наречие: „добър“ или „добре“.",
+            "das Gut е различна дума и означава имущество или имение.",
+            "В Guten Morgen!, Guten Tag! и Guten Abend! се използва формата guten."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "bg",
+      "canonical_card_object_id": "ihr",
+      "full_card_owner_new": {
+        "lv": "вие • ѝ • неин",
+        "study": {
+          "id": "a1-ihr",
+          "layout": "standardStudy",
+          "translation": "вие • ѝ • неин",
+          "explanation": [
+            "ihr има няколко значения според контекста.",
+            "Като лично местоимение за обръщение към няколко души означава „вие“: Kommt ihr mit?",
+            "Като дателна форма на sie означава „ѝ / на нея“: Ich gebe ihr das Buch.",
+            "Като притежателно определение означава „неин / нейна / нейно“: ihr Buch.",
+            "Глаголната форма във 2 л. мн.ч. често показва, че ihr означава „вие“.",
+            "Учтивото обръщение се пише Sie, а не ihr."
+          ],
+          "examples": [
+            {
+              "de": "Kommt ihr heute Abend?",
+              "lv": "Ще дойдете ли тази вечер?"
+            },
+            {
+              "de": "Ich gebe ihr das Buch.",
+              "lv": "Давам ѝ книгата."
+            },
+            {
+              "de": "Wo wohnt ihr?",
+              "lv": "Къде живеете?"
+            },
+            {
+              "de": "Er schreibt ihr einen Brief.",
+              "lv": "Той ѝ пише писмо."
+            },
+            {
+              "de": "Habt ihr Zeit?",
+              "lv": "Имате ли време?"
+            },
+            {
+              "de": "Das ist ihr Auto.",
+              "lv": "Това е нейната кола."
+            }
+          ],
+          "tip": [
+            "Глагол във 2 л. мн.ч. → ihr = вие.",
+            "Дателен падеж → ihr = ѝ; пред съществително → притежателно „неин/нейна/нейно“."
+          ],
+          "important": [
+            "ihr може да означава „вие“, „ѝ“ или „неин/нейна/нейно“ според контекста.",
+            "Учтивото „Вие“ на немски е Sie с главна буква.",
+            "ihr с малка буква не е учтиво обръщение."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "cs",
+      "canonical_card_object_id": "Mann",
+      "full_card_owner_new": {
+        "lv": "Muž • Manžel",
+        "study": {
+          "id": "a1-mann",
+          "layout": "standardStudy",
+          "translation": "Muž • Manžel",
+          "explanation": [
+            "der Mann může podle kontextu znamenat „muž“ nebo „manžel“.",
+            "Bez přivlastňovacího zájmena obvykle označuje dospělého muže.",
+            "Ve spojení mein Mann, dein Mann nebo ihr Mann obvykle znamená manžel.",
+            "Množné číslo je die Männer.",
+            "Podobně die Frau může znamenat žena i manželka."
+          ],
+          "examples": [
+            {
+              "de": "Er ist ein netter Mann.",
+              "lv": "Je to milý muž."
+            },
+            {
+              "de": "Das ist mein Mann.",
+              "lv": "Tohle je můj manžel."
+            },
+            {
+              "de": "Wie viele Männer sind hier?",
+              "lv": "Kolik je tady mužů?"
+            },
+            {
+              "de": "Mein Mann arbeitet in Berlin.",
+              "lv": "Můj manžel pracuje v Berlíně."
+            },
+            {
+              "de": "Der Mann trägt einen Anzug.",
+              "lv": "Muž nosí oblek."
+            },
+            {
+              "de": "Ihr Mann ist Arzt.",
+              "lv": "Její manžel je lékař."
+            }
+          ],
+          "tip": [
+            "Přivlastňovací zájmeno + Mann obvykle označuje manžela.",
+            "der Mann / ein Mann bez přivlastňovacího zájmena obvykle znamená muž."
+          ],
+          "important": [
+            "der Mann = muž nebo manžel podle kontextu.",
+            "mein Mann = můj manžel.",
+            "Množné číslo: die Männer."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Mann"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Männer"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "da",
+      "canonical_card_object_id": "Laden",
+      "full_card_owner_new": {
+        "lv": "butik",
+        "study": {
+          "id": "a1-laden-study",
+          "layout": "standardStudy",
+          "translation": "butik",
+          "explanation": [
+            "der Laden med stort L er et navneord: en mindre butik.",
+            "laden med lille l er et verbum: at læsse eller oplade.",
+            "im Laden einkaufen = at handle i en butik.",
+            "Flertal: die Läden."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe in den Laden.",
+              "lv": "Jeg går ind i butikken."
+            },
+            {
+              "de": "Der Laden ist geschlossen.",
+              "lv": "Butikken er lukket."
+            },
+            {
+              "de": "Es gibt viele Läden hier.",
+              "lv": "Her er mange butikker."
+            },
+            {
+              "de": "Ich muss mein Handy laden.",
+              "lv": "Jeg skal oplade min telefon."
+            }
+          ],
+          "tip": [
+            "der Laden → navneord (butik).",
+            "laden → verbum (at læsse / oplade)."
+          ],
+          "important": [
+            "der Laden = butik (navneord).",
+            "laden = at læsse eller oplade (verbum).",
+            "Flertal: die Läden."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Laden"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Läden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laden"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "es",
+      "full_card_owner_new": {
+        "lv": "it • impersonal subject",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "it • impersonal subject",
+          "explanation": [
+            "es is the German neuter pronoun “it”.",
+            "It is also used as an impersonal subject in expressions about weather or general conditions.",
+            "With a neuter noun, es can refer back to that noun."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "It is raining."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "It is cold."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "The child is sleeping."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "It is tired."
+            }
+          ],
+          "info": [
+            "German es usually corresponds to English “it”.",
+            "In weather expressions, English and German both use an impersonal subject."
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "it / impersonal subject",
+              "example": "Es regnet. – It is raining."
+            },
+            {
+              "word": "ich",
+              "meaning": "I",
+              "example": "Ich lerne Deutsch. – I am learning German."
+            }
+          ],
+          "tip": {
+            "text": "German es = English it; German ich = English I."
+          },
+          "important": [
+            "German es usually means “it” or serves as an impersonal subject.",
+            "Do not confuse es with ich: es = it; ich = I."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "es"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "es"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ich"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "en",
+      "canonical_card_object_id": "klein",
+      "full_card_owner_new": {
+        "lv": "small • little",
+        "study": {
+          "id": "a1-klein-study",
+          "layout": "standardStudy",
+          "translation": "small • little",
+          "explanation": [
+            "klein means “small” or “little” in size, extent or age.",
+            "It can describe a room, object, child or other person.",
+            "The inflected form changes with the noun: eine kleine Tasche."
+          ],
+          "examples": [
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "The room is small."
+            },
+            {
+              "de": "Das Kind ist noch klein.",
+              "lv": "The child is still little."
+            },
+            {
+              "de": "Ich habe eine kleine Tasche.",
+              "lv": "I have a small bag."
+            }
+          ],
+          "tip": [
+            "klein = small / little.",
+            "Pay attention to adjective endings: klein, kleine, kleinen."
+          ],
+          "important": [
+            "klein describes small size, extent or young age.",
+            "It does not mean “a small amount”; German often uses wenig for that."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "klein"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "aufs",
+      "full_card_owner_new": {
+        "lv": "al • a la • sobre (dirección)",
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "al • a la • sobre (contracción de auf das)",
+          "explanation": [
+            "aufs es la contracción de la preposición auf y el artículo das.",
+            "La forma completa es auf das.",
+            "Se usa con sustantivos neutros para indicar movimiento hacia una superficie, un lugar o un acontecimiento.",
+            "Responde a wohin? (¿adónde?), no a wo? (¿dónde?).",
+            "En el uso corriente se prefiere aufs a la forma completa auf das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Subo al tejado."
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Ella se sienta en el sofá."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Vamos al campo."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Pon el bolso sobre la cama."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Él se sube de un salto al caballo."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Pon el libro en la estantería."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "¡Sube rápido al barco!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Vamos a la fiesta."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "al / a la / sobre, hacia una superficie o lugar neutro",
+              "example": "aufs Dach – al tejado"
+            },
+            {
+              "word": "auf",
+              "meaning": "a / sobre una superficie",
+              "example": "auf den Tisch – sobre la mesa"
+            },
+            {
+              "word": "an",
+              "meaning": "hacia una superficie vertical",
+              "example": "an die Wand – a la pared"
+            },
+            {
+              "word": "ins",
+              "meaning": "hacia el interior",
+              "example": "ins Zimmer – a la habitación"
+            },
+            {
+              "word": "zum",
+              "meaning": "a una persona o institución",
+              "example": "zum Arzt – al médico"
+            }
+          ],
+          "tip": [
+            "auf + das → aufs; expresa destino o dirección.",
+            "Para una ubicación sin movimiento se usa auf + dativo."
+          ],
+          "important": [
+            "aufs solo contrae auf + das y se usa con sustantivos neutros.",
+            "No lo confundas con an para una superficie vertical ni con ins para entrar en un espacio."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
+

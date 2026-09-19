@@ -21,11 +21,11 @@
           "layout": "standardStudy",
           "translation": "към / върху (накъде?)",
           "explanation": [
-            "Aufs е съкращение от предлога auf и члена das.",
-            "Пълна форма: auf das (накъде?).",
-            "Използва се с неутрални съществителни в единствено число — Wohin? (накъде?), не Wo? (къде?).",
-            "Често се използва при движение: за изкачване, сядане, поставяне, шофиране до нещо.",
-            "В разговорната реч почти винаги се използва aufs вместо пълното auf das."
+            "aufs е съкращение от предлога auf и члена das.",
+            "Пълната форма е auf das.",
+            "Употребява се с неутрално съществително в единствено число при движение към място или повърхност и отговаря на Wohin? (накъде?).",
+            "Среща се често при качване, сядане, поставяне или пътуване към нещо.",
+            "В разговорната реч aufs е обичайно, но пълната форма auf das също е граматически правилна."
           ],
           "examples": [
             {
@@ -93,10 +93,9 @@
             "Пълният auf das почти никога не се произнася — използва се aufs."
           ],
           "important": [
-            "Aufs = auf das, само с неутрално съществително в единствено число — Wohin? (накъде?).",
-            "Отговаря на накъде? — придвижване до определено място или повърхност.",
-            "На хоризонтална повърхност често се използва auf den вместо aufs.",
-            "Да не се бърка с an (вертикална стена), ins (вътре) или zum (посока)."
+            "aufs = auf das и се използва с неутрално съществително в единствено число.",
+            "Формата обозначава движение към място или повърхност.",
+            "Изборът между aufs, an, ins и zum зависи от вида на мястото и посоката."
           ],
           "sectionAccents": {
             "explanation": {
@@ -222,7 +221,6 @@
               {}
             ],
             "important": [
-              {},
               {},
               {},
               {}
@@ -520,7 +518,7 @@
             },
             {
               "de": "Bis gleich!",
-              "lv": "До скоро!"
+              "lv": "До след малко!"
             },
             {
               "de": "Sie sind gleich groß.",
@@ -614,9 +612,9 @@
           "layout": "standardStudy",
           "translation": "голям • висок",
           "explanation": [
-            "Основна идея: Голям размер или за висок човек.",
-            "Groß на първо място означава: голям размер.",
-            "Често се характеризира с: габаритни размери."
+            "groß означава „голям“, а за човек обикновено „висок“.",
+            "Думата описва размера на предмет, място или сграда.",
+            "Когато се говори за ръста на човек, groß означава „висок“."
           ],
           "examples": [
             {
@@ -641,8 +639,8 @@
             "За човек → висок."
           ],
           "important": [
-            "За човек Er ist groß означава висок.",
-            "Брутно = голямо."
+            "За човек Er ist groß означава „Той е висок“.",
+            "За предмет, място или сграда groß означава „голям“."
           ],
           "sectionAccents": {
             "explanation": {
@@ -707,11 +705,11 @@
           "layout": "standardStudy",
           "translation": "добър • добре",
           "explanation": [
-            "Основна идея: Gut - прилагателно/наречие, добър, успешен, добре.",
-            "Червата описват качество, здраве или състояние на нещата (Es geht mir Gut. = Справям се добре).",
-            "В учтивата фраза „guten Tag/Abend/Morgen Gut“ окончанието се променя след флексията.",
-            "Ако Gut описва глагол, тогава той е наречие (gut schwimmen = да плувам добре).",
-            "Да не се бърка с das Gut - това е съществително име (собственост, имоти) с главна буква и член."
+            "gut е прилагателно или наречие и означава „добър“ или „добре“.",
+            "Думата описва качество, състояние или начина, по който се извършва действие.",
+            "В поздравите Guten Morgen!, Guten Tag! и Guten Abend! прилагателното има окончание -en.",
+            "Когато описва глагол, gut е наречие: gut schwimmen = плувам добре.",
+            "Не го смесвайте с das Gut, което е съществително и означава имущество или имение."
           ],
           "examples": [
             {
@@ -728,7 +726,7 @@
             },
             {
               "de": "Guten Morgen!",
-              "lv": "Добро утро"
+              "lv": "Добро утро!"
             },
             {
               "de": "Das ist eine gute Idee.",
@@ -736,7 +734,7 @@
             },
             {
               "de": "Alles ist gut.",
-              "lv": "Всичко е наред"
+              "lv": "Всичко е наред."
             }
           ],
           "tip": [
@@ -744,9 +742,9 @@
             "das Gut → имущество / имение."
           ],
           "important": [
-            "Gut = добър/добър (прилагателно/прилагателно).",
-            "Das Gut = собственост/имот (съществително) – да не се бърка с червата.",
-            "Guten Tag/Morgen/Abend – промени в червата, които завършват след завоя."
+            "gut може да бъде прилагателно или наречие: „добър“ или „добре“.",
+            "das Gut е различна дума и означава имущество или имение.",
+            "В Guten Morgen!, Guten Tag! и Guten Abend! се използва формата guten."
           ],
           "sectionAccents": {
             "explanation": {
@@ -828,12 +826,12 @@
           "layout": "standardStudy",
           "translation": "вие • ѝ • неин",
           "explanation": [
-            "Ключова идея: ihr са две различни местоимения с еднакъв правопис - отнасящи се до повече от едно лице (ти) и дателната форма на местоимението sie (тя/тя).",
-            "Когато се обръщате към няколко души, малки букви ihr се превеждат като вие (Kommt ihr mit? = Идвате ли с нас?).",
-            "Ihr като притежателно местоимение означава нея (ihr Buch = нейната книга).",
-            "Ihr като дателен падеж (от sie) означава за нея (Ich gebe ihr das Buch. = Давам й книгата).",
-            "Глаголната форма (commt, habt) показва, че говорим за вас - обръщане към няколко души.",
-            "Учтивото обръщение винаги се изписва с главна буква Sie, а не ihr."
+            "ihr има няколко значения според контекста.",
+            "Като лично местоимение за обръщение към няколко души означава „вие“: Kommt ihr mit?",
+            "Като дателна форма на sie означава „ѝ / на нея“: Ich gebe ihr das Buch.",
+            "Като притежателно определение означава „неин / нейна / нейно“: ihr Buch.",
+            "Глаголната форма във 2 л. мн.ч. често показва, че ihr означава „вие“.",
+            "Учтивото обръщение се пише Sie, а не ihr."
           ],
           "examples": [
             {
@@ -842,7 +840,7 @@
             },
             {
               "de": "Ich gebe ihr das Buch.",
-              "lv": "Давам й книгата."
+              "lv": "Давам ѝ книгата."
             },
             {
               "de": "Wo wohnt ihr?",
@@ -850,7 +848,7 @@
             },
             {
               "de": "Er schreibt ihr einen Brief.",
-              "lv": "Той й пише писмо."
+              "lv": "Той ѝ пише писмо."
             },
             {
               "de": "Habt ihr Zeit?",
@@ -862,13 +860,13 @@
             }
           ],
           "tip": [
-            "Ihr с глагола dsk. форма (commt, habt) = вие • Ihr до дума в дателен или притежателен падеж = нея/нейната.",
-            "Проверете: Habt them...? / Commt them...? = ти • Ich gebe ihr... / ihr Buch = за нея/нея."
+            "Глагол във 2 л. мн.ч. → ihr = вие.",
+            "Дателен падеж → ihr = ѝ; пред съществително → притежателно „неин/нейна/нейно“."
           ],
           "important": [
-            "Ihr = ти (обръщение към няколко) ИЛИ нея (дателен падеж) ИЛИ нея (притежателен падеж) - в зависимост от контекста.",
-            "В учтивото обръщение Sie винаги се изписва с главна буква, а не ihr.",
-            "Неправилно: Ihr (учтив) → Правилно: Sie."
+            "ihr може да означава „вие“, „ѝ“ или „неин/нейна/нейно“ според контекста.",
+            "Учтивото „Вие“ на немски е Sie с главна буква.",
+            "ihr с малка буква не е учтиво обръщение."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1747,12 +1745,11 @@
           "layout": "standardStudy",
           "translation": "Muž • Manžel",
           "explanation": [
-            "Hlavní myšlenka: der Mann může znamenat muž (pohlaví) nebo manžel (manžel).",
-            "Pokud je to prostě záležitost pohlaví nebo osoby, der Mann = muž.",
-            "Pro manžela, der Mann = manžel (mein Mann = můj manžel).",
-            "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžela.",
-            "Množné číslo: die Männer.",
-            "Ženská forma die Frau má stejný dvojí význam: žena a manželka."
+            "der Mann může podle kontextu znamenat „muž“ nebo „manžel“.",
+            "Bez přivlastňovacího zájmena obvykle označuje dospělého muže.",
+            "Ve spojení mein Mann, dein Mann nebo ihr Mann obvykle znamená manžel.",
+            "Množné číslo je die Männer.",
+            "Podobně die Frau může znamenat žena i manželka."
           ],
           "examples": [
             {
@@ -1781,12 +1778,12 @@
             }
           ],
           "tip": [
-            "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy označuje manžela.",
-            "Bez přivlastňovacího (der Mann, ein Mann) obvykle znamená muž."
+            "Přivlastňovací zájmeno + Mann obvykle označuje manžela.",
+            "der Mann / ein Mann bez přivlastňovacího zájmena obvykle znamená muž."
           ],
           "important": [
-            "Der Mann = muž NEBO manžel – v závislosti na kontextu.",
-            "Mein Mann = můj manžel (nikoli 'můj muž').",
+            "der Mann = muž nebo manžel podle kontextu.",
+            "mein Mann = můj manžel.",
             "Množné číslo: die Männer."
           ],
           "sectionAccents": {
@@ -1814,7 +1811,9 @@
               },
               {
                 "de": {
-                  "blue": []
+                  "blue": [
+                    "Männer"
+                  ]
                 },
                 "lv": {}
               },
@@ -2675,7 +2674,7 @@
           "examples": [
             {
               "de": "Ich gehe in den Laden.",
-              "lv": "Jeg går i butikken"
+              "lv": "Jeg går ind i butikken."
             },
             {
               "de": "Der Laden ist geschlossen.",
@@ -2695,8 +2694,8 @@
             "laden → verbum (at læsse / oplade)."
           ],
           "important": [
-            "der Laden = butik (substantiv).",
-            "laden = loade/charge (udsagnsord).",
+            "der Laden = butik (navneord).",
+            "laden = at læsse eller oplade (verbum).",
             "Flertal: die Läden."
           ],
           "sectionAccents": {
@@ -2724,13 +2723,17 @@
               },
               {
                 "de": {
-                  "blue": []
+                  "blue": [
+                    "Läden"
+                  ]
                 },
                 "lv": {}
               },
               {
                 "de": {
-                  "blue": []
+                  "blue": [
+                    "laden"
+                  ]
                 },
                 "lv": {}
               }
@@ -2750,4 +2753,3 @@
     }
   ]
 }
-
