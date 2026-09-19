@@ -26,17 +26,23 @@ function parseArgs(argv) {
     expectedProductionFileSetSha: null,
   };
   for (let i = 2; i < argv.length; i++) {
-    const arg = argv[i];
+    let arg = argv[i];
+    let inlineValue = null;
+    const eq = arg.indexOf("=");
+    if (eq > 2 && arg.startsWith("--")) {
+      inlineValue = arg.slice(eq + 1);
+      arg = arg.slice(0, eq);
+    }
     if (arg === "--help" || arg === "-h") args.help = true;
     else if (arg === "--preflight") args.preflight = true;
     else if (arg === "--inventory") args.inventory = true;
     else if (arg === "--dry-run") args.dryRun = true;
     else if (arg === "--full") args.full = true;
     else if (arg === "--with-luna") args.withLuna = true;
-    else if (arg === "--base-ref") args.baseRef = argv[++i];
+    else if (arg === "--base-ref") args.baseRef = inlineValue ?? argv[++i];
     else if (arg === "--owner-authorize-full-audit") args.ownerAuthorizeFullAudit = true;
-    else if (arg === "--expected-main-sha") args.expectedMainSha = argv[++i];
-    else if (arg === "--expected-production-file-set-sha") args.expectedProductionFileSetSha = argv[++i];
+    else if (arg === "--expected-main-sha") args.expectedMainSha = inlineValue ?? argv[++i];
+    else if (arg === "--expected-production-file-set-sha") args.expectedProductionFileSetSha = inlineValue ?? argv[++i];
     else throw new Error(`Unknown argument: ${arg}`);
   }
   const modeCount = [args.preflight, args.inventory, args.dryRun, args.full].filter(Boolean).length;
@@ -147,11 +153,16 @@ async function main() {
     writeJsonAtomic("full-discovery-result.json", {
       pass: result.pass,
       phase: result.phase,
+      lang: result.lang || null,
+      reason: result.reason || null,
+      mapErrors: result.mapErrors || null,
       linguisticAuditsExecuted: result.linguisticAuditsExecuted || 0,
       metadata: result.metadata || null,
       blockers: result.blockers || [],
       coverage: result.coverage || null,
       postRun: result.postRun || null,
+      partialRecords: result.partialRecords ?? null,
+      lunaCalls: result.lunaCalls ?? null,
     });
     emitGateJson("full", result);
     if (!result.pass) process.exit(2);
