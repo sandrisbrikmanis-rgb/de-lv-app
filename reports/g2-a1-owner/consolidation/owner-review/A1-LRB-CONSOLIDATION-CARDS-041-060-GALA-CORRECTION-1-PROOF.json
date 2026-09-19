@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_041_060_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
-  "generated_at": "2026-09-19T08:08:00.586Z",
-  "source_review_pack_ref": {
-    "git_head": "3c6ab972108b4fa8198317fa0e8ee59363c5b5d9"
-  },
-  "owner_bundle_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-CARDS-041-060.json",
-  "owner_bundle_sha256": "d394d3295719c1ba802756e00f9de0a6284557fb71965ca2d3cf2e62774eea39",
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_041_060_GALA_CORRECTION_1_COMPLETE_AWAITING_GALA_VERDICT",
+  "generated_at": "2026-09-19T08:07:40.571Z",
+  "source_head": "8dfec7356cded54a8c3c5df7d0672a5e9964939a",
+  "correction_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-CARDS-041-060-GALA-CORRECTION-1.json",
+  "correction_sha256": "418153f94dd003793ed2b7d778ba27ae099b3e3860b47eb2b563aa18c257af40",
   "git_head": "8dfec7356cded54a8c3c5df7d0672a5e9964939a",
   "consolidated_mapping_modified": false,
   "production_modified": false,
   "linguistic_changes_made": 0,
   "scope": {
-    "start_ordinal": 41,
-    "end_ordinal": 60,
-    "cards": 20,
-    "full_composites": 19,
-    "scalar_cards": 1,
+    "reviewed_cards": 20,
+    "correction_cards": 1,
+    "nelabot_cards": 19,
     "pending": 0
   },
+  "corrected_keys": [
+    "et|bringen"
+  ],
   "slice": {
     "start_index": 40,
     "end_index": 60
   },
   "gates": {
-    "applied_exactly": "20/20",
+    "applied_exactly": "1/1",
     "pending": 0,
-    "empty_target_fields": 0,
-    "de_alignment": 0,
     "wrong_language_residue": 0,
-    "semantic_source_fidelity_violations": 0,
-    "internal_contradictions": 0,
+    "de_alignment": 0,
+    "extra_meaning_not_in_source": 0,
+    "semantic_narrowing_from_source": 0,
     "duplicate_degenerate_pairs": 0,
-    "duplicate_scope_keys": 0,
-    "duplicate_degenerate_example_pairs": 0,
+    "internal_contradictions": 0,
+    "full_composite_completeness": "PASS",
+    "full_composite_completeness_failures": 0,
     "schema_sectionAccents_failures": 0,
     "schema_sectionAccents_failure_details": [],
+    "cards_041_060_reviewed": 20,
     "pass": true
   },
   "copy_paste_4_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json",

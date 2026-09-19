@@ -1,0 +1,170 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_041_060_GALA_CORRECTION_1_REQUIRED",
+  "source_head": "8dfec7356cded54a8c3c5df7d0672a5e9964939a",
+  "scope": {
+    "reviewed_cards": 20,
+    "correction_cards": 1,
+    "nelabot_cards": 19,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "changes": [
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "bringen",
+      "full_card_owner_new": {
+        "lv": "tooma • viima • kohale toimetama",
+        "study": {
+          "id": "a1-bringen",
+          "layout": "standardStudy",
+          "translation": "tooma • viima • kohale toimetama",
+          "explanation": [
+            "Põhiidee: bringen tähendab eelkõige millegi toimetamist teise inimese juurde või kindlasse kohta.",
+            "Eesti keeles võib bringen olla eri kontekstides erineva vastega.",
+            "Kõige sagedamini tähendab see „tooma”.",
+            "Olenevalt olukorrast võib see tähendada ka „viima” või „kohale toimetama”.",
+            "Täpne tõlge sõltub kontekstist."
+          ],
+          "examples": [
+            {
+              "de": "Ich bringe dir ein Buch.",
+              "lv": "Ma toon sulle raamatu."
+            },
+            {
+              "de": "Ich bringe das Paket zur Post.",
+              "lv": "Ma viin paki postkontorisse."
+            },
+            {
+              "de": "Ich bringe die Kinder zur Schule.",
+              "lv": "Ma viin lapsed kooli."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bringen",
+              "meaning": "tooma",
+              "example": "Ich bringe dir ein Buch. – Ma toon sulle raamatu."
+            },
+            {
+              "word": "bringen",
+              "meaning": "ära viima",
+              "example": "Ich bringe das Paket zur Post. – Ma viin paki postkontorisse."
+            },
+            {
+              "word": "bringen",
+              "meaning": "viima",
+              "example": "Ich bringe die Kinder zur Schule. – Ma viin lapsed kooli."
+            },
+            {
+              "word": "bringen",
+              "meaning": "kohale toimetama",
+              "example": "Ich bringe dir ein Buch. – Ma toimetan sulle raamatu kohale."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "võtma",
+              "example": "Ich nehme das Buch. – Ma võtan raamatu."
+            }
+          ],
+          "tip": {
+            "text": "Kui ese jõuab teise inimese juurde või teise kohta, kasutatakse saksa keeles väga sageli verbi bringen."
+          },
+          "important": [
+            "nehmen tähendab võtma.",
+            "bringen tähendab kohale toimetama.",
+            "Eestikeelne tõlge sõltub kontekstist."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bringen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
+

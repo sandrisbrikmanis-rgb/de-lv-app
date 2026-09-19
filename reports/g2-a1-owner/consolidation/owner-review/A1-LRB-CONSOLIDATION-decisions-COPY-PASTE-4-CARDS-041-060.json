@@ -947,16 +947,17 @@
       "target_language": "et",
       "canonical_card_object_id": "bringen",
       "full_card_owner_new": {
-        "lv": "tooma • viima",
+        "lv": "tooma • viima • kohale toimetama",
         "study": {
           "id": "a1-bringen",
           "layout": "standardStudy",
-          "translation": "tooma • viima",
+          "translation": "tooma • viima • kohale toimetama",
           "explanation": [
-            "Põhiidee: bringen tähendab midagi kellelegi tooma, viima või kohale toimetama.",
-            "Seda kasutatakse, kui asi või inimene liigub teise inimese juurde või teise kohta.",
-            "nehmen tähendab võtma, mitte kohale toimetama.",
-            "Täpne eestikeelne vaste sõltub liikumise suunast ja kontekstist."
+            "Põhiidee: bringen tähendab eelkõige millegi toimetamist teise inimese juurde või kindlasse kohta.",
+            "Eesti keeles võib bringen olla eri kontekstides erineva vastega.",
+            "Kõige sagedamini tähendab see „tooma”.",
+            "Olenevalt olukorrast võib see tähendada ka „viima” või „kohale toimetama”.",
+            "Täpne tõlge sõltub kontekstist."
           ],
           "examples": [
             {
@@ -975,26 +976,37 @@
           "comparison": [
             {
               "word": "bringen",
-              "meaning": "tooma / viima",
+              "meaning": "tooma",
               "example": "Ich bringe dir ein Buch. – Ma toon sulle raamatu."
+            },
+            {
+              "word": "bringen",
+              "meaning": "ära viima",
+              "example": "Ich bringe das Paket zur Post. – Ma viin paki postkontorisse."
+            },
+            {
+              "word": "bringen",
+              "meaning": "viima",
+              "example": "Ich bringe die Kinder zur Schule. – Ma viin lapsed kooli."
+            },
+            {
+              "word": "bringen",
+              "meaning": "kohale toimetama",
+              "example": "Ich bringe dir ein Buch. – Ma toimetan sulle raamatu kohale."
             },
             {
               "word": "nehmen",
               "meaning": "võtma",
               "example": "Ich nehme das Buch. – Ma võtan raamatu."
-            },
-            {
-              "word": "holen",
-              "meaning": "järele minema ja tooma",
-              "example": "Ich hole Wasser. – Ma toon vett."
             }
           ],
           "tip": {
-            "text": "Pea meeles: kellegi juurde või kuhugi kohale → bringen; endale võtma → nehmen."
+            "text": "Kui ese jõuab teise inimese juurde või teise kohta, kasutatakse saksa keeles väga sageli verbi bringen."
           },
           "important": [
-            "bringen võib eesti keeles tähendada nii tooma kui ka viima.",
-            "Tõlge sõltub liikumise suunast."
+            "nehmen tähendab võtma.",
+            "bringen tähendab kohale toimetama.",
+            "Eestikeelne tõlge sõltub kontekstist."
           ],
           "sectionAccents": {
             "explanation": {
@@ -1004,19 +1016,58 @@
             },
             "examples": [
               {
-                "de": {},
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
                 "lv": {}
               },
               {
-                "de": {},
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
                 "lv": {}
               },
               {
-                "de": {},
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
                 "lv": {}
               }
             ],
             "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
               {
                 "word": {
                   "green": [
@@ -1034,21 +1085,13 @@
                 },
                 "meaning": {},
                 "example": {}
-              },
-              {
-                "word": {
-                  "green": [
-                    "holen"
-                  ]
-                },
-                "meaning": {},
-                "example": {}
               }
             ],
             "tip": {
               "left": {}
             },
             "important": [
+              {},
               {},
               {}
             ]
@@ -2530,4 +2573,3 @@
     }
   ]
 }
-

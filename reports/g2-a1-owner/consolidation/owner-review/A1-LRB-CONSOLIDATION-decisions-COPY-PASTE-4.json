@@ -6519,16 +6519,17 @@
       "target_language": "et",
       "canonical_card_object_id": "bringen",
       "full_card_owner_new": {
-        "lv": "tooma • viima",
+        "lv": "tooma • viima • kohale toimetama",
         "study": {
           "id": "a1-bringen",
           "layout": "standardStudy",
-          "translation": "tooma • viima",
+          "translation": "tooma • viima • kohale toimetama",
           "explanation": [
-            "Põhiidee: bringen tähendab midagi kellelegi tooma, viima või kohale toimetama.",
-            "Seda kasutatakse, kui asi või inimene liigub teise inimese juurde või teise kohta.",
-            "nehmen tähendab võtma, mitte kohale toimetama.",
-            "Täpne eestikeelne vaste sõltub liikumise suunast ja kontekstist."
+            "Põhiidee: bringen tähendab eelkõige millegi toimetamist teise inimese juurde või kindlasse kohta.",
+            "Eesti keeles võib bringen olla eri kontekstides erineva vastega.",
+            "Kõige sagedamini tähendab see „tooma”.",
+            "Olenevalt olukorrast võib see tähendada ka „viima” või „kohale toimetama”.",
+            "Täpne tõlge sõltub kontekstist."
           ],
           "examples": [
             {
@@ -6547,26 +6548,37 @@
           "comparison": [
             {
               "word": "bringen",
-              "meaning": "tooma / viima",
+              "meaning": "tooma",
               "example": "Ich bringe dir ein Buch. – Ma toon sulle raamatu."
+            },
+            {
+              "word": "bringen",
+              "meaning": "ära viima",
+              "example": "Ich bringe das Paket zur Post. – Ma viin paki postkontorisse."
+            },
+            {
+              "word": "bringen",
+              "meaning": "viima",
+              "example": "Ich bringe die Kinder zur Schule. – Ma viin lapsed kooli."
+            },
+            {
+              "word": "bringen",
+              "meaning": "kohale toimetama",
+              "example": "Ich bringe dir ein Buch. – Ma toimetan sulle raamatu kohale."
             },
             {
               "word": "nehmen",
               "meaning": "võtma",
               "example": "Ich nehme das Buch. – Ma võtan raamatu."
-            },
-            {
-              "word": "holen",
-              "meaning": "järele minema ja tooma",
-              "example": "Ich hole Wasser. – Ma toon vett."
             }
           ],
           "tip": {
-            "text": "Pea meeles: kellegi juurde või kuhugi kohale → bringen; endale võtma → nehmen."
+            "text": "Kui ese jõuab teise inimese juurde või teise kohta, kasutatakse saksa keeles väga sageli verbi bringen."
           },
           "important": [
-            "bringen võib eesti keeles tähendada nii tooma kui ka viima.",
-            "Tõlge sõltub liikumise suunast."
+            "nehmen tähendab võtma.",
+            "bringen tähendab kohale toimetama.",
+            "Eestikeelne tõlge sõltub kontekstist."
           ],
           "sectionAccents": {
             "explanation": {
@@ -6576,19 +6588,58 @@
             },
             "examples": [
               {
-                "de": {},
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
                 "lv": {}
               },
               {
-                "de": {},
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
                 "lv": {}
               },
               {
-                "de": {},
+                "de": {
+                  "blue": [
+                    "bringe"
+                  ]
+                },
                 "lv": {}
               }
             ],
             "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
               {
                 "word": {
                   "green": [
@@ -6606,21 +6657,13 @@
                 },
                 "meaning": {},
                 "example": {}
-              },
-              {
-                "word": {
-                  "green": [
-                    "holen"
-                  ]
-                },
-                "meaning": {},
-                "example": {}
               }
             ],
             "tip": {
               "left": {}
             },
             "important": [
+              {},
               {},
               {}
             ]
@@ -9001,6 +9044,15 @@
       ],
       "source_sha256": "416f80e4da4dd7afc4ff7551b27efa8f351de79ca65211c77332d9ff05cf5e77",
       "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_041_060_FULL_CARD_COPY_PASTE_READY"
+    },
+    {
+      "applied_at": "2026-09-19T08:08:00.473Z",
+      "slice": [
+        40,
+        60
+      ],
+      "source_sha256": "d394d3295719c1ba802756e00f9de0a6284557fb71965ca2d3cf2e62774eea39",
+      "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_041_060_FULL_CARD_COPY_PASTE_READY"
     }
   ],
   "gala_correction_1": {
@@ -9025,5 +9077,17 @@
     "recorded_at": "2026-09-19T07:53:01.864Z",
     "git_head": "a2ac98b2ad25d224b2feba1c36ac0562d4ca1311",
     "pass_proof_sha256": "847e715a398bda8836e6588c414c032aaa2c355d763dc53af57db59e3fa07fff"
+  },
+  "gala_correction_1_cards_041_060": {
+    "applied_at": "2026-09-19T08:07:40.461Z",
+    "source_head": "8dfec7356cded54a8c3c5df7d0672a5e9964939a",
+    "correction_sha256": "418153f94dd003793ed2b7d778ba27ae099b3e3860b47eb2b563aa18c257af40",
+    "corrected_keys": [
+      "et|bringen"
+    ],
+    "slice": [
+      40,
+      60
+    ]
   }
 }
