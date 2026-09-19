@@ -532,5 +532,6 @@ module.exports = {
   splitFieldPath,
   crowdinFieldPathToLeaf,
   setByPath,
+  getByPath,
   isCanonicalLeafFieldPath,
 };
