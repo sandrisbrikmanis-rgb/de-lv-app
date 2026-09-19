@@ -3138,29 +3138,29 @@ const A1_WORDS = [
   },
   {
     "de": "bitte",
-    "lv": "Por favor",
+    "lv": "por favor",
     "level": "A1",
     "study": {
       "id": "a1-bitte",
       "layout": "standardStudy",
-      "translation": "Por favor",
+      "translation": "por favor",
       "explanation": [
-        "Adestramento Galvenā: Pieklājības vārds ar mallet burtu. Feliz, lai butu piklājīgi—lūdzu.",
-        "Bitta galvenokārt nozīmē: piklājība.",
-        "Biezi raksturo: piklājības vārds."
+        "Ideia principal: bitte com inicial minúscula é uma palavra de cortesia que significa por favor.",
+        "É usada em pedidos, encomendas e respostas educadas.",
+        "O substantivo die Bitte, com inicial maiúscula, significa pedido."
       ],
       "examples": [
         {
           "de": "Eine Tasse Kaffee, bitte.",
-          "lv": "Naquela hora?"
+          "lv": "Uma xícara de café, por favor."
         },
         {
           "de": "Komm bitte herein.",
-          "lv": "Ludzu!"
+          "lv": "Por favor, entre."
         },
         {
           "de": "Bitte schön!",
-          "lv": "Venha tasi kafijas, lūdzu."
+          "lv": "De nada!"
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -3175,98 +3175,25 @@ const A1_WORDS = [
           "lv": "Lūgums se tornam svarigs."
         }
       ],
-      "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Pieklājības vārds ar mazo burtu. Lieto, lai būtu pieklājīgi — lūdzu."
-      ],
-      "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi)."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "bitte"
-          ],
-          "purple": [
-            "lūdzu"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Naquela"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "lūdzu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "lūdzu"
-              ]
-            }
-          }
-        ],
-        "tip": {},
-        "important": [
-          {
-            "blue": [
-              "bitte"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "blue": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Bitte"
-              ]
-            }
-          }
-        ]
-      },
       "comparison": [
         {
           "word": "bitte",
-          "meaning": "Por favor",
+          "meaning": "por favor / de nada",
           "example": "Komm bitte herein. – Por favor, entre."
         },
         {
           "word": "die Bitte",
-          "meaning": "Lugums",
-          "example": "Ich habe eine Bitte. – Eu tenho um pedido."
+          "meaning": "pedido",
+          "example": "Ich habe eine Bitte. – Tenho um pedido."
         }
+      ],
+      "tip": {
+        "text": "Lembre-se: bitte com minúscula = por favor; die Bitte com maiúscula = pedido."
+      },
+      "important": [
+        "bitte é uma palavra de cortesia.",
+        "die Bitte é um substantivo com o artigo die.",
+        "Incorreto: Die Bitte schön! → correto: Bitte schön!"
       ]
     }
   },
@@ -3274,30 +3201,30 @@ const A1_WORDS = [
     "de": "Bitte",
     "de_article": "die",
     "de_plural": "die Bitten",
-    "lv": "Lugums",
+    "lv": "pedido",
     "level": "A1",
     "study": {
       "id": "a1-bitte-study",
       "layout": "standardStudy",
-      "translation": "Lugums",
+      "translation": "pedido",
       "explanation": [
-        "Idéia principal: substantivo com artigo noz e letra maiúscula. Uma solicitação ou solicitação específica.",
-        "Die Bitte galvenokārt nozīmē: piklājība.",
-        "Biezi raksturo: piklājības vārds.",
-        "Die Bitte na verdade significa: solicitação/solicitação."
+        "Ideia principal: die Bitte é um substantivo que significa pedido.",
+        "É escrito com inicial maiúscula e usado com o artigo die.",
+        "O plural é die Bitten.",
+        "A palavra de cortesia bitte, com inicial minúscula, significa por favor."
       ],
       "examples": [
         {
           "de": "Ich habe eine Bitte.",
-          "lv": "O homem vem lūgums."
+          "lv": "Tenho um pedido."
         },
         {
           "de": "Er erfüllt meine Bitte.",
-          "lv": "Ludzu!"
+          "lv": "Ele atende ao meu pedido."
         },
         {
           "de": "Sie hat zwei Bitten.",
-          "lv": "Venha tasi kafijas, lūdzu."
+          "lv": "Ela tem dois pedidos."
         },
         {
           "de": "Kann ich bitte fragen?",
@@ -3312,91 +3239,25 @@ const A1_WORDS = [
           "lv": "Lūgums se tornam svarigs."
         }
       ],
-      "tip": [
-        "Mazais bitte = lūdzu (Bitte schön!, Kaffee, bitte). die Bitte ar lielo burtu = lūgums (eine Bitte, meine Bitte).",
-        "Lietvārds ar artikulu die un lielo burtu. Konkrēts lūgums vai pieprasījums."
-      ],
-      "important": [
-        "bitte stāv ar mazo burtu — tas ir pieklājības vārds, ne lietvārds.",
-        "die Bitte ar lielo burtu un artikulu die ir lietvārds.",
-        "Daudzskaitlis: die Bitten (lūgumi)."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "green": [
-            "die Bitte",
-            "bitte"
-          ],
-          "purple": [
-            "lūgums"
-          ],
-          "yellow": [
-            "Bitte",
-            "Bitte"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "Bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "lūgums"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Bitte"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "Bitten"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "tip": {},
-        "important": [
-          {}
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "die Bitte"
-              ]
-            }
-          },
-          {
-            "word": {
-              "blue": [
-                "bitte"
-              ]
-            }
-          }
-        ]
-      },
       "comparison": [
         {
           "word": "die Bitte",
-          "meaning": "Lugums",
-          "example": "Ich habe eine Bitte. – Eu tenho um pedido."
+          "meaning": "pedido",
+          "example": "Ich habe eine Bitte. – Tenho um pedido."
         },
         {
           "word": "bitte",
-          "meaning": "Por favor",
+          "meaning": "por favor",
           "example": "Komm bitte herein. – Por favor, entre."
         }
+      ],
+      "tip": {
+        "text": "Lembre-se: die Bitte é substantivo; bitte é palavra de cortesia."
+      },
+      "important": [
+        "Artigo: die Bitte.",
+        "Plural: die Bitten.",
+        "O substantivo é escrito com inicial maiúscula."
       ]
     }
   },
@@ -3438,236 +3299,65 @@ const A1_WORDS = [
   },
   {
     "de": "bleiben",
-    "lv": "Palikt",
+    "lv": "ficar • permanecer",
     "level": "A1",
     "study": {
       "id": "a1-bleiben",
       "layout": "standardStudy",
-      "translation": "Palikt",
+      "translation": "ficar • permanecer",
       "explanation": [
-        "Ideia principal: bleiben significa ficar.",
-        "Bleiben Laato, se cilvēks vai Laata neiet prom un paliek tajā pasā vietā vai stāvoklī.",
-        "Há muita diversão e você está convidado a participar da dança.",
-        "Uma expressão comum é Ich bleibe zu Hause."
+        "Ideia principal: bleiben significa ficar ou permanecer.",
+        "É usado quando uma pessoa ou coisa não vai embora e permanece no mesmo lugar ou estado.",
+        "Nesse sentido, contrasta com gehen e fahren, que indicam ir embora.",
+        "Uma frase muito frequente é Ich bleibe zu Hause."
       ],
       "examples": [
         {
           "de": "Ich bleibe zu Hause.",
-          "lv": "Eles são palieku mājās."
+          "lv": "Fico em casa."
         },
         {
           "de": "Bleib hier!",
-          "lv": "- Não, fique aqui!"
+          "lv": "Fique aqui!"
         },
         {
           "de": "Wir bleiben noch eine Stunde.",
-          "lv": "Mais do que nunca encontrei stundu."
+          "lv": "Ficamos mais uma hora."
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "Estou indo para casa..."
+          "lv": "Vou para casa."
         }
       ],
       "comparison": [
         {
           "word": "bleiben",
-          "meaning": "Palikt",
-          "example": "Fico aqui."
+          "meaning": "ficar / permanecer",
+          "example": "Ich bleibe hier. – Fico aqui."
         },
         {
           "word": "gehen",
-          "meaning": "Ir/sair a pé",
-          "example": "Vou para casa."
+          "meaning": "ir embora a pé",
+          "example": "Ich gehe nach Hause. – Vou para casa a pé."
         },
         {
           "word": "fahren",
-          "meaning": "Dirigindo/equitação",
-          "example": "Dirijo para casa."
+          "meaning": "ir de transporte",
+          "example": "Ich fahre nach Hause. – Vou para casa de carro."
         },
         {
           "word": "warten",
-          "meaning": "Espere",
-          "example": "Espero aqui."
+          "meaning": "esperar",
+          "example": "Ich warte hier. – Espero aqui."
         }
       ],
       "tip": {
-        "text": "Atceries: neiet prom → bleiben; dodas prom kājām → gehen."
+        "text": "Lembre-se: não ir embora → bleiben; sair a pé → gehen."
       },
       "important": [
         "bleiben significa ficar, não esperar.",
-        "Ich bleibe hier = eu fico aqui; Ich warte hier = eu espero aqui."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "bleiben"
-          ],
-          "purple": [
-            "paliek",
-            "neiet prom"
-          ],
-          "red": [
-            "Ideia",
-            "Ideia"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "bleibe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palieku"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Bleib"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Não"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bleiben"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mais"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "gehe"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Estou"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "bleiben"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "palikt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bleibe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ir/sair",
-                "Ir/sair"
-              ]
-            },
-            "example": {
-              "red": [
-                "gehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Dirigindo/equitação",
-                "Dirigindo/equitação"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "fahre"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "warten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Espere"
-              ]
-            },
-            "example": {
-              "green": [
-                "warte"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "bleiben"
-            ],
-            "purple": [
-              "neiet prom"
-            ],
-            "red": [
-              "gehen"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "bleiben"
-            ],
-            "purple": [
-              "palikt"
-            ],
-            "green": [
-              "gaidīt"
-            ]
-          },
-          {
-            "blue": [
-              "bleibe"
-            ],
-            "green": [
-              "warte"
-            ]
-          }
-        ]
-      }
+        "Ich bleibe hier = fico aqui; Ich warte hier = espero aqui."
+      ]
     }
   },
   {
@@ -5638,209 +5328,67 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "Espíritos de peixe • Tikai",
+    "lv": "apenas • primeiro",
     "level": "A1",
     "study": {
-      "id": "a1-erst",
-      "layout": "standardStudy",
-      "translation": "Espíritos de peixe • Tikai",
+      "translation": "apenas • primeiro",
       "explanation": [
-        "Ideia principal: erst frequentemente significa apenas. Mas em um contexto específico, também pode significar primeiro.",
-        "erst frequentemente indica que algo acontece mais tarde do que o esperado.",
+        "Ideia principal: erst geralmente significa apenas, mas também pode significar primeiro, dependendo do contexto.",
+        "Erst pode indicar que algo acontece mais tarde do que o esperado ou que um ponto foi alcançado recentemente.",
         "Ich bin erst 18. — Eu tenho apenas 18 anos.",
         "Es ist erst Montag. — É apenas segunda-feira.",
-        "Erst lernen, dann spielen. — Primeiro estude, depois brinque."
+        "Erst lernen, dann spielen. — Primeiro estudar, depois brincar."
       ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
-          "lv": "Vispirms dzert, um pouco braukt."
+          "lv": "Primeiro estudar, depois brincar."
         },
         {
           "de": "Ich komme erst morgen.",
-          "lv": "Só chegarei amanhã."
+          "lv": "Só venho amanhã."
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
-          "lv": "Olha, ele tem dezoito anos, hein?"
+          "lv": "Ele tem apenas 18 anos."
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Mēs ēdam tikai astoņos."
+          "lv": "Só vamos comer às oito horas."
         }
       ],
       "comparison": [
         {
           "word": "erst",
-          "meaning": "Espíritos de peixe • Tikai",
-          "example": "Erst lernen, dann spielen. – Erst arbeiten, dann Pause. = Vispirms strādāt, uma pequena pausa."
+          "meaning": "apenas • primeiro",
+          "example": "Erst lernen, dann spielen. = Primeiro estudar, depois brincar."
         },
         {
           "word": "zuerst",
-          "meaning": "Visspirmes • Sākuma",
+          "meaning": "primeiro",
           "example": "Zuerst frühstücken wir. = Primeiro, tomamos café da manhã."
         },
         {
           "word": "nur",
-          "meaning": "Tikai",
+          "meaning": "apenas • somente",
           "example": "Ich habe nur 5 Euro. = Eu tenho apenas 5 euros."
         },
         {
           "word": "dann",
-          "meaning": "Foguete Delta aprimorado com maior empuxo",
-          "example": "Dann gehen wir nach Hause. = Então voltamos para casa."
+          "meaning": "então • depois",
+          "example": "Dann gehen wir nach Hause. = Então vamos para casa."
         }
       ],
       "tip": {
-        "text": "Atceries: laiks/skaits → erst; daudzums → nur."
-      },
-      "accents": {
-        "blue": [
-          "erst",
-          "Erst"
-        ],
-        "green": [
-          "zuerst",
-          "Zuerst"
-        ],
-        "yellow": [
-          "nur"
-        ],
-        "red": [
-          "dann",
-          "Dann"
-        ]
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Erst"
-            ],
-            "red": [
-              "dann"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "erst"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Erst"
-              ],
-              "red": [
-                "dann"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zuerst"
-              ]
-            },
-            "example": {
-              "green": [
-                "Zuerst"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "nur"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "nur"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "dann"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dann"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "green": [
-              "laiks",
-              "skaits"
-            ],
-            "purple": [
-              "daudzums"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "purple": [
-              "tikai"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ],
-            "green": [
-              "laiku",
-              "secību"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "purple": [
-              "daudzumu"
-            ]
-          }
-        ]
+        "text": "Tempo, idade ou sequência: erst; quantidade ou limitação: nur."
       },
       "important": [
-        "erst un nur abi var skanēt kā “tikai”, bet nav viens un tas pats.",
-        "erst bieži runā par laiku, secību vai vēl tikai sasniegtu punktu; nur ierobežo daudzumu.",
-        "zuerst frequentemente significa: primeiro."
-      ]
+        "Erst e nur podem ser traduzidos como “apenas”, mas não têm exatamente o mesmo uso.",
+        "Erst costuma indicar tempo, sequência ou um ponto alcançado; nur limita quantidade ou escolha.",
+        "Zuerst significa “primeiro” e normalmente introduz a primeira etapa de uma sequência."
+      ],
+      "id": "a1-erst",
+      "layout": "standardStudy"
     }
   },
   {
@@ -6028,339 +5576,130 @@ const A1_WORDS = [
   },
   {
     "de": "etwas",
-    "lv": "Estufa Kaut • Nedaudz",
+    "lv": "algo • um pouco",
     "level": "A1",
     "study": {
-      "id": "a1-etwas",
-      "layout": "standardStudy",
-      "translation": "Estufa Kaut • Nedaudz",
+      "translation": "algo • um pouco",
       "explanation": [
-        "Galvenā doma: algo nozīmē kaut kas vai nedaudz atkarībā no konteksta.",
-        "Quando etwas substitui algo desconhecido, o letão geralmente diz alguma coisa.",
-        "Sim, algo stāv pie īpašības vārda vai daudzuma, tas bieži nozīmē nedaudz."
+        "Ideia principal: etwas pode significar algo ou um pouco, dependendo do contexto.",
+        "Quando se refere a uma coisa indefinida, significa “algo”.",
+        "Antes de um adjetivo ou com uma ideia de quantidade, pode significar “um pouco”."
       ],
       "examples": [
         {
           "de": "Ich möchte etwas trinken.",
-          "lv": "É gribētu kaut ko dzert."
+          "lv": "Eu gostaria de beber algo."
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "- Você tem tempo?"
+          "lv": "Você tem um pouco de tempo?"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "É esmu nedaudz noguris."
+          "lv": "Estou um pouco cansado."
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "Mantenha a mandíbula cerrada."
+          "lv": "Eu tenho algo para você."
         },
         {
           "de": "Das ist etwas teuer.",
-          "lv": "Pile ir nedaudz dārgi."
+          "lv": "Isso é um pouco caro."
         }
       ],
       "comparison": [
         {
           "word": "etwas",
-          "meaning": "Algo... barbudo.",
-          "example": "Ich brauche etwas. = Eu preciso de algo."
+          "meaning": "algo • um pouco",
+          "example": "Ich brauche etwas. = Preciso de algo."
         },
         {
           "word": "was",
-          "meaning": "Algo (informal)",
+          "meaning": "algo (informal)",
           "example": "Willst du was trinken? = Você quer beber algo?"
         },
         {
           "word": "ein bisschen",
-          "meaning": "Mazliet",
+          "meaning": "um pouco",
           "example": "Ich bin ein bisschen müde. = Estou um pouco cansado."
         },
         {
           "word": "nichts",
-          "meaning": "Nada",
-          "example": "Ich brauche nichts. = Eu não preciso de nada."
+          "meaning": "nada",
+          "example": "Ich brauche nichts. = Não preciso de nada."
         }
       ],
       "tip": {
-        "text": "Atceries: lieta → kaut kas; pakāpe → nedaudz."
+        "text": "Coisa indefinida: algo; grau ou quantidade pequena: um pouco."
       },
       "important": [
-        "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
-        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert.",
-        "Em latviano, às vezes soa melhor algo, em vez de algo, por exemplo: etwas trinken = beber algo."
+        "Etwas não é o mesmo que nichts: etwas indica que há algo, enquanto nichts significa “nada”.",
+        "Em etwas trinken, a tradução natural é “beber algo”.",
+        "Etwas pode modificar um adjetivo, como em etwas teuer: “um pouco caro”."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "etwas"
-          ],
-          "purple": [
-            "kaut kas",
-            "nedaudz",
-            "Galvenā"
-          ],
-          "green": [
-            "konteksta"
-          ],
-          "yellow": [
-            "Galvenā",
-            "daudzuma"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "etwas"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kaut ko"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "etwas"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Você"
-              ],
-              "yellow": [
-                "Você"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "etwas"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nedaudz"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "etwas"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Man"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "etwas"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "nedaudz"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "etwas"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Algo",
-                "Algo"
-              ]
-            },
-            "example": {
-              "blue": [
-                "etwas"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "was"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Algo"
-              ]
-            },
-            "example": {
-              "green": [
-                "was"
-              ],
-              "purple": [
-                "Willst"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "ein bisschen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "mazliet"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ein bisschen",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "nichts"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Nada"
-              ]
-            },
-            "example": {
-              "red": [
-                "nichts",
-                "neko"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "purple": [
-              "kaut kas",
-              "nedaudz"
-            ],
-            "yellow": [
-              "lieta"
-            ],
-            "green": [
-              "pakāpe"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "etwas"
-            ],
-            "purple": [
-              "kaut kas"
-            ],
-            "red": [
-              "nichts",
-              "nekas"
-            ]
-          },
-          {
-            "blue": [
-              "etwas"
-            ],
-            "purple": [
-              "kaut ko",
-              "kaut kas"
-            ]
-          }
-        ]
-      }
+      "id": "a1-etwas",
+      "layout": "standardStudy"
     }
   },
   {
     "de": "euch",
-    "lv": "Suco • Jumos",
+    "lv": "vocês • a vocês • se",
     "level": "A1",
     "study": {
-      "id": "a1-euch",
-      "layout": "standardStudy",
-      "translation": "Suco • Jumos",
-      "explanation": "\"euch\" go vietniekvārds 2. pessoas daudzskaitlī. A Laato gan kā tiešo papildinājumu (kurp?) - \"jūs\", gan kā netiešo papildinājumu (kam?) - \"jums.\"",
+      "translation": "vocês • a vocês • se",
+      "explanation": [
+        "Euch é a forma de acusativo ou dativo de ihr, usada para falar com várias pessoas de maneira informal.",
+        "Pode significar “vocês” como objeto direto, “a vocês” como objeto indireto ou “se” quando é reflexivo."
+      ],
       "examples": [
         {
           "de": "Ich sehe euch.",
-          "lv": "É suco de redzu."
+          "lv": "Eu vejo vocês."
         },
         {
           "de": "Ich helfe euch.",
-          "lv": "Eu vou te ajudar."
+          "lv": "Eu ajudo vocês."
         },
         {
           "de": "Ich gebe euch das Buch.",
-          "lv": "É um gramatu gordinho."
+          "lv": "Eu dou o livro a vocês."
         },
         {
           "de": "Ich danke euch.",
-          "lv": "É patético."
+          "lv": "Eu agradeço a vocês."
         },
         {
           "de": "Ihr erinnert euch.",
-          "lv": "Só parabéns."
+          "lv": "Vocês se lembram."
         }
       ],
       "comparison": [
         {
           "word": "ihr",
-          "meaning": "SÓ",
-          "example": "Ihr seid freundlich. = Vocês são amigáveis."
+          "meaning": "vocês",
+          "example": "Ihr seid freundlich. = Vocês são gentis."
         },
         {
           "word": "euch",
-          "meaning": "Sucos/jumadas",
-          "example": "Ich helfe euch. = Eu vos ajudo."
+          "meaning": "vocês • a vocês",
+          "example": "Ich helfe euch. = Eu ajudo vocês."
         },
         {
           "word": "euer",
-          "meaning": "Jusu",
-          "example": "Das ist euer Haus. = Essa é a sua casa."
+          "meaning": "seu • de vocês",
+          "example": "Das ist euer Haus. = Essa é a casa de vocês."
         }
       ],
-      "info": [
-        "ihr = jūs (teikuma priekšmeta forma)",
-        "euch = jūs (kurp? forma) / jums (kam? forma)",
-        "euer = jūsu (piederības forma)"
-      ],
       "tip": {
-        "text": "“euch” atbild uz jautājumu “kam?” vai ir tiešais papildinājums teikumos ar “jūs”.",
-        "example": "Es jums palīdzu. = Ich helfe euch. Es redzu jūs. = Ich sehe euch. Es stāstu jums. = Ich erzähle euch."
+        "text": "Euch é usado quando “vocês” recebe a ação, é o destinatário dela ou aparece em uma construção reflexiva."
       },
-      "accents": {
-        "blue": [
-          "ihr"
-        ],
-        "yellow": [
-          "euch"
-        ],
-        "green": [
-          "euer"
-        ]
-      }
+      "important": [
+        "Euch não significa suco nem qualquer outra palavra semelhante em português.",
+        "A tradução depende da função: “vocês” no acusativo, “a vocês” no dativo e “se” no uso reflexivo.",
+        "Ihr é o pronome sujeito; euch é a forma oblíqua correspondente."
+      ],
+      "id": "a1-euch",
+      "layout": "standardStudy"
     }
   },
   {
@@ -6370,345 +5709,74 @@ const A1_WORDS = [
   },
   {
     "de": "fahren",
-    "lv": "Braukt • Colete • Aizvest",
+    "lv": "viajar • dirigir • levar",
     "level": "A1",
     "study": {
-      "id": "a1-fahren",
-      "layout": "standardStudy",
-      "translation": "Braukt • Colete • Aizvest",
+      "translation": "viajar • dirigir • levar",
       "explanation": [
-        "Adestramento Galvenā: dirigir nozīmē braukt ar transportu un dažos teikumos arī vest vai aizvest kādu.",
-        "Fahren lateo, sim pārvietošanās notek ar car, busu, vilcienu, velosipēdu vai citu transportlīdzekli.",
-        "Se a frase tiver como objeto uma pessoa, fahren pode significar dirigir ou afastar.",
-        "Sim, você mal pode esperar para ver, você pode se divertir."
+        "Fahren significa deslocar-se usando um veículo, viajar ou dirigir.",
+        "Com um destino, pode ser traduzido como “ir” ou “viajar”; com um veículo, como “dirigir” ou “andar de”.",
+        "Também pode significar levar alguém de veículo a algum lugar."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "É braucu em berlinense."
+          "lv": "Eu vou para Berlim."
         },
         {
           "de": "Ich fahre mit dem Auto.",
-          "lv": "Eu dirijo um carro."
+          "lv": "Eu vou de carro."
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Es vedu savu meitu uz skolu."
+          "lv": "Levo minha filha à escola."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "É tevi aizvedīšu mājās."
+          "lv": "Levo você para casa."
         },
         {
           "de": "Wir fahren morgen nach München.",
-          "lv": "Mēs rit braucam uz Minheni."
+          "lv": "Amanhã vamos para Munique."
         }
       ],
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "Transporte de carro",
-          "example": "Viajo de ônibus."
+          "meaning": "viajar • dirigir",
+          "example": "Ich fahre mit dem Bus. = Vou de ônibus."
         },
         {
           "word": "gehen",
-          "meaning": "O kajam",
-          "example": "Vou para casa."
+          "meaning": "ir a pé",
+          "example": "Ich gehe nach Hause. = Vou para casa a pé."
         },
         {
           "word": "laufen",
-          "meaning": "Escrito /iet",
-          "example": "Ele corre rápido."
+          "meaning": "correr • caminhar",
+          "example": "Er läuft schnell. = Ele corre rápido."
         },
         {
           "word": "bringen",
-          "meaning": "Atnest / nogadat",
-          "example": "Trago o livro."
+          "meaning": "levar • trazer",
+          "example": "Ich bringe das Buch. = Eu levo o livro."
         },
         {
           "word": "mitnehmen",
-          "meaning": "Paņemt lidzi",
-          "example": "Levo você comigo."
+          "meaning": "levar consigo",
+          "example": "Ich nehme dich mit. = Levo você comigo."
         }
       ],
       "tip": {
-        "text": "Atceries: transportlīdzeklis → fahren; kājām → gehen."
+        "text": "Fahren normalmente envolve um veículo; para deslocamento a pé, use gehen ou laufen."
       },
-      "important": {
-        "text": "Fahren 'apenas' dirige'",
-        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
-      },
-      "accents": {
-        "blue": [
-          "fahren",
-          "fahre"
-        ],
-        "purple": [
-          "braukt",
-          "braucu",
-          "vest",
-          "vedu",
-          "aizvest"
-        ],
-        "green": [
-          "transportu",
-          "transportlīdzekli",
-          "auto",
-          "autobusu",
-          "vilcienu",
-          "velosipēdu"
-        ],
-        "yellow": [
-          "gehen",
-          "laufen"
-        ],
-        "red": [
-          "bringen",
-          "mitnehmen"
-        ]
-      },
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "fahren"
-          ],
-          "purple": [
-            "braukt",
-            "vest",
-            "aizvest"
-          ],
-          "green": [
-            "Adestramento",
-            "Galvenā",
-            "vilcienu",
-            "velosipēdu",
-            "transportlīdzekli"
-          ],
-          "yellow": [
-            "Galvenā",
-            "Galvenā"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "fahre"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "braucu"
-              ],
-              "green": [
-                "braucu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "Auto"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dirijo"
-              ],
-              "green": [
-                "dirijo"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "Tochter",
-                "Schule"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vedu"
-              ],
-              "green": [
-                "meitu",
-                "skolu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fahre"
-              ],
-              "green": [
-                "dich",
-                "Hause"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "aizvedīšu"
-              ],
-              "green": [
-                "tevi",
-                "mājās"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "fahren"
-              ],
-              "green": [
-                "München"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "braucam"
-              ],
-              "green": [
-                "Minheni"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "fahren"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Transporte"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fahre"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "kājam"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gehe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "laufen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Escrito",
-                "iet"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "läuft"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bringen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "atnest",
-                "nogādāt"
-              ]
-            },
-            "example": {
-              "red": [
-                "bringe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "mitnehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "paņemt līdzi"
-              ]
-            },
-            "example": {
-              "red": [
-                "nehme",
-                "mit"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "fahren"
-            ],
-            "yellow": [
-              "gehen"
-            ],
-            "green": [
-              "transportlīdzeklis",
-              "kājām"
-            ]
-          }
-        },
-        "important": [
-          {
-            "text": {
-              "blue": [
-                "fahren"
-              ],
-              "purple": [
-                "braukt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "fahren"
-              ],
-              "purple": [
-                "braukt",
-                "vest",
-                "aizvest"
-              ]
-            }
-          }
-        ]
-      }
+      "important": [
+        "Fahren pode significar “viajar”, “dirigir” ou “levar”, conforme o contexto.",
+        "Ich fahre mit dem Auto significa “Eu vou de carro” ou “Eu dirijo”.",
+        "Com uma pessoa como objeto, fahren pode significar levá-la de veículo."
+      ],
+      "id": "a1-fahren",
+      "layout": "standardStudy"
     }
   },
   {
@@ -8181,22 +7249,19 @@ const A1_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "Tūlīt • Vienads",
+    "lv": "logo • igual",
     "level": "A1",
     "study": {
-      "id": "a1-gleich",
-      "layout": "standardStudy",
-      "translation": "Tūlīt • Vienads",
+      "translation": "logo • igual",
       "explanation": [
-        "Adestramento Galvenā: gleich laika ziņā nozīmē tūlīt, salīdzinājumā nozīmē vienāds.",
-        "Quando chegar a hora, gleich = imediatamente/assim que (Ich komme gleich. = irei imediatamente).",
-        "Sim, runa ir de salīdzinājumu, igual a = vienāds/tāds pats (mesma cor = vienāda krāsa).",
-        "Gleich var Laatot arī kā prievārdu ar datīvu, nozīmē tāpat kā (gleich mir = tāpat kā man)."
+        "gleich pode indicar proximidade no tempo, com o sentido de ‘logo’ ou ‘daqui a pouco’.",
+        "Também significa ‘igual’ ou ‘do mesmo tamanho’ em comparações.",
+        "A expressão gleich mir significa ‘igual a mim’, embora seja menos comum no alemão básico."
       ],
       "examples": [
         {
           "de": "Ich komme gleich.",
-          "lv": "É tūlīt nāku."
+          "lv": "Eu já vou."
         },
         {
           "de": "Wir haben die gleiche Farbe.",
@@ -8204,139 +7269,31 @@ const A1_WORDS = [
         },
         {
           "de": "Das Essen ist gleich fertig.",
-          "lv": "A comida estará pronta em breve."
+          "lv": "A comida estará pronta daqui a pouco."
         },
         {
           "de": "Beide Wege sind gleich lang.",
-          "lv": "Abi ceųi ir vienādi gari."
+          "lv": "Os dois caminhos têm o mesmo comprimento."
         },
         {
           "de": "Bis gleich!",
-          "lv": "Lidz tulit!"
+          "lv": "Até daqui a pouco!"
         },
         {
           "de": "Sie sind gleich groß.",
-          "lv": "Você está no lugar certo."
+          "lv": "Eles têm a mesma altura."
         }
       ],
       "tip": [
-        "Sobre tempo (em breve) → imediatamente.",
-        "Sobre comparação (o mesmo) → igual."
+        "No contexto de tempo, gleich significa ‘logo’ ou ‘daqui a pouco’.",
+        "Em comparações, gleich significa ‘igual’ ou ‘do mesmo tamanho’."
       ],
       "important": [
-        "gleich = imediatamente (tempo) OU igual (comparação).",
-        "Bis gleich! = līdz tūlīt! — ierasta atvadu frāze."
+        "gleich pode significar ‘logo’ ou ‘igual’, dependendo do contexto.",
+        "Bis gleich! significa ‘Até daqui a pouco!’."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "gleich"
-          ],
-          "purple": [
-            "tūlīt",
-            "vienāds"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tūlīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Temos"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "comida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vienādi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tūlīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "está"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "tūlīt"
-            ]
-          },
-          {
-            "green": [
-              "vienāds"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "purple": [
-              "tūlīt",
-              "vienāds"
-            ]
-          },
-          {
-            "blue": [
-              "Bis gleich!"
-            ]
-          }
-        ]
-      }
+      "id": "a1-gleich",
+      "layout": "standardStudy"
     }
   },
   {
@@ -8378,25 +7335,23 @@ const A1_WORDS = [
   },
   {
     "de": "groß",
-    "lv": "Mentiras",
+    "lv": "grande • alto",
     "level": "A1",
     "study": {
-      "id": "a1-gross-study",
-      "layout": "standardStudy",
-      "translation": "Mentiras",
+      "translation": "grande • alto",
       "explanation": [
-        "Adestramento Galvenā: Liels izmērā vai cilvēkam - garš augumā.",
-        "Grande galvenokārt nozīmē: liels izmērs.",
-        "Frequentemente caracterizado por: tamanho geral."
+        "groß significa ‘grande’ quando se fala do tamanho de algo.",
+        "Para pessoas, groß geralmente significa ‘alto’.",
+        "A tradução depende do contexto: uma casa pode ser grande, enquanto uma pessoa é alta."
       ],
       "examples": [
         {
           "de": "Das Haus ist groß.",
-          "lv": "Maja vai mentir."
+          "lv": "A casa é grande."
         },
         {
           "de": "Berlin ist eine große Stadt.",
-          "lv": "Nada até agora."
+          "lv": "Berlim é uma cidade grande."
         },
         {
           "de": "Er ist groß.",
@@ -8404,90 +7359,18 @@ const A1_WORDS = [
         },
         {
           "de": "Das Zimmer ist groß.",
-          "lv": "Eu estava indo para Liela."
+          "lv": "O quarto é grande."
         }
       ],
       "tip": [
-        "groß = liels",
-        "Izmanto groß, kad konteksts atbilst šai nozīmei."
+        "Use groß para falar de tamanho ou altura.",
+        "Para uma pessoa, Er ist groß normalmente significa ‘Ele é alto’."
       ],
       "important": [
-        "Cilvēkam Er ist groß nozīmē garš augumā.",
-        "groß = liels."
+        "groß = grande; para pessoas, geralmente ‘alto’. "
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "Galvenā"
-          ],
-          "purple": [
-            "liels"
-          ],
-          "green": [
-            "Liels"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "groß"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Maja"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "große"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Nada"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "groß"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "groß"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "liela"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "liels"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "groß"
-            ]
-          }
-        ]
-      }
+      "id": "a1-gross-study",
+      "layout": "standardStudy"
     }
   },
   {
@@ -8496,48 +7379,48 @@ const A1_WORDS = [
     "lv": "avós",
     "level": "A1",
     "study": {
-      "id": "a1-grosseltern-study",
-      "layout": "standardStudy",
       "translation": "avós",
       "explanation": [
-        "Ideia principal: Großeltern significa avó e avô juntos.",
-        "Essa palavra é usada no plural.",
-        "No singular, use Großmutter ou Großvater."
+        "Großeltern significa ‘avós’, ou seja, a avó e o avô em conjunto.",
+        "Essa palavra é plural.",
+        "No singular, use Großmutter para ‘avó’ e Großvater para ‘avô’."
       ],
       "examples": [
         {
           "de": "Meine Großeltern wohnen auf dem Land.",
-          "lv": "meus avós vivem no campo."
+          "lv": "Meus avós moram no campo."
         },
         {
           "de": "Ich besuche meine Großeltern.",
-          "lv": "eu visito meus avós."
+          "lv": "Eu visito meus avós."
         }
       ],
       "comparison": [
         {
           "word": "Großeltern",
           "meaning": "avós",
-          "example": "meine Großeltern – Meus avós"
+          "example": "meine Großeltern – meus avós"
         },
         {
           "word": "Großmutter",
-          "meaning": "Vecmāmiņa",
-          "example": "meine Großmutter – Minha avó"
+          "meaning": "avó",
+          "example": "meine Großmutter – minha avó"
         },
         {
           "word": "Großvater",
-          "meaning": "Vectētiņš",
-          "example": "mein Großvater – Meu avô"
+          "meaning": "avô",
+          "example": "mein Großvater – meu avô"
         }
       ],
       "tip": [
-        "Großeltern é plural.",
-        "Para uma pessoa, use Großmutter ou Großvater."
+        "Großeltern é uma palavra plural.",
+        "Para falar de uma só pessoa, use Großmutter ou Großvater."
       ],
       "important": [
-        "die Großeltern = avós."
-      ]
+        "die Großeltern = os avós."
+      ],
+      "id": "a1-grosseltern-study",
+      "layout": "standardStudy"
     }
   },
   {
@@ -8587,173 +7470,53 @@ const A1_WORDS = [
   },
   {
     "de": "gut",
-    "lv": "- Bom.",
+    "lv": "bom • bem",
     "level": "A1",
     "study": {
-      "id": "a1-gut-study",
-      "layout": "standardStudy",
-      "translation": "- Bom.",
+      "translation": "bom • bem",
       "explanation": [
-        "Galvenā doma: gut ir īpašības/apstākļa vārds — laboratórios, veiksmīgi, kārtībā.",
-        "Feliz raksturo kvalitāti, veselību vai to, kā kaut kas noris (estou bem. = Man klājas labi.).",
-        "Na expressão educada guten Tag/Abend/Demain, gut muda a terminação após a inflexão.",
-        "Sim, bom raksturo darbības vārdu, tas ir apstākųa vārds (boa natação = labi peldēt).",
-        "Nejauc ar das Gut — tas ar lielo burtu un artikulu ir lagevārds (īpašums, muiža)."
+        "gut é um adjetivo que significa ‘bom’ e também pode funcionar como advérbio, com o sentido de ‘bem’.",
+        "Pode descrever qualidade, estado de saúde ou o modo como algo acontece.",
+        "Em expressões como Guten Tag e Guten Morgen, o adjetivo recebe uma terminação por causa da flexão.",
+        "Não confunda gut com das Gut, substantivo que significa ‘bem’ ou ‘propriedade’."
       ],
       "examples": [
         {
           "de": "Das Essen ist gut.",
-          "lv": "- A comida estava ótima."
+          "lv": "A comida está boa."
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "Como vai você? Tudo bem, obrigado!"
+          "lv": "Como você está? – Bem, obrigado!"
         },
         {
           "de": "Er spricht gut Deutsch.",
-          "lv": "Viņš labi runā vaciski."
+          "lv": "Ele fala bem alemão."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Labrit"
+          "lv": "Bom dia!"
         },
         {
           "de": "Das ist eine gute Idee.",
-          "lv": "Perfeito."
+          "lv": "Essa é uma boa ideia."
         },
         {
           "de": "Alles ist gut.",
-          "lv": "Os peixes vão kartībā."
+          "lv": "Está tudo bem."
         }
       ],
       "tip": [
-        "gut sem artigo é um adjetivo/advérbio — bom/bem.",
-        "das Gut com letra maiúscula e artigo é uma palavra completamente diferente — substantivo (propriedade, mansão)."
+        "gut pode significar ‘bom’ como adjetivo e ‘bem’ como advérbio.",
+        "das Gut, com artigo e inicial maiúscula, é um substantivo e significa ‘bem’ ou ‘propriedade’."
       ],
       "important": [
-        "gut = bom/bem (adjetivo/advérbio).",
-        "das Gut = propriedade/mansão (substantivo) — não confunda com gut.",
-        "Guten Tag/Morgen/Abend — gut maina galotni pēc locījuma."
+        "gut = bom/bem.",
+        "das Gut = bem ou propriedade; não confunda com gut.",
+        "Guten Tag, Guten Morgen e Guten Abend mostram a flexão de gut."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "gut"
-          ],
-          "purple": [
-            "labi",
-            "labi"
-          ],
-          "green": [
-            "das Gut"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "gut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "comida"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Gut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Como"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "labi"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Guten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "labrīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gute"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Perfeito"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gut"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "kārtībā"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "gut"
-            ]
-          },
-          {
-            "green": [
-              "das Gut"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "gut"
-            ]
-          },
-          {
-            "green": [
-              "das Gut"
-            ]
-          },
-          {
-            "blue": [
-              "Guten Tag",
-              "Morgen",
-              "Abend"
-            ]
-          }
-        ]
-      }
+      "id": "a1-gut-study",
+      "layout": "standardStudy"
     }
   },
   {
@@ -8765,228 +7528,66 @@ const A1_WORDS = [
   },
   {
     "de": "haben",
-    "lv": "J.",
+    "lv": "ter",
     "level": "A1",
     "study": {
-      "id": "a1-haben",
-      "layout": "standardStudy",
-      "translation": "J.",
+      "translation": "ter",
       "explanation": [
-        "Idéia principal: haben significa que alguém tem ou tem acesso a algo.",
-        "Latviešu datīva konstrukcija „man ir / tev ir” vāciski ir nominatīvs + haben: Ich habe..., Du hast..., Er hat... — nevis *mir habe.",
-        "Pēc haben seko akuzatīvs: Eu tenho um carro. = Man ir automašīna.",
-        "Haben Laato arī kā palīgdarbības vārdu Perfectā: Ich habe gelernt."
+        "haben significa ‘ter’ ou possuir algo.",
+        "Em alemão, a construção equivalente a ‘eu tenho’ é Ich habe; o sujeito fica no nominativo.",
+        "Depois de haben, o objeto normalmente aparece no acusativo: Ich habe ein Auto.",
+        "haben também é usado como verbo auxiliar no perfeito: Ich habe gelernt."
       ],
       "examples": [
         {
           "de": "Ich habe ein Auto.",
-          "lv": "Meu carro é automático."
+          "lv": "Eu tenho um carro."
         },
         {
           "de": "Hast du Zeit?",
-          "lv": "Vai tev ir laik?"
+          "lv": "Você tem tempo?"
         },
         {
           "de": "Wir haben Hunger.",
-          "lv": "Mais sobre izsalkuši."
+          "lv": "Estamos com fome."
         },
         {
           "de": "Ich habe das gemacht.",
-          "lv": "Eu preparei."
+          "lv": "Eu fiz isso."
         }
       ],
       "comparison": [
         {
           "word": "haben",
-          "meaning": "J.",
+          "meaning": "ter",
           "example": "Ich habe Zeit. = Eu tenho tempo."
         },
         {
           "word": "sein",
-          "meaning": "Nós dois estamos arruinados por causa de nossas famílias.",
+          "meaning": "ser/estar",
           "example": "Ich bin hier. = Eu estou aqui."
         },
         {
           "word": "bekommen",
-          "meaning": "Sanemt",
+          "meaning": "receber",
           "example": "Ich bekomme ein Geschenk. = Eu recebo um presente."
         },
         {
           "word": "machen",
-          "meaning": "Darit / Taisit",
+          "meaning": "fazer",
           "example": "Ich mache das. = Eu faço isso."
         }
       ],
       "tip": {
-        "text": "Atceries: Ich habe → man ir."
+        "text": "Lembre-se: Ich habe = eu tenho."
       },
       "important": [
-        "Em latviano \"man ir\" = em alemão Ich habe + acusativo. Não use dativo: incorreto *mir habe.",
-        "Com sein e dativo: Mir ist kalt. = Estou com frio. (não é haben!)",
-        "Perfeito: Ich habe gelernt = eu aprendi."
+        "‘Eu tenho’ em alemão é Ich habe, não *mir habe.",
+        "Com sein e dativo, diz-se Mir ist kalt. = Estou com frio.",
+        "No perfeito, Ich habe gelernt significa ‘eu aprendi’."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "haben",
-            "Ich habe"
-          ],
-          "purple": [
-            "man ir",
-            "tev ir"
-          ],
-          "yellow": [
-            "palīgdarbības vārdu"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "habe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Meu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Hast"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "tev ir"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "haben"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Mais"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "habe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "preparé"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "haben"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "habe"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "sein"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Nós"
-              ]
-            },
-            "example": {
-              "green": [
-                "bin",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bekommen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "saņemt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bekomme",
-                "saņemu"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "machen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "darīt"
-              ]
-            },
-            "example": {
-              "red": [
-                "mache",
-                "Ich"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich habe"
-            ],
-            "purple": [
-              "man ir"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "habe"
-            ],
-            "purple": [
-              "man ir"
-            ]
-          },
-          {
-            "blue": [
-              "habe"
-            ]
-          }
-        ]
-      }
+      "id": "a1-haben",
+      "layout": "standardStudy"
     }
   },
   {
@@ -9010,244 +7611,66 @@ const A1_WORDS = [
   },
   {
     "de": "halten",
-    "lv": "Turēt • Apturet",
+    "lv": "segurar • parar",
     "level": "A1",
     "study": {
-      "id": "a1-halten",
-      "layout": "standardStudy",
-      "translation": "Turēt • Apturet",
+      "translation": "segurar • parar",
       "explanation": [
-        "Ideia principal: Parar significa segurar, mas no transporte ou movimento também pode significar parar ou parar.",
-        "Ar priekšmetu rokās segure parasti ir turēt.",
-        "De ônibus, o carro vilcienu vai parar em bieži nozīmē apstāties.",
-        "Viedokļa frāzē ich stope das für... tas nozīmē uzskatīt par."
+        "halten pode significar ‘segurar’ algo com as mãos.",
+        "Com veículos, halten significa ‘parar’ ou ‘fazer uma parada’.",
+        "A expressão Ich halte das für richtig significa ‘Eu considero isso correto’.",
+        "Bitte halten Sie an usa o verbo separável anhalten e significa ‘Por favor, pare’."
       ],
       "examples": [
         {
           "de": "Ich halte die Tasche.",
-          "lv": "É turu somu."
+          "lv": "Eu seguro a bolsa."
         },
         {
           "de": "Der Bus hält hier.",
-          "lv": "Ônibus šeit apstājas."
+          "lv": "O ônibus para aqui."
         },
         {
           "de": "Bitte halten Sie an.",
-          "lv": "Por favor, pare!"
+          "lv": "Por favor, pare."
         },
         {
           "de": "Ich halte das für richtig.",
-          "lv": "Você está em uzskatu de pareizu."
+          "lv": "Eu considero isso correto."
         }
       ],
       "comparison": [
         {
           "word": "halten",
-          "meaning": "Turēt / apstāties",
+          "meaning": "segurar / parar",
           "example": "Der Bus hält. = O ônibus para."
         },
         {
           "word": "nehmen",
-          "meaning": "Sou",
+          "meaning": "pegar",
           "example": "Ich nehme die Tasche. = Eu pego a bolsa."
         },
         {
           "word": "anhalten",
-          "meaning": "Fusíveis",
+          "meaning": "parar",
           "example": "Bitte halten Sie an. = Por favor, pare."
         },
         {
           "word": "denken",
-          "meaning": "Domínio",
-          "example": "Ich denke, das ist richtig. = Eu acho que está certo."
+          "meaning": "pensar/achar",
+          "example": "Ich denke, das ist richtig. = Eu acho que isso está certo."
         }
       ],
       "tip": {
-        "text": "Atceries: rokā → halten; transports → hält/apstājas."
+        "text": "Com um objeto, halten pode significar ‘segurar’; com transporte, pode significar ‘parar’."
       },
       "important": [
-        "halten nav tikai “turēt”. Ar transportu tas bieži nozīmē apstāties.",
-        "Ich halte das für... ir viedokļa frāze: “es to uzskatu par...”.",
+        "halten não significa apenas ‘segurar’; com transporte, frequentemente significa ‘parar’.",
+        "Ich halte das für... é uma expressão para dar uma opinião.",
         "Bitte halten Sie an usa o verbo separável anhalten."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "Ideia"
-          ],
-          "purple": [
-            "turēt",
-            "turēt",
-            "apstāties",
-            "uzskatīt par"
-          ],
-          "green": [
-            "transporte",
-            "Ideia"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "halte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "turu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "hält"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apstājas"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "halten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Por"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "halte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "uzskatu"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "halten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "turēt",
-                "apstāties"
-              ]
-            },
-            "example": {
-              "blue": [
-                "hält"
-              ],
-              "purple": [
-                "Astajas"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "nehmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Sou"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "nehme",
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "anhalten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Fusíveis"
-              ]
-            },
-            "example": {
-              "red": [
-                "Stoppen",
-                "Stoppen"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "denken"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Dominio"
-              ]
-            },
-            "example": {
-              "green": [
-                "denke",
-                "domāju"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "halten",
-              "hält"
-            ],
-            "purple": [
-              "rokā",
-              "apstājas"
-            ],
-            "green": [
-              "transports"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "halten"
-            ],
-            "purple": [
-              "turēt",
-              "apstāties"
-            ]
-          },
-          {
-            "blue": [
-              "halte"
-            ],
-            "purple": [
-              "uzskatu"
-            ]
-          }
-        ]
-      }
+      "id": "a1-halten",
+      "layout": "standardStudy"
     }
   },
   {
@@ -9264,26 +7687,24 @@ const A1_WORDS = [
     "lv": "mão",
     "level": "A1",
     "study": {
-      "id": "a1-hand-study",
-      "layout": "standardStudy",
       "translation": "mão",
       "explanation": [
-        "Ideia principal: die Hand significa mão.",
-        "Na língua alemã, Arm e Hand são duas palavras diferentes.",
-        "Na língua latviana cotidiana, a palavra roka frequentemente pode denotar tanto Arm quanto Hand."
+        "die Hand significa ‘mão’.",
+        "Em alemão, Hand e Arm são partes diferentes do corpo.",
+        "Hand corresponde à mão; Arm corresponde ao braço, do ombro até a mão."
       ],
       "examples": [
         {
           "de": "Ich wasche meine Hände.",
-          "lv": "eu lavo as mãos."
+          "lv": "Eu lavo as mãos."
         },
         {
           "de": "Sie hält das Glas in der Hand.",
-          "lv": "ela segura um copo na mão."
+          "lv": "Ela segura o copo na mão."
         },
         {
           "de": "Mein Arm tut weh.",
-          "lv": "minha mão dói."
+          "lv": "Meu braço dói."
         }
       ],
       "comparison": [
@@ -9294,17 +7715,19 @@ const A1_WORDS = [
         },
         {
           "word": "der Arm",
-          "meaning": "Roka",
+          "meaning": "braço",
           "example": "Mein Arm tut weh. – Meu braço dói."
         }
       ],
       "tip": [
         "Hand = mão.",
-        "Arm = braço do ombro à mão."
+        "Arm = braço, do ombro até a mão."
       ],
       "important": [
-        "Na língua alemã, Hand e Arm não são a mesma palavra."
-      ]
+        "Em alemão, Hand e Arm não são a mesma palavra."
+      ],
+      "id": "a1-hand-study",
+      "layout": "standardStudy"
     }
   },
   {
@@ -9361,30 +7784,27 @@ const A1_WORDS = [
   },
   {
     "de": "heißen",
-    "lv": "Saukties • Nozimet",
+    "lv": "chamar-se • significar",
     "level": "A1",
     "study": {
-      "id": "a1-heißen",
-      "layout": "standardStudy",
-      "translation": "Saukties • Nozimet",
+      "translation": "chamar-se • significar",
       "explanation": [
-        "Galvenā domesticando: heißen visbiežāk aqui, lai pateiktu, kā kādu sauc.",
-        "A expressão Ich heiße... significa \"meu nome é...\".",
-        "Ar vārdiem vai izteicieniem são chamados var nozīmēt arī nozīmēt.",
-        "A1 līmenī svarigākā frāze ir Wie heißt du?"
+        "heißen é usado principalmente para dizer o nome de uma pessoa: Ich heiße Anna = Eu me chamo Anna.",
+        "Também pode significar ‘significar’, especialmente em perguntas sobre palavras ou expressões.",
+        "No nível A1, a frase mais importante é Wie heißt du? = Como você se chama?"
       ],
       "examples": [
         {
           "de": "Ich heiße Anna.",
-          "lv": "Anna entrega o molho."
+          "lv": "Eu me chamo Anna."
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Molho ka tevi?"
+          "lv": "Como você se chama?"
         },
         {
           "de": "Wie heißt das auf Deutsch?",
-          "lv": "O que você acha de vaciski?"
+          "lv": "Como se diz isso em alemão?"
         },
         {
           "de": "Was heißt das?",
@@ -9394,212 +7814,39 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "heißen",
-          "meaning": "Ser mencionado/significar",
-          "example": "Ich heiße Anna. = Meu nome é Anna."
+          "meaning": "chamar-se / significar",
+          "example": "Ich heiße Anna. = Eu me chamo Anna."
         },
         {
           "word": "nennen",
-          "meaning": "Saukt/Nosaukt",
+          "meaning": "chamar, dar um nome",
           "example": "Er nennt mich Tom. = Ele me chama de Tom."
         },
         {
           "word": "bedeuten",
-          "meaning": "Nozimet",
+          "meaning": "significar",
           "example": "Was bedeutet das? = O que isso significa?"
         },
         {
           "word": "rufen",
-          "meaning": "Saukt / zvanīt",
-          "example": "Ich rufe dich. = Eu o chamo."
+          "meaning": "chamar em voz alta",
+          "example": "Ich rufe dich. = Eu chamo você."
         },
         {
           "word": "anrufen",
-          "meaning": "Zvanit",
-          "example": "Ich rufe dich an. = Eu te ligo."
+          "meaning": "telefonar",
+          "example": "Ich rufe dich an. = Eu telefono para você."
         }
       ],
       "tip": {
-        "text": "Atceries: Ich heiße... → mani sauc..."
+        "text": "Ich heiße... = Eu me chamo..."
       },
       "important": [
-        "Wie heißt du? significa \"Qual é o seu nome?\", não literalmente \"como você se chamou?\".",
-        "Was heißt das? frequentemente significa \"O que isso significa?\"."
+        "Wie heißt du? significa ‘Como você se chama?’.",
+        "Was heißt das? frequentemente significa ‘O que isso significa?’."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "heißen",
-            "Ich heiße",
-            "Wie heißt du"
-          ],
-          "purple": [
-            "sauc",
-            "nozīmēt"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "heiße"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Anna"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "heißt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Molho"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "heißt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "que"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "heißt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "que"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "heißen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "Ser",
-                "Ser"
-              ]
-            },
-            "example": {
-              "blue": [
-                "heiße"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "nennen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "saukt"
-              ]
-            },
-            "example": {
-              "green": [
-                "nennt",
-                "sauc"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "bedeuten"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "nozīmēt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "bedeutet",
-                "Was"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "rufen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "saukt",
-                "zvanīt"
-              ]
-            },
-            "example": {
-              "red": [
-                "rufe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "anrufen"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Ich heiße"
-            ],
-            "purple": [
-              "mani sauc"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "Wie heißt du"
-            ],
-            "purple": [
-              "kā tevi sauc"
-            ]
-          },
-          {
-            "blue": [
-              "Was heißt das"
-            ],
-            "purple": [
-              "ko tas nozīmē"
-            ]
-          }
-        ]
-      }
+      "id": "a1-heißen",
+      "layout": "standardStudy"
     }
   },
   {
@@ -9652,33 +7899,30 @@ const A1_WORDS = [
   },
   {
     "de": "hoch",
-    "lv": "Agosto",
+    "lv": "alto",
     "level": "A1",
     "study": {
-      "id": "a1-hoch-study",
-      "layout": "standardStudy",
-      "translation": "Agosto",
+      "translation": "alto",
       "explanation": [
-        "Ideia principal: Altura vertical, nível ou altura.",
-        "Up galvenokārt nozīmē: liels augstumā.",
-        "Frequentemente caracterizado por: altura vertical."
+        "hoch descreve grande altura vertical ou um nível elevado.",
+        "Também é usado com preços, aluguéis e valores, com o sentido de ‘alto’ ou ‘elevado’."
       ],
       "examples": [
         {
           "de": "Der Berg ist hoch.",
-          "lv": "Kalns vão em agosto."
+          "lv": "A montanha é alta."
         },
         {
           "de": "Das Regal ist zwei Meter hoch.",
-          "lv": "Kalns vão em agosto."
+          "lv": "A estante tem dois metros de altura."
         },
         {
           "de": "Die Miete ist hoch.",
-          "lv": "Você é agosto."
+          "lv": "O aluguel é alto."
         },
         {
           "de": "Die Mauer ist hoch.",
-          "lv": "Siena em Augusta."
+          "lv": "O muro é alto."
         },
         {
           "de": "Die Preise sind hoch.",
@@ -9686,103 +7930,16 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "hoch = augsts",
-        "Izmanto hoch, kad konteksts atbilst šai nozīmei."
+        "Use hoch para altura vertical ou para valores e níveis elevados.",
+        "Para a altura de uma pessoa, geralmente use groß, não hoch."
       ],
       "important": [
-        "Cenām un līmenim bieži lieto hoch.",
-        "hoch = augsts.",
-        "Augsts vertikāli, līmenī vai augstumā."
+        "Der Berg ist hoch = A montanha é alta.",
+        "Er ist groß = Ele é alto.",
+        "Para a altura de uma pessoa, normalmente não se usa hoch."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "green": [
-            "Ideia"
-          ],
-          "purple": [
-            "augsts"
-          ],
-          "orange": [
-            "augsts"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "hoch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Kalns"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "hoch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Kalns"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "hoch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Você"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "hoch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Augusta"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "hoch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Os"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "augsts"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "green": [
-              "hoch"
-            ]
-          }
-        ]
-      }
+      "id": "a1-hoch-study",
+      "layout": "standardStudy"
     }
   },
   {
@@ -9792,105 +7949,39 @@ const A1_WORDS = [
   },
   {
     "de": "hören",
-    "lv": "Dzirdēt • Klausīties",
+    "lv": "ouvir • escutar",
     "level": "A1",
     "study": {
-      "id": "a1-hoeren-study",
-      "layout": "standardStudy",
-      "translation": "Dzirdēt • Klausīties",
+      "translation": "ouvir • escutar",
       "explanation": [
-        "Adestramento Galvenā: Dzirdēt skaņu vai klausīties mūziku.",
-        "Ouvir significa principalmente: perceber o som.",
-        "Biezi raksturo: skaņas.",
-        "A audição é usada para sons, música e o que é ouvido."
+        "hören significa perceber sons com a audição ou prestar atenção ao que se ouve.",
+        "É usado para sons, música, histórias e pessoas falando.",
+        "Em português, pode ser traduzido como ‘ouvir’ ou ‘escutar’, conforme o contexto."
       ],
       "examples": [
         {
           "de": "Ich höre Musik.",
-          "lv": "É a música de Klausos."
+          "lv": "Eu ouço música."
         },
         {
           "de": "Die Kinder hören eine Geschichte.",
-          "lv": "Bērni klausās stāstu."
+          "lv": "As crianças escutam uma história."
         },
         {
           "de": "Ich höre dich.",
-          "lv": "Eu entendo você."
+          "lv": "Eu ouço você."
         }
       ],
       "tip": [
-        "Ouça o som ou escute a música.",
-        "Use hören quando o contexto corresponder a este significado."
+        "Use hören para ouvir sons, música ou fala.",
+        "‘Ouvir’ e ‘escutar’ são traduções naturais de hören."
       ],
       "important": [
-        "hören = ouvir/escutar som.",
-        "Ouça o som ou escute a música."
+        "hören = ouvir/escutar.",
+        "O contexto determina se a melhor tradução é ‘ouvir’ ou ‘escutar’."
       ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "Galvenā"
-          ],
-          "purple": [
-            "klausīties",
-            "dzirdēt"
-          ],
-          "green": [
-            "klausīties",
-            "Dzirdēt"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "höre"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "hören",
-                "hören"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "höre"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "entendo"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {
-            "purple": [
-              "dzirdēt"
-            ]
-          },
-          {
-            "purple": [
-              "klausīties"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "hören"
-            ]
-          }
-        ]
-      }
+      "id": "a1-hoeren-study",
+      "layout": "standardStudy"
     }
   },
   {

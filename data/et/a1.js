@@ -3142,9 +3142,9 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "palun",
       "explanation": [
-        "Põhiidee: Viisakussõna väikese algustähega. Kasutatakse viisakuse väljendamiseks — palun.",
-        "bitte tähendab peamiselt: viisakus.",
-        "Sageli kirjeldab: viisakussõna."
+        "Põhiidee: bitte on väikese algustähega viisakussõna, mis tähendab „palun”.",
+        "Seda kasutatakse palve pehmendamiseks või viisakaks vastuseks.",
+        "Nimisõna die Bitte kirjutatakse suure algustähega ja tähendab „palve”."
       ],
       "examples": [
         {
@@ -3153,7 +3153,7 @@ const A1_WORDS = [
         },
         {
           "de": "Komm bitte herein.",
-          "lv": "Palun, tule sisse!"
+          "lv": "Palun tule sisse."
         },
         {
           "de": "Bitte schön!",
@@ -3172,89 +3172,6 @@ const A1_WORDS = [
           "lv": "palve on tähtis."
         }
       ],
-      "tip": {
-        "text": "Kasuta „bitte” palve pehmendamiseks; eesti keeles vastab sellele tavaliselt „palun”."
-      },
-      "important": [
-        "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
-        "die Bitte suure algustähega ja artikliga die on nimisõna.",
-        "Mitmus: die Bitten (palved)."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "bitte"
-          ],
-          "purple": [
-            "palun"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palun"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palun"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {},
-          {}
-        ],
-        "important": [
-          {
-            "blue": [
-              "bitte"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "blue": [
-                "bitte"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "die Bitte"
-              ]
-            }
-          }
-        ]
-      },
       "comparison": [
         {
           "word": "bitte",
@@ -3266,7 +3183,74 @@ const A1_WORDS = [
           "meaning": "palve",
           "example": "Ich habe eine Bitte. – Mul on üks palve."
         }
-      ]
+      ],
+      "tip": {
+        "text": "Pea meeles: bitte = palun; die Bitte = palve."
+      },
+      "important": [
+        "bitte kirjutatakse väikese algustähega.",
+        "die Bitte on suure algustähega nimisõna."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "bitte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "bitte"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          }
+        ],
+        "tip": {
+          "left": {}
+        },
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -3280,10 +3264,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "palve",
       "explanation": [
-        "Põhiidee: Nimisõna artikliga die ja suure algustähega. Konkreetne palve või taotlus.",
-        "die Bitte tähendab peamiselt: viisakus.",
-        "Sageli kirjeldab: viisakussõna.",
-        "die Bitte tähendab peamiselt: palve/soov."
+        "Põhiidee: die Bitte on nimisõna, mis tähendab konkreetset palvet või soovi.",
+        "Nimisõnana kirjutatakse Bitte suure algustähega ja seda kasutatakse artikliga die.",
+        "Mitmus on die Bitten.",
+        "Viisakussõna bitte väikese algustähega tähendab „palun”."
       ],
       "examples": [
         {
@@ -3311,95 +3295,6 @@ const A1_WORDS = [
           "lv": "palve on tähtis."
         }
       ],
-      "tip": {
-        "text": "Nimisõna „die Bitte” tähendab palvet; ära aja seda segi sõnaga „bitte” tähenduses „palun”."
-      },
-      "important": [
-        "bitte kirjutatakse väikese tähega — see on viisakussõna, mitte nimisõna.",
-        "die Bitte suure algustähega ja artikliga die on nimisõna.",
-        "Mitmus: die Bitten (palved)."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "green": [
-            "die Bitte",
-            "bitte"
-          ],
-          "purple": [
-            "palve",
-            "palve"
-          ],
-          "yellow": [
-            "Bitte",
-            "Bitten"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "green": [
-                "Bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palve"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Bitte"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "palve"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "Bitten"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Tal"
-              ]
-            }
-          }
-        ],
-        "tip": [
-          {},
-          {}
-        ],
-        "important": [
-          {
-            "green": [
-              "bitte"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "die Bitte"
-              ]
-            }
-          },
-          {
-            "word": {
-              "blue": [
-                "bitte"
-              ]
-            }
-          }
-        ]
-      },
       "comparison": [
         {
           "word": "die Bitte",
@@ -3411,7 +3306,74 @@ const A1_WORDS = [
           "meaning": "palun",
           "example": "Komm bitte herein. – Palun tule sisse."
         }
-      ]
+      ],
+      "tip": {
+        "text": "Pea meeles: die Bitte = palve; bitte = palun."
+      },
+      "important": [
+        "die Bitte kirjutatakse suure algustähega.",
+        "Mitmus on die Bitten."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "Bitte"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "die Bitte"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "bitte"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          }
+        ],
+        "tip": {
+          "left": {}
+        },
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -3459,10 +3421,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "jääma",
       "explanation": [
-        "Põhiidee: bleiben tähendab jäämist.",
-        "bleiben kasutatakse, kui inimene või asi ei lähe ära ja jääb samasse kohta või olekusse.",
-        "See on sõnade gehen ja fahren vastand, kui jutt on ära minekust.",
-        "Väga sage fraas on Ich bleibe zu Hause."
+        "Põhiidee: bleiben tähendab jääma.",
+        "Seda kasutatakse, kui inimene või asi ei lähe ära, vaid jääb samasse kohta või olekusse.",
+        "Äraminekut väljendavate tegusõnade gehen ja fahren vastandina näitab bleiben paigalejäämist.",
+        "Väga sage väljend on Ich bleibe zu Hause."
       ],
       "examples": [
         {
@@ -3475,37 +3437,37 @@ const A1_WORDS = [
         },
         {
           "de": "Wir bleiben noch eine Stunde.",
-          "lv": "me jääme veel üheks tunniks."
+          "lv": "Me jääme veel üheks tunniks."
         },
         {
           "de": "Ich gehe nach Hause.",
-          "lv": "ma jään koju."
+          "lv": "Ma lähen koju."
         }
       ],
       "comparison": [
         {
           "word": "bleiben",
           "meaning": "jääma",
-          "example": "Ich bleibe hier."
+          "example": "Ich bleibe hier. – Ma jään siia."
         },
         {
           "word": "gehen",
-          "meaning": "minema / jalgsi ära minema",
-          "example": "Ich gehe nach Hause."
+          "meaning": "minema / jalgsi liikuma",
+          "example": "Ich gehe nach Hause. – Ma lähen koju."
         },
         {
           "word": "fahren",
-          "meaning": "sõitma / sõidukiga liikuma",
-          "example": "Ich fahre nach Hause."
+          "meaning": "sõitma",
+          "example": "Ich fahre nach Hause. – Ma sõidan koju."
         },
         {
           "word": "warten",
           "meaning": "ootama",
-          "example": "Ich warte hier."
+          "example": "Ich warte hier. – Ma ootan siin."
         }
       ],
       "tip": {
-        "text": "Pea meeles: ei lähe ära → bleiben; läheb jalgsi ära → gehen."
+        "text": "Pea meeles: ei lähe ära → bleiben; läheb ära → gehen või fahren."
       },
       "important": [
         "bleiben tähendab jääma, mitte ootama.",
@@ -3515,40 +3477,16 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "bleiben"
-          ],
-          "purple": [
-            "jäämist",
-            "ei lähe ära"
-          ],
-          "red": [
-            "gehen",
-            "fahren"
           ]
         },
         "examples": [
           {
-            "de": {
-              "blue": [
-                "bleibe"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jään"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
-            "de": {
-              "blue": [
-                "Bleib"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jää"
-              ]
-            }
+            "de": {},
+            "lv": {}
           },
           {
             "de": {
@@ -3556,23 +3494,11 @@ const A1_WORDS = [
                 "bleiben"
               ]
             },
-            "lv": {
-              "purple": [
-                "jääme"
-              ]
-            }
+            "lv": {}
           },
           {
-            "de": {
-              "red": [
-                "gehe"
-              ]
-            },
-            "lv": {
-              "red": [
-                "jään"
-              ]
-            }
+            "de": {},
+            "lv": {}
           }
         ],
         "comparison": [
@@ -3582,16 +3508,8 @@ const A1_WORDS = [
                 "bleiben"
               ]
             },
-            "meaning": {
-              "purple": [
-                "jääma"
-              ]
-            },
-            "example": {
-              "blue": [
-                "bleibe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -3599,17 +3517,8 @@ const A1_WORDS = [
                 "gehen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "minema",
-                "ära minema"
-              ]
-            },
-            "example": {
-              "red": [
-                "gehe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -3617,17 +3526,8 @@ const A1_WORDS = [
                 "fahren"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sõitma",
-                "sõitma"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "fahre"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -3635,52 +3535,16 @@ const A1_WORDS = [
                 "warten"
               ]
             },
-            "meaning": {
-              "purple": [
-                "ootama"
-              ]
-            },
-            "example": {
-              "green": [
-                "warte"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "bleiben"
-            ],
-            "purple": [
-              "ei lähe ära"
-            ],
-            "red": [
-              "gehen"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "bleiben"
-            ],
-            "purple": [
-              "jääma"
-            ],
-            "green": [
-              "bleiben",
-              "ootama"
-            ]
-          },
-          {
-            "blue": [
-              "bleibe"
-            ],
-            "green": [
-              "warte"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -3742,18 +3606,18 @@ const A1_WORDS = [
   },
   {
     "de": "bringen",
-    "lv": "tooma • viima",
+    "lv": "tooma • viima • kohale toimetama",
     "level": "A1",
     "study": {
       "id": "a1-bringen",
       "layout": "standardStudy",
-      "translation": "tooma",
+      "translation": "tooma • viima • kohale toimetama",
       "explanation": [
-        "Põhiidee: bringen tähendab midagi kellelegi tooma, viima või toimetama.",
-        "bringen kasutatakse, kui midagi viiakse teise kohta või teise inimese juurde.",
-        "See ei ole sama mis nehmen, sest nehmen tähendab endale võtma.",
-        "holen tähendab järele minema ja tooma või võtma.",
-        "Tõlkimist määrab kontekst."
+        "Põhiidee: bringen tähendab eelkõige millegi toimetamist teise inimese juurde või kindlasse kohta.",
+        "Eesti keeles võib bringen olla eri kontekstides erineva vastega.",
+        "Kõige sagedamini tähendab see „tooma”.",
+        "Olenevalt olukorrast võib see tähendada ka „viima” või „kohale toimetama”.",
+        "Täpne tõlge sõltub kontekstist."
       ],
       "examples": [
         {
@@ -3776,23 +3640,23 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "bringen",
-          "meaning": "tooma / viima / kohale toimetama",
-          "example": "Ich bringe dir ein Buch. – Bring mir Wasser."
+          "meaning": "tooma",
+          "example": "Ich bringe dir ein Buch. – Ma toon sulle raamatu."
+        },
+        {
+          "word": "bringen",
+          "meaning": "ära viima",
+          "example": "Ich bringe das Paket zur Post. – Ma viin paki postkontorisse."
         },
         {
           "word": "bringen",
           "meaning": "viima",
-          "example": "Ich bringe das Paket zur Post. – Ich nehme das Buch."
-        },
-        {
-          "word": "bringen",
-          "meaning": "viima (sõidukiga)",
-          "example": "Ich bringe die Kinder zur Schule. – Ich hole Wasser."
+          "example": "Ich bringe die Kinder zur Schule. – Ma viin lapsed kooli."
         },
         {
           "word": "bringen",
           "meaning": "kohale toimetama",
-          "example": "Ich bringe dir ein Buch. – Bringst du Brot mit?"
+          "example": "Ich bringe dir ein Buch. – Ma toimetan sulle raamatu kohale."
         },
         {
           "word": "nehmen",
@@ -3801,26 +3665,17 @@ const A1_WORDS = [
         }
       ],
       "tip": {
-        "text": "Pea meeles: viib kellegi juurde → bringen; võtab endale → nehmen."
+        "text": "Kui ese jõuab teise inimese juurde või teise kohta, kasutatakse saksa keeles väga sageli verbi bringen."
       },
       "important": [
-        "bringen näitab suunda kellegi juurde või mingisse kohta.",
-        "nehmen tähendab võtma, aga mitte tingimata kellelegi teisele kohale toimetama.",
-        "Eesti keeles sõltub tõlge kontekstist."
+        "nehmen tähendab võtma.",
+        "bringen tähendab kohale toimetama.",
+        "Eestikeelne tõlge sõltub kontekstist."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "bringen"
-          ],
-          "purple": [
-            "tooma",
-            "viima",
-            "toimetama"
-          ],
-          "red": [
-            "nehmen",
-            "holen"
           ]
         },
         "examples": [
@@ -3828,73 +3683,25 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "bringe"
-              ],
-              "yellow": [
-                "Ich"
               ]
             },
-            "lv": {
-              "purple": [
-                "toon"
-              ],
-              "yellow": [
-                "toon"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
                 "bringe"
-              ],
-              "green": [
-                "Ich"
               ]
             },
-            "lv": {
-              "purple": [
-                "viin"
-              ],
-              "green": [
-                "viin"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
                 "bringe"
-              ],
-              "yellow": [
-                "Ich"
               ]
             },
-            "lv": {
-              "purple": [
-                "viin"
-              ],
-              "yellow": [
-                "viin"
-              ]
-            }
-          },
-          {
-            "de": {
-              "red": [
-                "nehme"
-              ],
-              "yellow": [
-                "Buch"
-              ]
-            },
-            "lv": {
-              "red": [
-                "võtan"
-              ],
-              "yellow": [
-                "raamatu"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -3904,18 +3711,8 @@ const A1_WORDS = [
                 "bringen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "tooma",
-                "viima",
-                "kohale toimetama"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Bring"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -3923,17 +3720,8 @@ const A1_WORDS = [
                 "bringen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "viima",
-                "viima"
-              ]
-            },
-            "example": {
-              "red": [
-                "nehme"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -3941,17 +3729,8 @@ const A1_WORDS = [
                 "bringen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "viima",
-                "viima"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "hole"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -3959,50 +3738,26 @@ const A1_WORDS = [
                 "bringen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "kohale",
-                "kohale"
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "nehmen"
               ]
             },
-            "example": {
-              "green": [
-                "mit"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "bringen"
-            ],
-            "purple": [
-              "viib kellegi juurde"
-            ],
-            "red": [
-              "nehmen",
-              "võtab endale"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "bringen"
-            ],
-            "purple": [
-              "suunda kellegi juurde"
-            ]
-          },
-          {
-            "red": [
-              "nehmen"
-            ],
-            "blue": [
-              "nehmen"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -4106,75 +3861,69 @@ const A1_WORDS = [
   },
   {
     "de": "da",
-    "lv": "seal",
+    "lv": "seal • siin",
     "level": "A1",
     "study": {
       "id": "a1-da",
       "layout": "standardStudy",
-      "translation": "seal",
+      "translation": "seal • siin",
       "explanation": [
-        "Põhiidee: da tähendab A1 tasemel kõige sagedamini seal.",
-        "da osutab kohale või viitab millelegi juba mainitule.",
-        "Olenevalt olukorrast võib seda tõlkida ka kui siin või seal.",
-        "A1 tasemel õpime sõna da peamiselt üldise kohamäärsõnana."
+        "Põhiidee: da tähendab A1-tasemel kõige sagedamini „seal” või kontekstist sõltuvalt „siin”.",
+        "See osutab kohale või viitab millelegi juba mainitule.",
+        "hier tähendab konkreetselt „siin” ja dort kaugemal asuvat „seal”.",
+        "da ei ole sama mis dann, mis tähendab „siis”."
       ],
       "examples": [
         {
           "de": "Da ist mein Auto.",
-          "lv": "seal on minu auto."
+          "lv": "Seal on minu auto."
         },
         {
           "de": "Ich war da.",
-          "lv": "ma olin seal."
+          "lv": "Ma olin seal."
         },
         {
           "de": "Da kommt er.",
-          "lv": "seal ta tuleb."
+          "lv": "Sealt ta tuleb."
         },
         {
           "de": "Komm mal da her!",
-          "lv": "tule siia!"
+          "lv": "Tule siia!"
         }
       ],
       "comparison": [
         {
           "word": "da",
-          "meaning": "seal • siin • siinsamas (üldiselt)",
-          "example": "Da ist mein Auto."
+          "meaning": "seal / siin (üldiselt)",
+          "example": "Da ist mein Auto. – Seal on minu auto."
         },
         {
           "word": "hier",
-          "meaning": "siin (kindlas kohas)",
-          "example": "Hier ist mein Auto."
+          "meaning": "siin",
+          "example": "Hier ist mein Auto. – Siin on minu auto."
         },
         {
           "word": "dort",
           "meaning": "seal (kaugemal)",
-          "example": "Dort ist mein Auto."
+          "example": "Dort ist mein Auto. – Seal on minu auto."
         },
         {
           "word": "dann",
           "meaning": "siis",
-          "example": "Dann gehen wir nach Hause."
+          "example": "Dann gehen wir nach Hause. – Siis läheme koju."
         }
       ],
       "tip": {
-        "text": "Pea meeles: üldine seal/siin → da."
+        "text": "Pea meeles: üldine koht → da; konkreetne „siin” → hier; kaugem „seal” → dort."
       },
+      "important": [
+        "da on üldine kohamäärsõna.",
+        "da ja dann on eri sõnad."
+      ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "da"
-          ],
-          "purple": [
-            "seal"
-          ],
-          "green": [
-            "siin",
-            "siin"
-          ],
-          "yellow": [
-            "kohale"
           ]
         },
         "examples": [
@@ -4184,11 +3933,7 @@ const A1_WORDS = [
                 "Da"
               ]
             },
-            "lv": {
-              "purple": [
-                "seal"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4196,11 +3941,7 @@ const A1_WORDS = [
                 "da"
               ]
             },
-            "lv": {
-              "purple": [
-                "seal"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4208,11 +3949,7 @@ const A1_WORDS = [
                 "Da"
               ]
             },
-            "lv": {
-              "green": [
-                "seal"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4220,11 +3957,7 @@ const A1_WORDS = [
                 "da"
               ]
             },
-            "lv": {
-              "green": [
-                "siia"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -4234,17 +3967,8 @@ const A1_WORDS = [
                 "da"
               ]
             },
-            "meaning": {
-              "purple": [
-                "siin",
-                "siin"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Da"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -4252,16 +3976,8 @@ const A1_WORDS = [
                 "hier"
               ]
             },
-            "meaning": {
-              "purple": [
-                "siin"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Hier"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -4269,16 +3985,8 @@ const A1_WORDS = [
                 "dort"
               ]
             },
-            "meaning": {
-              "purple": [
-                "seal"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dort"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -4286,82 +3994,18 @@ const A1_WORDS = [
                 "dann"
               ]
             },
-            "meaning": {
-              "purple": [
-                "siis"
-              ]
-            },
-            "example": {
-              "red": [
-                "Dann"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "da"
-            ],
-            "purple": [
-              "seal"
-            ],
-            "green": [
-              "siin"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "da"
-            ],
-            "purple": [
-              "kohasõna"
-            ]
-          },
-          {
-            "yellow": [
-              "hier"
-            ],
-            "red": [
-              "dort"
-            ],
-            "green": [
-              "siin"
-            ],
-            "purple": [
-              "seal"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "accents": {
-        "blue": [
-          "da",
-          "Da"
-        ],
-        "purple": [
-          "seal",
-          "Seal"
-        ],
-        "green": [
-          "siin",
-          "Siin",
-          "siin"
-        ],
-        "yellow": [
-          "hier"
-        ],
-        "red": [
-          "dort",
-          "dann"
-        ]
-      },
-      "important": [
-        "da on üldine kohasõna.",
-        "hier on konkreetne “siin”, dort on kaugem “seal”."
-      ]
+      }
     }
   },
   {

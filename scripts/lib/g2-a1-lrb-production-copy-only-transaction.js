@@ -10,6 +10,7 @@ const {
   productionEntrySha256,
   deExampleSequence,
 } = require("./g2-a1-lrb-production-atomic-card");
+const { validateProductionTargetAliasGate } = require("./g2-a1-lrb-production-target-alias");
 
 function sha256Buffer(buf) {
   return crypto.createHash("sha256").update(buf).digest("hex");
@@ -103,6 +104,11 @@ function validatePendingWritesByFile(
   }
 
   const errors = [];
+  const aliasGate = validateProductionTargetAliasGate(atomicCards);
+  if (!aliasGate.pass) {
+    errors.push(...aliasGate.errors);
+  }
+
   const dataRels = rels.filter((r) => r.startsWith("data/"));
   for (const dataRel of dataRels) {
     const wwwRel = dataRel.replace(/^data\//, "www/data/");

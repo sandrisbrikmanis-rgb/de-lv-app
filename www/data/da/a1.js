@@ -7495,17 +7495,17 @@ const A1_WORDS = [
   },
   {
     "de": "gleich",
-    "lv": "Straks • Lige",
+    "lv": "straks • ens",
     "level": "A1",
     "study": {
       "id": "a1-gleich",
       "layout": "standardStudy",
-      "translation": "Straks • Lige",
+      "translation": "straks • ens",
       "explanation": [
-        "Hovedidé: gleich betyder midlertidigt umiddelbart, sammenlignende betyder lige.",
-        "Når det kommer til tiden, gleich = straks/om et øjeblik (Ich komme gleich. = Jeg kommer med det samme.).",
-        "Når det kommer til sammenligning, er gleich = den samme/den samme (die gleiche Farbe = den samme farve).",
-        "Gleich kan også bruges som præposition med dativ, der betyder ligesom (gleich mir = som mig)."
+        "gleich har to hovedbetydninger: „straks / om lidt“ og „ens / den samme“.",
+        "Om tid: Ich komme gleich. = Jeg kommer straks.",
+        "Ved sammenligning: die gleiche Farbe = den samme farve.",
+        "Konteksten viser betydningen."
       ],
       "examples": [
         {
@@ -7534,18 +7534,17 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Om et stykke tid (om et øjeblik) → nu.",
-        "Til sammenligning (samme) → samme."
+        "Om tid → straks / om lidt.",
+        "Ved sammenligning → ens / den samme."
       ],
       "important": [
-        "gleich = umiddelbart (tid) ELLER lig (sammenligning).",
-        "Gud! = vi ses snart! — en almindelig afskedssætning."
+        "gleich betyder enten „straks“ eller „ens“.",
+        "Bis gleich! = „Vi ses om lidt!“"
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Hovedidé",
-            "Hovedidé"
+          "blue": [
+            "gleich"
           ]
         },
         "examples": [
@@ -7555,23 +7554,7 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleiche"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "har"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7579,23 +7562,7 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {
-              "purple": [
-                "Maden"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "gleich"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Begge"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -7603,44 +7570,40 @@ const A1_WORDS = [
                 "gleich"
               ]
             },
-            "lv": {
-              "purple": [
-                "ses"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "gleich"
               ]
             },
-            "lv": {
-              "purple": [
-                "har"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
               ]
-            }
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "stykke"
-            ]
-          },
-          {
-            "green": [
-              "stykke"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "gleich",
-              "gleich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -10884,17 +10847,17 @@ const A1_WORDS = [
   },
   {
     "de": "können",
-    "lv": "Kunne • Kende",
+    "lv": "kunne",
     "level": "A1",
     "study": {
       "id": "a1-können",
       "layout": "standardStudy",
-      "translation": "Kunne • Kende",
+      "translation": "kunne",
       "explanation": [
-        "Hovedidé: können betyder at kunne eller vide, hvordan man gør noget.",
-        "Når det kommer til evner eller færdigheder, siger danske ofte at vide.",
-        "Når det kommer til mulighed, siges det ofte at kunne.",
-        "Können er et modalt verbum, så det andet verbum kommer normalt til sidst."
+        "können betyder at kunne eller være i stand til noget.",
+        "Det bruges om både evne og mulighed.",
+        "können er et modalverbum, så det andet verbum normalt står sidst.",
+        "På dansk gengives det normalt med „kunne“."
       ],
       "examples": [
         {
@@ -10917,7 +10880,7 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "können",
-          "meaning": "Kunne/kende",
+          "meaning": "kunne",
           "example": "Ich kann schwimmen. = Jeg kan svømme."
         },
         {
@@ -10927,7 +10890,7 @@ const A1_WORDS = [
         },
         {
           "word": "müssen",
-          "meaning": "Behøver/være ja-",
+          "meaning": "skulle / være nødt til",
           "example": "Ich muss lernen. = Jeg skal lære."
         },
         {
@@ -10940,40 +10903,27 @@ const A1_WORDS = [
         "text": "Husk: dygtighed/evne → können."
       },
       "important": [
-        "können er ikke det samme som dürfen. können = at kunne/kende, dürfen = at få lov.",
+        "können = kunne; dürfen = måtte / have lov.",
         "I en sætning med können kommer det andet verbum ofte til sidst: Ich kann schwimmen."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "man",
-            "man"
+          "blue": [
+            "können"
           ]
         },
         "examples": [
           {
             "de": {
-              "blue": [
-                "kann"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "kan"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "blue": [
-                "Kannst"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "Kan"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -10981,23 +10931,13 @@ const A1_WORDS = [
                 "können"
               ]
             },
-            "lv": {
-              "purple": [
-                "kan"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "blue": [
-                "kann"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "Han"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -11007,20 +10947,8 @@ const A1_WORDS = [
                 "können"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Kunne/kende",
-                "Kunne/kende"
-              ]
-            },
-            "example": {
-              "blue": [
-                "kann"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -11028,17 +10956,8 @@ const A1_WORDS = [
                 "dürfen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "lov"
-              ]
-            },
-            "example": {
-              "red": [
-                "Darf",
-                "Darf"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -11046,17 +10965,8 @@ const A1_WORDS = [
                 "müssen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Behøver/være"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "muss",
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -11064,36 +10974,16 @@ const A1_WORDS = [
                 "wissen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "vide"
-              ]
-            },
-            "example": {
-              "green": [
-                "weiß",
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "können"
-            ],
-            "purple": [
-              "Husk",
-              "Husk"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "können"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -11577,22 +11467,22 @@ const A1_WORDS = [
     "de": "Laden",
     "de_article": "der",
     "de_plural": "die Läden",
-    "lv": "Butik",
+    "lv": "butik",
     "level": "A1",
     "study": {
       "id": "a1-laden-study",
       "layout": "standardStudy",
-      "translation": "Butik",
+      "translation": "butik",
       "explanation": [
-        "Hovedidé: der Laden er stort, og artiklen der er et substantiv - en lille butik.",
-        "Laden er et verbum med små bogstaver - at indlæse eller oplade.",
-        "Der Laden refererer ofte til en lille butik i hverdagen (im Laden einkaufen = at handle i en butik).",
+        "der Laden med stort L er et navneord: en mindre butik.",
+        "laden med lille l er et verbum: at læsse eller oplade.",
+        "im Laden einkaufen = at handle i en butik.",
         "Flertal: die Läden."
       ],
       "examples": [
         {
           "de": "Ich gehe in den Laden.",
-          "lv": "Jeg går i butikken"
+          "lv": "Jeg går ind i butikken."
         },
         {
           "de": "Der Laden ist geschlossen.",
@@ -11608,18 +11498,18 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "der Laden ar lielo burtu — lietvards (veikals).",
-        "små bogstaver laden - verbum (at indlæse/oplade)."
+        "der Laden → navneord (butik).",
+        "laden → verbum (at læsse / oplade)."
       ],
       "important": [
-        "der Laden = butik (substantiv).",
-        "laden = loade/charge (udsagnsord).",
+        "der Laden = butik (navneord).",
+        "laden = at læsse eller oplade (verbum).",
         "Flertal: die Läden."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Hovedidé"
+          "blue": [
+            "Laden"
           ]
         },
         "examples": [
@@ -11629,11 +11519,7 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11641,11 +11527,7 @@ const A1_WORDS = [
                 "Laden"
               ]
             },
-            "lv": {
-              "purple": [
-                "Butikken"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11653,53 +11535,25 @@ const A1_WORDS = [
                 "Läden"
               ]
             },
-            "lv": {
-              "purple": [
-                "Her"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "laden"
               ]
             },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "der Laden"
-            ]
-          },
-          {
-            "green": [
-              "laden"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "der Laden"
-            ]
-          },
-          {
-            "green": [
-              "laden"
-            ]
-          },
-          {
-            "blue": [
-              "die Läden"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -11715,17 +11569,17 @@ const A1_WORDS = [
     "de": "Land",
     "de_article": "das",
     "de_plural": "die Länder",
-    "lv": "Land • Land",
+    "lv": "land • landdistrikt",
     "level": "A1",
     "study": {
       "id": "a1-land",
       "layout": "standardStudy",
-      "translation": "Land • Land",
+      "translation": "land • landdistrikt",
       "explanation": [
-        "Hovedidé: das Land betyder oftest land eller land uden for byen.",
-        "Hvis det drejer sig om Tyskland, Letland eller andet territorium med grænser, oversættes det til land.",
-        "Når du taler om landskabet eller landet i modsætning til byen, oversæt som landskabet eller landet.",
-        "Konteksten afgør, om vi mener land, landskab eller land."
+        "das Land kan betyde et land eller landdistriktet uden for byen.",
+        "Ved et territorium med grænser betyder det „land“.",
+        "I modsætning til byen betyder auf dem Land „på landet“.",
+        "Konteksten afgør betydningen."
       ],
       "examples": [
         {
@@ -11738,7 +11592,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wir fahren aufs Land.",
-          "lv": "Vi går på landet."
+          "lv": "Vi kører ud på landet."
         },
         {
           "de": "Auf dem Land ist es ruhig.",
@@ -11748,39 +11602,36 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "das Land",
-          "meaning": "Land / land / landskab",
-          "example": "Tyskland er et land."
+          "meaning": "land / landdistrikt",
+          "example": "Deutschland ist ein Land. – Tyskland er et land."
         },
         {
           "word": "die Stadt",
-          "meaning": "By",
-          "example": "Jeg bor i byen."
+          "meaning": "by",
+          "example": "Ich wohne in der Stadt. – Jeg bor i byen."
         },
         {
           "word": "das Dorf",
-          "meaning": "Landsby",
-          "example": "Han bor i en landsby."
+          "meaning": "landsby",
+          "example": "Er wohnt in einem Dorf. – Han bor i en landsby."
         },
         {
           "word": "die Erde",
           "meaning": "Jorden / planeten",
-          "example": "Jorden er rund."
+          "example": "Die Erde ist rund. – Jorden er rund."
         }
       ],
       "tip": {
-        "text": "Husk: land → das Land; by → die Stadt."
+        "text": "Land som stat → das Land; området uden for byen → auf dem Land."
       },
       "important": [
-        "aufs Land betyder 'til landet', ikke 'til landet'.",
+        "aufs Land betyder „ud på landet“, ikke „til et land“.",
         "das Land er ikke det samme som die Stadt."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé",
-            "Hovedidé"
+          "blue": [
+            "Land"
           ]
         },
         "examples": [
@@ -11788,16 +11639,9 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "Land"
-              ],
-              "green": [
-                "Deutschland"
               ]
             },
-            "lv": {
-              "purple": [
-                "Tyskland"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11805,11 +11649,7 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {
-              "purple": [
-                "Jeg"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11817,11 +11657,7 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {
-              "purple": [
-                "går"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -11829,11 +11665,7 @@ const A1_WORDS = [
                 "Land"
               ]
             },
-            "lv": {
-              "purple": [
-                "Der"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -11843,18 +11675,8 @@ const A1_WORDS = [
                 "das Land"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Land",
-                "Land",
-                "Land"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Land"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -11863,11 +11685,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {},
-            "example": {
-              "yellow": [
-                "Stadt"
-              ]
-            }
+            "example": {}
           },
           {
             "word": {
@@ -11875,16 +11693,8 @@ const A1_WORDS = [
                 "das Dorf"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Landsby"
-              ]
-            },
-            "example": {
-              "green": [
-                "Dorf"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -11892,38 +11702,16 @@ const A1_WORDS = [
                 "die Erde"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Jorden"
-              ]
-            },
-            "example": {
-              "red": [
-                "Erde"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "das Land"
-            ],
-            "purple": [
-              "Husk"
-            ],
-            "yellow": [
-              "die Stadt",
-              "Husk"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "aufs"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }

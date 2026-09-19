@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:42:38.118Z",
+  "authorized_apply_base_head": "169723c4de7e84c0fbc24787e2287afab5310eea",
+  "artifacts": [
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-apply/A1-LRB-001-103-PRODUCTION-COPY-ONLY-APPLY-RESULT.json",
+      "sha256": "874fe379b94729e21535689015a115bc6806a7e606829ff0bedbec29056a4963"
+    },
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-apply/A1-LRB-001-103-PRODUCTION-COPY-ONLY-APPLY-PROOF.json",
+      "sha256": "e75204623f9203f9077f5edef77d0c15dc54f3f9180a8231607604226ad8e87f"
+    },
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-apply/A1-LRB-001-103-PRODUCTION-COPY-ONLY-POST-APPLY-VERIFICATION.json",
+      "sha256": "a82bbe6bfbbada9d9bdae3f93e97d7ddf833c088e0af5fe238228fd8b377b05c"
+    },
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-apply/A1-LRB-001-103-LIVE-APPLY-RUN-SNAPSHOT.json",
+      "sha256": "bd7c54dce3adbf4ed80ebd5fbf761472ae60bb312d2177d5f919893f52cf3391"
+    },
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-apply/A1-LRB-001-103-PRODUCTION-TARGET-ALIAS-RECONCILIATION.json",
+      "sha256": "402233dbf123c6fdbf1d3e3f424b306a8c8e2f5f61d7af9902a9cf62921ec2d4"
+    }
+  ],
+  "apply_proof_sha256": "e75204623f9203f9077f5edef77d0c15dc54f3f9180a8231607604226ad8e87f",
+  "verification_sha256": "a82bbe6bfbbada9d9bdae3f93e97d7ddf833c088e0af5fe238228fd8b377b05c"
+}

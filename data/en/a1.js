@@ -33,17 +33,16 @@ const A1_WORDS = [
   },
   {
     "de": "sprechen",
-    "lv": "To speak",
+    "lv": "to speak • to talk",
     "level": "A1",
     "study": {
       "id": "a1-sprechen-study",
       "layout": "standardStudy",
-      "translation": "To speak",
+      "translation": "to speak • to talk",
       "explanation": [
-        "Main idea: To speak, converse or use language.",
-        "Sprechen mainly means: to speak or converse.",
-        "Often characterised by: language/conversation.",
-        "Sprechen describes speaking or using language."
+        "sprechen means to speak, talk or use a language.",
+        "It can describe a language ability or a conversation.",
+        "The subject determines the form: ich spreche, sie spricht."
       ],
       "examples": [
         {
@@ -56,51 +55,45 @@ const A1_WORDS = [
         },
         {
           "de": "Sie spricht mit ihrer Lehrerin.",
-          "lv": "I speak German"
+          "lv": "She is speaking with her teacher."
         }
       ],
       "comparison": [
         {
           "word": "sprechen",
-          "meaning": "Speak (process, language)",
+          "meaning": "to speak / talk",
           "example": "Wir sprechen über die Arbeit. – We are talking about work."
         },
         {
           "word": "sagen",
-          "meaning": "Tell (a specific text)",
+          "meaning": "to say / tell a specific message",
           "example": "Sag mir die Wahrheit. – Tell me the truth."
         }
       ],
       "tip": [
-        "sprechen = to speak",
-        "Uses sprechen when the context fits this meaning."
+        "A language or conversation → sprechen.",
+        "A specific statement or message → sagen."
       ],
       "important": [
-        "sprechen = to speak.",
-        "To speak, converse or use language."
+        "sprechen describes speaking or a conversation.",
+        "It is not interchangeable with sagen in every context."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "to speak"
+          "blue": [
+            "sprechen"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "spreche"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "speak"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "sprechen"
               ]
             },
@@ -108,46 +101,54 @@ const A1_WORDS = [
           },
           {
             "de": {
+              "blue": []
+            },
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
               "green": [
-                "spricht"
+                "sprechen"
               ]
             },
-            "lv": {
-              "purple": [
-                "speak"
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "sagen"
               ]
-            }
+            },
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "to speak"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "sprechen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
   },
   {
     "de": "klein",
-    "lv": "Small",
+    "lv": "small • little",
     "level": "A1",
     "study": {
       "id": "a1-klein-study",
       "layout": "standardStudy",
-      "translation": "Small",
+      "translation": "small • little",
       "explanation": [
-        "Main Idea: Small in sise or scope.",
-        "Klein mainly means: small sise.",
-        "Often describes: the sise of a thing/person."
+        "klein means “small” or “little” in size, extent or age.",
+        "It can describe a room, object, child or other person.",
+        "The inflected form changes with the noun: eine kleine Tasche."
       ],
       "examples": [
         {
@@ -156,25 +157,25 @@ const A1_WORDS = [
         },
         {
           "de": "Das Kind ist noch klein.",
-          "lv": "The room is small."
+          "lv": "The child is still little."
         },
         {
           "de": "Ich habe eine kleine Tasche.",
-          "lv": "The child is still small."
+          "lv": "I have a small bag."
         }
       ],
       "tip": [
-        "klein = small",
-        "Uses klein when the context suits this meaning."
+        "klein = small / little.",
+        "Pay attention to adjective endings: klein, kleine, kleinen."
       ],
       "important": [
-        "klein = small in sise.",
-        "klein = small."
+        "klein describes small size, extent or young age.",
+        "It does not mean “a small amount”; German often uses wenig for that."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main"
+          "blue": [
+            "klein"
           ]
         },
         "examples": [
@@ -184,11 +185,7 @@ const A1_WORDS = [
                 "klein"
               ]
             },
-            "lv": {
-              "purple": [
-                "The"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -196,38 +193,24 @@ const A1_WORDS = [
                 "klein"
               ]
             },
-            "lv": {
-              "purple": [
-                "The"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "kleine"
+                "klein"
               ]
             },
-            "lv": {
-              "purple": [
-                "The"
-              ]
-            }
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "small"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "klein"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -260,45 +243,59 @@ const A1_WORDS = [
   },
   {
     "de": "an",
-    "lv": "At • To • Present",
+    "lv": "at • on • by",
     "level": "A1",
     "study": {
       "id": "a1-an",
       "layout": "standardStudy",
-      "translation": "At • To • Present",
-      "explanation": "Used when something is near a wall, window, door, river, seashore or other edge/surface.",
+      "translation": "at • on • by",
+      "explanation": [
+        "an is used for contact with or proximity to a vertical surface, edge, boundary or body of water."
+      ],
       "examples": [
         {
           "de": "an der Wand",
-          "lv": "On the wall / on the wall"
+          "lv": "on the wall"
         },
         {
           "de": "am Fenster",
-          "lv": "At the window"
+          "lv": "at the window"
         },
         {
           "de": "am Meer",
-          "lv": "By the sea"
+          "lv": "by the sea"
         }
       ],
       "comparison": [
         {
           "word": "an",
-          "meaning": "At the surface or edge",
-          "example": "an der Wand – At the wall"
+          "meaning": "at/on a surface or edge",
+          "example": "an der Wand – on the wall"
         },
         {
           "word": "auf",
-          "meaning": "On a horizontal surface",
-          "example": "auf dem Tisch – On the table"
+          "meaning": "on a horizontal surface",
+          "example": "auf dem Tisch – on the table"
         },
         {
           "word": "bei",
-          "meaning": "To a person or place",
-          "example": "beim Arzt – To the doctor"
+          "meaning": "at someone’s place or near a place",
+          "example": "beim Arzt – at the doctor’s"
         }
       ],
+      "tip": {
+        "text": "At a wall, window, edge or body of water → an."
+      },
+      "important": [
+        "an is not a general translation of every English “at”.",
+        "For a horizontal surface, German usually uses auf."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "an"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -306,36 +303,19 @@ const A1_WORDS = [
                 "an"
               ]
             },
-            "lv": {
-              "purple": [
-                "the",
-                "the"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "blue": [
-                "am"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "the"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "blue": [
-                "am"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "the"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -345,14 +325,8 @@ const A1_WORDS = [
                 "an"
               ]
             },
-            "example": {
-              "green": [
-                "an"
-              ],
-              "purple": [
-                "der"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -360,14 +334,8 @@ const A1_WORDS = [
                 "auf"
               ]
             },
-            "example": {
-              "yellow": [
-                "auf"
-              ],
-              "purple": [
-                "auf"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -375,46 +343,18 @@ const A1_WORDS = [
                 "bei"
               ]
             },
-            "example": {
-              "red": [
-                "beim"
-              ],
-              "purple": [
-                "beim"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "an"
-            ],
-            "purple": [
-              "by"
-            ],
-            "green": [
-              "wall",
-              "window",
-              "edge"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "not"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "tip": {
-        "text": "Remember: by the wall/window/edge → an."
-      },
-      "important": [
-        "an is not just any 'at'. This often means next to a surface, wall, window or edge.",
-        "Auf is usually used on a horizontal surface."
-      ]
+      }
     }
   },
   {
@@ -441,50 +381,64 @@ const A1_WORDS = [
   },
   {
     "de": "ab",
-    "lv": "From",
+    "lv": "from • starting at",
     "level": "A1",
     "study": {
       "id": "a1-ab",
       "layout": "standardStudy",
-      "translation": "From",
-      "explanation": "Used when something starts from a specific time, place or point. Often means \"starting from\".",
+      "translation": "from • starting at",
+      "explanation": [
+        "ab marks the starting point of a period, route or applicability and often means “from” or “starting at”."
+      ],
       "examples": [
         {
           "de": "ab heute",
-          "lv": "From today",
+          "lv": "from today",
           "level": "A1"
         },
         {
           "de": "ab Montag",
-          "lv": "From Monday"
+          "lv": "from Monday"
         },
         {
           "de": "ab 8 Uhr",
-          "lv": "From 8"
+          "lv": "from 8 o’clock"
         },
         {
           "de": "ab Bahnhof",
-          "lv": "From the station"
+          "lv": "from the station"
         }
       ],
       "comparison": [
         {
           "word": "ab",
-          "meaning": "Starting from point/time",
-          "example": "ab Montag – From Monday"
+          "meaning": "from a starting point in time or place",
+          "example": "ab Montag – from Monday"
         },
         {
           "word": "von",
-          "meaning": "From someone/something • Origin",
-          "example": "von mir – From me"
+          "meaning": "from a person, source or point",
+          "example": "von mir – from me"
         },
         {
           "word": "aus",
-          "meaning": "Out from within",
-          "example": "aus dem Haus – From the house / out of the house"
+          "meaning": "out of / from inside",
+          "example": "aus dem Haus – out of the house"
         }
       ],
+      "tip": {
+        "text": "A starting point in time or place → ab."
+      },
+      "important": [
+        "ab marks when or where something starts.",
+        "For origin or movement out of something, von or aus is usually used."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ab"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -492,11 +446,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "From"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -504,11 +454,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "From"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -516,11 +462,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "From"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -528,11 +470,7 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "lv": {
-              "purple": [
-                "From"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -542,14 +480,8 @@ const A1_WORDS = [
                 "ab"
               ]
             },
-            "example": {
-              "green": [
-                "ab"
-              ],
-              "purple": [
-                "Montag"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -557,14 +489,8 @@ const A1_WORDS = [
                 "von"
               ]
             },
-            "example": {
-              "yellow": [
-                "von"
-              ],
-              "purple": [
-                "von"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -572,45 +498,18 @@ const A1_WORDS = [
                 "aus"
               ]
             },
-            "example": {
-              "blue": [
-                "aus"
-              ],
-              "purple": [
-                "aus"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "ab"
-            ],
-            "purple": [
-              "starting point"
-            ],
-            "green": [
-              "Remember",
-              "Remember"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "starting point"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "tip": {
-        "text": "Remember: starting point in time/place → ab."
-      },
-      "important": [
-        "ab shows the starting point in time or place.",
-        "If the thought originates or moves outward from within, von or aus is more often used."
-      ]
+      }
     }
   },
   {
@@ -634,48 +533,59 @@ const A1_WORDS = [
   },
   {
     "de": "aber",
-    "lv": "But",
+    "lv": "but • however",
     "level": "A1",
     "study": {
       "id": "a1-aber",
       "layout": "standardStudy",
-      "translation": "But",
-      "explanation": "Used to introduce a contrast or express an objection. Often means \"but\", \"however\" or \"but\".",
+      "translation": "but • however",
+      "explanation": [
+        "aber introduces a contrast or objection and usually means “but” or “however”."
+      ],
       "examples": [
         {
           "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
-          "lv": "I want to come along, but I don't have time."
+          "lv": "I would like to come along, but I do not have time."
         },
         {
           "de": "Das Essen war lecker, aber zu teuer.",
-          "lv": "The food was delicious but overpriced."
+          "lv": "The food was delicious, but too expensive."
         },
         {
           "de": "Er hat recht, aber ich sehe das anders.",
-          "lv": "He is right but i think otherwise."
+          "lv": "He is right, but I see it differently."
         }
       ],
       "comparison": [
         {
           "word": "aber",
-          "meaning": "Opposite • Objection • However",
-          "example": "Ich komme, aber später. – I will come, but later."
+          "meaning": "but / however",
+          "example": "Ich komme, aber später. – I am coming, but later."
         },
         {
           "word": "sondern",
-          "meaning": "not • but rather",
-          "example": "Ich wollte keinen Tee, sondern Kaffee. – I wanted not tea, but rather coffee."
+          "meaning": "but rather, after a negation",
+          "example": "Ich wollte keinen Tee, sondern Kaffee. – I did not want tea, but coffee."
         },
         {
           "word": "jedoch",
-          "meaning": "However",
-          "example": "Es ist kalt, jedoch sonnig. – It's cold, but sunny."
+          "meaning": "however",
+          "example": "Es ist kalt, jedoch sonnig. – It is cold, but sunny."
         }
       ],
       "tip": {
-        "text": "Remember: contrast/objection → aber."
+        "text": "A general contrast → aber; a correction after nicht/kein → sondern."
       },
+      "important": [
+        "aber expresses a contrast or objection.",
+        "For “not … but rather …”, German normally uses sondern."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "aber"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -683,11 +593,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "but"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -695,11 +601,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "but"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -707,11 +609,7 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "lv": {
-              "purple": [
-                "right"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -721,14 +619,8 @@ const A1_WORDS = [
                 "aber"
               ]
             },
-            "example": {
-              "green": [
-                "aber"
-              ],
-              "purple": [
-                "but"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -736,14 +628,8 @@ const A1_WORDS = [
                 "sondern"
               ]
             },
-            "example": {
-              "yellow": [
-                "sondern"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -751,42 +637,18 @@ const A1_WORDS = [
                 "jedoch"
               ]
             },
-            "example": {
-              "red": [
-                "jedoch"
-              ],
-              "purple": [
-                "ist"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "green": [
-              "aber"
-            ],
-            "purple": [
-              "contrast",
-              "objection"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "aber",
-              "aber",
-              "aber",
-              "aber"
-            ]
-          }
+          {},
+          {}
         ]
-      },
-      "important": [
-        "aber shows the opposite or opposition.",
-        "When the opposite is \"not..., but...\", sondern is usually used in German."
-      ]
+      }
     }
   },
   {
@@ -4755,19 +4617,17 @@ const A1_WORDS = [
   },
   {
     "de": "ein",
-    "lv": "Indefinite article • One • Someone",
+    "lv": "indefinite article • one",
     "level": "A1",
     "study": {
       "id": "a1-ein",
       "layout": "standardStudy",
-      "translation": "Indefinite article • One • Someone",
+      "translation": "indefinite article • one",
       "explanation": [
-        "Key point: ein is the indefinite article.",
-        "ein is the indefinite article for masculine and neuter nouns in the nominative case.",
-        "ein is used in the masculine gender: ein Mann.",
-        "ein is used in the neuter gender: ein Buch.",
-        "In the feminine gender, use: eine.",
-        "In the accusative case with masculine gender: einen."
+        "ein is the indefinite article for masculine and neuter nouns in the nominative.",
+        "Masculine: ein Mann; neuter: ein Buch.",
+        "The feminine form is eine.",
+        "The masculine accusative form is einen."
       ],
       "examples": [
         {
@@ -4776,7 +4636,7 @@ const A1_WORDS = [
         },
         {
           "de": "Ich habe ein Buch.",
-          "lv": "I have one book."
+          "lv": "I have a book."
         },
         {
           "de": "Er sucht einen Stift.",
@@ -4784,13 +4644,45 @@ const A1_WORDS = [
         },
         {
           "de": "Ein Kind spielt.",
-          "lv": "The child is playing."
+          "lv": "A child is playing."
+        }
+      ],
+      "comparison": [
+        {
+          "word": "ein Mann",
+          "meaning": "masculine nominative",
+          "example": "Ein Mann wartet. – A man is waiting."
+        },
+        {
+          "word": "eine Frau",
+          "meaning": "feminine nominative",
+          "example": "Eine Frau wartet. – A woman is waiting."
+        },
+        {
+          "word": "ein Buch",
+          "meaning": "neuter nominative",
+          "example": "Ich habe ein Buch. – I have a book."
+        },
+        {
+          "word": "einen Mann",
+          "meaning": "masculine accusative",
+          "example": "Ich sehe einen Mann. – I see a man."
         }
       ],
       "tip": {
-        "text": "Remember: non-specific one/someone → ein."
+        "text": "An unspecified person or thing → ein/eine; masculine accusative → einen."
       },
+      "important": [
+        "ein is an indefinite article, not a definite article.",
+        "For something already identified, der, die or das is often required.",
+        "Feminine: eine; masculine accusative: einen."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ein"
+          ]
+        },
         "examples": [
           {
             "de": {
@@ -4798,11 +4690,7 @@ const A1_WORDS = [
                 "Ein"
               ]
             },
-            "lv": {
-              "purple": [
-                "man"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -4810,114 +4698,72 @@ const A1_WORDS = [
                 "ein"
               ]
             },
-            "lv": {
-              "purple": [
-                "have"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "einen"
+                "ein"
               ]
             },
-            "lv": {
-              "purple": [
-                "looking"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Ein"
               ]
-            }
+            },
+            "lv": {}
           }
         ],
         "comparison": [
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ein Mann"
+              ]
+            },
+            "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "eine Frau"
+              ]
+            },
+            "meaning": {},
             "example": {}
           },
           {
-            "word": {},
+            "word": {
+              "green": [
+                "ein Buch"
+              ]
+            },
+            "meaning": {},
             "example": {}
           },
           {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
+            "word": {
+              "green": [
+                "einen Mann"
+              ]
+            },
+            "meaning": {},
             "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "ein"
-            ],
-            "purple": [
-              "Remember",
-              "someone"
-            ],
-            "green": [
-              "Remember"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "ein"
-            ],
-            "red": [
-              "definite article"
-            ]
-          },
-          {
-            "blue": [
-              "der",
-              "die",
-              "das"
-            ],
-            "green": [
-              "the"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
-      },
-      "important": [
-        "ein is not the definite article.",
-        "If the matter is already concretely known, der, die or das is often needed.",
-        "eine – feminine gender.",
-        "einen – accusative."
-      ],
-      "comparison": [
-        {
-          "word": "ein Mann",
-          "meaning": "masculine gender",
-          "example": "A man is waiting outside."
-        },
-        {
-          "word": "eine Frau",
-          "meaning": "feminine gender",
-          "example": "a woman"
-        },
-        {
-          "word": "ein Buch",
-          "meaning": "neuter gender",
-          "example": "I have a book."
-        },
-        {
-          "word": "einen Mann",
-          "meaning": "accusative",
-          "example": "a man"
-        }
-      ]
+      }
     }
   },
   {
@@ -4933,74 +4779,73 @@ const A1_WORDS = [
   {
     "de": "Eis",
     "de_article": "das",
-    "lv": "Ice • Ice cream",
+    "lv": "ice • ice cream",
     "level": "A1",
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "Ice • Ice cream",
+      "translation": "ice • ice cream",
       "explanation": [
-        "Main idea: das Eis can mean both ice and ice cream.",
-        "When it comes to cold frozen water, English usually says ice.",
-        "When it comes to food or dessert, das Eis very often means ice cream in everyday life.",
-        "The context usually tells you immediately which meaning is intended.",
-        "At A1 level, the most important phrases are ein Eis essen and Eis im Glas."
+        "das Eis can mean both frozen water and ice cream.",
+        "For frozen water, English says “ice”.",
+        "For the dessert, English says “ice cream”.",
+        "The context shows which meaning is intended."
       ],
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "I eat ice cream"
+          "lv": "I am eating an ice cream."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "Do you want ice cream"
+          "lv": "Would you like an ice cream?"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "In winter there is ice on the lake."
+          "lv": "In winter, there is ice on the lake."
         },
         {
           "de": "Das Eis ist kalt.",
-          "lv": "Ice is cold."
+          "lv": "The ice is cold."
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "I'll have chocolate ice cream."
+          "lv": "I’ll have a chocolate ice cream."
         }
       ],
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "Ice / ice cream",
-          "example": "I eat an ice cream. = Es ēdu saldējumu."
+          "meaning": "ice / ice cream",
+          "example": "Ich esse ein Eis. – I am eating an ice cream."
         },
         {
           "word": "der Schnee",
-          "meaning": "It will snow",
-          "example": "The snow is white. = Sniegs ir balts."
+          "meaning": "snow",
+          "example": "Der Schnee ist weiß. – The snow is white."
         },
         {
           "word": "kalt",
-          "meaning": "Cold",
-          "example": "The water is cold. = Ūdens ir auksts."
+          "meaning": "cold",
+          "example": "Das Wasser ist kalt. – The water is cold."
         },
         {
           "word": "das Dessert",
-          "meaning": "Dessert",
-          "example": "Ice cream is a dessert. = Saldējums ir deserts."
+          "meaning": "dessert",
+          "example": "Eis ist ein Dessert. – Ice cream is a dessert."
         }
       ],
       "tip": {
-        "text": "Remember: food → ice cream; winter/water → ice."
+        "text": "Food or dessert → ice cream; frozen water → ice."
       },
       "important": [
-        "In English, ice and ice cream are two different words, but in German, das Eis is often used for both.",
-        "Context is key: food means ice cream, cold surface or water means ice."
+        "English uses two words, “ice” and “ice cream”, while German often uses das Eis for both.",
+        "The context distinguishes the meanings."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "ice cream"
+          "blue": [
+            "Eis"
           ]
         },
         "examples": [
@@ -5010,11 +4855,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "ice cream"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5022,11 +4863,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "ice cream"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5034,11 +4871,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "winter"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5046,11 +4879,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "Ice"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5058,11 +4887,7 @@ const A1_WORDS = [
                 "Eis"
               ]
             },
-            "lv": {
-              "purple": [
-                "ice cream"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -5072,20 +4897,8 @@ const A1_WORDS = [
                 "das Eis"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Ice",
-                "Ice"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Eis"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5093,17 +4906,8 @@ const A1_WORDS = [
                 "der Schnee"
               ]
             },
-            "meaning": {
-              "purple": [
-                "will"
-              ]
-            },
-            "example": {
-              "green": [
-                "Schnee",
-                "Der"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5111,17 +4915,8 @@ const A1_WORDS = [
                 "kalt"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Cold"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "kalt",
-                "Das"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5129,41 +4924,16 @@ const A1_WORDS = [
                 "das Dessert"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Dessert"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Eis"
-              ],
-              "red": [
-                "Dessert"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "purple": [
-              "ice cream",
-              "Remember"
-            ],
-            "green": [
-              "food",
-              "Remember",
-              "water"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "ice cream",
-              "ice cream"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -5213,27 +4983,26 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "First • Only",
+    "lv": "only • not until • first",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "First • Only",
+      "translation": "only • not until • first",
       "explanation": [
-        "Key point: erst most often means only. However, in certain contexts, it can also mean first.",
-        "erst often indicates that something happens later than expected.",
-        "I'm only 18. — Man ir tikai 18 gadi.",
-        "It's only Monday. — Ir tikai pirmdiena.",
-        "Erst lernen, dann spielen. — Work first, then play."
+        "erst often means “only” or “not until” when a time, age or stage is later or lower than expected.",
+        "In a sequence, erst can mean “first”.",
+        "Ich bin erst 18. = I am only 18.",
+        "Erst lernen, dann spielen. = Study first, then play."
       ],
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
-          "lv": "Drink first, then drive."
+          "lv": "Study first, then play."
         },
         {
           "de": "Ich komme erst morgen.",
-          "lv": "I will not arrive until tomorrow."
+          "lv": "I am not coming until tomorrow."
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
@@ -5241,75 +5010,77 @@ const A1_WORDS = [
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "We only eat at eight."
+          "lv": "We are not eating until eight o’clock."
         }
       ],
       "comparison": [
         {
           "word": "erst",
-          "meaning": "First • Only",
-          "example": "Erst lernen, dann spielen. – Work first, then pause."
+          "meaning": "only / not until / first",
+          "example": "Erst lernen, dann spielen. – Study first, then play."
         },
         {
           "word": "zuerst",
-          "meaning": "First • In the beginning",
-          "example": "First we have breakfast. = Vispirms mēs brokastojam."
+          "meaning": "first / initially",
+          "example": "Zuerst frühstücken wir. – First, we have breakfast."
         },
         {
           "word": "nur",
-          "meaning": "Only",
-          "example": "I only have 5 euros. = Man ir tikai 5 eiro."
+          "meaning": "only, limiting an amount or choice",
+          "example": "Ich habe nur 5 Euro. – I only have 5 euros."
         },
         {
           "word": "dann",
-          "meaning": "Then",
-          "example": "Then we go home. = Tad mēs ejam mājās."
+          "meaning": "then",
+          "example": "Dann gehen wir nach Hause. – Then we go home."
         }
       ],
       "tip": {
-        "text": "Remember: time/count → erst; amount → nur."
+        "text": "A time, age or stage → erst; a limited amount or choice → nur."
       },
-      "accents": {
-        "blue": [
-          "erst",
-          "Erst"
-        ],
-        "green": [
-          "zuerst",
-          "Zuerst"
-        ],
-        "yellow": [
-          "nur"
-        ],
-        "red": [
-          "dann",
-          "Dann"
-        ]
-      },
+      "important": [
+        "erst and nur can both translate as “only”, but they are not interchangeable.",
+        "erst commonly concerns time, sequence, age or a stage not yet reached.",
+        "zuerst normally means “first” in a neutral sequence."
+      ],
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "erst"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Erst"
-            ],
-            "red": [
-              "dann"
-            ]
+            "de": {
+              "blue": [
+                "Erst"
+              ]
+            },
+            "lv": {}
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {}
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {}
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {}
           }
         ],
         "comparison": [
@@ -5319,14 +5090,8 @@ const A1_WORDS = [
                 "erst"
               ]
             },
-            "example": {
-              "blue": [
-                "Erst"
-              ],
-              "red": [
-                "dann"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5334,11 +5099,8 @@ const A1_WORDS = [
                 "zuerst"
               ]
             },
-            "example": {
-              "green": [
-                "Zuerst"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5346,11 +5108,8 @@ const A1_WORDS = [
                 "nur"
               ]
             },
-            "example": {
-              "yellow": [
-                "nur"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5358,44 +5117,19 @@ const A1_WORDS = [
                 "dann"
               ]
             },
-            "example": {
-              "red": [
-                "Dann"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "green": [
-              "time",
-              "count"
-            ],
-            "purple": [
-              "amount"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "erst",
-              "erst"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
-      },
-      "important": [
-        "erst and nur can both sound like \"only\" but are not the same.",
-        "erst often speaks of time, sequence, or yet to reach a point; nur limits the quantity.",
-        "zuerst more often means: first."
-      ]
+      }
     }
   },
   {
@@ -5405,150 +5139,124 @@ const A1_WORDS = [
   },
   {
     "de": "es",
-    "lv": "It • It • Impersonal form",
+    "lv": "it • impersonal subject",
     "level": "A1",
     "study": {
       "id": "a1-es",
       "layout": "standardStudy",
-      "translation": "It • It • Impersonal form",
+      "translation": "it • impersonal subject",
       "explanation": [
-        "Key point: es is a pronoun.",
-        "It is used: it, in impersonal constructions."
+        "es is the German neuter pronoun “it”.",
+        "It is also used as an impersonal subject in expressions about weather or general conditions.",
+        "With a neuter noun, es can refer back to that noun."
       ],
       "examples": [
         {
           "de": "Es regnet.",
-          "lv": "I'm learning German."
+          "lv": "It is raining."
         },
         {
           "de": "Es ist kalt.",
-          "lv": "He is tired."
+          "lv": "It is cold."
         },
         {
           "de": "Das Kind schläft.",
-          "lv": "She works here."
+          "lv": "The child is sleeping."
         },
         {
           "de": "Es ist müde.",
-          "lv": "It's my book."
+          "lv": "It is tired."
         }
       ],
       "info": [
-        "English \"es\" = German \"ich\"",
-        "German es = it • so • impersonal form"
-      ],
-      "tip": {
-        "text": "Remember: English \"es\" → ich, not German es."
-      },
-      "sectionAccents": {
-        "examples": [
-          {
-            "blue": [
-              "Ich"
-            ]
-          },
-          {
-            "blue": [
-              "Er"
-            ]
-          },
-          {
-            "red": [
-              "Sie"
-            ]
-          },
-          {
-            "yellow": [
-              "Das"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          },
-          {
-            "blue": [
-              "Es"
-            ]
-          }
-        ],
-        "comparison": [
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          },
-          {
-            "word": {},
-            "example": {}
-          }
-        ],
-        "info": [
-          {
-            "blue": [
-              "ich"
-            ]
-          },
-          {
-            "green": [
-              "es"
-            ]
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "es"
-            ],
-            "red": [
-              "ich"
-            ],
-            "purple": [
-              "es"
-            ]
-          }
-        },
-        "important": [
-          {
-            "purple": [
-              "The"
-            ]
-          }
-        ]
-      },
-      "important": [
-        "The German self is not the English self.",
-        "English \"I\" is ich in German; German es often means it/it or is not translated.",
-        "Latvian 'es' in German is ich; German es often means 'it' or is not translated."
+        "German es usually corresponds to English “it”.",
+        "In weather expressions, English and German both use an impersonal subject."
       ],
       "comparison": [
         {
           "word": "es",
-          "meaning": "it • impersonal form",
-          "example": "It's raining. – Līst."
+          "meaning": "it / impersonal subject",
+          "example": "Es regnet. – It is raining."
         },
         {
           "word": "ich",
-          "meaning": "es (pronoun)",
-          "example": "I'm learning German. – Es mācos vācu valodu."
+          "meaning": "I",
+          "example": "Ich lerne Deutsch. – I am learning German."
         }
-      ]
+      ],
+      "tip": {
+        "text": "German es = English it; German ich = English I."
+      },
+      "important": [
+        "German es usually means “it” or serves as an impersonal subject.",
+        "Do not confuse es with ich: es = it; ich = I."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "es"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "Es"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Es"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": []
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Es"
+              ]
+            },
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "es"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "ich"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          }
+        ],
+        "tip": {
+          "left": {}
+        },
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -5560,16 +5268,16 @@ const A1_WORDS = [
   },
   {
     "de": "etwas",
-    "lv": "Something • A little",
+    "lv": "something • a little",
     "level": "A1",
     "study": {
       "id": "a1-etwas",
       "layout": "standardStudy",
-      "translation": "Something • A little",
+      "translation": "something • a little",
       "explanation": [
-        "Main idea: etwas means something or a little depending on the context.",
-        "If etwas replaces an unknown thing, English usually says something.",
-        "When etwas stands before an adjective or quantity, it often means a little."
+        "etwas means “something” when it replaces an unspecified thing.",
+        "Before an adjective or an uncountable amount, it can mean “a little” or “somewhat”.",
+        "The context determines the meaning."
       ],
       "examples": [
         {
@@ -5578,57 +5286,54 @@ const A1_WORDS = [
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "Do you have some time"
+          "lv": "Do you have some time?"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "I'm a little tired"
+          "lv": "I am a little tired."
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "I have something for you"
+          "lv": "I have something for you."
         },
         {
           "de": "Das ist etwas teuer.",
-          "lv": "It is a bit expensive."
+          "lv": "That is a little expensive."
         }
       ],
       "comparison": [
         {
           "word": "etwas",
-          "meaning": "Something / a little",
-          "example": "I need something. = Man kaut kas vajadzīgs."
+          "meaning": "something / a little",
+          "example": "Ich brauche etwas. – I need something."
         },
         {
           "word": "was",
-          "meaning": "Something (colloquial)",
-          "example": "Do you want to drink something? = Vai gribi kaut ko dzert?"
+          "meaning": "something (colloquial)",
+          "example": "Willst du was trinken? – Would you like something to drink?"
         },
         {
           "word": "ein bisschen",
-          "meaning": "A bit",
-          "example": "I'm a bit tired. = Es esmu mazliet noguris."
+          "meaning": "a little / a bit",
+          "example": "Ich bin ein bisschen müde. – I am a little tired."
         },
         {
           "word": "nichts",
-          "meaning": "Nothing",
-          "example": "I need nothing. = Man neko nevajag."
+          "meaning": "nothing",
+          "example": "Ich brauche nichts. – I need nothing."
         }
       ],
       "tip": {
-        "text": "Remember: thing → something; degree → slightly."
+        "text": "An unspecified thing → something; a degree → a little / somewhat."
       },
       "important": [
-        "etwas is not the same as nichts: etwas means something, but nichts means nothing.",
-        "In English, something sounds better than something, for example: etwas trinken = to drink something.",
-        "In Latvian, sometimes kaut ko sounds better than kaut kas, for example: etwas trinken = kaut ko dzert."
+        "etwas means “something”; nichts means “nothing”.",
+        "etwas trinken = to drink something."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Main",
-            "Main",
-            "Main"
+          "blue": [
+            "etwas"
           ]
         },
         "examples": [
@@ -5638,11 +5343,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "would"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5650,11 +5351,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "you"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5662,11 +5359,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "I'm"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5674,11 +5367,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "have"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -5686,11 +5375,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "bit"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -5700,20 +5385,8 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Something",
-                "Something"
-              ]
-            },
-            "example": {
-              "blue": [
-                "etwas"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5721,19 +5394,8 @@ const A1_WORDS = [
                 "was"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Something"
-              ]
-            },
-            "example": {
-              "green": [
-                "was"
-              ],
-              "purple": [
-                "Willst"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5741,17 +5403,8 @@ const A1_WORDS = [
                 "ein bisschen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "bit"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ein bisschen",
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5759,41 +5412,16 @@ const A1_WORDS = [
                 "nichts"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Nothing"
-              ]
-            },
-            "example": {
-              "red": [
-                "nichts",
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "purple": [
-              "Remember",
-              "Remember"
-            ],
-            "yellow": [
-              "Remember"
-            ],
-            "green": [
-              "degree"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "etwas",
-              "etwas",
-              "etwas"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -7005,21 +6633,21 @@ const A1_WORDS = [
   },
   {
     "de": "ganz",
-    "lv": "Everything",
+    "lv": "whole • entire • completely • quite",
     "level": "A1",
     "study": {
       "id": "a1-ganz-study",
       "layout": "standardStudy",
-      "translation": "Everything",
+      "translation": "whole • entire • completely • quite",
       "explanation": [
-        "Main idea: ganz with a noun means whole or entire.",
-        "Before an adjective or adverb, ganz can mean completely, entirely, or quite.",
-        "ganz is not the same as the pronoun alles."
+        "With a noun, ganz means “whole” or “entire”.",
+        "Before an adjective or adverb, it can mean “completely” or “quite”.",
+        "ganz is not the pronoun alles (“everything”)."
       ],
       "examples": [
         {
           "de": "Ich arbeite den ganzen Tag.",
-          "lv": "I work the whole day."
+          "lv": "I work all day."
         },
         {
           "de": "Das ganze Haus ist sauber.",
@@ -7037,23 +6665,92 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ganz",
-          "meaning": "Whole • Entire • Completely",
+          "meaning": "whole / entire / completely / quite",
           "example": "der ganze Tag – the whole day"
         },
         {
           "word": "alles",
-          "meaning": "Everything",
+          "meaning": "everything",
           "example": "Alles ist gut. – Everything is fine."
         }
       ],
       "tip": [
-        "Before a noun, ganz often means whole or entire.",
-        "Before an adjective, ganz often means completely or quite."
+        "Before a noun, ganz often means “whole” or “entire”.",
+        "Before an adjective, it often means “completely” or “quite”."
       ],
       "important": [
         "der ganze Tag = the whole day.",
-        "alles = everything as a pronoun."
-      ]
+        "alles is the pronoun “everything”."
+      ],
+      "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "ganz"
+          ]
+        },
+        "examples": [
+          {
+            "de": {
+              "blue": [
+                "ganz"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "ganz"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "ganz"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "ganz"
+              ]
+            },
+            "lv": {}
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "ganz"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          },
+          {
+            "word": {
+              "green": [
+                "alles"
+              ]
+            },
+            "meaning": {},
+            "example": {}
+          }
+        ],
+        "tip": [
+          {},
+          {}
+        ],
+        "important": [
+          {},
+          {}
+        ]
+      }
     }
   },
   {
@@ -15212,22 +14909,22 @@ const A1_WORDS = [
   },
   {
     "de": "nach",
-    "lv": "To • After",
+    "lv": "to • after • past",
     "level": "A1",
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "To • After",
+      "translation": "to • after • past",
       "explanation": [
-        "Main idea: nach means to with places and after with time or sequence.",
-        "With cities and countries without the article nach often means to.",
-        "With time nach means after.",
-        "In the phrase nach Hause it means home."
+        "nach means “to” with cities and most countries without an article.",
+        "With time or sequence, it means “after” or “past”.",
+        "In nach Hause, it means “home”.",
+        "The preposition takes the dative case."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "I'm going to Berlin."
+          "lv": "I am travelling to Berlin."
         },
         {
           "de": "Wir gehen nach Hause.",
@@ -15235,7 +14932,7 @@ const A1_WORDS = [
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "After eating we go for a walk."
+          "lv": "After the meal, we go for a walk."
         },
         {
           "de": "Es ist zehn nach acht.",
@@ -15245,36 +14942,36 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "nach",
-          "meaning": "To / after",
-          "example": "I drive to Berlin."
+          "meaning": "to / after / past",
+          "example": "Ich fahre nach Berlin. – I am travelling to Berlin."
         },
         {
           "word": "zu",
-          "meaning": "To / at",
-          "example": "I go to the doctor."
+          "meaning": "to a person or specific destination",
+          "example": "Ich gehe zum Arzt. – I am going to the doctor."
         },
         {
           "word": "in",
-          "meaning": "In / to the place with the article",
-          "example": "I go to school."
+          "meaning": "into/to a place used with an article",
+          "example": "Ich gehe in die Schule. – I am going to school."
         },
         {
           "word": "vor",
-          "meaning": "Before / in front of",
-          "example": "Before eating, I wash my hands."
+          "meaning": "before / in front of",
+          "example": "Vor dem Essen wasche ich mir die Hände. – Before the meal, I wash my hands."
         }
       ],
       "tip": {
-        "text": "Remember: nach Hause; nach Berlin; after eating."
+        "text": "nach Hause; nach Berlin; nach dem Essen; zehn nach acht."
       },
       "important": [
-        "nach is not used with all places.",
-        "To school is usually 'in die Schule', not 'nach Schule'."
+        "nach is not used with every destination.",
+        "“To school” is normally in die Schule, not nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "after"
+          "blue": [
+            "nach"
           ]
         },
         "examples": [
@@ -15282,43 +14979,9 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "nach"
-              ],
-              "green": [
-                "Berlin"
               ]
             },
-            "lv": {
-              "purple": [
-                "I'm"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "nach Hause"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "are"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Nach"
-              ],
-              "yellow": [
-                "Essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "after"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -15326,11 +14989,23 @@ const A1_WORDS = [
                 "nach"
               ]
             },
-            "lv": {
-              "purple": [
-                "ten"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Nach"
               ]
-            }
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "nach"
+              ]
+            },
+            "lv": {}
           }
         ],
         "comparison": [
@@ -15340,17 +15015,8 @@ const A1_WORDS = [
                 "nach"
               ]
             },
-            "meaning": {
-              "purple": [
-                "after",
-                "after"
-              ]
-            },
-            "example": {
-              "blue": [
-                "nach"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15359,11 +15025,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {},
-            "example": {
-              "yellow": [
-                "zum Arzt"
-              ]
-            }
+            "example": {}
           },
           {
             "word": {
@@ -15371,16 +15033,8 @@ const A1_WORDS = [
                 "in"
               ]
             },
-            "meaning": {
-              "purple": [
-                "the"
-              ]
-            },
-            "example": {
-              "green": [
-                "in die Schule"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15388,47 +15042,16 @@ const A1_WORDS = [
                 "vor"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Before",
-                "Before"
-              ]
-            },
-            "example": {
-              "red": [
-                "Vor"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "nach Hause",
-              "nach Berlin"
-            ],
-            "purple": [
-              "after eating"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "nach"
-            ],
-            "red": [
-              "nach"
-            ]
-          },
-          {
-            "green": [
-              "in die Schule"
-            ],
-            "red": [
-              "nach Schule"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -15629,22 +15252,22 @@ const A1_WORDS = [
   },
   {
     "de": "nehmen",
-    "lv": "To take • To take",
+    "lv": "to take",
     "level": "A1",
     "study": {
       "id": "a1-nehmen",
       "layout": "standardStudy",
-      "translation": "To take • To take",
+      "translation": "to take",
       "explanation": [
-        "Main idea: nehmen means to take or take.",
-        "Nehmen is used when you take something for yourself or choose.",
-        "It is not the same as bringen, because bringen means to bring or take to someone.",
-        "Holen means to go after and fetch/take."
+        "nehmen means “to take” or “to choose”.",
+        "It is used when someone takes, selects or uses something.",
+        "bringen means “to bring” something to a person or place.",
+        "holen means “to fetch” by going somewhere and bringing something back."
       ],
       "examples": [
         {
           "de": "Ich nehme den Bus.",
-          "lv": "I go by bus"
+          "lv": "I take the bus."
         },
         {
           "de": "Nimm das Buch!",
@@ -15652,115 +15275,72 @@ const A1_WORDS = [
         },
         {
           "de": "Ich bringe dir das Buch.",
-          "lv": "I brought you a book"
+          "lv": "I am bringing you the book."
         },
         {
           "de": "Ich hole dich ab.",
-          "lv": "I will take you"
+          "lv": "I will pick you up."
         }
       ],
       "comparison": [
         {
           "word": "nehmen",
-          "meaning": "To take / to take",
-          "example": "Take the book!"
+          "meaning": "to take",
+          "example": "Nimm das Buch! – Take the book!"
         },
         {
           "word": "bringen",
-          "meaning": "Bring / take / deliver",
-          "example": "I bring you the book."
+          "meaning": "to bring / deliver",
+          "example": "Ich bringe dir das Buch. – I am bringing you the book."
         },
         {
           "word": "holen",
-          "meaning": "Go after / fetch",
-          "example": "I get water."
+          "meaning": "to fetch",
+          "example": "Ich hole Wasser. – I am fetching water."
         },
         {
           "word": "mitnehmen",
-          "meaning": "Take with you",
-          "example": "I take you with me."
+          "meaning": "to take along",
+          "example": "Ich nehme dich mit. – I am taking you with me."
         }
       ],
       "tip": {
-        "text": "Remember: take for yourself → nehmen; bring someone → bringen."
+        "text": "Take or choose something → nehmen; bring it somewhere → bringen; fetch it → holen."
       },
       "important": [
-        "Ich nehme den Bus means \"I drive the bus\" in English.",
-        "nehmen is not the same as bringen."
+        "Ich nehme den Bus means “I take the bus”.",
+        "nehmen is not the same as bringen or holen."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "to take",
-            "to take"
+          "blue": [
+            "nehmen"
           ]
         },
         "examples": [
           {
             "de": {
-              "blue": [
-                "nehme"
-              ],
-              "yellow": [
-                "Bus"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "bus"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "blue": [
-                "Nimm"
-              ],
-              "yellow": [
-                "Buch"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "take"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "red": [
-                "bringe"
-              ],
-              "yellow": [
-                "Buch"
-              ]
+              "blue": []
             },
-            "lv": {
-              "red": [
-                "brought"
-              ],
-              "yellow": [
-                "brought"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "red": [
-                "hole"
-              ],
-              "green": [
-                "dich"
-              ]
+              "blue": []
             },
-            "lv": {
-              "red": [
-                "will"
-              ],
-              "green": [
-                "will"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -15770,17 +15350,8 @@ const A1_WORDS = [
                 "nehmen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "take",
-                "take"
-              ]
-            },
-            "example": {
-              "blue": [
-                "Nimm"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15788,18 +15359,8 @@ const A1_WORDS = [
                 "bringen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Bring",
-                "Bring",
-                "Bring"
-              ]
-            },
-            "example": {
-              "red": [
-                "bringe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15807,17 +15368,8 @@ const A1_WORDS = [
                 "holen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "after",
-                "after"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "hole"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -15825,39 +15377,16 @@ const A1_WORDS = [
                 "mitnehmen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Take"
-              ]
-            },
-            "example": {
-              "green": [
-                "nehme",
-                "mit"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "nehmen"
-            ],
-            "purple": [
-              "take for yourself"
-            ],
-            "red": [
-              "bringen",
-              "Remember"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "Ich"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -16381,30 +15910,30 @@ const A1_WORDS = [
   },
   {
     "de": "ob",
-    "lv": "Or",
+    "lv": "whether • if",
     "level": "A1",
     "study": {
       "id": "a1-ob",
       "layout": "standardStudy",
-      "translation": "Or",
+      "translation": "whether • if",
       "explanation": [
-        "Main idea: ob introduces an indirect question and in English most often means or.",
-        "Ob is used after words like fragen, wissen, sehen, sagen when there is no direct question.",
-        "Ob is usually not used in a direct question in German.",
-        "At A1 level, it is important to distinguish ob from oder."
+        "ob introduces an indirect yes/no question and usually means “whether” or “if”.",
+        "It is used after verbs such as fragen, wissen or sehen.",
+        "For a direct choice between alternatives, German uses oder.",
+        "In an ob-clause, the conjugated verb goes to the end."
       ],
       "examples": [
         {
           "de": "Ich weiß nicht, ob er kommt.",
-          "lv": "I don't know if he will come."
+          "lv": "I do not know whether he is coming."
         },
         {
           "de": "Sie fragt, ob du Zeit hast.",
-          "lv": "She asks do you have time."
+          "lv": "She asks whether you have time."
         },
         {
           "de": "Sag mir, ob das stimmt.",
-          "lv": "Tell me if this is true."
+          "lv": "Tell me whether that is true."
         },
         {
           "de": "Kommst du heute oder morgen?",
@@ -16414,37 +15943,36 @@ const A1_WORDS = [
       "comparison": [
         {
           "word": "ob",
-          "meaning": "Or in an indirect question",
-          "example": "I don't know if he's coming."
+          "meaning": "whether / if in an indirect question",
+          "example": "Ich weiß nicht, ob er kommt. – I do not know whether he is coming."
         },
         {
           "word": "oder",
-          "meaning": "Or choose between options",
-          "example": "Coffee or tea?"
+          "meaning": "or, between alternatives",
+          "example": "Kaffee oder Tee? – Coffee or tea?"
         },
         {
           "word": "wenn",
-          "meaning": "If / when",
-          "example": "If you have time..."
+          "meaning": "if / when, expressing a condition or repeated time",
+          "example": "Wenn du Zeit hast ... – If you have time ..."
         },
         {
           "word": "dass",
-          "meaning": "That",
-          "example": "I know that he's coming."
+          "meaning": "that",
+          "example": "Ich weiß, dass er kommt. – I know that he is coming."
         }
       ],
       "tip": {
-        "text": "Remember: I don't know if... → ob; coffee or tea → oder."
+        "text": "I do not know whether... → ob; coffee or tea → oder."
       },
       "important": [
-        "ob is not the usual form of an \"or\" choice between two things.",
-        "Coffee or tea? Use oder, not ob."
+        "ob does not express a direct “or” choice.",
+        "For alternatives, use oder, not ob."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "indirect question",
-            "In a direct question"
+          "blue": [
+            "ob"
           ]
         },
         "examples": [
@@ -16454,11 +15982,7 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "lv": {
-              "purple": [
-                "don't"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16466,11 +15990,7 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "lv": {
-              "purple": [
-                "She"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -16478,23 +15998,13 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "lv": {
-              "purple": [
-                "Tell"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "red": [
-                "oder"
-              ]
+              "blue": []
             },
-            "lv": {
-              "red": [
-                "Are"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -16504,17 +16014,8 @@ const A1_WORDS = [
                 "ob"
               ]
             },
-            "meaning": {
-              "purple": [
-                "indirect",
-                "indirect"
-              ]
-            },
-            "example": {
-              "blue": [
-                "ob"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -16522,17 +16023,8 @@ const A1_WORDS = [
                 "oder"
               ]
             },
-            "meaning": {
-              "purple": [
-                "choose",
-                "choose"
-              ]
-            },
-            "example": {
-              "red": [
-                "oder"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -16540,17 +16032,8 @@ const A1_WORDS = [
                 "wenn"
               ]
             },
-            "meaning": {
-              "purple": [
-                "when",
-                "when"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "Wenn"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -16558,46 +16041,16 @@ const A1_WORDS = [
                 "dass"
               ]
             },
-            "meaning": {
-              "purple": [
-                "That"
-              ]
-            },
-            "example": {
-              "green": [
-                "dass"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "ob"
-            ],
-            "purple": [
-              "Remember"
-            ],
-            "red": [
-              "oder",
-              "coffee or tea"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "ob"
-            ]
-          },
-          {
-            "red": [
-              "oder"
-            ],
-            "blue": [
-              "ob"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -20092,26 +19545,26 @@ const A1_WORDS = [
   },
   {
     "de": "stehen",
-    "lv": "To stand",
+    "lv": "to stand • to be upright",
     "level": "A1",
     "study": {
       "id": "a1-stehen",
       "layout": "standardStudy",
-      "translation": "To stand",
+      "translation": "to stand • to be upright",
       "explanation": [
-        "Main idea: stehen means to stand or be standing.",
-        "For a person, stehen means to stand.",
-        "For an object, stehen means that it is standing or in a certain place.",
-        "It is important to distinguish: stehen = to stand, sitzen = to sit, liegen = to lie down."
+        "stehen means “to stand” or “to be upright”.",
+        "For a person, it describes a standing position.",
+        "For an object, it describes an upright position or location.",
+        "Contrast: stehen = stand, sitzen = sit, liegen = lie."
       ],
       "examples": [
         {
           "de": "Ich stehe an der Tür.",
-          "lv": "I'm standing at the door."
+          "lv": "I am standing at the door."
         },
         {
           "de": "Der Stuhl steht in der Küche.",
-          "lv": "The chair is in the kitchen."
+          "lv": "The chair is standing in the kitchen."
         },
         {
           "de": "Er sitzt am Tisch.",
@@ -20119,96 +19572,68 @@ const A1_WORDS = [
         },
         {
           "de": "Das Buch liegt auf dem Tisch.",
-          "lv": "The book is on the table."
+          "lv": "The book is lying on the table."
         }
       ],
       "comparison": [
         {
           "word": "stehen",
-          "meaning": "Stand / be standing",
-          "example": "I stand here."
+          "meaning": "to stand / be upright",
+          "example": "Ich stehe hier. – I am standing here."
         },
         {
           "word": "sitzen",
-          "meaning": "To sit",
-          "example": "He sits at the table."
+          "meaning": "to sit",
+          "example": "Er sitzt am Tisch. – He is sitting at the table."
         },
         {
           "word": "liegen",
-          "meaning": "Sleep / lie down",
-          "example": "The book lies there."
+          "meaning": "to lie / be lying",
+          "example": "Das Buch liegt dort. – The book is lying there."
         },
         {
           "word": "stellen",
-          "meaning": "Put upright",
-          "example": "I put the bottle down."
+          "meaning": "to put something upright",
+          "example": "Ich stelle die Flasche hin. – I put the bottle down upright."
         }
       ],
       "tip": {
-        "text": "Remember: standing → stehen; sitting → sitzen; lying down → liegen."
+        "text": "Upright state → stehen; seated → sitzen; horizontal → liegen; placing upright → stellen."
       },
       "important": [
-        "stehen shows a state, not the action of 'putting down'.",
-        "To put an object upright is stellen, not stehen."
+        "stehen describes a state, not the action of placing something.",
+        "To put an object upright, use stellen."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "to stand",
-            "standing"
+          "blue": [
+            "stehen"
           ]
         },
         "examples": [
           {
             "de": {
-              "blue": [
-                "stehe"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "standing"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "blue": [
-                "steht"
-              ],
-              "yellow": [
-                "Stuhl"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "The"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "red": [
-                "sitzt"
-              ]
+              "blue": []
             },
-            "lv": {
-              "red": [
-                "sitting"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "red": [
-                "liegt"
-              ]
+              "blue": []
             },
-            "lv": {
-              "red": [
-                "The"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -20218,17 +19643,8 @@ const A1_WORDS = [
                 "stehen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Stand",
-                "Stand"
-              ]
-            },
-            "example": {
-              "blue": [
-                "stehe"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -20236,16 +19652,8 @@ const A1_WORDS = [
                 "sitzen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "sit"
-              ]
-            },
-            "example": {
-              "red": [
-                "sitzt"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -20253,17 +19661,8 @@ const A1_WORDS = [
                 "liegen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Sleep",
-                "Sleep"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "liegt"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -20271,40 +19670,16 @@ const A1_WORDS = [
                 "stellen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Put"
-              ]
-            },
-            "example": {
-              "green": [
-                "stelle"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "stehen"
-            ],
-            "purple": [
-              "standing"
-            ],
-            "red": [
-              "sitzen"
-            ],
-            "yellow": [
-              "liegen"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "purple": [
-              "stehen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }
@@ -23819,23 +23194,22 @@ const A1_WORDS = [
   },
   {
     "de": "zum",
-    "lv": "To • At",
+    "lv": "to the • for the",
     "level": "A1",
     "study": {
       "id": "a1-zum",
       "layout": "standardStudy",
-      "translation": "To • At",
+      "translation": "to the • for the",
       "explanation": [
-        "Zum is an abbreviation of the preposition zu and the article dem.",
-        "Full form: zu dem (to whom?).",
-        "Used with masculine and neuter nouns when indicating direction or purpose.",
-        "Often means to something or to someone - to the doctor, to the station, to a friend.",
-        "In practise, zum is almost always used instead of full zu dem."
+        "zum is the contraction of zu and dem.",
+        "It is used with masculine and neuter nouns in the dative.",
+        "It usually indicates direction, destination or purpose.",
+        "In everyday German, zum normally replaces the full form zu dem."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "I'm going to the doctor."
+          "lv": "I am going to the doctor."
         },
         {
           "de": "Wir fahren zum Bahnhof.",
@@ -23843,11 +23217,11 @@ const A1_WORDS = [
         },
         {
           "de": "Sie geht zum Supermarkt.",
-          "lv": "She goes to the store."
+          "lv": "She is going to the supermarket."
         },
         {
           "de": "Komm zum Essen!",
-          "lv": "Come eat!"
+          "lv": "Come for the meal!"
         },
         {
           "de": "Er fährt zum Flughafen.",
@@ -23855,59 +23229,58 @@ const A1_WORDS = [
         },
         {
           "de": "Wir gehen zum Konzert.",
-          "lv": "We are going to a concert."
+          "lv": "We are going to the concert."
         },
         {
           "de": "Das Geschenk ist zum Geburtstag.",
-          "lv": "The present is for a birthday."
+          "lv": "The present is for the birthday."
         },
         {
           "de": "Ich gehe zum Friseur.",
-          "lv": "I go to the hairdresser."
+          "lv": "I am going to the hairdresser."
         }
       ],
       "comparison": [
         {
           "word": "zum",
-          "meaning": "To / at (who?)",
-          "example": "zum Arzt – To the doctor"
+          "meaning": "to the / for the (masculine or neuter)",
+          "example": "zum Arzt – to the doctor"
         },
         {
           "word": "zur",
-          "meaning": "To / at (wife's family)",
-          "example": "zur Schule – To school"
+          "meaning": "to the (feminine)",
+          "example": "zur Schule – to school"
         },
         {
           "word": "zu",
-          "meaning": "To / at / too",
-          "example": "zu Hause – At home"
+          "meaning": "to / at",
+          "example": "zu Hause – at home"
         },
         {
           "word": "nach",
-          "meaning": "To (cities/countries)",
-          "example": "nach Berlin – To Berlin"
+          "meaning": "to cities and countries without an article",
+          "example": "nach Berlin – to Berlin"
         },
         {
           "word": "bei",
-          "meaning": "At (location)",
-          "example": "beim Arzt – To the doctor"
+          "meaning": "at someone’s place / location",
+          "example": "beim Arzt – at the doctor’s"
         }
       ],
       "tip": [
-        "Remember: zu + dem → zum (to whom?).",
-        "For feminine words: zu + der → zur."
+        "zu + dem → zum.",
+        "For feminine nouns: zu + der → zur."
       ],
       "important": [
-        "zum = zu dem, only with a masculine or genderless noun for whom? in inflection.",
-        "Indicates the direction or goal: to the doctor, to the station, to a friend.",
-        "For the feminine gender, zur is used: zur Bank, zur Post.",
-        "Not to be confused with bei (located at) or nach (to cities without article)."
+        "zum = zu dem with masculine or neuter nouns in the dative.",
+        "It normally marks a destination or purpose.",
+        "For feminine nouns, use zur: zur Bank, zur Post.",
+        "beim Arzt = at the doctor’s; zum Arzt = to the doctor."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "Zum",
-            "Zum"
+          "blue": [
+            "zum"
           ]
         },
         "examples": [
@@ -23917,11 +23290,7 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {
-              "purple": [
-                "to the doctor"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23929,11 +23298,7 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {
-              "purple": [
-                "are"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23941,11 +23306,7 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {
-              "purple": [
-                "She"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23953,11 +23314,7 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {
-              "purple": [
-                "Come"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23965,11 +23322,7 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {
-              "purple": [
-                "going"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23977,11 +23330,7 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {
-              "purple": [
-                "are"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -23989,11 +23338,7 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {
-              "purple": [
-                "for a birthday"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -24001,11 +23346,7 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "lv": {
-              "purple": [
-                "the"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -24015,17 +23356,8 @@ const A1_WORDS = [
                 "zum"
               ]
             },
-            "meaning": {
-              "purple": [
-                "who",
-                "who"
-              ]
-            },
-            "example": {
-              "blue": [
-                "zum Arzt"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -24033,17 +23365,8 @@ const A1_WORDS = [
                 "zur"
               ]
             },
-            "meaning": {
-              "purple": [
-                "wife's",
-                "wife's"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "zur Schule"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -24051,18 +23374,8 @@ const A1_WORDS = [
                 "zu"
               ]
             },
-            "meaning": {
-              "purple": [
-                "too",
-                "too",
-                "too"
-              ]
-            },
-            "example": {
-              "green": [
-                "zu Hause"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -24070,16 +23383,8 @@ const A1_WORDS = [
                 "nach"
               ]
             },
-            "meaning": {
-              "purple": [
-                "cities/countries"
-              ]
-            },
-            "example": {
-              "green": [
-                "nach Berlin"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -24087,36 +23392,19 @@ const A1_WORDS = [
                 "bei"
               ]
             },
-            "meaning": {
-              "purple": [
-                "location"
-              ]
-            },
-            "example": {
-              "red": [
-                "beim Arzt"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "zum"
-            ]
-          },
-          {
-            "yellow": [
-              "zur"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "purple": [
-              "zu dem"
-            ]
-          }
+          {},
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -24548,33 +23836,30 @@ const A1_WORDS = [
   },
   {
     "de": "essen",
-    "lv": "To eat",
+    "lv": "to eat",
     "level": "A1",
     "study": {
       "id": "a1-essen",
       "layout": "standardStudy",
-      "translation": "To eat",
+      "translation": "to eat",
       "explanation": [
-        "Main idea: Verb - to eat food.",
-        "Essen primarily means: to consume food.",
-        "Often describes: action.",
-        "Essen basically means: food or meal.",
-        "Often describes: rain.",
-        "Essen means to eat.",
-        "Das Essen can mean food or a meal in general."
+        "essen is a verb meaning “to eat”.",
+        "It describes the action of consuming food.",
+        "The capitalised noun das Essen means “food” or “meal”.",
+        "Verb and noun are distinguished by capitalisation and context."
       ],
       "examples": [
         {
           "de": "Ich esse gern Pizza.",
-          "lv": "I like to eat pizza."
+          "lv": "I like eating pizza."
         },
         {
           "de": "Was wollt ihr essen?",
-          "lv": "What do you want to eat"
+          "lv": "What do you want to eat?"
         },
         {
           "de": "Wir essen um 12 Uhr.",
-          "lv": "We eat at 12 o'clock."
+          "lv": "We eat at twelve o’clock."
         },
         {
           "de": "Das Essen ist fertig.",
@@ -24590,47 +23875,29 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "essen = to eat",
-        "Use essen when the context fits this meaning."
+        "essen = to eat (verb).",
+        "das Essen = food / meal (noun)."
       ],
       "important": [
-        "essen is a verb without an article.",
-        "das Essen is not the same as essen.",
-        "Action: essen.",
-        "Case/meal: das Essen."
+        "essen is a verb and is written with a lower-case e.",
+        "das Essen is a noun and is written with a capital E."
       ],
       "sectionAccents": {
         "explanation": {
-          "purple": [
-            "to eat"
+          "blue": [
+            "essen"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "esse"
-              ]
+              "blue": []
             },
             "lv": {}
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "to eat"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "essen",
+              "blue": [
                 "essen"
               ]
             },
@@ -24638,8 +23905,7 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "essen",
+              "blue": [
                 "essen"
               ]
             },
@@ -24647,36 +23913,36 @@ const A1_WORDS = [
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
+              "blue": [
+                "Essen"
               ]
             },
             "lv": {}
           },
           {
             "de": {
-              "green": [
-                "essen",
-                "essen"
+              "blue": [
+                "Essen"
+              ]
+            },
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Essen"
               ]
             },
             "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "to eat"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "green": [
-              "essen"
-            ]
-          }
+          {},
+          {}
         ]
       }
     }

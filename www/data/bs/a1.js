@@ -5645,12 +5645,12 @@ const A1_WORDS = [
   },
   {
     "de": "erst",
-    "lv": "tek",
+    "lv": "tek • prvo",
     "level": "A1",
     "study": {
       "id": "a1-erst",
       "layout": "standardStudy",
-      "translation": "tek",
+      "translation": "tek • prvo",
       "explanation": [
         "Glavna ideja: erst najčešće znači samo. Međutim, u određenom kontekstu može značiti i najprije.",
         "Erst često označava da se nešto dešava kasnije nego što se očekivalo.",
@@ -5661,11 +5661,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Erst lernen, dann spielen.",
-          "lv": "Prvo pij pa vozi."
+          "lv": "Prvo uči, pa se igraj."
         },
         {
           "de": "Ich komme erst morgen.",
-          "lv": "Neću stići do sutra."
+          "lv": "Dolazim tek sutra."
         },
         {
           "de": "Er ist erst 18 Jahre alt.",
@@ -5673,14 +5673,14 @@ const A1_WORDS = [
         },
         {
           "de": "Wir essen erst um acht Uhr.",
-          "lv": "Jedemo samo u osam."
+          "lv": "Jedemo tek u osam sati."
         }
       ],
       "comparison": [
         {
           "word": "erst",
           "meaning": "Samo prvo",
-          "example": "Erst lernen, dann spielen. – Prvo pij pa vozi."
+          "example": "Erst lernen, dann spielen. – Prvo uči, pa se igraj."
         },
         {
           "word": "zuerst",
@@ -5719,29 +5719,43 @@ const A1_WORDS = [
         ]
       },
       "sectionAccents": {
+        "explanation": {
+          "blue": [
+            "erst"
+          ]
+        },
         "examples": [
           {
-            "blue": [
-              "Erst"
-            ],
-            "red": [
-              "dann"
-            ]
+            "de": {
+              "blue": [
+                "Erst"
+              ]
+            },
+            "lv": {}
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {}
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {}
           },
           {
-            "blue": [
-              "erst"
-            ]
+            "de": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "lv": {}
           }
         ],
         "comparison": [
@@ -5751,14 +5765,8 @@ const A1_WORDS = [
                 "erst"
               ]
             },
-            "example": {
-              "blue": [
-                "Erst"
-              ],
-              "red": [
-                "dann"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5766,11 +5774,8 @@ const A1_WORDS = [
                 "zuerst"
               ]
             },
-            "example": {
-              "green": [
-                "Zuerst"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5778,11 +5783,8 @@ const A1_WORDS = [
                 "nur"
               ]
             },
-            "example": {
-              "yellow": [
-                "nur"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -5790,56 +5792,17 @@ const A1_WORDS = [
                 "dann"
               ]
             },
-            "example": {
-              "red": [
-                "Dann"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "nur"
-            ],
-            "green": [
-              "vrijeme",
-              "broj"
-            ],
-            "purple": [
-              "vrijeme"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "erst"
-            ],
-            "yellow": [
-              "Erst"
-            ],
-            "purple": [
-              "Erst"
-            ]
-          },
-          {
-            "blue": [
-              "erst"
-            ],
-            "green": [
-              "samo"
-            ],
-            "yellow": [
-              "samo"
-            ],
-            "purple": [
-              "samo"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       },
       "important": [
@@ -6013,11 +5976,11 @@ const A1_WORDS = [
       "examples": [
         {
           "de": "Ich möchte etwas trinken.",
-          "lv": "Ja bih nešto za piće."
+          "lv": "Želio bih nešto popiti."
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "Imate li vremena"
+          "lv": "Imaš li malo vremena?"
         },
         {
           "de": "Ich bin etwas müde.",
@@ -6050,8 +6013,8 @@ const A1_WORDS = [
         },
         {
           "word": "nichts",
-          "meaning": "Etwas",
-          "example": "Ich brauche nichts. = Ja trebam ništa."
+          "meaning": "Ništa",
+          "example": "Ich brauche nichts. – Ne trebam ništa."
         }
       ],
       "tip": {
@@ -6060,21 +6023,11 @@ const A1_WORDS = [
       "important": [
         "Uz pridjeve etwas često znači malo.",
         "Etwas nije isto što i nichts: etwas znači da nešto postoji, a nichts znači ništa.",
-        "Na bosanskom ponekad bolje zvuči nešto, a ne nešto, na primjer: etwas trinken = piti nešto."
+        "etwas znači „nešto“, a nichts znači „ništa“."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "etwas"
-          ],
-          "purple": [
-            "etwas",
-            "etwas"
-          ],
-          "green": [
-            "etwas"
-          ],
-          "yellow": [
             "etwas"
           ]
         },
@@ -6085,11 +6038,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "Ja"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6097,14 +6046,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "Imate"
-              ],
-              "yellow": [
-                "Imate"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6112,11 +6054,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "umoran"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6124,11 +6062,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "Imam"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -6136,11 +6070,7 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "lv": {
-              "purple": [
-                "Malo"
-              ]
-            }
+            "lv": {}
           }
         ],
         "comparison": [
@@ -6151,14 +6081,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {},
-            "example": {
-              "blue": [
-                "etwas"
-              ],
-              "purple": [
-                "Ich"
-              ]
-            }
+            "example": {}
           },
           {
             "word": {
@@ -6167,14 +6090,7 @@ const A1_WORDS = [
               ]
             },
             "meaning": {},
-            "example": {
-              "green": [
-                "was"
-              ],
-              "purple": [
-                "Willst"
-              ]
-            }
+            "example": {}
           },
           {
             "word": {
@@ -6182,17 +6098,8 @@ const A1_WORDS = [
                 "ein bisschen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Malo"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "ein bisschen",
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           },
           {
             "word": {
@@ -6200,53 +6107,17 @@ const A1_WORDS = [
                 "nichts"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Etwas"
-              ]
-            },
-            "example": {
-              "red": [
-                "nichts",
-                "Ich"
-              ]
-            }
+            "meaning": {},
+            "example": {}
           }
         ],
         "tip": {
-          "left": {
-            "purple": [
-              "stvar",
-              "pomalo"
-            ],
-            "yellow": [
-              "stvar"
-            ],
-            "green": [
-              "stvar"
-            ]
-          }
+          "left": {}
         },
         "important": [
-          {
-            "blue": [
-              "etwas"
-            ],
-            "purple": [
-              "malo"
-            ],
-            "red": [
-              "malo"
-            ]
-          },
-          {
-            "blue": [
-              "etwas"
-            ],
-            "purple": [
-              "da"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -8479,12 +8350,12 @@ const A1_WORDS = [
   },
   {
     "de": "gut",
-    "lv": "dobar",
+    "lv": "dobar • dobro",
     "level": "A1",
     "study": {
       "id": "a1-gut-study",
       "layout": "standardStudy",
-      "translation": "dobar",
+      "translation": "dobar • dobro",
       "explanation": [
         "Glavna ideja: gut je pridjev/prilog — dobar, uspješno, u redu.",
         "Gut opisuje kvalitet, zdravlje ili to kako se nešto odvija (Es geht mir gut. = Dobro sam.).",
@@ -8499,7 +8370,7 @@ const A1_WORDS = [
         },
         {
           "de": "Wie geht es dir? – Gut, danke!",
-          "lv": "Kako si - ok, hvala!"
+          "lv": "Kako si? – Dobro, hvala!"
         },
         {
           "de": "Er spricht gut Deutsch.",
@@ -8523,21 +8394,14 @@ const A1_WORDS = [
         "Das Gut s velikim slovom i članom je sasvim druga riječ — imenica (vlasništvo, imanje)."
       ],
       "important": [
-        "Gut = dobar/dobro (pridjev/pridjev).",
-        "Das Gut = imanje/imarija (imenica) - ne treba brkati sa crijevom.",
+        "gut = dobar / dobro (pridjev ili prilog).",
+        "das Gut = imovina / imanje (imenica).",
         "Guten Morgen / Guten Tag / Guten Abend — pridjev gut ima nastavak -en."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "gut"
-          ],
-          "purple": [
-            "gut",
-            "U"
-          ],
-          "green": [
-            "das Gut"
           ]
         },
         "examples": [
@@ -8547,11 +8411,7 @@ const A1_WORDS = [
                 "gut"
               ]
             },
-            "lv": {
-              "purple": [
-                "dobra"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8559,11 +8419,7 @@ const A1_WORDS = [
                 "Gut"
               ]
             },
-            "lv": {
-              "purple": [
-                "hvala"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8571,35 +8427,15 @@ const A1_WORDS = [
                 "gut"
               ]
             },
-            "lv": {
-              "purple": [
-                "Dobro"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
               "blue": [
-                "Guten"
+                "Gut"
               ]
             },
-            "lv": {
-              "purple": [
-                "Dobro"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "gute"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "dobra"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
@@ -8607,43 +8443,25 @@ const A1_WORDS = [
                 "gut"
               ]
             },
-            "lv": {
-              "purple": [
-                "u"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "gut"
               ]
-            }
+            },
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "blue": [
-              "gut"
-            ]
-          },
-          {
-            "green": [
-              "das Gut"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
-          {
-            "blue": [
-              "gut"
-            ]
-          },
-          {
-            "green": [
-              "das Gut"
-            ]
-          },
-          {
-            "blue": [
-              "Guten Tag",
-              "Morgen",
-              "Abend"
-            ]
-          }
+          {},
+          {},
+          {}
         ]
       }
     }
@@ -15994,14 +15812,10 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "jutro",
       "explanation": [
-        "Glavna ideja: Imenica s članom der i velikim početnim slovom. Dio dana — jutro.",
-        "Der Morgen uglavnom znači: sljedećeg dana.",
-        "Često označava: prilošku odredbu za vrijeme.",
-        "Der Morgen uglavnom znači: dio dana.",
-        "Često opisuje: imenicu (der).",
-        "Der Morgen uglavnom znači: više jutara.",
-        "Često opisuje: imenica (mn.).",
-        "Morgen s malim početnim slovom znači sutra — narednog dana (Ich komme morgen = dolazim sutra, Bis morgen!"
+        "Der Morgen je imenica koja znači „jutro“.",
+        "Piše se velikim slovom i koristi s članom der.",
+        "morgen malim slovom znači „sutra“.",
+        "Guten Morgen! = Dobro jutro!; Ich komme morgen. = Dolazim sutra."
       ],
       "examples": [
         {
@@ -16014,11 +15828,11 @@ const A1_WORDS = [
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Dolazim sutra"
+          "lv": "Dolazim sutra."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Sutra je ponedjeljak"
+          "lv": "Sutra je ponedjeljak."
         },
         {
           "de": "Guten Morgen!",
@@ -16030,8 +15844,8 @@ const A1_WORDS = [
         }
       ],
       "tip": [
-        "Mali morgen = sutra (Ich komme morgen). der Morgen sa velikim slovom = jutro (Guten Morgen!, am Morgen).",
-        "Der Morgen = sutra"
+        "morgen = sutra; der Morgen = jutro.",
+        "Veliko slovo označava imenicu."
       ],
       "important": [
         "Morgen je malo slovo - to je vremenski prilog (sutra).",
@@ -16041,93 +15855,64 @@ const A1_WORDS = [
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
-            "der Morgen",
-            "morgen"
-          ],
-          "purple": [
-            "Jutro",
-            "Glavna"
-          ],
-          "yellow": [
+          "blue": [
             "Morgen"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "morgen"
+              "blue": [
+                "Morgen"
               ]
             },
             "lv": {}
           },
           {
             "de": {
-              "green": [
-                "morgen"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "Sutra"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "morgen"
-              ]
+              "blue": []
             },
-            "lv": {
-              "purple": [
-                "Sutra"
-              ]
-            }
+            "lv": {}
           },
           {
             "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "Sutra"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
+              "blue": [
+                "Morgen"
               ]
             },
             "lv": {}
           },
           {
             "de": {
-              "green": [
-                "der Morgen",
-                "morgen"
+              "blue": [
+                "Morgen"
               ]
             },
-            "lv": {
-              "purple": [
-                "Jutro"
+            "lv": {}
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
               ]
-            }
+            },
+            "lv": {}
           }
         ],
         "tip": [
-          {
-            "purple": [
-              "Jutro"
-            ]
-          }
+          {},
+          {}
         ],
         "important": [
+          {},
+          {},
+          {},
           {}
         ]
       }

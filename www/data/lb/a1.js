@@ -5325,87 +5325,76 @@ const A1_WORDS = [
   {
     "de": "Eis",
     "de_article": "das",
-    "lv": "Ledus • Saldējums",
+    "lv": "Äis • Glace",
     "level": "A1",
     "study": {
       "id": "a1-eis",
       "layout": "standardStudy",
-      "translation": "Ledus • Saldējums",
+      "translation": "Äis • Glace",
       "explanation": [
-        "Galvenā doma: d'Äis war nozīmēt gan ledu, gan saldējumu.",
-        "Jo runa ir par aukstu sasalušu ūdeni, latviski parasti saka ledus.",
-        "Jo runa ir par ēdienu vai desertu, das Eis ikdienā Đoti bieži nozīmē saldējums.",
-        "De Kontext seet Iech normalerweis direkt wat Bedeitung ass.",
-        "A1 līmenī answerīgākās frāzes ir iesse Glace an Glace an engem Glas."
+        "Haaptiddi: das Eis kann „Äis“ oder „Glace“ bedeiten.",
+        "Bei gefruerem Waasser seet een Äis.",
+        "Bei engem Iessen oder Dessert seet een Glace.",
+        "De Kontext weist normalerweis, wéi eng Bedeitung gemengt ass.",
+        "Um Niveau A1 sinn Ausdréck mat Äis a Glace besonnesch wichteg."
       ],
       "examples": [
         {
           "de": "Ich esse ein Eis.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Ech iessen eng Glace."
         },
         {
           "de": "Möchtest du ein Eis?",
-          "lv": "Wat ass den Ënnerscheed?"
+          "lv": "Wëlls du eng Glace?"
         },
         {
           "de": "Im Winter liegt Eis auf dem See.",
-          "lv": "Ziemā uz ezera ir ledus."
+          "lv": "Am Wanter läit Äis um Séi."
         },
         {
           "de": "Das Eis ist kalt.",
-          "lv": "De l'autre côté du miroir."
+          "lv": "D’Äis ass kal."
         },
         {
           "de": "Ich nehme ein Eis mit Schokolade.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Ech huelen eng Glace mat Schockela."
         }
       ],
       "comparison": [
         {
           "word": "das Eis",
-          "meaning": "Eis / Eis",
-          "example": "Ich esse ein Eis. = Ech iessen e Glaçon."
+          "meaning": "Äis / Glace",
+          "example": "Ich esse ein Eis. – Ech iessen eng Glace."
         },
         {
           "word": "der Schnee",
-          "meaning": "CAA -",
-          "example": "Der Schnee ist weiß. = De Schnéi ass wäiss."
+          "meaning": "Schnéi",
+          "example": "Der Schnee ist weiß. – De Schnéi ass wäiss."
         },
         {
           "word": "kalt",
-          "meaning": "Erkältung",
-          "example": "Das Wasser ist kalt. = D'Waasser ass kal."
+          "meaning": "kal",
+          "example": "Das Wasser ist kalt. – D’Waasser ass kal."
         },
         {
           "word": "das Dessert",
-          "meaning": "CAA -",
-          "example": "Eis ist ein Dessert. = Glaçon ass e Dessert."
+          "meaning": "Dessert",
+          "example": "Eis ist ein Dessert. – Glace ass en Dessert."
         }
       ],
       "tip": {
-        "text": "Atceries: ēdiens → saldējums; ziema/ūdens → ledus."
+        "text": "Denk drun: Iessen → Glace; Wanter oder Waasser → Äis."
       },
       "important": [
-        "A Letzebuerg sinn Eis a Glaçon zwee verschidde Wierder, awer am Däitsche benotzt een dacks fir béid das Eis.",
-        "De Kontext ass haaptséchlechen: Iessen bedeit Glaçon, kal Uewerfläch oder Waasser bedeit Eis."
+        "Am Däitsche kann Eis souwuel gefruerent Waasser wéi och Glace bedeiten.",
+        "Am Lëtzebuergesche gi meeschtens zwou verschidde Wierder benotzt: Äis a Glace."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "das Eis",
-            "Eis"
-          ],
-          "purple": [
-            "ledu",
-            "ledus",
-            "saldējums"
-          ],
-          "green": [
-            "ēdienu",
-            "desertu"
-          ],
-          "yellow": [
-            "ūdeni"
+            "Eis",
+            "Äis",
+            "Glace"
           ]
         },
         "examples": [
@@ -5417,7 +5406,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dat"
+                "Glace"
               ]
             }
           },
@@ -5429,7 +5418,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Wat"
+                "Glace"
               ]
             }
           },
@@ -5441,10 +5430,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ledus"
-              ],
-              "green": [
-                "ezera"
+                "Äis"
               ]
             }
           },
@@ -5456,7 +5442,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "l'autre"
+                "Äis"
               ]
             }
           },
@@ -5468,10 +5454,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dat"
-              ],
-              "yellow": [
-                "Dat"
+                "Glace"
               ]
             }
           }
@@ -5483,18 +5466,12 @@ const A1_WORDS = [
                 "das Eis"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Eis",
-                "Eis"
-              ]
-            },
             "example": {
               "blue": [
                 "Eis"
               ],
               "purple": [
-                "Ich"
+                "Glace"
               ]
             }
           },
@@ -5504,15 +5481,12 @@ const A1_WORDS = [
                 "der Schnee"
               ]
             },
-            "meaning": {
-              "purple": [
-                "CAA"
-              ]
-            },
             "example": {
-              "green": [
-                "Schnee",
-                "Der"
+              "blue": [
+                "Schnee"
+              ],
+              "purple": [
+                "Schnéi"
               ]
             }
           },
@@ -5522,15 +5496,12 @@ const A1_WORDS = [
                 "kalt"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Erkältung"
-              ]
-            },
             "example": {
-              "yellow": [
-                "kalt",
-                "Das"
+              "blue": [
+                "kalt"
+              ],
+              "purple": [
+                "kal"
               ]
             }
           },
@@ -5540,16 +5511,11 @@ const A1_WORDS = [
                 "das Dessert"
               ]
             },
-            "meaning": {
-              "purple": [
-                "CAA"
-              ]
-            },
             "example": {
               "blue": [
-                "Eis"
+                "Dessert"
               ],
-              "red": [
+              "purple": [
                 "Dessert"
               ]
             }
@@ -5557,36 +5523,21 @@ const A1_WORDS = [
         ],
         "tip": {
           "left": {
-            "purple": [
-              "saldējums",
-              "ledus"
-            ],
-            "green": [
-              "ēdiens",
-              "ziema",
-              "ūdens"
+            "blue": [
+              "Glace",
+              "Äis"
             ]
           }
         },
         "important": [
           {
             "blue": [
-              "das Eis"
-            ],
-            "purple": [
-              "ledus",
-              "saldējums"
+              "Eis"
             ]
           },
           {
-            "purple": [
-              "saldējumu",
-              "ledu"
-            ],
-            "green": [
-              "ēdiens",
-              "auksta virsma",
-              "ūdens"
+            "blue": [
+              "Äis"
             ]
           }
         ]
@@ -6028,85 +5979,72 @@ const A1_WORDS = [
   },
   {
     "de": "etwas",
-    "lv": "Kaut kas • Nedaudz",
+    "lv": "eppes • e bëssen",
     "level": "A1",
     "study": {
       "id": "a1-etwas",
       "layout": "standardStudy",
-      "translation": "Kaut kas • Nedaudz",
+      "translation": "eppes • e bëssen",
       "explanation": [
-        "Galvenā doma: eppes nozīmē kaut kas vai nedaudz atkarībā no konteksta.",
-        "CAA-BHUA CAA-BHUB CAA-BHUC CAA-BHUD CAA-BHUE CAA-BHUF CAA-BHUG CAA-BHUH CAA-BHUI CAA-BHUJ CAA-BHUK CAA-BHUL CAA-BHUM CAA-BHUN CAA-BHUO CAA-BHUP CAA-BHUQ CAA-BHUR CAA-BHUS CAA-BHUT CAA-BHUU CAA-BHUV CAA-BHUW CAA-BHUX CAA-BHUY CAA-BHUZ CAA-BHU0 CAA-BHU1 CAA-BHU2 CAA-BHU3 CAA-BHU4 CAA-BHU5 CAA-BHU6 CAA-BHU7 CAA-BHU8 CAA-BHU9",
-        "Jo, eppes Stāv pie īpašības vārda vai daudzuma, tas bieži nozīmē nedaudz."
+        "Haaptiddi: etwas bedeit meeschtens „eppes“.",
+        "Virun engem Adjektiv kann etwas och „e bëssen“ bedeiten.",
+        "De Kontext weist, ob eng Saach oder e Grad gemengt ass."
       ],
       "examples": [
         {
           "de": "Ich möchte etwas trinken.",
-          "lv": "Es gribētu kaut ko dzert."
+          "lv": "Ech géif gär eppes drénken."
         },
         {
           "de": "Hast du etwas Zeit?",
-          "lv": "Hutt Dir e Moment?"
+          "lv": "Hues du e bëssen Zäit?"
         },
         {
           "de": "Ich bin etwas müde.",
-          "lv": "Esmu nedaudz noguris."
+          "lv": "Ech sinn e bëssen midd."
         },
         {
           "de": "Ich habe etwas für dich.",
-          "lv": "Bäinumm Bedeitung vun Treibhauseffekt."
+          "lv": "Ech hunn eppes fir dech."
         },
         {
           "de": "Das ist etwas teuer.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Dat ass e bëssen deier."
         }
       ],
       "comparison": [
         {
           "word": "etwas",
-          "meaning": "E bëssi/e bëssi",
-          "example": "Ich brauche etwas. = Ech brauch eppes."
+          "meaning": "eppes • e bëssen",
+          "example": "Ich möchte etwas trinken. – Ech géif gär eppes drénken."
         },
         {
           "word": "was",
-          "meaning": "Eppes (informell)",
-          "example": "Willst du was trinken? = Wëlls du eppes drenken?"
+          "meaning": "eppes",
+          "example": "Willst du was trinken? – Wëlls du eppes drénken?"
         },
         {
           "word": "ein bisschen",
-          "meaning": "CAA -",
-          "example": "Ich bin ein bisschen müde. = Ech sinn e bësse midd."
+          "meaning": "e bëssen",
+          "example": "Ich bin ein bisschen müde. – Ech sinn e bëssen midd."
         },
         {
           "word": "nichts",
-          "meaning": "Näischt",
-          "example": "Ich brauche nichts. = Ech brauch näischt."
+          "meaning": "näischt",
+          "example": "Ich sehe nichts. – Ech gesinn näischt."
         }
       ],
       "tip": {
-        "text": "Atceries: lieta → kaut kas; pakāpe → nedaudz."
+        "text": "Denk drun: eng Saach → eppes; e Grad → e bëssen."
       },
       "important": [
-        "etwas nav tas pats, kas nichts: etwas nozīmē, ka kaut kas ir, bet nichts nozīmē nekas.",
-        "Latviski dažreiz labāk skan kaut ko, nevis kaut kas, piemēram: etwas trinken = kaut ko dzert.",
-        "A Letzebuerg klingt dacks besser eppes, net eppes, zum Beispill: etwas trinken = eppes drenken."
+        "etwas kann „eppes“ oder „e bëssen“ bedeiten.",
+        "De Saz weist, wéi eng Bedeitung richteg ass."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "etwas"
-          ],
-          "purple": [
-            "kaut kas",
-            "nedaudz",
-            "Galvenā"
-          ],
-          "green": [
-            "konteksta"
-          ],
-          "yellow": [
-            "Galvenā",
-            "daudzuma"
           ]
         },
         "examples": [
@@ -6118,7 +6056,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kaut ko"
+                "eppes"
               ]
             }
           },
@@ -6130,10 +6068,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Hutt"
-              ],
-              "yellow": [
-                "Hutt"
+                "e bëssen"
               ]
             }
           },
@@ -6145,7 +6080,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nedaudz"
+                "e bëssen"
               ]
             }
           },
@@ -6157,7 +6092,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Bäinumm"
+                "eppes"
               ]
             }
           },
@@ -6169,7 +6104,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dat"
+                "e bëssen"
               ]
             }
           }
@@ -6181,18 +6116,12 @@ const A1_WORDS = [
                 "etwas"
               ]
             },
-            "meaning": {
-              "purple": [
-                "bëssi/e",
-                "bëssi/e"
-              ]
-            },
             "example": {
               "blue": [
                 "etwas"
               ],
               "purple": [
-                "Ich"
+                "eppes"
               ]
             }
           },
@@ -6202,17 +6131,12 @@ const A1_WORDS = [
                 "was"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Eppes"
-              ]
-            },
             "example": {
-              "green": [
+              "blue": [
                 "was"
               ],
               "purple": [
-                "Willst"
+                "eppes"
               ]
             }
           },
@@ -6222,15 +6146,12 @@ const A1_WORDS = [
                 "ein bisschen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "CAA"
-              ]
-            },
             "example": {
-              "yellow": [
-                "ein bisschen",
-                "Ich"
+              "blue": [
+                "ein bisschen"
+              ],
+              "purple": [
+                "e bëssen"
               ]
             }
           },
@@ -6240,30 +6161,21 @@ const A1_WORDS = [
                 "nichts"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Näischt"
-              ]
-            },
             "example": {
-              "red": [
-                "nichts",
-                "Ich"
+              "blue": [
+                "nichts"
+              ],
+              "purple": [
+                "näischt"
               ]
             }
           }
         ],
         "tip": {
           "left": {
-            "purple": [
-              "kaut kas",
-              "nedaudz"
-            ],
-            "yellow": [
-              "lieta"
-            ],
-            "green": [
-              "pakāpe"
+            "blue": [
+              "eppes",
+              "e bëssen"
             ]
           }
         },
@@ -6271,22 +6183,12 @@ const A1_WORDS = [
           {
             "blue": [
               "etwas"
-            ],
-            "purple": [
-              "kaut kas"
-            ],
-            "red": [
-              "nichts",
-              "nekas"
             ]
           },
           {
-            "blue": [
-              "etwas"
-            ],
             "purple": [
-              "kaut ko",
-              "kaut kas"
+              "Saz",
+              "Bedeitung"
             ]
           }
         ]
@@ -6370,93 +6272,84 @@ const A1_WORDS = [
   },
   {
     "de": "fahren",
-    "lv": "Braukt • Vest • Aizvest",
+    "lv": "fueren • féieren",
     "level": "A1",
     "study": {
       "id": "a1-fahren",
       "layout": "standardStudy",
-      "translation": "Braukt • Vest • Aizvest",
+      "translation": "fueren • féieren",
       "explanation": [
-        "Galvenā doma: fueren nozīmē braukt ar transportu un dažos teikumos arī vest vai aizvest kādu.",
-        "Fuert Leto, jo pārvietošanās notiek ar auto, autobusu, vilcienu, velosipēdu vai citu transportlīdzekli.",
-        "Wann de Saz eng Persoun als Objet huet, kann Fahren féieren oder ewechhuelen.",
-        "Ja kustība notiek kājām, parasti lieto walk vai run."
+        "Haaptiddi: fahren bedeit mat engem Transportmëttel fueren; mat enger Persoun als Objet kann et och féieren oder heembréngen bedeiten.",
+        "Bei engem Auto, Bus, Zuch, Vëlo oder engem aneren Transportmëttel benotzt een am Lëtzebuergesche meeschtens fueren.",
+        "Wann eng Persoun den Objet ass, passt dacks féieren oder heembréngen.",
+        "Fir Beweegung zu Fouss benotzt een goen oder lafen."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Es braucu uz Berlīni."
+          "lv": "Ech fueren op Berlin."
         },
         {
           "de": "Ich fahre mit dem Auto.",
-          "lv": "Ee fir Autoen."
+          "lv": "Ech fuere mam Auto."
         },
         {
           "de": "Ich fahre meine Tochter zur Schule.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Ech féiere meng Duechter an d’Schoul."
         },
         {
           "de": "Ich fahre dich nach Hause.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Ech féieren dech heem."
         },
         {
           "de": "Wir fahren morgen nach München.",
-          "lv": "Mēs rīt braucam uz Minheni."
+          "lv": "Mir fuere muer op München."
         }
       ],
       "comparison": [
         {
           "word": "fahren",
-          "meaning": "Reit Den Transport",
-          "example": "Ech fuer mam Bus."
+          "meaning": "mat engem Transportmëttel fueren",
+          "example": "Ich fahre mit dem Bus. – Ech fuere mam Bus."
         },
         {
           "word": "gehen",
-          "meaning": "Iet kājām",
-          "example": "Ech ginn heemgoen."
+          "meaning": "zu Fouss goen",
+          "example": "Ich gehe nach Hause. – Ech ginn heem."
         },
         {
           "word": "laufen",
-          "meaning": "CAA -",
-          "example": "Hien laapt séier."
+          "meaning": "lafen",
+          "example": "Er läuft schnell. – Hie leeft séier."
         },
         {
           "word": "bringen",
-          "meaning": "Atnest / nogādāt",
-          "example": "Ech bréngen d'Bréck."
+          "meaning": "bréngen • op eng Plaz bréngen",
+          "example": "Ich bringe das Buch. – Ech bréngen d’Buch."
         },
         {
           "word": "mitnehmen",
-          "meaning": "CAA -",
-          "example": "Ech nemmen dech mat."
+          "meaning": "mathuelen",
+          "example": "Ich nehme dich mit. – Ech huelen dech mat."
         }
       ],
       "tip": {
-        "text": "Atceries: transportlīdzeklis → fahren; kājām → gehen."
+        "text": "Denk drun: Transportmëttel → fahren; zu Fouss → gehen."
       },
-      "important": {
-        "text": "Dat ass dat „wir\"., Hier waren wir nie! '",
-        "example": "Vācu valodā viens un tas pats darbības vārds bieži nozīmē: braukt • vest • aizvest atkarībā no konteksta."
-      },
+      "important": [
+        "fahren gëtt jee no Kontext mat fueren oder féieren erëmgi.",
+        "Mat engem Transportmëttel: fueren. Eng Persoun op eng Plaz bréngen: féieren."
+      ],
       "accents": {
         "blue": [
-          "fahren",
-          "fahre"
+          "fahren"
         ],
         "purple": [
-          "braukt",
-          "braucu",
-          "vest",
-          "vedu",
-          "aizvest"
+          "fueren",
+          "féieren"
         ],
         "green": [
-          "transportu",
-          "transportlīdzekli",
-          "auto",
-          "autobusu",
-          "vilcienu",
-          "velosipēdu"
+          "Transportmëttel"
         ],
         "yellow": [
           "gehen",
@@ -6471,22 +6364,6 @@ const A1_WORDS = [
         "explanation": {
           "blue": [
             "fahren"
-          ],
-          "purple": [
-            "braukt",
-            "vest",
-            "aizvest"
-          ],
-          "green": [
-            "auto",
-            "autobusu",
-            "vilcienu",
-            "velosipēdu",
-            "transportlīdzekli"
-          ],
-          "yellow": [
-            "Galvenā",
-            "Galvenā"
           ]
         },
         "examples": [
@@ -6498,10 +6375,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "braucu"
-              ],
-              "green": [
-                "Berlīni"
+                "fueren"
               ]
             }
           },
@@ -6509,17 +6383,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "fahre"
-              ],
-              "green": [
-                "Auto"
               ]
             },
             "lv": {
               "purple": [
-                "fir"
-              ],
-              "green": [
-                "auto"
+                "fuere"
               ]
             }
           },
@@ -6527,19 +6395,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "fahre"
-              ],
-              "green": [
-                "Tochter",
-                "Schule"
               ]
             },
             "lv": {
               "purple": [
-                "Dat"
-              ],
-              "green": [
-                "Dat",
-                "Dat"
+                "féiere"
               ]
             }
           },
@@ -6547,19 +6407,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "fahre"
-              ],
-              "green": [
-                "dich",
-                "Hause"
               ]
             },
             "lv": {
               "purple": [
-                "Dat"
-              ],
-              "green": [
-                "Dat",
-                "Dat"
+                "féieren"
               ]
             }
           },
@@ -6567,17 +6419,11 @@ const A1_WORDS = [
             "de": {
               "blue": [
                 "fahren"
-              ],
-              "green": [
-                "München"
               ]
             },
             "lv": {
               "purple": [
-                "braucam"
-              ],
-              "green": [
-                "Minheni"
+                "fuere"
               ]
             }
           }
@@ -6589,14 +6435,12 @@ const A1_WORDS = [
                 "fahren"
               ]
             },
-            "meaning": {
-              "purple": [
-                "Reit"
-              ]
-            },
             "example": {
               "blue": [
                 "fahre"
+              ],
+              "purple": [
+                "fuere"
               ]
             }
           },
@@ -6606,14 +6450,12 @@ const A1_WORDS = [
                 "gehen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "iet kājām"
-              ]
-            },
             "example": {
-              "yellow": [
+              "blue": [
                 "gehe"
+              ],
+              "purple": [
+                "ginn"
               ]
             }
           },
@@ -6623,15 +6465,12 @@ const A1_WORDS = [
                 "laufen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "CAA",
-                "CAA"
-              ]
-            },
             "example": {
-              "yellow": [
+              "blue": [
                 "läuft"
+              ],
+              "purple": [
+                "leeft"
               ]
             }
           },
@@ -6641,15 +6480,12 @@ const A1_WORDS = [
                 "bringen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "atnest",
-                "nogādāt"
-              ]
-            },
             "example": {
-              "red": [
+              "blue": [
                 "bringe"
+              ],
+              "purple": [
+                "bréngen"
               ]
             }
           },
@@ -6659,15 +6495,12 @@ const A1_WORDS = [
                 "mitnehmen"
               ]
             },
-            "meaning": {
-              "purple": [
-                "CAA"
-              ]
-            },
             "example": {
-              "red": [
-                "nehme",
-                "mit"
+              "blue": [
+                "nehme"
+              ],
+              "purple": [
+                "huelen"
               ]
             }
           }
@@ -6675,37 +6508,27 @@ const A1_WORDS = [
         "tip": {
           "left": {
             "blue": [
-              "fahren"
-            ],
-            "yellow": [
+              "fahren",
               "gehen"
-            ],
-            "green": [
-              "transportlīdzeklis",
-              "kājām"
             ]
           }
         },
         "important": [
           {
-            "text": {
-              "blue": [
-                "waren"
-              ],
-              "purple": [
-                "braukt"
-              ]
-            },
-            "example": {
-              "blue": [
-                "waren"
-              ],
-              "purple": [
-                "braukt",
-                "vest",
-                "aizvest"
-              ]
-            }
+            "blue": [
+              "fahren"
+            ],
+            "purple": [
+              "fueren",
+              "féieren"
+            ]
+          },
+          {
+            "purple": [
+              "Transportmëttel",
+              "féieren",
+              "fueren"
+            ]
           }
         ]
       }
@@ -11184,19 +11007,19 @@ const A1_WORDS = [
   },
   {
     "de": "jung",
-    "lv": "Jauns (par cilvēkiem)",
+    "lv": "jonk",
     "level": "A1",
     "study": {
       "id": "a1-jung",
       "layout": "standardStudy",
-      "translation": "Jauns (par cilvēkiem)",
+      "translation": "jonk",
       "explanation": [
-        "Galvenā doma: jung nozīmē jauns vecuma ziṭā — lieto par cilvēkiem un dzīvniekiem, ne par lietām.",
-        "Young raksturo vecumu — fun stats ir alt (vecs).",
-        "Latviešu valodā vārdam jauns ir divas nozīmes: jauns vecumā (jonk) en jauns/nesen radīts (nei).",
-        "Fir Saachen déi viru kuerzem erstallt oder kaaft goufen, benotzt neu, ne jung.",
-        "Jung lieto arī pārnestā nozīmē: jauna paaudze, jauns pāris, jauni cilvēki.",
-        "Ir aī lietvārds jeunesse (jaunatne, jaunība)."
+        "Haaptiddi: jung bedeit jonk am Alter a gëtt fir Mënschen an Déiere gebraucht.",
+        "jung beschreift den Alter; de Géigendeel ass alt.",
+        "Dat däitscht jung ass net dat selwecht wéi neu fir eng nei oder rezent hiergestallt Saach.",
+        "Fir Saachen, déi nei kaaft oder nei hiergestallt sinn, gëtt neu gebraucht.",
+        "jung kann och am iwwerdroene Sënn stoen, zum Beispill jonk Generatioun oder jonkt Koppel.",
+        "Et gëtt och d’Substantiv die Jugend."
       ],
       "examples": [
         {
@@ -11205,37 +11028,37 @@ const A1_WORDS = [
         },
         {
           "de": "Der Hund ist jung.",
-          "lv": "Sunn ir jauns."
+          "lv": "Den Hond ass jonk."
         },
         {
           "de": "Wir sind noch jung.",
-          "lv": "Bis geschwënn."
+          "lv": "Mir sinn nach jonk."
         },
         {
           "de": "Er sieht sehr jung aus.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Hie gesäit ganz jonk aus."
         },
         {
           "de": "Das ist ein junges Paar.",
-          "lv": "De l'autre côté du miroir."
+          "lv": "Dat ass eng jonk Koppel."
         },
         {
           "de": "Die junge Frau lächelt.",
-          "lv": "Jaunā sieviete smaida."
+          "lv": "Déi jonk Fra laacht."
         },
         {
           "de": "Mein Bruder ist jünger als ich.",
-          "lv": "D'Männer brālis ir jaunāks nekā es."
+          "lv": "Mäi Brudder ass méi jonk wéi ech."
         }
       ],
       "tip": [
-        "jung ass fir d'Alter (Mënschen, Béischter) — wann iwwer nei Saachen geschwat gëtt, benotzt neu.",
-        "Géigsaz: jung ↔ alt (jong ↔ al)."
+        "jung ass fir den Alter vu Mënschen oder Déieren; fir eng nei Saach gëtt neu gebraucht.",
+        "Géigendeel: jung an alt."
       ],
       "important": [
-        "jung charakteriséiert d'Alter, net d'Neiheit vun enger Saach.",
-        "Fir nei Saachen (Handy, Auto, Haus) benotzt neu, net jung.",
-        "Falsch: Mein Handy ist jung. → Richteg: Mein Handy ist neu."
+        "jung beschreift Alter, net d’Neiheet vun enger Saach.",
+        "Fir en neien Telefon, Auto oder Haus: neu, net jung.",
+        "Falsch: Mein Handy ist jung. Richteg: Mein Handy ist neu."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11243,10 +11066,7 @@ const A1_WORDS = [
             "jung"
           ],
           "purple": [
-            "jauns"
-          ],
-          "green": [
-            "neu"
+            "jonk"
           ]
         },
         "examples": [
@@ -11258,7 +11078,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ass"
+                "jonk"
               ]
             }
           },
@@ -11270,7 +11090,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jauns"
+                "jonk"
               ]
             }
           },
@@ -11282,7 +11102,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Bis"
+                "jonk"
               ]
             }
           },
@@ -11294,7 +11114,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dat"
+                "jonk"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "junges"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "jonk"
               ]
             }
           },
@@ -11306,19 +11138,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "l'autre"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "junge"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "jaunā"
+                "jonk"
               ]
             }
           },
@@ -11330,49 +11150,37 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "jaunāks"
+                "méi jonk"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
+            "purple": [
               "jung"
-            ],
-            "green": [
-              "neu"
             ]
           },
           {
-            "blue": [
-              "jung"
-            ],
             "purple": [
-              "alt"
+              "Géigendeel"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
+            "purple": [
               "jung"
             ]
           },
           {
-            "green": [
-              "neu"
-            ],
-            "blue": [
-              "jung"
+            "purple": [
+              "Fir"
             ]
           },
           {
-            "blue": [
-              "jung"
-            ],
-            "green": [
-              "neu"
+            "purple": [
+              "Falsch"
             ]
           }
         ]
@@ -11398,52 +11206,52 @@ const A1_WORDS = [
   },
   {
     "de": "kein",
-    "lv": "Neviens • Nekāds",
+    "lv": "keen • keng",
     "level": "A1",
     "study": {
       "id": "a1-kein",
       "layout": "standardStudy",
-      "translation": "Neviens • Nekāds",
+      "translation": "keen • keng",
       "explanation": [
-        "Galvenā doma: keine ir nolieguma artikuls, kas noliedz lietvārdu — latviski atkarībā no konteksta neviens vai nekāds.",
-        "Kein locījas tāpat kā ein (kein/keine/keinen...) un stāv latevārda priekšā.",
-        "Ar skaitāmiem lietvārdiem (cilvēkiem) no bieži tulko kā neviens (no man = neviens cilvēks).",
-        "Ar nesaitāmiem vai abstraiem lietvārdiem no bieži tulko kā nekāds/nav vispār (no money = nekādas naudas/nav naudas).",
-        "No noliedz veselu lietvārdu, ne tikai darbības vārdu (salīdzini ar nicht)."
+        "Haaptiddi: kein ass en däitschen Negatiounsartikel, deen e Substantiv verneint.",
+        "kein gëtt wéi ein deklinéiert: kein, keine, keinen an aner Formen; et steet virum Substantiv.",
+        "Bei Persounen entsprécht kein jee no Genus dem lëtzebuergesche keen oder keng.",
+        "Bei Stoff- oder abstrakte Substantiver entsprécht kein jee no Genus an Numerus dem lëtzebuergesche keen oder keng.",
+        "kein verneint e Substantiv; nicht verneint jee no Kontext en anert Element oder de ganze Saz."
       ],
       "examples": [
         {
           "de": "Ich habe kein Geld.",
-          "lv": "Man naudas ass naudas."
+          "lv": "Ech hu keng Suen."
         },
         {
           "de": "Es gibt keine Milch mehr.",
-          "lv": "Piena vairs nav nemaz."
+          "lv": "Et gëtt keng Mëllech méi."
         },
         {
           "de": "Kein Mensch war da.",
-          "lv": "Neviens cilvēks tur nebija."
+          "lv": "Kee Mënsch war do."
         },
         {
           "de": "Ich habe keine Zeit.",
-          "lv": "MAN NAV VILA."
+          "lv": "Ech hu keng Zäit."
         },
         {
           "de": "Das ist kein Problem.",
-          "lv": "Et ass kee Problem."
+          "lv": "Dat ass kee Problem."
         },
         {
           "de": "Wir haben keine Kinder.",
-          "lv": "Mums nav bērnu. - Mums nav bērnu."
+          "lv": "Mir hu keng Kanner."
         }
       ],
       "tip": [
-        "kein noliedt e Substantiv (kein + Substantiv), nicht noliedt e Verb oder Saz.",
-        "kein Dekliniéiert wéi ein: kein/keine/keinen/keiner."
+        "kein verneint e Substantiv; nicht huet aner Negatiounsfunktiounen.",
+        "Däitsch Formen: kein, keine, keinen, keiner."
       ],
       "important": [
-        "kein + Substantiv = 'kee/keng X', net 'net een X'.",
-        "Falsch: Ich habe nicht ein Geld. → Richteg: Ich habe kein Geld."
+        "kein + Substantiv ass den däitschen Negatiounsartikel.",
+        "Falsch: Ich habe nicht ein Geld. Richteg: Ich habe kein Geld."
       ],
       "sectionAccents": {
         "explanation": {
@@ -11451,8 +11259,7 @@ const A1_WORDS = [
             "kein"
           ],
           "purple": [
-            "neviens",
-            "nekāds"
+            "keen"
           ]
         },
         "examples": [
@@ -11464,7 +11271,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Man"
+                "keng"
               ]
             }
           },
@@ -11476,19 +11283,19 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nav nemaz"
+                "keng"
               ]
             }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "Kein"
               ]
             },
             "lv": {
               "purple": [
-                "neviens"
+                "Kee"
               ]
             }
           },
@@ -11500,7 +11307,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nav"
+                "keng"
               ]
             }
           },
@@ -11512,7 +11319,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Et"
+                "kee"
               ]
             }
           },
@@ -11524,38 +11331,32 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "nav"
+                "keng"
               ]
             }
           }
         ],
         "tip": [
           {
-            "blue": [
+            "purple": [
               "kein"
-            ],
-            "green": [
-              "nicht"
             ]
           },
           {
-            "blue": [
-              "kein/keine/keinen/keiner"
+            "purple": [
+              "Däitsch"
             ]
           }
         ],
         "important": [
           {
-            "blue": [
+            "purple": [
               "kein"
             ]
           },
           {
-            "red": [
-              "nicht ein Geld"
-            ],
-            "blue": [
-              "kein Geld"
+            "purple": [
+              "Falsch"
             ]
           }
         ]
@@ -13411,81 +13212,73 @@ const A1_WORDS = [
   },
   {
     "de": "laufen",
-    "lv": "Skriet • DARBOTIES",
+    "lv": "lafen • funktionéieren",
     "level": "A1",
     "study": {
       "id": "a1-laufen",
       "layout": "standardStudy",
-      "translation": "Skriet • DARBOTIES",
+      "translation": "lafen • funktionéieren",
       "explanation": [
-        "Galvenā doma: run nozīmē skriet, bet ar ierīcēm tas var nozīmēt darboties.",
-        "Par cilvēku vai dzīvnieku run bieži nozīmē skriet vai iet ātrā solī.",
-        "Par filmu, machen d'Programmatioun nozīmē, wéi Dir e Message hutt.",
-        "Kustībai kājām A1 līmenī visbiežāk salīdzina géi lafen."
+        "Haaptiddi: laufen bedeit bei enger Persoun oder engem Déier lafen; bei engem Film oder enger Maschinn kann et lafen oder funktionéieren bedeiten.",
+        "Bei enger Persoun oder engem Déier beschreift laufen dacks eng séier Beweegung zu Fouss.",
+        "Bei engem Film, enger Maschinn oder engem Programm weist laufen, datt eppes leeft oder funktionéiert.",
+        "Fir Beweegung zu Fouss ass den Haaptkontrast gehen = goen an laufen = lafen."
       ],
       "examples": [
         {
           "de": "Er läuft sehr schnell.",
-          "lv": "Произношение на Ech hunn dech gäer"
+          "lv": "Hie leeft ganz séier."
         },
         {
           "de": "Die Kinder laufen im Park.",
-          "lv": "Bērni skrien parkā."
+          "lv": "D’Kanner lafen am Park."
         },
         {
           "de": "Der Film läuft schon.",
-          "lv": "Filma jau iet."
+          "lv": "De Film leeft schonn."
         },
         {
           "de": "Die Maschine läuft gut.",
-          "lv": "Mašīna darbojas labi."
+          "lv": "D’Maschinn leeft gutt."
         }
       ],
       "comparison": [
         {
           "word": "laufen",
-          "meaning": "CAA -",
-          "example": "Hien laapt séier."
+          "meaning": "lafen / lafen oder funktionéieren",
+          "example": "Er läuft schnell."
         },
         {
           "word": "gehen",
-          "meaning": "Iet kājām",
-          "example": "Ech ginn heemgoen."
+          "meaning": "goen",
+          "example": "Ich gehe nach Hause."
         },
         {
           "word": "fahren",
-          "meaning": "Reit Den Transport",
-          "example": "Ech fuer mam Bus."
+          "meaning": "fueren",
+          "example": "Ich fahre mit dem Bus."
         },
         {
           "word": "funktionieren",
-          "meaning": "CAA -",
-          "example": "Dat funktionéiert gutt."
+          "meaning": "funktionéieren",
+          "example": "Das funktioniert gut."
         }
       ],
       "tip": {
-        "text": "Atceries: kājas ātri → laufen; transports → fahren."
+        "text": "Denk drun: séier zu Fouss → laufen; mat engem Transportmëttel → fahren."
       },
       "important": [
-        "laufen ass net nëmmen \"renne\". Iwwer Film oder Apparat et kann \"goen\" oder \"funktionéieren\" bedeit.",
-        "Ich laufe bedeit Bewegung ze Fouss, net fueren."
+        "laufen bedeit net nëmmen lafen; bei engem Film oder engem Apparat kann et och lafen oder funktionéieren heeschen.",
+        "Ich laufe beschreift eng Beweegung zu Fouss, net eng Faart."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "lafen"
+            "laufen"
           ],
           "purple": [
-            "skriet",
-            "darboties",
-            "iet"
-          ],
-          "green": [
-            "cilvēku",
-            "dzīvnieku",
-            "filmu",
-            "Galvenā",
-            "Galvenā"
+            "lafen",
+            "funktionéieren"
           ]
         },
         "examples": [
@@ -13497,7 +13290,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Произношение"
+                "leeft"
               ]
             }
           },
@@ -13509,7 +13302,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skrien"
+                "lafen"
               ]
             }
           },
@@ -13521,7 +13314,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "iet"
+                "leeft"
               ]
             }
           },
@@ -13533,7 +13326,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "darbojas"
+                "leeft"
               ]
             }
           }
@@ -13547,15 +13340,10 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA",
-                "CAA"
+                "lafen"
               ]
             },
-            "example": {
-              "blue": [
-                "läuft"
-              ]
-            }
+            "example": {}
           },
           {
             "word": {
@@ -13565,14 +13353,10 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iet"
+                "goen"
               ]
             },
-            "example": {
-              "yellow": [
-                "gehe"
-              ]
-            }
+            "example": {}
           },
           {
             "word": {
@@ -13582,14 +13366,10 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Reit"
+                "fueren"
               ]
             },
-            "example": {
-              "red": [
-                "fahre"
-              ]
-            }
+            "example": {}
           },
           {
             "word": {
@@ -13599,50 +13379,28 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "funktionéieren"
               ]
             },
-            "example": {
-              "green": [
-                "funktioniert"
-              ]
-            }
+            "example": {}
           }
         ],
         "tip": {
           "left": {
-            "blue": [
-              "laufen"
-            ],
             "purple": [
-              "kājas ātri"
-            ],
-            "red": [
-              "fahren",
-              "transports"
+              "Denk"
             ]
           }
         },
         "important": [
           {
-            "blue": [
-              "laufen"
-            ],
             "purple": [
-              "skriet",
-              "iet",
-              "darboties"
+              "laufen"
             ]
           },
           {
-            "blue": [
-              "Ich laufe"
-            ],
             "purple": [
-              "kustību kājām"
-            ],
-            "red": [
-              "braukšanu"
+              "Ich laufe"
             ]
           }
         ]
@@ -15143,54 +14901,54 @@ const A1_WORDS = [
     "de": "Mann",
     "de_article": "der",
     "de_plural": "die Männer",
-    "lv": "Vīrietis • Vīrs",
+    "lv": "Mann",
     "level": "A1",
     "study": {
       "id": "a1-mann",
       "layout": "standardStudy",
-      "translation": "Vīrietis • Vīrs",
+      "translation": "Mann",
       "explanation": [
-        "Galvenā doma: de Mann war nozīmēt vīrieti (dzimums) vai vīru (laulātais).",
-        "Yes runa ir vienkārši par dzimumu vai personu, the man = vīrietis.",
-        "Yes runa ir par laulāto partneri, der Mann = vīrs (mein Mann = mans vīrs).",
-        "Piederības vietniekvārds (my/your/her husband) gandrīz vienmēr nozīmē vīru — laulāto.",
-        "DAudzskaitlī: men.",
-        "Fir d'Fréieform d'Frau huet déi selwecht duebel Bedeitong: Fra UND Éfra."
+        "Haaptiddi: der Mann kann e Mann als männlech Persoun oder de Mann als Ehepartner bedeiten.",
+        "Wann et allgemeng ëm d’Geschlecht oder eng Persoun geet, ass der Mann eng männlech Persoun.",
+        "Wann et ëm de bestuete Partner geet, bedeit der Mann den Ehepartner: mein Mann = mäi Mann.",
+        "Mat engem Possessivwuert wéi mein, dein oder ihr Mann ass bal ëmmer den Ehepartner gemengt.",
+        "D’Pluralform ass die Männer.",
+        "Och die Frau kann zwou Bedeitungen hunn: Fra als weiblech Persoun a Fra als Ehepartnerin."
       ],
       "examples": [
         {
           "de": "Er ist ein netter Mann.",
-          "lv": "D'Virfreed op d'Lëtzebuergescht ass grouss."
+          "lv": "Hien ass en nette Mann."
         },
         {
           "de": "Das ist mein Mann.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Dat ass mäi Mann."
         },
         {
           "de": "Wie viele Männer sind hier?",
-          "lv": "Wësst Dir wat Dir wëllt?"
+          "lv": "Wéi vill Männer sinn hei?"
         },
         {
           "de": "Mein Mann arbeitet in Berlin.",
-          "lv": "Mënsche sinn an der Belsch."
+          "lv": "Mäi Mann schafft zu Berlin."
         },
         {
           "de": "Der Mann trägt einen Anzug.",
-          "lv": "Vīrietis valkā uzvalku."
+          "lv": "De Mann huet e Kostüm un."
         },
         {
           "de": "Ihr Mann ist Arzt.",
-          "lv": "De l'autre côté du miroir."
+          "lv": "Hire Mann ass Dokter."
         }
       ],
       "tip": [
-        "Mat Possessivwuert (mein/dein/ihr Mann) ass bal ëmmer de Wuert \"Émann\" (verhäirat) gemeent.",
-        "Ouni Possessivwuert (der Mann, ein Mann) ass normalerweis de Wuert \"Mënsch\" gemeent."
+        "Mat engem Possessivwuert wéi mein, dein oder ihr Mann ass bal ëmmer den Ehepartner gemengt.",
+        "Ouni Possessivwuert, wéi bei der Mann oder ein Mann, ass meeschtens eng männlech Persoun gemengt."
       ],
       "important": [
-        "der Mann = Mënsch ODER Émann — dorëms vum Kontext.",
-        "mein Mann = mäi Émann (net 'mäi Mënsch').",
-        "DAudzskaitlī: men."
+        "der Mann kann eng männlech Persoun oder en Ehepartner bedeiten; de Kontext entscheet.",
+        "mein Mann bedeit mäi Mann als Ehepartner.",
+        "D’Pluralform ass die Männer."
       ],
       "sectionAccents": {
         "explanation": {
@@ -15199,8 +14957,8 @@ const A1_WORDS = [
             "Mann"
           ],
           "purple": [
-            "vīrietis",
-            "vīrs"
+            "männlech Persoun",
+            "Ehepartner"
           ]
         },
         "examples": [
@@ -15212,7 +14970,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "D'Virfreed"
+                "Mann"
               ]
             }
           },
@@ -15224,7 +14982,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dat"
+                "mäi Mann"
               ]
             }
           },
@@ -15236,7 +14994,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Wësst"
+                "Männer"
               ]
             }
           },
@@ -15248,7 +15006,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mënsche"
+                "Mäi Mann"
               ]
             }
           },
@@ -15260,7 +15018,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "vīrietis"
+                "Mann"
               ]
             }
           },
@@ -15272,7 +15030,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "l'autre"
+                "Hire Mann"
               ]
             }
           }
@@ -15285,7 +15043,7 @@ const A1_WORDS = [
               "ihr Mann"
             ],
             "purple": [
-              "vīrs"
+              "Ehepartner"
             ]
           },
           {
@@ -15294,20 +15052,26 @@ const A1_WORDS = [
               "ein Mann"
             ],
             "purple": [
-              "vīrietis"
+              "männlech Persoun"
             ]
           }
         ],
         "important": [
           {
+            "blue": [
+              "der Mann"
+            ],
             "purple": [
-              "vīrietis",
-              "vīrs"
+              "männlech Persoun",
+              "Ehepartner"
             ]
           },
           {
             "green": [
               "mein Mann"
+            ],
+            "purple": [
+              "Ehepartner"
             ]
           },
           {
@@ -15406,82 +15170,79 @@ const A1_WORDS = [
   },
   {
     "de": "mit",
-    "lv": "CAA -",
+    "lv": "mat",
     "level": "A1",
     "study": {
       "id": "a1-mit",
       "layout": "standardStudy",
-      "translation": "CAA -",
+      "translation": "mat",
       "explanation": [
-        "Galvenā doma: mam visbiežāk nozīmē ar.",
-        "Mit lieto, ja cilvēks ir kopā ar kādu vai kaut ko dara ar kādu lietu.",
-        "Ar transportu mat bieži nozīmē braukt ar autobusu, vilcienu vai auto.",
-        "A1 līmenī Đoti biežas frāzes ir mam Bus, mam Auto a mat Iech."
+        "Haaptiddi: mit bedeit meeschtens mat.",
+        "mit gëtt benotzt, wann eng Persoun zesumme mat engem ass oder eppes mat engem Géigestand mécht.",
+        "Bei Transportmëttel steet mit a Wendunge wéi mit dem Bus, mit dem Zug oder mit dem Auto.",
+        "Um Niveau A1 si mit dem Bus, mit dem Auto a mit dir besonnesch heefeg."
       ],
       "examples": [
         {
           "de": "Ich komme mit dir.",
-          "lv": "Et ass noutwenneg."
+          "lv": "Ech komme mat dir."
         },
         {
           "de": "Ich fahre mit dem Bus.",
-          "lv": "Es braucu ar autobusu."
+          "lv": "Ech fuere mam Bus."
         },
         {
           "de": "Sie schreibt mit dem Stift.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Si schreift mat engem Stëft."
         },
         {
           "de": "Kommst du mit?",
-          "lv": "Wat ass den Ënnerscheed?"
+          "lv": "Kënns du mat?"
         }
       ],
       "comparison": [
         {
           "word": "mit",
-          "meaning": "Mat/joint mat",
-          "example": "Ech komm mat dir."
+          "meaning": "mat / zesumme mat",
+          "example": "Ich komme mit dir."
         },
         {
           "word": "ohne",
-          "meaning": "CAA -",
-          "example": "Ech komm ouni dech."
+          "meaning": "ouni",
+          "example": "Ich komme ohne dich."
         },
         {
           "word": "bei",
-          "meaning": "PIE/ PIE kāda",
-          "example": "Ech sinn bei Anna."
+          "meaning": "bei / bei engem",
+          "example": "Ich bin bei Anna."
         },
         {
           "word": "zu",
-          "meaning": "CAA -",
-          "example": "Ech ginn zum Dokter."
+          "meaning": "bei / op",
+          "example": "Ich gehe zum Arzt."
         }
       ],
       "tip": {
-        "text": "Atceries: kopā ar kādu vai ar transportu → mit."
+        "text": "Erënner dech: zesumme mat engem oder mat engem Transportmëttel → mit."
       },
       "important": [
-        "mit freet den Datif: mit dem Bus, mit der Mutter, mit dir.",
-        "Kommst du mit? bedeit \"Kënns du matgoen?\""
+        "mit steet am Däitsche mam Dativ: mit dem Bus, mit der Mutter, mit dir.",
+        "Kommst du mit? bedeit „Kënns du mat?“"
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "mit",
-            "Galvenā",
-            "Galvenā",
-            "Galvenā"
+            "mit dem Bus",
+            "mit dem Auto",
+            "mit dir"
           ],
           "purple": [
-            "ar",
-            "kopā ar"
+            "mat",
+            "zesumme mat"
           ],
           "green": [
-            "transportu",
-            "autobusu",
-            "vilcienu",
-            "auto"
+            "Transportmëttel"
           ]
         },
         "examples": [
@@ -15493,7 +15254,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ass"
+                "mat dir"
               ]
             }
           },
@@ -15505,7 +15266,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "ar autobusu"
+                "mam Bus"
               ]
             }
           },
@@ -15517,7 +15278,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dat"
+                "mat engem Stëft"
               ]
             }
           },
@@ -15529,7 +15290,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Wat"
+                "mat"
               ]
             }
           }
@@ -15543,8 +15304,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Mat/joint",
-                "Mat/joint"
+                "mat",
+                "zesumme mat"
               ]
             },
             "example": {
@@ -15561,7 +15322,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "ouni"
               ]
             },
             "example": {
@@ -15578,7 +15339,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "bei"
               ]
             },
             "example": {
@@ -15595,8 +15356,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA",
-                "CAA"
+                "op"
               ]
             },
             "example": {
@@ -15612,8 +15372,8 @@ const A1_WORDS = [
               "mit"
             ],
             "purple": [
-              "kopā ar",
-              "ar transportu"
+              "zesumme mat",
+              "Transportmëttel"
             ]
           }
         },
@@ -15623,12 +15383,7 @@ const A1_WORDS = [
               "mit"
             ],
             "purple": [
-              "datīvu"
-            ],
-            "yellow": [
-              "dem Bus",
-              "der Mutter",
-              "dir"
+              "Dativ"
             ]
           },
           {
@@ -15636,7 +15391,7 @@ const A1_WORDS = [
               "Kommst du mit"
             ],
             "purple": [
-              "nāksi līdzi"
+              "Kënns du mat"
             ]
           }
         ]
@@ -15671,76 +15426,76 @@ const A1_WORDS = [
   },
   {
     "de": "mögen",
-    "lv": "CAA -",
+    "lv": "gär hunn",
     "level": "A1",
     "study": {
       "id": "a1-mögen",
       "layout": "standardStudy",
-      "translation": "CAA -",
+      "translation": "gär hunn",
       "explanation": [
-        "Galvenā doma: wéi visbiežāk nozīmē, ka kaut kas patīk.",
-        "Ech hu gär... latviski parasti ir \"Mann patīk...\".",
-        "Would like ir cita forma, ko lieto pieklājīgai vēlmei: es gribētu.",
-        "A1 līmenī answerīgākā frāze ir dat gefällt mir."
+        "Haaptiddi: mögen bedeit meeschtens, datt een eppes gär huet.",
+        "Ich mag... gëtt am Lëtzebuergeschen normalerweis mat Ech hunn ... gär ausgedréckt.",
+        "möchte ass eng aner Form fir en héifleche Wonsch: Ech hätt gär.",
+        "Um Niveau A1 ass Ich mag das eng wichteg Basiswendung."
       ],
       "examples": [
         {
           "de": "Ich mag Musik.",
-          "lv": "Ech Léift Musek"
+          "lv": "Ech hu Musek gär."
         },
         {
           "de": "Magst du Kaffee?",
-          "lv": "Vai tev garšo kafija?"
+          "lv": "Hues du Kaffi gär?"
         },
         {
           "de": "Sie mag Kinder.",
-          "lv": "D'Virfahre sinn eriwwer."
+          "lv": "Si huet Kanner gär."
         },
         {
           "de": "Ich möchte einen Kaffee.",
-          "lv": "Et ass gribētu kafiju."
+          "lv": "Ech hätt gär e Kaffi."
         }
       ],
       "comparison": [
         {
           "word": "mögen",
-          "meaning": "CAA -",
-          "example": "Ech mag Musek."
+          "meaning": "gär hunn",
+          "example": "Ich mag Musik."
         },
         {
           "word": "möchte",
-          "meaning": "CAA -",
-          "example": "Ech mécht Kaffee."
+          "meaning": "hätt gär",
+          "example": "Ich möchte Kaffee."
         },
         {
           "word": "wollen",
-          "meaning": "CAA -",
-          "example": "Ech wëll heemgoen."
+          "meaning": "wëllen",
+          "example": "Ich will nach Hause."
         },
         {
           "word": "lieben",
-          "meaning": "CAA -",
-          "example": "Ech léischt dech."
+          "meaning": "léiwen",
+          "example": "Ich liebe dich."
         }
       ],
       "tip": {
-        "text": "Atceries: Ich mag... = man patīk..."
+        "text": "Erënner dech: Ich mag... = Ech hunn ... gär."
       },
       "important": [
-        "mögen ass net d'Haaptwuert fir de polite \"ech wëll guer\". Fir dat benotz een normalerweis möchte.",
-        "Ich mag Kaffee bedeit \"mir schmeckt de Kaffee\"."
+        "Fir den héiflechen Ausdrock „ech hätt gär“ benotzt een am Däitsche meeschtens möchte, net mögen.",
+        "Ich mag Kaffee bedeit „Ech hu Kaffi gär“."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Galvenā",
-            "Galvenā",
-            "Galvenā"
+            "mögen",
+            "Ich mag",
+            "möchte"
           ],
           "purple": [
-            "patīk",
-            "Mann patīk",
-            "es gribētu"
+            "gär huet",
+            "Ech hunn",
+            "Ech hätt gär"
           ]
         },
         "examples": [
@@ -15752,10 +15507,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Ech"
-              ],
-              "yellow": [
-                "Ech"
+                "hu Musek gär"
               ]
             }
           },
@@ -15767,10 +15519,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "garšo"
-              ],
-              "yellow": [
-                "kafija"
+                "Kaffi gär"
               ]
             }
           },
@@ -15782,10 +15531,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "D'Virfahre"
-              ],
-              "green": [
-                "D'Virfahre"
+                "huet Kanner gär"
               ]
             }
           },
@@ -15797,10 +15543,7 @@ const A1_WORDS = [
             },
             "lv": {
               "red": [
-                "gribētu"
-              ],
-              "yellow": [
-                "kafiju"
+                "hätt gär"
               ]
             }
           }
@@ -15814,7 +15557,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "gär hunn"
               ]
             },
             "example": {
@@ -15831,7 +15574,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "hätt gär"
               ]
             },
             "example": {
@@ -15848,7 +15591,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "wëllen"
               ]
             },
             "example": {
@@ -15865,7 +15608,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "léiwen"
               ]
             },
             "example": {
@@ -15881,29 +15624,27 @@ const A1_WORDS = [
               "Ich mag"
             ],
             "purple": [
-              "man patīk"
+              "Ech hunn",
+              "gär"
             ]
           }
         },
         "important": [
           {
             "blue": [
+              "möchte",
               "mögen"
             ],
-            "red": [
-              "möchte"
-            ],
             "purple": [
-              "gribētu"
+              "ech hätt gär"
             ]
           },
           {
             "blue": [
-              "mag"
+              "Ich mag Kaffee"
             ],
             "purple": [
-              "garšo",
-              "patīk"
+              "Ech hu Kaffi gär"
             ]
           }
         ]
@@ -15933,151 +15674,156 @@ const A1_WORDS = [
   },
   {
     "de": "morgen",
-    "lv": "CAA -",
+    "lv": "muer",
     "level": "A1",
     "study": {
       "id": "a1-morgen",
       "layout": "standardStudy",
-      "translation": "CAA -",
+      "translation": "muer",
       "explanation": [
-        "Haaptidee: Zäitomständ mat klengem Bréck. Bedeit déi nächst Dag — muer.",
-        "Muer galvenokārt nozīmē: nākamajā dienā.",
-        "Dacks karakteriséiert: Zäitomständ.",
-        "Muer heescht virun allem: en Deel vum Dag.",
-        "Bieži raksturo: Laatvārds (déi).",
-        "Muer galvenokārt nozīmē: vairāki rīti.",
-        "Bieži raksturo: Laatvārds (pl.).",
-        "Morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (ich komme morgen = es nāku rīt, bis morgen!)"
+        "Haaptiddi: morgen mat klenge Buschtaf ass en Zäitadverb a bedeit den nächsten Dag: muer.",
+        "An Ich komme morgen bezitt morgen sech op den nächsten Dag.",
+        "der Morgen mat groussem Buschtaf an Artikel ass dogéint e Substantiv a bedeit Moien.",
+        "De grousse Buschtaf am Ufank vu Morgen ist Montag kënnt nëmme vun der Positioun am Saz; hei bedeit Morgen weiderhin muer."
       ],
       "examples": [
         {
           "de": "Ich komme morgen.",
-          "lv": "Et ass noutwenneg."
+          "lv": "Ech kommen muer."
         },
         {
           "de": "Bis morgen!",
-          "lv": "Līdz rīt!"
+          "lv": "Bis muer!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Et ass noutwenneg."
+          "lv": "Ech kommen muer."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Rīt ir pirmdiena."
+          "lv": "Muer ass Méindeg."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Labrīt!"
+          "lv": "Gudde Moien!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "De l'autre côté du miroir."
+          "lv": "De Moien ass schéin."
         }
       ],
       "tip": [
-        "De klenge morgen = muer (Ich komme morgen). der Morgen mat Großbréck = Muer (Guten Morgen!, am Morgen).",
+        "morgen mat klenge Buschtaf = muer; der Morgen mat groussem Buschtaf = Moien.",
         "morgen = muer"
       ],
       "important": [
-        "morgen steet mat klengem Bréck — dat ass en Zäitomständ (muer).",
-        "der Morgen mat großem Bréck an Artikel der ass en Nomen (Muer).",
-        "Guten Morgen! — ëmmer mat großem M (Muer, net muer).",
+        "morgen ass en Zäitadverb a bedeit muer.",
+        "der Morgen mat Artikel ass e Substantiv a bedeit Moien.",
+        "Guten Morgen! gëtt ëmmer mat groussem M geschriwwen.",
         "Falsch: Guten morgen! → Richteg: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "morgen"
+            "morgen",
+            "der Morgen"
           ],
           "purple": [
-            "rīt"
+            "muer",
+            "Moien"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "ass"
+                "muer"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt"
+                "muer"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "morgen",
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "ass"
+                "muer"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "morgen",
-                "morgen"
+                "Morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt"
+                "Muer"
               ]
             }
           },
           {
             "de": {
-              "blue": [
-                "morgen",
-                "morgen"
+              "green": [
+                "Morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt"
+                "Moien"
               ]
             }
           },
           {
             "de": {
-              "blue": [
-                "morgen",
-                "morgen"
+              "green": [
+                "Der Morgen"
               ]
             },
             "lv": {
               "purple": [
-                "l'autre"
+                "Moien"
               ]
             }
           }
         ],
         "tip": [
           {
+            "blue": [
+              "morgen",
+              "der Morgen"
+            ],
             "purple": [
-              "rīt"
+              "muer",
+              "Moien"
+            ]
+          },
+          {
+            "blue": [
+              "morgen"
+            ],
+            "purple": [
+              "muer"
             ]
           }
         ],
@@ -16085,6 +15831,30 @@ const A1_WORDS = [
           {
             "blue": [
               "morgen"
+            ],
+            "purple": [
+              "muer"
+            ]
+          },
+          {
+            "green": [
+              "der Morgen"
+            ],
+            "purple": [
+              "Moien"
+            ]
+          },
+          {
+            "green": [
+              "Guten Morgen"
+            ]
+          },
+          {
+            "red": [
+              "Guten morgen"
+            ],
+            "green": [
+              "Guten Morgen"
             ]
           }
         ]
@@ -16094,148 +15864,193 @@ const A1_WORDS = [
   {
     "de": "Morgen",
     "de_article": "der",
-    "lv": "CAA -",
+    "lv": "Moien",
     "level": "A1",
     "study": {
       "id": "a1-morgen-study",
       "layout": "standardStudy",
-      "translation": "CAA -",
+      "translation": "Moien",
       "explanation": [
-        "Galvenā doma: Lietvārds ar artikulu der ein lielo burtu. Servas daệa — rīts.",
-        "De Moien galvenokārt nozīmē: nākamajā dienā.",
-        "Dacks karakteriséiert: Zäitomständ.",
-        "Muer heescht haaptsächlech: Deel vum Dag.",
-        "Bieži raksturo: Laatvārds (déi).",
-        "De moien galvenokārt nozīmē: vairāki rīti.",
-        "Bieži raksturo: Laatvārds (pl.).",
-        "Morgen ar mazo sākumburtu nozīmē rīt — nākamajā dienā (ich komme morgen = es nāku rīt, bis morgen!)"
+        "Haaptiddi: der Morgen ass e Substantiv mat Artikel der a bedeit d’Dageszäit Moien.",
+        "der Morgen gëtt mat groussem M geschriwwen.",
+        "morgen mat klenge Buschtaf ass dogéint en Zäitadverb a bedeit muer.",
+        "Am Ausdrock Guten Morgen! ass Morgen dat Substantiv; a Bis morgen! ass morgen d’Zäitadverb."
       ],
       "examples": [
         {
           "de": "Guten Morgen!",
-          "lv": "Labrīt!"
+          "lv": "Gudde Moien!"
         },
         {
           "de": "Bis morgen!",
-          "lv": "Līdz rīt!"
+          "lv": "Bis muer!"
         },
         {
           "de": "Ich komme morgen.",
-          "lv": "Et ass noutwenneg."
+          "lv": "Ech kommen muer."
         },
         {
           "de": "Morgen ist Montag.",
-          "lv": "Rīt ir pirmdiena."
+          "lv": "Muer ass Méindeg."
         },
         {
           "de": "Guten Morgen!",
-          "lv": "Labrīt!"
+          "lv": "Gudde Moien!"
         },
         {
           "de": "Der Morgen ist schön.",
-          "lv": "De l'autre côté du miroir."
+          "lv": "De Moien ass schéin."
         }
       ],
       "tip": [
-        "De klenge morgen = muer (Ich komme morgen). der Morgen mat Großbréck = Muer (Guten Morgen!, am Morgen).",
-        "der Morgen = muer"
+        "morgen mat klenge Buschtaf = muer; der Morgen mat groussem Buschtaf = Moien.",
+        "der Morgen = Moien"
       ],
       "important": [
-        "morgen steet mat Klengbréck — dat ass en Zäitomständ (muer).",
-        "der Morgen mat Großbréck an Artikel der ass en Nomen (Muer).",
-        "Guten Morgen! — ëmmer mat großem M (Muer, net muer).",
+        "morgen mat klenge Buschtaf ass en Zäitadverb a bedeit muer.",
+        "der Morgen mat Artikel a groussem M ass e Substantiv a bedeit Moien.",
+        "Guten Morgen! gëtt ëmmer mat groussem M geschriwwen.",
         "Falsch: Guten morgen! → Richteg: Guten Morgen!"
       ],
       "sectionAccents": {
         "explanation": {
           "green": [
-            "De Moien",
+            "der Morgen"
+          ],
+          "blue": [
             "morgen"
           ],
           "purple": [
-            "rīts",
-            "rīti"
-          ],
-          "yellow": [
-            "Morgen"
+            "Moien",
+            "muer"
           ]
         },
         "examples": [
           {
             "de": {
               "green": [
-                "morgen"
+                "Morgen"
               ]
             },
-            "lv": {}
+            "lv": {
+              "purple": [
+                "Moien"
+              ]
+            }
           },
           {
             "de": {
-              "green": [
+              "blue": [
                 "morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt"
+                "muer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "muer"
+              ]
+            }
+          },
+          {
+            "de": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Muer"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "morgen"
+                "Morgen"
               ]
             },
             "lv": {
               "purple": [
-                "ass"
+                "Moien"
               ]
             }
           },
           {
             "de": {
               "green": [
-                "morgen"
+                "Der Morgen"
               ]
             },
             "lv": {
               "purple": [
-                "rīt"
-              ]
-            }
-          },
-          {
-            "de": {
-              "green": [
-                "morgen"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "green": [
-                "der Morgen",
-                "morgen"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "l'autre"
+                "Moien"
               ]
             }
           }
         ],
         "tip": [
           {
+            "blue": [
+              "morgen"
+            ],
+            "green": [
+              "der Morgen"
+            ],
             "purple": [
-              "rīts"
+              "muer",
+              "Moien"
+            ]
+          },
+          {
+            "green": [
+              "der Morgen"
+            ],
+            "purple": [
+              "Moien"
             ]
           }
         ],
         "important": [
-          {}
+          {
+            "blue": [
+              "morgen"
+            ],
+            "purple": [
+              "muer"
+            ]
+          },
+          {
+            "green": [
+              "der Morgen"
+            ],
+            "purple": [
+              "Moien"
+            ]
+          },
+          {
+            "green": [
+              "Guten Morgen"
+            ]
+          },
+          {
+            "red": [
+              "Guten morgen"
+            ],
+            "green": [
+              "Guten Morgen"
+            ]
+          }
         ]
       }
     }
@@ -16514,22 +16329,22 @@ const A1_WORDS = [
   },
   {
     "de": "nach",
-    "lv": "Uz • Pēc",
+    "lv": "op • no",
     "level": "A1",
     "study": {
       "id": "a1-nach",
       "layout": "standardStudy",
-      "translation": "Uz • Pēc",
+      "translation": "op • no",
       "explanation": [
-        "Haaptidee: nach bedeit \"op hin\" mat Plazen a \"no\" mat Zäit oder Reiefolleg.",
-        "Mat Stied an Länner ouni Artikel ass nach dacks \"op hin\".",
-        "Ar wilu nach nozīmē pēc.",
-        "Frāzē heem Tas nozīmē uz mājām."
+        "Haaptiddi: nach bedeit bei Uertschaften a Länner ouni Artikel meeschtens op; bei Zäit oder Reiefolleg bedeit et no.",
+        "Mat Stied a Länner ouni Artikel gëtt nach dacks fir eng Richtung benotzt.",
+        "Bei engem Zäitpunkt oder enger Reiefolleg bedeit nach no; bei der Auerzäit entsprécht et am Lëtzebuergeschen dacks op.",
+        "An der fester Wendung nach Hause bedeit et heem."
       ],
       "examples": [
         {
           "de": "Ich fahre nach Berlin.",
-          "lv": "Es braucu uz Berlīni."
+          "lv": "Ech fueren op Berlin."
         },
         {
           "de": "Wir gehen nach Hause.",
@@ -16537,57 +16352,57 @@ const A1_WORDS = [
         },
         {
           "de": "Nach dem Essen gehen wir spazieren.",
-          "lv": "Pēc ēšanas mēs ejam pastaigāties."
+          "lv": "Nom Iesse gi mir spadséieren."
         },
         {
           "de": "Es ist zehn nach acht.",
-          "lv": "Ir desmit pari astoņiem."
+          "lv": "Et ass zéng op aacht."
         }
       ],
       "comparison": [
         {
           "word": "nach",
-          "meaning": "Uz/pēc",
-          "example": "Ech fuer no Berlin."
+          "meaning": "op / no",
+          "example": "Ich fahre nach Berlin."
         },
         {
           "word": "zu",
-          "meaning": "CAA -",
-          "example": "Ech ginn zum Dokter."
+          "meaning": "bei / op",
+          "example": "Ich gehe zum Arzt."
         },
         {
           "word": "in",
-          "meaning": "Iekšā / uz vietu ar artikulu",
-          "example": "Ech ginn an d'Schoul."
+          "meaning": "an / op eng Plaz mat Artikel",
+          "example": "Ich gehe in die Schule."
         },
         {
           "word": "vor",
-          "meaning": "Pirms / priekšā",
-          "example": "Vir dem Iessen wäsch ech d'Hänner."
+          "meaning": "virun",
+          "example": "Vor dem Essen wasche ich die Hände."
         }
       ],
       "tip": {
-        "text": "Atceries: nach Hause; nach Berlin; pēc ēšanas."
+        "text": "Erënner dech: nach Hause; nach Berlin; nach dem Essen."
       },
       "important": [
-        "nach gëtt net mat all Plazen benotzt.",
-        "Zu der Schoul geet normalerweis \"in die Schule\", net \"nach Schule\"."
+        "nach gëtt am Däitschen net mat all Uert benotzt.",
+        "Fir „an d’Schoul“ seet een am Däitschen normalerweis in die Schule, net nach Schule."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
             "nach",
-            "Galvenā"
+            "nach Hause"
           ],
           "purple": [
-            "uz",
-            "pēc",
-            "uz mājām"
+            "op",
+            "no",
+            "heem"
           ],
           "green": [
-            "pilsētām",
-            "valstīm",
-            "laiku"
+            "Stied",
+            "Länner",
+            "Zäit"
           ]
         },
         "examples": [
@@ -16602,10 +16417,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "uz"
+                "op"
               ],
               "green": [
-                "Berlīni"
+                "Berlin"
               ]
             }
           },
@@ -16617,7 +16432,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Mir"
+                "heem"
               ]
             }
           },
@@ -16632,10 +16447,10 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pēc"
+                "Nom"
               ],
               "yellow": [
-                "ēšanas"
+                "Iesse"
               ]
             }
           },
@@ -16647,7 +16462,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "pāri"
+                "op"
               ]
             }
           }
@@ -16661,8 +16476,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pēc"
+                "op",
+                "no"
               ]
             },
             "example": {
@@ -16679,8 +16494,8 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA",
-                "CAA"
+                "bei",
+                "op"
               ]
             },
             "example": {
@@ -16697,7 +16512,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iekšā"
+                "an"
               ]
             },
             "example": {
@@ -16714,8 +16529,7 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pirms",
-                "priekšā"
+                "virun"
               ]
             },
             "example": {
@@ -16729,10 +16543,8 @@ const A1_WORDS = [
           "left": {
             "blue": [
               "nach Hause",
-              "nach Berlin"
-            ],
-            "purple": [
-              "pēc ēšanas"
+              "nach Berlin",
+              "nach dem Essen"
             ]
           }
         },
@@ -16742,7 +16554,7 @@ const A1_WORDS = [
               "nach"
             ],
             "red": [
-              "visām vietām"
+              "net mat all Uert"
             ]
           },
           {
@@ -24606,87 +24418,84 @@ const A1_WORDS = [
   },
   {
     "de": "werden",
-    "lv": "CAA -",
+    "lv": "ginn",
     "level": "A1",
     "study": {
       "id": "a1-werden",
       "layout": "standardStudy",
-      "translation": "CAA -",
+      "translation": "ginn",
       "explanation": [
-        "Haaptsaach: werden um A1-Niveau bedeit meescht ginn.",
-        "To lieto, yes chew kas mainās vai kĕūst citāds.",
-        "Méi spéit am Däitschen benotz werden och fir d'Zukunft a Passiv.",
-        "A1 līmenī replyīgākā frāze ir Ech ginn midd. = Es käschtūstu noguris."
+        "Haaptiddi: werden bedeit um A1-Niveau meeschtens ginn.",
+        "Et beschreift eng Verännerung oder en neien Zoustand.",
+        "Am Däitschen déngt werden och fir Zukunft a Passiv.",
+        "Ich werde müde. entsprécht Ech gi midd."
       ],
       "examples": [
         {
           "de": "Ich werde müde.",
-          "lv": "Et ass nach net gewosst."
+          "lv": "Ech gi midd."
         },
         {
           "de": "Es wird kalt.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Et gëtt kal."
         },
         {
           "de": "Sie wird Ärztin.",
-          "lv": "D'Visiteuren hu sech dofir entscheet."
+          "lv": "Si gëtt Doktesch."
         },
         {
           "de": "Ich bin müde.",
-          "lv": "Es esmu noguris."
+          "lv": "Ech si midd."
         }
       ],
       "comparison": [
         {
           "word": "werden",
-          "meaning": "CAA -",
-          "example": "Ich werde müde."
+          "meaning": "ginn",
+          "example": "Ich werde müde. – Ech gi midd."
         },
         {
           "word": "sein",
-          "meaning": "Sinn",
-          "example": "Ich bin müde."
+          "meaning": "sinn",
+          "example": "Ich bin müde. – Ech si midd."
         },
         {
           "word": "bleiben",
-          "meaning": "CAA -",
-          "example": "Ich bleibe hier."
+          "meaning": "bleiwen",
+          "example": "Ich bleibe hier. – Ech bleiwen hei."
         },
         {
           "word": "machen",
-          "meaning": "Darīt / taisīt",
-          "example": "Ich mache das."
+          "meaning": "maachen",
+          "example": "Ich mache das. – Ech maachen dat."
         }
       ],
       "tip": {
-        "text": "Atceries: izmaiņa/stāvoklis kļūst citāds → werden."
+        "text": "Eng Verännerung oder en neien Zoustand → werden / ginn."
       },
       "important": [
-        "werden ass net dat selb wéi sein.",
-        "Ich werde müde = ech ginn midd; Ich bin müde = ech sinn midd."
+        "werden ass net dat selwecht wéi sein.",
+        "Ich werde müde. = Ech gi midd.; Ich bin müde. = Ech si midd."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "werden",
-            "Galvenā"
+            "werden"
           ],
           "purple": [
-            "kļūt",
-            "mainās",
-            "kļūt"
+            "ginn"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "werde"
+                "Ich"
               ]
             },
             "lv": {
               "purple": [
-                "ass"
+                "Ech"
               ]
             }
           },
@@ -24698,31 +24507,31 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Dat"
+                "gëtt"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "wird"
+                "Sie"
               ]
             },
             "lv": {
               "purple": [
-                "D'Visiteuren"
+                "gëtt"
               ]
             }
           },
           {
             "de": {
-              "red": [
-                "bin"
+              "blue": [
+                "Ich"
               ]
             },
             "lv": {
-              "red": [
-                "esmu"
+              "purple": [
+                "Ech"
               ]
             }
           }
@@ -24736,12 +24545,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "ginn"
               ]
             },
             "example": {
               "blue": [
-                "werde"
+                "Ich"
               ]
             }
           },
@@ -24753,12 +24562,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Sinn"
+                "sinn"
               ]
             },
             "example": {
-              "red": [
-                "bin"
+              "blue": [
+                "Ich"
               ]
             }
           },
@@ -24770,12 +24579,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "bleiwen"
               ]
             },
             "example": {
-              "green": [
-                "bleibe"
+              "blue": [
+                "Ich"
               ]
             }
           },
@@ -24787,48 +24596,14 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "darīt",
-                "taisīt"
+                "maachen"
               ]
             },
             "example": {
-              "yellow": [
-                "mache"
+              "blue": [
+                "Ich"
               ]
             }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "werden"
-            ],
-            "purple": [
-              "izmaiņa",
-              "kļūst"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "werden"
-            ],
-            "red": [
-              "sein"
-            ]
-          },
-          {
-            "blue": [
-              "werde"
-            ],
-            "purple": [
-              "kļūstu"
-            ],
-            "red": [
-              "bin",
-              "esmu"
-            ]
           }
         ]
       }
@@ -24837,167 +24612,154 @@ const A1_WORDS = [
   {
     "de": "Wetter",
     "de_article": "das",
-    "lv": "Spuerkeess (Wëllapstākṅi)",
+    "lv": "Wieder (Meteo)",
     "level": "A1",
     "study": {
       "id": "a1-wetter",
       "layout": "standardStudy",
-      "translation": "Spuerkeess (Wëllapstākṅi)",
+      "translation": "Wieder (Meteo)",
       "explanation": [
-        "Galvenā doma: d'Wieder nozīmē laikapstākṅus - saulaini, lietaini, auksti vai silti.",
-        "Latviešu vārds „laiks“ war nozīmēt gan laikapstākļus, gan laiku pulkstenī — vāciski tas ir atšķirīgi.",
-        "Par laiku dabā runā ar d'Wieder: Wéi ass d'Wieder haut?",
-        "Am Saz benotz dacks das Wetter zesumme mat Wierder wéi warm oder kalt.",
-        "Nesajauc ar die Zeit — tā ir laiks kā brīdis vai iespēja (I habe keine Zeit)."
+        "Haaptiddi: das Wetter heescht d’Wieder, also Sonn, Reen, Keelt oder Hëtzt.",
+        "D’Wuert Wieder bezitt sech op meteorologesch Verhältnisser.",
+        "Fir d’Wieder dobausse freet een: Wie ist das Wetter heute?",
+        "Wieder kënnt dacks mat Adjektiver wéi waarm oder kal vir.",
+        "Net mat die Zeit verwiesselen: Zäit ass en abstrakte Begrëff."
       ],
       "examples": [
         {
           "de": "Wie ist das Wetter heute?",
-          "lv": "Kāds wantss šodien?"
+          "lv": "Wéi ass d’Wieder haut?"
         },
         {
           "de": "Das Wetter ist schön.",
-          "lv": "D'Wieder ass schéin."
+          "lv": "D’Wieder ass schéin."
         },
         {
           "de": "Das Wetter ist schlecht.",
-          "lv": "Laiks ir slikts."
+          "lv": "D’Wieder ass schlecht."
         },
         {
           "de": "Im Winter ist das Wetter oft kalt.",
-          "lv": "Seemā laiks bieži ir auksts."
+          "lv": "Am Wanter ass d’Wieder dacks kal."
         },
         {
           "de": "Wir sprechen über das Wetter.",
-          "lv": "Même si ça peut servir."
+          "lv": "Mir schwätzen iwwer d’Wieder."
         },
         {
           "de": "Morgen wird das Wetter besser.",
-          "lv": "Et gëtt e Labyrinth."
+          "lv": "Muer gëtt d’Wieder besser."
         }
       ],
       "comparison": [
         {
           "word": "Wetter",
-          "meaning": "Laikapstākļi",
-          "example": "Das Wetter ist schön."
+          "meaning": "Wieder",
+          "example": "Das Wetter ist schön. – D’Wieder ass schéin."
         },
         {
           "word": "Zeit",
-          "meaning": "Laiks (brīdis)",
-          "example": "Ich habe keine Zeit."
+          "meaning": "Zäit",
+          "example": "Ich habe keine Zeit. – Ech hu keng Zäit."
         },
         {
           "word": "Regen",
-          "meaning": "CAA -",
-          "example": "Es gibt viel Regen."
+          "meaning": "Reen",
+          "example": "Es gibt viel Regen. – Et gëtt vill Reen."
         },
         {
           "word": "Sonne",
-          "meaning": "Kolonn",
-          "example": "Die Sonne scheint."
+          "meaning": "Sonn",
+          "example": "Die Sonne scheint. – D’Sonn schéngt."
         }
       ],
       "tip": [
-        "Wann et ëm d'Sonn, Reen oder d'Temperatur dréisst — benotz das Wetter.",
-        "Denkt un: Wie ist das Wetter? = Wéi ass d'Wieder? (net d'Auer)."
+        "Fir Sonn, Reen oder Temperatur dobausse steet das Wetter / d’Wieder.",
+        "Wie ist das Wetter? = Wéi ass d’Wieder?"
       ],
       "important": [
-        "das Wetter = Wieder, net d'Zäit an der Auer.",
-        "die Zeit = Zäit wéi en Moment oder eng Geleeënheet — eng aner Kaart A1."
+        "das Wetter = d’Wieder, net d’Auerzäit.",
+        "die Zeit = Zäit als Moment oder Geleeënheet."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "Wetter",
-            "Zeit"
+            "Wetter"
           ],
           "purple": [
-            "laikapstākļus"
+            "Wieder"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Wetter"
+                "Wie"
               ]
             },
             "lv": {
               "purple": [
-                "Kāds"
+                "Wéi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wetter"
+                "Das"
               ]
             },
             "lv": {
               "purple": [
-                "D'Wieder"
+                "D’Wieder"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wetter"
+                "Das"
               ]
             },
             "lv": {
               "purple": [
-                "laiks"
+                "D’Wieder"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wetter"
-              ],
-              "yellow": [
                 "Winter"
               ]
             },
             "lv": {
               "purple": [
-                "laiks"
-              ],
-              "yellow": [
-                "Seemā"
+                "Wanter"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wetter"
+                "Wir"
               ]
             },
             "lv": {
               "purple": [
-                "Même"
+                "Mir"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Wetter"
-              ],
-              "green": [
-                "besser"
+                "Morgen"
               ]
             },
             "lv": {
               "purple": [
-                "gëtt"
-              ],
-              "green": [
-                "gëtt"
+                "Muer"
               ]
             }
           }
@@ -25011,12 +24773,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "laikapstākļi"
+                "Wieder"
               ]
             },
             "example": {
               "blue": [
-                "Wetter"
+                "Das"
               ]
             }
           },
@@ -25028,12 +24790,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "laiks"
+                "Zäit"
               ]
             },
             "example": {
-              "green": [
-                "Zeit"
+              "blue": [
+                "Ich"
               ]
             }
           },
@@ -25045,12 +24807,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "Reen"
               ]
             },
             "example": {
-              "green": [
-                "Regen"
+              "blue": [
+                "gibt"
               ]
             }
           },
@@ -25062,41 +24824,14 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Kolonn"
+                "Sonn"
               ]
             },
             "example": {
-              "green": [
-                "Sonne"
+              "blue": [
+                "Die"
               ]
             }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "Wetter"
-            ]
-          },
-          {
-            "blue": [
-              "Wetter"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "blue": [
-              "Wetter"
-            ]
-          },
-          {
-            "green": [
-              "Zeit"
-            ],
-            "purple": [
-              "laiks"
-            ]
           }
         ]
       }
@@ -25109,53 +24844,53 @@ const A1_WORDS = [
   },
   {
     "de": "wie",
-    "lv": "CAA -",
+    "lv": "wéi • wéi vill",
     "level": "A1",
     "study": {
       "id": "a1-wie",
       "layout": "standardStudy",
-      "translation": "CAA -",
+      "translation": "wéi • wéi vill",
       "explanation": [
-        "Haaptsaach: wie freet no der Aart oder Eegeschaft (wéi) an no der Quantitéit oder Unzuel (wéi vill), ofhängeg vum Kontext.",
-        "Wie viena pati (Wie geht's?) jautā par veidu — latviski kā.",
-        "Wéi + īpašības vārds (wéi vill, wéi al, wéi laang) jautā par apjomu, vecumu vai ilgumu — latviski cik.",
-        "Wéi vill(e) nozīmē cik daudz • Wéi al nozīmē cik vecs • Wéi laang nozīmē cik ilgi.",
-        "Salīdzinājumos wéi nozīmē tāpat kā (sou grouss wéi = tikpat liels kā)."
+        "Haaptiddi: wie freet no Aart a Weis oder Eegenschaft; bei Quantitéite bedeit et wéi vill.",
+        "wie eleng entsprécht meeschtens wéi.",
+        "wie mat viel, alt oder lange freet no Quantitéit, Alter oder Dauer.",
+        "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
+        "An engem Verglach entsprécht so ... wie dem Lëtzebuergeschen esou ... wéi."
       ],
       "examples": [
         {
           "de": "Wie geht es dir?",
-          "lv": "Wat ass et?"
+          "lv": "Wéi geet et dir?"
         },
         {
           "de": "Wie heißt du?",
-          "lv": "Kā tevi sauc?"
+          "lv": "Wéi heeschs du?"
         },
         {
           "de": "Wie viel kostet das?",
-          "lv": "Cik tas maxā?"
+          "lv": "Wéi vill kascht dat?"
         },
         {
           "de": "Wie alt bist du?",
-          "lv": "Wài al bass du"
+          "lv": "Wéi al bass du?"
         },
         {
           "de": "Wie lange dauert der Film?",
-          "lv": "Cik ilgi ilgst Filma?"
+          "lv": "Wéi laang dauert de Film?"
         },
         {
           "de": "Er ist so groß wie sein Vater.",
-          "lv": "Выш из tikpat garš, как видео tēvs."
+          "lv": "Hien ass esou grouss wéi säi Papp."
         }
       ],
       "tip": [
-        "wie selber = wéi (Aart); wie + Eegeschaftswuert (viel/alt/lange) = wéi vill (Quantitéit).",
-        "An engem Verglach so ... wie = sou ... wéi."
+        "wie eleng = wéi; wie viel = wéi vill.",
+        "so ... wie = esou ... wéi."
       ],
       "important": [
         "wie viel(e) = wéi vill; wie alt = wéi al; wie lange = wéi laang.",
-        "wie alleng (Wie...?) normalerweis = wéi, net wéi vill.",
-        "Falsch: Wéi vill geet et dir? → Richteg: Wéi geet et dir? (Wie geht's?)"
+        "Wéi geet et dir? freet no engem Zoustand, net no enger Quantitéit.",
+        "Wie geht es dir? = Wéi geet et dir?"
       ],
       "sectionAccents": {
         "explanation": {
@@ -25163,8 +24898,7 @@ const A1_WORDS = [
             "wie"
           ],
           "purple": [
-            "kā",
-            "cik"
+            "wéi"
           ]
         },
         "examples": [
@@ -25176,7 +24910,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Wat"
+                "Wéi"
               ]
             }
           },
@@ -25188,7 +24922,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "kā"
+                "Wéi"
               ]
             }
           },
@@ -25200,7 +24934,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cik"
+                "Wéi"
               ]
             }
           },
@@ -25212,7 +24946,7 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Wài"
+                "Wéi"
               ]
             }
           },
@@ -25224,60 +24958,21 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "cik"
+                "Wéi"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "wie"
+                "ist"
               ]
             },
             "lv": {
               "purple": [
-                "Выш"
+                "Hien"
               ]
             }
-          }
-        ],
-        "tip": [
-          {
-            "blue": [
-              "wie"
-            ],
-            "purple": [
-              "kā",
-              "cik"
-            ]
-          },
-          {
-            "purple": [
-              "tikpat",
-              "kā"
-            ]
-          }
-        ],
-        "important": [
-          {
-            "purple": [
-              "cik daudz",
-              "cik vecs",
-              "cik ilgi"
-            ]
-          },
-          {
-            "purple": [
-              "kā"
-            ]
-          },
-          {
-            "red": [
-              "Cik tev iet?"
-            ],
-            "blue": [
-              "Kā tev iet?"
-            ]
           }
         ]
       }
@@ -25330,112 +25025,103 @@ const A1_WORDS = [
   },
   {
     "de": "zu",
-    "lv": "CAA -",
+    "lv": "bei • an • ze",
     "level": "A1",
     "study": {
       "id": "a1-zu",
       "layout": "standardStudy",
-      "translation": "CAA -",
+      "translation": "bei • an • ze",
       "explanation": [
-        "Galvenā doma: zu Đoti bieži nozīmē uz vai pie, bet tam ir arī loma ar infinitīvu.",
-        "Mat Mënsche an Institutiounen zu dacks bedeit bei oder op.",
-        "Mat Eegeschaftswierder zu kann ze vill bedeit.",
-        "An der Konstruktioun zu + Infinitiv hëleft et d'Infinitiv ze bilden: zu lernen, zu gehen."
+        "Haaptiddi: zu entsprécht no der Konstruktioun bei, an oder ze.",
+        "Bei Persounen an Institutioune weist zu dacks eng Richtung oder e Zil un.",
+        "Virun engem Adjektiv kann zu ze vill bedeiten.",
+        "Bei engem Infinitiv entsprécht zu dem Lëtzebuergesche ze."
       ],
       "examples": [
         {
           "de": "Ich gehe zum Arzt.",
-          "lv": "Es eju pie ārsta."
+          "lv": "Ech gi bei den Dokter."
         },
         {
           "de": "Wir gehen zur Schule.",
-          "lv": "Mēs ejam uz skolu."
+          "lv": "Mir ginn an d’Schoul."
         },
         {
           "de": "Das ist zu teuer.",
-          "lv": "Dat ass dat „wir\"., Hier waren wir nie! '"
+          "lv": "Dat ass ze deier."
         },
         {
           "de": "Ich habe keine Zeit zu lernen.",
-          "lv": "Man nav laika mācīties."
+          "lv": "Ech hu keng Zäit ze léieren."
         }
       ],
       "comparison": [
         {
           "word": "zu",
-          "meaning": "Uz / pie / pārāk / infinitīvs",
-          "example": "Ich gehe zum Arzt."
+          "meaning": "bei • an • ze",
+          "example": "Ich gehe zum Arzt. – Ech gi bei den Dokter."
         },
         {
           "word": "nach",
-          "meaning": "Uz ar pilsētām/valstīm",
-          "example": "Ich fahre nach Berlin."
+          "meaning": "op",
+          "example": "Ich fahre nach Berlin. – Ech fueren op Berlin."
         },
         {
           "word": "in",
-          "meaning": "Iekšā / uz vietu",
-          "example": "Ich gehe in die Schule."
+          "meaning": "an",
+          "example": "Ich gehe in die Schule. – Ech ginn an d’Schoul."
         },
         {
           "word": "bei",
-          "meaning": "PIE KADA / PIE DARBA",
-          "example": "Ich bin bei Anna."
+          "meaning": "bei",
+          "example": "Ich bin bei Anna. – Ech si bei der Anna."
         }
       ],
       "tip": {
-        "text": "Atceries: pie ārsta → zum Arzt; pārāk dārgi → zu teuer."
+        "text": "zum Arzt → bei den Dokter; zu teuer → ze deier; zu lernen → ze léieren."
       },
       "important": [
-        "zu huet ganz vill Benotzungen, also schafft ëmmer op d'Konstruktioun.",
-        "zu teuer nozīmē \"pārāk dārgi\", nevis \"uz dārgi\"."
+        "D’Entspriechung vu zu hänkt vun der Konstruktioun of.",
+        "zu teuer bedeit ze deier, keng Richtung."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "zu",
-            "zu lernen",
-            "zu gehen"
+            "zu"
           ],
           "purple": [
-            "uz",
-            "pie",
-            "pārāk",
-            "nenoteiksmi"
-          ],
-          "green": [
-            "cilvēkiem",
-            "iestādēm"
+            "bei"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "zum Arzt"
+                "Ich"
               ]
             },
             "lv": {
               "purple": [
-                "pie ārsta"
+                "Ech"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zur Schule"
+                "Wir"
               ]
             },
             "lv": {
               "purple": [
-                "uz skolu"
+                "Mir"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "zu teuer"
+                "Das"
               ]
             },
             "lv": {
@@ -25447,12 +25133,12 @@ const A1_WORDS = [
           {
             "de": {
               "blue": [
-                "zu lernen"
+                "Ich"
               ]
             },
             "lv": {
               "purple": [
-                "mācīties"
+                "Ech"
               ]
             }
           }
@@ -25466,15 +25152,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz",
-                "pie",
-                "pārāk",
-                "infinitīvs"
+                "bei • an • ze"
               ]
             },
             "example": {
               "blue": [
-                "zum Arzt"
+                "Ich"
               ]
             }
           },
@@ -25486,12 +25169,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "uz"
+                "op"
               ]
             },
             "example": {
-              "yellow": [
-                "nach Berlin"
+              "blue": [
+                "Ich"
               ]
             }
           },
@@ -25503,13 +25186,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "iekšā",
-                "uz vietu"
+                "an"
               ]
             },
             "example": {
-              "green": [
-                "in die Schule"
+              "blue": [
+                "Ich"
               ]
             }
           },
@@ -25521,47 +25203,14 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "pie"
+                "bei"
               ]
             },
             "example": {
-              "red": [
-                "bei Anna"
+              "blue": [
+                "Ich"
               ]
             }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "zum Arzt",
-              "zu teuer"
-            ],
-            "purple": [
-              "pie ārsta",
-              "pārāk dārgi"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "zu"
-            ],
-            "purple": [
-              "konstrukciju"
-            ]
-          },
-          {
-            "blue": [
-              "zu teuer"
-            ],
-            "purple": [
-              "pārāk dārgi"
-            ],
-            "red": [
-              "uz dārgi"
-            ]
           }
         ]
       }
@@ -25582,128 +25231,120 @@ const A1_WORDS = [
     "de": "Zug",
     "de_article": "der",
     "de_plural": "die Züge",
-    "lv": "CAA -",
+    "lv": "Zuch",
     "level": "A1",
     "study": {
       "id": "a1-zug",
       "layout": "standardStudy",
-      "translation": "CAA -",
+      "translation": "Zuch",
       "explanation": [
-        "Haaptsaach: der Zug um A1-Niveau bedeit meescht Zuchter.",
-        "Fir dëst ze maachen situācijās par braukšanu, pienākšanu un atiešanu.",
-        "Dažās citās nozīmēs Zug war būt gājiens, caurvējš vai vaibsts, bet tās nav galvenās A1 nozīmes.",
-        "Ganz dacks Ausdrecker sinn mit dem Zug fahren an Der Zug kommt."
+        "Haaptiddi: der Zug heescht um A1-Niveau den Zuch.",
+        "Et gëtt bei Reesen, Arrivéeën an Departen benotzt.",
+        "Aner Bedeitunge vu Zug si fir dës Kaart net zentral.",
+        "Heefeg Verbindunge sinn mit dem Zug fahren an Der Zug kommt."
       ],
       "examples": [
         {
           "de": "Der Zug kommt um acht Uhr.",
-          "lv": "Villeciens pienāk pulséiert astoṅos."
+          "lv": "Den Zuch kënnt um aacht Auer."
         },
         {
           "de": "Ich fahre mit dem Zug.",
-          "lv": "Es braucu ar vilcienu."
+          "lv": "Ech fuere mam Zuch."
         },
         {
           "de": "Der Zug ist voll.",
-          "lv": "Vilciens ir pilns."
+          "lv": "Den Zuch ass voll."
         },
         {
           "de": "Der Bus kommt später.",
-          "lv": "Autobuss pienāk vēlāk."
+          "lv": "De Bus kënnt méi spéit."
         }
       ],
       "comparison": [
         {
           "word": "der Zug",
-          "meaning": "CAA -",
-          "example": "Der Zug kommt."
+          "meaning": "Zuch",
+          "example": "Der Zug kommt. – Den Zuch kënnt."
         },
         {
           "word": "die Bahn",
-          "meaning": "Dzelzceňš / braukšana ar vilcienu",
-          "example": "Ich fahre mit der Bahn."
+          "meaning": "Eisebunn",
+          "example": "Ich fahre mit der Bahn. – Ech fuere mat der Eisebunn."
         },
         {
           "word": "der Bus",
-          "meaning": "CAA -",
-          "example": "Der Bus kommt."
+          "meaning": "Bus",
+          "example": "Der Bus kommt. – De Bus kënnt."
         },
         {
           "word": "die Straßenbahn",
-          "meaning": "CAA -",
-          "example": "Die Straßenbahn ist hier."
+          "meaning": "Tram",
+          "example": "Die Straßenbahn ist hier. – Den Tram ass hei."
         }
       ],
       "tip": {
-        "text": "Atceries: konkrēts vilciens → der Zug."
+        "text": "Dat konkret Gefier op der Schinn → der Zug / den Zuch."
       },
       "important": [
-        "der Zug virsrakstā jāuztver kā \"vilciens\".",
-        "Rarer Bedeitunge sinn am Haaptkäertchen A1 net néideg."
+        "der Zug huet hei d’Bedeitung Zuch.",
+        "Aner Bedeitunge sinn net d’Haaptbedeitung vun dëser A1-Kaart."
       ],
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "der Zug",
-            "Zug",
-            "mit dem Zug fahren"
+            "Zug"
           ],
           "purple": [
-            "vilciens",
-            "Vilciens"
-          ],
-          "red": [
-            "gājiens",
-            "caurvējš",
-            "vaibsts"
+            "Zuch"
           ]
         },
         "examples": [
           {
             "de": {
               "blue": [
-                "Zug"
+                "Der"
               ]
             },
             "lv": {
               "purple": [
-                "Villeciens"
+                "Den"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "mit dem Zug"
+                "Ich"
               ]
             },
             "lv": {
               "purple": [
-                "ar vilcienu"
+                "Ech"
               ]
             }
           },
           {
             "de": {
               "blue": [
-                "Zug"
+                "Der"
               ]
             },
             "lv": {
               "purple": [
-                "vilciens"
+                "Den"
               ]
             }
           },
           {
             "de": {
-              "red": [
+              "blue": [
+                "Der"
+              ]
+            },
+            "lv": {
+              "purple": [
                 "Bus"
-              ]
-            },
-            "lv": {
-              "red": [
-                "Autobuss"
               ]
             }
           }
@@ -25717,12 +25358,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "Zuch"
               ]
             },
             "example": {
               "blue": [
-                "Zug"
+                "Der"
               ]
             }
           },
@@ -25734,13 +25375,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "Dzelzceňš",
-                "vilcienu"
+                "Eisebunn"
               ]
             },
             "example": {
-              "green": [
-                "Bahn"
+              "blue": [
+                "Ich"
               ]
             }
           },
@@ -25752,12 +25392,12 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "Bus"
               ]
             },
             "example": {
-              "yellow": [
-                "Bus"
+              "blue": [
+                "Der"
               ]
             }
           },
@@ -25769,42 +25409,14 @@ const A1_WORDS = [
             },
             "meaning": {
               "purple": [
-                "CAA"
+                "Tram"
               ]
             },
             "example": {
-              "red": [
-                "Straßenbahn"
+              "blue": [
+                "Die"
               ]
             }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "der Zug"
-            ],
-            "purple": [
-              "konkrēts vilciens"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "der Zug"
-            ],
-            "purple": [
-              "vilciens"
-            ]
-          },
-          {
-            "red": [
-              "Retākās nozīmes"
-            ],
-            "purple": [
-              "a1 virsrakstā"
-            ]
           }
         ]
       }
@@ -26225,66 +25837,65 @@ const A1_WORDS = [
   },
   {
     "de": "fernsehen",
-    "lv": "Skatties Televisioun",
+    "lv": "Tëlee kucken",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen",
       "layout": "standardStudy",
-      "translation": "Skatties Televisioun",
-      "explanation": "Galvenā doma: fernsehen ir sadalāms darbības vārds — ich sehe fern, du siehst fern. Tas nozīmē skatīties televīziju. Ne jaukt ar lietvārdu das Fernsehen (televīzija kā medijs).",
+      "translation": "Tëlee kucken",
+      "explanation": [
+        "Haaptiddi: fernsehen ass e trennbaart Verb: ich sehe fern, du siehst fern. Et heescht Tëlee kucken. Net mam Substantiv das Fernsehen / Tëlee verwiesselen."
+      ],
       "examples": [
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "Šovakar ass Skatos Televisioun."
+          "lv": "Ech kucken den Owend Tëlee."
         },
         {
           "de": "Siehst du oft fern?",
-          "lv": "Vai tu bieži skaties televīzoru?"
+          "lv": "Kucks du dacks Tëlee?"
         },
         {
           "de": "Die Kinder sehen am Nachmittag fern.",
-          "lv": "Bērni pēcpusdienā skatās televīzoru."
+          "lv": "D’Kanner kucken am Nomëtteg Tëlee."
         }
       ],
       "comparison": [
         {
           "word": "fernsehen",
-          "meaning": "Skatties Televisioun",
-          "example": "Ich sehe fern. = Ech gesinn Fernseh."
+          "meaning": "Tëlee kucken",
+          "example": "Ich sehe fern. – Ech kucken Tëlee."
         },
         {
           "word": "das Fernsehen",
-          "meaning": "Televīzija (Medijs)",
-          "example": "Im Fernsehen läuft ein Film. = Am Fernseh leeft e Film."
+          "meaning": "Tëlee",
+          "example": "Im Fernsehen läuft ein Film. – Op der Tëlee leeft e Film."
         },
         {
           "word": "sehen",
-          "meaning": "CAA -",
-          "example": "Ich sehe einen Film. = Ech gesinn e Film."
+          "meaning": "gesinn",
+          "example": "Ich sehe einen Film. – Ech gesinn e Film."
         }
       ],
-      "tip": {
-        "leftBlocks": [
-          {
-            "text": "Par darbību lieto fernsehen (ich sehe fern). Par TV programmu vai mediju lieto das Fernsehen."
-          }
-        ]
-      },
+      "tip": [
+        {
+          "leftBlocks": [
+            {
+              "text": "Fir d’Aktivitéit steet fernsehen / Tëlee kucken; fir Medium oder Programm steet das Fernsehen / Tëlee."
+            }
+          ]
+        }
+      ],
       "important": {
-        "text": "Televisioun = darbības vārds (ech kucken Fernseh). televisioun = lietvārds, tikai vienskaitlis."
+        "text": "fernsehen ass e Verb; das Fernsehen ass e Substantiv am Eenzuel."
       },
       "sectionAccents": {
         "explanation": {
           "blue": [
-            "fernsehen",
-            "sehe",
-            "fern"
+            "fernsehen"
           ],
           "purple": [
-            "skatīties televīziju"
-          ],
-          "green": [
-            "das Fernsehen"
+            "Tëlee"
           ]
         },
         "examples": [
@@ -26297,7 +25908,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "Skatos Televisioun"
+                "kucken",
+                "Tëlee"
               ]
             }
           },
@@ -26310,7 +25922,8 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skaties televīzoru"
+                "Kucks",
+                "Tëlee"
               ]
             }
           },
@@ -26323,7 +25936,72 @@ const A1_WORDS = [
             },
             "lv": {
               "purple": [
-                "skatās televīzoru"
+                "kucken",
+                "Tëlee"
+              ]
+            }
+          }
+        ],
+        "comparison": [
+          {
+            "word": {
+              "green": [
+                "fernsehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Tëlee kucken"
+              ]
+            },
+            "example": {
+              "blue": [
+                "sehe",
+                "fern"
+              ],
+              "purple": [
+                "kucken",
+                "Tëlee"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "das Fernsehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "Tëlee"
+              ]
+            },
+            "example": {
+              "blue": [
+                "Fernsehen"
+              ],
+              "purple": [
+                "Tëlee"
+              ]
+            }
+          },
+          {
+            "word": {
+              "green": [
+                "sehen"
+              ]
+            },
+            "meaning": {
+              "purple": [
+                "gesinn"
+              ]
+            },
+            "example": {
+              "blue": [
+                "sehe"
+              ],
+              "purple": [
+                "gesinn"
               ]
             }
           }
@@ -26334,149 +26012,140 @@ const A1_WORDS = [
   {
     "de": "Fernsehen",
     "de_article": "das",
-    "lv": "Televīzija",
+    "lv": "Tëlee",
     "level": "A1",
     "study": {
       "id": "a1-fernsehen-study",
       "layout": "standardStudy",
-      "translation": "Televīzija",
+      "translation": "Tëlee",
       "explanation": [
-        "Haaptidee: Substantiv, nëmmen Eenzahl. Beschreift TV als Medium oder Iwwertraach am Ganzen.",
-        "Das Fernsehen galvenokārt nozīmē: skatīties pārraidi.",
-        "Bieži raksturo: DARBİBU.",
-        "Das Fernsehen betekent vooral: TV als medium.",
-        "Dacks charakteriséiert: Substantiv (nëmmen Eenzahl).",
-        "Fernseh ir darbības vārds, ko war sadalīt: Ech kucken Fernseh, Dir kuckt Fernseh.",
-        "Das Fernsehen ir lietvārds un tikai vienskaitlis — tam nav daudzskaitļa formas."
+        "Haaptiddi: das Fernsehen ass e Substantiv am Eenzuel fir Tëlee als Medium oder Programm.",
+        "Et kann eng Sendung oder dat allgemengt Medium bezeechnen.",
+        "Et ass e Substantiv, keng Aktivitéit.",
+        "das Fernsehen entsprécht Tëlee.",
+        "Am Däitsche gëtt et nëmmen am Eenzuel gebraucht.",
+        "fernsehen ass dat trennbaart Verb fir Tëlee kucken.",
+        "das Fernsehen huet keng regulär Pluralform."
       ],
       "examples": [
         {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Ko šodien rāda televīzijā?"
+          "lv": "Wat gëtt et haut op der Tëlee?"
         },
         {
           "de": "Was gibt es heute im Fernsehen?",
-          "lv": "Ko šodien rāda televīzijā?"
+          "lv": "Wat kënnt haut op der Tëlee?"
         },
         {
           "de": "Im Fernsehen läuft ein Film.",
-          "lv": "Televīzijā tiek rādīta filma."
+          "lv": "Op der Tëlee leeft e Film."
         },
         {
           "de": "Das Fernsehen ist heute langweilig.",
-          "lv": "Televīzijas programma šodien ir garlaicīga."
+          "lv": "D’Tëlee ass haut langweileg."
         },
         {
           "de": "Ich sehe heute Abend fern.",
-          "lv": "Šovakar ass Skatos Televisioun."
+          "lv": "Ech kucken den Owend Tëlee."
         },
         {
           "de": "Was gibt es im Fernsehen?",
-          "lv": "Wat ginn se am Fernseh?"
+          "lv": "Wat gëtt et op der Tëlee?"
         }
       ],
       "tip": [
-        "Wann iwwer d'Aktioun geschwat gëtt, benotzt fernsehen (ech gesinn fern). Wann iwwer d'TV Programm oder Medium geschwat gëtt, benotzt das Fernsehen.",
-        "Substantiv, nëmmen Eenzahl. Beschreift TV als Medium oder Iwwertraach am Ganzen."
+        "Fir d’Aktivitéit steet fernsehen; fir Medium oder Programm steet das Fernsehen.",
+        "das Fernsehen gëtt am Däitschen nëmmen am Eenzuel benotzt."
       ],
       "important": [
-        "fernsehen ass separabel: sehen + fern.",
-        "das Fernsehen ass net a Mehrzahl — et gëtt keng *die Fernsehen.",
-        "Falsch: die Fernsehen → Richteg: das Fernsehen",
-        "Aktioun: fernsehen → ich sehe fern."
+        "fernsehen ass trennbaart: sehen + fern.",
+        "das Fernsehen huet keng Pluralform.",
+        "Falsch: die Fernsehen; richteg: das Fernsehen.",
+        "Aktivitéit: fernsehen; Medium: das Fernsehen."
       ],
       "sectionAccents": {
         "explanation": {
-          "green": [
+          "blue": [
             "Fernsehen"
           ],
-          "yellow": [
-            "Fernsehen"
+          "purple": [
+            "Tëlee"
           ]
         },
         "examples": [
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "televīzija"
+                "Tëlee"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "televīzija"
+                "Tëlee"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "televīzija"
+                "Tëlee"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "das Fernsehen",
-                "fernsehen"
+              "blue": [
+                "Fernsehen"
               ]
             },
             "lv": {
               "purple": [
-                "televīzija"
-              ]
-            }
-          },
-          {
-            "de": {},
-            "lv": {
-              "purple": [
-                "Televisioun"
+                "Tëlee"
               ]
             }
           },
           {
             "de": {
-              "green": [
-                "Fernsehen",
-                "fernsehen"
+              "blue": [
+                "sehe",
+                "fern"
               ]
             },
             "lv": {
               "purple": [
-                "televīzija"
+                "kucken",
+                "Tëlee"
               ]
             }
-          }
-        ],
-        "tip": [
-          {}
-        ],
-        "important": [
+          },
           {
-            "green": [
-              "fernsehen"
-            ]
+            "de": {
+              "blue": [
+                "Fernsehen"
+              ]
+            },
+            "lv": {
+              "purple": [
+                "Tëlee"
+              ]
+            }
           }
         ]
       }

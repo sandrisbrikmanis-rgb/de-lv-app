@@ -1667,185 +1667,64 @@ const A1_WORDS = [
   },
   {
     "de": "baden",
-    "lv": "Not",
+    "lv": "lahem • bëj banjë",
     "level": "A1",
     "study": {
       "id": "a1-baden",
       "layout": "standardStudy",
-      "translation": "Not",
+      "translation": "lahem • bëj banjë",
       "explanation": [
-        "Ideja kryesore: Baden do të thotë të lahesh, të qëndrosh ose të shijosh ujin.",
-        "Baden përdoret kur bëhet fjalë për t 'u çlodhur në ujë, liqen, det ose pishinë.",
-        "Baden mund të nënkuptojë edhe banjën.",
-        "Kur theksi është te sporti i lëvizjes ose vetë noti, fjala \"schwimmen\" përdoret më shpesh në gjermanisht."
+        "Ideja kryesore: baden do të thotë të lahesh, të rrish në ujë ose të shijosh ujin.",
+        "Përdoret për çlodhje në liqen, det ose pishinë dhe mund të nënkuptojë edhe të bësh banjë në vaskë.",
+        "Kur theksi është te lëvizja e notit ose te sporti, gjermanishtja përdor më shpesh schwimmen."
       ],
       "examples": [
         {
           "de": "Ich gehe baden.",
-          "lv": "Do shkoj të notoj."
+          "lv": "Po shkoj të lahem."
         },
         {
           "de": "Wir gehen im See baden.",
-          "lv": "Do të notojmë në liqen."
+          "lv": "Po shkojmë të lahemi në liqen."
         },
         {
           "de": "Er schwimmt sehr gut.",
-          "lv": "Ajo noton shumë mirë."
+          "lv": "Ai noton shumë mirë."
         },
         {
           "de": "Ich schwimme jeden Montag.",
-          "lv": "Shkoj të notoj çdo të hënë."
+          "lv": "Unë notoj çdo të hënë."
         }
       ],
       "comparison": [
         {
           "word": "baden",
-          "meaning": "Noti/qëndrimi në ujë/larja",
-          "example": "Unë shkoj në notë."
+          "meaning": "lahem, rri në ujë ose bëj banjë",
+          "example": "Ich gehe baden. – Po shkoj të lahem."
         },
         {
           "word": "schwimmen",
-          "meaning": "Noti si lëvizje ose sport",
-          "example": "Ai noti shumë mirë."
+          "meaning": "notoj si lëvizje ose sport",
+          "example": "Er schwimmt sehr gut. – Ai noton shumë mirë."
         },
         {
           "word": "duschen",
-          "meaning": "Bëj një dush.",
-          "example": "Unë dush në mëngjes."
+          "meaning": "bëj dush",
+          "example": "Ich dusche am Morgen. – Bëj dush në mëngjes."
         },
         {
           "word": "schwimmen gehen",
-          "meaning": "Shko të notosh",
-          "example": "Unë shkoj të notoj sot."
+          "meaning": "shkoj për të notuar",
+          "example": "Ich gehe heute schwimmen. – Sot po shkoj për të notuar."
         }
       ],
       "tip": {
-        "text": "Mos harroni: të pushoni në ujë të → ndotur • → Notarë të lëvizjes së notit."
+        "text": "Mbaj mend: çlodhje ose qëndrim në ujë → baden; lëvizja e notit → schwimmen."
       },
       "important": [
-        "Baden dhe schwimmen nuk janë sinonime.",
-        "Letonishtja zakonisht thotë \"noto\", por në gjermanisht duhet të zgjedhësh sipas situatës."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "baden"
-          ],
-          "red": [
-            "schwimmen",
-            "Ideja"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "baden"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "blue": [
-                "baden"
-              ],
-              "green": [
-                "See"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "schwimmt"
-              ]
-            },
-            "lv": {}
-          },
-          {
-            "de": {
-              "red": [
-                "schwimme"
-              ]
-            },
-            "lv": {}
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "baden"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "blue": [
-                "baden"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "schwimmen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "spor"
-              ]
-            },
-            "example": {
-              "red": [
-                "schwimmt"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "duschen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "yellow": [
-                "dusche"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "schwimmen gehen"
-              ]
-            },
-            "meaning": {},
-            "example": {
-              "green": [
-                "schwimmen"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {}
-        },
-        "important": [
-          {
-            "blue": [
-              "baden"
-            ],
-            "red": [
-              "schwimmen"
-            ]
-          },
-          {}
-        ]
-      }
+        "baden dhe schwimmen nuk janë sinonime të plota.",
+        "baden thekson më shpesh qëndrimin ose çlodhjen në ujë, ndërsa schwimmen lëvizjen e notit."
+      ]
     }
   },
   {
@@ -2101,15 +1980,14 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "vizitë",
       "explanation": [
-        "Ideja kryesore: der Besuch nënkupton vizitë, kërkesë ose ardhje.",
-        "Nëse flitet për një vend ose aktivitet, zakonisht përdoret vizitë.",
-        "Nëse flitet për vizitimin e një persone, mund të thuhet ardhje ose kërkesë.",
+        "Ideja kryesore: der Besuch do të thotë vizitë ose ardhje për të parë dikë a diçka.",
+        "Mund t'i referohet vizitës në një vend, ngjarje ose te një person.",
         "Shumësi është die Besuche."
       ],
       "examples": [
         {
           "de": "Der Besuch im Museum war interessant.",
-          "lv": "Vizita në muzeum ishte interesante."
+          "lv": "Vizita në muze ishte interesante."
         },
         {
           "de": "Danke für deinen Besuch.",
@@ -2117,168 +1995,33 @@ const A1_WORDS = [
         },
         {
           "de": "Der Arzt macht einen Besuch.",
-          "lv": "Doktori shkon në vizitë."
+          "lv": "Mjeku bën një vizitë."
         }
       ],
       "comparison": [
         {
           "word": "der Besuch",
-          "meaning": "vizitë • ardhje • kërkesë",
+          "meaning": "vizitë",
           "example": "Danke für deinen Besuch. – Faleminderit për vizitën tënde."
         },
         {
           "word": "der Besucher",
-          "meaning": "Vizitor",
+          "meaning": "vizitor",
           "example": "Der Besucher wartet draußen. – Vizitori pret jashtë."
         },
         {
           "word": "besuchen",
-          "meaning": "vizitoj • shkoj te",
-          "example": "Ich besuche meine Großeltern. – Un vizitoj gjysherinjtë e mi."
+          "meaning": "vizitoj",
+          "example": "Ich besuche meine Großeltern. – Vizitoj gjyshërit e mi."
         }
       ],
       "tip": {
-        "text": "Atceries: Besuch ir notikums vai vizīte, bet Besucher ir cilvēks."
+        "text": "Mbaj mend: Besuch është vizita, ndërsa Besucher është personi që viziton."
       },
       "important": [
-        "der Besuch nuk është vetëm ardhje; mund të jetë edhe vizitë ose kërkesë.",
+        "der Besuch mund të jetë vizitë te një person, në një vend ose në një ngjarje.",
         "Shumësi: die Besuche."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "der Besuch",
-            "die Besuche"
-          ],
-          "purple": [
-            "apmeklējums",
-            "apciemojums",
-            "vizīte"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "Besuch"
-              ],
-              "green": [
-                "Museum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apmeklējums"
-              ],
-              "green": [
-                "Muzeja"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Besuch"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apciemojumu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "Besuch"
-              ],
-              "green": [
-                "Arzt"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "vizītē"
-              ],
-              "green": [
-                "Ārsts"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "der Besuch"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "apmeklējums",
-                "apciemojums",
-                "vizīte"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "der Besucher"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "apmeklētājs"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "besuchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "apmeklēt",
-                "apciemot"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "Besuch"
-            ],
-            "purple": [
-              "notikums",
-              "vizīte"
-            ],
-            "green": [
-              "Besucher"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "der Besuch"
-            ],
-            "purple": [
-              "apmeklējums",
-              "apciemojums",
-              "vizīte"
-            ]
-          },
-          {
-            "blue": [
-              "die Besuche"
-            ]
-          }
-        ]
-      }
+      ]
     }
   },
   {
@@ -2297,209 +2040,47 @@ const A1_WORDS = [
       "layout": "standardStudy",
       "translation": "vizitoj",
       "explanation": [
-        "Ideja kryesore: besuchen përdoret kur vizitoni një vend, aktivitet ose person.",
-        "Vend, aktivitet ose kurs zakonisht vizitatet.",
-        "Nëse besuchen i referohet një persone, zakonisht më natyrore është të thuash shkoj te.",
-        "Në gjermanisht besuchen përdoret pa parafjalë dhe me akuzativin."
+        "Ideja kryesore: besuchen përdoret kur vizitojmë një vend, aktivitet ose person.",
+        "Në gjermanisht përdoret pa parafjalë dhe merr kundrinorin në kallëzore."
       ],
       "examples": [
         {
           "de": "Ich besuche das Museum.",
-          "lv": "Unë vizitoj një muze."
+          "lv": "Unë vizitoj muzeun."
         },
         {
           "de": "Wir besuchen einen Deutschkurs.",
-          "lv": "Ne vizitojmë një kurs gjermanishteje."
+          "lv": "Ne ndjekim një kurs të gjuhës gjermane."
         },
         {
           "de": "Ich besuche meine Großeltern.",
-          "lv": "Unë vizitoj gjysherinjtë e mi."
+          "lv": "Unë vizitoj gjyshërit e mi."
         }
       ],
       "comparison": [
         {
           "word": "besuchen",
-          "meaning": "vizitoj vend ose aktivitet • shkoj te personë",
-          "example": "Ich besuche meine Großeltern. – Un vizitoj gjysherinjtë e mi."
+          "meaning": "vizitoj një vend, aktivitet ose person",
+          "example": "Ich besuche meine Großeltern. – Unë vizitoj gjyshërit e mi."
         },
         {
           "word": "treffen",
-          "meaning": "takoi",
-          "example": "Ich treffe meinen Freund. – Unë takohem me shokun tim."
+          "meaning": "takoj",
+          "example": "Ich treffe meinen Freund. – Unë takoj shokun tim."
         },
         {
           "word": "zu jemandem gehen",
           "meaning": "shkoj te dikush",
-          "example": "Ich gehe zu meinem Freund. – Po e takoj një mik."
+          "example": "Ich gehe zu meinem Freund. – Unë shkoj te shoku im."
         }
       ],
       "tip": {
-        "text": "Atceries: vietu apmeklē, bet personu latviski bieži apciemo."
+        "text": "Mbaj mend: besuchen merr drejtpërdrejt një kundrinor, pa parafjalë."
       },
       "important": [
         "besuchen përdoret pa parafjalë: Ich besuche meine Freundin.",
-        "Përkthimi shqip varet nga objekti: vizitoj vendin, shkoj te personi."
-      ],
-      "sectionAccents": {
-        "explanation": {
-          "blue": [
-            "besuchen"
-          ],
-          "purple": [
-            "apmeklēt",
-            "apciemot"
-          ],
-          "green": [
-            "vietu",
-            "pasākumu",
-            "personu"
-          ]
-        },
-        "examples": [
-          {
-            "de": {
-              "blue": [
-                "besuche"
-              ],
-              "green": [
-                "Museum"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apmeklēju"
-              ],
-              "green": [
-                "muzeju"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "besuchen"
-              ],
-              "green": [
-                "Deutschkurs"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apmeklējam"
-              ],
-              "green": [
-                "vācu valodas kursu"
-              ]
-            }
-          },
-          {
-            "de": {
-              "blue": [
-                "besuche"
-              ],
-              "green": [
-                "Großeltern"
-              ]
-            },
-            "lv": {
-              "purple": [
-                "apciemoju"
-              ],
-              "green": [
-                "vecvecākus"
-              ]
-            }
-          }
-        ],
-        "comparison": [
-          {
-            "word": {
-              "green": [
-                "besuchen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "apmeklēt",
-                "apciemot"
-              ]
-            },
-            "example": {
-              "blue": [
-                "besuche"
-              ],
-              "purple": [
-                "apciemoju"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "treffen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "satikt"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "treffe"
-              ]
-            }
-          },
-          {
-            "word": {
-              "green": [
-                "zu jemandem gehen"
-              ]
-            },
-            "meaning": {
-              "purple": [
-                "iet pie kāda"
-              ]
-            },
-            "example": {
-              "yellow": [
-                "gehe zu"
-              ]
-            }
-          }
-        ],
-        "tip": {
-          "left": {
-            "blue": [
-              "besuchen"
-            ],
-            "purple": [
-              "apmeklēt",
-              "apciemot"
-            ]
-          }
-        },
-        "important": [
-          {
-            "blue": [
-              "besuchen"
-            ],
-            "purple": [
-              "bez prievārda"
-            ]
-          },
-          {
-            "green": [
-              "vietu",
-              "personu"
-            ],
-            "purple": [
-              "apmeklēt",
-              "apciemot"
-            ]
-          }
-        ]
-      }
+        "Mos e ngatërro besuchen me treffen: e para do të thotë të vizitosh, e dyta të takosh."
+      ]
     }
   },
   {
