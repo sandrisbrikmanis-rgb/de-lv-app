@@ -25,7 +25,39 @@ function validateSectionAccents(card, cardKeyStr, failures) {
   }
 }
 
+function isScalarOwnerCard(card) {
+  if (!card || typeof card !== "object" || Array.isArray(card)) return false;
+  const topKeys = Object.keys(card);
+  if (!topKeys.includes("lv")) return false;
+  if (topKeys.some((k) => k !== "lv" && k !== "study")) return false;
+  if (!card.study || Object.keys(card.study).length === 0) return topKeys.includes("lv");
+  return false;
+}
+
+function countDuplicateDegenerateExamplePairs(card) {
+  const ex = card?.study?.examples;
+  if (!Array.isArray(ex)) return 0;
+  let bad = 0;
+  const seen = new Set();
+  for (const e of ex) {
+    if (!e) {
+      bad += 1;
+      continue;
+    }
+    const de = String(e.de ?? "").trim();
+    const lv = String(e.lv ?? "").trim();
+    if (!de && !lv) bad += 1;
+    const sig = `${de}\0${lv}`;
+    if (seen.has(sig)) bad += 1;
+    else seen.add(sig);
+  }
+  return bad;
+}
+
 function countEmptyTargetFields(card) {
+  if (isScalarOwnerCard(card)) {
+    return card.lv == null || String(card.lv).trim() === "" ? 1 : 0;
+  }
   const norm = mechanicalNormalizeTargetLanguageCard(card);
   if (!norm) return 1;
   let empty = 0;
@@ -94,6 +126,7 @@ function runOwnerCopyPasteGates({ scopeCards, sourceByKey, appliedByKey }) {
   let wrongLanguageResidue = 0;
   let semanticSourceFidelityViolations = 0;
   let internalContradictions = 0;
+  let duplicateDegenerateExamplePairs = 0;
   const schemaSectionAccentsFailures = [];
 
   for (const key of scopeKeys) {
@@ -113,6 +146,7 @@ function runOwnerCopyPasteGates({ scopeCards, sourceByKey, appliedByKey }) {
     deAlignment += countDeAlignmentMismatches(lang, cardId, applied);
     wrongLanguageResidue += countWrongLanguageResidue(lang, applied);
     internalContradictions += countInternalContradictions(applied, source);
+    duplicateDegenerateExamplePairs += countDuplicateDegenerateExamplePairs(applied);
     validateSectionAccents(applied, key, schemaSectionAccentsFailures);
   }
 
@@ -125,7 +159,9 @@ function runOwnerCopyPasteGates({ scopeCards, sourceByKey, appliedByKey }) {
     wrong_language_residue: wrongLanguageResidue,
     semantic_source_fidelity_violations: semanticSourceFidelityViolations,
     internal_contradictions: internalContradictions,
-    duplicate_degenerate_pairs: degeneratePairs,
+    duplicate_degenerate_pairs: degeneratePairs + duplicateDegenerateExamplePairs,
+    duplicate_scope_keys: degeneratePairs,
+    duplicate_degenerate_example_pairs: duplicateDegenerateExamplePairs,
     schema_sectionAccents_failures: schemaSectionAccentsFailures.length,
     schema_sectionAccents_failure_details: schemaSectionAccentsFailures.slice(0, 20),
     pass:
@@ -137,6 +173,7 @@ function runOwnerCopyPasteGates({ scopeCards, sourceByKey, appliedByKey }) {
       semanticSourceFidelityViolations === 0 &&
       internalContradictions === 0 &&
       degeneratePairs === 0 &&
+      duplicateDegenerateExamplePairs === 0 &&
       schemaSectionAccentsFailures.length === 0,
   };
 }
@@ -153,4 +190,6 @@ module.exports = {
   runFirst20Gates,
   validateSectionAccents,
   countEmptyTargetFields,
+  isScalarOwnerCard,
+  countDuplicateDegenerateExamplePairs,
 };

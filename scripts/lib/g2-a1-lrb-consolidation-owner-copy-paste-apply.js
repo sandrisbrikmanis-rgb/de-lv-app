@@ -26,7 +26,22 @@ function applyOwnerCopyPasteBatch({
   proofPath,
   sourceReviewPackRef,
   scopeMeta,
+  proofClassification,
+  expectedOwnerSha256,
+  expectedSourceHead,
 }) {
+  if (expectedOwnerSha256) {
+    const got = sha256(ownerRaw);
+    if (got !== expectedOwnerSha256) {
+      throw new Error(`Owner bundle SHA mismatch: ${got} expected ${expectedOwnerSha256}`);
+    }
+  }
+  if (expectedSourceHead) {
+    const headNow = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
+    if (headNow !== expectedSourceHead) {
+      console.warn(`warning: HEAD ${headNow} !== expected source ${expectedSourceHead}`);
+    }
+  }
   if (ownerBundle.classification !== expectedClassification) {
     throw new Error(`Unexpected classification: ${ownerBundle.classification}`);
   }
@@ -92,7 +107,7 @@ function applyOwnerCopyPasteBatch({
 
   const proof = {
     schema_version: 1,
-    classification: "AWAITING_GALA_VERDICT",
+    classification: proofClassification || "AWAITING_GALA_VERDICT",
     generated_at: new Date().toISOString(),
     source_review_pack_ref: sourceReviewPackRef,
     owner_bundle_path: ownerBundleRelPath,

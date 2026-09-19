@@ -1,0 +1,2533 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_041_060_FULL_CARD_COPY_PASTE_READY",
+  "source_head": "3c6ab972108b4fa8198317fa0e8ee59363c5b5d9",
+  "scope": {
+    "start_ordinal": 41,
+    "end_ordinal": 60,
+    "cards": 20,
+    "full_composites": 19,
+    "scalar_cards": 1,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "cards": [
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "Eis",
+      "full_card_owner_new": {
+        "lv": "hielo • helado",
+        "study": {
+          "id": "a1-eis",
+          "layout": "standardStudy",
+          "translation": "hielo • helado",
+          "explanation": [
+            "Idea principal: das Eis puede significar hielo o helado.",
+            "Cuando se habla de agua congelada, significa hielo.",
+            "Cuando se habla de comida o postre, significa helado.",
+            "El contexto permite distinguir las dos acepciones.",
+            "Expresiones frecuentes: ein Eis essen y Eis auf dem See."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse ein Eis.",
+              "lv": "Como un helado."
+            },
+            {
+              "de": "Möchtest du ein Eis?",
+              "lv": "¿Quieres un helado?"
+            },
+            {
+              "de": "Im Winter liegt Eis auf dem See.",
+              "lv": "En invierno hay hielo en el lago."
+            },
+            {
+              "de": "Das Eis ist kalt.",
+              "lv": "El hielo está frío."
+            },
+            {
+              "de": "Ich nehme ein Eis mit Schokolade.",
+              "lv": "Tomo un helado de chocolate."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das Eis",
+              "meaning": "hielo / helado",
+              "example": "Ich esse ein Eis. – Como un helado."
+            },
+            {
+              "word": "der Schnee",
+              "meaning": "nieve",
+              "example": "Der Schnee ist weiß. – La nieve es blanca."
+            },
+            {
+              "word": "kalt",
+              "meaning": "frío",
+              "example": "Das Wasser ist kalt. – El agua está fría."
+            },
+            {
+              "word": "das Dessert",
+              "meaning": "postre",
+              "example": "Eis ist ein Dessert. – El helado es un postre."
+            }
+          ],
+          "tip": {
+            "text": "Recuerda: comida → helado; agua congelada → hielo."
+          },
+          "important": [
+            "En español, hielo y helado son palabras distintas; el alemán usa das Eis para ambas ideas.",
+            "El contexto determina si se trata de hielo o de helado."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Eis"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Eis"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das Eis"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Schnee"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "kalt"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "das Dessert"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "es",
+      "full_card_owner_new": {
+        "lv": "ello • pronombre impersonal",
+        "study": {
+          "id": "a1-es",
+          "layout": "standardStudy",
+          "translation": "ello • pronombre impersonal",
+          "explanation": [
+            "Idea principal: es es un pronombre neutro alemán.",
+            "Puede referirse a un sustantivo neutro o funcionar como sujeto formal en construcciones impersonales.",
+            "En español, muchas construcciones impersonales con es no traducen el pronombre de forma expresa."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet.",
+              "lv": "Llueve."
+            },
+            {
+              "de": "Es ist kalt.",
+              "lv": "Hace frío."
+            },
+            {
+              "de": "Das Kind schläft.",
+              "lv": "El niño duerme."
+            },
+            {
+              "de": "Es ist müde.",
+              "lv": "Está cansado."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "es",
+              "meaning": "ello / pronombre impersonal",
+              "example": "Es regnet. – Llueve."
+            },
+            {
+              "word": "ich",
+              "meaning": "yo",
+              "example": "Ich lerne Deutsch. – Estudio alemán."
+            }
+          ],
+          "tip": {
+            "text": "Recuerda: el alemán es puede ser neutro o impersonal; no equivale a ich."
+          },
+          "important": [
+            "es e ich no son el mismo pronombre.",
+            "En expresiones meteorológicas, es suele omitirse al traducir al español."
+          ],
+          "info": [
+            "es = pronombre neutro o sujeto formal",
+            "ich = yo"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "es"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Es"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "es"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ich"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "oder",
+      "full_card_owner_new": {
+        "lv": "o",
+        "study": {
+          "id": "a1-oder",
+          "layout": "standardStudy",
+          "translation": "o",
+          "explanation": [
+            "Idea principal: oder une alternativas y significa o.",
+            "Se usa para elegir entre dos o más posibilidades.",
+            "No debe confundirse con ob, que introduce una pregunta indirecta.",
+            "Al final de una oración, oder? puede equivaler a ¿verdad? o ¿no?"
+          ],
+          "examples": [
+            {
+              "de": "Kaffee oder Tee?",
+              "lv": "¿Café o té?"
+            },
+            {
+              "de": "Heute oder morgen?",
+              "lv": "¿Hoy o mañana?"
+            },
+            {
+              "de": "Willst du Pizza oder Salat?",
+              "lv": "¿Quieres pizza o ensalada?"
+            },
+            {
+              "de": "Du kommst, oder?",
+              "lv": "Vienes, ¿no?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "oder",
+              "meaning": "o, entre alternativas",
+              "example": "Kaffee oder Tee? – ¿Café o té?"
+            },
+            {
+              "word": "ob",
+              "meaning": "si, en una pregunta indirecta",
+              "example": "Ich weiß nicht, ob er kommt. – No sé si viene."
+            },
+            {
+              "word": "und",
+              "meaning": "y",
+              "example": "Kaffee und Kuchen. – Café y pastel."
+            },
+            {
+              "word": "aber",
+              "meaning": "pero",
+              "example": "Ich komme, aber später. – Voy, pero más tarde."
+            }
+          ],
+          "tip": {
+            "text": "Recuerda: elección entre alternativas → oder; pregunta indirecta → ob."
+          },
+          "important": [
+            "oder se usa para expresar una elección.",
+            "El si de una pregunta indirecta se expresa con ob."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "oder"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "oder"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "oder"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ob"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "und"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "aber"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "es",
+      "canonical_card_object_id": "passen",
+      "full_card_owner_new": {
+        "lv": "quedar bien • servir",
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "quedar bien • servir",
+          "explanation": [
+            "Idea principal: passen significa servir, quedar bien o ser adecuado.",
+            "Con ropa suele indicar que la talla va bien.",
+            "Con colores o estilo puede significar combinar o quedar bien.",
+            "Das passt. significa «Eso sirve» o «Eso está bien»."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "La chaqueta me queda bien."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "El vestido queda bien."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "El color te queda bien."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "Eso está bien."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "servir / quedar bien",
+              "example": "Die Jacke passt mir. – La chaqueta me queda bien."
+            },
+            {
+              "word": "stehen",
+              "meaning": "sentar bien (color o estilo)",
+              "example": "Rot steht dir gut. – El rojo te sienta bien."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "ser adecuado",
+              "example": "Das ist geeignet. – Eso es adecuado."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "funcionar",
+              "example": "Das funktioniert. – Eso funciona."
+            }
+          ],
+          "tip": {
+            "text": "Recuerda: Das passt. = Eso sirve / Eso está bien."
+          },
+          "important": [
+            "passen no se limita a la ropa.",
+            "También puede indicar que una hora, un plan o una solución resultan adecuados."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "passen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "passen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "geeignet sein"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "bitte",
+      "full_card_owner_new": {
+        "lv": "palun",
+        "study": {
+          "id": "a1-bitte",
+          "layout": "standardStudy",
+          "translation": "palun",
+          "explanation": [
+            "Põhiidee: bitte on väikese algustähega viisakussõna, mis tähendab „palun”.",
+            "Seda kasutatakse palve pehmendamiseks või viisakaks vastuseks.",
+            "Nimisõna die Bitte kirjutatakse suure algustähega ja tähendab „palve”."
+          ],
+          "examples": [
+            {
+              "de": "Eine Tasse Kaffee, bitte.",
+              "lv": "Üks tass kohvi, palun."
+            },
+            {
+              "de": "Komm bitte herein.",
+              "lv": "Palun tule sisse."
+            },
+            {
+              "de": "Bitte schön!",
+              "lv": "Palun!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bitte",
+              "meaning": "palun",
+              "example": "Komm bitte herein. – Palun tule sisse."
+            },
+            {
+              "word": "die Bitte",
+              "meaning": "palve",
+              "example": "Ich habe eine Bitte. – Mul on üks palve."
+            }
+          ],
+          "tip": {
+            "text": "Pea meeles: bitte = palun; die Bitte = palve."
+          },
+          "important": [
+            "bitte kirjutatakse väikese algustähega.",
+            "die Bitte on suure algustähega nimisõna."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "Bitte",
+      "full_card_owner_new": {
+        "lv": "palve",
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "palve",
+          "explanation": [
+            "Põhiidee: die Bitte on nimisõna, mis tähendab konkreetset palvet või soovi.",
+            "Nimisõnana kirjutatakse Bitte suure algustähega ja seda kasutatakse artikliga die.",
+            "Mitmus on die Bitten.",
+            "Viisakussõna bitte väikese algustähega tähendab „palun”."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Mul on üks palve."
+            },
+            {
+              "de": "Er erfüllt meine Bitte.",
+              "lv": "Ta täidab minu palve."
+            },
+            {
+              "de": "Sie hat zwei Bitten.",
+              "lv": "Tal on kaks palvet."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Bitte",
+              "meaning": "palve",
+              "example": "Ich habe eine Bitte. – Mul on üks palve."
+            },
+            {
+              "word": "bitte",
+              "meaning": "palun",
+              "example": "Komm bitte herein. – Palun tule sisse."
+            }
+          ],
+          "tip": {
+            "text": "Pea meeles: die Bitte = palve; bitte = palun."
+          },
+          "important": [
+            "die Bitte kirjutatakse suure algustähega.",
+            "Mitmus on die Bitten."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "bleiben",
+      "full_card_owner_new": {
+        "lv": "jääma",
+        "study": {
+          "id": "a1-bleiben",
+          "layout": "standardStudy",
+          "translation": "jääma",
+          "explanation": [
+            "Põhiidee: bleiben tähendab jääma.",
+            "Seda kasutatakse, kui inimene või asi ei lähe ära, vaid jääb samasse kohta või olekusse.",
+            "Äraminekut väljendavate tegusõnade gehen ja fahren vastandina näitab bleiben paigalejäämist.",
+            "Väga sage väljend on Ich bleibe zu Hause."
+          ],
+          "examples": [
+            {
+              "de": "Ich bleibe zu Hause.",
+              "lv": "Ma jään koju."
+            },
+            {
+              "de": "Bleib hier!",
+              "lv": "Jää siia!"
+            },
+            {
+              "de": "Wir bleiben noch eine Stunde.",
+              "lv": "Me jääme veel üheks tunniks."
+            },
+            {
+              "de": "Ich gehe nach Hause.",
+              "lv": "Ma lähen koju."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bleiben",
+              "meaning": "jääma",
+              "example": "Ich bleibe hier. – Ma jään siia."
+            },
+            {
+              "word": "gehen",
+              "meaning": "minema / jalgsi liikuma",
+              "example": "Ich gehe nach Hause. – Ma lähen koju."
+            },
+            {
+              "word": "fahren",
+              "meaning": "sõitma",
+              "example": "Ich fahre nach Hause. – Ma sõidan koju."
+            },
+            {
+              "word": "warten",
+              "meaning": "ootama",
+              "example": "Ich warte hier. – Ma ootan siin."
+            }
+          ],
+          "tip": {
+            "text": "Pea meeles: ei lähe ära → bleiben; läheb ära → gehen või fahren."
+          },
+          "important": [
+            "bleiben tähendab jääma, mitte ootama.",
+            "Ich bleibe hier = ma jään siia; Ich warte hier = ma ootan siin."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bleiben"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "bleiben"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bleiben"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "warten"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "bringen",
+      "full_card_owner_new": {
+        "lv": "tooma • viima",
+        "study": {
+          "id": "a1-bringen",
+          "layout": "standardStudy",
+          "translation": "tooma • viima",
+          "explanation": [
+            "Põhiidee: bringen tähendab midagi kellelegi tooma, viima või kohale toimetama.",
+            "Seda kasutatakse, kui asi või inimene liigub teise inimese juurde või teise kohta.",
+            "nehmen tähendab võtma, mitte kohale toimetama.",
+            "Täpne eestikeelne vaste sõltub liikumise suunast ja kontekstist."
+          ],
+          "examples": [
+            {
+              "de": "Ich bringe dir ein Buch.",
+              "lv": "Ma toon sulle raamatu."
+            },
+            {
+              "de": "Ich bringe das Paket zur Post.",
+              "lv": "Ma viin paki postkontorisse."
+            },
+            {
+              "de": "Ich bringe die Kinder zur Schule.",
+              "lv": "Ma viin lapsed kooli."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bringen",
+              "meaning": "tooma / viima",
+              "example": "Ich bringe dir ein Buch. – Ma toon sulle raamatu."
+            },
+            {
+              "word": "nehmen",
+              "meaning": "võtma",
+              "example": "Ich nehme das Buch. – Ma võtan raamatu."
+            },
+            {
+              "word": "holen",
+              "meaning": "järele minema ja tooma",
+              "example": "Ich hole Wasser. – Ma toon vett."
+            }
+          ],
+          "tip": {
+            "text": "Pea meeles: kellegi juurde või kuhugi kohale → bringen; endale võtma → nehmen."
+          },
+          "important": [
+            "bringen võib eesti keeles tähendada nii tooma kui ka viima.",
+            "Tõlge sõltub liikumise suunast."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "bringen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "holen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "et",
+      "canonical_card_object_id": "da",
+      "full_card_owner_new": {
+        "lv": "seal • siin",
+        "study": {
+          "id": "a1-da",
+          "layout": "standardStudy",
+          "translation": "seal • siin",
+          "explanation": [
+            "Põhiidee: da tähendab A1-tasemel kõige sagedamini „seal” või kontekstist sõltuvalt „siin”.",
+            "See osutab kohale või viitab millelegi juba mainitule.",
+            "hier tähendab konkreetselt „siin” ja dort kaugemal asuvat „seal”.",
+            "da ei ole sama mis dann, mis tähendab „siis”."
+          ],
+          "examples": [
+            {
+              "de": "Da ist mein Auto.",
+              "lv": "Seal on minu auto."
+            },
+            {
+              "de": "Ich war da.",
+              "lv": "Ma olin seal."
+            },
+            {
+              "de": "Da kommt er.",
+              "lv": "Sealt ta tuleb."
+            },
+            {
+              "de": "Komm mal da her!",
+              "lv": "Tule siia!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "da",
+              "meaning": "seal / siin (üldiselt)",
+              "example": "Da ist mein Auto. – Seal on minu auto."
+            },
+            {
+              "word": "hier",
+              "meaning": "siin",
+              "example": "Hier ist mein Auto. – Siin on minu auto."
+            },
+            {
+              "word": "dort",
+              "meaning": "seal (kaugemal)",
+              "example": "Dort ist mein Auto. – Seal on minu auto."
+            },
+            {
+              "word": "dann",
+              "meaning": "siis",
+              "example": "Dann gehen wir nach Hause. – Siis läheme koju."
+            }
+          ],
+          "tip": {
+            "text": "Pea meeles: üldine koht → da; konkreetne „siin” → hier; kaugem „seal” → dort."
+          },
+          "important": [
+            "da on üldine kohamäärsõna.",
+            "da ja dann on eri sõnad."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "da"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Da"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "da"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Da"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "da"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "da"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "hier"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "dort"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "dann"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-ab",
+      "full_card_owner_new": {
+        "lv": "alkaen • lähtien",
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "alkaen • lähtien",
+          "explanation": [
+            "Pääajatus: ab ilmaisee ajan tai paikan lähtöpisteen.",
+            "Ajanilmauksissa se tarkoittaa tavallisesti „alkaen” tai „lähtien”.",
+            "Paikan yhteydessä se voi tarkoittaa lähtöä tietystä pisteestä.",
+            "ab ei ole sama kuin von tai aus."
+          ],
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "tästä päivästä alkaen"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "maanantaista alkaen"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "kello kahdeksasta alkaen"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "asemalta alkaen"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "alkaen / lähtien",
+              "example": "ab Montag – maanantaista alkaen"
+            },
+            {
+              "word": "von",
+              "meaning": "joltakin / jostakin",
+              "example": "von mir – minulta"
+            },
+            {
+              "word": "aus",
+              "meaning": "jonkin sisältä",
+              "example": "aus dem Haus – talosta"
+            }
+          ],
+          "tip": {
+            "text": "Muista: ajan tai paikan lähtöpiste → ab."
+          },
+          "important": [
+            "ab osoittaa lähtöpistettä ajassa tai paikassa.",
+            "Alkuperää tai liikettä sisältä ilmaistaan usein sanoilla von tai aus."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ab"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ab"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-aber",
+      "full_card_owner_new": {
+        "lv": "mutta • kuitenkin",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "mutta • kuitenkin",
+          "explanation": [
+            "Pääajatus: aber yhdistää vastakkaisia tai keskenään ristiriitaisia ajatuksia.",
+            "Suomeksi se tarkoittaa tavallisesti „mutta” tai joskus „kuitenkin”.",
+            "aber ei muuta saksan päälauseen normaalia sanajärjestystä.",
+            "Rakenteessa „ei … vaan …” käytetään yleensä sanaa sondern."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Haluaisin tulla mukaan, mutta minulla ei ole aikaa."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Ruoka oli herkullista, mutta liian kallista."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Hän on oikeassa, mutta minä näen asian toisin."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "mutta / kuitenkin",
+              "example": "Ich komme, aber später. – Tulen, mutta myöhemmin."
+            },
+            {
+              "word": "sondern",
+              "meaning": "vaan (kiellon jälkeen)",
+              "example": "Nicht Tee, sondern Kaffee. – Ei teetä vaan kahvia."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "kuitenkin",
+              "example": "Es ist kalt, jedoch sonnig. – On kylmä, mutta aurinkoista."
+            }
+          ],
+          "tip": {
+            "text": "Muista: tavallinen vastakohta → aber; „ei … vaan …” → sondern."
+          },
+          "important": [
+            "aber ilmaisee vastakohtaa tai varausta.",
+            "aber ja sondern eivät ole täysin vaihdettavissa keskenään."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "aber"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aber"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "sondern"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "jedoch"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-also",
+      "full_card_owner_new": {
+        "lv": "siis • näin ollen",
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "siis • näin ollen",
+          "explanation": [
+            "Pääajatus: also ilmaisee johtopäätöksen tai seurauksen.",
+            "Suomeksi se tarkoittaa „siis”, „näin ollen” tai asiayhteydestä riippuen „joten”.",
+            "Saksan also ei yleensä tarkoita suomen sanaa „myös”.",
+            "Sana auch tarkoittaa „myös”."
+          ],
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Sataa, joten jään kotiin."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Olet sairas, joten et mene töihin."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Olen opiskellut paljon, joten ymmärrän sen nyt."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "siis / näin ollen",
+              "example": "Es regnet, also bleibe ich zu Hause. – Sataa, joten jään kotiin."
+            },
+            {
+              "word": "auch",
+              "meaning": "myös",
+              "example": "Ich komme auch. – Minäkin tulen."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "siksi",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Sataa, siksi jään kotiin."
+            }
+          ],
+          "tip": {
+            "text": "Muista: johtopäätös → also; „myös” → auch."
+          },
+          "important": [
+            "also osoittaa, että seuraava ajatus on edellisen seuraus.",
+            "Suomen „siksi” voidaan usein ilmaista myös sanalla deshalb."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "also"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "also"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "also"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "auch"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "deshalb"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-besuch",
+      "full_card_owner_new": {
+        "lv": "vierailu • käynti",
+        "study": {
+          "id": "a1-besuch",
+          "layout": "standardStudy",
+          "translation": "vierailu • käynti",
+          "explanation": [
+            "Pääajatus: der Besuch tarkoittaa vierailua tai käyntiä.",
+            "Sana voi viitata sekä vierailutapahtumaan että jonkun luona käymiseen.",
+            "Se ei tarkoita vierailijaa; vierailija on der Besucher.",
+            "Monikko on die Besuche."
+          ],
+          "examples": [
+            {
+              "de": "Der Besuch im Museum war interessant.",
+              "lv": "Museokäynti oli mielenkiintoinen."
+            },
+            {
+              "de": "Danke für deinen Besuch.",
+              "lv": "Kiitos vierailustasi."
+            },
+            {
+              "de": "Der Arzt macht einen Besuch.",
+              "lv": "Lääkäri tekee kotikäynnin."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Besuch",
+              "meaning": "vierailu / käynti",
+              "example": "Danke für deinen Besuch. – Kiitos vierailustasi."
+            },
+            {
+              "word": "der Besucher",
+              "meaning": "vierailija",
+              "example": "Der Besucher wartet draußen. – Vierailija odottaa ulkona."
+            },
+            {
+              "word": "besuchen",
+              "meaning": "vierailla / käydä",
+              "example": "Ich besuche meine Großeltern. – Käyn isovanhempieni luona."
+            }
+          ],
+          "tip": {
+            "text": "Muista: der Besuch = vierailu tai käynti; der Besucher = vierailija."
+          },
+          "important": [
+            "der Besuch voi tarkoittaa vierailua tai käyntiä.",
+            "Monikko on die Besuche."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Besuch"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Besucher"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "besuchen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-besuchen",
+      "full_card_owner_new": {
+        "lv": "vierailla • käydä",
+        "study": {
+          "id": "a1-besuchen",
+          "layout": "standardStudy",
+          "translation": "vierailla • käydä",
+          "explanation": [
+            "Pääajatus: besuchen tarkoittaa vierailla jossakin tai käydä jonkun luona.",
+            "Sitä käytetään paikoista, tapahtumista, kursseista ja ihmisistä.",
+            "Saksassa besuchen saa suoran akkusatiiviobjektin ilman prepositiota.",
+            "Luonteva suomennos riippuu objektista."
+          ],
+          "examples": [
+            {
+              "de": "Ich besuche das Museum.",
+              "lv": "Käyn museossa."
+            },
+            {
+              "de": "Wir besuchen einen Deutschkurs.",
+              "lv": "Käymme saksan kurssilla."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Käyn isovanhempieni luona."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "besuchen",
+              "meaning": "vierailla / käydä",
+              "example": "Ich besuche meine Großeltern. – Käyn isovanhempieni luona."
+            },
+            {
+              "word": "treffen",
+              "meaning": "tavata",
+              "example": "Ich treffe meinen Freund. – Tapaan ystäväni."
+            },
+            {
+              "word": "zu jemandem gehen",
+              "meaning": "mennä jonkun luo",
+              "example": "Ich gehe zu meinem Freund. – Menen ystäväni luo."
+            }
+          ],
+          "tip": {
+            "text": "Muista: besuchen + akkusatiivi, ilman prepositiota."
+          },
+          "important": [
+            "besuchen käytetään ilman prepositiota: Ich besuche meine Freundin.",
+            "Suomennos voi olla vierailla, käydä tai käydä jonkun luona."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "besuchen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "besuchen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "besuchen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "treffen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu jemandem gehen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-fahren",
+      "full_card_owner_new": {
+        "lv": "ajaa • matkustaa • kuljettaa",
+        "study": {
+          "id": "a1-fahren",
+          "layout": "standardStudy",
+          "translation": "ajaa • matkustaa • kuljettaa",
+          "explanation": [
+            "Pääajatus: fahren tarkoittaa liikkumista ajoneuvolla.",
+            "Asiayhteydestä riippuen se voidaan suomentaa sanoilla ajaa, matkustaa, kuljettaa tai viedä.",
+            "Kun objektina on henkilö, fahren voi tarkoittaa hänen kuljettamistaan.",
+            "Jalkaisin liikkumisesta käytetään yleensä verbejä gehen tai laufen."
+          ],
+          "examples": [
+            {
+              "de": "Ich fahre nach Berlin.",
+              "lv": "Matkustan Berliiniin."
+            },
+            {
+              "de": "Ich fahre mit dem Auto.",
+              "lv": "Ajan autolla."
+            },
+            {
+              "de": "Ich fahre meine Tochter zur Schule.",
+              "lv": "Kuljetan tyttäreni kouluun."
+            },
+            {
+              "de": "Ich fahre dich nach Hause.",
+              "lv": "Vien sinut kotiin."
+            },
+            {
+              "de": "Wir fahren morgen nach München.",
+              "lv": "Matkustamme huomenna Müncheniin."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fahren",
+              "meaning": "ajaa / matkustaa ajoneuvolla",
+              "example": "Ich fahre mit dem Bus. – Matkustan bussilla."
+            },
+            {
+              "word": "gehen",
+              "meaning": "mennä jalkaisin",
+              "example": "Ich gehe nach Hause. – Menen kotiin."
+            },
+            {
+              "word": "laufen",
+              "meaning": "juosta / kävellä",
+              "example": "Er läuft schnell. – Hän juoksee nopeasti."
+            },
+            {
+              "word": "bringen",
+              "meaning": "tuoda / viedä",
+              "example": "Ich bringe das Buch. – Tuon kirjan."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "ottaa mukaan",
+              "example": "Ich nehme dich mit. – Otan sinut mukaan."
+            }
+          ],
+          "tip": {
+            "text": "Muista: ajoneuvolla → fahren; jalkaisin → gehen."
+          },
+          "important": [
+            "fahren ei tarkoita vain auton ajamista.",
+            "Tarkka suomennos määräytyy kulkuvälineen ja lauseen rakenteen mukaan."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "fahren"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "fahren"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "fahren"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "gehen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "laufen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitnehmen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-nehmen",
+      "full_card_owner_new": {
+        "lv": "ottaa",
+        "study": {
+          "id": "a1-nehmen",
+          "layout": "standardStudy",
+          "translation": "ottaa",
+          "explanation": [
+            "Pääajatus: nehmen tarkoittaa ottaa.",
+            "Sitä käytetään, kun otetaan, valitaan tai käytetään jotakin, esimerkiksi kulkuvälinettä.",
+            "bringen tarkoittaa tuoda tai viedä jollekulle.",
+            "holen tarkoittaa mennä hakemaan ja tuoda."
+          ],
+          "examples": [
+            {
+              "de": "Ich nehme den Bus.",
+              "lv": "Menen bussilla."
+            },
+            {
+              "de": "Nimm das Buch!",
+              "lv": "Ota kirja!"
+            },
+            {
+              "de": "Ich bringe dir das Buch.",
+              "lv": "Tuon sinulle kirjan."
+            },
+            {
+              "de": "Ich hole dich ab.",
+              "lv": "Tulen hakemaan sinut."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "nehmen",
+              "meaning": "ottaa",
+              "example": "Nimm das Buch! – Ota kirja!"
+            },
+            {
+              "word": "bringen",
+              "meaning": "tuoda / viedä",
+              "example": "Ich bringe dir das Buch. – Tuon sinulle kirjan."
+            },
+            {
+              "word": "holen",
+              "meaning": "hakea",
+              "example": "Ich hole Wasser. – Haen vettä."
+            },
+            {
+              "word": "mitnehmen",
+              "meaning": "ottaa mukaan",
+              "example": "Ich nehme dich mit. – Otan sinut mukaan."
+            }
+          ],
+          "tip": {
+            "text": "Muista: ottaa itselle → nehmen; tuoda jollekulle → bringen."
+          },
+          "important": [
+            "Ich nehme den Bus tarkoittaa suomeksi „menen bussilla”.",
+            "nehmen ei ole sama kuin bringen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "nehmen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "nehmen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bringen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "holen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "mitnehmen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-passen",
+      "full_card_owner_new": {
+        "lv": "sopia • soveltua",
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "sopia • soveltua",
+          "explanation": [
+            "Pääajatus: passen tarkoittaa sopia, olla sopiva tai käydä.",
+            "Vaatteista puhuttaessa se ilmaisee usein koon sopivuutta.",
+            "Värien tai tyylin yhteydessä se voi tarkoittaa yhteensopivuutta.",
+            "Hyvin yleinen ilmaus on Das passt. = Se sopii."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "Takki sopii minulle."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "Mekko sopii hyvin."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "Tämä väri sopii sinulle."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "Se sopii."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "sopia / soveltua",
+              "example": "Die Jacke passt mir. – Takki sopii minulle."
+            },
+            {
+              "word": "stehen",
+              "meaning": "sopia ulkonäköön",
+              "example": "Rot steht dir gut. – Punainen sopii sinulle hyvin."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "olla sopiva",
+              "example": "Das ist geeignet. – Se on sopiva."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "toimia",
+              "example": "Das funktioniert. – Se toimii."
+            }
+          ],
+          "tip": {
+            "text": "Muista: Das passt. = Se sopii."
+          },
+          "important": [
+            "passen ei tarkoita vain vaatteiden sopivuutta.",
+            "Myös aika, suunnitelma tai ratkaisu voi sopia."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "passen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "passen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "geeignet sein"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "a1-sich",
+      "full_card_owner_new": {
+        "lv": "itseään • itselleen",
+        "study": {
+          "id": "a1-sich",
+          "layout": "standardStudy",
+          "translation": "itseään • itselleen",
+          "explanation": [
+            "Pääajatus: sich osoittaa, että tekeminen kohdistuu tekijään itseensä.",
+            "Suomeksi se ilmaistaan usein refleksiiviverbillä tai sanoilla itseään ja itselleen.",
+            "Joissakin saksan verbeissä sich on pakollinen osa, esimerkiksi sich waschen.",
+            "Muoto vaihtuu persoonan mukaan: ich wasche mich, du wäschst dich, er wäscht sich."
+          ],
+          "examples": [
+            {
+              "de": "Er wäscht sich.",
+              "lv": "Hän peseytyy."
+            },
+            {
+              "de": "Ich setze mich.",
+              "lv": "Istun alas."
+            },
+            {
+              "de": "Sie freut sich.",
+              "lv": "Hän iloitsee."
+            },
+            {
+              "de": "Ich wasche das Auto.",
+              "lv": "Pesen auton."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sich",
+              "meaning": "itseään / itselleen",
+              "example": "Er wäscht sich. – Hän peseytyy."
+            },
+            {
+              "word": "mich",
+              "meaning": "minua / itseäni",
+              "example": "Ich wasche mich. – Peseydyn."
+            },
+            {
+              "word": "dich",
+              "meaning": "sinua / itseäsi",
+              "example": "Du wäschst dich. – Peseydyt."
+            },
+            {
+              "word": "ihn",
+              "meaning": "hänet / häntä",
+              "example": "Ich sehe ihn. – Näen hänet."
+            }
+          ],
+          "tip": {
+            "text": "Muista: tekeminen kohdistuu tekijään itseensä → mich, dich tai sich."
+          },
+          "important": [
+            "sich ei ole itsenäinen substantiivi.",
+            "Refleksiivipronomini vaihtuu persoonan mukaan."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "sich"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "sich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "sich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "sich"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "mich"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "dich"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ihn"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "Bitte",
+      "full_card_owner_new": {
+        "lv": "pyyntö",
+        "study": {
+          "id": "a1-bitte-study",
+          "layout": "standardStudy",
+          "translation": "pyyntö",
+          "explanation": [
+            "Pääajatus: die Bitte on substantiivi, joka tarkoittaa pyyntöä tai toivetta.",
+            "Substantiivina Bitte kirjoitetaan suurella alkukirjaimella ja sitä käytetään artikkelin die kanssa.",
+            "Monikko on die Bitten.",
+            "Pienellä kirjoitettu bitte on kohteliaisuussana ja tarkoittaa „ole hyvä” tai „kiitos”."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe eine Bitte.",
+              "lv": "Minulla on pyyntö."
+            },
+            {
+              "de": "Er erfüllt meine Bitte.",
+              "lv": "Hän täyttää pyyntöni."
+            },
+            {
+              "de": "Sie hat zwei Bitten.",
+              "lv": "Hänellä on kaksi pyyntöä."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "die Bitte",
+              "meaning": "pyyntö",
+              "example": "Ich habe eine Bitte. – Minulla on pyyntö."
+            },
+            {
+              "word": "bitte",
+              "meaning": "ole hyvä / kiitos",
+              "example": "Komm bitte herein. – Tule sisään, ole hyvä."
+            }
+          ],
+          "tip": {
+            "text": "Muista: die Bitte = pyyntö; bitte = ole hyvä / kiitos."
+          },
+          "important": [
+            "die Bitte kirjoitetaan suurella alkukirjaimella.",
+            "Monikko on die Bitten."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Bitte"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Bitte"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Bitte"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bitte"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "fi",
+      "canonical_card_object_id": "nicht",
+      "full_card_owner_new": {
+        "lv": "ei"
+      }
+    }
+  ]
+}
+

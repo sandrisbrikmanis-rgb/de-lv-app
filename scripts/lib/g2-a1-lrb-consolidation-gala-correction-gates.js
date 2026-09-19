@@ -101,7 +101,7 @@ function runGalaCorrection001040Gates({
     baseGates.wrong_language_residue === 0 &&
     baseGates.semantic_source_fidelity_violations === 0 &&
     baseGates.de_alignment === 0 &&
-    baseGates.duplicate_degenerate_pairs === 0 &&
+    (baseGates.duplicate_scope_keys ?? 0) === 0 &&
     baseGates.internal_contradictions === 0 &&
     fullCompositeFailures === 0 &&
     schemaSectionAccentsFailures.length === 0;
@@ -113,7 +113,8 @@ function runGalaCorrection001040Gates({
     wrong_language_residue: baseGates.wrong_language_residue,
     semantic_source_fidelity_violations: baseGates.semantic_source_fidelity_violations,
     de_alignment: baseGates.de_alignment,
-    duplicate_degenerate_pairs: baseGates.duplicate_degenerate_pairs,
+    duplicate_degenerate_pairs: baseGates.duplicate_scope_keys ?? 0,
+    duplicate_degenerate_example_pairs: baseGates.duplicate_degenerate_example_pairs ?? 0,
     internal_contradictions: baseGates.internal_contradictions,
     full_composite_completeness: fullCompositeFailures === 0 ? "PASS" : "FAIL",
     full_composite_completeness_failures: fullCompositeFailures,
