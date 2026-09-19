@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T13:06:21.892Z",
+  "origin_main_sha": "79b3fac032d869745a6973f18bd3ccb34cc5cf9e",
+  "production_file_set_sha256": "0a14ddc3a066cfe47bafb5e9b762d96ca66aca81ad77d7e20a5218dd234d543e",
+  "atomic_mapping_sha256": "33519482cfb327ba7eb062b69cd3b61d8718ca936cb4a8553fd36b0feb51c5f0",
+  "numbers_table": {
+    "lrb_batches": 103,
+    "finding_rows_expanded_generation": 4968,
+    "owner_card_keys": 234,
+    "unique_production_slots": 233,
+    "owner_leaf_trace_rows": 4787,
+    "unique_production_leaf_targets": 4771,
+    "collapsed_alias_leaf_trace_rows": 16,
+    "changed_production_files": 46,
+    "pending": 0,
+    "unresolved_conflicts": 0,
+    "trace_gaps": 0
+  },
+  "lrb_coverage": "103/103",
+  "finding_row_classification_counts": {
+    "APPLIED_TO_PRODUCTION": 4700,
+    "ALREADY_EQUAL_IN_PRODUCTION": 16,
+    "OWNER_CONFIRMED_NO_CHANGE": 0,
+    "SUPERSEDED_BY_EXPANDED_REVIEW": 153,
+    "SUPERSEDED_BY_OWNER_45": 91,
+    "AUDIT_ONLY_NO_TARGET": 7,
+    "PROVEN_IDENTICAL_ALIAS": 1,
+    "EXPLICITLY_EXCLUDED_WITH_PROOF": 0,
+    "BLOCKED_UNRECONCILED": 0
+  },
+  "post_apply": {
+    "owner_keys_covered": 234,
+    "unique_production_slots": 233,
+    "changed_unique_production_cards": 233,
+    "owner_leaf_matches": 4787,
+    "proven_alias_groups": 1,
+    "unresolved_alias_conflicts": 0
+  },
+  "pass": true,
+  "classification": "A1_LRB_001_103_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1_COMPLETE_AWAITING_OWNER_REVERIFICATION",
+  "next_action": "OWNER_REVERIFY_A1_LRB_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1",
+  "finding_alias_correction_1": {
+    "before_classification_counts": {
+      "PROVEN_IDENTICAL_ALIAS": 716,
+      "APPLIED_TO_PRODUCTION": 3985,
+      "ALREADY_EQUAL_IN_PRODUCTION": 16,
+      "OWNER_CONFIRMED_NO_CHANGE": 0,
+      "SUPERSEDED_BY_EXPANDED_REVIEW": 153,
+      "SUPERSEDED_BY_OWNER_45": 91,
+      "AUDIT_ONLY_NO_TARGET": 7,
+      "EXPLICITLY_EXCLUDED_WITH_PROOF": 0,
+      "BLOCKED_UNRECONCILED": 0
+    },
+    "after_classification_counts": {
+      "APPLIED_TO_PRODUCTION": 4700,
+      "ALREADY_EQUAL_IN_PRODUCTION": 16,
+      "OWNER_CONFIRMED_NO_CHANGE": 0,
+      "SUPERSEDED_BY_EXPANDED_REVIEW": 153,
+      "SUPERSEDED_BY_OWNER_45": 91,
+      "AUDIT_ONLY_NO_TARGET": 7,
+      "PROVEN_IDENTICAL_ALIAS": 1,
+      "EXPLICITLY_EXCLUDED_WITH_PROOF": 0,
+      "BLOCKED_UNRECONCILED": 0
+    },
+    "alias_verification_gates": {
+      "false_alias_classifications": 0,
+      "alias_rows_without_proven_group": 0,
+      "alias_rows_without_two_distinct_owner_keys": 0,
+      "alias_rows_without_identical_payload_proof": 0,
+      "finding_row_reconciliation_sum": 4968,
+      "blocked_unreconciled": 0
+    },
+    "proven_identical_alias_rows": [
+      {
+        "batch_id": "LRB-093",
+        "finding_stable_id": "",
+        "target_language": "sk",
+        "canonical_card_object_id": "wie",
+        "field_path": "study",
+        "owner_status": "LABOT",
+        "owner_final_value_sha256": "38ccb8d04e1936e8f62cd3e4eb50905bb64c398be7ce151bce84523c0ca7c5f7",
+        "production_final_value_sha256": "38ccb8d04e1936e8f62cd3e4eb50905bb64c398be7ce151bce84523c0ca7c5f7",
+        "source_artifact_path": "reports/g2-a1-owner/batches-owner-review/LRB-093/LRB-093-owner-approved-overrides.json",
+        "source_artifact_sha256": "b39206a77aa7b2a62c6ba05c4c389fae8f5062c1d2a7cb782b33ce794091520f",
+        "final_classification": "PROVEN_IDENTICAL_ALIAS",
+        "primary_leaf_target_key": "sk|wie|study.translation",
+        "leaf_target_keys": [
+          "sk|wie|study.translation",
+          "sk|wie|study.explanation[0]",
+          "sk|wie|study.explanation[1]",
+          "sk|wie|study.explanation[2]",
+          "sk|wie|study.explanation[3]",
+          "sk|wie|study.explanation[4]",
+          "sk|wie|study.examples[0].lv",
+          "sk|wie|study.examples[1].lv",
+          "sk|wie|study.examples[2].lv",
+          "sk|wie|study.examples[3].lv",
+          "sk|wie|study.examples[4].lv",
+          "sk|wie|study.examples[5].lv",
+          "sk|wie|study.tip[0]",
+          "sk|wie|study.tip[1]",
+          "sk|wie|study.important[0]",
+          "sk|wie|study.important[1]",
+          "sk|wie|study.important[2]"
+        ],
+        "production_slot_key": "sk|data/sk/a1.js|660",
+        "alias_group_id": "sk|data/sk/a1.js|660",
+        "alias_owner_card_keys": [
+          "sk|a1-wie",
+          "sk|wie"
+        ],
+        "alias_evidence_path": "reports/g2-a1-owner/consolidation/production-apply/A1-LRB-001-103-PRODUCTION-TARGET-ALIAS-RECONCILIATION.json",
+        "alias_evidence_sha256": "98613e1a9a19b226f067b9760128c909529ac7ffa1f0b84ae9c8c3c27b08d461"
+      }
+    ]
+  }
+}

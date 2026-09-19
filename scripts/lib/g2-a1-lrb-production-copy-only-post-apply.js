@@ -54,6 +54,12 @@ const ALLOWED_DIFF_PREFIXES = [
   "scripts/lib/g2-a1-lrb-production-target-alias.js",
   "scripts/lib/g2-a1-lrb-production-copy-only-transaction.js",
   "scripts/test-a1-lrb-production-target-alias.js",
+  "scripts/build-a1-lrb-001-103-production-closure-audit.js",
+  "scripts/verify-a1-lrb-001-103-production-closure-audit.js",
+  "scripts/lib/g2-a1-lrb-production-closure-audit.js",
+  "scripts/lib/g2-a1-lrb-production-closure-finding-alias.js",
+  "scripts/verify-a1-lrb-001-103-production-closure-finding-alias.js",
+  "reports/g2-a1-owner/consolidation/production-closure/",
 ];
 
 function git(cmd) {
