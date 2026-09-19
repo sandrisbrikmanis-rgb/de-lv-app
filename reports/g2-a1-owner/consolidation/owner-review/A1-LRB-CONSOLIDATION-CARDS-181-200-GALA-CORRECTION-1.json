@@ -1,0 +1,147 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_181_200_GALA_CORRECTION_1_READY",
+  "base_head": "4971b7a891e73e8118bf28dc409cefba96aa65c5",
+  "base_owner_bundle_sha256": "d7aa7de5d9f521cc45917e25550a21ae8d9ff8ef9a46922abe50fd4286da095c",
+  "cursor_action": "COPY_PASTE_ONLY",
+  "scope": {
+    "cards_reviewed": 20,
+    "labot": 2,
+    "nelabot": 18,
+    "pending": 0
+  },
+  "changes": [
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "vor",
+      "reason": "Pulksteņa piemēra tulkojums “Пет до осам је.” serbu valodā bija nedabisks; aizstāts ar standarta formulējumu “Осам је без пет.”",
+      "full_card_owner_new": {
+        "lv": "пре • испред",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "пре • испред",
+          "explanation": [
+            "vor означава пре у времену или испред у простору.",
+            "Када се говори о времену, vor значи пре; када се говори о месту, значи испред или пред.",
+            "При исказивању времена на сату vor значи до, на пример fünf vor acht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Пре јела перем руке."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Ауто стоји испред куће."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Осам је без пет."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "После јела идемо у шетњу."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "пре или испред",
+              "example": "Vor dem Essen... – Пре јела..."
+            },
+            {
+              "word": "nach",
+              "meaning": "после или ка",
+              "example": "Nach dem Essen... – После јела..."
+            },
+            {
+              "word": "neben",
+              "meaning": "поред",
+              "example": "Neben dem Haus. – Поред куће."
+            },
+            {
+              "word": "hinter",
+              "meaning": "иза",
+              "example": "Hinter dem Haus. – Иза куће."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Запамти: пре у времену, испред у простору → vor."
+            }
+          ],
+          "important": [
+            "vor може да означава и време и место.",
+            "vor dem Essen = пре јела; vor dem Haus = испред куће."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "erst",
+      "reason": "Tulkojums “Först plugga, sedan leka.” bija nepilnīgs un nedabisks zviedru teikums; piemērs un tā salīdzinājuma rinda aizstāti ar “Först ska man plugga, sedan leka.”",
+      "full_card_owner_new": {
+        "lv": "först • inte förrän • bara",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "först • inte förrän • bara",
+          "explanation": [
+            "erst kan betyda först, inte förrän eller bara beroende på sammanhanget.",
+            "Det markerar ofta en ordningsföljd eller att något sker senare eller är mindre än väntat."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Först ska man plugga, sedan leka."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Jag kommer först i morgon."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Han är bara 18 år."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Vi äter först klockan åtta."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "först, inte förrän eller bara",
+              "example": "Erst lernen, dann spielen. – Först ska man plugga, sedan leka."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "först eller till en början",
+              "example": "Zuerst frühstücken wir. – Först äter vi frukost."
+            },
+            {
+              "word": "nur",
+              "meaning": "bara; begränsad mängd",
+              "example": "Ich habe nur 5 Euro. – Jag har bara fem euro."
+            },
+            {
+              "word": "dann",
+              "meaning": "sedan",
+              "example": "Dann gehen wir nach Hause. – Sedan går vi hem."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Tid, ålder eller ordningsföljd → ofta erst; ren mängd → ofta nur."
+            }
+          ],
+          "important": [
+            "erst och zuerst är inte fullständiga synonymer.",
+            "erst kan betyda inte förrän eller bara, medan zuerst främst anger vad som sker först."
+          ]
+        }
+      }
+    }
+  ]
+}

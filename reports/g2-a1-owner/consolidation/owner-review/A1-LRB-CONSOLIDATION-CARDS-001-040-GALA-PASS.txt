@@ -1,0 +1,18 @@
+A1 LRB konsolidācija — kartīšu 001–040 GALA PASS
+
+Verdikts: A1_LRB_CONSOLIDATION_CARDS_001_040_FULL_CARD_LINGUISTIC_REVIEW_PASS
+
+| Pārbaude | Rezultāts |
+| --- | ---: |
+| Individuāli pārbaudītas kartītes | 40/40 |
+| LABOT korekcijas | 10/10 precīzi ievietotas |
+| NELABOT kartītes | 30/30 saglabātas |
+| PENDING | 0 |
+| Lingvistiskas/semantiskas kļūdas | 0 |
+| DE neatbilstības | 0 |
+| Neatļauti dublikāti | 0 |
+| Shēmas/sectionAccents kļūdas | 0 |
+
+Git HEAD: a2ac98b2ad25d224b2feba1c36ac0562d4ca1311
+Cards 001–040 payload SHA-256: 4d86c05e677e83b7751e374b640c2eae3ccf4f67a2ddc4a358ae6eedb638bbd1
+Pass proof SHA-256: 847e715a398bda8836e6588c414c032aaa2c355d763dc53af57db59e3fa07fff

@@ -1,0 +1,8 @@
+{
+  "mode": "234_gala_full_card_rebuild",
+  "before_rebuild_leaf_decisions": 4787,
+  "after_rebuild_leaf_decisions": 4787,
+  "before_rebuild_full_cards": 234,
+  "after_rebuild_full_cards": 234,
+  "gala_approved_cards_applied": "234/234"
+}

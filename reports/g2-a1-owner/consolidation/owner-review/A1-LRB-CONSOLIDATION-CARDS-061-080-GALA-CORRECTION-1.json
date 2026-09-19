@@ -1,0 +1,326 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_061_080_GALA_CORRECTION_1_READY",
+  "pr": 830,
+  "branch": "cursor/a1-lrb-001-103-consolidation",
+  "base_head": "8e937471",
+  "scope": {
+    "start_ordinal": 61,
+    "end_ordinal": 80,
+    "labot": 3,
+    "nelabot": 17,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "changes": [
+    {
+      "target_language": "gr",
+      "canonical_card_object_id": "passen",
+      "full_card_owner_new": {
+        "lv": "ταιριάζω • μου πηγαίνει",
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "ταιριάζω • μου πηγαίνει",
+          "explanation": [
+            "Κύρια ιδέα: το passen σημαίνει ταιριάζω, εφαρμόζω ή μου πηγαίνει.",
+            "Για ρούχα αναφέρεται συχνά στο σωστό μέγεθος.",
+            "Για χρώματα ή στιλ δηλώνει ότι κάτι πηγαίνει σε κάποιον.",
+            "Η φράση Das passt. σημαίνει «Αυτό ταιριάζει / Αυτό είναι εντάξει»."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "Το μπουφάν μού κάνει."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "Το φόρεμα εφαρμόζει καλά."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "Το χρώμα σού πηγαίνει."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "Αυτό ταιριάζει."
+            }
+          ],
+          "tip": {
+            "text": "Θυμήσου: Das passt. = Αυτό ταιριάζει / Αυτό είναι εντάξει."
+          },
+          "important": [
+            "Το passen δεν αφορά μόνο ρούχα.",
+            "Μπορεί επίσης να δηλώνει ότι μια ώρα, ένα σχέδιο ή μια λύση ταιριάζει."
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "ταιριάζω / μου κάνει",
+              "example": "Die Jacke passt mir. – Το μπουφάν μού κάνει."
+            },
+            {
+              "word": "stehen",
+              "meaning": "μου πηγαίνει (χρώμα ή στιλ)",
+              "example": "Rot steht dir gut. – Το κόκκινο σου πηγαίνει."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "είναι κατάλληλο",
+              "example": "Das ist geeignet. – Αυτό είναι κατάλληλο."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "λειτουργώ",
+              "example": "Das funktioniert. – Αυτό λειτουργεί."
+            }
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "passen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "passen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "geeignet sein"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "klein",
+      "full_card_owner_new": {
+        "lv": "kicsi • kis",
+        "study": {
+          "id": "a1-klein-study",
+          "layout": "standardStudy",
+          "translation": "kicsi • kis",
+          "explanation": [
+            "Fő gondolat: a klein kis méretet, terjedelmet vagy fiatal kort jelöl.",
+            "A klein tárgyat, helyiséget, mennyiséget vagy gyermeket írhat le.",
+            "A pontos jelentést a főnév és a szövegkörnyezet adja."
+          ],
+          "examples": [
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "A szoba kicsi."
+            },
+            {
+              "de": "Das Kind ist noch klein.",
+              "lv": "A gyerek még kicsi."
+            },
+            {
+              "de": "Ich habe eine kleine Tasche.",
+              "lv": "Van egy kis táskám."
+            }
+          ],
+          "tip": [
+            "klein = kicsi / kis.",
+            "A jelentést a főnév és a szövegkörnyezet pontosítja."
+          ],
+          "important": [
+            "A klein leggyakrabban kis méretet jelöl.",
+            "Gyermeknél fiatal kort is kifejezhet."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "klein"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "kleine"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    },
+    {
+      "target_language": "hu",
+      "canonical_card_object_id": "Laden",
+      "full_card_owner_new": {
+        "lv": "bolt • üzlet",
+        "study": {
+          "id": "a1-laden-study",
+          "layout": "standardStudy",
+          "translation": "bolt • üzlet",
+          "explanation": [
+            "Fő gondolat: a der Laden nagy kezdőbetűvel és der névelővel főnév: kis bolt vagy üzlet.",
+            "A laden kis kezdőbetűvel ige: megrakni vagy feltölteni.",
+            "A der Laden a mindennapi nyelvben gyakran kis üzletet jelent: im Laden einkaufen = boltban vásárolni.",
+            "Többes száma: die Läden."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe in den Laden.",
+              "lv": "Bemegyek a boltba."
+            },
+            {
+              "de": "Der Laden ist geschlossen.",
+              "lv": "A bolt zárva van."
+            },
+            {
+              "de": "Es gibt viele Läden hier.",
+              "lv": "Sok bolt van itt."
+            },
+            {
+              "de": "Ich muss mein Handy laden.",
+              "lv": "Fel kell töltenem a telefonomat."
+            }
+          ],
+          "tip": [
+            "A der Laden nagy kezdőbetűvel főnév: bolt.",
+            "A laden kis kezdőbetűvel ige: megrakni vagy feltölteni."
+          ],
+          "important": [
+            "der Laden = bolt (főnév).",
+            "laden = megrakni vagy feltölteni (ige).",
+            "Többes szám: die Läden."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Laden"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Läden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laden"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

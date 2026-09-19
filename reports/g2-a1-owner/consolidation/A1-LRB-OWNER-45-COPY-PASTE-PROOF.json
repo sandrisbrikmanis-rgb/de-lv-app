@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-09-18T14:09:38.338Z",
+  "classification": "A1_LRB_OWNER_45_CONFLICT_RESOLUTION_COPY_PASTE_COMPLETE_AWAITING_VERIFICATION",
+  "owner_resolution_json_sha256": "e99022a7ac75a860f1c901cd77311bb2aa728e82bddad25e1efb2e1aaa7d8839",
+  "source_unresolved_file_sha256": "912ef5fe32607c0112bd24e81b87af41a42f1ce2415648ae2e178492991ea369",
+  "applied_exactly": "45/45",
+  "pending": 0,
+  "independent_owner_conflicts_after": 0,
+  "unresolved_count_after": 0,
+  "changes": [
+    {
+      "order": 1,
+      "leaf_target_key": "es|da|lv",
+      "owner_new": "Ahí • Allí",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 2,
+      "leaf_target_key": "es|Essen|lv",
+      "owner_new": "Comida • Alimento",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 3,
+      "leaf_target_key": "es|machen|lv",
+      "owner_new": "Hacer",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 4,
+      "leaf_target_key": "es|Obst|lv",
+      "owner_new": "Fruta",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 5,
+      "leaf_target_key": "es|sitzen|lv",
+      "owner_new": "Estar sentado",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 6,
+      "leaf_target_key": "es|sollen|lv",
+      "owner_new": "Deber • Tener que (por indicación)",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 7,
+      "leaf_target_key": "es|Urlaub|lv",
+      "owner_new": "Vacaciones • Permiso laboral",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 8,
+      "leaf_target_key": "fi|an|lv",
+      "owner_new": "-lla/-llä • Luona • Vieressä",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 9,
+      "leaf_target_key": "fi|baden|lv",
+      "owner_new": "Kylpeä • Käydä uimassa",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 10,
+      "leaf_target_key": "fi|bei|lv",
+      "owner_new": "Luona • -lla/-llä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 11,
+      "leaf_target_key": "fi|bis|lv",
+      "owner_new": "Asti • Saakka • Kunnes",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 12,
+      "leaf_target_key": "fi|bleiben|lv",
+      "owner_new": "Jäädä • Pysyä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 13,
+      "leaf_target_key": "fi|ein|lv",
+      "owner_new": "Epämääräinen artikkeli • Yksi • Jokin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 14,
+      "leaf_target_key": "fi|einmal|lv",
+      "owner_new": "Kerran",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 15,
+      "leaf_target_key": "fi|erst|lv",
+      "owner_new": "Vasta • Ensin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 16,
+      "leaf_target_key": "fi|es|lv",
+      "owner_new": "Se • Sitä • Muodollinen subjekti",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 17,
+      "leaf_target_key": "fi|etwas|lv",
+      "owner_new": "Jokin • Jotakin • Hieman",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 18,
+      "leaf_target_key": "fi|euch|lv",
+      "owner_new": "Teidät • Teitä • Teille",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 19,
+      "leaf_target_key": "fi|fahren|lv",
+      "owner_new": "Ajaa • Matkustaa • Kuljettaa",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 20,
+      "leaf_target_key": "fi|finden|lv",
+      "owner_new": "Löytää • Olla jotakin mieltä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 21,
+      "leaf_target_key": "fi|für|lv",
+      "owner_new": "Varten • Puolesta • Jollekin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 22,
+      "leaf_target_key": "fi|ganz|lv",
+      "owner_new": "Koko • Aivan • Melko",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 23,
+      "leaf_target_key": "fi|gefallen|lv",
+      "owner_new": "Miellyttää • Pitää",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 24,
+      "leaf_target_key": "fi|groß|lv",
+      "owner_new": "Suuri • Pitkä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 25,
+      "leaf_target_key": "fi|gut|lv",
+      "owner_new": "Hyvä • Hyvin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 26,
+      "leaf_target_key": "fi|halten|lv",
+      "owner_new": "Pitää • Pysäyttää",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 27,
+      "leaf_target_key": "fi|heißen|lv",
+      "owner_new": "Olla nimeltään • Tarkoittaa",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 28,
+      "leaf_target_key": "fi|ihr|lv",
+      "owner_new": "Te • Hänelle • Hänen",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 29,
+      "leaf_target_key": "fi|im|lv",
+      "owner_new": "-ssa/-ssä • Missä?",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 30,
+      "leaf_target_key": "fi|können|lv",
+      "owner_new": "Voida • Osata",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 31,
+      "leaf_target_key": "fi|lang|lv",
+      "owner_new": "Pitkä • Pitkään",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 32,
+      "leaf_target_key": "fi|leise|lv",
+      "owner_new": "Hiljainen • Hiljaa",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 33,
+      "leaf_target_key": "fi|liegen|lv",
+      "owner_new": "Sijaita • Maata",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 34,
+      "leaf_target_key": "fi|mit|lv",
+      "owner_new": "Kanssa • -lla/-llä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 35,
+      "leaf_target_key": "fi|mögen|lv",
+      "owner_new": "Pitää • Tykätä",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 36,
+      "leaf_target_key": "fi|müssen|lv",
+      "owner_new": "Täytyä • Pitää",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 37,
+      "leaf_target_key": "fi|nach|lv",
+      "owner_new": "-iin/-lle • Jälkeen",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 38,
+      "leaf_target_key": "fi|nehmen|lv",
+      "owner_new": "Ottaa",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 39,
+      "leaf_target_key": "fi|neu|lv",
+      "owner_new": "Uusi (esineistä ja asioista)",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 40,
+      "leaf_target_key": "fi|noch mal|lv",
+      "owner_new": "Uudelleen",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 41,
+      "leaf_target_key": "fi|ob|lv",
+      "owner_new": "-ko/-kö (epäsuora kysymys)",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 42,
+      "leaf_target_key": "fi|oder|lv",
+      "owner_new": "Vai • Tai",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 43,
+      "leaf_target_key": "fi|passen|lv",
+      "owner_new": "Sopia • Istua hyvin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    },
+    {
+      "order": 44,
+      "leaf_target_key": "fi|werden|lv",
+      "owner_new": "Tulla • Muuttua",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 2
+    },
+    {
+      "order": 45,
+      "leaf_target_key": "sk|a1-was|lv",
+      "owner_new": "Čo",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "versions_updated": 3
+    }
+  ],
+  "gates": {
+    "applied_exactly_45_45": true,
+    "pending_zero": true,
+    "independent_owner_conflicts_zero": true,
+    "de_changes": 0,
+    "production_crowdin_ingest_apply_changes": 0
+  }
+}

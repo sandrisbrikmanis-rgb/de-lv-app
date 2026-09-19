@@ -1,0 +1,21 @@
+A1 LRB konsolidācija — kartīšu 041–060 GALA PASS
+
+Verdikts: A1_LRB_CONSOLIDATION_CARDS_041_060_FULL_CARD_LINGUISTIC_REVIEW_PASS
+
+| Pārbaude | Rezultāts |
+| --- | ---: |
+| Individuāli pārbaudītas kartītes | 20/20 |
+| LABOT | 1 |
+| NELABOT | 19 |
+| PENDING | 0 |
+| Korekcijas ievietošana | 1/1 precīzi |
+| DE neatbilstības | 0 |
+| Svešvalodu atlikumi | 0 |
+| Papildu nozīmes | 0 |
+| Semantiska sašaurināšana | 0 |
+| Iekšējās pretrunas | 0 |
+| Pilno kompozītu pilnīgums | PASS |
+
+Git HEAD: 09441c57e979ae12ef266624eb6ae24efa1ea3ce
+Cards 041–060 payload SHA-256: 104c89f6ec39f2b0809a4345790c44795bf4e9985d4f1fdf20852d0bf44a931d
+Pass proof SHA-256: 2189ce967b5188c982d2e0698e1951019e6556326efb3eeea9db3dd3fe9c7f2f

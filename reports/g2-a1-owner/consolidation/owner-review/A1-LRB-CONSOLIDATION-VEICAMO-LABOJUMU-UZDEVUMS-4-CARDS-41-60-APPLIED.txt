@@ -1,0 +1,19 @@
+A1 LRB — kartīšu 041–060 OWNER COPY/PASTE (piemērots)
+
+Klasifikācija: A1_LRB_CONSOLIDATION_OWNER_CARDS_041_060_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT
+Avota HEAD: 3c6ab972108b4fa8198317fa0e8ee59363c5b5d9
+OWNER JSON SHA-256: d394d3295719c1ba802756e00f9de0a6284557fb71965ca2d3cf2e62774eea39
+Git HEAD: 8dfec7356cded54a8c3c5df7d0672a5e9964939a
+Proof SHA-256: (see proof file after commit)
+
+Vārti:
+- applied_exactly: 20/20
+- pending: 0
+- empty target fields: 0
+- wrong-language residue: 0
+- DE alignment: 0
+- duplicate/degenerate pairs: 0
+- internal contradictions: 0
+- schema/sectionAccents failures: 0
+
+Nav GALA PASS; nav merge/apply/production.

@@ -1,0 +1,19 @@
+A1 LRB konsolidācija — kartīšu 201–220 GALA PASS
+
+Verdikts: A1_LRB_CONSOLIDATION_CARDS_201_220_GALA_PASS
+
+| Pārbaude | Rezultāts |
+| --- | ---: |
+| Pārbaudītas kartītes | 20/20 |
+| LABOT / NELABOT / PENDING | 3 / 17 / 0 |
+| Precīzi piemēroti labojumi | 3/3 |
+| Nemainītas NELABOT kartītes | 17/17 |
+| Pilno kartīšu pilnīgums | PASS |
+| DE atbilstības kļūdas | 0 |
+| Nozīmes paplašinājumi/sašaurinājumi | 0 |
+| Nepareizas valodas atlikumi | 0 |
+| Dublikāti/pretrunas | 0 |
+
+Git HEAD: 98f35c06e274815bb912c87d6c5b0a38461ca5cf
+Cards 201–220 payload SHA-256: 4f8c0aa410accea8775b2c83841aa68a1cff62e3e5dc7c06bbe8a5026630a87a
+Pass proof SHA-256: 0dfcf2cfbe0f48d43b1fd90ef15897b9868a88209e6b9e50264abf2a931f6190

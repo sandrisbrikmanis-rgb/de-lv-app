@@ -1,0 +1,18 @@
+A1 LRB — GALA labojums #1 kartītes 181–200 (piemērots)
+
+Statuss: A1_LRB_CONSOLIDATION_CARDS_181_200_GALA_CORRECTION_1_COMPLETE_AWAITING_GALA_VERDICT
+Avota HEAD: 4971b7a891e73e8118bf28dc409cefba96aa65c5
+Korekcijas JSON SHA-256: faaf3bc1f720d59e53802f6c9f85a1e3b58241946144bf1aa5b1e6e1c1b23e5e
+Git HEAD: 4971b7a891e73e8118bf28dc409cefba96aa65c5
+
+LABOT: sr|vor, sv|erst
+
+Vārti:
+- applied_exactly: 2/2
+- cards reviewed: 20/20
+- pending: 0
+- DE alignment: 0
+- semantic/source-fidelity: 0
+- full composite completeness: PASS
+
+Nav GALA PASS; nav merge/apply/production.

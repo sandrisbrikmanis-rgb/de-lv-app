@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "classification": "AWAITING_GALA_VERDICT",
+  "generated_at": "2026-09-19T07:29:09.053Z",
+  "source_review_pack_head": "56aa8ebd",
+  "owner_bundle_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-FIRST-20.json",
+  "owner_bundle_sha256": "97084d3d910bafb29608c6966a980c6bc41de6f7974c585820474f2c4ee49ae1",
+  "git_head": "351a23aeee420822cdf82310c535100e3671d3d9",
+  "consolidated_mapping_modified": false,
+  "production_modified": false,
+  "linguistic_changes_made": 0,
+  "scope": {
+    "selection": "first_20_in_owner_review_pack_order",
+    "card_count": 20,
+    "start": "bg|aufs",
+    "end": "da|Laden"
+  },
+  "gates": {
+    "applied_exactly": "20/20",
+    "pending": 0,
+    "empty_target_fields": 0,
+    "de_alignment": 0,
+    "wrong_language_residue": 0,
+    "duplicate_degenerate_pairs": 0,
+    "schema_sectionAccents_failures": 0,
+    "schema_sectionAccents_failure_details": [],
+    "pass": true
+  },
+  "copy_paste_4_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json",
+  "view_artifact": {
+    "multipart": true,
+    "parts": [
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-001.json",
+        "sha256": "b3438c2e399e0f1e96b2afb3d730264d17c9e75e1c79b8cc4a036f496ddbca81",
+        "byte_length": 287060,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-002.json",
+        "sha256": "e23aec91f640fcd74fc3e4282020a1b1077c45a2104bd2ef455b61cf3fb44253",
+        "byte_length": 252581,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-003.json",
+        "sha256": "bef8929f42e990edfb4ddf3c374838cbf0d065448629f3697e48f86551f66481",
+        "byte_length": 414348,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-004.json",
+        "sha256": "7e108154a0ea7696f5463f652b80f19c4865021ad5e0f40b97c62f0ee4bca514",
+        "byte_length": 489270,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-005.json",
+        "sha256": "a25f653c289809762bfb92a4e6a500898164a3f2d3ce75a3c86c40e644f6b46a",
+        "byte_length": 455689,
+        "row_count": 40
+      },
+      {
+        "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-006.json",
+        "sha256": "6e1849ef200b01b386c538caf265e5bee3666d49609f2d3fb10b5158e89d9bfa",
+        "byte_length": 433999,
+        "row_count": 34
+      }
+    ]
+  }
+}

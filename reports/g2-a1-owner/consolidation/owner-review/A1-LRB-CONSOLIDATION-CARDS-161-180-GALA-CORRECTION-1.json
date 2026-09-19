@@ -1,0 +1,680 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_161_180_GALA_CORRECTION_1_READY",
+  "base_head": "962e6df5bb3625be129b51cc72b5938729acaad9",
+  "base_owner_bundle_sha256": "30d1890626e1a70f713f2bf27c65af1c86b2695c86f22e0ea29d58abba9458eb",
+  "cursor_action": "COPY_PASTE_ONLY",
+  "scope": {
+    "cards_reviewed": 20,
+    "labot": 10,
+    "nelabot": 10,
+    "pending": 0
+  },
+  "changes": [
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "aufs",
+      "reason": "Pilnajā kartītē bija izlaisti avota mācītie auf/an kontrasti, pilnās formas gramatiskais statuss un vairāki lietojuma ierobežojumi.",
+      "full_card_owner_new": {
+        "lv": "на",
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "на",
+          "explanation": [
+            "aufs је сажети облик предлога auf и члана das.",
+            "Пуни облик је auf das; и он је граматички правилан, али се у неутралном свакодневном језику често сажима у aufs.",
+            "У овим примерима aufs означава смер ка одређеном месту или површини и одговара на питање куда?",
+            "Често се употребљава уз кретање: попети се, сести, ставити или отпутовати на неко место."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Идем на кров."
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Она седа на кауч."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Возимо се на село."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Стави торбу на кревет."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Он скаче на коња."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Стави књигу на полицу."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Брзо дођи на брод!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Идемо на прославу."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "auf + das; на одређено место или површину",
+              "example": "aufs Dach – на кров"
+            },
+            {
+              "word": "auf",
+              "meaning": "на површину или навише",
+              "example": "auf den Tisch – на сто"
+            },
+            {
+              "word": "an",
+              "meaning": "уз усправну површину",
+              "example": "an die Wand – на зид"
+            },
+            {
+              "word": "ins",
+              "meaning": "у унутрашњост простора",
+              "example": "ins Zimmer – у собу"
+            },
+            {
+              "word": "zum",
+              "meaning": "ка особи или месту",
+              "example": "zum Arzt – код лекара"
+            }
+          ],
+          "tip": [
+            {
+              "text": "Запамти: auf + das → aufs."
+            },
+            {
+              "text": "У свакодневном језику auf das се често сажима у aufs."
+            }
+          ],
+          "important": [
+            "aufs = auf das и употребљава се уз именицу средњег рода.",
+            "Када означава смер, одговара на питање куда и описује кретање ка одређеном месту или површини.",
+            "Уз именице мушког рода употребљава се, на пример, auf den, а не aufs.",
+            "Не мешај aufs са an уз усправну површину или са ins за кретање у унутрашњост."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "dass",
+      "reason": "Salīdzinājumā bija izlaists avota obligātais damit kontrasts.",
+      "full_card_owner_new": {
+        "lv": "да",
+        "study": {
+          "id": "a1-dass",
+          "layout": "standardStudy",
+          "translation": "да",
+          "explanation": [
+            "dass уводи зависну реченицу која изражава чињеницу, мисао или изјаву. У немачкој зависној реченици глагол стоји на крају."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß, dass du müde bist.",
+              "lv": "Знам да си уморан/уморна."
+            },
+            {
+              "de": "Er sagt, dass er kommt.",
+              "lv": "Он каже да долази."
+            },
+            {
+              "de": "Ich glaube, dass das stimmt.",
+              "lv": "Мислим да је то тачно."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "dass",
+              "meaning": "да; уводи тврдњу",
+              "example": "Ich weiß, dass er kommt. – Знам да долази."
+            },
+            {
+              "word": "weil",
+              "meaning": "јер; наводи разлог",
+              "example": "Ich bleibe zu Hause, weil es regnet. – Остајем код куће јер пада киша."
+            },
+            {
+              "word": "damit",
+              "meaning": "да би; уводи сврху",
+              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Учим немачки да бих могао/могла да радим у Немачкој."
+            },
+            {
+              "word": "ob",
+              "meaning": "да ли; уводи индиректно питање",
+              "example": "Ich weiß nicht, ob er kommt. – Не знам да ли долази."
+            }
+          ],
+          "tip": [
+            {
+              "text": "После dass лични глагол иде на крај зависне реченице."
+            }
+          ],
+          "important": [
+            "dass је везник.",
+            "Не мешај dass са das, које може бити члан или заменица."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "der",
+      "reason": "Skaidrojumā bija izlaista avotā minētā vietniekvārda un relatīvā vietniekvārda funkcija.",
+      "full_card_owner_new": {
+        "lv": "одређени члан мушког рода",
+        "study": {
+          "id": "a1-der",
+          "layout": "standardStudy",
+          "translation": "одређени члан мушког рода",
+          "explanation": [
+            "der се употребљава уз именице мушког рода. У неким реченицама der може да буде и заменица или релативна заменица."
+          ],
+          "examples": [
+            {
+              "de": "Der Mann ist hier.",
+              "lv": "Мушкарац је овде."
+            },
+            {
+              "de": "Der Bus kommt.",
+              "lv": "Аутобус долази."
+            },
+            {
+              "de": "Der Lehrer spricht.",
+              "lv": "Учитељ говори."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Учи именицу заједно са чланом: der Mann, der Bus, der Lehrer."
+            }
+          ],
+          "important": [
+            "На нивоу А1 der се најпре учи као одређени члан мушког рода.",
+            "Заменичка и релативна употреба уче се касније."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "die",
+      "reason": "Skaidrojumā bija izlaista avotā minētā vietniekvārda un relatīvā vietniekvārda funkcija.",
+      "full_card_owner_new": {
+        "lv": "одређени члан женског рода",
+        "study": {
+          "id": "a1-die",
+          "layout": "standardStudy",
+          "translation": "одређени члан женског рода",
+          "explanation": [
+            "die се употребљава уз именице женског рода. У неким реченицама die може да буде и заменица или релативна заменица."
+          ],
+          "examples": [
+            {
+              "de": "Die Frau ist hier.",
+              "lv": "Жена је овде."
+            },
+            {
+              "de": "Die Katze schläft.",
+              "lv": "Мачка спава."
+            },
+            {
+              "de": "Die Lehrerin erklärt.",
+              "lv": "Учитељица објашњава."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Учи именицу заједно са чланом: die Frau, die Katze, die Lehrerin."
+            }
+          ],
+          "important": [
+            "На нивоу А1 die се најпре учи као одређени члан женског рода.",
+            "У множини се die употребљава уз именице свих родова."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "oder",
+      "reason": "Kartītē bija izlaists būtiskais oder un ob pretstatījums.",
+      "full_card_owner_new": {
+        "lv": "или",
+        "study": {
+          "id": "a1-oder",
+          "layout": "standardStudy",
+          "translation": "или",
+          "explanation": [
+            "oder се употребљава када се бира између две или више могућности и најчешће значи или.",
+            "Није исто што и ob, које уводи индиректно питање.",
+            "У разговору oder може да стоји и на крају реченице и тада често значи зар не?"
+          ],
+          "examples": [
+            {
+              "de": "Kaffee oder Tee?",
+              "lv": "Кафа или чај?"
+            },
+            {
+              "de": "Heute oder morgen?",
+              "lv": "Данас или сутра?"
+            },
+            {
+              "de": "Willst du Pizza oder Salat?",
+              "lv": "Хоћеш ли пицу или салату?"
+            },
+            {
+              "de": "Du kommst, oder?",
+              "lv": "Долазиш, зар не?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "oder",
+              "meaning": "или; избор",
+              "example": "Kaffee oder Tee? – Кафа или чај?"
+            },
+            {
+              "word": "ob",
+              "meaning": "да ли; индиректно питање",
+              "example": "Ich weiß nicht, ob er kommt. – Не знам да ли долази."
+            },
+            {
+              "word": "und",
+              "meaning": "и; додавање",
+              "example": "Kaffee und Kuchen. – Кафа и колач."
+            },
+            {
+              "word": "aber",
+              "meaning": "али; супротност",
+              "example": "Ich komme, aber später. – Долазим, али касније."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Избор између могућности → oder."
+            }
+          ],
+          "important": [
+            "oder се употребљава за избор: Kaffee oder Tee?",
+            "За да ли у индиректном питању обично се употребљава ob."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "schwimmen",
+      "reason": "Kartītē bija izlaisti avota schwimmen gehen un duschen kontrasti.",
+      "full_card_owner_new": {
+        "lv": "пливати",
+        "study": {
+          "id": "a1-schwimmen",
+          "layout": "standardStudy",
+          "translation": "пливати",
+          "explanation": [
+            "schwimmen значи пливати као кретање или спорт.",
+            "Употребљава се када се човек креће кроз воду пливачким покретима.",
+            "За купање или боравак у води без нагласка на пливању често се употребљава baden.",
+            "На нивоу А1 важно је разликовати schwimmen = пливати и baden = купати се."
+          ],
+          "examples": [
+            {
+              "de": "Ich schwimme gern.",
+              "lv": "Волим да пливам."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Он веома добро плива."
+            },
+            {
+              "de": "Wir schwimmen im Schwimmbad.",
+              "lv": "Пливамо у базену."
+            },
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Идем да се купам."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "schwimmen",
+              "meaning": "пливати као кретање или спорт",
+              "example": "Er schwimmt sehr gut. – Он веома добро плива."
+            },
+            {
+              "word": "baden",
+              "meaning": "купати се или боравити у води",
+              "example": "Ich gehe baden. – Идем да се купам."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "ићи на пливање",
+              "example": "Wir gehen schwimmen. – Идемо на пливање."
+            },
+            {
+              "word": "duschen",
+              "meaning": "туширати се",
+              "example": "Ich dusche morgens. – Туширам се ујутру."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Кретање кроз воду → schwimmen; купање → baden."
+            }
+          ],
+          "important": [
+            "За спорт и умеће пливања употреби schwimmen.",
+            "baden не значи нужно да особа плива."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sehen",
+      "reason": "Kartītē bija izlaisti avota ansehen un hören kontrasti.",
+      "full_card_owner_new": {
+        "lv": "видети",
+        "study": {
+          "id": "a1-sehen",
+          "layout": "standardStudy",
+          "translation": "видети",
+          "explanation": [
+            "sehen значи видети очима.",
+            "Када се говори о ономе што очи опажају, употребљава се sehen.",
+            "За намерно гледање често се употребљавају schauen или ansehen.",
+            "Врло чест израз је Ich sehe dich. = Видим те."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe dich.",
+              "lv": "Видим те."
+            },
+            {
+              "de": "Siehst du das Auto?",
+              "lv": "Видиш ли ауто?"
+            },
+            {
+              "de": "Ich sehe nichts.",
+              "lv": "Не видим ништа."
+            },
+            {
+              "de": "Wir schauen einen Film.",
+              "lv": "Гледамо филм."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sehen",
+              "meaning": "видети",
+              "example": "Ich sehe dich. – Видим те."
+            },
+            {
+              "word": "schauen",
+              "meaning": "гледати",
+              "example": "Ich schaue auf das Bild. – Гледам слику."
+            },
+            {
+              "word": "ansehen",
+              "meaning": "погледати или гледати",
+              "example": "Ich sehe mir den Film an. – Гледам филм."
+            },
+            {
+              "word": "hören",
+              "meaning": "чути",
+              "example": "Ich höre Musik. – Чујем музику."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Опажање очима → sehen; намерно гледање → schauen/ansehen."
+            }
+          ],
+          "important": [
+            "sehen није исто што и anschauen.",
+            "Ich sehe dich значи Видим те; Ich schaue den Film значи Гледам филм."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sein",
+      "reason": "Kartītē bija izlaisti avota haben, werden un bleiben kontrasti.",
+      "full_card_owner_new": {
+        "lv": "бити",
+        "study": {
+          "id": "a1-sein",
+          "layout": "standardStudy",
+          "translation": "бити",
+          "explanation": [
+            "sein значи бити и један је од најважнијих немачких глагола.",
+            "На нивоу А1 нарочито су важни облици ich bin, du bist, er/sie ist и wir sind.",
+            "sein се често употребљава уз место, особину или занимање."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin hier.",
+              "lv": "Ја сам овде."
+            },
+            {
+              "de": "Du bist müde.",
+              "lv": "Уморан/уморна си."
+            },
+            {
+              "de": "Er ist Lehrer.",
+              "lv": "Он је учитељ."
+            },
+            {
+              "de": "Wir sind zu Hause.",
+              "lv": "Код куће смо."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Учи облике напамет: bin, bist, ist, sind, seid, sind."
+            }
+          ],
+          "important": [
+            "После sein често стоје особина, занимање или место.",
+            "Немачки назив занимања после sein обично стоји без члана."
+          ],
+          "comparison": [
+            {
+              "word": "sein",
+              "meaning": "бити",
+              "example": "Ich bin hier. – Ја сам овде."
+            },
+            {
+              "word": "haben",
+              "meaning": "имати",
+              "example": "Ich habe Zeit. – Имам времена."
+            },
+            {
+              "word": "werden",
+              "meaning": "постати",
+              "example": "Ich werde müde. – Постајем уморан/уморна."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "остати",
+              "example": "Ich bleibe hier. – Остајем овде."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "sich",
+      "reason": "Kartītē bija izlaistas avota personu formas mich/dich un kontrasts ar ihn.",
+      "full_card_owner_new": {
+        "lv": "се • себе",
+        "study": {
+          "id": "a1-sich",
+          "layout": "standardStudy",
+          "translation": "се • себе",
+          "explanation": [
+            "sich показује да се радња односи на самог вршиоца радње.",
+            "У српском се често преводи као се или себе.",
+            "Код неких немачких глагола повратна заменица је обавезна, на пример sich waschen.",
+            "Облик зависи од лица: ich wasche mich, du wäschst dich, er wäscht sich."
+          ],
+          "examples": [
+            {
+              "de": "Er wäscht sich.",
+              "lv": "Он се пере."
+            },
+            {
+              "de": "Ich setze mich.",
+              "lv": "Седам."
+            },
+            {
+              "de": "Sie freut sich.",
+              "lv": "Она се радује."
+            },
+            {
+              "de": "Ich wasche das Auto.",
+              "lv": "Перем ауто."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sich",
+              "meaning": "се или себе уз er/sie/es и sie/Sie",
+              "example": "Er wäscht sich. – Он се пере."
+            },
+            {
+              "word": "mich",
+              "meaning": "ме или себе уз ich",
+              "example": "Ich wasche mich. – Перем се."
+            },
+            {
+              "word": "dich",
+              "meaning": "те или себе уз du",
+              "example": "Du wäschst dich. – Переш се."
+            },
+            {
+              "word": "ihn",
+              "meaning": "њега; није повратна заменица",
+              "example": "Ich sehe ihn. – Видим га."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Ако субјекат врши радњу на себи, потребна је повратна заменица."
+            }
+          ],
+          "important": [
+            "sich није самостална именица.",
+            "Повратна заменица се мења према лицу: ich → mich, du → dich, er/sie/es → sich."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "vom",
+      "reason": "Kartīte bija pārāk saīsināta: nebija pilnībā saglabāti von dem sarunvalodas, dzimtes un aus/ab lietojuma ierobežojumi.",
+      "full_card_owner_new": {
+        "lv": "од • са",
+        "study": {
+          "id": "a1-vom",
+          "layout": "standardStudy",
+          "translation": "од • са",
+          "explanation": [
+            "vom је сажети облик предлога von и члана dem.",
+            "Пуни облик је von dem.",
+            "Употребљава се уз именице мушког и средњег рода у дативу када означава порекло, полазиште или извор.",
+            "Одговара на питања од кога, од чега или одакле.",
+            "У пракси се најчешће употребљава vom уместо пуног облика von dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme vom Bahnhof.",
+              "lv": "Долазим са железничке станице."
+            },
+            {
+              "de": "Das Geschenk ist vom Vater.",
+              "lv": "Поклон је од оца."
+            },
+            {
+              "de": "Er kommt vom Arzt.",
+              "lv": "Он долази од лекара."
+            },
+            {
+              "de": "Sie fährt vom Flughafen.",
+              "lv": "Она се вози са аеродрома."
+            },
+            {
+              "de": "Das ist vom Markt.",
+              "lv": "Ово је са пијаце."
+            },
+            {
+              "de": "Wir kommen vom Fest.",
+              "lv": "Долазимо са прославе."
+            },
+            {
+              "de": "Er holt Milch vom Bauern.",
+              "lv": "Он узима млеко од сељака."
+            },
+            {
+              "de": "Die Nachricht ist vom Chef.",
+              "lv": "Порука је од шефа."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vom",
+              "meaning": "von + dem; од/са одређеног места или извора",
+              "example": "vom Bahnhof – са станице"
+            },
+            {
+              "word": "von",
+              "meaning": "од; општи облик",
+              "example": "von mir – од мене"
+            },
+            {
+              "word": "aus",
+              "meaning": "из унутрашњости или земље порекла",
+              "example": "aus Deutschland – из Немачке"
+            },
+            {
+              "word": "ab",
+              "meaning": "почев од",
+              "example": "ab Montag – од понедељка"
+            },
+            {
+              "word": "zu",
+              "meaning": "ка некоме/нечему",
+              "example": "zum Arzt – код лекара"
+            }
+          ],
+          "tip": [
+            {
+              "text": "Запамти: von + dem → vom."
+            },
+            {
+              "text": "У свакодневном говору von dem се обично сажима у vom."
+            }
+          ],
+          "important": [
+            "vom = von dem и употребљава се уз именице мушког или средњег рода у дативу.",
+            "Означава порекло, извор или кретање од нечег одређеног.",
+            "Уз именицу женског рода стоји von der, на пример von der Mutter, а не vom Mutter.",
+            "Не мешај vom са aus за кретање из унутрашњости или порекло из земље, нити са ab за почетну тачку."
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+A1 LRB konsolidācija — kartīšu 101–120 GALA PASS
+
+Verdikts: A1_LRB_CONSOLIDATION_CARDS_101_120_GALA_PASS
+
+| Pārbaude | Rezultāts |
+| --- | ---: |
+| LABOT / NELABOT / PENDING | 0 / 20 / 0 |
+| Precīzi ievietotas | 20/20 |
+| Tukši obligātie lauki | 0 |
+| Nepareizas valodas atliekas | 0 |
+| DE piemēru neatbilstības | 0 |
+| Papildu vai sašaurinātas nozīmes | 0 |
+| Dublēti/deģenerēti piemēri | 0 |
+| Iekšējas pretrunas | 0 |
+| Shēmas/sectionAccents kļūdas | 0 |
+| Pilno kartīšu pabeigtība | PASS |
+
+Git HEAD: 8c8ef483f9aa718128204f1d78c5c705c92cf52e
+Cards 101–120 payload SHA-256: 6784bf7d1501bcafc6c2075a5b546feadd08f6fa5a48b95d8b0f2681dc8fb348
+Pass proof SHA-256: 55b56bc9173f2b6a260a67a79e77d709dd730cf2bdb2c232f691132a21d3088a

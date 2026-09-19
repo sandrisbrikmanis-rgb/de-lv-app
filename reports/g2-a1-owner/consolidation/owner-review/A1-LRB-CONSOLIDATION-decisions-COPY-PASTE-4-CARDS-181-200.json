@@ -1,0 +1,1137 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_181_200_FULL_CARD_COPY_PASTE_READY",
+  "source_head": "75300102a0fa51f4da9be003349f1e409c93863d",
+  "scope": {
+    "start_ordinal": 181,
+    "end_ordinal": 200,
+    "cards": 20,
+    "full_composites": 20,
+    "scalar_cards": 0,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "cards": [
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "vor",
+      "full_card_owner_new": {
+        "lv": "пре • испред",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "пре • испред",
+          "explanation": [
+            "vor означава пре у времену или испред у простору.",
+            "Када се говори о времену, vor значи пре; када се говори о месту, значи испред или пред.",
+            "При исказивању времена на сату vor значи до, на пример fünf vor acht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Пре јела перем руке."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Ауто стоји испред куће."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Осам је без пет."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "После јела идемо у шетњу."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "пре или испред",
+              "example": "Vor dem Essen... – Пре јела..."
+            },
+            {
+              "word": "nach",
+              "meaning": "после или ка",
+              "example": "Nach dem Essen... – После јела..."
+            },
+            {
+              "word": "neben",
+              "meaning": "поред",
+              "example": "Neben dem Haus. – Поред куће."
+            },
+            {
+              "word": "hinter",
+              "meaning": "иза",
+              "example": "Hinter dem Haus. – Иза куће."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Запамти: пре у времену, испред у простору → vor."
+            }
+          ],
+          "important": [
+            "vor може да означава и време и место.",
+            "vor dem Essen = пре јела; vor dem Haus = испред куће."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "was",
+      "full_card_owner_new": {
+        "lv": "шта",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "шта",
+          "explanation": [
+            "was је упитна реч за ствари, догађаје и чињенице, а не за особе.",
+            "У немачком се was не мења по падежима. У српском се најчешће преводи као шта, а у неким конструкцијама као које.",
+            "За особе се пита са wer, а не са was."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Шта је то?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Шта се догодило?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Шта сада радиш?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Шта желиш да попијеш?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Шта значи ова реч?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Које је твоје омиљено јело?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Шта си рекао/рекла?"
+            }
+          ],
+          "tip": [
+            {
+              "text": "was пита о стварима, догађајима и чињеницама."
+            },
+            {
+              "text": "За особу употреби wer."
+            }
+          ],
+          "important": [
+            "was се не употребљава за особе.",
+            "was für (ein/eine) значи какав или која врста.",
+            "Неправилно: Wer ist passiert? Правилно: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "wenn",
+      "full_card_owner_new": {
+        "lv": "ако • када",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "ако • када",
+          "explanation": [
+            "wenn значи ако или када, зависно од контекста.",
+            "За услов се преводи као ако, а за поновљено или опште време као када.",
+            "У зависној реченици са wenn лични глагол обично стоји на крају."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Ако имаш времена, сврати."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Ако пада киша, остајем код куће."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "Када сам уморан/уморна, пијем кафу."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Не знам да ли ће он доћи."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "ако или када",
+              "example": "Wenn du Zeit hast... – Ако имаш времена..."
+            },
+            {
+              "word": "ob",
+              "meaning": "да ли у индиректном питању",
+              "example": "Ich weiß nicht, ob... – Не знам да ли..."
+            },
+            {
+              "word": "wann",
+              "meaning": "када у питању",
+              "example": "Wann kommst du? – Када долазиш?"
+            },
+            {
+              "word": "weil",
+              "meaning": "јер",
+              "example": "weil ich krank bin – јер сам болестан/болесна"
+            }
+          ],
+          "tip": [
+            {
+              "text": "Услов или поновљено време → wenn; питање када? → wann."
+            }
+          ],
+          "important": [
+            "wenn и wann нису исто.",
+            "Wann kommst du? је питање; Wenn du kommst... уводи услов или време."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "wer",
+      "full_card_owner_new": {
+        "lv": "ко",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "ко",
+          "explanation": [
+            "wer је упитна реч за идентитет особе и значи ко.",
+            "Пита о људима, а не о стварима или догађајима; за њих се употребљава was.",
+            "wer је номинатив. Други падежни облици су wen, wem и wessen.",
+            "За избор између више особа употребљава се wer von..., на пример wer von euch."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Ко је то?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Ко си ти?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Ко долази данас?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Ко је твоја наставница?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Ко од вас говори немачки?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Ко је то рекао?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Ко жели кафу?"
+            }
+          ],
+          "tip": [
+            {
+              "text": "За особу → wer; за ствар или догађај → was."
+            },
+            {
+              "text": "Ко од... → wer von..."
+            }
+          ],
+          "important": [
+            "wer пита само о особама.",
+            "Падежни облици су wer, wen, wem и wessen.",
+            "Неправилно: Wer ist passiert? Правилно: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "ab",
+      "full_card_owner_new": {
+        "lv": "från och med • från",
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "från och med • från",
+          "explanation": [
+            "ab används när något börjar vid en bestämd tidpunkt, plats eller punkt och betyder ofta från och med."
+          ],
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "från och med i dag"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "från och med måndag"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "från klockan åtta"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "från stationen"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "från och med en tidpunkt eller punkt",
+              "example": "ab Montag – från och med måndag"
+            },
+            {
+              "word": "von",
+              "meaning": "från någon eller något; ursprung",
+              "example": "von mir – från mig"
+            },
+            {
+              "word": "aus",
+              "meaning": "ut ur något eller från ett ursprung",
+              "example": "aus dem Haus – ut ur huset"
+            }
+          ],
+          "tip": [
+            {
+              "text": "En startpunkt i tid eller rum → ab."
+            }
+          ],
+          "important": [
+            "ab anger en startpunkt i tid eller rum.",
+            "För ursprung eller rörelse ut ur något används oftare von eller aus."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "aber",
+      "full_card_owner_new": {
+        "lv": "men • dock",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "men • dock",
+          "explanation": [
+            "aber används för att införa en motsats eller invändning och betyder oftast men, dock eller emellertid."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Jag skulle vilja följa med, men jag har inte tid."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Maten var god men för dyr."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Han har rätt, men jag ser det annorlunda."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "motsats eller invändning",
+              "example": "Ich komme, aber später. – Jag kommer, men senare."
+            },
+            {
+              "word": "sondern",
+              "meaning": "utan; i konstruktionen inte ... utan ...",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. – Jag ville inte ha te utan kaffe."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "dock eller emellertid",
+              "example": "Es ist kalt, jedoch sonnig. – Det är kallt men soligt."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Motsats eller invändning → aber."
+            }
+          ],
+          "important": [
+            "aber markerar en motsats eller invändning.",
+            "I konstruktionen inte ..., utan ... används vanligen sondern på tyska."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "an",
+      "full_card_owner_new": {
+        "lv": "vid • mot",
+        "study": {
+          "id": "a1-an",
+          "layout": "standardStudy",
+          "translation": "vid • mot",
+          "explanation": [
+            "an används när något befinner sig vid en vägg, ett fönster, en dörr, en flod, en kust eller en annan kant eller yta."
+          ],
+          "examples": [
+            {
+              "de": "an der Wand",
+              "lv": "vid väggen / på väggen"
+            },
+            {
+              "de": "am Fenster",
+              "lv": "vid fönstret"
+            },
+            {
+              "de": "am Meer",
+              "lv": "vid havet"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "an",
+              "meaning": "vid en yta eller kant",
+              "example": "an der Wand – vid väggen"
+            },
+            {
+              "word": "auf",
+              "meaning": "på en horisontell yta",
+              "example": "auf dem Tisch – på bordet"
+            },
+            {
+              "word": "bei",
+              "meaning": "hos en person eller vid en plats",
+              "example": "beim Arzt – hos läkaren"
+            }
+          ],
+          "tip": [
+            {
+              "text": "Vid en vägg, ett fönster eller en kant → an."
+            }
+          ],
+          "important": [
+            "an motsvarar inte alla användningar av svenska vid; det anger ofta närhet till en yta eller kant.",
+            "På en horisontell yta används vanligen auf."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "baden",
+      "full_card_owner_new": {
+        "lv": "bada",
+        "study": {
+          "id": "a1-baden",
+          "layout": "standardStudy",
+          "translation": "bada",
+          "explanation": [
+            "baden betyder att bada, vistas i vatten eller njuta av ett bad.",
+            "Det används om rekreation i en sjö, i havet eller i en bassäng och kan också betyda att bada i ett badkar.",
+            "När fokus ligger på själva simrörelsen eller sporten används oftare schwimmen."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe baden.",
+              "lv": "Jag går och badar."
+            },
+            {
+              "de": "Wir gehen im See baden.",
+              "lv": "Vi går och badar i sjön."
+            },
+            {
+              "de": "Er schwimmt sehr gut.",
+              "lv": "Han simmar mycket bra."
+            },
+            {
+              "de": "Ich schwimme jeden Montag.",
+              "lv": "Jag simmar varje måndag."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "baden",
+              "meaning": "bada eller vistas i vatten",
+              "example": "Ich gehe baden. – Jag går och badar."
+            },
+            {
+              "word": "schwimmen",
+              "meaning": "simma som rörelse eller sport",
+              "example": "Er schwimmt sehr gut. – Han simmar mycket bra."
+            },
+            {
+              "word": "duschen",
+              "meaning": "duscha",
+              "example": "Ich dusche am Morgen. – Jag duschar på morgonen."
+            },
+            {
+              "word": "schwimmen gehen",
+              "meaning": "gå och simma",
+              "example": "Ich gehe heute schwimmen. – Jag går och simmar i dag."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Rekreation i vatten → baden; simrörelse eller sport → schwimmen."
+            }
+          ],
+          "important": [
+            "baden och schwimmen är inte fullständiga synonymer.",
+            "baden betonar oftare bad eller vistelse i vatten, medan schwimmen betonar simrörelsen."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "bei",
+      "full_card_owner_new": {
+        "lv": "hos • vid",
+        "study": {
+          "id": "a1-bei",
+          "layout": "standardStudy",
+          "translation": "hos • vid",
+          "explanation": [
+            "bei används när någon eller något befinner sig hos en person, vid en plats, på en organisation eller under vissa omständigheter."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin bei meinem Freund.",
+              "lv": "Jag är hos min vän."
+            },
+            {
+              "de": "Sie arbeitet bei Siemens.",
+              "lv": "Hon arbetar på Siemens."
+            },
+            {
+              "de": "Bei Regen bleiben wir zu Hause.",
+              "lv": "När det regnar stannar vi hemma."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "bei",
+              "meaning": "hos en person, på ett företag eller under vissa omständigheter",
+              "example": "Ich bin bei meiner Schwester. – Jag är hos min syster."
+            },
+            {
+              "word": "an",
+              "meaning": "vid en vägg, kant eller strand",
+              "example": "Das Bild hängt an der Wand. – Bilden hänger på väggen."
+            },
+            {
+              "word": "zu",
+              "meaning": "till en person eller plats; riktning",
+              "example": "Ich gehe zu meinem Freund. – Jag går till min vän."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Hos en person eller på ett företag → bei."
+            }
+          ],
+          "important": [
+            "bei används ofta om vistelse hos en person eller arbete på ett företag.",
+            "För rörelse mot en person eller plats används vanligen zu."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "Besuch",
+      "full_card_owner_new": {
+        "lv": "besök",
+        "study": {
+          "id": "a1-besuch",
+          "layout": "standardStudy",
+          "translation": "besök",
+          "explanation": [
+            "der Besuch är ett substantiv och betyder ett besök, en visit eller ett hembesök.",
+            "Det kan avse ett besök på en plats eller ett besök hos en person.",
+            "Pluralformen är die Besuche."
+          ],
+          "examples": [
+            {
+              "de": "Der Besuch im Museum war interessant.",
+              "lv": "Besöket på museet var intressant."
+            },
+            {
+              "de": "Danke für deinen Besuch.",
+              "lv": "Tack för ditt besök."
+            },
+            {
+              "de": "Der Arzt macht einen Besuch.",
+              "lv": "Läkaren gör ett besök."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "der Besuch",
+              "meaning": "besök eller visit",
+              "example": "Danke für deinen Besuch. – Tack för ditt besök."
+            },
+            {
+              "word": "der Besucher",
+              "meaning": "besökare",
+              "example": "Der Besucher wartet draußen. – Besökaren väntar utanför."
+            },
+            {
+              "word": "besuchen",
+              "meaning": "besöka",
+              "example": "Ich besuche meine Großeltern. – Jag besöker mina morföräldrar/farföräldrar."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Besuch är själva besöket; Besucher är personen som besöker."
+            }
+          ],
+          "important": [
+            "der Besuch kan avse både ett platsbesök och ett personbesök.",
+            "Plural: die Besuche."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "besuchen",
+      "full_card_owner_new": {
+        "lv": "besöka",
+        "study": {
+          "id": "a1-besuchen",
+          "layout": "standardStudy",
+          "translation": "besöka",
+          "explanation": [
+            "besuchen används när man besöker en plats, ett evenemang eller en person.",
+            "Med en kurs motsvarar det ofta svenska gå en kurs.",
+            "På tyska används besuchen utan preposition och med ackusativ."
+          ],
+          "examples": [
+            {
+              "de": "Ich besuche das Museum.",
+              "lv": "Jag besöker museet."
+            },
+            {
+              "de": "Wir besuchen einen Deutschkurs.",
+              "lv": "Vi går en kurs i tyska."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Jag besöker mina morföräldrar/farföräldrar."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "besuchen",
+              "meaning": "besöka en plats eller person; gå en kurs",
+              "example": "Ich besuche meine Großeltern. – Jag besöker mina morföräldrar/farföräldrar."
+            },
+            {
+              "word": "treffen",
+              "meaning": "träffa",
+              "example": "Ich treffe meinen Freund. – Jag träffar min vän."
+            },
+            {
+              "word": "zu jemandem gehen",
+              "meaning": "gå till någon",
+              "example": "Ich gehe zu meinem Freund. – Jag går till min vän."
+            }
+          ],
+          "tip": [
+            {
+              "text": "besuchen tar ett direkt objekt utan preposition."
+            }
+          ],
+          "important": [
+            "Säg Ich besuche meine Freundin, inte med preposition.",
+            "Den naturliga svenska översättningen beror på objektet: besöka en plats/person eller gå en kurs."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "das",
+      "full_card_owner_new": {
+        "lv": "bestämd artikel i neutrum • det",
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "bestämd artikel i neutrum • det",
+          "explanation": [
+            "das används som bestämd artikel till substantiv i neutrum. I vissa meningar fungerar das också som pronomen eller relativpronomen."
+          ],
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "Det är min bil."
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "Det är bra."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "Boken som jag läser är intressant."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "bestämd artikel i neutrum eller pronomenet det",
+              "example": "Das ist mein Auto. – Det är min bil."
+            },
+            {
+              "word": "dies",
+              "meaning": "det här eller detta",
+              "example": "Dies ist mein Auto. – Det här är min bil."
+            },
+            {
+              "word": "welches",
+              "meaning": "vilket; relativpronomen",
+              "example": "Das ist das Buch, welches ich lese. – Det är boken som jag läser."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Neutrum → das; att → dass."
+            }
+          ],
+          "important": [
+            "På A1-nivå lärs das först som bestämd artikel i neutrum.",
+            "das är inte samma ord som dass: das kan vara artikel eller pronomen, medan dass betyder att."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "dass",
+      "full_card_owner_new": {
+        "lv": "att",
+        "study": {
+          "id": "a1-dass",
+          "layout": "standardStudy",
+          "translation": "att",
+          "explanation": [
+            "dass inleder en bisats som uttrycker ett faktum, en tanke eller något som sägs. Det finita verbet står normalt sist i bisatsen."
+          ],
+          "examples": [
+            {
+              "de": "Ich weiß, dass du müde bist.",
+              "lv": "Jag vet att du är trött."
+            },
+            {
+              "de": "Er sagt, dass er kommt.",
+              "lv": "Han säger att han kommer."
+            },
+            {
+              "de": "Ich glaube, dass das stimmt.",
+              "lv": "Jag tror att det stämmer."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "dass",
+              "meaning": "att; inleder ett påstående",
+              "example": "Ich weiß, dass er kommt. – Jag vet att han kommer."
+            },
+            {
+              "word": "weil",
+              "meaning": "eftersom; anger orsak",
+              "example": "Ich bleibe zu Hause, weil es regnet. – Jag stannar hemma eftersom det regnar."
+            },
+            {
+              "word": "damit",
+              "meaning": "så att; anger syfte",
+              "example": "Ich lerne Deutsch, damit ich in Deutschland arbeiten kann. – Jag lär mig tyska så att jag kan arbeta i Tyskland."
+            },
+            {
+              "word": "ob",
+              "meaning": "om; inleder en indirekt fråga",
+              "example": "Ich weiß nicht, ob er kommt. – Jag vet inte om han kommer."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Svenska att som bisatsinledare → dass."
+            }
+          ],
+          "important": [
+            "dass betyder att och inleder en bisats.",
+            "Blanda inte ihop dass med das, som kan vara artikel eller pronomen."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "der",
+      "full_card_owner_new": {
+        "lv": "bestämd artikel i maskulinum",
+        "study": {
+          "id": "a1-der",
+          "layout": "standardStudy",
+          "translation": "bestämd artikel i maskulinum",
+          "explanation": [
+            "der används som bestämd artikel till maskulina substantiv. I vissa meningar kan der också fungera som pronomen eller relativpronomen."
+          ],
+          "examples": [
+            {
+              "de": "Der Mann ist hier.",
+              "lv": "Mannen är här."
+            },
+            {
+              "de": "Der Bus kommt.",
+              "lv": "Bussen kommer."
+            },
+            {
+              "de": "Der Lehrer spricht.",
+              "lv": "Läraren talar."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Maskulinum → der."
+            }
+          ],
+          "important": [
+            "På A1-nivå lärs der först som bestämd artikel i maskulinum.",
+            "Användning som pronomen och relativpronomen behandlas senare."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "die",
+      "full_card_owner_new": {
+        "lv": "bestämd artikel i femininum",
+        "study": {
+          "id": "a1-die",
+          "layout": "standardStudy",
+          "translation": "bestämd artikel i femininum",
+          "explanation": [
+            "die används som bestämd artikel till feminina substantiv. I vissa meningar kan die också fungera som pronomen eller relativpronomen."
+          ],
+          "examples": [
+            {
+              "de": "Die Frau ist hier.",
+              "lv": "Kvinnan är här."
+            },
+            {
+              "de": "Die Katze schläft.",
+              "lv": "Katten sover."
+            },
+            {
+              "de": "Die Lehrerin erklärt.",
+              "lv": "Lärarinnan förklarar."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Femininum → die."
+            }
+          ],
+          "important": [
+            "På A1-nivå lärs die först som bestämd artikel i femininum.",
+            "I plural används die för substantiv av alla genus."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "dieser",
+      "full_card_owner_new": {
+        "lv": "den här • denne",
+        "study": {
+          "id": "a1-dieser",
+          "layout": "standardStudy",
+          "translation": "den här • denne",
+          "explanation": [
+            "dieser pekar ut en bestämd eller särskilt framhävd maskulin person eller sak. Formen böjs efter genus, kasus och numerus."
+          ],
+          "examples": [
+            {
+              "de": "Dieser Mann ist nett.",
+              "lv": "Den här mannen är trevlig."
+            },
+            {
+              "de": "Ich sehe diesen Hund.",
+              "lv": "Jag ser den här hunden."
+            },
+            {
+              "de": "Dieser Stift ist neu.",
+              "lv": "Den här pennan är ny."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Maskulin nominativ → dieser; maskulin ackusativ → diesen."
+            }
+          ],
+          "important": [
+            "dieser, diese och dieses ändras efter genus.",
+            "I plural är formen diese."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "erst",
+      "full_card_owner_new": {
+        "lv": "först • inte förrän • bara",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "först • inte förrän • bara",
+          "explanation": [
+            "erst kan betyda först, inte förrän eller bara beroende på sammanhanget.",
+            "Det markerar ofta en ordningsföljd eller att något sker senare eller är mindre än väntat."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Först ska man plugga, sedan leka."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Jag kommer först i morgon."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Han är bara 18 år."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Vi äter först klockan åtta."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "först, inte förrän eller bara",
+              "example": "Erst lernen, dann spielen. – Först ska man plugga, sedan leka."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "först eller till en början",
+              "example": "Zuerst frühstücken wir. – Först äter vi frukost."
+            },
+            {
+              "word": "nur",
+              "meaning": "bara; begränsad mängd",
+              "example": "Ich habe nur 5 Euro. – Jag har bara fem euro."
+            },
+            {
+              "word": "dann",
+              "meaning": "sedan",
+              "example": "Dann gehen wir nach Hause. – Sedan går vi hem."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Tid, ålder eller ordningsföljd → ofta erst; ren mängd → ofta nur."
+            }
+          ],
+          "important": [
+            "erst och zuerst är inte fullständiga synonymer.",
+            "erst kan betyda inte förrän eller bara, medan zuerst främst anger vad som sker först."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "fernsehen",
+      "full_card_owner_new": {
+        "lv": "titta på tv",
+        "study": {
+          "id": "a1-fernsehen",
+          "layout": "standardStudy",
+          "translation": "titta på tv",
+          "explanation": [
+            "fernsehen är ett separabelt verb: ich sehe fern, du siehst fern. Det betyder att titta på tv.",
+            "Blanda inte ihop verbet med substantivet das Fernsehen, som betecknar television som medium eller programutbud."
+          ],
+          "examples": [
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Jag tittar på tv i kväll."
+            },
+            {
+              "de": "Siehst du oft fern?",
+              "lv": "Tittar du ofta på tv?"
+            },
+            {
+              "de": "Die Kinder sehen am Nachmittag fern.",
+              "lv": "Barnen tittar på tv på eftermiddagen."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "fernsehen",
+              "meaning": "titta på tv",
+              "example": "Ich sehe fern. – Jag tittar på tv."
+            },
+            {
+              "word": "das Fernsehen",
+              "meaning": "television eller tv som medium",
+              "example": "Im Fernsehen läuft ein Film. – Det går en film på tv."
+            },
+            {
+              "word": "sehen",
+              "meaning": "se",
+              "example": "Ich sehe einen Film. – Jag ser en film."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Handlingen → fernsehen; mediet eller programutbudet → das Fernsehen."
+            }
+          ],
+          "important": [
+            "fernsehen är ett separabelt verb: ich sehe fern.",
+            "das Fernsehen är ett substantiv och används bara i singular."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "Fernsehen",
+      "full_card_owner_new": {
+        "lv": "television • tv",
+        "study": {
+          "id": "a1-fernsehen-study",
+          "layout": "standardStudy",
+          "translation": "television • tv",
+          "explanation": [
+            "das Fernsehen är ett substantiv som används endast i singular och betecknar television som medium eller programutbud.",
+            "fernsehen med liten bokstav är ett separabelt verb: ich sehe fern, du siehst fern.",
+            "Substantivet das Fernsehen har ingen pluralform."
+          ],
+          "examples": [
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Vad visas på tv i dag?"
+            },
+            {
+              "de": "Was gibt es heute im Fernsehen?",
+              "lv": "Vad visas på tv i dag?"
+            },
+            {
+              "de": "Im Fernsehen läuft ein Film.",
+              "lv": "Det går en film på tv."
+            },
+            {
+              "de": "Das Fernsehen ist heute langweilig.",
+              "lv": "Tv-utbudet är tråkigt i dag."
+            },
+            {
+              "de": "Ich sehe heute Abend fern.",
+              "lv": "Jag tittar på tv i kväll."
+            },
+            {
+              "de": "Was gibt es im Fernsehen?",
+              "lv": "Vad visas på tv?"
+            }
+          ],
+          "tip": [
+            {
+              "text": "Handlingen → fernsehen; mediet eller programutbudet → das Fernsehen."
+            },
+            {
+              "text": "das Fernsehen är ett substantiv och används bara i singular."
+            }
+          ],
+          "important": [
+            "fernsehen är separabelt: sehen + fern.",
+            "das Fernsehen har ingen pluralform; *die Fernsehen är fel.",
+            "Rätt: das Fernsehen. Handling: fernsehen → ich sehe fern."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "ganz",
+      "full_card_owner_new": {
+        "lv": "hel • helt • ganska",
+        "study": {
+          "id": "a1-ganz-study",
+          "layout": "standardStudy",
+          "translation": "hel • helt • ganska",
+          "explanation": [
+            "ganz tillsammans med ett substantiv betyder hel eller hela.",
+            "Framför ett adjektiv eller adverb kan ganz betyda helt, fullständigt eller ganska.",
+            "ganz är inte samma ord som pronomenet alles."
+          ],
+          "examples": [
+            {
+              "de": "Ich arbeite den ganzen Tag.",
+              "lv": "Jag arbetar hela dagen."
+            },
+            {
+              "de": "Das ganze Haus ist sauber.",
+              "lv": "Hela huset är rent."
+            },
+            {
+              "de": "Das ist ganz sicher.",
+              "lv": "Det är helt säkert."
+            },
+            {
+              "de": "Das Essen ist ganz gut.",
+              "lv": "Maten är ganska god."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "ganz",
+              "meaning": "hel, hela, helt eller ganska",
+              "example": "der ganze Tag – hela dagen"
+            },
+            {
+              "word": "alles",
+              "meaning": "allt",
+              "example": "Alles ist gut. – Allt är bra."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Framför ett substantiv betyder ganz ofta hel eller hela."
+            },
+            {
+              "text": "Framför ett adjektiv betyder det ofta helt eller ganska."
+            }
+          ],
+          "important": [
+            "der ganze Tag = hela dagen.",
+            "alles = allt som pronomen."
+          ]
+        }
+      }
+    }
+  ]
+}

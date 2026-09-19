@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-19T11:50:22.595Z",
+  "generation_base_sha": "a0eb7268b9e99204ee810affdac004a4b8b101c7",
+  "multipart_manifest_correction": true,
+  "multipart_audit": {
+    "part_count": 11,
+    "multipart_sha_mismatches": 0,
+    "multipart_size_mismatches": 0,
+    "multipart_row_count_mismatches": 0,
+    "multipart_row_sum": 4787
+  },
+  "copy_paste_source": {
+    "path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json",
+    "sha256": "f8bee806aab17b8681b5177bb1bbb32b34c91ecb49a0660f69a66621eb31c2d2"
+  },
+  "before_rebuild": {
+    "leaf_decisions": 4787,
+    "full_cards": 234
+  },
+  "after_rebuild": {
+    "leaf_decisions": 4787,
+    "full_post_owner_cards": 234
+  },
+  "gates": {
+    "lrb_coverage": "103/103",
+    "linguistically_closed": "103/103",
+    "pending": 0,
+    "unresolved_owner_conflicts": 0,
+    "gala_approved_cards_applied": "234/234",
+    "duplicate_final_keys": 0,
+    "missing_source_traces": 0,
+    "unauthorized_empty_values": 0,
+    "synthetic_empty_values": 0,
+    "implicit_deletion_authorizations": 0,
+    "malformed_leaf_paths": 0,
+    "invalid_card_schema_count": 0,
+    "incomplete_full_cards": 0,
+    "silently_dropped_baseline_fields": 0,
+    "de_example_alignment_violations": 0,
+    "owner_values_modified_during_rebuild": 0,
+    "source_verify_failures": 0,
+    "superseded_values_selected": 0,
+    "full_card_baseline_missing": 0,
+    "full_card_overlay_failures": 0,
+    "full_card_source_sha_failures": 0,
+    "apply_eligible_leaf_decisions": 4787,
+    "de_change_targets": 0,
+    "production_changes": 0,
+    "crowdin_changes": 0,
+    "ingest_apply_changes": 0,
+    "dropped_baseline_leaf_fields": 0,
+    "owner_review_required": 0,
+    "missing_final_values": 0
+  },
+  "classification": "A1_LRB_001_103_CONSOLIDATED_MAPPING_MULTIPART_MANIFEST_CORRECTION_COMPLETE_AWAITING_OWNER_REVERIFICATION",
+  "next_action": "OWNER_VERIFY_CONSOLIDATED_MAPPING",
+  "resolution_class_counts": {
+    "GALA_234_FULL_CARD_COPY_PASTE": 4787
+  },
+  "full_cards_total": 234,
+  "full_cards_blocked": 0
+}

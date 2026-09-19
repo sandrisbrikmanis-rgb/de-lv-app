@@ -1,0 +1,192 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_201_220_GALA_CORRECTION_1_READY",
+  "base_head": "5356338694b841191197ea6c9730241a25fef2d4",
+  "base_owner_bundle_sha256": "8c971b5d83ef40e4827dcd4ee18418f2204227d2090e07e74a966c0517672d8f",
+  "cursor_action": "COPY_PASTE_ONLY",
+  "scope": {
+    "cards_reviewed": 20,
+    "labot": 3,
+    "nelabot": 17,
+    "pending": 0
+  },
+  "changes": [
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "laufen",
+      "full_card_owner_new": {
+        "lv": "springa • gå",
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "springa • gå",
+          "explanation": [
+            "laufen betyder ofta springa, men om en maskin, film eller ett program kan det betyda gå eller fungera.",
+            "Om människor eller djur beskriver laufen vanligtvis snabb rörelse till fots.",
+            "Om en film eller maskin används laufen när den pågår eller fungerar.",
+            "På A1-nivå är den viktiga skillnaden: gehen = gå och laufen = springa eller vara igång."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "Han springer mycket snabbt."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "Barnen springer i parken."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "Filmen är redan igång."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "Maskinen går bra."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "springa eller gå/fungera",
+              "example": "Er läuft schnell. – Han springer snabbt."
+            },
+            {
+              "word": "gehen",
+              "meaning": "gå till fots",
+              "example": "Ich gehe nach Hause. – Jag går hem."
+            },
+            {
+              "word": "fahren",
+              "meaning": "åka eller köra",
+              "example": "Ich fahre mit dem Bus. – Jag åker buss."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "fungera",
+              "example": "Das funktioniert gut. – Det fungerar bra."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Snabb rörelse till fots → laufen; transportmedel → fahren."
+            }
+          ],
+          "important": [
+            "laufen betyder inte bara springa. Om en film eller apparat kan det betyda gå eller fungera.",
+            "Ich laufe beskriver rörelse till fots, inte färd med ett fordon."
+          ]
+        }
+      },
+      "reason": "DE piemērs “Der Film läuft schon.” nozīmē, ka filma jau tiek rādīta/ir darbībā; “Filmen har redan börjat.” mainīja aspektu uz pabeigtu sākšanās faktu."
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "laut",
+      "full_card_owner_new": {
+        "lv": "högljudd • högt",
+        "study": {
+          "id": "a1-laut",
+          "layout": "standardStudy",
+          "translation": "högljudd • högt",
+          "explanation": [
+            "laut med liten begynnelsebokstav är ett adjektiv eller adverb och beskriver hur starkt ett ljud är.",
+            "der Laut med stor begynnelsebokstav är däremot ett substantiv och betyder ett ljud eller språkljud.",
+            "Pluralformen av der Laut är die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musiken är högljudd."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musiken är högljudd."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Tala inte så högt!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Det är mycket högljutt."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ljudet är vackert."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Jag hör ett ljud."
+            }
+          ],
+          "tip": [
+            {
+              "text": "laut med liten bokstav = högljudd eller högt; der Laut med stor bokstav = ett ljud."
+            }
+          ],
+          "important": [
+            "laut skrivs med liten bokstav och utan artikel när det är adjektiv eller adverb.",
+            "der Laut är ett substantiv med artikeln der.",
+            "Plural: die Laute.",
+            "Fel: Der Laut ist sehr. Rätt: Das ist sehr laut."
+          ]
+        }
+      },
+      "reason": "“Das ist sehr laut.” apraksta skaļumu; “Det är mycket högt.” zviedriski var nozīmēt arī lielu augstumu un šeit ir semantiski neskaidrs."
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "Laut",
+      "full_card_owner_new": {
+        "lv": "ljud",
+        "study": {
+          "id": "a1-laut-study",
+          "layout": "standardStudy",
+          "translation": "ljud",
+          "explanation": [
+            "der Laut är ett substantiv med stor begynnelsebokstav och betyder ett ljud, en signal eller ett språkljud.",
+            "laut med liten begynnelsebokstav är ett adjektiv eller adverb och beskriver hur starkt ett ljud är.",
+            "Pluralformen av der Laut är die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ljudet är vackert."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musiken är högljudd."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Tala inte så högt!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Det är mycket högljutt."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ljudet är vackert."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Jag hör ett ljud."
+            }
+          ],
+          "tip": [
+            {
+              "text": "laut med liten bokstav = högljudd eller högt; der Laut med stor bokstav = ett ljud."
+            }
+          ],
+          "important": [
+            "laut med liten bokstav är ett adjektiv eller adverb.",
+            "der Laut med stor bokstav och artikeln der är ett substantiv.",
+            "Plural: die Laute.",
+            "Fel: Der Laut ist sehr. Rätt: Das ist sehr laut."
+          ]
+        }
+      },
+      "reason": "“Das ist sehr laut.” apraksta skaļumu; “Det är mycket högt.” zviedriski var nozīmēt arī lielu augstumu un šeit ir semantiski neskaidrs."
+    }
+  ]
+}

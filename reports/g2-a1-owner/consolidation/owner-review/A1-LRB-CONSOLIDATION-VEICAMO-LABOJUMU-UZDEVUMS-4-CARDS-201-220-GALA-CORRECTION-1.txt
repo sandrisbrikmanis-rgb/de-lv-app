@@ -1,0 +1,26 @@
+A1 LRB CONSOLIDATION — GALA LABOJUMS #1, KARTĪTES 201–220
+
+IDENTITĀTE
+- PR: #830
+- Zars: cursor/a1-lrb-001-103-consolidation
+- BASE HEAD: 5356338694b841191197ea6c9730241a25fef2d4
+- BASE OWNER bundle SHA-256: 8c971b5d83ef40e4827dcd4ee18418f2204227d2090e07e74a966c0517672d8f
+- CORRECTION JSON SHA-256: c05e3e5011a976be63fee4e4f413eb2700c0844da85c4474d6e73c9047ffe5cd
+
+LĒMUMI
+- LABOT: 3 — sv|laufen, sv|laut, sv|Laut
+- NELABOT: 17
+- PENDING: 0
+
+DARBĪBA
+1. Pārbaudi identitātes vārtus; nesakritības gadījumā STOP.
+2. Precīzi COPY-PASTE changes[].full_card_owner_new pēc target_language + canonical_card_object_id.
+3. Neveic jaunu lingvistisko analīzi un nemaini OWNER vērtības.
+4. Sinhronizē 201–220 bundle, COPY-PASTE-4, OWNER VIEW un korekcijas proof/APPLIED artefaktus.
+5. Pierādi applied_exactly=3/3, cards_reviewed=20/20, pending=0, DE alignment=0, wrong_language_residue=0, semantic/source-fidelity=0, duplicate/contradiction=0 un full composite=PASS.
+6. 17 NELABOT kartītes un kartītes ārpus 201–220 nedrīkst mainīt.
+7. Nemaini DE, data/a1.js, production, Crowdin, ingest/apply vai konsolidēto mapping.
+8. Neieraksti GALA PASS un neveic merge.
+
+GAIDĀMĀ KLASIFIKĀCIJA
+A1_LRB_CONSOLIDATION_CARDS_201_220_GALA_CORRECTION_1_COMPLETE_AWAITING_GALA_VERDICT

@@ -1,0 +1,1321 @@
+{
+  "schema_version": 1,
+  "classification": "A1_LRB_OWNER_45_EXACT_LEAF_CONFLICTS_RESOLVED_AWAITING_COPY_PASTE",
+  "source_pr": 829,
+  "source_branch": "cursor/a1-lrb-consolidation-inventory-aa66",
+  "source_head_sha": "fc025e4a2399861ebae3522d35e26c1eddebf369",
+  "source_unresolved_file_sha256": "912ef5fe32607c0112bd24e81b87af41a42f1ce2415648ae2e178492991ea369",
+  "conflict_count": 45,
+  "existing_gala_value_selections": 39,
+  "owner_combined_values": 6,
+  "pending": 0,
+  "constraints": {
+    "copy_paste_only": true,
+    "no_new_linguistic_analysis_by_cursor": true,
+    "do_not_change_de": true,
+    "do_not_apply_to_production": true,
+    "regenerate_conflict_artifacts_only": true
+  },
+  "changes": [
+    {
+      "order": 1,
+      "leaf_target_key": "es|da|lv",
+      "target_language": "es",
+      "canonical_card_object_id": "da",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Ahí • Allí",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-056",
+      "owner_note": "Da norāda vietu; abas spāņu norādes ir pareizas un pilnīgākas.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "2d105e40ceafe261b8e16dbb08dcab00041cc4cb",
+          "value": "allá"
+        },
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "99061ac628bb35a28198affbf3f3982a71a32498",
+          "value": "ahí • allí"
+        },
+        {
+          "batch_id": "LRB-056",
+          "gala_pass_commit_sha": "b99ee633de87cf8d4008b187f5cd6f162d6f2085",
+          "value": "Ahí • Allí"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "leaf_target_key": "es|Essen|lv",
+      "target_language": "es",
+      "canonical_card_object_id": "Essen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Comida • Alimento",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "selected_from_batch": null,
+      "owner_note": "Essen aptver ēdienu/pārtiku; saglabātas abas avota nozīmes dabiskā secībā.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "2d105e40ceafe261b8e16dbb08dcab00041cc4cb",
+          "value": "comida"
+        },
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "99061ac628bb35a28198affbf3f3982a71a32498",
+          "value": "comida"
+        },
+        {
+          "batch_id": "LRB-057",
+          "gala_pass_commit_sha": "77eff6160c59074d65acbdd81e1b123ede5f81ed",
+          "value": "Alimento • Comida"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "leaf_target_key": "es|machen|lv",
+      "target_language": "es",
+      "canonical_card_object_id": "machen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Hacer",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-056",
+      "owner_note": "machen pamatnozīme ir hacer; cocinar ir tikai atsevišķa konteksta nozīme.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "2d105e40ceafe261b8e16dbb08dcab00041cc4cb",
+          "value": "hacer • cocinar"
+        },
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "99061ac628bb35a28198affbf3f3982a71a32498",
+          "value": "hacer • cocinar"
+        },
+        {
+          "batch_id": "LRB-056",
+          "gala_pass_commit_sha": "b99ee633de87cf8d4008b187f5cd6f162d6f2085",
+          "value": "Hacer"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "leaf_target_key": "es|Obst|lv",
+      "target_language": "es",
+      "canonical_card_object_id": "Obst",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Fruta",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-057",
+      "owner_note": "Obst ir kolektīvs apzīmējums augļiem; vienskaitļa forma ir atbilstoša vārdnīcas vērtība.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "2d105e40ceafe261b8e16dbb08dcab00041cc4cb",
+          "value": "frutas"
+        },
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "99061ac628bb35a28198affbf3f3982a71a32498",
+          "value": "fruta"
+        },
+        {
+          "batch_id": "LRB-057",
+          "gala_pass_commit_sha": "77eff6160c59074d65acbdd81e1b123ede5f81ed",
+          "value": "Fruta"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "leaf_target_key": "es|sitzen|lv",
+      "target_language": "es",
+      "canonical_card_object_id": "sitzen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Estar sentado",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-056",
+      "owner_note": "Sākotnējais pilnais teikums neatbilst skalārajam sitzen laukam.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "2d105e40ceafe261b8e16dbb08dcab00041cc4cb",
+          "value": "Él está de pie en la puerta."
+        },
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "99061ac628bb35a28198affbf3f3982a71a32498",
+          "value": "estar sentado"
+        },
+        {
+          "batch_id": "LRB-056",
+          "gala_pass_commit_sha": "b99ee633de87cf8d4008b187f5cd6f162d6f2085",
+          "value": "Estar sentado"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "leaf_target_key": "es|sollen|lv",
+      "target_language": "es",
+      "canonical_card_object_id": "sollen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Deber • Tener que (por indicación)",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "selected_from_batch": null,
+      "owner_note": "Saglabātas abas sollen pamatnozīmes un precizēta ārēja norādījuma nozīme.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "2d105e40ceafe261b8e16dbb08dcab00041cc4cb",
+          "value": "debería"
+        },
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "99061ac628bb35a28198affbf3f3982a71a32498",
+          "value": "deber • tener que (por indicación)"
+        },
+        {
+          "batch_id": "LRB-056",
+          "gala_pass_commit_sha": "b99ee633de87cf8d4008b187f5cd6f162d6f2085",
+          "value": "Deber • Tener que por indicación"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "leaf_target_key": "es|Urlaub|lv",
+      "target_language": "es",
+      "canonical_card_object_id": "Urlaub",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Vacaciones • Permiso laboral",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "selected_from_batch": null,
+      "owner_note": "Urlaub aptver atvaļinājumu un darba atvaļinājuma atļauju; viena nozīme būtu pārāk šaura.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "2d105e40ceafe261b8e16dbb08dcab00041cc4cb",
+          "value": "vacaciones"
+        },
+        {
+          "batch_id": "LRB-003",
+          "gala_pass_commit_sha": "99061ac628bb35a28198affbf3f3982a71a32498",
+          "value": "vacaciones • permiso laboral"
+        },
+        {
+          "batch_id": "LRB-057",
+          "gala_pass_commit_sha": "77eff6160c59074d65acbdd81e1b123ede5f81ed",
+          "value": "Vacaciones laborales"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "leaf_target_key": "fi|an|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "an",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "-lla/-llä • Luona • Vieressä",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "selected_from_batch": null,
+      "owner_note": "an tulkojums ir atkarīgs no konstrukcijas: pie/uz virsmas, pie kāda vai blakus.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-007",
+          "gala_pass_commit_sha": "a46ee647c8f4e19f770af977f10691af0f0f7595",
+          "value": "Luona • Päällä • Lähellä"
+        },
+        {
+          "batch_id": "LRB-007",
+          "gala_pass_commit_sha": "b26c384030108073b2a8cf646f504f99c00c1e13",
+          "value": "Luona"
+        },
+        {
+          "batch_id": "LRB-042",
+          "gala_pass_commit_sha": "e69e6306a6ce6c0f3d9b9f840e23b7aef0994880",
+          "value": "Luona • Kiinni"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "leaf_target_key": "fi|baden|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "baden",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Kylpeä • Käydä uimassa",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "selected_from_batch": null,
+      "owner_note": "baden aptver mazgāšanos/peldi un iešanu atpūtas peldē.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-007",
+          "gala_pass_commit_sha": "a46ee647c8f4e19f770af977f10691af0f0f7595",
+          "value": "Uida"
+        },
+        {
+          "batch_id": "LRB-007",
+          "gala_pass_commit_sha": "b26c384030108073b2a8cf646f504f99c00c1e13",
+          "value": "Käydä uimassa"
+        },
+        {
+          "batch_id": "LRB-042",
+          "gala_pass_commit_sha": "e69e6306a6ce6c0f3d9b9f840e23b7aef0994880",
+          "value": "Kylpeä • Uida huviksi"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "leaf_target_key": "fi|bei|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "bei",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Luona • -lla/-llä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-042",
+      "owner_note": "bei lieto pie personas/vietas un somu adessīva konstrukcijās.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-007",
+          "gala_pass_commit_sha": "a46ee647c8f4e19f770af977f10691af0f0f7595",
+          "value": "Luona"
+        },
+        {
+          "batch_id": "LRB-007",
+          "gala_pass_commit_sha": "b26c384030108073b2a8cf646f504f99c00c1e13",
+          "value": "Luona"
+        },
+        {
+          "batch_id": "LRB-042",
+          "gala_pass_commit_sha": "e69e6306a6ce6c0f3d9b9f840e23b7aef0994880",
+          "value": "Luona • -lla/-llä"
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "leaf_target_key": "fi|bis|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "bis",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Asti • Saakka • Kunnes",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-043",
+      "owner_note": "Vēlākā vērtība aptver telpas/laika robežu un saikļa nozīmi.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-008",
+          "gala_pass_commit_sha": "b4e6d5c2abc1c295a083b7b5802d6e75016211bd",
+          "value": "Kunnes • Asti"
+        },
+        {
+          "batch_id": "LRB-008",
+          "gala_pass_commit_sha": "c6a7a43227968d9c6a7f2b3c48b7121f90c36f03",
+          "value": "Kunnes • Asti"
+        },
+        {
+          "batch_id": "LRB-043",
+          "gala_pass_commit_sha": "0b5c5814bb991bdcbaaf2aa9468896e86b6be133",
+          "value": "Asti • Saakka • Kunnes"
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "leaf_target_key": "fi|bleiben|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "bleiben",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Jäädä • Pysyä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-043",
+      "owner_note": "bleiben nozīmē gan palikt, gan turpināt atrasties/stāvokli saglabāt.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-008",
+          "gala_pass_commit_sha": "b4e6d5c2abc1c295a083b7b5802d6e75016211bd",
+          "value": "Jäädä"
+        },
+        {
+          "batch_id": "LRB-008",
+          "gala_pass_commit_sha": "c6a7a43227968d9c6a7f2b3c48b7121f90c36f03",
+          "value": "Jäädä"
+        },
+        {
+          "batch_id": "LRB-043",
+          "gala_pass_commit_sha": "0b5c5814bb991bdcbaaf2aa9468896e86b6be133",
+          "value": "Jäädä • Pysyä"
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "leaf_target_key": "fi|ein|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "ein",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Epämääräinen artikkeli • Yksi • Jokin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-008",
+      "owner_note": "ein var būt nenoteiktais artikuls, skaitlis viens vai nenoteikta norāde.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-008",
+          "gala_pass_commit_sha": "b4e6d5c2abc1c295a083b7b5802d6e75016211bd",
+          "value": "Epämääräinen artikkeli • Yksi • Jokin"
+        },
+        {
+          "batch_id": "LRB-008",
+          "gala_pass_commit_sha": "c6a7a43227968d9c6a7f2b3c48b7121f90c36f03",
+          "value": "Epämääräinen artikkeli • Yksi • Jokin"
+        },
+        {
+          "batch_id": "LRB-043",
+          "gala_pass_commit_sha": "0b5c5814bb991bdcbaaf2aa9468896e86b6be133",
+          "value": "Epämääräinen artikkeli"
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "leaf_target_key": "fi|einmal|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "einmal",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Kerran",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-052",
+      "owner_note": "Kerran ir precīza un pietiekama einmal skalārā nozīme.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-008",
+          "gala_pass_commit_sha": "b4e6d5c2abc1c295a083b7b5802d6e75016211bd",
+          "value": "Kerran • Kerta"
+        },
+        {
+          "batch_id": "LRB-008",
+          "gala_pass_commit_sha": "c6a7a43227968d9c6a7f2b3c48b7121f90c36f03",
+          "value": "Kerran • Kerta"
+        },
+        {
+          "batch_id": "LRB-052",
+          "gala_pass_commit_sha": "9184860bb7734b7a092ec8c9d588787b58cba5ca",
+          "value": "Kerran"
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "leaf_target_key": "fi|erst|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "erst",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Vasta • Ensin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "erst aptver gan tikai/vēl tikai, gan vispirms nozīmi.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Vain • Vasta"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Vain • Vasta"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Vasta • Ensin"
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "leaf_target_key": "fi|es|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "es",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Se • Sitä • Muodollinen subjekti",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "Ietver subjekta, objekta un formālā subjekta lietojumu.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Se • Se • Persoonaton muoto"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Se • Se • Persoonaton muoto"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Se • Sitä • Muodollinen subjekti"
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "leaf_target_key": "fi|etwas|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "etwas",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Jokin • Jotakin • Hieman",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "Ietver vietniekvārda un daudzuma nozīmi.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Jotain • Vähän"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Jotain • Vähän"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Jokin • Jotakin • Hieman"
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "leaf_target_key": "fi|euch|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "euch",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Teidät • Teitä • Teille",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "Ietvertas euch akuzatīva un datīva somu formas.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Teitä • Teille"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Teitä • Teille"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Teidät • Teitä • Teille"
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "leaf_target_key": "fi|fahren|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "fahren",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Ajaa • Matkustaa • Kuljettaa",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "Ietver vadīt, braukt/ceļot un pārvadāt.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Ajaa • Kuljettaa • Viedä"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Ajaa • Kuljettaa • Viedä"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Ajaa • Matkustaa • Kuljettaa"
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "leaf_target_key": "fi|finden|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "finden",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Löytää • Olla jotakin mieltä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "Ietver atrast un uzskatīt/būt noteiktās domās.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Löytää • Pitää"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Löytää • Pitää"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Löytää • Olla jotakin mieltä"
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "leaf_target_key": "fi|für|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "für",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Varten • Puolesta • Jollekin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "Ietver mērķi, pārstāvību un adresātu.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Varten • Puolesta"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Varten • Puolesta"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Varten • Puolesta • Jollekin"
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "leaf_target_key": "fi|ganz|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "ganz",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Koko • Aivan • Melko",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "Ietver īpašības vārda un pastiprinātāja nozīmes.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Koko • Täysin"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Koko • Täysin"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Koko • Aivan • Melko"
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "leaf_target_key": "fi|gefallen|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "gefallen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Miellyttää • Pitää",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-044",
+      "owner_note": "Ietver konstrukcijas patikt/miellyttää nozīmi.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "dc659d323f3b0d30866666b6eed7671b90a60776",
+          "value": "Miellyttää"
+        },
+        {
+          "batch_id": "LRB-009",
+          "gala_pass_commit_sha": "7f99312a352e0b899b073d1c0401c160e7a52c2d",
+          "value": "Miellyttää"
+        },
+        {
+          "batch_id": "LRB-044",
+          "gala_pass_commit_sha": "703edd0d21313f65c8137c2bf23a7f708c9a8c0f",
+          "value": "Miellyttää • Pitää"
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "leaf_target_key": "fi|groß|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "groß",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Suuri • Pitkä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-045",
+      "owner_note": "groß attiecas gan uz lielumu, gan cilvēka augumu.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-010",
+          "gala_pass_commit_sha": "ed97a322619ee6b5e2a6aaa42bc0bedd200000cd",
+          "value": "Suuri"
+        },
+        {
+          "batch_id": "LRB-010",
+          "gala_pass_commit_sha": "980ae6b9a4cb1efd8da9f991aad574a66022baf1",
+          "value": "Suuri"
+        },
+        {
+          "batch_id": "LRB-045",
+          "gala_pass_commit_sha": "952cb8ecacc7c1609866044d43b8a3e63150dbd2",
+          "value": "Suuri • Pitkä"
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "leaf_target_key": "fi|gut|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "gut",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Hyvä • Hyvin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-045",
+      "owner_note": "Ietver īpašības vārda un apstākļa vārda lietojumu.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-010",
+          "gala_pass_commit_sha": "ed97a322619ee6b5e2a6aaa42bc0bedd200000cd",
+          "value": "Hyvä"
+        },
+        {
+          "batch_id": "LRB-010",
+          "gala_pass_commit_sha": "980ae6b9a4cb1efd8da9f991aad574a66022baf1",
+          "value": "Hyvä"
+        },
+        {
+          "batch_id": "LRB-045",
+          "gala_pass_commit_sha": "952cb8ecacc7c1609866044d43b8a3e63150dbd2",
+          "value": "Hyvä • Hyvin"
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "leaf_target_key": "fi|halten|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "halten",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Pitää • Pysäyttää",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-010",
+      "owner_note": "halten nozīmē turēt un apstāties/apturēt; tikai Pitää būtu nepilnīgi.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-010",
+          "gala_pass_commit_sha": "ed97a322619ee6b5e2a6aaa42bc0bedd200000cd",
+          "value": "Pitää • Pysäyttää"
+        },
+        {
+          "batch_id": "LRB-010",
+          "gala_pass_commit_sha": "980ae6b9a4cb1efd8da9f991aad574a66022baf1",
+          "value": "Pitää • Pysäyttää"
+        },
+        {
+          "batch_id": "LRB-045",
+          "gala_pass_commit_sha": "952cb8ecacc7c1609866044d43b8a3e63150dbd2",
+          "value": "Pitää"
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "leaf_target_key": "fi|heißen|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "heißen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Olla nimeltään • Tarkoittaa",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-045",
+      "owner_note": "Gramatiski pareiza forma un abas heißen pamatnozīmes.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-010",
+          "gala_pass_commit_sha": "ed97a322619ee6b5e2a6aaa42bc0bedd200000cd",
+          "value": "Olla nimeltä • Tarkoittaa"
+        },
+        {
+          "batch_id": "LRB-010",
+          "gala_pass_commit_sha": "980ae6b9a4cb1efd8da9f991aad574a66022baf1",
+          "value": "Olla nimeltä • Tarkoittaa"
+        },
+        {
+          "batch_id": "LRB-045",
+          "gala_pass_commit_sha": "952cb8ecacc7c1609866044d43b8a3e63150dbd2",
+          "value": "Olla nimeltään • Tarkoittaa"
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "leaf_target_key": "fi|ihr|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "ihr",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Te • Hänelle • Hänen",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-046",
+      "owner_note": "Ietver vietniekvārda vairākās vācu gramatiskajās lomās.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-011",
+          "gala_pass_commit_sha": "11bee796ee3d96e5fc436dfbcfb96c237b2aa06e",
+          "value": "Te • Hänelle"
+        },
+        {
+          "batch_id": "LRB-011",
+          "gala_pass_commit_sha": "30b2976afa0d5f0bf31dd41528902bf57fe60ef2",
+          "value": "Te • Hänelle"
+        },
+        {
+          "batch_id": "LRB-046",
+          "gala_pass_commit_sha": "cc3fe938c46bb10a635e237a9552c7dc32956be0",
+          "value": "Te • Hänelle • Hänen"
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "leaf_target_key": "fi|im|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "im",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "-ssa/-ssä • Missä?",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-046",
+      "owner_note": "im = in dem un parasti atbilst somu inesīvam.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-011",
+          "gala_pass_commit_sha": "11bee796ee3d96e5fc436dfbcfb96c237b2aa06e",
+          "value": "Sisällä (-ssa) • Missä?"
+        },
+        {
+          "batch_id": "LRB-011",
+          "gala_pass_commit_sha": "30b2976afa0d5f0bf31dd41528902bf57fe60ef2",
+          "value": "Sisällä (-ssa) • Missä?"
+        },
+        {
+          "batch_id": "LRB-046",
+          "gala_pass_commit_sha": "cc3fe938c46bb10a635e237a9552c7dc32956be0",
+          "value": "-ssa/-ssä • Missä?"
+        }
+      ]
+    },
+    {
+      "order": 30,
+      "leaf_target_key": "fi|können|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "können",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Voida • Osata",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-046",
+      "owner_note": "Ietver iespēju un prasmi.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-011",
+          "gala_pass_commit_sha": "11bee796ee3d96e5fc436dfbcfb96c237b2aa06e",
+          "value": "Pystyä • Osata"
+        },
+        {
+          "batch_id": "LRB-011",
+          "gala_pass_commit_sha": "30b2976afa0d5f0bf31dd41528902bf57fe60ef2",
+          "value": "Pystyä • Osata"
+        },
+        {
+          "batch_id": "LRB-046",
+          "gala_pass_commit_sha": "cc3fe938c46bb10a635e237a9552c7dc32956be0",
+          "value": "Voida • Osata"
+        }
+      ]
+    },
+    {
+      "order": 31,
+      "leaf_target_key": "fi|lang|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "lang",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Pitkä • Pitkään",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-011",
+      "owner_note": "Ietver īpašības vārda un ilguma apstākļa vārda nozīmi.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-011",
+          "gala_pass_commit_sha": "11bee796ee3d96e5fc436dfbcfb96c237b2aa06e",
+          "value": "Pitkä • Pitkään"
+        },
+        {
+          "batch_id": "LRB-011",
+          "gala_pass_commit_sha": "30b2976afa0d5f0bf31dd41528902bf57fe60ef2",
+          "value": "Pitkä • Pitkään"
+        },
+        {
+          "batch_id": "LRB-046",
+          "gala_pass_commit_sha": "cc3fe938c46bb10a635e237a9552c7dc32956be0",
+          "value": "Pitkä"
+        }
+      ]
+    },
+    {
+      "order": 32,
+      "leaf_target_key": "fi|leise|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "leise",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Hiljainen • Hiljaa",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-047",
+      "owner_note": "Ietver īpašības vārda un apstākļa vārda lietojumu.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-012",
+          "gala_pass_commit_sha": "409fca93b30078299dcb8febf7d4be42c0051112",
+          "value": "Hiljainen"
+        },
+        {
+          "batch_id": "LRB-012",
+          "gala_pass_commit_sha": "bba1be74ab918fdfb5cb56dae718a0c08fb2a9aa",
+          "value": "Hiljainen"
+        },
+        {
+          "batch_id": "LRB-047",
+          "gala_pass_commit_sha": "29eabf26df096298b26de928c01b7af37ccbfe79",
+          "value": "Hiljainen • Hiljaa"
+        }
+      ]
+    },
+    {
+      "order": 33,
+      "leaf_target_key": "fi|liegen|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "liegen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Sijaita • Maata",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-047",
+      "owner_note": "Ietver atrašanās vietu un gulēšanas stāvokli.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-012",
+          "gala_pass_commit_sha": "409fca93b30078299dcb8febf7d4be42c0051112",
+          "value": "Olla • Maata"
+        },
+        {
+          "batch_id": "LRB-012",
+          "gala_pass_commit_sha": "bba1be74ab918fdfb5cb56dae718a0c08fb2a9aa",
+          "value": "Olla • Maata"
+        },
+        {
+          "batch_id": "LRB-047",
+          "gala_pass_commit_sha": "29eabf26df096298b26de928c01b7af37ccbfe79",
+          "value": "Sijaita • Maata"
+        }
+      ]
+    },
+    {
+      "order": 34,
+      "leaf_target_key": "fi|mit|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "mit",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Kanssa • -lla/-llä",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-047",
+      "owner_note": "Ietver kopā ar un instrumenta konstrukciju.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-012",
+          "gala_pass_commit_sha": "409fca93b30078299dcb8febf7d4be42c0051112",
+          "value": "Kanssa (-lla/-llä)"
+        },
+        {
+          "batch_id": "LRB-012",
+          "gala_pass_commit_sha": "bba1be74ab918fdfb5cb56dae718a0c08fb2a9aa",
+          "value": "Kanssa (-lla/-llä)"
+        },
+        {
+          "batch_id": "LRB-047",
+          "gala_pass_commit_sha": "29eabf26df096298b26de928c01b7af37ccbfe79",
+          "value": "Kanssa • -lla/-llä"
+        }
+      ]
+    },
+    {
+      "order": 35,
+      "leaf_target_key": "fi|mögen|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "mögen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Pitää • Tykätä",
+      "resolution_type": "OWNER_COMBINED_VALUE",
+      "selected_from_batch": null,
+      "owner_note": "Abas dabiskas somu valodas atbilsmes vācu mögen nozīmei patikt.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "0803f9549c7365099dbe1e16442b7a64b6d445b1",
+          "value": "Tykätä"
+        },
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "f1dc66c7e18bbaa335e4105e17f66d0c875f041e",
+          "value": "Tykätä"
+        },
+        {
+          "batch_id": "LRB-047",
+          "gala_pass_commit_sha": "29eabf26df096298b26de928c01b7af37ccbfe79",
+          "value": "Pitää"
+        }
+      ]
+    },
+    {
+      "order": 36,
+      "leaf_target_key": "fi|müssen|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "müssen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Täytyä • Pitää",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-048",
+      "owner_note": "Precīzi izsaka nepieciešamību/pienākumu.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "0803f9549c7365099dbe1e16442b7a64b6d445b1",
+          "value": "Täytyä • Joutua"
+        },
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "f1dc66c7e18bbaa335e4105e17f66d0c875f041e",
+          "value": "Täytyä • Joutua"
+        },
+        {
+          "batch_id": "LRB-048",
+          "gala_pass_commit_sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+          "value": "Täytyä • Pitää"
+        }
+      ]
+    },
+    {
+      "order": 37,
+      "leaf_target_key": "fi|nach|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "nach",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "-iin/-lle • Jälkeen",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-048",
+      "owner_note": "Ietver virzienu un laika nozīmi pēc.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "0803f9549c7365099dbe1e16442b7a64b6d445b1",
+          "value": "-Väliin • Jälkeen"
+        },
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "f1dc66c7e18bbaa335e4105e17f66d0c875f041e",
+          "value": "-Väliin • Jälkeen"
+        },
+        {
+          "batch_id": "LRB-048",
+          "gala_pass_commit_sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+          "value": "-iin/-lle • Jälkeen"
+        }
+      ]
+    },
+    {
+      "order": 38,
+      "leaf_target_key": "fi|nehmen|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "nehmen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Ottaa",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-048",
+      "owner_note": "Ottaa ir nehmen pamatnozīme; Valita nav vispārīgs ekvivalents.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "0803f9549c7365099dbe1e16442b7a64b6d445b1",
+          "value": "Ottaa • Valita"
+        },
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "f1dc66c7e18bbaa335e4105e17f66d0c875f041e",
+          "value": "Ottaa • Valita"
+        },
+        {
+          "batch_id": "LRB-048",
+          "gala_pass_commit_sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+          "value": "Ottaa"
+        }
+      ]
+    },
+    {
+      "order": 39,
+      "leaf_target_key": "fi|neu|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "neu",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Uusi (esineistä ja asioista)",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-048",
+      "owner_note": "Precizēta lietu un priekšmetu nozīme.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "0803f9549c7365099dbe1e16442b7a64b6d445b1",
+          "value": "Uusi (asioista)"
+        },
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "f1dc66c7e18bbaa335e4105e17f66d0c875f041e",
+          "value": "Uusi (asioista)"
+        },
+        {
+          "batch_id": "LRB-048",
+          "gala_pass_commit_sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+          "value": "Uusi (esineistä ja asioista)"
+        }
+      ]
+    },
+    {
+      "order": 40,
+      "leaf_target_key": "fi|noch mal|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "noch mal",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Uudelleen",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-052",
+      "owner_note": "Dabiska un precīza atkārtojuma nozīme.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "0803f9549c7365099dbe1e16442b7a64b6d445b1",
+          "value": "Uudestaan"
+        },
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "f1dc66c7e18bbaa335e4105e17f66d0c875f041e",
+          "value": "Uudestaan"
+        },
+        {
+          "batch_id": "LRB-052",
+          "gala_pass_commit_sha": "9184860bb7734b7a092ec8c9d588787b58cba5ca",
+          "value": "Uudelleen"
+        }
+      ]
+    },
+    {
+      "order": 41,
+      "leaf_target_key": "fi|ob|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "ob",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "-ko/-kö (epäsuora kysymys)",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-048",
+      "owner_note": "Precizēts, ka ob ievada netiešu jautājumu.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "0803f9549c7365099dbe1e16442b7a64b6d445b1",
+          "value": "-ko/-kö"
+        },
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "f1dc66c7e18bbaa335e4105e17f66d0c875f041e",
+          "value": "-ko/-kö"
+        },
+        {
+          "batch_id": "LRB-048",
+          "gala_pass_commit_sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+          "value": "-ko/-kö (epäsuora kysymys)"
+        }
+      ]
+    },
+    {
+      "order": 42,
+      "leaf_target_key": "fi|oder|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "oder",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Vai • Tai",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-013",
+      "owner_note": "Somu valodā izvēles jautājumos lieto vai, citos vai savienojumos — tai.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "0803f9549c7365099dbe1e16442b7a64b6d445b1",
+          "value": "Vai • Tai"
+        },
+        {
+          "batch_id": "LRB-013",
+          "gala_pass_commit_sha": "f1dc66c7e18bbaa335e4105e17f66d0c875f041e",
+          "value": "Vai • Tai"
+        },
+        {
+          "batch_id": "LRB-048",
+          "gala_pass_commit_sha": "b8d6fe86af00039f13364621757d87831c141b3f",
+          "value": "Vai"
+        }
+      ]
+    },
+    {
+      "order": 43,
+      "leaf_target_key": "fi|passen|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "passen",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Sopia • Istua hyvin",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-049",
+      "owner_note": "Ietver derēt un labi piegulēt.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-014",
+          "gala_pass_commit_sha": "c703fecc9b08763ba3a9cae6ff436b482ac5108c",
+          "value": "Sopia • Sopia hyvin"
+        },
+        {
+          "batch_id": "LRB-014",
+          "gala_pass_commit_sha": "7fd84d8ed5ef0521d5695c627075504fbbad0b51",
+          "value": "Sopia • Sopia hyvin"
+        },
+        {
+          "batch_id": "LRB-049",
+          "gala_pass_commit_sha": "413e81ef9064421a95b4fbe08527b9aab3fad119",
+          "value": "Sopia • Istua hyvin"
+        }
+      ]
+    },
+    {
+      "order": 44,
+      "leaf_target_key": "fi|werden|lv",
+      "target_language": "fi",
+      "canonical_card_object_id": "werden",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Tulla • Muuttua",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-052",
+      "owner_note": "Ietver kļūt/tapt un mainīties.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-017",
+          "gala_pass_commit_sha": "40ff92b4eb59334bcad0abb423348c33a4c5907b",
+          "value": "Tulla"
+        },
+        {
+          "batch_id": "LRB-052",
+          "gala_pass_commit_sha": "9184860bb7734b7a092ec8c9d588787b58cba5ca",
+          "value": "Tulla • Muuttua"
+        }
+      ]
+    },
+    {
+      "order": 45,
+      "leaf_target_key": "sk|a1-was|lv",
+      "target_language": "sk",
+      "canonical_card_object_id": "a1-was",
+      "exact_leaf_field_path": "lv",
+      "decision": "OWNER_RESOLVED",
+      "owner_new": "Čo",
+      "resolution_type": "EXISTING_GALA_VALUE",
+      "selected_from_batch": "LRB-089",
+      "owner_note": "Skalārajā laukā vajadzīgs tulkojums Čo; skaidrojuma teikums pieder study laukam, bet Čo • Čo ir dublikāts.",
+      "conflicting_gala_values": [
+        {
+          "batch_id": "LRB-089",
+          "gala_pass_commit_sha": "ac4100c532f97e4995fa643ffdeb1db888348685",
+          "value": "Čo"
+        },
+        {
+          "batch_id": "LRB-090",
+          "gala_pass_commit_sha": "6ffbe2a0fd15f755844a55e64e55febaf8fb84e5",
+          "value": "Slovo was sa samo nemení – v nemčine je vždy was; po slovensky znamená „čo“."
+        },
+        {
+          "batch_id": "LRB-090",
+          "gala_pass_commit_sha": "6ffbe2a0fd15f755844a55e64e55febaf8fb84e5",
+          "value": "Čo • Čo"
+        }
+      ]
+    }
+  ]
+}

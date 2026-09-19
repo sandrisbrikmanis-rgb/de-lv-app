@@ -1,0 +1,19 @@
+A1 LRB-001…103 — kartīšu 21–40 OWNER COPY/PASTE (piemērots)
+
+Klasifikācija: AWAITING_GALA_VERDICT
+Review-pack SHA (avots): d2a32f5a01accfe5f93abbac4b6d9455c72dbb31
+OWNER bundle SHA-256: cd7bbcda44e5deb2fc7d5c79e1ab6f7d38f551621980c182ba99ebecdf86bf07
+Git HEAD: 1092a611349bfc8e98b52654c959009c525bbf62
+
+Vārti:
+- applied_exactly: 20/20
+- pending: 0
+- empty target fields: 0
+- wrong-language residue: 0
+- semantic/source-fidelity violations: 0
+- DE alignment: 0
+- duplicate/degenerate pairs: 0
+- internal contradictions: 0
+- schema/sectionAccents failures: 0
+
+Nav Gala PASS; nav merge/apply/production.

@@ -1,0 +1,1272 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_201_220_FULL_CARD_COPY_PASTE_READY",
+  "source_head": "bb54caa4b44e149717e8fe9b6549a4280753d45a",
+  "scope": {
+    "start_ordinal": 201,
+    "end_ordinal": 220,
+    "cards": 20,
+    "full_composites": 20,
+    "scalar_cards": 0,
+    "pending": 0
+  },
+  "cursor_action": "COPY_PASTE_ONLY",
+  "cards": [
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "hoch",
+      "full_card_owner_new": {
+        "lv": "hög",
+        "study": {
+          "id": "a1-hoch-study",
+          "layout": "standardStudy",
+          "translation": "hög",
+          "explanation": [
+            "hoch betyder hög eller högt och beskriver vertikal höjd eller en hög nivå.",
+            "Det används till exempel om ett berg, en vägg, ett pris, en temperatur eller ett tal.",
+            "Om en persons längd används vanligtvis groß, inte hoch."
+          ],
+          "examples": [
+            {
+              "de": "Der Berg ist hoch.",
+              "lv": "Berget är högt."
+            },
+            {
+              "de": "Das Regal ist zwei Meter hoch.",
+              "lv": "Hyllan är två meter hög."
+            },
+            {
+              "de": "Die Miete ist hoch.",
+              "lv": "Hyran är hög."
+            },
+            {
+              "de": "Die Mauer ist hoch.",
+              "lv": "Muren är hög."
+            },
+            {
+              "de": "Die Preise sind hoch.",
+              "lv": "Priserna är höga."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Vertikal höjd eller hög nivå → hoch."
+            },
+            {
+              "text": "Om en persons längd används vanligtvis groß."
+            }
+          ],
+          "important": [
+            "Der Berg ist hoch = Berget är högt.",
+            "Er ist groß = Han är lång.",
+            "För en persons längd används vanligtvis inte hoch."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "lassen",
+      "full_card_owner_new": {
+        "lv": "lämna • låta",
+        "study": {
+          "id": "a1-lassen",
+          "layout": "standardStudy",
+          "translation": "lämna • låta",
+          "explanation": [
+            "lassen betyder att lämna något eller låta något ske.",
+            "När något blir kvar på en plats översätts lassen med lämna.",
+            "När någon får tillåtelse översätts lassen med låta.",
+            "Lass mich in Ruhe! är ett mycket vanligt uttryck och betyder Låt mig vara!"
+          ],
+          "examples": [
+            {
+              "de": "Ich lasse die Tasche hier.",
+              "lv": "Jag lämnar väskan här."
+            },
+            {
+              "de": "Lass das bitte auf dem Tisch.",
+              "lv": "Lämna det på bordet, tack."
+            },
+            {
+              "de": "Meine Eltern lassen mich gehen.",
+              "lv": "Mina föräldrar låter mig gå."
+            },
+            {
+              "de": "Lass mich in Ruhe!",
+              "lv": "Låt mig vara!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "lassen",
+              "meaning": "lämna eller låta",
+              "example": "Ich lasse das hier. – Jag lämnar det här."
+            },
+            {
+              "word": "bleiben",
+              "meaning": "stanna eller bli kvar",
+              "example": "Ich bleibe hier. – Jag stannar här."
+            },
+            {
+              "word": "erlauben",
+              "meaning": "tillåta",
+              "example": "Sie erlaubt mir das. – Hon tillåter mig det."
+            },
+            {
+              "word": "geben",
+              "meaning": "ge",
+              "example": "Gib mir das Buch. – Ge mig boken."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Något blir kvar → lassen; någon får göra något → lassen."
+            }
+          ],
+          "important": [
+            "lassen betyder inte bara lämna, utan ofta också låta.",
+            "Lass mich in Ruhe! betyder Låt mig vara!"
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "laufen",
+      "full_card_owner_new": {
+        "lv": "springa • gå",
+        "study": {
+          "id": "a1-laufen",
+          "layout": "standardStudy",
+          "translation": "springa • gå",
+          "explanation": [
+            "laufen betyder ofta springa, men om en maskin, film eller ett program kan det betyda gå eller fungera.",
+            "Om människor eller djur beskriver laufen vanligtvis snabb rörelse till fots.",
+            "Om en film eller maskin används laufen när den pågår eller fungerar.",
+            "På A1-nivå är den viktiga skillnaden: gehen = gå och laufen = springa eller vara igång."
+          ],
+          "examples": [
+            {
+              "de": "Er läuft sehr schnell.",
+              "lv": "Han springer mycket snabbt."
+            },
+            {
+              "de": "Die Kinder laufen im Park.",
+              "lv": "Barnen springer i parken."
+            },
+            {
+              "de": "Der Film läuft schon.",
+              "lv": "Filmen är redan igång."
+            },
+            {
+              "de": "Die Maschine läuft gut.",
+              "lv": "Maskinen går bra."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "laufen",
+              "meaning": "springa eller gå/fungera",
+              "example": "Er läuft schnell. – Han springer snabbt."
+            },
+            {
+              "word": "gehen",
+              "meaning": "gå till fots",
+              "example": "Ich gehe nach Hause. – Jag går hem."
+            },
+            {
+              "word": "fahren",
+              "meaning": "åka eller köra",
+              "example": "Ich fahre mit dem Bus. – Jag åker buss."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "fungera",
+              "example": "Das funktioniert gut. – Det fungerar bra."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Snabb rörelse till fots → laufen; transportmedel → fahren."
+            }
+          ],
+          "important": [
+            "laufen betyder inte bara springa. Om en film eller apparat kan det betyda gå eller fungera.",
+            "Ich laufe beskriver rörelse till fots, inte färd med ett fordon."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "laut",
+      "full_card_owner_new": {
+        "lv": "högljudd • högt",
+        "study": {
+          "id": "a1-laut",
+          "layout": "standardStudy",
+          "translation": "högljudd • högt",
+          "explanation": [
+            "laut med liten begynnelsebokstav är ett adjektiv eller adverb och beskriver hur starkt ett ljud är.",
+            "der Laut med stor begynnelsebokstav är däremot ett substantiv och betyder ett ljud eller språkljud.",
+            "Pluralformen av der Laut är die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musiken är högljudd."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musiken är högljudd."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Tala inte så högt!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Det är mycket högljutt."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ljudet är vackert."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Jag hör ett ljud."
+            }
+          ],
+          "tip": [
+            {
+              "text": "laut med liten bokstav = högljudd eller högt; der Laut med stor bokstav = ett ljud."
+            }
+          ],
+          "important": [
+            "laut skrivs med liten bokstav och utan artikel när det är adjektiv eller adverb.",
+            "der Laut är ett substantiv med artikeln der.",
+            "Plural: die Laute.",
+            "Fel: Der Laut ist sehr. Rätt: Das ist sehr laut."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "Laut",
+      "full_card_owner_new": {
+        "lv": "ljud",
+        "study": {
+          "id": "a1-laut-study",
+          "layout": "standardStudy",
+          "translation": "ljud",
+          "explanation": [
+            "der Laut är ett substantiv med stor begynnelsebokstav och betyder ett ljud, en signal eller ett språkljud.",
+            "laut med liten begynnelsebokstav är ett adjektiv eller adverb och beskriver hur starkt ett ljud är.",
+            "Pluralformen av der Laut är die Laute."
+          ],
+          "examples": [
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ljudet är vackert."
+            },
+            {
+              "de": "Die Musik ist laut.",
+              "lv": "Musiken är högljudd."
+            },
+            {
+              "de": "Sprich nicht so laut!",
+              "lv": "Tala inte så högt!"
+            },
+            {
+              "de": "Das ist sehr laut.",
+              "lv": "Det är mycket högljutt."
+            },
+            {
+              "de": "Der Laut ist schön.",
+              "lv": "Ljudet är vackert."
+            },
+            {
+              "de": "Ich höre einen Laut.",
+              "lv": "Jag hör ett ljud."
+            }
+          ],
+          "tip": [
+            {
+              "text": "laut med liten bokstav = högljudd eller högt; der Laut med stor bokstav = ett ljud."
+            }
+          ],
+          "important": [
+            "laut med liten bokstav är ett adjektiv eller adverb.",
+            "der Laut med stor bokstav och artikeln der är ett substantiv.",
+            "Plural: die Laute.",
+            "Fel: Der Laut ist sehr. Rätt: Das ist sehr laut."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "legen",
+      "full_card_owner_new": {
+        "lv": "lägga",
+        "study": {
+          "id": "a1-legen",
+          "layout": "standardStudy",
+          "translation": "lägga",
+          "explanation": [
+            "legen betyder att lägga något i liggande eller vågrätt läge.",
+            "Det används när någon flyttar ett föremål och lägger det på ett bord, i en säng eller på en annan yta.",
+            "Det skiljer sig från liegen, som beskriver att något redan ligger.",
+            "Den viktiga skillnaden är: legen = lägga, liegen = ligga."
+          ],
+          "examples": [
+            {
+              "de": "Ich lege das Buch auf den Tisch.",
+              "lv": "Jag lägger boken på bordet."
+            },
+            {
+              "de": "Leg den Schlüssel hierhin.",
+              "lv": "Lägg nyckeln här."
+            },
+            {
+              "de": "Sie legt das Kind ins Bett.",
+              "lv": "Hon lägger barnet i sängen."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Boken ligger på bordet."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "legen",
+              "meaning": "lägga",
+              "example": "Ich lege das Buch auf den Tisch. – Jag lägger boken på bordet."
+            },
+            {
+              "word": "liegen",
+              "meaning": "ligga",
+              "example": "Das Buch liegt auf dem Tisch. – Boken ligger på bordet."
+            },
+            {
+              "word": "stellen",
+              "meaning": "ställa",
+              "example": "Ich stelle die Flasche auf den Tisch. – Jag ställer flaskan på bordet."
+            },
+            {
+              "word": "setzen",
+              "meaning": "sätta",
+              "example": "Ich setze mich. – Jag sätter mig."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Du placerar något → legen; föremålet ligger redan → liegen."
+            }
+          ],
+          "important": [
+            "legen och liegen betyder inte samma sak.",
+            "Ich lege das Buch = jag lägger boken. Das Buch liegt = boken ligger."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "sprechen",
+      "full_card_owner_new": {
+        "lv": "tala • prata",
+        "study": {
+          "id": "a1-sprechen-study",
+          "layout": "standardStudy",
+          "translation": "tala • prata",
+          "explanation": [
+            "sprechen betyder att tala, prata eller använda ett språk.",
+            "Det beskriver själva talandet, ett samtal eller kunskapen att tala ett språk.",
+            "För ett konkret yttrande används ofta sagen."
+          ],
+          "examples": [
+            {
+              "de": "Ich spreche Deutsch.",
+              "lv": "Jag talar tyska."
+            },
+            {
+              "de": "Wir sprechen über die Arbeit.",
+              "lv": "Vi pratar om arbetet."
+            },
+            {
+              "de": "Sie spricht mit ihrer Lehrerin.",
+              "lv": "Hon pratar med sin lärare."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "sprechen",
+              "meaning": "tala eller prata; använda ett språk",
+              "example": "Wir sprechen über die Arbeit. – Vi pratar om arbetet."
+            },
+            {
+              "word": "sagen",
+              "meaning": "säga något konkret",
+              "example": "Sag mir die Wahrheit. – Säg mig sanningen."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Använd sprechen för själva talandet eller ett språk."
+            }
+          ],
+          "important": [
+            "sprechen = tala eller prata.",
+            "sagen används när fokus ligger på det som sägs."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "stehen",
+      "full_card_owner_new": {
+        "lv": "stå",
+        "study": {
+          "id": "a1-stehen",
+          "layout": "standardStudy",
+          "translation": "stå",
+          "explanation": [
+            "stehen betyder att stå eller befinna sig i upprätt läge.",
+            "Om en person betyder stehen att stå.",
+            "Om ett föremål betyder det att föremålet står upprätt eller finns på en viss plats.",
+            "Skilj mellan stehen = stå, sitzen = sitta och liegen = ligga."
+          ],
+          "examples": [
+            {
+              "de": "Ich stehe an der Tür.",
+              "lv": "Jag står vid dörren."
+            },
+            {
+              "de": "Der Stuhl steht in der Küche.",
+              "lv": "Stolen står i köket."
+            },
+            {
+              "de": "Er sitzt am Tisch.",
+              "lv": "Han sitter vid bordet."
+            },
+            {
+              "de": "Das Buch liegt auf dem Tisch.",
+              "lv": "Boken ligger på bordet."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "stehen",
+              "meaning": "stå eller befinna sig upprätt",
+              "example": "Ich stehe hier. – Jag står här."
+            },
+            {
+              "word": "sitzen",
+              "meaning": "sitta",
+              "example": "Er sitzt am Tisch. – Han sitter vid bordet."
+            },
+            {
+              "word": "liegen",
+              "meaning": "ligga",
+              "example": "Das Buch liegt dort. – Boken ligger där."
+            },
+            {
+              "word": "stellen",
+              "meaning": "ställa",
+              "example": "Ich stelle die Flasche hin. – Jag ställer flaskan där."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Upprätt → stehen; sittande → sitzen; liggande → liegen."
+            }
+          ],
+          "important": [
+            "stehen beskriver ett tillstånd, inte handlingen att ställa något.",
+            "Att placera ett föremål upprätt heter stellen, inte stehen."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "über",
+      "full_card_owner_new": {
+        "lv": "över • om",
+        "study": {
+          "id": "a1-über",
+          "layout": "standardStudy",
+          "translation": "över • om",
+          "explanation": [
+            "über betyder över eller om beroende på sammanhanget.",
+            "Vid en plats betyder über ofta över eller ovanför.",
+            "Vid samtal, texter och ämnen betyder über om.",
+            "Vid rörelse kan über betyda över eller tvärs över."
+          ],
+          "examples": [
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Lampan hänger över bordet."
+            },
+            {
+              "de": "Wir sprechen über das Wetter.",
+              "lv": "Vi pratar om vädret."
+            },
+            {
+              "de": "Das Kind läuft über die Straße.",
+              "lv": "Barnet springer över gatan."
+            },
+            {
+              "de": "Ich freue mich über das Geschenk.",
+              "lv": "Jag är glad över presenten."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "über",
+              "meaning": "över, om eller tvärs över",
+              "example": "Wir sprechen über das Wetter. – Vi pratar om vädret."
+            },
+            {
+              "word": "auf",
+              "meaning": "på en yta",
+              "example": "Das Buch liegt auf dem Tisch. – Boken ligger på bordet."
+            },
+            {
+              "word": "unter",
+              "meaning": "under",
+              "example": "Die Tasche ist unter dem Tisch. – Väskan är under bordet."
+            },
+            {
+              "word": "von",
+              "meaning": "från eller av",
+              "example": "Ich höre von dir. – Jag hör från dig."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Samtalsämne → über; ovanför bordet → über."
+            }
+          ],
+          "important": [
+            "über beskriver inte bara en plats.",
+            "sprechen über betyder prata om."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "um",
+      "full_card_owner_new": {
+        "lv": "omkring • klockan",
+        "study": {
+          "id": "a1-um",
+          "layout": "standardStudy",
+          "translation": "omkring • klockan",
+          "explanation": [
+            "um betyder ofta klockan tillsammans med ett exakt klockslag eller runt omkring vid en plats.",
+            "Med ett exakt klockslag betyder um klockan.",
+            "Vid en plats betyder um omkring eller runt.",
+            "Konstruktionen um ... zu uttrycker ett syfte och motsvarar för att."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme um acht Uhr.",
+              "lv": "Jag kommer klockan åtta."
+            },
+            {
+              "de": "Wir sitzen um den Tisch.",
+              "lv": "Vi sitter runt bordet."
+            },
+            {
+              "de": "Er geht um die Ecke.",
+              "lv": "Han går runt hörnet."
+            },
+            {
+              "de": "Ich lerne, um Deutsch zu sprechen.",
+              "lv": "Jag studerar för att kunna tala tyska."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "um",
+              "meaning": "klockan, omkring eller för att",
+              "example": "Ich komme um acht. – Jag kommer klockan åtta."
+            },
+            {
+              "word": "am",
+              "meaning": "på en dag eller vid",
+              "example": "Am Montag komme ich. – Jag kommer på måndag."
+            },
+            {
+              "word": "gegen",
+              "meaning": "ungefär vid eller mot",
+              "example": "Ich komme gegen acht. – Jag kommer vid åttatiden."
+            },
+            {
+              "word": "für",
+              "meaning": "för",
+              "example": "Das ist für dich. – Det är till dig."
+            }
+          ],
+          "tip": [
+            {
+              "text": "um acht = klockan åtta."
+            }
+          ],
+          "important": [
+            "um med ett klockslag betyder normalt klockan.",
+            "um ... zu betyder ofta för att."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "unter",
+      "full_card_owner_new": {
+        "lv": "under • bland",
+        "study": {
+          "id": "a1-unter",
+          "layout": "standardStudy",
+          "translation": "under • bland",
+          "explanation": [
+            "unter betyder under eller bland beroende på sammanhanget.",
+            "När något finns nedanför ett bord, en stol eller ett annat föremål används unter.",
+            "Om en grupp människor kan unter betyda bland.",
+            "I platsbetydelsen är unter motsatsen till über."
+          ],
+          "examples": [
+            {
+              "de": "Die Tasche ist unter dem Tisch.",
+              "lv": "Väskan är under bordet."
+            },
+            {
+              "de": "Die Katze liegt unter dem Stuhl.",
+              "lv": "Katten ligger under stolen."
+            },
+            {
+              "de": "Unter Freunden sagt man das so.",
+              "lv": "Bland vänner säger man så."
+            },
+            {
+              "de": "Die Lampe hängt über dem Tisch.",
+              "lv": "Lampan hänger över bordet."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "unter",
+              "meaning": "under eller bland",
+              "example": "Die Tasche ist unter dem Tisch. – Väskan är under bordet."
+            },
+            {
+              "word": "über",
+              "meaning": "över eller om",
+              "example": "Die Lampe hängt über dem Tisch. – Lampan hänger över bordet."
+            },
+            {
+              "word": "zwischen",
+              "meaning": "mellan två saker",
+              "example": "Zwischen den Häusern. – Mellan husen."
+            },
+            {
+              "word": "auf",
+              "meaning": "på en yta",
+              "example": "Auf dem Tisch. – På bordet."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Under bordet → unter dem Tisch."
+            }
+          ],
+          "important": [
+            "unter kan också betyda bland, särskilt om människor eller grupper.",
+            "unter och über är ofta motsatser när de beskriver plats."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "verstehen",
+      "full_card_owner_new": {
+        "lv": "förstå",
+        "study": {
+          "id": "a1-verstehen",
+          "layout": "standardStudy",
+          "translation": "förstå",
+          "explanation": [
+            "verstehen betyder förstå.",
+            "Det används när man förstår ett språk, en person, en text eller en situation.",
+            "För förmågan att kunna göra något används vanligtvis können.",
+            "Ich verstehe. betyder Jag förstår."
+          ],
+          "examples": [
+            {
+              "de": "Ich verstehe dich.",
+              "lv": "Jag förstår dig."
+            },
+            {
+              "de": "Verstehst du Deutsch?",
+              "lv": "Förstår du tyska?"
+            },
+            {
+              "de": "Ich verstehe das nicht.",
+              "lv": "Jag förstår inte det."
+            },
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Jag kan tala tyska."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "verstehen",
+              "meaning": "förstå",
+              "example": "Ich verstehe dich. – Jag förstår dig."
+            },
+            {
+              "word": "können",
+              "meaning": "kunna",
+              "example": "Ich kann schwimmen. – Jag kan simma."
+            },
+            {
+              "word": "wissen",
+              "meaning": "veta ett faktum",
+              "example": "Ich weiß das. – Jag vet det."
+            },
+            {
+              "word": "kennen",
+              "meaning": "känna till eller känna någon",
+              "example": "Ich kenne ihn. – Jag känner honom."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Förstå en text eller person → verstehen; kunna göra något → können."
+            }
+          ],
+          "important": [
+            "verstehen är inte huvudordet för att kunna göra något.",
+            "Ich verstehe Deutsch betyder Jag förstår tyska."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "vom",
+      "full_card_owner_new": {
+        "lv": "från • av",
+        "study": {
+          "id": "a1-vom",
+          "layout": "standardStudy",
+          "translation": "från • av",
+          "explanation": [
+            "vom är sammandragningen av prepositionen von och artikeln dem.",
+            "Den fullständiga formen är von dem.",
+            "vom används med maskulina och neutrala substantiv i dativ och anger ofta ursprung, källa eller rörelse från en plats.",
+            "I praktiken används nästan alltid vom i stället för von dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme vom Bahnhof.",
+              "lv": "Jag kommer från stationen."
+            },
+            {
+              "de": "Das Geschenk ist vom Vater.",
+              "lv": "Presenten är från pappa."
+            },
+            {
+              "de": "Er kommt vom Arzt.",
+              "lv": "Han kommer från läkaren."
+            },
+            {
+              "de": "Sie fährt vom Flughafen.",
+              "lv": "Hon åker från flygplatsen."
+            },
+            {
+              "de": "Das ist vom Markt.",
+              "lv": "Det är från marknaden."
+            },
+            {
+              "de": "Wir kommen vom Fest.",
+              "lv": "Vi kommer från festen."
+            },
+            {
+              "de": "Er holt Milch vom Bauern.",
+              "lv": "Han hämtar mjölk från bonden."
+            },
+            {
+              "de": "Die Nachricht ist vom Chef.",
+              "lv": "Meddelandet är från chefen."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vom",
+              "meaning": "från eller av; von dem",
+              "example": "vom Bahnhof – från stationen"
+            },
+            {
+              "word": "von",
+              "meaning": "från eller av i allmänhet",
+              "example": "von mir – från mig"
+            },
+            {
+              "word": "aus",
+              "meaning": "ut ur eller ursprung",
+              "example": "aus Deutschland – från Tyskland"
+            },
+            {
+              "word": "ab",
+              "meaning": "från och med",
+              "example": "ab Montag – från och med måndag"
+            },
+            {
+              "word": "zu",
+              "meaning": "till eller hos",
+              "example": "zum Arzt – till läkaren"
+            }
+          ],
+          "tip": [
+            {
+              "text": "von + dem → vom."
+            },
+            {
+              "text": "I normalt språk används vom i stället för von dem."
+            }
+          ],
+          "important": [
+            "vom = von dem och används med maskulina eller neutrala substantiv i dativ.",
+            "Det anger ofta ursprung, källa eller rörelse från något konkret.",
+            "Med femininum heter det von der Mutter, inte vom Mutter.",
+            "Skilj vom från aus och ab."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "vor",
+      "full_card_owner_new": {
+        "lv": "före • framför",
+        "study": {
+          "id": "a1-vor",
+          "layout": "standardStudy",
+          "translation": "före • framför",
+          "explanation": [
+            "vor betyder före i tid eller framför på en plats.",
+            "När det handlar om tid betyder vor före.",
+            "När det handlar om plats betyder vor framför eller utanför.",
+            "I klockslag betyder vor i, till exempel fünf vor acht."
+          ],
+          "examples": [
+            {
+              "de": "Vor dem Essen wasche ich die Hände.",
+              "lv": "Före maten tvättar jag händerna."
+            },
+            {
+              "de": "Das Auto steht vor dem Haus.",
+              "lv": "Bilen står framför huset."
+            },
+            {
+              "de": "Es ist fünf vor acht.",
+              "lv": "Klockan är fem i åtta."
+            },
+            {
+              "de": "Nach dem Essen gehen wir spazieren.",
+              "lv": "Efter maten går vi en promenad."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "vor",
+              "meaning": "före eller framför",
+              "example": "Vor dem Essen... – Före maten..."
+            },
+            {
+              "word": "nach",
+              "meaning": "efter eller till",
+              "example": "Nach dem Essen... – Efter maten..."
+            },
+            {
+              "word": "neben",
+              "meaning": "bredvid",
+              "example": "Neben dem Haus. – Bredvid huset."
+            },
+            {
+              "word": "hinter",
+              "meaning": "bakom",
+              "example": "Hinter dem Haus. – Bakom huset."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Före i tid, framför på en plats → vor."
+            }
+          ],
+          "important": [
+            "vor kan ange både tid och plats.",
+            "vor dem Essen = före maten; vor dem Haus = framför huset."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "was",
+      "full_card_owner_new": {
+        "lv": "vad",
+        "study": {
+          "id": "a1-was",
+          "layout": "standardStudy",
+          "translation": "vad",
+          "explanation": [
+            "was är ett frågeord för saker, händelser och fakta, inte för personer.",
+            "På tyska ändras was inte efter kasus.",
+            "För personer används wer, inte was."
+          ],
+          "examples": [
+            {
+              "de": "Was ist das?",
+              "lv": "Vad är det?"
+            },
+            {
+              "de": "Was ist passiert?",
+              "lv": "Vad har hänt?"
+            },
+            {
+              "de": "Was machst du gerade?",
+              "lv": "Vad gör du just nu?"
+            },
+            {
+              "de": "Was möchtest du trinken?",
+              "lv": "Vad vill du dricka?"
+            },
+            {
+              "de": "Was bedeutet dieses Wort?",
+              "lv": "Vad betyder det här ordet?"
+            },
+            {
+              "de": "Was ist dein Lieblingsessen?",
+              "lv": "Vilken är din favoriträtt?"
+            },
+            {
+              "de": "Was hast du gesagt?",
+              "lv": "Vad sa du?"
+            }
+          ],
+          "tip": [
+            {
+              "text": "was frågar om saker, händelser och fakta."
+            },
+            {
+              "text": "För personer används wer."
+            }
+          ],
+          "important": [
+            "was används inte för personer.",
+            "was für (ein/eine) betyder vad för slags.",
+            "Fel: Wer ist passiert? Rätt: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "wenn",
+      "full_card_owner_new": {
+        "lv": "om • när",
+        "study": {
+          "id": "a1-wenn",
+          "layout": "standardStudy",
+          "translation": "om • när",
+          "explanation": [
+            "wenn betyder om eller när beroende på sammanhanget.",
+            "Vid ett villkor översätts wenn med om.",
+            "Vid upprepade eller allmänna tidssituationer översätts det med när.",
+            "I en bisats med wenn står det böjda verbet vanligtvis sist."
+          ],
+          "examples": [
+            {
+              "de": "Wenn du Zeit hast, komm vorbei.",
+              "lv": "Om du har tid, kom förbi."
+            },
+            {
+              "de": "Wenn es regnet, bleibe ich zu Hause.",
+              "lv": "Om det regnar stannar jag hemma."
+            },
+            {
+              "de": "Wenn ich müde bin, trinke ich Kaffee.",
+              "lv": "När jag är trött dricker jag kaffe."
+            },
+            {
+              "de": "Ich weiß nicht, ob er kommt.",
+              "lv": "Jag vet inte om han kommer."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "wenn",
+              "meaning": "om eller när",
+              "example": "Wenn du Zeit hast... – Om du har tid..."
+            },
+            {
+              "word": "ob",
+              "meaning": "om i en indirekt fråga",
+              "example": "Ich weiß nicht, ob... – Jag vet inte om..."
+            },
+            {
+              "word": "wann",
+              "meaning": "när i en fråga",
+              "example": "Wann kommst du? – När kommer du?"
+            },
+            {
+              "word": "weil",
+              "meaning": "eftersom",
+              "example": "Ich bleibe, weil ich krank bin. – Jag stannar eftersom jag är sjuk."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Villkor → wenn; frågan när? → wann."
+            }
+          ],
+          "important": [
+            "wenn och wann betyder inte samma sak.",
+            "Wann kommst du? är en fråga. Wenn du kommst... anger ett villkor eller en tid."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sv",
+      "canonical_card_object_id": "wer",
+      "full_card_owner_new": {
+        "lv": "vem",
+        "study": {
+          "id": "a1-wer",
+          "layout": "standardStudy",
+          "translation": "vem",
+          "explanation": [
+            "wer är ett frågeord om en persons identitet.",
+            "wer frågar om människor, inte om saker eller händelser.",
+            "För saker och händelser används was.",
+            "wer står vanligtvis i nominativ. Formerna i andra kasus är wen, wem och wessen."
+          ],
+          "examples": [
+            {
+              "de": "Wer ist das?",
+              "lv": "Vem är det?"
+            },
+            {
+              "de": "Wer bist du?",
+              "lv": "Vem är du?"
+            },
+            {
+              "de": "Wer kommt heute?",
+              "lv": "Vem kommer i dag?"
+            },
+            {
+              "de": "Wer ist deine Lehrerin?",
+              "lv": "Vem är din lärare?"
+            },
+            {
+              "de": "Wer von euch spricht Deutsch?",
+              "lv": "Vem av er talar tyska?"
+            },
+            {
+              "de": "Wer hat das gesagt?",
+              "lv": "Vem sa det?"
+            },
+            {
+              "de": "Wer möchte Kaffee?",
+              "lv": "Vem vill ha kaffe?"
+            }
+          ],
+          "tip": [
+            {
+              "text": "wer frågar om personer; för saker och händelser används was."
+            },
+            {
+              "text": "För ett val mellan flera personer används wer von..."
+            }
+          ],
+          "important": [
+            "wer används endast om personer.",
+            "För saker och händelser används was.",
+            "Kasusformerna är wen, wem och wessen.",
+            "Fel: Wer ist passiert? Rätt: Was ist passiert?"
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "Appetit",
+      "full_card_owner_new": {
+        "lv": "iştah",
+        "study": {
+          "id": "a1-appetit",
+          "layout": "standardStudy",
+          "translation": "iştah",
+          "explanation": [
+            "der Appetit, yemek yeme isteği anlamına gelir.",
+            "Bu sözcük Almancada yalnızca tekil kullanılır; çoğul biçimi yoktur.",
+            "A1 düzeyinde en sık Guten Appetit! ifadesinde görülür."
+          ],
+          "examples": [
+            {
+              "de": "Guten Appetit!",
+              "lv": "Afiyet olsun!"
+            },
+            {
+              "de": "Guten Appetit!",
+              "lv": "Afiyet olsun!"
+            },
+            {
+              "de": "Ich habe keinen Appetit.",
+              "lv": "İştahım yok."
+            }
+          ],
+          "tip": [
+            {
+              "text": "der Appetit = iştah"
+            },
+            {
+              "text": "Bu anlamdaki bağlamlarda der Appetit kullanılır."
+            }
+          ],
+          "important": [
+            "der Appetit yalnızca tekil kullanılır.",
+            "Yanlış: die Appetite. Doğru: der Appetit.",
+            "Yanlış: Ich bin Appetit. Doğru: Ich habe Appetit.",
+            "der Appetit bir duyguyu, yani iştahı anlatır."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "besuchen",
+      "full_card_owner_new": {
+        "lv": "ziyaret etmek",
+        "study": {
+          "id": "a1-besuchen",
+          "layout": "standardStudy",
+          "translation": "ziyaret etmek",
+          "explanation": [
+            "besuchen bir yeri, etkinliği veya kişiyi ziyaret etmek için kullanılır.",
+            "Bir yer, etkinlik veya kurs için Türkçede ziyaret etmek ya da katılmak denebilir.",
+            "Bir kişi söz konusu olduğunda besuchen ziyaret etmek anlamına gelir.",
+            "Almancada besuchen edatsız ve akuzatif nesneyle kullanılır."
+          ],
+          "examples": [
+            {
+              "de": "Ich besuche das Museum.",
+              "lv": "Müzeyi ziyaret ediyorum."
+            },
+            {
+              "de": "Wir besuchen einen Deutschkurs.",
+              "lv": "Bir Almanca kursuna katılıyoruz."
+            },
+            {
+              "de": "Ich besuche meine Großeltern.",
+              "lv": "Büyükannemle büyükbabamı ziyaret ediyorum."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "besuchen",
+              "meaning": "bir yeri, etkinliği veya kişiyi ziyaret etmek",
+              "example": "Ich besuche meine Großeltern. – Büyükannemle büyükbabamı ziyaret ediyorum."
+            },
+            {
+              "word": "treffen",
+              "meaning": "buluşmak veya karşılaşmak",
+              "example": "Ich treffe meinen Freund. – Arkadaşımla buluşuyorum."
+            },
+            {
+              "word": "zu jemandem gehen",
+              "meaning": "birinin yanına gitmek",
+              "example": "Ich gehe zu meinem Freund. – Arkadaşımın yanına gidiyorum."
+            }
+          ],
+          "tip": [
+            {
+              "text": "besuchen doğrudan bir yer, etkinlik veya kişiyle kullanılır."
+            }
+          ],
+          "important": [
+            "besuchen edatsız kullanılır: Ich besuche meine Freundin.",
+            "Türkçe karşılığı nesneye göre ziyaret etmek veya bir kursa katılmak olabilir."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "tr",
+      "canonical_card_object_id": "das",
+      "full_card_owner_new": {
+        "lv": "nötr belirli artikel • bu",
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "nötr belirli artikel • bu",
+          "explanation": [
+            "das, nötr cinsiyetteki isimlerle kullanılan belirli artikeldir.",
+            "Bazı cümlelerde das, bu anlamında bir zamir veya ilgi zamiri olarak da kullanılabilir.",
+            "das ile dass aynı sözcük değildir: dass bir bağlaçtır ve -diğini/-dığını ya da ki anlamı verir."
+          ],
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "Bu benim arabam."
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "Bu iyi."
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "Okuduğum kitap ilginç."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "nötr artikel veya bu zamiri",
+              "example": "Das ist mein Auto. – Bu benim arabam."
+            },
+            {
+              "word": "dies",
+              "meaning": "bu",
+              "example": "Dies ist mein Auto. – Bu benim arabam."
+            },
+            {
+              "word": "welches",
+              "meaning": "hangi; ilgi zamiri",
+              "example": "Das ist das Buch, welches ich lese. – Bu, okuduğum kitap."
+            }
+          ],
+          "tip": [
+            {
+              "text": "Nötr cinsiyet → das; bağlaç olan dass ile karıştırma."
+            }
+          ],
+          "important": [
+            "A1 düzeyinde das önce nötr belirli artikel olarak öğrenilir.",
+            "das artikel veya zamir olabilir; dass ise bir bağlaçtır."
+          ]
+        }
+      }
+    }
+  ]
+}

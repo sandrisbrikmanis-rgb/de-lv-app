@@ -1,0 +1,15 @@
+A1 LRB konsolidācija — kartīšu 121–140 GALA PASS
+
+Verdikts: A1_LRB_CONSOLIDATION_CARDS_121_140_FULL_LINGUISTIC_REVIEW_PASS
+
+| Pārbaude | Rezultāts |
+| --- | ---: |
+| Kartītes | 20/20 |
+| LABOT / NELABOT / PENDING | 3 / 17 / 0 |
+| Precīzi ievietotie labojumi | 3/3 |
+| Nemainītās NELABOT kartītes | 17/17 |
+| Pilno kartīšu pilnīgums | PASS |
+
+Git HEAD: a66237f4c558c19e0f7268a71b8dcb7ae3d5c134
+Cards 121–140 payload SHA-256: 0f26bb8d2c09b53ec4093a1e11287b4e0c8362185173bcfa795467f52acf4637
+Pass proof SHA-256: f9006bd8b0e98d4b83aac331fbbf8b92035521a9505d46da7f1d2029d216dce4

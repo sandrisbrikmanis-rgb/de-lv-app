@@ -1,0 +1,4773 @@
+[
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "lernen",
+    "field_path": "lv",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "583bd62c9baccb4718fa1b1b9d88ef2589bd442d560d0025e47ee92343850563",
+    "owner_b_sha256": "7589c4af12c3c13ebb46bd3421e63da672c4727e8b4df1ebbcb24df41b307cb5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sprechen",
+    "field_path": "lv; study.translation; study.explanation; study.examples; study.tip; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "8ac60a22369e0fe35a9df736ef481dc8910a3eb4a844a1f8fb019f8d23679e39",
+    "owner_b_sha256": "6dbb020534ff780eee23e190eda059d8a367f8d91e61476b5e6da97d3d7eb151"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "klein",
+    "field_path": "lv; study.translation; study.explanation; study.examples",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "643a85e8bebd0976e188aebb57bb615f9f3154814a906fa2dae999434748b8a1",
+    "owner_b_sha256": "646894d9165abbed98e7b5e140b397831d05b0154edea857522357b7882882f5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "an",
+    "field_path": "lv; study.translation; study.examples; study.comparison; study.important",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "a79d5ba1e9f2c4d7d74ff9e8550291112cdbaed1382723ec0a468328d99e9bd6",
+    "owner_b_sha256": "04a6756b583fd368735b90edb1d25a6cf7c40a5fb028842984a673c6c732461d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "ab",
+    "field_path": "lv; study.translation; study.examples; study.comparison; study.important",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "c84978a6369b4a769edc0f85b8cef011ee56666ae5f1c6b2d1f85f0ba556ab79",
+    "owner_b_sha256": "cdcac7a510aa254b143b6f21530b61d5948901a4102e9706a5bebe0fbb594d92"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "abends",
+    "field_path": "lv",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "0b730b71afa96fe8725c2a4ee9b3bd6f4c006c9bbdac17970bb455f5d3168971",
+    "owner_b_sha256": "39ec3ca2599521e93b869bb19b3290d0fa431041714db6a4b6caf43f65fd9dda"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "aber",
+    "field_path": "lv; study.translation; study.examples; study.comparison; study.important",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "9750f70142d3a54758f8106a2522b9537f8952c826141b25eb7c0d2acc4ab029",
+    "owner_b_sha256": "08165bd5bcbc022ad51bd69b5b09f9f057dc889b43781a572fa22297f6a6d967"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "achten",
+    "field_path": "lv",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "798155c15aec5a1bcfdd5399e2614fbd1c160cb32d6106f2edc044e6345cbe40",
+    "owner_b_sha256": "fe87af7addc81fdd9cd68c74e7c3e48a61fd3820007e587f3c8ce81dd47910bd"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "aufs",
+    "field_path": "study",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "65532c1471e98acea40d2afb46c1ed1e4103fc2dc8b420992c0169acc1f740c5",
+    "owner_b_sha256": "b278b913facb028517f0fb3a63564bf9f94437d897c60d6d1351e74f9633797c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "baden",
+    "field_path": "lv; study.*",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "ced8630445f5bde3bbd6b8a9fb7fcc59a5c6bfb4a1cde69f46f324bdab95deca",
+    "owner_b_sha256": "1063b3c1f74627f1181ea7985715046be8973af611804e97768e28b4d9125862"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "bedeuten",
+    "field_path": "lv",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "ac0cb9ecd6db2ca065c824a597d81e53e841b0a8ac2cb121254dde23e38d3524",
+    "owner_b_sha256": "6744d1e1ba40322ab7c21a0782a4e595c27c45fc95abe88103f228bffe66e2fc"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "bei",
+    "field_path": "lv; study.*",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-042",
+    "owner_a_sha256": "b70d091c058731641a71dd8c2de04ff374de2a2347325c948c211ecc19b3327a",
+    "owner_b_sha256": "7085f742e2378f836f16ac412e3d7f9a17d0fcbcc9aef4543e3ebc98606b495b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Besuch",
+    "field_path": "lv; study.*",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "f50f08e3d36fde6f70708ed8a8660bf205cb5d2c064d2b429ff46ea6a0eb0a17",
+    "owner_b_sha256": "dbc44b9c6df804d0c564d83cc1afda525617cfba0772802d1a7b69dc22b02fa7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "besuchen",
+    "field_path": "lv; study.*",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "2d591c406b3024f9dba8940079405a723fe419c126b12e37fc6433fb4884cd0c",
+    "owner_b_sha256": "36ec771d2d9fbb64f90ddb7e62269d5651bc8f9731810e1ba7224ab7123bd8dc"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "bis",
+    "field_path": "lv; study.*",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "66f4a5513a0d4f79faae62e3ddc6f2f3cbd28b3332078e03ea8d64932b0150f4",
+    "owner_b_sha256": "983dcac0ae876d985afa97446fac0e585a7dcddca6b9a9fc5e220746007fcc6d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "bitte",
+    "field_path": "study.examples, study.comparison",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "7e8560f8aa895a42054b792cb7d28b46dd5b77f7e654e11acf3dd1fabc00b0a7",
+    "owner_b_sha256": "8cf2a7e011149d3da670682a3b983ce9f2f799b74c89d955ddb67317d760fe34"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Bitte",
+    "field_path": "study.explanation, study.examples, study.comparison",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "9cf7bb57bc7c5cba7176d79338aeae82f6de62def39dc496a87cb46802c2c5e1",
+    "owner_b_sha256": "0f295480326cbbb5adedb1cdca8d54b240248601cc12bac61638212c85f77a2c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "bleiben",
+    "field_path": "lv, study",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "b4a7f62cf3a2410135178b4ea84fc49eef1b3dc3a9cc7f2843f63fd6ff87f298",
+    "owner_b_sha256": "50bfd3c0a1eb138023eb9b1ffa43dff0e99ebb4eb0bf9cc3a5eda445ecad5611"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "bringen",
+    "field_path": "lv, study.explanation, study.examples, study.comparison",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "89c2191e0a701f748a5fb034bf7a0ecf16d9e3eed3947a424254ae5930dd98ad",
+    "owner_b_sha256": "a11554eec73be6ba80364c043ebf62ed914a7e99c4d74cc5e0aa100ff3037760"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Cousin",
+    "field_path": "lv",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "7ce65b573749ce629ddab34eb7b22bf7b0789ec647f7d5a9e78843c06418196b",
+    "owner_b_sha256": "c0bb1e58282b36c213179e6d002a9c3a443f2422353978e9961df02e318f88ff"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Cousine",
+    "field_path": "lv",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "7ce65b573749ce629ddab34eb7b22bf7b0789ec647f7d5a9e78843c06418196b",
+    "owner_b_sha256": "256ae26d6234124f6fa845fdd9ec30d641bb66ed00f3b0c9ad503f122a010c1a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "da",
+    "field_path": "lv, study",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "6dab62178b1ba4fdd62827b317a53159b976849d499d982d3539ab53cd47a958",
+    "owner_b_sha256": "6bf9fa605e41db741faa104cc717ad055ad505d7dbd0f790c058619d58558a44"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "deutsch",
+    "field_path": "lv",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "117e59c067a36ef714a43957521c3130ffaffe6aaa07ccaf8b9bea44561470a0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "dürfen",
+    "field_path": "lv",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "041ea3a52c5282670e8b6588f24bd56378dd4ed2176f43d8126a57b5c90a0675",
+    "owner_b_sha256": "529587d81e872fb47b9d51dbc8032c9502174c572e3c9f572ceb4279b89f0130"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "ein",
+    "field_path": "lv, study",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "01397eb0588247a792edcde8fd36d80ae07a5e48f62736e5e740c69a6cd699c0",
+    "owner_b_sha256": "9e220b1da83c98690ec3badf96d3c5c543a525c823ad6d4b3af3a61123aaf98f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Eis",
+    "field_path": "lv, study",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-043",
+    "owner_a_sha256": "b46e6965da06fa2c796f92eb120e0e2c45bb16ac4de771ed6db613e5be78db06",
+    "owner_b_sha256": "07d78ef98f4f1742a3fc6dc9e38f4e8108ee10839b87d561d4fd65dc0cc63a2e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "erst",
+    "field_path": "lv, study",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "1935ce7a969c8f7c98a6d01244e424f7a9cda720174d7e45387e24b3cef13946",
+    "owner_b_sha256": "9d4e1387272e71761751e67522dfdf3eb59a9baf9b30e2b549691f146e182d37"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "es",
+    "field_path": "lv, study.examples",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "99c17d0b214ed2e88dfb6964cc59aa07eb31f936b3d553fedd192d1ef423a193",
+    "owner_b_sha256": "e22624fcaee6e7aace8af44db3ca8c71294563fac58aa142b605bbc9ec5b7d39"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "etwas",
+    "field_path": "lv, study",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "14117b712b71cffd4b9e591add3b28c981d2a389f23a2e45915cab5aa4a618c1",
+    "owner_b_sha256": "0aa739fe9f24d4f7bbc57e9e454905ed9df3eaa13e5a2e857e8c663d3f93fd3a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "euch",
+    "field_path": "lv, study.translation, study.examples, study.comparison",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "7a0a2b90ee4ad9fdde1e668277f2b9c8992d6d63b22113ecd0747f6e52a5dd1d",
+    "owner_b_sha256": "4e4338abd25295e9c8bf3e214ba2e841a625453be34f9eeeaa139254caafdf62"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "fahren",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "49c8b0bdab31d90cee31128e19e3ae8ff7f926e561697a251d4d122b24d687ec",
+    "owner_b_sha256": "229315e4bcd791879ef750c9e4c92c0605234c5b487ce832f573af480a32129d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "fast",
+    "field_path": "lv",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "82b14a00f349adf6335846a3074638ff502d7764a14e18ab930f159ccf29835e",
+    "owner_b_sha256": "b03ec9a5d5c2639c84369a0d74e9daa0f9fe56e20932c9c370e526042566ff06"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "finden",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.important",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "c677475b36284f3054bb9df825eb5f4cc112939b34cf527f6d17084c4eb7d588",
+    "owner_b_sha256": "766dee98ced0407270f5fda33a7180e67f5c21a5894b6c87d276759d65427594"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Frau",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.tip, study.important",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "505927aba5cebf35a842fc5f8615b69f6a5d41c7ff835f388b44c092a36048dc",
+    "owner_b_sha256": "429b261448536fd264ba2e103da73533a8f83887a438acb2d58d84894f1c331f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "für",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.tip, study.important",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "7e5534bf341382c64a78b3598e8012e0bcbf64603a73ee98e95cb77f629c52fc",
+    "owner_b_sha256": "5207bb549297c456d0ec3f4a3d402f4cefa1ff48b7712e91a57af462fec8719a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Fuß",
+    "field_path": "lv",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "e0a15fd05884c1551b4c3776d38acf48d465825150a41f8f2825b80a94a57cc2",
+    "owner_b_sha256": "018596391cb4db59d8e6c523a3dab72cd9a370783472f79625e95fd896a98e99"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Fußball",
+    "field_path": "lv, study.*",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "8357b84ddf7fdfd6b583adc3cd5818eefaf92e6cf76b080118c49247b024bb02",
+    "owner_b_sha256": "ab132c43ea1050a4a80e86511ed7ee7191aa6b9124eab35139b7dc0ccf01f647"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "ganz",
+    "field_path": "lv, study.*",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "4ffb42aed91ebc63e7f2132e1298d60673171353efa4f2a7fe1293cfc4af0c00",
+    "owner_b_sha256": "af4f58a21e9d738afbc5e9c655324eac756d896573a2075dbcd590a5ba1e9a9c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "geben",
+    "field_path": "lv, study.*",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "80a704c3529b15066db5944e8273b664c024b43432c93cfaf13ce89618b46e09",
+    "owner_b_sha256": "77f8c36a4df739339bfacca994a8243075e2eabea11720858847faabd534e4f3"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "gefallen",
+    "field_path": "lv, study.*",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "cc825275fa1ef73af4f18e0b9b16291895e3bece80cd6f4720f843e4e310d674",
+    "owner_b_sha256": "f0c9e7f4a555fbc9e9945ecf495de29c328a19ad2e47b5b0910d62f29f203638"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "genug",
+    "field_path": "lv",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "c27a956cd62e2628792a03b65532790ca3bac7bbc695ac43d44a4196dd039ca9",
+    "owner_b_sha256": "50c2f52e740cfe0926875edb2a4bf38a42550e93f391ab5e261ec584a3bf653a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Geschichte",
+    "field_path": "lv, study.*",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "048de014a0f25da4e76a89a3ee0b85e716c0db89a5dc9409096ad66afd433f07",
+    "owner_b_sha256": "2f6718a565cb276de72b79e697fd1e621f48b9f125d86cfc32851452abd5bcf3"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Geschwister",
+    "field_path": "lv/study",
+    "batch_a": "LRB-009",
+    "batch_b": "LRB-044",
+    "owner_a_sha256": "0c8a22b80aec1a5cccf4e85f22d18429c6586c4185db5b092c2861b7934fc6ba",
+    "owner_b_sha256": "1875f0748695890d7de1b24fd29de84b3ed6983dd481a568d0fa8c7b7163aee9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "glauben",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "df6cc48fa991830922c642216a6898fa559b35f0d8bd35ba47c9addef2d083b2",
+    "owner_b_sha256": "0fc06a944b235f330570da74405638f5b3af0c8d4ac1119057cbbc065f203acc"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "gleich",
+    "field_path": "lv/study",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "ed5948ef9b502d8be325f90cfd65b4cf287cad7a7b4cd9c2d47ca5bd797f5c00",
+    "owner_b_sha256": "4697dba0d518f4150f431cd1e1147d9f6548a02d0c5c521db7830e5fbedcbd55"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "grau",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "3c1c42db1f5e8572fa085bebb051bf26c4f1712eb5354381cf3cafd14c13584e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "groß",
+    "field_path": "lv/study",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "6130a2463ef62e06da4b17c94a072ab9ca865a9df38bad9e99addb8d9a7debe8",
+    "owner_b_sha256": "97dbad4b8a2860e3dd79cf4b84ef105ed8a39d1f20074e32f721bc54f35601b7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Großeltern",
+    "field_path": "lv/study",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "b74a148408b801a602eec2811caddf6ca5f00be74abccab739106099e1b9ddb0",
+    "owner_b_sha256": "3f0d29bf753b230dd04239021bf36b8a64f77e0b2a134922556d3347361796f0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "gut",
+    "field_path": "lv/study",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "9cd135a7008d491ca8c2df27830beb0b82e194747ef96b2068dbd8c6e74f1adf",
+    "owner_b_sha256": "957f2c017a7e46a54692eb47ec547133141347bd1d2d8bc0b5388ff6cbc4fe98"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Haar",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "68d11f546e728fdcc2798247392e6ebfeb8056a3f6e832758881b3c3eb20a1d9",
+    "owner_b_sha256": "66a232171db315073253d324ee41dd483f4a3fa14c705d1013e60042bbf32ae5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "haben",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "ef6d4a09b658a4547f24ff2a20864309e2b98a2c44a4458a48ac69ad9bb4e414",
+    "owner_b_sha256": "3410d96979348899b28ae9ac5c9ba44f2e7aaefe1e7b06a4c16997dee5f8266e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Hälfte",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "0c1a680899a2b0d4f90fce0dc2e4d399fdc2f0cf0684b095b3b55407742c1a34",
+    "owner_b_sha256": "28c6c813f346612d6def182b4a06082d3f02cacc0469be548674d677b568b8ee"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "halten",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "517df0b2987f273626661ff9c20637c4603de9b8f0fa60bbe69bd4ca77ba4e33",
+    "owner_b_sha256": "43df7469ce61d057ff09076bf15d0bcee04efc85dd335ad96c6440dc4a5a1356"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Hand",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "376661a42319bbfa9e986ecc71bc839006ffd09455d4515bcd281768fc1ed964"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Handschuh",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "4a40acf10d01124461b58dd8d87bbffa832cd641e453d5091e468e613a7f0cca",
+    "owner_b_sha256": "c6a7e5e241ad150ecea62d1bbe297c3b1bbd16e564193a0507a33c60c30c9358"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Handtuch",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "1b625905b2a3621c1ac6c74b0f601f3b1c9fa1991518e56d7abf89efc3384b06",
+    "owner_b_sha256": "61e39fdee446360c822128b8f00fdff15a0ffe3c83c2d8b4dba4f2f7da429729"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Handy",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "6e7569c3cbd54b8922e9ce481574faeb353ac4a5ed74fcd6c4af3ead8b42c315"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Hauptstadt",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "512fe999585b99a9f8a48ed8267d8c99b746b92ff1d01e7cb67d735952639f16"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "heiraten",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "f19824cf4bdef943b5252baf41c89aa04550bd90b02dbe4ae359425eac7ac06c",
+    "owner_b_sha256": "d194addb44b15f01469f6bb90800b6712727d73a2b1d916ec13c839a0434b71a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "heißen",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "30ac6e2fc6731262ee9b0f0e576242869dfa588cbb9aa233921262b099ca4290",
+    "owner_b_sha256": "77c567e0ccc20d43cb840377b20398ca1093c89f591fd061ce17a13ed2d6bf95"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "hier",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "2531509a62ce32da431b99ad384daffa25d53596c25d8280319a6a39e1cdb74b",
+    "owner_b_sha256": "aedc00bbafed36d479f78d4860e5fe52bf2271c13fcfaad1dce42ad6b3428f20"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "hoch",
+    "field_path": "lv",
+    "batch_a": "LRB-010",
+    "batch_b": "LRB-045",
+    "owner_a_sha256": "e78fe39e9b7ba39d8a87cc816609a1faf763b42f952adf59af4562c602ebff76",
+    "owner_b_sha256": "7af77bd2903d98ab8c3abd7e89b54097df851bdf385faa6e17da33d7fff23393"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "hören",
+    "field_path": "lv/study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "f3cbdad1dcc11a3bad3ab0f08e7293277d675b837e18d4c5cb4193e6d2b826d2",
+    "owner_b_sha256": "0403d7f2b35b8fbc1e61f97687ada1098b5f3f35abefa7f7a2b442293f06606b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "hübsch",
+    "field_path": "lv/study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "3a8413bdbe06b016ef4e9ea8c683547ce7a114b7b9ba294423846e7c095c312e",
+    "owner_b_sha256": "e0ce3b39406d0ca94f6d3e3e5d354f402692ddecfb0754953355ca1a6fb2a7c6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "ihr",
+    "field_path": "lv/study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "46f32d366c6ca86b0b0827fd1a436044cd1125fdb2615fb87686d64f61844360",
+    "owner_b_sha256": "a3a8c6f5a93822299b6206091d1b3d313378341e2bede35c2511ffc470fbd202"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "im",
+    "field_path": "lv/study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "4b1f74039ceb4fa276bdb18b9e7e5e0cdabf25567278bff19aa8f4a5fcd7f97d",
+    "owner_b_sha256": "0d912e9e23e8cf674ca9d908279ef35f238b9cdd7bc0a982574d0f154f1dfe34"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "in",
+    "field_path": "lv/study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "9f4a728e10b9f0423dc1e39b4f17294d3f776706d37192abb39d63e5492b7b10",
+    "owner_b_sha256": "fec02da1ac4452cd1b8be0fc873a0c32051361e4abc62797ed1b2a915e0730e0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "jawohl",
+    "field_path": "lv",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "fbec3e1a99735154d47ed67648a344eed83f04e8d98ea359bbb0b2c5375e8a9d",
+    "owner_b_sha256": "fdf02902dcb953c392a6ca742500ee3caf8f8bc25fa8f18abd964640ebca177e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "jetzt",
+    "field_path": "lv",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "279d044f748028123aaf35bd456be78c36fed338c057510d10f60b132e8a0aa5",
+    "owner_b_sha256": "c2f0d461dcebbacc87d76fc38bbd9a98a28b1b762e7857f904714b0501a5828e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "können",
+    "field_path": "lv, study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "926a2a1ca18e916245462182da4ed7e09ef5b32fcd0bbd9d26ff39bf14e981e4",
+    "owner_b_sha256": "9f79759f23daafd26b82613c472d09c195a6092a57ba08d7d858589f49be7053"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "kosten",
+    "field_path": "lv, study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "40388f360330914e51d691d809aa9d76826e853bb17c4b555fc02492533e45c1",
+    "owner_b_sha256": "4a61b7a49f2e8bca1618ffaa431b647f578257284cc7e95da2c56d15d675dec2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Köchin",
+    "field_path": "lv",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "ecf4fad12993b70ce46ed5be8b3004e38de7d23b745b8df56207e1f04c9fa6c7",
+    "owner_b_sha256": "8a2744baf33cc18e4a49e6be5b694f4b0f1364e4da31d4e119b3508916bc784c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Laden",
+    "field_path": "lv, study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "4d25b7f124041fcba195c3adbf9d20b56c9740ff3c6ba53c82de5f2dbe6a0e88",
+    "owner_b_sha256": "b13f8ac1118b3cd15533b9edb05f4bdbd8f9588ededeed7e4223a09f2d18540e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Land",
+    "field_path": "lv, study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "55eb006a2373ed77b57096a3d22b95fcf7cf7d89fc484dc3d645a4083d3d6ccf",
+    "owner_b_sha256": "1a27cd2853ccea9fd6260dad4837e6b3d8c482dc6a8ec8f965e662fde24a6792"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "lang",
+    "field_path": "lv, study",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "73afecfd4ddbc7cd2a5d0a1744deb5ad6f697b4d593fae3bd0407f6eb887c934",
+    "owner_b_sha256": "d9b414a8206782fc2881c389b25fdb2a4d9e74029b1ae5c62fa8269625caf1ef"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "lassen",
+    "field_path": "study.translation; study.explanation; study.important",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "f3c67fbc392a9b7864b74b245448e4ca03eecd084706107e668b6c1a293256af",
+    "owner_b_sha256": "065ccd718a1f5b9356366ecc3fe2d4019ffd68f7381d5a84049f13dc3767f4de"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "laufen",
+    "field_path": "study.translation; study.explanation; study.examples; study.comparison; study.important",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "ed5525977b699bef886dd09b348b9865e96595027f2935b771bf4bf62f87aa1f",
+    "owner_b_sha256": "4436b8a5db8c293a14addce63928c97d3956a79d8e49cc4d2506039c11c03075"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "laut",
+    "field_path": "study.translation; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "a7e2aa1b1c428f110f93aa9d8cffd05b2d2312007fede96330a74ceab2b11905",
+    "owner_b_sha256": "9ae5c87129d25b97fa07f00c1471643f38012ada253a8c0e6f73ba0c4f23c184"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Laut",
+    "field_path": "study.translation; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "420e4f93d55ae877ff5e15a2c357197054a07262879ab63e58b28841d9871e08",
+    "owner_b_sha256": "a9ddde122c04a0c8db2d235e6de266c5548728b46e44b18f866c88cf8fe40ff2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "legen",
+    "field_path": "study.translation; study.explanation; study.examples; study.comparison; study.important",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "4164c227deeddf8d89a4133fae761134c52225840f7431a98708134c578fd049",
+    "owner_b_sha256": "89d0325ae9907863e4f36892b220529c998ee5447f4a6054940f671534fadfa6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "leicht",
+    "field_path": "lv",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-046",
+    "owner_a_sha256": "ee0824281358ab1a7639c1bb1f19d1c864888c8cdc16c08d5fc8131e79340326",
+    "owner_b_sha256": "eff5f820389761ad1174f8fdac2e58fd53e5d6907316af42c42b8502d6c1dcb8"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "leise",
+    "field_path": "lv; study.explanation; study.examples; study.tip; study.important",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "6e967c55290b228ea65757e546ee3c2071c8f9bea8cbc2ef0f92f743ccb0eaa5",
+    "owner_b_sha256": "bb216230a9da7ef24f09cce58a4ef7bc0551703a7d186bff8efcdf8f4e4f486f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "liegen",
+    "field_path": "lv; study.explanation; study.examples; study.important",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "3ec6c4c0c79825ab000df67d6024e9dabb168d6ff022ef79d9f1203c28969f7a",
+    "owner_b_sha256": "6fd7d33445907eec758e58ce2e79a9d5d718f4cc35dbeef9e1543a17e6a0698f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "links",
+    "field_path": "lv",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "34ff227fd318b3757880e05d72f4dab43c925f2ac057dc9d403421ee2a96780e",
+    "owner_b_sha256": "fb4984cf3a4196e31854b1834aaad372656a2a0dacf0cd8070f52e8d5f79810d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Liste",
+    "field_path": "lv",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "5e77e1785d574f9b6daf19832de03cb41281c646aaf5d71ebc92fa943fe16dc9",
+    "owner_b_sha256": "e9820eeeac84cb62fadb66787d410352ae6846ebe3b0ed7393273029c20ba7a5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Liter",
+    "field_path": "lv",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "b04eebcdc60b9af6c3c43c40c2e9b814f03feb4c8aa82f5c4d14cb1ac8a296e1",
+    "owner_b_sha256": "41998c580dab1a82e925ed89de7de51254edd91de2cbb270843e4e4537ce2024"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "machen",
+    "field_path": "lv; study.explanation; study.examples; study.tip; study.important",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "1c269c9678d4d3c7dd9834b215e0231abb7a035d6bc9b8a0fe2af1762b6b5421",
+    "owner_b_sha256": "5e812c7f30ee54508bee61025d18d38241a500f938544f545a451edbf1952d75"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Mal",
+    "field_path": "lv; study.explanation; study.examples; study.tip; study.important",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "2713a246ce087e095922899b7d68521ad484248c8f5b01c24fcd2b7b7d797e91",
+    "owner_b_sha256": "4776b4aaa41e5ce8b8b2edf6fb42a261089636582af5d42b514772fa6130ceed"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Mann",
+    "field_path": "lv; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "f35258eaa1acd844c8f92a7cd912cdb4a11ab940815501698021f3e398387ab4",
+    "owner_b_sha256": "5856ec18d2bd0ea273947c8f718ceccf643eec37555566e196f2e141878caea9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Mehl",
+    "field_path": "lv",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "e9adc5082fb9608605f882acef7b7ca8b9873262d88193477db48d8da9b5252d",
+    "owner_b_sha256": "f39feec88c5a42f82a2b16c5feabac1a2f1e6f14b11e91aa543055688e5f78b4"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "mit",
+    "field_path": "lv; study.explanation; study.important",
+    "batch_a": "LRB-012",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "43185866e37f617f5b00f330266ce2789b3a11fa428298e781d405a74217cab2",
+    "owner_b_sha256": "7e27ea5971623b8228644ca9784cba749f88403b0c2fa0f4353d9770e3d9ba5e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "mögen",
+    "field_path": "lv; study.explanation; study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-047",
+    "owner_a_sha256": "390970fb3d0baea4fa9918f4b430deddd6294bfc3b5703b4539f7855f869308b",
+    "owner_b_sha256": "7bb5bdaba91e8e40354de9df80ee9799734d510f378c05a8eafad4fe6dc56f94"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "morgen",
+    "field_path": "lv; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "0811c0aeeb801704e087f78e14abc56f36bf5e4a884f1bb3eb6d11009106f27a",
+    "owner_b_sha256": "2d5adff9530c4e1c020cab74395b94448afcfafdadcec5fb0a5a188df8d19a80"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Morgen",
+    "field_path": "lv; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "569a9934b99e7e62d6f18b9053a4575ad7f5ecf9ad4c748b1c3ff9a6737de6f2",
+    "owner_b_sha256": "477b9a03b3c4b571431f9b5d45548a2b1dfc4abd3f9b5f709641e6bc4a102fe2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "morgens",
+    "field_path": "lv",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "86170d3a920d65f80f739c85efceeaaa2b6bdeada4cbda15290f033d6d574f53",
+    "owner_b_sha256": "dcf322b6b50872a8c4c54a820f7e87f966eee9c31242e4a94ef5cefb052b8f25"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "müssen",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "3ade30d3f0cd76f1f0a5bba4f548a58317d69d4de70509103b636aadafe4c7b0",
+    "owner_b_sha256": "440b770f7fc9f05dc9b9dfbc530dcc7fda136eeabf8e7255e6a7cf681ba7393a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Mütze",
+    "field_path": "lv",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "7ac85e9a2271dd8920ab77628a3711c8ad2cf493c8a03e4e6fed89fff45b6825",
+    "owner_b_sha256": "1b78e48848f85011b93e615d8c6a8fe4adeb9ef465ee489c0c09bcf5d0a8275e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "nach",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "c8804a4c7e2e16c1514143ec5d85f03e635e61cbf81f9aae9f41e9200006de4a",
+    "owner_b_sha256": "35d102d9e4db878e7a7bde9912c37370b4e7b30d0a97f37a97941039d3c30f8a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "nachmittags",
+    "field_path": "lv",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "07ce55bdef5b12cc5a16d5228d2f11570810205b8e5610e0cff11e1fa517833f",
+    "owner_b_sha256": "c812ef4713fadfdbe4bd5c0e13b47952e7dc24040d81f3f136c01b38a8d892b1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "natürlich",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.tip, study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "13d9adab128d061a659dc7e4a2444ba5e027e1f0a69134ac5647c11dc2bb5499",
+    "owner_b_sha256": "8d1ba2f3bdc9ad6bdc3e8871f8efb89f25bd09b3d15c59f55589ea05679c8a87"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "nehmen",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison, study.tip, study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "bb0eaadbb290d133eec8707298895f0524f19d1975376a5ea4775b03e415f15f",
+    "owner_b_sha256": "0b9e22685308fee4c21270537e5f92f8977cc53fea47217b6dd07f6b1179c684"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "nennen",
+    "field_path": "lv",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "3b1b8bc42ed6f2e78ba78493e80cfda19bd5e5521ed6889149ee17a59215ee5b",
+    "owner_b_sha256": "b88eac6d50342d575f1ae1f5ba333914e93202d3cf65455c82a0d45cbb7b8d33"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "neu",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.tip, study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "09af9075aeaa5e6a83dab87e69f630df6bcc32c1e1e90e63bf2747a84ca738a2",
+    "owner_b_sha256": "da46513c4051d132bd73da032e19560329347ad00b9646481308fcc1be22ca18"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "neunzigste",
+    "field_path": "lv",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "43fa974f3ebf8ef64149ec68564a5dfa3cd14da2b73e9e3cc41e638aeafebaa9",
+    "owner_b_sha256": "9a376860b30a67f5b049c30f7542e6bf547b7b07520e570403b718872212abd5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "nicht",
+    "field_path": "lv",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "f0e2753a4a0f05a79219ffa432741fb275544563f8d989b313131938d1f298fa",
+    "owner_b_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "noch",
+    "field_path": "lv; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "5e517105efecdacc80eaf436dfccba01d0cb3d5e345ebd7b668d4b4cb92787fa",
+    "owner_b_sha256": "00e3a97f004d5cd28d9be270179e28d3c16e86920d231dfe9d88b86dfe8d9127"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "nur",
+    "field_path": "lv; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "79df27a14a556af30859e6592b4160e8652435ee39d4feb262a18963f86b8f58",
+    "owner_b_sha256": "e0886f3d9a6e0bbf7cc86561eeab0efc49703312a539aad029cb964f1fa80bd1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "ob",
+    "field_path": "lv; study.explanation; study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "e2fbe0ad68f62752ab8d887b711e0553c299fd0135c8e64a17557d86b3d279bb",
+    "owner_b_sha256": "d097b806dde6671653aa8eb049eb6ba2a5f0ad0706a1f8b9853a5ff9056f823e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "oder",
+    "field_path": "lv; study.explanation; study.important",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "36b227918b91e7da8aa3de2a2c99e8eb7899c8404d8b88a65bc5a2612668d2a3",
+    "owner_b_sha256": "a626c836faede50004dc074d32bd1f30ee023e4e175bc49b9632b360510745a5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Onkel",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-048",
+    "owner_a_sha256": "f7c3fae7529b2060746b5a7fa33f9e95b9d90e1c6798c95b15adec89daa4944a",
+    "owner_b_sha256": "7d11818021f0840d08cb4379d3869043566b0421b005b56c8958bfecd5c269a7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Ostern",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "6c00bd7223808400a30370190f846a69f35777ebd9e037325f62f79fee7ff7b4",
+    "owner_b_sha256": "f1812cfe52c18b81364662776824f10d9ee306c014fff085bdc9d3b44ad869b7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Paar",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "1700f4df539844a776e7ef36c463cbdb0ca0bca24e4e58375275037c30282e90",
+    "owner_b_sha256": "611500ff2891e903f504a0c21a91d5083d09a41e06ef3103dd27b3e070a3a58e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Papier",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "6cb46f6e253f1d80b31f055e9fddd2e1c4ae181583c5c76f1ad3d7140cdd8c3e",
+    "owner_b_sha256": "860e60472af996c96e84ffc1a055431c44256cc02a4d22fe97dd3ae288058395"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Park",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "58a667f37cd3084de9ab9697b5f0ccbafdcfb8a520318e814aa1d82fa7d04f7e",
+    "owner_b_sha256": "df756fb0aaec2a99f022e1c411f39c0c07272bcff3d5d4c06cd4acb79ab36ead"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "passen",
+    "field_path": "lv; study.explanation; study.important",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "f6acf3262e04175f25c8ffef219165cfb0c73f344e1481826c59bd702f17bd5e",
+    "owner_b_sha256": "bf1f376edb6a4a8e5bc005234b0bd98388886fd122a5f1939afbc88db6c8c0ec"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Pause",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "374dd917327d59a08c5025f02032904d01a9d55d6ca91cbc839d23415ee8781b",
+    "owner_b_sha256": "84fd6d93eeedecc0823eb079c4b6345d78bf5bb3efa231446e372aea3e328487"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Person",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "916130ed0a9b2210220c810daf19feaf2f189fce5986af1ca8212147c0e2b478",
+    "owner_b_sha256": "51231a7593f2b4b4228a4be9100e02c86dd0a53e312ca7d71a599bf1bb3742ba"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Pferd",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "c9a004bfb43951f28133c433155cad4aacaeb679320cbb1dc212a72121e3e291",
+    "owner_b_sha256": "71409a2fd60f104d14a163b68139feb7e72fc79486fda0f40b0f88f39dc5a054"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Pflanze",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "090e496299771771b35d13df44f1fc6ee1172d81ecea080403ea3dbba817bc08",
+    "owner_b_sha256": "7e5417acc95b8ccc224913cad88485e85ae7d728ad57cdc2356eb61484bfdf39"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Pizza",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "f12958816a49adfa2c6c8de8dd2144c163e92c5e375de964d533187c7d236c36",
+    "owner_b_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Plan",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "441c24e89e51927eb96cfb916fda203542b7505c05e95fef850637649cabe5ad",
+    "owner_b_sha256": "f2b810e109a66c1dfb83eb580b89846f8f25bd15f3d06e168b04277660564b8a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Platz",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "8b3d2e2da57ebc36be675e46e9648348cdf34c50c3389e3de182cf851d72b6b3",
+    "owner_b_sha256": "eb6ec463f89e7c8206a9d39c0c1fdc07e1f1c5bf2acc9e418203416db832bf91"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Polizei",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "c3602cafe56a0fd894e99260dd1147b2d276be1af90e48af8c9b849c003b76b6",
+    "owner_b_sha256": "06395484ec5360deab6e96c076bf1f7ff9fcad8d966a50f5cd2076a5dcb5ee01"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Post",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "13fdf15b6372661a34d4970ea56486121e0019f0a12c2aba1984c553518c4e6a",
+    "owner_b_sha256": "d02e4f39587a554bc84cef16fbf90b618ea781283b0a63955ec95f5cd476824e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Preis",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "7619c0dce7788409356bf5dfb0ab2825d35adc5548163b558dc73cdd1ddc1544",
+    "owner_b_sha256": "57f1ab2bcb9de5b0a815854b44b508e2a2530bdaf25afae3544b80b7db7ed153"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "probieren",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "5596983f4adb52d4de2b377dbb9e3584b595a7c19eae59f76e39e2830ee314e7",
+    "owner_b_sha256": "553734f6ca200734ae04b2fec71cc234c02aa817a795f4cac5dc9083e4c9f84a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Problem",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "4b7e0097c94499e7ea86a1acf1d963ba918b8a030e9329f269103c35ef6efd50",
+    "owner_b_sha256": "9ab303f7d66ac51a46077ab4016f16e4e24e5a81260e105424be8c38e9ee2ba5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Programm",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "dc5bcfb2c3030298c5db37e9b84ada81b8a44b52ca6f0c329ab5d8cd401f9d00",
+    "owner_b_sha256": "656779bf9a9be9570f57bc6cdade5ac5c24f752e418098c878ab60ec372e9d03"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Pullover",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "e02e9c050ff25d8eb584ccb3de55aaea31aac2aa1b44b3820c8237287b880ad0",
+    "owner_b_sha256": "7b60079cc50cab5f1a1f90ccf52fd4e8682d48a89f5fb680bf9656874647edba"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Punkt",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "15e6439ba5025d243fe13f9cd62b0c49a380d422dec53cd135e2e2f0eeb1421f",
+    "owner_b_sha256": "15abd2a3d2c28d64bf8baf3f9a4d79838b7a01d2486fc8fe433eeccf3cf177b7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "putzen",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "4263a7334e482f06d8e8b5beb309eb469b61315b4f7b9f2f2866ab078e63e0cf",
+    "owner_b_sha256": "c0ad233b9c2606adc10b4e7946e1679dce12bbf5862335ed25c4a93b97ef746f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Rad fahren",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "5cf03e98b5e913c667bafc70eb5583bcd1b500a2b4da2559d4ae74d29785eb76",
+    "owner_b_sha256": "df03bc0a447d6b3e2207b3656c116cad711c8758bf30ae2d5b6cedcc03c523b6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Radiergummi",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "d86f11e400818da4af18cd8b1bae424639e395dc64ed8657057c0b10acf69666",
+    "owner_b_sha256": "28d849d77ecb78841a99c3c5ca2875fd903065df5f318421e0523d38d976f08d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "rauchen",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "bb92060f38ed5115380a5872228df961dddd321537cd547f86bb1f81a74e8556",
+    "owner_b_sha256": "70e94e4b500a2766560bc37c920a69179800abc3e9be1545146a2c747bb2d3ea"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "rechts",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "44e476c99adb0d2a50326968aeb0e4b8751652288339cdfaa27b1cd9826337fc",
+    "owner_b_sha256": "a9730a44ac6a12a850b66d286148cb093e826149f1041bec86bf850b94a0954a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "reden",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "3aabecc2bf540118dcb741bbc05e2423129ab617268e08cd380a0e92fc83ca13",
+    "owner_b_sha256": "c462bed7fdbdebd81f0ecbcd79ba8bf2597ba21093f8f2d81c653dc159a22999"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Regen",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "93b492c239e6dd01e5560dee9a64522d337e8c82a6023dfa7c7dfc55d0fb09e2",
+    "owner_b_sha256": "f50d0838055b887dee052bd17e2c894d758afed0eb4027de2957ab080acfbeef"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Regenschirm",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "e4b7b8f230382aca1d9dded69ebe6a1fc0549852d898f72f4bf1894ae11b3693",
+    "owner_b_sha256": "5b326ccfc4b74d0d61e119f8f5fe3319244e18b66a079ea36fe33cce7d58adf3"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "regnen",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "a0f5c4a12e0192228e85263e1acda14d695e9b452cd6565501acffe01c8a5534",
+    "owner_b_sha256": "1e579d54c08b8511caecb6bbdca1070e779cdb97396d959f416e4f07afc74ff1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Reis",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "f91e457ce3403179aac1eab4b9284cc24d877007f83f725662a8072f11eb046f",
+    "owner_b_sha256": "e3828e7a90b38cb8ee3eb8abb07c4397d6d2ec1fca520b3d4c596c34e8eee99f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "richtig",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "84190138995aa45f3eaec8577a8bb673d916e855939b899bc4369c0c6594eddc",
+    "owner_b_sha256": "164beaa164c78ef321e1e6ff45824e79d1a938fb8e7154958b2cd91bdacc9a23"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "rosa",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "694111fc1f52767137fa3fcdcd2caaaa446e273fb277c12ee9db35aa6cc15513"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "rot",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "097556d5f14ea8377e0d00ebff9da6d2daca347e92c0d04f36fa7a9ac6c5f21c",
+    "owner_b_sha256": "d1f295aa2c4048e64c8b966b0fb599e6bdbaae05542043f1a61f1fa114f83164"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "rufen",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "40f7a91eb255b7dba2edd1acd7858745e4438122ed6955705c93ae77d8245dfc",
+    "owner_b_sha256": "cdf6bcce45fd34ff21c850752a195d7d71e741a44561534a17c7738e9722ec44"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "rund",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "95ed39ee0bf47e1f872dd867a7a103534b46d96f8e3831412b6b146f61677ff3",
+    "owner_b_sha256": "42646622af4545a603ab9e64af1b5449804305ae79a9f9f2a512b3931f7dba17"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Rose",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "0e9e9b13de603845c012b416a5e0b1752b7d76f1dada4b4423215fe502e2caf6",
+    "owner_b_sha256": "6be378d7f41957c1a176fb239248c9e0964cd0c51419479b05f4b5dde4dcbcb6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Sache",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "7ac02ec1c874b1daffd3a062da21153fd595799cf8b5aebaa77933435bf7931c",
+    "owner_b_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Saft",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "19477ceefa31eb1b80877804937689b879e7f7c0dbf89500aea1f7d36a9a96ef",
+    "owner_b_sha256": "d5b9ccbc7baa504b53c7e4957ce2c890bf572cf787bf492ed692775cb3064e62"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sagen",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "917bc4f870068d9f8d99387dba2c9f3e4bd59856ea452d251209d9bde299873c",
+    "owner_b_sha256": "e824d4ba07274243258e268f284e6c4b0e6078881d17fe9cd42d403867fe8128"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Salat",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "a330447323ae827508c156d2b33f18a2874402444b21308fd3fe5506e38883f1",
+    "owner_b_sha256": "1dafcc90cdae3c7aa8fbba8e1e3a375e6a9c57d3d31b0cf40af98dc1e4927f35"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Salz",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "b5fbe83bf8b76a9129e432302b5a0ad05682019d33db2405204253b6c79b6a7f",
+    "owner_b_sha256": "77c5d1c8381da566412d4907f1d200591472b6b14c859805003c05a8bd2ee831"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sauber",
+    "field_path": "lv",
+    "batch_a": "LRB-014",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "f657b10eb59a1f04bf24e91dc1891257a8426c50a921617554403ca2106f4ed4",
+    "owner_b_sha256": "7201b7f8dc5d1afe537494f1a648b8aaff63816621bbedf555c0e70e55c7088c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schauen",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "f40e3306c7878f6c49594cdbe2e241ca3c3ae596c867dd11f9a2a246e1bc3adc",
+    "owner_b_sha256": "50072adbea11cd053af2e016ca1d083c49f48ca4b364cb86c853ff95f6d47726"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schicken",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "fefd5df2718968161f388e8cb34eea0b09fb77d8667dff276ae6bc98c3b2ddb8",
+    "owner_b_sha256": "07a53703d101d553571790185f12681077a4b01330bb79b5807eeec3e3fd79bc"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schlafen",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "974db414259e91d095c5079b9fb928cd78c7603b151af4b3007d227d25de23b1",
+    "owner_b_sha256": "9e441ef6c0c26cc6673493f2e8357d77aa6f434674f5c2cf83cf37b154ccb713"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schlecht",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "ad8c1eca9ec9d3756d8d38bd3766d5eef70b9fe2eed6e9ee8f6c7bffd1e1ea3a",
+    "owner_b_sha256": "cd7723f0a60aa9410f1e03ed191ff4443ff2965e9bfbdf08b9faeafd122b747b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Schlüssel",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "9446239d30279db762bba00074b79199e380d68268553ff41216a40953ecb42d",
+    "owner_b_sha256": "cafaa3a37aa9059eda81a405ca38e8aa132e2a079ac82a1e90d7e979c4cd3091"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schmecken",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "f8ed9044786331b8401b071c2eb0af58ff68470a4895bd2be2785087bfca55a0",
+    "owner_b_sha256": "16a97cc64282cd9793fb54f714d41c1f4ab85bc7a53d1851c996b01543942293"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schmutzig",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-049",
+    "owner_a_sha256": "0cc329e920edd6d2d929f5249c611af3c570c99fc7110aed67dff61ddc1f45ad",
+    "owner_b_sha256": "f8484055ab33c5843db43668ce33adb5cf63eb9954e9d90e2d6e156676c5f370"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schneien",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "658361af3a7433c2396c5cf3ab3d1597ebfbdcb1d27a5755ebbc5ed6a76be3ec",
+    "owner_b_sha256": "699fc22f86ce0eb864a4080c4fdcf7acef386b1bf4916f89569ebf7123cb39aa"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schnell",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "b49a751752e43bde9c3acd275c45d8c4c07f87c60696259ce817a17e20e00489",
+    "owner_b_sha256": "1db4d474e5664316f1c9b344f1b74a4392b7fbaeac2d426389fadf0943b1958f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Schokolade",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "9ab560ffd4e308524b3caa2f3465b65ed1b8667fa0a96aaa784cbf4b32f35bff",
+    "owner_b_sha256": "b00746729428acf1ab821dbd57c71f765c9def028f88405ca2a7c5718c393ba9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schon",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "78ae3ce3f04fbd00860f777693b1b173ae8d58915fd54c02100ff39967a1201c",
+    "owner_b_sha256": "d162d2bb1c0f2175e5c84ede8a0d234fac285103f78b81db04b5ff8832017d65"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schön",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "90c211ec44cdd3866f93fb846928d48e17ffa1bf752e5c1695abb564f6d112cf",
+    "owner_b_sha256": "9386554ee844f4f041e294cfb7e42e896beefd3ba8090907929b08b87f744110"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Schrank",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "f5072637ff54b8e41b279c8a9cf0b1e6130c8e12b6ed2bcd58b6114f5189468b",
+    "owner_b_sha256": "54ced8304f6c6277f2676d58ab795eaaa40fc84e1ea0edeb2ad67785ed26025f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schreiben",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "69e0adec7104d36175ca70be730db0173682b3123fef8916f86cf396d5ba4f2c",
+    "owner_b_sha256": "3255ba50fab9c3632c729eaad1a87ab3b2a5b988af30d65ae7593b32c5c293ef"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Schuh",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "bb67fe86b824c22ad49d0984ebbdd0767666a02297c8d07524030cd44b35d21f",
+    "owner_b_sha256": "eee4a67a0608c14bcbc7d2314c73c8e5636ef0423a3a3deff69aacfab55a0222"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Schule",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "09551187c873e6f6e455eac3331e860e4b469256fc399dfcd546db4ad70a048e",
+    "owner_b_sha256": "c9a2fcf59cffc10f524ebbac56a702028381fa1b161d228e07f08e586b8e67ba"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Schüler",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "138b1af96ad56d44c8dfb707abd3965bbad751a006d7ce80ea36b1e00cc6bb3e",
+    "owner_b_sha256": "3b9a7302860bf218c531eeedd925f626bcf8c170541331f23041a4288cc1bf6d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schwarz",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "eb4143f5a19a6200e0280aff178d9666d9d6ded4bf3b749f7d65be5d8d690f48",
+    "owner_b_sha256": "225ec11698a1e399fce3074063fb44bbfc171d2978999113672141ead7e4d01c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Schwein",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "9c7eabe9eec7e16364fd0d2a67a65f002e4a54bba4dc5aef74b69462958649d0",
+    "owner_b_sha256": "a37afadaffcf8a0bc4eba0ceca37775d5bd738791386cd04a4c82435b056f9a2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Schwester",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "06726b3c1fbb920d920e7bc8f083a89f9138de7062c0bb324afcb8f9644f74bc",
+    "owner_b_sha256": "a636e6ee6ec716f334730bec4ec2249d6e7ed84b8668f79a078daae52752ba84"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "schwimmen",
+    "field_path": "lv; study.explanation; study.examples; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "cb3a3e85a35acb0fbe0ee44e2674c0d2e985ce998a8305229ec2a18847136317",
+    "owner_b_sha256": "5431189e3e1d575e9c7644d3f93157a6803f82664baccbb962e4ce0b77baa337"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sechs",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "ab50f282166cf328214d53e0eefbb6103d7325409d796e3670c3872629e69955",
+    "owner_b_sha256": "a94df68dfe62b2ca3613a68d3b655a9145a2d28ba0ea4f01d18405850fbfd3da"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sechshundert",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "20bef1753fca7c8ec83a0634d85dbdde06cf872dc364cc8e4b51e3c5f8c0b388",
+    "owner_b_sha256": "bf245491c8ba2cb4d8cb4426e611dfd7cb3433d47b89b3e4178255d49466000d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sechste",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "27a1ccd97ce41208ff235a446edbc5e876b2d10f0a199cc79d58b40c3e108424",
+    "owner_b_sha256": "66e4ca229ad023329710e072d56fd28282078ee918b3edc7ef5d3703309d5a61"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sechzehn",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "94db043126cacfab1424907c59d27484f04511e3983424e7dab902e3c7fe1aad",
+    "owner_b_sha256": "7a62299e16cde965257eeb73cfbfdcf1496219bbea885df53e503f291a2e9dfd"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sechzehnte",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "8a5c25cb584df12b301d3a5712d2c3cb1fd7587c61da7c4568d75e42230c7fe7",
+    "owner_b_sha256": "994dc7959d273e35b83902d545f705a6e0369a6d111cd99bdb9102941ec03370"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sechzig",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "fd56ffe451ed2eb1fce0d4970c94bafe391a66797205dd320e639047989440da",
+    "owner_b_sha256": "3050653a1cf228b5db738190cb8d7ce97e8e5d456c0c35be322884a7bd779c9a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sechzigste",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "c287043108272048d2f998013bce213aae195152f7323cf78a42abcf49473453",
+    "owner_b_sha256": "535a949bac866c811890950d7380bf8a276d7f3ba877add632ddb5a754aca574"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sehen",
+    "field_path": "lv; study.explanation; study.examples; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "da0fb25718afe468349bf835c8f72fabb603430367e20d6f553d78e1c50369cc",
+    "owner_b_sha256": "b897cf6e995c4e30829124b915da99041b161e14fe41e618d38d01089bc56ed5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sehr",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "835b72774e11616d1590d765bc12ea9e09e4c0ac3f7c748a83d2b5b0c06fe424",
+    "owner_b_sha256": "b1404bdd95ac9639ece68e5faeabe97f37859aa6ab52e4a8a268231ac41135a0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Seife",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "ad553f2a67edc46f8fdc5fc177381494cd3f2aa46b72e7b508fe6a2616de6eeb",
+    "owner_b_sha256": "fc37ee1262e89f0e85014e8c0161e300a30accbc039bd732fc51320b5d004fe7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sein",
+    "field_path": "lv; study.explanation; study.examples; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "f86b3d64624b45a47f213326a625aa9c602e0e3d1795579908582d9327390844",
+    "owner_b_sha256": "cf3754739896aea152f8219dcaeb3bb9617406d6eb6776420e82c9b955a0879f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "seit",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "b3c02dd8ed05d57c9f96c3d71efc426fae564c8fbec5636375814dd2dab8b16d",
+    "owner_b_sha256": "71733f4f76bdfb1078dcaef9ef3ca17bb8ca5075ecaf928df066212f61455d76"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Seite",
+    "field_path": "lv; study.explanation; study.examples; study.tip; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "8072906a42de1419eab8b43792b86b34f22a70bb01389325c4354f557dbe3e1d",
+    "owner_b_sha256": "59b8a2972fe91ece801441bf290df079d0fbe0f30b7853791df6fd6a3b1ff63d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Sekunde",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "20f7e91aeb8d9014b3ed48076eaf49132734e9c113077a57fad9592ed81494fa",
+    "owner_b_sha256": "e3b121ad956f12b63e918b18d0937cdabe1ac433de4a8b50f3136fb9acd8a7da"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "September",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "6553694a12b69e36f5b9539f860949eec9a1a61c0708769ce05c3b4f4189fde8",
+    "owner_b_sha256": "5789a8ee80bbb7ea70344332753bbdd08791e3f574613740f0ac630c98341d71"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sich",
+    "field_path": "lv; study.explanation; study.examples; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "147c5ac1b7bd1f6f99f2e6f1a8c6462c939518e394e9dc97969ad51989c04fd6",
+    "owner_b_sha256": "9225eff28dd20aa2e32af5c3ae963aaf0b11e54e66c973625280ee2baa9b2569"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sicher",
+    "field_path": "lv; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "10a0f236a7c70293e8a484cc9a4bea3e538f2d355278d9b8bda985e7c835e82b",
+    "owner_b_sha256": "8e533bc545c3ea5fc9f99edb5539c49f7167f053729f1123c39b30d5049029be"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sie",
+    "field_path": "lv; study.explanation; study.examples",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "55f63b6901e4a11050bbd0e173bc4d0adf761dcc368f16134b9a7e84643c159c",
+    "owner_b_sha256": "8529ad46a7926fe3846a234181e22598b11f98d9fdb0dd66477719719ffe6991"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Sie",
+    "field_path": "lv; study.explanation; study.tip; study.important; study.examples",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "3de79b2a4c41f49c2df31fb579bd4043a2d21374f50e05c7d122df67d6ac4166",
+    "owner_b_sha256": "721c9ff66848bec28d9da12a72ec1e1644b6d45f495efb9f9e047ff0994fcb5f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "siebenhundert",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "0072173d52fd178aaf9715ab0b9fabdf84e0478f2aef8ece6401a5747010915d",
+    "owner_b_sha256": "c942cd9558501e6c885d7c72fa344eaeaff6190bab2b0e3e97133ce291b6209d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "siebente",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "8266043b95d0a33d7d3b34695c84a056c8c851d0ceca52d225ac52904091b1ed",
+    "owner_b_sha256": "76f79952c7c96da8ced9e47f69daf2dad71f9dbd4d08df34337c8faea37f0b64"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sitzen",
+    "field_path": "lv; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "62c22a621039d26594cf254bb39367b062a6eac23e7bc26553ac5cba625d1c84",
+    "owner_b_sha256": "d8b8fc7584089ea5a36a20d6d6e0aea0846e58bd43031bc0159a03ee6b3ab428"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sollen",
+    "field_path": "lv; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "9b3141dcb9b602ff62483bb51f69936cdebd381332f28d712f79dadedc58a05a",
+    "owner_b_sha256": "07f7581ffbe45449ee5f388702e3bfb3c0e6d01b4444714d16a788701f6d4b59"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Student",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "e0fd707b9cd91d7f01b9dd77fede3ca6892dcef09b5f85bd8872bbd053705ece",
+    "owner_b_sha256": "78ed93ad08c777ed398d3e820de69493bf3207ac1f94b7951408b77c2320706a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Stuhl",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "0532fbeb304240182701dfca0be4c27c73706c07daf0723e5b409ff958451e87",
+    "owner_b_sha256": "52531fa71b755a52fb9f3d1b6130768072ad3ea515b0849d49ae73e6a02b8e9b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Stunde",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "8859628a30622fd1a355fe67a65ee88ddcd3cf27c1f4d04dc8b42120fee885b0",
+    "owner_b_sha256": "09d84be71c9568096871eeb843bddc32d3504c8633442c3679e1eaab7f85a63d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "suchen",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "66d2ca62dea95046ff9cfd39601388c7b5ae5326a8ae89869e62319bb564d2ed",
+    "owner_b_sha256": "f0f855d52ef461d43972600c4c314a06026618ef637c7d18d20936051d284d1b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "süß",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "10a43c070cfeaecb8ce2666478609048b07fe59929faecaf20adaf13a464a246",
+    "owner_b_sha256": "fec38bc41d2bb086da0ffa3bcef8d5c7cffc35ecfae2295adb945283ab1eeb2d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tag",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "8b64b11171bee271dbff9d70324e18f9b25f96153d2499766a7d8b4caeec2a20",
+    "owner_b_sha256": "2a16046fcb8b0c19692c6656fad6c3c6967e4a8d532d35d7442024b56bc96a19"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tante",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "1461909aa73258ff4b40f65a6af6b6b46d86812e1f39f3c80d41750c1a4d5c9e",
+    "owner_b_sha256": "e08fc646aeb86f219353de45cd5083e1fde178c0c24d3f10e14c8764c527a15c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "tanzen",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "a6a1aec9fac544b2c179494a8bf122d74400938f7b2f7818da9facb29a70d159",
+    "owner_b_sha256": "9ad40f32425d750f75834d2993db9ff2e4e794fa0aa7a52c56a2a9a78adae3e6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tasche",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "58e6e35c93c383dfba9a493712ac33c358de9a982878fd030836927c4a94576d",
+    "owner_b_sha256": "872e358a18395c3f2d1ffe5a131bc6ec4a7f51dc5c3006700857bcb0b4de3ca7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tasse",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "a2535e6cb40645fab7f59e1b4f23010d96e5abcf05dd55f4c1124028d46d11a2",
+    "owner_b_sha256": "7c17b69400452f42d905711aca59c5edeed04003c04410b9a59721ee93a50969"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Taxi",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-050",
+    "owner_a_sha256": "a857218660d85181dea4c57295a7b5d1a280e5aab5922922db33d0b6b6e91936",
+    "owner_b_sha256": "d07172cd275c2c117e7a1744a9d084c40eb3618e8e6fc4107d951a399fbedc0c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Telefon",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "ad615a079886a408ea296eeeb621c531afcb762b77af948fe6636a91b6b88297",
+    "owner_b_sha256": "165dba4639b47f3b535bcaed494e1675e41674ba7162c31cf45bce52c43a0150"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "telefonieren",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "63de932dd465ab5262b1bdfe400b98db145160dec1f6cab735ca8a0f1586ad7a",
+    "owner_b_sha256": "db4d66acd9e5bcfa8c0f9f2a0a0d43abec4b97f31095024c6cf1f09e8a5d6bf0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Teller",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "c63729e0ee7fde50bb519dd8f2c259e846c3e2a6f996681f37d4243ede1b7d0c",
+    "owner_b_sha256": "62bb80b1e47792ec4385f62d9d9b7a63cdb6ff1b4bea81d47112ccca97d6d279"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Text",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "b9a4f0037d146b51a163276310c8ef23a8bf1225b1c4f861c64c6d57ff4b8468",
+    "owner_b_sha256": "b9fb39cd2776ad5ad4ccb12e166b1b90c7a124433eacfd796efc2da7145195c2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tier",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "aaa306bfc0345a38fc0748175880d728009cf8c851d13e2f30cf3c18b80efd7e",
+    "owner_b_sha256": "92d392a02bfa70c2d3e0c4de0ccd6d92f294b1473b458ce66d33e5cfd72198bc"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tisch",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "017650e384340f2a62cfb50fc38421f388b470351da1b0c32c6732f90cb3dacc",
+    "owner_b_sha256": "74bc6f2dc7ad0aec2e0504cc2f2fbd7a6de93b702a70eee9774a6614f29bf639"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tochter",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "3efea10367e5d8215acb5573a04a52f9f9486e5cc582c91b0a1ed7093a1a0f34",
+    "owner_b_sha256": "4b31e755ea92a432fb2aa62ba44c25769d6cd60b8d8eb72d704120007d1af568"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Toilette",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "26cea6bea52f6a6cdd4bf0a12012fa76851ec18b74151501d199522edf37501c",
+    "owner_b_sha256": "98a9b63cb4e7e5fd9fa544dc17ed6542749d2bfc8b47887626b1bb8576f02ae0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tomate",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "e57c2e08b11a72fac3a110e391a8ddfd9d4c5682ad598f5d360e7dca9c116ba0",
+    "owner_b_sha256": "62ae2904257cff1fd3951e000fbfbd3a0de6b505e235391511d2355d2a4d03ec"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Treppe",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "64c2f3cbb5f05129de37d8783b0a0a5deb0c02d07de3a5bc6641ec01973a05bc",
+    "owner_b_sha256": "7b764e153d66d9b92aa7e3021f9a0989e90ad0fc98f87b44286f66b76d661640"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "trinken",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "63594342344560949914b3a87f500e703ccdc5eb952518b027248ac5f7bfb57c",
+    "owner_b_sha256": "d550e87e14910ca3d70116e565d1af5cbea40df8c6e05908c3b2cb842c0b9865"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "tun",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "b52acd3d2f15664dd8e5457f837b93a2f950230b3492c21fb4addf4bd9aee5f3",
+    "owner_b_sha256": "bf7d53b9b171fbe9181213c2f314c140a0a1deebe78f57a8795fe8df04413327"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Tür",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "86e36be85d5a5f25bdb82ff22ebd67e69500db25c15436122166302ea227e2d4",
+    "owner_b_sha256": "178f85f10361e0353f20b424486ab8ec72cd6ee953d92b1b069034017cd97485"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "U-Bahn",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "be618b93a8fe9af73430ca93ef5f89defc305d17b6f606d66638d363bc0ca47b",
+    "owner_b_sha256": "d8c2bc84fffeb805443514371f8c7bfaf661df73b4603733f99e8773ebd14673"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "überall",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "eea23fbec4c3c8c8af8ade3485f7a6b26cd69eac4630cd796e4db494b33f56e7",
+    "owner_b_sha256": "2ec25c6bcebb9b191c3df634a2fb4badcf7e91891ab26e0418b06288dc5069ae"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "übermorgen",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "207fe137d61d00e764752882b2fd0581246a088d22d5672159b70c8a34aa57bb",
+    "owner_b_sha256": "cc194d09652c7ee956baeca85ad30f8347cfd179ce1bc0beb0ef69a5fa96063e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "unser",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "70c5adaaf749f9c59c85d57a8d874151bc049bf3664f1674ccb4791c234395bf",
+    "owner_b_sha256": "c58f5cd1dc71a1517c66e3c03ffb8d33a4e7855ed35c76e40cfa921f40e6f9f4"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "unten",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "cda0a2a5456657303efae2deeb7b5c062960b65ab90d5d0baf06ebf613001c60",
+    "owner_b_sha256": "6f8737f6a487517d7a750713171d1ee1a8d9352f07ab497c9c5fd7ce3e0fa588"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Vase",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "56976db1e219b08abfb525a937f599b04c3a5a734ce641bb69e5e7555589067f",
+    "owner_b_sha256": "d17a70fb0b866ebdefee688d52ffa9bec8db9f76a5bedf50bc5e51480eae4166"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Vater",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "8efe41376854ce4f99b5626b9057d8f0b8d438aa20e8aad74d448b2e96796f96",
+    "owner_b_sha256": "b83c27901d95f454d9cfe61281a348309e0da23138dab37f7c512ff8d8ebb2da"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "verheiratet",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "65b9c80f5e7da501edfeef4d928f9ba31e95871e6c797fde684d873e0e65cc04",
+    "owner_b_sha256": "19ab113f3a2975d57abf425946553510f416ccea7353e3e95239bd4958950e41"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "verkaufen",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "b1fd4c8fd2c5a5546a5e09d62ad5e9e8b4064ec454e9bb053f8b64ad2dd466b2",
+    "owner_b_sha256": "9a15f66d60a3f2a49b316188f1ffaae23a63afffe6c89efa49d63132a57d150f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "verlieren",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "344c0292e01693be7b887a3c251e8772e6031c0ce69fdc5d72de7e9d42c96dfb",
+    "owner_b_sha256": "724fff771f112a5dff3e89d9155ae57f30e9aeee8e09ea307f174175d40ff178"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "versuchen",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "5858b88262b4883960e769467ec3157791aaff05d67668cff0bd4a66eb8f9204",
+    "owner_b_sha256": "8175ad918102eb2c5c14f71714b67ee79f85bc03866428fbde7fd4125a190a52"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "viel",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "8e1e7978713542593985d0407a5e766c890a4dee5c1173f259d78b08cac27d3c",
+    "owner_b_sha256": "5db83efe8809a17d334de1c753abf56f6914b8bc2b01f922f6ea7f24d385b299"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vielleicht",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "c528957eb99533c1b449ee6cf67dc8431a601be3ef422279d43603410096cc62",
+    "owner_b_sha256": "c8b2b0e2825ec4a6d36ff7e3448099cf6f74a2bbc3a3cf0182861521ed3e729c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vier",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "1b049a2998c2b26a1e9c0dacfc9c148bcfc75abfe78bc521df7370f881f45a46",
+    "owner_b_sha256": "d153867f385ce247c8794adab3a0f0fd8e86705dca6b824b3fcc3b94986ad199"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vierhundert",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "94d804e2acfe4f115e883ef5bc19dd096842eb52f5a68cb36bf4bbf739b14908",
+    "owner_b_sha256": "685871f2f2fcc43370de2cb7416be3b1894bb33cd784eb3201d54939cbd24ccf"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vierte",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "660c5e18fdb5e06996462a5e3ad438ff1c090d43a9608db82782ab797b23a555",
+    "owner_b_sha256": "634ffe6cdf5b5984e06ada76dcdd0c124b4dd2367f236f5e2c68939f77589b5a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vierzehn",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "bdc4b9ebcda3d420d87b5e951e4fdf6eac2e9cd8500586c1a558175ef21bfa46",
+    "owner_b_sha256": "7d2b83f14b7e95ab07d09ab481ec1d0792d06068900c9bd4791a859898360afc"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vierzehnte",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "3350123edbdf802f864534ca56513685c7dcb6fab5db0eb9d67d686249c9f97b",
+    "owner_b_sha256": "890e901d8c29a7601af8dac33690482408e8746718242ef50364cdc0c2dd8440"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vierzig",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "50cd6acfc6fc87b93dbcc94cc32becc2c6150e58b0750084f287bd92d8d4f057",
+    "owner_b_sha256": "62f97d1d469c614c819ccdc0bfcc4470228f96a9438cf6941de126759e39cae0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vierzigste",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "3923e872844da3c9ce83156a064fa2d53f5480750110e1413c2d70630cce149b",
+    "owner_b_sha256": "580b86881cbbcf9214e4c2cd954d3ea0fe0e97def69e10927d005cc6f46d9364"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Vogel",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "1e6b51de32a0527cc01993aac612c64d8c928f2b4f2ecc97a3f23c1c98180630",
+    "owner_b_sha256": "e2f8a10b1e2a9156ef5b1319a23025d4ade204be60e4d7abeb48073707be8433"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "voll",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "6a113ea33ff4383a3cd392d7013b0500bd7a468f56fddd9fce7ef5f00f1345b0",
+    "owner_b_sha256": "053e7937023500ae21e020f1320e3b004859afabd3f85dc992f00fd9bd5a413b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vom",
+    "field_path": "study",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "5df16b3b6b8c40115c6140f613b0cf3b4a4499c1e0c127a72fcd1bbf889814e4",
+    "owner_b_sha256": "4a17a56c2b44393202b869cb78868e644f67f26f6883e1ba80907c0e83ac440d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "von",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "53c77bdedadb011a72f50c25be237f851bfd59f929414fbe865af709aff77a72",
+    "owner_b_sha256": "ae9be5568565f66f6d37b57b781d4efa820b48fa22192420e6169bedf2ade563"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "vor",
+    "field_path": "study",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "4cf42c3388563bb7edd1812405dd864fa20c2cd9b44e3a34a95704318ae726e7",
+    "owner_b_sha256": "62e396589933531026649a2714267ab63036eebc17297cf94ab9f2845b0f7c32"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Vorname",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "a6ed463540fac76031bdbc135cd0b3a2729a5cf989206dc924220c1d3ba238a5",
+    "owner_b_sha256": "ab6249be9ae4df76effab6f7773f7c265554975414042295bdfb7837d0a8ab62"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Wald",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "3b72c2a4942e7675d78f75ad5bfc4f4b3b153dda59f487cb4c4f53e0e83a7a9d",
+    "owner_b_sha256": "bb6bbbf78a5428c658df83dd8ee8c1327884bacab51b6faf22fb6110fbf5191b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Wand",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "ed14af77a196692c7cdaa9da0bb320e5b23c45426f3afbdd3baabbd6e896ef7f",
+    "owner_b_sha256": "5296738080f3d18cd7f9fa8e13664ffa22e3661a624e2220cdd6c617bbebdb26"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "wann",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "50976e834c880fa2bfe9cfb73edaf81e578a4b56d3f0978efb22359cdb13f1b7",
+    "owner_b_sha256": "1f9d5b2126c609b498fd9c95021f9ce70d67d57cc73d8c7c6d35744c82165322"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "warm",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "4282e34e9d7711aa37d116b92819ed33e30079a78e18a1847e5df0f69aeb6478",
+    "owner_b_sha256": "2063485d22c8424449f24b4b62458916659b418ebd187e3638c6340a455c2de8"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "warten",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "1c9a72ecff3ae2cd0fd58f2d515c577c214be59a6d3befe3e04f1aeaa470ba3c",
+    "owner_b_sha256": "1578e24427f135b0b9b6be06d359097492fe31a36fc7592b96dee2b510aa161f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "warum",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "dc587633f94d0ec9edf4b57468dd2d6f674c1e922822a0139d9edce7133472bf",
+    "owner_b_sha256": "6a834a0124ecfb90f5451db8f1ae7372ec2bdf240460b763cfa4196c760bc136"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "was",
+    "field_path": "study",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "b5581c5b3fa508ef36767c9f6b208562cc85f833e0b06b2378442b28ee6714fb",
+    "owner_b_sha256": "96d4e8d5a809626d04c5e99fd11254036fb60b6bb7835a8e729330ee3f4feafd"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "waschen",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "bf637b2adaa3c27f30e495b7388cbf646d0500b47057d4f7262ce140ff972ee1",
+    "owner_b_sha256": "4097c208f4c0682c6de7c651e17b77e3cb5b7d8a1018f554b5aa2d79dd5ad2a3"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "sich waschen",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-051",
+    "owner_a_sha256": "df1914266fecf9e4a08035e378346dd15c10da630e95f77705cc495aac2de220",
+    "owner_b_sha256": "a87ca748435c143066beace1265649f98cc67b9c66faad76975e6050a7a5a666"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Weg",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "a66eab2f9c529bfe2f3adcfd5ec310d608804dca6ee1d5ce6c435158d7c4f4b8",
+    "owner_b_sha256": "ba60b60b86c6209c59bd3c78a1a51e680e9a8441e3760ce6708de271f59390e4"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Weihnachten",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "8d675585e8f03505a1bd4df5051ae6b438eb695198500e26a8b18f675b8dbff5",
+    "owner_b_sha256": "53b5ef4a07e0f04fa1734e4e0a08711614479863218daedaed056fafed37f02b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Wein",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "324fef1c79140e029eee551fe3f3411d88e89e04897971f01229f3735cc30d3f",
+    "owner_b_sha256": "0ad770dfa3326070aa8dd24254073283144e549146669d1de0b9f601ce6709dd"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "weinen",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "83972e11cdaf17cabd8b233656ba956e7a81082a3d0b4597ea350cef53008a20",
+    "owner_b_sha256": "ae8fc8290c284402dc4469f45b131438745902fe73079a9e1ce09bf1dd741e13"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "weiß",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "2232efc145e9f1e6fbd250135c2afb10aa15df93a7d55819414962bc7c199cf5",
+    "owner_b_sha256": "1d995619b68a0cfc581d38cf252719339d104df6af2f83f5954bd2f2f98bc280"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "welcher",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "8ee1b4f329703797c14c4c51d45d4546a369aec95fb44e098a130c6df0faf1dd",
+    "owner_b_sha256": "1aaec89167144844e1e3103bfcaeb350b66d745cb9cfec286bf27dfa42ef90eb"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Welt",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "465e5644cfbb000f409e419f815fec1669ef8ed2e4f6dfaa81e838660e8afdd9",
+    "owner_b_sha256": "de4d0f943884cb7e85ff71e84d73b6d5cda8aa42ca01dd81e0dae86d450a1ee6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "wenig",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "a49ee668dbdcfb5d65305dc965d647be9e0f8cc5e1ff8b28eec86a2d213aad05",
+    "owner_b_sha256": "54b47701a8688ccb7ed5b052d7593df03cc3ad578e50ae4d990919c3d91663e5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "wenn",
+    "field_path": "study",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "e47004283de310521c83346702d9744c7a207f110454c3c35a09cc3c08739fc4",
+    "owner_b_sha256": "956df6dc0181aebdcbaf9c5d700b31c5be2ccff8dc0e28df64950747364ad72d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "wer",
+    "field_path": "study",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "55e71024abaa29812de8ac861bc598fb4f4e1fd836b95d0a86fe46b1a8ed50c9",
+    "owner_b_sha256": "621226cbb382d6d0f6d04317f5f4095406ecacd87373bf725e4493b2a439bcbb"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "werden",
+    "field_path": "lv; study.translation; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "2c2da230943ed91b7869500c6ea2d016d26f613b3ea46a631b8743d92e31747e",
+    "owner_b_sha256": "1e17f130661c28da2ac4347d553d80c6c8361d7730430d9f6d859c38cc13f871"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Wetter",
+    "field_path": "lv; study.translation; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "c589da0493fe6b38d76278f0fdd7c1948d52ef618c0388f915fe89bafea665b0",
+    "owner_b_sha256": "c39580b3e7c82bb9f054592868b9b1d4b0006159eefeef303f3916cd72ef00df"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "wichtig",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "0d32a9071bfaf261a5827b140c884eb20c33e4cc09413dea31f6a32d301b9c5c",
+    "owner_b_sha256": "61c9d1546e1eb3b52f431e5007c184a6170f8c261b6f7d34c7617beab24a0219"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "wie",
+    "field_path": "lv; study.translation; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "5959845406174e730181958a91aa5459aa23cc71b3dc63e18e1ab31b65d54e35",
+    "owner_b_sha256": "a7053b6dd5578197ad3e1e7526ab49faa11688df02bff565450a72c12c12d612"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "wieder",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "2cf921b2de0e883d32506a2501a730a530f7f2702d5bd9a592b04a985113fd49",
+    "owner_b_sha256": "1497bc2a9407bd51d1bc7642870bf6463b099f552b1a025615012bc57c1f3db0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "wie viel",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "ed817ba3e1763ac9f55063e6e819fdd502783fd6d90752a3da8f04fe4358e8db",
+    "owner_b_sha256": "6660b7fc479c2e3856fbe80f8863dfcb5f88dcaf49acebc55059ccf646851ff4"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Wind",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "be0aa3b59c420f2c565303b2467b51268df6b629580c6ab14358b9b3d153308d",
+    "owner_b_sha256": "a9c5f8ad5cf4ccad80b97243c1dcfcdffef5013f4495fcac15357ad1c2a6851c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Zigarette",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "e73d9e0959dde6b5ce011b317ae50406077de1a3c3b1ee77d74be6c94474c0b1",
+    "owner_b_sha256": "22138e2c9f64e0200975c898529747f5f9de5c55b3d05db6826e2058fccb7fa6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Zimmer",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "769578ad8a816abf70e717eecf79556ca9bb5d08541170f6d231ef54141c1d17",
+    "owner_b_sha256": "e93b7faad0b2165d87218aa2ca82aa75bcd7b61f9fe52574642b88ab16d1737c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Zitrone",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "9939e0b10bc5e562e71eeb413615a0e8213b69c210e2a2c7562a910384f3b88e",
+    "owner_b_sha256": "22a71a8856dcdd85e925dcae5643f023048e801ade5de776a42aec10e4e3f7c7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Zoo",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "24ec3c831460eb9862587c150f61dfcc13e43712dfbf8b77940fea66c39fe04f",
+    "owner_b_sha256": "5381239a7bb48453d2640bfc11ec99ad0d7d2e3bafedc76c29cf1c9ede9c17bb"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zu",
+    "field_path": "lv; study.translation; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "2c155b5f5feb77347d03bdadc2cb300f1ba5d39fc33e6e0d77f6e03ac8017689",
+    "owner_b_sha256": "83a51308f8c3c243df2e9965ad4244c8533425873c88a2aa983ad1d7dc0c2ca7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Zucker",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "51c3df4d305cbdc646349accfa8b3e86b8728828eb6897db323e1cbc0bd547d9",
+    "owner_b_sha256": "6839b90e09781eaffe2c7da183a155c1c4c89b2c13a9f482a613ba7728d80f55"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zuerst",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "2ad7890ea8e23805da43ae1ffce25af4912458a6715e341d4bffc95fb87949d3",
+    "owner_b_sha256": "cae04c67db45d1c4532fc078313608904f4b14651dc771c7fde8208f10e9be11"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Zug",
+    "field_path": "lv; study.translation; study.explanation; study.tip; study.important",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "409f5872a84d8278a04521b1247f0957e7c0bd61727bba80109e887e0f06a3fb",
+    "owner_b_sha256": "0800397cbfc647f72b99d71288680e292ddf7ab79facdb98bcf9cea3533f5e08"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zumachen",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "d69ab33b06eb11d2d9307d1fe984e4f1b05929627c263476838cae520aee0e6c",
+    "owner_b_sha256": "8dd1ce52c253d2fb2c94178ae2199f4747aaddc825c3277417521e5a53dcec35"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zurück",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "e9e12b480ea3ee2a4fb4a6f500f4e838b9f3c918d8b1396931deec40cdf4ad0b",
+    "owner_b_sha256": "f7f72833d7ea76d26c3ca4a37fb018e59b482a39f41d5f3474a820c63846e60a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zusammen",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "bdcdd74aaf6e064a6ecd9725ce6dda674269ef59c0dd1652a6da4f6ce975b35e",
+    "owner_b_sha256": "0a38b06356d354739588ad05227ff1bd41bcaccd91162b000da7d31ee5b811ea"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zu viel",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "c5797875b4d9c7d99ae868797516fda2aef832b23c01cd394220851b09457b39",
+    "owner_b_sha256": "7162114c5d733f2dff249684255bab2e54b0b73597500fb3cf88a7339c249678"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zwanzig",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "6a7f4513e5b465f6102fcf6c74236af8f3c7fd70ffdfcfc8685fef1c288a745d",
+    "owner_b_sha256": "d51ace3c6455c60861fe8c702ad03ad28ded5ed460d5712993f744aa23a1f329"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zwanzigste",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "afa9b974a443089fa3091e47b93449087ae61971d7355e80936c958b0b82b36b",
+    "owner_b_sha256": "d1bf8d31cc595f2f371be91bf4f9287af591028315998a8e0c4c36a83e52f81b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zwei",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "7565e350dcf8ead4e09fa7169a7396af8a7eb32a5ea0e51acd0630dc32708bca",
+    "owner_b_sha256": "64b2014dc3f2bc9f5ba04c7a9f7e96ed6a802b904ed98af606ccf4ce55395364"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zweihundert",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "803c4d680da605106e4b5f0423bec9d70af6b190b11c26d288d13dd8752024ed",
+    "owner_b_sha256": "ff938383942b9612090705022470d2677d4d78bbd43314f9917e6a4c91bb9677"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zweimal",
+    "field_path": "lv",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "f6c0954dfbdf4dfb67e739c3c49064d48f6aa0042317fef7ff4bd32f11c5e94b",
+    "owner_b_sha256": "ca8026cd929c958bf5ce17ca388583135e1c8df99d5eed48f44a38bf67cf6892"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zweite",
+    "field_path": "lv",
+    "batch_a": "LRB-018",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "d410ee5d569b3ca1c6cabe6e3c54a932e53165673204f30472b68cf23977b1db",
+    "owner_b_sha256": "2c0b444e486a6c28625a8f0e206305f0862595dc1bf03f42482a294962f4a144"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Zwiebel",
+    "field_path": "lv",
+    "batch_a": "LRB-018",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "1c8b00a954cfa5c4e0a6f00c15de4e8962c96abb915eeacced96cb1e961d4a98",
+    "owner_b_sha256": "27e747fd046c6c0f5cf0191e5693296fe3c4e9101e8159fc3c8be1485bcd94e2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zwischen",
+    "field_path": "lv",
+    "batch_a": "LRB-018",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "76ff0df84dc460a224e96fa4bfe85298a84a6fb4bfddd230c6a09bd8e84439a6",
+    "owner_b_sha256": "ae693ba2f911dfb1892bf147f30b2bf805834699be92bff984e3ffe4357980e2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zwölf",
+    "field_path": "lv",
+    "batch_a": "LRB-018",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "8e4f3cbe45d16ea2d17f8877e6f9edb87e5655d535a61425715d94f2b4e1d8ae",
+    "owner_b_sha256": "dae7588f30ed37e3a5a12c56bb68970ac3ea22e217a6ad1958e33d9869f43a4c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "zwölfte",
+    "field_path": "lv",
+    "batch_a": "LRB-018",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "4e7035dad7033937ec228248ba10699f3a59b7e7e7fe059ffdb716c545239dc5",
+    "owner_b_sha256": "389f45451191a5a8d29d95af89086399c449719b874e57ff0aa87fa1095956aa"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Stadt",
+    "field_path": "lv",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "f245d6e3f4a8c13fae8a165a337e896b24b0ae2f184f7ea319aec08d3ed23df0",
+    "owner_b_sha256": "33f712dedfc22e24bc5346743bb718cf7d7a126e11c7550367c2b5f95e51e609"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Staat",
+    "field_path": "lv",
+    "batch_a": "LRB-015",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "7d2bdfa039a46b3e2961d3536c82d8104518717a1c5ad562385c2dd52b683b73",
+    "owner_b_sha256": "5729f48358fc5021287c059bd8842ee7d264d81098b4a506f664166b05e60f92"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Uhr",
+    "field_path": "lv, study",
+    "batch_a": "LRB-016",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "47b26321b0ed392a59d957a6043ee15c3b00474117f900488e97dc94d9cac8dc",
+    "owner_b_sha256": "471121bd165dab55e05467e48b977cf47a50a21b5f0884bd31791bdca19c99f1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "Zeit",
+    "field_path": "lv, study",
+    "batch_a": "LRB-017",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "61a2f35c83857d0307e0970c9de6fc99f746cd3b894991f5161cf572409b77c5",
+    "owner_b_sha256": "ba4b72e1d2bb5e5c16115dedae3a005f44645215d95c486b6c09ba99bbd0da7b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "einmal",
+    "field_path": "lv, study",
+    "batch_a": "LRB-008",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "f3eafeb6c8de8d4982c7c148ac5217c8fba0cf1236321b62ce3ad2b4674f7395",
+    "owner_b_sha256": "c301e6c2670f619acf082ccc8b2ac6974aa70b49f41769c16aed97a0c7506fb5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "noch mal",
+    "field_path": "lv, study",
+    "batch_a": "LRB-013",
+    "batch_b": "LRB-052",
+    "owner_a_sha256": "32571f397f5eed23bbeadcc00f014f026631ec047eea66c7df5b73d81adc7ad4",
+    "owner_b_sha256": "4aa2838dd3d7f1f6257ef45750c9e1667e29aeb6aadddc563c3d6ab57370701a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ab",
+    "field_path": "a1.card.a1-ab.study.comparison[1].meaning",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "34e570da559aa31229c00dcc2f34efddc285627a2786b83fa863a674b6beb8a3",
+    "owner_b_sha256": "4aa6ff4b326a333856fd3d3ba5786e73db11c03b59bde545d7c0b67b57a35fff"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-aber",
+    "field_path": "a1.card.a1-aber.study.comparison[0].meaning",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "4a9cf95a4a03d0d67c7d8a84743f11b2b263386e29e4d5031494152e85476bb5",
+    "owner_b_sha256": "c40ad465b5388151e6b09cc1f1fda0ea1f18c5ce09231c94bed37315ced9c1c7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-also",
+    "field_path": "a1.card.a1-also.study.comparison[0].meaning",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "9ed88465dcd48a4066efc976cfbbc376bc97540182e61a96aff1fd398bd4072a",
+    "owner_b_sha256": "1bff9b73abbe04bd6fea9c0a09d3c1d22e3a85239d145f67f45ae6367d9141ef"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-an",
+    "field_path": "a1.card.a1-an.native",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "0a72ce6d91a2da882c76dc8e70e46cd9644602782baa1fcc8fa8d6521de135fe",
+    "owner_b_sha256": "67de05e1724203b30cef829a1b0b8481074966fad8d85a6b608cf5d8d3e0dbf9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-an",
+    "field_path": "a1.card.a1-an.study.translation",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "13aec669c9e927d1b2921f28b85a9fe24daecacf81f8bf556d45920b8fa9349e",
+    "owner_b_sha256": "67de05e1724203b30cef829a1b0b8481074966fad8d85a6b608cf5d8d3e0dbf9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-aufs",
+    "field_path": "a1.card.a1-aufs.native",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "07f5b87cf72e17230681638b47c1a877bcff32998ec248deda52698d31b8aeb2",
+    "owner_b_sha256": "b278b913facb028517f0fb3a63564bf9f94437d897c60d6d1351e74f9633797c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-aufs",
+    "field_path": "a1.card.a1-aufs.study.translation",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "ba30baab5ceec516088a73c249b3345b4a8f1543cc59ed724aaae73c4cc62e7d",
+    "owner_b_sha256": "b278b913facb028517f0fb3a63564bf9f94437d897c60d6d1351e74f9633797c"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-aus",
+    "field_path": "a1.card.a1-aus.native",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "c4e2980e1f03a3f2a4219346fdf6edc841abbf6387f1fa358993e9fe75197a2f",
+    "owner_b_sha256": "576370a560bf817853c35f763329bcb3096871b34627d6eceb852ba525949d73"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-aus",
+    "field_path": "a1.card.a1-aus.study.translation",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "0a2517e6227d579b7eb515d683693663a679b39fcf4a44a73015a6ec1d653331",
+    "owner_b_sha256": "576370a560bf817853c35f763329bcb3096871b34627d6eceb852ba525949d73"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-besuch",
+    "field_path": "a1.card.a1-besuch.study.comparison[0].meaning",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "2f77583b87dad646612e22ae4e9909c2c33de255ca05350322b5f08a602460ff",
+    "owner_b_sha256": "dbc44b9c6df804d0c564d83cc1afda525617cfba0772802d1a7b69dc22b02fa7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-besuchen",
+    "field_path": "a1.card.a1-besuchen.study.comparison[0].meaning",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "89ce08d9d0793bfb9542b59c5bf69fd5621e00eea2c57d1c2fddd0e31c087792",
+    "owner_b_sha256": "36ec771d2d9fbb64f90ddb7e62269d5651bc8f9731810e1ba7224ab7123bd8dc"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-bringen",
+    "field_path": "a1.card.a1-bringen.study.translation",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "8327cd200c5f8cb46b9acfe9e07f3d2eb4aeac3b23131ce257e579f1f8b71426",
+    "owner_b_sha256": "70160fc8b852212a88575f86805a24a295e9febefb079630a0dc9bb67cea8d40"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-bringen",
+    "field_path": "a1.card.a1-bringen.native",
+    "batch_a": "LRB-004",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "daa7f1697b381771ccaf0a4bd1dc28f12b8586a3a457681698873dc90af548c1",
+    "owner_b_sha256": "70160fc8b852212a88575f86805a24a295e9febefb079630a0dc9bb67cea8d40"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-da",
+    "field_path": "a1.card.a1-da.study.comparison[0].meaning",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "9201fd3ef23a7c5da5766deae87728a3e85f4239237cf1d0378d911303005154",
+    "owner_b_sha256": "6bf9fa605e41db741faa104cc717ad055ad505d7dbd0f790c058619d58558a44"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-das",
+    "field_path": "a1.card.a1-das.study.comparison[2].meaning",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "3631c7b7f2074c60949f02c7a77bcfc45ee9517e43810ec134573d96950b217a",
+    "owner_b_sha256": "bf3cb04230ba00231aa35f191baddf6225bdcdad3fd6041f42039bc2d3b31f0f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-dass",
+    "field_path": "a1.card.a1-dass.study.comparison[1].meaning",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "773a4465005dccdfcceda12a5e037568f92b299b7c16134053a05f2e911cd1da",
+    "owner_b_sha256": "07941b50beba92038783168f76e5149828ca9c10fd22c3c8f23259683a17754b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ein",
+    "field_path": "a1.card.a1-ein.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "0fa0b806aef844da47421642b7d0445b62a52c5227e9aad57e6e870722a040d5",
+    "owner_b_sha256": "9e220b1da83c98690ec3badf96d3c5c543a525c823ad6d4b3af3a61123aaf98f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ein",
+    "field_path": "a1.card.a1-ein.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "0fa0b806aef844da47421642b7d0445b62a52c5227e9aad57e6e870722a040d5",
+    "owner_b_sha256": "9e220b1da83c98690ec3badf96d3c5c543a525c823ad6d4b3af3a61123aaf98f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-einmal",
+    "field_path": "a1.card.a1-einmal.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "80f5f14e777f4e19c61e0ad6ddb7212909396468174cf0b333a4099a1d7d0104",
+    "owner_b_sha256": "c301e6c2670f619acf082ccc8b2ac6974aa70b49f41769c16aed97a0c7506fb5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-einmal",
+    "field_path": "a1.card.a1-einmal.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "80f5f14e777f4e19c61e0ad6ddb7212909396468174cf0b333a4099a1d7d0104",
+    "owner_b_sha256": "c301e6c2670f619acf082ccc8b2ac6974aa70b49f41769c16aed97a0c7506fb5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-eis",
+    "field_path": "a1.card.a1-eis.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "27a6a584e5b9035f862dcda29482e4520335e65684a69f06a792b880ca6e4fca",
+    "owner_b_sha256": "07d78ef98f4f1742a3fc6dc9e38f4e8108ee10839b87d561d4fd65dc0cc63a2e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-eis",
+    "field_path": "a1.card.a1-eis.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "27a6a584e5b9035f862dcda29482e4520335e65684a69f06a792b880ca6e4fca",
+    "owner_b_sha256": "07d78ef98f4f1742a3fc6dc9e38f4e8108ee10839b87d561d4fd65dc0cc63a2e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-erst",
+    "field_path": "a1.card.a1-erst.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "ca6ddc921eb58a39e37c433fcf118d0ed7d13febb05d9f4786fa568f002e9340",
+    "owner_b_sha256": "5644ab237734e0c84933dba6663b72ebf8c1b241ce9c89401ebfabb517fefa5e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-erst",
+    "field_path": "a1.card.a1-erst.study.comparison[0].meaning",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "4191ae0c7b75e2f97bb7e8454471c6c0c185a4c8d8a6c9d174aa0b8e6b00adc2",
+    "owner_b_sha256": "5644ab237734e0c84933dba6663b72ebf8c1b241ce9c89401ebfabb517fefa5e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-erst",
+    "field_path": "a1.card.a1-erst.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "ca6ddc921eb58a39e37c433fcf118d0ed7d13febb05d9f4786fa568f002e9340",
+    "owner_b_sha256": "5644ab237734e0c84933dba6663b72ebf8c1b241ce9c89401ebfabb517fefa5e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-es",
+    "field_path": "a1.card.a1-es.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "b204d9d0fede067a04400eb4b88147877bef1957f4806e7ff58c1357537a04fa",
+    "owner_b_sha256": "5558d0aaeea7ba9cca46c01b8116ed6960fa3e795ea481d92e25ca267f0d1fe5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-es",
+    "field_path": "a1.card.a1-es.study.comparison[0].meaning",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "5558d0aaeea7ba9cca46c01b8116ed6960fa3e795ea481d92e25ca267f0d1fe5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-es",
+    "field_path": "a1.card.a1-es.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "b204d9d0fede067a04400eb4b88147877bef1957f4806e7ff58c1357537a04fa",
+    "owner_b_sha256": "5558d0aaeea7ba9cca46c01b8116ed6960fa3e795ea481d92e25ca267f0d1fe5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-etwas",
+    "field_path": "a1.card.a1-etwas.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "572fd653ad7fb9a669b83aa9d3891e0d1484e7ba0d2db1606bb699318e27537c",
+    "owner_b_sha256": "0aa739fe9f24d4f7bbc57e9e454905ed9df3eaa13e5a2e857e8c663d3f93fd3a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-etwas",
+    "field_path": "a1.card.a1-etwas.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "572fd653ad7fb9a669b83aa9d3891e0d1484e7ba0d2db1606bb699318e27537c",
+    "owner_b_sha256": "0aa739fe9f24d4f7bbc57e9e454905ed9df3eaa13e5a2e857e8c663d3f93fd3a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-euch",
+    "field_path": "a1.card.a1-euch.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "d55ea2fedcf4bdbca0160e60223f9416e1c35d797a2cd3820ebbca0966bf812a",
+    "owner_b_sha256": "0e30812a043680385320e15331519bc660a6aadc9afcf6a3a6d5e7fea91461c8"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-euch",
+    "field_path": "a1.card.a1-euch.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "d55ea2fedcf4bdbca0160e60223f9416e1c35d797a2cd3820ebbca0966bf812a",
+    "owner_b_sha256": "0e30812a043680385320e15331519bc660a6aadc9afcf6a3a6d5e7fea91461c8"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-fahren",
+    "field_path": "a1.card.a1-fahren.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "98f82151f9d6a6172abe02aabc6455347b6c4f3f20e252e9c44fbba13375d227",
+    "owner_b_sha256": "229315e4bcd791879ef750c9e4c92c0605234c5b487ce832f573af480a32129d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-fahren",
+    "field_path": "a1.card.a1-fahren.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "7cf21fd5e76735bd3655e50e8c2fd97a636a721ae879ca0ef4d00e59b91f355f",
+    "owner_b_sha256": "229315e4bcd791879ef750c9e4c92c0605234c5b487ce832f573af480a32129d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-finden",
+    "field_path": "a1.card.a1-finden.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "7c3fad212ac5783d728c91df9f9550abcb3fc54db72e2dc3f7ef58e1da0a2449",
+    "owner_b_sha256": "766dee98ced0407270f5fda33a7180e67f5c21a5894b6c87d276759d65427594"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-finden",
+    "field_path": "a1.card.a1-finden.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "7c3fad212ac5783d728c91df9f9550abcb3fc54db72e2dc3f7ef58e1da0a2449",
+    "owner_b_sha256": "766dee98ced0407270f5fda33a7180e67f5c21a5894b6c87d276759d65427594"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-frau",
+    "field_path": "a1.card.a1-frau.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "726d7b8a96a279120e51f1f0fbac9fb928a98f9ae6ce7a6193fa61541b31961f",
+    "owner_b_sha256": "429b261448536fd264ba2e103da73533a8f83887a438acb2d58d84894f1c331f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-frau",
+    "field_path": "a1.card.a1-frau.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "6cbb53dfeea16ff2bb1731495b025a559e318d9fde5fe4a50a69d291345c760b",
+    "owner_b_sha256": "429b261448536fd264ba2e103da73533a8f83887a438acb2d58d84894f1c331f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-fuer",
+    "field_path": "a1.card.a1-fuer.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "75691627c7a6bbd5f0e7720cb68ead7bba9ab3cc409d5a1aaac3359f016fb773",
+    "owner_b_sha256": "5207bb549297c456d0ec3f4a3d402f4cefa1ff48b7712e91a57af462fec8719a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-fuer",
+    "field_path": "a1.card.a1-fuer.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "75691627c7a6bbd5f0e7720cb68ead7bba9ab3cc409d5a1aaac3359f016fb773",
+    "owner_b_sha256": "5207bb549297c456d0ec3f4a3d402f4cefa1ff48b7712e91a57af462fec8719a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ganz-study",
+    "field_path": "a1.card.a1-ganz-study.study.comparison[0].meaning",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "c6c30224430cc8dab2b4d9363ce0ce8675ca3a89edba5b2492737ce137f255e2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-gefallen-study",
+    "field_path": "a1.card.a1-gefallen-study.study.comparison[0].meaning",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "5214d72dc91f23e8647e1a21e84e1898a825ed8c019eeb781f2dcb9d6dea8c6b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-gleich",
+    "field_path": "a1.card.a1-gleich.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "4630004730d99fd38bfc1d361581897ade21ef7e9fc5f7f6805884abada1518c",
+    "owner_b_sha256": "4697dba0d518f4150f431cd1e1147d9f6548a02d0c5c521db7830e5fbedcbd55"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-gleich",
+    "field_path": "a1.card.a1-gleich.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "4630004730d99fd38bfc1d361581897ade21ef7e9fc5f7f6805884abada1518c",
+    "owner_b_sha256": "4697dba0d518f4150f431cd1e1147d9f6548a02d0c5c521db7830e5fbedcbd55"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-halten",
+    "field_path": "a1.card.a1-halten.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "b3db4896409745fc00a9c546e66a05dda43545ea8051a7606eb741286f96e917",
+    "owner_b_sha256": "43df7469ce61d057ff09076bf15d0bcee04efc85dd335ad96c6440dc4a5a1356"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-halten",
+    "field_path": "a1.card.a1-halten.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "558dc4f55cbfaa095ac93e1eb19384e4bceeb019e2f1d61549c0f96eff8e838c",
+    "owner_b_sha256": "43df7469ce61d057ff09076bf15d0bcee04efc85dd335ad96c6440dc4a5a1356"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-heissen",
+    "field_path": "a1.card.a1-heissen.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "5ac21b49d6e57b2f62fe7a6e663da8a6306c325c07232fef35b396d9e92a6619",
+    "owner_b_sha256": "77c567e0ccc20d43cb840377b20398ca1093c89f591fd061ce17a13ed2d6bf95"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-heissen",
+    "field_path": "a1.card.a1-heissen.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "5ac21b49d6e57b2f62fe7a6e663da8a6306c325c07232fef35b396d9e92a6619",
+    "owner_b_sha256": "77c567e0ccc20d43cb840377b20398ca1093c89f591fd061ce17a13ed2d6bf95"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-hoeren-study",
+    "field_path": "a1.card.a1-hoeren-study.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "1889cd9d893be0fd45caa83117500c7f464b2e346db2ccff9f72253faa7248e9",
+    "owner_b_sha256": "0403d7f2b35b8fbc1e61f97687ada1098b5f3f35abefa7f7a2b442293f06606b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-hoeren-study",
+    "field_path": "a1.card.a1-hoeren-study.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-053",
+    "owner_a_sha256": "1889cd9d893be0fd45caa83117500c7f464b2e346db2ccff9f72253faa7248e9",
+    "owner_b_sha256": "0403d7f2b35b8fbc1e61f97687ada1098b5f3f35abefa7f7a2b442293f06606b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-huebsch",
+    "field_path": "a1.card.a1-huebsch.study.comparison[0].meaning",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "e0ce3b39406d0ca94f6d3e3e5d354f402692ddecfb0754953355ca1a6fb2a7c6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ihr",
+    "field_path": "a1.card.a1-ihr.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "790a336b82d53ec998772531a15075567beab0423994a64612c13eefa5090f2d",
+    "owner_b_sha256": "a3a8c6f5a93822299b6206091d1b3d313378341e2bede35c2511ffc470fbd202"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ihr",
+    "field_path": "a1.card.a1-ihr.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "790a336b82d53ec998772531a15075567beab0423994a64612c13eefa5090f2d",
+    "owner_b_sha256": "a3a8c6f5a93822299b6206091d1b3d313378341e2bede35c2511ffc470fbd202"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-im",
+    "field_path": "a1.card.a1-im.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "82aea9d7671ca7225e744029b42188b9acd8f72417a641e284032ec830a5f82b",
+    "owner_b_sha256": "0d912e9e23e8cf674ca9d908279ef35f238b9cdd7bc0a982574d0f154f1dfe34"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-im",
+    "field_path": "a1.card.a1-im.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "82aea9d7671ca7225e744029b42188b9acd8f72417a641e284032ec830a5f82b",
+    "owner_b_sha256": "0d912e9e23e8cf674ca9d908279ef35f238b9cdd7bc0a982574d0f154f1dfe34"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-in",
+    "field_path": "a1.card.a1-in.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "5ab343176f891b0b51745a9f2248dd1414ae52bb42a1e260c82fe42fe6422033",
+    "owner_b_sha256": "fec02da1ac4452cd1b8be0fc873a0c32051361e4abc62797ed1b2a915e0730e0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-in",
+    "field_path": "a1.card.a1-in.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "5ab343176f891b0b51745a9f2248dd1414ae52bb42a1e260c82fe42fe6422033",
+    "owner_b_sha256": "fec02da1ac4452cd1b8be0fc873a0c32051361e4abc62797ed1b2a915e0730e0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ins",
+    "field_path": "a1.card.a1-ins.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "23d6fab76c1fb69d8359a454bec74f2f0a70d85750296d54478c3b2e4a012db1",
+    "owner_b_sha256": "b2e5a2038222b1d62f93e2587aee62b73e095c5495646f4b4a851f4751e13ad9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ins",
+    "field_path": "a1.card.a1-ins.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "23d6fab76c1fb69d8359a454bec74f2f0a70d85750296d54478c3b2e4a012db1",
+    "owner_b_sha256": "b2e5a2038222b1d62f93e2587aee62b73e095c5495646f4b4a851f4751e13ad9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-kein",
+    "field_path": "a1.card.a1-kein.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "9b83577822175b85602d7a1858d1d24d284ca9dd105936eacacbe890e73afce7",
+    "owner_b_sha256": "af18856632e7f35da7f905db38267c2e2c0e4c667e7082eb305b04398c3090c4"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-kein",
+    "field_path": "a1.card.a1-kein.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "9b83577822175b85602d7a1858d1d24d284ca9dd105936eacacbe890e73afce7",
+    "owner_b_sha256": "af18856632e7f35da7f905db38267c2e2c0e4c667e7082eb305b04398c3090c4"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-koennen",
+    "field_path": "a1.card.a1-koennen.native",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "8c58d6891b478d5ea9ec0e1150bd0683c9bae28649235f0d26e44dd30f4e56c8",
+    "owner_b_sha256": "9f79759f23daafd26b82613c472d09c195a6092a57ba08d7d858589f49be7053"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-koennen",
+    "field_path": "a1.card.a1-koennen.study.translation",
+    "batch_a": "LRB-005",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "8c58d6891b478d5ea9ec0e1150bd0683c9bae28649235f0d26e44dd30f4e56c8",
+    "owner_b_sha256": "9f79759f23daafd26b82613c472d09c195a6092a57ba08d7d858589f49be7053"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-kosten",
+    "field_path": "a1.card.a1-kosten.study.comparison[0].meaning",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "ea86bd451804110ce60a09c8f1cea6e79d02f00b6e1c15fba3210be21781c986",
+    "owner_b_sha256": "4a61b7a49f2e8bca1618ffaa431b647f578257284cc7e95da2c56d15d675dec2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-land",
+    "field_path": "a1.card.a1-land.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "3e4dff3b8fe24e733d023cc1d63c8dad32f0eb030ec199da05e45a64caf1ed01",
+    "owner_b_sha256": "1a27cd2853ccea9fd6260dad4837e6b3d8c482dc6a8ec8f965e662fde24a6792"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-land",
+    "field_path": "a1.card.a1-land.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "3e4dff3b8fe24e733d023cc1d63c8dad32f0eb030ec199da05e45a64caf1ed01",
+    "owner_b_sha256": "1a27cd2853ccea9fd6260dad4837e6b3d8c482dc6a8ec8f965e662fde24a6792"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-lang",
+    "field_path": "a1.card.a1-lang.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "1a712905197a21d12e7e2b55c9f5e8a4fba9c1bf0157687877a7ef1ab953d856",
+    "owner_b_sha256": "d9b414a8206782fc2881c389b25fdb2a4d9e74029b1ae5c62fa8269625caf1ef"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-lang",
+    "field_path": "a1.card.a1-lang.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "1a712905197a21d12e7e2b55c9f5e8a4fba9c1bf0157687877a7ef1ab953d856",
+    "owner_b_sha256": "d9b414a8206782fc2881c389b25fdb2a4d9e74029b1ae5c62fa8269625caf1ef"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-lassen",
+    "field_path": "a1.card.a1-lassen.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "7fc649eed124238a32883ad35197e946da10d0841112b9fcfb98e0f80e58b596",
+    "owner_b_sha256": "065ccd718a1f5b9356366ecc3fe2d4019ffd68f7381d5a84049f13dc3767f4de"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-lassen",
+    "field_path": "a1.card.a1-lassen.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "7fc649eed124238a32883ad35197e946da10d0841112b9fcfb98e0f80e58b596",
+    "owner_b_sha256": "065ccd718a1f5b9356366ecc3fe2d4019ffd68f7381d5a84049f13dc3767f4de"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-laufen",
+    "field_path": "a1.card.a1-laufen.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "415106ca3adfaf58894d9d76c192aa9e338faaa5da2fcb666c2a9f6110858657",
+    "owner_b_sha256": "4436b8a5db8c293a14addce63928c97d3956a79d8e49cc4d2506039c11c03075"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-laufen",
+    "field_path": "a1.card.a1-laufen.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "415106ca3adfaf58894d9d76c192aa9e338faaa5da2fcb666c2a9f6110858657",
+    "owner_b_sha256": "4436b8a5db8c293a14addce63928c97d3956a79d8e49cc4d2506039c11c03075"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-liegen",
+    "field_path": "a1.card.a1-liegen.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "c7e9dc56b9c24f2c654a96929ddea9328e0886af0ada30cf4c50d0c4bdba97e1",
+    "owner_b_sha256": "6fd7d33445907eec758e58ce2e79a9d5d718f4cc35dbeef9e1543a17e6a0698f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-liegen",
+    "field_path": "a1.card.a1-liegen.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "c7e9dc56b9c24f2c654a96929ddea9328e0886af0ada30cf4c50d0c4bdba97e1",
+    "owner_b_sha256": "6fd7d33445907eec758e58ce2e79a9d5d718f4cc35dbeef9e1543a17e6a0698f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-machen",
+    "field_path": "a1.card.a1-machen.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "614db6a94b6d6f379c2f8ea32b791db9058ff91014c3da8b5f99f57fbab0ae33",
+    "owner_b_sha256": "5e812c7f30ee54508bee61025d18d38241a500f938544f545a451edbf1952d75"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-machen",
+    "field_path": "a1.card.a1-machen.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "dbf1e5debee1955da51c98d60f1ecf8795a2c161dc001c9f9442de0d10e31cc3",
+    "owner_b_sha256": "5e812c7f30ee54508bee61025d18d38241a500f938544f545a451edbf1952d75"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-mann",
+    "field_path": "a1.card.a1-mann.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "84cdb1825e3bdb54866dc1edbe60ab901208dadb6442e4992f1058561f2d7d60",
+    "owner_b_sha256": "5856ec18d2bd0ea273947c8f718ceccf643eec37555566e196f2e141878caea9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-mann",
+    "field_path": "a1.card.a1-mann.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "84cdb1825e3bdb54866dc1edbe60ab901208dadb6442e4992f1058561f2d7d60",
+    "owner_b_sha256": "5856ec18d2bd0ea273947c8f718ceccf643eec37555566e196f2e141878caea9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-nach",
+    "field_path": "a1.card.a1-nach.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "8f65d928896545e2454a42cf5bd206fe1b59a9922f878840df746c745ccf33d3",
+    "owner_b_sha256": "7d8d9729bbf41d0ac58c7a1e07a8e9335904e9ebd30a8edb13204cee6f16c499"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-nach",
+    "field_path": "a1.card.a1-nach.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "8f65d928896545e2454a42cf5bd206fe1b59a9922f878840df746c745ccf33d3",
+    "owner_b_sha256": "7d8d9729bbf41d0ac58c7a1e07a8e9335904e9ebd30a8edb13204cee6f16c499"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-natuerlich",
+    "field_path": "a1.card.a1-natuerlich.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "15d019965bb2fa8a1b12b52dedb32fb699632ef3b727c4f836a7ee84506ed124",
+    "owner_b_sha256": "bd6bcaac099de3c98973ba6e9a25dbb5b43b6cbca391e0837ffb52fc96b887d7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-natuerlich",
+    "field_path": "a1.card.a1-natuerlich.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "15d019965bb2fa8a1b12b52dedb32fb699632ef3b727c4f836a7ee84506ed124",
+    "owner_b_sha256": "bd6bcaac099de3c98973ba6e9a25dbb5b43b6cbca391e0837ffb52fc96b887d7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-nehmen",
+    "field_path": "a1.card.a1-nehmen.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "86c1b491d8696701bc21bb56726dcadd30b353750b0beacda0be75a7c22b5e76",
+    "owner_b_sha256": "0b9e22685308fee4c21270537e5f92f8977cc53fea47217b6dd07f6b1179c684"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-nehmen",
+    "field_path": "a1.card.a1-nehmen.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "71cf1ad9a2fd77faa8eb2ca576fc9032200cbec754c68b09e684c9d3933b87b3",
+    "owner_b_sha256": "0b9e22685308fee4c21270537e5f92f8977cc53fea47217b6dd07f6b1179c684"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-neu",
+    "field_path": "a1.card.a1-neu.study.explanation[5]",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "f1cb5a6fd050aca68d1dc3747d6264435081abee92c5c6920d4950ce7cb790a3",
+    "owner_b_sha256": "da46513c4051d132bd73da032e19560329347ad00b9646481308fcc1be22ca18"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-nur-study",
+    "field_path": "a1.card.a1-nur-study.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "ef0f79ff09ea8ababdbcf59daf19aef55f10ab6882803d8a9cf2c3ed5bd06d00",
+    "owner_b_sha256": "e0886f3d9a6e0bbf7cc86561eeab0efc49703312a539aad029cb964f1fa80bd1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-nur-study",
+    "field_path": "a1.card.a1-nur-study.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "ef0f79ff09ea8ababdbcf59daf19aef55f10ab6882803d8a9cf2c3ed5bd06d00",
+    "owner_b_sha256": "e0886f3d9a6e0bbf7cc86561eeab0efc49703312a539aad029cb964f1fa80bd1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-oder",
+    "field_path": "a1.card.a1-oder.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "989f092acf9d7e8c248625c8daa24244540b2b91a5e08c45dabb53ec7763a708",
+    "owner_b_sha256": "84849ba58773391f4d4d78086e8ff21a8a2756e8e6cf26e45b50c7a5fdc67ec6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-oder",
+    "field_path": "a1.card.a1-oder.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "989f092acf9d7e8c248625c8daa24244540b2b91a5e08c45dabb53ec7763a708",
+    "owner_b_sha256": "84849ba58773391f4d4d78086e8ff21a8a2756e8e6cf26e45b50c7a5fdc67ec6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-passen",
+    "field_path": "a1.card.a1-passen.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "b53e617943fab6f44501d72356618fe11858cfea57b1e2e874859c5ad28813e1",
+    "owner_b_sha256": "bf1f376edb6a4a8e5bc005234b0bd98388886fd122a5f1939afbc88db6c8c0ec"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-passen",
+    "field_path": "a1.card.a1-passen.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "702ac9a93d17f6df1515de94f02311c2c96f51b9684338a79271caf1fb24b6c3",
+    "owner_b_sha256": "bf1f376edb6a4a8e5bc005234b0bd98388886fd122a5f1939afbc88db6c8c0ec"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-probieren",
+    "field_path": "a1.card.a1-probieren.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "5596983f4adb52d4de2b377dbb9e3584b595a7c19eae59f76e39e2830ee314e7",
+    "owner_b_sha256": "553734f6ca200734ae04b2fec71cc234c02aa817a795f4cac5dc9083e4c9f84a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-probieren",
+    "field_path": "a1.card.a1-probieren.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "5596983f4adb52d4de2b377dbb9e3584b595a7c19eae59f76e39e2830ee314e7",
+    "owner_b_sha256": "553734f6ca200734ae04b2fec71cc234c02aa817a795f4cac5dc9083e4c9f84a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-seite",
+    "field_path": "a1.card.a1-seite.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "d70aab23453af8c6602883d5afc6fa1ce7b0bffe579c03fe7e8571e4c465ace4",
+    "owner_b_sha256": "59b8a2972fe91ece801441bf290df079d0fbe0f30b7853791df6fd6a3b1ff63d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-seite",
+    "field_path": "a1.card.a1-seite.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "d70aab23453af8c6602883d5afc6fa1ce7b0bffe579c03fe7e8571e4c465ace4",
+    "owner_b_sha256": "59b8a2972fe91ece801441bf290df079d0fbe0f30b7853791df6fd6a3b1ff63d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-sich",
+    "field_path": "a1.card.a1-sich.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "443f49baad888d0ee166121fecb405bf5b350a047e1f4eadf83c7fe6658df04c",
+    "owner_b_sha256": "d1e313bc8ce2bfa5e5ba97d1a2e3385c1b8ace5d8d13d0a8fe5429997ce99e93"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-sich",
+    "field_path": "a1.card.a1-sich.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "2edbd208a60af7de1d054123d8132fd016de04fdf229a6142fd42d6941eb5234",
+    "owner_b_sha256": "d1e313bc8ce2bfa5e5ba97d1a2e3385c1b8ace5d8d13d0a8fe5429997ce99e93"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-sicher",
+    "field_path": "a1.card.a1-sicher.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "81ce5af450c5d9d077df4e2892e97002d18f6b2180946b05d36501a5c83c7c00",
+    "owner_b_sha256": "f8002c569249aa4d507c1a17c8f283725b9968966d031a8c2c2a93529109e431"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-sicher",
+    "field_path": "a1.card.a1-sicher.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "81ce5af450c5d9d077df4e2892e97002d18f6b2180946b05d36501a5c83c7c00",
+    "owner_b_sha256": "f8002c569249aa4d507c1a17c8f283725b9968966d031a8c2c2a93529109e431"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ueber",
+    "field_path": "a1.card.a1-ueber.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-054",
+    "owner_a_sha256": "add2d394f43a17fbbdfbc55d60f36cec7585eb9204e31346357de2d290449b04",
+    "owner_b_sha256": "509bd290bf170b4d1dfa3fd373e3e40868e0e0ab1b4e2f21692eead710f7f133"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-ueber",
+    "field_path": "a1.card.a1-ueber.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "add2d394f43a17fbbdfbc55d60f36cec7585eb9204e31346357de2d290449b04",
+    "owner_b_sha256": "509bd290bf170b4d1dfa3fd373e3e40868e0e0ab1b4e2f21692eead710f7f133"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-um",
+    "field_path": "a1.card.a1-um.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "4512917dd06d3a2ff571d9bc405fc0feb00c6947890f776e4f5493e8f478ef49",
+    "owner_b_sha256": "6776a8f6cdebd976efa9b475c1cb9699e96b10b1e92ea62c23e6428fbc551924"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-um",
+    "field_path": "a1.card.a1-um.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "4512917dd06d3a2ff571d9bc405fc0feb00c6947890f776e4f5493e8f478ef49",
+    "owner_b_sha256": "6776a8f6cdebd976efa9b475c1cb9699e96b10b1e92ea62c23e6428fbc551924"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-verstehen",
+    "field_path": "a1.card.a1-verstehen.study.explanation[2]",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "501289def6d44e964dd81b94ffed291b2b44c2fae486d7b13528f602bc1eee93",
+    "owner_b_sha256": "73b9ced1d19b3f9282fd77d680f56ad8b48811cdd78c4e68e8c041135f0d4efa"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-vor",
+    "field_path": "a1.card.a1-vor.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "5e5dec4f295ea47234be90398bb8f475fd0236d6e2c0210b0bad47a32a451bf7",
+    "owner_b_sha256": "427bf7568976b6c62ec87af35340ee16d1ad743a3ee37e10d680d6a8072c631f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-vor",
+    "field_path": "a1.card.a1-vor.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "5e5dec4f295ea47234be90398bb8f475fd0236d6e2c0210b0bad47a32a451bf7",
+    "owner_b_sha256": "427bf7568976b6c62ec87af35340ee16d1ad743a3ee37e10d680d6a8072c631f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-was",
+    "field_path": "a1.card.a1-was.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "96afae522becf326705f5a33075a01982307df3654fa9ad80a964d1b04511d5b",
+    "owner_b_sha256": "96d4e8d5a809626d04c5e99fd11254036fb60b6bb7835a8e729330ee3f4feafd"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-was",
+    "field_path": "a1.card.a1-was.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "96afae522becf326705f5a33075a01982307df3654fa9ad80a964d1b04511d5b",
+    "owner_b_sha256": "96d4e8d5a809626d04c5e99fd11254036fb60b6bb7835a8e729330ee3f4feafd"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-wenn",
+    "field_path": "a1.card.a1-wenn.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "f4f01a0b8fb1d8125ab36b708607e5387703e5d3597e7b2b73258a6681c17a67",
+    "owner_b_sha256": "956df6dc0181aebdcbaf9c5d700b31c5be2ccff8dc0e28df64950747364ad72d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-wenn",
+    "field_path": "a1.card.a1-wenn.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "f4f01a0b8fb1d8125ab36b708607e5387703e5d3597e7b2b73258a6681c17a67",
+    "owner_b_sha256": "956df6dc0181aebdcbaf9c5d700b31c5be2ccff8dc0e28df64950747364ad72d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-wer",
+    "field_path": "a1.card.a1-wer.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "d4b0b84d51cd081842233cda59449d3c1cddd0d5e6a789d037b0fbe8f83aa51c",
+    "owner_b_sha256": "621226cbb382d6d0f6d04317f5f4095406ecacd87373bf725e4493b2a439bcbb"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-wer",
+    "field_path": "a1.card.a1-wer.study.translation",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "cabe94b2c97f18d01fee61d2e6d1891f327df73f42173a09bbd5161ce6358653",
+    "owner_b_sha256": "621226cbb382d6d0f6d04317f5f4095406ecacd87373bf725e4493b2a439bcbb"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-wie",
+    "field_path": "a1.card.a1-wie.native",
+    "batch_a": "LRB-006",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "052e166c0b7e81b9823de5305eecace7d68e20387f3a1d430c484a762b3e2585",
+    "owner_b_sha256": "5268095a8f76696e7dfa8ca25c7df774fbd6051e4022a25a5bc2a627f442d642"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-wie",
+    "field_path": "a1.card.a1-wie.study.explanation[3]",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "ee15bc6560fc38d3c94f55855048c029233149eb6002fb246140371227850cef",
+    "owner_b_sha256": "5268095a8f76696e7dfa8ca25c7df774fbd6051e4022a25a5bc2a627f442d642"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-wie",
+    "field_path": "a1.card.a1-wie.study.translation",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "052e166c0b7e81b9823de5305eecace7d68e20387f3a1d430c484a762b3e2585",
+    "owner_b_sha256": "5268095a8f76696e7dfa8ca25c7df774fbd6051e4022a25a5bc2a627f442d642"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-zu",
+    "field_path": "a1.card.a1-zu.native",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "80594c6d0d87f3ed1eadd9ea3d2c4f5bb30063237dd58e2bd63dcdca62f1c7b3",
+    "owner_b_sha256": "d7903f20875806a2be9dc0d3c4e13031d8c7faba24139d1006449daa18c7c3ae"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-zu",
+    "field_path": "a1.card.a1-zu.study.translation",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "80594c6d0d87f3ed1eadd9ea3d2c4f5bb30063237dd58e2bd63dcdca62f1c7b3",
+    "owner_b_sha256": "d7903f20875806a2be9dc0d3c4e13031d8c7faba24139d1006449daa18c7c3ae"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-zum",
+    "field_path": "a1.card.a1-zum.study.translation",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "80594c6d0d87f3ed1eadd9ea3d2c4f5bb30063237dd58e2bd63dcdca62f1c7b3",
+    "owner_b_sha256": "c5e486c03f52b0a602108557f76b7f07e9aeb469cbd2ed7bbe0027da26129a5d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "a1-zum",
+    "field_path": "a1.card.a1-zum.native",
+    "batch_a": "LRB-007",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "80594c6d0d87f3ed1eadd9ea3d2c4f5bb30063237dd58e2bd63dcdca62f1c7b3",
+    "owner_b_sha256": "c5e486c03f52b0a602108557f76b7f07e9aeb469cbd2ed7bbe0027da26129a5d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "fi",
+    "card_object_id": "jetzt",
+    "field_path": "a1.card.jetzt.native",
+    "batch_a": "LRB-011",
+    "batch_b": "LRB-055",
+    "owner_a_sha256": "279d044f748028123aaf35bd456be78c36fed338c057510d10f60b132e8a0aa5",
+    "owner_b_sha256": "c2f0d461dcebbacc87d76fc38bbd9a98a28b1b762e7857f904714b0501a5828e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "aufs",
+    "field_path": "study.explanation; study.comparison; study.important",
+    "batch_a": "LRB-002",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "4387becdae4eb82999f89aabc146416d1ec3309abc0b29ea28f55a1f2b5e1a92",
+    "owner_b_sha256": "e602a5451366f09d55012e99fab4c460faf55d8f279967c3f8c713bbcf4b875d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "baden",
+    "field_path": "study.examples, study.comparison",
+    "batch_a": "LRB-002",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "70c0368defd88f4a74ee1fbbce8862ed9e77f6eb97ef12859fde3c61cc6a4c8d",
+    "owner_b_sha256": "a49c7f9c5406733bdb1166496c96435cdfe671906fa99b466398d235b5f6cbe0"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "bitte",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison, study.important",
+    "batch_a": "LRB-002",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "0489afaf721958c1eba949fa6e4b5af2a8bd935e29e00ba2803fb2ffb3db5efe",
+    "owner_b_sha256": "be9c575c10e7f677ff9af1265f55b48b1f668ddcbc8a1a9d92c24b0776a955f7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Bitte",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison, study.important",
+    "batch_a": "LRB-002",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "5deed00b558241d6042c9e5e4bae71ffbc9a214f543323ca689b17b326ecc8f0",
+    "owner_b_sha256": "e9b1c4dc1952882ab13b2a7273c52c1ead886b3cf2dcea82f291ca0d95325038"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "bleiben",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison, study.important",
+    "batch_a": "LRB-002",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "94e8cd110cf841ba9bee414cf0895b54f6b8ece975f0d15ffd5cabe26d6ce791",
+    "owner_b_sha256": "a7402c91c1c877bb52cc6b26e4ab81525b2f6621054523feb8b8e286a994be3b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "bringen",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison, study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "3a5e752b52fbe9c0f9e9d91ef51fdbb409740a8ed8bca469df481268caaa01c2",
+    "owner_b_sha256": "fae92336b23633dc3c756945d5b4286284f64b196a2d94dee20184cdaab6ce6b"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "da",
+    "field_path": "lv, study.translation, study.explanation, study.examples, study.comparison, study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "8abd7263babc0afee319bd7eb3f15ed084b793e0a13ad5cb4fefa77cf28a84a2",
+    "owner_b_sha256": "fccde149612f9542b2a4e5e60f40c294a6d90e3fd5e591b46fccec7420a882a6"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "dass",
+    "field_path": "study.comparison, study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "30c9dd0caecf5440ced31dcdb60c83b15f91b380d4c8387ff540d5cfe4644984",
+    "owner_b_sha256": "2909b4b298101506d97f13aa0ca096117f0c6fd4a79a5da9e2db6920c3685c3f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Eis",
+    "field_path": "study.explanation; study.comparison[1].meaning",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "7895c4aa692db217a6f28f960510a6bc0c8b0c2b0f2592380c60d23aba6ef1f6",
+    "owner_b_sha256": "5ab10055af521d665a955b2420d9490ffe58919e2cccdd1a56cf8b8ccbf3c0a3"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "es",
+    "field_path": "study.examples; study.comparison[1].meaning",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "34c4d6f457ed0aa6b9d8c10378a295d41ff9d0314638ac6ce188f3b41a169a17",
+    "owner_b_sha256": "7abf8d6998e11938d202dea9c7cc475ad6a29b68d3694bc1e19ff0f1ba19155f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "gut",
+    "field_path": "study.explanation; study.important; study.sectionAccents",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "f3d2561e802dd4beebb72c2413825abeaaf19810efeedae9361a51e6684c2294"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "haben",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "350e8972e1a23555e8056337725a51f7387aab6f32615020a49ebb7ba41a446d"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "halten",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "604bc911d360e1de1589153d706ddb6be028b6a2ed8fc1a49d911e18872675eb"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Hand",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "40e0c1b8b79f008e7c16014cd57da8cde0a72b6330c3395d8544a183c0660bb1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "heißen",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "0c6623cc9719b39a5e44787dc96ca2e71a3ce97f45e24ceb8ac52dd561042fd4"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "hoch",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "b61d5f6a8352fcc04504beb2d908c186c0a86e63d9f0107fc5e40bf9b6706982",
+    "owner_b_sha256": "fb940cd2ab9839c3d17745bc3811f38570f76e407b84a5d87e1dd045a82b243a"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "ins",
+    "field_path": "study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "a8423f29148ccac67db73277d3670a9a364c7b69b743b9b44195ef36efb5bf34",
+    "owner_b_sha256": "479b2d09cfcaa0d186ed8ec6a93768eca36c148615e90967f2abbc68f6869bf9"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "jung",
+    "field_path": "study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "6f8082f2d94e3619f8f49ccafd7a27e7f4dbce95b6cf8d2bc88e6d779f3c99c5",
+    "owner_b_sha256": "cd16e6d1238fd2056f9026c8484f346bcd4b914768829ce77815f919b50b8c6e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "können",
+    "field_path": "lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "ff1f066855d943cff78d2da06be5e191d9008b726309446c2b93d1fadbf95982"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "kosten",
+    "field_path": "lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "1983e8e27c3a26f30aeaa37d44a35f38d4fad22677a477a4328229850ecd61bc",
+    "owner_b_sha256": "9a140489ebcb4d0f56bf56644dc2fcc005d738271c0c0f6aa29aa28bc3bf27ea"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Laden",
+    "field_path": "lv; study.translation; study.explanation; study.examples; study.tip; study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "e651cefa736eaf102dd2316b8c77e232143df9c4f156b864d4c2c2c8ef947981"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Land",
+    "field_path": "lv; study.translation; study.explanation; study.examples; study.comparison; study.tip; study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "15ccb291da6db0602910c09952ef56ce09bdbd34fe296c0a0da625899b40ca24"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "lang",
+    "field_path": "lv; study.translation; study.explanation; study.examples; study.tip; study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "bd065ce02d71831ff80672d6732c58ee120c82f6f6bd3983d1a4a597464535ad"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "lassen",
+    "field_path": "study.explanation; study.examples; study.comparison; lv",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "9edf567535d1cbe2dff50e4ef5b2dec92085885322a820f88f4773951b4d7581"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "laufen",
+    "field_path": "study.explanation; study.comparison; lv",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "958718920a4d167e0660bdb3f7af6bfb934bcbafe8b80cd9f3073ab04bf5d323"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "laut",
+    "field_path": "study.explanation; study.examples; lv",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "b233d453ad5464625611989a8dfe98473b27ece8e030fa9071214440ea133eb5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Laut",
+    "field_path": "study.examples; study.explanation; lv",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "a75f5f71d8e108b6eecc28db89acda955fd944842457b15b8b37d3a410aea7c6",
+    "owner_b_sha256": "47f7e5d786b34e849ea8c8b339073c6d9e4c076cc3bed4927dd98d3f5700f27e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "legen",
+    "field_path": "study.explanation; study.examples; study.important; lv",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "98a1eb1f702bb0c15a7b62f61d14a1078d76c2163100bf9dda0f2457b3169635"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "machen",
+    "field_path": "lv; study.explanation",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e70cba2a4d86d4b9a4efc26afc1f8c375d860413539d05d77711f18c9654bee8",
+    "owner_b_sha256": "98727b74bd7bcad9edb41b2584b6d8e4062b5bf654ec59144b0d054151e77b62"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Mann",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "093c05e5c977765374b5de551e2c9949df830dc57d82a4762188971b79952af1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "mit",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "247d40e694f4e085a52e27dd874fbb6e1a1a14a6af656c3757017c15efcd60a3"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "mögen",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "87fbee728d789dfb61b6958f0378c60c0bb3fd386ede22ed5bf2c469ed55d698"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "morgen",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "b1f168d64e1e215b7600cc671608e436cddcd40ef10c019e728c896bb4612126",
+    "owner_b_sha256": "2c00ce35d253951528a310f44db695a11b16318c876982c240f7f6cd6e7c9f6e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Morgen",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "7f0bcfb2f9dc032d5b58b255b7416eb954012d0d356a42ae11bdec7417f91ffc",
+    "owner_b_sha256": "863d0acbb86e0ffaba46701190e453288b2ab3983f69d95ccde9d1eeec8ea48f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "nehmen",
+    "field_path": "study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e40fa352979a12f1277c134810e016538cfa4748c50f841a67634bc89f065314",
+    "owner_b_sha256": "dd0778093c3c8b27a0e353d1d57929958cec8c3c670934c2440c34b7c1a4b600"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "oder",
+    "field_path": "study.comparison[1].meaning; study.tip.text",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "1bff4107a316e72fccbef24b2b75077f00618b34dc3f69db1c22b2492bc36a6c",
+    "owner_b_sha256": "3510bbb4a64eef6ff1b55b0a8f8ec26b579fb7708299e1c8bc824009f7793e7e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "passen",
+    "field_path": "study.comparison[1].meaning; study.tip.text",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "f4c6600bc2aafb7e96c66520352858e28e1de35641ca3328d0c83c76b0cf7989",
+    "owner_b_sha256": "bc3eb4428f376cb26979232958dfd21366e8b2afa882eded8ff5762b2690870f"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "sicher",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "8e6310c3b62d8a1b9065526d5ee2f1832e96d72e84f9967d77c0ad977dc0dec5"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "sie",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "f6c7cced4118ba156b9d04956a7f2a6ea27b29da52cd7ae8ccafa0e9e7e056d8"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Sie",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "e10530c15e77263252eb76e5fe2d93a1609a419fef01979487ff1f09b8f16fd7"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "sitzen",
+    "field_path": "lv, study.examples, study.comparison",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "24273acbf7543dd0c28c0d6e1c714f89fb0ad3d61a4596edd313e8bca85d1e5f",
+    "owner_b_sha256": "2ba7fedda2da048620233df87f6b7899cbfe1b190bfc68a07a3f0dbd1963fe43"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "sollen",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "ecd6058f645694d10bb6e011814eb8d97134aba7fad5b07a13774cb162deb55b",
+    "owner_b_sha256": "b903207fa1780acee16a4fae766e8cde6ccec1a3156c865bb958f40aa220f6ed"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "vom",
+    "field_path": "lv, study.explanation, study.examples, study.comparison, study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "c8101462b7672d452b51ea88afb001312c2cf38615580f7b1d7041790f56f937"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "vor",
+    "field_path": "lv, study.explanation, study.examples, study.comparison, study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "47740e2dfc2c6e2ee116cea62c27a386da1f72ff8b648030d8348217494d1d57"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "wenn",
+    "field_path": "lv, study.explanation, study.examples, study.comparison, study.important",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "d9ab8e5cd220a54b8754b36884cba1c8aeb54e492d8326ff0ec695255092f038"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "zum",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "df827a5901e26e36149ba8947cca25b246228eb9d9aa1d4c928f1dc873306747"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "fernsehen",
+    "field_path": "lv, study.examples, study.sectionAccents",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "8cb631e477f3a911b5f6eaef7159d7f1da7eab21e36260fcce07323699de36e2"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Fernsehen",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "64201088299bbece016433344bc03344a6d5332f32717e6ab7a2e6daeaef2f6e"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Appetit",
+    "field_path": "lv, study",
+    "batch_a": "LRB-002",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "2e636267381338b555c8c6a88f4d1f020dd50c56387cff1301cf68a8f347bba3"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "essen",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-056",
+    "owner_a_sha256": "ccc03480a912b50ffb201a26e44b1f07b3ae4c6901c4b144e6fcd6e31f66d5cd",
+    "owner_b_sha256": "0eb6d5c87c489820888f363451146845c9029fe75dd80b4a9d7eb9f47e4561ae"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Essen",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-057",
+    "owner_a_sha256": "08771ba61fd4f567139b33f555da56485cf7b415cd75d74891ce1a281de456ad",
+    "owner_b_sha256": "b26293b6bcb16dd54289c4c696daaaaa5e4741a9c5ecb7d9e88181d6a49a96b1"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Gemüse",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-057",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "7cbe426a03d8158b5ec915b5be9a3226a0c7eb1a235a39c77c4ede4a6d57abbb"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Obst",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-057",
+    "owner_a_sha256": "d4c668e6f42f442e16a0f3296abdbf242b1196efe561d2288cb73787c506ece3",
+    "owner_b_sha256": "7f9feab73cafc221450d26f3cd4ac27fbb0edb4da604302755968cecea928717"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Ferien",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-057",
+    "owner_a_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "owner_b_sha256": "95a4508ed62c6908eb3a3c4bd5bc2c97887b16b0a13f6ef9508e34164dac5053"
+  },
+  {
+    "type": "GALA_TARGET_CONFLICT",
+    "target_language": "es",
+    "card_object_id": "Urlaub",
+    "field_path": "lv, study",
+    "batch_a": "LRB-003",
+    "batch_b": "LRB-057",
+    "owner_a_sha256": "db13098ef156efcb172deacaf562e4fbd3c3c61a9f8989c1b136642d346d2634",
+    "owner_b_sha256": "c73714119f8d3a179af35c2e00d1022e56c314dcc6d1bc13fc0fb2eabf1c1876"
+  },
+  {
+    "type": "CORRECTION_HISTORY_DECISION_SHA_DRIFT",
+    "batch_id": "LRB-070",
+    "gala_proof_sha": "ae037c2fbc53090192304f49bc52c672f7598afc9466a023c630c00a3d97817d",
+    "decisions_json_sha": "37d82d1f607a2acf271fd5a0678c51e99fc203ac592a6cb09a508995938a546f",
+    "note": "Within-batch correction chain; not a cross-batch gala target conflict."
+  },
+  {
+    "type": "CORRECTION_HISTORY_DECISION_SHA_DRIFT",
+    "batch_id": "LRB-071",
+    "gala_proof_sha": "7a9a29c940e1794490072ef60a9b15a5fbb0ac3710b2284caeaa03fcf018517e",
+    "decisions_json_sha": "ec8fc7ad03ed6230b6ec4239b30e2f6c05a37209a441ff514486ba4de6e23565",
+    "note": "Within-batch correction chain; not a cross-batch gala target conflict."
+  },
+  {
+    "type": "CORRECTION_HISTORY_DECISION_SHA_DRIFT",
+    "batch_id": "LRB-072",
+    "gala_proof_sha": "2cd51db7a662ad584afad8a3baa540543d9ae18ca81f836746958742ec0e0267",
+    "decisions_json_sha": "1bb9c1a5865936c050d20ea5c9a6266898331227230f289b14cb6fdbca0133db",
+    "note": "Within-batch correction chain; not a cross-batch gala target conflict."
+  }
+]

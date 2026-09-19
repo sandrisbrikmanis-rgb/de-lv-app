@@ -1,0 +1,29 @@
+A1 LRB CONSOLIDATION — OWNER COPY-PASTE, KARTĪTES 221–234 (PĒDĒJAIS POSMS)
+
+IDENTITĀTE
+- PR: #830
+- Zars: cursor/a1-lrb-001-103-consolidation
+- SOURCE HEAD: bf2d311a96f31e7c6bdb6ded4b1fde5dbe78a2fa
+- OWNER JSON SHA-256: a0b97daec05c1f3a39c04e60edf5ed92fdf34f65a8ebc4a76ea10e955b5fd5d2
+- OWNER pack kopā ir 234 kartītes; kartīte 235 neeksistē.
+
+DARBĪBA
+1. Pārbaudi identitātes vārtus; nesakritības gadījumā STOP.
+2. Precīzi COPY-PASTE cards[].full_card_owner_new pēc target_language + canonical_card_object_id.
+3. Neveic jaunu lingvistisko analīzi un nemaini OWNER vērtības.
+4. Sinhronizē COPY-PASTE-4, OWNER VIEW un 221–234 proof/APPLIED artefaktus.
+5. Pierādi applied_exactly=14/14, pending=0, DE alignment=0, wrong_language_residue=0, semantic/source-fidelity=0, duplicate/contradiction=0 un full composite=PASS.
+6. Kartītes 001–220 nedrīkst mainīt.
+7. Nemaini DE, data/a1.js, production, Crowdin, ingest/apply vai konsolidēto mapping.
+8. Neieraksti GALA PASS un neveic merge.
+
+GAIDĀMĀ KLASIFIKĀCIJA
+A1_LRB_CONSOLIDATION_OWNER_CARDS_221_234_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT
+
+ATSKAITĒ UZRĀDI
+- commit un pilno HEAD;
+- OWNER JSON SHA-256 un pēc-paste bundle SHA-256;
+- 14/14 kartītes, LABOT/NELABOT/PENDING;
+- visu vārtu rezultātus;
+- mainīto failu sarakstu;
+- apliecinājumu, ka nav GALA PASS, merge, DE/production/Crowdin/ingest/apply izmaiņu.
