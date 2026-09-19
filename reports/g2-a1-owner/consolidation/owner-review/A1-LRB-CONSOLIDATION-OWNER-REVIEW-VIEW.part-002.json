@@ -9,6 +9,7 @@
   "owner_copy_paste_applied": true,
   "gala_correction_1_applied": true,
   "gala_correction_1_cards_041_060": true,
+  "gala_correction_1_cards_061_080": true,
   "cards": [
     {
       "target_language": "es",
@@ -6651,7 +6652,7 @@
             },
             {
               "de": "Die Farbe passt zu dir.",
-              "lv": "Αυτό το χρώμα σού πηγαίνει."
+              "lv": "Το χρώμα σού πηγαίνει."
             },
             {
               "de": "Das passt.",
@@ -7679,7 +7680,7 @@
               {
                 "de": {
                   "blue": [
-                    "klein"
+                    "kleine"
                   ]
                 },
                 "lv": {}
@@ -7801,7 +7802,11 @@
                 "lv": {}
               },
               {
-                "de": {},
+                "de": {
+                  "blue": [
+                    "Läden"
+                  ]
+                },
                 "lv": {}
               },
               {

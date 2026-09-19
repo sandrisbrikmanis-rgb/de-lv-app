@@ -9442,7 +9442,7 @@
             },
             {
               "de": "Die Farbe passt zu dir.",
-              "lv": "Αυτό το χρώμα σού πηγαίνει."
+              "lv": "Το χρώμα σού πηγαίνει."
             },
             {
               "de": "Das passt.",
@@ -10095,7 +10095,7 @@
               {
                 "de": {
                   "blue": [
-                    "klein"
+                    "kleine"
                   ]
                 },
                 "lv": {}
@@ -10179,7 +10179,11 @@
                 "lv": {}
               },
               {
-                "de": {},
+                "de": {
+                  "blue": [
+                    "Läden"
+                  ]
+                },
                 "lv": {}
               },
               {
@@ -11074,5 +11078,19 @@
     "recorded_at": "2026-09-19T08:10:51.493Z",
     "git_head": "09441c57e979ae12ef266624eb6ae24efa1ea3ce",
     "pass_proof_sha256": "2189ce967b5188c982d2e0698e1951019e6556326efb3eeea9db3dd3fe9c7f2f"
+  },
+  "gala_correction_1_cards_061_080": {
+    "applied_at": "2026-09-19T08:31:37.399Z",
+    "source_head": "8e937471d63f1f8091c61398a8a5df76296f9001",
+    "correction_sha256": "df171ea346a81194841530b1c88562d2834d045540c21127b6da565ac4839479",
+    "corrected_keys": [
+      "gr|passen",
+      "hu|Laden",
+      "hu|klein"
+    ],
+    "slice": [
+      60,
+      80
+    ]
   }
 }

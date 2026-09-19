@@ -6,8 +6,8 @@
     "git_head": "0ce1381cf12c0c571d7ec88bc6e6b6f5a18f5d05"
   },
   "owner_bundle_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-CARDS-061-080.json",
-  "owner_bundle_sha256": "06681553aff4662d4422e270e279fabc16167cb40dc0b974918b8275961a50ae",
-  "git_head": "76d33b6749911f658ecd0cbf741216def7243645",
+  "owner_bundle_sha256": "05a5b588f2cf3a3b776a283170e9e8770dd56f84b8218d36cbaa435446853284",
+  "git_head": "8e937471d63f1f8091c61398a8a5df76296f9001",
   "consolidated_mapping_modified": false,
   "production_modified": false,
   "linguistic_changes_made": 0,
@@ -82,5 +82,10 @@
         "row_count": 34
       }
     ]
+  },
+  "post_gala_correction_1": {
+    "correction_sha256": "df171ea346a81194841530b1c88562d2834d045540c21127b6da565ac4839479",
+    "owner_bundle_sha256_after": "05a5b588f2cf3a3b776a283170e9e8770dd56f84b8218d36cbaa435446853284",
+    "original_owner_upload_sha256": "06681553aff4662d4422e270e279fabc16167cb40dc0b974918b8275961a50ae"
   }
 }
