@@ -8,8 +8,10 @@ const path = require("path");
 const { ROOT } = require("./lib/audit-common");
 const {
   TARGET_CLASSIFICATION,
+  MULTIPART_MANIFEST_CORRECTION_COMPLETE_CLASSIFICATION,
   EXPECTED_CARD_COUNT,
   buildConsolidatedMappingFrom234GalaApproved,
+  auditMultipartManifestParts,
 } = require("./lib/g2-a1-lrb-consolidated-mapping-from-234-gala");
 
 const FINAL_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/final");
@@ -165,6 +167,10 @@ function main() {
   fs.mkdirSync(FINAL_DIR, { recursive: true });
   purgeOldDecisionParts();
 
+  const multipartCorrection = process.env.A1_LRB_MULTIPART_MANIFEST_CORRECTION === "1";
+  const generationBaseSha =
+    process.env.A1_CONSOLIDATION_GENERATION_BASE || identity.head;
+
   const generatedAt = new Date().toISOString();
   const consolidatedPayload = {
     schema_version: 3,
@@ -172,7 +178,8 @@ function main() {
     generated_at: generatedAt,
     origin_main_sha: identity.originMainSha,
     consolidation_branch: git("git rev-parse --abbrev-ref HEAD"),
-    generation_base_sha: identity.head,
+    generation_base_sha: generationBaseSha,
+    multipart_manifest_correction: multipartCorrection,
     lrb_range: "LRB-001…LRB-103",
     copy_paste_source: {
       path: copyPasteMeta.path,
@@ -188,11 +195,24 @@ function main() {
 
   const decisionsWrite = writeJsonParts(`${PREFIX}-CONSOLIDATED-OWNER-DECISIONS`, consolidatedPayload);
 
+  if (decisionsWrite.multipart) {
+    for (const part of decisionsWrite.parts) {
+      const abs = path.join(ROOT, part.path);
+      const raw = fs.readFileSync(abs);
+      part.sha256 = sha256(raw);
+      part.byte_length = Buffer.byteLength(raw);
+      const doc = JSON.parse(raw.toString("utf8"));
+      const rows = doc.leaf_decisions || doc.decisions || [];
+      part.row_count = rows.length;
+    }
+  }
+
   const manifest = {
     schema_version: 3,
     generated_at: generatedAt,
     origin_main_sha: identity.originMainSha,
-    generation_base_sha: identity.head,
+    generation_base_sha: generationBaseSha,
+    multipart_manifest_correction: multipartCorrection,
     owner_45_resolution_sha256: identity.ownerSha,
     copy_paste_source_sha256: copyPasteMeta.file_sha256,
     consolidated_decisions: decisionsWrite.multipart
@@ -205,12 +225,28 @@ function main() {
   const manifestPath = path.join(FINAL_DIR, `${PREFIX}-CONSOLIDATED-OWNER-MANIFEST.json`);
   fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + "\n");
 
-  const classification = built.pass ? TARGET_CLASSIFICATION : "A1_LRB_001_103_CONSOLIDATION_BLOCKED";
+  let classification = built.pass ? TARGET_CLASSIFICATION : "A1_LRB_001_103_CONSOLIDATION_BLOCKED";
+  if (built.pass && multipartCorrection) {
+    classification = MULTIPART_MANIFEST_CORRECTION_COMPLETE_CLASSIFICATION;
+  }
+
+  const multipartAudit = auditMultipartManifestParts(manifest);
+  if (
+    multipartAudit.multipart_sha_mismatches ||
+    multipartAudit.multipart_size_mismatches ||
+    multipartAudit.multipart_row_count_mismatches
+  ) {
+    throw new Error(
+      `A1_LRB_MULTIPART_MANIFEST_OUT_OF_SYNC:${JSON.stringify(multipartAudit)}`
+    );
+  }
 
   const proof = {
     schema_version: 2,
     generated_at: generatedAt,
-    generation_base_sha: identity.head,
+    generation_base_sha: generationBaseSha,
+    multipart_manifest_correction: multipartCorrection,
+    multipart_audit: multipartAudit,
     copy_paste_source: {
       path: copyPasteMeta.path,
       sha256: copyPasteMeta.file_sha256,
@@ -341,7 +377,8 @@ Production apply **not executed**. No merge. \`data/**/a1.js\` unchanged by this
     schema_version: 2,
     generated_at: generatedAt,
     verified_commit_sha: identity.head,
-    generation_base_sha: identity.head,
+    generation_base_sha: generationBaseSha,
+    multipart_manifest_correction: multipartCorrection,
     origin_main_sha: identity.originMainSha,
     classification,
     pass: built.pass,

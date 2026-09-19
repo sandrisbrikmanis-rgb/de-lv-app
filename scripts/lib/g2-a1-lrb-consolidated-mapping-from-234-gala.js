@@ -46,6 +46,8 @@ const COPY_PASTE_REL =
 const EXPECTED_CARD_COUNT = 234;
 const TARGET_CLASSIFICATION =
   "A1_LRB_001_103_CONSOLIDATED_MAPPING_REBUILT_FROM_234_GALA_APPROVED_CARDS_AWAITING_OWNER_VERIFICATION";
+const MULTIPART_MANIFEST_CORRECTION_COMPLETE_CLASSIFICATION =
+  "A1_LRB_001_103_CONSOLIDATED_MAPPING_MULTIPART_MANIFEST_CORRECTION_COMPLETE_AWAITING_OWNER_REVERIFICATION";
 
 const GALA_PASS_SLICES = [
   { start: 0, end: 40, marker: "cards_001_040_gala_pass" },
@@ -393,9 +395,54 @@ function buildConsolidatedMappingFrom234GalaApproved({ generationHead, originMai
   };
 }
 
+function auditMultipartManifestParts(manifest) {
+  const parts = manifest.consolidated_decisions?.parts || [];
+  let shaMismatches = 0;
+  let sizeMismatches = 0;
+  let rowCountMismatches = 0;
+  let rowSum = 0;
+  for (const part of parts) {
+    const abs = path.join(ROOT, part.path);
+    const raw = fs.readFileSync(abs);
+    const actualSha = sha256(raw);
+    const actualSize = Buffer.byteLength(raw);
+    const doc = JSON.parse(raw.toString("utf8"));
+    const rows = doc.leaf_decisions || doc.decisions || [];
+    rowSum += rows.length;
+    if (actualSha !== part.sha256) shaMismatches += 1;
+    if (part.byte_length != null && actualSize !== part.byte_length) sizeMismatches += 1;
+    if (part.row_count != null && part.row_count !== rows.length) rowCountMismatches += 1;
+  }
+  return {
+    part_count: parts.length,
+    multipart_sha_mismatches: shaMismatches,
+    multipart_size_mismatches: sizeMismatches,
+    multipart_row_count_mismatches: rowCountMismatches,
+    multipart_row_sum: rowSum,
+  };
+}
+
+function refreshMultipartPartMetadata(parts) {
+  return parts.map((part) => {
+    const abs = path.join(ROOT, part.path);
+    const raw = fs.readFileSync(abs);
+    const doc = JSON.parse(raw.toString("utf8"));
+    const rows = doc.leaf_decisions || doc.decisions || [];
+    return {
+      ...part,
+      sha256: sha256(raw),
+      byte_length: Buffer.byteLength(raw),
+      row_count: rows.length,
+    };
+  });
+}
+
 module.exports = {
   TARGET_CLASSIFICATION,
+  MULTIPART_MANIFEST_CORRECTION_COMPLETE_CLASSIFICATION,
   EXPECTED_CARD_COUNT,
   COPY_PASTE_REL,
   buildConsolidatedMappingFrom234GalaApproved,
+  auditMultipartManifestParts,
+  refreshMultipartPartMetadata,
 };
