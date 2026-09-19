@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "classification": "AWAITING_GALA_VERDICT",
-  "generated_at": "2026-09-19T07:38:44.422Z",
+  "generated_at": "2026-09-19T07:38:53.895Z",
   "source_review_pack_ref": {
     "sha256": "d2a32f5a01accfe5f93abbac4b6d9455c72dbb31"
   },
   "owner_bundle_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-CARDS-021-040.json",
   "owner_bundle_sha256": "cd7bbcda44e5deb2fc7d5c79e1ab6f7d38f551621980c182ba99ebecdf86bf07",
-  "git_head": "8b983de9e0ecf83ec884d4c0785fc8408c126562",
+  "git_head": "1092a611349bfc8e98b52654c959009c525bbf62",
   "consolidated_mapping_modified": false,
   "production_modified": false,
   "linguistic_changes_made": 0,
