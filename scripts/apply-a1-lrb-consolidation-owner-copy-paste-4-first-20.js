@@ -13,7 +13,7 @@ const {
   writeJsonWithParts,
   deepEqual,
 } = require("./lib/g2-a1-lrb-consolidation-owner-review-artifacts");
-const { runFirst20Gates } = require("./lib/g2-a1-lrb-consolidation-owner-first-20-gates");
+const { runOwnerCopyPasteGates } = require("./lib/g2-a1-lrb-consolidation-owner-copy-paste-gates");
 
 const DEFAULT_OWNER_BUNDLE = path.join(
   OUT_DIR,
@@ -88,7 +88,7 @@ function main() {
   viewPayload.read_only = false;
   const viewWrite = writeJsonWithParts("A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW", viewPayload, "cards");
 
-  const gates = runFirst20Gates({ scopeCards, sourceByKey, appliedByKey });
+  const gates = runOwnerCopyPasteGates({ scopeCards, sourceByKey, appliedByKey });
   const head = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
   const proof = {
     schema_version: 1,

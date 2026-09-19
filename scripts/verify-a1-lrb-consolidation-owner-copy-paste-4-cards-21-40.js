@@ -13,8 +13,16 @@ const {
 } = require("./lib/g2-a1-lrb-consolidation-owner-review-artifacts");
 const { runOwnerCopyPasteGates } = require("./lib/g2-a1-lrb-consolidation-owner-copy-paste-gates");
 
-const PROOF_PATH = path.join(OUT_DIR, "A1-LRB-CONSOLIDATION-OWNER-FIRST-20-COPY-PASTE-PROOF.json");
-const OWNER_BUNDLE = path.join(OUT_DIR, "A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-FIRST-20.json");
+const SLICE_START = 20;
+const SLICE_END = 40;
+const PROOF_PATH = path.join(
+  OUT_DIR,
+  "A1-LRB-CONSOLIDATION-OWNER-CARDS-21-40-COPY-PASTE-PROOF.json"
+);
+const OWNER_BUNDLE = path.join(
+  OUT_DIR,
+  "A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-CARDS-021-040.json"
+);
 const COPY_PASTE_4 = path.join(OUT_DIR, "A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4.json");
 
 function main() {
@@ -35,7 +43,7 @@ function main() {
     ? JSON.parse(fs.readFileSync(COPY_PASTE_4, "utf8"))
     : { cards: [] };
 
-  const scopeCards = copyPaste.cards.slice(0, 20);
+  const scopeCards = copyPaste.cards.slice(SLICE_START, SLICE_END);
   const sourceByKey = new Map();
   for (const c of ownerBundle.cards || []) {
     sourceByKey.set(cardKey(c.target_language, c.canonical_card_object_id), c);
@@ -49,15 +57,11 @@ function main() {
     );
   }
 
-  const viewPayload = fs.existsSync(path.join(OUT_DIR, "A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-001.json"))
-    ? loadOwnerReviewViewPayload()
-    : null;
-  if (viewPayload) {
-    for (const c of viewPayload.cards.slice(0, 20)) {
+  if (fs.existsSync(path.join(OUT_DIR, "A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW.part-001.json"))) {
+    const viewPayload = loadOwnerReviewViewPayload();
+    for (const c of viewPayload.cards.slice(SLICE_START, SLICE_END)) {
       const key = cardKey(c.target_language, c.canonical_card_object_id);
-      if (!appliedByKey.get(key) && c.full_card_owner_new) {
-        appliedByKey.set(key, c.full_card_owner_new);
-      }
+      if (c.full_card_owner_new) appliedByKey.set(key, c.full_card_owner_new);
     }
   }
 
