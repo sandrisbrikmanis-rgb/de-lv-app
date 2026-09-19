@@ -325,7 +325,7 @@
             },
             {
               "de": "Ich war da.",
-              "lv": "Bil sem tam."
+              "lv": "Bil sem tam oziroma bila sem tam."
             },
             {
               "de": "Da kommt er.",
@@ -1058,11 +1058,11 @@
             },
             {
               "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-              "lv": "Болестан си, дакле не идеш на посао."
+              "lv": "Болестан/болесна си, дакле не идеш на посао."
             },
             {
               "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-              "lv": "Много сам учио, дакле сада то разумем."
+              "lv": "Много сам учио/учила, дакле сада то разумем."
             }
           ],
           "comparison": [

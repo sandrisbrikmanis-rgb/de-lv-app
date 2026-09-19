@@ -1,0 +1,151 @@
+{
+  "classification": "A1_LRB_CONSOLIDATION_CARDS_141_160_GALA_CORRECTION_1_READY",
+  "base_head": "586796ea88f28cf8af93d86c141752f70b00c8ea",
+  "base_owner_bundle_sha256": "0b509ae89734093174f7a0610db1bb90c767d5b6f5295b8f875126a9a637a197",
+  "cursor_action": "COPY_PASTE_ONLY",
+  "scope": {
+    "cards_reviewed": 20,
+    "labot": 2,
+    "nelabot": 18,
+    "pending": 0
+  },
+  "changes": [
+    {
+      "target_language": "sl",
+      "canonical_card_object_id": "da",
+      "reason": "Dzimumneitrālais DE teikums Ich war da. bija sašaurināts tikai uz vīriešu formu.",
+      "full_card_owner_new": {
+        "lv": "tam • tu",
+        "study": {
+          "id": "a1-da",
+          "layout": "standardStudy",
+          "translation": "tam • tu",
+          "explanation": [
+            "Glavna misel: da na ravni A1 najpogosteje pomeni »tam« ali »tu«.",
+            "Kaže na kraj ali se nanaša na nekaj, kar je bilo že omenjeno.",
+            "Natančen prevod je odvisen od položaja in konteksta."
+          ],
+          "examples": [
+            {
+              "de": "Da ist mein Auto.",
+              "lv": "Tam je moj avto."
+            },
+            {
+              "de": "Ich war da.",
+              "lv": "Bil sem tam oziroma bila sem tam."
+            },
+            {
+              "de": "Da kommt er.",
+              "lv": "Glej, prihaja."
+            },
+            {
+              "de": "Komm mal da her!",
+              "lv": "Pridi sem!"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "da",
+              "meaning": "tam • tu (splošno)",
+              "example": "Da ist mein Auto. – Tam je moj avto."
+            },
+            {
+              "word": "hier",
+              "meaning": "tukaj (na konkretnem mestu)",
+              "example": "Hier ist mein Auto. – Tukaj je moj avto."
+            },
+            {
+              "word": "dort",
+              "meaning": "tam (bolj oddaljeno)",
+              "example": "Dort ist mein Auto. – Tam je moj avto."
+            },
+            {
+              "word": "dann",
+              "meaning": "potem",
+              "example": "Dann gehen wir nach Hause. – Potem gremo domov."
+            }
+          ],
+          "tip": {
+            "text": "Zapomni si: splošni »tam/tu« → da."
+          },
+          "important": [
+            "da je splošni krajevni prislov.",
+            "hier pomeni konkretno »tukaj«, dort pa bolj oddaljeni »tam«."
+          ]
+        }
+      }
+    },
+    {
+      "target_language": "sr",
+      "canonical_card_object_id": "also",
+      "reason": "Divi dzimumneitrāli DE piemēri bija sašaurināti tikai uz serbu vīriešu formu.",
+      "full_card_owner_new": {
+        "lv": "дакле • према томе",
+        "study": {
+          "id": "a1-also",
+          "layout": "standardStudy",
+          "translation": "дакле • према томе",
+          "explanation": "Користи се за извођење закључка или приказивање резултата: „дакле“, „према томе“.",
+          "examples": [
+            {
+              "de": "Es regnet, also bleibe ich zu Hause.",
+              "lv": "Пада киша, дакле остајем код куће."
+            },
+            {
+              "de": "Du bist krank, also gehst du nicht zur Arbeit.",
+              "lv": "Болестан/болесна си, дакле не идеш на посао."
+            },
+            {
+              "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
+              "lv": "Много сам учио/учила, дакле сада то разумем."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "also",
+              "meaning": "дакле • према томе",
+              "example": "Es regnet, also bleibe ich zu Hause. – Пада киша, дакле остајем код куће."
+            },
+            {
+              "word": "auch",
+              "meaning": "такође",
+              "example": "Ich komme auch. – И ја долазим."
+            },
+            {
+              "word": "deshalb",
+              "meaning": "зато",
+              "example": "Es regnet, deshalb bleibe ich zu Hause. – Пада киша, зато остајем код куће."
+            }
+          ],
+          "tip": {
+            "text": "Запамти: закључак → also."
+          },
+          "important": [
+            "also уводи закључак који произлази из претходно реченог.",
+            "За значење „зато“ немачки често користи deshalb."
+          ]
+        }
+      }
+    }
+  ],
+  "nelabot_keys": [
+    "sl|an",
+    "sl|auch",
+    "sl|aufs",
+    "sl|bei",
+    "sl|bleiben",
+    "sl|das",
+    "sl|ein",
+    "sl|Eis",
+    "sl|erst",
+    "sl|Ferien",
+    "sl|gefallen",
+    "sl|gleich",
+    "sl|klein",
+    "sl|sprechen",
+    "sq|baden",
+    "sq|Besuch",
+    "sq|besuchen",
+    "sr|auch"
+  ]
+}

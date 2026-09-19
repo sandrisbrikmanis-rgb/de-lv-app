@@ -17140,7 +17140,7 @@
             },
             {
               "de": "Ich war da.",
-              "lv": "Bil sem tam."
+              "lv": "Bil sem tam oziroma bila sem tam."
             },
             {
               "de": "Da kommt er.",
@@ -17873,11 +17873,11 @@
             },
             {
               "de": "Du bist krank, also gehst du nicht zur Arbeit.",
-              "lv": "Болестан си, дакле не идеш на посао."
+              "lv": "Болестан/болесна си, дакле не идеш на посао."
             },
             {
               "de": "Ich habe viel gelernt, also verstehe ich es jetzt.",
-              "lv": "Много сам учио, дакле сада то разумем."
+              "lv": "Много сам учио/учила, дакле сада то разумем."
             }
           ],
           "comparison": [
@@ -18528,5 +18528,18 @@
     "git_head": "a66237f4c558c19e0f7268a71b8dcb7ae3d5c134",
     "pass_proof_sha256": "f9006bd8b0e98d4b83aac331fbbf8b92035521a9505d46da7f1d2029d216dce4",
     "cards_121_140_payload_sha256": "0f26bb8d2c09b53ec4093a1e11287b4e0c8362185173bcfa795467f52acf4637"
+  },
+  "gala_correction_1_cards_141_160": {
+    "applied_at": "2026-09-19T09:42:49.217Z",
+    "source_head": "586796ea88f28cf8af93d86c141752f70b00c8ea",
+    "correction_sha256": "c71cf261d1177ce72ab25dc34797c456d27b4a9f6ce06180c7481978fe48ff65",
+    "corrected_keys": [
+      "sl|da",
+      "sr|also"
+    ],
+    "slice": [
+      140,
+      160
+    ]
   }
 }
