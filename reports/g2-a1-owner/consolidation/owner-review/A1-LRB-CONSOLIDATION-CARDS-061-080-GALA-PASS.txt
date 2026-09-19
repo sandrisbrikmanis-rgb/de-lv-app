@@ -1,0 +1,16 @@
+A1 LRB konsolidācija — kartīšu 061–080 GALA PASS
+
+Verdikts: A1_LRB_CONSOLIDATION_CARDS_061_080_FULL_LINGUISTIC_REVIEW_PASS
+
+| Pārbaude | Rezultāts |
+| --- | ---: |
+| Pārbaudītas kartītes | 20/20 |
+| LABOT | 3/3 piemēroti precīzi |
+| NELABOT | 17/17 nemainītas |
+| PENDING | 0 |
+| Pilnās kartītes | 18/18 PASS |
+| Skalārās kartītes | 2/2 PASS |
+
+Git HEAD: 5220cc44fa7b902cc59f9ffad08cdff70c34aa83
+Cards 061–080 payload SHA-256: 6422ee34c3cec7c77375dae323d94a3de96d1e7572e4dc7c40dc9e68630d335f
+Pass proof SHA-256: 97b6f67d23360a0239abf72df96aa3a5d4830153416848d9d189b70fce596643
