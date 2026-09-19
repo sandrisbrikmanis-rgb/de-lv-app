@@ -10,7 +10,10 @@ const { chromium } = require("playwright");
 
 const ROOT = path.join(__dirname, "..");
 const PORT = 8765;
-const REPORT_JSON = path.join(ROOT, "reports/temp/et-kurss-live-runtime-browser.json");
+const REPORT_JSON = process.env.ET_KURSS_RUNTIME_REPORT_JSON
+  ? path.resolve(process.env.ET_KURSS_RUNTIME_REPORT_JSON)
+  : path.join(ROOT, "reports/temp/et-kurss-live-runtime-browser.json");
+const FULL_MODULE = process.env.ET_KURSS_FULL_MODULE_RUNTIME === "1";
 
 function serveStatic(req, res) {
   let urlPath = req.url.split("?")[0];
@@ -39,7 +42,36 @@ async function main() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
   const lessonResults = [];
+  const staticSectionResults = [];
   let failures = 0;
+
+  async function showKurssMainMenu() {
+    for (let i = 0; i < 6; i++) {
+      const listVisible = await page.locator("#kurssList:not([hidden])").count();
+      if (listVisible > 0) return;
+      const back = page.locator("#kurssBackBtn");
+      if ((await back.count()) === 0) return;
+      await back.click();
+      await page.waitForTimeout(200);
+    }
+  }
+
+  async function testStaticPanel(btnId, panelId, label) {
+    await showKurssMainMenu();
+    await page.click(`#${btnId}`);
+    await page.waitForSelector(`#${panelId}:not([hidden])`, { timeout: 10000 });
+    await page.waitForTimeout(300);
+    const text = await page.locator(`#${panelId}`).innerText();
+    const blank = text.trim().length < 40;
+    const lvHits = [];
+    if (/Vācu valodas skaņas un izrunas pamati/i.test(text) && label !== "menu-placeholder") {
+      lvHits.push("LV menu placeholder");
+    }
+    const row = { section: label, btnId, panelId, blank, textLen: text.trim().length, lvHits, pass: !blank && lvHits.length === 0 };
+    if (!row.pass) failures++;
+    staticSectionResults.push(row);
+    return row;
+  }
 
   try {
     await page.goto(`http://127.0.0.1:${PORT}/index.html`, { waitUntil: "networkidle" });
@@ -50,6 +82,44 @@ async function main() {
     await page.waitForFunction(() => !document.body.classList.contains("app-launching"), null, { timeout: 15000 });
     await page.locator("#mainMenuButtons button").filter({ hasText: /Kursus|Kurss/i }).first().click();
     await page.waitForSelector("#kurssPanel:not([hidden])", { timeout: 10000 });
+
+    if (FULL_MODULE) {
+      await testStaticPanel("kurssArticlesBtn", "kurssArticlesLesson", "Artiklid");
+      await testStaticPanel("kurssPronounsBtn", "kurssPronounsLesson", "Asesõnad");
+      await testStaticPanel("kurssVerbBasicsBtn", "kurssVerbBasicsLesson", "Tegusõnade alused");
+      await testStaticPanel("kurssSentenceStructureBtn", "kurssSentenceStructureLesson", "Lause ülesehitus");
+      await showKurssMainMenu();
+      await page.click("#kurssPronunciationBtn");
+      await page.waitForSelector("#kurssPronunciationMenu:not([hidden])", { timeout: 10000 });
+      await page.click("#kurssVowelsLessonBtn");
+      await page.waitForSelector("#kurssPronunciationLesson:not([hidden])", { timeout: 10000 });
+      const vowelsText = await page.locator("#kurssPronunciationLesson").innerText();
+      const vowelsPass = vowelsText.trim().length >= 40;
+      if (!vowelsPass) failures++;
+      staticSectionResults.push({
+        section: "Hääldus (täishäälikud)",
+        panelId: "kurssPronunciationLesson",
+        blank: !vowelsPass,
+        textLen: vowelsText.trim().length,
+        pass: vowelsPass,
+      });
+      await page.click("#kurssBackBtn");
+      await page.waitForTimeout(200);
+      await page.click("#kurssConsonantsLessonBtn");
+      await page.waitForSelector("#kurssConsonantsLesson:not([hidden])", { timeout: 10000 });
+      const consText = await page.locator("#kurssConsonantsLesson").innerText();
+      const consPass = consText.trim().length >= 40;
+      if (!consPass) failures++;
+      staticSectionResults.push({
+        section: "Hääldus (kaashäälikud)",
+        panelId: "kurssConsonantsLesson",
+        blank: !consPass,
+        textLen: consText.trim().length,
+        pass: consPass,
+      });
+      await showKurssMainMenu();
+    }
+
     await page.click("#kurssLessonsBtn");
     await page.waitForSelector("#kurssLessonsMenu:not([hidden])", { timeout: 10000 });
 
@@ -221,10 +291,8 @@ async function main() {
       if (/Āboli ir groziņā/i.test(panelText)) lvHits.push("Āboli ir groziņā");
 
       let dynamic = null;
-      if (num >= 8) {
-        dynamic = await testDynamicCards(num);
-        if (!dynamic.exercise.pass || !dynamic.translate.pass) failures++;
-      }
+      dynamic = await testDynamicCards(num);
+      if (!dynamic.exercise.pass || !dynamic.translate.pass) failures++;
 
       const row = {
         lesson: num,
@@ -232,7 +300,7 @@ async function main() {
         blankPanel,
         lvHits,
         dynamic,
-        pass: !blankPanel && lvHits.length === 0 && (num < 8 || (dynamic?.exercise.pass && dynamic?.translate.pass)),
+        pass: !blankPanel && lvHits.length === 0 && dynamic.exercise.pass && dynamic.translate.pass,
       };
       if (!row.pass) failures++;
       lessonResults.push(row);
@@ -246,34 +314,73 @@ async function main() {
   }
 
   const l18 = lessonResults.find((r) => r.lesson === 18);
+
+  function dynamicGate(subfield, prop) {
+    const withDeck = lessonResults.filter((r) => r.dynamic?.[subfield]?.deckLen > 0);
+    if (withDeck.length === 0) return "N/A";
+    return withDeck.every((r) => r.dynamic[subfield][prop]) ? "PASS" : "FAIL";
+  }
+
   const report = {
     generatedAt: new Date().toISOString(),
-    kurssL1L21RenderScope: failures === 0 ? "PASS" : "FAIL",
+    fullModule: FULL_MODULE,
+    kurssFullModuleRuntimeSmoke: failures === 0 ? "PASS" : "FAIL",
+    kurssL1L21RenderScope: lessonResults.every((r) => !r.blankPanel && r.lvHits.length === 0) ? "PASS" : "FAIL",
     kurssRuntimeSmoke: failures === 0 ? "PASS" : "FAIL",
-    kurssDynamicExercise: lessonResults.filter((r) => r.lesson >= 8).every((r) => r.dynamic?.exercise.pass) ? "PASS" : "FAIL",
-    kurssDynamicTranslate: lessonResults.filter((r) => r.lesson >= 8).every((r) => r.dynamic?.translate.pass) ? "PASS" : "FAIL",
-    kurssFirstCardInitialization: lessonResults
-      .filter((r) => r.lesson >= 8)
-      .every((r) => r.dynamic?.exercise.init && r.dynamic?.translate.init)
-      ? "PASS"
-      : "FAIL",
-    kurssProgress: lessonResults
-      .filter((r) => r.lesson >= 8)
-      .every((r) => r.dynamic?.exercise.progress && r.dynamic?.translate.progress)
-      ? "PASS"
-      : "FAIL",
-    kurssFlip: lessonResults
-      .filter((r) => r.lesson >= 8)
-      .every((r) => r.dynamic?.exercise.flip && r.dynamic?.translate.flip)
-      ? "PASS"
-      : "FAIL",
-    kurssNext: lessonResults
-      .filter((r) => r.lesson >= 8)
-      .every((r) => r.dynamic?.exercise.next && r.dynamic?.translate.next)
-      ? "PASS"
-      : "FAIL",
-    etL18Harjutus: l18?.dynamic?.exercise.pass ? "PASS" : "FAIL",
-    etL18Tolgi: l18?.dynamic?.translate.pass ? "PASS" : "FAIL",
+    kurssDynamicExercise: dynamicGate("exercise", "pass"),
+    kurssDynamicTranslate: dynamicGate("translate", "pass"),
+    kurssFirstCardInitialization:
+      dynamicGate("exercise", "init") === "N/A" && dynamicGate("translate", "init") === "N/A"
+        ? "N/A"
+        : lessonResults
+              .filter((r) => r.dynamic?.exercise.deckLen > 0 || r.dynamic?.translate.deckLen > 0)
+              .every((r) => {
+                const exOk = r.dynamic.exercise.deckLen === 0 || r.dynamic.exercise.init;
+                const trOk = r.dynamic.translate.deckLen === 0 || r.dynamic.translate.init;
+                return exOk && trOk;
+              })
+          ? "PASS"
+          : "FAIL",
+    kurssProgress:
+      dynamicGate("exercise", "progress") === "N/A" && dynamicGate("translate", "progress") === "N/A"
+        ? "N/A"
+        : lessonResults
+              .filter((r) => r.dynamic?.exercise.deckLen > 0 || r.dynamic?.translate.deckLen > 0)
+              .every((r) => {
+                const exOk = r.dynamic.exercise.deckLen === 0 || r.dynamic.exercise.progress;
+                const trOk = r.dynamic.translate.deckLen === 0 || r.dynamic.translate.progress;
+                return exOk && trOk;
+              })
+          ? "PASS"
+          : "FAIL",
+    kurssFlip:
+      dynamicGate("exercise", "flip") === "N/A" && dynamicGate("translate", "flip") === "N/A"
+        ? "N/A"
+        : lessonResults
+              .filter((r) => r.dynamic?.exercise.deckLen > 0 || r.dynamic?.translate.deckLen > 0)
+              .every((r) => {
+                const exOk = r.dynamic.exercise.deckLen === 0 || r.dynamic.exercise.flip;
+                const trOk = r.dynamic.translate.deckLen === 0 || r.dynamic.translate.flip;
+                return exOk && trOk;
+              })
+          ? "PASS"
+          : "FAIL",
+    kurssNext:
+      dynamicGate("exercise", "next") === "N/A" && dynamicGate("translate", "next") === "N/A"
+        ? "N/A"
+        : lessonResults
+              .filter((r) => r.dynamic?.exercise.deckLen > 0 || r.dynamic?.translate.deckLen > 0)
+              .every((r) => {
+                const exOk = r.dynamic.exercise.deckLen === 0 || r.dynamic.exercise.next;
+                const trOk = r.dynamic.translate.deckLen === 0 || r.dynamic.translate.next;
+                return exOk && trOk;
+              })
+          ? "PASS"
+          : "FAIL",
+    staticSections: staticSectionResults,
+    staticSectionsPass: staticSectionResults.length === 0 || staticSectionResults.every((s) => s.pass),
+    etL18Harjutus: l18?.dynamic?.exercise.pass ? "PASS" : l18?.dynamic?.exercise.deckLen === 0 ? "N/A" : "FAIL",
+    etL18Tolgi: l18?.dynamic?.translate.pass ? "PASS" : l18?.dynamic?.translate.deckLen === 0 ? "N/A" : "FAIL",
     failures,
     lessons: lessonResults,
   };

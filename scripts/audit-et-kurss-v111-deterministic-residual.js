@@ -80,7 +80,9 @@ function loadUi() {
   return ctx.window.LANGUAGE_UI_STRINGS || {};
 }
 
-function loadRootTraining(rawCode) {
+function loadRootTraining() {
+  const uiPath = path.join(ROOT, "ui.js");
+  const rawCode = fs.readFileSync(uiPath, "utf8");
   const decks = {};
   const re = /const (lesson\d+TrainingCardsEt) = (\[[\s\S]*?\n\];)/g;
   let m;
@@ -283,7 +285,7 @@ function main() {
   const originMain = execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
   const { html, data, rawCode } = loadCourses();
   const ui = loadUi();
-  const training = loadRootTraining(rawCode);
+  const training = loadRootTraining();
   const findings = [];
   const counters = {
     foreign: 0,
@@ -342,7 +344,7 @@ function main() {
   walkValue(ui, "languages/et/ui.js → LANGUAGE_UI_STRINGS", false, findings, counters, emptyRequired, seen);
 
   for (const key of TRAINING_KEYS) {
-    if (training[key]) walkValue(training[key], key, false, findings, counters, emptyRequired, seen);
+    if (training[key]) walkValue(training[key], `ui.js → ${key}`, false, findings, counters, emptyRequired, seen);
   }
 
   counters.multiTranslationCandidates = findings.filter((f) => f.type === "MULTIPLE_TRANSLATION_CANDIDATE").length;
