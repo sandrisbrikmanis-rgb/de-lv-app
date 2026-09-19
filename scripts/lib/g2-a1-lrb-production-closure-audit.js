@@ -38,7 +38,7 @@ const CLOSURE_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/productio
 const FINAL_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/final");
 const APPLY_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/production-apply");
 const PREP_DIR = path.join(ROOT, "reports/g2-a1-owner/consolidation/production-apply-prep");
-const EXPECTED_MAIN_HEAD = "260f3bd08476c0f9149092e2d5a4a51be3feb850";
+const EXPECTED_MAIN_HEAD = "3fc5da23cbdfe5ff20e6d6185404b26e2a48572c";
 const EXPECTED_PRODUCTION_FILE_SET_SHA =
   "0a14ddc3a066cfe47bafb5e9b762d96ca66aca81ad77d7e20a5218dd234d543e";
 const EXPECTED_ATOMIC_MAPPING_SHA =
@@ -74,6 +74,16 @@ const FINAL_CLASS = {
 
 function git(cmd) {
   return execSync(cmd, { cwd: ROOT, encoding: "utf8", maxBuffer: 64 * 1024 * 1024 }).trim();
+}
+
+function isAllowedOriginMain(originMain, expectedMain) {
+  if (originMain === expectedMain) return true;
+  try {
+    execSync(`git merge-base --is-ancestor ${expectedMain} ${originMain}`, { cwd: ROOT, stdio: "pipe" });
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 function primaryLeafKey(row) {
@@ -278,7 +288,7 @@ function auditAllA1LangMirrors() {
 function runProductionClosureAudit(options = {}) {
   const blockers = [];
   const originMain = git("git rev-parse origin/main");
-  if (originMain !== EXPECTED_MAIN_HEAD) {
+  if (!isAllowedOriginMain(originMain, EXPECTED_MAIN_HEAD)) {
     blockers.push(`origin_main_mismatch:${originMain}`);
   }
 

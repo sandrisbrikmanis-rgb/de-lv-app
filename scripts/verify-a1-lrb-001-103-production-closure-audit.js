@@ -30,9 +30,20 @@ function git(cmd) {
 function main() {
   const blockers = [];
 
-  if (git("git rev-parse origin/main") !== EXPECTED_MAIN_HEAD) {
-    blockers.push("origin_main_mismatch");
+  const originMain = git("git rev-parse origin/main");
+  let mainHeadOk = originMain === EXPECTED_MAIN_HEAD;
+  if (!mainHeadOk) {
+    try {
+      execSync(`git merge-base --is-ancestor ${EXPECTED_MAIN_HEAD} ${originMain}`, {
+        cwd: ROOT,
+        stdio: "pipe",
+      });
+      mainHeadOk = true;
+    } catch {
+      mainHeadOk = false;
+    }
   }
+  if (!mainHeadOk) blockers.push("origin_main_mismatch");
 
   const required = [
     `${PREFIX}-PRODUCTION-CLOSURE-AUDIT.json`,

@@ -1,33 +1,33 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:25:54.045Z",
-  "origin_main_sha": "260f3bd08476c0f9149092e2d5a4a51be3feb850",
+  "generated_at": "2026-09-19T13:26:39.379Z",
+  "origin_main_sha": "81be2f4eddeec4d29608f981ac5170837cd3d892",
   "multipart": true,
   "artifacts": [
     {
       "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-PRODUCTION-CLOSURE-AUDIT.json",
-      "sha256": "2273f83ca2c7c5f648a4e3d706c260a35cf20e28b19dddb32be73e735eb9d08d"
+      "sha256": "7fa1ee21fe9770a3b24ee422b45557934831d83a42ae71eec645e252a6a383d4"
     },
     {
       "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-PRODUCTION-CLOSURE-PROOF.json",
-      "sha256": "ce3071e2131ff8b7033159b1827819fd173e9ae600b2301bff7ef1715fce6279"
+      "sha256": "3b5e35719c23d1c9d4428ec37b46940bd071385ab782e533a865bf9a4943de9e"
     },
     {
       "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-PRODUCTION-CARD-COVERAGE.json",
-      "sha256": "2528c4fb6ff4c6754d174c65199d0e32dc66f67de9167dc90775738f2adf4357"
+      "sha256": "2a2ec8835acaa9874831d8ebd5cf0794a27f977bd2c2eb19c0717b452d1e8bc5"
     },
     {
       "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-FINDING-ROW-CLOSURE-RECONCILIATION.part-001.json",
-      "sha256": "50aa90aa870c61040cc6de1eda1049d7f3953fe11628f87c77e81b605a9e5fed",
+      "sha256": "27451d58fd470a14088df7eadab8314c1098dc52a50d0bcf59c6125040792019",
       "byte_length": 3999806,
       "row_count": 4063
     },
     {
       "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-FINDING-ROW-CLOSURE-RECONCILIATION.part-002.json",
-      "sha256": "d0f70ff7b772e4d142556fd11cb443c5ea0d71c86358a539fcb29621151175cc",
+      "sha256": "ac6857320ebc708262c9371930eac6d347ef2c6ccef2491f11124fe8f506b653",
       "byte_length": 1128166,
       "row_count": 905
     }
   ],
-  "closure_proof_sha256": "ce3071e2131ff8b7033159b1827819fd173e9ae600b2301bff7ef1715fce6279"
+  "closure_proof_sha256": "3b5e35719c23d1c9d4428ec37b46940bd071385ab782e533a865bf9a4943de9e"
 }

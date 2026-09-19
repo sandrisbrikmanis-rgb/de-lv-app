@@ -1,10 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:25:54.045Z",
-  "pass": false,
-  "blockers": [
-    "origin_main_mismatch:260f3bd08476c0f9149092e2d5a4a51be3feb850"
-  ],
+  "generated_at": "2026-09-19T13:26:39.379Z",
+  "pass": true,
+  "blockers": [],
   "numbers_table": {
     "lrb_batches": 103,
     "finding_rows_expanded_generation": 4968,
@@ -20,7 +18,7 @@
   },
   "finding_row_reconciliation_sum": 4968,
   "owner_45_applied": "45/45",
-  "alias_reconciliation_sha256": "6b7a32c78d020539283090746655ffaec3a2e49e9f425736beed23f0da998bbb",
+  "alias_reconciliation_sha256": "f4fac763b9efcbeeff8265c3e5a1192909141d2d8cf0c97be11b28784acba92f",
   "apply_proof_sha256": "e75204623f9203f9077f5edef77d0c15dc54f3f9180a8231607604226ad8e87f",
   "apply_manifest_sha256": "3b28b68856b1c44da5b8b3c0af20f80705ae7602de41f145e788d7bba2d1ad77",
   "finding_alias_correction_1": {
@@ -94,9 +92,9 @@
           "sk|wie"
         ],
         "alias_evidence_path": "reports/g2-a1-owner/consolidation/production-apply/A1-LRB-001-103-PRODUCTION-TARGET-ALIAS-RECONCILIATION.json",
-        "alias_evidence_sha256": "6b7a32c78d020539283090746655ffaec3a2e49e9f425736beed23f0da998bbb"
+        "alias_evidence_sha256": "f4fac763b9efcbeeff8265c3e5a1192909141d2d8cf0c97be11b28784acba92f"
       }
     ]
   },
-  "classification": "A1_LRB_001_103_PRODUCTION_CLOSURE_AUDIT_BLOCKED"
+  "classification": "A1_LRB_001_103_PRODUCTION_CLOSURE_FINDING_ALIAS_CORRECTION_1_COMPLETE_AWAITING_OWNER_REVERIFICATION"
 }
