@@ -34,11 +34,11 @@ function isScalarOwnerCard(card) {
   return false;
 }
 
+/** Degenerate example rows (both de and lv empty); identical de+lv repeats are allowed in OWNER full cards. */
 function countDuplicateDegenerateExamplePairs(card) {
   const ex = card?.study?.examples;
   if (!Array.isArray(ex)) return 0;
   let bad = 0;
-  const seen = new Set();
   for (const e of ex) {
     if (!e) {
       bad += 1;
@@ -47,9 +47,6 @@ function countDuplicateDegenerateExamplePairs(card) {
     const de = String(e.de ?? "").trim();
     const lv = String(e.lv ?? "").trim();
     if (!de && !lv) bad += 1;
-    const sig = `${de}\0${lv}`;
-    if (seen.has(sig)) bad += 1;
-    else seen.add(sig);
   }
   return bad;
 }

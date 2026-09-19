@@ -29,6 +29,7 @@ function applyOwnerCopyPasteBatch({
   proofClassification,
   expectedOwnerSha256,
   expectedSourceHead,
+  gatesRunner,
 }) {
   if (expectedOwnerSha256) {
     const got = sha256(ownerRaw);
@@ -102,7 +103,8 @@ function applyOwnerCopyPasteBatch({
   viewPayload.read_only = false;
   const viewWrite = writeJsonWithParts("A1-LRB-CONSOLIDATION-OWNER-REVIEW-VIEW", viewPayload, "cards");
 
-  const gates = runOwnerCopyPasteGates({ scopeCards, sourceByKey, appliedByKey });
+  const gatesFn = gatesRunner || runOwnerCopyPasteGates;
+  const gates = gatesFn({ scopeCards, sourceByKey, appliedByKey });
   const head = execSync("git rev-parse HEAD", { cwd: ROOT, encoding: "utf8" }).trim();
 
   const proof = {

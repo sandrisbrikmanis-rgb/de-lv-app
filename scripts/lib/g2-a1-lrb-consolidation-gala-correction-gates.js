@@ -131,4 +131,5 @@ module.exports = {
   runGalaCorrection001040Gates,
   assessFullCompositeCompleteness,
   loadExpectedCards001040Map,
+  hasNonemptyExplanation,
 };

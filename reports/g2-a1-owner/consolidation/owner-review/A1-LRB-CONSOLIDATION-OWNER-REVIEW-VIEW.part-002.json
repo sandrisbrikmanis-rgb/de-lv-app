@@ -4746,7 +4746,9 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "pitsa"
+      }
     },
     {
       "target_language": "fi",
@@ -4805,7 +4807,9 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "asia"
+      }
     },
     {
       "target_language": "fr",
@@ -4848,7 +4852,127 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "visite",
+        "study": {
+          "id": "a1-besuch",
+          "layout": "standardStudy",
+          "translation": "visite",
+          "explanation": [
+            "Idée principale : der Besuch désigne une visite, c'est-à-dire l'événement ou le fait de se rendre quelque part.",
+            "Pour un lieu ou un événement, on le traduit généralement par visite.",
+            "Pour une personne, il peut également désigner le fait de lui rendre visite.",
+            "Le pluriel est die Besuche."
+          ],
+          "examples": [
+            {
+              "de": "Der Besuch im Museum war interessant.",
+              "lv": "La visite du musée était intéressante."
+            },
+            {
+              "de": "Danke für deinen Besuch.",
+              "lv": "Merci de ta visite."
+            },
+            {
+              "de": "Der Arzt macht einen Besuch.",
+              "lv": "Le médecin effectue une visite."
+            }
+          ],
+          "tip": {
+            "text": "Rappel : Besuch = visite ; Besucher = visiteur."
+          },
+          "important": [
+            "der Besuch peut désigner une visite chez quelqu'un ou la visite d'un lieu.",
+            "Le pluriel est die Besuche."
+          ],
+          "comparison": [
+            {
+              "word": "der Besuch",
+              "meaning": "visite",
+              "example": "Danke für deinen Besuch. – Merci de ta visite."
+            },
+            {
+              "word": "der Besucher",
+              "meaning": "visiteur",
+              "example": "Der Besucher wartet draußen. – Le visiteur attend dehors."
+            },
+            {
+              "word": "besuchen",
+              "meaning": "visiter / rendre visite",
+              "example": "Ich besuche meine Großeltern. – Je rends visite à mes grands-parents."
+            }
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Besuch"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Besuch"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Besuch"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Besucher"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "besuchen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "fr",
@@ -4891,7 +5015,71 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "une fois",
+        "study": {
+          "id": "a1-einmal",
+          "layout": "standardStudy",
+          "translation": "une fois",
+          "explanation": [
+            "Idée principale : einmal indique qu'une action se produit une seule fois ou renvoie à un moment du passé.",
+            "Il signifie principalement « une fois ».",
+            "Dans un récit, il peut aussi introduire une situation passée.",
+            "Le contexte permet de distinguer l'occurrence unique du souvenir passé."
+          ],
+          "examples": [
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "J'ai été une fois à Berlin."
+            },
+            {
+              "de": "Ich war einmal in Berlin.",
+              "lv": "J'ai été une fois à Berlin."
+            }
+          ],
+          "tip": [
+            "einmal = une fois",
+            "Dans un récit, einmal peut aussi signifier « autrefois / un jour » selon le contexte."
+          ],
+          "important": [
+            "einmal indique une seule occurrence ou un moment du passé.",
+            "Il ne signifie pas automatiquement « encore une fois »."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "einmal"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "einmal"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "einmal"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "fr",
@@ -4954,7 +5142,123 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "nourriture • repas",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "nourriture • repas",
+          "explanation": [
+            "Idée principale : das Essen est un nom qui désigne la nourriture ou un repas.",
+            "Il peut renvoyer à ce que l'on mange ou au repas dans son ensemble.",
+            "Comme nom, Essen s'écrit avec une majuscule et s'emploie souvent avec l'article das.",
+            "Le verbe essen, avec une minuscule, signifie manger."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Le repas est bon."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Que voulez-vous manger ?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Nous mangeons à midi."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Le repas est prêt."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Le repas est très bon."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Le repas est bon."
+            }
+          ],
+          "tip": [
+            "das Essen = nourriture / repas",
+            "Utilisez das Essen pour parler de la nourriture ou du repas."
+          ],
+          "important": [
+            "das Essen est un nom : nourriture ou repas.",
+            "essen est le verbe : manger.",
+            "Action : essen.",
+            "Nourriture ou repas : das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Essen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "fr",
@@ -5042,7 +5346,155 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "vacances scolaires",
+        "study": {
+          "id": "a1-ferien",
+          "layout": "standardStudy",
+          "translation": "vacances scolaires",
+          "explanation": [
+            "Idée principale : die Ferien désigne les vacances scolaires ou universitaires.",
+            "Ce nom s'emploie toujours au pluriel.",
+            "L'expression courante est in den Ferien.",
+            "der Urlaub désigne plutôt les vacances ou le congé d'une personne par rapport au travail."
+          ],
+          "examples": [
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Pendant les vacances, nous allons au bord de la mer."
+            },
+            {
+              "de": "In den Ferien habe ich viel Zeit.",
+              "lv": "Pendant les vacances, j'ai beaucoup de temps."
+            },
+            {
+              "de": "Was macht ihr in den Ferien?",
+              "lv": "Que faites-vous pendant les vacances ?"
+            },
+            {
+              "de": "Die Schule ist in den Ferien zu.",
+              "lv": "L'école est fermée pendant les vacances."
+            },
+            {
+              "de": "In den Ferien fahren wir ans Meer.",
+              "lv": "Pendant les vacances, nous allons au bord de la mer."
+            },
+            {
+              "de": "In den Ferien",
+              "lv": "pendant les vacances scolaires"
+            }
+          ],
+          "tip": [
+            "die Ferien s'emploie toujours au pluriel.",
+            "Utilisez die Ferien pour les vacances scolaires ou universitaires."
+          ],
+          "important": [
+            "On dit in den Ferien, et non in der Ferien.",
+            "die Ferien s'emploie toujours au pluriel.",
+            "École ou études : die Ferien.",
+            "Travail ou congé individuel : der Urlaub."
+          ],
+          "comparison": [
+            {
+              "word": "die Ferien",
+              "meaning": "vacances scolaires ou universitaires (pluriel)",
+              "example": "In den Ferien fahren wir weg. – Pendant les vacances, nous partons."
+            },
+            {
+              "word": "der Urlaub",
+              "meaning": "vacances ou congé d'une personne",
+              "example": "Ich habe zwei Wochen Urlaub. – J'ai deux semaines de congé."
+            }
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Ferien"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ferien"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Ferien"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "die Ferien"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "der Urlaub"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "fr",
@@ -5096,7 +5548,120 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "légumes",
+        "study": {
+          "id": "a1-gemuese",
+          "layout": "standardStudy",
+          "translation": "légumes",
+          "explanation": [
+            "Idée principale : das Gemüse désigne les légumes en général.",
+            "En allemand standard, il s'emploie comme un nom collectif, généralement au singulier.",
+            "On ne forme pas un pluriel ordinaire *die Gemüse."
+          ],
+          "examples": [
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "J'aime manger des légumes."
+            },
+            {
+              "de": "Ich esse gern Gemüse.",
+              "lv": "J'aime manger des légumes."
+            },
+            {
+              "de": "Das Gemüse ist frisch.",
+              "lv": "Les légumes sont frais."
+            },
+            {
+              "de": "Wir kaufen Gemüse auf dem Markt.",
+              "lv": "Nous achetons des légumes au marché."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "J'aime les fruits et les légumes."
+            },
+            {
+              "de": "Ich esse Gemüse.",
+              "lv": "Je mange des légumes."
+            }
+          ],
+          "tip": [
+            "das Gemüse = les légumes en général",
+            "Utilisez Gemüsesorten pour parler de différentes sortes de légumes."
+          ],
+          "important": [
+            "On dit das Gemüse, et non die Gemüses.",
+            "Gemüse est généralement employé au singulier.",
+            "Pour les variétés, on peut dire Gemüsesorten."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Gemüse"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Gemüse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gemüse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gemüse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gemüse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gemüse"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gemüse"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "fr",
@@ -5139,7 +5704,123 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "demain",
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "demain",
+          "explanation": [
+            "Idée principale : morgen, avec une minuscule, est un adverbe qui signifie demain.",
+            "Il renvoie au jour suivant.",
+            "der Morgen, avec une majuscule, est le nom allemand pour le matin.",
+            "Dans Guten Morgen!, Morgen s'écrit donc avec une majuscule."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Je viens demain."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "À demain !"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Je viens demain."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Demain, c'est lundi."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Bonjour !"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Le matin est beau."
+            }
+          ],
+          "tip": [
+            "morgen = demain",
+            "der Morgen = le matin"
+          ],
+          "important": [
+            "morgen s'écrit avec une minuscule lorsqu'il signifie demain.",
+            "der Morgen est un nom et s'écrit avec une majuscule.",
+            "Guten Morgen! s'écrit toujours avec un M majuscule.",
+            "Ne confondez pas demain et le matin."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "morgen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "fr",
@@ -5182,7 +5863,123 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "matin",
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "matin",
+          "explanation": [
+            "Idée principale : der Morgen est un nom qui signifie le matin.",
+            "Comme nom, Morgen s'écrit avec une majuscule et s'emploie avec l'article der.",
+            "morgen, avec une minuscule, signifie demain.",
+            "Dans Guten Morgen!, il s'agit du nom Morgen."
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Bonjour !"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "À demain !"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Je viens demain."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Demain, c'est lundi."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Bonjour !"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Le matin est beau."
+            }
+          ],
+          "tip": [
+            "der Morgen = le matin",
+            "morgen = demain"
+          ],
+          "important": [
+            "der Morgen est un nom : le matin.",
+            "morgen avec une minuscule est l'adverbe demain.",
+            "Guten Morgen! s'écrit avec un M majuscule.",
+            "Ne confondez pas Morgen et morgen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "fr",
@@ -5235,7 +6032,106 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "fruits",
+        "study": {
+          "id": "a1-obst",
+          "layout": "standardStudy",
+          "translation": "fruits",
+          "explanation": [
+            "Idée principale : das Obst désigne les fruits en général.",
+            "C'est un nom collectif neutre, généralement employé au singulier.",
+            "On ne forme pas un pluriel ordinaire *die Obsts."
+          ],
+          "examples": [
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Nous mangeons beaucoup de fruits."
+            },
+            {
+              "de": "Wir essen viel Obst.",
+              "lv": "Nous mangeons beaucoup de fruits."
+            },
+            {
+              "de": "Obst ist gesund.",
+              "lv": "Les fruits sont bons pour la santé."
+            },
+            {
+              "de": "Ich mag Obst und Gemüse.",
+              "lv": "J'aime les fruits et les légumes."
+            },
+            {
+              "de": "Wir essen Obst.",
+              "lv": "Nous mangeons des fruits."
+            }
+          ],
+          "tip": [
+            "das Obst = les fruits en général",
+            "Utilisez Obstsorten pour parler de différentes sortes de fruits."
+          ],
+          "important": [
+            "On dit das Obst, et non die Obsts.",
+            "das Obst désigne les fruits comme ensemble."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Obst"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Obst"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Obst"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Obst"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Obst"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Obst"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "fr",
@@ -5291,7 +6187,143 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "vacances • congé",
+        "study": {
+          "id": "a1-urlaub",
+          "layout": "standardStudy",
+          "translation": "vacances • congé",
+          "explanation": [
+            "Idée principale : der Urlaub désigne les vacances ou le congé d'une personne, notamment par rapport au travail.",
+            "Il s'emploie généralement au singulier.",
+            "On dit im Urlaub sein pour être en vacances et Urlaub machen pour prendre ou passer des vacances.",
+            "die Ferien désigne surtout les vacances scolaires ou universitaires et s'emploie au pluriel."
+          ],
+          "examples": [
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Mon père est en vacances."
+            },
+            {
+              "de": "Mein Vater ist im Urlaub.",
+              "lv": "Mon père est en vacances."
+            },
+            {
+              "de": "Nächste Woche habe ich Urlaub.",
+              "lv": "Je suis en congé la semaine prochaine."
+            },
+            {
+              "de": "Wir machen Urlaub in Spanien.",
+              "lv": "Nous passons nos vacances en Espagne."
+            },
+            {
+              "de": "im Urlaub",
+              "lv": "en vacances"
+            }
+          ],
+          "tip": [
+            "Urlaub s'emploie généralement au singulier.",
+            "Pour les vacances scolaires ou universitaires, utilisez die Ferien."
+          ],
+          "important": [
+            "Urlaub : im Urlaub sein / Urlaub machen.",
+            "On évite normalement le pluriel Urlaube au niveau A1.",
+            "Travail ou congé individuel : der Urlaub.",
+            "École ou études : die Ferien."
+          ],
+          "comparison": [
+            {
+              "word": "der Urlaub",
+              "meaning": "vacances ou congé d'une personne",
+              "example": "Mein Vater ist im Urlaub. – Mon père est en vacances."
+            },
+            {
+              "word": "die Ferien",
+              "meaning": "vacances scolaires ou universitaires",
+              "example": "Die Kinder haben Ferien. – Les enfants sont en vacances."
+            }
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Urlaub"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Urlaub"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "der Urlaub"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "die Ferien"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "gr",
@@ -5334,7 +6366,83 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ακόμη • ακόμα",
+        "study": {
+          "id": "a1-noch-study",
+          "layout": "standardStudy",
+          "translation": "ακόμη • ακόμα",
+          "explanation": [
+            "Κύρια ιδέα: το noch δηλώνει ότι κάτι συνεχίζεται ή δεν έχει ολοκληρωθεί.",
+            "Σημαίνει συνήθως «ακόμη» ή «ακόμα».",
+            "Χρησιμοποιείται για κατάσταση που εξακολουθεί να ισχύει.",
+            "Σε ερώτηση μπορεί να σημαίνει «είσαι ακόμη εδώ;»."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Είμαι ακόμη στο σπίτι."
+            },
+            {
+              "de": "Ich bin noch zu Hause.",
+              "lv": "Είμαι ακόμη στο σπίτι."
+            },
+            {
+              "de": "Bist du noch da?",
+              "lv": "Είσαι ακόμη εδώ;"
+            }
+          ],
+          "tip": [
+            "Το noch δηλώνει συνέχεια ή κάτι που δεν έχει τελειώσει ακόμη.",
+            "Χρησιμοποίησε το noch με τη σημασία «ακόμη / ακόμα»."
+          ],
+          "important": [
+            "noch = ακόμη / ακόμα.",
+            "Δηλώνει συνέχεια ή μη ολοκληρωμένη κατάσταση."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "noch"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "noch"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "noch"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "noch"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "gr",
@@ -5377,7 +6485,107 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "μόνο • αποκλειστικά",
+        "study": {
+          "id": "a1-nur-study",
+          "layout": "standardStudy",
+          "translation": "μόνο • αποκλειστικά",
+          "explanation": [
+            "Κύρια ιδέα: το nur περιορίζει μια ποσότητα, ένα πρόσωπο, μια επιλογή ή μια δυνατότητα.",
+            "Σημαίνει συνήθως «μόνο» ή «αποκλειστικά».",
+            "Μπορεί να περιορίζει χρήματα, πρόσωπα ή αντικείμενα.",
+            "Το ακριβές νόημα εξαρτάται από το στοιχείο που περιορίζει."
+          ],
+          "examples": [
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Έχω μόνο δέκα ευρώ."
+            },
+            {
+              "de": "Ich habe nur zehn Euro.",
+              "lv": "Έχω μόνο δέκα ευρώ."
+            },
+            {
+              "de": "Nur du kannst mir helfen.",
+              "lv": "Μόνο εσύ μπορείς να με βοηθήσεις."
+            },
+            {
+              "de": "Ich möchte nur Kaffee.",
+              "lv": "Θέλω μόνο καφέ."
+            },
+            {
+              "de": "Ich habe nur acht Euro.",
+              "lv": "Έχω μόνο οκτώ ευρώ."
+            }
+          ],
+          "tip": [
+            "Το nur περιορίζει ποσότητα, πρόσωπο ή επιλογή.",
+            "Χρησιμοποίησε το nur με τη σημασία «μόνο»."
+          ],
+          "important": [
+            "Το ελληνικό «μόνο» δεν αποδίδεται πάντοτε με nur.",
+            "nur = μόνο / αποκλειστικά."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "nur"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "nur"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nur"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Nur"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nur"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "nur"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "gr",
@@ -5420,7 +6628,137 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ταιριάζω • μου πηγαίνει",
+        "study": {
+          "id": "a1-passen",
+          "layout": "standardStudy",
+          "translation": "ταιριάζω • μου πηγαίνει",
+          "explanation": [
+            "Κύρια ιδέα: το passen σημαίνει ταιριάζω, εφαρμόζω ή μου πηγαίνει.",
+            "Για ρούχα αναφέρεται συχνά στο σωστό μέγεθος.",
+            "Για χρώματα ή στιλ δηλώνει ότι κάτι πηγαίνει σε κάποιον.",
+            "Η φράση Das passt. σημαίνει «Αυτό ταιριάζει / Αυτό είναι εντάξει»."
+          ],
+          "examples": [
+            {
+              "de": "Die Jacke passt mir.",
+              "lv": "Το μπουφάν μού κάνει."
+            },
+            {
+              "de": "Das Kleid passt gut.",
+              "lv": "Το φόρεμα εφαρμόζει καλά."
+            },
+            {
+              "de": "Die Farbe passt zu dir.",
+              "lv": "Αυτό το χρώμα σού πηγαίνει."
+            },
+            {
+              "de": "Das passt.",
+              "lv": "Αυτό ταιριάζει."
+            }
+          ],
+          "tip": {
+            "text": "Θυμήσου: Das passt. = Αυτό ταιριάζει / Αυτό είναι εντάξει."
+          },
+          "important": [
+            "Το passen δεν αφορά μόνο ρούχα.",
+            "Μπορεί επίσης να δηλώνει ότι μια ώρα, ένα σχέδιο ή μια λύση ταιριάζει."
+          ],
+          "comparison": [
+            {
+              "word": "passen",
+              "meaning": "ταιριάζω / μου κάνει",
+              "example": "Die Jacke passt mir. – Το μπουφάν μού κάνει."
+            },
+            {
+              "word": "stehen",
+              "meaning": "μου πηγαίνει (χρώμα ή στιλ)",
+              "example": "Rot steht dir gut. – Το κόκκινο σου πηγαίνει."
+            },
+            {
+              "word": "geeignet sein",
+              "meaning": "είναι κατάλληλο",
+              "example": "Das ist geeignet. – Αυτό είναι κατάλληλο."
+            },
+            {
+              "word": "funktionieren",
+              "meaning": "λειτουργώ",
+              "example": "Das funktioniert. – Αυτό λειτουργεί."
+            }
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "passen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "passen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "stehen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "geeignet sein"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "funktionieren"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "hu",
@@ -5526,7 +6864,130 @@
         "baseline_card_sha256": "98c61d3cabcdc03620da92c28451984c8aaf4422dc7fad31abc704a25ba2faa5",
         "post_owner_card_sha256": "98c61d3cabcdc03620da92c28451984c8aaf4422dc7fad31abc704a25ba2faa5"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "-tól/-től kezdve",
+        "study": {
+          "id": "a1-ab",
+          "layout": "standardStudy",
+          "translation": "-tól/-től kezdve",
+          "explanation": "Akkor használjuk, ha valami egy meghatározott időponttól, helytől vagy ponttól kezdődik. Gyakori jelentése: „... kezdve”.",
+          "examples": [
+            {
+              "de": "ab heute",
+              "lv": "mától"
+            },
+            {
+              "de": "ab Montag",
+              "lv": "hétfőtől"
+            },
+            {
+              "de": "ab 8 Uhr",
+              "lv": "8 órától"
+            },
+            {
+              "de": "ab Bahnhof",
+              "lv": "az állomástól kezdve"
+            }
+          ],
+          "tip": {
+            "text": "Jegyezd meg: időbeli vagy térbeli kezdőpont → ab."
+          },
+          "important": [
+            "Az ab időbeli vagy térbeli kezdőpontot jelöl.",
+            "Eredet vagy belülről kifelé irányuló mozgás esetén inkább von vagy aus használatos."
+          ],
+          "comparison": [
+            {
+              "word": "ab",
+              "meaning": "egy időponttól vagy ponttól kezdve",
+              "example": "ab Montag – hétfőtől"
+            },
+            {
+              "word": "von",
+              "meaning": "valakitől / valamitől; eredet",
+              "example": "von mir – tőlem"
+            },
+            {
+              "word": "aus",
+              "meaning": "belülről kifelé; származás",
+              "example": "aus dem Haus – a házból"
+            }
+          ],
+          "sectionAccents": {
+            "explanation": {},
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ab"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "ab"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "von"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "aus"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "hu",
@@ -5618,7 +7079,118 @@
         "baseline_card_sha256": "4edc63b7e58116ef4a1833512075dcfc15c20589bee3fd0a9b43afb73a591fc1",
         "post_owner_card_sha256": "4edc63b7e58116ef4a1833512075dcfc15c20589bee3fd0a9b43afb73a591fc1"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "de • azonban",
+        "study": {
+          "id": "a1-aber",
+          "layout": "standardStudy",
+          "translation": "de • azonban",
+          "explanation": "Ellentét vagy ellenvetés bevezetésére használjuk. Gyakori jelentése: „de”, „azonban” vagy „viszont”.",
+          "examples": [
+            {
+              "de": "Ich möchte mitkommen, aber ich habe keine Zeit.",
+              "lv": "Szeretnék én is menni, de nincs időm."
+            },
+            {
+              "de": "Das Essen war lecker, aber zu teuer.",
+              "lv": "Az étel finom volt, de túl drága."
+            },
+            {
+              "de": "Er hat recht, aber ich sehe das anders.",
+              "lv": "Igaza van, de én ezt másképp látom."
+            }
+          ],
+          "tip": {
+            "text": "Jegyezd meg: általános ellentét → aber; „nem ..., hanem ...” → sondern."
+          },
+          "important": [
+            "Az aber ellentétet vagy ellenvetést fejez ki.",
+            "A „nem ..., hanem ...” szerkezetben németül rendszerint sondern áll."
+          ],
+          "comparison": [
+            {
+              "word": "aber",
+              "meaning": "ellentét; de / azonban",
+              "example": "Ich komme, aber später. – Jövök, de később."
+            },
+            {
+              "word": "sondern",
+              "meaning": "nem ..., hanem ...",
+              "example": "Ich wollte keinen Tee, sondern Kaffee. – Nem teát akartam, hanem kávét."
+            },
+            {
+              "word": "jedoch",
+              "meaning": "azonban / viszont",
+              "example": "Es ist kalt, jedoch sonnig. – Hideg van, azonban süt a nap."
+            }
+          ],
+          "sectionAccents": {
+            "explanation": {},
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aber"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aber"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "sondern"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "jedoch"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "hu",
@@ -5701,7 +7273,123 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "étel • étkezés",
+        "study": {
+          "id": "a1-essen-study",
+          "layout": "standardStudy",
+          "translation": "étel • étkezés",
+          "explanation": [
+            "A das Essen főnév ételt vagy étkezést jelent.",
+            "Konkrét ételre és teljes étkezésre egyaránt utalhat.",
+            "Főnévként nagybetűvel és gyakran névelővel áll: das Essen.",
+            "A kisbetűs essen ige jelentése: enni."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Az étel finom."
+            },
+            {
+              "de": "Was wollt ihr essen?",
+              "lv": "Mit szeretnétek enni?"
+            },
+            {
+              "de": "Wir essen um 12 Uhr.",
+              "lv": "Tizenkét órakor eszünk."
+            },
+            {
+              "de": "Das Essen ist fertig.",
+              "lv": "Kész az étel."
+            },
+            {
+              "de": "Das Essen schmeckt sehr gut.",
+              "lv": "Nagyon finom az étel."
+            },
+            {
+              "de": "Das Essen schmeckt gut.",
+              "lv": "Az étel finom."
+            }
+          ],
+          "tip": [
+            "das Essen = étel vagy étkezés",
+            "A das Essen alakot akkor használd, ha főnévről van szó."
+          ],
+          "important": [
+            "Az essen kisbetűvel írt ige.",
+            "A das Essen nem ugyanaz, mint az essen.",
+            "Cselekvés: essen.",
+            "Étel vagy étkezés: das Essen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Essen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Essen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Essen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "hu",
@@ -5744,7 +7432,119 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "mindjárt • egyforma",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "mindjárt • egyforma",
+          "explanation": [
+            "Időhatározóként a gleich jelentése mindjárt, összehasonlításban pedig egyforma vagy ugyanaz.",
+            "Időre utalva gleich = mindjárt / rövidesen.",
+            "Összehasonlításban gleich = egyforma / ugyanaz.",
+            "A szövegkörnyezet mutatja meg a helyes jelentést."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Mindjárt jövök."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Ugyanolyan színünk van."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Mindjárt kész az étel."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Mindkét út ugyanolyan hosszú."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Hamarosan találkozunk!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Ugyanolyan magasak."
+            }
+          ],
+          "tip": [
+            "Időre utalva → mindjárt.",
+            "Összehasonlításban → egyforma vagy ugyanaz."
+          ],
+          "important": [
+            "A gleich jelentése időben mindjárt, összehasonlításban egyforma.",
+            "Bis gleich! = Hamarosan találkozunk! – gyakori elköszönés."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "hu",
@@ -5820,7 +7620,82 @@
         "baseline_card_sha256": "54383f504765ac5489c9475f3383051cafa2efcbbfb35edc0c20ce7aff9a3d89",
         "post_owner_card_sha256": "54383f504765ac5489c9475f3383051cafa2efcbbfb35edc0c20ce7aff9a3d89"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "kicsi • kis",
+        "study": {
+          "id": "a1-klein-study",
+          "layout": "standardStudy",
+          "translation": "kicsi • kis",
+          "explanation": [
+            "Fő gondolat: a klein kis méretet, terjedelmet vagy fiatal kort jelöl.",
+            "A klein tárgyat, helyiséget, mennyiséget vagy gyermeket írhat le.",
+            "A pontos jelentést a főnév és a szövegkörnyezet adja."
+          ],
+          "examples": [
+            {
+              "de": "Das Zimmer ist klein.",
+              "lv": "A szoba kicsi."
+            },
+            {
+              "de": "Das Kind ist noch klein.",
+              "lv": "A gyerek még kicsi."
+            },
+            {
+              "de": "Ich habe eine kleine Tasche.",
+              "lv": "Van egy kis táskám."
+            }
+          ],
+          "tip": [
+            "klein = kicsi / kis.",
+            "A jelentést a főnév és a szövegkörnyezet pontosítja."
+          ],
+          "important": [
+            "A klein leggyakrabban kis méretet jelöl.",
+            "Gyermeknél fiatal kort is kifejezhet."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "klein"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "klein"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "hu",
@@ -5863,7 +7738,93 @@
         "OWNER_CONFIRMED_NO_CHANGE_NONEMPTY_OWNER_NEW"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "bolt • üzlet",
+        "study": {
+          "id": "a1-laden-study",
+          "layout": "standardStudy",
+          "translation": "bolt • üzlet",
+          "explanation": [
+            "Fő gondolat: a der Laden nagy kezdőbetűvel és der névelővel főnév: kis bolt vagy üzlet.",
+            "A laden kis kezdőbetűvel ige: megrakni vagy feltölteni.",
+            "A der Laden a mindennapi nyelvben gyakran kis üzletet jelent: im Laden einkaufen = boltban vásárolni.",
+            "Többes száma: die Läden."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe in den Laden.",
+              "lv": "Bemegyek a boltba."
+            },
+            {
+              "de": "Der Laden ist geschlossen.",
+              "lv": "A bolt zárva van."
+            },
+            {
+              "de": "Es gibt viele Läden hier.",
+              "lv": "Sok bolt van itt."
+            },
+            {
+              "de": "Ich muss mein Handy laden.",
+              "lv": "Fel kell töltenem a telefonomat."
+            }
+          ],
+          "tip": [
+            "A der Laden nagy kezdőbetűvel főnév: bolt.",
+            "A laden kis kezdőbetűvel ige: megrakni vagy feltölteni."
+          ],
+          "important": [
+            "der Laden = bolt (főnév).",
+            "laden = megrakni vagy feltölteni (ige).",
+            "Többes szám: die Läden."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Laden"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {},
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "laden"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     }
   ],
   "part": 2,
