@@ -12,7 +12,12 @@ const { runPreflight } = require("./lib/g2-a1-production-current/preflight");
 const { runDryRun } = require("./lib/g2-a1-production-current/dry-run");
 const { validateDryRunArtifact, REQUIRED_ROW_FIELDS } = require("./lib/g2-a1-production-current/artifacts");
 const { AUDIT_VERDICTS, FORBIDDEN_AUDIT_VERDICTS } = require("./lib/g2-a1-production-current/constants");
-const { authorizeFullLinguisticAudit } = require("./lib/g2-a1-production-current/full-gates");
+const { authorizeFullProductionCurrentAudit } = require("./lib/g2-a1-production-current/authorize-full-run");
+const { buildProductionFileSetInventory } = require("./lib/g2-a1-production-current/inventory");
+const { syntheticAuditedSet } = require("./lib/g2-a1-production-current/synthetic-fixtures");
+const { buildOwnerArtifactsFromEvidence } = require("./lib/g2-a1-production-current/owner-artifacts");
+const { verifyPostRunClosure } = require("./lib/g2-a1-production-current/post-run-verify");
+const mapping = require("./lib/g2-a1-production-current/master-code-mapping.json");
 
 function main() {
   const blockers = [];
@@ -36,9 +41,27 @@ function main() {
     blockers.push({ code: "ROW_SCHEMA", detail: artifactCheck.errors });
   }
 
-  const fullWithoutAuth = authorizeFullLinguisticAudit();
+  const fullWithoutAuth = authorizeFullProductionCurrentAudit({});
   if (fullWithoutAuth.pass) {
-    blockers.push({ code: "FULL_SHOULD_REQUIRE_AUTH", detail: "full passed without OWNER env" });
+    blockers.push({ code: "FULL_SHOULD_REQUIRE_AUTH", detail: "full passed without OWNER flags" });
+  }
+
+  const inv = buildProductionFileSetInventory();
+  const syntheticBundle = buildOwnerArtifactsFromEvidence(syntheticAuditedSet(), {
+    auditBaselineSha: inv.gate.productionFileSetSha256,
+  });
+  const postRun = verifyPostRunClosure({
+    fullAuditEvidence: syntheticBundle.fullAuditEvidence,
+    ownerView: syntheticBundle.ownerView,
+    ownerCsvMultipart: syntheticBundle.ownerCsvMultipart,
+    startFileSetSha: inv.gate.productionFileSetSha256,
+    endFileSetSha: inv.gate.productionFileSetSha256,
+  });
+  if (!postRun.pass) {
+    blockers.push({ code: "POST_RUN_SYNTHETIC", detail: postRun.blockers });
+  }
+  if (!mapping.checks?.length) {
+    blockers.push({ code: "MASTER_MAPPING_MISSING" });
   }
 
   let productionDiffClean = true;
@@ -61,7 +84,8 @@ function main() {
     requiredRowFields: REQUIRED_ROW_FIELDS,
     allowedVerdicts: AUDIT_VERDICTS,
     forbiddenFinalVerdicts: FORBIDDEN_AUDIT_VERDICTS,
-    fullOwnerGateEnv: fullWithoutAuth.ownerAuthEnv,
+    masterCodeMappingChecks: mapping.checks.length,
+    postRunSyntheticPass: postRun.pass,
     productionDiffClean,
     blockers,
   };

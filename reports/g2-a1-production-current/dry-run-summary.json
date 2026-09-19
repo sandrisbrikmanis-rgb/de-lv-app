@@ -19,7 +19,8 @@
       "LABOT",
       "NELABOT",
       "PENDING",
-      "FALSE_POSITIVE"
+      "FALSE_POSITIVE",
+      "AUDIT_PASS"
     ],
     "linguisticVerdictsGenerated": 0,
     "equation": "TOTAL_CHECKED = AUDIT_PASS + FINDING + NEEDS_SOURCE_REVIEW + SOURCE_DE_ISSUE (not evaluated in dry-run)"
@@ -277,85 +278,121 @@
   ],
   "rowsSample": [
     {
+      "recordKind": "TECHNICAL_INVENTORY",
       "auditSource": "production-current",
       "productionFile": "data/a1.js",
       "language": "lv",
       "appLanguageCode": "lv",
-      "authorityStandardCode": "lv",
       "cardId": "apfel",
       "fieldPath": "a1.card.apfel.native",
       "currentValue": "ābols",
       "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
       "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
-      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
-      "authorityUrls": 3,
-      "linguisticVerdict": null,
+      "rowId": "lv|a1.card.apfel.native",
+      "registryBinding": {
+        "DE_AUTHORITY": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "DE_SOURCE_URL": "https://www.rechtschreibrat.com/",
+        "TARGET_AUTHORITY": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+        "TARGET_SOURCE_URL": "https://valoda.lv/",
+        "targetStandardCode": "lv",
+        "targetAppCode": "lv",
+        "deStandardCode": "de"
+      },
       "dryRun": true
     },
     {
+      "recordKind": "TECHNICAL_INVENTORY",
       "auditSource": "production-current",
       "productionFile": "data/a1.js",
       "language": "lv",
       "appLanguageCode": "lv",
-      "authorityStandardCode": "lv",
       "cardId": "brot",
       "fieldPath": "a1.card.brot.native",
       "currentValue": "maize",
       "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
       "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
-      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
-      "authorityUrls": 3,
-      "linguisticVerdict": null,
+      "rowId": "lv|a1.card.brot.native",
+      "registryBinding": {
+        "DE_AUTHORITY": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "DE_SOURCE_URL": "https://www.rechtschreibrat.com/",
+        "TARGET_AUTHORITY": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+        "TARGET_SOURCE_URL": "https://valoda.lv/",
+        "targetStandardCode": "lv",
+        "targetAppCode": "lv",
+        "deStandardCode": "de"
+      },
       "dryRun": true
     },
     {
+      "recordKind": "TECHNICAL_INVENTORY",
       "auditSource": "production-current",
       "productionFile": "data/a1.js",
       "language": "lv",
       "appLanguageCode": "lv",
-      "authorityStandardCode": "lv",
       "cardId": "wasser",
       "fieldPath": "a1.card.wasser.native",
       "currentValue": "ūdens",
       "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
       "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
-      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
-      "authorityUrls": 3,
-      "linguisticVerdict": null,
+      "rowId": "lv|a1.card.wasser.native",
+      "registryBinding": {
+        "DE_AUTHORITY": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "DE_SOURCE_URL": "https://www.rechtschreibrat.com/",
+        "TARGET_AUTHORITY": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+        "TARGET_SOURCE_URL": "https://valoda.lv/",
+        "targetStandardCode": "lv",
+        "targetAppCode": "lv",
+        "deStandardCode": "de"
+      },
       "dryRun": true
     },
     {
+      "recordKind": "TECHNICAL_INVENTORY",
       "auditSource": "production-current",
       "productionFile": "data/a1.js",
       "language": "lv",
       "appLanguageCode": "lv",
-      "authorityStandardCode": "lv",
       "cardId": "haus",
       "fieldPath": "a1.card.haus.native",
       "currentValue": "māja",
       "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
       "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
-      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
-      "authorityUrls": 3,
-      "linguisticVerdict": null,
+      "rowId": "lv|a1.card.haus.native",
+      "registryBinding": {
+        "DE_AUTHORITY": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "DE_SOURCE_URL": "https://www.rechtschreibrat.com/",
+        "TARGET_AUTHORITY": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+        "TARGET_SOURCE_URL": "https://valoda.lv/",
+        "targetStandardCode": "lv",
+        "targetAppCode": "lv",
+        "deStandardCode": "de"
+      },
       "dryRun": true
     },
     {
+      "recordKind": "TECHNICAL_INVENTORY",
       "auditSource": "production-current",
       "productionFile": "data/a1.js",
       "language": "lv",
       "appLanguageCode": "lv",
-      "authorityStandardCode": "lv",
       "cardId": "lernen",
       "fieldPath": "a1.card.lernen.native",
       "currentValue": "mācīties",
       "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
       "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
-      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
-      "authorityUrls": 3,
-      "linguisticVerdict": null,
+      "rowId": "lv|a1.card.lernen.native",
+      "registryBinding": {
+        "DE_AUTHORITY": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "DE_SOURCE_URL": "https://www.rechtschreibrat.com/",
+        "TARGET_AUTHORITY": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+        "TARGET_SOURCE_URL": "https://valoda.lv/",
+        "targetStandardCode": "lv",
+        "targetAppCode": "lv",
+        "deStandardCode": "de"
+      },
       "dryRun": true
     }
   ],
-  "totalRows": 95731
+  "totalRows": 95731,
+  "recordKind": "TECHNICAL_INVENTORY"
 }

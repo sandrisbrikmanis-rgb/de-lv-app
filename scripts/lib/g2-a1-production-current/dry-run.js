@@ -4,7 +4,8 @@
 const { runPreflight } = require("./preflight");
 const { buildProductionFileSetInventory } = require("./inventory");
 const { loadG2ProductionObjects, verifyBatchLimitsForLang } = require("./objects");
-const { buildAuditRowsForLanguage } = require("./audit-rows");
+const { buildTechnicalInventoryRowsForLanguage } = require("./audit-rows");
+const { validateTechnicalInventoryRecord } = require("./evidence-schema");
 const { AUDIT_LANGUAGES, AUDIT_VERDICTS, FORBIDDEN_AUDIT_VERDICTS } = require("./constants");
 
 function runDryRun(options = {}) {
@@ -25,7 +26,12 @@ function runDryRun(options = {}) {
     const objects = loadG2ProductionObjects(lang);
     const batchCheck = verifyBatchLimitsForLang(objects);
     if (!batchCheck.pass) batchPass = false;
-    const auditRows = buildAuditRowsForLanguage(lang, datasetProductionSha, auditBaselineSha);
+    const auditRows = buildTechnicalInventoryRowsForLanguage(lang, datasetProductionSha, auditBaselineSha);
+    const sample = auditRows[0];
+    if (sample) {
+      const invCheck = validateTechnicalInventoryRecord(sample);
+      if (!invCheck.pass) batchPass = false;
+    }
     allRows.push(...auditRows);
     perLang.push({
       language: lang,

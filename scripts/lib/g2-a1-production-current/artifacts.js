@@ -6,7 +6,8 @@ const fs = require("fs");
 const path = require("path");
 const { REPORTS_DIR } = require("./constants");
 
-const REQUIRED_ROW_FIELDS = [
+const REQUIRED_INVENTORY_FIELDS = [
+  "recordKind",
   "auditSource",
   "productionFile",
   "language",
@@ -15,6 +16,7 @@ const REQUIRED_ROW_FIELDS = [
   "currentValue",
   "datasetProductionSha",
   "auditBaselineSha",
+  "rowId",
 ];
 
 function sha256Buffer(buf) {
@@ -29,16 +31,16 @@ function writeJsonAtomic(relName, payload) {
   return { rel: path.relative(path.join(REPORTS_DIR, "..", ".."), abs).replace(/\\/g, "/"), sha256: sha256Buffer(text) };
 }
 
+const { validateTechnicalInventoryRecord } = require("./evidence-schema");
+const { RECORD_KIND } = require("./constants");
+
 function validateAuditRowSchema(row) {
-  const missing = REQUIRED_ROW_FIELDS.filter((k) => !(k in row));
+  const missing = REQUIRED_INVENTORY_FIELDS.filter((k) => !(k in row));
   if (missing.length) return { pass: false, missing };
-  if (row.auditSource !== "production-current") {
-    return { pass: false, code: "BAD_AUDIT_SOURCE", value: row.auditSource };
+  if (row.recordKind !== RECORD_KIND.TECHNICAL_INVENTORY) {
+    return { pass: false, code: "NOT_TECHNICAL_INVENTORY", value: row.recordKind };
   }
-  if (String(row.productionFile).includes("crowdin-staging") || String(row.productionFile).includes("reports/staging")) {
-    return { pass: false, code: "FORBIDDEN_SOURCE_PATH", value: row.productionFile };
-  }
-  return { pass: true };
+  return validateTechnicalInventoryRecord(row);
 }
 
 function validateDryRunArtifact(payload) {
@@ -50,11 +52,11 @@ function validateDryRunArtifact(payload) {
     const v = validateAuditRowSchema(row);
     if (!v.pass) errors.push(JSON.stringify(v));
   }
-  return { pass: errors.length === 0, errors, requiredRowFields: REQUIRED_ROW_FIELDS };
+  return { pass: errors.length === 0, errors, requiredRowFields: REQUIRED_INVENTORY_FIELDS };
 }
 
 module.exports = {
-  REQUIRED_ROW_FIELDS,
+  REQUIRED_INVENTORY_FIELDS,
   writeJsonAtomic,
   validateAuditRowSchema,
   validateDryRunArtifact,

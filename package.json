@@ -50,6 +50,7 @@
     "audit:g2-a1:production-current:dry-run": "node scripts/run-g2-a1-production-current-full-discovery.js --dry-run",
     "audit:g2-a1:production-current:full": "node scripts/run-g2-a1-production-current-full-discovery.js --full",
     "test:g2-a1-production-current-orchestrator": "node scripts/test-g2-a1-production-current-orchestrator.js",
+    "test:g2-a1-production-current-master-pipeline": "node scripts/test-g2-a1-production-current-master-pipeline.js",
     "verify:g2-a1-production-current-orchestrator": "node scripts/verify-g2-a1-production-current-orchestrator.js",
     "test:g2-a1-phase3-missing-id-retry": "node scripts/test-g2-a1-phase3-missing-id-retry.js",
     "test:master-premerge-section-numbers": "node scripts/test-master-premerge-section-numbers.js",
