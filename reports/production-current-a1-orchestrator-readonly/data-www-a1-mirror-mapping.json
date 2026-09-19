@@ -1,0 +1,200 @@
+{
+  "mapping": [
+    {
+      "lang": "bg",
+      "data": "data/bg/a1.js",
+      "www": "www/data/bg/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "bs",
+      "data": "data/bs/a1.js",
+      "www": "www/data/bs/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "cs",
+      "data": "data/cs/a1.js",
+      "www": "www/data/cs/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "da",
+      "data": "data/da/a1.js",
+      "www": "www/data/da/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "en",
+      "data": "data/en/a1.js",
+      "www": "www/data/en/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "es",
+      "data": "data/es/a1.js",
+      "www": "www/data/es/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "et",
+      "data": "data/et/a1.js",
+      "www": "www/data/et/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "fi",
+      "data": "data/fi/a1.js",
+      "www": "www/data/fi/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "fr",
+      "data": "data/fr/a1.js",
+      "www": "www/data/fr/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "gr",
+      "data": "data/gr/a1.js",
+      "www": "www/data/gr/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "hr",
+      "data": "data/hr/a1.js",
+      "www": "www/data/hr/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "hu",
+      "data": "data/hu/a1.js",
+      "www": "www/data/hu/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "is",
+      "data": "data/is/a1.js",
+      "www": "www/data/is/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "it",
+      "data": "data/it/a1.js",
+      "www": "www/data/it/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "lb",
+      "data": "data/lb/a1.js",
+      "www": "www/data/lb/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "lt",
+      "data": "data/lt/a1.js",
+      "www": "www/data/lt/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "lv",
+      "data": "data/a1.js",
+      "www": "www/data/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "mk",
+      "data": "data/mk/a1.js",
+      "www": "www/data/mk/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "nb",
+      "data": "data/nb/a1.js",
+      "www": "www/data/nb/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "nl",
+      "data": "data/nl/a1.js",
+      "www": "www/data/nl/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "nn",
+      "data": "data/nn/a1.js",
+      "www": "www/data/nn/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "pl",
+      "data": "data/pl/a1.js",
+      "www": "www/data/pl/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "pt",
+      "data": "data/pt/a1.js",
+      "www": "www/data/pt/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "ro",
+      "data": "data/ro/a1.js",
+      "www": "www/data/ro/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "ru",
+      "data": "data/ru/a1.js",
+      "www": "www/data/ru/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "sk",
+      "data": "data/sk/a1.js",
+      "www": "www/data/sk/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "sl",
+      "data": "data/sl/a1.js",
+      "www": "www/data/sl/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "sq",
+      "data": "data/sq/a1.js",
+      "www": "www/data/sq/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "sr",
+      "data": "data/sr/a1.js",
+      "www": "www/data/sr/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "sv",
+      "data": "data/sv/a1.js",
+      "www": "www/data/sv/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "tr",
+      "data": "data/tr/a1.js",
+      "www": "www/data/tr/a1.js",
+      "ok": true
+    },
+    {
+      "lang": "uk",
+      "data": "data/uk/a1.js",
+      "www": "www/data/uk/a1.js",
+      "ok": true
+    }
+  ],
+  "missingData": [],
+  "missingWww": [],
+  "dataWithoutMirror": [],
+  "mirrorWithoutData": []
+}

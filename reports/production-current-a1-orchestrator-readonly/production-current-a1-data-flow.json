@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "stage": "Production CURRENT (authoritative loader)",
+      "script": "scripts/lib/content-crowdin-bridge/roundtrip.js",
+      "function": "loadG2Level → loadArrayDataset(dataRel(lang, level.js))",
+      "fileSource": "data/a1.js (lv) | data/<lang>/a1.js",
+      "role": "Production flashcard arrays",
+      "authoritativeCurrent": "JĀ",
+      "chain": "run-* → loadG2Level(lang,'a1') → dataRel → audit-common.loadArrayDataset"
+    },
+    {
+      "stage": "Production flat audit keys",
+      "script": "scripts/lib/content-crowdin-bridge/roundtrip.js",
+      "function": "exportG2LevelFlat(lang,'a1')",
+      "fileSource": "same as loadG2Level",
+      "role": "Flattened field paths for multi-translation scan",
+      "authoritativeCurrent": "JĀ",
+      "chain": "exportG2LevelFlat → flattenG2Flashcards → loadG2Level"
+    },
+    {
+      "stage": "DE / structure side",
+      "script": "scripts/lib/content-crowdin-bridge/flatten-g2-flashcards.js",
+      "function": "flattenG2Flashcards",
+      "fileSource": "de fields inside production cards (read-only in audit)",
+      "role": "German source strings on cards",
+      "authoritativeCurrent": "JĀ (embedded in production CURRENT)",
+      "chain": "loadG2Level → card.de / study.*"
+    },
+    {
+      "stage": "Target translation side (production path)",
+      "script": "scripts/lib/content-crowdin-bridge/roundtrip.js",
+      "function": "loadG2Level",
+      "fileSource": "data/**/a1.js lang-specific fields",
+      "role": "Target-language values",
+      "authoritativeCurrent": "JĀ",
+      "chain": "loadG2Level(lang)"
+    },
+    {
+      "stage": "LRB helper (partial / lv bug)",
+      "script": "scripts/lib/g2-a1-lrb-consolidation-owner-review-artifacts.js",
+      "function": "loadProductionA1Words(lang)",
+      "fileSource": "data/${lang}/a1.js only (no lv exception)",
+      "role": "Production lookup for LRB consolidation",
+      "authoritativeCurrent": "NĒ for lv (returns null); JĀ for other langs",
+      "chain": "findProductionEntry → loadProductionA1Words"
+    },
+    {
+      "stage": "www mirror",
+      "script": "scripts/lib/audit-common.js",
+      "function": "dataPath(lang, fileName, {www:true})",
+      "fileSource": "www/data/**",
+      "role": "Mirror verification only",
+      "authoritativeCurrent": "NĒ",
+      "chain": "compliance scripts / post-apply verify"
+    },
+    {
+      "stage": "Phase3 Luna/deterministic CURRENT",
+      "script": "scripts/lib/g2-a1-phase3/staging-objects.js",
+      "function": "loadG2StagingObjects",
+      "fileSource": "reports/staging/g2-a1-phase3-crowdin/<lang>-a1.json + lv structure from loadG2Level('lv')",
+      "role": "Audit objects for phase3 discovery",
+      "authoritativeCurrent": "NĒ (staging overlay, auditSource=crowdin-staging)",
+      "chain": "run-g2-a1-phase3-full-discovery → loadG2StagingObjects → loadCrowdinFlat + applyG2FlashcardsFlat"
+    },
+    {
+      "stage": "Crowdin staging export",
+      "script": "scripts/lib/g2-a1-phase3/crowdin-export.js",
+      "function": "exportAllCrowdinStaging",
+      "fileSource": "Crowdin API → reports/staging/...",
+      "role": "Comparison / staging sync",
+      "authoritativeCurrent": "NĒ",
+      "chain": "run-g2-a1-phase3-full-discovery (always runs before discovery)"
+    },
+    {
+      "stage": "OWNER artifacts",
+      "script": "scripts/lib/g2-a1-phase3/owner-prep.js",
+      "function": "generateOwnerPrep",
+      "fileSource": "reports/g2-a1-phase3-owner-*",
+      "role": "Output only",
+      "authoritativeCurrent": "NĒ",
+      "chain": "findings → owner-prep"
+    }
+  ]
+}

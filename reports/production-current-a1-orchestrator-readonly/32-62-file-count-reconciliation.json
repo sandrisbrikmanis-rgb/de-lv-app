@@ -1,0 +1,11 @@
+{
+  "uniqueProductionLogicalFiles": 32,
+  "explanation32vs62": "32 = unique production A1 datasets (1× data/a1.js for lv + 31× data/<lang>/a1.js). 62 = prior composite that iterated productionFileRel(lang) for all langs including lv as data/lv/a1.js (missing) plus www mirrors only for langs where data/<lang>/a1.js exists (31), yielding 31+31=62 tracked entries. Correct full mirror set = 32 data + 32 www = 64 files.",
+  "excludedFromPrior62": [
+    "data/lv/a1.js (non-existent; lv uses data/a1.js)",
+    "www/data/lv/a1.js if counted separately from data/a1.js path convention"
+  ],
+  "priorProductionFileRelBug": "productionFileRel(lang) always returns data/${lang}/a1.js (no lv root exception)",
+  "dataLvA1Exists": true,
+  "dataLvSubdirA1Exists": false
+}
