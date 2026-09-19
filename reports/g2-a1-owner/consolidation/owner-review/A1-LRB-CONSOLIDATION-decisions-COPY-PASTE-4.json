@@ -6593,5 +6593,11 @@
       "en|klein",
       "es|aufs"
     ]
+  },
+  "cards_001_040_gala_pass": {
+    "classification": "A1_LRB_CONSOLIDATION_CARDS_001_040_FULL_CARD_LINGUISTIC_REVIEW_PASS",
+    "recorded_at": "2026-09-19T07:52:51.084Z",
+    "git_head": "3c6ab972108b4fa8198317fa0e8ee59363c5b5d9",
+    "pass_proof_sha256": "713605a23059225313574af68bae9e83e2d137ff28d3d33d271d27ab43746373"
   }
 }
