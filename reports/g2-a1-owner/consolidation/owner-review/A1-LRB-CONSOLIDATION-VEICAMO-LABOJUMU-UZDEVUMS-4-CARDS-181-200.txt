@@ -1,0 +1,26 @@
+A1 LRB KONSOLIDĀCIJA — OWNER COPY-PASTE KARTĪTĒM 181–200
+
+KLASIFIKĀCIJA
+A1_LRB_CONSOLIDATION_OWNER_CARDS_181_200_FULL_CARD_COPY_PASTE_READY
+
+AVOTS
+PR #830
+Zars: cursor/a1-lrb-001-103-consolidation
+Avota HEAD: 75300102a0fa51f4da9be003349f1e409c93863d
+
+CURSOR UZDEVUMS
+1. Pārbaudi identitātes vārtus: PR #830, zaru un avota HEAD.
+2. No A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-CARDS-181-200.json precīzi ievieto visas 20 cards[].full_card_owner_new vērtības pēc target_language + canonical_card_object_id.
+3. Neveic jaunu lingvistisko analīzi un nepārfrāzē OWNER vērtības. Tikai COPY-PASTE.
+4. Sinhronizē galveno COPY-PASTE-4 failu un OWNER VIEW ierakstus kartītēm 181–200.
+5. Izveido 181–200 proof un APPLIED artefaktu pēc 161–180 parauga.
+6. Palaid svaigu pārbaudi: applied_exactly 20/20; pending 0; tukši mērķa lauki 0; DE piemēru neatbilstības 0; wrong-language residue 0; semantic/source-fidelity pārkāpumi 0; duplicate/degenerate pairs 0; internal contradictions 0; full composite PASS.
+7. Nemaini kartītes 001–180 un 201–234.
+8. Nemaini DE avotu, production, Crowdin, ingest/apply vai konsolidēto mapping.
+9. Neveic merge un nereģistrē GALA PASS.
+
+SAGAIDĀMAIS STATUSS
+A1_LRB_CONSOLIDATION_OWNER_CARDS_181_200_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT
+
+APJOMS
+20/20 pilnas kartītes; sr=4, sv=16; ordinals 181–200; pending=0.
