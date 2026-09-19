@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:13:48.095Z",
+  "correction": "TECHNICAL_BLOCKER_RESOLUTION_1",
+  "prior_blocked_leaf_count": 409,
+  "prior_blocked_by": {
+    "BLOCKED_CURRENT_DRIFT": 292,
+    "BLOCKED_SCHEMA_MISMATCH": 117
+  },
+  "a1_study_id_only_cards": [
+    {
+      "card_key": "fi|a1-ab",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "3a3c995aa9c6bb4f45a163d5e534a8a2bc6a1b6a2f63955cac659ff884a0704a",
+      "owner_new_target_lang_sha256": "ec5dadd87589d7fbb7f83a0a8a27c46d1da558f4b0e0204259773cfa030ea5e0",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "fi|a1-aber",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "ca8237c0c5fbe2390969546781d14e0cb1c5e84e02d957efa01640aaa4d18c40",
+      "owner_new_target_lang_sha256": "d4015b8fd31c35035967df416df75b1a463204dff17a5bcfb07e79c0e0cd2ce3",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "fi|a1-also",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "1ac19749a4431f3d5822ac746ea3ceacdef3fb1b86067932ef5f6eb297178364",
+      "owner_new_target_lang_sha256": "b1c60bbfb7fe042a24769ffc6f75a6d44a3137d089964b81b4c893a0fbb2d18e",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "fi|a1-besuch",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "445827ff29fe1b1e9c68393083c5d5709b387ecc1dec171df5b4aaecf4f4891f",
+      "owner_new_target_lang_sha256": "43ebe485037548a8dbb1a9cfd100e037d7f68d164721d4b7d4ef64eb5d33879a",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "fi|a1-besuchen",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "7c1f0fbfe0e3382c6f5fd283e61084bcc52cb0f48d4d4f83637cb155b60a4534",
+      "owner_new_target_lang_sha256": "2f3040261e238c3852fed02a2ac7ce84901424931662df8760dbc037e3cb8b99",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "fi|a1-fahren",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "3429a35634c3ddf4ceb914b5bded6087dcc42fab046225843c443789028f01ee",
+      "owner_new_target_lang_sha256": "a1ab59b514426e5869ef6f9fd9b82629203ce46c825965ec2656e4a5a4a7e02d",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "fi|a1-nehmen",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "71e9be3a6623ee89b0ee3eeecddea98d27254547f8c84c268f21d5bdaed945b4",
+      "owner_new_target_lang_sha256": "935efe9a22f7b3d849a99751e62ad9908efd83086c8b2b33fb7a964290dff015",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "fi|a1-passen",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "fca855b7c14f99eb40c36842fd4640ce99b38c559bc71e15c471876c5d025d90",
+      "owner_new_target_lang_sha256": "3387791ab96c1fabcbcc8e0dd440953e0b86cb7baaa52e4d54152a63f3fea52f",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "fi|a1-sich",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "2bce7e76ed01eebe1c114ab0b641465e910512846daeb5b5ca288185b6d7b214",
+      "owner_new_target_lang_sha256": "7320e178c61fb25b6669d0f33606a1a2234123d8e4c1250080bd2627d3338882",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "nn|a1-neu",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "ac55395391f415018722b71ec8622e90281cb677a902c74d3ffcbe0dcd719aac",
+      "owner_new_target_lang_sha256": "af37f7d3268a4c37b895183f3e4384133596d7b1bf066b32500838d6c1825e86",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "nn|a1-verstehen",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "52f700b9d6d5674f323c0f9f89490784e3fc6fcb420941dfe3603aae692f214f",
+      "owner_new_target_lang_sha256": "bfc8237723e2ed268c07e04f339cc6cf0d8fedb0ccc3f0897e2d849874f3da3a",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "nn|a1-wie",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "4afe295901a84024529ac2724387574db59c5e235b4c5f03cc15c84f97a086dd",
+      "owner_new_target_lang_sha256": "974aa573cd9ba53881e521ff5bd6caa2ff661d6d4101a686e463347665360a3c",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    },
+    {
+      "card_key": "sk|a1-wie",
+      "atomic_status": "ATOMIC_READY_APPLY",
+      "apply_mode": "READY_EXACT_PRODUCTION_CARD_SNAPSHOT",
+      "production_match_kind": "study.id",
+      "production_current_entry_sha256": "29000b1d10c14ef2c50cb94a20fcb848d59c41d1e5f1fae4a4b392a19adc8fb1",
+      "owner_new_target_lang_sha256": "46687da008f696c3b5d1a70f1f73676aff0a0fd0da41d869e2fe666e5cc477bc",
+      "owner_full_card_fallback_not_used_as_current_proof": true
+    }
+  ],
+  "card_apply_mode_counts": {
+    "READY_EXACT_CURRENT_MATCH": 221,
+    "READY_EXACT_PRODUCTION_CARD_SNAPSHOT": 13
+  },
+  "resolved_blocked_cards": true,
+  "blocked_cards_remaining": []
+}

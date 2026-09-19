@@ -9,11 +9,15 @@ const {
   PREFIX,
   PREP_DIR,
   EXPECTED_MAIN_SHA,
+  EXPECTED_PRODUCTION_FILE_SET_SHA,
 } = require("./lib/g2-a1-lrb-production-copy-only-prep");
 const { sha256 } = require("./lib/g2-a1-lrb-consolidation-owner-review-artifacts");
 
 const REQUIRED = [
   `${PREFIX}-PRODUCTION-COPY-ONLY-APPLY-MAPPING.json`,
+  `${PREFIX}-PRODUCTION-ATOMIC-CARD-MAPPING.json`,
+  `${PREFIX}-PRODUCTION-TECHNICAL-BLOCKER-RESOLUTION-1.json`,
+  `${PREFIX}-PRODUCTION-TECHNICAL-BLOCKER-RESOLUTION-1-PROOF.json`,
   `${PREFIX}-PRODUCTION-COPY-ONLY-BLOCKERS.json`,
   `${PREFIX}-PRODUCTION-COPY-ONLY-PREP-PROOF.json`,
   `${PREFIX}-PRODUCTION-COPY-ONLY-DRY-RUN.json`,
@@ -24,9 +28,7 @@ const REQUIRED = [
 function main() {
   const blockers = [];
   const originMain = execSync("git rev-parse origin/main", { cwd: ROOT, encoding: "utf8" }).trim();
-  if (originMain !== EXPECTED_MAIN_SHA) {
-    blockers.push(`origin_main_mismatch:${originMain}`);
-  }
+  if (originMain !== EXPECTED_MAIN_SHA) blockers.push(`origin_main_mismatch:${originMain}`);
 
   for (const name of REQUIRED) {
     if (!fs.existsSync(path.join(PREP_DIR, name))) blockers.push(`missing:${name}`);
@@ -39,8 +41,6 @@ function main() {
     const raw = fs.readFileSync(path.join(ROOT, art.path));
     if (sha256(raw) !== art.sha256) blockers.push(`manifest_sha_mismatch:${art.path}`);
   }
-  const manifestRel = `reports/g2-a1-owner/consolidation/production-apply-prep/${PREFIX}-PRODUCTION-COPY-ONLY-MANIFEST.json`;
-  if (!fs.existsSync(path.join(ROOT, manifestRel))) blockers.push("missing:MANIFEST");
 
   const prepProof = JSON.parse(
     fs.readFileSync(path.join(PREP_DIR, `${PREFIX}-PRODUCTION-COPY-ONLY-PREP-PROOF.json`), "utf8")
@@ -48,39 +48,61 @@ function main() {
   const dryRun = JSON.parse(
     fs.readFileSync(path.join(PREP_DIR, `${PREFIX}-PRODUCTION-COPY-ONLY-DRY-RUN.json`), "utf8")
   );
-
-  if (dryRun.production_files_changed !== 0) blockers.push("production_disk_changed");
-  if ((dryRun.de_files_changed || 0) !== 0) blockers.push("de_changed");
-  if ((dryRun.crowdin_files_changed || 0) !== 0) blockers.push("crowdin_changed");
-  if ((dryRun.ingest_apply_changes || 0) !== 0) blockers.push("ingest_changed");
-
-  const mapping = JSON.parse(
-    fs.readFileSync(path.join(PREP_DIR, `${PREFIX}-PRODUCTION-COPY-ONLY-APPLY-MAPPING.json`), "utf8")
+  const atomic = JSON.parse(
+    fs.readFileSync(path.join(PREP_DIR, `${PREFIX}-PRODUCTION-ATOMIC-CARD-MAPPING.json`), "utf8")
   );
-  if (mapping.leaf_decisions_count !== 4787) blockers.push("leaf_count");
-  const blockedFromRows = Object.entries(mapping.classification_counts || {})
-    .filter(([k]) => k.startsWith("BLOCKED"))
-    .reduce((s, [, v]) => s + v, 0);
-  if ((prepProof.blocked_count || 0) !== blockedFromRows) {
-    blockers.push("blocked_count_mismatch");
+  const resolutionProof = JSON.parse(
+    fs.readFileSync(path.join(PREP_DIR, `${PREFIX}-PRODUCTION-TECHNICAL-BLOCKER-RESOLUTION-1-PROOF.json`), "utf8")
+  );
+
+  const gates = [
+    ["total_owner_cards", dryRun.total_owner_cards, 234],
+    ["atomic_ready_cards", dryRun.atomic_ready_cards, 234],
+    ["blocked_cards", dryRun.blocked_cards, 0],
+    ["leaf_trace_rows", dryRun.leaf_trace_rows, 4787],
+    ["production_files_changed", dryRun.production_files_changed, 0],
+    ["de_files_changed", dryRun.de_files_changed, 0],
+    ["crowdin_files_changed", dryRun.crowdin_files_changed, 0],
+    ["ingest_apply_changes", dryRun.ingest_apply_changes, 0],
+  ];
+  for (const [name, actual, expected] of gates) {
+    if (actual !== expected) blockers.push(`dry_run_gate:${name}:${actual}`);
   }
 
-  const packageIntegrityOk = blockers.filter((b) => !b.startsWith("blocked_count")).length === 0;
-  const pass = packageIntegrityOk && prepProof.pass === true;
+  if (dryRun.production_file_set_sha256_before !== EXPECTED_PRODUCTION_FILE_SET_SHA) {
+    blockers.push("production_file_set_sha_before_mismatch");
+  }
+  if (dryRun.production_file_set_sha256_after !== EXPECTED_PRODUCTION_FILE_SET_SHA) {
+    blockers.push("production_file_set_sha_after_mismatch");
+  }
+
+  if (atomic.total_owner_cards !== 234) blockers.push("atomic_total_cards");
+  if (atomic.blocked_cards !== 0) blockers.push("atomic_blocked_cards");
+  if (atomic.atomic_ready_cards !== 234) blockers.push("atomic_ready_cards");
+
+  const packagePass =
+    blockers.length === 0 &&
+    prepProof.pass === true &&
+    resolutionProof.pass === true &&
+    resolutionProof.classification ===
+      "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_PACKAGE_CORRECTION_1_READY_AWAITING_OWNER_VERIFICATION";
+
   const out = {
-    pass,
+    pass: packagePass,
     blockers,
-    classification: prepProof.classification,
-    next_action: prepProof.next_action,
+    classification: resolutionProof.classification,
+    next_action: resolutionProof.next_action,
     mapping_sha256: manifest.mapping_sha256,
     prep_proof_sha256: manifest.prep_proof_sha256,
     dry_run: {
+      total_owner_cards: dryRun.total_owner_cards,
+      atomic_ready_cards: dryRun.atomic_ready_cards,
+      blocked_cards: dryRun.blocked_cards,
       production_files_changed: dryRun.production_files_changed,
-      simulated_full_cards_applied: dryRun.simulated_full_cards_applied,
     },
   };
   console.log(JSON.stringify(out, null, 2));
-  process.exit(pass ? 0 : 1);
+  process.exit(packagePass ? 0 : 1);
 }
 
 main();

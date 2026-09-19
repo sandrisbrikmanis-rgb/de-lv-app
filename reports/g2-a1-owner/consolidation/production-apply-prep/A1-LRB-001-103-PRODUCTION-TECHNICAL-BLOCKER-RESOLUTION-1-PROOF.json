@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:13:48.095Z",
+  "origin_main_sha": "639440d63654bf0f10d7677fd74ce595eb9396cf",
+  "prep_branch_head_sha": "df5ae23fdc2df8ac1c7b78f19b13cb9d01e665f2",
+  "total_owner_cards": 234,
+  "atomic_ready_cards": 234,
+  "atomic_ready_apply_cards": 234,
+  "atomic_ready_noop_cards": 0,
+  "blocked_cards": 0,
+  "leaf_trace_rows": 4787,
+  "duplicate_targets": 0,
+  "mirror_drift": 0,
+  "pass": true,
+  "classification": "A1_LRB_001_103_PRODUCTION_COPY_ONLY_APPLY_PACKAGE_CORRECTION_1_READY_AWAITING_OWNER_VERIFICATION",
+  "next_action": "OWNER_VERIFY_PRODUCTION_COPY_ONLY_APPLY_PACKAGE"
+}
