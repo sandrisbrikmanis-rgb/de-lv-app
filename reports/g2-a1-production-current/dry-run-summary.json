@@ -1,0 +1,361 @@
+{
+  "pass": true,
+  "phase": "dry-run",
+  "summary": {
+    "auditLanguages": 32,
+    "totalAuditRows": 95731,
+    "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+    "productionFileSetSha256": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+    "batchConfigurationPass": true,
+    "allowedVerdicts": [
+      "PASS",
+      "FINDING",
+      "NEEDS_SOURCE_REVIEW",
+      "SOURCE_DE_ISSUE"
+    ],
+    "forbiddenAsFinalVerdicts": [
+      "VALIDATED_REAL_FINDING",
+      "OWNER_DECISION_REQUIRED",
+      "LABOT",
+      "NELABOT",
+      "PENDING",
+      "FALSE_POSITIVE"
+    ],
+    "linguisticVerdictsGenerated": 0,
+    "equation": "TOTAL_CHECKED = AUDIT_PASS + FINDING + NEEDS_SOURCE_REVIEW + SOURCE_DE_ISSUE (not evaluated in dry-run)"
+  },
+  "languageGate": {
+    "EXPECTED_APP_LANGUAGES": 32,
+    "ACTUAL_AUDIT_LANGUAGES": 32,
+    "MISSING_AUDIT_LANGUAGES": 0,
+    "DUPLICATE_AUDIT_LANGUAGES": 0,
+    "UNKNOWN_AUDIT_LANGUAGES": 0,
+    "pass": true
+  },
+  "fileSetGate": {
+    "DATA_A1_FILES": 32,
+    "WWW_A1_FILES": 32,
+    "TOTAL_A1_FILE_SET": 64,
+    "MISSING_MIRRORS": 0,
+    "ORPHAN_MIRRORS": 0,
+    "MIRROR_MISMATCHES": 0,
+    "EXPECTED_APP_LANGUAGES": 32,
+    "ACTUAL_AUDIT_LANGUAGES": 32,
+    "MISSING_AUDIT_LANGUAGES": 0,
+    "DUPLICATE_AUDIT_LANGUAGES": 0,
+    "UNKNOWN_AUDIT_LANGUAGES": 0,
+    "productionFileSetSha256": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+    "pass": true
+  },
+  "preflightPass": true,
+  "masterVersion": "1.18",
+  "perLang": [
+    {
+      "language": "lv",
+      "objects": 702,
+      "auditRows": 2971,
+      "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+      "batchCheckPass": true
+    },
+    {
+      "language": "lt",
+      "objects": 702,
+      "auditRows": 2995,
+      "datasetProductionSha": "f37fee96f3386224a8478675bdc9bd7d806c219cfe4e7cb1c3d16e3e4e51816a",
+      "batchCheckPass": true
+    },
+    {
+      "language": "ru",
+      "objects": 702,
+      "auditRows": 2995,
+      "datasetProductionSha": "249cc2c211d97dc28666101ad11dcb33fec4fdc880616fbcd16d2ba0a484db62",
+      "batchCheckPass": true
+    },
+    {
+      "language": "pl",
+      "objects": 702,
+      "auditRows": 2995,
+      "datasetProductionSha": "9f17a7655e152ba9c4767b1104530db9fc28e995fc2cd5837c208d008e189b54",
+      "batchCheckPass": true
+    },
+    {
+      "language": "uk",
+      "objects": 702,
+      "auditRows": 2994,
+      "datasetProductionSha": "d163acd8a78a301b1101d99d376d7a4c95296dd974b2d7d79d771c63654afb3b",
+      "batchCheckPass": true
+    },
+    {
+      "language": "et",
+      "objects": 702,
+      "auditRows": 3002,
+      "datasetProductionSha": "106dcbd199d59887759c8c46bfeec0da4b17420697655d67f18f958efe923b36",
+      "batchCheckPass": true
+    },
+    {
+      "language": "en",
+      "objects": 702,
+      "auditRows": 2969,
+      "datasetProductionSha": "edcf401ca4f5606133eec439a72af25af8d6fd7d98582ac4d53e475ee012985c",
+      "batchCheckPass": true
+    },
+    {
+      "language": "ro",
+      "objects": 702,
+      "auditRows": 2995,
+      "datasetProductionSha": "5b3d4dbeeffcba5732b0101d9764e0850cfa270a123866996f2de0735c48120e",
+      "batchCheckPass": true
+    },
+    {
+      "language": "bg",
+      "objects": 702,
+      "auditRows": 2994,
+      "datasetProductionSha": "547e7c48948f948f5a61f5e457ceba05cb58a7fb4061fde0770af8ee5271d889",
+      "batchCheckPass": true
+    },
+    {
+      "language": "tr",
+      "objects": 702,
+      "auditRows": 3015,
+      "datasetProductionSha": "e536a225d442590620644cfa791e81fb5e3c42c107295f3982a4b43231f59665",
+      "batchCheckPass": true
+    },
+    {
+      "language": "gr",
+      "objects": 702,
+      "auditRows": 3008,
+      "datasetProductionSha": "28c5a23f5ff8a817e69d6fa27055a0090a1e3e16fd30f19f138d75b239a2bc3e",
+      "batchCheckPass": true
+    },
+    {
+      "language": "sq",
+      "objects": 702,
+      "auditRows": 2991,
+      "datasetProductionSha": "3b1e7fdb40071317d709a00a20dfd086a3ebd591cd602acc718a56e81400762f",
+      "batchCheckPass": true
+    },
+    {
+      "language": "mk",
+      "objects": 702,
+      "auditRows": 2995,
+      "datasetProductionSha": "73197c62429b8243c851d5b7325888fd4b38cbc0cfdfe703562c531768e0e1a7",
+      "batchCheckPass": true
+    },
+    {
+      "language": "sl",
+      "objects": 702,
+      "auditRows": 2977,
+      "datasetProductionSha": "8888b62789ff90965e7fbcb84b4b52a25ec1e7e86f75874c4915a6a9ddacdef2",
+      "batchCheckPass": true
+    },
+    {
+      "language": "bs",
+      "objects": 702,
+      "auditRows": 2967,
+      "datasetProductionSha": "d161085b1b9d6b2fed62e838cea167ae3d626c47ecf182e15568166f6d57e60e",
+      "batchCheckPass": true
+    },
+    {
+      "language": "sr",
+      "objects": 702,
+      "auditRows": 2972,
+      "datasetProductionSha": "c4d30a48fc0aa98bc2e91c2163290fd9d22e197aaf4a4807c42a157bc79e3ae3",
+      "batchCheckPass": true
+    },
+    {
+      "language": "hr",
+      "objects": 702,
+      "auditRows": 2995,
+      "datasetProductionSha": "397bf12d2f772498ddc59d1c9307b5e5f62784008612cb3950c63e98aa8a124d",
+      "batchCheckPass": true
+    },
+    {
+      "language": "sk",
+      "objects": 702,
+      "auditRows": 2990,
+      "datasetProductionSha": "7aaf728a2b1503a009e4c6d5786b7be767b76554f76f8a2595e9edd2a1829824",
+      "batchCheckPass": true
+    },
+    {
+      "language": "cs",
+      "objects": 702,
+      "auditRows": 2974,
+      "datasetProductionSha": "d5754c861113128e9836b60d179b3c7a61e141db125cb10c2483e603c8287f78",
+      "batchCheckPass": true
+    },
+    {
+      "language": "fi",
+      "objects": 702,
+      "auditRows": 3009,
+      "datasetProductionSha": "0307777bfac2b6584e498009c5d6e823530c02dadec378edde9647c1c6885d19",
+      "batchCheckPass": true
+    },
+    {
+      "language": "sv",
+      "objects": 702,
+      "auditRows": 3002,
+      "datasetProductionSha": "a3a1c2dcaee3e6d79729f6b137fcf547a4eeb44ae38e9b267f27688423c3c924",
+      "batchCheckPass": true
+    },
+    {
+      "language": "nb",
+      "objects": 702,
+      "auditRows": 2998,
+      "datasetProductionSha": "cacb79ab044476e4fc98a82478fa12c3bbdf4da206dce80206a5bf70c4f55029",
+      "batchCheckPass": true
+    },
+    {
+      "language": "nn",
+      "objects": 702,
+      "auditRows": 2997,
+      "datasetProductionSha": "946aefaf5c1edd13ee39faf827d6614e1ecca21ddee882fc6ca587ce5ec4f78b",
+      "batchCheckPass": true
+    },
+    {
+      "language": "da",
+      "objects": 702,
+      "auditRows": 2988,
+      "datasetProductionSha": "ade11202e272179a5b4970e817e5e94f1b3fb2f7bb834c3cced0b7c79357c678",
+      "batchCheckPass": true
+    },
+    {
+      "language": "nl",
+      "objects": 702,
+      "auditRows": 2995,
+      "datasetProductionSha": "7a6c9a8a9a3383a1ccb07931cc84b2a0f3090d79240671edb701674eefb85dad",
+      "batchCheckPass": true
+    },
+    {
+      "language": "lb",
+      "objects": 702,
+      "auditRows": 2989,
+      "datasetProductionSha": "9154bb2c7fed85f61c8cfd8b8f78bc5a4df485e9b310d672e0e07b57684c1fe0",
+      "batchCheckPass": true
+    },
+    {
+      "language": "fr",
+      "objects": 702,
+      "auditRows": 2984,
+      "datasetProductionSha": "3e0ed100a13289b61d874122835b08b9b07e5e7297044476329fc4ba02a7df77",
+      "batchCheckPass": true
+    },
+    {
+      "language": "it",
+      "objects": 702,
+      "auditRows": 2995,
+      "datasetProductionSha": "15cf772b7ebb2cbb81dad5bd7e7c66b58fe6a96d8a3006215c2af33d0e965ddc",
+      "batchCheckPass": true
+    },
+    {
+      "language": "es",
+      "objects": 702,
+      "auditRows": 2996,
+      "datasetProductionSha": "03a44921eeb59abcf75a6ec7e54e6f3e7a77fa8a8151a3df45b8c2aac2cb2556",
+      "batchCheckPass": true
+    },
+    {
+      "language": "pt",
+      "objects": 702,
+      "auditRows": 2992,
+      "datasetProductionSha": "19f36f0dcc639635471dc3e9d287c75d5c79a6ed9af4a7c89b734b93b902b244",
+      "batchCheckPass": true
+    },
+    {
+      "language": "hu",
+      "objects": 702,
+      "auditRows": 2994,
+      "datasetProductionSha": "f431cec7ac44460f17ea7c08cd874ff2dcfdc68639a419666e02dc317627a040",
+      "batchCheckPass": true
+    },
+    {
+      "language": "is",
+      "objects": 702,
+      "auditRows": 2998,
+      "datasetProductionSha": "1e87fc3cec5cd6e1e852d2956032f6b0e041694733513c77f93536620a7be10c",
+      "batchCheckPass": true
+    }
+  ],
+  "rowsSample": [
+    {
+      "auditSource": "production-current",
+      "productionFile": "data/a1.js",
+      "language": "lv",
+      "appLanguageCode": "lv",
+      "authorityStandardCode": "lv",
+      "cardId": "apfel",
+      "fieldPath": "a1.card.apfel.native",
+      "currentValue": "ābols",
+      "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+      "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+      "authorityUrls": 3,
+      "linguisticVerdict": null,
+      "dryRun": true
+    },
+    {
+      "auditSource": "production-current",
+      "productionFile": "data/a1.js",
+      "language": "lv",
+      "appLanguageCode": "lv",
+      "authorityStandardCode": "lv",
+      "cardId": "brot",
+      "fieldPath": "a1.card.brot.native",
+      "currentValue": "maize",
+      "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+      "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+      "authorityUrls": 3,
+      "linguisticVerdict": null,
+      "dryRun": true
+    },
+    {
+      "auditSource": "production-current",
+      "productionFile": "data/a1.js",
+      "language": "lv",
+      "appLanguageCode": "lv",
+      "authorityStandardCode": "lv",
+      "cardId": "wasser",
+      "fieldPath": "a1.card.wasser.native",
+      "currentValue": "ūdens",
+      "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+      "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+      "authorityUrls": 3,
+      "linguisticVerdict": null,
+      "dryRun": true
+    },
+    {
+      "auditSource": "production-current",
+      "productionFile": "data/a1.js",
+      "language": "lv",
+      "appLanguageCode": "lv",
+      "authorityStandardCode": "lv",
+      "cardId": "haus",
+      "fieldPath": "a1.card.haus.native",
+      "currentValue": "māja",
+      "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+      "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+      "authorityUrls": 3,
+      "linguisticVerdict": null,
+      "dryRun": true
+    },
+    {
+      "auditSource": "production-current",
+      "productionFile": "data/a1.js",
+      "language": "lv",
+      "appLanguageCode": "lv",
+      "authorityStandardCode": "lv",
+      "cardId": "lernen",
+      "fieldPath": "a1.card.lernen.native",
+      "currentValue": "mācīties",
+      "datasetProductionSha": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+      "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+      "languageAuthority": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+      "authorityUrls": 3,
+      "linguisticVerdict": null,
+      "dryRun": true
+    }
+  ],
+  "totalRows": 95731
+}

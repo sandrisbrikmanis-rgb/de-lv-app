@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 "use strict";
+/**
+ * Crowdin staging G2/A1 Phase3 discovery (npm run phase3:g2-a1:discovery = CROWDIN_STAGING_DISCOVERY).
+ * Production-CURRENT audit: npm run audit:g2-a1:production-current:* (separate orchestrator).
+ */
 
 require("dotenv").config({ path: require("path").join(__dirname, "..", ".env") });
 

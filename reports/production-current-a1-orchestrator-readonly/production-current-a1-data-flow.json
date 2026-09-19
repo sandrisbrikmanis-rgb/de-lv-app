@@ -37,13 +37,13 @@
       "chain": "loadG2Level(lang)"
     },
     {
-      "stage": "LRB helper (partial / lv bug)",
+      "stage": "LRB helper (production path)",
       "script": "scripts/lib/g2-a1-lrb-consolidation-owner-review-artifacts.js",
       "function": "loadProductionA1Words(lang)",
-      "fileSource": "data/${lang}/a1.js only (no lv exception)",
+      "fileSource": "dataRel(lang, a1.js) — lv → data/a1.js",
       "role": "Production lookup for LRB consolidation",
-      "authoritativeCurrent": "NĒ for lv (returns null); JĀ for other langs",
-      "chain": "findProductionEntry → loadProductionA1Words"
+      "authoritativeCurrent": "JĀ (via dataRel)",
+      "chain": "findProductionEntry → loadProductionA1Words → dataRel"
     },
     {
       "stage": "www mirror",

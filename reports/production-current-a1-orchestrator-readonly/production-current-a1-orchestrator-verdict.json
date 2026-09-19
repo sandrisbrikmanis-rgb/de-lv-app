@@ -22,10 +22,6 @@
       "detail": "Phase3 findings ≠ AUDIT_PASS/FINDING/NEEDS_SOURCE_REVIEW/SOURCE_DE_ISSUE pipeline"
     },
     {
-      "code": "LOAD_PRODUCTION_A1_WORDS_LV_PATH",
-      "detail": "loadProductionA1Words('lv') uses data/lv/a1.js (missing); lv CURRENT is data/a1.js"
-    },
-    {
       "code": "EXPORT_ONLY_NOT_PRODUCTION_INVENTORY",
       "detail": "--export-only runs exportAllCrowdinStaging only"
     }

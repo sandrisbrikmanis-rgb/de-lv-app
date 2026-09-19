@@ -1,0 +1,1215 @@
+{
+  "pass": true,
+  "masterVersion": "1.18",
+  "masterAuthorizedMin": "1.18",
+  "masterSemanticFloor": "1.12",
+  "masterPremerge": {
+    "timestamp": "2026-09-19T14:46:01.448Z",
+    "baseRef": "origin/main",
+    "masterVersion": "1.18",
+    "MASTER_VERSION_CHECK": "PASS",
+    "MASTER_V1_12_PREMERGE_VERIFY": "PASS",
+    "MASTER_V1_12_TOOLING_VERIFY": "PASS",
+    "V1_10_RULES_RETAINED": "100%",
+    "V1_11_RULES_RETAINED": "100%",
+    "V1_12_RULES_RETAINED": "100%",
+    "SECTION_NUMBER_COLLISIONS": 0,
+    "BROKEN_INTERNAL_REFERENCES": 0,
+    "BATCH_TABLE_UNCHANGED": "PASS",
+    "EMBEDDED_LANGUAGE_REGISTRY": "PASS",
+    "EMBEDDED_LANGUAGE_REGISTRY_COUNT": 33,
+    "LANGUAGE_CODE_DUPLICATES": 0,
+    "MISSING_LANGUAGE_CODES": 0,
+    "UNKNOWN_LANGUAGE_CODES": 0,
+    "DOC_REFERENCES_APVIENOTS": "PASS",
+    "PRODUCTION_CHANGES": 0,
+    "DE_CHANGES": 0,
+    "productionFilesChanged": [],
+    "deFilesChanged": [],
+    "rulesMissing": {
+      "v10": [],
+      "v11": [],
+      "v12": []
+    },
+    "sectionCollisions": [],
+    "brokenRefs": [],
+    "versionCheck": {
+      "pass": true,
+      "masterVersion": "1.18",
+      "floor": "1.12",
+      "authorizedMin": "1.18",
+      "reason": null
+    },
+    "batchTable": {
+      "pass": true,
+      "expectedLines": 7,
+      "missing": []
+    },
+    "docRefs": {
+      "pass": true,
+      "missingIn": [],
+      "apvienotsName": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md"
+    },
+    "requiredFiles": {
+      "pass": true,
+      "missing": []
+    },
+    "embeddedRegistry": {
+      "pass": true,
+      "blockerCode": null,
+      "blockerMessage": null,
+      "registryDocument": "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+      "registrySection": "# 3. LANGUAGE AUTHORITY REGISTRY — 33 VALODAS",
+      "EMBEDDED_LANGUAGE_REGISTRY_COUNT": 33,
+      "LANGUAGE_CODE_DUPLICATES": 0,
+      "MISSING_LANGUAGE_CODES": 0,
+      "UNKNOWN_LANGUAGE_CODES": 0,
+      "missingLanguageCodesList": [],
+      "unknownLanguageCodesList": [],
+      "duplicateLanguageCodesList": [],
+      "missingIndices": [],
+      "duplicateIndices": [],
+      "elGrMappingPass": true,
+      "dePresentPass": true,
+      "bgPresentPass": true,
+      "emptyMandatoryFieldCount": 0,
+      "invalidUrlFieldCount": 0,
+      "emptyMandatoryFields": [],
+      "invalidUrlFields": [],
+      "coverageRows": [
+        {
+          "index": 1,
+          "standardCode": "bs",
+          "appCode": "bs",
+          "languageName": "Bosniešu",
+          "authorityName": "Institut za jezik Univerziteta u Sarajevu",
+          "urlCount": 1
+        },
+        {
+          "index": 2,
+          "standardCode": "en",
+          "appCode": "en",
+          "languageName": "Britu angļu",
+          "authorityName": "Oxford English Dictionary / Oxford Learner's Dictionaries",
+          "urlCount": 2
+        },
+        {
+          "index": 3,
+          "standardCode": "cs",
+          "appCode": "cs",
+          "languageName": "Čehu",
+          "authorityName": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+          "urlCount": 1
+        },
+        {
+          "index": 4,
+          "standardCode": "da",
+          "appCode": "da",
+          "languageName": "Dāņu",
+          "authorityName": "Dansk Sprognævn — Retskrivningsordbogen",
+          "urlCount": 1
+        },
+        {
+          "index": 5,
+          "standardCode": "et",
+          "appCode": "et",
+          "languageName": "Igauņu",
+          "authorityName": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+          "urlCount": 1
+        },
+        {
+          "index": 6,
+          "standardCode": "es",
+          "appCode": "es",
+          "languageName": "Spāņu",
+          "authorityName": "Real Academia Española — DLE / Ortografía",
+          "urlCount": 2
+        },
+        {
+          "index": 7,
+          "standardCode": "fr",
+          "appCode": "fr",
+          "languageName": "Franču",
+          "authorityName": "Académie française — Dictionnaire de l’Académie française",
+          "urlCount": 1
+        },
+        {
+          "index": 8,
+          "standardCode": "hr",
+          "appCode": "hr",
+          "languageName": "Horvātu",
+          "authorityName": "Institut za hrvatski jezik — Hrvatski pravopis",
+          "urlCount": 1
+        },
+        {
+          "index": 9,
+          "standardCode": "is",
+          "appCode": "is",
+          "languageName": "Islandiešu",
+          "authorityName": "Stofnun Árna Magnússonar — BÍN / Málið.is",
+          "urlCount": 2
+        },
+        {
+          "index": 10,
+          "standardCode": "it",
+          "appCode": "it",
+          "languageName": "Itāļu",
+          "authorityName": "Accademia della Crusca",
+          "urlCount": 1
+        },
+        {
+          "index": 11,
+          "standardCode": "lv",
+          "appCode": "lv",
+          "languageName": "Latviešu",
+          "authorityName": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+          "urlCount": 3
+        },
+        {
+          "index": 12,
+          "standardCode": "lb",
+          "appCode": "lb",
+          "languageName": "Luksemburgiešu",
+          "authorityName": "Zenter fir d'Lëtzebuerger Sprooch — LOD",
+          "urlCount": 2
+        },
+        {
+          "index": 13,
+          "standardCode": "lt",
+          "appCode": "lt",
+          "languageName": "Lietuviešu",
+          "authorityName": "Lietuvių kalbos institutas + VLKK",
+          "urlCount": 2
+        },
+        {
+          "index": 14,
+          "standardCode": "hu",
+          "appCode": "hu",
+          "languageName": "Ungāru",
+          "authorityName": "HUN-REN Nyelvtudományi Kutatóközpont",
+          "urlCount": 1
+        },
+        {
+          "index": 15,
+          "standardCode": "nl",
+          "appCode": "nl",
+          "languageName": "Nīderlandiešu",
+          "authorityName": "Nederlandse Taalunie — Woordenlijst Nederlandse Taal",
+          "urlCount": 2
+        },
+        {
+          "index": 16,
+          "standardCode": "nb",
+          "appCode": "nb",
+          "languageName": "Norvēģu Bokmål",
+          "authorityName": "Språkrådet / Bokmålsordboka",
+          "urlCount": 2
+        },
+        {
+          "index": 17,
+          "standardCode": "nn",
+          "appCode": "nn",
+          "languageName": "Norvēģu Nynorsk",
+          "authorityName": "Språkrådet / Nynorskordboka",
+          "urlCount": 2
+        },
+        {
+          "index": 18,
+          "standardCode": "pl",
+          "appCode": "pl",
+          "languageName": "Poļu",
+          "authorityName": "Rada Języka Polskiego + WSJP PAN",
+          "urlCount": 2
+        },
+        {
+          "index": 19,
+          "standardCode": "pt",
+          "appCode": "pt",
+          "languageName": "Portugāļu",
+          "authorityName": "Academia das Ciências de Lisboa",
+          "urlCount": 2
+        },
+        {
+          "index": 20,
+          "standardCode": "ro",
+          "appCode": "ro",
+          "languageName": "Rumāņu",
+          "authorityName": "Academia Română / Institutul de Lingvistică — DOOM",
+          "urlCount": 3
+        },
+        {
+          "index": 21,
+          "standardCode": "sq",
+          "appCode": "sq",
+          "languageName": "Albāņu",
+          "authorityName": "Akademia e Shkencave e Shqipërisë",
+          "urlCount": 1
+        },
+        {
+          "index": 22,
+          "standardCode": "sk",
+          "appCode": "sk",
+          "languageName": "Slovāku",
+          "authorityName": "Jazykovedný ústav Ľudovíta Štúra SAV",
+          "urlCount": 2
+        },
+        {
+          "index": 23,
+          "standardCode": "sl",
+          "appCode": "sl",
+          "languageName": "Slovēņu",
+          "authorityName": "ZRC SAZU — FRAN",
+          "urlCount": 2
+        },
+        {
+          "index": 24,
+          "standardCode": "sr",
+          "appCode": "sr",
+          "languageName": "Serbu",
+          "authorityName": "Institut za srpski jezik SANU + Matica srpska",
+          "urlCount": 2
+        },
+        {
+          "index": 25,
+          "standardCode": "fi",
+          "appCode": "fi",
+          "languageName": "Somu",
+          "authorityName": "Kotimaisten kielten keskus — Kielitoimiston sanakirja",
+          "urlCount": 2
+        },
+        {
+          "index": 26,
+          "standardCode": "sv",
+          "appCode": "sv",
+          "languageName": "Zviedru",
+          "authorityName": "Svenska Akademien — SAOL / SO / SAOB",
+          "urlCount": 2
+        },
+        {
+          "index": 27,
+          "standardCode": "tr",
+          "appCode": "tr",
+          "languageName": "Turku",
+          "authorityName": "Türk Dil Kurumu — Güncel Türkçe Sözlük / Yazım Kılavuzu",
+          "urlCount": 2
+        },
+        {
+          "index": 28,
+          "standardCode": "el",
+          "appCode": "gr",
+          "languageName": "Grieķu",
+          "authorityName": "Κέντρο Ελληνικής Γλώσσας",
+          "urlCount": 1
+        },
+        {
+          "index": 29,
+          "standardCode": "bg",
+          "appCode": "bg",
+          "languageName": "Bulgāru",
+          "authorityName": "Институт за български език, БАН — Официален правописен речник",
+          "urlCount": 2
+        },
+        {
+          "index": 30,
+          "standardCode": "mk",
+          "appCode": "mk",
+          "languageName": "Maķedoniešu",
+          "authorityName": "Институт за македонски јазик „Крсте Мисирков“",
+          "urlCount": 1
+        },
+        {
+          "index": 31,
+          "standardCode": "ru",
+          "appCode": "ru",
+          "languageName": "Krievu",
+          "authorityName": "Институт русского языка им. В. В. Виноградова РАН",
+          "urlCount": 2
+        },
+        {
+          "index": 32,
+          "standardCode": "uk",
+          "appCode": "uk",
+          "languageName": "Ukraiņu",
+          "authorityName": "Інститут української мови НАН України + Український правопис",
+          "urlCount": 2
+        },
+        {
+          "index": 33,
+          "standardCode": "de",
+          "appCode": "de",
+          "languageName": "Vācu",
+          "authorityName": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+          "urlCount": 5
+        }
+      ],
+      "legacyApvienotsReferences": 0
+    },
+    "tooling": {
+      "regressionPass": true,
+      "inventoryOk": true,
+      "inventoryFields": [
+        "lv",
+        "study.translation",
+        "study.title"
+      ],
+      "fixtureResults": [
+        {
+          "id": "case-a-ordinary",
+          "pass": true
+        },
+        {
+          "id": "case-b-standardStudy",
+          "pass": true
+        },
+        {
+          "id": "case-c-standardStudy",
+          "pass": true
+        },
+        {
+          "id": "case-d-standardStudy",
+          "pass": true
+        },
+        {
+          "id": "case-e-valid-explanation",
+          "pass": true
+        }
+      ]
+    },
+    "blockers": []
+  },
+  "embeddedRegistry": {
+    "pass": true,
+    "blockerCode": null,
+    "blockerMessage": null,
+    "registryDocument": "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+    "registrySection": "# 3. LANGUAGE AUTHORITY REGISTRY — 33 VALODAS",
+    "EMBEDDED_LANGUAGE_REGISTRY_COUNT": 33,
+    "LANGUAGE_CODE_DUPLICATES": 0,
+    "MISSING_LANGUAGE_CODES": 0,
+    "UNKNOWN_LANGUAGE_CODES": 0,
+    "missingLanguageCodesList": [],
+    "unknownLanguageCodesList": [],
+    "duplicateLanguageCodesList": [],
+    "missingIndices": [],
+    "duplicateIndices": [],
+    "elGrMappingPass": true,
+    "dePresentPass": true,
+    "bgPresentPass": true,
+    "emptyMandatoryFieldCount": 0,
+    "invalidUrlFieldCount": 0,
+    "emptyMandatoryFields": [],
+    "invalidUrlFields": [],
+    "coverageRows": [
+      {
+        "index": 1,
+        "standardCode": "bs",
+        "appCode": "bs",
+        "languageName": "Bosniešu",
+        "authorityName": "Institut za jezik Univerziteta u Sarajevu",
+        "urlCount": 1
+      },
+      {
+        "index": 2,
+        "standardCode": "en",
+        "appCode": "en",
+        "languageName": "Britu angļu",
+        "authorityName": "Oxford English Dictionary / Oxford Learner's Dictionaries",
+        "urlCount": 2
+      },
+      {
+        "index": 3,
+        "standardCode": "cs",
+        "appCode": "cs",
+        "languageName": "Čehu",
+        "authorityName": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+        "urlCount": 1
+      },
+      {
+        "index": 4,
+        "standardCode": "da",
+        "appCode": "da",
+        "languageName": "Dāņu",
+        "authorityName": "Dansk Sprognævn — Retskrivningsordbogen",
+        "urlCount": 1
+      },
+      {
+        "index": 5,
+        "standardCode": "et",
+        "appCode": "et",
+        "languageName": "Igauņu",
+        "authorityName": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+        "urlCount": 1
+      },
+      {
+        "index": 6,
+        "standardCode": "es",
+        "appCode": "es",
+        "languageName": "Spāņu",
+        "authorityName": "Real Academia Española — DLE / Ortografía",
+        "urlCount": 2
+      },
+      {
+        "index": 7,
+        "standardCode": "fr",
+        "appCode": "fr",
+        "languageName": "Franču",
+        "authorityName": "Académie française — Dictionnaire de l’Académie française",
+        "urlCount": 1
+      },
+      {
+        "index": 8,
+        "standardCode": "hr",
+        "appCode": "hr",
+        "languageName": "Horvātu",
+        "authorityName": "Institut za hrvatski jezik — Hrvatski pravopis",
+        "urlCount": 1
+      },
+      {
+        "index": 9,
+        "standardCode": "is",
+        "appCode": "is",
+        "languageName": "Islandiešu",
+        "authorityName": "Stofnun Árna Magnússonar — BÍN / Málið.is",
+        "urlCount": 2
+      },
+      {
+        "index": 10,
+        "standardCode": "it",
+        "appCode": "it",
+        "languageName": "Itāļu",
+        "authorityName": "Accademia della Crusca",
+        "urlCount": 1
+      },
+      {
+        "index": 11,
+        "standardCode": "lv",
+        "appCode": "lv",
+        "languageName": "Latviešu",
+        "authorityName": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+        "urlCount": 3
+      },
+      {
+        "index": 12,
+        "standardCode": "lb",
+        "appCode": "lb",
+        "languageName": "Luksemburgiešu",
+        "authorityName": "Zenter fir d'Lëtzebuerger Sprooch — LOD",
+        "urlCount": 2
+      },
+      {
+        "index": 13,
+        "standardCode": "lt",
+        "appCode": "lt",
+        "languageName": "Lietuviešu",
+        "authorityName": "Lietuvių kalbos institutas + VLKK",
+        "urlCount": 2
+      },
+      {
+        "index": 14,
+        "standardCode": "hu",
+        "appCode": "hu",
+        "languageName": "Ungāru",
+        "authorityName": "HUN-REN Nyelvtudományi Kutatóközpont",
+        "urlCount": 1
+      },
+      {
+        "index": 15,
+        "standardCode": "nl",
+        "appCode": "nl",
+        "languageName": "Nīderlandiešu",
+        "authorityName": "Nederlandse Taalunie — Woordenlijst Nederlandse Taal",
+        "urlCount": 2
+      },
+      {
+        "index": 16,
+        "standardCode": "nb",
+        "appCode": "nb",
+        "languageName": "Norvēģu Bokmål",
+        "authorityName": "Språkrådet / Bokmålsordboka",
+        "urlCount": 2
+      },
+      {
+        "index": 17,
+        "standardCode": "nn",
+        "appCode": "nn",
+        "languageName": "Norvēģu Nynorsk",
+        "authorityName": "Språkrådet / Nynorskordboka",
+        "urlCount": 2
+      },
+      {
+        "index": 18,
+        "standardCode": "pl",
+        "appCode": "pl",
+        "languageName": "Poļu",
+        "authorityName": "Rada Języka Polskiego + WSJP PAN",
+        "urlCount": 2
+      },
+      {
+        "index": 19,
+        "standardCode": "pt",
+        "appCode": "pt",
+        "languageName": "Portugāļu",
+        "authorityName": "Academia das Ciências de Lisboa",
+        "urlCount": 2
+      },
+      {
+        "index": 20,
+        "standardCode": "ro",
+        "appCode": "ro",
+        "languageName": "Rumāņu",
+        "authorityName": "Academia Română / Institutul de Lingvistică — DOOM",
+        "urlCount": 3
+      },
+      {
+        "index": 21,
+        "standardCode": "sq",
+        "appCode": "sq",
+        "languageName": "Albāņu",
+        "authorityName": "Akademia e Shkencave e Shqipërisë",
+        "urlCount": 1
+      },
+      {
+        "index": 22,
+        "standardCode": "sk",
+        "appCode": "sk",
+        "languageName": "Slovāku",
+        "authorityName": "Jazykovedný ústav Ľudovíta Štúra SAV",
+        "urlCount": 2
+      },
+      {
+        "index": 23,
+        "standardCode": "sl",
+        "appCode": "sl",
+        "languageName": "Slovēņu",
+        "authorityName": "ZRC SAZU — FRAN",
+        "urlCount": 2
+      },
+      {
+        "index": 24,
+        "standardCode": "sr",
+        "appCode": "sr",
+        "languageName": "Serbu",
+        "authorityName": "Institut za srpski jezik SANU + Matica srpska",
+        "urlCount": 2
+      },
+      {
+        "index": 25,
+        "standardCode": "fi",
+        "appCode": "fi",
+        "languageName": "Somu",
+        "authorityName": "Kotimaisten kielten keskus — Kielitoimiston sanakirja",
+        "urlCount": 2
+      },
+      {
+        "index": 26,
+        "standardCode": "sv",
+        "appCode": "sv",
+        "languageName": "Zviedru",
+        "authorityName": "Svenska Akademien — SAOL / SO / SAOB",
+        "urlCount": 2
+      },
+      {
+        "index": 27,
+        "standardCode": "tr",
+        "appCode": "tr",
+        "languageName": "Turku",
+        "authorityName": "Türk Dil Kurumu — Güncel Türkçe Sözlük / Yazım Kılavuzu",
+        "urlCount": 2
+      },
+      {
+        "index": 28,
+        "standardCode": "el",
+        "appCode": "gr",
+        "languageName": "Grieķu",
+        "authorityName": "Κέντρο Ελληνικής Γλώσσας",
+        "urlCount": 1
+      },
+      {
+        "index": 29,
+        "standardCode": "bg",
+        "appCode": "bg",
+        "languageName": "Bulgāru",
+        "authorityName": "Институт за български език, БАН — Официален правописен речник",
+        "urlCount": 2
+      },
+      {
+        "index": 30,
+        "standardCode": "mk",
+        "appCode": "mk",
+        "languageName": "Maķedoniešu",
+        "authorityName": "Институт за македонски јазик „Крсте Мисирков“",
+        "urlCount": 1
+      },
+      {
+        "index": 31,
+        "standardCode": "ru",
+        "appCode": "ru",
+        "languageName": "Krievu",
+        "authorityName": "Институт русского языка им. В. В. Виноградова РАН",
+        "urlCount": 2
+      },
+      {
+        "index": 32,
+        "standardCode": "uk",
+        "appCode": "uk",
+        "languageName": "Ukraiņu",
+        "authorityName": "Інститут української мови НАН України + Український правопис",
+        "urlCount": 2
+      },
+      {
+        "index": 33,
+        "standardCode": "de",
+        "appCode": "de",
+        "languageName": "Vācu",
+        "authorityName": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "urlCount": 5
+      }
+    ],
+    "legacyApvienotsReferences": 0
+  },
+  "inventory": {
+    "gate": {
+      "DATA_A1_FILES": 32,
+      "WWW_A1_FILES": 32,
+      "TOTAL_A1_FILE_SET": 64,
+      "MISSING_MIRRORS": 0,
+      "ORPHAN_MIRRORS": 0,
+      "MIRROR_MISMATCHES": 0,
+      "EXPECTED_APP_LANGUAGES": 32,
+      "ACTUAL_AUDIT_LANGUAGES": 32,
+      "MISSING_AUDIT_LANGUAGES": 0,
+      "DUPLICATE_AUDIT_LANGUAGES": 0,
+      "UNKNOWN_AUDIT_LANGUAGES": 0,
+      "productionFileSetSha256": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+      "pass": true
+    },
+    "rows": [
+      {
+        "language": "bg",
+        "productionFile": "data/bg/a1.js",
+        "wwwMirrorFile": "www/data/bg/a1.js",
+        "dataSha256": "547e7c48948f948f5a61f5e457ceba05cb58a7fb4061fde0770af8ee5271d889",
+        "wwwSha256": "547e7c48948f948f5a61f5e457ceba05cb58a7fb4061fde0770af8ee5271d889",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2994
+      },
+      {
+        "language": "bs",
+        "productionFile": "data/bs/a1.js",
+        "wwwMirrorFile": "www/data/bs/a1.js",
+        "dataSha256": "d161085b1b9d6b2fed62e838cea167ae3d626c47ecf182e15568166f6d57e60e",
+        "wwwSha256": "d161085b1b9d6b2fed62e838cea167ae3d626c47ecf182e15568166f6d57e60e",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2967
+      },
+      {
+        "language": "cs",
+        "productionFile": "data/cs/a1.js",
+        "wwwMirrorFile": "www/data/cs/a1.js",
+        "dataSha256": "d5754c861113128e9836b60d179b3c7a61e141db125cb10c2483e603c8287f78",
+        "wwwSha256": "d5754c861113128e9836b60d179b3c7a61e141db125cb10c2483e603c8287f78",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2974
+      },
+      {
+        "language": "da",
+        "productionFile": "data/da/a1.js",
+        "wwwMirrorFile": "www/data/da/a1.js",
+        "dataSha256": "ade11202e272179a5b4970e817e5e94f1b3fb2f7bb834c3cced0b7c79357c678",
+        "wwwSha256": "ade11202e272179a5b4970e817e5e94f1b3fb2f7bb834c3cced0b7c79357c678",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2988
+      },
+      {
+        "language": "en",
+        "productionFile": "data/en/a1.js",
+        "wwwMirrorFile": "www/data/en/a1.js",
+        "dataSha256": "edcf401ca4f5606133eec439a72af25af8d6fd7d98582ac4d53e475ee012985c",
+        "wwwSha256": "edcf401ca4f5606133eec439a72af25af8d6fd7d98582ac4d53e475ee012985c",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2969
+      },
+      {
+        "language": "es",
+        "productionFile": "data/es/a1.js",
+        "wwwMirrorFile": "www/data/es/a1.js",
+        "dataSha256": "03a44921eeb59abcf75a6ec7e54e6f3e7a77fa8a8151a3df45b8c2aac2cb2556",
+        "wwwSha256": "03a44921eeb59abcf75a6ec7e54e6f3e7a77fa8a8151a3df45b8c2aac2cb2556",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2996
+      },
+      {
+        "language": "et",
+        "productionFile": "data/et/a1.js",
+        "wwwMirrorFile": "www/data/et/a1.js",
+        "dataSha256": "106dcbd199d59887759c8c46bfeec0da4b17420697655d67f18f958efe923b36",
+        "wwwSha256": "106dcbd199d59887759c8c46bfeec0da4b17420697655d67f18f958efe923b36",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 3002
+      },
+      {
+        "language": "fi",
+        "productionFile": "data/fi/a1.js",
+        "wwwMirrorFile": "www/data/fi/a1.js",
+        "dataSha256": "0307777bfac2b6584e498009c5d6e823530c02dadec378edde9647c1c6885d19",
+        "wwwSha256": "0307777bfac2b6584e498009c5d6e823530c02dadec378edde9647c1c6885d19",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 3009
+      },
+      {
+        "language": "fr",
+        "productionFile": "data/fr/a1.js",
+        "wwwMirrorFile": "www/data/fr/a1.js",
+        "dataSha256": "3e0ed100a13289b61d874122835b08b9b07e5e7297044476329fc4ba02a7df77",
+        "wwwSha256": "3e0ed100a13289b61d874122835b08b9b07e5e7297044476329fc4ba02a7df77",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2984
+      },
+      {
+        "language": "gr",
+        "productionFile": "data/gr/a1.js",
+        "wwwMirrorFile": "www/data/gr/a1.js",
+        "dataSha256": "28c5a23f5ff8a817e69d6fa27055a0090a1e3e16fd30f19f138d75b239a2bc3e",
+        "wwwSha256": "28c5a23f5ff8a817e69d6fa27055a0090a1e3e16fd30f19f138d75b239a2bc3e",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 3008
+      },
+      {
+        "language": "hr",
+        "productionFile": "data/hr/a1.js",
+        "wwwMirrorFile": "www/data/hr/a1.js",
+        "dataSha256": "397bf12d2f772498ddc59d1c9307b5e5f62784008612cb3950c63e98aa8a124d",
+        "wwwSha256": "397bf12d2f772498ddc59d1c9307b5e5f62784008612cb3950c63e98aa8a124d",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2995
+      },
+      {
+        "language": "hu",
+        "productionFile": "data/hu/a1.js",
+        "wwwMirrorFile": "www/data/hu/a1.js",
+        "dataSha256": "f431cec7ac44460f17ea7c08cd874ff2dcfdc68639a419666e02dc317627a040",
+        "wwwSha256": "f431cec7ac44460f17ea7c08cd874ff2dcfdc68639a419666e02dc317627a040",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2994
+      },
+      {
+        "language": "is",
+        "productionFile": "data/is/a1.js",
+        "wwwMirrorFile": "www/data/is/a1.js",
+        "dataSha256": "1e87fc3cec5cd6e1e852d2956032f6b0e041694733513c77f93536620a7be10c",
+        "wwwSha256": "1e87fc3cec5cd6e1e852d2956032f6b0e041694733513c77f93536620a7be10c",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2998
+      },
+      {
+        "language": "it",
+        "productionFile": "data/it/a1.js",
+        "wwwMirrorFile": "www/data/it/a1.js",
+        "dataSha256": "15cf772b7ebb2cbb81dad5bd7e7c66b58fe6a96d8a3006215c2af33d0e965ddc",
+        "wwwSha256": "15cf772b7ebb2cbb81dad5bd7e7c66b58fe6a96d8a3006215c2af33d0e965ddc",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2995
+      },
+      {
+        "language": "lb",
+        "productionFile": "data/lb/a1.js",
+        "wwwMirrorFile": "www/data/lb/a1.js",
+        "dataSha256": "9154bb2c7fed85f61c8cfd8b8f78bc5a4df485e9b310d672e0e07b57684c1fe0",
+        "wwwSha256": "9154bb2c7fed85f61c8cfd8b8f78bc5a4df485e9b310d672e0e07b57684c1fe0",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2989
+      },
+      {
+        "language": "lt",
+        "productionFile": "data/lt/a1.js",
+        "wwwMirrorFile": "www/data/lt/a1.js",
+        "dataSha256": "f37fee96f3386224a8478675bdc9bd7d806c219cfe4e7cb1c3d16e3e4e51816a",
+        "wwwSha256": "f37fee96f3386224a8478675bdc9bd7d806c219cfe4e7cb1c3d16e3e4e51816a",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2995
+      },
+      {
+        "language": "lv",
+        "productionFile": "data/a1.js",
+        "wwwMirrorFile": "www/data/a1.js",
+        "dataSha256": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+        "wwwSha256": "6a230668a3573540ff8759773a1608cbe9d3bc9e121eec10ef3b4e477043dfcd",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2971
+      },
+      {
+        "language": "mk",
+        "productionFile": "data/mk/a1.js",
+        "wwwMirrorFile": "www/data/mk/a1.js",
+        "dataSha256": "73197c62429b8243c851d5b7325888fd4b38cbc0cfdfe703562c531768e0e1a7",
+        "wwwSha256": "73197c62429b8243c851d5b7325888fd4b38cbc0cfdfe703562c531768e0e1a7",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2995
+      },
+      {
+        "language": "nb",
+        "productionFile": "data/nb/a1.js",
+        "wwwMirrorFile": "www/data/nb/a1.js",
+        "dataSha256": "cacb79ab044476e4fc98a82478fa12c3bbdf4da206dce80206a5bf70c4f55029",
+        "wwwSha256": "cacb79ab044476e4fc98a82478fa12c3bbdf4da206dce80206a5bf70c4f55029",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2998
+      },
+      {
+        "language": "nl",
+        "productionFile": "data/nl/a1.js",
+        "wwwMirrorFile": "www/data/nl/a1.js",
+        "dataSha256": "7a6c9a8a9a3383a1ccb07931cc84b2a0f3090d79240671edb701674eefb85dad",
+        "wwwSha256": "7a6c9a8a9a3383a1ccb07931cc84b2a0f3090d79240671edb701674eefb85dad",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2995
+      },
+      {
+        "language": "nn",
+        "productionFile": "data/nn/a1.js",
+        "wwwMirrorFile": "www/data/nn/a1.js",
+        "dataSha256": "946aefaf5c1edd13ee39faf827d6614e1ecca21ddee882fc6ca587ce5ec4f78b",
+        "wwwSha256": "946aefaf5c1edd13ee39faf827d6614e1ecca21ddee882fc6ca587ce5ec4f78b",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2997
+      },
+      {
+        "language": "pl",
+        "productionFile": "data/pl/a1.js",
+        "wwwMirrorFile": "www/data/pl/a1.js",
+        "dataSha256": "9f17a7655e152ba9c4767b1104530db9fc28e995fc2cd5837c208d008e189b54",
+        "wwwSha256": "9f17a7655e152ba9c4767b1104530db9fc28e995fc2cd5837c208d008e189b54",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2995
+      },
+      {
+        "language": "pt",
+        "productionFile": "data/pt/a1.js",
+        "wwwMirrorFile": "www/data/pt/a1.js",
+        "dataSha256": "19f36f0dcc639635471dc3e9d287c75d5c79a6ed9af4a7c89b734b93b902b244",
+        "wwwSha256": "19f36f0dcc639635471dc3e9d287c75d5c79a6ed9af4a7c89b734b93b902b244",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2992
+      },
+      {
+        "language": "ro",
+        "productionFile": "data/ro/a1.js",
+        "wwwMirrorFile": "www/data/ro/a1.js",
+        "dataSha256": "5b3d4dbeeffcba5732b0101d9764e0850cfa270a123866996f2de0735c48120e",
+        "wwwSha256": "5b3d4dbeeffcba5732b0101d9764e0850cfa270a123866996f2de0735c48120e",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2995
+      },
+      {
+        "language": "ru",
+        "productionFile": "data/ru/a1.js",
+        "wwwMirrorFile": "www/data/ru/a1.js",
+        "dataSha256": "249cc2c211d97dc28666101ad11dcb33fec4fdc880616fbcd16d2ba0a484db62",
+        "wwwSha256": "249cc2c211d97dc28666101ad11dcb33fec4fdc880616fbcd16d2ba0a484db62",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2995
+      },
+      {
+        "language": "sk",
+        "productionFile": "data/sk/a1.js",
+        "wwwMirrorFile": "www/data/sk/a1.js",
+        "dataSha256": "7aaf728a2b1503a009e4c6d5786b7be767b76554f76f8a2595e9edd2a1829824",
+        "wwwSha256": "7aaf728a2b1503a009e4c6d5786b7be767b76554f76f8a2595e9edd2a1829824",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2990
+      },
+      {
+        "language": "sl",
+        "productionFile": "data/sl/a1.js",
+        "wwwMirrorFile": "www/data/sl/a1.js",
+        "dataSha256": "8888b62789ff90965e7fbcb84b4b52a25ec1e7e86f75874c4915a6a9ddacdef2",
+        "wwwSha256": "8888b62789ff90965e7fbcb84b4b52a25ec1e7e86f75874c4915a6a9ddacdef2",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2977
+      },
+      {
+        "language": "sq",
+        "productionFile": "data/sq/a1.js",
+        "wwwMirrorFile": "www/data/sq/a1.js",
+        "dataSha256": "3b1e7fdb40071317d709a00a20dfd086a3ebd591cd602acc718a56e81400762f",
+        "wwwSha256": "3b1e7fdb40071317d709a00a20dfd086a3ebd591cd602acc718a56e81400762f",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2991
+      },
+      {
+        "language": "sr",
+        "productionFile": "data/sr/a1.js",
+        "wwwMirrorFile": "www/data/sr/a1.js",
+        "dataSha256": "c4d30a48fc0aa98bc2e91c2163290fd9d22e197aaf4a4807c42a157bc79e3ae3",
+        "wwwSha256": "c4d30a48fc0aa98bc2e91c2163290fd9d22e197aaf4a4807c42a157bc79e3ae3",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2972
+      },
+      {
+        "language": "sv",
+        "productionFile": "data/sv/a1.js",
+        "wwwMirrorFile": "www/data/sv/a1.js",
+        "dataSha256": "a3a1c2dcaee3e6d79729f6b137fcf547a4eeb44ae38e9b267f27688423c3c924",
+        "wwwSha256": "a3a1c2dcaee3e6d79729f6b137fcf547a4eeb44ae38e9b267f27688423c3c924",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 3002
+      },
+      {
+        "language": "tr",
+        "productionFile": "data/tr/a1.js",
+        "wwwMirrorFile": "www/data/tr/a1.js",
+        "dataSha256": "e536a225d442590620644cfa791e81fb5e3c42c107295f3982a4b43231f59665",
+        "wwwSha256": "e536a225d442590620644cfa791e81fb5e3c42c107295f3982a4b43231f59665",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 3015
+      },
+      {
+        "language": "uk",
+        "productionFile": "data/uk/a1.js",
+        "wwwMirrorFile": "www/data/uk/a1.js",
+        "dataSha256": "d163acd8a78a301b1101d99d376d7a4c95296dd974b2d7d79d771c63654afb3b",
+        "wwwSha256": "d163acd8a78a301b1101d99d376d7a4c95296dd974b2d7d79d771c63654afb3b",
+        "mirrorMatch": true,
+        "cards": 702,
+        "flatAuditKeys": 2994
+      }
+    ],
+    "missingMirrors": [],
+    "orphanMirrors": [],
+    "missingData": [],
+    "mapping1to1": [
+      {
+        "language": "bg",
+        "data": "data/bg/a1.js",
+        "www": "www/data/bg/a1.js",
+        "ok": true
+      },
+      {
+        "language": "bs",
+        "data": "data/bs/a1.js",
+        "www": "www/data/bs/a1.js",
+        "ok": true
+      },
+      {
+        "language": "cs",
+        "data": "data/cs/a1.js",
+        "www": "www/data/cs/a1.js",
+        "ok": true
+      },
+      {
+        "language": "da",
+        "data": "data/da/a1.js",
+        "www": "www/data/da/a1.js",
+        "ok": true
+      },
+      {
+        "language": "en",
+        "data": "data/en/a1.js",
+        "www": "www/data/en/a1.js",
+        "ok": true
+      },
+      {
+        "language": "es",
+        "data": "data/es/a1.js",
+        "www": "www/data/es/a1.js",
+        "ok": true
+      },
+      {
+        "language": "et",
+        "data": "data/et/a1.js",
+        "www": "www/data/et/a1.js",
+        "ok": true
+      },
+      {
+        "language": "fi",
+        "data": "data/fi/a1.js",
+        "www": "www/data/fi/a1.js",
+        "ok": true
+      },
+      {
+        "language": "fr",
+        "data": "data/fr/a1.js",
+        "www": "www/data/fr/a1.js",
+        "ok": true
+      },
+      {
+        "language": "gr",
+        "data": "data/gr/a1.js",
+        "www": "www/data/gr/a1.js",
+        "ok": true
+      },
+      {
+        "language": "hr",
+        "data": "data/hr/a1.js",
+        "www": "www/data/hr/a1.js",
+        "ok": true
+      },
+      {
+        "language": "hu",
+        "data": "data/hu/a1.js",
+        "www": "www/data/hu/a1.js",
+        "ok": true
+      },
+      {
+        "language": "is",
+        "data": "data/is/a1.js",
+        "www": "www/data/is/a1.js",
+        "ok": true
+      },
+      {
+        "language": "it",
+        "data": "data/it/a1.js",
+        "www": "www/data/it/a1.js",
+        "ok": true
+      },
+      {
+        "language": "lb",
+        "data": "data/lb/a1.js",
+        "www": "www/data/lb/a1.js",
+        "ok": true
+      },
+      {
+        "language": "lt",
+        "data": "data/lt/a1.js",
+        "www": "www/data/lt/a1.js",
+        "ok": true
+      },
+      {
+        "language": "lv",
+        "data": "data/a1.js",
+        "www": "www/data/a1.js",
+        "ok": true
+      },
+      {
+        "language": "mk",
+        "data": "data/mk/a1.js",
+        "www": "www/data/mk/a1.js",
+        "ok": true
+      },
+      {
+        "language": "nb",
+        "data": "data/nb/a1.js",
+        "www": "www/data/nb/a1.js",
+        "ok": true
+      },
+      {
+        "language": "nl",
+        "data": "data/nl/a1.js",
+        "www": "www/data/nl/a1.js",
+        "ok": true
+      },
+      {
+        "language": "nn",
+        "data": "data/nn/a1.js",
+        "www": "www/data/nn/a1.js",
+        "ok": true
+      },
+      {
+        "language": "pl",
+        "data": "data/pl/a1.js",
+        "www": "www/data/pl/a1.js",
+        "ok": true
+      },
+      {
+        "language": "pt",
+        "data": "data/pt/a1.js",
+        "www": "www/data/pt/a1.js",
+        "ok": true
+      },
+      {
+        "language": "ro",
+        "data": "data/ro/a1.js",
+        "www": "www/data/ro/a1.js",
+        "ok": true
+      },
+      {
+        "language": "ru",
+        "data": "data/ru/a1.js",
+        "www": "www/data/ru/a1.js",
+        "ok": true
+      },
+      {
+        "language": "sk",
+        "data": "data/sk/a1.js",
+        "www": "www/data/sk/a1.js",
+        "ok": true
+      },
+      {
+        "language": "sl",
+        "data": "data/sl/a1.js",
+        "www": "www/data/sl/a1.js",
+        "ok": true
+      },
+      {
+        "language": "sq",
+        "data": "data/sq/a1.js",
+        "www": "www/data/sq/a1.js",
+        "ok": true
+      },
+      {
+        "language": "sr",
+        "data": "data/sr/a1.js",
+        "www": "www/data/sr/a1.js",
+        "ok": true
+      },
+      {
+        "language": "sv",
+        "data": "data/sv/a1.js",
+        "www": "www/data/sv/a1.js",
+        "ok": true
+      },
+      {
+        "language": "tr",
+        "data": "data/tr/a1.js",
+        "www": "www/data/tr/a1.js",
+        "ok": true
+      },
+      {
+        "language": "uk",
+        "data": "data/uk/a1.js",
+        "www": "www/data/uk/a1.js",
+        "ok": true
+      }
+    ]
+  },
+  "languageGate": {
+    "EXPECTED_APP_LANGUAGES": 32,
+    "ACTUAL_AUDIT_LANGUAGES": 32,
+    "MISSING_AUDIT_LANGUAGES": 0,
+    "DUPLICATE_AUDIT_LANGUAGES": 0,
+    "UNKNOWN_AUDIT_LANGUAGES": 0,
+    "pass": true
+  },
+  "blockers": []
+}

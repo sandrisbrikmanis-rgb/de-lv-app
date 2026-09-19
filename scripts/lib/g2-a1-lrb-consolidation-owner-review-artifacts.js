@@ -107,20 +107,20 @@ function writeJsonWithParts(baseName, payload, arrayKey) {
   return { multipart: true, parts };
 }
 
+const { dataRel } = require("./content-crowdin-bridge/roundtrip");
+const { loadArrayDataset } = require("./audit-common");
+
 const productionCache = new Map();
 
 function loadProductionA1Words(lang) {
   if (productionCache.has(lang)) return productionCache.get(lang);
-  const filePath = path.join(ROOT, `data/${lang}/a1.js`);
-  if (!fs.existsSync(filePath)) {
+  const rel = dataRel(lang, "a1.js");
+  const abs = path.join(ROOT, rel);
+  if (!fs.existsSync(abs)) {
     productionCache.set(lang, null);
     return null;
   }
-  const code = fs.readFileSync(filePath, "utf8");
-  const ctx = { window: {} };
-  vm.createContext(ctx);
-  vm.runInContext(code, ctx);
-  const words = ctx.window.A1_WORDS || null;
+  const words = loadArrayDataset(rel);
   productionCache.set(lang, words);
   return words;
 }

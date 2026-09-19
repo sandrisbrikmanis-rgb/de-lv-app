@@ -1,6 +1,6 @@
 {
   "classification": "PRODUCTION_CURRENT_A1_AUDIT_ORCHESTRATOR_READ_ONLY_VERIFICATION",
-  "generatedAt": "2026-09-19T14:37:22.831Z",
+  "generatedAt": "2026-09-19T14:45:40.450Z",
   "originMainSha": "e3ab5158596973e9f81664e3950be0ba24d63ad7",
   "orchestratorVerdict": "NOT_PRODUCTION_CURRENT_READY",
   "inventorySummary": {
@@ -16,10 +16,10 @@
     "production-current-a1-file-inventory.json": "dbf6fe557a5e93bc3d2c4cb26ac522d2d933320a81a107a94c5ff63a527cc710",
     "data-www-a1-mirror-mapping.json": "16e4e8890346bc0b29edabfd5a231ce0ce0e5633dab7399e158c8ceabd8eb6d1",
     "32-62-file-count-reconciliation.json": "481da4ca26387ce31d281fbc5c7b0e31cd0d678e9a551251309f8aca1cb0d88b",
-    "production-current-a1-data-flow.json": "dc5155077059e18333d6a747d96261c5168fee6029b2a00566e12d3b956a278b",
+    "production-current-a1-data-flow.json": "b0df1ea3ac726b58c35cb6b51ebb3107a4ff3fcb928b2be3bfb36f526212580e",
     "a1-audit-orchestrator-call-chain.json": "0db4560d5e6d57bbb02dbeb40cbe6b3e0790b3791aab5a78b449a0406babec21",
     "a1-audit-batch-limit-verification.json": "9f4fb129720849299a2cda08f8f0620ef646e1462b3774184882d9d716c1134c",
     "a1-audit-artifact-readiness.json": "b27e0c18c11f07476f2793bc3534fbedbf9fe97a4ffc6b154c4fc0787fb3d216",
-    "production-current-a1-orchestrator-verdict.json": "e2fd720524d0e5e57f749ea06e429a1f145f7cdf32ae43e4e78193638cff9a76"
+    "production-current-a1-orchestrator-verdict.json": "9cf3040dfbd3ef1836ab6f0eb147c33515612e0de249840edbff86384fe68f47"
   }
 }
