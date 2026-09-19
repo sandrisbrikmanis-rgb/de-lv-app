@@ -1,0 +1,29 @@
+A1 LRB CONSOLIDATION — OWNER COPY-PASTE, KARTĪTES 201–220
+
+IDENTITĀTE
+- PR: #830
+- Zars: cursor/a1-lrb-001-103-consolidation
+- SOURCE HEAD: bb54caa4b44e149717e8fe9b6549a4280753d45a
+- OWNER JSON SHA-256: 8c971b5d83ef40e4827dcd4ee18418f2204227d2090e07e74a966c0517672d8f
+
+DARBĪBA
+1. Pārbaudi identitātes vārtus. Ja tie nesakrīt, STOP.
+2. No A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-CARDS-201-220.json precīzi ievieto cards[].full_card_owner_new kartītēs pēc target_language + canonical_card_object_id.
+3. Neveic jaunu lingvistisko analīzi un nemaini nevienu OWNER vērtību.
+4. Sinhronizē COPY-PASTE-4, OWNER VIEW un 201–220 pierādījuma artefaktus.
+5. Pārbaudi: applied_exactly=20/20, pending=0, pilnās kartītes=PASS, DE piemēru secība nemainīta, wrong_language_residue=0, semantic/source-fidelity=0, duplicate/contradiction=0.
+6. Kartītes 001–200 un 221–234 nedrīkst mainīt.
+7. Nemaini data/a1.js, DE avotu, production, Crowdin, ingest/apply vai konsolidēto mapping.
+8. Neieraksti GALA PASS un neveic merge.
+
+GAIDĀMĀ KLASIFIKĀCIJA
+A1_LRB_CONSOLIDATION_OWNER_CARDS_201_220_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT
+
+ATSKAITĒ UZRĀDI
+- commit un pilno HEAD;
+- OWNER JSON SHA-256;
+- pēc-paste 201–220 bundle SHA-256;
+- 20/20 kartītes, LABOT/NELABOT/PENDING;
+- visu vārtu rezultātus;
+- mainīto failu sarakstu;
+- apliecinājumu, ka nav GALA PASS, merge, DE/production/Crowdin/ingest/apply izmaiņu.
