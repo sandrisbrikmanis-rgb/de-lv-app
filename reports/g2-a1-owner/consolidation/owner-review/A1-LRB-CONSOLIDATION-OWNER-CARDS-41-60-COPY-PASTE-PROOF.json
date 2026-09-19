@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "classification": "A1_LRB_CONSOLIDATION_OWNER_CARDS_041_060_COPY_PASTE_COMPLETE_AWAITING_GALA_VERDICT",
-  "generated_at": "2026-09-19T07:59:24.597Z",
+  "generated_at": "2026-09-19T07:59:59.767Z",
   "source_review_pack_ref": {
     "git_head": "3c6ab972108b4fa8198317fa0e8ee59363c5b5d9"
   },
   "owner_bundle_path": "reports/g2-a1-owner/consolidation/owner-review/A1-LRB-CONSOLIDATION-decisions-COPY-PASTE-4-CARDS-041-060.json",
   "owner_bundle_sha256": "416f80e4da4dd7afc4ff7551b27efa8f351de79ca65211c77332d9ff05cf5e77",
-  "git_head": "2b2e1357b79b62059f0c4c8b06c9571b366d3a45",
+  "git_head": "bfb858cb464b541c8ab8a1bb50df196afb6ae914",
   "consolidated_mapping_modified": false,
   "production_modified": false,
   "linguistic_changes_made": 0,
