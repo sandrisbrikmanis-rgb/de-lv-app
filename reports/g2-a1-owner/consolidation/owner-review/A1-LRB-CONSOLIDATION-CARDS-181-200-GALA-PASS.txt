@@ -1,0 +1,20 @@
+A1 LRB konsolidācija — kartīšu 181–200 GALA PASS
+
+Verdikts: A1_LRB_CONSOLIDATION_CARDS_181_200_GALA_PASS
+
+| Pārbaude | Rezultāts |
+| --- | ---: |
+| Pārbaudītas kartītes | 20/20 |
+| LABOT / NELABOT / PENDING | 2 / 18 / 0 |
+| Precīzi ievietoti labojumi | 2/2 |
+| Nemainītas NELABOT kartītes | 18/18 |
+| Pilno kartīšu pilnīgums | PASS |
+| DE piemēru atbilstības kļūdas | 0 |
+| Papildu vai sašaurinātas nozīmes | 0 |
+| Nepareizas valodas atliekas | 0 |
+| Dublikāti vai pretrunas | 0 |
+| Shēmas/sectionAccents kļūdas | 0 |
+
+Git HEAD: cdea6347985f13968a46870384408cabc4f1ad7d
+Cards 181–200 payload SHA-256: 033651f63f8f352fef08bded8c49656f29976fe9d05a2a935b6da45fecec60e3
+Pass proof SHA-256: 620433d1025e757cf1436ff54421f1f4f2a37db5ee78c9f62db871271edefd55
