@@ -1,8 +1,8 @@
 {
   "classification": "G2_A1_FULL_LINGUISTIC_DISCOVERY_AUDIT_OWNER_AUTHORIZATION_PACKAGE",
-  "generatedAt": "2026-09-19T15:20:22.524Z",
-  "originMainSha": "3b17af87732a8dc1d0c6dc3e21eecbdec520e399",
-  "headSha": "3b17af87732a8dc1d0c6dc3e21eecbdec520e399",
+  "generatedAt": "2026-09-19T15:20:36.722Z",
+  "originMainSha": "4c0a08facd8c57fa030a5544462ff6f71810a35b",
+  "headSha": "4c0a08facd8c57fa030a5544462ff6f71810a35b",
   "headMatchesOriginMain": true,
   "MASTER_VERSION": "1.18",
   "MASTER_AUTHORIZED_MIN": "1.18",
@@ -1014,7 +1014,7 @@
     "modify production data/** or www/data/** without authorized COPY-ONLY apply",
     "use crowdin-staging as CURRENT"
   ],
-  "fullAuditCommand": "node scripts/run-g2-a1-production-current-full-discovery.js --full --owner-authorize-full-audit --expected-main-sha=3b17af87732a8dc1d0c6dc3e21eecbdec520e399 --expected-production-file-set-sha=59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
+  "fullAuditCommand": "node scripts/run-g2-a1-production-current-full-discovery.js --full --owner-authorize-full-audit --expected-main-sha=4c0a08facd8c57fa030a5544462ff6f71810a35b --expected-production-file-set-sha=59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
   "requiredAuthorizationFlags": [
     "--owner-authorize-full-audit",
     "--expected-main-sha=<full origin/main SHA>",
