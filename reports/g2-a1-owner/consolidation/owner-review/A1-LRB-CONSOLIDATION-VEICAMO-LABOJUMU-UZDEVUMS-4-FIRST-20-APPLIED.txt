@@ -1,0 +1,17 @@
+A1 LRB-001…103 — pirmo 20 pilno kartīšu OWNER COPY/PASTE (piemērots)
+
+Klasifikācija: AWAITING_GALA_VERDICT
+Avota review-pack HEAD: 56aa8ebd
+OWNER bundle SHA-256: 97084d3d910bafb29608c6966a980c6bc41de6f7974c585820474f2c4ee49ae1
+Git HEAD: 56aa8ebd0e20945f3d3d8b05dc133b149a54fa29
+
+Vārti:
+- applied_exactly: 20/20
+- pending: 0
+- empty target fields: 0
+- DE alignment: 0
+- wrong-language residue: 0
+- duplicate/degenerate pairs: 0
+- schema/sectionAccents failures: 0
+
+Nav Gala PASS; nav merge/apply/production.

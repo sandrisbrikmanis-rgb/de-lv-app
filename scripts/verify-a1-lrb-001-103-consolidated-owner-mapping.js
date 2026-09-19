@@ -63,7 +63,7 @@ function main() {
   const originMain = git("git rev-parse origin/main");
   const diffNames = git("git diff --name-only origin/main...HEAD")?.split("\n").filter(Boolean) || [];
   const allowedRe =
-    /^(reports\/g2-a1-owner\/consolidation\/|scripts\/(?:.*a1-lrb.*consolidat|verify-a1-lrb-001-103|apply-a1-lrb-owner-45|build-a1-lrb-|lib\/g2-a1-lrb-))/;
+    /^(reports\/g2-a1-owner\/consolidation\/|scripts\/(?:.*a1-lrb.*consolidat|verify-a1-lrb-001-103|apply-a1-lrb-owner-45|apply-a1-lrb-consolidation-owner-copy-paste|verify-a1-lrb-consolidation-owner-copy-paste|build-a1-lrb-|lib\/g2-a1-lrb-))/;
   for (const f of diffNames) {
     if (!allowedRe.test(f)) blockers.push(`unexpected_diff:${f}`);
   }

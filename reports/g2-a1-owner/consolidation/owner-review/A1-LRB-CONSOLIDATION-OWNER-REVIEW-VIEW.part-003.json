@@ -3,8 +3,9 @@
   "classification": "A1_LRB_CONSOLIDATION_OWNER_REVIEW_PACK_VIEW",
   "generated_at": "2026-09-18T17:30:49.415Z",
   "base_head": "7934d943e4240117fabcee58f7e91ff6f72b2375",
-  "read_only": true,
+  "read_only": false,
   "linguistic_changes_made": 0,
+  "owner_first_20_copy_paste": true,
   "cards": [
     {
       "target_language": "hu",

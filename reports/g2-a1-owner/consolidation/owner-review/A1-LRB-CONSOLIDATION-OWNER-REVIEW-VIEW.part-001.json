@@ -3,8 +3,9 @@
   "classification": "A1_LRB_CONSOLIDATION_OWNER_REVIEW_PACK_VIEW",
   "generated_at": "2026-09-18T17:30:49.415Z",
   "base_head": "7934d943e4240117fabcee58f7e91ff6f72b2375",
-  "read_only": true,
+  "read_only": false,
   "linguistic_changes_made": 0,
+  "owner_first_20_copy_paste": true,
   "cards": [
     {
       "target_language": "bg",
@@ -95,7 +96,222 @@
         "baseline_card_sha256": "a993b2e7bb02feea6021b980a2f95fa24f13c428f9e8e13904224524730d1b88",
         "post_owner_card_sha256": "a993b2e7bb02feea6021b980a2f95fa24f13c428f9e8e13904224524730d1b88"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "към / върху (накъде?)",
+        "study": {
+          "id": "a1-aufs",
+          "layout": "standardStudy",
+          "translation": "към / върху (накъде?)",
+          "explanation": [
+            "Aufs е съкращение от предлога auf и члена das.",
+            "Пълна форма: auf das (накъде?).",
+            "Използва се с неутрални съществителни в единствено число — Wohin? (накъде?), не Wo? (къде?).",
+            "Често се използва при движение: за изкачване, сядане, поставяне, шофиране до нещо.",
+            "В разговорната реч почти винаги се използва aufs вместо пълното auf das."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe aufs Dach.",
+              "lv": "Отивам на покрива"
+            },
+            {
+              "de": "Sie setzt sich aufs Sofa.",
+              "lv": "Тя сяда на дивана."
+            },
+            {
+              "de": "Wir fahren aufs Land.",
+              "lv": "Отиваме на село."
+            },
+            {
+              "de": "Stell die Tasche aufs Bett.",
+              "lv": "Сложи чантата си на леглото."
+            },
+            {
+              "de": "Er springt aufs Pferd.",
+              "lv": "Качва се на коня."
+            },
+            {
+              "de": "Leg das Buch aufs Regal.",
+              "lv": "Поставете книгата на рафта."
+            },
+            {
+              "de": "Komm schnell aufs Boot!",
+              "lv": "Качи се бързо на лодката!"
+            },
+            {
+              "de": "Wir gehen aufs Fest.",
+              "lv": "Отиваме на купон."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "aufs",
+              "meaning": "накъде? (Akkusativ, neuter sg.)",
+              "example": "aufs Dach – на покрива"
+            },
+            {
+              "word": "auf",
+              "meaning": "На повърхността или нагоре",
+              "example": "auf den Tisch – на масата"
+            },
+            {
+              "word": "an",
+              "meaning": "на вертикална повърхност",
+              "example": "an die Wand – на стената"
+            },
+            {
+              "word": "ins",
+              "meaning": "Вътрешности",
+              "example": "ins Zimmer – в стаята"
+            },
+            {
+              "word": "zum",
+              "meaning": "На/на (на кого?)",
+              "example": "zum Arzt – при лекаря"
+            }
+          ],
+          "tip": [
+            "Запомнете: auf + das → aufs (Wohin? = накъде?).",
+            "Пълният auf das почти никога не се произнася — използва се aufs."
+          ],
+          "important": [
+            "Aufs = auf das, само с неутрално съществително в единствено число — Wohin? (накъде?).",
+            "Отговаря на накъде? — придвижване до определено място или повърхност.",
+            "На хоризонтална повърхност често се използва auf den вместо aufs.",
+            "Да не се бърка с an (вертикална стена), ins (вътре) или zum (посока)."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "aufs"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "aufs"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "aufs"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "an"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "zum"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bg",
@@ -217,7 +433,122 @@
         "baseline_card_sha256": "a2a9d65e1ff7d3bb1e72539cd1466d2f4c1f42b143d24a043545506afaa656c6",
         "post_owner_card_sha256": "c0d0953d0c432c096fa579174f13238ff6ea768d7200e1fb2753d3d19ba8c846"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "определителен член за среден род • това",
+        "study": {
+          "id": "a1-das",
+          "layout": "standardStudy",
+          "translation": "определителен член за среден род • това",
+          "explanation": "Използва се за съществителни имена от среден род. В някои изречения „това“ може да действа и като местоимение или относително местоимение.",
+          "examples": [
+            {
+              "de": "Das ist mein Auto.",
+              "lv": "Това е моята кола"
+            },
+            {
+              "de": "Das ist gut.",
+              "lv": "Това е добре"
+            },
+            {
+              "de": "Das Buch, das ich lese, ist interessant.",
+              "lv": "Книгата, която чета, е интересна."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "das",
+              "meaning": "Това (член/местоимение)",
+              "example": "Das ist mein Auto. – Това е моята кола."
+            },
+            {
+              "word": "dies",
+              "meaning": "Този",
+              "example": "Dies ist mein Auto. – Това е моята кола."
+            },
+            {
+              "word": "welches",
+              "meaning": "кой",
+              "example": "Das ist das Buch, welches ich lese. – Това е книгата, която чета."
+            }
+          ],
+          "tip": {
+            "text": "Запомнете: среден род → das • съюз → dass (че)."
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "das"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Das"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "das"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "das"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "dies"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "welches"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "На ниво A1 das първо се научава като член от среден род.",
+            "Das не е същото като dass: das е член или местоимение; dass е съюз и означава „че“."
+          ]
+        }
+      }
     },
     {
       "target_language": "bg",
@@ -360,7 +691,134 @@
         "baseline_card_sha256": "48806bcc10cf2fdf93886935b3b64399727aaccc1cc082d86ce1dac2869b1ca2",
         "post_owner_card_sha256": "50c00ddf2890dac886d64f5313109221211e493bde6cbe9b992ac22b86e46359"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "намирам • смятам",
+        "study": {
+          "id": "a1-finden",
+          "layout": "standardStudy",
+          "translation": "намирам • смятам",
+          "explanation": [
+            "finden най-често означава „намирам“.",
+            "При мнение означава „смятам“ или „намирам за“.",
+            "Контекстът показва правилното значение."
+          ],
+          "examples": [
+            {
+              "de": "Ich finde meinen Schlüssel.",
+              "lv": "Намирам ключа си."
+            },
+            {
+              "de": "Ich finde das gut.",
+              "lv": "Смятам, че това е добре."
+            },
+            {
+              "de": "Wie findest du den Film?",
+              "lv": "Какво мислиш за филма?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "finden",
+              "meaning": "Намиране / преглед",
+              "example": "Ich finde das gut. – Смятам, че е добре."
+            },
+            {
+              "word": "suchen",
+              "meaning": "Търсене",
+              "example": "Ich suche den Schlüssel. – Търся ключа."
+            },
+            {
+              "word": "denken",
+              "meaning": "мисля",
+              "example": "Ich denke an dich. – Мисля за теб."
+            },
+            {
+              "word": "glauben",
+              "meaning": "Вярвай/мисли",
+              "example": "Ich glaube, er kommt. – Мисля, че ще дойде."
+            }
+          ],
+          "tip": {
+            "text": "Запомнете: изгубен предмет → намерен • Мнение → Намерих..."
+          },
+          "important": [
+            "Finden не е просто „да намериш“.",
+            "Ich finde das Gut означава „намирам го за добре“, а не „намирам го за добре“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "finden"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "finden"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "suchen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "denken"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "glauben"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bg",
@@ -428,7 +886,119 @@
         "baseline_card_sha256": "4891d2e3986cbd585d8ef8ea08f2b35ada1713784ec84e2789d7c67a4ed2d5fa",
         "post_owner_card_sha256": "4891d2e3986cbd585d8ef8ea08f2b35ada1713784ec84e2789d7c67a4ed2d5fa"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "веднага • еднакъв",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "веднага • еднакъв",
+          "explanation": [
+            "gleich означава „веднага / след малко“ или „еднакъв / същият“.",
+            "При време: Ich komme gleich. = Ще дойда веднага.",
+            "При сравнение: die gleiche Farbe = същият цвят.",
+            "Контекстът показва правилното значение."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Ще дойда веднага."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Имаме същия цвят."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Храната ще бъде готова скоро."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "И двата пътя са с еднаква дължина."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "До скоро!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "Еднакви са на ръст."
+            }
+          ],
+          "tip": [
+            "За време → веднага / след малко.",
+            "При сравнение → еднакъв / същият."
+          ],
+          "important": [
+            "gleich има две значения според контекста.",
+            "Bis gleich! = „До след малко!“"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bg",
@@ -533,7 +1103,94 @@
         "baseline_card_sha256": "ce2d3b6be52212f7fcbb68c264a420ee3f04e844abf3a3a391218fa862389e86",
         "post_owner_card_sha256": "c226329e8221308de651e32a89138309dbc9a0d53bdb16a43a7c7152b7ac3ff3"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "голям • висок",
+        "study": {
+          "id": "a1-gross-study",
+          "layout": "standardStudy",
+          "translation": "голям • висок",
+          "explanation": [
+            "Основна идея: Голям размер или за висок човек.",
+            "Groß на първо място означава: голям размер.",
+            "Често се характеризира с: габаритни размери."
+          ],
+          "examples": [
+            {
+              "de": "Das Haus ist groß.",
+              "lv": "Къщата е голяма."
+            },
+            {
+              "de": "Berlin ist eine große Stadt.",
+              "lv": "Берлин е голям град."
+            },
+            {
+              "de": "Er ist groß.",
+              "lv": "Той е висок."
+            },
+            {
+              "de": "Das Zimmer ist groß.",
+              "lv": "Стаята е голяма."
+            }
+          ],
+          "tip": [
+            "За предмет или място → голям.",
+            "За човек → висок."
+          ],
+          "important": [
+            "За човек Er ist groß означава висок.",
+            "Брутно = голямо."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "groß"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "groß"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bg",
@@ -613,7 +1270,122 @@
         "baseline_card_sha256": "536e00df3450f65645709e6f6bccc12bd0d41fa93519b85094d5c4a14fa4a1bc",
         "post_owner_card_sha256": "536e00df3450f65645709e6f6bccc12bd0d41fa93519b85094d5c4a14fa4a1bc"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "добър • добре",
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "добър • добре",
+          "explanation": [
+            "Основна идея: Gut - прилагателно/наречие, добър, успешен, добре.",
+            "Червата описват качество, здраве или състояние на нещата (Es geht mir Gut. = Справям се добре).",
+            "В учтивата фраза „guten Tag/Abend/Morgen Gut“ окончанието се променя след флексията.",
+            "Ако Gut описва глагол, тогава той е наречие (gut schwimmen = да плувам добре).",
+            "Да не се бърка с das Gut - това е съществително име (собственост, имоти) с главна буква и член."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "Храната е добра."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Как си? – Добре, благодаря!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "Той говори добре немски."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Добро утро"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "Това е добра идея."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Всичко е наред"
+            }
+          ],
+          "tip": [
+            "gut → добър / добре.",
+            "das Gut → имущество / имение."
+          ],
+          "important": [
+            "Gut = добър/добър (прилагателно/прилагателно).",
+            "Das Gut = собственост/имот (съществително) – да не се бърка с червата.",
+            "Guten Tag/Morgen/Abend – промени в червата, които завършват след завоя."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bg",
@@ -738,7 +1510,123 @@
         "baseline_card_sha256": "f06abf476328c3a7e6ae402fd650414e2fce81ef106a0265a070b57cf7b30c13",
         "post_owner_card_sha256": "d9c0b1047078a7de043a35dc7c476bc58cd37fd369b1011441fb097b9c042fe7"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "вие • ѝ • неин",
+        "study": {
+          "id": "a1-ihr",
+          "layout": "standardStudy",
+          "translation": "вие • ѝ • неин",
+          "explanation": [
+            "Ключова идея: ihr са две различни местоимения с еднакъв правопис - отнасящи се до повече от едно лице (ти) и дателната форма на местоимението sie (тя/тя).",
+            "Когато се обръщате към няколко души, малки букви ihr се превеждат като вие (Kommt ihr mit? = Идвате ли с нас?).",
+            "Ihr като притежателно местоимение означава нея (ihr Buch = нейната книга).",
+            "Ihr като дателен падеж (от sie) означава за нея (Ich gebe ihr das Buch. = Давам й книгата).",
+            "Глаголната форма (commt, habt) показва, че говорим за вас - обръщане към няколко души.",
+            "Учтивото обръщение винаги се изписва с главна буква Sie, а не ihr."
+          ],
+          "examples": [
+            {
+              "de": "Kommt ihr heute Abend?",
+              "lv": "Ще дойдете ли тази вечер?"
+            },
+            {
+              "de": "Ich gebe ihr das Buch.",
+              "lv": "Давам й книгата."
+            },
+            {
+              "de": "Wo wohnt ihr?",
+              "lv": "Къде живеете?"
+            },
+            {
+              "de": "Er schreibt ihr einen Brief.",
+              "lv": "Той й пише писмо."
+            },
+            {
+              "de": "Habt ihr Zeit?",
+              "lv": "Имате ли време?"
+            },
+            {
+              "de": "Das ist ihr Auto.",
+              "lv": "Това е нейната кола."
+            }
+          ],
+          "tip": [
+            "Ihr с глагола dsk. форма (commt, habt) = вие • Ihr до дума в дателен или притежателен падеж = нея/нейната.",
+            "Проверете: Habt them...? / Commt them...? = ти • Ich gebe ihr... / ihr Buch = за нея/нея."
+          ],
+          "important": [
+            "Ihr = ти (обръщение към няколко) ИЛИ нея (дателен падеж) ИЛИ нея (притежателен падеж) - в зависимост от контекста.",
+            "В учтивото обръщение Sie винаги се изписва с главна буква, а не ihr.",
+            "Неправилно: Ihr (учтив) → Правилно: Sie."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "ihr"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "ihr"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bg",
@@ -925,7 +1813,222 @@
         "baseline_card_sha256": "8514fbf2dbce983ca99b37455e76530b84492bed990523f9336fe975f4ccdd0b",
         "post_owner_card_sha256": "3f4dbec7c5e48daca79cdc6461f7b979266893033b0dfa5176041fb449434354"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "в • през (къде?)",
+        "study": {
+          "id": "a1-im",
+          "layout": "standardStudy",
+          "translation": "в • през (къде?)",
+          "explanation": [
+            "Im е свиване на предлога in и члена dem.",
+            "Пълна форма: in dem (Dativ, на кого?).",
+            "Употребява се с мъжки и среднородни съществителни — Wo? (къде?), местоположение.",
+            "С месеци и сезони: im Januar, im Sommer, im Winter.",
+            "На практика im почти винаги се използва вместо пълното in dem."
+          ],
+          "examples": [
+            {
+              "de": "Ich bin im Park.",
+              "lv": "Аз съм в парка"
+            },
+            {
+              "de": "Wir wohnen im Zentrum.",
+              "lv": "Живеем в центъра."
+            },
+            {
+              "de": "Im Sommer ist es warm.",
+              "lv": "През лятото е топло."
+            },
+            {
+              "de": "Er arbeitet im Büro.",
+              "lv": "Работи в офис."
+            },
+            {
+              "de": "Das Kind spielt im Garten.",
+              "lv": "Дете си играе в градината."
+            },
+            {
+              "de": "Im Januar fahre ich nach Wien.",
+              "lv": "През януари пътувам до Виена."
+            },
+            {
+              "de": "Sie ist im Kino.",
+              "lv": "Тя е на кино."
+            },
+            {
+              "de": "Wir treffen uns im Restaurant.",
+              "lv": "Срещаме се в ресторант."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "im",
+              "meaning": "Къде вътре? (на кого?)",
+              "example": "im Park – В парка"
+            },
+            {
+              "word": "ins",
+              "meaning": "Вътре, къде? (Акц.)",
+              "example": "ins Kino – в киното"
+            },
+            {
+              "word": "in",
+              "meaning": "В/к (без статия)",
+              "example": "in Berlin – В Берлин"
+            },
+            {
+              "word": "am",
+              "meaning": "Б, къде? (на кого?)",
+              "example": "am Fenster – До прозореца"
+            },
+            {
+              "word": "auf",
+              "meaning": "На повърхността",
+              "example": "auf dem Tisch – на масата"
+            }
+          ],
+          "tip": [
+            "Запомнете: in + dem → im (Dativ, къде?).",
+            "Wohin? → ins • Wo? → im — не ги бъркайте!"
+          ],
+          "important": [
+            "Im = in dem, само със съществително от мъжки или среден род за кого? в завоя.",
+            "Отговори на въпроса къде?, а не къде? - местоположение, а не движение.",
+            "С месеци и сезони: im März, im Herbst.",
+            "За женски род: in der Schule, не im Schule."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "im"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Im"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Im"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "im"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "im"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ins"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "in"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "am"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "auf"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bs",
@@ -1003,7 +2106,173 @@
         "baseline_card_sha256": "aeb4e6d3a12261d655d144506501e89f0ae5cdcb69b5d3cdf9e1ff492f04edfd",
         "post_owner_card_sha256": "aeb4e6d3a12261d655d144506501e89f0ae5cdcb69b5d3cdf9e1ff492f04edfd"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "tek • prvo",
+        "study": {
+          "id": "a1-erst",
+          "layout": "standardStudy",
+          "translation": "tek • prvo",
+          "explanation": [
+            "Glavna ideja: erst najčešće znači samo. Međutim, u određenom kontekstu može značiti i najprije.",
+            "Erst često označava da se nešto dešava kasnije nego što se očekivalo.",
+            "Ich bin erst 18. — Imam samo 18 godina.",
+            "Es ist erst Montag. — Tek je ponedjeljak.",
+            "Erst lernen, dann spielen. — Prvo uči, zatim se igraj."
+          ],
+          "examples": [
+            {
+              "de": "Erst lernen, dann spielen.",
+              "lv": "Prvo uči, pa se igraj."
+            },
+            {
+              "de": "Ich komme erst morgen.",
+              "lv": "Dolazim tek sutra."
+            },
+            {
+              "de": "Er ist erst 18 Jahre alt.",
+              "lv": "Ima samo 18 godina."
+            },
+            {
+              "de": "Wir essen erst um acht Uhr.",
+              "lv": "Jedemo tek u osam sati."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "erst",
+              "meaning": "Samo prvo",
+              "example": "Erst lernen, dann spielen. – Prvo uči, pa se igraj."
+            },
+            {
+              "word": "zuerst",
+              "meaning": "Najprije • Na početku",
+              "example": "Zuerst frühstücken wir. = Prvo doručkujemo."
+            },
+            {
+              "word": "nur",
+              "meaning": "Samo",
+              "example": "Ich habe nur 5 Euro. = Imam samo 5 eura."
+            },
+            {
+              "word": "dann",
+              "meaning": "Onda",
+              "example": "Dann gehen wir nach Hause. = Tada idemo kući."
+            }
+          ],
+          "tip": {
+            "text": "Zapamti: vrijeme/broj → erst • Količina → nur."
+          },
+          "accents": {
+            "blue": [
+              "erst",
+              "Erst"
+            ],
+            "green": [
+              "zuerst",
+              "Zuerst"
+            ],
+            "yellow": [
+              "nur"
+            ],
+            "red": [
+              "dann",
+              "Dann"
+            ]
+          },
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "erst"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Erst"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erst"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erst"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "erst"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "erst"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "zuerst"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "nur"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "dann"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          },
+          "important": [
+            "Erst i zuerst nisu potpuni sinonimi.",
+            "Erst često znači: samo.",
+            "Zuerst češće znači: najprije."
+          ]
+        }
+      }
     },
     {
       "target_language": "bs",
@@ -1090,7 +2359,166 @@
         "baseline_card_sha256": "efd08170dce9cabb2236c10844406406ad1877d8fb915b8c8337a4c16ed3fb3c",
         "post_owner_card_sha256": "ace1c657c85f88634786a3dff35725172403d22fc3d33106a33e37c585895bc7"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "nešto",
+        "study": {
+          "id": "a1-etwas",
+          "layout": "standardStudy",
+          "translation": "nešto",
+          "explanation": [
+            "Glavna ideja: etwas uglavnom znači nešto. Kod pridjeva može značiti pomalo.",
+            "Ich habe etwas gesehen. — Vidio sam nešto.",
+            "Das ist etwas teuer. — To je malo preskupo."
+          ],
+          "examples": [
+            {
+              "de": "Ich möchte etwas trinken.",
+              "lv": "Želio bih nešto popiti."
+            },
+            {
+              "de": "Hast du etwas Zeit?",
+              "lv": "Imaš li malo vremena?"
+            },
+            {
+              "de": "Ich bin etwas müde.",
+              "lv": "Malo sam umoran"
+            },
+            {
+              "de": "Ich habe etwas für dich.",
+              "lv": "Imam nešto za tebe."
+            },
+            {
+              "de": "Das ist etwas teuer.",
+              "lv": "Malo je skupo."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "etwas",
+              "meaning": "Nešto / malo",
+              "example": "Ich brauche etwas. = Trebam nešto."
+            },
+            {
+              "word": "was",
+              "meaning": "Nešto (kolokvijalno)",
+              "example": "Willst du was trinken? = Želiš li nešto piti?"
+            },
+            {
+              "word": "ein bisschen",
+              "meaning": "Malo",
+              "example": "Ich bin ein bisschen müde. = Ja sam malo umoran."
+            },
+            {
+              "word": "nichts",
+              "meaning": "Ništa",
+              "example": "Ich brauche nichts. – Ne trebam ništa."
+            }
+          ],
+          "tip": {
+            "text": "Zapamti: stvar → nešto • Stepen → pomalo."
+          },
+          "important": [
+            "Uz pridjeve etwas često znači malo.",
+            "Etwas nije isto što i nichts: etwas znači da nešto postoji, a nichts znači ništa.",
+            "etwas znači „nešto“, a nichts znači „ništa“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "etwas"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "etwas"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "etwas"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "was"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ein bisschen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "nichts"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bs",
@@ -1124,7 +2552,122 @@
         "RECONSTRUCTION_FAILED"
       ],
       "consolidated_ready_card": null,
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "dobar • dobro",
+        "study": {
+          "id": "a1-gut-study",
+          "layout": "standardStudy",
+          "translation": "dobar • dobro",
+          "explanation": [
+            "Glavna ideja: gut je pridjev/prilog — dobar, uspješno, u redu.",
+            "Gut opisuje kvalitet, zdravlje ili to kako se nešto odvija (Es geht mir gut. = Dobro sam.).",
+            "U pozdravima Guten Morgen!, Guten Tag! i Guten Abend! pridjev gut ima nastavak -en.",
+            "Ako gut opisuje glagol, to je prilog (gut schwimmen = dobro plivati).",
+            "Ne brkaj s das Gut — to je, s velikim slovom i članom, imenica (imovina, imanje)."
+          ],
+          "examples": [
+            {
+              "de": "Das Essen ist gut.",
+              "lv": "Hrana je dobra."
+            },
+            {
+              "de": "Wie geht es dir? – Gut, danke!",
+              "lv": "Kako si? – Dobro, hvala!"
+            },
+            {
+              "de": "Er spricht gut Deutsch.",
+              "lv": "On dobro govori njemački."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobro jutro!"
+            },
+            {
+              "de": "Das ist eine gute Idee.",
+              "lv": "To je dobra ideja."
+            },
+            {
+              "de": "Alles ist gut.",
+              "lv": "Sve je u redu."
+            }
+          ],
+          "tip": [
+            "Gut bez člana je pridjev/prilog — dobar/dobro.",
+            "Das Gut s velikim slovom i članom je sasvim druga riječ — imenica (vlasništvo, imanje)."
+          ],
+          "important": [
+            "gut = dobar / dobro (pridjev ili prilog).",
+            "das Gut = imovina / imanje (imenica).",
+            "Guten Morgen / Guten Tag / Guten Abend — pridjev gut ima nastavak -en."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gut"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gut"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "bs",
@@ -1203,7 +2746,119 @@
         "baseline_card_sha256": "c69024f5e83190541f7dd9f503ec9a08be867bb2d04ed73cf048b2fac2392d7e",
         "post_owner_card_sha256": "fdf59a25d2aec749161525fc6ca9457f6e33f32f446cbef1c83362d547a5a822"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "jutro",
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "jutro",
+          "explanation": [
+            "Der Morgen je imenica koja znači „jutro“.",
+            "Piše se velikim slovom i koristi s članom der.",
+            "morgen malim slovom znači „sutra“.",
+            "Guten Morgen! = Dobro jutro!; Ich komme morgen. = Dolazim sutra."
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobro jutro!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Do sutra!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Dolazim sutra."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Sutra je ponedjeljak."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobro jutro!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Jutro je predivno."
+            }
+          ],
+          "tip": [
+            "morgen = sutra; der Morgen = jutro.",
+            "Veliko slovo označava imenicu."
+          ],
+          "important": [
+            "Morgen je malo slovo - to je vremenski prilog (sutra).",
+            "Der Morgen s velikim slovom i članom der je imenica (jutro).",
+            "Dobro jutro! — uvijek sa velikim M (jutro, ne sutra).",
+            "Netačno: Guten morgen! → Tačno: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "cs",
@@ -1293,7 +2948,121 @@
         "baseline_card_sha256": "0734870f1d944009dd87aae7f4f25e89b6777ab8631ba81dc3b057908ec61b84",
         "post_owner_card_sha256": "0734870f1d944009dd87aae7f4f25e89b6777ab8631ba81dc3b057908ec61b84"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "Muž • Manžel",
+        "study": {
+          "id": "a1-mann",
+          "layout": "standardStudy",
+          "translation": "Muž • Manžel",
+          "explanation": [
+            "Hlavní myšlenka: der Mann může znamenat muž (pohlaví) nebo manžel (manžel).",
+            "Pokud je to prostě záležitost pohlaví nebo osoby, der Mann = muž.",
+            "Pro manžela, der Mann = manžel (mein Mann = můj manžel).",
+            "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy znamená manžela.",
+            "Množné číslo: die Männer.",
+            "Ženská forma die Frau má stejný dvojí význam: žena a manželka."
+          ],
+          "examples": [
+            {
+              "de": "Er ist ein netter Mann.",
+              "lv": "Je to milý muž."
+            },
+            {
+              "de": "Das ist mein Mann.",
+              "lv": "Tohle je můj manžel."
+            },
+            {
+              "de": "Wie viele Männer sind hier?",
+              "lv": "Kolik je tady mužů?"
+            },
+            {
+              "de": "Mein Mann arbeitet in Berlin.",
+              "lv": "Můj manžel pracuje v Berlíně."
+            },
+            {
+              "de": "Der Mann trägt einen Anzug.",
+              "lv": "Muž nosí oblek."
+            },
+            {
+              "de": "Ihr Mann ist Arzt.",
+              "lv": "Její manžel je lékař."
+            }
+          ],
+          "tip": [
+            "Přivlastňovací zájmeno (mein/dein/ihr Mann) téměř vždy označuje manžela.",
+            "Bez přivlastňovacího (der Mann, ein Mann) obvykle znamená muž."
+          ],
+          "important": [
+            "Der Mann = muž NEBO manžel – v závislosti na kontextu.",
+            "Mein Mann = můj manžel (nikoli 'můj muž').",
+            "Množné číslo: die Männer."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Mann"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Mann"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "cs",
@@ -1387,7 +3156,153 @@
         "baseline_card_sha256": "d940ed7d4da05394eb174e6c5ae983c39f7b0343e77ef774479f8516a628192f",
         "post_owner_card_sha256": "d940ed7d4da05394eb174e6c5ae983c39f7b0343e77ef774479f8516a628192f"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "s",
+        "study": {
+          "id": "a1-mit",
+          "layout": "standardStudy",
+          "translation": "s",
+          "explanation": [
+            "Hlavní myšlenka: mit nejčastěji znamená s.",
+            "Mit se používá, když je člověk s někým nebo něco dělá s věcí.",
+            "Doprava mit často znamená jet autobusem, vlakem nebo autem.",
+            "Na úrovni A1 jsou velmi časté fráze mit dem Bus, mit dem Auto a mit dir."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme mit dir.",
+              "lv": "Jdu s tebou."
+            },
+            {
+              "de": "Ich fahre mit dem Bus.",
+              "lv": "Jedu autobusem."
+            },
+            {
+              "de": "Sie schreibt mit dem Stift.",
+              "lv": "Píše perem."
+            },
+            {
+              "de": "Kommst du mit?",
+              "lv": "Půjdeš se mnou?"
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mit",
+              "meaning": "S / spolu s",
+              "example": "Ich komme mit dir. – Jdu s tebou."
+            },
+            {
+              "word": "ohne",
+              "meaning": "Bez",
+              "example": "Ich komme ohne dich. – Jdu bez tebe."
+            },
+            {
+              "word": "bei",
+              "meaning": "U / u někoho",
+              "example": "Ich bin bei Anna. – Jsem u Anny."
+            },
+            {
+              "word": "zu",
+              "meaning": "K / ke",
+              "example": "Ich gehe zum Arzt. – Jdu k lékaři."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: spolu s někým nebo s dopravou → mit."
+          },
+          "important": [
+            "Mit vyžaduje dativ: mit dem Bus, mit der Mutter, mit dir.",
+            "Kommst du mit? znamená „Půjdeš se mnou?“"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "mit"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "mit"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "mit"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "mit"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "ohne"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "bei"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "zu"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "cs",
@@ -1474,7 +3389,145 @@
         "baseline_card_sha256": "c14bff48a37902bb060a7addd83a1605da6eca921d19f85bf132ace360ed6f08",
         "post_owner_card_sha256": "c14bff48a37902bb060a7addd83a1605da6eca921d19f85bf132ace360ed6f08"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "Mít rád",
+        "study": {
+          "id": "a1-mögen",
+          "layout": "standardStudy",
+          "translation": "Mít rád",
+          "explanation": [
+            "Hlavní myšlenka: mögen nejčastěji znamená mít něco rád.",
+            "Ich mag... se v češtině obvykle překládá jako „Mám rád/a...“ nebo podle kontextu „Líbí se mi...“.",
+            "Möchte je další forma používaná pro zdvořilou touhu: chtěl bych.",
+            "Na úrovni A1 je nejdůležitější fráze Ich mag das."
+          ],
+          "examples": [
+            {
+              "de": "Ich mag Musik.",
+              "lv": "Mám rád hudbu."
+            },
+            {
+              "de": "Magst du Kaffee?",
+              "lv": "Máš rád kávu?"
+            },
+            {
+              "de": "Sie mag Kinder.",
+              "lv": "Má ráda děti."
+            },
+            {
+              "de": "Ich möchte einen Kaffee.",
+              "lv": "Chtěl bych kávu."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "mögen",
+              "meaning": "Mít rád",
+              "example": "Ich mag Musik. – Mám rád hudbu."
+            },
+            {
+              "word": "möchte",
+              "meaning": "Chtěl bych",
+              "example": "Ich möchte Kaffee. – Chtěl/a bych kávu."
+            },
+            {
+              "word": "wollen",
+              "meaning": "Chtít",
+              "example": "Ich will nach Hause. – Chci domů."
+            },
+            {
+              "word": "lieben",
+              "meaning": "Milovat",
+              "example": "Ich liebe dich. – Miluji tě."
+            }
+          ],
+          "tip": {
+            "text": "Pamatujte: Ich mag... = Mám rád/a..."
+          },
+          "important": [
+            "Mögen se nepoužívá pro zdvořilé „chtěl bych“. K tomu se obvykle používá möchte.",
+            "Ich mag Kaffee znamená „Mám rád kávu“."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "mögen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "mögen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "möchte"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "wollen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "lieben"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "cs",
@@ -1570,7 +3623,123 @@
         "baseline_card_sha256": "b9b644b8fad5b1e58c8ca36b65fdcca3f83d332d33ab09b58e849740a0b68139",
         "post_owner_card_sha256": "b9b644b8fad5b1e58c8ca36b65fdcca3f83d332d33ab09b58e849740a0b68139"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "zítra",
+        "study": {
+          "id": "a1-morgen",
+          "layout": "standardStudy",
+          "translation": "zítra",
+          "explanation": [
+            "morgen s malým písmenem znamená „zítra“.",
+            "Morgen s velkým písmenem je podstatné jméno „ráno“.",
+            "Ich komme morgen. = Přijdu zítra.",
+            "Guten Morgen! = Dobré ráno!"
+          ],
+          "examples": [
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Přijdu zítra."
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Až zítra!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Přijdu zítra."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Zítra je pondělí."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobré ráno!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Ráno je krásné."
+            }
+          ],
+          "tip": [
+            "morgen = zítra; der Morgen = ráno.",
+            "Malé písmeno označuje příslovce."
+          ],
+          "important": [
+            "Morgen je malé písmeno - je to časové příslovce (zítra).",
+            "Der Morgen s velkým písmenem a členem der je podstatné jméno (ráno).",
+            "Dobré ráno! — vždy s velkým M (ráno, ne zítra).",
+            "Špatně: Guten morgen! → Správně: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "morgen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "cs",
@@ -1666,7 +3835,119 @@
         "baseline_card_sha256": "6aadcdab1160583344c739ba10ff70ba6c95ea158d1470b87011c2d2c2fde112",
         "post_owner_card_sha256": "6aadcdab1160583344c739ba10ff70ba6c95ea158d1470b87011c2d2c2fde112"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "ráno",
+        "study": {
+          "id": "a1-morgen-study",
+          "layout": "standardStudy",
+          "translation": "ráno",
+          "explanation": [
+            "Der Morgen je podstatné jméno „ráno“.",
+            "Píše se s velkým písmenem a používá se s členem der.",
+            "morgen s malým písmenem znamená „zítra“.",
+            "Guten Morgen! = Dobré ráno!; Ich komme morgen. = Přijdu zítra."
+          ],
+          "examples": [
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobré ráno!"
+            },
+            {
+              "de": "Bis morgen!",
+              "lv": "Až zítra!"
+            },
+            {
+              "de": "Ich komme morgen.",
+              "lv": "Přijdu zítra."
+            },
+            {
+              "de": "Morgen ist Montag.",
+              "lv": "Zítra je pondělí."
+            },
+            {
+              "de": "Guten Morgen!",
+              "lv": "Dobré ráno!"
+            },
+            {
+              "de": "Der Morgen ist schön.",
+              "lv": "Ráno je krásné."
+            }
+          ],
+          "tip": [
+            "morgen = zítra; der Morgen = ráno.",
+            "Velké M označuje podstatné jméno."
+          ],
+          "important": [
+            "Morgen je malé písmeno - je to časové příslovce (zítra).",
+            "Der Morgen s velkým písmenem a členem der je podstatné jméno (ráno).",
+            "Dobré ráno! — vždy s velkým M (ráno, ne zítra).",
+            "Špatně: Guten morgen! → Správně: Guten Morgen!"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Morgen"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Morgen"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "da",
@@ -1790,7 +4071,119 @@
         "baseline_card_sha256": "b9db0dd772c593a698dfc4c2ba72f0fc07a9b06e3f2a2e9c8b1e7fa8f1c1bc87",
         "post_owner_card_sha256": "b9db0dd772c593a698dfc4c2ba72f0fc07a9b06e3f2a2e9c8b1e7fa8f1c1bc87"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "straks • ens",
+        "study": {
+          "id": "a1-gleich",
+          "layout": "standardStudy",
+          "translation": "straks • ens",
+          "explanation": [
+            "gleich har to hovedbetydninger: „straks / om lidt“ og „ens / den samme“.",
+            "Om tid: Ich komme gleich. = Jeg kommer straks.",
+            "Ved sammenligning: die gleiche Farbe = den samme farve.",
+            "Konteksten viser betydningen."
+          ],
+          "examples": [
+            {
+              "de": "Ich komme gleich.",
+              "lv": "Jeg kommer med det samme."
+            },
+            {
+              "de": "Wir haben die gleiche Farbe.",
+              "lv": "Vi har samme farve."
+            },
+            {
+              "de": "Das Essen ist gleich fertig.",
+              "lv": "Maden er snart klar."
+            },
+            {
+              "de": "Beide Wege sind gleich lang.",
+              "lv": "Begge stier er lige lange."
+            },
+            {
+              "de": "Bis gleich!",
+              "lv": "Vi ses snart!"
+            },
+            {
+              "de": "Sie sind gleich groß.",
+              "lv": "De har samme højde."
+            }
+          ],
+          "tip": [
+            "Om tid → straks / om lidt.",
+            "Ved sammenligning → ens / den samme."
+          ],
+          "important": [
+            "gleich betyder enten „straks“ eller „ens“.",
+            "Bis gleich! = „Vi ses om lidt!“"
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "gleich"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "gleich"
+                  ]
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "da",
@@ -1896,7 +4289,147 @@
         "baseline_card_sha256": "013f8dae15ce4592aa26c61fd437acbdf96bf7f5a24b86ac618a348484959f60",
         "post_owner_card_sha256": "013f8dae15ce4592aa26c61fd437acbdf96bf7f5a24b86ac618a348484959f60"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "kunne",
+        "study": {
+          "id": "a1-können",
+          "layout": "standardStudy",
+          "translation": "kunne",
+          "explanation": [
+            "können betyder at kunne eller være i stand til noget.",
+            "Det bruges om både evne og mulighed.",
+            "können er et modalverbum, så det andet verbum normalt står sidst.",
+            "På dansk gengives det normalt med „kunne“."
+          ],
+          "examples": [
+            {
+              "de": "Ich kann Deutsch sprechen.",
+              "lv": "Jeg kan tale tysk"
+            },
+            {
+              "de": "Kannst du mir helfen?",
+              "lv": "Kan du hjælpe mig"
+            },
+            {
+              "de": "Wir können heute kommen.",
+              "lv": "Vi kan komme i dag."
+            },
+            {
+              "de": "Er kann gut schwimmen.",
+              "lv": "Han kan godt svømme."
+            }
+          ],
+          "comparison": [
+            {
+              "word": "können",
+              "meaning": "kunne",
+              "example": "Ich kann schwimmen. = Jeg kan svømme."
+            },
+            {
+              "word": "dürfen",
+              "meaning": "At få lov",
+              "example": "Darf ich gehen? = Må jeg gå?"
+            },
+            {
+              "word": "müssen",
+              "meaning": "skulle / være nødt til",
+              "example": "Ich muss lernen. = Jeg skal lære."
+            },
+            {
+              "word": "wissen",
+              "meaning": "At vide",
+              "example": "Ich weiß das. = Jeg ved det."
+            }
+          ],
+          "tip": {
+            "text": "Husk: dygtighed/evne → können."
+          },
+          "important": [
+            "können = kunne; dürfen = måtte / have lov.",
+            "I en sætning med können kommer det andet verbum ofte til sidst: Ich kann schwimmen."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "können"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "können"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              }
+            ],
+            "comparison": [
+              {
+                "word": {
+                  "green": [
+                    "können"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "dürfen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "müssen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              },
+              {
+                "word": {
+                  "green": [
+                    "wissen"
+                  ]
+                },
+                "meaning": {},
+                "example": {}
+              }
+            ],
+            "tip": {
+              "left": {}
+            },
+            "important": [
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "da",
@@ -1971,7 +4504,93 @@
         "baseline_card_sha256": "b317c9c97b8696b3dd44b3a0395c179105448adba5f3c40cd154553d44306088",
         "post_owner_card_sha256": "7e4d770c9888fdc4d6a542d362c3186aeec2365ae83924d18c5115975b583cd9"
       },
-      "full_card_owner_new": null
+      "full_card_owner_new": {
+        "lv": "butik",
+        "study": {
+          "id": "a1-laden-study",
+          "layout": "standardStudy",
+          "translation": "butik",
+          "explanation": [
+            "der Laden med stort L er et navneord: en mindre butik.",
+            "laden med lille l er et verbum: at læsse eller oplade.",
+            "im Laden einkaufen = at handle i en butik.",
+            "Flertal: die Läden."
+          ],
+          "examples": [
+            {
+              "de": "Ich gehe in den Laden.",
+              "lv": "Jeg går i butikken"
+            },
+            {
+              "de": "Der Laden ist geschlossen.",
+              "lv": "Butikken er lukket."
+            },
+            {
+              "de": "Es gibt viele Läden hier.",
+              "lv": "Her er mange butikker."
+            },
+            {
+              "de": "Ich muss mein Handy laden.",
+              "lv": "Jeg skal oplade min telefon."
+            }
+          ],
+          "tip": [
+            "der Laden → navneord (butik).",
+            "laden → verbum (at læsse / oplade)."
+          ],
+          "important": [
+            "der Laden = butik (substantiv).",
+            "laden = loade/charge (udsagnsord).",
+            "Flertal: die Läden."
+          ],
+          "sectionAccents": {
+            "explanation": {
+              "blue": [
+                "Laden"
+              ]
+            },
+            "examples": [
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": [
+                    "Laden"
+                  ]
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              },
+              {
+                "de": {
+                  "blue": []
+                },
+                "lv": {}
+              }
+            ],
+            "tip": [
+              {},
+              {}
+            ],
+            "important": [
+              {},
+              {},
+              {}
+            ]
+          }
+        }
+      }
     },
     {
       "target_language": "da",
