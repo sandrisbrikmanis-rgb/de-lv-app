@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:53:19.496Z",
+  "origin_main_sha": "79b3fac032d869745a6973f18bd3ccb34cc5cf9e",
+  "multipart": false,
+  "artifacts": [
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-PRODUCTION-CLOSURE-AUDIT.json",
+      "sha256": "fd66a3d4461c288cf1bc6505ecc3d795a0b3852738b285caf6fa68730675b23b"
+    },
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-PRODUCTION-CLOSURE-PROOF.json",
+      "sha256": "4ece90eb0b101bddf95664e7f9b754831043fb83905d4c30ddce2c31ad7dfa24"
+    },
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-PRODUCTION-CARD-COVERAGE.json",
+      "sha256": "b305300c6cb1d898ac29bc96fb4c5ea75a3c30827d2be3a231514b2f82e9f8bd"
+    },
+    {
+      "path": "reports/g2-a1-owner/consolidation/production-closure/A1-LRB-001-103-FINDING-ROW-CLOSURE-RECONCILIATION.json",
+      "sha256": "497d8eb35a14b4723de4fdd6a3faf5aae487c7c65ca1d2026edefb7e99b497f1",
+      "byte_length": 3406056,
+      "row_count": 4968
+    }
+  ],
+  "closure_proof_sha256": "4ece90eb0b101bddf95664e7f9b754831043fb83905d4c30ddce2c31ad7dfa24"
+}

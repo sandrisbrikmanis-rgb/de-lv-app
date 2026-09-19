@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T12:53:19.496Z",
+  "pass": true,
+  "blockers": [],
+  "numbers_table": {
+    "lrb_batches": 103,
+    "finding_rows_expanded_generation": 4968,
+    "owner_card_keys": 234,
+    "unique_production_slots": 233,
+    "owner_leaf_trace_rows": 4787,
+    "unique_production_leaf_targets": 4771,
+    "collapsed_alias_leaf_trace_rows": 16,
+    "changed_production_files": 46,
+    "pending": 0,
+    "unresolved_conflicts": 0,
+    "trace_gaps": 0
+  },
+  "finding_row_reconciliation_sum": 4968,
+  "owner_45_applied": "45/45",
+  "alias_reconciliation_sha256": "22de390af6c55e9efa8cf1eb90cd1f291ba58a25395943c9a24168f34e0f8e31",
+  "apply_proof_sha256": "e75204623f9203f9077f5edef77d0c15dc54f3f9180a8231607604226ad8e87f",
+  "apply_manifest_sha256": "3b28b68856b1c44da5b8b3c0af20f80705ae7602de41f145e788d7bba2d1ad77",
+  "classification": "A1_LRB_001_103_PRODUCTION_CLOSURE_AUDIT_PASS_AWAITING_OWNER_VERIFICATION"
+}
