@@ -14747,5 +14747,12 @@
       80,
       100
     ]
+  },
+  "cards_081_100_gala_pass": {
+    "classification": "A1_LRB_CONSOLIDATION_CARDS_081_100_FULL_LINGUISTIC_REVIEW_PASS",
+    "recorded_at": "2026-09-19T08:49:10.983Z",
+    "git_head": "700bffd38c5bdc6281d85a496b8ee3be6a8505ba",
+    "pass_proof_sha256": "3cda58d401d029f8b26434d488607c3066583120cd138f96725aa9e91b0d3db2",
+    "cards_081_100_payload_sha256": "177405a2a6394842486442295f2a6501b7c07e5924a641ed4ec7ac413988b651"
   }
 }
