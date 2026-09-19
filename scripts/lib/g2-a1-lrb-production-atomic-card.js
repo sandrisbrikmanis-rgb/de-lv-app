@@ -217,6 +217,7 @@ function leafSchemaWouldBlock(prodEntry, leafPath) {
     const nxt = parts[i + 1];
     if (cur == null) return false;
     if (/^\d+$/.test(nxt) && cur[p] != null && !Array.isArray(cur[p])) return true;
+    cur = cur[p];
   }
   return false;
 }

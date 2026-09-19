@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T12:13:48.095Z",
+  "generated_at": "2026-09-19T12:14:53.448Z",
   "correction": "TECHNICAL_BLOCKER_RESOLUTION_1",
   "prior_blocked_leaf_count": 409,
   "prior_blocked_by": {
@@ -127,7 +127,8 @@
     }
   ],
   "card_apply_mode_counts": {
-    "READY_EXACT_CURRENT_MATCH": 221,
+    "READY_EXACT_CURRENT_MATCH": 152,
+    "READY_ATOMIC_OWNER_APPROVED_SCHEMA_TRANSITION": 69,
     "READY_EXACT_PRODUCTION_CARD_SNAPSHOT": 13
   },
   "resolved_blocked_cards": true,

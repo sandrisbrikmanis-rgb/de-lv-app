@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-19T12:13:48.095Z",
+  "generated_at": "2026-09-19T12:14:53.448Z",
   "origin_main_sha": "639440d63654bf0f10d7677fd74ce595eb9396cf",
-  "prep_branch_head_sha": "df5ae23fdc2df8ac1c7b78f19b13cb9d01e665f2",
+  "prep_branch_head_sha": "a48725f04eb98a8859c9172d9336212db1877b7d",
   "consolidation_manifest_sha256": "340c0a992fe135bed0981f301d1cdbc0088204ae63cd11dc3cf684edf8a1972c",
   "consolidation_proof_sha256": "fd144470e2a8c594c9abaae64f208dcba59a983c6b9a4c19a56b6ce56d894ad2",
   "gates": {
@@ -42,12 +42,14 @@
   "atomic_ready_cards": 234,
   "blocked_cards": 0,
   "classification_counts": {
-    "READY_EXACT_CURRENT_MATCH": 3494,
+    "READY_EXACT_CURRENT_MATCH": 2379,
     "ALREADY_EQUALS_OWNER_NEW": 1047,
+    "READY_ATOMIC_OWNER_APPROVED_SCHEMA_TRANSITION": 1115,
     "READY_EXACT_PRODUCTION_CARD_SNAPSHOT": 246
   },
   "card_apply_mode_counts": {
-    "READY_EXACT_CURRENT_MATCH": 221,
+    "READY_EXACT_CURRENT_MATCH": 152,
+    "READY_ATOMIC_OWNER_APPROVED_SCHEMA_TRANSITION": 69,
     "READY_EXACT_PRODUCTION_CARD_SNAPSHOT": 13
   },
   "production_language_count": 23,
