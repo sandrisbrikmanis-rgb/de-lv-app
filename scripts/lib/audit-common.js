@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Shared helpers for the generalized, language-parametrized audit/validate
- * scripts (see docs_and_rules/LANGUAGE_AUDIT_STANDARD.md §5).
+ * scripts (see PROJECT_LANGUAGE_MASTER_STANDARD.md §7.7).
  *
  * All native-language data lives at:
  *   - data/{lang}/*.js        for lang !== "lv"
