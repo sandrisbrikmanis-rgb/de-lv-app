@@ -25,7 +25,7 @@ Tas konsolidē un aizstāj kā atsevišķi interpretējamus darba standartus:
 -   `NEW LANGUAGE CREATION — FINAL REPORT STANDARD`
 
 Lingvistiskā audita avotu atbalstīta metodika (33 valodas, PASS/OWNER
-tvērums, reģistrs): `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI.md` — operatīvi
+tvērums, reģistrs): `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` — operatīvi
 iekļauta šajā MASTER dokumentā kā **§7.153–§7.157**.
 
 Iepriekšējie dokumenti drīkst palikt repozitorijā tikai kā
@@ -735,7 +735,7 @@ GitHub-atveramus artefaktus.
 Pēc §7.155 OWNER-PREP **darba rindās** iekļauj tikai `FINDING`,
 `NEEDS_SOURCE_REVIEW`, `SOURCE_DE_ISSUE` un citus skaidri unresolved statusus.
 `AUDIT_PASS` (avotu atbalstīts audita `PASS`) paliek pilnā audit evidence,
-bet neprasa individuālu OWNER verdictu (sk. `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI.md`
+bet neprasa individuālu OWNER verdictu (sk. `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md`
 §11–§13).
 
 Obligāti jāizveido vismaz šādi faili:
@@ -5333,7 +5333,7 @@ Pilns valodu avotu reģistrs (33 valodas, ieskaitot `de` kā
 `SOURCE_LANGUAGE` + `STRICT_READ_ONLY`), divu slāņu avoti
 (`LANGUAGE_NORM_AUTHORITY`, `LANGUAGE_LEARNING_CEFR_AUTHORITY`), obligātā
 divpusējā DE + target pārbaude un pierādījumu lauki — sk.
-`MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI.md` §2–§7.
+`MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` §2–§7.
 
 ## 7.154. Lingvistiskā audita verdikti (v1.18)
 
@@ -6835,7 +6835,7 @@ audits.
 
 Pievienots:
 
-- `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI.md` (pilns grozījumu dokuments);
+- `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` (pilns grozījumu dokuments);
 - §7.153–§7.157;
 - §7.7, §7.6, §7.30, §8, §11.1 precizējumi.
 

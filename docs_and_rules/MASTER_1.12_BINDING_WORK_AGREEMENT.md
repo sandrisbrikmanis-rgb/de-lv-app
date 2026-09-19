@@ -6,7 +6,7 @@
 
 Ja šī dokumenta prasības ir pretrunā ar `PROJECT_LANGUAGE_MASTER_STANDARD.md`, spēkā ir MASTER dokuments. Šis līgums precizē **izpildes secību un Crowdin integrāciju**, nevis aizstāj MASTER normas.
 
-**Lingvistiskais audits:** obligāti `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI.md` + MASTER §7.153–§7.157 (avotu atbalstīts audits, 33 valodas, PASS slēgšana, OWNER tvērums).
+**Lingvistiskais audits:** obligāti `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` + MASTER §7.153–§7.157 (avotu atbalstīts audits, 33 valodas, PASS slēgšana, OWNER tvērums).
 
 ------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ Ja kāds no OWNER uzdevumiem ir pretrunā ar šo līgumu vai MASTER 1.12:
 |---|----------|--------|
 | A1 | Vienīgais autoritatīvais avots: `origin/main` + pēdējā `FINAL_CLOSED` metadata | §0.1, §7.9 |
 | A2 | LV = struktūras/pedagoģijas master; DE = STRICT READ-ONLY | §1.2, §1.4, lingv. groz. §5 |
-| A2b | Lingvistiskais audits = avotu atbalstīts; AI nav LANGUAGE AUTHORITY | §7.153–§7.156, `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI.md` §2, §15 |
+| A2b | Lingvistiskais audits = avotu atbalstīts; AI nav LANGUAGE AUTHORITY | §7.153–§7.156, `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md` §2, §15 |
 | A3 | Viena kartīte = viena galvenā nozīme = viens galvenais tulkojums | §1.1 |
 | A4 | `PROPOSED` / Crowdin / Luna ≠ OWNER lēmums ≠ production `NEW` | §0.2, §1.1.4 |
 | A5 | Vairāku tulkojumu gadījumā: `OWNER_DECISION_REQUIRED`; automātiska izvēle aizliegta | §1.1.3, §1.1.8 |
@@ -199,6 +199,6 @@ G3 Kurss papildus: §11.12 LIVE/runtime gates.
 **Saistītie dokumenti:**
 
 - `PROJECT_LANGUAGE_MASTER_STANDARD.md` (v1.18)
-- `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI.md`
+- `MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md`
 - `PHASE_0_CROWDIN_DISCOVERY_SPEC.md`
 - `LANGUAGE_AUDIT_STANDARD.md` (vēsturisks; lingvistiskā metodika — MASTER §7.153+)
