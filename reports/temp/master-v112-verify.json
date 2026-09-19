@@ -1,7 +1,8 @@
 {
-  "timestamp": "2026-08-24T13:26:51.413Z",
-  "baseRef": "2f4d62089a66b0d101a34cd72d3fdffea2763e93",
-  "masterVersion": "1.12",
+  "timestamp": "2026-09-19T15:19:07.399Z",
+  "baseRef": "origin/main",
+  "masterVersion": "1.18",
+  "MASTER_VERSION_CHECK": "PASS",
   "MASTER_V1_12_PREMERGE_VERIFY": "PASS",
   "MASTER_V1_12_TOOLING_VERIFY": "PASS",
   "V1_10_RULES_RETAINED": "100%",
@@ -9,7 +10,13 @@
   "V1_12_RULES_RETAINED": "100%",
   "SECTION_NUMBER_COLLISIONS": 0,
   "BROKEN_INTERNAL_REFERENCES": 0,
-  "MASTER_SEMANTIC_REGRESSION": 0,
+  "BATCH_TABLE_UNCHANGED": "PASS",
+  "EMBEDDED_LANGUAGE_REGISTRY": "PASS",
+  "EMBEDDED_LANGUAGE_REGISTRY_COUNT": 33,
+  "LANGUAGE_CODE_DUPLICATES": 0,
+  "MISSING_LANGUAGE_CODES": 0,
+  "UNKNOWN_LANGUAGE_CODES": 0,
+  "DOC_REFERENCES_APVIENOTS": "PASS",
   "PRODUCTION_CHANGES": 0,
   "DE_CHANGES": 0,
   "productionFilesChanged": [],
@@ -21,6 +28,317 @@
   },
   "sectionCollisions": [],
   "brokenRefs": [],
+  "versionCheck": {
+    "pass": true,
+    "masterVersion": "1.18",
+    "floor": "1.12",
+    "authorizedMin": "1.18",
+    "reason": null
+  },
+  "batchTable": {
+    "pass": true,
+    "expectedLines": 7,
+    "missing": []
+  },
+  "docRefs": {
+    "pass": true,
+    "missingIn": [],
+    "apvienotsName": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md"
+  },
+  "requiredFiles": {
+    "pass": true,
+    "missing": []
+  },
+  "embeddedRegistry": {
+    "pass": true,
+    "blockerCode": null,
+    "blockerMessage": null,
+    "registryDocument": "docs_and_rules/MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md",
+    "registrySection": "# 3. LANGUAGE AUTHORITY REGISTRY — 33 VALODAS",
+    "EMBEDDED_LANGUAGE_REGISTRY_COUNT": 33,
+    "LANGUAGE_CODE_DUPLICATES": 0,
+    "MISSING_LANGUAGE_CODES": 0,
+    "UNKNOWN_LANGUAGE_CODES": 0,
+    "missingLanguageCodesList": [],
+    "unknownLanguageCodesList": [],
+    "duplicateLanguageCodesList": [],
+    "missingIndices": [],
+    "duplicateIndices": [],
+    "elGrMappingPass": true,
+    "dePresentPass": true,
+    "bgPresentPass": true,
+    "emptyMandatoryFieldCount": 0,
+    "invalidUrlFieldCount": 0,
+    "emptyMandatoryFields": [],
+    "invalidUrlFields": [],
+    "coverageRows": [
+      {
+        "index": 1,
+        "standardCode": "bs",
+        "appCode": "bs",
+        "languageName": "Bosniešu",
+        "authorityName": "Institut za jezik Univerziteta u Sarajevu",
+        "urlCount": 1
+      },
+      {
+        "index": 2,
+        "standardCode": "en",
+        "appCode": "en",
+        "languageName": "Britu angļu",
+        "authorityName": "Oxford English Dictionary / Oxford Learner's Dictionaries",
+        "urlCount": 2
+      },
+      {
+        "index": 3,
+        "standardCode": "cs",
+        "appCode": "cs",
+        "languageName": "Čehu",
+        "authorityName": "Ústav pro jazyk český AV ČR — Internetová jazyková příručka",
+        "urlCount": 1
+      },
+      {
+        "index": 4,
+        "standardCode": "da",
+        "appCode": "da",
+        "languageName": "Dāņu",
+        "authorityName": "Dansk Sprognævn — Retskrivningsordbogen",
+        "urlCount": 1
+      },
+      {
+        "index": 5,
+        "standardCode": "et",
+        "appCode": "et",
+        "languageName": "Igauņu",
+        "authorityName": "Eesti Keele Instituut — ÕS / Sõnaveeb",
+        "urlCount": 1
+      },
+      {
+        "index": 6,
+        "standardCode": "es",
+        "appCode": "es",
+        "languageName": "Spāņu",
+        "authorityName": "Real Academia Española — DLE / Ortografía",
+        "urlCount": 2
+      },
+      {
+        "index": 7,
+        "standardCode": "fr",
+        "appCode": "fr",
+        "languageName": "Franču",
+        "authorityName": "Académie française — Dictionnaire de l’Académie française",
+        "urlCount": 1
+      },
+      {
+        "index": 8,
+        "standardCode": "hr",
+        "appCode": "hr",
+        "languageName": "Horvātu",
+        "authorityName": "Institut za hrvatski jezik — Hrvatski pravopis",
+        "urlCount": 1
+      },
+      {
+        "index": 9,
+        "standardCode": "is",
+        "appCode": "is",
+        "languageName": "Islandiešu",
+        "authorityName": "Stofnun Árna Magnússonar — BÍN / Málið.is",
+        "urlCount": 2
+      },
+      {
+        "index": 10,
+        "standardCode": "it",
+        "appCode": "it",
+        "languageName": "Itāļu",
+        "authorityName": "Accademia della Crusca",
+        "urlCount": 1
+      },
+      {
+        "index": 11,
+        "standardCode": "lv",
+        "appCode": "lv",
+        "languageName": "Latviešu",
+        "authorityName": "Latviešu valodas aģentūra + MLVV/Tēzaurs",
+        "urlCount": 3
+      },
+      {
+        "index": 12,
+        "standardCode": "lb",
+        "appCode": "lb",
+        "languageName": "Luksemburgiešu",
+        "authorityName": "Zenter fir d'Lëtzebuerger Sprooch — LOD",
+        "urlCount": 2
+      },
+      {
+        "index": 13,
+        "standardCode": "lt",
+        "appCode": "lt",
+        "languageName": "Lietuviešu",
+        "authorityName": "Lietuvių kalbos institutas + VLKK",
+        "urlCount": 2
+      },
+      {
+        "index": 14,
+        "standardCode": "hu",
+        "appCode": "hu",
+        "languageName": "Ungāru",
+        "authorityName": "HUN-REN Nyelvtudományi Kutatóközpont",
+        "urlCount": 1
+      },
+      {
+        "index": 15,
+        "standardCode": "nl",
+        "appCode": "nl",
+        "languageName": "Nīderlandiešu",
+        "authorityName": "Nederlandse Taalunie — Woordenlijst Nederlandse Taal",
+        "urlCount": 2
+      },
+      {
+        "index": 16,
+        "standardCode": "nb",
+        "appCode": "nb",
+        "languageName": "Norvēģu Bokmål",
+        "authorityName": "Språkrådet / Bokmålsordboka",
+        "urlCount": 2
+      },
+      {
+        "index": 17,
+        "standardCode": "nn",
+        "appCode": "nn",
+        "languageName": "Norvēģu Nynorsk",
+        "authorityName": "Språkrådet / Nynorskordboka",
+        "urlCount": 2
+      },
+      {
+        "index": 18,
+        "standardCode": "pl",
+        "appCode": "pl",
+        "languageName": "Poļu",
+        "authorityName": "Rada Języka Polskiego + WSJP PAN",
+        "urlCount": 2
+      },
+      {
+        "index": 19,
+        "standardCode": "pt",
+        "appCode": "pt",
+        "languageName": "Portugāļu",
+        "authorityName": "Academia das Ciências de Lisboa",
+        "urlCount": 2
+      },
+      {
+        "index": 20,
+        "standardCode": "ro",
+        "appCode": "ro",
+        "languageName": "Rumāņu",
+        "authorityName": "Academia Română / Institutul de Lingvistică — DOOM",
+        "urlCount": 3
+      },
+      {
+        "index": 21,
+        "standardCode": "sq",
+        "appCode": "sq",
+        "languageName": "Albāņu",
+        "authorityName": "Akademia e Shkencave e Shqipërisë",
+        "urlCount": 1
+      },
+      {
+        "index": 22,
+        "standardCode": "sk",
+        "appCode": "sk",
+        "languageName": "Slovāku",
+        "authorityName": "Jazykovedný ústav Ľudovíta Štúra SAV",
+        "urlCount": 2
+      },
+      {
+        "index": 23,
+        "standardCode": "sl",
+        "appCode": "sl",
+        "languageName": "Slovēņu",
+        "authorityName": "ZRC SAZU — FRAN",
+        "urlCount": 2
+      },
+      {
+        "index": 24,
+        "standardCode": "sr",
+        "appCode": "sr",
+        "languageName": "Serbu",
+        "authorityName": "Institut za srpski jezik SANU + Matica srpska",
+        "urlCount": 2
+      },
+      {
+        "index": 25,
+        "standardCode": "fi",
+        "appCode": "fi",
+        "languageName": "Somu",
+        "authorityName": "Kotimaisten kielten keskus — Kielitoimiston sanakirja",
+        "urlCount": 2
+      },
+      {
+        "index": 26,
+        "standardCode": "sv",
+        "appCode": "sv",
+        "languageName": "Zviedru",
+        "authorityName": "Svenska Akademien — SAOL / SO / SAOB",
+        "urlCount": 2
+      },
+      {
+        "index": 27,
+        "standardCode": "tr",
+        "appCode": "tr",
+        "languageName": "Turku",
+        "authorityName": "Türk Dil Kurumu — Güncel Türkçe Sözlük / Yazım Kılavuzu",
+        "urlCount": 2
+      },
+      {
+        "index": 28,
+        "standardCode": "el",
+        "appCode": "gr",
+        "languageName": "Grieķu",
+        "authorityName": "Κέντρο Ελληνικής Γλώσσας",
+        "urlCount": 1
+      },
+      {
+        "index": 29,
+        "standardCode": "bg",
+        "appCode": "bg",
+        "languageName": "Bulgāru",
+        "authorityName": "Институт за български език, БАН — Официален правописен речник",
+        "urlCount": 2
+      },
+      {
+        "index": 30,
+        "standardCode": "mk",
+        "appCode": "mk",
+        "languageName": "Maķedoniešu",
+        "authorityName": "Институт за македонски јазик „Крсте Мисирков“",
+        "urlCount": 1
+      },
+      {
+        "index": 31,
+        "standardCode": "ru",
+        "appCode": "ru",
+        "languageName": "Krievu",
+        "authorityName": "Институт русского языка им. В. В. Виноградова РАН",
+        "urlCount": 2
+      },
+      {
+        "index": 32,
+        "standardCode": "uk",
+        "appCode": "uk",
+        "languageName": "Ukraiņu",
+        "authorityName": "Інститут української мови НАН України + Український правопис",
+        "urlCount": 2
+      },
+      {
+        "index": 33,
+        "standardCode": "de",
+        "appCode": "de",
+        "languageName": "Vācu",
+        "authorityName": "Rat für deutsche Rechtschreibung + Goethe-Institut + Duden + IDS/DWDS",
+        "urlCount": 5
+      }
+    ],
+    "legacyApvienotsReferences": 0
+  },
   "tooling": {
     "regressionPass": true,
     "inventoryOk": true,
@@ -51,5 +369,6 @@
         "pass": true
       }
     ]
-  }
+  },
+  "blockers": []
 }

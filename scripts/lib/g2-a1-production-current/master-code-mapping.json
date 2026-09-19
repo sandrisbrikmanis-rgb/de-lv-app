@@ -21,6 +21,9 @@
     { "code": "FULL_AUTH_GATES", "masterDocument": "MASTER_1.12_BINDING_WORK_AGREEMENT.md", "section": "A2b + authorized audit entry", "module": "authorize-full-run.js", "function": "authorizeFullProductionCurrentAudit" },
     { "code": "POST_RUN_CLOSURE", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§13 + §17 + §18 metadata", "module": "post-run-verify.js", "function": "verifyPostRunClosure" },
     { "code": "CSV_4MB_MULTIPART", "masterDocument": "PROJECT_LANGUAGE_MASTER_STANDARD.md", "section": "OWNER CSV upload limits (operational)", "module": "csv-multipart.js", "function": "splitCsvMultipart / mergeCsvMultipart" },
-    { "code": "TECHNICAL_INVENTORY_DRY_RUN", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§2–§7 (inventory without verdict)", "module": "audit-rows.js", "function": "buildTechnicalInventoryRowsForLanguage" }
+    { "code": "TECHNICAL_INVENTORY_DRY_RUN", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§2–§7 (inventory without verdict)", "module": "audit-rows.js", "function": "buildTechnicalInventoryRowsForLanguage" },
+    { "code": "FULL_A1_SCOPE_INVENTORY", "masterDocument": "MASTER_1.12_LINGVISTISKA_AUDITA_GROZIJUMI_APVIENOTS.md", "section": "§1 TVĒRUMS + §6 divpusējā pārbaude", "module": "audit-scope-inventory.js", "function": "buildAuditScopeInventory" },
+    { "code": "BATCH_MANIFEST_G2_A1", "masterDocument": "PROJECT_LANGUAGE_MASTER_STANDARD.md", "section": "Batch limits (unchanged)", "module": "batch-manifest.js", "function": "buildBatchManifest" },
+    { "code": "LOCAL_MERGE_GATE", "masterDocument": "MASTER_1.12_BINDING_WORK_AGREEMENT.md", "section": "A2b audit readiness", "module": "verify-g2-a1-production-current-local-merge-gate.js", "function": "main" }
   ]
 }

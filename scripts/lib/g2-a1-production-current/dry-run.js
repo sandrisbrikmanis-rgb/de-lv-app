@@ -7,6 +7,8 @@ const { loadG2ProductionObjects, verifyBatchLimitsForLang } = require("./objects
 const { buildTechnicalInventoryRowsForLanguage } = require("./audit-rows");
 const { validateTechnicalInventoryRecord } = require("./evidence-schema");
 const { AUDIT_LANGUAGES, AUDIT_VERDICTS, FORBIDDEN_AUDIT_VERDICTS } = require("./constants");
+const { buildAuditScopeInventory } = require("./audit-scope-inventory");
+const { buildBatchManifest } = require("./batch-manifest");
 
 function runDryRun(options = {}) {
   const preflight = runPreflight(options);
@@ -42,9 +44,24 @@ function runDryRun(options = {}) {
     });
   }
 
+  const scope = buildAuditScopeInventory();
+  const batchManifest = buildBatchManifest();
+
   const summary = {
     auditLanguages: AUDIT_LANGUAGES.length,
     totalAuditRows: allRows.length,
+    scopeInventory: {
+      totalAuditRows: scope.totalAuditRows,
+      cardTypeTotals: scope.cardTypeTotals,
+      fieldCategoryTotals: scope.fieldCategoryTotals,
+      STAGING_AS_CURRENT: scope.STAGING_AS_CURRENT,
+      AUDIT_SOURCE: scope.AUDIT_SOURCE,
+    },
+    batchManifest: {
+      pass: batchManifest.pass,
+      totalBatches: batchManifest.totalBatches,
+      BATCH_LIMIT_CHANGES: batchManifest.BATCH_LIMIT_CHANGES,
+    },
     auditBaselineSha,
     productionFileSetSha256: auditBaselineSha,
     batchConfigurationPass: batchPass,
@@ -56,7 +73,7 @@ function runDryRun(options = {}) {
   };
 
   return {
-    pass: batchPass && allRows.length > 0,
+    pass: batchPass && allRows.length > 0 && scope.pass && batchManifest.pass && allRows.length === scope.totalAuditRows,
     phase: "dry-run",
     preflight,
     inventory,

@@ -1,0 +1,86 @@
+{
+  "classification": "G2_A1_PRODUCTION_CURRENT_LOCAL_MERGE_GATE",
+  "generatedAt": "2026-09-19T15:19:31.799Z",
+  "headSha": "b2c07a5a1de1558213ef64c35d97ec1d47369457",
+  "originMainSha": "e3ab5158596973e9f81664e3950be0ba24d63ad7",
+  "ciInvestigation": {
+    "workflowsDirectoryExists": false,
+    "conclusion": "NO_APPLICABLE_GITHUB_CI_CONFIGURED",
+    "reason": "No .github/workflows in repository; local verifier suite is merge gate."
+  },
+  "steps": [
+    {
+      "cmd": "npm run test:master-premerge-section-numbers",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run test:embedded-language-registry",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run verify:master-v112-premerge",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run test:g2-a1-production-current-orchestrator",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run test:g2-a1-production-current-master-pipeline",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run verify:g2-a1-production-current-orchestrator",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run audit:g2-a1:production-current:preflight",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run audit:g2-a1:production-current:inventory",
+      "exitCode": 0,
+      "pass": true
+    },
+    {
+      "cmd": "npm run audit:g2-a1:production-current:dry-run",
+      "exitCode": 0,
+      "pass": true
+    }
+  ],
+  "gates": {
+    "MASTER_GATES": "PASS",
+    "AUDIT_LANGUAGES": 32,
+    "totalAuditRows": 95731,
+    "DATA_A1_FILES": 32,
+    "WWW_A1_FILES": 32,
+    "TOTAL_FILE_SET": 64,
+    "MIRROR_MISMATCHES": 0,
+    "STAGING_AS_CURRENT": 0,
+    "AUDIT_SOURCE": "production-current",
+    "BATCH_LIMIT_CHANGES": 0,
+    "batchManifestPass": true,
+    "PRODUCTION_CHANGES": 0,
+    "FULL_AUDIT_EXECUTED": 0,
+    "ciStatus": "NO_APPLICABLE_GITHUB_CI_CONFIGURED",
+    "allStepsPass": true
+  },
+  "scopeSummary": {
+    "cardTypeTotals": {
+      "ordinary": 18176,
+      "standardStudy": 4288
+    },
+    "fieldCategoryTotals": {
+      "scalar": 22464,
+      "study": 73267
+    },
+    "productionFileSetSha256": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9"
+  }
+}

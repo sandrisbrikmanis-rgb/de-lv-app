@@ -4,6 +4,24 @@
   "summary": {
     "auditLanguages": 32,
     "totalAuditRows": 95731,
+    "scopeInventory": {
+      "totalAuditRows": 95731,
+      "cardTypeTotals": {
+        "ordinary": 18176,
+        "standardStudy": 4288
+      },
+      "fieldCategoryTotals": {
+        "scalar": 22464,
+        "study": 73267
+      },
+      "STAGING_AS_CURRENT": 0,
+      "AUDIT_SOURCE": "production-current"
+    },
+    "batchManifest": {
+      "pass": true,
+      "totalBatches": 1600,
+      "BATCH_LIMIT_CHANGES": 0
+    },
     "auditBaselineSha": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
     "productionFileSetSha256": "59919fb31a0bbea4aceeb8b6b3e202288d7de85dd335a5f9eeff8924fc32e9a9",
     "batchConfigurationPass": true,
